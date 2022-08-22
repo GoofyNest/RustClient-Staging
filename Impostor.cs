@@ -17,29 +17,29 @@ public class Impostor : MonoBehaviour, IClientComponent // TypeDefIndex: 10677
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public ImpostorInstanceData get_InstanceData() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
+	// RVA: 0x6AD650 Offset: 0x6ABC50 VA: 0x1806AD650
 	private void set_InstanceData(ImpostorInstanceData value) { }
 
-	// RVA: 0x812580 Offset: 0x810B80 VA: 0x180812580
+	// RVA: 0x812B10 Offset: 0x811110 VA: 0x180812B10
 	private void Awake() { }
 
-	// RVA: 0x812CE0 Offset: 0x8112E0 VA: 0x180812CE0
+	// RVA: 0x813270 Offset: 0x811870 VA: 0x180813270
 	private void OnEnable() { }
 
-	// RVA: 0x812BB0 Offset: 0x8111B0 VA: 0x180812BB0
+	// RVA: 0x813140 Offset: 0x811740 VA: 0x180813140
 	private void OnDisable() { }
 
-	// RVA: 0x812590 Offset: 0x810B90 VA: 0x180812590
+	// RVA: 0x812B20 Offset: 0x811120 VA: 0x180812B20
 	private void InitializeInstanceData() { }
 
-	// RVA: 0x812E10 Offset: 0x811410 VA: 0x180812E10
+	// RVA: 0x8133A0 Offset: 0x8119A0 VA: 0x1808133A0
 	public void UpdateInstance() { }
 
-	// RVA: 0x812E30 Offset: 0x811430 VA: 0x180812E30
+	// RVA: 0x8133C0 Offset: 0x8119C0 VA: 0x1808133C0
 	public void .ctor() { }
 
 }

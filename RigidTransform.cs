@@ -6,7 +6,7 @@ public struct RigidTransform // TypeDefIndex: 7113
 
 	// Methods
 
-	// RVA: 0x22A4E0 Offset: 0x2298E0 VA: 0x18022A4E0
+	// RVA: 0x2294C0 Offset: 0x2288C0 VA: 0x1802294C0
 	public void .ctor(quaternion rotation, float3 translation) { }
 
 	// RVA: 0x239880 Offset: 0x238C80 VA: 0x180239880
@@ -21,7 +21,7 @@ public struct RigidTransform // TypeDefIndex: 7113
 	// RVA: 0x239A60 Offset: 0x238E60 VA: 0x180239A60 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x22ADD00 Offset: 0x22AC300 VA: 0x1822ADD00
+	// RVA: 0x22AE520 Offset: 0x22ACB20 VA: 0x1822AE520
 	private static void .cctor() { }
 
 }

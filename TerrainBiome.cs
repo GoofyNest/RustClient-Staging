@@ -14,17 +14,17 @@ public static class TerrainBiome // TypeDefIndex: 7781
 	public const int TEMPERATE_IDX = 1;
 	public const int TUNDRA_IDX = 2;
 	public const int ARCTIC_IDX = 3;
-	private static Dictionary<int, int> type2index; // 0x205C
+	private static Dictionary<int, int> type2index; // 0x1E00
 
 	// Methods
 
-	// RVA: 0x2303CB0 Offset: 0x23022B0 VA: 0x182303CB0
+	// RVA: 0x23044D0 Offset: 0x2302AD0 VA: 0x1823044D0
 	public static int TypeToIndex(int id) { }
 
-	// RVA: 0x768340 Offset: 0x766940 VA: 0x180768340
+	// RVA: 0x768290 Offset: 0x766890 VA: 0x180768290
 	public static int IndexToType(int idx) { }
 
-	// RVA: 0x2303D30 Offset: 0x2302330 VA: 0x182303D30
+	// RVA: 0x2304550 Offset: 0x2302B50 VA: 0x182304550
 	private static void .cctor() { }
 
 }

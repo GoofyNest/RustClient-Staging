@@ -22,13 +22,13 @@ public class GestureConfig : ScriptableObject // TypeDefIndex: 10087
 
 	// Methods
 
-	// RVA: 0xC98F00 Offset: 0xC97500 VA: 0x180C98F00
+	// RVA: 0xC993A0 Offset: 0xC979A0 VA: 0x180C993A0
 	public bool IsOwnedBy(BasePlayer player) { }
 
-	// RVA: 0xC98E60 Offset: 0xC97460 VA: 0x180C98E60
+	// RVA: 0xC99300 Offset: 0xC97900 VA: 0x180C99300
 	public bool CanBeUsedBy(BasePlayer player) { }
 
-	// RVA: 0xC99020 Offset: 0xC97620 VA: 0x180C99020
+	// RVA: 0xC994C0 Offset: 0xC97AC0 VA: 0x180C994C0
 	public void .ctor() { }
 
 }

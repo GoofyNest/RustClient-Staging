@@ -11,7 +11,7 @@ internal static class TextInfoToUpperData // TypeDefIndex: 739
 
 	// Methods
 
-	// RVA: 0x1388000 Offset: 0x1386600 VA: 0x181388000
+	// RVA: 0x1387100 Offset: 0x1385700 VA: 0x181387100
 	private static void .cctor() { }
 
 }

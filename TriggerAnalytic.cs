@@ -5,7 +5,7 @@ public class TriggerAnalytic : TriggerBase, IServerComponent // TypeDefIndex: 10
 
 	// Methods
 
-	// RVA: 0xA1FA80 Offset: 0xA1E080 VA: 0x180A1FA80
+	// RVA: 0xA1FF70 Offset: 0xA1E570 VA: 0x180A1FF70
 	public void .ctor() { }
 
 }

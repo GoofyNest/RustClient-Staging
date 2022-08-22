@@ -42,40 +42,40 @@ public struct PlayableHandle : IEquatable<PlayableHandle> // TypeDefIndex: 3870
 	|-PlayableHandle.IsPlayableOfType<AnimatorControllerPlayable>
 	*/
 
-	// RVA: 0x18FA980 Offset: 0x18F8F80 VA: 0x1818FA980
+	// RVA: 0x18FA0A0 Offset: 0x18F86A0 VA: 0x1818FA0A0
 	public static PlayableHandle get_Null() { }
 
-	// RVA: 0x18FA9F0 Offset: 0x18F8FF0 VA: 0x1818FA9F0
+	// RVA: 0x18FA110 Offset: 0x18F8710 VA: 0x1818FA110
 	public static bool op_Equality(PlayableHandle x, PlayableHandle y) { }
 
-	// RVA: 0x2170D0 Offset: 0x2164D0 VA: 0x1802170D0 Slot: 0
+	// RVA: 0x2177A0 Offset: 0x216BA0 VA: 0x1802177A0 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0x2171C0 Offset: 0x2165C0 VA: 0x1802171C0 Slot: 4
+	// RVA: 0x217890 Offset: 0x216C90 VA: 0x180217890 Slot: 4
 	public bool Equals(PlayableHandle other) { }
 
-	// RVA: 0x217260 Offset: 0x216660 VA: 0x180217260 Slot: 2
+	// RVA: 0x217930 Offset: 0x216D30 VA: 0x180217930 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x18FA780 Offset: 0x18F8D80 VA: 0x1818FA780
+	// RVA: 0x18F9EA0 Offset: 0x18F84A0 VA: 0x1818F9EA0
 	internal static bool CompareVersion(PlayableHandle lhs, PlayableHandle rhs) { }
 
 	[VisibleToOtherModulesAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x217310 Offset: 0x216710 VA: 0x180217310
+	// RVA: 0x2179E0 Offset: 0x216DE0 VA: 0x1802179E0
 	internal bool IsValid() { }
 
 	[VisibleToOtherModulesAttribute] // RVA: 0x81410 Offset: 0x80810 VA: 0x180081410
 	[FreeFunctionAttribute] // RVA: 0x81410 Offset: 0x80810 VA: 0x180081410
-	// RVA: 0x2172A0 Offset: 0x2166A0 VA: 0x1802172A0
+	// RVA: 0x217970 Offset: 0x216D70 VA: 0x180217970
 	internal Type GetPlayableType() { }
 
-	// RVA: 0x18FA940 Offset: 0x18F8F40 VA: 0x1818FA940
+	// RVA: 0x18FA060 Offset: 0x18F8660 VA: 0x1818FA060
 	private static void .cctor() { }
 
-	// RVA: 0x18FA890 Offset: 0x18F8E90 VA: 0x1818FA890
+	// RVA: 0x18F9FB0 Offset: 0x18F85B0 VA: 0x1818F9FB0
 	private static bool IsValid_Injected(ref PlayableHandle _unity_self) { }
 
-	// RVA: 0x18FA7E0 Offset: 0x18F8DE0 VA: 0x1818FA7E0
+	// RVA: 0x18F9F00 Offset: 0x18F8500 VA: 0x1818F9F00
 	private static Type GetPlayableType_Injected(ref PlayableHandle _unity_self) { }
 
 }

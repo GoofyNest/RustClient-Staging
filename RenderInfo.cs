@@ -1,7 +1,7 @@
 public static class RenderInfo // TypeDefIndex: 12024
 {	// Methods
 
-	// RVA: 0x7988F0 Offset: 0x796EF0 VA: 0x1807988F0
+	// RVA: 0x798800 Offset: 0x796E00 VA: 0x180798800
 	public static void GenerateReport() { }
 
 }
@@ -30,7 +30,7 @@ public struct RenderInfo.RendererInstance // TypeDefIndex: 12025
 
 	// Methods
 
-	// RVA: 0x798B70 Offset: 0x797170 VA: 0x180798B70
+	// RVA: 0x798A80 Offset: 0x797080 VA: 0x180798A80
 	public static RenderInfo.RendererInstance From(Renderer renderer) { }
 
 	// RVA: 0xF5520 Offset: 0xF4920 VA: 0x1800F5520

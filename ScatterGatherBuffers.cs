@@ -12,22 +12,22 @@ internal class ScatterGatherBuffers // TypeDefIndex: 2922
 
 	// Methods
 
-	// RVA: 0xFFCE20 Offset: 0xFFB420 VA: 0x180FFCE20
+	// RVA: 0xFFD8C0 Offset: 0xFFBEC0 VA: 0x180FFD8C0
 	internal void .ctor(long totalSize) { }
 
-	// RVA: 0xFFCBB0 Offset: 0xFFB1B0 VA: 0x180FFCBB0
+	// RVA: 0xFFD650 Offset: 0xFFBC50 VA: 0x180FFD650
 	internal BufferOffsetSize[] GetBuffers() { }
 
-	// RVA: 0xFFCE80 Offset: 0xFFB480 VA: 0x180FFCE80
+	// RVA: 0xFFD920 Offset: 0xFFBF20 VA: 0x180FFD920
 	private bool get_Empty() { }
 
-	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
+	// RVA: 0x79C630 Offset: 0x79AC30 VA: 0x18079C630
 	internal int get_Length() { }
 
-	// RVA: 0xFFCD10 Offset: 0xFFB310 VA: 0x180FFCD10
+	// RVA: 0xFFD7B0 Offset: 0xFFBDB0 VA: 0x180FFD7B0
 	internal void Write(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0xFFCAE0 Offset: 0xFFB0E0 VA: 0x180FFCAE0
+	// RVA: 0xFFD580 Offset: 0xFFBB80 VA: 0x180FFD580
 	private ScatterGatherBuffers.MemoryChunk AllocateMemoryChunk(int newSize) { }
 
 }
@@ -40,7 +40,7 @@ private class ScatterGatherBuffers.MemoryChunk // TypeDefIndex: 2923
 
 	// Methods
 
-	// RVA: 0xFF9B70 Offset: 0xFF8170 VA: 0x180FF9B70
+	// RVA: 0xFFA610 Offset: 0xFF8C10 VA: 0x180FFA610
 	internal void .ctor(int bufferSize) { }
 
 }

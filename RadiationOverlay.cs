@@ -10,19 +10,19 @@ public class RadiationOverlay : MonoBehaviour // TypeDefIndex: 9134
 
 	// Methods
 
-	// RVA: 0x6A1F50 Offset: 0x6A0550 VA: 0x1806A1F50
+	// RVA: 0x6A1EE0 Offset: 0x6A04E0 VA: 0x1806A1EE0
 	public void Awake() { }
 
-	// RVA: 0x6A24F0 Offset: 0x6A0AF0 VA: 0x1806A24F0
+	// RVA: 0x6A2480 Offset: 0x6A0A80 VA: 0x1806A2480
 	protected void Update() { }
 
-	// RVA: 0x6A22F0 Offset: 0x6A08F0 VA: 0x1806A22F0
+	// RVA: 0x6A2280 Offset: 0x6A0880 VA: 0x1806A2280
 	private void UpdateSound(float exposure) { }
 
-	// RVA: 0x6A2140 Offset: 0x6A0740 VA: 0x1806A2140
+	// RVA: 0x6A20D0 Offset: 0x6A06D0 VA: 0x1806A20D0
 	private float GetRadationFraction() { }
 
-	// RVA: 0x6A1F80 Offset: 0x6A0580 VA: 0x1806A1F80
+	// RVA: 0x6A1F10 Offset: 0x6A0510 VA: 0x1806A1F10
 	private float GetRadationExposureFraction() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

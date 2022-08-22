@@ -5,13 +5,13 @@ public class TickRenderer : MaskableGraphic // TypeDefIndex: 7073
 
 	// Methods
 
-	// RVA: 0xFD4720 Offset: 0xFD2D20 VA: 0x180FD4720 Slot: 44
+	// RVA: 0xFD51C0 Offset: 0xFD37C0 VA: 0x180FD51C0 Slot: 44
 	protected override void OnPopulateMesh(VertexHelper vh) { }
 
-	// RVA: 0xFD4D50 Offset: 0xFD3350 VA: 0x180FD4D50
+	// RVA: 0xFD57F0 Offset: 0xFD3DF0 VA: 0x180FD57F0
 	public void .ctor() { }
 
-	// RVA: 0xFD4D00 Offset: 0xFD3300 VA: 0x180FD4D00
+	// RVA: 0xFD57A0 Offset: 0xFD3DA0 VA: 0x180FD57A0
 	private static void .cctor() { }
 
 }

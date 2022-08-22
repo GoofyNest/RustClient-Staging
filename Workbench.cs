@@ -16,13 +16,13 @@ public class Workbench : StorageContainer // TypeDefIndex: 8488
 
 	// Methods
 
-	// RVA: 0x8FDD40 Offset: 0x8FC340 VA: 0x1808FDD40 Slot: 49
+	// RVA: 0x8FE250 Offset: 0x8FC850 VA: 0x1808FE250 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x8FE5E0 Offset: 0x8FCBE0 VA: 0x1808FE5E0 Slot: 50
+	// RVA: 0x8FEAF0 Offset: 0x8FD0F0 VA: 0x1808FEAF0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x8FE170 Offset: 0x8FC770 VA: 0x1808FE170 Slot: 35
+	// RVA: 0x8FE680 Offset: 0x8FCC80 VA: 0x1808FE680 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 153
@@ -32,28 +32,28 @@ public class Workbench : StorageContainer // TypeDefIndex: 8488
 	[BaseEntity.Menu.Description] // RVA: 0x9D270 Offset: 0x9C670 VA: 0x18009D270
 	[BaseEntity.Menu.Icon] // RVA: 0x9D270 Offset: 0x9C670 VA: 0x18009D270
 	[BaseEntity.Menu.ShowIf] // RVA: 0x9D270 Offset: 0x9C670 VA: 0x18009D270
-	// RVA: 0x8FE540 Offset: 0x8FCB40 VA: 0x1808FE540
+	// RVA: 0x8FEA50 Offset: 0x8FD050 VA: 0x1808FEA50
 	public void UseBench(BasePlayer player) { }
 
-	// RVA: 0x8FE110 Offset: 0x8FC710 VA: 0x1808FE110
+	// RVA: 0x8FE620 Offset: 0x8FCC20 VA: 0x1808FE620
 	public bool Menu_UseBench_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x8FE500 Offset: 0x8FCB00 VA: 0x1808FE500
+	// RVA: 0x8FEA10 Offset: 0x8FD010 VA: 0x1808FEA10
 	public void TryExperiment() { }
 
-	// RVA: 0x8FE260 Offset: 0x8FC860 VA: 0x1808FE260
+	// RVA: 0x8FE770 Offset: 0x8FCD70 VA: 0x1808FE770
 	public bool PlayerUnlockedThisTier() { }
 
-	// RVA: 0x8FDCF0 Offset: 0x8FC2F0 VA: 0x1808FDCF0
+	// RVA: 0x8FE200 Offset: 0x8FC800 VA: 0x1808FE200
 	public void ClientAttemptUnlock(TechTreeData data, int selectedNodeID) { }
 
-	// RVA: 0x8FE080 Offset: 0x8FC680 VA: 0x1808FE080
+	// RVA: 0x8FE590 Offset: 0x8FCB90 VA: 0x1808FE590
 	public int GetScrapForExperiment() { }
 
-	// RVA: 0x4F6310 Offset: 0x4F4910 VA: 0x1804F6310
+	// RVA: 0x4F62A0 Offset: 0x4F48A0 VA: 0x1804F62A0
 	public bool IsWorking() { }
 
-	// RVA: 0x8FE580 Offset: 0x8FCB80 VA: 0x1808FE580
+	// RVA: 0x8FEA90 Offset: 0x8FD090 VA: 0x1808FEA90
 	public void .ctor() { }
 
 }

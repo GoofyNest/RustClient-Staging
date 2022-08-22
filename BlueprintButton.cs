@@ -16,43 +16,43 @@ public class BlueprintButton : MonoBehaviour, IClientComponent, IInventoryChange
 
 	// Methods
 
-	// RVA: 0x5147F0 Offset: 0x512DF0 VA: 0x1805147F0
+	// RVA: 0x514780 Offset: 0x512D80 VA: 0x180514780
 	public void Setup(ItemBlueprint bp, UIBlueprints parent) { }
 
-	// RVA: 0x513C20 Offset: 0x512220 VA: 0x180513C20
+	// RVA: 0x513BB0 Offset: 0x5121B0 VA: 0x180513BB0
 	public void Awake() { }
 
-	// RVA: 0x513CA0 Offset: 0x5122A0 VA: 0x180513CA0
+	// RVA: 0x513C30 Offset: 0x512230 VA: 0x180513C30
 	public void OnDestroy() { }
 
-	// RVA: 0x5149E0 Offset: 0x512FE0 VA: 0x1805149E0
+	// RVA: 0x514970 Offset: 0x512F70 VA: 0x180514970
 	private void Update() { }
 
-	// RVA: 0x5149B0 Offset: 0x512FB0 VA: 0x1805149B0
+	// RVA: 0x514940 Offset: 0x512F40 VA: 0x180514940
 	private void UpdateSelection() { }
 
-	// RVA: 0x513FF0 Offset: 0x5125F0 VA: 0x180513FF0
+	// RVA: 0x513F80 Offset: 0x512580 VA: 0x180513F80
 	private void Refresh() { }
 
-	// RVA: 0x513E50 Offset: 0x512450 VA: 0x180513E50 Slot: 4
+	// RVA: 0x513DE0 Offset: 0x5123E0 VA: 0x180513DE0 Slot: 4
 	public void OnInventoryChanged() { }
 
-	// RVA: 0x513E60 Offset: 0x512460 VA: 0x180513E60 Slot: 5
+	// RVA: 0x513DF0 Offset: 0x5123F0 VA: 0x180513DF0 Slot: 5
 	public void OnPointerClick(PointerEventData eventData) { }
 
-	// RVA: 0x513F70 Offset: 0x512570 VA: 0x180513F70
+	// RVA: 0x513F00 Offset: 0x512500 VA: 0x180513F00
 	public void OnToggleFavouriteClicked() { }
 
-	// RVA: 0x513F10 Offset: 0x512510 VA: 0x180513F10 Slot: 6
+	// RVA: 0x513EA0 Offset: 0x5124A0 VA: 0x180513EA0 Slot: 6
 	public void OnPointerEnter(PointerEventData eventData) { }
 
-	// RVA: 0x513F40 Offset: 0x512540 VA: 0x180513F40 Slot: 7
+	// RVA: 0x513ED0 Offset: 0x5124D0 VA: 0x180513ED0 Slot: 7
 	public void OnPointerExit(PointerEventData eventData) { }
 
-	// RVA: 0x513D50 Offset: 0x512350 VA: 0x180513D50
+	// RVA: 0x513CE0 Offset: 0x5122E0 VA: 0x180513CE0
 	public void OnFavouriteHovered() { }
 
-	// RVA: 0x513DD0 Offset: 0x5123D0 VA: 0x180513DD0
+	// RVA: 0x513D60 Offset: 0x512360 VA: 0x180513D60
 	public void OnFavouriteUnhovered() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

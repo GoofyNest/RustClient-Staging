@@ -4,7 +4,7 @@ public class BaseSaddle : BaseMountable // TypeDefIndex: 9696
 
 	// Methods
 
-	// RVA: 0x92B2C0 Offset: 0x9298C0 VA: 0x18092B2C0
+	// RVA: 0x92B7D0 Offset: 0x929DD0 VA: 0x18092B7D0
 	public void .ctor() { }
 
 }

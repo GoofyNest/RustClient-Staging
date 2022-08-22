@@ -5,22 +5,22 @@ public class BaseLauncher : BaseProjectile // TypeDefIndex: 8521
 
 	// Methods
 
-	// RVA: 0xA42830 Offset: 0xA40E30 VA: 0x180A42830 Slot: 35
+	// RVA: 0xA42D20 Offset: 0xA41320 VA: 0x180A42D20 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA42390 Offset: 0xA40990 VA: 0x180A42390 Slot: 172
+	// RVA: 0xA42880 Offset: 0xA40E80 VA: 0x180A42880 Slot: 172
 	public override void LaunchProjectile() { }
 
-	// RVA: 0xA42700 Offset: 0xA40D00 VA: 0x180A42700 Slot: 137
+	// RVA: 0xA42BF0 Offset: 0xA411F0 VA: 0x180A42BF0 Slot: 137
 	public override void OnFrame() { }
 
-	// RVA: 0xA42920 Offset: 0xA40F20 VA: 0x180A42920 Slot: 153
+	// RVA: 0xA42E10 Offset: 0xA41410 VA: 0x180A42E10 Slot: 153
 	public override void ProcessSpectatorViewmodelEvent(ViewModel vm, BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0xA42AC0 Offset: 0xA410C0 VA: 0x180A42AC0
+	// RVA: 0xA42FB0 Offset: 0xA415B0 VA: 0x180A42FB0
 	private void SpectatorInsertAmmo() { }
 
-	// RVA: 0x51E730 Offset: 0x51CD30 VA: 0x18051E730
+	// RVA: 0x51E6C0 Offset: 0x51CCC0 VA: 0x18051E6C0
 	public void .ctor() { }
 
 }

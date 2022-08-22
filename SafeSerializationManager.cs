@@ -16,26 +16,26 @@ internal sealed class SafeSerializationManager : IObjectReference, ISerializable
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x12A55D0 Offset: 0x12A3BD0 VA: 0x1812A55D0
+	// RVA: 0x12A5C70 Offset: 0x12A4270 VA: 0x1812A5C70
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x12A5790 Offset: 0x12A3D90 VA: 0x1812A5790
+	// RVA: 0x12A5E30 Offset: 0x12A4430 VA: 0x1812A5E30
 	internal bool get_IsActive() { }
 
-	// RVA: 0x12A4E70 Offset: 0x12A3470 VA: 0x1812A4E70
+	// RVA: 0x12A5510 Offset: 0x12A3B10 VA: 0x1812A5510
 	internal void CompleteSerialization(object serializedObject, SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x12A4B60 Offset: 0x12A3160 VA: 0x1812A4B60
+	// RVA: 0x12A5200 Offset: 0x12A3800 VA: 0x1812A5200
 	internal void CompleteDeserialization(object deserializedObject) { }
 
-	// RVA: 0x12A5490 Offset: 0x12A3A90 VA: 0x1812A5490 Slot: 5
+	// RVA: 0x12A5B30 Offset: 0x12A4130 VA: 0x1812A5B30 Slot: 5
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x12A5190 Offset: 0x12A3790 VA: 0x1812A5190 Slot: 4
+	// RVA: 0x12A5830 Offset: 0x12A3E30 VA: 0x1812A5830 Slot: 4
 	private object System.Runtime.Serialization.IObjectReference.GetRealObject(StreamingContext context) { }
 
 	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12A50D0 Offset: 0x12A36D0 VA: 0x1812A50D0
+	// RVA: 0x12A5770 Offset: 0x12A3D70 VA: 0x1812A5770
 	private void OnDeserialized(StreamingContext context) { }
 
 }

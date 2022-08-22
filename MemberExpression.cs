@@ -13,15 +13,15 @@ public class MemberExpression : Expression // TypeDefIndex: 3247
 
 	// Methods
 
-	// RVA: 0x95F940 Offset: 0x95DF40 VA: 0x18095F940
+	// RVA: 0x95FE40 Offset: 0x95E440 VA: 0x18095FE40
 	public MemberInfo get_Member() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Expression get_Expression() { }
 
 	[ExcludeFromCodeCoverageAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x222AB30 Offset: 0x2229130 VA: 0x18222AB30 Slot: 5
+	// RVA: 0x222B350 Offset: 0x2229950 VA: 0x18222B350 Slot: 5
 	internal virtual MemberInfo GetMember() { }
 
 }

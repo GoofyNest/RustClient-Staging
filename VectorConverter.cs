@@ -26,46 +26,46 @@ public class VectorConverter : JsonConverter // TypeDefIndex: 6107
 	public void set_EnableVector2(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8B670 Offset: 0xF89C70 VA: 0x180F8B670
+	// RVA: 0xF8C110 Offset: 0xF8A710 VA: 0x180F8C110
 	public bool get_EnableVector3() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8B680 Offset: 0xF89C80 VA: 0x180F8B680
+	// RVA: 0xF8C120 Offset: 0xF8A720 VA: 0x180F8C120
 	public void set_EnableVector3(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF9E420 Offset: 0xF9CA20 VA: 0x180F9E420
+	// RVA: 0xF9EEC0 Offset: 0xF9D4C0 VA: 0x180F9EEC0
 	public bool get_EnableVector4() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF9E430 Offset: 0xF9CA30 VA: 0x180F9E430
+	// RVA: 0xF9EED0 Offset: 0xF9D4D0 VA: 0x180F9EED0
 	public void set_EnableVector4(bool value) { }
 
-	// RVA: 0xF9E400 Offset: 0xF9CA00 VA: 0x180F9E400
+	// RVA: 0xF9EEA0 Offset: 0xF9D4A0 VA: 0x180F9EEA0
 	public void .ctor() { }
 
-	// RVA: 0xF9DEB0 Offset: 0xF9C4B0 VA: 0x180F9DEB0 Slot: 4
+	// RVA: 0xF9E950 Offset: 0xF9CF50 VA: 0x180F9E950 Slot: 4
 	public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer) { }
 
-	// RVA: 0xF9E1B0 Offset: 0xF9C7B0 VA: 0x180F9E1B0
+	// RVA: 0xF9EC50 Offset: 0xF9D250 VA: 0x180F9EC50
 	private static void WriteVector(JsonWriter writer, float x, float y, Nullable<float> z, Nullable<float> w) { }
 
-	// RVA: 0xF9DA80 Offset: 0xF9C080 VA: 0x180F9DA80 Slot: 5
+	// RVA: 0xF9E520 Offset: 0xF9CB20 VA: 0x180F9E520 Slot: 5
 	public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer) { }
 
-	// RVA: 0xF9D6A0 Offset: 0xF9BCA0 VA: 0x180F9D6A0 Slot: 6
+	// RVA: 0xF9E140 Offset: 0xF9C740 VA: 0x180F9E140 Slot: 6
 	public override bool CanConvert(Type objectType) { }
 
-	// RVA: 0xF9D790 Offset: 0xF9BD90 VA: 0x180F9D790
+	// RVA: 0xF9E230 Offset: 0xF9C830 VA: 0x180F9E230
 	private static Vector2 PopulateVector2(JsonReader reader) { }
 
-	// RVA: 0xF9D870 Offset: 0xF9BE70 VA: 0x180F9D870
+	// RVA: 0xF9E310 Offset: 0xF9C910 VA: 0x180F9E310
 	private static Vector3 PopulateVector3(JsonReader reader) { }
 
-	// RVA: 0xF9D960 Offset: 0xF9BF60 VA: 0x180F9D960
+	// RVA: 0xF9E400 Offset: 0xF9CA00 VA: 0x180F9E400
 	private static Vector4 PopulateVector4(JsonReader reader) { }
 
-	// RVA: 0xF9E330 Offset: 0xF9C930 VA: 0x180F9E330
+	// RVA: 0xF9EDD0 Offset: 0xF9D3D0 VA: 0x180F9EDD0
 	private static void .cctor() { }
 
 }

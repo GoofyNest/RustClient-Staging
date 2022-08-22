@@ -6,7 +6,7 @@ public static class CollectionEx // TypeDefIndex: 11344
 	public static bool IsNullOrEmpty<T>(ICollection<T> collection) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125CC70 Offset: 0x125B270 VA: 0x18125CC70
+	|-RVA: 0x125D310 Offset: 0x125B910 VA: 0x18125D310
 	|-CollectionEx.IsNullOrEmpty<BaseEntity>
 	|-CollectionEx.IsNullOrEmpty<object>
 	|-CollectionEx.IsNullOrEmpty<GameObject>
@@ -19,7 +19,7 @@ public static class CollectionEx // TypeDefIndex: 11344
 	public static bool IsEmpty<T>(ICollection<T> collection) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125CC20 Offset: 0x125B220 VA: 0x18125CC20
+	|-RVA: 0x125D2C0 Offset: 0x125B8C0 VA: 0x18125D2C0
 	|-CollectionEx.IsEmpty<object>
 	*/
 

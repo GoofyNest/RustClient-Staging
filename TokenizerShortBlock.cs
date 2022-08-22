@@ -5,7 +5,7 @@ internal sealed class TokenizerShortBlock // TypeDefIndex: 925
 
 	// Methods
 
-	// RVA: 0x18C2CF0 Offset: 0x18C12F0 VA: 0x1818C2CF0
+	// RVA: 0x18C2410 Offset: 0x18C0A10 VA: 0x1818C2410
 	public void .ctor() { }
 
 }

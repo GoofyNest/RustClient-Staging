@@ -1,19 +1,19 @@
 internal static class RaycasterManager // TypeDefIndex: 5090
 {	// Fields
-	private static readonly List<BaseRaycaster> s_Raycasters; // 0x137B0
+	private static readonly List<BaseRaycaster> s_Raycasters; // 0x2B10660
 
 	// Methods
 
-	// RVA: 0x10CA880 Offset: 0x10C8E80 VA: 0x1810CA880
+	// RVA: 0x10CB2F0 Offset: 0x10C98F0 VA: 0x1810CB2F0
 	public static void AddRaycaster(BaseRaycaster baseRaycaster) { }
 
-	// RVA: 0x10CA950 Offset: 0x10C8F50 VA: 0x1810CA950
+	// RVA: 0x10CB3C0 Offset: 0x10C99C0 VA: 0x1810CB3C0
 	public static List<BaseRaycaster> GetRaycasters() { }
 
-	// RVA: 0x10CA9B0 Offset: 0x10C8FB0 VA: 0x1810CA9B0
+	// RVA: 0x10CB420 Offset: 0x10C9A20 VA: 0x1810CB420
 	public static void RemoveRaycasters(BaseRaycaster baseRaycaster) { }
 
-	// RVA: 0x10CAA80 Offset: 0x10C9080 VA: 0x1810CAA80
+	// RVA: 0x10CB4F0 Offset: 0x10C9AF0 VA: 0x1810CB4F0
 	private static void .cctor() { }
 
 }

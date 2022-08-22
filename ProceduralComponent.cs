@@ -12,13 +12,13 @@ public abstract class ProceduralComponent : MonoBehaviour // TypeDefIndex: 10445
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 4
 	public virtual bool get_RunOnCache() { }
 
-	// RVA: 0x9A83B0 Offset: 0x9A69B0 VA: 0x1809A83B0
+	// RVA: 0x9A88A0 Offset: 0x9A6EA0 VA: 0x1809A88A0
 	public bool ShouldRun() { }
 
 	// RVA: -1 Offset: -1 Slot: 5
 	public abstract void Process(uint seed);
 
-	// RVA: 0x9A8420 Offset: 0x9A6A20 VA: 0x1809A8420
+	// RVA: 0x9A8910 Offset: 0x9A6F10 VA: 0x1809A8910
 	protected void .ctor() { }
 
 }

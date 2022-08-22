@@ -15,13 +15,13 @@ internal sealed class PrimitiveArray // TypeDefIndex: 1125
 
 	// Methods
 
-	// RVA: 0x1200B90 Offset: 0x11FF190 VA: 0x181200B90
+	// RVA: 0x1201230 Offset: 0x11FF830 VA: 0x181201230
 	internal void .ctor(InternalPrimitiveTypeE code, Array array) { }
 
-	// RVA: 0x12002B0 Offset: 0x11FE8B0 VA: 0x1812002B0
+	// RVA: 0x1200950 Offset: 0x11FEF50 VA: 0x181200950
 	internal void Init(InternalPrimitiveTypeE code, Array array) { }
 
-	// RVA: 0x1200610 Offset: 0x11FEC10 VA: 0x181200610
+	// RVA: 0x1200CB0 Offset: 0x11FF2B0 VA: 0x181200CB0
 	internal void SetValue(string value, int index) { }
 
 }

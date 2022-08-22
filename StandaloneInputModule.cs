@@ -38,116 +38,116 @@ public class StandaloneInputModule : PointerInputModule // TypeDefIndex: 5085
 
 	// Methods
 
-	// RVA: 0x10CD660 Offset: 0x10CBC60 VA: 0x1810CD660
+	// RVA: 0x10CE0D0 Offset: 0x10CC6D0 VA: 0x1810CE0D0
 	protected void .ctor() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0
 	public StandaloneInputModule.InputMode get_inputMode() { }
 
-	// RVA: 0x10CD700 Offset: 0x10CBD00 VA: 0x1810CD700
+	// RVA: 0x10CE170 Offset: 0x10CC770 VA: 0x1810CE170
 	public bool get_allowActivationOnMobileDevice() { }
 
-	// RVA: 0x10CD730 Offset: 0x10CBD30 VA: 0x1810CD730
+	// RVA: 0x10CE1A0 Offset: 0x10CC7A0 VA: 0x1810CE1A0
 	public void set_allowActivationOnMobileDevice(bool value) { }
 
-	// RVA: 0x10CD700 Offset: 0x10CBD00 VA: 0x1810CD700
+	// RVA: 0x10CE170 Offset: 0x10CC770 VA: 0x1810CE170
 	public bool get_forceModuleActive() { }
 
-	// RVA: 0x10CD730 Offset: 0x10CBD30 VA: 0x1810CD730
+	// RVA: 0x10CE1A0 Offset: 0x10CC7A0 VA: 0x1810CE1A0
 	public void set_forceModuleActive(bool value) { }
 
-	// RVA: 0x10CD710 Offset: 0x10CBD10 VA: 0x1810CD710
+	// RVA: 0x10CE180 Offset: 0x10CC780 VA: 0x1810CE180
 	public float get_inputActionsPerSecond() { }
 
-	// RVA: 0xC1FDD0 Offset: 0xC1E3D0 VA: 0x180C1FDD0
+	// RVA: 0xC202A0 Offset: 0xC1E8A0 VA: 0x180C202A0
 	public void set_inputActionsPerSecond(float value) { }
 
-	// RVA: 0x10CD720 Offset: 0x10CBD20 VA: 0x1810CD720
+	// RVA: 0x10CE190 Offset: 0x10CC790 VA: 0x1810CE190
 	public float get_repeatDelay() { }
 
-	// RVA: 0x10CD740 Offset: 0x10CBD40 VA: 0x1810CD740
+	// RVA: 0x10CE1B0 Offset: 0x10CC7B0 VA: 0x1810CE1B0
 	public void set_repeatDelay(float value) { }
 
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300
 	public string get_horizontalAxis() { }
 
-	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
+	// RVA: 0x574390 Offset: 0x572990 VA: 0x180574390
 	public void set_horizontalAxis(string value) { }
 
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0
 	public string get_verticalAxis() { }
 
-	// RVA: 0x4E4060 Offset: 0x4E2660 VA: 0x1804E4060
+	// RVA: 0x4E3FF0 Offset: 0x4E25F0 VA: 0x1804E3FF0
 	public void set_verticalAxis(string value) { }
 
-	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
+	// RVA: 0x574310 Offset: 0x572910 VA: 0x180574310
 	public string get_submitButton() { }
 
-	// RVA: 0x574410 Offset: 0x572A10 VA: 0x180574410
+	// RVA: 0x5743A0 Offset: 0x5729A0 VA: 0x1805743A0
 	public void set_submitButton(string value) { }
 
-	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
+	// RVA: 0x5742F0 Offset: 0x5728F0 VA: 0x1805742F0
 	public string get_cancelButton() { }
 
-	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
+	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
 	public void set_cancelButton(string value) { }
 
-	// RVA: 0x10CD4D0 Offset: 0x10CBAD0 VA: 0x1810CD4D0
+	// RVA: 0x10CDF40 Offset: 0x10CC540 VA: 0x1810CDF40
 	private bool ShouldIgnoreEventsOnNoFocus() { }
 
-	// RVA: 0x10CD4F0 Offset: 0x10CBAF0 VA: 0x1810CD4F0 Slot: 24
+	// RVA: 0x10CDF60 Offset: 0x10CC560 VA: 0x1810CDF60 Slot: 24
 	public override void UpdateModule() { }
 
-	// RVA: 0x10CC700 Offset: 0x10CAD00 VA: 0x1810CC700
+	// RVA: 0x10CD170 Offset: 0x10CB770 VA: 0x1810CD170
 	private void ReleaseMouse(PointerEventData pointerEvent, GameObject currentOverGo) { }
 
-	// RVA: 0x10CADF0 Offset: 0x10C93F0 VA: 0x1810CADF0 Slot: 25
+	// RVA: 0x10CB860 Offset: 0x10C9E60 VA: 0x1810CB860 Slot: 25
 	public override bool IsModuleSupported() { }
 
-	// RVA: 0x10CD220 Offset: 0x10CB820 VA: 0x1810CD220 Slot: 21
+	// RVA: 0x10CDC90 Offset: 0x10CC290 VA: 0x1810CDC90 Slot: 21
 	public override bool ShouldActivateModule() { }
 
-	// RVA: 0x10CAAE0 Offset: 0x10C90E0 VA: 0x1810CAAE0 Slot: 23
+	// RVA: 0x10CB550 Offset: 0x10C9B50 VA: 0x1810CB550 Slot: 23
 	public override void ActivateModule() { }
 
-	// RVA: 0x10CAC50 Offset: 0x10C9250 VA: 0x1810CAC50 Slot: 22
+	// RVA: 0x10CB6C0 Offset: 0x10C9CC0 VA: 0x1810CB6C0 Slot: 22
 	public override void DeactivateModule() { }
 
-	// RVA: 0x10CC500 Offset: 0x10CAB00 VA: 0x1810CC500 Slot: 17
+	// RVA: 0x10CCF70 Offset: 0x10CB570 VA: 0x1810CCF70 Slot: 17
 	public override void Process() { }
 
-	// RVA: 0x10CB530 Offset: 0x10C9B30 VA: 0x1810CB530
+	// RVA: 0x10CBFA0 Offset: 0x10CA5A0 VA: 0x1810CBFA0
 	private bool ProcessTouchEvents() { }
 
-	// RVA: 0x10CBDF0 Offset: 0x10CA3F0 VA: 0x1810CBDF0
+	// RVA: 0x10CC860 Offset: 0x10CAE60 VA: 0x1810CC860
 	protected void ProcessTouchPress(PointerEventData pointerEvent, bool pressed, bool released) { }
 
-	// RVA: 0x10CCE50 Offset: 0x10CB450 VA: 0x1810CCE50
+	// RVA: 0x10CD8C0 Offset: 0x10CBEC0 VA: 0x1810CD8C0
 	protected bool SendSubmitEventToSelectedObject() { }
 
-	// RVA: 0x10CAC60 Offset: 0x10C9260 VA: 0x1810CAC60
+	// RVA: 0x10CB6D0 Offset: 0x10C9CD0 VA: 0x1810CB6D0
 	private Vector2 GetRawMoveVector() { }
 
-	// RVA: 0x10CCA20 Offset: 0x10CB020 VA: 0x1810CCA20
+	// RVA: 0x10CD490 Offset: 0x10CBA90 VA: 0x1810CD490
 	protected bool SendMoveEventToSelectedObject() { }
 
-	// RVA: 0x10CAE60 Offset: 0x10C9460 VA: 0x1810CAE60
+	// RVA: 0x10CB8D0 Offset: 0x10C9ED0 VA: 0x1810CB8D0
 	protected void ProcessMouseEvent() { }
 
 	[ObsoleteAttribute] // RVA: 0x88880 Offset: 0x87C80 VA: 0x180088880
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 30
 	protected virtual bool ForceAutoSelect() { }
 
-	// RVA: 0x10CAE70 Offset: 0x10C9470 VA: 0x1810CAE70
+	// RVA: 0x10CB8E0 Offset: 0x10C9EE0 VA: 0x1810CB8E0
 	protected void ProcessMouseEvent(int id) { }
 
-	// RVA: 0x10CD0C0 Offset: 0x10CB6C0 VA: 0x1810CD0C0
+	// RVA: 0x10CDB30 Offset: 0x10CC130 VA: 0x1810CDB30
 	protected bool SendUpdateEventToSelectedObject() { }
 
-	// RVA: 0x10CB140 Offset: 0x10C9740 VA: 0x1810CB140
+	// RVA: 0x10CBBB0 Offset: 0x10CA1B0 VA: 0x1810CBBB0
 	protected void ProcessMousePress(PointerInputModule.MouseButtonEventData data) { }
 
-	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
+	// RVA: 0x4E84B0 Offset: 0x4E6AB0 VA: 0x1804E84B0
 	protected GameObject GetCurrentFocusedGameObject() { }
 
 }

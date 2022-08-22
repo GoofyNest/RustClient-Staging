@@ -8,7 +8,7 @@ public class Marketplace : BaseEntity // TypeDefIndex: 8802
 
 	// Methods
 
-	// RVA: 0x95A2B0 Offset: 0x9588B0 VA: 0x18095A2B0
+	// RVA: 0x95A7B0 Offset: 0x958DB0 VA: 0x18095A7B0
 	public void .ctor() { }
 
 }

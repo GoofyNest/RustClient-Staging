@@ -4,13 +4,13 @@ internal sealed class NameSerializer : IObjectReference, ISerializable // TypeDe
 
 	// Methods
 
-	// RVA: 0x2215B80 Offset: 0x2214180 VA: 0x182215B80
+	// RVA: 0x22163A0 Offset: 0x22149A0 VA: 0x1822163A0
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x2215B20 Offset: 0x2214120 VA: 0x182215B20 Slot: 4
+	// RVA: 0x2216340 Offset: 0x2214940 VA: 0x182216340 Slot: 4
 	private object System.Runtime.Serialization.IObjectReference.GetRealObject(StreamingContext context) { }
 
-	// RVA: 0x2215B30 Offset: 0x2214130 VA: 0x182215B30 Slot: 5
+	// RVA: 0x2216350 Offset: 0x2214950 VA: 0x182216350 Slot: 5
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 }

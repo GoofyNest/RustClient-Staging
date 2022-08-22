@@ -1,13 +1,13 @@
 public sealed class AmbiguousMatchException : SystemException // TypeDefIndex: 503
 {	// Methods
 
-	// RVA: 0x18C3880 Offset: 0x18C1E80 VA: 0x1818C3880
+	// RVA: 0x18C2FA0 Offset: 0x18C15A0 VA: 0x1818C2FA0
 	public void .ctor() { }
 
-	// RVA: 0x18C3850 Offset: 0x18C1E50 VA: 0x1818C3850
+	// RVA: 0x18C2F70 Offset: 0x18C1570 VA: 0x1818C2F70
 	public void .ctor(string message) { }
 
-	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
+	// RVA: 0xFDDEB0 Offset: 0xFDC4B0 VA: 0x180FDDEB0
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

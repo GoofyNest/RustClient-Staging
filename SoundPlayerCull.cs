@@ -6,19 +6,19 @@ public class SoundPlayerCull : MonoBehaviour, IClientComponent, ILOD // TypeDefI
 
 	// Methods
 
-	// RVA: 0xA7AEC0 Offset: 0xA794C0 VA: 0x180A7AEC0
+	// RVA: 0xA7B390 Offset: 0xA79990 VA: 0x180A7B390
 	protected void OnEnable() { }
 
-	// RVA: 0xA7AE10 Offset: 0xA79410 VA: 0x180A7AE10
+	// RVA: 0xA7B2E0 Offset: 0xA798E0 VA: 0x180A7B2E0
 	protected void OnDisable() { }
 
-	// RVA: 0xA7AF40 Offset: 0xA79540 VA: 0x180A7AF40 Slot: 5
+	// RVA: 0xA7B410 Offset: 0xA79A10 VA: 0x180A7B410 Slot: 5
 	public void RefreshLOD() { }
 
-	// RVA: 0xA7ACC0 Offset: 0xA792C0 VA: 0x180A7ACC0 Slot: 4
+	// RVA: 0xA7B190 Offset: 0xA79790 VA: 0x180A7B190 Slot: 4
 	public void ChangeLOD() { }
 
-	// RVA: 0xA7AFC0 Offset: 0xA795C0 VA: 0x180A7AFC0
+	// RVA: 0xA7B490 Offset: 0xA79A90 VA: 0x180A7B490
 	public void .ctor() { }
 
 }

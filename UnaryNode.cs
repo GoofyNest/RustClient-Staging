@@ -5,40 +5,40 @@ internal sealed class UnaryNode : ExpressionNode // TypeDefIndex: 4266
 
 	// Methods
 
-	// RVA: 0xCCD9A0 Offset: 0xCCBFA0 VA: 0x180CCD9A0
+	// RVA: 0xCCDE40 Offset: 0xCCC440 VA: 0x180CCDE40
 	internal void .ctor(DataTable table, int op, ExpressionNode right) { }
 
-	// RVA: 0xCCCA60 Offset: 0xCCB060 VA: 0x180CCCA60 Slot: 5
+	// RVA: 0xCCCF00 Offset: 0xCCB500 VA: 0x180CCCF00 Slot: 5
 	internal override void Bind(DataTable table, List<DataColumn> list) { }
 
-	// RVA: 0xCCD7A0 Offset: 0xCCBDA0 VA: 0x180CCD7A0 Slot: 6
+	// RVA: 0xCCDC40 Offset: 0xCCC240 VA: 0x180CCDC40 Slot: 6
 	internal override object Eval() { }
 
-	// RVA: 0xCCD750 Offset: 0xCCBD50 VA: 0x180CCD750 Slot: 7
+	// RVA: 0xCCDBF0 Offset: 0xCCC1F0 VA: 0x180CCDBF0 Slot: 7
 	internal override object Eval(DataRow row, DataRowVersion version) { }
 
-	// RVA: 0xCCD7C0 Offset: 0xCCBDC0 VA: 0x180CCD7C0 Slot: 8
+	// RVA: 0xCCDC60 Offset: 0xCCC260 VA: 0x180CCDC60 Slot: 8
 	internal override object Eval(int[] recordNos) { }
 
-	// RVA: 0xCCCAF0 Offset: 0xCCB0F0 VA: 0x180CCCAF0
+	// RVA: 0xCCCF90 Offset: 0xCCB590 VA: 0x180CCCF90
 	private object EvalUnaryOp(int op, object vl) { }
 
-	// RVA: 0xCCD850 Offset: 0xCCBE50 VA: 0x180CCD850 Slot: 9
+	// RVA: 0xCCDCF0 Offset: 0xCCC2F0 VA: 0x180CCDCF0 Slot: 9
 	internal override bool IsConstant() { }
 
-	// RVA: 0xCCD880 Offset: 0xCCBE80 VA: 0x180CCD880 Slot: 10
+	// RVA: 0xCCDD20 Offset: 0xCCC320 VA: 0x180CCDD20 Slot: 10
 	internal override bool IsTableConstant() { }
 
-	// RVA: 0xCCD7F0 Offset: 0xCCBDF0 VA: 0x180CCD7F0 Slot: 11
+	// RVA: 0xCCDC90 Offset: 0xCCC290 VA: 0x180CCDC90 Slot: 11
 	internal override bool HasLocalAggregate() { }
 
-	// RVA: 0xCCD820 Offset: 0xCCBE20 VA: 0x180CCD820 Slot: 12
+	// RVA: 0xCCDCC0 Offset: 0xCCC2C0 VA: 0x180CCDCC0 Slot: 12
 	internal override bool HasRemoteAggregate() { }
 
-	// RVA: 0xCCCAC0 Offset: 0xCCB0C0 VA: 0x180CCCAC0 Slot: 14
+	// RVA: 0xCCCF60 Offset: 0xCCB560 VA: 0x180CCCF60 Slot: 14
 	internal override bool DependsOn(DataColumn column) { }
 
-	// RVA: 0xCCD8B0 Offset: 0xCCBEB0 VA: 0x180CCD8B0 Slot: 13
+	// RVA: 0xCCDD50 Offset: 0xCCC350 VA: 0x180CCDD50 Slot: 13
 	internal override ExpressionNode Optimize() { }
 
 }

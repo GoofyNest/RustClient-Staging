@@ -20,55 +20,55 @@ public class GenerateDungeonBase : ProceduralComponent // TypeDefIndex: 10456
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 4
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 4
 	public override bool get_RunOnCache() { }
 
-	// RVA: 0xC4E610 Offset: 0xC4CC10 VA: 0x180C4E610 Slot: 5
+	// RVA: 0xC4EAE0 Offset: 0xC4D0E0 VA: 0x180C4EAE0 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0xC4B5A0 Offset: 0xC49BA0 VA: 0x180C4B5A0
+	// RVA: 0xC4BA70 Offset: 0xC4A070 VA: 0x180C4BA70
 	private Quaternion[] GetRotationList(DungeonBaseSocketType type) { }
 
-	// RVA: 0xC4B5C0 Offset: 0xC49BC0 VA: 0x180C4B5C0
+	// RVA: 0xC4BA90 Offset: 0xC4A090 VA: 0x180C4BA90
 	private int GetSocketFloor(DungeonBaseSocketType type) { }
 
-	// RVA: 0xC4C910 Offset: 0xC4AF10 VA: 0x180C4C910
+	// RVA: 0xC4CDE0 Offset: 0xC4B3E0 VA: 0x180C4CDE0
 	private bool IsFullyOccupied(List<GenerateDungeonBase.DungeonSegment> segments, GenerateDungeonBase.DungeonSegment segment) { }
 
-	// RVA: 0xC4CE40 Offset: 0xC4B440 VA: 0x180C4CE40
+	// RVA: 0xC4D310 Offset: 0xC4B910 VA: 0x180C4D310
 	private bool NeighbourMatches(List<GenerateDungeonBase.DungeonSegment> segments, DungeonBaseTransition transition, Vector3 transitionPos, Quaternion transitionRot) { }
 
-	// RVA: 0xC4F0F0 Offset: 0xC4D6F0 VA: 0x180C4F0F0
+	// RVA: 0xC4F5C0 Offset: 0xC4DBC0 VA: 0x180C4F5C0
 	private int SocketMatches(List<GenerateDungeonBase.DungeonSegment> segments, DungeonBaseLink link, Vector3 linkPos, Quaternion linkRot) { }
 
-	// RVA: 0xC4C9C0 Offset: 0xC4AFC0 VA: 0x180C4C9C0
+	// RVA: 0xC4CE90 Offset: 0xC4B490 VA: 0x180C4CE90
 	private bool IsOccupied(List<GenerateDungeonBase.DungeonSegment> segments, DungeonBaseSocket socket, Vector3 socketPos, Quaternion socketRot) { }
 
-	// RVA: 0xC4B380 Offset: 0xC49980 VA: 0x180C4B380
+	// RVA: 0xC4B850 Offset: 0xC49E50 VA: 0x180C4B850
 	private int CountLocal(List<GenerateDungeonBase.DungeonSegment> segments, DungeonBaseLink link) { }
 
-	// RVA: 0xC4AFD0 Offset: 0xC495D0 VA: 0x180C4AFD0
+	// RVA: 0xC4B4A0 Offset: 0xC49AA0 VA: 0x180C4B4A0
 	private int CountGlobal(List<GenerateDungeonBase.DungeonSegment> segments, DungeonBaseLink link) { }
 
-	// RVA: 0xC4B5D0 Offset: 0xC49BD0 VA: 0x180C4B5D0
+	// RVA: 0xC4BAA0 Offset: 0xC4A0A0 VA: 0x180C4BAA0
 	private bool IsBlocked(List<GenerateDungeonBase.DungeonSegment> segments, DungeonBaseLink link, Vector3 linkPos, Quaternion linkRot) { }
 
-	// RVA: 0xC4D400 Offset: 0xC4BA00 VA: 0x180C4D400
+	// RVA: 0xC4D8D0 Offset: 0xC4BED0 VA: 0x180C4D8D0
 	private void PlaceSegments(ref uint seed, int count, int budget, int floors, bool attachToFemale, bool attachToMale, List<GenerateDungeonBase.DungeonSegment> segments, Prefab<DungeonBaseLink>[] prefabs) { }
 
-	// RVA: 0xC4DAB0 Offset: 0xC4C0B0 VA: 0x180C4DAB0
+	// RVA: 0xC4DF80 Offset: 0xC4C580 VA: 0x180C4DF80
 	private void PlaceTransitions(ref uint seed, List<GenerateDungeonBase.DungeonSegment> segments, Prefab<DungeonBaseTransition>[] prefabs) { }
 
-	// RVA: 0xC4DF20 Offset: 0xC4C520 VA: 0x180C4DF20
+	// RVA: 0xC4E3F0 Offset: 0xC4C9F0 VA: 0x180C4E3F0
 	private bool Place(ref uint seed, List<GenerateDungeonBase.DungeonSegment> segments, DungeonBaseSocket targetSocket, Vector3 targetPos, Quaternion targetRot, Prefab<DungeonBaseLink> prefab, Quaternion[] rotations, out DungeonBaseSocket linkSocket, out Vector3 linkPos, out Quaternion linkRot, out int linkScore) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void SetupAI() { }
 
-	// RVA: 0xC4F860 Offset: 0xC4DE60 VA: 0x180C4F860
+	// RVA: 0xC4FD30 Offset: 0xC4E330 VA: 0x180C4FD30
 	public void .ctor() { }
 
-	// RVA: 0xC4F770 Offset: 0xC4DD70 VA: 0x180C4F770
+	// RVA: 0xC4FC40 Offset: 0xC4E240 VA: 0x180C4FC40
 	private static void .cctor() { }
 
 }
@@ -99,7 +99,7 @@ private sealed class GenerateDungeonBase.<>c__DisplayClass14_0 // TypeDefIndex: 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xC64020 Offset: 0xC62620 VA: 0x180C64020
+	// RVA: 0xC644F0 Offset: 0xC62AF0 VA: 0x180C644F0
 	internal float <Process>b__0(GenerateDungeonBase.DungeonSegment x) { }
 
 }
@@ -114,7 +114,7 @@ private sealed class GenerateDungeonBase.<>c__DisplayClass14_1 // TypeDefIndex: 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xC64100 Offset: 0xC62700 VA: 0x180C64100
+	// RVA: 0xC645D0 Offset: 0xC62BD0 VA: 0x180C645D0
 	internal float <Process>b__1(GenerateDungeonBase.DungeonSegment x) { }
 
 }

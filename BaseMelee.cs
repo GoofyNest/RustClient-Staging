@@ -30,73 +30,73 @@ public class BaseMelee : AttackEntity // TypeDefIndex: 8523
 
 	// Methods
 
-	// RVA: 0xA465C0 Offset: 0xA44BC0 VA: 0x180A465C0 Slot: 35
+	// RVA: 0xA46AB0 Offset: 0xA450B0 VA: 0x180A46AB0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x8895D0 Offset: 0x887BD0 VA: 0x1808895D0 Slot: 157
+	// RVA: 0x86C910 Offset: 0x86AF10 VA: 0x18086C910 Slot: 157
 	public override Vector3 GetInheritedVelocity(BasePlayer player) { }
 
-	// RVA: 0xA458E0 Offset: 0xA43EE0 VA: 0x180A458E0
+	// RVA: 0xA45DD0 Offset: 0xA443D0 VA: 0x180A45DD0
 	internal void DoThrow() { }
 
-	// RVA: 0xA452A0 Offset: 0xA438A0 VA: 0x180A452A0
+	// RVA: 0xA45790 Offset: 0xA43D90 VA: 0x180A45790
 	private Projectile CreateProjectile(string prefabPath, Vector3 pos, Vector3 forward, Vector3 velocity) { }
 
-	// RVA: 0xA45FD0 Offset: 0xA445D0 VA: 0x180A45FD0 Slot: 158
+	// RVA: 0xA464C0 Offset: 0xA44AC0 VA: 0x180A464C0 Slot: 158
 	public override void GetAttackStats(HitInfo info) { }
 
-	// RVA: 0xA45450 Offset: 0xA43A50 VA: 0x180A45450 Slot: 160
+	// RVA: 0xA45940 Offset: 0xA43F40 VA: 0x180A45940 Slot: 160
 	public virtual void DoAttackShared(HitInfo info) { }
 
-	// RVA: 0xA461E0 Offset: 0xA447E0 VA: 0x180A461E0 Slot: 138
+	// RVA: 0xA466D0 Offset: 0xA44CD0 VA: 0x180A466D0 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 161
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 161
 	protected virtual bool get_CanAttack() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 162
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 162
 	protected virtual bool get_CanThrow() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 163
 	public virtual void ClientAttack() { }
 
-	// RVA: 0xA461C0 Offset: 0xA447C0 VA: 0x180A461C0 Slot: 143
+	// RVA: 0xA466B0 Offset: 0xA44CB0 VA: 0x180A466B0 Slot: 143
 	public override void OnHolstered() { }
 
-	// RVA: 0xA46770 Offset: 0xA44D70 VA: 0x180A46770 Slot: 164
+	// RVA: 0xA46C60 Offset: 0xA45260 VA: 0x180A46C60 Slot: 164
 	protected virtual void ProcessAttack(HitTest hit) { }
 
-	// RVA: 0xA456A0 Offset: 0xA43CA0 VA: 0x180A456A0 Slot: 165
+	// RVA: 0xA45B90 Offset: 0xA44190 VA: 0x180A45B90 Slot: 165
 	protected virtual void DoAttack() { }
 
-	// RVA: 0xA45F40 Offset: 0xA44540 VA: 0x180A45F40 Slot: 166
+	// RVA: 0xA46430 Offset: 0xA44A30 VA: 0x180A46430 Slot: 166
 	public virtual void DoViewmodelImpact(HitTest test) { }
 
-	// RVA: 0xA466B0 Offset: 0xA44CB0 VA: 0x180A466B0 Slot: 144
+	// RVA: 0xA46BA0 Offset: 0xA451A0 VA: 0x180A46BA0 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
-	// RVA: 0xA46AB0 Offset: 0xA450B0 VA: 0x180A46AB0 Slot: 152
+	// RVA: 0xA46FA0 Offset: 0xA455A0 VA: 0x180A46FA0 Slot: 152
 	public override void ProcessSpectatorViewmodel(ViewModel vm) { }
 
-	// RVA: 0xA46A00 Offset: 0xA45000 VA: 0x180A46A00 Slot: 153
+	// RVA: 0xA46EF0 Offset: 0xA454F0 VA: 0x180A46EF0 Slot: 153
 	public override void ProcessSpectatorViewmodelEvent(ViewModel vm, BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0xA46030 Offset: 0xA44630 VA: 0x180A46030
+	// RVA: 0xA46520 Offset: 0xA44B20 VA: 0x180A46520
 	public ResourceDispenser.GatherPropertyEntry GetGatherInfoFromIndex(ResourceDispenser.GatherType index) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 167
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 167
 	public virtual bool CanHit(HitTest info) { }
 
-	// RVA: 0xA46B60 Offset: 0xA45160 VA: 0x180A46B60
+	// RVA: 0xA47050 Offset: 0xA45650 VA: 0x180A47050
 	public float TotalDamage() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 154
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 154
 	public override bool CanBeUsedInWater() { }
 
-	// RVA: 0xA46060 Offset: 0xA44660 VA: 0x180A46060
+	// RVA: 0xA46550 Offset: 0xA44B50 VA: 0x180A46550
 	public string GetStrikeEffectPath(string materialName) { }
 
-	// RVA: 0xA46CC0 Offset: 0xA452C0 VA: 0x180A46CC0
+	// RVA: 0xA471B0 Offset: 0xA457B0 VA: 0x180A471B0
 	public void .ctor() { }
 
 }

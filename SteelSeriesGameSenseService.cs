@@ -14,48 +14,48 @@ public class SteelSeriesGameSenseService : RestRgbService // TypeDefIndex: 7693
 	// Methods
 
 	[AsyncStateMachineAttribute] // RVA: 0xBA070 Offset: 0xB9470 VA: 0x1800BA070
-	// RVA: 0x21C22E0 Offset: 0x21C08E0 VA: 0x1821C22E0 Slot: 13
+	// RVA: 0x21C2B00 Offset: 0x21C1100 VA: 0x1821C2B00 Slot: 13
 	protected override ValueTask<bool> Initialize() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xBB4B0 Offset: 0xBA8B0 VA: 0x1800BB4B0
-	// RVA: 0x21C2820 Offset: 0x21C0E20 VA: 0x1821C2820 Slot: 14
+	// RVA: 0x21C3040 Offset: 0x21C1640 VA: 0x1821C3040 Slot: 14
 	protected override ValueTask Shutdown() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xBB710 Offset: 0xBAB10 VA: 0x1800BB710
-	// RVA: 0x21C24F0 Offset: 0x21C0AF0 VA: 0x1821C24F0 Slot: 15
+	// RVA: 0x21C2D10 Offset: 0x21C1310 VA: 0x1821C2D10 Slot: 15
 	protected override Task SendHeartbeat() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xBB8B0 Offset: 0xBACB0 VA: 0x1800BB8B0
-	// RVA: 0x21C2710 Offset: 0x21C0D10 VA: 0x1821C2710 Slot: 16
+	// RVA: 0x21C2F30 Offset: 0x21C1530 VA: 0x1821C2F30 Slot: 16
 	protected override Task SendStaticColor(Color color) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xBB9D0 Offset: 0xBADD0 VA: 0x1800BB9D0
-	// RVA: 0x21C25E0 Offset: 0x21C0BE0 VA: 0x1821C25E0 Slot: 17
+	// RVA: 0x21C2E00 Offset: 0x21C1400 VA: 0x1821C2E00 Slot: 17
 	protected override Task SendPulseColor(Color color, float duration) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xBBAB0 Offset: 0xBAEB0 VA: 0x1800BBAB0
-	// RVA: 0x21C23F0 Offset: 0x21C09F0 VA: 0x1821C23F0 Slot: 18
+	// RVA: 0x21C2C10 Offset: 0x21C1210 VA: 0x1821C2C10 Slot: 18
 	protected override Task SendEvent(RgbEventType type) { }
 
-	// RVA: 0x21C2920 Offset: 0x21C0F20 VA: 0x1821C2920
+	// RVA: 0x21C3140 Offset: 0x21C1740 VA: 0x1821C3140
 	private static string TryGetMomentsEvent(RgbEventType type) { }
 
-	// RVA: 0x21C1E30 Offset: 0x21C0430 VA: 0x1821C1E30
+	// RVA: 0x21C2650 Offset: 0x21C0C50 VA: 0x1821C2650
 	private ColorData GetColorData(Color color) { }
 
-	// RVA: 0x21C2080 Offset: 0x21C0680 VA: 0x1821C2080
+	// RVA: 0x21C28A0 Offset: 0x21C0EA0 VA: 0x1821C28A0
 	private string GetEndpoint(string path) { }
 
-	// RVA: 0x21C20E0 Offset: 0x21C06E0 VA: 0x1821C20E0
+	// RVA: 0x21C2900 Offset: 0x21C0F00 VA: 0x1821C2900
 	private static string GetGameSenseAddress() { }
 
-	// RVA: 0x21C1F40 Offset: 0x21C0540 VA: 0x1821C1F40
+	// RVA: 0x21C2760 Offset: 0x21C0D60 VA: 0x1821C2760
 	private static string GetCorePropsPath() { }
 
-	// RVA: 0x21C0D90 Offset: 0x21BF390 VA: 0x1821C0D90
+	// RVA: 0x21C15B0 Offset: 0x21BFBB0 VA: 0x1821C15B0
 	public void .ctor() { }
 
-	// RVA: 0x21C2970 Offset: 0x21C0F70 VA: 0x1821C2970
+	// RVA: 0x21C3190 Offset: 0x21C1790 VA: 0x1821C3190
 	private static void .cctor() { }
 
 }

@@ -8,13 +8,13 @@ public class RotateObject : MonoBehaviour // TypeDefIndex: 9289
 
 	// Methods
 
-	// RVA: 0x4C7F40 Offset: 0x4C6540 VA: 0x1804C7F40
+	// RVA: 0x4C7ED0 Offset: 0x4C64D0 VA: 0x1804C7ED0
 	private void Awake() { }
 
-	// RVA: 0x4C7F90 Offset: 0x4C6590 VA: 0x1804C7F90
+	// RVA: 0x4C7F20 Offset: 0x4C6520 VA: 0x1804C7F20
 	private void Update() { }
 
-	// RVA: 0x4C81F0 Offset: 0x4C67F0 VA: 0x1804C81F0
+	// RVA: 0x4C8180 Offset: 0x4C6780 VA: 0x1804C8180
 	public void .ctor() { }
 
 }

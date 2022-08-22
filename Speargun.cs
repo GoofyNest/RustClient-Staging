@@ -4,16 +4,16 @@ public class Speargun : CrossbowWeapon // TypeDefIndex: 9473
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 154
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 154
 	public override bool CanBeUsedInWater() { }
 
-	// RVA: 0xA7DFB0 Offset: 0xA7C5B0 VA: 0x180A7DFB0 Slot: 168
+	// RVA: 0xA7E480 Offset: 0xA7CA80 VA: 0x180A7E480 Slot: 168
 	public override bool CanAttack() { }
 
-	// RVA: 0xA7E140 Offset: 0xA7C740 VA: 0x180A7E140 Slot: 16
+	// RVA: 0xA7E610 Offset: 0xA7CC10 VA: 0x180A7E610 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0xA7E190 Offset: 0xA7C790 VA: 0x180A7E190
+	// RVA: 0xA7E660 Offset: 0xA7CC60 VA: 0x180A7E660
 	public void .ctor() { }
 
 }

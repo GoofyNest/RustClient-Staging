@@ -1,13 +1,13 @@
 public static class Craptography // TypeDefIndex: 11367
 {	// Fields
-	private static readonly byte[] hash; // 0x20000
+	private static readonly byte[] hash; // 0x1E01C
 
 	// Methods
 
-	// RVA: 0x6C2C60 Offset: 0x6C1260 VA: 0x1806C2C60
+	// RVA: 0x6C2BF0 Offset: 0x6C11F0 VA: 0x1806C2BF0
 	public static void XOR(uint seed, MemoryStream src, int srcOffset, MemoryStream dst, int dstOffset) { }
 
-	// RVA: 0x6C2E70 Offset: 0x6C1470 VA: 0x1806C2E70
+	// RVA: 0x6C2E00 Offset: 0x6C1400 VA: 0x1806C2E00
 	private static void .cctor() { }
 
 }

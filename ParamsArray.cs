@@ -14,28 +14,28 @@ internal struct ParamsArray // TypeDefIndex: 286
 
 	// Methods
 
-	// RVA: 0x215640 Offset: 0x214A40 VA: 0x180215640
+	// RVA: 0x215D10 Offset: 0x215110 VA: 0x180215D10
 	public void .ctor(object arg0) { }
 
-	// RVA: 0x2157C0 Offset: 0x214BC0 VA: 0x1802157C0
+	// RVA: 0x215E90 Offset: 0x215290 VA: 0x180215E90
 	public void .ctor(object arg0, object arg1) { }
 
-	// RVA: 0x215580 Offset: 0x214980 VA: 0x180215580
+	// RVA: 0x215C50 Offset: 0x215050 VA: 0x180215C50
 	public void .ctor(object arg0, object arg1, object arg2) { }
 
-	// RVA: 0x2156E0 Offset: 0x214AE0 VA: 0x1802156E0
+	// RVA: 0x215DB0 Offset: 0x2151B0 VA: 0x180215DB0
 	public void .ctor(object[] args) { }
 
-	// RVA: 0x2158E0 Offset: 0x214CE0 VA: 0x1802158E0
+	// RVA: 0x215FB0 Offset: 0x2153B0 VA: 0x180215FB0
 	public int get_Length() { }
 
-	// RVA: 0x215880 Offset: 0x214C80 VA: 0x180215880
+	// RVA: 0x215F50 Offset: 0x215350 VA: 0x180215F50
 	public object get_Item(int index) { }
 
-	// RVA: 0x215520 Offset: 0x214920 VA: 0x180215520
+	// RVA: 0x215BF0 Offset: 0x214FF0 VA: 0x180215BF0
 	private object GetAtSlow(int index) { }
 
-	// RVA: 0x18D26D0 Offset: 0x18D0CD0 VA: 0x1818D26D0
+	// RVA: 0x18D1DF0 Offset: 0x18D03F0 VA: 0x1818D1DF0
 	private static void .cctor() { }
 
 }

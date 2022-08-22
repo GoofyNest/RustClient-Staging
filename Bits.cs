@@ -8,13 +8,13 @@ internal static class Bits // TypeDefIndex: 1831
 
 	// Methods
 
-	// RVA: 0x12E2DB0 Offset: 0x12E13B0 VA: 0x1812E2DB0
+	// RVA: 0x12E9260 Offset: 0x12E7860 VA: 0x1812E9260
 	public static int Count(uint num) { }
 
-	// RVA: 0x12E2E60 Offset: 0x12E1460 VA: 0x1812E2E60
+	// RVA: 0x12E9310 Offset: 0x12E7910 VA: 0x1812E9310
 	public static int LeastPosition(uint num) { }
 
-	// RVA: 0x12E2F70 Offset: 0x12E1570 VA: 0x1812E2F70
+	// RVA: 0x12E9420 Offset: 0x12E7A20 VA: 0x1812E9420
 	private static void .cctor() { }
 
 }

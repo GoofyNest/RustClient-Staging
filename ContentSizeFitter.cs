@@ -14,43 +14,43 @@ public class ContentSizeFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 
 	// Methods
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public ContentSizeFitter.FitMode get_horizontalFit() { }
 
-	// RVA: 0x10BA8E0 Offset: 0x10B8EE0 VA: 0x1810BA8E0
+	// RVA: 0x10BB350 Offset: 0x10B9950 VA: 0x1810BB350
 	public void set_horizontalFit(ContentSizeFitter.FitMode value) { }
 
-	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
+	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0
 	public ContentSizeFitter.FitMode get_verticalFit() { }
 
-	// RVA: 0x10BA940 Offset: 0x10B8F40 VA: 0x1810BA940
+	// RVA: 0x10BB3B0 Offset: 0x10B99B0 VA: 0x1810BB3B0
 	public void set_verticalFit(ContentSizeFitter.FitMode value) { }
 
-	// RVA: 0x10BA840 Offset: 0x10B8E40 VA: 0x1810BA840
+	// RVA: 0x10BB2B0 Offset: 0x10B98B0 VA: 0x1810BB2B0
 	private RectTransform get_rectTransform() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	protected void .ctor() { }
 
-	// RVA: 0x10BA600 Offset: 0x10B8C00 VA: 0x1810BA600 Slot: 5
+	// RVA: 0x10BB070 Offset: 0x10B9670 VA: 0x1810BB070 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x10BA590 Offset: 0x10B8B90 VA: 0x1810BA590 Slot: 7
+	// RVA: 0x10BB000 Offset: 0x10B9600 VA: 0x1810BB000 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x10BA600 Offset: 0x10B8C00 VA: 0x1810BA600 Slot: 10
+	// RVA: 0x10BB070 Offset: 0x10B9670 VA: 0x1810BB070 Slot: 10
 	protected override void OnRectTransformDimensionsChange() { }
 
-	// RVA: 0x10BA4B0 Offset: 0x10B8AB0 VA: 0x1810BA4B0
+	// RVA: 0x10BAF20 Offset: 0x10B9520 VA: 0x1810BAF20
 	private void HandleSelfFittingAlongAxis(int axis) { }
 
-	// RVA: 0x10BA690 Offset: 0x10B8C90 VA: 0x1810BA690 Slot: 19
+	// RVA: 0x10BB100 Offset: 0x10B9700 VA: 0x1810BB100 Slot: 19
 	public virtual void SetLayoutHorizontal() { }
 
-	// RVA: 0x10BA770 Offset: 0x10B8D70 VA: 0x1810BA770 Slot: 20
+	// RVA: 0x10BB1E0 Offset: 0x10B97E0 VA: 0x1810BB1E0 Slot: 20
 	public virtual void SetLayoutVertical() { }
 
-	// RVA: 0x10BA610 Offset: 0x10B8C10 VA: 0x1810BA610
+	// RVA: 0x10BB080 Offset: 0x10B9680 VA: 0x1810BB080
 	protected void SetDirty() { }
 
 }

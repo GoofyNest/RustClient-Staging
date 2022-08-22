@@ -6,28 +6,28 @@ public class StringReader : TextReader // TypeDefIndex: 649
 
 	// Methods
 
-	// RVA: 0x1634530 Offset: 0x1632B30 VA: 0x181634530
+	// RVA: 0x1621850 Offset: 0x161FE50 VA: 0x181621850
 	public void .ctor(string s) { }
 
-	// RVA: 0x162ECC0 Offset: 0x162D2C0 VA: 0x18162ECC0 Slot: 7
+	// RVA: 0x161BFE0 Offset: 0x161A5E0 VA: 0x18161BFE0 Slot: 7
 	public override void Close() { }
 
-	// RVA: 0x1634140 Offset: 0x1632740 VA: 0x181634140 Slot: 8
+	// RVA: 0x1621460 Offset: 0x161FA60 VA: 0x181621460 Slot: 8
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x1634170 Offset: 0x1632770 VA: 0x181634170 Slot: 9
+	// RVA: 0x1621490 Offset: 0x161FA90 VA: 0x181621490 Slot: 9
 	public override int Peek() { }
 
-	// RVA: 0x1634300 Offset: 0x1632900 VA: 0x181634300 Slot: 10
+	// RVA: 0x1621620 Offset: 0x161FC20 VA: 0x181621620 Slot: 10
 	public override int Read() { }
 
-	// RVA: 0x1634350 Offset: 0x1632950 VA: 0x181634350 Slot: 11
+	// RVA: 0x1621670 Offset: 0x161FC70 VA: 0x181621670 Slot: 11
 	public override int Read([In] [Out] char[] buffer, int index, int count) { }
 
-	// RVA: 0x16342B0 Offset: 0x16328B0 VA: 0x1816342B0 Slot: 12
+	// RVA: 0x16215D0 Offset: 0x161FBD0 VA: 0x1816215D0 Slot: 12
 	public override string ReadToEnd() { }
 
-	// RVA: 0x16341C0 Offset: 0x16327C0 VA: 0x1816341C0 Slot: 13
+	// RVA: 0x16214E0 Offset: 0x161FAE0 VA: 0x1816214E0 Slot: 13
 	public override string ReadLine() { }
 
 }

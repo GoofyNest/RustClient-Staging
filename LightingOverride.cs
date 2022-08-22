@@ -15,10 +15,10 @@ public class LightingOverride : MonoBehaviour // TypeDefIndex: 6634
 
 	// Methods
 
-	// RVA: 0x1BA3770 Offset: 0x1BA1D70 VA: 0x181BA3770
+	// RVA: 0x1BA3F60 Offset: 0x1BA2560 VA: 0x181BA3F60
 	private void OnPreRender() { }
 
-	// RVA: 0x1BA36E0 Offset: 0x1BA1CE0 VA: 0x181BA36E0
+	// RVA: 0x1BA3ED0 Offset: 0x1BA24D0 VA: 0x181BA3ED0
 	private void OnPostRender() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

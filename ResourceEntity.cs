@@ -9,19 +9,19 @@ public class ResourceEntity : BaseEntity // TypeDefIndex: 9676
 
 	// Methods
 
-	// RVA: 0x4C39D0 Offset: 0x4C1FD0 VA: 0x1804C39D0 Slot: 34
+	// RVA: 0x4C3960 Offset: 0x4C1F60 VA: 0x1804C3960 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x4C3910 Offset: 0x4C1F10 VA: 0x1804C3910 Slot: 28
+	// RVA: 0x4C38A0 Offset: 0x4C1EA0 VA: 0x1804C38A0 Slot: 28
 	public override void InitShared() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 116
 	public override void OnAttacked(HitInfo info) { }
 
-	// RVA: 0x4C3900 Offset: 0x4C1F00 VA: 0x1804C3900 Slot: 113
+	// RVA: 0x4C3890 Offset: 0x4C1E90 VA: 0x1804C3890 Slot: 113
 	public override float BoundsPadding() { }
 
-	// RVA: 0x4C3A20 Offset: 0x4C2020 VA: 0x1804C3A20
+	// RVA: 0x4C39B0 Offset: 0x4C1FB0 VA: 0x1804C39B0
 	public void .ctor() { }
 
 }

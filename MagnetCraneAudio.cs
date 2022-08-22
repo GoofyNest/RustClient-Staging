@@ -38,19 +38,19 @@ public class MagnetCraneAudio : MonoBehaviour // TypeDefIndex: 9732
 
 	// Methods
 
-	// RVA: 0x558250 Offset: 0x556850 VA: 0x180558250
+	// RVA: 0x5581E0 Offset: 0x5567E0 VA: 0x1805581E0
 	protected void Awake() { }
 
-	// RVA: 0x558280 Offset: 0x556880 VA: 0x180558280
+	// RVA: 0x558210 Offset: 0x556810 VA: 0x180558210
 	public void ClientTick() { }
 
-	// RVA: 0x5590E0 Offset: 0x5576E0 VA: 0x1805590E0
+	// RVA: 0x559070 Offset: 0x557670 VA: 0x180559070
 	public void OnClientTickStopped() { }
 
-	// RVA: 0x559380 Offset: 0x557980 VA: 0x180559380
+	// RVA: 0x559310 Offset: 0x557910 VA: 0x180559310
 	private void TryPlayOneshot(SoundDefinition soundDef, GameObject targetParent, ref TimeSince timeSinceLast) { }
 
-	// RVA: 0x5590F0 Offset: 0x5576F0 VA: 0x1805590F0
+	// RVA: 0x559080 Offset: 0x557680 VA: 0x180559080
 	private void StopAll() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

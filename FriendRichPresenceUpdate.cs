@@ -10,13 +10,13 @@ internal struct FriendRichPresenceUpdate_t : ICallbackData // TypeDefIndex: 5313
 
 	// Methods
 
-	// RVA: 0x1E5A80 Offset: 0x1E4E80 VA: 0x1801E5A80 Slot: 5
+	// RVA: 0x1E5EA0 Offset: 0x1E52A0 VA: 0x1801E5EA0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E5A70 Offset: 0x1E4E70 VA: 0x1801E5A70 Slot: 4
+	// RVA: 0x1E5E90 Offset: 0x1E5290 VA: 0x1801E5E90 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370810 Offset: 0x136EE10 VA: 0x181370810
+	// RVA: 0x136F910 Offset: 0x136DF10 VA: 0x18136F910
 	private static void .cctor() { }
 
 }

@@ -10,10 +10,10 @@ public sealed class RootDesignerSerializerAttribute : Attribute // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x15D7230 Offset: 0x15D5830 VA: 0x1815D7230
+	// RVA: 0x15D6300 Offset: 0x15D4900 VA: 0x1815D6300
 	public void .ctor(string serializerTypeName, string baseSerializerTypeName, bool reloadable) { }
 
-	// RVA: 0x15D7290 Offset: 0x15D5890 VA: 0x1815D7290 Slot: 4
+	// RVA: 0x15D6360 Offset: 0x15D4960 VA: 0x1815D6360 Slot: 4
 	public override object get_TypeId() { }
 
 }

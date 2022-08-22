@@ -44,49 +44,49 @@ public class PieMenu : UIBehaviour // TypeDefIndex: 11194
 
 	// Methods
 
-	// RVA: 0x90B950 Offset: 0x909F50 VA: 0x18090B950 Slot: 6
+	// RVA: 0x90BE60 Offset: 0x90A460 VA: 0x18090BE60 Slot: 6
 	protected override void Start() { }
 
-	// RVA: 0x90A8C0 Offset: 0x908EC0 VA: 0x18090A8C0
+	// RVA: 0x90ADD0 Offset: 0x9093D0 VA: 0x18090ADD0
 	public void Clear() { }
 
-	// RVA: 0x90A830 Offset: 0x908E30 VA: 0x18090A830
+	// RVA: 0x90AD40 Offset: 0x909340 VA: 0x18090AD40
 	public void AddOption(PieMenu.MenuOption option) { }
 
-	// RVA: 0x90ACE0 Offset: 0x9092E0 VA: 0x18090ACE0
+	// RVA: 0x90B1F0 Offset: 0x9097F0 VA: 0x18090B1F0
 	public void FinishAndOpen() { }
 
-	// RVA: 0x90B030 Offset: 0x909630 VA: 0x18090B030 Slot: 5
+	// RVA: 0x90B540 Offset: 0x909B40 VA: 0x18090B540 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x90B870 Offset: 0x909E70 VA: 0x18090B870
+	// RVA: 0x90BD80 Offset: 0x90A380 VA: 0x18090BD80
 	public void SetDefaultOption() { }
 
-	// RVA: 0x90B090 Offset: 0x909690 VA: 0x18090B090
+	// RVA: 0x90B5A0 Offset: 0x909BA0 VA: 0x18090B5A0
 	public void PlayOpenSound() { }
 
-	// RVA: 0x90B050 Offset: 0x909650 VA: 0x18090B050
+	// RVA: 0x90B560 Offset: 0x909B60 VA: 0x18090B560
 	public void PlayCancelSound() { }
 
-	// RVA: 0x90A910 Offset: 0x908F10 VA: 0x18090A910
+	// RVA: 0x90AE20 Offset: 0x909420 VA: 0x18090AE20
 	public void Close(bool success = False) { }
 
-	// RVA: 0x90CC60 Offset: 0x90B260 VA: 0x18090CC60
+	// RVA: 0x90D170 Offset: 0x90B770 VA: 0x18090D170
 	private void Update() { }
 
-	// RVA: 0x90B0D0 Offset: 0x9096D0 VA: 0x18090B0D0
+	// RVA: 0x90B5E0 Offset: 0x909BE0 VA: 0x18090B5E0
 	public void Rebuild() { }
 
-	// RVA: 0x90BA60 Offset: 0x90A060 VA: 0x18090BA60
+	// RVA: 0x90BF70 Offset: 0x90A570 VA: 0x18090BF70
 	public void UpdateInteraction(bool allowLerp = True) { }
 
-	// RVA: 0x90ABA0 Offset: 0x9091A0 VA: 0x18090ABA0
+	// RVA: 0x90B0B0 Offset: 0x9096B0 VA: 0x18090B0B0
 	public bool DoSelect() { }
 
-	// RVA: 0x90D2B0 Offset: 0x90B8B0 VA: 0x18090D2B0
+	// RVA: 0x90D7C0 Offset: 0x90BDC0 VA: 0x18090D7C0
 	public void .ctor() { }
 
-	// RVA: 0x90CDD0 Offset: 0x90B3D0 VA: 0x18090CDD0
+	// RVA: 0x90D2E0 Offset: 0x90B8E0 VA: 0x18090D2E0
 	private static void .cctor() { }
 
 }
@@ -136,16 +136,16 @@ private sealed class PieMenu.<>c // TypeDefIndex: 11198
 
 	// Methods
 
-	// RVA: 0x920DE0 Offset: 0x91F3E0 VA: 0x180920DE0
+	// RVA: 0x9212F0 Offset: 0x91F8F0 VA: 0x1809212F0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x749300 Offset: 0x747900 VA: 0x180749300
+	// RVA: 0x749250 Offset: 0x747850 VA: 0x180749250
 	internal int <Rebuild>b__43_0(PieMenu.MenuOption x) { }
 
-	// RVA: 0x920B30 Offset: 0x91F130 VA: 0x180920B30
+	// RVA: 0x921040 Offset: 0x91F640 VA: 0x180921040
 	internal bool <Rebuild>b__43_1(PieMenu.MenuOption x) { }
 
 }

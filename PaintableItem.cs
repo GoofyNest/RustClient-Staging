@@ -5,13 +5,13 @@ public class PaintableItem : MonoBehaviour // TypeDefIndex: 9597
 
 	// Methods
 
-	// RVA: 0x85ADF0 Offset: 0x8593F0 VA: 0x18085ADF0
+	// RVA: 0x876550 Offset: 0x874B50 VA: 0x180876550
 	public void ClearImage() { }
 
-	// RVA: 0x85AE80 Offset: 0x859480 VA: 0x18085AE80
+	// RVA: 0x8765E0 Offset: 0x874BE0 VA: 0x1808765E0
 	public void LoadImage(uint crc, byte[] data) { }
 
-	// RVA: 0x85AE30 Offset: 0x859430 VA: 0x18085AE30
+	// RVA: 0x876590 Offset: 0x874B90 VA: 0x180876590
 	public void LoadImageFrom(uint crc, Texture2D texture) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

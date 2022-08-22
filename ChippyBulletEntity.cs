@@ -8,13 +8,13 @@ public class ChippyBulletEntity : SpriteArcadeEntity // TypeDefIndex: 8768
 
 	// Methods
 
-	// RVA: 0x53AAF0 Offset: 0x5390F0 VA: 0x18053AAF0
+	// RVA: 0x53AA80 Offset: 0x539080 VA: 0x18053AA80
 	public void FixedUpdate() { }
 
-	// RVA: 0x53A0E0 Offset: 0x5386E0 VA: 0x18053A0E0 Slot: 9
+	// RVA: 0x53A070 Offset: 0x538670 VA: 0x18053A070 Slot: 9
 	public override void AuthorativeThink(float delta) { }
 
-	// RVA: 0x53AB30 Offset: 0x539130 VA: 0x18053AB30
+	// RVA: 0x53AAC0 Offset: 0x5390C0 VA: 0x18053AAC0
 	public void .ctor() { }
 
 }

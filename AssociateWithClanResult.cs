@@ -9,13 +9,13 @@ internal struct AssociateWithClanResult_t : ICallbackData // TypeDefIndex: 5498
 
 	// Methods
 
-	// RVA: 0x1E4460 Offset: 0x1E3860 VA: 0x1801E4460 Slot: 5
+	// RVA: 0x1E4880 Offset: 0x1E3C80 VA: 0x1801E4880 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E4450 Offset: 0x1E3850 VA: 0x1801E4450 Slot: 4
+	// RVA: 0x1E4870 Offset: 0x1E3C70 VA: 0x1801E4870 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136B130 Offset: 0x1369730 VA: 0x18136B130
+	// RVA: 0x136A230 Offset: 0x1368830 VA: 0x18136A230
 	private static void .cctor() { }
 
 }

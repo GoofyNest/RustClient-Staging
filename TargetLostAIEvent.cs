@@ -9,14 +9,14 @@ public class TargetLostAIEvent : BaseAIEvent // TypeDefIndex: 9413
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x533E60 Offset: 0x532460 VA: 0x180533E60
+	// RVA: 0x533DF0 Offset: 0x5323F0 VA: 0x180533DF0
 	public float get_Range() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
+	// RVA: 0x533E00 Offset: 0x532400 VA: 0x180533E00
 	public void set_Range(float value) { }
 
-	// RVA: 0x7A8D00 Offset: 0x7A7300 VA: 0x1807A8D00
+	// RVA: 0x7C7100 Offset: 0x7C5700 VA: 0x1807C7100
 	public void .ctor() { }
 
 }

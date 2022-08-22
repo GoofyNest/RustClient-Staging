@@ -9,34 +9,34 @@ public sealed class MD5CryptoServiceProvider : MD5 // TypeDefIndex: 1006
 
 	// Methods
 
-	// RVA: 0x1704F10 Offset: 0x1703510 VA: 0x181704F10
+	// RVA: 0x1702B00 Offset: 0x1701100 VA: 0x181702B00
 	public void .ctor() { }
 
-	// RVA: 0x17035B0 Offset: 0x1701BB0 VA: 0x1817035B0 Slot: 1
+	// RVA: 0x17011A0 Offset: 0x16FF7A0 VA: 0x1817011A0 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1703510 Offset: 0x1701B10 VA: 0x181703510 Slot: 15
+	// RVA: 0x1701100 Offset: 0x16FF700 VA: 0x181701100 Slot: 15
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x1703650 Offset: 0x1701C50 VA: 0x181703650 Slot: 17
+	// RVA: 0x1701240 Offset: 0x16FF840 VA: 0x181701240 Slot: 17
 	protected override void HashCore(byte[] rgb, int ibStart, int cbSize) { }
 
-	// RVA: 0x1703770 Offset: 0x1701D70 VA: 0x181703770 Slot: 18
+	// RVA: 0x1701360 Offset: 0x16FF960 VA: 0x181701360 Slot: 18
 	protected override byte[] HashFinal() { }
 
-	// RVA: 0x1703870 Offset: 0x1701E70 VA: 0x181703870 Slot: 16
+	// RVA: 0x1701460 Offset: 0x16FFA60 VA: 0x181701460 Slot: 16
 	public override void Initialize() { }
 
-	// RVA: 0x1703920 Offset: 0x1701F20 VA: 0x181703920
+	// RVA: 0x1701510 Offset: 0x16FFB10 VA: 0x181701510
 	private void ProcessBlock(byte[] inputBuffer, int inputOffset) { }
 
-	// RVA: 0x1704D00 Offset: 0x1703300 VA: 0x181704D00
+	// RVA: 0x17028F0 Offset: 0x1700EF0 VA: 0x1817028F0
 	private void ProcessFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
-	// RVA: 0x17033A0 Offset: 0x17019A0 VA: 0x1817033A0
+	// RVA: 0x1700F90 Offset: 0x16FF590 VA: 0x181700F90
 	internal void AddLength(ulong length, byte[] buffer, int position) { }
 
-	// RVA: 0x1704EA0 Offset: 0x17034A0 VA: 0x181704EA0
+	// RVA: 0x1702A90 Offset: 0x1701090 VA: 0x181702A90
 	private static void .cctor() { }
 
 }

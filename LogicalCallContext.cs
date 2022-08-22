@@ -20,34 +20,34 @@ public sealed class LogicalCallContext : ISerializable, ICloneable // TypeDefInd
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x147B8F0 Offset: 0x1479EF0 VA: 0x18147B8F0
+	// RVA: 0x147A9C0 Offset: 0x1478FC0 VA: 0x18147A9C0
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x147B180 Offset: 0x1479780 VA: 0x18147B180 Slot: 4
+	// RVA: 0x147A250 Offset: 0x1478850 VA: 0x18147A250 Slot: 4
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x147AA40 Offset: 0x1479040 VA: 0x18147AA40 Slot: 5
+	// RVA: 0x1479B10 Offset: 0x1478110 VA: 0x181479B10 Slot: 5
 	public object Clone() { }
 
-	// RVA: 0x147B4C0 Offset: 0x1479AC0 VA: 0x18147B4C0
+	// RVA: 0x147A590 Offset: 0x1478B90 VA: 0x18147A590
 	internal void Merge(LogicalCallContext lc) { }
 
-	// RVA: 0x147BC70 Offset: 0x147A270 VA: 0x18147BC70
+	// RVA: 0x147AD40 Offset: 0x1479340 VA: 0x18147AD40
 	public bool get_HasInfo() { }
 
-	// RVA: 0x1478760 Offset: 0x1476D60 VA: 0x181478760
+	// RVA: 0x1477830 Offset: 0x1475E30 VA: 0x181477830
 	private bool get_HasUserData() { }
 
-	// RVA: 0x147BC00 Offset: 0x147A200 VA: 0x18147BC00
+	// RVA: 0x147ACD0 Offset: 0x14792D0 VA: 0x18147ACD0
 	private Hashtable get_Datastore() { }
 
-	// RVA: 0x147B0E0 Offset: 0x14796E0 VA: 0x18147B0E0
+	// RVA: 0x147A1B0 Offset: 0x14787B0 VA: 0x18147A1B0
 	public object GetData(string name) { }
 
-	// RVA: 0x147B790 Offset: 0x1479D90 VA: 0x18147B790
+	// RVA: 0x147A860 Offset: 0x1478E60 VA: 0x18147A860
 	public void SetData(string name, object data) { }
 
-	// RVA: 0x147B880 Offset: 0x1479E80 VA: 0x18147B880
+	// RVA: 0x147A950 Offset: 0x1478F50 VA: 0x18147A950
 	private static void .cctor() { }
 
 }
@@ -68,13 +68,13 @@ internal struct LogicalCallContext.Reader // TypeDefIndex: 1218
 	// RVA: 0x118820 Offset: 0x117C20 VA: 0x180118820
 	public bool get_IsNull() { }
 
-	// RVA: 0x1EFDD0 Offset: 0x1EF1D0 VA: 0x1801EFDD0
+	// RVA: 0x1F01F0 Offset: 0x1EF5F0 VA: 0x1801F01F0
 	public bool get_HasInfo() { }
 
-	// RVA: 0x1EFD50 Offset: 0x1EF150 VA: 0x1801EFD50
+	// RVA: 0x1F0170 Offset: 0x1EF570 VA: 0x1801F0170
 	public LogicalCallContext Clone() { }
 
-	// RVA: 0x1EFDC0 Offset: 0x1EF1C0 VA: 0x1801EFDC0
+	// RVA: 0x1F01E0 Offset: 0x1EF5E0 VA: 0x1801F01E0
 	public object GetData(string name) { }
 
 }

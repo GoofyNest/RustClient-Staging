@@ -8,25 +8,25 @@ public class WindZoneEx : MonoBehaviour // TypeDefIndex: 10700
 
 	// Methods
 
-	// RVA: 0x8F7EC0 Offset: 0x8F64C0 VA: 0x1808F7EC0
+	// RVA: 0x8F83D0 Offset: 0x8F69D0 VA: 0x1808F83D0
 	public WindZoneMode get_Mode() { }
 
-	// RVA: 0x8F7EE0 Offset: 0x8F64E0 VA: 0x1808F7EE0
+	// RVA: 0x8F83F0 Offset: 0x8F69F0 VA: 0x1808F83F0
 	public float get_Radius() { }
 
-	// RVA: 0x8F7A90 Offset: 0x8F6090 VA: 0x1808F7A90
+	// RVA: 0x8F7FA0 Offset: 0x8F65A0 VA: 0x1808F7FA0
 	private void Awake() { }
 
-	// RVA: 0x8F7BE0 Offset: 0x8F61E0 VA: 0x1808F7BE0
+	// RVA: 0x8F80F0 Offset: 0x8F66F0 VA: 0x1808F80F0
 	private void OnEnable() { }
 
-	// RVA: 0x8F7AE0 Offset: 0x8F60E0 VA: 0x1808F7AE0
+	// RVA: 0x8F7FF0 Offset: 0x8F65F0 VA: 0x1808F7FF0
 	private void OnDisable() { }
 
-	// RVA: 0x8F7CE0 Offset: 0x8F62E0 VA: 0x1808F7CE0
+	// RVA: 0x8F81F0 Offset: 0x8F67F0 VA: 0x1808F81F0
 	public Vector4 PackInfo() { }
 
-	// RVA: 0x8F7E00 Offset: 0x8F6400 VA: 0x1808F7E00
+	// RVA: 0x8F8310 Offset: 0x8F6910 VA: 0x1808F8310
 	public Vector4 PackParam() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

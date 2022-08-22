@@ -10,7 +10,7 @@ public class TriggerTrainCollisions : TriggerBase // TypeDefIndex: 9778
 
 	// Methods
 
-	// RVA: 0x4D3AA0 Offset: 0x4D20A0 VA: 0x1804D3AA0
+	// RVA: 0x4D3A30 Offset: 0x4D2030 VA: 0x1804D3A30
 	public void .ctor() { }
 
 }

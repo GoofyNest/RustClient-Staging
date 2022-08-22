@@ -4,10 +4,10 @@ public sealed class Projector : Behaviour // TypeDefIndex: 3407
 
 	// Methods
 
-	// RVA: 0x18FD630 Offset: 0x18FBC30 VA: 0x1818FD630
+	// RVA: 0x18FCD50 Offset: 0x18FB350 VA: 0x1818FCD50
 	public Material get_material() { }
 
-	// RVA: 0x18FD670 Offset: 0x18FBC70 VA: 0x1818FD670
+	// RVA: 0x18FCD90 Offset: 0x18FB390 VA: 0x1818FCD90
 	public void set_material(Material value) { }
 
 }

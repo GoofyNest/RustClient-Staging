@@ -1,7 +1,7 @@
 public sealed class BlurTypeParameter : ParameterOverride<BlurType> // TypeDefIndex: 10241
 {	// Methods
 
-	// RVA: 0x516EE0 Offset: 0x5154E0 VA: 0x180516EE0
+	// RVA: 0x516E70 Offset: 0x515470 VA: 0x180516E70
 	public void .ctor() { }
 
 }

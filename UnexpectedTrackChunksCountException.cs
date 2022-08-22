@@ -7,7 +7,7 @@ public sealed class UnexpectedTrackChunksCountException : MidiException // TypeD
 
 	// Methods
 
-	// RVA: 0x13AAF30 Offset: 0x13A9530 VA: 0x1813AAF30
+	// RVA: 0x13AA030 Offset: 0x13A8630 VA: 0x1813AA030
 	internal void .ctor(int expectedCount, int actualCount) { }
 
 }

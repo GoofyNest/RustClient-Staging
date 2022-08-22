@@ -24,55 +24,55 @@ public class ChippyArcadeGame : BaseArcadeGame // TypeDefIndex: 8765
 
 	// Methods
 
-	// RVA: 0x537D50 Offset: 0x536350 VA: 0x180537D50 Slot: 7
+	// RVA: 0x537CE0 Offset: 0x5362E0 VA: 0x180537CE0 Slot: 7
 	public override void Initialize() { }
 
-	// RVA: 0x537FD0 Offset: 0x5365D0 VA: 0x180537FD0 Slot: 6
+	// RVA: 0x537F60 Offset: 0x536560 VA: 0x180537F60 Slot: 6
 	public override void OnNoHost() { }
 
-	// RVA: 0x537920 Offset: 0x535F20 VA: 0x180537920
+	// RVA: 0x5378B0 Offset: 0x535EB0 VA: 0x1805378B0
 	public void DestroyNonMapEntites() { }
 
-	// RVA: 0x537D70 Offset: 0x536370 VA: 0x180537D70
+	// RVA: 0x537D00 Offset: 0x536300 VA: 0x180537D00
 	public void MainMenu() { }
 
-	// RVA: 0x538C40 Offset: 0x537240 VA: 0x180538C40
+	// RVA: 0x538BD0 Offset: 0x5371D0 VA: 0x180538BD0
 	public void SetLevel(int newLevel) { }
 
-	// RVA: 0x5394C0 Offset: 0x537AC0 VA: 0x1805394C0
+	// RVA: 0x539450 Offset: 0x537A50 VA: 0x180539450
 	public void StartGame() { }
 
-	// RVA: 0x537880 Offset: 0x535E80 VA: 0x180537880
+	// RVA: 0x537810 Offset: 0x535E10 VA: 0x180537810
 	public void BossKilled(ChippyBoss killed) { }
 
-	// RVA: 0x539180 Offset: 0x537780 VA: 0x180539180
+	// RVA: 0x539110 Offset: 0x537710 VA: 0x180539110
 	public void SpawnEnemies() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void FixedUpdate() { }
 
-	// RVA: 0x537C90 Offset: 0x536290 VA: 0x180537C90
+	// RVA: 0x537C20 Offset: 0x536220 VA: 0x180537C20
 	public void GameOver() { }
 
-	// RVA: 0x538CC0 Offset: 0x5372C0 VA: 0x180538CC0
+	// RVA: 0x538C50 Offset: 0x537250 VA: 0x180538C50
 	public void SetMenuVisible(bool isVisible) { }
 
-	// RVA: 0x537F50 Offset: 0x536550 VA: 0x180537F50 Slot: 8
+	// RVA: 0x537EE0 Offset: 0x5364E0 VA: 0x180537EE0 Slot: 8
 	public override void MenuAction(string message) { }
 
-	// RVA: 0x539690 Offset: 0x537C90 VA: 0x180539690
+	// RVA: 0x539620 Offset: 0x537C20 VA: 0x180539620
 	public void UpdateMenuButtons() { }
 
-	// RVA: 0x538BA0 Offset: 0x5371A0 VA: 0x180538BA0
+	// RVA: 0x538B30 Offset: 0x537130 VA: 0x180538B30
 	public void SelectNextButton(int dir) { }
 
-	// RVA: 0x538DD0 Offset: 0x5373D0 VA: 0x180538DD0
+	// RVA: 0x538D60 Offset: 0x537360 VA: 0x180538D60
 	public void SetScoresVisible(bool wantsVis) { }
 
-	// RVA: 0x538040 Offset: 0x536640 VA: 0x180538040 Slot: 9
+	// RVA: 0x537FD0 Offset: 0x5365D0 VA: 0x180537FD0 Slot: 9
 	public override void PlayerInput(InputState inputState, BasePlayer player, int playerIndex = 0, bool clientside = False) { }
 
-	// RVA: 0x539720 Offset: 0x537D20 VA: 0x180539720
+	// RVA: 0x5396B0 Offset: 0x537CB0 VA: 0x1805396B0
 	public void .ctor() { }
 
 }

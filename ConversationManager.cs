@@ -1,25 +1,25 @@
 public class ConversationManager : MonoBehaviour // TypeDefIndex: 8846
 {	// Fields
-	private static ConversationManager.Conversation activeConversation; // 0x1BB0
+	private static ConversationManager.Conversation activeConversation; // 0x2B10368
 
 	// Methods
 
-	// RVA: 0x6BB410 Offset: 0x6B9A10 VA: 0x1806BB410
+	// RVA: 0x6BB3A0 Offset: 0x6B99A0 VA: 0x1806BB3A0
 	public static bool InConversation() { }
 
-	// RVA: 0x6BB3D0 Offset: 0x6B99D0 VA: 0x1806BB3D0
+	// RVA: 0x6BB360 Offset: 0x6B9960 VA: 0x1806BB360
 	public static ConversationManager.Conversation GetActiveConversation() { }
 
-	// RVA: 0x6BB2D0 Offset: 0x6B98D0 VA: 0x1806BB2D0
+	// RVA: 0x6BB260 Offset: 0x6B9860 VA: 0x1806BB260
 	public static void FastForward() { }
 
-	// RVA: 0x6BB480 Offset: 0x6B9A80 VA: 0x1806BB480
+	// RVA: 0x6BB410 Offset: 0x6B9A10 VA: 0x1806BB410
 	public static void ModifyCamera() { }
 
-	// RVA: 0x6BB7B0 Offset: 0x6B9DB0 VA: 0x1806BB7B0
+	// RVA: 0x6BB740 Offset: 0x6B9D40 VA: 0x1806BB740
 	public static void StartConversation(ConversationData conversationData, IConversationProvider provider, string startIndex = "intro") { }
 
-	// RVA: 0x6BB120 Offset: 0x6B9720 VA: 0x1806BB120
+	// RVA: 0x6BB0B0 Offset: 0x6B96B0 VA: 0x1806BB0B0
 	public static void CancelConversation(bool fromServer) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -39,34 +39,34 @@ public class ConversationManager.Conversation : MonoBehaviour // TypeDefIndex: 8
 
 	// Methods
 
-	// RVA: 0x6BBA60 Offset: 0x6BA060 VA: 0x1806BBA60
+	// RVA: 0x6BB9F0 Offset: 0x6B9FF0 VA: 0x1806BB9F0
 	public int GetSpeechNodeIndex(string name) { }
 
-	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50
+	// RVA: 0x6BB9E0 Offset: 0x6B9FE0 VA: 0x1806BB9E0
 	public int GetSpeechCharacterIndex() { }
 
-	// RVA: 0x6BBB80 Offset: 0x6BA180 VA: 0x1806BBB80
+	// RVA: 0x6BBB10 Offset: 0x6BA110 VA: 0x1806BBB10
 	public bool IsTalking() { }
 
-	// RVA: 0x6BBCB0 Offset: 0x6BA2B0 VA: 0x1806BBCB0
+	// RVA: 0x6BBC40 Offset: 0x6BA240 VA: 0x1806BBC40
 	public void SwitchToSpeechNode(int index) { }
 
-	// RVA: 0x6BBC00 Offset: 0x6BA200 VA: 0x1806BBC00
+	// RVA: 0x6BBB90 Offset: 0x6BA190 VA: 0x1806BBB90
 	public void ResponsePressed(int index) { }
 
-	// RVA: 0x6BBA40 Offset: 0x6BA040 VA: 0x1806BBA40
+	// RVA: 0x6BB9D0 Offset: 0x6B9FD0 VA: 0x1806BB9D0
 	public float GetConversationAge() { }
 
-	// RVA: 0x6BBB70 Offset: 0x6BA170 VA: 0x1806BBB70
+	// RVA: 0x6BBB00 Offset: 0x6BA100 VA: 0x1806BBB00
 	public bool HasConversationStarted() { }
 
-	// RVA: 0x6BBEA0 Offset: 0x6BA4A0 VA: 0x1806BBEA0
+	// RVA: 0x6BBE30 Offset: 0x6BA430 VA: 0x1806BBE30
 	public void Update() { }
 
-	// RVA: 0x6BB9D0 Offset: 0x6B9FD0 VA: 0x1806BB9D0
+	// RVA: 0x6BB960 Offset: 0x6B9F60 VA: 0x1806BB960
 	public void FastFowardSpeech() { }
 
-	// RVA: 0x6BBCC0 Offset: 0x6BA2C0 VA: 0x1806BBCC0
+	// RVA: 0x6BBC50 Offset: 0x6BA250 VA: 0x1806BBC50
 	public void UpdateSpeechCharacterIndex(float delta) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

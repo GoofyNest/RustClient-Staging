@@ -21,52 +21,52 @@ public class EnvironmentFish : BaseMonoBehaviour, IClientComponent // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x8C89C0 Offset: 0x8C6FC0 VA: 0x1808C89C0
+	// RVA: 0x8C8ED0 Offset: 0x8C74D0 VA: 0x1808C8ED0
 	public void Startle() { }
 
-	// RVA: 0x8C8920 Offset: 0x8C6F20 VA: 0x1808C8920
+	// RVA: 0x8C8E30 Offset: 0x8C7430 VA: 0x1808C8E30
 	public bool IsStartled() { }
 
-	// RVA: 0x8C8960 Offset: 0x8C6F60 VA: 0x1808C8960
+	// RVA: 0x8C8E70 Offset: 0x8C7470 VA: 0x1808C8E70
 	public void Start() { }
 
-	// RVA: 0x8C8720 Offset: 0x8C6D20 VA: 0x1808C8720
+	// RVA: 0x8C8C30 Offset: 0x8C7230 VA: 0x1808C8C30
 	private float GetDesiredSpeed() { }
 
-	// RVA: 0x8C8770 Offset: 0x8C6D70 VA: 0x1808C8770
+	// RVA: 0x8C8C80 Offset: 0x8C7280 VA: 0x1808C8C80
 	public float GetTurnSpeed() { }
 
-	// RVA: 0x6C0B50 Offset: 0x6BF150 VA: 0x1806C0B50
+	// RVA: 0x6C0AE0 Offset: 0x6BF0E0 VA: 0x1806C0AE0
 	private float GetCurrentSpeed() { }
 
-	// RVA: 0x8C8B60 Offset: 0x8C7160 VA: 0x1808C8B60
+	// RVA: 0x8C9070 Offset: 0x8C7670 VA: 0x1808C9070
 	private void UpdateDirection(float delta) { }
 
-	// RVA: 0x8C8950 Offset: 0x8C6F50 VA: 0x1808C8950
+	// RVA: 0x8C8E60 Offset: 0x8C7460 VA: 0x1808C8E60
 	public void QueuedUpdate() { }
 
-	// RVA: 0x8C8130 Offset: 0x8C6730 VA: 0x1808C8130
+	// RVA: 0x8C8640 Offset: 0x8C6C40 VA: 0x1808C8640
 	public void CheckForCollisions() { }
 
-	// RVA: 0x8C8D50 Offset: 0x8C7350 VA: 0x1808C8D50
+	// RVA: 0x8C9260 Offset: 0x8C7860 VA: 0x1808C9260
 	private void UpdatePosition(float delta) { }
 
-	// RVA: 0x8C8F90 Offset: 0x8C7590 VA: 0x1808C8F90
+	// RVA: 0x8C94A0 Offset: 0x8C7AA0 VA: 0x1808C94A0
 	private void UpdateSpeed(float delta) { }
 
-	// RVA: 0x8C87C0 Offset: 0x8C6DC0 VA: 0x1808C87C0
+	// RVA: 0x8C8CD0 Offset: 0x8C72D0 VA: 0x1808C8CD0
 	public bool InvalidPosition() { }
 
-	// RVA: 0x8C9050 Offset: 0x8C7650 VA: 0x1808C9050
+	// RVA: 0x8C9560 Offset: 0x8C7B60 VA: 0x1808C9560
 	private void Update() { }
 
-	// RVA: 0x8C89E0 Offset: 0x8C6FE0 VA: 0x1808C89E0
+	// RVA: 0x8C8EF0 Offset: 0x8C74F0 VA: 0x1808C8EF0
 	private void UpdateDestination() { }
 
-	// RVA: 0x8C97F0 Offset: 0x8C7DF0 VA: 0x1808C97F0
+	// RVA: 0x8C9D00 Offset: 0x8C8300 VA: 0x1808C9D00
 	public void .ctor() { }
 
-	// RVA: 0x8C97A0 Offset: 0x8C7DA0 VA: 0x1808C97A0
+	// RVA: 0x8C9CB0 Offset: 0x8C82B0 VA: 0x1808C9CB0
 	private static void .cctor() { }
 
 }

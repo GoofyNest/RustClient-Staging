@@ -5,7 +5,7 @@ public class DeployableDecay : Decay // TypeDefIndex: 9530
 
 	// Methods
 
-	// RVA: 0x978F70 Offset: 0x977570 VA: 0x180978F70
+	// RVA: 0x979470 Offset: 0x977A70 VA: 0x180979470
 	public void .ctor() { }
 
 }

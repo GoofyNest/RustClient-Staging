@@ -27,142 +27,142 @@ public class TexasHoldEmController : CardGameController // TypeDefIndex: 12017
 
 	// Methods
 
-	// RVA: 0x8D9030 Offset: 0x8D7630 VA: 0x1808D9030 Slot: 6
+	// RVA: 0x8D9540 Offset: 0x8D7B40 VA: 0x1808D9540 Slot: 6
 	public override int get_MinBuyIn() { }
 
-	// RVA: 0x8D9020 Offset: 0x8D7620 VA: 0x1808D9020 Slot: 7
+	// RVA: 0x8D9530 Offset: 0x8D7B30 VA: 0x1808D9530 Slot: 7
 	public override int get_MaxBuyIn() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 5
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 5
 	public override int get_MinPlayers() { }
 
-	// RVA: 0x8D8F90 Offset: 0x8D7590 VA: 0x1808D8F90
+	// RVA: 0x8D94A0 Offset: 0x8D7AA0 VA: 0x1808D94A0
 	public void .ctor(CardTable owner) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D9010 Offset: 0x8D7610 VA: 0x1808D9010
+	// RVA: 0x8D9520 Offset: 0x8D7B20 VA: 0x1808D9520
 	public TexasHoldEmController.PokerInputOption get_LastAction() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D9050 Offset: 0x8D7650 VA: 0x1808D9050
+	// RVA: 0x8D9560 Offset: 0x8D7B60 VA: 0x1808D9560
 	private void set_LastAction(TexasHoldEmController.PokerInputOption value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0
 	public ulong get_LastActionTarget() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D9040 Offset: 0x8D7640 VA: 0x1808D9040
+	// RVA: 0x8D9550 Offset: 0x8D7B50 VA: 0x1808D9550
 	private void set_LastActionTarget(ulong value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743B0 Offset: 0x5729B0 VA: 0x1805743B0
+	// RVA: 0x574340 Offset: 0x572940 VA: 0x180574340
 	public int get_LastActionValue() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574440 Offset: 0x572A40 VA: 0x180574440
+	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
 	private void set_LastActionValue(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574390 Offset: 0x572990 VA: 0x180574390
+	// RVA: 0x574320 Offset: 0x572920 VA: 0x180574320
 	public int get_BiggestRaiseThisTurn() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574420 Offset: 0x572A20 VA: 0x180574420
+	// RVA: 0x5743B0 Offset: 0x5729B0 VA: 0x1805743B0
 	private void set_BiggestRaiseThisTurn(int value) { }
 
-	// RVA: 0x8D77D0 Offset: 0x8D5DD0 VA: 0x1808D77D0
+	// RVA: 0x8D7CE0 Offset: 0x8D62E0 VA: 0x1808D7CE0
 	public TexasHoldEmController.Playability GetPlayabilityStatus(CardPlayerData cpd) { }
 
-	// RVA: 0x8D74C0 Offset: 0x8D5AC0 VA: 0x1808D74C0
+	// RVA: 0x8D79D0 Offset: 0x8D5FD0 VA: 0x1808D79D0
 	public int GetCurrentBet() { }
 
-	// RVA: 0x8D7E30 Offset: 0x8D6430 VA: 0x1808D7E30 Slot: 11
+	// RVA: 0x8D8340 Offset: 0x8D6940 VA: 0x1808D8340 Slot: 11
 	public override bool IsAllowedToPlay(CardPlayerData cpd) { }
 
-	// RVA: 0x8D8BC0 Offset: 0x8D71C0 VA: 0x1808D8BC0
+	// RVA: 0x8D90D0 Offset: 0x8D76D0 VA: 0x1808D90D0
 	public bool TryGetActivePlayer(out CardPlayerData activePlayer) { }
 
-	// RVA: 0x8D8C90 Offset: 0x8D7290 VA: 0x1808D8C90
+	// RVA: 0x8D91A0 Offset: 0x8D77A0 VA: 0x1808D91A0
 	public bool TryGetDealer(out CardPlayerData dealer) { }
 
-	// RVA: 0x8D8CB0 Offset: 0x8D72B0 VA: 0x1808D8CB0
+	// RVA: 0x8D91C0 Offset: 0x8D77C0 VA: 0x1808D91C0
 	public bool TryGetSmallBlind(out CardPlayerData smallBlind) { }
 
-	// RVA: 0x8D8BE0 Offset: 0x8D71E0 VA: 0x1808D8BE0
+	// RVA: 0x8D90F0 Offset: 0x8D76F0 VA: 0x1808D90F0
 	public bool TryGetBigBlind(out CardPlayerData bigBlind) { }
 
-	// RVA: 0x8D7630 Offset: 0x8D5C30 VA: 0x1808D7630
+	// RVA: 0x8D7B40 Offset: 0x8D6140 VA: 0x1808D7B40
 	public int GetFirstPlayerRelIndex(bool startOfRound) { }
 
-	// RVA: 0x8D8A70 Offset: 0x8D7070 VA: 0x1808D8A70
+	// RVA: 0x8D8F80 Offset: 0x8D7580 VA: 0x1808D8F80
 	private bool ToCardPlayerData(int relIndex, bool includeFolded, out CardPlayerData result) { }
 
-	// RVA: 0x8D71A0 Offset: 0x8D57A0 VA: 0x1808D71A0
+	// RVA: 0x8D76B0 Offset: 0x8D5CB0 VA: 0x1808D76B0
 	public static ushort EvaluatePokerHand(List<PlayingCard> cards) { }
 
-	// RVA: 0x8D7590 Offset: 0x8D5B90 VA: 0x1808D7590
+	// RVA: 0x8D7AA0 Offset: 0x8D60A0 VA: 0x1808D7AA0
 	public int GetCurrentMinRaise(CardPlayerData playerData) { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450 Slot: 10
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0 Slot: 10
 	public override List<PlayingCard> GetTableCards() { }
 
-	// RVA: 0x8D7E50 Offset: 0x8D6450 VA: 0x1808D7E50 Slot: 12
+	// RVA: 0x8D8360 Offset: 0x8D6960 VA: 0x1808D8360 Slot: 12
 	public override void Load(CardTable syncData) { }
 
-	// RVA: 0x8D76D0 Offset: 0x8D5CD0 VA: 0x1808D76D0
+	// RVA: 0x8D7BE0 Offset: 0x8D61E0 VA: 0x1808D7BE0
 	public TexasHoldEmController.Playability GetLocalPlayerPlayabilityStatus() { }
 
-	// RVA: 0x8D81F0 Offset: 0x8D67F0 VA: 0x1808D81F0 Slot: 13
+	// RVA: 0x8D8700 Offset: 0x8D6D00 VA: 0x1808D8700 Slot: 13
 	protected override void SubGetAvailableInputs(ref List<CardTableUI.KeycodeWithAction> curAvailableInputs) { }
 
-	// RVA: 0x8D81D0 Offset: 0x8D67D0 VA: 0x1808D81D0
+	// RVA: 0x8D86E0 Offset: 0x8D6CE0 VA: 0x1808D86E0
 	private void OnInputFromUI(TexasHoldEmController.PokerInputOption input, int value = 0) { }
 
-	// RVA: 0x8D73A0 Offset: 0x8D59A0 VA: 0x1808D73A0
+	// RVA: 0x8D78B0 Offset: 0x8D5EB0 VA: 0x1808D78B0
 	public int GetCostOfInput(TexasHoldEmController.PokerInputOption option, CardPlayerData data) { }
 
-	// RVA: 0x8D7B50 Offset: 0x8D6150 VA: 0x1808D7B50
+	// RVA: 0x8D8060 Offset: 0x8D6660 VA: 0x1808D8060
 	public bool IsAPrimaryWinner(ulong playerId) { }
 
-	// RVA: 0x8D7CC0 Offset: 0x8D62C0 VA: 0x1808D7CC0
+	// RVA: 0x8D81D0 Offset: 0x8D67D0 VA: 0x1808D81D0
 	public bool IsAWinner(ulong playerId) { }
 
-	// RVA: 0x8D7890 Offset: 0x8D5E90 VA: 0x1808D7890
+	// RVA: 0x8D7DA0 Offset: 0x8D63A0 VA: 0x1808D7DA0
 	public bool HasPrimaryWinners() { }
 
-	// RVA: 0x8D80A0 Offset: 0x8D66A0 VA: 0x1808D80A0
+	// RVA: 0x8D85B0 Offset: 0x8D6BB0 VA: 0x1808D85B0
 	public int NumPrimaryWinners() { }
 
-	// RVA: 0x8D79F0 Offset: 0x8D5FF0 VA: 0x1808D79F0
+	// RVA: 0x8D7F00 Offset: 0x8D6500 VA: 0x1808D7F00
 	public bool HasSecondaryWinners() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D8DF0 Offset: 0x8D73F0 VA: 0x1808D8DF0
+	// RVA: 0x8D9300 Offset: 0x8D7900 VA: 0x1808D9300
 	private void <SubGetAvailableInputs>b__46_3() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D8D60 Offset: 0x8D7360 VA: 0x1808D8D60
+	// RVA: 0x8D9270 Offset: 0x8D7870 VA: 0x1808D9270
 	private void <SubGetAvailableInputs>b__46_0() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D8D90 Offset: 0x8D7390 VA: 0x1808D8D90
+	// RVA: 0x8D92A0 Offset: 0x8D78A0 VA: 0x1808D92A0
 	private void <SubGetAvailableInputs>b__46_1() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D8E20 Offset: 0x8D7420 VA: 0x1808D8E20
+	// RVA: 0x8D9330 Offset: 0x8D7930 VA: 0x1808D9330
 	private void <SubGetAvailableInputs>b__46_4() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D8EC0 Offset: 0x8D74C0 VA: 0x1808D8EC0
+	// RVA: 0x8D93D0 Offset: 0x8D79D0 VA: 0x1808D93D0
 	private void <SubGetAvailableInputs>b__46_5() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D8F60 Offset: 0x8D7560 VA: 0x1808D8F60
+	// RVA: 0x8D9470 Offset: 0x8D7A70 VA: 0x1808D9470
 	private void <SubGetAvailableInputs>b__46_6() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D8DC0 Offset: 0x8D73C0 VA: 0x1808D8DC0
+	// RVA: 0x8D92D0 Offset: 0x8D78D0 VA: 0x1808D92D0
 	private void <SubGetAvailableInputs>b__46_2() { }
 
 }

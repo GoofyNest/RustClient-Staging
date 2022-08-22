@@ -11,10 +11,10 @@ public sealed class ChromaticAberration : PostProcessEffectSettings // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x9F1C90 Offset: 0x9F0290 VA: 0x1809F1C90 Slot: 4
+	// RVA: 0x9F2180 Offset: 0x9F0780 VA: 0x1809F2180 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x9F1CD0 Offset: 0x9F02D0 VA: 0x1809F1CD0
+	// RVA: 0x9F21C0 Offset: 0x9F07C0 VA: 0x1809F21C0
 	public void .ctor() { }
 
 }

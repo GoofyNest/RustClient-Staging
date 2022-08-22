@@ -17,10 +17,10 @@ public struct RemotePlaySession // TypeDefIndex: 5555
 	// RVA: 0xF3850 Offset: 0xF2C50 VA: 0x1800F3850
 	public void set_Id(uint value) { }
 
-	// RVA: 0x1D3140 Offset: 0x1D2540 VA: 0x1801D3140 Slot: 3
+	// RVA: 0x1D37B0 Offset: 0x1D2BB0 VA: 0x1801D37B0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
+	// RVA: 0x68A650 Offset: 0x688C50 VA: 0x18068A650
 	public static RemotePlaySession op_Implicit(uint value) { }
 
 }

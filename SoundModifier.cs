@@ -5,7 +5,7 @@ public class SoundModifier : MonoBehaviour // TypeDefIndex: 9034
 
 	// Methods
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0 Slot: 4
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770 Slot: 4
 	public virtual void Init(Sound targetSound) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5

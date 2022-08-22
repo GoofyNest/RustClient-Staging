@@ -25,59 +25,59 @@ public class SellOrderEntry : MonoBehaviour, IInventoryChanged // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x58AD80 Offset: 0x589380 VA: 0x18058AD80
+	// RVA: 0x58AD10 Offset: 0x589310 VA: 0x18058AD10
 	public void OnEnable() { }
 
-	// RVA: 0x58AC80 Offset: 0x589280 VA: 0x18058AC80
+	// RVA: 0x58AC10 Offset: 0x589210 VA: 0x18058AC10
 	public void OnDisable() { }
 
-	// RVA: 0x58AF20 Offset: 0x589520 VA: 0x18058AF20
+	// RVA: 0x58AEB0 Offset: 0x5894B0 VA: 0x18058AEB0
 	public void Setup(VendingMachine.SellOrder so, int newIndex, IVendingMachineInterface panel, int minMultiplier = 1) { }
 
-	// RVA: 0x58AE50 Offset: 0x589450 VA: 0x18058AE50 Slot: 4
+	// RVA: 0x58ADE0 Offset: 0x5893E0 VA: 0x18058ADE0 Slot: 4
 	public void OnInventoryChanged() { }
 
-	// RVA: 0x58B800 Offset: 0x589E00 VA: 0x18058B800
+	// RVA: 0x58B790 Offset: 0x589D90 VA: 0x18058B790
 	public void Update() { }
 
-	// RVA: 0x58A430 Offset: 0x588A30 VA: 0x18058A430
+	// RVA: 0x58A3C0 Offset: 0x5889C0 VA: 0x18058A3C0
 	public void AmountTextChanged() { }
 
-	// RVA: 0x58AE60 Offset: 0x589460 VA: 0x18058AE60
+	// RVA: 0x58ADF0 Offset: 0x5893F0 VA: 0x18058ADF0
 	public void SetAmount(int newAmount) { }
 
-	// RVA: 0x58AA70 Offset: 0x589070 VA: 0x18058AA70
+	// RVA: 0x58AA00 Offset: 0x589000 VA: 0x18058AA00
 	public int GetDesiredTransactionCount() { }
 
-	// RVA: 0x58A710 Offset: 0x588D10 VA: 0x18058A710
+	// RVA: 0x58A6A0 Offset: 0x588CA0 VA: 0x18058A6A0
 	public int CurrencyAvailable() { }
 
-	// RVA: 0x58AC50 Offset: 0x589250 VA: 0x18058AC50
+	// RVA: 0x58ABE0 Offset: 0x5891E0 VA: 0x18058ABE0
 	public int MaxTransactionsAffordable() { }
 
-	// RVA: 0x58AC70 Offset: 0x589270 VA: 0x18058AC70
+	// RVA: 0x58AC00 Offset: 0x589200 VA: 0x18058AC00
 	public int MaxTransactionsAvailable() { }
 
-	// RVA: 0x58AB10 Offset: 0x589110 VA: 0x18058AB10
+	// RVA: 0x58AAA0 Offset: 0x5890A0 VA: 0x18058AAA0
 	public int GetMaxTransactionCount() { }
 
-	// RVA: 0x58B0F0 Offset: 0x5896F0 VA: 0x18058B0F0
+	// RVA: 0x58B080 Offset: 0x589680 VA: 0x18058B080
 	public void UpdateIcons() { }
 
-	// RVA: 0x58B600 Offset: 0x589C00 VA: 0x18058B600
+	// RVA: 0x58B590 Offset: 0x589B90 VA: 0x18058B590
 	public void UpdateNotifications() { }
 
-	// RVA: 0x58A6D0 Offset: 0x588CD0 VA: 0x18058A6D0
+	// RVA: 0x58A660 Offset: 0x588C60 VA: 0x18058A660
 	public bool CanAfford() { }
 
-	// RVA: 0x58A5F0 Offset: 0x588BF0 VA: 0x18058A5F0
+	// RVA: 0x58A580 Offset: 0x588B80 VA: 0x18058A580
 	public void BuyClick() { }
 
-	// RVA: 0x58B840 Offset: 0x589E40 VA: 0x18058B840
+	// RVA: 0x58B7D0 Offset: 0x589DD0 VA: 0x18058B7D0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x58B0B0 Offset: 0x5896B0 VA: 0x18058B0B0
+	// RVA: 0x58B040 Offset: 0x589640 VA: 0x18058B040
 	private bool <CurrencyAvailable>b__30_0(Item x) { }
 
 }
@@ -90,16 +90,16 @@ private sealed class SellOrderEntry.<>c // TypeDefIndex: 8735
 
 	// Methods
 
-	// RVA: 0x5A4C40 Offset: 0x5A3240 VA: 0x1805A4C40
+	// RVA: 0x5A4BD0 Offset: 0x5A31D0 VA: 0x1805A4BD0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x5A4420 Offset: 0x5A2A20 VA: 0x1805A4420
+	// RVA: 0x5A43B0 Offset: 0x5A29B0 VA: 0x1805A43B0
 	internal bool <CurrencyAvailable>b__30_1(Item x) { }
 
-	// RVA: 0x56EBC0 Offset: 0x56D1C0 VA: 0x18056EBC0
+	// RVA: 0x56EB50 Offset: 0x56D150 VA: 0x18056EB50
 	internal int <CurrencyAvailable>b__30_2(Item x) { }
 
 }

@@ -4,13 +4,13 @@ public class DiveSite : JunkPile // TypeDefIndex: 8778
 
 	// Methods
 
-	// RVA: 0xAABAF0 Offset: 0xAAA0F0 VA: 0x180AABAF0 Slot: 14
+	// RVA: 0xAABFC0 Offset: 0xAAA5C0 VA: 0x180AABFC0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xAABC40 Offset: 0xAAA240 VA: 0x180AABC40
+	// RVA: 0xAAC110 Offset: 0xAAA710 VA: 0x180AAC110
 	public void Update() { }
 
-	// RVA: 0xAABDE0 Offset: 0xAAA3E0 VA: 0x180AABDE0
+	// RVA: 0xAAC2B0 Offset: 0xAAA8B0 VA: 0x180AAC2B0
 	public void .ctor() { }
 
 }

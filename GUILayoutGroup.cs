@@ -29,49 +29,49 @@ internal class GUILayoutGroup : GUILayoutEntry // TypeDefIndex: 4055
 
 	// Methods
 
-	// RVA: 0x582940 Offset: 0x580F40 VA: 0x180582940 Slot: 4
+	// RVA: 0x5828D0 Offset: 0x580ED0 VA: 0x1805828D0 Slot: 4
 	public override int get_marginLeft() { }
 
-	// RVA: 0x10507D0 Offset: 0x104EDD0 VA: 0x1810507D0 Slot: 5
+	// RVA: 0x79BE30 Offset: 0x79A430 VA: 0x18079BE30 Slot: 5
 	public override int get_marginRight() { }
 
-	// RVA: 0x58AC70 Offset: 0x589270 VA: 0x18058AC70 Slot: 6
+	// RVA: 0x58AC00 Offset: 0x589200 VA: 0x18058AC00 Slot: 6
 	public override int get_marginTop() { }
 
-	// RVA: 0x107A150 Offset: 0x1078750 VA: 0x18107A150 Slot: 7
+	// RVA: 0x107ABC0 Offset: 0x10791C0 VA: 0x18107ABC0 Slot: 7
 	public override int get_marginBottom() { }
 
-	// RVA: 0x1A708D0 Offset: 0x1A6EED0 VA: 0x181A708D0
+	// RVA: 0x1A5CE00 Offset: 0x1A5B400 VA: 0x181A5CE00
 	public void .ctor() { }
 
-	// RVA: 0x1A6DD00 Offset: 0x1A6C300 VA: 0x181A6DD00 Slot: 13
+	// RVA: 0x1A5A230 Offset: 0x1A58830 VA: 0x181A5A230 Slot: 13
 	public override void ApplyOptions(GUILayoutOption[] options) { }
 
-	// RVA: 0x1A6DE20 Offset: 0x1A6C420 VA: 0x181A6DE20 Slot: 12
+	// RVA: 0x1A5A350 Offset: 0x1A58950 VA: 0x181A5A350 Slot: 12
 	protected override void ApplyStyleSettings(GUIStyle style) { }
 
-	// RVA: 0x1A6F1F0 Offset: 0x1A6D7F0 VA: 0x181A6F1F0
+	// RVA: 0x1A5B720 Offset: 0x1A59D20 VA: 0x181A5B720
 	public void ResetCursor() { }
 
-	// RVA: 0x1A6EF90 Offset: 0x1A6D590 VA: 0x181A6EF90
+	// RVA: 0x1A5B4C0 Offset: 0x1A59AC0 VA: 0x181A5B4C0
 	public GUILayoutEntry GetNext() { }
 
-	// RVA: 0x1A6DCA0 Offset: 0x1A6C2A0 VA: 0x181A6DCA0
+	// RVA: 0x1A5A1D0 Offset: 0x1A587D0 VA: 0x181A5A1D0
 	public void Add(GUILayoutEntry e) { }
 
-	// RVA: 0x1A6E750 Offset: 0x1A6CD50 VA: 0x181A6E750 Slot: 8
+	// RVA: 0x1A5AC80 Offset: 0x1A59280 VA: 0x181A5AC80 Slot: 8
 	public override void CalcWidth() { }
 
-	// RVA: 0x1A6F200 Offset: 0x1A6D800 VA: 0x181A6F200 Slot: 10
+	// RVA: 0x1A5B730 Offset: 0x1A59D30 VA: 0x181A5B730 Slot: 10
 	public override void SetHorizontal(float x, float width) { }
 
-	// RVA: 0x1A6DF90 Offset: 0x1A6C590 VA: 0x181A6DF90 Slot: 9
+	// RVA: 0x1A5A4C0 Offset: 0x1A58AC0 VA: 0x181A5A4C0 Slot: 9
 	public override void CalcHeight() { }
 
-	// RVA: 0x1A6FB10 Offset: 0x1A6E110 VA: 0x181A6FB10 Slot: 11
+	// RVA: 0x1A5C040 Offset: 0x1A5A640 VA: 0x181A5C040 Slot: 11
 	public override void SetVertical(float y, float height) { }
 
-	// RVA: 0x1A70440 Offset: 0x1A6EA40 VA: 0x181A70440 Slot: 3
+	// RVA: 0x1A5C970 Offset: 0x1A5AF70 VA: 0x181A5C970 Slot: 3
 	public override string ToString() { }
 
 }

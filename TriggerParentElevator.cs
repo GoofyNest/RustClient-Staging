@@ -4,7 +4,7 @@ public class TriggerParentElevator : TriggerParentEnclosed // TypeDefIndex: 1003
 
 	// Methods
 
-	// RVA: 0xA22540 Offset: 0xA20B40 VA: 0x180A22540
+	// RVA: 0xA22A30 Offset: 0xA21030 VA: 0x180A22A30
 	public void .ctor() { }
 
 }

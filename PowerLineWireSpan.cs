@@ -8,10 +8,10 @@ public class PowerLineWireSpan : MonoBehaviour // TypeDefIndex: 10372
 
 	// Methods
 
-	// RVA: 0x99E100 Offset: 0x99C700 VA: 0x18099E100
+	// RVA: 0x99E5F0 Offset: 0x99CBF0 VA: 0x18099E5F0
 	public void Init(PowerLineWire wire) { }
 
-	// RVA: 0x99E5D0 Offset: 0x99CBD0 VA: 0x18099E5D0
+	// RVA: 0x99EAC0 Offset: 0x99D0C0 VA: 0x18099EAC0
 	public void .ctor() { }
 
 }

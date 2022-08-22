@@ -6,13 +6,13 @@ public sealed class InstanceDescriptor // TypeDefIndex: 2787
 
 	// Methods
 
-	// RVA: 0x15C7FB0 Offset: 0x15C65B0 VA: 0x1815C7FB0
+	// RVA: 0x15C7080 Offset: 0x15C5680 VA: 0x1815C7080
 	public void .ctor(MemberInfo member, ICollection arguments) { }
 
-	// RVA: 0x15C7950 Offset: 0x15C5F50 VA: 0x1815C7950
+	// RVA: 0x15C6A20 Offset: 0x15C5020 VA: 0x1815C6A20
 	public void .ctor(MemberInfo member, ICollection arguments, bool isComplete) { }
 
-	// RVA: 0x15C7460 Offset: 0x15C5A60 VA: 0x1815C7460
+	// RVA: 0x15C6530 Offset: 0x15C4B30 VA: 0x1815C6530
 	public object Invoke() { }
 
 }

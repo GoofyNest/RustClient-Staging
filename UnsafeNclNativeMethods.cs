@@ -3,25 +3,25 @@ internal static class UnsafeNclNativeMethods.HttpApi // TypeDefIndex: 2981
 // Namespace: 
 internal static class UnsafeNclNativeMethods.HttpApi // TypeDefIndex: 2981
 	// Fields
-	private static string[] m_Strings; // 0x145A0
+	private static string[] m_Strings; // 0x2B10388
 
 	// Methods
 
-	// RVA: 0xFF8950 Offset: 0xFF6F50 VA: 0x180FF8950
+	// RVA: 0xFF93F0 Offset: 0xFF79F0 VA: 0x180FF93F0
 	private static void .cctor() { }
 
 }
 
 internal static class UnsafeNclNativeMethods.HttpApi.HTTP_REQUEST_HEADER_ID // TypeDefIndex: 2982
 {	// Fields
-	private static string[] m_Strings; // 0x14603
+	private static string[] m_Strings; // 0x14370
 
 	// Methods
 
-	// RVA: 0xFF7800 Offset: 0xFF5E00 VA: 0x180FF7800
+	// RVA: 0xFF82A0 Offset: 0xFF68A0 VA: 0x180FF82A0
 	internal static string ToString(int position) { }
 
-	// RVA: 0xFF7890 Offset: 0xFF5E90 VA: 0x180FF7890
+	// RVA: 0xFF8330 Offset: 0xFF6930 VA: 0x180FF8330
 	private static void .cctor() { }
 
 }
@@ -29,10 +29,10 @@ internal static class UnsafeNclNativeMethods.HttpApi.HTTP_REQUEST_HEADER_ID // T
 internal static class UnsafeNclNativeMethods.SecureStringHelper // TypeDefIndex: 2983
 {	// Methods
 
-	// RVA: 0xFFCF40 Offset: 0xFFB540 VA: 0x180FFCF40
+	// RVA: 0xFFD9E0 Offset: 0xFFBFE0 VA: 0x180FFD9E0
 	internal static string CreateString(SecureString secureString) { }
 
-	// RVA: 0xFFCEA0 Offset: 0xFFB4A0 VA: 0x180FFCEA0
+	// RVA: 0xFFD940 Offset: 0xFFBF40 VA: 0x180FFD940
 	internal static SecureString CreateSecureString(string plainString) { }
 
 }

@@ -12,7 +12,7 @@ public class LevelInfo : SingletonComponent<LevelInfo> // TypeDefIndex: 9962
 
 	// Methods
 
-	// RVA: 0x68BD70 Offset: 0x68A370 VA: 0x18068BD70
+	// RVA: 0x68BD00 Offset: 0x68A300 VA: 0x18068BD00
 	public void .ctor() { }
 
 }

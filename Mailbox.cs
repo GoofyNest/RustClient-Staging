@@ -13,25 +13,25 @@ public class Mailbox : StorageContainer // TypeDefIndex: 8408
 
 	// Methods
 
-	// RVA: 0x55BC20 Offset: 0x55A220 VA: 0x18055BC20 Slot: 49
+	// RVA: 0x55BBB0 Offset: 0x55A1B0 VA: 0x18055BBB0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x55C2A0 Offset: 0x55A8A0 VA: 0x18055C2A0 Slot: 50
+	// RVA: 0x55C230 Offset: 0x55A830 VA: 0x18055C230 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x55BFF0 Offset: 0x55A5F0 VA: 0x18055BFF0 Slot: 35
+	// RVA: 0x55BF80 Offset: 0x55A580 VA: 0x18055BF80 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x55C3A0 Offset: 0x55A9A0 VA: 0x18055C3A0
+	// RVA: 0x55C330 Offset: 0x55A930 VA: 0x18055C330
 	public int get_mailInputSlot() { }
 
-	// RVA: 0x55C0E0 Offset: 0x55A6E0 VA: 0x18055C0E0 Slot: 155
+	// RVA: 0x55C070 Offset: 0x55A670 VA: 0x18055C070 Slot: 155
 	public virtual bool PlayerIsOwner(BasePlayer player) { }
 
-	// RVA: 0x55BFA0 Offset: 0x55A5A0 VA: 0x18055BFA0
+	// RVA: 0x55BF30 Offset: 0x55A530 VA: 0x18055BF30
 	public bool IsFull() { }
 
-	// RVA: 0x55BFC0 Offset: 0x55A5C0 VA: 0x18055BFC0
+	// RVA: 0x55BF50 Offset: 0x55A550 VA: 0x18055BF50
 	public void MarkFull(bool full) { }
 
 	[BaseEntity.Menu] // RVA: 0xED010 Offset: 0xEC410 VA: 0x1800ED010
@@ -41,19 +41,19 @@ public class Mailbox : StorageContainer // TypeDefIndex: 8408
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Full(BasePlayer player) { }
 
-	// RVA: 0x55BBC0 Offset: 0x55A1C0 VA: 0x18055BBC0
+	// RVA: 0x55BB50 Offset: 0x55A150 VA: 0x18055BB50
 	public bool Full_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x55C100 Offset: 0x55A700 VA: 0x18055C100 Slot: 153
+	// RVA: 0x55C090 Offset: 0x55A690 VA: 0x18055C090 Slot: 153
 	public override bool ShouldShowLootMenus() { }
 
-	// RVA: 0x55C200 Offset: 0x55A800 VA: 0x18055C200
+	// RVA: 0x55C190 Offset: 0x55A790 VA: 0x18055C190
 	public void TrySubmit() { }
 
-	// RVA: 0x55BF60 Offset: 0x55A560 VA: 0x18055BF60 Slot: 152
+	// RVA: 0x55BEF0 Offset: 0x55A4F0 VA: 0x18055BEF0 Slot: 152
 	public override int GetMoveToSlotIndex(BasePlayer player, Item item) { }
 
-	// RVA: 0x55C240 Offset: 0x55A840 VA: 0x18055C240
+	// RVA: 0x55C1D0 Offset: 0x55A7D0 VA: 0x18055C1D0
 	public void .ctor() { }
 
 }

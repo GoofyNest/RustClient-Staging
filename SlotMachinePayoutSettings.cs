@@ -9,7 +9,7 @@ public class SlotMachinePayoutSettings : ScriptableObject // TypeDefIndex: 8750
 
 	// Methods
 
-	// RVA: 0x5AB9A0 Offset: 0x5A9FA0 VA: 0x1805AB9A0
+	// RVA: 0x5AB930 Offset: 0x5A9F30 VA: 0x1805AB930
 	public void .ctor() { }
 
 }

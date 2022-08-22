@@ -19,22 +19,22 @@ public class ch47Animator : MonoBehaviour // TypeDefIndex: 8856
 
 	// Methods
 
-	// RVA: 0x1A90A10 Offset: 0x1A8F010 VA: 0x181A90A10
+	// RVA: 0x1A7D220 Offset: 0x1A7B820 VA: 0x181A7D220
 	private void Start() { }
 
-	// RVA: 0x7F9BF0 Offset: 0x7F81F0 VA: 0x1807F9BF0
+	// RVA: 0x7FA180 Offset: 0x7F8780 VA: 0x1807FA180
 	public void SetDropDoorOpen(bool isOpen) { }
 
-	// RVA: 0x1A90A70 Offset: 0x1A8F070 VA: 0x181A90A70
+	// RVA: 0x1A7D280 Offset: 0x1A7B880 VA: 0x181A7D280
 	private void Update() { }
 
-	// RVA: 0x1A908A0 Offset: 0x1A8EEA0 VA: 0x181A908A0
+	// RVA: 0x1A7D0B0 Offset: 0x1A7B6B0 VA: 0x181A7D0B0
 	private void LateUpdate() { }
 
-	// RVA: 0x1A907C0 Offset: 0x1A8EDC0 VA: 0x181A907C0
+	// RVA: 0x1A7CFD0 Offset: 0x1A7B5D0 VA: 0x181A7CFD0
 	private void EnableBlurredRotorBlades(bool enabled) { }
 
-	// RVA: 0x1A90BE0 Offset: 0x1A8F1E0 VA: 0x181A90BE0
+	// RVA: 0x1A7D3F0 Offset: 0x1A7B9F0 VA: 0x181A7D3F0
 	public void .ctor() { }
 
 }

@@ -10,26 +10,26 @@ internal class NativeInputSystem // TypeDefIndex: 4523
 
 	// Methods
 
-	// RVA: 0x2322170 Offset: 0x2320770 VA: 0x182322170
+	// RVA: 0x2322990 Offset: 0x2320F90 VA: 0x182322990
 	private static void .cctor() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2321F40 Offset: 0x2320540 VA: 0x182321F40
+	// RVA: 0x2322760 Offset: 0x2320D60 VA: 0x182322760
 	internal static void NotifyBeforeUpdate(NativeInputUpdateType updateType) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2322040 Offset: 0x2320640 VA: 0x182322040
+	// RVA: 0x2322860 Offset: 0x2320E60 VA: 0x182322860
 	internal static void NotifyUpdate(NativeInputUpdateType updateType, IntPtr eventBuffer) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2321FC0 Offset: 0x23205C0 VA: 0x182321FC0
+	// RVA: 0x23227E0 Offset: 0x2320DE0 VA: 0x1823227E0
 	internal static void NotifyDeviceDiscovered(int deviceId, string deviceDescriptor) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x23220E0 Offset: 0x23206E0 VA: 0x1823220E0
+	// RVA: 0x2322900 Offset: 0x2320F00 VA: 0x182322900
 	internal static void ShouldRunUpdate(NativeInputUpdateType updateType, out bool retval) { }
 
-	// RVA: 0x23221A0 Offset: 0x23207A0 VA: 0x1823221A0
+	// RVA: 0x23229C0 Offset: 0x2320FC0 VA: 0x1823229C0
 	internal static void set_hasDeviceDiscoveredCallback(bool value) { }
 
 }

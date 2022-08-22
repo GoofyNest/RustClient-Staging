@@ -12,16 +12,16 @@ public class OxygenOverlay : MonoBehaviour // TypeDefIndex: 9133
 
 	// Methods
 
-	// RVA: 0x515E30 Offset: 0x514430 VA: 0x180515E30
+	// RVA: 0x515DC0 Offset: 0x5143C0 VA: 0x180515DC0
 	public void Awake() { }
 
-	// RVA: 0x9EAA10 Offset: 0x9E9010 VA: 0x1809EAA10
+	// RVA: 0x9EAF00 Offset: 0x9E9500 VA: 0x1809EAF00
 	protected void Update() { }
 
-	// RVA: 0x9EA780 Offset: 0x9E8D80 VA: 0x1809EA780
+	// RVA: 0x9EAC70 Offset: 0x9E9270 VA: 0x1809EAC70
 	private float GetIntensity() { }
 
-	// RVA: 0x57BC30 Offset: 0x57A230 VA: 0x18057BC30
+	// RVA: 0x57BBC0 Offset: 0x57A1C0 VA: 0x18057BBC0
 	public void .ctor() { }
 
 }

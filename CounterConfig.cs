@@ -6,31 +6,31 @@ public class CounterConfig : UIDialog // TypeDefIndex: 8730
 
 	// Methods
 
-	// RVA: 0x5218E0 Offset: 0x51FEE0 VA: 0x1805218E0 Slot: 8
+	// RVA: 0x521870 Offset: 0x51FE70 VA: 0x180521870 Slot: 8
 	public override void OpenDialog() { }
 
-	// RVA: 0x6BD1F0 Offset: 0x6BB7F0 VA: 0x1806BD1F0
+	// RVA: 0x6BD180 Offset: 0x6BB780 VA: 0x1806BD180
 	public void SetCounter(PowerCounter newSwitch) { }
 
-	// RVA: 0x6BCF50 Offset: 0x6BB550 VA: 0x1806BCF50
+	// RVA: 0x6BCEE0 Offset: 0x6BB4E0 VA: 0x1806BCEE0
 	public void Confirm() { }
 
-	// RVA: 0x6BD150 Offset: 0x6BB750 VA: 0x1806BD150
+	// RVA: 0x6BD0E0 Offset: 0x6BB6E0 VA: 0x1806BD0E0
 	public void SelectTextField() { }
 
-	// RVA: 0x6BD000 Offset: 0x6BB600 VA: 0x1806BD000
+	// RVA: 0x6BCF90 Offset: 0x6BB590 VA: 0x1806BCF90
 	public int GetIntValue() { }
 
-	// RVA: 0x6BD290 Offset: 0x6BB890 VA: 0x1806BD290
+	// RVA: 0x6BD220 Offset: 0x6BB820 VA: 0x1806BD220
 	public void ValueChanged() { }
 
-	// RVA: 0x4C27D0 Offset: 0x4C0DD0 VA: 0x1804C27D0
+	// RVA: 0x4C2760 Offset: 0x4C0D60 VA: 0x1804C2760
 	public void Cancel() { }
 
-	// RVA: 0x6BD090 Offset: 0x6BB690 VA: 0x1806BD090
+	// RVA: 0x6BD020 Offset: 0x6BB620 VA: 0x1806BD020
 	public void OnTextFieldEnd() { }
 
-	// RVA: 0x4C1AB0 Offset: 0x4C00B0 VA: 0x1804C1AB0
+	// RVA: 0x4C1A40 Offset: 0x4C0040 VA: 0x1804C1A40
 	public void .ctor() { }
 
 }

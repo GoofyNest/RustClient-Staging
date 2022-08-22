@@ -13,34 +13,34 @@ public class WorkbenchPanel : LootPanel, IInventoryChanged // TypeDefIndex: 1106
 
 	// Methods
 
-	// RVA: 0x8FDC20 Offset: 0x8FC220 VA: 0x1808FDC20 Slot: 5
+	// RVA: 0x8FE130 Offset: 0x8FC730 VA: 0x1808FE130 Slot: 5
 	public override void Update() { }
 
-	// RVA: 0x8FDA80 Offset: 0x8FC080 VA: 0x1808FDA80
+	// RVA: 0x8FDF90 Offset: 0x8FC590 VA: 0x1808FDF90
 	private void OnEnable() { }
 
-	// RVA: 0x8FD9C0 Offset: 0x8FBFC0 VA: 0x1808FD9C0 Slot: 6
+	// RVA: 0x8FDED0 Offset: 0x8FC4D0 VA: 0x1808FDED0 Slot: 6
 	protected override void OnDisable() { }
 
-	// RVA: 0x8FD770 Offset: 0x8FBD70 VA: 0x1808FD770
+	// RVA: 0x8FDC80 Offset: 0x8FC280 VA: 0x1808FDC80
 	public void ExperimentButtonClicked() { }
 
-	// RVA: 0x8FD860 Offset: 0x8FBE60 VA: 0x1808FD860
+	// RVA: 0x8FDD70 Offset: 0x8FC370 VA: 0x1808FDD70
 	public Workbench GetWorkbench() { }
 
-	// RVA: 0x8FD5D0 Offset: 0x8FBBD0 VA: 0x1808FD5D0
+	// RVA: 0x8FDAE0 Offset: 0x8FC0E0 VA: 0x1808FDAE0
 	public bool CanAffordExperiment() { }
 
-	// RVA: 0x8FDB10 Offset: 0x8FC110 VA: 0x1808FDB10
+	// RVA: 0x8FE020 Offset: 0x8FC620 VA: 0x1808FE020
 	public void Refresh() { }
 
-	// RVA: 0x8FDB00 Offset: 0x8FC100 VA: 0x1808FDB00 Slot: 7
+	// RVA: 0x8FE010 Offset: 0x8FC610 VA: 0x1808FE010 Slot: 7
 	public void OnInventoryChanged() { }
 
-	// RVA: 0x8FD8F0 Offset: 0x8FBEF0 VA: 0x1808FD8F0
+	// RVA: 0x8FDE00 Offset: 0x8FC400 VA: 0x1808FDE00
 	public bool IsWorking() { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

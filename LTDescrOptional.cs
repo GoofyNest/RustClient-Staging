@@ -71,177 +71,177 @@ public class LTDescrOptional // TypeDefIndex: 5573
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Transform get_toTrans() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_toTrans(Transform value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12CD680 Offset: 0x12CBC80 VA: 0x1812CD680
+	// RVA: 0x12D3B30 Offset: 0x12D2130 VA: 0x1812D3B30
 	public Vector3 get_point() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12CD6A0 Offset: 0x12CBCA0 VA: 0x1812CD6A0
+	// RVA: 0x12D3B50 Offset: 0x12D2150 VA: 0x1812D3B50
 	public void set_point(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10748A0 Offset: 0x1072EA0 VA: 0x1810748A0
+	// RVA: 0x1075310 Offset: 0x1073910 VA: 0x181075310
 	public Vector3 get_axis() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1074A80 Offset: 0x1073080 VA: 0x181074A80
+	// RVA: 0x10754F0 Offset: 0x1073AF0 VA: 0x1810754F0
 	public void set_axis(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6BBA40 Offset: 0x6BA040 VA: 0x1806BBA40
+	// RVA: 0x6BB9D0 Offset: 0x6B9FD0 VA: 0x1806BB9D0
 	public float get_lastVal() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E63E0 Offset: 0x4E49E0 VA: 0x1804E63E0
+	// RVA: 0x4E6370 Offset: 0x4E4970 VA: 0x1804E6370
 	public void set_lastVal(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198E0C0 Offset: 0x198C6C0 VA: 0x18198E0C0
+	// RVA: 0x197B4C0 Offset: 0x1979AC0 VA: 0x18197B4C0
 	public Quaternion get_origRotation() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198E210 Offset: 0x198C810 VA: 0x18198E210
+	// RVA: 0x197B610 Offset: 0x1979C10 VA: 0x18197B610
 	public void set_origRotation(Quaternion value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	public LTBezierPath get_path() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5DD810 Offset: 0x5DBE10 VA: 0x1805DD810
+	// RVA: 0x5DD7A0 Offset: 0x5DBDA0 VA: 0x1805DD7A0
 	public void set_path(LTBezierPath value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	public LTSpline get_spline() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4CF890 Offset: 0x4CDE90 VA: 0x1804CF890
+	// RVA: 0x4CF820 Offset: 0x4CDE20 VA: 0x1804CF820
 	public void set_spline(LTSpline value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
+	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0
 	public LTRect get_ltRect() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50
+	// RVA: 0x519DE0 Offset: 0x5183E0 VA: 0x180519DE0
 	public void set_ltRect(LTRect value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
+	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
 	public Action<float> get_onUpdateFloat() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
+	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
 	public void set_onUpdateFloat(Action<float> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
+	// RVA: 0x4E84B0 Offset: 0x4E6AB0 VA: 0x1804E84B0
 	public Action<float, float> get_onUpdateFloatRatio() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E8840 Offset: 0x4E6E40 VA: 0x1804E8840
+	// RVA: 0x4E87D0 Offset: 0x4E6DD0 VA: 0x1804E87D0
 	public void set_onUpdateFloatRatio(Action<float, float> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743E0 Offset: 0x5729E0 VA: 0x1805743E0
+	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
 	public Action<float, object> get_onUpdateFloatObject() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574470 Offset: 0x572A70 VA: 0x180574470
+	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
 	public void set_onUpdateFloatObject(Action<float, object> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300
 	public Action<Vector2> get_onUpdateVector2() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
+	// RVA: 0x574390 Offset: 0x572990 VA: 0x180574390
 	public void set_onUpdateVector2(Action<Vector2> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0
 	public Action<Vector3> get_onUpdateVector3() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E4060 Offset: 0x4E2660 VA: 0x1804E4060
+	// RVA: 0x4E3FF0 Offset: 0x4E25F0 VA: 0x1804E3FF0
 	public void set_onUpdateVector3(Action<Vector3> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
+	// RVA: 0x574310 Offset: 0x572910 VA: 0x180574310
 	public Action<Vector3, object> get_onUpdateVector3Object() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574410 Offset: 0x572A10 VA: 0x180574410
+	// RVA: 0x5743A0 Offset: 0x5729A0 VA: 0x1805743A0
 	public void set_onUpdateVector3Object(Action<Vector3, object> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
+	// RVA: 0x5742F0 Offset: 0x5728F0 VA: 0x1805742F0
 	public Action<Color> get_onUpdateColor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
+	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
 	public void set_onUpdateColor(Action<Color> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x952CA0 Offset: 0x9512A0 VA: 0x180952CA0
+	// RVA: 0x79BDE0 Offset: 0x79A3E0 VA: 0x18079BDE0
 	public Action<Color, object> get_onUpdateColorObject() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73F50 Offset: 0xC72550 VA: 0x180C73F50
+	// RVA: 0x79BE60 Offset: 0x79A460 VA: 0x18079BE60
 	public void set_onUpdateColorObject(Action<Color, object> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9922B0 Offset: 0x9908B0 VA: 0x1809922B0
+	// RVA: 0x79BDB0 Offset: 0x79A3B0 VA: 0x18079BDB0
 	public Action get_onComplete() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D4E0 Offset: 0xA4BAE0 VA: 0x180A4D4E0
+	// RVA: 0x79BE40 Offset: 0x79A440 VA: 0x18079BE40
 	public void set_onComplete(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7AD080 Offset: 0x7AB680 VA: 0x1807AD080
+	// RVA: 0x79BDD0 Offset: 0x79A3D0 VA: 0x18079BDD0
 	public Action<object> get_onCompleteObject() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D4F0 Offset: 0xA4BAF0 VA: 0x180A4D4F0
+	// RVA: 0x79BE50 Offset: 0x79A450 VA: 0x18079BE50
 	public void set_onCompleteObject(Action<object> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x104F470 Offset: 0x104DA70 VA: 0x18104F470
+	// RVA: 0x79BE20 Offset: 0x79A420 VA: 0x18079BE20
 	public object get_onCompleteParam() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEFB1E0 Offset: 0xEF97E0 VA: 0x180EFB1E0
+	// RVA: 0x79BEA0 Offset: 0x79A4A0 VA: 0x18079BEA0
 	public void set_onCompleteParam(object value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA03A0 Offset: 0xD9E9A0 VA: 0x180DA03A0
+	// RVA: 0xDA0E50 Offset: 0xD9F450 VA: 0x180DA0E50
 	public object get_onUpdateParam() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA0780 Offset: 0xD9ED80 VA: 0x180DA0780
+	// RVA: 0xDA1230 Offset: 0xD9F830 VA: 0x180DA1230
 	public void set_onUpdateParam(object value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73D40 Offset: 0xC72340 VA: 0x180C73D40
+	// RVA: 0x79BDF0 Offset: 0x79A3F0 VA: 0x18079BDF0
 	public Action get_onStart() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73E90 Offset: 0xC72490 VA: 0x180C73E90
+	// RVA: 0x79BE70 Offset: 0x79A470 VA: 0x18079BE70
 	public void set_onStart(Action value) { }
 
-	// RVA: 0x198E0D0 Offset: 0x198C6D0 VA: 0x18198E0D0
+	// RVA: 0x197B4D0 Offset: 0x1979AD0 VA: 0x18197B4D0
 	public void reset() { }
 
-	// RVA: 0x198DF00 Offset: 0x198C500 VA: 0x18198DF00
+	// RVA: 0x197B300 Offset: 0x1979900 VA: 0x18197B300
 	public void callOnUpdate(float val, float ratioPassed) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

@@ -15,51 +15,51 @@ public class SearchLight : IOEntity // TypeDefIndex: 8443
 
 	// Methods
 
-	// RVA: 0x4A60A0 Offset: 0x4A46A0 VA: 0x1804A60A0 Slot: 49
+	// RVA: 0x4A6030 Offset: 0x4A4630 VA: 0x1804A6030 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x4A6FD0 Offset: 0x4A55D0 VA: 0x1804A6FD0 Slot: 50
+	// RVA: 0x4A6F60 Offset: 0x4A5560 VA: 0x1804A6F60 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x4A6770 Offset: 0x4A4D70 VA: 0x1804A6770 Slot: 35
+	// RVA: 0x4A6700 Offset: 0x4A4D00 VA: 0x1804A6700 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x4A6860 Offset: 0x4A4E60 VA: 0x1804A6860 Slot: 27
+	// RVA: 0x4A67F0 Offset: 0x4A4DF0 VA: 0x1804A67F0 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0x4A6090 Offset: 0x4A4690 VA: 0x1804A6090 Slot: 150
+	// RVA: 0x4A6020 Offset: 0x4A4620 VA: 0x1804A6020 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0x4A65F0 Offset: 0x4A4BF0 VA: 0x1804A65F0 Slot: 34
+	// RVA: 0x4A6580 Offset: 0x4A4B80 VA: 0x1804A6580 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x4A6EB0 Offset: 0x4A54B0 VA: 0x1804A6EB0
+	// RVA: 0x4A6E40 Offset: 0x4A5440 VA: 0x1804A6E40
 	public void Update() { }
 
-	// RVA: 0x4A6A10 Offset: 0x4A5010 VA: 0x1804A6A10
+	// RVA: 0x4A69A0 Offset: 0x4A4FA0 VA: 0x1804A69A0
 	private void UpdateAimpoint() { }
 
 	[BaseEntity.Menu] // RVA: 0x833E0 Offset: 0x827E0 VA: 0x1800833E0
 	[BaseEntity.Menu.Description] // RVA: 0x833E0 Offset: 0x827E0 VA: 0x1800833E0
 	[BaseEntity.Menu.Icon] // RVA: 0x833E0 Offset: 0x827E0 VA: 0x1800833E0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x833E0 Offset: 0x827E0 VA: 0x1800833E0
-	// RVA: 0x4A6EE0 Offset: 0x4A54E0 VA: 0x1804A6EE0
+	// RVA: 0x4A6E70 Offset: 0x4A5470 VA: 0x1804A6E70
 	public void UseLight(BasePlayer player) { }
 
-	// RVA: 0x4A66E0 Offset: 0x4A4CE0 VA: 0x1804A66E0
+	// RVA: 0x4A6670 Offset: 0x4A4C70 VA: 0x1804A6670
 	public bool Menu_UseLight_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x836C0 Offset: 0x82AC0 VA: 0x1800836C0
 	[BaseEntity.Menu.Description] // RVA: 0x836C0 Offset: 0x82AC0 VA: 0x1800836C0
 	[BaseEntity.Menu.Icon] // RVA: 0x836C0 Offset: 0x82AC0 VA: 0x1800836C0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x836C0 Offset: 0x82AC0 VA: 0x1800836C0
-	// RVA: 0x4A69C0 Offset: 0x4A4FC0 VA: 0x1804A69C0
+	// RVA: 0x4A6950 Offset: 0x4A4F50 VA: 0x1804A6950
 	public void StopUseLight(BasePlayer player) { }
 
-	// RVA: 0x4A6650 Offset: 0x4A4C50 VA: 0x1804A6650
+	// RVA: 0x4A65E0 Offset: 0x4A4BE0 VA: 0x1804A65E0
 	public bool Menu_StopUseLight_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x4A6F30 Offset: 0x4A5530 VA: 0x1804A6F30
+	// RVA: 0x4A6EC0 Offset: 0x4A54C0 VA: 0x1804A6EC0
 	public void .ctor() { }
 
 }

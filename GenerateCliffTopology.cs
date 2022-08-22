@@ -5,16 +5,16 @@ public class GenerateCliffTopology : ProceduralComponent // TypeDefIndex: 10450
 
 	// Methods
 
-	// RVA: 0xC4A9A0 Offset: 0xC48FA0 VA: 0x180C4A9A0
+	// RVA: 0xC4AE70 Offset: 0xC49470 VA: 0x180C4AE70
 	public static void Process(int x, int z) { }
 
-	// RVA: 0xC4A7B0 Offset: 0xC48DB0 VA: 0x180C4A7B0
+	// RVA: 0xC4AC80 Offset: 0xC49280 VA: 0x180C4AC80
 	private static void Process(int x, int z, bool keepExisting) { }
 
-	// RVA: 0xC4AB50 Offset: 0xC49150 VA: 0x180C4AB50 Slot: 5
+	// RVA: 0xC4B020 Offset: 0xC49620 VA: 0x180C4B020 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0xC4AD30 Offset: 0xC49330 VA: 0x180C4AD30
+	// RVA: 0xC4B200 Offset: 0xC49800 VA: 0x180C4B200
 	public void .ctor() { }
 
 }
@@ -30,10 +30,10 @@ private sealed class GenerateCliffTopology.<>c__DisplayClass4_0 // TypeDefIndex:
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xC64F70 Offset: 0xC63570 VA: 0x180C64F70
+	// RVA: 0xC65440 Offset: 0xC63A40 VA: 0x180C65440
 	internal void <Process>b__0(int z) { }
 
-	// RVA: 0xC651D0 Offset: 0xC637D0 VA: 0x180C651D0
+	// RVA: 0xC656A0 Offset: 0xC63CA0 VA: 0x180C656A0
 	internal void <Process>b__1(int x, int y) { }
 
 }

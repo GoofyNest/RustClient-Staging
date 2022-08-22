@@ -1,10 +1,10 @@
 public class PhysicMaterial : Object // TypeDefIndex: 3918
 {	// Methods
 
-	// RVA: 0x2297D00 Offset: 0x2296300 VA: 0x182297D00
+	// RVA: 0x2298520 Offset: 0x2296B20 VA: 0x182298520
 	public void .ctor() { }
 
-	// RVA: 0x2297CB0 Offset: 0x22962B0 VA: 0x182297CB0
+	// RVA: 0x22984D0 Offset: 0x2296AD0 VA: 0x1822984D0
 	private static void Internal_CreateDynamicsMaterial(PhysicMaterial mat, string name) { }
 
 }

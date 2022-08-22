@@ -24,43 +24,43 @@ public class LaserLight : AudioVisualisationEntity // TypeDefIndex: 9447
 
 	// Methods
 
-	// RVA: 0x6899E0 Offset: 0x687FE0 VA: 0x1806899E0 Slot: 14
+	// RVA: 0x689970 Offset: 0x687F70 VA: 0x180689970 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x68A380 Offset: 0x688980 VA: 0x18068A380 Slot: 159
+	// RVA: 0x68A310 Offset: 0x688910 VA: 0x18068A310 Slot: 159
 	protected override void UpdateVisualisation(float volume, bool force = False) { }
 
-	// RVA: 0x689B80 Offset: 0x688180 VA: 0x180689B80
+	// RVA: 0x689B10 Offset: 0x688110 VA: 0x180689B10
 	private void GetCurrentVolumeRange(out float min, out float max) { }
 
-	// RVA: 0x689B30 Offset: 0x688130 VA: 0x180689B30
+	// RVA: 0x689AC0 Offset: 0x6880C0 VA: 0x180689AC0
 	private void GetCurrentSpeedRange(out float minSpeed, out float maxSpeed) { }
 
-	// RVA: 0x689A10 Offset: 0x688010 VA: 0x180689A10
+	// RVA: 0x6899A0 Offset: 0x687FA0 VA: 0x1806899A0
 	private LaserLight.ColourSetting GetColourSettings(AudioVisualisationEntity.LightColour colour) { }
 
-	// RVA: 0x689EF0 Offset: 0x6884F0 VA: 0x180689EF0 Slot: 165
+	// RVA: 0x689E80 Offset: 0x688480 VA: 0x180689E80 Slot: 165
 	protected override void UpdateVisualSettings() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 160
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 160
 	public override bool get_ShowColourOption() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 162
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 162
 	public override bool get_ShowSpeedOption() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 161
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 161
 	public override bool get_ShowVolumeOption() { }
 
-	// RVA: 0x689BD0 Offset: 0x6881D0 VA: 0x180689BD0 Slot: 75
+	// RVA: 0x689B60 Offset: 0x688160 VA: 0x180689B60 Slot: 75
 	public override void LookingAtTick() { }
 
-	// RVA: 0x689D20 Offset: 0x688320 VA: 0x180689D20 Slot: 80
+	// RVA: 0x689CB0 Offset: 0x6882B0 VA: 0x180689CB0 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x68A540 Offset: 0x688B40 VA: 0x18068A540
+	// RVA: 0x68A4D0 Offset: 0x688AD0 VA: 0x18068A4D0
 	public void .ctor() { }
 
-	// RVA: 0x68A4A0 Offset: 0x688AA0 VA: 0x18068A4A0
+	// RVA: 0x68A430 Offset: 0x688A30 VA: 0x18068A430
 	private static void .cctor() { }
 
 }

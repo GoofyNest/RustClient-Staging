@@ -27,7 +27,7 @@ public class ERSideObjectInstance : MonoBehaviour // TypeDefIndex: 7281
 
 	// Methods
 
-	// RVA: 0xA5B0B0 Offset: 0xA596B0 VA: 0x180A5B0B0
+	// RVA: 0xA5B580 Offset: 0xA59B80 VA: 0x180A5B580
 	public void .ctor() { }
 
 }

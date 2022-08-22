@@ -10,46 +10,46 @@ public class WeatherPreset : ScriptableObject // TypeDefIndex: 10078
 
 	// Methods
 
-	// RVA: 0x8F2FA0 Offset: 0x8F15A0 VA: 0x1808F2FA0
+	// RVA: 0x8F34B0 Offset: 0x8F1AB0 VA: 0x1808F34B0
 	public void Apply(TOD_Sky sky) { }
 
-	// RVA: 0x8F3180 Offset: 0x8F1780 VA: 0x1808F3180
+	// RVA: 0x8F3690 Offset: 0x8F1C90 VA: 0x1808F3690
 	public void Copy(TOD_Sky sky) { }
 
-	// RVA: 0x8F4C50 Offset: 0x8F3250 VA: 0x1808F4C50
+	// RVA: 0x8F5160 Offset: 0x8F3760 VA: 0x1808F5160
 	public void Reset() { }
 
-	// RVA: 0x8F4E20 Offset: 0x8F3420 VA: 0x1808F4E20
+	// RVA: 0x8F5330 Offset: 0x8F3930 VA: 0x1808F5330
 	public void Set(WeatherPreset other) { }
 
-	// RVA: 0x8F5020 Offset: 0x8F3620 VA: 0x1808F5020 Slot: 3
+	// RVA: 0x8F5530 Offset: 0x8F3B30 VA: 0x1808F5530 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x8F3360 Offset: 0x8F1960 VA: 0x1808F3360
+	// RVA: 0x8F3870 Offset: 0x8F1E70 VA: 0x1808F3870
 	public void Fade(WeatherPreset a, WeatherPreset b, float t) { }
 
-	// RVA: 0x8F49A0 Offset: 0x8F2FA0 VA: 0x1808F49A0
+	// RVA: 0x8F4EB0 Offset: 0x8F34B0 VA: 0x1808F4EB0
 	public void Override(WeatherPreset other) { }
 
-	// RVA: 0x8F3D50 Offset: 0x8F2350 VA: 0x1808F3D50
+	// RVA: 0x8F4260 Offset: 0x8F2860 VA: 0x1808F4260
 	public void Max(WeatherPreset other) { }
 
-	// RVA: 0x8F4680 Offset: 0x8F2C80 VA: 0x1808F4680
+	// RVA: 0x8F4B90 Offset: 0x8F3190 VA: 0x1808F4B90
 	public void Min(WeatherPreset other) { }
 
-	// RVA: 0x8F3CD0 Offset: 0x8F22D0 VA: 0x1808F3CD0
+	// RVA: 0x8F41E0 Offset: 0x8F27E0 VA: 0x1808F41E0
 	private void Fade(ref float x, float a, float b, float t) { }
 
-	// RVA: 0x8F4990 Offset: 0x8F2F90 VA: 0x1808F4990
+	// RVA: 0x8F4EA0 Offset: 0x8F34A0 VA: 0x1808F4EA0
 	private void Override(ref float x, float other) { }
 
-	// RVA: 0x8F4580 Offset: 0x8F2B80 VA: 0x1808F4580
+	// RVA: 0x8F4A90 Offset: 0x8F3090 VA: 0x1808F4A90
 	private void Max(ref float x, float other) { }
 
-	// RVA: 0x8F4600 Offset: 0x8F2C00 VA: 0x1808F4600
+	// RVA: 0x8F4B10 Offset: 0x8F3110 VA: 0x1808F4B10
 	private void Min(ref float x, float other) { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }

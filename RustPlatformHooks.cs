@@ -1,6 +1,6 @@
 public class RustPlatformHooks : IPlatformHooks // TypeDefIndex: 10707
 {	// Fields
-	public static readonly RustPlatformHooks Instance; // 0x31A0
+	public static readonly RustPlatformHooks Instance; // 0x2B10510
 
 	// Properties
 	public uint SteamAppId { get; }

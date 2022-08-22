@@ -10,34 +10,34 @@ public class KeyframeView : MonoBehaviour // TypeDefIndex: 10866
 
 	// Methods
 
-	// RVA: 0x681D60 Offset: 0x680360 VA: 0x180681D60
+	// RVA: 0x681CF0 Offset: 0x6802F0 VA: 0x180681CF0
 	public void Populate(DemoShotVectorTrack track, float trackLength) { }
 
-	// RVA: 0x681E30 Offset: 0x680430 VA: 0x180681E30
+	// RVA: 0x681DC0 Offset: 0x6803C0 VA: 0x180681DC0
 	public void Populate(DemoShotFloatTrack track, float trackLength) { }
 
-	// RVA: 0x681F00 Offset: 0x680500 VA: 0x180681F00
+	// RVA: 0x681E90 Offset: 0x680490 VA: 0x180681E90
 	public void Populate(DemoShotQuaternionTrack track, float trackLength) { }
 
-	// RVA: 0x681FD0 Offset: 0x6805D0 VA: 0x180681FD0
+	// RVA: 0x681F60 Offset: 0x680560 VA: 0x180681F60
 	public void SetTrackName(string text) { }
 
-	// RVA: 0x682000 Offset: 0x680600 VA: 0x180682000
+	// RVA: 0x681F90 Offset: 0x680590 VA: 0x180681F90
 	private void Update() { }
 
-	// RVA: 0x681FF0 Offset: 0x6805F0 VA: 0x180681FF0
+	// RVA: 0x681F80 Offset: 0x680580 VA: 0x180681F80
 	public static float TimeToXPos(float time) { }
 
-	// RVA: 0x681890 Offset: 0x67FE90 VA: 0x180681890
+	// RVA: 0x681820 Offset: 0x67FE20 VA: 0x180681820
 	private void ApplyTimelineLength(float trackDuration) { }
 
-	// RVA: 0x6818C0 Offset: 0x67FEC0 VA: 0x1806818C0
+	// RVA: 0x681850 Offset: 0x67FE50 VA: 0x180681850
 	private void CleanupMarkers() { }
 
-	// RVA: 0x681A60 Offset: 0x680060 VA: 0x180681A60
+	// RVA: 0x6819F0 Offset: 0x67FFF0 VA: 0x1806819F0
 	private void PopulateMarkers(List<KeyframeView.UIKeyframeValue> toDisplay) { }
 
-	// RVA: 0x682140 Offset: 0x680740 VA: 0x180682140
+	// RVA: 0x6820D0 Offset: 0x6806D0 VA: 0x1806820D0
 	public void .ctor() { }
 
 }

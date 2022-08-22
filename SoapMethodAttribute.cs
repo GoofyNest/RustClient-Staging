@@ -13,16 +13,16 @@ public sealed class SoapMethodAttribute : SoapAttribute // TypeDefIndex: 1212
 
 	// Methods
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0x4BC3E0 Offset: 0x4BA9E0 VA: 0x1804BC3E0 Slot: 7
+	// RVA: 0x4BC370 Offset: 0x4BA970 VA: 0x1804BC370 Slot: 7
 	public override bool get_UseAttribute() { }
 
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870 Slot: 8
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800 Slot: 8
 	public override string get_XmlNamespace() { }
 
-	// RVA: 0x148D820 Offset: 0x148BE20 VA: 0x18148D820 Slot: 9
+	// RVA: 0x148C8F0 Offset: 0x148AEF0 VA: 0x18148C8F0 Slot: 9
 	internal override void SetReflectionObject(object reflectionObject) { }
 
 }

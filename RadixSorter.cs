@@ -5,13 +5,13 @@ public class RadixSorter // TypeDefIndex: 11400
 
 	// Methods
 
-	// RVA: 0x6A3980 Offset: 0x6A1F80 VA: 0x1806A3980
+	// RVA: 0x6A3910 Offset: 0x6A1F10 VA: 0x1806A3910
 	public void .ctor() { }
 
-	// RVA: 0x6A3760 Offset: 0x6A1D60 VA: 0x1806A3760
+	// RVA: 0x6A36F0 Offset: 0x6A1CF0 VA: 0x1806A36F0
 	public void SortU8(uint[] values, uint[] remap, uint num) { }
 
-	// RVA: 0x6A3190 Offset: 0x6A1790 VA: 0x1806A3190
+	// RVA: 0x6A3120 Offset: 0x6A1720 VA: 0x1806A3120
 	public void SortU24(uint[] values, uint[] remap, uint[] remapTemp, uint num) { }
 
 }

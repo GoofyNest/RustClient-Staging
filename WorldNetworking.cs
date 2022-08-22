@@ -5,10 +5,10 @@ public class WorldNetworking // TypeDefIndex: 10570
 
 	// Methods
 
-	// RVA: 0x902160 Offset: 0x900760 VA: 0x180902160
+	// RVA: 0x902670 Offset: 0x900C70 VA: 0x180902670
 	public static void OnMessageReceived(Message message) { }
 
-	// RVA: 0x9023C0 Offset: 0x9009C0 VA: 0x1809023C0
+	// RVA: 0x9028D0 Offset: 0x900ED0 VA: 0x1809028D0
 	public static void RequestWorldData() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

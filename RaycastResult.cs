@@ -23,13 +23,13 @@ public struct RaycastResult // TypeDefIndex: 5089
 	// RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	public void set_gameObject(GameObject value) { }
 
-	// RVA: 0x19E7B0 Offset: 0x19DBB0 VA: 0x18019E7B0
+	// RVA: 0x19E4A0 Offset: 0x19D8A0 VA: 0x18019E4A0
 	public bool get_isValid() { }
 
-	// RVA: 0x19E6B0 Offset: 0x19DAB0 VA: 0x18019E6B0
+	// RVA: 0x19E3A0 Offset: 0x19D7A0 VA: 0x18019E3A0
 	public void Clear() { }
 
-	// RVA: 0x19E7A0 Offset: 0x19DBA0 VA: 0x18019E7A0 Slot: 3
+	// RVA: 0x19E490 Offset: 0x19D890 VA: 0x18019E490 Slot: 3
 	public override string ToString() { }
 
 }

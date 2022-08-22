@@ -4,18 +4,18 @@ internal sealed class NotesBuilder // TypeDefIndex: 7440
 
 	// Methods
 
-	// RVA: 0x22009B0 Offset: 0x21FEFB0 VA: 0x1822009B0
+	// RVA: 0x22011D0 Offset: 0x21FF7D0 VA: 0x1822011D0
 	public void .ctor(NoteDetectionSettings noteDetectionSettings) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x9EF10 Offset: 0x9E310 VA: 0x18009EF10
-	// RVA: 0x2200830 Offset: 0x21FEE30 VA: 0x182200830
+	// RVA: 0x2201050 Offset: 0x21FF650 VA: 0x182201050
 	public IEnumerable<Note> GetNotesLazy(IEnumerable<TimedEvent> timedEvents, bool collectTimedEvents = False, List<TimedEvent> collectedTimedEvents) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x9EFE0 Offset: 0x9E3E0 VA: 0x18009EFE0
-	// RVA: 0x22008F0 Offset: 0x21FEEF0 VA: 0x1822008F0
+	// RVA: 0x2201110 Offset: 0x21FF710 VA: 0x182201110
 	public IEnumerable<Note> GetNotesLazy(IEnumerable<Tuple<TimedEvent, int>> timedEvents, bool collectTimedEvents = False, List<Tuple<TimedEvent, int>> collectedTimedEvents) { }
 
-	// RVA: 0x2200790 Offset: 0x21FED90 VA: 0x182200790
+	// RVA: 0x2200FB0 Offset: 0x21FF5B0 VA: 0x182200FB0
 	private static int GetNoteEventId(NoteEvent noteEvent) { }
 
 }
@@ -34,11 +34,11 @@ private class NotesBuilder.NoteDescriptor // TypeDefIndex: 7441
 
 	// Methods
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	public void .ctor(TimedEvent noteOnTimedEvent) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public TimedEvent get_NoteOnTimedEvent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -46,13 +46,13 @@ private class NotesBuilder.NoteDescriptor // TypeDefIndex: 7441
 	public TimedEvent get_NoteOffTimedEvent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_NoteOffTimedEvent(TimedEvent value) { }
 
-	// RVA: 0x17CB400 Offset: 0x17C9A00 VA: 0x1817CB400
+	// RVA: 0x17C8F50 Offset: 0x17C7550 VA: 0x1817C8F50
 	public bool get_IsCompleted() { }
 
-	// RVA: 0x21FF500 Offset: 0x21FDB00 VA: 0x1821FF500
+	// RVA: 0x21FFD20 Offset: 0x21FE320 VA: 0x1821FFD20
 	public Note GetNote() { }
 
 }
@@ -72,7 +72,7 @@ private abstract class NotesBuilder.NoteOnsHolderBase<TDescriptor> // TypeDefInd
 	public void .ctor(NoteStartDetectionPolicy noteStartDetectionPolicy) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17FA7F0 Offset: 0x17F8DF0 VA: 0x1817FA7F0
+	|-RVA: 0x164E600 Offset: 0x164CC00 VA: 0x18164E600
 	|-NotesBuilder.NoteOnsHolderBase<NotesBuilder.NoteDescriptor>..ctor
 	|-NotesBuilder.NoteOnsHolderBase<object>..ctor
 	*/
@@ -81,7 +81,7 @@ private abstract class NotesBuilder.NoteOnsHolderBase<TDescriptor> // TypeDefInd
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17FA8F0 Offset: 0x17F8EF0 VA: 0x1817FA8F0
+	|-RVA: 0x164E700 Offset: 0x164CD00 VA: 0x18164E700
 	|-NotesBuilder.NoteOnsHolderBase<NotesBuilder.NoteDescriptor>.get_Count
 	|-NotesBuilder.NoteOnsHolderBase<object>.get_Count
 	*/
@@ -90,7 +90,7 @@ private abstract class NotesBuilder.NoteOnsHolderBase<TDescriptor> // TypeDefInd
 	public void Add(LinkedListNode<TDescriptor> noteOnNode) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17FA710 Offset: 0x17F8D10 VA: 0x1817FA710
+	|-RVA: 0x164E520 Offset: 0x164CB20 VA: 0x18164E520
 	|-NotesBuilder.NoteOnsHolderBase<NotesBuilder.NoteDescriptor>.Add
 	|-NotesBuilder.NoteOnsHolderBase<object>.Add
 	*/
@@ -99,7 +99,7 @@ private abstract class NotesBuilder.NoteOnsHolderBase<TDescriptor> // TypeDefInd
 	public LinkedListNode<TDescriptor> GetNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17FA780 Offset: 0x17F8D80 VA: 0x1817FA780
+	|-RVA: 0x164E590 Offset: 0x164CB90 VA: 0x18164E590
 	|-NotesBuilder.NoteOnsHolderBase<NotesBuilder.NoteDescriptor>.GetNext
 	|-NotesBuilder.NoteOnsHolderBase<object>.GetNext
 	*/
@@ -109,7 +109,7 @@ private abstract class NotesBuilder.NoteOnsHolderBase<TDescriptor> // TypeDefInd
 private sealed class NotesBuilder.NoteOnsHolder : NotesBuilder.NoteOnsHolderBase<NotesBuilder.NoteDescriptor> // TypeDefIndex: 7443
 {	// Methods
 
-	// RVA: 0x21FF580 Offset: 0x21FDB80 VA: 0x1821FF580
+	// RVA: 0x21FFDA0 Offset: 0x21FE3A0 VA: 0x1821FFDA0
 	public void .ctor(NoteStartDetectionPolicy noteStartDetectionPolicy) { }
 
 }
@@ -139,20 +139,20 @@ private sealed class NotesBuilder.<GetNotesLazy>d__7 : IEnumerable<Note>, IEnume
 	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87750 Offset: 0xD85D50 VA: 0x180D87750
+	// RVA: 0xD88200 Offset: 0xD86800 VA: 0x180D88200
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2203C60 Offset: 0x2202260 VA: 0x182203C60 Slot: 7
+	// RVA: 0x2204480 Offset: 0x2202A80 VA: 0x182204480 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x2203500 Offset: 0x2201B00 VA: 0x182203500 Slot: 8
+	// RVA: 0x2203D20 Offset: 0x2202320 VA: 0x182203D20 Slot: 8
 	private bool MoveNext() { }
 
-	// RVA: 0x2203D90 Offset: 0x2202390 VA: 0x182203D90
+	// RVA: 0x22045B0 Offset: 0x2202BB0 VA: 0x1822045B0
 	private void <>m__Finally1() { }
 
-	// RVA: 0x2203DE0 Offset: 0x22023E0 VA: 0x182203DE0
+	// RVA: 0x2204600 Offset: 0x2202C00 VA: 0x182204600
 	private void <>m__Finally2() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -160,7 +160,7 @@ private sealed class NotesBuilder.<GetNotesLazy>d__7 : IEnumerable<Note>, IEnume
 	private Note System.Collections.Generic.IEnumerator<Melanchall.DryWetMidi.Interaction.Note>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2203C10 Offset: 0x2202210 VA: 0x182203C10 Slot: 10
+	// RVA: 0x2204430 Offset: 0x2202A30 VA: 0x182204430 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -168,11 +168,11 @@ private sealed class NotesBuilder.<GetNotesLazy>d__7 : IEnumerable<Note>, IEnume
 	private object System.Collections.IEnumerator.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2203B40 Offset: 0x2202140 VA: 0x182203B40 Slot: 4
+	// RVA: 0x2204360 Offset: 0x2202960 VA: 0x182204360 Slot: 4
 	private IEnumerator<Note> System.Collections.Generic.IEnumerable<Melanchall.DryWetMidi.Interaction.Note>.GetEnumerator() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2203B40 Offset: 0x2202140 VA: 0x182203B40 Slot: 5
+	// RVA: 0x2204360 Offset: 0x2202960 VA: 0x182204360 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
@@ -203,20 +203,20 @@ private sealed class NotesBuilder.<GetNotesLazy>d__8 : IEnumerable<Note>, IEnume
 	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87750 Offset: 0xD85D50 VA: 0x180D87750
+	// RVA: 0xD88200 Offset: 0xD86800 VA: 0x180D88200
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2204600 Offset: 0x2202C00 VA: 0x182204600 Slot: 7
+	// RVA: 0x2204E20 Offset: 0x2203420 VA: 0x182204E20 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x2203E20 Offset: 0x2202420 VA: 0x182203E20 Slot: 8
+	// RVA: 0x2204640 Offset: 0x2202C40 VA: 0x182204640 Slot: 8
 	private bool MoveNext() { }
 
-	// RVA: 0x2204730 Offset: 0x2202D30 VA: 0x182204730
+	// RVA: 0x2204F50 Offset: 0x2203550 VA: 0x182204F50
 	private void <>m__Finally1() { }
 
-	// RVA: 0x2204780 Offset: 0x2202D80 VA: 0x182204780
+	// RVA: 0x2204FA0 Offset: 0x22035A0 VA: 0x182204FA0
 	private void <>m__Finally2() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -224,7 +224,7 @@ private sealed class NotesBuilder.<GetNotesLazy>d__8 : IEnumerable<Note>, IEnume
 	private Note System.Collections.Generic.IEnumerator<Melanchall.DryWetMidi.Interaction.Note>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22045B0 Offset: 0x2202BB0 VA: 0x1822045B0 Slot: 10
+	// RVA: 0x2204DD0 Offset: 0x22033D0 VA: 0x182204DD0 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -232,11 +232,11 @@ private sealed class NotesBuilder.<GetNotesLazy>d__8 : IEnumerable<Note>, IEnume
 	private object System.Collections.IEnumerator.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22044E0 Offset: 0x2202AE0 VA: 0x1822044E0 Slot: 4
+	// RVA: 0x2204D00 Offset: 0x2203300 VA: 0x182204D00 Slot: 4
 	private IEnumerator<Note> System.Collections.Generic.IEnumerable<Melanchall.DryWetMidi.Interaction.Note>.GetEnumerator() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22044E0 Offset: 0x2202AE0 VA: 0x1822044E0 Slot: 5
+	// RVA: 0x2204D00 Offset: 0x2203300 VA: 0x182204D00 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }

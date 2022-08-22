@@ -8,37 +8,37 @@ public class RendererLOD : LODComponent, IBatchingHandler // TypeDefIndex: 9952
 
 	// Methods
 
-	// RVA: 0x9514D0 Offset: 0x94FAD0 VA: 0x1809514D0 Slot: 8
+	// RVA: 0x9519E0 Offset: 0x94FFE0 VA: 0x1809519E0 Slot: 8
 	protected override void InitLOD() { }
 
-	// RVA: 0x4C7920 Offset: 0x4C5F20 VA: 0x1804C7920 Slot: 9
+	// RVA: 0x4C78B0 Offset: 0x4C5EB0 VA: 0x1804C78B0 Slot: 9
 	protected override void EnableLOD() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 10
 	protected override void DisableLOD() { }
 
-	// RVA: 0x9519A0 Offset: 0x94FFA0 VA: 0x1809519A0 Slot: 13
+	// RVA: 0x951EB0 Offset: 0x9504B0 VA: 0x180951EB0 Slot: 13
 	protected override void Show() { }
 
-	// RVA: 0x951470 Offset: 0x94FA70 VA: 0x180951470 Slot: 14
+	// RVA: 0x951980 Offset: 0x94FF80 VA: 0x180951980 Slot: 14
 	protected override void Hide() { }
 
-	// RVA: 0x951410 Offset: 0x94FA10 VA: 0x180951410 Slot: 15
+	// RVA: 0x951920 Offset: 0x94FF20 VA: 0x180951920 Slot: 15
 	protected override void Hide(bool shadowsVisible) { }
 
-	// RVA: 0x951760 Offset: 0x94FD60 VA: 0x180951760 Slot: 16
+	// RVA: 0x951C70 Offset: 0x950270 VA: 0x180951C70 Slot: 16
 	protected override bool IsLODHiding() { }
 
-	// RVA: 0x9517F0 Offset: 0x94FDF0 VA: 0x1809517F0 Slot: 12
+	// RVA: 0x951D00 Offset: 0x950300 VA: 0x180951D00 Slot: 12
 	protected override void SetLOD(int newlod) { }
 
-	// RVA: 0x951290 Offset: 0x94F890 VA: 0x180951290 Slot: 11
+	// RVA: 0x9517A0 Offset: 0x94FDA0 VA: 0x1809517A0 Slot: 11
 	protected override int GetLOD(float distance) { }
 
-	// RVA: 0x951080 Offset: 0x94F680 VA: 0x180951080 Slot: 17
+	// RVA: 0x951590 Offset: 0x94FB90 VA: 0x180951590 Slot: 17
 	protected override bool ComputeCullingSphereBounds(out OcclusionCulling.Sphere sphereBounds) { }
 
-	// RVA: 0x951A00 Offset: 0x950000 VA: 0x180951A00
+	// RVA: 0x951F10 Offset: 0x950510 VA: 0x180951F10
 	public void .ctor() { }
 
 }
@@ -53,10 +53,10 @@ public class RendererLOD.State // TypeDefIndex: 9953
 
 	// Methods
 
-	// RVA: 0x956110 Offset: 0x954710 VA: 0x180956110
+	// RVA: 0x956610 Offset: 0x954C10 VA: 0x180956610
 	public void Show(RendererBatch batch, bool forceShadowsOff = False) { }
 
-	// RVA: 0x955FC0 Offset: 0x9545C0 VA: 0x180955FC0
+	// RVA: 0x9564C0 Offset: 0x954AC0 VA: 0x1809564C0
 	public void Hide(RendererBatch batch, bool shadowsVisible = False) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

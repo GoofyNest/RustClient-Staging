@@ -18,49 +18,49 @@ public class Time // TypeDefIndex: 3558
 
 	// Methods
 
-	// RVA: 0x217CC00 Offset: 0x217B200 VA: 0x18217CC00
+	// RVA: 0x217D420 Offset: 0x217BA20 VA: 0x18217D420
 	public static float get_time() { }
 
-	// RVA: 0x217CA50 Offset: 0x217B050 VA: 0x18217CA50
+	// RVA: 0x217D270 Offset: 0x217B870 VA: 0x18217D270
 	public static float get_deltaTime() { }
 
-	// RVA: 0x217CAB0 Offset: 0x217B0B0 VA: 0x18217CAB0
+	// RVA: 0x217D2D0 Offset: 0x217B8D0 VA: 0x18217D2D0
 	public static float get_fixedTime() { }
 
-	// RVA: 0x217CC60 Offset: 0x217B260 VA: 0x18217CC60
+	// RVA: 0x217D480 Offset: 0x217BA80 VA: 0x18217D480
 	public static float get_unscaledTime() { }
 
-	// RVA: 0x217CC30 Offset: 0x217B230 VA: 0x18217CC30
+	// RVA: 0x217D450 Offset: 0x217BA50 VA: 0x18217D450
 	public static float get_unscaledDeltaTime() { }
 
-	// RVA: 0x217CA80 Offset: 0x217B080 VA: 0x18217CA80
+	// RVA: 0x217D2A0 Offset: 0x217B8A0 VA: 0x18217D2A0
 	public static float get_fixedDeltaTime() { }
 
-	// RVA: 0x217CC90 Offset: 0x217B290 VA: 0x18217CC90
+	// RVA: 0x217D4B0 Offset: 0x217BAB0 VA: 0x18217D4B0
 	public static void set_fixedDeltaTime(float value) { }
 
-	// RVA: 0x217CB10 Offset: 0x217B110 VA: 0x18217CB10
+	// RVA: 0x217D330 Offset: 0x217B930 VA: 0x18217D330
 	public static float get_maximumDeltaTime() { }
 
-	// RVA: 0x217CCD0 Offset: 0x217B2D0 VA: 0x18217CCD0
+	// RVA: 0x217D4F0 Offset: 0x217BAF0 VA: 0x18217D4F0
 	public static void set_maximumDeltaTime(float value) { }
 
-	// RVA: 0x217CBA0 Offset: 0x217B1A0 VA: 0x18217CBA0
+	// RVA: 0x217D3C0 Offset: 0x217B9C0 VA: 0x18217D3C0
 	public static float get_smoothDeltaTime() { }
 
-	// RVA: 0x217CBD0 Offset: 0x217B1D0 VA: 0x18217CBD0
+	// RVA: 0x217D3F0 Offset: 0x217B9F0 VA: 0x18217D3F0
 	public static float get_timeScale() { }
 
-	// RVA: 0x217CD10 Offset: 0x217B310 VA: 0x18217CD10
+	// RVA: 0x217D530 Offset: 0x217BB30 VA: 0x18217D530
 	public static void set_timeScale(float value) { }
 
-	// RVA: 0x217CAE0 Offset: 0x217B0E0 VA: 0x18217CAE0
+	// RVA: 0x217D300 Offset: 0x217B900 VA: 0x18217D300
 	public static int get_frameCount() { }
 
-	// RVA: 0x217CB70 Offset: 0x217B170 VA: 0x18217CB70
+	// RVA: 0x217D390 Offset: 0x217B990 VA: 0x18217D390
 	public static int get_renderedFrameCount() { }
 
-	// RVA: 0x217CB40 Offset: 0x217B140 VA: 0x18217CB40
+	// RVA: 0x217D360 Offset: 0x217B960 VA: 0x18217D360
 	public static float get_realtimeSinceStartup() { }
 
 }

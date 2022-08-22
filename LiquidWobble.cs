@@ -27,19 +27,19 @@ public class LiquidWobble : MonoBehaviour // TypeDefIndex: 10685
 
 	// Methods
 
-	// RVA: 0x4F7450 Offset: 0x4F5A50 VA: 0x1804F7450
+	// RVA: 0x4F73E0 Offset: 0x4F59E0 VA: 0x1804F73E0
 	private void Awake() { }
 
-	// RVA: 0x4F7550 Offset: 0x4F5B50 VA: 0x1804F7550
+	// RVA: 0x4F74E0 Offset: 0x4F5AE0 VA: 0x1804F74E0
 	private void Update() { }
 
-	// RVA: 0x4F7530 Offset: 0x4F5B30 VA: 0x1804F7530
+	// RVA: 0x4F74C0 Offset: 0x4F5AC0 VA: 0x1804F74C0
 	private float CalculateWaterLevel() { }
 
-	// RVA: 0x4F7AD0 Offset: 0x4F60D0 VA: 0x1804F7AD0
+	// RVA: 0x4F7A60 Offset: 0x4F6060 VA: 0x1804F7A60
 	public void .ctor() { }
 
-	// RVA: 0x4F7A30 Offset: 0x4F6030 VA: 0x1804F7A30
+	// RVA: 0x4F79C0 Offset: 0x4F5FC0 VA: 0x1804F79C0
 	private static void .cctor() { }
 
 }

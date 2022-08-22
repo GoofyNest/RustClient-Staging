@@ -9,28 +9,28 @@ public class DisplayNameAttribute : Attribute // TypeDefIndex: 2696
 
 	// Methods
 
-	// RVA: 0x15C2160 Offset: 0x15C0760 VA: 0x1815C2160
+	// RVA: 0x15C1230 Offset: 0x15BF830 VA: 0x1815C1230
 	public void .ctor() { }
 
-	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
+	// RVA: 0x7B9710 Offset: 0x7B7D10 VA: 0x1807B9710
 	public void .ctor(string displayName) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 7
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 7
 	public virtual string get_DisplayName() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	protected string get_DisplayNameValue() { }
 
-	// RVA: 0x15C1F80 Offset: 0x15C0580 VA: 0x1815C1F80 Slot: 0
+	// RVA: 0x15C1050 Offset: 0x15BF650 VA: 0x1815C1050 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x15C1120 Offset: 0x15BF720 VA: 0x1815C1120 Slot: 2
+	// RVA: 0x15C01F0 Offset: 0x15BE7F0 VA: 0x1815C01F0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x15C2050 Offset: 0x15C0650 VA: 0x1815C2050 Slot: 6
+	// RVA: 0x15C1120 Offset: 0x15BF720 VA: 0x1815C1120 Slot: 6
 	public override bool IsDefaultAttribute() { }
 
-	// RVA: 0x15C20C0 Offset: 0x15C06C0 VA: 0x1815C20C0
+	// RVA: 0x15C1190 Offset: 0x15BF790 VA: 0x1815C1190
 	private static void .cctor() { }
 
 }
@@ -41,7 +41,7 @@ public sealed class DisplayNameAttribute : Attribute // TypeDefIndex: 11749
 
 	// Methods
 
-	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
+	// RVA: 0x7B9710 Offset: 0x7B7D10 VA: 0x1807B9710
 	public void .ctor(string displayName) { }
 
 }

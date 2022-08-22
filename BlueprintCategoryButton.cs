@@ -13,34 +13,34 @@ public class BlueprintCategoryButton : MonoBehaviour, IInventoryChanged, IPointe
 
 	// Methods
 
-	// RVA: 0x514C40 Offset: 0x513240 VA: 0x180514C40
+	// RVA: 0x514BD0 Offset: 0x5131D0 VA: 0x180514BD0
 	private void OnEnable() { }
 
-	// RVA: 0x514B90 Offset: 0x513190 VA: 0x180514B90
+	// RVA: 0x514B20 Offset: 0x513120 VA: 0x180514B20
 	private void OnDisable() { }
 
-	// RVA: 0x515030 Offset: 0x513630 VA: 0x180515030
+	// RVA: 0x514FC0 Offset: 0x5135C0 VA: 0x180514FC0
 	private void Update() { }
 
-	// RVA: 0x514CC0 Offset: 0x5132C0 VA: 0x180514CC0 Slot: 4
+	// RVA: 0x514C50 Offset: 0x513250 VA: 0x180514C50 Slot: 4
 	public void OnInventoryChanged() { }
 
-	// RVA: 0x514F30 Offset: 0x513530 VA: 0x180514F30
+	// RVA: 0x514EC0 Offset: 0x5134C0 VA: 0x180514EC0
 	private void UpdateValue() { }
 
-	// RVA: 0x515160 Offset: 0x513760 VA: 0x180515160
+	// RVA: 0x5150F0 Offset: 0x5136F0 VA: 0x1805150F0
 	public void ValueChanged(bool b) { }
 
-	// RVA: 0x514CD0 Offset: 0x5132D0 VA: 0x180514CD0 Slot: 5
+	// RVA: 0x514C60 Offset: 0x513260 VA: 0x180514C60 Slot: 5
 	public void OnPointerEnter(PointerEventData eventData) { }
 
-	// RVA: 0x514EB0 Offset: 0x5134B0 VA: 0x180514EB0 Slot: 6
+	// RVA: 0x514E40 Offset: 0x513440 VA: 0x180514E40 Slot: 6
 	public void OnPointerExit(PointerEventData eventData) { }
 
-	// RVA: 0x514A60 Offset: 0x513060 VA: 0x180514A60
+	// RVA: 0x5149F0 Offset: 0x512FF0 VA: 0x1805149F0
 	public void DoBounceAnim() { }
 
-	// RVA: 0x5154F0 Offset: 0x513AF0 VA: 0x1805154F0
+	// RVA: 0x515480 Offset: 0x513A80 VA: 0x180515480
 	public void .ctor() { }
 
 }

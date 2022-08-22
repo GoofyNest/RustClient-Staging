@@ -10,13 +10,13 @@ internal struct GameLobbyJoinRequested_t : ICallbackData // TypeDefIndex: 5310
 
 	// Methods
 
-	// RVA: 0x1E7A50 Offset: 0x1E6E50 VA: 0x1801E7A50 Slot: 5
+	// RVA: 0x1E7E70 Offset: 0x1E7270 VA: 0x1801E7E70 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E7A40 Offset: 0x1E6E40 VA: 0x1801E7A40 Slot: 4
+	// RVA: 0x1E7E60 Offset: 0x1E7260 VA: 0x1801E7E60 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371390 Offset: 0x136F990 VA: 0x181371390
+	// RVA: 0x1370490 Offset: 0x136EA90 VA: 0x181370490
 	private static void .cctor() { }
 
 }

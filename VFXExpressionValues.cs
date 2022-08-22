@@ -19,7 +19,7 @@ public class VFXExpressionValues // TypeDefIndex: 4760
 	private void .ctor() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2321890 Offset: 0x231FE90 VA: 0x182321890
+	// RVA: 0x23220B0 Offset: 0x23206B0 VA: 0x1823220B0
 	internal static VFXExpressionValues CreateExpressionValuesWrapper(IntPtr ptr) { }
 
 }

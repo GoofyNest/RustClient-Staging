@@ -17,22 +17,22 @@ internal class RequiredByNativeCodeAttribute : Attribute // TypeDefIndex: 3289
 
 	// Methods
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
+	// RVA: 0x7B9710 Offset: 0x7B7D10 VA: 0x1807B9710
 	public void .ctor(string name) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_Name(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
+	// RVA: 0x960010 Offset: 0x95E610 VA: 0x180960010
 	public void set_Optional(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2311B00 Offset: 0x2310100 VA: 0x182311B00
+	// RVA: 0x2312320 Offset: 0x2310920 VA: 0x182312320
 	public void set_GenerateProxy(bool value) { }
 
 }

@@ -7,10 +7,10 @@ public class ServerAdminConvarInfo : MonoBehaviour // TypeDefIndex: 12077
 
 	// Methods
 
-	// RVA: 0x4C8C70 Offset: 0x4C7270 VA: 0x1804C8C70
+	// RVA: 0x4C8C00 Offset: 0x4C7200 VA: 0x1804C8C00
 	public void Populate(Admin.ServerConvarInfo convarInfo) { }
 
-	// RVA: 0x4C8AA0 Offset: 0x4C70A0 VA: 0x1804C8AA0
+	// RVA: 0x4C8A30 Offset: 0x4C7030 VA: 0x1804C8A30
 	public void OnSubmitVariable() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -34,17 +34,17 @@ public class ServerAdminPlayerEntry : MonoBehaviour // TypeDefIndex: 12078
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C8E90 Offset: 0x4C7490 VA: 0x1804C8E90
+	// RVA: 0x4C8E20 Offset: 0x4C7420 VA: 0x1804C8E20
 	public Admin.PlayerInfo get_CachedInfo() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C8EC0 Offset: 0x4C74C0 VA: 0x1804C8EC0
+	// RVA: 0x4C8E50 Offset: 0x4C7450 VA: 0x1804C8E50
 	private void set_CachedInfo(Admin.PlayerInfo value) { }
 
-	// RVA: 0x4C8DC0 Offset: 0x4C73C0 VA: 0x1804C8DC0
+	// RVA: 0x4C8D50 Offset: 0x4C7350 VA: 0x1804C8D50
 	public void Populate(Admin.PlayerInfo info, Action onSelected, Action onDeselected) { }
 
-	// RVA: 0x4C8D70 Offset: 0x4C7370 VA: 0x1804C8D70
+	// RVA: 0x4C8D00 Offset: 0x4C7300 VA: 0x1804C8D00
 	public void OnToggled() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -59,7 +59,7 @@ public class ServerAdminPlayerId : MonoBehaviour // TypeDefIndex: 12079
 
 	// Methods
 
-	// RVA: 0x4C8EF0 Offset: 0x4C74F0 VA: 0x1804C8EF0
+	// RVA: 0x4C8E80 Offset: 0x4C7480 VA: 0x1804C8E80
 	public void Populate(ulong playerId) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -88,23 +88,23 @@ public class ServerAdminPlayerInfo : MonoBehaviour // TypeDefIndex: 12080
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C9420 Offset: 0x4C7A20 VA: 0x1804C9420
+	// RVA: 0x4C93B0 Offset: 0x4C79B0 VA: 0x1804C93B0
 	public Admin.PlayerInfo get_CachedInfo() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C9450 Offset: 0x4C7A50 VA: 0x1804C9450
+	// RVA: 0x4C93E0 Offset: 0x4C79E0 VA: 0x1804C93E0
 	public void set_CachedInfo(Admin.PlayerInfo value) { }
 
-	// RVA: 0x4C9230 Offset: 0x4C7830 VA: 0x1804C9230
+	// RVA: 0x4C91C0 Offset: 0x4C77C0 VA: 0x1804C91C0
 	public void Populate(Admin.PlayerInfo info) { }
 
-	// RVA: 0x4C90C0 Offset: 0x4C76C0 VA: 0x1804C90C0
+	// RVA: 0x4C9050 Offset: 0x4C7650 VA: 0x1804C9050
 	public void OnClickedKick() { }
 
-	// RVA: 0x4C9020 Offset: 0x4C7620 VA: 0x1804C9020
+	// RVA: 0x4C8FB0 Offset: 0x4C75B0 VA: 0x1804C8FB0
 	public void OnClickedBan() { }
 
-	// RVA: 0x4C9160 Offset: 0x4C7760 VA: 0x1804C9160
+	// RVA: 0x4C90F0 Offset: 0x4C76F0 VA: 0x1804C90F0
 	public void OnClickedSpectate() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -119,7 +119,7 @@ public class ServerAdminServerInfo : MonoBehaviour // TypeDefIndex: 12081
 
 	// Methods
 
-	// RVA: 0x4C9480 Offset: 0x4C7A80 VA: 0x1804C9480
+	// RVA: 0x4C9410 Offset: 0x4C7A10 VA: 0x1804C9410
 	public void Populate(string variableName, string variableValue) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -134,22 +134,22 @@ public class ServerAdminUGCEntry : MonoBehaviour // TypeDefIndex: 12082
 
 	// Methods
 
-	// RVA: 0x4CB120 Offset: 0x4C9720 VA: 0x1804CB120
+	// RVA: 0x4CB0B0 Offset: 0x4C96B0 VA: 0x1804CB0B0
 	public void Populate(Admin.ServerUGCInfo info) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4
 	protected virtual void OnVisible(Admin.ServerUGCInfo info) { }
 
-	// RVA: 0x4CAD60 Offset: 0x4C9360 VA: 0x1804CAD60
+	// RVA: 0x4CACF0 Offset: 0x4C92F0 VA: 0x1804CACF0
 	protected void GetData(Action<byte[]> callback, int index = 0) { }
 
-	// RVA: 0x4CAD50 Offset: 0x4C9350 VA: 0x1804CAD50
+	// RVA: 0x4CACE0 Offset: 0x4C92E0 VA: 0x1804CACE0
 	public bool EntityMatches(uint entityId) { }
 
-	// RVA: 0x4CACF0 Offset: 0x4C92F0 VA: 0x1804CACF0
+	// RVA: 0x4CAC80 Offset: 0x4C9280 VA: 0x1804CAC80
 	public bool DataMatches(uint crc) { }
 
-	// RVA: 0x4CB1A0 Offset: 0x4C97A0 VA: 0x1804CB1A0
+	// RVA: 0x4CB130 Offset: 0x4C9730 VA: 0x1804CB130
 	public void ReceivedDataFromServer(byte[] data) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -167,27 +167,27 @@ public class ServerAdminUGCEntryAudio : ServerAdminUGCEntry // TypeDefIndex: 120
 
 	// Methods
 
-	// RVA: 0x4C9600 Offset: 0x4C7C00 VA: 0x1804C9600 Slot: 4
+	// RVA: 0x4C9590 Offset: 0x4C7B90 VA: 0x1804C9590 Slot: 4
 	protected override void OnVisible(Admin.ServerUGCInfo info) { }
 
-	// RVA: 0x4C9950 Offset: 0x4C7F50 VA: 0x1804C9950
+	// RVA: 0x4C98E0 Offset: 0x4C7EE0 VA: 0x1804C98E0
 	protected void Update() { }
 
-	// RVA: 0x4C9570 Offset: 0x4C7B70 VA: 0x1804C9570
+	// RVA: 0x4C9500 Offset: 0x4C7B00 VA: 0x1804C9500
 	public void OnClickedPlay() { }
 
-	// RVA: 0x4C9670 Offset: 0x4C7C70 VA: 0x1804C9670
+	// RVA: 0x4C9600 Offset: 0x4C7C00 VA: 0x1804C9600
 	public void SeekToAudioPosition(float val) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C97D0 Offset: 0x4C7DD0 VA: 0x1804C97D0
+	// RVA: 0x4C9760 Offset: 0x4C7D60 VA: 0x1804C9760
 	private void <OnVisible>b__5_0(byte[] bytes) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C9870 Offset: 0x4C7E70 VA: 0x1804C9870
+	// RVA: 0x4C9800 Offset: 0x4C7E00 VA: 0x1804C9800
 	private void <OnVisible>b__5_1(AudioClip clip, bool b) { }
 
 }
@@ -203,26 +203,26 @@ public class ServerAdminUGCEntryImage : ServerAdminUGCEntry // TypeDefIndex: 120
 
 	// Methods
 
-	// RVA: 0x4C9EE0 Offset: 0x4C84E0 VA: 0x1804C9EE0 Slot: 4
+	// RVA: 0x4C9E70 Offset: 0x4C8470 VA: 0x1804C9E70 Slot: 4
 	protected override void OnVisible(Admin.ServerUGCInfo info) { }
 
-	// RVA: 0x4C9A30 Offset: 0x4C8030 VA: 0x1804C9A30
+	// RVA: 0x4C99C0 Offset: 0x4C7FC0 VA: 0x1804C99C0
 	private void GetDataForCurrentIndex() { }
 
-	// RVA: 0x4C9CF0 Offset: 0x4C82F0 VA: 0x1804C9CF0
+	// RVA: 0x4C9C80 Offset: 0x4C8280 VA: 0x1804C9C80
 	private void OnImageLoaded(Texture2D texture) { }
 
-	// RVA: 0x4C9AB0 Offset: 0x4C80B0 VA: 0x1804C9AB0
+	// RVA: 0x4C9A40 Offset: 0x4C8040 VA: 0x1804C9A40
 	public void IncrementImage(int direction) { }
 
-	// RVA: 0x4C9BE0 Offset: 0x4C81E0 VA: 0x1804C9BE0
+	// RVA: 0x4C9B70 Offset: 0x4C8170 VA: 0x1804C9B70
 	public void OnClickedExpand() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C9F70 Offset: 0x4C8570 VA: 0x1804C9F70
+	// RVA: 0x4C9F00 Offset: 0x4C8500 VA: 0x1804C9F00
 	private void <GetDataForCurrentIndex>b__7_0(byte[] bytes) { }
 
 }
@@ -234,16 +234,16 @@ public class ServerAdminUGCEntryPattern : ServerAdminUGCEntry // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0x4CA2A0 Offset: 0x4C88A0 VA: 0x1804CA2A0 Slot: 4
+	// RVA: 0x4CA230 Offset: 0x4C8830 VA: 0x1804CA230 Slot: 4
 	protected override void OnVisible(Admin.ServerUGCInfo info) { }
 
-	// RVA: 0x4CA060 Offset: 0x4C8660 VA: 0x1804CA060
+	// RVA: 0x4C9FF0 Offset: 0x4C85F0 VA: 0x1804C9FF0
 	public void OnLoadedPattern(List<PatternFirework.Star> stars) { }
 
-	// RVA: 0x4C9FF0 Offset: 0x4C85F0 VA: 0x1804C9FF0
+	// RVA: 0x4C9F80 Offset: 0x4C8580 VA: 0x1804C9F80
 	private void ClearStars() { }
 
-	// RVA: 0x4CA410 Offset: 0x4C8A10 VA: 0x1804CA410
+	// RVA: 0x4CA3A0 Offset: 0x4C89A0 VA: 0x1804CA3A0
 	private void PlaceStar(Vector2 localPosition, Color color) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -263,13 +263,13 @@ public class ServerAdminUGCEntryStub : MonoBehaviour // TypeDefIndex: 12086
 
 	// Methods
 
-	// RVA: 0x4CA7E0 Offset: 0x4C8DE0 VA: 0x1804CA7E0
+	// RVA: 0x4CA770 Offset: 0x4C8D70 VA: 0x1804CA770
 	public void Populate(Admin.ServerUGCInfo info) { }
 
-	// RVA: 0x4CA5B0 Offset: 0x4C8BB0 VA: 0x1804CA5B0
+	// RVA: 0x4CA540 Offset: 0x4C8B40 VA: 0x1804CA540
 	public void DeleteUGC() { }
 
-	// RVA: 0x4CACA0 Offset: 0x4C92A0 VA: 0x1804CACA0
+	// RVA: 0x4CAC30 Offset: 0x4C9230 VA: 0x1804CAC30
 	public void .ctor() { }
 
 }
@@ -304,111 +304,111 @@ public class ServerAdminUI : SingletonComponent<ServerAdminUI> // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x4CD5D0 Offset: 0x4CBBD0 VA: 0x1804CD5D0
+	// RVA: 0x4CD560 Offset: 0x4CBB60 VA: 0x1804CD560
 	public static bool get_ShouldReceiveMessages() { }
 
-	// RVA: 0x4CB1F0 Offset: 0x4C97F0 VA: 0x1804CB1F0 Slot: 6
+	// RVA: 0x4CB180 Offset: 0x4C9780 VA: 0x1804CB180 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x4CB980 Offset: 0x4C9F80 VA: 0x1804CB980
+	// RVA: 0x4CB910 Offset: 0x4C9F10 VA: 0x1804CB910
 	private void OnEnable() { }
 
-	// RVA: 0x4CB8F0 Offset: 0x4C9EF0 VA: 0x1804CB8F0
+	// RVA: 0x4CB880 Offset: 0x4C9E80 VA: 0x1804CB880
 	private void OnDisable() { }
 
-	// RVA: 0x4CCB00 Offset: 0x4CB100 VA: 0x1804CCB00
+	// RVA: 0x4CCA90 Offset: 0x4CB090 VA: 0x1804CCA90
 	public void RefreshPlayerList() { }
 
-	// RVA: 0x4CCB70 Offset: 0x4CB170 VA: 0x1804CCB70
+	// RVA: 0x4CCB00 Offset: 0x4CB100 VA: 0x1804CCB00
 	public void RefreshServerInfo() { }
 
-	// RVA: 0x4CCA90 Offset: 0x4CB090 VA: 0x1804CCA90
+	// RVA: 0x4CCA20 Offset: 0x4CB020 VA: 0x1804CCA20
 	public void RefreshConvars() { }
 
-	// RVA: 0x4CCBE0 Offset: 0x4CB1E0 VA: 0x1804CCBE0
+	// RVA: 0x4CCB70 Offset: 0x4CB170 VA: 0x1804CCB70
 	public void RefreshUGC() { }
 
-	// RVA: 0x4CC650 Offset: 0x4CAC50 VA: 0x1804CC650
+	// RVA: 0x4CC5E0 Offset: 0x4CABE0 VA: 0x1804CC5E0
 	public void ReceivePlayerList(string result) { }
 
-	// RVA: 0x4CC850 Offset: 0x4CAE50 VA: 0x1804CC850
+	// RVA: 0x4CC7E0 Offset: 0x4CADE0 VA: 0x1804CC7E0
 	public void ReceiveServerInfo(string result) { }
 
-	// RVA: 0x4CC6C0 Offset: 0x4CACC0 VA: 0x1804CC6C0
+	// RVA: 0x4CC650 Offset: 0x4CAC50 VA: 0x1804CC650
 	public void ReceiveServerConvars(string result) { }
 
-	// RVA: 0x4CC980 Offset: 0x4CAF80 VA: 0x1804CC980
+	// RVA: 0x4CC910 Offset: 0x4CAF10 VA: 0x1804CC910
 	public void ReceiveUGCList(string result) { }
 
-	// RVA: 0x4CBE80 Offset: 0x4CA480 VA: 0x1804CBE80
+	// RVA: 0x4CBE10 Offset: 0x4CA410 VA: 0x1804CBE10
 	private void PopulatePlayerInfo(List<Admin.PlayerInfo> info) { }
 
-	// RVA: 0x4CD210 Offset: 0x4CB810 VA: 0x1804CD210
+	// RVA: 0x4CD1A0 Offset: 0x4CB7A0 VA: 0x1804CD1A0
 	public void UpdatePlayerFilter(string newFilter) { }
 
-	// RVA: 0x4CCC50 Offset: 0x4CB250 VA: 0x1804CCC50
+	// RVA: 0x4CCBE0 Offset: 0x4CB1E0 VA: 0x1804CCBE0
 	private bool ShouldShowPlayer(ServerAdminPlayerEntry entry, string filter) { }
 
 	// RVA: -1 Offset: -1
 	private void PopulateInfo<T, U>(List<T> contentArray, Func<T, GameObjectRef> getContent, RectTransform contentParent, Action<T, U> populateCallback) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCFEDD0 Offset: 0xCFD3D0 VA: 0x180CFEDD0
+	|-RVA: 0xCFF270 Offset: 0xCFD870 VA: 0x180CFF270
 	|-ServerAdminUI.PopulateInfo<Admin.PlayerInfo, ServerAdminPlayerEntry>
 	|-ServerAdminUI.PopulateInfo<Admin.PlayerInfo, object>
 	|
-	|-RVA: 0xCFF500 Offset: 0xCFDB00 VA: 0x180CFF500
+	|-RVA: 0xCFF9A0 Offset: 0xCFDFA0 VA: 0x180CFF9A0
 	|-ServerAdminUI.PopulateInfo<Admin.ServerConvarInfo, ServerAdminConvarInfo>
 	|-ServerAdminUI.PopulateInfo<Admin.ServerConvarInfo, object>
 	|
-	|-RVA: 0xCFF1D0 Offset: 0xCFD7D0 VA: 0x180CFF1D0
+	|-RVA: 0xCFF670 Offset: 0xCFDC70 VA: 0x180CFF670
 	|-ServerAdminUI.PopulateInfo<object, object>
 	*/
 
-	// RVA: 0x4CC090 Offset: 0x4CA690 VA: 0x1804CC090
+	// RVA: 0x4CC020 Offset: 0x4CA620 VA: 0x1804CC020
 	private void PopulateServerInfo(Admin.ServerInfoOutput info) { }
 
-	// RVA: 0x4CBD30 Offset: 0x4CA330 VA: 0x1804CBD30
+	// RVA: 0x4CBCC0 Offset: 0x4CA2C0 VA: 0x1804CBCC0
 	private void PopulateConvarInfo(List<Admin.ServerConvarInfo> info) { }
 
-	// RVA: 0x4CCD50 Offset: 0x4CB350 VA: 0x1804CCD50
+	// RVA: 0x4CCCE0 Offset: 0x4CB2E0 VA: 0x1804CCCE0
 	private static bool ShouldShowUGC(string filter, Admin.ServerUGCInfo info) { }
 
-	// RVA: 0x4CC3C0 Offset: 0x4CA9C0 VA: 0x1804CC3C0
+	// RVA: 0x4CC350 Offset: 0x4CA950 VA: 0x1804CC350
 	private void PopulateUgcInfo(List<Admin.ServerUGCInfo> info) { }
 
-	// RVA: 0x4CB530 Offset: 0x4C9B30 VA: 0x1804CB530
+	// RVA: 0x4CB4C0 Offset: 0x4C9AC0 VA: 0x1804CB4C0
 	public void KickPlayer(string playerName, string kickReason) { }
 
-	// RVA: 0x4CB2B0 Offset: 0x4C98B0 VA: 0x1804CB2B0
+	// RVA: 0x4CB240 Offset: 0x4C9840 VA: 0x1804CB240
 	public void BanPlayer(string playerName, string banReason) { }
 
-	// RVA: 0x4CD130 Offset: 0x4CB730 VA: 0x1804CD130
+	// RVA: 0x4CD0C0 Offset: 0x4CB6C0 VA: 0x1804CD0C0
 	public void SpectatePlayer(string playerName) { }
 
-	// RVA: 0x4CB7B0 Offset: 0x4C9DB0 VA: 0x1804CB7B0
+	// RVA: 0x4CB740 Offset: 0x4C9D40 VA: 0x1804CB740
 	public void ModifyConvar(string convar, string newValue) { }
 
-	// RVA: 0x4CBA20 Offset: 0x4CA020 VA: 0x1804CBA20
+	// RVA: 0x4CB9B0 Offset: 0x4C9FB0 VA: 0x1804CB9B0
 	public void OnReceivedAdminUGC(uint crc, byte[] data) { }
 
-	// RVA: 0x4CC480 Offset: 0x4CAA80 VA: 0x1804CC480
+	// RVA: 0x4CC410 Offset: 0x4CAA10 VA: 0x1804CC410
 	public void ReceiveFireworkPattern(uint entityId, PatternFirework.Design design) { }
 
-	// RVA: 0x4CD420 Offset: 0x4CBA20 VA: 0x1804CD420
+	// RVA: 0x4CD3B0 Offset: 0x4CB9B0 VA: 0x1804CD3B0
 	public void UpdateUGCFilter(string newFilter) { }
 
-	// RVA: 0x4CBC30 Offset: 0x4CA230 VA: 0x1804CBC30
+	// RVA: 0x4CBBC0 Offset: 0x4CA1C0 VA: 0x1804CBBC0
 	public void OnUGCDeleted(Admin.ServerUGCInfo info) { }
 
-	// RVA: 0x4CCF30 Offset: 0x4CB530 VA: 0x1804CCF30
+	// RVA: 0x4CCEC0 Offset: 0x4CB4C0 VA: 0x1804CCEC0
 	public void ShowExpandedImage(Texture2D tex, Admin.ServerUGCInfo forInfo) { }
 
-	// RVA: 0x4CD460 Offset: 0x4CBA60 VA: 0x1804CD460
+	// RVA: 0x4CD3F0 Offset: 0x4CB9F0 VA: 0x1804CD3F0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4CD190 Offset: 0x4CB790 VA: 0x1804CD190
+	// RVA: 0x4CD120 Offset: 0x4CB720 VA: 0x1804CD120
 	private GameObjectRef <PopulateConvarInfo>b__38_0(Admin.ServerConvarInfo convarInfo) { }
 
 }
@@ -421,22 +421,22 @@ private class ServerAdminUI.UGCDataSource : VirtualScroll.IDataSource // TypeDef
 
 	// Methods
 
-	// RVA: 0x4D2740 Offset: 0x4D0D40 VA: 0x1804D2740 Slot: 4
+	// RVA: 0x4D26D0 Offset: 0x4D0CD0 VA: 0x1804D26D0 Slot: 4
 	public int GetItemCount() { }
 
-	// RVA: 0x4D2A80 Offset: 0x4D1080 VA: 0x1804D2A80 Slot: 5
+	// RVA: 0x4D2A10 Offset: 0x4D1010 VA: 0x1804D2A10 Slot: 5
 	public void SetItemData(int i, GameObject obj) { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void SetInfo(List<Admin.ServerUGCInfo> newInfo) { }
 
-	// RVA: 0x4D2860 Offset: 0x4D0E60 VA: 0x1804D2860
+	// RVA: 0x4D27F0 Offset: 0x4D0DF0 VA: 0x1804D27F0
 	public void SetFilter(string filter) { }
 
-	// RVA: 0x4D2790 Offset: 0x4D0D90 VA: 0x1804D2790
+	// RVA: 0x4D2720 Offset: 0x4D0D20 VA: 0x1804D2720
 	public void RemoveEntry(Admin.ServerUGCInfo info) { }
 
-	// RVA: 0x4D2B60 Offset: 0x4D1160 VA: 0x1804D2B60
+	// RVA: 0x4D2AF0 Offset: 0x4D10F0 VA: 0x1804D2AF0
 	public void .ctor() { }
 
 }
@@ -452,13 +452,13 @@ private sealed class ServerAdminUI.<>c__DisplayClass33_0 // TypeDefIndex: 12089
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x4D2120 Offset: 0x4D0720 VA: 0x1804D2120
+	// RVA: 0x4D20B0 Offset: 0x4D06B0 VA: 0x1804D20B0
 	internal GameObjectRef <PopulatePlayerInfo>b__0(Admin.PlayerInfo playerInfo) { }
 
-	// RVA: 0x4D2140 Offset: 0x4D0740 VA: 0x1804D2140
+	// RVA: 0x4D20D0 Offset: 0x4D06D0 VA: 0x1804D20D0
 	internal void <PopulatePlayerInfo>b__1(Admin.PlayerInfo playerInfo, ServerAdminPlayerEntry entry) { }
 
-	// RVA: 0x4D2400 Offset: 0x4D0A00 VA: 0x1804D2400
+	// RVA: 0x4D2390 Offset: 0x4D0990 VA: 0x1804D2390
 	internal void <PopulatePlayerInfo>b__3() { }
 
 }
@@ -473,7 +473,7 @@ private sealed class ServerAdminUI.<>c__DisplayClass33_1 // TypeDefIndex: 12090
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x4D2440 Offset: 0x4D0A40 VA: 0x1804D2440
+	// RVA: 0x4D23D0 Offset: 0x4D09D0 VA: 0x1804D23D0
 	internal void <PopulatePlayerInfo>b__2() { }
 
 }
@@ -485,13 +485,13 @@ private sealed class ServerAdminUI.<>c // TypeDefIndex: 12091
 
 	// Methods
 
-	// RVA: 0x4D25C0 Offset: 0x4D0BC0 VA: 0x1804D25C0
+	// RVA: 0x4D2550 Offset: 0x4D0B50 VA: 0x1804D2550
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x4D1E80 Offset: 0x4D0480 VA: 0x1804D1E80
+	// RVA: 0x4D1E10 Offset: 0x4D0410 VA: 0x1804D1E10
 	internal void <PopulateConvarInfo>b__38_1(Admin.ServerConvarInfo convarInfo, ServerAdminConvarInfo adminConvarInfo) { }
 
 }

@@ -24,13 +24,13 @@ internal abstract class X509ChainImpl : IDisposable // TypeDefIndex: 2826
 	// RVA: -1 Offset: -1 Slot: 10
 	public abstract void Reset();
 
-	// RVA: 0x14D8F60 Offset: 0x14D7560 VA: 0x1814D8F60 Slot: 4
+	// RVA: 0x14D8030 Offset: 0x14D6630 VA: 0x1814D8030 Slot: 4
 	public void Dispose() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 11
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x14D8FD0 Offset: 0x14D75D0 VA: 0x1814D8FD0 Slot: 1
+	// RVA: 0x14D80A0 Offset: 0x14D66A0 VA: 0x1814D80A0 Slot: 1
 	protected override void Finalize() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

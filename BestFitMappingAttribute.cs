@@ -4,7 +4,7 @@ public sealed class BestFitMappingAttribute : Attribute // TypeDefIndex: 1341
 
 	// Methods
 
-	// RVA: 0xFDCE40 Offset: 0xFDB440 VA: 0x180FDCE40
+	// RVA: 0xFDD8E0 Offset: 0xFDBEE0 VA: 0x180FDD8E0
 	public void .ctor(bool BestFitMapping) { }
 
 }

@@ -10,13 +10,13 @@ internal struct RequestPlayersForGameProgressCallback_t : ICallbackData // TypeD
 
 	// Methods
 
-	// RVA: 0x1D7A90 Offset: 0x1D6E90 VA: 0x1801D7A90 Slot: 5
+	// RVA: 0x1D8100 Offset: 0x1D7500 VA: 0x1801D8100 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7A80 Offset: 0x1D6E80 VA: 0x1801D7A80 Slot: 4
+	// RVA: 0x1D80F0 Offset: 0x1D74F0 VA: 0x1801D80F0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128ECD0 Offset: 0x128D2D0 VA: 0x18128ECD0
+	// RVA: 0x128F370 Offset: 0x128D970 VA: 0x18128F370
 	private static void .cctor() { }
 
 }
@@ -41,13 +41,13 @@ internal struct RequestPlayersForGameResultCallback_t : ICallbackData // TypeDef
 
 	// Methods
 
-	// RVA: 0x1D7B00 Offset: 0x1D6F00 VA: 0x1801D7B00 Slot: 5
+	// RVA: 0x1D8170 Offset: 0x1D7570 VA: 0x1801D8170 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7AF0 Offset: 0x1D6EF0 VA: 0x1801D7AF0 Slot: 4
+	// RVA: 0x1D8160 Offset: 0x1D7560 VA: 0x1801D8160 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128ED70 Offset: 0x128D370 VA: 0x18128ED70
+	// RVA: 0x128F410 Offset: 0x128DA10 VA: 0x18128F410
 	private static void .cctor() { }
 
 }
@@ -74,13 +74,13 @@ internal struct RequestPlayersForGameFinalResultCallback_t : ICallbackData // Ty
 
 	// Methods
 
-	// RVA: 0x1D7A20 Offset: 0x1D6E20 VA: 0x1801D7A20 Slot: 5
+	// RVA: 0x1D8090 Offset: 0x1D7490 VA: 0x1801D8090 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7A10 Offset: 0x1D6E10 VA: 0x1801D7A10 Slot: 4
+	// RVA: 0x1D8080 Offset: 0x1D7480 VA: 0x1801D8080 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128EC30 Offset: 0x128D230 VA: 0x18128EC30
+	// RVA: 0x128F2D0 Offset: 0x128D8D0 VA: 0x18128F2D0
 	private static void .cctor() { }
 
 }

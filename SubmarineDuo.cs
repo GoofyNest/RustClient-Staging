@@ -46,42 +46,42 @@ public class SubmarineDuo : BaseSubmarine // TypeDefIndex: 8458
 
 	// Methods
 
-	// RVA: 0x7A2660 Offset: 0x7A0C60 VA: 0x1807A2660 Slot: 49
+	// RVA: 0x7C0A60 Offset: 0x7BF060 VA: 0x1807C0A60 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x7A3B70 Offset: 0x7A2170 VA: 0x1807A3B70 Slot: 50
+	// RVA: 0x7C1F70 Offset: 0x7C0570 VA: 0x1807C1F70 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x7A2EF0 Offset: 0x7A14F0 VA: 0x1807A2EF0 Slot: 197
+	// RVA: 0x7C12F0 Offset: 0x7BF8F0 VA: 0x1807C12F0 Slot: 197
 	protected override bool UpdateInteriorVisuals(bool playerIsInside, float speed) { }
 
-	// RVA: 0x7A2CC0 Offset: 0x7A12C0 VA: 0x1807A2CC0 Slot: 198
+	// RVA: 0x7C10C0 Offset: 0x7BF6C0 VA: 0x1807C10C0 Slot: 198
 	protected override bool UpdateExteriorVisuals(bool playerIsInside, float speed) { }
 
-	// RVA: 0x7A37B0 Offset: 0x7A1DB0 VA: 0x1807A37B0 Slot: 173
+	// RVA: 0x7C1BB0 Offset: 0x7C01B0 VA: 0x1807C1BB0 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0x7A2BF0 Offset: 0x7A11F0 VA: 0x1807A2BF0 Slot: 199
+	// RVA: 0x7C0FF0 Offset: 0x7BF5F0 VA: 0x1807C0FF0 Slot: 199
 	protected override void TorpedoFired() { }
 
 	[BaseEntity.Menu] // RVA: 0x8F1B0 Offset: 0x8E5B0 VA: 0x18008F1B0
 	[BaseEntity.Menu.Description] // RVA: 0x8F1B0 Offset: 0x8E5B0 VA: 0x18008F1B0
 	[BaseEntity.Menu.Icon] // RVA: 0x8F1B0 Offset: 0x8E5B0 VA: 0x18008F1B0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8F1B0 Offset: 0x8E5B0 VA: 0x18008F1B0
-	// RVA: 0x7A2B60 Offset: 0x7A1160 VA: 0x1807A2B60
+	// RVA: 0x7C0F60 Offset: 0x7BF560 VA: 0x1807C0F60
 	public void Menu_SwapSeats(BasePlayer player) { }
 
-	// RVA: 0x7A2AB0 Offset: 0x7A10B0 VA: 0x1807A2AB0
+	// RVA: 0x7C0EB0 Offset: 0x7BF4B0 VA: 0x1807C0EB0
 	public bool Menu_SwapSeats_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x7A2970 Offset: 0x7A0F70 VA: 0x1807A2970 Slot: 190
+	// RVA: 0x7C0D70 Offset: 0x7BF370 VA: 0x1807C0D70 Slot: 190
 	protected override bool Menu_Occupied_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x7A3AD0 Offset: 0x7A20D0 VA: 0x1807A3AD0
+	// RVA: 0x7C1ED0 Offset: 0x7C04D0 VA: 0x1807C1ED0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7A2C10 Offset: 0x7A1210 VA: 0x1807A2C10
+	// RVA: 0x7C1010 Offset: 0x7BF610 VA: 0x1807C1010
 	internal static Vector3 <UpdateInteriorVisuals>g__SetGauge|31_0(Vector3 localAngles, float amount, float maxReading, float maxDegrees, bool zAxis) { }
 
 }

@@ -11,29 +11,29 @@ public class VitalInfo : MonoBehaviour, IClientComponent, IVitalNotice // TypeDe
 
 	// Methods
 
-	// RVA: 0x7FFCF0 Offset: 0x7FE2F0 VA: 0x1807FFCF0
+	// RVA: 0x800280 Offset: 0x7FE880 VA: 0x180800280
 	private void Awake() { }
 
-	// RVA: 0x7FFDF0 Offset: 0x7FE3F0 VA: 0x1807FFDF0 Slot: 4
+	// RVA: 0x800380 Offset: 0x7FE980 VA: 0x180800380 Slot: 4
 	public void Refresh() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xA2F10 Offset: 0xA2310 VA: 0x1800A2F10
-	// RVA: 0x7FFD60 Offset: 0x7FE360 VA: 0x1807FFD60
+	// RVA: 0x8002F0 Offset: 0x7FE8F0 VA: 0x1808002F0
 	private IEnumerator FlashInfoIcon(int count, float interval) { }
 
-	// RVA: 0x7FFD20 Offset: 0x7FE320 VA: 0x1807FFD20
+	// RVA: 0x8002B0 Offset: 0x7FE8B0 VA: 0x1808002B0
 	private void Hide() { }
 
-	// RVA: 0x8008D0 Offset: 0x7FEED0 VA: 0x1808008D0
+	// RVA: 0x800E60 Offset: 0x7FF460 VA: 0x180800E60
 	private void Show() { }
 
-	// RVA: 0x7FFD20 Offset: 0x7FE320 VA: 0x1807FFD20
+	// RVA: 0x8002B0 Offset: 0x7FE8B0 VA: 0x1808002B0
 	private void ClientConnected() { }
 
-	// RVA: 0x768B70 Offset: 0x767170 VA: 0x180768B70 Slot: 5
+	// RVA: 0x768AC0 Offset: 0x7670C0 VA: 0x180768AC0 Slot: 5
 	public bool get_IsActive() { }
 
-	// RVA: 0x800910 Offset: 0x7FEF10 VA: 0x180800910
+	// RVA: 0x800EA0 Offset: 0x7FF4A0 VA: 0x180800EA0
 	public void .ctor() { }
 
 }
@@ -78,7 +78,7 @@ private sealed class VitalInfo.<FlashInfoIcon>d__7 : IEnumerator<object>, IEnume
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x7EFD70 Offset: 0x7EE370 VA: 0x1807EFD70 Slot: 6
+	// RVA: 0x7F0300 Offset: 0x7EE900 VA: 0x1807F0300 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -86,7 +86,7 @@ private sealed class VitalInfo.<FlashInfoIcon>d__7 : IEnumerator<object>, IEnume
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EFEE0 Offset: 0x7EE4E0 VA: 0x1807EFEE0 Slot: 8
+	// RVA: 0x7F0470 Offset: 0x7EEA70 VA: 0x1807F0470 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

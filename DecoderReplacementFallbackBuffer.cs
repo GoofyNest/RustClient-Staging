@@ -9,22 +9,22 @@ public sealed class DecoderReplacementFallbackBuffer : DecoderFallbackBuffer // 
 
 	// Methods
 
-	// RVA: 0x18AD2B0 Offset: 0x18AB8B0 VA: 0x1818AD2B0
+	// RVA: 0x18AC9D0 Offset: 0x18AAFD0 VA: 0x1818AC9D0
 	public void .ctor(DecoderReplacementFallback fallback) { }
 
-	// RVA: 0x18AD1F0 Offset: 0x18AB7F0 VA: 0x1818AD1F0 Slot: 4
+	// RVA: 0x18AC910 Offset: 0x18AAF10 VA: 0x1818AC910 Slot: 4
 	public override bool Fallback(byte[] bytesUnknown, int index) { }
 
-	// RVA: 0x18AD240 Offset: 0x18AB840 VA: 0x1818AD240 Slot: 5
+	// RVA: 0x18AC960 Offset: 0x18AAF60 VA: 0x1818AC960 Slot: 5
 	public override char GetNextChar() { }
 
-	// RVA: 0x18AD300 Offset: 0x18AB900 VA: 0x1818AD300 Slot: 6
+	// RVA: 0x18ACA20 Offset: 0x18AB020 VA: 0x1818ACA20 Slot: 6
 	public override int get_Remaining() { }
 
-	// RVA: 0x18AD290 Offset: 0x18AB890 VA: 0x1818AD290 Slot: 7
+	// RVA: 0x18AC9B0 Offset: 0x18AAFB0 VA: 0x1818AC9B0 Slot: 7
 	public override void Reset() { }
 
-	// RVA: 0xD4D130 Offset: 0xD4B730 VA: 0x180D4D130 Slot: 9
+	// RVA: 0xD4D5D0 Offset: 0xD4BBD0 VA: 0x180D4D5D0 Slot: 9
 	internal override int InternalFallback(byte[] bytes, byte* pBytes) { }
 
 }

@@ -33,113 +33,113 @@ internal class WebConnection // TypeDefIndex: 3027
 
 	// Methods
 
-	// RVA: 0x11886E0 Offset: 0x1186CE0 VA: 0x1811886E0
+	// RVA: 0x118D000 Offset: 0x118B600 VA: 0x18118D000
 	public void .ctor(IWebConnectionState wcs, ServicePoint sPoint) { }
 
-	// RVA: 0x1183BA0 Offset: 0x11821A0 VA: 0x181183BA0
+	// RVA: 0x11884C0 Offset: 0x1186AC0 VA: 0x1811884C0
 	private bool CanReuse() { }
 
-	// RVA: 0x1183FA0 Offset: 0x11825A0 VA: 0x181183FA0
+	// RVA: 0x11888C0 Offset: 0x1186EC0 VA: 0x1811888C0
 	private void Connect(HttpWebRequest request) { }
 
-	// RVA: 0x11847B0 Offset: 0x1182DB0 VA: 0x1811847B0
+	// RVA: 0x11890D0 Offset: 0x11876D0 VA: 0x1811890D0
 	private bool CreateTunnel(HttpWebRequest request, Uri connectUri, Stream stream, out byte[] buffer) { }
 
-	// RVA: 0x11874F0 Offset: 0x1185AF0 VA: 0x1811874F0
+	// RVA: 0x118BE10 Offset: 0x118A410 VA: 0x18118BE10
 	private WebHeaderCollection ReadHeaders(Stream stream, out byte[] retBuffer, out int status) { }
 
-	// RVA: 0x1185CC0 Offset: 0x11842C0 VA: 0x181185CC0
+	// RVA: 0x118A5E0 Offset: 0x1188BE0 VA: 0x18118A5E0
 	private void FlushContents(Stream stream, int contentLength) { }
 
-	// RVA: 0x1184590 Offset: 0x1182B90 VA: 0x181184590
+	// RVA: 0x1188EB0 Offset: 0x11874B0 VA: 0x181188EB0
 	private bool CreateStream(HttpWebRequest request) { }
 
-	// RVA: 0x11864F0 Offset: 0x1184AF0 VA: 0x1811864F0
+	// RVA: 0x118AE10 Offset: 0x1189410 VA: 0x18118AE10
 	private void HandleError(WebExceptionStatus st, Exception e, string where) { }
 
-	// RVA: 0x1186F70 Offset: 0x1185570 VA: 0x181186F70
+	// RVA: 0x118B890 Offset: 0x1189E90 VA: 0x18118B890
 	private void ReadDone(IAsyncResult result) { }
 
-	// RVA: 0x1185C40 Offset: 0x1184240 VA: 0x181185C40
+	// RVA: 0x118A560 Offset: 0x1188B60 VA: 0x18118A560
 	private static bool ExpectContent(int statusCode, string method) { }
 
-	// RVA: 0x1186AE0 Offset: 0x11850E0 VA: 0x181186AE0
+	// RVA: 0x118B400 Offset: 0x1189A00 VA: 0x18118B400
 	internal void InitRead() { }
 
-	// RVA: 0x1185D40 Offset: 0x1184340 VA: 0x181185D40
+	// RVA: 0x118A660 Offset: 0x1188C60 VA: 0x18118A660
 	private static int GetResponse(WebConnectionData data, ServicePoint sPoint, byte[] buffer, int max) { }
 
-	// RVA: 0x11866C0 Offset: 0x1184CC0 VA: 0x1811866C0
+	// RVA: 0x118AFE0 Offset: 0x11895E0 VA: 0x18118AFE0
 	private void InitConnection(HttpWebRequest request) { }
 
-	// RVA: 0x11881C0 Offset: 0x11867C0 VA: 0x1811881C0
+	// RVA: 0x118CAE0 Offset: 0x118B0E0 VA: 0x18118CAE0
 	internal EventHandler SendRequest(HttpWebRequest request) { }
 
-	// RVA: 0x1188050 Offset: 0x1186650 VA: 0x181188050
+	// RVA: 0x118C970 Offset: 0x118AF70 VA: 0x18118C970
 	private void SendNext() { }
 
-	// RVA: 0x1186BF0 Offset: 0x11851F0 VA: 0x181186BF0
+	// RVA: 0x118B510 Offset: 0x1189B10 VA: 0x18118B510
 	internal void NextRead() { }
 
-	// RVA: 0x1187A80 Offset: 0x1186080 VA: 0x181187A80
+	// RVA: 0x118C3A0 Offset: 0x118A9A0 VA: 0x18118C3A0
 	private static bool ReadLine(byte[] buffer, ref int start, int max, ref string output) { }
 
-	// RVA: 0x11834E0 Offset: 0x1181AE0 VA: 0x1811834E0
+	// RVA: 0x1187E00 Offset: 0x1186400 VA: 0x181187E00
 	internal IAsyncResult BeginRead(HttpWebRequest request, byte[] buffer, int offset, int size, AsyncCallback cb, object state) { }
 
-	// RVA: 0x1185190 Offset: 0x1183790 VA: 0x181185190
+	// RVA: 0x1189AB0 Offset: 0x11880B0 VA: 0x181189AB0
 	internal int EndRead(HttpWebRequest request, IAsyncResult result) { }
 
-	// RVA: 0x1185AE0 Offset: 0x11840E0 VA: 0x181185AE0
+	// RVA: 0x118A400 Offset: 0x1188A00 VA: 0x18118A400
 	private int EnsureRead(byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x1183EF0 Offset: 0x11824F0 VA: 0x181183EF0
+	// RVA: 0x1188810 Offset: 0x1186E10 VA: 0x181188810
 	private bool CompleteChunkedRead() { }
 
-	// RVA: 0x1183800 Offset: 0x1181E00 VA: 0x181183800
+	// RVA: 0x1188120 Offset: 0x1186720 VA: 0x181188120
 	internal IAsyncResult BeginWrite(HttpWebRequest request, byte[] buffer, int offset, int size, AsyncCallback cb, object state) { }
 
-	// RVA: 0x1185810 Offset: 0x1183E10 VA: 0x181185810
+	// RVA: 0x118A130 Offset: 0x1188730 VA: 0x18118A130
 	internal bool EndWrite(HttpWebRequest request, bool throwOnError, IAsyncResult result) { }
 
-	// RVA: 0x1187C80 Offset: 0x1186280 VA: 0x181187C80
+	// RVA: 0x118C5A0 Offset: 0x118ABA0 VA: 0x18118C5A0
 	internal int Read(HttpWebRequest request, byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x1188470 Offset: 0x1186A70 VA: 0x181188470
+	// RVA: 0x118CD90 Offset: 0x118B390 VA: 0x18118CD90
 	internal bool Write(HttpWebRequest request, byte[] buffer, int offset, int size, ref string err_msg) { }
 
-	// RVA: 0x1183BD0 Offset: 0x11821D0 VA: 0x181183BD0
+	// RVA: 0x11884F0 Offset: 0x1186AF0 VA: 0x1811884F0
 	internal void Close(bool sendNext) { }
 
-	// RVA: 0x1183060 Offset: 0x1181660 VA: 0x181183060
+	// RVA: 0x1187980 Offset: 0x1185F80 VA: 0x181187980
 	private void Abort(object sender, EventArgs args) { }
 
-	// RVA: 0x1188010 Offset: 0x1186610 VA: 0x181188010
+	// RVA: 0x118C930 Offset: 0x118AF30 VA: 0x18118C930
 	internal void ResetNtlm() { }
 
-	// RVA: 0x574470 Offset: 0x572A70 VA: 0x180574470
+	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
 	internal void set_PriorityRequest(HttpWebRequest value) { }
 
-	// RVA: 0x11888E0 Offset: 0x1186EE0 VA: 0x1811888E0
+	// RVA: 0x118D200 Offset: 0x118B800 VA: 0x18118D200
 	internal bool get_NtlmAuthenticated() { }
 
-	// RVA: 0x1188900 Offset: 0x1186F00 VA: 0x181188900
+	// RVA: 0x118D220 Offset: 0x118B820 VA: 0x18118D220
 	internal void set_NtlmAuthenticated(bool value) { }
 
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300
 	internal NetworkCredential get_NtlmCredential() { }
 
-	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
+	// RVA: 0x574390 Offset: 0x572990 VA: 0x180574390
 	internal void set_NtlmCredential(NetworkCredential value) { }
 
-	// RVA: 0x11888F0 Offset: 0x1186EF0 VA: 0x1811888F0
+	// RVA: 0x118D210 Offset: 0x118B810 VA: 0x18118D210
 	internal bool get_UnsafeAuthenticatedConnectionSharing() { }
 
-	// RVA: 0x1188910 Offset: 0x1186F10 VA: 0x181188910
+	// RVA: 0x118D230 Offset: 0x118B830 VA: 0x18118D230
 	internal void set_UnsafeAuthenticatedConnectionSharing(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11883C0 Offset: 0x11869C0 VA: 0x1811883C0
+	// RVA: 0x118CCE0 Offset: 0x118B2E0 VA: 0x18118CCE0
 	private void <SendRequest>b__41_0(object o) { }
 
 }
@@ -159,7 +159,7 @@ private class WebConnection.AbortHelper // TypeDefIndex: 3029
 
 	// Methods
 
-	// RVA: 0x11796B0 Offset: 0x1177CB0 VA: 0x1811796B0
+	// RVA: 0x117DFD0 Offset: 0x117C5D0 VA: 0x18117DFD0
 	public void Abort(object sender, EventArgs args) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

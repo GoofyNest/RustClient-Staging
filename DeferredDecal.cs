@@ -16,29 +16,29 @@ public class DeferredDecal : MonoBehaviour // TypeDefIndex: 10649
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x847230 Offset: 0x845830 VA: 0x180847230
+	// RVA: 0x847780 Offset: 0x845D80 VA: 0x180847780
 	public bool get_IsDecalEnabled() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x847360 Offset: 0x845960 VA: 0x180847360
+	// RVA: 0x8478B0 Offset: 0x845EB0 VA: 0x1808478B0
 	private void set_IsDecalEnabled(bool value) { }
 
-	// RVA: 0x847240 Offset: 0x845840 VA: 0x180847240
+	// RVA: 0x847790 Offset: 0x845D90 VA: 0x180847790
 	public Matrix4x4 get_matrix() { }
 
-	// RVA: 0x8471B0 Offset: 0x8457B0 VA: 0x1808471B0
+	// RVA: 0x847700 Offset: 0x845D00 VA: 0x180847700
 	protected void OnEnable() { }
 
-	// RVA: 0x8470F0 Offset: 0x8456F0 VA: 0x1808470F0
+	// RVA: 0x847640 Offset: 0x845C40 VA: 0x180847640
 	protected void OnDisable() { }
 
-	// RVA: 0x8470F0 Offset: 0x8456F0 VA: 0x1808470F0
+	// RVA: 0x847640 Offset: 0x845C40 VA: 0x180847640
 	public void DisableDecal() { }
 
-	// RVA: 0x847150 Offset: 0x845750 VA: 0x180847150
+	// RVA: 0x8476A0 Offset: 0x845CA0 VA: 0x1808476A0
 	public void EnableDecal() { }
 
-	// RVA: 0x847220 Offset: 0x845820 VA: 0x180847220
+	// RVA: 0x847770 Offset: 0x845D70 VA: 0x180847770
 	public void .ctor() { }
 
 }

@@ -11,7 +11,7 @@ public class MLRSRocket : TimedExplosive // TypeDefIndex: 9725
 
 	// Methods
 
-	// RVA: 0x4A71D0 Offset: 0x4A57D0 VA: 0x1804A71D0
+	// RVA: 0x4A7160 Offset: 0x4A5760 VA: 0x1804A7160
 	public void .ctor() { }
 
 }

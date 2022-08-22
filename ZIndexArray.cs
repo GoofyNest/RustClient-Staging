@@ -4,7 +4,7 @@ public class ZIndexArray // TypeDefIndex: 7242
 
 	// Methods
 
-	// RVA: 0x22C5470 Offset: 0x22C3A70 VA: 0x1822C5470
+	// RVA: 0x22C5C90 Offset: 0x22C4290 VA: 0x1822C5C90
 	public void .ctor() { }
 
 }

@@ -51,10 +51,10 @@ public struct Navigation : IEquatable<Navigation> // TypeDefIndex: 4990
 	// RVA: 0xF14E0 Offset: 0xF08E0 VA: 0x1800F14E0
 	public void set_selectOnRight(Selectable value) { }
 
-	// RVA: 0x17171A0 Offset: 0x17157A0 VA: 0x1817171A0
+	// RVA: 0x17105F0 Offset: 0x170EBF0 VA: 0x1817105F0
 	public static Navigation get_defaultNavigation() { }
 
-	// RVA: 0x207860 Offset: 0x206C60 VA: 0x180207860 Slot: 4
+	// RVA: 0x207490 Offset: 0x206890 VA: 0x180207490 Slot: 4
 	public bool Equals(Navigation other) { }
 
 }

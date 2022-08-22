@@ -10,43 +10,43 @@ public class CookieContainer // TypeDefIndex: 2944
 
 	// Methods
 
-	// RVA: 0x1524DB0 Offset: 0x15233B0 VA: 0x181524DB0
+	// RVA: 0x1523E80 Offset: 0x1522480 VA: 0x181523E80
 	public void .ctor() { }
 
-	// RVA: 0x1521AA0 Offset: 0x15200A0 VA: 0x181521AA0
+	// RVA: 0x1520B70 Offset: 0x151F170 VA: 0x181520B70
 	private void AddRemoveDomain(string key, PathList value) { }
 
-	// RVA: 0x1521BE0 Offset: 0x15201E0 VA: 0x181521BE0
+	// RVA: 0x1520CB0 Offset: 0x151F2B0 VA: 0x181520CB0
 	internal void Add(Cookie cookie, bool throwOnError) { }
 
-	// RVA: 0x1522310 Offset: 0x1520910 VA: 0x181522310
+	// RVA: 0x15213E0 Offset: 0x151F9E0 VA: 0x1815213E0
 	private bool AgeCookies(string domain) { }
 
-	// RVA: 0x1523F50 Offset: 0x1522550 VA: 0x181523F50
+	// RVA: 0x1523020 Offset: 0x1521620 VA: 0x181523020
 	private int ExpireCollection(CookieCollection cc) { }
 
-	// RVA: 0x15247B0 Offset: 0x1522DB0 VA: 0x1815247B0
+	// RVA: 0x1523880 Offset: 0x1521E80 VA: 0x181523880
 	internal bool IsLocalDomain(string host) { }
 
-	// RVA: 0x15238B0 Offset: 0x1521EB0 VA: 0x1815238B0
+	// RVA: 0x1522980 Offset: 0x1520F80 VA: 0x181522980
 	internal CookieCollection CookieCutter(Uri uri, string headerName, string setCookieHeader, bool isThrow) { }
 
-	// RVA: 0x15244A0 Offset: 0x1522AA0 VA: 0x1815244A0
+	// RVA: 0x1523570 Offset: 0x1521B70 VA: 0x181523570
 	internal CookieCollection InternalGetCookies(Uri uri) { }
 
-	// RVA: 0x1523160 Offset: 0x1521760 VA: 0x181523160
+	// RVA: 0x1522230 Offset: 0x1520830 VA: 0x181522230
 	private void BuildCookieCollectionFromDomainMatches(Uri uri, bool isSecure, int port, CookieCollection cookies, List<string> domainAttribute, bool matchOnlyPlainCookie) { }
 
-	// RVA: 0x1524AB0 Offset: 0x15230B0 VA: 0x181524AB0
+	// RVA: 0x1523B80 Offset: 0x1522180 VA: 0x181523B80
 	private void MergeUpdateCollections(CookieCollection destination, CookieCollection source, int port, bool isSecure, bool isPlainOnly) { }
 
-	// RVA: 0x15240C0 Offset: 0x15226C0 VA: 0x1815240C0
+	// RVA: 0x1523190 Offset: 0x1521790 VA: 0x181523190
 	public string GetCookieHeader(Uri uri) { }
 
-	// RVA: 0x1524180 Offset: 0x1522780 VA: 0x181524180
+	// RVA: 0x1523250 Offset: 0x1521850 VA: 0x181523250
 	internal string GetCookieHeader(Uri uri, out string optCookie2) { }
 
-	// RVA: 0x1524CB0 Offset: 0x15232B0 VA: 0x181524CB0
+	// RVA: 0x1523D80 Offset: 0x1522380 VA: 0x181523D80
 	private static void .cctor() { }
 
 }

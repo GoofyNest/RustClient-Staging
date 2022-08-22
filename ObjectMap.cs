@@ -14,19 +14,19 @@ internal sealed class ObjectMap // TypeDefIndex: 1088
 
 	// Methods
 
-	// RVA: 0x11F6DF0 Offset: 0x11F53F0 VA: 0x1811F6DF0
+	// RVA: 0x11F7490 Offset: 0x11F5A90 VA: 0x1811F7490
 	internal void .ctor(string objectName, Type objectType, string[] memberNames, ObjectReader objectReader, int objectId, BinaryAssemblyInfo assemblyInfo) { }
 
-	// RVA: 0x11F6870 Offset: 0x11F4E70 VA: 0x1811F6870
+	// RVA: 0x11F6F10 Offset: 0x11F5510 VA: 0x1811F6F10
 	internal void .ctor(string objectName, string[] memberNames, BinaryTypeEnum[] binaryTypeEnumA, object[] typeInformationA, int[] memberAssemIds, ObjectReader objectReader, int objectId, BinaryAssemblyInfo assemblyInfo, SizedArray assemIdToAssemblyTable) { }
 
-	// RVA: 0x11F66B0 Offset: 0x11F4CB0 VA: 0x1811F66B0
+	// RVA: 0x11F6D50 Offset: 0x11F5350 VA: 0x1811F6D50
 	internal ReadObjectInfo CreateObjectInfo(ref SerializationInfo si, ref object[] memberData) { }
 
-	// RVA: 0x11F6700 Offset: 0x11F4D00 VA: 0x1811F6700
+	// RVA: 0x11F6DA0 Offset: 0x11F53A0 VA: 0x1811F6DA0
 	internal static ObjectMap Create(string name, Type objectType, string[] memberNames, ObjectReader objectReader, int objectId, BinaryAssemblyInfo assemblyInfo) { }
 
-	// RVA: 0x11F67A0 Offset: 0x11F4DA0 VA: 0x1811F67A0
+	// RVA: 0x11F6E40 Offset: 0x11F5440 VA: 0x1811F6E40
 	internal static ObjectMap Create(string name, string[] memberNames, BinaryTypeEnum[] binaryTypeEnumA, object[] typeInformationA, int[] memberAssemIds, ObjectReader objectReader, int objectId, BinaryAssemblyInfo assemblyInfo, SizedArray assemIdToAssemblyTable) { }
 
 }

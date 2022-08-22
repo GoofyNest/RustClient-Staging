@@ -5,10 +5,10 @@ public class FireworkBenchmarkScene : BenchmarkScene // TypeDefIndex: 8253
 
 	// Methods
 
-	// RVA: 0x78A110 Offset: 0x788710 VA: 0x18078A110 Slot: 7
+	// RVA: 0x78A060 Offset: 0x788660 VA: 0x18078A060 Slot: 7
 	public override void StartBenchmark() { }
 
-	// RVA: 0x78A390 Offset: 0x788990 VA: 0x18078A390
+	// RVA: 0x78A2E0 Offset: 0x7888E0 VA: 0x18078A2E0
 	public void .ctor() { }
 
 }

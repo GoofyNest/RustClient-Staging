@@ -4,13 +4,13 @@ public class LocalClock // TypeDefIndex: 11386
 
 	// Methods
 
-	// RVA: 0x4FACD0 Offset: 0x4F92D0 VA: 0x1804FACD0
+	// RVA: 0x4FAC60 Offset: 0x4F9260 VA: 0x1804FAC60
 	public void Add(float delta, float variance, Action action) { }
 
-	// RVA: 0x4FADC0 Offset: 0x4F93C0 VA: 0x1804FADC0
+	// RVA: 0x4FAD50 Offset: 0x4F9350 VA: 0x1804FAD50
 	public void Tick() { }
 
-	// RVA: 0x4FAF50 Offset: 0x4F9550 VA: 0x1804FAF50
+	// RVA: 0x4FAEE0 Offset: 0x4F94E0 VA: 0x1804FAEE0
 	public void .ctor() { }
 
 }

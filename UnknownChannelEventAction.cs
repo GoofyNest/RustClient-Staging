@@ -20,10 +20,10 @@ public sealed class UnknownChannelEventAction // TypeDefIndex: 7604
 	public UnknownChannelEventInstruction get_Instruction() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0
+	// RVA: 0x57C960 Offset: 0x57AF60 VA: 0x18057C960
 	public int get_DataBytesToSkipCount() { }
 
-	// RVA: 0x13AB010 Offset: 0x13A9610 VA: 0x1813AB010
+	// RVA: 0x13AA110 Offset: 0x13A8710 VA: 0x1813AA110
 	private static void .cctor() { }
 
 }

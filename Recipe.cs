@@ -21,19 +21,19 @@ public class Recipe : ScriptableObject // TypeDefIndex: 10752
 
 	// Methods
 
-	// RVA: 0x6AC2D0 Offset: 0x6AA8D0 VA: 0x1806AC2D0
+	// RVA: 0x6AC260 Offset: 0x6AA860 VA: 0x1806AC260
 	public string get_DisplayName() { }
 
-	// RVA: 0x6AC170 Offset: 0x6AA770 VA: 0x1806AC170
+	// RVA: 0x6AC100 Offset: 0x6AA700 VA: 0x1806AC100
 	public string get_DisplayDescription() { }
 
-	// RVA: 0x6AC230 Offset: 0x6AA830 VA: 0x1806AC230
+	// RVA: 0x6AC1C0 Offset: 0x6AA7C0 VA: 0x1806AC1C0
 	public Sprite get_DisplayIcon() { }
 
-	// RVA: 0x6AC080 Offset: 0x6AA680 VA: 0x1806AC080
+	// RVA: 0x6AC010 Offset: 0x6AA610 VA: 0x1806AC010
 	public bool ContainsItem(Item item) { }
 
-	// RVA: 0x6AC150 Offset: 0x6AA750 VA: 0x1806AC150
+	// RVA: 0x6AC0E0 Offset: 0x6AA6E0 VA: 0x1806AC0E0
 	public void .ctor() { }
 
 }

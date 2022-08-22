@@ -9,19 +9,19 @@ public class SonarObject : MonoBehaviour, IClientComponent // TypeDefIndex: 1167
 
 	// Methods
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public SonarObject.SType get_SonarType() { }
 
-	// RVA: 0x5BFB80 Offset: 0x5BE180 VA: 0x1805BFB80
+	// RVA: 0x5BFB10 Offset: 0x5BE110 VA: 0x1805BFB10
 	protected void OnEnable() { }
 
-	// RVA: 0x5BFB00 Offset: 0x5BE100 VA: 0x1805BFB00
+	// RVA: 0x5BFA90 Offset: 0x5BE090 VA: 0x1805BFA90
 	protected void OnDisable() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0x5BFC50 Offset: 0x5BE250 VA: 0x1805BFC50
+	// RVA: 0x5BFBE0 Offset: 0x5BE1E0 VA: 0x1805BFBE0
 	private static void .cctor() { }
 
 }

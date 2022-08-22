@@ -29,13 +29,13 @@ public class TerrainAtlasSet : ScriptableObject // TypeDefIndex: 10382
 
 	// Methods
 
-	// RVA: 0x1138130 Offset: 0x1136730 VA: 0x181138130
+	// RVA: 0x1138BA0 Offset: 0x11371A0 VA: 0x181138BA0
 	public void CheckReset() { }
 
-	// RVA: 0x1138C90 Offset: 0x1137290 VA: 0x181138C90
+	// RVA: 0x1139700 Offset: 0x1137D00 VA: 0x181139700
 	public void .ctor() { }
 
-	// RVA: 0x1138830 Offset: 0x1136E30 VA: 0x181138830
+	// RVA: 0x11392A0 Offset: 0x11378A0 VA: 0x1811392A0
 	private static void .cctor() { }
 
 }
@@ -56,7 +56,7 @@ public class TerrainAtlasSet.SourceMapSet // TypeDefIndex: 10384
 
 	// Methods
 
-	// RVA: 0x1134E20 Offset: 0x1133420 VA: 0x181134E20
+	// RVA: 0x1135890 Offset: 0x1133E90 VA: 0x181135890
 	internal void CheckReset() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

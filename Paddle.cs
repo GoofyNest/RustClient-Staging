@@ -14,25 +14,25 @@ public class Paddle : BaseMelee // TypeDefIndex: 9472
 
 	// Methods
 
-	// RVA: 0x9EAAB0 Offset: 0x9E90B0 VA: 0x1809EAAB0 Slot: 148
+	// RVA: 0x9EAFA0 Offset: 0x9E95A0 VA: 0x1809EAFA0 Slot: 148
 	public override AnimatorOverrideController GetHoldAnimations() { }
 
-	// RVA: 0x9EAAF0 Offset: 0x9E90F0 VA: 0x1809EAAF0
+	// RVA: 0x9EAFE0 Offset: 0x9E95E0 VA: 0x1809EAFE0
 	private bool IsPlayerOnKayak(BasePlayer p) { }
 
-	// RVA: 0x9EABB0 Offset: 0x9E91B0 VA: 0x1809EABB0 Slot: 138
+	// RVA: 0x9EB0A0 Offset: 0x9E96A0 VA: 0x1809EB0A0 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x9EB0A0 Offset: 0x9E96A0 VA: 0x1809EB0A0 Slot: 161
+	// RVA: 0x9EB590 Offset: 0x9E9B90 VA: 0x1809EB590 Slot: 161
 	protected override bool get_CanAttack() { }
 
-	// RVA: 0x9EB0A0 Offset: 0x9E96A0 VA: 0x1809EB0A0 Slot: 162
+	// RVA: 0x9EB590 Offset: 0x9E9B90 VA: 0x1809EB590 Slot: 162
 	protected override bool get_CanThrow() { }
 
-	// RVA: 0x9EB080 Offset: 0x9E9680 VA: 0x1809EB080
+	// RVA: 0x9EB570 Offset: 0x9E9B70 VA: 0x1809EB570
 	public void .ctor() { }
 
-	// RVA: 0x9EB000 Offset: 0x9E9600 VA: 0x1809EB000
+	// RVA: 0x9EB4F0 Offset: 0x9E9AF0 VA: 0x1809EB4F0
 	private static void .cctor() { }
 
 }

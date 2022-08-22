@@ -18,40 +18,40 @@ public class DroppedItemContainer : BaseCombatEntity, LootPanel.IHasLootPanel, I
 
 	// Methods
 
-	// RVA: 0xAB2440 Offset: 0xAB0A40 VA: 0x180AB2440 Slot: 49
+	// RVA: 0xAB2910 Offset: 0xAB0F10 VA: 0x180AB2910 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 50
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xAB2780 Offset: 0xAB0D80 VA: 0x180AB2780 Slot: 35
+	// RVA: 0xAB2C50 Offset: 0xAB1250 VA: 0x180AB2C50 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xAB28E0 Offset: 0xAB0EE0 VA: 0x180AB28E0 Slot: 145
+	// RVA: 0xAB2DB0 Offset: 0xAB13B0 VA: 0x180AB2DB0 Slot: 145
 	public Translate.Phrase get_LootPanelTitle() { }
 
-	// RVA: 0xAB2920 Offset: 0xAB0F20 VA: 0x180AB2920
+	// RVA: 0xAB2DF0 Offset: 0xAB13F0 VA: 0x180AB2DF0
 	public string get_playerName() { }
 
-	// RVA: 0xAB2940 Offset: 0xAB0F40 VA: 0x180AB2940
+	// RVA: 0xAB2E10 Offset: 0xAB1410 VA: 0x180AB2E10
 	public void set_playerName(string value) { }
 
-	// RVA: 0xAB26C0 Offset: 0xAB0CC0 VA: 0x180AB26C0 Slot: 34
+	// RVA: 0xAB2B90 Offset: 0xAB1190 VA: 0x180AB2B90 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	[BaseEntity.Menu] // RVA: 0xDA1C0 Offset: 0xD95C0 VA: 0x1800DA1C0
 	[BaseEntity.Menu.Description] // RVA: 0xDA1C0 Offset: 0xD95C0 VA: 0x1800DA1C0
 	[BaseEntity.Menu.Icon] // RVA: 0xDA1C0 Offset: 0xD95C0 VA: 0x1800DA1C0
-	// RVA: 0xAB2740 Offset: 0xAB0D40 VA: 0x180AB2740
+	// RVA: 0xAB2C10 Offset: 0xAB1210 VA: 0x180AB2C10
 	public void Menu_Open(BasePlayer player) { }
 
-	// RVA: 0xAB2910 Offset: 0xAB0F10 VA: 0x180AB2910 Slot: 146
+	// RVA: 0xAB2DE0 Offset: 0xAB13E0 VA: 0x180AB2DE0 Slot: 146
 	public SoundDefinition get_OpenSound() { }
 
-	// RVA: 0xAB28D0 Offset: 0xAB0ED0 VA: 0x180AB28D0 Slot: 147
+	// RVA: 0xAB2DA0 Offset: 0xAB13A0 VA: 0x180AB2DA0 Slot: 147
 	public SoundDefinition get_CloseSound() { }
 
-	// RVA: 0xAB2870 Offset: 0xAB0E70 VA: 0x180AB2870
+	// RVA: 0xAB2D40 Offset: 0xAB1340 VA: 0x180AB2D40
 	public void .ctor() { }
 
 }

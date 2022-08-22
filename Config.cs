@@ -31,22 +31,22 @@ public class Config : ScriptableObject // TypeDefIndex: 11538
 
 	// Methods
 
-	// RVA: 0x111DC90 Offset: 0x111C290 VA: 0x18111DC90
+	// RVA: 0x111E700 Offset: 0x111CD00 VA: 0x18111E700
 	public Shader get_beamShader() { }
 
-	// RVA: 0x111DCA0 Offset: 0x111C2A0 VA: 0x18111DCA0
+	// RVA: 0x111E710 Offset: 0x111CD10 VA: 0x18111E710
 	public Vector4 get_globalNoiseParam() { }
 
-	// RVA: 0x111D860 Offset: 0x111BE60 VA: 0x18111D860
+	// RVA: 0x111E2D0 Offset: 0x111C8D0 VA: 0x18111E2D0
 	public void Reset() { }
 
-	// RVA: 0x111D690 Offset: 0x111BC90 VA: 0x18111D690
+	// RVA: 0x111E100 Offset: 0x111C700 VA: 0x18111E100
 	public ParticleSystem NewVolumetricDustParticles() { }
 
-	// RVA: 0x111DAD0 Offset: 0x111C0D0 VA: 0x18111DAD0
+	// RVA: 0x111E540 Offset: 0x111CB40 VA: 0x18111E540
 	public static Config get_Instance() { }
 
-	// RVA: 0x111DA20 Offset: 0x111C020 VA: 0x18111DA20
+	// RVA: 0x111E490 Offset: 0x111CA90 VA: 0x18111E490
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

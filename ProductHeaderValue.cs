@@ -15,11 +15,11 @@ public class ProductHeaderValue : ICloneable // TypeDefIndex: 5801
 	internal void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_Name() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	internal void set_Name(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -27,25 +27,25 @@ public class ProductHeaderValue : ICloneable // TypeDefIndex: 5801
 	public string get_Version() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	internal void set_Version(string value) { }
 
-	// RVA: 0xD712E0 Offset: 0xD6F8E0 VA: 0x180D712E0 Slot: 4
+	// RVA: 0xD71D90 Offset: 0xD70390 VA: 0x180D71D90 Slot: 4
 	private object System.ICloneable.Clone() { }
 
-	// RVA: 0x1094390 Offset: 0x1092990 VA: 0x181094390 Slot: 0
+	// RVA: 0x1094E00 Offset: 0x1093400 VA: 0x181094E00 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1094450 Offset: 0x1092A50 VA: 0x181094450 Slot: 2
+	// RVA: 0x1094EC0 Offset: 0x10934C0 VA: 0x181094EC0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1094760 Offset: 0x1092D60 VA: 0x181094760
+	// RVA: 0x10951D0 Offset: 0x10937D0 VA: 0x1810951D0
 	internal static bool TryParse(string input, int minimalCount, out List<ProductHeaderValue> result) { }
 
-	// RVA: 0x1094520 Offset: 0x1092B20 VA: 0x181094520
+	// RVA: 0x1094F90 Offset: 0x1093590 VA: 0x181094F90
 	private static bool TryParseElement(Lexer lexer, out ProductHeaderValue parsedValue, out Token t) { }
 
-	// RVA: 0x10944D0 Offset: 0x1092AD0 VA: 0x1810944D0 Slot: 3
+	// RVA: 0x1094F40 Offset: 0x1093540 VA: 0x181094F40 Slot: 3
 	public override string ToString() { }
 
 }

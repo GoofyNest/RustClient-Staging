@@ -32,64 +32,64 @@ public class ReturnMessage : IMethodReturnMessage, IMethodMessage, IMessage, IIn
 
 	// Methods
 
-	// RVA: 0x148CAE0 Offset: 0x148B0E0 VA: 0x18148CAE0
+	// RVA: 0x148BBB0 Offset: 0x148A1B0 VA: 0x18148BBB0
 	public void .ctor(object ret, object[] outArgs, int outArgsCount, LogicalCallContext callCtx, IMethodCallMessage mcm) { }
 
-	// RVA: 0x148CA10 Offset: 0x148B010 VA: 0x18148CA10
+	// RVA: 0x148BAE0 Offset: 0x148A0E0 VA: 0x18148BAE0
 	public void .ctor(Exception e, IMethodCallMessage mcm) { }
 
-	// RVA: 0x517840 Offset: 0x515E40 VA: 0x180517840 Slot: 7
+	// RVA: 0x5177D0 Offset: 0x515DD0 VA: 0x1805177D0 Slot: 7
 	public int get_ArgCount() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 8
 	public object[] get_Args() { }
 
-	// RVA: 0x148CBE0 Offset: 0x148B1E0 VA: 0x18148CBE0 Slot: 9
+	// RVA: 0x148BCB0 Offset: 0x148A2B0 VA: 0x18148BCB0 Slot: 9
 	public LogicalCallContext get_LogicalCallContext() { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0 Slot: 10
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540 Slot: 10
 	public MethodBase get_MethodBase() { }
 
-	// RVA: 0x148CC50 Offset: 0x148B250 VA: 0x18148CC50 Slot: 11
+	// RVA: 0x148BD20 Offset: 0x148A320 VA: 0x18148BD20 Slot: 11
 	public string get_MethodName() { }
 
-	// RVA: 0x148CCC0 Offset: 0x148B2C0 VA: 0x18148CCC0 Slot: 12
+	// RVA: 0x148BD90 Offset: 0x148A390 VA: 0x18148BD90 Slot: 12
 	public object get_MethodSignature() { }
 
-	// RVA: 0x148CF30 Offset: 0x148B530 VA: 0x18148CF30 Slot: 21
+	// RVA: 0x148C000 Offset: 0x148A600 VA: 0x18148C000 Slot: 21
 	public virtual IDictionary get_Properties() { }
 
-	// RVA: 0x148CFB0 Offset: 0x148B5B0 VA: 0x18148CFB0 Slot: 13
+	// RVA: 0x148C080 Offset: 0x148A680 VA: 0x18148C080 Slot: 13
 	public string get_TypeName() { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050 Slot: 14
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0 Slot: 14
 	public string get_Uri() { }
 
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	public void set_Uri(string value) { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050 Slot: 19
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0 Slot: 19
 	private string System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri() { }
 
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080 Slot: 20
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010 Slot: 20
 	private void System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri(string value) { }
 
-	// RVA: 0x12756D0 Offset: 0x1273CD0 VA: 0x1812756D0 Slot: 15
+	// RVA: 0x1275D70 Offset: 0x1274370 VA: 0x181275D70 Slot: 15
 	public object GetArg(int argNum) { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0 Slot: 4
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340 Slot: 4
 	public Exception get_Exception() { }
 
-	// RVA: 0x148CE50 Offset: 0x148B450 VA: 0x18148CE50 Slot: 5
+	// RVA: 0x148BF20 Offset: 0x148A520 VA: 0x18148BF20 Slot: 5
 	public object[] get_OutArgs() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 22
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0 Slot: 22
 	public virtual object get_ReturnValue() { }
 
-	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50 Slot: 17
+	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0 Slot: 17
 	private Identity System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity() { }
 
-	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50 Slot: 18
+	// RVA: 0x519DE0 Offset: 0x5183E0 VA: 0x180519DE0 Slot: 18
 	private void System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity(Identity value) { }
 
 }

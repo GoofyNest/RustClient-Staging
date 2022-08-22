@@ -10,13 +10,13 @@ public class ExplosiveInformationPanel : ItemInformationPanel // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0x8D32C0 Offset: 0x8D18C0 VA: 0x1808D32C0 Slot: 4
+	// RVA: 0x8D37D0 Offset: 0x8D1DD0 VA: 0x1808D37D0 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x8D3540 Offset: 0x8D1B40 VA: 0x1808D3540 Slot: 5
+	// RVA: 0x8D3A50 Offset: 0x8D2050 VA: 0x1808D3A50 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

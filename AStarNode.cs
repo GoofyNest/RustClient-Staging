@@ -10,22 +10,22 @@ public class AStarNode // TypeDefIndex: 12146
 
 	// Methods
 
-	// RVA: 0x4BA6C0 Offset: 0x4B8CC0 VA: 0x1804BA6C0
+	// RVA: 0x4BA650 Offset: 0x4B8C50 VA: 0x1804BA650
 	public float get_F() { }
 
-	// RVA: 0x4BA650 Offset: 0x4B8C50 VA: 0x1804BA650
+	// RVA: 0x4BA5E0 Offset: 0x4B8BE0 VA: 0x1804BA5E0
 	public void .ctor(float g, float h, AStarNode parent, BasePathNode node) { }
 
-	// RVA: 0x4BA610 Offset: 0x4B8C10 VA: 0x1804BA610
+	// RVA: 0x4BA5A0 Offset: 0x4B8BA0 VA: 0x1804BA5A0
 	public void Update(float g, float h, AStarNode parent, BasePathNode node) { }
 
-	// RVA: 0x4BA5A0 Offset: 0x4B8BA0 VA: 0x1804BA5A0
+	// RVA: 0x4BA530 Offset: 0x4B8B30 VA: 0x1804BA530
 	public bool Satisfies(BasePathNode node) { }
 
-	// RVA: 0x4BA710 Offset: 0x4B8D10 VA: 0x1804BA710
+	// RVA: 0x4BA6A0 Offset: 0x4B8CA0 VA: 0x1804BA6A0
 	public static bool op_LessThan(AStarNode lhs, AStarNode rhs) { }
 
-	// RVA: 0x4BA6D0 Offset: 0x4B8CD0 VA: 0x1804BA6D0
+	// RVA: 0x4BA660 Offset: 0x4B8C60 VA: 0x1804BA660
 	public static bool op_GreaterThan(AStarNode lhs, AStarNode rhs) { }
 
 }

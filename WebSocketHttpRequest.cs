@@ -19,7 +19,7 @@ public class WebSocketHttpRequest // TypeDefIndex: 6930
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_Method(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -27,21 +27,21 @@ public class WebSocketHttpRequest // TypeDefIndex: 6930
 	public string get_Path() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_Path(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_Scheme(string value) { }
 
-	// RVA: 0x220B800 Offset: 0x2209E00 VA: 0x18220B800
+	// RVA: 0x220C020 Offset: 0x220A620 VA: 0x18220C020
 	public string get_Item(string name) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public IDictionary<string, string> get_Headers() { }
 
-	// RVA: 0x220B710 Offset: 0x2209D10 VA: 0x18220B710
+	// RVA: 0x220BF30 Offset: 0x220A530 VA: 0x18220BF30
 	public void .ctor() { }
 
 }

@@ -6,13 +6,13 @@ public class AboutYou : BaseMonoBehaviour // TypeDefIndex: 11084
 
 	// Methods
 
-	// RVA: 0xA96C60 Offset: 0xA95260 VA: 0x180A96C60
+	// RVA: 0xA97130 Offset: 0xA95730 VA: 0x180A97130
 	private void OnEnable() { }
 
-	// RVA: 0xA96A00 Offset: 0xA95000 VA: 0x180A96A00
+	// RVA: 0xA96ED0 Offset: 0xA954D0 VA: 0x180A96ED0
 	private void Init() { }
 
-	// RVA: 0x521BF0 Offset: 0x5201F0 VA: 0x180521BF0
+	// RVA: 0x521B80 Offset: 0x520180 VA: 0x180521B80
 	public void .ctor() { }
 
 }

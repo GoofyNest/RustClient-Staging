@@ -10,13 +10,13 @@ internal struct GSStatsReceived_t : ICallbackData // TypeDefIndex: 5500
 
 	// Methods
 
-	// RVA: 0x1E77B0 Offset: 0x1E6BB0 VA: 0x1801E77B0 Slot: 5
+	// RVA: 0x1E7BD0 Offset: 0x1E6FD0 VA: 0x1801E7BD0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E77A0 Offset: 0x1E6BA0 VA: 0x1801E77A0 Slot: 4
+	// RVA: 0x1E7BC0 Offset: 0x1E6FC0 VA: 0x1801E7BC0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370FB0 Offset: 0x136F5B0 VA: 0x181370FB0
+	// RVA: 0x13700B0 Offset: 0x136E6B0 VA: 0x1813700B0
 	private static void .cctor() { }
 
 }

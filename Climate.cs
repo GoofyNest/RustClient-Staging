@@ -65,159 +65,159 @@ public class Climate : SingletonComponent<Climate> // TypeDefIndex: 9829
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743C0 Offset: 0x5729C0 VA: 0x1805743C0
+	// RVA: 0x574350 Offset: 0x572950 VA: 0x180574350
 	public float get_WeatherStateBlend() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574450 Offset: 0x572A50 VA: 0x180574450
+	// RVA: 0x5743E0 Offset: 0x5729E0 VA: 0x1805743E0
 	private void set_WeatherStateBlend(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743A0 Offset: 0x5729A0 VA: 0x1805743A0
+	// RVA: 0x574330 Offset: 0x572930 VA: 0x180574330
 	public uint get_WeatherSeedPrevious() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574430 Offset: 0x572A30 VA: 0x180574430
+	// RVA: 0x5743C0 Offset: 0x5729C0 VA: 0x1805743C0
 	private void set_WeatherSeedPrevious(uint value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743B0 Offset: 0x5729B0 VA: 0x1805743B0
+	// RVA: 0x574340 Offset: 0x572940 VA: 0x180574340
 	public uint get_WeatherSeedTarget() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574440 Offset: 0x572A40 VA: 0x180574440
+	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
 	private void set_WeatherSeedTarget(uint value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574390 Offset: 0x572990 VA: 0x180574390
+	// RVA: 0x574320 Offset: 0x572920 VA: 0x180574320
 	public uint get_WeatherSeedNext() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574420 Offset: 0x572A20 VA: 0x180574420
+	// RVA: 0x5743B0 Offset: 0x5729B0 VA: 0x1805743B0
 	private void set_WeatherSeedNext(uint value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
+	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0
 	public WeatherPreset get_WeatherStatePrevious() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50
+	// RVA: 0x519DE0 Offset: 0x5183E0 VA: 0x180519DE0
 	private void set_WeatherStatePrevious(WeatherPreset value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
+	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
 	public WeatherPreset get_WeatherStateTarget() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
+	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
 	private void set_WeatherStateTarget(WeatherPreset value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
+	// RVA: 0x4E84B0 Offset: 0x4E6AB0 VA: 0x1804E84B0
 	public WeatherPreset get_WeatherStateNext() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E8840 Offset: 0x4E6E40 VA: 0x1804E8840
+	// RVA: 0x4E87D0 Offset: 0x4E6DD0 VA: 0x1804E87D0
 	private void set_WeatherStateNext(WeatherPreset value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743E0 Offset: 0x5729E0 VA: 0x1805743E0
+	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
 	public WeatherPreset get_WeatherState() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574470 Offset: 0x572A70 VA: 0x180574470
+	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
 	private void set_WeatherState(WeatherPreset value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300
 	public WeatherPreset get_WeatherClampsMin() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
+	// RVA: 0x574390 Offset: 0x572990 VA: 0x180574390
 	private void set_WeatherClampsMin(WeatherPreset value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0
 	public WeatherPreset get_WeatherClampsMax() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E4060 Offset: 0x4E2660 VA: 0x1804E4060
+	// RVA: 0x4E3FF0 Offset: 0x4E25F0 VA: 0x1804E3FF0
 	private void set_WeatherClampsMax(WeatherPreset value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
+	// RVA: 0x574310 Offset: 0x572910 VA: 0x180574310
 	public WeatherPreset get_WeatherOverrides() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574410 Offset: 0x572A10 VA: 0x180574410
+	// RVA: 0x5743A0 Offset: 0x5729A0 VA: 0x1805743A0
 	private void set_WeatherOverrides(WeatherPreset value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
+	// RVA: 0x5742F0 Offset: 0x5728F0 VA: 0x1805742F0
 	public LegacyWeatherState get_Overrides() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
+	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
 	private void set_Overrides(LegacyWeatherState value) { }
 
-	// RVA: 0x571970 Offset: 0x56FF70 VA: 0x180571970 Slot: 6
+	// RVA: 0x571900 Offset: 0x56FF00 VA: 0x180571900 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x573570 Offset: 0x571B70 VA: 0x180573570 Slot: 7
+	// RVA: 0x573500 Offset: 0x571B00 VA: 0x180573500 Slot: 7
 	protected override void OnDestroy() { }
 
-	// RVA: 0x573780 Offset: 0x571D80 VA: 0x180573780
+	// RVA: 0x573710 Offset: 0x571D10 VA: 0x180573710
 	protected void Start() { }
 
-	// RVA: 0x573970 Offset: 0x571F70 VA: 0x180573970
+	// RVA: 0x573900 Offset: 0x571F00 VA: 0x180573900
 	protected void Update() { }
 
-	// RVA: 0x573240 Offset: 0x571840 VA: 0x180573240
+	// RVA: 0x5731D0 Offset: 0x5717D0 VA: 0x1805731D0
 	private static bool Initialized() { }
 
-	// RVA: 0x572360 Offset: 0x570960 VA: 0x180572360
+	// RVA: 0x5722F0 Offset: 0x5708F0 VA: 0x1805722F0
 	public static float GetClouds(Vector3 position) { }
 
-	// RVA: 0x5723F0 Offset: 0x5709F0 VA: 0x1805723F0
+	// RVA: 0x572380 Offset: 0x570980 VA: 0x180572380
 	public static float GetFog(Vector3 position) { }
 
-	// RVA: 0x5731B0 Offset: 0x5717B0 VA: 0x1805731B0
+	// RVA: 0x573140 Offset: 0x571740 VA: 0x180573140
 	public static float GetWind(Vector3 position) { }
 
-	// RVA: 0x572DD0 Offset: 0x5713D0 VA: 0x180572DD0
+	// RVA: 0x572D60 Offset: 0x571360 VA: 0x180572D60
 	public static float GetThunder(Vector3 position) { }
 
-	// RVA: 0x572710 Offset: 0x570D10 VA: 0x180572710
+	// RVA: 0x5726A0 Offset: 0x570CA0 VA: 0x1805726A0
 	public static float GetRainbow(Vector3 position) { }
 
-	// RVA: 0x572150 Offset: 0x570750 VA: 0x180572150
+	// RVA: 0x5720E0 Offset: 0x5706E0 VA: 0x1805720E0
 	public static float GetAurora(Vector3 position) { }
 
-	// RVA: 0x572480 Offset: 0x570A80 VA: 0x180572480
+	// RVA: 0x572410 Offset: 0x570A10 VA: 0x180572410
 	public static float GetRain(Vector3 position) { }
 
-	// RVA: 0x572A50 Offset: 0x571050 VA: 0x180572A50
+	// RVA: 0x5729E0 Offset: 0x570FE0 VA: 0x1805729E0
 	public static float GetSnow(Vector3 position) { }
 
-	// RVA: 0x572BC0 Offset: 0x5711C0 VA: 0x180572BC0
+	// RVA: 0x572B50 Offset: 0x571150 VA: 0x180572B50
 	public static float GetTemperature(Vector3 position) { }
 
-	// RVA: 0x5729F0 Offset: 0x570FF0 VA: 0x1805729F0
+	// RVA: 0x572980 Offset: 0x570F80 VA: 0x180572980
 	private uint GetSeedFromLong(long val) { }
 
-	// RVA: 0x572F00 Offset: 0x571500 VA: 0x180572F00
+	// RVA: 0x572E90 Offset: 0x571490 VA: 0x180572E90
 	private WeatherPreset GetWeatherPreset(uint seed) { }
 
-	// RVA: 0x573010 Offset: 0x571610 VA: 0x180573010
+	// RVA: 0x572FA0 Offset: 0x5715A0 VA: 0x180572FA0
 	private WeatherPreset GetWeatherPreset(uint seed, WeatherPresetType type) { }
 
-	// RVA: 0x571C30 Offset: 0x570230 VA: 0x180571C30
+	// RVA: 0x571BC0 Offset: 0x5701C0 VA: 0x180571BC0
 	private WeatherPreset[] CacheWeatherPresets(WeatherPresetType type) { }
 
-	// RVA: 0x571CF0 Offset: 0x5702F0 VA: 0x180571CF0
+	// RVA: 0x571C80 Offset: 0x570280 VA: 0x180571C80
 	private float FindBlendParameters(Vector3 pos, out Climate.ClimateParameters src, out Climate.ClimateParameters dst) { }
 
-	// RVA: 0x5742F0 Offset: 0x5728F0 VA: 0x1805742F0
+	// RVA: 0x574280 Offset: 0x572880 VA: 0x180574280
 	public void .ctor() { }
 
 }
@@ -256,7 +256,7 @@ public class Climate.WeatherParameters // TypeDefIndex: 9831
 
 	// Methods
 
-	// RVA: 0x58A260 Offset: 0x588860 VA: 0x18058A260
+	// RVA: 0x58A1F0 Offset: 0x5887F0 VA: 0x18058A1F0
 	public void .ctor() { }
 
 }
@@ -274,13 +274,13 @@ public class Climate.Value4<T> // TypeDefIndex: 9832
 	public float FindBlendParameters(TOD_Sky sky, out T src, out T dst) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15EA470 Offset: 0x15E8A70 VA: 0x1815EA470
+	|-RVA: 0x1896A70 Offset: 0x1895070 VA: 0x181896A70
 	|-Climate.Value4<object>.FindBlendParameters
 	|
-	|-RVA: 0x15EA6C0 Offset: 0x15E8CC0 VA: 0x1815EA6C0
+	|-RVA: 0x1896CC0 Offset: 0x18952C0 VA: 0x181896CC0
 	|-Climate.Value4<float>.FindBlendParameters
 	|
-	|-RVA: 0x15EA250 Offset: 0x15E8850 VA: 0x1815EA250
+	|-RVA: 0x1896850 Offset: 0x1894E50 VA: 0x181896850
 	|-Climate.Value4<Color>.FindBlendParameters
 	*/
 
@@ -288,7 +288,7 @@ public class Climate.Value4<T> // TypeDefIndex: 9832
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
+	|-RVA: 0xD5BAD0 Offset: 0xD5A0D0 VA: 0x180D5BAD0
 	|-Climate.Value4<object>..ctor
 	|-Climate.Value4<float>..ctor
 	|-Climate.Value4<Color>..ctor
@@ -300,7 +300,7 @@ public class Climate.Value4<T> // TypeDefIndex: 9832
 public class Climate.Float4 : Climate.Value4<float> // TypeDefIndex: 9833
 {	// Methods
 
-	// RVA: 0x584210 Offset: 0x582810 VA: 0x180584210
+	// RVA: 0x5841A0 Offset: 0x5827A0 VA: 0x1805841A0
 	public void .ctor() { }
 
 }
@@ -308,7 +308,7 @@ public class Climate.Float4 : Climate.Value4<float> // TypeDefIndex: 9833
 public class Climate.Color4 : Climate.Value4<Color> // TypeDefIndex: 9834
 {	// Methods
 
-	// RVA: 0x57C8F0 Offset: 0x57AEF0 VA: 0x18057C8F0
+	// RVA: 0x57C880 Offset: 0x57AE80 VA: 0x18057C880
 	public void .ctor() { }
 
 }
@@ -316,7 +316,7 @@ public class Climate.Color4 : Climate.Value4<Color> // TypeDefIndex: 9834
 public class Climate.Texture2D4 : Climate.Value4<Texture2D> // TypeDefIndex: 9835
 {	// Methods
 
-	// RVA: 0x584250 Offset: 0x582850 VA: 0x180584250
+	// RVA: 0x5841E0 Offset: 0x5827E0 VA: 0x1805841E0
 	public void .ctor() { }
 
 }
@@ -330,7 +330,7 @@ private sealed class Climate.<>c__DisplayClass87_0 // TypeDefIndex: 9836
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x589D00 Offset: 0x588300 VA: 0x180589D00
+	// RVA: 0x589C90 Offset: 0x588290 VA: 0x180589C90
 	internal bool <CacheWeatherPresets>b__0(WeatherPreset x) { }
 
 }

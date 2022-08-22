@@ -36,55 +36,55 @@ internal class X509Certificate : ISerializable // TypeDefIndex: 58
 
 	// Methods
 
-	// RVA: 0x175DF40 Offset: 0x175C540 VA: 0x18175DF40
+	// RVA: 0x175BB00 Offset: 0x175A100 VA: 0x18175BB00
 	private void Parse(byte[] data) { }
 
-	// RVA: 0x175E830 Offset: 0x175CE30 VA: 0x18175E830
+	// RVA: 0x175C3F0 Offset: 0x175A9F0 VA: 0x18175C3F0
 	public void .ctor(byte[] data) { }
 
-	// RVA: 0x175DD80 Offset: 0x175C380 VA: 0x18175DD80
+	// RVA: 0x175B940 Offset: 0x1759F40 VA: 0x18175B940
 	private byte[] GetUnsignedBigInteger(byte[] integer) { }
 
-	// RVA: 0x175EA60 Offset: 0x175D060 VA: 0x18175EA60
+	// RVA: 0x175C620 Offset: 0x175AC20 VA: 0x18175C620
 	public DSA get_DSA() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0 Slot: 5
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340 Slot: 5
 	public virtual string get_IssuerName() { }
 
-	// RVA: 0x175EDC0 Offset: 0x175D3C0 VA: 0x18175EDC0 Slot: 6
+	// RVA: 0x175C980 Offset: 0x175AF80 VA: 0x18175C980 Slot: 6
 	public virtual byte[] get_KeyAlgorithmParameters() { }
 
-	// RVA: 0x175EE40 Offset: 0x175D440 VA: 0x18175EE40 Slot: 7
+	// RVA: 0x175CA00 Offset: 0x175B000 VA: 0x18175CA00 Slot: 7
 	public virtual RSA get_RSA() { }
 
-	// RVA: 0x175F040 Offset: 0x175D640 VA: 0x18175F040 Slot: 8
+	// RVA: 0x175CC00 Offset: 0x175B200 VA: 0x18175CC00 Slot: 8
 	public virtual byte[] get_RawData() { }
 
-	// RVA: 0x175F0C0 Offset: 0x175D6C0 VA: 0x18175F0C0 Slot: 9
+	// RVA: 0x175CC80 Offset: 0x175B280 VA: 0x18175CC80 Slot: 9
 	public virtual byte[] get_SerialNumber() { }
 
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860 Slot: 10
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0 Slot: 10
 	public virtual string get_SubjectName() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 11
 	public virtual DateTime get_ValidFrom() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 12
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0 Slot: 12
 	public virtual DateTime get_ValidUntil() { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public ASN1 GetIssuerName() { }
 
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	public ASN1 GetSubjectName() { }
 
-	// RVA: 0x175DD20 Offset: 0x175C320 VA: 0x18175DD20 Slot: 13
+	// RVA: 0x175B8E0 Offset: 0x1759EE0 VA: 0x18175B8E0 Slot: 13
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x175DE30 Offset: 0x175C430 VA: 0x18175DE30
+	// RVA: 0x175B9F0 Offset: 0x1759FF0 VA: 0x18175B9F0
 	private static byte[] PEM(string type, byte[] data) { }
 
-	// RVA: 0x175E7E0 Offset: 0x175CDE0 VA: 0x18175E7E0
+	// RVA: 0x175C3A0 Offset: 0x175A9A0 VA: 0x18175C3A0
 	private static void .cctor() { }
 
 }
@@ -104,94 +104,94 @@ public class X509Certificate : IDeserializationCallback, ISerializable, IDisposa
 
 	// Methods
 
-	// RVA: 0x17CC310 Offset: 0x17CA910 VA: 0x1817CC310
+	// RVA: 0x17C9E60 Offset: 0x17C8460 VA: 0x1817C9E60
 	internal void .ctor(byte[] data, bool dates) { }
 
-	// RVA: 0x17CBF90 Offset: 0x17CA590 VA: 0x1817CBF90
+	// RVA: 0x17C9AE0 Offset: 0x17C80E0 VA: 0x1817C9AE0
 	public void .ctor(byte[] data) { }
 
-	// RVA: 0x17CC190 Offset: 0x17CA790 VA: 0x1817CC190
+	// RVA: 0x17C9CE0 Offset: 0x17C82E0 VA: 0x1817C9CE0
 	internal void .ctor(X509CertificateImpl impl) { }
 
-	// RVA: 0x17CBFE0 Offset: 0x17CA5E0 VA: 0x1817CBFE0
+	// RVA: 0x17C9B30 Offset: 0x17C8130 VA: 0x1817C9B30
 	public void .ctor(X509Certificate cert) { }
 
-	// RVA: 0x17CBCF0 Offset: 0x17CA2F0 VA: 0x1817CBCF0
+	// RVA: 0x17C9840 Offset: 0x17C7E40 VA: 0x1817C9840
 	internal void ImportHandle(X509CertificateImpl impl) { }
 
-	// RVA: 0x17CC370 Offset: 0x17CA970 VA: 0x1817CC370
+	// RVA: 0x17C9EC0 Offset: 0x17C84C0 VA: 0x1817C9EC0
 	internal X509CertificateImpl get_Impl() { }
 
-	// RVA: 0x17CC3E0 Offset: 0x17CA9E0 VA: 0x1817CC3E0
+	// RVA: 0x17C9F30 Offset: 0x17C8530 VA: 0x1817C9F30
 	internal bool get_IsValid() { }
 
-	// RVA: 0x17CB980 Offset: 0x17C9F80 VA: 0x1817CB980 Slot: 7
+	// RVA: 0x17C94D0 Offset: 0x17C7AD0 VA: 0x1817C94D0 Slot: 7
 	public virtual bool Equals(X509Certificate other) { }
 
-	// RVA: 0x17CBA90 Offset: 0x17CA090 VA: 0x1817CBA90 Slot: 8
+	// RVA: 0x17C95E0 Offset: 0x17C7BE0 VA: 0x1817C95E0 Slot: 8
 	public virtual byte[] GetCertHash() { }
 
-	// RVA: 0x17CBA60 Offset: 0x17CA060 VA: 0x1817CBA60 Slot: 9
+	// RVA: 0x17C95B0 Offset: 0x17C7BB0 VA: 0x1817C95B0 Slot: 9
 	public virtual string GetCertHashString() { }
 
-	// RVA: 0x17CBB10 Offset: 0x17CA110 VA: 0x1817CBB10 Slot: 2
+	// RVA: 0x17C9660 Offset: 0x17C7C60 VA: 0x1817C9660 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x17CBB70 Offset: 0x17CA170 VA: 0x1817CBB70 Slot: 10
+	// RVA: 0x17C96C0 Offset: 0x17C7CC0 VA: 0x1817C96C0 Slot: 10
 	public virtual byte[] GetRawCertData() { }
 
-	// RVA: 0x17CBC60 Offset: 0x17CA260 VA: 0x1817CBC60 Slot: 11
+	// RVA: 0x17C97B0 Offset: 0x17C7DB0 VA: 0x1817C97B0 Slot: 11
 	public virtual byte[] GetSerialNumber() { }
 
-	// RVA: 0x17CBC00 Offset: 0x17CA200 VA: 0x1817CBC00 Slot: 12
+	// RVA: 0x17C9750 Offset: 0x17C7D50 VA: 0x1817C9750 Slot: 12
 	public virtual string GetSerialNumberString() { }
 
-	// RVA: 0x17CBF20 Offset: 0x17CA520 VA: 0x1817CBF20 Slot: 3
+	// RVA: 0x17C9A70 Offset: 0x17C8070 VA: 0x1817C9A70 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x17CBF30 Offset: 0x17CA530 VA: 0x1817CBF30 Slot: 13
+	// RVA: 0x17C9A80 Offset: 0x17C8080 VA: 0x1817C9A80 Slot: 13
 	public virtual string ToString(bool fVerbose) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x17CC220 Offset: 0x17CA820 VA: 0x1817CC220
+	// RVA: 0x17C9D70 Offset: 0x17C8370 VA: 0x1817C9D70
 	public void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x17CC400 Offset: 0x17CAA00 VA: 0x1817CC400
+	// RVA: 0x17C9F50 Offset: 0x17C8550 VA: 0x1817C9F50
 	public string get_Issuer() { }
 
-	// RVA: 0x17CC4B0 Offset: 0x17CAAB0 VA: 0x1817CC4B0
+	// RVA: 0x17CA000 Offset: 0x17C8600 VA: 0x1817CA000
 	public string get_Subject() { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x17CB8E0 Offset: 0x17C9EE0 VA: 0x1817CB8E0 Slot: 0
+	// RVA: 0x17C9430 Offset: 0x17C7A30 VA: 0x1817C9430 Slot: 0
 	public override bool Equals(object obj) { }
 
 	[ComVisibleAttribute] // RVA: 0xCC820 Offset: 0xCBC20 VA: 0x1800CC820
 	[MonoTODOAttribute] // RVA: 0xCC820 Offset: 0xCBC20 VA: 0x1800CC820
-	// RVA: 0x17CBD30 Offset: 0x17CA330 VA: 0x1817CBD30 Slot: 14
+	// RVA: 0x17C9880 Offset: 0x17C7E80 VA: 0x1817C9880 Slot: 14
 	public virtual void Import(byte[] rawData, string password, X509KeyStorageFlags keyStorageFlags) { }
 
 	[MonoTODOAttribute] // RVA: 0xCC9A0 Offset: 0xCBDA0 VA: 0x1800CC9A0
 	[ComVisibleAttribute] // RVA: 0xCC9A0 Offset: 0xCBDA0 VA: 0x1800CC9A0
-	// RVA: 0x1192D20 Offset: 0x1191320 VA: 0x181192D20 Slot: 15
+	// RVA: 0x1197640 Offset: 0x1195C40 VA: 0x181197640 Slot: 15
 	public virtual void Import(string fileName, string password, X509KeyStorageFlags keyStorageFlags) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 
-	// RVA: 0x17CBE60 Offset: 0x17CA460 VA: 0x1817CBE60 Slot: 5
+	// RVA: 0x17C99B0 Offset: 0x17C7FB0 VA: 0x1817C99B0 Slot: 5
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x17CB8A0 Offset: 0x17C9EA0 VA: 0x1817CB8A0 Slot: 6
+	// RVA: 0x17C93F0 Offset: 0x17C79F0 VA: 0x1817C93F0 Slot: 6
 	public void Dispose() { }
 
-	// RVA: 0x17CB8C0 Offset: 0x17C9EC0 VA: 0x1817CB8C0 Slot: 16
+	// RVA: 0x17C9410 Offset: 0x17C7A10 VA: 0x1817C9410 Slot: 16
 	protected virtual void Dispose(bool disposing) { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x17CBDA0 Offset: 0x17CA3A0 VA: 0x1817CBDA0 Slot: 17
+	// RVA: 0x17C98F0 Offset: 0x17C7EF0 VA: 0x1817C98F0 Slot: 17
 	public virtual void Reset() { }
 
 }
@@ -242,94 +242,94 @@ public class X509Certificate : ISerializable // TypeDefIndex: 1716
 
 	// Methods
 
-	// RVA: 0x227E430 Offset: 0x227CA30 VA: 0x18227E430
+	// RVA: 0x227EC50 Offset: 0x227D250 VA: 0x18227EC50
 	private void Parse(byte[] data) { }
 
-	// RVA: 0x227F1F0 Offset: 0x227D7F0 VA: 0x18227F1F0
+	// RVA: 0x227FA10 Offset: 0x227E010 VA: 0x18227FA10
 	public void .ctor(byte[] data) { }
 
-	// RVA: 0x227E270 Offset: 0x227C870 VA: 0x18227E270
+	// RVA: 0x227EA90 Offset: 0x227D090 VA: 0x18227EA90
 	private byte[] GetUnsignedBigInteger(byte[] integer) { }
 
-	// RVA: 0x227F420 Offset: 0x227DA20 VA: 0x18227F420
+	// RVA: 0x227FC40 Offset: 0x227E240 VA: 0x18227FC40
 	public DSA get_DSA() { }
 
-	// RVA: 0x2280120 Offset: 0x227E720 VA: 0x182280120
+	// RVA: 0x2280940 Offset: 0x227EF40 VA: 0x182280940
 	public void set_DSA(DSA value) { }
 
-	// RVA: 0x7AD080 Offset: 0x7AB680 VA: 0x1807AD080
+	// RVA: 0x79BDD0 Offset: 0x79A3D0 VA: 0x18079BDD0
 	public X509ExtensionCollection get_Extensions() { }
 
-	// RVA: 0x227F780 Offset: 0x227DD80 VA: 0x18227F780
+	// RVA: 0x227FFA0 Offset: 0x227E5A0 VA: 0x18227FFA0
 	public byte[] get_Hash() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0 Slot: 5
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340 Slot: 5
 	public virtual string get_IssuerName() { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0 Slot: 6
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540 Slot: 6
 	public virtual string get_KeyAlgorithm() { }
 
-	// RVA: 0x227F9B0 Offset: 0x227DFB0 VA: 0x18227F9B0 Slot: 7
+	// RVA: 0x22801D0 Offset: 0x227E7D0 VA: 0x1822801D0 Slot: 7
 	public virtual byte[] get_KeyAlgorithmParameters() { }
 
-	// RVA: 0x5DD810 Offset: 0x5DBE10 VA: 0x1805DD810 Slot: 8
+	// RVA: 0x5DD7A0 Offset: 0x5DBDA0 VA: 0x1805DD7A0 Slot: 8
 	public virtual void set_KeyAlgorithmParameters(byte[] value) { }
 
-	// RVA: 0x227FA30 Offset: 0x227E030 VA: 0x18227FA30 Slot: 9
+	// RVA: 0x2280250 Offset: 0x227E850 VA: 0x182280250 Slot: 9
 	public virtual byte[] get_PublicKey() { }
 
-	// RVA: 0x227FAB0 Offset: 0x227E0B0 VA: 0x18227FAB0 Slot: 10
+	// RVA: 0x22802D0 Offset: 0x227E8D0 VA: 0x1822802D0 Slot: 10
 	public virtual RSA get_RSA() { }
 
-	// RVA: 0x2280170 Offset: 0x227E770 VA: 0x182280170 Slot: 11
+	// RVA: 0x2280990 Offset: 0x227EF90 VA: 0x182280990 Slot: 11
 	public virtual void set_RSA(RSA value) { }
 
-	// RVA: 0x227FCB0 Offset: 0x227E2B0 VA: 0x18227FCB0 Slot: 12
+	// RVA: 0x22804D0 Offset: 0x227EAD0 VA: 0x1822804D0 Slot: 12
 	public virtual byte[] get_RawData() { }
 
-	// RVA: 0x227FD30 Offset: 0x227E330 VA: 0x18227FD30 Slot: 13
+	// RVA: 0x2280550 Offset: 0x227EB50 VA: 0x182280550 Slot: 13
 	public virtual byte[] get_SerialNumber() { }
 
-	// RVA: 0x227FDB0 Offset: 0x227E3B0 VA: 0x18227FDB0 Slot: 14
+	// RVA: 0x22805D0 Offset: 0x227EBD0 VA: 0x1822805D0 Slot: 14
 	public virtual byte[] get_Signature() { }
 
-	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0 Slot: 15
+	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360 Slot: 15
 	public virtual string get_SignatureAlgorithm() { }
 
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860 Slot: 16
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0 Slot: 16
 	public virtual string get_SubjectName() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 17
 	public virtual DateTime get_ValidFrom() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 18
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0 Slot: 18
 	public virtual DateTime get_ValidUntil() { }
 
-	// RVA: 0xB9B530 Offset: 0xB99B30 VA: 0x180B9B530
+	// RVA: 0xB9BA00 Offset: 0xB9A000 VA: 0x180B9BA00
 	public int get_Version() { }
 
-	// RVA: 0x227ECF0 Offset: 0x227D2F0 VA: 0x18227ECF0
+	// RVA: 0x227F510 Offset: 0x227DB10 VA: 0x18227F510
 	internal bool VerifySignature(DSA dsa) { }
 
-	// RVA: 0x227F090 Offset: 0x227D690 VA: 0x18227F090
+	// RVA: 0x227F8B0 Offset: 0x227DEB0 VA: 0x18227F8B0
 	internal bool VerifySignature(RSA rsa) { }
 
-	// RVA: 0x227EDB0 Offset: 0x227D3B0 VA: 0x18227EDB0
+	// RVA: 0x227F5D0 Offset: 0x227DBD0 VA: 0x18227F5D0
 	public bool VerifySignature(AsymmetricAlgorithm aa) { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public ASN1 GetIssuerName() { }
 
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	public ASN1 GetSubjectName() { }
 
-	// RVA: 0x227E210 Offset: 0x227C810 VA: 0x18227E210 Slot: 19
+	// RVA: 0x227EA30 Offset: 0x227D030 VA: 0x18227EA30 Slot: 19
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x227E320 Offset: 0x227C920 VA: 0x18227E320
+	// RVA: 0x227EB40 Offset: 0x227D140 VA: 0x18227EB40
 	private static byte[] PEM(string type, byte[] data) { }
 
-	// RVA: 0x227F1A0 Offset: 0x227D7A0 VA: 0x18227F1A0
+	// RVA: 0x227F9C0 Offset: 0x227DFC0 VA: 0x18227F9C0
 	private static void .cctor() { }
 
 }

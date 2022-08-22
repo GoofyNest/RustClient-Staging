@@ -21,40 +21,40 @@ public class RustLayout : UIBehaviour, ILayoutGroup, ILayoutController, IAutoLay
 
 	// Methods
 
-	// RVA: 0xFCD400 Offset: 0xFCBA00 VA: 0x180FCD400 Slot: 4
+	// RVA: 0xFCDEA0 Offset: 0xFCC4A0 VA: 0x180FCDEA0 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0xFCE990 Offset: 0xFCCF90 VA: 0x180FCE990 Slot: 20
+	// RVA: 0xFCF430 Offset: 0xFCDA30 VA: 0x180FCF430 Slot: 20
 	public virtual void SetLayoutHorizontal() { }
 
-	// RVA: 0xFCE990 Offset: 0xFCCF90 VA: 0x180FCE990 Slot: 21
+	// RVA: 0xFCF430 Offset: 0xFCDA30 VA: 0x180FCF430 Slot: 21
 	public virtual void SetLayoutVertical() { }
 
-	// RVA: 0xFCDCA0 Offset: 0xFCC2A0 VA: 0x180FCDCA0 Slot: 22
+	// RVA: 0xFCE740 Offset: 0xFCCD40 VA: 0x180FCE740 Slot: 22
 	public virtual void DoLayout() { }
 
-	// RVA: 0xFCE820 Offset: 0xFCCE20 VA: 0x180FCE820 Slot: 12
+	// RVA: 0xFCF2C0 Offset: 0xFCD8C0 VA: 0x180FCF2C0 Slot: 12
 	protected override void OnTransformParentChanged() { }
 
-	// RVA: 0xFCD420 Offset: 0xFCBA20 VA: 0x180FCD420
+	// RVA: 0xFCDEC0 Offset: 0xFCC4C0 VA: 0x180FCDEC0
 	private void DoHorizontalLayout(RectTransform.Edge edge) { }
 
-	// RVA: 0xFCDE10 Offset: 0xFCC410 VA: 0x180FCDE10
+	// RVA: 0xFCE8B0 Offset: 0xFCCEB0 VA: 0x180FCE8B0
 	private void DoTopLayout(RectTransform.Edge edge) { }
 
-	// RVA: 0xFCE720 Offset: 0xFCCD20 VA: 0x180FCE720
+	// RVA: 0xFCF1C0 Offset: 0xFCD7C0 VA: 0x180FCF1C0
 	private bool Ignoring(RectTransform child) { }
 
-	// RVA: 0xFCE900 Offset: 0xFCCF00 VA: 0x180FCE900
+	// RVA: 0xFCF3A0 Offset: 0xFCD9A0 VA: 0x180FCF3A0
 	protected void SetDirty() { }
 
-	// RVA: 0xFCE7F0 Offset: 0xFCCDF0 VA: 0x180FCE7F0 Slot: 10
+	// RVA: 0xFCF290 Offset: 0xFCD890 VA: 0x180FCF290 Slot: 10
 	protected override void OnRectTransformDimensionsChange() { }
 
-	// RVA: 0xFCE810 Offset: 0xFCCE10 VA: 0x180FCE810 Slot: 23
+	// RVA: 0xFCF2B0 Offset: 0xFCD8B0 VA: 0x180FCF2B0 Slot: 23
 	protected virtual void OnTransformChildrenChanged() { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

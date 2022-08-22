@@ -7,13 +7,13 @@ internal class ReadContentAsBinaryHelper // TypeDefIndex: 1860
 
 	// Methods
 
-	// RVA: 0xF60BC0 Offset: 0xF5F1C0 VA: 0x180F60BC0
+	// RVA: 0xF61660 Offset: 0xF5FC60 VA: 0x180F61660
 	internal void Finish() { }
 
-	// RVA: 0xF60F50 Offset: 0xF5F550 VA: 0x180F60F50
+	// RVA: 0xF619F0 Offset: 0xF5FFF0 VA: 0x180F619F0
 	internal void Reset() { }
 
-	// RVA: 0xF60E10 Offset: 0xF5F410 VA: 0x180F60E10
+	// RVA: 0xF618B0 Offset: 0xF5FEB0 VA: 0x180F618B0
 	private bool MoveToNextContentNode(bool moveIfOnContentNode) { }
 
 }

@@ -1,13 +1,13 @@
 public class TimeZoneNotFoundException : Exception // TypeDefIndex: 321
 {	// Methods
 
-	// RVA: 0x213D450 Offset: 0x213BA50 VA: 0x18213D450
+	// RVA: 0x213DC70 Offset: 0x213C270 VA: 0x18213DC70
 	public void .ctor(string message, Exception innerException) { }
 
-	// RVA: 0x213D4D0 Offset: 0x213BAD0 VA: 0x18213D4D0
+	// RVA: 0x213DCF0 Offset: 0x213C2F0 VA: 0x18213DCF0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x213D3F0 Offset: 0x213B9F0 VA: 0x18213D3F0
+	// RVA: 0x213DC10 Offset: 0x213C210 VA: 0x18213DC10
 	public void .ctor() { }
 
 }

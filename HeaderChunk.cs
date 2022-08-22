@@ -14,15 +14,15 @@ internal sealed class HeaderChunk : MidiChunk // TypeDefIndex: 7508
 
 	// Methods
 
-	// RVA: 0x1399330 Offset: 0x1397930 VA: 0x181399330
+	// RVA: 0x1398430 Offset: 0x1396A30 VA: 0x181398430
 	internal void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1399370 Offset: 0x1397970 VA: 0x181399370
+	// RVA: 0x1398470 Offset: 0x1396A70 VA: 0x181398470
 	public ushort get_FileFormat() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1399390 Offset: 0x1397990 VA: 0x181399390
+	// RVA: 0x1398490 Offset: 0x1396A90 VA: 0x181398490
 	public void set_FileFormat(ushort value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -34,17 +34,17 @@ internal sealed class HeaderChunk : MidiChunk // TypeDefIndex: 7508
 	public void set_TimeDivision(TimeDivision value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1399380 Offset: 0x1397980 VA: 0x181399380
+	// RVA: 0x1398480 Offset: 0x1396A80 VA: 0x181398480
 	public ushort get_TracksNumber() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13993A0 Offset: 0x13979A0 VA: 0x1813993A0
+	// RVA: 0x13984A0 Offset: 0x1396AA0 VA: 0x1813984A0
 	public void set_TracksNumber(ushort value) { }
 
-	// RVA: 0x1399290 Offset: 0x1397890 VA: 0x181399290 Slot: 3
+	// RVA: 0x1398390 Offset: 0x1396990 VA: 0x181398390 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1398F80 Offset: 0x1397580 VA: 0x181398F80 Slot: 4
+	// RVA: 0x1398080 Offset: 0x1396680 VA: 0x181398080 Slot: 4
 	protected override void ReadContent(MidiReader reader, ReadingSettings settings, uint size) { }
 
 }

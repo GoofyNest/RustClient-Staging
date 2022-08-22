@@ -7,13 +7,13 @@ public class MouseSteerableSeat : BaseVehicleSeat // TypeDefIndex: 9756
 
 	// Methods
 
-	// RVA: 0x7BB910 Offset: 0x7B9F10 VA: 0x1807BB910 Slot: 152
+	// RVA: 0x7D9D00 Offset: 0x7D8300 VA: 0x1807D9D00 Slot: 152
 	public override Vector2 GetYawClamp() { }
 
-	// RVA: 0x7BB9E0 Offset: 0x7B9FE0 VA: 0x1807BB9E0 Slot: 158
+	// RVA: 0x7D9DD0 Offset: 0x7D83D0 VA: 0x1807D9DD0 Slot: 158
 	public override void OnClientInput(BasePlayer player) { }
 
-	// RVA: 0x5A6580 Offset: 0x5A4B80 VA: 0x1805A6580
+	// RVA: 0x5A6510 Offset: 0x5A4B10 VA: 0x1805A6510
 	public void .ctor() { }
 
 }

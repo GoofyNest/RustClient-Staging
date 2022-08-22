@@ -9,10 +9,10 @@ public class ERTexture // TypeDefIndex: 7225
 
 	// Methods
 
-	// RVA: 0xA68980 Offset: 0xA66F80 VA: 0x180A68980
+	// RVA: 0xA68E50 Offset: 0xA67450 VA: 0x180A68E50
 	public void .ctor(Texture2D _texture, float _roadWidth, float _leftOffset, float _rightOffset, float _leftInnerOffset, float _rightInnerOffset) { }
 
-	// RVA: 0xA687A0 Offset: 0xA66DA0 VA: 0x180A687A0
+	// RVA: 0xA68C70 Offset: 0xA67270 VA: 0x180A68C70
 	public static ERTexture GetERTexture(Material mat) { }
 
 }

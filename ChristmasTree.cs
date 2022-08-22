@@ -4,7 +4,7 @@ public class ChristmasTree : StorageContainer // TypeDefIndex: 8831
 
 	// Methods
 
-	// RVA: 0x53B4B0 Offset: 0x539AB0 VA: 0x18053B4B0
+	// RVA: 0x53B440 Offset: 0x539A40 VA: 0x18053B440
 	public void .ctor() { }
 
 }

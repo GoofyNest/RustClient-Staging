@@ -5,16 +5,16 @@ internal static class MeshUtilities // TypeDefIndex: 11864
 
 	// Methods
 
-	// RVA: 0x1019610 Offset: 0x1017C10 VA: 0x181019610
+	// RVA: 0x101A0B0 Offset: 0x10186B0 VA: 0x18101A0B0
 	private static void .cctor() { }
 
-	// RVA: 0x1019170 Offset: 0x1017770 VA: 0x181019170
+	// RVA: 0x1019C10 Offset: 0x1018210 VA: 0x181019C10
 	internal static Mesh GetColliderMesh(Collider collider) { }
 
-	// RVA: 0x10194A0 Offset: 0x1017AA0 VA: 0x1810194A0
+	// RVA: 0x1019F40 Offset: 0x1018540 VA: 0x181019F40
 	internal static Mesh GetPrimitive(PrimitiveType primitiveType) { }
 
-	// RVA: 0x10190D0 Offset: 0x10176D0 VA: 0x1810190D0
+	// RVA: 0x1019B70 Offset: 0x1018170 VA: 0x181019B70
 	private static Mesh GetBuiltinMesh(PrimitiveType primitiveType) { }
 
 }

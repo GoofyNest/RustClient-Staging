@@ -13,23 +13,23 @@ public static class Noise3D // TypeDefIndex: 11551
 
 	// Methods
 
-	// RVA: 0xAC9A10 Offset: 0xAC8010 VA: 0x180AC9A10
+	// RVA: 0xAC9EE0 Offset: 0xAC84E0 VA: 0x180AC9EE0
 	public static bool get_isSupported() { }
 
-	// RVA: 0xAC9980 Offset: 0xAC7F80 VA: 0x180AC9980
+	// RVA: 0xAC9E50 Offset: 0xAC8450 VA: 0x180AC9E50
 	public static bool get_isProperlyLoaded() { }
 
-	// RVA: 0xAC9900 Offset: 0xAC7F00 VA: 0x180AC9900
+	// RVA: 0xAC9DD0 Offset: 0xAC83D0 VA: 0x180AC9DD0
 	public static string get_isNotSupportedString() { }
 
 	[RuntimeInitializeOnLoadMethodAttribute] // RVA: 0x98480 Offset: 0x97880 VA: 0x180098480
-	// RVA: 0xAC98B0 Offset: 0xAC7EB0 VA: 0x180AC98B0
+	// RVA: 0xAC9D80 Offset: 0xAC8380 VA: 0x180AC9D80
 	private static void OnStartUp() { }
 
-	// RVA: 0xAC9130 Offset: 0xAC7730 VA: 0x180AC9130
+	// RVA: 0xAC9600 Offset: 0xAC7C00 VA: 0x180AC9600
 	public static void LoadIfNeeded() { }
 
-	// RVA: 0xAC9560 Offset: 0xAC7B60 VA: 0x180AC9560
+	// RVA: 0xAC9A30 Offset: 0xAC8030 VA: 0x180AC9A30
 	private static Texture3D LoadTexture3D(TextAsset textData, int size) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

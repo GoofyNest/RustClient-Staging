@@ -7,16 +7,16 @@ public class SubbandLayer2IntensityStereo : SubbandLayer2 // TypeDefIndex: 7407
 
 	// Methods
 
-	// RVA: 0x674490 Offset: 0x672A90 VA: 0x180674490
+	// RVA: 0x674420 Offset: 0x672A20 VA: 0x180674420
 	internal void .ctor(int subbandnumber) { }
 
-	// RVA: 0x674040 Offset: 0x672640 VA: 0x180674040 Slot: 10
+	// RVA: 0x673FD0 Offset: 0x6725D0 VA: 0x180673FD0 Slot: 10
 	internal override void ReadScaleFactorSelection(Bitstream stream, Crc16 crc) { }
 
-	// RVA: 0x6740D0 Offset: 0x6726D0 VA: 0x1806740D0 Slot: 5
+	// RVA: 0x674060 Offset: 0x672660 VA: 0x180674060 Slot: 5
 	internal override void ReadScaleFactor(Bitstream stream, Header header) { }
 
-	// RVA: 0x673E70 Offset: 0x672470 VA: 0x180673E70 Slot: 7
+	// RVA: 0x673E00 Offset: 0x672400 VA: 0x180673E00 Slot: 7
 	internal override bool PutNextSample(int channels, SynthesisFilter filter1, SynthesisFilter filter2) { }
 
 }

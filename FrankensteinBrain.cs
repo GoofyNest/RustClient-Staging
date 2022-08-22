@@ -1,7 +1,7 @@
 public class FrankensteinBrain : PetBrain // TypeDefIndex: 8939
 {	// Methods
 
-	// RVA: 0x751D30 Offset: 0x750330 VA: 0x180751D30
+	// RVA: 0x751C80 Offset: 0x750280 VA: 0x180751C80
 	public void .ctor() { }
 
 }

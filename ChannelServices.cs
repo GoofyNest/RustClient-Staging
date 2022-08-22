@@ -11,44 +11,44 @@ public sealed class ChannelServices // TypeDefIndex: 1187
 
 	// Methods
 
-	// RVA: 0xFE0890 Offset: 0xFDEE90 VA: 0x180FE0890
+	// RVA: 0xFE1330 Offset: 0xFDF930 VA: 0x180FE1330
 	internal static CrossContextChannel get_CrossContextChannel() { }
 
-	// RVA: 0xFDE3C0 Offset: 0xFDC9C0 VA: 0x180FDE3C0
+	// RVA: 0xFDEE60 Offset: 0xFDD460 VA: 0x180FDEE60
 	internal static IMessageSink CreateClientChannelSinkChain(string url, object remoteChannelData, out string objectUri) { }
 
-	// RVA: 0xFDE2B0 Offset: 0xFDC8B0 VA: 0x180FDE2B0
+	// RVA: 0xFDED50 Offset: 0xFDD350 VA: 0x180FDED50
 	internal static IMessageSink CreateClientChannelSinkChain(IChannelSender sender, string url, object[] channelDataArray, out string objectUri) { }
 
 	[ObsoleteAttribute] // RVA: 0xD26B0 Offset: 0xD1AB0 VA: 0x1800D26B0
-	// RVA: 0xFDFFB0 Offset: 0xFDE5B0 VA: 0x180FDFFB0
+	// RVA: 0xFE0A50 Offset: 0xFDF050 VA: 0x180FE0A50
 	public static void RegisterChannel(IChannel chnl) { }
 
-	// RVA: 0xFE0010 Offset: 0xFDE610 VA: 0x180FE0010
+	// RVA: 0xFE0AB0 Offset: 0xFDF0B0 VA: 0x180FE0AB0
 	public static void RegisterChannel(IChannel chnl, bool ensureSecurity) { }
 
-	// RVA: 0xFDF180 Offset: 0xFDD780 VA: 0x180FDF180
+	// RVA: 0xFDFC20 Offset: 0xFDE220 VA: 0x180FDFC20
 	internal static void RegisterChannelConfig(ChannelData channel) { }
 
-	// RVA: 0xFDEB30 Offset: 0xFDD130 VA: 0x180FDEB30
+	// RVA: 0xFDF5D0 Offset: 0xFDDBD0 VA: 0x180FDF5D0
 	private static object CreateProvider(ProviderData prov) { }
 
-	// RVA: 0xFE05C0 Offset: 0xFDEBC0 VA: 0x180FE05C0
+	// RVA: 0xFE1060 Offset: 0xFDF660 VA: 0x180FE1060
 	public static IMessage SyncDispatchMessage(IMessage msg) { }
 
-	// RVA: 0xFDDFA0 Offset: 0xFDC5A0 VA: 0x180FDDFA0
+	// RVA: 0xFDEA40 Offset: 0xFDD040 VA: 0x180FDEA40
 	private static ReturnMessage CheckIncomingMessage(IMessage msg) { }
 
-	// RVA: 0xFDE170 Offset: 0xFDC770 VA: 0x180FDE170
+	// RVA: 0xFDEC10 Offset: 0xFDD210 VA: 0x180FDEC10
 	internal static IMessage CheckReturnMessage(IMessage callMsg, IMessage retMsg) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0
 	private static bool IsLocalCall(IMessage callMsg) { }
 
-	// RVA: 0xFDEE70 Offset: 0xFDD470 VA: 0x180FDEE70
+	// RVA: 0xFDF910 Offset: 0xFDDF10 VA: 0x180FDF910
 	internal static object[] GetCurrentChannelInfo() { }
 
-	// RVA: 0xFE06A0 Offset: 0xFDECA0 VA: 0x180FE06A0
+	// RVA: 0xFE1140 Offset: 0xFDF740 VA: 0x180FE1140
 	private static void .cctor() { }
 
 }

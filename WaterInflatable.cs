@@ -43,68 +43,68 @@ public class WaterInflatable : BaseMountable, IPoolVehicle, INotifyTrigger // Ty
 
 	// Methods
 
-	// RVA: 0xC13EF0 Offset: 0xC124F0 VA: 0x180C13EF0 Slot: 35
+	// RVA: 0xC143C0 Offset: 0xC129C0 VA: 0x180C143C0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 171
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 171
 	public override bool get_IsSummerDlcVehicle() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC13E90 Offset: 0xC12490 VA: 0x180C13E90
+	// RVA: 0xC14360 Offset: 0xC12960 VA: 0x180C14360
 	public void OnPaddled(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0xC14650 Offset: 0xC12C50 VA: 0x180C14650 Slot: 173
+	// RVA: 0xC14B20 Offset: 0xC13120 VA: 0x180C14B20 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0x4C3900 Offset: 0x4C1F00 VA: 0x1804C3900 Slot: 164
+	// RVA: 0x4C3890 Offset: 0x4C1E90 VA: 0x1804C3890 Slot: 164
 	public override float GetMountedAnimationSpeed() { }
 
-	// RVA: 0xC12C90 Offset: 0xC11290 VA: 0x180C12C90
+	// RVA: 0xC13160 Offset: 0xC11760 VA: 0x180C13160
 	public void AnimationSplashEvent(string splashType, BasePlayer forPlayer) { }
 
-	// RVA: 0xC12AD0 Offset: 0xC110D0 VA: 0x180C12AD0
+	// RVA: 0xC12FA0 Offset: 0xC115A0 VA: 0x180C12FA0
 	public void AnimationMovementSoundEvent(string type, BasePlayer forPlayer) { }
 
-	// RVA: 0xC133A0 Offset: 0xC119A0 VA: 0x180C133A0
+	// RVA: 0xC13870 Offset: 0xC11E70 VA: 0x180C13870
 	private string GetEffectPath(WaterInflatable.ParticleType t) { }
 
-	// RVA: 0xC136A0 Offset: 0xC11CA0 VA: 0x180C136A0
+	// RVA: 0xC13B70 Offset: 0xC12170 VA: 0x180C13B70
 	private bool GetWorldSpaceSplashLocation(string eventString, BasePlayer player, out Vector3 resultPoint, out WaterInflatable.ParticleType type) { }
 
-	// RVA: 0xC12F20 Offset: 0xC11520 VA: 0x180C12F20
+	// RVA: 0xC133F0 Offset: 0xC119F0 VA: 0x180C133F0
 	private Vector3 ApplyHandOffset(Vector3 resultPoint) { }
 
-	// RVA: 0xC13430 Offset: 0xC11A30 VA: 0x180C13430 Slot: 148
+	// RVA: 0xC13900 Offset: 0xC11F00 VA: 0x180C13900 Slot: 148
 	public override Transform GetEyeOverride() { }
 
-	// RVA: 0xC13120 Offset: 0xC11720 VA: 0x180C13120 Slot: 178
+	// RVA: 0xC135F0 Offset: 0xC11BF0 VA: 0x180C135F0 Slot: 178
 	protected override void ClientOnPlayerDismounted(BasePlayer player) { }
 
-	// RVA: 0xC13BC0 Offset: 0xC121C0 VA: 0x180C13BC0 Slot: 184
+	// RVA: 0xC14090 Offset: 0xC12690 VA: 0x180C14090 Slot: 184
 	public override bool MountMenuVisible(BasePlayer player) { }
 
-	// RVA: 0xC13CC0 Offset: 0xC122C0 VA: 0x180C13CC0 Slot: 158
+	// RVA: 0xC14190 Offset: 0xC12790 VA: 0x180C14190 Slot: 158
 	public override void OnClientInput(BasePlayer player) { }
 
-	// RVA: 0xC13190 Offset: 0xC11790 VA: 0x180C13190 Slot: 179
+	// RVA: 0xC13660 Offset: 0xC11C60 VA: 0x180C13660 Slot: 179
 	protected override void ClientOnPlayerMounted(BasePlayer player) { }
 
-	// RVA: 0xC14350 Offset: 0xC12950 VA: 0x180C14350 Slot: 160
+	// RVA: 0xC14820 Offset: 0xC12E20 VA: 0x180C14820 Slot: 160
 	protected override void ProcessPlayerModel(PlayerModel playerModel) { }
 
-	// RVA: 0xC148D0 Offset: 0xC12ED0 VA: 0x180C148D0
+	// RVA: 0xC14DA0 Offset: 0xC133A0 VA: 0x180C14DA0
 	private void UpdateSounds(Vector3 worldVelocity) { }
 
-	// RVA: 0xC145A0 Offset: 0xC12BA0 VA: 0x180C145A0
+	// RVA: 0xC14A70 Offset: 0xC13070 VA: 0x180C14A70
 	private void ToggleMovingParticles(bool state) { }
 
-	// RVA: 0xC13B00 Offset: 0xC12100 VA: 0x180C13B00 Slot: 167
+	// RVA: 0xC13FD0 Offset: 0xC125D0 VA: 0x180C13FD0 Slot: 167
 	public override Vector3 ModifyThirdPersonEyeOffset(Vector3 eyeOffset) { }
 
-	// RVA: 0xC13A90 Offset: 0xC12090 VA: 0x180C13A90 Slot: 168
+	// RVA: 0xC13F60 Offset: 0xC12560 VA: 0x180C13F60 Slot: 168
 	public override bool LockThirdPersonOffset(out Vector3 offset) { }
 
-	// RVA: 0xC13A30 Offset: 0xC12030 VA: 0x180C13A30
+	// RVA: 0xC13F00 Offset: 0xC12500 VA: 0x180C13F00
 	private bool IsOutOfWaterClient() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 186
@@ -113,7 +113,7 @@ public class WaterInflatable : BaseMountable, IPoolVehicle, INotifyTrigger // Ty
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 187
 	public void OnEmpty() { }
 
-	// RVA: 0xC149B0 Offset: 0xC12FB0 VA: 0x180C149B0
+	// RVA: 0xC14E80 Offset: 0xC13480 VA: 0x180C14E80
 	public void .ctor() { }
 
 }

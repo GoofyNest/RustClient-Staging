@@ -1,13 +1,13 @@
 public class NoNullAllowedException : DataException // TypeDefIndex: 4197
 {	// Methods
 
-	// RVA: 0xE936C0 Offset: 0xE91CC0 VA: 0x180E936C0
+	// RVA: 0xE94170 Offset: 0xE92770 VA: 0x180E94170
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xE93670 Offset: 0xE91C70 VA: 0x180E93670
+	// RVA: 0xE94120 Offset: 0xE92720 VA: 0x180E94120
 	public void .ctor() { }
 
-	// RVA: 0xE93650 Offset: 0xE91C50 VA: 0x180E93650
+	// RVA: 0xE94100 Offset: 0xE92700 VA: 0x180E94100
 	public void .ctor(string s) { }
 
 }

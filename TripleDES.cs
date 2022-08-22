@@ -8,28 +8,28 @@ public abstract class TripleDES : SymmetricAlgorithm // TypeDefIndex: 1000
 
 	// Methods
 
-	// RVA: 0x17C8EE0 Offset: 0x17C74E0 VA: 0x1817C8EE0
+	// RVA: 0x17C6A30 Offset: 0x17C5030 VA: 0x1817C6A30
 	protected void .ctor() { }
 
-	// RVA: 0x17C8FA0 Offset: 0x17C75A0 VA: 0x1817C8FA0 Slot: 11
+	// RVA: 0x17C6AF0 Offset: 0x17C50F0 VA: 0x1817C6AF0 Slot: 11
 	public override byte[] get_Key() { }
 
-	// RVA: 0x17C9070 Offset: 0x17C7670 VA: 0x1817C9070 Slot: 12
+	// RVA: 0x17C6BC0 Offset: 0x17C51C0 VA: 0x1817C6BC0 Slot: 12
 	public override void set_Key(byte[] value) { }
 
-	// RVA: 0x17C87D0 Offset: 0x17C6DD0 VA: 0x1817C87D0
+	// RVA: 0x17C6320 Offset: 0x17C4920 VA: 0x1817C6320
 	public static TripleDES Create() { }
 
-	// RVA: 0x17C8B10 Offset: 0x17C7110 VA: 0x1817C8B10
+	// RVA: 0x17C6660 Offset: 0x17C4C60 VA: 0x1817C6660
 	public static bool IsWeakKey(byte[] rgbKey) { }
 
-	// RVA: 0x17C88F0 Offset: 0x17C6EF0 VA: 0x1817C88F0
+	// RVA: 0x17C6440 Offset: 0x17C4A40 VA: 0x1817C6440
 	private static bool EqualBytes(byte[] rgbKey, int start1, int start2, int count) { }
 
-	// RVA: 0x17C8AF0 Offset: 0x17C70F0 VA: 0x1817C8AF0
+	// RVA: 0x17C6640 Offset: 0x17C4C40 VA: 0x1817C6640
 	private static bool IsLegalKeySize(byte[] rgbKey) { }
 
-	// RVA: 0x17C8D40 Offset: 0x17C7340 VA: 0x1817C8D40
+	// RVA: 0x17C6890 Offset: 0x17C4E90 VA: 0x1817C6890
 	private static void .cctor() { }
 
 }

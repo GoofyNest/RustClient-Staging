@@ -28,63 +28,63 @@ public class WaterInteraction : MonoBehaviour // TypeDefIndex: 10616
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public Texture2D get_Texture() { }
 
-	// RVA: 0xC15310 Offset: 0xC13910 VA: 0x180C15310
+	// RVA: 0xC157E0 Offset: 0xC13DE0 VA: 0x180C157E0
 	public void set_Texture(Texture2D value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public WaterDynamics.Image get_Image() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	private void set_Image(WaterDynamics.Image value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC152B0 Offset: 0xC138B0 VA: 0x180C152B0
+	// RVA: 0xC15780 Offset: 0xC13D80 VA: 0x180C15780
 	public Vector2 get_Position() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC152F0 Offset: 0xC138F0 VA: 0x180C152F0
+	// RVA: 0xC157C0 Offset: 0xC13DC0 VA: 0x180C157C0
 	private void set_Position(Vector2 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC152D0 Offset: 0xC138D0 VA: 0x180C152D0
+	// RVA: 0xC157A0 Offset: 0xC13DA0 VA: 0x180C157A0
 	public Vector2 get_Scale() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC15300 Offset: 0xC13900 VA: 0x180C15300
+	// RVA: 0xC157D0 Offset: 0xC13DD0 VA: 0x180C157D0
 	private void set_Scale(Vector2 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x533E60 Offset: 0x532460 VA: 0x180533E60
+	// RVA: 0x533DF0 Offset: 0x5323F0 VA: 0x180533DF0
 	public float get_Rotation() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
+	// RVA: 0x533E00 Offset: 0x532400 VA: 0x180533E00
 	private void set_Rotation(float value) { }
 
-	// RVA: 0xC14CC0 Offset: 0xC132C0 VA: 0x180C14CC0
+	// RVA: 0xC15190 Offset: 0xC13790 VA: 0x180C15190
 	protected void OnEnable() { }
 
-	// RVA: 0xC14CB0 Offset: 0xC132B0 VA: 0x180C14CB0
+	// RVA: 0xC15180 Offset: 0xC13780 VA: 0x180C15180
 	protected void OnDisable() { }
 
-	// RVA: 0xC14B30 Offset: 0xC13130 VA: 0x180C14B30
+	// RVA: 0xC15000 Offset: 0xC13600 VA: 0x180C15000
 	public void CheckRegister() { }
 
-	// RVA: 0xC14FC0 Offset: 0xC135C0 VA: 0x180C14FC0
+	// RVA: 0xC15490 Offset: 0xC13A90 VA: 0x180C15490
 	private void UpdateImage() { }
 
-	// RVA: 0xC14E90 Offset: 0xC13490 VA: 0x180C14E90
+	// RVA: 0xC15360 Offset: 0xC13960 VA: 0x180C15360
 	private void Register() { }
 
-	// RVA: 0xC14F40 Offset: 0xC13540 VA: 0x180C14F40
+	// RVA: 0xC15410 Offset: 0xC13A10 VA: 0x180C15410
 	private void Unregister() { }
 
-	// RVA: 0xC15030 Offset: 0xC13630 VA: 0x180C15030
+	// RVA: 0xC15500 Offset: 0xC13B00 VA: 0x180C15500
 	public void UpdateTransform() { }
 
-	// RVA: 0xC15200 Offset: 0xC13800 VA: 0x180C15200
+	// RVA: 0xC156D0 Offset: 0xC13CD0 VA: 0x180C156D0
 	public void .ctor() { }
 
 }

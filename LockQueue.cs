@@ -8,16 +8,16 @@ internal class LockQueue // TypeDefIndex: 825
 
 	// Methods
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	public void .ctor(ReaderWriterLock rwlock) { }
 
-	// RVA: 0x1495420 Offset: 0x1493A20 VA: 0x181495420
+	// RVA: 0x14944F0 Offset: 0x1492AF0 VA: 0x1814944F0
 	public bool Wait(int timeout) { }
 
-	// RVA: 0x14955B0 Offset: 0x1493BB0 VA: 0x1814955B0
+	// RVA: 0x1494680 Offset: 0x1492C80 VA: 0x181494680
 	public bool get_IsEmpty() { }
 
-	// RVA: 0x14952A0 Offset: 0x14938A0 VA: 0x1814952A0
+	// RVA: 0x1494370 Offset: 0x1492970 VA: 0x181494370
 	public void Pulse() { }
 
 }

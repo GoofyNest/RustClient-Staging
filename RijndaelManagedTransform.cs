@@ -32,64 +32,64 @@ public sealed class RijndaelManagedTransform : ICryptoTransform, IDisposable // 
 
 	// Methods
 
-	// RVA: 0x17BAAB0 Offset: 0x17B90B0 VA: 0x1817BAAB0
+	// RVA: 0x17B8600 Offset: 0x17B6C00 VA: 0x1817B8600
 	internal void .ctor(byte[] rgbKey, CipherMode mode, byte[] rgbIV, int blockSize, int feedbackSize, PaddingMode PaddingValue, RijndaelManagedTransformMode transformMode) { }
 
-	// RVA: 0x17B8740 Offset: 0x17B6D40 VA: 0x1817B8740 Slot: 9
+	// RVA: 0x17B6290 Offset: 0x17B4890 VA: 0x1817B6290 Slot: 9
 	public void Dispose() { }
 
-	// RVA: 0x17B8850 Offset: 0x17B6E50 VA: 0x1817B8850
+	// RVA: 0x17B63A0 Offset: 0x17B49A0 VA: 0x1817B63A0
 	private void Dispose(bool disposing) { }
 
-	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10 Slot: 4
+	// RVA: 0x79C630 Offset: 0x79AC30 VA: 0x18079C630 Slot: 4
 	public int get_InputBlockSize() { }
 
-	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600 Slot: 5
+	// RVA: 0x4BE590 Offset: 0x4BCB90 VA: 0x1804BE590 Slot: 5
 	public int get_OutputBlockSize() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 6
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 6
 	public bool get_CanTransformMultipleBlocks() { }
 
-	// RVA: 0x17BA200 Offset: 0x17B8800 VA: 0x1817BA200 Slot: 7
+	// RVA: 0x17B7D50 Offset: 0x17B6350 VA: 0x1817B7D50 Slot: 7
 	public int TransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset) { }
 
-	// RVA: 0x17BA5B0 Offset: 0x17B8BB0 VA: 0x1817BA5B0 Slot: 8
+	// RVA: 0x17B8100 Offset: 0x17B6700 VA: 0x1817B8100 Slot: 8
 	public byte[] TransformFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
-	// RVA: 0x17BA070 Offset: 0x17B8670 VA: 0x1817BA070
+	// RVA: 0x17B7BC0 Offset: 0x17B61C0 VA: 0x1817B7BC0
 	public void Reset() { }
 
-	// RVA: 0x17B8B60 Offset: 0x17B7160 VA: 0x1817B8B60
+	// RVA: 0x17B66B0 Offset: 0x17B4CB0 VA: 0x1817B66B0
 	private int EncryptData(byte[] inputBuffer, int inputOffset, int inputCount, ref byte[] outputBuffer, int outputOffset, PaddingMode paddingMode, bool fLast) { }
 
-	// RVA: 0x17B7860 Offset: 0x17B5E60 VA: 0x1817B7860
+	// RVA: 0x17B53B0 Offset: 0x17B39B0 VA: 0x1817B53B0
 	private int DecryptData(byte[] inputBuffer, int inputOffset, int inputCount, ref byte[] outputBuffer, int outputOffset, PaddingMode paddingMode, bool fLast) { }
 
-	// RVA: 0x17B8960 Offset: 0x17B6F60 VA: 0x1817B8960
+	// RVA: 0x17B64B0 Offset: 0x17B4AB0 VA: 0x1817B64B0
 	private void Enc(int* encryptindex, int* encryptKeyExpansion, int* T, int* TF, int* work, int* temp) { }
 
-	// RVA: 0x17B7620 Offset: 0x17B5C20 VA: 0x1817B7620
+	// RVA: 0x17B5170 Offset: 0x17B3770 VA: 0x1817B5170
 	private void Dec(int* decryptindex, int* decryptKeyExpansion, int* iT, int* iTF, int* work, int* temp) { }
 
-	// RVA: 0x17B9930 Offset: 0x17B7F30 VA: 0x1817B9930
+	// RVA: 0x17B7480 Offset: 0x17B5A80 VA: 0x1817B7480
 	private void GenerateKeyExpansion(byte[] rgbKey) { }
 
-	// RVA: 0x17BB170 Offset: 0x17B9770 VA: 0x1817BB170
+	// RVA: 0x17B8CC0 Offset: 0x17B72C0 VA: 0x1817B8CC0
 	private static int rot1(int val) { }
 
-	// RVA: 0x17BB180 Offset: 0x17B9780 VA: 0x1817BB180
+	// RVA: 0x17B8CD0 Offset: 0x17B72D0 VA: 0x1817B8CD0
 	private static int rot2(int val) { }
 
-	// RVA: 0x17BB190 Offset: 0x17B9790 VA: 0x1817BB190
+	// RVA: 0x17B8CE0 Offset: 0x17B72E0 VA: 0x1817B8CE0
 	private static int rot3(int val) { }
 
-	// RVA: 0x17BA0F0 Offset: 0x17B86F0 VA: 0x1817BA0F0
+	// RVA: 0x17B7C40 Offset: 0x17B6240 VA: 0x1817B7C40
 	private static int SubWord(int a) { }
 
-	// RVA: 0x17BA040 Offset: 0x17B8640 VA: 0x1817BA040
+	// RVA: 0x17B7B90 Offset: 0x17B6190 VA: 0x1817B7B90
 	private static int MulX(int x) { }
 
-	// RVA: 0x17BA8F0 Offset: 0x17B8EF0 VA: 0x1817BA8F0
+	// RVA: 0x17B8440 Offset: 0x17B6A40 VA: 0x1817B8440
 	private static void .cctor() { }
 
 }

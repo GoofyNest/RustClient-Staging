@@ -7,10 +7,10 @@ internal class MatchSparse : Match // TypeDefIndex: 2621
 
 	// Methods
 
-	// RVA: 0x14C0B50 Offset: 0x14BF150 VA: 0x1814C0B50
+	// RVA: 0x14BFC20 Offset: 0x14BE220 VA: 0x1814BFC20
 	internal void .ctor(Regex regex, Hashtable caps, int capcount, string text, int begpos, int len, int startpos) { }
 
-	// RVA: 0x14C0C10 Offset: 0x14BF210 VA: 0x1814C0C10 Slot: 5
+	// RVA: 0x14BFCE0 Offset: 0x14BE2E0 VA: 0x1814BFCE0 Slot: 5
 	public override GroupCollection get_Groups() { }
 
 }

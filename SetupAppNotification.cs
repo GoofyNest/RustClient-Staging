@@ -6,25 +6,25 @@ public class SetupAppNotification : UIDialog // TypeDefIndex: 10910
 
 	// Methods
 
-	// RVA: 0x5943E0 Offset: 0x5929E0 VA: 0x1805943E0
+	// RVA: 0x594370 Offset: 0x592970 VA: 0x180594370
 	public void Initialize(SmartAlarm alarm, string title, string body) { }
 
-	// RVA: 0x5947D0 Offset: 0x592DD0 VA: 0x1805947D0
+	// RVA: 0x594760 Offset: 0x592D60 VA: 0x180594760
 	public void SelectFirstTextField() { }
 
-	// RVA: 0x594660 Offset: 0x592C60 VA: 0x180594660
+	// RVA: 0x5945F0 Offset: 0x592BF0 VA: 0x1805945F0
 	public void MoveToSecondTextField() { }
 
-	// RVA: 0x594310 Offset: 0x592910 VA: 0x180594310
+	// RVA: 0x5942A0 Offset: 0x5928A0 VA: 0x1805942A0
 	public void FinishedEditing() { }
 
-	// RVA: 0x594870 Offset: 0x592E70 VA: 0x180594870
+	// RVA: 0x594800 Offset: 0x592E00 VA: 0x180594800
 	private void SelectTextField(RustInput input) { }
 
-	// RVA: 0x594710 Offset: 0x592D10 VA: 0x180594710
+	// RVA: 0x5946A0 Offset: 0x592CA0 VA: 0x1805946A0
 	public void Save() { }
 
-	// RVA: 0x4C1AB0 Offset: 0x4C00B0 VA: 0x1804C1AB0
+	// RVA: 0x4C1A40 Offset: 0x4C0040 VA: 0x1804C1A40
 	public void .ctor() { }
 
 }

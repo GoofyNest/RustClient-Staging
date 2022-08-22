@@ -14,13 +14,13 @@ public class ERSideWalkInstance // TypeDefIndex: 7222
 
 	// Methods
 
-	// RVA: 0xA5D420 Offset: 0xA5BA20 VA: 0x180A5D420
+	// RVA: 0xA5D8F0 Offset: 0xA5BEF0 VA: 0x180A5D8F0
 	public void .ctor(ERSideWalk msidewalk, float mStart, float mEnd, Vector3 mStartPos, Vector3 mEndPos, ERModularRoad road, string side) { }
 
-	// RVA: 0xA5D080 Offset: 0xA5B680 VA: 0x180A5D080
+	// RVA: 0xA5D550 Offset: 0xA5BB50 VA: 0x180A5D550
 	public void CreateObject(ERModularRoad road, string side) { }
 
-	// RVA: 0xA5D2A0 Offset: 0xA5B8A0 VA: 0x180A5D2A0
+	// RVA: 0xA5D770 Offset: 0xA5BD70 VA: 0x180A5D770
 	public void GetObject(ERModularRoad road, string side) { }
 
 }

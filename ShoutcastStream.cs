@@ -47,87 +47,87 @@ public class ShoutcastStream : IDisposable // TypeDefIndex: 11982
 	// RVA: 0x49AFC0 Offset: 0x4995C0 VA: 0x18049AFC0
 	private void set_SocketConnected(bool value) { }
 
-	// RVA: 0x598410 Offset: 0x596A10 VA: 0x180598410
+	// RVA: 0x5983A0 Offset: 0x5969A0 VA: 0x1805983A0
 	public int get_Frequency() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x598420 Offset: 0x596A20 VA: 0x180598420
+	// RVA: 0x5983B0 Offset: 0x5969B0 VA: 0x1805983B0
 	public uint get_currentWriteIndex() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x598430 Offset: 0x596A30 VA: 0x180598430
+	// RVA: 0x5983C0 Offset: 0x5969C0 VA: 0x1805983C0
 	private void set_currentWriteIndex(uint value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	public float[] get_floatSamples() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4CF890 Offset: 0x4CDE90 VA: 0x1804CF890
+	// RVA: 0x4CF820 Offset: 0x4CDE20 VA: 0x1804CF820
 	private void set_floatSamples(float[] value) { }
 
-	// RVA: 0x597F10 Offset: 0x596510 VA: 0x180597F10
+	// RVA: 0x597EA0 Offset: 0x5964A0 VA: 0x180597EA0
 	public static void RunConnections() { }
 
-	// RVA: 0x597510 Offset: 0x595B10 VA: 0x180597510
+	// RVA: 0x5974A0 Offset: 0x595AA0 VA: 0x1805974A0
 	public static ShoutcastStream GetExistingStream(string host) { }
 
-	// RVA: 0x5976A0 Offset: 0x595CA0 VA: 0x1805976A0
+	// RVA: 0x597630 Offset: 0x595C30 VA: 0x180597630
 	public uint GetLeadStreamerReadIndex() { }
 
-	// RVA: 0x597A70 Offset: 0x596070 VA: 0x180597A70
+	// RVA: 0x597A00 Offset: 0x596000 VA: 0x180597A00
 	public bool IsLeadStream(ShoutcastStreamer stream) { }
 
-	// RVA: 0x597DB0 Offset: 0x5963B0 VA: 0x180597DB0
+	// RVA: 0x597D40 Offset: 0x596340 VA: 0x180597D40
 	public void ResetSamples(uint read) { }
 
-	// RVA: 0x597760 Offset: 0x595D60 VA: 0x180597760
+	// RVA: 0x5976F0 Offset: 0x595CF0 VA: 0x1805976F0
 	public void InitialiseConnection(string host, ShoutcastStreamer forStreamer) { }
 
-	// RVA: 0x597D40 Offset: 0x596340 VA: 0x180597D40
+	// RVA: 0x597CD0 Offset: 0x5962D0 VA: 0x180597CD0
 	public void RegisterNewStreamer(ShoutcastStreamer forStreamer) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xC9C30 Offset: 0xC9030 VA: 0x1800C9C30
-	// RVA: 0x5970D0 Offset: 0x5956D0 VA: 0x1805970D0
+	// RVA: 0x597060 Offset: 0x595660 VA: 0x180597060
 	private Task ConnectAsync() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xC9DC0 Offset: 0xC91C0 VA: 0x1800C9DC0
-	// RVA: 0x597B00 Offset: 0x596100 VA: 0x180597B00
+	// RVA: 0x597A90 Offset: 0x596090 VA: 0x180597A90
 	public Task<bool> ReadDataAsync(ShoutcastStreamer forStreamer) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xC9F70 Offset: 0xC9370 VA: 0x1800C9F70
-	// RVA: 0x597C20 Offset: 0x596220 VA: 0x180597C20
+	// RVA: 0x597BB0 Offset: 0x5961B0 VA: 0x180597BB0
 	private Task<bool> ReadDataAsync(byte[] byteBuffer) { }
 
-	// RVA: 0x597990 Offset: 0x595F90 VA: 0x180597990
+	// RVA: 0x597920 Offset: 0x595F20 VA: 0x180597920
 	private float[] IntToFloat(short[] from) { }
 
-	// RVA: 0x596F30 Offset: 0x595530 VA: 0x180596F30
+	// RVA: 0x596EC0 Offset: 0x5954C0 VA: 0x180596EC0
 	private short[] ByteToInt16(byte[] buffer) { }
 
-	// RVA: 0x596D00 Offset: 0x595300 VA: 0x180596D00
+	// RVA: 0x596C90 Offset: 0x595290 VA: 0x180596C90
 	private float[] ByteToFloat(byte[] bArray) { }
 
-	// RVA: 0x5971D0 Offset: 0x5957D0 VA: 0x1805971D0
+	// RVA: 0x597160 Offset: 0x595760 VA: 0x180597160
 	private void Disconnect() { }
 
-	// RVA: 0x597080 Offset: 0x595680 VA: 0x180597080
+	// RVA: 0x597010 Offset: 0x595610 VA: 0x180597010
 	private void ClearFloatSamples() { }
 
-	// RVA: 0x597420 Offset: 0x595A20 VA: 0x180597420 Slot: 4
+	// RVA: 0x5973B0 Offset: 0x5959B0 VA: 0x1805973B0 Slot: 4
 	public void Dispose() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xCA030 Offset: 0xC9430 VA: 0x1800CA030
-	// RVA: 0x597420 Offset: 0x595A20 VA: 0x180597420
+	// RVA: 0x5973B0 Offset: 0x5959B0 VA: 0x1805973B0
 	private Task ShutdownSafely() { }
 
-	// RVA: 0x596B90 Offset: 0x595190 VA: 0x180596B90
+	// RVA: 0x596B20 Offset: 0x595120 VA: 0x180596B20
 	public void AttemptDisconnect(ShoutcastStreamer streamer) { }
 
-	// RVA: 0x5982E0 Offset: 0x5968E0 VA: 0x1805982E0
+	// RVA: 0x598270 Offset: 0x596870 VA: 0x180598270
 	public void .ctor() { }
 
-	// RVA: 0x5981C0 Offset: 0x5967C0 VA: 0x1805981C0
+	// RVA: 0x598150 Offset: 0x596750 VA: 0x180598150
 	private static void .cctor() { }
 
 }
@@ -141,7 +141,7 @@ private sealed class ShoutcastStream.<>c__DisplayClass42_0 // TypeDefIndex: 1198
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x5A4AC0 Offset: 0x5A30C0 VA: 0x1805A4AC0
+	// RVA: 0x5A4A50 Offset: 0x5A3050 VA: 0x1805A4A50
 	internal MP3Stream <ConnectAsync>b__0() { }
 
 }

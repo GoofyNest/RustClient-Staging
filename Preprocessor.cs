@@ -29,148 +29,148 @@ internal sealed class Preprocessor : BaseProcessor // TypeDefIndex: 2268
 
 	// Methods
 
-	// RVA: 0xB272B0 Offset: 0xB258B0 VA: 0x180B272B0
+	// RVA: 0xB27780 Offset: 0xB25D80 VA: 0x180B27780
 	public void .ctor(XmlNameTable nameTable, SchemaNames schemaNames, ValidationEventHandler eventHandler, XmlSchemaCompilationSettings compilationSettings) { }
 
-	// RVA: 0xB1B470 Offset: 0xB19A70 VA: 0x180B1B470
+	// RVA: 0xB1B940 Offset: 0xB19F40 VA: 0x180B1B940
 	public bool Execute(XmlSchema schema, string targetNamespace, bool loadExternals) { }
 
-	// RVA: 0xB1A130 Offset: 0xB18730 VA: 0x180B1A130
+	// RVA: 0xB1A600 Offset: 0xB18C00 VA: 0x180B1A600
 	private void Cleanup(XmlSchema schema) { }
 
-	// RVA: 0xB1A080 Offset: 0xB18680 VA: 0x180B1A080
+	// RVA: 0xB1A550 Offset: 0xB18B50 VA: 0x180B1A550
 	private void CleanupRedefine(XmlSchemaExternal include) { }
 
-	// RVA: 0xA4D4F0 Offset: 0xA4BAF0 VA: 0x180A4D4F0
+	// RVA: 0x79BE50 Offset: 0x79A450 VA: 0x18079BE50
 	internal void set_XmlResolver(XmlResolver value) { }
 
-	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
+	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
 	internal void set_ReaderSettings(XmlReaderSettings value) { }
 
-	// RVA: 0x4E8840 Offset: 0x4E6E40 VA: 0x1804E8840
+	// RVA: 0x4E87D0 Offset: 0x4E6DD0 VA: 0x1804E87D0
 	internal void set_SchemaLocations(Hashtable value) { }
 
-	// RVA: 0x574470 Offset: 0x572A70 VA: 0x180574470
+	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
 	internal void set_ChameleonSchemas(Hashtable value) { }
 
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0
 	internal XmlSchema get_RootSchema() { }
 
-	// RVA: 0xB19680 Offset: 0xB17C80 VA: 0x180B19680
+	// RVA: 0xB19B50 Offset: 0xB18150 VA: 0x180B19B50
 	private void BuildSchemaList(XmlSchema schema) { }
 
-	// RVA: 0xB1C390 Offset: 0xB1A990 VA: 0x180B1C390
+	// RVA: 0xB1C860 Offset: 0xB1AE60 VA: 0x180B1C860
 	private void LoadExternals(XmlSchema schema) { }
 
-	// RVA: 0xB1BA80 Offset: 0xB1A080 VA: 0x180B1BA80
+	// RVA: 0xB1BF50 Offset: 0xB1A550 VA: 0x180B1BF50
 	internal static XmlSchema GetBuildInSchema() { }
 
-	// RVA: 0xB193D0 Offset: 0xB179D0 VA: 0x180B193D0
+	// RVA: 0xB198A0 Offset: 0xB17EA0 VA: 0x180B198A0
 	private void BuildRefNamespaces(XmlSchema schema) { }
 
-	// RVA: 0xB1CFF0 Offset: 0xB1B5F0 VA: 0x180B1CFF0
+	// RVA: 0xB1D4C0 Offset: 0xB1BAC0 VA: 0x180B1D4C0
 	private void ParseUri(string uri, string code, XmlSchemaObject sourceSchemaObject) { }
 
-	// RVA: 0xB24A50 Offset: 0xB23050 VA: 0x180B24A50
+	// RVA: 0xB24F20 Offset: 0xB23520 VA: 0x180B24F20
 	private void Preprocess(XmlSchema schema, string targetNamespace, ArrayList imports) { }
 
-	// RVA: 0xB1A230 Offset: 0xB18830 VA: 0x180B1A230
+	// RVA: 0xB1A700 Offset: 0xB18D00 VA: 0x180B1A700
 	private void CopyIncludedComponents(XmlSchema includedSchema, XmlSchema schema) { }
 
-	// RVA: 0xB22400 Offset: 0xB20A00 VA: 0x180B22400
+	// RVA: 0xB228D0 Offset: 0xB20ED0 VA: 0x180B228D0
 	private void PreprocessRedefine(RedefineEntry redefineEntry) { }
 
-	// RVA: 0xB1C160 Offset: 0xB1A760 VA: 0x180B1C160
+	// RVA: 0xB1C630 Offset: 0xB1AC30 VA: 0x180B1C630
 	private void GetIncludedSet(XmlSchema schema, ArrayList includesList) { }
 
-	// RVA: 0xB1C2D0 Offset: 0xB1A8D0 VA: 0x180B1C2D0
+	// RVA: 0xB1C7A0 Offset: 0xB1ADA0 VA: 0x180B1C7A0
 	internal static XmlSchema GetParentSchema(XmlSchemaObject currentSchemaObject) { }
 
-	// RVA: 0xB26910 Offset: 0xB24F10 VA: 0x180B26910
+	// RVA: 0xB26DE0 Offset: 0xB253E0 VA: 0x180B26DE0
 	private void SetSchemaDefaults(XmlSchema schema) { }
 
-	// RVA: 0xB1B110 Offset: 0xB19710 VA: 0x180B1B110
+	// RVA: 0xB1B5E0 Offset: 0xB19BE0 VA: 0x180B1B5E0
 	private int CountGroupSelfReference(XmlSchemaObjectCollection items, XmlQualifiedName name, XmlSchemaGroup redefined) { }
 
-	// RVA: 0xB19E60 Offset: 0xB18460 VA: 0x180B19E60
+	// RVA: 0xB1A330 Offset: 0xB18930 VA: 0x180B1A330
 	private void CheckRefinedGroup(XmlSchemaGroup group) { }
 
-	// RVA: 0xB19830 Offset: 0xB17E30 VA: 0x180B19830
+	// RVA: 0xB19D00 Offset: 0xB18300 VA: 0x180B19D00
 	private void CheckRefinedAttributeGroup(XmlSchemaAttributeGroup attributeGroup) { }
 
-	// RVA: 0xB19F00 Offset: 0xB18500 VA: 0x180B19F00
+	// RVA: 0xB1A3D0 Offset: 0xB189D0 VA: 0x180B1A3D0
 	private void CheckRefinedSimpleType(XmlSchemaSimpleType stype) { }
 
-	// RVA: 0xB19980 Offset: 0xB17F80 VA: 0x180B19980
+	// RVA: 0xB19E50 Offset: 0xB18450 VA: 0x180B19E50
 	private void CheckRefinedComplexType(XmlSchemaComplexType ctype) { }
 
-	// RVA: 0xB1D5F0 Offset: 0xB1BBF0 VA: 0x180B1D5F0
+	// RVA: 0xB1DAC0 Offset: 0xB1C0C0 VA: 0x180B1DAC0
 	private void PreprocessAttribute(XmlSchemaAttribute attribute) { }
 
-	// RVA: 0xB1FDC0 Offset: 0xB1E3C0 VA: 0x180B1FDC0
+	// RVA: 0xB20290 Offset: 0xB1E890 VA: 0x180B20290
 	private void PreprocessLocalAttribute(XmlSchemaAttribute attribute) { }
 
-	// RVA: 0xB1D310 Offset: 0xB1B910 VA: 0x180B1D310
+	// RVA: 0xB1D7E0 Offset: 0xB1BDE0 VA: 0x180B1D7E0
 	private void PreprocessAttributeContent(XmlSchemaAttribute attribute) { }
 
-	// RVA: 0xB1D4E0 Offset: 0xB1BAE0 VA: 0x180B1D4E0
+	// RVA: 0xB1D9B0 Offset: 0xB1BFB0 VA: 0x180B1D9B0
 	private void PreprocessAttributeGroup(XmlSchemaAttributeGroup attributeGroup) { }
 
-	// RVA: 0xB1F6B0 Offset: 0xB1DCB0 VA: 0x180B1F6B0
+	// RVA: 0xB1FB80 Offset: 0xB1E180 VA: 0x180B1FB80
 	private void PreprocessElement(XmlSchemaElement element) { }
 
-	// RVA: 0xB1FF40 Offset: 0xB1E540 VA: 0x180B1FF40
+	// RVA: 0xB20410 Offset: 0xB1EA10 VA: 0x180B20410
 	private void PreprocessLocalElement(XmlSchemaElement element) { }
 
-	// RVA: 0xB1EBE0 Offset: 0xB1D1E0 VA: 0x180B1EBE0
+	// RVA: 0xB1F0B0 Offset: 0xB1D6B0 VA: 0x180B1F0B0
 	private void PreprocessElementContent(XmlSchemaElement element) { }
 
-	// RVA: 0xB1FA60 Offset: 0xB1E060 VA: 0x180B1FA60
+	// RVA: 0xB1FF30 Offset: 0xB1E530 VA: 0x180B1FF30
 	private void PreprocessIdentityConstraint(XmlSchemaIdentityConstraint constraint) { }
 
-	// RVA: 0xB240C0 Offset: 0xB226C0 VA: 0x180B240C0
+	// RVA: 0xB24590 Offset: 0xB22B90 VA: 0x180B24590
 	private void PreprocessSimpleType(XmlSchemaSimpleType simpleType, bool local) { }
 
-	// RVA: 0xB1E240 Offset: 0xB1C840 VA: 0x180B1E240
+	// RVA: 0xB1E710 Offset: 0xB1CD10 VA: 0x180B1E710
 	private void PreprocessComplexType(XmlSchemaComplexType complexType, bool local) { }
 
-	// RVA: 0xB1F8C0 Offset: 0xB1DEC0 VA: 0x180B1F8C0
+	// RVA: 0xB1FD90 Offset: 0xB1E390 VA: 0x180B1FD90
 	private void PreprocessGroup(XmlSchemaGroup group) { }
 
-	// RVA: 0xB202A0 Offset: 0xB1E8A0 VA: 0x180B202A0
+	// RVA: 0xB20770 Offset: 0xB1ED70 VA: 0x180B20770
 	private void PreprocessNotation(XmlSchemaNotation notation) { }
 
-	// RVA: 0xB204C0 Offset: 0xB1EAC0 VA: 0x180B204C0
+	// RVA: 0xB20990 Offset: 0xB1EF90 VA: 0x180B20990
 	private void PreprocessParticle(XmlSchemaParticle particle) { }
 
-	// RVA: 0xB1D730 Offset: 0xB1BD30 VA: 0x180B1D730
+	// RVA: 0xB1DC00 Offset: 0xB1C200 VA: 0x180B1DC00
 	private void PreprocessAttributes(XmlSchemaObjectCollection attributes, XmlSchemaAnyAttribute anyAttribute, XmlSchemaObject parent) { }
 
-	// RVA: 0xB26A00 Offset: 0xB25000 VA: 0x180B26A00
+	// RVA: 0xB26ED0 Offset: 0xB254D0 VA: 0x180B26ED0
 	private void ValidateIdAttribute(XmlSchemaObject xso) { }
 
-	// RVA: 0xB26C70 Offset: 0xB25270 VA: 0x180B26C70
+	// RVA: 0xB27140 Offset: 0xB25740 VA: 0x180B27140
 	private void ValidateNameAttribute(XmlSchemaObject xso) { }
 
-	// RVA: 0xB26F90 Offset: 0xB25590 VA: 0x180B26F90
+	// RVA: 0xB27460 Offset: 0xB25A60 VA: 0x180B27460
 	private void ValidateQNameAttribute(XmlSchemaObject xso, string attributeName, XmlQualifiedName value) { }
 
-	// RVA: 0xB26890 Offset: 0xB24E90 VA: 0x180B26890
+	// RVA: 0xB26D60 Offset: 0xB25360 VA: 0x180B26D60
 	private Uri ResolveSchemaLocationUri(XmlSchema enclosingSchema, string location) { }
 
-	// RVA: 0xB1C350 Offset: 0xB1A950 VA: 0x180B1C350
+	// RVA: 0xB1C820 Offset: 0xB1AE20 VA: 0x180B1C820
 	private object GetSchemaEntity(Uri ruri) { }
 
-	// RVA: 0xB1C000 Offset: 0xB1A600 VA: 0x180B1C000
+	// RVA: 0xB1C4D0 Offset: 0xB1AAD0 VA: 0x180B1C4D0
 	private XmlSchema GetChameleonSchema(string targetNamespace, XmlSchema schema) { }
 
-	// RVA: 0xB268E0 Offset: 0xB24EE0 VA: 0x180B268E0
+	// RVA: 0xB26DB0 Offset: 0xB253B0 VA: 0x180B26DB0
 	private void SetParent(XmlSchemaObject child, XmlSchemaObject parent) { }
 
-	// RVA: 0xB1D110 Offset: 0xB1B710 VA: 0x180B1D110
+	// RVA: 0xB1D5E0 Offset: 0xB1BBE0 VA: 0x180B1D5E0
 	private void PreprocessAnnotation(XmlSchemaObject schemaObject) { }
 
-	// RVA: 0xB1D280 Offset: 0xB1B880 VA: 0x180B1D280
+	// RVA: 0xB1D750 Offset: 0xB1BD50 VA: 0x180B1D750
 	private void PreprocessAnnotation(XmlSchemaAnnotation annotation) { }
 
 }

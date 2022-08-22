@@ -21,56 +21,56 @@ public class Kayak : BaseBoat, IPoolVehicle // TypeDefIndex: 8593
 
 	// Methods
 
-	// RVA: 0x67E820 Offset: 0x67CE20 VA: 0x18067E820 Slot: 35
+	// RVA: 0x67E7B0 Offset: 0x67CDB0 VA: 0x18067E7B0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x67E720 Offset: 0x67CD20 VA: 0x18067E720
+	// RVA: 0x67E6B0 Offset: 0x67CCB0 VA: 0x18067E6B0
 	public void OnPaddled(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x67DF80 Offset: 0x67C580 VA: 0x18067DF80 Slot: 14
+	// RVA: 0x67DF10 Offset: 0x67C510 VA: 0x18067DF10 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x67E010 Offset: 0x67C610 VA: 0x18067E010 Slot: 13
+	// RVA: 0x67DFA0 Offset: 0x67C5A0 VA: 0x18067DFA0 Slot: 13
 	public override void ClientOnEnable() { }
 
-	// RVA: 0x67EDD0 Offset: 0x67D3D0 VA: 0x18067EDD0 Slot: 173
+	// RVA: 0x67ED60 Offset: 0x67D360 VA: 0x18067ED60 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0x67E5E0 Offset: 0x67CBE0 VA: 0x18067E5E0 Slot: 158
+	// RVA: 0x67E570 Offset: 0x67CB70 VA: 0x18067E570 Slot: 158
 	public override void OnClientInput(BasePlayer player) { }
 
-	// RVA: 0x67DBB0 Offset: 0x67C1B0 VA: 0x18067DBB0
+	// RVA: 0x67DB40 Offset: 0x67C140 VA: 0x18067DB40
 	public void AnimationSplashEvent(string splashType, BasePlayer forPlayer) { }
 
-	// RVA: 0x67E0F0 Offset: 0x67C6F0 VA: 0x18067E0F0
+	// RVA: 0x67E080 Offset: 0x67C680 VA: 0x18067E080
 	private string GetEffectPath(bool forward) { }
 
-	// RVA: 0x67E2D0 Offset: 0x67C8D0 VA: 0x18067E2D0
+	// RVA: 0x67E260 Offset: 0x67C860 VA: 0x18067E260
 	private int GetPlayerSeat_Client(BasePlayer p) { }
 
-	// RVA: 0x67DE90 Offset: 0x67C490 VA: 0x18067DE90 Slot: 192
+	// RVA: 0x67DE20 Offset: 0x67C420 VA: 0x18067DE20 Slot: 192
 	protected override bool CanPushNow(BasePlayer pusher) { }
 
-	// RVA: 0x67ED30 Offset: 0x67D330 VA: 0x18067ED30
+	// RVA: 0x67ECC0 Offset: 0x67D2C0 VA: 0x18067ECC0
 	private bool ShowPushMenu(BasePlayer player) { }
 
-	// RVA: 0x67F360 Offset: 0x67D960 VA: 0x18067F360
+	// RVA: 0x67F2F0 Offset: 0x67D8F0 VA: 0x18067F2F0
 	private void UpdateSounds() { }
 
-	// RVA: 0x67E0A0 Offset: 0x67C6A0 VA: 0x18067E0A0 Slot: 131
+	// RVA: 0x67E030 Offset: 0x67C630 VA: 0x18067E030 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0x67E4E0 Offset: 0x67CAE0 VA: 0x18067E4E0
+	// RVA: 0x67E470 Offset: 0x67CA70 VA: 0x18067E470
 	public bool IsPlayerHoldingPaddle(BasePlayer player) { }
 
-	// RVA: 0x67E160 Offset: 0x67C760 VA: 0x18067E160
+	// RVA: 0x67E0F0 Offset: 0x67C6F0 VA: 0x18067E0F0
 	private Vector3 GetPaddlePoint(int index, Kayak.PaddleDirection direction) { }
 
-	// RVA: 0x67E470 Offset: 0x67CA70 VA: 0x18067E470
+	// RVA: 0x67E400 Offset: 0x67CA00 VA: 0x18067E400
 	private bool IsInWater() { }
 
-	// RVA: 0x67F460 Offset: 0x67DA60 VA: 0x18067F460
+	// RVA: 0x67F3F0 Offset: 0x67D9F0 VA: 0x18067F3F0
 	public void .ctor() { }
 
 }

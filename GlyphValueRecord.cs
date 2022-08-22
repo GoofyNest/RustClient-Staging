@@ -21,16 +21,16 @@ internal struct GlyphValueRecord // TypeDefIndex: 4113
 
 	// Methods
 
-	// RVA: 0x13A310 Offset: 0x139710 VA: 0x18013A310
+	// RVA: 0x13A130 Offset: 0x139530 VA: 0x18013A130
 	public float get_xPlacement() { }
 
-	// RVA: 0x212330 Offset: 0x211730 VA: 0x180212330
+	// RVA: 0x211760 Offset: 0x210B60 VA: 0x180211760
 	public float get_yPlacement() { }
 
-	// RVA: 0x212340 Offset: 0x211740 VA: 0x180212340
+	// RVA: 0x211770 Offset: 0x210B70 VA: 0x180211770
 	public float get_xAdvance() { }
 
-	// RVA: 0x212350 Offset: 0x211750 VA: 0x180212350
+	// RVA: 0x211780 Offset: 0x210B80 VA: 0x180211780
 	public float get_yAdvance() { }
 
 	// RVA: 0x23DF00 Offset: 0x23D300 VA: 0x18023DF00 Slot: 2
@@ -53,7 +53,7 @@ public struct GlyphValueRecord_Legacy // TypeDefIndex: 6767
 	// RVA: 0x1174D0 Offset: 0x1168D0 VA: 0x1801174D0
 	internal void .ctor(GlyphValueRecord valueRecord) { }
 
-	// RVA: 0xC65AD0 Offset: 0xC640D0 VA: 0x180C65AD0
+	// RVA: 0xC65FA0 Offset: 0xC645A0 VA: 0x180C65FA0
 	public static GlyphValueRecord_Legacy op_Addition(GlyphValueRecord_Legacy a, GlyphValueRecord_Legacy b) { }
 
 }

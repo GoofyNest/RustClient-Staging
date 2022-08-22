@@ -8,7 +8,7 @@ public class UnobservedTaskExceptionEventArgs : EventArgs // TypeDefIndex: 888
 
 	// Methods
 
-	// RVA: 0x161C140 Offset: 0x161A740 VA: 0x18161C140
+	// RVA: 0x1609460 Offset: 0x1607A60 VA: 0x181609460
 	public void .ctor(AggregateException exception) { }
 
 }

@@ -17,13 +17,13 @@ public class FireBall : BaseEntity, ISplashable // TypeDefIndex: 9538
 
 	// Methods
 
-	// RVA: 0x788B00 Offset: 0x787100 VA: 0x180788B00
+	// RVA: 0x788A50 Offset: 0x787050 VA: 0x180788A50
 	public bool IsResting() { }
 
-	// RVA: 0x788B10 Offset: 0x787110 VA: 0x180788B10 Slot: 34
+	// RVA: 0x788A60 Offset: 0x787060 VA: 0x180788A60 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x788D10 Offset: 0x787310 VA: 0x180788D10
+	// RVA: 0x788C60 Offset: 0x787260 VA: 0x180788C60
 	public void .ctor() { }
 
 }

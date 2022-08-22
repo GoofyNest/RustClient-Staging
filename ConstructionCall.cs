@@ -20,55 +20,55 @@ public class ConstructionCall : MethodCall, IConstructionCallMessage, IMessage, 
 
 	// Methods
 
-	// RVA: 0x14738C0 Offset: 0x1471EC0 VA: 0x1814738C0
+	// RVA: 0x1472990 Offset: 0x1470F90 VA: 0x181472990
 	internal void .ctor(Type type) { }
 
-	// RVA: 0x1473930 Offset: 0x1471F30 VA: 0x181473930
+	// RVA: 0x1472A00 Offset: 0x1471000 VA: 0x181472A00
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x14734F0 Offset: 0x1471AF0 VA: 0x1814734F0 Slot: 22
+	// RVA: 0x14725C0 Offset: 0x1470BC0 VA: 0x1814725C0 Slot: 22
 	internal override void InitDictionary() { }
 
-	// RVA: 0x11888E0 Offset: 0x1186EE0 VA: 0x1811888E0
+	// RVA: 0x118D200 Offset: 0x118B800 VA: 0x18118D200
 	internal bool get_IsContextOk() { }
 
-	// RVA: 0x1188900 Offset: 0x1186F00 VA: 0x181188900
+	// RVA: 0x118D220 Offset: 0x118B820 VA: 0x18118D220
 	internal void set_IsContextOk(bool value) { }
 
-	// RVA: 0x14739E0 Offset: 0x1471FE0 VA: 0x1814739E0 Slot: 24
+	// RVA: 0x1472AB0 Offset: 0x14710B0 VA: 0x181472AB0 Slot: 24
 	public Type get_ActivationType() { }
 
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370 Slot: 25
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300 Slot: 25
 	public string get_ActivationTypeName() { }
 
-	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50 Slot: 26
+	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0 Slot: 26
 	public IActivator get_Activator() { }
 
-	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50 Slot: 27
+	// RVA: 0x519DE0 Offset: 0x5183E0 VA: 0x180519DE0 Slot: 27
 	public void set_Activator(IActivator value) { }
 
-	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0 Slot: 28
+	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360 Slot: 28
 	public object[] get_CallSiteActivationAttributes() { }
 
-	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
+	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
 	internal void SetActivationAttributes(object[] attributes) { }
 
-	// RVA: 0x1473AB0 Offset: 0x14720B0 VA: 0x181473AB0 Slot: 29
+	// RVA: 0x1472B80 Offset: 0x1471180 VA: 0x181472B80 Slot: 29
 	public IList get_ContextProperties() { }
 
-	// RVA: 0x1473600 Offset: 0x1471C00 VA: 0x181473600 Slot: 19
+	// RVA: 0x14726D0 Offset: 0x1470CD0 VA: 0x1814726D0 Slot: 19
 	internal override void InitMethodProperty(string key, object value) { }
 
-	// RVA: 0x14733F0 Offset: 0x14719F0 VA: 0x1814733F0 Slot: 20
+	// RVA: 0x14724C0 Offset: 0x1470AC0 VA: 0x1814724C0 Slot: 20
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1473B20 Offset: 0x1472120 VA: 0x181473B20 Slot: 21
+	// RVA: 0x1472BF0 Offset: 0x14711F0 VA: 0x181472BF0 Slot: 21
 	public override IDictionary get_Properties() { }
 
-	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
+	// RVA: 0x574310 Offset: 0x572910 VA: 0x180574310
 	internal RemotingProxy get_SourceProxy() { }
 
-	// RVA: 0x574410 Offset: 0x572A10 VA: 0x180574410
+	// RVA: 0x5743A0 Offset: 0x5729A0 VA: 0x1805743A0
 	internal void set_SourceProxy(RemotingProxy value) { }
 
 }

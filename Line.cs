@@ -5,7 +5,7 @@ public struct Line // TypeDefIndex: 6588
 
 	// Methods
 
-	// RVA: 0x1BD660 Offset: 0x1BCA60 VA: 0x1801BD660
+	// RVA: 0x1BD3E0 Offset: 0x1BC7E0 VA: 0x1801BD3E0
 	public void .ctor(Vector3 point0, Vector3 point1) { }
 
 	// RVA: 0x22C520 Offset: 0x22B920 VA: 0x18022C520

@@ -36,49 +36,49 @@ public class Scrollbar : Selectable, IBeginDragHandler, IEventSystemHandler, IDr
 
 	// Methods
 
-	// RVA: 0x872250 Offset: 0x870850 VA: 0x180872250
+	// RVA: 0x88D970 Offset: 0x88BF70 VA: 0x18088D970
 	public RectTransform get_handleRect() { }
 
-	// RVA: 0x1721970 Offset: 0x171FF70 VA: 0x181721970
+	// RVA: 0x171ADB0 Offset: 0x17193B0 VA: 0x18171ADB0
 	public void set_handleRect(RectTransform value) { }
 
-	// RVA: 0x107A090 Offset: 0x1078690 VA: 0x18107A090
+	// RVA: 0x107AB00 Offset: 0x1079100 VA: 0x18107AB00
 	public Scrollbar.Direction get_direction() { }
 
-	// RVA: 0x1721910 Offset: 0x171FF10 VA: 0x181721910
+	// RVA: 0x171AD50 Offset: 0x1719350 VA: 0x18171AD50
 	public void set_direction(Scrollbar.Direction value) { }
 
-	// RVA: 0x1721700 Offset: 0x171FD00 VA: 0x181721700
+	// RVA: 0x171AB40 Offset: 0x1719140 VA: 0x18171AB40
 	protected void .ctor() { }
 
-	// RVA: 0x1721860 Offset: 0x171FE60 VA: 0x181721860
+	// RVA: 0x171ACA0 Offset: 0x17192A0 VA: 0x18171ACA0
 	public float get_value() { }
 
-	// RVA: 0x1721AE0 Offset: 0x17200E0 VA: 0x181721AE0
+	// RVA: 0x171AF20 Offset: 0x1719520 VA: 0x18171AF20
 	public void set_value(float value) { }
 
-	// RVA: 0x1720EC0 Offset: 0x171F4C0 VA: 0x181720EC0 Slot: 47
+	// RVA: 0x171A300 Offset: 0x1718900 VA: 0x18171A300 Slot: 47
 	public virtual void SetValueWithoutNotify(float input) { }
 
-	// RVA: 0x112C3A0 Offset: 0x112A9A0 VA: 0x18112C3A0
+	// RVA: 0x112CE10 Offset: 0x112B410 VA: 0x18112CE10
 	public float get_size() { }
 
-	// RVA: 0x1721A50 Offset: 0x1720050 VA: 0x181721A50
+	// RVA: 0x171AE90 Offset: 0x1719490 VA: 0x18171AE90
 	public void set_size(float value) { }
 
-	// RVA: 0x107A0D0 Offset: 0x10786D0 VA: 0x18107A0D0
+	// RVA: 0x107AB40 Offset: 0x1079140 VA: 0x18107AB40
 	public int get_numberOfSteps() { }
 
-	// RVA: 0x17219E0 Offset: 0x171FFE0 VA: 0x1817219E0
+	// RVA: 0x171AE20 Offset: 0x1719420 VA: 0x18171AE20
 	public void set_numberOfSteps(int value) { }
 
-	// RVA: 0xA2ABE0 Offset: 0xA291E0 VA: 0x180A2ABE0
+	// RVA: 0xA2B0D0 Offset: 0xA296D0 VA: 0x180A2B0D0
 	public Scrollbar.ScrollEvent get_onValueChanged() { }
 
-	// RVA: 0xA2AEE0 Offset: 0xA294E0 VA: 0x180A2AEE0
+	// RVA: 0xA2B3D0 Offset: 0xA299D0 VA: 0x180A2B3D0
 	public void set_onValueChanged(Scrollbar.ScrollEvent value) { }
 
-	// RVA: 0x1721830 Offset: 0x171FE30 VA: 0x181721830
+	// RVA: 0x171AC70 Offset: 0x1719270 VA: 0x18171AC70
 	private float get_stepSize() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 48
@@ -90,80 +90,80 @@ public class Scrollbar : Selectable, IBeginDragHandler, IEventSystemHandler, IDr
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 50
 	public virtual void GraphicUpdateComplete() { }
 
-	// RVA: 0x1720720 Offset: 0x171ED20 VA: 0x181720720 Slot: 5
+	// RVA: 0x1719B60 Offset: 0x1718160 VA: 0x181719B60 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x1720620 Offset: 0x171EC20 VA: 0x181720620 Slot: 7
+	// RVA: 0x1719A60 Offset: 0x1718060 VA: 0x181719A60 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x17216E0 Offset: 0x171FCE0 VA: 0x1817216E0 Slot: 51
+	// RVA: 0x171AB20 Offset: 0x1719120 VA: 0x18171AB20 Slot: 51
 	protected virtual void Update() { }
 
-	// RVA: 0x1721010 Offset: 0x171F610 VA: 0x181721010
+	// RVA: 0x171A450 Offset: 0x1718A50 VA: 0x18171A450
 	private void UpdateCachedReferences() { }
 
-	// RVA: 0x1720ED0 Offset: 0x171F4D0 VA: 0x181720ED0
+	// RVA: 0x171A310 Offset: 0x1718910 VA: 0x18171A310
 	private void Set(float input, bool sendCallback = True) { }
 
-	// RVA: 0x1720CF0 Offset: 0x171F2F0 VA: 0x181720CF0 Slot: 10
+	// RVA: 0x171A130 Offset: 0x1718730 VA: 0x18171A130 Slot: 10
 	protected override void OnRectTransformDimensionsChange() { }
 
-	// RVA: 0x1721800 Offset: 0x171FE00 VA: 0x181721800
+	// RVA: 0x171AC40 Offset: 0x1719240 VA: 0x18171AC40
 	private Scrollbar.Axis get_axis() { }
 
-	// RVA: 0x1721810 Offset: 0x171FE10 VA: 0x181721810
+	// RVA: 0x171AC50 Offset: 0x1719250 VA: 0x18171AC50
 	private bool get_reverseValue() { }
 
-	// RVA: 0x17214F0 Offset: 0x171FAF0 VA: 0x1817214F0
+	// RVA: 0x171A930 Offset: 0x1718F30 VA: 0x18171A930
 	private void UpdateVisuals() { }
 
-	// RVA: 0x1721120 Offset: 0x171F720 VA: 0x181721120
+	// RVA: 0x171A560 Offset: 0x1718B60 VA: 0x18171A560
 	private void UpdateDrag(PointerEventData eventData) { }
 
-	// RVA: 0x17200F0 Offset: 0x171E6F0 VA: 0x1817200F0
+	// RVA: 0x1719530 Offset: 0x1717B30 VA: 0x181719530
 	private void DoUpdateDrag(Vector2 handleCorner, float remainingSize) { }
 
-	// RVA: 0x17202D0 Offset: 0x171E8D0 VA: 0x1817202D0
+	// RVA: 0x1719710 Offset: 0x1717D10 VA: 0x181719710
 	private bool MayDrag(PointerEventData eventData) { }
 
-	// RVA: 0x1720340 Offset: 0x171E940 VA: 0x181720340 Slot: 52
+	// RVA: 0x1719780 Offset: 0x1717D80 VA: 0x181719780 Slot: 52
 	public virtual void OnBeginDrag(PointerEventData eventData) { }
 
-	// RVA: 0x1720650 Offset: 0x171EC50 VA: 0x181720650 Slot: 53
+	// RVA: 0x1719A90 Offset: 0x1718090 VA: 0x181719A90 Slot: 53
 	public virtual void OnDrag(PointerEventData eventData) { }
 
-	// RVA: 0x1720B60 Offset: 0x171F160 VA: 0x181720B60 Slot: 32
+	// RVA: 0x1719FA0 Offset: 0x17185A0 VA: 0x181719FA0 Slot: 32
 	public override void OnPointerDown(PointerEventData eventData) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x7A490 Offset: 0x79890 VA: 0x18007A490
-	// RVA: 0x1720060 Offset: 0x171E660 VA: 0x181720060
+	// RVA: 0x17194A0 Offset: 0x1717AA0 VA: 0x1817194A0
 	protected IEnumerator ClickRepeat(PointerEventData eventData) { }
 
-	// RVA: 0x1720C70 Offset: 0x171F270 VA: 0x181720C70 Slot: 33
+	// RVA: 0x171A0B0 Offset: 0x17186B0 VA: 0x18171A0B0 Slot: 33
 	public override void OnPointerUp(PointerEventData eventData) { }
 
-	// RVA: 0x1720830 Offset: 0x171EE30 VA: 0x181720830 Slot: 31
+	// RVA: 0x1719C70 Offset: 0x1718270 VA: 0x181719C70 Slot: 31
 	public override void OnMove(AxisEventData eventData) { }
 
-	// RVA: 0x1720240 Offset: 0x171E840 VA: 0x181720240 Slot: 27
+	// RVA: 0x1719680 Offset: 0x1717C80 VA: 0x181719680 Slot: 27
 	public override Selectable FindSelectableOnLeft() { }
 
-	// RVA: 0x1720270 Offset: 0x171E870 VA: 0x181720270 Slot: 28
+	// RVA: 0x17196B0 Offset: 0x1717CB0 VA: 0x1817196B0 Slot: 28
 	public override Selectable FindSelectableOnRight() { }
 
-	// RVA: 0x17202A0 Offset: 0x171E8A0 VA: 0x1817202A0 Slot: 29
+	// RVA: 0x17196E0 Offset: 0x1717CE0 VA: 0x1817196E0 Slot: 29
 	public override Selectable FindSelectableOnUp() { }
 
-	// RVA: 0x1720210 Offset: 0x171E810 VA: 0x181720210 Slot: 30
+	// RVA: 0x1719650 Offset: 0x1717C50 VA: 0x181719650 Slot: 30
 	public override Selectable FindSelectableOnDown() { }
 
-	// RVA: 0xFCF150 Offset: 0xFCD750 VA: 0x180FCF150 Slot: 54
+	// RVA: 0xFCFBF0 Offset: 0xFCE1F0 VA: 0x180FCFBF0 Slot: 54
 	public virtual void OnInitializePotentialDrag(PointerEventData eventData) { }
 
-	// RVA: 0x1720D30 Offset: 0x171F330 VA: 0x181720D30
+	// RVA: 0x171A170 Offset: 0x1718770 VA: 0x18171A170
 	public void SetDirection(Scrollbar.Direction direction, bool includeRectLayouts) { }
 
-	// RVA: 0xABD5D0 Offset: 0xABBBD0 VA: 0x180ABD5D0 Slot: 43
+	// RVA: 0xABDAA0 Offset: 0xABC0A0 VA: 0x180ABDAA0 Slot: 43
 	private Transform UnityEngine.UI.ICanvasElement.get_transform() { }
 
 }
@@ -181,7 +181,7 @@ public enum Scrollbar.Direction // TypeDefIndex: 4999
 public class Scrollbar.ScrollEvent : UnityEvent<float> // TypeDefIndex: 5000
 {	// Methods
 
-	// RVA: 0x171B220 Offset: 0x1719820 VA: 0x18171B220
+	// RVA: 0x1714670 Offset: 0x1712C70 VA: 0x181714670
 	public void .ctor() { }
 
 }
@@ -215,7 +215,7 @@ private sealed class Scrollbar.<ClickRepeat>d__57 : IEnumerator<object>, IEnumer
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x1726FE0 Offset: 0x17255E0 VA: 0x181726FE0 Slot: 6
+	// RVA: 0x1720400 Offset: 0x171EA00 VA: 0x181720400 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -223,7 +223,7 @@ private sealed class Scrollbar.<ClickRepeat>d__57 : IEnumerator<object>, IEnumer
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1727220 Offset: 0x1725820 VA: 0x181727220 Slot: 8
+	// RVA: 0x1720640 Offset: 0x171EC40 VA: 0x181720640 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

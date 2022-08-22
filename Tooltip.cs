@@ -14,28 +14,28 @@ public class Tooltip : BaseMonoBehaviour, IClientComponent, IPointerEnterHandler
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string get_english() { }
 
-	// RVA: 0xA09E90 Offset: 0xA08490 VA: 0x180A09E90 Slot: 6
+	// RVA: 0xA0A380 Offset: 0xA08980 VA: 0x180A0A380 Slot: 6
 	public void OnPointerEnter(PointerEventData eventData) { }
 
-	// RVA: 0xA09FA0 Offset: 0xA085A0 VA: 0x180A09FA0
+	// RVA: 0xA0A490 Offset: 0xA08A90 VA: 0x180A0A490
 	public void OpenTooltip() { }
 
-	// RVA: 0xA09F30 Offset: 0xA08530 VA: 0x180A09F30 Slot: 7
+	// RVA: 0xA0A420 Offset: 0xA08A20 VA: 0x180A0A420 Slot: 7
 	public void OnPointerExit(PointerEventData eventData) { }
 
-	// RVA: 0xA09DB0 Offset: 0xA083B0 VA: 0x180A09DB0
+	// RVA: 0xA0A2A0 Offset: 0xA088A0 VA: 0x180A0A2A0
 	public static void KillTooltip() { }
 
-	// RVA: 0xA09C60 Offset: 0xA08260 VA: 0x180A09C60
+	// RVA: 0xA0A150 Offset: 0xA08750 VA: 0x180A0A150
 	private Canvas GetTopMostCanvas() { }
 
-	// RVA: 0xA098D0 Offset: 0xA07ED0 VA: 0x180A098D0
+	// RVA: 0xA09DC0 Offset: 0xA083C0 VA: 0x180A09DC0
 	private void CreateTextTooltip() { }
 
-	// RVA: 0xA09FC0 Offset: 0xA085C0 VA: 0x180A09FC0
+	// RVA: 0xA0A4B0 Offset: 0xA08AB0 VA: 0x180A0A4B0
 	private static string ParseTokens(string text) { }
 
-	// RVA: 0xA0A320 Offset: 0xA08920 VA: 0x180A0A320
+	// RVA: 0xA0A810 Offset: 0xA08E10 VA: 0x180A0A810
 	public void .ctor() { }
 
 }

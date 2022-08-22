@@ -17,10 +17,10 @@ public struct AnimatorStateInfo // TypeDefIndex: 4485
 
 	// Methods
 
-	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
+	// RVA: 0x13A3C0 Offset: 0x1397C0 VA: 0x18013A3C0
 	public int get_shortNameHash() { }
 
-	// RVA: 0x212350 Offset: 0x211750 VA: 0x180212350
+	// RVA: 0x211780 Offset: 0x210B80 VA: 0x180211780
 	public float get_normalizedTime() { }
 
 	// RVA: 0x23D1A0 Offset: 0x23C5A0 VA: 0x18023D1A0

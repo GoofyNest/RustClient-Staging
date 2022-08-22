@@ -73,7 +73,7 @@ public struct ParticleSystemJobData // TypeDefIndex: 4550
 	internal NativeArray<T> CreateNativeArray<T>(void* src, int count) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x2254C0 Offset: 0x2248C0 VA: 0x1802254C0
+	|-RVA: 0x225340 Offset: 0x224740 VA: 0x180225340
 	|-ParticleSystemJobData.CreateNativeArray<float>
 	|-ParticleSystemJobData.CreateNativeArray<uint>
 	|-ParticleSystemJobData.CreateNativeArray<Color32>

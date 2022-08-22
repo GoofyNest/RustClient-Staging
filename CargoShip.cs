@@ -31,32 +31,32 @@ public class CargoShip : BaseEntity // TypeDefIndex: 8287
 
 	// Methods
 
-	// RVA: 0x52BEF0 Offset: 0x52A4F0 VA: 0x18052BEF0 Slot: 34
+	// RVA: 0x52BE80 Offset: 0x52A480 VA: 0x18052BE80 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x52C440 Offset: 0x52AA40 VA: 0x18052C440
+	// RVA: 0x52C3D0 Offset: 0x52A9D0 VA: 0x18052C3D0
 	public void RefreshActiveLayout() { }
 
-	// RVA: 0x52C4D0 Offset: 0x52AAD0 VA: 0x18052C4D0
+	// RVA: 0x52C460 Offset: 0x52AA60 VA: 0x18052C460
 	public void Update() { }
 
-	// RVA: 0x52BD40 Offset: 0x52A340 VA: 0x18052BD40 Slot: 14
+	// RVA: 0x52BCD0 Offset: 0x52A2D0 VA: 0x18052BCD0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x52C3B0 Offset: 0x52A9B0 VA: 0x18052C3B0 Slot: 16
+	// RVA: 0x52C340 Offset: 0x52A940 VA: 0x18052C340 Slot: 16
 	public override void PostNetworkUpdate() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x52BEB0 Offset: 0x52A4B0 VA: 0x18052BEB0
+	// RVA: 0x52BE40 Offset: 0x52A440 VA: 0x18052BE40
 	public void DoHornSound(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 129
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 129
 	public override bool SupportsChildDeployables() { }
 
-	// RVA: 0x52BF50 Offset: 0x52A550 VA: 0x18052BF50 Slot: 35
+	// RVA: 0x52BEE0 Offset: 0x52A4E0 VA: 0x18052BEE0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x52C670 Offset: 0x52AC70 VA: 0x18052C670
+	// RVA: 0x52C600 Offset: 0x52AC00 VA: 0x18052C600
 	public void .ctor() { }
 
 }

@@ -26,22 +26,22 @@ internal class ValidatingReaderNodeData // TypeDefIndex: 1870
 
 	// Methods
 
-	// RVA: 0xE505C0 Offset: 0xE4EBC0 VA: 0x180E505C0
+	// RVA: 0xE51070 Offset: 0xE4F670 VA: 0x180E51070
 	public void .ctor() { }
 
-	// RVA: 0xE50590 Offset: 0xE4EB90 VA: 0x180E50590
+	// RVA: 0xE51040 Offset: 0xE4F640 VA: 0x180E51040
 	public void .ctor(XmlNodeType nodeType) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_LocalName() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_LocalName(string value) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string get_Namespace() { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_Namespace(string value) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -50,58 +50,58 @@ internal class ValidatingReaderNodeData // TypeDefIndex: 1870
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_Prefix(string value) { }
 
-	// RVA: 0xE50340 Offset: 0xE4E940 VA: 0x180E50340
+	// RVA: 0xE50DF0 Offset: 0xE4F3F0 VA: 0x180E50DF0
 	public string GetAtomizedNameWPrefix(XmlNameTable nameTable) { }
 
-	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
+	// RVA: 0x5DE3D0 Offset: 0x5DC9D0 VA: 0x1805DE3D0
 	public int get_Depth() { }
 
-	// RVA: 0x684160 Offset: 0x682760 VA: 0x180684160
+	// RVA: 0x6840F0 Offset: 0x6826F0 VA: 0x1806840F0
 	public void set_Depth(int value) { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public string get_RawValue() { }
 
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	public void set_RawValue(string value) { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public string get_OriginalStringValue() { }
 
-	// RVA: 0x8D9010 Offset: 0x8D7610 VA: 0x1808D9010
+	// RVA: 0x8D9520 Offset: 0x8D7B20 VA: 0x1808D9520
 	public XmlNodeType get_NodeType() { }
 
-	// RVA: 0x8D9050 Offset: 0x8D7650 VA: 0x1808D9050
+	// RVA: 0x8D9560 Offset: 0x8D7B60 VA: 0x1808D9560
 	public void set_NodeType(XmlNodeType value) { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	public AttributePSVIInfo get_AttInfo() { }
 
-	// RVA: 0x5DD810 Offset: 0x5DBE10 VA: 0x1805DD810
+	// RVA: 0x5DD7A0 Offset: 0x5DBDA0 VA: 0x1805DD7A0
 	public void set_AttInfo(AttributePSVIInfo value) { }
 
-	// RVA: 0x5DE920 Offset: 0x5DCF20 VA: 0x1805DE920
+	// RVA: 0x5DE8B0 Offset: 0x5DCEB0 VA: 0x1805DE8B0
 	public int get_LineNumber() { }
 
-	// RVA: 0xAE9AA0 Offset: 0xAE80A0 VA: 0x180AE9AA0
+	// RVA: 0xAE9F70 Offset: 0xAE8570 VA: 0x180AE9F70
 	public int get_LinePosition() { }
 
-	// RVA: 0xE50270 Offset: 0xE4E870 VA: 0x180E50270
+	// RVA: 0xE50D20 Offset: 0xE4F320 VA: 0x180E50D20
 	internal void Clear(XmlNodeType nodeType) { }
 
-	// RVA: 0xE50510 Offset: 0xE4EB10 VA: 0x180E50510
+	// RVA: 0xE50FC0 Offset: 0xE4F5C0 VA: 0x180E50FC0
 	internal void SetLineInfo(int lineNo, int linePos) { }
 
-	// RVA: 0xE50520 Offset: 0xE4EB20 VA: 0x180E50520
+	// RVA: 0xE50FD0 Offset: 0xE4F5D0 VA: 0x180E50FD0
 	internal void SetLineInfo(IXmlLineInfo lineInfo) { }
 
-	// RVA: 0xE50470 Offset: 0xE4EA70 VA: 0x180E50470
+	// RVA: 0xE50F20 Offset: 0xE4F520 VA: 0x180E50F20
 	internal void SetItemData(string localName, string prefix, string ns, int depth) { }
 
-	// RVA: 0xE503F0 Offset: 0xE4E9F0 VA: 0x180E503F0
+	// RVA: 0xE50EA0 Offset: 0xE4F4A0 VA: 0x180E50EA0
 	internal void SetItemData(string value) { }
 
-	// RVA: 0xE50430 Offset: 0xE4EA30 VA: 0x180E50430
+	// RVA: 0xE50EE0 Offset: 0xE4F4E0 VA: 0x180E50EE0
 	internal void SetItemData(string value, string originalStringValue) { }
 
 }

@@ -7,19 +7,19 @@ public static class JsonUtility // TypeDefIndex: 4525
 
 	[ThreadSafeAttribute] // RVA: 0xE7F30 Offset: 0xE7330 VA: 0x1800E7F30
 	[FreeFunctionAttribute] // RVA: 0xE7F30 Offset: 0xE7330 VA: 0x1800E7F30
-	// RVA: 0x2322A10 Offset: 0x2321010 VA: 0x182322A10
+	// RVA: 0x2323230 Offset: 0x2321830 VA: 0x182323230
 	private static object FromJsonInternal(string json, object objectToOverwrite, Type type) { }
 
 	// RVA: -1 Offset: -1
 	public static T FromJson<T>(string json) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9370 Offset: 0x15B7970 VA: 0x1815B9370
+	|-RVA: 0x15B8440 Offset: 0x15B6A40 VA: 0x1815B8440
 	|-JsonUtility.FromJson<RandomUsernames.DataFile>
 	|-JsonUtility.FromJson<object>
 	*/
 
-	// RVA: 0x2322A70 Offset: 0x2321070 VA: 0x182322A70
+	// RVA: 0x2323290 Offset: 0x2321890 VA: 0x182323290
 	public static object FromJson(string json, Type type) { }
 
 }
@@ -72,19 +72,19 @@ internal abstract class JSONNode // TypeDefIndex: 5639
 
 	// Methods
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 4
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 4
 	public virtual JSONNode get_Item(int aIndex) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 5
 	public virtual JSONNode get_Item(string aKey) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 6
 	public virtual void set_Item(string aKey, JSONNode value) { }
 
-	// RVA: 0x13CAB50 Offset: 0x13C9150 VA: 0x1813CAB50 Slot: 7
+	// RVA: 0x13C9C50 Offset: 0x13C8250 VA: 0x1813C9C50 Slot: 7
 	public virtual string get_Value() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 8
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 8
 	public virtual int get_Count() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 9
@@ -99,14 +99,14 @@ internal abstract class JSONNode // TypeDefIndex: 5639
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 12
 	public virtual void Add(string aKey, JSONNode aItem) { }
 
-	// RVA: 0x13C9480 Offset: 0x13C7A80 VA: 0x1813C9480 Slot: 13
+	// RVA: 0x13C8580 Offset: 0x13C6B80 VA: 0x1813C8580 Slot: 13
 	public virtual void Add(JSONNode aItem) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xBB950 Offset: 0xBAD50 VA: 0x1800BB950
-	// RVA: 0x13CAA60 Offset: 0x13C9060 VA: 0x1813CAA60 Slot: 14
+	// RVA: 0x13C9B60 Offset: 0x13C8160 VA: 0x1813C9B60 Slot: 14
 	public virtual IEnumerable<JSONNode> get_Children() { }
 
-	// RVA: 0x13CA6B0 Offset: 0x13C8CB0 VA: 0x1813CA6B0 Slot: 3
+	// RVA: 0x13C97B0 Offset: 0x13C7DB0 VA: 0x1813C97B0 Slot: 3
 	public override string ToString() { }
 
 	// RVA: -1 Offset: -1 Slot: 15
@@ -115,76 +115,76 @@ internal abstract class JSONNode // TypeDefIndex: 5639
 	// RVA: -1 Offset: -1 Slot: 16
 	public abstract JSONNode.Enumerator GetEnumerator();
 
-	// RVA: 0x13CA890 Offset: 0x13C8E90 VA: 0x1813CA890 Slot: 17
+	// RVA: 0x13C9990 Offset: 0x13C7F90 VA: 0x1813C9990 Slot: 17
 	public virtual double get_AsDouble() { }
 
-	// RVA: 0x13CA970 Offset: 0x13C8F70 VA: 0x1813CA970 Slot: 18
+	// RVA: 0x13C9A70 Offset: 0x13C8070 VA: 0x1813C9A70 Slot: 18
 	public virtual int get_AsInt() { }
 
-	// RVA: 0x13CA7D0 Offset: 0x13C8DD0 VA: 0x1813CA7D0 Slot: 19
+	// RVA: 0x13C98D0 Offset: 0x13C7ED0 VA: 0x1813C98D0 Slot: 19
 	public virtual bool get_AsBool() { }
 
-	// RVA: 0x13CA990 Offset: 0x13C8F90 VA: 0x1813CA990 Slot: 20
+	// RVA: 0x13C9A90 Offset: 0x13C8090 VA: 0x1813C9A90 Slot: 20
 	public virtual long get_AsLong() { }
 
-	// RVA: 0x13CA750 Offset: 0x13C8D50 VA: 0x1813CA750 Slot: 21
+	// RVA: 0x13C9850 Offset: 0x13C7E50 VA: 0x1813C9850 Slot: 21
 	public virtual JSONArray get_AsArray() { }
 
-	// RVA: 0x13CA9E0 Offset: 0x13C8FE0 VA: 0x1813CA9E0 Slot: 22
+	// RVA: 0x13C9AE0 Offset: 0x13C80E0 VA: 0x1813C9AE0 Slot: 22
 	public virtual JSONObject get_AsObject() { }
 
-	// RVA: 0x13CAD80 Offset: 0x13C9380 VA: 0x1813CAD80
+	// RVA: 0x13C9E80 Offset: 0x13C8480 VA: 0x1813C9E80
 	public static JSONNode op_Implicit(string s) { }
 
-	// RVA: 0x13CADE0 Offset: 0x13C93E0 VA: 0x1813CADE0
+	// RVA: 0x13C9EE0 Offset: 0x13C84E0 VA: 0x1813C9EE0
 	public static string op_Implicit(JSONNode d) { }
 
-	// RVA: 0x13CAE30 Offset: 0x13C9430 VA: 0x1813CAE30
+	// RVA: 0x13C9F30 Offset: 0x13C8530 VA: 0x1813C9F30
 	public static JSONNode op_Implicit(double n) { }
 
-	// RVA: 0x13CAD20 Offset: 0x13C9320 VA: 0x1813CAD20
+	// RVA: 0x13C9E20 Offset: 0x13C8420 VA: 0x1813C9E20
 	public static JSONNode op_Implicit(bool b) { }
 
-	// RVA: 0x13CAB80 Offset: 0x13C9180 VA: 0x1813CAB80
+	// RVA: 0x13C9C80 Offset: 0x13C8280 VA: 0x1813C9C80
 	public static bool op_Equality(JSONNode a, object b) { }
 
-	// RVA: 0x13CAE90 Offset: 0x13C9490 VA: 0x1813CAE90
+	// RVA: 0x13C9F90 Offset: 0x13C8590 VA: 0x1813C9F90
 	public static bool op_Inequality(JSONNode a, object b) { }
 
-	// RVA: 0xAE5CA0 Offset: 0xAE42A0 VA: 0x180AE5CA0 Slot: 0
+	// RVA: 0xAE6170 Offset: 0xAE4770 VA: 0x180AE6170 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xCCE820 Offset: 0xCCCE20 VA: 0x180CCE820 Slot: 2
+	// RVA: 0xCCECC0 Offset: 0xCCD2C0 VA: 0x180CCECC0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13CAAC0 Offset: 0x13C90C0 VA: 0x1813CAAC0
+	// RVA: 0x13C9BC0 Offset: 0x13C81C0 VA: 0x1813C9BC0
 	internal static StringBuilder get_EscapeBuilder() { }
 
-	// RVA: 0x13C97D0 Offset: 0x13C7DD0 VA: 0x1813C97D0
+	// RVA: 0x13C88D0 Offset: 0x13C6ED0 VA: 0x1813C88D0
 	internal static string Escape(string aText) { }
 
-	// RVA: 0x13C9C30 Offset: 0x13C8230 VA: 0x1813C9C30
+	// RVA: 0x13C8D30 Offset: 0x13C7330 VA: 0x1813C8D30
 	private static JSONNode ParseElement(string token, bool quoted) { }
 
-	// RVA: 0x13C9E90 Offset: 0x13C8490 VA: 0x1813C9E90
+	// RVA: 0x13C8F90 Offset: 0x13C7590 VA: 0x1813C8F90
 	public static JSONNode Parse(string aJSON) { }
 
 	// RVA: -1 Offset: -1 Slot: 23
 	public abstract void SerializeBinary(BinaryWriter aWriter);
 
-	// RVA: 0x13CA630 Offset: 0x13C8C30 VA: 0x1813CA630
+	// RVA: 0x13C9730 Offset: 0x13C7D30 VA: 0x1813C9730
 	public void SaveToBinaryStream(Stream aData) { }
 
-	// RVA: 0x13CA490 Offset: 0x13C8A90 VA: 0x1813CA490
+	// RVA: 0x13C9590 Offset: 0x13C7B90 VA: 0x1813C9590
 	public string SaveToBinaryBase64() { }
 
-	// RVA: 0x13C94E0 Offset: 0x13C7AE0 VA: 0x1813C94E0
+	// RVA: 0x13C85E0 Offset: 0x13C6BE0 VA: 0x1813C85E0
 	public static JSONNode DeserializeBinary(BinaryReader aReader) { }
 
-	// RVA: 0x13C9B40 Offset: 0x13C8140 VA: 0x1813C9B40
+	// RVA: 0x13C8C40 Offset: 0x13C7240 VA: 0x1813C8C40
 	public static JSONNode LoadFromBinaryStream(Stream aData) { }
 
-	// RVA: 0x13C9A90 Offset: 0x13C8090 VA: 0x1813C9A90
+	// RVA: 0x13C8B90 Offset: 0x13C7190 VA: 0x1813C8B90
 	public static JSONNode LoadFromBinaryBase64(string aBase64) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -203,16 +203,16 @@ public struct JSONNode.Enumerator // TypeDefIndex: 5640
 
 	// Methods
 
-	// RVA: 0x1EEFD0 Offset: 0x1EE3D0 VA: 0x1801EEFD0
+	// RVA: 0x1EF3F0 Offset: 0x1EE7F0 VA: 0x1801EF3F0
 	public void .ctor(List.Enumerator<JSONNode> aArrayEnum) { }
 
-	// RVA: 0x1EF010 Offset: 0x1EE410 VA: 0x1801EF010
+	// RVA: 0x1EF430 Offset: 0x1EE830 VA: 0x1801EF430
 	public void .ctor(Dictionary.Enumerator<string, JSONNode> aDictEnum) { }
 
-	// RVA: 0x1EF060 Offset: 0x1EE460 VA: 0x1801EF060
+	// RVA: 0x1EF480 Offset: 0x1EE880 VA: 0x1801EF480
 	public KeyValuePair<string, JSONNode> get_Current() { }
 
-	// RVA: 0x1EEF60 Offset: 0x1EE360 VA: 0x1801EEF60
+	// RVA: 0x1EF380 Offset: 0x1EE780 VA: 0x1801EF380
 	public bool MoveNext() { }
 
 }
@@ -239,14 +239,14 @@ private sealed class JSONNode.<get_Children>d__40 : IEnumerable<JSONNode>, IEnum
 	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87750 Offset: 0xD85D50 VA: 0x180D87750
+	// RVA: 0xD88200 Offset: 0xD86800 VA: 0x180D88200
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x13CFA40 Offset: 0x13CE040 VA: 0x1813CFA40 Slot: 8
+	// RVA: 0x13CEB40 Offset: 0x13CD140 VA: 0x1813CEB40 Slot: 8
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -254,7 +254,7 @@ private sealed class JSONNode.<get_Children>d__40 : IEnumerable<JSONNode>, IEnum
 	private JSONNode System.Collections.Generic.IEnumerator<GameAnalyticsSDK.Net.Utilities.JSONNode>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13CFAE0 Offset: 0x13CE0E0 VA: 0x1813CFAE0 Slot: 10
+	// RVA: 0x13CEBE0 Offset: 0x13CD1E0 VA: 0x1813CEBE0 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -262,11 +262,11 @@ private sealed class JSONNode.<get_Children>d__40 : IEnumerable<JSONNode>, IEnum
 	private object System.Collections.IEnumerator.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13CFA50 Offset: 0x13CE050 VA: 0x1813CFA50 Slot: 4
+	// RVA: 0x13CEB50 Offset: 0x13CD150 VA: 0x1813CEB50 Slot: 4
 	private IEnumerator<JSONNode> System.Collections.Generic.IEnumerable<GameAnalyticsSDK.Net.Utilities.JSONNode>.GetEnumerator() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13CFA50 Offset: 0x13CE050 VA: 0x1813CFA50 Slot: 5
+	// RVA: 0x13CEB50 Offset: 0x13CD150 VA: 0x1813CEB50 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
@@ -285,38 +285,38 @@ internal class JSONArray : JSONNode // TypeDefIndex: 5643
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 11
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 11
 	public override bool get_IsArray() { }
 
-	// RVA: 0x13C8530 Offset: 0x13C6B30 VA: 0x1813C8530 Slot: 16
+	// RVA: 0x13C7630 Offset: 0x13C5C30 VA: 0x1813C7630 Slot: 16
 	public override JSONNode.Enumerator GetEnumerator() { }
 
-	// RVA: 0x13C89B0 Offset: 0x13C6FB0 VA: 0x1813C89B0 Slot: 4
+	// RVA: 0x13C7AB0 Offset: 0x13C60B0 VA: 0x1813C7AB0 Slot: 4
 	public override JSONNode get_Item(int aIndex) { }
 
-	// RVA: 0x13C8940 Offset: 0x13C6F40 VA: 0x1813C8940 Slot: 5
+	// RVA: 0x13C7A40 Offset: 0x13C6040 VA: 0x1813C7A40 Slot: 5
 	public override JSONNode get_Item(string aKey) { }
 
-	// RVA: 0x13C8A70 Offset: 0x13C7070 VA: 0x1813C8A70 Slot: 6
+	// RVA: 0x13C7B70 Offset: 0x13C6170 VA: 0x1813C7B70 Slot: 6
 	public override void set_Item(string aKey, JSONNode value) { }
 
-	// RVA: 0x13C8900 Offset: 0x13C6F00 VA: 0x1813C8900 Slot: 8
+	// RVA: 0x13C7A00 Offset: 0x13C6000 VA: 0x1813C7A00 Slot: 8
 	public override int get_Count() { }
 
-	// RVA: 0x13C84A0 Offset: 0x13C6AA0 VA: 0x1813C84A0 Slot: 12
+	// RVA: 0x13C75A0 Offset: 0x13C5BA0 VA: 0x1813C75A0 Slot: 12
 	public override void Add(string aKey, JSONNode aItem) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xBBEB0 Offset: 0xBB2B0 VA: 0x1800BBEB0
-	// RVA: 0x13C8890 Offset: 0x13C6E90 VA: 0x1813C8890 Slot: 14
+	// RVA: 0x13C7990 Offset: 0x13C5F90 VA: 0x1813C7990 Slot: 14
 	public override IEnumerable<JSONNode> get_Children() { }
 
-	// RVA: 0x13C86C0 Offset: 0x13C6CC0 VA: 0x1813C86C0 Slot: 15
+	// RVA: 0x13C77C0 Offset: 0x13C5DC0 VA: 0x1813C77C0 Slot: 15
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode) { }
 
-	// RVA: 0x13C85C0 Offset: 0x13C6BC0 VA: 0x1813C85C0 Slot: 23
+	// RVA: 0x13C76C0 Offset: 0x13C5CC0 VA: 0x1813C76C0 Slot: 23
 	public override void SerializeBinary(BinaryWriter aWriter) { }
 
-	// RVA: 0x13C8820 Offset: 0x13C6E20 VA: 0x1813C8820
+	// RVA: 0x13C7920 Offset: 0x13C5F20 VA: 0x1813C7920
 	public void .ctor() { }
 
 }
@@ -336,17 +336,17 @@ private sealed class JSONArray.<get_Children>d__22 : IEnumerable<JSONNode>, IEnu
 	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87750 Offset: 0xD85D50 VA: 0x180D87750
+	// RVA: 0xD88200 Offset: 0xD86800 VA: 0x180D88200
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13CF620 Offset: 0x13CDC20 VA: 0x1813CF620 Slot: 7
+	// RVA: 0x13CE720 Offset: 0x13CCD20 VA: 0x1813CE720 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x13CF3D0 Offset: 0x13CD9D0 VA: 0x1813CF3D0 Slot: 8
+	// RVA: 0x13CE4D0 Offset: 0x13CCAD0 VA: 0x1813CE4D0 Slot: 8
 	private bool MoveNext() { }
 
-	// RVA: 0x13CF6C0 Offset: 0x13CDCC0 VA: 0x1813CF6C0
+	// RVA: 0x13CE7C0 Offset: 0x13CCDC0 VA: 0x1813CE7C0
 	private void <>m__Finally1() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -354,7 +354,7 @@ private sealed class JSONArray.<get_Children>d__22 : IEnumerable<JSONNode>, IEnu
 	private JSONNode System.Collections.Generic.IEnumerator<GameAnalyticsSDK.Net.Utilities.JSONNode>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13CF5D0 Offset: 0x13CDBD0 VA: 0x1813CF5D0 Slot: 10
+	// RVA: 0x13CE6D0 Offset: 0x13CCCD0 VA: 0x1813CE6D0 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -362,11 +362,11 @@ private sealed class JSONArray.<get_Children>d__22 : IEnumerable<JSONNode>, IEnu
 	private object System.Collections.IEnumerator.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13CF530 Offset: 0x13CDB30 VA: 0x1813CF530 Slot: 4
+	// RVA: 0x13CE630 Offset: 0x13CCC30 VA: 0x1813CE630 Slot: 4
 	private IEnumerator<JSONNode> System.Collections.Generic.IEnumerable<GameAnalyticsSDK.Net.Utilities.JSONNode>.GetEnumerator() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13CF530 Offset: 0x13CDB30 VA: 0x1813CF530 Slot: 5
+	// RVA: 0x13CE630 Offset: 0x13CCC30 VA: 0x1813CE630 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
@@ -384,35 +384,35 @@ internal class JSONObject : JSONNode // TypeDefIndex: 5645
 
 	// Methods
 
-	// RVA: 0x13CB7C0 Offset: 0x13C9DC0 VA: 0x1813CB7C0 Slot: 16
+	// RVA: 0x13CA8C0 Offset: 0x13C8EC0 VA: 0x1813CA8C0 Slot: 16
 	public override JSONNode.Enumerator GetEnumerator() { }
 
-	// RVA: 0x13CBEA0 Offset: 0x13CA4A0 VA: 0x1813CBEA0 Slot: 5
+	// RVA: 0x13CAFA0 Offset: 0x13C95A0 VA: 0x1813CAFA0 Slot: 5
 	public override JSONNode get_Item(string aKey) { }
 
-	// RVA: 0x13CBF70 Offset: 0x13CA570 VA: 0x1813CBF70 Slot: 6
+	// RVA: 0x13CB070 Offset: 0x13C9670 VA: 0x1813CB070 Slot: 6
 	public override void set_Item(string aKey, JSONNode value) { }
 
-	// RVA: 0x13CBE10 Offset: 0x13CA410 VA: 0x1813CBE10 Slot: 4
+	// RVA: 0x13CAF10 Offset: 0x13C9510 VA: 0x1813CAF10 Slot: 4
 	public override JSONNode get_Item(int aIndex) { }
 
-	// RVA: 0x13CBDC0 Offset: 0x13CA3C0 VA: 0x1813CBDC0 Slot: 8
+	// RVA: 0x13CAEC0 Offset: 0x13C94C0 VA: 0x1813CAEC0 Slot: 8
 	public override int get_Count() { }
 
-	// RVA: 0x13CB670 Offset: 0x13C9C70 VA: 0x1813CB670 Slot: 12
+	// RVA: 0x13CA770 Offset: 0x13C8D70 VA: 0x1813CA770 Slot: 12
 	public override void Add(string aKey, JSONNode aItem) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xBDD90 Offset: 0xBD190 VA: 0x1800BDD90
-	// RVA: 0x13CBD50 Offset: 0x13CA350 VA: 0x1813CBD50 Slot: 14
+	// RVA: 0x13CAE50 Offset: 0x13C9450 VA: 0x1813CAE50 Slot: 14
 	public override IEnumerable<JSONNode> get_Children() { }
 
-	// RVA: 0x13CBA40 Offset: 0x13CA040 VA: 0x1813CBA40 Slot: 15
+	// RVA: 0x13CAB40 Offset: 0x13C9140 VA: 0x1813CAB40 Slot: 15
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode) { }
 
-	// RVA: 0x13CB870 Offset: 0x13C9E70 VA: 0x1813CB870 Slot: 23
+	// RVA: 0x13CA970 Offset: 0x13C8F70 VA: 0x1813CA970 Slot: 23
 	public override void SerializeBinary(BinaryWriter aWriter) { }
 
-	// RVA: 0x13CBCE0 Offset: 0x13CA2E0 VA: 0x1813CBCE0
+	// RVA: 0x13CADE0 Offset: 0x13C93E0 VA: 0x1813CADE0
 	public void .ctor() { }
 
 }
@@ -432,17 +432,17 @@ private sealed class JSONObject.<get_Children>d__23 : IEnumerable<JSONNode>, IEn
 	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87750 Offset: 0xD85D50 VA: 0x180D87750
+	// RVA: 0xD88200 Offset: 0xD86800 VA: 0x180D88200
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13CF960 Offset: 0x13CDF60 VA: 0x1813CF960 Slot: 7
+	// RVA: 0x13CEA60 Offset: 0x13CD060 VA: 0x1813CEA60 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x13CF700 Offset: 0x13CDD00 VA: 0x1813CF700 Slot: 8
+	// RVA: 0x13CE800 Offset: 0x13CCE00 VA: 0x1813CE800 Slot: 8
 	private bool MoveNext() { }
 
-	// RVA: 0x13CFA00 Offset: 0x13CE000 VA: 0x1813CFA00
+	// RVA: 0x13CEB00 Offset: 0x13CD100 VA: 0x1813CEB00
 	private void <>m__Finally1() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -450,7 +450,7 @@ private sealed class JSONObject.<get_Children>d__23 : IEnumerable<JSONNode>, IEn
 	private JSONNode System.Collections.Generic.IEnumerator<GameAnalyticsSDK.Net.Utilities.JSONNode>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13CF910 Offset: 0x13CDF10 VA: 0x1813CF910 Slot: 10
+	// RVA: 0x13CEA10 Offset: 0x13CD010 VA: 0x1813CEA10 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -458,11 +458,11 @@ private sealed class JSONObject.<get_Children>d__23 : IEnumerable<JSONNode>, IEn
 	private object System.Collections.IEnumerator.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13CF870 Offset: 0x13CDE70 VA: 0x1813CF870 Slot: 4
+	// RVA: 0x13CE970 Offset: 0x13CCF70 VA: 0x1813CE970 Slot: 4
 	private IEnumerator<JSONNode> System.Collections.Generic.IEnumerable<GameAnalyticsSDK.Net.Utilities.JSONNode>.GetEnumerator() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13CF870 Offset: 0x13CDE70 VA: 0x1813CF870 Slot: 5
+	// RVA: 0x13CE970 Offset: 0x13CCF70 VA: 0x1813CE970 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
@@ -476,25 +476,25 @@ internal class JSONString : JSONNode // TypeDefIndex: 5647
 
 	// Methods
 
-	// RVA: 0x13C8B90 Offset: 0x13C7190 VA: 0x1813C8B90 Slot: 16
+	// RVA: 0x13C7C90 Offset: 0x13C6290 VA: 0x1813C7C90 Slot: 16
 	public override JSONNode.Enumerator GetEnumerator() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 7
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 7
 	public override string get_Value() { }
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	public void .ctor(string aData) { }
 
-	// RVA: 0x13CC250 Offset: 0x13CA850 VA: 0x1813CC250 Slot: 15
+	// RVA: 0x13CB350 Offset: 0x13C9950 VA: 0x1813CB350 Slot: 15
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode) { }
 
-	// RVA: 0x13CC050 Offset: 0x13CA650 VA: 0x1813CC050 Slot: 0
+	// RVA: 0x13CB150 Offset: 0x13C9750 VA: 0x1813CB150 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xDE2260 Offset: 0xDE0860 VA: 0x180DE2260 Slot: 2
+	// RVA: 0xDE2D10 Offset: 0xDE1310 VA: 0x180DE2D10 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13CC1F0 Offset: 0x13CA7F0 VA: 0x1813CC1F0 Slot: 23
+	// RVA: 0x13CB2F0 Offset: 0x13C98F0 VA: 0x1813CB2F0 Slot: 23
 	public override void SerializeBinary(BinaryWriter aWriter) { }
 
 }
@@ -511,37 +511,37 @@ internal class JSONNumber : JSONNode // TypeDefIndex: 5648
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 9
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 9
 	public override bool get_IsNumber() { }
 
-	// RVA: 0x13C8B90 Offset: 0x13C7190 VA: 0x1813C8B90 Slot: 16
+	// RVA: 0x13C7C90 Offset: 0x13C6290 VA: 0x1813C7C90 Slot: 16
 	public override JSONNode.Enumerator GetEnumerator() { }
 
-	// RVA: 0x13CB610 Offset: 0x13C9C10 VA: 0x1813CB610 Slot: 7
+	// RVA: 0x13CA710 Offset: 0x13C8D10 VA: 0x1813CA710 Slot: 7
 	public override string get_Value() { }
 
-	// RVA: 0xB3BB50 Offset: 0xB3A150 VA: 0x180B3BB50 Slot: 17
+	// RVA: 0xB3C020 Offset: 0xB3A620 VA: 0x180B3C020 Slot: 17
 	public override double get_AsDouble() { }
 
-	// RVA: 0x13CB600 Offset: 0x13C9C00 VA: 0x1813CB600 Slot: 20
+	// RVA: 0x13CA700 Offset: 0x13C8D00 VA: 0x1813CA700 Slot: 20
 	public override long get_AsLong() { }
 
-	// RVA: 0x13CB5D0 Offset: 0x13C9BD0 VA: 0x1813CB5D0
+	// RVA: 0x13CA6D0 Offset: 0x13C8CD0 VA: 0x1813CA6D0
 	public void .ctor(double aData) { }
 
-	// RVA: 0x13CB590 Offset: 0x13C9B90 VA: 0x1813CB590 Slot: 15
+	// RVA: 0x13CA690 Offset: 0x13C8C90 VA: 0x1813CA690 Slot: 15
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode) { }
 
-	// RVA: 0x13CB410 Offset: 0x13C9A10 VA: 0x1813CB410
+	// RVA: 0x13CA510 Offset: 0x13C8B10 VA: 0x1813CA510
 	private static bool IsNumeric(object value) { }
 
-	// RVA: 0x13CB140 Offset: 0x13C9740 VA: 0x1813CB140 Slot: 0
+	// RVA: 0x13CA240 Offset: 0x13C8840 VA: 0x1813CA240 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x13CB400 Offset: 0x13C9A00 VA: 0x1813CB400 Slot: 2
+	// RVA: 0x13CA500 Offset: 0x13C8B00 VA: 0x1813CA500 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13CB530 Offset: 0x13C9B30 VA: 0x1813CB530 Slot: 23
+	// RVA: 0x13CA630 Offset: 0x13C8C30 VA: 0x1813CA630 Slot: 23
 	public override void SerializeBinary(BinaryWriter aWriter) { }
 
 }
@@ -557,31 +557,31 @@ internal class JSONBool : JSONNode // TypeDefIndex: 5649
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 10
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 10
 	public override bool get_IsBoolean() { }
 
-	// RVA: 0x13C8B90 Offset: 0x13C7190 VA: 0x1813C8B90 Slot: 16
+	// RVA: 0x13C7C90 Offset: 0x13C6290 VA: 0x1813C7C90 Slot: 16
 	public override JSONNode.Enumerator GetEnumerator() { }
 
-	// RVA: 0x13C8C80 Offset: 0x13C7280 VA: 0x1813C8C80 Slot: 7
+	// RVA: 0x13C7D80 Offset: 0x13C6380 VA: 0x1813C7D80 Slot: 7
 	public override string get_Value() { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90 Slot: 19
 	public override bool get_AsBool() { }
 
-	// RVA: 0xF889C0 Offset: 0xF86FC0 VA: 0x180F889C0
+	// RVA: 0xF89460 Offset: 0xF87A60 VA: 0x180F89460
 	public void .ctor(bool aData) { }
 
-	// RVA: 0x13C8C20 Offset: 0x13C7220 VA: 0x1813C8C20 Slot: 15
+	// RVA: 0x13C7D20 Offset: 0x13C6320 VA: 0x1813C7D20 Slot: 15
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode) { }
 
-	// RVA: 0x13C8B00 Offset: 0x13C7100 VA: 0x1813C8B00 Slot: 0
+	// RVA: 0x13C7C00 Offset: 0x13C6200 VA: 0x1813C7C00 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x13C8BB0 Offset: 0x13C71B0 VA: 0x1813C8BB0 Slot: 2
+	// RVA: 0x13C7CB0 Offset: 0x13C62B0 VA: 0x1813C7CB0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13C8BC0 Offset: 0x13C71C0 VA: 0x1813C8BC0 Slot: 23
+	// RVA: 0x13C7CC0 Offset: 0x13C62C0 VA: 0x1813C7CC0 Slot: 23
 	public override void SerializeBinary(BinaryWriter aWriter) { }
 
 }
@@ -597,34 +597,34 @@ internal class JSONNull : JSONNode // TypeDefIndex: 5650
 
 	// Methods
 
-	// RVA: 0x13CAEB0 Offset: 0x13C94B0 VA: 0x1813CAEB0
+	// RVA: 0x13C9FB0 Offset: 0x13C85B0 VA: 0x1813C9FB0
 	public static JSONNull CreateOrGet() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x13C8B90 Offset: 0x13C7190 VA: 0x1813C8B90 Slot: 16
+	// RVA: 0x13C7C90 Offset: 0x13C6290 VA: 0x1813C7C90 Slot: 16
 	public override JSONNode.Enumerator GetEnumerator() { }
 
-	// RVA: 0x13CB110 Offset: 0x13C9710 VA: 0x1813CB110 Slot: 7
+	// RVA: 0x13CA210 Offset: 0x13C8810 VA: 0x1813CA210 Slot: 7
 	public override string get_Value() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 19
 	public override bool get_AsBool() { }
 
-	// RVA: 0x13CAF60 Offset: 0x13C9560 VA: 0x1813CAF60 Slot: 0
+	// RVA: 0x13CA060 Offset: 0x13C8660 VA: 0x1813CA060 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 2
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13CB050 Offset: 0x13C9650 VA: 0x1813CB050 Slot: 15
+	// RVA: 0x13CA150 Offset: 0x13C8750 VA: 0x1813CA150 Slot: 15
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode) { }
 
-	// RVA: 0x13CB020 Offset: 0x13C9620 VA: 0x1813CB020 Slot: 23
+	// RVA: 0x13CA120 Offset: 0x13C8720 VA: 0x1813CA120 Slot: 23
 	public override void SerializeBinary(BinaryWriter aWriter) { }
 
-	// RVA: 0x13CB0A0 Offset: 0x13C96A0 VA: 0x1813CB0A0
+	// RVA: 0x13CA1A0 Offset: 0x13C87A0 VA: 0x1813CA1A0
 	private static void .cctor() { }
 
 }
@@ -646,20 +646,20 @@ internal class JSONLazyCreator : JSONNode // TypeDefIndex: 5651
 
 	// Methods
 
-	// RVA: 0x13C8B90 Offset: 0x13C7190 VA: 0x1813C8B90 Slot: 16
+	// RVA: 0x13C7C90 Offset: 0x13C6290 VA: 0x1813C7C90 Slot: 16
 	public override JSONNode.Enumerator GetEnumerator() { }
 
-	// RVA: 0x13C8EC0 Offset: 0x13C74C0 VA: 0x1813C8EC0
+	// RVA: 0x13C7FC0 Offset: 0x13C65C0 VA: 0x1813C7FC0
 	public void .ctor(JSONNode aNode) { }
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	public void .ctor(JSONNode aNode, string aKey) { }
 
 	// RVA: -1 Offset: -1
 	private T Set<T>(T aVal) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CE940 Offset: 0x5CCF40 VA: 0x1805CE940
+	|-RVA: 0x5CE8D0 Offset: 0x5CCED0 VA: 0x1805CE8D0
 	|-JSONLazyCreator.Set<JSONArray>
 	|-JSONLazyCreator.Set<JSONBool>
 	|-JSONLazyCreator.Set<JSONNumber>
@@ -668,46 +668,46 @@ internal class JSONLazyCreator : JSONNode // TypeDefIndex: 5651
 	|-JSONLazyCreator.Set<object>
 	*/
 
-	// RVA: 0x13C9320 Offset: 0x13C7920 VA: 0x1813C9320 Slot: 4
+	// RVA: 0x13C8420 Offset: 0x13C6A20 VA: 0x1813C8420 Slot: 4
 	public override JSONNode get_Item(int aIndex) { }
 
-	// RVA: 0x13C92A0 Offset: 0x13C78A0 VA: 0x1813C92A0 Slot: 5
+	// RVA: 0x13C83A0 Offset: 0x13C69A0 VA: 0x1813C83A0 Slot: 5
 	public override JSONNode get_Item(string aKey) { }
 
-	// RVA: 0x13C9390 Offset: 0x13C7990 VA: 0x1813C9390 Slot: 6
+	// RVA: 0x13C8490 Offset: 0x13C6A90 VA: 0x1813C8490 Slot: 6
 	public override void set_Item(string aKey, JSONNode value) { }
 
-	// RVA: 0x13C8D80 Offset: 0x13C7380 VA: 0x1813C8D80 Slot: 13
+	// RVA: 0x13C7E80 Offset: 0x13C6480 VA: 0x1813C7E80 Slot: 13
 	public override void Add(JSONNode aItem) { }
 
-	// RVA: 0x13C8C90 Offset: 0x13C7290 VA: 0x1813C8C90 Slot: 12
+	// RVA: 0x13C7D90 Offset: 0x13C6390 VA: 0x1813C7D90 Slot: 12
 	public override void Add(string aKey, JSONNode aItem) { }
 
-	// RVA: 0x13C8E60 Offset: 0x13C7460 VA: 0x1813C8E60 Slot: 0
+	// RVA: 0x13C7F60 Offset: 0x13C6560 VA: 0x1813C7F60 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 2
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13C90A0 Offset: 0x13C76A0 VA: 0x1813C90A0 Slot: 18
+	// RVA: 0x13C81A0 Offset: 0x13C67A0 VA: 0x1813C81A0 Slot: 18
 	public override int get_AsInt() { }
 
-	// RVA: 0x13C9030 Offset: 0x13C7630 VA: 0x1813C9030 Slot: 17
+	// RVA: 0x13C8130 Offset: 0x13C6730 VA: 0x1813C8130 Slot: 17
 	public override double get_AsDouble() { }
 
-	// RVA: 0x13C9110 Offset: 0x13C7710 VA: 0x1813C9110 Slot: 20
+	// RVA: 0x13C8210 Offset: 0x13C6810 VA: 0x1813C8210 Slot: 20
 	public override long get_AsLong() { }
 
-	// RVA: 0x13C8FC0 Offset: 0x13C75C0 VA: 0x1813C8FC0 Slot: 19
+	// RVA: 0x13C80C0 Offset: 0x13C66C0 VA: 0x1813C80C0 Slot: 19
 	public override bool get_AsBool() { }
 
-	// RVA: 0x13C8F10 Offset: 0x13C7510 VA: 0x1813C8F10 Slot: 21
+	// RVA: 0x13C8010 Offset: 0x13C6610 VA: 0x1813C8010 Slot: 21
 	public override JSONArray get_AsArray() { }
 
-	// RVA: 0x13C91F0 Offset: 0x13C77F0 VA: 0x1813C91F0 Slot: 22
+	// RVA: 0x13C82F0 Offset: 0x13C68F0 VA: 0x1813C82F0 Slot: 22
 	public override JSONObject get_AsObject() { }
 
-	// RVA: 0x13C8E70 Offset: 0x13C7470 VA: 0x1813C8E70 Slot: 15
+	// RVA: 0x13C7F70 Offset: 0x13C6570 VA: 0x1813C7F70 Slot: 15
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 23
@@ -718,7 +718,7 @@ internal class JSONLazyCreator : JSONNode // TypeDefIndex: 5651
 internal static class JSON // TypeDefIndex: 5652
 {	// Methods
 
-	// RVA: 0x13CC2C0 Offset: 0x13CA8C0 VA: 0x1813CC2C0
+	// RVA: 0x13CB3C0 Offset: 0x13C99C0 VA: 0x1813CB3C0
 	public static JSONNode Parse(string aJSON) { }
 
 }
@@ -726,7 +726,7 @@ internal static class JSON // TypeDefIndex: 5652
 public sealed class JsonConstructorAttribute : Attribute // TypeDefIndex: 5872
 {	// Methods
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 }
@@ -734,16 +734,16 @@ public sealed class JsonConstructorAttribute : Attribute // TypeDefIndex: 5872
 public class JsonException : Exception // TypeDefIndex: 5874
 {	// Methods
 
-	// RVA: 0xF8B500 Offset: 0xF89B00 VA: 0x180F8B500
+	// RVA: 0xF8BFA0 Offset: 0xF8A5A0 VA: 0x180F8BFA0
 	public void .ctor() { }
 
-	// RVA: 0xF8B5E0 Offset: 0xF89BE0 VA: 0x180F8B5E0
+	// RVA: 0xF8C080 Offset: 0xF8A680 VA: 0x180F8C080
 	public void .ctor(string message) { }
 
-	// RVA: 0xF8B560 Offset: 0xF89B60 VA: 0x180F8B560
+	// RVA: 0xF8C000 Offset: 0xF8A600 VA: 0x180F8C000
 	public void .ctor(string message, Exception innerException) { }
 
-	// RVA: 0xF8B480 Offset: 0xF89A80 VA: 0x180F8B480
+	// RVA: 0xF8BF20 Offset: 0xF8A520 VA: 0x180F8BF20
 	public void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }
@@ -770,14 +770,14 @@ public class JsonExtensionDataAttribute : Attribute // TypeDefIndex: 5875
 	public void set_WriteData(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8B670 Offset: 0xF89C70 VA: 0x180F8B670
+	// RVA: 0xF8C110 Offset: 0xF8A710 VA: 0x180F8C110
 	public bool get_ReadData() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8B680 Offset: 0xF89C80 VA: 0x180F8B680
+	// RVA: 0xF8C120 Offset: 0xF8A720 VA: 0x180F8C120
 	public void set_ReadData(bool value) { }
 
-	// RVA: 0xF8B650 Offset: 0xF89C50 VA: 0x180F8B650
+	// RVA: 0xF8C0F0 Offset: 0xF8A6F0 VA: 0x180F8C0F0
 	public void .ctor() { }
 
 }
@@ -802,25 +802,25 @@ internal struct JsonPosition // TypeDefIndex: 5877
 
 	// Methods
 
-	// RVA: 0x141F70 Offset: 0x141370 VA: 0x180141F70
+	// RVA: 0x141D90 Offset: 0x141190 VA: 0x180141D90
 	public void .ctor(JsonContainerType type) { }
 
-	// RVA: 0x141F50 Offset: 0x141350 VA: 0x180141F50
+	// RVA: 0x141D70 Offset: 0x141170 VA: 0x180141D70
 	internal int CalculateLength() { }
 
-	// RVA: 0x141F60 Offset: 0x141360 VA: 0x180141F60
+	// RVA: 0x141D80 Offset: 0x141180 VA: 0x180141D80
 	internal void WriteTo(StringBuilder sb) { }
 
-	// RVA: 0x4BCCA0 Offset: 0x4BB2A0 VA: 0x1804BCCA0
+	// RVA: 0x4BCC30 Offset: 0x4BB230 VA: 0x1804BCC30
 	internal static bool TypeHasIndex(JsonContainerType type) { }
 
-	// RVA: 0xF8B690 Offset: 0xF89C90 VA: 0x180F8B690
+	// RVA: 0xF8C130 Offset: 0xF8A730 VA: 0x180F8C130
 	internal static string BuildPath(List<JsonPosition> positions, Nullable<JsonPosition> currentPosition) { }
 
-	// RVA: 0xF8BAB0 Offset: 0xF8A0B0 VA: 0x180F8BAB0
+	// RVA: 0xF8C550 Offset: 0xF8AB50 VA: 0x180F8C550
 	internal static string FormatMessage(IJsonLineInfo lineInfo, string path, string message) { }
 
-	// RVA: 0xF8BDF0 Offset: 0xF8A3F0 VA: 0x180F8BDF0
+	// RVA: 0xF8C890 Offset: 0xF8AE90 VA: 0x180F8C890
 	private static void .cctor() { }
 
 }
@@ -828,7 +828,7 @@ internal struct JsonPosition // TypeDefIndex: 5877
 public sealed class JsonRequiredAttribute : Attribute // TypeDefIndex: 5878
 {	// Methods
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 }
@@ -836,7 +836,7 @@ public sealed class JsonRequiredAttribute : Attribute // TypeDefIndex: 5878
 public sealed class JsonArrayAttribute : JsonContainerAttribute // TypeDefIndex: 5884
 {	// Methods
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 }
@@ -859,14 +859,14 @@ public abstract class JsonContainerAttribute : Attribute // TypeDefIndex: 5885
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Type get_ItemConverterType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public object[] get_ItemConverterParameters() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	protected void .ctor() { }
 
 }
@@ -883,14 +883,14 @@ public sealed class JsonConverterAttribute : Attribute // TypeDefIndex: 5887
 
 	// Methods
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Type get_ConverterType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public object[] get_ConverterParameters() { }
 
-	// RVA: 0xF8B3B0 Offset: 0xF899B0 VA: 0x180F8B3B0
+	// RVA: 0xF8BE50 Offset: 0xF8A450 VA: 0x180F8BE50
 	public void .ctor(Type converterType) { }
 
 }
@@ -905,10 +905,10 @@ public sealed class JsonObjectAttribute : JsonContainerAttribute // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50
+	// RVA: 0x6BB9E0 Offset: 0x6B9FE0 VA: 0x1806BB9E0
 	public MemberSerialization get_MemberSerialization() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 }
@@ -978,75 +978,75 @@ public class JsonSerializerSettings // TypeDefIndex: 5889
 
 	// Methods
 
-	// RVA: 0xF90AB0 Offset: 0xF8F0B0 VA: 0x180F90AB0
+	// RVA: 0xF91550 Offset: 0xF8FB50 VA: 0x180F91550
 	public ReferenceLoopHandling get_ReferenceLoopHandling() { }
 
-	// RVA: 0xF909B0 Offset: 0xF8EFB0 VA: 0x180F909B0
+	// RVA: 0xF91450 Offset: 0xF8FA50 VA: 0x180F91450
 	public MissingMemberHandling get_MissingMemberHandling() { }
 
-	// RVA: 0xF90A30 Offset: 0xF8F030 VA: 0x180F90A30
+	// RVA: 0xF914D0 Offset: 0xF8FAD0 VA: 0x180F914D0
 	public ObjectCreationHandling get_ObjectCreationHandling() { }
 
-	// RVA: 0xF909F0 Offset: 0xF8EFF0 VA: 0x180F909F0
+	// RVA: 0xF91490 Offset: 0xF8FA90 VA: 0x180F91490
 	public NullValueHandling get_NullValueHandling() { }
 
-	// RVA: 0xF90930 Offset: 0xF8EF30 VA: 0x180F90930
+	// RVA: 0xF913D0 Offset: 0xF8F9D0 VA: 0x180F913D0
 	public DefaultValueHandling get_DefaultValueHandling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD9F730 Offset: 0xD9DD30 VA: 0x180D9F730
+	// RVA: 0xDA01E0 Offset: 0xD9E7E0 VA: 0x180DA01E0
 	public IList<JsonConverter> get_Converters() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD35330 Offset: 0xD33930 VA: 0x180D35330
+	// RVA: 0xD357D0 Offset: 0xD33DD0 VA: 0x180D357D0
 	public void set_Converters(IList<JsonConverter> value) { }
 
-	// RVA: 0xF90A70 Offset: 0xF8F070 VA: 0x180F90A70
+	// RVA: 0xF91510 Offset: 0xF8FB10 VA: 0x180F91510
 	public PreserveReferencesHandling get_PreserveReferencesHandling() { }
 
-	// RVA: 0xF90B30 Offset: 0xF8F130 VA: 0x180F90B30
+	// RVA: 0xF915D0 Offset: 0xF8FBD0 VA: 0x180F915D0
 	public TypeNameHandling get_TypeNameHandling() { }
 
-	// RVA: 0xF90970 Offset: 0xF8EF70 VA: 0x180F90970
+	// RVA: 0xF91410 Offset: 0xF8FA10 VA: 0x180F91410
 	public MetadataPropertyHandling get_MetadataPropertyHandling() { }
 
-	// RVA: 0xF90AF0 Offset: 0xF8F0F0 VA: 0x180F90AF0
+	// RVA: 0xF91590 Offset: 0xF8FB90 VA: 0x180F91590
 	public FormatterAssemblyStyle get_TypeNameAssemblyFormat() { }
 
-	// RVA: 0xF90850 Offset: 0xF8EE50 VA: 0x180F90850
+	// RVA: 0xF912F0 Offset: 0xF8F8F0 VA: 0x180F912F0
 	public ConstructorHandling get_ConstructorHandling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4EF3A0 Offset: 0x4ED9A0 VA: 0x1804EF3A0
+	// RVA: 0x4EF330 Offset: 0x4ED930 VA: 0x1804EF330
 	public IContractResolver get_ContractResolver() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872250 Offset: 0x870850 VA: 0x180872250
+	// RVA: 0x88D970 Offset: 0x88BF70 VA: 0x18088D970
 	public IEqualityComparer get_EqualityComparer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73E20 Offset: 0xC72420 VA: 0x180C73E20
+	// RVA: 0xC742E0 Offset: 0xC728E0 VA: 0x180C742E0
 	public Func<IReferenceResolver> get_ReferenceResolverProvider() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB0F080 Offset: 0xB0D680 VA: 0x180B0F080
+	// RVA: 0xB0F550 Offset: 0xB0DB50 VA: 0x180B0F550
 	public ITraceWriter get_TraceWriter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA2ABE0 Offset: 0xA291E0 VA: 0x180A2ABE0
+	// RVA: 0xA2B0D0 Offset: 0xA296D0 VA: 0x180A2B0D0
 	public SerializationBinder get_Binder() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC83460 Offset: 0xC81A60 VA: 0x180C83460
+	// RVA: 0xC83900 Offset: 0xC81F00 VA: 0x180C83900
 	public EventHandler<ErrorEventArgs> get_Error() { }
 
-	// RVA: 0xF90890 Offset: 0xF8EE90 VA: 0x180F90890
+	// RVA: 0xF91330 Offset: 0xF8F930 VA: 0x180F91330
 	public StreamingContext get_Context() { }
 
-	// RVA: 0xF90660 Offset: 0xF8EC60 VA: 0x180F90660
+	// RVA: 0xF91100 Offset: 0xF8F700 VA: 0x180F91100
 	private static void .cctor() { }
 
-	// RVA: 0xF906E0 Offset: 0xF8ECE0 VA: 0x180F906E0
+	// RVA: 0xF91180 Offset: 0xF8F780 VA: 0x180F91180
 	public void .ctor() { }
 
 }
@@ -1079,181 +1079,181 @@ public class JsonTextReader : JsonReader, IJsonLineInfo // TypeDefIndex: 5894
 
 	// Methods
 
-	// RVA: 0xF9B6C0 Offset: 0xF99CC0 VA: 0x180F9B6C0
+	// RVA: 0xF9C160 Offset: 0xF9A760 VA: 0x180F9C160
 	public void .ctor(TextReader reader) { }
 
-	// RVA: 0xF93AE0 Offset: 0xF920E0 VA: 0x180F93AE0
+	// RVA: 0xF94580 Offset: 0xF92B80 VA: 0x180F94580
 	private void EnsureBufferNotEmpty() { }
 
-	// RVA: 0xF94300 Offset: 0xF92900 VA: 0x180F94300
+	// RVA: 0xF94DA0 Offset: 0xF933A0 VA: 0x180F94DA0
 	private void OnNewLine(int pos) { }
 
-	// RVA: 0xF96BF0 Offset: 0xF951F0 VA: 0x180F96BF0
+	// RVA: 0xF97690 Offset: 0xF95C90 VA: 0x180F97690
 	private void ParseString(char quote, ReadType readType) { }
 
-	// RVA: 0xBB4220 Offset: 0xBB2820 VA: 0x180BB4220
+	// RVA: 0xBB46F0 Offset: 0xBB2CF0 VA: 0x180BB46F0
 	private static void BlockCopyChars(char[] src, int srcOffset, char[] dst, int dstOffset, int count) { }
 
-	// RVA: 0xF9B4F0 Offset: 0xF99AF0 VA: 0x180F9B4F0
+	// RVA: 0xF9BF90 Offset: 0xF9A590 VA: 0x180F9BF90
 	private void ShiftBufferIfNeeded() { }
 
-	// RVA: 0xF997D0 Offset: 0xF97DD0 VA: 0x180F997D0
+	// RVA: 0xF9A270 Offset: 0xF98870 VA: 0x180F9A270
 	private int ReadData(bool append) { }
 
-	// RVA: 0xF99540 Offset: 0xF97B40 VA: 0x180F99540
+	// RVA: 0xF99FE0 Offset: 0xF985E0 VA: 0x180F99FE0
 	private int ReadData(bool append, int charsRequired) { }
 
-	// RVA: 0xF93BC0 Offset: 0xF921C0 VA: 0x180F93BC0
+	// RVA: 0xF94660 Offset: 0xF92C60 VA: 0x180F94660
 	private bool EnsureChars(int relativePosition, bool append) { }
 
-	// RVA: 0xF994B0 Offset: 0xF97AB0 VA: 0x180F994B0
+	// RVA: 0xF99F50 Offset: 0xF98550 VA: 0x180F99F50
 	private bool ReadChars(int relativePosition, bool append) { }
 
-	// RVA: 0xF9B200 Offset: 0xF99800 VA: 0x180F9B200 Slot: 10
+	// RVA: 0xF9BCA0 Offset: 0xF9A2A0 VA: 0x180F9BCA0 Slot: 10
 	public override bool Read() { }
 
-	// RVA: 0xF993C0 Offset: 0xF979C0 VA: 0x180F993C0 Slot: 11
+	// RVA: 0xF99E60 Offset: 0xF98460 VA: 0x180F99E60 Slot: 11
 	public override Nullable<int> ReadAsInt32() { }
 
-	// RVA: 0xF991E0 Offset: 0xF977E0 VA: 0x180F991E0 Slot: 17
+	// RVA: 0xF99C80 Offset: 0xF98280 VA: 0x180F99C80 Slot: 17
 	public override Nullable<DateTime> ReadAsDateTime() { }
 
-	// RVA: 0xF99450 Offset: 0xF97A50 VA: 0x180F99450 Slot: 12
+	// RVA: 0xF99EF0 Offset: 0xF984F0 VA: 0x180F99EF0 Slot: 12
 	public override string ReadAsString() { }
 
-	// RVA: 0xF98AC0 Offset: 0xF970C0 VA: 0x180F98AC0 Slot: 13
+	// RVA: 0xF99560 Offset: 0xF97B60 VA: 0x180F99560 Slot: 13
 	public override byte[] ReadAsBytes() { }
 
-	// RVA: 0xF9A890 Offset: 0xF98E90 VA: 0x180F9A890
+	// RVA: 0xF9B330 Offset: 0xF99930 VA: 0x180F9B330
 	private object ReadStringValue(ReadType readType) { }
 
-	// RVA: 0xF93870 Offset: 0xF91E70 VA: 0x180F93870
+	// RVA: 0xF94310 Offset: 0xF92910 VA: 0x180F94310
 	private JsonReaderException CreateUnexpectedCharacterException(char c) { }
 
-	// RVA: 0xF98190 Offset: 0xF96790 VA: 0x180F98190 Slot: 15
+	// RVA: 0xF98C30 Offset: 0xF97230 VA: 0x180F98C30 Slot: 15
 	public override Nullable<bool> ReadAsBoolean() { }
 
-	// RVA: 0xF98120 Offset: 0xF96720 VA: 0x180F98120
+	// RVA: 0xF98BC0 Offset: 0xF971C0 VA: 0x180F98BC0
 	private void ProcessValueComma() { }
 
-	// RVA: 0xF99C00 Offset: 0xF98200 VA: 0x180F99C00
+	// RVA: 0xF9A6A0 Offset: 0xF98CA0 VA: 0x180F9A6A0
 	private object ReadNumberValue(ReadType readType) { }
 
-	// RVA: 0xF99140 Offset: 0xF97740 VA: 0x180F99140 Slot: 18
+	// RVA: 0xF99BE0 Offset: 0xF981E0 VA: 0x180F99BE0 Slot: 18
 	public override Nullable<DateTimeOffset> ReadAsDateTimeOffset() { }
 
-	// RVA: 0xF99280 Offset: 0xF97880 VA: 0x180F99280 Slot: 16
+	// RVA: 0xF99D20 Offset: 0xF98320 VA: 0x180F99D20 Slot: 16
 	public override Nullable<Decimal> ReadAsDecimal() { }
 
-	// RVA: 0xF99320 Offset: 0xF97920 VA: 0x180F99320 Slot: 14
+	// RVA: 0xF99DC0 Offset: 0xF983C0 VA: 0x180F99DC0 Slot: 14
 	public override Nullable<double> ReadAsDouble() { }
 
-	// RVA: 0xF93C60 Offset: 0xF92260 VA: 0x180F93C60
+	// RVA: 0xF94700 Offset: 0xF92D00 VA: 0x180F94700
 	private void HandleNull() { }
 
-	// RVA: 0xF997E0 Offset: 0xF97DE0 VA: 0x180F997E0
+	// RVA: 0xF9A280 Offset: 0xF98880 VA: 0x180F9A280
 	private void ReadFinished() { }
 
-	// RVA: 0xF99970 Offset: 0xF97F70 VA: 0x180F99970
+	// RVA: 0xF9A410 Offset: 0xF98A10 VA: 0x180F9A410
 	private bool ReadNullChar() { }
 
-	// RVA: 0xF93B50 Offset: 0xF92150 VA: 0x180F93B50
+	// RVA: 0xF945F0 Offset: 0xF92BF0 VA: 0x180F945F0
 	private void EnsureBuffer() { }
 
-	// RVA: 0xF9A1E0 Offset: 0xF987E0 VA: 0x180F9A1E0
+	// RVA: 0xF9AC80 Offset: 0xF99280 VA: 0x180F9AC80
 	private void ReadStringIntoBuffer(char quote) { }
 
-	// RVA: 0xF9B640 Offset: 0xF99C40 VA: 0x180F9B640
+	// RVA: 0xF9C0E0 Offset: 0xF9A6E0 VA: 0x180F9C0E0
 	private void WriteCharToBuffer(char writeChar, int lastWritePosition, int writeToPosition) { }
 
-	// RVA: 0xF97250 Offset: 0xF95850 VA: 0x180F97250
+	// RVA: 0xF97CF0 Offset: 0xF962F0 VA: 0x180F97CF0
 	private char ParseUnicode() { }
 
-	// RVA: 0xF999C0 Offset: 0xF97FC0 VA: 0x180F999C0
+	// RVA: 0xF9A460 Offset: 0xF98A60 VA: 0x180F9A460
 	private void ReadNumberIntoBuffer() { }
 
-	// RVA: 0xF937B0 Offset: 0xF91DB0 VA: 0x180F937B0
+	// RVA: 0xF94250 Offset: 0xF92850 VA: 0x180F94250
 	private void ClearRecentString() { }
 
-	// RVA: 0xF96570 Offset: 0xF94B70 VA: 0x180F96570
+	// RVA: 0xF97010 Offset: 0xF95610 VA: 0x180F97010
 	private bool ParsePostValue() { }
 
-	// RVA: 0xF963A0 Offset: 0xF949A0 VA: 0x180F963A0
+	// RVA: 0xF96E40 Offset: 0xF95440 VA: 0x180F96E40
 	private bool ParseObject() { }
 
-	// RVA: 0xF968B0 Offset: 0xF94EB0 VA: 0x180F968B0
+	// RVA: 0xF97350 Offset: 0xF95950 VA: 0x180F97350
 	private bool ParseProperty() { }
 
-	// RVA: 0xF9B5D0 Offset: 0xF99BD0 VA: 0x180F9B5D0
+	// RVA: 0xF9C070 Offset: 0xF9A670 VA: 0x180F9C070
 	private bool ValidIdentifierChar(char value) { }
 
-	// RVA: 0xF97340 Offset: 0xF95940 VA: 0x180F97340
+	// RVA: 0xF97DE0 Offset: 0xF963E0 VA: 0x180F97DE0
 	private void ParseUnquotedProperty() { }
 
-	// RVA: 0xF97590 Offset: 0xF95B90 VA: 0x180F97590
+	// RVA: 0xF98030 Offset: 0xF96630 VA: 0x180F98030
 	private bool ParseValue() { }
 
-	// RVA: 0xF98100 Offset: 0xF96700 VA: 0x180F98100
+	// RVA: 0xF98BA0 Offset: 0xF971A0 VA: 0x180F98BA0
 	private void ProcessLineFeed() { }
 
-	// RVA: 0xF98010 Offset: 0xF96610 VA: 0x180F98010
+	// RVA: 0xF98AB0 Offset: 0xF970B0 VA: 0x180F98AB0
 	private void ProcessCarriageReturn(bool append) { }
 
-	// RVA: 0xF93920 Offset: 0xF91F20 VA: 0x180F93920
+	// RVA: 0xF943C0 Offset: 0xF929C0 VA: 0x180F943C0
 	private bool EatWhitespace(bool oneOrMore) { }
 
-	// RVA: 0xF94700 Offset: 0xF92D00 VA: 0x180F94700
+	// RVA: 0xF951A0 Offset: 0xF937A0 VA: 0x180F951A0
 	private void ParseConstructor() { }
 
-	// RVA: 0xF95390 Offset: 0xF93990 VA: 0x180F95390
+	// RVA: 0xF95E30 Offset: 0xF94430 VA: 0x180F95E30
 	private void ParseNumber(ReadType readType) { }
 
-	// RVA: 0xF94310 Offset: 0xF92910 VA: 0x180F94310
+	// RVA: 0xF94DB0 Offset: 0xF933B0 VA: 0x180F94DB0
 	private void ParseComment(bool setToken) { }
 
-	// RVA: 0xF93A70 Offset: 0xF92070 VA: 0x180F93A70
+	// RVA: 0xF94510 Offset: 0xF92B10 VA: 0x180F94510
 	private void EndComment(bool setToken, int initialPosition, int endPosition) { }
 
-	// RVA: 0xF941F0 Offset: 0xF927F0 VA: 0x180F941F0
+	// RVA: 0xF94C90 Offset: 0xF93290 VA: 0x180F94C90
 	private bool MatchValue(string value) { }
 
-	// RVA: 0xF93EE0 Offset: 0xF924E0 VA: 0x180F93EE0
+	// RVA: 0xF94980 Offset: 0xF92F80 VA: 0x180F94980
 	private bool MatchValueWithTrailingSeparator(string value) { }
 
-	// RVA: 0xF93D90 Offset: 0xF92390 VA: 0x180F93D90
+	// RVA: 0xF94830 Offset: 0xF92E30 VA: 0x180F94830
 	private bool IsSeparator(char c) { }
 
-	// RVA: 0xF97040 Offset: 0xF95640 VA: 0x180F97040
+	// RVA: 0xF97AE0 Offset: 0xF960E0 VA: 0x180F97AE0
 	private void ParseTrue() { }
 
-	// RVA: 0xF94C10 Offset: 0xF93210 VA: 0x180F94C10
+	// RVA: 0xF956B0 Offset: 0xF93CB0 VA: 0x180F956B0
 	private void ParseNull() { }
 
-	// RVA: 0xF97150 Offset: 0xF95750 VA: 0x180F97150
+	// RVA: 0xF97BF0 Offset: 0xF961F0 VA: 0x180F97BF0
 	private void ParseUndefined() { }
 
-	// RVA: 0xF94B00 Offset: 0xF93100 VA: 0x180F94B00
+	// RVA: 0xF955A0 Offset: 0xF93BA0 VA: 0x180F955A0
 	private void ParseFalse() { }
 
-	// RVA: 0xF94F30 Offset: 0xF93530 VA: 0x180F94F30
+	// RVA: 0xF959D0 Offset: 0xF93FD0 VA: 0x180F959D0
 	private object ParseNumberNegativeInfinity(ReadType readType) { }
 
-	// RVA: 0xF95160 Offset: 0xF93760 VA: 0x180F95160
+	// RVA: 0xF95C00 Offset: 0xF94200 VA: 0x180F95C00
 	private object ParseNumberPositiveInfinity(ReadType readType) { }
 
-	// RVA: 0xF94D00 Offset: 0xF93300 VA: 0x180F94D00
+	// RVA: 0xF957A0 Offset: 0xF93DA0 VA: 0x180F957A0
 	private object ParseNumberNaN(ReadType readType) { }
 
-	// RVA: 0xF937D0 Offset: 0xF91DD0 VA: 0x180F937D0 Slot: 20
+	// RVA: 0xF94270 Offset: 0xF92870 VA: 0x180F94270 Slot: 20
 	public override void Close() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 21
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 21
 	public bool HasLineInfo() { }
 
-	// RVA: 0xF9B770 Offset: 0xF99D70 VA: 0x180F9B770 Slot: 22
+	// RVA: 0xF9C210 Offset: 0xF9A810 VA: 0x180F9C210 Slot: 22
 	public int get_LineNumber() { }
 
-	// RVA: 0xF9B7C0 Offset: 0xF99DC0 VA: 0x180F9B7C0 Slot: 23
+	// RVA: 0xF9C260 Offset: 0xF9A860 VA: 0x180F9C260 Slot: 23
 	public int get_LinePosition() { }
 
 }
@@ -1286,25 +1286,25 @@ public sealed class JsonPropertyAttribute : Attribute // TypeDefIndex: 5895
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
+	// RVA: 0x5362B0 Offset: 0x5348B0 VA: 0x1805362B0
 	public Type get_ItemConverterType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
+	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0
 	public object[] get_ItemConverterParameters() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
+	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
 	public string get_PropertyName() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
+	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
 	public void set_PropertyName(string value) { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xF8BEE0 Offset: 0xF8A4E0 VA: 0x180F8BEE0
+	// RVA: 0xF8C980 Offset: 0xF8AF80 VA: 0x180F8C980
 	public void .ctor(string propertyName) { }
 
 }
@@ -1312,7 +1312,7 @@ public sealed class JsonPropertyAttribute : Attribute // TypeDefIndex: 5895
 public sealed class JsonIgnoreAttribute : Attribute // TypeDefIndex: 5896
 {	// Methods
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 }
@@ -1336,149 +1336,149 @@ public class JsonTextWriter : JsonWriter // TypeDefIndex: 5897
 
 	// Methods
 
-	// RVA: 0xE47A50 Offset: 0xE46050 VA: 0x180E47A50
+	// RVA: 0xE48500 Offset: 0xE46B00 VA: 0x180E48500
 	private Base64Encoder get_Base64Encoder() { }
 
-	// RVA: 0xE47AD0 Offset: 0xE460D0 VA: 0x180E47AD0
+	// RVA: 0xE48580 Offset: 0xE46B80 VA: 0x180E48580
 	public char get_QuoteChar() { }
 
-	// RVA: 0xE47970 Offset: 0xE45F70 VA: 0x180E47970
+	// RVA: 0xE48420 Offset: 0xE46A20 VA: 0x180E48420
 	public void .ctor(TextWriter textWriter) { }
 
-	// RVA: 0xE45CC0 Offset: 0xE442C0 VA: 0x180E45CC0 Slot: 6
+	// RVA: 0xE46770 Offset: 0xE44D70 VA: 0x180E46770 Slot: 6
 	public override void Close() { }
 
-	// RVA: 0xE46770 Offset: 0xE44D70 VA: 0x180E46770 Slot: 7
+	// RVA: 0xE47220 Offset: 0xE45820 VA: 0x180E47220 Slot: 7
 	public override void WriteStartObject() { }
 
-	// RVA: 0xE46670 Offset: 0xE44C70 VA: 0x180E46670 Slot: 9
+	// RVA: 0xE47120 Offset: 0xE45720 VA: 0x180E47120 Slot: 9
 	public override void WriteStartArray() { }
 
-	// RVA: 0xE466C0 Offset: 0xE44CC0 VA: 0x180E466C0 Slot: 11
+	// RVA: 0xE47170 Offset: 0xE45770 VA: 0x180E47170 Slot: 11
 	public override void WriteStartConstructor(string name) { }
 
-	// RVA: 0xE45F00 Offset: 0xE44500 VA: 0x180E45F00 Slot: 17
+	// RVA: 0xE469B0 Offset: 0xE44FB0 VA: 0x180E469B0 Slot: 17
 	protected override void WriteEnd(JsonToken token) { }
 
-	// RVA: 0xE465D0 Offset: 0xE44BD0 VA: 0x180E465D0 Slot: 13
+	// RVA: 0xE47080 Offset: 0xE45680 VA: 0x180E47080 Slot: 13
 	public override void WritePropertyName(string name) { }
 
-	// RVA: 0xE464E0 Offset: 0xE44AE0 VA: 0x180E464E0 Slot: 14
+	// RVA: 0xE46F90 Offset: 0xE45590 VA: 0x180E46F90 Slot: 14
 	public override void WritePropertyName(string name, bool escape) { }
 
-	// RVA: 0xE45DC0 Offset: 0xE443C0 VA: 0x180E45DC0 Slot: 5
+	// RVA: 0xE46870 Offset: 0xE44E70 VA: 0x180E46870 Slot: 5
 	internal override void OnStringEscapeHandlingChanged() { }
 
-	// RVA: 0xE45DD0 Offset: 0xE443D0 VA: 0x180E45DD0
+	// RVA: 0xE46880 Offset: 0xE44E80 VA: 0x180E46880
 	private void UpdateCharEscapeFlags() { }
 
-	// RVA: 0xE46110 Offset: 0xE44710 VA: 0x180E46110 Slot: 18
+	// RVA: 0xE46BC0 Offset: 0xE451C0 VA: 0x180E46BC0 Slot: 18
 	protected override void WriteIndent() { }
 
-	// RVA: 0xE46860 Offset: 0xE44E60 VA: 0x180E46860 Slot: 19
+	// RVA: 0xE47310 Offset: 0xE45910 VA: 0x180E47310 Slot: 19
 	protected override void WriteValueDelimiter() { }
 
-	// RVA: 0xE460E0 Offset: 0xE446E0 VA: 0x180E460E0 Slot: 20
+	// RVA: 0xE46B90 Offset: 0xE45190 VA: 0x180E46B90 Slot: 20
 	protected override void WriteIndentSpace() { }
 
-	// RVA: 0xE46640 Offset: 0xE44C40 VA: 0x180E46640
+	// RVA: 0xE470F0 Offset: 0xE456F0 VA: 0x180E470F0
 	private void WriteValueInternal(string value, JsonToken token) { }
 
-	// RVA: 0xE3AF00 Offset: 0xE39500 VA: 0x180E3AF00 Slot: 62
+	// RVA: 0xE3B9B0 Offset: 0xE39FB0 VA: 0x180E3B9B0 Slot: 62
 	public override void WriteValue(object value) { }
 
-	// RVA: 0xE46440 Offset: 0xE44A40 VA: 0x180E46440 Slot: 21
+	// RVA: 0xE46EF0 Offset: 0xE454F0 VA: 0x180E46EF0 Slot: 21
 	public override void WriteNull() { }
 
-	// RVA: 0xE467C0 Offset: 0xE44DC0 VA: 0x180E467C0 Slot: 22
+	// RVA: 0xE47270 Offset: 0xE45870 VA: 0x180E47270 Slot: 22
 	public override void WriteUndefined() { }
 
-	// RVA: 0xE46640 Offset: 0xE44C40 VA: 0x180E46640 Slot: 23
+	// RVA: 0xE470F0 Offset: 0xE456F0 VA: 0x180E470F0 Slot: 23
 	public override void WriteRaw(string json) { }
 
-	// RVA: 0xE47720 Offset: 0xE45D20 VA: 0x180E47720 Slot: 25
+	// RVA: 0xE481D0 Offset: 0xE467D0 VA: 0x180E481D0 Slot: 25
 	public override void WriteValue(string value) { }
 
-	// RVA: 0xE45FE0 Offset: 0xE445E0 VA: 0x180E45FE0
+	// RVA: 0xE46A90 Offset: 0xE45090 VA: 0x180E46A90
 	private void WriteEscapedString(string value, bool quote) { }
 
-	// RVA: 0xE476E0 Offset: 0xE45CE0 VA: 0x180E476E0 Slot: 26
+	// RVA: 0xE48190 Offset: 0xE46790 VA: 0x180E48190 Slot: 26
 	public override void WriteValue(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE47450 Offset: 0xE45A50 VA: 0x180E47450 Slot: 27
+	// RVA: 0xE47F00 Offset: 0xE46500 VA: 0x180E47F00 Slot: 27
 	public override void WriteValue(uint value) { }
 
-	// RVA: 0xE47620 Offset: 0xE45C20 VA: 0x180E47620 Slot: 28
+	// RVA: 0xE480D0 Offset: 0xE466D0 VA: 0x180E480D0 Slot: 28
 	public override void WriteValue(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE46B10 Offset: 0xE45110 VA: 0x180E46B10 Slot: 29
+	// RVA: 0xE475C0 Offset: 0xE45BC0 VA: 0x180E475C0 Slot: 29
 	public override void WriteValue(ulong value) { }
 
-	// RVA: 0xE46950 Offset: 0xE44F50 VA: 0x180E46950 Slot: 30
+	// RVA: 0xE47400 Offset: 0xE45A00 VA: 0x180E47400 Slot: 30
 	public override void WriteValue(float value) { }
 
-	// RVA: 0xE46A20 Offset: 0xE45020 VA: 0x180E46A20 Slot: 47
+	// RVA: 0xE474D0 Offset: 0xE45AD0 VA: 0x180E474D0 Slot: 47
 	public override void WriteValue(Nullable<float> value) { }
 
-	// RVA: 0xE46B50 Offset: 0xE45150 VA: 0x180E46B50 Slot: 31
+	// RVA: 0xE47600 Offset: 0xE45C00 VA: 0x180E47600 Slot: 31
 	public override void WriteValue(double value) { }
 
-	// RVA: 0xE47490 Offset: 0xE45A90 VA: 0x180E47490 Slot: 48
+	// RVA: 0xE47F40 Offset: 0xE46540 VA: 0x180E47F40 Slot: 48
 	public override void WriteValue(Nullable<double> value) { }
 
-	// RVA: 0xE47580 Offset: 0xE45B80 VA: 0x180E47580 Slot: 32
+	// RVA: 0xE48030 Offset: 0xE46630 VA: 0x180E48030 Slot: 32
 	public override void WriteValue(bool value) { }
 
-	// RVA: 0xE47280 Offset: 0xE45880 VA: 0x180E47280 Slot: 33
+	// RVA: 0xE47D30 Offset: 0xE46330 VA: 0x180E47D30 Slot: 33
 	public override void WriteValue(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE47660 Offset: 0xE45C60 VA: 0x180E47660 Slot: 34
+	// RVA: 0xE48110 Offset: 0xE46710 VA: 0x180E48110 Slot: 34
 	public override void WriteValue(ushort value) { }
 
-	// RVA: 0xE473B0 Offset: 0xE459B0 VA: 0x180E473B0 Slot: 35
+	// RVA: 0xE47E60 Offset: 0xE46460 VA: 0x180E47E60 Slot: 35
 	public override void WriteValue(char value) { }
 
-	// RVA: 0xE476A0 Offset: 0xE45CA0 VA: 0x180E476A0 Slot: 36
+	// RVA: 0xE48150 Offset: 0xE46750 VA: 0x180E48150 Slot: 36
 	public override void WriteValue(byte value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE47930 Offset: 0xE45F30 VA: 0x180E47930 Slot: 37
+	// RVA: 0xE483E0 Offset: 0xE469E0 VA: 0x180E483E0 Slot: 37
 	public override void WriteValue(sbyte value) { }
 
-	// RVA: 0xE477E0 Offset: 0xE45DE0 VA: 0x180E477E0 Slot: 38
+	// RVA: 0xE48290 Offset: 0xE46890 VA: 0x180E48290 Slot: 38
 	public override void WriteValue(Decimal value) { }
 
-	// RVA: 0xE46D00 Offset: 0xE45300 VA: 0x180E46D00 Slot: 39
+	// RVA: 0xE477B0 Offset: 0xE45DB0 VA: 0x180E477B0 Slot: 39
 	public override void WriteValue(DateTime value) { }
 
-	// RVA: 0xE46C20 Offset: 0xE45220 VA: 0x180E46C20 Slot: 60
+	// RVA: 0xE476D0 Offset: 0xE45CD0 VA: 0x180E476D0 Slot: 60
 	public override void WriteValue(byte[] value) { }
 
-	// RVA: 0xE46FD0 Offset: 0xE455D0 VA: 0x180E46FD0 Slot: 40
+	// RVA: 0xE47A80 Offset: 0xE46080 VA: 0x180E47A80 Slot: 40
 	public override void WriteValue(DateTimeOffset value) { }
 
-	// RVA: 0xE472C0 Offset: 0xE458C0 VA: 0x180E472C0 Slot: 41
+	// RVA: 0xE47D70 Offset: 0xE46370 VA: 0x180E47D70 Slot: 41
 	public override void WriteValue(Guid value) { }
 
-	// RVA: 0xE47890 Offset: 0xE45E90 VA: 0x180E47890 Slot: 42
+	// RVA: 0xE48340 Offset: 0xE46940 VA: 0x180E48340 Slot: 42
 	public override void WriteValue(TimeSpan value) { }
 
-	// RVA: 0xE46890 Offset: 0xE44E90 VA: 0x180E46890 Slot: 61
+	// RVA: 0xE47340 Offset: 0xE45940 VA: 0x180E47340 Slot: 61
 	public override void WriteValue(Uri value) { }
 
-	// RVA: 0xE45E50 Offset: 0xE44450 VA: 0x180E45E50 Slot: 63
+	// RVA: 0xE46900 Offset: 0xE44F00 VA: 0x180E46900 Slot: 63
 	public override void WriteComment(string text) { }
 
-	// RVA: 0xE45D80 Offset: 0xE44380 VA: 0x180E45D80
+	// RVA: 0xE46830 Offset: 0xE44E30 VA: 0x180E46830
 	private void EnsureWriteBuffer() { }
 
-	// RVA: 0xE463B0 Offset: 0xE449B0 VA: 0x180E463B0
+	// RVA: 0xE46E60 Offset: 0xE45460 VA: 0x180E46E60
 	private void WriteIntegerValue(long value) { }
 
-	// RVA: 0xE46270 Offset: 0xE44870 VA: 0x180E46270
+	// RVA: 0xE46D20 Offset: 0xE45320 VA: 0x180E46D20
 	private void WriteIntegerValue(ulong uvalue) { }
 
 }
@@ -1494,22 +1494,22 @@ public class JsonWriterException : JsonException // TypeDefIndex: 5898
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
+	// RVA: 0x574390 Offset: 0x572990 VA: 0x180574390
 	private void set_Path(string value) { }
 
-	// RVA: 0xE47D40 Offset: 0xE46340 VA: 0x180E47D40
+	// RVA: 0xE487F0 Offset: 0xE46DF0 VA: 0x180E487F0
 	public void .ctor() { }
 
-	// RVA: 0xE47D20 Offset: 0xE46320 VA: 0x180E47D20
+	// RVA: 0xE487D0 Offset: 0xE46DD0 VA: 0x180E487D0
 	public void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xE47CE0 Offset: 0xE462E0 VA: 0x180E47CE0
+	// RVA: 0xE48790 Offset: 0xE46D90 VA: 0x180E48790
 	internal void .ctor(string message, Exception innerException, string path) { }
 
-	// RVA: 0xE47AE0 Offset: 0xE460E0 VA: 0x180E47AE0
+	// RVA: 0xE48590 Offset: 0xE46B90 VA: 0x180E48590
 	internal static JsonWriterException Create(JsonWriter writer, string message, Exception ex) { }
 
-	// RVA: 0xE47C20 Offset: 0xE46220 VA: 0x180E47C20
+	// RVA: 0xE486D0 Offset: 0xE46CD0 VA: 0x180E486D0
 	internal static JsonWriterException Create(string path, string message, Exception ex) { }
 
 }
@@ -1531,33 +1531,33 @@ public class JsonReaderException : JsonException // TypeDefIndex: 5899
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8C2C0 Offset: 0xF8A8C0 VA: 0x180F8C2C0
+	// RVA: 0xF8CD60 Offset: 0xF8B360 VA: 0x180F8CD60
 	private void set_LineNumber(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8C2D0 Offset: 0xF8A8D0 VA: 0x180F8C2D0
+	// RVA: 0xF8CD70 Offset: 0xF8B370 VA: 0x180F8CD70
 	private void set_LinePosition(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E4060 Offset: 0x4E2660 VA: 0x1804E4060
+	// RVA: 0x4E3FF0 Offset: 0x4E25F0 VA: 0x1804E3FF0
 	private void set_Path(string value) { }
 
-	// RVA: 0xF8B500 Offset: 0xF89B00 VA: 0x180F8B500
+	// RVA: 0xF8BFA0 Offset: 0xF8A5A0 VA: 0x180F8BFA0
 	public void .ctor() { }
 
-	// RVA: 0xF8B480 Offset: 0xF89A80 VA: 0x180F8B480
+	// RVA: 0xF8BF20 Offset: 0xF8A520 VA: 0x180F8BF20
 	public void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xF8C210 Offset: 0xF8A810 VA: 0x180F8C210
+	// RVA: 0xF8CCB0 Offset: 0xF8B2B0 VA: 0x180F8CCB0
 	internal void .ctor(string message, Exception innerException, string path, int lineNumber, int linePosition) { }
 
-	// RVA: 0xF8BF10 Offset: 0xF8A510 VA: 0x180F8BF10
+	// RVA: 0xF8C9B0 Offset: 0xF8AFB0 VA: 0x180F8C9B0
 	internal static JsonReaderException Create(JsonReader reader, string message) { }
 
-	// RVA: 0xF8BF20 Offset: 0xF8A520 VA: 0x180F8BF20
+	// RVA: 0xF8C9C0 Offset: 0xF8AFC0 VA: 0x180F8C9C0
 	internal static JsonReaderException Create(JsonReader reader, string message, Exception ex) { }
 
-	// RVA: 0xF8C0C0 Offset: 0xF8A6C0 VA: 0x180F8C0C0
+	// RVA: 0xF8CB60 Offset: 0xF8B160 VA: 0x180F8CB60
 	internal static JsonReaderException Create(IJsonLineInfo lineInfo, string path, string message, Exception ex) { }
 
 }
@@ -1578,10 +1578,10 @@ public abstract class JsonConverter // TypeDefIndex: 5900
 	// RVA: -1 Offset: -1 Slot: 6
 	public abstract bool CanConvert(Type objectType);
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 7
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 7
 	public virtual bool get_CanRead() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 8
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 8
 	public virtual bool get_CanWrite() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -1592,7 +1592,7 @@ public abstract class JsonConverter // TypeDefIndex: 5900
 public class JsonConverterCollection : Collection<JsonConverter> // TypeDefIndex: 5901
 {	// Methods
 
-	// RVA: 0xF8B440 Offset: 0xF89A40 VA: 0x180F8B440
+	// RVA: 0xF8BEE0 Offset: 0xF8A4E0 VA: 0x180F8BEE0
 	public void .ctor() { }
 
 }
@@ -1635,53 +1635,53 @@ public abstract class JsonReader : IDisposable // TypeDefIndex: 5902
 
 	// Methods
 
-	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
+	// RVA: 0x79C630 Offset: 0x79AC30 VA: 0x18079C630
 	protected JsonReader.State get_CurrentState() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC315B0 Offset: 0xC2FBB0 VA: 0x180C315B0
+	// RVA: 0xC31A80 Offset: 0xC30080 VA: 0x180C31A80
 	public bool get_CloseInput() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC326D0 Offset: 0xC30CD0 VA: 0x180C326D0
+	// RVA: 0xC32BA0 Offset: 0xC311A0 VA: 0x180C32BA0
 	public void set_CloseInput(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE75B00 Offset: 0xE74100 VA: 0x180E75B00
+	// RVA: 0xE765B0 Offset: 0xE74BB0 VA: 0x180E765B0
 	public bool get_SupportMultipleContent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE75B30 Offset: 0xE74130 VA: 0x180E75B30
+	// RVA: 0xE765E0 Offset: 0xE74BE0 VA: 0x180E765E0
 	public void set_SupportMultipleContent(bool value) { }
 
-	// RVA: 0x598420 Offset: 0x596A20 VA: 0x180598420
+	// RVA: 0x5983B0 Offset: 0x5969B0 VA: 0x1805983B0
 	public DateTimeZoneHandling get_DateTimeZoneHandling() { }
 
-	// RVA: 0xF902D0 Offset: 0xF8E8D0 VA: 0x180F902D0
+	// RVA: 0xF90D70 Offset: 0xF8F370 VA: 0x180F90D70
 	public void set_DateTimeZoneHandling(DateTimeZoneHandling value) { }
 
-	// RVA: 0xAE9AA0 Offset: 0xAE80A0 VA: 0x180AE9AA0
+	// RVA: 0xAE9F70 Offset: 0xAE8570 VA: 0x180AE9F70
 	public DateParseHandling get_DateParseHandling() { }
 
-	// RVA: 0xF90260 Offset: 0xF8E860 VA: 0x180F90260
+	// RVA: 0xF90D00 Offset: 0xF8F300 VA: 0x180F90D00
 	public void set_DateParseHandling(DateParseHandling value) { }
 
-	// RVA: 0x5743A0 Offset: 0x5729A0 VA: 0x1805743A0
+	// RVA: 0x574330 Offset: 0x572930 VA: 0x180574330
 	public FloatParseHandling get_FloatParseHandling() { }
 
-	// RVA: 0xF90340 Offset: 0xF8E940 VA: 0x180F90340
+	// RVA: 0xF90DE0 Offset: 0xF8F3E0 VA: 0x180F90DE0
 	public void set_FloatParseHandling(FloatParseHandling value) { }
 
-	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
+	// RVA: 0x5362B0 Offset: 0x5348B0 VA: 0x1805362B0
 	public string get_DateFormatString() { }
 
-	// RVA: 0x536330 Offset: 0x534930 VA: 0x180536330
+	// RVA: 0x5362C0 Offset: 0x5348C0 VA: 0x1805362C0
 	public void set_DateFormatString(string value) { }
 
-	// RVA: 0xF90130 Offset: 0xF8E730 VA: 0x180F90130
+	// RVA: 0xF90BD0 Offset: 0xF8F1D0 VA: 0x180F90BD0
 	public Nullable<int> get_MaxDepth() { }
 
-	// RVA: 0xF903B0 Offset: 0xF8E9B0 VA: 0x180F903B0
+	// RVA: 0xF90E50 Offset: 0xF8F450 VA: 0x180F90E50
 	public void set_MaxDepth(Nullable<int> value) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00 Slot: 5
@@ -1690,142 +1690,142 @@ public abstract class JsonReader : IDisposable // TypeDefIndex: 5902
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 6
 	public virtual object get_Value() { }
 
-	// RVA: 0xF90240 Offset: 0xF8E840 VA: 0x180F90240 Slot: 7
+	// RVA: 0xF90CE0 Offset: 0xF8F2E0 VA: 0x180F90CE0 Slot: 7
 	public virtual Type get_ValueType() { }
 
-	// RVA: 0xF900C0 Offset: 0xF8E6C0 VA: 0x180F900C0 Slot: 8
+	// RVA: 0xF90B60 Offset: 0xF8F160 VA: 0x180F90B60 Slot: 8
 	public virtual int get_Depth() { }
 
-	// RVA: 0xF90140 Offset: 0xF8E740 VA: 0x180F90140 Slot: 9
+	// RVA: 0xF90BE0 Offset: 0xF8F1E0 VA: 0x180F90BE0 Slot: 9
 	public virtual string get_Path() { }
 
-	// RVA: 0xF90060 Offset: 0xF8E660 VA: 0x180F90060
+	// RVA: 0xF90B00 Offset: 0xF8F100 VA: 0x180F90B00
 	public CultureInfo get_Culture() { }
 
-	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
+	// RVA: 0x4BC5A0 Offset: 0x4BABA0 VA: 0x1804BC5A0
 	public void set_Culture(CultureInfo value) { }
 
-	// RVA: 0xF8C3F0 Offset: 0xF8A9F0 VA: 0x180F8C3F0
+	// RVA: 0xF8CE90 Offset: 0xF8B490 VA: 0x180F8CE90
 	internal JsonPosition GetPosition(int depth) { }
 
-	// RVA: 0xF90030 Offset: 0xF8E630 VA: 0x180F90030
+	// RVA: 0xF90AD0 Offset: 0xF8F0D0 VA: 0x180F90AD0
 	protected void .ctor() { }
 
-	// RVA: 0xF8C6E0 Offset: 0xF8ACE0 VA: 0x180F8C6E0
+	// RVA: 0xF8D180 Offset: 0xF8B780 VA: 0x180F8D180
 	private void Push(JsonContainerType value) { }
 
-	// RVA: 0xF8C5E0 Offset: 0xF8ABE0 VA: 0x180F8C5E0
+	// RVA: 0xF8D080 Offset: 0xF8B680 VA: 0x180F8D080
 	private JsonContainerType Pop() { }
 
-	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
+	// RVA: 0x4BE590 Offset: 0x4BCB90 VA: 0x1804BE590
 	private JsonContainerType Peek() { }
 
 	// RVA: -1 Offset: -1 Slot: 10
 	public abstract bool Read();
 
-	// RVA: 0xF8E020 Offset: 0xF8C620 VA: 0x180F8E020 Slot: 11
+	// RVA: 0xF8EAC0 Offset: 0xF8D0C0 VA: 0x180F8EAC0 Slot: 11
 	public virtual Nullable<int> ReadAsInt32() { }
 
-	// RVA: 0xF8F450 Offset: 0xF8DA50 VA: 0x180F8F450
+	// RVA: 0xF8FEF0 Offset: 0xF8E4F0 VA: 0x180F8FEF0
 	internal Nullable<int> ReadInt32String(string s) { }
 
-	// RVA: 0xF8E300 Offset: 0xF8C900 VA: 0x180F8E300 Slot: 12
+	// RVA: 0xF8EDA0 Offset: 0xF8D3A0 VA: 0x180F8EDA0 Slot: 12
 	public virtual string ReadAsString() { }
 
-	// RVA: 0xF8CFE0 Offset: 0xF8B5E0 VA: 0x180F8CFE0 Slot: 13
+	// RVA: 0xF8DA80 Offset: 0xF8C080 VA: 0x180F8DA80 Slot: 13
 	public virtual byte[] ReadAsBytes() { }
 
-	// RVA: 0xF8CA80 Offset: 0xF8B080 VA: 0x180F8CA80
+	// RVA: 0xF8D520 Offset: 0xF8BB20 VA: 0x180F8D520
 	internal byte[] ReadArrayIntoByteArray() { }
 
-	// RVA: 0xF8DD50 Offset: 0xF8C350 VA: 0x180F8DD50 Slot: 14
+	// RVA: 0xF8E7F0 Offset: 0xF8CDF0 VA: 0x180F8E7F0 Slot: 14
 	public virtual Nullable<double> ReadAsDouble() { }
 
-	// RVA: 0xF8F200 Offset: 0xF8D800 VA: 0x180F8F200
+	// RVA: 0xF8FCA0 Offset: 0xF8E2A0 VA: 0x180F8FCA0
 	internal Nullable<double> ReadDoubleString(string s) { }
 
-	// RVA: 0xF8CCF0 Offset: 0xF8B2F0 VA: 0x180F8CCF0 Slot: 15
+	// RVA: 0xF8D790 Offset: 0xF8BD90 VA: 0x180F8D790 Slot: 15
 	public virtual Nullable<bool> ReadAsBoolean() { }
 
-	// RVA: 0xF8E720 Offset: 0xF8CD20 VA: 0x180F8E720
+	// RVA: 0xF8F1C0 Offset: 0xF8D7C0 VA: 0x180F8F1C0
 	internal Nullable<bool> ReadBooleanString(string s) { }
 
-	// RVA: 0xF8DA50 Offset: 0xF8C050 VA: 0x180F8DA50 Slot: 16
+	// RVA: 0xF8E4F0 Offset: 0xF8CAF0 VA: 0x180F8E4F0 Slot: 16
 	public virtual Nullable<Decimal> ReadAsDecimal() { }
 
-	// RVA: 0xF8EF80 Offset: 0xF8D580 VA: 0x180F8EF80
+	// RVA: 0xF8FA20 Offset: 0xF8E020 VA: 0x180F8FA20
 	internal Nullable<Decimal> ReadDecimalString(string s) { }
 
-	// RVA: 0xF8D780 Offset: 0xF8BD80 VA: 0x180F8D780 Slot: 17
+	// RVA: 0xF8E220 Offset: 0xF8C820 VA: 0x180F8E220 Slot: 17
 	public virtual Nullable<DateTime> ReadAsDateTime() { }
 
-	// RVA: 0xF8EC80 Offset: 0xF8D280 VA: 0x180F8EC80
+	// RVA: 0xF8F720 Offset: 0xF8DD20 VA: 0x180F8F720
 	internal Nullable<DateTime> ReadDateTimeString(string s) { }
 
-	// RVA: 0xF8D480 Offset: 0xF8BA80 VA: 0x180F8D480 Slot: 18
+	// RVA: 0xF8DF20 Offset: 0xF8C520 VA: 0x180F8DF20 Slot: 18
 	public virtual Nullable<DateTimeOffset> ReadAsDateTimeOffset() { }
 
-	// RVA: 0xF8E910 Offset: 0xF8CF10 VA: 0x180F8E910
+	// RVA: 0xF8F3B0 Offset: 0xF8D9B0 VA: 0x180F8F3B0
 	internal Nullable<DateTimeOffset> ReadDateTimeOffsetString(string s) { }
 
-	// RVA: 0xF8F8B0 Offset: 0xF8DEB0 VA: 0x180F8F8B0
+	// RVA: 0xF90350 Offset: 0xF8E950 VA: 0x180F90350
 	internal void ReaderReadAndAssert() { }
 
-	// RVA: 0xF8C300 Offset: 0xF8A900 VA: 0x180F8C300
+	// RVA: 0xF8CDA0 Offset: 0xF8B3A0 VA: 0x180F8CDA0
 	internal JsonReaderException CreateUnexpectedEndException() { }
 
-	// RVA: 0xF8F660 Offset: 0xF8DC60 VA: 0x180F8F660
+	// RVA: 0xF90100 Offset: 0xF8E700 VA: 0x180F90100
 	internal void ReadIntoWrappedTypeObject() { }
 
-	// RVA: 0xF8FC70 Offset: 0xF8E270 VA: 0x180F8FC70
+	// RVA: 0xF90710 Offset: 0xF8ED10 VA: 0x180F90710
 	public void Skip() { }
 
-	// RVA: 0xF8FC50 Offset: 0xF8E250 VA: 0x180F8FC50
+	// RVA: 0xF906F0 Offset: 0xF8ECF0 VA: 0x180F906F0
 	protected void SetToken(JsonToken newToken) { }
 
-	// RVA: 0xF8FC30 Offset: 0xF8E230 VA: 0x180F8FC30
+	// RVA: 0xF906D0 Offset: 0xF8ECD0 VA: 0x180F906D0
 	protected void SetToken(JsonToken newToken, object value) { }
 
-	// RVA: 0xF8FA70 Offset: 0xF8E070 VA: 0x180F8FA70
+	// RVA: 0xF90510 Offset: 0xF8EB10 VA: 0x180F90510
 	internal void SetToken(JsonToken newToken, object value, bool updateIndex) { }
 
-	// RVA: 0xF8F930 Offset: 0xF8DF30 VA: 0x180F8F930
+	// RVA: 0xF903D0 Offset: 0xF8E9D0 VA: 0x180F903D0
 	internal void SetPostValueState(bool updateIndex) { }
 
-	// RVA: 0xF8FD90 Offset: 0xF8E390 VA: 0x180F8FD90
+	// RVA: 0xF90830 Offset: 0xF8EE30 VA: 0x180F90830
 	private void UpdateScopeWithFinishedValue() { }
 
-	// RVA: 0xF8FDA0 Offset: 0xF8E3A0 VA: 0x180F8FDA0
+	// RVA: 0xF90840 Offset: 0xF8EE40 VA: 0x180F90840
 	private void ValidateEnd(JsonToken endToken) { }
 
-	// RVA: 0xF8F960 Offset: 0xF8DF60 VA: 0x180F8F960
+	// RVA: 0xF90400 Offset: 0xF8EA00 VA: 0x180F90400
 	protected void SetStateBasedOnCurrent() { }
 
-	// RVA: 0xF8F910 Offset: 0xF8DF10 VA: 0x180F8F910
+	// RVA: 0xF903B0 Offset: 0xF8E9B0 VA: 0x180F903B0
 	private void SetFinished() { }
 
-	// RVA: 0xF8C490 Offset: 0xF8AA90 VA: 0x180F8C490
+	// RVA: 0xF8CF30 Offset: 0xF8B530 VA: 0x180F8CF30
 	private JsonContainerType GetTypeForCloseToken(JsonToken token) { }
 
-	// RVA: 0xF8FD20 Offset: 0xF8E320 VA: 0x180F8FD20 Slot: 4
+	// RVA: 0xF907C0 Offset: 0xF8EDC0 VA: 0x180F907C0 Slot: 4
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xF8C340 Offset: 0xF8A940 VA: 0x180F8C340 Slot: 19
+	// RVA: 0xF8CDE0 Offset: 0xF8B3E0 VA: 0x180F8CDE0 Slot: 19
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0xF8C2E0 Offset: 0xF8A8E0 VA: 0x180F8C2E0 Slot: 20
+	// RVA: 0xF8CD80 Offset: 0xF8B380 VA: 0x180F8CD80 Slot: 20
 	public virtual void Close() { }
 
-	// RVA: 0xF8C9B0 Offset: 0xF8AFB0 VA: 0x180F8C9B0
+	// RVA: 0xF8D450 Offset: 0xF8BA50 VA: 0x180F8D450
 	internal void ReadAndAssert() { }
 
-	// RVA: 0xF8CA20 Offset: 0xF8B020 VA: 0x180F8CA20
+	// RVA: 0xF8D4C0 Offset: 0xF8BAC0 VA: 0x180F8D4C0
 	internal bool ReadAndMoveToContent() { }
 
-	// RVA: 0xF8C580 Offset: 0xF8AB80 VA: 0x180F8C580
+	// RVA: 0xF8D020 Offset: 0xF8B620 VA: 0x180F8D020
 	internal bool MoveToContent() { }
 
-	// RVA: 0xF8C370 Offset: 0xF8A970 VA: 0x180F8C370
+	// RVA: 0xF8CE10 Offset: 0xF8B410 VA: 0x180F8CE10
 	private JsonToken GetContentToken() { }
 
 }
@@ -1849,81 +1849,81 @@ public static class JsonConvert // TypeDefIndex: 5904
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8B2F0 Offset: 0xF898F0 VA: 0x180F8B2F0
+	// RVA: 0xF8BD90 Offset: 0xF8A390 VA: 0x180F8BD90
 	public static Func<JsonSerializerSettings> get_DefaultSettings() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8B350 Offset: 0xF89950 VA: 0x180F8B350
+	// RVA: 0xF8BDF0 Offset: 0xF8A3F0 VA: 0x180F8BDF0
 	public static void set_DefaultSettings(Func<JsonSerializerSettings> value) { }
 
-	// RVA: 0xF8AFF0 Offset: 0xF895F0 VA: 0x180F8AFF0
+	// RVA: 0xF8BA90 Offset: 0xF8A090 VA: 0x180F8BA90
 	private static void .cctor() { }
 
-	// RVA: 0xF8A230 Offset: 0xF88830 VA: 0x180F8A230
+	// RVA: 0xF8ACD0 Offset: 0xF892D0 VA: 0x180F8ACD0
 	internal static JsonSerializerSettings GetDefaultSettings() { }
 
-	// RVA: 0xF8AD90 Offset: 0xF89390 VA: 0x180F8AD90
+	// RVA: 0xF8B830 Offset: 0xF89E30 VA: 0x180F8B830
 	public static string ToString(bool value) { }
 
-	// RVA: 0xF8A970 Offset: 0xF88F70 VA: 0x180F8A970
+	// RVA: 0xF8B410 Offset: 0xF89A10 VA: 0x180F8B410
 	public static string ToString(char value) { }
 
-	// RVA: 0xF8AAC0 Offset: 0xF890C0 VA: 0x180F8AAC0
+	// RVA: 0xF8B560 Offset: 0xF89B60 VA: 0x180F8B560
 	internal static string ToString(float value, FloatFormatHandling floatFormatHandling, char quoteChar, bool nullable) { }
 
-	// RVA: 0xF8A0D0 Offset: 0xF886D0 VA: 0x180F8A0D0
+	// RVA: 0xF8AB70 Offset: 0xF89170 VA: 0x180F8AB70
 	private static string EnsureFloatFormat(double value, string text, FloatFormatHandling floatFormatHandling, char quoteChar, bool nullable) { }
 
-	// RVA: 0xF8AEF0 Offset: 0xF894F0 VA: 0x180F8AEF0
+	// RVA: 0xF8B990 Offset: 0xF89F90 VA: 0x180F8B990
 	internal static string ToString(double value, FloatFormatHandling floatFormatHandling, char quoteChar, bool nullable) { }
 
-	// RVA: 0xF89FD0 Offset: 0xF885D0 VA: 0x180F89FD0
+	// RVA: 0xF8AA70 Offset: 0xF89070 VA: 0x180F8AA70
 	private static string EnsureDecimalPlace(double value, string text) { }
 
-	// RVA: 0xF89F60 Offset: 0xF88560 VA: 0x180F89F60
+	// RVA: 0xF8AA00 Offset: 0xF89000 VA: 0x180F8AA00
 	private static string EnsureDecimalPlace(string text) { }
 
-	// RVA: 0xF8ABC0 Offset: 0xF891C0 VA: 0x180F8ABC0
+	// RVA: 0xF8B660 Offset: 0xF89C60 VA: 0x180F8B660
 	public static string ToString(Decimal value) { }
 
-	// RVA: 0xF8A890 Offset: 0xF88E90 VA: 0x180F8A890
+	// RVA: 0xF8B330 Offset: 0xF89930 VA: 0x180F8B330
 	public static string ToString(string value) { }
 
-	// RVA: 0xF8ACA0 Offset: 0xF892A0 VA: 0x180F8ACA0
+	// RVA: 0xF8B740 Offset: 0xF89D40 VA: 0x180F8B740
 	public static string ToString(string value, char delimiter) { }
 
-	// RVA: 0xF8AE30 Offset: 0xF89430 VA: 0x180F8AE30
+	// RVA: 0xF8B8D0 Offset: 0xF89ED0 VA: 0x180F8B8D0
 	public static string ToString(string value, char delimiter, StringEscapeHandling stringEscapeHandling) { }
 
-	// RVA: 0xF8A510 Offset: 0xF88B10 VA: 0x180F8A510
+	// RVA: 0xF8AFB0 Offset: 0xF895B0 VA: 0x180F8AFB0
 	public static string SerializeObject(object value) { }
 
-	// RVA: 0xF8A780 Offset: 0xF88D80 VA: 0x180F8A780
+	// RVA: 0xF8B220 Offset: 0xF89820 VA: 0x180F8B220
 	public static string SerializeObject(object value, Formatting formatting) { }
 
-	// RVA: 0xF8A470 Offset: 0xF88A70 VA: 0x180F8A470
+	// RVA: 0xF8AF10 Offset: 0xF89510 VA: 0x180F8AF10
 	public static string SerializeObject(object value, Type type, JsonSerializerSettings settings) { }
 
-	// RVA: 0xF8A5C0 Offset: 0xF88BC0 VA: 0x180F8A5C0
+	// RVA: 0xF8B060 Offset: 0xF89660 VA: 0x180F8B060
 	public static string SerializeObject(object value, Formatting formatting, JsonSerializerSettings settings) { }
 
-	// RVA: 0xF8A6B0 Offset: 0xF88CB0 VA: 0x180F8A6B0
+	// RVA: 0xF8B150 Offset: 0xF89750 VA: 0x180F8B150
 	public static string SerializeObject(object value, Type type, Formatting formatting, JsonSerializerSettings settings) { }
 
-	// RVA: 0xF8A290 Offset: 0xF88890 VA: 0x180F8A290
+	// RVA: 0xF8AD30 Offset: 0xF89330 VA: 0x180F8AD30
 	private static string SerializeObjectInternal(object value, Type type, JsonSerializer jsonSerializer) { }
 
-	// RVA: 0xF89EF0 Offset: 0xF884F0 VA: 0x180F89EF0
+	// RVA: 0xF8A990 Offset: 0xF88F90 VA: 0x180F8A990
 	public static object DeserializeObject(string value, Type type) { }
 
 	// RVA: -1 Offset: -1
 	public static T DeserializeObject<T>(string value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CFC90 Offset: 0x5CE290 VA: 0x1805CFC90
+	|-RVA: 0x5CFC20 Offset: 0x5CE220 VA: 0x1805CFC20
 	|-JsonConvert.DeserializeObject<CameraMan.CameraState>
 	|
-	|-RVA: 0x5D0210 Offset: 0x5CE810 VA: 0x1805D0210
+	|-RVA: 0x5D01A0 Offset: 0x5CE7A0 VA: 0x1805D01A0
 	|-JsonConvert.DeserializeObject<ClientFrametimeRequest>
 	|-JsonConvert.DeserializeObject<CompanionSubscription.Status>
 	|-JsonConvert.DeserializeObject<Account.AccountJson>
@@ -1946,13 +1946,13 @@ public static class JsonConvert // TypeDefIndex: 5904
 	|-JsonConvert.DeserializeObject<Telephone.CensoredNumbers>
 	|-JsonConvert.DeserializeObject<object>
 	|
-	|-RVA: 0x5D0050 Offset: 0x5CE650 VA: 0x1805D0050
+	|-RVA: 0x5CFFE0 Offset: 0x5CE5E0 VA: 0x1805CFFE0
 	|-JsonConvert.DeserializeObject<NoticeData>
 	|
-	|-RVA: 0x5CFE40 Offset: 0x5CE440 VA: 0x1805CFE40
+	|-RVA: 0x5CFDD0 Offset: 0x5CE3D0 VA: 0x1805CFDD0
 	|-JsonConvert.DeserializeObject<RCon.Command>
 	|
-	|-RVA: 0x5CFEE0 Offset: 0x5CE4E0 VA: 0x1805CFEE0
+	|-RVA: 0x5CFE70 Offset: 0x5CE470 VA: 0x1805CFE70
 	|-JsonConvert.DeserializeObject<CorePropsFile>
 	*/
 
@@ -1960,23 +1960,23 @@ public static class JsonConvert // TypeDefIndex: 5904
 	public static T DeserializeObject<T>(string value, JsonSerializerSettings settings) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CFB70 Offset: 0x5CE170 VA: 0x1805CFB70
+	|-RVA: 0x5CFB00 Offset: 0x5CE100 VA: 0x1805CFB00
 	|-JsonConvert.DeserializeObject<CameraMan.CameraState>
 	|
-	|-RVA: 0x5D00F0 Offset: 0x5CE6F0 VA: 0x1805D00F0
+	|-RVA: 0x5D0080 Offset: 0x5CE680 VA: 0x1805D0080
 	|-JsonConvert.DeserializeObject<NoticeData>
 	|
-	|-RVA: 0x5CFD20 Offset: 0x5CE320 VA: 0x1805CFD20
+	|-RVA: 0x5CFCB0 Offset: 0x5CE2B0 VA: 0x1805CFCB0
 	|-JsonConvert.DeserializeObject<RCon.Command>
 	|
-	|-RVA: 0x5CFF50 Offset: 0x5CE550 VA: 0x1805CFF50
+	|-RVA: 0x5CFEE0 Offset: 0x5CE4E0 VA: 0x1805CFEE0
 	|-JsonConvert.DeserializeObject<CorePropsFile>
 	|
-	|-RVA: 0x5D0280 Offset: 0x5CE880 VA: 0x1805D0280
+	|-RVA: 0x5D0210 Offset: 0x5CE810 VA: 0x1805D0210
 	|-JsonConvert.DeserializeObject<object>
 	*/
 
-	// RVA: 0xF89CD0 Offset: 0xF882D0 VA: 0x180F89CD0
+	// RVA: 0xF8A770 Offset: 0xF88D70 VA: 0x180F8A770
 	public static object DeserializeObject(string value, Type type, JsonSerializerSettings settings) { }
 
 }
@@ -1984,25 +1984,25 @@ public static class JsonConvert // TypeDefIndex: 5904
 public class JsonSerializationException : JsonException // TypeDefIndex: 5905
 {	// Methods
 
-	// RVA: 0xF8B500 Offset: 0xF89B00 VA: 0x180F8B500
+	// RVA: 0xF8BFA0 Offset: 0xF8A5A0 VA: 0x180F8BFA0
 	public void .ctor() { }
 
-	// RVA: 0xF8B5E0 Offset: 0xF89BE0 VA: 0x180F8B5E0
+	// RVA: 0xF8C080 Offset: 0xF8A680 VA: 0x180F8C080
 	public void .ctor(string message) { }
 
-	// RVA: 0xF8B560 Offset: 0xF89B60 VA: 0x180F8B560
+	// RVA: 0xF8C000 Offset: 0xF8A600 VA: 0x180F8C000
 	public void .ctor(string message, Exception innerException) { }
 
-	// RVA: 0xF8B480 Offset: 0xF89A80 VA: 0x180F8B480
+	// RVA: 0xF8BF20 Offset: 0xF8A520 VA: 0x180F8BF20
 	public void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xF90520 Offset: 0xF8EB20 VA: 0x180F90520
+	// RVA: 0xF90FC0 Offset: 0xF8F5C0 VA: 0x180F90FC0
 	internal static JsonSerializationException Create(JsonReader reader, string message) { }
 
-	// RVA: 0xF90530 Offset: 0xF8EB30 VA: 0x180F90530
+	// RVA: 0xF90FD0 Offset: 0xF8F5D0 VA: 0x180F90FD0
 	internal static JsonSerializationException Create(JsonReader reader, string message, Exception ex) { }
 
-	// RVA: 0xF90440 Offset: 0xF8EA40 VA: 0x180F90440
+	// RVA: 0xF90EE0 Offset: 0xF8F4E0 VA: 0x180F90EE0
 	internal static JsonSerializationException Create(IJsonLineInfo lineInfo, string path, string message, Exception ex) { }
 
 }
@@ -2066,161 +2066,161 @@ public class JsonSerializer // TypeDefIndex: 5906
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF92E30 Offset: 0xF91430 VA: 0x180F92E30 Slot: 4
+	// RVA: 0xF938D0 Offset: 0xF91ED0 VA: 0x180F938D0 Slot: 4
 	public virtual void add_Error(EventHandler<ErrorEventArgs> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF92FE0 Offset: 0xF915E0 VA: 0x180F92FE0 Slot: 5
+	// RVA: 0xF93A80 Offset: 0xF92080 VA: 0x180F93A80 Slot: 5
 	public virtual void remove_Error(EventHandler<ErrorEventArgs> value) { }
 
-	// RVA: 0xF93640 Offset: 0xF91C40 VA: 0x180F93640 Slot: 6
+	// RVA: 0xF940E0 Offset: 0xF926E0 VA: 0x180F940E0 Slot: 6
 	public virtual void set_ReferenceResolver(IReferenceResolver value) { }
 
-	// RVA: 0xF93080 Offset: 0xF91680 VA: 0x180F93080 Slot: 7
+	// RVA: 0xF93B20 Offset: 0xF92120 VA: 0x180F93B20 Slot: 7
 	public virtual void set_Binder(SerializationBinder value) { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450 Slot: 8
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0 Slot: 8
 	public virtual ITraceWriter get_TraceWriter() { }
 
-	// RVA: 0x5DD810 Offset: 0x5DBE10 VA: 0x1805DD810 Slot: 9
+	// RVA: 0x5DD7A0 Offset: 0x5DBDA0 VA: 0x1805DD7A0 Slot: 9
 	public virtual void set_TraceWriter(ITraceWriter value) { }
 
-	// RVA: 0x4CF890 Offset: 0x4CDE90 VA: 0x1804CF890 Slot: 10
+	// RVA: 0x4CF820 Offset: 0x4CDE20 VA: 0x1804CF820 Slot: 10
 	public virtual void set_EqualityComparer(IEqualityComparer value) { }
 
-	// RVA: 0xF93740 Offset: 0xF91D40 VA: 0x180F93740 Slot: 11
+	// RVA: 0xF941E0 Offset: 0xF927E0 VA: 0x180F941E0 Slot: 11
 	public virtual void set_TypeNameHandling(TypeNameHandling value) { }
 
-	// RVA: 0xF936D0 Offset: 0xF91CD0 VA: 0x180F936D0 Slot: 12
+	// RVA: 0xF94170 Offset: 0xF92770 VA: 0x180F94170 Slot: 12
 	public virtual void set_TypeNameAssemblyFormat(FormatterAssemblyStyle value) { }
 
-	// RVA: 0xF93560 Offset: 0xF91B60 VA: 0x180F93560 Slot: 13
+	// RVA: 0xF94000 Offset: 0xF92600 VA: 0x180F94000 Slot: 13
 	public virtual void set_PreserveReferencesHandling(PreserveReferencesHandling value) { }
 
-	// RVA: 0xF935D0 Offset: 0xF91BD0 VA: 0x180F935D0 Slot: 14
+	// RVA: 0xF94070 Offset: 0xF92670 VA: 0x180F94070 Slot: 14
 	public virtual void set_ReferenceLoopHandling(ReferenceLoopHandling value) { }
 
-	// RVA: 0xF93410 Offset: 0xF91A10 VA: 0x180F93410 Slot: 15
+	// RVA: 0xF93EB0 Offset: 0xF924B0 VA: 0x180F93EB0 Slot: 15
 	public virtual void set_MissingMemberHandling(MissingMemberHandling value) { }
 
-	// RVA: 0xF93480 Offset: 0xF91A80 VA: 0x180F93480 Slot: 16
+	// RVA: 0xF93F20 Offset: 0xF92520 VA: 0x180F93F20 Slot: 16
 	public virtual void set_NullValueHandling(NullValueHandling value) { }
 
-	// RVA: 0xF932D0 Offset: 0xF918D0 VA: 0x180F932D0 Slot: 17
+	// RVA: 0xF93D70 Offset: 0xF92370 VA: 0x180F93D70 Slot: 17
 	public virtual void set_DefaultValueHandling(DefaultValueHandling value) { }
 
-	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10 Slot: 18
+	// RVA: 0x79C630 Offset: 0x79AC30 VA: 0x18079C630 Slot: 18
 	public virtual ObjectCreationHandling get_ObjectCreationHandling() { }
 
-	// RVA: 0xF934F0 Offset: 0xF91AF0 VA: 0x180F934F0 Slot: 19
+	// RVA: 0xF93F90 Offset: 0xF92590 VA: 0x180F93F90 Slot: 19
 	public virtual void set_ObjectCreationHandling(ObjectCreationHandling value) { }
 
-	// RVA: 0xF93170 Offset: 0xF91770 VA: 0x180F93170 Slot: 20
+	// RVA: 0xF93C10 Offset: 0xF92210 VA: 0x180F93C10 Slot: 20
 	public virtual void set_ConstructorHandling(ConstructorHandling value) { }
 
-	// RVA: 0x5E2F40 Offset: 0x5E1540 VA: 0x1805E2F40 Slot: 21
+	// RVA: 0x5E2ED0 Offset: 0x5E14D0 VA: 0x1805E2ED0 Slot: 21
 	public virtual MetadataPropertyHandling get_MetadataPropertyHandling() { }
 
-	// RVA: 0xF933A0 Offset: 0xF919A0 VA: 0x180F933A0 Slot: 22
+	// RVA: 0xF93E40 Offset: 0xF92440 VA: 0x180F93E40 Slot: 22
 	public virtual void set_MetadataPropertyHandling(MetadataPropertyHandling value) { }
 
-	// RVA: 0xF92F10 Offset: 0xF91510 VA: 0x180F92F10 Slot: 23
+	// RVA: 0xF939B0 Offset: 0xF91FB0 VA: 0x180F939B0 Slot: 23
 	public virtual JsonConverterCollection get_Converters() { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0 Slot: 24
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540 Slot: 24
 	public virtual IContractResolver get_ContractResolver() { }
 
-	// RVA: 0xF93200 Offset: 0xF91800 VA: 0x180F93200 Slot: 25
+	// RVA: 0xF93CA0 Offset: 0xF922A0 VA: 0x180F93CA0 Slot: 25
 	public virtual void set_ContractResolver(IContractResolver value) { }
 
-	// RVA: 0xC32100 Offset: 0xC30700 VA: 0x180C32100 Slot: 26
+	// RVA: 0xC325D0 Offset: 0xC30BD0 VA: 0x180C325D0 Slot: 26
 	public virtual StreamingContext get_Context() { }
 
-	// RVA: 0xF931E0 Offset: 0xF917E0 VA: 0x180F931E0 Slot: 27
+	// RVA: 0xF93C80 Offset: 0xF92280 VA: 0x180F93C80 Slot: 27
 	public virtual void set_Context(StreamingContext value) { }
 
-	// RVA: 0xF92FA0 Offset: 0xF915A0 VA: 0x180F92FA0 Slot: 28
+	// RVA: 0xF93A40 Offset: 0xF92040 VA: 0x180F93A40 Slot: 28
 	public virtual Formatting get_Formatting() { }
 
-	// RVA: 0xF93340 Offset: 0xF91940 VA: 0x180F93340 Slot: 29
+	// RVA: 0xF93DE0 Offset: 0xF923E0 VA: 0x180F93DE0 Slot: 29
 	public virtual void set_Formatting(Formatting value) { }
 
-	// RVA: 0xF92ED0 Offset: 0xF914D0 VA: 0x180F92ED0 Slot: 30
+	// RVA: 0xF93970 Offset: 0xF91F70 VA: 0x180F93970 Slot: 30
 	public virtual bool get_CheckAdditionalContent() { }
 
-	// RVA: 0xF93110 Offset: 0xF91710 VA: 0x180F93110 Slot: 31
+	// RVA: 0xF93BB0 Offset: 0xF921B0 VA: 0x180F93BB0 Slot: 31
 	public virtual void set_CheckAdditionalContent(bool value) { }
 
-	// RVA: 0xF91ED0 Offset: 0xF904D0 VA: 0x180F91ED0
+	// RVA: 0xF92970 Offset: 0xF90F70 VA: 0x180F92970
 	internal bool IsCheckAdditionalContentSet() { }
 
-	// RVA: 0xF92CC0 Offset: 0xF912C0 VA: 0x180F92CC0
+	// RVA: 0xF93760 Offset: 0xF91D60 VA: 0x180F93760
 	public void .ctor() { }
 
-	// RVA: 0xF91610 Offset: 0xF8FC10 VA: 0x180F91610
+	// RVA: 0xF920B0 Offset: 0xF906B0 VA: 0x180F920B0
 	public static JsonSerializer Create() { }
 
-	// RVA: 0xF917B0 Offset: 0xF8FDB0 VA: 0x180F917B0
+	// RVA: 0xF92250 Offset: 0xF90850 VA: 0x180F92250
 	public static JsonSerializer Create(JsonSerializerSettings settings) { }
 
-	// RVA: 0xF91370 Offset: 0xF8F970 VA: 0x180F91370
+	// RVA: 0xF91E10 Offset: 0xF90410 VA: 0x180F91E10
 	public static JsonSerializer CreateDefault() { }
 
-	// RVA: 0xF915D0 Offset: 0xF8FBD0 VA: 0x180F915D0
+	// RVA: 0xF92070 Offset: 0xF90670 VA: 0x180F92070
 	public static JsonSerializer CreateDefault(JsonSerializerSettings settings) { }
 
-	// RVA: 0xF90B70 Offset: 0xF8F170 VA: 0x180F90B70
+	// RVA: 0xF91610 Offset: 0xF8FC10 VA: 0x180F91610
 	private static void ApplySerializerSettings(JsonSerializer serializer, JsonSerializerSettings settings) { }
 
-	// RVA: 0xF922A0 Offset: 0xF908A0 VA: 0x180F922A0
+	// RVA: 0xF92D40 Offset: 0xF91340 VA: 0x180F92D40
 	public void Populate(JsonReader reader, object target) { }
 
-	// RVA: 0xF91F70 Offset: 0xF90570 VA: 0x180F91F70 Slot: 32
+	// RVA: 0xF92A10 Offset: 0xF91010 VA: 0x180F92A10 Slot: 32
 	internal virtual void PopulateInternal(JsonReader reader, object target) { }
 
 	// RVA: -1 Offset: -1
 	public T Deserialize<T>(JsonReader reader) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D0B40 Offset: 0x5CF140 VA: 0x1805D0B40
+	|-RVA: 0x5D0AD0 Offset: 0x5CF0D0 VA: 0x1805D0AD0
 	|-JsonSerializer.Deserialize<Int32Enum>
 	|-JsonSerializer.Deserialize<RegexOptions>
 	|
-	|-RVA: 0x5D0C20 Offset: 0x5CF220 VA: 0x1805D0C20
+	|-RVA: 0x5D0BB0 Offset: 0x5CF1B0 VA: 0x1805D0BB0
 	|-JsonSerializer.Deserialize<object>
 	*/
 
-	// RVA: 0xF91CC0 Offset: 0xF902C0 VA: 0x180F91CC0
+	// RVA: 0xF92760 Offset: 0xF90D60 VA: 0x180F92760
 	public object Deserialize(JsonReader reader, Type objectType) { }
 
-	// RVA: 0xF91970 Offset: 0xF8FF70 VA: 0x180F91970 Slot: 33
+	// RVA: 0xF92410 Offset: 0xF90A10 VA: 0x180F92410 Slot: 33
 	internal virtual object DeserializeInternal(JsonReader reader, Type objectType) { }
 
-	// RVA: 0xF92910 Offset: 0xF90F10 VA: 0x180F92910
+	// RVA: 0xF933B0 Offset: 0xF919B0 VA: 0x180F933B0
 	private void SetupReader(JsonReader reader, out CultureInfo previousCulture, out Nullable<DateTimeZoneHandling> previousDateTimeZoneHandling, out Nullable<DateParseHandling> previousDateParseHandling, out Nullable<FloatParseHandling> previousFloatParseHandling, out Nullable<int> previousMaxDepth, out string previousDateFormatString) { }
 
-	// RVA: 0xF922C0 Offset: 0xF908C0 VA: 0x180F922C0
+	// RVA: 0xF92D60 Offset: 0xF91360 VA: 0x180F92D60
 	private void ResetReader(JsonReader reader, CultureInfo previousCulture, Nullable<DateTimeZoneHandling> previousDateTimeZoneHandling, Nullable<DateParseHandling> previousDateParseHandling, Nullable<FloatParseHandling> previousFloatParseHandling, Nullable<int> previousMaxDepth, string previousDateFormatString) { }
 
-	// RVA: 0xF928F0 Offset: 0xF90EF0 VA: 0x180F928F0
+	// RVA: 0xF93390 Offset: 0xF91990 VA: 0x180F93390
 	public void Serialize(JsonWriter jsonWriter, object value, Type objectType) { }
 
-	// RVA: 0xF928C0 Offset: 0xF90EC0 VA: 0x180F928C0
+	// RVA: 0xF93360 Offset: 0xF91960 VA: 0x180F93360
 	public void Serialize(JsonWriter jsonWriter, object value) { }
 
-	// RVA: 0xF92430 Offset: 0xF90A30 VA: 0x180F92430 Slot: 34
+	// RVA: 0xF92ED0 Offset: 0xF914D0 VA: 0x180F92ED0 Slot: 34
 	internal virtual void SerializeInternal(JsonWriter jsonWriter, object value, Type objectType) { }
 
-	// RVA: 0xF91E60 Offset: 0xF90460 VA: 0x180F91E60
+	// RVA: 0xF92900 Offset: 0xF90F00 VA: 0x180F92900
 	internal IReferenceResolver GetReferenceResolver() { }
 
-	// RVA: 0xF91CE0 Offset: 0xF902E0 VA: 0x180F91CE0
+	// RVA: 0xF92780 Offset: 0xF90D80 VA: 0x180F92780
 	internal JsonConverter GetMatchingConverter(Type type) { }
 
-	// RVA: 0xF91DA0 Offset: 0xF903A0 VA: 0x180F91DA0
+	// RVA: 0xF92840 Offset: 0xF90E40 VA: 0x180F92840
 	internal static JsonConverter GetMatchingConverter(IList<JsonConverter> converters, Type objectType) { }
 
-	// RVA: 0xF91F10 Offset: 0xF90510 VA: 0x180F91F10
+	// RVA: 0xF929B0 Offset: 0xF90FB0 VA: 0x180F929B0
 	internal void OnError(ErrorEventArgs e) { }
 
 }
@@ -2282,147 +2282,147 @@ public abstract class JsonWriter : IDisposable // TypeDefIndex: 5912
 
 	// Methods
 
-	// RVA: 0xE48340 Offset: 0xE46940 VA: 0x180E48340
+	// RVA: 0xE48DF0 Offset: 0xE473F0 VA: 0x180E48DF0
 	internal static JsonWriter.State[][] BuildStateArray() { }
 
-	// RVA: 0xE4B7A0 Offset: 0xE49DA0 VA: 0x180E4B7A0
+	// RVA: 0xE4C250 Offset: 0xE4A850 VA: 0x180E4C250
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150
+	// RVA: 0x8C1660 Offset: 0x8BFC60 VA: 0x1808C1660
 	public bool get_CloseOutput() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x78E280 Offset: 0x78C880 VA: 0x18078E280
+	// RVA: 0x78E190 Offset: 0x78C790 VA: 0x18078E190
 	public void set_CloseOutput(bool value) { }
 
-	// RVA: 0xE4C780 Offset: 0xE4AD80 VA: 0x180E4C780
+	// RVA: 0xE4D230 Offset: 0xE4B830 VA: 0x180E4D230
 	protected internal int get_Top() { }
 
-	// RVA: 0xE4C7E0 Offset: 0xE4ADE0 VA: 0x180E4C7E0
+	// RVA: 0xE4D290 Offset: 0xE4B890 VA: 0x180E4D290
 	public WriteState get_WriteState() { }
 
-	// RVA: 0xE4C590 Offset: 0xE4AB90 VA: 0x180E4C590
+	// RVA: 0xE4D040 Offset: 0xE4B640 VA: 0x180E4D040
 	internal string get_ContainerPath() { }
 
-	// RVA: 0xE4C680 Offset: 0xE4AC80 VA: 0x180E4C680
+	// RVA: 0xE4D130 Offset: 0xE4B730 VA: 0x180E4D130
 	public string get_Path() { }
 
-	// RVA: 0x5E2F40 Offset: 0x5E1540 VA: 0x1805E2F40
+	// RVA: 0x5E2ED0 Offset: 0x5E14D0 VA: 0x1805E2ED0
 	public Formatting get_Formatting() { }
 
-	// RVA: 0xE4CA40 Offset: 0xE4B040 VA: 0x180E4CA40
+	// RVA: 0xE4D4F0 Offset: 0xE4BAF0 VA: 0x180E4D4F0
 	public void set_Formatting(Formatting value) { }
 
-	// RVA: 0x5E2F50 Offset: 0x5E1550 VA: 0x1805E2F50
+	// RVA: 0x5E2EE0 Offset: 0x5E14E0 VA: 0x1805E2EE0
 	public DateFormatHandling get_DateFormatHandling() { }
 
-	// RVA: 0xE4C8F0 Offset: 0xE4AEF0 VA: 0x180E4C8F0
+	// RVA: 0xE4D3A0 Offset: 0xE4B9A0 VA: 0x180E4D3A0
 	public void set_DateFormatHandling(DateFormatHandling value) { }
 
-	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
+	// RVA: 0x5DE3D0 Offset: 0x5DC9D0 VA: 0x1805DE3D0
 	public DateTimeZoneHandling get_DateTimeZoneHandling() { }
 
-	// RVA: 0xE4C960 Offset: 0xE4AF60 VA: 0x180E4C960
+	// RVA: 0xE4D410 Offset: 0xE4BA10 VA: 0x180E4D410
 	public void set_DateTimeZoneHandling(DateTimeZoneHandling value) { }
 
-	// RVA: 0x5DE450 Offset: 0x5DCA50 VA: 0x1805DE450
+	// RVA: 0x5DE3E0 Offset: 0x5DC9E0 VA: 0x1805DE3E0
 	public StringEscapeHandling get_StringEscapeHandling() { }
 
-	// RVA: 0xE4CAB0 Offset: 0xE4B0B0 VA: 0x180E4CAB0
+	// RVA: 0xE4D560 Offset: 0xE4BB60 VA: 0x180E4D560
 	public void set_StringEscapeHandling(StringEscapeHandling value) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	internal virtual void OnStringEscapeHandlingChanged() { }
 
-	// RVA: 0x598420 Offset: 0x596A20 VA: 0x180598420
+	// RVA: 0x5983B0 Offset: 0x5969B0 VA: 0x1805983B0
 	public FloatFormatHandling get_FloatFormatHandling() { }
 
-	// RVA: 0xE4C9D0 Offset: 0xE4AFD0 VA: 0x180E4C9D0
+	// RVA: 0xE4D480 Offset: 0xE4BA80 VA: 0x180E4D480
 	public void set_FloatFormatHandling(FloatFormatHandling value) { }
 
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	public string get_DateFormatString() { }
 
-	// RVA: 0x4CF890 Offset: 0x4CDE90 VA: 0x1804CF890
+	// RVA: 0x4CF820 Offset: 0x4CDE20 VA: 0x1804CF820
 	public void set_DateFormatString(string value) { }
 
-	// RVA: 0xE4C620 Offset: 0xE4AC20 VA: 0x180E4C620
+	// RVA: 0xE4D0D0 Offset: 0xE4B6D0 VA: 0x180E4D0D0
 	public CultureInfo get_Culture() { }
 
-	// RVA: 0x4CF880 Offset: 0x4CDE80 VA: 0x1804CF880
+	// RVA: 0x4CF810 Offset: 0x4CDE10 VA: 0x1804CF810
 	public void set_Culture(CultureInfo value) { }
 
-	// RVA: 0xE4C560 Offset: 0xE4AB60 VA: 0x180E4C560
+	// RVA: 0xE4D010 Offset: 0xE4B610 VA: 0x180E4D010
 	protected void .ctor() { }
 
-	// RVA: 0xE48C20 Offset: 0xE47220 VA: 0x180E48C20
+	// RVA: 0xE496D0 Offset: 0xE47CD0 VA: 0x180E496D0
 	internal void UpdateScopeWithFinishedValue() { }
 
-	// RVA: 0xE48AB0 Offset: 0xE470B0 VA: 0x180E48AB0
+	// RVA: 0xE49560 Offset: 0xE47B60 VA: 0x180E49560
 	private void Push(JsonContainerType value) { }
 
-	// RVA: 0xE489C0 Offset: 0xE46FC0 VA: 0x180E489C0
+	// RVA: 0xE49470 Offset: 0xE47A70 VA: 0x180E49470
 	private JsonContainerType Pop() { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	private JsonContainerType Peek() { }
 
-	// RVA: 0xE39E60 Offset: 0xE38460 VA: 0x180E39E60 Slot: 6
+	// RVA: 0xE3A910 Offset: 0xE38F10 VA: 0x180E3A910 Slot: 6
 	public virtual void Close() { }
 
-	// RVA: 0xE49120 Offset: 0xE47720 VA: 0x180E49120 Slot: 7
+	// RVA: 0xE49BD0 Offset: 0xE481D0 VA: 0x180E49BD0 Slot: 7
 	public virtual void WriteStartObject() { }
 
-	// RVA: 0xE48E90 Offset: 0xE47490 VA: 0x180E48E90 Slot: 8
+	// RVA: 0xE49940 Offset: 0xE47F40 VA: 0x180E49940 Slot: 8
 	public virtual void WriteEndObject() { }
 
-	// RVA: 0xE49100 Offset: 0xE47700 VA: 0x180E49100 Slot: 9
+	// RVA: 0xE49BB0 Offset: 0xE481B0 VA: 0x180E49BB0 Slot: 9
 	public virtual void WriteStartArray() { }
 
-	// RVA: 0xE48E70 Offset: 0xE47470 VA: 0x180E48E70 Slot: 10
+	// RVA: 0xE49920 Offset: 0xE47F20 VA: 0x180E49920 Slot: 10
 	public virtual void WriteEndArray() { }
 
-	// RVA: 0xE49110 Offset: 0xE47710 VA: 0x180E49110 Slot: 11
+	// RVA: 0xE49BC0 Offset: 0xE481C0 VA: 0x180E49BC0 Slot: 11
 	public virtual void WriteStartConstructor(string name) { }
 
-	// RVA: 0xE48E80 Offset: 0xE47480 VA: 0x180E48E80 Slot: 12
+	// RVA: 0xE49930 Offset: 0xE47F30 VA: 0x180E49930 Slot: 12
 	public virtual void WriteEndConstructor() { }
 
-	// RVA: 0xE48860 Offset: 0xE46E60 VA: 0x180E48860 Slot: 13
+	// RVA: 0xE49310 Offset: 0xE47910 VA: 0x180E49310 Slot: 13
 	public virtual void WritePropertyName(string name) { }
 
-	// RVA: 0xE49090 Offset: 0xE47690 VA: 0x180E49090 Slot: 14
+	// RVA: 0xE49B40 Offset: 0xE48140 VA: 0x180E49B40 Slot: 14
 	public virtual void WritePropertyName(string name, bool escape) { }
 
-	// RVA: 0xE48F90 Offset: 0xE47590 VA: 0x180E48F90 Slot: 15
+	// RVA: 0xE49A40 Offset: 0xE48040 VA: 0x180E49A40 Slot: 15
 	public virtual void WriteEnd() { }
 
-	// RVA: 0xE49340 Offset: 0xE47940 VA: 0x180E49340
+	// RVA: 0xE49DF0 Offset: 0xE483F0 VA: 0x180E49DF0
 	public void WriteToken(JsonReader reader) { }
 
-	// RVA: 0xE49BC0 Offset: 0xE481C0 VA: 0x180E49BC0
+	// RVA: 0xE4A670 Offset: 0xE48C70 VA: 0x180E4A670
 	public void WriteToken(JsonReader reader, bool writeChildren) { }
 
-	// RVA: 0xE493B0 Offset: 0xE479B0 VA: 0x180E493B0
+	// RVA: 0xE49E60 Offset: 0xE48460 VA: 0x180E49E60
 	public void WriteToken(JsonToken token, object value) { }
 
-	// RVA: 0xE49130 Offset: 0xE47730 VA: 0x180E49130 Slot: 16
+	// RVA: 0xE49BE0 Offset: 0xE481E0 VA: 0x180E49BE0 Slot: 16
 	internal virtual void WriteToken(JsonReader reader, bool writeChildren, bool writeDateConstructorAsDate, bool writeComments) { }
 
-	// RVA: 0xE48C30 Offset: 0xE47230 VA: 0x180E48C30
+	// RVA: 0xE496E0 Offset: 0xE47CE0 VA: 0x180E496E0
 	private void WriteConstructorDate(JsonReader reader) { }
 
-	// RVA: 0xE48EA0 Offset: 0xE474A0 VA: 0x180E48EA0
+	// RVA: 0xE49950 Offset: 0xE47F50 VA: 0x180E49950
 	private void WriteEnd(JsonContainerType type) { }
 
-	// RVA: 0xE39E60 Offset: 0xE38460 VA: 0x180E39E60
+	// RVA: 0xE3A910 Offset: 0xE38F10 VA: 0x180E3A910
 	private void AutoCompleteAll() { }
 
-	// RVA: 0xE48780 Offset: 0xE46D80 VA: 0x180E48780
+	// RVA: 0xE49230 Offset: 0xE47830 VA: 0x180E49230
 	private JsonToken GetCloseTokenForType(JsonContainerType type) { }
 
-	// RVA: 0xE47D50 Offset: 0xE46350 VA: 0x180E47D50
+	// RVA: 0xE48800 Offset: 0xE46E00 VA: 0x180E48800
 	private void AutoCompleteClose(JsonContainerType type) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 17
@@ -2437,174 +2437,174 @@ public abstract class JsonWriter : IDisposable // TypeDefIndex: 5912
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 20
 	protected virtual void WriteIndentSpace() { }
 
-	// RVA: 0xE480E0 Offset: 0xE466E0 VA: 0x180E480E0
+	// RVA: 0xE48B90 Offset: 0xE47190 VA: 0x180E48B90
 	internal void AutoComplete(JsonToken tokenBeingWritten) { }
 
-	// RVA: 0xE49070 Offset: 0xE47670 VA: 0x180E49070 Slot: 21
+	// RVA: 0xE49B20 Offset: 0xE48120 VA: 0x180E49B20 Slot: 21
 	public virtual void WriteNull() { }
 
-	// RVA: 0xE49C40 Offset: 0xE48240 VA: 0x180E49C40 Slot: 22
+	// RVA: 0xE4A6F0 Offset: 0xE48CF0 VA: 0x180E4A6F0 Slot: 22
 	public virtual void WriteUndefined() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 23
 	public virtual void WriteRaw(string json) { }
 
-	// RVA: 0xE490B0 Offset: 0xE476B0 VA: 0x180E490B0 Slot: 24
+	// RVA: 0xE49B60 Offset: 0xE48160 VA: 0x180E49B60 Slot: 24
 	public virtual void WriteRawValue(string json) { }
 
-	// RVA: 0xE49CD0 Offset: 0xE482D0 VA: 0x180E49CD0 Slot: 25
+	// RVA: 0xE4A780 Offset: 0xE48D80 VA: 0x180E4A780 Slot: 25
 	public virtual void WriteValue(string value) { }
 
-	// RVA: 0xE4AE80 Offset: 0xE49480 VA: 0x180E4AE80 Slot: 26
+	// RVA: 0xE4B930 Offset: 0xE49F30 VA: 0x180E4B930 Slot: 26
 	public virtual void WriteValue(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE4AE80 Offset: 0xE49480 VA: 0x180E4AE80 Slot: 27
+	// RVA: 0xE4B930 Offset: 0xE49F30 VA: 0x180E4B930 Slot: 27
 	public virtual void WriteValue(uint value) { }
 
-	// RVA: 0xE4AE80 Offset: 0xE49480 VA: 0x180E4AE80 Slot: 28
+	// RVA: 0xE4B930 Offset: 0xE49F30 VA: 0x180E4B930 Slot: 28
 	public virtual void WriteValue(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE4AE80 Offset: 0xE49480 VA: 0x180E4AE80 Slot: 29
+	// RVA: 0xE4B930 Offset: 0xE49F30 VA: 0x180E4B930 Slot: 29
 	public virtual void WriteValue(ulong value) { }
 
-	// RVA: 0xE4B300 Offset: 0xE49900 VA: 0x180E4B300 Slot: 30
+	// RVA: 0xE4BDB0 Offset: 0xE4A3B0 VA: 0x180E4BDB0 Slot: 30
 	public virtual void WriteValue(float value) { }
 
-	// RVA: 0xE4B300 Offset: 0xE49900 VA: 0x180E4B300 Slot: 31
+	// RVA: 0xE4BDB0 Offset: 0xE4A3B0 VA: 0x180E4BDB0 Slot: 31
 	public virtual void WriteValue(double value) { }
 
-	// RVA: 0xE4B180 Offset: 0xE49780 VA: 0x180E4B180 Slot: 32
+	// RVA: 0xE4BC30 Offset: 0xE4A230 VA: 0x180E4BC30 Slot: 32
 	public virtual void WriteValue(bool value) { }
 
-	// RVA: 0xE4AE80 Offset: 0xE49480 VA: 0x180E4AE80 Slot: 33
+	// RVA: 0xE4B930 Offset: 0xE49F30 VA: 0x180E4B930 Slot: 33
 	public virtual void WriteValue(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE4AE80 Offset: 0xE49480 VA: 0x180E4AE80 Slot: 34
+	// RVA: 0xE4B930 Offset: 0xE49F30 VA: 0x180E4B930 Slot: 34
 	public virtual void WriteValue(ushort value) { }
 
-	// RVA: 0xE49CD0 Offset: 0xE482D0 VA: 0x180E49CD0 Slot: 35
+	// RVA: 0xE4A780 Offset: 0xE48D80 VA: 0x180E4A780 Slot: 35
 	public virtual void WriteValue(char value) { }
 
-	// RVA: 0xE4AE80 Offset: 0xE49480 VA: 0x180E4AE80 Slot: 36
+	// RVA: 0xE4B930 Offset: 0xE49F30 VA: 0x180E4B930 Slot: 36
 	public virtual void WriteValue(byte value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE4AE80 Offset: 0xE49480 VA: 0x180E4AE80 Slot: 37
+	// RVA: 0xE4B930 Offset: 0xE49F30 VA: 0x180E4B930 Slot: 37
 	public virtual void WriteValue(sbyte value) { }
 
-	// RVA: 0xE4B300 Offset: 0xE49900 VA: 0x180E4B300 Slot: 38
+	// RVA: 0xE4BDB0 Offset: 0xE4A3B0 VA: 0x180E4BDB0 Slot: 38
 	public virtual void WriteValue(Decimal value) { }
 
-	// RVA: 0xE4B2E0 Offset: 0xE498E0 VA: 0x180E4B2E0 Slot: 39
+	// RVA: 0xE4BD90 Offset: 0xE4A390 VA: 0x180E4BD90 Slot: 39
 	public virtual void WriteValue(DateTime value) { }
 
-	// RVA: 0xE4B2E0 Offset: 0xE498E0 VA: 0x180E4B2E0 Slot: 40
+	// RVA: 0xE4BD90 Offset: 0xE4A390 VA: 0x180E4BD90 Slot: 40
 	public virtual void WriteValue(DateTimeOffset value) { }
 
-	// RVA: 0xE49CD0 Offset: 0xE482D0 VA: 0x180E49CD0 Slot: 41
+	// RVA: 0xE4A780 Offset: 0xE48D80 VA: 0x180E4A780 Slot: 41
 	public virtual void WriteValue(Guid value) { }
 
-	// RVA: 0xE49CD0 Offset: 0xE482D0 VA: 0x180E49CD0 Slot: 42
+	// RVA: 0xE4A780 Offset: 0xE48D80 VA: 0x180E4A780 Slot: 42
 	public virtual void WriteValue(TimeSpan value) { }
 
-	// RVA: 0xE4B020 Offset: 0xE49620 VA: 0x180E4B020 Slot: 43
+	// RVA: 0xE4BAD0 Offset: 0xE4A0D0 VA: 0x180E4BAD0 Slot: 43
 	public virtual void WriteValue(Nullable<int> value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE4B730 Offset: 0xE49D30 VA: 0x180E4B730 Slot: 44
+	// RVA: 0xE4C1E0 Offset: 0xE4A7E0 VA: 0x180E4C1E0 Slot: 44
 	public virtual void WriteValue(Nullable<uint> value) { }
 
-	// RVA: 0xE4B5D0 Offset: 0xE49BD0 VA: 0x180E4B5D0 Slot: 45
+	// RVA: 0xE4C080 Offset: 0xE4A680 VA: 0x180E4C080 Slot: 45
 	public virtual void WriteValue(Nullable<long> value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE49C60 Offset: 0xE48260 VA: 0x180E49C60 Slot: 46
+	// RVA: 0xE4A710 Offset: 0xE48D10 VA: 0x180E4A710 Slot: 46
 	public virtual void WriteValue(Nullable<ulong> value) { }
 
-	// RVA: 0xE4B640 Offset: 0xE49C40 VA: 0x180E4B640 Slot: 47
+	// RVA: 0xE4C0F0 Offset: 0xE4A6F0 VA: 0x180E4C0F0 Slot: 47
 	public virtual void WriteValue(Nullable<float> value) { }
 
-	// RVA: 0xE4AF10 Offset: 0xE49510 VA: 0x180E4AF10 Slot: 48
+	// RVA: 0xE4B9C0 Offset: 0xE49FC0 VA: 0x180E4B9C0 Slot: 48
 	public virtual void WriteValue(Nullable<double> value) { }
 
-	// RVA: 0xE4B400 Offset: 0xE49A00 VA: 0x180E4B400 Slot: 49
+	// RVA: 0xE4BEB0 Offset: 0xE4A4B0 VA: 0x180E4BEB0 Slot: 49
 	public virtual void WriteValue(Nullable<bool> value) { }
 
-	// RVA: 0xE4B320 Offset: 0xE49920 VA: 0x180E4B320 Slot: 50
+	// RVA: 0xE4BDD0 Offset: 0xE4A3D0 VA: 0x180E4BDD0 Slot: 50
 	public virtual void WriteValue(Nullable<short> value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE4B090 Offset: 0xE49690 VA: 0x180E4B090 Slot: 51
+	// RVA: 0xE4BB40 Offset: 0xE4A140 VA: 0x180E4BB40 Slot: 51
 	public virtual void WriteValue(Nullable<ushort> value) { }
 
-	// RVA: 0xE4B390 Offset: 0xE49990 VA: 0x180E4B390 Slot: 52
+	// RVA: 0xE4BE40 Offset: 0xE4A440 VA: 0x180E4BE40 Slot: 52
 	public virtual void WriteValue(Nullable<char> value) { }
 
-	// RVA: 0xE4B1A0 Offset: 0xE497A0 VA: 0x180E4B1A0 Slot: 53
+	// RVA: 0xE4BC50 Offset: 0xE4A250 VA: 0x180E4BC50 Slot: 53
 	public virtual void WriteValue(Nullable<byte> value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE4AEA0 Offset: 0xE494A0 VA: 0x180E4AEA0 Slot: 54
+	// RVA: 0xE4B950 Offset: 0xE49F50 VA: 0x180E4B950 Slot: 54
 	public virtual void WriteValue(Nullable<sbyte> value) { }
 
-	// RVA: 0xE4B100 Offset: 0xE49700 VA: 0x180E4B100 Slot: 55
+	// RVA: 0xE4BBB0 Offset: 0xE4A1B0 VA: 0x180E4BBB0 Slot: 55
 	public virtual void WriteValue(Nullable<Decimal> value) { }
 
-	// RVA: 0xE4B560 Offset: 0xE49B60 VA: 0x180E4B560 Slot: 56
+	// RVA: 0xE4C010 Offset: 0xE4A610 VA: 0x180E4C010 Slot: 56
 	public virtual void WriteValue(Nullable<DateTime> value) { }
 
-	// RVA: 0xE4B6B0 Offset: 0xE49CB0 VA: 0x180E4B6B0 Slot: 57
+	// RVA: 0xE4C160 Offset: 0xE4A760 VA: 0x180E4C160 Slot: 57
 	public virtual void WriteValue(Nullable<DateTimeOffset> value) { }
 
-	// RVA: 0xE4B470 Offset: 0xE49A70 VA: 0x180E4B470 Slot: 58
+	// RVA: 0xE4BF20 Offset: 0xE4A520 VA: 0x180E4BF20 Slot: 58
 	public virtual void WriteValue(Nullable<Guid> value) { }
 
-	// RVA: 0xE4B4F0 Offset: 0xE49AF0 VA: 0x180E4B4F0 Slot: 59
+	// RVA: 0xE4BFA0 Offset: 0xE4A5A0 VA: 0x180E4BFA0 Slot: 59
 	public virtual void WriteValue(Nullable<TimeSpan> value) { }
 
-	// RVA: 0xE49CF0 Offset: 0xE482F0 VA: 0x180E49CF0 Slot: 60
+	// RVA: 0xE4A7A0 Offset: 0xE48DA0 VA: 0x180E4A7A0 Slot: 60
 	public virtual void WriteValue(byte[] value) { }
 
-	// RVA: 0xE4AF80 Offset: 0xE49580 VA: 0x180E4AF80 Slot: 61
+	// RVA: 0xE4BA30 Offset: 0xE4A030 VA: 0x180E4BA30 Slot: 61
 	public virtual void WriteValue(Uri value) { }
 
-	// RVA: 0xE4B210 Offset: 0xE49810 VA: 0x180E4B210 Slot: 62
+	// RVA: 0xE4BCC0 Offset: 0xE4A2C0 VA: 0x180E4BCC0 Slot: 62
 	public virtual void WriteValue(object value) { }
 
-	// RVA: 0xE48840 Offset: 0xE46E40 VA: 0x180E48840 Slot: 63
+	// RVA: 0xE492F0 Offset: 0xE478F0 VA: 0x180E492F0 Slot: 63
 	public virtual void WriteComment(string text) { }
 
-	// RVA: 0xE48BB0 Offset: 0xE471B0 VA: 0x180E48BB0 Slot: 4
+	// RVA: 0xE49660 Offset: 0xE47C60 VA: 0x180E49660 Slot: 4
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xE48750 Offset: 0xE46D50 VA: 0x180E48750 Slot: 64
+	// RVA: 0xE49200 Offset: 0xE47800 VA: 0x180E49200 Slot: 64
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0xE49D20 Offset: 0xE48320 VA: 0x180E49D20
+	// RVA: 0xE4A7D0 Offset: 0xE48DD0 VA: 0x180E4A7D0
 	internal static void WriteValue(JsonWriter writer, PrimitiveTypeCode typeCode, object value) { }
 
-	// RVA: 0xE486A0 Offset: 0xE46CA0 VA: 0x180E486A0
+	// RVA: 0xE49150 Offset: 0xE47750 VA: 0x180E49150
 	private static JsonWriterException CreateUnsupportedTypeException(JsonWriter writer, object value) { }
 
-	// RVA: 0xE48850 Offset: 0xE46E50 VA: 0x180E48850
+	// RVA: 0xE49300 Offset: 0xE47900 VA: 0x180E49300
 	internal void InternalWriteEnd(JsonContainerType container) { }
 
-	// RVA: 0xE48860 Offset: 0xE46E60 VA: 0x180E48860
+	// RVA: 0xE49310 Offset: 0xE47910 VA: 0x180E49310
 	internal void InternalWritePropertyName(string name) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal void InternalWriteRaw() { }
 
-	// RVA: 0xE48890 Offset: 0xE46E90 VA: 0x180E48890
+	// RVA: 0xE49340 Offset: 0xE47940 VA: 0x180E49340
 	internal void InternalWriteStart(JsonToken token, JsonContainerType container) { }
 
-	// RVA: 0xE489A0 Offset: 0xE46FA0 VA: 0x180E489A0
+	// RVA: 0xE49450 Offset: 0xE47A50 VA: 0x180E49450
 	internal void InternalWriteValue(JsonToken token) { }
 
-	// RVA: 0xE48840 Offset: 0xE46E40 VA: 0x180E48840
+	// RVA: 0xE492F0 Offset: 0xE478F0 VA: 0x180E492F0
 	internal void InternalWriteComment() { }
 
 }
@@ -2628,13 +2628,13 @@ internal enum JsonWriter.State // TypeDefIndex: 5913
 internal static class JsonTokenUtils // TypeDefIndex: 5918
 {	// Methods
 
-	// RVA: 0x1809060 Offset: 0x1807660 VA: 0x181809060
+	// RVA: 0x17F64A0 Offset: 0x17F4AA0 VA: 0x1817F64A0
 	internal static bool IsEndToken(JsonToken token) { }
 
-	// RVA: 0x18090D0 Offset: 0x18076D0 VA: 0x1818090D0
+	// RVA: 0x17F6510 Offset: 0x17F4B10 VA: 0x1817F6510
 	internal static bool IsStartToken(JsonToken token) { }
 
-	// RVA: 0x1809080 Offset: 0x1807680 VA: 0x181809080
+	// RVA: 0x17F64C0 Offset: 0x17F4AC0 VA: 0x1817F64C0
 	internal static bool IsPrimitiveToken(JsonToken token) { }
 
 }
@@ -2662,48 +2662,48 @@ public class JsonContainerContract : JsonContract // TypeDefIndex: 5977
 
 	// Methods
 
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0
 	internal JsonContract get_ItemContract() { }
 
-	// RVA: 0x13F1E90 Offset: 0x13F0490 VA: 0x1813F1E90
+	// RVA: 0x13F0F70 Offset: 0x13EF570 VA: 0x1813F0F70
 	internal void set_ItemContract(JsonContract value) { }
 
-	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
+	// RVA: 0x574310 Offset: 0x572910 VA: 0x180574310
 	internal JsonContract get_FinalItemContract() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
+	// RVA: 0x5742F0 Offset: 0x5728F0 VA: 0x1805742F0
 	public JsonConverter get_ItemConverter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
+	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
 	public void set_ItemConverter(JsonConverter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1E60 Offset: 0x13F0460 VA: 0x1813F1E60
+	// RVA: 0x13F0F40 Offset: 0x13EF540 VA: 0x1813F0F40
 	public Nullable<bool> get_ItemIsReference() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1EF0 Offset: 0x13F04F0 VA: 0x1813F1EF0
+	// RVA: 0x13F0FD0 Offset: 0x13EF5D0 VA: 0x1813F0FD0
 	public void set_ItemIsReference(Nullable<bool> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1E70 Offset: 0x13F0470 VA: 0x1813F1E70
+	// RVA: 0x13F0F50 Offset: 0x13EF550 VA: 0x1813F0F50
 	public Nullable<ReferenceLoopHandling> get_ItemReferenceLoopHandling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1F00 Offset: 0x13F0500 VA: 0x1813F1F00
+	// RVA: 0x13F0FE0 Offset: 0x13EF5E0 VA: 0x1813F0FE0
 	public void set_ItemReferenceLoopHandling(Nullable<ReferenceLoopHandling> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1E80 Offset: 0x13F0480 VA: 0x1813F1E80
+	// RVA: 0x13F0F60 Offset: 0x13EF560 VA: 0x1813F0F60
 	public Nullable<TypeNameHandling> get_ItemTypeNameHandling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1F10 Offset: 0x13F0510 VA: 0x1813F1F10
+	// RVA: 0x13F0FF0 Offset: 0x13EF5F0 VA: 0x1813F0FF0
 	public void set_ItemTypeNameHandling(Nullable<TypeNameHandling> value) { }
 
-	// RVA: 0x13F1D60 Offset: 0x13F0360 VA: 0x1813F1D60
+	// RVA: 0x13F0E40 Offset: 0x13EF440 VA: 0x1813F0E40
 	internal void .ctor(Type underlyingType) { }
 
 }
@@ -2725,64 +2725,64 @@ internal class TraceJsonReader : JsonReader, IJsonLineInfo // TypeDefIndex: 5980
 
 	// Methods
 
-	// RVA: 0x18134D0 Offset: 0x1811AD0 VA: 0x1818134D0
+	// RVA: 0x1800910 Offset: 0x17FEF10 VA: 0x181800910
 	public void .ctor(JsonReader innerReader) { }
 
-	// RVA: 0x1812F40 Offset: 0x1811540 VA: 0x181812F40
+	// RVA: 0x1800380 Offset: 0x17FE980 VA: 0x181800380
 	public string GetDeserializedJsonMessage() { }
 
-	// RVA: 0x1813460 Offset: 0x1811A60 VA: 0x181813460 Slot: 10
+	// RVA: 0x18008A0 Offset: 0x17FEEA0 VA: 0x1818008A0 Slot: 10
 	public override bool Read() { }
 
-	// RVA: 0x1813380 Offset: 0x1811980 VA: 0x181813380 Slot: 11
+	// RVA: 0x18007C0 Offset: 0x17FEDC0 VA: 0x1818007C0 Slot: 11
 	public override Nullable<int> ReadAsInt32() { }
 
-	// RVA: 0x18133F0 Offset: 0x18119F0 VA: 0x1818133F0 Slot: 12
+	// RVA: 0x1800830 Offset: 0x17FEE30 VA: 0x181800830 Slot: 12
 	public override string ReadAsString() { }
 
-	// RVA: 0x1813100 Offset: 0x1811700 VA: 0x181813100 Slot: 13
+	// RVA: 0x1800540 Offset: 0x17FEB40 VA: 0x181800540 Slot: 13
 	public override byte[] ReadAsBytes() { }
 
-	// RVA: 0x1813280 Offset: 0x1811880 VA: 0x181813280 Slot: 16
+	// RVA: 0x18006C0 Offset: 0x17FECC0 VA: 0x1818006C0 Slot: 16
 	public override Nullable<Decimal> ReadAsDecimal() { }
 
-	// RVA: 0x1813300 Offset: 0x1811900 VA: 0x181813300 Slot: 14
+	// RVA: 0x1800740 Offset: 0x17FED40 VA: 0x181800740 Slot: 14
 	public override Nullable<double> ReadAsDouble() { }
 
-	// RVA: 0x1813090 Offset: 0x1811690 VA: 0x181813090 Slot: 15
+	// RVA: 0x18004D0 Offset: 0x17FEAD0 VA: 0x1818004D0 Slot: 15
 	public override Nullable<bool> ReadAsBoolean() { }
 
-	// RVA: 0x1813200 Offset: 0x1811800 VA: 0x181813200 Slot: 17
+	// RVA: 0x1800640 Offset: 0x17FEC40 VA: 0x181800640 Slot: 17
 	public override Nullable<DateTime> ReadAsDateTime() { }
 
-	// RVA: 0x1813170 Offset: 0x1811770 VA: 0x181813170 Slot: 18
+	// RVA: 0x18005B0 Offset: 0x17FEBB0 VA: 0x1818005B0 Slot: 18
 	public override Nullable<DateTimeOffset> ReadAsDateTimeOffset() { }
 
-	// RVA: 0x1813620 Offset: 0x1811C20 VA: 0x181813620 Slot: 8
+	// RVA: 0x1800A60 Offset: 0x17FF060 VA: 0x181800A60 Slot: 8
 	public override int get_Depth() { }
 
-	// RVA: 0x1813650 Offset: 0x1811C50 VA: 0x181813650 Slot: 9
+	// RVA: 0x1800A90 Offset: 0x17FF090 VA: 0x181800A90 Slot: 9
 	public override string get_Path() { }
 
-	// RVA: 0x1813680 Offset: 0x1811C80 VA: 0x181813680 Slot: 5
+	// RVA: 0x1800AC0 Offset: 0x17FF0C0 VA: 0x181800AC0 Slot: 5
 	public override JsonToken get_TokenType() { }
 
-	// RVA: 0x18136E0 Offset: 0x1811CE0 VA: 0x1818136E0 Slot: 6
+	// RVA: 0x1800B20 Offset: 0x17FF120 VA: 0x181800B20 Slot: 6
 	public override object get_Value() { }
 
-	// RVA: 0x18136B0 Offset: 0x1811CB0 VA: 0x1818136B0 Slot: 7
+	// RVA: 0x1800AF0 Offset: 0x17FF0F0 VA: 0x181800AF0 Slot: 7
 	public override Type get_ValueType() { }
 
-	// RVA: 0x1812F10 Offset: 0x1811510 VA: 0x181812F10 Slot: 20
+	// RVA: 0x1800350 Offset: 0x17FE950 VA: 0x181800350 Slot: 20
 	public override void Close() { }
 
-	// RVA: 0x1812F70 Offset: 0x1811570 VA: 0x181812F70 Slot: 21
+	// RVA: 0x18003B0 Offset: 0x17FE9B0 VA: 0x1818003B0 Slot: 21
 	private bool Newtonsoft.Json.IJsonLineInfo.HasLineInfo() { }
 
-	// RVA: 0x1812FD0 Offset: 0x18115D0 VA: 0x181812FD0 Slot: 22
+	// RVA: 0x1800410 Offset: 0x17FEA10 VA: 0x181800410 Slot: 22
 	private int Newtonsoft.Json.IJsonLineInfo.get_LineNumber() { }
 
-	// RVA: 0x1813030 Offset: 0x1811630 VA: 0x181813030 Slot: 23
+	// RVA: 0x1800470 Offset: 0x17FEA70 VA: 0x181800470 Slot: 23
 	private int Newtonsoft.Json.IJsonLineInfo.get_LinePosition() { }
 
 }
@@ -2795,118 +2795,118 @@ internal class TraceJsonWriter : JsonWriter // TypeDefIndex: 5981
 
 	// Methods
 
-	// RVA: 0x1814650 Offset: 0x1812C50 VA: 0x181814650
+	// RVA: 0x1801A90 Offset: 0x1800090 VA: 0x181801A90
 	public void .ctor(JsonWriter innerWriter) { }
 
-	// RVA: 0x1813760 Offset: 0x1811D60 VA: 0x181813760
+	// RVA: 0x1800BA0 Offset: 0x17FF1A0 VA: 0x181800BA0
 	public string GetSerializedJsonMessage() { }
 
-	// RVA: 0x18142A0 Offset: 0x18128A0 VA: 0x1818142A0 Slot: 38
+	// RVA: 0x18016E0 Offset: 0x17FFCE0 VA: 0x1818016E0 Slot: 38
 	public override void WriteValue(Decimal value) { }
 
-	// RVA: 0x1813E90 Offset: 0x1812490 VA: 0x181813E90 Slot: 32
+	// RVA: 0x18012D0 Offset: 0x17FF8D0 VA: 0x1818012D0 Slot: 32
 	public override void WriteValue(bool value) { }
 
-	// RVA: 0x1814400 Offset: 0x1812A00 VA: 0x181814400 Slot: 36
+	// RVA: 0x1801840 Offset: 0x17FFE40 VA: 0x181801840 Slot: 36
 	public override void WriteValue(byte value) { }
 
-	// RVA: 0x1814230 Offset: 0x1812830 VA: 0x181814230 Slot: 53
+	// RVA: 0x1801670 Offset: 0x17FFC70 VA: 0x181801670 Slot: 53
 	public override void WriteValue(Nullable<byte> value) { }
 
-	// RVA: 0x1813D40 Offset: 0x1812340 VA: 0x181813D40 Slot: 35
+	// RVA: 0x1801180 Offset: 0x17FF780 VA: 0x181801180 Slot: 35
 	public override void WriteValue(char value) { }
 
-	// RVA: 0x1813C70 Offset: 0x1812270 VA: 0x181813C70 Slot: 60
+	// RVA: 0x18010B0 Offset: 0x17FF6B0 VA: 0x1818010B0 Slot: 60
 	public override void WriteValue(byte[] value) { }
 
-	// RVA: 0x18144E0 Offset: 0x1812AE0 VA: 0x1818144E0 Slot: 39
+	// RVA: 0x1801920 Offset: 0x17FFF20 VA: 0x181801920 Slot: 39
 	public override void WriteValue(DateTime value) { }
 
-	// RVA: 0x1814550 Offset: 0x1812B50 VA: 0x181814550 Slot: 40
+	// RVA: 0x1801990 Offset: 0x17FFF90 VA: 0x181801990 Slot: 40
 	public override void WriteValue(DateTimeOffset value) { }
 
-	// RVA: 0x1814070 Offset: 0x1812670 VA: 0x181814070 Slot: 31
+	// RVA: 0x18014B0 Offset: 0x17FFAB0 VA: 0x1818014B0 Slot: 31
 	public override void WriteValue(double value) { }
 
-	// RVA: 0x1813C20 Offset: 0x1812220 VA: 0x181813C20 Slot: 22
+	// RVA: 0x1801060 Offset: 0x17FF660 VA: 0x181801060 Slot: 22
 	public override void WriteUndefined() { }
 
-	// RVA: 0x18138F0 Offset: 0x1811EF0 VA: 0x1818138F0 Slot: 21
+	// RVA: 0x1800D30 Offset: 0x17FF330 VA: 0x181800D30 Slot: 21
 	public override void WriteNull() { }
 
-	// RVA: 0x1814470 Offset: 0x1812A70 VA: 0x181814470 Slot: 30
+	// RVA: 0x18018B0 Offset: 0x17FFEB0 VA: 0x1818018B0 Slot: 30
 	public override void WriteValue(float value) { }
 
-	// RVA: 0x1813F70 Offset: 0x1812570 VA: 0x181813F70 Slot: 41
+	// RVA: 0x18013B0 Offset: 0x17FF9B0 VA: 0x1818013B0 Slot: 41
 	public override void WriteValue(Guid value) { }
 
-	// RVA: 0x1813CE0 Offset: 0x18122E0 VA: 0x181813CE0 Slot: 26
+	// RVA: 0x1801120 Offset: 0x17FF720 VA: 0x181801120 Slot: 26
 	public override void WriteValue(int value) { }
 
-	// RVA: 0x1813DB0 Offset: 0x18123B0 VA: 0x181813DB0 Slot: 28
+	// RVA: 0x18011F0 Offset: 0x17FF7F0 VA: 0x1818011F0 Slot: 28
 	public override void WriteValue(long value) { }
 
-	// RVA: 0x1813F00 Offset: 0x1812500 VA: 0x181813F00 Slot: 62
+	// RVA: 0x1801340 Offset: 0x17FF940 VA: 0x181801340 Slot: 62
 	public override void WriteValue(object value) { }
 
-	// RVA: 0x1814330 Offset: 0x1812930 VA: 0x181814330 Slot: 37
+	// RVA: 0x1801770 Offset: 0x17FFD70 VA: 0x181801770 Slot: 37
 	public override void WriteValue(sbyte value) { }
 
-	// RVA: 0x1814000 Offset: 0x1812600 VA: 0x181814000 Slot: 33
+	// RVA: 0x1801440 Offset: 0x17FFA40 VA: 0x181801440 Slot: 33
 	public override void WriteValue(short value) { }
 
-	// RVA: 0x1814150 Offset: 0x1812750 VA: 0x181814150 Slot: 25
+	// RVA: 0x1801590 Offset: 0x17FFB90 VA: 0x181801590 Slot: 25
 	public override void WriteValue(string value) { }
 
-	// RVA: 0x18145E0 Offset: 0x1812BE0 VA: 0x1818145E0 Slot: 42
+	// RVA: 0x1801A20 Offset: 0x1800020 VA: 0x181801A20 Slot: 42
 	public override void WriteValue(TimeSpan value) { }
 
-	// RVA: 0x18143A0 Offset: 0x18129A0 VA: 0x1818143A0 Slot: 27
+	// RVA: 0x18017E0 Offset: 0x17FFDE0 VA: 0x1818017E0 Slot: 27
 	public override void WriteValue(uint value) { }
 
-	// RVA: 0x1813E20 Offset: 0x1812420 VA: 0x181813E20 Slot: 29
+	// RVA: 0x1801260 Offset: 0x17FF860 VA: 0x181801260 Slot: 29
 	public override void WriteValue(ulong value) { }
 
-	// RVA: 0x18140E0 Offset: 0x18126E0 VA: 0x1818140E0 Slot: 61
+	// RVA: 0x1801520 Offset: 0x17FFB20 VA: 0x181801520 Slot: 61
 	public override void WriteValue(Uri value) { }
 
-	// RVA: 0x18141C0 Offset: 0x18127C0 VA: 0x1818141C0 Slot: 34
+	// RVA: 0x1801600 Offset: 0x17FFC00 VA: 0x181801600 Slot: 34
 	public override void WriteValue(ushort value) { }
 
-	// RVA: 0x1813790 Offset: 0x1811D90 VA: 0x181813790 Slot: 63
+	// RVA: 0x1800BD0 Offset: 0x17FF1D0 VA: 0x181800BD0 Slot: 63
 	public override void WriteComment(string text) { }
 
-	// RVA: 0x1813B10 Offset: 0x1812110 VA: 0x181813B10 Slot: 9
+	// RVA: 0x1800F50 Offset: 0x17FF550 VA: 0x181800F50 Slot: 9
 	public override void WriteStartArray() { }
 
-	// RVA: 0x1813800 Offset: 0x1811E00 VA: 0x181813800 Slot: 10
+	// RVA: 0x1800C40 Offset: 0x17FF240 VA: 0x181800C40 Slot: 10
 	public override void WriteEndArray() { }
 
-	// RVA: 0x1813B60 Offset: 0x1812160 VA: 0x181813B60 Slot: 11
+	// RVA: 0x1800FA0 Offset: 0x17FF5A0 VA: 0x181800FA0 Slot: 11
 	public override void WriteStartConstructor(string name) { }
 
-	// RVA: 0x1813850 Offset: 0x1811E50 VA: 0x181813850 Slot: 12
+	// RVA: 0x1800C90 Offset: 0x17FF290 VA: 0x181800C90 Slot: 12
 	public override void WriteEndConstructor() { }
 
-	// RVA: 0x18139C0 Offset: 0x1811FC0 VA: 0x1818139C0 Slot: 13
+	// RVA: 0x1800E00 Offset: 0x17FF400 VA: 0x181800E00 Slot: 13
 	public override void WritePropertyName(string name) { }
 
-	// RVA: 0x1813940 Offset: 0x1811F40 VA: 0x181813940 Slot: 14
+	// RVA: 0x1800D80 Offset: 0x17FF380 VA: 0x181800D80 Slot: 14
 	public override void WritePropertyName(string name, bool escape) { }
 
-	// RVA: 0x1813BD0 Offset: 0x18121D0 VA: 0x181813BD0 Slot: 7
+	// RVA: 0x1801010 Offset: 0x17FF610 VA: 0x181801010 Slot: 7
 	public override void WriteStartObject() { }
 
-	// RVA: 0x18138A0 Offset: 0x1811EA0 VA: 0x1818138A0 Slot: 8
+	// RVA: 0x1800CE0 Offset: 0x17FF2E0 VA: 0x181800CE0 Slot: 8
 	public override void WriteEndObject() { }
 
-	// RVA: 0x1813A30 Offset: 0x1812030 VA: 0x181813A30 Slot: 24
+	// RVA: 0x1800E70 Offset: 0x17FF470 VA: 0x181800E70 Slot: 24
 	public override void WriteRawValue(string json) { }
 
-	// RVA: 0x1813AA0 Offset: 0x18120A0 VA: 0x181813AA0 Slot: 23
+	// RVA: 0x1800EE0 Offset: 0x17FF4E0 VA: 0x181800EE0 Slot: 23
 	public override void WriteRaw(string json) { }
 
-	// RVA: 0x1813710 Offset: 0x1811D10 VA: 0x181813710 Slot: 6
+	// RVA: 0x1800B50 Offset: 0x17FF150 VA: 0x181800B50 Slot: 6
 	public override void Close() { }
 
 }
@@ -2919,46 +2919,46 @@ internal class JsonFormatterConverter : IFormatterConverter // TypeDefIndex: 598
 
 	// Methods
 
-	// RVA: 0x13F3ED0 Offset: 0x13F24D0 VA: 0x1813F3ED0
+	// RVA: 0x13F2FB0 Offset: 0x13F15B0 VA: 0x1813F2FB0
 	public void .ctor(JsonSerializerInternalReader reader, JsonISerializableContract contract, JsonProperty member) { }
 
 	// RVA: -1 Offset: -1
 	private T GetTokenValue<T>(object value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D0370 Offset: 0x5CE970 VA: 0x1805D0370
+	|-RVA: 0x5D0300 Offset: 0x5CE900 VA: 0x1805D0300
 	|-JsonFormatterConverter.GetTokenValue<bool>
 	|
-	|-RVA: 0x5D0500 Offset: 0x5CEB00 VA: 0x1805D0500
+	|-RVA: 0x5D0490 Offset: 0x5CEA90 VA: 0x1805D0490
 	|-JsonFormatterConverter.GetTokenValue<int>
 	|
-	|-RVA: 0x5D0690 Offset: 0x5CEC90 VA: 0x1805D0690
+	|-RVA: 0x5D0620 Offset: 0x5CEC20 VA: 0x1805D0620
 	|-JsonFormatterConverter.GetTokenValue<long>
 	|
-	|-RVA: 0x5D0820 Offset: 0x5CEE20 VA: 0x1805D0820
+	|-RVA: 0x5D07B0 Offset: 0x5CEDB0 VA: 0x1805D07B0
 	|-JsonFormatterConverter.GetTokenValue<object>
 	|-JsonFormatterConverter.GetTokenValue<string>
 	|
-	|-RVA: 0x5D09B0 Offset: 0x5CEFB0 VA: 0x1805D09B0
+	|-RVA: 0x5D0940 Offset: 0x5CEF40 VA: 0x1805D0940
 	|-JsonFormatterConverter.GetTokenValue<float>
 	*/
 
-	// RVA: 0x13F3AE0 Offset: 0x13F20E0 VA: 0x1813F3AE0 Slot: 4
+	// RVA: 0x13F2BC0 Offset: 0x13F11C0 VA: 0x1813F2BC0 Slot: 4
 	public object Convert(object value, Type type) { }
 
-	// RVA: 0x13F3D40 Offset: 0x13F2340 VA: 0x1813F3D40 Slot: 5
+	// RVA: 0x13F2E20 Offset: 0x13F1420 VA: 0x1813F2E20 Slot: 5
 	public bool ToBoolean(object value) { }
 
-	// RVA: 0x13F3D90 Offset: 0x13F2390 VA: 0x1813F3D90 Slot: 6
+	// RVA: 0x13F2E70 Offset: 0x13F1470 VA: 0x1813F2E70 Slot: 6
 	public int ToInt32(object value) { }
 
-	// RVA: 0x13F3DE0 Offset: 0x13F23E0 VA: 0x1813F3DE0 Slot: 7
+	// RVA: 0x13F2EC0 Offset: 0x13F14C0 VA: 0x1813F2EC0 Slot: 7
 	public long ToInt64(object value) { }
 
-	// RVA: 0x13F3E30 Offset: 0x13F2430 VA: 0x1813F3E30 Slot: 8
+	// RVA: 0x13F2F10 Offset: 0x13F1510 VA: 0x1813F2F10 Slot: 8
 	public float ToSingle(object value) { }
 
-	// RVA: 0x13F3E80 Offset: 0x13F2480 VA: 0x1813F3E80 Slot: 9
+	// RVA: 0x13F2F60 Offset: 0x13F1560 VA: 0x1813F2F60 Slot: 9
 	public string ToString(object value) { }
 
 }
@@ -2966,7 +2966,7 @@ internal class JsonFormatterConverter : IFormatterConverter // TypeDefIndex: 598
 public class JsonLinqContract : JsonContract // TypeDefIndex: 5984
 {	// Methods
 
-	// RVA: 0x13F3FA0 Offset: 0x13F25A0 VA: 0x1813F3FA0
+	// RVA: 0x13F3080 Offset: 0x13F1680 VA: 0x1813F3080
 	public void .ctor(Type underlyingType) { }
 
 }
@@ -2983,17 +2983,17 @@ public class JsonPrimitiveContract : JsonContract // TypeDefIndex: 5985
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD27AA0 Offset: 0xD260A0 VA: 0x180D27AA0
+	// RVA: 0xD27F40 Offset: 0xD26540 VA: 0x180D27F40
 	internal PrimitiveTypeCode get_TypeCode() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD27A10 Offset: 0xD26010 VA: 0x180D27A10
+	// RVA: 0xD27EB0 Offset: 0xD264B0 VA: 0x180D27EB0
 	internal void set_TypeCode(PrimitiveTypeCode value) { }
 
-	// RVA: 0x13F48C0 Offset: 0x13F2EC0 VA: 0x1813F48C0
+	// RVA: 0x13F39A0 Offset: 0x13F1FA0 VA: 0x1813F39A0
 	public void .ctor(Type underlyingType) { }
 
-	// RVA: 0x13F4680 Offset: 0x13F2C80 VA: 0x1813F4680
+	// RVA: 0x13F3760 Offset: 0x13F1D60 VA: 0x1813F3760
 	private static void .cctor() { }
 
 }
@@ -3034,72 +3034,72 @@ public class JsonArrayContract : JsonContainerContract // TypeDefIndex: 6005
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x104F470 Offset: 0x104DA70 VA: 0x18104F470
+	// RVA: 0x79BE20 Offset: 0x79A420 VA: 0x18079BE20
 	public Type get_CollectionItemType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEFB1E0 Offset: 0xEF97E0 VA: 0x180EFB1E0
+	// RVA: 0x79BEA0 Offset: 0x79A4A0 VA: 0x18079BEA0
 	private void set_CollectionItemType(Type value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1C20 Offset: 0x13F0220 VA: 0x1813F1C20
+	// RVA: 0x79BE00 Offset: 0x79A400 VA: 0x18079BE00
 	public bool get_IsMultidimensionalArray() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1D10 Offset: 0x13F0310 VA: 0x1813F1D10
+	// RVA: 0x79BE80 Offset: 0x79A480 VA: 0x18079BE80
 	private void set_IsMultidimensionalArray(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA03B0 Offset: 0xD9E9B0 VA: 0x180DA03B0
+	// RVA: 0xDA0E60 Offset: 0xD9F460 VA: 0x180DA0E60
 	internal bool get_IsArray() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA0790 Offset: 0xD9ED90 VA: 0x180DA0790
+	// RVA: 0xDA1240 Offset: 0xD9F840 VA: 0x180DA1240
 	private void set_IsArray(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1CE0 Offset: 0x13F02E0 VA: 0x1813F1CE0
+	// RVA: 0x13F0DD0 Offset: 0x13EF3D0 VA: 0x1813F0DD0
 	internal bool get_ShouldCreateWrapper() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1D50 Offset: 0x13F0350 VA: 0x1813F1D50
+	// RVA: 0x13F0E30 Offset: 0x13EF430 VA: 0x1813F0E30
 	private void set_ShouldCreateWrapper(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1BD0 Offset: 0x13F01D0 VA: 0x1813F1BD0
+	// RVA: 0x13F0CD0 Offset: 0x13EF2D0 VA: 0x1813F0CD0
 	internal bool get_CanDeserialize() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1CF0 Offset: 0x13F02F0 VA: 0x1813F1CF0
+	// RVA: 0x13F0DE0 Offset: 0x13EF3E0 VA: 0x1813F0DE0
 	private void set_CanDeserialize(bool value) { }
 
-	// RVA: 0x13F1C30 Offset: 0x13F0230 VA: 0x1813F1C30
+	// RVA: 0x13F0D20 Offset: 0x13EF320 VA: 0x1813F0D20
 	internal ObjectConstructor<object> get_ParameterizedCreator() { }
 
-	// RVA: 0xC83460 Offset: 0xC81A60 VA: 0x180C83460
+	// RVA: 0xC83900 Offset: 0xC81F00 VA: 0x180C83900
 	public ObjectConstructor<object> get_OverrideCreator() { }
 
-	// RVA: 0x13F1D20 Offset: 0x13F0320 VA: 0x1813F1D20
+	// RVA: 0x13F0E00 Offset: 0x13EF400 VA: 0x1813F0E00
 	public void set_OverrideCreator(ObjectConstructor<object> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1C10 Offset: 0x13F0210 VA: 0x1813F1C10
+	// RVA: 0x13F0D10 Offset: 0x13EF310 VA: 0x1813F0D10
 	public bool get_HasParameterizedCreator() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F1D00 Offset: 0x13F0300 VA: 0x1813F1D00
+	// RVA: 0x13F0DF0 Offset: 0x13EF3F0 VA: 0x1813F0DF0
 	public void set_HasParameterizedCreator(bool value) { }
 
-	// RVA: 0x13F1BE0 Offset: 0x13F01E0 VA: 0x1813F1BE0
+	// RVA: 0x13F0CE0 Offset: 0x13EF2E0 VA: 0x1813F0CE0
 	internal bool get_HasParameterizedCreatorInternal() { }
 
-	// RVA: 0x13F1080 Offset: 0x13EF680 VA: 0x1813F1080
+	// RVA: 0x13F0180 Offset: 0x13EE780 VA: 0x1813F0180
 	public void .ctor(Type underlyingType) { }
 
-	// RVA: 0x13F0C10 Offset: 0x13EF210 VA: 0x1813F0C10
+	// RVA: 0x13EFD10 Offset: 0x13EE310 VA: 0x1813EFD10
 	internal IWrappedCollection CreateWrapper(object list) { }
 
-	// RVA: 0x13F09F0 Offset: 0x13EEFF0 VA: 0x1813F09F0
+	// RVA: 0x13EFAF0 Offset: 0x13EE0F0 VA: 0x1813EFAF0
 	internal IList CreateTemporaryCollection() { }
 
 }
@@ -3166,96 +3166,96 @@ public abstract class JsonContract // TypeDefIndex: 6011
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
+	// RVA: 0x5362B0 Offset: 0x5348B0 VA: 0x1805362B0
 	public Type get_UnderlyingType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x536330 Offset: 0x534930 VA: 0x180536330
+	// RVA: 0x5362C0 Offset: 0x5348C0 VA: 0x1805362C0
 	private void set_UnderlyingType(Type value) { }
 
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0
 	public Type get_CreatedType() { }
 
-	// RVA: 0x13F2BF0 Offset: 0x13F11F0 VA: 0x1813F2BF0
+	// RVA: 0x13F1CD0 Offset: 0x13F02D0 VA: 0x1813F1CD0
 	public void set_CreatedType(Type value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F29B0 Offset: 0x13F0FB0 VA: 0x1813F29B0
+	// RVA: 0x13F1A90 Offset: 0x13F0090 VA: 0x1813F1A90
 	public Nullable<bool> get_IsReference() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F2C60 Offset: 0x13F1260 VA: 0x1813F2C60
+	// RVA: 0x13F1D40 Offset: 0x13F0340 VA: 0x1813F1D40
 	public void set_IsReference(Nullable<bool> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
+	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
 	public JsonConverter get_Converter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
+	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
 	public void set_Converter(JsonConverter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
+	// RVA: 0x4E84B0 Offset: 0x4E6AB0 VA: 0x1804E84B0
 	internal JsonConverter get_InternalConverter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E8840 Offset: 0x4E6E40 VA: 0x1804E8840
+	// RVA: 0x4E87D0 Offset: 0x4E6DD0 VA: 0x1804E87D0
 	internal void set_InternalConverter(JsonConverter value) { }
 
-	// RVA: 0x13F29C0 Offset: 0x13F0FC0 VA: 0x1813F29C0
+	// RVA: 0x13F1AA0 Offset: 0x13F00A0 VA: 0x1813F1AA0
 	public IList<SerializationCallback> get_OnDeserializedCallbacks() { }
 
-	// RVA: 0x13F2A30 Offset: 0x13F1030 VA: 0x1813F2A30
+	// RVA: 0x13F1B10 Offset: 0x13F0110 VA: 0x1813F1B10
 	public IList<SerializationCallback> get_OnDeserializingCallbacks() { }
 
-	// RVA: 0x13F2B10 Offset: 0x13F1110 VA: 0x1813F2B10
+	// RVA: 0x13F1BF0 Offset: 0x13F01F0 VA: 0x1813F1BF0
 	public IList<SerializationCallback> get_OnSerializedCallbacks() { }
 
-	// RVA: 0x13F2B80 Offset: 0x13F1180 VA: 0x1813F2B80
+	// RVA: 0x13F1C60 Offset: 0x13F0260 VA: 0x1813F1C60
 	public IList<SerializationCallback> get_OnSerializingCallbacks() { }
 
-	// RVA: 0x13F2AA0 Offset: 0x13F10A0 VA: 0x1813F2AA0
+	// RVA: 0x13F1B80 Offset: 0x13F0180 VA: 0x1813F1B80
 	public IList<SerializationErrorCallback> get_OnErrorCallbacks() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743E0 Offset: 0x5729E0 VA: 0x1805743E0
+	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
 	public Func<object> get_DefaultCreator() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574470 Offset: 0x572A70 VA: 0x180574470
+	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
 	public void set_DefaultCreator(Func<object> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D710 Offset: 0x69BD10 VA: 0x18069D710
+	// RVA: 0x69D6A0 Offset: 0x69BCA0 VA: 0x18069D6A0
 	public bool get_DefaultCreatorNonPublic() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D720 Offset: 0x69BD20 VA: 0x18069D720
+	// RVA: 0x69D6B0 Offset: 0x69BCB0 VA: 0x18069D6B0
 	public void set_DefaultCreatorNonPublic(bool value) { }
 
-	// RVA: 0x13F2840 Offset: 0x13F0E40 VA: 0x1813F2840
+	// RVA: 0x13F1920 Offset: 0x13EFF20 VA: 0x1813F1920
 	internal void .ctor(Type underlyingType) { }
 
-	// RVA: 0x13F2690 Offset: 0x13F0C90 VA: 0x1813F2690
+	// RVA: 0x13F1770 Offset: 0x13EFD70 VA: 0x1813F1770
 	internal void InvokeOnSerializing(object o, StreamingContext context) { }
 
-	// RVA: 0x13F24E0 Offset: 0x13F0AE0 VA: 0x1813F24E0
+	// RVA: 0x13F15C0 Offset: 0x13EFBC0 VA: 0x1813F15C0
 	internal void InvokeOnSerialized(object o, StreamingContext context) { }
 
-	// RVA: 0x13F2170 Offset: 0x13F0770 VA: 0x1813F2170
+	// RVA: 0x13F1250 Offset: 0x13EF850 VA: 0x1813F1250
 	internal void InvokeOnDeserializing(object o, StreamingContext context) { }
 
-	// RVA: 0x13F2040 Offset: 0x13F0640 VA: 0x1813F2040
+	// RVA: 0x13F1120 Offset: 0x13EF720 VA: 0x1813F1120
 	internal void InvokeOnDeserialized(object o, StreamingContext context) { }
 
-	// RVA: 0x13F2320 Offset: 0x13F0920 VA: 0x1813F2320
+	// RVA: 0x13F1400 Offset: 0x13EFA00 VA: 0x1813F1400
 	internal void InvokeOnError(object o, StreamingContext context, ErrorContext errorContext) { }
 
-	// RVA: 0x13F1F20 Offset: 0x13F0520 VA: 0x1813F1F20
+	// RVA: 0x13F1000 Offset: 0x13EF600 VA: 0x1813F1000
 	internal static SerializationCallback CreateSerializationCallback(MethodInfo callbackMethodInfo) { }
 
-	// RVA: 0x13F1FB0 Offset: 0x13F05B0 VA: 0x1813F1FB0
+	// RVA: 0x13F1090 Offset: 0x13EF690 VA: 0x1813F1090
 	internal static SerializationErrorCallback CreateSerializationErrorCallback(MethodInfo callbackMethodInfo) { }
 
 }
@@ -3269,7 +3269,7 @@ private sealed class JsonContract.<>c__DisplayClass73_0 // TypeDefIndex: 6012
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1409220 Offset: 0x1407820 VA: 0x181409220
+	// RVA: 0x1408300 Offset: 0x1406900 VA: 0x181408300
 	internal void <CreateSerializationCallback>b__0(object o, StreamingContext context) { }
 
 }
@@ -3283,7 +3283,7 @@ private sealed class JsonContract.<>c__DisplayClass74_0 // TypeDefIndex: 6013
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1409310 Offset: 0x1407910 VA: 0x181409310
+	// RVA: 0x14083F0 Offset: 0x14069F0 VA: 0x1814083F0
 	internal void <CreateSerializationErrorCallback>b__0(object o, StreamingContext context, ErrorContext econtext) { }
 
 }
@@ -3385,233 +3385,233 @@ public class JsonProperty // TypeDefIndex: 6015
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	internal JsonContract get_PropertyContract() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5DD810 Offset: 0x5DBE10 VA: 0x1805DD810
+	// RVA: 0x5DD7A0 Offset: 0x5DBDA0 VA: 0x1805DD7A0
 	internal void set_PropertyContract(JsonContract value) { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public string get_PropertyName() { }
 
-	// RVA: 0x13F5220 Offset: 0x13F3820 VA: 0x1813F5220
+	// RVA: 0x13F4300 Offset: 0x13F2900 VA: 0x1813F4300
 	public void set_PropertyName(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	public Type get_DeclaringType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4CF890 Offset: 0x4CDE90 VA: 0x1804CF890
+	// RVA: 0x4CF820 Offset: 0x4CDE20 VA: 0x1804CF820
 	public void set_DeclaringType(Type value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0
 	public Nullable<int> get_Order() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D9040 Offset: 0x8D7640 VA: 0x1808D9040
+	// RVA: 0x8D9550 Offset: 0x8D7B50 VA: 0x1808D9550
 	public void set_Order(Nullable<int> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
+	// RVA: 0x5362B0 Offset: 0x5348B0 VA: 0x1805362B0
 	public string get_UnderlyingName() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x536330 Offset: 0x534930 VA: 0x180536330
+	// RVA: 0x5362C0 Offset: 0x5348C0 VA: 0x1805362C0
 	public void set_UnderlyingName(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
+	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0
 	public IValueProvider get_ValueProvider() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50
+	// RVA: 0x519DE0 Offset: 0x5183E0 VA: 0x180519DE0
 	public void set_ValueProvider(IValueProvider value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
+	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
 	public void set_AttributeProvider(IAttributeProvider value) { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	public Type get_PropertyType() { }
 
-	// RVA: 0x13F52C0 Offset: 0x13F38C0 VA: 0x1813F52C0
+	// RVA: 0x13F43A0 Offset: 0x13F29A0 VA: 0x1813F43A0
 	public void set_PropertyType(Type value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
+	// RVA: 0x4E84B0 Offset: 0x4E6AB0 VA: 0x1804E84B0
 	public JsonConverter get_Converter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E8840 Offset: 0x4E6E40 VA: 0x1804E8840
+	// RVA: 0x4E87D0 Offset: 0x4E6DD0 VA: 0x1804E87D0
 	public void set_Converter(JsonConverter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743E0 Offset: 0x5729E0 VA: 0x1805743E0
+	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
 	public JsonConverter get_MemberConverter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574470 Offset: 0x572A70 VA: 0x180574470
+	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
 	public void set_MemberConverter(JsonConverter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D710 Offset: 0x69BD10 VA: 0x18069D710
+	// RVA: 0x69D6A0 Offset: 0x69BCA0 VA: 0x18069D6A0
 	public bool get_Ignored() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D720 Offset: 0x69BD20 VA: 0x18069D720
+	// RVA: 0x69D6B0 Offset: 0x69BCB0 VA: 0x18069D6B0
 	public void set_Ignored(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEC1490 Offset: 0xEBFA90 VA: 0x180EC1490
+	// RVA: 0xEC1F40 Offset: 0xEC0540 VA: 0x180EC1F40
 	public bool get_Readable() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEC1B30 Offset: 0xEC0130 VA: 0x180EC1B30
+	// RVA: 0xEC25E0 Offset: 0xEC0BE0 VA: 0x180EC25E0
 	public void set_Readable(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F5180 Offset: 0x13F3780 VA: 0x1813F5180
+	// RVA: 0x13F4260 Offset: 0x13F2860 VA: 0x1813F4260
 	public bool get_Writable() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F5310 Offset: 0x13F3910 VA: 0x1813F5310
+	// RVA: 0x13F43F0 Offset: 0x13F29F0 VA: 0x1813F43F0
 	public void set_Writable(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F50F0 Offset: 0x13F36F0 VA: 0x1813F50F0
+	// RVA: 0x13F41D0 Offset: 0x13F27D0 VA: 0x1813F41D0
 	public bool get_HasMemberAttribute() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F51B0 Offset: 0x13F37B0 VA: 0x1813F51B0
+	// RVA: 0x13F4290 Offset: 0x13F2890 VA: 0x1813F4290
 	public void set_HasMemberAttribute(bool value) { }
 
-	// RVA: 0x13F50E0 Offset: 0x13F36E0 VA: 0x1813F50E0
+	// RVA: 0x13F41C0 Offset: 0x13F27C0 VA: 0x1813F41C0
 	public object get_DefaultValue() { }
 
-	// RVA: 0x13F51A0 Offset: 0x13F37A0 VA: 0x1813F51A0
+	// RVA: 0x13F4280 Offset: 0x13F2880 VA: 0x1813F4280
 	public void set_DefaultValue(object value) { }
 
-	// RVA: 0x13F4FF0 Offset: 0x13F35F0 VA: 0x1813F4FF0
+	// RVA: 0x13F40D0 Offset: 0x13F26D0 VA: 0x1813F40D0
 	internal object GetResolvedDefaultValue() { }
 
-	// RVA: 0x13F5140 Offset: 0x13F3740 VA: 0x1813F5140
+	// RVA: 0x13F4220 Offset: 0x13F2820 VA: 0x1813F4220
 	public Required get_Required() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F5100 Offset: 0x13F3700 VA: 0x1813F5100
+	// RVA: 0x13F41E0 Offset: 0x13F27E0 VA: 0x1813F41E0
 	public Nullable<bool> get_IsReference() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F51C0 Offset: 0x13F37C0 VA: 0x1813F51C0
+	// RVA: 0x13F42A0 Offset: 0x13F28A0 VA: 0x1813F42A0
 	public void set_IsReference(Nullable<bool> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0
 	public Nullable<NullValueHandling> get_NullValueHandling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F5200 Offset: 0x13F3800 VA: 0x1813F5200
+	// RVA: 0x13F42E0 Offset: 0x13F28E0 VA: 0x1813F42E0
 	public void set_NullValueHandling(Nullable<NullValueHandling> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
+	// RVA: 0x574310 Offset: 0x572910 VA: 0x180574310
 	public Nullable<DefaultValueHandling> get_DefaultValueHandling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F5190 Offset: 0x13F3790 VA: 0x1813F5190
+	// RVA: 0x13F4270 Offset: 0x13F2870 VA: 0x1813F4270
 	public void set_DefaultValueHandling(Nullable<DefaultValueHandling> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
+	// RVA: 0x5742F0 Offset: 0x5728F0 VA: 0x1805742F0
 	public Nullable<ReferenceLoopHandling> get_ReferenceLoopHandling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F52F0 Offset: 0x13F38F0 VA: 0x1813F52F0
+	// RVA: 0x13F43D0 Offset: 0x13F29D0 VA: 0x1813F43D0
 	public void set_ReferenceLoopHandling(Nullable<ReferenceLoopHandling> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x952CA0 Offset: 0x9512A0 VA: 0x180952CA0
+	// RVA: 0x79BDE0 Offset: 0x79A3E0 VA: 0x18079BDE0
 	public Nullable<ObjectCreationHandling> get_ObjectCreationHandling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F5210 Offset: 0x13F3810 VA: 0x1813F5210
+	// RVA: 0x13F42F0 Offset: 0x13F28F0 VA: 0x1813F42F0
 	public void set_ObjectCreationHandling(Nullable<ObjectCreationHandling> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9922B0 Offset: 0x9908B0 VA: 0x1809922B0
+	// RVA: 0x79BDB0 Offset: 0x79A3B0 VA: 0x18079BDB0
 	public Nullable<TypeNameHandling> get_TypeNameHandling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F5300 Offset: 0x13F3900 VA: 0x1813F5300
+	// RVA: 0x13F43E0 Offset: 0x13F29E0 VA: 0x1813F43E0
 	public void set_TypeNameHandling(Nullable<TypeNameHandling> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7AD080 Offset: 0x7AB680 VA: 0x1807AD080
+	// RVA: 0x79BDD0 Offset: 0x79A3D0 VA: 0x18079BDD0
 	public Predicate<object> get_ShouldSerialize() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D4F0 Offset: 0xA4BAF0 VA: 0x180A4D4F0
+	// RVA: 0x79BE50 Offset: 0x79A450 VA: 0x18079BE50
 	public void set_ShouldSerialize(Predicate<object> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x104F470 Offset: 0x104DA70 VA: 0x18104F470
+	// RVA: 0x79BE20 Offset: 0x79A420 VA: 0x18079BE20
 	public Predicate<object> get_ShouldDeserialize() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA03A0 Offset: 0xD9E9A0 VA: 0x180DA03A0
+	// RVA: 0xDA0E50 Offset: 0xD9F450 VA: 0x180DA0E50
 	public Predicate<object> get_GetIsSpecified() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDA0780 Offset: 0xD9ED80 VA: 0x180DA0780
+	// RVA: 0xDA1230 Offset: 0xD9F830 VA: 0x180DA1230
 	public void set_GetIsSpecified(Predicate<object> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73D40 Offset: 0xC72340 VA: 0x180C73D40
+	// RVA: 0x79BDF0 Offset: 0x79A3F0 VA: 0x18079BDF0
 	public Action<object, object> get_SetIsSpecified() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73E90 Offset: 0xC72490 VA: 0x180C73E90
+	// RVA: 0x79BE70 Offset: 0x79A470 VA: 0x18079BE70
 	public void set_SetIsSpecified(Action<object, object> value) { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050 Slot: 3
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0 Slot: 3
 	public override string ToString() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD9F730 Offset: 0xD9DD30 VA: 0x180D9F730
+	// RVA: 0xDA01E0 Offset: 0xD9E7E0 VA: 0x180DA01E0
 	public JsonConverter get_ItemConverter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD35330 Offset: 0xD33930 VA: 0x180D35330
+	// RVA: 0xD357D0 Offset: 0xD33DD0 VA: 0x180D357D0
 	public void set_ItemConverter(JsonConverter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F5110 Offset: 0x13F3710 VA: 0x1813F5110
+	// RVA: 0x13F41F0 Offset: 0x13F27F0 VA: 0x1813F41F0
 	public Nullable<bool> get_ItemIsReference() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F51D0 Offset: 0x13F37D0 VA: 0x1813F51D0
+	// RVA: 0x13F42B0 Offset: 0x13F28B0 VA: 0x1813F42B0
 	public void set_ItemIsReference(Nullable<bool> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F5130 Offset: 0x13F3730 VA: 0x1813F5130
+	// RVA: 0x13F4210 Offset: 0x13F2810 VA: 0x1813F4210
 	public Nullable<TypeNameHandling> get_ItemTypeNameHandling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F51F0 Offset: 0x13F37F0 VA: 0x1813F51F0
+	// RVA: 0x13F42D0 Offset: 0x13F28D0 VA: 0x1813F42D0
 	public void set_ItemTypeNameHandling(Nullable<TypeNameHandling> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F5120 Offset: 0x13F3720 VA: 0x1813F5120
+	// RVA: 0x13F4200 Offset: 0x13F2800 VA: 0x1813F4200
 	public Nullable<ReferenceLoopHandling> get_ItemReferenceLoopHandling() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F51E0 Offset: 0x13F37E0 VA: 0x1813F51E0
+	// RVA: 0x13F42C0 Offset: 0x13F28C0 VA: 0x1813F42C0
 	public void set_ItemReferenceLoopHandling(Nullable<ReferenceLoopHandling> value) { }
 
-	// RVA: 0x13F5090 Offset: 0x13F3690 VA: 0x1813F5090
+	// RVA: 0x13F4170 Offset: 0x13F2770 VA: 0x1813F4170
 	internal void WritePropertyName(JsonWriter writer) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -3626,22 +3626,22 @@ public class JsonPropertyCollection : KeyedCollection<string, JsonProperty> // T
 
 	// Methods
 
-	// RVA: 0x13F4EB0 Offset: 0x13F34B0 VA: 0x1813F4EB0
+	// RVA: 0x13F3F90 Offset: 0x13F2590 VA: 0x1813F3F90
 	public void .ctor(Type type) { }
 
-	// RVA: 0x13F4C10 Offset: 0x13F3210 VA: 0x1813F4C10 Slot: 38
+	// RVA: 0x13F3CF0 Offset: 0x13F22F0 VA: 0x1813F3CF0 Slot: 38
 	protected override string GetKeyForItem(JsonProperty item) { }
 
-	// RVA: 0x13F49B0 Offset: 0x13F2FB0 VA: 0x1813F49B0
+	// RVA: 0x13F3A90 Offset: 0x13F2090 VA: 0x1813F3A90
 	public void AddProperty(JsonProperty property) { }
 
-	// RVA: 0x13F4BD0 Offset: 0x13F31D0 VA: 0x1813F4BD0
+	// RVA: 0x13F3CB0 Offset: 0x13F22B0 VA: 0x1813F3CB0
 	public JsonProperty GetClosestMatchProperty(string propertyName) { }
 
-	// RVA: 0x13F4DD0 Offset: 0x13F33D0 VA: 0x1813F4DD0
+	// RVA: 0x13F3EB0 Offset: 0x13F24B0 VA: 0x1813F3EB0
 	private bool TryGetValue(string key, out JsonProperty item) { }
 
-	// RVA: 0x13F4C30 Offset: 0x13F3230 VA: 0x1813F4C30
+	// RVA: 0x13F3D10 Offset: 0x13F2310 VA: 0x1813F3D10
 	public JsonProperty GetProperty(string propertyName, StringComparison comparisonType) { }
 
 }
@@ -3686,70 +3686,70 @@ public class JsonObjectContract : JsonContainerContract // TypeDefIndex: 6018
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A100 Offset: 0x1078700 VA: 0x18107A100
+	// RVA: 0x107AB70 Offset: 0x1079170 VA: 0x18107AB70
 	public MemberSerialization get_MemberSerialization() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107A270 Offset: 0x1078870 VA: 0x18107A270
+	// RVA: 0x107ACE0 Offset: 0x10792E0 VA: 0x18107ACE0
 	public void set_MemberSerialization(MemberSerialization value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F4440 Offset: 0x13F2A40 VA: 0x1813F4440
+	// RVA: 0x13F3520 Offset: 0x13F1B20 VA: 0x1813F3520
 	public Nullable<Required> get_ItemRequired() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x13F4510 Offset: 0x13F2B10 VA: 0x1813F4510
+	// RVA: 0x13F35F0 Offset: 0x13F1BF0 VA: 0x1813F35F0
 	public void set_ItemRequired(Nullable<Required> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73D40 Offset: 0xC72340 VA: 0x180C73D40
+	// RVA: 0x79BDF0 Offset: 0x79A3F0 VA: 0x18079BDF0
 	public JsonPropertyCollection get_Properties() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC73E90 Offset: 0xC72490 VA: 0x180C73E90
+	// RVA: 0x79BE70 Offset: 0x79A470 VA: 0x18079BE70
 	private void set_Properties(JsonPropertyCollection value) { }
 
-	// RVA: 0x13F4150 Offset: 0x13F2750 VA: 0x1813F4150
+	// RVA: 0x13F3230 Offset: 0x13F1830 VA: 0x1813F3230
 	public JsonPropertyCollection get_CreatorParameters() { }
 
-	// RVA: 0x13F4520 Offset: 0x13F2B20 VA: 0x1813F4520
+	// RVA: 0x13F3600 Offset: 0x13F1C00 VA: 0x1813F3600
 	public void set_OverrideConstructor(ConstructorInfo value) { }
 
-	// RVA: 0x13F45D0 Offset: 0x13F2BD0 VA: 0x1813F45D0
+	// RVA: 0x13F36B0 Offset: 0x13F1CB0 VA: 0x1813F36B0
 	public void set_ParametrizedConstructor(ConstructorInfo value) { }
 
-	// RVA: 0xA2ABE0 Offset: 0xA291E0 VA: 0x180A2ABE0
+	// RVA: 0xA2B0D0 Offset: 0xA296D0 VA: 0x180A2B0D0
 	public ObjectConstructor<object> get_OverrideCreator() { }
 
-	// RVA: 0xC83460 Offset: 0xC81A60 VA: 0x180C83460
+	// RVA: 0xC83900 Offset: 0xC81F00 VA: 0x180C83900
 	internal ObjectConstructor<object> get_ParameterizedCreator() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD9F730 Offset: 0xD9DD30 VA: 0x180D9F730
+	// RVA: 0xDA01E0 Offset: 0xD9E7E0 VA: 0x180DA01E0
 	public ExtensionDataSetter get_ExtensionDataSetter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD35330 Offset: 0xD33930 VA: 0x180D35330
+	// RVA: 0xD357D0 Offset: 0xD33DD0 VA: 0x180D357D0
 	public void set_ExtensionDataSetter(ExtensionDataSetter value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4EF3A0 Offset: 0x4ED9A0 VA: 0x1804EF3A0
+	// RVA: 0x4EF330 Offset: 0x4ED930 VA: 0x1804EF330
 	public ExtensionDataGetter get_ExtensionDataGetter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4EF3B0 Offset: 0x4ED9B0 VA: 0x1804EF3B0
+	// RVA: 0x4EF340 Offset: 0x4ED940 VA: 0x1804EF340
 	public void set_ExtensionDataGetter(ExtensionDataGetter value) { }
 
-	// RVA: 0x13F4450 Offset: 0x13F2A50 VA: 0x1813F4450
+	// RVA: 0x13F3530 Offset: 0x13F1B30 VA: 0x1813F3530
 	public void set_ExtensionDataValueType(Type value) { }
 
-	// RVA: 0x13F41D0 Offset: 0x13F27D0 VA: 0x1813F41D0
+	// RVA: 0x13F32B0 Offset: 0x13F18B0 VA: 0x1813F32B0
 	internal bool get_HasRequiredOrDefaultValueProperties() { }
 
-	// RVA: 0x13F40C0 Offset: 0x13F26C0 VA: 0x1813F40C0
+	// RVA: 0x13F31A0 Offset: 0x13F17A0 VA: 0x1813F31A0
 	public void .ctor(Type underlyingType) { }
 
-	// RVA: 0x13F3FC0 Offset: 0x13F25C0 VA: 0x1813F3FC0
+	// RVA: 0x13F30A0 Offset: 0x13F16A0 VA: 0x1813F30A0
 	internal object GetUninitializedObject() { }
 
 }
@@ -3767,19 +3767,19 @@ internal abstract class JsonSerializerInternalBase // TypeDefIndex: 6019
 
 	// Methods
 
-	// RVA: 0x13F5870 Offset: 0x13F3E70 VA: 0x1813F5870
+	// RVA: 0x13F4950 Offset: 0x13F2F50 VA: 0x1813F4950
 	protected void .ctor(JsonSerializer serializer) { }
 
-	// RVA: 0x13F5900 Offset: 0x13F3F00 VA: 0x1813F5900
+	// RVA: 0x13F49E0 Offset: 0x13F2FE0 VA: 0x1813F49E0
 	internal BidirectionalDictionary<string, object> get_DefaultReferenceMappings() { }
 
-	// RVA: 0x13F53A0 Offset: 0x13F39A0 VA: 0x1813F53A0
+	// RVA: 0x13F4480 Offset: 0x13F2A80 VA: 0x1813F4480
 	private ErrorContext GetErrorContext(object currentObject, object member, string path, Exception error) { }
 
-	// RVA: 0x13F5320 Offset: 0x13F3920 VA: 0x1813F5320
+	// RVA: 0x13F4400 Offset: 0x13F2A00 VA: 0x1813F4400
 	protected void ClearErrorContext() { }
 
-	// RVA: 0x13F54C0 Offset: 0x13F3AC0 VA: 0x1813F54C0
+	// RVA: 0x13F45A0 Offset: 0x13F2BA0 VA: 0x1813F45A0
 	protected bool IsErrorHandled(object currentObject, JsonContract contract, object keyValue, IJsonLineInfo lineInfo, string path, Exception ex) { }
 
 }
@@ -3787,10 +3787,10 @@ internal abstract class JsonSerializerInternalBase // TypeDefIndex: 6019
 private class JsonSerializerInternalBase.ReferenceEqualsEqualityComparer : IEqualityComparer<object> // TypeDefIndex: 6020
 {	// Methods
 
-	// RVA: 0x13CFBD0 Offset: 0x13CE1D0 VA: 0x1813CFBD0 Slot: 4
+	// RVA: 0x13CECD0 Offset: 0x13CD2D0 VA: 0x1813CECD0 Slot: 4
 	private bool System.Collections.Generic.IEqualityComparer<System.Object>.Equals(object x, object y) { }
 
-	// RVA: 0x1408560 Offset: 0x1406B60 VA: 0x181408560 Slot: 5
+	// RVA: 0x1407640 Offset: 0x1405C40 VA: 0x181407640 Slot: 5
 	private int System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode(object obj) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -3801,145 +3801,145 @@ private class JsonSerializerInternalBase.ReferenceEqualsEqualityComparer : IEqua
 internal class JsonSerializerInternalReader : JsonSerializerInternalBase // TypeDefIndex: 6021
 {	// Methods
 
-	// RVA: 0x13F5870 Offset: 0x13F3E70 VA: 0x1813F5870
+	// RVA: 0x13F4950 Offset: 0x13F2F50 VA: 0x1813F4950
 	public void .ctor(JsonSerializer serializer) { }
 
-	// RVA: 0x13FEFA0 Offset: 0x13FD5A0 VA: 0x1813FEFA0
+	// RVA: 0x13FE080 Offset: 0x13FC680 VA: 0x1813FE080
 	public void Populate(JsonReader reader, object target) { }
 
-	// RVA: 0x13FC070 Offset: 0x13FA670 VA: 0x1813FC070
+	// RVA: 0x13FB150 Offset: 0x13F9750 VA: 0x1813FB150
 	private JsonContract GetContractSafe(Type type) { }
 
-	// RVA: 0x13FB2A0 Offset: 0x13F98A0 VA: 0x1813FB2A0
+	// RVA: 0x13FA380 Offset: 0x13F8980 VA: 0x1813FA380
 	public object Deserialize(JsonReader reader, Type objectType, bool checkAdditionalContent) { }
 
-	// RVA: 0x13FC250 Offset: 0x13FA850 VA: 0x1813FC250
+	// RVA: 0x13FB330 Offset: 0x13F9930 VA: 0x1813FB330
 	private JsonSerializerProxy GetInternalSerializer() { }
 
-	// RVA: 0x13F6CA0 Offset: 0x13F52A0 VA: 0x1813F6CA0
+	// RVA: 0x13F5D80 Offset: 0x13F4380 VA: 0x1813F5D80
 	private JToken CreateJToken(JsonReader reader, JsonContract contract) { }
 
-	// RVA: 0x13F6A40 Offset: 0x13F5040 VA: 0x1813F6A40
+	// RVA: 0x13F5B20 Offset: 0x13F4120 VA: 0x1813F5B20
 	private JToken CreateJObject(JsonReader reader) { }
 
-	// RVA: 0x13FAAF0 Offset: 0x13F90F0 VA: 0x1813FAAF0
+	// RVA: 0x13F9BD0 Offset: 0x13F81D0 VA: 0x1813F9BD0
 	private object CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue) { }
 
-	// RVA: 0x13F6140 Offset: 0x13F4740 VA: 0x1813F6140
+	// RVA: 0x13F5220 Offset: 0x13F3820 VA: 0x1813F5220
 	private static bool CoerceEmptyStringToNull(Type objectType, JsonContract contract, string s) { }
 
-	// RVA: 0x13FC180 Offset: 0x13FA780 VA: 0x1813FC180
+	// RVA: 0x13FB260 Offset: 0x13F9860 VA: 0x1813FB260
 	internal string GetExpectedDescription(JsonContract contract) { }
 
-	// RVA: 0x13FC0E0 Offset: 0x13FA6E0 VA: 0x1813FC0E0
+	// RVA: 0x13FB1C0 Offset: 0x13F97C0 VA: 0x1813FB1C0
 	private JsonConverter GetConverter(JsonContract contract, JsonConverter memberConverter, JsonContainerContract containerContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x13F9270 Offset: 0x13F7870 VA: 0x1813F9270
+	// RVA: 0x13F8350 Offset: 0x13F6950 VA: 0x1813F8350
 	private object CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue) { }
 
-	// RVA: 0x13FF800 Offset: 0x13FDE00 VA: 0x1813FF800
+	// RVA: 0x13FE8E0 Offset: 0x13FCEE0 VA: 0x1813FE8E0
 	private bool ReadMetadataPropertiesToken(JTokenReader reader, ref Type objectType, ref JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue, out object newValue, out string id) { }
 
-	// RVA: 0x13FFE60 Offset: 0x13FE460 VA: 0x1813FFE60
+	// RVA: 0x13FEF40 Offset: 0x13FD540 VA: 0x1813FEF40
 	private bool ReadMetadataProperties(JsonReader reader, ref Type objectType, ref JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, object existingValue, out object newValue, out string id) { }
 
-	// RVA: 0x1400F30 Offset: 0x13FF530 VA: 0x181400F30
+	// RVA: 0x1400010 Offset: 0x13FE610 VA: 0x181400010
 	private void ResolveTypeName(JsonReader reader, ref Type objectType, ref JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, string qualifiedTypeName) { }
 
-	// RVA: 0x13FBBC0 Offset: 0x13FA1C0 VA: 0x1813FBBC0
+	// RVA: 0x13FACA0 Offset: 0x13F92A0 VA: 0x1813FACA0
 	private JsonArrayContract EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract) { }
 
-	// RVA: 0x13F6EC0 Offset: 0x13F54C0 VA: 0x1813F6EC0
+	// RVA: 0x13F5FA0 Offset: 0x13F45A0 VA: 0x1813F5FA0
 	private object CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, object existingValue, string id) { }
 
-	// RVA: 0x13FC360 Offset: 0x13FA960 VA: 0x1813FC360
+	// RVA: 0x13FB440 Offset: 0x13F9A40 VA: 0x1813FB440
 	private bool HasNoDefinedType(JsonContract contract) { }
 
-	// RVA: 0x13FBD60 Offset: 0x13FA360 VA: 0x1813FBD60
+	// RVA: 0x13FAE40 Offset: 0x13F9440 VA: 0x1813FAE40
 	private object EnsureType(JsonReader reader, object value, CultureInfo culture, JsonContract contract, Type targetType) { }
 
-	// RVA: 0x14015E0 Offset: 0x13FFBE0 VA: 0x1814015E0
+	// RVA: 0x14006C0 Offset: 0x13FECC0 VA: 0x1814006C0
 	private bool SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, object target) { }
 
-	// RVA: 0x13F5C00 Offset: 0x13F4200 VA: 0x1813F5C00
+	// RVA: 0x13F4CE0 Offset: 0x13F32E0 VA: 0x1813F4CE0
 	private bool CalculatePropertyDetails(JsonProperty property, ref JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, object target, out bool useExistingValue, out object currentValue, out JsonContract propertyContract, out bool gottenCurrentValue) { }
 
-	// RVA: 0x13F59D0 Offset: 0x13F3FD0 VA: 0x1813F59D0
+	// RVA: 0x13F4AB0 Offset: 0x13F30B0 VA: 0x1813F4AB0
 	private void AddReference(JsonReader reader, string id, object value) { }
 
-	// RVA: 0xF9C2A0 Offset: 0xF9A8A0 VA: 0x180F9C2A0
+	// RVA: 0xF9CD40 Offset: 0xF9B340 VA: 0x180F9CD40
 	private bool HasFlag(DefaultValueHandling value, DefaultValueHandling flag) { }
 
-	// RVA: 0x1401E50 Offset: 0x1400450 VA: 0x181401E50
+	// RVA: 0x1400F30 Offset: 0x13FF530 VA: 0x181400F30
 	private bool ShouldSetPropertyValue(JsonProperty property, object value) { }
 
-	// RVA: 0x13F79B0 Offset: 0x13F5FB0 VA: 0x1813F79B0
+	// RVA: 0x13F6A90 Offset: 0x13F5090 VA: 0x1813F6A90
 	private IList CreateNewList(JsonReader reader, JsonArrayContract contract, out bool createdFromNonDefaultCreator) { }
 
-	// RVA: 0x13F7720 Offset: 0x13F5D20 VA: 0x1813F7720
+	// RVA: 0x13F6800 Offset: 0x13F4E00 VA: 0x1813F6800
 	private IDictionary CreateNewDictionary(JsonReader reader, JsonDictionaryContract contract, out bool createdFromNonDefaultCreator) { }
 
-	// RVA: 0x13FC580 Offset: 0x13FAB80 VA: 0x1813FC580
+	// RVA: 0x13FB660 Offset: 0x13F9C60 VA: 0x1813FB660
 	private void OnDeserializing(JsonReader reader, JsonContract contract, object value) { }
 
-	// RVA: 0x13FC3F0 Offset: 0x13FA9F0 VA: 0x1813FC3F0
+	// RVA: 0x13FB4D0 Offset: 0x13F9AD0 VA: 0x1813FB4D0
 	private void OnDeserialized(JsonReader reader, JsonContract contract, object value) { }
 
-	// RVA: 0x13FC710 Offset: 0x13FAD10 VA: 0x1813FC710
+	// RVA: 0x13FB7F0 Offset: 0x13F9DF0 VA: 0x1813FB7F0
 	private object PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, string id) { }
 
-	// RVA: 0x13FD9A0 Offset: 0x13FBFA0 VA: 0x1813FD9A0
+	// RVA: 0x13FCA80 Offset: 0x13FB080 VA: 0x1813FCA80
 	private object PopulateMultidimensionalArray(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, string id) { }
 
-	// RVA: 0x1401F80 Offset: 0x1400580 VA: 0x181401F80
+	// RVA: 0x1401060 Offset: 0x13FF660 VA: 0x181401060
 	private void ThrowUnexpectedEndException(JsonReader reader, JsonContract contract, object currentObject, string message) { }
 
-	// RVA: 0x13FD280 Offset: 0x13FB880 VA: 0x1813FD280
+	// RVA: 0x13FC360 Offset: 0x13FA960 VA: 0x1813FC360
 	private object PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, string id) { }
 
-	// RVA: 0x13F63E0 Offset: 0x13F49E0 VA: 0x1813F63E0
+	// RVA: 0x13F54C0 Offset: 0x13F3AC0 VA: 0x1813F54C0
 	private object CreateISerializable(JsonReader reader, JsonISerializableContract contract, JsonProperty member, string id) { }
 
-	// RVA: 0x13F6230 Offset: 0x13F4830 VA: 0x1813F6230
+	// RVA: 0x13F5310 Offset: 0x13F3910 VA: 0x1813F5310
 	internal object CreateISerializableItem(JToken token, Type type, JsonISerializableContract contract, JsonProperty member) { }
 
-	// RVA: 0x13F7F40 Offset: 0x13F6540 VA: 0x1813F7F40
+	// RVA: 0x13F7020 Offset: 0x13F5620 VA: 0x1813F7020
 	private object CreateObjectUsingCreatorWithParameters(JsonReader reader, JsonObjectContract contract, JsonProperty containerProperty, ObjectConstructor<object> creator, string id) { }
 
-	// RVA: 0x13FAFA0 Offset: 0x13F95A0 VA: 0x1813FAFA0
+	// RVA: 0x13FA080 Offset: 0x13F8680 VA: 0x1813FA080
 	private object DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, object existingValue) { }
 
-	// RVA: 0x1400480 Offset: 0x13FEA80 VA: 0x181400480
+	// RVA: 0x13FF560 Offset: 0x13FDB60 VA: 0x1813FF560
 	private List<JsonSerializerInternalReader.CreatorPropertyContext> ResolvePropertyAndCreatorValues(JsonObjectContract contract, JsonProperty containerProperty, JsonReader reader, Type objectType) { }
 
-	// RVA: 0x13FF5C0 Offset: 0x13FDBC0 VA: 0x1813FF5C0
+	// RVA: 0x13FE6A0 Offset: 0x13FCCA0 VA: 0x1813FE6A0
 	private bool ReadForType(JsonReader reader, JsonContract contract, bool hasConverter) { }
 
-	// RVA: 0x13F7CE0 Offset: 0x13F62E0 VA: 0x1813F7CE0
+	// RVA: 0x13F6DC0 Offset: 0x13F53C0 VA: 0x1813F6DC0
 	public object CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, string id, out bool createdFromNonDefaultCreator) { }
 
-	// RVA: 0x13FE230 Offset: 0x13FC830 VA: 0x1813FE230
+	// RVA: 0x13FD310 Offset: 0x13FB910 VA: 0x1813FD310
 	private object PopulateObject(object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, string id) { }
 
-	// RVA: 0x1401CA0 Offset: 0x14002A0 VA: 0x181401CA0
+	// RVA: 0x1400D80 Offset: 0x13FF380 VA: 0x181400D80
 	private bool ShouldDeserialize(JsonReader reader, JsonProperty property, object target) { }
 
-	// RVA: 0x13F6050 Offset: 0x13F4650 VA: 0x1813F6050
+	// RVA: 0x13F5130 Offset: 0x13F3730 VA: 0x1813F5130
 	private bool CheckPropertyName(JsonReader reader, string memberName) { }
 
-	// RVA: 0x1401370 Offset: 0x13FF970 VA: 0x181401370
+	// RVA: 0x1400450 Offset: 0x13FEA50 VA: 0x181400450
 	private void SetExtensionData(JsonObjectContract contract, JsonProperty member, JsonReader reader, string memberName, object o) { }
 
-	// RVA: 0x13FF500 Offset: 0x13FDB00 VA: 0x1813FF500
+	// RVA: 0x13FE5E0 Offset: 0x13FCBE0 VA: 0x1813FE5E0
 	private object ReadExtensionDataValue(JsonObjectContract contract, JsonProperty member, JsonReader reader) { }
 
-	// RVA: 0x13FB780 Offset: 0x13F9D80 VA: 0x1813FB780
+	// RVA: 0x13FA860 Offset: 0x13F8E60 VA: 0x1813FA860
 	private void EndProcessProperty(object newObject, JsonReader reader, JsonObjectContract contract, int initialDepth, JsonProperty property, JsonSerializerInternalReader.PropertyPresence presence, bool setDefaultValue) { }
 
-	// RVA: 0x14014C0 Offset: 0x13FFAC0 VA: 0x1814014C0
+	// RVA: 0x14005A0 Offset: 0x13FEBA0 VA: 0x1814005A0
 	private void SetPropertyPresence(JsonReader reader, JsonProperty property, Dictionary<JsonProperty, JsonSerializerInternalReader.PropertyPresence> requiredProperties) { }
 
-	// RVA: 0x13FC2D0 Offset: 0x13FA8D0 VA: 0x1813FC2D0
+	// RVA: 0x13FB3B0 Offset: 0x13F99B0 VA: 0x1813FB3B0
 	private void HandleError(JsonReader reader, bool readPastError, int initialDepth) { }
 
 }
@@ -3978,7 +3978,7 @@ private sealed class JsonSerializerInternalReader.<>c__DisplayClass36_0 // TypeD
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14090D0 Offset: 0x14076D0 VA: 0x1814090D0
+	// RVA: 0x14081B0 Offset: 0x14067B0 VA: 0x1814081B0
 	internal bool <CreateObjectUsingCreatorWithParameters>b__1(JsonSerializerInternalReader.CreatorPropertyContext p) { }
 
 }
@@ -3993,22 +3993,22 @@ private sealed class JsonSerializerInternalReader.<>c // TypeDefIndex: 6025
 
 	// Methods
 
-	// RVA: 0x1409470 Offset: 0x1407A70 VA: 0x181409470
+	// RVA: 0x1408550 Offset: 0x1406B50 VA: 0x181408550
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13F4C10 Offset: 0x13F3210 VA: 0x1813F4C10
+	// RVA: 0x13F3CF0 Offset: 0x13F22F0 VA: 0x1813F3CF0
 	internal string <CreateObjectUsingCreatorWithParameters>b__36_0(JsonProperty p) { }
 
-	// RVA: 0x13F4C10 Offset: 0x13F3210 VA: 0x1813F4C10
+	// RVA: 0x13F3CF0 Offset: 0x13F22F0 VA: 0x1813F3CF0
 	internal string <CreateObjectUsingCreatorWithParameters>b__36_2(JsonProperty p) { }
 
-	// RVA: 0x7B4F90 Offset: 0x7B3590 VA: 0x1807B4F90
+	// RVA: 0x7D3380 Offset: 0x7D1980 VA: 0x1807D3380
 	internal JsonProperty <PopulateObject>b__41_0(JsonProperty m) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0
 	internal JsonSerializerInternalReader.PropertyPresence <PopulateObject>b__41_1(JsonProperty m) { }
 
 }
@@ -4021,112 +4021,112 @@ internal class JsonSerializerInternalWriter : JsonSerializerInternalBase // Type
 
 	// Methods
 
-	// RVA: 0x1408480 Offset: 0x1406A80 VA: 0x181408480
+	// RVA: 0x1407560 Offset: 0x1405B60 VA: 0x181407560
 	public void .ctor(JsonSerializer serializer) { }
 
-	// RVA: 0x1406DC0 Offset: 0x14053C0 VA: 0x181406DC0
+	// RVA: 0x1405EA0 Offset: 0x14044A0 VA: 0x181405EA0
 	public void Serialize(JsonWriter jsonWriter, object value, Type objectType) { }
 
-	// RVA: 0x1402C30 Offset: 0x1401230 VA: 0x181402C30
+	// RVA: 0x1401D10 Offset: 0x1400310 VA: 0x181401D10
 	private JsonSerializerProxy GetInternalSerializer() { }
 
-	// RVA: 0x1402BB0 Offset: 0x14011B0 VA: 0x181402BB0
+	// RVA: 0x1401C90 Offset: 0x1400290 VA: 0x181401C90
 	private JsonContract GetContractSafe(object value) { }
 
-	// RVA: 0x1405D70 Offset: 0x1404370 VA: 0x181405D70
+	// RVA: 0x1404E50 Offset: 0x1403450 VA: 0x181404E50
 	private void SerializePrimitive(JsonWriter writer, object value, JsonPrimitiveContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x14060B0 Offset: 0x14046B0 VA: 0x1814060B0
+	// RVA: 0x1405190 Offset: 0x1403790 VA: 0x181405190
 	private void SerializeValue(JsonWriter writer, object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x14036C0 Offset: 0x1401CC0 VA: 0x1814036C0
+	// RVA: 0x14027A0 Offset: 0x1400DA0 VA: 0x1814027A0
 	private Nullable<bool> ResolveIsReference(JsonContract contract, JsonProperty property, JsonContainerContract collectionContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x1407330 Offset: 0x1405930 VA: 0x181407330
+	// RVA: 0x1406410 Offset: 0x1404A10 VA: 0x181406410
 	private bool ShouldWriteReference(object value, JsonProperty property, JsonContract valueContract, JsonContainerContract collectionContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x1407240 Offset: 0x1405840 VA: 0x181407240
+	// RVA: 0x1406320 Offset: 0x1404920 VA: 0x181406320
 	private bool ShouldWriteProperty(object memberValue, JsonProperty property) { }
 
-	// RVA: 0x1402800 Offset: 0x1400E00 VA: 0x181402800
+	// RVA: 0x14018E0 Offset: 0x13FFEE0 VA: 0x1814018E0
 	private bool CheckForCircularReference(JsonWriter writer, object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x1407CF0 Offset: 0x14062F0 VA: 0x181407CF0
+	// RVA: 0x1406DD0 Offset: 0x14053D0 VA: 0x181406DD0
 	private void WriteReference(JsonWriter writer, object value) { }
 
-	// RVA: 0x1403020 Offset: 0x1401620 VA: 0x181403020
+	// RVA: 0x1402100 Offset: 0x1400700 VA: 0x181402100
 	private string GetReference(JsonWriter writer, object value) { }
 
-	// RVA: 0x1407680 Offset: 0x1405C80 VA: 0x181407680
+	// RVA: 0x1406760 Offset: 0x1404D60 VA: 0x181406760
 	internal static bool TryConvertToString(object value, Type type, out string s) { }
 
-	// RVA: 0x1406000 Offset: 0x1404600 VA: 0x181406000
+	// RVA: 0x14050E0 Offset: 0x14036E0 VA: 0x1814050E0
 	private void SerializeString(JsonWriter writer, object value, JsonStringContract contract) { }
 
-	// RVA: 0x1403550 Offset: 0x1401B50 VA: 0x181403550
+	// RVA: 0x1402630 Offset: 0x1400C30 VA: 0x181402630
 	private void OnSerializing(JsonWriter writer, JsonContract contract, object value) { }
 
-	// RVA: 0x14033E0 Offset: 0x14019E0 VA: 0x1814033E0
+	// RVA: 0x14024C0 Offset: 0x1400AC0 VA: 0x1814024C0
 	private void OnSerialized(JsonWriter writer, JsonContract contract, object value) { }
 
-	// RVA: 0x14054B0 Offset: 0x1403AB0 VA: 0x1814054B0
+	// RVA: 0x1404590 Offset: 0x1402B90 VA: 0x181404590
 	private void SerializeObject(JsonWriter writer, object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x1402090 Offset: 0x1400690 VA: 0x181402090
+	// RVA: 0x1401170 Offset: 0x13FF770 VA: 0x181401170
 	private bool CalculatePropertyValues(JsonWriter writer, object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, out JsonContract memberContract, out object memberValue) { }
 
-	// RVA: 0x14078D0 Offset: 0x1405ED0 VA: 0x1814078D0
+	// RVA: 0x14069B0 Offset: 0x1404FB0 VA: 0x1814069B0
 	private void WriteObjectStart(JsonWriter writer, object value, JsonContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x1407B60 Offset: 0x1406160 VA: 0x181407B60
+	// RVA: 0x1406C40 Offset: 0x1405240 VA: 0x181406C40
 	private void WriteReferenceIdProperty(JsonWriter writer, Type type, object value) { }
 
-	// RVA: 0x14082C0 Offset: 0x14068C0 VA: 0x1814082C0
+	// RVA: 0x14073A0 Offset: 0x14059A0 VA: 0x1814073A0
 	private void WriteTypeProperty(JsonWriter writer, Type type) { }
 
-	// RVA: 0xF9C2A0 Offset: 0xF9A8A0 VA: 0x180F9C2A0
+	// RVA: 0xF9CD40 Offset: 0xF9B340 VA: 0x180F9CD40
 	private bool HasFlag(DefaultValueHandling value, DefaultValueHandling flag) { }
 
-	// RVA: 0xF9C2A0 Offset: 0xF9A8A0 VA: 0x180F9C2A0
+	// RVA: 0xF9CD40 Offset: 0xF9B340 VA: 0x180F9CD40
 	private bool HasFlag(PreserveReferencesHandling value, PreserveReferencesHandling flag) { }
 
-	// RVA: 0xF9C2A0 Offset: 0xF9A8A0 VA: 0x180F9C2A0
+	// RVA: 0xF9CD40 Offset: 0xF9B340 VA: 0x180F9CD40
 	private bool HasFlag(TypeNameHandling value, TypeNameHandling flag) { }
 
-	// RVA: 0x1403770 Offset: 0x1401D70 VA: 0x181403770
+	// RVA: 0x1402850 Offset: 0x1400E50 VA: 0x181402850
 	private void SerializeConvertable(JsonWriter writer, JsonConverter converter, object value, JsonContract contract, JsonContainerContract collectionContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x1404A50 Offset: 0x1403050 VA: 0x181404A50
+	// RVA: 0x1403B30 Offset: 0x1402130 VA: 0x181403B30
 	private void SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x1405340 Offset: 0x1403940 VA: 0x181405340
+	// RVA: 0x1404420 Offset: 0x1402A20 VA: 0x181404420
 	private void SerializeMultidimensionalArray(JsonWriter writer, Array values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x1404F40 Offset: 0x1403540 VA: 0x181404F40
+	// RVA: 0x1404020 Offset: 0x1402620 VA: 0x181404020
 	private void SerializeMultidimensionalArray(JsonWriter writer, Array values, JsonArrayContract contract, JsonProperty member, int initialDepth, int[] indices) { }
 
-	// RVA: 0x1407EC0 Offset: 0x14064C0 VA: 0x181407EC0
+	// RVA: 0x1406FA0 Offset: 0x14055A0 VA: 0x181406FA0
 	private bool WriteStartArray(JsonWriter writer, object values, JsonArrayContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x1404390 Offset: 0x1402990 VA: 0x181404390
+	// RVA: 0x1403470 Offset: 0x1401A70 VA: 0x181403470
 	private void SerializeISerializable(JsonWriter writer, ISerializable value, JsonISerializableContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x1407510 Offset: 0x1405B10 VA: 0x181407510
+	// RVA: 0x14065F0 Offset: 0x1404BF0 VA: 0x1814065F0
 	private bool ShouldWriteType(TypeNameHandling typeNameHandlingFlag, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x1403B10 Offset: 0x1402110 VA: 0x181403B10
+	// RVA: 0x1402BF0 Offset: 0x14011F0 VA: 0x181402BF0
 	private void SerializeDictionary(JsonWriter writer, IDictionary values, JsonDictionaryContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty) { }
 
-	// RVA: 0x1402CB0 Offset: 0x14012B0 VA: 0x181402CB0
+	// RVA: 0x1401D90 Offset: 0x1400390 VA: 0x181401D90
 	private string GetPropertyName(JsonWriter writer, object name, JsonContract contract, out bool escape) { }
 
-	// RVA: 0x14031B0 Offset: 0x14017B0 VA: 0x1814031B0
+	// RVA: 0x1402290 Offset: 0x1400890 VA: 0x181402290
 	private void HandleError(JsonWriter writer, int initialDepth) { }
 
-	// RVA: 0x1407090 Offset: 0x1405690 VA: 0x181407090
+	// RVA: 0x1406170 Offset: 0x1404770 VA: 0x181406170
 	private bool ShouldSerialize(JsonWriter writer, JsonProperty property, object target) { }
 
-	// RVA: 0x1403230 Offset: 0x1401830 VA: 0x181403230
+	// RVA: 0x1402310 Offset: 0x1400910 VA: 0x181402310
 	private bool IsSpecified(JsonWriter writer, JsonProperty property, object target) { }
 
 }
@@ -4160,106 +4160,106 @@ internal class JsonSerializerProxy : JsonSerializer // TypeDefIndex: 6027
 
 	// Methods
 
-	// RVA: 0x1808A90 Offset: 0x1807090 VA: 0x181808A90 Slot: 4
+	// RVA: 0x17F5ED0 Offset: 0x17F44D0 VA: 0x1817F5ED0 Slot: 4
 	public override void add_Error(EventHandler<ErrorEventArgs> value) { }
 
-	// RVA: 0x1808C50 Offset: 0x1807250 VA: 0x181808C50 Slot: 5
+	// RVA: 0x17F6090 Offset: 0x17F4690 VA: 0x1817F6090 Slot: 5
 	public override void remove_Error(EventHandler<ErrorEventArgs> value) { }
 
-	// RVA: 0x1808F30 Offset: 0x1807530 VA: 0x181808F30 Slot: 6
+	// RVA: 0x17F6370 Offset: 0x17F4970 VA: 0x1817F6370 Slot: 6
 	public override void set_ReferenceResolver(IReferenceResolver value) { }
 
-	// RVA: 0x1808C20 Offset: 0x1807220 VA: 0x181808C20 Slot: 8
+	// RVA: 0x17F6060 Offset: 0x17F4660 VA: 0x1817F6060 Slot: 8
 	public override ITraceWriter get_TraceWriter() { }
 
-	// RVA: 0x1808F60 Offset: 0x1807560 VA: 0x181808F60 Slot: 9
+	// RVA: 0x17F63A0 Offset: 0x17F49A0 VA: 0x1817F63A0 Slot: 9
 	public override void set_TraceWriter(ITraceWriter value) { }
 
-	// RVA: 0x1808DB0 Offset: 0x18073B0 VA: 0x181808DB0 Slot: 10
+	// RVA: 0x17F61F0 Offset: 0x17F47F0 VA: 0x1817F61F0 Slot: 10
 	public override void set_EqualityComparer(IEqualityComparer value) { }
 
-	// RVA: 0x1808B60 Offset: 0x1807160 VA: 0x181808B60 Slot: 23
+	// RVA: 0x17F5FA0 Offset: 0x17F45A0 VA: 0x1817F5FA0 Slot: 23
 	public override JsonConverterCollection get_Converters() { }
 
-	// RVA: 0x1808D80 Offset: 0x1807380 VA: 0x181808D80 Slot: 17
+	// RVA: 0x17F61C0 Offset: 0x17F47C0 VA: 0x1817F61C0 Slot: 17
 	public override void set_DefaultValueHandling(DefaultValueHandling value) { }
 
-	// RVA: 0x1808B30 Offset: 0x1807130 VA: 0x181808B30 Slot: 24
+	// RVA: 0x17F5F70 Offset: 0x17F4570 VA: 0x1817F5F70 Slot: 24
 	public override IContractResolver get_ContractResolver() { }
 
-	// RVA: 0x1808D50 Offset: 0x1807350 VA: 0x181808D50 Slot: 25
+	// RVA: 0x17F6190 Offset: 0x17F4790 VA: 0x1817F6190 Slot: 25
 	public override void set_ContractResolver(IContractResolver value) { }
 
-	// RVA: 0x1808E40 Offset: 0x1807440 VA: 0x181808E40 Slot: 15
+	// RVA: 0x17F6280 Offset: 0x17F4880 VA: 0x1817F6280 Slot: 15
 	public override void set_MissingMemberHandling(MissingMemberHandling value) { }
 
-	// RVA: 0x1808E70 Offset: 0x1807470 VA: 0x181808E70 Slot: 16
+	// RVA: 0x17F62B0 Offset: 0x17F48B0 VA: 0x1817F62B0 Slot: 16
 	public override void set_NullValueHandling(NullValueHandling value) { }
 
-	// RVA: 0x1808BF0 Offset: 0x18071F0 VA: 0x181808BF0 Slot: 18
+	// RVA: 0x17F6030 Offset: 0x17F4630 VA: 0x1817F6030 Slot: 18
 	public override ObjectCreationHandling get_ObjectCreationHandling() { }
 
-	// RVA: 0x1808EA0 Offset: 0x18074A0 VA: 0x181808EA0 Slot: 19
+	// RVA: 0x17F62E0 Offset: 0x17F48E0 VA: 0x1817F62E0 Slot: 19
 	public override void set_ObjectCreationHandling(ObjectCreationHandling value) { }
 
-	// RVA: 0x1808F00 Offset: 0x1807500 VA: 0x181808F00 Slot: 14
+	// RVA: 0x17F6340 Offset: 0x17F4940 VA: 0x1817F6340 Slot: 14
 	public override void set_ReferenceLoopHandling(ReferenceLoopHandling value) { }
 
-	// RVA: 0x1808ED0 Offset: 0x18074D0 VA: 0x181808ED0 Slot: 13
+	// RVA: 0x17F6310 Offset: 0x17F4910 VA: 0x1817F6310 Slot: 13
 	public override void set_PreserveReferencesHandling(PreserveReferencesHandling value) { }
 
-	// RVA: 0x1808FC0 Offset: 0x18075C0 VA: 0x181808FC0 Slot: 11
+	// RVA: 0x17F6400 Offset: 0x17F4A00 VA: 0x1817F6400 Slot: 11
 	public override void set_TypeNameHandling(TypeNameHandling value) { }
 
-	// RVA: 0x1808BC0 Offset: 0x18071C0 VA: 0x181808BC0 Slot: 21
+	// RVA: 0x17F6000 Offset: 0x17F4600 VA: 0x1817F6000 Slot: 21
 	public override MetadataPropertyHandling get_MetadataPropertyHandling() { }
 
-	// RVA: 0x1808E10 Offset: 0x1807410 VA: 0x181808E10 Slot: 22
+	// RVA: 0x17F6250 Offset: 0x17F4850 VA: 0x1817F6250 Slot: 22
 	public override void set_MetadataPropertyHandling(MetadataPropertyHandling value) { }
 
-	// RVA: 0x1808F90 Offset: 0x1807590 VA: 0x181808F90 Slot: 12
+	// RVA: 0x17F63D0 Offset: 0x17F49D0 VA: 0x1817F63D0 Slot: 12
 	public override void set_TypeNameAssemblyFormat(FormatterAssemblyStyle value) { }
 
-	// RVA: 0x1808CE0 Offset: 0x18072E0 VA: 0x181808CE0 Slot: 20
+	// RVA: 0x17F6120 Offset: 0x17F4720 VA: 0x1817F6120 Slot: 20
 	public override void set_ConstructorHandling(ConstructorHandling value) { }
 
-	// RVA: 0x1808C80 Offset: 0x1807280 VA: 0x181808C80 Slot: 7
+	// RVA: 0x17F60C0 Offset: 0x17F46C0 VA: 0x1817F60C0 Slot: 7
 	public override void set_Binder(SerializationBinder value) { }
 
-	// RVA: 0x1808AF0 Offset: 0x18070F0 VA: 0x181808AF0 Slot: 26
+	// RVA: 0x17F5F30 Offset: 0x17F4530 VA: 0x1817F5F30 Slot: 26
 	public override StreamingContext get_Context() { }
 
-	// RVA: 0x1808D10 Offset: 0x1807310 VA: 0x181808D10 Slot: 27
+	// RVA: 0x17F6150 Offset: 0x17F4750 VA: 0x1817F6150 Slot: 27
 	public override void set_Context(StreamingContext value) { }
 
-	// RVA: 0x1808B90 Offset: 0x1807190 VA: 0x181808B90 Slot: 28
+	// RVA: 0x17F5FD0 Offset: 0x17F45D0 VA: 0x1817F5FD0 Slot: 28
 	public override Formatting get_Formatting() { }
 
-	// RVA: 0x1808DE0 Offset: 0x18073E0 VA: 0x181808DE0 Slot: 29
+	// RVA: 0x17F6220 Offset: 0x17F4820 VA: 0x1817F6220 Slot: 29
 	public override void set_Formatting(Formatting value) { }
 
-	// RVA: 0x1808AC0 Offset: 0x18070C0 VA: 0x181808AC0 Slot: 30
+	// RVA: 0x17F5F00 Offset: 0x17F4500 VA: 0x1817F5F00 Slot: 30
 	public override bool get_CheckAdditionalContent() { }
 
-	// RVA: 0x1808CB0 Offset: 0x18072B0 VA: 0x181808CB0 Slot: 31
+	// RVA: 0x17F60F0 Offset: 0x17F46F0 VA: 0x1817F60F0 Slot: 31
 	public override void set_CheckAdditionalContent(bool value) { }
 
-	// RVA: 0x1808840 Offset: 0x1806E40 VA: 0x181808840
+	// RVA: 0x17F5C80 Offset: 0x17F4280 VA: 0x1817F5C80
 	internal JsonSerializerInternalBase GetInternalSerializer() { }
 
-	// RVA: 0x18088F0 Offset: 0x1806EF0 VA: 0x1818088F0
+	// RVA: 0x17F5D30 Offset: 0x17F4330 VA: 0x1817F5D30
 	public void .ctor(JsonSerializerInternalReader serializerReader) { }
 
-	// RVA: 0x18089C0 Offset: 0x1806FC0 VA: 0x1818089C0
+	// RVA: 0x17F5E00 Offset: 0x17F4400 VA: 0x1817F5E00
 	public void .ctor(JsonSerializerInternalWriter serializerWriter) { }
 
-	// RVA: 0x18087F0 Offset: 0x1806DF0 VA: 0x1818087F0 Slot: 33
+	// RVA: 0x17F5C30 Offset: 0x17F4230 VA: 0x1817F5C30 Slot: 33
 	internal override object DeserializeInternal(JsonReader reader, Type objectType) { }
 
-	// RVA: 0x1808860 Offset: 0x1806E60 VA: 0x181808860 Slot: 32
+	// RVA: 0x17F5CA0 Offset: 0x17F42A0 VA: 0x1817F5CA0 Slot: 32
 	internal override void PopulateInternal(JsonReader reader, object target) { }
 
-	// RVA: 0x18088A0 Offset: 0x1806EA0 VA: 0x1818088A0 Slot: 34
+	// RVA: 0x17F5CE0 Offset: 0x17F42E0 VA: 0x1817F5CE0 Slot: 34
 	internal override void SerializeInternal(JsonWriter jsonWriter, object value, Type rootType) { }
 
 }
@@ -4267,7 +4267,7 @@ internal class JsonSerializerProxy : JsonSerializer // TypeDefIndex: 6027
 public class JsonStringContract : JsonPrimitiveContract // TypeDefIndex: 6028
 {	// Methods
 
-	// RVA: 0x1808FF0 Offset: 0x18075F0 VA: 0x181808FF0
+	// RVA: 0x17F6430 Offset: 0x17F4A30 VA: 0x1817F6430
 	public void .ctor(Type underlyingType) { }
 
 }
@@ -4289,7 +4289,7 @@ internal static class JsonTypeReflector // TypeDefIndex: 6029
 	public static T GetCachedAttribute<T>(object attributeProvider) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D11E0 Offset: 0x5CF7E0 VA: 0x1805D11E0
+	|-RVA: 0x5D1170 Offset: 0x5CF770 VA: 0x1805D1170
 	|-JsonTypeReflector.GetCachedAttribute<JsonContainerAttribute>
 	|-JsonTypeReflector.GetCachedAttribute<JsonConverterAttribute>
 	|-JsonTypeReflector.GetCachedAttribute<JsonObjectAttribute>
@@ -4297,38 +4297,38 @@ internal static class JsonTypeReflector // TypeDefIndex: 6029
 	|-JsonTypeReflector.GetCachedAttribute<SerializableAttribute>
 	*/
 
-	// RVA: 0x18094D0 Offset: 0x1807AD0 VA: 0x1818094D0
+	// RVA: 0x17F6910 Offset: 0x17F4F10 VA: 0x1817F6910
 	public static DataContractAttribute GetDataContractAttribute(Type type) { }
 
-	// RVA: 0x1809560 Offset: 0x1807B60 VA: 0x181809560
+	// RVA: 0x17F69A0 Offset: 0x17F4FA0 VA: 0x1817F69A0
 	public static DataMemberAttribute GetDataMemberAttribute(MemberInfo memberInfo) { }
 
-	// RVA: 0x1809CF0 Offset: 0x18082F0 VA: 0x181809CF0
+	// RVA: 0x17F7130 Offset: 0x17F5730 VA: 0x1817F7130
 	public static MemberSerialization GetObjectMemberSerialization(Type objectType, bool ignoreSerializableAttribute) { }
 
-	// RVA: 0x1809C20 Offset: 0x1808220 VA: 0x181809C20
+	// RVA: 0x17F7060 Offset: 0x17F5660 VA: 0x1817F7060
 	public static JsonConverter GetJsonConverter(object attributeProvider) { }
 
-	// RVA: 0x18090F0 Offset: 0x18076F0 VA: 0x1818090F0
+	// RVA: 0x17F6530 Offset: 0x17F4B30 VA: 0x1817F6530
 	public static JsonConverter CreateJsonConverterInstance(Type converterType, object[] converterArgs) { }
 
-	// RVA: 0x1809AD0 Offset: 0x18080D0 VA: 0x181809AD0
+	// RVA: 0x17F6F10 Offset: 0x17F5510 VA: 0x1817F6F10
 	private static Func<object[], JsonConverter> GetJsonConverterCreator(Type converterType) { }
 
-	// RVA: 0x1809E90 Offset: 0x1808490 VA: 0x181809E90
+	// RVA: 0x17F72D0 Offset: 0x17F58D0 VA: 0x1817F72D0
 	public static TypeConverter GetTypeConverter(Type type) { }
 
-	// RVA: 0x1809450 Offset: 0x1807A50 VA: 0x181809450
+	// RVA: 0x17F6890 Offset: 0x17F4E90 VA: 0x1817F6890
 	private static Type GetAssociatedMetadataType(Type type) { }
 
-	// RVA: 0x1809190 Offset: 0x1807790 VA: 0x181809190
+	// RVA: 0x17F65D0 Offset: 0x17F4BD0 VA: 0x1817F65D0
 	private static Type GetAssociateMetadataTypeFromAttribute(Type type) { }
 
 	// RVA: -1 Offset: -1
 	private static T GetAttribute<T>(Type type) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D1060 Offset: 0x5CF660 VA: 0x1805D1060
+	|-RVA: 0x5D0FF0 Offset: 0x5CF5F0 VA: 0x1805D0FF0
 	|-JsonTypeReflector.GetAttribute<object>
 	*/
 
@@ -4336,7 +4336,7 @@ internal static class JsonTypeReflector // TypeDefIndex: 6029
 	private static T GetAttribute<T>(MemberInfo memberInfo) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D0D00 Offset: 0x5CF300 VA: 0x1805D0D00
+	|-RVA: 0x5D0C90 Offset: 0x5CF290 VA: 0x1805D0C90
 	|-JsonTypeReflector.GetAttribute<object>
 	*/
 
@@ -4344,7 +4344,7 @@ internal static class JsonTypeReflector // TypeDefIndex: 6029
 	public static T GetAttribute<T>(object provider) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D0F50 Offset: 0x5CF550 VA: 0x1805D0F50
+	|-RVA: 0x5D0EE0 Offset: 0x5CF4E0 VA: 0x1805D0EE0
 	|-JsonTypeReflector.GetAttribute<JsonExtensionDataAttribute>
 	|-JsonTypeReflector.GetAttribute<JsonIgnoreAttribute>
 	|-JsonTypeReflector.GetAttribute<JsonPropertyAttribute>
@@ -4355,13 +4355,13 @@ internal static class JsonTypeReflector // TypeDefIndex: 6029
 	|-JsonTypeReflector.GetAttribute<DataMemberAttribute>
 	*/
 
-	// RVA: 0x1809FF0 Offset: 0x18085F0 VA: 0x181809FF0
+	// RVA: 0x17F7430 Offset: 0x17F5A30 VA: 0x1817F7430
 	public static bool get_FullyTrusted() { }
 
-	// RVA: 0x180A170 Offset: 0x1808770 VA: 0x18180A170
+	// RVA: 0x17F75B0 Offset: 0x17F5BB0 VA: 0x1817F75B0
 	public static ReflectionDelegateFactory get_ReflectionDelegateFactory() { }
 
-	// RVA: 0x1809EF0 Offset: 0x18084F0 VA: 0x181809EF0
+	// RVA: 0x17F7330 Offset: 0x17F5930 VA: 0x1817F7330
 	private static void .cctor() { }
 
 }
@@ -4376,7 +4376,7 @@ private sealed class JsonTypeReflector.<>c__DisplayClass18_0 // TypeDefIndex: 60
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x18150A0 Offset: 0x18136A0 VA: 0x1818150A0
+	// RVA: 0x18024E0 Offset: 0x1800AE0 VA: 0x1818024E0
 	internal JsonConverter <GetJsonConverterCreator>b__0(object[] parameters) { }
 
 }
@@ -4388,13 +4388,13 @@ private sealed class JsonTypeReflector.<>c // TypeDefIndex: 6031
 
 	// Methods
 
-	// RVA: 0x18158B0 Offset: 0x1813EB0 VA: 0x1818158B0
+	// RVA: 0x1802CF0 Offset: 0x18012F0 VA: 0x181802CF0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x98C180 Offset: 0x98A780 VA: 0x18098C180
+	// RVA: 0x98C680 Offset: 0x98AC80 VA: 0x18098C680
 	internal Type <GetJsonConverterCreator>b__18_1(object param) { }
 
 }
@@ -4408,31 +4408,31 @@ public class JPropertyDescriptor : PropertyDescriptor // TypeDefIndex: 6038
 
 	// Methods
 
-	// RVA: 0xE361E0 Offset: 0xE347E0 VA: 0x180E361E0
+	// RVA: 0xE36C90 Offset: 0xE35290 VA: 0x180E36C90
 	public void .ctor(string name) { }
 
-	// RVA: 0xE35DB0 Offset: 0xE343B0 VA: 0x180E35DB0
+	// RVA: 0xE36860 Offset: 0xE34E60 VA: 0x180E36860
 	private static JObject CastInstance(object instance) { }
 
-	// RVA: 0xE35E30 Offset: 0xE34430 VA: 0x180E35E30 Slot: 17
+	// RVA: 0xE368E0 Offset: 0xE34EE0 VA: 0x180E368E0 Slot: 17
 	public override object GetValue(object component) { }
 
-	// RVA: 0xE35F50 Offset: 0xE34550 VA: 0x180E35F50 Slot: 19
+	// RVA: 0xE36A00 Offset: 0xE35000 VA: 0x180E36A00 Slot: 19
 	public override void SetValue(object component, object value) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 20
 	public override bool ShouldSerializeValue(object component) { }
 
-	// RVA: 0xE361F0 Offset: 0xE347F0 VA: 0x180E361F0 Slot: 13
+	// RVA: 0xE36CA0 Offset: 0xE352A0 VA: 0x180E36CA0 Slot: 13
 	public override Type get_ComponentType() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 15
 	public override bool get_IsReadOnly() { }
 
-	// RVA: 0xE36250 Offset: 0xE34850 VA: 0x180E36250 Slot: 16
+	// RVA: 0xE36D00 Offset: 0xE35300 VA: 0x180E36D00 Slot: 16
 	public override Type get_PropertyType() { }
 
-	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0 Slot: 8
+	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760 Slot: 8
 	protected override int get_NameHashCode() { }
 
 }
@@ -4447,49 +4447,49 @@ internal class JPropertyKeyedCollection : Collection<JToken> // TypeDefIndex: 60
 
 	// Methods
 
-	// RVA: 0xE36EA0 Offset: 0xE354A0 VA: 0x180E36EA0
+	// RVA: 0xE37950 Offset: 0xE35F50 VA: 0x180E37950
 	public void .ctor() { }
 
-	// RVA: 0xE362B0 Offset: 0xE348B0 VA: 0x180E362B0
+	// RVA: 0xE36D60 Offset: 0xE35360 VA: 0x180E36D60
 	private void AddKey(string key, JToken item) { }
 
-	// RVA: 0xE36320 Offset: 0xE34920 VA: 0x180E36320 Slot: 34
+	// RVA: 0xE36DD0 Offset: 0xE353D0 VA: 0x180E36DD0 Slot: 34
 	protected override void ClearItems() { }
 
-	// RVA: 0xE36700 Offset: 0xE34D00 VA: 0x180E36700
+	// RVA: 0xE371B0 Offset: 0xE357B0 VA: 0x180E371B0
 	public bool Contains(string key) { }
 
-	// RVA: 0xE36790 Offset: 0xE34D90 VA: 0x180E36790
+	// RVA: 0xE37240 Offset: 0xE35840 VA: 0x180E37240
 	private void EnsureDictionary() { }
 
-	// RVA: 0xE36840 Offset: 0xE34E40 VA: 0x180E36840
+	// RVA: 0xE372F0 Offset: 0xE358F0 VA: 0x180E372F0
 	private string GetKeyForItem(JToken item) { }
 
-	// RVA: 0xE369A0 Offset: 0xE34FA0 VA: 0x180E369A0 Slot: 35
+	// RVA: 0xE37450 Offset: 0xE35A50 VA: 0x180E37450 Slot: 35
 	protected override void InsertItem(int index, JToken item) { }
 
-	// RVA: 0xE36A60 Offset: 0xE35060 VA: 0x180E36A60 Slot: 36
+	// RVA: 0xE37510 Offset: 0xE35B10 VA: 0x180E37510 Slot: 36
 	protected override void RemoveItem(int index) { }
 
-	// RVA: 0xE36B20 Offset: 0xE35120 VA: 0x180E36B20
+	// RVA: 0xE375D0 Offset: 0xE35BD0 VA: 0x180E375D0
 	private void RemoveKey(string key) { }
 
-	// RVA: 0xE36B70 Offset: 0xE35170 VA: 0x180E36B70 Slot: 37
+	// RVA: 0xE37620 Offset: 0xE35C20 VA: 0x180E37620 Slot: 37
 	protected override void SetItem(int index, JToken item) { }
 
-	// RVA: 0xE36D70 Offset: 0xE35370 VA: 0x180E36D70
+	// RVA: 0xE37820 Offset: 0xE35E20 VA: 0x180E37820
 	public bool TryGetValue(string key, out JToken value) { }
 
-	// RVA: 0xE36F10 Offset: 0xE35510 VA: 0x180E36F10
+	// RVA: 0xE379C0 Offset: 0xE35FC0 VA: 0x180E379C0
 	public ICollection<string> get_Keys() { }
 
-	// RVA: 0xE36900 Offset: 0xE34F00 VA: 0x180E36900
+	// RVA: 0xE373B0 Offset: 0xE359B0 VA: 0x180E373B0
 	public int IndexOfReference(JToken t) { }
 
-	// RVA: 0xE36380 Offset: 0xE34980 VA: 0x180E36380
+	// RVA: 0xE36E30 Offset: 0xE35430 VA: 0x180E36E30
 	public bool Compare(JPropertyKeyedCollection other) { }
 
-	// RVA: 0xE36DF0 Offset: 0xE353F0 VA: 0x180E36DF0
+	// RVA: 0xE378A0 Offset: 0xE35EA0 VA: 0x180E378A0
 	private static void .cctor() { }
 
 }
@@ -4508,7 +4508,7 @@ public class JsonLoadSettings // TypeDefIndex: 6040
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public CommentHandling get_CommentHandling() { }
 
-	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0
+	// RVA: 0x57C960 Offset: 0x57AF60 VA: 0x18057C960
 	public LineInfoHandling get_LineInfoHandling() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -4531,10 +4531,10 @@ public class JTokenEqualityComparer : IEqualityComparer<JToken> // TypeDefIndex:
 public class JTokenEqualityComparer : IEqualityComparer<JToken> // TypeDefIndex: 6046
 	// Methods
 
-	// RVA: 0xE385C0 Offset: 0xE36BC0 VA: 0x180E385C0 Slot: 4
+	// RVA: 0xE39070 Offset: 0xE37670 VA: 0x180E39070 Slot: 4
 	public bool Equals(JToken x, JToken y) { }
 
-	// RVA: 0xE38660 Offset: 0xE36C60 VA: 0x180E38660 Slot: 5
+	// RVA: 0xE39110 Offset: 0xE37710 VA: 0x180E39110 Slot: 5
 	public int GetHashCode(JToken obj) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -4559,40 +4559,40 @@ public class JConstructor : JContainer // TypeDefIndex: 6056
 
 	// Methods
 
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870 Slot: 45
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800 Slot: 45
 	protected override IList<JToken> get_ChildrenTokens() { }
 
-	// RVA: 0xE30ED0 Offset: 0xE2F4D0 VA: 0x180E30ED0 Slot: 47
+	// RVA: 0xE31980 Offset: 0xE2FF80 VA: 0x180E31980 Slot: 47
 	internal override int IndexOfItem(JToken item) { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	public string get_Name() { }
 
-	// RVA: 0xAC2060 Offset: 0xAC0660 VA: 0x180AC2060 Slot: 12
+	// RVA: 0xAC2530 Offset: 0xAC0B30 VA: 0x180AC2530 Slot: 12
 	public override JTokenType get_Type() { }
 
-	// RVA: 0xE31300 Offset: 0xE2F900 VA: 0x180E31300
+	// RVA: 0xE31DB0 Offset: 0xE303B0 VA: 0x180E31DB0
 	public void .ctor() { }
 
-	// RVA: 0xE314F0 Offset: 0xE2FAF0 VA: 0x180E314F0
+	// RVA: 0xE31FA0 Offset: 0xE305A0 VA: 0x180E31FA0
 	public void .ctor(JConstructor other) { }
 
-	// RVA: 0xE313B0 Offset: 0xE2F9B0 VA: 0x180E313B0
+	// RVA: 0xE31E60 Offset: 0xE30460 VA: 0x180E31E60
 	public void .ctor(string name) { }
 
-	// RVA: 0xE30CC0 Offset: 0xE2F2C0 VA: 0x180E30CC0 Slot: 11
+	// RVA: 0xE31770 Offset: 0xE2FD70 VA: 0x180E31770 Slot: 11
 	internal override bool DeepEquals(JToken node) { }
 
-	// RVA: 0xE30C00 Offset: 0xE2F200 VA: 0x180E30C00 Slot: 10
+	// RVA: 0xE316B0 Offset: 0xE2FCB0 VA: 0x180E316B0 Slot: 10
 	internal override JToken CloneToken() { }
 
-	// RVA: 0xE31110 Offset: 0xE2F710 VA: 0x180E31110 Slot: 17
+	// RVA: 0xE31BC0 Offset: 0xE301C0 VA: 0x180E31BC0 Slot: 17
 	public override void WriteTo(JsonWriter writer, JsonConverter[] converters) { }
 
-	// RVA: 0xE30E80 Offset: 0xE2F480 VA: 0x180E30E80 Slot: 18
+	// RVA: 0xE31930 Offset: 0xE2FF30 VA: 0x180E31930 Slot: 18
 	internal override int GetDeepHashCode() { }
 
-	// RVA: 0xE30F20 Offset: 0xE2F520 VA: 0x180E30F20
+	// RVA: 0xE319D0 Offset: 0xE2FFD0 VA: 0x180E319D0
 	public static JConstructor Load(JsonReader reader, JsonLoadSettings settings) { }
 
 }
@@ -4621,148 +4621,148 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	// RVA: -1 Offset: -1 Slot: 45
 	protected abstract IList<JToken> get_ChildrenTokens();
 
-	// RVA: 0xE33EF0 Offset: 0xE324F0 VA: 0x180E33EF0
+	// RVA: 0xE349A0 Offset: 0xE32FA0 VA: 0x180E349A0
 	internal void .ctor() { }
 
-	// RVA: 0xE33F50 Offset: 0xE32550 VA: 0x180E33F50
+	// RVA: 0xE34A00 Offset: 0xE33000 VA: 0x180E34A00
 	internal void .ctor(JContainer other) { }
 
-	// RVA: 0xE319A0 Offset: 0xE2FFA0 VA: 0x180E319A0
+	// RVA: 0xE32450 Offset: 0xE30A50 VA: 0x180E32450
 	internal void CheckReentrancy() { }
 
-	// RVA: 0xE328E0 Offset: 0xE30EE0 VA: 0x180E328E0 Slot: 46
+	// RVA: 0xE33390 Offset: 0xE31990 VA: 0x180E33390 Slot: 46
 	protected virtual void OnListChanged(ListChangedEventArgs e) { }
 
-	// RVA: 0xE34220 Offset: 0xE32820 VA: 0x180E34220 Slot: 13
+	// RVA: 0xE34CD0 Offset: 0xE332D0 VA: 0x180E34CD0 Slot: 13
 	public override bool get_HasValues() { }
 
-	// RVA: 0xE31D00 Offset: 0xE30300 VA: 0x180E31D00
+	// RVA: 0xE327B0 Offset: 0xE30DB0 VA: 0x180E327B0
 	internal bool ContentsEqual(JContainer container) { }
 
-	// RVA: 0xE341A0 Offset: 0xE327A0 VA: 0x180E341A0 Slot: 14
+	// RVA: 0xE34C50 Offset: 0xE33250 VA: 0x180E34C50 Slot: 14
 	public override JToken get_First() { }
 
-	// RVA: 0xE34280 Offset: 0xE32880 VA: 0x180E34280 Slot: 15
+	// RVA: 0xE34D30 Offset: 0xE33330 VA: 0x180E34D30 Slot: 15
 	public override JToken get_Last() { }
 
-	// RVA: 0xE31A50 Offset: 0xE30050 VA: 0x180E31A50 Slot: 16
+	// RVA: 0xE32500 Offset: 0xE30B00 VA: 0x180E32500 Slot: 16
 	public override JEnumerable<JToken> Children() { }
 
-	// RVA: 0xE32750 Offset: 0xE30D50 VA: 0x180E32750
+	// RVA: 0xE33200 Offset: 0xE31800 VA: 0x180E33200
 	internal bool IsMultiContent(object content) { }
 
-	// RVA: 0xE32330 Offset: 0xE30930 VA: 0x180E32330
+	// RVA: 0xE32DE0 Offset: 0xE313E0 VA: 0x180E32DE0
 	internal JToken EnsureParentToken(JToken item, bool skipParentCheck) { }
 
 	// RVA: -1 Offset: -1 Slot: 47
 	internal abstract int IndexOfItem(JToken item);
 
-	// RVA: 0xE324E0 Offset: 0xE30AE0 VA: 0x180E324E0 Slot: 48
+	// RVA: 0xE32F90 Offset: 0xE31590 VA: 0x180E32F90 Slot: 48
 	internal virtual void InsertItem(int index, JToken item, bool skipParentCheck) { }
 
-	// RVA: 0xE33210 Offset: 0xE31810 VA: 0x180E33210 Slot: 49
+	// RVA: 0xE33CC0 Offset: 0xE322C0 VA: 0x180E33CC0 Slot: 49
 	internal virtual void RemoveItemAt(int index) { }
 
-	// RVA: 0xE334B0 Offset: 0xE31AB0 VA: 0x180E334B0 Slot: 50
+	// RVA: 0xE33F60 Offset: 0xE32560 VA: 0x180E33F60 Slot: 50
 	internal virtual bool RemoveItem(JToken item) { }
 
-	// RVA: 0xE32470 Offset: 0xE30A70 VA: 0x180E32470 Slot: 51
+	// RVA: 0xE32F20 Offset: 0xE31520 VA: 0x180E32F20 Slot: 51
 	internal virtual JToken GetItem(int index) { }
 
-	// RVA: 0xE33550 Offset: 0xE31B50 VA: 0x180E33550 Slot: 52
+	// RVA: 0xE34000 Offset: 0xE32600 VA: 0x180E34000 Slot: 52
 	internal virtual void SetItem(int index, JToken item) { }
 
-	// RVA: 0xE31AB0 Offset: 0xE300B0 VA: 0x180E31AB0 Slot: 53
+	// RVA: 0xE32560 Offset: 0xE30B60 VA: 0x180E32560 Slot: 53
 	internal virtual void ClearItems() { }
 
-	// RVA: 0xE33500 Offset: 0xE31B00 VA: 0x180E33500 Slot: 54
+	// RVA: 0xE33FB0 Offset: 0xE325B0 VA: 0x180E33FB0 Slot: 54
 	internal virtual void ReplaceItem(JToken existing, JToken replacement) { }
 
-	// RVA: 0xE31CE0 Offset: 0xE302E0 VA: 0x180E31CE0 Slot: 55
+	// RVA: 0xE32790 Offset: 0xE30D90 VA: 0x180E32790 Slot: 55
 	internal virtual bool ContainsItem(JToken item) { }
 
-	// RVA: 0xE32010 Offset: 0xE30610 VA: 0x180E32010 Slot: 56
+	// RVA: 0xE32AC0 Offset: 0xE310C0 VA: 0x180E32AC0 Slot: 56
 	internal virtual void CopyItemsTo(Array array, int arrayIndex) { }
 
-	// RVA: 0xE32800 Offset: 0xE30E00 VA: 0x180E32800
+	// RVA: 0xE332B0 Offset: 0xE318B0 VA: 0x180E332B0
 	internal static bool IsTokenUnchanged(JToken currentValue, JToken newValue) { }
 
-	// RVA: 0xE33DE0 Offset: 0xE323E0 VA: 0x180E33DE0 Slot: 57
+	// RVA: 0xE34890 Offset: 0xE32E90 VA: 0x180E34890 Slot: 57
 	internal virtual void ValidateToken(JToken o, JToken existing) { }
 
-	// RVA: 0xE31920 Offset: 0xE2FF20 VA: 0x180E31920 Slot: 58
+	// RVA: 0xE323D0 Offset: 0xE309D0 VA: 0x180E323D0 Slot: 58
 	public virtual void Add(object content) { }
 
-	// RVA: 0xE31590 Offset: 0xE2FB90 VA: 0x180E31590
+	// RVA: 0xE32040 Offset: 0xE30640 VA: 0x180E32040
 	internal void AddAndSkipParentCheck(JToken token) { }
 
-	// RVA: 0xE31610 Offset: 0xE2FC10 VA: 0x180E31610
+	// RVA: 0xE320C0 Offset: 0xE306C0 VA: 0x180E320C0
 	internal void AddInternal(int index, object content, bool skipParentCheck) { }
 
-	// RVA: 0xE32280 Offset: 0xE30880 VA: 0x180E32280
+	// RVA: 0xE32D30 Offset: 0xE31330 VA: 0x180E32D30
 	internal static JToken CreateFromContent(object content) { }
 
-	// RVA: 0xE30310 Offset: 0xE2E910 VA: 0x180E30310
+	// RVA: 0xE30DC0 Offset: 0xE2F3C0 VA: 0x180E30DC0
 	public void RemoveAll() { }
 
-	// RVA: 0xE33060 Offset: 0xE31660 VA: 0x180E33060
+	// RVA: 0xE33B10 Offset: 0xE32110 VA: 0x180E33B10
 	internal void ReadTokenFrom(JsonReader reader, JsonLoadSettings options) { }
 
-	// RVA: 0xE32980 Offset: 0xE30F80 VA: 0x180E32980
+	// RVA: 0xE33430 Offset: 0xE31A30 VA: 0x180E33430
 	internal void ReadContentFrom(JsonReader r, JsonLoadSettings settings) { }
 
-	// RVA: 0xE31E40 Offset: 0xE30440 VA: 0x180E31E40
+	// RVA: 0xE328F0 Offset: 0xE30EF0 VA: 0x180E328F0
 	internal int ContentsHashCode() { }
 
-	// RVA: 0xE30680 Offset: 0xE2EC80 VA: 0x180E30680 Slot: 21
+	// RVA: 0xE31130 Offset: 0xE2F730 VA: 0x180E31130 Slot: 21
 	private int System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.IndexOf(JToken item) { }
 
-	// RVA: 0xE306A0 Offset: 0xE2ECA0 VA: 0x180E306A0 Slot: 22
+	// RVA: 0xE31150 Offset: 0xE2F750 VA: 0x180E31150 Slot: 22
 	private void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.Insert(int index, JToken item) { }
 
-	// RVA: 0xE30880 Offset: 0xE2EE80 VA: 0x180E30880 Slot: 23
+	// RVA: 0xE31330 Offset: 0xE2F930 VA: 0x180E31330 Slot: 23
 	private void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.RemoveAt(int index) { }
 
-	// RVA: 0xE30BC0 Offset: 0xE2F1C0 VA: 0x180E30BC0 Slot: 19
+	// RVA: 0xE31670 Offset: 0xE2FC70 VA: 0x180E31670 Slot: 19
 	private JToken System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.get_Item(int index) { }
 
-	// RVA: 0xE30BE0 Offset: 0xE2F1E0 VA: 0x180E30BE0 Slot: 20
+	// RVA: 0xE31690 Offset: 0xE2FC90 VA: 0x180E31690 Slot: 20
 	private void System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.set_Item(int index, JToken value) { }
 
-	// RVA: 0xE302F0 Offset: 0xE2E8F0 VA: 0x180E302F0 Slot: 26
+	// RVA: 0xE30DA0 Offset: 0xE2F3A0 VA: 0x180E30DA0 Slot: 26
 	private void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Add(JToken item) { }
 
-	// RVA: 0xE30310 Offset: 0xE2E910 VA: 0x180E30310 Slot: 27
+	// RVA: 0xE30DC0 Offset: 0xE2F3C0 VA: 0x180E30DC0 Slot: 27
 	private void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Clear() { }
 
-	// RVA: 0xE303E0 Offset: 0xE2E9E0 VA: 0x180E303E0 Slot: 28
+	// RVA: 0xE30E90 Offset: 0xE2F490 VA: 0x180E30E90 Slot: 28
 	private bool System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Contains(JToken item) { }
 
-	// RVA: 0xE30400 Offset: 0xE2EA00 VA: 0x180E30400 Slot: 29
+	// RVA: 0xE30EB0 Offset: 0xE2F4B0 VA: 0x180E30EB0 Slot: 29
 	private void System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.CopyTo(JToken[] array, int arrayIndex) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 25
 	private bool System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.get_IsReadOnly() { }
 
-	// RVA: 0xE308A0 Offset: 0xE2EEA0 VA: 0x180E308A0 Slot: 30
+	// RVA: 0xE31350 Offset: 0xE2F950 VA: 0x180E31350 Slot: 30
 	private bool System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Remove(JToken item) { }
 
-	// RVA: 0xE323D0 Offset: 0xE309D0 VA: 0x180E323D0
+	// RVA: 0xE32E80 Offset: 0xE31480 VA: 0x180E32E80
 	private JToken EnsureValue(object value) { }
 
-	// RVA: 0xE338E0 Offset: 0xE31EE0 VA: 0x180E338E0 Slot: 33
+	// RVA: 0xE34390 Offset: 0xE32990 VA: 0x180E34390 Slot: 33
 	private int System.Collections.IList.Add(object value) { }
 
-	// RVA: 0xE30310 Offset: 0xE2E910 VA: 0x180E30310 Slot: 35
+	// RVA: 0xE30DC0 Offset: 0xE2F3C0 VA: 0x180E30DC0 Slot: 35
 	private void System.Collections.IList.Clear() { }
 
-	// RVA: 0xE339F0 Offset: 0xE31FF0 VA: 0x180E339F0 Slot: 34
+	// RVA: 0xE344A0 Offset: 0xE32AA0 VA: 0x180E344A0 Slot: 34
 	private bool System.Collections.IList.Contains(object value) { }
 
-	// RVA: 0xE33AB0 Offset: 0xE320B0 VA: 0x180E33AB0 Slot: 38
+	// RVA: 0xE34560 Offset: 0xE32B60 VA: 0x180E34560 Slot: 38
 	private int System.Collections.IList.IndexOf(object value) { }
 
-	// RVA: 0xE33B70 Offset: 0xE32170 VA: 0x180E33B70 Slot: 39
+	// RVA: 0xE34620 Offset: 0xE32C20 VA: 0x180E34620 Slot: 39
 	private void System.Collections.IList.Insert(int index, object value) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 37
@@ -4771,25 +4771,25 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 36
 	private bool System.Collections.IList.get_IsReadOnly() { }
 
-	// RVA: 0xE33C50 Offset: 0xE32250 VA: 0x180E33C50 Slot: 40
+	// RVA: 0xE34700 Offset: 0xE32D00 VA: 0x180E34700 Slot: 40
 	private void System.Collections.IList.Remove(object value) { }
 
-	// RVA: 0xE30880 Offset: 0xE2EE80 VA: 0x180E30880 Slot: 41
+	// RVA: 0xE31330 Offset: 0xE2F930 VA: 0x180E31330 Slot: 41
 	private void System.Collections.IList.RemoveAt(int index) { }
 
-	// RVA: 0xE30BC0 Offset: 0xE2F1C0 VA: 0x180E30BC0 Slot: 31
+	// RVA: 0xE31670 Offset: 0xE2FC70 VA: 0x180E31670 Slot: 31
 	private object System.Collections.IList.get_Item(int index) { }
 
-	// RVA: 0xE33D10 Offset: 0xE32310 VA: 0x180E33D10 Slot: 32
+	// RVA: 0xE347C0 Offset: 0xE32DC0 VA: 0x180E347C0 Slot: 32
 	private void System.Collections.IList.set_Item(int index, object value) { }
 
-	// RVA: 0xE30400 Offset: 0xE2EA00 VA: 0x180E30400 Slot: 42
+	// RVA: 0xE30EB0 Offset: 0xE2F4B0 VA: 0x180E30EB0 Slot: 42
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 
-	// RVA: 0xE34140 Offset: 0xE32740 VA: 0x180E34140 Slot: 43
+	// RVA: 0xE34BF0 Offset: 0xE331F0 VA: 0x180E34BF0 Slot: 43
 	public int get_Count() { }
 
-	// RVA: 0xE33870 Offset: 0xE31E70 VA: 0x180E33870 Slot: 44
+	// RVA: 0xE34320 Offset: 0xE32920 VA: 0x180E34320 Slot: 44
 	private object System.Collections.ICollection.get_SyncRoot() { }
 
 }
@@ -4812,129 +4812,129 @@ public class JObject : JContainer, IDictionary<string, JToken>, ICollection<KeyV
 
 	// Methods
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450 Slot: 45
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0 Slot: 45
 	protected override IList<JToken> get_ChildrenTokens() { }
 
-	// RVA: 0xE35B10 Offset: 0xE34110 VA: 0x180E35B10
+	// RVA: 0xE365C0 Offset: 0xE34BC0 VA: 0x180E365C0
 	public void .ctor() { }
 
-	// RVA: 0xE35A50 Offset: 0xE34050 VA: 0x180E35A50
+	// RVA: 0xE36500 Offset: 0xE34B00 VA: 0x180E36500
 	public void .ctor(JObject other) { }
 
-	// RVA: 0xE34480 Offset: 0xE32A80 VA: 0x180E34480 Slot: 11
+	// RVA: 0xE34F30 Offset: 0xE33530 VA: 0x180E34F30 Slot: 11
 	internal override bool DeepEquals(JToken node) { }
 
-	// RVA: 0xE34590 Offset: 0xE32B90 VA: 0x180E34590 Slot: 47
+	// RVA: 0xE35040 Offset: 0xE33640 VA: 0x180E35040 Slot: 47
 	internal override int IndexOfItem(JToken item) { }
 
-	// RVA: 0xE34630 Offset: 0xE32C30 VA: 0x180E34630 Slot: 48
+	// RVA: 0xE350E0 Offset: 0xE336E0 VA: 0x180E350E0 Slot: 48
 	internal override void InsertItem(int index, JToken item, bool skipParentCheck) { }
 
-	// RVA: 0xE35690 Offset: 0xE33C90 VA: 0x180E35690 Slot: 57
+	// RVA: 0xE36140 Offset: 0xE34740 VA: 0x180E36140 Slot: 57
 	internal override void ValidateToken(JToken o, JToken existing) { }
 
-	// RVA: 0xE346A0 Offset: 0xE32CA0 VA: 0x180E346A0
+	// RVA: 0xE35150 Offset: 0xE33750 VA: 0x180E35150
 	internal void InternalPropertyChanged(JProperty childProperty) { }
 
-	// RVA: 0xE34760 Offset: 0xE32D60 VA: 0x180E34760
+	// RVA: 0xE35210 Offset: 0xE33810 VA: 0x180E35210
 	internal void InternalPropertyChanging(JProperty childProperty) { }
 
-	// RVA: 0xE34390 Offset: 0xE32990 VA: 0x180E34390 Slot: 10
+	// RVA: 0xE34E40 Offset: 0xE33440 VA: 0x180E34E40 Slot: 10
 	internal override JToken CloneToken() { }
 
-	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 12
+	// RVA: 0x5B1870 Offset: 0x5AFE70 VA: 0x1805B1870 Slot: 12
 	public override JTokenType get_Type() { }
 
-	// RVA: 0xE34A80 Offset: 0xE33080 VA: 0x180E34A80
+	// RVA: 0xE35530 Offset: 0xE33B30 VA: 0x180E35530
 	public JProperty Property(string name) { }
 
-	// RVA: 0xE35C00 Offset: 0xE34200 VA: 0x180E35C00 Slot: 59
+	// RVA: 0xE366B0 Offset: 0xE34CB0 VA: 0x180E366B0 Slot: 59
 	public JToken get_Item(string propertyName) { }
 
-	// RVA: 0xE35C80 Offset: 0xE34280 VA: 0x180E35C80 Slot: 60
+	// RVA: 0xE36730 Offset: 0xE34D30 VA: 0x180E36730 Slot: 60
 	public void set_Item(string propertyName, JToken value) { }
 
-	// RVA: 0xE34950 Offset: 0xE32F50 VA: 0x180E34950
+	// RVA: 0xE35400 Offset: 0xE33A00 VA: 0x180E35400
 	public static JObject Load(JsonReader reader) { }
 
-	// RVA: 0xE34790 Offset: 0xE32D90 VA: 0x180E34790
+	// RVA: 0xE35240 Offset: 0xE33840 VA: 0x180E35240
 	public static JObject Load(JsonReader reader, JsonLoadSettings settings) { }
 
-	// RVA: 0xE35950 Offset: 0xE33F50 VA: 0x180E35950 Slot: 17
+	// RVA: 0xE36400 Offset: 0xE34A00 VA: 0x180E36400 Slot: 17
 	public override void WriteTo(JsonWriter writer, JsonConverter[] converters) { }
 
-	// RVA: 0xE34300 Offset: 0xE32900 VA: 0x180E34300 Slot: 64
+	// RVA: 0xE34DB0 Offset: 0xE333B0 VA: 0x180E34DB0 Slot: 64
 	public void Add(string propertyName, JToken value) { }
 
-	// RVA: 0xE35160 Offset: 0xE33760 VA: 0x180E35160 Slot: 63
+	// RVA: 0xE35C10 Offset: 0xE34210 VA: 0x180E35C10 Slot: 63
 	private bool System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.ContainsKey(string key) { }
 
-	// RVA: 0xE35200 Offset: 0xE33800 VA: 0x180E35200 Slot: 61
+	// RVA: 0xE35CB0 Offset: 0xE342B0 VA: 0x180E35CB0 Slot: 61
 	private ICollection<string> System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Keys() { }
 
-	// RVA: 0xE34B90 Offset: 0xE33190 VA: 0x180E34B90 Slot: 65
+	// RVA: 0xE35640 Offset: 0xE33C40 VA: 0x180E35640 Slot: 65
 	public bool Remove(string propertyName) { }
 
-	// RVA: 0xE35630 Offset: 0xE33C30 VA: 0x180E35630 Slot: 66
+	// RVA: 0xE360E0 Offset: 0xE346E0 VA: 0x180E360E0 Slot: 66
 	public bool TryGetValue(string propertyName, out JToken value) { }
 
-	// RVA: 0xE35260 Offset: 0xE33860 VA: 0x180E35260 Slot: 62
+	// RVA: 0xE35D10 Offset: 0xE34310 VA: 0x180E35D10 Slot: 62
 	private ICollection<JToken> System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Values() { }
 
-	// RVA: 0xE34C20 Offset: 0xE33220 VA: 0x180E34C20 Slot: 69
+	// RVA: 0xE356D0 Offset: 0xE33CD0 VA: 0x180E356D0 Slot: 69
 	private void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Add(KeyValuePair<string, JToken> item) { }
 
-	// RVA: 0xE30310 Offset: 0xE2E910 VA: 0x180E30310 Slot: 70
+	// RVA: 0xE30DC0 Offset: 0xE2F3C0 VA: 0x180E30DC0 Slot: 70
 	private void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Clear() { }
 
-	// RVA: 0xE34CA0 Offset: 0xE332A0 VA: 0x180E34CA0 Slot: 71
+	// RVA: 0xE35750 Offset: 0xE33D50 VA: 0x180E35750 Slot: 71
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Contains(KeyValuePair<string, JToken> item) { }
 
-	// RVA: 0xE34D10 Offset: 0xE33310 VA: 0x180E34D10 Slot: 72
+	// RVA: 0xE357C0 Offset: 0xE33DC0 VA: 0x180E357C0 Slot: 72
 	private void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.CopyTo(KeyValuePair<string, JToken>[] array, int arrayIndex) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 68
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_IsReadOnly() { }
 
-	// RVA: 0xE35010 Offset: 0xE33610 VA: 0x180E35010 Slot: 73
+	// RVA: 0xE35AC0 Offset: 0xE340C0 VA: 0x180E35AC0 Slot: 73
 	private bool System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Remove(KeyValuePair<string, JToken> item) { }
 
-	// RVA: 0xE305C0 Offset: 0xE2EBC0 VA: 0x180E305C0 Slot: 18
+	// RVA: 0xE31070 Offset: 0xE2F670 VA: 0x180E31070 Slot: 18
 	internal override int GetDeepHashCode() { }
 
-	// RVA: 0xE34520 Offset: 0xE32B20 VA: 0x180E34520 Slot: 74
+	// RVA: 0xE34FD0 Offset: 0xE335D0 VA: 0x180E34FD0 Slot: 74
 	public IEnumerator<KeyValuePair<string, JToken>> GetEnumerator() { }
 
-	// RVA: 0xE34960 Offset: 0xE32F60 VA: 0x180E34960 Slot: 80
+	// RVA: 0xE35410 Offset: 0xE33A10 VA: 0x180E35410 Slot: 80
 	protected virtual void OnPropertyChanged(string propertyName) { }
 
-	// RVA: 0xE349F0 Offset: 0xE32FF0 VA: 0x180E349F0 Slot: 81
+	// RVA: 0xE354A0 Offset: 0xE33AA0 VA: 0x180E354A0 Slot: 81
 	protected virtual void OnPropertyChanging(string propertyName) { }
 
-	// RVA: 0xE35580 Offset: 0xE33B80 VA: 0x180E35580 Slot: 77
+	// RVA: 0xE36030 Offset: 0xE34630 VA: 0x180E36030 Slot: 77
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties() { }
 
-	// RVA: 0xE35360 Offset: 0xE33960 VA: 0x180E35360 Slot: 78
+	// RVA: 0xE35E10 Offset: 0xE34410 VA: 0x180E35E10 Slot: 78
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties(Attribute[] attributes) { }
 
-	// RVA: 0xE352B0 Offset: 0xE338B0 VA: 0x180E352B0 Slot: 75
+	// RVA: 0xE35D60 Offset: 0xE34360 VA: 0x180E35D60 Slot: 75
 	private AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes() { }
 
-	// RVA: 0xE35310 Offset: 0xE33910 VA: 0x180E35310 Slot: 76
+	// RVA: 0xE35DC0 Offset: 0xE343C0 VA: 0x180E35DC0 Slot: 76
 	private TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 79
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 79
 	private object System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(PropertyDescriptor pd) { }
 
 }
 
 private sealed class JObject.<>c // TypeDefIndex: 6061
 {	// Fields
-	public static readonly JObject.<>c <>9; // 0x35C6
+	public static readonly JObject.<>c <>9; // 0x3370
 
 	// Methods
 
-	// RVA: 0xE4D000 Offset: 0xE4B600 VA: 0x180E4D000
+	// RVA: 0xE4DAB0 Offset: 0xE4C0B0 VA: 0x180E4DAB0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -4960,25 +4960,25 @@ private sealed class JObject.<GetEnumerator>d__58 : IEnumerator<KeyValuePair<str
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE4CEA0 Offset: 0xE4B4A0 VA: 0x180E4CEA0 Slot: 5
+	// RVA: 0xE4D950 Offset: 0xE4BF50 VA: 0x180E4D950 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xE4CBF0 Offset: 0xE4B1F0 VA: 0x180E4CBF0 Slot: 6
+	// RVA: 0xE4D6A0 Offset: 0xE4BCA0 VA: 0x180E4D6A0 Slot: 6
 	private bool MoveNext() { }
 
-	// RVA: 0xE4CF50 Offset: 0xE4B550 VA: 0x180E4CF50
+	// RVA: 0xE4DA00 Offset: 0xE4C000 VA: 0x180E4DA00
 	private void <>m__Finally1() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB114F0 Offset: 0xB0FAF0 VA: 0x180B114F0 Slot: 4
+	// RVA: 0xB119C0 Offset: 0xB0FFC0 VA: 0x180B119C0 Slot: 4
 	private KeyValuePair<string, JToken> System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE4CE00 Offset: 0xE4B400 VA: 0x180E4CE00 Slot: 8
+	// RVA: 0xE4D8B0 Offset: 0xE4BEB0 VA: 0x180E4D8B0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE4CE50 Offset: 0xE4B450 VA: 0x180E4CE50 Slot: 7
+	// RVA: 0xE4D900 Offset: 0xE4BF00 VA: 0x180E4D900 Slot: 7
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -4995,76 +4995,76 @@ public class JArray : JContainer, IList<JToken>, ICollection<JToken>, IEnumerabl
 
 	// Methods
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450 Slot: 45
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0 Slot: 45
 	protected override IList<JToken> get_ChildrenTokens() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 12
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 12
 	public override JTokenType get_Type() { }
 
-	// RVA: 0xE309C0 Offset: 0xE2EFC0 VA: 0x180E309C0
+	// RVA: 0xE31470 Offset: 0xE2FA70 VA: 0x180E31470
 	public void .ctor() { }
 
-	// RVA: 0xE30B40 Offset: 0xE2F140 VA: 0x180E30B40
+	// RVA: 0xE315F0 Offset: 0xE2FBF0 VA: 0x180E315F0
 	public void .ctor(JArray other) { }
 
-	// RVA: 0xE30A70 Offset: 0xE2F070 VA: 0x180E30A70
+	// RVA: 0xE31520 Offset: 0xE2FB20 VA: 0x180E31520
 	public void .ctor(object content) { }
 
-	// RVA: 0xE30420 Offset: 0xE2EA20 VA: 0x180E30420 Slot: 11
+	// RVA: 0xE30ED0 Offset: 0xE2F4D0 VA: 0x180E30ED0 Slot: 11
 	internal override bool DeepEquals(JToken node) { }
 
-	// RVA: 0xE30330 Offset: 0xE2E930 VA: 0x180E30330 Slot: 10
+	// RVA: 0xE30DE0 Offset: 0xE2F3E0 VA: 0x180E30DE0 Slot: 10
 	internal override JToken CloneToken() { }
 
-	// RVA: 0xE30870 Offset: 0xE2EE70 VA: 0x180E30870
+	// RVA: 0xE31320 Offset: 0xE2F920 VA: 0x180E31320
 	public static JArray Load(JsonReader reader) { }
 
-	// RVA: 0xE306D0 Offset: 0xE2ECD0 VA: 0x180E306D0
+	// RVA: 0xE31180 Offset: 0xE2F780 VA: 0x180E31180
 	public static JArray Load(JsonReader reader, JsonLoadSettings settings) { }
 
-	// RVA: 0xE308C0 Offset: 0xE2EEC0 VA: 0x180E308C0 Slot: 17
+	// RVA: 0xE31370 Offset: 0xE2F970 VA: 0x180E31370 Slot: 17
 	public override void WriteTo(JsonWriter writer, JsonConverter[] converters) { }
 
-	// RVA: 0xE30BC0 Offset: 0xE2F1C0 VA: 0x180E30BC0 Slot: 19
+	// RVA: 0xE31670 Offset: 0xE2FC70 VA: 0x180E31670 Slot: 19
 	public JToken get_Item(int index) { }
 
-	// RVA: 0xE30BE0 Offset: 0xE2F1E0 VA: 0x180E30BE0 Slot: 20
+	// RVA: 0xE31690 Offset: 0xE2FC90 VA: 0x180E31690 Slot: 20
 	public void set_Item(int index, JToken value) { }
 
-	// RVA: 0xE30630 Offset: 0xE2EC30 VA: 0x180E30630 Slot: 47
+	// RVA: 0xE310E0 Offset: 0xE2F6E0 VA: 0x180E310E0 Slot: 47
 	internal override int IndexOfItem(JToken item) { }
 
-	// RVA: 0xE30680 Offset: 0xE2EC80 VA: 0x180E30680 Slot: 21
+	// RVA: 0xE31130 Offset: 0xE2F730 VA: 0x180E31130 Slot: 21
 	public int IndexOf(JToken item) { }
 
-	// RVA: 0xE306A0 Offset: 0xE2ECA0 VA: 0x180E306A0 Slot: 22
+	// RVA: 0xE31150 Offset: 0xE2F750 VA: 0x180E31150 Slot: 22
 	public void Insert(int index, JToken item) { }
 
-	// RVA: 0xE30880 Offset: 0xE2EE80 VA: 0x180E30880 Slot: 23
+	// RVA: 0xE31330 Offset: 0xE2F930 VA: 0x180E31330 Slot: 23
 	public void RemoveAt(int index) { }
 
-	// RVA: 0xE305D0 Offset: 0xE2EBD0 VA: 0x180E305D0 Slot: 4
+	// RVA: 0xE31080 Offset: 0xE2F680 VA: 0x180E31080 Slot: 4
 	public IEnumerator<JToken> GetEnumerator() { }
 
-	// RVA: 0xE302F0 Offset: 0xE2E8F0 VA: 0x180E302F0 Slot: 26
+	// RVA: 0xE30DA0 Offset: 0xE2F3A0 VA: 0x180E30DA0 Slot: 26
 	public void Add(JToken item) { }
 
-	// RVA: 0xE30310 Offset: 0xE2E910 VA: 0x180E30310 Slot: 27
+	// RVA: 0xE30DC0 Offset: 0xE2F3C0 VA: 0x180E30DC0 Slot: 27
 	public void Clear() { }
 
-	// RVA: 0xE303E0 Offset: 0xE2E9E0 VA: 0x180E303E0 Slot: 28
+	// RVA: 0xE30E90 Offset: 0xE2F490 VA: 0x180E30E90 Slot: 28
 	public bool Contains(JToken item) { }
 
-	// RVA: 0xE30400 Offset: 0xE2EA00 VA: 0x180E30400 Slot: 29
+	// RVA: 0xE30EB0 Offset: 0xE2F4B0 VA: 0x180E30EB0 Slot: 29
 	public void CopyTo(JToken[] array, int arrayIndex) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 25
 	public bool get_IsReadOnly() { }
 
-	// RVA: 0xE308A0 Offset: 0xE2EEA0 VA: 0x180E308A0 Slot: 30
+	// RVA: 0xE31350 Offset: 0xE2F950 VA: 0x180E31350 Slot: 30
 	public bool Remove(JToken item) { }
 
-	// RVA: 0xE305C0 Offset: 0xE2EBC0 VA: 0x180E305C0 Slot: 18
+	// RVA: 0xE31070 Offset: 0xE2F670 VA: 0x180E31070 Slot: 18
 	internal override int GetDeepHashCode() { }
 
 }
@@ -5084,46 +5084,46 @@ public class JTokenReader : JsonReader, IJsonLineInfo // TypeDefIndex: 6064
 
 	// Methods
 
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0
 	public JToken get_CurrentToken() { }
 
-	// RVA: 0xE39AE0 Offset: 0xE380E0 VA: 0x180E39AE0
+	// RVA: 0xE3A590 Offset: 0xE38B90 VA: 0x180E3A590
 	public void .ctor(JToken token) { }
 
-	// RVA: 0xE38AB0 Offset: 0xE370B0 VA: 0x180E38AB0 Slot: 10
+	// RVA: 0xE39560 Offset: 0xE37B60 VA: 0x180E39560 Slot: 10
 	public override bool Read() { }
 
-	// RVA: 0xE38980 Offset: 0xE36F80 VA: 0x180E38980
+	// RVA: 0xE39430 Offset: 0xE37A30 VA: 0x180E39430
 	private bool ReadOver(JToken t) { }
 
-	// RVA: 0xE38A70 Offset: 0xE37070 VA: 0x180E38A70
+	// RVA: 0xE39520 Offset: 0xE37B20 VA: 0x180E39520
 	private bool ReadToEnd() { }
 
-	// RVA: 0xE38680 Offset: 0xE36C80 VA: 0x180E38680
+	// RVA: 0xE39130 Offset: 0xE37730 VA: 0x180E39130
 	private Nullable<JsonToken> GetEndToken(JContainer c) { }
 
-	// RVA: 0xE388E0 Offset: 0xE36EE0 VA: 0x180E388E0
+	// RVA: 0xE39390 Offset: 0xE37990 VA: 0x180E39390
 	private bool ReadInto(JContainer c) { }
 
-	// RVA: 0xE38DF0 Offset: 0xE373F0 VA: 0x180E38DF0
+	// RVA: 0xE398A0 Offset: 0xE37EA0 VA: 0x180E398A0
 	private bool SetEnd(JContainer c) { }
 
-	// RVA: 0xE38F90 Offset: 0xE37590 VA: 0x180E38F90
+	// RVA: 0xE39A40 Offset: 0xE38040 VA: 0x180E39A40
 	private void SetToken(JToken token) { }
 
-	// RVA: 0xE38DD0 Offset: 0xE373D0 VA: 0x180E38DD0
+	// RVA: 0xE39880 Offset: 0xE37E80 VA: 0x180E39880
 	private string SafeToString(object value) { }
 
-	// RVA: 0xE387C0 Offset: 0xE36DC0 VA: 0x180E387C0 Slot: 21
+	// RVA: 0xE39270 Offset: 0xE37870 VA: 0x180E39270 Slot: 21
 	private bool Newtonsoft.Json.IJsonLineInfo.HasLineInfo() { }
 
-	// RVA: 0xE38820 Offset: 0xE36E20 VA: 0x180E38820 Slot: 22
+	// RVA: 0xE392D0 Offset: 0xE378D0 VA: 0x180E392D0 Slot: 22
 	private int Newtonsoft.Json.IJsonLineInfo.get_LineNumber() { }
 
-	// RVA: 0xE38880 Offset: 0xE36E80 VA: 0x180E38880 Slot: 23
+	// RVA: 0xE39330 Offset: 0xE37930 VA: 0x180E39330 Slot: 23
 	private int Newtonsoft.Json.IJsonLineInfo.get_LinePosition() { }
 
-	// RVA: 0xE39B40 Offset: 0xE38140 VA: 0x180E39B40 Slot: 9
+	// RVA: 0xE3A5F0 Offset: 0xE38BF0 VA: 0x180E3A5F0 Slot: 9
 	public override string get_Path() { }
 
 }
@@ -5140,122 +5140,122 @@ public class JTokenWriter : JsonWriter // TypeDefIndex: 6065
 
 	// Methods
 
-	// RVA: 0xE3B080 Offset: 0xE39680 VA: 0x180E3B080
+	// RVA: 0xE3BB30 Offset: 0xE3A130 VA: 0x180E3BB30
 	public JToken get_Token() { }
 
-	// RVA: 0xE3B010 Offset: 0xE39610 VA: 0x180E3B010
+	// RVA: 0xE3BAC0 Offset: 0xE3A0C0 VA: 0x180E3BAC0
 	public void .ctor() { }
 
-	// RVA: 0xE39E60 Offset: 0xE38460 VA: 0x180E39E60 Slot: 6
+	// RVA: 0xE3A910 Offset: 0xE38F10 VA: 0x180E3A910 Slot: 6
 	public override void Close() { }
 
-	// RVA: 0xE3A290 Offset: 0xE38890 VA: 0x180E3A290 Slot: 7
+	// RVA: 0xE3AD40 Offset: 0xE39340 VA: 0x180E3AD40 Slot: 7
 	public override void WriteStartObject() { }
 
-	// RVA: 0xE39C30 Offset: 0xE38230 VA: 0x180E39C30
+	// RVA: 0xE3A6E0 Offset: 0xE38CE0 VA: 0x180E3A6E0
 	private void AddParent(JContainer container) { }
 
-	// RVA: 0xE39ED0 Offset: 0xE384D0 VA: 0x180E39ED0
+	// RVA: 0xE3A980 Offset: 0xE38F80 VA: 0x180E3A980
 	private void RemoveParent() { }
 
-	// RVA: 0xE3A1A0 Offset: 0xE387A0 VA: 0x180E3A1A0 Slot: 9
+	// RVA: 0xE3AC50 Offset: 0xE39250 VA: 0x180E3AC50 Slot: 9
 	public override void WriteStartArray() { }
 
-	// RVA: 0xE3A210 Offset: 0xE38810 VA: 0x180E3A210 Slot: 11
+	// RVA: 0xE3ACC0 Offset: 0xE392C0 VA: 0x180E3ACC0 Slot: 11
 	public override void WriteStartConstructor(string name) { }
 
-	// RVA: 0xE39ED0 Offset: 0xE384D0 VA: 0x180E39ED0 Slot: 17
+	// RVA: 0xE3A980 Offset: 0xE38F80 VA: 0x180E3A980 Slot: 17
 	protected override void WriteEnd(JsonToken token) { }
 
-	// RVA: 0xE39FE0 Offset: 0xE385E0 VA: 0x180E39FE0 Slot: 13
+	// RVA: 0xE3AA90 Offset: 0xE39090 VA: 0x180E3AA90 Slot: 13
 	public override void WritePropertyName(string name) { }
 
-	// RVA: 0xE39D00 Offset: 0xE38300 VA: 0x180E39D00
+	// RVA: 0xE3A7B0 Offset: 0xE38DB0 VA: 0x180E3A7B0
 	private void AddValue(object value, JsonToken token) { }
 
-	// RVA: 0xE39D90 Offset: 0xE38390 VA: 0x180E39D90
+	// RVA: 0xE3A840 Offset: 0xE38E40 VA: 0x180E3A840
 	internal void AddValue(JValue value, JsonToken token) { }
 
-	// RVA: 0xE3AF00 Offset: 0xE39500 VA: 0x180E3AF00 Slot: 62
+	// RVA: 0xE3B9B0 Offset: 0xE39FB0 VA: 0x180E3B9B0 Slot: 62
 	public override void WriteValue(object value) { }
 
-	// RVA: 0xE39FA0 Offset: 0xE385A0 VA: 0x180E39FA0 Slot: 21
+	// RVA: 0xE3AA50 Offset: 0xE39050 VA: 0x180E3AA50 Slot: 21
 	public override void WriteNull() { }
 
-	// RVA: 0xE3A5A0 Offset: 0xE38BA0 VA: 0x180E3A5A0 Slot: 22
+	// RVA: 0xE3B050 Offset: 0xE39650 VA: 0x180E3B050 Slot: 22
 	public override void WriteUndefined() { }
 
-	// RVA: 0xE3A130 Offset: 0xE38730 VA: 0x180E3A130 Slot: 23
+	// RVA: 0xE3ABE0 Offset: 0xE391E0 VA: 0x180E3ABE0 Slot: 23
 	public override void WriteRaw(string json) { }
 
-	// RVA: 0xE39F50 Offset: 0xE38550 VA: 0x180E39F50 Slot: 63
+	// RVA: 0xE3AA00 Offset: 0xE39000 VA: 0x180E3AA00 Slot: 63
 	public override void WriteComment(string text) { }
 
-	// RVA: 0xE3ABD0 Offset: 0xE391D0 VA: 0x180E3ABD0 Slot: 25
+	// RVA: 0xE3B680 Offset: 0xE39C80 VA: 0x180E3B680 Slot: 25
 	public override void WriteValue(string value) { }
 
-	// RVA: 0xE3ADA0 Offset: 0xE393A0 VA: 0x180E3ADA0 Slot: 26
+	// RVA: 0xE3B850 Offset: 0xE39E50 VA: 0x180E3B850 Slot: 26
 	public override void WriteValue(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE3A8D0 Offset: 0xE38ED0 VA: 0x180E3A8D0 Slot: 27
+	// RVA: 0xE3B380 Offset: 0xE39980 VA: 0x180E3B380 Slot: 27
 	public override void WriteValue(uint value) { }
 
-	// RVA: 0xE3AAD0 Offset: 0xE390D0 VA: 0x180E3AAD0 Slot: 28
+	// RVA: 0xE3B580 Offset: 0xE39B80 VA: 0x180E3B580 Slot: 28
 	public override void WriteValue(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE3AF10 Offset: 0xE39510 VA: 0x180E3AF10 Slot: 29
+	// RVA: 0xE3B9C0 Offset: 0xE39FC0 VA: 0x180E3B9C0 Slot: 29
 	public override void WriteValue(ulong value) { }
 
-	// RVA: 0xE3A7A0 Offset: 0xE38DA0 VA: 0x180E3A7A0 Slot: 30
+	// RVA: 0xE3B250 Offset: 0xE39850 VA: 0x180E3B250 Slot: 30
 	public override void WriteValue(float value) { }
 
-	// RVA: 0xE3ACA0 Offset: 0xE392A0 VA: 0x180E3ACA0 Slot: 31
+	// RVA: 0xE3B750 Offset: 0xE39D50 VA: 0x180E3B750 Slot: 31
 	public override void WriteValue(double value) { }
 
-	// RVA: 0xE3AE20 Offset: 0xE39420 VA: 0x180E3AE20 Slot: 32
+	// RVA: 0xE3B8D0 Offset: 0xE39ED0 VA: 0x180E3B8D0 Slot: 32
 	public override void WriteValue(bool value) { }
 
-	// RVA: 0xE3AF90 Offset: 0xE39590 VA: 0x180E3AF90 Slot: 33
+	// RVA: 0xE3BA40 Offset: 0xE3A040 VA: 0x180E3BA40 Slot: 33
 	public override void WriteValue(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE3AB50 Offset: 0xE39150 VA: 0x180E3AB50 Slot: 34
+	// RVA: 0xE3B600 Offset: 0xE39C00 VA: 0x180E3B600 Slot: 34
 	public override void WriteValue(ushort value) { }
 
-	// RVA: 0xE3A710 Offset: 0xE38D10 VA: 0x180E3A710 Slot: 35
+	// RVA: 0xE3B1C0 Offset: 0xE397C0 VA: 0x180E3B1C0 Slot: 35
 	public override void WriteValue(char value) { }
 
-	// RVA: 0xE3A9D0 Offset: 0xE38FD0 VA: 0x180E3A9D0 Slot: 36
+	// RVA: 0xE3B480 Offset: 0xE39A80 VA: 0x180E3B480 Slot: 36
 	public override void WriteValue(byte value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE3AD20 Offset: 0xE39320 VA: 0x180E3AD20 Slot: 37
+	// RVA: 0xE3B7D0 Offset: 0xE39DD0 VA: 0x180E3B7D0 Slot: 37
 	public override void WriteValue(sbyte value) { }
 
-	// RVA: 0xE3A5E0 Offset: 0xE38BE0 VA: 0x180E3A5E0 Slot: 38
+	// RVA: 0xE3B090 Offset: 0xE39690 VA: 0x180E3B090 Slot: 38
 	public override void WriteValue(Decimal value) { }
 
-	// RVA: 0xE3A660 Offset: 0xE38C60 VA: 0x180E3A660 Slot: 39
+	// RVA: 0xE3B110 Offset: 0xE39710 VA: 0x180E3B110 Slot: 39
 	public override void WriteValue(DateTime value) { }
 
-	// RVA: 0xE3AC20 Offset: 0xE39220 VA: 0x180E3AC20 Slot: 40
+	// RVA: 0xE3B6D0 Offset: 0xE39CD0 VA: 0x180E3B6D0 Slot: 40
 	public override void WriteValue(DateTimeOffset value) { }
 
-	// RVA: 0xE3AEA0 Offset: 0xE394A0 VA: 0x180E3AEA0 Slot: 60
+	// RVA: 0xE3B950 Offset: 0xE39F50 VA: 0x180E3B950 Slot: 60
 	public override void WriteValue(byte[] value) { }
 
-	// RVA: 0xE3AA50 Offset: 0xE39050 VA: 0x180E3AA50 Slot: 42
+	// RVA: 0xE3B500 Offset: 0xE39B00 VA: 0x180E3B500 Slot: 42
 	public override void WriteValue(TimeSpan value) { }
 
-	// RVA: 0xE3A950 Offset: 0xE38F50 VA: 0x180E3A950 Slot: 41
+	// RVA: 0xE3B400 Offset: 0xE39A00 VA: 0x180E3B400 Slot: 41
 	public override void WriteValue(Guid value) { }
 
-	// RVA: 0xE3A820 Offset: 0xE38E20 VA: 0x180E3A820 Slot: 61
+	// RVA: 0xE3B2D0 Offset: 0xE398D0 VA: 0x180E3B2D0 Slot: 61
 	public override void WriteValue(Uri value) { }
 
-	// RVA: 0xE3A300 Offset: 0xE38900 VA: 0x180E3A300 Slot: 16
+	// RVA: 0xE3ADB0 Offset: 0xE393B0 VA: 0x180E3ADB0 Slot: 16
 	internal override void WriteToken(JsonReader reader, bool writeChildren, bool writeDateConstructorAsDate, bool writeComments) { }
 
 }
@@ -5292,13 +5292,13 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	// Methods
 
 	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public JContainer get_Parent() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	internal void set_Parent(JContainer value) { }
 
-	// RVA: 0xE3E0D0 Offset: 0xE3C6D0 VA: 0x180E3E0D0
+	// RVA: 0xE3EB80 Offset: 0xE3D180 VA: 0x180E3EB80
 	public JToken get_Root() { }
 
 	// RVA: -1 Offset: -1 Slot: 10
@@ -5313,7 +5313,7 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	// RVA: -1 Offset: -1 Slot: 13
 	public abstract bool get_HasValues();
 
-	// RVA: 0xE3B470 Offset: 0xE39A70 VA: 0x180E3B470
+	// RVA: 0xE3BF20 Offset: 0xE3A520 VA: 0x180E3BF20
 	public static bool DeepEquals(JToken t1, JToken t2) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -5325,241 +5325,241 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public JToken get_Previous() { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	internal void set_Previous(JToken value) { }
 
-	// RVA: 0xE3DE20 Offset: 0xE3C420 VA: 0x180E3DE20
+	// RVA: 0xE3E8D0 Offset: 0xE3CED0 VA: 0x180E3E8D0
 	public string get_Path() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0xE3DCE0 Offset: 0xE3C2E0 VA: 0x180E3DCE0 Slot: 14
+	// RVA: 0xE3E790 Offset: 0xE3CD90 VA: 0x180E3E790 Slot: 14
 	public virtual JToken get_First() { }
 
-	// RVA: 0xE3DD80 Offset: 0xE3C380 VA: 0x180E3DD80 Slot: 15
+	// RVA: 0xE3E830 Offset: 0xE3CE30 VA: 0x180E3E830 Slot: 15
 	public virtual JToken get_Last() { }
 
-	// RVA: 0xE3B360 Offset: 0xE39960 VA: 0x180E3B360 Slot: 16
+	// RVA: 0xE3BE10 Offset: 0xE3A410 VA: 0x180E3BE10 Slot: 16
 	public virtual JEnumerable<JToken> Children() { }
 
-	// RVA: 0xE3BE80 Offset: 0xE3A480 VA: 0x180E3BE80
+	// RVA: 0xE3C930 Offset: 0xE3AF30 VA: 0x180E3C930
 	public void Remove() { }
 
-	// RVA: 0xE3BF00 Offset: 0xE3A500 VA: 0x180E3BF00
+	// RVA: 0xE3C9B0 Offset: 0xE3AFB0 VA: 0x180E3C9B0
 	public void Replace(JToken value) { }
 
 	// RVA: -1 Offset: -1 Slot: 17
 	public abstract void WriteTo(JsonWriter writer, JsonConverter[] converters);
 
-	// RVA: 0xE3D340 Offset: 0xE3B940 VA: 0x180E3D340 Slot: 3
+	// RVA: 0xE3DDF0 Offset: 0xE3C3F0 VA: 0x180E3DDF0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xE3D150 Offset: 0xE3B750 VA: 0x180E3D150
+	// RVA: 0xE3DC00 Offset: 0xE3C200 VA: 0x180E3DC00
 	public string ToString(Formatting formatting, JsonConverter[] converters) { }
 
-	// RVA: 0xE3B4A0 Offset: 0xE39AA0 VA: 0x180E3B4A0
+	// RVA: 0xE3BF50 Offset: 0xE3A550 VA: 0x180E3BF50
 	private static JValue EnsureValue(JToken value) { }
 
-	// RVA: 0xE3B630 Offset: 0xE39C30 VA: 0x180E3B630
+	// RVA: 0xE3C0E0 Offset: 0xE3A6E0 VA: 0x180E3C0E0
 	private static string GetType(JToken token) { }
 
-	// RVA: 0xE3D390 Offset: 0xE3B990 VA: 0x180E3D390
+	// RVA: 0xE3DE40 Offset: 0xE3C440 VA: 0x180E3DE40
 	private static bool ValidateToken(JToken o, JTokenType[] validTypes, bool nullable) { }
 
-	// RVA: 0xE42DB0 Offset: 0xE413B0 VA: 0x180E42DB0
+	// RVA: 0xE43860 Offset: 0xE41E60 VA: 0x180E43860
 	public static bool op_Explicit(JToken value) { }
 
-	// RVA: 0xE40370 Offset: 0xE3E970 VA: 0x180E40370
+	// RVA: 0xE40E20 Offset: 0xE3F420 VA: 0x180E40E20
 	public static DateTimeOffset op_Explicit(JToken value) { }
 
-	// RVA: 0xE41170 Offset: 0xE3F770 VA: 0x180E41170
+	// RVA: 0xE41C20 Offset: 0xE40220 VA: 0x180E41C20
 	public static Nullable<bool> op_Explicit(JToken value) { }
 
-	// RVA: 0xE3E530 Offset: 0xE3CB30 VA: 0x180E3E530
+	// RVA: 0xE3EFE0 Offset: 0xE3D5E0 VA: 0x180E3EFE0
 	public static long op_Explicit(JToken value) { }
 
-	// RVA: 0xE3E8F0 Offset: 0xE3CEF0 VA: 0x180E3E8F0
+	// RVA: 0xE3F3A0 Offset: 0xE3D9A0 VA: 0x180E3F3A0
 	public static Nullable<DateTime> op_Explicit(JToken value) { }
 
-	// RVA: 0xE41EE0 Offset: 0xE404E0 VA: 0x180E41EE0
+	// RVA: 0xE42990 Offset: 0xE40F90 VA: 0x180E42990
 	public static Nullable<DateTimeOffset> op_Explicit(JToken value) { }
 
-	// RVA: 0xE3F9A0 Offset: 0xE3DFA0 VA: 0x180E3F9A0
+	// RVA: 0xE40450 Offset: 0xE3EA50 VA: 0x180E40450
 	public static Nullable<Decimal> op_Explicit(JToken value) { }
 
-	// RVA: 0xE41C90 Offset: 0xE40290 VA: 0x180E41C90
+	// RVA: 0xE42740 Offset: 0xE40D40 VA: 0x180E42740
 	public static Nullable<double> op_Explicit(JToken value) { }
 
-	// RVA: 0xE3F040 Offset: 0xE3D640 VA: 0x180E3F040
+	// RVA: 0xE3FAF0 Offset: 0xE3E0F0 VA: 0x180E3FAF0
 	public static Nullable<char> op_Explicit(JToken value) { }
 
-	// RVA: 0xE43260 Offset: 0xE41860 VA: 0x180E43260
+	// RVA: 0xE43D10 Offset: 0xE42310 VA: 0x180E43D10
 	public static int op_Explicit(JToken value) { }
 
-	// RVA: 0xE40840 Offset: 0xE3EE40 VA: 0x180E40840
+	// RVA: 0xE412F0 Offset: 0xE3F8F0 VA: 0x180E412F0
 	public static short op_Explicit(JToken value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE424E0 Offset: 0xE40AE0 VA: 0x180E424E0
+	// RVA: 0xE42F90 Offset: 0xE41590 VA: 0x180E42F90
 	public static ushort op_Explicit(JToken value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE3E100 Offset: 0xE3C700 VA: 0x180E3E100
+	// RVA: 0xE3EBB0 Offset: 0xE3D1B0 VA: 0x180E3EBB0
 	public static char op_Explicit(JToken value) { }
 
-	// RVA: 0xE40190 Offset: 0xE3E790 VA: 0x180E40190
+	// RVA: 0xE40C40 Offset: 0xE3F240 VA: 0x180E40C40
 	public static byte op_Explicit(JToken value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE3EE60 Offset: 0xE3D460 VA: 0x180E3EE60
+	// RVA: 0xE3F910 Offset: 0xE3DF10 VA: 0x180E3F910
 	public static sbyte op_Explicit(JToken value) { }
 
-	// RVA: 0xE413C0 Offset: 0xE3F9C0 VA: 0x180E413C0
+	// RVA: 0xE41E70 Offset: 0xE40470 VA: 0x180E41E70
 	public static Nullable<int> op_Explicit(JToken value) { }
 
-	// RVA: 0xE41860 Offset: 0xE3FE60 VA: 0x180E41860
+	// RVA: 0xE42310 Offset: 0xE40910 VA: 0x180E42310
 	public static Nullable<short> op_Explicit(JToken value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE426C0 Offset: 0xE40CC0 VA: 0x180E426C0
+	// RVA: 0xE43170 Offset: 0xE41770 VA: 0x180E43170
 	public static Nullable<ushort> op_Explicit(JToken value) { }
 
-	// RVA: 0xE41610 Offset: 0xE3FC10 VA: 0x180E41610
+	// RVA: 0xE420C0 Offset: 0xE406C0 VA: 0x180E420C0
 	public static Nullable<byte> op_Explicit(JToken value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE40A20 Offset: 0xE3F020 VA: 0x180E40A20
+	// RVA: 0xE414D0 Offset: 0xE3FAD0 VA: 0x180E414D0
 	public static Nullable<sbyte> op_Explicit(JToken value) { }
 
-	// RVA: 0xE422A0 Offset: 0xE408A0 VA: 0x180E422A0
+	// RVA: 0xE42D50 Offset: 0xE41350 VA: 0x180E42D50
 	public static DateTime op_Explicit(JToken value) { }
 
-	// RVA: 0xE3F470 Offset: 0xE3DA70 VA: 0x180E3F470
+	// RVA: 0xE3FF20 Offset: 0xE3E520 VA: 0x180E3FF20
 	public static Nullable<long> op_Explicit(JToken value) { }
 
-	// RVA: 0xE40F20 Offset: 0xE3F520 VA: 0x180E40F20
+	// RVA: 0xE419D0 Offset: 0xE3FFD0 VA: 0x180E419D0
 	public static Nullable<float> op_Explicit(JToken value) { }
 
-	// RVA: 0xE3FC20 Offset: 0xE3E220 VA: 0x180E3FC20
+	// RVA: 0xE406D0 Offset: 0xE3ECD0 VA: 0x180E406D0
 	public static Decimal op_Explicit(JToken value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE42B60 Offset: 0xE41160 VA: 0x180E42B60
+	// RVA: 0xE43610 Offset: 0xE41C10 VA: 0x180E43610
 	public static Nullable<uint> op_Explicit(JToken value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE42910 Offset: 0xE40F10 VA: 0x180E42910
+	// RVA: 0xE433C0 Offset: 0xE419C0 VA: 0x180E433C0
 	public static Nullable<ulong> op_Explicit(JToken value) { }
 
-	// RVA: 0xE3F290 Offset: 0xE3D890 VA: 0x180E3F290
+	// RVA: 0xE3FD40 Offset: 0xE3E340 VA: 0x180E3FD40
 	public static double op_Explicit(JToken value) { }
 
-	// RVA: 0xE41AB0 Offset: 0xE400B0 VA: 0x180E41AB0
+	// RVA: 0xE42560 Offset: 0xE40B60 VA: 0x180E42560
 	public static float op_Explicit(JToken value) { }
 
-	// RVA: 0xE40C70 Offset: 0xE3F270 VA: 0x180E40C70
+	// RVA: 0xE41720 Offset: 0xE3FD20 VA: 0x180E41720
 	public static string op_Explicit(JToken value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE40660 Offset: 0xE3EC60 VA: 0x180E40660
+	// RVA: 0xE41110 Offset: 0xE3F710 VA: 0x180E41110
 	public static uint op_Explicit(JToken value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0xE3E710 Offset: 0xE3CD10 VA: 0x180E3E710
+	// RVA: 0xE3F1C0 Offset: 0xE3D7C0 VA: 0x180E3F1C0
 	public static ulong op_Explicit(JToken value) { }
 
-	// RVA: 0xE42F90 Offset: 0xE41590 VA: 0x180E42F90
+	// RVA: 0xE43A40 Offset: 0xE42040 VA: 0x180E43A40
 	public static Guid op_Explicit(JToken value) { }
 
-	// RVA: 0xE3FE10 Offset: 0xE3E410 VA: 0x180E3FE10
+	// RVA: 0xE408C0 Offset: 0xE3EEC0 VA: 0x180E408C0
 	public static Nullable<Guid> op_Explicit(JToken value) { }
 
-	// RVA: 0xE3E2E0 Offset: 0xE3C8E0 VA: 0x180E3E2E0
+	// RVA: 0xE3ED90 Offset: 0xE3D390 VA: 0x180E3ED90
 	public static TimeSpan op_Explicit(JToken value) { }
 
-	// RVA: 0xE3EBA0 Offset: 0xE3D1A0 VA: 0x180E3EBA0
+	// RVA: 0xE3F650 Offset: 0xE3DC50 VA: 0x180E3F650
 	public static Nullable<TimeSpan> op_Explicit(JToken value) { }
 
-	// RVA: 0xE3F6C0 Offset: 0xE3DCC0 VA: 0x180E3F6C0
+	// RVA: 0xE40170 Offset: 0xE3E770 VA: 0x180E40170
 	public static Uri op_Explicit(JToken value) { }
 
-	// RVA: 0xE3C160 Offset: 0xE3A760 VA: 0x180E3C160 Slot: 5
+	// RVA: 0xE3CC10 Offset: 0xE3B210 VA: 0x180E3CC10 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0xE3C100 Offset: 0xE3A700 VA: 0x180E3C100 Slot: 4
+	// RVA: 0xE3CBB0 Offset: 0xE3B1B0 VA: 0x180E3CBB0 Slot: 4
 	private IEnumerator<JToken> System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator() { }
 
 	// RVA: -1 Offset: -1 Slot: 18
 	internal abstract int GetDeepHashCode();
 
-	// RVA: 0xE3B3C0 Offset: 0xE399C0 VA: 0x180E3B3C0
+	// RVA: 0xE3BE70 Offset: 0xE3A470 VA: 0x180E3BE70
 	public JsonReader CreateReader() { }
 
 	// RVA: -1 Offset: -1
 	public T ToObject<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CFAA0 Offset: 0x5CE0A0 VA: 0x1805CFAA0
+	|-RVA: 0x5CFA30 Offset: 0x5CE030 VA: 0x1805CFA30
 	|-JToken.ToObject<UITwitchTrophy.TrophyPage>
 	|-JToken.ToObject<object>
 	*/
 
-	// RVA: 0xE3C2F0 Offset: 0xE3A8F0 VA: 0x180E3C2F0
+	// RVA: 0xE3CDA0 Offset: 0xE3B3A0 VA: 0x180E3CDA0
 	public object ToObject(Type objectType) { }
 
-	// RVA: 0xE3C1A0 Offset: 0xE3A7A0 VA: 0x180E3C1A0
+	// RVA: 0xE3CC50 Offset: 0xE3B250 VA: 0x180E3CC50
 	public object ToObject(Type objectType, JsonSerializer jsonSerializer) { }
 
-	// RVA: 0xE3BB20 Offset: 0xE3A120 VA: 0x180E3BB20
+	// RVA: 0xE3C5D0 Offset: 0xE3ABD0 VA: 0x180E3C5D0
 	public static JToken ReadFrom(JsonReader reader) { }
 
-	// RVA: 0xE3BB80 Offset: 0xE3A180 VA: 0x180E3BB80
+	// RVA: 0xE3C630 Offset: 0xE3AC30 VA: 0x180E3C630
 	public static JToken ReadFrom(JsonReader reader, JsonLoadSettings settings) { }
 
-	// RVA: 0xE3BAC0 Offset: 0xE3A0C0 VA: 0x180E3BAC0
+	// RVA: 0xE3C570 Offset: 0xE3AB70 VA: 0x180E3C570
 	public static JToken Parse(string json) { }
 
-	// RVA: 0xE3B8F0 Offset: 0xE39EF0 VA: 0x180E3B8F0
+	// RVA: 0xE3C3A0 Offset: 0xE3A9A0 VA: 0x180E3C3A0
 	public static JToken Parse(string json, JsonLoadSettings settings) { }
 
-	// RVA: 0xE3B7A0 Offset: 0xE39DA0 VA: 0x180E3B7A0
+	// RVA: 0xE3C250 Offset: 0xE3A850 VA: 0x180E3C250
 	public static JToken Load(JsonReader reader, JsonLoadSettings settings) { }
 
-	// RVA: 0xE3C010 Offset: 0xE3A610 VA: 0x180E3C010
+	// RVA: 0xE3CAC0 Offset: 0xE3B0C0 VA: 0x180E3CAC0
 	internal void SetLineInfo(IJsonLineInfo lineInfo, JsonLoadSettings settings) { }
 
-	// RVA: 0xE3BF90 Offset: 0xE3A590 VA: 0x180E3BF90
+	// RVA: 0xE3CA40 Offset: 0xE3B040 VA: 0x180E3CA40
 	internal void SetLineInfo(int lineNumber, int linePosition) { }
 
-	// RVA: 0xE3B810 Offset: 0xE39E10 VA: 0x180E3B810 Slot: 6
+	// RVA: 0xE3C2C0 Offset: 0xE3A8C0 VA: 0x180E3C2C0 Slot: 6
 	private bool Newtonsoft.Json.IJsonLineInfo.HasLineInfo() { }
 
-	// RVA: 0xE3B850 Offset: 0xE39E50 VA: 0x180E3B850 Slot: 7
+	// RVA: 0xE3C300 Offset: 0xE3A900 VA: 0x180E3C300 Slot: 7
 	private int Newtonsoft.Json.IJsonLineInfo.get_LineNumber() { }
 
-	// RVA: 0xE3B8A0 Offset: 0xE39EA0 VA: 0x180E3B8A0 Slot: 8
+	// RVA: 0xE3C350 Offset: 0xE3A950 VA: 0x180E3C350 Slot: 8
 	private int Newtonsoft.Json.IJsonLineInfo.get_LinePosition() { }
 
-	// RVA: 0xE3B450 Offset: 0xE39A50 VA: 0x180E3B450 Slot: 9
+	// RVA: 0xE3BF00 Offset: 0xE3A500 VA: 0x180E3BF00 Slot: 9
 	private object System.ICloneable.Clone() { }
 
-	// RVA: 0xE3B450 Offset: 0xE39A50 VA: 0x180E3B450
+	// RVA: 0xE3BF00 Offset: 0xE3A500 VA: 0x180E3BF00
 	public JToken DeepClone() { }
 
-	// RVA: 0xE3B090 Offset: 0xE39690 VA: 0x180E3B090
+	// RVA: 0xE3BB40 Offset: 0xE3A140 VA: 0x180E3BB40
 	public void AddAnnotation(object annotation) { }
 
 	// RVA: -1 Offset: -1
 	public T Annotation<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CF900 Offset: 0x5CDF00 VA: 0x1805CF900
+	|-RVA: 0x5CF890 Offset: 0x5CDE90 VA: 0x1805CF890
 	|-JToken.Annotation<JToken.LineInfoAnnotation>
 	|-JToken.Annotation<object>
 	*/
 
-	// RVA: 0xE3D470 Offset: 0xE3BA70 VA: 0x180E3D470
+	// RVA: 0xE3DF20 Offset: 0xE3C520 VA: 0x180E3DF20
 	private static void .cctor() { }
 
 }
@@ -5609,70 +5609,70 @@ public class JProperty : JContainer // TypeDefIndex: 6073
 
 	// Methods
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450 Slot: 45
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0 Slot: 45
 	protected override IList<JToken> get_ChildrenTokens() { }
 
 	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	public string get_Name() { }
 
 	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE38120 Offset: 0xE36720 VA: 0x180E38120
+	// RVA: 0xE38BD0 Offset: 0xE371D0 VA: 0x180E38BD0
 	public JToken get_Value() { }
 
-	// RVA: 0xE38140 Offset: 0xE36740 VA: 0x180E38140
+	// RVA: 0xE38BF0 Offset: 0xE371F0 VA: 0x180E38BF0
 	public void set_Value(JToken value) { }
 
-	// RVA: 0xE37D90 Offset: 0xE36390 VA: 0x180E37D90
+	// RVA: 0xE38840 Offset: 0xE36E40 VA: 0x180E38840
 	public void .ctor(JProperty other) { }
 
-	// RVA: 0xE37510 Offset: 0xE35B10 VA: 0x180E37510 Slot: 51
+	// RVA: 0xE37FC0 Offset: 0xE365C0 VA: 0x180E37FC0 Slot: 51
 	internal override JToken GetItem(int index) { }
 
-	// RVA: 0xE37A70 Offset: 0xE36070 VA: 0x180E37A70 Slot: 52
+	// RVA: 0xE38520 Offset: 0xE36B20 VA: 0x180E38520 Slot: 52
 	internal override void SetItem(int index, JToken item) { }
 
-	// RVA: 0xE379A0 Offset: 0xE35FA0 VA: 0x180E379A0 Slot: 50
+	// RVA: 0xE38450 Offset: 0xE36A50 VA: 0x180E38450 Slot: 50
 	internal override bool RemoveItem(JToken item) { }
 
-	// RVA: 0xE378D0 Offset: 0xE35ED0 VA: 0x180E378D0 Slot: 49
+	// RVA: 0xE38380 Offset: 0xE36980 VA: 0x180E38380 Slot: 49
 	internal override void RemoveItemAt(int index) { }
 
-	// RVA: 0xE37590 Offset: 0xE35B90 VA: 0x180E37590 Slot: 47
+	// RVA: 0xE38040 Offset: 0xE36640 VA: 0x180E38040 Slot: 47
 	internal override int IndexOfItem(JToken item) { }
 
-	// RVA: 0xE375C0 Offset: 0xE35BC0 VA: 0x180E375C0 Slot: 48
+	// RVA: 0xE38070 Offset: 0xE36670 VA: 0x180E38070 Slot: 48
 	internal override void InsertItem(int index, JToken item, bool skipParentCheck) { }
 
-	// RVA: 0xE372C0 Offset: 0xE358C0 VA: 0x180E372C0 Slot: 55
+	// RVA: 0xE37D70 Offset: 0xE36370 VA: 0x180E37D70 Slot: 55
 	internal override bool ContainsItem(JToken item) { }
 
-	// RVA: 0xE37130 Offset: 0xE35730 VA: 0x180E37130 Slot: 53
+	// RVA: 0xE37BE0 Offset: 0xE361E0 VA: 0x180E37BE0 Slot: 53
 	internal override void ClearItems() { }
 
-	// RVA: 0xE372E0 Offset: 0xE358E0 VA: 0x180E372E0 Slot: 11
+	// RVA: 0xE37D90 Offset: 0xE36390 VA: 0x180E37D90 Slot: 11
 	internal override bool DeepEquals(JToken node) { }
 
-	// RVA: 0xE37200 Offset: 0xE35800 VA: 0x180E37200 Slot: 10
+	// RVA: 0xE37CB0 Offset: 0xE362B0 VA: 0x180E37CB0 Slot: 10
 	internal override JToken CloneToken() { }
 
 	[DebuggerStepThroughAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE38110 Offset: 0xE36710 VA: 0x180E38110 Slot: 12
+	// RVA: 0xE38BC0 Offset: 0xE371C0 VA: 0x180E38BC0 Slot: 12
 	public override JTokenType get_Type() { }
 
-	// RVA: 0xE38040 Offset: 0xE36640 VA: 0x180E38040
+	// RVA: 0xE38AF0 Offset: 0xE370F0 VA: 0x180E38AF0
 	internal void .ctor(string name) { }
 
-	// RVA: 0xE37E20 Offset: 0xE36420 VA: 0x180E37E20
+	// RVA: 0xE388D0 Offset: 0xE36ED0 VA: 0x180E388D0
 	public void .ctor(string name, object content) { }
 
-	// RVA: 0xE37CF0 Offset: 0xE362F0 VA: 0x180E37CF0 Slot: 17
+	// RVA: 0xE387A0 Offset: 0xE36DA0 VA: 0x180E387A0 Slot: 17
 	public override void WriteTo(JsonWriter writer, JsonConverter[] converters) { }
 
-	// RVA: 0xE374A0 Offset: 0xE35AA0 VA: 0x180E374A0 Slot: 18
+	// RVA: 0xE37F50 Offset: 0xE36550 VA: 0x180E37F50 Slot: 18
 	internal override int GetDeepHashCode() { }
 
-	// RVA: 0xE376E0 Offset: 0xE35CE0 VA: 0x180E376E0
+	// RVA: 0xE38190 Offset: 0xE36790 VA: 0x180E38190
 	public static JProperty Load(JsonReader reader, JsonLoadSettings settings) { }
 
 }
@@ -5688,46 +5688,46 @@ private class JProperty.JPropertyList : IList<JToken>, ICollection<JToken>, IEnu
 
 	// Methods
 
-	// RVA: 0xE37020 Offset: 0xE35620 VA: 0x180E37020 Slot: 16
+	// RVA: 0xE37AD0 Offset: 0xE360D0 VA: 0x180E37AD0 Slot: 16
 	public IEnumerator<JToken> GetEnumerator() { }
 
-	// RVA: 0xE37020 Offset: 0xE35620 VA: 0x180E37020 Slot: 17
+	// RVA: 0xE37AD0 Offset: 0xE360D0 VA: 0x180E37AD0 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630 Slot: 11
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0 Slot: 11
 	public void Add(JToken item) { }
 
-	// RVA: 0xE36F60 Offset: 0xE35560 VA: 0x180E36F60 Slot: 12
+	// RVA: 0xE37A10 Offset: 0xE36010 VA: 0x180E37A10 Slot: 12
 	public void Clear() { }
 
-	// RVA: 0xE36F80 Offset: 0xE35580 VA: 0x180E36F80 Slot: 13
+	// RVA: 0xE37A30 Offset: 0xE36030 VA: 0x180E37A30 Slot: 13
 	public bool Contains(JToken item) { }
 
-	// RVA: 0xE36F90 Offset: 0xE35590 VA: 0x180E36F90 Slot: 14
+	// RVA: 0xE37A40 Offset: 0xE36040 VA: 0x180E37A40 Slot: 14
 	public void CopyTo(JToken[] array, int arrayIndex) { }
 
-	// RVA: 0xE370E0 Offset: 0xE356E0 VA: 0x180E370E0 Slot: 15
+	// RVA: 0xE37B90 Offset: 0xE36190 VA: 0x180E37B90 Slot: 15
 	public bool Remove(JToken item) { }
 
-	// RVA: 0xE37110 Offset: 0xE35710 VA: 0x180E37110 Slot: 9
+	// RVA: 0xE37BC0 Offset: 0xE361C0 VA: 0x180E37BC0 Slot: 9
 	public int get_Count() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 10
 	public bool get_IsReadOnly() { }
 
-	// RVA: 0xE37090 Offset: 0xE35690 VA: 0x180E37090 Slot: 6
+	// RVA: 0xE37B40 Offset: 0xE36140 VA: 0x180E37B40 Slot: 6
 	public int IndexOf(JToken item) { }
 
-	// RVA: 0xE370A0 Offset: 0xE356A0 VA: 0x180E370A0 Slot: 7
+	// RVA: 0xE37B50 Offset: 0xE36150 VA: 0x180E37B50 Slot: 7
 	public void Insert(int index, JToken item) { }
 
-	// RVA: 0xE370C0 Offset: 0xE356C0 VA: 0x180E370C0 Slot: 8
+	// RVA: 0xE37B70 Offset: 0xE36170 VA: 0x180E37B70 Slot: 8
 	public void RemoveAt(int index) { }
 
-	// RVA: 0xE37120 Offset: 0xE35720 VA: 0x180E37120 Slot: 4
+	// RVA: 0xE37BD0 Offset: 0xE361D0 VA: 0x180E37BD0 Slot: 4
 	public JToken get_Item(int index) { }
 
-	// RVA: 0xE370A0 Offset: 0xE356A0 VA: 0x180E370A0 Slot: 5
+	// RVA: 0xE37B50 Offset: 0xE36150 VA: 0x180E37B50 Slot: 5
 	public void set_Item(int index, JToken value) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -5755,7 +5755,7 @@ private sealed class JProperty.JPropertyList.<GetEnumerator>d__1 : IEnumerator<J
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xE4CB40 Offset: 0xE4B140 VA: 0x180E4CB40 Slot: 6
+	// RVA: 0xE4D5F0 Offset: 0xE4BBF0 VA: 0x180E4D5F0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -5763,7 +5763,7 @@ private sealed class JProperty.JPropertyList.<GetEnumerator>d__1 : IEnumerator<J
 	private JToken System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE4CBA0 Offset: 0xE4B1A0 VA: 0x180E4CBA0 Slot: 8
+	// RVA: 0xE4D650 Offset: 0xE4BC50 VA: 0x180E4D650 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -5808,127 +5808,127 @@ public class JValue : JToken, IFormattable, IComparable, IConvertible // TypeDef
 
 	// Methods
 
-	// RVA: 0xE45C40 Offset: 0xE44240 VA: 0x180E45C40
+	// RVA: 0xE466F0 Offset: 0xE44CF0 VA: 0x180E466F0
 	internal void .ctor(object value, JTokenType type) { }
 
-	// RVA: 0xE384B0 Offset: 0xE36AB0 VA: 0x180E384B0
+	// RVA: 0xE38F60 Offset: 0xE37560 VA: 0x180E38F60
 	public void .ctor(JValue other) { }
 
-	// RVA: 0xE45C00 Offset: 0xE44200 VA: 0x180E45C00
+	// RVA: 0xE466B0 Offset: 0xE44CB0 VA: 0x180E466B0
 	public void .ctor(object value) { }
 
-	// RVA: 0xE44140 Offset: 0xE42740 VA: 0x180E44140 Slot: 11
+	// RVA: 0xE44BF0 Offset: 0xE431F0 VA: 0x180E44BF0 Slot: 11
 	internal override bool DeepEquals(JToken node) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 13
 	public override bool get_HasValues() { }
 
-	// RVA: 0xE435F0 Offset: 0xE41BF0 VA: 0x180E435F0
+	// RVA: 0xE440A0 Offset: 0xE426A0 VA: 0x180E440A0
 	internal static int Compare(JTokenType valueType, object objA, object objB) { }
 
-	// RVA: 0xE43500 Offset: 0xE41B00 VA: 0x180E43500
+	// RVA: 0xE43FB0 Offset: 0xE425B0 VA: 0x180E43FB0
 	private static int CompareFloat(object objA, object objB) { }
 
-	// RVA: 0xE43440 Offset: 0xE41A40 VA: 0x180E43440 Slot: 10
+	// RVA: 0xE43EF0 Offset: 0xE424F0 VA: 0x180E43EF0 Slot: 10
 	internal override JToken CloneToken() { }
 
-	// RVA: 0xE43F60 Offset: 0xE42560 VA: 0x180E43F60
+	// RVA: 0xE44A10 Offset: 0xE43010 VA: 0x180E44A10
 	public static JValue CreateComment(string value) { }
 
-	// RVA: 0xE44000 Offset: 0xE42600 VA: 0x180E44000
+	// RVA: 0xE44AB0 Offset: 0xE430B0 VA: 0x180E44AB0
 	public static JValue CreateNull() { }
 
-	// RVA: 0xE440A0 Offset: 0xE426A0 VA: 0x180E440A0
+	// RVA: 0xE44B50 Offset: 0xE43150 VA: 0x180E44B50
 	public static JValue CreateUndefined() { }
 
-	// RVA: 0xE44400 Offset: 0xE42A00 VA: 0x180E44400
+	// RVA: 0xE44EB0 Offset: 0xE434B0 VA: 0x180E44EB0
 	private static JTokenType GetValueType(Nullable<JTokenType> current, object value) { }
 
-	// RVA: 0xE443A0 Offset: 0xE429A0 VA: 0x180E443A0
+	// RVA: 0xE44E50 Offset: 0xE43450 VA: 0x180E44E50
 	private static JTokenType GetStringValueType(Nullable<JTokenType> current) { }
 
-	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0 Slot: 12
+	// RVA: 0xA39490 Offset: 0xA37A90 VA: 0x180A39490 Slot: 12
 	public override JTokenType get_Type() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public object get_Value() { }
 
-	// RVA: 0xE45210 Offset: 0xE43810 VA: 0x180E45210 Slot: 17
+	// RVA: 0xE45CC0 Offset: 0xE442C0 VA: 0x180E45CC0 Slot: 17
 	public override void WriteTo(JsonWriter writer, JsonConverter[] converters) { }
 
-	// RVA: 0xE44330 Offset: 0xE42930 VA: 0x180E44330 Slot: 18
+	// RVA: 0xE44DE0 Offset: 0xE433E0 VA: 0x180E44DE0 Slot: 18
 	internal override int GetDeepHashCode() { }
 
-	// RVA: 0xE451C0 Offset: 0xE437C0 VA: 0x180E451C0
+	// RVA: 0xE45C70 Offset: 0xE44270 VA: 0x180E45C70
 	private static bool ValuesEquals(JValue v1, JValue v2) { }
 
-	// RVA: 0xE442E0 Offset: 0xE428E0 VA: 0x180E442E0
+	// RVA: 0xE44D90 Offset: 0xE43390 VA: 0x180E44D90
 	public bool Equals(JValue other) { }
 
-	// RVA: 0xE44200 Offset: 0xE42800 VA: 0x180E44200 Slot: 0
+	// RVA: 0xE44CB0 Offset: 0xE432B0 VA: 0x180E44CB0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xE44380 Offset: 0xE42980 VA: 0x180E44380 Slot: 2
+	// RVA: 0xE44E30 Offset: 0xE43430 VA: 0x180E44E30 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xE44F00 Offset: 0xE43500 VA: 0x180E44F00 Slot: 3
+	// RVA: 0xE459B0 Offset: 0xE43FB0 VA: 0x180E459B0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xE44F60 Offset: 0xE43560 VA: 0x180E44F60 Slot: 36
+	// RVA: 0xE45A10 Offset: 0xE44010 VA: 0x180E45A10 Slot: 36
 	public string ToString(IFormatProvider formatProvider) { }
 
-	// RVA: 0xE45080 Offset: 0xE43680 VA: 0x180E45080 Slot: 19
+	// RVA: 0xE45B30 Offset: 0xE44130 VA: 0x180E45B30 Slot: 19
 	public string ToString(string format, IFormatProvider formatProvider) { }
 
-	// RVA: 0xE44810 Offset: 0xE42E10 VA: 0x180E44810 Slot: 20
+	// RVA: 0xE452C0 Offset: 0xE438C0 VA: 0x180E452C0 Slot: 20
 	private int System.IComparable.CompareTo(object obj) { }
 
-	// RVA: 0xE44930 Offset: 0xE42F30 VA: 0x180E44930 Slot: 21
+	// RVA: 0xE453E0 Offset: 0xE439E0 VA: 0x180E453E0 Slot: 21
 	private TypeCode System.IConvertible.GetTypeCode() { }
 
-	// RVA: 0xE449A0 Offset: 0xE42FA0 VA: 0x180E449A0 Slot: 22
+	// RVA: 0xE45450 Offset: 0xE43A50 VA: 0x180E45450 Slot: 22
 	private bool System.IConvertible.ToBoolean(IFormatProvider provider) { }
 
-	// RVA: 0xE44A60 Offset: 0xE43060 VA: 0x180E44A60 Slot: 23
+	// RVA: 0xE45510 Offset: 0xE43B10 VA: 0x180E45510 Slot: 23
 	private char System.IConvertible.ToChar(IFormatProvider provider) { }
 
-	// RVA: 0xE44D10 Offset: 0xE43310 VA: 0x180E44D10 Slot: 24
+	// RVA: 0xE457C0 Offset: 0xE43DC0 VA: 0x180E457C0 Slot: 24
 	private sbyte System.IConvertible.ToSByte(IFormatProvider provider) { }
 
-	// RVA: 0xE44A00 Offset: 0xE43000 VA: 0x180E44A00 Slot: 25
+	// RVA: 0xE454B0 Offset: 0xE43AB0 VA: 0x180E454B0 Slot: 25
 	private byte System.IConvertible.ToByte(IFormatProvider provider) { }
 
-	// RVA: 0xE44BF0 Offset: 0xE431F0 VA: 0x180E44BF0 Slot: 26
+	// RVA: 0xE456A0 Offset: 0xE43CA0 VA: 0x180E456A0 Slot: 26
 	private short System.IConvertible.ToInt16(IFormatProvider provider) { }
 
-	// RVA: 0xE44DE0 Offset: 0xE433E0 VA: 0x180E44DE0 Slot: 27
+	// RVA: 0xE45890 Offset: 0xE43E90 VA: 0x180E45890 Slot: 27
 	private ushort System.IConvertible.ToUInt16(IFormatProvider provider) { }
 
-	// RVA: 0xE44C50 Offset: 0xE43250 VA: 0x180E44C50 Slot: 28
+	// RVA: 0xE45700 Offset: 0xE43D00 VA: 0x180E45700 Slot: 28
 	private int System.IConvertible.ToInt32(IFormatProvider provider) { }
 
-	// RVA: 0xE44E40 Offset: 0xE43440 VA: 0x180E44E40 Slot: 29
+	// RVA: 0xE458F0 Offset: 0xE43EF0 VA: 0x180E458F0 Slot: 29
 	private uint System.IConvertible.ToUInt32(IFormatProvider provider) { }
 
-	// RVA: 0xE44CB0 Offset: 0xE432B0 VA: 0x180E44CB0 Slot: 30
+	// RVA: 0xE45760 Offset: 0xE43D60 VA: 0x180E45760 Slot: 30
 	private long System.IConvertible.ToInt64(IFormatProvider provider) { }
 
-	// RVA: 0xE44EA0 Offset: 0xE434A0 VA: 0x180E44EA0 Slot: 31
+	// RVA: 0xE45950 Offset: 0xE43F50 VA: 0x180E45950 Slot: 31
 	private ulong System.IConvertible.ToUInt64(IFormatProvider provider) { }
 
-	// RVA: 0xE44D70 Offset: 0xE43370 VA: 0x180E44D70 Slot: 32
+	// RVA: 0xE45820 Offset: 0xE43E20 VA: 0x180E45820 Slot: 32
 	private float System.IConvertible.ToSingle(IFormatProvider provider) { }
 
-	// RVA: 0xE44B90 Offset: 0xE43190 VA: 0x180E44B90 Slot: 33
+	// RVA: 0xE45640 Offset: 0xE43C40 VA: 0x180E45640 Slot: 33
 	private double System.IConvertible.ToDouble(IFormatProvider provider) { }
 
-	// RVA: 0xE44B20 Offset: 0xE43120 VA: 0x180E44B20 Slot: 34
+	// RVA: 0xE455D0 Offset: 0xE43BD0 VA: 0x180E455D0 Slot: 34
 	private Decimal System.IConvertible.ToDecimal(IFormatProvider provider) { }
 
-	// RVA: 0xE44AC0 Offset: 0xE430C0 VA: 0x180E44AC0 Slot: 35
+	// RVA: 0xE45570 Offset: 0xE43B70 VA: 0x180E45570 Slot: 35
 	private DateTime System.IConvertible.ToDateTime(IFormatProvider provider) { }
 
-	// RVA: 0xE44DD0 Offset: 0xE433D0 VA: 0x180E44DD0 Slot: 37
+	// RVA: 0xE45880 Offset: 0xE43E80 VA: 0x180E45880 Slot: 37
 	private object System.IConvertible.ToType(Type conversionType, IFormatProvider provider) { }
 
 }
@@ -5949,24 +5949,24 @@ public static class JSON // TypeDefIndex: 11582
 
 	// Methods
 
-	// RVA: 0x87AAC0 Offset: 0x8790C0 VA: 0x18087AAC0
+	// RVA: 0x85DE00 Offset: 0x85C400 VA: 0x18085DE00
 	public static Variant Load(string json) { }
 
-	// RVA: 0x87A8A0 Offset: 0x878EA0 VA: 0x18087A8A0
+	// RVA: 0x85DBE0 Offset: 0x85C1E0 VA: 0x18085DBE0
 	public static string Dump(object data) { }
 
-	// RVA: 0x87A6B0 Offset: 0x878CB0 VA: 0x18087A6B0
+	// RVA: 0x85D9F0 Offset: 0x85BFF0 VA: 0x18085D9F0
 	public static string Dump(object data, EncodeOptions options) { }
 
 	// RVA: -1 Offset: -1
 	public static void MakeInto<T>(Variant data, out T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CEB70 Offset: 0x5CD170 VA: 0x1805CEB70
+	|-RVA: 0x5CEB00 Offset: 0x5CD100 VA: 0x1805CEB00
 	|-JSON.MakeInto<object>
 	*/
 
-	// RVA: 0x87A900 Offset: 0x878F00 VA: 0x18087A900
+	// RVA: 0x85DC40 Offset: 0x85C240 VA: 0x18085DC40
 	private static Type FindType(string fullName) { }
 
 	[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -5974,37 +5974,37 @@ public static class JSON // TypeDefIndex: 11582
 	private static T DecodeType<T>(Variant data) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBDA1C0 Offset: 0xBD87C0 VA: 0x180BDA1C0
+	|-RVA: 0xBDA690 Offset: 0xBD8C90 VA: 0x180BDA690
 	|-JSON.DecodeType<bool>
 	|
-	|-RVA: 0xBDC1A0 Offset: 0xBDA7A0 VA: 0x180BDC1A0
+	|-RVA: 0xBDC670 Offset: 0xBDAC70 VA: 0x180BDC670
 	|-JSON.DecodeType<Decimal>
 	|
-	|-RVA: 0xBDE160 Offset: 0xBDC760 VA: 0x180BDE160
+	|-RVA: 0xBDE630 Offset: 0xBDCC30 VA: 0x180BDE630
 	|-JSON.DecodeType<double>
 	|
-	|-RVA: 0x15A9630 Offset: 0x15A7C30 VA: 0x1815A9630
+	|-RVA: 0x15A8700 Offset: 0x15A6D00 VA: 0x1815A8700
 	|-JSON.DecodeType<short>
 	|
-	|-RVA: 0x15AB600 Offset: 0x15A9C00 VA: 0x1815AB600
+	|-RVA: 0x15AA6D0 Offset: 0x15A8CD0 VA: 0x1815AA6D0
 	|-JSON.DecodeType<int>
 	|
-	|-RVA: 0x15AD5A0 Offset: 0x15ABBA0 VA: 0x1815AD5A0
+	|-RVA: 0x15AC670 Offset: 0x15AAC70 VA: 0x1815AC670
 	|-JSON.DecodeType<long>
 	|
-	|-RVA: 0x15AF570 Offset: 0x15ADB70 VA: 0x1815AF570
+	|-RVA: 0x15AE640 Offset: 0x15ACC40 VA: 0x1815AE640
 	|-JSON.DecodeType<object>
 	|
-	|-RVA: 0x15B1490 Offset: 0x15AFA90 VA: 0x1815B1490
+	|-RVA: 0x15B0560 Offset: 0x15AEB60 VA: 0x1815B0560
 	|-JSON.DecodeType<float>
 	|
-	|-RVA: 0x15B3430 Offset: 0x15B1A30 VA: 0x1815B3430
+	|-RVA: 0x15B2500 Offset: 0x15B0B00 VA: 0x1815B2500
 	|-JSON.DecodeType<ushort>
 	|
-	|-RVA: 0x15B5400 Offset: 0x15B3A00 VA: 0x1815B5400
+	|-RVA: 0x15B44D0 Offset: 0x15B2AD0 VA: 0x1815B44D0
 	|-JSON.DecodeType<uint>
 	|
-	|-RVA: 0x15B73A0 Offset: 0x15B59A0 VA: 0x1815B73A0
+	|-RVA: 0x15B6470 Offset: 0x15B4A70 VA: 0x1815B6470
 	|-JSON.DecodeType<ulong>
 	*/
 
@@ -6013,37 +6013,37 @@ public static class JSON // TypeDefIndex: 11582
 	private static List<T> DecodeList<T>(Variant data) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x12AD7D0 Offset: 0x12ABDD0 VA: 0x1812AD7D0
+	|-RVA: 0x12ADE70 Offset: 0x12AC470 VA: 0x1812ADE70
 	|-JSON.DecodeList<bool>
 	|
-	|-RVA: 0x12AD9C0 Offset: 0x12ABFC0 VA: 0x1812AD9C0
+	|-RVA: 0x12AE060 Offset: 0x12AC660 VA: 0x1812AE060
 	|-JSON.DecodeList<Decimal>
 	|
-	|-RVA: 0x12ADBC0 Offset: 0x12AC1C0 VA: 0x1812ADBC0
+	|-RVA: 0x12AE260 Offset: 0x12AC860 VA: 0x1812AE260
 	|-JSON.DecodeList<double>
 	|
-	|-RVA: 0x12ADDB0 Offset: 0x12AC3B0 VA: 0x1812ADDB0
+	|-RVA: 0x12AE450 Offset: 0x12ACA50 VA: 0x1812AE450
 	|-JSON.DecodeList<short>
 	|
-	|-RVA: 0x12ADFA0 Offset: 0x12AC5A0 VA: 0x1812ADFA0
+	|-RVA: 0x12AE640 Offset: 0x12ACC40 VA: 0x1812AE640
 	|-JSON.DecodeList<int>
 	|
-	|-RVA: 0x12AE190 Offset: 0x12AC790 VA: 0x1812AE190
+	|-RVA: 0x12AE830 Offset: 0x12ACE30 VA: 0x1812AE830
 	|-JSON.DecodeList<long>
 	|
-	|-RVA: 0x12AE380 Offset: 0x12AC980 VA: 0x1812AE380
+	|-RVA: 0x12AEA20 Offset: 0x12AD020 VA: 0x1812AEA20
 	|-JSON.DecodeList<object>
 	|
-	|-RVA: 0x12AE570 Offset: 0x12ACB70 VA: 0x1812AE570
+	|-RVA: 0x12AEC10 Offset: 0x12AD210 VA: 0x1812AEC10
 	|-JSON.DecodeList<float>
 	|
-	|-RVA: 0x12AE760 Offset: 0x12ACD60 VA: 0x1812AE760
+	|-RVA: 0x12AEE00 Offset: 0x12AD400 VA: 0x1812AEE00
 	|-JSON.DecodeList<ushort>
 	|
-	|-RVA: 0x12AE950 Offset: 0x12ACF50 VA: 0x1812AE950
+	|-RVA: 0x12AEFF0 Offset: 0x12AD5F0 VA: 0x1812AEFF0
 	|-JSON.DecodeList<uint>
 	|
-	|-RVA: 0x12AEB40 Offset: 0x12AD140 VA: 0x1812AEB40
+	|-RVA: 0x12AF1E0 Offset: 0x12AD7E0 VA: 0x1812AF1E0
 	|-JSON.DecodeList<ulong>
 	*/
 
@@ -6052,367 +6052,367 @@ public static class JSON // TypeDefIndex: 11582
 	private static Dictionary<TKey, TValue> DecodeDictionary<TKey, TValue>(Variant data) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15390A0 Offset: 0x15376A0 VA: 0x1815390A0
+	|-RVA: 0x1538170 Offset: 0x1536770 VA: 0x181538170
 	|-JSON.DecodeDictionary<bool, bool>
 	|
-	|-RVA: 0x1539430 Offset: 0x1537A30 VA: 0x181539430
+	|-RVA: 0x1538500 Offset: 0x1536B00 VA: 0x181538500
 	|-JSON.DecodeDictionary<bool, Decimal>
 	|
-	|-RVA: 0x15397C0 Offset: 0x1537DC0 VA: 0x1815397C0
+	|-RVA: 0x1538890 Offset: 0x1536E90 VA: 0x181538890
 	|-JSON.DecodeDictionary<bool, double>
 	|
-	|-RVA: 0x1539B50 Offset: 0x1538150 VA: 0x181539B50
+	|-RVA: 0x1538C20 Offset: 0x1537220 VA: 0x181538C20
 	|-JSON.DecodeDictionary<bool, short>
 	|
-	|-RVA: 0x1539EE0 Offset: 0x15384E0 VA: 0x181539EE0
+	|-RVA: 0x1538FB0 Offset: 0x15375B0 VA: 0x181538FB0
 	|-JSON.DecodeDictionary<bool, int>
 	|
-	|-RVA: 0x153A270 Offset: 0x1538870 VA: 0x18153A270
+	|-RVA: 0x1539340 Offset: 0x1537940 VA: 0x181539340
 	|-JSON.DecodeDictionary<bool, long>
 	|
-	|-RVA: 0x153A600 Offset: 0x1538C00 VA: 0x18153A600
+	|-RVA: 0x15396D0 Offset: 0x1537CD0 VA: 0x1815396D0
 	|-JSON.DecodeDictionary<bool, object>
 	|
-	|-RVA: 0x153A990 Offset: 0x1538F90 VA: 0x18153A990
+	|-RVA: 0x1539A60 Offset: 0x1538060 VA: 0x181539A60
 	|-JSON.DecodeDictionary<bool, float>
 	|
-	|-RVA: 0x153AD20 Offset: 0x1539320 VA: 0x18153AD20
+	|-RVA: 0x1539DF0 Offset: 0x15383F0 VA: 0x181539DF0
 	|-JSON.DecodeDictionary<bool, ushort>
 	|
-	|-RVA: 0x153B0B0 Offset: 0x15396B0 VA: 0x18153B0B0
+	|-RVA: 0x153A180 Offset: 0x1538780 VA: 0x18153A180
 	|-JSON.DecodeDictionary<bool, uint>
 	|
-	|-RVA: 0x153B440 Offset: 0x1539A40 VA: 0x18153B440
+	|-RVA: 0x153A510 Offset: 0x1538B10 VA: 0x18153A510
 	|-JSON.DecodeDictionary<bool, ulong>
 	|
-	|-RVA: 0x153B7D0 Offset: 0x1539DD0 VA: 0x18153B7D0
+	|-RVA: 0x153A8A0 Offset: 0x1538EA0 VA: 0x18153A8A0
 	|-JSON.DecodeDictionary<Decimal, bool>
 	|
-	|-RVA: 0x153BB60 Offset: 0x153A160 VA: 0x18153BB60
+	|-RVA: 0x153AC30 Offset: 0x1539230 VA: 0x18153AC30
 	|-JSON.DecodeDictionary<Decimal, Decimal>
 	|
-	|-RVA: 0x153BF00 Offset: 0x153A500 VA: 0x18153BF00
+	|-RVA: 0x153AFD0 Offset: 0x15395D0 VA: 0x18153AFD0
 	|-JSON.DecodeDictionary<Decimal, double>
 	|
-	|-RVA: 0x153C290 Offset: 0x153A890 VA: 0x18153C290
+	|-RVA: 0x153B360 Offset: 0x1539960 VA: 0x18153B360
 	|-JSON.DecodeDictionary<Decimal, short>
 	|
-	|-RVA: 0x153C620 Offset: 0x153AC20 VA: 0x18153C620
+	|-RVA: 0x153B6F0 Offset: 0x1539CF0 VA: 0x18153B6F0
 	|-JSON.DecodeDictionary<Decimal, int>
 	|
-	|-RVA: 0x153C9B0 Offset: 0x153AFB0 VA: 0x18153C9B0
+	|-RVA: 0x153BA80 Offset: 0x153A080 VA: 0x18153BA80
 	|-JSON.DecodeDictionary<Decimal, long>
 	|
-	|-RVA: 0x153CD40 Offset: 0x153B340 VA: 0x18153CD40
+	|-RVA: 0x153BE10 Offset: 0x153A410 VA: 0x18153BE10
 	|-JSON.DecodeDictionary<Decimal, object>
 	|
-	|-RVA: 0x153D0D0 Offset: 0x153B6D0 VA: 0x18153D0D0
+	|-RVA: 0x153C1A0 Offset: 0x153A7A0 VA: 0x18153C1A0
 	|-JSON.DecodeDictionary<Decimal, float>
 	|
-	|-RVA: 0x153D460 Offset: 0x153BA60 VA: 0x18153D460
+	|-RVA: 0x153C530 Offset: 0x153AB30 VA: 0x18153C530
 	|-JSON.DecodeDictionary<Decimal, ushort>
 	|
-	|-RVA: 0x153D7F0 Offset: 0x153BDF0 VA: 0x18153D7F0
+	|-RVA: 0x153C8C0 Offset: 0x153AEC0 VA: 0x18153C8C0
 	|-JSON.DecodeDictionary<Decimal, uint>
 	|
-	|-RVA: 0x153DB80 Offset: 0x153C180 VA: 0x18153DB80
+	|-RVA: 0x153CC50 Offset: 0x153B250 VA: 0x18153CC50
 	|-JSON.DecodeDictionary<Decimal, ulong>
 	|
-	|-RVA: 0x153DF10 Offset: 0x153C510 VA: 0x18153DF10
+	|-RVA: 0x153CFE0 Offset: 0x153B5E0 VA: 0x18153CFE0
 	|-JSON.DecodeDictionary<double, bool>
 	|
-	|-RVA: 0x153E2A0 Offset: 0x153C8A0 VA: 0x18153E2A0
+	|-RVA: 0x153D370 Offset: 0x153B970 VA: 0x18153D370
 	|-JSON.DecodeDictionary<double, Decimal>
 	|
-	|-RVA: 0x153E640 Offset: 0x153CC40 VA: 0x18153E640
+	|-RVA: 0x153D710 Offset: 0x153BD10 VA: 0x18153D710
 	|-JSON.DecodeDictionary<double, double>
 	|
-	|-RVA: 0x153E9D0 Offset: 0x153CFD0 VA: 0x18153E9D0
+	|-RVA: 0x153DAA0 Offset: 0x153C0A0 VA: 0x18153DAA0
 	|-JSON.DecodeDictionary<double, short>
 	|
-	|-RVA: 0x153ED60 Offset: 0x153D360 VA: 0x18153ED60
+	|-RVA: 0x153DE30 Offset: 0x153C430 VA: 0x18153DE30
 	|-JSON.DecodeDictionary<double, int>
 	|
-	|-RVA: 0x153F0F0 Offset: 0x153D6F0 VA: 0x18153F0F0
+	|-RVA: 0x153E1C0 Offset: 0x153C7C0 VA: 0x18153E1C0
 	|-JSON.DecodeDictionary<double, long>
 	|
-	|-RVA: 0x153F480 Offset: 0x153DA80 VA: 0x18153F480
+	|-RVA: 0x153E550 Offset: 0x153CB50 VA: 0x18153E550
 	|-JSON.DecodeDictionary<double, object>
 	|
-	|-RVA: 0x153F810 Offset: 0x153DE10 VA: 0x18153F810
+	|-RVA: 0x153E8E0 Offset: 0x153CEE0 VA: 0x18153E8E0
 	|-JSON.DecodeDictionary<double, float>
 	|
-	|-RVA: 0x153FBA0 Offset: 0x153E1A0 VA: 0x18153FBA0
+	|-RVA: 0x153EC70 Offset: 0x153D270 VA: 0x18153EC70
 	|-JSON.DecodeDictionary<double, ushort>
 	|
-	|-RVA: 0x153FF30 Offset: 0x153E530 VA: 0x18153FF30
+	|-RVA: 0x153F000 Offset: 0x153D600 VA: 0x18153F000
 	|-JSON.DecodeDictionary<double, uint>
 	|
-	|-RVA: 0x15402C0 Offset: 0x153E8C0 VA: 0x1815402C0
+	|-RVA: 0x153F390 Offset: 0x153D990 VA: 0x18153F390
 	|-JSON.DecodeDictionary<double, ulong>
 	|
-	|-RVA: 0x1540650 Offset: 0x153EC50 VA: 0x181540650
+	|-RVA: 0x153F720 Offset: 0x153DD20 VA: 0x18153F720
 	|-JSON.DecodeDictionary<short, bool>
 	|
-	|-RVA: 0x15409E0 Offset: 0x153EFE0 VA: 0x1815409E0
+	|-RVA: 0x153FAB0 Offset: 0x153E0B0 VA: 0x18153FAB0
 	|-JSON.DecodeDictionary<short, Decimal>
 	|
-	|-RVA: 0x1540D70 Offset: 0x153F370 VA: 0x181540D70
+	|-RVA: 0x153FE40 Offset: 0x153E440 VA: 0x18153FE40
 	|-JSON.DecodeDictionary<short, double>
 	|
-	|-RVA: 0x1541100 Offset: 0x153F700 VA: 0x181541100
+	|-RVA: 0x15401D0 Offset: 0x153E7D0 VA: 0x1815401D0
 	|-JSON.DecodeDictionary<short, short>
 	|
-	|-RVA: 0x1541490 Offset: 0x153FA90 VA: 0x181541490
+	|-RVA: 0x1540560 Offset: 0x153EB60 VA: 0x181540560
 	|-JSON.DecodeDictionary<short, int>
 	|
-	|-RVA: 0x1541820 Offset: 0x153FE20 VA: 0x181541820
+	|-RVA: 0x15408F0 Offset: 0x153EEF0 VA: 0x1815408F0
 	|-JSON.DecodeDictionary<short, long>
 	|
-	|-RVA: 0x1541BB0 Offset: 0x15401B0 VA: 0x181541BB0
+	|-RVA: 0x1540C80 Offset: 0x153F280 VA: 0x181540C80
 	|-JSON.DecodeDictionary<short, object>
 	|
-	|-RVA: 0x1541F40 Offset: 0x1540540 VA: 0x181541F40
+	|-RVA: 0x1541010 Offset: 0x153F610 VA: 0x181541010
 	|-JSON.DecodeDictionary<short, float>
 	|
-	|-RVA: 0x15422D0 Offset: 0x15408D0 VA: 0x1815422D0
+	|-RVA: 0x15413A0 Offset: 0x153F9A0 VA: 0x1815413A0
 	|-JSON.DecodeDictionary<short, ushort>
 	|
-	|-RVA: 0x1542660 Offset: 0x1540C60 VA: 0x181542660
+	|-RVA: 0x1541730 Offset: 0x153FD30 VA: 0x181541730
 	|-JSON.DecodeDictionary<short, uint>
 	|
-	|-RVA: 0x15429F0 Offset: 0x1540FF0 VA: 0x1815429F0
+	|-RVA: 0x1541AC0 Offset: 0x15400C0 VA: 0x181541AC0
 	|-JSON.DecodeDictionary<short, ulong>
 	|
-	|-RVA: 0x1542D80 Offset: 0x1541380 VA: 0x181542D80
+	|-RVA: 0x1541E50 Offset: 0x1540450 VA: 0x181541E50
 	|-JSON.DecodeDictionary<int, bool>
 	|
-	|-RVA: 0x1543110 Offset: 0x1541710 VA: 0x181543110
+	|-RVA: 0x15421E0 Offset: 0x15407E0 VA: 0x1815421E0
 	|-JSON.DecodeDictionary<int, Decimal>
 	|
-	|-RVA: 0x15434A0 Offset: 0x1541AA0 VA: 0x1815434A0
+	|-RVA: 0x1542570 Offset: 0x1540B70 VA: 0x181542570
 	|-JSON.DecodeDictionary<int, double>
 	|
-	|-RVA: 0x1543830 Offset: 0x1541E30 VA: 0x181543830
+	|-RVA: 0x1542900 Offset: 0x1540F00 VA: 0x181542900
 	|-JSON.DecodeDictionary<int, short>
 	|
-	|-RVA: 0x1543BC0 Offset: 0x15421C0 VA: 0x181543BC0
+	|-RVA: 0x1542C90 Offset: 0x1541290 VA: 0x181542C90
 	|-JSON.DecodeDictionary<int, int>
 	|
-	|-RVA: 0x1543F50 Offset: 0x1542550 VA: 0x181543F50
+	|-RVA: 0x1543020 Offset: 0x1541620 VA: 0x181543020
 	|-JSON.DecodeDictionary<int, long>
 	|
-	|-RVA: 0x15442E0 Offset: 0x15428E0 VA: 0x1815442E0
+	|-RVA: 0x15433B0 Offset: 0x15419B0 VA: 0x1815433B0
 	|-JSON.DecodeDictionary<int, object>
 	|
-	|-RVA: 0x1544670 Offset: 0x1542C70 VA: 0x181544670
+	|-RVA: 0x1543740 Offset: 0x1541D40 VA: 0x181543740
 	|-JSON.DecodeDictionary<int, float>
 	|
-	|-RVA: 0x1544A00 Offset: 0x1543000 VA: 0x181544A00
+	|-RVA: 0x1543AD0 Offset: 0x15420D0 VA: 0x181543AD0
 	|-JSON.DecodeDictionary<int, ushort>
 	|
-	|-RVA: 0x1544D90 Offset: 0x1543390 VA: 0x181544D90
+	|-RVA: 0x1543E60 Offset: 0x1542460 VA: 0x181543E60
 	|-JSON.DecodeDictionary<int, uint>
 	|
-	|-RVA: 0x1545120 Offset: 0x1543720 VA: 0x181545120
+	|-RVA: 0x15441F0 Offset: 0x15427F0 VA: 0x1815441F0
 	|-JSON.DecodeDictionary<int, ulong>
 	|
-	|-RVA: 0x15454B0 Offset: 0x1543AB0 VA: 0x1815454B0
+	|-RVA: 0x1544580 Offset: 0x1542B80 VA: 0x181544580
 	|-JSON.DecodeDictionary<long, bool>
 	|
-	|-RVA: 0x1545840 Offset: 0x1543E40 VA: 0x181545840
+	|-RVA: 0x1544910 Offset: 0x1542F10 VA: 0x181544910
 	|-JSON.DecodeDictionary<long, Decimal>
 	|
-	|-RVA: 0x1545BD0 Offset: 0x15441D0 VA: 0x181545BD0
+	|-RVA: 0x1544CA0 Offset: 0x15432A0 VA: 0x181544CA0
 	|-JSON.DecodeDictionary<long, double>
 	|
-	|-RVA: 0x1545F60 Offset: 0x1544560 VA: 0x181545F60
+	|-RVA: 0x1545030 Offset: 0x1543630 VA: 0x181545030
 	|-JSON.DecodeDictionary<long, short>
 	|
-	|-RVA: 0x15462F0 Offset: 0x15448F0 VA: 0x1815462F0
+	|-RVA: 0x15453C0 Offset: 0x15439C0 VA: 0x1815453C0
 	|-JSON.DecodeDictionary<long, int>
 	|
-	|-RVA: 0x1546680 Offset: 0x1544C80 VA: 0x181546680
+	|-RVA: 0x1545750 Offset: 0x1543D50 VA: 0x181545750
 	|-JSON.DecodeDictionary<long, long>
 	|
-	|-RVA: 0x1546A10 Offset: 0x1545010 VA: 0x181546A10
+	|-RVA: 0x1545AE0 Offset: 0x15440E0 VA: 0x181545AE0
 	|-JSON.DecodeDictionary<long, object>
 	|
-	|-RVA: 0x1546DA0 Offset: 0x15453A0 VA: 0x181546DA0
+	|-RVA: 0x1545E70 Offset: 0x1544470 VA: 0x181545E70
 	|-JSON.DecodeDictionary<long, float>
 	|
-	|-RVA: 0x1547130 Offset: 0x1545730 VA: 0x181547130
+	|-RVA: 0x1546200 Offset: 0x1544800 VA: 0x181546200
 	|-JSON.DecodeDictionary<long, ushort>
 	|
-	|-RVA: 0x15474C0 Offset: 0x1545AC0 VA: 0x1815474C0
+	|-RVA: 0x1546590 Offset: 0x1544B90 VA: 0x181546590
 	|-JSON.DecodeDictionary<long, uint>
 	|
-	|-RVA: 0x1547850 Offset: 0x1545E50 VA: 0x181547850
+	|-RVA: 0x1546920 Offset: 0x1544F20 VA: 0x181546920
 	|-JSON.DecodeDictionary<long, ulong>
 	|
-	|-RVA: 0x1547BE0 Offset: 0x15461E0 VA: 0x181547BE0
+	|-RVA: 0x1546CB0 Offset: 0x15452B0 VA: 0x181546CB0
 	|-JSON.DecodeDictionary<object, bool>
 	|
-	|-RVA: 0x1547F80 Offset: 0x1546580 VA: 0x181547F80
+	|-RVA: 0x1547050 Offset: 0x1545650 VA: 0x181547050
 	|-JSON.DecodeDictionary<object, Decimal>
 	|
-	|-RVA: 0x1548320 Offset: 0x1546920 VA: 0x181548320
+	|-RVA: 0x15473F0 Offset: 0x15459F0 VA: 0x1815473F0
 	|-JSON.DecodeDictionary<object, double>
 	|
-	|-RVA: 0x15486C0 Offset: 0x1546CC0 VA: 0x1815486C0
+	|-RVA: 0x1547790 Offset: 0x1545D90 VA: 0x181547790
 	|-JSON.DecodeDictionary<object, short>
 	|
-	|-RVA: 0x1548A60 Offset: 0x1547060 VA: 0x181548A60
+	|-RVA: 0x1547B30 Offset: 0x1546130 VA: 0x181547B30
 	|-JSON.DecodeDictionary<object, int>
 	|
-	|-RVA: 0x1548E00 Offset: 0x1547400 VA: 0x181548E00
+	|-RVA: 0x1547ED0 Offset: 0x15464D0 VA: 0x181547ED0
 	|-JSON.DecodeDictionary<object, long>
 	|
-	|-RVA: 0x15491A0 Offset: 0x15477A0 VA: 0x1815491A0
+	|-RVA: 0x1548270 Offset: 0x1546870 VA: 0x181548270
 	|-JSON.DecodeDictionary<object, object>
 	|
-	|-RVA: 0x1549540 Offset: 0x1547B40 VA: 0x181549540
+	|-RVA: 0x1548610 Offset: 0x1546C10 VA: 0x181548610
 	|-JSON.DecodeDictionary<object, float>
 	|
-	|-RVA: 0x15498E0 Offset: 0x1547EE0 VA: 0x1815498E0
+	|-RVA: 0x15489B0 Offset: 0x1546FB0 VA: 0x1815489B0
 	|-JSON.DecodeDictionary<object, ushort>
 	|
-	|-RVA: 0x1549C80 Offset: 0x1548280 VA: 0x181549C80
+	|-RVA: 0x1548D50 Offset: 0x1547350 VA: 0x181548D50
 	|-JSON.DecodeDictionary<object, uint>
 	|
-	|-RVA: 0x154A020 Offset: 0x1548620 VA: 0x18154A020
+	|-RVA: 0x15490F0 Offset: 0x15476F0 VA: 0x1815490F0
 	|-JSON.DecodeDictionary<object, ulong>
 	|
-	|-RVA: 0x154A3C0 Offset: 0x15489C0 VA: 0x18154A3C0
+	|-RVA: 0x1549490 Offset: 0x1547A90 VA: 0x181549490
 	|-JSON.DecodeDictionary<float, bool>
 	|
-	|-RVA: 0x154A750 Offset: 0x1548D50 VA: 0x18154A750
+	|-RVA: 0x1549820 Offset: 0x1547E20 VA: 0x181549820
 	|-JSON.DecodeDictionary<float, Decimal>
 	|
-	|-RVA: 0x154AAF0 Offset: 0x15490F0 VA: 0x18154AAF0
+	|-RVA: 0x1549BC0 Offset: 0x15481C0 VA: 0x181549BC0
 	|-JSON.DecodeDictionary<float, double>
 	|
-	|-RVA: 0x154AE80 Offset: 0x1549480 VA: 0x18154AE80
+	|-RVA: 0x1549F50 Offset: 0x1548550 VA: 0x181549F50
 	|-JSON.DecodeDictionary<float, short>
 	|
-	|-RVA: 0x154B210 Offset: 0x1549810 VA: 0x18154B210
+	|-RVA: 0x154A2E0 Offset: 0x15488E0 VA: 0x18154A2E0
 	|-JSON.DecodeDictionary<float, int>
 	|
-	|-RVA: 0x154B5A0 Offset: 0x1549BA0 VA: 0x18154B5A0
+	|-RVA: 0x154A670 Offset: 0x1548C70 VA: 0x18154A670
 	|-JSON.DecodeDictionary<float, long>
 	|
-	|-RVA: 0x154B930 Offset: 0x1549F30 VA: 0x18154B930
+	|-RVA: 0x154AA00 Offset: 0x1549000 VA: 0x18154AA00
 	|-JSON.DecodeDictionary<float, object>
 	|
-	|-RVA: 0x154BCC0 Offset: 0x154A2C0 VA: 0x18154BCC0
+	|-RVA: 0x154AD90 Offset: 0x1549390 VA: 0x18154AD90
 	|-JSON.DecodeDictionary<float, float>
 	|
-	|-RVA: 0x154C050 Offset: 0x154A650 VA: 0x18154C050
+	|-RVA: 0x154B120 Offset: 0x1549720 VA: 0x18154B120
 	|-JSON.DecodeDictionary<float, ushort>
 	|
-	|-RVA: 0x154C3E0 Offset: 0x154A9E0 VA: 0x18154C3E0
+	|-RVA: 0x154B4B0 Offset: 0x1549AB0 VA: 0x18154B4B0
 	|-JSON.DecodeDictionary<float, uint>
 	|
-	|-RVA: 0x154C770 Offset: 0x154AD70 VA: 0x18154C770
+	|-RVA: 0x154B840 Offset: 0x1549E40 VA: 0x18154B840
 	|-JSON.DecodeDictionary<float, ulong>
 	|
-	|-RVA: 0x154CB00 Offset: 0x154B100 VA: 0x18154CB00
+	|-RVA: 0x154BBD0 Offset: 0x154A1D0 VA: 0x18154BBD0
 	|-JSON.DecodeDictionary<ushort, bool>
 	|
-	|-RVA: 0x154CE90 Offset: 0x154B490 VA: 0x18154CE90
+	|-RVA: 0x154BF60 Offset: 0x154A560 VA: 0x18154BF60
 	|-JSON.DecodeDictionary<ushort, Decimal>
 	|
-	|-RVA: 0x154D220 Offset: 0x154B820 VA: 0x18154D220
+	|-RVA: 0x154C2F0 Offset: 0x154A8F0 VA: 0x18154C2F0
 	|-JSON.DecodeDictionary<ushort, double>
 	|
-	|-RVA: 0x154D5B0 Offset: 0x154BBB0 VA: 0x18154D5B0
+	|-RVA: 0x154C680 Offset: 0x154AC80 VA: 0x18154C680
 	|-JSON.DecodeDictionary<ushort, short>
 	|
-	|-RVA: 0x154D940 Offset: 0x154BF40 VA: 0x18154D940
+	|-RVA: 0x154CA10 Offset: 0x154B010 VA: 0x18154CA10
 	|-JSON.DecodeDictionary<ushort, int>
 	|
-	|-RVA: 0x154DCD0 Offset: 0x154C2D0 VA: 0x18154DCD0
+	|-RVA: 0x154CDA0 Offset: 0x154B3A0 VA: 0x18154CDA0
 	|-JSON.DecodeDictionary<ushort, long>
 	|
-	|-RVA: 0x154E060 Offset: 0x154C660 VA: 0x18154E060
+	|-RVA: 0x154D130 Offset: 0x154B730 VA: 0x18154D130
 	|-JSON.DecodeDictionary<ushort, object>
 	|
-	|-RVA: 0x154E3F0 Offset: 0x154C9F0 VA: 0x18154E3F0
+	|-RVA: 0x154D4C0 Offset: 0x154BAC0 VA: 0x18154D4C0
 	|-JSON.DecodeDictionary<ushort, float>
 	|
-	|-RVA: 0x154E780 Offset: 0x154CD80 VA: 0x18154E780
+	|-RVA: 0x154D850 Offset: 0x154BE50 VA: 0x18154D850
 	|-JSON.DecodeDictionary<ushort, ushort>
 	|
-	|-RVA: 0x154EB10 Offset: 0x154D110 VA: 0x18154EB10
+	|-RVA: 0x154DBE0 Offset: 0x154C1E0 VA: 0x18154DBE0
 	|-JSON.DecodeDictionary<ushort, uint>
 	|
-	|-RVA: 0x154EEA0 Offset: 0x154D4A0 VA: 0x18154EEA0
+	|-RVA: 0x154DF70 Offset: 0x154C570 VA: 0x18154DF70
 	|-JSON.DecodeDictionary<ushort, ulong>
 	|
-	|-RVA: 0x154F230 Offset: 0x154D830 VA: 0x18154F230
+	|-RVA: 0x154E300 Offset: 0x154C900 VA: 0x18154E300
 	|-JSON.DecodeDictionary<uint, bool>
 	|
-	|-RVA: 0x154F5C0 Offset: 0x154DBC0 VA: 0x18154F5C0
+	|-RVA: 0x154E690 Offset: 0x154CC90 VA: 0x18154E690
 	|-JSON.DecodeDictionary<uint, Decimal>
 	|
-	|-RVA: 0x154F950 Offset: 0x154DF50 VA: 0x18154F950
+	|-RVA: 0x154EA20 Offset: 0x154D020 VA: 0x18154EA20
 	|-JSON.DecodeDictionary<uint, double>
 	|
-	|-RVA: 0x154FCE0 Offset: 0x154E2E0 VA: 0x18154FCE0
+	|-RVA: 0x154EDB0 Offset: 0x154D3B0 VA: 0x18154EDB0
 	|-JSON.DecodeDictionary<uint, short>
 	|
-	|-RVA: 0x1550070 Offset: 0x154E670 VA: 0x181550070
+	|-RVA: 0x154F140 Offset: 0x154D740 VA: 0x18154F140
 	|-JSON.DecodeDictionary<uint, int>
 	|
-	|-RVA: 0x1550400 Offset: 0x154EA00 VA: 0x181550400
+	|-RVA: 0x154F4D0 Offset: 0x154DAD0 VA: 0x18154F4D0
 	|-JSON.DecodeDictionary<uint, long>
 	|
-	|-RVA: 0xCFFBF0 Offset: 0xCFE1F0 VA: 0x180CFFBF0
+	|-RVA: 0xD00090 Offset: 0xCFE690 VA: 0x180D00090
 	|-JSON.DecodeDictionary<uint, object>
 	|
-	|-RVA: 0xCFFF80 Offset: 0xCFE580 VA: 0x180CFFF80
+	|-RVA: 0xD00420 Offset: 0xCFEA20 VA: 0x180D00420
 	|-JSON.DecodeDictionary<uint, float>
 	|
-	|-RVA: 0xD00310 Offset: 0xCFE910 VA: 0x180D00310
+	|-RVA: 0xD007B0 Offset: 0xCFEDB0 VA: 0x180D007B0
 	|-JSON.DecodeDictionary<uint, ushort>
 	|
-	|-RVA: 0xD006A0 Offset: 0xCFECA0 VA: 0x180D006A0
+	|-RVA: 0xD00B40 Offset: 0xCFF140 VA: 0x180D00B40
 	|-JSON.DecodeDictionary<uint, uint>
 	|
-	|-RVA: 0xD00A30 Offset: 0xCFF030 VA: 0x180D00A30
+	|-RVA: 0xD00ED0 Offset: 0xCFF4D0 VA: 0x180D00ED0
 	|-JSON.DecodeDictionary<uint, ulong>
 	|
-	|-RVA: 0xD00DC0 Offset: 0xCFF3C0 VA: 0x180D00DC0
+	|-RVA: 0xD01260 Offset: 0xCFF860 VA: 0x180D01260
 	|-JSON.DecodeDictionary<ulong, bool>
 	|
-	|-RVA: 0xD01150 Offset: 0xCFF750 VA: 0x180D01150
+	|-RVA: 0xD015F0 Offset: 0xCFFBF0 VA: 0x180D015F0
 	|-JSON.DecodeDictionary<ulong, Decimal>
 	|
-	|-RVA: 0xD014E0 Offset: 0xCFFAE0 VA: 0x180D014E0
+	|-RVA: 0xD01980 Offset: 0xCFFF80 VA: 0x180D01980
 	|-JSON.DecodeDictionary<ulong, double>
 	|
-	|-RVA: 0xD01870 Offset: 0xCFFE70 VA: 0x180D01870
+	|-RVA: 0xD01D10 Offset: 0xD00310 VA: 0x180D01D10
 	|-JSON.DecodeDictionary<ulong, short>
 	|
-	|-RVA: 0xD01C00 Offset: 0xD00200 VA: 0x180D01C00
+	|-RVA: 0xD020A0 Offset: 0xD006A0 VA: 0x180D020A0
 	|-JSON.DecodeDictionary<ulong, int>
 	|
-	|-RVA: 0xD01F90 Offset: 0xD00590 VA: 0x180D01F90
+	|-RVA: 0xD02430 Offset: 0xD00A30 VA: 0x180D02430
 	|-JSON.DecodeDictionary<ulong, long>
 	|
-	|-RVA: 0xD02320 Offset: 0xD00920 VA: 0x180D02320
+	|-RVA: 0xD027C0 Offset: 0xD00DC0 VA: 0x180D027C0
 	|-JSON.DecodeDictionary<ulong, object>
 	|
-	|-RVA: 0xD026B0 Offset: 0xD00CB0 VA: 0x180D026B0
+	|-RVA: 0xD02B50 Offset: 0xD01150 VA: 0x180D02B50
 	|-JSON.DecodeDictionary<ulong, float>
 	|
-	|-RVA: 0xD02A40 Offset: 0xD01040 VA: 0x180D02A40
+	|-RVA: 0xD02EE0 Offset: 0xD014E0 VA: 0x180D02EE0
 	|-JSON.DecodeDictionary<ulong, ushort>
 	|
-	|-RVA: 0xD02DD0 Offset: 0xD013D0 VA: 0x180D02DD0
+	|-RVA: 0xD03270 Offset: 0xD01870 VA: 0x180D03270
 	|-JSON.DecodeDictionary<ulong, uint>
 	|
-	|-RVA: 0xD03160 Offset: 0xD01760 VA: 0x180D03160
+	|-RVA: 0xD03600 Offset: 0xD01C00 VA: 0x180D03600
 	|-JSON.DecodeDictionary<ulong, ulong>
 	*/
 
@@ -6421,37 +6421,37 @@ public static class JSON // TypeDefIndex: 11582
 	private static T[] DecodeArray<T>(Variant data) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A39EF0 Offset: 0x1A384F0 VA: 0x181A39EF0
+	|-RVA: 0x1A39610 Offset: 0x1A37C10 VA: 0x181A39610
 	|-JSON.DecodeArray<bool>
 	|
-	|-RVA: 0x1A3A110 Offset: 0x1A38710 VA: 0x181A3A110
+	|-RVA: 0x1A39830 Offset: 0x1A37E30 VA: 0x181A39830
 	|-JSON.DecodeArray<Decimal>
 	|
-	|-RVA: 0x1A3A350 Offset: 0x1A38950 VA: 0x181A3A350
+	|-RVA: 0x1A39A70 Offset: 0x1A38070 VA: 0x181A39A70
 	|-JSON.DecodeArray<double>
 	|
-	|-RVA: 0x1A3A580 Offset: 0x1A38B80 VA: 0x181A3A580
+	|-RVA: 0x1A39CA0 Offset: 0x1A382A0 VA: 0x181A39CA0
 	|-JSON.DecodeArray<short>
 	|
-	|-RVA: 0x1A3A7A0 Offset: 0x1A38DA0 VA: 0x181A3A7A0
+	|-RVA: 0x1A39EC0 Offset: 0x1A384C0 VA: 0x181A39EC0
 	|-JSON.DecodeArray<int>
 	|
-	|-RVA: 0x1A3A9C0 Offset: 0x1A38FC0 VA: 0x181A3A9C0
+	|-RVA: 0x1A3A0E0 Offset: 0x1A386E0 VA: 0x181A3A0E0
 	|-JSON.DecodeArray<long>
 	|
-	|-RVA: 0x1A3ABE0 Offset: 0x1A391E0 VA: 0x181A3ABE0
+	|-RVA: 0x1A3A300 Offset: 0x1A38900 VA: 0x181A3A300
 	|-JSON.DecodeArray<object>
 	|
-	|-RVA: 0x1A3ADF0 Offset: 0x1A393F0 VA: 0x181A3ADF0
+	|-RVA: 0x1A3A510 Offset: 0x1A38B10 VA: 0x181A3A510
 	|-JSON.DecodeArray<float>
 	|
-	|-RVA: 0x1A3B020 Offset: 0x1A39620 VA: 0x181A3B020
+	|-RVA: 0x1A3A740 Offset: 0x1A38D40 VA: 0x181A3A740
 	|-JSON.DecodeArray<ushort>
 	|
-	|-RVA: 0x1A3B240 Offset: 0x1A39840 VA: 0x181A3B240
+	|-RVA: 0x1A3A960 Offset: 0x1A38F60 VA: 0x181A3A960
 	|-JSON.DecodeArray<uint>
 	|
-	|-RVA: 0x1A3B460 Offset: 0x1A39A60 VA: 0x181A3B460
+	|-RVA: 0x1A3AB80 Offset: 0x1A39180 VA: 0x181A3AB80
 	|-JSON.DecodeArray<ulong>
 	*/
 
@@ -6460,7 +6460,7 @@ public static class JSON // TypeDefIndex: 11582
 	private static void DecodeMultiRankArray<T>(ProxyArray arrayData, Array array, int arrayRank, int[] indices) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CE9C0 Offset: 0x5CCFC0 VA: 0x1805CE9C0
+	|-RVA: 0x5CE950 Offset: 0x5CCF50 VA: 0x1805CE950
 	|-JSON.DecodeMultiRankArray<object>
 	*/
 
@@ -6469,46 +6469,46 @@ public static class JSON // TypeDefIndex: 11582
 	public static void SupportTypeForAOT<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CEBF0 Offset: 0x5CD1F0 VA: 0x1805CEBF0
+	|-RVA: 0x5CEB80 Offset: 0x5CD180 VA: 0x1805CEB80
 	|-JSON.SupportTypeForAOT<bool>
 	|
-	|-RVA: 0x5CED20 Offset: 0x5CD320 VA: 0x1805CED20
+	|-RVA: 0x5CECB0 Offset: 0x5CD2B0 VA: 0x1805CECB0
 	|-JSON.SupportTypeForAOT<Decimal>
 	|
-	|-RVA: 0x5CEE50 Offset: 0x5CD450 VA: 0x1805CEE50
+	|-RVA: 0x5CEDE0 Offset: 0x5CD3E0 VA: 0x1805CEDE0
 	|-JSON.SupportTypeForAOT<double>
 	|
-	|-RVA: 0x5CEF80 Offset: 0x5CD580 VA: 0x1805CEF80
+	|-RVA: 0x5CEF10 Offset: 0x5CD510 VA: 0x1805CEF10
 	|-JSON.SupportTypeForAOT<short>
 	|
-	|-RVA: 0x5CF0B0 Offset: 0x5CD6B0 VA: 0x1805CF0B0
+	|-RVA: 0x5CF040 Offset: 0x5CD640 VA: 0x1805CF040
 	|-JSON.SupportTypeForAOT<int>
 	|
-	|-RVA: 0x5CF1E0 Offset: 0x5CD7E0 VA: 0x1805CF1E0
+	|-RVA: 0x5CF170 Offset: 0x5CD770 VA: 0x1805CF170
 	|-JSON.SupportTypeForAOT<long>
 	|
-	|-RVA: 0x5CF310 Offset: 0x5CD910 VA: 0x1805CF310
+	|-RVA: 0x5CF2A0 Offset: 0x5CD8A0 VA: 0x1805CF2A0
 	|-JSON.SupportTypeForAOT<object>
 	|-JSON.SupportTypeForAOT<string>
 	|
-	|-RVA: 0x5CF440 Offset: 0x5CDA40 VA: 0x1805CF440
+	|-RVA: 0x5CF3D0 Offset: 0x5CD9D0 VA: 0x1805CF3D0
 	|-JSON.SupportTypeForAOT<float>
 	|
-	|-RVA: 0x5CF570 Offset: 0x5CDB70 VA: 0x1805CF570
+	|-RVA: 0x5CF500 Offset: 0x5CDB00 VA: 0x1805CF500
 	|-JSON.SupportTypeForAOT<ushort>
 	|
-	|-RVA: 0x5CF6A0 Offset: 0x5CDCA0 VA: 0x1805CF6A0
+	|-RVA: 0x5CF630 Offset: 0x5CDC30 VA: 0x1805CF630
 	|-JSON.SupportTypeForAOT<uint>
 	|
-	|-RVA: 0x5CF7D0 Offset: 0x5CDDD0 VA: 0x1805CF7D0
+	|-RVA: 0x5CF760 Offset: 0x5CDD60 VA: 0x1805CF760
 	|-JSON.SupportTypeForAOT<ulong>
 	*/
 
 	[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x87AB30 Offset: 0x879130 VA: 0x18087AB30
+	// RVA: 0x85DE70 Offset: 0x85C470 VA: 0x18085DE70
 	private static void SupportValueTypesForAOT() { }
 
-	// RVA: 0x87AC00 Offset: 0x879200 VA: 0x18087AC00
+	// RVA: 0x85DF40 Offset: 0x85C540 VA: 0x18085DF40
 	private static void .cctor() { }
 
 }

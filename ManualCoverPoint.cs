@@ -15,16 +15,16 @@ public class ManualCoverPoint : FacepunchBehaviour // TypeDefIndex: 12132
 	// RVA: 0x2FA9E0 Offset: 0x2F8FE0 VA: 0x1802FA9E0
 	public Vector3 get_Position() { }
 
-	// RVA: 0x4BF290 Offset: 0x4BD890 VA: 0x1804BF290
+	// RVA: 0x4BF220 Offset: 0x4BD820 VA: 0x1804BF220
 	public float get_DirectionMagnitude() { }
 
-	// RVA: 0x4BEF40 Offset: 0x4BD540 VA: 0x1804BEF40
+	// RVA: 0x4BEED0 Offset: 0x4BD4D0 VA: 0x1804BEED0
 	private void Awake() { }
 
-	// RVA: 0x4BF010 Offset: 0x4BD610 VA: 0x1804BF010
+	// RVA: 0x4BEFA0 Offset: 0x4BD5A0 VA: 0x1804BEFA0
 	public CoverPoint ToCoverPoint(CoverPointVolume volume) { }
 
-	// RVA: 0x4BF280 Offset: 0x4BD880 VA: 0x1804BF280
+	// RVA: 0x4BF210 Offset: 0x4BD810 VA: 0x1804BF210
 	public void .ctor() { }
 
 }

@@ -20,46 +20,46 @@ public class RustControl : UIBehaviour, IPointerEnterHandler, IEventSystemHandle
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 19
 	public virtual StyleAsset get_Styles() { }
 
-	// RVA: 0xFCBE70 Offset: 0xFCA470 VA: 0x180FCBE70 Slot: 20
+	// RVA: 0xFCC910 Offset: 0xFCAF10 VA: 0x180FCC910 Slot: 20
 	public virtual void set_Styles(StyleAsset value) { }
 
-	// RVA: 0xFCBB80 Offset: 0xFCA180 VA: 0x180FCBB80 Slot: 5
+	// RVA: 0xFCC620 Offset: 0xFCAC20 VA: 0x180FCC620 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0xFCBE10 Offset: 0xFCA410 VA: 0x180FCBE10
+	// RVA: 0xFCC8B0 Offset: 0xFCAEB0 VA: 0x180FCC8B0
 	public RectTransform get_rectTransform() { }
 
-	// RVA: 0xFCBBB0 Offset: 0xFCA1B0 VA: 0x180FCBBB0 Slot: 21
+	// RVA: 0xFCC650 Offset: 0xFCAC50 VA: 0x180FCC650 Slot: 21
 	public virtual void OnPointerEnter(PointerEventData eventData) { }
 
-	// RVA: 0xFCBBD0 Offset: 0xFCA1D0 VA: 0x180FCBBD0 Slot: 22
+	// RVA: 0xFCC670 Offset: 0xFCAC70 VA: 0x180FCC670 Slot: 22
 	public virtual void OnPointerExit(PointerEventData eventData) { }
 
-	// RVA: 0xFCBBF0 Offset: 0xFCA1F0 VA: 0x180FCBBF0 Slot: 23
+	// RVA: 0xFCC690 Offset: 0xFCAC90 VA: 0x180FCC690 Slot: 23
 	public virtual void SetDisabled(bool value) { }
 
-	// RVA: 0xFCBC50 Offset: 0xFCA250 VA: 0x180FCBC50 Slot: 24
+	// RVA: 0xFCC6F0 Offset: 0xFCACF0 VA: 0x180FCC6F0 Slot: 24
 	public virtual void SetPressed(bool value) { }
 
-	// RVA: 0xFCBDE0 Offset: 0xFCA3E0 VA: 0x180FCBDE0 Slot: 25
+	// RVA: 0xFCC880 Offset: 0xFCAE80 VA: 0x180FCC880 Slot: 25
 	public virtual bool get_IsDisabled() { }
 
-	// RVA: 0xFCBE00 Offset: 0xFCA400 VA: 0x180FCBE00 Slot: 26
+	// RVA: 0xFCC8A0 Offset: 0xFCAEA0 VA: 0x180FCC8A0 Slot: 26
 	public virtual bool get_IsPressed() { }
 
-	// RVA: 0xFCBDF0 Offset: 0xFCA3F0 VA: 0x180FCBDF0 Slot: 27
+	// RVA: 0xFCC890 Offset: 0xFCAE90 VA: 0x180FCC890 Slot: 27
 	public virtual bool get_IsHovered() { }
 
-	// RVA: 0xFCBCB0 Offset: 0xFCA2B0 VA: 0x180FCBCB0 Slot: 28
+	// RVA: 0xFCC750 Offset: 0xFCAD50 VA: 0x180FCC750 Slot: 28
 	public virtual StyleAsset.Group get_CurrentStyleCollection() { }
 
-	// RVA: 0xFCBAD0 Offset: 0xFCA0D0 VA: 0x180FCBAD0 Slot: 29
+	// RVA: 0xFCC570 Offset: 0xFCAB70 VA: 0x180FCC570 Slot: 29
 	public virtual void ApplyStyles() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 30
 	protected virtual void ApplyStyle(StyleAsset.Group s) { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

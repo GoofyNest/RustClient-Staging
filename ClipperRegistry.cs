@@ -8,19 +8,19 @@ public class ClipperRegistry // TypeDefIndex: 4912
 
 	// Methods
 
-	// RVA: 0x10B9A60 Offset: 0x10B8060 VA: 0x1810B9A60
+	// RVA: 0x10BA4D0 Offset: 0x10B8AD0 VA: 0x1810BA4D0
 	protected void .ctor() { }
 
-	// RVA: 0x10B9AD0 Offset: 0x10B80D0 VA: 0x1810B9AD0
+	// RVA: 0x10BA540 Offset: 0x10B8B40 VA: 0x1810BA540
 	public static ClipperRegistry get_instance() { }
 
-	// RVA: 0x10B9880 Offset: 0x10B7E80 VA: 0x1810B9880
+	// RVA: 0x10BA2F0 Offset: 0x10B88F0 VA: 0x1810BA2F0
 	public void Cull() { }
 
-	// RVA: 0x10B99A0 Offset: 0x10B7FA0 VA: 0x1810B99A0
+	// RVA: 0x10BA410 Offset: 0x10B8A10 VA: 0x1810BA410
 	public static void Register(IClipper c) { }
 
-	// RVA: 0x10B9A00 Offset: 0x10B8000 VA: 0x1810B9A00
+	// RVA: 0x10BA470 Offset: 0x10B8A70 VA: 0x1810BA470
 	public static void Unregister(IClipper c) { }
 
 }

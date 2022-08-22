@@ -16,34 +16,34 @@ internal class Lease : MarshalByRefObject, ILease // TypeDefIndex: 1165
 
 	// Methods
 
-	// RVA: 0x147A340 Offset: 0x1478940 VA: 0x18147A340
+	// RVA: 0x1479410 Offset: 0x1477A10 VA: 0x181479410
 	public void .ctor() { }
 
-	// RVA: 0x147A4E0 Offset: 0x1478AE0 VA: 0x18147A4E0 Slot: 6
+	// RVA: 0x14795B0 Offset: 0x1477BB0 VA: 0x1814795B0 Slot: 6
 	public TimeSpan get_CurrentLeaseTime() { }
 
-	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0 Slot: 7
+	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760 Slot: 7
 	public LeaseState get_CurrentState() { }
 
-	// RVA: 0x1479810 Offset: 0x1477E10 VA: 0x181479810
+	// RVA: 0x14788E0 Offset: 0x1476EE0 VA: 0x1814788E0
 	public void Activate() { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050 Slot: 8
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0 Slot: 8
 	public TimeSpan get_RenewOnCallTime() { }
 
-	// RVA: 0x1479F40 Offset: 0x1478540 VA: 0x181479F40 Slot: 9
+	// RVA: 0x1479010 Offset: 0x1477610 VA: 0x181479010 Slot: 9
 	public TimeSpan Renew(TimeSpan renewalTime) { }
 
-	// RVA: 0x147A020 Offset: 0x1478620 VA: 0x18147A020 Slot: 10
+	// RVA: 0x14790F0 Offset: 0x14776F0 VA: 0x1814790F0 Slot: 10
 	public void Unregister(ISponsor obj) { }
 
-	// RVA: 0x147A170 Offset: 0x1478770 VA: 0x18147A170
+	// RVA: 0x1479240 Offset: 0x1477840 VA: 0x181479240
 	internal void UpdateState() { }
 
-	// RVA: 0x1479820 Offset: 0x1477E20 VA: 0x181479820
+	// RVA: 0x14788F0 Offset: 0x1476EF0 VA: 0x1814788F0
 	private void CheckNextSponsor() { }
 
-	// RVA: 0x1479AA0 Offset: 0x14780A0 VA: 0x181479AA0
+	// RVA: 0x1478B70 Offset: 0x1477170 VA: 0x181478B70
 	private void ProcessSponsorResponse(object state, bool timedOut) { }
 
 }
@@ -54,13 +54,13 @@ private sealed class Lease.RenewalDelegate : MulticastDelegate // TypeDefIndex: 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x148C600 Offset: 0x148AC00 VA: 0x18148C600 Slot: 12
+	// RVA: 0x148B6D0 Offset: 0x1489CD0 VA: 0x18148B6D0 Slot: 12
 	public virtual TimeSpan Invoke(ILease lease) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13
 	public virtual IAsyncResult BeginInvoke(ILease lease, AsyncCallback callback, object object) { }
 
-	// RVA: 0x1221690 Offset: 0x121FC90 VA: 0x181221690 Slot: 14
+	// RVA: 0x1221D30 Offset: 0x1220330 VA: 0x181221D30 Slot: 14
 	public virtual TimeSpan EndInvoke(IAsyncResult result) { }
 
 }

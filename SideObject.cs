@@ -224,52 +224,52 @@ public class SideObject : ScriptableObject // TypeDefIndex: 7189
 
 	// Methods
 
-	// RVA: 0xB79210 Offset: 0xB77810 VA: 0x180B79210
+	// RVA: 0xB796E0 Offset: 0xB77CE0 VA: 0x180B796E0
 	public void SetSideObject(int count, int scategory) { }
 
-	// RVA: 0xB79300 Offset: 0xB77900 VA: 0x180B79300
+	// RVA: 0xB797D0 Offset: 0xB77DD0 VA: 0x180B797D0
 	public void UpdateTimeStamp() { }
 
-	// RVA: 0xB75240 Offset: 0xB73840 VA: 0x180B75240
+	// RVA: 0xB75710 Offset: 0xB73D10 VA: 0x180B75710
 	public void OOCCDCDOQC() { }
 
-	// RVA: 0xB788E0 Offset: 0xB76EE0 VA: 0x180B788E0
+	// RVA: 0xB78DB0 Offset: 0xB773B0 VA: 0x180B78DB0
 	public void OQOQOQOODC() { }
 
-	// RVA: 0xB78E10 Offset: 0xB77410 VA: 0x180B78E10
+	// RVA: 0xB792E0 Offset: 0xB778E0 VA: 0x180B792E0
 	public void SetMaxVertices() { }
 
-	// RVA: 0xB73760 Offset: 0xB71D60 VA: 0x180B73760
+	// RVA: 0xB73C30 Offset: 0xB72230 VA: 0x180B73C30
 	public static bool CheckSOChildActive(List<ERSOSection> sections, SideObject so) { }
 
-	// RVA: 0xB76400 Offset: 0xB74A00 VA: 0x180B76400
+	// RVA: 0xB768D0 Offset: 0xB74ED0 VA: 0x180B768D0
 	public void OOOCDOQOOC(bool updateTimeStamp) { }
 
-	// RVA: 0xB78000 Offset: 0xB76600 VA: 0x180B78000
+	// RVA: 0xB784D0 Offset: 0xB76AD0 VA: 0x180B784D0
 	public void OQDODCOODC() { }
 
-	// RVA: 0xB76810 Offset: 0xB74E10 VA: 0x180B76810
+	// RVA: 0xB76CE0 Offset: 0xB752E0 VA: 0x180B76CE0
 	public void OQDDDDOOQD(Vector3 m_testMeshPos, bool updateTimeStamp) { }
 
-	// RVA: 0xB78490 Offset: 0xB76A90 VA: 0x180B78490
+	// RVA: 0xB78960 Offset: 0xB76F60 VA: 0x180B78960
 	private void OQOODQQQQC(List<Vector3> vecs, float startDistance, List<Vector3> vecs1, float endDistance, ref List<int> startArray, ref List<int> endArray, int section) { }
 
-	// RVA: 0xB78B20 Offset: 0xB77120 VA: 0x180B78B20
+	// RVA: 0xB78FF0 Offset: 0xB775F0 VA: 0x180B78FF0
 	private float OQQDDOCDDQ(List<GameObject> goObjects, bool rotate180) { }
 
-	// RVA: 0xB73C10 Offset: 0xB72210 VA: 0x180B73C10
+	// RVA: 0xB740E0 Offset: 0xB726E0 VA: 0x180B740E0
 	private bool HasMissingData(ERMesh meshData, ERMesh meshData2, int ignore) { }
 
-	// RVA: 0xB75500 Offset: 0xB73B00 VA: 0x180B75500
+	// RVA: 0xB759D0 Offset: 0xB73FD0 VA: 0x180B759D0
 	public void OODOOOQQCO(SideObject so) { }
 
-	// RVA: 0xB74360 Offset: 0xB72960 VA: 0x180B74360
+	// RVA: 0xB74830 Offset: 0xB72E30 VA: 0x180B74830
 	public void OCDOCDQQQO(SideObjectLog so) { }
 
-	// RVA: 0xB73B60 Offset: 0xB72160 VA: 0x180B73B60
+	// RVA: 0xB74030 Offset: 0xB72630 VA: 0x180B74030
 	public void Clear() { }
 
-	// RVA: 0xB793A0 Offset: 0xB779A0 VA: 0x180B793A0
+	// RVA: 0xB79870 Offset: 0xB77E70 VA: 0x180B79870
 	public void .ctor() { }
 
 }

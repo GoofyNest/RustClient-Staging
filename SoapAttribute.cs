@@ -17,7 +17,7 @@ public class SoapAttribute : Attribute // TypeDefIndex: 1210
 
 	// Methods
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90 Slot: 7

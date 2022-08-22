@@ -4,13 +4,13 @@ public class MapMarkerDeliveryDrone : MapMarker // TypeDefIndex: 8801
 
 	// Methods
 
-	// RVA: 0x566C00 Offset: 0x565200 VA: 0x180566C00 Slot: 131
+	// RVA: 0x566B90 Offset: 0x565190 VA: 0x180566B90 Slot: 131
 	public override void SetupUIMarker(GameObject marker) { }
 
-	// RVA: 0x566E10 Offset: 0x565410 VA: 0x180566E10
+	// RVA: 0x566DA0 Offset: 0x5653A0 VA: 0x180566DA0
 	public void Update() { }
 
-	// RVA: 0x566F90 Offset: 0x565590 VA: 0x180566F90
+	// RVA: 0x566F20 Offset: 0x565520 VA: 0x180566F20
 	public void .ctor() { }
 
 }

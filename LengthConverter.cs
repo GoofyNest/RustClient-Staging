@@ -5,11 +5,11 @@ public static class LengthConverter // TypeDefIndex: 7473
 	public static TTimeSpan ConvertTo<TTimeSpan>(long length, long time, TempoMap tempoMap) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9430 Offset: 0x15B7A30 VA: 0x1815B9430
+	|-RVA: 0x15B8500 Offset: 0x15B6B00 VA: 0x1815B8500
 	|-LengthConverter.ConvertTo<object>
 	*/
 
-	// RVA: 0x1399F10 Offset: 0x1398510 VA: 0x181399F10
+	// RVA: 0x1399010 Offset: 0x1397610 VA: 0x181399010
 	public static long ConvertFrom(ITimeSpan length, long time, TempoMap tempoMap) { }
 
 }

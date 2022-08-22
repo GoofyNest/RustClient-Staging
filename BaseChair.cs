@@ -1,7 +1,7 @@
 public class BaseChair : BaseMountable // TypeDefIndex: 9695
 {	// Methods
 
-	// RVA: 0x7D6D40 Offset: 0x7D5340 VA: 0x1807D6D40
+	// RVA: 0x7A2660 Offset: 0x7A0C60 VA: 0x1807A2660
 	public void .ctor() { }
 
 }

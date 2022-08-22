@@ -18,38 +18,38 @@ public class Claim // TypeDefIndex: 934
 
 	// Methods
 
-	// RVA: 0x12928C0 Offset: 0x1290EC0 VA: 0x1812928C0
+	// RVA: 0x1292F60 Offset: 0x1291560 VA: 0x181292F60
 	public void .ctor(string type, string value, string valueType, string issuer, string originalIssuer, ClaimsIdentity subject) { }
 
-	// RVA: 0x1292A70 Offset: 0x1291070 VA: 0x181292A70
+	// RVA: 0x1293110 Offset: 0x1291710 VA: 0x181293110
 	internal void .ctor(string type, string value, string valueType, string issuer, string originalIssuer, ClaimsIdentity subject, string propertyKey, string propertyValue) { }
 
-	// RVA: 0x1292CC0 Offset: 0x12912C0 VA: 0x181292CC0
+	// RVA: 0x1293360 Offset: 0x1291960 VA: 0x181293360
 	protected void .ctor(Claim other, ClaimsIdentity subject) { }
 
 	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12927F0 Offset: 0x1290DF0 VA: 0x1812927F0
+	// RVA: 0x1292E90 Offset: 0x1291490 VA: 0x181292E90
 	private void OnDeserializedMethod(StreamingContext context) { }
 
-	// RVA: 0x1292F90 Offset: 0x1291590 VA: 0x181292F90
+	// RVA: 0x1293630 Offset: 0x1291C30 VA: 0x181293630
 	public IDictionary<string, string> get_Properties() { }
 
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	public ClaimsIdentity get_Subject() { }
 
-	// RVA: 0x4CF890 Offset: 0x4CDE90 VA: 0x1804CF890
+	// RVA: 0x4CF820 Offset: 0x4CDE20 VA: 0x1804CF820
 	internal void set_Subject(ClaimsIdentity value) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public string get_Type() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public string get_Value() { }
 
-	// RVA: 0x1292780 Offset: 0x1290D80 VA: 0x181292780 Slot: 4
+	// RVA: 0x1292E20 Offset: 0x1291420 VA: 0x181292E20 Slot: 4
 	public virtual Claim Clone(ClaimsIdentity identity) { }
 
-	// RVA: 0x1292850 Offset: 0x1290E50 VA: 0x181292850 Slot: 3
+	// RVA: 0x1292EF0 Offset: 0x12914F0 VA: 0x181292EF0 Slot: 3
 	public override string ToString() { }
 
 }

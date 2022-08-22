@@ -16,56 +16,56 @@ public class MissionsHUD : SingletonComponent<MissionsHUD> // TypeDefIndex: 1118
 
 	// Methods
 
-	// RVA: 0x76AE90 Offset: 0x769490 VA: 0x18076AE90
+	// RVA: 0x76ADE0 Offset: 0x7693E0 VA: 0x18076ADE0
 	public bool get_IsOpen() { }
 
-	// RVA: 0x76A430 Offset: 0x768A30 VA: 0x18076A430
+	// RVA: 0x76A380 Offset: 0x768980 VA: 0x18076A380
 	public void OnEnable() { }
 
-	// RVA: 0x769D10 Offset: 0x768310 VA: 0x180769D10
+	// RVA: 0x769C60 Offset: 0x768260 VA: 0x180769C60
 	private void ClientConnected() { }
 
-	// RVA: 0x76A530 Offset: 0x768B30 VA: 0x18076A530
+	// RVA: 0x76A480 Offset: 0x768A80 VA: 0x18076A480
 	public void Reset() { }
 
-	// RVA: 0x769D20 Offset: 0x768320 VA: 0x180769D20
+	// RVA: 0x769C70 Offset: 0x768270 VA: 0x180769C70
 	public static void ClientMissionUpdate() { }
 
-	// RVA: 0x769DF0 Offset: 0x7683F0 VA: 0x180769DF0
+	// RVA: 0x769D40 Offset: 0x768340 VA: 0x180769D40
 	public void ForceUpdate() { }
 
-	// RVA: 0x76A990 Offset: 0x768F90 VA: 0x18076A990
+	// RVA: 0x76A8E0 Offset: 0x768EE0 VA: 0x18076A8E0
 	public void UpdateTimeText() { }
 
-	// RVA: 0x76AE20 Offset: 0x769420 VA: 0x18076AE20
+	// RVA: 0x76AD70 Offset: 0x769370 VA: 0x18076AD70
 	public void Update() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x9EC10 Offset: 0x9E010 VA: 0x18009EC10
-	// RVA: 0x76A920 Offset: 0x768F20 VA: 0x18076A920
+	// RVA: 0x76A870 Offset: 0x768E70 VA: 0x18076A870
 	private IEnumerator Think() { }
 
-	// RVA: 0x76A5B0 Offset: 0x768BB0 VA: 0x18076A5B0
+	// RVA: 0x76A500 Offset: 0x768B00 VA: 0x18076A500
 	public bool ShouldShow() { }
 
-	// RVA: 0x769FA0 Offset: 0x7685A0 VA: 0x180769FA0
+	// RVA: 0x769EF0 Offset: 0x7684F0 VA: 0x180769EF0
 	public void Hide() { }
 
-	// RVA: 0x76A750 Offset: 0x768D50 VA: 0x18076A750
+	// RVA: 0x76A6A0 Offset: 0x768CA0 VA: 0x18076A6A0
 	private void Show() { }
 
-	// RVA: 0x76A120 Offset: 0x768720 VA: 0x18076A120
+	// RVA: 0x76A070 Offset: 0x768670 VA: 0x18076A070
 	public void Initialize() { }
 
-	// RVA: 0x76A490 Offset: 0x768A90 VA: 0x18076A490
+	// RVA: 0x76A3E0 Offset: 0x7689E0 VA: 0x18076A3E0
 	public void OnItemComplete() { }
 
-	// RVA: 0x7699B0 Offset: 0x767FB0 VA: 0x1807699B0
+	// RVA: 0x769900 Offset: 0x767F00 VA: 0x180769900
 	public void CheckForListComplete() { }
 
-	// RVA: 0x513E50 Offset: 0x512450 VA: 0x180513E50
+	// RVA: 0x513DE0 Offset: 0x5123E0 VA: 0x180513DE0
 	public void BlockNextOpenSound() { }
 
-	// RVA: 0x76AE30 Offset: 0x769430 VA: 0x18076AE30
+	// RVA: 0x76AD80 Offset: 0x769380 VA: 0x18076AD80
 	public void .ctor() { }
 
 }
@@ -90,7 +90,7 @@ private sealed class MissionsHUD.<Think>d__19 : IEnumerator<object>, IEnumerator
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x77F5D0 Offset: 0x77DBD0 VA: 0x18077F5D0 Slot: 6
+	// RVA: 0x77F520 Offset: 0x77DB20 VA: 0x18077F520 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -98,7 +98,7 @@ private sealed class MissionsHUD.<Think>d__19 : IEnumerator<object>, IEnumerator
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x77F6B0 Offset: 0x77DCB0 VA: 0x18077F6B0 Slot: 8
+	// RVA: 0x77F600 Offset: 0x77DC00 VA: 0x18077F600 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

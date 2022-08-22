@@ -9,19 +9,19 @@ internal class SelectorActiveAxis : ActiveAxis // TypeDefIndex: 2147
 
 	// Methods
 
-	// RVA: 0xEEF500 Offset: 0xEEDB00 VA: 0x180EEF500
+	// RVA: 0xEEFFB0 Offset: 0xEEE5B0 VA: 0x180EEFFB0
 	public int get_lastDepth() { }
 
-	// RVA: 0xEEF470 Offset: 0xEEDA70 VA: 0x180EEF470
+	// RVA: 0xEEFF20 Offset: 0xEEE520 VA: 0x180EEFF20
 	public void .ctor(Asttree axisTree, ConstraintStruct cs) { }
 
-	// RVA: 0xEEEEE0 Offset: 0xEED4E0 VA: 0x180EEEEE0 Slot: 4
+	// RVA: 0xEEF990 Offset: 0xEEDF90 VA: 0x180EEF990 Slot: 4
 	public override bool EndElement(string localname, string URN) { }
 
-	// RVA: 0xEEF0E0 Offset: 0xEED6E0 VA: 0x180EEF0E0
+	// RVA: 0xEEFB90 Offset: 0xEEE190 VA: 0x180EEFB90
 	public int PushKS(int errline, int errcol) { }
 
-	// RVA: 0xEEF000 Offset: 0xEED600 VA: 0x180EEF000
+	// RVA: 0xEEFAB0 Offset: 0xEEE0B0 VA: 0x180EEFAB0
 	public KeySequence PopKS() { }
 
 }

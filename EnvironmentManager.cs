@@ -1,22 +1,22 @@
 public class EnvironmentManager : SingletonComponent<EnvironmentManager> // TypeDefIndex: 9861
 {	// Methods
 
-	// RVA: 0x8C9E10 Offset: 0x8C8410 VA: 0x1808C9E10
+	// RVA: 0x8CA320 Offset: 0x8C8920 VA: 0x1808CA320
 	public static EnvironmentType Get(OBB obb) { }
 
-	// RVA: 0x8C9B90 Offset: 0x8C8190 VA: 0x1808C9B90
+	// RVA: 0x8CA0A0 Offset: 0x8C86A0 VA: 0x1808CA0A0
 	public static EnvironmentType Get(Vector3 pos, ref List<EnvironmentVolume> list) { }
 
-	// RVA: 0x8C9CA0 Offset: 0x8C82A0 VA: 0x1808C9CA0
+	// RVA: 0x8CA1B0 Offset: 0x8C87B0 VA: 0x1808CA1B0
 	public static EnvironmentType Get(Vector3 pos) { }
 
-	// RVA: 0x8C99F0 Offset: 0x8C7FF0 VA: 0x1808C99F0
+	// RVA: 0x8C9F00 Offset: 0x8C8500 VA: 0x1808C9F00
 	public static bool Check(OBB obb, EnvironmentType type) { }
 
-	// RVA: 0x8C9880 Offset: 0x8C7E80 VA: 0x1808C9880
+	// RVA: 0x8C9D90 Offset: 0x8C8390 VA: 0x1808C9D90
 	public static bool Check(Vector3 pos, EnvironmentType type) { }
 
-	// RVA: 0x8C9FB0 Offset: 0x8C85B0 VA: 0x1808C9FB0
+	// RVA: 0x8CA4C0 Offset: 0x8C8AC0 VA: 0x1808CA4C0
 	public void .ctor() { }
 
 }

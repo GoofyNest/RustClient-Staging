@@ -1,6 +1,6 @@
 internal struct LicensesUpdated_t : ICallbackData // TypeDefIndex: 5298
 {	// Fields
-	public static int _datasize; // 0x2B11334
+	public static int _datasize; // 0x13709
 
 	// Properties
 	public int DataSize { get; }
@@ -8,13 +8,13 @@ internal struct LicensesUpdated_t : ICallbackData // TypeDefIndex: 5298
 
 	// Methods
 
-	// RVA: 0x1EB360 Offset: 0x1EA760 VA: 0x1801EB360 Slot: 5
+	// RVA: 0x1EB780 Offset: 0x1EAB80 VA: 0x1801EB780 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EB350 Offset: 0x1EA750 VA: 0x1801EB350 Slot: 4
+	// RVA: 0x1EB770 Offset: 0x1EAB70 VA: 0x1801EB770 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1373970 Offset: 0x1371F70 VA: 0x181373970
+	// RVA: 0x1372A70 Offset: 0x1371070 VA: 0x181372A70
 	private static void .cctor() { }
 
 }

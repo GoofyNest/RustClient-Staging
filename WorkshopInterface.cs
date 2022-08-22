@@ -4,16 +4,16 @@ public class WorkshopInterface : SingletonComponent<WorkshopInterface> // TypeDe
 
 	// Methods
 
-	// RVA: 0xE81230 Offset: 0xE7F830 VA: 0x180E81230
+	// RVA: 0xE81CE0 Offset: 0xE802E0 VA: 0x180E81CE0
 	internal WorkshopItemEditor get_Editor() { }
 
-	// RVA: 0xE80D20 Offset: 0xE7F320 VA: 0x180E80D20
+	// RVA: 0xE817D0 Offset: 0xE7FDD0 VA: 0x180E817D0
 	public void Exit() { }
 
-	// RVA: 0xE80DB0 Offset: 0xE7F3B0 VA: 0x180E80DB0
+	// RVA: 0xE81860 Offset: 0xE7FE60 VA: 0x180E81860
 	public void RenderAllIcons() { }
 
-	// RVA: 0xE811D0 Offset: 0xE7F7D0 VA: 0x180E811D0
+	// RVA: 0xE81C80 Offset: 0xE80280 VA: 0x180E81C80
 	public void .ctor() { }
 
 }

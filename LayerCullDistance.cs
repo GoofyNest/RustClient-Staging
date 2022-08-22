@@ -5,10 +5,10 @@ public class LayerCullDistance : MonoBehaviour // TypeDefIndex: 11308
 
 	// Methods
 
-	// RVA: 0x68A5A0 Offset: 0x688BA0 VA: 0x18068A5A0
+	// RVA: 0x68A530 Offset: 0x688B30 VA: 0x18068A530
 	protected void OnEnable() { }
 
-	// RVA: 0x68A650 Offset: 0x688C50 VA: 0x18068A650
+	// RVA: 0x68A5E0 Offset: 0x688BE0 VA: 0x18068A5E0
 	public void .ctor() { }
 
 }

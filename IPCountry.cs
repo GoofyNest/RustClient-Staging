@@ -1,6 +1,6 @@
 internal struct IPCountry_t : ICallbackData // TypeDefIndex: 5327
 {	// Fields
-	public static int _datasize; // 0x138FE
+	public static int _datasize; // 0x13710
 
 	// Properties
 	public int DataSize { get; }
@@ -8,13 +8,13 @@ internal struct IPCountry_t : ICallbackData // TypeDefIndex: 5327
 
 	// Methods
 
-	// RVA: 0x1EA900 Offset: 0x1E9D00 VA: 0x1801EA900 Slot: 5
+	// RVA: 0x1EAD20 Offset: 0x1EA120 VA: 0x1801EAD20 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA8F0 Offset: 0x1E9CF0 VA: 0x1801EA8F0 Slot: 4
+	// RVA: 0x1EAD10 Offset: 0x1EA110 VA: 0x1801EAD10 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372F20 Offset: 0x1371520 VA: 0x181372F20
+	// RVA: 0x1372020 Offset: 0x1370620 VA: 0x181372020
 	private static void .cctor() { }
 
 }

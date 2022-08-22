@@ -9,25 +9,25 @@ public struct Ray // TypeDefIndex: 3375
 
 	// Methods
 
-	// RVA: 0x217D90 Offset: 0x217190 VA: 0x180217D90
+	// RVA: 0x218460 Offset: 0x217860 VA: 0x180218460
 	public void .ctor(Vector3 origin, Vector3 direction) { }
 
-	// RVA: 0x212B90 Offset: 0x211F90 VA: 0x180212B90
+	// RVA: 0x211FC0 Offset: 0x2113C0 VA: 0x180211FC0
 	public Vector3 get_origin() { }
 
-	// RVA: 0x204F30 Offset: 0x204330 VA: 0x180204F30
+	// RVA: 0x204B60 Offset: 0x203F60 VA: 0x180204B60
 	public void set_origin(Vector3 value) { }
 
-	// RVA: 0x212BB0 Offset: 0x211FB0 VA: 0x180212BB0
+	// RVA: 0x211FE0 Offset: 0x2113E0 VA: 0x180211FE0
 	public Vector3 get_direction() { }
 
-	// RVA: 0x217DF0 Offset: 0x2171F0 VA: 0x180217DF0
+	// RVA: 0x2184C0 Offset: 0x2178C0 VA: 0x1802184C0
 	public void set_direction(Vector3 value) { }
 
-	// RVA: 0x217B10 Offset: 0x216F10 VA: 0x180217B10
+	// RVA: 0x2181E0 Offset: 0x2175E0 VA: 0x1802181E0
 	public Vector3 GetPoint(float distance) { }
 
-	// RVA: 0x217C20 Offset: 0x217020 VA: 0x180217C20 Slot: 3
+	// RVA: 0x2182F0 Offset: 0x2176F0 VA: 0x1802182F0 Slot: 3
 	public override string ToString() { }
 
 }

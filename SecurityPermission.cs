@@ -9,22 +9,22 @@ public sealed class SecurityPermission : CodeAccessPermission // TypeDefIndex: 9
 
 	// Methods
 
-	// RVA: 0x17C5AF0 Offset: 0x17C40F0 VA: 0x1817C5AF0
+	// RVA: 0x17C3640 Offset: 0x17C1C40 VA: 0x1817C3640
 	public void .ctor(PermissionState state) { }
 
-	// RVA: 0x17C5A00 Offset: 0x17C4000 VA: 0x1817C5A00 Slot: 10
+	// RVA: 0x17C3550 Offset: 0x17C1B50 VA: 0x1817C3550 Slot: 10
 	public bool IsUnrestricted() { }
 
-	// RVA: 0x17C5900 Offset: 0x17C3F00 VA: 0x1817C5900 Slot: 8
+	// RVA: 0x17C3450 Offset: 0x17C1A50 VA: 0x1817C3450 Slot: 8
 	public override bool IsSubsetOf(IPermission target) { }
 
-	// RVA: 0x17C5A10 Offset: 0x17C4010 VA: 0x1817C5A10 Slot: 9
+	// RVA: 0x17C3560 Offset: 0x17C1B60 VA: 0x1817C3560 Slot: 9
 	public override SecurityElement ToXml() { }
 
-	// RVA: 0x17C58F0 Offset: 0x17C3EF0 VA: 0x1817C58F0
+	// RVA: 0x17C3440 Offset: 0x17C1A40 VA: 0x1817C3440
 	private bool IsEmpty() { }
 
-	// RVA: 0x17C5850 Offset: 0x17C3E50 VA: 0x1817C5850
+	// RVA: 0x17C33A0 Offset: 0x17C19A0 VA: 0x1817C33A0
 	private SecurityPermission Cast(IPermission target) { }
 
 }

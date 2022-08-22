@@ -26,45 +26,45 @@ public class MeshPaintable3D : BaseMeshPaintable // TypeDefIndex: 9205
 
 	// Methods
 
-	// RVA: 0x965920 Offset: 0x963F20 VA: 0x180965920
+	// RVA: 0x965E20 Offset: 0x964420 VA: 0x180965E20
 	public void OnDestroy() { }
 
-	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320 Slot: 4
+	// RVA: 0x5362B0 Offset: 0x5348B0 VA: 0x1805362B0 Slot: 4
 	public override Texture2D get_TargetTexture() { }
 
-	// RVA: 0x536330 Offset: 0x534930 VA: 0x180536330 Slot: 5
+	// RVA: 0x5362C0 Offset: 0x5348C0 VA: 0x1805362C0 Slot: 5
 	public override void set_TargetTexture(Texture2D value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x966200 Offset: 0x964800 VA: 0x180966200 Slot: 6
+	// RVA: 0x966700 Offset: 0x964D00 VA: 0x180966700 Slot: 6
 	public override bool get_HasChanges() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x966210 Offset: 0x964810 VA: 0x180966210 Slot: 7
+	// RVA: 0x966710 Offset: 0x964D10 VA: 0x180966710 Slot: 7
 	public override void set_HasChanges(bool value) { }
 
-	// RVA: 0x9652A0 Offset: 0x9638A0 VA: 0x1809652A0 Slot: 8
+	// RVA: 0x9657A0 Offset: 0x963DA0 VA: 0x1809657A0 Slot: 8
 	public override void Init(MeshPaintableSource source, bool isSelected) { }
 
-	// RVA: 0x964C60 Offset: 0x963260 VA: 0x180964C60 Slot: 11
+	// RVA: 0x965160 Offset: 0x963760 VA: 0x180965160 Slot: 11
 	public override void DrawTexture(Vector2 uv, float width, float height, Texture2D texture, Color textureColor) { }
 
-	// RVA: 0x964B80 Offset: 0x963180 VA: 0x180964B80 Slot: 9
+	// RVA: 0x965080 Offset: 0x963680 VA: 0x180965080 Slot: 9
 	public override void Clear() { }
 
-	// RVA: 0x964AE0 Offset: 0x9630E0 VA: 0x180964AE0 Slot: 10
+	// RVA: 0x964FE0 Offset: 0x9635E0 VA: 0x180964FE0 Slot: 10
 	public override void Apply() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 12
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 12
 	public override bool ShouldHit(RaycastHit info) { }
 
-	// RVA: 0x965B40 Offset: 0x964140 VA: 0x180965B40
+	// RVA: 0x966040 Offset: 0x964640 VA: 0x180966040
 	private void PrepareForDrawing() { }
 
-	// RVA: 0x966180 Offset: 0x964780 VA: 0x180966180
+	// RVA: 0x966680 Offset: 0x964C80 VA: 0x180966680
 	public void .ctor() { }
 
-	// RVA: 0x966130 Offset: 0x964730 VA: 0x180966130
+	// RVA: 0x966630 Offset: 0x964C30 VA: 0x180966630
 	private static void .cctor() { }
 
 }
@@ -110,10 +110,10 @@ private struct MeshPaintable3D.DrawTextureJob : IJobParallelFor // TypeDefIndex:
 	// RVA: 0xFA750 Offset: 0xF9B50 VA: 0x1800FA750
 	private Color SampleTexture(float x, float y) { }
 
-	// RVA: 0x957B80 Offset: 0x956180 VA: 0x180957B80
+	// RVA: 0x958080 Offset: 0x956680 VA: 0x180958080
 	private static Color ToColor(float4 color) { }
 
-	// RVA: 0x957BC0 Offset: 0x9561C0 VA: 0x180957BC0
+	// RVA: 0x9580C0 Offset: 0x9566C0 VA: 0x1809580C0
 	private static float4 ToFloat4(Color color) { }
 
 }

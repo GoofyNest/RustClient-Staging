@@ -6,31 +6,31 @@ public class FrequencyConfig : UIDialog // TypeDefIndex: 9812
 
 	// Methods
 
-	// RVA: 0x5218E0 Offset: 0x51FEE0 VA: 0x1805218E0 Slot: 8
+	// RVA: 0x521870 Offset: 0x51FE70 VA: 0x180521870 Slot: 8
 	public override void OpenDialog() { }
 
-	// RVA: 0x755290 Offset: 0x753890 VA: 0x180755290
+	// RVA: 0x7551E0 Offset: 0x7537E0 VA: 0x1807551E0
 	public void SetRFObj(IRFObject obj) { }
 
-	// RVA: 0x754F40 Offset: 0x753540 VA: 0x180754F40
+	// RVA: 0x754E90 Offset: 0x753490 VA: 0x180754E90
 	public void Confirm() { }
 
-	// RVA: 0x7551F0 Offset: 0x7537F0 VA: 0x1807551F0
+	// RVA: 0x755140 Offset: 0x753740 VA: 0x180755140
 	public void SelectTextField() { }
 
-	// RVA: 0x755020 Offset: 0x753620 VA: 0x180755020
+	// RVA: 0x754F70 Offset: 0x753570 VA: 0x180754F70
 	public int GetIntValue() { }
 
-	// RVA: 0x755390 Offset: 0x753990 VA: 0x180755390
+	// RVA: 0x7552E0 Offset: 0x7538E0 VA: 0x1807552E0
 	public void ValueChanged() { }
 
-	// RVA: 0x4C27D0 Offset: 0x4C0DD0 VA: 0x1804C27D0
+	// RVA: 0x4C2760 Offset: 0x4C0D60 VA: 0x1804C2760
 	public void Cancel() { }
 
-	// RVA: 0x755100 Offset: 0x753700 VA: 0x180755100
+	// RVA: 0x755050 Offset: 0x753650 VA: 0x180755050
 	public void OnTextFieldEnd() { }
 
-	// RVA: 0x4C1AB0 Offset: 0x4C00B0 VA: 0x1804C1AB0
+	// RVA: 0x4C1A40 Offset: 0x4C0040 VA: 0x1804C1A40
 	public void .ctor() { }
 
 }

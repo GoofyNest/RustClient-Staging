@@ -14,13 +14,13 @@ public class ZoomImage : MonoBehaviour, IScrollHandler, IEventSystemHandler // T
 
 	// Methods
 
-	// RVA: 0x1A90400 Offset: 0x1A8EA00 VA: 0x181A90400
+	// RVA: 0x1A7CC10 Offset: 0x1A7B210 VA: 0x181A7CC10
 	private void Awake() { }
 
-	// RVA: 0x1A904C0 Offset: 0x1A8EAC0 VA: 0x181A904C0 Slot: 4
+	// RVA: 0x1A7CCD0 Offset: 0x1A7B2D0 VA: 0x181A7CCD0 Slot: 4
 	public void OnScroll(PointerEventData eventData) { }
 
-	// RVA: 0x1A90790 Offset: 0x1A8ED90 VA: 0x181A90790
+	// RVA: 0x1A7CFA0 Offset: 0x1A7B5A0 VA: 0x181A7CFA0
 	public void .ctor() { }
 
 }

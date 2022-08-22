@@ -10,16 +10,16 @@ public class DynamicMouseCursor : MonoBehaviour // TypeDefIndex: 10921
 
 	// Methods
 
-	// RVA: 0xAB5EF0 Offset: 0xAB44F0 VA: 0x180AB5EF0
+	// RVA: 0xAB63C0 Offset: 0xAB49C0 VA: 0x180AB63C0
 	private void LateUpdate() { }
 
-	// RVA: 0xAB6050 Offset: 0xAB4650 VA: 0x180AB6050
+	// RVA: 0xAB6520 Offset: 0xAB4B20 VA: 0x180AB6520
 	private void UpdateCursor(Texture2D cursor, Vector2 offs) { }
 
-	// RVA: 0xAB5C50 Offset: 0xAB4250 VA: 0x180AB5C50
+	// RVA: 0xAB6120 Offset: 0xAB4720 VA: 0x180AB6120
 	private GameObject CurrentlyHoveredItem() { }
 
-	// RVA: 0xAB6100 Offset: 0xAB4700 VA: 0x180AB6100
+	// RVA: 0xAB65D0 Offset: 0xAB4BD0 VA: 0x180AB65D0
 	public void .ctor() { }
 
 }

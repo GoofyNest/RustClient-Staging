@@ -8,16 +8,16 @@ public class ERLaneData // TypeDefIndex: 7198
 
 	// Methods
 
-	// RVA: 0x9BA6A0 Offset: 0x9B8CA0 VA: 0x1809BA6A0
+	// RVA: 0x9BAB90 Offset: 0x9B9190 VA: 0x1809BAB90
 	public static ERLaneData CreateInstance() { }
 
-	// RVA: 0x9BA820 Offset: 0x9B8E20 VA: 0x1809BA820
+	// RVA: 0x9BAD10 Offset: 0x9B9310 VA: 0x1809BAD10
 	public static ERLaneData OOOOCQCDDC(List<ERLaneData> laneData, int index) { }
 
-	// RVA: 0x9BA740 Offset: 0x9B8D40 VA: 0x1809BA740
+	// RVA: 0x9BAC30 Offset: 0x9B9230 VA: 0x1809BAC30
 	public bool Exists(int index, int lane) { }
 
-	// RVA: 0x9BA8E0 Offset: 0x9B8EE0 VA: 0x1809BA8E0
+	// RVA: 0x9BADD0 Offset: 0x9B93D0 VA: 0x1809BADD0
 	public void .ctor() { }
 
 }

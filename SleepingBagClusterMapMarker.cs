@@ -10,16 +10,16 @@ public class SleepingBagClusterMapMarker : MonoBehaviour // TypeDefIndex: 10960
 
 	// Methods
 
-	// RVA: 0x5A7E90 Offset: 0x5A6490 VA: 0x1805A7E90
+	// RVA: 0x5A7E20 Offset: 0x5A6420 VA: 0x1805A7E20
 	public void OnEnable() { }
 
-	// RVA: 0x5A7FF0 Offset: 0x5A65F0 VA: 0x1805A7FF0
+	// RVA: 0x5A7F80 Offset: 0x5A6580 VA: 0x1805A7F80
 	public void Populate(List<RespawnInformation.SpawnOptions> options, UIDeathScreen.RespawnColourScheme colourScheme) { }
 
-	// RVA: 0x5A7DB0 Offset: 0x5A63B0 VA: 0x1805A7DB0
+	// RVA: 0x5A7D40 Offset: 0x5A6340 VA: 0x1805A7D40
 	private SleepingBagButton GetButton() { }
 
-	// RVA: 0x5A8300 Offset: 0x5A6900 VA: 0x1805A8300
+	// RVA: 0x5A8290 Offset: 0x5A6890 VA: 0x1805A8290
 	public void ToggleOpen() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -29,7 +29,7 @@ public class SleepingBagClusterMapMarker : MonoBehaviour // TypeDefIndex: 10960
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5A8650 Offset: 0x5A6C50 VA: 0x1805A8650
+	// RVA: 0x5A85E0 Offset: 0x5A6BE0 VA: 0x1805A85E0
 	private void <ToggleOpen>b__10_0() { }
 
 }

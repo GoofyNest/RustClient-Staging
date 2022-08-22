@@ -4,16 +4,16 @@ internal class LeaseSink : IMessageSink // TypeDefIndex: 1168
 
 	// Methods
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	public void .ctor(IMessageSink nextSink) { }
 
-	// RVA: 0x14797A0 Offset: 0x1477DA0 VA: 0x1814797A0 Slot: 4
+	// RVA: 0x1478870 Offset: 0x1476E70 VA: 0x181478870 Slot: 4
 	public IMessage SyncProcessMessage(IMessage msg) { }
 
-	// RVA: 0x1479520 Offset: 0x1477B20 VA: 0x181479520 Slot: 5
+	// RVA: 0x14785F0 Offset: 0x1476BF0 VA: 0x1814785F0 Slot: 5
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink) { }
 
-	// RVA: 0x14795A0 Offset: 0x1477BA0 VA: 0x1814795A0
+	// RVA: 0x1478670 Offset: 0x1476C70 VA: 0x181478670
 	private void RenewLease(IMessage msg) { }
 
 }

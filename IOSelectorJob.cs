@@ -6,16 +6,16 @@ internal class IOSelectorJob : IThreadPoolWorkItem // TypeDefIndex: 2595
 
 	// Methods
 
-	// RVA: 0x12F4930 Offset: 0x12F2F30 VA: 0x1812F4930
+	// RVA: 0x12FADE0 Offset: 0x12F93E0 VA: 0x1812FADE0
 	public void .ctor(IOOperation operation, IOAsyncCallback callback, IOAsyncResult state) { }
 
-	// RVA: 0x1533BF0 Offset: 0x15321F0 VA: 0x181533BF0 Slot: 4
+	// RVA: 0x1532CC0 Offset: 0x15312C0 VA: 0x181532CC0 Slot: 4
 	private void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.Threading.IThreadPoolWorkItem.MarkAborted(ThreadAbortException tae) { }
 
-	// RVA: 0x1533BC0 Offset: 0x15321C0 VA: 0x181533BC0
+	// RVA: 0x1532C90 Offset: 0x1531290 VA: 0x181532C90
 	public void MarkDisposed() { }
 
 }

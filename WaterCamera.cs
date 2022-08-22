@@ -15,7 +15,7 @@ public class WaterCamera : MonoBehaviour // TypeDefIndex: 10599
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	private void set_Camera(Camera value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -31,23 +31,23 @@ public class WaterCamera : MonoBehaviour // TypeDefIndex: 10599
 	public CommandBufferManager get_CommandBufferManager() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	private void set_PostOpaqueDepth(PostOpaqueDepth value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public PostOpaqueDepth get_PostOpaqueDepth() { }
 
-	// RVA: 0x803BE0 Offset: 0x8021E0 VA: 0x180803BE0
+	// RVA: 0x804170 Offset: 0x802770 VA: 0x180804170
 	private void CheckComponents() { }
 
-	// RVA: 0x803BD0 Offset: 0x8021D0 VA: 0x180803BD0
+	// RVA: 0x804160 Offset: 0x802760 VA: 0x180804160
 	private void Awake() { }
 
-	// RVA: 0x803D90 Offset: 0x802390 VA: 0x180803D90
+	// RVA: 0x804320 Offset: 0x802920 VA: 0x180804320
 	private void OnEnable() { }
 
-	// RVA: 0x803D30 Offset: 0x802330 VA: 0x180803D30
+	// RVA: 0x8042C0 Offset: 0x8028C0 VA: 0x1808042C0
 	private void OnDisable() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

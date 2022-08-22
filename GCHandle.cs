@@ -8,70 +8,70 @@ public struct GCHandle // TypeDefIndex: 1353
 
 	// Methods
 
-	// RVA: 0x14C540 Offset: 0x14B940 VA: 0x18014C540
+	// RVA: 0x14C360 Offset: 0x14B760 VA: 0x18014C360
 	private void .ctor(IntPtr h) { }
 
-	// RVA: 0x14C4E0 Offset: 0x14B8E0 VA: 0x18014C4E0
+	// RVA: 0x14C300 Offset: 0x14B700 VA: 0x18014C300
 	private void .ctor(object obj) { }
 
-	// RVA: 0x14C510 Offset: 0x14B910 VA: 0x18014C510
+	// RVA: 0x14C330 Offset: 0x14B730 VA: 0x18014C330
 	internal void .ctor(object value, GCHandleType type) { }
 
-	// RVA: 0x14C560 Offset: 0x14B960 VA: 0x18014C560
+	// RVA: 0x14C380 Offset: 0x14B780 VA: 0x18014C380
 	public bool get_IsAllocated() { }
 
-	// RVA: 0x14C570 Offset: 0x14B970 VA: 0x18014C570
+	// RVA: 0x14C390 Offset: 0x14B790 VA: 0x18014C390
 	public object get_Target() { }
 
-	// RVA: 0x14C5F0 Offset: 0x14B9F0 VA: 0x18014C5F0
+	// RVA: 0x14C410 Offset: 0x14B810 VA: 0x18014C410
 	public void set_Target(object value) { }
 
-	// RVA: 0x14C2E0 Offset: 0x14B6E0 VA: 0x18014C2E0
+	// RVA: 0x14C100 Offset: 0x14B500 VA: 0x18014C100
 	public IntPtr AddrOfPinnedObject() { }
 
-	// RVA: 0xFE7950 Offset: 0xFE5F50 VA: 0x180FE7950
+	// RVA: 0xFE83F0 Offset: 0xFE69F0 VA: 0x180FE83F0
 	public static GCHandle Alloc(object value) { }
 
-	// RVA: 0xFE7930 Offset: 0xFE5F30 VA: 0x180FE7930
+	// RVA: 0xFE83D0 Offset: 0xFE69D0 VA: 0x180FE83D0
 	public static GCHandle Alloc(object value, GCHandleType type) { }
 
-	// RVA: 0x14C440 Offset: 0x14B840 VA: 0x18014C440
+	// RVA: 0x14C260 Offset: 0x14B660 VA: 0x18014C260
 	public void Free() { }
 
-	// RVA: 0xFE7B80 Offset: 0xFE6180 VA: 0x180FE7B80
+	// RVA: 0xFE8620 Offset: 0xFE6C20 VA: 0x180FE8620
 	public static IntPtr op_Explicit(GCHandle value) { }
 
-	// RVA: 0xFE7A90 Offset: 0xFE6090 VA: 0x180FE7A90
+	// RVA: 0xFE8530 Offset: 0xFE6B30 VA: 0x180FE8530
 	public static GCHandle op_Explicit(IntPtr value) { }
 
-	// RVA: 0xFE7960 Offset: 0xFE5F60 VA: 0x180FE7960
+	// RVA: 0xFE8400 Offset: 0xFE6A00 VA: 0x180FE8400
 	private static bool CheckCurrentDomain(int handle) { }
 
-	// RVA: 0xFE7B70 Offset: 0xFE6170 VA: 0x180FE7B70
+	// RVA: 0xFE8610 Offset: 0xFE6C10 VA: 0x180FE8610
 	private static object GetTarget(int handle) { }
 
-	// RVA: 0xFE7B60 Offset: 0xFE6160 VA: 0x180FE7B60
+	// RVA: 0xFE8600 Offset: 0xFE6C00 VA: 0x180FE8600
 	private static int GetTargetHandle(object obj, int handle, GCHandleType type) { }
 
-	// RVA: 0xFE79F0 Offset: 0xFE5FF0 VA: 0x180FE79F0
+	// RVA: 0xFE8490 Offset: 0xFE6A90 VA: 0x180FE8490
 	private static void FreeHandle(int handle) { }
 
-	// RVA: 0xFE7B50 Offset: 0xFE6150 VA: 0x180FE7B50
+	// RVA: 0xFE85F0 Offset: 0xFE6BF0 VA: 0x180FE85F0
 	private static IntPtr GetAddrOfPinnedObject(int handle) { }
 
-	// RVA: 0xFE7C50 Offset: 0xFE6250 VA: 0x180FE7C50
+	// RVA: 0xFE86F0 Offset: 0xFE6CF0 VA: 0x180FE86F0
 	public static bool op_Equality(GCHandle a, GCHandle b) { }
 
-	// RVA: 0x14C3C0 Offset: 0x14B7C0 VA: 0x18014C3C0 Slot: 0
+	// RVA: 0x14C1E0 Offset: 0x14B5E0 VA: 0x18014C1E0 Slot: 0
 	public override bool Equals(object o) { }
 
-	// RVA: 0x14C4D0 Offset: 0x14B8D0 VA: 0x18014C4D0 Slot: 2
+	// RVA: 0x14C2F0 Offset: 0x14B6F0 VA: 0x18014C2F0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xFE7A90 Offset: 0xFE6090 VA: 0x180FE7A90
+	// RVA: 0xFE8530 Offset: 0xFE6B30 VA: 0x180FE8530
 	public static GCHandle FromIntPtr(IntPtr value) { }
 
-	// RVA: 0xFE7B80 Offset: 0xFE6180 VA: 0x180FE7B80
+	// RVA: 0xFE8620 Offset: 0xFE6C20 VA: 0x180FE8620
 	public static IntPtr ToIntPtr(GCHandle value) { }
 
 }

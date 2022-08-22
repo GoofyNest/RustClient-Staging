@@ -17,7 +17,7 @@ public class GranuleInfo // TypeDefIndex: 7410
 
 	// Methods
 
-	// RVA: 0x5DDDC0 Offset: 0x5DC3C0 VA: 0x1805DDDC0
+	// RVA: 0x5DDD50 Offset: 0x5DC350 VA: 0x1805DDD50
 	internal void .ctor() { }
 
 }

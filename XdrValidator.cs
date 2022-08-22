@@ -16,85 +16,85 @@ internal sealed class XdrValidator : BaseValidator // TypeDefIndex: 2302
 
 	// Methods
 
-	// RVA: 0x142D5B0 Offset: 0x142BBB0 VA: 0x18142D5B0
+	// RVA: 0x142C690 Offset: 0x142AC90 VA: 0x18142C690
 	internal void .ctor(BaseValidator validator) { }
 
-	// RVA: 0x142D4F0 Offset: 0x142BAF0 VA: 0x18142D4F0
+	// RVA: 0x142C5D0 Offset: 0x142ABD0 VA: 0x18142C5D0
 	internal void .ctor(XmlValidatingReaderImpl reader, XmlSchemaCollection schemaCollection, IValidationEventHandling eventHandling) { }
 
-	// RVA: 0x142AE90 Offset: 0x1429490 VA: 0x18142AE90
+	// RVA: 0x1429F70 Offset: 0x1428570 VA: 0x181429F70
 	private void Init() { }
 
-	// RVA: 0x142D420 Offset: 0x142BA20 VA: 0x18142D420 Slot: 5
+	// RVA: 0x142C500 Offset: 0x142AB00 VA: 0x18142C500 Slot: 5
 	public override void Validate() { }
 
-	// RVA: 0x142C5F0 Offset: 0x142ABF0 VA: 0x18142C5F0
+	// RVA: 0x142B6D0 Offset: 0x1429CD0 VA: 0x18142B6D0
 	private void ValidateElement() { }
 
-	// RVA: 0x142C440 Offset: 0x142AA40 VA: 0x18142C440
+	// RVA: 0x142B520 Offset: 0x1429B20 VA: 0x18142B520
 	private void ValidateChildElement() { }
 
-	// RVA: 0x111B540 Offset: 0x1119B40 VA: 0x18111B540
+	// RVA: 0x111BFB0 Offset: 0x111A5B0 VA: 0x18111BFB0
 	private bool get_IsInlineSchemaStarted() { }
 
-	// RVA: 0x142BA00 Offset: 0x142A000 VA: 0x18142BA00
+	// RVA: 0x142AAE0 Offset: 0x14290E0 VA: 0x18142AAE0
 	private void ProcessInlineSchema() { }
 
-	// RVA: 0x142B920 Offset: 0x1429F20 VA: 0x18142B920
+	// RVA: 0x142AA00 Offset: 0x1429000 VA: 0x18142AA00
 	private void ProcessElement() { }
 
-	// RVA: 0x142CA00 Offset: 0x142B000 VA: 0x18142CA00
+	// RVA: 0x142BAE0 Offset: 0x142A0E0 VA: 0x18142BAE0
 	private void ValidateEndElement() { }
 
-	// RVA: 0x142C090 Offset: 0x142A690 VA: 0x18142C090
+	// RVA: 0x142B170 Offset: 0x1429770 VA: 0x18142B170
 	private SchemaElementDecl ThoroughGetElementDecl() { }
 
-	// RVA: 0x142CFD0 Offset: 0x142B5D0 VA: 0x18142CFD0
+	// RVA: 0x142C0B0 Offset: 0x142A6B0 VA: 0x18142C0B0
 	private void ValidateStartElement() { }
 
-	// RVA: 0x142CCB0 Offset: 0x142B2B0 VA: 0x18142CCB0
+	// RVA: 0x142BD90 Offset: 0x142A390 VA: 0x18142BD90
 	private void ValidateEndStartElement() { }
 
-	// RVA: 0x142B070 Offset: 0x1429670 VA: 0x18142B070
+	// RVA: 0x142A150 Offset: 0x1428750 VA: 0x18142A150
 	private void LoadSchemaFromLocation(string uri) { }
 
-	// RVA: 0x142B6F0 Offset: 0x1429CF0 VA: 0x18142B6F0
+	// RVA: 0x142A7D0 Offset: 0x1428DD0 VA: 0x18142A7D0
 	private void LoadSchema(string uri) { }
 
-	// RVA: 0x111B520 Offset: 0x1119B20 VA: 0x18111B520
+	// RVA: 0x111BF90 Offset: 0x111A590 VA: 0x18111BF90
 	private bool get_HasSchema() { }
 
-	// RVA: 0x111B550 Offset: 0x1119B50 VA: 0x18111B550 Slot: 4
+	// RVA: 0x111BFC0 Offset: 0x111A5C0 VA: 0x18111BFC0 Slot: 4
 	public override bool get_PreserveWhitespace() { }
 
-	// RVA: 0x142BC20 Offset: 0x142A220 VA: 0x18142BC20
+	// RVA: 0x142AD00 Offset: 0x1429300 VA: 0x18142AD00
 	private void ProcessTokenizedType(XmlTokenizedType ttype, string name) { }
 
-	// RVA: 0x142ACC0 Offset: 0x14292C0 VA: 0x18142ACC0 Slot: 6
+	// RVA: 0x1429DA0 Offset: 0x14283A0 VA: 0x181429DA0 Slot: 6
 	public override void CompleteValidation() { }
 
-	// RVA: 0x142A7F0 Offset: 0x1428DF0 VA: 0x18142A7F0
+	// RVA: 0x14298D0 Offset: 0x1427ED0 VA: 0x1814298D0
 	private void CheckValue(string value, SchemaAttDef attdef) { }
 
-	// RVA: 0x142A2B0 Offset: 0x14288B0 VA: 0x18142A2B0
+	// RVA: 0x1429390 Offset: 0x1427990 VA: 0x181429390
 	public static void CheckDefaultValue(string value, SchemaAttDef attdef, SchemaInfo sinfo, XmlNamespaceManager nsManager, XmlNameTable NameTable, object sender, ValidationEventHandler eventhandler, string baseUri, int lineNo, int linePos) { }
 
-	// RVA: 0x142A200 Offset: 0x1428800 VA: 0x18142A200
+	// RVA: 0x14292E0 Offset: 0x14278E0 VA: 0x1814292E0
 	internal void AddID(string name, object node) { }
 
-	// RVA: 0x1117A40 Offset: 0x1116040 VA: 0x181117A40 Slot: 7
+	// RVA: 0x11184B0 Offset: 0x1116AB0 VA: 0x1811184B0 Slot: 7
 	public override object FindId(string name) { }
 
-	// RVA: 0x142BEA0 Offset: 0x142A4A0 VA: 0x18142BEA0
+	// RVA: 0x142AF80 Offset: 0x1429580 VA: 0x18142AF80
 	private void Push(XmlQualifiedName elementName) { }
 
-	// RVA: 0x142B880 Offset: 0x1429E80 VA: 0x18142B880
+	// RVA: 0x142A960 Offset: 0x1428F60 VA: 0x18142A960
 	private void Pop() { }
 
-	// RVA: 0x142A6B0 Offset: 0x1428CB0 VA: 0x18142A6B0
+	// RVA: 0x1429790 Offset: 0x1427D90 VA: 0x181429790
 	private void CheckForwardRefs() { }
 
-	// RVA: 0x142BFF0 Offset: 0x142A5F0 VA: 0x18142BFF0
+	// RVA: 0x142B0D0 Offset: 0x14296D0 VA: 0x18142B0D0
 	private XmlQualifiedName QualifiedName(string name, string ns) { }
 
 }

@@ -21,7 +21,7 @@ internal sealed class ValidationState // TypeDefIndex: 2290
 
 	// Methods
 
-	// RVA: 0xEF21B0 Offset: 0xEF07B0 VA: 0x180EF21B0
+	// RVA: 0xEF2C60 Offset: 0xEF1260 VA: 0x180EF2C60
 	public void .ctor() { }
 
 }

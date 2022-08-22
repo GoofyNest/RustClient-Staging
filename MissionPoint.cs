@@ -7,82 +7,82 @@ public class MissionPoint : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x1F4E6C0 Offset: 0x1F4CCC0 VA: 0x181F4E6C0
+	// RVA: 0x1F4EEE0 Offset: 0x1F4D4E0 VA: 0x181F4EEE0
 	public static void ResetToPool(MissionPoint instance) { }
 
-	// RVA: 0x1F4E610 Offset: 0x1F4CC10 VA: 0x181F4E610
+	// RVA: 0x1F4EE30 Offset: 0x1F4D430 VA: 0x181F4EE30
 	public void ResetToPool() { }
 
-	// RVA: 0x1F4E550 Offset: 0x1F4CB50 VA: 0x181F4E550 Slot: 9
+	// RVA: 0x1F4ED70 Offset: 0x1F4D370 VA: 0x181F4ED70 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F4DA70 Offset: 0x1F4C070 VA: 0x181F4DA70
+	// RVA: 0x1F4E290 Offset: 0x1F4C890 VA: 0x181F4E290
 	public void CopyTo(MissionPoint instance) { }
 
-	// RVA: 0x1F4DAC0 Offset: 0x1F4C0C0 VA: 0x181F4DAC0
+	// RVA: 0x1F4E2E0 Offset: 0x1F4C8E0 VA: 0x181F4E2E0
 	public MissionPoint Copy() { }
 
-	// RVA: 0x1F4E4D0 Offset: 0x1F4CAD0 VA: 0x181F4E4D0
+	// RVA: 0x1F4ECF0 Offset: 0x1F4D2F0 VA: 0x181F4ECF0
 	public static MissionPoint Deserialize(Stream stream) { }
 
-	// RVA: 0x1F4DDC0 Offset: 0x1F4C3C0 VA: 0x181F4DDC0
+	// RVA: 0x1F4E5E0 Offset: 0x1F4CBE0 VA: 0x181F4E5E0
 	public static MissionPoint DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F4DE40 Offset: 0x1F4C440 VA: 0x181F4DE40
+	// RVA: 0x1F4E660 Offset: 0x1F4CC60 VA: 0x181F4E660
 	public static MissionPoint DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F4E210 Offset: 0x1F4C810 VA: 0x181F4E210
+	// RVA: 0x1F4EA30 Offset: 0x1F4D030 VA: 0x181F4EA30
 	public static MissionPoint Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F4E5D0 Offset: 0x1F4CBD0 VA: 0x181F4E5D0
+	// RVA: 0x1F4EDF0 Offset: 0x1F4D3F0 VA: 0x181F4EDF0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F4EE20 Offset: 0x1F4D420 VA: 0x181F4EE20 Slot: 12
+	// RVA: 0x1F4F640 Offset: 0x1F4DC40 VA: 0x181F4F640 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F4EE40 Offset: 0x1F4D440 VA: 0x181F4EE40 Slot: 13
+	// RVA: 0x1F4F660 Offset: 0x1F4DC60 VA: 0x181F4F660 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, MissionPoint previous) { }
 
-	// RVA: 0x1F4E5F0 Offset: 0x1F4CBF0 VA: 0x181F4E5F0 Slot: 14
+	// RVA: 0x1F4EE10 Offset: 0x1F4D410 VA: 0x181F4EE10 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F4E110 Offset: 0x1F4C710 VA: 0x181F4E110
+	// RVA: 0x1F4E930 Offset: 0x1F4CF30 VA: 0x181F4E930
 	public static MissionPoint Deserialize(byte[] buffer, MissionPoint instance, bool isDelta = False) { }
 
-	// RVA: 0x1F4E330 Offset: 0x1F4C930 VA: 0x181F4E330
+	// RVA: 0x1F4EB50 Offset: 0x1F4D150 VA: 0x181F4EB50
 	public static MissionPoint Deserialize(Stream stream, MissionPoint instance, bool isDelta) { }
 
-	// RVA: 0x1F4DB50 Offset: 0x1F4C150 VA: 0x181F4DB50
+	// RVA: 0x1F4E370 Offset: 0x1F4C970 VA: 0x181F4E370
 	public static MissionPoint DeserializeLengthDelimited(Stream stream, MissionPoint instance, bool isDelta) { }
 
-	// RVA: 0x1F4DED0 Offset: 0x1F4C4D0 VA: 0x181F4DED0
+	// RVA: 0x1F4E6F0 Offset: 0x1F4CCF0 VA: 0x181F4E6F0
 	public static MissionPoint DeserializeLength(Stream stream, int length, MissionPoint instance, bool isDelta) { }
 
-	// RVA: 0x1F4E770 Offset: 0x1F4CD70 VA: 0x181F4E770
+	// RVA: 0x1F4EF90 Offset: 0x1F4D590 VA: 0x181F4EF90
 	public static void SerializeDelta(Stream stream, MissionPoint instance, MissionPoint previous) { }
 
-	// RVA: 0x1F4EC10 Offset: 0x1F4D210 VA: 0x181F4EC10
+	// RVA: 0x1F4F430 Offset: 0x1F4DA30 VA: 0x181F4F430
 	public static void Serialize(Stream stream, MissionPoint instance) { }
 
-	// RVA: 0x1F4EE10 Offset: 0x1F4D410 VA: 0x181F4EE10
+	// RVA: 0x1F4F630 Offset: 0x1F4DC30 VA: 0x181F4F630
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F4EE20 Offset: 0x1F4D420 VA: 0x181F4EE20
+	// RVA: 0x1F4F640 Offset: 0x1F4DC40 VA: 0x181F4F640
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F4EB00 Offset: 0x1F4D100 VA: 0x181F4EB00
+	// RVA: 0x1F4F320 Offset: 0x1F4D920 VA: 0x181F4F320
 	public static byte[] SerializeToBytes(MissionPoint instance) { }
 
-	// RVA: 0x1F4EA50 Offset: 0x1F4D050 VA: 0x181F4EA50
+	// RVA: 0x1F4F270 Offset: 0x1F4D870 VA: 0x181F4F270
 	public static void SerializeLengthDelimited(Stream stream, MissionPoint instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -110,16 +110,16 @@ public class MissionPoint : MonoBehaviour // TypeDefIndex: 10215
 
 	// Methods
 
-	// RVA: 0x768350 Offset: 0x766950 VA: 0x180768350
+	// RVA: 0x7682A0 Offset: 0x7668A0 VA: 0x1807682A0
 	public static int TypeToIndex(int id) { }
 
-	// RVA: 0x768340 Offset: 0x766940 VA: 0x180768340
+	// RVA: 0x768290 Offset: 0x766890 VA: 0x180768290
 	public static int IndexToType(int idx) { }
 
-	// RVA: 0x7684C0 Offset: 0x766AC0 VA: 0x1807684C0
+	// RVA: 0x768410 Offset: 0x766A10 VA: 0x180768410
 	public void .ctor() { }
 
-	// RVA: 0x7683D0 Offset: 0x7669D0 VA: 0x1807683D0
+	// RVA: 0x768320 Offset: 0x766920 VA: 0x180768320
 	private static void .cctor() { }
 
 }

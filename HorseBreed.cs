@@ -10,7 +10,7 @@ public class HorseBreed : ScriptableObject // TypeDefIndex: 8960
 
 	// Methods
 
-	// RVA: 0x741FE0 Offset: 0x7405E0 VA: 0x180741FE0
+	// RVA: 0x741F30 Offset: 0x740530 VA: 0x180741F30
 	public void .ctor() { }
 
 }

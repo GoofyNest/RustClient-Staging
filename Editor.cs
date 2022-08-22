@@ -21,38 +21,38 @@ public struct Editor // TypeDefIndex: 5274
 
 	// Methods
 
-	// RVA: 0x223F00 Offset: 0x223300 VA: 0x180223F00
+	// RVA: 0x21F480 Offset: 0x21E880 VA: 0x18021F480
 	internal void .ctor(WorkshopFileType filetype) { }
 
-	// RVA: 0x223F30 Offset: 0x223330 VA: 0x180223F30
+	// RVA: 0x21F4B0 Offset: 0x21E8B0 VA: 0x18021F4B0
 	public void .ctor(PublishedFileId fileId) { }
 
-	// RVA: 0x19D5AB0 Offset: 0x19D40B0 VA: 0x1819D5AB0
+	// RVA: 0x19C2EB0 Offset: 0x19C14B0 VA: 0x1819C2EB0
 	public static Editor get_NewMicrotransactionFile() { }
 
-	// RVA: 0x223E90 Offset: 0x223290 VA: 0x180223E90
+	// RVA: 0x21F410 Offset: 0x21E810 VA: 0x18021F410
 	public Editor WithTitle(string t) { }
 
-	// RVA: 0x223AF0 Offset: 0x222EF0 VA: 0x180223AF0
+	// RVA: 0x21F070 Offset: 0x21E470 VA: 0x18021F070
 	public Editor WithChangeLog(string t) { }
 
-	// RVA: 0x223C90 Offset: 0x223090 VA: 0x180223C90
+	// RVA: 0x21F210 Offset: 0x21E610 VA: 0x18021F210
 	public Editor WithPreviewFile(string t) { }
 
-	// RVA: 0x223B60 Offset: 0x222F60 VA: 0x180223B60
+	// RVA: 0x21F0E0 Offset: 0x21E4E0 VA: 0x18021F0E0
 	public Editor WithContent(DirectoryInfo t) { }
 
-	// RVA: 0x223BD0 Offset: 0x222FD0 VA: 0x180223BD0
+	// RVA: 0x21F150 Offset: 0x21E550 VA: 0x18021F150
 	public Editor WithContent(string folderName) { }
 
-	// RVA: 0x223D00 Offset: 0x223100 VA: 0x180223D00
+	// RVA: 0x21F280 Offset: 0x21E680 VA: 0x18021F280
 	public Editor WithPublicVisibility() { }
 
-	// RVA: 0x223DA0 Offset: 0x2231A0 VA: 0x180223DA0
+	// RVA: 0x21F320 Offset: 0x21E720 VA: 0x18021F320
 	public Editor WithTag(string tag) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x9CB90 Offset: 0x9BF90 VA: 0x18009CB90
-	// RVA: 0x223990 Offset: 0x222D90 VA: 0x180223990
+	// RVA: 0x21EF10 Offset: 0x21E310 VA: 0x18021EF10
 	public Task<PublishResult> SubmitAsync(IProgress<float> progress, Action<PublishResult> onItemCreated) { }
 
 }
@@ -72,11 +72,11 @@ private struct Editor.<SubmitAsync>d__40 : IAsyncStateMachine // TypeDefIndex: 5
 
 	// Methods
 
-	// RVA: 0x224F30 Offset: 0x224330 VA: 0x180224F30 Slot: 4
+	// RVA: 0x2204B0 Offset: 0x21F8B0 VA: 0x1802204B0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x224F40 Offset: 0x224340 VA: 0x180224F40 Slot: 5
+	// RVA: 0x2204C0 Offset: 0x21F8C0 VA: 0x1802204C0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -84,7 +84,7 @@ private struct Editor.<SubmitAsync>d__40 : IAsyncStateMachine // TypeDefIndex: 5
 public class Editor : ConsoleSystem // TypeDefIndex: 11909
 {	// Methods
 
-	// RVA: 0x6DBE20 Offset: 0x6DA420 VA: 0x1806DBE20
+	// RVA: 0x6DBDB0 Offset: 0x6DA3B0 VA: 0x1806DBDB0
 	public void .ctor() { }
 
 }

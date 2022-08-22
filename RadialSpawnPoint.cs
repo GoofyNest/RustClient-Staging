@@ -4,7 +4,7 @@ public class RadialSpawnPoint : BaseSpawnPoint // TypeDefIndex: 10005
 
 	// Methods
 
-	// RVA: 0x6A1F40 Offset: 0x6A0540 VA: 0x1806A1F40
+	// RVA: 0x6A1ED0 Offset: 0x6A04D0 VA: 0x1806A1ED0
 	public void .ctor() { }
 
 }

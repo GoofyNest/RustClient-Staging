@@ -9,19 +9,19 @@ internal sealed class ParsingResult // TypeDefIndex: 7630
 
 	// Methods
 
-	// RVA: 0x13A48C0 Offset: 0x13A2EC0 VA: 0x1813A48C0
+	// RVA: 0x13A39C0 Offset: 0x13A1FC0 VA: 0x1813A39C0
 	private void .ctor(string error) { }
 
-	// RVA: 0x13A4940 Offset: 0x13A2F40 VA: 0x1813A4940
+	// RVA: 0x13A3A40 Offset: 0x13A2040 VA: 0x1813A3A40
 	private void .ctor(ParsingStatus status) { }
 
-	// RVA: 0x13A4900 Offset: 0x13A2F00 VA: 0x1813A4900
+	// RVA: 0x13A3A00 Offset: 0x13A2000 VA: 0x1813A3A00
 	private void .ctor(ParsingStatus status, string error) { }
 
-	// RVA: 0x13A4740 Offset: 0x13A2D40 VA: 0x1813A4740
+	// RVA: 0x13A3840 Offset: 0x13A1E40 VA: 0x1813A3840
 	public static ParsingResult Error(string error) { }
 
-	// RVA: 0x13A47B0 Offset: 0x13A2DB0 VA: 0x1813A47B0
+	// RVA: 0x13A38B0 Offset: 0x13A1EB0 VA: 0x1813A38B0
 	private static void .cctor() { }
 
 }

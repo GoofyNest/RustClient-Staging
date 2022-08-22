@@ -5,10 +5,10 @@ public static class NoteButtons // TypeDefIndex: 12117
 
 	// Methods
 
-	// RVA: 0x4C1B60 Offset: 0x4C0160 VA: 0x1804C1B60
+	// RVA: 0x4C1AF0 Offset: 0x4C00F0 VA: 0x1804C1AF0
 	public static Buttons.ConButton Find(Notes note, InstrumentKeyController.NoteType type) { }
 
-	// RVA: 0x4C1CD0 Offset: 0x4C02D0 VA: 0x1804C1CD0
+	// RVA: 0x4C1C60 Offset: 0x4C0260 VA: 0x1804C1C60
 	private static void .cctor() { }
 
 }

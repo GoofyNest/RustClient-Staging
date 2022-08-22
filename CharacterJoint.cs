@@ -17,7 +17,7 @@ public class CharacterJoint : Joint // TypeDefIndex: 3930
 
 	// Methods
 
-	// RVA: 0x2296EE0 Offset: 0x22954E0 VA: 0x182296EE0
+	// RVA: 0x2297700 Offset: 0x2295D00 VA: 0x182297700
 	public void set_enableProjection(bool value) { }
 
 }

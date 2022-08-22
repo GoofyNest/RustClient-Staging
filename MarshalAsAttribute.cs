@@ -15,7 +15,7 @@ public sealed class MarshalAsAttribute : Attribute // TypeDefIndex: 1356
 
 	// Methods
 
-	// RVA: 0xFEA160 Offset: 0xFE8760 VA: 0x180FEA160
+	// RVA: 0xFEAC00 Offset: 0xFE9200 VA: 0x180FEAC00
 	internal MarshalAsAttribute Copy() { }
 
 }

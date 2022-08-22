@@ -5,19 +5,19 @@ public class FXAA : FXAAPostEffectsBase, IImageEffect // TypeDefIndex: 11488
 
 	// Methods
 
-	// RVA: 0x8D6160 Offset: 0x8D4760 VA: 0x1808D6160
+	// RVA: 0x8D6670 Offset: 0x8D4C70 VA: 0x1808D6670
 	private void CreateMaterials() { }
 
-	// RVA: 0x8D63C0 Offset: 0x8D49C0 VA: 0x1808D63C0
+	// RVA: 0x8D68D0 Offset: 0x8D4ED0 VA: 0x1808D68D0
 	private void Start() { }
 
-	// RVA: 0x8D6200 Offset: 0x8D4800 VA: 0x1808D6200 Slot: 4
+	// RVA: 0x8D6710 Offset: 0x8D4D10 VA: 0x1808D6710 Slot: 4
 	public bool IsActive() { }
 
-	// RVA: 0x8D6210 Offset: 0x8D4810 VA: 0x1808D6210 Slot: 5
+	// RVA: 0x8D6720 Offset: 0x8D4D20 VA: 0x1808D6720 Slot: 5
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x8D6150 Offset: 0x8D4750 VA: 0x1808D6150
+	// RVA: 0x8D6660 Offset: 0x8D4C60 VA: 0x1808D6660
 	public void .ctor() { }
 
 }

@@ -10,22 +10,22 @@ internal class TransparentProxy // TypeDefIndex: 1160
 
 	// Methods
 
-	// RVA: 0x148E850 Offset: 0x148CE50 VA: 0x18148E850
+	// RVA: 0x148D920 Offset: 0x148BF20 VA: 0x18148D920
 	internal RuntimeType GetProxyType() { }
 
-	// RVA: 0x148F060 Offset: 0x148D660 VA: 0x18148F060
+	// RVA: 0x148E130 Offset: 0x148C730 VA: 0x18148E130
 	private bool get_IsContextBoundObject() { }
 
-	// RVA: 0x4D2120 Offset: 0x4D0720 VA: 0x1804D2120
+	// RVA: 0x4D20B0 Offset: 0x4D06B0 VA: 0x1804D20B0
 	private Context get_TargetContext() { }
 
-	// RVA: 0x148E910 Offset: 0x148CF10 VA: 0x18148E910
+	// RVA: 0x148D9E0 Offset: 0x148BFE0 VA: 0x18148D9E0
 	private bool InCurrentContext() { }
 
-	// RVA: 0x148EA10 Offset: 0x148D010 VA: 0x18148EA10
+	// RVA: 0x148DAE0 Offset: 0x148C0E0 VA: 0x18148DAE0
 	internal object LoadRemoteFieldNew(IntPtr classPtr, IntPtr fieldPtr) { }
 
-	// RVA: 0x148ED30 Offset: 0x148D330 VA: 0x18148ED30
+	// RVA: 0x148DE00 Offset: 0x148C400 VA: 0x18148DE00
 	internal void StoreRemoteField(IntPtr classPtr, IntPtr fieldPtr, object arg) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

@@ -12,58 +12,58 @@ public sealed class SmpteOffsetEvent : MetaEvent // TypeDefIndex: 7547
 
 	// Methods
 
-	// RVA: 0x13A7240 Offset: 0x13A5840 VA: 0x1813A7240
+	// RVA: 0x13A6340 Offset: 0x13A4940 VA: 0x1813A6340
 	public void .ctor() { }
 
-	// RVA: 0x13A72B0 Offset: 0x13A58B0 VA: 0x1813A72B0
+	// RVA: 0x13A63B0 Offset: 0x13A49B0 VA: 0x1813A63B0
 	public void .ctor(SmpteFormat format, byte hours, byte minutes, byte seconds, byte frames, byte subFrames) { }
 
-	// RVA: 0x13A7400 Offset: 0x13A5A00 VA: 0x1813A7400
+	// RVA: 0x13A6500 Offset: 0x13A4B00 VA: 0x1813A6500
 	public SmpteFormat get_Format() { }
 
-	// RVA: 0x13A74C0 Offset: 0x13A5AC0 VA: 0x1813A74C0
+	// RVA: 0x13A65C0 Offset: 0x13A4BC0 VA: 0x1813A65C0
 	public void set_Format(SmpteFormat value) { }
 
-	// RVA: 0x13A7440 Offset: 0x13A5A40 VA: 0x1813A7440
+	// RVA: 0x13A6540 Offset: 0x13A4B40 VA: 0x1813A6540
 	public byte get_Hours() { }
 
-	// RVA: 0x13A7540 Offset: 0x13A5B40 VA: 0x1813A7540
+	// RVA: 0x13A6640 Offset: 0x13A4C40 VA: 0x1813A6640
 	public void set_Hours(byte value) { }
 
-	// RVA: 0x13A7460 Offset: 0x13A5A60 VA: 0x1813A7460
+	// RVA: 0x13A6560 Offset: 0x13A4B60 VA: 0x1813A6560
 	public byte get_Minutes() { }
 
-	// RVA: 0x13A7560 Offset: 0x13A5B60 VA: 0x1813A7560
+	// RVA: 0x13A6660 Offset: 0x13A4C60 VA: 0x1813A6660
 	public void set_Minutes(byte value) { }
 
-	// RVA: 0x13A7480 Offset: 0x13A5A80 VA: 0x1813A7480
+	// RVA: 0x13A6580 Offset: 0x13A4B80 VA: 0x1813A6580
 	public byte get_Seconds() { }
 
-	// RVA: 0x13A7580 Offset: 0x13A5B80 VA: 0x1813A7580
+	// RVA: 0x13A6680 Offset: 0x13A4C80 VA: 0x1813A6680
 	public void set_Seconds(byte value) { }
 
-	// RVA: 0x13A7420 Offset: 0x13A5A20 VA: 0x1813A7420
+	// RVA: 0x13A6520 Offset: 0x13A4B20 VA: 0x1813A6520
 	public byte get_Frames() { }
 
-	// RVA: 0x13A7520 Offset: 0x13A5B20 VA: 0x1813A7520
+	// RVA: 0x13A6620 Offset: 0x13A4C20 VA: 0x1813A6620
 	public void set_Frames(byte value) { }
 
-	// RVA: 0x13A74A0 Offset: 0x13A5AA0 VA: 0x1813A74A0
+	// RVA: 0x13A65A0 Offset: 0x13A4BA0 VA: 0x1813A65A0
 	public byte get_SubFrames() { }
 
-	// RVA: 0x13A75A0 Offset: 0x13A5BA0 VA: 0x1813A75A0
+	// RVA: 0x13A66A0 Offset: 0x13A4CA0 VA: 0x1813A66A0
 	public void set_SubFrames(byte value) { }
 
-	// RVA: 0x13A6CD0 Offset: 0x13A52D0 VA: 0x1813A6CD0
+	// RVA: 0x13A5DD0 Offset: 0x13A43D0 VA: 0x1813A5DD0
 	private byte ProcessValue(byte value, string property, byte max, InvalidMetaEventParameterValuePolicy policy) { }
 
-	// RVA: 0x13A6DB0 Offset: 0x13A53B0 VA: 0x1813A6DB0 Slot: 6
+	// RVA: 0x13A5EB0 Offset: 0x13A44B0 VA: 0x1813A5EB0 Slot: 6
 	protected override void ReadContent(MidiReader reader, ReadingSettings settings, int size) { }
 
-	// RVA: 0x13A6B10 Offset: 0x13A5110 VA: 0x1813A6B10 Slot: 5
+	// RVA: 0x13A5C10 Offset: 0x13A4210 VA: 0x1813A5C10 Slot: 5
 	protected override MidiEvent CloneEvent() { }
 
-	// RVA: 0x13A6ED0 Offset: 0x13A54D0 VA: 0x1813A6ED0 Slot: 3
+	// RVA: 0x13A5FD0 Offset: 0x13A45D0 VA: 0x1813A5FD0 Slot: 3
 	public override string ToString() { }
 
 }
@@ -78,7 +78,7 @@ private sealed class SmpteOffsetEvent.<>c__DisplayClass22_0 // TypeDefIndex: 754
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13AAA10 Offset: 0x13A9010 VA: 0x1813AAA10
+	// RVA: 0x13A9B10 Offset: 0x13A8110 VA: 0x1813A9B10
 	internal byte <ReadContent>b__0(byte value, string propertyName, byte max) { }
 
 }

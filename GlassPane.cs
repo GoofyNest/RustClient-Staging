@@ -9,19 +9,19 @@ public class GlassPane : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 97
 
 	// Methods
 
-	// RVA: 0xCA0ED0 Offset: 0xC9F4D0 VA: 0x180CA0ED0
+	// RVA: 0xCA1370 Offset: 0xC9F970 VA: 0x180CA1370
 	protected void Start() { }
 
-	// RVA: 0xCA0D10 Offset: 0xC9F310 VA: 0x180CA0D10
+	// RVA: 0xCA11B0 Offset: 0xC9F7B0 VA: 0x180CA11B0
 	protected void OnDisable() { }
 
-	// RVA: 0xCA0DA0 Offset: 0xC9F3A0 VA: 0x180CA0DA0
+	// RVA: 0xCA1240 Offset: 0xC9F840 VA: 0x180CA1240
 	public void SetGlassDamage(float modulePercentHealth, MaterialPropertyBlock glassMaterialPB) { }
 
-	// RVA: 0xCA1010 Offset: 0xC9F610 VA: 0x180CA1010
+	// RVA: 0xCA14B0 Offset: 0xC9FAB0 VA: 0x180CA14B0
 	public void .ctor() { }
 
-	// RVA: 0xCA0FC0 Offset: 0xC9F5C0 VA: 0x180CA0FC0
+	// RVA: 0xCA1460 Offset: 0xC9FA60 VA: 0x180CA1460
 	private static void .cctor() { }
 
 }

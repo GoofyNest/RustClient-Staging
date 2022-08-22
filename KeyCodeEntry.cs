@@ -14,41 +14,41 @@ public class KeyCodeEntry : UIDialog // TypeDefIndex: 10895
 
 	// Methods
 
-	// RVA: 0x680040 Offset: 0x67E640 VA: 0x180680040
+	// RVA: 0x67FFD0 Offset: 0x67E5D0 VA: 0x18067FFD0
 	public void SetUsingGuestCode(bool should) { }
 
-	// RVA: 0x67FF20 Offset: 0x67E520 VA: 0x18067FF20 Slot: 6
+	// RVA: 0x67FEB0 Offset: 0x67E4B0 VA: 0x18067FEB0 Slot: 6
 	protected override void OnEnable() { }
 
-	// RVA: 0x4C27D0 Offset: 0x4C0DD0 VA: 0x1804C27D0
+	// RVA: 0x4C2760 Offset: 0x4C0D60 VA: 0x1804C2760
 	public void Cancel() { }
 
-	// RVA: 0x67FB20 Offset: 0x67E120 VA: 0x18067FB20
+	// RVA: 0x67FAB0 Offset: 0x67E0B0 VA: 0x18067FAB0
 	public void ClearCode() { }
 
-	// RVA: 0x67FB90 Offset: 0x67E190 VA: 0x18067FB90
+	// RVA: 0x67FB20 Offset: 0x67E120 VA: 0x18067FB20
 	private void DeleteCodeCharacter() { }
 
-	// RVA: 0x6800A0 Offset: 0x67E6A0 VA: 0x1806800A0
+	// RVA: 0x680030 Offset: 0x67E630 VA: 0x180680030
 	public void Update() { }
 
-	// RVA: 0x67FC70 Offset: 0x67E270 VA: 0x18067FC70
+	// RVA: 0x67FC00 Offset: 0x67E200 VA: 0x18067FC00
 	public void EnterLastUsedNumber() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x88480 Offset: 0x87880 VA: 0x180088480
-	// RVA: 0x67FFD0 Offset: 0x67E5D0 VA: 0x18067FFD0
+	// RVA: 0x67FF60 Offset: 0x67E560 VA: 0x18067FF60
 	private IEnumerator ProcessLastNumberInput() { }
 
-	// RVA: 0x67FEA0 Offset: 0x67E4A0 VA: 0x18067FEA0
+	// RVA: 0x67FE30 Offset: 0x67E430 VA: 0x18067FE30
 	public void EnterNumber(int i) { }
 
-	// RVA: 0x67FD50 Offset: 0x67E350 VA: 0x18067FD50
+	// RVA: 0x67FCE0 Offset: 0x67E2E0 VA: 0x18067FCE0
 	private void EnterNumberInternal(int i, bool bypassTimeCheck = False) { }
 
-	// RVA: 0x67FEB0 Offset: 0x67E4B0 VA: 0x18067FEB0
+	// RVA: 0x67FE40 Offset: 0x67E440 VA: 0x18067FE40
 	public void Finished() { }
 
-	// RVA: 0x4C1AB0 Offset: 0x4C00B0 VA: 0x1804C1AB0
+	// RVA: 0x4C1A40 Offset: 0x4C0040 VA: 0x1804C1A40
 	public void .ctor() { }
 
 }
@@ -74,7 +74,7 @@ private sealed class KeyCodeEntry.<ProcessLastNumberInput>d__17 : IEnumerator<ob
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x690610 Offset: 0x68EC10 VA: 0x180690610 Slot: 6
+	// RVA: 0x6905A0 Offset: 0x68EBA0 VA: 0x1806905A0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -82,7 +82,7 @@ private sealed class KeyCodeEntry.<ProcessLastNumberInput>d__17 : IEnumerator<ob
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6907D0 Offset: 0x68EDD0 VA: 0x1806907D0 Slot: 8
+	// RVA: 0x690760 Offset: 0x68ED60 VA: 0x180690760 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

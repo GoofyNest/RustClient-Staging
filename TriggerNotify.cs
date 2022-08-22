@@ -10,19 +10,19 @@ public class TriggerNotify : TriggerBase, IPrefabPreProcess // TypeDefIndex: 100
 
 	// Methods
 
-	// RVA: 0xA22500 Offset: 0xA20B00 VA: 0x180A22500
+	// RVA: 0xA229F0 Offset: 0xA20FF0 VA: 0x180A229F0
 	public bool get_HasContents() { }
 
-	// RVA: 0xA22370 Offset: 0xA20970 VA: 0x180A22370 Slot: 12
+	// RVA: 0xA22860 Offset: 0xA20E60 VA: 0x180A22860 Slot: 12
 	internal override void OnObjects() { }
 
-	// RVA: 0xA222A0 Offset: 0xA208A0 VA: 0x180A222A0 Slot: 13
+	// RVA: 0xA22790 Offset: 0xA20D90 VA: 0x180A22790 Slot: 13
 	internal override void OnEmpty() { }
 
-	// RVA: 0xA22490 Offset: 0xA20A90 VA: 0x180A22490 Slot: 15
+	// RVA: 0xA22980 Offset: 0xA20F80 VA: 0x180A22980 Slot: 15
 	public void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0xA22250 Offset: 0xA20850 VA: 0x180A22250
+	// RVA: 0xA22740 Offset: 0xA20D40 VA: 0x180A22740
 	public void .ctor() { }
 
 }

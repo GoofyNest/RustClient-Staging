@@ -1,13 +1,13 @@
 public class CryptographicUnexpectedOperationException : CryptographicException // TypeDefIndex: 945
 {	// Methods
 
-	// RVA: 0x16FCB70 Offset: 0x16FB170 VA: 0x1816FCB70
+	// RVA: 0x16FA760 Offset: 0x16F8D60 VA: 0x1816FA760
 	public void .ctor() { }
 
-	// RVA: 0x16FCBE0 Offset: 0x16FB1E0 VA: 0x1816FCBE0
+	// RVA: 0x16FA7D0 Offset: 0x16F8DD0 VA: 0x1816FA7D0
 	public void .ctor(string message) { }
 
-	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
+	// RVA: 0xFDDEB0 Offset: 0xFDC4B0 VA: 0x180FDDEB0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

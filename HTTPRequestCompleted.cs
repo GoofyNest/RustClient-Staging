@@ -13,13 +13,13 @@ internal struct HTTPRequestCompleted_t : ICallbackData // TypeDefIndex: 5424
 
 	// Methods
 
-	// RVA: 0x1EA740 Offset: 0x1E9B40 VA: 0x1801EA740 Slot: 5
+	// RVA: 0x1EAB60 Offset: 0x1E9F60 VA: 0x1801EAB60 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA730 Offset: 0x1E9B30 VA: 0x1801EA730 Slot: 4
+	// RVA: 0x1EAB50 Offset: 0x1E9F50 VA: 0x1801EAB50 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372CA0 Offset: 0x13712A0 VA: 0x181372CA0
+	// RVA: 0x1371DA0 Offset: 0x13703A0 VA: 0x181371DA0
 	private static void .cctor() { }
 
 }

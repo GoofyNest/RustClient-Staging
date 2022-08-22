@@ -5,31 +5,31 @@ public class ProcessedTexture // TypeDefIndex: 11364
 
 	// Methods
 
-	// RVA: 0x691DD0 Offset: 0x6903D0 VA: 0x180691DD0
+	// RVA: 0x691D60 Offset: 0x690360 VA: 0x180691D60
 	public void Dispose() { }
 
-	// RVA: 0x691AB0 Offset: 0x6900B0 VA: 0x180691AB0
+	// RVA: 0x691A40 Offset: 0x690040 VA: 0x180691A40
 	protected RenderTexture CreateRenderTexture(string name, int width, int height, bool linear) { }
 
-	// RVA: 0x691D20 Offset: 0x690320 VA: 0x180691D20
+	// RVA: 0x691CB0 Offset: 0x6902B0 VA: 0x180691CB0
 	protected void DestroyRenderTexture(ref RenderTexture rt) { }
 
-	// RVA: 0x691B90 Offset: 0x690190 VA: 0x180691B90
+	// RVA: 0x691B20 Offset: 0x690120 VA: 0x180691B20
 	protected RenderTexture CreateTemporary() { }
 
-	// RVA: 0x691F10 Offset: 0x690510 VA: 0x180691F10
+	// RVA: 0x691EA0 Offset: 0x6904A0 VA: 0x180691EA0
 	protected void ReleaseTemporary(RenderTexture rt) { }
 
-	// RVA: 0x6919C0 Offset: 0x68FFC0 VA: 0x1806919C0
+	// RVA: 0x691950 Offset: 0x68FF50 VA: 0x180691950
 	protected Material CreateMaterial(string shader) { }
 
-	// RVA: 0x691A40 Offset: 0x690040 VA: 0x180691A40
+	// RVA: 0x6919D0 Offset: 0x68FFD0 VA: 0x1806919D0
 	protected Material CreateMaterial(Shader shader) { }
 
-	// RVA: 0x691C70 Offset: 0x690270 VA: 0x180691C70
+	// RVA: 0x691C00 Offset: 0x690200 VA: 0x180691C00
 	protected void DestroyMaterial(ref Material mat) { }
 
-	// RVA: 0x691F20 Offset: 0x690520 VA: 0x180691F20
+	// RVA: 0x691EB0 Offset: 0x6904B0 VA: 0x180691EB0
 	public static Texture op_Implicit(ProcessedTexture t) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

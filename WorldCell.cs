@@ -9,25 +9,25 @@ public class WorldCell // TypeDefIndex: 10081
 
 	// Methods
 
-	// RVA: 0x8FF440 Offset: 0x8FDA40 VA: 0x1808FF440
+	// RVA: 0x8FF950 Offset: 0x8FDF50 VA: 0x1808FF950
 	public void .ctor(Vector3 position, float size) { }
 
-	// RVA: 0x8FEF00 Offset: 0x8FD500 VA: 0x1808FEF00
+	// RVA: 0x8FF410 Offset: 0x8FDA10 VA: 0x1808FF410
 	public bool NeedsRefresh() { }
 
-	// RVA: 0x8FEF40 Offset: 0x8FD540 VA: 0x1808FEF40
+	// RVA: 0x8FF450 Offset: 0x8FDA50 VA: 0x1808FF450
 	public void Refresh() { }
 
-	// RVA: 0x8FF2A0 Offset: 0x8FD8A0 VA: 0x1808FF2A0
+	// RVA: 0x8FF7B0 Offset: 0x8FDDB0 VA: 0x1808FF7B0
 	private void Show() { }
 
-	// RVA: 0x8FEDC0 Offset: 0x8FD3C0 VA: 0x1808FEDC0
+	// RVA: 0x8FF2D0 Offset: 0x8FD8D0 VA: 0x1808FF2D0
 	private void Hide() { }
 
-	// RVA: 0x8FECD0 Offset: 0x8FD2D0 VA: 0x1808FECD0
+	// RVA: 0x8FF1E0 Offset: 0x8FD7E0 VA: 0x1808FF1E0
 	public WorldCell.PrefabInfo Add(string category, Prefab prefab, Vector3 position, Quaternion rotation, Vector3 scale) { }
 
-	// RVA: 0x682A00 Offset: 0x681000 VA: 0x180682A00
+	// RVA: 0x682990 Offset: 0x680F90 VA: 0x180682990
 	public static bool op_Implicit(WorldCell cell) { }
 
 }
@@ -42,10 +42,10 @@ public class WorldCell.PrefabInfo // TypeDefIndex: 10082
 
 	// Methods
 
-	// RVA: 0x8E9490 Offset: 0x8E7A90 VA: 0x1808E9490
+	// RVA: 0x8E99A0 Offset: 0x8E7FA0 VA: 0x1808E99A0
 	public void .ctor(string category, Prefab prefab, Vector3 position, Quaternion rotation, Vector3 scale) { }
 
-	// RVA: 0x8E9420 Offset: 0x8E7A20 VA: 0x1808E9420
+	// RVA: 0x8E9930 Offset: 0x8E7F30 VA: 0x1808E9930
 	public GameObject Spawn() { }
 
 }

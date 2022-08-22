@@ -17,31 +17,31 @@ public class Type3Message : MessageBase // TypeDefIndex: 1733
 
 	// Methods
 
-	// RVA: 0x1AC66C0 Offset: 0x1AC4CC0 VA: 0x181AC66C0
+	// RVA: 0x1AC6EB0 Offset: 0x1AC54B0 VA: 0x181AC6EB0
 	public void .ctor(Type2Message type2) { }
 
-	// RVA: 0x1AC5AA0 Offset: 0x1AC40A0 VA: 0x181AC5AA0 Slot: 1
+	// RVA: 0x1AC6290 Offset: 0x1AC4890 VA: 0x181AC6290 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1AC6910 Offset: 0x1AC4F10 VA: 0x181AC6910
+	// RVA: 0x1AC7100 Offset: 0x1AC5700 VA: 0x181AC7100
 	public void set_Domain(string value) { }
 
-	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
+	// RVA: 0x4BC5A0 Offset: 0x4BABA0 VA: 0x1804BC5A0
 	public void set_Password(string value) { }
 
-	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
+	// RVA: 0x6AD650 Offset: 0x6ABC50 VA: 0x1806AD650
 	public void set_Username(string value) { }
 
-	// RVA: 0x1AC5750 Offset: 0x1AC3D50 VA: 0x181AC5750 Slot: 4
+	// RVA: 0x1AC5F40 Offset: 0x1AC4540 VA: 0x181AC5F40 Slot: 4
 	protected override void Decode(byte[] message) { }
 
-	// RVA: 0x1AC56E0 Offset: 0x1AC3CE0 VA: 0x181AC56E0
+	// RVA: 0x1AC5ED0 Offset: 0x1AC44D0 VA: 0x181AC5ED0
 	private string DecodeString(byte[] buffer, int offset, int len) { }
 
-	// RVA: 0x1AC5A10 Offset: 0x1AC4010 VA: 0x181AC5A10
+	// RVA: 0x1AC6200 Offset: 0x1AC4800 VA: 0x181AC6200
 	private byte[] EncodeString(string text) { }
 
-	// RVA: 0x1AC5B70 Offset: 0x1AC4170 VA: 0x181AC5B70 Slot: 5
+	// RVA: 0x1AC6360 Offset: 0x1AC4960 VA: 0x181AC6360 Slot: 5
 	public override byte[] GetBytes() { }
 
 }

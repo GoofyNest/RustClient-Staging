@@ -8,17 +8,17 @@ public class FrankensteinPet : BasePet, IAISenses, IAIAttack // TypeDefIndex: 85
 
 	// Methods
 
-	// RVA: 0x7521C0 Offset: 0x7507C0 VA: 0x1807521C0 Slot: 35
+	// RVA: 0x752110 Offset: 0x750710 VA: 0x180752110 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x752110 Offset: 0x750710 VA: 0x180752110
+	// RVA: 0x752060 Offset: 0x750660 VA: 0x180752060
 	private void OnAttack(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x7526C0 Offset: 0x750CC0 VA: 0x1807526C0
+	// RVA: 0x752610 Offset: 0x750C10 VA: 0x180752610
 	public void .ctor() { }
 
-	// RVA: 0x752680 Offset: 0x750C80 VA: 0x180752680
+	// RVA: 0x7525D0 Offset: 0x750BD0 VA: 0x1807525D0
 	private static void .cctor() { }
 
 }

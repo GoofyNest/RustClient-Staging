@@ -14,34 +14,34 @@ public sealed class LifetimeServices // TypeDefIndex: 1170
 
 	// Methods
 
-	// RVA: 0x147A5C0 Offset: 0x1478BC0 VA: 0x18147A5C0
+	// RVA: 0x1479690 Offset: 0x1477C90 VA: 0x181479690
 	private static void .cctor() { }
 
-	// RVA: 0x147A710 Offset: 0x1478D10 VA: 0x18147A710
+	// RVA: 0x14797E0 Offset: 0x1477DE0 VA: 0x1814797E0
 	public static TimeSpan get_LeaseManagerPollTime() { }
 
-	// RVA: 0x147A890 Offset: 0x1478E90 VA: 0x18147A890
+	// RVA: 0x1479960 Offset: 0x1477F60 VA: 0x181479960
 	public static void set_LeaseManagerPollTime(TimeSpan value) { }
 
-	// RVA: 0x147A770 Offset: 0x1478D70 VA: 0x18147A770
+	// RVA: 0x1479840 Offset: 0x1477E40 VA: 0x181479840
 	public static TimeSpan get_LeaseTime() { }
 
-	// RVA: 0x147A920 Offset: 0x1478F20 VA: 0x18147A920
+	// RVA: 0x14799F0 Offset: 0x1477FF0 VA: 0x1814799F0
 	public static void set_LeaseTime(TimeSpan value) { }
 
-	// RVA: 0x147A7D0 Offset: 0x1478DD0 VA: 0x18147A7D0
+	// RVA: 0x14798A0 Offset: 0x1477EA0 VA: 0x1814798A0
 	public static TimeSpan get_RenewOnCallTime() { }
 
-	// RVA: 0x147A980 Offset: 0x1478F80 VA: 0x18147A980
+	// RVA: 0x1479A50 Offset: 0x1478050 VA: 0x181479A50
 	public static void set_RenewOnCallTime(TimeSpan value) { }
 
-	// RVA: 0x147A830 Offset: 0x1478E30 VA: 0x18147A830
+	// RVA: 0x1479900 Offset: 0x1477F00 VA: 0x181479900
 	public static TimeSpan get_SponsorshipTimeout() { }
 
-	// RVA: 0x147A9E0 Offset: 0x1478FE0 VA: 0x18147A9E0
+	// RVA: 0x1479AB0 Offset: 0x14780B0 VA: 0x181479AB0
 	public static void set_SponsorshipTimeout(TimeSpan value) { }
 
-	// RVA: 0x147A540 Offset: 0x1478B40 VA: 0x18147A540
+	// RVA: 0x1479610 Offset: 0x1477C10 VA: 0x181479610
 	internal static void TrackLifetime(ServerIdentity identity) { }
 
 }

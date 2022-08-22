@@ -9,82 +9,82 @@ public class RCEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6375
 
 	// Methods
 
-	// RVA: 0x204FA00 Offset: 0x204E000 VA: 0x18204FA00
+	// RVA: 0x2050220 Offset: 0x204E820 VA: 0x182050220
 	public static void ResetToPool(RCEntity instance) { }
 
-	// RVA: 0x204FAF0 Offset: 0x204E0F0 VA: 0x18204FAF0
+	// RVA: 0x2050310 Offset: 0x204E910 VA: 0x182050310
 	public void ResetToPool() { }
 
-	// RVA: 0x204F650 Offset: 0x204DC50 VA: 0x18204F650 Slot: 9
+	// RVA: 0x204FE70 Offset: 0x204E470 VA: 0x18204FE70 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x204E3B0 Offset: 0x204C9B0 VA: 0x18204E3B0
+	// RVA: 0x204EBD0 Offset: 0x204D1D0 VA: 0x18204EBD0
 	public void CopyTo(RCEntity instance) { }
 
-	// RVA: 0x204E410 Offset: 0x204CA10 VA: 0x18204E410
+	// RVA: 0x204EC30 Offset: 0x204D230 VA: 0x18204EC30
 	public RCEntity Copy() { }
 
-	// RVA: 0x204F0D0 Offset: 0x204D6D0 VA: 0x18204F0D0
+	// RVA: 0x204F8F0 Offset: 0x204DEF0 VA: 0x18204F8F0
 	public static RCEntity Deserialize(Stream stream) { }
 
-	// RVA: 0x204E4C0 Offset: 0x204CAC0 VA: 0x18204E4C0
+	// RVA: 0x204ECE0 Offset: 0x204D2E0 VA: 0x18204ECE0
 	public static RCEntity DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x204EB10 Offset: 0x204D110 VA: 0x18204EB10
+	// RVA: 0x204F330 Offset: 0x204D930 VA: 0x18204F330
 	public static RCEntity DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x204F340 Offset: 0x204D940 VA: 0x18204F340
+	// RVA: 0x204FB60 Offset: 0x204E160 VA: 0x18204FB60
 	public static RCEntity Deserialize(byte[] buffer) { }
 
-	// RVA: 0x204F7B0 Offset: 0x204DDB0 VA: 0x18204F7B0
+	// RVA: 0x204FFD0 Offset: 0x204E5D0 VA: 0x18204FFD0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2050390 Offset: 0x204E990 VA: 0x182050390 Slot: 12
+	// RVA: 0x2050BB0 Offset: 0x204F1B0 VA: 0x182050BB0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20503B0 Offset: 0x204E9B0 VA: 0x1820503B0 Slot: 13
+	// RVA: 0x2050BD0 Offset: 0x204F1D0 VA: 0x182050BD0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, RCEntity previous) { }
 
-	// RVA: 0x204F9E0 Offset: 0x204DFE0 VA: 0x18204F9E0 Slot: 14
+	// RVA: 0x2050200 Offset: 0x204E800 VA: 0x182050200 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x204EDE0 Offset: 0x204D3E0 VA: 0x18204EDE0
+	// RVA: 0x204F600 Offset: 0x204DC00 VA: 0x18204F600
 	public static RCEntity Deserialize(byte[] buffer, RCEntity instance, bool isDelta = False) { }
 
-	// RVA: 0x204EBA0 Offset: 0x204D1A0 VA: 0x18204EBA0
+	// RVA: 0x204F3C0 Offset: 0x204D9C0 VA: 0x18204F3C0
 	public static RCEntity Deserialize(Stream stream, RCEntity instance, bool isDelta) { }
 
-	// RVA: 0x204E540 Offset: 0x204CB40 VA: 0x18204E540
+	// RVA: 0x204ED60 Offset: 0x204D360 VA: 0x18204ED60
 	public static RCEntity DeserializeLengthDelimited(Stream stream, RCEntity instance, bool isDelta) { }
 
-	// RVA: 0x204E840 Offset: 0x204CE40 VA: 0x18204E840
+	// RVA: 0x204F060 Offset: 0x204D660 VA: 0x18204F060
 	public static RCEntity DeserializeLength(Stream stream, int length, RCEntity instance, bool isDelta) { }
 
-	// RVA: 0x204FBE0 Offset: 0x204E1E0 VA: 0x18204FBE0
+	// RVA: 0x2050400 Offset: 0x204EA00 VA: 0x182050400
 	public static void SerializeDelta(Stream stream, RCEntity instance, RCEntity previous) { }
 
-	// RVA: 0x2050120 Offset: 0x204E720 VA: 0x182050120
+	// RVA: 0x2050940 Offset: 0x204EF40 VA: 0x182050940
 	public static void Serialize(Stream stream, RCEntity instance) { }
 
-	// RVA: 0x2050380 Offset: 0x204E980 VA: 0x182050380
+	// RVA: 0x2050BA0 Offset: 0x204F1A0 VA: 0x182050BA0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2050390 Offset: 0x204E990 VA: 0x182050390
+	// RVA: 0x2050BB0 Offset: 0x204F1B0 VA: 0x182050BB0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x2050010 Offset: 0x204E610 VA: 0x182050010
+	// RVA: 0x2050830 Offset: 0x204EE30 VA: 0x182050830
 	public static byte[] SerializeToBytes(RCEntity instance) { }
 
-	// RVA: 0x204FF60 Offset: 0x204E560 VA: 0x18204FF60
+	// RVA: 0x2050780 Offset: 0x204ED80 VA: 0x182050780
 	public static void SerializeLengthDelimited(Stream stream, RCEntity instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }

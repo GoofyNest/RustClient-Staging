@@ -1,19 +1,19 @@
 internal class CADSerializer // TypeDefIndex: 1192
 {	// Methods
 
-	// RVA: 0xFDCE70 Offset: 0xFDB470 VA: 0x180FDCE70
+	// RVA: 0xFDD910 Offset: 0xFDBF10 VA: 0x180FDD910
 	internal static IMessage DeserializeMessage(MemoryStream mem, IMethodCallMessage msg) { }
 
-	// RVA: 0xFDD050 Offset: 0xFDB650 VA: 0x180FDD050
+	// RVA: 0xFDDAF0 Offset: 0xFDC0F0 VA: 0x180FDDAF0
 	internal static MemoryStream SerializeMessage(IMessage msg) { }
 
-	// RVA: 0xFDCEC0 Offset: 0xFDB4C0 VA: 0x180FDCEC0
+	// RVA: 0xFDD960 Offset: 0xFDBF60 VA: 0x180FDD960
 	internal static object DeserializeObjectSafe(byte[] mem) { }
 
-	// RVA: 0xFDD130 Offset: 0xFDB730 VA: 0x180FDD130
+	// RVA: 0xFDDBD0 Offset: 0xFDC1D0 VA: 0x180FDDBD0
 	internal static MemoryStream SerializeObject(object obj) { }
 
-	// RVA: 0xFDCFC0 Offset: 0xFDB5C0 VA: 0x180FDCFC0
+	// RVA: 0xFDDA60 Offset: 0xFDC060 VA: 0x180FDDA60
 	internal static object DeserializeObject(MemoryStream mem) { }
 
 }

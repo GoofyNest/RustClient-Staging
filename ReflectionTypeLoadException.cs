@@ -8,19 +8,19 @@ public sealed class ReflectionTypeLoadException : SystemException, ISerializable
 
 	// Methods
 
-	// RVA: 0x18D5350 Offset: 0x18D3950 VA: 0x1818D5350
+	// RVA: 0x18D4A70 Offset: 0x18D3070 VA: 0x1818D4A70
 	private void .ctor() { }
 
-	// RVA: 0x18D53B0 Offset: 0x18D39B0 VA: 0x1818D53B0
+	// RVA: 0x18D4AD0 Offset: 0x18D30D0 VA: 0x1818D4AD0
 	public void .ctor(Type[] classes, Exception[] exceptions) { }
 
-	// RVA: 0x18D5420 Offset: 0x18D3A20 VA: 0x1818D5420
+	// RVA: 0x18D4B40 Offset: 0x18D3140 VA: 0x1818D4B40
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300
 	public Type[] get_Types() { }
 
-	// RVA: 0x18D5220 Offset: 0x18D3820 VA: 0x1818D5220 Slot: 10
+	// RVA: 0x18D4940 Offset: 0x18D2F40 VA: 0x1818D4940 Slot: 10
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 }

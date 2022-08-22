@@ -18,37 +18,37 @@ public sealed class ZlibCodec // TypeDefIndex: 6966
 
 	// Methods
 
-	// RVA: 0x21D8D90 Offset: 0x21D7390 VA: 0x1821D8D90
+	// RVA: 0x21D95B0 Offset: 0x21D7BB0 VA: 0x1821D95B0
 	public void .ctor() { }
 
-	// RVA: 0x21D8A70 Offset: 0x21D7070 VA: 0x1821D8A70
+	// RVA: 0x21D9290 Offset: 0x21D7890 VA: 0x1821D9290
 	public int InitializeInflate(bool expectRfc1950Header) { }
 
-	// RVA: 0x21D8B50 Offset: 0x21D7150 VA: 0x1821D8B50
+	// RVA: 0x21D9370 Offset: 0x21D7970 VA: 0x1821D9370
 	public int InitializeInflate(int windowBits, bool expectRfc1950Header) { }
 
-	// RVA: 0x21D8890 Offset: 0x21D6E90 VA: 0x1821D8890
+	// RVA: 0x21D90B0 Offset: 0x21D76B0 VA: 0x1821D90B0
 	public int Inflate(FlushType flush) { }
 
-	// RVA: 0x21D87B0 Offset: 0x21D6DB0 VA: 0x1821D87B0
+	// RVA: 0x21D8FD0 Offset: 0x21D75D0 VA: 0x1821D8FD0
 	public int EndInflate() { }
 
-	// RVA: 0x21D8910 Offset: 0x21D6F10 VA: 0x1821D8910
+	// RVA: 0x21D9130 Offset: 0x21D7730 VA: 0x1821D9130
 	public int InitializeDeflate(CompressionLevel level, bool wantRfc1950Header) { }
 
-	// RVA: 0x21D8C30 Offset: 0x21D7230 VA: 0x1821D8C30
+	// RVA: 0x21D9450 Offset: 0x21D7A50 VA: 0x1821D9450
 	private int _InternalInitializeDeflate(bool wantRfc1950Header) { }
 
-	// RVA: 0x21D86B0 Offset: 0x21D6CB0 VA: 0x1821D86B0
+	// RVA: 0x21D8ED0 Offset: 0x21D74D0 VA: 0x1821D8ED0
 	public int Deflate(FlushType flush) { }
 
-	// RVA: 0x21D8730 Offset: 0x21D6D30 VA: 0x1821D8730
+	// RVA: 0x21D8F50 Offset: 0x21D7550 VA: 0x1821D8F50
 	public int EndDeflate() { }
 
-	// RVA: 0x21D8DB0 Offset: 0x21D73B0 VA: 0x1821D8DB0
+	// RVA: 0x21D95D0 Offset: 0x21D7BD0 VA: 0x1821D95D0
 	internal void flush_pending() { }
 
-	// RVA: 0x21D8F60 Offset: 0x21D7560 VA: 0x1821D8F60
+	// RVA: 0x21D9780 Offset: 0x21D7D80 VA: 0x1821D9780
 	internal int read_buf(byte[] buf, int start, int size) { }
 
 }

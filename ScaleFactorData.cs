@@ -5,7 +5,7 @@ public class ScaleFactorData // TypeDefIndex: 7413
 
 	// Methods
 
-	// RVA: 0x673090 Offset: 0x671690 VA: 0x180673090
+	// RVA: 0x673020 Offset: 0x671620 VA: 0x180673020
 	internal void .ctor() { }
 
 }

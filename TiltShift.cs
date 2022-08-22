@@ -13,13 +13,13 @@ internal class TiltShift : PostEffectsBase // TypeDefIndex: 8208
 
 	// Methods
 
-	// RVA: 0x21E7D10 Offset: 0x21E6310 VA: 0x1821E7D10 Slot: 4
+	// RVA: 0x21E8530 Offset: 0x21E6B30 VA: 0x1821E8530 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x21E7D70 Offset: 0x21E6370 VA: 0x1821E7D70
+	// RVA: 0x21E8590 Offset: 0x21E6B90 VA: 0x1821E8590
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21E8020 Offset: 0x21E6620 VA: 0x1821E8020
+	// RVA: 0x21E8840 Offset: 0x21E6E40 VA: 0x1821E8840
 	public void .ctor() { }
 
 }

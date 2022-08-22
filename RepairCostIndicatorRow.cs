@@ -10,7 +10,7 @@ public class RepairCostIndicatorRow : MonoBehaviour // TypeDefIndex: 11215
 
 	// Methods
 
-	// RVA: 0x953470 Offset: 0x951A70 VA: 0x180953470
+	// RVA: 0x953970 Offset: 0x951F70 VA: 0x180953970
 	public void Populate(ItemDefinition def, int totalRequired, int currentAmount) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

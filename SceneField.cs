@@ -26,10 +26,10 @@ public class SceneField // TypeDefIndex: 6163
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string get_SceneName() { }
 
-	// RVA: 0x14B8020 Offset: 0x14B6620 VA: 0x1814B8020
+	// RVA: 0x14B70F0 Offset: 0x14B56F0 VA: 0x1814B70F0
 	public static string op_Implicit(SceneField sceneField) { }
 
-	// RVA: 0x14B7FD0 Offset: 0x14B65D0 VA: 0x1814B7FD0
+	// RVA: 0x14B70A0 Offset: 0x14B56A0 VA: 0x1814B70A0
 	public void .ctor() { }
 
 }

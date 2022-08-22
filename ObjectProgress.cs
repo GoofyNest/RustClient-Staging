@@ -23,19 +23,19 @@ internal sealed class ObjectProgress // TypeDefIndex: 1089
 
 	// Methods
 
-	// RVA: 0x11F7480 Offset: 0x11F5A80 VA: 0x1811F7480
+	// RVA: 0x11F7B20 Offset: 0x11F6120 VA: 0x1811F7B20
 	internal void .ctor() { }
 
-	// RVA: 0x11F7380 Offset: 0x11F5980 VA: 0x1811F7380
+	// RVA: 0x11F7A20 Offset: 0x11F6020 VA: 0x1811F7A20
 	internal void Init() { }
 
-	// RVA: 0x11F71E0 Offset: 0x11F57E0 VA: 0x1811F71E0
+	// RVA: 0x11F7880 Offset: 0x11F5E80 VA: 0x1811F7880
 	internal void ArrayCountIncrement(int value) { }
 
-	// RVA: 0x11F71F0 Offset: 0x11F57F0 VA: 0x1811F71F0
+	// RVA: 0x11F7890 Offset: 0x11F5E90 VA: 0x1811F7890
 	internal bool GetNext(out BinaryTypeEnum outBinaryTypeEnum, out object outTypeInformation) { }
 
-	// RVA: 0x11F7440 Offset: 0x11F5A40 VA: 0x1811F7440
+	// RVA: 0x11F7AE0 Offset: 0x11F60E0 VA: 0x1811F7AE0
 	private static void .cctor() { }
 
 }

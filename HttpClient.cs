@@ -14,53 +14,53 @@ public class HttpClient : HttpMessageInvoker // TypeDefIndex: 5737
 
 	// Methods
 
-	// RVA: 0x108A640 Offset: 0x1088C40 VA: 0x18108A640
+	// RVA: 0x108B0B0 Offset: 0x10896B0 VA: 0x18108B0B0
 	public void .ctor() { }
 
-	// RVA: 0x108A7D0 Offset: 0x1088DD0 VA: 0x18108A7D0
+	// RVA: 0x108B240 Offset: 0x1089840 VA: 0x18108B240
 	public void .ctor(HttpMessageHandler handler, bool disposeHandler) { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	public long get_MaxResponseContentBufferSize() { }
 
-	// RVA: 0x108A8F0 Offset: 0x1088EF0 VA: 0x18108A8F0
+	// RVA: 0x108B360 Offset: 0x1089960 VA: 0x18108B360
 	public void set_Timeout(TimeSpan value) { }
 
-	// RVA: 0x1089AE0 Offset: 0x10880E0 VA: 0x181089AE0 Slot: 5
+	// RVA: 0x108A550 Offset: 0x1088B50 VA: 0x18108A550 Slot: 5
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x1089B50 Offset: 0x1088150 VA: 0x181089B50
+	// RVA: 0x108A5C0 Offset: 0x1088BC0 VA: 0x18108A5C0
 	public Task<HttpResponseMessage> GetAsync(string requestUri, HttpCompletionOption completionOption) { }
 
-	// RVA: 0x1089DC0 Offset: 0x10883C0 VA: 0x181089DC0
+	// RVA: 0x108A830 Offset: 0x1088E30 VA: 0x18108A830
 	public Task<HttpResponseMessage> PostAsync(string requestUri, HttpContent content) { }
 
-	// RVA: 0x108A520 Offset: 0x1088B20 VA: 0x18108A520
+	// RVA: 0x108AF90 Offset: 0x1089590 VA: 0x18108AF90
 	public Task<HttpResponseMessage> SendAsync(HttpRequestMessage request) { }
 
-	// RVA: 0x108A070 Offset: 0x1088670 VA: 0x18108A070
+	// RVA: 0x108AAE0 Offset: 0x10890E0 VA: 0x18108AAE0
 	public Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption) { }
 
-	// RVA: 0x108A500 Offset: 0x1088B00 VA: 0x18108A500 Slot: 6
+	// RVA: 0x108AF70 Offset: 0x1089570 VA: 0x18108AF70 Slot: 6
 	public override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) { }
 
-	// RVA: 0x108A100 Offset: 0x1088700 VA: 0x18108A100
+	// RVA: 0x108AB70 Offset: 0x1089170 VA: 0x18108AB70
 	public Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD1240 Offset: 0xD0640 VA: 0x1800D1240
-	// RVA: 0x1089F30 Offset: 0x1088530 VA: 0x181089F30
+	// RVA: 0x108A9A0 Offset: 0x1088FA0 VA: 0x18108A9A0
 	private Task<HttpResponseMessage> SendAsyncWorker(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD1380 Offset: 0xD0780 VA: 0x1800D1380
-	// RVA: 0x1089CA0 Offset: 0x10882A0 VA: 0x181089CA0
+	// RVA: 0x108A710 Offset: 0x1088D10 VA: 0x18108A710
 	public Task<string> GetStringAsync(string requestUri) { }
 
-	// RVA: 0x108A5D0 Offset: 0x1088BD0 VA: 0x18108A5D0
+	// RVA: 0x108B040 Offset: 0x1089640 VA: 0x18108B040
 	private static void .cctor() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	// RVA: 0x108A5A0 Offset: 0x1088BA0 VA: 0x18108A5A0
+	// RVA: 0x108B010 Offset: 0x1089610 VA: 0x18108B010
 	private Task<HttpResponseMessage> <>n__0(HttpRequestMessage request, CancellationToken cancellationToken) { }
 
 }
@@ -80,11 +80,11 @@ private struct HttpClient.<SendAsyncWorker>d__47 : IAsyncStateMachine // TypeDef
 
 	// Methods
 
-	// RVA: 0x19E160 Offset: 0x19D560 VA: 0x18019E160 Slot: 4
+	// RVA: 0x19DE50 Offset: 0x19D250 VA: 0x18019DE50 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19E170 Offset: 0x19D570 VA: 0x18019E170 Slot: 5
+	// RVA: 0x19DE60 Offset: 0x19D260 VA: 0x18019DE60 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -101,11 +101,11 @@ private struct HttpClient.<GetStringAsync>d__52 : IAsyncStateMachine // TypeDefI
 
 	// Methods
 
-	// RVA: 0x19DFD0 Offset: 0x19D3D0 VA: 0x18019DFD0 Slot: 4
+	// RVA: 0x19DCC0 Offset: 0x19D0C0 VA: 0x18019DCC0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19DFE0 Offset: 0x19D3E0 VA: 0x18019DFE0 Slot: 5
+	// RVA: 0x19DCD0 Offset: 0x19D0D0 VA: 0x18019DCD0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

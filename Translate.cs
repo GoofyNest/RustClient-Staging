@@ -17,28 +17,28 @@ public static class Translate // TypeDefIndex: 6718
 
 	// Methods
 
-	// RVA: 0x2320D50 Offset: 0x231F350 VA: 0x182320D50
+	// RVA: 0x2321570 Offset: 0x231FB70 VA: 0x182321570
 	public static void Init() { }
 
-	// RVA: 0x2320DB0 Offset: 0x231F3B0 VA: 0x182320DB0
+	// RVA: 0x23215D0 Offset: 0x231FBD0 VA: 0x1823215D0
 	public static void LoadLanguage(string lang) { }
 
-	// RVA: 0x23207B0 Offset: 0x231EDB0 VA: 0x1823207B0
+	// RVA: 0x2320FD0 Offset: 0x231F5D0 VA: 0x182320FD0
 	private static void AddLanguageFile(string fileName) { }
 
-	// RVA: 0x2320BB0 Offset: 0x231F1B0 VA: 0x182320BB0
+	// RVA: 0x23213D0 Offset: 0x231F9D0 VA: 0x1823213D0
 	public static string Get(string key, string def) { }
 
-	// RVA: 0x2320AA0 Offset: 0x231F0A0 VA: 0x182320AA0
+	// RVA: 0x23212C0 Offset: 0x231F8C0 VA: 0x1823212C0
 	public static string FormatTranslated(Translate.Phrase phrase, string b) { }
 
-	// RVA: 0x2320B50 Offset: 0x231F150 VA: 0x182320B50
+	// RVA: 0x2321370 Offset: 0x231F970 VA: 0x182321370
 	public static string GetLanguage() { }
 
-	// RVA: 0x2320F00 Offset: 0x231F500 VA: 0x182320F00
+	// RVA: 0x2321720 Offset: 0x231FD20 VA: 0x182321720
 	public static void SetLanguage(string str) { }
 
-	// RVA: 0x2321010 Offset: 0x231F610 VA: 0x182321010
+	// RVA: 0x2321830 Offset: 0x231FE30 VA: 0x182321830
 	private static void .cctor() { }
 
 }
@@ -54,16 +54,16 @@ public class Translate.Phrase // TypeDefIndex: 6719
 
 	// Methods
 
-	// RVA: 0x2320530 Offset: 0x231EB30 VA: 0x182320530 Slot: 4
+	// RVA: 0x2320D50 Offset: 0x231F350 VA: 0x182320D50 Slot: 4
 	public virtual string get_translated() { }
 
-	// RVA: 0xD5B590 Offset: 0xD59B90 VA: 0x180D5B590
+	// RVA: 0xD5C040 Offset: 0xD5A640 VA: 0x180D5C040
 	public bool IsValid() { }
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	public void .ctor(string t = "", string eng = "") { }
 
-	// RVA: 0x2320730 Offset: 0x231ED30 VA: 0x182320730
+	// RVA: 0x2320F50 Offset: 0x231F550 VA: 0x182320F50
 	public static Translate.Phrase op_Implicit(string b) { }
 
 }

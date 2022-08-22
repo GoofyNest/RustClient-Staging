@@ -7,754 +7,754 @@ public static class Convert // TypeDefIndex: 196
 
 	// Methods
 
-	// RVA: 0x14581F0 Offset: 0x14567F0 VA: 0x1814581F0
+	// RVA: 0x14572C0 Offset: 0x14558C0 VA: 0x1814572C0
 	public static TypeCode GetTypeCode(object value) { }
 
-	// RVA: 0x1458260 Offset: 0x1456860 VA: 0x181458260
+	// RVA: 0x1457330 Offset: 0x1455930 VA: 0x181457330
 	public static bool IsDBNull(object value) { }
 
-	// RVA: 0x1455430 Offset: 0x1453A30 VA: 0x181455430
+	// RVA: 0x1454500 Offset: 0x1452B00 VA: 0x181454500
 	public static object ChangeType(object value, TypeCode typeCode, IFormatProvider provider) { }
 
-	// RVA: 0x14569D0 Offset: 0x1454FD0 VA: 0x1814569D0
+	// RVA: 0x1455AA0 Offset: 0x14540A0 VA: 0x181455AA0
 	internal static object DefaultToType(IConvertible value, Type targetType, IFormatProvider provider) { }
 
-	// RVA: 0x14566A0 Offset: 0x1454CA0 VA: 0x1814566A0
+	// RVA: 0x1455770 Offset: 0x1453D70 VA: 0x181455770
 	public static object ChangeType(object value, Type conversionType) { }
 
-	// RVA: 0x1455890 Offset: 0x1453E90 VA: 0x181455890
+	// RVA: 0x1454960 Offset: 0x1452F60 VA: 0x181454960
 	public static object ChangeType(object value, Type conversionType, IFormatProvider provider) { }
 
-	// RVA: 0x1458DD0 Offset: 0x14573D0 VA: 0x181458DD0
+	// RVA: 0x1457EA0 Offset: 0x14564A0 VA: 0x181457EA0
 	public static bool ToBoolean(object value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1458EE0 Offset: 0x14574E0 VA: 0x181458EE0
+	// RVA: 0x1457FB0 Offset: 0x14565B0 VA: 0x181457FB0
 	public static bool ToBoolean(sbyte value) { }
 
-	// RVA: 0x1458EE0 Offset: 0x14574E0 VA: 0x181458EE0
+	// RVA: 0x1457FB0 Offset: 0x14565B0 VA: 0x181457FB0
 	public static bool ToBoolean(byte value) { }
 
-	// RVA: 0x1458D10 Offset: 0x1457310 VA: 0x181458D10
+	// RVA: 0x1457DE0 Offset: 0x14563E0 VA: 0x181457DE0
 	public static bool ToBoolean(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1458D10 Offset: 0x1457310 VA: 0x181458D10
+	// RVA: 0x1457DE0 Offset: 0x14563E0 VA: 0x181457DE0
 	public static bool ToBoolean(ushort value) { }
 
-	// RVA: 0x1458D40 Offset: 0x1457340 VA: 0x181458D40
+	// RVA: 0x1457E10 Offset: 0x1456410 VA: 0x181457E10
 	public static bool ToBoolean(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1458D40 Offset: 0x1457340 VA: 0x181458D40
+	// RVA: 0x1457E10 Offset: 0x1456410 VA: 0x181457E10
 	public static bool ToBoolean(uint value) { }
 
-	// RVA: 0x682A00 Offset: 0x681000 VA: 0x180682A00
+	// RVA: 0x682990 Offset: 0x680F90 VA: 0x180682990
 	public static bool ToBoolean(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x682A00 Offset: 0x681000 VA: 0x180682A00
+	// RVA: 0x682990 Offset: 0x680F90 VA: 0x180682990
 	public static bool ToBoolean(ulong value) { }
 
-	// RVA: 0x1458E80 Offset: 0x1457480 VA: 0x181458E80
+	// RVA: 0x1457F50 Offset: 0x1456550 VA: 0x181457F50
 	public static bool ToBoolean(string value, IFormatProvider provider) { }
 
-	// RVA: 0x1458EF0 Offset: 0x14574F0 VA: 0x181458EF0
+	// RVA: 0x1457FC0 Offset: 0x14565C0 VA: 0x181457FC0
 	public static bool ToBoolean(float value) { }
 
-	// RVA: 0x1458D20 Offset: 0x1457320 VA: 0x181458D20
+	// RVA: 0x1457DF0 Offset: 0x14563F0 VA: 0x181457DF0
 	public static bool ToBoolean(double value) { }
 
-	// RVA: 0x1458D50 Offset: 0x1457350 VA: 0x181458D50
+	// RVA: 0x1457E20 Offset: 0x1456420 VA: 0x181457E20
 	public static bool ToBoolean(Decimal value) { }
 
-	// RVA: 0x1459980 Offset: 0x1457F80 VA: 0x181459980
+	// RVA: 0x1458A50 Offset: 0x1457050 VA: 0x181458A50
 	public static char ToChar(object value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1459800 Offset: 0x1457E00 VA: 0x181459800
+	// RVA: 0x14588D0 Offset: 0x1456ED0 VA: 0x1814588D0
 	public static char ToChar(sbyte value) { }
 
-	// RVA: 0x125C870 Offset: 0x125AE70 VA: 0x18125C870
+	// RVA: 0x125CF10 Offset: 0x125B510 VA: 0x18125CF10
 	public static char ToChar(byte value) { }
 
-	// RVA: 0x1459A30 Offset: 0x1458030 VA: 0x181459A30
+	// RVA: 0x1458B00 Offset: 0x1457100 VA: 0x181458B00
 	public static char ToChar(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1370A00 Offset: 0x136F000 VA: 0x181370A00
+	// RVA: 0x136FB00 Offset: 0x136E100 VA: 0x18136FB00
 	public static char ToChar(ushort value) { }
 
-	// RVA: 0x1459880 Offset: 0x1457E80 VA: 0x181459880
+	// RVA: 0x1458950 Offset: 0x1456F50 VA: 0x181458950
 	public static char ToChar(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1459780 Offset: 0x1457D80 VA: 0x181459780
+	// RVA: 0x1458850 Offset: 0x1456E50 VA: 0x181458850
 	public static char ToChar(uint value) { }
 
-	// RVA: 0x1459900 Offset: 0x1457F00 VA: 0x181459900
+	// RVA: 0x14589D0 Offset: 0x1456FD0 VA: 0x1814589D0
 	public static char ToChar(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1459B70 Offset: 0x1458170 VA: 0x181459B70
+	// RVA: 0x1458C40 Offset: 0x1457240 VA: 0x181458C40
 	public static char ToChar(ulong value) { }
 
-	// RVA: 0x1459AB0 Offset: 0x14580B0 VA: 0x181459AB0
+	// RVA: 0x1458B80 Offset: 0x1457180 VA: 0x181458B80
 	public static char ToChar(string value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145BD60 Offset: 0x145A360 VA: 0x18145BD60
+	// RVA: 0x145AE30 Offset: 0x1459430 VA: 0x18145AE30
 	public static sbyte ToSByte(object value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1458EE0 Offset: 0x14574E0 VA: 0x181458EE0
+	// RVA: 0x1457FB0 Offset: 0x14565B0 VA: 0x181457FB0
 	public static sbyte ToSByte(bool value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145BC50 Offset: 0x145A250 VA: 0x18145BC50
+	// RVA: 0x145AD20 Offset: 0x1459320 VA: 0x18145AD20
 	public static sbyte ToSByte(char value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145C0F0 Offset: 0x145A6F0 VA: 0x18145C0F0
+	// RVA: 0x145B1C0 Offset: 0x14597C0 VA: 0x18145B1C0
 	public static sbyte ToSByte(byte value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145C200 Offset: 0x145A800 VA: 0x18145C200
+	// RVA: 0x145B2D0 Offset: 0x14598D0 VA: 0x18145B2D0
 	public static sbyte ToSByte(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145BF70 Offset: 0x145A570 VA: 0x18145BF70
+	// RVA: 0x145B040 Offset: 0x1459640 VA: 0x18145B040
 	public static sbyte ToSByte(ushort value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145C070 Offset: 0x145A670 VA: 0x18145C070
+	// RVA: 0x145B140 Offset: 0x1459740 VA: 0x18145B140
 	public static sbyte ToSByte(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145BEF0 Offset: 0x145A4F0 VA: 0x18145BEF0
+	// RVA: 0x145AFC0 Offset: 0x14595C0 VA: 0x18145AFC0
 	public static sbyte ToSByte(uint value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145BCD0 Offset: 0x145A2D0 VA: 0x18145BCD0
+	// RVA: 0x145ADA0 Offset: 0x14593A0 VA: 0x18145ADA0
 	public static sbyte ToSByte(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145BFF0 Offset: 0x145A5F0 VA: 0x18145BFF0
+	// RVA: 0x145B0C0 Offset: 0x14596C0 VA: 0x18145B0C0
 	public static sbyte ToSByte(ulong value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145C290 Offset: 0x145A890 VA: 0x18145C290
+	// RVA: 0x145B360 Offset: 0x1459960 VA: 0x18145B360
 	public static sbyte ToSByte(float value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145BE10 Offset: 0x145A410 VA: 0x18145BE10
+	// RVA: 0x145AEE0 Offset: 0x14594E0 VA: 0x18145AEE0
 	public static sbyte ToSByte(double value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145C170 Offset: 0x145A770 VA: 0x18145C170
+	// RVA: 0x145B240 Offset: 0x1459840 VA: 0x18145B240
 	public static sbyte ToSByte(Decimal value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145C1F0 Offset: 0x145A7F0 VA: 0x18145C1F0
+	// RVA: 0x145B2C0 Offset: 0x14598C0 VA: 0x18145B2C0
 	public static sbyte ToSByte(string value, IFormatProvider provider) { }
 
-	// RVA: 0x14591E0 Offset: 0x14577E0 VA: 0x1814591E0
+	// RVA: 0x14582B0 Offset: 0x14568B0 VA: 0x1814582B0
 	public static byte ToByte(object value, IFormatProvider provider) { }
 
-	// RVA: 0x1458EE0 Offset: 0x14574E0 VA: 0x181458EE0
+	// RVA: 0x1457FB0 Offset: 0x14565B0 VA: 0x181457FB0
 	public static byte ToByte(bool value) { }
 
-	// RVA: 0x1459690 Offset: 0x1457C90 VA: 0x181459690
+	// RVA: 0x1458760 Offset: 0x1456D60 VA: 0x181458760
 	public static byte ToByte(char value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1459290 Offset: 0x1457890 VA: 0x181459290
+	// RVA: 0x1458360 Offset: 0x1456960 VA: 0x181458360
 	public static byte ToByte(sbyte value) { }
 
-	// RVA: 0x1458F00 Offset: 0x1457500 VA: 0x181458F00
+	// RVA: 0x1457FD0 Offset: 0x14565D0 VA: 0x181457FD0
 	public static byte ToByte(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1458F80 Offset: 0x1457580 VA: 0x181458F80
+	// RVA: 0x1458050 Offset: 0x1456650 VA: 0x181458050
 	public static byte ToByte(ushort value) { }
 
-	// RVA: 0x14595F0 Offset: 0x1457BF0 VA: 0x1814595F0
+	// RVA: 0x14586C0 Offset: 0x1456CC0 VA: 0x1814586C0
 	public static byte ToByte(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1459000 Offset: 0x1457600 VA: 0x181459000
+	// RVA: 0x14580D0 Offset: 0x14566D0 VA: 0x1814580D0
 	public static byte ToByte(uint value) { }
 
-	// RVA: 0x1459080 Offset: 0x1457680 VA: 0x181459080
+	// RVA: 0x1458150 Offset: 0x1456750 VA: 0x181458150
 	public static byte ToByte(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1459460 Offset: 0x1457A60 VA: 0x181459460
+	// RVA: 0x1458530 Offset: 0x1456B30 VA: 0x181458530
 	public static byte ToByte(ulong value) { }
 
-	// RVA: 0x14594E0 Offset: 0x1457AE0 VA: 0x1814594E0
+	// RVA: 0x14585B0 Offset: 0x1456BB0 VA: 0x1814585B0
 	public static byte ToByte(float value) { }
 
-	// RVA: 0x1459310 Offset: 0x1457910 VA: 0x181459310
+	// RVA: 0x14583E0 Offset: 0x14569E0 VA: 0x1814583E0
 	public static byte ToByte(double value) { }
 
-	// RVA: 0x14593E0 Offset: 0x14579E0 VA: 0x1814593E0
+	// RVA: 0x14584B0 Offset: 0x1456AB0 VA: 0x1814584B0
 	public static byte ToByte(Decimal value) { }
 
-	// RVA: 0x1459710 Offset: 0x1457D10 VA: 0x181459710
+	// RVA: 0x14587E0 Offset: 0x1456DE0 VA: 0x1814587E0
 	public static byte ToByte(string value) { }
 
-	// RVA: 0x1459670 Offset: 0x1457C70 VA: 0x181459670
+	// RVA: 0x1458740 Offset: 0x1456D40 VA: 0x181458740
 	public static byte ToByte(string value, IFormatProvider provider) { }
 
-	// RVA: 0x145ACA0 Offset: 0x14592A0 VA: 0x18145ACA0
+	// RVA: 0x1459D70 Offset: 0x1458370 VA: 0x181459D70
 	public static short ToInt16(object value, IFormatProvider provider) { }
 
-	// RVA: 0x145AFC0 Offset: 0x14595C0 VA: 0x18145AFC0
+	// RVA: 0x145A090 Offset: 0x1458690 VA: 0x18145A090
 	public static short ToInt16(bool value) { }
 
-	// RVA: 0x145AD50 Offset: 0x1459350 VA: 0x18145AD50
+	// RVA: 0x1459E20 Offset: 0x1458420 VA: 0x181459E20
 	public static short ToInt16(char value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145AAF0 Offset: 0x14590F0 VA: 0x18145AAF0
+	// RVA: 0x1459BC0 Offset: 0x14581C0 VA: 0x181459BC0
 	public static short ToInt16(sbyte value) { }
 
-	// RVA: 0x125C870 Offset: 0x125AE70 VA: 0x18125C870
+	// RVA: 0x125CF10 Offset: 0x125B510 VA: 0x18125CF10
 	public static short ToInt16(byte value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145AB00 Offset: 0x1459100 VA: 0x18145AB00
+	// RVA: 0x1459BD0 Offset: 0x14581D0 VA: 0x181459BD0
 	public static short ToInt16(ushort value) { }
 
-	// RVA: 0x145A8E0 Offset: 0x1458EE0 VA: 0x18145A8E0
+	// RVA: 0x14599B0 Offset: 0x1457FB0 VA: 0x1814599B0
 	public static short ToInt16(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145AFD0 Offset: 0x14595D0 VA: 0x18145AFD0
+	// RVA: 0x145A0A0 Offset: 0x14586A0 VA: 0x18145A0A0
 	public static short ToInt16(uint value) { }
 
-	// RVA: 0x145AA40 Offset: 0x1459040 VA: 0x18145AA40
+	// RVA: 0x1459B10 Offset: 0x1458110 VA: 0x181459B10
 	public static short ToInt16(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145AE50 Offset: 0x1459450 VA: 0x18145AE50
+	// RVA: 0x1459F20 Offset: 0x1458520 VA: 0x181459F20
 	public static short ToInt16(ulong value) { }
 
-	// RVA: 0x145AB80 Offset: 0x1459180 VA: 0x18145AB80
+	// RVA: 0x1459C50 Offset: 0x1458250 VA: 0x181459C50
 	public static short ToInt16(float value) { }
 
-	// RVA: 0x145A960 Offset: 0x1458F60 VA: 0x18145A960
+	// RVA: 0x1459A30 Offset: 0x1458030 VA: 0x181459A30
 	public static short ToInt16(double value) { }
 
-	// RVA: 0x145ADD0 Offset: 0x14593D0 VA: 0x18145ADD0
+	// RVA: 0x1459EA0 Offset: 0x14584A0 VA: 0x181459EA0
 	public static short ToInt16(Decimal value) { }
 
-	// RVA: 0x145AAD0 Offset: 0x14590D0 VA: 0x18145AAD0
+	// RVA: 0x1459BA0 Offset: 0x14581A0 VA: 0x181459BA0
 	public static short ToInt16(string value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145CD60 Offset: 0x145B360 VA: 0x18145CD60
+	// RVA: 0x145BE30 Offset: 0x145A430 VA: 0x18145BE30
 	public static ushort ToUInt16(object value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145AFC0 Offset: 0x14595C0 VA: 0x18145AFC0
+	// RVA: 0x145A090 Offset: 0x1458690 VA: 0x18145A090
 	public static ushort ToUInt16(bool value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1370A00 Offset: 0x136F000 VA: 0x181370A00
+	// RVA: 0x136FB00 Offset: 0x136E100 VA: 0x18136FB00
 	public static ushort ToUInt16(char value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145CB40 Offset: 0x145B140 VA: 0x18145CB40
+	// RVA: 0x145BC10 Offset: 0x145A210 VA: 0x18145BC10
 	public static ushort ToUInt16(sbyte value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x125C870 Offset: 0x125AE70 VA: 0x18125C870
+	// RVA: 0x125CF10 Offset: 0x125B510 VA: 0x18125CF10
 	public static ushort ToUInt16(byte value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145CBC0 Offset: 0x145B1C0 VA: 0x18145CBC0
+	// RVA: 0x145BC90 Offset: 0x145A290 VA: 0x18145BC90
 	public static ushort ToUInt16(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145CC40 Offset: 0x145B240 VA: 0x18145CC40
+	// RVA: 0x145BD10 Offset: 0x145A310 VA: 0x18145BD10
 	public static ushort ToUInt16(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145CAC0 Offset: 0x145B0C0 VA: 0x18145CAC0
+	// RVA: 0x145BB90 Offset: 0x145A190 VA: 0x18145BB90
 	public static ushort ToUInt16(uint value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145CCC0 Offset: 0x145B2C0 VA: 0x18145CCC0
+	// RVA: 0x145BD90 Offset: 0x145A390 VA: 0x18145BD90
 	public static ushort ToUInt16(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145CEE0 Offset: 0x145B4E0 VA: 0x18145CEE0
+	// RVA: 0x145BFB0 Offset: 0x145A5B0 VA: 0x18145BFB0
 	public static ushort ToUInt16(ulong value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145C9B0 Offset: 0x145AFB0 VA: 0x18145C9B0
+	// RVA: 0x145BA80 Offset: 0x145A080 VA: 0x18145BA80
 	public static ushort ToUInt16(float value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145CE10 Offset: 0x145B410 VA: 0x18145CE10
+	// RVA: 0x145BEE0 Offset: 0x145A4E0 VA: 0x18145BEE0
 	public static ushort ToUInt16(double value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145C930 Offset: 0x145AF30 VA: 0x18145C930
+	// RVA: 0x145BA00 Offset: 0x145A000 VA: 0x18145BA00
 	public static ushort ToUInt16(Decimal value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145CD40 Offset: 0x145B340 VA: 0x18145CD40
+	// RVA: 0x145BE10 Offset: 0x145A410 VA: 0x18145BE10
 	public static ushort ToUInt16(string value, IFormatProvider provider) { }
 
-	// RVA: 0x145B5B0 Offset: 0x1459BB0 VA: 0x18145B5B0
+	// RVA: 0x145A680 Offset: 0x1458C80 VA: 0x18145A680
 	public static int ToInt32(object value) { }
 
-	// RVA: 0x145B2E0 Offset: 0x14598E0 VA: 0x18145B2E0
+	// RVA: 0x145A3B0 Offset: 0x14589B0 VA: 0x18145A3B0
 	public static int ToInt32(object value, IFormatProvider provider) { }
 
-	// RVA: 0x145B160 Offset: 0x1459760 VA: 0x18145B160
+	// RVA: 0x145A230 Offset: 0x1458830 VA: 0x18145A230
 	public static int ToInt32(bool value) { }
 
-	// RVA: 0x1370A00 Offset: 0x136F000 VA: 0x181370A00
+	// RVA: 0x136FB00 Offset: 0x136E100 VA: 0x18136FB00
 	public static int ToInt32(char value) { }
 
-	// RVA: 0x125C870 Offset: 0x125AE70 VA: 0x18125C870
+	// RVA: 0x125CF10 Offset: 0x125B510 VA: 0x18125CF10
 	public static int ToInt32(byte value) { }
 
-	// RVA: 0x145B580 Offset: 0x1459B80 VA: 0x18145B580
+	// RVA: 0x145A650 Offset: 0x1458C50 VA: 0x18145A650
 	public static int ToInt32(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1370A00 Offset: 0x136F000 VA: 0x181370A00
+	// RVA: 0x136FB00 Offset: 0x136E100 VA: 0x18136FB00
 	public static int ToInt32(ushort value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145B4A0 Offset: 0x1459AA0 VA: 0x18145B4A0
+	// RVA: 0x145A570 Offset: 0x1458B70 VA: 0x18145A570
 	public static int ToInt32(uint value) { }
 
-	// RVA: 0x145B250 Offset: 0x1459850 VA: 0x18145B250
+	// RVA: 0x145A320 Offset: 0x1458920 VA: 0x18145A320
 	public static int ToInt32(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145B1D0 Offset: 0x14597D0 VA: 0x18145B1D0
+	// RVA: 0x145A2A0 Offset: 0x14588A0 VA: 0x18145A2A0
 	public static int ToInt32(ulong value) { }
 
-	// RVA: 0x145B520 Offset: 0x1459B20 VA: 0x18145B520
+	// RVA: 0x145A5F0 Offset: 0x1458BF0 VA: 0x18145A5F0
 	public static int ToInt32(float value) { }
 
-	// RVA: 0x145B050 Offset: 0x1459650 VA: 0x18145B050
+	// RVA: 0x145A120 Offset: 0x1458720 VA: 0x18145A120
 	public static int ToInt32(double value) { }
 
-	// RVA: 0x145B170 Offset: 0x1459770 VA: 0x18145B170
+	// RVA: 0x145A240 Offset: 0x1458840 VA: 0x18145A240
 	public static int ToInt32(Decimal value) { }
 
-	// RVA: 0x145B430 Offset: 0x1459A30 VA: 0x18145B430
+	// RVA: 0x145A500 Offset: 0x1458B00 VA: 0x18145A500
 	public static int ToInt32(string value) { }
 
-	// RVA: 0x145B590 Offset: 0x1459B90 VA: 0x18145B590
+	// RVA: 0x145A660 Offset: 0x1458C60 VA: 0x18145A660
 	public static int ToInt32(string value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D160 Offset: 0x145B760 VA: 0x18145D160
+	// RVA: 0x145C230 Offset: 0x145A830 VA: 0x18145C230
 	public static uint ToUInt32(object value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D380 Offset: 0x145B980 VA: 0x18145D380
+	// RVA: 0x145C450 Offset: 0x145AA50 VA: 0x18145C450
 	public static uint ToUInt32(object value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145B160 Offset: 0x1459760 VA: 0x18145B160
+	// RVA: 0x145A230 Offset: 0x1458830 VA: 0x18145A230
 	public static uint ToUInt32(bool value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1370A00 Offset: 0x136F000 VA: 0x181370A00
+	// RVA: 0x136FB00 Offset: 0x136E100 VA: 0x18136FB00
 	public static uint ToUInt32(char value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D200 Offset: 0x145B800 VA: 0x18145D200
+	// RVA: 0x145C2D0 Offset: 0x145A8D0 VA: 0x18145C2D0
 	public static uint ToUInt32(sbyte value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x125C870 Offset: 0x125AE70 VA: 0x18125C870
+	// RVA: 0x125CF10 Offset: 0x125B510 VA: 0x18125CF10
 	public static uint ToUInt32(byte value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D500 Offset: 0x145BB00 VA: 0x18145D500
+	// RVA: 0x145C5D0 Offset: 0x145ABD0 VA: 0x18145C5D0
 	public static uint ToUInt32(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1370A00 Offset: 0x136F000 VA: 0x181370A00
+	// RVA: 0x136FB00 Offset: 0x136E100 VA: 0x18136FB00
 	public static uint ToUInt32(ushort value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D300 Offset: 0x145B900 VA: 0x18145D300
+	// RVA: 0x145C3D0 Offset: 0x145A9D0 VA: 0x18145C3D0
 	public static uint ToUInt32(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D5A0 Offset: 0x145BBA0 VA: 0x18145D5A0
+	// RVA: 0x145C670 Offset: 0x145AC70 VA: 0x18145C670
 	public static uint ToUInt32(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D280 Offset: 0x145B880 VA: 0x18145D280
+	// RVA: 0x145C350 Offset: 0x145A950 VA: 0x18145C350
 	public static uint ToUInt32(ulong value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D620 Offset: 0x145BC20 VA: 0x18145D620
+	// RVA: 0x145C6F0 Offset: 0x145ACF0 VA: 0x18145C6F0
 	public static uint ToUInt32(float value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D430 Offset: 0x145BA30 VA: 0x18145D430
+	// RVA: 0x145C500 Offset: 0x145AB00 VA: 0x18145C500
 	public static uint ToUInt32(double value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D040 Offset: 0x145B640 VA: 0x18145D040
+	// RVA: 0x145C110 Offset: 0x145A710 VA: 0x18145C110
 	public static uint ToUInt32(Decimal value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D580 Offset: 0x145BB80 VA: 0x18145D580
+	// RVA: 0x145C650 Offset: 0x145AC50 VA: 0x18145C650
 	public static uint ToUInt32(string value, IFormatProvider provider) { }
 
-	// RVA: 0x145B710 Offset: 0x1459D10 VA: 0x18145B710
+	// RVA: 0x145A7E0 Offset: 0x1458DE0 VA: 0x18145A7E0
 	public static long ToInt64(object value) { }
 
-	// RVA: 0x145BA90 Offset: 0x145A090 VA: 0x18145BA90
+	// RVA: 0x145AB60 Offset: 0x1459160 VA: 0x18145AB60
 	public static long ToInt64(object value, IFormatProvider provider) { }
 
-	// RVA: 0x145BB40 Offset: 0x145A140 VA: 0x18145BB40
+	// RVA: 0x145AC10 Offset: 0x1459210 VA: 0x18145AC10
 	public static long ToInt64(bool value) { }
 
-	// RVA: 0x1370A00 Offset: 0x136F000 VA: 0x181370A00
+	// RVA: 0x136FB00 Offset: 0x136E100 VA: 0x18136FB00
 	public static long ToInt64(char value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145BB50 Offset: 0x145A150 VA: 0x18145BB50
+	// RVA: 0x145AC20 Offset: 0x1459220 VA: 0x18145AC20
 	public static long ToInt64(sbyte value) { }
 
-	// RVA: 0x125C870 Offset: 0x125AE70 VA: 0x18125C870
+	// RVA: 0x125CF10 Offset: 0x125B510 VA: 0x18125CF10
 	public static long ToInt64(byte value) { }
 
-	// RVA: 0x145B650 Offset: 0x1459C50 VA: 0x18145B650
+	// RVA: 0x145A720 Offset: 0x1458D20 VA: 0x18145A720
 	public static long ToInt64(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1370A00 Offset: 0x136F000 VA: 0x181370A00
+	// RVA: 0x136FB00 Offset: 0x136E100 VA: 0x18136FB00
 	public static long ToInt64(ushort value) { }
 
-	// RVA: 0x145B7B0 Offset: 0x1459DB0 VA: 0x18145B7B0
+	// RVA: 0x145A880 Offset: 0x1458E80 VA: 0x18145A880
 	public static long ToInt64(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
+	// RVA: 0x68A650 Offset: 0x688C50 VA: 0x18068A650
 	public static long ToInt64(uint value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145B660 Offset: 0x1459C60 VA: 0x18145B660
+	// RVA: 0x145A730 Offset: 0x1458D30 VA: 0x18145A730
 	public static long ToInt64(ulong value) { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80
 	public static long ToInt64(long value) { }
 
-	// RVA: 0x145B8C0 Offset: 0x1459EC0 VA: 0x18145B8C0
+	// RVA: 0x145A990 Offset: 0x1458F90 VA: 0x18145A990
 	public static long ToInt64(float value) { }
 
-	// RVA: 0x145B7C0 Offset: 0x1459DC0 VA: 0x18145B7C0
+	// RVA: 0x145A890 Offset: 0x1458E90 VA: 0x18145A890
 	public static long ToInt64(double value) { }
 
-	// RVA: 0x145B840 Offset: 0x1459E40 VA: 0x18145B840
+	// RVA: 0x145A910 Offset: 0x1458F10 VA: 0x18145A910
 	public static long ToInt64(Decimal value) { }
 
-	// RVA: 0x145BA20 Offset: 0x145A020 VA: 0x18145BA20
+	// RVA: 0x145AAF0 Offset: 0x14590F0 VA: 0x18145AAF0
 	public static long ToInt64(string value) { }
 
-	// RVA: 0x145B6F0 Offset: 0x1459CF0 VA: 0x18145B6F0
+	// RVA: 0x145A7C0 Offset: 0x1458DC0 VA: 0x18145A7C0
 	public static long ToInt64(string value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145DA90 Offset: 0x145C090 VA: 0x18145DA90
+	// RVA: 0x145CB60 Offset: 0x145B160 VA: 0x18145CB60
 	public static ulong ToUInt64(object value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145B160 Offset: 0x1459760 VA: 0x18145B160
+	// RVA: 0x145A230 Offset: 0x1458830 VA: 0x18145A230
 	public static ulong ToUInt64(bool value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1370A00 Offset: 0x136F000 VA: 0x181370A00
+	// RVA: 0x136FB00 Offset: 0x136E100 VA: 0x18136FB00
 	public static ulong ToUInt64(char value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D730 Offset: 0x145BD30 VA: 0x18145D730
+	// RVA: 0x145C800 Offset: 0x145AE00 VA: 0x18145C800
 	public static ulong ToUInt64(sbyte value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x125C870 Offset: 0x125AE70 VA: 0x18125C870
+	// RVA: 0x125CF10 Offset: 0x125B510 VA: 0x18125CF10
 	public static ulong ToUInt64(byte value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D970 Offset: 0x145BF70 VA: 0x18145D970
+	// RVA: 0x145CA40 Offset: 0x145B040 VA: 0x18145CA40
 	public static ulong ToUInt64(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1370A00 Offset: 0x136F000 VA: 0x181370A00
+	// RVA: 0x136FB00 Offset: 0x136E100 VA: 0x18136FB00
 	public static ulong ToUInt64(ushort value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D7B0 Offset: 0x145BDB0 VA: 0x18145D7B0
+	// RVA: 0x145C880 Offset: 0x145AE80 VA: 0x18145C880
 	public static ulong ToUInt64(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
+	// RVA: 0x68A650 Offset: 0x688C50 VA: 0x18068A650
 	public static ulong ToUInt64(uint value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145DC20 Offset: 0x145C220 VA: 0x18145DC20
+	// RVA: 0x145CCF0 Offset: 0x145B2F0 VA: 0x18145CCF0
 	public static ulong ToUInt64(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145DB40 Offset: 0x145C140 VA: 0x18145DB40
+	// RVA: 0x145CC10 Offset: 0x145B210 VA: 0x18145CC10
 	public static ulong ToUInt64(float value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D9F0 Offset: 0x145BFF0 VA: 0x18145D9F0
+	// RVA: 0x145CAC0 Offset: 0x145B0C0 VA: 0x18145CAC0
 	public static ulong ToUInt64(double value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D830 Offset: 0x145BE30 VA: 0x18145D830
+	// RVA: 0x145C900 Offset: 0x145AF00 VA: 0x18145C900
 	public static ulong ToUInt64(Decimal value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D8B0 Offset: 0x145BEB0 VA: 0x18145D8B0
+	// RVA: 0x145C980 Offset: 0x145AF80 VA: 0x18145C980
 	public static ulong ToUInt64(string value, IFormatProvider provider) { }
 
-	// RVA: 0x145C4B0 Offset: 0x145AAB0 VA: 0x18145C4B0
+	// RVA: 0x145B580 Offset: 0x1459B80 VA: 0x18145B580
 	public static float ToSingle(object value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145C410 Offset: 0x145AA10 VA: 0x18145C410
+	// RVA: 0x145B4E0 Offset: 0x1459AE0 VA: 0x18145B4E0
 	public static float ToSingle(sbyte value) { }
 
-	// RVA: 0x145C3B0 Offset: 0x145A9B0 VA: 0x18145C3B0
+	// RVA: 0x145B480 Offset: 0x1459A80 VA: 0x18145B480
 	public static float ToSingle(byte value) { }
 
-	// RVA: 0x145C3D0 Offset: 0x145A9D0 VA: 0x18145C3D0
+	// RVA: 0x145B4A0 Offset: 0x1459AA0 VA: 0x18145B4A0
 	public static float ToSingle(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145C590 Offset: 0x145AB90 VA: 0x18145C590
+	// RVA: 0x145B660 Offset: 0x1459C60 VA: 0x18145B660
 	public static float ToSingle(ushort value) { }
 
-	// RVA: 0x145C3E0 Offset: 0x145A9E0 VA: 0x18145C3E0
+	// RVA: 0x145B4B0 Offset: 0x1459AB0 VA: 0x18145B4B0
 	public static float ToSingle(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145C420 Offset: 0x145AA20 VA: 0x18145C420
+	// RVA: 0x145B4F0 Offset: 0x1459AF0 VA: 0x18145B4F0
 	public static float ToSingle(uint value) { }
 
-	// RVA: 0x145C3C0 Offset: 0x145A9C0 VA: 0x18145C3C0
+	// RVA: 0x145B490 Offset: 0x1459A90 VA: 0x18145B490
 	public static float ToSingle(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145C560 Offset: 0x145AB60 VA: 0x18145C560
+	// RVA: 0x145B630 Offset: 0x1459C30 VA: 0x18145B630
 	public static float ToSingle(ulong value) { }
 
-	// RVA: 0x145C4A0 Offset: 0x145AAA0 VA: 0x18145C4A0
+	// RVA: 0x145B570 Offset: 0x1459B70 VA: 0x18145B570
 	public static float ToSingle(double value) { }
 
-	// RVA: 0x145C440 Offset: 0x145AA40 VA: 0x18145C440
+	// RVA: 0x145B510 Offset: 0x1459B10 VA: 0x18145B510
 	public static float ToSingle(Decimal value) { }
 
-	// RVA: 0x145C3F0 Offset: 0x145A9F0 VA: 0x18145C3F0
+	// RVA: 0x145B4C0 Offset: 0x1459AC0 VA: 0x18145B4C0
 	public static float ToSingle(string value, IFormatProvider provider) { }
 
-	// RVA: 0x145C430 Offset: 0x145AA30 VA: 0x18145C430
+	// RVA: 0x145B500 Offset: 0x1459B00 VA: 0x18145B500
 	public static float ToSingle(bool value) { }
 
-	// RVA: 0x145A7B0 Offset: 0x1458DB0 VA: 0x18145A7B0
+	// RVA: 0x1459880 Offset: 0x1457E80 VA: 0x181459880
 	public static double ToDouble(object value) { }
 
-	// RVA: 0x145A5F0 Offset: 0x1458BF0 VA: 0x18145A5F0
+	// RVA: 0x14596C0 Offset: 0x1457CC0 VA: 0x1814596C0
 	public static double ToDouble(object value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145A6D0 Offset: 0x1458CD0 VA: 0x18145A6D0
+	// RVA: 0x14597A0 Offset: 0x1457DA0 VA: 0x1814597A0
 	public static double ToDouble(sbyte value) { }
 
-	// RVA: 0x145A8D0 Offset: 0x1458ED0 VA: 0x18145A8D0
+	// RVA: 0x14599A0 Offset: 0x1457FA0 VA: 0x1814599A0
 	public static double ToDouble(byte value) { }
 
-	// RVA: 0x145A790 Offset: 0x1458D90 VA: 0x18145A790
+	// RVA: 0x1459860 Offset: 0x1457E60 VA: 0x181459860
 	public static double ToDouble(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145A6E0 Offset: 0x1458CE0 VA: 0x18145A6E0
+	// RVA: 0x14597B0 Offset: 0x1457DB0 VA: 0x1814597B0
 	public static double ToDouble(ushort value) { }
 
-	// RVA: 0x145A850 Offset: 0x1458E50 VA: 0x18145A850
+	// RVA: 0x1459920 Offset: 0x1457F20 VA: 0x181459920
 	public static double ToDouble(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145A7A0 Offset: 0x1458DA0 VA: 0x18145A7A0
+	// RVA: 0x1459870 Offset: 0x1457E70 VA: 0x181459870
 	public static double ToDouble(uint value) { }
 
-	// RVA: 0x145A6F0 Offset: 0x1458CF0 VA: 0x18145A6F0
+	// RVA: 0x14597C0 Offset: 0x1457DC0 VA: 0x1814597C0
 	public static double ToDouble(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145A6A0 Offset: 0x1458CA0 VA: 0x18145A6A0
+	// RVA: 0x1459770 Offset: 0x1457D70 VA: 0x181459770
 	public static double ToDouble(ulong value) { }
 
-	// RVA: 0x145A700 Offset: 0x1458D00 VA: 0x18145A700
+	// RVA: 0x14597D0 Offset: 0x1457DD0 VA: 0x1814597D0
 	public static double ToDouble(float value) { }
 
-	// RVA: 0x145A860 Offset: 0x1458E60 VA: 0x18145A860
+	// RVA: 0x1459930 Offset: 0x1457F30 VA: 0x181459930
 	public static double ToDouble(Decimal value) { }
 
-	// RVA: 0x145A710 Offset: 0x1458D10 VA: 0x18145A710
+	// RVA: 0x14597E0 Offset: 0x1457DE0 VA: 0x1814597E0
 	public static double ToDouble(string value, IFormatProvider provider) { }
 
-	// RVA: 0x145A8C0 Offset: 0x1458EC0 VA: 0x18145A8C0
+	// RVA: 0x1459990 Offset: 0x1457F90 VA: 0x181459990
 	public static double ToDouble(bool value) { }
 
-	// RVA: 0x1459EB0 Offset: 0x14584B0 VA: 0x181459EB0
+	// RVA: 0x1458F80 Offset: 0x1457580 VA: 0x181458F80
 	public static Decimal ToDecimal(object value) { }
 
-	// RVA: 0x145A240 Offset: 0x1458840 VA: 0x18145A240
+	// RVA: 0x1459310 Offset: 0x1457910 VA: 0x181459310
 	public static Decimal ToDecimal(object value, IFormatProvider provider) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145A020 Offset: 0x1458620 VA: 0x18145A020
+	// RVA: 0x14590F0 Offset: 0x14576F0 VA: 0x1814590F0
 	public static Decimal ToDecimal(sbyte value) { }
 
-	// RVA: 0x1459DD0 Offset: 0x14583D0 VA: 0x181459DD0
+	// RVA: 0x1458EA0 Offset: 0x14574A0 VA: 0x181458EA0
 	public static Decimal ToDecimal(byte value) { }
 
-	// RVA: 0x145A3C0 Offset: 0x14589C0 VA: 0x18145A3C0
+	// RVA: 0x1459490 Offset: 0x1457A90 VA: 0x181459490
 	public static Decimal ToDecimal(short value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145A580 Offset: 0x1458B80 VA: 0x18145A580
+	// RVA: 0x1459650 Offset: 0x1457C50 VA: 0x181459650
 	public static Decimal ToDecimal(ushort value) { }
 
-	// RVA: 0x145A090 Offset: 0x1458690 VA: 0x18145A090
+	// RVA: 0x1459160 Offset: 0x1457760 VA: 0x181459160
 	public static Decimal ToDecimal(int value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1459E40 Offset: 0x1458440 VA: 0x181459E40
+	// RVA: 0x1458F10 Offset: 0x1457510 VA: 0x181458F10
 	public static Decimal ToDecimal(uint value) { }
 
-	// RVA: 0x145A430 Offset: 0x1458A30 VA: 0x18145A430
+	// RVA: 0x1459500 Offset: 0x1457B00 VA: 0x181459500
 	public static Decimal ToDecimal(long value) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145A1D0 Offset: 0x14587D0 VA: 0x18145A1D0
+	// RVA: 0x14592A0 Offset: 0x14578A0 VA: 0x1814592A0
 	public static Decimal ToDecimal(ulong value) { }
 
-	// RVA: 0x1459D60 Offset: 0x1458360 VA: 0x181459D60
+	// RVA: 0x1458E30 Offset: 0x1457430 VA: 0x181458E30
 	public static Decimal ToDecimal(float value) { }
 
-	// RVA: 0x145A510 Offset: 0x1458B10 VA: 0x18145A510
+	// RVA: 0x14595E0 Offset: 0x1457BE0 VA: 0x1814595E0
 	public static Decimal ToDecimal(double value) { }
 
-	// RVA: 0x145A100 Offset: 0x1458700 VA: 0x18145A100
+	// RVA: 0x14591D0 Offset: 0x14577D0 VA: 0x1814591D0
 	public static Decimal ToDecimal(string value, IFormatProvider provider) { }
 
-	// RVA: 0x145A4A0 Offset: 0x1458AA0 VA: 0x18145A4A0
+	// RVA: 0x1459570 Offset: 0x1457B70 VA: 0x181459570
 	public static Decimal ToDecimal(bool value) { }
 
-	// RVA: 0x1459BF0 Offset: 0x14581F0 VA: 0x181459BF0
+	// RVA: 0x1458CC0 Offset: 0x14572C0 VA: 0x181458CC0
 	public static DateTime ToDateTime(object value, IFormatProvider provider) { }
 
-	// RVA: 0x1459CD0 Offset: 0x14582D0 VA: 0x181459CD0
+	// RVA: 0x1458DA0 Offset: 0x14573A0 VA: 0x181458DA0
 	public static DateTime ToDateTime(string value, IFormatProvider provider) { }
 
-	// RVA: 0x145C730 Offset: 0x145AD30 VA: 0x18145C730
+	// RVA: 0x145B800 Offset: 0x1459E00 VA: 0x18145B800
 	public static string ToString(object value) { }
 
-	// RVA: 0x145C5C0 Offset: 0x145ABC0 VA: 0x18145C5C0
+	// RVA: 0x145B690 Offset: 0x1459C90 VA: 0x18145B690
 	public static string ToString(object value, IFormatProvider provider) { }
 
-	// RVA: 0x145C710 Offset: 0x145AD10 VA: 0x18145C710
+	// RVA: 0x145B7E0 Offset: 0x1459DE0 VA: 0x18145B7E0
 	public static string ToString(char value, IFormatProvider provider) { }
 
-	// RVA: 0x145C5A0 Offset: 0x145ABA0 VA: 0x18145C5A0
+	// RVA: 0x145B670 Offset: 0x1459C70 VA: 0x18145B670
 	public static string ToString(int value, IFormatProvider provider) { }
 
-	// RVA: 0x1459100 Offset: 0x1457700 VA: 0x181459100
+	// RVA: 0x14581D0 Offset: 0x14567D0 VA: 0x1814581D0
 	public static byte ToByte(string value, int fromBase) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145BB60 Offset: 0x145A160 VA: 0x18145BB60
+	// RVA: 0x145AC30 Offset: 0x1459230 VA: 0x18145AC30
 	public static sbyte ToSByte(string value, int fromBase) { }
 
-	// RVA: 0x145AED0 Offset: 0x14594D0 VA: 0x18145AED0
+	// RVA: 0x1459FA0 Offset: 0x14585A0 VA: 0x181459FA0
 	public static short ToInt16(string value, int fromBase) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145CF60 Offset: 0x145B560 VA: 0x18145CF60
+	// RVA: 0x145C030 Offset: 0x145A630 VA: 0x18145C030
 	public static ushort ToUInt16(string value, int fromBase) { }
 
-	// RVA: 0x145B390 Offset: 0x1459990 VA: 0x18145B390
+	// RVA: 0x145A460 Offset: 0x1458A60 VA: 0x18145A460
 	public static int ToInt32(string value, int fromBase) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D0C0 Offset: 0x145B6C0 VA: 0x18145D0C0
+	// RVA: 0x145C190 Offset: 0x145A790 VA: 0x18145C190
 	public static uint ToUInt32(string value, int fromBase) { }
 
-	// RVA: 0x145B980 Offset: 0x1459F80 VA: 0x18145B980
+	// RVA: 0x145AA50 Offset: 0x1459050 VA: 0x18145AA50
 	public static long ToInt64(string value, int fromBase) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x145D8D0 Offset: 0x145BED0 VA: 0x18145D8D0
+	// RVA: 0x145C9A0 Offset: 0x145AFA0 VA: 0x18145C9A0
 	public static ulong ToUInt64(string value, int fromBase) { }
 
-	// RVA: 0x145C890 Offset: 0x145AE90 VA: 0x18145C890
+	// RVA: 0x145B960 Offset: 0x1459F60 VA: 0x18145B960
 	public static string ToString(int value, int toBase) { }
 
-	// RVA: 0x1458B80 Offset: 0x1457180 VA: 0x181458B80
+	// RVA: 0x1457C50 Offset: 0x1456250 VA: 0x181457C50
 	public static string ToBase64String(byte[] inArray) { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x1458AD0 Offset: 0x14570D0 VA: 0x181458AD0
+	// RVA: 0x1457BA0 Offset: 0x14561A0 VA: 0x181457BA0
 	public static string ToBase64String(byte[] inArray, Base64FormattingOptions options) { }
 
-	// RVA: 0x1458A50 Offset: 0x1457050 VA: 0x181458A50
+	// RVA: 0x1457B20 Offset: 0x1456120 VA: 0x181457B20
 	public static string ToBase64String(byte[] inArray, int offset, int length) { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x1458760 Offset: 0x1456D60 VA: 0x181458760
+	// RVA: 0x1457830 Offset: 0x1455E30 VA: 0x181457830
 	public static string ToBase64String(byte[] inArray, int offset, int length, Base64FormattingOptions options) { }
 
-	// RVA: 0x1458300 Offset: 0x1456900 VA: 0x181458300
+	// RVA: 0x14573D0 Offset: 0x14559D0 VA: 0x1814573D0
 	public static int ToBase64CharArray(byte[] inArray, int offsetIn, int length, char[] outArray, int offsetOut) { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x1458390 Offset: 0x1456990 VA: 0x181458390
+	// RVA: 0x1457460 Offset: 0x1455A60 VA: 0x181457460
 	public static int ToBase64CharArray(byte[] inArray, int offsetIn, int length, char[] outArray, int offsetOut, Base64FormattingOptions options) { }
 
-	// RVA: 0x1456730 Offset: 0x1454D30 VA: 0x181456730
+	// RVA: 0x1455800 Offset: 0x1453E00 VA: 0x181455800
 	private static int ConvertToBase64Array(char* outChars, byte* inData, int offset, int length, bool insertLineBreaks) { }
 
-	// RVA: 0x1458C20 Offset: 0x1457220 VA: 0x181458C20
+	// RVA: 0x1457CF0 Offset: 0x14562F0 VA: 0x181457CF0
 	private static int ToBase64_CalculateAndValidateOutputLength(int inputLength, bool insertLineBreaks) { }
 
-	// RVA: 0x1457D60 Offset: 0x1456360 VA: 0x181457D60
+	// RVA: 0x1456E30 Offset: 0x1455430 VA: 0x181456E30
 	public static byte[] FromBase64String(string s) { }
 
-	// RVA: 0x14579F0 Offset: 0x1455FF0 VA: 0x1814579F0
+	// RVA: 0x1456AC0 Offset: 0x14550C0 VA: 0x181456AC0
 	public static byte[] FromBase64CharArray(char[] inArray, int offset, int length) { }
 
-	// RVA: 0x1457B90 Offset: 0x1456190 VA: 0x181457B90
+	// RVA: 0x1456C60 Offset: 0x1455260 VA: 0x181456C60
 	private static byte[] FromBase64CharPtr(char* inputPtr, int inputLength) { }
 
-	// RVA: 0x1457EF0 Offset: 0x14564F0 VA: 0x181457EF0
+	// RVA: 0x1456FC0 Offset: 0x14555C0 VA: 0x181456FC0
 	private static int FromBase64_Decode(char* startInputPtr, int inputLength, byte* startDestPtr, int destLength) { }
 
-	// RVA: 0x1457E10 Offset: 0x1456410 VA: 0x181457E10
+	// RVA: 0x1456EE0 Offset: 0x14554E0 VA: 0x181456EE0
 	private static int FromBase64_ComputeResultLength(char* inputPtr, int inputLength) { }
 
-	// RVA: 0x145DCA0 Offset: 0x145C2A0 VA: 0x18145DCA0
+	// RVA: 0x145CD70 Offset: 0x145B370 VA: 0x18145CD70
 	private static void .cctor() { }
 
 }

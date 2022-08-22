@@ -16,23 +16,23 @@ public class StringEnumConverter : JsonConverter // TypeDefIndex: 6106
 	public bool get_CamelCaseText() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8B670 Offset: 0xF89C70 VA: 0x180F8B670
+	// RVA: 0xF8C110 Offset: 0xF8A710 VA: 0x180F8C110
 	public bool get_AllowIntegerValues() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xF8B680 Offset: 0xF89C80 VA: 0x180F8B680
+	// RVA: 0xF8C120 Offset: 0xF8A720 VA: 0x180F8C120
 	public void set_AllowIntegerValues(bool value) { }
 
-	// RVA: 0xF9D680 Offset: 0xF9BC80 VA: 0x180F9D680
+	// RVA: 0xF9E120 Offset: 0xF9C720 VA: 0x180F9E120
 	public void .ctor() { }
 
-	// RVA: 0xF9D4C0 Offset: 0xF9BAC0 VA: 0x180F9D4C0 Slot: 4
+	// RVA: 0xF9DF60 Offset: 0xF9C560 VA: 0x180F9DF60 Slot: 4
 	public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer) { }
 
-	// RVA: 0xF9D0D0 Offset: 0xF9B6D0 VA: 0x180F9D0D0 Slot: 5
+	// RVA: 0xF9DB70 Offset: 0xF9C170 VA: 0x180F9DB70 Slot: 5
 	public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer) { }
 
-	// RVA: 0xF9D060 Offset: 0xF9B660 VA: 0x180F9D060 Slot: 6
+	// RVA: 0xF9DB00 Offset: 0xF9C100 VA: 0x180F9DB00 Slot: 6
 	public override bool CanConvert(Type objectType) { }
 
 }

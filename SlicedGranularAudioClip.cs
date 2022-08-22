@@ -23,28 +23,28 @@ public class SlicedGranularAudioClip : MonoBehaviour, IClientComponent // TypeDe
 
 	// Methods
 
-	// RVA: 0x5AA160 Offset: 0x5A8760 VA: 0x1805AA160
+	// RVA: 0x5AA0F0 Offset: 0x5A86F0 VA: 0x1805AA0F0
 	private void Awake() { }
 
-	// RVA: 0x5AA950 Offset: 0x5A8F50 VA: 0x1805AA950
+	// RVA: 0x5AA8E0 Offset: 0x5A8EE0 VA: 0x1805AA8E0
 	private void Update() { }
 
-	// RVA: 0x5AA6B0 Offset: 0x5A8CB0 VA: 0x1805AA6B0
+	// RVA: 0x5AA640 Offset: 0x5A8C40 VA: 0x1805AA640
 	private void RefreshCachedData() { }
 
-	// RVA: 0x5AA3B0 Offset: 0x5A89B0 VA: 0x1805AA3B0
+	// RVA: 0x5AA340 Offset: 0x5A8940 VA: 0x1805AA340
 	private void InitAudioClip() { }
 
-	// RVA: 0x5AA4F0 Offset: 0x5A8AF0 VA: 0x1805AA4F0
+	// RVA: 0x5AA480 Offset: 0x5A8A80 VA: 0x1805AA480
 	private void OnAudioRead(float[] data) { }
 
-	// RVA: 0x5AA790 Offset: 0x5A8D90 VA: 0x1805AA790
+	// RVA: 0x5AA720 Offset: 0x5A8D20 VA: 0x1805AA720
 	private void SpawnGrain() { }
 
-	// RVA: 0x5AA2A0 Offset: 0x5A88A0 VA: 0x1805AA2A0
+	// RVA: 0x5AA230 Offset: 0x5A8830 VA: 0x1805AA230
 	private void CleanupFinishedGrains() { }
 
-	// RVA: 0x5AACF0 Offset: 0x5A92F0 VA: 0x1805AACF0
+	// RVA: 0x5AAC80 Offset: 0x5A9280 VA: 0x1805AAC80
 	public void .ctor() { }
 
 }
@@ -69,16 +69,16 @@ public class SlicedGranularAudioClip.Grain // TypeDefIndex: 9022
 
 	// Methods
 
-	// RVA: 0x5A4ED0 Offset: 0x5A34D0 VA: 0x1805A4ED0
+	// RVA: 0x5A4E60 Offset: 0x5A3460 VA: 0x1805A4E60
 	public bool get_finished() { }
 
-	// RVA: 0x5A4E30 Offset: 0x5A3430 VA: 0x1805A4E30
+	// RVA: 0x5A4DC0 Offset: 0x5A33C0 VA: 0x1805A4DC0
 	public void Init(float[] source, int start, int attack, int sustain, int release) { }
 
-	// RVA: 0x5A4D70 Offset: 0x5A3370 VA: 0x1805A4D70
+	// RVA: 0x5A4D00 Offset: 0x5A3300 VA: 0x1805A4D00
 	public float GetSample() { }
 
-	// RVA: 0x5A4D60 Offset: 0x5A3360 VA: 0x1805A4D60
+	// RVA: 0x5A4CF0 Offset: 0x5A32F0 VA: 0x1805A4CF0
 	public void FadeOut() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

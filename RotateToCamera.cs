@@ -4,10 +4,10 @@ public class RotateToCamera : MonoBehaviour, IClientComponent // TypeDefIndex: 9
 
 	// Methods
 
-	// RVA: 0x4C8210 Offset: 0x4C6810 VA: 0x1804C8210
+	// RVA: 0x4C81A0 Offset: 0x4C67A0 VA: 0x1804C81A0
 	private void LateUpdate() { }
 
-	// RVA: 0x4C8350 Offset: 0x4C6950 VA: 0x1804C8350
+	// RVA: 0x4C82E0 Offset: 0x4C68E0 VA: 0x1804C82E0
 	public void .ctor() { }
 
 }

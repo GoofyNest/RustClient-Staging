@@ -11,7 +11,7 @@ internal struct DTSubString // TypeDefIndex: 233
 
 	// Methods
 
-	// RVA: 0x20AFF0 Offset: 0x20A3F0 VA: 0x18020AFF0
+	// RVA: 0x20AC20 Offset: 0x20A020 VA: 0x18020AC20
 	internal char get_Item(int relativeIndex) { }
 
 }

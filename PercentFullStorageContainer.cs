@@ -7,28 +7,28 @@ public class PercentFullStorageContainer : StorageContainer // TypeDefIndex: 951
 
 	// Methods
 
-	// RVA: 0x86D660 Offset: 0x86BC60 VA: 0x18086D660
+	// RVA: 0x888DC0 Offset: 0x8873C0 VA: 0x180888DC0
 	public bool IsFull() { }
 
-	// RVA: 0x86D620 Offset: 0x86BC20 VA: 0x18086D620
+	// RVA: 0x888D80 Offset: 0x887380 VA: 0x180888D80
 	public bool IsEmpty() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 155
 	protected virtual void OnPercentFullChanged(float newPercentFull) { }
 
-	// RVA: 0x86D5F0 Offset: 0x86BBF0 VA: 0x18086D5F0
+	// RVA: 0x888D50 Offset: 0x887350 VA: 0x180888D50
 	public float GetPercentFull() { }
 
-	// RVA: 0x86D6A0 Offset: 0x86BCA0 VA: 0x18086D6A0 Slot: 34
+	// RVA: 0x888E00 Offset: 0x887400 VA: 0x180888E00 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x86D790 Offset: 0x86BD90 VA: 0x18086D790
+	// RVA: 0x888EF0 Offset: 0x8874F0 VA: 0x180888EF0
 	protected float get_ClientPercentFull() { }
 
-	// RVA: 0x86D7A0 Offset: 0x86BDA0 VA: 0x18086D7A0
+	// RVA: 0x888F00 Offset: 0x887500 VA: 0x180888F00
 	protected void set_ClientPercentFull(float value) { }
 
-	// RVA: 0x86D730 Offset: 0x86BD30 VA: 0x18086D730
+	// RVA: 0x888E90 Offset: 0x887490 VA: 0x180888E90
 	public void .ctor() { }
 
 }

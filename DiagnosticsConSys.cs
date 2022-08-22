@@ -1,54 +1,54 @@
 public class DiagnosticsConSys : ConsoleSystem // TypeDefIndex: 9276
 {	// Methods
 
-	// RVA: 0x980AA0 Offset: 0x97F0A0 VA: 0x180980AA0
+	// RVA: 0x980FA0 Offset: 0x97F5A0 VA: 0x180980FA0
 	private static void DumpAnimators(string targetFolder) { }
 
-	// RVA: 0x981BC0 Offset: 0x9801C0 VA: 0x180981BC0
+	// RVA: 0x9820C0 Offset: 0x9806C0 VA: 0x1809820C0
 	private static void DumpEntities(string targetFolder) { }
 
-	// RVA: 0x983650 Offset: 0x981C50 VA: 0x180983650
+	// RVA: 0x983B50 Offset: 0x982150 VA: 0x180983B50
 	private static void DumpLODGroups(string targetFolder) { }
 
-	// RVA: 0x9831E0 Offset: 0x9817E0 VA: 0x1809831E0
+	// RVA: 0x9836E0 Offset: 0x981CE0 VA: 0x1809836E0
 	private static void DumpLODGroupTotals(string targetFolder) { }
 
-	// RVA: 0x983660 Offset: 0x981C60 VA: 0x180983660
+	// RVA: 0x983B60 Offset: 0x982160 VA: 0x180983B60
 	private static void DumpNetwork(string targetFolder) { }
 
-	// RVA: 0x9837E0 Offset: 0x981DE0 VA: 0x1809837E0
+	// RVA: 0x983CE0 Offset: 0x9822E0 VA: 0x180983CE0
 	private static void DumpObjects(string targetFolder) { }
 
-	// RVA: 0x984150 Offset: 0x982750 VA: 0x180984150
+	// RVA: 0x984650 Offset: 0x982C50 VA: 0x180984650
 	private static void DumpPhysics(string targetFolder) { }
 
-	// RVA: 0x984DD0 Offset: 0x9833D0 VA: 0x180984DD0
+	// RVA: 0x9852D0 Offset: 0x9838D0 VA: 0x1809852D0
 	private static void DumpTotals(string targetFolder) { }
 
-	// RVA: 0x981500 Offset: 0x97FB00 VA: 0x180981500
+	// RVA: 0x981A00 Offset: 0x980000 VA: 0x180981A00
 	private static void DumpColliders(string targetFolder) { }
 
-	// RVA: 0x984180 Offset: 0x982780 VA: 0x180984180
+	// RVA: 0x984680 Offset: 0x982C80 VA: 0x180984680
 	private static void DumpRigidBodies(string targetFolder) { }
 
-	// RVA: 0x9825D0 Offset: 0x980BD0 VA: 0x1809825D0
+	// RVA: 0x982AD0 Offset: 0x9810D0 VA: 0x180982AD0
 	private static void DumpGameObjects(string targetFolder) { }
 
-	// RVA: 0x9822E0 Offset: 0x9808E0 VA: 0x1809822E0
+	// RVA: 0x9827E0 Offset: 0x980DE0 VA: 0x1809827E0
 	private static void DumpGameObjectRecursive(StringBuilder str, Transform tx, int indent, bool includeComponents = False) { }
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x985250 Offset: 0x983850 VA: 0x180985250
+	// RVA: 0x985750 Offset: 0x983D50 VA: 0x180985750
 	public static void dump(ConsoleSystem.Arg args) { }
 
-	// RVA: 0x984D70 Offset: 0x983370 VA: 0x180984D70
+	// RVA: 0x985270 Offset: 0x983870 VA: 0x180985270
 	private static void DumpSystemInformation(string targetFolder) { }
 
-	// RVA: 0x9851E0 Offset: 0x9837E0 VA: 0x1809851E0
+	// RVA: 0x9856E0 Offset: 0x983CE0 VA: 0x1809856E0
 	private static void WriteTextToFile(string file, string text) { }
 
-	// RVA: 0x9851F0 Offset: 0x9837F0 VA: 0x1809851F0
+	// RVA: 0x9856F0 Offset: 0x983CF0 VA: 0x1809856F0
 	public void .ctor() { }
 
 }
@@ -88,97 +88,97 @@ private sealed class DiagnosticsConSys.<>c // TypeDefIndex: 9277
 
 	// Methods
 
-	// RVA: 0x98C5E0 Offset: 0x98ABE0 VA: 0x18098C5E0
+	// RVA: 0x98CAE0 Offset: 0x98B0E0 VA: 0x18098CAE0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x98BC70 Offset: 0x98A270 VA: 0x18098BC70
+	// RVA: 0x98C170 Offset: 0x98A770 VA: 0x18098C170
 	internal string <DumpAnimators>b__0_0(Animator x) { }
 
-	// RVA: 0x98BCC0 Offset: 0x98A2C0 VA: 0x18098BCC0
+	// RVA: 0x98C1C0 Offset: 0x98A7C0 VA: 0x18098C1C0
 	internal int <DumpAnimators>b__0_1(IGrouping<string, Animator> x) { }
 
-	// RVA: 0x98BD00 Offset: 0x98A300 VA: 0x18098BD00
+	// RVA: 0x98C200 Offset: 0x98A800 VA: 0x18098C200
 	internal string <DumpAnimators>b__0_2(Animator x) { }
 
-	// RVA: 0x98BD80 Offset: 0x98A380 VA: 0x18098BD80
+	// RVA: 0x98C280 Offset: 0x98A880 VA: 0x18098C280
 	internal int <DumpAnimators>b__0_3(IGrouping<string, Animator> x) { }
 
-	// RVA: 0x98BE70 Offset: 0x98A470 VA: 0x18098BE70
+	// RVA: 0x98C370 Offset: 0x98A970 VA: 0x18098C370
 	internal uint <DumpEntities>b__1_0(BaseNetworkable x) { }
 
-	// RVA: 0x98BE90 Offset: 0x98A490 VA: 0x18098BE90
+	// RVA: 0x98C390 Offset: 0x98A990 VA: 0x18098C390
 	internal int <DumpEntities>b__1_1(IGrouping<uint, BaseNetworkable> x) { }
 
-	// RVA: 0x98C0F0 Offset: 0x98A6F0 VA: 0x18098C0F0
+	// RVA: 0x98C5F0 Offset: 0x98ABF0 VA: 0x18098C5F0
 	internal string <DumpLODGroupTotals>b__3_0(LODGroup x) { }
 
-	// RVA: 0x98C140 Offset: 0x98A740 VA: 0x18098C140
+	// RVA: 0x98C640 Offset: 0x98AC40 VA: 0x18098C640
 	internal int <DumpLODGroupTotals>b__3_1(IGrouping<string, LODGroup> x) { }
 
-	// RVA: 0x98C180 Offset: 0x98A780 VA: 0x18098C180
+	// RVA: 0x98C680 Offset: 0x98AC80 VA: 0x18098C680
 	internal Type <DumpObjects>b__5_0(Object x) { }
 
-	// RVA: 0x98C1A0 Offset: 0x98A7A0 VA: 0x18098C1A0
+	// RVA: 0x98C6A0 Offset: 0x98ACA0 VA: 0x18098C6A0
 	internal int <DumpObjects>b__5_1(IGrouping<Type, Object> x) { }
 
-	// RVA: 0x98C1E0 Offset: 0x98A7E0 VA: 0x18098C1E0
+	// RVA: 0x98C6E0 Offset: 0x98ACE0 VA: 0x18098C6E0
 	internal bool <DumpObjects>b__5_2(Object x) { }
 
-	// RVA: 0x98C180 Offset: 0x98A780 VA: 0x18098C180
+	// RVA: 0x98C680 Offset: 0x98AC80 VA: 0x18098C680
 	internal Type <DumpObjects>b__5_3(Object x) { }
 
-	// RVA: 0x98C260 Offset: 0x98A860 VA: 0x18098C260
+	// RVA: 0x98C760 Offset: 0x98AD60 VA: 0x18098C760
 	internal int <DumpObjects>b__5_4(IGrouping<Type, Object> x) { }
 
-	// RVA: 0x6E8330 Offset: 0x6E6930 VA: 0x1806E8330
+	// RVA: 0x6E82C0 Offset: 0x6E68C0 VA: 0x1806E82C0
 	internal bool <DumpTotals>b__7_0(Collider x) { }
 
-	// RVA: 0x98BDC0 Offset: 0x98A3C0 VA: 0x18098BDC0
+	// RVA: 0x98C2C0 Offset: 0x98A8C0 VA: 0x18098C2C0
 	internal string <DumpColliders>b__8_0(Collider x) { }
 
-	// RVA: 0x98BE10 Offset: 0x98A410 VA: 0x18098BE10
+	// RVA: 0x98C310 Offset: 0x98A910 VA: 0x18098C310
 	internal int <DumpColliders>b__8_1(IGrouping<string, Collider> x) { }
 
-	// RVA: 0x98BE50 Offset: 0x98A450 VA: 0x18098BE50
+	// RVA: 0x98C350 Offset: 0x98A950 VA: 0x18098C350
 	internal bool <DumpColliders>b__8_2(Collider x) { }
 
-	// RVA: 0x6E8330 Offset: 0x6E6930 VA: 0x1806E8330
+	// RVA: 0x6E82C0 Offset: 0x6E68C0 VA: 0x1806E82C0
 	internal bool <DumpColliders>b__8_3(Collider x) { }
 
-	// RVA: 0x98C2A0 Offset: 0x98A8A0 VA: 0x18098C2A0
+	// RVA: 0x98C7A0 Offset: 0x98ADA0 VA: 0x18098C7A0
 	internal string <DumpRigidBodies>b__9_0(Rigidbody x) { }
 
-	// RVA: 0x98C2F0 Offset: 0x98A8F0 VA: 0x18098C2F0
+	// RVA: 0x98C7F0 Offset: 0x98ADF0 VA: 0x18098C7F0
 	internal int <DumpRigidBodies>b__9_1(IGrouping<string, Rigidbody> x) { }
 
-	// RVA: 0x98C330 Offset: 0x98A930 VA: 0x18098C330
+	// RVA: 0x98C830 Offset: 0x98AE30 VA: 0x18098C830
 	internal bool <DumpRigidBodies>b__9_2(Rigidbody x) { }
 
-	// RVA: 0x98C360 Offset: 0x98A960 VA: 0x18098C360
+	// RVA: 0x98C860 Offset: 0x98AE60 VA: 0x18098C860
 	internal bool <DumpRigidBodies>b__9_3(Rigidbody x) { }
 
-	// RVA: 0x98C380 Offset: 0x98A980 VA: 0x18098C380
+	// RVA: 0x98C880 Offset: 0x98AE80 VA: 0x18098C880
 	internal bool <DumpRigidBodies>b__9_4(Rigidbody x) { }
 
-	// RVA: 0x7EFF90 Offset: 0x7EE590 VA: 0x1807EFF90
+	// RVA: 0x7F0520 Offset: 0x7EEB20 VA: 0x1807F0520
 	internal string <DumpGameObjects>b__10_0(Transform x) { }
 
-	// RVA: 0x98BED0 Offset: 0x98A4D0 VA: 0x18098BED0
+	// RVA: 0x98C3D0 Offset: 0x98A9D0 VA: 0x18098C3D0
 	internal int <DumpGameObjects>b__10_1(IGrouping<string, Transform> x) { }
 
-	// RVA: 0x7EFF90 Offset: 0x7EE590 VA: 0x1807EFF90
+	// RVA: 0x7F0520 Offset: 0x7EEB20 VA: 0x1807F0520
 	internal string <DumpGameObjects>b__10_2(Transform x) { }
 
-	// RVA: 0x98BF10 Offset: 0x98A510 VA: 0x18098BF10
+	// RVA: 0x98C410 Offset: 0x98AA10 VA: 0x18098C410
 	internal KeyValuePair<Transform, int> <DumpGameObjects>b__10_3(IGrouping<string, Transform> x) { }
 
-	// RVA: 0x98C0A0 Offset: 0x98A6A0 VA: 0x18098C0A0
+	// RVA: 0x98C5A0 Offset: 0x98ABA0 VA: 0x18098C5A0
 	internal int <DumpGameObjects>b__10_5(Transform y) { }
 
-	// RVA: 0x98C060 Offset: 0x98A660 VA: 0x18098C060
+	// RVA: 0x98C560 Offset: 0x98AB60 VA: 0x18098C560
 	internal int <DumpGameObjects>b__10_4(KeyValuePair<Transform, int> x) { }
 
 }

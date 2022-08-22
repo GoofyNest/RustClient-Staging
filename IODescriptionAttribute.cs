@@ -4,10 +4,10 @@ public class IODescriptionAttribute : DescriptionAttribute // TypeDefIndex: 2850
 
 	// Methods
 
-	// RVA: 0x1533B50 Offset: 0x1532150 VA: 0x181533B50
+	// RVA: 0x1532C20 Offset: 0x1531220 VA: 0x181532C20
 	public void .ctor(string description) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 7
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 7
 	public override string get_Description() { }
 
 }

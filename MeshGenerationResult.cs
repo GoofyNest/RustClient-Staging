@@ -26,7 +26,7 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult> // TypeDef
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B770 Offset: 0x14AB70 VA: 0x18014B770
+	// RVA: 0x14B590 Offset: 0x14A990 VA: 0x18014B590
 	public MeshId get_MeshId() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -38,11 +38,11 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult> // TypeDef
 	public MeshCollider get_MeshCollider() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12C1C0 Offset: 0x12B5C0 VA: 0x18012C1C0
+	// RVA: 0x12BFE0 Offset: 0x12B3E0 VA: 0x18012BFE0
 	public MeshGenerationStatus get_Status() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1E4C20 Offset: 0x1E4020 VA: 0x1801E4C20
+	// RVA: 0x1E5040 Offset: 0x1E4440 VA: 0x1801E5040
 	public MeshVertexAttributes get_Attributes() { }
 
 	// RVA: 0x23E840 Offset: 0x23DC40 VA: 0x18023E840 Slot: 0

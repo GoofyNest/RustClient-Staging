@@ -1,16 +1,16 @@
 internal sealed class StringTypeInfo : TraceLoggingTypeInfo<string> // TypeDefIndex: 1568
 {	// Methods
 
-	// RVA: 0x10E6DE0 Offset: 0x10E53E0 VA: 0x1810E6DE0 Slot: 4
+	// RVA: 0x10E7850 Offset: 0x10E5E50 VA: 0x1810E7850 Slot: 4
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 
-	// RVA: 0x10E6D60 Offset: 0x10E5360 VA: 0x1810E6D60 Slot: 7
+	// RVA: 0x10E77D0 Offset: 0x10E5DD0 VA: 0x1810E77D0 Slot: 7
 	public override void WriteData(TraceLoggingDataCollector collector, ref string value) { }
 
-	// RVA: 0x10E6D20 Offset: 0x10E5320 VA: 0x1810E6D20 Slot: 6
+	// RVA: 0x10E7790 Offset: 0x10E5D90 VA: 0x1810E7790 Slot: 6
 	public override object GetData(object value) { }
 
-	// RVA: 0x10E6F10 Offset: 0x10E5510 VA: 0x1810E6F10
+	// RVA: 0x10E7980 Offset: 0x10E5F80 VA: 0x1810E7980
 	public void .ctor() { }
 
 }

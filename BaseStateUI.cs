@@ -43,60 +43,60 @@ public class BaseStateUI : MonoBehaviour // TypeDefIndex: 10790
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x92DA50 Offset: 0x92C050 VA: 0x18092DA50
+	// RVA: 0x92DF60 Offset: 0x92C560 VA: 0x18092DF60
 	public int get_InputEntityMemorySlot() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x92DA60 Offset: 0x92C060 VA: 0x18092DA60
+	// RVA: 0x92DF70 Offset: 0x92C570 VA: 0x18092DF70
 	private void set_InputEntityMemorySlot(int value) { }
 
-	// RVA: 0x92CEB0 Offset: 0x92B4B0 VA: 0x18092CEB0 Slot: 4
+	// RVA: 0x92D3C0 Offset: 0x92B9C0 VA: 0x18092D3C0 Slot: 4
 	public virtual void Init(AIState stateType, int stateContainerID) { }
 
-	// RVA: 0x92C7E0 Offset: 0x92ADE0 VA: 0x18092C7E0
+	// RVA: 0x92CCF0 Offset: 0x92B2F0 VA: 0x18092CCF0
 	public void ClearEvents() { }
 
-	// RVA: 0x92C480 Offset: 0x92AA80 VA: 0x18092C480
+	// RVA: 0x92C990 Offset: 0x92AF90 VA: 0x18092C990
 	public BaseEventUI AddNewEvent(AIEventType eventType) { }
 
-	// RVA: 0x92D350 Offset: 0x92B950 VA: 0x18092D350
+	// RVA: 0x92D860 Offset: 0x92BE60 VA: 0x18092D860
 	public void PingTriggeringEvent(int id) { }
 
-	// RVA: 0x92CC50 Offset: 0x92B250 VA: 0x18092CC50
+	// RVA: 0x92D160 Offset: 0x92B760 VA: 0x18092D160
 	private BaseEventUI GetEvent(int id) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x7C310 Offset: 0x7B710 VA: 0x18007C310
-	// RVA: 0x92D8B0 Offset: 0x92BEB0 VA: 0x18092D8B0
+	// RVA: 0x92DDC0 Offset: 0x92C3C0 VA: 0x18092DDC0
 	private IEnumerator ScrollToBottom() { }
 
-	// RVA: 0x92D0A0 Offset: 0x92B6A0 VA: 0x18092D0A0
+	// RVA: 0x92D5B0 Offset: 0x92BBB0 VA: 0x18092D5B0
 	public void Load(AIStateContainer container) { }
 
-	// RVA: 0x92D920 Offset: 0x92BF20 VA: 0x18092D920
+	// RVA: 0x92DE30 Offset: 0x92C430 VA: 0x18092DE30
 	public void SetActiveDebugState(bool flag) { }
 
-	// RVA: 0x92D570 Offset: 0x92BB70 VA: 0x18092D570 Slot: 5
+	// RVA: 0x92DA80 Offset: 0x92C080 VA: 0x18092DA80 Slot: 5
 	public virtual AIStateContainer Save() { }
 
-	// RVA: 0x92CB10 Offset: 0x92B110 VA: 0x18092CB10
+	// RVA: 0x92D020 Offset: 0x92B620 VA: 0x18092D020
 	private Transform GetEventPrefab(AIEventType eventType) { }
 
-	// RVA: 0x92C370 Offset: 0x92A970 VA: 0x18092C370
+	// RVA: 0x92C880 Offset: 0x92AE80 VA: 0x18092C880
 	private void AddNewEventButton() { }
 
-	// RVA: 0x92CA40 Offset: 0x92B040 VA: 0x18092CA40
+	// RVA: 0x92CF50 Offset: 0x92B550 VA: 0x18092CF50
 	public void DeleteStateClicked() { }
 
-	// RVA: 0x92C9D0 Offset: 0x92AFD0 VA: 0x18092C9D0
+	// RVA: 0x92CEE0 Offset: 0x92B4E0 VA: 0x18092CEE0
 	public void DeleteEvent(BaseEventUI eventUI) { }
 
-	// RVA: 0x92D2F0 Offset: 0x92B8F0 VA: 0x18092D2F0
+	// RVA: 0x92D800 Offset: 0x92BE00 VA: 0x18092D800
 	public void MoveEventUp(BaseEventUI eventUI) { }
 
-	// RVA: 0x92D260 Offset: 0x92B860 VA: 0x18092D260
+	// RVA: 0x92D770 Offset: 0x92BD70 VA: 0x18092D770
 	public void MoveEventDown(BaseEventUI eventUI) { }
 
-	// RVA: 0x92DA30 Offset: 0x92C030 VA: 0x18092DA30
+	// RVA: 0x92DF40 Offset: 0x92C540 VA: 0x18092DF40
 	public void .ctor() { }
 
 }
@@ -121,7 +121,7 @@ private sealed class BaseStateUI.<ScrollToBottom>d__43 : IEnumerator<object>, IE
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x93AF00 Offset: 0x939500 VA: 0x18093AF00 Slot: 6
+	// RVA: 0x93B410 Offset: 0x939A10 VA: 0x18093B410 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -129,7 +129,7 @@ private sealed class BaseStateUI.<ScrollToBottom>d__43 : IEnumerator<object>, IE
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x93B010 Offset: 0x939610 VA: 0x18093B010 Slot: 8
+	// RVA: 0x93B520 Offset: 0x939B20 VA: 0x18093B520 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

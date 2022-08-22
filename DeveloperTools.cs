@@ -12,28 +12,28 @@ public class DeveloperTools : SingletonComponent<DeveloperTools> // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x9807C0 Offset: 0x97EDC0 VA: 0x1809807C0
+	// RVA: 0x980CC0 Offset: 0x97F2C0 VA: 0x180980CC0
 	public static bool get_isOpen() { }
 
-	// RVA: 0x97FED0 Offset: 0x97E4D0 VA: 0x18097FED0
+	// RVA: 0x9803D0 Offset: 0x97E9D0 VA: 0x1809803D0
 	public static void Close() { }
 
-	// RVA: 0x980520 Offset: 0x97EB20 VA: 0x180980520
+	// RVA: 0x980A20 Offset: 0x97F020 VA: 0x180980A20
 	private void Update() { }
 
-	// RVA: 0x97FFB0 Offset: 0x97E5B0 VA: 0x18097FFB0
+	// RVA: 0x9804B0 Offset: 0x97EAB0 VA: 0x1809804B0
 	private void Start() { }
 
-	// RVA: 0x980380 Offset: 0x97E980 VA: 0x180980380
+	// RVA: 0x980880 Offset: 0x97EE80 VA: 0x180980880
 	private void UnselectAll() { }
 
-	// RVA: 0x9802F0 Offset: 0x97E8F0 VA: 0x1809802F0
+	// RVA: 0x9807F0 Offset: 0x97EDF0 VA: 0x1809807F0
 	public void ToggleConsole() { }
 
-	// RVA: 0x980760 Offset: 0x97ED60 VA: 0x180980760
+	// RVA: 0x980C60 Offset: 0x97F260 VA: 0x180980C60
 	public void .ctor() { }
 
-	// RVA: 0x980710 Offset: 0x97ED10 VA: 0x180980710
+	// RVA: 0x980C10 Offset: 0x97F210 VA: 0x180980C10
 	private static void .cctor() { }
 
 }
@@ -49,7 +49,7 @@ private sealed class DeveloperTools.<>c__DisplayClass10_0 // TypeDefIndex: 10873
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x98C440 Offset: 0x98AA40 VA: 0x18098C440
+	// RVA: 0x98C940 Offset: 0x98AF40 VA: 0x18098C940
 	internal void <Start>b__0() { }
 
 }

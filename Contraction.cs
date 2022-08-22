@@ -7,7 +7,7 @@ internal class Contraction // TypeDefIndex: 32
 
 	// Methods
 
-	// RVA: 0x163CC70 Offset: 0x163B270 VA: 0x18163CC70
+	// RVA: 0x1629F90 Offset: 0x1628590 VA: 0x181629F90
 	public void .ctor(int index, char[] source, string replacement, byte[] sortkey) { }
 
 }

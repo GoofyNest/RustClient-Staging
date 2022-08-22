@@ -4,7 +4,7 @@ public static class SmfConstants // TypeDefIndex: 7617
 
 	// Methods
 
-	// RVA: 0x13A6200 Offset: 0x13A4800 VA: 0x1813A6200
+	// RVA: 0x13A5300 Offset: 0x13A3900 VA: 0x1813A5300
 	public static Encoding get_DefaultTextEncoding() { }
 
 }

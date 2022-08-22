@@ -5,7 +5,7 @@ public class MoveMission : BaseMission // TypeDefIndex: 10217
 
 	// Methods
 
-	// RVA: 0x7BBB60 Offset: 0x7BA160 VA: 0x1807BBB60
+	// RVA: 0x7D9F50 Offset: 0x7D8550 VA: 0x1807D9F50
 	public void .ctor() { }
 
 }

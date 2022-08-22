@@ -9,16 +9,16 @@ internal struct OverlayBrowserProtocolNavigation_t : ICallbackData // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1EC190 Offset: 0x1EB590 VA: 0x1801EC190
+	// RVA: 0x1EC5B0 Offset: 0x1EB9B0 VA: 0x1801EC5B0
 	internal string RgchURIUTF8() { }
 
-	// RVA: 0x1EC220 Offset: 0x1EB620 VA: 0x1801EC220 Slot: 5
+	// RVA: 0x1EC640 Offset: 0x1EBA40 VA: 0x1801EC640 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EC210 Offset: 0x1EB610 VA: 0x1801EC210 Slot: 4
+	// RVA: 0x1EC630 Offset: 0x1EBA30 VA: 0x1801EC630 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1375630 Offset: 0x1373C30 VA: 0x181375630
+	// RVA: 0x1374730 Offset: 0x1372D30 VA: 0x181374730
 	private static void .cctor() { }
 
 }

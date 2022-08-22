@@ -16,39 +16,39 @@ public struct OSPlatform : IEquatable<OSPlatform> // TypeDefIndex: 1319
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xFEB7F0 Offset: 0xFE9DF0 VA: 0x180FEB7F0
+	// RVA: 0xFEC290 Offset: 0xFEA890 VA: 0x180FEC290
 	public static OSPlatform get_Linux() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xFEB850 Offset: 0xFE9E50 VA: 0x180FEB850
+	// RVA: 0xFEC2F0 Offset: 0xFEA8F0 VA: 0x180FEC2F0
 	public static OSPlatform get_OSX() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xFEB8B0 Offset: 0xFE9EB0 VA: 0x180FEB8B0
+	// RVA: 0xFEC350 Offset: 0xFEA950 VA: 0x180FEC350
 	public static OSPlatform get_Windows() { }
 
-	// RVA: 0x14C760 Offset: 0x14BB60 VA: 0x18014C760
+	// RVA: 0x14C580 Offset: 0x14B980 VA: 0x18014C580
 	private void .ctor(string osPlatform) { }
 
-	// RVA: 0x14C650 Offset: 0x14BA50 VA: 0x18014C650 Slot: 4
+	// RVA: 0x14C470 Offset: 0x14B870 VA: 0x18014C470 Slot: 4
 	public bool Equals(OSPlatform other) { }
 
-	// RVA: 0x14C650 Offset: 0x14BA50 VA: 0x18014C650
+	// RVA: 0x14C470 Offset: 0x14B870 VA: 0x18014C470
 	internal bool Equals(string other) { }
 
-	// RVA: 0x14C660 Offset: 0x14BA60 VA: 0x18014C660 Slot: 0
+	// RVA: 0x14C480 Offset: 0x14B880 VA: 0x18014C480 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x14C6F0 Offset: 0x14BAF0 VA: 0x18014C6F0 Slot: 2
+	// RVA: 0x14C510 Offset: 0x14B910 VA: 0x18014C510 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x14C710 Offset: 0x14BB10 VA: 0x18014C710 Slot: 3
+	// RVA: 0x14C530 Offset: 0x14B930 VA: 0x18014C530 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xFEB910 Offset: 0xFE9F10 VA: 0x180FEB910
+	// RVA: 0xFEC3B0 Offset: 0xFEA9B0 VA: 0x180FEC3B0
 	public static bool op_Equality(OSPlatform left, OSPlatform right) { }
 
-	// RVA: 0xFEB550 Offset: 0xFE9B50 VA: 0x180FEB550
+	// RVA: 0xFEBFF0 Offset: 0xFEA5F0 VA: 0x180FEBFF0
 	private static void .cctor() { }
 
 }

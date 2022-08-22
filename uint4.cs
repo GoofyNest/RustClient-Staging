@@ -13,10 +13,10 @@ public struct uint4 : IEquatable<uint4>, IFormattable // TypeDefIndex: 7118
 
 	// Methods
 
-	// RVA: 0x2235B0 Offset: 0x2229B0 VA: 0x1802235B0
+	// RVA: 0x21EB30 Offset: 0x21DF30 VA: 0x18021EB30
 	public void .ctor(uint x, uint y, uint z, uint w) { }
 
-	// RVA: 0x22B1000 Offset: 0x22AF600 VA: 0x1822B1000
+	// RVA: 0x22B1820 Offset: 0x22AFE20 VA: 0x1822B1820
 	public static uint4 op_Multiply(uint4 lhs, uint4 rhs) { }
 
 	// RVA: 0x23AD60 Offset: 0x23A160 VA: 0x18023AD60 Slot: 4

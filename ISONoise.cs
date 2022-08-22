@@ -8,16 +8,16 @@ public class ISONoise : PostEffectsBase // TypeDefIndex: 8028
 
 	// Methods
 
-	// RVA: 0x106CDD0 Offset: 0x106B3D0 VA: 0x18106CDD0 Slot: 4
+	// RVA: 0x106D840 Offset: 0x106BE40 VA: 0x18106D840 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x106D180 Offset: 0x106B780 VA: 0x18106D180
+	// RVA: 0x106DBF0 Offset: 0x106C1F0 VA: 0x18106DBF0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x106CE30 Offset: 0x106B430 VA: 0x18106CE30
+	// RVA: 0x106D8A0 Offset: 0x106BEA0 VA: 0x18106D8A0
 	private static void DrawNoiseQuadGrid(RenderTexture source, RenderTexture dest, Material fxMaterial, Texture2D noise, int passNr) { }
 
-	// RVA: 0x106D440 Offset: 0x106BA40 VA: 0x18106D440
+	// RVA: 0x106DEB0 Offset: 0x106C4B0 VA: 0x18106DEB0
 	public void .ctor() { }
 
 }

@@ -8,7 +8,7 @@ public class BlendedEngineLoopDefinition : ScriptableObject // TypeDefIndex: 898
 
 	// Methods
 
-	// RVA: 0x512EB0 Offset: 0x5114B0 VA: 0x180512EB0
+	// RVA: 0x512E40 Offset: 0x511440 VA: 0x180512E40
 	public void .ctor() { }
 
 }
@@ -24,7 +24,7 @@ public class BlendedEngineLoopDefinition.EngineLoopDefinition // TypeDefIndex: 8
 
 	// Methods
 
-	// RVA: 0x5226B0 Offset: 0x520CB0 VA: 0x1805226B0
+	// RVA: 0x522640 Offset: 0x520C40 VA: 0x180522640
 	public float GetPitchForRPM(float targetRPM) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

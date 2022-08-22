@@ -1,34 +1,34 @@
 internal class ActivationServices // TypeDefIndex: 1202
 {	// Fields
-	private static IActivator _constructionActivator; // 0x13FA0
+	private static IActivator _constructionActivator; // 0x2B10440
 
 	// Properties
 	private static IActivator ConstructionActivator { get; }
 
 	// Methods
 
-	// RVA: 0xFDB840 Offset: 0xFD9E40 VA: 0x180FDB840
+	// RVA: 0xFDC2E0 Offset: 0xFDA8E0 VA: 0x180FDC2E0
 	private static IActivator get_ConstructionActivator() { }
 
-	// RVA: 0xFDA8A0 Offset: 0xFD8EA0 VA: 0x180FDA8A0
+	// RVA: 0xFDB340 Offset: 0xFD9940 VA: 0x180FDB340
 	public static IMessage Activate(RemotingProxy proxy, ConstructionCall ctorCall) { }
 
-	// RVA: 0xFDB780 Offset: 0xFD9D80 VA: 0x180FDB780
+	// RVA: 0xFDC220 Offset: 0xFDA820 VA: 0x180FDC220
 	public static IMessage RemoteActivate(IConstructionCallMessage ctorCall) { }
 
-	// RVA: 0xFDAA50 Offset: 0xFD9050 VA: 0x180FDAA50
+	// RVA: 0xFDB4F0 Offset: 0xFD9AF0 VA: 0x180FDB4F0
 	public static ConstructionCall CreateConstructionCall(Type type, string activationUrl, object[] activationAttributes) { }
 
-	// RVA: 0xFDB230 Offset: 0xFD9830 VA: 0x180FDB230
+	// RVA: 0xFDBCD0 Offset: 0xFDA2D0 VA: 0x180FDBCD0
 	public static IMessage CreateInstanceFromMessage(IConstructionCallMessage ctorCall) { }
 
-	// RVA: 0xFDB610 Offset: 0xFD9C10 VA: 0x180FDB610
+	// RVA: 0xFDC0B0 Offset: 0xFDA6B0 VA: 0x180FDC0B0
 	public static object CreateProxyForType(Type type) { }
 
-	// RVA: 0xFDAA40 Offset: 0xFD9040 VA: 0x180FDAA40
+	// RVA: 0xFDB4E0 Offset: 0xFD9AE0 VA: 0x180FDB4E0
 	public static object AllocateUninitializedClassInstance(Type type) { }
 
-	// RVA: 0xFDB770 Offset: 0xFD9D70 VA: 0x180FDB770
+	// RVA: 0xFDC210 Offset: 0xFDA810 VA: 0x180FDC210
 	public static void EnableProxyActivation(Type type, bool enable) { }
 
 }

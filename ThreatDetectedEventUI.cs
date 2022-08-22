@@ -1,13 +1,13 @@
 public class ThreatDetectedEventUI : BaseEventUI // TypeDefIndex: 10813
 {	// Methods
 
-	// RVA: 0x889520 Offset: 0x887B20 VA: 0x180889520 Slot: 5
+	// RVA: 0x86C860 Offset: 0x86AE60 VA: 0x18086C860 Slot: 5
 	public override AIEventData Save() { }
 
-	// RVA: 0x8894B0 Offset: 0x887AB0 VA: 0x1808894B0 Slot: 6
+	// RVA: 0x86C7F0 Offset: 0x86ADF0 VA: 0x18086C7F0 Slot: 6
 	public override void Load(AIEventData data) { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

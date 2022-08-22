@@ -33,25 +33,25 @@ public abstract class MemberInfo : ICustomAttributeProvider, _MemberInfo // Type
 	// RVA: -1 Offset: -1 Slot: 13
 	public abstract bool IsDefined(Type attributeType, bool inherit);
 
-	// RVA: 0x18CBBD0 Offset: 0x18CA1D0 VA: 0x1818CBBD0 Slot: 14
+	// RVA: 0x18CB2F0 Offset: 0x18C98F0 VA: 0x1818CB2F0 Slot: 14
 	public virtual IList<CustomAttributeData> GetCustomAttributesData() { }
 
-	// RVA: 0x18CBC20 Offset: 0x18CA220 VA: 0x1818CBC20 Slot: 15
+	// RVA: 0x18CB340 Offset: 0x18C9940 VA: 0x1818CB340 Slot: 15
 	public virtual int get_MetadataToken() { }
 
-	// RVA: 0x18CBC30 Offset: 0x18CA230 VA: 0x1818CBC30 Slot: 16
+	// RVA: 0x18CB350 Offset: 0x18C9950 VA: 0x1818CB350 Slot: 16
 	public virtual Module get_Module() { }
 
-	// RVA: 0x18CBD60 Offset: 0x18CA360 VA: 0x1818CBD60
+	// RVA: 0x18CB480 Offset: 0x18C9A80 VA: 0x1818CB480
 	public static bool op_Equality(MemberInfo left, MemberInfo right) { }
 
-	// RVA: 0x18CC120 Offset: 0x18CA720 VA: 0x1818CC120
+	// RVA: 0x18CB840 Offset: 0x18C9E40 VA: 0x1818CB840
 	public static bool op_Inequality(MemberInfo left, MemberInfo right) { }
 
-	// RVA: 0x18CBBC0 Offset: 0x18CA1C0 VA: 0x1818CBBC0 Slot: 0
+	// RVA: 0x18CB2E0 Offset: 0x18C98E0 VA: 0x1818CB2E0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xCCE820 Offset: 0xCCCE20 VA: 0x180CCE820 Slot: 2
+	// RVA: 0xCCECC0 Offset: 0xCCD2C0 VA: 0x180CCECC0 Slot: 2
 	public override int GetHashCode() { }
 
 }

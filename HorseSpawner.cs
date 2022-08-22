@@ -6,7 +6,7 @@ public class HorseSpawner : VehicleSpawner // TypeDefIndex: 8845
 
 	// Methods
 
-	// RVA: 0x742920 Offset: 0x740F20 VA: 0x180742920
+	// RVA: 0x742870 Offset: 0x740E70 VA: 0x180742870
 	public void .ctor() { }
 
 }

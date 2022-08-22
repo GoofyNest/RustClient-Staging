@@ -39,7 +39,7 @@ public sealed class BypassElement : ConfigurationElement // TypeDefIndex: 3167
 public sealed class BypassElementCollection : ConfigurationElementCollection // TypeDefIndex: 3168
 	// Methods
 
-	// RVA: 0x15201F0 Offset: 0x151E7F0 VA: 0x1815201F0
+	// RVA: 0x151F2C0 Offset: 0x151D8C0 VA: 0x18151F2C0
 	public void .ctor() { }
 
 }

@@ -8,7 +8,7 @@ public class TriggerWetness : TriggerBase // TypeDefIndex: 10051
 
 	// Methods
 
-	// RVA: 0x4D3E70 Offset: 0x4D2470 VA: 0x1804D3E70
+	// RVA: 0x4D3E00 Offset: 0x4D2400 VA: 0x1804D3E00
 	public void .ctor() { }
 
 }

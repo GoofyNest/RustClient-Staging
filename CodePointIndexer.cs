@@ -7,10 +7,10 @@ internal class CodePointIndexer // TypeDefIndex: 29
 
 	// Methods
 
-	// RVA: 0x163C8E0 Offset: 0x163AEE0 VA: 0x18163C8E0
+	// RVA: 0x1629C00 Offset: 0x1628200 VA: 0x181629C00
 	public void .ctor(int[] starts, int[] ends, int defaultIndex, int defaultCP) { }
 
-	// RVA: 0x163C860 Offset: 0x163AE60 VA: 0x18163C860
+	// RVA: 0x1629B80 Offset: 0x1628180 VA: 0x181629B80
 	public int ToIndex(int cp) { }
 
 }
@@ -25,7 +25,7 @@ internal struct CodePointIndexer.TableRange // TypeDefIndex: 30
 
 	// Methods
 
-	// RVA: 0x1F6C40 Offset: 0x1F6040 VA: 0x1801F6C40
+	// RVA: 0x1F5A90 Offset: 0x1F4E90 VA: 0x1801F5A90
 	public void .ctor(int start, int end, int indexStart) { }
 
 }

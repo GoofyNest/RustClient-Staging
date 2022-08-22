@@ -28,31 +28,31 @@ public class IronSights : MonoBehaviour // TypeDefIndex: 11440
 
 	// Methods
 
-	// RVA: 0xA24330 Offset: 0xA22930 VA: 0x180A24330
+	// RVA: 0xA24820 Offset: 0xA22E20 VA: 0x180A24820
 	public void OnEnable() { }
 
-	// RVA: 0xA24EC0 Offset: 0xA234C0 VA: 0x180A24EC0
+	// RVA: 0xA253B0 Offset: 0xA239B0 VA: 0x180A253B0
 	public void Update() { }
 
-	// RVA: 0xA244A0 Offset: 0xA22AA0 VA: 0x180A244A0
+	// RVA: 0xA24990 Offset: 0xA22F90 VA: 0x180A24990
 	public void UpdateIronsights(ref CachedTransform<BaseViewModel> vm, Camera cam) { }
 
-	// RVA: 0xA241C0 Offset: 0xA227C0 VA: 0x180A241C0
+	// RVA: 0xA246B0 Offset: 0xA22CB0 VA: 0x180A246B0
 	private float GetUltrawideOffset() { }
 
-	// RVA: 0xA24390 Offset: 0xA22990 VA: 0x180A24390
+	// RVA: 0xA24880 Offset: 0xA22E80 VA: 0x180A24880
 	public void SetIronsightsEnabled(bool b) { }
 
-	// RVA: 0xA24390 Offset: 0xA22990 VA: 0x180A24390
+	// RVA: 0xA24880 Offset: 0xA22E80 VA: 0x180A24880
 	public void SetEnabled(bool val) { }
 
-	// RVA: 0xA24010 Offset: 0xA22610 VA: 0x180A24010
+	// RVA: 0xA24500 Offset: 0xA22B00 VA: 0x180A24500
 	public float GetFOVOffset(float fFOV) { }
 
-	// RVA: 0x5C33A0 Offset: 0x5C19A0 VA: 0x1805C33A0
+	// RVA: 0x5C3330 Offset: 0x5C1930 VA: 0x1805C3330
 	public float GetDelta() { }
 
-	// RVA: 0xA25150 Offset: 0xA23750 VA: 0x180A25150
+	// RVA: 0xA25640 Offset: 0xA23C40 VA: 0x180A25640
 	public void .ctor() { }
 
 }

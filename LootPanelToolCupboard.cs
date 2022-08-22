@@ -12,19 +12,19 @@ public class LootPanelToolCupboard : LootPanel // TypeDefIndex: 8719
 
 	// Methods
 
-	// RVA: 0x509E80 Offset: 0x508480 VA: 0x180509E80
+	// RVA: 0x509E10 Offset: 0x508410 VA: 0x180509E10
 	public BuildingPrivlidge GetTC() { }
 
-	// RVA: 0x509F10 Offset: 0x508510 VA: 0x180509F10
+	// RVA: 0x509EA0 Offset: 0x5084A0 VA: 0x180509EA0
 	private void OnEnable() { }
 
-	// RVA: 0x50ADA0 Offset: 0x5093A0 VA: 0x18050ADA0
+	// RVA: 0x50AD30 Offset: 0x509330 VA: 0x18050AD30
 	public void Update() { }
 
-	// RVA: 0x509F60 Offset: 0x508560 VA: 0x180509F60
+	// RVA: 0x509EF0 Offset: 0x5084F0 VA: 0x180509EF0
 	public void UpdateCosts() { }
 
-	// RVA: 0x50AE00 Offset: 0x509400 VA: 0x18050AE00
+	// RVA: 0x50AD90 Offset: 0x509390 VA: 0x18050AD90
 	public void .ctor() { }
 
 }
@@ -36,13 +36,13 @@ private sealed class LootPanelToolCupboard.<>c // TypeDefIndex: 8720
 
 	// Methods
 
-	// RVA: 0x56F9D0 Offset: 0x56DFD0 VA: 0x18056F9D0
+	// RVA: 0x56F960 Offset: 0x56DF60 VA: 0x18056F960
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x56EBC0 Offset: 0x56D1C0 VA: 0x18056EBC0
+	// RVA: 0x56EB50 Offset: 0x56D150 VA: 0x18056EB50
 	internal int <UpdateCosts>b__12_0(Item x) { }
 
 }

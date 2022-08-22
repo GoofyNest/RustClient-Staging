@@ -6,7 +6,7 @@ public class ChildrenFromScene : MonoBehaviour // TypeDefIndex: 10832
 	// Methods
 
 	[IteratorStateMachineAttribute] // RVA: 0x7DB10 Offset: 0x7CF10 VA: 0x18007DB10
-	// RVA: 0x5368E0 Offset: 0x534EE0 VA: 0x1805368E0
+	// RVA: 0x536870 Offset: 0x534E70 VA: 0x180536870
 	private IEnumerator Start() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -34,7 +34,7 @@ private sealed class ChildrenFromScene.<Start>d__2 : IEnumerator<object>, IEnume
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x546D90 Offset: 0x545390 VA: 0x180546D90 Slot: 6
+	// RVA: 0x546D20 Offset: 0x545320 VA: 0x180546D20 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -42,7 +42,7 @@ private sealed class ChildrenFromScene.<Start>d__2 : IEnumerator<object>, IEnume
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5470E0 Offset: 0x5456E0 VA: 0x1805470E0 Slot: 8
+	// RVA: 0x547070 Offset: 0x545670 VA: 0x180547070 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

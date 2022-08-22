@@ -1,7 +1,7 @@
 public class MeshGroup : PooledList<MeshInstance> // TypeDefIndex: 9162
 {	// Methods
 
-	// RVA: 0x962B40 Offset: 0x961140 VA: 0x180962B40
+	// RVA: 0x963040 Offset: 0x961640 VA: 0x180963040
 	public void .ctor() { }
 
 }

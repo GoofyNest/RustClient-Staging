@@ -15,49 +15,49 @@ public class LTSeq // TypeDefIndex: 5574
 
 	// Methods
 
-	// RVA: 0x21AAE10 Offset: 0x21A9410 VA: 0x1821AAE10
+	// RVA: 0x21AB630 Offset: 0x21A9C30 VA: 0x1821AB630
 	public int get_id() { }
 
-	// RVA: 0x21AAF10 Offset: 0x21A9510 VA: 0x1821AAF10
+	// RVA: 0x21AB730 Offset: 0x21A9D30 VA: 0x1821AB730
 	public void reset() { }
 
-	// RVA: 0x21AAE20 Offset: 0x21A9420 VA: 0x1821AAE20
+	// RVA: 0x21AB640 Offset: 0x21A9C40 VA: 0x1821AB640
 	public void init(uint id, uint global_counter) { }
 
-	// RVA: 0x21AA4C0 Offset: 0x21A8AC0 VA: 0x1821AA4C0
+	// RVA: 0x21AACE0 Offset: 0x21A92E0 VA: 0x1821AACE0
 	private LTSeq addOn() { }
 
-	// RVA: 0x21AA590 Offset: 0x21A8B90 VA: 0x1821AA590
+	// RVA: 0x21AADB0 Offset: 0x21A93B0 VA: 0x1821AADB0
 	private float addPreviousDelays() { }
 
-	// RVA: 0x21AADE0 Offset: 0x21A93E0 VA: 0x1821AADE0
+	// RVA: 0x21AB600 Offset: 0x21A9C00 VA: 0x1821AB600
 	public LTSeq append(float delay) { }
 
-	// RVA: 0x21AA5D0 Offset: 0x21A8BD0 VA: 0x1821AA5D0
+	// RVA: 0x21AADF0 Offset: 0x21A93F0 VA: 0x1821AADF0
 	public LTSeq append(Action callback) { }
 
-	// RVA: 0x21AA7A0 Offset: 0x21A8DA0 VA: 0x1821AA7A0
+	// RVA: 0x21AAFC0 Offset: 0x21A95C0 VA: 0x1821AAFC0
 	public LTSeq append(Action<object> callback, object obj) { }
 
-	// RVA: 0x21AAA30 Offset: 0x21A9030 VA: 0x1821AAA30
+	// RVA: 0x21AB250 Offset: 0x21A9850 VA: 0x1821AB250
 	public LTSeq append(GameObject gameObject, Action callback) { }
 
-	// RVA: 0x21AABF0 Offset: 0x21A91F0 VA: 0x1821AABF0
+	// RVA: 0x21AB410 Offset: 0x21A9A10 VA: 0x1821AB410
 	public LTSeq append(GameObject gameObject, Action<object> callback, object obj) { }
 
-	// RVA: 0x21AA9A0 Offset: 0x21A8FA0 VA: 0x1821AA9A0
+	// RVA: 0x21AB1C0 Offset: 0x21A97C0 VA: 0x1821AB1C0
 	public LTSeq append(LTDescr tween) { }
 
-	// RVA: 0x21AAE90 Offset: 0x21A9490 VA: 0x1821AAE90
+	// RVA: 0x21AB6B0 Offset: 0x21A9CB0 VA: 0x1821AB6B0
 	public LTSeq insert(LTDescr tween) { }
 
-	// RVA: 0x21AB020 Offset: 0x21A9620 VA: 0x1821AB020
+	// RVA: 0x21AB840 Offset: 0x21A9E40 VA: 0x1821AB840
 	public LTSeq setScale(float timeScale) { }
 
-	// RVA: 0x21AAF60 Offset: 0x21A9560 VA: 0x1821AAF60
+	// RVA: 0x21AB780 Offset: 0x21A9D80 VA: 0x1821AB780
 	private void setScaleRecursive(LTSeq seq, float timeScale, int count) { }
 
-	// RVA: 0x21AAF50 Offset: 0x21A9550 VA: 0x1821AAF50
+	// RVA: 0x21AB770 Offset: 0x21A9D70 VA: 0x1821AB770
 	public LTSeq reverse() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

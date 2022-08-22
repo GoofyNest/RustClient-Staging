@@ -5,13 +5,13 @@ public struct Timing // TypeDefIndex: 11408
 
 	// Methods
 
-	// RVA: 0x88BC20 Offset: 0x88A220 VA: 0x18088BC20
+	// RVA: 0x86EF60 Offset: 0x86D560 VA: 0x18086EF60
 	public static Timing Start(string name) { }
 
-	// RVA: 0xF9DD0 Offset: 0xF91D0 VA: 0x1800F9DD0
+	// RVA: 0xF9A80 Offset: 0xF8E80 VA: 0x1800F9A80
 	public void End() { }
 
-	// RVA: 0xF9DE0 Offset: 0xF91E0 VA: 0x1800F9DE0
+	// RVA: 0xF9A90 Offset: 0xF8E90 VA: 0x1800F9A90
 	public void .ctor(string name) { }
 
 }

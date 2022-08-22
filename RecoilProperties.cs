@@ -26,10 +26,10 @@ public class RecoilProperties : ScriptableObject // TypeDefIndex: 10756
 
 	// Methods
 
-	// RVA: 0x6AC900 Offset: 0x6AAF00 VA: 0x1806AC900
+	// RVA: 0x6AC890 Offset: 0x6AAE90 VA: 0x1806AC890
 	public RecoilProperties GetRecoil() { }
 
-	// RVA: 0x6AC980 Offset: 0x6AAF80 VA: 0x1806AC980
+	// RVA: 0x6AC910 Offset: 0x6AAF10 VA: 0x1806AC910
 	public void .ctor() { }
 
 }

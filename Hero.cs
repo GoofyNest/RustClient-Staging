@@ -27,11 +27,11 @@ public class Hero // TypeDefIndex: 6202
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_Ident() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_Ident(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -39,7 +39,7 @@ public class Hero // TypeDefIndex: 6202
 	public string get_MediaUrl() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_MediaUrl(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -51,35 +51,35 @@ public class Hero // TypeDefIndex: 6202
 	public void set_TitleText(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public string get_ActionText() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	public void set_ActionText(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public string get_TargetUrl() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	public void set_TargetUrl(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public string get_Conditions() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
+	// RVA: 0x6AD650 Offset: 0x6ABC50 VA: 0x1806AD650
 	public void set_Conditions(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12FA8C0 Offset: 0x12F8EC0 VA: 0x1812FA8C0
+	// RVA: 0x1300D70 Offset: 0x12FF370 VA: 0x181300D70
 	public double get_Chance() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B46F0 Offset: 0x14B2CF0 VA: 0x1814B46F0
+	// RVA: 0x14B37C0 Offset: 0x14B1DC0 VA: 0x1814B37C0
 	public void set_Chance(double value) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -135,29 +135,29 @@ public class Hero : SingletonComponent<Hero> // TypeDefIndex: 12092
 
 	// Methods
 
-	// RVA: 0x4BE0F0 Offset: 0x4BC6F0 VA: 0x1804BE0F0
+	// RVA: 0x4BE080 Offset: 0x4BC680 VA: 0x1804BE080
 	public void Roll() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD76C0 Offset: 0xD6AC0 VA: 0x1800D76C0
-	// RVA: 0x4BE490 Offset: 0x4BCA90 VA: 0x1804BE490
+	// RVA: 0x4BE420 Offset: 0x4BCA20 VA: 0x1804BE420
 	public Task ShowAsync() { }
 
-	// RVA: 0x4BDE90 Offset: 0x4BC490 VA: 0x1804BDE90
+	// RVA: 0x4BDE20 Offset: 0x4BC420 VA: 0x1804BDE20
 	public void ClickHide() { }
 
-	// RVA: 0x4BDF80 Offset: 0x4BC580 VA: 0x1804BDF80
+	// RVA: 0x4BDF10 Offset: 0x4BC510 VA: 0x1804BDF10
 	public void MarkAsSeen() { }
 
-	// RVA: 0x4BDBA0 Offset: 0x4BC1A0 VA: 0x1804BDBA0
+	// RVA: 0x4BDB30 Offset: 0x4BC130 VA: 0x1804BDB30
 	public void ClickEnter() { }
 
-	// RVA: 0x4BDF40 Offset: 0x4BC540 VA: 0x1804BDF40
+	// RVA: 0x4BDED0 Offset: 0x4BC4D0 VA: 0x1804BDED0
 	public void Hide() { }
 
-	// RVA: 0x4BE080 Offset: 0x4BC680 VA: 0x1804BE080
+	// RVA: 0x4BE010 Offset: 0x4BC610 VA: 0x1804BE010
 	public void OnMenuHidden() { }
 
-	// RVA: 0x4BE590 Offset: 0x4BCB90 VA: 0x1804BE590
+	// RVA: 0x4BE520 Offset: 0x4BCB20 VA: 0x1804BE520
 	public void .ctor() { }
 
 }
@@ -169,13 +169,13 @@ private sealed class Hero.<>c // TypeDefIndex: 12093
 
 	// Methods
 
-	// RVA: 0x4D2620 Offset: 0x4D0C20 VA: 0x1804D2620
+	// RVA: 0x4D25B0 Offset: 0x4D0BB0 VA: 0x1804D25B0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x4D1FA0 Offset: 0x4D05A0 VA: 0x1804D1FA0
+	// RVA: 0x4D1F30 Offset: 0x4D0530 VA: 0x1804D1F30
 	internal Guid <Roll>b__9_0(Hero x) { }
 
 }

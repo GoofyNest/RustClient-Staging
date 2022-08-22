@@ -6,82 +6,82 @@ public class EggHunt : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6362
 
 	// Methods
 
-	// RVA: 0x1E70A70 Offset: 0x1E6F070 VA: 0x181E70A70
+	// RVA: 0x1E71290 Offset: 0x1E6F890 VA: 0x181E71290
 	public static void ResetToPool(EggHunt instance) { }
 
-	// RVA: 0x1E70C20 Offset: 0x1E6F220 VA: 0x181E70C20
+	// RVA: 0x1E71440 Offset: 0x1E6FA40 VA: 0x181E71440
 	public void ResetToPool() { }
 
-	// RVA: 0x1E707F0 Offset: 0x1E6EDF0 VA: 0x181E707F0 Slot: 9
+	// RVA: 0x1E71010 Offset: 0x1E6F610 VA: 0x181E71010 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E6F940 Offset: 0x1E6DF40 VA: 0x181E6F940
+	// RVA: 0x1E70160 Offset: 0x1E6E760 VA: 0x181E70160
 	public void CopyTo(EggHunt instance) { }
 
-	// RVA: 0x1E6FAE0 Offset: 0x1E6E0E0 VA: 0x181E6FAE0
+	// RVA: 0x1E70300 Offset: 0x1E6E900 VA: 0x181E70300
 	public EggHunt Copy() { }
 
-	// RVA: 0x1E70650 Offset: 0x1E6EC50 VA: 0x181E70650
+	// RVA: 0x1E70E70 Offset: 0x1E6F470 VA: 0x181E70E70
 	public static EggHunt Deserialize(Stream stream) { }
 
-	// RVA: 0x1E6FCE0 Offset: 0x1E6E2E0 VA: 0x181E6FCE0
+	// RVA: 0x1E70500 Offset: 0x1E6EB00 VA: 0x181E70500
 	public static EggHunt DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E702D0 Offset: 0x1E6E8D0 VA: 0x181E702D0
+	// RVA: 0x1E70AF0 Offset: 0x1E6F0F0 VA: 0x181E70AF0
 	public static EggHunt DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E706D0 Offset: 0x1E6ECD0 VA: 0x181E706D0
+	// RVA: 0x1E70EF0 Offset: 0x1E6F4F0 VA: 0x181E70EF0
 	public static EggHunt Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E70A30 Offset: 0x1E6F030 VA: 0x181E70A30
+	// RVA: 0x1E71250 Offset: 0x1E6F850 VA: 0x181E71250
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E71360 Offset: 0x1E6F960 VA: 0x181E71360 Slot: 12
+	// RVA: 0x1E71B80 Offset: 0x1E70180 VA: 0x181E71B80 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E71380 Offset: 0x1E6F980 VA: 0x181E71380 Slot: 13
+	// RVA: 0x1E71BA0 Offset: 0x1E701A0 VA: 0x181E71BA0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, EggHunt previous) { }
 
-	// RVA: 0x1E70A50 Offset: 0x1E6F050 VA: 0x181E70A50 Slot: 14
+	// RVA: 0x1E71270 Offset: 0x1E6F870 VA: 0x181E71270 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E70550 Offset: 0x1E6EB50 VA: 0x181E70550
+	// RVA: 0x1E70D70 Offset: 0x1E6F370 VA: 0x181E70D70
 	public static EggHunt Deserialize(byte[] buffer, EggHunt instance, bool isDelta = False) { }
 
-	// RVA: 0x1E70360 Offset: 0x1E6E960 VA: 0x181E70360
+	// RVA: 0x1E70B80 Offset: 0x1E6F180 VA: 0x181E70B80
 	public static EggHunt Deserialize(Stream stream, EggHunt instance, bool isDelta) { }
 
-	// RVA: 0x1E6FD60 Offset: 0x1E6E360 VA: 0x181E6FD60
+	// RVA: 0x1E70580 Offset: 0x1E6EB80 VA: 0x181E70580
 	public static EggHunt DeserializeLengthDelimited(Stream stream, EggHunt instance, bool isDelta) { }
 
-	// RVA: 0x1E70030 Offset: 0x1E6E630 VA: 0x181E70030
+	// RVA: 0x1E70850 Offset: 0x1E6EE50 VA: 0x181E70850
 	public static EggHunt DeserializeLength(Stream stream, int length, EggHunt instance, bool isDelta) { }
 
-	// RVA: 0x1E70DD0 Offset: 0x1E6F3D0 VA: 0x181E70DD0
+	// RVA: 0x1E715F0 Offset: 0x1E6FBF0 VA: 0x181E715F0
 	public static void SerializeDelta(Stream stream, EggHunt instance, EggHunt previous) { }
 
-	// RVA: 0x1E71170 Offset: 0x1E6F770 VA: 0x181E71170
+	// RVA: 0x1E71990 Offset: 0x1E6FF90 VA: 0x181E71990
 	public static void Serialize(Stream stream, EggHunt instance) { }
 
-	// RVA: 0x1E71350 Offset: 0x1E6F950 VA: 0x181E71350
+	// RVA: 0x1E71B70 Offset: 0x1E70170 VA: 0x181E71B70
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E71360 Offset: 0x1E6F960 VA: 0x181E71360
+	// RVA: 0x1E71B80 Offset: 0x1E70180 VA: 0x181E71B80
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E71060 Offset: 0x1E6F660 VA: 0x181E71060
+	// RVA: 0x1E71880 Offset: 0x1E6FE80 VA: 0x181E71880
 	public static byte[] SerializeToBytes(EggHunt instance) { }
 
-	// RVA: 0x1E70FB0 Offset: 0x1E6F5B0 VA: 0x181E70FB0
+	// RVA: 0x1E717D0 Offset: 0x1E6FDD0 VA: 0x181E717D0
 	public static void SerializeLengthDelimited(Stream stream, EggHunt instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -96,82 +96,82 @@ public class EggHunt.EggHunter : IDisposable, Pool.IPooled, IProto // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1E725F0 Offset: 0x1E70BF0 VA: 0x181E725F0
+	// RVA: 0x1E72E10 Offset: 0x1E71410 VA: 0x181E72E10
 	public static void ResetToPool(EggHunt.EggHunter instance) { }
 
-	// RVA: 0x1E726A0 Offset: 0x1E70CA0 VA: 0x181E726A0
+	// RVA: 0x1E72EC0 Offset: 0x1E714C0 VA: 0x181E72EC0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E72390 Offset: 0x1E70990 VA: 0x181E72390 Slot: 9
+	// RVA: 0x1E72BB0 Offset: 0x1E711B0 VA: 0x181E72BB0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E713A0 Offset: 0x1E6F9A0 VA: 0x181E713A0
+	// RVA: 0x1E71BC0 Offset: 0x1E701C0 VA: 0x181E71BC0
 	public void CopyTo(EggHunt.EggHunter instance) { }
 
-	// RVA: 0x1E713F0 Offset: 0x1E6F9F0 VA: 0x181E713F0
+	// RVA: 0x1E71C10 Offset: 0x1E70210 VA: 0x181E71C10
 	public EggHunt.EggHunter Copy() { }
 
-	// RVA: 0x1E71EE0 Offset: 0x1E704E0 VA: 0x181E71EE0
+	// RVA: 0x1E72700 Offset: 0x1E70D00 VA: 0x181E72700
 	public static EggHunt.EggHunter Deserialize(Stream stream) { }
 
-	// RVA: 0x1E71480 Offset: 0x1E6FA80 VA: 0x181E71480
+	// RVA: 0x1E71CA0 Offset: 0x1E702A0 VA: 0x181E71CA0
 	public static EggHunt.EggHunter DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E71A00 Offset: 0x1E70000 VA: 0x181E71A00
+	// RVA: 0x1E72220 Offset: 0x1E70820 VA: 0x181E72220
 	public static EggHunt.EggHunter DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E720E0 Offset: 0x1E706E0 VA: 0x181E720E0
+	// RVA: 0x1E72900 Offset: 0x1E70F00 VA: 0x181E72900
 	public static EggHunt.EggHunter Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E72410 Offset: 0x1E70A10 VA: 0x181E72410
+	// RVA: 0x1E72C30 Offset: 0x1E71230 VA: 0x181E72C30
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E72C70 Offset: 0x1E71270 VA: 0x181E72C70 Slot: 12
+	// RVA: 0x1E73490 Offset: 0x1E71A90 VA: 0x181E73490 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E72C90 Offset: 0x1E71290 VA: 0x181E72C90 Slot: 13
+	// RVA: 0x1E734B0 Offset: 0x1E71AB0 VA: 0x181E734B0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, EggHunt.EggHunter previous) { }
 
-	// RVA: 0x1E725D0 Offset: 0x1E70BD0 VA: 0x181E725D0 Slot: 14
+	// RVA: 0x1E72DF0 Offset: 0x1E713F0 VA: 0x181E72DF0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E71A90 Offset: 0x1E70090 VA: 0x181E71A90
+	// RVA: 0x1E722B0 Offset: 0x1E708B0 VA: 0x181E722B0
 	public static EggHunt.EggHunter Deserialize(byte[] buffer, EggHunt.EggHunter instance, bool isDelta = False) { }
 
-	// RVA: 0x1E71D20 Offset: 0x1E70320 VA: 0x181E71D20
+	// RVA: 0x1E72540 Offset: 0x1E70B40 VA: 0x181E72540
 	public static EggHunt.EggHunter Deserialize(Stream stream, EggHunt.EggHunter instance, bool isDelta) { }
 
-	// RVA: 0x1E71500 Offset: 0x1E6FB00 VA: 0x181E71500
+	// RVA: 0x1E71D20 Offset: 0x1E70320 VA: 0x181E71D20
 	public static EggHunt.EggHunter DeserializeLengthDelimited(Stream stream, EggHunt.EggHunter instance, bool isDelta) { }
 
-	// RVA: 0x1E71790 Offset: 0x1E6FD90 VA: 0x181E71790
+	// RVA: 0x1E71FB0 Offset: 0x1E705B0 VA: 0x181E71FB0
 	public static EggHunt.EggHunter DeserializeLength(Stream stream, int length, EggHunt.EggHunter instance, bool isDelta) { }
 
-	// RVA: 0x1E72750 Offset: 0x1E70D50 VA: 0x181E72750
+	// RVA: 0x1E72F70 Offset: 0x1E71570 VA: 0x181E72F70
 	public static void SerializeDelta(Stream stream, EggHunt.EggHunter instance, EggHunt.EggHunter previous) { }
 
-	// RVA: 0x1E72AF0 Offset: 0x1E710F0 VA: 0x181E72AF0
+	// RVA: 0x1E73310 Offset: 0x1E71910 VA: 0x181E73310
 	public static void Serialize(Stream stream, EggHunt.EggHunter instance) { }
 
-	// RVA: 0x1E72C60 Offset: 0x1E71260 VA: 0x181E72C60
+	// RVA: 0x1E73480 Offset: 0x1E71A80 VA: 0x181E73480
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E72C70 Offset: 0x1E71270 VA: 0x181E72C70
+	// RVA: 0x1E73490 Offset: 0x1E71A90 VA: 0x181E73490
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E729E0 Offset: 0x1E70FE0 VA: 0x181E729E0
+	// RVA: 0x1E73200 Offset: 0x1E71800 VA: 0x181E73200
 	public static byte[] SerializeToBytes(EggHunt.EggHunter instance) { }
 
-	// RVA: 0x1E72930 Offset: 0x1E70F30 VA: 0x181E72930
+	// RVA: 0x1E73150 Offset: 0x1E71750 VA: 0x181E73150
 	public static void SerializeLengthDelimited(Stream stream, EggHunt.EggHunter instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -182,13 +182,13 @@ public class EggAmmoRepresentation : MonoBehaviour, IInventoryChanged, IClientCo
 
 	// Methods
 
-	// RVA: 0xABF270 Offset: 0xABD870 VA: 0x180ABF270
+	// RVA: 0xABF740 Offset: 0xABDD40 VA: 0x180ABF740
 	public void OnEnable() { }
 
-	// RVA: 0xABF1F0 Offset: 0xABD7F0 VA: 0x180ABF1F0
+	// RVA: 0xABF6C0 Offset: 0xABDCC0 VA: 0x180ABF6C0
 	public void OnDisable() { }
 
-	// RVA: 0xABF2F0 Offset: 0xABD8F0 VA: 0x180ABF2F0 Slot: 4
+	// RVA: 0xABF7C0 Offset: 0xABDDC0 VA: 0x180ABF7C0 Slot: 4
 	public void OnInventoryChanged() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -202,10 +202,10 @@ public class EggSwap : MonoBehaviour // TypeDefIndex: 8780
 
 	// Methods
 
-	// RVA: 0xAC0080 Offset: 0xABE680 VA: 0x180AC0080
+	// RVA: 0xAC0550 Offset: 0xABEB50 VA: 0x180AC0550
 	public void Show(int index) { }
 
-	// RVA: 0xAC0020 Offset: 0xABE620 VA: 0x180AC0020
+	// RVA: 0xAC04F0 Offset: 0xABEAF0 VA: 0x180AC04F0
 	public void HideAll() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -227,34 +227,34 @@ public class EggHuntEvent : BaseHuntEvent // TypeDefIndex: 8781
 
 	// Methods
 
-	// RVA: 0xABF790 Offset: 0xABDD90 VA: 0x180ABF790
+	// RVA: 0xABFC60 Offset: 0xABE260 VA: 0x180ABFC60
 	public bool IsEventActive() { }
 
-	// RVA: 0xABF840 Offset: 0xABDE40 VA: 0x180ABF840 Slot: 34
+	// RVA: 0xABFD10 Offset: 0xABE310 VA: 0x180ABFD10 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xABF4F0 Offset: 0xABDAF0 VA: 0x180ABF4F0 Slot: 14
+	// RVA: 0xABF9C0 Offset: 0xABDFC0 VA: 0x180ABF9C0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xABF580 Offset: 0xABDB80 VA: 0x180ABF580 Slot: 31
+	// RVA: 0xABFA50 Offset: 0xABE050 VA: 0x180ABFA50 Slot: 31
 	public override void DestroyShared() { }
 
-	// RVA: 0xABFAF0 Offset: 0xABE0F0 VA: 0x180ABFAF0
+	// RVA: 0xABFFC0 Offset: 0xABE5C0 VA: 0x180ABFFC0
 	public void Update() { }
 
-	// RVA: 0xABF630 Offset: 0xABDC30 VA: 0x180ABF630
+	// RVA: 0xABFB00 Offset: 0xABE100 VA: 0x180ABFB00
 	public float GetTimeRemaining() { }
 
-	// RVA: 0xABFA30 Offset: 0xABE030 VA: 0x180ABFA30
+	// RVA: 0xABFF00 Offset: 0xABE500 VA: 0x180ABFF00
 	public static bool ShowNotification() { }
 
-	// RVA: 0xABF6A0 Offset: 0xABDCA0 VA: 0x180ABF6A0
+	// RVA: 0xABFB70 Offset: 0xABE170 VA: 0x180ABFB70
 	public static float GetWarmupSecondsLeft() { }
 
-	// RVA: 0xABFBB0 Offset: 0xABE1B0 VA: 0x180ABFBB0
+	// RVA: 0xAC0080 Offset: 0xABE680 VA: 0x180AC0080
 	public void .ctor() { }
 
-	// RVA: 0xABFB30 Offset: 0xABE130 VA: 0x180ABFB30
+	// RVA: 0xAC0000 Offset: 0xABE600 VA: 0x180AC0000
 	private static void .cctor() { }
 
 }
@@ -280,7 +280,7 @@ public class EggHuntNote : MonoBehaviour, IClientComponent // TypeDefIndex: 8788
 
 	// Methods
 
-	// RVA: 0xABFC70 Offset: 0xABE270 VA: 0x180ABFC70
+	// RVA: 0xAC0140 Offset: 0xABE740 VA: 0x180AC0140
 	public void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

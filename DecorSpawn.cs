@@ -20,49 +20,49 @@ public class DecorSpawn : MonoBehaviour, IClientComponent // TypeDefIndex: 10334
 
 	// Methods
 
-	// RVA: 0x843C80 Offset: 0x842280 VA: 0x180843C80
+	// RVA: 0x8441D0 Offset: 0x8427D0 VA: 0x1808441D0
 	public static void SetEnabled(bool b) { }
 
-	// RVA: 0x843810 Offset: 0x841E10 VA: 0x180843810
+	// RVA: 0x843D60 Offset: 0x842360 VA: 0x180843D60
 	public static void RefreshAll(bool force = False) { }
 
-	// RVA: 0x843AE0 Offset: 0x8420E0 VA: 0x180843AE0
+	// RVA: 0x844030 Offset: 0x842630 VA: 0x180844030
 	public static void RemoveAll(bool force = False) { }
 
-	// RVA: 0x8433C0 Offset: 0x8419C0 VA: 0x1808433C0
+	// RVA: 0x843910 Offset: 0x841F10 VA: 0x180843910
 	public void Remove(bool force = False) { }
 
-	// RVA: 0x843980 Offset: 0x841F80 VA: 0x180843980
+	// RVA: 0x843ED0 Offset: 0x8424D0 VA: 0x180843ED0
 	public void Refresh(bool force = False) { }
 
 	[ContextMenu] // RVA: 0xCB540 Offset: 0xCA940 VA: 0x1800CB540
-	// RVA: 0x8437B0 Offset: 0x841DB0 VA: 0x1808437B0
+	// RVA: 0x843D00 Offset: 0x842300 VA: 0x180843D00
 	private void RefreshAll_ContextMenu() { }
 
 	[ContextMenu] // RVA: 0xCB700 Offset: 0xCAB00 VA: 0x1800CB700
-	// RVA: 0x843950 Offset: 0x841F50 VA: 0x180843950
+	// RVA: 0x843EA0 Offset: 0x8424A0 VA: 0x180843EA0
 	private void Refresh_ContextMenu() { }
 
-	// RVA: 0x8436D0 Offset: 0x841CD0 VA: 0x1808436D0
+	// RVA: 0x843C20 Offset: 0x842220 VA: 0x180843C20
 	protected void OnEnable() { }
 
-	// RVA: 0x843620 Offset: 0x841C20 VA: 0x180843620
+	// RVA: 0x843B70 Offset: 0x842170 VA: 0x180843B70
 	protected void OnDisable() { }
 
-	// RVA: 0x843440 Offset: 0x841A40 VA: 0x180843440
+	// RVA: 0x843990 Offset: 0x841F90 VA: 0x180843990
 	private void InitPatches() { }
 
-	// RVA: 0x8433C0 Offset: 0x8419C0 VA: 0x1808433C0
+	// RVA: 0x843910 Offset: 0x841F10 VA: 0x180843910
 	private void FreePatches() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xCB940 Offset: 0xCAD40 VA: 0x1800CB940
-	// RVA: 0x843CF0 Offset: 0x8422F0 VA: 0x180843CF0
+	// RVA: 0x844240 Offset: 0x842840 VA: 0x180844240
 	private IEnumerator UpdateCoroutine() { }
 
-	// RVA: 0x843DD0 Offset: 0x8423D0 VA: 0x180843DD0
+	// RVA: 0x844320 Offset: 0x842920 VA: 0x180844320
 	public void .ctor() { }
 
-	// RVA: 0x843D60 Offset: 0x842360 VA: 0x180843D60
+	// RVA: 0x8442B0 Offset: 0x8428B0 VA: 0x1808442B0
 	private static void .cctor() { }
 
 }
@@ -88,7 +88,7 @@ private sealed class DecorSpawn.<UpdateCoroutine>d__28 : IEnumerator<object>, IE
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x8590D0 Offset: 0x8576D0 VA: 0x1808590D0 Slot: 6
+	// RVA: 0x859620 Offset: 0x857C20 VA: 0x180859620 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -96,7 +96,7 @@ private sealed class DecorSpawn.<UpdateCoroutine>d__28 : IEnumerator<object>, IE
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8592A0 Offset: 0x8578A0 VA: 0x1808592A0 Slot: 8
+	// RVA: 0x8597F0 Offset: 0x857DF0 VA: 0x1808597F0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

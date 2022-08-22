@@ -60,10 +60,10 @@ internal sealed class RegexCode // TypeDefIndex: 2612
 
 	// Methods
 
-	// RVA: 0x14CA390 Offset: 0x14C8990 VA: 0x1814CA390
+	// RVA: 0x14C9460 Offset: 0x14C7A60 VA: 0x1814C9460
 	internal void .ctor(int[] codes, List<string> stringlist, int trackcount, Hashtable caps, int capsize, RegexBoyerMoore bmPrefix, RegexPrefix fcPrefix, int anchors, bool rightToLeft) { }
 
-	// RVA: 0x14CA330 Offset: 0x14C8930 VA: 0x1814CA330
+	// RVA: 0x14C9400 Offset: 0x14C7A00 VA: 0x1814C9400
 	internal static bool OpcodeBacktracks(int Op) { }
 
 }

@@ -15,55 +15,55 @@ public sealed class SqlChars : INullable, IXmlSerializable, ISerializable // Typ
 
 	// Methods
 
-	// RVA: 0xE9E080 Offset: 0xE9C680 VA: 0x180E9E080
+	// RVA: 0xE9EB30 Offset: 0xE9D130 VA: 0x180E9EB30
 	public void .ctor() { }
 
-	// RVA: 0xE9DF70 Offset: 0xE9C570 VA: 0x180E9DF70
+	// RVA: 0xE9EA20 Offset: 0xE9D020 VA: 0x180E9EA20
 	public void .ctor(char[] buffer) { }
 
-	// RVA: 0xE9EB10 Offset: 0xE9D110 VA: 0x180E9EB10
+	// RVA: 0xE9F5C0 Offset: 0xE9DBC0 VA: 0x180E9F5C0
 	public void .ctor(SqlString value) { }
 
-	// RVA: 0xE9E230 Offset: 0xE9C830 VA: 0x180E9E230 Slot: 4
+	// RVA: 0xE9ECE0 Offset: 0xE9D2E0 VA: 0x180E9ECE0 Slot: 4
 	public bool get_IsNull() { }
 
-	// RVA: 0xE9EB70 Offset: 0xE9D170 VA: 0x180E9EB70
+	// RVA: 0xE9F620 Offset: 0xE9DC20 VA: 0x180E9F620
 	public char[] get_Buffer() { }
 
-	// RVA: 0xE9ECE0 Offset: 0xE9D2E0 VA: 0x180E9ECE0
+	// RVA: 0xE9F790 Offset: 0xE9DD90 VA: 0x180E9F790
 	public long get_Length() { }
 
-	// RVA: 0xE9EDC0 Offset: 0xE9D3C0 VA: 0x180E9EDC0
+	// RVA: 0xE9F870 Offset: 0xE9DE70 VA: 0x180E9F870
 	public char[] get_Value() { }
 
-	// RVA: 0xE9DAB0 Offset: 0xE9C0B0 VA: 0x180E9DAB0
+	// RVA: 0xE9E560 Offset: 0xE9CB60 VA: 0x180E9E560
 	public void SetNull() { }
 
-	// RVA: 0xE9D9D0 Offset: 0xE9BFD0 VA: 0x180E9D9D0
+	// RVA: 0xE9E480 Offset: 0xE9CA80 VA: 0x180E9E480
 	internal bool FStream() { }
 
-	// RVA: 0xE9E510 Offset: 0xE9CB10 VA: 0x180E9E510
+	// RVA: 0xE9EFC0 Offset: 0xE9D5C0 VA: 0x180E9EFC0
 	private void CopyStreamToBuffer() { }
 
-	// RVA: 0xE9DA40 Offset: 0xE9C040 VA: 0x180E9DA40
+	// RVA: 0xE9E4F0 Offset: 0xE9CAF0 VA: 0x180E9E4F0
 	private void SetBuffer(char[] buffer) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 5
 	private XmlSchema System.Xml.Serialization.IXmlSerializable.GetSchema() { }
 
-	// RVA: 0xE9E730 Offset: 0xE9CD30 VA: 0x180E9E730 Slot: 6
+	// RVA: 0xE9F1E0 Offset: 0xE9D7E0 VA: 0x180E9F1E0 Slot: 6
 	private void System.Xml.Serialization.IXmlSerializable.ReadXml(XmlReader r) { }
 
-	// RVA: 0xE9E880 Offset: 0xE9CE80 VA: 0x180E9E880 Slot: 7
+	// RVA: 0xE9F330 Offset: 0xE9D930 VA: 0x180E9F330 Slot: 7
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
-	// RVA: 0xE9E680 Offset: 0xE9CC80 VA: 0x180E9E680
+	// RVA: 0xE9F130 Offset: 0xE9D730 VA: 0x180E9F130
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet) { }
 
-	// RVA: 0xE9E6E0 Offset: 0xE9CCE0 VA: 0x180E9E6E0 Slot: 8
+	// RVA: 0xE9F190 Offset: 0xE9D790 VA: 0x180E9F190 Slot: 8
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xE9ED70 Offset: 0xE9D370 VA: 0x180E9ED70
+	// RVA: 0xE9F820 Offset: 0xE9DE20 VA: 0x180E9F820
 	public static SqlChars get_Null() { }
 
 }

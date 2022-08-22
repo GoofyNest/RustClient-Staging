@@ -1,73 +1,73 @@
 public sealed class DBNull : ISerializable, IConvertible // TypeDefIndex: 201
 {	// Fields
-	public static readonly DBNull Value; // 0x13C84
+	public static readonly DBNull Value; // 0x139B0
 
 	// Methods
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x1792D00 Offset: 0x1791300 VA: 0x181792D00
+	// RVA: 0x1795110 Offset: 0x1793710 VA: 0x181795110
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1792550 Offset: 0x1790B50 VA: 0x181792550 Slot: 4
+	// RVA: 0x1794960 Offset: 0x1792F60 VA: 0x181794960 Slot: 4
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1792C60 Offset: 0x1791260 VA: 0x181792C60 Slot: 3
+	// RVA: 0x1795070 Offset: 0x1793670 VA: 0x181795070 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1792C20 Offset: 0x1791220 VA: 0x181792C20 Slot: 20
+	// RVA: 0x1795030 Offset: 0x1793630 VA: 0x181795030 Slot: 20
 	public string ToString(IFormatProvider provider) { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 5
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 5
 	public TypeCode GetTypeCode() { }
 
-	// RVA: 0x1792580 Offset: 0x1790B80 VA: 0x181792580 Slot: 6
+	// RVA: 0x1794990 Offset: 0x1792F90 VA: 0x181794990 Slot: 6
 	private bool System.IConvertible.ToBoolean(IFormatProvider provider) { }
 
-	// RVA: 0x1792660 Offset: 0x1790C60 VA: 0x181792660 Slot: 7
+	// RVA: 0x1794A70 Offset: 0x1793070 VA: 0x181794A70 Slot: 7
 	private char System.IConvertible.ToChar(IFormatProvider provider) { }
 
-	// RVA: 0x1792970 Offset: 0x1790F70 VA: 0x181792970 Slot: 8
+	// RVA: 0x1794D80 Offset: 0x1793380 VA: 0x181794D80 Slot: 8
 	private sbyte System.IConvertible.ToSByte(IFormatProvider provider) { }
 
-	// RVA: 0x17925F0 Offset: 0x1790BF0 VA: 0x1817925F0 Slot: 9
+	// RVA: 0x1794A00 Offset: 0x1793000 VA: 0x181794A00 Slot: 9
 	private byte System.IConvertible.ToByte(IFormatProvider provider) { }
 
-	// RVA: 0x1792820 Offset: 0x1790E20 VA: 0x181792820 Slot: 10
+	// RVA: 0x1794C30 Offset: 0x1793230 VA: 0x181794C30 Slot: 10
 	private short System.IConvertible.ToInt16(IFormatProvider provider) { }
 
-	// RVA: 0x1792AD0 Offset: 0x17910D0 VA: 0x181792AD0 Slot: 11
+	// RVA: 0x1794EE0 Offset: 0x17934E0 VA: 0x181794EE0 Slot: 11
 	private ushort System.IConvertible.ToUInt16(IFormatProvider provider) { }
 
-	// RVA: 0x1792890 Offset: 0x1790E90 VA: 0x181792890 Slot: 12
+	// RVA: 0x1794CA0 Offset: 0x17932A0 VA: 0x181794CA0 Slot: 12
 	private int System.IConvertible.ToInt32(IFormatProvider provider) { }
 
-	// RVA: 0x1792B40 Offset: 0x1791140 VA: 0x181792B40 Slot: 13
+	// RVA: 0x1794F50 Offset: 0x1793550 VA: 0x181794F50 Slot: 13
 	private uint System.IConvertible.ToUInt32(IFormatProvider provider) { }
 
-	// RVA: 0x1792900 Offset: 0x1790F00 VA: 0x181792900 Slot: 14
+	// RVA: 0x1794D10 Offset: 0x1793310 VA: 0x181794D10 Slot: 14
 	private long System.IConvertible.ToInt64(IFormatProvider provider) { }
 
-	// RVA: 0x1792BB0 Offset: 0x17911B0 VA: 0x181792BB0 Slot: 15
+	// RVA: 0x1794FC0 Offset: 0x17935C0 VA: 0x181794FC0 Slot: 15
 	private ulong System.IConvertible.ToUInt64(IFormatProvider provider) { }
 
-	// RVA: 0x17929E0 Offset: 0x1790FE0 VA: 0x1817929E0 Slot: 16
+	// RVA: 0x1794DF0 Offset: 0x17933F0 VA: 0x181794DF0 Slot: 16
 	private float System.IConvertible.ToSingle(IFormatProvider provider) { }
 
-	// RVA: 0x17927B0 Offset: 0x1790DB0 VA: 0x1817927B0 Slot: 17
+	// RVA: 0x1794BC0 Offset: 0x17931C0 VA: 0x181794BC0 Slot: 17
 	private double System.IConvertible.ToDouble(IFormatProvider provider) { }
 
-	// RVA: 0x1792740 Offset: 0x1790D40 VA: 0x181792740 Slot: 18
+	// RVA: 0x1794B50 Offset: 0x1793150 VA: 0x181794B50 Slot: 18
 	private Decimal System.IConvertible.ToDecimal(IFormatProvider provider) { }
 
-	// RVA: 0x17926D0 Offset: 0x1790CD0 VA: 0x1817926D0 Slot: 19
+	// RVA: 0x1794AE0 Offset: 0x17930E0 VA: 0x181794AE0 Slot: 19
 	private DateTime System.IConvertible.ToDateTime(IFormatProvider provider) { }
 
-	// RVA: 0x1792A50 Offset: 0x1791050 VA: 0x181792A50 Slot: 21
+	// RVA: 0x1794E60 Offset: 0x1793460 VA: 0x181794E60 Slot: 21
 	private object System.IConvertible.ToType(Type type, IFormatProvider provider) { }
 
-	// RVA: 0x1792CA0 Offset: 0x17912A0 VA: 0x181792CA0
+	// RVA: 0x17950B0 Offset: 0x17936B0 VA: 0x1817950B0
 	private static void .cctor() { }
 
 }
@@ -90,55 +90,55 @@ internal struct DataCollector // TypeDefIndex: 1509
 
 	// Methods
 
-	// RVA: 0x120AF0 Offset: 0x11FEF0 VA: 0x180120AF0
+	// RVA: 0x120910 Offset: 0x11FD10 VA: 0x180120910
 	internal void Enable(byte* scratch, int scratchSize, EventSource.EventData* datas, int dataCount, GCHandle* pins, int pinCount) { }
 
-	// RVA: 0x120AD0 Offset: 0x11FED0 VA: 0x180120AD0
+	// RVA: 0x1208F0 Offset: 0x11FCF0 VA: 0x1801208F0
 	internal void Disable() { }
 
-	// RVA: 0x120C90 Offset: 0x120090 VA: 0x180120C90
+	// RVA: 0x120AB0 Offset: 0x11FEB0 VA: 0x180120AB0
 	internal EventSource.EventData* Finish() { }
 
-	// RVA: 0x120A70 Offset: 0x11FE70 VA: 0x180120A70
+	// RVA: 0x120890 Offset: 0x11FC90 VA: 0x180120890
 	internal void AddScalar(void* value, int size) { }
 
-	// RVA: 0x120A30 Offset: 0x11FE30 VA: 0x180120A30
+	// RVA: 0x120850 Offset: 0x11FC50 VA: 0x180120850
 	internal void AddBinary(string value, int size) { }
 
-	// RVA: 0x120A40 Offset: 0x11FE40 VA: 0x180120A40
+	// RVA: 0x120860 Offset: 0x11FC60 VA: 0x180120860
 	internal void AddBinary(Array value, int size) { }
 
-	// RVA: 0x120A20 Offset: 0x11FE20 VA: 0x180120A20
+	// RVA: 0x120840 Offset: 0x11FC40 VA: 0x180120840
 	internal void AddArray(Array value, int length, int itemSize) { }
 
-	// RVA: 0x120A80 Offset: 0x11FE80 VA: 0x180120A80
+	// RVA: 0x1208A0 Offset: 0x11FCA0 VA: 0x1801208A0
 	internal int BeginBufferedArray() { }
 
-	// RVA: 0x120B40 Offset: 0x11FF40 VA: 0x180120B40
+	// RVA: 0x120960 Offset: 0x11FD60 VA: 0x180120960
 	internal void EndBufferedArray(int bookmark, int count) { }
 
-	// RVA: 0x120AB0 Offset: 0x11FEB0 VA: 0x180120AB0
+	// RVA: 0x1208D0 Offset: 0x11FCD0 VA: 0x1801208D0
 	internal void BeginBuffered() { }
 
-	// RVA: 0x120C10 Offset: 0x120010 VA: 0x180120C10
+	// RVA: 0x120A30 Offset: 0x11FE30 VA: 0x180120A30
 	internal void EndBuffered() { }
 
-	// RVA: 0x120C70 Offset: 0x120070 VA: 0x180120C70
+	// RVA: 0x120A90 Offset: 0x11FE90 VA: 0x180120A90
 	private void EnsureBuffer() { }
 
-	// RVA: 0x120C80 Offset: 0x120080 VA: 0x180120C80
+	// RVA: 0x120AA0 Offset: 0x11FEA0 VA: 0x180120AA0
 	private void EnsureBuffer(int additionalSize) { }
 
-	// RVA: 0x120CB0 Offset: 0x1200B0 VA: 0x180120CB0
+	// RVA: 0x120AD0 Offset: 0x11FED0 VA: 0x180120AD0
 	private void GrowBuffer(int required) { }
 
-	// RVA: 0x120D10 Offset: 0x120110 VA: 0x180120D10
+	// RVA: 0x120B30 Offset: 0x11FF30 VA: 0x180120B30
 	private void PinArray(object value, int size) { }
 
-	// RVA: 0x120D20 Offset: 0x120120 VA: 0x180120D20
+	// RVA: 0x120B40 Offset: 0x11FF40 VA: 0x180120B40
 	private void ScalarsBegin() { }
 
-	// RVA: 0x120D30 Offset: 0x120130 VA: 0x180120D30
+	// RVA: 0x120B50 Offset: 0x11FF50 VA: 0x180120B50
 	private void ScalarsEnd() { }
 
 }
@@ -256,106 +256,106 @@ internal abstract class DatatypeImplementation : XmlSchemaDatatype // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x15059A0 Offset: 0x1503FA0 VA: 0x1815059A0
+	// RVA: 0x1504A70 Offset: 0x1503070 VA: 0x181504A70
 	private static void .cctor() { }
 
-	// RVA: 0x150B590 Offset: 0x1509B90 VA: 0x18150B590
+	// RVA: 0x150A660 Offset: 0x1508C60 VA: 0x18150A660
 	internal static XmlSchemaSimpleType get_AnySimpleType() { }
 
-	// RVA: 0x150B690 Offset: 0x1509C90 VA: 0x18150B690
+	// RVA: 0x150A760 Offset: 0x1508D60 VA: 0x18150A760
 	internal static XmlSchemaSimpleType get_UntypedAtomicType() { }
 
-	// RVA: 0x1504480 Offset: 0x1502A80 VA: 0x181504480
+	// RVA: 0x1503550 Offset: 0x1501B50 VA: 0x181503550
 	internal static DatatypeImplementation FromXmlTokenizedType(XmlTokenizedType token) { }
 
-	// RVA: 0x15043F0 Offset: 0x15029F0 VA: 0x1815043F0
+	// RVA: 0x15034C0 Offset: 0x1501AC0 VA: 0x1815034C0
 	internal static DatatypeImplementation FromXmlTokenizedTypeXsd(XmlTokenizedType token) { }
 
-	// RVA: 0x1504300 Offset: 0x1502900 VA: 0x181504300
+	// RVA: 0x15033D0 Offset: 0x15019D0 VA: 0x1815033D0
 	internal static DatatypeImplementation FromXdrName(string name) { }
 
-	// RVA: 0x1504210 Offset: 0x1502810 VA: 0x181504210
+	// RVA: 0x15032E0 Offset: 0x15018E0 VA: 0x1815032E0
 	private static DatatypeImplementation FromTypeName(string name) { }
 
-	// RVA: 0x15055C0 Offset: 0x1503BC0 VA: 0x1815055C0
+	// RVA: 0x1504690 Offset: 0x1502C90 VA: 0x181504690
 	internal static XmlSchemaSimpleType StartBuiltinType(XmlQualifiedName qname, XmlSchemaDatatype dataType) { }
 
-	// RVA: 0x1503F60 Offset: 0x1502560 VA: 0x181503F60
+	// RVA: 0x1503030 Offset: 0x1501630 VA: 0x181503030
 	internal static void FinishBuiltinType(XmlSchemaSimpleType derivedType, XmlSchemaSimpleType baseType) { }
 
-	// RVA: 0x15028E0 Offset: 0x1500EE0 VA: 0x1815028E0
+	// RVA: 0x15019B0 Offset: 0x14FFFB0 VA: 0x1815019B0
 	internal static void CreateBuiltinTypes() { }
 
-	// RVA: 0x1504940 Offset: 0x1502F40 VA: 0x181504940
+	// RVA: 0x1503A10 Offset: 0x1502010 VA: 0x181503A10
 	internal static XmlSchemaSimpleType GetSimpleTypeFromTypeCode(XmlTypeCode typeCode) { }
 
-	// RVA: 0x15049D0 Offset: 0x1502FD0 VA: 0x1815049D0
+	// RVA: 0x1503AA0 Offset: 0x15020A0 VA: 0x181503AA0
 	internal static XmlSchemaSimpleType GetSimpleTypeFromXsdType(XmlQualifiedName qname) { }
 
-	// RVA: 0x1504570 Offset: 0x1502B70 VA: 0x181504570
+	// RVA: 0x1503640 Offset: 0x1501C40 VA: 0x181503640
 	internal static XmlSchemaSimpleType GetNormalizedStringTypeV1Compat() { }
 
-	// RVA: 0x1504AA0 Offset: 0x15030A0 VA: 0x181504AA0
+	// RVA: 0x1503B70 Offset: 0x1502170 VA: 0x181503B70
 	internal static XmlSchemaSimpleType GetTokenTypeV1Compat() { }
 
-	// RVA: 0x1504510 Offset: 0x1502B10 VA: 0x181504510
+	// RVA: 0x15035E0 Offset: 0x1501BE0 VA: 0x1815035E0
 	internal static XmlSchemaSimpleType[] GetBuiltInTypes() { }
 
-	// RVA: 0x15047D0 Offset: 0x1502DD0 VA: 0x1815047D0
+	// RVA: 0x15038A0 Offset: 0x1501EA0 VA: 0x1815038A0
 	internal static XmlTypeCode GetPrimitiveTypeCode(XmlTypeCode typeCode) { }
 
-	// RVA: 0x1503CD0 Offset: 0x15022D0 VA: 0x181503CD0 Slot: 20
+	// RVA: 0x1502DA0 Offset: 0x15013A0 VA: 0x181502DA0 Slot: 20
 	internal override XmlSchemaDatatype DeriveByRestriction(XmlSchemaObjectCollection facets, XmlNameTable nameTable, XmlSchemaType schemaType) { }
 
-	// RVA: 0x1503CC0 Offset: 0x15022C0 VA: 0x181503CC0 Slot: 21
+	// RVA: 0x1502D90 Offset: 0x1501390 VA: 0x181502D90 Slot: 21
 	internal override XmlSchemaDatatype DeriveByList(XmlSchemaType schemaType) { }
 
-	// RVA: 0x1503990 Offset: 0x1501F90 VA: 0x181503990
+	// RVA: 0x1502A60 Offset: 0x1501060 VA: 0x181502A60
 	internal XmlSchemaDatatype DeriveByList(int minSize, XmlSchemaType schemaType) { }
 
-	// RVA: 0x1503E20 Offset: 0x1502420 VA: 0x181503E20
+	// RVA: 0x1502EF0 Offset: 0x15014F0 VA: 0x181502EF0
 	internal static DatatypeImplementation DeriveByUnion(XmlSchemaSimpleType[] types, XmlSchemaType schemaType) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 22
 	internal override void VerifySchemaValid(XmlSchemaObjectTable notations, XmlSchemaObject caller) { }
 
-	// RVA: 0x1504E80 Offset: 0x1503480 VA: 0x181504E80 Slot: 9
+	// RVA: 0x1503F50 Offset: 0x1502550 VA: 0x181503F50 Slot: 9
 	public override bool IsDerivedFrom(XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x15051C0 Offset: 0x15037C0 VA: 0x1815051C0 Slot: 23
+	// RVA: 0x1504290 Offset: 0x1502890 VA: 0x181504290 Slot: 23
 	internal override bool IsEqual(object o1, object o2) { }
 
-	// RVA: 0x1504D80 Offset: 0x1503380 VA: 0x181504D80 Slot: 24
+	// RVA: 0x1503E50 Offset: 0x1502450 VA: 0x181503E50 Slot: 24
 	internal override bool IsComparable(XmlSchemaDatatype dtype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 25
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 25
 	internal virtual XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x150B5F0 Offset: 0x1509BF0 VA: 0x18150B5F0 Slot: 18
+	// RVA: 0x150A6C0 Offset: 0x1508CC0 VA: 0x18150A6C0 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x150B6F0 Offset: 0x1509CF0 VA: 0x18150B6F0 Slot: 12
+	// RVA: 0x150A7C0 Offset: 0x1508DC0 VA: 0x18150A7C0 Slot: 12
 	internal override XmlValueConverter get_ValueConverter() { }
 
-	// RVA: 0xB9F620 Offset: 0xB9DC20 VA: 0x180B9F620 Slot: 5
+	// RVA: 0xB9FAF0 Offset: 0xB9E0F0 VA: 0x180B9FAF0 Slot: 5
 	public override XmlTokenizedType get_TokenizedType() { }
 
-	// RVA: 0x150B730 Offset: 0x1509D30 VA: 0x18150B730 Slot: 4
+	// RVA: 0x150A800 Offset: 0x1508E00 VA: 0x18150A800 Slot: 4
 	public override Type get_ValueType() { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00 Slot: 7
 	public override XmlSchemaDatatypeVariety get_Variety() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 8
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 13
 	internal override RestrictionFacets get_Restriction() { }
 
-	// RVA: 0x150B650 Offset: 0x1509C50 VA: 0x18150B650 Slot: 10
+	// RVA: 0x150A720 Offset: 0x1508D20 VA: 0x18150A720 Slot: 10
 	internal override bool get_HasLexicalFacets() { }
 
-	// RVA: 0x150B670 Offset: 0x1509C70 VA: 0x18150B670 Slot: 11
+	// RVA: 0x150A740 Offset: 0x1508D40 VA: 0x18150A740 Slot: 11
 	internal override bool get_HasValueFacets() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -367,25 +367,25 @@ internal abstract class DatatypeImplementation : XmlSchemaDatatype // TypeDefInd
 	// RVA: -1 Offset: -1 Slot: 27
 	internal abstract RestrictionFlags get_ValidRestrictionFlags();
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 19
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x1505390 Offset: 0x1503990 VA: 0x181505390 Slot: 6
+	// RVA: 0x1504460 Offset: 0x1502A60 VA: 0x181504460 Slot: 6
 	public override object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr) { }
 
-	// RVA: 0x15051E0 Offset: 0x15037E0 VA: 0x1815051E0 Slot: 15
+	// RVA: 0x15042B0 Offset: 0x15028B0 VA: 0x1815042B0 Slot: 15
 	internal override object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, bool createAtomicValue) { }
 
-	// RVA: 0x1505690 Offset: 0x1503C90 VA: 0x181505690 Slot: 17
+	// RVA: 0x1504760 Offset: 0x1502D60 VA: 0x181504760 Slot: 17
 	internal override Exception TryParseValue(object value, XmlNameTable nameTable, IXmlNamespaceResolver namespaceResolver, out object typedValue) { }
 
-	// RVA: 0x1504D00 Offset: 0x1503300 VA: 0x181504D00
+	// RVA: 0x1503DD0 Offset: 0x15023D0 VA: 0x181503DD0
 	internal string GetTypeName() { }
 
-	// RVA: 0x1502860 Offset: 0x1500E60 VA: 0x181502860
+	// RVA: 0x1501930 Offset: 0x14FFF30 VA: 0x181501930
 	protected int Compare(byte[] value1, byte[] value2) { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	protected void .ctor() { }
 
 }
@@ -402,22 +402,22 @@ private class DatatypeImplementation.SchemaDatatypeMap : IComparable // TypeDefI
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	internal void .ctor(string name, DatatypeImplementation type) { }
 
-	// RVA: 0x13862C0 Offset: 0x13848C0 VA: 0x1813862C0
+	// RVA: 0x13853C0 Offset: 0x13839C0 VA: 0x1813853C0
 	internal void .ctor(string name, DatatypeImplementation type, int parentIndex) { }
 
-	// RVA: 0x14B8020 Offset: 0x14B6620 VA: 0x1814B8020
+	// RVA: 0x14B70F0 Offset: 0x14B56F0 VA: 0x1814B70F0
 	public static DatatypeImplementation op_Explicit(DatatypeImplementation.SchemaDatatypeMap sdm) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_Name() { }
 
-	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
+	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760
 	public int get_ParentIndex() { }
 
-	// RVA: 0x151E9B0 Offset: 0x151CFB0 VA: 0x18151E9B0 Slot: 4
+	// RVA: 0x151DA80 Offset: 0x151C080 VA: 0x18151DA80 Slot: 4
 	public int CompareTo(object obj) { }
 
 }
@@ -437,37 +437,37 @@ internal class Datatype_List : Datatype_anySimpleType // TypeDefIndex: 2181
 
 	// Methods
 
-	// RVA: 0x150BAE0 Offset: 0x150A0E0 VA: 0x18150BAE0 Slot: 25
+	// RVA: 0x150ABB0 Offset: 0x15091B0 VA: 0x18150ABB0 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x150C860 Offset: 0x150AE60 VA: 0x18150C860
+	// RVA: 0x150B930 Offset: 0x1509F30 VA: 0x18150B930
 	internal void .ctor(DatatypeImplementation type, int minListSize) { }
 
-	// RVA: 0x150B7D0 Offset: 0x1509DD0 VA: 0x18150B7D0 Slot: 14
+	// RVA: 0x150A8A0 Offset: 0x1508EA0 VA: 0x18150A8A0 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0xFCB5E0 Offset: 0xFC9BE0 VA: 0x180FCB5E0 Slot: 4
+	// RVA: 0xFCC080 Offset: 0xFCA680 VA: 0x180FCC080 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x150C9B0 Offset: 0x150AFB0 VA: 0x18150C9B0 Slot: 5
+	// RVA: 0x150BA80 Offset: 0x150A080 VA: 0x18150BA80 Slot: 5
 	public override XmlTokenizedType get_TokenizedType() { }
 
-	// RVA: 0x150C980 Offset: 0x150AF80 VA: 0x18150C980 Slot: 26
+	// RVA: 0x150BA50 Offset: 0x150A050 VA: 0x18150BA50 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x150C920 Offset: 0x150AF20 VA: 0x18150C920 Slot: 18
+	// RVA: 0x150B9F0 Offset: 0x1509FF0 VA: 0x18150B9F0 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x150C9E0 Offset: 0x150AFE0 VA: 0x18150C9E0 Slot: 8
+	// RVA: 0x150BAB0 Offset: 0x150A0B0 VA: 0x18150BAB0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150CA10 Offset: 0x150B010 VA: 0x18150CA10 Slot: 27
+	// RVA: 0x150BAE0 Offset: 0x150A0E0 VA: 0x18150BAE0 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x150BE40 Offset: 0x150A440 VA: 0x18150BE40 Slot: 17
+	// RVA: 0x150AF10 Offset: 0x1509510 VA: 0x18150AF10 Slot: 17
 	internal override Exception TryParseValue(object value, XmlNameTable nameTable, IXmlNamespaceResolver namespaceResolver, out object typedValue) { }
 
-	// RVA: 0x150C3A0 Offset: 0x150A9A0 VA: 0x18150C3A0 Slot: 16
+	// RVA: 0x150B470 Offset: 0x1509A70 VA: 0x18150B470 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
 }
@@ -488,46 +488,46 @@ internal class Datatype_union : Datatype_anySimpleType // TypeDefIndex: 2182
 
 	// Methods
 
-	// RVA: 0x1513C70 Offset: 0x1512270 VA: 0x181513C70 Slot: 25
+	// RVA: 0x1512D40 Offset: 0x1511340 VA: 0x181512D40 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x15144F0 Offset: 0x1512AF0 VA: 0x1815144F0
+	// RVA: 0x15135C0 Offset: 0x1511BC0 VA: 0x1815135C0
 	internal void .ctor(XmlSchemaSimpleType[] types) { }
 
-	// RVA: 0x1513B70 Offset: 0x1512170 VA: 0x181513B70 Slot: 14
+	// RVA: 0x1512C40 Offset: 0x1511240 VA: 0x181512C40 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x1514660 Offset: 0x1512C60 VA: 0x181514660 Slot: 4
+	// RVA: 0x1513730 Offset: 0x1511D30 VA: 0x181513730 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x4A6090 Offset: 0x4A4690 VA: 0x1804A6090 Slot: 8
+	// RVA: 0x4A6020 Offset: 0x4A4620 VA: 0x1804A6020 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x15145A0 Offset: 0x1512BA0 VA: 0x1815145A0 Slot: 18
+	// RVA: 0x1513670 Offset: 0x1511C70 VA: 0x181513670 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x1514600 Offset: 0x1512C00 VA: 0x181514600 Slot: 26
+	// RVA: 0x15136D0 Offset: 0x1511CD0 VA: 0x1815136D0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0xED99E0 Offset: 0xED7FE0 VA: 0x180ED99E0 Slot: 27
+	// RVA: 0xEDA490 Offset: 0xED8A90 VA: 0x180EDA490 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	internal XmlSchemaSimpleType[] get_BaseMemberTypes() { }
 
-	// RVA: 0x1513C80 Offset: 0x1512280 VA: 0x181513C80
+	// RVA: 0x1512D50 Offset: 0x1511350 VA: 0x181512D50
 	internal bool HasAtomicMembers() { }
 
-	// RVA: 0x1513D20 Offset: 0x1512320 VA: 0x181513D20
+	// RVA: 0x1512DF0 Offset: 0x15113F0 VA: 0x181512DF0
 	internal bool IsUnionBaseOf(DatatypeImplementation derivedType) { }
 
-	// RVA: 0x1513DE0 Offset: 0x15123E0 VA: 0x181513DE0 Slot: 16
+	// RVA: 0x1512EB0 Offset: 0x15114B0 VA: 0x181512EB0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1514050 Offset: 0x1512650 VA: 0x181514050 Slot: 17
+	// RVA: 0x1513120 Offset: 0x1511720 VA: 0x181513120 Slot: 17
 	internal override Exception TryParseValue(object value, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1514450 Offset: 0x1512A50 VA: 0x181514450
+	// RVA: 0x1513520 Offset: 0x1511B20 VA: 0x181513520
 	private static void .cctor() { }
 
 }
@@ -548,40 +548,40 @@ internal class Datatype_anySimpleType : DatatypeImplementation // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x150DBA0 Offset: 0x150C1A0 VA: 0x18150DBA0 Slot: 25
+	// RVA: 0x150CC70 Offset: 0x150B270 VA: 0x18150CC70 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x150DD30 Offset: 0x150C330 VA: 0x18150DD30 Slot: 18
+	// RVA: 0x150CE00 Offset: 0x150B400 VA: 0x18150CE00 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x150DDF0 Offset: 0x150C3F0 VA: 0x18150DDF0 Slot: 4
+	// RVA: 0x150CEC0 Offset: 0x150B4C0 VA: 0x18150CEC0 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x4A6090 Offset: 0x4A4690 VA: 0x1804A6090 Slot: 8
+	// RVA: 0x4A6020 Offset: 0x4A4620 VA: 0x1804A6020 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150DD90 Offset: 0x150C390 VA: 0x18150DD90 Slot: 26
+	// RVA: 0x150CE60 Offset: 0x150B460 VA: 0x18150CE60 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0xB9F620 Offset: 0xB9DC20 VA: 0x180B9F620 Slot: 5
+	// RVA: 0xB9FAF0 Offset: 0xB9E0F0 VA: 0x180B9FAF0 Slot: 5
 	public override XmlTokenizedType get_TokenizedType() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 27
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x150DB30 Offset: 0x150C130 VA: 0x18150DB30 Slot: 14
+	// RVA: 0x150CC00 Offset: 0x150B200 VA: 0x18150CC00 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x150DC00 Offset: 0x150C200 VA: 0x18150DC00 Slot: 16
+	// RVA: 0x150CCD0 Offset: 0x150B2D0 VA: 0x18150CCD0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x150DCD0 Offset: 0x150C2D0 VA: 0x18150DCD0
+	// RVA: 0x150CDA0 Offset: 0x150B3A0 VA: 0x18150CDA0
 	public void .ctor() { }
 
-	// RVA: 0x150DC30 Offset: 0x150C230 VA: 0x18150DC30
+	// RVA: 0x150CD00 Offset: 0x150B300 VA: 0x18150CD00
 	private static void .cctor() { }
 
 }
@@ -593,16 +593,16 @@ internal class Datatype_anyAtomicType : Datatype_anySimpleType // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x150DA40 Offset: 0x150C040 VA: 0x18150DA40 Slot: 25
+	// RVA: 0x150CB10 Offset: 0x150B110 VA: 0x18150CB10 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 19
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x4A6090 Offset: 0x4A4690 VA: 0x1804A6090 Slot: 8
+	// RVA: 0x4A6020 Offset: 0x4A4620 VA: 0x1804A6020 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150DAA0 Offset: 0x150C0A0 VA: 0x18150DAA0
+	// RVA: 0x150CB70 Offset: 0x150B170 VA: 0x18150CB70
 	public void .ctor() { }
 
 }
@@ -614,16 +614,16 @@ internal class Datatype_untypedAtomicType : Datatype_anyAtomicType // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1515AD0 Offset: 0x15140D0 VA: 0x181515AD0 Slot: 25
+	// RVA: 0x1514BA0 Offset: 0x15131A0 VA: 0x181514BA0 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 19
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x11BB1E0 Offset: 0x11B97E0 VA: 0x1811BB1E0 Slot: 8
+	// RVA: 0x11BB880 Offset: 0x11B9E80 VA: 0x1811BB880 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1515B30 Offset: 0x1514130 VA: 0x181515B30
+	// RVA: 0x1514C00 Offset: 0x1513200 VA: 0x181514C00
 	public void .ctor() { }
 
 }
@@ -638,28 +638,28 @@ internal class Datatype_string : Datatype_anySimpleType // TypeDefIndex: 2186
 
 	// Methods
 
-	// RVA: 0x1513820 Offset: 0x1511E20 VA: 0x181513820 Slot: 25
+	// RVA: 0x15128F0 Offset: 0x1510EF0 VA: 0x1815128F0 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 19
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x15139E0 Offset: 0x1511FE0 VA: 0x1815139E0 Slot: 18
+	// RVA: 0x1512AB0 Offset: 0x15110B0 VA: 0x181512AB0 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0xB9F620 Offset: 0xB9DC20 VA: 0x180B9F620 Slot: 8
+	// RVA: 0xB9FAF0 Offset: 0xB9E0F0 VA: 0x180B9FAF0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 5
 	public override XmlTokenizedType get_TokenizedType() { }
 
-	// RVA: 0x150CA10 Offset: 0x150B010 VA: 0x18150CA10 Slot: 27
+	// RVA: 0x150BAE0 Offset: 0x150A0E0 VA: 0x18150BAE0 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x1513830 Offset: 0x1511E30 VA: 0x181513830 Slot: 16
+	// RVA: 0x1512900 Offset: 0x1510F00 VA: 0x181512900 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1513950 Offset: 0x1511F50 VA: 0x181513950
+	// RVA: 0x1512A20 Offset: 0x1511020 VA: 0x181512A20
 	public void .ctor() { }
 
 }
@@ -679,37 +679,37 @@ internal class Datatype_boolean : Datatype_anySimpleType // TypeDefIndex: 2187
 
 	// Methods
 
-	// RVA: 0x150E970 Offset: 0x150CF70 VA: 0x18150E970 Slot: 25
+	// RVA: 0x150DA40 Offset: 0x150C040 VA: 0x18150DA40 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x150EBD0 Offset: 0x150D1D0 VA: 0x18150EBD0 Slot: 18
+	// RVA: 0x150DCA0 Offset: 0x150C2A0 VA: 0x18150DCA0 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x132C780 Offset: 0x132AD80 VA: 0x18132C780 Slot: 8
+	// RVA: 0x132B880 Offset: 0x1329E80 VA: 0x18132B880 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150EC90 Offset: 0x150D290 VA: 0x18150EC90 Slot: 4
+	// RVA: 0x150DD60 Offset: 0x150C360 VA: 0x18150DD60 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x150EC30 Offset: 0x150D230 VA: 0x18150EC30 Slot: 26
+	// RVA: 0x150DD00 Offset: 0x150C300 VA: 0x18150DD00 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0xED9A20 Offset: 0xED8020 VA: 0x180ED9A20 Slot: 27
+	// RVA: 0xEDA4D0 Offset: 0xED8AD0 VA: 0x180EDA4D0 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x150E8F0 Offset: 0x150CEF0 VA: 0x18150E8F0 Slot: 14
+	// RVA: 0x150D9C0 Offset: 0x150BFC0 VA: 0x18150D9C0 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x150E980 Offset: 0x150CF80 VA: 0x18150E980 Slot: 16
+	// RVA: 0x150DA50 Offset: 0x150C050 VA: 0x18150DA50 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x150EB40 Offset: 0x150D140 VA: 0x18150EB40
+	// RVA: 0x150DC10 Offset: 0x150C210 VA: 0x18150DC10
 	public void .ctor() { }
 
-	// RVA: 0x150EAA0 Offset: 0x150D0A0 VA: 0x18150EAA0
+	// RVA: 0x150DB70 Offset: 0x150C170 VA: 0x18150DB70
 	private static void .cctor() { }
 
 }
@@ -729,37 +729,37 @@ internal class Datatype_float : Datatype_anySimpleType // TypeDefIndex: 2188
 
 	// Methods
 
-	// RVA: 0x1510900 Offset: 0x150EF00 VA: 0x181510900 Slot: 25
+	// RVA: 0x150F9D0 Offset: 0x150DFD0 VA: 0x18150F9D0 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x1511AB0 Offset: 0x15100B0 VA: 0x181511AB0 Slot: 18
+	// RVA: 0x1510B80 Offset: 0x150F180 VA: 0x181510B80 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x10E4E80 Offset: 0x10E3480 VA: 0x1810E4E80 Slot: 8
+	// RVA: 0x10E58F0 Offset: 0x10E3EF0 VA: 0x1810E58F0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1511B70 Offset: 0x1510170 VA: 0x181511B70 Slot: 4
+	// RVA: 0x1510C40 Offset: 0x150F240 VA: 0x181510C40 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x1511B10 Offset: 0x1510110 VA: 0x181511B10 Slot: 26
+	// RVA: 0x1510BE0 Offset: 0x150F1E0 VA: 0x181510BE0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x150FC90 Offset: 0x150E290 VA: 0x18150FC90 Slot: 27
+	// RVA: 0x150ED60 Offset: 0x150D360 VA: 0x18150ED60 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x1511770 Offset: 0x150FD70 VA: 0x181511770 Slot: 14
+	// RVA: 0x1510840 Offset: 0x150EE40 VA: 0x181510840 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x15117F0 Offset: 0x150FDF0 VA: 0x1815117F0 Slot: 16
+	// RVA: 0x15108C0 Offset: 0x150EEC0 VA: 0x1815108C0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1511A20 Offset: 0x1510020 VA: 0x181511A20
+	// RVA: 0x1510AF0 Offset: 0x150F0F0 VA: 0x181510AF0
 	public void .ctor() { }
 
-	// RVA: 0x1511980 Offset: 0x150FF80 VA: 0x181511980
+	// RVA: 0x1510A50 Offset: 0x150F050 VA: 0x181510A50
 	private static void .cctor() { }
 
 }
@@ -779,37 +779,37 @@ internal class Datatype_double : Datatype_anySimpleType // TypeDefIndex: 2189
 
 	// Methods
 
-	// RVA: 0x1510900 Offset: 0x150EF00 VA: 0x181510900 Slot: 25
+	// RVA: 0x150F9D0 Offset: 0x150DFD0 VA: 0x18150F9D0 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x1510BD0 Offset: 0x150F1D0 VA: 0x181510BD0 Slot: 18
+	// RVA: 0x150FCA0 Offset: 0x150E2A0 VA: 0x18150FCA0 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0xED99F0 Offset: 0xED7FF0 VA: 0x180ED99F0 Slot: 8
+	// RVA: 0xEDA4A0 Offset: 0xED8AA0 VA: 0x180EDA4A0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1510C90 Offset: 0x150F290 VA: 0x181510C90 Slot: 4
+	// RVA: 0x150FD60 Offset: 0x150E360 VA: 0x18150FD60 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x1510C30 Offset: 0x150F230 VA: 0x181510C30 Slot: 26
+	// RVA: 0x150FD00 Offset: 0x150E300 VA: 0x18150FD00 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x150FC90 Offset: 0x150E290 VA: 0x18150FC90 Slot: 27
+	// RVA: 0x150ED60 Offset: 0x150D360 VA: 0x18150ED60 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x1510880 Offset: 0x150EE80 VA: 0x181510880 Slot: 14
+	// RVA: 0x150F950 Offset: 0x150DF50 VA: 0x18150F950 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x1510910 Offset: 0x150EF10 VA: 0x181510910 Slot: 16
+	// RVA: 0x150F9E0 Offset: 0x150DFE0 VA: 0x18150F9E0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1510B40 Offset: 0x150F140 VA: 0x181510B40
+	// RVA: 0x150FC10 Offset: 0x150E210 VA: 0x18150FC10
 	public void .ctor() { }
 
-	// RVA: 0x1510AA0 Offset: 0x150F0A0 VA: 0x181510AA0
+	// RVA: 0x150FB70 Offset: 0x150E170 VA: 0x18150FB70
 	private static void .cctor() { }
 
 }
@@ -830,37 +830,37 @@ internal class Datatype_decimal : Datatype_anySimpleType // TypeDefIndex: 2190
 
 	// Methods
 
-	// RVA: 0x15101C0 Offset: 0x150E7C0 VA: 0x1815101C0 Slot: 25
+	// RVA: 0x150F290 Offset: 0x150D890 VA: 0x18150F290 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x1510540 Offset: 0x150EB40 VA: 0x181510540 Slot: 18
+	// RVA: 0x150F610 Offset: 0x150DC10 VA: 0x18150F610 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0xBA51A0 Offset: 0xBA37A0 VA: 0x180BA51A0 Slot: 8
+	// RVA: 0xBA5670 Offset: 0xBA3C70 VA: 0x180BA5670 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1510610 Offset: 0x150EC10 VA: 0x181510610 Slot: 4
+	// RVA: 0x150F6E0 Offset: 0x150DCE0 VA: 0x18150F6E0 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x15105A0 Offset: 0x150EBA0 VA: 0x1815105A0 Slot: 26
+	// RVA: 0x150F670 Offset: 0x150DC70 VA: 0x18150F670 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x1510600 Offset: 0x150EC00 VA: 0x181510600 Slot: 27
+	// RVA: 0x150F6D0 Offset: 0x150DCD0 VA: 0x18150F6D0 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x1510140 Offset: 0x150E740 VA: 0x181510140 Slot: 14
+	// RVA: 0x150F210 Offset: 0x150D810 VA: 0x18150F210 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x15101D0 Offset: 0x150E7D0 VA: 0x1815101D0 Slot: 16
+	// RVA: 0x150F2A0 Offset: 0x150D8A0 VA: 0x18150F2A0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x15104B0 Offset: 0x150EAB0 VA: 0x1815104B0
+	// RVA: 0x150F580 Offset: 0x150DB80 VA: 0x18150F580
 	public void .ctor() { }
 
-	// RVA: 0x1510360 Offset: 0x150E960 VA: 0x181510360
+	// RVA: 0x150F430 Offset: 0x150DA30 VA: 0x18150F430
 	private static void .cctor() { }
 
 }
@@ -880,37 +880,37 @@ internal class Datatype_duration : Datatype_anySimpleType // TypeDefIndex: 2191
 
 	// Methods
 
-	// RVA: 0x150CB70 Offset: 0x150B170 VA: 0x18150CB70 Slot: 25
+	// RVA: 0x150BC40 Offset: 0x150A240 VA: 0x18150BC40 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x1511090 Offset: 0x150F690 VA: 0x181511090 Slot: 18
+	// RVA: 0x1510160 Offset: 0x150E760 VA: 0x181510160 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0xE61E20 Offset: 0xE60420 VA: 0x180E61E20 Slot: 8
+	// RVA: 0xE628D0 Offset: 0xE60ED0 VA: 0x180E628D0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1511150 Offset: 0x150F750 VA: 0x181511150 Slot: 4
+	// RVA: 0x1510220 Offset: 0x150E820 VA: 0x181510220 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x15110F0 Offset: 0x150F6F0 VA: 0x1815110F0 Slot: 26
+	// RVA: 0x15101C0 Offset: 0x150E7C0 VA: 0x1815101C0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x150FC90 Offset: 0x150E290 VA: 0x18150FC90 Slot: 27
+	// RVA: 0x150ED60 Offset: 0x150D360 VA: 0x18150ED60 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x1510CF0 Offset: 0x150F2F0 VA: 0x181510CF0 Slot: 14
+	// RVA: 0x150FDC0 Offset: 0x150E3C0 VA: 0x18150FDC0 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x1510D70 Offset: 0x150F370 VA: 0x181510D70 Slot: 16
+	// RVA: 0x150FE40 Offset: 0x150E440 VA: 0x18150FE40 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1511000 Offset: 0x150F600 VA: 0x181511000
+	// RVA: 0x15100D0 Offset: 0x150E6D0 VA: 0x1815100D0
 	public void .ctor() { }
 
-	// RVA: 0x1510F60 Offset: 0x150F560 VA: 0x181510F60
+	// RVA: 0x1510030 Offset: 0x150E630 VA: 0x181510030
 	private static void .cctor() { }
 
 }
@@ -921,13 +921,13 @@ internal class Datatype_yearMonthDuration : Datatype_duration // TypeDefIndex: 2
 
 	// Methods
 
-	// RVA: 0x1515F90 Offset: 0x1514590 VA: 0x181515F90 Slot: 16
+	// RVA: 0x1515060 Offset: 0x1513660 VA: 0x181515060 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x15161E0 Offset: 0x15147E0 VA: 0x1815161E0 Slot: 8
+	// RVA: 0x15152B0 Offset: 0x15138B0 VA: 0x1815152B0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1516180 Offset: 0x1514780 VA: 0x181516180
+	// RVA: 0x1515250 Offset: 0x1513850 VA: 0x181515250
 	public void .ctor() { }
 
 }
@@ -938,13 +938,13 @@ internal class Datatype_dayTimeDuration : Datatype_duration // TypeDefIndex: 219
 
 	// Methods
 
-	// RVA: 0x150FE80 Offset: 0x150E480 VA: 0x18150FE80 Slot: 16
+	// RVA: 0x150EF50 Offset: 0x150D550 VA: 0x18150EF50 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x15100D0 Offset: 0x150E6D0 VA: 0x1815100D0 Slot: 8
+	// RVA: 0x150F1A0 Offset: 0x150D7A0 VA: 0x18150F1A0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1510070 Offset: 0x150E670 VA: 0x181510070
+	// RVA: 0x150F140 Offset: 0x150D740 VA: 0x18150F140
 	public void .ctor() { }
 
 }
@@ -965,37 +965,37 @@ internal class Datatype_dateTimeBase : Datatype_anySimpleType // TypeDefIndex: 2
 
 	// Methods
 
-	// RVA: 0x150F720 Offset: 0x150DD20 VA: 0x18150F720 Slot: 25
+	// RVA: 0x150E7F0 Offset: 0x150CDF0 VA: 0x18150E7F0 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x150FBC0 Offset: 0x150E1C0 VA: 0x18150FBC0 Slot: 18
+	// RVA: 0x150EC90 Offset: 0x150D290 VA: 0x18150EC90 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x150FC80 Offset: 0x150E280 VA: 0x18150FC80 Slot: 8
+	// RVA: 0x150ED50 Offset: 0x150D350 VA: 0x18150ED50 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150FB20 Offset: 0x150E120 VA: 0x18150FB20
+	// RVA: 0x150EBF0 Offset: 0x150D1F0 VA: 0x18150EBF0
 	internal void .ctor(XsdDateTimeFlags dateTimeFlags) { }
 
-	// RVA: 0x150FCA0 Offset: 0x150E2A0 VA: 0x18150FCA0 Slot: 4
+	// RVA: 0x150ED70 Offset: 0x150D370 VA: 0x18150ED70 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x150FC20 Offset: 0x150E220 VA: 0x18150FC20 Slot: 26
+	// RVA: 0x150ECF0 Offset: 0x150D2F0 VA: 0x18150ECF0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x150FC90 Offset: 0x150E290 VA: 0x18150FC90 Slot: 27
+	// RVA: 0x150ED60 Offset: 0x150D360 VA: 0x18150ED60 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x150F620 Offset: 0x150DC20 VA: 0x18150F620 Slot: 14
+	// RVA: 0x150E6F0 Offset: 0x150CCF0 VA: 0x18150E6F0 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x150F730 Offset: 0x150DD30 VA: 0x18150F730 Slot: 16
+	// RVA: 0x150E800 Offset: 0x150CE00 VA: 0x18150E800 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x150FA80 Offset: 0x150E080 VA: 0x18150FA80
+	// RVA: 0x150EB50 Offset: 0x150D150 VA: 0x18150EB50
 	private static void .cctor() { }
 
 }
@@ -1003,7 +1003,7 @@ internal class Datatype_dateTimeBase : Datatype_anySimpleType // TypeDefIndex: 2
 internal class Datatype_dateTimeNoTimeZone : Datatype_dateTimeBase // TypeDefIndex: 2195
 {	// Methods
 
-	// RVA: 0x150FD00 Offset: 0x150E300 VA: 0x18150FD00
+	// RVA: 0x150EDD0 Offset: 0x150D3D0 VA: 0x18150EDD0
 	internal void .ctor() { }
 
 }
@@ -1011,7 +1011,7 @@ internal class Datatype_dateTimeNoTimeZone : Datatype_dateTimeBase // TypeDefInd
 internal class Datatype_dateTimeTimeZone : Datatype_dateTimeBase // TypeDefIndex: 2196
 {	// Methods
 
-	// RVA: 0x150FD60 Offset: 0x150E360 VA: 0x18150FD60
+	// RVA: 0x150EE30 Offset: 0x150D430 VA: 0x18150EE30
 	internal void .ctor() { }
 
 }
@@ -1019,7 +1019,7 @@ internal class Datatype_dateTimeTimeZone : Datatype_dateTimeBase // TypeDefIndex
 internal class Datatype_dateTime : Datatype_dateTimeBase // TypeDefIndex: 2197
 {	// Methods
 
-	// RVA: 0x150FDC0 Offset: 0x150E3C0 VA: 0x18150FDC0
+	// RVA: 0x150EE90 Offset: 0x150D490 VA: 0x18150EE90
 	internal void .ctor() { }
 
 }
@@ -1027,7 +1027,7 @@ internal class Datatype_dateTime : Datatype_dateTimeBase // TypeDefIndex: 2197
 internal class Datatype_timeNoTimeZone : Datatype_dateTimeBase // TypeDefIndex: 2198
 {	// Methods
 
-	// RVA: 0x1513A40 Offset: 0x1512040 VA: 0x181513A40
+	// RVA: 0x1512B10 Offset: 0x1511110 VA: 0x181512B10
 	internal void .ctor() { }
 
 }
@@ -1035,7 +1035,7 @@ internal class Datatype_timeNoTimeZone : Datatype_dateTimeBase // TypeDefIndex: 
 internal class Datatype_timeTimeZone : Datatype_dateTimeBase // TypeDefIndex: 2199
 {	// Methods
 
-	// RVA: 0x1513AA0 Offset: 0x15120A0 VA: 0x181513AA0
+	// RVA: 0x1512B70 Offset: 0x1511170 VA: 0x181512B70
 	internal void .ctor() { }
 
 }
@@ -1046,10 +1046,10 @@ internal class Datatype_time : Datatype_dateTimeBase // TypeDefIndex: 2200
 
 	// Methods
 
-	// RVA: 0x1513B60 Offset: 0x1512160 VA: 0x181513B60 Slot: 8
+	// RVA: 0x1512C30 Offset: 0x1511230 VA: 0x181512C30 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1513B00 Offset: 0x1512100 VA: 0x181513B00
+	// RVA: 0x1512BD0 Offset: 0x15111D0 VA: 0x181512BD0
 	internal void .ctor() { }
 
 }
@@ -1060,10 +1060,10 @@ internal class Datatype_date : Datatype_dateTimeBase // TypeDefIndex: 2201
 
 	// Methods
 
-	// RVA: 0xED99A0 Offset: 0xED7FA0 VA: 0x180ED99A0 Slot: 8
+	// RVA: 0xEDA450 Offset: 0xED8A50 VA: 0x180EDA450 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150FE20 Offset: 0x150E420 VA: 0x18150FE20
+	// RVA: 0x150EEF0 Offset: 0x150D4F0 VA: 0x18150EEF0
 	internal void .ctor() { }
 
 }
@@ -1074,10 +1074,10 @@ internal class Datatype_yearMonth : Datatype_dateTimeBase // TypeDefIndex: 2202
 
 	// Methods
 
-	// RVA: 0x1516250 Offset: 0x1514850 VA: 0x181516250 Slot: 8
+	// RVA: 0x1515320 Offset: 0x1513920 VA: 0x181515320 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x15161F0 Offset: 0x15147F0 VA: 0x1815161F0
+	// RVA: 0x15152C0 Offset: 0x15138C0 VA: 0x1815152C0
 	internal void .ctor() { }
 
 }
@@ -1088,10 +1088,10 @@ internal class Datatype_year : Datatype_dateTimeBase // TypeDefIndex: 2203
 
 	// Methods
 
-	// RVA: 0x15162C0 Offset: 0x15148C0 VA: 0x1815162C0 Slot: 8
+	// RVA: 0x1515390 Offset: 0x1513990 VA: 0x181515390 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1516260 Offset: 0x1514860 VA: 0x181516260
+	// RVA: 0x1515330 Offset: 0x1513930 VA: 0x181515330
 	internal void .ctor() { }
 
 }
@@ -1102,10 +1102,10 @@ internal class Datatype_monthDay : Datatype_dateTimeBase // TypeDefIndex: 2204
 
 	// Methods
 
-	// RVA: 0x1512C40 Offset: 0x1511240 VA: 0x181512C40 Slot: 8
+	// RVA: 0x1511D10 Offset: 0x1510310 VA: 0x181511D10 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1512BE0 Offset: 0x15111E0 VA: 0x181512BE0
+	// RVA: 0x1511CB0 Offset: 0x15102B0 VA: 0x181511CB0
 	internal void .ctor() { }
 
 }
@@ -1116,10 +1116,10 @@ internal class Datatype_day : Datatype_dateTimeBase // TypeDefIndex: 2205
 
 	// Methods
 
-	// RVA: 0xED99E0 Offset: 0xED7FE0 VA: 0x180ED99E0 Slot: 8
+	// RVA: 0xEDA490 Offset: 0xED8A90 VA: 0x180EDA490 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x15100E0 Offset: 0x150E6E0 VA: 0x1815100E0
+	// RVA: 0x150F1B0 Offset: 0x150D7B0 VA: 0x18150F1B0
 	internal void .ctor() { }
 
 }
@@ -1133,7 +1133,7 @@ internal class Datatype_month : Datatype_dateTimeBase // TypeDefIndex: 2206
 	// RVA: 0x49DC50 Offset: 0x49C250 VA: 0x18049DC50 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1512C50 Offset: 0x1511250 VA: 0x181512C50
+	// RVA: 0x1511D20 Offset: 0x1510320 VA: 0x181511D20
 	internal void .ctor() { }
 
 }
@@ -1153,37 +1153,37 @@ internal class Datatype_hexBinary : Datatype_anySimpleType // TypeDefIndex: 2207
 
 	// Methods
 
-	// RVA: 0x150CB70 Offset: 0x150B170 VA: 0x18150CB70 Slot: 25
+	// RVA: 0x150BC40 Offset: 0x150A240 VA: 0x18150BC40 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x1511FB0 Offset: 0x15105B0 VA: 0x181511FB0 Slot: 18
+	// RVA: 0x1511080 Offset: 0x150F680 VA: 0x181511080 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x1512070 Offset: 0x1510670 VA: 0x181512070 Slot: 8
+	// RVA: 0x1511140 Offset: 0x150F740 VA: 0x181511140 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1512080 Offset: 0x1510680 VA: 0x181512080 Slot: 4
+	// RVA: 0x1511150 Offset: 0x150F750 VA: 0x181511150 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x1512010 Offset: 0x1510610 VA: 0x181512010 Slot: 26
+	// RVA: 0x15110E0 Offset: 0x150F6E0 VA: 0x1815110E0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x150CA10 Offset: 0x150B010 VA: 0x18150CA10 Slot: 27
+	// RVA: 0x150BAE0 Offset: 0x150A0E0 VA: 0x18150BAE0 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x1511BD0 Offset: 0x15101D0 VA: 0x181511BD0 Slot: 14
+	// RVA: 0x1510CA0 Offset: 0x150F2A0 VA: 0x181510CA0 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x1511D00 Offset: 0x1510300 VA: 0x181511D00 Slot: 16
+	// RVA: 0x1510DD0 Offset: 0x150F3D0 VA: 0x181510DD0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1511F20 Offset: 0x1510520 VA: 0x181511F20
+	// RVA: 0x1510FF0 Offset: 0x150F5F0 VA: 0x181510FF0
 	public void .ctor() { }
 
-	// RVA: 0x1511E80 Offset: 0x1510480 VA: 0x181511E80
+	// RVA: 0x1510F50 Offset: 0x150F550 VA: 0x181510F50
 	private static void .cctor() { }
 
 }
@@ -1203,37 +1203,37 @@ internal class Datatype_base64Binary : Datatype_anySimpleType // TypeDefIndex: 2
 
 	// Methods
 
-	// RVA: 0x150CB70 Offset: 0x150B170 VA: 0x18150CB70 Slot: 25
+	// RVA: 0x150BC40 Offset: 0x150A240 VA: 0x18150BC40 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x150E7C0 Offset: 0x150CDC0 VA: 0x18150E7C0 Slot: 18
+	// RVA: 0x150D890 Offset: 0x150BE90 VA: 0x18150D890 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x150E880 Offset: 0x150CE80 VA: 0x18150E880 Slot: 8
+	// RVA: 0x150D950 Offset: 0x150BF50 VA: 0x18150D950 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150E890 Offset: 0x150CE90 VA: 0x18150E890 Slot: 4
+	// RVA: 0x150D960 Offset: 0x150BF60 VA: 0x18150D960 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x150E820 Offset: 0x150CE20 VA: 0x18150E820 Slot: 26
+	// RVA: 0x150D8F0 Offset: 0x150BEF0 VA: 0x18150D8F0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x150CA10 Offset: 0x150B010 VA: 0x18150CA10 Slot: 27
+	// RVA: 0x150BAE0 Offset: 0x150A0E0 VA: 0x18150BAE0 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x150E3E0 Offset: 0x150C9E0 VA: 0x18150E3E0 Slot: 14
+	// RVA: 0x150D4B0 Offset: 0x150BAB0 VA: 0x18150D4B0 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x150E510 Offset: 0x150CB10 VA: 0x18150E510 Slot: 16
+	// RVA: 0x150D5E0 Offset: 0x150BBE0 VA: 0x18150D5E0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x150E730 Offset: 0x150CD30 VA: 0x18150E730
+	// RVA: 0x150D800 Offset: 0x150BE00 VA: 0x18150D800
 	public void .ctor() { }
 
-	// RVA: 0x150E690 Offset: 0x150CC90 VA: 0x18150E690
+	// RVA: 0x150D760 Offset: 0x150BD60 VA: 0x18150D760
 	private static void .cctor() { }
 
 }
@@ -1254,40 +1254,40 @@ internal class Datatype_anyURI : Datatype_anySimpleType // TypeDefIndex: 2209
 
 	// Methods
 
-	// RVA: 0x150CB70 Offset: 0x150B170 VA: 0x18150CB70 Slot: 25
+	// RVA: 0x150BC40 Offset: 0x150A240 VA: 0x18150BC40 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x150E2C0 Offset: 0x150C8C0 VA: 0x18150E2C0 Slot: 18
+	// RVA: 0x150D390 Offset: 0x150B990 VA: 0x18150D390 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0xED99C0 Offset: 0xED7FC0 VA: 0x180ED99C0 Slot: 8
+	// RVA: 0xEDA470 Offset: 0xED8A70 VA: 0x180EDA470 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150E380 Offset: 0x150C980 VA: 0x18150E380 Slot: 4
+	// RVA: 0x150D450 Offset: 0x150BA50 VA: 0x18150D450 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 11
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 11
 	internal override bool get_HasValueFacets() { }
 
-	// RVA: 0x150E320 Offset: 0x150C920 VA: 0x18150E320 Slot: 26
+	// RVA: 0x150D3F0 Offset: 0x150B9F0 VA: 0x18150D3F0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x150CA10 Offset: 0x150B010 VA: 0x18150CA10 Slot: 27
+	// RVA: 0x150BAE0 Offset: 0x150A0E0 VA: 0x18150BAE0 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x150DE50 Offset: 0x150C450 VA: 0x18150DE50 Slot: 14
+	// RVA: 0x150CF20 Offset: 0x150B520 VA: 0x18150CF20 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x150DF80 Offset: 0x150C580 VA: 0x18150DF80 Slot: 16
+	// RVA: 0x150D050 Offset: 0x150B650 VA: 0x18150D050 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x150E230 Offset: 0x150C830 VA: 0x18150E230
+	// RVA: 0x150D300 Offset: 0x150B900 VA: 0x18150D300
 	public void .ctor() { }
 
-	// RVA: 0x150E190 Offset: 0x150C790 VA: 0x18150E190
+	// RVA: 0x150D260 Offset: 0x150B860 VA: 0x18150D260
 	private static void .cctor() { }
 
 }
@@ -1308,37 +1308,37 @@ internal class Datatype_QName : Datatype_anySimpleType // TypeDefIndex: 2210
 
 	// Methods
 
-	// RVA: 0x150CB70 Offset: 0x150B170 VA: 0x18150CB70 Slot: 25
+	// RVA: 0x150BC40 Offset: 0x150A240 VA: 0x18150BC40 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x150D910 Offset: 0x150BF10 VA: 0x18150D910 Slot: 18
+	// RVA: 0x150C9E0 Offset: 0x150AFE0 VA: 0x18150C9E0 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x150D9D0 Offset: 0x150BFD0 VA: 0x18150D9D0 Slot: 8
+	// RVA: 0x150CAA0 Offset: 0x150B0A0 VA: 0x18150CAA0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x4A6090 Offset: 0x4A4690 VA: 0x1804A6090 Slot: 5
+	// RVA: 0x4A6020 Offset: 0x4A4620 VA: 0x1804A6020 Slot: 5
 	public override XmlTokenizedType get_TokenizedType() { }
 
-	// RVA: 0x150CA10 Offset: 0x150B010 VA: 0x18150CA10 Slot: 27
+	// RVA: 0x150BAE0 Offset: 0x150A0E0 VA: 0x18150BAE0 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x150D9E0 Offset: 0x150BFE0 VA: 0x18150D9E0 Slot: 4
+	// RVA: 0x150CAB0 Offset: 0x150B0B0 VA: 0x18150CAB0 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x150D970 Offset: 0x150BF70 VA: 0x18150D970 Slot: 26
+	// RVA: 0x150CA40 Offset: 0x150B040 VA: 0x18150CA40 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x150D5F0 Offset: 0x150BBF0 VA: 0x18150D5F0 Slot: 16
+	// RVA: 0x150C6C0 Offset: 0x150ACC0 VA: 0x18150C6C0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x150D880 Offset: 0x150BE80 VA: 0x18150D880
+	// RVA: 0x150C950 Offset: 0x150AF50 VA: 0x18150C950
 	public void .ctor() { }
 
-	// RVA: 0x150D7E0 Offset: 0x150BDE0 VA: 0x18150D7E0
+	// RVA: 0x150C8B0 Offset: 0x150AEB0 VA: 0x18150C8B0
 	private static void .cctor() { }
 
 }
@@ -1351,16 +1351,16 @@ internal class Datatype_normalizedString : Datatype_string // TypeDefIndex: 2211
 
 	// Methods
 
-	// RVA: 0x1513160 Offset: 0x1511760 VA: 0x181513160 Slot: 8
+	// RVA: 0x1512230 Offset: 0x1510830 VA: 0x181512230 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 19
+	// RVA: 0x5B1870 Offset: 0x5AFE70 VA: 0x1805B1870 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 11
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 11
 	internal override bool get_HasValueFacets() { }
 
-	// RVA: 0x150B790 Offset: 0x1509D90 VA: 0x18150B790
+	// RVA: 0x150A860 Offset: 0x1508E60 VA: 0x18150A860
 	public void .ctor() { }
 
 }
@@ -1372,13 +1372,13 @@ internal class Datatype_normalizedStringV1Compat : Datatype_string // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1513160 Offset: 0x1511760 VA: 0x181513160 Slot: 8
+	// RVA: 0x1512230 Offset: 0x1510830 VA: 0x181512230 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 11
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 11
 	internal override bool get_HasValueFacets() { }
 
-	// RVA: 0x150B790 Offset: 0x1509D90 VA: 0x18150B790
+	// RVA: 0x150A860 Offset: 0x1508E60 VA: 0x18150A860
 	public void .ctor() { }
 
 }
@@ -1390,13 +1390,13 @@ internal class Datatype_token : Datatype_normalizedString // TypeDefIndex: 2213
 
 	// Methods
 
-	// RVA: 0xED99D0 Offset: 0xED7FD0 VA: 0x180ED99D0 Slot: 8
+	// RVA: 0xEDA480 Offset: 0xED8A80 VA: 0x180EDA480 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x150B790 Offset: 0x1509D90 VA: 0x18150B790
+	// RVA: 0x150A860 Offset: 0x1508E60 VA: 0x18150A860
 	public void .ctor() { }
 
 }
@@ -1407,10 +1407,10 @@ internal class Datatype_tokenV1Compat : Datatype_normalizedStringV1Compat // Typ
 
 	// Methods
 
-	// RVA: 0xED99D0 Offset: 0xED7FD0 VA: 0x180ED99D0 Slot: 8
+	// RVA: 0xEDA480 Offset: 0xED8A80 VA: 0x180EDA480 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150B790 Offset: 0x1509D90 VA: 0x18150B790
+	// RVA: 0x150A860 Offset: 0x1508E60 VA: 0x18150A860
 	public void .ctor() { }
 
 }
@@ -1421,10 +1421,10 @@ internal class Datatype_language : Datatype_token // TypeDefIndex: 2215
 
 	// Methods
 
-	// RVA: 0x1512770 Offset: 0x1510D70 VA: 0x181512770 Slot: 8
+	// RVA: 0x1511840 Offset: 0x150FE40 VA: 0x181511840 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150B790 Offset: 0x1509D90 VA: 0x18150B790
+	// RVA: 0x150A860 Offset: 0x1508E60 VA: 0x18150A860
 	public void .ctor() { }
 
 }
@@ -1436,13 +1436,13 @@ internal class Datatype_NMTOKEN : Datatype_token // TypeDefIndex: 2216
 
 	// Methods
 
-	// RVA: 0xBA4600 Offset: 0xBA2C00 VA: 0x180BA4600 Slot: 8
+	// RVA: 0xBA4AD0 Offset: 0xBA30D0 VA: 0x180BA4AD0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x91FD00 Offset: 0x91E300 VA: 0x18091FD00 Slot: 5
+	// RVA: 0x920210 Offset: 0x91E810 VA: 0x180920210 Slot: 5
 	public override XmlTokenizedType get_TokenizedType() { }
 
-	// RVA: 0x150B790 Offset: 0x1509D90 VA: 0x18150B790
+	// RVA: 0x150A860 Offset: 0x1508E60 VA: 0x18150A860
 	public void .ctor() { }
 
 }
@@ -1453,10 +1453,10 @@ internal class Datatype_Name : Datatype_token // TypeDefIndex: 2217
 
 	// Methods
 
-	// RVA: 0x150D230 Offset: 0x150B830 VA: 0x18150D230 Slot: 8
+	// RVA: 0x150C300 Offset: 0x150A900 VA: 0x18150C300 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150B790 Offset: 0x1509D90 VA: 0x18150B790
+	// RVA: 0x150A860 Offset: 0x1508E60 VA: 0x18150A860
 	public void .ctor() { }
 
 }
@@ -1467,13 +1467,13 @@ internal class Datatype_NCName : Datatype_Name // TypeDefIndex: 2218
 
 	// Methods
 
-	// RVA: 0xED9A60 Offset: 0xED8060 VA: 0x180ED9A60 Slot: 8
+	// RVA: 0xEDA510 Offset: 0xED8B10 VA: 0x180EDA510 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150CA20 Offset: 0x150B020 VA: 0x18150CA20 Slot: 16
+	// RVA: 0x150BAF0 Offset: 0x150A0F0 VA: 0x18150BAF0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x150B790 Offset: 0x1509D90 VA: 0x18150B790
+	// RVA: 0x150A860 Offset: 0x1508E60 VA: 0x18150A860
 	public void .ctor() { }
 
 }
@@ -1485,13 +1485,13 @@ internal class Datatype_ID : Datatype_NCName // TypeDefIndex: 2219
 
 	// Methods
 
-	// RVA: 0x150B7C0 Offset: 0x1509DC0 VA: 0x18150B7C0 Slot: 8
+	// RVA: 0x150A890 Offset: 0x1508E90 VA: 0x18150A890 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 5
+	// RVA: 0x5B1870 Offset: 0x5AFE70 VA: 0x1805B1870 Slot: 5
 	public override XmlTokenizedType get_TokenizedType() { }
 
-	// RVA: 0x150B790 Offset: 0x1509D90 VA: 0x18150B790
+	// RVA: 0x150A860 Offset: 0x1508E60 VA: 0x18150A860
 	public void .ctor() { }
 
 }
@@ -1503,13 +1503,13 @@ internal class Datatype_IDREF : Datatype_NCName // TypeDefIndex: 2220
 
 	// Methods
 
-	// RVA: 0x150B7B0 Offset: 0x1509DB0 VA: 0x18150B7B0 Slot: 8
+	// RVA: 0x150A880 Offset: 0x1508E80 VA: 0x18150A880 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 5
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 5
 	public override XmlTokenizedType get_TokenizedType() { }
 
-	// RVA: 0x150B790 Offset: 0x1509D90 VA: 0x18150B790
+	// RVA: 0x150A860 Offset: 0x1508E60 VA: 0x18150A860
 	public void .ctor() { }
 
 }
@@ -1521,13 +1521,13 @@ internal class Datatype_ENTITY : Datatype_NCName // TypeDefIndex: 2221
 
 	// Methods
 
-	// RVA: 0x150B7A0 Offset: 0x1509DA0 VA: 0x18150B7A0 Slot: 8
+	// RVA: 0x150A870 Offset: 0x1508E70 VA: 0x18150A870 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0xE38110 Offset: 0xE36710 VA: 0x180E38110 Slot: 5
+	// RVA: 0xE38BC0 Offset: 0xE371C0 VA: 0x180E38BC0 Slot: 5
 	public override XmlTokenizedType get_TokenizedType() { }
 
-	// RVA: 0x150B790 Offset: 0x1509D90 VA: 0x18150B790
+	// RVA: 0x150A860 Offset: 0x1508E60 VA: 0x18150A860
 	public void .ctor() { }
 
 }
@@ -1548,40 +1548,40 @@ internal class Datatype_NOTATION : Datatype_anySimpleType // TypeDefIndex: 2222
 
 	// Methods
 
-	// RVA: 0x150CB70 Offset: 0x150B170 VA: 0x18150CB70 Slot: 25
+	// RVA: 0x150BC40 Offset: 0x150A240 VA: 0x18150BC40 Slot: 25
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType) { }
 
-	// RVA: 0x150D100 Offset: 0x150B700 VA: 0x18150D100 Slot: 18
+	// RVA: 0x150C1D0 Offset: 0x150A7D0 VA: 0x18150C1D0 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x150D1C0 Offset: 0x150B7C0 VA: 0x18150D1C0 Slot: 8
+	// RVA: 0x150C290 Offset: 0x150A890 VA: 0x18150C290 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x8C0E00 Offset: 0x8BF400 VA: 0x1808C0E00 Slot: 5
+	// RVA: 0x8C1310 Offset: 0x8BF910 VA: 0x1808C1310 Slot: 5
 	public override XmlTokenizedType get_TokenizedType() { }
 
-	// RVA: 0x150CA10 Offset: 0x150B010 VA: 0x18150CA10 Slot: 27
+	// RVA: 0x150BAE0 Offset: 0x150A0E0 VA: 0x18150BAE0 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x150D1D0 Offset: 0x150B7D0 VA: 0x18150D1D0 Slot: 4
+	// RVA: 0x150C2A0 Offset: 0x150A8A0 VA: 0x18150C2A0 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x150D160 Offset: 0x150B760 VA: 0x18150D160 Slot: 26
+	// RVA: 0x150C230 Offset: 0x150A830 VA: 0x18150C230 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 19
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 19
 	internal override XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet() { }
 
-	// RVA: 0x150CB80 Offset: 0x150B180 VA: 0x18150CB80 Slot: 16
+	// RVA: 0x150BC50 Offset: 0x150A250 VA: 0x18150BC50 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x150CD70 Offset: 0x150B370 VA: 0x18150CD70 Slot: 22
+	// RVA: 0x150BE40 Offset: 0x150A440 VA: 0x18150BE40 Slot: 22
 	internal override void VerifySchemaValid(XmlSchemaObjectTable notations, XmlSchemaObject caller) { }
 
-	// RVA: 0x150D070 Offset: 0x150B670 VA: 0x18150D070
+	// RVA: 0x150C140 Offset: 0x150A740 VA: 0x18150C140
 	public void .ctor() { }
 
-	// RVA: 0x150CFD0 Offset: 0x150B5D0 VA: 0x18150CFD0
+	// RVA: 0x150C0A0 Offset: 0x150A6A0 VA: 0x18150C0A0
 	private static void .cctor() { }
 
 }
@@ -1592,20 +1592,20 @@ internal class Datatype_integer : Datatype_decimal // TypeDefIndex: 2223
 
 	// Methods
 
-	// RVA: 0xED9A20 Offset: 0xED8020 VA: 0x180ED9A20 Slot: 8
+	// RVA: 0xEDA4D0 Offset: 0xED8AD0 VA: 0x180EDA4D0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x15125C0 Offset: 0x1510BC0 VA: 0x1815125C0 Slot: 16
+	// RVA: 0x1511690 Offset: 0x150FC90 VA: 0x181511690 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1512710 Offset: 0x1510D10 VA: 0x181512710
+	// RVA: 0x15117E0 Offset: 0x150FDE0 VA: 0x1815117E0
 	public void .ctor() { }
 
 }
 
 internal class Datatype_nonPositiveInteger : Datatype_integer // TypeDefIndex: 2224
 {	// Fields
-	private static readonly FacetsChecker numeric10FacetsChecker; // 0x14250
+	private static readonly FacetsChecker numeric10FacetsChecker; // 0x2B104D4
 
 	// Properties
 	internal override FacetsChecker FacetsChecker { get; }
@@ -1614,26 +1614,26 @@ internal class Datatype_nonPositiveInteger : Datatype_integer // TypeDefIndex: 2
 
 	// Methods
 
-	// RVA: 0x15130F0 Offset: 0x15116F0 VA: 0x1815130F0 Slot: 18
+	// RVA: 0x15121C0 Offset: 0x15107C0 VA: 0x1815121C0 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x1513150 Offset: 0x1511750 VA: 0x181513150 Slot: 8
+	// RVA: 0x1512220 Offset: 0x1510820 VA: 0x181512220 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 11
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 11
 	internal override bool get_HasValueFacets() { }
 
-	// RVA: 0x1512710 Offset: 0x1510D10 VA: 0x181512710
+	// RVA: 0x15117E0 Offset: 0x150FDE0 VA: 0x1815117E0
 	public void .ctor() { }
 
-	// RVA: 0x1513000 Offset: 0x1511600 VA: 0x181513000
+	// RVA: 0x15120D0 Offset: 0x15106D0 VA: 0x1815120D0
 	private static void .cctor() { }
 
 }
 
 internal class Datatype_negativeInteger : Datatype_nonPositiveInteger // TypeDefIndex: 2225
 {	// Fields
-	private static readonly FacetsChecker numeric10FacetsChecker; // 0x142A8
+	private static readonly FacetsChecker numeric10FacetsChecker; // 0x14010
 
 	// Properties
 	internal override FacetsChecker FacetsChecker { get; }
@@ -1641,16 +1641,16 @@ internal class Datatype_negativeInteger : Datatype_nonPositiveInteger // TypeDef
 
 	// Methods
 
-	// RVA: 0x1512E30 Offset: 0x1511430 VA: 0x181512E30 Slot: 18
+	// RVA: 0x1511F00 Offset: 0x1510500 VA: 0x181511F00 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x1512E90 Offset: 0x1511490 VA: 0x181512E90 Slot: 8
+	// RVA: 0x1511F60 Offset: 0x1510560 VA: 0x181511F60 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1512DA0 Offset: 0x15113A0 VA: 0x181512DA0
+	// RVA: 0x1511E70 Offset: 0x1510470 VA: 0x181511E70
 	public void .ctor() { }
 
-	// RVA: 0x1512CB0 Offset: 0x15112B0 VA: 0x181512CB0
+	// RVA: 0x1511D80 Offset: 0x1510380 VA: 0x181511D80
 	private static void .cctor() { }
 
 }
@@ -1670,31 +1670,31 @@ internal class Datatype_long : Datatype_integer // TypeDefIndex: 2226
 
 	// Methods
 
-	// RVA: 0x1512AB0 Offset: 0x15110B0 VA: 0x181512AB0 Slot: 18
+	// RVA: 0x1511B80 Offset: 0x1510180 VA: 0x181511B80 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 11
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 11
 	internal override bool get_HasValueFacets() { }
 
-	// RVA: 0x1512B70 Offset: 0x1511170 VA: 0x181512B70 Slot: 8
+	// RVA: 0x1511C40 Offset: 0x1510240 VA: 0x181511C40 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1512780 Offset: 0x1510D80 VA: 0x181512780 Slot: 14
+	// RVA: 0x1511850 Offset: 0x150FE50 VA: 0x181511850 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x1512B80 Offset: 0x1511180 VA: 0x181512B80 Slot: 4
+	// RVA: 0x1511C50 Offset: 0x1510250 VA: 0x181511C50 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x1512B10 Offset: 0x1511110 VA: 0x181512B10 Slot: 26
+	// RVA: 0x1511BE0 Offset: 0x15101E0 VA: 0x181511BE0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x1512800 Offset: 0x1510E00 VA: 0x181512800 Slot: 16
+	// RVA: 0x15118D0 Offset: 0x150FED0 VA: 0x1815118D0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1512710 Offset: 0x1510D10 VA: 0x181512710
+	// RVA: 0x15117E0 Offset: 0x150FDE0 VA: 0x1815117E0
 	public void .ctor() { }
 
-	// RVA: 0x1512980 Offset: 0x1510F80 VA: 0x181512980
+	// RVA: 0x1511A50 Offset: 0x1510050 VA: 0x181511A50
 	private static void .cctor() { }
 
 }
@@ -1713,28 +1713,28 @@ internal class Datatype_int : Datatype_long // TypeDefIndex: 2227
 
 	// Methods
 
-	// RVA: 0x15124A0 Offset: 0x1510AA0 VA: 0x1815124A0 Slot: 18
+	// RVA: 0x1511570 Offset: 0x150FB70 VA: 0x181511570 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0xED99B0 Offset: 0xED7FB0 VA: 0x180ED99B0 Slot: 8
+	// RVA: 0xEDA460 Offset: 0xED8A60 VA: 0x180EDA460 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x15120E0 Offset: 0x15106E0 VA: 0x1815120E0 Slot: 14
+	// RVA: 0x15111B0 Offset: 0x150F7B0 VA: 0x1815111B0 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x1512560 Offset: 0x1510B60 VA: 0x181512560 Slot: 4
+	// RVA: 0x1511630 Offset: 0x150FC30 VA: 0x181511630 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x1512500 Offset: 0x1510B00 VA: 0x181512500 Slot: 26
+	// RVA: 0x15115D0 Offset: 0x150FBD0 VA: 0x1815115D0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x1512160 Offset: 0x1510760 VA: 0x181512160 Slot: 16
+	// RVA: 0x1511230 Offset: 0x150F830 VA: 0x181511230 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1512410 Offset: 0x1510A10 VA: 0x181512410
+	// RVA: 0x15114E0 Offset: 0x150FAE0 VA: 0x1815114E0
 	public void .ctor() { }
 
-	// RVA: 0x15122E0 Offset: 0x15108E0 VA: 0x1815122E0
+	// RVA: 0x15113B0 Offset: 0x150F9B0 VA: 0x1815113B0
 	private static void .cctor() { }
 
 }
@@ -1753,28 +1753,28 @@ internal class Datatype_short : Datatype_int // TypeDefIndex: 2228
 
 	// Methods
 
-	// RVA: 0x15136F0 Offset: 0x1511CF0 VA: 0x1815136F0 Slot: 18
+	// RVA: 0x15127C0 Offset: 0x1510DC0 VA: 0x1815127C0 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x15137B0 Offset: 0x1511DB0 VA: 0x1815137B0 Slot: 8
+	// RVA: 0x1512880 Offset: 0x1510E80 VA: 0x181512880 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1513360 Offset: 0x1511960 VA: 0x181513360 Slot: 14
+	// RVA: 0x1512430 Offset: 0x1510A30 VA: 0x181512430 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x15137C0 Offset: 0x1511DC0 VA: 0x1815137C0 Slot: 4
+	// RVA: 0x1512890 Offset: 0x1510E90 VA: 0x181512890 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x1513750 Offset: 0x1511D50 VA: 0x181513750 Slot: 26
+	// RVA: 0x1512820 Offset: 0x1510E20 VA: 0x181512820 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x15133E0 Offset: 0x15119E0 VA: 0x1815133E0 Slot: 16
+	// RVA: 0x15124B0 Offset: 0x1510AB0 VA: 0x1815124B0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1513690 Offset: 0x1511C90 VA: 0x181513690
+	// RVA: 0x1512760 Offset: 0x1510D60 VA: 0x181512760
 	public void .ctor() { }
 
-	// RVA: 0x1513560 Offset: 0x1511B60 VA: 0x181513560
+	// RVA: 0x1512630 Offset: 0x1510C30 VA: 0x181512630
 	private static void .cctor() { }
 
 }
@@ -1793,35 +1793,35 @@ internal class Datatype_byte : Datatype_short // TypeDefIndex: 2229
 
 	// Methods
 
-	// RVA: 0x150F0B0 Offset: 0x150D6B0 VA: 0x18150F0B0 Slot: 18
+	// RVA: 0x150E180 Offset: 0x150C780 VA: 0x18150E180 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x150F170 Offset: 0x150D770 VA: 0x18150F170 Slot: 8
+	// RVA: 0x150E240 Offset: 0x150C840 VA: 0x18150E240 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x150ECF0 Offset: 0x150D2F0 VA: 0x18150ECF0 Slot: 14
+	// RVA: 0x150DDC0 Offset: 0x150C3C0 VA: 0x18150DDC0 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x150F180 Offset: 0x150D780 VA: 0x18150F180 Slot: 4
+	// RVA: 0x150E250 Offset: 0x150C850 VA: 0x18150E250 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x150F110 Offset: 0x150D710 VA: 0x18150F110 Slot: 26
+	// RVA: 0x150E1E0 Offset: 0x150C7E0 VA: 0x18150E1E0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x150ED70 Offset: 0x150D370 VA: 0x18150ED70 Slot: 16
+	// RVA: 0x150DE40 Offset: 0x150C440 VA: 0x18150DE40 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x150F020 Offset: 0x150D620 VA: 0x18150F020
+	// RVA: 0x150E0F0 Offset: 0x150C6F0 VA: 0x18150E0F0
 	public void .ctor() { }
 
-	// RVA: 0x150EEF0 Offset: 0x150D4F0 VA: 0x18150EEF0
+	// RVA: 0x150DFC0 Offset: 0x150C5C0 VA: 0x18150DFC0
 	private static void .cctor() { }
 
 }
 
 internal class Datatype_nonNegativeInteger : Datatype_integer // TypeDefIndex: 2230
 {	// Fields
-	private static readonly FacetsChecker numeric10FacetsChecker; // 0x2B112A0
+	private static readonly FacetsChecker numeric10FacetsChecker; // 0x1406F
 
 	// Properties
 	internal override FacetsChecker FacetsChecker { get; }
@@ -1830,19 +1830,19 @@ internal class Datatype_nonNegativeInteger : Datatype_integer // TypeDefIndex: 2
 
 	// Methods
 
-	// RVA: 0x1512F90 Offset: 0x1511590 VA: 0x181512F90 Slot: 18
+	// RVA: 0x1512060 Offset: 0x1510660 VA: 0x181512060 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x1512FF0 Offset: 0x15115F0 VA: 0x181512FF0 Slot: 8
+	// RVA: 0x15120C0 Offset: 0x15106C0 VA: 0x1815120C0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 11
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 11
 	internal override bool get_HasValueFacets() { }
 
-	// RVA: 0x1512710 Offset: 0x1510D10 VA: 0x181512710
+	// RVA: 0x15117E0 Offset: 0x150FDE0 VA: 0x1815117E0
 	public void .ctor() { }
 
-	// RVA: 0x1512EA0 Offset: 0x15114A0 VA: 0x181512EA0
+	// RVA: 0x1511F70 Offset: 0x1510570 VA: 0x181511F70
 	private static void .cctor() { }
 
 }
@@ -1861,28 +1861,28 @@ internal class Datatype_unsignedLong : Datatype_nonNegativeInteger // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x15154A0 Offset: 0x1513AA0 VA: 0x1815154A0 Slot: 18
+	// RVA: 0x1514570 Offset: 0x1512B70 VA: 0x181514570 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x7D9FF0 Offset: 0x7D85F0 VA: 0x1807D9FF0 Slot: 8
+	// RVA: 0x7A5910 Offset: 0x7A3F10 VA: 0x1807A5910 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1515070 Offset: 0x1513670 VA: 0x181515070 Slot: 14
+	// RVA: 0x1514140 Offset: 0x1512740 VA: 0x181514140 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x1515560 Offset: 0x1513B60 VA: 0x181515560 Slot: 4
+	// RVA: 0x1514630 Offset: 0x1512C30 VA: 0x181514630 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x1515500 Offset: 0x1513B00 VA: 0x181515500 Slot: 26
+	// RVA: 0x15145D0 Offset: 0x1512BD0 VA: 0x1815145D0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x15150F0 Offset: 0x15136F0 VA: 0x1815150F0 Slot: 16
+	// RVA: 0x15141C0 Offset: 0x15127C0 VA: 0x1815141C0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1515410 Offset: 0x1513A10 VA: 0x181515410
+	// RVA: 0x15144E0 Offset: 0x1512AE0 VA: 0x1815144E0
 	public void .ctor() { }
 
-	// RVA: 0x15152C0 Offset: 0x15138C0 VA: 0x1815152C0
+	// RVA: 0x1514390 Offset: 0x1512990 VA: 0x181514390
 	private static void .cctor() { }
 
 }
@@ -1901,28 +1901,28 @@ internal class Datatype_unsignedInt : Datatype_unsignedLong // TypeDefIndex: 223
 
 	// Methods
 
-	// RVA: 0x1514F40 Offset: 0x1513540 VA: 0x181514F40 Slot: 18
+	// RVA: 0x1514010 Offset: 0x1512610 VA: 0x181514010 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x1515000 Offset: 0x1513600 VA: 0x181515000 Slot: 8
+	// RVA: 0x15140D0 Offset: 0x15126D0 VA: 0x1815140D0 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1514B90 Offset: 0x1513190 VA: 0x181514B90 Slot: 14
+	// RVA: 0x1513C60 Offset: 0x1512260 VA: 0x181513C60 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x1515010 Offset: 0x1513610 VA: 0x181515010 Slot: 4
+	// RVA: 0x15140E0 Offset: 0x15126E0 VA: 0x1815140E0 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x1514FA0 Offset: 0x15135A0 VA: 0x181514FA0 Slot: 26
+	// RVA: 0x1514070 Offset: 0x1512670 VA: 0x181514070 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x1514C10 Offset: 0x1513210 VA: 0x181514C10 Slot: 16
+	// RVA: 0x1513CE0 Offset: 0x15122E0 VA: 0x181513CE0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1514EE0 Offset: 0x15134E0 VA: 0x181514EE0
+	// RVA: 0x1513FB0 Offset: 0x15125B0 VA: 0x181513FB0
 	public void .ctor() { }
 
-	// RVA: 0x1514D90 Offset: 0x1513390 VA: 0x181514D90
+	// RVA: 0x1513E60 Offset: 0x1512460 VA: 0x181513E60
 	private static void .cctor() { }
 
 }
@@ -1941,28 +1941,28 @@ internal class Datatype_unsignedShort : Datatype_unsignedInt // TypeDefIndex: 22
 
 	// Methods
 
-	// RVA: 0x15159A0 Offset: 0x1513FA0 VA: 0x1815159A0 Slot: 18
+	// RVA: 0x1514A70 Offset: 0x1513070 VA: 0x181514A70 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x1515A60 Offset: 0x1514060 VA: 0x181515A60 Slot: 8
+	// RVA: 0x1514B30 Offset: 0x1513130 VA: 0x181514B30 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x15155C0 Offset: 0x1513BC0 VA: 0x1815155C0 Slot: 14
+	// RVA: 0x1514690 Offset: 0x1512C90 VA: 0x181514690 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x1515A70 Offset: 0x1514070 VA: 0x181515A70 Slot: 4
+	// RVA: 0x1514B40 Offset: 0x1513140 VA: 0x181514B40 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x1515A00 Offset: 0x1514000 VA: 0x181515A00 Slot: 26
+	// RVA: 0x1514AD0 Offset: 0x15130D0 VA: 0x181514AD0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x1515640 Offset: 0x1513C40 VA: 0x181515640 Slot: 16
+	// RVA: 0x1514710 Offset: 0x1512D10 VA: 0x181514710 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1515910 Offset: 0x1513F10 VA: 0x181515910
+	// RVA: 0x15149E0 Offset: 0x1512FE0 VA: 0x1815149E0
 	public void .ctor() { }
 
-	// RVA: 0x15157C0 Offset: 0x1513DC0 VA: 0x1815157C0
+	// RVA: 0x1514890 Offset: 0x1512E90 VA: 0x181514890
 	private static void .cctor() { }
 
 }
@@ -1981,35 +1981,35 @@ internal class Datatype_unsignedByte : Datatype_unsignedShort // TypeDefIndex: 2
 
 	// Methods
 
-	// RVA: 0x1514A70 Offset: 0x1513070 VA: 0x181514A70 Slot: 18
+	// RVA: 0x1513B40 Offset: 0x1512140 VA: 0x181513B40 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x50E1B0 Offset: 0x50C7B0 VA: 0x18050E1B0 Slot: 8
+	// RVA: 0x50E140 Offset: 0x50C740 VA: 0x18050E140 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x15146C0 Offset: 0x1512CC0 VA: 0x1815146C0 Slot: 14
+	// RVA: 0x1513790 Offset: 0x1511D90 VA: 0x181513790 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x1514B30 Offset: 0x1513130 VA: 0x181514B30 Slot: 4
+	// RVA: 0x1513C00 Offset: 0x1512200 VA: 0x181513C00 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x1514AD0 Offset: 0x15130D0 VA: 0x181514AD0 Slot: 26
+	// RVA: 0x1513BA0 Offset: 0x15121A0 VA: 0x181513BA0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x1514740 Offset: 0x1512D40 VA: 0x181514740 Slot: 16
+	// RVA: 0x1513810 Offset: 0x1511E10 VA: 0x181513810 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1514A10 Offset: 0x1513010 VA: 0x181514A10
+	// RVA: 0x1513AE0 Offset: 0x15120E0 VA: 0x181513AE0
 	public void .ctor() { }
 
-	// RVA: 0x15148C0 Offset: 0x1512EC0 VA: 0x1815148C0
+	// RVA: 0x1513990 Offset: 0x1511F90 VA: 0x181513990
 	private static void .cctor() { }
 
 }
 
 internal class Datatype_positiveInteger : Datatype_nonNegativeInteger // TypeDefIndex: 2235
 {	// Fields
-	private static readonly FacetsChecker numeric10FacetsChecker; // 0x142B0
+	private static readonly FacetsChecker numeric10FacetsChecker; // 0x2B104D4
 
 	// Properties
 	internal override FacetsChecker FacetsChecker { get; }
@@ -2017,16 +2017,16 @@ internal class Datatype_positiveInteger : Datatype_nonNegativeInteger // TypeDef
 
 	// Methods
 
-	// RVA: 0x15132F0 Offset: 0x15118F0 VA: 0x1815132F0 Slot: 18
+	// RVA: 0x15123C0 Offset: 0x15109C0 VA: 0x1815123C0 Slot: 18
 	internal override FacetsChecker get_FacetsChecker() { }
 
-	// RVA: 0x1513350 Offset: 0x1511950 VA: 0x181513350 Slot: 8
+	// RVA: 0x1512420 Offset: 0x1510A20 VA: 0x181512420 Slot: 8
 	public override XmlTypeCode get_TypeCode() { }
 
-	// RVA: 0x1513260 Offset: 0x1511860 VA: 0x181513260
+	// RVA: 0x1512330 Offset: 0x1510930 VA: 0x181512330
 	public void .ctor() { }
 
-	// RVA: 0x1513170 Offset: 0x1511770 VA: 0x181513170
+	// RVA: 0x1512240 Offset: 0x1510840 VA: 0x181512240
 	private static void .cctor() { }
 
 }
@@ -2034,10 +2034,10 @@ internal class Datatype_positiveInteger : Datatype_nonNegativeInteger // TypeDef
 internal class Datatype_doubleXdr : Datatype_double // TypeDefIndex: 2236
 {	// Methods
 
-	// RVA: 0x1510670 Offset: 0x150EC70 VA: 0x181510670 Slot: 6
+	// RVA: 0x150F740 Offset: 0x150DD40 VA: 0x18150F740 Slot: 6
 	public override object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr) { }
 
-	// RVA: 0x1510820 Offset: 0x150EE20 VA: 0x181510820
+	// RVA: 0x150F8F0 Offset: 0x150DEF0 VA: 0x18150F8F0
 	public void .ctor() { }
 
 }
@@ -2045,10 +2045,10 @@ internal class Datatype_doubleXdr : Datatype_double // TypeDefIndex: 2236
 internal class Datatype_floatXdr : Datatype_float // TypeDefIndex: 2237
 {	// Methods
 
-	// RVA: 0x15115A0 Offset: 0x150FBA0 VA: 0x1815115A0 Slot: 6
+	// RVA: 0x1510670 Offset: 0x150EC70 VA: 0x181510670 Slot: 6
 	public override object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr) { }
 
-	// RVA: 0x1511710 Offset: 0x150FD10 VA: 0x181511710
+	// RVA: 0x15107E0 Offset: 0x150EDE0 VA: 0x1815107E0
 	public void .ctor() { }
 
 }
@@ -2065,22 +2065,22 @@ internal class Datatype_QNameXdr : Datatype_anySimpleType // TypeDefIndex: 2238
 
 	// Methods
 
-	// RVA: 0x4A6090 Offset: 0x4A4690 VA: 0x1804A6090 Slot: 5
+	// RVA: 0x4A6020 Offset: 0x4A4620 VA: 0x1804A6020 Slot: 5
 	public override XmlTokenizedType get_TokenizedType() { }
 
-	// RVA: 0x150D240 Offset: 0x150B840 VA: 0x18150D240 Slot: 6
+	// RVA: 0x150C310 Offset: 0x150A910 VA: 0x18150C310 Slot: 6
 	public override object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr) { }
 
-	// RVA: 0x150D590 Offset: 0x150BB90 VA: 0x18150D590 Slot: 4
+	// RVA: 0x150C660 Offset: 0x150AC60 VA: 0x18150C660 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x150D530 Offset: 0x150BB30 VA: 0x18150D530 Slot: 26
+	// RVA: 0x150C600 Offset: 0x150AC00 VA: 0x18150C600 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x150D4A0 Offset: 0x150BAA0 VA: 0x18150D4A0
+	// RVA: 0x150C570 Offset: 0x150AB70 VA: 0x18150C570
 	public void .ctor() { }
 
-	// RVA: 0x150D400 Offset: 0x150BA00 VA: 0x18150D400
+	// RVA: 0x150C4D0 Offset: 0x150AAD0 VA: 0x18150C4D0
 	private static void .cctor() { }
 
 }
@@ -2091,10 +2091,10 @@ internal class Datatype_ENUMERATION : Datatype_NMTOKEN // TypeDefIndex: 2239
 
 	// Methods
 
-	// RVA: 0xE668B0 Offset: 0xE64EB0 VA: 0x180E668B0 Slot: 5
+	// RVA: 0xE67360 Offset: 0xE65960 VA: 0x180E67360 Slot: 5
 	public override XmlTokenizedType get_TokenizedType() { }
 
-	// RVA: 0x150B790 Offset: 0x1509D90 VA: 0x18150B790
+	// RVA: 0x150A860 Offset: 0x1508E60 VA: 0x18150A860
 	public void .ctor() { }
 
 }
@@ -2111,28 +2111,28 @@ internal class Datatype_char : Datatype_anySimpleType // TypeDefIndex: 2240
 
 	// Methods
 
-	// RVA: 0x150F5C0 Offset: 0x150DBC0 VA: 0x18150F5C0 Slot: 4
+	// RVA: 0x150E690 Offset: 0x150CC90 VA: 0x18150E690 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x150F560 Offset: 0x150DB60 VA: 0x18150F560 Slot: 26
+	// RVA: 0x150E630 Offset: 0x150CC30 VA: 0x18150E630 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 27
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x150F1E0 Offset: 0x150D7E0 VA: 0x18150F1E0 Slot: 14
+	// RVA: 0x150E2B0 Offset: 0x150C8B0 VA: 0x18150E2B0 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x150F260 Offset: 0x150D860 VA: 0x18150F260 Slot: 6
+	// RVA: 0x150E330 Offset: 0x150C930 VA: 0x18150E330 Slot: 6
 	public override object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr) { }
 
-	// RVA: 0x150F380 Offset: 0x150D980 VA: 0x18150F380 Slot: 16
+	// RVA: 0x150E450 Offset: 0x150CA50 VA: 0x18150E450 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x150F4D0 Offset: 0x150DAD0 VA: 0x18150F4D0
+	// RVA: 0x150E5A0 Offset: 0x150CBA0 VA: 0x18150E5A0
 	public void .ctor() { }
 
-	// RVA: 0x150F430 Offset: 0x150DA30 VA: 0x18150F430
+	// RVA: 0x150E500 Offset: 0x150CB00 VA: 0x18150E500
 	private static void .cctor() { }
 
 }
@@ -2140,13 +2140,13 @@ internal class Datatype_char : Datatype_anySimpleType // TypeDefIndex: 2240
 internal class Datatype_fixed : Datatype_decimal // TypeDefIndex: 2241
 {	// Methods
 
-	// RVA: 0x15111B0 Offset: 0x150F7B0 VA: 0x1815111B0 Slot: 6
+	// RVA: 0x1510280 Offset: 0x150E880 VA: 0x181510280 Slot: 6
 	public override object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr) { }
 
-	// RVA: 0x15113B0 Offset: 0x150F9B0 VA: 0x1815113B0 Slot: 16
+	// RVA: 0x1510480 Offset: 0x150EA80 VA: 0x181510480 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1511540 Offset: 0x150FB40 VA: 0x181511540
+	// RVA: 0x1510610 Offset: 0x150EC10 VA: 0x181510610
 	public void .ctor() { }
 
 }
@@ -2163,28 +2163,28 @@ internal class Datatype_uuid : Datatype_anySimpleType // TypeDefIndex: 2242
 
 	// Methods
 
-	// RVA: 0x1515F30 Offset: 0x1514530 VA: 0x181515F30 Slot: 4
+	// RVA: 0x1515000 Offset: 0x1513600 VA: 0x181515000 Slot: 4
 	public override Type get_ValueType() { }
 
-	// RVA: 0x1515ED0 Offset: 0x15144D0 VA: 0x181515ED0 Slot: 26
+	// RVA: 0x1514FA0 Offset: 0x15135A0 VA: 0x181514FA0 Slot: 26
 	internal override Type get_ListValueType() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 27
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 27
 	internal override RestrictionFlags get_ValidRestrictionFlags() { }
 
-	// RVA: 0x1515B40 Offset: 0x1514140 VA: 0x181515B40 Slot: 14
+	// RVA: 0x1514C10 Offset: 0x1513210 VA: 0x181514C10 Slot: 14
 	internal override int Compare(object value1, object value2) { }
 
-	// RVA: 0x1515BD0 Offset: 0x15141D0 VA: 0x181515BD0 Slot: 6
+	// RVA: 0x1514CA0 Offset: 0x15132A0 VA: 0x181514CA0 Slot: 6
 	public override object ParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr) { }
 
-	// RVA: 0x1515CF0 Offset: 0x15142F0 VA: 0x181515CF0 Slot: 16
+	// RVA: 0x1514DC0 Offset: 0x15133C0 VA: 0x181514DC0 Slot: 16
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue) { }
 
-	// RVA: 0x1515E40 Offset: 0x1514440 VA: 0x181515E40
+	// RVA: 0x1514F10 Offset: 0x1513510 VA: 0x181514F10
 	public void .ctor() { }
 
-	// RVA: 0x1515DA0 Offset: 0x15143A0 VA: 0x181515DA0
+	// RVA: 0x1514E70 Offset: 0x1513470 VA: 0x181514E70
 	private static void .cctor() { }
 
 }
@@ -2192,16 +2192,16 @@ internal class Datatype_uuid : Datatype_anySimpleType // TypeDefIndex: 2242
 public sealed class DataUtility // TypeDefIndex: 3576
 {	// Methods
 
-	// RVA: 0x19AA000 Offset: 0x19A8600 VA: 0x1819AA000
+	// RVA: 0x1997400 Offset: 0x1995A00 VA: 0x181997400
 	public static Vector4 GetInnerUV(Sprite sprite) { }
 
-	// RVA: 0x19AA180 Offset: 0x19A8780 VA: 0x1819AA180
+	// RVA: 0x1997580 Offset: 0x1995B80 VA: 0x181997580
 	public static Vector4 GetOuterUV(Sprite sprite) { }
 
-	// RVA: 0x19AA1F0 Offset: 0x19A87F0 VA: 0x1819AA1F0
+	// RVA: 0x19975F0 Offset: 0x1995BF0 VA: 0x1819975F0
 	public static Vector4 GetPadding(Sprite sprite) { }
 
-	// RVA: 0x19AA070 Offset: 0x19A8670 VA: 0x1819AA070
+	// RVA: 0x1997470 Offset: 0x1995A70 VA: 0x181997470
 	public static Vector2 GetMinSize(Sprite sprite) { }
 
 }
@@ -2214,7 +2214,7 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	// Methods
 
 	[EventAttribute] // RVA: 0x9ACD0 Offset: 0x9A0D0 VA: 0x18009ACD0
-	// RVA: 0x1234280 Offset: 0x1232880 VA: 0x181234280
+	// RVA: 0x1234920 Offset: 0x1232F20 VA: 0x181234920
 	internal void Trace(string message) { }
 
 	[NonEventAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -2222,11 +2222,11 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	internal void Trace<T0>(string format, T0 arg0) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE021D0 Offset: 0xE007D0 VA: 0x180E021D0
+	|-RVA: 0xE02C80 Offset: 0xE01280 VA: 0x180E02C80
 	|-DataCommonEventSource.Trace<Exception>
 	|-DataCommonEventSource.Trace<object>
 	|
-	|-RVA: 0xE016F0 Offset: 0xDFFCF0 VA: 0x180E016F0
+	|-RVA: 0xE021A0 Offset: 0xE007A0 VA: 0x180E021A0
 	|-DataCommonEventSource.Trace<int>
 	*/
 
@@ -2235,25 +2235,25 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	internal void Trace<T0, T1>(string format, T0 arg0, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDFFCD0 Offset: 0xDFE2D0 VA: 0x180DFFCD0
+	|-RVA: 0xE00780 Offset: 0xDFED80 VA: 0x180E00780
 	|-DataCommonEventSource.Trace<int, bool>
 	|
-	|-RVA: 0xDFFE00 Offset: 0xDFE400 VA: 0x180DFFE00
+	|-RVA: 0xE008B0 Offset: 0xDFEEB0 VA: 0x180E008B0
 	|-DataCommonEventSource.Trace<int, ListChangedType>
 	|-DataCommonEventSource.Trace<int, MappingType>
 	|-DataCommonEventSource.Trace<int, Int32Enum>
 	|
-	|-RVA: 0xE00B40 Offset: 0xDFF140 VA: 0x180E00B40
+	|-RVA: 0xE015F0 Offset: 0xDFFBF0 VA: 0x180E015F0
 	|-DataCommonEventSource.Trace<int, int>
 	|
-	|-RVA: 0xE00C70 Offset: 0xDFF270 VA: 0x180E00C70
+	|-RVA: 0xE01720 Offset: 0xDFFD20 VA: 0x180E01720
 	|-DataCommonEventSource.Trace<int, long>
 	|
-	|-RVA: 0xE01600 Offset: 0xDFFC00 VA: 0x180E01600
+	|-RVA: 0xE020B0 Offset: 0xE006B0 VA: 0x180E020B0
 	|-DataCommonEventSource.Trace<int, object>
 	|-DataCommonEventSource.Trace<int, string>
 	|
-	|-RVA: 0xE02110 Offset: 0xE00710 VA: 0x180E02110
+	|-RVA: 0xE02BC0 Offset: 0xE011C0 VA: 0x180E02BC0
 	|-DataCommonEventSource.Trace<object, object>
 	*/
 
@@ -2262,25 +2262,25 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	internal void Trace<T0, T1, T2>(string format, T0 arg0, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDFFF30 Offset: 0xDFE530 VA: 0x180DFFF30
+	|-RVA: 0xE009E0 Offset: 0xDFEFE0 VA: 0x180E009E0
 	|-DataCommonEventSource.Trace<int, int, bool>
 	|
-	|-RVA: 0xE00860 Offset: 0xDFEE60 VA: 0x180E00860
+	|-RVA: 0xE01310 Offset: 0xDFF910 VA: 0x180E01310
 	|-DataCommonEventSource.Trace<int, int, DataViewRowState>
 	|-DataCommonEventSource.Trace<int, int, Int32Enum>
 	|
-	|-RVA: 0xE009D0 Offset: 0xDFEFD0 VA: 0x180E009D0
+	|-RVA: 0xE01480 Offset: 0xDFFA80 VA: 0x180E01480
 	|-DataCommonEventSource.Trace<int, int, int>
 	|
-	|-RVA: 0xE00DA0 Offset: 0xDFF3A0 VA: 0x180E00DA0
+	|-RVA: 0xE01850 Offset: 0xDFFE50 VA: 0x180E01850
 	|-DataCommonEventSource.Trace<int, object, Int32Enum>
 	|-DataCommonEventSource.Trace<int, string, DataViewRowState>
 	|
-	|-RVA: 0xE01500 Offset: 0xDFFB00 VA: 0x180E01500
+	|-RVA: 0xE01FB0 Offset: 0xE005B0 VA: 0x180E01FB0
 	|-DataCommonEventSource.Trace<int, object, object>
 	|-DataCommonEventSource.Trace<int, string, string>
 	|
-	|-RVA: 0xE02040 Offset: 0xE00640 VA: 0x180E02040
+	|-RVA: 0xE02AF0 Offset: 0xE010F0 VA: 0x180E02AF0
 	|-DataCommonEventSource.Trace<object, object, object>
 	*/
 
@@ -2289,16 +2289,16 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	internal void Trace<T0, T1, T2, T3>(string format, T0 arg0, T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE00550 Offset: 0xDFEB50 VA: 0x180E00550
+	|-RVA: 0xE01000 Offset: 0xDFF600 VA: 0x180E01000
 	|-DataCommonEventSource.Trace<int, int, DataViewRowState, DataViewRowState>
 	|-DataCommonEventSource.Trace<int, int, Int32Enum, Int32Enum>
 	|
-	|-RVA: 0xE01250 Offset: 0xDFF850 VA: 0x180E01250
+	|-RVA: 0xE01D00 Offset: 0xE00300 VA: 0x180E01D00
 	|-DataCommonEventSource.Trace<int, object, object, Int32Enum>
 	|-DataCommonEventSource.Trace<int, string, string, DataViewRowState>
 	|-DataCommonEventSource.Trace<int, string, string, MappingType>
 	|
-	|-RVA: 0xE01DF0 Offset: 0xE003F0 VA: 0x180E01DF0
+	|-RVA: 0xE028A0 Offset: 0xE00EA0 VA: 0x180E028A0
 	|-DataCommonEventSource.Trace<object, object, object, object>
 	*/
 
@@ -2307,11 +2307,11 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	internal void Trace<T0, T1, T2, T3, T4>(string format, T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE00EE0 Offset: 0xDFF4E0 VA: 0x180E00EE0
+	|-RVA: 0xE01990 Offset: 0xDFFF90 VA: 0x180E01990
 	|-DataCommonEventSource.Trace<int, object, int, int, bool>
 	|-DataCommonEventSource.Trace<int, string, int, int, bool>
 	|
-	|-RVA: 0xE01B40 Offset: 0xE00140 VA: 0x180E01B40
+	|-RVA: 0xE025F0 Offset: 0xE00BF0 VA: 0x180E025F0
 	|-DataCommonEventSource.Trace<object, object, object, object, object>
 	*/
 
@@ -2320,16 +2320,16 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	internal void Trace<T0, T1, T2, T3, T4, T5, T6>(string format, T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE000A0 Offset: 0xDFE6A0 VA: 0x180E000A0
+	|-RVA: 0xE00B50 Offset: 0xDFF150 VA: 0x180E00B50
 	|-DataCommonEventSource.Trace<int, int, DataViewRowState, DataViewRowState, int, DataViewRowState, DataViewRowState>
 	|-DataCommonEventSource.Trace<int, int, Int32Enum, Int32Enum, int, Int32Enum, Int32Enum>
 	|
-	|-RVA: 0xE017E0 Offset: 0xDFFDE0 VA: 0x180E017E0
+	|-RVA: 0xE02290 Offset: 0xE00890 VA: 0x180E02290
 	|-DataCommonEventSource.Trace<object, object, object, object, object, object, object>
 	*/
 
 	[EventAttribute] // RVA: 0x9B210 Offset: 0x9A610 VA: 0x18009B210
-	// RVA: 0x1234190 Offset: 0x1232790 VA: 0x181234190
+	// RVA: 0x1234830 Offset: 0x1232E30 VA: 0x181234830
 	internal long EnterScope(string message) { }
 
 	[NonEventAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -2337,10 +2337,10 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	internal long EnterScope<T1>(string format, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED2620 Offset: 0xED0C20 VA: 0x180ED2620
+	|-RVA: 0xED30D0 Offset: 0xED16D0 VA: 0x180ED30D0
 	|-DataCommonEventSource.EnterScope<int>
 	|
-	|-RVA: 0xED2AF0 Offset: 0xED10F0 VA: 0x180ED2AF0
+	|-RVA: 0xED35A0 Offset: 0xED1BA0 VA: 0x180ED35A0
 	|-DataCommonEventSource.EnterScope<object>
 	*/
 
@@ -2349,23 +2349,23 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	internal long EnterScope<T1, T2>(string format, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED18B0 Offset: 0xECFEB0 VA: 0x180ED18B0
+	|-RVA: 0xED2360 Offset: 0xED0960 VA: 0x180ED2360
 	|-DataCommonEventSource.EnterScope<int, bool>
 	|
-	|-RVA: 0xED1B70 Offset: 0xED0170 VA: 0x180ED1B70
+	|-RVA: 0xED2620 Offset: 0xED0C20 VA: 0x180ED2620
 	|-DataCommonEventSource.EnterScope<int, SchemaFormat>
 	|-DataCommonEventSource.EnterScope<int, XmlReadMode>
 	|-DataCommonEventSource.EnterScope<int, XmlWriteMode>
 	|-DataCommonEventSource.EnterScope<int, Int32Enum>
 	|
-	|-RVA: 0xED22A0 Offset: 0xED08A0 VA: 0x180ED22A0
+	|-RVA: 0xED2D50 Offset: 0xED1350 VA: 0x180ED2D50
 	|-DataCommonEventSource.EnterScope<int, int>
 	|
-	|-RVA: 0xED2530 Offset: 0xED0B30 VA: 0x180ED2530
+	|-RVA: 0xED2FE0 Offset: 0xED15E0 VA: 0x180ED2FE0
 	|-DataCommonEventSource.EnterScope<int, object>
 	|-DataCommonEventSource.EnterScope<int, string>
 	|
-	|-RVA: 0xED2A30 Offset: 0xED1030 VA: 0x180ED2A30
+	|-RVA: 0xED34E0 Offset: 0xED1AE0 VA: 0x180ED34E0
 	|-DataCommonEventSource.EnterScope<object, object>
 	*/
 
@@ -2374,22 +2374,22 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	internal long EnterScope<T1, T2, T3>(string format, T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED19F0 Offset: 0xECFFF0 VA: 0x180ED19F0
+	|-RVA: 0xED24A0 Offset: 0xED0AA0 VA: 0x180ED24A0
 	|-DataCommonEventSource.EnterScope<int, XmlReadMode, bool>
 	|-DataCommonEventSource.EnterScope<int, Int32Enum, bool>
 	|
-	|-RVA: 0xED1FD0 Offset: 0xED05D0 VA: 0x180ED1FD0
+	|-RVA: 0xED2A80 Offset: 0xED1080 VA: 0x180ED2A80
 	|-DataCommonEventSource.EnterScope<int, int, bool>
 	|
-	|-RVA: 0xED2150 Offset: 0xED0750 VA: 0x180ED2150
+	|-RVA: 0xED2C00 Offset: 0xED1200 VA: 0x180ED2C00
 	|-DataCommonEventSource.EnterScope<int, int, object>
 	|-DataCommonEventSource.EnterScope<int, int, string>
 	|
-	|-RVA: 0xED23E0 Offset: 0xED09E0 VA: 0x180ED23E0
+	|-RVA: 0xED2E90 Offset: 0xED1490 VA: 0x180ED2E90
 	|-DataCommonEventSource.EnterScope<int, object, bool>
 	|-DataCommonEventSource.EnterScope<int, string, bool>
 	|
-	|-RVA: 0xED2960 Offset: 0xED0F60 VA: 0x180ED2960
+	|-RVA: 0xED3410 Offset: 0xED1A10 VA: 0x180ED3410
 	|-DataCommonEventSource.EnterScope<object, object, object>
 	*/
 
@@ -2398,22 +2398,22 @@ internal class DataCommonEventSource : EventSource // TypeDefIndex: 4171
 	internal long EnterScope<T1, T2, T3, T4>(string format, T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED1CB0 Offset: 0xED02B0 VA: 0x180ED1CB0
+	|-RVA: 0xED2760 Offset: 0xED0D60 VA: 0x180ED2760
 	|-DataCommonEventSource.EnterScope<int, int, bool, MissingSchemaAction>
 	|-DataCommonEventSource.EnterScope<int, int, bool, Int32Enum>
 	|
-	|-RVA: 0xED2710 Offset: 0xED0D10 VA: 0x180ED2710
+	|-RVA: 0xED31C0 Offset: 0xED17C0 VA: 0x180ED31C0
 	|-DataCommonEventSource.EnterScope<object, object, object, object>
 	*/
 
 	[EventAttribute] // RVA: 0x9B580 Offset: 0x9A980 VA: 0x18009B580
-	// RVA: 0x1234270 Offset: 0x1232870 VA: 0x181234270
+	// RVA: 0x1234910 Offset: 0x1232F10 VA: 0x181234910
 	internal void ExitScope(long scopeId) { }
 
-	// RVA: 0x1234340 Offset: 0x1232940 VA: 0x181234340
+	// RVA: 0x12349E0 Offset: 0x1232FE0 VA: 0x1812349E0
 	public void .ctor() { }
 
-	// RVA: 0x1234290 Offset: 0x1232890 VA: 0x181234290
+	// RVA: 0x1234930 Offset: 0x1232F30 VA: 0x181234930
 	private static void .cctor() { }
 
 }
@@ -2529,336 +2529,336 @@ public class DataColumn : MarshalByValueComponent // TypeDefIndex: 4181
 
 	// Methods
 
-	// RVA: 0x12300F0 Offset: 0x122E6F0 VA: 0x1812300F0
+	// RVA: 0x1230790 Offset: 0x122ED90 VA: 0x181230790
 	public void .ctor() { }
 
-	// RVA: 0x12304B0 Offset: 0x122EAB0 VA: 0x1812304B0
+	// RVA: 0x1230B50 Offset: 0x122F150 VA: 0x181230B50
 	public void .ctor(string columnName, Type dataType) { }
 
-	// RVA: 0x1230180 Offset: 0x122E780 VA: 0x181230180
+	// RVA: 0x1230820 Offset: 0x122EE20 VA: 0x181230820
 	public void .ctor(string columnName, Type dataType, string expr, MappingType type) { }
 
-	// RVA: 0x122FFD0 Offset: 0x122E5D0 VA: 0x18122FFD0
+	// RVA: 0x1230670 Offset: 0x122EC70 VA: 0x181230670
 	private void UpdateColumnType(Type type, StorageType typeCode) { }
 
-	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
+	// RVA: 0xB10B80 Offset: 0xB0F180 VA: 0x180B10B80
 	public bool get_AllowDBNull() { }
 
-	// RVA: 0x1230CE0 Offset: 0x122F2E0 VA: 0x181230CE0
+	// RVA: 0x1231380 Offset: 0x122F980 VA: 0x181231380
 	public void set_AllowDBNull(bool value) { }
 
-	// RVA: 0x1230680 Offset: 0x122EC80 VA: 0x181230680
+	// RVA: 0x1230D20 Offset: 0x122F320 VA: 0x181230D20
 	public bool get_AutoIncrement() { }
 
-	// RVA: 0x12311E0 Offset: 0x122F7E0 VA: 0x1812311E0
+	// RVA: 0x1231880 Offset: 0x122FE80 VA: 0x181231880
 	public void set_AutoIncrement(bool value) { }
 
-	// RVA: 0x12305C0 Offset: 0x122EBC0 VA: 0x1812305C0
+	// RVA: 0x1230C60 Offset: 0x122F260 VA: 0x181230C60
 	internal object get_AutoIncrementCurrent() { }
 
-	// RVA: 0x1230E60 Offset: 0x122F460 VA: 0x181230E60
+	// RVA: 0x1231500 Offset: 0x122FB00 VA: 0x181231500
 	internal void set_AutoIncrementCurrent(object value) { }
 
-	// RVA: 0x12304E0 Offset: 0x122EAE0 VA: 0x1812304E0
+	// RVA: 0x1230B80 Offset: 0x122F180 VA: 0x181230B80
 	internal AutoIncrementValue get_AutoInc() { }
 
-	// RVA: 0x1230630 Offset: 0x122EC30 VA: 0x181230630
+	// RVA: 0x1230CD0 Offset: 0x122F2D0 VA: 0x181230CD0
 	public long get_AutoIncrementSeed() { }
 
-	// RVA: 0x1231010 Offset: 0x122F610 VA: 0x181231010
+	// RVA: 0x12316B0 Offset: 0x122FCB0 VA: 0x1812316B0
 	public void set_AutoIncrementSeed(long value) { }
 
-	// RVA: 0x1230650 Offset: 0x122EC50 VA: 0x181230650
+	// RVA: 0x1230CF0 Offset: 0x122F2F0 VA: 0x181230CF0
 	public long get_AutoIncrementStep() { }
 
-	// RVA: 0x12310F0 Offset: 0x122F6F0 VA: 0x1812310F0
+	// RVA: 0x1231790 Offset: 0x122FD90 VA: 0x181231790
 	public void set_AutoIncrementStep(long value) { }
 
-	// RVA: 0x12306A0 Offset: 0x122ECA0 VA: 0x1812306A0
+	// RVA: 0x1230D40 Offset: 0x122F340 VA: 0x181230D40
 	public string get_Caption() { }
 
-	// RVA: 0x1231390 Offset: 0x122F990 VA: 0x181231390
+	// RVA: 0x1231A30 Offset: 0x1230030 VA: 0x181231A30
 	public void set_Caption(string value) { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public string get_ColumnName() { }
 
-	// RVA: 0x1231700 Offset: 0x122FD00 VA: 0x181231700
+	// RVA: 0x1231DA0 Offset: 0x12303A0 VA: 0x181231DA0
 	public void set_ColumnName(string value) { }
 
-	// RVA: 0x1230830 Offset: 0x122EE30 VA: 0x181230830
+	// RVA: 0x1230ED0 Offset: 0x122F4D0 VA: 0x181230ED0
 	internal string get_EncodedColumnName() { }
 
-	// RVA: 0x12309A0 Offset: 0x122EFA0 VA: 0x1812309A0
+	// RVA: 0x1231040 Offset: 0x122F640 VA: 0x181231040
 	internal IFormatProvider get_FormatProvider() { }
 
-	// RVA: 0x1230B00 Offset: 0x122F100 VA: 0x181230B00
+	// RVA: 0x12311A0 Offset: 0x122F7A0 VA: 0x1812311A0
 	internal CultureInfo get_Locale() { }
 
-	// RVA: 0x1050730 Offset: 0x104ED30 VA: 0x181050730
+	// RVA: 0x10511C0 Offset: 0x104F7C0 VA: 0x1810511C0
 	internal int get_ObjectID() { }
 
-	// RVA: 0x104F470 Offset: 0x104DA70 VA: 0x18104F470
+	// RVA: 0x79BE20 Offset: 0x79A420 VA: 0x18079BE20
 	public string get_Prefix() { }
 
-	// RVA: 0x1233640 Offset: 0x1231C40 VA: 0x181233640
+	// RVA: 0x1233CE0 Offset: 0x12322E0 VA: 0x181233CE0
 	public void set_Prefix(string value) { }
 
-	// RVA: 0x122E9A0 Offset: 0x122CFA0 VA: 0x18122E9A0
+	// RVA: 0x122F040 Offset: 0x122D640 VA: 0x18122F040
 	internal string GetColumnValueAsString(DataRow row, DataRowVersion version) { }
 
-	// RVA: 0x12306B0 Offset: 0x122ECB0 VA: 0x1812306B0
+	// RVA: 0x1230D50 Offset: 0x122F350 VA: 0x181230D50
 	internal bool get_Computed() { }
 
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0
 	internal DataExpression get_DataExpression() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public Type get_DataType() { }
 
-	// RVA: 0x1231B00 Offset: 0x1230100 VA: 0x181231B00
+	// RVA: 0x12321A0 Offset: 0x12307A0 VA: 0x1812321A0
 	public void set_DataType(Type value) { }
 
-	// RVA: 0x8D9010 Offset: 0x8D7610 VA: 0x1808D9010
+	// RVA: 0x8D9520 Offset: 0x8D7B20 VA: 0x1808D9520
 	public DataSetDateTime get_DateTimeMode() { }
 
-	// RVA: 0x1232480 Offset: 0x1230A80 VA: 0x181232480
+	// RVA: 0x1232B20 Offset: 0x1231120 VA: 0x181232B20
 	public void set_DateTimeMode(DataSetDateTime value) { }
 
-	// RVA: 0x12306D0 Offset: 0x122ECD0 VA: 0x1812306D0
+	// RVA: 0x1230D70 Offset: 0x122F370 VA: 0x181230D70
 	public object get_DefaultValue() { }
 
-	// RVA: 0x12325D0 Offset: 0x1230BD0 VA: 0x1812325D0
+	// RVA: 0x1232C70 Offset: 0x1231270 VA: 0x181232C70
 	public void set_DefaultValue(object value) { }
 
-	// RVA: 0x12306C0 Offset: 0x122ECC0 VA: 0x1812306C0
+	// RVA: 0x1230D60 Offset: 0x122F360 VA: 0x181230D60
 	internal bool get_DefaultValueIsNull() { }
 
-	// RVA: 0x12308B0 Offset: 0x122EEB0 VA: 0x1812308B0
+	// RVA: 0x1230F50 Offset: 0x122F550 VA: 0x181230F50
 	public string get_Expression() { }
 
-	// RVA: 0x12328A0 Offset: 0x1230EA0 VA: 0x1812328A0
+	// RVA: 0x1232F40 Offset: 0x1231540 VA: 0x181232F40
 	public void set_Expression(string value) { }
 
-	// RVA: 0x1230920 Offset: 0x122EF20 VA: 0x181230920
+	// RVA: 0x1230FC0 Offset: 0x122F5C0 VA: 0x181230FC0
 	public PropertyCollection get_ExtendedProperties() { }
 
-	// RVA: 0x1230A10 Offset: 0x122F010 VA: 0x181230A10
+	// RVA: 0x12310B0 Offset: 0x122F6B0 VA: 0x1812310B0
 	internal bool get_HasData() { }
 
-	// RVA: 0x11888F0 Offset: 0x1186EF0 VA: 0x1811888F0
+	// RVA: 0x118D210 Offset: 0x118B810 VA: 0x18118D210
 	internal bool get_ImplementsINullable() { }
 
-	// RVA: 0x1230A20 Offset: 0x122F020 VA: 0x181230A20
+	// RVA: 0x12310C0 Offset: 0x122F6C0 VA: 0x1812310C0
 	internal bool get_ImplementsIChangeTracking() { }
 
-	// RVA: 0xE668A0 Offset: 0xE64EA0 VA: 0x180E668A0
+	// RVA: 0xE67350 Offset: 0xE65950 VA: 0x180E67350
 	internal bool get_ImplementsIRevertibleChangeTracking() { }
 
-	// RVA: 0x1230AB0 Offset: 0x122F0B0 VA: 0x181230AB0
+	// RVA: 0x1231150 Offset: 0x122F750 VA: 0x181231150
 	internal bool get_IsValueType() { }
 
-	// RVA: 0x11888E0 Offset: 0x1186EE0 VA: 0x1811888E0
+	// RVA: 0x118D200 Offset: 0x118B800 VA: 0x18118D200
 	internal bool get_IsSqlType() { }
 
-	// RVA: 0x122FA80 Offset: 0x122E080 VA: 0x18122FA80
+	// RVA: 0x1230120 Offset: 0x122E720 VA: 0x181230120
 	private void SetMaxLengthSimpleType() { }
 
-	// RVA: 0x5743B0 Offset: 0x5729B0 VA: 0x1805743B0
+	// RVA: 0x574340 Offset: 0x572940 VA: 0x180574340
 	public int get_MaxLength() { }
 
-	// RVA: 0x1233160 Offset: 0x1231760 VA: 0x181233160
+	// RVA: 0x1233800 Offset: 0x1231E00 VA: 0x181233800
 	public void set_MaxLength(int value) { }
 
-	// RVA: 0x1230B70 Offset: 0x122F170 VA: 0x181230B70
+	// RVA: 0x1231210 Offset: 0x122F810 VA: 0x181231210
 	public string get_Namespace() { }
 
-	// RVA: 0x1233510 Offset: 0x1231B10 VA: 0x181233510
+	// RVA: 0x1233BB0 Offset: 0x12321B0 VA: 0x181233BB0
 	public void set_Namespace(string value) { }
 
-	// RVA: 0x574390 Offset: 0x572990 VA: 0x180574390
+	// RVA: 0x574320 Offset: 0x572920 VA: 0x180574320
 	public int get_Ordinal() { }
 
-	// RVA: 0x122FB80 Offset: 0x122E180 VA: 0x18122FB80
+	// RVA: 0x1230220 Offset: 0x122E820 VA: 0x181230220
 	internal void SetOrdinalInternal(int ordinal) { }
 
-	// RVA: 0x82CB10 Offset: 0x82B110 VA: 0x18082CB10
+	// RVA: 0x82D060 Offset: 0x82B660 VA: 0x18082D060
 	public bool get_ReadOnly() { }
 
-	// RVA: 0x1233790 Offset: 0x1231D90 VA: 0x181233790
+	// RVA: 0x1233E30 Offset: 0x1232430 VA: 0x181233E30
 	public void set_ReadOnly(bool value) { }
 
-	// RVA: 0x1230BE0 Offset: 0x122F1E0 VA: 0x181230BE0
+	// RVA: 0x1231280 Offset: 0x122F880 VA: 0x181231280
 	private Index get_SortIndex() { }
 
-	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
+	// RVA: 0x4E84B0 Offset: 0x4E6AB0 VA: 0x1804E84B0
 	public DataTable get_Table() { }
 
-	// RVA: 0x122FD20 Offset: 0x122E320 VA: 0x18122FD20
+	// RVA: 0x12303C0 Offset: 0x122E9C0 VA: 0x1812303C0
 	internal void SetTable(DataTable table) { }
 
-	// RVA: 0x122EA90 Offset: 0x122D090 VA: 0x18122EA90
+	// RVA: 0x122F130 Offset: 0x122D730 VA: 0x18122F130
 	private DataRow GetDataRow(int index) { }
 
-	// RVA: 0x1230AD0 Offset: 0x122F0D0 VA: 0x181230AD0
+	// RVA: 0x1231170 Offset: 0x122F770 VA: 0x181231170
 	internal object get_Item(int record) { }
 
-	// RVA: 0x1232FD0 Offset: 0x12315D0 VA: 0x181232FD0
+	// RVA: 0x1233670 Offset: 0x1231C70 VA: 0x181233670
 	internal void set_Item(int record, object value) { }
 
-	// RVA: 0x122EE40 Offset: 0x122D440 VA: 0x18122EE40
+	// RVA: 0x122F4E0 Offset: 0x122DAE0 VA: 0x18122F4E0
 	internal void InitializeRecord(int record) { }
 
-	// RVA: 0x122FE00 Offset: 0x122E400 VA: 0x18122FE00
+	// RVA: 0x12304A0 Offset: 0x122EAA0 VA: 0x1812304A0
 	internal void SetValue(int record, object value) { }
 
-	// RVA: 0x122E890 Offset: 0x122CE90 VA: 0x18122E890
+	// RVA: 0x122EF30 Offset: 0x122D530 VA: 0x18122EF30
 	internal void FreeRecord(int record) { }
 
-	// RVA: 0x1230CD0 Offset: 0x122F2D0 VA: 0x181230CD0
+	// RVA: 0x1231370 Offset: 0x122F970 VA: 0x181231370
 	public bool get_Unique() { }
 
-	// RVA: 0x12338C0 Offset: 0x1231EC0 VA: 0x1812338C0
+	// RVA: 0x1233F60 Offset: 0x1232560 VA: 0x181233F60
 	public void set_Unique(bool value) { }
 
-	// RVA: 0x7AF000 Offset: 0x7AD600 VA: 0x1807AF000
+	// RVA: 0x7CD3F0 Offset: 0x7CB9F0 VA: 0x1807CD3F0
 	internal void InternalUnique(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4EF3A0 Offset: 0x4ED9A0 VA: 0x1804EF3A0
+	// RVA: 0x4EF330 Offset: 0x4ED930 VA: 0x1804EF330
 	internal string get_XmlDataType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4EF3B0 Offset: 0x4ED9B0 VA: 0x1804EF3B0
+	// RVA: 0x4EF340 Offset: 0x4ED940 VA: 0x1804EF340
 	internal void set_XmlDataType(string value) { }
 
-	// RVA: 0xC73D40 Offset: 0xC72340 VA: 0x180C73D40
+	// RVA: 0x79BDF0 Offset: 0x79A3F0 VA: 0x18079BDF0
 	internal SimpleType get_SimpleType() { }
 
-	// RVA: 0x1233850 Offset: 0x1231E50 VA: 0x181233850
+	// RVA: 0x1233EF0 Offset: 0x12324F0 VA: 0x181233EF0
 	internal void set_SimpleType(SimpleType value) { }
 
-	// RVA: 0x10507D0 Offset: 0x104EDD0 VA: 0x1810507D0 Slot: 10
+	// RVA: 0x79BE30 Offset: 0x79A430 VA: 0x18079BE30 Slot: 10
 	public virtual MappingType get_ColumnMapping() { }
 
-	// RVA: 0x1231480 Offset: 0x122FA80 VA: 0x181231480 Slot: 11
+	// RVA: 0x1231B20 Offset: 0x1230120 VA: 0x181231B20 Slot: 11
 	public virtual void set_ColumnMapping(MappingType value) { }
 
-	// RVA: 0x122D740 Offset: 0x122BD40 VA: 0x18122D740
+	// RVA: 0x122DDE0 Offset: 0x122C3E0 VA: 0x18122DDE0
 	internal void CheckColumnConstraint(DataRow row, DataRowAction action) { }
 
-	// RVA: 0x122D920 Offset: 0x122BF20 VA: 0x18122D920
+	// RVA: 0x122DFC0 Offset: 0x122C5C0 VA: 0x18122DFC0
 	internal bool CheckMaxLength() { }
 
-	// RVA: 0x122D880 Offset: 0x122BE80 VA: 0x18122D880
+	// RVA: 0x122DF20 Offset: 0x122C520 VA: 0x18122DF20
 	internal void CheckMaxLength(DataRow dr) { }
 
-	// RVA: 0x122DB90 Offset: 0x122C190 VA: 0x18122DB90
+	// RVA: 0x122E230 Offset: 0x122C830 VA: 0x18122E230
 	protected internal void CheckNotAllowNull() { }
 
-	// RVA: 0x122DE70 Offset: 0x122C470 VA: 0x18122DE70
+	// RVA: 0x122E510 Offset: 0x122CB10 VA: 0x18122E510
 	internal void CheckNullable(DataRow row) { }
 
-	// RVA: 0x122DF20 Offset: 0x122C520 VA: 0x18122DF20
+	// RVA: 0x122E5C0 Offset: 0x122CBC0 VA: 0x18122E5C0
 	protected void CheckUnique() { }
 
-	// RVA: 0x122E660 Offset: 0x122CC60 VA: 0x18122E660
+	// RVA: 0x122ED00 Offset: 0x122D300 VA: 0x18122ED00
 	internal int Compare(int record1, int record2) { }
 
-	// RVA: 0x122E460 Offset: 0x122CA60 VA: 0x18122E460
+	// RVA: 0x122EB00 Offset: 0x122D100 VA: 0x18122EB00
 	internal bool CompareValueTo(int record1, object value, bool checkType) { }
 
-	// RVA: 0x122E430 Offset: 0x122CA30 VA: 0x18122E430
+	// RVA: 0x122EAD0 Offset: 0x122D0D0 VA: 0x18122EAD0
 	internal int CompareValueTo(int record1, object value) { }
 
-	// RVA: 0x122E750 Offset: 0x122CD50 VA: 0x18122E750
+	// RVA: 0x122EDF0 Offset: 0x122D3F0 VA: 0x18122EDF0
 	internal object ConvertValue(object value) { }
 
-	// RVA: 0x122E860 Offset: 0x122CE60 VA: 0x18122E860
+	// RVA: 0x122EF00 Offset: 0x122D500 VA: 0x18122EF00
 	internal void Copy(int srcRecordNo, int dstRecordNo) { }
 
-	// RVA: 0x122DFA0 Offset: 0x122C5A0 VA: 0x18122DFA0
+	// RVA: 0x122E640 Offset: 0x122CC40 VA: 0x18122E640
 	internal DataColumn Clone() { }
 
-	// RVA: 0x122E8C0 Offset: 0x122CEC0 VA: 0x18122E8C0
+	// RVA: 0x122EF60 Offset: 0x122D560 VA: 0x18122EF60
 	internal object GetAggregateValue(int[] records, AggregateType kind) { }
 
-	// RVA: 0x122EB00 Offset: 0x122D100 VA: 0x18122EB00
+	// RVA: 0x122F1A0 Offset: 0x122D7A0 VA: 0x18122F1A0
 	private int GetStringLength(int record) { }
 
-	// RVA: 0x122ED90 Offset: 0x122D390 VA: 0x18122ED90
+	// RVA: 0x122F430 Offset: 0x122DA30 VA: 0x18122F430
 	internal void Init(int record) { }
 
-	// RVA: 0x122EF30 Offset: 0x122D530 VA: 0x18122EF30
+	// RVA: 0x122F5D0 Offset: 0x122DBD0 VA: 0x18122F5D0
 	internal static bool IsAutoIncrementType(Type dataType) { }
 
-	// RVA: 0x1230A40 Offset: 0x122F040 VA: 0x181230A40
+	// RVA: 0x12310E0 Offset: 0x122F6E0 VA: 0x1812310E0
 	internal bool get_IsCustomType() { }
 
-	// RVA: 0x122F850 Offset: 0x122DE50 VA: 0x18122F850
+	// RVA: 0x122FEF0 Offset: 0x122E4F0 VA: 0x18122FEF0
 	internal bool IsValueCustomTypeInstance(object value) { }
 
-	// RVA: 0x1230A30 Offset: 0x122F030 VA: 0x181230A30
+	// RVA: 0x12310D0 Offset: 0x122F6D0 VA: 0x1812310D0
 	internal bool get_ImplementsIXMLSerializable() { }
 
-	// RVA: 0x122F820 Offset: 0x122DE20 VA: 0x18122F820
+	// RVA: 0x122FEC0 Offset: 0x122E4C0 VA: 0x18122FEC0
 	internal bool IsNull(int record) { }
 
-	// RVA: 0x122F1D0 Offset: 0x122D7D0 VA: 0x18122F1D0
+	// RVA: 0x122F870 Offset: 0x122DE70 VA: 0x18122F870
 	internal bool IsInRelation() { }
 
-	// RVA: 0x122F360 Offset: 0x122D960 VA: 0x18122F360
+	// RVA: 0x122FA00 Offset: 0x122E000 VA: 0x18122FA00
 	internal bool IsMaxLengthViolated() { }
 
-	// RVA: 0x122F6C0 Offset: 0x122DCC0 VA: 0x18122F6C0
+	// RVA: 0x122FD60 Offset: 0x122E360 VA: 0x18122FD60
 	internal bool IsNotAllowDBNullViolated() { }
 
-	// RVA: 0x10131D0 Offset: 0x10117D0 VA: 0x1810131D0 Slot: 12
+	// RVA: 0x1013C70 Offset: 0x1012270 VA: 0x181013C70 Slot: 12
 	protected virtual void OnPropertyChanging(PropertyChangedEventArgs pcevent) { }
 
-	// RVA: 0x122F920 Offset: 0x122DF20 VA: 0x18122F920
+	// RVA: 0x122FFC0 Offset: 0x122E5C0 VA: 0x18122FFC0
 	protected internal void RaisePropertyChanging(string name) { }
 
-	// RVA: 0x122EE90 Offset: 0x122D490 VA: 0x18122EE90
+	// RVA: 0x122F530 Offset: 0x122DB30 VA: 0x18122F530
 	private void InsureStorage() { }
 
-	// RVA: 0x122FA30 Offset: 0x122E030 VA: 0x18122FA30
+	// RVA: 0x12300D0 Offset: 0x122E6D0 VA: 0x1812300D0
 	internal void SetCapacity(int capacity) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	internal void OnSetDataSet() { }
 
-	// RVA: 0x122FF00 Offset: 0x122E500 VA: 0x18122FF00 Slot: 3
+	// RVA: 0x12305A0 Offset: 0x122EBA0 VA: 0x1812305A0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x122E780 Offset: 0x122CD80 VA: 0x18122E780
+	// RVA: 0x122EE20 Offset: 0x122D420 VA: 0x18122EE20
 	internal object ConvertXmlToObject(string s) { }
 
-	// RVA: 0x122E7D0 Offset: 0x122CDD0 VA: 0x18122E7D0
+	// RVA: 0x122EE70 Offset: 0x122D470 VA: 0x18122EE70
 	internal object ConvertXmlToObject(XmlReader xmlReader, XmlRootAttribute xmlAttrib) { }
 
-	// RVA: 0x122E690 Offset: 0x122CC90 VA: 0x18122E690
+	// RVA: 0x122ED30 Offset: 0x122D330 VA: 0x18122ED30
 	internal string ConvertObjectToXml(object value) { }
 
-	// RVA: 0x122E6E0 Offset: 0x122CCE0 VA: 0x18122E6E0
+	// RVA: 0x122ED80 Offset: 0x122D380 VA: 0x18122ED80
 	internal void ConvertObjectToXml(object value, XmlWriter xmlWriter, XmlRootAttribute xmlAttrib) { }
 
-	// RVA: 0x122EAC0 Offset: 0x122D0C0 VA: 0x18122EAC0
+	// RVA: 0x122F160 Offset: 0x122D760 VA: 0x18122F160
 	internal object GetEmptyColumnStore(int recordCount) { }
 
-	// RVA: 0x122E830 Offset: 0x122CE30 VA: 0x18122E830
+	// RVA: 0x122EED0 Offset: 0x122D4D0 VA: 0x18122EED0
 	internal void CopyValueIntoStore(int record, object store, BitArray nullbits, int storeIndex) { }
 
-	// RVA: 0x122FCD0 Offset: 0x122E2D0 VA: 0x18122FCD0
+	// RVA: 0x1230370 Offset: 0x122E970 VA: 0x181230370
 	internal void SetStorage(object store, BitArray nullbits) { }
 
-	// RVA: 0x122D680 Offset: 0x122BC80 VA: 0x18122D680
+	// RVA: 0x122DD20 Offset: 0x122C320 VA: 0x18122DD20
 	internal void AddDependentColumn(DataColumn expressionColumn) { }
 
-	// RVA: 0x122F9A0 Offset: 0x122DFA0 VA: 0x18122F9A0
+	// RVA: 0x1230040 Offset: 0x122E640 VA: 0x181230040
 	internal void RemoveDependentColumn(DataColumn expressionColumn) { }
 
-	// RVA: 0x122EB30 Offset: 0x122D130 VA: 0x18122EB30
+	// RVA: 0x122F1D0 Offset: 0x122D7D0 VA: 0x18122F1D0
 	internal void HandleDependentColumnList(DataExpression oldExpression, DataExpression newExpression) { }
 
 }
@@ -2876,10 +2876,10 @@ public class DataColumnChangeEventArgs : EventArgs // TypeDefIndex: 4185
 
 	// Methods
 
-	// RVA: 0x1229C40 Offset: 0x1228240 VA: 0x181229C40
+	// RVA: 0x122A2E0 Offset: 0x12288E0 VA: 0x18122A2E0
 	internal void .ctor(DataRow row) { }
 
-	// RVA: 0x1229B90 Offset: 0x1228190 VA: 0x181229B90
+	// RVA: 0x122A230 Offset: 0x1228830 VA: 0x18122A230
 	public void .ctor(DataRow row, DataColumn column, object value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -2890,7 +2890,7 @@ public class DataColumnChangeEventArgs : EventArgs // TypeDefIndex: 4185
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_ProposedValue(object value) { }
 
-	// RVA: 0x1229B50 Offset: 0x1228150 VA: 0x181229B50
+	// RVA: 0x122A1F0 Offset: 0x12287F0 VA: 0x18122A1F0
 	internal void InitializeColumnChangeEvent(DataColumn column, object value) { }
 
 }
@@ -2901,10 +2901,10 @@ public sealed class DataColumnChangeEventHandler : MulticastDelegate // TypeDefI
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880 Slot: 12
+	// RVA: 0xAE4D50 Offset: 0xAE3350 VA: 0x180AE4D50 Slot: 12
 	public virtual void Invoke(object sender, DataColumnChangeEventArgs e) { }
 
-	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
+	// RVA: 0xAE4D10 Offset: 0xAE3310 VA: 0x180AE4D10 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object sender, DataColumnChangeEventArgs e, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -2941,125 +2941,125 @@ public sealed class DataColumnCollection : InternalDataCollectionBase // TypeDef
 
 	// Methods
 
-	// RVA: 0x122CAE0 Offset: 0x122B0E0 VA: 0x18122CAE0
+	// RVA: 0x122D180 Offset: 0x122B780 VA: 0x18122D180
 	internal void .ctor(DataTable table) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 11
 	protected override ArrayList get_List() { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	internal DataColumn[] get_ColumnsImplementingIChangeTracking() { }
 
-	// RVA: 0x598420 Offset: 0x596A20 VA: 0x180598420
+	// RVA: 0x5983B0 Offset: 0x5969B0 VA: 0x1805983B0
 	internal int get_ColumnsImplementingIChangeTrackingCount() { }
 
-	// RVA: 0x599D40 Offset: 0x598340 VA: 0x180599D40
+	// RVA: 0x599CD0 Offset: 0x5982D0 VA: 0x180599CD0
 	internal int get_ColumnsImplementingIRevertibleChangeTrackingCount() { }
 
-	// RVA: 0x122CF10 Offset: 0x122B510 VA: 0x18122CF10
+	// RVA: 0x122D5B0 Offset: 0x122BBB0 VA: 0x18122D5B0
 	public DataColumn get_Item(int index) { }
 
-	// RVA: 0x122CDC0 Offset: 0x122B3C0 VA: 0x18122CDC0
+	// RVA: 0x122D460 Offset: 0x122BA60 VA: 0x18122D460
 	public DataColumn get_Item(string name) { }
 
-	// RVA: 0x122CD10 Offset: 0x122B310 VA: 0x18122CD10
+	// RVA: 0x122D3B0 Offset: 0x122B9B0 VA: 0x18122D3B0
 	internal DataColumn get_Item(string name, string ns) { }
 
-	// RVA: 0x122A150 Offset: 0x1228750 VA: 0x18122A150
+	// RVA: 0x122A7F0 Offset: 0x1228DF0 VA: 0x18122A7F0
 	public void Add(DataColumn column) { }
 
-	// RVA: 0x1229CB0 Offset: 0x12282B0 VA: 0x181229CB0
+	// RVA: 0x122A350 Offset: 0x1228950 VA: 0x18122A350
 	internal void AddAt(int index, DataColumn column) { }
 
-	// RVA: 0x122A160 Offset: 0x1228760 VA: 0x18122A160
+	// RVA: 0x122A800 Offset: 0x1228E00 VA: 0x18122A800
 	public DataColumn Add(string columnName, Type type) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x122CBD0 Offset: 0x122B1D0 VA: 0x18122CBD0
+	// RVA: 0x122D270 Offset: 0x122B870 VA: 0x18122D270
 	public void add_CollectionChanged(CollectionChangeEventHandler value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x122CFF0 Offset: 0x122B5F0 VA: 0x18122CFF0
+	// RVA: 0x122D690 Offset: 0x122BC90 VA: 0x18122D690
 	public void remove_CollectionChanged(CollectionChangeEventHandler value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x122CC70 Offset: 0x122B270 VA: 0x18122CC70
+	// RVA: 0x122D310 Offset: 0x122B910 VA: 0x18122D310
 	internal void add_ColumnPropertyChanged(CollectionChangeEventHandler value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x122D090 Offset: 0x122B690 VA: 0x18122D090
+	// RVA: 0x122D730 Offset: 0x122BD30 VA: 0x18122D730
 	internal void remove_ColumnPropertyChanged(CollectionChangeEventHandler value) { }
 
-	// RVA: 0x122A270 Offset: 0x1228870 VA: 0x18122A270
+	// RVA: 0x122A910 Offset: 0x1228F10 VA: 0x18122A910
 	private void ArrayAdd(DataColumn column) { }
 
-	// RVA: 0x122A200 Offset: 0x1228800 VA: 0x18122A200
+	// RVA: 0x122A8A0 Offset: 0x1228EA0 VA: 0x18122A8A0
 	private void ArrayAdd(int index, DataColumn column) { }
 
-	// RVA: 0x122A300 Offset: 0x1228900 VA: 0x18122A300
+	// RVA: 0x122A9A0 Offset: 0x1228FA0 VA: 0x18122A9A0
 	private void ArrayRemove(DataColumn column) { }
 
-	// RVA: 0x122A630 Offset: 0x1228C30 VA: 0x18122A630
+	// RVA: 0x122ACD0 Offset: 0x12292D0 VA: 0x18122ACD0
 	internal string AssignName() { }
 
-	// RVA: 0x122A740 Offset: 0x1228D40 VA: 0x18122A740
+	// RVA: 0x122ADE0 Offset: 0x12293E0 VA: 0x18122ADE0
 	private void BaseAdd(DataColumn column) { }
 
-	// RVA: 0x122AB70 Offset: 0x1229170 VA: 0x18122AB70
+	// RVA: 0x122B210 Offset: 0x1229810 VA: 0x18122B210
 	private void BaseGroupSwitch(DataColumn[] oldArray, int oldLength, DataColumn[] newArray, int newLength) { }
 
-	// RVA: 0x122AEC0 Offset: 0x12294C0 VA: 0x18122AEC0
+	// RVA: 0x122B560 Offset: 0x1229B60 VA: 0x18122B560
 	private void BaseRemove(DataColumn column) { }
 
-	// RVA: 0x122B090 Offset: 0x1229690 VA: 0x18122B090
+	// RVA: 0x122B730 Offset: 0x1229D30 VA: 0x18122B730
 	internal bool CanRemove(DataColumn column, bool fThrowException) { }
 
-	// RVA: 0x122B980 Offset: 0x1229F80 VA: 0x18122B980
+	// RVA: 0x122C020 Offset: 0x122A620 VA: 0x18122C020
 	private void CheckIChangeTracking(DataColumn column) { }
 
-	// RVA: 0x122B9D0 Offset: 0x1229FD0 VA: 0x18122B9D0
+	// RVA: 0x122C070 Offset: 0x122A670 VA: 0x18122C070
 	public void Clear() { }
 
-	// RVA: 0x122BF10 Offset: 0x122A510 VA: 0x18122BF10
+	// RVA: 0x122C5B0 Offset: 0x122ABB0 VA: 0x18122C5B0
 	public bool Contains(string name) { }
 
-	// RVA: 0x122BFA0 Offset: 0x122A5A0 VA: 0x18122BFA0
+	// RVA: 0x122C640 Offset: 0x122AC40 VA: 0x18122C640
 	internal bool Contains(string name, bool caseSensitive) { }
 
-	// RVA: 0x122C200 Offset: 0x122A800 VA: 0x18122C200
+	// RVA: 0x122C8A0 Offset: 0x122AEA0 VA: 0x18122C8A0
 	public int IndexOf(string columnName) { }
 
-	// RVA: 0x122C060 Offset: 0x122A660 VA: 0x18122C060
+	// RVA: 0x122C700 Offset: 0x122AD00 VA: 0x18122C700
 	internal int IndexOfCaseInsensitive(string name) { }
 
-	// RVA: 0x122C300 Offset: 0x122A900 VA: 0x18122C300
+	// RVA: 0x122C9A0 Offset: 0x122AFA0 VA: 0x18122C9A0
 	private string MakeName(int index) { }
 
-	// RVA: 0x122C390 Offset: 0x122A990 VA: 0x18122C390
+	// RVA: 0x122CA30 Offset: 0x122B030 VA: 0x18122CA30
 	private void OnCollectionChanged(CollectionChangeEventArgs ccevent) { }
 
-	// RVA: 0x122C430 Offset: 0x122AA30 VA: 0x18122C430
+	// RVA: 0x122CAD0 Offset: 0x122B0D0 VA: 0x18122CAD0
 	private void OnCollectionChanging(CollectionChangeEventArgs ccevent) { }
 
-	// RVA: 0x122C450 Offset: 0x122AA50 VA: 0x18122C450
+	// RVA: 0x122CAF0 Offset: 0x122B0F0 VA: 0x18122CAF0
 	internal void OnColumnPropertyChanged(CollectionChangeEventArgs ccevent) { }
 
-	// RVA: 0x122C4A0 Offset: 0x122AAA0 VA: 0x18122C4A0
+	// RVA: 0x122CB40 Offset: 0x122B140 VA: 0x18122CB40
 	internal void RegisterColumnName(string name, DataColumn column) { }
 
-	// RVA: 0x122B030 Offset: 0x1229630 VA: 0x18122B030
+	// RVA: 0x122B6D0 Offset: 0x1229CD0 VA: 0x18122B6D0
 	internal bool CanRegisterName(string name) { }
 
-	// RVA: 0x122C7C0 Offset: 0x122ADC0 VA: 0x18122C7C0
+	// RVA: 0x122CE60 Offset: 0x122B460 VA: 0x18122CE60
 	public void Remove(DataColumn column) { }
 
-	// RVA: 0x122C930 Offset: 0x122AF30 VA: 0x18122C930
+	// RVA: 0x122CFD0 Offset: 0x122B5D0 VA: 0x18122CFD0
 	internal void UnregisterName(string name) { }
 
-	// RVA: 0x122A060 Offset: 0x1228660 VA: 0x18122A060
+	// RVA: 0x122A700 Offset: 0x1228D00 VA: 0x18122A700
 	private void AddColumnsImplementingIChangeTrackingList(DataColumn dataColumn) { }
 
-	// RVA: 0x122C6A0 Offset: 0x122ACA0 VA: 0x18122C6A0
+	// RVA: 0x122CD40 Offset: 0x122B340 VA: 0x18122CD40
 	private void RemoveColumnsImplementingIChangeTrackingList(DataColumn dataColumn) { }
 
 }
@@ -3078,35 +3078,35 @@ internal sealed class DataColumnPropertyDescriptor : PropertyDescriptor // TypeD
 
 	// Methods
 
-	// RVA: 0x122D3D0 Offset: 0x122B9D0 VA: 0x18122D3D0
+	// RVA: 0x122DA70 Offset: 0x122C070 VA: 0x18122DA70
 	internal void .ctor(DataColumn dataColumn) { }
 
-	// RVA: 0x122D420 Offset: 0x122BA20 VA: 0x18122D420 Slot: 6
+	// RVA: 0x122DAC0 Offset: 0x122C0C0 VA: 0x18122DAC0 Slot: 6
 	public override AttributeCollection get_Attributes() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300
 	internal DataColumn get_Column() { }
 
-	// RVA: 0x122D5E0 Offset: 0x122BBE0 VA: 0x18122D5E0 Slot: 13
+	// RVA: 0x122DC80 Offset: 0x122C280 VA: 0x18122DC80 Slot: 13
 	public override Type get_ComponentType() { }
 
-	// RVA: 0x122D640 Offset: 0x122BC40 VA: 0x18122D640 Slot: 15
+	// RVA: 0x122DCE0 Offset: 0x122C2E0 VA: 0x18122DCE0 Slot: 15
 	public override bool get_IsReadOnly() { }
 
-	// RVA: 0x122D660 Offset: 0x122BC60 VA: 0x18122D660 Slot: 16
+	// RVA: 0x122DD00 Offset: 0x122C300 VA: 0x18122DD00 Slot: 16
 	public override Type get_PropertyType() { }
 
-	// RVA: 0x122D130 Offset: 0x122B730 VA: 0x18122D130 Slot: 0
+	// RVA: 0x122D7D0 Offset: 0x122BDD0 VA: 0x18122D7D0 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0xAE4530 Offset: 0xAE2B30 VA: 0x180AE4530 Slot: 2
+	// RVA: 0xAE4A00 Offset: 0xAE3000 VA: 0x180AE4A00 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x122D1C0 Offset: 0x122B7C0 VA: 0x18122D1C0 Slot: 17
+	// RVA: 0x122D860 Offset: 0x122BE60 VA: 0x18122D860 Slot: 17
 	public override object GetValue(object component) { }
 
-	// RVA: 0x122D2A0 Offset: 0x122B8A0 VA: 0x18122D2A0 Slot: 19
+	// RVA: 0x122D940 Offset: 0x122BF40 VA: 0x18122D940 Slot: 19
 	public override void SetValue(object component, object value) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 20
@@ -3126,40 +3126,40 @@ internal sealed class DataError // TypeDefIndex: 4189
 
 	// Methods
 
-	// RVA: 0x1234C20 Offset: 0x1233220 VA: 0x181234C20
+	// RVA: 0x12352C0 Offset: 0x12338C0 VA: 0x1812352C0
 	internal void .ctor() { }
 
-	// RVA: 0x1234B70 Offset: 0x1233170 VA: 0x181234B70
+	// RVA: 0x1235210 Offset: 0x1233810 VA: 0x181235210
 	internal void .ctor(string rowError) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	internal string get_Text() { }
 
-	// RVA: 0x1234CA0 Offset: 0x12332A0 VA: 0x181234CA0
+	// RVA: 0x1235340 Offset: 0x1233940 VA: 0x181235340
 	internal void set_Text(string value) { }
 
-	// RVA: 0x1234C70 Offset: 0x1233270 VA: 0x181234C70
+	// RVA: 0x1235310 Offset: 0x1233910 VA: 0x181235310
 	internal bool get_HasErrors() { }
 
-	// RVA: 0x1234820 Offset: 0x1232E20 VA: 0x181234820
+	// RVA: 0x1234EC0 Offset: 0x12334C0 VA: 0x181234EC0
 	internal void SetColumnError(DataColumn column, string error) { }
 
-	// RVA: 0x1234500 Offset: 0x1232B00 VA: 0x181234500
+	// RVA: 0x1234BA0 Offset: 0x12331A0 VA: 0x181234BA0
 	internal string GetColumnError(DataColumn column) { }
 
-	// RVA: 0x1234440 Offset: 0x1232A40 VA: 0x181234440
+	// RVA: 0x1234AE0 Offset: 0x12330E0 VA: 0x181234AE0
 	internal void Clear(DataColumn column) { }
 
-	// RVA: 0x12343A0 Offset: 0x12329A0 VA: 0x1812343A0
+	// RVA: 0x1234A40 Offset: 0x1233040 VA: 0x181234A40
 	internal void Clear() { }
 
-	// RVA: 0x12345B0 Offset: 0x1232BB0 VA: 0x1812345B0
+	// RVA: 0x1234C50 Offset: 0x1233250 VA: 0x181234C50
 	internal DataColumn[] GetColumnsInError() { }
 
-	// RVA: 0x1234B10 Offset: 0x1233110 VA: 0x181234B10
+	// RVA: 0x12351B0 Offset: 0x12337B0 VA: 0x1812351B0
 	private void SetText(string errorText) { }
 
-	// RVA: 0x12346C0 Offset: 0x1232CC0 VA: 0x1812346C0
+	// RVA: 0x1234D60 Offset: 0x1233360 VA: 0x181234D60
 	internal int IndexOf(DataColumn column) { }
 
 }
@@ -3174,16 +3174,16 @@ internal struct DataError.ColumnError // TypeDefIndex: 4190
 public class DataException : SystemException // TypeDefIndex: 4191
 {	// Methods
 
-	// RVA: 0x1234D00 Offset: 0x1233300 VA: 0x181234D00
+	// RVA: 0x12353A0 Offset: 0x12339A0 VA: 0x1812353A0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1234D80 Offset: 0x1233380 VA: 0x181234D80
+	// RVA: 0x1235420 Offset: 0x1233A20 VA: 0x181235420
 	public void .ctor() { }
 
-	// RVA: 0x1234DD0 Offset: 0x12333D0 VA: 0x181234DD0
+	// RVA: 0x1235470 Offset: 0x1233A70 VA: 0x181235470
 	public void .ctor(string s) { }
 
-	// RVA: 0x117A9B0 Offset: 0x1178FB0 VA: 0x18117A9B0
+	// RVA: 0x117F2D0 Offset: 0x117D8D0 VA: 0x18117F2D0
 	public void .ctor(string s, Exception innerException) { }
 
 }
@@ -3199,7 +3199,7 @@ internal struct DataKey // TypeDefIndex: 4202
 
 	// Methods
 
-	// RVA: 0x1D2C20 Offset: 0x1D2020 VA: 0x1801D2C20
+	// RVA: 0x1D3290 Offset: 0x1D2690 VA: 0x1801D3290
 	internal void .ctor(DataColumn[] columns, bool copyColumns) { }
 
 	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
@@ -3208,46 +3208,46 @@ internal struct DataKey // TypeDefIndex: 4202
 	// RVA: 0xF4F50 Offset: 0xF4350 VA: 0x1800F4F50
 	internal bool get_HasValue() { }
 
-	// RVA: 0x1D2C30 Offset: 0x1D2030 VA: 0x1801D2C30
+	// RVA: 0x1D32A0 Offset: 0x1D26A0 VA: 0x1801D32A0
 	internal DataTable get_Table() { }
 
-	// RVA: 0x1D27E0 Offset: 0x1D1BE0 VA: 0x1801D27E0
+	// RVA: 0x1D2E50 Offset: 0x1D2250 VA: 0x1801D2E50
 	internal void CheckState() { }
 
-	// RVA: 0x1D27F0 Offset: 0x1D1BF0 VA: 0x1801D27F0
+	// RVA: 0x1D2E60 Offset: 0x1D2260 VA: 0x1801D2E60
 	internal bool ColumnsEqual(DataKey key) { }
 
-	// RVA: 0x12359B0 Offset: 0x1233FB0 VA: 0x1812359B0
+	// RVA: 0x1236050 Offset: 0x1234650 VA: 0x181236050
 	internal static bool ColumnsEqual(DataColumn[] column1, DataColumn[] column2) { }
 
-	// RVA: 0x1D2800 Offset: 0x1D1C00 VA: 0x1801D2800
+	// RVA: 0x1D2E70 Offset: 0x1D2270 VA: 0x1801D2E70
 	internal bool ContainsColumn(DataColumn column) { }
 
-	// RVA: 0x1D28F0 Offset: 0x1D1CF0 VA: 0x1801D28F0 Slot: 2
+	// RVA: 0x1D2F60 Offset: 0x1D2360 VA: 0x1801D2F60 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1D2870 Offset: 0x1D1C70 VA: 0x1801D2870 Slot: 0
+	// RVA: 0x1D2EE0 Offset: 0x1D22E0 VA: 0x1801D2EE0 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x1D2860 Offset: 0x1D1C60 VA: 0x1801D2860
+	// RVA: 0x1D2ED0 Offset: 0x1D22D0 VA: 0x1801D2ED0
 	internal bool Equals(DataKey value) { }
 
-	// RVA: 0x1D2950 Offset: 0x1D1D50 VA: 0x1801D2950
+	// RVA: 0x1D2FC0 Offset: 0x1D23C0 VA: 0x1801D2FC0
 	internal IndexField[] GetIndexDesc() { }
 
-	// RVA: 0x1D2960 Offset: 0x1D1D60 VA: 0x1801D2960
+	// RVA: 0x1D2FD0 Offset: 0x1D23D0 VA: 0x1801D2FD0
 	internal object[] GetKeyValues(int record) { }
 
-	// RVA: 0x1D2AE0 Offset: 0x1D1EE0 VA: 0x1801D2AE0
+	// RVA: 0x1D3150 Offset: 0x1D2550 VA: 0x1801D3150
 	internal Index GetSortIndex() { }
 
-	// RVA: 0x1D2AD0 Offset: 0x1D1ED0 VA: 0x1801D2AD0
+	// RVA: 0x1D3140 Offset: 0x1D2540 VA: 0x1801D3140
 	internal Index GetSortIndex(DataViewRowState recordStates) { }
 
-	// RVA: 0x1D2B50 Offset: 0x1D1F50 VA: 0x1801D2B50
+	// RVA: 0x1D31C0 Offset: 0x1D25C0 VA: 0x1801D31C0
 	internal bool RecordsEqual(int record1, int record2) { }
 
-	// RVA: 0x1D2C10 Offset: 0x1D2010 VA: 0x1801D2C10
+	// RVA: 0x1D3280 Offset: 0x1D2680 VA: 0x1801D3280
 	internal DataColumn[] ToArray() { }
 
 }
@@ -3294,121 +3294,121 @@ public class DataRelation // TypeDefIndex: 4203
 
 	// Methods
 
-	// RVA: 0x1238550 Offset: 0x1236B50 VA: 0x181238550
+	// RVA: 0x1238BF0 Offset: 0x12371F0 VA: 0x181238BF0
 	public void .ctor(string relationName, DataColumn parentColumn, DataColumn childColumn, bool createConstraints) { }
 
-	// RVA: 0x1238850 Offset: 0x1236E50 VA: 0x181238850
+	// RVA: 0x1238EF0 Offset: 0x12374F0 VA: 0x181238EF0
 	public void .ctor(string relationName, DataColumn[] parentColumns, DataColumn[] childColumns) { }
 
-	// RVA: 0x1238790 Offset: 0x1236D90 VA: 0x181238790
+	// RVA: 0x1238E30 Offset: 0x1237430 VA: 0x181238E30
 	public void .ctor(string relationName, DataColumn[] parentColumns, DataColumn[] childColumns, bool createConstraints) { }
 
-	// RVA: 0x1238890 Offset: 0x1236E90 VA: 0x181238890 Slot: 4
+	// RVA: 0x1238F30 Offset: 0x1237530 VA: 0x181238F30 Slot: 4
 	public virtual DataColumn[] get_ChildColumns() { }
 
-	// RVA: 0x1238870 Offset: 0x1236E70 VA: 0x181238870
+	// RVA: 0x1238F10 Offset: 0x1237510 VA: 0x181238F10
 	internal DataColumn[] get_ChildColumnsReference() { }
 
-	// RVA: 0x1238870 Offset: 0x1236E70 VA: 0x181238870
+	// RVA: 0x1238F10 Offset: 0x1237510 VA: 0x181238F10
 	internal DataKey get_ChildKey() { }
 
-	// RVA: 0x12388D0 Offset: 0x1236ED0 VA: 0x1812388D0 Slot: 5
+	// RVA: 0x1238F70 Offset: 0x1237570 VA: 0x181238F70 Slot: 5
 	public virtual DataTable get_ChildTable() { }
 
-	// RVA: 0x1238920 Offset: 0x1236F20 VA: 0x181238920 Slot: 6
+	// RVA: 0x1238FC0 Offset: 0x12375C0 VA: 0x181238FC0 Slot: 6
 	public virtual DataSet get_DataSet() { }
 
-	// RVA: 0x1237EB0 Offset: 0x12364B0 VA: 0x181237EB0
+	// RVA: 0x1238550 Offset: 0x1236B50 VA: 0x181238550
 	private static bool IsKeyNull(object[] values) { }
 
-	// RVA: 0x1237990 Offset: 0x1235F90 VA: 0x181237990
+	// RVA: 0x1238030 Offset: 0x1236630 VA: 0x181238030
 	internal static DataRow[] GetChildRows(DataKey parentKey, DataKey childKey, DataRow parentRow, DataRowVersion version) { }
 
-	// RVA: 0x1237C10 Offset: 0x1236210 VA: 0x181237C10
+	// RVA: 0x12382B0 Offset: 0x12368B0 VA: 0x1812382B0
 	internal static DataRow[] GetParentRows(DataKey parentKey, DataKey childKey, DataRow childRow, DataRowVersion version) { }
 
-	// RVA: 0x1237A70 Offset: 0x1236070 VA: 0x181237A70
+	// RVA: 0x1238110 Offset: 0x1236710 VA: 0x181238110
 	internal static DataRow GetParentRow(DataKey parentKey, DataKey childKey, DataRow childRow, DataRowVersion version) { }
 
-	// RVA: 0x1238110 Offset: 0x1236710 VA: 0x181238110
+	// RVA: 0x12387B0 Offset: 0x1236DB0 VA: 0x1812387B0
 	internal void SetDataSet(DataSet dataSet) { }
 
-	// RVA: 0x12389D0 Offset: 0x1236FD0 VA: 0x1812389D0 Slot: 7
+	// RVA: 0x1239070 Offset: 0x1237670 VA: 0x181239070 Slot: 7
 	public virtual DataColumn[] get_ParentColumns() { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	internal DataColumn[] get_ParentColumnsReference() { }
 
-	// RVA: 0x1238A10 Offset: 0x1237010 VA: 0x181238A10
+	// RVA: 0x12390B0 Offset: 0x12376B0 VA: 0x1812390B0
 	internal DataKey get_ParentKey() { }
 
-	// RVA: 0x1238A30 Offset: 0x1237030 VA: 0x181238A30 Slot: 8
+	// RVA: 0x12390D0 Offset: 0x12376D0 VA: 0x1812390D0 Slot: 8
 	public virtual DataTable get_ParentTable() { }
 
-	// RVA: 0x1238A80 Offset: 0x1237080 VA: 0x181238A80 Slot: 9
+	// RVA: 0x1239120 Offset: 0x1237720 VA: 0x181239120 Slot: 9
 	public virtual string get_RelationName() { }
 
-	// RVA: 0x1236580 Offset: 0x1234B80 VA: 0x181236580
+	// RVA: 0x1236C20 Offset: 0x1235220 VA: 0x181236C20
 	internal void CheckNamespaceValidityForNestedRelations(string ns) { }
 
-	// RVA: 0x12367F0 Offset: 0x1234DF0 VA: 0x1812367F0
+	// RVA: 0x1236E90 Offset: 0x1235490 VA: 0x181236E90
 	internal void CheckNestedRelations() { }
 
-	// RVA: 0x12389B0 Offset: 0x1236FB0 VA: 0x1812389B0 Slot: 10
+	// RVA: 0x1239050 Offset: 0x1237650 VA: 0x181239050 Slot: 10
 	public virtual bool get_Nested() { }
 
-	// RVA: 0x1238AB0 Offset: 0x12370B0 VA: 0x181238AB0 Slot: 11
+	// RVA: 0x1239150 Offset: 0x1237750 VA: 0x181239150 Slot: 11
 	public virtual void set_Nested(bool value) { }
 
-	// RVA: 0x12389F0 Offset: 0x1236FF0 VA: 0x1812389F0 Slot: 12
+	// RVA: 0x1239090 Offset: 0x1237690 VA: 0x181239090 Slot: 12
 	public virtual UniqueConstraint get_ParentKeyConstraint() { }
 
-	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
+	// RVA: 0x6AD650 Offset: 0x6ABC50 VA: 0x1806AD650
 	internal void SetParentKeyConstraint(UniqueConstraint value) { }
 
-	// RVA: 0x12388B0 Offset: 0x1236EB0 VA: 0x1812388B0 Slot: 13
+	// RVA: 0x1238F50 Offset: 0x1237550 VA: 0x181238F50 Slot: 13
 	public virtual ForeignKeyConstraint get_ChildKeyConstraint() { }
 
-	// RVA: 0x1238940 Offset: 0x1236F40 VA: 0x181238940
+	// RVA: 0x1238FE0 Offset: 0x12375E0 VA: 0x181238FE0
 	public PropertyCollection get_ExtendedProperties() { }
 
-	// RVA: 0xBA1D50 Offset: 0xBA0350 VA: 0x180BA1D50
+	// RVA: 0xBA2220 Offset: 0xBA0820 VA: 0x180BA2220
 	internal bool get_CheckMultipleNested() { }
 
-	// RVA: 0x1238AA0 Offset: 0x12370A0 VA: 0x181238AA0
+	// RVA: 0x1239140 Offset: 0x1237740 VA: 0x181239140
 	internal void set_CheckMultipleNested(bool value) { }
 
-	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
+	// RVA: 0x4BC5A0 Offset: 0x4BABA0 VA: 0x1804BC5A0
 	internal void SetChildKeyConstraint(ForeignKeyConstraint value) { }
 
-	// RVA: 0x1236CD0 Offset: 0x12352D0 VA: 0x181236CD0
+	// RVA: 0x1237370 Offset: 0x1235970 VA: 0x181237370
 	internal void CheckState() { }
 
-	// RVA: 0x1236BB0 Offset: 0x12351B0 VA: 0x181236BB0
+	// RVA: 0x1237250 Offset: 0x1235850 VA: 0x181237250
 	protected void CheckStateForProperty() { }
 
-	// RVA: 0x1237690 Offset: 0x1235C90 VA: 0x181237690
+	// RVA: 0x1237D30 Offset: 0x1236330 VA: 0x181237D30
 	private void Create(string relationName, DataColumn[] parentColumns, DataColumn[] childColumns, bool createConstraints) { }
 
-	// RVA: 0x1237000 Offset: 0x1235600 VA: 0x181237000
+	// RVA: 0x12376A0 Offset: 0x1235CA0 VA: 0x1812376A0
 	internal DataRelation Clone(DataSet destination) { }
 
-	// RVA: 0x1237F70 Offset: 0x1236570 VA: 0x181237F70
+	// RVA: 0x1238610 Offset: 0x1236C10 VA: 0x181238610
 	protected internal void OnPropertyChanging(PropertyChangedEventArgs pcevent) { }
 
-	// RVA: 0x1238020 Offset: 0x1236620 VA: 0x181238020
+	// RVA: 0x12386C0 Offset: 0x1236CC0 VA: 0x1812386C0
 	protected internal void RaisePropertyChanging(string name) { }
 
-	// RVA: 0x4C27D0 Offset: 0x4C0DD0 VA: 0x1804C27D0 Slot: 3
+	// RVA: 0x4C2760 Offset: 0x4C0D60 VA: 0x1804C2760 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1238130 Offset: 0x1236730 VA: 0x181238130
+	// RVA: 0x12387D0 Offset: 0x1236DD0 VA: 0x1812387D0
 	internal void ValidateMultipleNestedRelations() { }
 
-	// RVA: 0x1237CF0 Offset: 0x12362F0 VA: 0x181237CF0
+	// RVA: 0x1238390 Offset: 0x1236990 VA: 0x181238390
 	private bool IsAutoGenerated(DataColumn col) { }
 
-	// RVA: 0x599D40 Offset: 0x598340 VA: 0x180599D40
+	// RVA: 0x599CD0 Offset: 0x5982D0 VA: 0x180599CD0
 	internal int get_ObjectID() { }
 
 }
@@ -3429,7 +3429,7 @@ public abstract class DataRelationCollection : InternalDataCollectionBase // Typ
 
 	// Methods
 
-	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
+	// RVA: 0xA39490 Offset: 0xA37A90 VA: 0x180A39490
 	internal int get_ObjectID() { }
 
 	// RVA: -1 Offset: -1 Slot: 12
@@ -3438,58 +3438,58 @@ public abstract class DataRelationCollection : InternalDataCollectionBase // Typ
 	// RVA: -1 Offset: -1 Slot: 13
 	public abstract DataRelation get_Item(string name);
 
-	// RVA: 0xAE3290 Offset: 0xAE1890 VA: 0x180AE3290
+	// RVA: 0xAE3760 Offset: 0xAE1D60 VA: 0x180AE3760
 	public void Add(DataRelation relation) { }
 
-	// RVA: 0xAE2FE0 Offset: 0xAE15E0 VA: 0x180AE2FE0 Slot: 14
+	// RVA: 0xAE34B0 Offset: 0xAE1AB0 VA: 0x180AE34B0 Slot: 14
 	protected virtual void AddCore(DataRelation relation) { }
 
-	// RVA: 0xAE4300 Offset: 0xAE2900 VA: 0x180AE4300
+	// RVA: 0xAE47D0 Offset: 0xAE2DD0 VA: 0x180AE47D0
 	public void add_CollectionChanged(CollectionChangeEventHandler value) { }
 
-	// RVA: 0xAE43D0 Offset: 0xAE29D0 VA: 0x180AE43D0
+	// RVA: 0xAE48A0 Offset: 0xAE2EA0 VA: 0x180AE48A0
 	public void remove_CollectionChanged(CollectionChangeEventHandler value) { }
 
-	// RVA: 0xAE34D0 Offset: 0xAE1AD0 VA: 0x180AE34D0
+	// RVA: 0xAE39A0 Offset: 0xAE1FA0 VA: 0x180AE39A0
 	internal string AssignName() { }
 
-	// RVA: 0xAE34F0 Offset: 0xAE1AF0 VA: 0x180AE34F0 Slot: 15
+	// RVA: 0xAE39C0 Offset: 0xAE1FC0 VA: 0x180AE39C0 Slot: 15
 	public virtual void Clear() { }
 
-	// RVA: 0xAE3730 Offset: 0xAE1D30 VA: 0x180AE3730 Slot: 16
+	// RVA: 0xAE3C00 Offset: 0xAE2200 VA: 0x180AE3C00 Slot: 16
 	public virtual bool Contains(string name) { }
 
-	// RVA: 0xAE3750 Offset: 0xAE1D50 VA: 0x180AE3750
+	// RVA: 0xAE3C20 Offset: 0xAE2220 VA: 0x180AE3C20
 	internal int InternalIndexOf(string name) { }
 
 	// RVA: -1 Offset: -1 Slot: 17
 	protected abstract DataSet GetDataSet();
 
-	// RVA: 0xAE3910 Offset: 0xAE1F10 VA: 0x180AE3910
+	// RVA: 0xAE3DE0 Offset: 0xAE23E0 VA: 0x180AE3DE0
 	private string MakeName(int index) { }
 
-	// RVA: 0xAE39A0 Offset: 0xAE1FA0 VA: 0x180AE39A0 Slot: 18
+	// RVA: 0xAE3E70 Offset: 0xAE2470 VA: 0x180AE3E70 Slot: 18
 	protected virtual void OnCollectionChanged(CollectionChangeEventArgs ccevent) { }
 
-	// RVA: 0xAE3A50 Offset: 0xAE2050 VA: 0x180AE3A50 Slot: 19
+	// RVA: 0xAE3F20 Offset: 0xAE2520 VA: 0x180AE3F20 Slot: 19
 	protected virtual void OnCollectionChanging(CollectionChangeEventArgs ccevent) { }
 
-	// RVA: 0xAE3B00 Offset: 0xAE2100 VA: 0x180AE3B00
+	// RVA: 0xAE3FD0 Offset: 0xAE25D0 VA: 0x180AE3FD0
 	internal void RegisterName(string name) { }
 
-	// RVA: 0xAE3F20 Offset: 0xAE2520 VA: 0x180AE3F20
+	// RVA: 0xAE43F0 Offset: 0xAE29F0 VA: 0x180AE43F0
 	public void Remove(DataRelation relation) { }
 
-	// RVA: 0xAE3CD0 Offset: 0xAE22D0 VA: 0x180AE3CD0
+	// RVA: 0xAE41A0 Offset: 0xAE27A0 VA: 0x180AE41A0
 	public void RemoveAt(int index) { }
 
-	// RVA: 0xAE3D60 Offset: 0xAE2360 VA: 0x180AE3D60 Slot: 20
+	// RVA: 0xAE4230 Offset: 0xAE2830 VA: 0x180AE4230 Slot: 20
 	protected virtual void RemoveCore(DataRelation relation) { }
 
-	// RVA: 0xAE40E0 Offset: 0xAE26E0 VA: 0x180AE40E0
+	// RVA: 0xAE45B0 Offset: 0xAE2BB0 VA: 0x180AE45B0
 	internal void UnregisterName(string name) { }
 
-	// RVA: 0xAE4290 Offset: 0xAE2890 VA: 0x180AE4290
+	// RVA: 0xAE4760 Offset: 0xAE2D60 VA: 0x180AE4760
 	protected void .ctor() { }
 
 }
@@ -3509,42 +3509,42 @@ internal sealed class DataRelationCollection.DataTableRelationCollection : DataR
 
 	// Methods
 
-	// RVA: 0xAF71E0 Offset: 0xAF57E0 VA: 0x180AF71E0
+	// RVA: 0xAF76B0 Offset: 0xAF5CB0 VA: 0x180AF76B0
 	internal void .ctor(DataTable table, bool fParentCollection) { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0 Slot: 11
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540 Slot: 11
 	protected override ArrayList get_List() { }
 
-	// RVA: 0xAF6E40 Offset: 0xAF5440 VA: 0x180AF6E40
+	// RVA: 0xAF7310 Offset: 0xAF5910 VA: 0x180AF7310
 	private void EnsureDataSet() { }
 
-	// RVA: 0xAF6EA0 Offset: 0xAF54A0 VA: 0x180AF6EA0 Slot: 17
+	// RVA: 0xAF7370 Offset: 0xAF5970 VA: 0x180AF7370 Slot: 17
 	protected override DataSet GetDataSet() { }
 
-	// RVA: 0xAF7440 Offset: 0xAF5A40 VA: 0x180AF7440 Slot: 12
+	// RVA: 0xAF7910 Offset: 0xAF5F10 VA: 0x180AF7910 Slot: 12
 	public override DataRelation get_Item(int index) { }
 
-	// RVA: 0xAF7330 Offset: 0xAF5930 VA: 0x180AF7330 Slot: 13
+	// RVA: 0xAF7800 Offset: 0xAF5E00 VA: 0x180AF7800 Slot: 13
 	public override DataRelation get_Item(string name) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAF7290 Offset: 0xAF5890 VA: 0x180AF7290
+	// RVA: 0xAF7760 Offset: 0xAF5D60 VA: 0x180AF7760
 	internal void add_RelationPropertyChanged(CollectionChangeEventHandler value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAF7540 Offset: 0xAF5B40 VA: 0x180AF7540
+	// RVA: 0xAF7A10 Offset: 0xAF6010 VA: 0x180AF7A10
 	internal void remove_RelationPropertyChanged(CollectionChangeEventHandler value) { }
 
-	// RVA: 0xAF6CC0 Offset: 0xAF52C0 VA: 0x180AF6CC0
+	// RVA: 0xAF7190 Offset: 0xAF5790 VA: 0x180AF7190
 	private void AddCache(DataRelation relation) { }
 
-	// RVA: 0xAF6D20 Offset: 0xAF5320 VA: 0x180AF6D20 Slot: 14
+	// RVA: 0xAF71F0 Offset: 0xAF57F0 VA: 0x180AF71F0 Slot: 14
 	protected override void AddCore(DataRelation relation) { }
 
-	// RVA: 0xAF6F00 Offset: 0xAF5500 VA: 0x180AF6F00
+	// RVA: 0xAF73D0 Offset: 0xAF59D0 VA: 0x180AF73D0
 	private void RemoveCache(DataRelation relation) { }
 
-	// RVA: 0xAF7010 Offset: 0xAF5610 VA: 0x180AF7010 Slot: 20
+	// RVA: 0xAF74E0 Offset: 0xAF5AE0 VA: 0x180AF74E0 Slot: 20
 	protected override void RemoveCore(DataRelation relation) { }
 
 }
@@ -3562,28 +3562,28 @@ internal sealed class DataRelationCollection.DataSetRelationCollection : DataRel
 
 	// Methods
 
-	// RVA: 0xAEB220 Offset: 0xAE9820 VA: 0x180AEB220
+	// RVA: 0xAEB6F0 Offset: 0xAE9CF0 VA: 0x180AEB6F0
 	internal void .ctor(DataSet dataSet) { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0 Slot: 11
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540 Slot: 11
 	protected override ArrayList get_List() { }
 
-	// RVA: 0xAEAED0 Offset: 0xAE94D0 VA: 0x180AEAED0 Slot: 15
+	// RVA: 0xAEB3A0 Offset: 0xAE99A0 VA: 0x180AEB3A0 Slot: 15
 	public override void Clear() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0 Slot: 17
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340 Slot: 17
 	protected override DataSet GetDataSet() { }
 
-	// RVA: 0xAEB2C0 Offset: 0xAE98C0 VA: 0x180AEB2C0 Slot: 12
+	// RVA: 0xAEB790 Offset: 0xAE9D90 VA: 0x180AEB790 Slot: 12
 	public override DataRelation get_Item(int index) { }
 
-	// RVA: 0xAEB3C0 Offset: 0xAE99C0 VA: 0x180AEB3C0 Slot: 13
+	// RVA: 0xAEB890 Offset: 0xAE9E90 VA: 0x180AEB890 Slot: 13
 	public override DataRelation get_Item(string name) { }
 
-	// RVA: 0xAEA7F0 Offset: 0xAE8DF0 VA: 0x180AEA7F0 Slot: 14
+	// RVA: 0xAEACC0 Offset: 0xAE92C0 VA: 0x180AEACC0 Slot: 14
 	protected override void AddCore(DataRelation relation) { }
 
-	// RVA: 0xAEAF20 Offset: 0xAE9520 VA: 0x180AEAF20 Slot: 20
+	// RVA: 0xAEB3F0 Offset: 0xAE99F0 VA: 0x180AEB3F0 Slot: 20
 	protected override void RemoveCore(DataRelation relation) { }
 
 }
@@ -3601,29 +3601,29 @@ internal sealed class DataRelationPropertyDescriptor : PropertyDescriptor // Typ
 
 	// Methods
 
-	// RVA: 0xAE4650 Offset: 0xAE2C50 VA: 0x180AE4650
+	// RVA: 0xAE4B20 Offset: 0xAE3120 VA: 0x180AE4B20
 	internal void .ctor(DataRelation dataRelation) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300
 	internal DataRelation get_Relation() { }
 
-	// RVA: 0xAE46B0 Offset: 0xAE2CB0 VA: 0x180AE46B0 Slot: 13
+	// RVA: 0xAE4B80 Offset: 0xAE3180 VA: 0x180AE4B80 Slot: 13
 	public override Type get_ComponentType() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 15
 	public override bool get_IsReadOnly() { }
 
-	// RVA: 0xAE4710 Offset: 0xAE2D10 VA: 0x180AE4710 Slot: 16
+	// RVA: 0xAE4BE0 Offset: 0xAE31E0 VA: 0x180AE4BE0 Slot: 16
 	public override Type get_PropertyType() { }
 
-	// RVA: 0xAE44A0 Offset: 0xAE2AA0 VA: 0x180AE44A0 Slot: 0
+	// RVA: 0xAE4970 Offset: 0xAE2F70 VA: 0x180AE4970 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0xAE4530 Offset: 0xAE2B30 VA: 0x180AE4530 Slot: 2
+	// RVA: 0xAE4A00 Offset: 0xAE3000 VA: 0x180AE4A00 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xAE4560 Offset: 0xAE2B60 VA: 0x180AE4560 Slot: 17
+	// RVA: 0xAE4A30 Offset: 0xAE3030 VA: 0x180AE4A30 Slot: 17
 	public override object GetValue(object component) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 19
@@ -3670,220 +3670,220 @@ public class DataRow // TypeDefIndex: 4208
 
 	// Methods
 
-	// RVA: 0xAE94F0 Offset: 0xAE7AF0 VA: 0x180AE94F0
+	// RVA: 0xAE99C0 Offset: 0xAE7FC0 VA: 0x180AE99C0
 	protected internal void .ctor(DataRowBuilder builder) { }
 
-	// RVA: 0xAE9A90 Offset: 0xAE8090 VA: 0x180AE9A90
+	// RVA: 0xAE9F60 Offset: 0xAE8560 VA: 0x180AE9F60
 	internal DataColumn get_LastChangedColumn() { }
 
-	// RVA: 0xAEA5B0 Offset: 0xAE8BB0 VA: 0x180AEA5B0
+	// RVA: 0xAEAA80 Offset: 0xAE9080 VA: 0x180AEAA80
 	internal void set_LastChangedColumn(DataColumn value) { }
 
-	// RVA: 0xAE95C0 Offset: 0xAE7BC0 VA: 0x180AE95C0
+	// RVA: 0xAE9A90 Offset: 0xAE8090 VA: 0x180AE9A90
 	internal bool get_HasPropertyChanged() { }
 
-	// RVA: 0xAE9AA0 Offset: 0xAE80A0 VA: 0x180AE9AA0
+	// RVA: 0xAE9F70 Offset: 0xAE8570 VA: 0x180AE9F70
 	internal int get_RBTreeNodeId() { }
 
-	// RVA: 0xAEA5C0 Offset: 0xAE8BC0 VA: 0x180AEA5C0
+	// RVA: 0xAEAA90 Offset: 0xAE9090 VA: 0x180AEAA90
 	internal void set_RBTreeNodeId(int value) { }
 
-	// RVA: 0xAE9AB0 Offset: 0xAE80B0 VA: 0x180AE9AB0
+	// RVA: 0xAE9F80 Offset: 0xAE8580 VA: 0x180AE9F80
 	public string get_RowError() { }
 
-	// RVA: 0xAEA660 Offset: 0xAE8C60 VA: 0x180AEA660
+	// RVA: 0xAEAB30 Offset: 0xAE9130 VA: 0x180AEAB30
 	public void set_RowError(string value) { }
 
-	// RVA: 0xAE86B0 Offset: 0xAE6CB0 VA: 0x180AE86B0
+	// RVA: 0xAE8B80 Offset: 0xAE7180 VA: 0x180AE8B80
 	private void RowErrorChanged() { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	internal long get_rowID() { }
 
-	// RVA: 0xAEA7B0 Offset: 0xAE8DB0 VA: 0x180AEA7B0
+	// RVA: 0xAEAC80 Offset: 0xAE9280 VA: 0x180AEAC80
 	internal void set_rowID(long value) { }
 
-	// RVA: 0xAE9B00 Offset: 0xAE8100 VA: 0x180AE9B00
+	// RVA: 0xAE9FD0 Offset: 0xAE85D0 VA: 0x180AE9FD0
 	public DataRowState get_RowState() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public DataTable get_Table() { }
 
-	// RVA: 0xAE9760 Offset: 0xAE7D60 VA: 0x180AE9760
+	// RVA: 0xAE9C30 Offset: 0xAE8230 VA: 0x180AE9C30
 	public object get_Item(int columnIndex) { }
 
-	// RVA: 0xAEA560 Offset: 0xAE8B60 VA: 0x180AEA560
+	// RVA: 0xAEAA30 Offset: 0xAE9030 VA: 0x180AEAA30
 	public void set_Item(int columnIndex, object value) { }
 
-	// RVA: 0xAE6840 Offset: 0xAE4E40 VA: 0x180AE6840
+	// RVA: 0xAE6D10 Offset: 0xAE5310 VA: 0x180AE6D10
 	internal void CheckForLoops(DataRelation rel) { }
 
-	// RVA: 0xAE7650 Offset: 0xAE5C50 VA: 0x180AE7650
+	// RVA: 0xAE7B20 Offset: 0xAE6120 VA: 0x180AE7B20
 	internal int GetNestedParentCount() { }
 
-	// RVA: 0xAE9920 Offset: 0xAE7F20 VA: 0x180AE9920
+	// RVA: 0xAE9DF0 Offset: 0xAE83F0 VA: 0x180AE9DF0
 	public object get_Item(string columnName) { }
 
-	// RVA: 0xAEA520 Offset: 0xAE8B20 VA: 0x180AEA520
+	// RVA: 0xAEA9F0 Offset: 0xAE8FF0 VA: 0x180AEA9F0
 	public void set_Item(string columnName, object value) { }
 
-	// RVA: 0xAE9800 Offset: 0xAE7E00 VA: 0x180AE9800
+	// RVA: 0xAE9CD0 Offset: 0xAE82D0 VA: 0x180AE9CD0
 	public object get_Item(DataColumn column) { }
 
-	// RVA: 0xAEA110 Offset: 0xAE8710 VA: 0x180AEA110
+	// RVA: 0xAEA5E0 Offset: 0xAE8BE0 VA: 0x180AEA5E0
 	public void set_Item(DataColumn column, object value) { }
 
-	// RVA: 0xAE99B0 Offset: 0xAE7FB0 VA: 0x180AE99B0
+	// RVA: 0xAE9E80 Offset: 0xAE8480 VA: 0x180AE9E80
 	public object get_Item(DataColumn column, DataRowVersion version) { }
 
-	// RVA: 0xAE95D0 Offset: 0xAE7BD0 VA: 0x180AE95D0
+	// RVA: 0xAE9AA0 Offset: 0xAE80A0 VA: 0x180AE9AA0
 	public object[] get_ItemArray() { }
 
-	// RVA: 0xAE9CB0 Offset: 0xAE82B0 VA: 0x180AE9CB0
+	// RVA: 0xAEA180 Offset: 0xAE8780 VA: 0x180AEA180
 	public void set_ItemArray(object[] value) { }
 
-	// RVA: 0xAE6250 Offset: 0xAE4850 VA: 0x180AE6250
+	// RVA: 0xAE6720 Offset: 0xAE4D20 VA: 0x180AE6720
 	public void AcceptChanges() { }
 
 	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
-	// RVA: 0xAE66E0 Offset: 0xAE4CE0 VA: 0x180AE66E0
+	// RVA: 0xAE6BB0 Offset: 0xAE51B0 VA: 0x180AE6BB0
 	public void BeginEdit() { }
 
-	// RVA: 0xAE6600 Offset: 0xAE4C00 VA: 0x180AE6600
+	// RVA: 0xAE6AD0 Offset: 0xAE50D0 VA: 0x180AE6AD0
 	private bool BeginEditInternal() { }
 
 	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
-	// RVA: 0xAE66F0 Offset: 0xAE4CF0 VA: 0x180AE66F0
+	// RVA: 0xAE6BC0 Offset: 0xAE51C0 VA: 0x180AE6BC0
 	public void CancelEdit() { }
 
-	// RVA: 0xAE6780 Offset: 0xAE4D80 VA: 0x180AE6780
+	// RVA: 0xAE6C50 Offset: 0xAE5250 VA: 0x180AE6C50
 	private void CheckColumn(DataColumn column) { }
 
-	// RVA: 0xAE6950 Offset: 0xAE4F50 VA: 0x180AE6950
+	// RVA: 0xAE6E20 Offset: 0xAE5420 VA: 0x180AE6E20
 	internal void CheckInTable() { }
 
-	// RVA: 0xAE6E00 Offset: 0xAE5400 VA: 0x180AE6E00
+	// RVA: 0xAE72D0 Offset: 0xAE58D0 VA: 0x180AE72D0
 	public void Delete() { }
 
 	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
-	// RVA: 0xAE6EE0 Offset: 0xAE54E0 VA: 0x180AE6EE0
+	// RVA: 0xAE73B0 Offset: 0xAE59B0 VA: 0x180AE73B0
 	public void EndEdit() { }
 
-	// RVA: 0xAE8700 Offset: 0xAE6D00 VA: 0x180AE8700
+	// RVA: 0xAE8BD0 Offset: 0xAE71D0 VA: 0x180AE8BD0
 	public void SetColumnError(int columnIndex, string error) { }
 
-	// RVA: 0xAE8790 Offset: 0xAE6D90 VA: 0x180AE8790
+	// RVA: 0xAE8C60 Offset: 0xAE7260 VA: 0x180AE8C60
 	public void SetColumnError(DataColumn column, string error) { }
 
-	// RVA: 0xAE7190 Offset: 0xAE5790 VA: 0x180AE7190
+	// RVA: 0xAE7660 Offset: 0xAE5C60 VA: 0x180AE7660
 	public string GetColumnError(DataColumn column) { }
 
-	// RVA: 0xAE6A00 Offset: 0xAE5000 VA: 0x180AE6A00
+	// RVA: 0xAE6ED0 Offset: 0xAE54D0 VA: 0x180AE6ED0
 	public void ClearErrors() { }
 
-	// RVA: 0xAE69A0 Offset: 0xAE4FA0 VA: 0x180AE69A0
+	// RVA: 0xAE6E70 Offset: 0xAE5470 VA: 0x180AE6E70
 	internal void ClearError(DataColumn column) { }
 
-	// RVA: 0xAE95A0 Offset: 0xAE7BA0 VA: 0x180AE95A0
+	// RVA: 0xAE9A70 Offset: 0xAE8070 VA: 0x180AE9A70
 	public bool get_HasErrors() { }
 
-	// RVA: 0xAE73D0 Offset: 0xAE59D0 VA: 0x180AE73D0
+	// RVA: 0xAE78A0 Offset: 0xAE5EA0 VA: 0x180AE78A0
 	public DataColumn[] GetColumnsInError() { }
 
-	// RVA: 0xAE7000 Offset: 0xAE5600 VA: 0x180AE7000
+	// RVA: 0xAE74D0 Offset: 0xAE5AD0 VA: 0x180AE74D0
 	public DataRow[] GetChildRows(DataRelation relation) { }
 
-	// RVA: 0xAE7010 Offset: 0xAE5610 VA: 0x180AE7010
+	// RVA: 0xAE74E0 Offset: 0xAE5AE0 VA: 0x180AE74E0
 	public DataRow[] GetChildRows(DataRelation relation, DataRowVersion version) { }
 
-	// RVA: 0xAE7470 Offset: 0xAE5A70 VA: 0x180AE7470
+	// RVA: 0xAE7940 Offset: 0xAE5F40 VA: 0x180AE7940
 	internal DataColumn GetDataColumn(string columnName) { }
 
-	// RVA: 0xAE79D0 Offset: 0xAE5FD0 VA: 0x180AE79D0
+	// RVA: 0xAE7EA0 Offset: 0xAE64A0 VA: 0x180AE7EA0
 	public DataRow GetParentRow(DataRelation relation) { }
 
-	// RVA: 0xAE7860 Offset: 0xAE5E60 VA: 0x180AE7860
+	// RVA: 0xAE7D30 Offset: 0xAE6330 VA: 0x180AE7D30
 	public DataRow GetParentRow(DataRelation relation, DataRowVersion version) { }
 
-	// RVA: 0xAE7730 Offset: 0xAE5D30 VA: 0x180AE7730
+	// RVA: 0xAE7C00 Offset: 0xAE6200 VA: 0x180AE7C00
 	internal DataRow GetNestedParentRow(DataRowVersion version) { }
 
-	// RVA: 0xAE7B60 Offset: 0xAE6160 VA: 0x180AE7B60
+	// RVA: 0xAE8030 Offset: 0xAE6630 VA: 0x180AE8030
 	public DataRow[] GetParentRows(DataRelation relation) { }
 
-	// RVA: 0xAE79E0 Offset: 0xAE5FE0 VA: 0x180AE79E0
+	// RVA: 0xAE7EB0 Offset: 0xAE64B0 VA: 0x180AE7EB0
 	public DataRow[] GetParentRows(DataRelation relation, DataRowVersion version) { }
 
-	// RVA: 0xAE72C0 Offset: 0xAE58C0 VA: 0x180AE72C0
+	// RVA: 0xAE7790 Offset: 0xAE5D90 VA: 0x180AE7790
 	internal object[] GetColumnValues(DataColumn[] columns) { }
 
-	// RVA: 0xAE7370 Offset: 0xAE5970 VA: 0x180AE7370
+	// RVA: 0xAE7840 Offset: 0xAE5E40 VA: 0x180AE7840
 	internal object[] GetColumnValues(DataColumn[] columns, DataRowVersion version) { }
 
-	// RVA: 0xAE75A0 Offset: 0xAE5BA0 VA: 0x180AE75A0
+	// RVA: 0xAE7A70 Offset: 0xAE6070 VA: 0x180AE7A70
 	internal object[] GetKeyValues(DataKey key) { }
 
-	// RVA: 0xAE7620 Offset: 0xAE5C20 VA: 0x180AE7620
+	// RVA: 0xAE7AF0 Offset: 0xAE60F0 VA: 0x180AE7AF0
 	internal object[] GetKeyValues(DataKey key, DataRowVersion version) { }
 
-	// RVA: 0xAE7420 Offset: 0xAE5A20 VA: 0x180AE7420
+	// RVA: 0xAE78F0 Offset: 0xAE5EF0 VA: 0x180AE78F0
 	internal int GetCurrentRecordNo() { }
 
-	// RVA: 0xAE7500 Offset: 0xAE5B00 VA: 0x180AE7500
+	// RVA: 0xAE79D0 Offset: 0xAE5FD0 VA: 0x180AE79D0
 	internal int GetDefaultRecord() { }
 
-	// RVA: 0xAE7810 Offset: 0xAE5E10 VA: 0x180AE7810
+	// RVA: 0xAE7CE0 Offset: 0xAE62E0 VA: 0x180AE7CE0
 	internal int GetOriginalRecordNo() { }
 
-	// RVA: 0xAE7B70 Offset: 0xAE6170 VA: 0x180AE7B70
+	// RVA: 0xAE8040 Offset: 0xAE6640 VA: 0x180AE8040
 	private int GetProposedRecordNo() { }
 
-	// RVA: 0xAE7BC0 Offset: 0xAE61C0 VA: 0x180AE7BC0
+	// RVA: 0xAE8090 Offset: 0xAE6690 VA: 0x180AE8090
 	internal int GetRecordFromVersion(DataRowVersion version) { }
 
-	// RVA: 0xAE7570 Offset: 0xAE5B70 VA: 0x180AE7570
+	// RVA: 0xAE7A40 Offset: 0xAE6040 VA: 0x180AE7A40
 	internal DataRowVersion GetDefaultRowVersion(DataViewRowState viewState) { }
 
-	// RVA: 0xAE7D60 Offset: 0xAE6360 VA: 0x180AE7D60
+	// RVA: 0xAE8230 Offset: 0xAE6830 VA: 0x180AE8230
 	internal DataViewRowState GetRecordState(int record) { }
 
-	// RVA: 0xAE7DB0 Offset: 0xAE63B0 VA: 0x180AE7DB0
+	// RVA: 0xAE8280 Offset: 0xAE6880 VA: 0x180AE8280
 	internal bool HasKeyChanged(DataKey key) { }
 
-	// RVA: 0xAE7DE0 Offset: 0xAE63E0 VA: 0x180AE7DE0
+	// RVA: 0xAE82B0 Offset: 0xAE68B0 VA: 0x180AE82B0
 	internal bool HasKeyChanged(DataKey key, DataRowVersion version1, DataRowVersion version2) { }
 
-	// RVA: 0xAE7E80 Offset: 0xAE6480 VA: 0x180AE7E80
+	// RVA: 0xAE8350 Offset: 0xAE6950 VA: 0x180AE8350
 	public bool HasVersion(DataRowVersion version) { }
 
-	// RVA: 0xAE80F0 Offset: 0xAE66F0 VA: 0x180AE80F0
+	// RVA: 0xAE85C0 Offset: 0xAE6BC0 VA: 0x180AE85C0
 	internal bool HaveValuesChanged(DataColumn[] columns) { }
 
-	// RVA: 0xAE7F40 Offset: 0xAE6540 VA: 0x180AE7F40
+	// RVA: 0xAE8410 Offset: 0xAE6A10 VA: 0x180AE8410
 	internal bool HaveValuesChanged(DataColumn[] columns, DataRowVersion version1, DataRowVersion version2) { }
 
-	// RVA: 0xAE8120 Offset: 0xAE6720 VA: 0x180AE8120
+	// RVA: 0xAE85F0 Offset: 0xAE6BF0 VA: 0x180AE85F0
 	public bool IsNull(string columnName) { }
 
-	// RVA: 0xAE81B0 Offset: 0xAE67B0 VA: 0x180AE81B0
+	// RVA: 0xAE8680 Offset: 0xAE6C80 VA: 0x180AE8680
 	public void RejectChanges() { }
 
-	// RVA: 0xAE8680 Offset: 0xAE6C80 VA: 0x180AE8680
+	// RVA: 0xAE8B50 Offset: 0xAE7150 VA: 0x180AE8B50
 	internal void ResetLastChangedColumn() { }
 
-	// RVA: 0xAE8A50 Offset: 0xAE7050 VA: 0x180AE8A50
+	// RVA: 0xAE8F20 Offset: 0xAE7520 VA: 0x180AE8F20
 	internal void SetKeyValues(DataKey key, object[] keyValues) { }
 
-	// RVA: 0xAE8BA0 Offset: 0xAE71A0 VA: 0x180AE8BA0
+	// RVA: 0xAE9070 Offset: 0xAE7670 VA: 0x180AE9070
 	internal void SetNestedParentRow(DataRow parentRow, bool setNonNested) { }
 
-	// RVA: 0xAE8FB0 Offset: 0xAE75B0 VA: 0x180AE8FB0
+	// RVA: 0xAE9480 Offset: 0xAE7A80 VA: 0x180AE9480
 	internal void SetParentRowToDBNull() { }
 
-	// RVA: 0xAE9340 Offset: 0xAE7940 VA: 0x180AE9340
+	// RVA: 0xAE9810 Offset: 0xAE7E10 VA: 0x180AE9810
 	internal void SetParentRowToDBNull(DataRelation relation) { }
 
-	// RVA: 0xAE6A60 Offset: 0xAE5060 VA: 0x180AE6A60
+	// RVA: 0xAE6F30 Offset: 0xAE5530 VA: 0x180AE6F30
 	internal int CopyValuesIntoStore(ArrayList storeList, ArrayList nullbitList, int storeIndex) { }
 
 }
@@ -3895,7 +3895,7 @@ public sealed class DataRowBuilder // TypeDefIndex: 4209
 
 	// Methods
 
-	// RVA: 0xAE4770 Offset: 0xAE2D70 VA: 0x180AE4770
+	// RVA: 0xAE4C40 Offset: 0xAE3240 VA: 0x180AE4C40
 	internal void .ctor(DataTable table, int record) { }
 
 }
@@ -3923,7 +3923,7 @@ public class DataRowChangeEventArgs : EventArgs // TypeDefIndex: 4211
 
 	// Methods
 
-	// RVA: 0xAE47C0 Offset: 0xAE2DC0 VA: 0x180AE47C0
+	// RVA: 0xAE4C90 Offset: 0xAE3290 VA: 0x180AE4C90
 	public void .ctor(DataRow row, DataRowAction action) { }
 
 }
@@ -3934,10 +3934,10 @@ public sealed class DataRowChangeEventHandler : MulticastDelegate // TypeDefInde
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880 Slot: 12
+	// RVA: 0xAE4D50 Offset: 0xAE3350 VA: 0x180AE4D50 Slot: 12
 	public virtual void Invoke(object sender, DataRowChangeEventArgs e) { }
 
-	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
+	// RVA: 0xAE4D10 Offset: 0xAE3310 VA: 0x180AE4D10 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object sender, DataRowChangeEventArgs e, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -3957,55 +3957,55 @@ public sealed class DataRowCollection : InternalDataCollectionBase // TypeDefInd
 
 	// Methods
 
-	// RVA: 0xAE5820 Offset: 0xAE3E20 VA: 0x180AE5820
+	// RVA: 0xAE5CF0 Offset: 0xAE42F0 VA: 0x180AE5CF0
 	internal void .ctor(DataTable table) { }
 
-	// RVA: 0xAE58F0 Offset: 0xAE3EF0 VA: 0x180AE58F0 Slot: 8
+	// RVA: 0xAE5DC0 Offset: 0xAE43C0 VA: 0x180AE5DC0 Slot: 8
 	public override int get_Count() { }
 
-	// RVA: 0xAE5940 Offset: 0xAE3F40 VA: 0x180AE5940
+	// RVA: 0xAE5E10 Offset: 0xAE4410 VA: 0x180AE5E10
 	public DataRow get_Item(int index) { }
 
-	// RVA: 0xAE4E70 Offset: 0xAE3470 VA: 0x180AE4E70
+	// RVA: 0xAE5340 Offset: 0xAE3940 VA: 0x180AE5340
 	public void Add(DataRow row) { }
 
-	// RVA: 0xAE51E0 Offset: 0xAE37E0 VA: 0x180AE51E0
+	// RVA: 0xAE56B0 Offset: 0xAE3CB0 VA: 0x180AE56B0
 	internal void DiffInsertAt(DataRow row, int pos) { }
 
-	// RVA: 0xAE5480 Offset: 0xAE3A80 VA: 0x180AE5480
+	// RVA: 0xAE5950 Offset: 0xAE3F50 VA: 0x180AE5950
 	public int IndexOf(DataRow row) { }
 
-	// RVA: 0xAE4D60 Offset: 0xAE3360 VA: 0x180AE4D60
+	// RVA: 0xAE5230 Offset: 0xAE3830 VA: 0x180AE5230
 	internal DataRow AddWithColumnEvents(object[] values) { }
 
-	// RVA: 0xAE4EB0 Offset: 0xAE34B0 VA: 0x180AE4EB0
+	// RVA: 0xAE5380 Offset: 0xAE3980 VA: 0x180AE5380
 	public DataRow Add(object[] values) { }
 
-	// RVA: 0xAE4F30 Offset: 0xAE3530 VA: 0x180AE4F30
+	// RVA: 0xAE5400 Offset: 0xAE3A00 VA: 0x180AE5400
 	internal void ArrayAdd(DataRow row) { }
 
-	// RVA: 0xAE4FF0 Offset: 0xAE35F0 VA: 0x180AE4FF0
+	// RVA: 0xAE54C0 Offset: 0xAE3AC0 VA: 0x180AE54C0
 	internal void ArrayInsert(DataRow row, int pos) { }
 
-	// RVA: 0xAE4FA0 Offset: 0xAE35A0 VA: 0x180AE4FA0
+	// RVA: 0xAE5470 Offset: 0xAE3A70 VA: 0x180AE5470
 	internal void ArrayClear() { }
 
-	// RVA: 0xAE5070 Offset: 0xAE3670 VA: 0x180AE5070
+	// RVA: 0xAE5540 Offset: 0xAE3B40 VA: 0x180AE5540
 	internal void ArrayRemove(DataRow row) { }
 
-	// RVA: 0xAE5170 Offset: 0xAE3770 VA: 0x180AE5170 Slot: 9
+	// RVA: 0xAE5640 Offset: 0xAE3C40 VA: 0x180AE5640 Slot: 9
 	public override void CopyTo(Array ar, int index) { }
 
-	// RVA: 0xAE5100 Offset: 0xAE3700 VA: 0x180AE5100
+	// RVA: 0xAE55D0 Offset: 0xAE3BD0 VA: 0x180AE55D0
 	public void CopyTo(DataRow[] array, int index) { }
 
-	// RVA: 0xAE5430 Offset: 0xAE3A30 VA: 0x180AE5430 Slot: 10
+	// RVA: 0xAE5900 Offset: 0xAE3F00 VA: 0x180AE5900 Slot: 10
 	public override IEnumerator GetEnumerator() { }
 
-	// RVA: 0xAE56B0 Offset: 0xAE3CB0 VA: 0x180AE56B0
+	// RVA: 0xAE5B80 Offset: 0xAE4180 VA: 0x180AE5B80
 	public void Remove(DataRow row) { }
 
-	// RVA: 0xAE5510 Offset: 0xAE3B10 VA: 0x180AE5510
+	// RVA: 0xAE59E0 Offset: 0xAE3FE0 VA: 0x180AE59E0
 	public void RemoveAt(int index) { }
 
 }
@@ -4013,13 +4013,13 @@ public sealed class DataRowCollection : InternalDataCollectionBase // TypeDefInd
 private sealed class DataRowCollection.DataRowTree : RBTree<DataRow> // TypeDefIndex: 4214
 {	// Methods
 
-	// RVA: 0xAE5A20 Offset: 0xAE4020 VA: 0x180AE5A20
+	// RVA: 0xAE5EF0 Offset: 0xAE44F0 VA: 0x180AE5EF0
 	internal void .ctor() { }
 
-	// RVA: 0xAE59A0 Offset: 0xAE3FA0 VA: 0x180AE59A0 Slot: 5
+	// RVA: 0xAE5E70 Offset: 0xAE4470 VA: 0x180AE5E70 Slot: 5
 	protected override int CompareNode(DataRow record1, DataRow record2) { }
 
-	// RVA: 0xAE59E0 Offset: 0xAE3FE0 VA: 0x180AE59E0 Slot: 6
+	// RVA: 0xAE5EB0 Offset: 0xAE44B0 VA: 0x180AE5EB0 Slot: 6
 	protected override int CompareSateliteTreeNode(DataRow record1, DataRow record2) { }
 
 }
@@ -4030,10 +4030,10 @@ internal sealed class DataRowCreatedEventHandler : MulticastDelegate // TypeDefI
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880 Slot: 12
+	// RVA: 0xAE4D50 Offset: 0xAE3350 VA: 0x180AE4D50 Slot: 12
 	public virtual void Invoke(object sender, DataRow r) { }
 
-	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
+	// RVA: 0xAE4D10 Offset: 0xAE3310 VA: 0x180AE4D10 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object sender, DataRow r, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -4047,10 +4047,10 @@ internal sealed class DataSetClearEventhandler : MulticastDelegate // TypeDefInd
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880 Slot: 12
+	// RVA: 0xAE4D50 Offset: 0xAE3350 VA: 0x180AE4D50 Slot: 12
 	public virtual void Invoke(object sender, DataTable table) { }
 
-	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
+	// RVA: 0xAE4D10 Offset: 0xAE3310 VA: 0x180AE4D10 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object sender, DataTable table, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -4096,67 +4096,67 @@ public class DataRowView : ICustomTypeDescriptor // TypeDefIndex: 4219
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	internal void .ctor(DataView dataView, DataRow row) { }
 
-	// RVA: 0xAE5CA0 Offset: 0xAE42A0 VA: 0x180AE5CA0 Slot: 0
+	// RVA: 0xAE6170 Offset: 0xAE4770 VA: 0x180AE6170 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0xAE5D30 Offset: 0xAE4330 VA: 0x180AE5D30 Slot: 2
+	// RVA: 0xAE6200 Offset: 0xAE4800 VA: 0x180AE6200 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public DataView get_DataView() { }
 
-	// RVA: 0xAE61F0 Offset: 0xAE47F0 VA: 0x180AE61F0
+	// RVA: 0xAE66C0 Offset: 0xAE4CC0 VA: 0x180AE66C0
 	private DataRowVersion get_RowVersionDefault() { }
 
-	// RVA: 0xAE5D60 Offset: 0xAE4360 VA: 0x180AE5D60
+	// RVA: 0xAE6230 Offset: 0xAE4830 VA: 0x180AE6230
 	internal int GetRecord() { }
 
-	// RVA: 0xAE5DE0 Offset: 0xAE43E0 VA: 0x180AE5DE0
+	// RVA: 0xAE62B0 Offset: 0xAE48B0 VA: 0x180AE62B0
 	internal bool HasRecord() { }
 
-	// RVA: 0xAE5CB0 Offset: 0xAE42B0 VA: 0x180AE5CB0
+	// RVA: 0xAE6180 Offset: 0xAE4780 VA: 0x180AE6180
 	internal object GetColumnValue(DataColumn column) { }
 
-	// RVA: 0xAE5EF0 Offset: 0xAE44F0 VA: 0x180AE5EF0
+	// RVA: 0xAE63C0 Offset: 0xAE49C0 VA: 0x180AE63C0
 	internal void SetColumnValue(DataColumn column, object value) { }
 
-	// RVA: 0xAE5A60 Offset: 0xAE4060 VA: 0x180AE5A60
+	// RVA: 0xAE5F30 Offset: 0xAE4530 VA: 0x180AE5F30
 	public DataView CreateChildView(DataRelation relation, bool followParent) { }
 
-	// RVA: 0xAE5C40 Offset: 0xAE4240 VA: 0x180AE5C40
+	// RVA: 0xAE6110 Offset: 0xAE4710 VA: 0x180AE6110
 	public DataView CreateChildView(DataRelation relation) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public DataRow get_Row() { }
 
-	// RVA: 0xAE5C50 Offset: 0xAE4250 VA: 0x180AE5C50 Slot: 9
+	// RVA: 0xAE6120 Offset: 0xAE4720 VA: 0x180AE6120 Slot: 9
 	public void EndEdit() { }
 
-	// RVA: 0xAE61C0 Offset: 0xAE47C0 VA: 0x180AE61C0
+	// RVA: 0xAE6690 Offset: 0xAE4C90 VA: 0x180AE6690
 	public bool get_IsNew() { }
 
-	// RVA: 0xAE5E60 Offset: 0xAE4460 VA: 0x180AE5E60
+	// RVA: 0xAE6330 Offset: 0xAE4930 VA: 0x180AE6330
 	internal void RaisePropertyChangedEvent(string propName) { }
 
-	// RVA: 0xAE5FC0 Offset: 0xAE45C0 VA: 0x180AE5FC0 Slot: 4
+	// RVA: 0xAE6490 Offset: 0xAE4A90 VA: 0x180AE6490 Slot: 4
 	private AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 5
 	private TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter() { }
 
-	// RVA: 0xAE6010 Offset: 0xAE4610 VA: 0x180AE6010 Slot: 6
+	// RVA: 0xAE64E0 Offset: 0xAE4AE0 VA: 0x180AE64E0 Slot: 6
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties() { }
 
-	// RVA: 0xAE60C0 Offset: 0xAE46C0 VA: 0x180AE60C0 Slot: 7
+	// RVA: 0xAE6590 Offset: 0xAE4B90 VA: 0x180AE6590 Slot: 7
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties(Attribute[] attributes) { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 8
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 8
 	private object System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(PropertyDescriptor pd) { }
 
-	// RVA: 0xAE6160 Offset: 0xAE4760 VA: 0x180AE6160
+	// RVA: 0xAE6630 Offset: 0xAE4C30 VA: 0x180AE6630
 	private static void .cctor() { }
 
 }
@@ -4228,256 +4228,256 @@ public class DataSet : MarshalByValueComponent, IXmlSerializable, ISerializable 
 
 	// Methods
 
-	// RVA: 0xAF5B30 Offset: 0xAF4130 VA: 0x180AF5B30
+	// RVA: 0xAF6000 Offset: 0xAF4600 VA: 0x180AF6000
 	public void .ctor() { }
 
-	// RVA: 0xAF5DB0 Offset: 0xAF43B0 VA: 0x180AF5DB0
+	// RVA: 0xAF6280 Offset: 0xAF4880 VA: 0x180AF6280
 	public void .ctor(string dataSetName) { }
 
-	// RVA: 0xAF6020 Offset: 0xAF4620 VA: 0x180AF6020
+	// RVA: 0xAF64F0 Offset: 0xAF4AF0 VA: 0x180AF64F0
 	public SerializationFormat get_RemotingFormat() { }
 
-	// RVA: 0xAF6B80 Offset: 0xAF5180 VA: 0x180AF6B80
+	// RVA: 0xAF7050 Offset: 0xAF5650 VA: 0x180AF7050
 	public void set_RemotingFormat(SerializationFormat value) { }
 
-	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 14
+	// RVA: 0x5B1870 Offset: 0x5AFE70 VA: 0x1805B1870 Slot: 14
 	public virtual SchemaSerializationMode get_SchemaSerializationMode() { }
 
-	// RVA: 0xAF5B00 Offset: 0xAF4100 VA: 0x180AF5B00
+	// RVA: 0xAF5FD0 Offset: 0xAF45D0 VA: 0x180AF5FD0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xAF5DE0 Offset: 0xAF43E0 VA: 0x180AF5DE0
+	// RVA: 0xAF62B0 Offset: 0xAF48B0 VA: 0x180AF62B0
 	protected void .ctor(SerializationInfo info, StreamingContext context, bool ConstructSchema) { }
 
-	// RVA: 0xAEE1B0 Offset: 0xAEC7B0 VA: 0x180AEE1B0 Slot: 15
+	// RVA: 0xAEE680 Offset: 0xAECC80 VA: 0x180AEE680 Slot: 15
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 16
 	protected virtual void InitializeDerivedDataSet() { }
 
-	// RVA: 0xAF32C0 Offset: 0xAF18C0 VA: 0x180AF32C0
+	// RVA: 0xAF3790 Offset: 0xAF1D90 VA: 0x180AF3790
 	private void SerializeDataSet(SerializationInfo info, StreamingContext context, SerializationFormat remotingFormat) { }
 
-	// RVA: 0xAECEE0 Offset: 0xAEB4E0 VA: 0x180AECEE0
+	// RVA: 0xAED3B0 Offset: 0xAEB9B0 VA: 0x180AED3B0
 	internal void DeserializeDataSet(SerializationInfo info, StreamingContext context, SerializationFormat remotingFormat, SchemaSerializationMode schemaSerializationMode) { }
 
-	// RVA: 0xAEC950 Offset: 0xAEAF50 VA: 0x180AEC950
+	// RVA: 0xAECE20 Offset: 0xAEB420 VA: 0x180AECE20
 	private void DeserializeDataSetSchema(SerializationInfo info, StreamingContext context, SerializationFormat remotingFormat, SchemaSerializationMode schemaSerializationMode) { }
 
-	// RVA: 0xAEC5A0 Offset: 0xAEABA0 VA: 0x180AEC5A0
+	// RVA: 0xAECA70 Offset: 0xAEB070 VA: 0x180AECA70
 	private void DeserializeDataSetData(SerializationInfo info, StreamingContext context, SerializationFormat remotingFormat) { }
 
-	// RVA: 0xAF3160 Offset: 0xAF1760 VA: 0x180AF3160
+	// RVA: 0xAF3630 Offset: 0xAF1C30 VA: 0x180AF3630
 	private void SerializeDataSetProperties(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xAEC740 Offset: 0xAEAD40 VA: 0x180AEC740
+	// RVA: 0xAECC10 Offset: 0xAEB210 VA: 0x180AECC10
 	private void DeserializeDataSetProperties(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xAF3AA0 Offset: 0xAF20A0 VA: 0x180AF3AA0
+	// RVA: 0xAF3F70 Offset: 0xAF2570 VA: 0x180AF3F70
 	private void SerializeRelations(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xAED0B0 Offset: 0xAEB6B0 VA: 0x180AED0B0
+	// RVA: 0xAED580 Offset: 0xAEBB80 VA: 0x180AED580
 	private void DeserializeRelations(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xAEDEF0 Offset: 0xAEC4F0 VA: 0x180AEDEF0
+	// RVA: 0xAEE3C0 Offset: 0xAEC9C0 VA: 0x180AEE3C0
 	internal void FailedEnableConstraints() { }
 
-	// RVA: 0xAF5FA0 Offset: 0xAF45A0 VA: 0x180AF5FA0
+	// RVA: 0xAF6470 Offset: 0xAF4A70 VA: 0x180AF6470
 	public bool get_CaseSensitive() { }
 
-	// RVA: 0xAF6030 Offset: 0xAF4630 VA: 0x180AF6030
+	// RVA: 0xAF6500 Offset: 0xAF4B00 VA: 0x180AF6500
 	public void set_CaseSensitive(bool value) { }
 
-	// RVA: 0x592630 Offset: 0x590C30 VA: 0x180592630
+	// RVA: 0x5925C0 Offset: 0x590BC0 VA: 0x1805925C0
 	public bool get_EnforceConstraints() { }
 
-	// RVA: 0xAF6400 Offset: 0xAF4A00 VA: 0x180AF6400
+	// RVA: 0xAF68D0 Offset: 0xAF4ED0 VA: 0x180AF68D0
 	public void set_EnforceConstraints(bool value) { }
 
-	// RVA: 0x592640 Offset: 0x590C40 VA: 0x180592640
+	// RVA: 0x5925D0 Offset: 0x590BD0 VA: 0x1805925D0
 	internal void RestoreEnforceConstraints(bool value) { }
 
-	// RVA: 0xAED790 Offset: 0xAEBD90 VA: 0x180AED790
+	// RVA: 0xAEDC60 Offset: 0xAEC260 VA: 0x180AEDC60
 	internal void EnableConstraints() { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	public string get_DataSetName() { }
 
-	// RVA: 0xAF62C0 Offset: 0xAF48C0 VA: 0x180AF62C0
+	// RVA: 0xAF6790 Offset: 0xAF4D90 VA: 0x180AF6790
 	public void set_DataSetName(string value) { }
 
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	public string get_Namespace() { }
 
-	// RVA: 0xAF6700 Offset: 0xAF4D00 VA: 0x180AF6700
+	// RVA: 0xAF6BD0 Offset: 0xAF51D0 VA: 0x180AF6BD0
 	public void set_Namespace(string value) { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	public string get_Prefix() { }
 
-	// RVA: 0xAF6A60 Offset: 0xAF5060 VA: 0x180AF6A60
+	// RVA: 0xAF6F30 Offset: 0xAF5530 VA: 0x180AF6F30
 	public void set_Prefix(string value) { }
 
-	// RVA: 0xAF5FB0 Offset: 0xAF45B0 VA: 0x180AF5FB0
+	// RVA: 0xAF6480 Offset: 0xAF4A80 VA: 0x180AF6480
 	public PropertyCollection get_ExtendedProperties() { }
 
-	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
+	// RVA: 0x5362B0 Offset: 0x5348B0 VA: 0x1805362B0
 	public CultureInfo get_Locale() { }
 
-	// RVA: 0xAF6570 Offset: 0xAF4B70 VA: 0x180AF6570
+	// RVA: 0xAF6A40 Offset: 0xAF5040 VA: 0x180AF6A40
 	public void set_Locale(CultureInfo value) { }
 
-	// RVA: 0xAF3FB0 Offset: 0xAF25B0 VA: 0x180AF3FB0
+	// RVA: 0xAF4480 Offset: 0xAF2A80 VA: 0x180AF4480
 	internal void SetLocaleValue(CultureInfo value, bool userSet) { }
 
-	// RVA: 0x82CB10 Offset: 0x82B110 VA: 0x18082CB10
+	// RVA: 0x82D060 Offset: 0x82B660 VA: 0x18082D060
 	internal bool ShouldSerializeLocale() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 7
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 7
 	public override ISite get_Site() { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public DataRelationCollection get_Relations() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public DataTableCollection get_Tables() { }
 
-	// RVA: 0xAEB4D0 Offset: 0xAE9AD0 VA: 0x180AEB4D0
+	// RVA: 0xAEB9A0 Offset: 0xAE9FA0 VA: 0x180AEB9A0
 	public void Clear() { }
 
-	// RVA: 0xAEB6C0 Offset: 0xAE9CC0 VA: 0x180AEB6C0 Slot: 17
+	// RVA: 0xAEBB90 Offset: 0xAEA190 VA: 0x180AEBB90 Slot: 17
 	public virtual DataSet Clone() { }
 
-	// RVA: 0xAEDDA0 Offset: 0xAEC3A0 VA: 0x180AEDDA0
+	// RVA: 0xAEE270 Offset: 0xAEC870 VA: 0x180AEE270
 	internal int EstimatedXmlStringSize() { }
 
-	// RVA: 0xAEE1E0 Offset: 0xAEC7E0 VA: 0x180AEE1E0
+	// RVA: 0xAEE6B0 Offset: 0xAECCB0 VA: 0x180AEE6B0
 	internal string GetRemotingDiffGram(DataTable table) { }
 
-	// RVA: 0xAEE300 Offset: 0xAEC900 VA: 0x180AEE300
+	// RVA: 0xAEE7D0 Offset: 0xAECDD0 VA: 0x180AEE7D0
 	internal string GetXmlSchemaForRemoting(DataTable table) { }
 
-	// RVA: 0xAF0590 Offset: 0xAEEB90 VA: 0x180AF0590
+	// RVA: 0xAF0A60 Offset: 0xAEF060 VA: 0x180AF0A60
 	public void ReadXmlSchema(XmlReader reader) { }
 
-	// RVA: 0xAF05A0 Offset: 0xAEEBA0 VA: 0x180AF05A0
+	// RVA: 0xAF0A70 Offset: 0xAEF070 VA: 0x180AF0A70
 	internal void ReadXmlSchema(XmlReader reader, bool denyResolving) { }
 
-	// RVA: 0xAEED00 Offset: 0xAED300 VA: 0x180AEED00
+	// RVA: 0xAEF1D0 Offset: 0xAED7D0 VA: 0x180AEF1D0
 	internal bool MoveToElement(XmlReader reader, int depth) { }
 
-	// RVA: 0xAEEDC0 Offset: 0xAED3C0 VA: 0x180AEEDC0
+	// RVA: 0xAEF290 Offset: 0xAED890 VA: 0x180AEF290
 	private static void MoveToElement(XmlReader reader) { }
 
-	// RVA: 0xAEF0E0 Offset: 0xAED6E0 VA: 0x180AEF0E0
+	// RVA: 0xAEF5B0 Offset: 0xAEDBB0 VA: 0x180AEF5B0
 	internal void ReadEndElement(XmlReader reader) { }
 
-	// RVA: 0xAEF2F0 Offset: 0xAED8F0 VA: 0x180AEF2F0
+	// RVA: 0xAEF7C0 Offset: 0xAEDDC0 VA: 0x180AEF7C0
 	internal void ReadXSDSchema(XmlReader reader, bool denyResolving) { }
 
-	// RVA: 0xAEF190 Offset: 0xAED790 VA: 0x180AEF190
+	// RVA: 0xAEF660 Offset: 0xAEDC60 VA: 0x180AEF660
 	internal void ReadXDRSchema(XmlReader reader) { }
 
-	// RVA: 0xAF5700 Offset: 0xAF3D00 VA: 0x180AF5700
+	// RVA: 0xAF5BD0 Offset: 0xAF41D0 VA: 0x180AF5BD0
 	private void WriteXmlSchema(XmlWriter writer, SchemaFormat schemaFormat, Converter<Type, string> multipleTargetConverter) { }
 
-	// RVA: 0xAF10F0 Offset: 0xAEF6F0 VA: 0x180AF10F0
+	// RVA: 0xAF15C0 Offset: 0xAEFBC0 VA: 0x180AF15C0
 	public XmlReadMode ReadXml(XmlReader reader) { }
 
-	// RVA: 0xAF1120 Offset: 0xAEF720 VA: 0x180AF1120
+	// RVA: 0xAF15F0 Offset: 0xAEFBF0 VA: 0x180AF15F0
 	internal XmlReadMode ReadXml(XmlReader reader, bool denyResolving) { }
 
-	// RVA: 0xAEE480 Offset: 0xAECA80 VA: 0x180AEE480
+	// RVA: 0xAEE950 Offset: 0xAECF50 VA: 0x180AEE950
 	internal void InferSchema(XmlDocument xdoc, string[] excludedNamespaces, XmlReadMode mode) { }
 
-	// RVA: 0xAEE730 Offset: 0xAECD30 VA: 0x180AEE730
+	// RVA: 0xAEEC00 Offset: 0xAED200 VA: 0x180AEEC00
 	private bool IsEmpty() { }
 
-	// RVA: 0xAEF560 Offset: 0xAEDB60 VA: 0x180AEF560
+	// RVA: 0xAEFA30 Offset: 0xAEE030 VA: 0x180AEFA30
 	private void ReadXmlDiffgram(XmlReader reader) { }
 
-	// RVA: 0xAF1100 Offset: 0xAEF700 VA: 0x180AF1100
+	// RVA: 0xAF15D0 Offset: 0xAEFBD0 VA: 0x180AF15D0
 	public XmlReadMode ReadXml(XmlReader reader, XmlReadMode mode) { }
 
-	// RVA: 0xAF21D0 Offset: 0xAF07D0 VA: 0x180AF21D0
+	// RVA: 0xAF26A0 Offset: 0xAF0CA0 VA: 0x180AF26A0
 	internal XmlReadMode ReadXml(XmlReader reader, XmlReadMode mode, bool denyResolving) { }
 
-	// RVA: 0xAF5910 Offset: 0xAF3F10 VA: 0x180AF5910
+	// RVA: 0xAF5DE0 Offset: 0xAF43E0 VA: 0x180AF5DE0
 	public void WriteXml(XmlWriter writer, XmlWriteMode mode) { }
 
-	// RVA: 0xAEEB90 Offset: 0xAED190 VA: 0x180AEEB90
+	// RVA: 0xAEF060 Offset: 0xAED660 VA: 0x180AEF060
 	public void Merge(DataSet dataSet) { }
 
-	// RVA: 0xAEE960 Offset: 0xAECF60 VA: 0x180AEE960
+	// RVA: 0xAEEE30 Offset: 0xAED430 VA: 0x180AEEE30
 	public void Merge(DataSet dataSet, bool preserveChanges, MissingSchemaAction missingSchemaAction) { }
 
-	// RVA: 0xAEEF00 Offset: 0xAED500 VA: 0x180AEEF00 Slot: 18
+	// RVA: 0xAEF3D0 Offset: 0xAED9D0 VA: 0x180AEF3D0 Slot: 18
 	protected virtual void OnPropertyChanging(PropertyChangedEventArgs pcevent) { }
 
-	// RVA: 0xAEEE80 Offset: 0xAED480 VA: 0x180AEEE80
+	// RVA: 0xAEF350 Offset: 0xAED950 VA: 0x180AEF350
 	internal void OnMergeFailed(MergeFailedEventArgs mfevent) { }
 
-	// RVA: 0xAEEF70 Offset: 0xAED570 VA: 0x180AEEF70
+	// RVA: 0xAEF440 Offset: 0xAEDA40 VA: 0x180AEF440
 	internal void RaiseMergeFailed(DataTable table, string conflict, MissingSchemaAction missingSchemaAction) { }
 
-	// RVA: 0xAEEE60 Offset: 0xAED460 VA: 0x180AEEE60
+	// RVA: 0xAEF330 Offset: 0xAED930 VA: 0x180AEF330
 	internal void OnDataRowCreated(DataRow row) { }
 
-	// RVA: 0xAEEE40 Offset: 0xAED440 VA: 0x180AEEE40
+	// RVA: 0xAEF310 Offset: 0xAED910 VA: 0x180AEF310
 	internal void OnClearFunctionCalled(DataTable table) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 19
 	protected internal virtual void OnRemoveTable(DataTable table) { }
 
-	// RVA: 0xAEEF40 Offset: 0xAED540 VA: 0x180AEEF40
+	// RVA: 0xAEF410 Offset: 0xAEDA10 VA: 0x180AEF410
 	internal void OnRemovedTable(DataTable table) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 20
 	protected virtual void OnRemoveRelation(DataRelation relation) { }
 
-	// RVA: 0xAEEF20 Offset: 0xAED520 VA: 0x180AEEF20
+	// RVA: 0xAEF3F0 Offset: 0xAED9F0 VA: 0x180AEF3F0
 	internal void OnRemoveRelationHack(DataRelation relation) { }
 
-	// RVA: 0xAEF060 Offset: 0xAED660 VA: 0x180AEF060
+	// RVA: 0xAEF530 Offset: 0xAEDB30 VA: 0x180AEF530
 	protected internal void RaisePropertyChanging(string name) { }
 
-	// RVA: 0xAF4E40 Offset: 0xAF3440 VA: 0x180AF4E40
+	// RVA: 0xAF5310 Offset: 0xAF3910 VA: 0x180AF5310
 	internal DataTable[] TopLevelTables() { }
 
-	// RVA: 0xAF4C50 Offset: 0xAF3250 VA: 0x180AF4C50
+	// RVA: 0xAF5120 Offset: 0xAF3720 VA: 0x180AF5120
 	internal DataTable[] TopLevelTables(bool forSchema) { }
 
-	// RVA: 0xAF2EC0 Offset: 0xAF14C0 VA: 0x180AF2EC0 Slot: 21
+	// RVA: 0xAF3390 Offset: 0xAF1990 VA: 0x180AF3390 Slot: 21
 	public virtual void Reset() { }
 
-	// RVA: 0xAF4E50 Offset: 0xAF3450 VA: 0x180AF4E50
+	// RVA: 0xAF5320 Offset: 0xAF3920 VA: 0x180AF5320
 	internal bool ValidateCaseConstraint() { }
 
-	// RVA: 0xAF5260 Offset: 0xAF3860 VA: 0x180AF5260
+	// RVA: 0xAF5730 Offset: 0xAF3D30 VA: 0x180AF5730
 	internal bool ValidateLocaleConstraint() { }
 
-	// RVA: 0xAF0E40 Offset: 0xAEF440 VA: 0x180AF0E40 Slot: 22
+	// RVA: 0xAF1310 Offset: 0xAEF910 VA: 0x180AF1310 Slot: 22
 	protected virtual void ReadXmlSerializable(XmlReader reader) { }
 
-	// RVA: 0xAEDF40 Offset: 0xAEC540 VA: 0x180AEDF40
+	// RVA: 0xAEE410 Offset: 0xAECA10 VA: 0x180AEE410
 	public static XmlSchemaComplexType GetDataSetSchema(XmlSchemaSet schemaSet) { }
 
-	// RVA: 0xAF4920 Offset: 0xAF2F20 VA: 0x180AF4920 Slot: 10
+	// RVA: 0xAF4DF0 Offset: 0xAF33F0 VA: 0x180AF4DF0 Slot: 10
 	private XmlSchema System.Xml.Serialization.IXmlSerializable.GetSchema() { }
 
-	// RVA: 0xAF4AB0 Offset: 0xAF30B0 VA: 0x180AF4AB0 Slot: 11
+	// RVA: 0xAF4F80 Offset: 0xAF3580 VA: 0x180AF4F80 Slot: 11
 	private void System.Xml.Serialization.IXmlSerializable.ReadXml(XmlReader reader) { }
 
-	// RVA: 0xAF4C00 Offset: 0xAF3200 VA: 0x180AF4C00 Slot: 12
+	// RVA: 0xAF50D0 Offset: 0xAF36D0 VA: 0x180AF50D0 Slot: 12
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
-	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
+	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
 	internal string get_MainTableName() { }
 
-	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
+	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
 	internal void set_MainTableName(string value) { }
 
-	// RVA: 0x58AC70 Offset: 0x589270 VA: 0x18058AC70
+	// RVA: 0x58AC00 Offset: 0x589200 VA: 0x18058AC00
 	internal int get_ObjectID() { }
 
 }
@@ -4633,649 +4633,649 @@ public class DataTable : MarshalByValueComponent, ISerializable, IXmlSerializabl
 
 	// Methods
 
-	// RVA: 0xB0DCE0 Offset: 0xB0C2E0 VA: 0x180B0DCE0
+	// RVA: 0xB0E1B0 Offset: 0xB0C7B0 VA: 0x180B0E1B0
 	public void .ctor() { }
 
-	// RVA: 0xB0E150 Offset: 0xB0C750 VA: 0x180B0E150
+	// RVA: 0xB0E620 Offset: 0xB0CC20 VA: 0x180B0E620
 	public void .ctor(string tableName) { }
 
-	// RVA: 0xB0E1C0 Offset: 0xB0C7C0 VA: 0x180B0E1C0
+	// RVA: 0xB0E690 Offset: 0xB0CC90 VA: 0x180B0E690
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xB00D60 Offset: 0xAFF360 VA: 0x180B00D60 Slot: 14
+	// RVA: 0xB01230 Offset: 0xAFF830 VA: 0x180B01230 Slot: 14
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xB0A210 Offset: 0xB08810 VA: 0x180B0A210
+	// RVA: 0xB0A6E0 Offset: 0xB08CE0 VA: 0x180B0A6E0
 	private void SerializeDataTable(SerializationInfo info, StreamingContext context, bool isSingleTable, SerializationFormat remotingFormat) { }
 
-	// RVA: 0xAFC3F0 Offset: 0xAFA9F0 VA: 0x180AFC3F0
+	// RVA: 0xAFC8C0 Offset: 0xAFAEC0 VA: 0x180AFC8C0
 	internal void DeserializeDataTable(SerializationInfo info, StreamingContext context, bool isSingleTable, SerializationFormat remotingFormat) { }
 
-	// RVA: 0xB0AD10 Offset: 0xB09310 VA: 0x180B0AD10
+	// RVA: 0xB0B1E0 Offset: 0xB097E0 VA: 0x180B0B1E0
 	internal void SerializeTableSchema(SerializationInfo info, StreamingContext context, bool isSingleTable) { }
 
-	// RVA: 0xAFD530 Offset: 0xAFBB30 VA: 0x180AFD530
+	// RVA: 0xAFDA00 Offset: 0xAFC000 VA: 0x180AFDA00
 	internal void DeserializeTableSchema(SerializationInfo info, StreamingContext context, bool isSingleTable) { }
 
-	// RVA: 0xB09A60 Offset: 0xB08060 VA: 0x180B09A60
+	// RVA: 0xB09F30 Offset: 0xB08530 VA: 0x180B09F30
 	internal void SerializeConstraints(SerializationInfo info, StreamingContext context, int serIndex, bool allConstraints) { }
 
-	// RVA: 0xAFB920 Offset: 0xAF9F20 VA: 0x180AFB920
+	// RVA: 0xAFBDF0 Offset: 0xAFA3F0 VA: 0x180AFBDF0
 	internal void DeserializeConstraints(SerializationInfo info, StreamingContext context, int serIndex, bool allConstraints) { }
 
-	// RVA: 0xB0A580 Offset: 0xB08B80 VA: 0x180B0A580
+	// RVA: 0xB0AA50 Offset: 0xB09050 VA: 0x180B0AA50
 	internal void SerializeExpressionColumns(SerializationInfo info, StreamingContext context, int serIndex) { }
 
-	// RVA: 0xAFC700 Offset: 0xAFAD00 VA: 0x180AFC700
+	// RVA: 0xAFCBD0 Offset: 0xAFB1D0 VA: 0x180AFCBD0
 	internal void DeserializeExpressionColumns(SerializationInfo info, StreamingContext context, int serIndex) { }
 
-	// RVA: 0xB0A6F0 Offset: 0xB08CF0 VA: 0x180B0A6F0
+	// RVA: 0xB0ABC0 Offset: 0xB091C0 VA: 0x180B0ABC0
 	internal void SerializeTableData(SerializationInfo info, StreamingContext context, int serIndex) { }
 
-	// RVA: 0xAFC880 Offset: 0xAFAE80 VA: 0x180AFC880
+	// RVA: 0xAFCD50 Offset: 0xAFB350 VA: 0x180AFCD50
 	internal void DeserializeTableData(SerializationInfo info, StreamingContext context, int serIndex) { }
 
-	// RVA: 0xAFAED0 Offset: 0xAF94D0 VA: 0x180AFAED0
+	// RVA: 0xAFB3A0 Offset: 0xAF99A0 VA: 0x180AFB3A0
 	private DataRowState ConvertToRowState(BitArray bitStates, int bitIndex) { }
 
-	// RVA: 0xB01120 Offset: 0xAFF720 VA: 0x180B01120
+	// RVA: 0xB015F0 Offset: 0xAFFBF0 VA: 0x180B015F0
 	internal void GetRowAndColumnErrors(int rowIndex, Hashtable rowErrors, Hashtable colErrors) { }
 
-	// RVA: 0xAFAB40 Offset: 0xAF9140 VA: 0x180AFAB40
+	// RVA: 0xAFB010 Offset: 0xAF9610 VA: 0x180AFB010
 	private void ConvertToRowError(int rowIndex, Hashtable rowErrors, Hashtable colErrors) { }
 
-	// RVA: 0xB0E350 Offset: 0xB0C950 VA: 0x180B0E350
+	// RVA: 0xB0E820 Offset: 0xB0CE20 VA: 0x180B0E820
 	public bool get_CaseSensitive() { }
 
-	// RVA: 0xB0F090 Offset: 0xB0D690 VA: 0x180B0F090
+	// RVA: 0xB0F560 Offset: 0xB0DB60 VA: 0x180B0F560
 	public void set_CaseSensitive(bool value) { }
 
-	// RVA: 0xB0E340 Offset: 0xB0C940 VA: 0x180B0E340
+	// RVA: 0xB0E810 Offset: 0xB0CE10 VA: 0x180B0E810
 	internal bool get_AreIndexEventsSuspended() { }
 
-	// RVA: 0xB095B0 Offset: 0xB07BB0 VA: 0x180B095B0
+	// RVA: 0xB09A80 Offset: 0xB08080 VA: 0x180B09A80
 	internal void RestoreIndexEvents(bool forceReset) { }
 
-	// RVA: 0xB0D320 Offset: 0xB0B920 VA: 0x180B0D320
+	// RVA: 0xB0D7F0 Offset: 0xB0BDF0 VA: 0x180B0D7F0
 	internal void SuspendIndexEvents() { }
 
-	// RVA: 0xB0E6E0 Offset: 0xB0CCE0 VA: 0x180B0E6E0
+	// RVA: 0xB0EBB0 Offset: 0xB0D1B0 VA: 0x180B0EBB0
 	private bool get_IsTypedDataTable() { }
 
-	// RVA: 0xB0B8B0 Offset: 0xB09EB0 VA: 0x180B0B8B0
+	// RVA: 0xB0BD80 Offset: 0xB0A380 VA: 0x180B0BD80
 	internal bool SetCaseSensitiveValue(bool isCaseSensitive, bool userSet, bool resetIndexes) { }
 
-	// RVA: 0xB0D160 Offset: 0xB0B760 VA: 0x180B0D160
+	// RVA: 0xB0D630 Offset: 0xB0BC30 VA: 0x180B0D630
 	internal bool ShouldSerializeCaseSensitive() { }
 
-	// RVA: 0xB0EDC0 Offset: 0xB0D3C0 VA: 0x180B0EDC0
+	// RVA: 0xB0F290 Offset: 0xB0D890 VA: 0x180B0F290
 	internal bool get_SelfNested() { }
 
-	// RVA: 0xB0E790 Offset: 0xB0CD90 VA: 0x180B0E790
+	// RVA: 0xB0EC60 Offset: 0xB0D260 VA: 0x180B0EC60
 	internal List<Index> get_LiveIndexes() { }
 
-	// RVA: 0xB0ED20 Offset: 0xB0D320 VA: 0x180B0ED20
+	// RVA: 0xB0F1F0 Offset: 0xB0D7F0 VA: 0x180B0F1F0
 	public SerializationFormat get_RemotingFormat() { }
 
-	// RVA: 0xB0FEA0 Offset: 0xB0E4A0 VA: 0x180B0FEA0
+	// RVA: 0xB10370 Offset: 0xB0E970 VA: 0x180B10370
 	public void set_RemotingFormat(SerializationFormat value) { }
 
-	// RVA: 0x7ED300 Offset: 0x7EB900 VA: 0x1807ED300
+	// RVA: 0x7B8C20 Offset: 0x7B7220 VA: 0x1807B8C20
 	internal int get_UKColumnPositionForInference() { }
 
-	// RVA: 0x7ED380 Offset: 0x7EB980 VA: 0x1807ED380
+	// RVA: 0x7B8CA0 Offset: 0x7B72A0 VA: 0x1807B8CA0
 	internal void set_UKColumnPositionForInference(int value) { }
 
-	// RVA: 0xB0E360 Offset: 0xB0C960 VA: 0x180B0E360
+	// RVA: 0xB0E830 Offset: 0xB0CE30 VA: 0x180B0E830
 	public DataRelationCollection get_ChildRelations() { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	public DataColumnCollection get_Columns() { }
 
-	// RVA: 0xB0E430 Offset: 0xB0CA30 VA: 0x180B0E430
+	// RVA: 0xB0E900 Offset: 0xB0CF00 VA: 0x180B0E900
 	private CompareInfo get_CompareInfo() { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	public ConstraintCollection get_Constraints() { }
 
-	// RVA: 0xB09040 Offset: 0xB07640 VA: 0x180B09040
+	// RVA: 0xB09510 Offset: 0xB07B10 VA: 0x180B09510
 	private void ResetConstraints() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public DataSet get_DataSet() { }
 
-	// RVA: 0xB0BB40 Offset: 0xB0A140 VA: 0x180B0BB40
+	// RVA: 0xB0C010 Offset: 0xB0A610 VA: 0x180B0C010
 	internal void SetDataSet(DataSet dataSet) { }
 
-	// RVA: 0xB0E490 Offset: 0xB0CA90 VA: 0x180B0E490
+	// RVA: 0xB0E960 Offset: 0xB0CF60 VA: 0x180B0E960
 	internal string get_DisplayExpressionInternal() { }
 
-	// RVA: 0xB0E580 Offset: 0xB0CB80 VA: 0x180B0E580
+	// RVA: 0xB0EA50 Offset: 0xB0D050 VA: 0x180B0EA50
 	internal bool get_EnforceConstraints() { }
 
-	// RVA: 0xB0F1D0 Offset: 0xB0D7D0 VA: 0x180B0F1D0
+	// RVA: 0xB0F6A0 Offset: 0xB0DCA0 VA: 0x180B0F6A0
 	internal void set_EnforceConstraints(bool value) { }
 
-	// RVA: 0xB0EFC0 Offset: 0xB0D5C0 VA: 0x180B0EFC0
+	// RVA: 0xB0F490 Offset: 0xB0DA90 VA: 0x180B0F490
 	internal bool get_SuspendEnforceConstraints() { }
 
-	// RVA: 0xB0FF20 Offset: 0xB0E520 VA: 0x180B0FF20
+	// RVA: 0xB103F0 Offset: 0xB0E9F0 VA: 0x180B103F0
 	internal void set_SuspendEnforceConstraints(bool value) { }
 
-	// RVA: 0xAFE630 Offset: 0xAFCC30 VA: 0x180AFE630
+	// RVA: 0xAFEB00 Offset: 0xAFD100 VA: 0x180AFEB00
 	internal void EnableConstraints() { }
 
-	// RVA: 0xB0E5B0 Offset: 0xB0CBB0 VA: 0x180B0E5B0
+	// RVA: 0xB0EA80 Offset: 0xB0D080 VA: 0x180B0EA80
 	public PropertyCollection get_ExtendedProperties() { }
 
-	// RVA: 0xB0E630 Offset: 0xB0CC30 VA: 0x180B0E630
+	// RVA: 0xB0EB00 Offset: 0xB0D100 VA: 0x180B0EB00
 	internal IFormatProvider get_FormatProvider() { }
 
-	// RVA: 0x7AD080 Offset: 0x7AB680 VA: 0x1807AD080
+	// RVA: 0x79BDD0 Offset: 0x79A3D0 VA: 0x18079BDD0
 	public CultureInfo get_Locale() { }
 
-	// RVA: 0xB0F210 Offset: 0xB0D810 VA: 0x180B0F210
+	// RVA: 0xB0F6E0 Offset: 0xB0DCE0 VA: 0x180B0F6E0
 	public void set_Locale(CultureInfo value) { }
 
-	// RVA: 0xB0BCB0 Offset: 0xB0A2B0 VA: 0x180B0BCB0
+	// RVA: 0xB0C180 Offset: 0xB0A780 VA: 0x180B0C180
 	internal bool SetLocaleValue(CultureInfo culture, bool userSet, bool resetIndexes) { }
 
-	// RVA: 0x56EAF0 Offset: 0x56D0F0 VA: 0x18056EAF0
+	// RVA: 0x56EA80 Offset: 0x56D080 VA: 0x18056EA80
 	internal bool ShouldSerializeLocale() { }
 
-	// RVA: 0xB0E880 Offset: 0xB0CE80 VA: 0x180B0E880
+	// RVA: 0xB0ED50 Offset: 0xB0D350 VA: 0x180B0ED50
 	public int get_MinimumCapacity() { }
 
-	// RVA: 0xB0F640 Offset: 0xB0DC40 VA: 0x180B0F640
+	// RVA: 0xB0FB10 Offset: 0xB0E110 VA: 0x180B0FB10
 	public void set_MinimumCapacity(int value) { }
 
-	// RVA: 0xB0ED00 Offset: 0xB0D300 VA: 0x180B0ED00
+	// RVA: 0xB0F1D0 Offset: 0xB0D7D0 VA: 0x180B0F1D0
 	internal int get_RecordCapacity() { }
 
-	// RVA: 0x8D9010 Offset: 0x8D7610 VA: 0x1808D9010
+	// RVA: 0x8D9520 Offset: 0x8D7B20 VA: 0x1808D9520
 	internal int get_ElementColumnCount() { }
 
-	// RVA: 0xB0F170 Offset: 0xB0D770 VA: 0x180B0F170
+	// RVA: 0xB0F640 Offset: 0xB0DC40 VA: 0x180B0F640
 	internal void set_ElementColumnCount(int value) { }
 
-	// RVA: 0xB0EBD0 Offset: 0xB0D1D0 VA: 0x180B0EBD0
+	// RVA: 0xB0F0A0 Offset: 0xB0D6A0 VA: 0x180B0F0A0
 	public DataRelationCollection get_ParentRelations() { }
 
-	// RVA: 0xB0E860 Offset: 0xB0CE60 VA: 0x180B0E860
+	// RVA: 0xB0ED30 Offset: 0xB0D330 VA: 0x180B0ED30
 	internal bool get_MergingData() { }
 
-	// RVA: 0xB0F620 Offset: 0xB0DC20 VA: 0x180B0F620
+	// RVA: 0xB0FAF0 Offset: 0xB0E0F0 VA: 0x180B0FAF0
 	internal void set_MergingData(bool value) { }
 
-	// RVA: 0xB0E950 Offset: 0xB0CF50 VA: 0x180B0E950
+	// RVA: 0xB0EE20 Offset: 0xB0D420 VA: 0x180B0EE20
 	internal DataRelation[] get_NestedParentRelations() { }
 
-	// RVA: 0xB0EDB0 Offset: 0xB0D3B0 VA: 0x180B0EDB0
+	// RVA: 0xB0F280 Offset: 0xB0D880 VA: 0x180B0F280
 	internal bool get_SchemaLoading() { }
 
-	// RVA: 0xAF7F30 Offset: 0xAF6530 VA: 0x180AF7F30
+	// RVA: 0xAF8400 Offset: 0xAF6A00 VA: 0x180AF8400
 	internal void CacheNestedParent() { }
 
-	// RVA: 0xB00300 Offset: 0xAFE900 VA: 0x180B00300
+	// RVA: 0xB007D0 Offset: 0xAFEDD0 VA: 0x180B007D0
 	private DataRelation[] FindNestedParentRelations() { }
 
-	// RVA: 0xB0E960 Offset: 0xB0CF60 VA: 0x180B0E960
+	// RVA: 0xB0EE30 Offset: 0xB0D430 VA: 0x180B0EE30
 	internal int get_NestedParentsCount() { }
 
-	// RVA: 0xB0ECA0 Offset: 0xB0D2A0 VA: 0x180B0ECA0
+	// RVA: 0xB0F170 Offset: 0xB0D770 VA: 0x180B0F170
 	public DataColumn[] get_PrimaryKey() { }
 
-	// RVA: 0xB0FA40 Offset: 0xB0E040 VA: 0x180B0FA40
+	// RVA: 0xB0FF10 Offset: 0xB0E510 VA: 0x180B0FF10
 	public void set_PrimaryKey(DataColumn[] value) { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public DataRowCollection get_Rows() { }
 
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0
 	public string get_TableName() { }
 
-	// RVA: 0xB0FF30 Offset: 0xB0E530 VA: 0x180B0FF30
+	// RVA: 0xB10400 Offset: 0xB0EA00 VA: 0x180B10400
 	public void set_TableName(string value) { }
 
-	// RVA: 0xB0E4F0 Offset: 0xB0CAF0 VA: 0x180B0E4F0
+	// RVA: 0xB0E9C0 Offset: 0xB0CFC0 VA: 0x180B0E9C0
 	internal string get_EncodedTableName() { }
 
-	// RVA: 0xB00B10 Offset: 0xAFF110 VA: 0x180B00B10
+	// RVA: 0xB00FE0 Offset: 0xAFF5E0 VA: 0x180B00FE0
 	private string GetInheritedNamespace(List<DataTable> visitedTables) { }
 
-	// RVA: 0xB0E8A0 Offset: 0xB0CEA0 VA: 0x180B0E8A0
+	// RVA: 0xB0ED70 Offset: 0xB0D370 VA: 0x180B0ED70
 	public string get_Namespace() { }
 
-	// RVA: 0xB0F670 Offset: 0xB0DC70 VA: 0x180B0F670
+	// RVA: 0xB0FB40 Offset: 0xB0E140 VA: 0x180B0FB40
 	public void set_Namespace(string value) { }
 
-	// RVA: 0xB02600 Offset: 0xB00C00 VA: 0x180B02600
+	// RVA: 0xB02AD0 Offset: 0xB010D0 VA: 0x180B02AD0
 	internal bool IsNamespaceInherited() { }
 
-	// RVA: 0xAF8030 Offset: 0xAF6630 VA: 0x180AF8030
+	// RVA: 0xAF8500 Offset: 0xAF6B00 VA: 0x180AF8500
 	internal void CheckCascadingNamespaceConflict(string realNamespace) { }
 
-	// RVA: 0xAF8940 Offset: 0xAF6F40 VA: 0x180AF8940
+	// RVA: 0xAF8E10 Offset: 0xAF7410 VA: 0x180AF8E10
 	internal void CheckNamespaceValidityForNestedRelations(string realNamespace) { }
 
-	// RVA: 0xAF86F0 Offset: 0xAF6CF0 VA: 0x180AF86F0
+	// RVA: 0xAF8BC0 Offset: 0xAF71C0 VA: 0x180AF8BC0
 	internal void CheckNamespaceValidityForNestedParentRelations(string ns, DataTable parentTable) { }
 
-	// RVA: 0xAFE180 Offset: 0xAFC780 VA: 0x180AFE180
+	// RVA: 0xAFE650 Offset: 0xAFCC50 VA: 0x180AFE650
 	internal void DoRaiseNamespaceChange() { }
 
-	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
+	// RVA: 0x5742F0 Offset: 0x5728F0 VA: 0x1805742F0
 	public string get_Prefix() { }
 
-	// RVA: 0xB0F8F0 Offset: 0xB0DEF0 VA: 0x180B0F8F0
+	// RVA: 0xB0FDC0 Offset: 0xB0E3C0 VA: 0x180B0FDC0
 	public void set_Prefix(string value) { }
 
-	// RVA: 0xB0F080 Offset: 0xB0D680 VA: 0x180B0F080
+	// RVA: 0xB0F550 Offset: 0xB0DB50 VA: 0x180B0F550
 	internal DataColumn get_XmlText() { }
 
-	// RVA: 0xB10440 Offset: 0xB0EA40 VA: 0x180B10440
+	// RVA: 0xB10910 Offset: 0xB0EF10 VA: 0x180B10910
 	internal void set_XmlText(DataColumn value) { }
 
-	// RVA: 0xB0E850 Offset: 0xB0CE50 VA: 0x180B0E850
+	// RVA: 0xB0ED20 Offset: 0xB0D320 VA: 0x180B0ED20
 	internal Decimal get_MaxOccurs() { }
 
-	// RVA: 0xB0F610 Offset: 0xB0DC10 VA: 0x180B0F610
+	// RVA: 0xB0FAE0 Offset: 0xB0E0E0 VA: 0x180B0FAE0
 	internal void set_MaxOccurs(Decimal value) { }
 
-	// RVA: 0xB0E870 Offset: 0xB0CE70 VA: 0x180B0E870
+	// RVA: 0xB0ED40 Offset: 0xB0D340 VA: 0x180B0ED40
 	internal Decimal get_MinOccurs() { }
 
-	// RVA: 0xB0F630 Offset: 0xB0DC30 VA: 0x180B0F630
+	// RVA: 0xB0FB00 Offset: 0xB0E100 VA: 0x180B0FB00
 	internal void set_MinOccurs(Decimal value) { }
 
-	// RVA: 0xB0BC10 Offset: 0xB0A210 VA: 0x180B0BC10
+	// RVA: 0xB0C0E0 Offset: 0xB0A6E0 VA: 0x180B0C0E0
 	internal void SetKeyValues(DataKey key, object[] keyValues, int record) { }
 
-	// RVA: 0xB00180 Offset: 0xAFE780 VA: 0x180B00180
+	// RVA: 0xB00650 Offset: 0xAFEC50 VA: 0x180B00650
 	internal DataRow FindByIndex(Index ndx, object[] key) { }
 
-	// RVA: 0xB00210 Offset: 0xAFE810 VA: 0x180B00210
+	// RVA: 0xB006E0 Offset: 0xAFECE0 VA: 0x180B006E0
 	internal DataRow FindMergeTarget(DataRow row, DataKey key, Index ndx) { }
 
-	// RVA: 0xB0C270 Offset: 0xB0A870 VA: 0x180B0C270
+	// RVA: 0xB0C740 Offset: 0xB0AD40 VA: 0x180B0C740
 	private void SetMergeRecords(DataRow row, int newRecord, int oldRecord, DataRowAction action) { }
 
-	// RVA: 0xB026C0 Offset: 0xB00CC0 VA: 0x180B026C0
+	// RVA: 0xB02B90 Offset: 0xB01190 VA: 0x180B02B90
 	internal DataRow MergeRow(DataRow row, DataRow targetRow, bool preserveChanges, Index idxSearch) { }
 
-	// RVA: 0xAF75E0 Offset: 0xAF5BE0 VA: 0x180AF75E0
+	// RVA: 0xAF7AB0 Offset: 0xAF60B0 VA: 0x180AF7AB0
 	public void AcceptChanges() { }
 
-	// RVA: 0xAFB260 Offset: 0xAF9860 VA: 0x180AFB260 Slot: 15
+	// RVA: 0xAFB730 Offset: 0xAF9D30 VA: 0x180AFB730 Slot: 15
 	protected virtual DataTable CreateInstance() { }
 
-	// RVA: 0xAFA520 Offset: 0xAF8B20 VA: 0x180AFA520 Slot: 16
+	// RVA: 0xAFA9F0 Offset: 0xAF8FF0 VA: 0x180AFA9F0 Slot: 16
 	public virtual DataTable Clone() { }
 
-	// RVA: 0xAFA530 Offset: 0xAF8B30 VA: 0x180AFA530
+	// RVA: 0xAFAA00 Offset: 0xAF9000 VA: 0x180AFAA00
 	internal DataTable Clone(DataSet cloneDS) { }
 
-	// RVA: 0xB01780 Offset: 0xAFFD80 VA: 0x180B01780
+	// RVA: 0xB01C50 Offset: 0xB00250 VA: 0x180B01C50
 	private DataTable IncrementalCloneTo(DataTable sourceTable, DataTable targetTable) { }
 
-	// RVA: 0xAF9490 Offset: 0xAF7A90 VA: 0x180AF9490
+	// RVA: 0xAF9960 Offset: 0xAF7F60 VA: 0x180AF9960
 	private DataTable CloneHierarchy(DataTable sourceTable, DataSet ds, Hashtable visitedMap) { }
 
-	// RVA: 0xAF9850 Offset: 0xAF7E50 VA: 0x180AF9850
+	// RVA: 0xAF9D20 Offset: 0xAF8320 VA: 0x180AF9D20
 	private DataTable CloneTo(DataTable clone, DataSet cloneDS, bool skipExpressionColumns) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 7
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 7
 	public override ISite get_Site() { }
 
-	// RVA: 0xAF79D0 Offset: 0xAF5FD0 VA: 0x180AF79D0
+	// RVA: 0xAF7EA0 Offset: 0xAF64A0 VA: 0x180AF7EA0
 	internal void AddRow(DataRow row, int proposedID) { }
 
-	// RVA: 0xB01C70 Offset: 0xB00270 VA: 0x180B01C70
+	// RVA: 0xB02140 Offset: 0xB00740 VA: 0x180B02140
 	internal void InsertRow(DataRow row, int proposedID, int pos) { }
 
-	// RVA: 0xB020A0 Offset: 0xB006A0 VA: 0x180B020A0
+	// RVA: 0xB02570 Offset: 0xB00B70 VA: 0x180B02570
 	internal void InsertRow(DataRow row, long proposedID, int pos, bool fireEvent) { }
 
-	// RVA: 0xAF8C40 Offset: 0xAF7240 VA: 0x180AF8C40
+	// RVA: 0xAF9110 Offset: 0xAF7710 VA: 0x180AF9110
 	internal void CheckNotModifying(DataRow row) { }
 
-	// RVA: 0xAF8C70 Offset: 0xAF7270 VA: 0x180AF8C70
+	// RVA: 0xAF9140 Offset: 0xAF7740 VA: 0x180AF9140
 	public void Clear() { }
 
-	// RVA: 0xAF8C80 Offset: 0xAF7280 VA: 0x180AF8C80
+	// RVA: 0xAF9150 Offset: 0xAF7750 VA: 0x180AF9150
 	internal void Clear(bool clearAll) { }
 
-	// RVA: 0xAF7F60 Offset: 0xAF6560 VA: 0x180AF7F60
+	// RVA: 0xAF8430 Offset: 0xAF6A30 VA: 0x180AF8430
 	internal void CascadeAll(DataRow row, DataRowAction action) { }
 
-	// RVA: 0xAFA710 Offset: 0xAF8D10 VA: 0x180AFA710
+	// RVA: 0xAFABE0 Offset: 0xAF91E0 VA: 0x180AFABE0
 	internal void CommitRow(DataRow row) { }
 
-	// RVA: 0xAFA9E0 Offset: 0xAF8FE0 VA: 0x180AFA9E0
+	// RVA: 0xAFAEB0 Offset: 0xAF94B0 VA: 0x180AFAEB0
 	internal int Compare(string s1, string s2) { }
 
-	// RVA: 0xAFA850 Offset: 0xAF8E50 VA: 0x180AFA850
+	// RVA: 0xAFAD20 Offset: 0xAF9320 VA: 0x180AFAD20
 	internal int Compare(string s1, string s2, CompareInfo comparer) { }
 
-	// RVA: 0xB01A00 Offset: 0xB00000 VA: 0x180B01A00
+	// RVA: 0xB01ED0 Offset: 0xB004D0 VA: 0x180B01ED0
 	internal int IndexOf(string s1, string s2) { }
 
-	// RVA: 0xB02610 Offset: 0xB00C10 VA: 0x180B02610
+	// RVA: 0xB02AE0 Offset: 0xB010E0 VA: 0x180B02AE0
 	internal bool IsSuffix(string s1, string s2) { }
 
-	// RVA: 0xAFB890 Offset: 0xAF9E90 VA: 0x180AFB890
+	// RVA: 0xAFBD60 Offset: 0xAFA360 VA: 0x180AFBD60
 	internal void DeleteRow(DataRow row) { }
 
-	// RVA: 0xB00590 Offset: 0xAFEB90 VA: 0x180B00590
+	// RVA: 0xB00A60 Offset: 0xAFF060 VA: 0x180B00A60
 	internal string FormatSortString(IndexField[] indexDesc) { }
 
-	// RVA: 0xB006B0 Offset: 0xAFECB0 VA: 0x180B006B0
+	// RVA: 0xB00B80 Offset: 0xAFF180 VA: 0x180B00B80
 	internal void FreeRecord(ref int record) { }
 
-	// RVA: 0xB00AC0 Offset: 0xAFF0C0 VA: 0x180B00AC0
+	// RVA: 0xB00F90 Offset: 0xAFF590 VA: 0x180B00F90
 	internal Index GetIndex(string sort, DataViewRowState recordStates, IFilter rowFilter) { }
 
-	// RVA: 0xB008F0 Offset: 0xAFEEF0 VA: 0x180B008F0
+	// RVA: 0xB00DC0 Offset: 0xAFF3C0 VA: 0x180B00DC0
 	internal Index GetIndex(IndexField[] indexDesc, DataViewRowState recordStates, IFilter rowFilter) { }
 
-	// RVA: 0x77AB40 Offset: 0x779140 VA: 0x18077AB40
+	// RVA: 0x77AA90 Offset: 0x779090 VA: 0x18077AA90
 	internal List<DataViewListener> GetListeners() { }
 
-	// RVA: 0xB01670 Offset: 0xAFFC70 VA: 0x180B01670
+	// RVA: 0xB01B40 Offset: 0xB00140 VA: 0x180B01B40
 	internal int GetSpecialHashCode(string name) { }
 
-	// RVA: 0xB01C90 Offset: 0xB00290 VA: 0x180B01C90
+	// RVA: 0xB02160 Offset: 0xB00760 VA: 0x180B02160
 	internal void InsertRow(DataRow row, long proposedID) { }
 
-	// RVA: 0xB032B0 Offset: 0xB018B0 VA: 0x180B032B0
+	// RVA: 0xB03780 Offset: 0xB01D80 VA: 0x180B03780
 	internal int NewRecord() { }
 
-	// RVA: 0xB03890 Offset: 0xB01E90 VA: 0x180B03890
+	// RVA: 0xB03D60 Offset: 0xB02360 VA: 0x180B03D60
 	internal int NewUninitializedRecord() { }
 
-	// RVA: 0xB03030 Offset: 0xB01630 VA: 0x180B03030
+	// RVA: 0xB03500 Offset: 0xB01B00 VA: 0x180B03500
 	internal int NewRecordFromArray(object[] value) { }
 
-	// RVA: 0xB03350 Offset: 0xB01950 VA: 0x180B03350
+	// RVA: 0xB03820 Offset: 0xB01E20 VA: 0x180B03820
 	internal int NewRecord(int sourceRecord) { }
 
-	// RVA: 0xB02FC0 Offset: 0xB015C0 VA: 0x180B02FC0
+	// RVA: 0xB03490 Offset: 0xB01A90 VA: 0x180B03490
 	internal DataRow NewEmptyRow() { }
 
-	// RVA: 0xB038B0 Offset: 0xB01EB0 VA: 0x180B038B0
+	// RVA: 0xB03D80 Offset: 0xB02380 VA: 0x180B03D80
 	private DataRow NewUninitializedRow() { }
 
-	// RVA: 0xB03790 Offset: 0xB01D90 VA: 0x180B03790
+	// RVA: 0xB03C60 Offset: 0xB02260 VA: 0x180B03C60
 	public DataRow NewRow() { }
 
-	// RVA: 0xAFAFC0 Offset: 0xAF95C0 VA: 0x180AFAFC0
+	// RVA: 0xAFB490 Offset: 0xAF9A90 VA: 0x180AFB490
 	internal DataRow CreateEmptyRow() { }
 
-	// RVA: 0xB03590 Offset: 0xB01B90 VA: 0x180B03590
+	// RVA: 0xB03A60 Offset: 0xB02060 VA: 0x180B03A60
 	private void NewRowCreated(DataRow row) { }
 
-	// RVA: 0xB036E0 Offset: 0xB01CE0 VA: 0x180B036E0
+	// RVA: 0xB03BB0 Offset: 0xB021B0 VA: 0x180B03BB0
 	internal DataRow NewRow(int record) { }
 
-	// RVA: 0xB03610 Offset: 0xB01C10 VA: 0x180B03610 Slot: 17
+	// RVA: 0xB03AE0 Offset: 0xB020E0 VA: 0x180B03AE0 Slot: 17
 	protected virtual DataRow NewRowFromBuilder(DataRowBuilder builder) { }
 
-	// RVA: 0xB01480 Offset: 0xAFFA80 VA: 0x180B01480 Slot: 18
+	// RVA: 0xB01950 Offset: 0xAFFF50 VA: 0x180B01950 Slot: 18
 	protected virtual Type GetRowType() { }
 
-	// RVA: 0xB03440 Offset: 0xB01A40 VA: 0x180B03440
+	// RVA: 0xB03910 Offset: 0xB01F10 VA: 0x180B03910
 	protected internal DataRow[] NewRowArray(int size) { }
 
-	// RVA: 0xB0E910 Offset: 0xB0CF10 VA: 0x180B0E910
+	// RVA: 0xB0EDE0 Offset: 0xB0D3E0 VA: 0x180B0EDE0
 	internal bool get_NeedColumnChangeEvents() { }
 
-	// RVA: 0xB039B0 Offset: 0xB01FB0 VA: 0x180B039B0 Slot: 19
+	// RVA: 0xB03E80 Offset: 0xB02480 VA: 0x180B03E80 Slot: 19
 	protected internal virtual void OnColumnChanging(DataColumnChangeEventArgs e) { }
 
-	// RVA: 0xB038F0 Offset: 0xB01EF0 VA: 0x180B038F0 Slot: 20
+	// RVA: 0xB03DC0 Offset: 0xB023C0 VA: 0x180B03DC0 Slot: 20
 	protected internal virtual void OnColumnChanged(DataColumnChangeEventArgs e) { }
 
-	// RVA: 0xB03A70 Offset: 0xB02070 VA: 0x180B03A70 Slot: 21
+	// RVA: 0xB03F40 Offset: 0xB02540 VA: 0x180B03F40 Slot: 21
 	protected virtual void OnPropertyChanging(PropertyChangedEventArgs pcevent) { }
 
-	// RVA: 0xB03B30 Offset: 0xB02130 VA: 0x180B03B30
+	// RVA: 0xB04000 Offset: 0xB02600 VA: 0x180B04000
 	internal void OnRemoveColumnInternal(DataColumn column) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 22
 	protected virtual void OnRemoveColumn(DataColumn column) { }
 
-	// RVA: 0xB03B50 Offset: 0xB02150 VA: 0x180B03B50
+	// RVA: 0xB04020 Offset: 0xB02620 VA: 0x180B04020
 	private DataRowChangeEventArgs OnRowChanged(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction) { }
 
-	// RVA: 0xB03CC0 Offset: 0xB022C0 VA: 0x180B03CC0
+	// RVA: 0xB04190 Offset: 0xB02790 VA: 0x180B04190
 	private DataRowChangeEventArgs OnRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction) { }
 
-	// RVA: 0xB03C00 Offset: 0xB02200 VA: 0x180B03C00 Slot: 23
+	// RVA: 0xB040D0 Offset: 0xB026D0 VA: 0x180B040D0 Slot: 23
 	protected virtual void OnRowChanged(DataRowChangeEventArgs e) { }
 
-	// RVA: 0xB03D70 Offset: 0xB02370 VA: 0x180B03D70 Slot: 24
+	// RVA: 0xB04240 Offset: 0xB02840 VA: 0x180B04240 Slot: 24
 	protected virtual void OnRowChanging(DataRowChangeEventArgs e) { }
 
-	// RVA: 0xB03EF0 Offset: 0xB024F0 VA: 0x180B03EF0 Slot: 25
+	// RVA: 0xB043C0 Offset: 0xB029C0 VA: 0x180B043C0 Slot: 25
 	protected virtual void OnRowDeleting(DataRowChangeEventArgs e) { }
 
-	// RVA: 0xB03E30 Offset: 0xB02430 VA: 0x180B03E30 Slot: 26
+	// RVA: 0xB04300 Offset: 0xB02900 VA: 0x180B04300 Slot: 26
 	protected virtual void OnRowDeleted(DataRowChangeEventArgs e) { }
 
-	// RVA: 0xB03FB0 Offset: 0xB025B0 VA: 0x180B03FB0 Slot: 27
+	// RVA: 0xB04480 Offset: 0xB02A80 VA: 0x180B04480 Slot: 27
 	protected virtual void OnTableCleared(DataTableClearEventArgs e) { }
 
-	// RVA: 0xB04070 Offset: 0xB02670 VA: 0x180B04070 Slot: 28
+	// RVA: 0xB04540 Offset: 0xB02B40 VA: 0x180B04540 Slot: 28
 	protected virtual void OnTableClearing(DataTableClearEventArgs e) { }
 
-	// RVA: 0xB04130 Offset: 0xB02730 VA: 0x180B04130 Slot: 29
+	// RVA: 0xB04600 Offset: 0xB02C00 VA: 0x180B04600 Slot: 29
 	protected virtual void OnTableNewRow(DataTableNewRowEventArgs e) { }
 
-	// RVA: 0xB041F0 Offset: 0xB027F0 VA: 0x180B041F0
+	// RVA: 0xB046C0 Offset: 0xB02CC0 VA: 0x180B046C0
 	internal IndexField[] ParseSortString(string sortString) { }
 
-	// RVA: 0xB04530 Offset: 0xB02B30 VA: 0x180B04530
+	// RVA: 0xB04A00 Offset: 0xB03000 VA: 0x180B04A00
 	internal void RaisePropertyChanging(string name) { }
 
-	// RVA: 0xB083F0 Offset: 0xB069F0 VA: 0x180B083F0
+	// RVA: 0xB088C0 Offset: 0xB06EC0 VA: 0x180B088C0
 	internal void RecordChanged(int record) { }
 
-	// RVA: 0xB08560 Offset: 0xB06B60 VA: 0x180B08560
+	// RVA: 0xB08A30 Offset: 0xB07030 VA: 0x180B08A30
 	internal void RecordChanged(int[] oldIndex, int[] newIndex) { }
 
-	// RVA: 0xB08740 Offset: 0xB06D40 VA: 0x180B08740
+	// RVA: 0xB08C10 Offset: 0xB07210 VA: 0x180B08C10
 	internal void RecordStateChanged(int record, DataViewRowState oldState, DataViewRowState newState) { }
 
-	// RVA: 0xB088D0 Offset: 0xB06ED0 VA: 0x180B088D0
+	// RVA: 0xB08DA0 Offset: 0xB073A0 VA: 0x180B08DA0
 	internal void RecordStateChanged(int record1, DataViewRowState oldState1, DataViewRowState newState1, int record2, DataViewRowState oldState2, DataViewRowState newState2) { }
 
-	// RVA: 0xB08B60 Offset: 0xB07160 VA: 0x180B08B60
+	// RVA: 0xB09030 Offset: 0xB07630 VA: 0x180B09030
 	internal int[] RemoveRecordFromIndexes(DataRow row, DataRowVersion version) { }
 
-	// RVA: 0xB01AB0 Offset: 0xB000B0 VA: 0x180B01AB0
+	// RVA: 0xB01F80 Offset: 0xB00580 VA: 0x180B01F80
 	internal int[] InsertRecordToIndexes(DataRow row, DataRowVersion version) { }
 
-	// RVA: 0xB0D170 Offset: 0xB0B770 VA: 0x180B0D170
+	// RVA: 0xB0D640 Offset: 0xB0BC40 VA: 0x180B0D640
 	internal void SilentlySetValue(DataRow dr, DataColumn dc, DataRowVersion version, object newValue) { }
 
-	// RVA: 0xB08D80 Offset: 0xB07380 VA: 0x180B08D80
+	// RVA: 0xB09250 Offset: 0xB07850 VA: 0x180B09250
 	internal void RemoveRow(DataRow row, bool check) { }
 
-	// RVA: 0xB09250 Offset: 0xB07850 VA: 0x180B09250 Slot: 30
+	// RVA: 0xB09720 Offset: 0xB07D20 VA: 0x180B09720 Slot: 30
 	public virtual void Reset() { }
 
-	// RVA: 0xB09060 Offset: 0xB07660 VA: 0x180B09060
+	// RVA: 0xB09530 Offset: 0xB07B30 VA: 0x180B09530
 	internal void ResetIndexes() { }
 
-	// RVA: 0xB09070 Offset: 0xB07670 VA: 0x180B09070
+	// RVA: 0xB09540 Offset: 0xB07B40 VA: 0x180B09540
 	internal void ResetInternalIndexes(DataColumn column) { }
 
-	// RVA: 0xB098F0 Offset: 0xB07EF0 VA: 0x180B098F0
+	// RVA: 0xB09DC0 Offset: 0xB083C0 VA: 0x180B09DC0
 	internal void RollbackRow(DataRow row) { }
 
-	// RVA: 0xB045B0 Offset: 0xB02BB0 VA: 0x180B045B0
+	// RVA: 0xB04A80 Offset: 0xB03080 VA: 0x180B04A80
 	private DataRowChangeEventArgs RaiseRowChanged(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction) { }
 
-	// RVA: 0xB047F0 Offset: 0xB02DF0 VA: 0x180B047F0
+	// RVA: 0xB04CC0 Offset: 0xB032C0 VA: 0x180B04CC0
 	private DataRowChangeEventArgs RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction) { }
 
-	// RVA: 0xB04A80 Offset: 0xB03080 VA: 0x180B04A80
+	// RVA: 0xB04F50 Offset: 0xB03550 VA: 0x180B04F50
 	private DataRowChangeEventArgs RaiseRowChanging(DataRowChangeEventArgs args, DataRow eRow, DataRowAction eAction, bool fireEvent) { }
 
-	// RVA: 0xB09950 Offset: 0xB07F50 VA: 0x180B09950
+	// RVA: 0xB09E20 Offset: 0xB08420 VA: 0x180B09E20
 	public DataRow[] Select(string filterExpression, string sort, DataViewRowState recordStates) { }
 
-	// RVA: 0xB0CC20 Offset: 0xB0B220 VA: 0x180B0CC20
+	// RVA: 0xB0D0F0 Offset: 0xB0B6F0 VA: 0x180B0D0F0
 	internal void SetNewRecord(DataRow row, int proposedRecord, DataRowAction action = 2, bool isInMerge = False, bool fireEvent = True, bool suppressEnsurePropertyChanged = False) { }
 
-	// RVA: 0xB0C330 Offset: 0xB0A930 VA: 0x180B0C330
+	// RVA: 0xB0C800 Offset: 0xB0AE00 VA: 0x180B0C800
 	private void SetNewRecordWorker(DataRow row, int proposedRecord, DataRowAction action, bool isInMerge, bool suppressEnsurePropertyChanged, int position, bool fireEvent, out Exception deferredException) { }
 
-	// RVA: 0xB0CCE0 Offset: 0xB0B2E0 VA: 0x180B0CCE0
+	// RVA: 0xB0D1B0 Offset: 0xB0B7B0 VA: 0x180B0D1B0
 	internal void SetOldRecord(DataRow row, int proposedRecord) { }
 
-	// RVA: 0xB098D0 Offset: 0xB07ED0 VA: 0x180B098D0
+	// RVA: 0xB09DA0 Offset: 0xB083A0 VA: 0x180B09DA0
 	private void RestoreShadowIndexes() { }
 
-	// RVA: 0xB0D080 Offset: 0xB0B680 VA: 0x180B0D080
+	// RVA: 0xB0D550 Offset: 0xB0BB50 VA: 0x180B0D550
 	private void SetShadowIndexes() { }
 
-	// RVA: 0xB0D0E0 Offset: 0xB0B6E0 VA: 0x180B0D0E0
+	// RVA: 0xB0D5B0 Offset: 0xB0BBB0 VA: 0x180B0D5B0
 	internal void ShadowIndexCopy() { }
 
-	// RVA: 0xB0D500 Offset: 0xB0BB00 VA: 0x180B0D500 Slot: 3
+	// RVA: 0xB0D9D0 Offset: 0xB0BFD0 VA: 0x180B0D9D0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xAF7CF0 Offset: 0xAF62F0 VA: 0x180AF7CF0
+	// RVA: 0xAF81C0 Offset: 0xAF67C0 VA: 0x180AF81C0
 	public void BeginLoadData() { }
 
-	// RVA: 0xAFEB40 Offset: 0xAFD140 VA: 0x180AFEB40
+	// RVA: 0xAFF010 Offset: 0xAFD610 VA: 0x180AFF010
 	public void EndLoadData() { }
 
-	// RVA: 0xB0D5D0 Offset: 0xB0BBD0 VA: 0x180B0D5D0
+	// RVA: 0xB0DAA0 Offset: 0xB0C0A0 VA: 0x180B0DAA0
 	internal bool UpdatingCurrent(DataRow row, DataRowAction action) { }
 
-	// RVA: 0xAF7A10 Offset: 0xAF6010 VA: 0x180AF7A10
+	// RVA: 0xAF7EE0 Offset: 0xAF64E0 VA: 0x180AF7EE0
 	internal DataColumn AddUniqueKey(int position) { }
 
-	// RVA: 0xAF7A00 Offset: 0xAF6000 VA: 0x180AF7A00
+	// RVA: 0xAF7ED0 Offset: 0xAF64D0 VA: 0x180AF7ED0
 	internal DataColumn AddUniqueKey() { }
 
-	// RVA: 0xAF7910 Offset: 0xAF5F10 VA: 0x180AF7910
+	// RVA: 0xAF7DE0 Offset: 0xAF63E0 VA: 0x180AF7DE0
 	internal DataColumn AddForeignKey(DataColumn parentKey) { }
 
-	// RVA: 0xB0D5B0 Offset: 0xB0BBB0 VA: 0x180B0D5B0
+	// RVA: 0xB0DA80 Offset: 0xB0C080 VA: 0x180B0DA80
 	internal void UpdatePropertyDescriptorCollectionCache() { }
 
-	// RVA: 0xB00E50 Offset: 0xAFF450 VA: 0x180B00E50
+	// RVA: 0xB01320 Offset: 0xAFF920 VA: 0x180B01320
 	internal PropertyDescriptorCollection GetPropertyDescriptorCollection(Attribute[] attributes) { }
 
-	// RVA: 0xB0EFD0 Offset: 0xB0D5D0 VA: 0x180B0EFD0
+	// RVA: 0xB0F4A0 Offset: 0xB0DAA0 VA: 0x180B0F4A0
 	internal XmlQualifiedName get_TypeName() { }
 
-	// RVA: 0x7019B0 Offset: 0x6FFFB0 VA: 0x1807019B0
+	// RVA: 0x701900 Offset: 0x6FFF00 VA: 0x180701900
 	internal void set_TypeName(XmlQualifiedName value) { }
 
-	// RVA: 0xB02D70 Offset: 0xB01370 VA: 0x180B02D70
+	// RVA: 0xB03240 Offset: 0xB01840 VA: 0x180B03240
 	public void Merge(DataTable table) { }
 
-	// RVA: 0xB02D90 Offset: 0xB01390 VA: 0x180B02D90
+	// RVA: 0xB03260 Offset: 0xB01860 VA: 0x180B03260
 	public void Merge(DataTable table, bool preserveChanges, MissingSchemaAction missingSchemaAction) { }
 
-	// RVA: 0xB0D960 Offset: 0xB0BF60 VA: 0x180B0D960
+	// RVA: 0xB0DE30 Offset: 0xB0C430 VA: 0x180B0DE30
 	public void WriteXml(XmlWriter writer, XmlWriteMode mode, bool writeHierarchy) { }
 
-	// RVA: 0xAF8640 Offset: 0xAF6C40 VA: 0x180AF8640
+	// RVA: 0xAF8B10 Offset: 0xAF7110 VA: 0x180AF8B10
 	private bool CheckForClosureOnExpressions(DataTable dt, bool writeHierarchy) { }
 
-	// RVA: 0xAF82E0 Offset: 0xAF68E0 VA: 0x180AF82E0
+	// RVA: 0xAF87B0 Offset: 0xAF6DB0 VA: 0x180AF87B0
 	private bool CheckForClosureOnExpressionTables(List<DataTable> tableList) { }
 
-	// RVA: 0xB0D600 Offset: 0xB0BC00 VA: 0x180B0D600
+	// RVA: 0xB0DAD0 Offset: 0xB0C0D0 VA: 0x180B0DAD0
 	public void WriteXmlSchema(XmlWriter writer, bool writeHierarchy) { }
 
-	// RVA: 0xB08350 Offset: 0xB06950 VA: 0x180B08350
+	// RVA: 0xB08820 Offset: 0xB06E20 VA: 0x180B08820
 	public XmlReadMode ReadXml(TextReader reader) { }
 
-	// RVA: 0xB09550 Offset: 0xB07B50 VA: 0x180B09550
+	// RVA: 0xB09A20 Offset: 0xB08020 VA: 0x180B09A20
 	private void RestoreConstraint(bool originalEnforceConstraint) { }
 
-	// RVA: 0xB02420 Offset: 0xB00A20 VA: 0x180B02420
+	// RVA: 0xB028F0 Offset: 0xB00EF0 VA: 0x180B028F0
 	private bool IsEmptyXml(XmlReader reader) { }
 
-	// RVA: 0xB075A0 Offset: 0xB05BA0 VA: 0x180B075A0
+	// RVA: 0xB07A70 Offset: 0xB06070 VA: 0x180B07A70
 	internal XmlReadMode ReadXml(XmlReader reader, bool denyResolving) { }
 
-	// RVA: 0xB06790 Offset: 0xB04D90 VA: 0x180B06790
+	// RVA: 0xB06C60 Offset: 0xB05260 VA: 0x180B06C60
 	internal XmlReadMode ReadXml(XmlReader reader, XmlReadMode mode, bool denyResolving) { }
 
-	// RVA: 0xAEF0E0 Offset: 0xAED6E0 VA: 0x180AEF0E0
+	// RVA: 0xAEF5B0 Offset: 0xAEDBB0 VA: 0x180AEF5B0
 	internal void ReadEndElement(XmlReader reader) { }
 
-	// RVA: 0xB04C40 Offset: 0xB03240 VA: 0x180B04C40
+	// RVA: 0xB05110 Offset: 0xB03710 VA: 0x180B05110
 	internal void ReadXDRSchema(XmlReader reader) { }
 
-	// RVA: 0xAEED00 Offset: 0xAED300 VA: 0x180AEED00
+	// RVA: 0xAEF1D0 Offset: 0xAED7D0 VA: 0x180AEF1D0
 	internal bool MoveToElement(XmlReader reader, int depth) { }
 
-	// RVA: 0xB04E00 Offset: 0xB03400 VA: 0x180B04E00
+	// RVA: 0xB052D0 Offset: 0xB038D0 VA: 0x180B052D0
 	private void ReadXmlDiffgram(XmlReader reader) { }
 
-	// RVA: 0xB04CB0 Offset: 0xB032B0 VA: 0x180B04CB0
+	// RVA: 0xB05180 Offset: 0xB03780 VA: 0x180B05180
 	internal void ReadXSDSchema(XmlReader reader, bool denyResolving) { }
 
-	// RVA: 0xB056D0 Offset: 0xB03CD0 VA: 0x180B056D0
+	// RVA: 0xB05BA0 Offset: 0xB041A0 VA: 0x180B05BA0
 	internal void ReadXmlSchema(XmlReader reader, bool denyResolving) { }
 
-	// RVA: 0xAFB600 Offset: 0xAF9C00 VA: 0x180AFB600
+	// RVA: 0xAFBAD0 Offset: 0xAFA0D0 VA: 0x180AFBAD0
 	private void CreateTableList(DataTable currentTable, List<DataTable> tableList) { }
 
-	// RVA: 0xAFB2F0 Offset: 0xAF98F0 VA: 0x180AFB2F0
+	// RVA: 0xAFB7C0 Offset: 0xAF9DC0 VA: 0x180AFB7C0
 	private void CreateRelationList(List<DataTable> tableList, List<DataRelation> relationList) { }
 
-	// RVA: 0xB006D0 Offset: 0xAFECD0 VA: 0x180B006D0
+	// RVA: 0xB00BA0 Offset: 0xAFF1A0 VA: 0x180B00BA0
 	public static XmlSchemaComplexType GetDataTableSchema(XmlSchemaSet schemaSet) { }
 
-	// RVA: 0xB0D3C0 Offset: 0xB0B9C0 VA: 0x180B0D3C0 Slot: 11
+	// RVA: 0xB0D890 Offset: 0xB0BE90 VA: 0x180B0D890 Slot: 11
 	private XmlSchema System.Xml.Serialization.IXmlSerializable.GetSchema() { }
 
-	// RVA: 0xB014E0 Offset: 0xAFFAE0 VA: 0x180B014E0 Slot: 31
+	// RVA: 0xB019B0 Offset: 0xAFFFB0 VA: 0x180B019B0 Slot: 31
 	protected virtual XmlSchema GetSchema() { }
 
-	// RVA: 0xB0D3E0 Offset: 0xB0B9E0 VA: 0x180B0D3E0 Slot: 12
+	// RVA: 0xB0D8B0 Offset: 0xB0BEB0 VA: 0x180B0D8B0 Slot: 12
 	private void System.Xml.Serialization.IXmlSerializable.ReadXml(XmlReader reader) { }
 
-	// RVA: 0xB0D4B0 Offset: 0xB0BAB0 VA: 0x180B0D4B0 Slot: 13
+	// RVA: 0xB0D980 Offset: 0xB0BF80 VA: 0x180B0D980 Slot: 13
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
-	// RVA: 0xB06770 Offset: 0xB04D70 VA: 0x180B06770 Slot: 32
+	// RVA: 0xB06C40 Offset: 0xB05240 VA: 0x180B06C40 Slot: 32
 	protected virtual void ReadXmlSerializable(XmlReader reader) { }
 
-	// RVA: 0xB0ED30 Offset: 0xB0D330 VA: 0x180B0ED30
+	// RVA: 0xB0F200 Offset: 0xB0D800 VA: 0x180B0F200
 	internal Hashtable get_RowDiffId() { }
 
-	// RVA: 0xB0EBC0 Offset: 0xB0D1C0 VA: 0x180B0EBC0
+	// RVA: 0xB0F090 Offset: 0xB0D690 VA: 0x180B0F090
 	internal int get_ObjectID() { }
 
-	// RVA: 0xAF7850 Offset: 0xAF5E50 VA: 0x180AF7850
+	// RVA: 0xAF7D20 Offset: 0xAF6320 VA: 0x180AF7D20
 	internal void AddDependentColumn(DataColumn expressionColumn) { }
 
-	// RVA: 0xB08AE0 Offset: 0xB070E0 VA: 0x180B08AE0
+	// RVA: 0xB08FB0 Offset: 0xB075B0 VA: 0x180B08FB0
 	internal void RemoveDependentColumn(DataColumn expressionColumn) { }
 
-	// RVA: 0xAFF700 Offset: 0xAFDD00 VA: 0x180AFF700
+	// RVA: 0xAFFBD0 Offset: 0xAFE1D0 VA: 0x180AFFBD0
 	internal void EvaluateExpressions() { }
 
-	// RVA: 0xAFFC30 Offset: 0xAFE230 VA: 0x180AFFC30
+	// RVA: 0xB00100 Offset: 0xAFE700 VA: 0x180B00100
 	internal void EvaluateExpressions(DataRow row, DataRowAction action, List<DataRow> cachedRows) { }
 
-	// RVA: 0xAFF990 Offset: 0xAFDF90 VA: 0x180AFF990
+	// RVA: 0xAFFE60 Offset: 0xAFE460 VA: 0x180AFFE60
 	internal void EvaluateExpressions(DataColumn column) { }
 
-	// RVA: 0xAFED70 Offset: 0xAFD370 VA: 0x180AFED70
+	// RVA: 0xAFF240 Offset: 0xAFD840 VA: 0x180AFF240
 	internal void EvaluateDependentExpressions(DataColumn column) { }
 
-	// RVA: 0xAFEEA0 Offset: 0xAFD4A0 VA: 0x180AFEEA0
+	// RVA: 0xAFF370 Offset: 0xAFD970 VA: 0x180AFF370
 	internal void EvaluateDependentExpressions(List<DataColumn> columns, DataRow row, DataRowVersion version, List<DataRow> cachedRows) { }
 
 }
@@ -5286,7 +5286,7 @@ internal struct DataTable.RowDiffIdUsageSection // TypeDefIndex: 4224
 
 	// Methods
 
-	// RVA: 0x1EF210 Offset: 0x1EE610 VA: 0x1801EF210
+	// RVA: 0x1EF630 Offset: 0x1EEA30 VA: 0x1801EF630
 	internal void Prepare(DataTable table) { }
 
 }
@@ -5297,7 +5297,7 @@ internal struct DataTable.DSRowDiffIdUsageSection // TypeDefIndex: 4225
 
 	// Methods
 
-	// RVA: 0x1EF0D0 Offset: 0x1EE4D0 VA: 0x1801EF0D0
+	// RVA: 0x1EF4F0 Offset: 0x1EE8F0 VA: 0x1801EF4F0
 	internal void Prepare(DataSet ds) { }
 
 }
@@ -5309,7 +5309,7 @@ public sealed class DataTableClearEventArgs : EventArgs // TypeDefIndex: 4226
 
 	// Methods
 
-	// RVA: 0x13CFC60 Offset: 0x13CE260 VA: 0x1813CFC60
+	// RVA: 0x13CED60 Offset: 0x13CD360 VA: 0x1813CED60
 	public void .ctor(DataTable dataTable) { }
 
 }
@@ -5320,10 +5320,10 @@ public sealed class DataTableClearEventHandler : MulticastDelegate // TypeDefInd
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880 Slot: 12
+	// RVA: 0xAE4D50 Offset: 0xAE3350 VA: 0x180AE4D50 Slot: 12
 	public virtual void Invoke(object sender, DataTableClearEventArgs e) { }
 
-	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
+	// RVA: 0xAE4D10 Offset: 0xAE3310 VA: 0x180AE4D10 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object sender, DataTableClearEventArgs e, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -5351,97 +5351,97 @@ public sealed class DataTableCollection : InternalDataCollectionBase // TypeDefI
 
 	// Methods
 
-	// RVA: 0x13D22B0 Offset: 0x13D08B0 VA: 0x1813D22B0
+	// RVA: 0x13D13B0 Offset: 0x13CF9B0 VA: 0x1813D13B0
 	internal void .ctor(DataSet dataSet) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 11
 	protected override ArrayList get_List() { }
 
-	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
+	// RVA: 0x5DE3D0 Offset: 0x5DC9D0 VA: 0x1805DE3D0
 	internal int get_ObjectID() { }
 
-	// RVA: 0x13D2600 Offset: 0x13D0C00 VA: 0x1813D2600
+	// RVA: 0x13D1700 Offset: 0x13CFD00 VA: 0x1813D1700
 	public DataTable get_Item(int index) { }
 
-	// RVA: 0x13D2500 Offset: 0x13D0B00 VA: 0x1813D2500
+	// RVA: 0x13D1600 Offset: 0x13CFC00 VA: 0x1813D1600
 	public DataTable get_Item(string name) { }
 
-	// RVA: 0x13D23E0 Offset: 0x13D09E0 VA: 0x1813D23E0
+	// RVA: 0x13D14E0 Offset: 0x13CFAE0 VA: 0x1813D14E0
 	public DataTable get_Item(string name, string tableNamespace) { }
 
-	// RVA: 0x13D1370 Offset: 0x13CF970 VA: 0x1813D1370
+	// RVA: 0x13D0470 Offset: 0x13CEA70 VA: 0x1813D0470
 	internal DataTable GetTable(string name, string ns) { }
 
-	// RVA: 0x13D1200 Offset: 0x13CF800 VA: 0x1813D1200
+	// RVA: 0x13D0300 Offset: 0x13CE900 VA: 0x1813D0300
 	internal DataTable GetTableSmart(string name, string ns) { }
 
-	// RVA: 0x13CFCD0 Offset: 0x13CE2D0 VA: 0x1813CFCD0
+	// RVA: 0x13CEDD0 Offset: 0x13CD3D0 VA: 0x1813CEDD0
 	public void Add(DataTable table) { }
 
-	// RVA: 0x13CFF30 Offset: 0x13CE530 VA: 0x1813CFF30
+	// RVA: 0x13CF030 Offset: 0x13CD630 VA: 0x1813CF030
 	private void ArrayAdd(DataTable table) { }
 
-	// RVA: 0x13CFF60 Offset: 0x13CE560 VA: 0x1813CFF60
+	// RVA: 0x13CF060 Offset: 0x13CD660 VA: 0x1813CF060
 	internal string AssignName() { }
 
-	// RVA: 0x13D0020 Offset: 0x13CE620 VA: 0x1813D0020
+	// RVA: 0x13CF120 Offset: 0x13CD720 VA: 0x1813CF120
 	private void BaseAdd(DataTable table) { }
 
-	// RVA: 0x13D0240 Offset: 0x13CE840 VA: 0x1813D0240
+	// RVA: 0x13CF340 Offset: 0x13CD940 VA: 0x1813CF340
 	private void BaseGroupSwitch(DataTable[] oldArray, int oldLength, DataTable[] newArray, int newLength) { }
 
-	// RVA: 0x13D0400 Offset: 0x13CEA00 VA: 0x1813D0400
+	// RVA: 0x13CF500 Offset: 0x13CDB00 VA: 0x1813CF500
 	private void BaseRemove(DataTable table) { }
 
-	// RVA: 0x13D0600 Offset: 0x13CEC00 VA: 0x1813D0600
+	// RVA: 0x13CF700 Offset: 0x13CDD00 VA: 0x1813CF700
 	internal bool CanRemove(DataTable table, bool fThrowException) { }
 
-	// RVA: 0x13D0A80 Offset: 0x13CF080 VA: 0x1813D0A80
+	// RVA: 0x13CFB80 Offset: 0x13CE180 VA: 0x1813CFB80
 	public void Clear() { }
 
-	// RVA: 0x13D1060 Offset: 0x13CF660 VA: 0x1813D1060
+	// RVA: 0x13D0160 Offset: 0x13CE760 VA: 0x1813D0160
 	public bool Contains(string name) { }
 
-	// RVA: 0x13D0EA0 Offset: 0x13CF4A0 VA: 0x1813D0EA0
+	// RVA: 0x13CFFA0 Offset: 0x13CE5A0 VA: 0x1813CFFA0
 	internal bool Contains(string name, string tableNamespace, bool checkProperty, bool caseSensitive) { }
 
-	// RVA: 0x13D1080 Offset: 0x13CF680 VA: 0x1813D1080
+	// RVA: 0x13D0180 Offset: 0x13CE780 VA: 0x1813D0180
 	internal bool Contains(string name, bool caseSensitive) { }
 
-	// RVA: 0x13D14C0 Offset: 0x13CFAC0 VA: 0x1813D14C0
+	// RVA: 0x13D05C0 Offset: 0x13CEBC0 VA: 0x1813D05C0
 	public int IndexOf(DataTable table) { }
 
-	// RVA: 0x13D15C0 Offset: 0x13CFBC0 VA: 0x1813D15C0
+	// RVA: 0x13D06C0 Offset: 0x13CECC0 VA: 0x1813D06C0
 	public int IndexOf(string tableName) { }
 
-	// RVA: 0x13D15E0 Offset: 0x13CFBE0 VA: 0x1813D15E0
+	// RVA: 0x13D06E0 Offset: 0x13CECE0 VA: 0x1813D06E0
 	internal int IndexOf(string tableName, string tableNamespace, bool chekforNull) { }
 
-	// RVA: 0x13D20D0 Offset: 0x13D06D0 VA: 0x1813D20D0
+	// RVA: 0x13D11D0 Offset: 0x13CF7D0 VA: 0x1813D11D0
 	internal void ReplaceFromInference(List<DataTable> tableList) { }
 
-	// RVA: 0x13D1860 Offset: 0x13CFE60 VA: 0x1813D1860
+	// RVA: 0x13D0960 Offset: 0x13CEF60 VA: 0x1813D0960
 	internal int InternalIndexOf(string tableName) { }
 
-	// RVA: 0x13D16A0 Offset: 0x13CFCA0 VA: 0x1813D16A0
+	// RVA: 0x13D07A0 Offset: 0x13CEDA0 VA: 0x1813D07A0
 	internal int InternalIndexOf(string tableName, string tableNamespace) { }
 
-	// RVA: 0x13D1AA0 Offset: 0x13D00A0 VA: 0x1813D1AA0
+	// RVA: 0x13D0BA0 Offset: 0x13CF1A0 VA: 0x1813D0BA0
 	private string MakeName(int index) { }
 
-	// RVA: 0x13D1B30 Offset: 0x13D0130 VA: 0x1813D1B30
+	// RVA: 0x13D0C30 Offset: 0x13CF230 VA: 0x1813D0C30
 	private void OnCollectionChanged(CollectionChangeEventArgs ccevent) { }
 
-	// RVA: 0x13D1BE0 Offset: 0x13D01E0 VA: 0x1813D1BE0
+	// RVA: 0x13D0CE0 Offset: 0x13CF2E0 VA: 0x1813D0CE0
 	private void OnCollectionChanging(CollectionChangeEventArgs ccevent) { }
 
-	// RVA: 0x13D1C90 Offset: 0x13D0290 VA: 0x1813D1C90
+	// RVA: 0x13D0D90 Offset: 0x13CF390 VA: 0x1813D0D90
 	internal void RegisterName(string name, string tbNamespace) { }
 
-	// RVA: 0x13D1F10 Offset: 0x13D0510 VA: 0x1813D1F10
+	// RVA: 0x13D1010 Offset: 0x13CF610 VA: 0x1813D1010
 	public void Remove(DataTable table) { }
 
-	// RVA: 0x13D2130 Offset: 0x13D0730 VA: 0x1813D2130
+	// RVA: 0x13D1230 Offset: 0x13CF830 VA: 0x1813D1230
 	internal void UnregisterName(string name) { }
 
 }
@@ -5453,7 +5453,7 @@ public sealed class DataTableNewRowEventArgs : EventArgs // TypeDefIndex: 4229
 
 	// Methods
 
-	// RVA: 0x13D26E0 Offset: 0x13D0CE0 VA: 0x1813D26E0
+	// RVA: 0x13D17E0 Offset: 0x13CFDE0 VA: 0x1813D17E0
 	public void .ctor(DataRow dataRow) { }
 
 }
@@ -5464,10 +5464,10 @@ public sealed class DataTableNewRowEventHandler : MulticastDelegate // TypeDefIn
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880 Slot: 12
+	// RVA: 0xAE4D50 Offset: 0xAE3350 VA: 0x180AE4D50 Slot: 12
 	public virtual void Invoke(object sender, DataTableNewRowEventArgs e) { }
 
-	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
+	// RVA: 0xAE4D10 Offset: 0xAE3310 VA: 0x180AE4D10 Slot: 13
 	public virtual IAsyncResult BeginInvoke(object sender, DataTableNewRowEventArgs e, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -5540,79 +5540,79 @@ public class DataView : MarshalByValueComponent, IBindingList, IList, ICollectio
 
 	// Methods
 
-	// RVA: 0x13D6C50 Offset: 0x13D5250 VA: 0x1813D6C50
+	// RVA: 0x13D5D50 Offset: 0x13D4350 VA: 0x1813D5D50
 	internal void .ctor(DataTable table, bool locked) { }
 
-	// RVA: 0x82CB10 Offset: 0x82B110 VA: 0x18082CB10
+	// RVA: 0x82D060 Offset: 0x82B660 VA: 0x18082D060
 	public bool get_AllowDelete() { }
 
-	// RVA: 0x1086850 Offset: 0x1084E50 VA: 0x181086850
+	// RVA: 0x10872C0 Offset: 0x10858C0 VA: 0x1810872C0
 	public bool get_AllowNew() { }
 
-	// RVA: 0x13D6F70 Offset: 0x13D5570 VA: 0x1813D6F70 Slot: 22
+	// RVA: 0x13D6070 Offset: 0x13D4670 VA: 0x1813D6070 Slot: 22
 	public int get_Count() { }
 
-	// RVA: 0x13D6F40 Offset: 0x13D5540 VA: 0x1813D6F40
+	// RVA: 0x13D6040 Offset: 0x13D4640 VA: 0x1813D6040
 	private int get_CountFromIndex() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public DataViewManager get_DataViewManager() { }
 
-	// RVA: 0x7AE600 Offset: 0x7ACC00 VA: 0x1807AE600
+	// RVA: 0x7CC9F0 Offset: 0x7CAFF0 VA: 0x1807CC9F0
 	protected bool get_IsOpen() { }
 
-	// RVA: 0x5743B0 Offset: 0x5729B0 VA: 0x1805743B0
+	// RVA: 0x574340 Offset: 0x572940 VA: 0x180574340
 	public DataViewRowState get_RowStateFilter() { }
 
-	// RVA: 0x13D6FC0 Offset: 0x13D55C0 VA: 0x1813D6FC0
+	// RVA: 0x13D60C0 Offset: 0x13D46C0 VA: 0x1813D60C0
 	public string get_Sort() { }
 
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	internal Comparison<DataRow> get_SortComparison() { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 23
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 23
 	private object System.Collections.ICollection.get_SyncRoot() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public DataTable get_Table() { }
 
-	// RVA: 0x13D67C0 Offset: 0x13D4DC0 VA: 0x1813D67C0 Slot: 10
+	// RVA: 0x13D58C0 Offset: 0x13D3EC0 VA: 0x1813D58C0 Slot: 10
 	private object System.Collections.IList.get_Item(int recordIndex) { }
 
-	// RVA: 0x13D6820 Offset: 0x13D4E20 VA: 0x1813D6820 Slot: 11
+	// RVA: 0x13D5920 Offset: 0x13D3F20 VA: 0x1813D5920 Slot: 11
 	private void System.Collections.IList.set_Item(int recordIndex, object value) { }
 
-	// RVA: 0x13D67C0 Offset: 0x13D4DC0 VA: 0x1813D67C0
+	// RVA: 0x13D58C0 Offset: 0x13D3EC0 VA: 0x1813D58C0
 	public DataRowView get_Item(int recordIndex) { }
 
-	// RVA: 0x13D3F70 Offset: 0x13D2570 VA: 0x1813D3F70 Slot: 25
+	// RVA: 0x13D3070 Offset: 0x13D1670 VA: 0x1813D3070 Slot: 25
 	public virtual DataRowView AddNew() { }
 
-	// RVA: 0x13D4230 Offset: 0x13D2830 VA: 0x1813D4230
+	// RVA: 0x13D3330 Offset: 0x13D1930 VA: 0x1813D3330
 	private void CheckOpen() { }
 
-	// RVA: 0x13D44C0 Offset: 0x13D2AC0 VA: 0x1813D44C0
+	// RVA: 0x13D35C0 Offset: 0x13D1BC0 VA: 0x1813D35C0
 	protected void Close() { }
 
-	// RVA: 0x13D4970 Offset: 0x13D2F70 VA: 0x1813D4970 Slot: 21
+	// RVA: 0x13D3A70 Offset: 0x13D2070 VA: 0x1813D3A70 Slot: 21
 	public void CopyTo(Array array, int index) { }
 
-	// RVA: 0x13D4760 Offset: 0x13D2D60 VA: 0x1813D4760
+	// RVA: 0x13D3860 Offset: 0x13D1E60 VA: 0x1813D3860
 	private void CopyTo(DataRowView[] array, int index) { }
 
-	// RVA: 0x13D4AD0 Offset: 0x13D30D0 VA: 0x1813D4AD0
+	// RVA: 0x13D3BD0 Offset: 0x13D21D0 VA: 0x1813D3BD0
 	public void Delete(int index) { }
 
-	// RVA: 0x13D4B00 Offset: 0x13D3100 VA: 0x1813D4B00
+	// RVA: 0x13D3C00 Offset: 0x13D2200 VA: 0x1813D3C00
 	internal void Delete(DataRow row) { }
 
-	// RVA: 0x13D4CE0 Offset: 0x13D32E0 VA: 0x1813D4CE0 Slot: 8
+	// RVA: 0x13D3DE0 Offset: 0x13D23E0 VA: 0x1813D3DE0 Slot: 8
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x13D4D40 Offset: 0x13D3340 VA: 0x1813D4D40
+	// RVA: 0x13D3E40 Offset: 0x13D2440 VA: 0x1813D3E40
 	internal void FinishAddNew(bool success) { }
 
-	// RVA: 0x13D4F10 Offset: 0x13D3510 VA: 0x1813D4F10 Slot: 24
+	// RVA: 0x13D4010 Offset: 0x13D2610 VA: 0x1813D4010 Slot: 24
 	public IEnumerator GetEnumerator() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 15
@@ -5621,120 +5621,120 @@ public class DataView : MarshalByValueComponent, IBindingList, IList, ICollectio
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 16
 	private bool System.Collections.IList.get_IsFixedSize() { }
 
-	// RVA: 0x13D6470 Offset: 0x13D4A70 VA: 0x1813D6470 Slot: 12
+	// RVA: 0x13D5570 Offset: 0x13D3B70 VA: 0x1813D5570 Slot: 12
 	private int System.Collections.IList.Add(object value) { }
 
-	// RVA: 0x13D6510 Offset: 0x13D4B10 VA: 0x1813D6510 Slot: 14
+	// RVA: 0x13D5610 Offset: 0x13D3C10 VA: 0x1813D5610 Slot: 14
 	private void System.Collections.IList.Clear() { }
 
-	// RVA: 0x13D6550 Offset: 0x13D4B50 VA: 0x1813D6550 Slot: 13
+	// RVA: 0x13D5650 Offset: 0x13D3C50 VA: 0x1813D5650 Slot: 13
 	private bool System.Collections.IList.Contains(object value) { }
 
-	// RVA: 0x13D65E0 Offset: 0x13D4BE0 VA: 0x1813D65E0 Slot: 17
+	// RVA: 0x13D56E0 Offset: 0x13D3CE0 VA: 0x1813D56E0 Slot: 17
 	private int System.Collections.IList.IndexOf(object value) { }
 
-	// RVA: 0x13D5460 Offset: 0x13D3A60 VA: 0x1813D5460
+	// RVA: 0x13D4560 Offset: 0x13D2B60 VA: 0x1813D4560
 	internal int IndexOf(DataRowView rowview) { }
 
-	// RVA: 0x13D5400 Offset: 0x13D3A00 VA: 0x1813D5400
+	// RVA: 0x13D4500 Offset: 0x13D2B00 VA: 0x1813D4500
 	private int IndexOfDataRowView(DataRowView rowview) { }
 
-	// RVA: 0x13D6660 Offset: 0x13D4C60 VA: 0x1813D6660 Slot: 18
+	// RVA: 0x13D5760 Offset: 0x13D3D60 VA: 0x1813D5760 Slot: 18
 	private void System.Collections.IList.Insert(int index, object value) { }
 
-	// RVA: 0x13D66A0 Offset: 0x13D4CA0 VA: 0x1813D66A0 Slot: 19
+	// RVA: 0x13D57A0 Offset: 0x13D3DA0 VA: 0x1813D57A0 Slot: 19
 	private void System.Collections.IList.Remove(object value) { }
 
-	// RVA: 0x13D4AD0 Offset: 0x13D30D0 VA: 0x1813D4AD0 Slot: 20
+	// RVA: 0x13D3BD0 Offset: 0x13D21D0 VA: 0x1813D3BD0 Slot: 20
 	private void System.Collections.IList.RemoveAt(int index) { }
 
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860 Slot: 26
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0 Slot: 26
 	internal virtual IFilter GetFilter() { }
 
-	// RVA: 0x13D4FB0 Offset: 0x13D35B0 VA: 0x1813D4FB0
+	// RVA: 0x13D40B0 Offset: 0x13D26B0 VA: 0x1813D40B0
 	private int GetRecord(int recordIndex) { }
 
-	// RVA: 0x13D5140 Offset: 0x13D3740 VA: 0x1813D5140
+	// RVA: 0x13D4240 Offset: 0x13D2840 VA: 0x1813D4240
 	internal DataRow GetRow(int index) { }
 
-	// RVA: 0x13D5070 Offset: 0x13D3670 VA: 0x1813D5070
+	// RVA: 0x13D4170 Offset: 0x13D2770 VA: 0x1813D4170
 	private DataRowView GetRowView(int record) { }
 
-	// RVA: 0x13D50E0 Offset: 0x13D36E0 VA: 0x1813D50E0
+	// RVA: 0x13D41E0 Offset: 0x13D27E0 VA: 0x1813D41E0
 	private DataRowView GetRowView(DataRow dr) { }
 
-	// RVA: 0x13D5380 Offset: 0x13D3980 VA: 0x1813D5380 Slot: 27
+	// RVA: 0x13D4480 Offset: 0x13D2A80 VA: 0x1813D4480 Slot: 27
 	protected virtual void IndexListChanged(object sender, ListChangedEventArgs e) { }
 
-	// RVA: 0x13D52B0 Offset: 0x13D38B0 VA: 0x1813D52B0
+	// RVA: 0x13D43B0 Offset: 0x13D29B0 VA: 0x1813D43B0
 	internal void IndexListChangedInternal(ListChangedEventArgs e) { }
 
-	// RVA: 0x13D55C0 Offset: 0x13D3BC0 VA: 0x1813D55C0
+	// RVA: 0x13D46C0 Offset: 0x13D2CC0 VA: 0x1813D46C0
 	internal void MaintainDataView(ListChangedType changedType, DataRow row, bool trackAddRemove) { }
 
-	// RVA: 0x13D5870 Offset: 0x13D3E70 VA: 0x1813D5870 Slot: 28
+	// RVA: 0x13D4970 Offset: 0x13D2F70 VA: 0x1813D4970 Slot: 28
 	protected virtual void OnListChanged(ListChangedEventArgs e) { }
 
-	// RVA: 0x13D6000 Offset: 0x13D4600 VA: 0x1813D6000
+	// RVA: 0x13D5100 Offset: 0x13D3700 VA: 0x1813D5100
 	protected void Reset() { }
 
-	// RVA: 0x13D5DD0 Offset: 0x13D43D0 VA: 0x1813D5DD0
+	// RVA: 0x13D4ED0 Offset: 0x13D34D0 VA: 0x1813D4ED0
 	internal void ResetRowViewCache() { }
 
-	// RVA: 0x13D6030 Offset: 0x13D4630 VA: 0x1813D6030
+	// RVA: 0x13D5130 Offset: 0x13D3730 VA: 0x1813D5130
 	internal void SetDataViewManager(DataViewManager dataViewManager) { }
 
-	// RVA: 0x13D6450 Offset: 0x13D4A50 VA: 0x1813D6450 Slot: 29
+	// RVA: 0x13D5550 Offset: 0x13D3B50 VA: 0x1813D5550 Slot: 29
 	internal virtual void SetIndex(string newSort, DataViewRowState newRowStates, IFilter newRowFilter) { }
 
-	// RVA: 0x13D6240 Offset: 0x13D4840 VA: 0x1813D6240
+	// RVA: 0x13D5340 Offset: 0x13D3940 VA: 0x1813D5340
 	internal void SetIndex2(string newSort, DataViewRowState newRowStates, IFilter newRowFilter, bool fireEvent) { }
 
-	// RVA: 0x13D6BC0 Offset: 0x13D51C0 VA: 0x1813D6BC0
+	// RVA: 0x13D5CC0 Offset: 0x13D42C0 VA: 0x1813D5CC0
 	protected void UpdateIndex() { }
 
-	// RVA: 0x13D6BE0 Offset: 0x13D51E0 VA: 0x1813D6BE0 Slot: 30
+	// RVA: 0x13D5CE0 Offset: 0x13D42E0 VA: 0x1813D5CE0 Slot: 30
 	protected virtual void UpdateIndex(bool force) { }
 
-	// RVA: 0x13D6860 Offset: 0x13D4E60 VA: 0x1813D6860
+	// RVA: 0x13D5960 Offset: 0x13D3F60 VA: 0x1813D5960
 	internal void UpdateIndex(bool force, bool fireEvent) { }
 
-	// RVA: 0x13D4280 Offset: 0x13D2880 VA: 0x1813D4280
+	// RVA: 0x13D3380 Offset: 0x13D1980 VA: 0x1813D3380
 	internal void ChildRelationCollectionChanged(object sender, CollectionChangeEventArgs e) { }
 
-	// RVA: 0x13D5B90 Offset: 0x13D4190 VA: 0x1813D5B90
+	// RVA: 0x13D4C90 Offset: 0x13D3290 VA: 0x1813D4C90
 	internal void ParentRelationCollectionChanged(object sender, CollectionChangeEventArgs e) { }
 
-	// RVA: 0x13D4520 Offset: 0x13D2B20 VA: 0x1813D4520 Slot: 31
+	// RVA: 0x13D3620 Offset: 0x13D1C20 VA: 0x1813D3620 Slot: 31
 	protected virtual void ColumnCollectionChanged(object sender, CollectionChangeEventArgs e) { }
 
-	// RVA: 0x13D4500 Offset: 0x13D2B00 VA: 0x1813D4500
+	// RVA: 0x13D3600 Offset: 0x13D1C00 VA: 0x1813D3600
 	internal void ColumnCollectionChangedInternal(object sender, CollectionChangeEventArgs e) { }
 
-	// RVA: 0x107A070 Offset: 0x1078670 VA: 0x18107A070
+	// RVA: 0x107AAE0 Offset: 0x10790E0 VA: 0x18107AAE0
 	internal int get_ObjectID() { }
 
-	// RVA: 0x13D6BF0 Offset: 0x13D51F0 VA: 0x1813D6BF0
+	// RVA: 0x13D5CF0 Offset: 0x13D42F0 VA: 0x1813D5CF0
 	private static void .cctor() { }
 
 }
 
 private sealed class DataView.DataRowReferenceComparer : IEqualityComparer<DataRow> // TypeDefIndex: 4233
 {	// Fields
-	internal static readonly DataView.DataRowReferenceComparer s_default; // 0x135AD
+	internal static readonly DataView.DataRowReferenceComparer s_default; // 0x13340
 
 	// Methods
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x13CFBD0 Offset: 0x13CE1D0 VA: 0x1813CFBD0 Slot: 4
+	// RVA: 0x13CECD0 Offset: 0x13CD2D0 VA: 0x1813CECD0 Slot: 4
 	public bool Equals(DataRow x, DataRow y) { }
 
-	// RVA: 0x13CFBE0 Offset: 0x13CE1E0 VA: 0x1813CFBE0 Slot: 5
+	// RVA: 0x13CECE0 Offset: 0x13CD2E0 VA: 0x1813CECE0 Slot: 5
 	public int GetHashCode(DataRow obj) { }
 
-	// RVA: 0x13CFC00 Offset: 0x13CE200 VA: 0x1813CFC00
+	// RVA: 0x13CED00 Offset: 0x13CD300 VA: 0x1813CED00
 	private static void .cctor() { }
 
 }
@@ -5748,43 +5748,43 @@ internal sealed class DataViewListener // TypeDefIndex: 4234
 
 	// Methods
 
-	// RVA: 0x13D3B80 Offset: 0x13D2180 VA: 0x1813D3B80
+	// RVA: 0x13D2C80 Offset: 0x13D1280 VA: 0x1813D2C80
 	internal void .ctor(DataView dv) { }
 
-	// RVA: 0x13D2E80 Offset: 0x13D1480 VA: 0x1813D2E80
+	// RVA: 0x13D1F80 Offset: 0x13D0580 VA: 0x1813D1F80
 	private void ChildRelationCollectionChanged(object sender, CollectionChangeEventArgs e) { }
 
-	// RVA: 0x13D32F0 Offset: 0x13D18F0 VA: 0x1813D32F0
+	// RVA: 0x13D23F0 Offset: 0x13D09F0 VA: 0x1813D23F0
 	private void ParentRelationCollectionChanged(object sender, CollectionChangeEventArgs e) { }
 
-	// RVA: 0x13D2F90 Offset: 0x13D1590 VA: 0x1813D2F90
+	// RVA: 0x13D2090 Offset: 0x13D0690 VA: 0x1813D2090
 	private void ColumnCollectionChanged(object sender, CollectionChangeEventArgs e) { }
 
-	// RVA: 0x13D3200 Offset: 0x13D1800 VA: 0x1813D3200
+	// RVA: 0x13D2300 Offset: 0x13D0900 VA: 0x1813D2300
 	internal void MaintainDataView(ListChangedType changedType, DataRow row, bool trackAddRemove) { }
 
-	// RVA: 0x13D3080 Offset: 0x13D1680 VA: 0x1813D3080
+	// RVA: 0x13D2180 Offset: 0x13D0780 VA: 0x1813D2180
 	internal void IndexListChanged(ListChangedEventArgs e) { }
 
-	// RVA: 0x13D3640 Offset: 0x13D1C40 VA: 0x1813D3640
+	// RVA: 0x13D2740 Offset: 0x13D0D40 VA: 0x1813D2740
 	internal void RegisterMetaDataEvents(DataTable table) { }
 
-	// RVA: 0x13D38F0 Offset: 0x13D1EF0 VA: 0x1813D38F0
+	// RVA: 0x13D29F0 Offset: 0x13D0FF0 VA: 0x1813D29F0
 	internal void UnregisterMetaDataEvents() { }
 
-	// RVA: 0x13D3900 Offset: 0x13D1F00 VA: 0x1813D3900
+	// RVA: 0x13D2A00 Offset: 0x13D1000 VA: 0x1813D2A00
 	private void UnregisterMetaDataEvents(bool updateListeners) { }
 
-	// RVA: 0x13D33E0 Offset: 0x13D19E0 VA: 0x1813D33E0
+	// RVA: 0x13D24E0 Offset: 0x13D0AE0 VA: 0x1813D24E0
 	internal void RegisterListChangedEvent(Index index) { }
 
-	// RVA: 0x13D3810 Offset: 0x13D1E10 VA: 0x1813D3810
+	// RVA: 0x13D2910 Offset: 0x13D0F10 VA: 0x1813D2910
 	internal void UnregisterListChangedEvent() { }
 
-	// RVA: 0x13D2F70 Offset: 0x13D1570 VA: 0x1813D2F70
+	// RVA: 0x13D2070 Offset: 0x13D0670 VA: 0x1813D2070
 	private void CleanUp(bool updateListeners) { }
 
-	// RVA: 0x13D34B0 Offset: 0x13D1AB0 VA: 0x1813D34B0
+	// RVA: 0x13D25B0 Offset: 0x13D0BB0 VA: 0x1813D25B0
 	private void RegisterListener(DataTable table) { }
 
 }
@@ -5804,7 +5804,7 @@ public class DataViewManager : MarshalByValueComponent // TypeDefIndex: 4235
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public DataViewSettingCollection get_DataViewSettings() { }
 
-	// RVA: 0x13D3C10 Offset: 0x13D2210 VA: 0x1813D3C10
+	// RVA: 0x13D2D10 Offset: 0x13D1310 VA: 0x1813D2D10
 	private static void .cctor() { }
 
 }
@@ -5840,22 +5840,22 @@ public class DataViewSetting // TypeDefIndex: 4237
 
 	// Methods
 
-	// RVA: 0x13D3EF0 Offset: 0x13D24F0 VA: 0x1813D3EF0
+	// RVA: 0x13D2FF0 Offset: 0x13D15F0 VA: 0x1813D2FF0
 	internal void .ctor() { }
 
-	// RVA: 0xBA1D40 Offset: 0xBA0340 VA: 0x180BA1D40
+	// RVA: 0xBA2210 Offset: 0xBA0810 VA: 0x180BA2210
 	public bool get_ApplyDefaultSort() { }
 
-	// RVA: 0x1238110 Offset: 0x1236710 VA: 0x181238110
+	// RVA: 0x12387B0 Offset: 0x1236DB0 VA: 0x1812387B0
 	internal void SetDataViewManager(DataViewManager dataViewManager) { }
 
-	// RVA: 0x13D3ED0 Offset: 0x13D24D0 VA: 0x1813D3ED0
+	// RVA: 0x13D2FD0 Offset: 0x13D15D0 VA: 0x1813D2FD0
 	internal void SetDataTable(DataTable table) { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public string get_RowFilter() { }
 
-	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
+	// RVA: 0xA39490 Offset: 0xA37A90 VA: 0x180A39490
 	public DataViewRowState get_RowStateFilter() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -5873,13 +5873,13 @@ public class DataViewSettingCollection // TypeDefIndex: 4238
 
 	// Methods
 
-	// RVA: 0x13D3CA0 Offset: 0x13D22A0 VA: 0x1813D3CA0 Slot: 4
+	// RVA: 0x13D2DA0 Offset: 0x13D13A0 VA: 0x1813D2DA0 Slot: 4
 	public virtual DataViewSetting get_Item(DataTable table) { }
 
-	// RVA: 0x13D3E10 Offset: 0x13D2410 VA: 0x1813D3E10 Slot: 5
+	// RVA: 0x13D2F10 Offset: 0x13D1510 VA: 0x1813D2F10 Slot: 5
 	public virtual void set_Item(DataTable table, DataViewSetting value) { }
 
-	// RVA: 0x13D3C70 Offset: 0x13D2270 VA: 0x1813D3C70
+	// RVA: 0x13D2D70 Offset: 0x13D1370 VA: 0x1813D2D70
 	internal void Remove(DataTable table) { }
 
 }
@@ -5935,52 +5935,52 @@ internal sealed class DataExpression : IFilter // TypeDefIndex: 4247
 
 	// Methods
 
-	// RVA: 0x1235840 Offset: 0x1233E40 VA: 0x181235840
+	// RVA: 0x1235EE0 Offset: 0x12344E0 VA: 0x181235EE0
 	internal void .ctor(DataTable table, string expression) { }
 
-	// RVA: 0x12355E0 Offset: 0x1233BE0 VA: 0x1812355E0
+	// RVA: 0x1235C80 Offset: 0x1234280 VA: 0x181235C80
 	internal void .ctor(DataTable table, string expression, Type type) { }
 
-	// RVA: 0x1235860 Offset: 0x1233E60 VA: 0x181235860
+	// RVA: 0x1235F00 Offset: 0x1234500 VA: 0x181235F00
 	internal string get_Expression() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	internal ExpressionNode get_ExpressionNode() { }
 
-	// RVA: 0x12358A0 Offset: 0x1233EA0 VA: 0x1812358A0
+	// RVA: 0x1235F40 Offset: 0x1234540 VA: 0x181235F40
 	internal bool get_HasValue() { }
 
-	// RVA: 0x1234DF0 Offset: 0x12333F0 VA: 0x181234DF0
+	// RVA: 0x1235490 Offset: 0x1233A90 VA: 0x181235490
 	internal void Bind(DataTable table) { }
 
-	// RVA: 0x1234F20 Offset: 0x1233520 VA: 0x181234F20
+	// RVA: 0x12355C0 Offset: 0x1233BC0 VA: 0x1812355C0
 	internal bool DependsOn(DataColumn column) { }
 
-	// RVA: 0x1235140 Offset: 0x1233740 VA: 0x181235140
+	// RVA: 0x12357E0 Offset: 0x1233DE0 VA: 0x1812357E0
 	internal object Evaluate() { }
 
-	// RVA: 0x1234F40 Offset: 0x1233540 VA: 0x181234F40
+	// RVA: 0x12355E0 Offset: 0x1233BE0 VA: 0x1812355E0
 	internal object Evaluate(DataRow row, DataRowVersion version) { }
 
-	// RVA: 0x1235190 Offset: 0x1233790 VA: 0x181235190 Slot: 4
+	// RVA: 0x1235830 Offset: 0x1233E30 VA: 0x181235830 Slot: 4
 	public bool Invoke(DataRow row, DataRowVersion version) { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	internal DataColumn[] GetDependency() { }
 
-	// RVA: 0x1235270 Offset: 0x1233870 VA: 0x181235270
+	// RVA: 0x1235910 Offset: 0x1233F10 VA: 0x181235910
 	internal bool IsTableAggregate() { }
 
-	// RVA: 0x1235290 Offset: 0x1233890 VA: 0x181235290
+	// RVA: 0x1235930 Offset: 0x1233F30 VA: 0x181235930
 	internal static bool IsUnknown(object value) { }
 
-	// RVA: 0x1235150 Offset: 0x1233750 VA: 0x181235150
+	// RVA: 0x12357F0 Offset: 0x1233DF0 VA: 0x1812357F0
 	internal bool HasLocalAggregate() { }
 
-	// RVA: 0x1235170 Offset: 0x1233770 VA: 0x181235170
+	// RVA: 0x1235810 Offset: 0x1233E10 VA: 0x181235810
 	internal bool HasRemoteAggregate() { }
 
-	// RVA: 0x12352F0 Offset: 0x12338F0 VA: 0x1812352F0
+	// RVA: 0x1235990 Offset: 0x1233F90 VA: 0x181235990
 	internal static bool ToBoolean(object value) { }
 
 }
@@ -5995,91 +5995,91 @@ internal sealed class DataTextWriter : XmlWriter // TypeDefIndex: 4333
 
 	// Methods
 
-	// RVA: 0x13D28F0 Offset: 0x13D0EF0 VA: 0x1813D28F0
+	// RVA: 0x13D19F0 Offset: 0x13CFFF0 VA: 0x1813D19F0
 	internal static XmlWriter CreateWriter(XmlWriter xw) { }
 
-	// RVA: 0x13D2DA0 Offset: 0x13D13A0 VA: 0x1813D2DA0
+	// RVA: 0x13D1EA0 Offset: 0x13D04A0 VA: 0x1813D1EA0
 	private void .ctor(XmlWriter w) { }
 
-	// RVA: 0x13D2DD0 Offset: 0x13D13D0 VA: 0x1813D2DD0
+	// RVA: 0x13D1ED0 Offset: 0x13D04D0 VA: 0x1813D1ED0
 	internal Stream get_BaseStream() { }
 
-	// RVA: 0x13D2CB0 Offset: 0x13D12B0 VA: 0x1813D2CB0 Slot: 5
+	// RVA: 0x13D1DB0 Offset: 0x13D03B0 VA: 0x1813D1DB0 Slot: 5
 	public override void WriteStartDocument() { }
 
-	// RVA: 0x13D2C80 Offset: 0x13D1280 VA: 0x1813D2C80 Slot: 6
+	// RVA: 0x13D1D80 Offset: 0x13D0380 VA: 0x1813D1D80 Slot: 6
 	public override void WriteStartDocument(bool standalone) { }
 
-	// RVA: 0x13D2B30 Offset: 0x13D1130 VA: 0x1813D2B30 Slot: 7
+	// RVA: 0x13D1C30 Offset: 0x13D0230 VA: 0x1813D1C30 Slot: 7
 	public override void WriteEndDocument() { }
 
-	// RVA: 0x13D2AD0 Offset: 0x13D10D0 VA: 0x1813D2AD0 Slot: 8
+	// RVA: 0x13D1BD0 Offset: 0x13D01D0 VA: 0x1813D1BD0 Slot: 8
 	public override void WriteDocType(string name, string pubid, string sysid, string subset) { }
 
-	// RVA: 0x13D2CE0 Offset: 0x13D12E0 VA: 0x1813D2CE0 Slot: 9
+	// RVA: 0x13D1DE0 Offset: 0x13D03E0 VA: 0x1813D1DE0 Slot: 9
 	public override void WriteStartElement(string prefix, string localName, string ns) { }
 
-	// RVA: 0x131A810 Offset: 0x1318E10 VA: 0x18131A810 Slot: 10
+	// RVA: 0x1319910 Offset: 0x1317F10 VA: 0x181319910 Slot: 10
 	public override void WriteEndElement() { }
 
-	// RVA: 0x13D2B90 Offset: 0x13D1190 VA: 0x1813D2B90 Slot: 11
+	// RVA: 0x13D1C90 Offset: 0x13D0290 VA: 0x1813D1C90 Slot: 11
 	public override void WriteFullEndElement() { }
 
-	// RVA: 0x13D2C50 Offset: 0x13D1250 VA: 0x1813D2C50 Slot: 12
+	// RVA: 0x13D1D50 Offset: 0x13D0350 VA: 0x1813D1D50 Slot: 12
 	public override void WriteStartAttribute(string prefix, string localName, string ns) { }
 
-	// RVA: 0x13D2B00 Offset: 0x13D1100 VA: 0x1813D2B00 Slot: 13
+	// RVA: 0x13D1C00 Offset: 0x13D0200 VA: 0x1813D1C00 Slot: 13
 	public override void WriteEndAttribute() { }
 
-	// RVA: 0x13D2A10 Offset: 0x13D1010 VA: 0x1813D2A10 Slot: 14
+	// RVA: 0x13D1B10 Offset: 0x13D0110 VA: 0x1813D1B10 Slot: 14
 	public override void WriteCData(string text) { }
 
-	// RVA: 0x13D2AA0 Offset: 0x13D10A0 VA: 0x1813D2AA0 Slot: 15
+	// RVA: 0x13D1BA0 Offset: 0x13D01A0 VA: 0x1813D1BA0 Slot: 15
 	public override void WriteComment(string text) { }
 
-	// RVA: 0x13D2BC0 Offset: 0x13D11C0 VA: 0x1813D2BC0 Slot: 16
+	// RVA: 0x13D1CC0 Offset: 0x13D02C0 VA: 0x1813D1CC0 Slot: 16
 	public override void WriteProcessingInstruction(string name, string text) { }
 
-	// RVA: 0x13D2B60 Offset: 0x13D1160 VA: 0x1813D2B60 Slot: 17
+	// RVA: 0x13D1C60 Offset: 0x13D0260 VA: 0x1813D1C60 Slot: 17
 	public override void WriteEntityRef(string name) { }
 
-	// RVA: 0x13D2A40 Offset: 0x13D1040 VA: 0x1813D2A40 Slot: 18
+	// RVA: 0x13D1B40 Offset: 0x13D0140 VA: 0x1813D1B40 Slot: 18
 	public override void WriteCharEntity(char ch) { }
 
-	// RVA: 0x13D2D70 Offset: 0x13D1370 VA: 0x1813D2D70 Slot: 19
+	// RVA: 0x13D1E70 Offset: 0x13D0470 VA: 0x1813D1E70 Slot: 19
 	public override void WriteWhitespace(string ws) { }
 
-	// RVA: 0x13D2D10 Offset: 0x13D1310 VA: 0x1813D2D10 Slot: 20
+	// RVA: 0x13D1E10 Offset: 0x13D0410 VA: 0x1813D1E10 Slot: 20
 	public override void WriteString(string text) { }
 
-	// RVA: 0x13D2D40 Offset: 0x13D1340 VA: 0x1813D2D40 Slot: 21
+	// RVA: 0x13D1E40 Offset: 0x13D0440 VA: 0x1813D1E40 Slot: 21
 	public override void WriteSurrogateCharEntity(char lowChar, char highChar) { }
 
-	// RVA: 0x13D2A70 Offset: 0x13D1070 VA: 0x1813D2A70 Slot: 22
+	// RVA: 0x13D1B70 Offset: 0x13D0170 VA: 0x1813D1B70 Slot: 22
 	public override void WriteChars(char[] buffer, int index, int count) { }
 
-	// RVA: 0x13D2BF0 Offset: 0x13D11F0 VA: 0x1813D2BF0 Slot: 23
+	// RVA: 0x13D1CF0 Offset: 0x13D02F0 VA: 0x1813D1CF0 Slot: 23
 	public override void WriteRaw(char[] buffer, int index, int count) { }
 
-	// RVA: 0x13D2C20 Offset: 0x13D1220 VA: 0x1813D2C20 Slot: 24
+	// RVA: 0x13D1D20 Offset: 0x13D0320 VA: 0x1813D1D20 Slot: 24
 	public override void WriteRaw(string data) { }
 
-	// RVA: 0x13D29B0 Offset: 0x13D0FB0 VA: 0x1813D29B0 Slot: 25
+	// RVA: 0x13D1AB0 Offset: 0x13D00B0 VA: 0x1813D1AB0 Slot: 25
 	public override void WriteBase64(byte[] buffer, int index, int count) { }
 
-	// RVA: 0x13D29E0 Offset: 0x13D0FE0 VA: 0x1813D29E0 Slot: 26
+	// RVA: 0x13D1AE0 Offset: 0x13D00E0 VA: 0x1813D1AE0 Slot: 26
 	public override void WriteBinHex(byte[] buffer, int index, int count) { }
 
-	// RVA: 0x13D2E50 Offset: 0x13D1450 VA: 0x1813D2E50 Slot: 27
+	// RVA: 0x13D1F50 Offset: 0x13D0550 VA: 0x1813D1F50 Slot: 27
 	public override WriteState get_WriteState() { }
 
-	// RVA: 0x13D28C0 Offset: 0x13D0EC0 VA: 0x1813D28C0 Slot: 28
+	// RVA: 0x13D19C0 Offset: 0x13CFFC0 VA: 0x1813D19C0 Slot: 28
 	public override void Close() { }
 
-	// RVA: 0x13D2950 Offset: 0x13D0F50 VA: 0x1813D2950 Slot: 29
+	// RVA: 0x13D1A50 Offset: 0x13D0050 VA: 0x1813D1A50 Slot: 29
 	public override void Flush() { }
 
-	// RVA: 0x13D2980 Offset: 0x13D0F80 VA: 0x1813D2980 Slot: 30
+	// RVA: 0x13D1A80 Offset: 0x13D0080 VA: 0x1813D1A80 Slot: 30
 	public override string LookupPrefix(string ns) { }
 
 }
@@ -6112,115 +6112,115 @@ internal sealed class DataTextReader : XmlReader // TypeDefIndex: 4334
 
 	// Methods
 
-	// RVA: 0x13D2750 Offset: 0x13D0D50 VA: 0x1813D2750
+	// RVA: 0x13D1850 Offset: 0x13CFE50 VA: 0x1813D1850
 	internal static XmlReader CreateReader(XmlReader xr) { }
 
-	// RVA: 0x13D27F0 Offset: 0x13D0DF0 VA: 0x1813D27F0
+	// RVA: 0x13D18F0 Offset: 0x13CFEF0 VA: 0x1813D18F0
 	private void .ctor(XmlReader input) { }
 
-	// RVA: 0x132F9D0 Offset: 0x132DFD0 VA: 0x18132F9D0 Slot: 5
+	// RVA: 0x132EAD0 Offset: 0x132D0D0 VA: 0x18132EAD0 Slot: 5
 	public override XmlReaderSettings get_Settings() { }
 
-	// RVA: 0xB191B0 Offset: 0xB177B0 VA: 0x180B191B0 Slot: 6
+	// RVA: 0xB19680 Offset: 0xB17C80 VA: 0x180B19680 Slot: 6
 	public override XmlNodeType get_NodeType() { }
 
-	// RVA: 0xBC8DB0 Offset: 0xBC73B0 VA: 0x180BC8DB0 Slot: 7
+	// RVA: 0xBC9280 Offset: 0xBC7880 VA: 0x180BC9280 Slot: 7
 	public override string get_Name() { }
 
-	// RVA: 0xBC8D50 Offset: 0xBC7350 VA: 0x180BC8D50 Slot: 8
+	// RVA: 0xBC9220 Offset: 0xBC7820 VA: 0x180BC9220 Slot: 8
 	public override string get_LocalName() { }
 
-	// RVA: 0xBC8E10 Offset: 0xBC7410 VA: 0x180BC8E10 Slot: 9
+	// RVA: 0xBC92E0 Offset: 0xBC78E0 VA: 0x180BC92E0 Slot: 9
 	public override string get_NamespaceURI() { }
 
-	// RVA: 0xBC8E80 Offset: 0xBC7480 VA: 0x180BC8E80 Slot: 10
+	// RVA: 0xBC9350 Offset: 0xBC7950 VA: 0x180BC9350 Slot: 10
 	public override string get_Prefix() { }
 
-	// RVA: 0xBC8EE0 Offset: 0xBC74E0 VA: 0x180BC8EE0 Slot: 11
+	// RVA: 0xBC93B0 Offset: 0xBC79B0 VA: 0x180BC93B0 Slot: 11
 	public override string get_Value() { }
 
-	// RVA: 0xBC8C00 Offset: 0xBC7200 VA: 0x180BC8C00 Slot: 12
+	// RVA: 0xBC90D0 Offset: 0xBC76D0 VA: 0x180BC90D0 Slot: 12
 	public override int get_Depth() { }
 
-	// RVA: 0xBC8BD0 Offset: 0xBC71D0 VA: 0x180BC8BD0 Slot: 13
+	// RVA: 0xBC90A0 Offset: 0xBC76A0 VA: 0x180BC90A0 Slot: 13
 	public override string get_BaseURI() { }
 
-	// RVA: 0xBC8CC0 Offset: 0xBC72C0 VA: 0x180BC8CC0 Slot: 14
+	// RVA: 0xBC9190 Offset: 0xBC7790 VA: 0x180BC9190 Slot: 14
 	public override bool get_IsEmptyElement() { }
 
-	// RVA: 0xBC8C90 Offset: 0xBC7290 VA: 0x180BC8C90 Slot: 15
+	// RVA: 0xBC9160 Offset: 0xBC7760 VA: 0x180BC9160 Slot: 15
 	public override bool get_IsDefault() { }
 
-	// RVA: 0xBC8EB0 Offset: 0xBC74B0 VA: 0x180BC8EB0 Slot: 16
+	// RVA: 0xBC9380 Offset: 0xBC7980 VA: 0x180BC9380 Slot: 16
 	public override char get_QuoteChar() { }
 
-	// RVA: 0xBC8F40 Offset: 0xBC7540 VA: 0x180BC8F40 Slot: 17
+	// RVA: 0xBC9410 Offset: 0xBC7A10 VA: 0x180BC9410 Slot: 17
 	public override XmlSpace get_XmlSpace() { }
 
-	// RVA: 0xBC8F10 Offset: 0xBC7510 VA: 0x180BC8F10 Slot: 18
+	// RVA: 0xBC93E0 Offset: 0xBC79E0 VA: 0x180BC93E0 Slot: 18
 	public override string get_XmlLang() { }
 
-	// RVA: 0xB19300 Offset: 0xB17900 VA: 0x180B19300 Slot: 21
+	// RVA: 0xB197D0 Offset: 0xB17DD0 VA: 0x180B197D0 Slot: 21
 	public override int get_AttributeCount() { }
 
-	// RVA: 0xBC8450 Offset: 0xBC6A50 VA: 0x180BC8450 Slot: 22
+	// RVA: 0xBC8920 Offset: 0xBC6F20 VA: 0x180BC8920 Slot: 22
 	public override string GetAttribute(string name) { }
 
-	// RVA: 0xBC8480 Offset: 0xBC6A80 VA: 0x180BC8480 Slot: 23
+	// RVA: 0xBC8950 Offset: 0xBC6F50 VA: 0x180BC8950 Slot: 23
 	public override string GetAttribute(string localName, string namespaceURI) { }
 
-	// RVA: 0xBC84B0 Offset: 0xBC6AB0 VA: 0x180BC84B0 Slot: 24
+	// RVA: 0xBC8980 Offset: 0xBC6F80 VA: 0x180BC8980 Slot: 24
 	public override string GetAttribute(int i) { }
 
-	// RVA: 0xBC8550 Offset: 0xBC6B50 VA: 0x180BC8550 Slot: 25
+	// RVA: 0xBC8A20 Offset: 0xBC7020 VA: 0x180BC8A20 Slot: 25
 	public override bool MoveToAttribute(string name) { }
 
-	// RVA: 0xBC8520 Offset: 0xBC6B20 VA: 0x180BC8520 Slot: 26
+	// RVA: 0xBC89F0 Offset: 0xBC6FF0 VA: 0x180BC89F0 Slot: 26
 	public override void MoveToAttribute(int i) { }
 
-	// RVA: 0xBC85B0 Offset: 0xBC6BB0 VA: 0x180BC85B0 Slot: 27
+	// RVA: 0xBC8A80 Offset: 0xBC7080 VA: 0x180BC8A80 Slot: 27
 	public override bool MoveToFirstAttribute() { }
 
-	// RVA: 0xBC85E0 Offset: 0xBC6BE0 VA: 0x180BC85E0 Slot: 28
+	// RVA: 0xBC8AB0 Offset: 0xBC70B0 VA: 0x180BC8AB0 Slot: 28
 	public override bool MoveToNextAttribute() { }
 
-	// RVA: 0xBC8580 Offset: 0xBC6B80 VA: 0x180BC8580 Slot: 29
+	// RVA: 0xBC8A50 Offset: 0xBC7050 VA: 0x180BC8A50 Slot: 29
 	public override bool MoveToElement() { }
 
-	// RVA: 0xBC8610 Offset: 0xBC6C10 VA: 0x180BC8610 Slot: 30
+	// RVA: 0xBC8AE0 Offset: 0xBC70E0 VA: 0x180BC8AE0 Slot: 30
 	public override bool ReadAttributeValue() { }
 
-	// RVA: 0xBC8670 Offset: 0xBC6C70 VA: 0x180BC8670 Slot: 31
+	// RVA: 0xBC8B40 Offset: 0xBC7140 VA: 0x180BC8B40 Slot: 31
 	public override bool Read() { }
 
-	// RVA: 0xBC8C60 Offset: 0xBC7260 VA: 0x180BC8C60 Slot: 32
+	// RVA: 0xBC9130 Offset: 0xBC7730 VA: 0x180BC9130 Slot: 32
 	public override bool get_EOF() { }
 
-	// RVA: 0xB9F100 Offset: 0xB9D700 VA: 0x180B9F100 Slot: 33
+	// RVA: 0xB9F5D0 Offset: 0xB9DBD0 VA: 0x180B9F5D0 Slot: 33
 	public override void Close() { }
 
-	// RVA: 0xB9F170 Offset: 0xB9D770 VA: 0x180B9F170 Slot: 34
+	// RVA: 0xB9F640 Offset: 0xB9DC40 VA: 0x180B9F640 Slot: 34
 	public override ReadState get_ReadState() { }
 
-	// RVA: 0xBC86D0 Offset: 0xBC6CD0 VA: 0x180BC86D0 Slot: 35
+	// RVA: 0xBC8BA0 Offset: 0xBC71A0 VA: 0x180BC8BA0 Slot: 35
 	public override void Skip() { }
 
-	// RVA: 0xBC8D80 Offset: 0xBC7380 VA: 0x180BC8D80 Slot: 36
+	// RVA: 0xBC9250 Offset: 0xBC7850 VA: 0x180BC9250 Slot: 36
 	public override XmlNameTable get_NameTable() { }
 
-	// RVA: 0xBC8740 Offset: 0xBC6D40 VA: 0x180BC8740 Slot: 37
+	// RVA: 0xBC8C10 Offset: 0xBC7210 VA: 0x180BC8C10 Slot: 37
 	public override string LookupNamespace(string prefix) { }
 
-	// RVA: 0x13D2890 Offset: 0x13D0E90 VA: 0x1813D2890 Slot: 38
+	// RVA: 0x13D1990 Offset: 0x13CFF90 VA: 0x1813D1990 Slot: 38
 	public override bool get_CanResolveEntity() { }
 
-	// RVA: 0xBC86A0 Offset: 0xBC6CA0 VA: 0x180BC86A0 Slot: 39
+	// RVA: 0xBC8B70 Offset: 0xBC7170 VA: 0x180BC8B70 Slot: 39
 	public override void ResolveEntity() { }
 
-	// RVA: 0x13D2860 Offset: 0x13D0E60 VA: 0x1813D2860 Slot: 40
+	// RVA: 0x13D1960 Offset: 0x13CFF60 VA: 0x1813D1960 Slot: 40
 	public override bool get_CanReadValueChunk() { }
 
-	// RVA: 0xB9EB30 Offset: 0xB9D130 VA: 0x180B9EB30 Slot: 42
+	// RVA: 0xB9F000 Offset: 0xB9D600 VA: 0x180B9F000 Slot: 42
 	public override string ReadString() { }
 
 }
@@ -6276,157 +6276,157 @@ public abstract class DbCommandBuilder : Component // TypeDefIndex: 4369
 
 	// Methods
 
-	// RVA: 0x127EF20 Offset: 0x127D520 VA: 0x18127EF20
+	// RVA: 0x127F5C0 Offset: 0x127DBC0 VA: 0x18127F5C0
 	protected void .ctor() { }
 
-	// RVA: 0x599D40 Offset: 0x598340 VA: 0x180599D40 Slot: 12
+	// RVA: 0x599CD0 Offset: 0x5982D0 VA: 0x180599CD0 Slot: 12
 	public virtual ConflictOption get_ConflictOption() { }
 
-	// RVA: 0x582940 Offset: 0x580F40 VA: 0x180582940 Slot: 13
+	// RVA: 0x5828D0 Offset: 0x580ED0 VA: 0x1805828D0 Slot: 13
 	public virtual CatalogLocation get_CatalogLocation() { }
 
-	// RVA: 0x127EFF0 Offset: 0x127D5F0 VA: 0x18127EFF0 Slot: 14
+	// RVA: 0x127F690 Offset: 0x127DC90 VA: 0x18127F690 Slot: 14
 	public virtual string get_CatalogSeparator() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public DbDataAdapter get_DataAdapter() { }
 
-	// RVA: 0x127F130 Offset: 0x127D730 VA: 0x18127F130
+	// RVA: 0x127F7D0 Offset: 0x127DDD0 VA: 0x18127F7D0
 	public void set_DataAdapter(DbDataAdapter value) { }
 
-	// RVA: 0x107A120 Offset: 0x1078720 VA: 0x18107A120
+	// RVA: 0x107AB90 Offset: 0x1079190 VA: 0x18107AB90
 	internal int get_ParameterNameMaxLength() { }
 
-	// RVA: 0x952CA0 Offset: 0x9512A0 VA: 0x180952CA0
+	// RVA: 0x79BDE0 Offset: 0x79A3E0 VA: 0x18079BDE0
 	internal string get_ParameterNamePattern() { }
 
-	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
+	// RVA: 0x4E84B0 Offset: 0x4E6AB0 VA: 0x1804E84B0
 	private string get_QuotedBaseTableName() { }
 
-	// RVA: 0x127F040 Offset: 0x127D640 VA: 0x18127F040 Slot: 15
+	// RVA: 0x127F6E0 Offset: 0x127DCE0 VA: 0x18127F6E0 Slot: 15
 	public virtual string get_QuotePrefix() { }
 
-	// RVA: 0x127F1D0 Offset: 0x127D7D0 VA: 0x18127F1D0 Slot: 16
+	// RVA: 0x127F870 Offset: 0x127DE70 VA: 0x18127F870 Slot: 16
 	public virtual void set_QuotePrefix(string value) { }
 
-	// RVA: 0x127F090 Offset: 0x127D690 VA: 0x18127F090 Slot: 17
+	// RVA: 0x127F730 Offset: 0x127DD30 VA: 0x18127F730 Slot: 17
 	public virtual string get_QuoteSuffix() { }
 
-	// RVA: 0x127F260 Offset: 0x127D860 VA: 0x18127F260 Slot: 18
+	// RVA: 0x127F900 Offset: 0x127DF00 VA: 0x18127F900 Slot: 18
 	public virtual void set_QuoteSuffix(string value) { }
 
-	// RVA: 0x127F0E0 Offset: 0x127D6E0 VA: 0x18127F0E0 Slot: 19
+	// RVA: 0x127F780 Offset: 0x127DD80 VA: 0x18127F780 Slot: 19
 	public virtual string get_SchemaSeparator() { }
 
-	// RVA: 0x77B1F0 Offset: 0x7797F0 VA: 0x18077B1F0
+	// RVA: 0x77B140 Offset: 0x779740 VA: 0x18077B140
 	public bool get_SetAllValues() { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	private DbCommand get_InsertCommand() { }
 
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	private void set_InsertCommand(DbCommand value) { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	private DbCommand get_UpdateCommand() { }
 
-	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
+	// RVA: 0x6AD650 Offset: 0x6ABC50 VA: 0x1806AD650
 	private void set_UpdateCommand(DbCommand value) { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	private DbCommand get_DeleteCommand() { }
 
-	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
+	// RVA: 0x4BC5A0 Offset: 0x4BABA0 VA: 0x1804BC5A0
 	private void set_DeleteCommand(DbCommand value) { }
 
-	// RVA: 0x127B180 Offset: 0x1279780 VA: 0x18127B180
+	// RVA: 0x127B820 Offset: 0x1279E20 VA: 0x18127B820
 	private void BuildCache(bool closeConnection, DataRow dataRow, bool useColumnsForParameterNames) { }
 
-	// RVA: 0x127DC90 Offset: 0x127C290 VA: 0x18127DC90 Slot: 20
+	// RVA: 0x127E330 Offset: 0x127C930 VA: 0x18127E330 Slot: 20
 	protected virtual DataTable GetSchemaTable(DbCommand sourceCommand) { }
 
-	// RVA: 0x127B8E0 Offset: 0x1279EE0 VA: 0x18127B8E0
+	// RVA: 0x127BF80 Offset: 0x127A580 VA: 0x18127BF80
 	private void BuildInformation(DataTable schemaTable) { }
 
-	// RVA: 0x127B740 Offset: 0x1279D40 VA: 0x18127B740
+	// RVA: 0x127BDE0 Offset: 0x127A3E0 VA: 0x18127BDE0
 	private DbCommand BuildDeleteCommand(DataTableMapping mappings, DataRow dataRow) { }
 
-	// RVA: 0x127C1E0 Offset: 0x127A7E0 VA: 0x18127C1E0
+	// RVA: 0x127C880 Offset: 0x127AE80 VA: 0x18127C880
 	private DbCommand BuildInsertCommand(DataTableMapping mappings, DataRow dataRow) { }
 
-	// RVA: 0x127C750 Offset: 0x127AD50 VA: 0x18127C750
+	// RVA: 0x127CDF0 Offset: 0x127B3F0 VA: 0x18127CDF0
 	private DbCommand BuildUpdateCommand(DataTableMapping mappings, DataRow dataRow) { }
 
-	// RVA: 0x127CBE0 Offset: 0x127B1E0 VA: 0x18127CBE0
+	// RVA: 0x127D280 Offset: 0x127B880 VA: 0x18127D280
 	private int BuildWhereClause(DataTableMapping mappings, DataRow dataRow, StringBuilder builder, DbCommand command, int parameterCount, bool isUpdate) { }
 
-	// RVA: 0x127D210 Offset: 0x127B810 VA: 0x18127D210
+	// RVA: 0x127D8B0 Offset: 0x127BEB0 VA: 0x18127D8B0
 	private string CreateParameterForNullTest(DbCommand command, string parameterName, string sourceColumn, DataRowVersion version, int parameterCount, object value, DbSchemaRow row, StatementType statementType, bool whereClause) { }
 
-	// RVA: 0x127D620 Offset: 0x127BC20 VA: 0x18127D620
+	// RVA: 0x127DCC0 Offset: 0x127C2C0 VA: 0x18127DCC0
 	private string CreateParameterForValue(DbCommand command, string parameterName, string sourceColumn, DataRowVersion version, int parameterCount, object value, DbSchemaRow row, StatementType statementType, bool whereClause) { }
 
-	// RVA: 0x127D900 Offset: 0x127BF00 VA: 0x18127D900 Slot: 10
+	// RVA: 0x127DFA0 Offset: 0x127C5A0 VA: 0x18127DFA0 Slot: 10
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x127D980 Offset: 0x127BF80 VA: 0x18127D980
+	// RVA: 0x127E020 Offset: 0x127C620 VA: 0x18127E020
 	private string GetBaseParameterName(int index) { }
 
-	// RVA: 0x127DC40 Offset: 0x127C240 VA: 0x18127DC40
+	// RVA: 0x127E2E0 Offset: 0x127C8E0 VA: 0x18127E2E0
 	private string GetOriginalParameterName(int index) { }
 
-	// RVA: 0x127DBF0 Offset: 0x127C1F0 VA: 0x18127DBF0
+	// RVA: 0x127E290 Offset: 0x127C890 VA: 0x18127E290
 	private string GetNullParameterName(int index) { }
 
-	// RVA: 0x127DE10 Offset: 0x127C410 VA: 0x18127DE10
+	// RVA: 0x127E4B0 Offset: 0x127CAB0 VA: 0x18127E4B0
 	private DbCommand GetSelectCommand() { }
 
-	// RVA: 0x127D9D0 Offset: 0x127BFD0 VA: 0x18127D9D0
+	// RVA: 0x127E070 Offset: 0x127C670 VA: 0x18127E070
 	private object GetColumnValue(DataRow row, string columnName, DataTableMapping mappings, DataRowVersion version) { }
 
-	// RVA: 0x127DA80 Offset: 0x127C080 VA: 0x18127DA80
+	// RVA: 0x127E120 Offset: 0x127C720 VA: 0x18127E120
 	private object GetColumnValue(DataRow row, DataColumn column, DataRowVersion version) { }
 
-	// RVA: 0x127DAC0 Offset: 0x127C0C0 VA: 0x18127DAC0
+	// RVA: 0x127E160 Offset: 0x127C760 VA: 0x18127E160
 	private DataColumn GetDataColumn(string columnName, DataTableMapping tablemapping, DataRow row) { }
 
-	// RVA: 0x127DB50 Offset: 0x127C150 VA: 0x18127DB50
+	// RVA: 0x127E1F0 Offset: 0x127C7F0 VA: 0x18127E1F0
 	private static DbParameter GetNextParameter(DbCommand command, int pcount) { }
 
-	// RVA: 0x127DF10 Offset: 0x127C510 VA: 0x18127DF10
+	// RVA: 0x127E5B0 Offset: 0x127CBB0 VA: 0x18127E5B0
 	private bool IncludeInInsertValues(DbSchemaRow row) { }
 
-	// RVA: 0x127E090 Offset: 0x127C690 VA: 0x18127E090
+	// RVA: 0x127E730 Offset: 0x127CD30 VA: 0x18127E730
 	private bool IncludeInUpdateSet(DbSchemaRow row) { }
 
-	// RVA: 0x127E0F0 Offset: 0x127C6F0 VA: 0x18127E0F0
+	// RVA: 0x127E790 Offset: 0x127CD90 VA: 0x18127E790
 	private bool IncludeInWhereClause(DbSchemaRow row, bool isUpdate) { }
 
-	// RVA: 0x127E250 Offset: 0x127C850 VA: 0x18127E250
+	// RVA: 0x127E8F0 Offset: 0x127CEF0 VA: 0x18127E8F0
 	private bool IncrementWhereCount(DbSchemaRow row) { }
 
-	// RVA: 0x127E390 Offset: 0x127C990 VA: 0x18127E390 Slot: 21
+	// RVA: 0x127EA30 Offset: 0x127D030 VA: 0x18127EA30 Slot: 21
 	protected virtual DbCommand InitializeCommand(DbCommand command) { }
 
-	// RVA: 0x127E4F0 Offset: 0x127CAF0 VA: 0x18127E4F0
+	// RVA: 0x127EB90 Offset: 0x127D190 VA: 0x18127EB90
 	private string QuotedColumn(string column) { }
 
-	// RVA: 0x127E490 Offset: 0x127CA90 VA: 0x18127E490 Slot: 22
+	// RVA: 0x127EB30 Offset: 0x127D130 VA: 0x18127EB30 Slot: 22
 	public virtual string QuoteIdentifier(string unquotedIdentifier) { }
 
-	// RVA: 0x127E590 Offset: 0x127CB90 VA: 0x18127E590 Slot: 23
+	// RVA: 0x127EC30 Offset: 0x127D230 VA: 0x18127EC30 Slot: 23
 	public virtual void RefreshSchema() { }
 
-	// RVA: 0x127E8A0 Offset: 0x127CEA0 VA: 0x18127E8A0
+	// RVA: 0x127EF40 Offset: 0x127D540 VA: 0x18127EF40
 	private static void RemoveExtraParameters(DbCommand command, int usedParameterCount) { }
 
-	// RVA: 0x127EA80 Offset: 0x127D080 VA: 0x18127EA80
+	// RVA: 0x127F120 Offset: 0x127D720 VA: 0x18127F120
 	protected void RowUpdatingHandler(RowUpdatingEventArgs rowUpdatingEvent) { }
 
-	// RVA: 0x127E940 Offset: 0x127CF40 VA: 0x18127E940
+	// RVA: 0x127EFE0 Offset: 0x127D5E0 VA: 0x18127EFE0
 	private void RowUpdatingHandlerBuilder(RowUpdatingEventArgs rowUpdatingEvent) { }
 
-	// RVA: 0x127EEC0 Offset: 0x127D4C0 VA: 0x18127EEC0 Slot: 24
+	// RVA: 0x127F560 Offset: 0x127DB60 VA: 0x18127F560 Slot: 24
 	public virtual string UnquoteIdentifier(string quotedIdentifier) { }
 
 	// RVA: -1 Offset: -1 Slot: 25
@@ -6462,34 +6462,34 @@ private class DbCommandBuilder.ParameterNames // TypeDefIndex: 4370
 
 	// Methods
 
-	// RVA: 0x12828E0 Offset: 0x1280EE0 VA: 0x1812828E0
+	// RVA: 0x1282F80 Offset: 0x1281580 VA: 0x181282F80
 	internal void .ctor(DbCommandBuilder dbCommandBuilder, DbSchemaRow[] schemaRows) { }
 
-	// RVA: 0x1282760 Offset: 0x1280D60 VA: 0x181282760
+	// RVA: 0x1282E00 Offset: 0x1281400 VA: 0x181282E00
 	private void SetAndValidateNamePrefixes() { }
 
-	// RVA: 0x1281FB0 Offset: 0x12805B0 VA: 0x181281FB0
+	// RVA: 0x1282650 Offset: 0x1280C50 VA: 0x181282650
 	private void ApplyProviderSpecificFormat() { }
 
-	// RVA: 0x12821C0 Offset: 0x12807C0 VA: 0x1812821C0
+	// RVA: 0x1282860 Offset: 0x1280E60 VA: 0x181282860
 	private void EliminateConflictingNames() { }
 
-	// RVA: 0x1282360 Offset: 0x1280960 VA: 0x181282360
+	// RVA: 0x1282A00 Offset: 0x1281000 VA: 0x181282A00
 	internal void GenerateMissingNames(DbSchemaRow[] schemaRows) { }
 
-	// RVA: 0x1282530 Offset: 0x1280B30 VA: 0x181282530
+	// RVA: 0x1282BD0 Offset: 0x12811D0 VA: 0x181282BD0
 	private int GetAdjustedParameterNameMaxLength() { }
 
-	// RVA: 0x1282600 Offset: 0x1280C00 VA: 0x181282600
+	// RVA: 0x1282CA0 Offset: 0x12812A0 VA: 0x181282CA0
 	private string GetNextGenericParameterName() { }
 
-	// RVA: 0xE95930 Offset: 0xE93F30 VA: 0x180E95930
+	// RVA: 0xE963E0 Offset: 0xE949E0 VA: 0x180E963E0
 	internal string GetBaseParameterName(int index) { }
 
-	// RVA: 0x1282720 Offset: 0x1280D20 VA: 0x181282720
+	// RVA: 0x1282DC0 Offset: 0x12813C0 VA: 0x181282DC0
 	internal string GetOriginalParameterName(int index) { }
 
-	// RVA: 0x12826E0 Offset: 0x1280CE0 VA: 0x1812826E0
+	// RVA: 0x1282D80 Offset: 0x1281380 VA: 0x181282D80
 	internal string GetNullParameterName(int index) { }
 
 }
@@ -6519,58 +6519,58 @@ internal sealed class DbSchemaRow // TypeDefIndex: 4371
 
 	// Methods
 
-	// RVA: 0x1280BD0 Offset: 0x127F1D0 VA: 0x181280BD0
+	// RVA: 0x1281270 Offset: 0x127F870 VA: 0x181281270
 	internal static DbSchemaRow[] GetSortedSchemaRows(DataTable dataTable, bool returnProviderSpecificTypes) { }
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	internal void .ctor(DbSchemaTable schemaTable, DataRow dataRow) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	internal DataRow get_DataRow() { }
 
-	// RVA: 0x12815A0 Offset: 0x127FBA0 VA: 0x1812815A0
+	// RVA: 0x1281C40 Offset: 0x1280240 VA: 0x181281C40
 	internal string get_ColumnName() { }
 
-	// RVA: 0x12810E0 Offset: 0x127F6E0 VA: 0x1812810E0
+	// RVA: 0x1281780 Offset: 0x127FD80 VA: 0x181281780
 	internal string get_BaseColumnName() { }
 
-	// RVA: 0x1281340 Offset: 0x127F940 VA: 0x181281340
+	// RVA: 0x12819E0 Offset: 0x127FFE0 VA: 0x1812819E0
 	internal string get_BaseServerName() { }
 
-	// RVA: 0x1280FB0 Offset: 0x127F5B0 VA: 0x181280FB0
+	// RVA: 0x1281650 Offset: 0x127FC50 VA: 0x181281650
 	internal string get_BaseCatalogName() { }
 
-	// RVA: 0x1281210 Offset: 0x127F810 VA: 0x181281210
+	// RVA: 0x12818B0 Offset: 0x127FEB0 VA: 0x1812818B0
 	internal string get_BaseSchemaName() { }
 
-	// RVA: 0x1281470 Offset: 0x127FA70 VA: 0x181281470
+	// RVA: 0x1281B10 Offset: 0x1280110 VA: 0x181281B10
 	internal string get_BaseTableName() { }
 
-	// RVA: 0x12816B0 Offset: 0x127FCB0 VA: 0x1812816B0
+	// RVA: 0x1281D50 Offset: 0x1280350 VA: 0x181281D50
 	internal bool get_IsAutoIncrement() { }
 
-	// RVA: 0x1281E90 Offset: 0x1280490 VA: 0x181281E90
+	// RVA: 0x1282530 Offset: 0x1280B30 VA: 0x181282530
 	internal bool get_IsUnique() { }
 
-	// RVA: 0x1281D70 Offset: 0x1280370 VA: 0x181281D70
+	// RVA: 0x1282410 Offset: 0x1280A10 VA: 0x181282410
 	internal bool get_IsRowVersion() { }
 
-	// RVA: 0x1281A10 Offset: 0x1280010 VA: 0x181281A10
+	// RVA: 0x12820B0 Offset: 0x12806B0 VA: 0x1812820B0
 	internal bool get_IsKey() { }
 
-	// RVA: 0x12817D0 Offset: 0x127FDD0 VA: 0x1812817D0
+	// RVA: 0x1281E70 Offset: 0x1280470 VA: 0x181281E70
 	internal bool get_IsExpression() { }
 
-	// RVA: 0x12818F0 Offset: 0x127FEF0 VA: 0x1812818F0
+	// RVA: 0x1281F90 Offset: 0x1280590 VA: 0x181281F90
 	internal bool get_IsHidden() { }
 
-	// RVA: 0x1281B30 Offset: 0x1280130 VA: 0x181281B30
+	// RVA: 0x12821D0 Offset: 0x12807D0 VA: 0x1812821D0
 	internal bool get_IsLong() { }
 
-	// RVA: 0x1281C50 Offset: 0x1280250 VA: 0x181281C50
+	// RVA: 0x12822F0 Offset: 0x12808F0 VA: 0x1812822F0
 	internal bool get_IsReadOnly() { }
 
-	// RVA: 0x1280E90 Offset: 0x127F490 VA: 0x181280E90
+	// RVA: 0x1281530 Offset: 0x127FB30 VA: 0x181281530
 	internal bool get_AllowDBNull() { }
 
 }
@@ -6602,61 +6602,61 @@ internal sealed class DbSchemaTable // TypeDefIndex: 4372
 
 	// Methods
 
-	// RVA: 0x17CDD50 Offset: 0x17CC350 VA: 0x1817CDD50
+	// RVA: 0x17CB8A0 Offset: 0x17C9EA0 VA: 0x1817CB8A0
 	internal void .ctor(DataTable dataTable, bool returnProviderSpecificTypes) { }
 
-	// RVA: 0x17CDE90 Offset: 0x17CC490 VA: 0x1817CDE90
+	// RVA: 0x17CB9E0 Offset: 0x17C9FE0 VA: 0x1817CB9E0
 	internal DataColumn get_ColumnName() { }
 
-	// RVA: 0x17CDE70 Offset: 0x17CC470 VA: 0x1817CDE70
+	// RVA: 0x17CB9C0 Offset: 0x17C9FC0 VA: 0x1817CB9C0
 	internal DataColumn get_BaseServerName() { }
 
-	// RVA: 0x17CDE50 Offset: 0x17CC450 VA: 0x1817CDE50
+	// RVA: 0x17CB9A0 Offset: 0x17C9FA0 VA: 0x1817CB9A0
 	internal DataColumn get_BaseColumnName() { }
 
-	// RVA: 0x17CDE80 Offset: 0x17CC480 VA: 0x1817CDE80
+	// RVA: 0x17CB9D0 Offset: 0x17C9FD0 VA: 0x1817CB9D0
 	internal DataColumn get_BaseTableName() { }
 
-	// RVA: 0x17CDE40 Offset: 0x17CC440 VA: 0x1817CDE40
+	// RVA: 0x17CB990 Offset: 0x17C9F90 VA: 0x1817CB990
 	internal DataColumn get_BaseCatalogName() { }
 
-	// RVA: 0x17CDE60 Offset: 0x17CC460 VA: 0x1817CDE60
+	// RVA: 0x17CB9B0 Offset: 0x17C9FB0 VA: 0x1817CB9B0
 	internal DataColumn get_BaseSchemaName() { }
 
-	// RVA: 0x17CDEA0 Offset: 0x17CC4A0 VA: 0x1817CDEA0
+	// RVA: 0x17CB9F0 Offset: 0x17C9FF0 VA: 0x1817CB9F0
 	internal DataColumn get_IsAutoIncrement() { }
 
-	// RVA: 0x17CDF10 Offset: 0x17CC510 VA: 0x1817CDF10
+	// RVA: 0x17CBA60 Offset: 0x17CA060 VA: 0x1817CBA60
 	internal DataColumn get_IsUnique() { }
 
-	// RVA: 0x17CDED0 Offset: 0x17CC4D0 VA: 0x1817CDED0
+	// RVA: 0x17CBA20 Offset: 0x17CA020 VA: 0x1817CBA20
 	internal DataColumn get_IsKey() { }
 
-	// RVA: 0x17CDF00 Offset: 0x17CC500 VA: 0x1817CDF00
+	// RVA: 0x17CBA50 Offset: 0x17CA050 VA: 0x1817CBA50
 	internal DataColumn get_IsRowVersion() { }
 
-	// RVA: 0x17CDE30 Offset: 0x17CC430 VA: 0x1817CDE30
+	// RVA: 0x17CB980 Offset: 0x17C9F80 VA: 0x1817CB980
 	internal DataColumn get_AllowDBNull() { }
 
-	// RVA: 0x17CDEB0 Offset: 0x17CC4B0 VA: 0x1817CDEB0
+	// RVA: 0x17CBA00 Offset: 0x17CA000 VA: 0x1817CBA00
 	internal DataColumn get_IsExpression() { }
 
-	// RVA: 0x17CDEC0 Offset: 0x17CC4C0 VA: 0x1817CDEC0
+	// RVA: 0x17CBA10 Offset: 0x17CA010 VA: 0x1817CBA10
 	internal DataColumn get_IsHidden() { }
 
-	// RVA: 0x17CDEE0 Offset: 0x17CC4E0 VA: 0x1817CDEE0
+	// RVA: 0x17CBA30 Offset: 0x17CA030 VA: 0x1817CBA30
 	internal DataColumn get_IsLong() { }
 
-	// RVA: 0x17CDEF0 Offset: 0x17CC4F0 VA: 0x1817CDEF0
+	// RVA: 0x17CBA40 Offset: 0x17CA040 VA: 0x1817CBA40
 	internal DataColumn get_IsReadOnly() { }
 
-	// RVA: 0x17CD200 Offset: 0x17CB800 VA: 0x1817CD200
+	// RVA: 0x17CAD50 Offset: 0x17C9350 VA: 0x1817CAD50
 	private DataColumn CachedDataColumn(DbSchemaTable.ColumnEnum column) { }
 
-	// RVA: 0x17CD210 Offset: 0x17CB810 VA: 0x1817CD210
+	// RVA: 0x17CAD60 Offset: 0x17C9360 VA: 0x1817CAD60
 	private DataColumn CachedDataColumn(DbSchemaTable.ColumnEnum column, DbSchemaTable.ColumnEnum column2) { }
 
-	// RVA: 0x17CD400 Offset: 0x17CBA00 VA: 0x1817CD400
+	// RVA: 0x17CAF50 Offset: 0x17C9550 VA: 0x1817CAF50
 	private static void .cctor() { }
 
 }
@@ -6699,10 +6699,10 @@ public class DataAdapter : Component // TypeDefIndex: 4374
 
 	// Methods
 
-	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600 Slot: 12
+	// RVA: 0x4BE590 Offset: 0x4BCB90 VA: 0x1804BE590 Slot: 12
 	public MissingMappingAction get_MissingMappingAction() { }
 
-	// RVA: 0x1274AC0 Offset: 0x12730C0 VA: 0x181274AC0
+	// RVA: 0x1275160 Offset: 0x1273760 VA: 0x181275160
 	private static void .cctor() { }
 
 }
@@ -6720,21 +6720,21 @@ public sealed class DataColumnMapping : MarshalByRefObject // TypeDefIndex: 4375
 
 	// Methods
 
-	// RVA: 0x1275570 Offset: 0x1273B70 VA: 0x181275570 Slot: 6
+	// RVA: 0x1275C10 Offset: 0x1274210 VA: 0x181275C10 Slot: 6
 	public string get_DataSetColumn() { }
 
-	// RVA: 0x12755C0 Offset: 0x1273BC0 VA: 0x1812755C0 Slot: 7
+	// RVA: 0x1275C60 Offset: 0x1274260 VA: 0x181275C60 Slot: 7
 	public string get_SourceColumn() { }
 
 	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
-	// RVA: 0x12754A0 Offset: 0x1273AA0 VA: 0x1812754A0
+	// RVA: 0x1275B40 Offset: 0x1274140 VA: 0x181275B40
 	public DataColumn GetDataColumnBySchemaAction(DataTable dataTable, Type dataType, MissingSchemaAction schemaAction) { }
 
 	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
-	// RVA: 0x1275180 Offset: 0x1273780 VA: 0x181275180
+	// RVA: 0x1275820 Offset: 0x1273E20 VA: 0x181275820
 	public static DataColumn GetDataColumnBySchemaAction(string sourceColumn, string dataSetColumn, DataTable dataTable, Type dataType, MissingSchemaAction schemaAction) { }
 
-	// RVA: 0x1275040 Offset: 0x1273640 VA: 0x181275040
+	// RVA: 0x12756E0 Offset: 0x1273CE0 VA: 0x1812756E0
 	internal static DataColumn CreateDataColumnBySchemaAction(string sourceColumn, string dataSetColumn, DataTable dataTable, Type dataType, MissingSchemaAction schemaAction) { }
 
 }
@@ -6754,14 +6754,14 @@ public sealed class DataColumnMappingCollection : MarshalByRefObject // TypeDefI
 
 	// Methods
 
-	// RVA: 0x1275000 Offset: 0x1273600 VA: 0x181275000 Slot: 6
+	// RVA: 0x12756A0 Offset: 0x1273CA0 VA: 0x1812756A0 Slot: 6
 	public int get_Count() { }
 
-	// RVA: 0x1274E80 Offset: 0x1273480 VA: 0x181274E80 Slot: 7
+	// RVA: 0x1275520 Offset: 0x1273B20 VA: 0x181275520 Slot: 7
 	public int IndexOf(string sourceColumn) { }
 
 	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
-	// RVA: 0x1274B20 Offset: 0x1273120 VA: 0x181274B20
+	// RVA: 0x12751C0 Offset: 0x12737C0 VA: 0x1812751C0
 	public static DataColumn GetDataColumn(DataColumnMappingCollection columnMappings, string sourceColumn, Type dataType, DataTable dataTable, MissingMappingAction mappingAction, MissingSchemaAction schemaAction) { }
 
 }
@@ -6779,43 +6779,43 @@ internal sealed class DataRecordInternal : DbDataRecord, ICustomTypeDescriptor /
 
 	// Methods
 
-	// RVA: 0x10E4B30 Offset: 0x10E3130 VA: 0x1810E4B30
+	// RVA: 0x10E55A0 Offset: 0x10E3BA0 VA: 0x1810E55A0
 	internal void .ctor(SchemaInfo[] schemaInfo, object[] values, PropertyDescriptorCollection descriptors, FieldNameLookup fieldNameLookup) { }
 
-	// RVA: 0x9EB840 Offset: 0x9E9E40 VA: 0x1809EB840 Slot: 15
+	// RVA: 0x9EBD30 Offset: 0x9EA330 VA: 0x1809EBD30 Slot: 15
 	public override int get_FieldCount() { }
 
-	// RVA: 0x1275710 Offset: 0x1273D10 VA: 0x181275710 Slot: 21
+	// RVA: 0x1275DB0 Offset: 0x12743B0 VA: 0x181275DB0 Slot: 21
 	public override int GetValues(object[] values) { }
 
-	// RVA: 0x1275690 Offset: 0x1273C90 VA: 0x181275690 Slot: 19
+	// RVA: 0x1275D30 Offset: 0x1274330 VA: 0x181275D30 Slot: 19
 	public override string GetName(int i) { }
 
-	// RVA: 0x12756D0 Offset: 0x1273CD0 VA: 0x1812756D0 Slot: 20
+	// RVA: 0x1275D70 Offset: 0x1274370 VA: 0x181275D70 Slot: 20
 	public override object GetValue(int i) { }
 
-	// RVA: 0x1275610 Offset: 0x1273C10 VA: 0x181275610 Slot: 17
+	// RVA: 0x1275CB0 Offset: 0x12742B0 VA: 0x181275CB0 Slot: 17
 	public override string GetDataTypeName(int i) { }
 
-	// RVA: 0x1275650 Offset: 0x1273C50 VA: 0x181275650 Slot: 18
+	// RVA: 0x1275CF0 Offset: 0x12742F0 VA: 0x181275CF0 Slot: 18
 	public override Type GetFieldType(int i) { }
 
-	// RVA: 0xAEEF20 Offset: 0xAED520 VA: 0x180AEEF20 Slot: 16
+	// RVA: 0xAEF3F0 Offset: 0xAED9F0 VA: 0x180AEF3F0 Slot: 16
 	public override object get_Item(int i) { }
 
-	// RVA: 0x1275870 Offset: 0x1273E70 VA: 0x181275870 Slot: 4
+	// RVA: 0x1275F10 Offset: 0x1274510 VA: 0x181275F10 Slot: 4
 	private AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 5
 	private TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter() { }
 
-	// RVA: 0x1275930 Offset: 0x1273F30 VA: 0x181275930 Slot: 6
+	// RVA: 0x1275FD0 Offset: 0x12745D0 VA: 0x181275FD0 Slot: 6
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties() { }
 
-	// RVA: 0x12758C0 Offset: 0x1273EC0 VA: 0x1812758C0 Slot: 7
+	// RVA: 0x1275F60 Offset: 0x1274560 VA: 0x181275F60 Slot: 7
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties(Attribute[] attributes) { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 8
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 8
 	private object System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(PropertyDescriptor pd) { }
 
 }
@@ -6843,28 +6843,28 @@ internal abstract class DataStorage // TypeDefIndex: 4381
 
 	// Methods
 
-	// RVA: 0x1278500 Offset: 0x1276B00 VA: 0x181278500
+	// RVA: 0x1278BA0 Offset: 0x12771A0 VA: 0x181278BA0
 	protected void .ctor(DataColumn column, Type type, object defaultValue, StorageType storageType) { }
 
-	// RVA: 0x12784D0 Offset: 0x1276AD0 VA: 0x1812784D0
+	// RVA: 0x1278B70 Offset: 0x1277170 VA: 0x181278B70
 	protected void .ctor(DataColumn column, Type type, object defaultValue, object nullValue, StorageType storageType) { }
 
-	// RVA: 0x12785B0 Offset: 0x1276BB0 VA: 0x1812785B0
+	// RVA: 0x1278C50 Offset: 0x1277250 VA: 0x181278C50
 	protected void .ctor(DataColumn column, Type type, object defaultValue, object nullValue, bool isICloneable, StorageType storageType) { }
 
-	// RVA: 0x1278760 Offset: 0x1276D60 VA: 0x181278760
+	// RVA: 0x1278E00 Offset: 0x1277400 VA: 0x181278E00
 	internal DataSetDateTime get_DateTimeMode() { }
 
-	// RVA: 0x1278780 Offset: 0x1276D80 VA: 0x181278780
+	// RVA: 0x1278E20 Offset: 0x1277420 VA: 0x181278E20
 	internal IFormatProvider get_FormatProvider() { }
 
-	// RVA: 0x1275A30 Offset: 0x1274030 VA: 0x181275A30 Slot: 4
+	// RVA: 0x12760D0 Offset: 0x12746D0 VA: 0x1812760D0 Slot: 4
 	public virtual object Aggregate(int[] recordNos, AggregateType kind) { }
 
-	// RVA: 0x1275970 Offset: 0x1273F70 VA: 0x181275970
+	// RVA: 0x1276010 Offset: 0x1274610 VA: 0x181276010
 	public object AggregateCount(int[] recordNos) { }
 
-	// RVA: 0x1275B00 Offset: 0x1274100 VA: 0x181275B00
+	// RVA: 0x12761A0 Offset: 0x12747A0 VA: 0x1812761A0
 	protected int CompareBits(int recordNo1, int recordNo2) { }
 
 	// RVA: -1 Offset: -1 Slot: 5
@@ -6873,10 +6873,10 @@ internal abstract class DataStorage // TypeDefIndex: 4381
 	// RVA: -1 Offset: -1 Slot: 6
 	public abstract int CompareValueTo(int recordNo1, object value);
 
-	// RVA: 0x7B4F90 Offset: 0x7B3590 VA: 0x1807B4F90 Slot: 7
+	// RVA: 0x7D3380 Offset: 0x7D1980 VA: 0x1807D3380 Slot: 7
 	public virtual object ConvertValue(object value) { }
 
-	// RVA: 0x1275C10 Offset: 0x1274210 VA: 0x181275C10
+	// RVA: 0x12762B0 Offset: 0x12748B0 VA: 0x1812762B0
 	protected void CopyBits(int srcRecordNo, int dstRecordNo) { }
 
 	// RVA: -1 Offset: -1 Slot: 8
@@ -6885,85 +6885,85 @@ internal abstract class DataStorage // TypeDefIndex: 4381
 	// RVA: -1 Offset: -1 Slot: 9
 	public abstract object Get(int recordNo);
 
-	// RVA: 0x12767E0 Offset: 0x1274DE0 VA: 0x1812767E0
+	// RVA: 0x1276E80 Offset: 0x1275480 VA: 0x181276E80
 	protected object GetBits(int recordNo) { }
 
-	// RVA: 0x1276A10 Offset: 0x1275010 VA: 0x181276A10 Slot: 10
+	// RVA: 0x12770B0 Offset: 0x12756B0 VA: 0x1812770B0 Slot: 10
 	public virtual int GetStringLength(int record) { }
 
-	// RVA: 0x1276BB0 Offset: 0x12751B0 VA: 0x181276BB0
+	// RVA: 0x1277250 Offset: 0x1275850 VA: 0x181277250
 	protected bool HasValue(int recordNo) { }
 
-	// RVA: 0x1276F50 Offset: 0x1275550 VA: 0x181276F50 Slot: 11
+	// RVA: 0x12775F0 Offset: 0x1275BF0 VA: 0x1812775F0 Slot: 11
 	public virtual bool IsNull(int recordNo) { }
 
 	// RVA: -1 Offset: -1 Slot: 12
 	public abstract void Set(int recordNo, object value);
 
-	// RVA: 0x1277310 Offset: 0x1275910 VA: 0x181277310
+	// RVA: 0x12779B0 Offset: 0x1275FB0 VA: 0x1812779B0
 	protected void SetNullBit(int recordNo, bool flag) { }
 
-	// RVA: 0x1277280 Offset: 0x1275880 VA: 0x181277280 Slot: 13
+	// RVA: 0x1277920 Offset: 0x1275F20 VA: 0x181277920 Slot: 13
 	public virtual void SetCapacity(int capacity) { }
 
 	// RVA: -1 Offset: -1 Slot: 14
 	public abstract object ConvertXmlToObject(string s);
 
-	// RVA: 0x1275BC0 Offset: 0x12741C0 VA: 0x181275BC0 Slot: 15
+	// RVA: 0x1276260 Offset: 0x1274860 VA: 0x181276260 Slot: 15
 	public virtual object ConvertXmlToObject(XmlReader xmlReader, XmlRootAttribute xmlAttrib) { }
 
 	// RVA: -1 Offset: -1 Slot: 16
 	public abstract string ConvertObjectToXml(object value);
 
-	// RVA: 0x1275B80 Offset: 0x1274180 VA: 0x181275B80 Slot: 17
+	// RVA: 0x1276220 Offset: 0x1274820 VA: 0x181276220 Slot: 17
 	public virtual void ConvertObjectToXml(object value, XmlWriter xmlWriter, XmlRootAttribute xmlAttrib) { }
 
-	// RVA: 0x1275C80 Offset: 0x1274280 VA: 0x181275C80
+	// RVA: 0x1276320 Offset: 0x1274920 VA: 0x181276320
 	public static DataStorage CreateStorage(DataColumn column, Type dataType, StorageType typeCode) { }
 
-	// RVA: 0x12768B0 Offset: 0x1274EB0 VA: 0x1812768B0
+	// RVA: 0x1276F50 Offset: 0x1275550 VA: 0x181276F50
 	internal static StorageType GetStorageType(Type dataType) { }
 
-	// RVA: 0x1276A20 Offset: 0x1275020 VA: 0x181276A20
+	// RVA: 0x12770C0 Offset: 0x12756C0 VA: 0x1812770C0
 	internal static Type GetTypeStorage(StorageType storageType) { }
 
-	// RVA: 0x1277200 Offset: 0x1275800 VA: 0x181277200
+	// RVA: 0x12778A0 Offset: 0x1275EA0 VA: 0x1812778A0
 	internal static bool IsTypeCustomType(Type type) { }
 
-	// RVA: 0x1277270 Offset: 0x1275870 VA: 0x181277270
+	// RVA: 0x1277910 Offset: 0x1275F10 VA: 0x181277910
 	internal static bool IsTypeCustomType(StorageType typeCode) { }
 
-	// RVA: 0x12771F0 Offset: 0x12757F0 VA: 0x1812771F0
+	// RVA: 0x1277890 Offset: 0x1275E90 VA: 0x181277890
 	internal static bool IsSqlType(StorageType storageType) { }
 
-	// RVA: 0x12770B0 Offset: 0x12756B0 VA: 0x1812770B0
+	// RVA: 0x1277750 Offset: 0x1275D50 VA: 0x181277750
 	public static bool IsSqlType(Type dataType) { }
 
-	// RVA: 0x1276750 Offset: 0x1274D50 VA: 0x181276750
+	// RVA: 0x1276DF0 Offset: 0x12753F0 VA: 0x181276DF0
 	private static bool DetermineIfValueType(StorageType typeCode, Type dataType) { }
 
-	// RVA: 0x1276CA0 Offset: 0x12752A0 VA: 0x181276CA0
+	// RVA: 0x1277340 Offset: 0x1275940 VA: 0x181277340
 	internal static void ImplementsInterfaces(StorageType typeCode, Type dataType, out bool sqlType, out bool nullable, out bool xmlSerializable, out bool changeTracking, out bool revertibleChangeTracking) { }
 
-	// RVA: 0x1276DE0 Offset: 0x12753E0 VA: 0x181276DE0
+	// RVA: 0x1277480 Offset: 0x1275A80 VA: 0x181277480
 	private static Tuple<bool, bool, bool, bool> InspectTypeForInterfaces(Type dataType) { }
 
-	// RVA: 0x1276BE0 Offset: 0x12751E0 VA: 0x181276BE0
+	// RVA: 0x1277280 Offset: 0x1275880 VA: 0x181277280
 	internal static bool ImplementsINullableValue(StorageType typeCode, Type dataType) { }
 
-	// RVA: 0x1276F70 Offset: 0x1275570 VA: 0x181276F70
+	// RVA: 0x1277610 Offset: 0x1275C10 VA: 0x181277610
 	public static bool IsObjectNull(object value) { }
 
-	// RVA: 0x1277050 Offset: 0x1275650 VA: 0x181277050
+	// RVA: 0x12776F0 Offset: 0x1275CF0 VA: 0x1812776F0
 	public static bool IsObjectSqlNull(object value) { }
 
-	// RVA: 0x1276820 Offset: 0x1274E20 VA: 0x181276820
+	// RVA: 0x1276EC0 Offset: 0x12754C0 VA: 0x181276EC0
 	internal object GetEmptyStorageInternal(int recordCount) { }
 
-	// RVA: 0x1275C60 Offset: 0x1274260 VA: 0x181275C60
+	// RVA: 0x1276300 Offset: 0x1274900 VA: 0x181276300
 	internal void CopyValueInternal(int record, object store, BitArray nullbits, int storeIndex) { }
 
-	// RVA: 0x1277330 Offset: 0x1275930 VA: 0x181277330
+	// RVA: 0x12779D0 Offset: 0x1275FD0 VA: 0x1812779D0
 	internal void SetStorageInternal(object store, BitArray nullbits) { }
 
 	// RVA: -1 Offset: -1 Slot: 18
@@ -6975,16 +6975,16 @@ internal abstract class DataStorage // TypeDefIndex: 4381
 	// RVA: -1 Offset: -1 Slot: 20
 	protected abstract void SetStorage(object store, BitArray nullbits);
 
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	protected void SetNullStorage(BitArray nullbits) { }
 
-	// RVA: 0x1276AB0 Offset: 0x12750B0 VA: 0x181276AB0
+	// RVA: 0x1277150 Offset: 0x1275750 VA: 0x181277150
 	internal static Type GetType(string value) { }
 
-	// RVA: 0x1276840 Offset: 0x1274E40 VA: 0x181276840
+	// RVA: 0x1276EE0 Offset: 0x12754E0 VA: 0x181276EE0
 	internal static string GetQualifiedName(Type type) { }
 
-	// RVA: 0x1277350 Offset: 0x1275950 VA: 0x181277350
+	// RVA: 0x12779F0 Offset: 0x1275FF0 VA: 0x1812779F0
 	private static void .cctor() { }
 
 }
@@ -6996,7 +6996,7 @@ public sealed class DataTableMapping : MarshalByRefObject // TypeDefIndex: 4382
 	// Methods
 
 	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
-	// RVA: 0x12787A0 Offset: 0x1276DA0 VA: 0x1812787A0
+	// RVA: 0x1278E40 Offset: 0x1277440 VA: 0x181278E40
 	public DataColumn GetDataColumn(string sourceColumn, Type dataType, DataTable dataTable, MissingMappingAction mappingAction, MissingSchemaAction schemaAction) { }
 
 }
@@ -7034,7 +7034,7 @@ public abstract class DbCommand : Component, IDbCommand, IDisposable // TypeDefI
 
 	// Methods
 
-	// RVA: 0x127F310 Offset: 0x127D910 VA: 0x18127F310
+	// RVA: 0x127F9B0 Offset: 0x127DFB0 VA: 0x18127F9B0
 	protected void .ctor() { }
 
 	// RVA: -1 Offset: -1 Slot: 12
@@ -7052,10 +7052,10 @@ public abstract class DbCommand : Component, IDbCommand, IDisposable // TypeDefI
 	// RVA: -1 Offset: -1 Slot: 16
 	public abstract void set_CommandType(CommandType value);
 
-	// RVA: 0x127F370 Offset: 0x127D970 VA: 0x18127F370
+	// RVA: 0x127FA10 Offset: 0x127E010 VA: 0x18127FA10
 	public DbConnection get_Connection() { }
 
-	// RVA: 0x1276820 Offset: 0x1274E20 VA: 0x181276820
+	// RVA: 0x1276EC0 Offset: 0x12754C0 VA: 0x181276EC0
 	public void set_Connection(DbConnection value) { }
 
 	// RVA: -1 Offset: -1 Slot: 17
@@ -7079,13 +7079,13 @@ public abstract class DbCommand : Component, IDbCommand, IDisposable // TypeDefI
 	// RVA: -1 Offset: -1 Slot: 23
 	public abstract void set_DesignTimeVisible(bool value);
 
-	// RVA: 0x11D2A50 Offset: 0x11D1050 VA: 0x1811D2A50
+	// RVA: 0x11D30F0 Offset: 0x11D16F0 VA: 0x1811D30F0
 	public DbParameterCollection get_Parameters() { }
 
-	// RVA: 0x127F390 Offset: 0x127D990 VA: 0x18127F390
+	// RVA: 0x127FA30 Offset: 0x127E030 VA: 0x18127FA30
 	public DbTransaction get_Transaction() { }
 
-	// RVA: 0xE2D440 Offset: 0xE2BA40 VA: 0x180E2D440
+	// RVA: 0xE2DEF0 Offset: 0xE2C4F0 VA: 0x180E2DEF0
 	public void set_Transaction(DbTransaction value) { }
 
 	// RVA: -1 Offset: -1 Slot: 24
@@ -7094,7 +7094,7 @@ public abstract class DbCommand : Component, IDbCommand, IDisposable // TypeDefI
 	// RVA: -1 Offset: -1 Slot: 25
 	public abstract void set_UpdatedRowSource(UpdateRowSource value);
 
-	// RVA: 0xFCB5E0 Offset: 0xFC9BE0 VA: 0x180FCB5E0
+	// RVA: 0xFCC080 Offset: 0xFCA680 VA: 0x180FCC080
 	public DbParameter CreateParameter() { }
 
 	// RVA: -1 Offset: -1 Slot: 26
@@ -7106,7 +7106,7 @@ public abstract class DbCommand : Component, IDbCommand, IDisposable // TypeDefI
 	// RVA: -1 Offset: -1 Slot: 28
 	public abstract int ExecuteNonQuery();
 
-	// RVA: 0x127F2F0 Offset: 0x127D8F0 VA: 0x18127F2F0
+	// RVA: 0x127F990 Offset: 0x127DF90 VA: 0x18127F990
 	public DbDataReader ExecuteReader(CommandBehavior behavior) { }
 
 	// RVA: -1 Offset: -1 Slot: 29
@@ -7126,7 +7126,7 @@ public abstract class DbConnection : Component, IDisposable // TypeDefIndex: 438
 
 	// Methods
 
-	// RVA: 0x127F4D0 Offset: 0x127DAD0 VA: 0x18127F4D0
+	// RVA: 0x127FB70 Offset: 0x127E170 VA: 0x18127FB70
 	protected void .ctor() { }
 
 	// RVA: -1 Offset: -1 Slot: 12
@@ -7144,19 +7144,19 @@ public abstract class DbConnection : Component, IDisposable // TypeDefIndex: 438
 	// RVA: -1 Offset: -1 Slot: 16
 	public abstract void Close();
 
-	// RVA: 0x127F370 Offset: 0x127D970 VA: 0x18127F370
+	// RVA: 0x127FA10 Offset: 0x127E010 VA: 0x18127FA10
 	public DbCommand CreateCommand() { }
 
 	// RVA: -1 Offset: -1 Slot: 17
 	protected abstract DbCommand CreateDbCommand();
 
-	// RVA: 0x127F3B0 Offset: 0x127D9B0 VA: 0x18127F3B0 Slot: 18
+	// RVA: 0x127FA50 Offset: 0x127E050 VA: 0x18127FA50 Slot: 18
 	public virtual void EnlistTransaction(Transaction transaction) { }
 
-	// RVA: 0x127F470 Offset: 0x127DA70 VA: 0x18127F470 Slot: 19
+	// RVA: 0x127FB10 Offset: 0x127E110 VA: 0x18127FB10 Slot: 19
 	public virtual DataTable GetSchema(string collectionName) { }
 
-	// RVA: 0x127F410 Offset: 0x127DA10 VA: 0x18127F410 Slot: 20
+	// RVA: 0x127FAB0 Offset: 0x127E0B0 VA: 0x18127FAB0 Slot: 20
 	public virtual DataTable GetSchema(string collectionName, string[] restrictionValues) { }
 
 	// RVA: -1 Offset: -1 Slot: 21
@@ -7186,31 +7186,31 @@ public abstract class DbDataAdapter : DataAdapter // TypeDefIndex: 4388
 
 	// Methods
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80
 	private IDbDataAdapter get__IDbDataAdapter() { }
 
-	// RVA: 0x127F5C0 Offset: 0x127DBC0 VA: 0x18127F5C0
+	// RVA: 0x127FC60 Offset: 0x127E260 VA: 0x18127FC60
 	public DbCommand get_DeleteCommand() { }
 
-	// RVA: 0x127F840 Offset: 0x127DE40 VA: 0x18127F840
+	// RVA: 0x127FEE0 Offset: 0x127E4E0 VA: 0x18127FEE0
 	public void set_DeleteCommand(DbCommand value) { }
 
-	// RVA: 0x127F660 Offset: 0x127DC60 VA: 0x18127F660
+	// RVA: 0x127FD00 Offset: 0x127E300 VA: 0x18127FD00
 	public DbCommand get_InsertCommand() { }
 
-	// RVA: 0x127F8A0 Offset: 0x127DEA0 VA: 0x18127F8A0
+	// RVA: 0x127FF40 Offset: 0x127E540 VA: 0x18127FF40
 	public void set_InsertCommand(DbCommand value) { }
 
-	// RVA: 0x127F700 Offset: 0x127DD00 VA: 0x18127F700
+	// RVA: 0x127FDA0 Offset: 0x127E3A0 VA: 0x18127FDA0
 	public DbCommand get_SelectCommand() { }
 
-	// RVA: 0x127F7A0 Offset: 0x127DDA0 VA: 0x18127F7A0
+	// RVA: 0x127FE40 Offset: 0x127E440 VA: 0x18127FE40
 	public DbCommand get_UpdateCommand() { }
 
-	// RVA: 0x127F900 Offset: 0x127DF00 VA: 0x18127F900
+	// RVA: 0x127FFA0 Offset: 0x127E5A0 VA: 0x18127FFA0
 	public void set_UpdateCommand(DbCommand value) { }
 
-	// RVA: 0x127F530 Offset: 0x127DB30 VA: 0x18127F530
+	// RVA: 0x127FBD0 Offset: 0x127E1D0 VA: 0x18127FBD0
 	private static void .cctor() { }
 
 }
@@ -7233,7 +7233,7 @@ public abstract class DbDataReader : MarshalByRefObject, IDataReader, IDisposabl
 	// RVA: -1 Offset: -1 Slot: 18
 	public abstract int get_RecordsAffected();
 
-	// RVA: 0x127F370 Offset: 0x127D970 VA: 0x18127F370 Slot: 19
+	// RVA: 0x127FA10 Offset: 0x127E010 VA: 0x18127FA10 Slot: 19
 	public virtual int get_VisibleFieldCount() { }
 
 	// RVA: -1 Offset: -1 Slot: 20
@@ -7243,10 +7243,10 @@ public abstract class DbDataReader : MarshalByRefObject, IDataReader, IDisposabl
 	public virtual void Close() { }
 
 	[EditorBrowsableAttribute] // RVA: 0x7D7C0 Offset: 0x7CBC0 VA: 0x18007D7C0
-	// RVA: 0x127F960 Offset: 0x127DF60 VA: 0x18127F960 Slot: 9
+	// RVA: 0x1280000 Offset: 0x127E600 VA: 0x181280000 Slot: 9
 	public void Dispose() { }
 
-	// RVA: 0x127F980 Offset: 0x127DF80 VA: 0x18127F980 Slot: 22
+	// RVA: 0x1280020 Offset: 0x127E620 VA: 0x181280020 Slot: 22
 	protected virtual void Dispose(bool disposing) { }
 
 	// RVA: -1 Offset: -1 Slot: 23
@@ -7262,7 +7262,7 @@ public abstract class DbDataReader : MarshalByRefObject, IDataReader, IDisposabl
 	// RVA: -1 Offset: -1 Slot: 26
 	public abstract string GetName(int ordinal);
 
-	// RVA: 0x127F9A0 Offset: 0x127DFA0 VA: 0x18127F9A0 Slot: 27
+	// RVA: 0x1280040 Offset: 0x127E640 VA: 0x181280040 Slot: 27
 	public virtual DataTable GetSchemaTable() { }
 
 	// RVA: -1 Offset: -1 Slot: 28
@@ -7325,19 +7325,19 @@ public abstract class DbDataRecord : ICustomTypeDescriptor, IDataRecord // TypeD
 	// RVA: -1 Offset: -1 Slot: 21
 	public abstract int GetValues(object[] values);
 
-	// RVA: 0x127F9F0 Offset: 0x127DFF0 VA: 0x18127F9F0 Slot: 4
+	// RVA: 0x1280090 Offset: 0x127E690 VA: 0x181280090 Slot: 4
 	private AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 5
 	private TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter() { }
 
-	// RVA: 0x127FA40 Offset: 0x127E040 VA: 0x18127FA40 Slot: 6
+	// RVA: 0x12800E0 Offset: 0x127E6E0 VA: 0x1812800E0 Slot: 6
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties() { }
 
-	// RVA: 0x127FA80 Offset: 0x127E080 VA: 0x18127FA80 Slot: 7
+	// RVA: 0x1280120 Offset: 0x127E720 VA: 0x181280120 Slot: 7
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties(Attribute[] attributes) { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 8
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 8
 	private object System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(PropertyDescriptor pd) { }
 
 }
@@ -7356,23 +7356,23 @@ public class DbEnumerator : IEnumerator // TypeDefIndex: 4391
 
 	// Methods
 
-	// RVA: 0x12802D0 Offset: 0x127E8D0 VA: 0x1812802D0
+	// RVA: 0x1280970 Offset: 0x127EF70 VA: 0x181280970
 	public void .ctor(IDataReader reader, bool closeReader) { }
 
-	// RVA: 0x12802D0 Offset: 0x127E8D0 VA: 0x1812802D0
+	// RVA: 0x1280970 Offset: 0x127EF70 VA: 0x181280970
 	public void .ctor(DbDataReader reader, bool closeReader) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 5
 	public object get_Current() { }
 
-	// RVA: 0x1280090 Offset: 0x127E690 VA: 0x181280090 Slot: 4
+	// RVA: 0x1280730 Offset: 0x127ED30 VA: 0x181280730 Slot: 4
 	public bool MoveNext() { }
 
 	[EditorBrowsableAttribute] // RVA: 0x7D7C0 Offset: 0x7CBC0 VA: 0x18007D7C0
-	// RVA: 0x1280270 Offset: 0x127E870 VA: 0x181280270 Slot: 6
+	// RVA: 0x1280910 Offset: 0x127EF10 VA: 0x181280910 Slot: 6
 	public void Reset() { }
 
-	// RVA: 0x127FAD0 Offset: 0x127E0D0 VA: 0x18127FAD0
+	// RVA: 0x1280170 Offset: 0x127E770 VA: 0x181280170
 	private void BuildSchemaInfo() { }
 
 }
@@ -7389,22 +7389,22 @@ private sealed class DbEnumerator.DbColumnDescriptor : PropertyDescriptor // Typ
 
 	// Methods
 
-	// RVA: 0x127B0D0 Offset: 0x12796D0 VA: 0x18127B0D0
+	// RVA: 0x127B770 Offset: 0x1279D70 VA: 0x18127B770
 	internal void .ctor(int ordinal, string name, Type type) { }
 
-	// RVA: 0x127B120 Offset: 0x1279720 VA: 0x18127B120 Slot: 13
+	// RVA: 0x127B7C0 Offset: 0x1279DC0 VA: 0x18127B7C0 Slot: 13
 	public override Type get_ComponentType() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 15
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 15
 	public override bool get_IsReadOnly() { }
 
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050 Slot: 16
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0 Slot: 16
 	public override Type get_PropertyType() { }
 
-	// RVA: 0x127AF50 Offset: 0x1279550 VA: 0x18127AF50 Slot: 17
+	// RVA: 0x127B5F0 Offset: 0x1279BF0 VA: 0x18127B5F0 Slot: 17
 	public override object GetValue(object component) { }
 
-	// RVA: 0x127B070 Offset: 0x1279670 VA: 0x18127B070 Slot: 19
+	// RVA: 0x127B710 Offset: 0x1279D10 VA: 0x18127B710 Slot: 19
 	public override void SetValue(object component, object value) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 20
@@ -7415,13 +7415,13 @@ private sealed class DbEnumerator.DbColumnDescriptor : PropertyDescriptor // Typ
 public abstract class DbException : ExternalException // TypeDefIndex: 4393
 {	// Methods
 
-	// RVA: 0x1280390 Offset: 0x127E990 VA: 0x181280390
+	// RVA: 0x1280A30 Offset: 0x127F030 VA: 0x181280A30
 	protected void .ctor() { }
 
-	// RVA: 0x1280380 Offset: 0x127E980 VA: 0x181280380
+	// RVA: 0x1280A20 Offset: 0x127F020 VA: 0x181280A20
 	protected void .ctor(string message) { }
 
-	// RVA: 0x12803A0 Offset: 0x127E9A0 VA: 0x1812803A0
+	// RVA: 0x1280A40 Offset: 0x127F040 VA: 0x181280A40
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }
@@ -7436,7 +7436,7 @@ public static class DbMetaDataCollectionNames // TypeDefIndex: 4394
 
 	// Methods
 
-	// RVA: 0x1280420 Offset: 0x127EA20 VA: 0x181280420
+	// RVA: 0x1280AC0 Offset: 0x127F0C0 VA: 0x181280AC0
 	private static void .cctor() { }
 
 }
@@ -7489,7 +7489,7 @@ public static class DbMetaDataColumnNames // TypeDefIndex: 4395
 
 	// Methods
 
-	// RVA: 0x12804F0 Offset: 0x127EAF0 VA: 0x1812804F0
+	// RVA: 0x1280B90 Offset: 0x127F190 VA: 0x181280B90
 	private static void .cctor() { }
 
 }
@@ -7563,7 +7563,7 @@ public abstract class DbParameter : MarshalByRefObject // TypeDefIndex: 4396
 	// RVA: -1 Offset: -1 Slot: 17
 	public abstract void set_SourceColumnNullMapping(bool value);
 
-	// RVA: 0x1280BC0 Offset: 0x127F1C0 VA: 0x181280BC0 Slot: 18
+	// RVA: 0x1281260 Offset: 0x127F860 VA: 0x181281260 Slot: 18
 	public virtual DataRowVersion get_SourceVersion() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 19
@@ -7614,13 +7614,13 @@ public abstract class DbParameterCollection : MarshalByRefObject, IList, ICollec
 	// RVA: -1 Offset: -1 Slot: 24
 	public abstract object get_SyncRoot();
 
-	// RVA: 0x1280AF0 Offset: 0x127F0F0 VA: 0x181280AF0 Slot: 6
+	// RVA: 0x1281190 Offset: 0x127F790 VA: 0x181281190 Slot: 6
 	private object System.Collections.IList.get_Item(int index) { }
 
-	// RVA: 0x1280B10 Offset: 0x127F110 VA: 0x181280B10 Slot: 7
+	// RVA: 0x12811B0 Offset: 0x127F7B0 VA: 0x1812811B0 Slot: 7
 	private void System.Collections.IList.set_Item(int index, object value) { }
 
-	// RVA: 0x1280AF0 Offset: 0x127F0F0 VA: 0x181280AF0
+	// RVA: 0x1281190 Offset: 0x127F790 VA: 0x181281190
 	public DbParameter get_Item(int index) { }
 
 	// RVA: -1 Offset: -1 Slot: 25
@@ -7677,7 +7677,7 @@ public sealed class DbProviderSpecificTypePropertyAttribute : Attribute // TypeD
 
 	// Methods
 
-	// RVA: 0xFDCE40 Offset: 0xFDB440 VA: 0x180FDCE40
+	// RVA: 0xFDD8E0 Offset: 0xFDBEE0 VA: 0x180FDD8E0
 	public void .ctor(bool isProviderSpecificTypeProperty) { }
 
 }
@@ -7691,7 +7691,7 @@ public abstract class DbTransaction : MarshalByRefObject, IDisposable // TypeDef
 	// RVA: -1 Offset: -1 Slot: 7
 	public abstract void Commit();
 
-	// RVA: 0x162ECC0 Offset: 0x162D2C0 VA: 0x18162ECC0 Slot: 6
+	// RVA: 0x161BFE0 Offset: 0x161A5E0 VA: 0x18161BFE0 Slot: 6
 	public void Dispose() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 8
@@ -7735,16 +7735,16 @@ public sealed class DataMemberAttribute : Attribute // TypeDefIndex: 5706
 
 	// Methods
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_Name() { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public int get_Order() { }
 
-	// RVA: 0x7D0D40 Offset: 0x7CF340 VA: 0x1807D0D40
+	// RVA: 0x79C660 Offset: 0x79AC60 VA: 0x18079C660
 	public bool get_IsRequired() { }
 
-	// RVA: 0x7D0D30 Offset: 0x7CF330 VA: 0x1807D0D30
+	// RVA: 0x79C650 Offset: 0x79AC50 VA: 0x18079C650
 	public bool get_EmitDefaultValue() { }
 
 }
@@ -7752,24 +7752,24 @@ public sealed class DataMemberAttribute : Attribute // TypeDefIndex: 5706
 public static class Database // TypeDefIndex: 6181
 {	// Methods
 
-	// RVA: 0x14ABCC0 Offset: 0x14AA2C0 VA: 0x1814ABCC0
+	// RVA: 0x14AAD90 Offset: 0x14A9390 VA: 0x1814AAD90
 	public static void Insert(string parent, object contents, Action<bool> onFinished) { }
 
-	// RVA: 0x14ABA10 Offset: 0x14AA010 VA: 0x1814ABA10
+	// RVA: 0x14AAAE0 Offset: 0x14A90E0 VA: 0x1814AAAE0
 	public static void Insert(string parent, object contents, Action<bool, string> onFinished) { }
 
-	// RVA: 0x14ABD90 Offset: 0x14AA390 VA: 0x1814ABD90
+	// RVA: 0x14AAE60 Offset: 0x14A9460 VA: 0x1814AAE60
 	public static void Remove(string parent, string id, Action<bool> onFinished) { }
 
 	// RVA: -1 Offset: -1
 	public static Result<T> Query<T>(string parent, int limit, Action<Result<T>> onFinished) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125CE50 Offset: 0x125B450 VA: 0x18125CE50
+	|-RVA: 0x125D4F0 Offset: 0x125BAF0 VA: 0x18125D4F0
 	|-Database.Query<object>
 	*/
 
-	// RVA: 0x14AB860 Offset: 0x14A9E60 VA: 0x1814AB860
+	// RVA: 0x14AA930 Offset: 0x14A8F30 VA: 0x1814AA930
 	public static void Count(string parent, Action<int> onResult) { }
 
 }
@@ -7783,7 +7783,7 @@ private sealed class Database.<>c__DisplayClass0_0 // TypeDefIndex: 6182
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14BCD60 Offset: 0x14BB360 VA: 0x1814BCD60
+	// RVA: 0x14BBE30 Offset: 0x14BA430 VA: 0x1814BBE30
 	internal void <Insert>b__0(bool success, string id) { }
 
 }
@@ -7797,7 +7797,7 @@ private sealed class Database.<>c__DisplayClass1_0 // TypeDefIndex: 6183
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14BCE50 Offset: 0x14BB450 VA: 0x1814BCE50
+	// RVA: 0x14BBF20 Offset: 0x14BA520 VA: 0x1814BBF20
 	internal void <Insert>b__0(object s, UploadValuesCompletedEventArgs e) { }
 
 }
@@ -7811,7 +7811,7 @@ private sealed class Database.<>c__DisplayClass2_0 // TypeDefIndex: 6184
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14BCFD0 Offset: 0x14BB5D0 VA: 0x1814BCFD0
+	// RVA: 0x14BC0A0 Offset: 0x14BA6A0 VA: 0x1814BC0A0
 	internal void <Remove>b__0(object s, UploadValuesCompletedEventArgs e) { }
 
 }
@@ -7828,7 +7828,7 @@ private sealed class Database.<>c__DisplayClass3_0<T> // TypeDefIndex: 6185
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
+	|-RVA: 0xD5BAD0 Offset: 0xD5A0D0 VA: 0x180D5BAD0
 	|-Database.<>c__DisplayClass3_0<object>..ctor
 	*/
 
@@ -7836,7 +7836,7 @@ private sealed class Database.<>c__DisplayClass3_0<T> // TypeDefIndex: 6185
 	internal void <Query>b__0(object s, DownloadStringCompletedEventArgs e) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E93B0 Offset: 0x15E79B0 VA: 0x1815E93B0
+	|-RVA: 0x18959B0 Offset: 0x1893FB0 VA: 0x1818959B0
 	|-Database.<>c__DisplayClass3_0<object>.<Query>b__0
 	*/
 
@@ -7844,7 +7844,7 @@ private sealed class Database.<>c__DisplayClass3_0<T> // TypeDefIndex: 6185
 	internal void <Query>b__1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E9740 Offset: 0x15E7D40 VA: 0x1815E9740
+	|-RVA: 0x1895D40 Offset: 0x1894340 VA: 0x181895D40
 	|-Database.<>c__DisplayClass3_0<object>.<Query>b__1
 	*/
 
@@ -7861,7 +7861,7 @@ private sealed class Database.<>c__3<T> // TypeDefIndex: 6186
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD65540 Offset: 0xD63B40 VA: 0x180D65540
+	|-RVA: 0xD66290 Offset: 0xD64890 VA: 0x180D66290
 	|-Database.<>c__3<object>..cctor
 	*/
 
@@ -7869,7 +7869,7 @@ private sealed class Database.<>c__3<T> // TypeDefIndex: 6186
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
+	|-RVA: 0xD5BAD0 Offset: 0xD5A0D0 VA: 0x180D5BAD0
 	|-Database.<>c__3<object>..ctor
 	*/
 
@@ -7877,7 +7877,7 @@ private sealed class Database.<>c__3<T> // TypeDefIndex: 6186
 	internal Result.Entry<T> <Query>b__3_2(QueryResponse x) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E9200 Offset: 0x15E7800 VA: 0x1815E9200
+	|-RVA: 0x1895800 Offset: 0x1893E00 VA: 0x181895800
 	|-Database.<>c__3<object>.<Query>b__3_2
 	*/
 
@@ -7892,7 +7892,7 @@ private sealed class Database.<>c__DisplayClass4_0 // TypeDefIndex: 6187
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14BD0C0 Offset: 0x14BB6C0 VA: 0x1814BD0C0
+	// RVA: 0x14BC190 Offset: 0x14BA790 VA: 0x1814BC190
 	internal void <Count>b__0(object s, DownloadStringCompletedEventArgs e) { }
 
 }
@@ -7907,7 +7907,7 @@ private sealed class Database.<>c__DisplayClass4_1 // TypeDefIndex: 6188
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14BD250 Offset: 0x14BB850 VA: 0x1814BD250
+	// RVA: 0x14BC320 Offset: 0x14BA920 VA: 0x1814BC320
 	internal void <Count>b__1() { }
 
 }
@@ -7928,42 +7928,42 @@ public class Database // TypeDefIndex: 7356
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
+	// RVA: 0x95FFF0 Offset: 0x95E5F0 VA: 0x18095FFF0
 	private bool get_IsConnectionOpen() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
+	// RVA: 0x960010 Offset: 0x95E610 VA: 0x180960010
 	private void set_IsConnectionOpen(bool value) { }
 
-	// RVA: 0x231DB40 Offset: 0x231C140 VA: 0x18231DB40
+	// RVA: 0x231E360 Offset: 0x231C960 VA: 0x18231E360
 	public void Open(string path, bool fastMode = False) { }
 
-	// RVA: 0x231E290 Offset: 0x231C890 VA: 0x18231E290
+	// RVA: 0x231EAB0 Offset: 0x231D0B0 VA: 0x18231EAB0
 	public bool TableExists(string name) { }
 
-	// RVA: 0x231DAD0 Offset: 0x231C0D0 VA: 0x18231DAD0
+	// RVA: 0x231E2F0 Offset: 0x231C8F0 VA: 0x18231E2F0
 	public bool IndexExists(string tableName, string indexName) { }
 
-	// RVA: 0x231D300 Offset: 0x231B900 VA: 0x18231D300
+	// RVA: 0x231DB20 Offset: 0x231C120 VA: 0x18231DB20
 	public bool ColumnExists(string tableName, string columnName) { }
 
-	// RVA: 0x231D230 Offset: 0x231B830 VA: 0x18231D230
+	// RVA: 0x231DA50 Offset: 0x231C050 VA: 0x18231DA50
 	public void Close() { }
 
-	// RVA: 0x231E2F0 Offset: 0x231C8F0 VA: 0x18231E2F0
+	// RVA: 0x231EB10 Offset: 0x231D110 VA: 0x18231EB10
 	public int get_AffectedRows() { }
 
-	// RVA: 0x231D600 Offset: 0x231BC00 VA: 0x18231D600
+	// RVA: 0x231DE20 Offset: 0x231C420 VA: 0x18231DE20
 	public void Execute(string query) { }
 
 	// RVA: -1 Offset: -1
 	public void Execute<T1>(string query, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15727A0 Offset: 0x1570DA0 VA: 0x1815727A0
+	|-RVA: 0x1571870 Offset: 0x156FE70 VA: 0x181571870
 	|-Database.Execute<int>
 	|
-	|-RVA: 0x1572B40 Offset: 0x1571140 VA: 0x181572B40
+	|-RVA: 0x1571C10 Offset: 0x1570210 VA: 0x181571C10
 	|-Database.Execute<object>
 	*/
 
@@ -7971,10 +7971,10 @@ public class Database // TypeDefIndex: 7356
 	public void Execute<T1, T2>(string query, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1572610 Offset: 0x1570C10 VA: 0x181572610
+	|-RVA: 0x15716E0 Offset: 0x156FCE0 VA: 0x1815716E0
 	|-Database.Execute<int, int>
 	|
-	|-RVA: 0x1572AA0 Offset: 0x15710A0 VA: 0x181572AA0
+	|-RVA: 0x1571B70 Offset: 0x1570170 VA: 0x181571B70
 	|-Database.Execute<object, object>
 	*/
 
@@ -7982,10 +7982,10 @@ public class Database // TypeDefIndex: 7356
 	public void Execute<T1, T2, T3>(string query, T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1572550 Offset: 0x1570B50 VA: 0x181572550
+	|-RVA: 0x1571620 Offset: 0x156FC20 VA: 0x181571620
 	|-Database.Execute<int, int, int>
 	|
-	|-RVA: 0x15729E0 Offset: 0x1570FE0 VA: 0x1815729E0
+	|-RVA: 0x1571AB0 Offset: 0x15700B0 VA: 0x181571AB0
 	|-Database.Execute<object, object, object>
 	*/
 
@@ -7993,10 +7993,10 @@ public class Database // TypeDefIndex: 7356
 	public void Execute<T1, T2, T3, T4>(string query, T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1572470 Offset: 0x1570A70 VA: 0x181572470
+	|-RVA: 0x1571540 Offset: 0x156FB40 VA: 0x181571540
 	|-Database.Execute<int, int, int, int>
 	|
-	|-RVA: 0x1572900 Offset: 0x1570F00 VA: 0x181572900
+	|-RVA: 0x15719D0 Offset: 0x156FFD0 VA: 0x1815719D0
 	|-Database.Execute<object, object, object, object>
 	*/
 
@@ -8004,11 +8004,11 @@ public class Database // TypeDefIndex: 7356
 	public void Execute<T1, T2, T3, T4, T5>(string query, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15726B0 Offset: 0x1570CB0 VA: 0x1815726B0
+	|-RVA: 0x1571780 Offset: 0x156FD80 VA: 0x181571780
 	|-Database.Execute<int, byte[], int, int, int>
 	|-Database.Execute<int, object, int, int, int>
 	|
-	|-RVA: 0x1572810 Offset: 0x1570E10 VA: 0x181572810
+	|-RVA: 0x15718E0 Offset: 0x156FEE0 VA: 0x1815718E0
 	|-Database.Execute<object, object, object, object, object>
 	*/
 
@@ -8016,10 +8016,10 @@ public class Database // TypeDefIndex: 7356
 	protected static void Bind<T>(IntPtr stmHandle, int index, T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1571860 Offset: 0x156FE60 VA: 0x181571860
+	|-RVA: 0x1570930 Offset: 0x156EF30 VA: 0x181570930
 	|-Database.Bind<int>
 	|
-	|-RVA: 0x1571E60 Offset: 0x1570460 VA: 0x181571E60
+	|-RVA: 0x1570F30 Offset: 0x156F530 VA: 0x181570F30
 	|-Database.Bind<object>
 	*/
 
@@ -8027,24 +8027,24 @@ public class Database // TypeDefIndex: 7356
 	protected static T GetColumnValue<T>(IntPtr stmHandle, int i) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CBD60 Offset: 0x5CA360 VA: 0x1805CBD60
+	|-RVA: 0x5CBCF0 Offset: 0x5CA2F0 VA: 0x1805CBCF0
 	|-Database.GetColumnValue<int>
 	|
-	|-RVA: 0x5CC4D0 Offset: 0x5CAAD0 VA: 0x1805CC4D0
+	|-RVA: 0x5CC460 Offset: 0x5CAA60 VA: 0x1805CC460
 	|-Database.GetColumnValue<long>
 	|
-	|-RVA: 0x5CCC40 Offset: 0x5CB240 VA: 0x1805CCC40
+	|-RVA: 0x5CCBD0 Offset: 0x5CB1D0 VA: 0x1805CCBD0
 	|-Database.GetColumnValue<object>
 	*/
 
-	// RVA: 0x231DFF0 Offset: 0x231C5F0 VA: 0x18231DFF0
+	// RVA: 0x231E810 Offset: 0x231CE10 VA: 0x18231E810
 	public int QueryInt(string query) { }
 
 	// RVA: -1 Offset: -1
 	public int QueryInt<T1>(string query, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1179070 Offset: 0x1177670 VA: 0x181179070
+	|-RVA: 0x1179AE0 Offset: 0x11780E0 VA: 0x181179AE0
 	|-Database.QueryInt<object>
 	|-Database.QueryInt<string>
 	*/
@@ -8053,19 +8053,19 @@ public class Database // TypeDefIndex: 7356
 	public int QueryInt<T1, T2>(string query, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1178FA0 Offset: 0x11775A0 VA: 0x181178FA0
+	|-RVA: 0x1179A10 Offset: 0x1178010 VA: 0x181179A10
 	|-Database.QueryInt<object, object>
 	|-Database.QueryInt<string, string>
 	*/
 
-	// RVA: 0x231E050 Offset: 0x231C650 VA: 0x18231E050
+	// RVA: 0x231E870 Offset: 0x231CE70 VA: 0x18231E870
 	public long QueryLong(string query) { }
 
 	// RVA: -1 Offset: -1
 	public string QueryString<T1>(string query, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED2BB0 Offset: 0xED11B0 VA: 0x180ED2BB0
+	|-RVA: 0xED3660 Offset: 0xED1C60 VA: 0x180ED3660
 	|-Database.QueryString<object>
 	*/
 
@@ -8073,7 +8073,7 @@ public class Database // TypeDefIndex: 7356
 	public byte[] QueryBlob<T1>(string query, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1537D70 Offset: 0x1536370 VA: 0x181537D70
+	|-RVA: 0x1536E40 Offset: 0x1535440 VA: 0x181536E40
 	|-Database.QueryBlob<object>
 	*/
 
@@ -8081,38 +8081,38 @@ public class Database // TypeDefIndex: 7356
 	public byte[] QueryBlob<T1, T2, T3, T4>(string query, T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBEEDA0 Offset: 0xBED3A0 VA: 0x180BEEDA0
+	|-RVA: 0xBEF270 Offset: 0xBED870 VA: 0x180BEF270
 	|-Database.QueryBlob<int, int, int, int>
 	|
-	|-RVA: 0xBEEEA0 Offset: 0xBED4A0 VA: 0x180BEEEA0
+	|-RVA: 0xBEF370 Offset: 0xBED970 VA: 0x180BEF370
 	|-Database.QueryBlob<object, object, object, object>
 	*/
 
-	// RVA: 0x231D1E0 Offset: 0x231B7E0 VA: 0x18231D1E0
+	// RVA: 0x231DA00 Offset: 0x231C000 VA: 0x18231DA00
 	public void BeginTransaction() { }
 
-	// RVA: 0x231D370 Offset: 0x231B970 VA: 0x18231D370
+	// RVA: 0x231DB90 Offset: 0x231C190 VA: 0x18231DB90
 	public void Commit() { }
 
-	// RVA: 0x231E240 Offset: 0x231C840 VA: 0x18231E240
+	// RVA: 0x231EA60 Offset: 0x231D060 VA: 0x18231EA60
 	public void Rollback() { }
 
-	// RVA: 0x231D3C0 Offset: 0x231B9C0 VA: 0x18231D3C0
+	// RVA: 0x231DBE0 Offset: 0x231C1E0 VA: 0x18231DBE0
 	protected void ExecuteQuery(IntPtr stmHandle, bool finalize = True) { }
 
 	// RVA: -1 Offset: -1
 	protected T ExecuteAndReadQueryResult<T>(IntPtr stmHandle, bool finalize = True) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CBC00 Offset: 0x5CA200 VA: 0x1805CBC00
+	|-RVA: 0x5CBB90 Offset: 0x5CA190 VA: 0x1805CBB90
 	|-Database.ExecuteAndReadQueryResult<byte[]>
 	|-Database.ExecuteAndReadQueryResult<object>
 	|-Database.ExecuteAndReadQueryResult<string>
 	|
-	|-RVA: 0x5CB950 Offset: 0x5C9F50 VA: 0x1805CB950
+	|-RVA: 0x5CB8E0 Offset: 0x5C9EE0 VA: 0x1805CB8E0
 	|-Database.ExecuteAndReadQueryResult<int>
 	|
-	|-RVA: 0x5CBAA0 Offset: 0x5CA0A0 VA: 0x1805CBAA0
+	|-RVA: 0x5CBA30 Offset: 0x5CA030 VA: 0x1805CBA30
 	|-Database.ExecuteAndReadQueryResult<long>
 	*/
 
@@ -8121,20 +8121,20 @@ public class Database // TypeDefIndex: 7356
 	protected IEnumerable<T> ExecuteAndReadQueryResults<T>(IntPtr stmHandle, Func<IntPtr, T> rowReader, bool finalize = True) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCFFAA0 Offset: 0xCFE0A0 VA: 0x180CFFAA0
+	|-RVA: 0xCFFF40 Offset: 0xCFE540 VA: 0x180CFFF40
 	|-Database.ExecuteAndReadQueryResults<object>
 	*/
 
-	// RVA: 0x231DDC0 Offset: 0x231C3C0 VA: 0x18231DDC0
+	// RVA: 0x231E5E0 Offset: 0x231CBE0 VA: 0x18231E5E0
 	protected IntPtr Prepare(string query) { }
 
-	// RVA: 0x231D630 Offset: 0x231BC30 VA: 0x18231D630
+	// RVA: 0x231DE50 Offset: 0x231C450 VA: 0x18231DE50
 	private void FinalizeOrReset(IntPtr stmHandle, bool finalize = True) { }
 
-	// RVA: 0x231D940 Offset: 0x231BF40 VA: 0x18231D940
+	// RVA: 0x231E160 Offset: 0x231C760 VA: 0x18231E160
 	protected void Finalize(IntPtr stmHandle) { }
 
-	// RVA: 0x231E0B0 Offset: 0x231C6B0 VA: 0x18231E0B0
+	// RVA: 0x231E8D0 Offset: 0x231CED0 VA: 0x18231E8D0
 	protected void Reset(IntPtr stmHandle) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -8145,13 +8145,13 @@ public class Database // TypeDefIndex: 7356
 	internal static Exception <GetColumnValue>g__TypeError|19_0<T>(ref Database.<>c__DisplayClass19_0<T> ) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B19E10 Offset: 0x1B18410 VA: 0x181B19E10
+	|-RVA: 0x1B1A600 Offset: 0x1B18C00 VA: 0x181B1A600
 	|-Database.<GetColumnValue>g__TypeError|19_0<int>
 	|
-	|-RVA: 0x1B19F10 Offset: 0x1B18510 VA: 0x181B19F10
+	|-RVA: 0x1B1A700 Offset: 0x1B18D00 VA: 0x181B1A700
 	|-Database.<GetColumnValue>g__TypeError|19_0<long>
 	|
-	|-RVA: 0x1B1A010 Offset: 0x1B18610 VA: 0x181B1A010
+	|-RVA: 0x1B1A800 Offset: 0x1B18E00 VA: 0x181B1A800
 	|-Database.<GetColumnValue>g__TypeError|19_0<object>
 	*/
 
@@ -8187,7 +8187,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x144BB00 Offset: 0x144A100 VA: 0x18144BB00
+	|-RVA: 0x144ABD0 Offset: 0x14491D0 VA: 0x18144ABD0
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>..ctor
 	*/
 
@@ -8196,7 +8196,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x144B7C0 Offset: 0x1449DC0 VA: 0x18144B7C0
+	|-RVA: 0x144A890 Offset: 0x1448E90 VA: 0x18144A890
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>.System.IDisposable.Dispose
 	*/
 
@@ -8204,7 +8204,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E8B40 Offset: 0x15E7140 VA: 0x1815E8B40
+	|-RVA: 0x18951D0 Offset: 0x18937D0 VA: 0x1818951D0
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>.MoveNext
 	*/
 
@@ -8212,7 +8212,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E8DC0 Offset: 0x15E73C0 VA: 0x1815E8DC0
+	|-RVA: 0x1895420 Offset: 0x1893A20 VA: 0x181895420
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>.<>m__Finally1
 	*/
 
@@ -8230,7 +8230,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E8D70 Offset: 0x15E7370 VA: 0x1815E8D70
+	|-RVA: 0x18953D0 Offset: 0x18939D0 VA: 0x1818953D0
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -8248,7 +8248,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E8C70 Offset: 0x15E7270 VA: 0x1815E8C70
+	|-RVA: 0x1895300 Offset: 0x1893900 VA: 0x181895300
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
@@ -8257,7 +8257,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E8D40 Offset: 0x15E7340 VA: 0x1815E8D40
+	|-RVA: 0x1645900 Offset: 0x1643F00 VA: 0x181645900
 	|-Database.<ExecuteAndReadQueryResults>d__32<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
@@ -8266,34 +8266,34 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 internal static class DataTypesUtilities // TypeDefIndex: 7622
 {	// Methods
 
-	// RVA: 0x13979A0 Offset: 0x1395FA0 VA: 0x1813979A0
+	// RVA: 0x1396AA0 Offset: 0x13950A0 VA: 0x181396AA0
 	public static ushort Combine(SevenBitNumber head, SevenBitNumber tail) { }
 
-	// RVA: 0x1397990 Offset: 0x1395F90 VA: 0x181397990
+	// RVA: 0x1396A90 Offset: 0x1395090 VA: 0x181396A90
 	public static ushort CombineAsSevenBitNumbers(byte head, byte tail) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1397C10 Offset: 0x1396210 VA: 0x181397C10
+	// RVA: 0x1396D10 Offset: 0x1395310 VA: 0x181396D10
 	public static FourBitNumber GetTail(byte number) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1397B50 Offset: 0x1396150 VA: 0x181397B50
+	// RVA: 0x1396C50 Offset: 0x1395250 VA: 0x181396C50
 	public static SevenBitNumber GetTail(ushort number) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x125C870 Offset: 0x125AE70 VA: 0x18125C870
+	// RVA: 0x125CF10 Offset: 0x125B510 VA: 0x18125CF10
 	public static byte GetTail(short number) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1397A00 Offset: 0x1396000 VA: 0x181397A00
+	// RVA: 0x1396B00 Offset: 0x1395100 VA: 0x181396B00
 	public static FourBitNumber GetHead(byte number) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1397AB0 Offset: 0x13960B0 VA: 0x181397AB0
+	// RVA: 0x1396BB0 Offset: 0x13951B0 VA: 0x181396BB0
 	public static SevenBitNumber GetHead(ushort number) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1397AA0 Offset: 0x13960A0 VA: 0x181397AA0
+	// RVA: 0x1396BA0 Offset: 0x13951A0 VA: 0x181396BA0
 	public static byte GetHead(short number) { }
 
 }
@@ -8307,40 +8307,40 @@ internal abstract class DbcsEncoding : MonoEncoding // TypeDefIndex: 7825
 
 	// Methods
 
-	// RVA: 0x224EBD0 Offset: 0x224D1D0 VA: 0x18224EBD0
+	// RVA: 0x224F3F0 Offset: 0x224D9F0 VA: 0x18224F3F0
 	public void .ctor(int codePage) { }
 
-	// RVA: 0x224EBE0 Offset: 0x224D1E0 VA: 0x18224EBE0
+	// RVA: 0x224F400 Offset: 0x224DA00 VA: 0x18224F400
 	public void .ctor(int codePage, int windowsCodePage) { }
 
 	// RVA: -1 Offset: -1 Slot: 48
 	internal abstract DbcsConvert GetConvert();
 
-	// RVA: 0x224E630 Offset: 0x224CC30 VA: 0x18224E630 Slot: 19
+	// RVA: 0x224EE50 Offset: 0x224D450 VA: 0x18224EE50 Slot: 19
 	public override int GetByteCount(char[] chars, int index, int count) { }
 
-	// RVA: 0x224E7B0 Offset: 0x224CDB0 VA: 0x18224E7B0 Slot: 29
+	// RVA: 0x224EFD0 Offset: 0x224D5D0 VA: 0x18224EFD0 Slot: 29
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x224E910 Offset: 0x224CF10 VA: 0x18224E910 Slot: 33
+	// RVA: 0x224F130 Offset: 0x224D730 VA: 0x18224F130 Slot: 33
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x224EAD0 Offset: 0x224D0D0 VA: 0x18224EAD0 Slot: 40
+	// RVA: 0x224F2F0 Offset: 0x224D8F0 VA: 0x18224F2F0 Slot: 40
 	public override int GetMaxByteCount(int charCount) { }
 
-	// RVA: 0x224EB50 Offset: 0x224D150 VA: 0x18224EB50 Slot: 41
+	// RVA: 0x224F370 Offset: 0x224D970 VA: 0x18224F370 Slot: 41
 	public override int GetMaxCharCount(int byteCount) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 12
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 12
 	public override bool get_IsBrowserDisplay() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 13
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 13
 	public override bool get_IsBrowserSave() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 14
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 14
 	public override bool get_IsMailNewsDisplay() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 15
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 15
 	public override bool get_IsMailNewsSave() { }
 
 }
@@ -8351,13 +8351,13 @@ internal abstract class DbcsEncoding.DbcsDecoder : Decoder // TypeDefIndex: 7826
 
 	// Methods
 
-	// RVA: 0x15C0FC0 Offset: 0x15BF5C0 VA: 0x1815C0FC0
+	// RVA: 0x15C0090 Offset: 0x15BE690 VA: 0x1815C0090
 	public void .ctor(DbcsConvert convert) { }
 
-	// RVA: 0x224E510 Offset: 0x224CB10 VA: 0x18224E510
+	// RVA: 0x224ED30 Offset: 0x224D330 VA: 0x18224ED30
 	internal void CheckRange(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x224E350 Offset: 0x224C950 VA: 0x18224E350
+	// RVA: 0x224EB70 Offset: 0x224D170 VA: 0x18224EB70
 	internal void CheckRange(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
 }
@@ -8372,10 +8372,10 @@ internal class DbcsConvert // TypeDefIndex: 7827
 
 	// Methods
 
-	// RVA: 0x224E1C0 Offset: 0x224C7C0 VA: 0x18224E1C0
+	// RVA: 0x224E9E0 Offset: 0x224CFE0 VA: 0x18224E9E0
 	internal void .ctor(string fileName) { }
 
-	// RVA: 0x224E0E0 Offset: 0x224C6E0 VA: 0x18224E0E0
+	// RVA: 0x224E900 Offset: 0x224CF00 VA: 0x18224E900
 	private static void .cctor() { }
 
 }
@@ -8385,10 +8385,10 @@ public class Data : ConsoleSystem // TypeDefIndex: 11898
 
 	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
 	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	// RVA: 0x6D5DF0 Offset: 0x6D43F0 VA: 0x1806D5DF0
+	// RVA: 0x6D5D80 Offset: 0x6D4380 VA: 0x1806D5D80
 	public static void export(ConsoleSystem.Arg args) { }
 
-	// RVA: 0x6D5D90 Offset: 0x6D4390 VA: 0x1806D5D90
+	// RVA: 0x6D5D20 Offset: 0x6D4320 VA: 0x1806D5D20
 	public void .ctor() { }
 
 }

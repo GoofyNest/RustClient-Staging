@@ -7,82 +7,82 @@ public class WaterWell : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6343
 
 	// Methods
 
-	// RVA: 0x1E52BB0 Offset: 0x1E511B0 VA: 0x181E52BB0
+	// RVA: 0x1E533D0 Offset: 0x1E519D0 VA: 0x181E533D0
 	public static void ResetToPool(WaterWell instance) { }
 
-	// RVA: 0x1E52C30 Offset: 0x1E51230 VA: 0x181E52C30
+	// RVA: 0x1E53450 Offset: 0x1E51A50 VA: 0x181E53450
 	public void ResetToPool() { }
 
-	// RVA: 0x1E52A70 Offset: 0x1E51070 VA: 0x181E52A70 Slot: 9
+	// RVA: 0x1E53290 Offset: 0x1E51890 VA: 0x181E53290 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DBEBA0 Offset: 0x1DBD1A0 VA: 0x181DBEBA0
+	// RVA: 0x1DBF390 Offset: 0x1DBD990 VA: 0x181DBF390
 	public void CopyTo(WaterWell instance) { }
 
-	// RVA: 0x1E51C90 Offset: 0x1E50290 VA: 0x181E51C90
+	// RVA: 0x1E524B0 Offset: 0x1E50AB0 VA: 0x181E524B0
 	public WaterWell Copy() { }
 
-	// RVA: 0x1E52510 Offset: 0x1E50B10 VA: 0x181E52510
+	// RVA: 0x1E52D30 Offset: 0x1E51330 VA: 0x181E52D30
 	public static WaterWell Deserialize(Stream stream) { }
 
-	// RVA: 0x1E51D00 Offset: 0x1E50300 VA: 0x181E51D00
+	// RVA: 0x1E52520 Offset: 0x1E50B20 VA: 0x181E52520
 	public static WaterWell DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E52110 Offset: 0x1E50710 VA: 0x181E52110
+	// RVA: 0x1E52930 Offset: 0x1E50F30 VA: 0x181E52930
 	public static WaterWell DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E52950 Offset: 0x1E50F50 VA: 0x181E52950
+	// RVA: 0x1E53170 Offset: 0x1E51770 VA: 0x181E53170
 	public static WaterWell Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E52B70 Offset: 0x1E51170 VA: 0x181E52B70
+	// RVA: 0x1E53390 Offset: 0x1E51990 VA: 0x181E53390
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E53140 Offset: 0x1E51740 VA: 0x181E53140 Slot: 12
+	// RVA: 0x1E53960 Offset: 0x1E51F60 VA: 0x181E53960 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E53160 Offset: 0x1E51760 VA: 0x181E53160 Slot: 13
+	// RVA: 0x1E53980 Offset: 0x1E51F80 VA: 0x181E53980 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, WaterWell previous) { }
 
-	// RVA: 0x1E52B90 Offset: 0x1E51190 VA: 0x181E52B90 Slot: 14
+	// RVA: 0x1E533B0 Offset: 0x1E519B0 VA: 0x181E533B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E52850 Offset: 0x1E50E50 VA: 0x181E52850
+	// RVA: 0x1E53070 Offset: 0x1E51670 VA: 0x181E53070
 	public static WaterWell Deserialize(byte[] buffer, WaterWell instance, bool isDelta = False) { }
 
-	// RVA: 0x1E52590 Offset: 0x1E50B90 VA: 0x181E52590
+	// RVA: 0x1E52DB0 Offset: 0x1E513B0 VA: 0x181E52DB0
 	public static WaterWell Deserialize(Stream stream, WaterWell instance, bool isDelta) { }
 
-	// RVA: 0x1E51D80 Offset: 0x1E50380 VA: 0x181E51D80
+	// RVA: 0x1E525A0 Offset: 0x1E50BA0 VA: 0x181E525A0
 	public static WaterWell DeserializeLengthDelimited(Stream stream, WaterWell instance, bool isDelta) { }
 
-	// RVA: 0x1E521A0 Offset: 0x1E507A0 VA: 0x181E521A0
+	// RVA: 0x1E529C0 Offset: 0x1E50FC0 VA: 0x181E529C0
 	public static WaterWell DeserializeLength(Stream stream, int length, WaterWell instance, bool isDelta) { }
 
-	// RVA: 0x1E52CB0 Offset: 0x1E512B0 VA: 0x181E52CB0
+	// RVA: 0x1E534D0 Offset: 0x1E51AD0 VA: 0x181E534D0
 	public static void SerializeDelta(Stream stream, WaterWell instance, WaterWell previous) { }
 
-	// RVA: 0x1E53030 Offset: 0x1E51630 VA: 0x181E53030
+	// RVA: 0x1E53850 Offset: 0x1E51E50 VA: 0x181E53850
 	public static void Serialize(Stream stream, WaterWell instance) { }
 
-	// RVA: 0x1E53130 Offset: 0x1E51730 VA: 0x181E53130
+	// RVA: 0x1E53950 Offset: 0x1E51F50 VA: 0x181E53950
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E53140 Offset: 0x1E51740 VA: 0x181E53140
+	// RVA: 0x1E53960 Offset: 0x1E51F60 VA: 0x181E53960
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E52F20 Offset: 0x1E51520 VA: 0x181E52F20
+	// RVA: 0x1E53740 Offset: 0x1E51D40 VA: 0x181E53740
 	public static byte[] SerializeToBytes(WaterWell instance) { }
 
-	// RVA: 0x1E52E30 Offset: 0x1E51430 VA: 0x181E52E30
+	// RVA: 0x1E53650 Offset: 0x1E51C50 VA: 0x181E53650
 	public static void SerializeLengthDelimited(Stream stream, WaterWell instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -107,41 +107,41 @@ public class WaterWell : LiquidContainer // TypeDefIndex: 8486
 
 	// Methods
 
-	// RVA: 0x8F0950 Offset: 0x8EEF50 VA: 0x1808F0950 Slot: 49
+	// RVA: 0x8F0E60 Offset: 0x8EF460 VA: 0x1808F0E60 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x8F1320 Offset: 0x8EF920 VA: 0x1808F1320 Slot: 50
+	// RVA: 0x8F1830 Offset: 0x8EFE30 VA: 0x1808F1830 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x8F0EC0 Offset: 0x8EF4C0 VA: 0x1808F0EC0 Slot: 35
+	// RVA: 0x8F13D0 Offset: 0x8EF9D0 VA: 0x1808F13D0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x8F0C90 Offset: 0x8EF290 VA: 0x1808F0C90 Slot: 34
+	// RVA: 0x8F11A0 Offset: 0x8EF7A0 VA: 0x1808F11A0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x8F0C60 Offset: 0x8EF260 VA: 0x1808F0C60
+	// RVA: 0x8F1170 Offset: 0x8EF770 VA: 0x1808F1170
 	public float GetWaterAmount() { }
 
 	[BaseEntity.Menu] // RVA: 0x9CBE0 Offset: 0x9BFE0 VA: 0x18009CBE0
 	[BaseEntity.Menu.Description] // RVA: 0x9CBE0 Offset: 0x9BFE0 VA: 0x18009CBE0
 	[BaseEntity.Menu.Icon] // RVA: 0x9CBE0 Offset: 0x9BFE0 VA: 0x18009CBE0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x9CBE0 Offset: 0x9BFE0 VA: 0x18009CBE0
-	// RVA: 0x8F0E80 Offset: 0x8EF480 VA: 0x1808F0E80
+	// RVA: 0x8F1390 Offset: 0x8EF990 VA: 0x1808F1390
 	public void Menu_Pump(BasePlayer player) { }
 
-	// RVA: 0x8F0CF0 Offset: 0x8EF2F0 VA: 0x1808F0CF0
+	// RVA: 0x8F1200 Offset: 0x8EF800 VA: 0x1808F1200
 	public bool Menu_Pump_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x8F0FB0 Offset: 0x8EF5B0 VA: 0x1808F0FB0 Slot: 164
+	// RVA: 0x8F14C0 Offset: 0x8EFAC0 VA: 0x1808F14C0 Slot: 164
 	public override bool ShouldShowLootMenus() { }
 
-	// RVA: 0x8F08F0 Offset: 0x8EEEF0 VA: 0x1808F08F0 Slot: 168
+	// RVA: 0x8F0E00 Offset: 0x8EF400 VA: 0x1808F0E00 Slot: 168
 	public override bool DrinkEligable(BasePlayer player) { }
 
-	// RVA: 0x8F1110 Offset: 0x8EF710 VA: 0x1808F1110
+	// RVA: 0x8F1620 Offset: 0x8EFC20 VA: 0x1808F1620
 	public void Update() { }
 
-	// RVA: 0x8F12F0 Offset: 0x8EF8F0 VA: 0x1808F12F0
+	// RVA: 0x8F1800 Offset: 0x8EFE00 VA: 0x1808F1800
 	public void .ctor() { }
 
 }

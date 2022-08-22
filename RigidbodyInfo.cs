@@ -6,13 +6,13 @@ public class RigidbodyInfo : PrefabAttribute, IClientComponent // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x4C7860 Offset: 0x4C5E60 VA: 0x1804C7860 Slot: 7
+	// RVA: 0x4C77F0 Offset: 0x4C5DF0 VA: 0x1804C77F0 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x4C76D0 Offset: 0x4C5CD0 VA: 0x1804C76D0 Slot: 6
+	// RVA: 0x4C7660 Offset: 0x4C5C60 VA: 0x1804C7660 Slot: 6
 	protected override void AttributeSetup(GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x4C78C0 Offset: 0x4C5EC0 VA: 0x1804C78C0
+	// RVA: 0x4C7850 Offset: 0x4C5E50 VA: 0x1804C7850
 	public void .ctor() { }
 
 }

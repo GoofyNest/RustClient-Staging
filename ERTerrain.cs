@@ -37,7 +37,7 @@ public class ERTerrain : MonoBehaviour // TypeDefIndex: 7279
 
 	// Methods
 
-	// RVA: 0xA68460 Offset: 0xA66A60 VA: 0x180A68460
+	// RVA: 0xA68930 Offset: 0xA66F30 VA: 0x180A68930
 	public void .ctor() { }
 
 }

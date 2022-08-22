@@ -8,10 +8,10 @@ public class MLRSAmmoIcon : MonoBehaviour // TypeDefIndex: 9721
 
 	// Methods
 
-	// RVA: 0x4DF7A0 Offset: 0x4DDDA0 VA: 0x1804DF7A0
+	// RVA: 0x4DF730 Offset: 0x4DDD30 VA: 0x1804DF730
 	protected void Awake() { }
 
-	// RVA: 0x5525A0 Offset: 0x550BA0 VA: 0x1805525A0
+	// RVA: 0x552530 Offset: 0x550B30 VA: 0x180552530
 	public void SetState(bool filled) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

@@ -14,19 +14,19 @@ public class LookatHealth : MonoBehaviour // TypeDefIndex: 11082
 
 	// Methods
 
-	// RVA: 0x505050 Offset: 0x503650 VA: 0x180505050
+	// RVA: 0x504FE0 Offset: 0x5035E0 VA: 0x180504FE0
 	private void Start() { }
 
-	// RVA: 0x5057C0 Offset: 0x503DC0 VA: 0x1805057C0
+	// RVA: 0x505750 Offset: 0x503D50 VA: 0x180505750
 	private void Update() { }
 
-	// RVA: 0x5050D0 Offset: 0x5036D0 VA: 0x1805050D0
+	// RVA: 0x505060 Offset: 0x503660 VA: 0x180505060
 	private bool UpdateInfo() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0x505890 Offset: 0x503E90 VA: 0x180505890
+	// RVA: 0x505820 Offset: 0x503E20 VA: 0x180505820
 	private static void .cctor() { }
 
 }

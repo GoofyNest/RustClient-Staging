@@ -8,17 +8,17 @@ public class Behaviour : Component // TypeDefIndex: 3505
 
 	// Methods
 
-	// RVA: 0x181FCC0 Offset: 0x181E2C0 VA: 0x18181FCC0
+	// RVA: 0x180D100 Offset: 0x180B700 VA: 0x18180D100
 	public bool get_enabled() { }
 
-	// RVA: 0x181FD40 Offset: 0x181E340 VA: 0x18181FD40
+	// RVA: 0x180D180 Offset: 0x180B780 VA: 0x18180D180
 	public void set_enabled(bool value) { }
 
 	[NativeMethodAttribute] // RVA: 0xB92D0 Offset: 0xB86D0 VA: 0x1800B92D0
-	// RVA: 0x181FD00 Offset: 0x181E300 VA: 0x18181FD00
+	// RVA: 0x180D140 Offset: 0x180B740 VA: 0x18180D140
 	public bool get_isActiveAndEnabled() { }
 
-	// RVA: 0x181FC60 Offset: 0x181E260 VA: 0x18181FC60
+	// RVA: 0x180D0A0 Offset: 0x180B6A0 VA: 0x18180D0A0
 	public void .ctor() { }
 
 }

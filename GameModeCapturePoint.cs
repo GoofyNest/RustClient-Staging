@@ -19,16 +19,16 @@ public class GameModeCapturePoint : BaseEntity // TypeDefIndex: 9882
 
 	// Methods
 
-	// RVA: 0x5329F0 Offset: 0x530FF0 VA: 0x1805329F0
+	// RVA: 0x532980 Offset: 0x530F80 VA: 0x180532980
 	public bool IsContested() { }
 
-	// RVA: 0x758AC0 Offset: 0x7570C0 VA: 0x180758AC0 Slot: 34
+	// RVA: 0x758A10 Offset: 0x757010 VA: 0x180758A10 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x758BA0 Offset: 0x7571A0 VA: 0x180758BA0 Slot: 16
+	// RVA: 0x758AF0 Offset: 0x7570F0 VA: 0x180758AF0 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x758DA0 Offset: 0x7573A0 VA: 0x180758DA0
+	// RVA: 0x758CF0 Offset: 0x7572F0 VA: 0x180758CF0
 	public void .ctor() { }
 
 }

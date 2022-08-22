@@ -118,109 +118,109 @@ public class AmplifyOcclusionBase : MonoBehaviour // TypeDefIndex: 11468
 
 	// Methods
 
-	// RVA: 0x827870 Offset: 0x825E70 VA: 0x180827870
+	// RVA: 0x827E00 Offset: 0x826400 VA: 0x180827E00
 	private void createCommandBuffer(ref AmplifyOcclusionBase.CmdBuffer aCmdBuffer, string aCmdBufferName, CameraEvent aCameraEvent) { }
 
-	// RVA: 0x825820 Offset: 0x823E20 VA: 0x180825820
+	// RVA: 0x825DB0 Offset: 0x8243B0 VA: 0x180825DB0
 	private void cleanupCommandBuffer(ref AmplifyOcclusionBase.CmdBuffer aCmdBuffer) { }
 
-	// RVA: 0x827AC0 Offset: 0x8260C0 VA: 0x180827AC0
+	// RVA: 0x828050 Offset: 0x826650 VA: 0x180828050
 	private void createQuadMesh() { }
 
-	// RVA: 0x823E40 Offset: 0x822440 VA: 0x180823E40
+	// RVA: 0x8243D0 Offset: 0x8229D0 VA: 0x1808243D0
 	private void PerformBlit(CommandBuffer cb, Material mat, int pass) { }
 
-	// RVA: 0x827950 Offset: 0x825F50 VA: 0x180827950
+	// RVA: 0x827EE0 Offset: 0x8264E0 VA: 0x180827EE0
 	private Material createMaterialWithShaderName(string aShaderName, bool aThroughErrorMsg) { }
 
-	// RVA: 0x8251D0 Offset: 0x8237D0 VA: 0x1808251D0
+	// RVA: 0x825760 Offset: 0x823D60 VA: 0x180825760
 	private void checkMaterials(bool aThroughErrorMsg) { }
 
-	// RVA: 0x8257A0 Offset: 0x823DA0 VA: 0x1808257A0
+	// RVA: 0x825D30 Offset: 0x824330 VA: 0x180825D30
 	private bool checkRenderTextureFormats() { }
 
-	// RVA: 0x823850 Offset: 0x821E50 VA: 0x180823850
+	// RVA: 0x823DE0 Offset: 0x8223E0 VA: 0x180823DE0
 	private void OnEnable() { }
 
-	// RVA: 0x823800 Offset: 0x821E00 VA: 0x180823800
+	// RVA: 0x823D90 Offset: 0x822390 VA: 0x180823D90
 	private void Reset() { }
 
-	// RVA: 0x823800 Offset: 0x821E00 VA: 0x180823800
+	// RVA: 0x823D90 Offset: 0x822390 VA: 0x180823D90
 	private void OnDisable() { }
 
-	// RVA: 0x827FF0 Offset: 0x8265F0 VA: 0x180827FF0
+	// RVA: 0x828580 Offset: 0x826B80 VA: 0x180828580
 	private void releaseRT() { }
 
-	// RVA: 0x825440 Offset: 0x823A40 VA: 0x180825440
+	// RVA: 0x8259D0 Offset: 0x823FD0 VA: 0x1808259D0
 	private bool checkParamsChanged() { }
 
-	// RVA: 0x828360 Offset: 0x826960 VA: 0x180828360
+	// RVA: 0x8288F0 Offset: 0x826EF0 VA: 0x1808288F0
 	private void updateParams() { }
 
-	// RVA: 0x824A30 Offset: 0x823030 VA: 0x180824A30
+	// RVA: 0x824FC0 Offset: 0x8235C0 VA: 0x180824FC0
 	private void Update() { }
 
-	// RVA: 0x8239F0 Offset: 0x821FF0 VA: 0x1808239F0
+	// RVA: 0x823F80 Offset: 0x822580 VA: 0x180823F80
 	private void OnPreRender() { }
 
-	// RVA: 0x823960 Offset: 0x821F60 VA: 0x180823960
+	// RVA: 0x823EF0 Offset: 0x8224F0 VA: 0x180823EF0
 	private void OnPostRender() { }
 
-	// RVA: 0x8281F0 Offset: 0x8267F0 VA: 0x1808281F0
+	// RVA: 0x828780 Offset: 0x826D80 VA: 0x180828780
 	private int safeAllocateTemporaryRT(CommandBuffer cb, string propertyName, int width, int height, RenderTextureFormat format = 7, RenderTextureReadWrite readWrite = 0, FilterMode filterMode = 0) { }
 
-	// RVA: 0x828330 Offset: 0x826930 VA: 0x180828330
+	// RVA: 0x8288C0 Offset: 0x826EC0 VA: 0x1808288C0
 	private void safeReleaseTemporaryRT(CommandBuffer cb, int id) { }
 
-	// RVA: 0x8280C0 Offset: 0x8266C0 VA: 0x1808280C0
+	// RVA: 0x828650 Offset: 0x826C50 VA: 0x180828650
 	private RenderTexture safeAllocateRT(string name, int width, int height, RenderTextureFormat format, RenderTextureReadWrite readWrite, FilterMode filterMode = 0) { }
 
-	// RVA: 0x828270 Offset: 0x826870 VA: 0x180828270
+	// RVA: 0x828800 Offset: 0x826E00 VA: 0x180828800
 	private void safeReleaseRT(ref RenderTexture rt) { }
 
-	// RVA: 0x8237A0 Offset: 0x821DA0 VA: 0x1808237A0
+	// RVA: 0x823D30 Offset: 0x822330 VA: 0x180823D30
 	private void BeginSample(CommandBuffer cb, string name) { }
 
-	// RVA: 0x8237D0 Offset: 0x821DD0 VA: 0x1808237D0
+	// RVA: 0x823D60 Offset: 0x822360 VA: 0x180823D60
 	private void EndSample(CommandBuffer cb, string name) { }
 
-	// RVA: 0x826D20 Offset: 0x825320 VA: 0x180826D20
+	// RVA: 0x8272B0 Offset: 0x8258B0 VA: 0x1808272B0
 	private void commandBuffer_FillComputeOcclusion(CommandBuffer cb) { }
 
-	// RVA: 0x825940 Offset: 0x823F40 VA: 0x180825940
+	// RVA: 0x825ED0 Offset: 0x8244D0 VA: 0x180825ED0
 	private void commandBuffer_Blur(CommandBuffer cb, RenderTargetIdentifier aSourceRT, int aSourceWidth, int aSourceHeight) { }
 
-	// RVA: 0x827FD0 Offset: 0x8265D0 VA: 0x180827FD0
+	// RVA: 0x828560 Offset: 0x826B60 VA: 0x180828560
 	private int getTemporalPass() { }
 
-	// RVA: 0x827430 Offset: 0x825A30 VA: 0x180827430
+	// RVA: 0x8279C0 Offset: 0x825FC0 VA: 0x1808279C0
 	private void commandBuffer_TemporalFilter(CommandBuffer cb) { }
 
-	// RVA: 0x825FB0 Offset: 0x8245B0 VA: 0x180825FB0
+	// RVA: 0x826540 Offset: 0x824B40 VA: 0x180826540
 	private void commandBuffer_FillApplyDeferred(CommandBuffer cb, bool logTarget) { }
 
-	// RVA: 0x8269B0 Offset: 0x824FB0 VA: 0x1808269B0
+	// RVA: 0x826F40 Offset: 0x825540 VA: 0x180826F40
 	private void commandBuffer_FillApplyPostEffect(CommandBuffer cb) { }
 
-	// RVA: 0x825C40 Offset: 0x824240 VA: 0x180825C40
+	// RVA: 0x8261D0 Offset: 0x8247D0 VA: 0x1808261D0
 	private void commandBuffer_FillApplyDebug(CommandBuffer cb) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	private bool isStereoSinglePassEnabled() { }
 
-	// RVA: 0x8244E0 Offset: 0x822AE0 VA: 0x1808244E0
+	// RVA: 0x824A70 Offset: 0x823070 VA: 0x180824A70
 	private void UpdateGlobalShaderConstants() { }
 
-	// RVA: 0x823F50 Offset: 0x822550 VA: 0x180823F50
+	// RVA: 0x8244E0 Offset: 0x822AE0 VA: 0x1808244E0
 	private void UpdateGlobalShaderConstants_AmbientOcclusion() { }
 
-	// RVA: 0x824130 Offset: 0x822730 VA: 0x180824130
+	// RVA: 0x8246C0 Offset: 0x822CC0 VA: 0x1808246C0
 	private void UpdateGlobalShaderConstants_Matrices() { }
 
-	// RVA: 0x824DB0 Offset: 0x8233B0 VA: 0x180824DB0
+	// RVA: 0x825340 Offset: 0x823940 VA: 0x180825340
 	public void .ctor() { }
 
-	// RVA: 0x824C60 Offset: 0x823260 VA: 0x180824C60
+	// RVA: 0x8251F0 Offset: 0x8237F0 VA: 0x1808251F0
 	private static void .cctor() { }
 
 }
@@ -344,7 +344,7 @@ private static class AmplifyOcclusionBase.PropertyID // TypeDefIndex: 11475
 
 	// Methods
 
-	// RVA: 0x83C980 Offset: 0x83AF80 VA: 0x18083C980
+	// RVA: 0x83CED0 Offset: 0x83B4D0 VA: 0x18083CED0
 	private static void .cctor() { }
 
 }

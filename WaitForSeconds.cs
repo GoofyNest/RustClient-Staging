@@ -4,7 +4,7 @@ public sealed class WaitForSeconds : YieldInstruction // TypeDefIndex: 3540
 
 	// Methods
 
-	// RVA: 0x2186C10 Offset: 0x2185210 VA: 0x182186C10
+	// RVA: 0x2187430 Offset: 0x2185A30 VA: 0x182187430
 	public void .ctor(float seconds) { }
 
 }

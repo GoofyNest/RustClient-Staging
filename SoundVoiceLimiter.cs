@@ -5,16 +5,16 @@ public class SoundVoiceLimiter : MonoBehaviour, IClientComponent // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0xA7D5E0 Offset: 0xA7BBE0 VA: 0x180A7D5E0
+	// RVA: 0xA7DAB0 Offset: 0xA7C0B0 VA: 0x180A7DAB0
 	public void EnforceSoundLimit() { }
 
-	// RVA: 0xA7D580 Offset: 0xA7BB80 VA: 0x180A7D580
+	// RVA: 0xA7DA50 Offset: 0xA7C050 VA: 0x180A7DA50
 	public void AddSound(Sound sound) { }
 
-	// RVA: 0xA7D7E0 Offset: 0xA7BDE0 VA: 0x180A7D7E0
+	// RVA: 0xA7DCB0 Offset: 0xA7C2B0 VA: 0x180A7DCB0
 	public void RemoveSound(Sound sound) { }
 
-	// RVA: 0xA7D840 Offset: 0xA7BE40 VA: 0x180A7D840
+	// RVA: 0xA7DD10 Offset: 0xA7C310 VA: 0x180A7DD10
 	public void .ctor() { }
 
 }

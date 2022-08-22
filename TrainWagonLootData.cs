@@ -14,19 +14,19 @@ public class TrainWagonLootData : ScriptableObject // TypeDefIndex: 9776
 	// Methods
 
 	[RuntimeInitializeOnLoadMethodAttribute] // RVA: 0x98480 Offset: 0x97880 VA: 0x180098480
-	// RVA: 0xA16D20 Offset: 0xA15320 VA: 0x180A16D20
+	// RVA: 0xA17210 Offset: 0xA15810 VA: 0x180A17210
 	private static void Init() { }
 
-	// RVA: 0xA16BC0 Offset: 0xA151C0 VA: 0x180A16BC0
+	// RVA: 0xA170B0 Offset: 0xA156B0 VA: 0x180A170B0
 	public TrainWagonLootData.LootOption GetLootOption(TrainCarUnloadable.WagonType wagonType, out int index) { }
 
-	// RVA: 0xA16E10 Offset: 0xA15410 VA: 0x180A16E10
+	// RVA: 0xA17300 Offset: 0xA15900 VA: 0x180A17300
 	public bool TryGetLootFromIndex(int index, out TrainWagonLootData.LootOption lootOption) { }
 
-	// RVA: 0xA16D70 Offset: 0xA15370 VA: 0x180A16D70
+	// RVA: 0xA17260 Offset: 0xA15860 VA: 0x180A17260
 	public bool TryGetIndexFromLoot(TrainWagonLootData.LootOption lootOption, out int index) { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -46,7 +46,7 @@ public class TrainWagonLootData.LootOption // TypeDefIndex: 9777
 
 	// Methods
 
-	// RVA: 0xA08550 Offset: 0xA06B50 VA: 0x180A08550
+	// RVA: 0xA08A40 Offset: 0xA07040 VA: 0x180A08A40
 	public void .ctor() { }
 
 }

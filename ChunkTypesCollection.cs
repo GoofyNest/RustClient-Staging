@@ -4,7 +4,7 @@ public sealed class ChunkTypesCollection // TypeDefIndex: 7509
 
 	// Methods
 
-	// RVA: 0x1396E30 Offset: 0x1395430 VA: 0x181396E30
+	// RVA: 0x1395F30 Offset: 0x1394530 VA: 0x181395F30
 	public bool TryGetType(string id, out Type type) { }
 
 }

@@ -14,52 +14,52 @@ public abstract class BaseInputModule : UIBehaviour // TypeDefIndex: 5080
 
 	// Methods
 
-	// RVA: 0x10B67F0 Offset: 0x10B4DF0 VA: 0x1810B67F0
+	// RVA: 0x10B7260 Offset: 0x10B5860 VA: 0x1810B7260
 	public BaseInput get_input() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public BaseInput get_inputOverride() { }
 
-	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
+	// RVA: 0x6AD650 Offset: 0x6ABC50 VA: 0x1806AD650
 	public void set_inputOverride(BaseInput value) { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	protected EventSystem get_eventSystem() { }
 
-	// RVA: 0x10B66E0 Offset: 0x10B4CE0 VA: 0x1810B66E0 Slot: 5
+	// RVA: 0x10B7150 Offset: 0x10B5750 VA: 0x1810B7150 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x10B66C0 Offset: 0x10B4CC0 VA: 0x1810B66C0 Slot: 7
+	// RVA: 0x10B7130 Offset: 0x10B5730 VA: 0x1810B7130 Slot: 7
 	protected override void OnDisable() { }
 
 	// RVA: -1 Offset: -1 Slot: 17
 	public abstract void Process();
 
-	// RVA: 0x10B5E20 Offset: 0x10B4420 VA: 0x1810B5E20
+	// RVA: 0x10B6890 Offset: 0x10B4E90 VA: 0x1810B6890
 	protected static RaycastResult FindFirstRaycast(List<RaycastResult> candidates) { }
 
-	// RVA: 0x10B5C50 Offset: 0x10B4250 VA: 0x1810B5C50
+	// RVA: 0x10B66C0 Offset: 0x10B4CC0 VA: 0x1810B66C0
 	protected static MoveDirection DetermineMoveDirection(float x, float y) { }
 
-	// RVA: 0x10B5B60 Offset: 0x10B4160 VA: 0x1810B5B60
+	// RVA: 0x10B65D0 Offset: 0x10B4BD0 VA: 0x1810B65D0
 	protected static MoveDirection DetermineMoveDirection(float x, float y, float deadZone) { }
 
-	// RVA: 0x10B5C60 Offset: 0x10B4260 VA: 0x1810B5C60
+	// RVA: 0x10B66D0 Offset: 0x10B4CD0 VA: 0x1810B66D0
 	protected static GameObject FindCommonRoot(GameObject g1, GameObject g2) { }
 
-	// RVA: 0x10B61C0 Offset: 0x10B47C0 VA: 0x1810B61C0
+	// RVA: 0x10B6C30 Offset: 0x10B5230 VA: 0x1810B6C30
 	protected void HandlePointerExitAndEnter(PointerEventData currentPointerData, GameObject newEnterTarget) { }
 
-	// RVA: 0x10B5F70 Offset: 0x10B4570 VA: 0x1810B5F70 Slot: 18
+	// RVA: 0x10B69E0 Offset: 0x10B4FE0 VA: 0x1810B69E0 Slot: 18
 	protected virtual AxisEventData GetAxisEventData(float x, float y, float moveDeadZone) { }
 
-	// RVA: 0x10B6110 Offset: 0x10B4710 VA: 0x1810B6110 Slot: 19
+	// RVA: 0x10B6B80 Offset: 0x10B5180 VA: 0x1810B6B80 Slot: 19
 	protected virtual BaseEventData GetBaseEventData() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 20
 	public virtual bool IsPointerOverGameObject(int pointerId) { }
 
-	// RVA: 0x10B6740 Offset: 0x10B4D40 VA: 0x1810B6740 Slot: 21
+	// RVA: 0x10B71B0 Offset: 0x10B57B0 VA: 0x1810B71B0 Slot: 21
 	public virtual bool ShouldActivateModule() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 22
@@ -71,10 +71,10 @@ public abstract class BaseInputModule : UIBehaviour // TypeDefIndex: 5080
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 24
 	public virtual void UpdateModule() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 25
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 25
 	public virtual bool IsModuleSupported() { }
 
-	// RVA: 0x10B6780 Offset: 0x10B4D80 VA: 0x1810B6780
+	// RVA: 0x10B71F0 Offset: 0x10B57F0 VA: 0x1810B71F0
 	protected void .ctor() { }
 
 }

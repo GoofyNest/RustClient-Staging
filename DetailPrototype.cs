@@ -19,16 +19,16 @@ public sealed class DetailPrototype // TypeDefIndex: 4091
 
 	// Methods
 
-	// RVA: 0x22BEA40 Offset: 0x22BD040 VA: 0x1822BEA40
+	// RVA: 0x22BF260 Offset: 0x22BD860 VA: 0x1822BF260
 	public void .ctor() { }
 
-	// RVA: 0x22BE670 Offset: 0x22BCC70 VA: 0x1822BE670 Slot: 0
+	// RVA: 0x22BEE90 Offset: 0x22BD490 VA: 0x1822BEE90 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x18F84F0 Offset: 0x18F6AF0 VA: 0x1818F84F0 Slot: 2
+	// RVA: 0x18F7C10 Offset: 0x18F6210 VA: 0x1818F7C10 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x22BE860 Offset: 0x22BCE60 VA: 0x1822BE860
+	// RVA: 0x22BF080 Offset: 0x22BD680 VA: 0x1822BF080
 	private bool Equals(DetailPrototype other) { }
 
 }

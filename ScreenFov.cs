@@ -7,10 +7,10 @@ public class ScreenFov : BaseScreenShake // TypeDefIndex: 9368
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4
 	public override void Setup() { }
 
-	// RVA: 0x4A4260 Offset: 0x4A2860 VA: 0x1804A4260 Slot: 5
+	// RVA: 0x4A41F0 Offset: 0x4A27F0 VA: 0x1804A41F0 Slot: 5
 	public override void Run(float delta, ref CachedTransform<Camera> cam, ref CachedTransform<BaseViewModel> vm) { }
 
-	// RVA: 0x4A4320 Offset: 0x4A2920 VA: 0x1804A4320
+	// RVA: 0x4A42B0 Offset: 0x4A28B0 VA: 0x1804A42B0
 	public void .ctor() { }
 
 }

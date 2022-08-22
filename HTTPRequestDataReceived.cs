@@ -12,13 +12,13 @@ internal struct HTTPRequestDataReceived_t : ICallbackData // TypeDefIndex: 5426
 
 	// Methods
 
-	// RVA: 0x1EA7B0 Offset: 0x1E9BB0 VA: 0x1801EA7B0 Slot: 5
+	// RVA: 0x1EABD0 Offset: 0x1E9FD0 VA: 0x1801EABD0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA7A0 Offset: 0x1E9BA0 VA: 0x1801EA7A0 Slot: 4
+	// RVA: 0x1EABC0 Offset: 0x1E9FC0 VA: 0x1801EABC0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372D40 Offset: 0x1371340 VA: 0x181372D40
+	// RVA: 0x1371E40 Offset: 0x1370440 VA: 0x181371E40
 	private static void .cctor() { }
 
 }

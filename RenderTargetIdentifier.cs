@@ -10,43 +10,43 @@ public struct RenderTargetIdentifier : IEquatable<RenderTargetIdentifier> // Typ
 
 	// Methods
 
-	// RVA: 0x2223C0 Offset: 0x2217C0 VA: 0x1802223C0
+	// RVA: 0x21D940 Offset: 0x21CD40 VA: 0x18021D940
 	public void .ctor(BuiltinRenderTextureType type) { }
 
-	// RVA: 0x2222E0 Offset: 0x2216E0 VA: 0x1802222E0
+	// RVA: 0x21D860 Offset: 0x21CC60 VA: 0x18021D860
 	public void .ctor(int nameID) { }
 
-	// RVA: 0x222380 Offset: 0x221780 VA: 0x180222380
+	// RVA: 0x21D900 Offset: 0x21CD00 VA: 0x18021D900
 	public void .ctor(RenderTargetIdentifier renderTargetIdentifier, int mipLevel, CubemapFace cubeFace = -1, int depthSlice = 0) { }
 
-	// RVA: 0x222370 Offset: 0x221770 VA: 0x180222370
+	// RVA: 0x21D8F0 Offset: 0x21CCF0 VA: 0x18021D8F0
 	public void .ctor(Texture tex) { }
 
-	// RVA: 0x222340 Offset: 0x221740 VA: 0x180222340
+	// RVA: 0x21D8C0 Offset: 0x21CCC0 VA: 0x18021D8C0
 	public void .ctor(RenderBuffer buf, int mipLevel = 0, CubemapFace cubeFace = -1, int depthSlice = 0) { }
 
-	// RVA: 0x19B09A0 Offset: 0x19AEFA0 VA: 0x1819B09A0
+	// RVA: 0x199DDA0 Offset: 0x199C3A0 VA: 0x18199DDA0
 	public static RenderTargetIdentifier op_Implicit(BuiltinRenderTextureType type) { }
 
-	// RVA: 0x19B0B00 Offset: 0x19AF100 VA: 0x1819B0B00
+	// RVA: 0x199DF00 Offset: 0x199C500 VA: 0x18199DF00
 	public static RenderTargetIdentifier op_Implicit(int nameID) { }
 
-	// RVA: 0x19B0AA0 Offset: 0x19AF0A0 VA: 0x1819B0AA0
+	// RVA: 0x199DEA0 Offset: 0x199C4A0 VA: 0x18199DEA0
 	public static RenderTargetIdentifier op_Implicit(Texture tex) { }
 
-	// RVA: 0x19B0A40 Offset: 0x19AF040 VA: 0x1819B0A40
+	// RVA: 0x199DE40 Offset: 0x199C440 VA: 0x18199DE40
 	public static RenderTargetIdentifier op_Implicit(RenderBuffer buf) { }
 
-	// RVA: 0x2222D0 Offset: 0x2216D0 VA: 0x1802222D0 Slot: 3
+	// RVA: 0x21D850 Offset: 0x21CC50 VA: 0x18021D850 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x222270 Offset: 0x221670 VA: 0x180222270 Slot: 2
+	// RVA: 0x21D7F0 Offset: 0x21CBF0 VA: 0x18021D7F0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x222180 Offset: 0x221580 VA: 0x180222180 Slot: 4
+	// RVA: 0x21D700 Offset: 0x21CB00 VA: 0x18021D700 Slot: 4
 	public bool Equals(RenderTargetIdentifier rhs) { }
 
-	// RVA: 0x2221C0 Offset: 0x2215C0 VA: 0x1802221C0 Slot: 0
+	// RVA: 0x21D740 Offset: 0x21CB40 VA: 0x18021D740 Slot: 0
 	public override bool Equals(object obj) { }
 
 }

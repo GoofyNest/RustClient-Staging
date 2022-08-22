@@ -24,22 +24,22 @@ public class NoiseAndScratches : MonoBehaviour // TypeDefIndex: 8195
 
 	// Methods
 
-	// RVA: 0x21E32E0 Offset: 0x21E18E0 VA: 0x1821E32E0
+	// RVA: 0x21E3B00 Offset: 0x21E2100 VA: 0x1821E3B00
 	protected void Start() { }
 
-	// RVA: 0x21E3440 Offset: 0x21E1A40 VA: 0x1821E3440
+	// RVA: 0x21E3C60 Offset: 0x21E2260 VA: 0x1821E3C60
 	protected Material get_material() { }
 
-	// RVA: 0x21E2A90 Offset: 0x21E1090 VA: 0x1821E2A90
+	// RVA: 0x21E32B0 Offset: 0x21E18B0 VA: 0x1821E32B0
 	protected void OnDisable() { }
 
-	// RVA: 0x21E31B0 Offset: 0x21E17B0 VA: 0x1821E31B0
+	// RVA: 0x21E39D0 Offset: 0x21E1FD0 VA: 0x1821E39D0
 	private void SanitizeParameters() { }
 
-	// RVA: 0x21E2B80 Offset: 0x21E1180 VA: 0x1821E2B80
+	// RVA: 0x21E33A0 Offset: 0x21E19A0 VA: 0x1821E33A0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21E3400 Offset: 0x21E1A00 VA: 0x1821E3400
+	// RVA: 0x21E3C20 Offset: 0x21E2220 VA: 0x1821E3C20
 	public void .ctor() { }
 
 }

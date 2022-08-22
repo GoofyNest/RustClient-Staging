@@ -9,28 +9,28 @@ internal class CharEntityEncoderFallbackBuffer : EncoderFallbackBuffer // TypeDe
 
 	// Methods
 
-	// RVA: 0x12E3C00 Offset: 0x12E2200 VA: 0x1812E3C00
+	// RVA: 0x12EA0B0 Offset: 0x12E86B0 VA: 0x1812EA0B0
 	internal void .ctor(CharEntityEncoderFallback parent) { }
 
-	// RVA: 0x12E3900 Offset: 0x12E1F00 VA: 0x1812E3900 Slot: 4
+	// RVA: 0x12E9DB0 Offset: 0x12E83B0 VA: 0x1812E9DB0 Slot: 4
 	public override bool Fallback(char charUnknown, int index) { }
 
-	// RVA: 0x12E3600 Offset: 0x12E1C00 VA: 0x1812E3600 Slot: 5
+	// RVA: 0x12E9AB0 Offset: 0x12E80B0 VA: 0x1812E9AB0 Slot: 5
 	public override bool Fallback(char charUnknownHigh, char charUnknownLow, int index) { }
 
-	// RVA: 0x12E3B70 Offset: 0x12E2170 VA: 0x1812E3B70 Slot: 6
+	// RVA: 0x12EA020 Offset: 0x12E8620 VA: 0x1812EA020 Slot: 6
 	public override char GetNextChar() { }
 
-	// RVA: 0x12E3BC0 Offset: 0x12E21C0 VA: 0x1812E3BC0 Slot: 7
+	// RVA: 0x12EA070 Offset: 0x12E8670 VA: 0x1812EA070 Slot: 7
 	public override bool MovePrevious() { }
 
-	// RVA: 0x12E3C80 Offset: 0x12E2280 VA: 0x1812E3C80 Slot: 8
+	// RVA: 0x12EA130 Offset: 0x12E8730 VA: 0x1812EA130 Slot: 8
 	public override int get_Remaining() { }
 
-	// RVA: 0x12E3BE0 Offset: 0x12E21E0 VA: 0x1812E3BE0 Slot: 9
+	// RVA: 0x12EA090 Offset: 0x12E8690 VA: 0x1812EA090 Slot: 9
 	public override void Reset() { }
 
-	// RVA: 0x12E3BF0 Offset: 0x12E21F0 VA: 0x1812E3BF0
+	// RVA: 0x12EA0A0 Offset: 0x12E86A0 VA: 0x1812EA0A0
 	private int SurrogateCharToUtf32(char highSurrogate, char lowSurrogate) { }
 
 }

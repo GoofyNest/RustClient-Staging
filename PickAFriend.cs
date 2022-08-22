@@ -13,28 +13,28 @@ public class PickAFriend : UIDialog // TypeDefIndex: 10903
 
 	// Methods
 
-	// RVA: 0x90A790 Offset: 0x908D90 VA: 0x18090A790
+	// RVA: 0x90ACA0 Offset: 0x9092A0 VA: 0x18090ACA0
 	public void set_shouldShowPlayer(Func<ulong, bool> value) { }
 
-	// RVA: 0x90A680 Offset: 0x908C80 VA: 0x18090A680
+	// RVA: 0x90AB90 Offset: 0x909190 VA: 0x18090AB90
 	public void SetHeaderText(PickAFriend.PickFriendMode mode) { }
 
-	// RVA: 0x90A4F0 Offset: 0x908AF0 VA: 0x18090A4F0 Slot: 8
+	// RVA: 0x90AA00 Offset: 0x909000 VA: 0x18090AA00 Slot: 8
 	public override void OpenDialog() { }
 
-	// RVA: 0x90A3A0 Offset: 0x9089A0 VA: 0x18090A3A0
+	// RVA: 0x90A8B0 Offset: 0x908EB0 VA: 0x18090A8B0
 	private void CheckForNoInput() { }
 
-	// RVA: 0x90A5E0 Offset: 0x908BE0 VA: 0x18090A5E0
+	// RVA: 0x90AAF0 Offset: 0x9090F0 VA: 0x18090AAF0
 	public void SelectTextField() { }
 
-	// RVA: 0x90A470 Offset: 0x908A70 VA: 0x18090A470
+	// RVA: 0x90A980 Offset: 0x908F80 VA: 0x18090A980
 	public void DoAssign(ulong steamid, string steamName) { }
 
-	// RVA: 0x90A320 Offset: 0x908920 VA: 0x18090A320
+	// RVA: 0x90A830 Offset: 0x908E30 VA: 0x18090A830
 	public void Cancel() { }
 
-	// RVA: 0x90A6E0 Offset: 0x908CE0 VA: 0x18090A6E0
+	// RVA: 0x90ABF0 Offset: 0x9091F0 VA: 0x18090ABF0
 	public void .ctor() { }
 
 }

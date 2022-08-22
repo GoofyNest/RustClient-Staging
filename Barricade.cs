@@ -8,7 +8,7 @@ public class Barricade : DecayEntity // TypeDefIndex: 9509
 
 	// Methods
 
-	// RVA: 0x7D0580 Offset: 0x7CEB80 VA: 0x1807D0580
+	// RVA: 0x79B810 Offset: 0x799E10 VA: 0x18079B810
 	public void .ctor() { }
 
 }

@@ -8,7 +8,7 @@ private sealed class Task.<>c<TResult> // TypeDefIndex: 843
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD65540 Offset: 0xD63B40 VA: 0x180D65540
+	|-RVA: 0xD66290 Offset: 0xD64890 VA: 0x180D66290
 	|-Task.<>c<PublishResult>..cctor
 	|-Task.<>c<bool>..cctor
 	|-Task.<>c<int>..cctor
@@ -29,7 +29,7 @@ private sealed class Task.<>c<TResult> // TypeDefIndex: 843
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
+	|-RVA: 0xD5BAD0 Offset: 0xD5A0D0 VA: 0x180D5BAD0
 	|-Task.<>c<PublishResult>..ctor
 	|-Task.<>c<bool>..ctor
 	|-Task.<>c<int>..ctor
@@ -50,46 +50,46 @@ private sealed class Task.<>c<TResult> // TypeDefIndex: 843
 	internal Task<TResult> <.cctor>b__64_0(Task<Task> completed) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1AAC4A0 Offset: 0x1AAAAA0 VA: 0x181AAC4A0
+	|-RVA: 0x1A98CB0 Offset: 0x1A972B0 VA: 0x181A98CB0
 	|-Task.<>c<PublishResult>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AAC1E0 Offset: 0x1AAA7E0 VA: 0x181AAC1E0
+	|-RVA: 0x1A989F0 Offset: 0x1A96FF0 VA: 0x181A989F0
 	|-Task.<>c<bool>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AAC600 Offset: 0x1AAAC00 VA: 0x181AAC600
+	|-RVA: 0x1A98E10 Offset: 0x1A97410 VA: 0x181A98E10
 	|-Task.<>c<int>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AABF20 Offset: 0x1AAA520 VA: 0x181AABF20
+	|-RVA: 0x1A98730 Offset: 0x1A96D30 VA: 0x181A98730
 	|-Task.<>c<UdpReceiveResult>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AAC290 Offset: 0x1AAA890 VA: 0x181AAC290
+	|-RVA: 0x1A98AA0 Offset: 0x1A970A0 VA: 0x181A98AA0
 	|-Task.<>c<Nullable<ServerInfo>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AAC760 Offset: 0x1AAAD60 VA: 0x181AAC760
+	|-RVA: 0x1A98F70 Offset: 0x1A97570 VA: 0x181A98F70
 	|-Task.<>c<Nullable<Image>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AAC130 Offset: 0x1AAA730 VA: 0x181AAC130
+	|-RVA: 0x1A98940 Offset: 0x1A96F40 VA: 0x181A98940
 	|-Task.<>c<Nullable<InventoryPurchaseResult>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AAC810 Offset: 0x1AAAE10 VA: 0x181AAC810
+	|-RVA: 0x1A99020 Offset: 0x1A97620 VA: 0x181A99020
 	|-Task.<>c<Nullable<InventoryResult>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AAC080 Offset: 0x1AAA680 VA: 0x181AAC080
+	|-RVA: 0x1A98890 Offset: 0x1A96E90 VA: 0x181A98890
 	|-Task.<>c<Nullable<Item>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AABFD0 Offset: 0x1AAA5D0 VA: 0x181AABFD0
+	|-RVA: 0x1A987E0 Offset: 0x1A96DE0 VA: 0x181A987E0
 	|-Task.<>c<Nullable<ResultPage>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AAC3F0 Offset: 0x1AAA9F0 VA: 0x181AAC3F0
+	|-RVA: 0x1A98C00 Offset: 0x1A97200 VA: 0x181A98C00
 	|-Task.<>c<Nullable<int>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AAC6B0 Offset: 0x1AAACB0 VA: 0x181AAC6B0
+	|-RVA: 0x1A98EC0 Offset: 0x1A974C0 VA: 0x181A98EC0
 	|-Task.<>c<Nullable<Int32Enum>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AAC340 Offset: 0x1AAA940 VA: 0x181AAC340
+	|-RVA: 0x1A98B50 Offset: 0x1A97150 VA: 0x181A98B50
 	|-Task.<>c<object>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1AAC550 Offset: 0x1AAAB50 VA: 0x181AAC550
+	|-RVA: 0x1A98D60 Offset: 0x1A97360 VA: 0x181A98D60
 	|-Task.<>c<VoidTaskResult>.<.cctor>b__64_0
 	*/
 
@@ -179,137 +179,137 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	// Methods
 
 	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x149CE00 Offset: 0x149B400 VA: 0x18149CE00
+	// RVA: 0x149BED0 Offset: 0x149A4D0 VA: 0x18149BED0
 	internal static bool AddToActiveTasks(Task task) { }
 
 	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14A1860 Offset: 0x149FE60 VA: 0x1814A1860
+	// RVA: 0x14A0930 Offset: 0x149EF30 VA: 0x1814A0930
 	internal static void RemoveFromActiveTasks(int taskId) { }
 
-	// RVA: 0x14A36F0 Offset: 0x14A1CF0 VA: 0x1814A36F0
+	// RVA: 0x14A27C0 Offset: 0x14A0DC0 VA: 0x1814A27C0
 	internal void .ctor(bool canceled, TaskCreationOptions creationOptions, CancellationToken ct) { }
 
-	// RVA: 0x14A37C0 Offset: 0x14A1DC0 VA: 0x1814A37C0
+	// RVA: 0x14A2890 Offset: 0x14A0E90 VA: 0x1814A2890
 	internal void .ctor() { }
 
-	// RVA: 0x14A35C0 Offset: 0x14A1BC0 VA: 0x1814A35C0
+	// RVA: 0x14A2690 Offset: 0x14A0C90 VA: 0x1814A2690
 	internal void .ctor(object state, TaskCreationOptions creationOptions, bool promiseStyle) { }
 
-	// RVA: 0x14A34B0 Offset: 0x14A1AB0 VA: 0x1814A34B0
+	// RVA: 0x14A2580 Offset: 0x14A0B80 VA: 0x1814A2580
 	internal void .ctor(Delegate action, object state, Task parent, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler) { }
 
-	// RVA: 0x14A2900 Offset: 0x14A0F00 VA: 0x1814A2900
+	// RVA: 0x14A19D0 Offset: 0x149FFD0 VA: 0x1814A19D0
 	internal void TaskConstructorCore(object action, object state, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler) { }
 
-	// RVA: 0x149D070 Offset: 0x149B670 VA: 0x18149D070
+	// RVA: 0x149C140 Offset: 0x149A740 VA: 0x18149C140
 	private void AssignCancellationToken(CancellationToken cancellationToken, Task antecedent, TaskContinuation continuation) { }
 
-	// RVA: 0x14A2810 Offset: 0x14A0E10 VA: 0x1814A2810
+	// RVA: 0x14A18E0 Offset: 0x149FEE0 VA: 0x1814A18E0
 	private static void TaskCancelCallback(object o) { }
 
-	// RVA: 0x14A1110 Offset: 0x149F710 VA: 0x1814A1110
+	// RVA: 0x14A01E0 Offset: 0x149E7E0 VA: 0x1814A01E0
 	internal void PossiblyCaptureContext(ref StackCrawlMark stackMark) { }
 
-	// RVA: 0x14A4270 Offset: 0x14A2870 VA: 0x1814A4270
+	// RVA: 0x14A3340 Offset: 0x14A1940 VA: 0x1814A3340
 	internal TaskCreationOptions get_Options() { }
 
-	// RVA: 0x1370A00 Offset: 0x136F000 VA: 0x181370A00
+	// RVA: 0x136FB00 Offset: 0x136E100 VA: 0x18136FB00
 	internal static TaskCreationOptions OptionsMethod(int flags) { }
 
-	// RVA: 0x149D400 Offset: 0x149BA00 VA: 0x18149D400
+	// RVA: 0x149C4D0 Offset: 0x149AAD0 VA: 0x18149C4D0
 	internal bool AtomicStateUpdate(int newBits, int illegalBits) { }
 
-	// RVA: 0x149D530 Offset: 0x149BB30 VA: 0x18149D530
+	// RVA: 0x149C600 Offset: 0x149AC00 VA: 0x18149C600
 	internal bool AtomicStateUpdate(int newBits, int illegalBits, ref int oldFlags) { }
 
-	// RVA: 0x14A2070 Offset: 0x14A0670 VA: 0x1814A2070
+	// RVA: 0x14A1140 Offset: 0x149F740 VA: 0x1814A1140
 	internal void SetNotificationForWaitCompletion(bool enabled) { }
 
-	// RVA: 0x14A1080 Offset: 0x149F680 VA: 0x1814A1080
+	// RVA: 0x14A0150 Offset: 0x149E750 VA: 0x1814A0150
 	internal bool NotifyDebuggerOfWaitCompletionIfNecessary() { }
 
-	// RVA: 0x149CFD0 Offset: 0x149B5D0 VA: 0x18149CFD0
+	// RVA: 0x149C0A0 Offset: 0x149A6A0 VA: 0x18149C0A0
 	internal static bool AnyTaskRequiresNotifyDebuggerOfWaitCompletion(Task[] tasks) { }
 
-	// RVA: 0x14A4220 Offset: 0x14A2820 VA: 0x1814A4220
+	// RVA: 0x14A32F0 Offset: 0x14A18F0 VA: 0x1814A32F0
 	internal bool get_IsWaitNotificationEnabledOrNotRanToCompletion() { }
 
-	// RVA: 0x14A4250 Offset: 0x14A2850 VA: 0x1814A4250 Slot: 11
+	// RVA: 0x14A3320 Offset: 0x14A1920 VA: 0x1814A3320 Slot: 11
 	internal virtual bool get_ShouldNotifyDebuggerOfWaitCompletion() { }
 
-	// RVA: 0x14A4250 Offset: 0x14A2850 VA: 0x1814A4250
+	// RVA: 0x14A3320 Offset: 0x14A1920 VA: 0x1814A3320
 	internal bool get_IsWaitNotificationEnabled() { }
 
-	// RVA: 0x14A10E0 Offset: 0x149F6E0 VA: 0x1814A10E0
+	// RVA: 0x14A01B0 Offset: 0x149E7B0 VA: 0x1814A01B0
 	private void NotifyDebuggerOfWaitCompletion() { }
 
-	// RVA: 0x14A1000 Offset: 0x149F600 VA: 0x1814A1000
+	// RVA: 0x14A00D0 Offset: 0x149E6D0 VA: 0x1814A00D0
 	internal bool MarkStarted() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	internal bool FireTaskScheduledIfNeeded(TaskScheduler ts) { }
 
-	// RVA: 0x149C8E0 Offset: 0x149AEE0 VA: 0x18149C8E0
+	// RVA: 0x149B9B0 Offset: 0x1499FB0 VA: 0x18149B9B0
 	internal void AddNewChild() { }
 
-	// RVA: 0x149EDA0 Offset: 0x149D3A0 VA: 0x18149EDA0
+	// RVA: 0x149DE70 Offset: 0x149C470 VA: 0x18149DE70
 	internal void DisregardChild() { }
 
-	// RVA: 0x14A0D60 Offset: 0x149F360 VA: 0x1814A0D60
+	// RVA: 0x149FE30 Offset: 0x149E430 VA: 0x18149FE30
 	internal static Task InternalStartNew(Task creatingTask, Delegate action, object state, CancellationToken cancellationToken, TaskScheduler scheduler, TaskCreationOptions options, InternalTaskOptions internalOptions, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0x14A1020 Offset: 0x149F620 VA: 0x1814A1020
+	// RVA: 0x14A00F0 Offset: 0x149E6F0 VA: 0x1814A00F0
 	internal static int NewId() { }
 
-	// RVA: 0x14A3E10 Offset: 0x14A2410 VA: 0x1814A3E10
+	// RVA: 0x14A2EE0 Offset: 0x14A14E0 VA: 0x1814A2EE0
 	public int get_Id() { }
 
-	// RVA: 0x14A3EF0 Offset: 0x14A24F0 VA: 0x1814A3EF0
+	// RVA: 0x14A2FC0 Offset: 0x14A15C0 VA: 0x1814A2FC0
 	internal static Task get_InternalCurrent() { }
 
-	// RVA: 0x14A0CB0 Offset: 0x149F2B0 VA: 0x1814A0CB0
+	// RVA: 0x149FD80 Offset: 0x149E380 VA: 0x18149FD80
 	internal static Task InternalCurrentIfAttached(TaskCreationOptions creationOptions) { }
 
-	// RVA: 0x14A3C40 Offset: 0x14A2240 VA: 0x1814A3C40
+	// RVA: 0x14A2D10 Offset: 0x14A1310 VA: 0x1814A2D10
 	internal static StackGuard get_CurrentStackGuard() { }
 
-	// RVA: 0x14A3D60 Offset: 0x14A2360 VA: 0x1814A3D60
+	// RVA: 0x14A2E30 Offset: 0x14A1430 VA: 0x1814A2E30
 	public AggregateException get_Exception() { }
 
-	// RVA: 0x14A42D0 Offset: 0x14A28D0 VA: 0x1814A42D0
+	// RVA: 0x14A33A0 Offset: 0x14A19A0 VA: 0x1814A33A0
 	public TaskStatus get_Status() { }
 
-	// RVA: 0x14A3FB0 Offset: 0x14A25B0 VA: 0x1814A3FB0
+	// RVA: 0x14A3080 Offset: 0x14A1680 VA: 0x1814A3080
 	public bool get_IsCanceled() { }
 
-	// RVA: 0x14A4000 Offset: 0x14A2600 VA: 0x1814A4000
+	// RVA: 0x14A30D0 Offset: 0x14A16D0 VA: 0x1814A30D0
 	internal bool get_IsCancellationRequested() { }
 
-	// RVA: 0x149EF10 Offset: 0x149D510 VA: 0x18149EF10
+	// RVA: 0x149DFE0 Offset: 0x149C5E0 VA: 0x18149DFE0
 	internal Task.ContingentProperties EnsureContingentPropertiesInitialized(bool needsProtection) { }
 
-	// RVA: 0x149EE50 Offset: 0x149D450 VA: 0x18149EE50
+	// RVA: 0x149DF20 Offset: 0x149C520 VA: 0x18149DF20
 	private Task.ContingentProperties EnsureContingentPropertiesInitializedCore(bool needsProtection) { }
 
-	// RVA: 0x14A37F0 Offset: 0x14A1DF0 VA: 0x1814A37F0
+	// RVA: 0x14A28C0 Offset: 0x14A0EC0 VA: 0x1814A28C0
 	internal CancellationToken get_CancellationToken() { }
 
-	// RVA: 0x14A3FE0 Offset: 0x14A25E0 VA: 0x1814A3FE0
+	// RVA: 0x14A30B0 Offset: 0x14A16B0 VA: 0x1814A30B0
 	internal bool get_IsCancellationAcknowledged() { }
 
-	// RVA: 0x14A40D0 Offset: 0x14A26D0 VA: 0x1814A40D0 Slot: 6
+	// RVA: 0x14A31A0 Offset: 0x14A17A0 VA: 0x1814A31A0 Slot: 6
 	public bool get_IsCompleted() { }
 
-	// RVA: 0x14A0FF0 Offset: 0x149F5F0 VA: 0x1814A0FF0
+	// RVA: 0x14A00C0 Offset: 0x149E6C0 VA: 0x1814A00C0
 	private static bool IsCompletedMethod(int flags) { }
 
-	// RVA: 0x14A4190 Offset: 0x14A2790 VA: 0x1814A4190
+	// RVA: 0x14A3260 Offset: 0x14A1860 VA: 0x1814A3260
 	internal bool get_IsRanToCompletion() { }
 
-	// RVA: 0x14A3BE0 Offset: 0x14A21E0 VA: 0x1814A3BE0
+	// RVA: 0x14A2CB0 Offset: 0x14A12B0 VA: 0x1814A2CB0
 	public TaskCreationOptions get_CreationOptions() { }
 
-	// RVA: 0x14A2650 Offset: 0x14A0C50 VA: 0x1814A2650 Slot: 7
+	// RVA: 0x14A1720 Offset: 0x149FD20 VA: 0x1814A1720 Slot: 7
 	private WaitHandle System.IAsyncResult.get_AsyncWaitHandle() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 8
@@ -318,263 +318,263 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 9
 	private bool System.IAsyncResult.get_CompletedSynchronously() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	internal TaskScheduler get_ExecutingTaskScheduler() { }
 
-	// RVA: 0x14A3DB0 Offset: 0x14A23B0 VA: 0x1814A3DB0
+	// RVA: 0x14A2E80 Offset: 0x14A1480 VA: 0x1814A2E80
 	public static TaskFactory get_Factory() { }
 
-	// RVA: 0x14A3AF0 Offset: 0x14A20F0 VA: 0x1814A3AF0
+	// RVA: 0x14A2BC0 Offset: 0x14A11C0 VA: 0x1814A2BC0
 	public static Task get_CompletedTask() { }
 
-	// RVA: 0x14A3910 Offset: 0x14A1F10 VA: 0x1814A3910
+	// RVA: 0x14A29E0 Offset: 0x14A0FE0 VA: 0x1814A29E0
 	internal ManualResetEventSlim get_CompletedEvent() { }
 
-	// RVA: 0x14A41C0 Offset: 0x14A27C0 VA: 0x1814A41C0
+	// RVA: 0x14A3290 Offset: 0x14A1890 VA: 0x1814A3290
 	internal bool get_IsSelfReplicatingRoot() { }
 
-	// RVA: 0x14A4070 Offset: 0x14A2670 VA: 0x1814A4070
+	// RVA: 0x14A3140 Offset: 0x14A1740 VA: 0x1814A3140
 	internal bool get_IsChildReplica() { }
 
-	// RVA: 0x14A3D00 Offset: 0x14A2300 VA: 0x1814A3D00
+	// RVA: 0x14A2DD0 Offset: 0x14A13D0 VA: 0x1814A2DD0
 	internal bool get_ExceptionRecorded() { }
 
-	// RVA: 0x14A4170 Offset: 0x14A2770 VA: 0x1814A4170
+	// RVA: 0x14A3240 Offset: 0x14A1840 VA: 0x1814A3240
 	public bool get_IsFaulted() { }
 
-	// RVA: 0x14A3820 Offset: 0x14A1E20 VA: 0x1814A3820
+	// RVA: 0x14A28F0 Offset: 0x14A0EF0 VA: 0x1814A28F0
 	internal ExecutionContext get_CapturedContext() { }
 
-	// RVA: 0x14A4360 Offset: 0x14A2960 VA: 0x1814A4360
+	// RVA: 0x14A3430 Offset: 0x14A1A30 VA: 0x1814A3430
 	internal void set_CapturedContext(ExecutionContext value) { }
 
-	// RVA: 0x149E1D0 Offset: 0x149C7D0 VA: 0x18149E1D0
+	// RVA: 0x149D2A0 Offset: 0x149B8A0 VA: 0x18149D2A0
 	private static ExecutionContext CopyExecutionContext(ExecutionContext capturedContext) { }
 
-	// RVA: 0x149EBA0 Offset: 0x149D1A0 VA: 0x18149EBA0 Slot: 10
+	// RVA: 0x149DC70 Offset: 0x149C270 VA: 0x18149DC70 Slot: 10
 	public void Dispose() { }
 
-	// RVA: 0x149EC10 Offset: 0x149D210 VA: 0x18149EC10 Slot: 12
+	// RVA: 0x149DCE0 Offset: 0x149C2E0 VA: 0x18149DCE0 Slot: 12
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x14A1C10 Offset: 0x14A0210 VA: 0x1814A1C10
+	// RVA: 0x14A0CE0 Offset: 0x149F2E0 VA: 0x1814A0CE0
 	internal void ScheduleAndStart(bool needsProtection) { }
 
-	// RVA: 0x149C450 Offset: 0x149AA50 VA: 0x18149C450
+	// RVA: 0x149B520 Offset: 0x1499B20 VA: 0x18149B520
 	internal void AddException(object exceptionObject) { }
 
-	// RVA: 0x149C460 Offset: 0x149AA60 VA: 0x18149C460
+	// RVA: 0x149B530 Offset: 0x1499B30 VA: 0x18149B530
 	internal void AddException(object exceptionObject, bool representsCancellation) { }
 
-	// RVA: 0x14A06E0 Offset: 0x149ECE0 VA: 0x1814A06E0
+	// RVA: 0x149F7B0 Offset: 0x149DDB0 VA: 0x18149F7B0
 	private AggregateException GetExceptions(bool includeTaskCanceledExceptions) { }
 
-	// RVA: 0x14A05E0 Offset: 0x149EBE0 VA: 0x1814A05E0
+	// RVA: 0x149F6B0 Offset: 0x149DCB0 VA: 0x18149F6B0
 	internal ReadOnlyCollection<ExceptionDispatchInfo> GetExceptionDispatchInfos() { }
 
-	// RVA: 0x14A05A0 Offset: 0x149EBA0 VA: 0x1814A05A0
+	// RVA: 0x149F670 Offset: 0x149DC70 VA: 0x18149F670
 	internal ExceptionDispatchInfo GetCancellationExceptionDispatchInfo() { }
 
-	// RVA: 0x14A2BB0 Offset: 0x14A11B0 VA: 0x1814A2BB0
+	// RVA: 0x14A1C80 Offset: 0x14A0280 VA: 0x1814A1C80
 	internal void ThrowIfExceptional(bool includeTaskCanceledExceptions) { }
 
-	// RVA: 0x14A2C20 Offset: 0x14A1220 VA: 0x1814A2C20
+	// RVA: 0x14A1CF0 Offset: 0x14A02F0 VA: 0x1814A1CF0
 	internal void UpdateExceptionObservedStatus() { }
 
-	// RVA: 0x14A4150 Offset: 0x14A2750 VA: 0x1814A4150
+	// RVA: 0x14A3220 Offset: 0x14A1820 VA: 0x1814A3220
 	internal bool get_IsExceptionObservedByParent() { }
 
-	// RVA: 0x14A4130 Offset: 0x14A2730 VA: 0x1814A4130
+	// RVA: 0x14A3200 Offset: 0x14A1800 VA: 0x1814A3200
 	internal bool get_IsDelegateInvoked() { }
 
-	// RVA: 0x14A02A0 Offset: 0x149E8A0 VA: 0x1814A02A0
+	// RVA: 0x149F370 Offset: 0x149D970 VA: 0x18149F370
 	internal void Finish(bool bUserDelegateExecuted) { }
 
-	// RVA: 0x14A00A0 Offset: 0x149E6A0 VA: 0x1814A00A0
+	// RVA: 0x149F170 Offset: 0x149D770 VA: 0x18149F170
 	internal void FinishStageTwo() { }
 
-	// RVA: 0x149FFF0 Offset: 0x149E5F0 VA: 0x18149FFF0
+	// RVA: 0x149F0C0 Offset: 0x149D6C0 VA: 0x18149F0C0
 	internal void FinishStageThree() { }
 
-	// RVA: 0x14A1180 Offset: 0x149F780 VA: 0x1814A1180
+	// RVA: 0x14A0250 Offset: 0x149E850 VA: 0x1814A0250
 	internal void ProcessChildCompletion(Task childTask) { }
 
-	// RVA: 0x149C670 Offset: 0x149AC70 VA: 0x18149C670
+	// RVA: 0x149B740 Offset: 0x1499D40 VA: 0x18149B740
 	internal void AddExceptionsFromChildren() { }
 
-	// RVA: 0x14A0210 Offset: 0x149E810 VA: 0x1814A0210
+	// RVA: 0x149F2E0 Offset: 0x149D8E0 VA: 0x18149F2E0
 	internal void FinishThreadAbortedTask(bool bTAEAddedToExceptionHolder, bool delegateRan) { }
 
-	// RVA: 0x149F770 Offset: 0x149DD70 VA: 0x18149F770
+	// RVA: 0x149E840 Offset: 0x149CE40 VA: 0x18149E840
 	private void Execute() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 13
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 13
 	internal virtual bool ShouldReplicate() { }
 
-	// RVA: 0x149E240 Offset: 0x149C840 VA: 0x18149E240 Slot: 14
+	// RVA: 0x149D310 Offset: 0x149B910 VA: 0x18149D310 Slot: 14
 	internal virtual Task CreateReplicaTask(Action<object> taskReplicaDelegate, object stateObject, Task parentTask, TaskScheduler taskScheduler, TaskCreationOptions creationOptionsForReplica, InternalTaskOptions internalOptionsForReplica) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 15
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 15
 	internal virtual object get_SavedStateForNextReplica() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 16
 	internal virtual void set_SavedStateFromPreviousReplica(object value) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 17
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 17
 	internal virtual Task get_HandedOverChildReplica() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 18
 	internal virtual void set_HandedOverChildReplica(Task value) { }
 
-	// RVA: 0x149F270 Offset: 0x149D870 VA: 0x18149F270
+	// RVA: 0x149E340 Offset: 0x149C940 VA: 0x18149E340
 	private static void ExecuteSelfReplicating(Task root) { }
 
-	// RVA: 0x14A2720 Offset: 0x14A0D20 VA: 0x1814A2720 Slot: 4
+	// RVA: 0x14A17F0 Offset: 0x149FDF0 VA: 0x1814A17F0 Slot: 4
 	private void System.Threading.IThreadPoolWorkItem.ExecuteWorkItem() { }
 
-	// RVA: 0x14A2730 Offset: 0x14A0D30 VA: 0x1814A2730 Slot: 5
+	// RVA: 0x14A1800 Offset: 0x149FE00 VA: 0x1814A1800 Slot: 5
 	private void System.Threading.IThreadPoolWorkItem.MarkAborted(ThreadAbortException tae) { }
 
-	// RVA: 0x149F000 Offset: 0x149D600 VA: 0x18149F000
+	// RVA: 0x149E0D0 Offset: 0x149C6D0 VA: 0x18149E0D0
 	internal bool ExecuteEntry(bool bPreventDoubleExecution) { }
 
-	// RVA: 0x149F3B0 Offset: 0x149D9B0 VA: 0x18149F3B0
+	// RVA: 0x149E480 Offset: 0x149CA80 VA: 0x18149E480
 	private void ExecuteWithThreadLocal(ref Task currentTaskSlot) { }
 
-	// RVA: 0x149F9C0 Offset: 0x149DFC0 VA: 0x18149F9C0
+	// RVA: 0x149EA90 Offset: 0x149D090 VA: 0x18149EA90
 	private static void ExecutionContextCallback(object obj) { }
 
-	// RVA: 0x14A09D0 Offset: 0x149EFD0 VA: 0x1814A09D0 Slot: 19
+	// RVA: 0x149FAA0 Offset: 0x149E0A0 VA: 0x18149FAA0 Slot: 19
 	internal virtual void InnerInvoke() { }
 
-	// RVA: 0x14A09A0 Offset: 0x149EFA0 VA: 0x1814A09A0
+	// RVA: 0x149FA70 Offset: 0x149E070 VA: 0x18149FA70
 	internal void InnerInvokeWithArg(Task childTask) { }
 
-	// RVA: 0x14A0870 Offset: 0x149EE70 VA: 0x1814A0870
+	// RVA: 0x149F940 Offset: 0x149DF40 VA: 0x18149F940
 	private void HandleException(Exception unhandledException) { }
 
-	// RVA: 0x14A0580 Offset: 0x149EB80 VA: 0x1814A0580
+	// RVA: 0x149F650 Offset: 0x149DC50 VA: 0x18149F650
 	public TaskAwaiter GetAwaiter() { }
 
-	// RVA: 0x149D750 Offset: 0x149BD50 VA: 0x18149D750
+	// RVA: 0x149C820 Offset: 0x149AE20 VA: 0x18149C820
 	public ConfiguredTaskAwaitable ConfigureAwait(bool continueOnCapturedContext) { }
 
-	// RVA: 0x14A1E00 Offset: 0x14A0400 VA: 0x1814A1E00
+	// RVA: 0x14A0ED0 Offset: 0x149F4D0 VA: 0x1814A0ED0
 	internal void SetContinuationForAwait(Action continuationAction, bool continueOnCapturedContext, bool flowExecutionContext, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0x14A2D50 Offset: 0x14A1350 VA: 0x1814A2D50
+	// RVA: 0x14A1E20 Offset: 0x14A0420 VA: 0x1814A1E20
 	public void Wait() { }
 
-	// RVA: 0x14A2E20 Offset: 0x14A1420 VA: 0x1814A2E20
+	// RVA: 0x14A1EF0 Offset: 0x14A04F0 VA: 0x1814A1EF0
 	public bool Wait(int millisecondsTimeout, CancellationToken cancellationToken) { }
 
-	// RVA: 0x14A3150 Offset: 0x14A1750 VA: 0x1814A3150
+	// RVA: 0x14A2220 Offset: 0x14A0820 VA: 0x1814A2220
 	private bool WrappedTryRunInline() { }
 
-	// RVA: 0x14A0E80 Offset: 0x149F480 VA: 0x1814A0E80
+	// RVA: 0x149FF50 Offset: 0x149E550 VA: 0x18149FF50
 	internal bool InternalWait(int millisecondsTimeout, CancellationToken cancellationToken) { }
 
-	// RVA: 0x14A21B0 Offset: 0x14A07B0 VA: 0x1814A21B0
+	// RVA: 0x14A1280 Offset: 0x149F880 VA: 0x1814A1280
 	private bool SpinThenBlockingWait(int millisecondsTimeout, CancellationToken cancellationToken) { }
 
-	// RVA: 0x14A2510 Offset: 0x14A0B10 VA: 0x1814A2510
+	// RVA: 0x14A15E0 Offset: 0x149FBE0 VA: 0x1814A15E0
 	private bool SpinWait(int millisecondsTimeout) { }
 
-	// RVA: 0x14A0A60 Offset: 0x149F060 VA: 0x1814A0A60
+	// RVA: 0x149FB30 Offset: 0x149E130 VA: 0x18149FB30
 	internal bool InternalCancel(bool bCancelNonExecutingOnly) { }
 
-	// RVA: 0x14A1440 Offset: 0x149FA40 VA: 0x1814A1440
+	// RVA: 0x14A0510 Offset: 0x149EB10 VA: 0x1814A0510
 	internal void RecordInternalCancellationRequest() { }
 
-	// RVA: 0x14A14F0 Offset: 0x149FAF0 VA: 0x1814A14F0
+	// RVA: 0x14A05C0 Offset: 0x149EBC0 VA: 0x1814A05C0
 	internal void RecordInternalCancellationRequest(CancellationToken tokenToRecord) { }
 
-	// RVA: 0x14A1370 Offset: 0x149F970 VA: 0x1814A1370
+	// RVA: 0x14A0440 Offset: 0x149EA40 VA: 0x1814A0440
 	internal void RecordInternalCancellationRequest(CancellationToken tokenToRecord, object cancellationException) { }
 
-	// RVA: 0x149D660 Offset: 0x149BC60 VA: 0x18149D660
+	// RVA: 0x149C730 Offset: 0x149AD30 VA: 0x18149C730
 	internal void CancellationCleanupLogic() { }
 
-	// RVA: 0x14A1DD0 Offset: 0x14A03D0 VA: 0x1814A1DD0
+	// RVA: 0x14A0EA0 Offset: 0x149F4A0 VA: 0x1814A0EA0
 	private void SetCancellationAcknowledged() { }
 
-	// RVA: 0x149FA70 Offset: 0x149E070 VA: 0x18149FA70
+	// RVA: 0x149EB40 Offset: 0x149D140 VA: 0x18149EB40
 	internal void FinishContinuations() { }
 
 	// RVA: 0x48BD30 Offset: 0x48A330 VA: 0x18048BD30
 	private void LogFinishCompletionNotification() { }
 
-	// RVA: 0x149E030 Offset: 0x149C630 VA: 0x18149E030
+	// RVA: 0x149D100 Offset: 0x149B700 VA: 0x18149D100
 	public Task ContinueWith(Action<Task> continuationAction) { }
 
-	// RVA: 0x149DE70 Offset: 0x149C470 VA: 0x18149DE70
+	// RVA: 0x149CF40 Offset: 0x149B540 VA: 0x18149CF40
 	public Task ContinueWith(Action<Task> continuationAction, TaskContinuationOptions continuationOptions) { }
 
-	// RVA: 0x149DB50 Offset: 0x149C150 VA: 0x18149DB50
+	// RVA: 0x149CC20 Offset: 0x149B220 VA: 0x18149CC20
 	private Task ContinueWith(Action<Task> continuationAction, TaskScheduler scheduler, CancellationToken cancellationToken, TaskContinuationOptions continuationOptions, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0x149D9B0 Offset: 0x149BFB0 VA: 0x18149D9B0
+	// RVA: 0x149CA80 Offset: 0x149B080 VA: 0x18149CA80
 	public Task ContinueWith(Action<Task, object> continuationAction, object state, CancellationToken cancellationToken, TaskContinuationOptions continuationOptions, TaskScheduler scheduler) { }
 
-	// RVA: 0x149DCE0 Offset: 0x149C2E0 VA: 0x18149DCE0
+	// RVA: 0x149CDB0 Offset: 0x149B3B0 VA: 0x18149CDB0
 	private Task ContinueWith(Action<Task, object> continuationAction, object state, TaskScheduler scheduler, CancellationToken cancellationToken, TaskContinuationOptions continuationOptions, ref StackCrawlMark stackMark) { }
 
-	// RVA: 0x149E380 Offset: 0x149C980 VA: 0x18149E380
+	// RVA: 0x149D450 Offset: 0x149BA50 VA: 0x18149D450
 	internal static void CreationOptionsFromContinuationOptions(TaskContinuationOptions continuationOptions, out TaskCreationOptions creationOptions, out InternalTaskOptions internalOptions) { }
 
-	// RVA: 0x149D770 Offset: 0x149BD70 VA: 0x18149D770
+	// RVA: 0x149C840 Offset: 0x149AE40 VA: 0x18149C840
 	internal void ContinueWithCore(Task continuationTask, TaskScheduler scheduler, CancellationToken cancellationToken, TaskContinuationOptions options) { }
 
-	// RVA: 0x149C3E0 Offset: 0x149A9E0 VA: 0x18149C3E0
+	// RVA: 0x149B4B0 Offset: 0x1499AB0 VA: 0x18149B4B0
 	internal void AddCompletionAction(ITaskCompletionAction action) { }
 
-	// RVA: 0x149C360 Offset: 0x149A960 VA: 0x18149C360
+	// RVA: 0x149B430 Offset: 0x1499A30 VA: 0x18149B430
 	private void AddCompletionAction(ITaskCompletionAction action, bool addBeforeOthers) { }
 
-	// RVA: 0x149CA10 Offset: 0x149B010 VA: 0x18149CA10
+	// RVA: 0x149BAE0 Offset: 0x149A0E0 VA: 0x18149BAE0
 	private bool AddTaskContinuationComplex(object tc, bool addBeforeOthers) { }
 
-	// RVA: 0x149CD30 Offset: 0x149B330 VA: 0x18149CD30
+	// RVA: 0x149BE00 Offset: 0x149A400 VA: 0x18149BE00
 	private bool AddTaskContinuation(object tc, bool addBeforeOthers) { }
 
-	// RVA: 0x14A1590 Offset: 0x149FB90 VA: 0x1814A1590
+	// RVA: 0x14A0660 Offset: 0x149EC60 VA: 0x1814A0660
 	internal void RemoveContinuation(object continuationObject) { }
 
 	// RVA: -1 Offset: -1
 	public static Task<TResult> FromResult<TResult>(TResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157C7A0 Offset: 0x157ADA0 VA: 0x18157C7A0
+	|-RVA: 0x157B870 Offset: 0x1579E70 VA: 0x18157B870
 	|-Task.FromResult<bool>
 	|
-	|-RVA: 0x157C860 Offset: 0x157AE60 VA: 0x18157C860
+	|-RVA: 0x157B930 Offset: 0x1579F30 VA: 0x18157B930
 	|-Task.FromResult<Stream>
 	|-Task.FromResult<Tuple<int, int, int, bool>>
 	|-Task.FromResult<object>
 	|
-	|-RVA: 0x157C800 Offset: 0x157AE00 VA: 0x18157C800
+	|-RVA: 0x157B8D0 Offset: 0x1579ED0 VA: 0x18157B8D0
 	|-Task.FromResult<int>
 	*/
 
-	// RVA: 0x14A0520 Offset: 0x149EB20 VA: 0x1814A0520
+	// RVA: 0x149F5F0 Offset: 0x149DBF0 VA: 0x18149F5F0
 	public static Task FromException(Exception exception) { }
 
 	// RVA: -1 Offset: -1
 	public static Task<TResult> FromException<TResult>(Exception exception) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157C530 Offset: 0x157AB30 VA: 0x18157C530
+	|-RVA: 0x157B600 Offset: 0x1579C00 VA: 0x18157B600
 	|-Task.FromException<int>
 	|
-	|-RVA: 0x157C600 Offset: 0x157AC00 VA: 0x18157C600
+	|-RVA: 0x157B6D0 Offset: 0x1579CD0 VA: 0x18157B6D0
 	|-Task.FromException<object>
 	|
-	|-RVA: 0x157C6D0 Offset: 0x157ACD0 VA: 0x18157C6D0
+	|-RVA: 0x157B7A0 Offset: 0x1579DA0 VA: 0x18157B7A0
 	|-Task.FromException<VoidTaskResult>
 	*/
 
 	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14A0470 Offset: 0x149EA70 VA: 0x1814A0470
+	// RVA: 0x149F540 Offset: 0x149DB40 VA: 0x18149F540
 	internal static Task FromCancellation(CancellationToken cancellationToken) { }
 
 	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -582,13 +582,13 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	internal static Task<TResult> FromCancellation<TResult>(CancellationToken cancellationToken) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED9540 Offset: 0xED7B40 VA: 0x180ED9540
+	|-RVA: 0xED9FF0 Offset: 0xED85F0 VA: 0x180ED9FF0
 	|-Task.FromCancellation<bool>
 	|
-	|-RVA: 0xED96F0 Offset: 0xED7CF0 VA: 0x180ED96F0
+	|-RVA: 0xEDA1A0 Offset: 0xED87A0 VA: 0x180EDA1A0
 	|-Task.FromCancellation<int>
 	|
-	|-RVA: 0x157C380 Offset: 0x157A980 VA: 0x18157C380
+	|-RVA: 0x157B450 Offset: 0x1579A50 VA: 0x18157B450
 	|-Task.FromCancellation<object>
 	*/
 
@@ -596,28 +596,28 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	internal static Task<TResult> FromCancellation<TResult>(OperationCanceledException exception) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED9610 Offset: 0xED7C10 VA: 0x180ED9610
+	|-RVA: 0xEDA0C0 Offset: 0xED86C0 VA: 0x180EDA0C0
 	|-Task.FromCancellation<int>
 	|
-	|-RVA: 0xED97C0 Offset: 0xED7DC0 VA: 0x180ED97C0
+	|-RVA: 0xEDA270 Offset: 0xED8870 VA: 0x180EDA270
 	|-Task.FromCancellation<object>
 	|
-	|-RVA: 0x157C450 Offset: 0x157AA50 VA: 0x18157C450
+	|-RVA: 0x157B520 Offset: 0x1579B20 VA: 0x18157B520
 	|-Task.FromCancellation<VoidTaskResult>
 	*/
 
-	// RVA: 0x14A1A10 Offset: 0x14A0010 VA: 0x1814A1A10
+	// RVA: 0x14A0AE0 Offset: 0x149F0E0 VA: 0x1814A0AE0
 	public static Task Run(Action action) { }
 
 	// RVA: -1 Offset: -1
 	public static Task<TResult> Run<TResult>(Func<TResult> function) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157CF20 Offset: 0x157B520 VA: 0x18157CF20
+	|-RVA: 0x157BFF0 Offset: 0x157A5F0 VA: 0x18157BFF0
 	|-Task.Run<Stream>
 	|-Task.Run<object>
 	|
-	|-RVA: 0x157C9C0 Offset: 0x157AFC0 VA: 0x18157C9C0
+	|-RVA: 0x157BA90 Offset: 0x157A090 VA: 0x18157BA90
 	|-Task.Run<int>
 	*/
 
@@ -625,7 +625,7 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	public static Task<TResult> Run<TResult>(Func<TResult> function, CancellationToken cancellationToken) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157CDC0 Offset: 0x157B3C0 VA: 0x18157CDC0
+	|-RVA: 0x157BE90 Offset: 0x157A490 VA: 0x18157BE90
 	|-Task.Run<MP3Stream>
 	|-Task.Run<object>
 	*/
@@ -634,7 +634,7 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	public static Task<TResult> Run<TResult>(Func<Task<TResult>> function) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157CD50 Offset: 0x157B350 VA: 0x18157CD50
+	|-RVA: 0x157BE20 Offset: 0x157A420 VA: 0x18157BE20
 	|-Task.Run<Stream>
 	|-Task.Run<WebResponse>
 	|-Task.Run<object>
@@ -644,27 +644,27 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	public static Task<TResult> Run<TResult>(Func<Task<TResult>> function, CancellationToken cancellationToken) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157CB30 Offset: 0x157B130 VA: 0x18157CB30
+	|-RVA: 0x157BC00 Offset: 0x157A200 VA: 0x18157BC00
 	|-Task.Run<object>
 	*/
 
-	// RVA: 0x149E5F0 Offset: 0x149CBF0 VA: 0x18149E5F0
+	// RVA: 0x149D6C0 Offset: 0x149BCC0 VA: 0x18149D6C0
 	public static Task Delay(TimeSpan delay) { }
 
-	// RVA: 0x149E520 Offset: 0x149CB20 VA: 0x18149E520
+	// RVA: 0x149D5F0 Offset: 0x149BBF0 VA: 0x18149D5F0
 	public static Task Delay(TimeSpan delay, CancellationToken cancellationToken) { }
 
-	// RVA: 0x149E4C0 Offset: 0x149CAC0 VA: 0x18149E4C0
+	// RVA: 0x149D590 Offset: 0x149BB90 VA: 0x18149D590
 	public static Task Delay(int millisecondsDelay) { }
 
-	// RVA: 0x149E6F0 Offset: 0x149CCF0 VA: 0x18149E6F0
+	// RVA: 0x149D7C0 Offset: 0x149BDC0 VA: 0x18149D7C0
 	public static Task Delay(int millisecondsDelay, CancellationToken cancellationToken) { }
 
 	// RVA: -1 Offset: -1
 	public static Task<TResult[]> WhenAll<TResult>(IEnumerable<Task<TResult>> tasks) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157D090 Offset: 0x157B690 VA: 0x18157D090
+	|-RVA: 0x157C160 Offset: 0x157A760 VA: 0x18157C160
 	|-Task.WhenAll<IPlayerInventory>
 	|-Task.WhenAll<object>
 	*/
@@ -673,7 +673,7 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	public static Task<TResult[]> WhenAll<TResult>(Task<TResult>[] tasks) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157D5C0 Offset: 0x157BBC0 VA: 0x18157D5C0
+	|-RVA: 0x157C690 Offset: 0x157AC90 VA: 0x18157C690
 	|-Task.WhenAll<object>
 	*/
 
@@ -681,11 +681,11 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	private static Task<TResult[]> InternalWhenAll<TResult>(Task<TResult>[] tasks) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157C8C0 Offset: 0x157AEC0 VA: 0x18157C8C0
+	|-RVA: 0x157B990 Offset: 0x1579F90 VA: 0x18157B990
 	|-Task.InternalWhenAll<object>
 	*/
 
-	// RVA: 0x14A2F80 Offset: 0x14A1580 VA: 0x1814A2F80
+	// RVA: 0x14A2050 Offset: 0x14A0650 VA: 0x1814A2050
 	public static Task<Task> WhenAny(Task[] tasks) { }
 
 	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -693,11 +693,11 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	internal static Task<TResult> CreateUnwrapPromise<TResult>(Task outerTask, bool lookForOce) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED94D0 Offset: 0xED7AD0 VA: 0x180ED94D0
+	|-RVA: 0xED9F80 Offset: 0xED8580 VA: 0x180ED9F80
 	|-Task.CreateUnwrapPromise<object>
 	*/
 
-	// RVA: 0x14A3230 Offset: 0x14A1830 VA: 0x1814A3230
+	// RVA: 0x14A2300 Offset: 0x14A0900 VA: 0x1814A2300
 	private static void .cctor() { }
 
 }
@@ -715,13 +715,13 @@ internal class Task.ContingentProperties // TypeDefIndex: 854
 
 	// Methods
 
-	// RVA: 0x1606110 Offset: 0x1604710 VA: 0x181606110
+	// RVA: 0x15F3430 Offset: 0x15F1A30 VA: 0x1815F3430
 	internal void SetCompleted() { }
 
-	// RVA: 0x1606090 Offset: 0x1604690 VA: 0x181606090
+	// RVA: 0x15F33B0 Offset: 0x15F19B0 VA: 0x1815F33B0
 	internal void DeregisterCancellationCallback() { }
 
-	// RVA: 0x1606140 Offset: 0x1604740 VA: 0x181606140
+	// RVA: 0x15F3460 Offset: 0x15F1A60 VA: 0x1815F3460
 	public void .ctor() { }
 
 }
@@ -729,10 +729,10 @@ internal class Task.ContingentProperties // TypeDefIndex: 854
 private sealed class Task.SetOnInvokeMres : ManualResetEventSlim, ITaskCompletionAction // TypeDefIndex: 855
 {	// Methods
 
-	// RVA: 0x16076C0 Offset: 0x1605CC0 VA: 0x1816076C0
+	// RVA: 0x15F49E0 Offset: 0x15F2FE0 VA: 0x1815F49E0
 	internal void .ctor() { }
 
-	// RVA: 0x16076B0 Offset: 0x1605CB0 VA: 0x1816076B0 Slot: 6
+	// RVA: 0x15F49D0 Offset: 0x15F2FD0 VA: 0x1815F49D0 Slot: 6
 	public void Invoke(Task completingTask) { }
 
 }
@@ -745,10 +745,10 @@ private sealed class Task.DelayPromise : Task<VoidTaskResult> // TypeDefIndex: 8
 
 	// Methods
 
-	// RVA: 0x1606300 Offset: 0x1604900 VA: 0x181606300
+	// RVA: 0x15F3620 Offset: 0x15F1C20 VA: 0x1815F3620
 	internal void .ctor(CancellationToken token) { }
 
-	// RVA: 0x1606170 Offset: 0x1604770 VA: 0x181606170
+	// RVA: 0x15F3490 Offset: 0x15F1A90 VA: 0x1815F3490
 	internal void Complete() { }
 
 }
@@ -767,7 +767,7 @@ private sealed class Task.WhenAllPromise<T> : Task<T[]>, ITaskCompletionAction /
 	internal void .ctor(Task<T>[] tasks) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x136AA90 Offset: 0x1369090 VA: 0x18136AA90
+	|-RVA: 0x1369B90 Offset: 0x1368190 VA: 0x181369B90
 	|-Task.WhenAllPromise<object>..ctor
 	*/
 
@@ -775,7 +775,7 @@ private sealed class Task.WhenAllPromise<T> : Task<T[]>, ITaskCompletionAction /
 	public void Invoke(Task ignored) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x136A720 Offset: 0x1368D20 VA: 0x18136A720
+	|-RVA: 0x1369820 Offset: 0x1367E20 VA: 0x181369820
 	|-Task.WhenAllPromise<object>.Invoke
 	*/
 
@@ -783,7 +783,7 @@ private sealed class Task.WhenAllPromise<T> : Task<T[]>, ITaskCompletionAction /
 	internal override bool get_ShouldNotifyDebuggerOfWaitCompletion() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x136AC90 Offset: 0x1369290 VA: 0x18136AC90
+	|-RVA: 0x1369D90 Offset: 0x1368390 VA: 0x181369D90
 	|-Task.WhenAllPromise<object>.get_ShouldNotifyDebuggerOfWaitCompletion
 	*/
 
@@ -802,7 +802,7 @@ private sealed class Task.<>c__DisplayClass178_0 // TypeDefIndex: 858
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x161BC40 Offset: 0x161A240 VA: 0x18161BC40
+	// RVA: 0x1608F60 Offset: 0x1607560 VA: 0x181608F60
 	internal void <ExecuteSelfReplicating>b__0(object <p0>) { }
 
 }
@@ -815,25 +815,25 @@ private sealed class Task.<>c // TypeDefIndex: 859
 
 	// Methods
 
-	// RVA: 0x161C0E0 Offset: 0x161A6E0 VA: 0x18161C0E0
+	// RVA: 0x1609400 Offset: 0x1607A00 VA: 0x181609400
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x161BA90 Offset: 0x161A090 VA: 0x18161BA90
+	// RVA: 0x1608DB0 Offset: 0x16073B0 VA: 0x181608DB0
 	internal void <Delay>b__276_0(object state) { }
 
-	// RVA: 0x161BAF0 Offset: 0x161A0F0 VA: 0x18161BAF0
+	// RVA: 0x1608E10 Offset: 0x1607410 VA: 0x181608E10
 	internal void <Delay>b__276_1(object state) { }
 
-	// RVA: 0x161BBD0 Offset: 0x161A1D0 VA: 0x18161BBD0
+	// RVA: 0x1608EF0 Offset: 0x16074F0 VA: 0x181608EF0
 	internal Task.ContingentProperties <.cctor>b__295_0() { }
 
-	// RVA: 0x161BC20 Offset: 0x161A220 VA: 0x18161BC20
+	// RVA: 0x1608F40 Offset: 0x1607540 VA: 0x181608F40
 	internal bool <.cctor>b__295_1(Task t) { }
 
-	// RVA: 0xDF02D0 Offset: 0xDEE8D0 VA: 0x180DF02D0
+	// RVA: 0xDF0D80 Offset: 0xDEF380 VA: 0x180DF0D80
 	internal bool <.cctor>b__295_2(object tc) { }
 
 }

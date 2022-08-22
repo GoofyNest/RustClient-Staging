@@ -7,16 +7,16 @@ public class LerpBetweenPointsBool : MonoBehaviour, IClientComponent // TypeDefI
 
 	// Methods
 
-	// RVA: 0x68BA90 Offset: 0x68A090 VA: 0x18068BA90
+	// RVA: 0x68BA20 Offset: 0x68A020 VA: 0x18068BA20
 	public void SetAtOffset(bool should) { }
 
-	// RVA: 0x68BA40 Offset: 0x68A040 VA: 0x18068BA40
+	// RVA: 0x68B9D0 Offset: 0x689FD0 VA: 0x18068B9D0
 	protected void Awake() { }
 
-	// RVA: 0x68BB90 Offset: 0x68A190 VA: 0x18068BB90
+	// RVA: 0x68BB20 Offset: 0x68A120 VA: 0x18068BB20
 	protected void Update() { }
 
-	// RVA: 0x68BAC0 Offset: 0x68A0C0 VA: 0x18068BAC0
+	// RVA: 0x68BA50 Offset: 0x68A050 VA: 0x18068BA50
 	private void SetEnabled(bool state) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

@@ -1,10 +1,10 @@
 public class CamelCasePropertyNamesContractResolver : DefaultContractResolver // TypeDefIndex: 5988
 {	// Methods
 
-	// RVA: 0xE29EC0 Offset: 0xE284C0 VA: 0x180E29EC0
+	// RVA: 0xE2A970 Offset: 0xE28F70 VA: 0x180E2A970
 	public void .ctor() { }
 
-	// RVA: 0xE29EB0 Offset: 0xE284B0 VA: 0x180E29EB0 Slot: 21
+	// RVA: 0xE2A960 Offset: 0xE28F60 VA: 0x180E2A960 Slot: 21
 	protected override string ResolvePropertyName(string propertyName) { }
 
 }

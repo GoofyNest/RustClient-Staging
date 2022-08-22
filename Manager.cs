@@ -5,52 +5,52 @@ public class Manager : IDisposable // TypeDefIndex: 6709
 
 	// Methods
 
-	// RVA: 0x220F5D0 Offset: 0x220DBD0 VA: 0x18220F5D0 Slot: 5
+	// RVA: 0x220FDF0 Offset: 0x220E3F0 VA: 0x18220FDF0 Slot: 5
 	public virtual void Dispose() { }
 
-	// RVA: 0x220FBF0 Offset: 0x220E1F0 VA: 0x18220FBF0
+	// RVA: 0x2210410 Offset: 0x220EA10 VA: 0x182210410
 	public void .ctor(Provider p) { }
 
-	// RVA: 0x220FB70 Offset: 0x220E170 VA: 0x18220FB70
+	// RVA: 0x2210390 Offset: 0x220E990 VA: 0x182210390
 	public Group TryGet(uint ID) { }
 
-	// RVA: 0x220F900 Offset: 0x220DF00 VA: 0x18220F900
+	// RVA: 0x2210120 Offset: 0x220E720 VA: 0x182210120
 	public Group Get(uint ID) { }
 
-	// RVA: 0x220F4C0 Offset: 0x220DAC0 VA: 0x18220F4C0
+	// RVA: 0x220FCE0 Offset: 0x220E2E0 VA: 0x18220FCE0
 	public Subscriber CreateSubscriber(Connection connection) { }
 
-	// RVA: 0x220F560 Offset: 0x220DB60 VA: 0x18220F560
+	// RVA: 0x220FD80 Offset: 0x220E380 VA: 0x18220FD80
 	public void DestroySubscriber(ref Subscriber subscriber) { }
 
-	// RVA: 0x220FA70 Offset: 0x220E070 VA: 0x18220FA70
+	// RVA: 0x2210290 Offset: 0x220E890 VA: 0x182210290
 	public bool IsInside(Group group, Vector3 vPos) { }
 
-	// RVA: 0x220F730 Offset: 0x220DD30 VA: 0x18220F730
+	// RVA: 0x220FF50 Offset: 0x220E550 VA: 0x18220FF50
 	public Group GetGroup(Vector3 vPos) { }
 
-	// RVA: 0x220F820 Offset: 0x220DE20 VA: 0x18220F820
+	// RVA: 0x2210040 Offset: 0x220E640 VA: 0x182210040
 	public void GetVisibleFromFar(Group center, List<Group> groups) { }
 
-	// RVA: 0x220F890 Offset: 0x220DE90 VA: 0x18220F890
+	// RVA: 0x22100B0 Offset: 0x220E6B0 VA: 0x1822100B0
 	public void GetVisibleFromNear(Group center, List<Group> groups) { }
 
 }
 
 public static class Manager // TypeDefIndex: 7007
 {	// Fields
-	private static Dictionary<string, GameObject> Prefabs; // 0x3934
+	private static Dictionary<string, GameObject> Prefabs; // 0x3740
 
 	// Methods
 
-	// RVA: 0xFC43A0 Offset: 0xFC29A0 VA: 0x180FC43A0
+	// RVA: 0xFC4E40 Offset: 0xFC3440 VA: 0x180FC4E40
 	internal static GameObject CreatePrefab(string name) { }
 
 	// RVA: -1 Offset: -1
 	internal static T Create<T>(string prefabName) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D19B0 Offset: 0x5CFFB0 VA: 0x1805D19B0
+	|-RVA: 0x5D1940 Offset: 0x5CFF40 VA: 0x1805D1940
 	|-Manager.Create<Blocker>
 	|-Manager.Create<Dropdown>
 	|-Manager.Create<Menu>
@@ -70,7 +70,7 @@ public static class Manager // TypeDefIndex: 7007
 	|-Manager.Create<LayoutElement>
 	*/
 
-	// RVA: 0xFC4570 Offset: 0xFC2B70 VA: 0x180FC4570
+	// RVA: 0xFC5010 Offset: 0xFC3610 VA: 0x180FC5010
 	private static void .cctor() { }
 
 }
@@ -89,37 +89,37 @@ public class Manager // TypeDefIndex: 7372
 
 	// Methods
 
-	// RVA: 0x22AC520 Offset: 0x22AAB20 VA: 0x1822AC520
+	// RVA: 0x22ACD40 Offset: 0x22AB340 VA: 0x1822ACD40
 	private void .ctor() { }
 
-	// RVA: 0x22AC4C0 Offset: 0x22AAAC0 VA: 0x1822AC4C0
+	// RVA: 0x22ACCE0 Offset: 0x22AB2E0 VA: 0x1822ACCE0
 	private static void .cctor() { }
 
-	// RVA: 0x22AC620 Offset: 0x22AAC20 VA: 0x1822AC620
+	// RVA: 0x22ACE40 Offset: 0x22AB440 VA: 0x1822ACE40
 	public static Manager get_PrimaryManager() { }
 
-	// RVA: 0x22AC440 Offset: 0x22AAA40 VA: 0x1822AC440
+	// RVA: 0x22ACC60 Offset: 0x22AB260 VA: 0x1822ACC60
 	private static string Normalize(string name) { }
 
-	// RVA: 0x22ABC40 Offset: 0x22AA240 VA: 0x1822ABC40
+	// RVA: 0x22AC460 Offset: 0x22AAA60 VA: 0x1822AC460
 	public Encoding GetEncoding(int codePage) { }
 
-	// RVA: 0x22AB850 Offset: 0x22A9E50 VA: 0x1822AB850
+	// RVA: 0x22AC070 Offset: 0x22AA670 VA: 0x1822AC070
 	public Encoding GetEncoding(string name) { }
 
-	// RVA: 0x22AB440 Offset: 0x22A9A40 VA: 0x1822AB440
+	// RVA: 0x22ABC60 Offset: 0x22AA260 VA: 0x1822ABC60
 	public CultureInfo GetCulture(int culture, bool useUserOverride) { }
 
-	// RVA: 0x22AB630 Offset: 0x22A9C30 VA: 0x1822AB630
+	// RVA: 0x22ABE50 Offset: 0x22AA450 VA: 0x1822ABE50
 	public CultureInfo GetCulture(string name, bool useUserOverride) { }
 
-	// RVA: 0x22ABCF0 Offset: 0x22AA2F0 VA: 0x1822ABCF0
+	// RVA: 0x22AC510 Offset: 0x22AAB10 VA: 0x1822AC510
 	internal object Instantiate(string name) { }
 
-	// RVA: 0x22AC120 Offset: 0x22AA720 VA: 0x1822AC120
+	// RVA: 0x22AC940 Offset: 0x22AAF40 VA: 0x1822AC940
 	private void LoadClassList() { }
 
-	// RVA: 0x22AC2E0 Offset: 0x22AA8E0 VA: 0x1822AC2E0
+	// RVA: 0x22ACB00 Offset: 0x22AB100 VA: 0x1822ACB00
 	private void LoadInternalClasses() { }
 
 }

@@ -6,10 +6,10 @@ public class SkeletonDefinition : ScriptableObject // TypeDefIndex: 7347
 
 	// Methods
 
-	// RVA: 0x22FD9C0 Offset: 0x22FBFC0 VA: 0x1822FD9C0
+	// RVA: 0x22FE1E0 Offset: 0x22FC7E0 VA: 0x1822FE1E0
 	public SkeletonDefinition.Bone FindBone(string name) { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -59,7 +59,7 @@ private sealed class SkeletonDefinition.<>c__DisplayClass3_0 // TypeDefIndex: 73
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x22FFD20 Offset: 0x22FE320 VA: 0x1822FFD20
+	// RVA: 0x2300540 Offset: 0x22FEB40 VA: 0x182300540
 	internal bool <FindBone>b__0(SkeletonDefinition.Bone x) { }
 
 }

@@ -4,13 +4,13 @@ internal sealed class CodeTable : IDisposable // TypeDefIndex: 7824
 
 	// Methods
 
-	// RVA: 0x224E000 Offset: 0x224C600 VA: 0x18224E000
+	// RVA: 0x224E820 Offset: 0x224CE20 VA: 0x18224E820
 	public void .ctor(string name) { }
 
-	// RVA: 0x224DD50 Offset: 0x224C350 VA: 0x18224DD50 Slot: 4
+	// RVA: 0x224E570 Offset: 0x224CB70 VA: 0x18224E570 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x224DD90 Offset: 0x224C390 VA: 0x18224DD90
+	// RVA: 0x224E5B0 Offset: 0x224CBB0 VA: 0x18224E5B0
 	public byte[] GetSection(int num) { }
 
 }

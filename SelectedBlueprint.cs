@@ -25,70 +25,70 @@ public class SelectedBlueprint : SingletonComponent<SelectedBlueprint>, IInvento
 
 	// Methods
 
-	// RVA: 0x4AA5D0 Offset: 0x4A8BD0 VA: 0x1804AA5D0
+	// RVA: 0x4AA560 Offset: 0x4A8B60 VA: 0x1804AA560
 	public static void UpdateBlueprint(ItemBlueprint blueprint) { }
 
-	// RVA: 0x4A9C70 Offset: 0x4A8270 VA: 0x1804A9C70
+	// RVA: 0x4A9C00 Offset: 0x4A8200 VA: 0x1804A9C00
 	public static void RefreshFavouriteDisplay() { }
 
-	// RVA: 0x4AACD0 Offset: 0x4A92D0 VA: 0x1804AACD0
+	// RVA: 0x4AAC60 Offset: 0x4A9260 VA: 0x1804AAC60
 	public static bool get_isOpen() { }
 
-	// RVA: 0x4AA370 Offset: 0x4A8970 VA: 0x1804AA370
+	// RVA: 0x4AA300 Offset: 0x4A8900 VA: 0x1804AA300
 	private void Start() { }
 
-	// RVA: 0x4A9580 Offset: 0x4A7B80 VA: 0x1804A9580
+	// RVA: 0x4A9510 Offset: 0x4A7B10 VA: 0x1804A9510
 	private void OnEnable() { }
 
-	// RVA: 0x4A94D0 Offset: 0x4A7AD0 VA: 0x1804A94D0
+	// RVA: 0x4A9460 Offset: 0x4A7A60 VA: 0x1804A9460
 	private void OnDisable() { }
 
-	// RVA: 0x4A91C0 Offset: 0x4A77C0 VA: 0x1804A91C0
+	// RVA: 0x4A9150 Offset: 0x4A7750 VA: 0x1804A9150
 	public void ChangeEffects() { }
 
-	// RVA: 0x4A9620 Offset: 0x4A7C20 VA: 0x1804A9620 Slot: 8
+	// RVA: 0x4A95B0 Offset: 0x4A7BB0 VA: 0x1804A95B0 Slot: 8
 	public void OnInventoryChanged() { }
 
-	// RVA: 0x4A9630 Offset: 0x4A7C30 VA: 0x1804A9630
+	// RVA: 0x4A95C0 Offset: 0x4A7BC0 VA: 0x1804A95C0
 	private void RefreshBlueprint() { }
 
-	// RVA: 0x4A9360 Offset: 0x4A7960 VA: 0x1804A9360
+	// RVA: 0x4A92F0 Offset: 0x4A78F0 VA: 0x1804A92F0
 	public void Max() { }
 
-	// RVA: 0x4A9E10 Offset: 0x4A8410 VA: 0x1804A9E10
+	// RVA: 0x4A9DA0 Offset: 0x4A83A0 VA: 0x1804A9DA0
 	public void StartCrafting() { }
 
-	// RVA: 0x4A9060 Offset: 0x4A7660 VA: 0x1804A9060
+	// RVA: 0x4A8FF0 Offset: 0x4A75F0 VA: 0x1804A8FF0
 	public void AddToCraft(int i) { }
 
-	// RVA: 0x4A9CE0 Offset: 0x4A82E0 VA: 0x1804A9CE0
+	// RVA: 0x4A9C70 Offset: 0x4A8270 VA: 0x1804A9C70
 	public void SetCraftFromTextbox(string i) { }
 
-	// RVA: 0x4A9D20 Offset: 0x4A8320 VA: 0x1804A9D20
+	// RVA: 0x4A9CB0 Offset: 0x4A82B0 VA: 0x1804A9CB0
 	public void SetCraft(int i) { }
 
-	// RVA: 0x4AA970 Offset: 0x4A8F70 VA: 0x1804AA970
+	// RVA: 0x4AA900 Offset: 0x4A8F00 VA: 0x1804AA900
 	public void UpdateIngredients() { }
 
-	// RVA: 0x4AABB0 Offset: 0x4A91B0 VA: 0x1804AABB0
+	// RVA: 0x4AAB40 Offset: 0x4A9140 VA: 0x1804AAB40
 	private void Update() { }
 
-	// RVA: 0x4A9100 Offset: 0x4A7700 VA: 0x1804A9100
+	// RVA: 0x4A9090 Offset: 0x4A7690 VA: 0x1804A9090
 	public bool CanCraft() { }
 
-	// RVA: 0x4A9070 Offset: 0x4A7670 VA: 0x1804A9070
+	// RVA: 0x4A9000 Offset: 0x4A7600 VA: 0x1804A9000
 	public bool CanCraftAmount(int amount) { }
 
-	// RVA: 0x4AA480 Offset: 0x4A8A80 VA: 0x1804AA480
+	// RVA: 0x4AA410 Offset: 0x4A8A10 VA: 0x1804AA410
 	public void Unlock() { }
 
-	// RVA: 0x4AA3C0 Offset: 0x4A89C0 VA: 0x1804AA3C0
+	// RVA: 0x4AA350 Offset: 0x4A8950 VA: 0x1804AA350
 	public void ToggleFavourite() { }
 
-	// RVA: 0x4A9B70 Offset: 0x4A8170 VA: 0x1804A9B70
+	// RVA: 0x4A9B00 Offset: 0x4A8100 VA: 0x1804A9B00
 	private void RefreshFavouriteButton() { }
 
-	// RVA: 0x4AAC70 Offset: 0x4A9270 VA: 0x1804AAC70
+	// RVA: 0x4AAC00 Offset: 0x4A9200 VA: 0x1804AAC00
 	public void .ctor() { }
 
 }
@@ -102,10 +102,10 @@ private sealed class SelectedBlueprint.<>c__DisplayClass30_0 // TypeDefIndex: 10
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x4B3BA0 Offset: 0x4B21A0 VA: 0x1804B3BA0
+	// RVA: 0x4B3B30 Offset: 0x4B2130 VA: 0x1804B3B30
 	internal bool <StartCrafting>b__0(ItemSkinDirectory.Skin x) { }
 
-	// RVA: 0x4B3BB0 Offset: 0x4B21B0 VA: 0x1804B3BB0
+	// RVA: 0x4B3B40 Offset: 0x4B2140 VA: 0x1804B3B40
 	internal bool <StartCrafting>b__1(IPlayerItemDefinition x) { }
 
 }

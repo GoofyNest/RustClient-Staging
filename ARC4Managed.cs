@@ -14,55 +14,55 @@ internal class ARC4Managed : RC4, ICryptoTransform, IDisposable // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1744050 Offset: 0x1742650 VA: 0x181744050
+	// RVA: 0x1741C10 Offset: 0x1740210 VA: 0x181741C10
 	public void .ctor() { }
 
-	// RVA: 0x1743970 Offset: 0x1741F70 VA: 0x181743970 Slot: 1
+	// RVA: 0x1741530 Offset: 0x173FB30 VA: 0x181741530 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x17438A0 Offset: 0x1741EA0 VA: 0x1817438A0 Slot: 5
+	// RVA: 0x1741460 Offset: 0x173FA60 VA: 0x181741460 Slot: 5
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x1744160 Offset: 0x1742760 VA: 0x181744160 Slot: 11
+	// RVA: 0x1741D20 Offset: 0x1740320 VA: 0x181741D20 Slot: 11
 	public override byte[] get_Key() { }
 
-	// RVA: 0x1744200 Offset: 0x1742800 VA: 0x181744200 Slot: 12
+	// RVA: 0x1741DC0 Offset: 0x17403C0 VA: 0x181741DC0 Slot: 12
 	public override void set_Key(byte[] value) { }
 
-	// RVA: 0x1743870 Offset: 0x1741E70 VA: 0x181743870 Slot: 21
+	// RVA: 0x1741430 Offset: 0x173FA30 VA: 0x181741430 Slot: 21
 	public override ICryptoTransform CreateEncryptor(byte[] rgbKey, byte[] rgvIV) { }
 
-	// RVA: 0x1743830 Offset: 0x1741E30 VA: 0x181743830 Slot: 23
+	// RVA: 0x17413F0 Offset: 0x173F9F0 VA: 0x1817413F0 Slot: 23
 	public override ICryptoTransform CreateDecryptor(byte[] rgbKey, byte[] rgvIV) { }
 
-	// RVA: 0x1743A10 Offset: 0x1742010 VA: 0x181743A10 Slot: 25
+	// RVA: 0x17415D0 Offset: 0x173FBD0 VA: 0x1817415D0 Slot: 25
 	public override void GenerateIV() { }
 
-	// RVA: 0x1743A60 Offset: 0x1742060 VA: 0x181743A60 Slot: 24
+	// RVA: 0x1741620 Offset: 0x173FC20 VA: 0x181741620 Slot: 24
 	public override void GenerateKey() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 28
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 28
 	public bool get_CanTransformMultipleBlocks() { }
 
-	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 26
+	// RVA: 0x5B1870 Offset: 0x5AFE70 VA: 0x1805B1870 Slot: 26
 	public int get_InputBlockSize() { }
 
-	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 27
+	// RVA: 0x5B1870 Offset: 0x5AFE70 VA: 0x1805B1870 Slot: 27
 	public int get_OutputBlockSize() { }
 
-	// RVA: 0x1743CE0 Offset: 0x17422E0 VA: 0x181743CE0
+	// RVA: 0x17418A0 Offset: 0x173FEA0 VA: 0x1817418A0
 	private void KeySetup(byte[] key) { }
 
-	// RVA: 0x17436E0 Offset: 0x1741CE0 VA: 0x1817436E0
+	// RVA: 0x17412A0 Offset: 0x173F8A0 VA: 0x1817412A0
 	private void CheckInput(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
-	// RVA: 0x1743E30 Offset: 0x1742430 VA: 0x181743E30 Slot: 29
+	// RVA: 0x17419F0 Offset: 0x173FFF0 VA: 0x1817419F0 Slot: 29
 	public int TransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset) { }
 
-	// RVA: 0x1743AF0 Offset: 0x17420F0 VA: 0x181743AF0
+	// RVA: 0x17416B0 Offset: 0x173FCB0 VA: 0x1817416B0
 	private int InternalTransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset) { }
 
-	// RVA: 0x1743F90 Offset: 0x1742590 VA: 0x181743F90 Slot: 30
+	// RVA: 0x1741B50 Offset: 0x1740150 VA: 0x181741B50 Slot: 30
 	public byte[] TransformFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
 }

@@ -27,73 +27,73 @@ internal sealed class SimpleType : ISerializable // TypeDefIndex: 4307
 
 	// Methods
 
-	// RVA: 0xE9B320 Offset: 0xE99920 VA: 0x180E9B320
+	// RVA: 0xE9BDD0 Offset: 0xE9A3D0 VA: 0x180E9BDD0
 	internal void .ctor(string baseType) { }
 
-	// RVA: 0xE9B470 Offset: 0xE99A70 VA: 0x180E9B470
+	// RVA: 0xE9BF20 Offset: 0xE9A520 VA: 0x180E9BF20
 	internal void .ctor(XmlSchemaSimpleType node) { }
 
-	// RVA: 0xE9AE40 Offset: 0xE99440 VA: 0x180E9AE40 Slot: 4
+	// RVA: 0xE9B8F0 Offset: 0xE99EF0 VA: 0x180E9B8F0 Slot: 4
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xE9A580 Offset: 0xE98B80 VA: 0x180E9A580
+	// RVA: 0xE9B030 Offset: 0xE99630 VA: 0x180E9B030
 	internal void LoadTypeValues(XmlSchemaSimpleType node) { }
 
-	// RVA: 0xE9A470 Offset: 0xE98A70 VA: 0x180E9A470
+	// RVA: 0xE9AF20 Offset: 0xE99520 VA: 0x180E9AF20
 	internal bool IsPlainString() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	internal string get_BaseType() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	internal XmlQualifiedName get_XmlBaseType() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	internal string get_Name() { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	internal string get_Namespace() { }
 
-	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
+	// RVA: 0xA39490 Offset: 0xA37A90 VA: 0x180A39490
 	internal int get_Length() { }
 
-	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50
+	// RVA: 0x6BB9E0 Offset: 0x6B9FE0 VA: 0x1806BB9E0
 	internal int get_MaxLength() { }
 
-	// RVA: 0xC74BD0 Offset: 0xC731D0 VA: 0x180C74BD0
+	// RVA: 0xC75070 Offset: 0xC73670 VA: 0x180C75070
 	internal void set_MaxLength(int value) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	internal SimpleType get_BaseSimpleType() { }
 
-	// RVA: 0xE9B660 Offset: 0xE99C60 VA: 0x180E9B660
+	// RVA: 0xE9C110 Offset: 0xE9A710 VA: 0x180E9C110
 	public string get_SimpleTypeQualifiedName() { }
 
-	// RVA: 0xE9ADD0 Offset: 0xE993D0 VA: 0x180E9ADD0
+	// RVA: 0xE9B880 Offset: 0xE99E80 VA: 0x180E9B880
 	internal string QualifiedName(string name) { }
 
-	// RVA: 0xE9AE90 Offset: 0xE99490 VA: 0x180E9AE90
+	// RVA: 0xE9B940 Offset: 0xE99F40 VA: 0x180E9B940
 	internal XmlNode ToNode(XmlDocument dc, Hashtable prefixes, bool inRemoting) { }
 
-	// RVA: 0xE9A1D0 Offset: 0xE987D0 VA: 0x180E9A1D0
+	// RVA: 0xE9AC80 Offset: 0xE99280 VA: 0x180E9AC80
 	internal static SimpleType CreateEnumeratedType(string values) { }
 
-	// RVA: 0xE9A180 Offset: 0xE98780 VA: 0x180E9A180
+	// RVA: 0xE9AC30 Offset: 0xE99230 VA: 0x180E9AC30
 	internal static SimpleType CreateByteArrayType(string encoding) { }
 
-	// RVA: 0xE9A250 Offset: 0xE98850 VA: 0x180E9A250
+	// RVA: 0xE9AD00 Offset: 0xE99300 VA: 0x180E9AD00
 	internal static SimpleType CreateLimitedStringType(int length) { }
 
-	// RVA: 0xE9A2C0 Offset: 0xE988C0 VA: 0x180E9A2C0
+	// RVA: 0xE9AD70 Offset: 0xE99370 VA: 0x180E9AD70
 	internal static SimpleType CreateSimpleType(StorageType typeCode, Type type) { }
 
-	// RVA: 0xE9A380 Offset: 0xE98980 VA: 0x180E9A380
+	// RVA: 0xE9AE30 Offset: 0xE99430 VA: 0x180E9AE30
 	internal string HasConflictingDefinition(SimpleType otherSimpleType) { }
 
-	// RVA: 0xE9A040 Offset: 0xE98640 VA: 0x180E9A040
+	// RVA: 0xE9AAF0 Offset: 0xE990F0 VA: 0x180E9AAF0
 	internal bool CanHaveMaxLength() { }
 
-	// RVA: 0xE9A0C0 Offset: 0xE986C0 VA: 0x180E9A0C0
+	// RVA: 0xE9AB70 Offset: 0xE99170 VA: 0x180E9AB70
 	internal void ConvertToAnnonymousSimpleType() { }
 
 }

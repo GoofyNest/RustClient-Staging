@@ -14,49 +14,49 @@ public class CommandBufferManager : MonoBehaviour // TypeDefIndex: 10646
 
 	// Methods
 
-	// RVA: 0x57DF60 Offset: 0x57C560 VA: 0x18057DF60
+	// RVA: 0x57DEF0 Offset: 0x57C4F0 VA: 0x18057DEF0
 	public Camera get_targetCamera() { }
 
-	// RVA: 0x57DEE0 Offset: 0x57C4E0 VA: 0x18057DEE0
+	// RVA: 0x57DE70 Offset: 0x57C470 VA: 0x18057DE70
 	public Camera get_Camera() { }
 
-	// RVA: 0x57DEF0 Offset: 0x57C4F0 VA: 0x18057DEF0
+	// RVA: 0x57DE80 Offset: 0x57C480 VA: 0x18057DE80
 	public bool get_IsReady() { }
 
-	// RVA: 0x57D800 Offset: 0x57BE00 VA: 0x18057D800
+	// RVA: 0x57D790 Offset: 0x57BD90 VA: 0x18057D790
 	public static CommandBufferManager GetInstance(Camera camera) { }
 
-	// RVA: 0x57D530 Offset: 0x57BB30 VA: 0x18057D530
+	// RVA: 0x57D4C0 Offset: 0x57BAC0 VA: 0x18057D4C0
 	private void Awake() { }
 
-	// RVA: 0x57D890 Offset: 0x57BE90 VA: 0x18057D890
+	// RVA: 0x57D820 Offset: 0x57BE20 VA: 0x18057D820
 	private void OnDestroy() { }
 
-	// RVA: 0x57DAF0 Offset: 0x57C0F0 VA: 0x18057DAF0
+	// RVA: 0x57DA80 Offset: 0x57C080 VA: 0x18057DA80
 	private void OnEnable() { }
 
-	// RVA: 0x57D960 Offset: 0x57BF60 VA: 0x18057D960
+	// RVA: 0x57D8F0 Offset: 0x57BEF0 VA: 0x18057D8F0
 	private void OnDisable() { }
 
-	// RVA: 0x57D370 Offset: 0x57B970 VA: 0x18057D370
+	// RVA: 0x57D300 Offset: 0x57B900 VA: 0x18057D300
 	public void AddCommands(CommandBufferDesc desc) { }
 
-	// RVA: 0x57DD20 Offset: 0x57C320 VA: 0x18057DD20
+	// RVA: 0x57DCB0 Offset: 0x57C2B0 VA: 0x18057DCB0
 	public void RemoveCommands(CommandBufferDesc desc) { }
 
-	// RVA: 0x57D5C0 Offset: 0x57BBC0 VA: 0x18057D5C0
+	// RVA: 0x57D550 Offset: 0x57BB50 VA: 0x18057D550
 	private void CheckUpdateCameraEvents() { }
 
-	// RVA: 0x57DB80 Offset: 0x57C180 VA: 0x18057DB80
+	// RVA: 0x57DB10 Offset: 0x57C110 VA: 0x18057DB10
 	private void OnPreCull() { }
 
-	// RVA: 0x57DD00 Offset: 0x57C300 VA: 0x18057DD00
+	// RVA: 0x57DC90 Offset: 0x57C290 VA: 0x18057DC90
 	private void OnPreRender() { }
 
-	// RVA: 0x57DE70 Offset: 0x57C470 VA: 0x18057DE70
+	// RVA: 0x57DE00 Offset: 0x57C400 VA: 0x18057DE00
 	public void .ctor() { }
 
-	// RVA: 0x57DE10 Offset: 0x57C410 VA: 0x18057DE10
+	// RVA: 0x57DDA0 Offset: 0x57C3A0 VA: 0x18057DDA0
 	private static void .cctor() { }
 
 }
@@ -94,7 +94,7 @@ private sealed class CommandBufferManager.CommandBufferEntry.<>c__DisplayClass3_
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x589CC0 Offset: 0x5882C0 VA: 0x180589CC0
+	// RVA: 0x589C50 Offset: 0x588250 VA: 0x180589C50
 	internal bool <Remove>b__0(KeyValuePair<int, Action<CommandBuffer>> s) { }
 
 }

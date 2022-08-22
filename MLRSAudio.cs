@@ -25,16 +25,16 @@ public class MLRSAudio : MonoBehaviour // TypeDefIndex: 9723
 
 	// Methods
 
-	// RVA: 0x552720 Offset: 0x550D20 VA: 0x180552720
+	// RVA: 0x5526B0 Offset: 0x550CB0 VA: 0x1805526B0
 	private void Awake() { }
 
-	// RVA: 0x552B00 Offset: 0x551100 VA: 0x180552B00
+	// RVA: 0x552A90 Offset: 0x551090 VA: 0x180552A90
 	private void Update() { }
 
-	// RVA: 0x552770 Offset: 0x550D70 VA: 0x180552770
+	// RVA: 0x552700 Offset: 0x550D00 VA: 0x180552700
 	private void UpdateTurretMovementSounds() { }
 
-	// RVA: 0x552B10 Offset: 0x551110 VA: 0x180552B10
+	// RVA: 0x552AA0 Offset: 0x5510A0 VA: 0x180552AA0
 	public void .ctor() { }
 
 }

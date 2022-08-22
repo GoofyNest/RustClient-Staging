@@ -4,16 +4,16 @@ public class DropBox : Mailbox // TypeDefIndex: 8691
 
 	// Methods
 
-	// RVA: 0xAB1D50 Offset: 0xAB0350 VA: 0x180AB1D50 Slot: 155
+	// RVA: 0xAB2220 Offset: 0xAB0820 VA: 0x180AB2220 Slot: 155
 	public override bool PlayerIsOwner(BasePlayer player) { }
 
-	// RVA: 0xAB1930 Offset: 0xAAFF30 VA: 0x180AB1930
+	// RVA: 0xAB1E00 Offset: 0xAB0400 VA: 0x180AB1E00
 	public bool PlayerBehind(BasePlayer player) { }
 
-	// RVA: 0xAB1B90 Offset: 0xAB0190 VA: 0x180AB1B90
+	// RVA: 0xAB2060 Offset: 0xAB0660 VA: 0x180AB2060
 	public bool PlayerInfront(BasePlayer player) { }
 
-	// RVA: 0xAB1D60 Offset: 0xAB0360 VA: 0x180AB1D60
+	// RVA: 0xAB2230 Offset: 0xAB0830 VA: 0x180AB2230
 	public void .ctor() { }
 
 }

@@ -6,7 +6,7 @@ internal sealed class OperatorInfo // TypeDefIndex: 4254
 
 	// Methods
 
-	// RVA: 0xE93740 Offset: 0xE91D40 VA: 0x180E93740
+	// RVA: 0xE941F0 Offset: 0xE927F0 VA: 0x180E941F0
 	internal void .ctor(Nodes type, int op, int pri) { }
 
 }

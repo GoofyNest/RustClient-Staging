@@ -1,16 +1,16 @@
 public class IMGUIEvent : EventBase<IMGUIEvent> // TypeDefIndex: 4702
 {	// Methods
 
-	// RVA: 0xEB1FE0 Offset: 0xEB05E0 VA: 0x180EB1FE0
+	// RVA: 0xEB2A90 Offset: 0xEB1090 VA: 0x180EB2A90
 	public static IMGUIEvent GetPooled(Event systemEvent) { }
 
-	// RVA: 0xEB2110 Offset: 0xEB0710 VA: 0x180EB2110 Slot: 12
+	// RVA: 0xEB2BC0 Offset: 0xEB11C0 VA: 0x180EB2BC0 Slot: 12
 	protected override void Init() { }
 
-	// RVA: 0xEB2150 Offset: 0xEB0750 VA: 0x180EB2150
+	// RVA: 0xEB2C00 Offset: 0xEB1200 VA: 0x180EB2C00
 	private void LocalInit() { }
 
-	// RVA: 0xEB2160 Offset: 0xEB0760 VA: 0x180EB2160
+	// RVA: 0xEB2C10 Offset: 0xEB1210 VA: 0x180EB2C10
 	public void .ctor() { }
 
 }

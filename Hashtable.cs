@@ -35,130 +35,130 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor(bool trash) { }
 
-	// RVA: 0x1462740 Offset: 0x1460D40 VA: 0x181462740
+	// RVA: 0x1461810 Offset: 0x145FE10 VA: 0x181461810
 	public void .ctor() { }
 
-	// RVA: 0x14628B0 Offset: 0x1460EB0 VA: 0x1814628B0
+	// RVA: 0x1461980 Offset: 0x145FF80 VA: 0x181461980
 	public void .ctor(int capacity) { }
 
-	// RVA: 0x14628C0 Offset: 0x1460EC0 VA: 0x1814628C0
+	// RVA: 0x1461990 Offset: 0x145FF90 VA: 0x181461990
 	public void .ctor(int capacity, float loadFactor) { }
 
 	[ObsoleteAttribute] // RVA: 0xE7790 Offset: 0xE6B90 VA: 0x1800E7790
-	// RVA: 0x1462B40 Offset: 0x1461140 VA: 0x181462B40
+	// RVA: 0x1461C10 Offset: 0x1460210 VA: 0x181461C10
 	public void .ctor(int capacity, float loadFactor, IHashCodeProvider hcp, IComparer comparer) { }
 
-	// RVA: 0x14627F0 Offset: 0x1460DF0 VA: 0x1814627F0
+	// RVA: 0x14618C0 Offset: 0x145FEC0 VA: 0x1814618C0
 	public void .ctor(int capacity, float loadFactor, IEqualityComparer equalityComparer) { }
 
 	[ObsoleteAttribute] // RVA: 0xE7800 Offset: 0xE6C00 VA: 0x1800E7800
-	// RVA: 0x1462C10 Offset: 0x1461210 VA: 0x181462C10
+	// RVA: 0x1461CE0 Offset: 0x14602E0 VA: 0x181461CE0
 	public void .ctor(IHashCodeProvider hcp, IComparer comparer) { }
 
-	// RVA: 0x1462830 Offset: 0x1460E30 VA: 0x181462830
+	// RVA: 0x1461900 Offset: 0x145FF00 VA: 0x181461900
 	public void .ctor(IEqualityComparer equalityComparer) { }
 
-	// RVA: 0x1462870 Offset: 0x1460E70 VA: 0x181462870
+	// RVA: 0x1461940 Offset: 0x145FF40 VA: 0x181461940
 	public void .ctor(int capacity, IEqualityComparer equalityComparer) { }
 
-	// RVA: 0x1462760 Offset: 0x1460D60 VA: 0x181462760
+	// RVA: 0x1461830 Offset: 0x145FE30 VA: 0x181461830
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1461300 Offset: 0x145F900 VA: 0x181461300
+	// RVA: 0x14603D0 Offset: 0x145E9D0 VA: 0x1814603D0
 	private uint InitHash(object key, int hashsize, out uint seed, out uint incr) { }
 
-	// RVA: 0x1460390 Offset: 0x145E990 VA: 0x181460390 Slot: 21
+	// RVA: 0x145F460 Offset: 0x145DA60 VA: 0x18145F460 Slot: 21
 	public virtual void Add(object key, object value) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x14603B0 Offset: 0x145E9B0 VA: 0x1814603B0 Slot: 22
+	// RVA: 0x145F480 Offset: 0x145DA80 VA: 0x18145F480 Slot: 22
 	public virtual void Clear() { }
 
-	// RVA: 0x1460500 Offset: 0x145EB00 VA: 0x181460500 Slot: 23
+	// RVA: 0x145F5D0 Offset: 0x145DBD0 VA: 0x18145F5D0 Slot: 23
 	public virtual object Clone() { }
 
-	// RVA: 0x14607D0 Offset: 0x145EDD0 VA: 0x1814607D0 Slot: 24
+	// RVA: 0x145F8A0 Offset: 0x145DEA0 VA: 0x18145F8A0 Slot: 24
 	public virtual bool Contains(object key) { }
 
-	// RVA: 0x1460620 Offset: 0x145EC20 VA: 0x181460620 Slot: 25
+	// RVA: 0x145F6F0 Offset: 0x145DCF0 VA: 0x18145F6F0 Slot: 25
 	public virtual bool ContainsKey(object key) { }
 
-	// RVA: 0x1460910 Offset: 0x145EF10 VA: 0x181460910
+	// RVA: 0x145F9E0 Offset: 0x145DFE0 VA: 0x18145F9E0
 	private void CopyKeys(Array array, int arrayIndex) { }
 
-	// RVA: 0x14607F0 Offset: 0x145EDF0 VA: 0x1814607F0
+	// RVA: 0x145F8C0 Offset: 0x145DEC0 VA: 0x18145F8C0
 	private void CopyEntries(Array array, int arrayIndex) { }
 
-	// RVA: 0x14609B0 Offset: 0x145EFB0 VA: 0x1814609B0 Slot: 26
+	// RVA: 0x145FA80 Offset: 0x145E080 VA: 0x18145FA80 Slot: 26
 	public virtual void CopyTo(Array array, int arrayIndex) { }
 
-	// RVA: 0x1460C20 Offset: 0x145F220 VA: 0x181460C20
+	// RVA: 0x145FCF0 Offset: 0x145E2F0 VA: 0x18145FCF0
 	private void CopyValues(Array array, int arrayIndex) { }
 
-	// RVA: 0x1462DB0 Offset: 0x14613B0 VA: 0x181462DB0 Slot: 27
+	// RVA: 0x1461E80 Offset: 0x1460480 VA: 0x181461E80 Slot: 27
 	public virtual object get_Item(object key) { }
 
-	// RVA: 0x1463480 Offset: 0x1461A80 VA: 0x181463480 Slot: 28
+	// RVA: 0x1462550 Offset: 0x1460B50 VA: 0x181462550 Slot: 28
 	public virtual void set_Item(object key, object value) { }
 
-	// RVA: 0x1462CD0 Offset: 0x14612D0 VA: 0x181462CD0
+	// RVA: 0x1461DA0 Offset: 0x14603A0 VA: 0x181461DA0
 	private void expand() { }
 
-	// RVA: 0x14632A0 Offset: 0x14618A0 VA: 0x1814632A0
+	// RVA: 0x1462370 Offset: 0x1460970 VA: 0x181462370
 	private void rehash() { }
 
-	// RVA: 0x1462710 Offset: 0x1460D10 VA: 0x181462710
+	// RVA: 0x14617E0 Offset: 0x145FDE0 VA: 0x1814617E0
 	private void UpdateVersion() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
-	// RVA: 0x14632D0 Offset: 0x14618D0 VA: 0x1814632D0
+	// RVA: 0x14623A0 Offset: 0x14609A0 VA: 0x1814623A0
 	private void rehash(int newsize, bool forceNewHashCode) { }
 
-	// RVA: 0x1462680 Offset: 0x1460C80 VA: 0x181462680 Slot: 17
+	// RVA: 0x1461750 Offset: 0x145FD50 VA: 0x181461750 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x1460CC0 Offset: 0x145F2C0 VA: 0x181460CC0 Slot: 29
+	// RVA: 0x145FD90 Offset: 0x145E390 VA: 0x18145FD90 Slot: 29
 	public virtual IDictionaryEnumerator GetEnumerator() { }
 
-	// RVA: 0x1460D50 Offset: 0x145F350 VA: 0x181460D50 Slot: 30
+	// RVA: 0x145FE20 Offset: 0x145E420 VA: 0x18145FE20 Slot: 30
 	protected virtual int GetHash(object key) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 31
 	public virtual bool get_IsReadOnly() { }
 
-	// RVA: 0x14619B0 Offset: 0x145FFB0 VA: 0x1814619B0 Slot: 32
+	// RVA: 0x1460A80 Offset: 0x145F080 VA: 0x181460A80 Slot: 32
 	protected virtual bool KeyEquals(object item, object key) { }
 
-	// RVA: 0x1462FD0 Offset: 0x14615D0 VA: 0x181462FD0 Slot: 33
+	// RVA: 0x14620A0 Offset: 0x14606A0 VA: 0x1814620A0 Slot: 33
 	public virtual ICollection get_Keys() { }
 
-	// RVA: 0x14630D0 Offset: 0x14616D0 VA: 0x1814630D0 Slot: 34
+	// RVA: 0x14621A0 Offset: 0x14607A0 VA: 0x1814621A0 Slot: 34
 	public virtual ICollection get_Values() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
-	// RVA: 0x1461350 Offset: 0x145F950 VA: 0x181461350
+	// RVA: 0x1460420 Offset: 0x145EA20 VA: 0x181460420
 	private void Insert(object key, object nvalue, bool add) { }
 
-	// RVA: 0x1463160 Offset: 0x1461760 VA: 0x181463160
+	// RVA: 0x1462230 Offset: 0x1460830 VA: 0x181462230
 	private void putEntry(Hashtable.bucket[] newBuckets, object key, object nvalue, int hashcode) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
-	// RVA: 0x1462300 Offset: 0x1460900 VA: 0x181462300 Slot: 35
+	// RVA: 0x14613D0 Offset: 0x145F9D0 VA: 0x1814613D0 Slot: 35
 	public virtual void Remove(object key) { }
 
-	// RVA: 0x1463060 Offset: 0x1461660 VA: 0x181463060 Slot: 36
+	// RVA: 0x1462130 Offset: 0x1460730 VA: 0x181462130 Slot: 36
 	public virtual object get_SyncRoot() { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470 Slot: 37
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400 Slot: 37
 	public virtual int get_Count() { }
 
-	// RVA: 0x14625E0 Offset: 0x1460BE0 VA: 0x1814625E0
+	// RVA: 0x14616B0 Offset: 0x145FCB0 VA: 0x1814616B0
 	public static Hashtable Synchronized(Hashtable table) { }
 
-	// RVA: 0x1460DD0 Offset: 0x145F3D0 VA: 0x181460DD0 Slot: 38
+	// RVA: 0x145FEA0 Offset: 0x145E4A0 VA: 0x18145FEA0 Slot: 38
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1461AD0 Offset: 0x14600D0 VA: 0x181461AD0 Slot: 39
+	// RVA: 0x1460BA0 Offset: 0x145F1A0 VA: 0x181460BA0 Slot: 39
 	public virtual void OnDeserialization(object sender) { }
 
 }
@@ -181,19 +181,19 @@ private class Hashtable.KeyCollection : ICollection, IEnumerable // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	internal void .ctor(Hashtable hashtable) { }
 
-	// RVA: 0x1464B90 Offset: 0x1463190 VA: 0x181464B90 Slot: 8
+	// RVA: 0x1463C60 Offset: 0x1462260 VA: 0x181463C60 Slot: 8
 	public virtual void CopyTo(Array array, int arrayIndex) { }
 
-	// RVA: 0x1464D80 Offset: 0x1463380 VA: 0x181464D80 Slot: 9
+	// RVA: 0x1463E50 Offset: 0x1462450 VA: 0x181463E50 Slot: 9
 	public virtual IEnumerator GetEnumerator() { }
 
-	// RVA: 0xBC8D80 Offset: 0xBC7380 VA: 0x180BC8D80 Slot: 10
+	// RVA: 0xBC9250 Offset: 0xBC7850 VA: 0x180BC9250 Slot: 10
 	public virtual object get_SyncRoot() { }
 
-	// RVA: 0x9EB840 Offset: 0x9E9E40 VA: 0x1809EB840 Slot: 11
+	// RVA: 0x9EBD30 Offset: 0x9EA330 VA: 0x1809EBD30 Slot: 11
 	public virtual int get_Count() { }
 
 }
@@ -208,19 +208,19 @@ private class Hashtable.ValueCollection : ICollection, IEnumerable // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	internal void .ctor(Hashtable hashtable) { }
 
-	// RVA: 0x146D8D0 Offset: 0x146BED0 VA: 0x18146D8D0 Slot: 8
+	// RVA: 0x146C9A0 Offset: 0x146AFA0 VA: 0x18146C9A0 Slot: 8
 	public virtual void CopyTo(Array array, int arrayIndex) { }
 
-	// RVA: 0x146DAD0 Offset: 0x146C0D0 VA: 0x18146DAD0 Slot: 9
+	// RVA: 0x146CBA0 Offset: 0x146B1A0 VA: 0x18146CBA0 Slot: 9
 	public virtual IEnumerator GetEnumerator() { }
 
-	// RVA: 0xBC8D80 Offset: 0xBC7380 VA: 0x180BC8D80 Slot: 10
+	// RVA: 0xBC9250 Offset: 0xBC7850 VA: 0x180BC9250 Slot: 10
 	public virtual object get_SyncRoot() { }
 
-	// RVA: 0x9EB840 Offset: 0x9E9E40 VA: 0x1809EB840 Slot: 11
+	// RVA: 0x9EBD30 Offset: 0x9EA330 VA: 0x1809EBD30 Slot: 11
 	public virtual int get_Count() { }
 
 }
@@ -239,61 +239,61 @@ private class Hashtable.SyncHashtable : Hashtable, IEnumerable // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x146C090 Offset: 0x146A690 VA: 0x18146C090
+	// RVA: 0x146B160 Offset: 0x1469760 VA: 0x18146B160
 	internal void .ctor(Hashtable table) { }
 
-	// RVA: 0x146C0C0 Offset: 0x146A6C0 VA: 0x18146C0C0
+	// RVA: 0x146B190 Offset: 0x1469790 VA: 0x18146B190
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x146BE20 Offset: 0x146A420 VA: 0x18146BE20 Slot: 38
+	// RVA: 0x146AEF0 Offset: 0x14694F0 VA: 0x18146AEF0 Slot: 38
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x146C260 Offset: 0x146A860 VA: 0x18146C260 Slot: 37
+	// RVA: 0x146B330 Offset: 0x1469930 VA: 0x18146B330 Slot: 37
 	public override int get_Count() { }
 
-	// RVA: 0x146C290 Offset: 0x146A890 VA: 0x18146C290 Slot: 31
+	// RVA: 0x146B360 Offset: 0x1469960 VA: 0x18146B360 Slot: 31
 	public override bool get_IsReadOnly() { }
 
-	// RVA: 0x146C2C0 Offset: 0x146A8C0 VA: 0x18146C2C0 Slot: 27
+	// RVA: 0x146B390 Offset: 0x1469990 VA: 0x18146B390 Slot: 27
 	public override object get_Item(object key) { }
 
-	// RVA: 0x146C520 Offset: 0x146AB20 VA: 0x18146C520 Slot: 28
+	// RVA: 0x146B5F0 Offset: 0x1469BF0 VA: 0x18146B5F0 Slot: 28
 	public override void set_Item(object key, object value) { }
 
-	// RVA: 0x146C3F0 Offset: 0x146A9F0 VA: 0x18146C3F0 Slot: 36
+	// RVA: 0x146B4C0 Offset: 0x1469AC0 VA: 0x18146B4C0 Slot: 36
 	public override object get_SyncRoot() { }
 
-	// RVA: 0x146B840 Offset: 0x1469E40 VA: 0x18146B840 Slot: 21
+	// RVA: 0x146A910 Offset: 0x1468F10 VA: 0x18146A910 Slot: 21
 	public override void Add(object key, object value) { }
 
-	// RVA: 0x146B940 Offset: 0x1469F40 VA: 0x18146B940 Slot: 22
+	// RVA: 0x146AA10 Offset: 0x1469010 VA: 0x18146AA10 Slot: 22
 	public override void Clear() { }
 
-	// RVA: 0x146BCC0 Offset: 0x146A2C0 VA: 0x18146BCC0 Slot: 24
+	// RVA: 0x146AD90 Offset: 0x1469390 VA: 0x18146AD90 Slot: 24
 	public override bool Contains(object key) { }
 
-	// RVA: 0x146BC10 Offset: 0x146A210 VA: 0x18146BC10 Slot: 25
+	// RVA: 0x146ACE0 Offset: 0x14692E0 VA: 0x18146ACE0 Slot: 25
 	public override bool ContainsKey(object key) { }
 
-	// RVA: 0x146BCF0 Offset: 0x146A2F0 VA: 0x18146BCF0 Slot: 26
+	// RVA: 0x146ADC0 Offset: 0x14693C0 VA: 0x18146ADC0 Slot: 26
 	public override void CopyTo(Array array, int arrayIndex) { }
 
-	// RVA: 0x146BA20 Offset: 0x146A020 VA: 0x18146BA20 Slot: 23
+	// RVA: 0x146AAF0 Offset: 0x14690F0 VA: 0x18146AAF0 Slot: 23
 	public override object Clone() { }
 
-	// RVA: 0x146BDF0 Offset: 0x146A3F0 VA: 0x18146BDF0 Slot: 17
+	// RVA: 0x146AEC0 Offset: 0x14694C0 VA: 0x18146AEC0 Slot: 17
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x146BDF0 Offset: 0x146A3F0 VA: 0x18146BDF0 Slot: 29
+	// RVA: 0x146AEC0 Offset: 0x14694C0 VA: 0x18146AEC0 Slot: 29
 	public override IDictionaryEnumerator GetEnumerator() { }
 
-	// RVA: 0x146C2F0 Offset: 0x146A8F0 VA: 0x18146C2F0 Slot: 33
+	// RVA: 0x146B3C0 Offset: 0x14699C0 VA: 0x18146B3C0 Slot: 33
 	public override ICollection get_Keys() { }
 
-	// RVA: 0x146C420 Offset: 0x146AA20 VA: 0x18146C420 Slot: 34
+	// RVA: 0x146B4F0 Offset: 0x1469AF0 VA: 0x18146B4F0 Slot: 34
 	public override ICollection get_Values() { }
 
-	// RVA: 0x146BFA0 Offset: 0x146A5A0 VA: 0x18146BFA0 Slot: 35
+	// RVA: 0x146B070 Offset: 0x1469670 VA: 0x18146B070 Slot: 35
 	public override void Remove(object key) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 39
@@ -319,28 +319,28 @@ private class Hashtable.HashtableEnumerator : IDictionaryEnumerator, IEnumerator
 
 	// Methods
 
-	// RVA: 0x1460070 Offset: 0x145E670 VA: 0x181460070
+	// RVA: 0x145F140 Offset: 0x145D740 VA: 0x18145F140
 	internal void .ctor(Hashtable hashtable, int getObjRetType) { }
 
-	// RVA: 0xD712E0 Offset: 0xD6F8E0 VA: 0x180D712E0 Slot: 10
+	// RVA: 0xD71D90 Offset: 0xD70390 VA: 0x180D71D90 Slot: 10
 	public object Clone() { }
 
-	// RVA: 0x1460290 Offset: 0x145E890 VA: 0x181460290 Slot: 11
+	// RVA: 0x145F360 Offset: 0x145D960 VA: 0x18145F360 Slot: 11
 	public virtual object get_Key() { }
 
-	// RVA: 0x145FE20 Offset: 0x145E420 VA: 0x18145FE20 Slot: 12
+	// RVA: 0x145EEF0 Offset: 0x145D4F0 VA: 0x18145EEF0 Slot: 12
 	public virtual bool MoveNext() { }
 
-	// RVA: 0x14601E0 Offset: 0x145E7E0 VA: 0x1814601E0 Slot: 13
+	// RVA: 0x145F2B0 Offset: 0x145D8B0 VA: 0x18145F2B0 Slot: 13
 	public virtual DictionaryEntry get_Entry() { }
 
-	// RVA: 0x14600E0 Offset: 0x145E6E0 VA: 0x1814600E0 Slot: 14
+	// RVA: 0x145F1B0 Offset: 0x145D7B0 VA: 0x18145F1B0 Slot: 14
 	public virtual object get_Current() { }
 
-	// RVA: 0x1460310 Offset: 0x145E910 VA: 0x181460310 Slot: 15
+	// RVA: 0x145F3E0 Offset: 0x145D9E0 VA: 0x18145F3E0 Slot: 15
 	public virtual object get_Value() { }
 
-	// RVA: 0x145FF90 Offset: 0x145E590 VA: 0x18145FF90 Slot: 16
+	// RVA: 0x145F060 Offset: 0x145D660 VA: 0x18145F060 Slot: 16
 	public virtual void Reset() { }
 
 }

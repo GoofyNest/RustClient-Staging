@@ -8,13 +8,13 @@ public class StringFirecracker : TimedExplosive // TypeDefIndex: 8756
 
 	// Methods
 
-	// RVA: 0x79DDB0 Offset: 0x79C3B0 VA: 0x18079DDB0 Slot: 28
+	// RVA: 0x7BC1B0 Offset: 0x7BA7B0 VA: 0x1807BC1B0 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0x79DBB0 Offset: 0x79C1B0 VA: 0x18079DBB0
+	// RVA: 0x7BBFB0 Offset: 0x7BA5B0 VA: 0x1807BBFB0
 	public void CreatePinJoint() { }
 
-	// RVA: 0x4A71D0 Offset: 0x4A57D0 VA: 0x1804A71D0
+	// RVA: 0x4A7160 Offset: 0x4A5760 VA: 0x1804A7160
 	public void .ctor() { }
 
 }

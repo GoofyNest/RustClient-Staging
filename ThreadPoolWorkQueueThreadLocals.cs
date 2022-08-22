@@ -8,13 +8,13 @@ internal sealed class ThreadPoolWorkQueueThreadLocals // TypeDefIndex: 813
 
 	// Methods
 
-	// RVA: 0x160B3F0 Offset: 0x16099F0 VA: 0x18160B3F0
+	// RVA: 0x15F8710 Offset: 0x15F6D10 VA: 0x1815F8710
 	public void .ctor(ThreadPoolWorkQueue tpq) { }
 
-	// RVA: 0x160B170 Offset: 0x1609770 VA: 0x18160B170
+	// RVA: 0x15F8490 Offset: 0x15F6A90 VA: 0x1815F8490
 	private void CleanUp() { }
 
-	// RVA: 0x160B330 Offset: 0x1609930 VA: 0x18160B330 Slot: 1
+	// RVA: 0x15F8650 Offset: 0x15F6C50 VA: 0x1815F8650 Slot: 1
 	protected override void Finalize() { }
 
 }

@@ -15,25 +15,25 @@ public class Buffer16BitStereo : ABuffer // TypeDefIndex: 7377
 
 	// Methods
 
-	// RVA: 0x5DC260 Offset: 0x5DA860 VA: 0x1805DC260
+	// RVA: 0x5DC1F0 Offset: 0x5DA7F0 VA: 0x1805DC1F0
 	internal void .ctor() { }
 
-	// RVA: 0x5DC2F0 Offset: 0x5DA8F0 VA: 0x1805DC2F0
+	// RVA: 0x5DC280 Offset: 0x5DA880 VA: 0x1805DC280
 	internal int get_BytesLeft() { }
 
-	// RVA: 0x5DC110 Offset: 0x5DA710 VA: 0x1805DC110
+	// RVA: 0x5DC0A0 Offset: 0x5DA6A0 VA: 0x1805DC0A0
 	internal int Read(byte[] bufferOut, int offset, int count) { }
 
-	// RVA: 0x5DBFF0 Offset: 0x5DA5F0 VA: 0x1805DBFF0 Slot: 4
+	// RVA: 0x5DBF80 Offset: 0x5DA580 VA: 0x1805DBF80 Slot: 4
 	protected override void Append(int channel, short sampleValue) { }
 
-	// RVA: 0x5DBD70 Offset: 0x5DA370 VA: 0x1805DBD70 Slot: 5
+	// RVA: 0x5DBD00 Offset: 0x5DA300 VA: 0x1805DBD00 Slot: 5
 	internal override void AppendSamples(int channel, float[] samples) { }
 
-	// RVA: 0x5DC0C0 Offset: 0x5DA6C0 VA: 0x1805DC0C0 Slot: 7
+	// RVA: 0x5DC050 Offset: 0x5DA650 VA: 0x1805DC050 Slot: 7
 	internal sealed override void ClearBuffer() { }
 
-	// RVA: 0x5DC220 Offset: 0x5DA820 VA: 0x1805DC220 Slot: 6
+	// RVA: 0x5DC1B0 Offset: 0x5DA7B0 VA: 0x1805DC1B0 Slot: 6
 	internal override void WriteBuffer(int val) { }
 
 }

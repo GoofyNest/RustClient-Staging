@@ -11,44 +11,44 @@ public static class Benchmarking // TypeDefIndex: 8261
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x50FE00 Offset: 0x50E400 VA: 0x18050FE00
+	// RVA: 0x50FD90 Offset: 0x50E390 VA: 0x18050FD90
 	public static bool get_IsBenchmarking() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x50FE60 Offset: 0x50E460 VA: 0x18050FE60
+	// RVA: 0x50FDF0 Offset: 0x50E3F0 VA: 0x18050FDF0
 	public static void set_IsBenchmarking(bool value) { }
 
-	// RVA: 0x50FD30 Offset: 0x50E330 VA: 0x18050FD30
+	// RVA: 0x50FCC0 Offset: 0x50E2C0 VA: 0x18050FCC0
 	public static bool get_IsAutoBenchmark() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA2F90 Offset: 0xA2390 VA: 0x1800A2F90
-	// RVA: 0x50F6A0 Offset: 0x50DCA0 VA: 0x18050F6A0
+	// RVA: 0x50F630 Offset: 0x50DC30 VA: 0x18050F630
 	public static Task RunAsync(string demoName, bool runBenchmarkScenes = True) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA3050 Offset: 0xA2450 VA: 0x1800A3050
-	// RVA: 0x50FA90 Offset: 0x50E090 VA: 0x18050FA90
+	// RVA: 0x50FA20 Offset: 0x50E020 VA: 0x18050FA20
 	public static Task RunSingleSceneAsync(string scene) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA3180 Offset: 0xA2580 VA: 0x1800A3180
-	// RVA: 0x50F7B0 Offset: 0x50DDB0 VA: 0x18050F7B0
+	// RVA: 0x50F740 Offset: 0x50DD40 VA: 0x18050F740
 	private static Task RunBenchmarkScene(string scene) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA3320 Offset: 0xA2720 VA: 0x1800A3320
-	// RVA: 0x50F8A0 Offset: 0x50DEA0 VA: 0x18050F8A0
+	// RVA: 0x50F830 Offset: 0x50DE30 VA: 0x18050F830
 	public static Task RunBenchmarksInScene() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA3430 Offset: 0xA2830 VA: 0x1800A3430
-	// RVA: 0x50F5E0 Offset: 0x50DBE0 VA: 0x18050F5E0
+	// RVA: 0x50F570 Offset: 0x50DB70 VA: 0x18050F570
 	private static Task Report() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA34B0 Offset: 0xA28B0 VA: 0x1800A34B0
-	// RVA: 0x50F980 Offset: 0x50DF80 VA: 0x18050F980
+	// RVA: 0x50F910 Offset: 0x50DF10 VA: 0x18050F910
 	private static Task RunDemoBasedBenchmark(string demoName, string benchmarkLabel = "") { }
 
-	// RVA: 0x50F420 Offset: 0x50DA20 VA: 0x18050F420
+	// RVA: 0x50F3B0 Offset: 0x50D9B0 VA: 0x18050F3B0
 	private static void RecordBundleSizes() { }
 
-	// RVA: 0x50FB90 Offset: 0x50E190 VA: 0x18050FB90
+	// RVA: 0x50FB20 Offset: 0x50E120 VA: 0x18050FB20
 	private static void .cctor() { }
 
 }

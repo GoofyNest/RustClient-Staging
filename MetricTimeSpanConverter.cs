@@ -1,22 +1,22 @@
 internal sealed class MetricTimeSpanConverter : ITimeSpanConverter // TypeDefIndex: 7475
 {	// Methods
 
-	// RVA: 0x139C8B0 Offset: 0x139AEB0 VA: 0x18139C8B0 Slot: 4
+	// RVA: 0x139B9B0 Offset: 0x1399FB0 VA: 0x18139B9B0 Slot: 4
 	public ITimeSpan ConvertTo(long timeSpan, long time, TempoMap tempoMap) { }
 
-	// RVA: 0x139C660 Offset: 0x139AC60 VA: 0x18139C660 Slot: 5
+	// RVA: 0x139B760 Offset: 0x1399D60 VA: 0x18139B760 Slot: 5
 	public long ConvertFrom(ITimeSpan timeSpan, long time, TempoMap tempoMap) { }
 
-	// RVA: 0x139CB80 Offset: 0x139B180 VA: 0x18139CB80
+	// RVA: 0x139BC80 Offset: 0x139A280 VA: 0x18139BC80
 	private static MetricTimeSpan TicksToMetricTimeSpan(long timeSpan, TempoMap tempoMap) { }
 
-	// RVA: 0x139C9D0 Offset: 0x139AFD0 VA: 0x18139C9D0
+	// RVA: 0x139BAD0 Offset: 0x139A0D0 VA: 0x18139BAD0
 	private static long MetricTimeSpanToTicks(MetricTimeSpan timeSpan, TempoMap tempoMap) { }
 
-	// RVA: 0x139C9C0 Offset: 0x139AFC0 VA: 0x18139C9C0
+	// RVA: 0x139BAC0 Offset: 0x139A0C0 VA: 0x18139BAC0
 	private static double GetMicroseconds(long time, double microsecondsPerTick) { }
 
-	// RVA: 0x139B810 Offset: 0x1399E10 VA: 0x18139B810
+	// RVA: 0x139A910 Offset: 0x1398F10 VA: 0x18139A910
 	private static long RoundMicroseconds(double microseconds) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -31,13 +31,13 @@ private sealed class MetricTimeSpanConverter.<>c // TypeDefIndex: 7476
 
 	// Methods
 
-	// RVA: 0x13AACD0 Offset: 0x13A92D0 VA: 0x1813AACD0
+	// RVA: 0x13A9DD0 Offset: 0x13A83D0 VA: 0x1813A9DD0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x690DA0 Offset: 0x68F3A0 VA: 0x180690DA0
+	// RVA: 0x690D30 Offset: 0x68F330 VA: 0x180690D30
 	internal long <TicksToMetricTimeSpan>b__2_0(MetricTempoMapValuesCache.AccumulatedMicroseconds m) { }
 
 }
@@ -51,7 +51,7 @@ private sealed class MetricTimeSpanConverter.<>c__DisplayClass3_0 // TypeDefInde
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13AABE0 Offset: 0x13A91E0 VA: 0x1813AABE0
+	// RVA: 0x13A9CE0 Offset: 0x13A82E0 VA: 0x1813A9CE0
 	internal bool <MetricTimeSpanToTicks>b__0(MetricTempoMapValuesCache.AccumulatedMicroseconds m) { }
 
 }

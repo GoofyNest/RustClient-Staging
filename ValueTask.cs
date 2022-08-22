@@ -14,13 +14,13 @@ public struct ValueTask : IEquatable<ValueTask> // TypeDefIndex: 7085
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x23136C0 Offset: 0x2311CC0 VA: 0x1823136C0
+	// RVA: 0x2313EE0 Offset: 0x23124E0 VA: 0x182313EE0
 	internal static Task get_CompletedTask() { }
 
 	// RVA: 0x240A20 Offset: 0x23FE20 VA: 0x180240A20
 	public void .ctor(Task task) { }
 
-	// RVA: 0x1205A0 Offset: 0x11F9A0 VA: 0x1801205A0 Slot: 2
+	// RVA: 0x1F67D0 Offset: 0x1F5BD0 VA: 0x1801F67D0 Slot: 2
 	public override int GetHashCode() { }
 
 	// RVA: 0x240940 Offset: 0x23FD40 VA: 0x180240940 Slot: 0
@@ -39,7 +39,7 @@ public struct ValueTask : IEquatable<ValueTask> // TypeDefIndex: 7085
 	// RVA: 0x2409F0 Offset: 0x23FDF0 VA: 0x1802409F0
 	public ValueTaskAwaiter GetAwaiter() { }
 
-	// RVA: 0x2313610 Offset: 0x2311C10 VA: 0x182313610
+	// RVA: 0x2313E30 Offset: 0x2312430 VA: 0x182313E30
 	private static void .cctor() { }
 
 }

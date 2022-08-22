@@ -5,19 +5,19 @@ public class MeshRendererLookup // TypeDefIndex: 9167
 
 	// Methods
 
-	// RVA: 0x969B50 Offset: 0x968150 VA: 0x180969B50
+	// RVA: 0x96A050 Offset: 0x968650 VA: 0x18096A050
 	public void Apply() { }
 
-	// RVA: 0x969BD0 Offset: 0x9681D0 VA: 0x180969BD0
+	// RVA: 0x96A0D0 Offset: 0x9686D0 VA: 0x18096A0D0
 	public void Clear() { }
 
-	// RVA: 0x969AC0 Offset: 0x9680C0 VA: 0x180969AC0
+	// RVA: 0x969FC0 Offset: 0x9685C0 VA: 0x180969FC0
 	public void Add(MeshRendererInstance instance) { }
 
-	// RVA: 0x969C20 Offset: 0x968220 VA: 0x180969C20
+	// RVA: 0x96A120 Offset: 0x968720 VA: 0x18096A120
 	public MeshRendererLookup.LookupEntry Get(int index) { }
 
-	// RVA: 0x969C80 Offset: 0x968280 VA: 0x180969C80
+	// RVA: 0x96A180 Offset: 0x968780 VA: 0x18096A180
 	public void .ctor() { }
 
 }
@@ -28,16 +28,16 @@ public class MeshRendererLookup.LookupGroup // TypeDefIndex: 9168
 
 	// Methods
 
-	// RVA: 0x957FC0 Offset: 0x9565C0 VA: 0x180957FC0
+	// RVA: 0x9584C0 Offset: 0x956AC0 VA: 0x1809584C0
 	public void Clear() { }
 
-	// RVA: 0x957EE0 Offset: 0x9564E0 VA: 0x180957EE0
+	// RVA: 0x9583E0 Offset: 0x9569E0 VA: 0x1809583E0
 	public void Add(MeshRendererInstance instance) { }
 
-	// RVA: 0x958010 Offset: 0x956610 VA: 0x180958010
+	// RVA: 0x958510 Offset: 0x956B10 VA: 0x180958510
 	public MeshRendererLookup.LookupEntry Get(int index) { }
 
-	// RVA: 0x958150 Offset: 0x956750 VA: 0x180958150
+	// RVA: 0x958650 Offset: 0x956C50 VA: 0x180958650
 	public void .ctor() { }
 
 }

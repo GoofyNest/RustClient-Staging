@@ -55,64 +55,64 @@ public class Process : Component // TypeDefIndex: 2648
 
 	// Methods
 
-	// RVA: 0x172D900 Offset: 0x172BF00 VA: 0x18172D900
+	// RVA: 0x172B4C0 Offset: 0x1729AC0 VA: 0x18172B4C0
 	private void .ctor(string machineName, bool isRemoteMachine, int processId, ProcessInfo processInfo) { }
 
-	// RVA: 0x172D9B0 Offset: 0x172BFB0 VA: 0x18172D9B0
+	// RVA: 0x172B570 Offset: 0x1729B70 VA: 0x18172B570
 	private bool get_Associated() { }
 
-	// RVA: 0x172D9C0 Offset: 0x172BFC0 VA: 0x18172D9C0
+	// RVA: 0x172B580 Offset: 0x1729B80 VA: 0x18172B580
 	public bool get_HasExited() { }
 
-	// RVA: 0x172DCA0 Offset: 0x172C2A0 VA: 0x18172DCA0
+	// RVA: 0x172B860 Offset: 0x1729E60 VA: 0x18172B860
 	public int get_Id() { }
 
-	// RVA: 0x172DEA0 Offset: 0x172C4A0 VA: 0x18172DEA0
+	// RVA: 0x172BA60 Offset: 0x172A060 VA: 0x18172BA60
 	public ISynchronizeInvoke get_SynchronizingObject() { }
 
-	// RVA: 0x172D6B0 Offset: 0x172BCB0 VA: 0x18172D6B0
+	// RVA: 0x172B270 Offset: 0x1729870 VA: 0x18172B270
 	private void ReleaseProcessHandle(SafeProcessHandle handle) { }
 
-	// RVA: 0x172CA80 Offset: 0x172B080 VA: 0x18172CA80 Slot: 10
+	// RVA: 0x172A640 Offset: 0x1728C40 VA: 0x18172A640 Slot: 10
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x172C890 Offset: 0x172AE90 VA: 0x18172C890
+	// RVA: 0x172A450 Offset: 0x1728A50 VA: 0x18172A450
 	public void Close() { }
 
-	// RVA: 0x172CAD0 Offset: 0x172B0D0 VA: 0x18172CAD0
+	// RVA: 0x172A690 Offset: 0x1728C90 VA: 0x18172A690
 	private void EnsureState(Process.State state) { }
 
-	// RVA: 0x172CCF0 Offset: 0x172B2F0 VA: 0x18172CCF0
+	// RVA: 0x172A8B0 Offset: 0x1728EB0 VA: 0x18172A8B0
 	public static Process GetCurrentProcess() { }
 
-	// RVA: 0x172D230 Offset: 0x172B830 VA: 0x18172D230
+	// RVA: 0x172ADF0 Offset: 0x17293F0 VA: 0x18172ADF0
 	protected void OnExited() { }
 
-	// RVA: 0x172CDD0 Offset: 0x172B3D0 VA: 0x18172CDD0
+	// RVA: 0x172A990 Offset: 0x1728F90 VA: 0x18172A990
 	private SafeProcessHandle GetProcessHandle(int access, bool throwIfExited) { }
 
-	// RVA: 0x172CDC0 Offset: 0x172B3C0 VA: 0x18172CDC0
+	// RVA: 0x172A980 Offset: 0x1728F80 VA: 0x18172A980
 	private SafeProcessHandle GetProcessHandle(int access) { }
 
-	// RVA: 0x172D660 Offset: 0x172BC60 VA: 0x18172D660
+	// RVA: 0x172B220 Offset: 0x1729820 VA: 0x18172B220
 	public void Refresh() { }
 
-	// RVA: 0x172D6D0 Offset: 0x172BCD0 VA: 0x18172D6D0
+	// RVA: 0x172B290 Offset: 0x1729890 VA: 0x18172B290
 	private void StopWatchingForExit() { }
 
-	// RVA: 0x172D800 Offset: 0x172BE00 VA: 0x18172D800 Slot: 3
+	// RVA: 0x172B3C0 Offset: 0x17299C0 VA: 0x18172B3C0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x172D580 Offset: 0x172BB80 VA: 0x18172D580
+	// RVA: 0x172B140 Offset: 0x1729740 VA: 0x18172B140
 	private static string ProcessName_internal(IntPtr handle) { }
 
-	// RVA: 0x172D4A0 Offset: 0x172BAA0 VA: 0x18172D4A0
+	// RVA: 0x172B060 Offset: 0x1729660 VA: 0x18172B060
 	private static string ProcessName_internal(SafeProcessHandle handle) { }
 
-	// RVA: 0x172DCC0 Offset: 0x172C2C0 VA: 0x18172DCC0
+	// RVA: 0x172B880 Offset: 0x1729E80 VA: 0x18172B880
 	public string get_ProcessName() { }
 
-	// RVA: 0x172D590 Offset: 0x172BB90 VA: 0x18172D590
+	// RVA: 0x172B150 Offset: 0x1729750 VA: 0x18172B150
 	private void RaiseOnExited() { }
 
 }

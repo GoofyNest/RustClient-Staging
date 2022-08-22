@@ -6,19 +6,19 @@ public class MenuButtonArcadeEntity : TextArcadeEntity // TypeDefIndex: 8772
 
 	// Methods
 
-	// RVA: 0x95E380 Offset: 0x95C980 VA: 0x18095E380
+	// RVA: 0x95E880 Offset: 0x95CE80 VA: 0x18095E880
 	public bool IsHighlighted() { }
 
-	// RVA: 0x95E470 Offset: 0x95CA70 VA: 0x18095E470
+	// RVA: 0x95E970 Offset: 0x95CF70 VA: 0x18095E970
 	public void SetHighlighted(bool wantsHighlight) { }
 
-	// RVA: 0x95E3A0 Offset: 0x95C9A0 VA: 0x18095E3A0
+	// RVA: 0x95E8A0 Offset: 0x95CEA0 VA: 0x18095E8A0
 	public void OnClicked() { }
 
-	// RVA: 0x95E3F0 Offset: 0x95C9F0 VA: 0x18095E3F0 Slot: 15
+	// RVA: 0x95E8F0 Offset: 0x95CEF0 VA: 0x18095E8F0 Slot: 15
 	public override void PostLoad() { }
 
-	// RVA: 0x95E4D0 Offset: 0x95CAD0 VA: 0x18095E4D0
+	// RVA: 0x95E9D0 Offset: 0x95CFD0 VA: 0x18095E9D0
 	public void .ctor() { }
 
 }

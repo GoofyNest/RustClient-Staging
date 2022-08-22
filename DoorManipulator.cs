@@ -6,10 +6,10 @@ public class DoorManipulator : IOEntity // TypeDefIndex: 9796
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 159
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 159
 	public virtual bool PairWithLockedDoors() { }
 
-	// RVA: 0xAAD650 Offset: 0xAABC50 VA: 0x180AAD650
+	// RVA: 0xAADB20 Offset: 0xAAC120 VA: 0x180AADB20
 	public void .ctor() { }
 
 }

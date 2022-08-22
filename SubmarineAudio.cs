@@ -66,79 +66,79 @@ public class SubmarineAudio : MonoBehaviour // TypeDefIndex: 9761
 
 	// Methods
 
-	// RVA: 0x7A07D0 Offset: 0x79EDD0 VA: 0x1807A07D0
+	// RVA: 0x7BEBD0 Offset: 0x7BD1D0 VA: 0x1807BEBD0
 	protected void Awake() { }
 
-	// RVA: 0x7A1A00 Offset: 0x7A0000 VA: 0x1807A1A00
+	// RVA: 0x7BFE00 Offset: 0x7BE400 VA: 0x1807BFE00
 	public void UpdateTick(BaseSubmarine submarine, bool playerIsInside, float speed, float curSubDepthY) { }
 
-	// RVA: 0x7A0820 Offset: 0x79EE20 VA: 0x1807A0820
+	// RVA: 0x7BEC20 Offset: 0x7BD220 VA: 0x1807BEC20
 	public void EndAllSounds() { }
 
-	// RVA: 0x7A09F0 Offset: 0x79EFF0 VA: 0x1807A09F0
+	// RVA: 0x7BEDF0 Offset: 0x7BD3F0 VA: 0x1807BEDF0
 	public void PlayEngineStartFailSound() { }
 
-	// RVA: 0x7A08D0 Offset: 0x79EED0 VA: 0x1807A08D0
+	// RVA: 0x7BECD0 Offset: 0x7BD2D0 VA: 0x1807BECD0
 	public void PlayAmmoFlagRaise() { }
 
-	// RVA: 0x7A0880 Offset: 0x79EE80 VA: 0x1807A0880
+	// RVA: 0x7BEC80 Offset: 0x7BD280 VA: 0x1807BEC80
 	public void PlayAmmoFlagLower() { }
 
-	// RVA: 0x7A0B40 Offset: 0x79F140 VA: 0x1807A0B40
+	// RVA: 0x7BEF40 Offset: 0x7BD540 VA: 0x1807BEF40
 	public void PlaySonarBlipSound() { }
 
-	// RVA: 0x7A0B90 Offset: 0x79F190 VA: 0x1807A0B90
+	// RVA: 0x7BEF90 Offset: 0x7BD590 VA: 0x1807BEF90
 	public void PlayTorpedoFireFailedSound() { }
 
-	// RVA: 0x7A25A0 Offset: 0x7A0BA0 VA: 0x1807A25A0
+	// RVA: 0x7C09A0 Offset: 0x7BEFA0 VA: 0x1807C09A0
 	private bool WithinEngineSoundDistance() { }
 
-	// RVA: 0x7A0D10 Offset: 0x79F310 VA: 0x1807A0D10
+	// RVA: 0x7BF110 Offset: 0x7BD710 VA: 0x1807BF110
 	private void StartEngineSounds() { }
 
-	// RVA: 0x7A14C0 Offset: 0x79FAC0 VA: 0x1807A14C0
+	// RVA: 0x7BF8C0 Offset: 0x7BDEC0 VA: 0x1807BF8C0
 	private void StopEngineSounds() { }
 
-	// RVA: 0x7A1010 Offset: 0x79F610 VA: 0x1807A1010
+	// RVA: 0x7BF410 Offset: 0x7BDA10 VA: 0x1807BF410
 	private void StartInteriorActiveAmbience() { }
 
-	// RVA: 0x7A16A0 Offset: 0x79FCA0 VA: 0x1807A16A0
+	// RVA: 0x7BFAA0 Offset: 0x7BE0A0 VA: 0x1807BFAA0
 	private void StopInteriorActiveAmbience() { }
 
-	// RVA: 0x7A0BE0 Offset: 0x79F1E0 VA: 0x1807A0BE0
+	// RVA: 0x7BEFE0 Offset: 0x7BD5E0 VA: 0x1807BEFE0
 	private void StartClimbOrDiveSounds() { }
 
-	// RVA: 0x7A1410 Offset: 0x79FA10 VA: 0x1807A1410
+	// RVA: 0x7BF810 Offset: 0x7BDE10 VA: 0x1807BF810
 	private void StopClimbOrDiveSounds() { }
 
-	// RVA: 0x7A0920 Offset: 0x79EF20 VA: 0x1807A0920
+	// RVA: 0x7BED20 Offset: 0x7BD320 VA: 0x1807BED20
 	private void PlayEmergeSubmergeSounds(float curSubDepthY) { }
 
-	// RVA: 0x7A0A40 Offset: 0x79F040 VA: 0x1807A0A40
+	// RVA: 0x7BEE40 Offset: 0x7BD440 VA: 0x1807BEE40
 	private void PlayInteriorSteeringSounds(BaseSubmarine submarine) { }
 
-	// RVA: 0x7A1140 Offset: 0x79F740 VA: 0x1807A1140
+	// RVA: 0x7BF540 Offset: 0x7BDB40 VA: 0x1807BF540
 	private void StartUnderwaterLoop(float waterFactor) { }
 
-	// RVA: 0x7A1750 Offset: 0x79FD50 VA: 0x1807A1750
+	// RVA: 0x7BFB50 Offset: 0x7BE150 VA: 0x1807BFB50
 	private void StopUnderwaterLoop() { }
 
-	// RVA: 0x7A18D0 Offset: 0x79FED0 VA: 0x1807A18D0
+	// RVA: 0x7BFCD0 Offset: 0x7BE2D0 VA: 0x1807BFCD0
 	private void UpdateSurfaceWaterSounds(float speed, float curSubDepthY) { }
 
-	// RVA: 0x7A12B0 Offset: 0x79F8B0 VA: 0x1807A12B0
+	// RVA: 0x7BF6B0 Offset: 0x7BDCB0 VA: 0x1807BF6B0
 	private void StartUnderwaterMovementSounds() { }
 
-	// RVA: 0x7A1810 Offset: 0x79FE10 VA: 0x1807A1810
+	// RVA: 0x7BFC10 Offset: 0x7BE210 VA: 0x1807BFC10
 	private void StopUnderwaterMovementSounds() { }
 
-	// RVA: 0x7A0EE0 Offset: 0x79F4E0 VA: 0x1807A0EE0
+	// RVA: 0x7BF2E0 Offset: 0x7BD8E0 VA: 0x1807BF2E0
 	private void StartHeavyDamageSparkSound() { }
 
-	// RVA: 0x7A15F0 Offset: 0x79FBF0 VA: 0x1807A15F0
+	// RVA: 0x7BF9F0 Offset: 0x7BDFF0 VA: 0x1807BF9F0
 	private void StopHeavyDamageSparkSound() { }
 
-	// RVA: 0x7A2650 Offset: 0x7A0C50 VA: 0x1807A2650
+	// RVA: 0x7C0A50 Offset: 0x7BF050 VA: 0x1807C0A50
 	public void .ctor() { }
 
 }

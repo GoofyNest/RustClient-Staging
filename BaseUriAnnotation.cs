@@ -4,7 +4,7 @@ internal class BaseUriAnnotation // TypeDefIndex: 5824
 
 	// Methods
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	public void .ctor(string baseUri) { }
 
 }

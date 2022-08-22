@@ -20,22 +20,22 @@ public class MixerSnapshotManager : SingletonComponent<MixerSnapshotManager>, IC
 
 	// Methods
 
-	// RVA: 0x76AEB0 Offset: 0x7694B0 VA: 0x18076AEB0 Slot: 6
+	// RVA: 0x76AE00 Offset: 0x769400 VA: 0x18076AE00 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x76B3F0 Offset: 0x7699F0 VA: 0x18076B3F0
+	// RVA: 0x76B340 Offset: 0x769940 VA: 0x18076B340
 	private void Update() { }
 
-	// RVA: 0x76B3E0 Offset: 0x7699E0 VA: 0x18076B3E0
+	// RVA: 0x76B330 Offset: 0x769930 VA: 0x18076B330
 	public void SetCCTVMode(bool enabled) { }
 
-	// RVA: 0x76AF70 Offset: 0x769570 VA: 0x18076AF70
+	// RVA: 0x76AEC0 Offset: 0x7694C0 VA: 0x18076AEC0
 	private void DoWoundedLoop() { }
 
-	// RVA: 0x76B180 Offset: 0x769780 VA: 0x18076B180
+	// RVA: 0x76B0D0 Offset: 0x7696D0 VA: 0x18076B0D0
 	private AudioMixerSnapshot GetTargetState(bool isUnderwater) { }
 
-	// RVA: 0x76BAB0 Offset: 0x76A0B0 VA: 0x18076BAB0
+	// RVA: 0x76BA00 Offset: 0x76A000 VA: 0x18076BA00
 	public void .ctor() { }
 
 }

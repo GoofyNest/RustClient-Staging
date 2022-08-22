@@ -10,37 +10,37 @@ internal struct StringBuffer // TypeDefIndex: 5960
 
 	// Methods
 
-	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
+	// RVA: 0x122C30 Offset: 0x122030 VA: 0x180122C30
 	public int get_Position() { }
 
-	// RVA: 0x19DF50 Offset: 0x19D350 VA: 0x18019DF50
+	// RVA: 0x19DC40 Offset: 0x19D040 VA: 0x18019DC40
 	public void set_Position(int value) { }
 
 	// RVA: 0x118820 Offset: 0x117C20 VA: 0x180118820
 	public bool get_IsEmpty() { }
 
-	// RVA: 0x211AC0 Offset: 0x210EC0 VA: 0x180211AC0
+	// RVA: 0x210E20 Offset: 0x210220 VA: 0x180210E20
 	public void .ctor(IArrayPool<char> bufferPool, int initalSize) { }
 
-	// RVA: 0x211B50 Offset: 0x210F50 VA: 0x180211B50
+	// RVA: 0x210EB0 Offset: 0x2102B0 VA: 0x180210EB0
 	private void .ctor(char[] buffer) { }
 
-	// RVA: 0x211670 Offset: 0x210A70 VA: 0x180211670
+	// RVA: 0x2109D0 Offset: 0x20FDD0 VA: 0x1802109D0
 	public void Append(IArrayPool<char> bufferPool, char value) { }
 
-	// RVA: 0x2117B0 Offset: 0x210BB0 VA: 0x1802117B0
+	// RVA: 0x210B10 Offset: 0x20FF10 VA: 0x180210B10
 	public void Append(IArrayPool<char> bufferPool, char[] buffer, int startIndex, int count) { }
 
-	// RVA: 0x2118F0 Offset: 0x210CF0 VA: 0x1802118F0
+	// RVA: 0x210C50 Offset: 0x210050 VA: 0x180210C50
 	public void Clear(IArrayPool<char> bufferPool) { }
 
-	// RVA: 0x211980 Offset: 0x210D80 VA: 0x180211980
+	// RVA: 0x210CE0 Offset: 0x2100E0 VA: 0x180210CE0
 	private void EnsureSize(IArrayPool<char> bufferPool, int appendLength) { }
 
-	// RVA: 0x211A90 Offset: 0x210E90 VA: 0x180211A90 Slot: 3
+	// RVA: 0x210DF0 Offset: 0x2101F0 VA: 0x180210DF0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x211A60 Offset: 0x210E60 VA: 0x180211A60
+	// RVA: 0x210DC0 Offset: 0x2101C0 VA: 0x180210DC0
 	public string ToString(int start, int length) { }
 
 	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840

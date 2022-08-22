@@ -23,43 +23,43 @@ public class SoundFade : MonoBehaviour, IClientComponent // TypeDefIndex: 9028
 
 	// Methods
 
-	// RVA: 0xA75D60 Offset: 0xA74360 VA: 0x180A75D60
+	// RVA: 0xA76230 Offset: 0xA74830 VA: 0x180A76230
 	public Sound get_sound() { }
 
-	// RVA: 0xA75D50 Offset: 0xA74350 VA: 0x180A75D50
+	// RVA: 0xA76220 Offset: 0xA74820 VA: 0x180A76220
 	public bool get_isFading() { }
 
-	// RVA: 0xA75D30 Offset: 0xA74330 VA: 0x180A75D30
+	// RVA: 0xA76200 Offset: 0xA74800 VA: 0x180A76200
 	public bool get_isFadingOut() { }
 
-	// RVA: 0xA75D10 Offset: 0xA74310 VA: 0x180A75D10
+	// RVA: 0xA761E0 Offset: 0xA747E0 VA: 0x180A761E0
 	public bool get_isFadingIn() { }
 
-	// RVA: 0xA75CD0 Offset: 0xA742D0 VA: 0x180A75CD0
+	// RVA: 0xA761A0 Offset: 0xA747A0 VA: 0x180A761A0
 	public float get_fadeTimeLeft() { }
 
-	// RVA: 0xA75AB0 Offset: 0xA740B0 VA: 0x180A75AB0
+	// RVA: 0xA75F80 Offset: 0xA74580 VA: 0x180A75F80
 	public void FadeIn(float time) { }
 
-	// RVA: 0xA75AC0 Offset: 0xA740C0 VA: 0x180A75AC0
+	// RVA: 0xA75F90 Offset: 0xA74590 VA: 0x180A75F90
 	public void FadeOut(float time) { }
 
-	// RVA: 0xA757F0 Offset: 0xA73DF0 VA: 0x180A757F0
+	// RVA: 0xA75CC0 Offset: 0xA742C0 VA: 0x180A75CC0
 	public void DoUpdate() { }
 
-	// RVA: 0xA75AD0 Offset: 0xA740D0 VA: 0x180A75AD0
+	// RVA: 0xA75FA0 Offset: 0xA745A0 VA: 0x180A75FA0
 	private void HQFadeComplete() { }
 
-	// RVA: 0xA75B00 Offset: 0xA74100 VA: 0x180A75B00
+	// RVA: 0xA75FD0 Offset: 0xA745D0 VA: 0x180A75FD0
 	public void Init() { }
 
-	// RVA: 0xA75610 Offset: 0xA73C10 VA: 0x180A75610
+	// RVA: 0xA75AE0 Offset: 0xA740E0 VA: 0x180A75AE0
 	private void DoFade(float time, SoundFade.Direction direction) { }
 
-	// RVA: 0xA75E00 Offset: 0xA74400 VA: 0x180A75E00
+	// RVA: 0xA762D0 Offset: 0xA748D0 VA: 0x180A762D0
 	public bool isGainLevelAudible() { }
 
-	// RVA: 0xA75C90 Offset: 0xA74290 VA: 0x180A75C90
+	// RVA: 0xA76160 Offset: 0xA74760 VA: 0x180A76160
 	public void .ctor() { }
 
 }

@@ -34,123 +34,123 @@ public class WaterSimulation // TypeDefIndex: 10623
 
 	// Methods
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	public Texture get_DisplacementMap() { }
 
-	// RVA: 0xC23DB0 Offset: 0xC223B0 VA: 0x180C23DB0
+	// RVA: 0xC24280 Offset: 0xC22880 VA: 0x180C24280
 	public Vector4 get_DisplacementMapTexelSize() { }
 
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0
 	public RenderTexture get_NormalFoldMap() { }
 
-	// RVA: 0x808600 Offset: 0x806C00 VA: 0x180808600
+	// RVA: 0x808B90 Offset: 0x807190 VA: 0x180808B90
 	public bool get_IsPlaying() { }
 
-	// RVA: 0xC23DC0 Offset: 0xC223C0 VA: 0x180C23DC0
+	// RVA: 0xC24290 Offset: 0xC22890 VA: 0x180C24290
 	public bool get_IsInitialized() { }
 
-	// RVA: 0xC22BD0 Offset: 0xC211D0 VA: 0x180C22BD0
+	// RVA: 0xC230A0 Offset: 0xC216A0 VA: 0x180C230A0
 	public void Initialize(WaterSystem water, WaterRuntime runtime) { }
 
-	// RVA: 0xC21D10 Offset: 0xC20310 VA: 0x180C21D10
+	// RVA: 0xC221E0 Offset: 0xC207E0 VA: 0x180C221E0
 	public void Destroy() { }
 
-	// RVA: 0xC21200 Offset: 0xC1F800 VA: 0x180C21200
+	// RVA: 0xC216D0 Offset: 0xC1FCD0 VA: 0x180C216D0
 	private void CheckCommandBuffer() { }
 
-	// RVA: 0xC21560 Offset: 0xC1FB60 VA: 0x180C21560
+	// RVA: 0xC21A30 Offset: 0xC20030 VA: 0x180C21A30
 	private void CleanupCommandBuffer() { }
 
-	// RVA: 0xC22010 Offset: 0xC20610 VA: 0x180C22010
+	// RVA: 0xC224E0 Offset: 0xC20AE0 VA: 0x180C224E0
 	private void FillCommandBuffer(CommandBuffer cb) { }
 
 	// RVA: -1 Offset: -1
 	private void SafeDestroy<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5DA3D0 Offset: 0x5D89D0 VA: 0x1805DA3D0
+	|-RVA: 0x5DA360 Offset: 0x5D8960 VA: 0x1805DA360
 	|-WaterSimulation.SafeDestroy<object>
 	|-WaterSimulation.SafeDestroy<Material>
 	|-WaterSimulation.SafeDestroy<RenderTexture>
 	|-WaterSimulation.SafeDestroy<Texture2D>
 	*/
 
-	// RVA: 0xC22700 Offset: 0xC20D00 VA: 0x180C22700
+	// RVA: 0xC22BD0 Offset: 0xC211D0 VA: 0x180C22BD0
 	private void InitializeMaterials() { }
 
-	// RVA: 0xC21C00 Offset: 0xC20200 VA: 0x180C21C00
+	// RVA: 0xC220D0 Offset: 0xC206D0 VA: 0x180C220D0
 	private void DestroyMaterials() { }
 
-	// RVA: 0xC23020 Offset: 0xC21620 VA: 0x180C23020
+	// RVA: 0xC234F0 Offset: 0xC21AF0 VA: 0x180C234F0
 	private int ReverseBits(int value, int bitCount) { }
 
-	// RVA: 0xC21630 Offset: 0xC1FC30 VA: 0x180C21630
+	// RVA: 0xC21B00 Offset: 0xC20100 VA: 0x180C21B00
 	private WaterSimulation.Butterfly[] CreateButterflyTable(int res, int numButterflies) { }
 
-	// RVA: 0xC219D0 Offset: 0xC1FFD0 VA: 0x180C219D0
+	// RVA: 0xC21EA0 Offset: 0xC204A0 VA: 0x180C21EA0
 	private RenderTexture CreateRenderTexture(string name, int width, int height, RenderTextureFormat format, TextureWrapMode wrap, FilterMode filter) { }
 
-	// RVA: 0xC21B00 Offset: 0xC20100 VA: 0x180C21B00
+	// RVA: 0xC21FD0 Offset: 0xC205D0 VA: 0x180C21FD0
 	private Texture2D CreateTexture(string name, int width, int height, TextureFormat format, TextureWrapMode wrap, FilterMode filter) { }
 
-	// RVA: 0xC227F0 Offset: 0xC20DF0 VA: 0x180C227F0
+	// RVA: 0xC22CC0 Offset: 0xC212C0 VA: 0x180C22CC0
 	private void InitializeTextures() { }
 
-	// RVA: 0xC21C50 Offset: 0xC20250 VA: 0x180C21C50
+	// RVA: 0xC22120 Offset: 0xC20720 VA: 0x180C22120
 	private void DestroyTextures() { }
 
-	// RVA: 0xC222A0 Offset: 0xC208A0 VA: 0x180C222A0
+	// RVA: 0xC22770 Offset: 0xC20D70 VA: 0x180C22770
 	private void InitializeFFT() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void DestroyFFT() { }
 
-	// RVA: 0xC20D50 Offset: 0xC1F350 VA: 0x180C20D50
+	// RVA: 0xC21220 Offset: 0xC1F820 VA: 0x180C21220
 	private void BindMaterialProperties() { }
 
-	// RVA: 0xC213E0 Offset: 0xC1F9E0 VA: 0x180C213E0
+	// RVA: 0xC218B0 Offset: 0xC1FEB0 VA: 0x180C218B0
 	public bool CheckLostData() { }
 
-	// RVA: 0xC23A90 Offset: 0xC22090 VA: 0x180C23A90
+	// RVA: 0xC23F60 Offset: 0xC22560 VA: 0x180C23F60
 	private void UpdateSimulationParams() { }
 
-	// RVA: 0xC23D40 Offset: 0xC22340 VA: 0x180C23D40
+	// RVA: 0xC24210 Offset: 0xC22810 VA: 0x180C24210
 	public void Update() { }
 
-	// RVA: 0x962F70 Offset: 0x961570 VA: 0x180962F70
+	// RVA: 0x963470 Offset: 0x961A70 VA: 0x180963470
 	public void Play() { }
 
-	// RVA: 0xC23500 Offset: 0xC21B00 VA: 0x180C23500
+	// RVA: 0xC239D0 Offset: 0xC21FD0 VA: 0x180C239D0
 	public void Stop() { }
 
-	// RVA: 0xC21F20 Offset: 0xC20520 VA: 0x180C21F20
+	// RVA: 0xC223F0 Offset: 0xC209F0 VA: 0x180C223F0
 	private float Dispersion(int n_prime, int m_prime) { }
 
-	// RVA: 0xC22E00 Offset: 0xC21400 VA: 0x180C22E00
+	// RVA: 0xC232D0 Offset: 0xC218D0 VA: 0x180C232D0
 	private float Phillips(int n_prime, int m_prime) { }
 
-	// RVA: 0xC221F0 Offset: 0xC207F0 VA: 0x180C221F0
+	// RVA: 0xC226C0 Offset: 0xC20CC0 VA: 0x180C226C0
 	private float Gauss() { }
 
-	// RVA: 0xC23DD0 Offset: 0xC223D0 VA: 0x180C23DD0
+	// RVA: 0xC242A0 Offset: 0xC228A0 VA: 0x180C242A0
 	private Vector2 hTilde_0(int n_prime, int m_prime) { }
 
-	// RVA: 0xC21E40 Offset: 0xC20440 VA: 0x180C21E40
+	// RVA: 0xC22310 Offset: 0xC20910 VA: 0x180C22310
 	private void Disperse(CommandBuffer cb) { }
 
-	// RVA: 0xC20F20 Offset: 0xC1F520 VA: 0x180C20F20
+	// RVA: 0xC213F0 Offset: 0xC1F9F0 VA: 0x180C213F0
 	private void BlitOverride(CommandBuffer cb, RenderTexture source, RenderTargetIdentifier destination, Material material, int pass) { }
 
-	// RVA: 0xC23510 Offset: 0xC21B10 VA: 0x180C23510
+	// RVA: 0xC239E0 Offset: 0xC21FE0 VA: 0x180C239E0
 	private void Transform(CommandBuffer cb, RenderTexture data) { }
 
-	// RVA: 0xC23C50 Offset: 0xC22250 VA: 0x180C23C50
+	// RVA: 0xC24120 Offset: 0xC22720 VA: 0x180C24120
 	private void UpdateTextures(CommandBuffer cb) { }
 
-	// RVA: 0xC23050 Offset: 0xC21650 VA: 0x180C23050
+	// RVA: 0xC23520 Offset: 0xC21B20 VA: 0x180C23520
 	public void ShowDebug() { }
 
-	// RVA: 0xC23D80 Offset: 0xC22380 VA: 0x180C23D80
+	// RVA: 0xC24250 Offset: 0xC22850 VA: 0x180C24250
 	public void .ctor() { }
 
 }

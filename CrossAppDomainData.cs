@@ -10,10 +10,10 @@ internal class CrossAppDomainData // TypeDefIndex: 1188
 
 	// Methods
 
-	// RVA: 0xFE53F0 Offset: 0xFE39F0 VA: 0x180FE53F0
+	// RVA: 0xFE5E90 Offset: 0xFE4490 VA: 0x180FE5E90
 	internal void .ctor(int domainId) { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	internal int get_DomainID() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70

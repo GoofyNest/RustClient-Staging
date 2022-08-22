@@ -13,40 +13,40 @@ public class LODCell : Pool.IPooled // TypeDefIndex: 9929
 
 	// Methods
 
-	// RVA: 0x6829B0 Offset: 0x680FB0 VA: 0x1806829B0
+	// RVA: 0x682940 Offset: 0x680F40 VA: 0x180682940
 	public int get_Count() { }
 
-	// RVA: 0x682840 Offset: 0x680E40 VA: 0x180682840
+	// RVA: 0x6827D0 Offset: 0x680DD0 VA: 0x1806827D0
 	public void Initialize(Vector3 position, float size) { }
 
-	// RVA: 0x682860 Offset: 0x680E60 VA: 0x180682860
+	// RVA: 0x6827F0 Offset: 0x680DF0 VA: 0x1806827F0
 	public bool NeedsRefresh() { }
 
-	// RVA: 0x682350 Offset: 0x680950 VA: 0x180682350
+	// RVA: 0x6822E0 Offset: 0x6808E0 VA: 0x1806822E0
 	public void ChangeLOD(bool force = False) { }
 
-	// RVA: 0x6822E0 Offset: 0x6808E0 VA: 0x1806822E0
+	// RVA: 0x682270 Offset: 0x680870 VA: 0x180682270
 	public void Add(ILOD component, Transform transform) { }
 
-	// RVA: 0x6828A0 Offset: 0x680EA0 VA: 0x1806828A0
+	// RVA: 0x682830 Offset: 0x680E30 VA: 0x180682830
 	public void Remove(ILOD component, Transform transform) { }
 
-	// RVA: 0x6827D0 Offset: 0x680DD0 VA: 0x1806827D0
+	// RVA: 0x682760 Offset: 0x680D60 VA: 0x180682760
 	public float GetDistance(Transform transform, LODDistanceMode mode = 0) { }
 
-	// RVA: 0x682780 Offset: 0x680D80 VA: 0x180682780
+	// RVA: 0x682710 Offset: 0x680D10 VA: 0x180682710
 	public float GetDistance(Vector3 worldPos, LODDistanceMode mode = 0) { }
 
-	// RVA: 0x682A00 Offset: 0x681000 VA: 0x180682A00
+	// RVA: 0x682990 Offset: 0x680F90 VA: 0x180682990
 	public static bool op_Implicit(LODCell cell) { }
 
-	// RVA: 0x6826F0 Offset: 0x680CF0 VA: 0x1806826F0 Slot: 4
+	// RVA: 0x682680 Offset: 0x680C80 VA: 0x180682680 Slot: 4
 	public void EnterPool() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	public void LeavePool() { }
 
-	// RVA: 0x682940 Offset: 0x680F40 VA: 0x180682940
+	// RVA: 0x6828D0 Offset: 0x680ED0 VA: 0x1806828D0
 	public void .ctor() { }
 
 }

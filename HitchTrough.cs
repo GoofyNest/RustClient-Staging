@@ -5,10 +5,10 @@ public class HitchTrough : StorageContainer // TypeDefIndex: 8697
 
 	// Methods
 
-	// RVA: 0x741A70 Offset: 0x740070 VA: 0x180741A70 Slot: 34
+	// RVA: 0x7419C0 Offset: 0x73FFC0 VA: 0x1807419C0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x741B40 Offset: 0x740140 VA: 0x180741B40
+	// RVA: 0x741A90 Offset: 0x740090 VA: 0x180741A90
 	public void .ctor() { }
 
 }
@@ -21,13 +21,13 @@ public class HitchTrough.HitchSpot // TypeDefIndex: 8698
 
 	// Methods
 
-	// RVA: 0x7419C0 Offset: 0x73FFC0 VA: 0x1807419C0
+	// RVA: 0x741910 Offset: 0x73FF10 VA: 0x180741910
 	public RidableHorse GetHorse(bool isServer = True) { }
 
-	// RVA: 0x741A50 Offset: 0x740050 VA: 0x180741A50
+	// RVA: 0x7419A0 Offset: 0x73FFA0 VA: 0x1807419A0
 	public bool IsOccupied(bool isServer = True) { }
 
-	// RVA: 0x741A60 Offset: 0x740060 VA: 0x180741A60
+	// RVA: 0x7419B0 Offset: 0x73FFB0 VA: 0x1807419B0
 	public void SetOccupiedBy(RidableHorse newHorse) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

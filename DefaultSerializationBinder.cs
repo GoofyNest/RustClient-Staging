@@ -5,16 +5,16 @@ public class DefaultSerializationBinder : SerializationBinder // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x13EF880 Offset: 0x13EDE80 VA: 0x1813EF880
+	// RVA: 0x13EE980 Offset: 0x13ECF80 VA: 0x1813EE980
 	private static Type GetTypeFromTypeNameKey(DefaultSerializationBinder.TypeNameKey typeNameKey) { }
 
-	// RVA: 0x13EF7E0 Offset: 0x13EDDE0 VA: 0x1813EF7E0 Slot: 5
+	// RVA: 0x13EE8E0 Offset: 0x13ECEE0 VA: 0x1813EE8E0 Slot: 5
 	public override Type BindToType(string assemblyName, string typeName) { }
 
-	// RVA: 0x13EFBD0 Offset: 0x13EE1D0 VA: 0x1813EFBD0
+	// RVA: 0x13EECD0 Offset: 0x13ED2D0 VA: 0x1813EECD0
 	public void .ctor() { }
 
-	// RVA: 0x13EFAF0 Offset: 0x13EE0F0 VA: 0x1813EFAF0
+	// RVA: 0x13EEBF0 Offset: 0x13ED1F0 VA: 0x1813EEBF0
 	private static void .cctor() { }
 
 }
@@ -26,16 +26,16 @@ internal struct DefaultSerializationBinder.TypeNameKey // TypeDefIndex: 6001
 
 	// Methods
 
-	// RVA: 0xF5A50 Offset: 0xF4E50 VA: 0x1800F5A50
+	// RVA: 0xF5DB0 Offset: 0xF51B0 VA: 0x1800F5DB0
 	public void .ctor(string assemblyName, string typeName) { }
 
-	// RVA: 0x1EF380 Offset: 0x1EE780 VA: 0x1801EF380 Slot: 2
+	// RVA: 0x1EF7A0 Offset: 0x1EEBA0 VA: 0x1801EF7A0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1EF2D0 Offset: 0x1EE6D0 VA: 0x1801EF2D0 Slot: 0
+	// RVA: 0x1EF6F0 Offset: 0x1EEAF0 VA: 0x1801EF6F0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xF5990 Offset: 0xF4D90 VA: 0x1800F5990
+	// RVA: 0xF5CF0 Offset: 0xF50F0 VA: 0x1800F5CF0
 	public bool Equals(DefaultSerializationBinder.TypeNameKey other) { }
 
 }

@@ -4,16 +4,16 @@ public abstract class ConfigurationElement // TypeDefIndex: 1694
 
 	// Methods
 
-	// RVA: 0x2321CB0 Offset: 0x23202B0 VA: 0x182321CB0 Slot: 4
+	// RVA: 0x23224D0 Offset: 0x2320AD0 VA: 0x1823224D0 Slot: 4
 	protected internal virtual ConfigurationPropertyCollection get_Properties() { }
 
-	// RVA: 0x2321C20 Offset: 0x2320220 VA: 0x182321C20 Slot: 5
+	// RVA: 0x2322440 Offset: 0x2320A40 VA: 0x182322440 Slot: 5
 	protected internal virtual bool IsModified() { }
 
-	// RVA: 0x2321C80 Offset: 0x2320280 VA: 0x182321C80 Slot: 6
+	// RVA: 0x23224A0 Offset: 0x2320AA0 VA: 0x1823224A0 Slot: 6
 	protected internal virtual void Reset(ConfigurationElement parentElement) { }
 
-	// RVA: 0x2321C50 Offset: 0x2320250 VA: 0x182321C50 Slot: 7
+	// RVA: 0x2322470 Offset: 0x2320A70 VA: 0x182322470 Slot: 7
 	protected internal virtual void ResetModified() { }
 
 }

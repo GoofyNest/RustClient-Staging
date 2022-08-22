@@ -13,25 +13,25 @@ public class NoticeArea : SingletonComponent<NoticeArea> // TypeDefIndex: 11041
 
 	// Methods
 
-	// RVA: 0x9D35B0 Offset: 0x9D1BB0 VA: 0x1809D35B0 Slot: 6
+	// RVA: 0x9D3AA0 Offset: 0x9D20A0 VA: 0x1809D3AA0 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x9D3610 Offset: 0x9D1C10 VA: 0x1809D3610
+	// RVA: 0x9D3B00 Offset: 0x9D2100 VA: 0x1809D3B00
 	public static void ItemPickUp(ItemDefinition def, int amount, string nameOverride) { }
 
-	// RVA: 0x9D4410 Offset: 0x9D2A10 VA: 0x1809D4410
+	// RVA: 0x9D4900 Offset: 0x9D2F00 VA: 0x1809D4900
 	private void Update() { }
 
-	// RVA: 0x9D3FC0 Offset: 0x9D25C0 VA: 0x1809D3FC0
+	// RVA: 0x9D44B0 Offset: 0x9D2AB0 VA: 0x1809D44B0
 	private void UpdateLayout() { }
 
-	// RVA: 0x9D3420 Offset: 0x9D1A20 VA: 0x1809D3420
+	// RVA: 0x9D3910 Offset: 0x9D1F10 VA: 0x1809D3910
 	private static Vector2 ApplySizing(RectTransform rectT, bool setSize = False) { }
 
-	// RVA: 0x9D3D00 Offset: 0x9D2300 VA: 0x1809D3D00
+	// RVA: 0x9D41F0 Offset: 0x9D27F0 VA: 0x1809D41F0
 	public void RefreshNotices() { }
 
-	// RVA: 0x9D45C0 Offset: 0x9D2BC0 VA: 0x1809D45C0
+	// RVA: 0x9D4AB0 Offset: 0x9D30B0 VA: 0x1809D4AB0
 	public void .ctor() { }
 
 }

@@ -4,7 +4,7 @@ public class GeneratePowerlineTopology : ProceduralComponent // TypeDefIndex: 10
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40
+	// RVA: 0x57BBD0 Offset: 0x57A1D0 VA: 0x18057BBD0
 	public void .ctor() { }
 
 }

@@ -1,7 +1,7 @@
-public class FishBrain : BaseAIBrain<BaseFishNPC> // TypeDefIndex: 8924
+public class FishBrain : BaseAIBrain // TypeDefIndex: 8924
 {	// Methods
 
-	// RVA: 0x78D1B0 Offset: 0x78B7B0 VA: 0x18078D1B0
+	// RVA: 0x4A0A50 Offset: 0x49F050 VA: 0x1804A0A50
 	public void .ctor() { }
 
 }

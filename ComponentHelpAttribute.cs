@@ -4,7 +4,7 @@ public class ComponentHelpAttribute : BaseEditorExAttribute // TypeDefIndex: 801
 
 	// Methods
 
-	// RVA: 0x10688F0 Offset: 0x1066EF0 VA: 0x1810688F0
+	// RVA: 0x1069360 Offset: 0x1067960 VA: 0x181069360
 	public void .ctor(string help) { }
 
 }

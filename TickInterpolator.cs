@@ -9,25 +9,25 @@ public class TickInterpolator // TypeDefIndex: 11405
 
 	// Methods
 
-	// RVA: 0x889DA0 Offset: 0x8883A0 VA: 0x180889DA0
+	// RVA: 0x86D0E0 Offset: 0x86B6E0 VA: 0x18086D0E0
 	public void Reset() { }
 
-	// RVA: 0x889DC0 Offset: 0x8883C0 VA: 0x180889DC0
+	// RVA: 0x86D100 Offset: 0x86B700 VA: 0x18086D100
 	public void Reset(Vector3 point) { }
 
-	// RVA: 0x889B50 Offset: 0x888150 VA: 0x180889B50
+	// RVA: 0x86CE90 Offset: 0x86B490 VA: 0x18086CE90
 	public void AddPoint(Vector3 point) { }
 
-	// RVA: 0x889CC0 Offset: 0x8882C0 VA: 0x180889CC0
+	// RVA: 0x86D000 Offset: 0x86B600 VA: 0x18086D000
 	public bool MoveNext(float distance) { }
 
-	// RVA: 0x889C70 Offset: 0x888270 VA: 0x180889C70
+	// RVA: 0x86CFB0 Offset: 0x86B5B0 VA: 0x18086CFB0
 	public bool HasNext() { }
 
-	// RVA: 0x889E40 Offset: 0x888440 VA: 0x180889E40
+	// RVA: 0x86D180 Offset: 0x86B780 VA: 0x18086D180
 	public void TransformEntries(Matrix4x4 matrix) { }
 
-	// RVA: 0x88A010 Offset: 0x888610 VA: 0x18088A010
+	// RVA: 0x86D350 Offset: 0x86B950 VA: 0x18086D350
 	public void .ctor() { }
 
 }
@@ -39,7 +39,7 @@ private struct TickInterpolator.Segment // TypeDefIndex: 11406
 
 	// Methods
 
-	// RVA: 0xF96C0 Offset: 0xF8AC0 VA: 0x1800F96C0
+	// RVA: 0xF9370 Offset: 0xF8770 VA: 0x1800F9370
 	public void .ctor(Vector3 a, Vector3 b) { }
 
 }

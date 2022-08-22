@@ -92,7 +92,7 @@ public struct FaceInfo // TypeDefIndex: 4109
 	// RVA: 0xF14A0 Offset: 0xF08A0 VA: 0x1800F14A0
 	public void set_styleName(string value) { }
 
-	// RVA: 0x2122F0 Offset: 0x2116F0 VA: 0x1802122F0
+	// RVA: 0x211720 Offset: 0x210B20 VA: 0x180211720
 	public int get_pointSize() { }
 
 	// RVA: 0x120460 Offset: 0x11F860 VA: 0x180120460
@@ -185,7 +185,7 @@ public struct FaceInfo // TypeDefIndex: 4109
 	// RVA: 0x23D8B0 Offset: 0x23CCB0 VA: 0x18023D8B0
 	public float get_tabWidth() { }
 
-	// RVA: 0x19E3D0 Offset: 0x19D7D0 VA: 0x18019E3D0
+	// RVA: 0x19E0C0 Offset: 0x19D4C0 VA: 0x18019E0C0
 	public void set_tabWidth(float value) { }
 
 }

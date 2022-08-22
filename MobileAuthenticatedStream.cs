@@ -36,152 +36,152 @@ internal abstract class MobileAuthenticatedStream : AuthenticatedStream, IMonoSs
 
 	// Methods
 
-	// RVA: 0x1218CB0 Offset: 0x12172B0 VA: 0x181218CB0
+	// RVA: 0x1219350 Offset: 0x1217950 VA: 0x181219350
 	public void .ctor(Stream innerStream, bool leaveInnerStreamOpen, SslStream owner, MonoTlsSettings settings, MonoTlsProvider provider) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300
 	public MonoTlsSettings get_Settings() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050 Slot: 51
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0 Slot: 51
 	public MonoTlsProvider get_Provider() { }
 
-	// RVA: 0x1217360 Offset: 0x1215960 VA: 0x181217360
+	// RVA: 0x1217A00 Offset: 0x1216000 VA: 0x181217A00
 	internal void CheckThrow(bool authSuccessCheck, bool shutdownCheck = False) { }
 
-	// RVA: 0x12177D0 Offset: 0x1215DD0 VA: 0x1812177D0
+	// RVA: 0x1217E70 Offset: 0x1216470 VA: 0x181217E70
 	internal static Exception GetSSPIException(Exception e) { }
 
-	// RVA: 0x1217660 Offset: 0x1215C60 VA: 0x181217660
+	// RVA: 0x1217D00 Offset: 0x1216300 VA: 0x181217D00
 	internal static Exception GetIOException(Exception e, string message) { }
 
-	// RVA: 0x12188E0 Offset: 0x1216EE0 VA: 0x1812188E0
+	// RVA: 0x1218F80 Offset: 0x1217580 VA: 0x181218F80
 	internal ExceptionDispatchInfo SetException(Exception e) { }
 
-	// RVA: 0x1217090 Offset: 0x1215690 VA: 0x181217090 Slot: 32
+	// RVA: 0x1217730 Offset: 0x1215D30 VA: 0x181217730 Slot: 32
 	public void AuthenticateAsClient(string targetHost, X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, bool checkCertificateRevocation) { }
 
-	// RVA: 0x12170E0 Offset: 0x12156E0 VA: 0x1812170E0 Slot: 33
+	// RVA: 0x1217780 Offset: 0x1215D80 VA: 0x181217780 Slot: 33
 	public IAsyncResult BeginAuthenticateAsServer(X509Certificate serverCertificate, bool clientCertificateRequired, SslProtocols enabledSslProtocols, bool checkCertificateRevocation, AsyncCallback asyncCallback, object asyncState) { }
 
-	// RVA: 0x1217610 Offset: 0x1215C10 VA: 0x181217610 Slot: 34
+	// RVA: 0x1217CB0 Offset: 0x12162B0 VA: 0x181217CB0 Slot: 34
 	public void EndAuthenticateAsServer(IAsyncResult asyncResult) { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 47
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 47
 	public AuthenticatedStream get_AuthenticatedStream() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA3670 Offset: 0xA2A70 VA: 0x1800A3670
-	// RVA: 0x1218170 Offset: 0x1216770 VA: 0x181218170
+	// RVA: 0x1218810 Offset: 0x1216E10 VA: 0x181218810
 	private Task ProcessAuthentication(bool runSynchronously, bool serverMode, string targetHost, SslProtocols enabledProtocols, X509Certificate serverCertificate, X509CertificateCollection clientCertificates, bool clientCertRequired) { }
 
 	// RVA: -1 Offset: -1 Slot: 52
 	protected abstract MobileTlsContext CreateContext(bool serverMode, string targetHost, SslProtocols enabledProtocols, X509Certificate serverCertificate, X509CertificateCollection clientCertificates, bool askForClientCert);
 
-	// RVA: 0x1217190 Offset: 0x1215790 VA: 0x181217190 Slot: 19
+	// RVA: 0x1217830 Offset: 0x1215E30 VA: 0x181217830 Slot: 19
 	public override IAsyncResult BeginRead(byte[] buffer, int offset, int count, AsyncCallback asyncCallback, object asyncState) { }
 
-	// RVA: 0x1217620 Offset: 0x1215C20 VA: 0x181217620 Slot: 20
+	// RVA: 0x1217CC0 Offset: 0x12162C0 VA: 0x181217CC0 Slot: 20
 	public override int EndRead(IAsyncResult asyncResult) { }
 
-	// RVA: 0x1217270 Offset: 0x1215870 VA: 0x181217270 Slot: 22
+	// RVA: 0x1217910 Offset: 0x1215F10 VA: 0x181217910 Slot: 22
 	public override IAsyncResult BeginWrite(byte[] buffer, int offset, int count, AsyncCallback asyncCallback, object asyncState) { }
 
-	// RVA: 0x1217610 Offset: 0x1215C10 VA: 0x181217610 Slot: 23
+	// RVA: 0x1217CB0 Offset: 0x12162B0 VA: 0x181217CB0 Slot: 23
 	public override void EndWrite(IAsyncResult asyncResult) { }
 
-	// RVA: 0x12187A0 Offset: 0x1216DA0 VA: 0x1812187A0 Slot: 27
+	// RVA: 0x1218E40 Offset: 0x1217440 VA: 0x181218E40 Slot: 27
 	public override int Read(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x1218B80 Offset: 0x1217180 VA: 0x181218B80 Slot: 29
+	// RVA: 0x1219220 Offset: 0x1217820 VA: 0x181219220 Slot: 29
 	public override void Write(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x12186F0 Offset: 0x1216CF0 VA: 0x1812186F0 Slot: 21
+	// RVA: 0x1218D90 Offset: 0x1217390 VA: 0x181218D90 Slot: 21
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
-	// RVA: 0x1218AD0 Offset: 0x12170D0 VA: 0x181218AD0 Slot: 24
+	// RVA: 0x1219170 Offset: 0x1217770 VA: 0x181219170 Slot: 24
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA3730 Offset: 0xA2B30 VA: 0x1800A3730
-	// RVA: 0x1218930 Offset: 0x1216F30 VA: 0x181218930
+	// RVA: 0x1218FD0 Offset: 0x12175D0 VA: 0x181218FD0
 	private Task<int> StartOperation(MobileAuthenticatedStream.OperationType type, AsyncProtocolRequest asyncRequest, CancellationToken cancellationToken) { }
 
-	// RVA: 0x1217BA0 Offset: 0x12161A0 VA: 0x181217BA0
+	// RVA: 0x1218240 Offset: 0x1216840 VA: 0x181218240
 	internal int InternalRead(byte[] buffer, int offset, int size, out bool outWantMore) { }
 
-	// RVA: 0x1217D90 Offset: 0x1216390 VA: 0x181217D90
+	// RVA: 0x1218430 Offset: 0x1216A30 VA: 0x181218430
 	private ValueTuple<int, bool> InternalRead(AsyncProtocolRequest asyncRequest, BufferOffsetSize internalBuffer, byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x12180A0 Offset: 0x12166A0 VA: 0x1812180A0
+	// RVA: 0x1218740 Offset: 0x1216D40 VA: 0x181218740
 	internal bool InternalWrite(byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x1217EE0 Offset: 0x12164E0 VA: 0x181217EE0
+	// RVA: 0x1218580 Offset: 0x1216B80 VA: 0x181218580
 	private bool InternalWrite(AsyncProtocolRequest asyncRequest, BufferOffsetSize2 internalBuffer, byte[] buffer, int offset, int size) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA3840 Offset: 0xA2C40 VA: 0x1800A3840
-	// RVA: 0x1217930 Offset: 0x1215F30 VA: 0x181217930
+	// RVA: 0x1217FD0 Offset: 0x12165D0 VA: 0x181217FD0
 	internal Task<int> InnerRead(bool sync, int requestedSize, CancellationToken cancellationToken) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA3920 Offset: 0xA2D20 VA: 0x1800A3920
-	// RVA: 0x1217A70 Offset: 0x1216070 VA: 0x181217A70
+	// RVA: 0x1218110 Offset: 0x1216710 VA: 0x181218110
 	internal Task InnerWrite(bool sync, CancellationToken cancellationToken) { }
 
-	// RVA: 0x12182D0 Offset: 0x12168D0 VA: 0x1812182D0
+	// RVA: 0x1218970 Offset: 0x1216F70 VA: 0x181218970
 	internal AsyncOperationStatus ProcessHandshake(AsyncOperationStatus status) { }
 
-	// RVA: 0x12184B0 Offset: 0x1216AB0 VA: 0x1812184B0
+	// RVA: 0x1218B50 Offset: 0x1217150 VA: 0x181218B50
 	internal ValueTuple<int, bool> ProcessRead(BufferOffsetSize userBuffer) { }
 
-	// RVA: 0x12185D0 Offset: 0x1216BD0 VA: 0x1812185D0
+	// RVA: 0x1218C70 Offset: 0x1217270 VA: 0x181218C70
 	internal ValueTuple<int, bool> ProcessWrite(BufferOffsetSize userBuffer) { }
 
-	// RVA: 0x1219010 Offset: 0x1217610 VA: 0x181219010 Slot: 31
+	// RVA: 0x12196B0 Offset: 0x1217CB0 VA: 0x1812196B0 Slot: 31
 	public override bool get_IsAuthenticated() { }
 
-	// RVA: 0x1217440 Offset: 0x1215A40 VA: 0x181217440 Slot: 17
+	// RVA: 0x1217AE0 Offset: 0x12160E0 VA: 0x181217AE0 Slot: 17
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0xBA49A0 Offset: 0xBA2FA0 VA: 0x180BA49A0 Slot: 18
+	// RVA: 0xBA4E70 Offset: 0xBA3470 VA: 0x180BA4E70 Slot: 18
 	public override void Flush() { }
 
-	// RVA: 0x1218EE0 Offset: 0x12174E0 VA: 0x181218EE0 Slot: 50
+	// RVA: 0x1219580 Offset: 0x1217B80 VA: 0x181219580 Slot: 50
 	public X509Certificate get_InternalLocalCertificate() { }
 
-	// RVA: 0x1218890 Offset: 0x1216E90 VA: 0x181218890 Slot: 25
+	// RVA: 0x1218F30 Offset: 0x1217530 VA: 0x181218F30 Slot: 25
 	public override long Seek(long offset, SeekOrigin origin) { }
 
-	// RVA: 0xBA4A60 Offset: 0xBA3060 VA: 0x180BA4A60 Slot: 26
+	// RVA: 0xBA4F30 Offset: 0xBA3530 VA: 0x180BA4F30 Slot: 26
 	public override void SetLength(long value) { }
 
-	// RVA: 0x1218E20 Offset: 0x1217420 VA: 0x181218E20 Slot: 7
+	// RVA: 0x12194C0 Offset: 0x1217AC0 VA: 0x1812194C0 Slot: 7
 	public override bool get_CanRead() { }
 
-	// RVA: 0x1218E70 Offset: 0x1217470 VA: 0x181218E70 Slot: 9
+	// RVA: 0x1219510 Offset: 0x1217B10 VA: 0x181219510 Slot: 9
 	public override bool get_CanWrite() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 8
 	public override bool get_CanSeek() { }
 
-	// RVA: 0xBA4C30 Offset: 0xBA3230 VA: 0x180BA4C30 Slot: 10
+	// RVA: 0xBA5100 Offset: 0xBA3700 VA: 0x180BA5100 Slot: 10
 	public override long get_Length() { }
 
-	// RVA: 0xBA4C60 Offset: 0xBA3260 VA: 0x180BA4C60 Slot: 11
+	// RVA: 0xBA5130 Offset: 0xBA3730 VA: 0x180BA5130 Slot: 11
 	public override long get_Position() { }
 
-	// RVA: 0x1219130 Offset: 0x1217730 VA: 0x181219130 Slot: 12
+	// RVA: 0x12197D0 Offset: 0x1217DD0 VA: 0x1812197D0 Slot: 12
 	public override void set_Position(long value) { }
 
-	// RVA: 0xE57DC0 Offset: 0xE563C0 VA: 0x180E57DC0 Slot: 13
+	// RVA: 0xE58870 Offset: 0xE56E70 VA: 0x180E58870 Slot: 13
 	public override int get_ReadTimeout() { }
 
-	// RVA: 0x1219100 Offset: 0x1217700 VA: 0x181219100 Slot: 14
+	// RVA: 0x12197A0 Offset: 0x1217DA0 VA: 0x1812197A0 Slot: 14
 	public override int get_WriteTimeout() { }
 
-	// RVA: 0x1218C70 Offset: 0x1217270 VA: 0x181218C70
+	// RVA: 0x1219310 Offset: 0x1217910 VA: 0x181219310
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1218A80 Offset: 0x1217080 VA: 0x181218A80
+	// RVA: 0x1219120 Offset: 0x1217720 VA: 0x181219120
 	private void <InnerWrite>b__67_0() { }
 
 }
@@ -211,7 +211,7 @@ private struct MobileAuthenticatedStream.<ProcessAuthentication>d__47 : IAsyncSt
 
 	// Methods
 
-	// RVA: 0x1D1E80 Offset: 0x1D1280 VA: 0x1801D1E80 Slot: 4
+	// RVA: 0x1D24F0 Offset: 0x1D18F0 VA: 0x1801D24F0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -232,11 +232,11 @@ private struct MobileAuthenticatedStream.<StartOperation>d__58 : IAsyncStateMach
 
 	// Methods
 
-	// RVA: 0x1D1F00 Offset: 0x1D1300 VA: 0x1801D1F00 Slot: 4
+	// RVA: 0x1D2570 Offset: 0x1D1970 VA: 0x1801D2570 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1D1F10 Offset: 0x1D1310 VA: 0x1801D1F10 Slot: 5
+	// RVA: 0x1D2580 Offset: 0x1D1980 VA: 0x1801D2580 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -251,7 +251,7 @@ private sealed class MobileAuthenticatedStream.<>c__DisplayClass66_0 // TypeDefI
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x121E380 Offset: 0x121C980 VA: 0x18121E380
+	// RVA: 0x121EA20 Offset: 0x121D020 VA: 0x18121EA20
 	internal int <InnerRead>b__0() { }
 
 }
@@ -268,11 +268,11 @@ private struct MobileAuthenticatedStream.<InnerRead>d__66 : IAsyncStateMachine /
 
 	// Methods
 
-	// RVA: 0x1D1E10 Offset: 0x1D1210 VA: 0x1801D1E10 Slot: 4
+	// RVA: 0x1D2480 Offset: 0x1D1880 VA: 0x1801D2480 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1D1E20 Offset: 0x1D1220 VA: 0x1801D1E20 Slot: 5
+	// RVA: 0x1D2490 Offset: 0x1D1890 VA: 0x1801D2490 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -288,7 +288,7 @@ private struct MobileAuthenticatedStream.<InnerWrite>d__67 : IAsyncStateMachine 
 
 	// Methods
 
-	// RVA: 0x1D1E70 Offset: 0x1D1270 VA: 0x1801D1E70 Slot: 4
+	// RVA: 0x1D24E0 Offset: 0x1D18E0 VA: 0x1801D24E0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

@@ -11,13 +11,13 @@ internal struct UserFavoriteItemsListChanged_t : ICallbackData // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1DC6E0 Offset: 0x1DBAE0 VA: 0x1801DC6E0 Slot: 5
+	// RVA: 0x1DCD50 Offset: 0x1DC150 VA: 0x1801DCD50 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DC6D0 Offset: 0x1DBAD0 VA: 0x1801DC6D0 Slot: 4
+	// RVA: 0x1DCD40 Offset: 0x1DC140 VA: 0x1801DCD40 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1291F60 Offset: 0x1290560 VA: 0x181291F60
+	// RVA: 0x1292600 Offset: 0x1290C00 VA: 0x181292600
 	private static void .cctor() { }
 
 }

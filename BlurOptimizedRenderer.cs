@@ -5,13 +5,13 @@ public class BlurOptimizedRenderer : PostProcessEffectRenderer<BlurOptimized> //
 
 	// Methods
 
-	// RVA: 0x516070 Offset: 0x514670 VA: 0x180516070 Slot: 4
+	// RVA: 0x516000 Offset: 0x514600 VA: 0x180516000 Slot: 4
 	public override void Init() { }
 
-	// RVA: 0x5160C0 Offset: 0x5146C0 VA: 0x1805160C0 Slot: 8
+	// RVA: 0x516050 Offset: 0x514650 VA: 0x180516050 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x5168F0 Offset: 0x514EF0 VA: 0x1805168F0
+	// RVA: 0x516880 Offset: 0x514E80 VA: 0x180516880
 	public void .ctor() { }
 
 }

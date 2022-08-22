@@ -1,301 +1,301 @@
 internal class ISteamUGC : SteamInterface // TypeDefIndex: 5130
 {	// Methods
 
-	// RVA: 0xDD8700 Offset: 0xDD6D00 VA: 0x180DD8700
+	// RVA: 0xDD91B0 Offset: 0xDD77B0 VA: 0x180DD91B0
 	internal void .ctor(bool IsGameServer) { }
 
-	// RVA: 0xDDA180 Offset: 0xDD8780 VA: 0x180DDA180
+	// RVA: 0xDDAC30 Offset: 0xDD9230 VA: 0x180DDAC30
 	internal static extern IntPtr SteamAPI_SteamUGC_v016() { }
 
-	// RVA: 0xDDA180 Offset: 0xDD8780 VA: 0x180DDA180 Slot: 4
+	// RVA: 0xDDAC30 Offset: 0xDD9230 VA: 0x180DDAC30 Slot: 4
 	public override IntPtr GetUserInterfacePointer() { }
 
-	// RVA: 0xDDA110 Offset: 0xDD8710 VA: 0x180DDA110
+	// RVA: 0xDDABC0 Offset: 0xDD91C0 VA: 0x180DDABC0
 	internal static extern IntPtr SteamAPI_SteamGameServerUGC_v016() { }
 
-	// RVA: 0xDDA110 Offset: 0xDD8710 VA: 0x180DDA110 Slot: 5
+	// RVA: 0xDDABC0 Offset: 0xDD91C0 VA: 0x180DDABC0 Slot: 5
 	public override IntPtr GetServerInterfacePointer() { }
 
-	// RVA: 0xDDB960 Offset: 0xDD9F60 VA: 0x180DDB960
+	// RVA: 0xDDC410 Offset: 0xDDAA10 VA: 0x180DDC410
 	private static extern UGCQueryHandle_t _CreateQueryUserUGCRequest(IntPtr self, AccountID_t unAccountID, UserUGCList eListType, UgcType eMatchingUGCType, UserUGCListSortOrder eSortOrder, AppId nCreatorAppID, AppId nConsumerAppID, uint unPage) { }
 
-	// RVA: 0xDD9000 Offset: 0xDD7600 VA: 0x180DD9000
+	// RVA: 0xDD9AB0 Offset: 0xDD80B0 VA: 0x180DD9AB0
 	internal UGCQueryHandle_t CreateQueryUserUGCRequest(AccountID_t unAccountID, UserUGCList eListType, UgcType eMatchingUGCType, UserUGCListSortOrder eSortOrder, AppId nCreatorAppID, AppId nConsumerAppID, uint unPage) { }
 
-	// RVA: 0xDDB800 Offset: 0xDD9E00 VA: 0x180DDB800
+	// RVA: 0xDDC2B0 Offset: 0xDDA8B0 VA: 0x180DDC2B0
 	private static extern UGCQueryHandle_t _CreateQueryAllUGCRequest(IntPtr self, UGCQuery eQueryType, UgcType eMatchingeMatchingUGCTypeFileType, AppId nCreatorAppID, AppId nConsumerAppID, uint unPage) { }
 
-	// RVA: 0xDD8EA0 Offset: 0xDD74A0 VA: 0x180DD8EA0
+	// RVA: 0xDD9950 Offset: 0xDD7F50 VA: 0x180DD9950
 	internal UGCQueryHandle_t CreateQueryAllUGCRequest(UGCQuery eQueryType, UgcType eMatchingeMatchingUGCTypeFileType, AppId nCreatorAppID, AppId nConsumerAppID, uint unPage) { }
 
-	// RVA: 0xDDB8C0 Offset: 0xDD9EC0 VA: 0x180DDB8C0
+	// RVA: 0xDDC370 Offset: 0xDDA970 VA: 0x180DDC370
 	private static extern UGCQueryHandle_t _CreateQueryUGCDetailsRequest(IntPtr self, [In] [Out] PublishedFileId[] pvecPublishedFileID, uint unNumPublishedFileIDs) { }
 
-	// RVA: 0xDD8F60 Offset: 0xDD7560 VA: 0x180DD8F60
+	// RVA: 0xDD9A10 Offset: 0xDD8010 VA: 0x180DD9A10
 	internal UGCQueryHandle_t CreateQueryUGCDetailsRequest([In] [Out] PublishedFileId[] pvecPublishedFileID, uint unNumPublishedFileIDs) { }
 
-	// RVA: 0xDDC5C0 Offset: 0xDDABC0 VA: 0x180DDC5C0
+	// RVA: 0xDDD070 Offset: 0xDDB670 VA: 0x180DDD070
 	private static extern SteamAPICall_t _SendQueryUGCRequest(IntPtr self, UGCQueryHandle_t handle) { }
 
-	// RVA: 0xDDA340 Offset: 0xDD8940 VA: 0x180DDA340
+	// RVA: 0xDDADF0 Offset: 0xDD93F0 VA: 0x180DDADF0
 	internal CallResult<SteamUGCQueryCompleted_t> SendQueryUGCRequest(UGCQueryHandle_t handle) { }
 
-	// RVA: 0xDDC230 Offset: 0xDDA830 VA: 0x180DDC230
+	// RVA: 0xDDCCE0 Offset: 0xDDB2E0 VA: 0x180DDCCE0
 	private static extern bool _GetQueryUGCResult(IntPtr self, UGCQueryHandle_t handle, uint index, ref SteamUGCDetails_t pDetails) { }
 
-	// RVA: 0xDDA030 Offset: 0xDD8630 VA: 0x180DDA030
+	// RVA: 0xDDAAE0 Offset: 0xDD90E0 VA: 0x180DDAAE0
 	internal bool GetQueryUGCResult(UGCQueryHandle_t handle, uint index, ref SteamUGCDetails_t pDetails) { }
 
-	// RVA: 0xDDC170 Offset: 0xDDA770 VA: 0x180DDC170
+	// RVA: 0xDDCC20 Offset: 0xDDB220 VA: 0x180DDCC20
 	private static extern bool _GetQueryUGCPreviewURL(IntPtr self, UGCQueryHandle_t handle, uint index, IntPtr pchURL, uint cchURLSize) { }
 
-	// RVA: 0xDD9E30 Offset: 0xDD8430 VA: 0x180DD9E30
+	// RVA: 0xDDA8E0 Offset: 0xDD8EE0 VA: 0x180DDA8E0
 	internal bool GetQueryUGCPreviewURL(UGCQueryHandle_t handle, uint index, out string pchURL) { }
 
-	// RVA: 0xDDBF70 Offset: 0xDDA570 VA: 0x180DDBF70
+	// RVA: 0xDDCA20 Offset: 0xDDB020 VA: 0x180DDCA20
 	private static extern bool _GetQueryUGCMetadata(IntPtr self, UGCQueryHandle_t handle, uint index, IntPtr pchMetadata, uint cchMetadatasize) { }
 
-	// RVA: 0xDD9AF0 Offset: 0xDD80F0 VA: 0x180DD9AF0
+	// RVA: 0xDDA5A0 Offset: 0xDD8BA0 VA: 0x180DDA5A0
 	internal bool GetQueryUGCMetadata(UGCQueryHandle_t handle, uint index, out string pchMetadata) { }
 
-	// RVA: 0xDDBDD0 Offset: 0xDDA3D0 VA: 0x180DDBDD0
+	// RVA: 0xDDC880 Offset: 0xDDAE80 VA: 0x180DDC880
 	private static extern bool _GetQueryUGCChildren(IntPtr self, UGCQueryHandle_t handle, uint index, [In] [Out] PublishedFileId[] pvecPublishedFileID, uint cMaxEntries) { }
 
-	// RVA: 0xDD9780 Offset: 0xDD7D80 VA: 0x180DD9780
+	// RVA: 0xDDA230 Offset: 0xDD8830 VA: 0x180DDA230
 	internal bool GetQueryUGCChildren(UGCQueryHandle_t handle, uint index, [In] [Out] PublishedFileId[] pvecPublishedFileID, uint cMaxEntries) { }
 
-	// RVA: 0xDDC3C0 Offset: 0xDDA9C0 VA: 0x180DDC3C0
+	// RVA: 0xDDCE70 Offset: 0xDDB470 VA: 0x180DDCE70
 	private static extern bool _GetQueryUGCStatistic(IntPtr self, UGCQueryHandle_t handle, uint index, ItemStatistic eStatType, ref ulong pStatValue) { }
 
-	// RVA: 0xDDA050 Offset: 0xDD8650 VA: 0x180DDA050
+	// RVA: 0xDDAB00 Offset: 0xDD9100 VA: 0x180DDAB00
 	internal bool GetQueryUGCStatistic(UGCQueryHandle_t handle, uint index, ItemStatistic eStatType, ref ulong pStatValue) { }
 
-	// RVA: 0xDDC030 Offset: 0xDDA630 VA: 0x180DDC030
+	// RVA: 0xDDCAE0 Offset: 0xDDB0E0 VA: 0x180DDCAE0
 	private static extern uint _GetQueryUGCNumAdditionalPreviews(IntPtr self, UGCQueryHandle_t handle, uint index) { }
 
-	// RVA: 0xDD9CF0 Offset: 0xDD82F0 VA: 0x180DD9CF0
+	// RVA: 0xDDA7A0 Offset: 0xDD8DA0 VA: 0x180DDA7A0
 	internal uint GetQueryUGCNumAdditionalPreviews(UGCQueryHandle_t handle, uint index) { }
 
-	// RVA: 0xDDBCE0 Offset: 0xDDA2E0 VA: 0x180DDBCE0
+	// RVA: 0xDDC790 Offset: 0xDDAD90 VA: 0x180DDC790
 	private static extern bool _GetQueryUGCAdditionalPreview(IntPtr self, UGCQueryHandle_t handle, uint index, uint previewIndex, IntPtr pchURLOrVideoID, uint cchURLSize, IntPtr pchOriginalFileName, uint cchOriginalFileNameSize, ref ItemPreviewType pPreviewType) { }
 
-	// RVA: 0xDD94C0 Offset: 0xDD7AC0 VA: 0x180DD94C0
+	// RVA: 0xDD9F70 Offset: 0xDD8570 VA: 0x180DD9F70
 	internal bool GetQueryUGCAdditionalPreview(UGCQueryHandle_t handle, uint index, uint previewIndex, out string pchURLOrVideoID, out string pchOriginalFileName, ref ItemPreviewType pPreviewType) { }
 
-	// RVA: 0xDDC0D0 Offset: 0xDDA6D0 VA: 0x180DDC0D0
+	// RVA: 0xDDCB80 Offset: 0xDDB180 VA: 0x180DDCB80
 	private static extern uint _GetQueryUGCNumKeyValueTags(IntPtr self, UGCQueryHandle_t handle, uint index) { }
 
-	// RVA: 0xDD9D90 Offset: 0xDD8390 VA: 0x180DD9D90
+	// RVA: 0xDDA840 Offset: 0xDD8E40 VA: 0x180DDA840
 	internal uint GetQueryUGCNumKeyValueTags(UGCQueryHandle_t handle, uint index) { }
 
-	// RVA: 0xDDBE90 Offset: 0xDDA490 VA: 0x180DDBE90
+	// RVA: 0xDDC940 Offset: 0xDDAF40 VA: 0x180DDC940
 	private static extern bool _GetQueryUGCKeyValueTag(IntPtr self, UGCQueryHandle_t handle, uint index, uint keyValueTagIndex, IntPtr pchKey, uint cchKeySize, IntPtr pchValue, uint cchValueSize) { }
 
-	// RVA: 0xDD9840 Offset: 0xDD7E40 VA: 0x180DD9840
+	// RVA: 0xDDA2F0 Offset: 0xDD88F0 VA: 0x180DDA2F0
 	internal bool GetQueryUGCKeyValueTag(UGCQueryHandle_t handle, uint index, uint keyValueTagIndex, out string pchKey, out string pchValue) { }
 
-	// RVA: 0xDDC480 Offset: 0xDDAA80 VA: 0x180DDC480
+	// RVA: 0xDDCF30 Offset: 0xDDB530 VA: 0x180DDCF30
 	private static extern bool _ReleaseQueryUGCRequest(IntPtr self, UGCQueryHandle_t handle) { }
 
-	// RVA: 0xDDA1F0 Offset: 0xDD87F0 VA: 0x180DDA1F0
+	// RVA: 0xDDACA0 Offset: 0xDD92A0 VA: 0x180DDACA0
 	internal bool ReleaseQueryUGCRequest(UGCQueryHandle_t handle) { }
 
-	// RVA: 0xDDB6B0 Offset: 0xDD9CB0 VA: 0x180DDB6B0
+	// RVA: 0xDDC160 Offset: 0xDDA760 VA: 0x180DDC160
 	private static extern bool _AddRequiredTag(IntPtr self, UGCQueryHandle_t handle, string pTagName) { }
 
-	// RVA: 0xDD8CE0 Offset: 0xDD72E0 VA: 0x180DD8CE0
+	// RVA: 0xDD9790 Offset: 0xDD7D90 VA: 0x180DD9790
 	internal bool AddRequiredTag(UGCQueryHandle_t handle, string pTagName) { }
 
-	// RVA: 0xDDB440 Offset: 0xDD9A40 VA: 0x180DDB440
+	// RVA: 0xDDBEF0 Offset: 0xDDA4F0 VA: 0x180DDBEF0
 	private static extern bool _AddExcludedTag(IntPtr self, UGCQueryHandle_t handle, string pTagName) { }
 
-	// RVA: 0xDD8A60 Offset: 0xDD7060 VA: 0x180DD8A60
+	// RVA: 0xDD9510 Offset: 0xDD7B10 VA: 0x180DD9510
 	internal bool AddExcludedTag(UGCQueryHandle_t handle, string pTagName) { }
 
-	// RVA: 0xDDD0B0 Offset: 0xDDB6B0 VA: 0x180DDD0B0
+	// RVA: 0xDDDB60 Offset: 0xDDC160 VA: 0x180DDDB60
 	private static extern bool _SetReturnOnlyIDs(IntPtr self, UGCQueryHandle_t handle, bool bReturnOnlyIDs) { }
 
-	// RVA: 0xDDAEF0 Offset: 0xDD94F0 VA: 0x180DDAEF0
+	// RVA: 0xDDB9A0 Offset: 0xDD9FA0 VA: 0x180DDB9A0
 	internal bool SetReturnOnlyIDs(UGCQueryHandle_t handle, bool bReturnOnlyIDs) { }
 
-	// RVA: 0xDDCED0 Offset: 0xDDB4D0 VA: 0x180DDCED0
+	// RVA: 0xDDD980 Offset: 0xDDBF80 VA: 0x180DDD980
 	private static extern bool _SetReturnKeyValueTags(IntPtr self, UGCQueryHandle_t handle, bool bReturnKeyValueTags) { }
 
-	// RVA: 0xDDAD10 Offset: 0xDD9310 VA: 0x180DDAD10
+	// RVA: 0xDDB7C0 Offset: 0xDD9DC0 VA: 0x180DDB7C0
 	internal bool SetReturnKeyValueTags(UGCQueryHandle_t handle, bool bReturnKeyValueTags) { }
 
-	// RVA: 0xDDCF70 Offset: 0xDDB570 VA: 0x180DDCF70
+	// RVA: 0xDDDA20 Offset: 0xDDC020 VA: 0x180DDDA20
 	private static extern bool _SetReturnLongDescription(IntPtr self, UGCQueryHandle_t handle, bool bReturnLongDescription) { }
 
-	// RVA: 0xDDADB0 Offset: 0xDD93B0 VA: 0x180DDADB0
+	// RVA: 0xDDB860 Offset: 0xDD9E60 VA: 0x180DDB860
 	internal bool SetReturnLongDescription(UGCQueryHandle_t handle, bool bReturnLongDescription) { }
 
-	// RVA: 0xDDD010 Offset: 0xDDB610 VA: 0x180DDD010
+	// RVA: 0xDDDAC0 Offset: 0xDDC0C0 VA: 0x180DDDAC0
 	private static extern bool _SetReturnMetadata(IntPtr self, UGCQueryHandle_t handle, bool bReturnMetadata) { }
 
-	// RVA: 0xDDAE50 Offset: 0xDD9450 VA: 0x180DDAE50
+	// RVA: 0xDDB900 Offset: 0xDD9F00 VA: 0x180DDB900
 	internal bool SetReturnMetadata(UGCQueryHandle_t handle, bool bReturnMetadata) { }
 
-	// RVA: 0xDDCE30 Offset: 0xDDB430 VA: 0x180DDCE30
+	// RVA: 0xDDD8E0 Offset: 0xDDBEE0 VA: 0x180DDD8E0
 	private static extern bool _SetReturnChildren(IntPtr self, UGCQueryHandle_t handle, bool bReturnChildren) { }
 
-	// RVA: 0xDDAC70 Offset: 0xDD9270 VA: 0x180DDAC70
+	// RVA: 0xDDB720 Offset: 0xDD9D20 VA: 0x180DDB720
 	internal bool SetReturnChildren(UGCQueryHandle_t handle, bool bReturnChildren) { }
 
-	// RVA: 0xDDCD90 Offset: 0xDDB390 VA: 0x180DDCD90
+	// RVA: 0xDDD840 Offset: 0xDDBE40 VA: 0x180DDD840
 	private static extern bool _SetReturnAdditionalPreviews(IntPtr self, UGCQueryHandle_t handle, bool bReturnAdditionalPreviews) { }
 
-	// RVA: 0xDDABD0 Offset: 0xDD91D0 VA: 0x180DDABD0
+	// RVA: 0xDDB680 Offset: 0xDD9C80 VA: 0x180DDB680
 	internal bool SetReturnAdditionalPreviews(UGCQueryHandle_t handle, bool bReturnAdditionalPreviews) { }
 
-	// RVA: 0xDDD1F0 Offset: 0xDDB7F0 VA: 0x180DDD1F0
+	// RVA: 0xDDDCA0 Offset: 0xDDC2A0 VA: 0x180DDDCA0
 	private static extern bool _SetReturnTotalOnly(IntPtr self, UGCQueryHandle_t handle, bool bReturnTotalOnly) { }
 
-	// RVA: 0xDDB030 Offset: 0xDD9630 VA: 0x180DDB030
+	// RVA: 0xDDBAE0 Offset: 0xDDA0E0 VA: 0x180DDBAE0
 	internal bool SetReturnTotalOnly(UGCQueryHandle_t handle, bool bReturnTotalOnly) { }
 
-	// RVA: 0xDDD150 Offset: 0xDDB750 VA: 0x180DDD150
+	// RVA: 0xDDDC00 Offset: 0xDDC200 VA: 0x180DDDC00
 	private static extern bool _SetReturnPlaytimeStats(IntPtr self, UGCQueryHandle_t handle, uint unDays) { }
 
-	// RVA: 0xDDAF90 Offset: 0xDD9590 VA: 0x180DDAF90
+	// RVA: 0xDDBA40 Offset: 0xDDA040 VA: 0x180DDBA40
 	internal bool SetReturnPlaytimeStats(UGCQueryHandle_t handle, uint unDays) { }
 
-	// RVA: 0xDDC650 Offset: 0xDDAC50 VA: 0x180DDC650
+	// RVA: 0xDDD100 Offset: 0xDDB700 VA: 0x180DDD100
 	private static extern bool _SetAllowCachedResponse(IntPtr self, UGCQueryHandle_t handle, uint unMaxAgeSeconds) { }
 
-	// RVA: 0xDDA430 Offset: 0xDD8A30 VA: 0x180DDA430
+	// RVA: 0xDDAEE0 Offset: 0xDD94E0 VA: 0x180DDAEE0
 	internal bool SetAllowCachedResponse(UGCQueryHandle_t handle, uint unMaxAgeSeconds) { }
 
-	// RVA: 0xDDCC50 Offset: 0xDDB250 VA: 0x180DDCC50
+	// RVA: 0xDDD700 Offset: 0xDDBD00 VA: 0x180DDD700
 	private static extern bool _SetMatchAnyTag(IntPtr self, UGCQueryHandle_t handle, bool bMatchAnyTag) { }
 
-	// RVA: 0xDDAA90 Offset: 0xDD9090 VA: 0x180DDAA90
+	// RVA: 0xDDB540 Offset: 0xDD9B40 VA: 0x180DDB540
 	internal bool SetMatchAnyTag(UGCQueryHandle_t handle, bool bMatchAnyTag) { }
 
-	// RVA: 0xDDD290 Offset: 0xDDB890 VA: 0x180DDD290
+	// RVA: 0xDDDD40 Offset: 0xDDC340 VA: 0x180DDDD40
 	private static extern bool _SetSearchText(IntPtr self, UGCQueryHandle_t handle, string pSearchText) { }
 
-	// RVA: 0xDDB0D0 Offset: 0xDD96D0 VA: 0x180DDB0D0
+	// RVA: 0xDDBB80 Offset: 0xDDA180 VA: 0x180DDBB80
 	internal bool SetSearchText(UGCQueryHandle_t handle, string pSearchText) { }
 
-	// RVA: 0xDDCCF0 Offset: 0xDDB2F0 VA: 0x180DDCCF0
+	// RVA: 0xDDD7A0 Offset: 0xDDBDA0 VA: 0x180DDD7A0
 	private static extern bool _SetRankedByTrendDays(IntPtr self, UGCQueryHandle_t handle, uint unDays) { }
 
-	// RVA: 0xDDAB30 Offset: 0xDD9130 VA: 0x180DDAB30
+	// RVA: 0xDDB5E0 Offset: 0xDD9BE0 VA: 0x180DDB5E0
 	internal bool SetRankedByTrendDays(UGCQueryHandle_t handle, uint unDays) { }
 
-	// RVA: 0xDDB5D0 Offset: 0xDD9BD0 VA: 0x180DDB5D0
+	// RVA: 0xDDC080 Offset: 0xDDA680 VA: 0x180DDC080
 	private static extern bool _AddRequiredKeyValueTag(IntPtr self, UGCQueryHandle_t handle, string pKey, string pValue) { }
 
-	// RVA: 0xDD8C00 Offset: 0xDD7200 VA: 0x180DD8C00
+	// RVA: 0xDD96B0 Offset: 0xDD7CB0 VA: 0x180DD96B0
 	internal bool AddRequiredKeyValueTag(UGCQueryHandle_t handle, string pKey, string pValue) { }
 
-	// RVA: 0xDDB760 Offset: 0xDD9D60 VA: 0x180DDB760
+	// RVA: 0xDDC210 Offset: 0xDDA810 VA: 0x180DDC210
 	private static extern SteamAPICall_t _CreateItem(IntPtr self, AppId nConsumerAppId, WorkshopFileType eFileType) { }
 
-	// RVA: 0xDD8DA0 Offset: 0xDD73A0 VA: 0x180DD8DA0
+	// RVA: 0xDD9850 Offset: 0xDD7E50 VA: 0x180DD9850
 	internal CallResult<CreateItemResult_t> CreateItem(AppId nConsumerAppId, WorkshopFileType eFileType) { }
 
-	// RVA: 0xDDD3E0 Offset: 0xDDB9E0 VA: 0x180DDD3E0
+	// RVA: 0xDDDE90 Offset: 0xDDC490 VA: 0x180DDDE90
 	private static extern UGCUpdateHandle_t _StartItemUpdate(IntPtr self, AppId nConsumerAppId, PublishedFileId nPublishedFileID) { }
 
-	// RVA: 0xDDB290 Offset: 0xDD9890 VA: 0x180DDB290
+	// RVA: 0xDDBD40 Offset: 0xDDA340 VA: 0x180DDBD40
 	internal UGCUpdateHandle_t StartItemUpdate(AppId nConsumerAppId, PublishedFileId nPublishedFileID) { }
 
-	// RVA: 0xDDCA50 Offset: 0xDDB050 VA: 0x180DDCA50
+	// RVA: 0xDDD500 Offset: 0xDDBB00 VA: 0x180DDD500
 	private static extern bool _SetItemTitle(IntPtr self, UGCUpdateHandle_t handle, string pchTitle) { }
 
-	// RVA: 0xDDA870 Offset: 0xDD8E70 VA: 0x180DDA870
+	// RVA: 0xDDB320 Offset: 0xDD9920 VA: 0x180DDB320
 	internal bool SetItemTitle(UGCUpdateHandle_t handle, string pchTitle) { }
 
-	// RVA: 0xDDC7A0 Offset: 0xDDADA0 VA: 0x180DDC7A0
+	// RVA: 0xDDD250 Offset: 0xDDB850 VA: 0x180DDD250
 	private static extern bool _SetItemDescription(IntPtr self, UGCUpdateHandle_t handle, string pchDescription) { }
 
-	// RVA: 0xDDA590 Offset: 0xDD8B90 VA: 0x180DDA590
+	// RVA: 0xDDB040 Offset: 0xDD9640 VA: 0x180DDB040
 	internal bool SetItemDescription(UGCUpdateHandle_t handle, string pchDescription) { }
 
-	// RVA: 0xDDCB00 Offset: 0xDDB100 VA: 0x180DDCB00
+	// RVA: 0xDDD5B0 Offset: 0xDDBBB0 VA: 0x180DDD5B0
 	private static extern bool _SetItemUpdateLanguage(IntPtr self, UGCUpdateHandle_t handle, string pchLanguage) { }
 
-	// RVA: 0xDDA930 Offset: 0xDD8F30 VA: 0x180DDA930
+	// RVA: 0xDDB3E0 Offset: 0xDD99E0 VA: 0x180DDB3E0
 	internal bool SetItemUpdateLanguage(UGCUpdateHandle_t handle, string pchLanguage) { }
 
-	// RVA: 0xDDC850 Offset: 0xDDAE50 VA: 0x180DDC850
+	// RVA: 0xDDD300 Offset: 0xDDB900 VA: 0x180DDD300
 	private static extern bool _SetItemMetadata(IntPtr self, UGCUpdateHandle_t handle, string pchMetaData) { }
 
-	// RVA: 0xDDA650 Offset: 0xDD8C50 VA: 0x180DDA650
+	// RVA: 0xDDB100 Offset: 0xDD9700 VA: 0x180DDB100
 	internal bool SetItemMetadata(UGCUpdateHandle_t handle, string pchMetaData) { }
 
-	// RVA: 0xDDCBB0 Offset: 0xDDB1B0 VA: 0x180DDCBB0
+	// RVA: 0xDDD660 Offset: 0xDDBC60 VA: 0x180DDD660
 	private static extern bool _SetItemVisibility(IntPtr self, UGCUpdateHandle_t handle, RemoteStoragePublishedFileVisibility eVisibility) { }
 
-	// RVA: 0xDDA9F0 Offset: 0xDD8FF0 VA: 0x180DDA9F0
+	// RVA: 0xDDB4A0 Offset: 0xDD9AA0 VA: 0x180DDB4A0
 	internal bool SetItemVisibility(UGCUpdateHandle_t handle, RemoteStoragePublishedFileVisibility eVisibility) { }
 
-	// RVA: 0xDDC9B0 Offset: 0xDDAFB0 VA: 0x180DDC9B0
+	// RVA: 0xDDD460 Offset: 0xDDBA60 VA: 0x180DDD460
 	private static extern bool _SetItemTags(IntPtr self, UGCUpdateHandle_t updateHandle, ref SteamParamStringArray_t pTags) { }
 
-	// RVA: 0xDDA7D0 Offset: 0xDD8DD0 VA: 0x180DDA7D0
+	// RVA: 0xDDB280 Offset: 0xDD9880 VA: 0x180DDB280
 	internal bool SetItemTags(UGCUpdateHandle_t updateHandle, ref SteamParamStringArray_t pTags) { }
 
-	// RVA: 0xDDC6F0 Offset: 0xDDACF0 VA: 0x180DDC6F0
+	// RVA: 0xDDD1A0 Offset: 0xDDB7A0 VA: 0x180DDD1A0
 	private static extern bool _SetItemContent(IntPtr self, UGCUpdateHandle_t handle, string pszContentFolder) { }
 
-	// RVA: 0xDDA4D0 Offset: 0xDD8AD0 VA: 0x180DDA4D0
+	// RVA: 0xDDAF80 Offset: 0xDD9580 VA: 0x180DDAF80
 	internal bool SetItemContent(UGCUpdateHandle_t handle, string pszContentFolder) { }
 
-	// RVA: 0xDDC900 Offset: 0xDDAF00 VA: 0x180DDC900
+	// RVA: 0xDDD3B0 Offset: 0xDDB9B0 VA: 0x180DDD3B0
 	private static extern bool _SetItemPreview(IntPtr self, UGCUpdateHandle_t handle, string pszPreviewFile) { }
 
-	// RVA: 0xDDA710 Offset: 0xDD8D10 VA: 0x180DDA710
+	// RVA: 0xDDB1C0 Offset: 0xDD97C0 VA: 0x180DDB1C0
 	internal bool SetItemPreview(UGCUpdateHandle_t handle, string pszPreviewFile) { }
 
-	// RVA: 0xDDC510 Offset: 0xDDAB10 VA: 0x180DDC510
+	// RVA: 0xDDCFC0 Offset: 0xDDB5C0 VA: 0x180DDCFC0
 	private static extern bool _RemoveItemKeyValueTags(IntPtr self, UGCUpdateHandle_t handle, string pchKey) { }
 
-	// RVA: 0xDDA280 Offset: 0xDD8880 VA: 0x180DDA280
+	// RVA: 0xDDAD30 Offset: 0xDD9330 VA: 0x180DDAD30
 	internal bool RemoveItemKeyValueTags(UGCUpdateHandle_t handle, string pchKey) { }
 
-	// RVA: 0xDDB4F0 Offset: 0xDD9AF0 VA: 0x180DDB4F0
+	// RVA: 0xDDBFA0 Offset: 0xDDA5A0 VA: 0x180DDBFA0
 	private static extern bool _AddItemKeyValueTag(IntPtr self, UGCUpdateHandle_t handle, string pchKey, string pchValue) { }
 
-	// RVA: 0xDD8B20 Offset: 0xDD7120 VA: 0x180DD8B20
+	// RVA: 0xDD95D0 Offset: 0xDD7BD0 VA: 0x180DD95D0
 	internal bool AddItemKeyValueTag(UGCUpdateHandle_t handle, string pchKey, string pchValue) { }
 
-	// RVA: 0xDDD480 Offset: 0xDDBA80 VA: 0x180DDD480
+	// RVA: 0xDDDF30 Offset: 0xDDC530 VA: 0x180DDDF30
 	private static extern SteamAPICall_t _SubmitItemUpdate(IntPtr self, UGCUpdateHandle_t handle, string pchChangeNote) { }
 
-	// RVA: 0xDDB330 Offset: 0xDD9930 VA: 0x180DDB330
+	// RVA: 0xDDBDE0 Offset: 0xDDA3E0 VA: 0x180DDBDE0
 	internal CallResult<SubmitItemUpdateResult_t> SubmitItemUpdate(UGCUpdateHandle_t handle, string pchChangeNote) { }
 
-	// RVA: 0xDDBC30 Offset: 0xDDA230 VA: 0x180DDBC30
+	// RVA: 0xDDC6E0 Offset: 0xDDACE0 VA: 0x180DDC6E0
 	private static extern ItemUpdateStatus _GetItemUpdateProgress(IntPtr self, UGCUpdateHandle_t handle, ref ulong punBytesProcessed, ref ulong punBytesTotal) { }
 
-	// RVA: 0xDD9410 Offset: 0xDD7A10 VA: 0x180DD9410
+	// RVA: 0xDD9EC0 Offset: 0xDD84C0 VA: 0x180DD9EC0
 	internal ItemUpdateStatus GetItemUpdateProgress(UGCUpdateHandle_t handle, ref ulong punBytesProcessed, ref ulong punBytesTotal) { }
 
-	// RVA: 0xDDD340 Offset: 0xDDB940 VA: 0x180DDD340
+	// RVA: 0xDDDDF0 Offset: 0xDDC3F0 VA: 0x180DDDDF0
 	private static extern SteamAPICall_t _SetUserItemVote(IntPtr self, PublishedFileId nPublishedFileID, bool bVoteUp) { }
 
-	// RVA: 0xDDB190 Offset: 0xDD9790 VA: 0x180DDB190
+	// RVA: 0xDDBC40 Offset: 0xDDA240 VA: 0x180DDBC40
 	internal CallResult<SetUserItemVoteResult_t> SetUserItemVote(PublishedFileId nPublishedFileID, bool bVoteUp) { }
 
-	// RVA: 0xDDBBA0 Offset: 0xDDA1A0 VA: 0x180DDBBA0
+	// RVA: 0xDDC650 Offset: 0xDDAC50 VA: 0x180DDC650
 	private static extern uint _GetItemState(IntPtr self, PublishedFileId nPublishedFileID) { }
 
-	// RVA: 0xDD9380 Offset: 0xDD7980 VA: 0x180DD9380
+	// RVA: 0xDD9E30 Offset: 0xDD8430 VA: 0x180DD9E30
 	internal uint GetItemState(PublishedFileId nPublishedFileID) { }
 
-	// RVA: 0xDDBAD0 Offset: 0xDDA0D0 VA: 0x180DDBAD0
+	// RVA: 0xDDC580 Offset: 0xDDAB80 VA: 0x180DDC580
 	private static extern bool _GetItemInstallInfo(IntPtr self, PublishedFileId nPublishedFileID, ref ulong punSizeOnDisk, IntPtr pchFolder, uint cchFolderSize, ref uint punTimeStamp) { }
 
-	// RVA: 0xDD9170 Offset: 0xDD7770 VA: 0x180DD9170
+	// RVA: 0xDD9C20 Offset: 0xDD8220 VA: 0x180DD9C20
 	internal bool GetItemInstallInfo(PublishedFileId nPublishedFileID, ref ulong punSizeOnDisk, out string pchFolder, ref uint punTimeStamp) { }
 
-	// RVA: 0xDDBA30 Offset: 0xDDA030 VA: 0x180DDBA30
+	// RVA: 0xDDC4E0 Offset: 0xDDAAE0 VA: 0x180DDC4E0
 	private static extern bool _DownloadItem(IntPtr self, PublishedFileId nPublishedFileID, bool bHighPriority) { }
 
-	// RVA: 0xDD90D0 Offset: 0xDD76D0 VA: 0x180DD90D0
+	// RVA: 0xDD9B80 Offset: 0xDD8180 VA: 0x180DD9B80
 	internal bool DownloadItem(PublishedFileId nPublishedFileID, bool bHighPriority) { }
 
 }

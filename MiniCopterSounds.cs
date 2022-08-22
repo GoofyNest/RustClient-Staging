@@ -37,10 +37,10 @@ public class MiniCopterSounds : MonoBehaviour, IClientComponent // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x764F30 Offset: 0x763530 VA: 0x180764F30
+	// RVA: 0x764E80 Offset: 0x763480 VA: 0x180764E80
 	private void Update() { }
 
-	// RVA: 0x765BC0 Offset: 0x7641C0 VA: 0x180765BC0
+	// RVA: 0x765B10 Offset: 0x764110 VA: 0x180765B10
 	public void .ctor() { }
 
 }

@@ -10,10 +10,10 @@ internal class MibIPGlobalProperties : UnixIPGlobalProperties // TypeDefIndex: 3
 
 	// Methods
 
-	// RVA: 0x1346B20 Offset: 0x1345120 VA: 0x181346B20
+	// RVA: 0x1345C20 Offset: 0x1344220 VA: 0x181345C20
 	public void .ctor(string procDir) { }
 
-	// RVA: 0x1346A80 Offset: 0x1345080 VA: 0x181346A80
+	// RVA: 0x1345B80 Offset: 0x1344180 VA: 0x181345B80
 	private static void .cctor() { }
 
 }

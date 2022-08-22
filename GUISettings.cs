@@ -20,25 +20,25 @@ public sealed class GUISettings // TypeDefIndex: 4043
 
 	// Methods
 
-	// RVA: 0x1A76B30 Offset: 0x1A75130 VA: 0x181A76B30
+	// RVA: 0x1A63060 Offset: 0x1A61660 VA: 0x181A63060
 	private static float Internal_GetCursorFlashSpeed() { }
 
-	// RVA: 0x1A76C20 Offset: 0x1A75220 VA: 0x181A76C20
+	// RVA: 0x1A63150 Offset: 0x1A61750 VA: 0x181A63150
 	public bool get_doubleClickSelectsWord() { }
 
-	// RVA: 0x1A76C40 Offset: 0x1A75240 VA: 0x181A76C40
+	// RVA: 0x1A63170 Offset: 0x1A61770 VA: 0x181A63170
 	public bool get_tripleClickSelectsLine() { }
 
-	// RVA: 0x1A76BD0 Offset: 0x1A751D0 VA: 0x181A76BD0
+	// RVA: 0x1A63100 Offset: 0x1A61700 VA: 0x181A63100
 	public Color get_cursorColor() { }
 
-	// RVA: 0x1A76BE0 Offset: 0x1A751E0 VA: 0x181A76BE0
+	// RVA: 0x1A63110 Offset: 0x1A61710 VA: 0x181A63110
 	public float get_cursorFlashSpeed() { }
 
-	// RVA: 0x1A76C30 Offset: 0x1A75230 VA: 0x181A76C30
+	// RVA: 0x1A63160 Offset: 0x1A61760 VA: 0x181A63160
 	public Color get_selectionColor() { }
 
-	// RVA: 0x1A76B60 Offset: 0x1A75160 VA: 0x181A76B60
+	// RVA: 0x1A63090 Offset: 0x1A61690 VA: 0x181A63090
 	public void .ctor() { }
 
 }

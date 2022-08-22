@@ -6,10 +6,10 @@ public class WorkshopViewmodelControls : MonoBehaviour // TypeDefIndex: 7747
 
 	// Methods
 
-	// RVA: 0xE88280 Offset: 0xE86880 VA: 0x180E88280
+	// RVA: 0xE88D30 Offset: 0xE87330 VA: 0x180E88D30
 	private void Clear() { }
 
-	// RVA: 0xE882B0 Offset: 0xE868B0 VA: 0x180E882B0
+	// RVA: 0xE88D60 Offset: 0xE87360 VA: 0x180E88D60
 	internal void DoUpdate(GameObject ViewModel) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

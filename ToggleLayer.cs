@@ -6,13 +6,13 @@ public class ToggleLayer : MonoBehaviour, IClientComponent // TypeDefIndex: 1113
 
 	// Methods
 
-	// RVA: 0x88C8B0 Offset: 0x88AEB0 VA: 0x18088C8B0
+	// RVA: 0x86FBF0 Offset: 0x86E1F0 VA: 0x18086FBF0
 	protected void OnEnable() { }
 
-	// RVA: 0x88C9C0 Offset: 0x88AFC0 VA: 0x18088C9C0
+	// RVA: 0x86FD00 Offset: 0x86E300 VA: 0x18086FD00
 	public void OnToggleChanged() { }
 
-	// RVA: 0x88CB30 Offset: 0x88B130 VA: 0x18088CB30
+	// RVA: 0x86FE70 Offset: 0x86E470 VA: 0x18086FE70
 	protected void OnValidate() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

@@ -21,13 +21,13 @@ internal struct RemoteStorageFileShareResult_t : ICallbackData // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1D6960 Offset: 0x1D5D60 VA: 0x1801D6960 Slot: 5
+	// RVA: 0x1D6FD0 Offset: 0x1D63D0 VA: 0x1801D6FD0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D6950 Offset: 0x1D5D50 VA: 0x1801D6950 Slot: 4
+	// RVA: 0x1D6FC0 Offset: 0x1D63C0 VA: 0x1801D6FC0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E030 Offset: 0x128C630 VA: 0x18128E030
+	// RVA: 0x128E6D0 Offset: 0x128CCD0 VA: 0x18128E6D0
 	private static void .cctor() { }
 
 }
@@ -45,13 +45,13 @@ internal struct RemoteStoragePublishFileResult_t : ICallbackData // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1D7470 Offset: 0x1D6870 VA: 0x1801D7470 Slot: 5
+	// RVA: 0x1D7AE0 Offset: 0x1D6EE0 VA: 0x1801D7AE0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7460 Offset: 0x1D6860 VA: 0x1801D7460 Slot: 4
+	// RVA: 0x1D7AD0 Offset: 0x1D6ED0 VA: 0x1801D7AD0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E3F0 Offset: 0x128C9F0 VA: 0x18128E3F0
+	// RVA: 0x128EA90 Offset: 0x128D090 VA: 0x18128EA90
 	private static void .cctor() { }
 
 }
@@ -68,13 +68,13 @@ internal struct RemoteStorageDeletePublishedFileResult_t : ICallbackData // Type
 
 	// Methods
 
-	// RVA: 0x1D3170 Offset: 0x1D2570 VA: 0x1801D3170 Slot: 5
+	// RVA: 0x1D37E0 Offset: 0x1D2BE0 VA: 0x1801D37E0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D3160 Offset: 0x1D2560 VA: 0x1801D3160 Slot: 4
+	// RVA: 0x1D37D0 Offset: 0x1D2BD0 VA: 0x1801D37D0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DB30 Offset: 0x128C130 VA: 0x18128DB30
+	// RVA: 0x128E1D0 Offset: 0x128C7D0 VA: 0x18128E1D0
 	private static void .cctor() { }
 
 }
@@ -93,13 +93,13 @@ internal struct RemoteStorageEnumerateUserPublishedFilesResult_t : ICallbackData
 
 	// Methods
 
-	// RVA: 0x1D41C0 Offset: 0x1D35C0 VA: 0x1801D41C0 Slot: 5
+	// RVA: 0x1D4830 Offset: 0x1D3C30 VA: 0x1801D4830 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D41B0 Offset: 0x1D35B0 VA: 0x1801D41B0 Slot: 4
+	// RVA: 0x1D4820 Offset: 0x1D3C20 VA: 0x1801D4820 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DD10 Offset: 0x128C310 VA: 0x18128DD10
+	// RVA: 0x128E3B0 Offset: 0x128C9B0 VA: 0x18128E3B0
 	private static void .cctor() { }
 
 }
@@ -116,13 +116,13 @@ internal struct RemoteStorageSubscribePublishedFileResult_t : ICallbackData // T
 
 	// Methods
 
-	// RVA: 0x1D7710 Offset: 0x1D6B10 VA: 0x1801D7710 Slot: 5
+	// RVA: 0x1D7D80 Offset: 0x1D7180 VA: 0x1801D7D80 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7700 Offset: 0x1D6B00 VA: 0x1801D7700 Slot: 4
+	// RVA: 0x1D7D70 Offset: 0x1D7170 VA: 0x1801D7D70 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E7D0 Offset: 0x128CDD0 VA: 0x18128E7D0
+	// RVA: 0x128EE70 Offset: 0x128D470 VA: 0x18128EE70
 	private static void .cctor() { }
 
 }
@@ -142,13 +142,13 @@ internal struct RemoteStorageEnumerateUserSubscribedFilesResult_t : ICallbackDat
 
 	// Methods
 
-	// RVA: 0x1D4D70 Offset: 0x1D4170 VA: 0x1801D4D70 Slot: 5
+	// RVA: 0x1D53E0 Offset: 0x1D47E0 VA: 0x1801D53E0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D4D60 Offset: 0x1D4160 VA: 0x1801D4D60 Slot: 4
+	// RVA: 0x1D53D0 Offset: 0x1D47D0 VA: 0x1801D53D0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DE50 Offset: 0x128C450 VA: 0x18128DE50
+	// RVA: 0x128E4F0 Offset: 0x128CAF0 VA: 0x18128E4F0
 	private static void .cctor() { }
 
 }
@@ -165,13 +165,13 @@ internal struct RemoteStorageUnsubscribePublishedFileResult_t : ICallbackData //
 
 	// Methods
 
-	// RVA: 0x1D7780 Offset: 0x1D6B80 VA: 0x1801D7780 Slot: 5
+	// RVA: 0x1D7DF0 Offset: 0x1D71F0 VA: 0x1801D7DF0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7770 Offset: 0x1D6B70 VA: 0x1801D7770 Slot: 4
+	// RVA: 0x1D7DE0 Offset: 0x1D71E0 VA: 0x1801D7DE0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E870 Offset: 0x128CE70 VA: 0x18128E870
+	// RVA: 0x128EF10 Offset: 0x128D510 VA: 0x18128EF10
 	private static void .cctor() { }
 
 }
@@ -189,13 +189,13 @@ internal struct RemoteStorageUpdatePublishedFileResult_t : ICallbackData // Type
 
 	// Methods
 
-	// RVA: 0x1D77F0 Offset: 0x1D6BF0 VA: 0x1801D77F0 Slot: 5
+	// RVA: 0x1D7E60 Offset: 0x1D7260 VA: 0x1801D7E60 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D77E0 Offset: 0x1D6BE0 VA: 0x1801D77E0 Slot: 4
+	// RVA: 0x1D7E50 Offset: 0x1D7250 VA: 0x1801D7E50 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E910 Offset: 0x128CF10 VA: 0x18128E910
+	// RVA: 0x128EFB0 Offset: 0x128D5B0 VA: 0x18128EFB0
 	private static void .cctor() { }
 
 }
@@ -216,13 +216,13 @@ internal struct RemoteStorageDownloadUGCResult_t : ICallbackData // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1D31E0 Offset: 0x1D25E0 VA: 0x1801D31E0 Slot: 5
+	// RVA: 0x1D3850 Offset: 0x1D2C50 VA: 0x1801D3850 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D31D0 Offset: 0x1D25D0 VA: 0x1801D31D0 Slot: 4
+	// RVA: 0x1D3840 Offset: 0x1D2C40 VA: 0x1801D3840 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DBD0 Offset: 0x128C1D0 VA: 0x18128DBD0
+	// RVA: 0x128E270 Offset: 0x128C870 VA: 0x18128E270
 	private static void .cctor() { }
 
 }
@@ -258,13 +258,13 @@ internal struct RemoteStorageGetPublishedFileDetailsResult_t : ICallbackData // 
 
 	// Methods
 
-	// RVA: 0x1D6BB0 Offset: 0x1D5FB0 VA: 0x1801D6BB0 Slot: 5
+	// RVA: 0x1D7220 Offset: 0x1D6620 VA: 0x1801D7220 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D6BA0 Offset: 0x1D5FA0 VA: 0x1801D6BA0 Slot: 4
+	// RVA: 0x1D7210 Offset: 0x1D6610 VA: 0x1801D7210 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E170 Offset: 0x128C770 VA: 0x18128E170
+	// RVA: 0x128E810 Offset: 0x128CE10 VA: 0x18128E810
 	private static void .cctor() { }
 
 }
@@ -286,13 +286,13 @@ internal struct RemoteStorageEnumerateWorkshopFilesResult_t : ICallbackData // T
 
 	// Methods
 
-	// RVA: 0x1D5B10 Offset: 0x1D4F10 VA: 0x1801D5B10 Slot: 5
+	// RVA: 0x1D6180 Offset: 0x1D5580 VA: 0x1801D6180 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D5B00 Offset: 0x1D4F00 VA: 0x1801D5B00 Slot: 4
+	// RVA: 0x1D6170 Offset: 0x1D5570 VA: 0x1801D6170 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DEF0 Offset: 0x128C4F0 VA: 0x18128DEF0
+	// RVA: 0x128E590 Offset: 0x128CB90 VA: 0x18128E590
 	private static void .cctor() { }
 
 }
@@ -313,13 +313,13 @@ internal struct RemoteStorageGetPublishedItemVoteDetailsResult_t : ICallbackData
 
 	// Methods
 
-	// RVA: 0x1D7320 Offset: 0x1D6720 VA: 0x1801D7320 Slot: 5
+	// RVA: 0x1D7990 Offset: 0x1D6D90 VA: 0x1801D7990 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7310 Offset: 0x1D6710 VA: 0x1801D7310 Slot: 4
+	// RVA: 0x1D7980 Offset: 0x1D6D80 VA: 0x1801D7980 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E210 Offset: 0x128C810 VA: 0x18128E210
+	// RVA: 0x128E8B0 Offset: 0x128CEB0 VA: 0x18128E8B0
 	private static void .cctor() { }
 
 }
@@ -336,13 +336,13 @@ internal struct RemoteStoragePublishedFileSubscribed_t : ICallbackData // TypeDe
 
 	// Methods
 
-	// RVA: 0x1D7550 Offset: 0x1D6950 VA: 0x1801D7550 Slot: 5
+	// RVA: 0x1D7BC0 Offset: 0x1D6FC0 VA: 0x1801D7BC0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7540 Offset: 0x1D6940 VA: 0x1801D7540 Slot: 4
+	// RVA: 0x1D7BB0 Offset: 0x1D6FB0 VA: 0x1801D7BB0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E530 Offset: 0x128CB30 VA: 0x18128E530
+	// RVA: 0x128EBD0 Offset: 0x128D1D0 VA: 0x18128EBD0
 	private static void .cctor() { }
 
 }
@@ -359,13 +359,13 @@ internal struct RemoteStoragePublishedFileUnsubscribed_t : ICallbackData // Type
 
 	// Methods
 
-	// RVA: 0x1D75C0 Offset: 0x1D69C0 VA: 0x1801D75C0 Slot: 5
+	// RVA: 0x1D7C30 Offset: 0x1D7030 VA: 0x1801D7C30 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D75B0 Offset: 0x1D69B0 VA: 0x1801D75B0 Slot: 4
+	// RVA: 0x1D7C20 Offset: 0x1D7020 VA: 0x1801D7C20 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E5E0 Offset: 0x128CBE0 VA: 0x18128E5E0
+	// RVA: 0x128EC80 Offset: 0x128D280 VA: 0x18128EC80
 	private static void .cctor() { }
 
 }
@@ -382,13 +382,13 @@ internal struct RemoteStoragePublishedFileDeleted_t : ICallbackData // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x1D74E0 Offset: 0x1D68E0 VA: 0x1801D74E0 Slot: 5
+	// RVA: 0x1D7B50 Offset: 0x1D6F50 VA: 0x1801D7B50 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D74D0 Offset: 0x1D68D0 VA: 0x1801D74D0 Slot: 4
+	// RVA: 0x1D7B40 Offset: 0x1D6F40 VA: 0x1801D7B40 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E490 Offset: 0x128CA90 VA: 0x18128E490
+	// RVA: 0x128EB30 Offset: 0x128D130 VA: 0x18128EB30
 	private static void .cctor() { }
 
 }
@@ -405,13 +405,13 @@ internal struct RemoteStorageUpdateUserPublishedItemVoteResult_t : ICallbackData
 
 	// Methods
 
-	// RVA: 0x1D7860 Offset: 0x1D6C60 VA: 0x1801D7860 Slot: 5
+	// RVA: 0x1D7ED0 Offset: 0x1D72D0 VA: 0x1801D7ED0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7850 Offset: 0x1D6C50 VA: 0x1801D7850 Slot: 4
+	// RVA: 0x1D7EC0 Offset: 0x1D72C0 VA: 0x1801D7EC0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E9B0 Offset: 0x128CFB0 VA: 0x18128E9B0
+	// RVA: 0x128F050 Offset: 0x128D650 VA: 0x18128F050
 	private static void .cctor() { }
 
 }
@@ -429,13 +429,13 @@ internal struct RemoteStorageUserVoteDetails_t : ICallbackData // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1D78D0 Offset: 0x1D6CD0 VA: 0x1801D78D0 Slot: 5
+	// RVA: 0x1D7F40 Offset: 0x1D7340 VA: 0x1801D7F40 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D78C0 Offset: 0x1D6CC0 VA: 0x1801D78C0 Slot: 4
+	// RVA: 0x1D7F30 Offset: 0x1D7330 VA: 0x1801D7F30 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128EA50 Offset: 0x128D050 VA: 0x18128EA50
+	// RVA: 0x128F0F0 Offset: 0x128D6F0 VA: 0x18128F0F0
 	private static void .cctor() { }
 
 }
@@ -454,13 +454,13 @@ internal struct RemoteStorageEnumerateUserSharedWorkshopFilesResult_t : ICallbac
 
 	// Methods
 
-	// RVA: 0x1D4960 Offset: 0x1D3D60 VA: 0x1801D4960 Slot: 5
+	// RVA: 0x1D4FD0 Offset: 0x1D43D0 VA: 0x1801D4FD0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D4950 Offset: 0x1D3D50 VA: 0x1801D4950 Slot: 4
+	// RVA: 0x1D4FC0 Offset: 0x1D43C0 VA: 0x1801D4FC0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DDB0 Offset: 0x128C3B0 VA: 0x18128DDB0
+	// RVA: 0x128E450 Offset: 0x128CA50 VA: 0x18128E450
 	private static void .cctor() { }
 
 }
@@ -478,13 +478,13 @@ internal struct RemoteStorageSetUserPublishedFileActionResult_t : ICallbackData 
 
 	// Methods
 
-	// RVA: 0x1D76A0 Offset: 0x1D6AA0 VA: 0x1801D76A0 Slot: 5
+	// RVA: 0x1D7D10 Offset: 0x1D7110 VA: 0x1801D7D10 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7690 Offset: 0x1D6A90 VA: 0x1801D7690 Slot: 4
+	// RVA: 0x1D7D00 Offset: 0x1D7100 VA: 0x1801D7D00 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E730 Offset: 0x128CD30 VA: 0x18128E730
+	// RVA: 0x128EDD0 Offset: 0x128D3D0 VA: 0x18128EDD0
 	private static void .cctor() { }
 
 }
@@ -505,13 +505,13 @@ internal struct RemoteStorageEnumeratePublishedFilesByUserActionResult_t : ICall
 
 	// Methods
 
-	// RVA: 0x1D3400 Offset: 0x1D2800 VA: 0x1801D3400 Slot: 5
+	// RVA: 0x1D3A70 Offset: 0x1D2E70 VA: 0x1801D3A70 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D33F0 Offset: 0x1D27F0 VA: 0x1801D33F0 Slot: 4
+	// RVA: 0x1D3A60 Offset: 0x1D2E60 VA: 0x1801D3A60 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DC70 Offset: 0x128C270 VA: 0x18128DC70
+	// RVA: 0x128E310 Offset: 0x128C910 VA: 0x18128E310
 	private static void .cctor() { }
 
 }
@@ -528,13 +528,13 @@ internal struct RemoteStoragePublishFileProgress_t : ICallbackData // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1D7400 Offset: 0x1D6800 VA: 0x1801D7400 Slot: 5
+	// RVA: 0x1D7A70 Offset: 0x1D6E70 VA: 0x1801D7A70 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D73F0 Offset: 0x1D67F0 VA: 0x1801D73F0 Slot: 4
+	// RVA: 0x1D7A60 Offset: 0x1D6E60 VA: 0x1801D7A60 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E350 Offset: 0x128C950 VA: 0x18128E350
+	// RVA: 0x128E9F0 Offset: 0x128CFF0 VA: 0x18128E9F0
 	private static void .cctor() { }
 
 }
@@ -552,13 +552,13 @@ internal struct RemoteStoragePublishedFileUpdated_t : ICallbackData // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x1D7630 Offset: 0x1D6A30 VA: 0x1801D7630 Slot: 5
+	// RVA: 0x1D7CA0 Offset: 0x1D70A0 VA: 0x1801D7CA0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7620 Offset: 0x1D6A20 VA: 0x1801D7620 Slot: 4
+	// RVA: 0x1D7C90 Offset: 0x1D7090 VA: 0x1801D7C90 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E690 Offset: 0x128CC90 VA: 0x18128E690
+	// RVA: 0x128ED30 Offset: 0x128D330 VA: 0x18128ED30
 	private static void .cctor() { }
 
 }
@@ -574,13 +574,13 @@ internal struct RemoteStorageFileWriteAsyncComplete_t : ICallbackData // TypeDef
 
 	// Methods
 
-	// RVA: 0x1D6B40 Offset: 0x1D5F40 VA: 0x1801D6B40 Slot: 5
+	// RVA: 0x1D71B0 Offset: 0x1D65B0 VA: 0x1801D71B0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D6B30 Offset: 0x1D5F30 VA: 0x1801D6B30 Slot: 4
+	// RVA: 0x1D71A0 Offset: 0x1D65A0 VA: 0x1801D71A0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E0D0 Offset: 0x128C6D0 VA: 0x18128E0D0
+	// RVA: 0x128E770 Offset: 0x128CD70 VA: 0x18128E770
 	private static void .cctor() { }
 
 }
@@ -599,20 +599,20 @@ internal struct RemoteStorageFileReadAsyncComplete_t : ICallbackData // TypeDefI
 
 	// Methods
 
-	// RVA: 0x1D68F0 Offset: 0x1D5CF0 VA: 0x1801D68F0 Slot: 5
+	// RVA: 0x1D6F60 Offset: 0x1D6360 VA: 0x1801D6F60 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D68E0 Offset: 0x1D5CE0 VA: 0x1801D68E0 Slot: 4
+	// RVA: 0x1D6F50 Offset: 0x1D6350 VA: 0x1801D6F50 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128DF90 Offset: 0x128C590 VA: 0x18128DF90
+	// RVA: 0x128E630 Offset: 0x128CC30 VA: 0x18128E630
 	private static void .cctor() { }
 
 }
 
 internal struct RemoteStorageLocalFileChange_t : ICallbackData // TypeDefIndex: 5385
 {	// Fields
-	public static int _datasize; // 0x139A7
+	public static int _datasize; // 0x137E0
 
 	// Properties
 	public int DataSize { get; }
@@ -620,13 +620,13 @@ internal struct RemoteStorageLocalFileChange_t : ICallbackData // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1D7390 Offset: 0x1D6790 VA: 0x1801D7390 Slot: 5
+	// RVA: 0x1D7A00 Offset: 0x1D6E00 VA: 0x1801D7A00 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7380 Offset: 0x1D6780 VA: 0x1801D7380 Slot: 4
+	// RVA: 0x1D79F0 Offset: 0x1D6DF0 VA: 0x1801D79F0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128E2B0 Offset: 0x128C8B0 VA: 0x18128E2B0
+	// RVA: 0x128E950 Offset: 0x128CF50 VA: 0x18128E950
 	private static void .cctor() { }
 
 }

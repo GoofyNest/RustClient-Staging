@@ -16,49 +16,49 @@ public class WaterCullingVolume : MonoBehaviour // TypeDefIndex: 10601
 
 	// Methods
 
-	// RVA: 0x805670 Offset: 0x803C70 VA: 0x180805670
+	// RVA: 0x805C00 Offset: 0x804200 VA: 0x180805C00
 	public Bounds get_WorldBounds() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public Vector4[] get_WorldToLocal() { }
 
-	// RVA: 0x805600 Offset: 0x803C00 VA: 0x180805600
+	// RVA: 0x805B90 Offset: 0x804190 VA: 0x180805B90
 	public bool get_IsVisible() { }
 
-	// RVA: 0x8055F0 Offset: 0x803BF0 VA: 0x1808055F0
+	// RVA: 0x805B80 Offset: 0x804180 VA: 0x180805B80
 	public float get_DistanceToCamera() { }
 
-	// RVA: 0x805610 Offset: 0x803C10 VA: 0x180805610
+	// RVA: 0x805BA0 Offset: 0x8041A0 VA: 0x180805BA0
 	public static HashSet<WaterCullingVolume> get_Volumes() { }
 
-	// RVA: 0x805090 Offset: 0x803690 VA: 0x180805090
+	// RVA: 0x805620 Offset: 0x803C20 VA: 0x180805620
 	private void UpdateTransformInfo() { }
 
-	// RVA: 0x805010 Offset: 0x803610 VA: 0x180805010
+	// RVA: 0x8055A0 Offset: 0x803BA0 VA: 0x1808055A0
 	private void OnEnable() { }
 
-	// RVA: 0x804F40 Offset: 0x803540 VA: 0x180804F40
+	// RVA: 0x8054D0 Offset: 0x803AD0 VA: 0x1808054D0
 	private void OnDisable() { }
 
-	// RVA: 0x8054F0 Offset: 0x803AF0 VA: 0x1808054F0
+	// RVA: 0x805A80 Offset: 0x804080 VA: 0x180805A80
 	private void Update() { }
 
-	// RVA: 0x8053C0 Offset: 0x8039C0 VA: 0x1808053C0
+	// RVA: 0x805950 Offset: 0x803F50 VA: 0x180805950
 	public bool UpdateVisibility(Plane[] frustumPlanes, Vector3 cameraWorldPos) { }
 
-	// RVA: 0x805000 Offset: 0x803600 VA: 0x180805000
+	// RVA: 0x805590 Offset: 0x803B90 VA: 0x180805590
 	protected void OnDrawGizmos() { }
 
-	// RVA: 0x804FF0 Offset: 0x8035F0 VA: 0x180804FF0
+	// RVA: 0x805580 Offset: 0x803B80 VA: 0x180805580
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x804DC0 Offset: 0x8033C0 VA: 0x180804DC0
+	// RVA: 0x805350 Offset: 0x803950 VA: 0x180805350
 	private void DrawGizmos(float alpha) { }
 
-	// RVA: 0x805590 Offset: 0x803B90 VA: 0x180805590
+	// RVA: 0x805B20 Offset: 0x804120 VA: 0x180805B20
 	public void .ctor() { }
 
-	// RVA: 0x805530 Offset: 0x803B30 VA: 0x180805530
+	// RVA: 0x805AC0 Offset: 0x8040C0 VA: 0x180805AC0
 	private static void .cctor() { }
 
 }

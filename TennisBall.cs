@@ -5,10 +5,10 @@ public class TennisBall : SpriteArcadeEntity // TypeDefIndex: 8776
 
 	// Methods
 
-	// RVA: 0x1136170 Offset: 0x1134770 VA: 0x181136170
+	// RVA: 0x1136BE0 Offset: 0x11351E0 VA: 0x181136BE0
 	private void FixedUpdate() { }
 
-	// RVA: 0x11368F0 Offset: 0x1134EF0 VA: 0x1811368F0
+	// RVA: 0x1137360 Offset: 0x1135960 VA: 0x181137360
 	public void .ctor() { }
 
 }

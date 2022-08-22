@@ -13,13 +13,13 @@ internal struct GetAppDependenciesResult_t : ICallbackData // TypeDefIndex: 5445
 
 	// Methods
 
-	// RVA: 0x1E8CE0 Offset: 0x1E80E0 VA: 0x1801E8CE0 Slot: 5
+	// RVA: 0x1E9100 Offset: 0x1E8500 VA: 0x1801E9100 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E8CD0 Offset: 0x1E80D0 VA: 0x1801E8CD0 Slot: 4
+	// RVA: 0x1E90F0 Offset: 0x1E84F0 VA: 0x1801E90F0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13719B0 Offset: 0x136FFB0 VA: 0x1813719B0
+	// RVA: 0x1370AB0 Offset: 0x136F0B0 VA: 0x181370AB0
 	private static void .cctor() { }
 
 }

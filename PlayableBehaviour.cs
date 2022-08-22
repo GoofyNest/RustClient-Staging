@@ -28,7 +28,7 @@ public abstract class PlayableBehaviour : IPlayableBehaviour, ICloneable // Type
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 20
 	public virtual void ProcessFrame(Playable playable, FrameData info, object playerData) { }
 
-	// RVA: 0x18FA700 Offset: 0x18F8D00 VA: 0x1818FA700 Slot: 21
+	// RVA: 0x18F9E20 Offset: 0x18F8420 VA: 0x1818F9E20 Slot: 21
 	public virtual object Clone() { }
 
 }

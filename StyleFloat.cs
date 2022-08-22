@@ -10,34 +10,34 @@ public struct StyleFloat : IStyleValue<float>, IEquatable<StyleFloat> // TypeDef
 
 	// Methods
 
-	// RVA: 0x13A7D0 Offset: 0x139BD0 VA: 0x18013A7D0 Slot: 4
+	// RVA: 0x13A5F0 Offset: 0x1399F0 VA: 0x18013A5F0 Slot: 4
 	public float get_value() { }
 
-	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0 Slot: 5
+	// RVA: 0x13A3C0 Offset: 0x1397C0 VA: 0x18013A3C0 Slot: 5
 	public StyleKeyword get_keyword() { }
 
-	// RVA: 0x13A7A0 Offset: 0x139BA0 VA: 0x18013A7A0
+	// RVA: 0x13A5C0 Offset: 0x1399C0 VA: 0x18013A5C0
 	public void .ctor(float v) { }
 
-	// RVA: 0x13A7B0 Offset: 0x139BB0 VA: 0x18013A7B0
+	// RVA: 0x13A5D0 Offset: 0x1399D0 VA: 0x18013A5D0
 	internal void .ctor(float v, StyleKeyword keyword) { }
 
-	// RVA: 0xEB9DD0 Offset: 0xEB83D0 VA: 0x180EB9DD0
+	// RVA: 0xEBA880 Offset: 0xEB8E80 VA: 0x180EBA880
 	public static bool op_Equality(StyleFloat lhs, StyleFloat rhs) { }
 
-	// RVA: 0xEB9E00 Offset: 0xEB8400 VA: 0x180EB9E00
+	// RVA: 0xEBA8B0 Offset: 0xEB8EB0 VA: 0x180EBA8B0
 	public static StyleFloat op_Implicit(float v) { }
 
-	// RVA: 0x13A5F0 Offset: 0x1399F0 VA: 0x18013A5F0 Slot: 6
+	// RVA: 0x13A410 Offset: 0x139810 VA: 0x18013A410 Slot: 6
 	public bool Equals(StyleFloat other) { }
 
-	// RVA: 0x13A630 Offset: 0x139A30 VA: 0x18013A630 Slot: 0
+	// RVA: 0x13A450 Offset: 0x139850 VA: 0x18013A450 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x13A6E0 Offset: 0x139AE0 VA: 0x18013A6E0 Slot: 2
+	// RVA: 0x13A500 Offset: 0x139900 VA: 0x18013A500 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13A740 Offset: 0x139B40 VA: 0x18013A740 Slot: 3
+	// RVA: 0x13A560 Offset: 0x139960 VA: 0x18013A560 Slot: 3
 	public override string ToString() { }
 
 }

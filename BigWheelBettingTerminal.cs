@@ -9,36 +9,36 @@ public class BigWheelBettingTerminal : StorageContainer // TypeDefIndex: 8534
 
 	// Methods
 
-	// RVA: 0x5109D0 Offset: 0x50EFD0 VA: 0x1805109D0 Slot: 35
+	// RVA: 0x510960 Offset: 0x50EF60 VA: 0x180510960 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x510920 Offset: 0x50EF20 VA: 0x180510920
+	// RVA: 0x5108B0 Offset: 0x50EEB0 VA: 0x1805108B0
 	public void OnDrawGizmos() { }
 
-	// RVA: 0x510740 Offset: 0x50ED40 VA: 0x180510740
+	// RVA: 0x5106D0 Offset: 0x50ECD0 VA: 0x1805106D0
 	public bool IsPlayerValid(BasePlayer player) { }
 
-	// RVA: 0x511280 Offset: 0x50F880 VA: 0x180511280 Slot: 153
+	// RVA: 0x511210 Offset: 0x50F810 VA: 0x180511210 Slot: 153
 	public override bool ShouldShowLootMenus() { }
 
-	// RVA: 0x511480 Offset: 0x50FA80 VA: 0x180511480
+	// RVA: 0x511410 Offset: 0x50FA10 VA: 0x180511410
 	private Vector3 SoundPosition() { }
 
-	// RVA: 0x511650 Offset: 0x50FC50 VA: 0x180511650
+	// RVA: 0x5115E0 Offset: 0x50FBE0 VA: 0x1805115E0
 	public void WinSound() { }
 
-	// RVA: 0x5108B0 Offset: 0x50EEB0 VA: 0x1805108B0
+	// RVA: 0x510840 Offset: 0x50EE40 VA: 0x180510840
 	public void LoseSound() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x511220 Offset: 0x50F820 VA: 0x180511220
+	// RVA: 0x5111B0 Offset: 0x50F7B0 VA: 0x1805111B0
 	public void SetTimeUntilNextSpin(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x511590 Offset: 0x50FB90 VA: 0x180511590
+	// RVA: 0x511520 Offset: 0x50FB20 VA: 0x180511520
 	public void WinOrLoseSound(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x5116C0 Offset: 0x50FCC0 VA: 0x1805116C0
+	// RVA: 0x511650 Offset: 0x50FC50 VA: 0x180511650
 	public void .ctor() { }
 
 }

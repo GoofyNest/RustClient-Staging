@@ -16,34 +16,34 @@ public class TraceEventCache // TypeDefIndex: 2638
 
 	// Methods
 
-	// RVA: 0x17364F0 Offset: 0x1734AF0 VA: 0x1817364F0
+	// RVA: 0x17340B0 Offset: 0x17326B0 VA: 0x1817340B0
 	public string get_Callstack() { }
 
-	// RVA: 0x17365E0 Offset: 0x1734BE0 VA: 0x1817365E0
+	// RVA: 0x17341A0 Offset: 0x17327A0 VA: 0x1817341A0
 	public Stack get_LogicalOperationStack() { }
 
-	// RVA: 0x1736530 Offset: 0x1734B30 VA: 0x181736530
+	// RVA: 0x17340F0 Offset: 0x17326F0 VA: 0x1817340F0
 	public DateTime get_DateTime() { }
 
-	// RVA: 0x1736250 Offset: 0x1734850 VA: 0x181736250
+	// RVA: 0x1733E10 Offset: 0x1732410 VA: 0x181733E10
 	public int get_ProcessId() { }
 
-	// RVA: 0x1736720 Offset: 0x1734D20 VA: 0x181736720
+	// RVA: 0x17342E0 Offset: 0x17328E0 VA: 0x1817342E0
 	public string get_ThreadId() { }
 
-	// RVA: 0x17367A0 Offset: 0x1734DA0 VA: 0x1817367A0
+	// RVA: 0x1734360 Offset: 0x1732960 VA: 0x181734360
 	public long get_Timestamp() { }
 
-	// RVA: 0x17362A0 Offset: 0x17348A0 VA: 0x1817362A0
+	// RVA: 0x1733E60 Offset: 0x1732460 VA: 0x181733E60
 	private static void InitProcessInfo() { }
 
-	// RVA: 0x1736250 Offset: 0x1734850 VA: 0x181736250
+	// RVA: 0x1733E10 Offset: 0x1732410 VA: 0x181733E10
 	internal static int GetProcessId() { }
 
-	// RVA: 0x10DB890 Offset: 0x10D9E90 VA: 0x1810DB890
+	// RVA: 0x10DC300 Offset: 0x10DA900 VA: 0x1810DC300
 	internal static int GetThreadId() { }
 
-	// RVA: 0x1736470 Offset: 0x1734A70 VA: 0x181736470
+	// RVA: 0x1734030 Offset: 0x1732630 VA: 0x181734030
 	public void .ctor() { }
 
 }

@@ -8,16 +8,16 @@ public class PushbackStream // TypeDefIndex: 7395
 
 	// Methods
 
-	// RVA: 0x2262F40 Offset: 0x2261540 VA: 0x182262F40
+	// RVA: 0x2263760 Offset: 0x2261D60 VA: 0x182263760
 	internal void .ctor(Stream s, int backBufferSize) { }
 
-	// RVA: 0x2262D00 Offset: 0x2261300 VA: 0x182262D00
+	// RVA: 0x2263520 Offset: 0x2261B20 VA: 0x182263520
 	internal int Read(sbyte[] toRead, int offset, int length) { }
 
-	// RVA: 0x2262EC0 Offset: 0x22614C0 VA: 0x182262EC0
+	// RVA: 0x22636E0 Offset: 0x2261CE0 VA: 0x1822636E0
 	internal void UnRead(int length) { }
 
-	// RVA: 0x2262CD0 Offset: 0x22612D0 VA: 0x182262CD0
+	// RVA: 0x22634F0 Offset: 0x2261AF0 VA: 0x1822634F0
 	internal void Close() { }
 
 }

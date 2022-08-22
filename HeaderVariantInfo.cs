@@ -15,7 +15,7 @@ internal struct HeaderVariantInfo // TypeDefIndex: 2943
 	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	internal string get_Name() { }
 
-	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
+	// RVA: 0x122C30 Offset: 0x122030 VA: 0x180122C30
 	internal CookieVariant get_Variant() { }
 
 }

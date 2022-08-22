@@ -87,144 +87,144 @@ public class VolumetricLightBeam : MonoBehaviour // TypeDefIndex: 11558
 
 	// Methods
 
-	// RVA: 0xAE2570 Offset: 0xAE0B70 VA: 0x180AE2570
+	// RVA: 0xAE2A40 Offset: 0xAE1040 VA: 0x180AE2A40
 	public float get_coneAngle() { }
 
-	// RVA: 0xAE2670 Offset: 0xAE0C70 VA: 0x180AE2670
+	// RVA: 0xAE2B40 Offset: 0xAE1140 VA: 0x180AE2B40
 	public float get_coneRadiusEnd() { }
 
-	// RVA: 0xAE2700 Offset: 0xAE0D00 VA: 0x180AE2700
+	// RVA: 0xAE2BD0 Offset: 0xAE11D0 VA: 0x180AE2BD0
 	public float get_coneVolume() { }
 
-	// RVA: 0xAE2610 Offset: 0xAE0C10 VA: 0x180AE2610
+	// RVA: 0xAE2AE0 Offset: 0xAE10E0 VA: 0x180AE2AE0
 	public float get_coneApexOffsetZ() { }
 
-	// RVA: 0xAE27C0 Offset: 0xAE0DC0 VA: 0x180AE27C0
+	// RVA: 0xAE2C90 Offset: 0xAE1290 VA: 0x180AE2C90
 	public int get_geomSides() { }
 
-	// RVA: 0xAE2D80 Offset: 0xAE1380 VA: 0x180AE2D80
+	// RVA: 0xAE3250 Offset: 0xAE1850 VA: 0x180AE3250
 	public void set_geomSides(int value) { }
 
-	// RVA: 0xAE2750 Offset: 0xAE0D50 VA: 0x180AE2750
+	// RVA: 0xAE2C20 Offset: 0xAE1220 VA: 0x180AE2C20
 	public int get_geomSegments() { }
 
-	// RVA: 0xAE2D10 Offset: 0xAE1310 VA: 0x180AE2D10
+	// RVA: 0xAE31E0 Offset: 0xAE17E0 VA: 0x180AE31E0
 	public void set_geomSegments(int value) { }
 
-	// RVA: 0xAE2310 Offset: 0xAE0910 VA: 0x180AE2310
+	// RVA: 0xAE27E0 Offset: 0xAE0DE0 VA: 0x180AE27E0
 	public float get_attenuationLerpLinearQuad() { }
 
-	// RVA: 0xAE2CE0 Offset: 0xAE12E0 VA: 0x180AE2CE0
+	// RVA: 0xAE31B0 Offset: 0xAE17B0 VA: 0x180AE31B0
 	public int get_sortingLayerID() { }
 
-	// RVA: 0xAE2DF0 Offset: 0xAE13F0 VA: 0x180AE2DF0
+	// RVA: 0xAE32C0 Offset: 0xAE18C0 VA: 0x180AE32C0
 	public void set_sortingLayerID(int value) { }
 
-	// RVA: 0xAE2CF0 Offset: 0xAE12F0 VA: 0x180AE2CF0
+	// RVA: 0xAE31C0 Offset: 0xAE17C0 VA: 0x180AE31C0
 	public string get_sortingLayerName() { }
 
-	// RVA: 0xAE2E90 Offset: 0xAE1490 VA: 0x180AE2E90
+	// RVA: 0xAE3360 Offset: 0xAE1960 VA: 0x180AE3360
 	public void set_sortingLayerName(string value) { }
 
-	// RVA: 0xAE2D00 Offset: 0xAE1300 VA: 0x180AE2D00
+	// RVA: 0xAE31D0 Offset: 0xAE17D0 VA: 0x180AE31D0
 	public int get_sortingOrder() { }
 
-	// RVA: 0xAE2F40 Offset: 0xAE1540 VA: 0x180AE2F40
+	// RVA: 0xAE3410 Offset: 0xAE1A10 VA: 0x180AE3410
 	public void set_sortingOrder(int value) { }
 
-	// RVA: 0x56EAF0 Offset: 0x56D0F0 VA: 0x18056EAF0
+	// RVA: 0x56EA80 Offset: 0x56D080 VA: 0x18056EA80
 	public bool get_trackChangesDuringPlaytime() { }
 
-	// RVA: 0x56EB00 Offset: 0x56D100 VA: 0x18056EB00
+	// RVA: 0x56EA90 Offset: 0x56D090 VA: 0x18056EA90
 	public void set_trackChangesDuringPlaytime(bool value) { }
 
-	// RVA: 0xAE2890 Offset: 0xAE0E90 VA: 0x180AE2890
+	// RVA: 0xAE2D60 Offset: 0xAE1360 VA: 0x180AE2D60
 	public bool get_isCurrentlyTrackingChanges() { }
 
-	// RVA: 0xAE2830 Offset: 0xAE0E30 VA: 0x180AE2830
+	// RVA: 0xAE2D00 Offset: 0xAE1300 VA: 0x180AE2D00
 	public bool get_hasGeometry() { }
 
-	// RVA: 0xAE2410 Offset: 0xAE0A10 VA: 0x180AE2410
+	// RVA: 0xAE28E0 Offset: 0xAE0EE0 VA: 0x180AE28E0
 	public Bounds get_bounds() { }
 
-	// RVA: 0xAE1E60 Offset: 0xAE0460 VA: 0x180AE1E60
+	// RVA: 0xAE2330 Offset: 0xAE0930 VA: 0x180AE2330
 	public void SetClippingPlane(Plane planeWS) { }
 
-	// RVA: 0xAE1DD0 Offset: 0xAE03D0 VA: 0x180AE1DD0
+	// RVA: 0xAE22A0 Offset: 0xAE08A0 VA: 0x180AE22A0
 	public void SetClippingPlaneOff() { }
 
-	// RVA: 0xAE1B00 Offset: 0xAE0100 VA: 0x180AE1B00
+	// RVA: 0xAE1FD0 Offset: 0xAE05D0 VA: 0x180AE1FD0
 	public bool IsColliderHiddenByDynamicOccluder(Collider collider) { }
 
-	// RVA: 0xAE2330 Offset: 0xAE0930 VA: 0x180AE2330
+	// RVA: 0xAE2800 Offset: 0xAE0E00 VA: 0x180AE2800
 	public int get_blendingModeAsInt() { }
 
-	// RVA: 0xAE2280 Offset: 0xAE0880 VA: 0x180AE2280
+	// RVA: 0xAE2750 Offset: 0xAE0D50 VA: 0x180AE2750
 	public MeshRenderer get_Renderer() { }
 
-	// RVA: 0xAE2990 Offset: 0xAE0F90 VA: 0x180AE2990
+	// RVA: 0xAE2E60 Offset: 0xAE1460 VA: 0x180AE2E60
 	public string get_meshStats() { }
 
-	// RVA: 0xAE2C00 Offset: 0xAE1200 VA: 0x180AE2C00
+	// RVA: 0xAE30D0 Offset: 0xAE16D0 VA: 0x180AE30D0
 	public int get_meshVerticesCount() { }
 
-	// RVA: 0xAE2B00 Offset: 0xAE1100 VA: 0x180AE2B00
+	// RVA: 0xAE2FD0 Offset: 0xAE15D0 VA: 0x180AE2FD0
 	public int get_meshTrianglesCount() { }
 
-	// RVA: 0xAE28A0 Offset: 0xAE0EA0 VA: 0x180AE28A0
+	// RVA: 0xAE2D70 Offset: 0xAE1370 VA: 0x180AE2D70
 	private Light get_lightSpotAttached() { }
 
-	// RVA: 0xAE1830 Offset: 0xADFE30 VA: 0x180AE1830
+	// RVA: 0xAE1D00 Offset: 0xAE0300 VA: 0x180AE1D00
 	public float GetInsideBeamFactor(Vector3 posWS) { }
 
-	// RVA: 0xAE1630 Offset: 0xADFC30 VA: 0x180AE1630
+	// RVA: 0xAE1B00 Offset: 0xAE0100 VA: 0x180AE1B00
 	public float GetInsideBeamFactorFromObjectSpacePos(Vector3 posOS) { }
 
 	[ObsoleteAttribute] // RVA: 0xC6140 Offset: 0xC5540 VA: 0x1800C6140
-	// RVA: 0x4D3FB0 Offset: 0x4D25B0 VA: 0x1804D3FB0
+	// RVA: 0x4D3F40 Offset: 0x4D2540 VA: 0x1804D3F40
 	public void Generate() { }
 
-	// RVA: 0xAE13F0 Offset: 0xADF9F0 VA: 0x180AE13F0 Slot: 4
+	// RVA: 0xAE18C0 Offset: 0xADFEC0 VA: 0x180AE18C0 Slot: 4
 	public virtual void GenerateGeometry() { }
 
-	// RVA: 0xAE1F10 Offset: 0xAE0510 VA: 0x180AE1F10 Slot: 5
+	// RVA: 0xAE23E0 Offset: 0xAE09E0 VA: 0x180AE23E0 Slot: 5
 	public virtual void UpdateAfterManualPropertyChange() { }
 
-	// RVA: 0x4D3FB0 Offset: 0x4D25B0 VA: 0x1804D3FB0
+	// RVA: 0x4D3F40 Offset: 0x4D2540 VA: 0x1804D3F40
 	private void Start() { }
 
-	// RVA: 0xAE1D40 Offset: 0xAE0340 VA: 0x180AE1D40
+	// RVA: 0xAE2210 Offset: 0xAE0810 VA: 0x180AE2210
 	private void OnEnable() { }
 
-	// RVA: 0xAE1CA0 Offset: 0xAE02A0 VA: 0x180AE1CA0
+	// RVA: 0xAE2170 Offset: 0xAE0770 VA: 0x180AE2170
 	private void OnDisable() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void StartPlaytimeUpdateIfNeeded() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xC61E0 Offset: 0xC55E0 VA: 0x1800C61E0
-	// RVA: 0xAE12B0 Offset: 0xADF8B0 VA: 0x180AE12B0
+	// RVA: 0xAE1780 Offset: 0xADFD80 VA: 0x180AE1780
 	private IEnumerator CoPlaytimeUpdate() { }
 
-	// RVA: 0xAE1320 Offset: 0xADF920 VA: 0x180AE1320
+	// RVA: 0xAE17F0 Offset: 0xADFDF0 VA: 0x180AE17F0
 	private void OnDestroy() { }
 
-	// RVA: 0xAE1320 Offset: 0xADF920 VA: 0x180AE1320
+	// RVA: 0xAE17F0 Offset: 0xADFDF0 VA: 0x180AE17F0
 	private void DestroyBeam() { }
 
-	// RVA: 0xAE1030 Offset: 0xADF630 VA: 0x180AE1030
+	// RVA: 0xAE1500 Offset: 0xADFB00 VA: 0x180AE1500
 	private void AssignPropertiesFromSpotLight(Light lightSpot) { }
 
-	// RVA: 0xAE1100 Offset: 0xADF700 VA: 0x180AE1100
+	// RVA: 0xAE15D0 Offset: 0xADFBD0 VA: 0x180AE15D0
 	private void ClampProperties() { }
 
-	// RVA: 0xAE1FA0 Offset: 0xAE05A0 VA: 0x180AE1FA0
+	// RVA: 0xAE2470 Offset: 0xAE0A70 VA: 0x180AE2470
 	private void ValidateProperties() { }
 
-	// RVA: 0xAE1A70 Offset: 0xAE0070 VA: 0x180AE1A70
+	// RVA: 0xAE1F40 Offset: 0xAE0540 VA: 0x180AE1F40
 	private void HandleBackwardCompatibility(int serializedVersion, int newVersion) { }
 
-	// RVA: 0xAE2140 Offset: 0xAE0740 VA: 0x180AE2140
+	// RVA: 0xAE2610 Offset: 0xAE0C10 VA: 0x180AE2610
 	public void .ctor() { }
 
 }
@@ -249,7 +249,7 @@ private sealed class VolumetricLightBeam.<CoPlaytimeUpdate>d__98 : IEnumerator<o
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xAC9ED0 Offset: 0xAC84D0 VA: 0x180AC9ED0 Slot: 6
+	// RVA: 0xACA3A0 Offset: 0xAC89A0 VA: 0x180ACA3A0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -257,7 +257,7 @@ private sealed class VolumetricLightBeam.<CoPlaytimeUpdate>d__98 : IEnumerator<o
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAC9F70 Offset: 0xAC8570 VA: 0x180AC9F70 Slot: 8
+	// RVA: 0xACA440 Offset: 0xAC8A40 VA: 0x180ACA440 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

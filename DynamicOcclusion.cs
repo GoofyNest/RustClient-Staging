@@ -14,49 +14,49 @@ public class DynamicOcclusion : MonoBehaviour // TypeDefIndex: 11540
 
 	// Methods
 
-	// RVA: 0x111E9D0 Offset: 0x111CFD0 VA: 0x18111E9D0
+	// RVA: 0x111F440 Offset: 0x111DA40 VA: 0x18111F440
 	private void OnValidate() { }
 
-	// RVA: 0x111E930 Offset: 0x111CF30 VA: 0x18111E930
+	// RVA: 0x111F3A0 Offset: 0x111D9A0 VA: 0x18111F3A0
 	private void OnEnable() { }
 
-	// RVA: 0x111E910 Offset: 0x111CF10 VA: 0x18111E910
+	// RVA: 0x111F380 Offset: 0x111D980 VA: 0x18111F380
 	private void OnDisable() { }
 
-	// RVA: 0x111F470 Offset: 0x111DA70 VA: 0x18111F470
+	// RVA: 0x111FEE0 Offset: 0x111E4E0 VA: 0x18111FEE0
 	private void Start() { }
 
-	// RVA: 0x111E8E0 Offset: 0x111CEE0 VA: 0x18111E8E0
+	// RVA: 0x111F350 Offset: 0x111D950 VA: 0x18111F350
 	private void LateUpdate() { }
 
-	// RVA: 0x111E650 Offset: 0x111CC50 VA: 0x18111E650
+	// RVA: 0x111F0C0 Offset: 0x111D6C0 VA: 0x18111F0C0
 	private Vector3 GetRandomVectorAround(Vector3 direction, float angleDiff) { }
 
-	// RVA: 0x111E190 Offset: 0x111C790 VA: 0x18111E190
+	// RVA: 0x111EC00 Offset: 0x111D200 VA: 0x18111EC00
 	private RaycastHit GetBestHit(Vector3 rayPos, Vector3 rayDir) { }
 
-	// RVA: 0x111E450 Offset: 0x111CA50 VA: 0x18111E450
+	// RVA: 0x111EEC0 Offset: 0x111D4C0 VA: 0x18111EEC0
 	private Vector3 GetDirection(uint dirInt) { }
 
-	// RVA: 0x111E780 Offset: 0x111CD80 VA: 0x18111E780
+	// RVA: 0x111F1F0 Offset: 0x111D7F0 VA: 0x18111F1F0
 	private bool IsHitValid(RaycastHit hit) { }
 
-	// RVA: 0x111EA50 Offset: 0x111D050 VA: 0x18111EA50
+	// RVA: 0x111F4C0 Offset: 0x111DAC0 VA: 0x18111F4C0
 	private void ProcessRaycasts() { }
 
-	// RVA: 0x111F2F0 Offset: 0x111D8F0 VA: 0x18111F2F0
+	// RVA: 0x111FD60 Offset: 0x111E360 VA: 0x18111FD60
 	private void SetHit(RaycastHit hit) { }
 
-	// RVA: 0x111E910 Offset: 0x111CF10 VA: 0x18111E910
+	// RVA: 0x111F380 Offset: 0x111D980 VA: 0x18111F380
 	private void SetHitNull() { }
 
-	// RVA: 0x111F1B0 Offset: 0x111D7B0 VA: 0x18111F1B0
+	// RVA: 0x111FC20 Offset: 0x111E220 VA: 0x18111FC20
 	private void SetClippingPlane(Plane planeWS) { }
 
-	// RVA: 0x111E910 Offset: 0x111CF10 VA: 0x18111E910
+	// RVA: 0x111F380 Offset: 0x111D980 VA: 0x18111F380
 	private void SetClippingPlaneOff() { }
 
-	// RVA: 0x111F550 Offset: 0x111DB50 VA: 0x18111F550
+	// RVA: 0x111FFC0 Offset: 0x111E5C0 VA: 0x18111FFC0
 	public void .ctor() { }
 
 }

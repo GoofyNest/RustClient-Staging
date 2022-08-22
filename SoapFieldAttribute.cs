@@ -8,16 +8,16 @@ public sealed class SoapFieldAttribute : SoapAttribute // TypeDefIndex: 1211
 
 	// Methods
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public string get_XmlElementName() { }
 
-	// RVA: 0x82BDA0 Offset: 0x82A3A0 VA: 0x18082BDA0
+	// RVA: 0x82C2F0 Offset: 0x82A8F0 VA: 0x18082C2F0
 	public bool IsInteropXmlElement() { }
 
-	// RVA: 0x148D760 Offset: 0x148BD60 VA: 0x18148D760 Slot: 9
+	// RVA: 0x148C830 Offset: 0x148AE30 VA: 0x18148C830 Slot: 9
 	internal override void SetReflectionObject(object reflectionObject) { }
 
 }

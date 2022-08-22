@@ -11,16 +11,16 @@ public struct Resolution // TypeDefIndex: 3393
 
 	// Methods
 
-	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
+	// RVA: 0x13A3C0 Offset: 0x1397C0 VA: 0x18013A3C0
 	public int get_width() { }
 
-	// RVA: 0x13A300 Offset: 0x139700 VA: 0x18013A300
+	// RVA: 0x13A120 Offset: 0x139520 VA: 0x18013A120
 	public int get_height() { }
 
-	// RVA: 0x13AC20 Offset: 0x13A020 VA: 0x18013AC20
+	// RVA: 0x13AA40 Offset: 0x139E40 VA: 0x18013AA40
 	public int get_refreshRate() { }
 
-	// RVA: 0x222880 Offset: 0x221C80 VA: 0x180222880 Slot: 3
+	// RVA: 0x21DE00 Offset: 0x21D200 VA: 0x18021DE00 Slot: 3
 	public override string ToString() { }
 
 }

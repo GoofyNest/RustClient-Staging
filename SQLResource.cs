@@ -15,52 +15,52 @@ internal static class SQLResource // TypeDefIndex: 4335
 
 	// Methods
 
-	// RVA: 0xE963D0 Offset: 0xE949D0 VA: 0x180E963D0
+	// RVA: 0xE96E80 Offset: 0xE95480 VA: 0x180E96E80
 	internal static string get_NullString() { }
 
-	// RVA: 0xE96250 Offset: 0xE94850 VA: 0x180E96250
+	// RVA: 0xE96D00 Offset: 0xE95300 VA: 0x180E96D00
 	internal static string get_ArithOverflowMessage() { }
 
-	// RVA: 0xE96340 Offset: 0xE94940 VA: 0x180E96340
+	// RVA: 0xE96DF0 Offset: 0xE953F0 VA: 0x180E96DF0
 	internal static string get_DivideByZeroMessage() { }
 
-	// RVA: 0xE96400 Offset: 0xE94A00 VA: 0x180E96400
+	// RVA: 0xE96EB0 Offset: 0xE954B0 VA: 0x180E96EB0
 	internal static string get_NullValueMessage() { }
 
-	// RVA: 0xE96460 Offset: 0xE94A60 VA: 0x180E96460
+	// RVA: 0xE96F10 Offset: 0xE95510 VA: 0x180E96F10
 	internal static string get_TruncationMessage() { }
 
-	// RVA: 0xE96310 Offset: 0xE94910 VA: 0x180E96310
+	// RVA: 0xE96DC0 Offset: 0xE953C0 VA: 0x180E96DC0
 	internal static string get_DateTimeOverflowMessage() { }
 
-	// RVA: 0xE962B0 Offset: 0xE948B0 VA: 0x180E962B0
+	// RVA: 0xE96D60 Offset: 0xE95360 VA: 0x180E96D60
 	internal static string get_ConcatDiffCollationMessage() { }
 
-	// RVA: 0xE96280 Offset: 0xE94880 VA: 0x180E96280
+	// RVA: 0xE96D30 Offset: 0xE95330 VA: 0x180E96D30
 	internal static string get_CompareDiffCollationMessage() { }
 
-	// RVA: 0xE962E0 Offset: 0xE948E0 VA: 0x180E962E0
+	// RVA: 0xE96D90 Offset: 0xE95390 VA: 0x180E96D90
 	internal static string get_ConversionOverflowMessage() { }
 
-	// RVA: 0xE96430 Offset: 0xE94A30 VA: 0x180E96430
+	// RVA: 0xE96EE0 Offset: 0xE954E0 VA: 0x180E96EE0
 	internal static string get_TimeZoneSpecifiedMessage() { }
 
-	// RVA: 0xE963A0 Offset: 0xE949A0 VA: 0x180E963A0
+	// RVA: 0xE96E50 Offset: 0xE95450 VA: 0x180E96E50
 	internal static string get_InvalidPrecScaleMessage() { }
 
-	// RVA: 0xE96370 Offset: 0xE94970 VA: 0x180E96370
+	// RVA: 0xE96E20 Offset: 0xE95420 VA: 0x180E96E20
 	internal static string get_FormatMessage() { }
 
-	// RVA: 0xE96150 Offset: 0xE94750 VA: 0x180E96150
+	// RVA: 0xE96C00 Offset: 0xE95200 VA: 0x180E96C00
 	internal static string InvalidOpStreamClosed(string method) { }
 
-	// RVA: 0xE96210 Offset: 0xE94810 VA: 0x180E96210
+	// RVA: 0xE96CC0 Offset: 0xE952C0 VA: 0x180E96CC0
 	internal static string InvalidOpStreamNonWritable(string method) { }
 
-	// RVA: 0xE96190 Offset: 0xE94790 VA: 0x180E96190
+	// RVA: 0xE96C40 Offset: 0xE95240 VA: 0x180E96C40
 	internal static string InvalidOpStreamNonReadable(string method) { }
 
-	// RVA: 0xE961D0 Offset: 0xE947D0 VA: 0x180E961D0
+	// RVA: 0xE96C80 Offset: 0xE95280 VA: 0x180E96C80
 	internal static string InvalidOpStreamNonSeekable(string method) { }
 
 }

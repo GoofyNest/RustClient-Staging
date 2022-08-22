@@ -13,7 +13,7 @@ internal struct GlyphAdjustmentRecord // TypeDefIndex: 4114
 
 	// Methods
 
-	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
+	// RVA: 0x13A3C0 Offset: 0x1397C0 VA: 0x18013A3C0
 	public uint get_glyphIndex() { }
 
 	// RVA: 0x23DAF0 Offset: 0x23CEF0 VA: 0x18023DAF0

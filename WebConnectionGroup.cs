@@ -14,42 +14,42 @@ internal class WebConnectionGroup // TypeDefIndex: 3031
 
 	// Methods
 
-	// RVA: 0x117FCB0 Offset: 0x117E2B0 VA: 0x18117FCB0
+	// RVA: 0x11845D0 Offset: 0x1182BD0 VA: 0x1811845D0
 	public void .ctor(ServicePoint sPoint, string name) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x117FD70 Offset: 0x117E370 VA: 0x18117FD70
+	// RVA: 0x1184690 Offset: 0x1182C90 VA: 0x181184690
 	public void add_ConnectionClosed(EventHandler value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x117FE10 Offset: 0x117E410 VA: 0x18117FE10
+	// RVA: 0x1184730 Offset: 0x1182D30 VA: 0x181184730
 	public void remove_ConnectionClosed(EventHandler value) { }
 
-	// RVA: 0x117F4E0 Offset: 0x117DAE0 VA: 0x18117F4E0
+	// RVA: 0x1183E00 Offset: 0x1182400 VA: 0x181183E00
 	private void OnConnectionClosed() { }
 
-	// RVA: 0x117EDB0 Offset: 0x117D3B0 VA: 0x18117EDB0
+	// RVA: 0x11836D0 Offset: 0x1181CD0 VA: 0x1811836D0
 	public void Close() { }
 
-	// RVA: 0x117F400 Offset: 0x117DA00 VA: 0x18117F400
+	// RVA: 0x1183D20 Offset: 0x1182320 VA: 0x181183D20
 	public WebConnection GetConnection(HttpWebRequest request, out bool created) { }
 
-	// RVA: 0x117F500 Offset: 0x117DB00 VA: 0x18117F500
+	// RVA: 0x1183E20 Offset: 0x1182420 VA: 0x181183E20
 	private static void PrepareSharingNtlm(WebConnection cnc, HttpWebRequest request) { }
 
-	// RVA: 0x117F250 Offset: 0x117D850 VA: 0x18117F250
+	// RVA: 0x1183B70 Offset: 0x1182170 VA: 0x181183B70
 	private WebConnectionGroup.ConnectionState FindIdleConnection() { }
 
-	// RVA: 0x117F070 Offset: 0x117D670 VA: 0x18117F070
+	// RVA: 0x1183990 Offset: 0x1181F90 VA: 0x181183990
 	private WebConnection CreateOrReuseConnection(HttpWebRequest request, out bool created) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string get_Name() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	internal Queue get_Queue() { }
 
-	// RVA: 0x117F7D0 Offset: 0x117DDD0 VA: 0x18117F7D0
+	// RVA: 0x11840F0 Offset: 0x11826F0 VA: 0x1811840F0
 	internal bool TryRecycle(TimeSpan maxIdleTime, ref DateTime idleSince) { }
 
 }
@@ -73,11 +73,11 @@ private class WebConnectionGroup.ConnectionState : IWebConnectionState // TypeDe
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public WebConnection get_Connection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	private void set_Connection(WebConnection value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -85,25 +85,25 @@ private class WebConnectionGroup.ConnectionState : IWebConnectionState // TypeDe
 	public WebConnectionGroup get_Group() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	private void set_Group(WebConnectionGroup value) { }
 
-	// RVA: 0xE57390 Offset: 0xE55990 VA: 0x180E57390 Slot: 7
+	// RVA: 0xE57E40 Offset: 0xE56440 VA: 0x180E57E40 Slot: 7
 	public ServicePoint get_ServicePoint() { }
 
-	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0 Slot: 8
+	// RVA: 0xB10B80 Offset: 0xB0F180 VA: 0x180B10B80 Slot: 8
 	public bool get_Busy() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 9
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0 Slot: 9
 	public DateTime get_IdleSince() { }
 
-	// RVA: 0x117B8A0 Offset: 0x1179EA0 VA: 0x18117B8A0 Slot: 5
+	// RVA: 0x11801C0 Offset: 0x117E7C0 VA: 0x1811801C0 Slot: 5
 	public bool TrySetBusy() { }
 
-	// RVA: 0x117B7A0 Offset: 0x1179DA0 VA: 0x18117B7A0 Slot: 6
+	// RVA: 0x11800C0 Offset: 0x117E6C0 VA: 0x1811800C0 Slot: 6
 	public void SetIdle() { }
 
-	// RVA: 0x117BA20 Offset: 0x117A020 VA: 0x18117BA20
+	// RVA: 0x1180340 Offset: 0x117E940 VA: 0x181180340
 	public void .ctor(WebConnectionGroup group) { }
 
 }

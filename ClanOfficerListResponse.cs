@@ -11,13 +11,13 @@ internal struct ClanOfficerListResponse_t : ICallbackData // TypeDefIndex: 5312
 
 	// Methods
 
-	// RVA: 0x1E4690 Offset: 0x1E3A90 VA: 0x1801E4690 Slot: 5
+	// RVA: 0x1E4AB0 Offset: 0x1E3EB0 VA: 0x1801E4AB0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E4680 Offset: 0x1E3A80 VA: 0x1801E4680 Slot: 4
+	// RVA: 0x1E4AA0 Offset: 0x1E3EA0 VA: 0x1801E4AA0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136E510 Offset: 0x136CB10 VA: 0x18136E510
+	// RVA: 0x136D610 Offset: 0x136BC10 VA: 0x18136D610
 	private static void .cctor() { }
 
 }

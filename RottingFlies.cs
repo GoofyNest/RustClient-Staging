@@ -11,13 +11,13 @@ public class RottingFlies : MonoBehaviour, IClientComponent // TypeDefIndex: 935
 
 	// Methods
 
-	// RVA: 0x4C84D0 Offset: 0x4C6AD0 VA: 0x1804C84D0
+	// RVA: 0x4C8460 Offset: 0x4C6A60 VA: 0x1804C8460
 	private void OnEnable() { }
 
-	// RVA: 0x4C8760 Offset: 0x4C6D60 VA: 0x1804C8760
+	// RVA: 0x4C86F0 Offset: 0x4C6CF0 VA: 0x1804C86F0
 	private void Update() { }
 
-	// RVA: 0x4C8360 Offset: 0x4C6960 VA: 0x1804C8360
+	// RVA: 0x4C82F0 Offset: 0x4C68F0 VA: 0x1804C82F0
 	private void OnDisable() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

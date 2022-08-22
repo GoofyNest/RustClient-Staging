@@ -18,47 +18,47 @@ public class GUIContent // TypeDefIndex: 4035
 
 	// Methods
 
-	// RVA: 0x181DCB0 Offset: 0x181C2B0 VA: 0x18181DCB0
+	// RVA: 0x180B0F0 Offset: 0x18096F0 VA: 0x18180B0F0
 	public string get_text() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_text(string value) { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_image(Texture value) { }
 
-	// RVA: 0x1A6C9A0 Offset: 0x1A6AFA0 VA: 0x181A6C9A0
+	// RVA: 0x1A58ED0 Offset: 0x1A574D0 VA: 0x181A58ED0
 	public string get_tooltip() { }
 
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_tooltip(string value) { }
 
-	// RVA: 0x1A6C910 Offset: 0x1A6AF10 VA: 0x181A6C910
+	// RVA: 0x1A58E40 Offset: 0x1A57440 VA: 0x181A58E40
 	public void .ctor() { }
 
-	// RVA: 0x1A6C8B0 Offset: 0x1A6AEB0 VA: 0x181A6C8B0
+	// RVA: 0x1A58DE0 Offset: 0x1A573E0 VA: 0x181A58DE0
 	public void .ctor(string text) { }
 
-	// RVA: 0x1A6C980 Offset: 0x1A6AF80 VA: 0x181A6C980
+	// RVA: 0x1A58EB0 Offset: 0x1A574B0 VA: 0x181A58EB0
 	public void .ctor(string text, string tooltip) { }
 
-	// RVA: 0x1A6C710 Offset: 0x1A6AD10 VA: 0x181A6C710
+	// RVA: 0x1A58C40 Offset: 0x1A57240 VA: 0x181A58C40
 	public void .ctor(string text, Texture image, string tooltip) { }
 
-	// RVA: 0x1A6C7E0 Offset: 0x1A6ADE0 VA: 0x181A6C7E0
+	// RVA: 0x1A58D10 Offset: 0x1A57310 VA: 0x181A58D10
 	public void .ctor(GUIContent src) { }
 
-	// RVA: 0x1A6C1F0 Offset: 0x1A6A7F0 VA: 0x181A6C1F0
+	// RVA: 0x1A58720 Offset: 0x1A56D20 VA: 0x181A58720
 	internal static GUIContent Temp(string t) { }
 
 	[VisibleToOtherModulesAttribute] // RVA: 0xCD160 Offset: 0xCC560 VA: 0x1800CD160
-	// RVA: 0x1A6C090 Offset: 0x1A6A690 VA: 0x181A6C090
+	// RVA: 0x1A585C0 Offset: 0x1A56BC0 VA: 0x181A585C0
 	internal static void ClearStaticCache() { }
 
-	// RVA: 0x1A6C2B0 Offset: 0x1A6A8B0 VA: 0x181A6C2B0
+	// RVA: 0x1A587E0 Offset: 0x1A56DE0 VA: 0x181A587E0
 	internal static GUIContent[] Temp(string[] texts) { }
 
-	// RVA: 0x1A6C4C0 Offset: 0x1A6AAC0 VA: 0x181A6C4C0
+	// RVA: 0x1A589F0 Offset: 0x1A56FF0 VA: 0x181A589F0
 	private static void .cctor() { }
 
 }

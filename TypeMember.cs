@@ -5,19 +5,19 @@ internal sealed class TypeMember // TypeDefIndex: 2063
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	internal void .ctor(Type type, string member) { }
 
-	// RVA: 0x1107DD0 Offset: 0x11063D0 VA: 0x181107DD0 Slot: 2
+	// RVA: 0x1108840 Offset: 0x1106E40 VA: 0x181108840 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1107C00 Offset: 0x1106200 VA: 0x181107C00 Slot: 0
+	// RVA: 0x1108670 Offset: 0x1106C70 VA: 0x181108670 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1107D10 Offset: 0x1106310 VA: 0x181107D10
+	// RVA: 0x1108780 Offset: 0x1106D80 VA: 0x181108780
 	public static bool Equals(TypeMember tm1, TypeMember tm2) { }
 
-	// RVA: 0x1107E30 Offset: 0x1106430 VA: 0x181107E30 Slot: 3
+	// RVA: 0x11088A0 Offset: 0x1106EA0 VA: 0x1811088A0 Slot: 3
 	public override string ToString() { }
 
 }

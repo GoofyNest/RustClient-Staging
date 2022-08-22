@@ -27,28 +27,28 @@ public class ColorCorrectionCurves : PostEffectsBase, IImageEffect // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x12CAD70 Offset: 0x12C9370 VA: 0x1812CAD70
+	// RVA: 0x12D1220 Offset: 0x12CF820 VA: 0x1812D1220
 	private void Start() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void Awake() { }
 
-	// RVA: 0x12CA740 Offset: 0x12C8D40 VA: 0x1812CA740 Slot: 4
+	// RVA: 0x12D0BF0 Offset: 0x12CF1F0 VA: 0x1812D0BF0 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x12CAD90 Offset: 0x12C9390 VA: 0x1812CAD90
+	// RVA: 0x12D1240 Offset: 0x12CF840 VA: 0x1812D1240
 	public void UpdateParameters() { }
 
-	// RVA: 0x12CB2E0 Offset: 0x12C98E0 VA: 0x1812CB2E0
+	// RVA: 0x12D1790 Offset: 0x12CFD90 VA: 0x1812D1790
 	private void UpdateTextures() { }
 
-	// RVA: 0x1074140 Offset: 0x1072740 VA: 0x181074140 Slot: 5
+	// RVA: 0x1074BB0 Offset: 0x10731B0 VA: 0x181074BB0 Slot: 5
 	public bool IsActive() { }
 
-	// RVA: 0x12CAA60 Offset: 0x12C9060 VA: 0x1812CAA60 Slot: 6
+	// RVA: 0x12D0F10 Offset: 0x12CF510 VA: 0x1812D0F10 Slot: 6
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x12CB2F0 Offset: 0x12C98F0 VA: 0x1812CB2F0
+	// RVA: 0x12D17A0 Offset: 0x12CFDA0 VA: 0x1812D17A0
 	public void .ctor() { }
 
 }

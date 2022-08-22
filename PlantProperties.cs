@@ -36,7 +36,7 @@ public class PlantProperties : ScriptableObject // TypeDefIndex: 9640
 
 	// Methods
 
-	// RVA: 0x91CF40 Offset: 0x91B540 VA: 0x18091CF40
+	// RVA: 0x91D450 Offset: 0x91BA50 VA: 0x18091D450
 	public void .ctor() { }
 
 }

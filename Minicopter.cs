@@ -10,82 +10,82 @@ public class Minicopter : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 634
 
 	// Methods
 
-	// RVA: 0x1F48B60 Offset: 0x1F47160 VA: 0x181F48B60
+	// RVA: 0x1F49380 Offset: 0x1F47980 VA: 0x181F49380
 	public static void ResetToPool(Minicopter instance) { }
 
-	// RVA: 0x1F48AB0 Offset: 0x1F470B0 VA: 0x181F48AB0
+	// RVA: 0x1F492D0 Offset: 0x1F478D0 VA: 0x181F492D0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F48700 Offset: 0x1F46D00 VA: 0x181F48700 Slot: 9
+	// RVA: 0x1F48F20 Offset: 0x1F47520 VA: 0x181F48F20 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E21C60 Offset: 0x1E20260 VA: 0x181E21C60
+	// RVA: 0x1E22480 Offset: 0x1E20A80 VA: 0x181E22480
 	public void CopyTo(Minicopter instance) { }
 
-	// RVA: 0x1F473B0 Offset: 0x1F459B0 VA: 0x181F473B0
+	// RVA: 0x1F47BD0 Offset: 0x1F461D0 VA: 0x181F47BD0
 	public Minicopter Copy() { }
 
-	// RVA: 0x1F47B80 Offset: 0x1F46180 VA: 0x181F47B80
+	// RVA: 0x1F483A0 Offset: 0x1F469A0 VA: 0x181F483A0
 	public static Minicopter Deserialize(Stream stream) { }
 
-	// RVA: 0x1F47760 Offset: 0x1F45D60 VA: 0x181F47760
+	// RVA: 0x1F47F80 Offset: 0x1F46580 VA: 0x181F47F80
 	public static Minicopter DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F477E0 Offset: 0x1F45DE0 VA: 0x181F477E0
+	// RVA: 0x1F48000 Offset: 0x1F46600 VA: 0x181F48000
 	public static Minicopter DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F48080 Offset: 0x1F46680 VA: 0x181F48080
+	// RVA: 0x1F488A0 Offset: 0x1F46EA0 VA: 0x181F488A0
 	public static Minicopter Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F48830 Offset: 0x1F46E30 VA: 0x181F48830
+	// RVA: 0x1F49050 Offset: 0x1F47650 VA: 0x181F49050
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F491E0 Offset: 0x1F477E0 VA: 0x181F491E0 Slot: 12
+	// RVA: 0x1F49A00 Offset: 0x1F48000 VA: 0x181F49A00 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F49200 Offset: 0x1F47800 VA: 0x181F49200 Slot: 13
+	// RVA: 0x1F49A20 Offset: 0x1F48020 VA: 0x181F49A20 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Minicopter previous) { }
 
-	// RVA: 0x1F48A90 Offset: 0x1F47090 VA: 0x181F48A90 Slot: 14
+	// RVA: 0x1F492B0 Offset: 0x1F478B0 VA: 0x181F492B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F483D0 Offset: 0x1F469D0 VA: 0x181F483D0
+	// RVA: 0x1F48BF0 Offset: 0x1F471F0 VA: 0x181F48BF0
 	public static Minicopter Deserialize(byte[] buffer, Minicopter instance, bool isDelta = False) { }
 
-	// RVA: 0x1F47E20 Offset: 0x1F46420 VA: 0x181F47E20
+	// RVA: 0x1F48640 Offset: 0x1F46C40 VA: 0x181F48640
 	public static Minicopter Deserialize(Stream stream, Minicopter instance, bool isDelta) { }
 
-	// RVA: 0x1F47430 Offset: 0x1F45A30 VA: 0x181F47430
+	// RVA: 0x1F47C50 Offset: 0x1F46250 VA: 0x181F47C50
 	public static Minicopter DeserializeLengthDelimited(Stream stream, Minicopter instance, bool isDelta) { }
 
-	// RVA: 0x1F47870 Offset: 0x1F45E70 VA: 0x181F47870
+	// RVA: 0x1F48090 Offset: 0x1F46690 VA: 0x181F48090
 	public static Minicopter DeserializeLength(Stream stream, int length, Minicopter instance, bool isDelta) { }
 
-	// RVA: 0x1F48C10 Offset: 0x1F47210 VA: 0x181F48C10
+	// RVA: 0x1F49430 Offset: 0x1F47A30 VA: 0x181F49430
 	public static void SerializeDelta(Stream stream, Minicopter instance, Minicopter previous) { }
 
-	// RVA: 0x1F49060 Offset: 0x1F47660 VA: 0x181F49060
+	// RVA: 0x1F49880 Offset: 0x1F47E80 VA: 0x181F49880
 	public static void Serialize(Stream stream, Minicopter instance) { }
 
-	// RVA: 0x1F491D0 Offset: 0x1F477D0 VA: 0x181F491D0
+	// RVA: 0x1F499F0 Offset: 0x1F47FF0 VA: 0x181F499F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F491E0 Offset: 0x1F477E0 VA: 0x181F491E0
+	// RVA: 0x1F49A00 Offset: 0x1F48000 VA: 0x181F49A00
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F48F50 Offset: 0x1F47550 VA: 0x181F48F50
+	// RVA: 0x1F49770 Offset: 0x1F47D70 VA: 0x181F49770
 	public static byte[] SerializeToBytes(Minicopter instance) { }
 
-	// RVA: 0x1F48EA0 Offset: 0x1F474A0 VA: 0x181F48EA0
+	// RVA: 0x1F496C0 Offset: 0x1F47CC0 VA: 0x181F496C0
 	public static void SerializeLengthDelimited(Stream stream, Minicopter instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -155,80 +155,80 @@ public class MiniCopter : BaseHelicopterVehicle, IEngineControllerUser, IEntity 
 
 	// Methods
 
-	// RVA: 0x765E90 Offset: 0x764490 VA: 0x180765E90
+	// RVA: 0x765DE0 Offset: 0x7643E0 VA: 0x180765DE0
 	public float GetFuelFraction() { }
 
 	[BaseEntity.Menu] // RVA: 0xAC630 Offset: 0xABA30 VA: 0x1800AC630
 	[BaseEntity.Menu.Description] // RVA: 0xAC630 Offset: 0xABA30 VA: 0x1800AC630
 	[BaseEntity.Menu.Icon] // RVA: 0xAC630 Offset: 0xABA30 VA: 0x1800AC630
 	[BaseEntity.Menu.ShowIf] // RVA: 0xAC630 Offset: 0xABA30 VA: 0x1800AC630
-	// RVA: 0x766530 Offset: 0x764B30 VA: 0x180766530
+	// RVA: 0x766480 Offset: 0x764A80 VA: 0x180766480
 	public void Menu_FuelStorage(BasePlayer player) { }
 
-	// RVA: 0x7663E0 Offset: 0x7649E0 VA: 0x1807663E0
+	// RVA: 0x766330 Offset: 0x764930 VA: 0x180766330
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x767860 Offset: 0x765E60 VA: 0x180767860
+	// RVA: 0x7677B0 Offset: 0x765DB0 VA: 0x1807677B0
 	public bool get_IsStartingUp() { }
 
-	// RVA: 0x767750 Offset: 0x765D50 VA: 0x180767750
+	// RVA: 0x7676A0 Offset: 0x765CA0 VA: 0x1807676A0
 	public VehicleEngineController.EngineState<MiniCopter> get_CurEngineState() { }
 
-	// RVA: 0x7661B0 Offset: 0x7647B0 VA: 0x1807661B0 Slot: 28
+	// RVA: 0x766100 Offset: 0x764700 VA: 0x180766100 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0x767310 Offset: 0x765910 VA: 0x180767310
+	// RVA: 0x767260 Offset: 0x765860 VA: 0x180767260
 	public void Update() { }
 
-	// RVA: 0x766760 Offset: 0x764D60 VA: 0x180766760 Slot: 197
+	// RVA: 0x7666B0 Offset: 0x764CB0 VA: 0x1807666B0 Slot: 197
 	public virtual void UpdateAnimator() { }
 
-	// RVA: 0x4C3900 Offset: 0x4C1F00 VA: 0x1804C3900 Slot: 198
+	// RVA: 0x4C3890 Offset: 0x4C1E90 VA: 0x1804C3890 Slot: 198
 	protected virtual float GetMainRotorScale() { }
 
-	// RVA: 0x766D70 Offset: 0x765370 VA: 0x180766D70
+	// RVA: 0x766CC0 Offset: 0x7652C0 VA: 0x180766CC0
 	public void UpdateRotor(float delta) { }
 
-	// RVA: 0x766280 Offset: 0x764880 VA: 0x180766280
+	// RVA: 0x7661D0 Offset: 0x7647D0 VA: 0x1807661D0
 	public void LateUpdate() { }
 
-	// RVA: 0x766B30 Offset: 0x765130 VA: 0x180766B30 Slot: 173
+	// RVA: 0x766A80 Offset: 0x765080 VA: 0x180766A80 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0x766730 Offset: 0x764D30 VA: 0x180766730
+	// RVA: 0x766680 Offset: 0x764C80 VA: 0x180766680
 	public float RemapValue(float toUse, float maxRemap) { }
 
-	// RVA: 0x7662C0 Offset: 0x7648C0 VA: 0x1807662C0 Slot: 34
+	// RVA: 0x766210 Offset: 0x764810 VA: 0x180766210 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x765C90 Offset: 0x764290 VA: 0x180765C90 Slot: 14
+	// RVA: 0x765BE0 Offset: 0x7641E0 VA: 0x180765BE0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x766740 Offset: 0x764D40 VA: 0x180766740
+	// RVA: 0x766690 Offset: 0x764C90 VA: 0x180766690
 	public void TryUpdateLayerIndicies() { }
 
-	// RVA: 0x766AD0 Offset: 0x7650D0 VA: 0x180766AD0 Slot: 199
+	// RVA: 0x766A20 Offset: 0x765020 VA: 0x180766A20 Slot: 199
 	public virtual void UpdateLayerIndicies() { }
 
-	// RVA: 0x766570 Offset: 0x764B70 VA: 0x180766570 Slot: 184
+	// RVA: 0x7664C0 Offset: 0x764AC0 VA: 0x1807664C0 Slot: 184
 	public override bool MountMenuVisible(BasePlayer player) { }
 
-	// RVA: 0x765C30 Offset: 0x764230 VA: 0x180765C30 Slot: 192
+	// RVA: 0x765B80 Offset: 0x764180 VA: 0x180765B80 Slot: 192
 	protected override bool CanPushNow(BasePlayer pusher) { }
 
-	// RVA: 0x765EA0 Offset: 0x7644A0 VA: 0x180765EA0 Slot: 49
+	// RVA: 0x765DF0 Offset: 0x7643F0 VA: 0x180765DF0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x7677A0 Offset: 0x765DA0 VA: 0x1807677A0 Slot: 50
+	// RVA: 0x7676F0 Offset: 0x765CF0 VA: 0x1807676F0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x766640 Offset: 0x764C40 VA: 0x180766640 Slot: 35
+	// RVA: 0x766590 Offset: 0x764B90 VA: 0x180766590 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x7676F0 Offset: 0x765CF0 VA: 0x1807676F0
+	// RVA: 0x767640 Offset: 0x765C40 VA: 0x180767640
 	public void .ctor() { }
 
-	// RVA: 0x767610 Offset: 0x765C10 VA: 0x180767610
+	// RVA: 0x767560 Offset: 0x765B60 VA: 0x180767560
 	private static void .cctor() { }
 
 }

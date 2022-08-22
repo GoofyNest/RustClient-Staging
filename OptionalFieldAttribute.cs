@@ -7,10 +7,10 @@ public sealed class OptionalFieldAttribute : Attribute // TypeDefIndex: 1048
 
 	// Methods
 
-	// RVA: 0x1298DD0 Offset: 0x12973D0 VA: 0x181298DD0
+	// RVA: 0x1299470 Offset: 0x1297A70 VA: 0x181299470
 	public void .ctor() { }
 
-	// RVA: 0x1298DE0 Offset: 0x12973E0 VA: 0x181298DE0
+	// RVA: 0x1299480 Offset: 0x1297A80 VA: 0x181299480
 	public void set_VersionAdded(int value) { }
 
 }

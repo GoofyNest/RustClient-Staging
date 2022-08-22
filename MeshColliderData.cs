@@ -6,22 +6,22 @@ public class MeshColliderData // TypeDefIndex: 9155
 
 	// Methods
 
-	// RVA: 0x95FE10 Offset: 0x95E410 VA: 0x18095FE10
+	// RVA: 0x960310 Offset: 0x95E910 VA: 0x180960310
 	public void Alloc() { }
 
-	// RVA: 0x960890 Offset: 0x95EE90 VA: 0x180960890
+	// RVA: 0x960D90 Offset: 0x95F390 VA: 0x180960D90
 	public void Free() { }
 
-	// RVA: 0x960030 Offset: 0x95E630 VA: 0x180960030
+	// RVA: 0x960530 Offset: 0x95EB30 VA: 0x180960530
 	public void Clear() { }
 
-	// RVA: 0x95FF10 Offset: 0x95E510 VA: 0x18095FF10
+	// RVA: 0x960410 Offset: 0x95EA10 VA: 0x180960410
 	public void Apply(Mesh mesh) { }
 
-	// RVA: 0x960530 Offset: 0x95EB30 VA: 0x180960530
+	// RVA: 0x960A30 Offset: 0x95F030 VA: 0x180960A30
 	public void Combine(MeshColliderGroup meshGroup) { }
 
-	// RVA: 0x9600A0 Offset: 0x95E6A0 VA: 0x1809600A0
+	// RVA: 0x9605A0 Offset: 0x95EBA0 VA: 0x1809605A0
 	public void Combine(MeshColliderGroup meshGroup, MeshColliderLookup colliderLookup) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

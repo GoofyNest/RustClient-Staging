@@ -5,7 +5,7 @@ public class ERTreeInstance // TypeDefIndex: 7216
 
 	// Methods
 
-	// RVA: 0xA68A20 Offset: 0xA67020 VA: 0x180A68A20
+	// RVA: 0xA68EF0 Offset: 0xA674F0 VA: 0x180A68EF0
 	public void .ctor(TreeInstance tree) { }
 
 }

@@ -6,16 +6,16 @@ internal static class ValidationHelper // TypeDefIndex: 2888
 
 	// Methods
 
-	// RVA: 0x100FF60 Offset: 0x100E560 VA: 0x18100FF60
+	// RVA: 0x1010A00 Offset: 0x100F000 VA: 0x181010A00
 	public static string MakeStringNull(string stringValue) { }
 
-	// RVA: 0x100FF50 Offset: 0x100E550 VA: 0x18100FF50
+	// RVA: 0x10109F0 Offset: 0x100EFF0 VA: 0x1810109F0
 	public static bool IsBlankString(string stringValue) { }
 
-	// RVA: 0x100FF80 Offset: 0x100E580 VA: 0x18100FF80
+	// RVA: 0x1010A20 Offset: 0x100F020 VA: 0x181010A20
 	public static bool ValidateTcpPort(int port) { }
 
-	// RVA: 0x100FFA0 Offset: 0x100E5A0 VA: 0x18100FFA0
+	// RVA: 0x1010A40 Offset: 0x100F040 VA: 0x181010A40
 	private static void .cctor() { }
 
 }

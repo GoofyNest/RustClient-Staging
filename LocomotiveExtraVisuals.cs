@@ -30,22 +30,22 @@ public class LocomotiveExtraVisuals : MonoBehaviour // TypeDefIndex: 9765
 
 	// Methods
 
-	// RVA: 0x4FFCF0 Offset: 0x4FE2F0 VA: 0x1804FFCF0
+	// RVA: 0x4FFC80 Offset: 0x4FE280 VA: 0x1804FFC80
 	public void UpdateTick() { }
 
-	// RVA: 0x4FFB30 Offset: 0x4FE130 VA: 0x1804FFB30
+	// RVA: 0x4FFAC0 Offset: 0x4FE0C0 VA: 0x1804FFAC0
 	public void StopAll() { }
 
-	// RVA: 0x4FFBE0 Offset: 0x4FE1E0 VA: 0x1804FFBE0
+	// RVA: 0x4FFB70 Offset: 0x4FE170 VA: 0x1804FFB70
 	private void UpdateNeedle(Transform needle, LocomotiveExtraVisuals.NeedleType type) { }
 
-	// RVA: 0x4FF920 Offset: 0x4FDF20 VA: 0x1804FF920
+	// RVA: 0x4FF8B0 Offset: 0x4FDEB0 VA: 0x1804FF8B0
 	private float GetTargetAngle(LocomotiveExtraVisuals.NeedleType type) { }
 
-	// RVA: 0x4FFAF0 Offset: 0x4FE0F0 VA: 0x1804FFAF0
+	// RVA: 0x4FFA80 Offset: 0x4FE080 VA: 0x1804FFA80
 	private void SetAngle(Transform tr, float angle) { }
 
-	// RVA: 0x500220 Offset: 0x4FE820 VA: 0x180500220
+	// RVA: 0x5001B0 Offset: 0x4FE7B0 VA: 0x1805001B0
 	public void .ctor() { }
 
 }

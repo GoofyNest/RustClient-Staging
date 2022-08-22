@@ -1,16 +1,16 @@
 public static class KeyCombos // TypeDefIndex: 8230
 {	// Methods
 
-	// RVA: 0x106ED20 Offset: 0x106D320 VA: 0x18106ED20
+	// RVA: 0x106F790 Offset: 0x106DD90 VA: 0x18106F790
 	public static bool TryParse(ref string name, out List<KeyCode> keys) { }
 
-	// RVA: 0x106EBE0 Offset: 0x106D1E0 VA: 0x18106EBE0
+	// RVA: 0x106F650 Offset: 0x106DC50 VA: 0x18106F650
 	public static void RegisterButton(string name, List<KeyCode> keys) { }
 
-	// RVA: 0x106EBA0 Offset: 0x106D1A0 VA: 0x18106EBA0
+	// RVA: 0x106F610 Offset: 0x106DC10 VA: 0x18106F610
 	private static bool IsFunctionKey(KeyCode keyCode) { }
 
-	// RVA: 0x106EBC0 Offset: 0x106D1C0 VA: 0x18106EBC0
+	// RVA: 0x106F630 Offset: 0x106DC30 VA: 0x18106F630
 	private static bool IsMouseButton(KeyCode keyCode) { }
 
 }
@@ -23,16 +23,16 @@ private sealed class KeyCombos.<>c // TypeDefIndex: 8231
 
 	// Methods
 
-	// RVA: 0x107A8A0 Offset: 0x1078EA0 VA: 0x18107A8A0
+	// RVA: 0x107B310 Offset: 0x1079910 VA: 0x18107B310
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x107A380 Offset: 0x1078980 VA: 0x18107A380
+	// RVA: 0x107ADF0 Offset: 0x10793F0 VA: 0x18107ADF0
 	internal string <TryParse>b__0_0(KeyCode k) { }
 
-	// RVA: 0x107A410 Offset: 0x1078A10 VA: 0x18107A410
+	// RVA: 0x107AE80 Offset: 0x1079480 VA: 0x18107AE80
 	internal string <TryParse>b__0_1(string s) { }
 
 }
@@ -46,7 +46,7 @@ private sealed class KeyCombos.<>c__DisplayClass1_0 // TypeDefIndex: 8232
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x107A4C0 Offset: 0x1078AC0 VA: 0x18107A4C0
+	// RVA: 0x107AF30 Offset: 0x1079530 VA: 0x18107AF30
 	internal bool <RegisterButton>b__0() { }
 
 }

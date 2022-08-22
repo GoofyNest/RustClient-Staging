@@ -18,15 +18,15 @@ internal struct ColorData // TypeDefIndex: 7700
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14CC10 Offset: 0x14C010 VA: 0x18014CC10
+	// RVA: 0x14CA30 Offset: 0x14BE30 VA: 0x18014CA30
 	public byte get_Red() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x204B50 Offset: 0x203F50 VA: 0x180204B50
+	// RVA: 0x204780 Offset: 0x203B80 VA: 0x180204780
 	public void set_Red(byte value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1FA1A0 Offset: 0x1F95A0 VA: 0x1801FA1A0
+	// RVA: 0x1F9DD0 Offset: 0x1F91D0 VA: 0x1801F9DD0
 	public byte get_Green() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -34,7 +34,7 @@ internal struct ColorData // TypeDefIndex: 7700
 	public void set_Green(byte value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1210C0 Offset: 0x1204C0 VA: 0x1801210C0
+	// RVA: 0x120EE0 Offset: 0x1202E0 VA: 0x180120EE0
 	public byte get_Blue() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

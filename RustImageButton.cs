@@ -23,67 +23,67 @@ public class RustImageButton : RustControl, IPointerDownHandler, IEventSystemHan
 
 	// Methods
 
-	// RVA: 0xFCB5E0 Offset: 0xFC9BE0 VA: 0x180FCB5E0
+	// RVA: 0xFCC080 Offset: 0xFCA680 VA: 0x180FCC080
 	public bool get_Value() { }
 
-	// RVA: 0xFCBA70 Offset: 0xFCA070 VA: 0x180FCBA70
+	// RVA: 0xFCC510 Offset: 0xFCAB10 VA: 0x180FCC510
 	public void set_Value(bool value) { }
 
-	// RVA: 0xFCC3F0 Offset: 0xFCA9F0 VA: 0x180FCC3F0
+	// RVA: 0xFCCE90 Offset: 0xFCB490 VA: 0x180FCCE90
 	public void Press() { }
 
-	// RVA: 0xFCC3A0 Offset: 0xFCA9A0 VA: 0x180FCC3A0
+	// RVA: 0xFCCE40 Offset: 0xFCB440 VA: 0x180FCCE40
 	public void Unpress() { }
 
-	// RVA: 0xFCC370 Offset: 0xFCA970 VA: 0x180FCC370 Slot: 42
+	// RVA: 0xFCCE10 Offset: 0xFCB410 VA: 0x180FCCE10 Slot: 42
 	public virtual void OnPointerDown(PointerEventData eventData) { }
 
-	// RVA: 0xFCC640 Offset: 0xFCAC40 VA: 0x180FCC640
+	// RVA: 0xFCD0E0 Offset: 0xFCB6E0 VA: 0x180FCD0E0
 	public void Toggle(bool v, bool forced = False) { }
 
-	// RVA: 0xFCC530 Offset: 0xFCAB30 VA: 0x180FCC530
+	// RVA: 0xFCCFD0 Offset: 0xFCB5D0 VA: 0x180FCCFD0
 	private void ToggleTabPanel(bool onOff) { }
 
-	// RVA: 0xFCC0C0 Offset: 0xFCA6C0 VA: 0x180FCC0C0
+	// RVA: 0xFCCB60 Offset: 0xFCB160 VA: 0x180FCCB60
 	private void DoUnpressSiblings() { }
 
-	// RVA: 0xFCC3A0 Offset: 0xFCA9A0 VA: 0x180FCC3A0 Slot: 43
+	// RVA: 0xFCCE40 Offset: 0xFCB440 VA: 0x180FCCE40 Slot: 43
 	public virtual void OnPointerUp(PointerEventData eventData) { }
 
-	// RVA: 0xFCC320 Offset: 0xFCA920 VA: 0x180FCC320 Slot: 7
+	// RVA: 0xFCCDC0 Offset: 0xFCB3C0 VA: 0x180FCCDC0 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0xFCBF40 Offset: 0xFCA540 VA: 0x180FCBF40 Slot: 30
+	// RVA: 0xFCC9E0 Offset: 0xFCAFE0 VA: 0x180FCC9E0 Slot: 30
 	protected override void ApplyStyle(StyleAsset.Group s) { }
 
-	// RVA: 0xFCC9C0 Offset: 0xFCAFC0 VA: 0x180FCC9C0 Slot: 35
+	// RVA: 0xFCD460 Offset: 0xFCBA60 VA: 0x180FCD460 Slot: 35
 	public float get_minWidth() { }
 
-	// RVA: 0xFCCB00 Offset: 0xFCB100 VA: 0x180FCCB00 Slot: 36
+	// RVA: 0xFCD5A0 Offset: 0xFCBBA0 VA: 0x180FCD5A0 Slot: 36
 	public float get_preferredWidth() { }
 
-	// RVA: 0xFCC7F0 Offset: 0xFCADF0 VA: 0x180FCC7F0 Slot: 37
+	// RVA: 0xFCD290 Offset: 0xFCB890 VA: 0x180FCD290 Slot: 37
 	public float get_flexibleWidth() { }
 
-	// RVA: 0xFCC930 Offset: 0xFCAF30 VA: 0x180FCC930 Slot: 38
+	// RVA: 0xFCD3D0 Offset: 0xFCB9D0 VA: 0x180FCD3D0 Slot: 38
 	public float get_minHeight() { }
 
-	// RVA: 0xFCCA70 Offset: 0xFCB070 VA: 0x180FCCA70 Slot: 39
+	// RVA: 0xFCD510 Offset: 0xFCBB10 VA: 0x180FCD510 Slot: 39
 	public float get_preferredHeight() { }
 
-	// RVA: 0xFCC760 Offset: 0xFCAD60 VA: 0x180FCC760 Slot: 40
+	// RVA: 0xFCD200 Offset: 0xFCB800 VA: 0x180FCD200 Slot: 40
 	public float get_flexibleHeight() { }
 
-	// RVA: 0xFCC8A0 Offset: 0xFCAEA0 VA: 0x180FCC8A0 Slot: 41
+	// RVA: 0xFCD340 Offset: 0xFCB940 VA: 0x180FCD340 Slot: 41
 	public int get_layoutPriority() { }
 
-	// RVA: 0xFCC080 Offset: 0xFCA680 VA: 0x180FCC080 Slot: 33
+	// RVA: 0xFCCB20 Offset: 0xFCB120 VA: 0x180FCCB20 Slot: 33
 	public void CalculateLayoutInputHorizontal() { }
 
-	// RVA: 0xFCC0A0 Offset: 0xFCA6A0 VA: 0x180FCC0A0 Slot: 34
+	// RVA: 0xFCCB40 Offset: 0xFCB140 VA: 0x180FCCB40 Slot: 34
 	public void CalculateLayoutInputVertical() { }
 
-	// RVA: 0xFCC700 Offset: 0xFCAD00 VA: 0x180FCC700
+	// RVA: 0xFCD1A0 Offset: 0xFCB7A0 VA: 0x180FCD1A0
 	public void .ctor() { }
 
 }

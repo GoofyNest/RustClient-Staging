@@ -25,46 +25,46 @@ public abstract class RestRgbService : IRgbService // TypeDefIndex: 7678
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x73AD00 Offset: 0x739300 VA: 0x18073AD00 Slot: 4
+	// RVA: 0x73AC50 Offset: 0x739250 VA: 0x18073AC50 Slot: 4
 	public bool get_IsConnected() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1124780 Offset: 0x1122D80 VA: 0x181124780
+	// RVA: 0x11251F0 Offset: 0x11237F0 VA: 0x1811251F0
 	protected void set_IsConnected(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x12CD070 Offset: 0x12CB670 VA: 0x1812CD070 Slot: 5
+	// RVA: 0x12D3520 Offset: 0x12D1B20 VA: 0x1812D3520 Slot: 5
 	public Vector3 get_ColorCorrection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21C0F30 Offset: 0x21BF530 VA: 0x1821C0F30 Slot: 6
+	// RVA: 0x21C1750 Offset: 0x21BFD50 VA: 0x1821C1750 Slot: 6
 	public void set_ColorCorrection(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	protected HttpClient get_Client() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
+	// RVA: 0x6AD650 Offset: 0x6ABC50 VA: 0x1806AD650
 	protected void set_Client(HttpClient value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	protected TimeSpan get_HeartbeatInterval() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21C0F40 Offset: 0x21BF540 VA: 0x1821C0F40
+	// RVA: 0x21C1760 Offset: 0x21BFD60 VA: 0x1821C1760
 	protected void set_HeartbeatInterval(TimeSpan value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	protected TimeSpan get_ReinitializeDelay() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEE66E0 Offset: 0xEE4CE0 VA: 0x180EE66E0
+	// RVA: 0xEE7190 Offset: 0xEE5790 VA: 0x180EE7190
 	protected void set_ReinitializeDelay(TimeSpan value) { }
 
-	// RVA: 0x21C0D90 Offset: 0x21BF390 VA: 0x1821C0D90
+	// RVA: 0x21C15B0 Offset: 0x21BFBB0 VA: 0x1821C15B0
 	protected void .ctor() { }
 
 	// RVA: -1 Offset: -1 Slot: 13
@@ -86,43 +86,43 @@ public abstract class RestRgbService : IRgbService // TypeDefIndex: 7678
 	protected abstract Task SendEvent(RgbEventType type);
 
 	[AsyncStateMachineAttribute] // RVA: 0xB6BE0 Offset: 0xB5FE0 VA: 0x1800B6BE0
-	// RVA: 0x21C08B0 Offset: 0x21BEEB0 VA: 0x1821C08B0 Slot: 7
+	// RVA: 0x21C10D0 Offset: 0x21BF6D0 VA: 0x1821C10D0 Slot: 7
 	public ValueTask Start() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB6E30 Offset: 0xB6230 VA: 0x1800B6E30
-	// RVA: 0x21C0B90 Offset: 0x21BF190 VA: 0x1821C0B90 Slot: 8
+	// RVA: 0x21C13B0 Offset: 0x21BF9B0 VA: 0x1821C13B0 Slot: 8
 	public ValueTask Stop() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB6FE0 Offset: 0xB63E0 VA: 0x1800B6FE0
-	// RVA: 0x21C0C90 Offset: 0x21BF290 VA: 0x1821C0C90 Slot: 9
+	// RVA: 0x21C14B0 Offset: 0x21BFAB0 VA: 0x1821C14B0 Slot: 9
 	public ValueTask Update() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB7060 Offset: 0xB6460 VA: 0x1800B7060
-	// RVA: 0x21C07B0 Offset: 0x21BEDB0 VA: 0x1821C07B0
+	// RVA: 0x21C0FD0 Offset: 0x21BF5D0 VA: 0x1821C0FD0
 	private void SendHeartbeatAndWait() { }
 
-	// RVA: 0x21C0AA0 Offset: 0x21BF0A0 VA: 0x1821C0AA0 Slot: 10
+	// RVA: 0x21C12C0 Offset: 0x21BF8C0 VA: 0x1821C12C0 Slot: 10
 	public void StaticColor(Color color) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB7150 Offset: 0xB6550 VA: 0x1800B7150
-	// RVA: 0x21C09B0 Offset: 0x21BEFB0 VA: 0x1821C09B0
+	// RVA: 0x21C11D0 Offset: 0x21BF7D0 VA: 0x1821C11D0
 	private void StaticColorImpl(Color color) { }
 
-	// RVA: 0x21C06A0 Offset: 0x21BECA0 VA: 0x1821C06A0 Slot: 11
+	// RVA: 0x21C0EC0 Offset: 0x21BF4C0 VA: 0x1821C0EC0 Slot: 11
 	public void PulseColor(Color color, float duration) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB72B0 Offset: 0xB66B0 VA: 0x1800B72B0
-	// RVA: 0x21C05A0 Offset: 0x21BEBA0 VA: 0x1821C05A0
+	// RVA: 0x21C0DC0 Offset: 0x21BF3C0 VA: 0x1821C0DC0
 	private void PulseColorImpl(Color color, float duration) { }
 
-	// RVA: 0x21C04B0 Offset: 0x21BEAB0 VA: 0x1821C04B0 Slot: 12
+	// RVA: 0x21C0CD0 Offset: 0x21BF2D0 VA: 0x1821C0CD0 Slot: 12
 	public void Event(RgbEventType type) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB7440 Offset: 0xB6840 VA: 0x1800B7440
-	// RVA: 0x21C03C0 Offset: 0x21BE9C0 VA: 0x1821C03C0
+	// RVA: 0x21C0BE0 Offset: 0x21BF1E0 VA: 0x1821C0BE0
 	private void EventImpl(RgbEventType type) { }
 
-	// RVA: 0x21C0880 Offset: 0x21BEE80 VA: 0x1821C0880
+	// RVA: 0x21C10A0 Offset: 0x21BF6A0 VA: 0x1821C10A0
 	private void ShutdownFromFailure() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xB8880 Offset: 0xB7C80 VA: 0x1800B8880
@@ -130,25 +130,25 @@ public abstract class RestRgbService : IRgbService // TypeDefIndex: 7678
 	protected Task<HttpResponseMessage> SendPost<T>(string endpoint, T payload) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED7CD0 Offset: 0xED62D0 VA: 0x180ED7CD0
+	|-RVA: 0xED8780 Offset: 0xED6D80 VA: 0x180ED8780
 	|-RestRgbService.SendPost<GameEvent<ColorEventData>>
 	|
-	|-RVA: 0xED7B80 Offset: 0xED6180 VA: 0x180ED7B80
+	|-RVA: 0xED8630 Offset: 0xED6C30 VA: 0x180ED8630
 	|-RestRgbService.SendPost<GameEvent<EmptyEventData>>
 	|
-	|-RVA: 0xED7E20 Offset: 0xED6420 VA: 0x180ED7E20
+	|-RVA: 0xED88D0 Offset: 0xED6ED0 VA: 0x180ED88D0
 	|-RestRgbService.SendPost<GameMetadata>
 	|
-	|-RVA: 0xED7F70 Offset: 0xED6570 VA: 0x180ED7F70
+	|-RVA: 0xED8A20 Offset: 0xED7020 VA: 0x180ED8A20
 	|-RestRgbService.SendPost<LoadGoLispHandlers>
 	|
-	|-RVA: 0xED80C0 Offset: 0xED66C0 VA: 0x180ED80C0
+	|-RVA: 0xED8B70 Offset: 0xED7170 VA: 0x180ED8B70
 	|-RestRgbService.SendPost<RegisterGameEvent>
 	|
-	|-RVA: 0xED8210 Offset: 0xED6810 VA: 0x180ED8210
+	|-RVA: 0xED8CC0 Offset: 0xED72C0 VA: 0x180ED8CC0
 	|-RestRgbService.SendPost<RegisterTimelineEvents>
 	|
-	|-RVA: 0xED8360 Offset: 0xED6960 VA: 0x180ED8360
+	|-RVA: 0xED8E10 Offset: 0xED7410 VA: 0x180ED8E10
 	|-RestRgbService.SendPost<RemoveGame>
 	*/
 
@@ -156,28 +156,28 @@ public abstract class RestRgbService : IRgbService // TypeDefIndex: 7678
 	protected static HttpContent BuildContent<T>(T parameters) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED7560 Offset: 0xED5B60 VA: 0x180ED7560
+	|-RVA: 0xED8010 Offset: 0xED6610 VA: 0x180ED8010
 	|-RestRgbService.BuildContent<GameEvent<ColorEventData>>
 	|
-	|-RVA: 0xED7480 Offset: 0xED5A80 VA: 0x180ED7480
+	|-RVA: 0xED7F30 Offset: 0xED6530 VA: 0x180ED7F30
 	|-RestRgbService.BuildContent<GameEvent<EmptyEventData>>
 	|
-	|-RVA: 0xED7640 Offset: 0xED5C40 VA: 0x180ED7640
+	|-RVA: 0xED80F0 Offset: 0xED66F0 VA: 0x180ED80F0
 	|-RestRgbService.BuildContent<GameMetadata>
 	|
-	|-RVA: 0xED7720 Offset: 0xED5D20 VA: 0x180ED7720
+	|-RVA: 0xED81D0 Offset: 0xED67D0 VA: 0x180ED81D0
 	|-RestRgbService.BuildContent<Heartbeat>
 	|
-	|-RVA: 0xED7800 Offset: 0xED5E00 VA: 0x180ED7800
+	|-RVA: 0xED82B0 Offset: 0xED68B0 VA: 0x180ED82B0
 	|-RestRgbService.BuildContent<LoadGoLispHandlers>
 	|
-	|-RVA: 0xED78E0 Offset: 0xED5EE0 VA: 0x180ED78E0
+	|-RVA: 0xED8390 Offset: 0xED6990 VA: 0x180ED8390
 	|-RestRgbService.BuildContent<RegisterGameEvent>
 	|
-	|-RVA: 0xED79C0 Offset: 0xED5FC0 VA: 0x180ED79C0
+	|-RVA: 0xED8470 Offset: 0xED6A70 VA: 0x180ED8470
 	|-RestRgbService.BuildContent<RegisterTimelineEvents>
 	|
-	|-RVA: 0xED7AA0 Offset: 0xED60A0 VA: 0x180ED7AA0
+	|-RVA: 0xED8550 Offset: 0xED6B50 VA: 0x180ED8550
 	|-RestRgbService.BuildContent<RemoveGame>
 	*/
 
@@ -331,25 +331,25 @@ private struct RestRgbService.<SendPost>d__42<T> : IAsyncStateMachine // TypeDef
 	private void MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1206A0 Offset: 0x11FAA0 VA: 0x1801206A0
+	|-RVA: 0x1204C0 Offset: 0x11F8C0 VA: 0x1801204C0
 	|-RestRgbService.<SendPost>d__42<GameEvent<ColorEventData>>.MoveNext
 	|
-	|-RVA: 0x1206B0 Offset: 0x11FAB0 VA: 0x1801206B0
+	|-RVA: 0x1204D0 Offset: 0x11F8D0 VA: 0x1801204D0
 	|-RestRgbService.<SendPost>d__42<GameEvent<EmptyEventData>>.MoveNext
 	|
-	|-RVA: 0x120690 Offset: 0x11FA90 VA: 0x180120690
+	|-RVA: 0x1204B0 Offset: 0x11F8B0 VA: 0x1801204B0
 	|-RestRgbService.<SendPost>d__42<GameMetadata>.MoveNext
 	|
-	|-RVA: 0x120670 Offset: 0x11FA70 VA: 0x180120670
+	|-RVA: 0x120490 Offset: 0x11F890 VA: 0x180120490
 	|-RestRgbService.<SendPost>d__42<LoadGoLispHandlers>.MoveNext
 	|
-	|-RVA: 0x120680 Offset: 0x11FA80 VA: 0x180120680
+	|-RVA: 0x1204A0 Offset: 0x11F8A0 VA: 0x1801204A0
 	|-RestRgbService.<SendPost>d__42<RegisterGameEvent>.MoveNext
 	|
-	|-RVA: 0x120660 Offset: 0x11FA60 VA: 0x180120660
+	|-RVA: 0x120480 Offset: 0x11F880 VA: 0x180120480
 	|-RestRgbService.<SendPost>d__42<RegisterTimelineEvents>.MoveNext
 	|
-	|-RVA: 0x1206C0 Offset: 0x11FAC0 VA: 0x1801206C0
+	|-RVA: 0x1204E0 Offset: 0x11F8E0 VA: 0x1801204E0
 	|-RestRgbService.<SendPost>d__42<RemoveGame>.MoveNext
 	*/
 
@@ -358,25 +358,25 @@ private struct RestRgbService.<SendPost>d__42<T> : IAsyncStateMachine // TypeDef
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1208B0 Offset: 0x11FCB0 VA: 0x1801208B0
+	|-RVA: 0x1206D0 Offset: 0x11FAD0 VA: 0x1801206D0
 	|-RestRgbService.<SendPost>d__42<GameEvent<ColorEventData>>.SetStateMachine
 	|
-	|-RVA: 0x1207C0 Offset: 0x11FBC0 VA: 0x1801207C0
+	|-RVA: 0x1205E0 Offset: 0x11F9E0 VA: 0x1801205E0
 	|-RestRgbService.<SendPost>d__42<GameEvent<EmptyEventData>>.SetStateMachine
 	|
-	|-RVA: 0x120720 Offset: 0x11FB20 VA: 0x180120720
+	|-RVA: 0x120540 Offset: 0x11F940 VA: 0x180120540
 	|-RestRgbService.<SendPost>d__42<GameMetadata>.SetStateMachine
 	|
-	|-RVA: 0x120770 Offset: 0x11FB70 VA: 0x180120770
+	|-RVA: 0x120590 Offset: 0x11F990 VA: 0x180120590
 	|-RestRgbService.<SendPost>d__42<LoadGoLispHandlers>.SetStateMachine
 	|
-	|-RVA: 0x1206D0 Offset: 0x11FAD0 VA: 0x1801206D0
+	|-RVA: 0x1204F0 Offset: 0x11F8F0 VA: 0x1801204F0
 	|-RestRgbService.<SendPost>d__42<RegisterGameEvent>.SetStateMachine
 	|
-	|-RVA: 0x120810 Offset: 0x11FC10 VA: 0x180120810
+	|-RVA: 0x120630 Offset: 0x11FA30 VA: 0x180120630
 	|-RestRgbService.<SendPost>d__42<RegisterTimelineEvents>.SetStateMachine
 	|
-	|-RVA: 0x120860 Offset: 0x11FC60 VA: 0x180120860
+	|-RVA: 0x120680 Offset: 0x11FA80 VA: 0x180120680
 	|-RestRgbService.<SendPost>d__42<RemoveGame>.SetStateMachine
 	*/
 

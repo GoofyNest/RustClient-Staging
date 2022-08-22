@@ -23,25 +23,25 @@ public class LightEx : UpdateBehaviour, IClientComponent // TypeDefIndex: 9196
 
 	// Methods
 
-	// RVA: 0x4EF490 Offset: 0x4EDA90 VA: 0x1804EF490
+	// RVA: 0x4EF420 Offset: 0x4EDA20 VA: 0x1804EF420
 	protected void Awake() { }
 
-	// RVA: 0x4EFB20 Offset: 0x4EE120 VA: 0x1804EFB20 Slot: 5
+	// RVA: 0x4EFAB0 Offset: 0x4EE0B0 VA: 0x1804EFAB0 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x4EFA90 Offset: 0x4EE090 VA: 0x1804EFA90 Slot: 6
+	// RVA: 0x4EFA20 Offset: 0x4EE020 VA: 0x1804EFA20 Slot: 6
 	protected override void OnDisable() { }
 
-	// RVA: 0x4EF6E0 Offset: 0x4EDCE0 VA: 0x1804EF6E0 Slot: 4
+	// RVA: 0x4EF670 Offset: 0x4EDC70 VA: 0x1804EF670 Slot: 4
 	public override void DeltaUpdate(float deltaTime) { }
 
-	// RVA: 0x4EFC70 Offset: 0x4EE270 VA: 0x1804EFC70
+	// RVA: 0x4EFC00 Offset: 0x4EE200 VA: 0x1804EFC00
 	protected void OnValidate() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	public static bool CheckConflict(GameObject go) { }
 
-	// RVA: 0x4EFC80 Offset: 0x4EE280 VA: 0x1804EFC80
+	// RVA: 0x4EFC10 Offset: 0x4EE210 VA: 0x1804EFC10
 	public void .ctor() { }
 
 }

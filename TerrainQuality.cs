@@ -8,19 +8,19 @@ public class TerrainQuality : TerrainExtension // TypeDefIndex: 10431
 
 	// Methods
 
-	// RVA: 0x1151E70 Offset: 0x1150470 VA: 0x181151E70 Slot: 4
+	// RVA: 0x11528E0 Offset: 0x1150EE0 VA: 0x1811528E0 Slot: 4
 	public override void Setup() { }
 
-	// RVA: 0x1151D90 Offset: 0x1150390 VA: 0x181151D90
+	// RVA: 0x1152800 Offset: 0x1150E00 VA: 0x181152800
 	protected void OnEnable() { }
 
-	// RVA: 0x1151C90 Offset: 0x1150290 VA: 0x181151C90
+	// RVA: 0x1152700 Offset: 0x1150D00 VA: 0x181152700
 	protected void OnDisable() { }
 
-	// RVA: 0x1151C00 Offset: 0x1150200 VA: 0x181151C00
+	// RVA: 0x1152670 Offset: 0x1150C70 VA: 0x181152670
 	private void FindCommand() { }
 
-	// RVA: 0x1151EA0 Offset: 0x11504A0 VA: 0x181151EA0
+	// RVA: 0x1152910 Offset: 0x1150F10 VA: 0x181152910
 	private void TerrainQuality_OnValueChanged(ConsoleSystem.Command obj) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

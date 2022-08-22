@@ -8,7 +8,7 @@ public class LifeInfographicStatWeapon : MonoBehaviour // TypeDefIndex: 11077
 
 	// Methods
 
-	// RVA: 0x68C0B0 Offset: 0x68A6B0 VA: 0x18068C0B0
+	// RVA: 0x68C040 Offset: 0x68A640 VA: 0x18068C040
 	public void Populate(PlayerLifeStory.WeaponStats stats, ItemDefinition def) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

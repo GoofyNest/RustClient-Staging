@@ -4,10 +4,10 @@ public struct ConfiguredTaskAwaitable // TypeDefIndex: 1292
 
 	// Methods
 
-	// RVA: 0x14BFE0 Offset: 0x14B3E0 VA: 0x18014BFE0
+	// RVA: 0x14BE00 Offset: 0x14B200 VA: 0x18014BE00
 	internal void .ctor(Task task, bool continueOnCapturedContext) { }
 
-	// RVA: 0x14B770 Offset: 0x14AB70 VA: 0x18014B770
+	// RVA: 0x14B590 Offset: 0x14A990 VA: 0x18014B590
 	public ConfiguredTaskAwaitable.ConfiguredTaskAwaiter GetAwaiter() { }
 
 }
@@ -25,16 +25,16 @@ public struct ConfiguredTaskAwaitable.ConfiguredTaskAwaiter : ICriticalNotifyCom
 	// RVA: 0xFA3F0 Offset: 0xF97F0 VA: 0x1800FA3F0
 	internal void .ctor(Task task, bool continueOnCapturedContext) { }
 
-	// RVA: 0x14C0C0 Offset: 0x14B4C0 VA: 0x18014C0C0
+	// RVA: 0x14BEE0 Offset: 0x14B2E0 VA: 0x18014BEE0
 	public bool get_IsCompleted() { }
 
-	// RVA: 0x14C060 Offset: 0x14B460 VA: 0x18014C060 Slot: 5
+	// RVA: 0x14BE80 Offset: 0x14B280 VA: 0x18014BE80 Slot: 5
 	public void OnCompleted(Action continuation) { }
 
-	// RVA: 0x14C090 Offset: 0x14B490 VA: 0x18014C090 Slot: 4
+	// RVA: 0x14BEB0 Offset: 0x14B2B0 VA: 0x18014BEB0 Slot: 4
 	public void UnsafeOnCompleted(Action continuation) { }
 
-	// RVA: 0x14C050 Offset: 0x14B450 VA: 0x18014C050
+	// RVA: 0x14BE70 Offset: 0x14B270 VA: 0x18014BE70
 	public void GetResult() { }
 
 }
@@ -74,7 +74,7 @@ public struct ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<TResult> : ICritical
 	public bool get_IsCompleted() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x14C0C0 Offset: 0x14B4C0 VA: 0x18014C0C0
+	|-RVA: 0x14BEE0 Offset: 0x14B2E0 VA: 0x18014BEE0
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<AsyncProtocolResult>.get_IsCompleted
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<PublishResult>.get_IsCompleted
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<bool>.get_IsCompleted
@@ -101,7 +101,7 @@ public struct ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<TResult> : ICritical
 	public void OnCompleted(Action continuation) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x14C060 Offset: 0x14B460 VA: 0x18014C060
+	|-RVA: 0x14BE80 Offset: 0x14B280 VA: 0x18014BE80
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<PublishResult>.OnCompleted
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<bool>.OnCompleted
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<int>.OnCompleted
@@ -122,7 +122,7 @@ public struct ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<TResult> : ICritical
 	public void UnsafeOnCompleted(Action continuation) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x14C090 Offset: 0x14B490 VA: 0x18014C090
+	|-RVA: 0x14BEB0 Offset: 0x14B2B0 VA: 0x18014BEB0
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<PublishResult>.UnsafeOnCompleted
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<bool>.UnsafeOnCompleted
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<int>.UnsafeOnCompleted
@@ -143,7 +143,7 @@ public struct ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<TResult> : ICritical
 	public TResult GetResult() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E80 Offset: 0x1E2280 VA: 0x1801E2E80
+	|-RVA: 0x1E32A0 Offset: 0x1E26A0 VA: 0x1801E32A0
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<AsyncProtocolResult>.GetResult
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<Stream>.GetResult
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<HttpResponseMessage>.GetResult
@@ -157,24 +157,24 @@ public struct ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<TResult> : ICritical
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<Task>.GetResult
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<VoidTaskResult>.GetResult
 	|
-	|-RVA: 0x1E2F10 Offset: 0x1E2310 VA: 0x1801E2F10
+	|-RVA: 0x1E3330 Offset: 0x1E2730 VA: 0x1801E3330
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<PublishResult>.GetResult
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<Nullable<Image>>.GetResult
 	|
-	|-RVA: 0x1E3090 Offset: 0x1E2490 VA: 0x1801E3090
+	|-RVA: 0x1E34B0 Offset: 0x1E28B0 VA: 0x1801E34B0
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<UdpReceiveResult>.GetResult
 	|
-	|-RVA: 0x1E3140 Offset: 0x1E2540 VA: 0x1801E3140
+	|-RVA: 0x1E3560 Offset: 0x1E2960 VA: 0x1801E3560
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<Nullable<ServerInfo>>.GetResult
 	|
-	|-RVA: 0x1E2FD0 Offset: 0x1E23D0 VA: 0x1801E2FD0
+	|-RVA: 0x1E33F0 Offset: 0x1E27F0 VA: 0x1801E33F0
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<Nullable<InventoryPurchaseResult>>.GetResult
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<Nullable<ResultPage>>.GetResult
 	|
-	|-RVA: 0x1E3380 Offset: 0x1E2780 VA: 0x1801E3380
+	|-RVA: 0x1E37A0 Offset: 0x1E2BA0 VA: 0x1801E37A0
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<Nullable<InventoryResult>>.GetResult
 	|
-	|-RVA: 0x1E3240 Offset: 0x1E2640 VA: 0x1801E3240
+	|-RVA: 0x1E3660 Offset: 0x1E2A60 VA: 0x1801E3660
 	|-ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<Nullable<Item>>.GetResult
 	*/
 

@@ -1,7 +1,7 @@
 public class LakeInfo : MonoBehaviour // TypeDefIndex: 9960
 {	// Methods
 
-	// RVA: 0x686830 Offset: 0x684E30 VA: 0x180686830
+	// RVA: 0x6867C0 Offset: 0x684DC0 VA: 0x1806867C0
 	protected void Awake() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

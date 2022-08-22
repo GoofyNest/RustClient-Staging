@@ -7,10 +7,10 @@ public class GenerateRoadTerrain : ProceduralComponent // TypeDefIndex: 10518
 
 	// Methods
 
-	// RVA: 0xC96960 Offset: 0xC94F60 VA: 0x180C96960 Slot: 5
+	// RVA: 0xC96E00 Offset: 0xC95400 VA: 0x180C96E00 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40
+	// RVA: 0x57BBD0 Offset: 0x57A1D0 VA: 0x18057BBD0
 	public void .ctor() { }
 
 }
@@ -36,7 +36,7 @@ private sealed class GenerateRoadTerrain.<>c__DisplayClass4_1 // TypeDefIndex: 1
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xCA7F90 Offset: 0xCA6590 VA: 0x180CA7F90
+	// RVA: 0xCA8430 Offset: 0xCA6A30 VA: 0x180CA8430
 	internal float <Process>b__0(int i) { }
 
 }

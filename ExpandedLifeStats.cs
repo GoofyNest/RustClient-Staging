@@ -24,29 +24,29 @@ public class ExpandedLifeStats : MonoBehaviour // TypeDefIndex: 10924
 
 	// Methods
 
-	// RVA: 0x8CF880 Offset: 0x8CDE80 VA: 0x1808CF880
+	// RVA: 0x8CFD90 Offset: 0x8CE390 VA: 0x1808CFD90
 	public void Toggle() { }
 
-	// RVA: 0x8CF570 Offset: 0x8CDB70 VA: 0x1808CF570
+	// RVA: 0x8CFA80 Offset: 0x8CE080 VA: 0x1808CFA80
 	public void Toggle(bool newState) { }
 
-	// RVA: 0x8CEC70 Offset: 0x8CD270 VA: 0x1808CEC70
+	// RVA: 0x8CF180 Offset: 0x8CD780 VA: 0x1808CF180
 	private void PopulateDynamicStats() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x8AE80 Offset: 0x8A280 VA: 0x18008AE80
-	// RVA: 0x8CF9A0 Offset: 0x8CDFA0 VA: 0x1808CF9A0
+	// RVA: 0x8CFEB0 Offset: 0x8CE4B0 VA: 0x1808CFEB0
 	private IEnumerator WaitAndRelayout() { }
 
-	// RVA: 0x8CEFB0 Offset: 0x8CD5B0 VA: 0x1808CEFB0
+	// RVA: 0x8CF4C0 Offset: 0x8CDAC0 VA: 0x1808CF4C0
 	private void PopulateGenericStats(List<ExpandedLifeStats.GenericStatDisplay> stats, Transform parent, PlayerLifeStory life) { }
 
-	// RVA: 0x8CF2F0 Offset: 0x8CD8F0 VA: 0x1808CF2F0
+	// RVA: 0x8CF800 Offset: 0x8CDE00 VA: 0x1808CF800
 	private void PopulateWeaponStats(List<PlayerLifeStory.WeaponStats> stats, Transform parent) { }
 
-	// RVA: 0x8CF8A0 Offset: 0x8CDEA0 VA: 0x1808CF8A0
+	// RVA: 0x8CFDB0 Offset: 0x8CE3B0 VA: 0x1808CFDB0
 	public void UpdateScrollGradient() { }
 
-	// RVA: 0x8CFA10 Offset: 0x8CE010 VA: 0x1808CFA10
+	// RVA: 0x8CFF20 Offset: 0x8CE520 VA: 0x1808CFF20
 	public void .ctor() { }
 
 }
@@ -66,13 +66,13 @@ private sealed class ExpandedLifeStats.<>c // TypeDefIndex: 10926
 
 	// Methods
 
-	// RVA: 0x8D9AA0 Offset: 0x8D80A0 VA: 0x1808D9AA0
+	// RVA: 0x8D9FB0 Offset: 0x8D85B0 VA: 0x1808D9FB0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8D9810 Offset: 0x8D7E10 VA: 0x1808D9810
+	// RVA: 0x8D9D20 Offset: 0x8D8320 VA: 0x1808D9D20
 	internal int <PopulateDynamicStats>b__21_0(PlayerLifeStory.WeaponStats a, PlayerLifeStory.WeaponStats b) { }
 
 }
@@ -97,7 +97,7 @@ private sealed class ExpandedLifeStats.<WaitAndRelayout>d__22 : IEnumerator<obje
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x8D9E00 Offset: 0x8D8400 VA: 0x1808D9E00 Slot: 6
+	// RVA: 0x8DA310 Offset: 0x8D8910 VA: 0x1808DA310 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -105,7 +105,7 @@ private sealed class ExpandedLifeStats.<WaitAndRelayout>d__22 : IEnumerator<obje
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D9FB0 Offset: 0x8D85B0 VA: 0x1808D9FB0 Slot: 8
+	// RVA: 0x8DA4C0 Offset: 0x8D8AC0 VA: 0x1808DA4C0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -123,7 +123,7 @@ private sealed class ExpandedLifeStats.<>c__DisplayClass23_0 // TypeDefIndex: 10
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8D9910 Offset: 0x8D7F10 VA: 0x1808D9910
+	// RVA: 0x8D9E20 Offset: 0x8D8420 VA: 0x1808D9E20
 	internal bool <PopulateGenericStats>b__0(PlayerLifeStory.GenericStat p) { }
 
 }

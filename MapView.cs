@@ -53,113 +53,113 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 10954
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x56EAF0 Offset: 0x56D0F0 VA: 0x18056EAF0
+	// RVA: 0x56EA80 Offset: 0x56D080 VA: 0x18056EA80
 	public bool get_followingPlayer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x56EB00 Offset: 0x56D100 VA: 0x18056EB00
+	// RVA: 0x56EA90 Offset: 0x56D090 VA: 0x18056EA90
 	public void set_followingPlayer(bool value) { }
 
-	// RVA: 0x56E970 Offset: 0x56CF70 VA: 0x18056E970
+	// RVA: 0x56E900 Offset: 0x56CF00 VA: 0x18056E900
 	private bool get_IsOpen() { }
 
-	// RVA: 0x56EAA0 Offset: 0x56D0A0 VA: 0x18056EAA0
+	// RVA: 0x56EA30 Offset: 0x56D030 VA: 0x18056EA30
 	public static float get_MarkerScale() { }
 
-	// RVA: 0x56EA00 Offset: 0x56D000 VA: 0x18056EA00
+	// RVA: 0x56E990 Offset: 0x56CF90 VA: 0x18056E990
 	private static BasePlayer get_LocalPlayerEntity() { }
 
-	// RVA: 0x5688F0 Offset: 0x566EF0 VA: 0x1805688F0
+	// RVA: 0x568880 Offset: 0x566E80 VA: 0x180568880
 	private void Awake() { }
 
-	// RVA: 0x56BC00 Offset: 0x56A200 VA: 0x18056BC00
+	// RVA: 0x56BB90 Offset: 0x56A190 VA: 0x18056BB90
 	public void SetActiveView() { }
 
-	// RVA: 0x569CF0 Offset: 0x5682F0 VA: 0x180569CF0
+	// RVA: 0x569C80 Offset: 0x568280 VA: 0x180569C80
 	public void ClearActiveView() { }
 
-	// RVA: 0x56ADE0 Offset: 0x5693E0 VA: 0x18056ADE0
+	// RVA: 0x56AD70 Offset: 0x569370 VA: 0x18056AD70
 	public void MarkersDirty() { }
 
-	// RVA: 0x56C910 Offset: 0x56AF10 VA: 0x18056C910
+	// RVA: 0x56C8A0 Offset: 0x56AEA0 VA: 0x18056C8A0
 	private void SetupMonuments() { }
 
-	// RVA: 0x56BD00 Offset: 0x56A300 VA: 0x18056BD00
+	// RVA: 0x56BC90 Offset: 0x56A290 VA: 0x18056BC90
 	private void SetupMarkers() { }
 
-	// RVA: 0x56AE90 Offset: 0x569490 VA: 0x18056AE90
+	// RVA: 0x56AE20 Offset: 0x569420 VA: 0x18056AE20
 	public void PopulateMarker(MapMarker marker) { }
 
-	// RVA: 0x56AF20 Offset: 0x569520 VA: 0x18056AF20
+	// RVA: 0x56AEB0 Offset: 0x5694B0 VA: 0x18056AEB0
 	private void PopulateMarker(GameObject uiMarker, MapMarker marker) { }
 
-	// RVA: 0x56DCC0 Offset: 0x56C2C0 VA: 0x18056DCC0
+	// RVA: 0x56DC50 Offset: 0x56C250 VA: 0x18056DC50
 	public void UpdatePointsOfInterest() { }
 
-	// RVA: 0x56B150 Offset: 0x569750 VA: 0x18056B150
+	// RVA: 0x56B0E0 Offset: 0x5696E0 VA: 0x18056B0E0
 	public void PopulateSleepingBags() { }
 
-	// RVA: 0x56AA30 Offset: 0x569030 VA: 0x18056AA30
+	// RVA: 0x56A9C0 Offset: 0x568FC0 VA: 0x18056A9C0
 	private SleepingBagMapMarker GetSleepingBagMarker() { }
 
-	// RVA: 0x56A950 Offset: 0x568F50 VA: 0x18056A950
+	// RVA: 0x56A8E0 Offset: 0x568EE0 VA: 0x18056A8E0
 	private SleepingBagClusterMapMarker GetSleepingBagClusterMarker() { }
 
-	// RVA: 0x568920 Offset: 0x566F20 VA: 0x180568920
+	// RVA: 0x5688B0 Offset: 0x566EB0 VA: 0x1805688B0
 	private void BuildMapMarkerClusters(List<MapMarker> markers, List<MapView.MapMarkerCluster> resultClusters, List<MapMarker> resultMarkers) { }
 
-	// RVA: 0x569350 Offset: 0x567950 VA: 0x180569350
+	// RVA: 0x5692E0 Offset: 0x5678E0 VA: 0x1805692E0
 	private void BuildSpawnOptionClusters(List<RespawnInformation.SpawnOptions> spawnOptions, ref List<MapView.SleepingBagCluster> resultClusters, ref List<RespawnInformation.SpawnOptions> resultSleepingBags) { }
 
-	// RVA: 0x56CE50 Offset: 0x56B450 VA: 0x18056CE50
+	// RVA: 0x56CDE0 Offset: 0x56B3E0 VA: 0x18056CDE0
 	private bool ShouldShowSleepingBags() { }
 
-	// RVA: 0x56D470 Offset: 0x56BA70 VA: 0x18056D470
+	// RVA: 0x56D400 Offset: 0x56BA00 VA: 0x18056D400
 	private void UpdateMissionMarkers() { }
 
-	// RVA: 0x56D290 Offset: 0x56B890 VA: 0x18056D290
+	// RVA: 0x56D220 Offset: 0x56B820 VA: 0x18056D220
 	public void UpdateMarkers() { }
 
-	// RVA: 0x56E2C0 Offset: 0x56C8C0 VA: 0x18056E2C0
+	// RVA: 0x56E250 Offset: 0x56C850 VA: 0x18056E250
 	private void Update() { }
 
-	// RVA: 0x56A8D0 Offset: 0x568ED0 VA: 0x18056A8D0
+	// RVA: 0x56A860 Offset: 0x568E60 VA: 0x18056A860
 	private MapLayer GetSelectedMapLayer() { }
 
-	// RVA: 0x56A5F0 Offset: 0x568BF0 VA: 0x18056A5F0
+	// RVA: 0x56A580 Offset: 0x568B80 VA: 0x18056A580
 	private static Nullable<MapLayer> GetCurrentUndergroundLayer() { }
 
-	// RVA: 0x56E690 Offset: 0x56CC90 VA: 0x18056E690
+	// RVA: 0x56E620 Offset: 0x56CC20 VA: 0x18056E620
 	public Vector2 WorldPosToImagePos(Vector3 worldPos) { }
 
-	// RVA: 0x56AB10 Offset: 0x569110 VA: 0x18056AB10
+	// RVA: 0x56AAA0 Offset: 0x5690A0 VA: 0x18056AAA0
 	public Vector3 ImagePosToWorldPos(Vector2 imagePos) { }
 
-	// RVA: 0x569CA0 Offset: 0x5682A0 VA: 0x180569CA0
+	// RVA: 0x569C30 Offset: 0x568230 VA: 0x180569C30
 	public void CenterOn(Vector3 worldPos) { }
 
-	// RVA: 0x56D900 Offset: 0x56BF00 VA: 0x18056D900
+	// RVA: 0x56D890 Offset: 0x56BE90 VA: 0x18056D890
 	public void UpdatePlayerPosition(BasePlayer player) { }
 
-	// RVA: 0x56A420 Offset: 0x568A20 VA: 0x18056A420
+	// RVA: 0x56A3B0 Offset: 0x5689B0 VA: 0x18056A3B0
 	public void DoPlayerUpdate() { }
 
-	// RVA: 0x569D70 Offset: 0x568370 VA: 0x180569D70
+	// RVA: 0x569D00 Offset: 0x568300 VA: 0x180569D00
 	public void ClientTeamUpdated(bool positionsOnly = False) { }
 
-	// RVA: 0x56AD40 Offset: 0x569340 VA: 0x18056AD40
+	// RVA: 0x56ACD0 Offset: 0x5692D0 VA: 0x18056ACD0
 	public void LockCurrentLayer() { }
 
-	// RVA: 0x56CF80 Offset: 0x56B580 VA: 0x18056CF80
+	// RVA: 0x56CF10 Offset: 0x56B510 VA: 0x18056CF10
 	public void UnlockCurrentLayer() { }
 
-	// RVA: 0x56BCA0 Offset: 0x56A2A0 VA: 0x18056BCA0
+	// RVA: 0x56BC30 Offset: 0x56A230 VA: 0x18056BC30
 	public void SetCurrentLayer(int layer) { }
 
-	// RVA: 0x56CF90 Offset: 0x56B590 VA: 0x18056CF90
+	// RVA: 0x56CF20 Offset: 0x56B520 VA: 0x18056CF20
 	public void UpdateLayerButtons(Nullable<MapLayer> currentLayer) { }
 
-	// RVA: 0x56E7D0 Offset: 0x56CDD0 VA: 0x18056E7D0
+	// RVA: 0x56E760 Offset: 0x56CD60 VA: 0x18056E760
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

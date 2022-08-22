@@ -4,17 +4,17 @@ public class RecordingSaved : SingletonComponent<RecordingSaved> // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x93E830 Offset: 0x93CE30 VA: 0x18093E830 Slot: 6
+	// RVA: 0x93ED40 Offset: 0x93D340 VA: 0x18093ED40 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x93E910 Offset: 0x93CF10 VA: 0x18093E910
+	// RVA: 0x93EE20 Offset: 0x93D420 VA: 0x18093EE20
 	public void Popup(string recordingName) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x9F610 Offset: 0x9EA10 VA: 0x18009F610
-	// RVA: 0x93E8A0 Offset: 0x93CEA0 VA: 0x18093E8A0
+	// RVA: 0x93EDB0 Offset: 0x93D3B0 VA: 0x18093EDB0
 	private IEnumerator FadeInOut() { }
 
-	// RVA: 0x93EA00 Offset: 0x93D000 VA: 0x18093EA00
+	// RVA: 0x93EF10 Offset: 0x93D510 VA: 0x18093EF10
 	public void .ctor() { }
 
 }
@@ -39,7 +39,7 @@ private sealed class RecordingSaved.<FadeInOut>d__3 : IEnumerator<object>, IEnum
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x9562E0 Offset: 0x9548E0 VA: 0x1809562E0 Slot: 6
+	// RVA: 0x9567E0 Offset: 0x954DE0 VA: 0x1809567E0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -47,7 +47,7 @@ private sealed class RecordingSaved.<FadeInOut>d__3 : IEnumerator<object>, IEnum
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x956440 Offset: 0x954A40 VA: 0x180956440 Slot: 8
+	// RVA: 0x956940 Offset: 0x954F40 VA: 0x180956940 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

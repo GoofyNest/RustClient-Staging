@@ -15,7 +15,7 @@ public struct IntegrityDescriptor // TypeDefIndex: 7143
 	public void .ctor(bool violated, string message) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x204B50 Offset: 0x203F50 VA: 0x180204B50
+	// RVA: 0x204780 Offset: 0x203B80 VA: 0x180204780
 	private void set_Violated(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

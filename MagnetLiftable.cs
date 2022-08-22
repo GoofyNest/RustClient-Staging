@@ -5,7 +5,7 @@ public class MagnetLiftable : EntityComponent<BaseEntity> // TypeDefIndex: 9733
 
 	// Methods
 
-	// RVA: 0x55B5C0 Offset: 0x559BC0 VA: 0x18055B5C0
+	// RVA: 0x55B550 Offset: 0x559B50 VA: 0x18055B550
 	public void .ctor() { }
 
 }

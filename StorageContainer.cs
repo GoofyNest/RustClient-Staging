@@ -36,47 +36,47 @@ public class StorageContainer : DecayEntity, IItemContainerEntity, LootPanel.IHa
 
 	// Methods
 
-	// RVA: 0x79CA50 Offset: 0x79B050 VA: 0x18079CA50 Slot: 49
+	// RVA: 0x7BAE50 Offset: 0x7B9450 VA: 0x1807BAE50 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x79D8D0 Offset: 0x79BED0 VA: 0x18079D8D0 Slot: 50
+	// RVA: 0x7BBCD0 Offset: 0x7BA2D0 VA: 0x1807BBCD0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x79D530 Offset: 0x79BB30 VA: 0x18079D530 Slot: 35
+	// RVA: 0x7BB930 Offset: 0x7B9F30 VA: 0x1807BB930 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x79DA40 Offset: 0x79C040 VA: 0x18079DA40 Slot: 147
+	// RVA: 0x7BBE40 Offset: 0x7BA440 VA: 0x1807BBE40 Slot: 147
 	public Translate.Phrase get_LootPanelTitle() { }
 
-	// RVA: 0x79D620 Offset: 0x79BC20 VA: 0x18079D620 Slot: 27
+	// RVA: 0x7BBA20 Offset: 0x7BA020 VA: 0x1807BBA20 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0x79D380 Offset: 0x79B980 VA: 0x18079D380 Slot: 150
+	// RVA: 0x7BB780 Offset: 0x7B9D80 VA: 0x1807BB780 Slot: 150
 	public virtual void OnDrawGizmos() { }
 
-	// RVA: 0x79D1E0 Offset: 0x79B7E0 VA: 0x18079D1E0 Slot: 85
+	// RVA: 0x7BB5E0 Offset: 0x7B9BE0 VA: 0x1807BB5E0 Slot: 85
 	public override bool HasSlot(BaseEntity.Slot slot) { }
 
-	// RVA: 0x79D2A0 Offset: 0x79B8A0 VA: 0x18079D2A0
+	// RVA: 0x7BB6A0 Offset: 0x7B9CA0 VA: 0x1807BB6A0
 	public bool OccupiedCheck(BasePlayer player) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 151
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 151
 	public virtual int GetMoveToContainerIndex(BasePlayer player, Item item) { }
 
-	// RVA: 0x686A10 Offset: 0x685010 VA: 0x180686A10 Slot: 152
+	// RVA: 0x6869A0 Offset: 0x684FA0 VA: 0x1806869A0 Slot: 152
 	public virtual int GetMoveToSlotIndex(BasePlayer player, Item item) { }
 
-	// RVA: 0x79D630 Offset: 0x79BC30 VA: 0x18079D630 Slot: 153
+	// RVA: 0x7BBA30 Offset: 0x7BA030 VA: 0x1807BBA30 Slot: 153
 	public virtual bool ShouldShowLootMenus() { }
 
 	[BaseEntity.Menu] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
 	[BaseEntity.Menu.Description] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
 	[BaseEntity.Menu.Icon] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
-	// RVA: 0x79D260 Offset: 0x79B860 VA: 0x18079D260
+	// RVA: 0x7BB660 Offset: 0x7B9C60 VA: 0x1807BB660
 	public void Menu_Open(BasePlayer player) { }
 
-	// RVA: 0x79D240 Offset: 0x79B840 VA: 0x18079D240 Slot: 154
+	// RVA: 0x7BB640 Offset: 0x7B9C40 VA: 0x1807BB640 Slot: 154
 	protected virtual bool Menu_Open_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x8E360 Offset: 0x8D760 VA: 0x18008E360
@@ -86,7 +86,7 @@ public class StorageContainer : DecayEntity, IItemContainerEntity, LootPanel.IHa
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Menu_Occupied(BasePlayer player) { }
 
-	// RVA: 0x79D210 Offset: 0x79B810 VA: 0x18079D210
+	// RVA: 0x7BB610 Offset: 0x7B9C10 VA: 0x1807BB610
 	public bool Menu_Occupied_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x8E610 Offset: 0x8DA10 VA: 0x18008E610
@@ -95,19 +95,19 @@ public class StorageContainer : DecayEntity, IItemContainerEntity, LootPanel.IHa
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Menu_OnFire(BasePlayer player) { }
 
-	// RVA: 0x79D230 Offset: 0x79B830 VA: 0x18079D230
+	// RVA: 0x7BB630 Offset: 0x7B9C30 VA: 0x1807BB630
 	public bool Menu_OnFire_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x59B8E0 Offset: 0x599EE0 VA: 0x18059B8E0 Slot: 148
+	// RVA: 0x59B870 Offset: 0x599E70 VA: 0x18059B870 Slot: 148
 	public SoundDefinition get_OpenSound() { }
 
-	// RVA: 0x79D8C0 Offset: 0x79BEC0 VA: 0x18079D8C0 Slot: 149
+	// RVA: 0x7BBCC0 Offset: 0x7BA2C0 VA: 0x1807BBCC0 Slot: 149
 	public SoundDefinition get_CloseSound() { }
 
-	// RVA: 0x79D7D0 Offset: 0x79BDD0 VA: 0x18079D7D0
+	// RVA: 0x7BBBD0 Offset: 0x7BA1D0 VA: 0x1807BBBD0
 	public void .ctor() { }
 
-	// RVA: 0x79D720 Offset: 0x79BD20 VA: 0x18079D720
+	// RVA: 0x7BBB20 Offset: 0x7BA120 VA: 0x1807BBB20
 	private static void .cctor() { }
 
 }

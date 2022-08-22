@@ -8,26 +8,26 @@ public struct LayerMask // TypeDefIndex: 3516
 
 	// Methods
 
-	// RVA: 0x18EA1B0 Offset: 0x18E87B0 VA: 0x1818EA1B0
+	// RVA: 0x18E98D0 Offset: 0x18E7ED0 VA: 0x1818E98D0
 	public static int op_Implicit(LayerMask mask) { }
 
-	// RVA: 0x18EA1B0 Offset: 0x18E87B0 VA: 0x1818EA1B0
+	// RVA: 0x18E98D0 Offset: 0x18E7ED0 VA: 0x1818E98D0
 	public static LayerMask op_Implicit(int intVal) { }
 
-	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
+	// RVA: 0x13A3C0 Offset: 0x1397C0 VA: 0x18013A3C0
 	public int get_value() { }
 
 	[NativeMethodAttribute] // RVA: 0xC1070 Offset: 0xC0470 VA: 0x1800C1070
 	[StaticAccessorAttribute] // RVA: 0xC1070 Offset: 0xC0470 VA: 0x1800C1070
-	// RVA: 0x18EA130 Offset: 0x18E8730 VA: 0x1818EA130
+	// RVA: 0x18E9850 Offset: 0x18E7E50 VA: 0x1818E9850
 	public static string LayerToName(int layer) { }
 
 	[NativeMethodAttribute] // RVA: 0xC11E0 Offset: 0xC05E0 VA: 0x1800C11E0
 	[StaticAccessorAttribute] // RVA: 0xC11E0 Offset: 0xC05E0 VA: 0x1800C11E0
-	// RVA: 0x18EA170 Offset: 0x18E8770 VA: 0x1818EA170
+	// RVA: 0x18E9890 Offset: 0x18E7E90 VA: 0x1818E9890
 	public static int NameToLayer(string layerName) { }
 
-	// RVA: 0x18EA040 Offset: 0x18E8640 VA: 0x1818EA040
+	// RVA: 0x18E9760 Offset: 0x18E7D60 VA: 0x1818E9760
 	public static int GetMask(string[] layerNames) { }
 
 }

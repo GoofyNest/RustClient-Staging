@@ -9,19 +9,19 @@ internal abstract class ExpressionNode // TypeDefIndex: 4248
 
 	// Methods
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	protected void .ctor(DataTable table) { }
 
-	// RVA: 0x13E22C0 Offset: 0x13E08C0 VA: 0x1813E22C0
+	// RVA: 0x13E13C0 Offset: 0x13DF9C0 VA: 0x1813E13C0
 	internal IFormatProvider get_FormatProvider() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 4
 	internal virtual bool get_IsSqlColumn() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	protected DataTable get_table() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	protected void BindTable(DataTable table) { }
 
 	// RVA: -1 Offset: -1 Slot: 5
@@ -54,34 +54,34 @@ internal abstract class ExpressionNode // TypeDefIndex: 4248
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 14
 	internal virtual bool DependsOn(DataColumn column) { }
 
-	// RVA: 0x13E2190 Offset: 0x13E0790 VA: 0x1813E2190
+	// RVA: 0x13E1290 Offset: 0x13DF890 VA: 0x1813E1290
 	internal static bool IsInteger(StorageType type) { }
 
-	// RVA: 0x13E2170 Offset: 0x13E0770 VA: 0x1813E2170
+	// RVA: 0x13E1270 Offset: 0x13DF870 VA: 0x1813E1270
 	internal static bool IsIntegerSql(StorageType type) { }
 
-	// RVA: 0x13E2260 Offset: 0x13E0860 VA: 0x1813E2260
+	// RVA: 0x13E1360 Offset: 0x13DF960 VA: 0x1813E1360
 	internal static bool IsSigned(StorageType type) { }
 
-	// RVA: 0x13E2220 Offset: 0x13E0820 VA: 0x1813E2220
+	// RVA: 0x13E1320 Offset: 0x13DF920 VA: 0x1813E1320
 	internal static bool IsSignedSql(StorageType type) { }
 
-	// RVA: 0x13E22A0 Offset: 0x13E08A0 VA: 0x1813E22A0
+	// RVA: 0x13E13A0 Offset: 0x13DF9A0 VA: 0x1813E13A0
 	internal static bool IsUnsigned(StorageType type) { }
 
-	// RVA: 0x13E2280 Offset: 0x13E0880 VA: 0x1813E2280
+	// RVA: 0x13E1380 Offset: 0x13DF980 VA: 0x1813E1380
 	internal static bool IsUnsignedSql(StorageType type) { }
 
-	// RVA: 0x13E21F0 Offset: 0x13E07F0 VA: 0x1813E21F0
+	// RVA: 0x13E12F0 Offset: 0x13DF8F0 VA: 0x1813E12F0
 	internal static bool IsNumeric(StorageType type) { }
 
-	// RVA: 0x13E21B0 Offset: 0x13E07B0 VA: 0x1813E21B0
+	// RVA: 0x13E12B0 Offset: 0x13DF8B0 VA: 0x1813E12B0
 	internal static bool IsNumericSql(StorageType type) { }
 
-	// RVA: 0x13E2150 Offset: 0x13E0750 VA: 0x1813E2150
+	// RVA: 0x13E1250 Offset: 0x13DF850 VA: 0x1813E1250
 	internal static bool IsFloat(StorageType type) { }
 
-	// RVA: 0x13E2130 Offset: 0x13E0730 VA: 0x1813E2130
+	// RVA: 0x13E1230 Offset: 0x13DF830 VA: 0x1813E1230
 	internal static bool IsFloatSql(StorageType type) { }
 
 }

@@ -7,22 +7,22 @@ internal class DynamicPropertyCollection // TypeDefIndex: 1172
 
 	// Methods
 
-	// RVA: 0x1477A90 Offset: 0x1476090 VA: 0x181477A90
+	// RVA: 0x1476B60 Offset: 0x1475160 VA: 0x181476B60
 	public bool get_HasProperties() { }
 
-	// RVA: 0x14776B0 Offset: 0x1475CB0 VA: 0x1814776B0
+	// RVA: 0x1476780 Offset: 0x1474D80 VA: 0x181476780
 	public bool RegisterDynamicProperty(IDynamicProperty prop) { }
 
-	// RVA: 0x14778C0 Offset: 0x1475EC0 VA: 0x1814778C0
+	// RVA: 0x1476990 Offset: 0x1474F90 VA: 0x181476990
 	public bool UnregisterDynamicProperty(string name) { }
 
-	// RVA: 0x1477200 Offset: 0x1475800 VA: 0x181477200
+	// RVA: 0x14762D0 Offset: 0x14748D0 VA: 0x1814762D0
 	public void NotifyMessage(bool start, IMessage msg, bool client_site, bool async) { }
 
-	// RVA: 0x1477080 Offset: 0x1475680 VA: 0x181477080
+	// RVA: 0x1476150 Offset: 0x1474750 VA: 0x181476150
 	private int FindProperty(string name) { }
 
-	// RVA: 0x1477A20 Offset: 0x1476020 VA: 0x181477A20
+	// RVA: 0x1476AF0 Offset: 0x14750F0 VA: 0x181476AF0
 	public void .ctor() { }
 
 }

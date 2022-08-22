@@ -1,6 +1,6 @@
 public class HowToExamineHeld : BaseTip // TypeDefIndex: 11593
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x20090
+	public static Translate.Phrase Phrase; // 0x2B10440
 
 	// Properties
 	public int ExaminedTimes { get; }
@@ -9,22 +9,22 @@ public class HowToExamineHeld : BaseTip // TypeDefIndex: 11593
 
 	// Methods
 
-	// RVA: 0x75F710 Offset: 0x75DD10 VA: 0x18075F710 Slot: 4
+	// RVA: 0x75F660 Offset: 0x75DC60 VA: 0x18075F660 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x75F7E0 Offset: 0x75DDE0 VA: 0x18075F7E0
+	// RVA: 0x75F730 Offset: 0x75DD30 VA: 0x18075F730
 	public int get_ExaminedTimes() { }
 
-	// RVA: 0x75F7F0 Offset: 0x75DDF0 VA: 0x18075F7F0
+	// RVA: 0x75F740 Offset: 0x75DD40 VA: 0x18075F740
 	public float get_SecondsLastExamined() { }
 
-	// RVA: 0x75F860 Offset: 0x75DE60 VA: 0x18075F860 Slot: 5
+	// RVA: 0x75F7B0 Offset: 0x75DDB0 VA: 0x18075F7B0 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x75F770 Offset: 0x75DD70 VA: 0x18075F770
+	// RVA: 0x75F6C0 Offset: 0x75DCC0 VA: 0x18075F6C0
 	private static void .cctor() { }
 
 }
@@ -41,25 +41,25 @@ public class HowToHammerUpgrade : BaseTip // TypeDefIndex: 11594
 
 	// Methods
 
-	// RVA: 0x75FA00 Offset: 0x75E000 VA: 0x18075FA00 Slot: 4
+	// RVA: 0x75F950 Offset: 0x75DF50 VA: 0x18075F950 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x75FA60 Offset: 0x75E060 VA: 0x18075FA60
+	// RVA: 0x75F9B0 Offset: 0x75DFB0 VA: 0x18075F9B0
 	public static void UpgradeHappened() { }
 
-	// RVA: 0x75FE30 Offset: 0x75E430 VA: 0x18075FE30
+	// RVA: 0x75FD80 Offset: 0x75E380 VA: 0x18075FD80
 	public float get_TimeSinceBuildChanged() { }
 
-	// RVA: 0x75FB70 Offset: 0x75E170 VA: 0x18075FB70
+	// RVA: 0x75FAC0 Offset: 0x75E0C0 VA: 0x18075FAC0
 	public static bool get_HasHammerEquipped() { }
 
-	// RVA: 0x75FD50 Offset: 0x75E350 VA: 0x18075FD50 Slot: 5
+	// RVA: 0x75FCA0 Offset: 0x75E2A0 VA: 0x18075FCA0 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x75FAF0 Offset: 0x75E0F0 VA: 0x18075FAF0
+	// RVA: 0x75FA40 Offset: 0x75E040 VA: 0x18075FA40
 	private static void .cctor() { }
 
 }
@@ -76,32 +76,32 @@ public class HowToOpenBuildOptions : BaseTip // TypeDefIndex: 11595
 
 	// Methods
 
-	// RVA: 0x75FF20 Offset: 0x75E520 VA: 0x18075FF20 Slot: 4
+	// RVA: 0x75FE70 Offset: 0x75E470 VA: 0x18075FE70 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x75FEA0 Offset: 0x75E4A0 VA: 0x18075FEA0
+	// RVA: 0x75FDF0 Offset: 0x75E3F0 VA: 0x18075FDF0
 	public static void BuildOptionChanged() { }
 
-	// RVA: 0x7602E0 Offset: 0x75E8E0 VA: 0x1807602E0
+	// RVA: 0x760230 Offset: 0x75E830 VA: 0x180760230
 	public float get_TimeSinceBuildChanged() { }
 
-	// RVA: 0x760000 Offset: 0x75E600 VA: 0x180760000
+	// RVA: 0x75FF50 Offset: 0x75E550 VA: 0x18075FF50
 	public static bool get_HasBuildingPlanEquipped() { }
 
-	// RVA: 0x7601F0 Offset: 0x75E7F0 VA: 0x1807601F0 Slot: 5
+	// RVA: 0x760140 Offset: 0x75E740 VA: 0x180760140 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x75FF80 Offset: 0x75E580 VA: 0x18075FF80
+	// RVA: 0x75FED0 Offset: 0x75E4D0 VA: 0x18075FED0
 	private static void .cctor() { }
 
 }
 
 public class HowToOpenCrafting : BaseTip // TypeDefIndex: 11596
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x200B5
+	public static Translate.Phrase Phrase; // 0x1E0F0
 
 	// Properties
 	public int CraftingOpenedTimes { get; }
@@ -110,29 +110,29 @@ public class HowToOpenCrafting : BaseTip // TypeDefIndex: 11596
 
 	// Methods
 
-	// RVA: 0x760350 Offset: 0x75E950 VA: 0x180760350 Slot: 4
+	// RVA: 0x7602A0 Offset: 0x75E8A0 VA: 0x1807602A0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x760460 Offset: 0x75EA60 VA: 0x180760460
+	// RVA: 0x7603B0 Offset: 0x75E9B0 VA: 0x1807603B0
 	public int get_CraftingOpenedTimes() { }
 
-	// RVA: 0x760420 Offset: 0x75EA20 VA: 0x180760420
+	// RVA: 0x760370 Offset: 0x75E970 VA: 0x180760370
 	public float get_CraftingOpenedSecondsAgo() { }
 
-	// RVA: 0x760470 Offset: 0x75EA70 VA: 0x180760470 Slot: 5
+	// RVA: 0x7603C0 Offset: 0x75E9C0 VA: 0x1807603C0 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7603B0 Offset: 0x75E9B0 VA: 0x1807603B0
+	// RVA: 0x760300 Offset: 0x75E900 VA: 0x180760300
 	private static void .cctor() { }
 
 }
 
 public class HowToOpenInventory : BaseTip // TypeDefIndex: 11597
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B111C8
+	public static Translate.Phrase Phrase; // 0x1E138
 
 	// Properties
 	public int InventoryOpenedTimes { get; }
@@ -141,29 +141,29 @@ public class HowToOpenInventory : BaseTip // TypeDefIndex: 11597
 
 	// Methods
 
-	// RVA: 0x7604D0 Offset: 0x75EAD0 VA: 0x1807604D0 Slot: 4
+	// RVA: 0x760420 Offset: 0x75EA20 VA: 0x180760420 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x760610 Offset: 0x75EC10 VA: 0x180760610
+	// RVA: 0x760560 Offset: 0x75EB60 VA: 0x180760560
 	public int get_InventoryOpenedTimes() { }
 
-	// RVA: 0x7605A0 Offset: 0x75EBA0 VA: 0x1807605A0
+	// RVA: 0x7604F0 Offset: 0x75EAF0 VA: 0x1807604F0
 	public float get_IntentoryOpenedSecondsAgo() { }
 
-	// RVA: 0x760620 Offset: 0x75EC20 VA: 0x180760620 Slot: 5
+	// RVA: 0x760570 Offset: 0x75EB70 VA: 0x180760570 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x760530 Offset: 0x75EB30 VA: 0x180760530
+	// RVA: 0x760480 Offset: 0x75EA80 VA: 0x180760480
 	private static void .cctor() { }
 
 }
 
 public class HowToOpenMap : BaseTip // TypeDefIndex: 11598
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x200C0
+	public static Translate.Phrase Phrase; // 0x2B10440
 
 	// Properties
 	public int MapOpenedTimes { get; }
@@ -172,22 +172,22 @@ public class HowToOpenMap : BaseTip // TypeDefIndex: 11598
 
 	// Methods
 
-	// RVA: 0x7606B0 Offset: 0x75ECB0 VA: 0x1807606B0 Slot: 4
+	// RVA: 0x760600 Offset: 0x75EC00 VA: 0x180760600 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x7607F0 Offset: 0x75EDF0 VA: 0x1807607F0
+	// RVA: 0x760740 Offset: 0x75ED40 VA: 0x180760740
 	public int get_MapOpenedTimes() { }
 
-	// RVA: 0x760780 Offset: 0x75ED80 VA: 0x180760780
+	// RVA: 0x7606D0 Offset: 0x75ECD0 VA: 0x1807606D0
 	public float get_MapOpenedSecondsAgo() { }
 
-	// RVA: 0x760800 Offset: 0x75EE00 VA: 0x180760800 Slot: 5
+	// RVA: 0x760750 Offset: 0x75ED50 VA: 0x180760750 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x760710 Offset: 0x75ED10 VA: 0x180760710
+	// RVA: 0x760660 Offset: 0x75EC60 VA: 0x180760660
 	private static void .cctor() { }
 
 }
@@ -204,32 +204,32 @@ public class HowToOreMinigame : BaseTip // TypeDefIndex: 11599
 
 	// Methods
 
-	// RVA: 0x760890 Offset: 0x75EE90 VA: 0x180760890 Slot: 4
+	// RVA: 0x7607E0 Offset: 0x75EDE0 VA: 0x1807607E0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x760A50 Offset: 0x75F050 VA: 0x180760A50
+	// RVA: 0x7609A0 Offset: 0x75EFA0 VA: 0x1807609A0
 	public int get_OreSpotsHit() { }
 
-	// RVA: 0x7609E0 Offset: 0x75EFE0 VA: 0x1807609E0
+	// RVA: 0x760930 Offset: 0x75EF30 VA: 0x180760930
 	public float get_OreHitSecondsAgo() { }
 
-	// RVA: 0x7608F0 Offset: 0x75EEF0 VA: 0x1807608F0
+	// RVA: 0x760840 Offset: 0x75EE40 VA: 0x180760840
 	public static void OreHit() { }
 
-	// RVA: 0x760A60 Offset: 0x75F060 VA: 0x180760A60 Slot: 5
+	// RVA: 0x7609B0 Offset: 0x75EFB0 VA: 0x1807609B0 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x760970 Offset: 0x75EF70 VA: 0x180760970
+	// RVA: 0x7608C0 Offset: 0x75EEC0 VA: 0x1807608C0
 	private static void .cctor() { }
 
 }
 
 public class HowToRegenWithComfort : BaseTip // TypeDefIndex: 11600
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x20130
+	public static Translate.Phrase Phrase; // 0x1E140
 
 	// Properties
 	public static bool IsComfortable { get; }
@@ -238,29 +238,29 @@ public class HowToRegenWithComfort : BaseTip // TypeDefIndex: 11600
 
 	// Methods
 
-	// RVA: 0x760AF0 Offset: 0x75F0F0 VA: 0x180760AF0 Slot: 4
+	// RVA: 0x760A40 Offset: 0x75F040 VA: 0x180760A40 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x760BC0 Offset: 0x75F1C0 VA: 0x180760BC0
+	// RVA: 0x760B10 Offset: 0x75F110 VA: 0x180760B10
 	public static bool get_IsComfortable() { }
 
-	// RVA: 0x760F30 Offset: 0x75F530 VA: 0x180760F30
+	// RVA: 0x760E80 Offset: 0x75F480 VA: 0x180760E80
 	public static float get_TimeComfortableTotal() { }
 
-	// RVA: 0x760D40 Offset: 0x75F340 VA: 0x180760D40 Slot: 5
+	// RVA: 0x760C90 Offset: 0x75F290 VA: 0x180760C90 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x760B50 Offset: 0x75F150 VA: 0x180760B50
+	// RVA: 0x760AA0 Offset: 0x75F0A0 VA: 0x180760AA0
 	private static void .cctor() { }
 
 }
 
 public class HowToRetrieveThrown : BaseTip // TypeDefIndex: 11601
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B11334
+	public static Translate.Phrase Phrase; // 0x1E17F
 
 	// Properties
 	public static bool HasThrowableItemEquipped { get; }
@@ -268,19 +268,19 @@ public class HowToRetrieveThrown : BaseTip // TypeDefIndex: 11601
 
 	// Methods
 
-	// RVA: 0x760F40 Offset: 0x75F540 VA: 0x180760F40 Slot: 4
+	// RVA: 0x760E90 Offset: 0x75F490 VA: 0x180760E90 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x761010 Offset: 0x75F610 VA: 0x180761010
+	// RVA: 0x760F60 Offset: 0x75F560 VA: 0x180760F60
 	public static bool get_HasThrowableItemEquipped() { }
 
-	// RVA: 0x761200 Offset: 0x75F800 VA: 0x180761200 Slot: 5
+	// RVA: 0x761150 Offset: 0x75F750 VA: 0x180761150 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x760FA0 Offset: 0x75F5A0 VA: 0x180760FA0
+	// RVA: 0x760EF0 Offset: 0x75F4F0 VA: 0x180760EF0
 	private static void .cctor() { }
 
 }
@@ -297,25 +297,25 @@ public class HowToThrow : BaseTip // TypeDefIndex: 11602
 
 	// Methods
 
-	// RVA: 0x761360 Offset: 0x75F960 VA: 0x180761360 Slot: 4
+	// RVA: 0x7612B0 Offset: 0x75F8B0 VA: 0x1807612B0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x7613C0 Offset: 0x75F9C0 VA: 0x1807613C0
+	// RVA: 0x761310 Offset: 0x75F910 VA: 0x180761310
 	public static void ItemThrown() { }
 
-	// RVA: 0x761450 Offset: 0x75FA50 VA: 0x180761450
+	// RVA: 0x7613A0 Offset: 0x75F9A0 VA: 0x1807613A0
 	public static bool RecentlyThrown() { }
 
-	// RVA: 0x7615A0 Offset: 0x75FBA0 VA: 0x1807615A0
+	// RVA: 0x7614F0 Offset: 0x75FAF0 VA: 0x1807614F0
 	public static bool get_HasThrowableItemEquipped() { }
 
-	// RVA: 0x761790 Offset: 0x75FD90 VA: 0x180761790 Slot: 5
+	// RVA: 0x7616E0 Offset: 0x75FCE0 VA: 0x1807616E0 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x761510 Offset: 0x75FB10 VA: 0x180761510
+	// RVA: 0x761460 Offset: 0x75FA60 VA: 0x180761460
 	private static void .cctor() { }
 
 }
@@ -332,32 +332,32 @@ public class HowToTreeMinigame : BaseTip // TypeDefIndex: 11603
 
 	// Methods
 
-	// RVA: 0x761840 Offset: 0x75FE40 VA: 0x180761840 Slot: 4
+	// RVA: 0x761790 Offset: 0x75FD90 VA: 0x180761790 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x761A90 Offset: 0x760090 VA: 0x180761A90
+	// RVA: 0x7619E0 Offset: 0x75FFE0 VA: 0x1807619E0
 	public int get_TreeSpotsHit() { }
 
-	// RVA: 0x761A20 Offset: 0x760020 VA: 0x180761A20
+	// RVA: 0x761970 Offset: 0x75FF70 VA: 0x180761970
 	public float get_TreeHitSecondsAgo() { }
 
-	// RVA: 0x7618A0 Offset: 0x75FEA0 VA: 0x1807618A0
+	// RVA: 0x7617F0 Offset: 0x75FDF0 VA: 0x1807617F0
 	public static void TreeHit() { }
 
-	// RVA: 0x761990 Offset: 0x75FF90 VA: 0x180761990 Slot: 5
+	// RVA: 0x7618E0 Offset: 0x75FEE0 VA: 0x1807618E0 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x761920 Offset: 0x75FF20 VA: 0x180761920
+	// RVA: 0x761870 Offset: 0x75FE70 VA: 0x180761870
 	private static void .cctor() { }
 
 }
 
 public class HowToUseBow : BaseTip // TypeDefIndex: 11604
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x20130
+	public static Translate.Phrase Phrase; // 0x2B10388
 
 	// Properties
 	public static bool HasBowItemEquipped { get; }
@@ -365,26 +365,26 @@ public class HowToUseBow : BaseTip // TypeDefIndex: 11604
 
 	// Methods
 
-	// RVA: 0x761AA0 Offset: 0x7600A0 VA: 0x180761AA0 Slot: 4
+	// RVA: 0x7619F0 Offset: 0x75FFF0 VA: 0x1807619F0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x761B70 Offset: 0x760170 VA: 0x180761B70
+	// RVA: 0x761AC0 Offset: 0x7600C0 VA: 0x180761AC0
 	public static bool get_HasBowItemEquipped() { }
 
-	// RVA: 0x761D50 Offset: 0x760350 VA: 0x180761D50 Slot: 5
+	// RVA: 0x761CA0 Offset: 0x7602A0 VA: 0x180761CA0 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x761B00 Offset: 0x760100 VA: 0x180761B00
+	// RVA: 0x761A50 Offset: 0x760050 VA: 0x180761A50
 	private static void .cctor() { }
 
 }
 
 public class HowToUseGrenade : BaseTip // TypeDefIndex: 11605
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x20189
+	public static Translate.Phrase Phrase; // 0x1E180
 
 	// Properties
 	private static bool HasGrenadeItemEquipped { get; }
@@ -392,19 +392,19 @@ public class HowToUseGrenade : BaseTip // TypeDefIndex: 11605
 
 	// Methods
 
-	// RVA: 0x761DC0 Offset: 0x7603C0 VA: 0x180761DC0 Slot: 4
+	// RVA: 0x761D10 Offset: 0x760310 VA: 0x180761D10 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x761E90 Offset: 0x760490 VA: 0x180761E90
+	// RVA: 0x761DE0 Offset: 0x7603E0 VA: 0x180761DE0
 	private static bool get_HasGrenadeItemEquipped() { }
 
-	// RVA: 0x762070 Offset: 0x760670 VA: 0x180762070 Slot: 5
+	// RVA: 0x761FC0 Offset: 0x7605C0 VA: 0x180761FC0 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x761E20 Offset: 0x760420 VA: 0x180761E20
+	// RVA: 0x761D70 Offset: 0x760370 VA: 0x180761D70
 	private static void .cctor() { }
 
 }
@@ -420,35 +420,35 @@ public class HowToUseWave : BaseTip // TypeDefIndex: 11606
 
 	// Methods
 
-	// RVA: 0x762160 Offset: 0x760760 VA: 0x180762160 Slot: 4
+	// RVA: 0x7620B0 Offset: 0x7606B0 VA: 0x1807620B0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0x762240 Offset: 0x760840 VA: 0x180762240
+	// RVA: 0x762190 Offset: 0x760790 VA: 0x180762190
 	public static void MarkWavedAt(BasePlayer Entity) { }
 
-	// RVA: 0x7621C0 Offset: 0x7607C0 VA: 0x1807621C0
+	// RVA: 0x762110 Offset: 0x760710 VA: 0x180762110
 	public static void MarkLocalWave() { }
 
-	// RVA: 0x7620E0 Offset: 0x7606E0 VA: 0x1807620E0
+	// RVA: 0x762030 Offset: 0x760630 VA: 0x180762030
 	public bool DidRecentlyWaveLocally() { }
 
-	// RVA: 0x762580 Offset: 0x760B80 VA: 0x180762580
+	// RVA: 0x7624D0 Offset: 0x760AD0 VA: 0x1807624D0
 	public bool WasRecentlyWavedAt() { }
 
-	// RVA: 0x762690 Offset: 0x760C90 VA: 0x180762690 Slot: 5
+	// RVA: 0x7625E0 Offset: 0x760BE0 VA: 0x1807625E0 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x762600 Offset: 0x760C00 VA: 0x180762600
+	// RVA: 0x762550 Offset: 0x760B50 VA: 0x180762550
 	private static void .cctor() { }
 
 }
 
 public class HowToVoiceChat : BaseTip // TypeDefIndex: 11607
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B111E0
+	public static Translate.Phrase Phrase; // 0x1E1F6
 
 	// Properties
 	public float SecondsSpeaking { get; }
@@ -456,26 +456,26 @@ public class HowToVoiceChat : BaseTip // TypeDefIndex: 11607
 
 	// Methods
 
-	// RVA: 0xC5B6E0 Offset: 0xC59CE0 VA: 0x180C5B6E0 Slot: 4
+	// RVA: 0xC5BBB0 Offset: 0xC5A1B0 VA: 0x180C5BBB0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5B7B0 Offset: 0xC59DB0 VA: 0x180C5B7B0
+	// RVA: 0xC5BC80 Offset: 0xC5A280 VA: 0x180C5BC80
 	public float get_SecondsSpeaking() { }
 
-	// RVA: 0xC5B7C0 Offset: 0xC59DC0 VA: 0x180C5B7C0 Slot: 5
+	// RVA: 0xC5BC90 Offset: 0xC5A290 VA: 0x180C5BC90 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5B740 Offset: 0xC59D40 VA: 0x180C5B740
+	// RVA: 0xC5BC10 Offset: 0xC5A210 VA: 0x180C5BC10
 	private static void .cctor() { }
 
 }
 
 public class HowToWorldDrink : BaseTip // TypeDefIndex: 11608
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x20190
+	public static Translate.Phrase Phrase; // 0x2B10370
 
 	// Properties
 	public bool NearFreshWater { get; }
@@ -484,91 +484,91 @@ public class HowToWorldDrink : BaseTip // TypeDefIndex: 11608
 
 	// Methods
 
-	// RVA: 0xC5BDD0 Offset: 0xC5A3D0 VA: 0x180C5BDD0 Slot: 4
+	// RVA: 0xC5C2A0 Offset: 0xC5A8A0 VA: 0x180C5C2A0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5BEB0 Offset: 0xC5A4B0 VA: 0x180C5BEB0
+	// RVA: 0xC5C380 Offset: 0xC5A980 VA: 0x180C5C380
 	public bool get_NearFreshWater() { }
 
-	// RVA: 0xC5BEA0 Offset: 0xC5A4A0 VA: 0x180C5BEA0
+	// RVA: 0xC5C370 Offset: 0xC5A970 VA: 0x180C5C370
 	public float get_ConsumedWater() { }
 
-	// RVA: 0xC5C040 Offset: 0xC5A640 VA: 0x180C5C040 Slot: 5
+	// RVA: 0xC5C510 Offset: 0xC5AB10 VA: 0x180C5C510 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5BE30 Offset: 0xC5A430 VA: 0x180C5BE30
+	// RVA: 0xC5C300 Offset: 0xC5A900 VA: 0x180C5C300
 	private static void .cctor() { }
 
 }
 
 public class TipInstrumentFullKeyboard : InstrumentTip // TypeDefIndex: 11610
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2022D
+	public static Translate.Phrase Phrase; // 0x1E200
 
 	// Properties
 	public override bool ShouldShow { get; }
 
 	// Methods
 
-	// RVA: 0xC5F230 Offset: 0xC5D830 VA: 0x180C5F230 Slot: 4
+	// RVA: 0xC5F700 Offset: 0xC5DD00 VA: 0x180C5F700 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5F300 Offset: 0xC5D900 VA: 0x180C5F300 Slot: 5
+	// RVA: 0xC5F7D0 Offset: 0xC5DDD0 VA: 0x180C5F7D0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5F290 Offset: 0xC5D890 VA: 0x180C5F290
+	// RVA: 0xC5F760 Offset: 0xC5DD60 VA: 0x180C5F760
 	private static void .cctor() { }
 
 }
 
 public class TipInstrumentNumlock : InstrumentTip // TypeDefIndex: 11611
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B113C8
+	public static Translate.Phrase Phrase; // 0x1E271
 
 	// Properties
 	public override bool ShouldShow { get; }
 
 	// Methods
 
-	// RVA: 0xC5F3A0 Offset: 0xC5D9A0 VA: 0x180C5F3A0 Slot: 4
+	// RVA: 0xC5F870 Offset: 0xC5DE70 VA: 0x180C5F870 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5F470 Offset: 0xC5DA70 VA: 0x180C5F470 Slot: 5
+	// RVA: 0xC5F940 Offset: 0xC5DF40 VA: 0x180C5F940 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5F400 Offset: 0xC5DA00 VA: 0x180C5F400
+	// RVA: 0xC5F8D0 Offset: 0xC5DED0 VA: 0x180C5F8D0
 	private static void .cctor() { }
 
 }
 
 public class TipInstrumentPlay : InstrumentTip // TypeDefIndex: 11612
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x20230
+	public static Translate.Phrase Phrase; // 0x2B104D4
 
 	// Properties
 	public override bool ShouldShow { get; }
 
 	// Methods
 
-	// RVA: 0xC5F4F0 Offset: 0xC5DAF0 VA: 0x180C5F4F0 Slot: 4
+	// RVA: 0xC5F9C0 Offset: 0xC5DFC0 VA: 0x180C5F9C0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5F5C0 Offset: 0xC5DBC0 VA: 0x180C5F5C0 Slot: 5
+	// RVA: 0xC5FA90 Offset: 0xC5E090 VA: 0x180C5FA90 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5F550 Offset: 0xC5DB50 VA: 0x180C5F550
+	// RVA: 0xC5FA20 Offset: 0xC5E020 VA: 0x180C5FA20
 	private static void .cctor() { }
 
 }
@@ -585,19 +585,19 @@ public class TipBreakCarLock : BaseTip // TypeDefIndex: 11614
 
 	// Methods
 
-	// RVA: 0xC5C7C0 Offset: 0xC5ADC0 VA: 0x180C5C7C0 Slot: 4
+	// RVA: 0xC5CC90 Offset: 0xC5B290 VA: 0x180C5CC90 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5C640 Offset: 0xC5AC40 VA: 0x180C5C640
+	// RVA: 0xC5CB10 Offset: 0xC5B110 VA: 0x180C5CB10
 	public static bool AimingInNoBuild() { }
 
-	// RVA: 0xC5C890 Offset: 0xC5AE90 VA: 0x180C5C890 Slot: 5
+	// RVA: 0xC5CD60 Offset: 0xC5B360 VA: 0x180C5CD60 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5C820 Offset: 0xC5AE20 VA: 0x180C5C820
+	// RVA: 0xC5CCF0 Offset: 0xC5B2F0 VA: 0x180C5CCF0
 	private static void .cctor() { }
 
 }
@@ -614,25 +614,25 @@ public class TipCannotHarvest : BaseTip // TypeDefIndex: 11615
 
 	// Methods
 
-	// RVA: 0xC5CB50 Offset: 0xC5B150 VA: 0x180C5CB50 Slot: 4
+	// RVA: 0xC5D020 Offset: 0xC5B620 VA: 0x180C5D020 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5CBB0 Offset: 0xC5B1B0 VA: 0x180C5CBB0
+	// RVA: 0xC5D080 Offset: 0xC5B680 VA: 0x180C5D080
 	public static void HitNonEntity() { }
 
-	// RVA: 0xC5CF90 Offset: 0xC5B590 VA: 0x180C5CF90
+	// RVA: 0xC5D460 Offset: 0xC5BA60 VA: 0x180C5D460
 	public float get_TimeSinceHitNonEntity() { }
 
-	// RVA: 0xC5CCB0 Offset: 0xC5B2B0 VA: 0x180C5CCB0
+	// RVA: 0xC5D180 Offset: 0xC5B780 VA: 0x180C5D180
 	public static bool get_HasToolItemEquipped() { }
 
-	// RVA: 0xC5CEB0 Offset: 0xC5B4B0 VA: 0x180C5CEB0 Slot: 5
+	// RVA: 0xC5D380 Offset: 0xC5B980 VA: 0x180C5D380 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5CC30 Offset: 0xC5B230 VA: 0x180C5CC30
+	// RVA: 0xC5D100 Offset: 0xC5B700 VA: 0x180C5D100
 	private static void .cctor() { }
 
 }
@@ -653,31 +653,31 @@ public class TipConsumeFood : BaseTip // TypeDefIndex: 11616
 
 	// Methods
 
-	// RVA: 0xC5D000 Offset: 0xC5B600 VA: 0x180C5D000 Slot: 4
+	// RVA: 0xC5D4D0 Offset: 0xC5BAD0 VA: 0x180C5D4D0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5D0D0 Offset: 0xC5B6D0 VA: 0x180C5D0D0
+	// RVA: 0xC5D5A0 Offset: 0xC5BBA0 VA: 0x180C5D5A0
 	public float get_ConsumedFood() { }
 
-	// RVA: 0xC5BEA0 Offset: 0xC5A4A0 VA: 0x180C5BEA0
+	// RVA: 0xC5C370 Offset: 0xC5A970 VA: 0x180C5C370
 	public float get_ConsumedWater() { }
 
-	// RVA: 0xC5D120 Offset: 0xC5B720 VA: 0x180C5D120
+	// RVA: 0xC5D5F0 Offset: 0xC5BBF0 VA: 0x180C5D5F0
 	public int get_PickedUpFood() { }
 
-	// RVA: 0xC5D0E0 Offset: 0xC5B6E0 VA: 0x180C5D0E0
+	// RVA: 0xC5D5B0 Offset: 0xC5BBB0 VA: 0x180C5D5B0
 	public bool get_HasConsumedEnough() { }
 
-	// RVA: 0xC5D210 Offset: 0xC5B810 VA: 0x180C5D210
+	// RVA: 0xC5D6E0 Offset: 0xC5BCE0 VA: 0x180C5D6E0
 	public bool get_RecentlyPickedUpFood() { }
 
-	// RVA: 0xC5D350 Offset: 0xC5B950 VA: 0x180C5D350 Slot: 5
+	// RVA: 0xC5D820 Offset: 0xC5BE20 VA: 0x180C5D820 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5D060 Offset: 0xC5B660 VA: 0x180C5D060
+	// RVA: 0xC5D530 Offset: 0xC5BB30 VA: 0x180C5D530
 	private static void .cctor() { }
 
 }
@@ -693,16 +693,16 @@ public class TipControllingMagnetCrane : BaseTip // TypeDefIndex: 11617
 
 	// Methods
 
-	// RVA: 0xC5D4C0 Offset: 0xC5BAC0 VA: 0x180C5D4C0 Slot: 4
+	// RVA: 0xC5D990 Offset: 0xC5BF90 VA: 0x180C5D990 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5D590 Offset: 0xC5BB90 VA: 0x180C5D590 Slot: 5
+	// RVA: 0xC5DA60 Offset: 0xC5C060 VA: 0x180C5DA60 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5D520 Offset: 0xC5BB20 VA: 0x180C5D520
+	// RVA: 0xC5D9F0 Offset: 0xC5BFF0 VA: 0x180C5D9F0
 	private static void .cctor() { }
 
 }
@@ -718,16 +718,16 @@ public class TipDrivingSubmarine : BaseTip // TypeDefIndex: 11618
 
 	// Methods
 
-	// RVA: 0xC5D750 Offset: 0xC5BD50 VA: 0x180C5D750 Slot: 4
+	// RVA: 0xC5DC20 Offset: 0xC5C220 VA: 0x180C5DC20 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5D820 Offset: 0xC5BE20 VA: 0x180C5D820 Slot: 5
+	// RVA: 0xC5DCF0 Offset: 0xC5C2F0 VA: 0x180C5DCF0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5D7B0 Offset: 0xC5BDB0 VA: 0x180C5D7B0
+	// RVA: 0xC5DC80 Offset: 0xC5C280 VA: 0x180C5DC80
 	private static void .cctor() { }
 
 }
@@ -745,35 +745,35 @@ public class TipEquipTorch : BaseTip // TypeDefIndex: 11619
 
 	// Methods
 
-	// RVA: 0xC5D9C0 Offset: 0xC5BFC0 VA: 0x180C5D9C0 Slot: 4
+	// RVA: 0xC5DE90 Offset: 0xC5C490 VA: 0x180C5DE90 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5DD50 Offset: 0xC5C350 VA: 0x180C5DD50
+	// RVA: 0xC5E220 Offset: 0xC5C820 VA: 0x180C5E220
 	public static bool get_IsDark() { }
 
-	// RVA: 0x760F30 Offset: 0x75F530 VA: 0x180760F30
+	// RVA: 0x760E80 Offset: 0x75F480 VA: 0x180760E80
 	public static float get_TimeComfortableTotal() { }
 
-	// RVA: 0xC5DA20 Offset: 0xC5C020 VA: 0x180C5DA20
+	// RVA: 0xC5DEF0 Offset: 0xC5C4F0 VA: 0x180C5DEF0
 	public static void TorchLit() { }
 
-	// RVA: 0xC5DB10 Offset: 0xC5C110 VA: 0x180C5DB10
+	// RVA: 0xC5DFE0 Offset: 0xC5C5E0 VA: 0x180C5DFE0
 	public static bool get_HasTorchThatNeedsLighting() { }
 
-	// RVA: 0xC5DE10 Offset: 0xC5C410 VA: 0x180C5DE10 Slot: 5
+	// RVA: 0xC5E2E0 Offset: 0xC5C8E0 VA: 0x180C5E2E0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5DAA0 Offset: 0xC5C0A0 VA: 0x180C5DAA0
+	// RVA: 0xC5DF70 Offset: 0xC5C570 VA: 0x180C5DF70
 	private static void .cctor() { }
 
 }
 
 public class TipFillToolCupboard : BaseTip // TypeDefIndex: 11620
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x20287
+	public static Translate.Phrase Phrase; // 0x1E280
 
 	// Properties
 	public int CupboardOpenedTimes { get; }
@@ -781,42 +781,42 @@ public class TipFillToolCupboard : BaseTip // TypeDefIndex: 11620
 
 	// Methods
 
-	// RVA: 0xC5DF90 Offset: 0xC5C590 VA: 0x180C5DF90 Slot: 4
+	// RVA: 0xC5E460 Offset: 0xC5CA60 VA: 0x180C5E460 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5E060 Offset: 0xC5C660 VA: 0x180C5E060
+	// RVA: 0xC5E530 Offset: 0xC5CB30 VA: 0x180C5E530
 	public int get_CupboardOpenedTimes() { }
 
-	// RVA: 0xC5E070 Offset: 0xC5C670 VA: 0x180C5E070 Slot: 5
+	// RVA: 0xC5E540 Offset: 0xC5CB40 VA: 0x180C5E540 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5DFF0 Offset: 0xC5C5F0 VA: 0x180C5DFF0
+	// RVA: 0xC5E4C0 Offset: 0xC5CAC0 VA: 0x180C5E4C0
 	private static void .cctor() { }
 
 }
 
 public class TipFishingControls : BaseTip // TypeDefIndex: 11621
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B111C0
+	public static Translate.Phrase Phrase; // 0x1E2F5
 
 	// Properties
 	public override bool ShouldShow { get; }
 
 	// Methods
 
-	// RVA: 0xC5E240 Offset: 0xC5C840 VA: 0x180C5E240 Slot: 4
+	// RVA: 0xC5E710 Offset: 0xC5CD10 VA: 0x180C5E710 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5E310 Offset: 0xC5C910 VA: 0x180C5E310 Slot: 5
+	// RVA: 0xC5E7E0 Offset: 0xC5CDE0 VA: 0x180C5E7E0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5E2A0 Offset: 0xC5C8A0 VA: 0x180C5E2A0
+	// RVA: 0xC5E770 Offset: 0xC5CD70 VA: 0x180C5E770
 	private static void .cctor() { }
 
 }
@@ -832,16 +832,16 @@ public class TipFishingFail : BaseTip // TypeDefIndex: 11622
 
 	// Methods
 
-	// RVA: 0xC5E4A0 Offset: 0xC5CAA0 VA: 0x180C5E4A0 Slot: 4
+	// RVA: 0xC5E970 Offset: 0xC5CF70 VA: 0x180C5E970 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5E6B0 Offset: 0xC5CCB0 VA: 0x180C5E6B0 Slot: 5
+	// RVA: 0xC5EB80 Offset: 0xC5D180 VA: 0x180C5EB80 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5E5B0 Offset: 0xC5CBB0 VA: 0x180C5E5B0
+	// RVA: 0xC5EA80 Offset: 0xC5D080 VA: 0x180C5EA80
 	private static void .cctor() { }
 
 }
@@ -861,28 +861,28 @@ public class TipHealAtCampfire : BaseTip // TypeDefIndex: 11623
 
 	// Methods
 
-	// RVA: 0xC5E8C0 Offset: 0xC5CEC0 VA: 0x180C5E8C0 Slot: 4
+	// RVA: 0xC5ED90 Offset: 0xC5D390 VA: 0x180C5ED90 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5EB60 Offset: 0xC5D160 VA: 0x180C5EB60
+	// RVA: 0xC5F030 Offset: 0xC5D630 VA: 0x180C5F030
 	public bool get_IsHurt() { }
 
-	// RVA: 0x760F30 Offset: 0x75F530 VA: 0x180760F30
+	// RVA: 0x760E80 Offset: 0x75F480 VA: 0x180760E80
 	public float get_TimeComfortableTotal() { }
 
-	// RVA: 0xC5E9A0 Offset: 0xC5CFA0 VA: 0x180C5E9A0
+	// RVA: 0xC5EE70 Offset: 0xC5D470 VA: 0x180C5EE70
 	public bool get_HealEligable() { }
 
-	// RVA: 0xC5ECD0 Offset: 0xC5D2D0 VA: 0x180C5ECD0
+	// RVA: 0xC5F1A0 Offset: 0xC5D7A0 VA: 0x180C5F1A0
 	public bool get_RecentlyHurt() { }
 
-	// RVA: 0xC5EEE0 Offset: 0xC5D4E0 VA: 0x180C5EEE0 Slot: 5
+	// RVA: 0xC5F3B0 Offset: 0xC5D9B0 VA: 0x180C5F3B0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0xC5E990 Offset: 0xC5CF90 VA: 0x180C5E990
+	// RVA: 0xC5EE60 Offset: 0xC5D460 VA: 0x180C5EE60
 	public void .ctor() { }
 
-	// RVA: 0xC5E920 Offset: 0xC5CF20 VA: 0x180C5E920
+	// RVA: 0xC5EDF0 Offset: 0xC5D3F0 VA: 0x180C5EDF0
 	private static void .cctor() { }
 
 }
@@ -899,24 +899,24 @@ public class TipKayakPaddle : BaseTip // TypeDefIndex: 11624
 
 	// Methods
 
-	// RVA: 0xC5F660 Offset: 0xC5DC60 VA: 0x180C5F660 Slot: 4
+	// RVA: 0xC5FB30 Offset: 0xC5E130 VA: 0x180C5FB30 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5F740 Offset: 0xC5DD40 VA: 0x180C5F740 Slot: 5
+	// RVA: 0xC5FC10 Offset: 0xC5E210 VA: 0x180C5FC10 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC5FA60 Offset: 0xC5E060 VA: 0x180C5FA60
+	// RVA: 0xC5FF30 Offset: 0xC5E530 VA: 0x180C5FF30
 	public static bool get_hasPaddledWithoutOar() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC5FAC0 Offset: 0xC5E0C0 VA: 0x180C5FAC0
+	// RVA: 0xC5FF90 Offset: 0xC5E590 VA: 0x180C5FF90
 	public static void set_hasPaddledWithoutOar(bool value) { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5F6C0 Offset: 0xC5DCC0 VA: 0x180C5F6C0
+	// RVA: 0xC5FB90 Offset: 0xC5E190 VA: 0x180C5FB90
 	private static void .cctor() { }
 
 }
@@ -932,16 +932,16 @@ public class TipMLRSAimingModule : BaseTip // TypeDefIndex: 11625
 
 	// Methods
 
-	// RVA: 0xC5FB20 Offset: 0xC5E120 VA: 0x180C5FB20 Slot: 4
+	// RVA: 0xC5FFF0 Offset: 0xC5E5F0 VA: 0x180C5FFF0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5FBF0 Offset: 0xC5E1F0 VA: 0x180C5FBF0 Slot: 5
+	// RVA: 0xC600C0 Offset: 0xC5E6C0 VA: 0x180C600C0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5FB80 Offset: 0xC5E180 VA: 0x180C5FB80
+	// RVA: 0xC60050 Offset: 0xC5E650 VA: 0x180C60050
 	private static void .cctor() { }
 
 }
@@ -957,16 +957,16 @@ public class TipMLRSBrokenDown : BaseTip // TypeDefIndex: 11626
 
 	// Methods
 
-	// RVA: 0xC5FE10 Offset: 0xC5E410 VA: 0x180C5FE10 Slot: 4
+	// RVA: 0xC602E0 Offset: 0xC5E8E0 VA: 0x180C602E0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5FEE0 Offset: 0xC5E4E0 VA: 0x180C5FEE0 Slot: 5
+	// RVA: 0xC603B0 Offset: 0xC5E9B0 VA: 0x180C603B0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC5FE70 Offset: 0xC5E470 VA: 0x180C5FE70
+	// RVA: 0xC60340 Offset: 0xC5E940 VA: 0x180C60340
 	private static void .cctor() { }
 
 }
@@ -982,46 +982,46 @@ public class TipMLRSNoRockets : BaseTip // TypeDefIndex: 11627
 
 	// Methods
 
-	// RVA: 0xC600E0 Offset: 0xC5E6E0 VA: 0x180C600E0 Slot: 4
+	// RVA: 0xC605B0 Offset: 0xC5EBB0 VA: 0x180C605B0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC601B0 Offset: 0xC5E7B0 VA: 0x180C601B0 Slot: 5
+	// RVA: 0xC60680 Offset: 0xC5EC80 VA: 0x180C60680 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC60140 Offset: 0xC5E740 VA: 0x180C60140
+	// RVA: 0xC60610 Offset: 0xC5EC10 VA: 0x180C60610
 	private static void .cctor() { }
 
 }
 
 public class TipMissingLure : BaseTip // TypeDefIndex: 11628
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x20290
+	public static Translate.Phrase Phrase; // 0x2B103D0
 
 	// Properties
 	public override bool ShouldShow { get; }
 
 	// Methods
 
-	// RVA: 0xC603E0 Offset: 0xC5E9E0 VA: 0x180C603E0 Slot: 4
+	// RVA: 0xC608B0 Offset: 0xC5EEB0 VA: 0x180C608B0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC604B0 Offset: 0xC5EAB0 VA: 0x180C604B0 Slot: 5
+	// RVA: 0xC60980 Offset: 0xC5EF80 VA: 0x180C60980 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC60440 Offset: 0xC5EA40 VA: 0x180C60440
+	// RVA: 0xC60910 Offset: 0xC5EF10 VA: 0x180C60910
 	private static void .cctor() { }
 
 }
 
 public class TipNoBuild : BaseTip // TypeDefIndex: 11629
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x202CF
+	public static Translate.Phrase Phrase; // 0x1E300
 
 	// Properties
 	public static bool HasBuildingPlanEquipped { get; }
@@ -1029,22 +1029,22 @@ public class TipNoBuild : BaseTip // TypeDefIndex: 11629
 
 	// Methods
 
-	// RVA: 0xC607E0 Offset: 0xC5EDE0 VA: 0x180C607E0 Slot: 4
+	// RVA: 0xC60CB0 Offset: 0xC5F2B0 VA: 0x180C60CB0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC608B0 Offset: 0xC5EEB0 VA: 0x180C608B0
+	// RVA: 0xC60D80 Offset: 0xC5F380 VA: 0x180C60D80
 	public static bool get_HasBuildingPlanEquipped() { }
 
-	// RVA: 0xC60660 Offset: 0xC5EC60 VA: 0x180C60660
+	// RVA: 0xC60B30 Offset: 0xC5F130 VA: 0x180C60B30
 	public static bool AimingInNoBuild() { }
 
-	// RVA: 0xC60A90 Offset: 0xC5F090 VA: 0x180C60A90 Slot: 5
+	// RVA: 0xC60F60 Offset: 0xC5F560 VA: 0x180C60F60 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC60840 Offset: 0xC5EE40 VA: 0x180C60840
+	// RVA: 0xC60D10 Offset: 0xC5F310 VA: 0x180C60D10
 	private static void .cctor() { }
 
 }
@@ -1059,46 +1059,46 @@ public class TipPetControlWheel : BaseTip // TypeDefIndex: 11630
 
 	// Methods
 
-	// RVA: 0xC60BD0 Offset: 0xC5F1D0 VA: 0x180C60BD0 Slot: 4
+	// RVA: 0xC610A0 Offset: 0xC5F6A0 VA: 0x180C610A0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC60CA0 Offset: 0xC5F2A0 VA: 0x180C60CA0 Slot: 5
+	// RVA: 0xC61170 Offset: 0xC5F770 VA: 0x180C61170 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC60C30 Offset: 0xC5F230 VA: 0x180C60C30
+	// RVA: 0xC61100 Offset: 0xC5F700 VA: 0x180C61100
 	private static void .cctor() { }
 
 }
 
 public class TipPlaceSleepingBag : BaseTip // TypeDefIndex: 11631
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B111FC
+	public static Translate.Phrase Phrase; // 0x1E379
 
 	// Properties
 	public override bool ShouldShow { get; }
 
 	// Methods
 
-	// RVA: 0xC60E00 Offset: 0xC5F400 VA: 0x180C60E00 Slot: 4
+	// RVA: 0xC612D0 Offset: 0xC5F8D0 VA: 0x180C612D0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC60ED0 Offset: 0xC5F4D0 VA: 0x180C60ED0 Slot: 5
+	// RVA: 0xC613A0 Offset: 0xC5F9A0 VA: 0x180C613A0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC60E60 Offset: 0xC5F460 VA: 0x180C60E60
+	// RVA: 0xC61330 Offset: 0xC5F930 VA: 0x180C61330
 	private static void .cctor() { }
 
 }
 
 public class TipPlaceToolCupboard : BaseTip // TypeDefIndex: 11632
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x202D0
+	public static Translate.Phrase Phrase; // 0x2B104DC
 
 	// Properties
 	public int CupboardOpenedTimes { get; }
@@ -1108,55 +1108,55 @@ public class TipPlaceToolCupboard : BaseTip // TypeDefIndex: 11632
 
 	// Methods
 
-	// RVA: 0xC611D0 Offset: 0xC5F7D0 VA: 0x180C611D0 Slot: 4
+	// RVA: 0xC616A0 Offset: 0xC5FCA0 VA: 0x180C616A0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC5E060 Offset: 0xC5C660 VA: 0x180C5E060
+	// RVA: 0xC5E530 Offset: 0xC5CB30 VA: 0x180C5E530
 	public int get_CupboardOpenedTimes() { }
 
-	// RVA: 0xC612A0 Offset: 0xC5F8A0 VA: 0x180C612A0
+	// RVA: 0xC61770 Offset: 0xC5FD70 VA: 0x180C61770
 	public int get_NumBlocksPlaced() { }
 
-	// RVA: 0xC612B0 Offset: 0xC5F8B0 VA: 0x180C612B0
+	// RVA: 0xC61780 Offset: 0xC5FD80 VA: 0x180C61780
 	public int get_NumBlocksUpgraded() { }
 
-	// RVA: 0xC612C0 Offset: 0xC5F8C0 VA: 0x180C612C0 Slot: 5
+	// RVA: 0xC61790 Offset: 0xC5FD90 VA: 0x180C61790 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC61230 Offset: 0xC5F830 VA: 0x180C61230
+	// RVA: 0xC61700 Offset: 0xC5FD00 VA: 0x180C61700
 	private static void .cctor() { }
 
 }
 
 public class TipPokerWinnings : BaseTip // TypeDefIndex: 11633
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x20322
+	public static Translate.Phrase Phrase; // 0x1E380
 
 	// Properties
 	public override bool ShouldShow { get; }
 
 	// Methods
 
-	// RVA: 0xC61540 Offset: 0xC5FB40 VA: 0x180C61540 Slot: 4
+	// RVA: 0xC61A10 Offset: 0xC60010 VA: 0x180C61A10 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC61610 Offset: 0xC5FC10 VA: 0x180C61610 Slot: 5
+	// RVA: 0xC61AE0 Offset: 0xC600E0 VA: 0x180C61AE0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC615A0 Offset: 0xC5FBA0 VA: 0x180C615A0
+	// RVA: 0xC61A70 Offset: 0xC60070 VA: 0x180C61A70
 	private static void .cctor() { }
 
 }
 
 public class TipRads : BaseTip // TypeDefIndex: 11634
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B111C0
+	public static Translate.Phrase Phrase; // 0x1E40E
 
 	// Properties
 	public float RadDuration { get; }
@@ -1165,29 +1165,29 @@ public class TipRads : BaseTip // TypeDefIndex: 11634
 
 	// Methods
 
-	// RVA: 0xC617F0 Offset: 0xC5FDF0 VA: 0x180C617F0 Slot: 4
+	// RVA: 0xC61CC0 Offset: 0xC602C0 VA: 0x180C61CC0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC61A40 Offset: 0xC60040 VA: 0x180C61A40
+	// RVA: 0xC61F10 Offset: 0xC60510 VA: 0x180C61F10
 	public float get_RadDuration() { }
 
-	// RVA: 0xC618C0 Offset: 0xC5FEC0 VA: 0x180C618C0
+	// RVA: 0xC61D90 Offset: 0xC60390 VA: 0x180C61D90
 	public bool get_HasRads() { }
 
-	// RVA: 0xC61A50 Offset: 0xC60050 VA: 0x180C61A50 Slot: 5
+	// RVA: 0xC61F20 Offset: 0xC60520 VA: 0x180C61F20 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC61850 Offset: 0xC5FE50 VA: 0x180C61850
+	// RVA: 0xC61D20 Offset: 0xC60320 VA: 0x180C61D20
 	private static void .cctor() { }
 
 }
 
 public class TipRemoveRads : BaseTip // TypeDefIndex: 11635
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x20330
+	public static Translate.Phrase Phrase; // 0x2B10550
 
 	// Properties
 	public float RadDuration { get; }
@@ -1197,78 +1197,32 @@ public class TipRemoveRads : BaseTip // TypeDefIndex: 11635
 
 	// Methods
 
-	// RVA: 0xC61BE0 Offset: 0xC601E0 VA: 0x180C61BE0 Slot: 4
+	// RVA: 0xC620B0 Offset: 0xC606B0 VA: 0x180C620B0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC61A40 Offset: 0xC60040 VA: 0x180C61A40
+	// RVA: 0xC61F10 Offset: 0xC60510 VA: 0x180C61F10
 	public float get_RadDuration() { }
 
-	// RVA: 0xC61E30 Offset: 0xC60430 VA: 0x180C61E30
+	// RVA: 0xC62300 Offset: 0xC60900 VA: 0x180C62300
 	public bool get_HasRads() { }
 
-	// RVA: 0xC61CB0 Offset: 0xC602B0 VA: 0x180C61CB0
+	// RVA: 0xC62180 Offset: 0xC60780 VA: 0x180C62180
 	public bool get_HasRadExposure() { }
 
-	// RVA: 0xC61FB0 Offset: 0xC605B0 VA: 0x180C61FB0 Slot: 5
+	// RVA: 0xC62480 Offset: 0xC60A80 VA: 0x180C62480 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC61C40 Offset: 0xC60240 VA: 0x180C61C40
+	// RVA: 0xC62110 Offset: 0xC60710 VA: 0x180C62110
 	private static void .cctor() { }
 
 }
 
 public class TipReskinObject : BaseTip // TypeDefIndex: 11636
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x20382
-
-	// Properties
-	public override bool ShouldShow { get; }
-
-	// Methods
-
-	// RVA: 0xC622C0 Offset: 0xC608C0 VA: 0x180C622C0 Slot: 4
-	public override Translate.Phrase GetPhrase() { }
-
-	// RVA: 0xC62390 Offset: 0xC60990 VA: 0x180C62390 Slot: 5
-	public override bool get_ShouldShow() { }
-
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
-	public void .ctor() { }
-
-	// RVA: 0xC62320 Offset: 0xC60920 VA: 0x180C62320
-	private static void .cctor() { }
-
-}
-
-public class TipSledPlacement : BaseTip // TypeDefIndex: 11637
-{	// Fields
-	public static Translate.Phrase Phrase; // 0x2B111C0
-
-	// Properties
-	public override bool ShouldShow { get; }
-
-	// Methods
-
-	// RVA: 0xC62520 Offset: 0xC60B20 VA: 0x180C62520 Slot: 4
-	public override Translate.Phrase GetPhrase() { }
-
-	// RVA: 0xC625F0 Offset: 0xC60BF0 VA: 0x180C625F0 Slot: 5
-	public override bool get_ShouldShow() { }
-
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
-	public void .ctor() { }
-
-	// RVA: 0xC62580 Offset: 0xC60B80 VA: 0x180C62580
-	private static void .cctor() { }
-
-}
-
-public class TipSleepingBagPlacement : BaseTip // TypeDefIndex: 11638
-{	// Fields
-	public static Translate.Phrase Phrase; // 0x20390
+	public static Translate.Phrase Phrase; // 0x1E410
 
 	// Properties
 	public override bool ShouldShow { get; }
@@ -1281,10 +1235,56 @@ public class TipSleepingBagPlacement : BaseTip // TypeDefIndex: 11638
 	// RVA: 0xC62860 Offset: 0xC60E60 VA: 0x180C62860 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 	// RVA: 0xC627F0 Offset: 0xC60DF0 VA: 0x180C627F0
+	private static void .cctor() { }
+
+}
+
+public class TipSledPlacement : BaseTip // TypeDefIndex: 11637
+{	// Fields
+	public static Translate.Phrase Phrase; // 0x1E48D
+
+	// Properties
+	public override bool ShouldShow { get; }
+
+	// Methods
+
+	// RVA: 0xC629F0 Offset: 0xC60FF0 VA: 0x180C629F0 Slot: 4
+	public override Translate.Phrase GetPhrase() { }
+
+	// RVA: 0xC62AC0 Offset: 0xC610C0 VA: 0x180C62AC0 Slot: 5
+	public override bool get_ShouldShow() { }
+
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
+	public void .ctor() { }
+
+	// RVA: 0xC62A50 Offset: 0xC61050 VA: 0x180C62A50
+	private static void .cctor() { }
+
+}
+
+public class TipSleepingBagPlacement : BaseTip // TypeDefIndex: 11638
+{	// Fields
+	public static Translate.Phrase Phrase; // 0x2B10568
+
+	// Properties
+	public override bool ShouldShow { get; }
+
+	// Methods
+
+	// RVA: 0xC62C60 Offset: 0xC61260 VA: 0x180C62C60 Slot: 4
+	public override Translate.Phrase GetPhrase() { }
+
+	// RVA: 0xC62D30 Offset: 0xC61330 VA: 0x180C62D30 Slot: 5
+	public override bool get_ShouldShow() { }
+
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
+	public void .ctor() { }
+
+	// RVA: 0xC62CC0 Offset: 0xC612C0 VA: 0x180C62CC0
 	private static void .cctor() { }
 
 }
@@ -1301,24 +1301,24 @@ public class TipSnapAttractionPoint : BaseTip // TypeDefIndex: 11639
 
 	// Methods
 
-	// RVA: 0xC62A70 Offset: 0xC61070 VA: 0x180C62A70 Slot: 4
+	// RVA: 0xC62F40 Offset: 0xC61540 VA: 0x180C62F40 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC62BB0 Offset: 0xC611B0 VA: 0x180C62BB0 Slot: 5
+	// RVA: 0xC63080 Offset: 0xC61680 VA: 0x180C63080 Slot: 5
 	public override bool get_ShouldShow() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC62B50 Offset: 0xC61150 VA: 0x180C62B50
+	// RVA: 0xC63020 Offset: 0xC61620 VA: 0x180C63020
 	public static bool get_HasDismissedSnap() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC62DE0 Offset: 0xC613E0 VA: 0x180C62DE0
+	// RVA: 0xC632B0 Offset: 0xC618B0 VA: 0x180C632B0
 	public static void set_HasDismissedSnap(bool value) { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC62AD0 Offset: 0xC610D0 VA: 0x180C62AD0
+	// RVA: 0xC62FA0 Offset: 0xC615A0 VA: 0x180C62FA0
 	private static void .cctor() { }
 
 }
@@ -1334,46 +1334,46 @@ public class TipSnowmobileSurface : BaseTip // TypeDefIndex: 11640
 
 	// Methods
 
-	// RVA: 0xC62E40 Offset: 0xC61440 VA: 0x180C62E40 Slot: 4
+	// RVA: 0xC63310 Offset: 0xC61910 VA: 0x180C63310 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC62F10 Offset: 0xC61510 VA: 0x180C62F10 Slot: 5
+	// RVA: 0xC633E0 Offset: 0xC619E0 VA: 0x180C633E0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC62EA0 Offset: 0xC614A0 VA: 0x180C62EA0
+	// RVA: 0xC63370 Offset: 0xC61970 VA: 0x180C63370
 	private static void .cctor() { }
 
 }
 
 public class TipSprayControls : BaseTip // TypeDefIndex: 11641
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x203BC
+	public static Translate.Phrase Phrase; // 0x1E490
 
 	// Properties
 	public override bool ShouldShow { get; }
 
 	// Methods
 
-	// RVA: 0xC63120 Offset: 0xC61720 VA: 0x180C63120 Slot: 4
+	// RVA: 0xC635F0 Offset: 0xC61BF0 VA: 0x180C635F0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC631F0 Offset: 0xC617F0 VA: 0x180C631F0 Slot: 5
+	// RVA: 0xC636C0 Offset: 0xC61CC0 VA: 0x180C636C0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC63180 Offset: 0xC61780 VA: 0x180C63180
+	// RVA: 0xC63650 Offset: 0xC61C50 VA: 0x180C63650
 	private static void .cctor() { }
 
 }
 
 public class TipTooCold : BaseTip // TypeDefIndex: 11642
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x2B111F4
+	public static Translate.Phrase Phrase; // 0x1E4B0
 
 	// Properties
 	public float ColdDuration { get; }
@@ -1382,29 +1382,29 @@ public class TipTooCold : BaseTip // TypeDefIndex: 11642
 
 	// Methods
 
-	// RVA: 0xC633D0 Offset: 0xC619D0 VA: 0x180C633D0 Slot: 4
+	// RVA: 0xC638A0 Offset: 0xC61EA0 VA: 0x180C638A0 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC61A40 Offset: 0xC60040 VA: 0x180C61A40
+	// RVA: 0xC61F10 Offset: 0xC60510 VA: 0x180C61F10
 	public float get_ColdDuration() { }
 
-	// RVA: 0xC634A0 Offset: 0xC61AA0 VA: 0x180C634A0
+	// RVA: 0xC63970 Offset: 0xC61F70 VA: 0x180C63970
 	public bool get_IsCold() { }
 
-	// RVA: 0xC63620 Offset: 0xC61C20 VA: 0x180C63620 Slot: 5
+	// RVA: 0xC63AF0 Offset: 0xC620F0 VA: 0x180C63AF0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC63430 Offset: 0xC61A30 VA: 0x180C63430
+	// RVA: 0xC63900 Offset: 0xC61F00 VA: 0x180C63900
 	private static void .cctor() { }
 
 }
 
 public class TipTooHot : BaseTip // TypeDefIndex: 11643
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x203C0
+	public static Translate.Phrase Phrase; // 0x2B10368
 
 	// Properties
 	public float HotDuration { get; }
@@ -1413,45 +1413,45 @@ public class TipTooHot : BaseTip // TypeDefIndex: 11643
 
 	// Methods
 
-	// RVA: 0xC637C0 Offset: 0xC61DC0 VA: 0x180C637C0 Slot: 4
+	// RVA: 0xC63C90 Offset: 0xC62290 VA: 0x180C63C90 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC63890 Offset: 0xC61E90 VA: 0x180C63890
+	// RVA: 0xC63D60 Offset: 0xC62360 VA: 0x180C63D60
 	public float get_HotDuration() { }
 
-	// RVA: 0xC638A0 Offset: 0xC61EA0 VA: 0x180C638A0
+	// RVA: 0xC63D70 Offset: 0xC62370 VA: 0x180C63D70
 	public bool get_IsHot() { }
 
-	// RVA: 0xC63A20 Offset: 0xC62020 VA: 0x180C63A20 Slot: 5
+	// RVA: 0xC63EF0 Offset: 0xC624F0 VA: 0x180C63EF0 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC63820 Offset: 0xC61E20 VA: 0x180C63820
+	// RVA: 0xC63CF0 Offset: 0xC622F0 VA: 0x180C63CF0
 	private static void .cctor() { }
 
 }
 
 public class TipZipline : BaseTip // TypeDefIndex: 11644
 {	// Fields
-	public static Translate.Phrase Phrase; // 0x20416
+	public static Translate.Phrase Phrase; // 0x1E4B0
 
 	// Properties
 	public override bool ShouldShow { get; }
 
 	// Methods
 
-	// RVA: 0xC63BC0 Offset: 0xC621C0 VA: 0x180C63BC0 Slot: 4
+	// RVA: 0xC64090 Offset: 0xC62690 VA: 0x180C64090 Slot: 4
 	public override Translate.Phrase GetPhrase() { }
 
-	// RVA: 0xC63C90 Offset: 0xC62290 VA: 0x180C63C90 Slot: 5
+	// RVA: 0xC64160 Offset: 0xC62760 VA: 0x180C64160 Slot: 5
 	public override bool get_ShouldShow() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0xC63C20 Offset: 0xC62220 VA: 0x180C63C20
+	// RVA: 0xC640F0 Offset: 0xC626F0 VA: 0x180C640F0
 	private static void .cctor() { }
 
 }

@@ -9,10 +9,10 @@ public class LootPanelCardTableTerminal : LootPanel // TypeDefIndex: 11028
 
 	// Methods
 
-	// RVA: 0x506900 Offset: 0x504F00 VA: 0x180506900
+	// RVA: 0x506890 Offset: 0x504E90 VA: 0x180506890
 	public CardTablePlayerStorage GetTerminal() { }
 
-	// RVA: 0x506990 Offset: 0x504F90 VA: 0x180506990
+	// RVA: 0x506920 Offset: 0x504F20 VA: 0x180506920
 	protected void OnEnable() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

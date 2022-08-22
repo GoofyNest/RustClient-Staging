@@ -22,25 +22,25 @@ public class GranularAudioClip : MonoBehaviour // TypeDefIndex: 8994
 
 	// Methods
 
-	// RVA: 0xCA41D0 Offset: 0xCA27D0 VA: 0x180CA41D0
+	// RVA: 0xCA4670 Offset: 0xCA2C70 VA: 0x180CA4670
 	private void Update() { }
 
-	// RVA: 0xCA3ED0 Offset: 0xCA24D0 VA: 0x180CA3ED0
+	// RVA: 0xCA4370 Offset: 0xCA2970 VA: 0x180CA4370
 	private void RefreshCachedData() { }
 
-	// RVA: 0xCA3BD0 Offset: 0xCA21D0 VA: 0x180CA3BD0
+	// RVA: 0xCA4070 Offset: 0xCA2670 VA: 0x180CA4070
 	private void InitAudioClip() { }
 
-	// RVA: 0xCA3D10 Offset: 0xCA2310 VA: 0x180CA3D10
+	// RVA: 0xCA41B0 Offset: 0xCA27B0 VA: 0x180CA41B0
 	private void OnAudioRead(float[] data) { }
 
-	// RVA: 0xCA3FD0 Offset: 0xCA25D0 VA: 0x180CA3FD0
+	// RVA: 0xCA4470 Offset: 0xCA2A70 VA: 0x180CA4470
 	private void SpawnGrain() { }
 
-	// RVA: 0xCA3AC0 Offset: 0xCA20C0 VA: 0x180CA3AC0
+	// RVA: 0xCA3F60 Offset: 0xCA2560 VA: 0x180CA3F60
 	private void CleanupFinishedGrains() { }
 
-	// RVA: 0xCA4510 Offset: 0xCA2B10 VA: 0x180CA4510
+	// RVA: 0xCA49B0 Offset: 0xCA2FB0 VA: 0x180CA49B0
 	public void .ctor() { }
 
 }
@@ -66,13 +66,13 @@ public class GranularAudioClip.Grain // TypeDefIndex: 8995
 
 	// Methods
 
-	// RVA: 0xCA3AB0 Offset: 0xCA20B0 VA: 0x180CA3AB0
+	// RVA: 0xCA3F50 Offset: 0xCA2550 VA: 0x180CA3F50
 	public bool get_finished() { }
 
-	// RVA: 0xCA39F0 Offset: 0xCA1FF0 VA: 0x180CA39F0
+	// RVA: 0xCA3E90 Offset: 0xCA2490 VA: 0x180CA3E90
 	public void Init(float[] source, int start, int attack, int sustain, int release) { }
 
-	// RVA: 0xCA3950 Offset: 0xCA1F50 VA: 0x180CA3950
+	// RVA: 0xCA3DF0 Offset: 0xCA23F0 VA: 0x180CA3DF0
 	public float GetSample() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

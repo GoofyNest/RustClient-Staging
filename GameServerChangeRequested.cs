@@ -10,19 +10,19 @@ internal struct GameServerChangeRequested_t : ICallbackData // TypeDefIndex: 530
 
 	// Methods
 
-	// RVA: 0x1E7DE0 Offset: 0x1E71E0 VA: 0x1801E7DE0
+	// RVA: 0x1E8200 Offset: 0x1E7600 VA: 0x1801E8200
 	internal string ServerUTF8() { }
 
-	// RVA: 0x1E7D60 Offset: 0x1E7160 VA: 0x1801E7D60
+	// RVA: 0x1E8180 Offset: 0x1E7580 VA: 0x1801E8180
 	internal string PasswordUTF8() { }
 
-	// RVA: 0x1E7E70 Offset: 0x1E7270 VA: 0x1801E7E70 Slot: 5
+	// RVA: 0x1E8290 Offset: 0x1E7690 VA: 0x1801E8290 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E7E60 Offset: 0x1E7260 VA: 0x1801E7E60 Slot: 4
+	// RVA: 0x1E8280 Offset: 0x1E7680 VA: 0x1801E8280 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371720 Offset: 0x136FD20 VA: 0x181371720
+	// RVA: 0x1370820 Offset: 0x136EE20 VA: 0x181370820
 	private static void .cctor() { }
 
 }

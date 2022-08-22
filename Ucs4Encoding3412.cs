@@ -4,13 +4,13 @@ internal class Ucs4Encoding3412 : Ucs4Encoding // TypeDefIndex: 2018
 
 	// Methods
 
-	// RVA: 0xE4EEC0 Offset: 0xE4D4C0 VA: 0x180E4EEC0
+	// RVA: 0xE4F970 Offset: 0xE4DF70 VA: 0x180E4F970
 	public void .ctor() { }
 
-	// RVA: 0xE4EF60 Offset: 0xE4D560 VA: 0x180E4EF60 Slot: 8
+	// RVA: 0xE4FA10 Offset: 0xE4E010 VA: 0x180E4FA10 Slot: 8
 	public override string get_EncodingName() { }
 
-	// RVA: 0xE4EE40 Offset: 0xE4D440 VA: 0x180E4EE40 Slot: 6
+	// RVA: 0xE4F8F0 Offset: 0xE4DEF0 VA: 0x180E4F8F0 Slot: 6
 	public override byte[] GetPreamble() { }
 
 }

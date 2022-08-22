@@ -4,10 +4,10 @@ public class Enlistment // TypeDefIndex: 3976
 
 	// Methods
 
-	// RVA: 0x1748500 Offset: 0x1746B00 VA: 0x181748500
+	// RVA: 0x17460C0 Offset: 0x17446C0 VA: 0x1817460C0
 	internal void .ctor() { }
 
-	// RVA: 0x230CCE0 Offset: 0x230B2E0 VA: 0x18230CCE0
+	// RVA: 0x230D500 Offset: 0x230BB00 VA: 0x18230D500
 	public void Done() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4

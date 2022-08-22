@@ -12,10 +12,10 @@ public class TriggerTemperature : TriggerBase // TypeDefIndex: 10049
 
 	// Methods
 
-	// RVA: 0x4D38C0 Offset: 0x4D1EC0 VA: 0x1804D38C0
+	// RVA: 0x4D3850 Offset: 0x4D1E50 VA: 0x1804D3850
 	private void OnValidate() { }
 
-	// RVA: 0x4D3A80 Offset: 0x4D2080 VA: 0x1804D3A80
+	// RVA: 0x4D3A10 Offset: 0x4D2010 VA: 0x1804D3A10
 	public void .ctor() { }
 
 }

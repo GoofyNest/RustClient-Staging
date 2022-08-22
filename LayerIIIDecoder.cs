@@ -54,64 +54,64 @@ internal sealed class LayerIIIDecoder : IFrameDecoder // TypeDefIndex: 7402
 
 	// Methods
 
-	// RVA: 0x6706C0 Offset: 0x66ECC0 VA: 0x1806706C0
+	// RVA: 0x670650 Offset: 0x66EC50 VA: 0x180670650
 	private static void .cctor() { }
 
-	// RVA: 0x6719D0 Offset: 0x66FFD0 VA: 0x1806719D0
+	// RVA: 0x671960 Offset: 0x66FF60 VA: 0x180671960
 	internal void .ctor(Bitstream stream, Header header, SynthesisFilter filtera, SynthesisFilter filterb, ABuffer buffer, int whichCh) { }
 
-	// RVA: 0x661DF0 Offset: 0x6603F0 VA: 0x180661DF0 Slot: 4
+	// RVA: 0x661D80 Offset: 0x660380 VA: 0x180661D80 Slot: 4
 	public void DecodeFrame() { }
 
-	// RVA: 0x666BF0 Offset: 0x6651F0 VA: 0x180666BF0
+	// RVA: 0x666B80 Offset: 0x665180 VA: 0x180666B80
 	private void InitBlock() { }
 
-	// RVA: 0x661E00 Offset: 0x660400 VA: 0x180661E00
+	// RVA: 0x661D90 Offset: 0x660390 VA: 0x180661D90
 	internal void Decode() { }
 
-	// RVA: 0x66B5F0 Offset: 0x669BF0 VA: 0x18066B5F0
+	// RVA: 0x66B580 Offset: 0x669B80 VA: 0x18066B580
 	private bool ReadSideInfo() { }
 
-	// RVA: 0x668A70 Offset: 0x667070 VA: 0x180668A70
+	// RVA: 0x668A00 Offset: 0x667000 VA: 0x180668A00
 	private void ReadScaleFactors(int ch, int gr) { }
 
-	// RVA: 0x663FA0 Offset: 0x6625A0 VA: 0x180663FA0
+	// RVA: 0x663F30 Offset: 0x662530 VA: 0x180663F30
 	private void GetLSFScaleData(int ch, int gr) { }
 
-	// RVA: 0x663620 Offset: 0x661C20 VA: 0x180663620
+	// RVA: 0x6635B0 Offset: 0x661BB0 VA: 0x1806635B0
 	private void GLSFScaleFactors(int ch, int gr) { }
 
-	// RVA: 0x664BC0 Offset: 0x6631C0 VA: 0x180664BC0
+	// RVA: 0x664B50 Offset: 0x663150 VA: 0x180664B50
 	private void HuffmanDecode(int ch, int gr) { }
 
-	// RVA: 0x663C30 Offset: 0x662230 VA: 0x180663C30
+	// RVA: 0x663BC0 Offset: 0x6621C0 VA: 0x180663BC0
 	private void GetKStereoValues(int isPos, int ioType, int i) { }
 
-	// RVA: 0x662350 Offset: 0x660950 VA: 0x180662350
+	// RVA: 0x6622E0 Offset: 0x6608E0 VA: 0x1806622E0
 	private void DequantizeSample(float[][] xr, int ch, int gr) { }
 
-	// RVA: 0x66D780 Offset: 0x66BD80 VA: 0x18066D780
+	// RVA: 0x66D710 Offset: 0x66BD10 VA: 0x18066D710
 	private void Reorder(float[][] xr, int ch, int gr) { }
 
-	// RVA: 0x66DFE0 Offset: 0x66C5E0 VA: 0x18066DFE0
+	// RVA: 0x66DF70 Offset: 0x66C570 VA: 0x18066DF70
 	private void Stereo(int gr) { }
 
-	// RVA: 0x661A20 Offset: 0x660020 VA: 0x180661A20
+	// RVA: 0x6619B0 Offset: 0x65FFB0 VA: 0x1806619B0
 	private void Antialias(int ch, int gr) { }
 
-	// RVA: 0x6658F0 Offset: 0x663EF0 VA: 0x1806658F0
+	// RVA: 0x665880 Offset: 0x663E80 VA: 0x180665880
 	private void Hybrid(int ch, int gr) { }
 
-	// RVA: 0x6632F0 Offset: 0x6618F0 VA: 0x1806632F0
+	// RVA: 0x663280 Offset: 0x661880 VA: 0x180663280
 	private void DoDownMix() { }
 
-	// RVA: 0x666D10 Offset: 0x665310 VA: 0x180666D10
+	// RVA: 0x666CA0 Offset: 0x6652A0 VA: 0x180666CA0
 	internal void InverseMdct(float[] inValues, float[] outValues, int blockType) { }
 
-	// RVA: 0x661D20 Offset: 0x660320 VA: 0x180661D20
+	// RVA: 0x661CB0 Offset: 0x6602B0 VA: 0x180661CB0
 	private static float[] CreatePowerTable() { }
 
-	// RVA: 0x66DED0 Offset: 0x66C4D0 VA: 0x18066DED0
+	// RVA: 0x66DE60 Offset: 0x66C460 VA: 0x18066DE60
 	internal static int[] Reorder(int[] scalefacBand) { }
 
 }

@@ -8,19 +8,19 @@ public class SoundFollowCollider : MonoBehaviour, IClientComponent // TypeDefInd
 
 	// Methods
 
-	// RVA: 0xA75E10 Offset: 0xA74410 VA: 0x180A75E10
+	// RVA: 0xA762E0 Offset: 0xA748E0 VA: 0x180A762E0
 	private void Awake() { }
 
-	// RVA: 0xA75EC0 Offset: 0xA744C0 VA: 0x180A75EC0
+	// RVA: 0xA76390 Offset: 0xA74990 VA: 0x180A76390
 	public void StartSound() { }
 
-	// RVA: 0xA75ED0 Offset: 0xA744D0 VA: 0x180A75ED0
+	// RVA: 0xA763A0 Offset: 0xA749A0 VA: 0x180A763A0
 	public void StopSound() { }
 
-	// RVA: 0xA75EE0 Offset: 0xA744E0 VA: 0x180A75EE0
+	// RVA: 0xA763B0 Offset: 0xA749B0 VA: 0x180A763B0
 	private void Update() { }
 
-	// RVA: 0xA75E20 Offset: 0xA74420 VA: 0x180A75E20
+	// RVA: 0xA762F0 Offset: 0xA748F0 VA: 0x180A762F0
 	private void FadeOutSound() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

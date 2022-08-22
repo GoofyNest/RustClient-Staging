@@ -6,7 +6,7 @@ internal sealed class SerObjectInfoInit // TypeDefIndex: 1109
 
 	// Methods
 
-	// RVA: 0x12028E0 Offset: 0x1200EE0 VA: 0x1812028E0
+	// RVA: 0x1202F80 Offset: 0x1201580 VA: 0x181202F80
 	public void .ctor() { }
 
 }

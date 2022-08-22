@@ -4,7 +4,7 @@ public class MuzzleFlash_Flamelet : MonoBehaviour // TypeDefIndex: 9353
 
 	// Methods
 
-	// RVA: 0x7C35F0 Offset: 0x7C1BF0 VA: 0x1807C35F0
+	// RVA: 0x7E19E0 Offset: 0x7DFFE0 VA: 0x1807E19E0
 	private void OnEnable() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -24,10 +24,10 @@ public class Muzzleflash_AlphaRandom : MonoBehaviour // TypeDefIndex: 9354
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void Start() { }
 
-	// RVA: 0x7C36D0 Offset: 0x7C1CD0 VA: 0x1807C36D0
+	// RVA: 0x7E1AC0 Offset: 0x7E00C0 VA: 0x1807E1AC0
 	private void OnEnable() { }
 
-	// RVA: 0x7C3AE0 Offset: 0x7C20E0 VA: 0x1807C3AE0
+	// RVA: 0x7E1ED0 Offset: 0x7E04D0 VA: 0x1807E1ED0
 	public void .ctor() { }
 
 }

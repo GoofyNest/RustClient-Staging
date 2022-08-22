@@ -2,31 +2,31 @@ internal static class ReflectionExtensions // TypeDefIndex: 89
 {	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x10E68C0 Offset: 0x10E4EC0 VA: 0x1810E68C0
+	// RVA: 0x10E7330 Offset: 0x10E5930 VA: 0x1810E7330
 	public static bool IsEnum(Type type) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1648940 Offset: 0x1646F40 VA: 0x181648940
+	// RVA: 0x1635C60 Offset: 0x1634260 VA: 0x181635C60
 	public static bool IsAbstract(Type type) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1648960 Offset: 0x1646F60 VA: 0x181648960
+	// RVA: 0x1635C80 Offset: 0x1634280 VA: 0x181635C80
 	public static bool IsSealed(Type type) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x16488B0 Offset: 0x1646EB0 VA: 0x1816488B0
+	// RVA: 0x1635BD0 Offset: 0x16341D0 VA: 0x181635BD0
 	public static Type BaseType(Type type) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1648880 Offset: 0x1646E80 VA: 0x181648880
+	// RVA: 0x1635BA0 Offset: 0x16341A0 VA: 0x181635BA0
 	public static Assembly Assembly(Type type) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x16488E0 Offset: 0x1646EE0 VA: 0x1816488E0
+	// RVA: 0x1635C00 Offset: 0x1634200 VA: 0x181635C00
 	public static TypeCode GetTypeCode(Type type) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1648980 Offset: 0x1646F80 VA: 0x181648980
+	// RVA: 0x1635CA0 Offset: 0x16342A0 VA: 0x181635CA0
 	public static bool ReflectionOnly(Assembly assm) { }
 
 }
@@ -35,7 +35,7 @@ public static class ReflectionExtensions // TypeDefIndex: 4845
 {	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2270870 Offset: 0x226EE70 VA: 0x182270870
+	// RVA: 0x2271090 Offset: 0x226F690 VA: 0x182271090
 	public static bool HasAttribute(MemberInfo method, Type attribute) { }
 
 }

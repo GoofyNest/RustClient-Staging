@@ -6,10 +6,10 @@ public class RandomParameterNumberFloat : StateMachineBehaviour // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x6A7A70 Offset: 0x6A6070 VA: 0x1806A7A70 Slot: 4
+	// RVA: 0x6A7A00 Offset: 0x6A6000 VA: 0x1806A7A00 Slot: 4
 	public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) { }
 
-	// RVA: 0x6A7B40 Offset: 0x6A6140 VA: 0x1806A7B40
+	// RVA: 0x6A7AD0 Offset: 0x6A60D0 VA: 0x1806A7AD0
 	public void .ctor() { }
 
 }

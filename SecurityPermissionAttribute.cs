@@ -7,7 +7,7 @@ public sealed class SecurityPermissionAttribute : CodeAccessSecurityAttribute //
 
 	// Methods
 
-	// RVA: 0x17C5830 Offset: 0x17C3E30 VA: 0x1817C5830
+	// RVA: 0x17C3380 Offset: 0x17C1980 VA: 0x1817C3380
 	public void set_SkipVerification(bool value) { }
 
 }

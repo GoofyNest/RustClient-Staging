@@ -4,37 +4,37 @@ internal class CFRunLoop : CFObject // TypeDefIndex: 2521
 
 	// Methods
 
-	// RVA: 0x1213EC0 Offset: 0x12124C0 VA: 0x181213EC0
+	// RVA: 0x1214560 Offset: 0x1212B60 VA: 0x181214560
 	private static extern void CFRunLoopAddSource(IntPtr rl, IntPtr source, IntPtr mode) { }
 
-	// RVA: 0x1213FD0 Offset: 0x12125D0 VA: 0x181213FD0
+	// RVA: 0x1214670 Offset: 0x1212C70 VA: 0x181214670
 	private static extern void CFRunLoopRemoveSource(IntPtr rl, IntPtr source, IntPtr mode) { }
 
-	// RVA: 0x1214070 Offset: 0x1212670 VA: 0x181214070
+	// RVA: 0x1214710 Offset: 0x1212D10 VA: 0x181214710
 	private static extern int CFRunLoopRunInMode(IntPtr mode, double seconds, bool returnAfterSourceHandled) { }
 
-	// RVA: 0x1213F60 Offset: 0x1212560 VA: 0x181213F60
+	// RVA: 0x1214600 Offset: 0x1212C00 VA: 0x181214600
 	private static extern IntPtr CFRunLoopGetCurrent() { }
 
-	// RVA: 0x1214110 Offset: 0x1212710 VA: 0x181214110
+	// RVA: 0x12147B0 Offset: 0x1212DB0 VA: 0x1812147B0
 	private static extern void CFRunLoopStop(IntPtr rl) { }
 
-	// RVA: 0x1210750 Offset: 0x120ED50 VA: 0x181210750
+	// RVA: 0x1210DF0 Offset: 0x120F3F0 VA: 0x181210DF0
 	public void .ctor(IntPtr handle, bool own) { }
 
-	// RVA: 0x1214370 Offset: 0x1212970 VA: 0x181214370
+	// RVA: 0x1214A10 Offset: 0x1213010 VA: 0x181214A10
 	public static CFRunLoop get_CurrentRunLoop() { }
 
-	// RVA: 0x1213E10 Offset: 0x1212410 VA: 0x181213E10
+	// RVA: 0x12144B0 Offset: 0x1212AB0 VA: 0x1812144B0
 	public void AddSource(IntPtr source, CFString mode) { }
 
-	// RVA: 0x1214190 Offset: 0x1212790 VA: 0x181214190
+	// RVA: 0x1214830 Offset: 0x1212E30 VA: 0x181214830
 	public void RemoveSource(IntPtr source, CFString mode) { }
 
-	// RVA: 0x1214240 Offset: 0x1212840 VA: 0x181214240
+	// RVA: 0x12148E0 Offset: 0x1212EE0 VA: 0x1812148E0
 	public int RunInMode(CFString mode, double seconds, bool returnAfterSourceHandled) { }
 
-	// RVA: 0x12142F0 Offset: 0x12128F0 VA: 0x1812142F0
+	// RVA: 0x1214990 Offset: 0x1212F90 VA: 0x181214990
 	public void Stop() { }
 
 }

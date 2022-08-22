@@ -4,16 +4,16 @@ public static class LODUtil // TypeDefIndex: 9937
 
 	// Methods
 
-	// RVA: 0x686570 Offset: 0x684B70 VA: 0x180686570
+	// RVA: 0x686500 Offset: 0x684B00 VA: 0x180686500
 	public static float GetDistance(Transform transform, LODDistanceMode mode = 0) { }
 
-	// RVA: 0x6865C0 Offset: 0x684BC0 VA: 0x1806865C0
+	// RVA: 0x686550 Offset: 0x684B50 VA: 0x180686550
 	public static float GetDistance(Vector3 worldPos, LODDistanceMode mode = 0) { }
 
-	// RVA: 0x6867C0 Offset: 0x684DC0 VA: 0x1806867C0
+	// RVA: 0x686750 Offset: 0x684D50 VA: 0x180686750
 	public static float VerifyDistance(float distance) { }
 
-	// RVA: 0x6864F0 Offset: 0x684AF0 VA: 0x1806864F0
+	// RVA: 0x686480 Offset: 0x684A80 VA: 0x180686480
 	public static LODEnvironmentMode DetermineEnvironmentMode(Transform transform) { }
 
 }

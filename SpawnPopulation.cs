@@ -27,10 +27,10 @@ public class SpawnPopulation : BaseScriptableObject // TypeDefIndex: 9995
 
 	// Methods
 
-	// RVA: 0x6BBA40 Offset: 0x6BA040 VA: 0x1806BBA40 Slot: 4
+	// RVA: 0x6BB9D0 Offset: 0x6B9FD0 VA: 0x1806BB9D0 Slot: 4
 	public virtual float get_TargetDensity() { }
 
-	// RVA: 0xA7DE70 Offset: 0xA7C470 VA: 0x180A7DE70
+	// RVA: 0xA7E340 Offset: 0xA7C940 VA: 0x180A7E340
 	public void .ctor() { }
 
 }

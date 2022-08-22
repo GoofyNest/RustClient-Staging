@@ -6,39 +6,39 @@ public sealed class Cubemap : Texture // TypeDefIndex: 3446
 	// Methods
 
 	[NativeNameAttribute] // RVA: 0x9E890 Offset: 0x9DC90 VA: 0x18009E890
-	// RVA: 0x18279A0 Offset: 0x1825FA0 VA: 0x1818279A0
+	// RVA: 0x1814DE0 Offset: 0x18133E0 VA: 0x181814DE0
 	public TextureFormat get_format() { }
 
 	[FreeFunctionAttribute] // RVA: 0x9FB40 Offset: 0x9EF40 VA: 0x18009FB40
-	// RVA: 0x18273A0 Offset: 0x18259A0 VA: 0x1818273A0
+	// RVA: 0x18147E0 Offset: 0x1812DE0 VA: 0x1818147E0
 	private static bool Internal_CreateImpl(Cubemap mono, int ext, int mipCount, GraphicsFormat format, TextureCreationFlags flags, IntPtr nativeTex) { }
 
-	// RVA: 0x1827400 Offset: 0x1825A00 VA: 0x181827400
+	// RVA: 0x1814840 Offset: 0x1812E40 VA: 0x181814840
 	private static void Internal_Create(Cubemap mono, int ext, int mipCount, GraphicsFormat format, TextureCreationFlags flags, IntPtr nativeTex) { }
 
-	// RVA: 0x18279E0 Offset: 0x1825FE0 VA: 0x1818279E0 Slot: 11
+	// RVA: 0x1814E20 Offset: 0x1813420 VA: 0x181814E20 Slot: 11
 	public override bool get_isReadable() { }
 
-	// RVA: 0x1827580 Offset: 0x1825B80 VA: 0x181827580
+	// RVA: 0x18149C0 Offset: 0x1812FC0 VA: 0x1818149C0
 	public void .ctor(int width, DefaultFormat format, TextureCreationFlags flags) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1827700 Offset: 0x1825D00 VA: 0x181827700
+	// RVA: 0x1814B40 Offset: 0x1813140 VA: 0x181814B40
 	public void .ctor(int width, GraphicsFormat format, TextureCreationFlags flags) { }
 
-	// RVA: 0x1827510 Offset: 0x1825B10 VA: 0x181827510
+	// RVA: 0x1814950 Offset: 0x1812F50 VA: 0x181814950
 	public void .ctor(int width, TextureFormat format, int mipCount) { }
 
-	// RVA: 0x18277E0 Offset: 0x1825DE0 VA: 0x1818277E0
+	// RVA: 0x1814C20 Offset: 0x1813220 VA: 0x181814C20
 	public void .ctor(int width, GraphicsFormat format, TextureCreationFlags flags, int mipCount) { }
 
-	// RVA: 0x1827890 Offset: 0x1825E90 VA: 0x181827890
+	// RVA: 0x1814CD0 Offset: 0x18132D0 VA: 0x181814CD0
 	internal void .ctor(int width, TextureFormat textureFormat, int mipCount, IntPtr nativeTex) { }
 
-	// RVA: 0x18274D0 Offset: 0x1825AD0 VA: 0x1818274D0
+	// RVA: 0x1814910 Offset: 0x1812F10 VA: 0x181814910
 	internal void .ctor(int width, TextureFormat textureFormat, bool mipChain, IntPtr nativeTex) { }
 
-	// RVA: 0x1827670 Offset: 0x1825C70 VA: 0x181827670
+	// RVA: 0x1814AB0 Offset: 0x18130B0 VA: 0x181814AB0
 	public void .ctor(int width, TextureFormat textureFormat, bool mipChain) { }
 
 }

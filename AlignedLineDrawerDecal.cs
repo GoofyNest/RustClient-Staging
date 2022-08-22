@@ -7,25 +7,25 @@ public class AlignedLineDrawerDecal : AlignedLineDrawer, INotifyLOD // TypeDefIn
 
 	// Methods
 
-	// RVA: 0xAA2CC0 Offset: 0xAA12C0 VA: 0x180AA2CC0 Slot: 5
+	// RVA: 0xAA3190 Offset: 0xAA1790 VA: 0x180AA3190 Slot: 5
 	protected override void AssignMesh() { }
 
-	// RVA: 0xAA3020 Offset: 0xAA1620 VA: 0x180AA3020 Slot: 6
+	// RVA: 0xAA34F0 Offset: 0xAA1AF0 VA: 0x180AA34F0 Slot: 6
 	public override void SetColour(Color c) { }
 
-	// RVA: 0xAA2DE0 Offset: 0xAA13E0 VA: 0x180AA2DE0
+	// RVA: 0xAA32B0 Offset: 0xAA18B0 VA: 0x180AA32B0
 	private Material GetColourMaterial(Color c) { }
 
-	// RVA: 0xAA3110 Offset: 0xAA1710 VA: 0x180AA3110 Slot: 8
+	// RVA: 0xAA35E0 Offset: 0xAA1BE0 VA: 0x180AA35E0 Slot: 8
 	public void Show() { }
 
-	// RVA: 0xAA2F90 Offset: 0xAA1590 VA: 0x180AA2F90 Slot: 9
+	// RVA: 0xAA3460 Offset: 0xAA1A60 VA: 0x180AA3460 Slot: 9
 	public void Hide() { }
 
-	// RVA: 0xAA3230 Offset: 0xAA1830 VA: 0x180AA3230
+	// RVA: 0xAA3700 Offset: 0xAA1D00 VA: 0x180AA3700
 	public void .ctor() { }
 
-	// RVA: 0xAA31D0 Offset: 0xAA17D0 VA: 0x180AA31D0
+	// RVA: 0xAA36A0 Offset: 0xAA1CA0 VA: 0x180AA36A0
 	private static void .cctor() { }
 
 }

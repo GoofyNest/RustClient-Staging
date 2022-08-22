@@ -15,10 +15,10 @@ public struct Vector2Int : IEquatable<Vector2Int> // TypeDefIndex: 3471
 
 	// Methods
 
-	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
+	// RVA: 0x13A3C0 Offset: 0x1397C0 VA: 0x18013A3C0
 	public int get_x() { }
 
-	// RVA: 0x13A300 Offset: 0x139700 VA: 0x18013A300
+	// RVA: 0x13A120 Offset: 0x139520 VA: 0x18013A120
 	public int get_y() { }
 
 	// RVA: 0xF88D0 Offset: 0xF7CD0 VA: 0x1800F88D0
@@ -36,7 +36,7 @@ public struct Vector2Int : IEquatable<Vector2Int> // TypeDefIndex: 3471
 	// RVA: 0x235920 Offset: 0x234D20 VA: 0x180235920 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x2181A40 Offset: 0x2180040 VA: 0x182181A40
+	// RVA: 0x2182260 Offset: 0x2180860 VA: 0x182182260
 	private static void .cctor() { }
 
 }

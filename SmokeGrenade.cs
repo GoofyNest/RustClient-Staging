@@ -11,31 +11,31 @@ public class SmokeGrenade : TimedExplosive // TypeDefIndex: 9608
 
 	// Methods
 
-	// RVA: 0x5B0710 Offset: 0x5AED10 VA: 0x1805B0710 Slot: 31
+	// RVA: 0x5B06A0 Offset: 0x5AECA0 VA: 0x1805B06A0 Slot: 31
 	public override void DestroyShared() { }
 
-	// RVA: 0x5B0790 Offset: 0x5AED90 VA: 0x1805B0790
+	// RVA: 0x5B0720 Offset: 0x5AED20 VA: 0x1805B0720
 	public void EnsureSmokeEffectEnabled() { }
 
-	// RVA: 0x5B0630 Offset: 0x5AEC30 VA: 0x1805B0630 Slot: 14
+	// RVA: 0x5B05C0 Offset: 0x5AEBC0 VA: 0x1805B05C0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x5B0600 Offset: 0x5AEC00 VA: 0x1805B0600
+	// RVA: 0x5B0590 Offset: 0x5AEB90 VA: 0x1805B0590
 	public void CheckFuse() { }
 
-	// RVA: 0x5B0A20 Offset: 0x5AF020 VA: 0x1805B0A20 Slot: 34
+	// RVA: 0x5B09B0 Offset: 0x5AEFB0 VA: 0x1805B09B0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x5B0A80 Offset: 0x5AF080 VA: 0x1805B0A80
+	// RVA: 0x5B0A10 Offset: 0x5AF010 VA: 0x1805B0A10
 	public void OnDestroy() { }
 
-	// RVA: 0x5B0CB0 Offset: 0x5AF2B0 VA: 0x1805B0CB0
+	// RVA: 0x5B0C40 Offset: 0x5AF240 VA: 0x1805B0C40
 	public void Update() { }
 
-	// RVA: 0x5B0F00 Offset: 0x5AF500 VA: 0x1805B0F00
+	// RVA: 0x5B0E90 Offset: 0x5AF490 VA: 0x1805B0E90
 	public void .ctor() { }
 
-	// RVA: 0x5B0EA0 Offset: 0x5AF4A0 VA: 0x1805B0EA0
+	// RVA: 0x5B0E30 Offset: 0x5AF430 VA: 0x1805B0E30
 	private static void .cctor() { }
 
 }

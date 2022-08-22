@@ -8,55 +8,55 @@ public class GameManager // TypeDefIndex: 9880
 
 	// Methods
 
-	// RVA: 0x7572D0 Offset: 0x7558D0 VA: 0x1807572D0
+	// RVA: 0x757220 Offset: 0x755820 VA: 0x180757220
 	public void Reset() { }
 
-	// RVA: 0x757620 Offset: 0x755C20 VA: 0x180757620
+	// RVA: 0x757570 Offset: 0x755B70 VA: 0x180757570
 	public void .ctor(bool clientside, bool serverside) { }
 
-	// RVA: 0x756F00 Offset: 0x755500 VA: 0x180756F00
+	// RVA: 0x756E50 Offset: 0x755450 VA: 0x180756E50
 	public GameObject FindPrefab(uint prefabID) { }
 
-	// RVA: 0x756CF0 Offset: 0x7552F0 VA: 0x180756CF0
+	// RVA: 0x756C40 Offset: 0x755240 VA: 0x180756C40
 	public GameObject FindPrefab(BaseEntity ent) { }
 
-	// RVA: 0x756D90 Offset: 0x755390 VA: 0x180756D90
+	// RVA: 0x756CE0 Offset: 0x7552E0 VA: 0x180756CE0
 	public GameObject FindPrefab(string strPrefab) { }
 
-	// RVA: 0x756560 Offset: 0x754B60 VA: 0x180756560
+	// RVA: 0x7564B0 Offset: 0x754AB0 VA: 0x1807564B0
 	public GameObject CreatePrefab(string strPrefab, Vector3 pos, Quaternion rot, Vector3 scale, bool active = True) { }
 
-	// RVA: 0x756490 Offset: 0x754A90 VA: 0x180756490
+	// RVA: 0x7563E0 Offset: 0x7549E0 VA: 0x1807563E0
 	public GameObject CreatePrefab(string strPrefab, Vector3 pos, Quaternion rot, bool active = True) { }
 
-	// RVA: 0x756670 Offset: 0x754C70 VA: 0x180756670
+	// RVA: 0x7565C0 Offset: 0x754BC0 VA: 0x1807565C0
 	public GameObject CreatePrefab(string strPrefab, bool active = True) { }
 
-	// RVA: 0x7567A0 Offset: 0x754DA0 VA: 0x1807567A0
+	// RVA: 0x7566F0 Offset: 0x754CF0 VA: 0x1807566F0
 	public GameObject CreatePrefab(string strPrefab, Transform parent, bool active = True) { }
 
-	// RVA: 0x756240 Offset: 0x754840 VA: 0x180756240
+	// RVA: 0x756190 Offset: 0x754790 VA: 0x180756190
 	public BaseEntity CreateEntity(string strPrefab, Vector3 pos, Quaternion rot, bool startActive = True) { }
 
-	// RVA: 0x756F90 Offset: 0x755590 VA: 0x180756F90
+	// RVA: 0x756EE0 Offset: 0x7554E0 VA: 0x180756EE0
 	private GameObject Instantiate(string strPrefab, Vector3 pos, Quaternion rot) { }
 
-	// RVA: 0x756BE0 Offset: 0x7551E0 VA: 0x180756BE0
+	// RVA: 0x756B30 Offset: 0x755130 VA: 0x180756B30
 	public static void Destroy(Component component, float delay = 0) { }
 
-	// RVA: 0x756AD0 Offset: 0x7550D0 VA: 0x180756AD0
+	// RVA: 0x756A20 Offset: 0x755020 VA: 0x180756A20
 	public static void Destroy(GameObject instance, float delay = 0) { }
 
-	// RVA: 0x7568E0 Offset: 0x754EE0 VA: 0x1807568E0
+	// RVA: 0x756830 Offset: 0x754E30 VA: 0x180756830
 	public static void DestroyImmediate(Component component, bool allowDestroyingAssets = False) { }
 
-	// RVA: 0x7569F0 Offset: 0x754FF0 VA: 0x1807569F0
+	// RVA: 0x756940 Offset: 0x754F40 VA: 0x180756940
 	public static void DestroyImmediate(GameObject instance, bool allowDestroyingAssets = False) { }
 
-	// RVA: 0x7572F0 Offset: 0x7558F0 VA: 0x1807572F0
+	// RVA: 0x757240 Offset: 0x755840 VA: 0x180757240
 	public void Retire(GameObject instance) { }
 
-	// RVA: 0x757530 Offset: 0x755B30 VA: 0x180757530
+	// RVA: 0x757480 Offset: 0x755A80 VA: 0x180757480
 	private static void .cctor() { }
 
 }

@@ -25,86 +25,86 @@ public class DefaultContractResolver : IContractResolver // TypeDefIndex: 5991
 
 	// Methods
 
-	// RVA: 0xE30280 Offset: 0xE2E880 VA: 0x180E30280
+	// RVA: 0xE30D30 Offset: 0xE2F330 VA: 0x180E30D30
 	internal static IContractResolver get_Instance() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
+	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0
 	public BindingFlags get_DefaultMembersSearchFlags() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FB00 Offset: 0x95E100 VA: 0x18095FB00
+	// RVA: 0x960000 Offset: 0x95E600 VA: 0x180960000
 	public void set_DefaultMembersSearchFlags(BindingFlags value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
+	// RVA: 0xB10B80 Offset: 0xB0F180 VA: 0x180B10B80
 	public bool get_SerializeCompilerGeneratedMembers() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB106C0 Offset: 0xB0ECC0 VA: 0x180B106C0
+	// RVA: 0xB10B90 Offset: 0xB0F190 VA: 0x180B10B90
 	public bool get_IgnoreSerializableInterface() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB106D0 Offset: 0xB0ECD0 VA: 0x180B106D0
+	// RVA: 0xB10BA0 Offset: 0xB0F1A0 VA: 0x180B10BA0
 	public bool get_IgnoreSerializableAttribute() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE302E0 Offset: 0xE2E8E0 VA: 0x180E302E0
+	// RVA: 0xE30D90 Offset: 0xE2F390 VA: 0x180E30D90
 	public void set_IgnoreSerializableAttribute(bool value) { }
 
-	// RVA: 0xE30210 Offset: 0xE2E810 VA: 0x180E30210
+	// RVA: 0xE30CC0 Offset: 0xE2F2C0 VA: 0x180E30CC0
 	public void .ctor() { }
 
 	[ObsoleteAttribute] // RVA: 0x7F530 Offset: 0x7E930 VA: 0x18007F530
-	// RVA: 0xE30180 Offset: 0xE2E780 VA: 0x180E30180
+	// RVA: 0xE30C30 Offset: 0xE2F230 VA: 0x180E30C30
 	public void .ctor(bool shareCache) { }
 
-	// RVA: 0xE2DB40 Offset: 0xE2C140 VA: 0x180E2DB40
+	// RVA: 0xE2E5F0 Offset: 0xE2CBF0 VA: 0x180E2E5F0
 	internal DefaultContractResolverState GetState() { }
 
-	// RVA: 0xE2EB00 Offset: 0xE2D100 VA: 0x180E2EB00 Slot: 5
+	// RVA: 0xE2F5B0 Offset: 0xE2DBB0 VA: 0x180E2F5B0 Slot: 5
 	public virtual JsonContract ResolveContract(Type type) { }
 
-	// RVA: 0xE2D460 Offset: 0xE2BA60 VA: 0x180E2D460 Slot: 6
+	// RVA: 0xE2DF10 Offset: 0xE2C510 VA: 0x180E2DF10 Slot: 6
 	protected virtual List<MemberInfo> GetSerializableMembers(Type objectType) { }
 
-	// RVA: 0xE2FDA0 Offset: 0xE2E3A0 VA: 0x180E2FDA0
+	// RVA: 0xE30850 Offset: 0xE2EE50 VA: 0x180E30850
 	private bool ShouldSerializeEntityMember(MemberInfo memberInfo) { }
 
-	// RVA: 0xE2B390 Offset: 0xE29990 VA: 0x180E2B390 Slot: 7
+	// RVA: 0xE2BE40 Offset: 0xE2A440 VA: 0x180E2BE40 Slot: 7
 	protected virtual JsonObjectContract CreateObjectContract(Type objectType) { }
 
-	// RVA: 0xE2D1D0 Offset: 0xE2B7D0 VA: 0x180E2D1D0
+	// RVA: 0xE2DC80 Offset: 0xE2C280 VA: 0x180E2DC80
 	private MemberInfo GetExtensionDataMemberForType(Type type) { }
 
-	// RVA: 0xE2ED50 Offset: 0xE2D350 VA: 0x180E2ED50
+	// RVA: 0xE2F800 Offset: 0xE2DE00 VA: 0x180E2F800
 	private static void SetExtensionDataDelegates(JsonObjectContract contract, MemberInfo member) { }
 
-	// RVA: 0xE2C370 Offset: 0xE2A970 VA: 0x180E2C370
+	// RVA: 0xE2CE20 Offset: 0xE2B420 VA: 0x180E2CE20
 	private ConstructorInfo GetAttributeConstructor(Type objectType) { }
 
-	// RVA: 0xE2D3A0 Offset: 0xE2B9A0 VA: 0x180E2D3A0
+	// RVA: 0xE2DE50 Offset: 0xE2C450 VA: 0x180E2DE50
 	private ConstructorInfo GetParameterizedConstructor(Type objectType) { }
 
-	// RVA: 0xE2A4C0 Offset: 0xE28AC0 VA: 0x180E2A4C0 Slot: 8
+	// RVA: 0xE2AF70 Offset: 0xE29570 VA: 0x180E2AF70 Slot: 8
 	protected virtual IList<JsonProperty> CreateConstructorParameters(ConstructorInfo constructor, JsonPropertyCollection memberProperties) { }
 
-	// RVA: 0xE2BC10 Offset: 0xE2A210 VA: 0x180E2BC10 Slot: 9
+	// RVA: 0xE2C6C0 Offset: 0xE2ACC0 VA: 0x180E2C6C0 Slot: 9
 	protected virtual JsonProperty CreatePropertyFromConstructorParameter(JsonProperty matchingMemberProperty, ParameterInfo parameterInfo) { }
 
-	// RVA: 0xE2EAA0 Offset: 0xE2D0A0 VA: 0x180E2EAA0 Slot: 10
+	// RVA: 0xE2F550 Offset: 0xE2DB50 VA: 0x180E2F550 Slot: 10
 	protected virtual JsonConverter ResolveContractConverter(Type objectType) { }
 
-	// RVA: 0xE2D130 Offset: 0xE2B730 VA: 0x180E2D130
+	// RVA: 0xE2DBE0 Offset: 0xE2C1E0 VA: 0x180E2DBE0
 	private Func<object> GetDefaultCreator(Type createdType) { }
 
-	// RVA: 0xE2DBB0 Offset: 0xE2C1B0 VA: 0x180E2DBB0
+	// RVA: 0xE2E660 Offset: 0xE2CC60 VA: 0x180E2E660
 	private void InitializeContract(JsonContract contract) { }
 
-	// RVA: 0xE2E910 Offset: 0xE2CF10 VA: 0x180E2E910
+	// RVA: 0xE2F3C0 Offset: 0xE2D9C0 VA: 0x180E2F3C0
 	private void ResolveCallbackMethods(JsonContract contract, Type t) { }
 
-	// RVA: 0xE2C770 Offset: 0xE2AD70 VA: 0x180E2C770
+	// RVA: 0xE2D220 Offset: 0xE2B820 VA: 0x180E2D220
 	private void GetCallbackMethodsForType(Type type, out List<SerializationCallback> onSerializing, out List<SerializationCallback> onSerialized, out List<SerializationCallback> onDeserializing, out List<SerializationCallback> onDeserialized, out List<SerializationErrorCallback> onError) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
@@ -113,73 +113,73 @@ public class DefaultContractResolver : IContractResolver // TypeDefIndex: 5991
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	private static bool ShouldSkipSerializing(Type t) { }
 
-	// RVA: 0xE2CE80 Offset: 0xE2B480 VA: 0x180E2CE80
+	// RVA: 0xE2D930 Offset: 0xE2BF30 VA: 0x180E2D930
 	private List<Type> GetClassHierarchyForType(Type type) { }
 
-	// RVA: 0xE2AC20 Offset: 0xE29220 VA: 0x180E2AC20 Slot: 11
+	// RVA: 0xE2B6D0 Offset: 0xE29CD0 VA: 0x180E2B6D0 Slot: 11
 	protected virtual JsonDictionaryContract CreateDictionaryContract(Type objectType) { }
 
-	// RVA: 0xE2A1B0 Offset: 0xE287B0 VA: 0x180E2A1B0 Slot: 12
+	// RVA: 0xE2AC60 Offset: 0xE29260 VA: 0x180E2AC60 Slot: 12
 	protected virtual JsonArrayContract CreateArrayContract(Type objectType) { }
 
-	// RVA: 0xE2B820 Offset: 0xE29E20 VA: 0x180E2B820 Slot: 13
+	// RVA: 0xE2C2D0 Offset: 0xE2A8D0 VA: 0x180E2C2D0 Slot: 13
 	protected virtual JsonPrimitiveContract CreatePrimitiveContract(Type objectType) { }
 
-	// RVA: 0xE2B2C0 Offset: 0xE298C0 VA: 0x180E2B2C0 Slot: 14
+	// RVA: 0xE2BD70 Offset: 0xE2A370 VA: 0x180E2BD70 Slot: 14
 	protected virtual JsonLinqContract CreateLinqContract(Type objectType) { }
 
-	// RVA: 0xE2B0A0 Offset: 0xE296A0 VA: 0x180E2B0A0 Slot: 15
+	// RVA: 0xE2BB50 Offset: 0xE2A150 VA: 0x180E2BB50 Slot: 15
 	protected virtual JsonISerializableContract CreateISerializableContract(Type objectType) { }
 
-	// RVA: 0xE2C300 Offset: 0xE2A900 VA: 0x180E2C300 Slot: 16
+	// RVA: 0xE2CDB0 Offset: 0xE2B3B0 VA: 0x180E2CDB0 Slot: 16
 	protected virtual JsonStringContract CreateStringContract(Type objectType) { }
 
-	// RVA: 0xE2A690 Offset: 0xE28C90 VA: 0x180E2A690 Slot: 17
+	// RVA: 0xE2B140 Offset: 0xE29740 VA: 0x180E2B140 Slot: 17
 	protected virtual JsonContract CreateContract(Type objectType) { }
 
-	// RVA: 0xE2E120 Offset: 0xE2C720 VA: 0x180E2E120
+	// RVA: 0xE2EBD0 Offset: 0xE2D1D0 VA: 0x180E2EBD0
 	internal static bool IsJsonPrimitiveType(Type t) { }
 
-	// RVA: 0xE2DFA0 Offset: 0xE2C5A0 VA: 0x180E2DFA0
+	// RVA: 0xE2EA50 Offset: 0xE2D050 VA: 0x180E2EA50
 	internal static bool IsIConvertible(Type t) { }
 
-	// RVA: 0xE29F90 Offset: 0xE28590 VA: 0x180E29F90
+	// RVA: 0xE2AA40 Offset: 0xE29040 VA: 0x180E2AA40
 	internal static bool CanConvertToString(Type type) { }
 
-	// RVA: 0xE2E190 Offset: 0xE2C790 VA: 0x180E2E190
+	// RVA: 0xE2EC40 Offset: 0xE2D240 VA: 0x180E2EC40
 	private static bool IsValidCallback(MethodInfo method, ParameterInfo[] parameters, Type attributeType, MethodInfo currentCallback, ref Type prevAttributeType) { }
 
-	// RVA: 0xE2CF60 Offset: 0xE2B560 VA: 0x180E2CF60
+	// RVA: 0xE2DA10 Offset: 0xE2C010 VA: 0x180E2DA10
 	internal static string GetClrTypeFullName(Type type) { }
 
-	// RVA: 0xE2B890 Offset: 0xE29E90 VA: 0x180E2B890 Slot: 18
+	// RVA: 0xE2C340 Offset: 0xE2A940 VA: 0x180E2C340 Slot: 18
 	protected virtual IList<JsonProperty> CreateProperties(Type type, MemberSerialization memberSerialization) { }
 
-	// RVA: 0xE2B330 Offset: 0xE29930 VA: 0x180E2B330 Slot: 19
+	// RVA: 0xE2BDE0 Offset: 0xE2A3E0 VA: 0x180E2BDE0 Slot: 19
 	protected virtual IValueProvider CreateMemberValueProvider(MemberInfo member) { }
 
-	// RVA: 0xE2BEE0 Offset: 0xE2A4E0 VA: 0x180E2BEE0 Slot: 20
+	// RVA: 0xE2C990 Offset: 0xE2AF90 VA: 0x180E2C990 Slot: 20
 	protected virtual JsonProperty CreateProperty(MemberInfo member, MemberSerialization memberSerialization) { }
 
-	// RVA: 0xE2F890 Offset: 0xE2DE90 VA: 0x180E2F890
+	// RVA: 0xE30340 Offset: 0xE2E940 VA: 0x180E30340
 	private void SetPropertySettingsFromAttributes(JsonProperty property, object attributeProvider, string name, Type declaringType, MemberSerialization memberSerialization, out bool allowNonPublicAccess) { }
 
-	// RVA: 0xE2C100 Offset: 0xE2A700 VA: 0x180E2C100
+	// RVA: 0xE2CBB0 Offset: 0xE2B1B0 VA: 0x180E2CBB0
 	private Predicate<object> CreateShouldSerializeTest(MemberInfo member) { }
 
-	// RVA: 0xE2F5D0 Offset: 0xE2DBD0 VA: 0x180E2F5D0
+	// RVA: 0xE30080 Offset: 0xE2E680 VA: 0x180E30080
 	private void SetIsSpecifiedActions(JsonProperty property, MemberInfo member, bool allowNonPublicAccess) { }
 
-	// RVA: 0x7B4F90 Offset: 0x7B3590 VA: 0x1807B4F90 Slot: 21
+	// RVA: 0x7D3380 Offset: 0x7D1980 VA: 0x1807D3380 Slot: 21
 	protected virtual string ResolvePropertyName(string propertyName) { }
 
-	// RVA: 0xE2D440 Offset: 0xE2BA40 VA: 0x180E2D440 Slot: 22
+	// RVA: 0xE2DEF0 Offset: 0xE2C4F0 VA: 0x180E2DEF0 Slot: 22
 	protected virtual string ResolveDictionaryKey(string dictionaryKey) { }
 
-	// RVA: 0xE2D440 Offset: 0xE2BA40 VA: 0x180E2D440
+	// RVA: 0xE2DEF0 Offset: 0xE2C4F0 VA: 0x180E2DEF0
 	public string GetResolvedPropertyName(string propertyName) { }
 
-	// RVA: 0xE2FEB0 Offset: 0xE2E4B0 VA: 0x180E2FEB0
+	// RVA: 0xE30960 Offset: 0xE2EF60 VA: 0x180E30960
 	private static void .cctor() { }
 
 }
@@ -205,28 +205,28 @@ private sealed class DefaultContractResolver.<>c // TypeDefIndex: 5994
 
 	// Methods
 
-	// RVA: 0x14094D0 Offset: 0x1407AD0 VA: 0x1814094D0
+	// RVA: 0x14085B0 Offset: 0x1406BB0 VA: 0x1814085B0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1408C80 Offset: 0x1407280 VA: 0x181408C80
+	// RVA: 0x1407D60 Offset: 0x1406360 VA: 0x181407D60
 	internal bool <GetSerializableMembers>b__30_0(MemberInfo m) { }
 
-	// RVA: 0x1408CE0 Offset: 0x14072E0 VA: 0x181408CE0
+	// RVA: 0x1407DC0 Offset: 0x14063C0 VA: 0x181407DC0
 	internal bool <GetSerializableMembers>b__30_1(MemberInfo m) { }
 
-	// RVA: 0x1408770 Offset: 0x1406D70 VA: 0x181408770
+	// RVA: 0x1407850 Offset: 0x1405E50 VA: 0x181407850
 	internal IEnumerable<MemberInfo> <GetExtensionDataMemberForType>b__33_0(Type baseType) { }
 
-	// RVA: 0x1408830 Offset: 0x1406E30 VA: 0x181408830
+	// RVA: 0x1407910 Offset: 0x1405F10 VA: 0x181407910
 	internal bool <GetExtensionDataMemberForType>b__33_1(MemberInfo m) { }
 
-	// RVA: 0x14086E0 Offset: 0x1406CE0 VA: 0x1814086E0
+	// RVA: 0x14077C0 Offset: 0x1405DC0 VA: 0x1814077C0
 	internal bool <GetAttributeConstructor>b__36_0(ConstructorInfo c) { }
 
-	// RVA: 0x1408690 Offset: 0x1406C90 VA: 0x181408690
+	// RVA: 0x1407770 Offset: 0x1405D70 VA: 0x181407770
 	internal int <CreateProperties>b__60_0(JsonProperty p) { }
 
 }
@@ -255,7 +255,7 @@ private sealed class DefaultContractResolver.<>c__DisplayClass34_1 // TypeDefInd
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1408D40 Offset: 0x1407340 VA: 0x181408D40
+	// RVA: 0x1407E20 Offset: 0x1406420 VA: 0x181407E20
 	internal void <SetExtensionDataDelegates>b__0(object o, string key, object value) { }
 
 }
@@ -270,7 +270,7 @@ private sealed class DefaultContractResolver.<>c__DisplayClass34_2 // TypeDefInd
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1408FA0 Offset: 0x14075A0 VA: 0x181408FA0
+	// RVA: 0x1408080 Offset: 0x1406680 VA: 0x181408080
 	internal IEnumerable<KeyValuePair<object, object>> <SetExtensionDataDelegates>b__1(object o) { }
 
 }
@@ -284,7 +284,7 @@ private sealed class DefaultContractResolver.<>c__DisplayClass64_0 // TypeDefInd
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x14090F0 Offset: 0x14076F0 VA: 0x1814090F0
+	// RVA: 0x14081D0 Offset: 0x14067D0 VA: 0x1814081D0
 	internal bool <CreateShouldSerializeTest>b__0(object o) { }
 
 }
@@ -298,7 +298,7 @@ private sealed class DefaultContractResolver.<>c__DisplayClass65_0 // TypeDefInd
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1409190 Offset: 0x1407790 VA: 0x181409190
+	// RVA: 0x1408270 Offset: 0x1406870 VA: 0x181408270
 	internal bool <SetIsSpecifiedActions>b__0(object o) { }
 
 }

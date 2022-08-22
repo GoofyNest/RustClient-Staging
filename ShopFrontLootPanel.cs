@@ -13,19 +13,19 @@ public class ShopFrontLootPanel : LootPanel // TypeDefIndex: 8673
 
 	// Methods
 
-	// RVA: 0x595310 Offset: 0x593910 VA: 0x180595310
+	// RVA: 0x5952A0 Offset: 0x5938A0 VA: 0x1805952A0
 	public ShopFront GetShopfront() { }
 
-	// RVA: 0x5953A0 Offset: 0x5939A0 VA: 0x1805953A0 Slot: 5
+	// RVA: 0x595330 Offset: 0x593930 VA: 0x180595330 Slot: 5
 	public override void Update() { }
 
-	// RVA: 0x5951F0 Offset: 0x5937F0 VA: 0x1805951F0
+	// RVA: 0x595180 Offset: 0x593780 VA: 0x180595180
 	public void AcceptClicked() { }
 
-	// RVA: 0x595280 Offset: 0x593880 VA: 0x180595280
+	// RVA: 0x595210 Offset: 0x593810 VA: 0x180595210
 	public void CancelClicked() { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

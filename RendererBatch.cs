@@ -25,7 +25,7 @@ public class RendererBatch : MonoBehaviour, IClientComponent // TypeDefIndex: 99
 	public Transform get_BatchTransform() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_BatchTransform(Transform value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -37,35 +37,35 @@ public class RendererBatch : MonoBehaviour, IClientComponent // TypeDefIndex: 99
 	public void set_BatchRenderer(MeshRenderer value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public MeshFilter get_BatchFilter() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	public void set_BatchFilter(MeshFilter value) { }
 
-	// RVA: 0x94D970 Offset: 0x94BF70 VA: 0x18094D970
+	// RVA: 0x94DE80 Offset: 0x94C480 VA: 0x18094DE80
 	protected void OnEnable() { }
 
-	// RVA: 0x94D900 Offset: 0x94BF00 VA: 0x18094D900
+	// RVA: 0x94DE10 Offset: 0x94C410 VA: 0x18094DE10
 	protected void OnDisable() { }
 
-	// RVA: 0x94D340 Offset: 0x94B940 VA: 0x18094D340
+	// RVA: 0x94D850 Offset: 0x94BE50 VA: 0x18094D850
 	public void Add() { }
 
-	// RVA: 0x94DA40 Offset: 0x94C040 VA: 0x18094DA40
+	// RVA: 0x94DF50 Offset: 0x94C550 VA: 0x18094DF50
 	public void Remove() { }
 
-	// RVA: 0x94DA20 Offset: 0x94C020 VA: 0x18094DA20
+	// RVA: 0x94DF30 Offset: 0x94C530 VA: 0x18094DF30
 	public void Refresh() { }
 
-	// RVA: 0x94D1D0 Offset: 0x94B7D0 VA: 0x18094D1D0
+	// RVA: 0x94D6E0 Offset: 0x94BCE0 VA: 0x18094D6E0
 	public void AddBatch(RendererGroup batchGroup) { }
 
-	// RVA: 0x94DB90 Offset: 0x94C190 VA: 0x18094DB90
+	// RVA: 0x94E0A0 Offset: 0x94C6A0 VA: 0x18094E0A0
 	public void WorkshopMode() { }
 
-	// RVA: 0x94DB70 Offset: 0x94C170 VA: 0x18094DB70
+	// RVA: 0x94E080 Offset: 0x94C680 VA: 0x18094E080
 	public void Toggle(bool state) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

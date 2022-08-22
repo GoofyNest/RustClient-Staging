@@ -14,127 +14,127 @@ internal sealed class RegexInterpreter : RegexRunner // TypeDefIndex: 2619
 
 	// Methods
 
-	// RVA: 0x16AEF80 Offset: 0x16AD580 VA: 0x1816AEF80
+	// RVA: 0x16ACB70 Offset: 0x16AB170 VA: 0x1816ACB70
 	internal void .ctor(RegexCode code, CultureInfo culture) { }
 
-	// RVA: 0x16AE580 Offset: 0x16ACB80 VA: 0x1816AE580 Slot: 6
+	// RVA: 0x16AC170 Offset: 0x16AA770 VA: 0x1816AC170 Slot: 6
 	protected override void InitTrackCount() { }
 
-	// RVA: 0x16AB5A0 Offset: 0x16A9BA0 VA: 0x1816AB5A0
+	// RVA: 0x16A9190 Offset: 0x16A7790 VA: 0x1816A9190
 	private void Advance() { }
 
-	// RVA: 0x16AB520 Offset: 0x16A9B20 VA: 0x1816AB520
+	// RVA: 0x16A9110 Offset: 0x16A7710 VA: 0x1816A9110
 	private void Advance(int i) { }
 
-	// RVA: 0x16AE4F0 Offset: 0x16ACAF0 VA: 0x1816AE4F0
+	// RVA: 0x16AC0E0 Offset: 0x16AA6E0 VA: 0x1816AC0E0
 	private void Goto(int newpos) { }
 
-	// RVA: 0x7D0D60 Offset: 0x7CF360 VA: 0x1807D0D60
+	// RVA: 0x79C680 Offset: 0x79AC80 VA: 0x18079C680
 	private void Textto(int newpos) { }
 
-	// RVA: 0x16AEF60 Offset: 0x16AD560 VA: 0x1816AEF60
+	// RVA: 0x16ACB50 Offset: 0x16AB150 VA: 0x1816ACB50
 	private void Trackto(int newpos) { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	private int Textstart() { }
 
-	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
+	// RVA: 0x4BE590 Offset: 0x4BCB90 VA: 0x1804BE590
 	private int Textpos() { }
 
-	// RVA: 0x16AEF40 Offset: 0x16AD540 VA: 0x1816AEF40
+	// RVA: 0x16ACB30 Offset: 0x16AB130 VA: 0x1816ACB30
 	private int Trackpos() { }
 
-	// RVA: 0x16AED80 Offset: 0x16AD380 VA: 0x1816AED80
+	// RVA: 0x16AC970 Offset: 0x16AAF70 VA: 0x1816AC970
 	private void TrackPush() { }
 
-	// RVA: 0x16AEDD0 Offset: 0x16AD3D0 VA: 0x1816AEDD0
+	// RVA: 0x16AC9C0 Offset: 0x16AAFC0 VA: 0x1816AC9C0
 	private void TrackPush(int I1) { }
 
-	// RVA: 0x16AECD0 Offset: 0x16AD2D0 VA: 0x1816AECD0
+	// RVA: 0x16AC8C0 Offset: 0x16AAEC0 VA: 0x1816AC8C0
 	private void TrackPush(int I1, int I2) { }
 
-	// RVA: 0x16AEE50 Offset: 0x16AD450 VA: 0x1816AEE50
+	// RVA: 0x16ACA40 Offset: 0x16AB040 VA: 0x1816ACA40
 	private void TrackPush(int I1, int I2, int I3) { }
 
-	// RVA: 0x16AEB90 Offset: 0x16AD190 VA: 0x1816AEB90
+	// RVA: 0x16AC780 Offset: 0x16AAD80 VA: 0x1816AC780
 	private void TrackPush2(int I1) { }
 
-	// RVA: 0x16AEC10 Offset: 0x16AD210 VA: 0x1816AEC10
+	// RVA: 0x16AC800 Offset: 0x16AAE00 VA: 0x1816AC800
 	private void TrackPush2(int I1, int I2) { }
 
-	// RVA: 0x16AB5B0 Offset: 0x16A9BB0 VA: 0x1816AB5B0
+	// RVA: 0x16A91A0 Offset: 0x16A77A0 VA: 0x1816A91A0
 	private void Backtrack() { }
 
-	// RVA: 0x16AE7C0 Offset: 0x16ACDC0 VA: 0x1816AE7C0
+	// RVA: 0x16AC3B0 Offset: 0x16AA9B0 VA: 0x1816AC3B0
 	private void SetOperator(int op) { }
 
-	// RVA: 0x16AEB80 Offset: 0x16AD180 VA: 0x1816AEB80
+	// RVA: 0x16AC770 Offset: 0x16AAD70 VA: 0x1816AC770
 	private void TrackPop() { }
 
-	// RVA: 0x16AEB70 Offset: 0x16AD170 VA: 0x1816AEB70
+	// RVA: 0x16AC760 Offset: 0x16AAD60 VA: 0x1816AC760
 	private void TrackPop(int framesize) { }
 
-	// RVA: 0x16AEAF0 Offset: 0x16AD0F0 VA: 0x1816AEAF0
+	// RVA: 0x16AC6E0 Offset: 0x16AACE0 VA: 0x1816AC6E0
 	private int TrackPeek() { }
 
-	// RVA: 0x16AEB30 Offset: 0x16AD130 VA: 0x1816AEB30
+	// RVA: 0x16AC720 Offset: 0x16AAD20 VA: 0x1816AC720
 	private int TrackPeek(int i) { }
 
-	// RVA: 0x16AE910 Offset: 0x16ACF10 VA: 0x1816AE910
+	// RVA: 0x16AC500 Offset: 0x16AAB00 VA: 0x1816AC500
 	private void StackPush(int I1) { }
 
-	// RVA: 0x16AE890 Offset: 0x16ACE90 VA: 0x1816AE890
+	// RVA: 0x16AC480 Offset: 0x16AAA80 VA: 0x1816AC480
 	private void StackPush(int I1, int I2) { }
 
-	// RVA: 0x16AE880 Offset: 0x16ACE80 VA: 0x1816AE880
+	// RVA: 0x16AC470 Offset: 0x16AAA70 VA: 0x1816AC470
 	private void StackPop() { }
 
-	// RVA: 0x16AE870 Offset: 0x16ACE70 VA: 0x1816AE870
+	// RVA: 0x16AC460 Offset: 0x16AAA60 VA: 0x1816AC460
 	private void StackPop(int framesize) { }
 
-	// RVA: 0x16AE7F0 Offset: 0x16ACDF0 VA: 0x1816AE7F0
+	// RVA: 0x16AC3E0 Offset: 0x16AA9E0 VA: 0x1816AC3E0
 	private int StackPeek() { }
 
-	// RVA: 0x16AE830 Offset: 0x16ACE30 VA: 0x1816AE830
+	// RVA: 0x16AC420 Offset: 0x16AAA20 VA: 0x1816AC420
 	private int StackPeek(int i) { }
 
-	// RVA: 0x582940 Offset: 0x580F40 VA: 0x180582940
+	// RVA: 0x5828D0 Offset: 0x580ED0 VA: 0x1805828D0
 	private int Operator() { }
 
-	// RVA: 0x16AE5C0 Offset: 0x16ACBC0 VA: 0x1816AE5C0
+	// RVA: 0x16AC1B0 Offset: 0x16AA7B0 VA: 0x1816AC1B0
 	private int Operand(int i) { }
 
-	// RVA: 0x16AE5B0 Offset: 0x16ACBB0 VA: 0x1816AE5B0
+	// RVA: 0x16AC1A0 Offset: 0x16AA7A0 VA: 0x1816AC1A0
 	private int Leftchars() { }
 
-	// RVA: 0x16AE7B0 Offset: 0x16ACDB0 VA: 0x1816AE7B0
+	// RVA: 0x16AC3A0 Offset: 0x16AA9A0 VA: 0x1816AC3A0
 	private int Rightchars() { }
 
-	// RVA: 0x16AB6C0 Offset: 0x16A9CC0 VA: 0x1816AB6C0
+	// RVA: 0x16A92B0 Offset: 0x16A78B0 VA: 0x1816A92B0
 	private int Bump() { }
 
-	// RVA: 0x16ABBE0 Offset: 0x16AA1E0 VA: 0x1816ABBE0
+	// RVA: 0x16A97D0 Offset: 0x16A7DD0 VA: 0x1816A97D0
 	private int Forwardchars() { }
 
-	// RVA: 0x16ABB30 Offset: 0x16AA130 VA: 0x1816ABB30
+	// RVA: 0x16A9720 Offset: 0x16A7D20 VA: 0x1816A9720
 	private char Forwardcharnext() { }
 
-	// RVA: 0x16AE960 Offset: 0x16ACF60 VA: 0x1816AE960
+	// RVA: 0x16AC550 Offset: 0x16AAB50 VA: 0x1816AC550
 	private bool Stringmatch(string str) { }
 
-	// RVA: 0x16AE610 Offset: 0x16ACC10 VA: 0x1816AE610
+	// RVA: 0x16AC200 Offset: 0x16AA800 VA: 0x1816AC200
 	private bool Refmatch(int index, int len) { }
 
-	// RVA: 0x16AB6A0 Offset: 0x16A9CA0 VA: 0x1816AB6A0
+	// RVA: 0x16A9290 Offset: 0x16A7890 VA: 0x1816A9290
 	private void Backwardnext() { }
 
-	// RVA: 0x16AB6E0 Offset: 0x16A9CE0 VA: 0x1816AB6E0
+	// RVA: 0x16A92D0 Offset: 0x16A78D0 VA: 0x1816A92D0
 	private char CharAt(int j) { }
 
-	// RVA: 0x16AB700 Offset: 0x16A9D00 VA: 0x1816AB700 Slot: 5
+	// RVA: 0x16A92F0 Offset: 0x16A78F0 VA: 0x1816A92F0 Slot: 5
 	protected override bool FindFirstChar() { }
 
-	// RVA: 0x16ABC00 Offset: 0x16AA200 VA: 0x1816ABC00 Slot: 4
+	// RVA: 0x16A97F0 Offset: 0x16A7DF0 VA: 0x1816A97F0 Slot: 4
 	protected override void Go() { }
 
 }

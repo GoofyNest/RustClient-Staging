@@ -11,82 +11,82 @@ public class AIDesign : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6540
 
 	// Methods
 
-	// RVA: 0x200B1F0 Offset: 0x20097F0 VA: 0x18200B1F0
+	// RVA: 0x200BA10 Offset: 0x200A010 VA: 0x18200BA10
 	public static void ResetToPool(AIDesign instance) { }
 
-	// RVA: 0x200B480 Offset: 0x2009A80 VA: 0x18200B480
+	// RVA: 0x200BCA0 Offset: 0x200A2A0 VA: 0x18200BCA0
 	public void ResetToPool() { }
 
-	// RVA: 0x200B130 Offset: 0x2009730 VA: 0x18200B130 Slot: 9
+	// RVA: 0x200B950 Offset: 0x2009F50 VA: 0x18200B950 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2009E40 Offset: 0x2008440 VA: 0x182009E40
+	// RVA: 0x200A660 Offset: 0x2008C60 VA: 0x18200A660
 	public void CopyTo(AIDesign instance) { }
 
-	// RVA: 0x200A070 Offset: 0x2008670 VA: 0x18200A070
+	// RVA: 0x200A890 Offset: 0x2008E90 VA: 0x18200A890
 	public AIDesign Copy() { }
 
-	// RVA: 0x200AAE0 Offset: 0x20090E0 VA: 0x18200AAE0
+	// RVA: 0x200B300 Offset: 0x2009900 VA: 0x18200B300
 	public static AIDesign Deserialize(Stream stream) { }
 
-	// RVA: 0x200A0F0 Offset: 0x20086F0 VA: 0x18200A0F0
+	// RVA: 0x200A910 Offset: 0x2008F10 VA: 0x18200A910
 	public static AIDesign DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x200AA50 Offset: 0x2009050 VA: 0x18200AA50
+	// RVA: 0x200B270 Offset: 0x2009870 VA: 0x18200B270
 	public static AIDesign DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x200AC60 Offset: 0x2009260 VA: 0x18200AC60
+	// RVA: 0x200B480 Offset: 0x2009A80 VA: 0x18200B480
 	public static AIDesign Deserialize(byte[] buffer) { }
 
-	// RVA: 0x200B1B0 Offset: 0x20097B0 VA: 0x18200B1B0
+	// RVA: 0x200B9D0 Offset: 0x2009FD0 VA: 0x18200B9D0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x200C080 Offset: 0x200A680 VA: 0x18200C080 Slot: 12
+	// RVA: 0x200C8A0 Offset: 0x200AEA0 VA: 0x18200C8A0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x200C0A0 Offset: 0x200A6A0 VA: 0x18200C0A0 Slot: 13
+	// RVA: 0x200C8C0 Offset: 0x200AEC0 VA: 0x18200C8C0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AIDesign previous) { }
 
-	// RVA: 0x200B1D0 Offset: 0x20097D0 VA: 0x18200B1D0 Slot: 14
+	// RVA: 0x200B9F0 Offset: 0x2009FF0 VA: 0x18200B9F0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x200AB60 Offset: 0x2009160 VA: 0x18200AB60
+	// RVA: 0x200B380 Offset: 0x2009980 VA: 0x18200B380
 	public static AIDesign Deserialize(byte[] buffer, AIDesign instance, bool isDelta = False) { }
 
-	// RVA: 0x200AD80 Offset: 0x2009380 VA: 0x18200AD80
+	// RVA: 0x200B5A0 Offset: 0x2009BA0 VA: 0x18200B5A0
 	public static AIDesign Deserialize(Stream stream, AIDesign instance, bool isDelta) { }
 
-	// RVA: 0x200A170 Offset: 0x2008770 VA: 0x18200A170
+	// RVA: 0x200A990 Offset: 0x2008F90 VA: 0x18200A990
 	public static AIDesign DeserializeLengthDelimited(Stream stream, AIDesign instance, bool isDelta) { }
 
-	// RVA: 0x200A5F0 Offset: 0x2008BF0 VA: 0x18200A5F0
+	// RVA: 0x200AE10 Offset: 0x2009410 VA: 0x18200AE10
 	public static AIDesign DeserializeLength(Stream stream, int length, AIDesign instance, bool isDelta) { }
 
-	// RVA: 0x200B710 Offset: 0x2009D10 VA: 0x18200B710
+	// RVA: 0x200BF30 Offset: 0x200A530 VA: 0x18200BF30
 	public static void SerializeDelta(Stream stream, AIDesign instance, AIDesign previous) { }
 
-	// RVA: 0x200BCE0 Offset: 0x200A2E0 VA: 0x18200BCE0
+	// RVA: 0x200C500 Offset: 0x200AB00 VA: 0x18200C500
 	public static void Serialize(Stream stream, AIDesign instance) { }
 
-	// RVA: 0x200C070 Offset: 0x200A670 VA: 0x18200C070
+	// RVA: 0x200C890 Offset: 0x200AE90 VA: 0x18200C890
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x200C080 Offset: 0x200A680 VA: 0x18200C080
+	// RVA: 0x200C8A0 Offset: 0x200AEA0 VA: 0x18200C8A0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x200BBD0 Offset: 0x200A1D0 VA: 0x18200BBD0
+	// RVA: 0x200C3F0 Offset: 0x200A9F0 VA: 0x18200C3F0
 	public static byte[] SerializeToBytes(AIDesign instance) { }
 
-	// RVA: 0x200BB20 Offset: 0x200A120 VA: 0x18200BB20
+	// RVA: 0x200C340 Offset: 0x200A940 VA: 0x18200C340
 	public static void SerializeLengthDelimited(Stream stream, AIDesign instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -102,82 +102,82 @@ public class AIStateContainer : IDisposable, Pool.IPooled, IProto // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x2011F00 Offset: 0x2010500 VA: 0x182011F00
+	// RVA: 0x2012720 Offset: 0x2010D20 VA: 0x182012720
 	public static void ResetToPool(AIStateContainer instance) { }
 
-	// RVA: 0x2011D10 Offset: 0x2010310 VA: 0x182011D10
+	// RVA: 0x2012530 Offset: 0x2010B30 VA: 0x182012530
 	public void ResetToPool() { }
 
-	// RVA: 0x2011C50 Offset: 0x2010250 VA: 0x182011C50 Slot: 9
+	// RVA: 0x2012470 Offset: 0x2010A70 VA: 0x182012470 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x2010670 Offset: 0x200EC70 VA: 0x182010670
+	// RVA: 0x2010E90 Offset: 0x200F490 VA: 0x182010E90
 	public void CopyTo(AIStateContainer instance) { }
 
-	// RVA: 0x2010820 Offset: 0x200EE20 VA: 0x182010820
+	// RVA: 0x2011040 Offset: 0x200F640 VA: 0x182011040
 	public AIStateContainer Copy() { }
 
-	// RVA: 0x2011230 Offset: 0x200F830 VA: 0x182011230
+	// RVA: 0x2011A50 Offset: 0x2010050 VA: 0x182011A50
 	public static AIStateContainer Deserialize(Stream stream) { }
 
-	// RVA: 0x2010A10 Offset: 0x200F010 VA: 0x182010A10
+	// RVA: 0x2011230 Offset: 0x200F830 VA: 0x182011230
 	public static AIStateContainer DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x2010E30 Offset: 0x200F430 VA: 0x182010E30
+	// RVA: 0x2011650 Offset: 0x200FC50 VA: 0x182011650
 	public static AIStateContainer DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x2011610 Offset: 0x200FC10 VA: 0x182011610
+	// RVA: 0x2011E30 Offset: 0x2010430 VA: 0x182011E30
 	public static AIStateContainer Deserialize(byte[] buffer) { }
 
-	// RVA: 0x2011CD0 Offset: 0x20102D0 VA: 0x182011CD0
+	// RVA: 0x20124F0 Offset: 0x2010AF0 VA: 0x1820124F0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2012860 Offset: 0x2010E60 VA: 0x182012860 Slot: 12
+	// RVA: 0x2013080 Offset: 0x2011680 VA: 0x182013080 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2012880 Offset: 0x2010E80 VA: 0x182012880 Slot: 13
+	// RVA: 0x20130A0 Offset: 0x20116A0 VA: 0x1820130A0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AIStateContainer previous) { }
 
-	// RVA: 0x2011CF0 Offset: 0x20102F0 VA: 0x182011CF0 Slot: 14
+	// RVA: 0x2012510 Offset: 0x2010B10 VA: 0x182012510 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x2011510 Offset: 0x200FB10 VA: 0x182011510
+	// RVA: 0x2011D30 Offset: 0x2010330 VA: 0x182011D30
 	public static AIStateContainer Deserialize(byte[] buffer, AIStateContainer instance, bool isDelta = False) { }
 
-	// RVA: 0x2011990 Offset: 0x200FF90 VA: 0x182011990
+	// RVA: 0x20121B0 Offset: 0x20107B0 VA: 0x1820121B0
 	public static AIStateContainer Deserialize(Stream stream, AIStateContainer instance, bool isDelta) { }
 
-	// RVA: 0x2010A90 Offset: 0x200F090 VA: 0x182010A90
+	// RVA: 0x20112B0 Offset: 0x200F8B0 VA: 0x1820112B0
 	public static AIStateContainer DeserializeLengthDelimited(Stream stream, AIStateContainer instance, bool isDelta) { }
 
-	// RVA: 0x2010EC0 Offset: 0x200F4C0 VA: 0x182010EC0
+	// RVA: 0x20116E0 Offset: 0x200FCE0 VA: 0x1820116E0
 	public static AIStateContainer DeserializeLength(Stream stream, int length, AIStateContainer instance, bool isDelta) { }
 
-	// RVA: 0x20120F0 Offset: 0x20106F0 VA: 0x1820120F0
+	// RVA: 0x2012910 Offset: 0x2010F10 VA: 0x182012910
 	public static void SerializeDelta(Stream stream, AIStateContainer instance, AIStateContainer previous) { }
 
-	// RVA: 0x20125B0 Offset: 0x2010BB0 VA: 0x1820125B0
+	// RVA: 0x2012DD0 Offset: 0x20113D0 VA: 0x182012DD0
 	public static void Serialize(Stream stream, AIStateContainer instance) { }
 
-	// RVA: 0x2012850 Offset: 0x2010E50 VA: 0x182012850
+	// RVA: 0x2013070 Offset: 0x2011670 VA: 0x182013070
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2012860 Offset: 0x2010E60 VA: 0x182012860
+	// RVA: 0x2013080 Offset: 0x2011680 VA: 0x182013080
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20124A0 Offset: 0x2010AA0 VA: 0x1820124A0
+	// RVA: 0x2012CC0 Offset: 0x20112C0 VA: 0x182012CC0
 	public static byte[] SerializeToBytes(AIStateContainer instance) { }
 
-	// RVA: 0x20123F0 Offset: 0x20109F0 VA: 0x1820123F0
+	// RVA: 0x2012C10 Offset: 0x2011210 VA: 0x182012C10
 	public static void SerializeLengthDelimited(Stream stream, AIStateContainer instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -208,82 +208,82 @@ public class AIEventData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 65
 
 	// Methods
 
-	// RVA: 0x200DFF0 Offset: 0x200C5F0 VA: 0x18200DFF0
+	// RVA: 0x200E810 Offset: 0x200CE10 VA: 0x18200E810
 	public static void ResetToPool(AIEventData instance) { }
 
-	// RVA: 0x200E3B0 Offset: 0x200C9B0 VA: 0x18200E3B0
+	// RVA: 0x200EBD0 Offset: 0x200D1D0 VA: 0x18200EBD0
 	public void ResetToPool() { }
 
-	// RVA: 0x200DF30 Offset: 0x200C530 VA: 0x18200DF30 Slot: 9
+	// RVA: 0x200E750 Offset: 0x200CD50 VA: 0x18200E750 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x200C0C0 Offset: 0x200A6C0 VA: 0x18200C0C0
+	// RVA: 0x200C8E0 Offset: 0x200AEE0 VA: 0x18200C8E0
 	public void CopyTo(AIEventData instance) { }
 
-	// RVA: 0x200C4E0 Offset: 0x200AAE0 VA: 0x18200C4E0
+	// RVA: 0x200CD00 Offset: 0x200B300 VA: 0x18200CD00
 	public AIEventData Copy() { }
 
-	// RVA: 0x200D5B0 Offset: 0x200BBB0 VA: 0x18200D5B0
+	// RVA: 0x200DDD0 Offset: 0x200C3D0 VA: 0x18200DDD0
 	public static AIEventData Deserialize(Stream stream) { }
 
-	// RVA: 0x200CD10 Offset: 0x200B310 VA: 0x18200CD10
+	// RVA: 0x200D530 Offset: 0x200BB30 VA: 0x18200D530
 	public static AIEventData DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x200D520 Offset: 0x200BB20 VA: 0x18200D520
+	// RVA: 0x200DD40 Offset: 0x200C340 VA: 0x18200DD40
 	public static AIEventData DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x200DD10 Offset: 0x200C310 VA: 0x18200DD10
+	// RVA: 0x200E530 Offset: 0x200CB30 VA: 0x18200E530
 	public static AIEventData Deserialize(byte[] buffer) { }
 
-	// RVA: 0x200DFB0 Offset: 0x200C5B0 VA: 0x18200DFB0
+	// RVA: 0x200E7D0 Offset: 0x200CDD0 VA: 0x18200E7D0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2010630 Offset: 0x200EC30 VA: 0x182010630 Slot: 12
+	// RVA: 0x2010E50 Offset: 0x200F450 VA: 0x182010E50 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2010650 Offset: 0x200EC50 VA: 0x182010650 Slot: 13
+	// RVA: 0x2010E70 Offset: 0x200F470 VA: 0x182010E70 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, AIEventData previous) { }
 
-	// RVA: 0x200DFD0 Offset: 0x200C5D0 VA: 0x18200DFD0 Slot: 14
+	// RVA: 0x200E7F0 Offset: 0x200CDF0 VA: 0x18200E7F0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x200DE30 Offset: 0x200C430 VA: 0x18200DE30
+	// RVA: 0x200E650 Offset: 0x200CC50 VA: 0x18200E650
 	public static AIEventData Deserialize(byte[] buffer, AIEventData instance, bool isDelta = False) { }
 
-	// RVA: 0x200D630 Offset: 0x200BC30 VA: 0x18200D630
+	// RVA: 0x200DE50 Offset: 0x200C450 VA: 0x18200DE50
 	public static AIEventData Deserialize(Stream stream, AIEventData instance, bool isDelta) { }
 
-	// RVA: 0x200C560 Offset: 0x200AB60 VA: 0x18200C560
+	// RVA: 0x200CD80 Offset: 0x200B380 VA: 0x18200CD80
 	public static AIEventData DeserializeLengthDelimited(Stream stream, AIEventData instance, bool isDelta) { }
 
-	// RVA: 0x200CD90 Offset: 0x200B390 VA: 0x18200CD90
+	// RVA: 0x200D5B0 Offset: 0x200BBB0 VA: 0x18200D5B0
 	public static AIEventData DeserializeLength(Stream stream, int length, AIEventData instance, bool isDelta) { }
 
-	// RVA: 0x200E770 Offset: 0x200CD70 VA: 0x18200E770
+	// RVA: 0x200EF90 Offset: 0x200D590 VA: 0x18200EF90
 	public static void SerializeDelta(Stream stream, AIEventData instance, AIEventData previous) { }
 
-	// RVA: 0x200F840 Offset: 0x200DE40 VA: 0x18200F840
+	// RVA: 0x2010060 Offset: 0x200E660 VA: 0x182010060
 	public static void Serialize(Stream stream, AIEventData instance) { }
 
-	// RVA: 0x2010620 Offset: 0x200EC20 VA: 0x182010620
+	// RVA: 0x2010E40 Offset: 0x200F440 VA: 0x182010E40
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2010630 Offset: 0x200EC30 VA: 0x182010630
+	// RVA: 0x2010E50 Offset: 0x200F450 VA: 0x182010E50
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x200F730 Offset: 0x200DD30 VA: 0x18200F730
+	// RVA: 0x200FF50 Offset: 0x200E550 VA: 0x18200FF50
 	public static byte[] SerializeToBytes(AIEventData instance) { }
 
-	// RVA: 0x200F680 Offset: 0x200DC80 VA: 0x18200F680
+	// RVA: 0x200FEA0 Offset: 0x200E4A0 VA: 0x18200FEA0
 	public static void SerializeLengthDelimited(Stream stream, AIEventData instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -299,28 +299,28 @@ public class NPCTalking : NPCShopKeeper, IConversationProvider // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x7C4A20 Offset: 0x7C3020 VA: 0x1807C4A20 Slot: 49
+	// RVA: 0x7E2E10 Offset: 0x7E1410 VA: 0x1807E2E10 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x7C5990 Offset: 0x7C3F90 VA: 0x1807C5990 Slot: 50
+	// RVA: 0x7E3D80 Offset: 0x7E2380 VA: 0x1807E3D80 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x7C4D50 Offset: 0x7C3350 VA: 0x1807C4D50 Slot: 35
+	// RVA: 0x7E3140 Offset: 0x7E1740 VA: 0x1807E3140 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x7C47F0 Offset: 0x7C2DF0 VA: 0x1807C47F0
+	// RVA: 0x7E2BE0 Offset: 0x7E11E0 VA: 0x1807E2BE0
 	public int GetConversationIndex(string conversationName) { }
 
-	// RVA: 0x7C48B0 Offset: 0x7C2EB0 VA: 0x1807C48B0 Slot: 158
+	// RVA: 0x7E2CA0 Offset: 0x7E12A0 VA: 0x1807E2CA0 Slot: 158
 	public virtual string GetConversationStartSpeech(BasePlayer player) { }
 
-	// RVA: 0x7C4960 Offset: 0x7C2F60 VA: 0x1807C4960
+	// RVA: 0x7E2D50 Offset: 0x7E1350 VA: 0x1807E2D50
 	public ConversationData GetConversation(string conversationName) { }
 
-	// RVA: 0x7C4920 Offset: 0x7C2F20 VA: 0x1807C4920
+	// RVA: 0x7E2D10 Offset: 0x7E1310 VA: 0x1807E2D10
 	public ConversationData GetConversation(int index) { }
 
-	// RVA: 0x7C47B0 Offset: 0x7C2DB0 VA: 0x1807C47B0 Slot: 159
+	// RVA: 0x7E2BA0 Offset: 0x7E11A0 VA: 0x1807E2BA0 Slot: 159
 	public virtual ConversationData GetConversationFor(BasePlayer player) { }
 
 	// RVA: 0x49BB60 Offset: 0x49A160 VA: 0x18049BB60 Slot: 157
@@ -330,37 +330,37 @@ public class NPCTalking : NPCShopKeeper, IConversationProvider // TypeDefIndex: 
 	[BaseEntity.Menu.Description] // RVA: 0x7BCB0 Offset: 0x7B0B0 VA: 0x18007BCB0
 	[BaseEntity.Menu.Icon] // RVA: 0x7BCB0 Offset: 0x7B0B0 VA: 0x18007BCB0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x7BCB0 Offset: 0x7B0B0 VA: 0x18007BCB0
-	// RVA: 0x7C4D00 Offset: 0x7C3300 VA: 0x1807C4D00
+	// RVA: 0x7E30F0 Offset: 0x7E16F0 VA: 0x1807E30F0
 	public void Menu_Talk(BasePlayer player) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0
 	public bool Menu_Talk_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x7C4710 Offset: 0x7C2D10 VA: 0x1807C4710 Slot: 155
+	// RVA: 0x7E2B00 Offset: 0x7E1100 VA: 0x1807E2B00 Slot: 155
 	public void DoAction(string action) { }
 
-	// RVA: 0x7C48E0 Offset: 0x7C2EE0 VA: 0x1807C48E0 Slot: 156
+	// RVA: 0x7E2CD0 Offset: 0x7E12D0 VA: 0x1807E2CD0 Slot: 156
 	public Vector3 GetConversationWorldOrigin() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7C4660 Offset: 0x7C2C60 VA: 0x1807C4660
+	// RVA: 0x7E2A50 Offset: 0x7E1050 VA: 0x1807E2A50
 	public void Client_StartConversation(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x7C4760 Offset: 0x7C2D60 VA: 0x1807C4760 Slot: 154
+	// RVA: 0x7E2B50 Offset: 0x7E1150 VA: 0x1807E2B50 Slot: 154
 	public void EndConversation(bool fromServer) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7C4590 Offset: 0x7C2B90 VA: 0x1807C4590
+	// RVA: 0x7E2980 Offset: 0x7E0F80 VA: 0x1807E2980
 	public void Client_ForceSpeechNode(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x7C58C0 Offset: 0x7C3EC0 VA: 0x1807C58C0 Slot: 153
+	// RVA: 0x7E3CB0 Offset: 0x7E22B0 VA: 0x1807E3CB0 Slot: 153
 	public void ResponsePressed(int index) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7C4580 Offset: 0x7C2B80 VA: 0x1807C4580
+	// RVA: 0x7E2970 Offset: 0x7E0F70 VA: 0x1807E2970
 	public void Client_EndConversation(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x7C41E0 Offset: 0x7C27E0 VA: 0x1807C41E0
+	// RVA: 0x7E25D0 Offset: 0x7E0BD0 VA: 0x1807E25D0
 	public void .ctor() { }
 
 }
@@ -385,7 +385,7 @@ public class NPCVendingOrder : ScriptableObject // TypeDefIndex: 8722
 
 	// Methods
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -405,7 +405,7 @@ public class NPCVendingOrder.Entry // TypeDefIndex: 8723
 
 	// Methods
 
-	// RVA: 0x7B5810 Offset: 0x7B3E10 VA: 0x1807B5810
+	// RVA: 0x7D3C00 Offset: 0x7D2200 VA: 0x1807D3C00
 	public void .ctor() { }
 
 }
@@ -416,13 +416,13 @@ public class NPCVendingOrderManifest : ScriptableObject // TypeDefIndex: 8724
 
 	// Methods
 
-	// RVA: 0x7C5AC0 Offset: 0x7C40C0 VA: 0x1807C5AC0
+	// RVA: 0x7E3EB0 Offset: 0x7E24B0 VA: 0x1807E3EB0
 	public int GetIndex(NPCVendingOrder sample) { }
 
-	// RVA: 0x7C5A80 Offset: 0x7C4080 VA: 0x1807C5A80
+	// RVA: 0x7E3E70 Offset: 0x7E2470 VA: 0x1807E3E70
 	public NPCVendingOrder GetFromIndex(int index) { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -445,7 +445,7 @@ public class NPCVendingMachine : VendingMachine // TypeDefIndex: 8725
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 159
 	public override bool CanPlayerAdmin(BasePlayer player) { }
 
-	// RVA: 0x7C5A20 Offset: 0x7C4020 VA: 0x1807C5A20
+	// RVA: 0x7E3E10 Offset: 0x7E2410 VA: 0x1807E3E10
 	public void .ctor() { }
 
 }
@@ -460,7 +460,7 @@ public class NPCDwelling : BaseEntity // TypeDefIndex: 8821
 
 	// Methods
 
-	// RVA: 0x7C3DC0 Offset: 0x7C23C0 VA: 0x1807C3DC0
+	// RVA: 0x7E21B0 Offset: 0x7E07B0 VA: 0x1807E21B0
 	public void .ctor() { }
 
 }
@@ -471,16 +471,16 @@ public class NPCMissionProvider : NPCTalking, IMissionProvider // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x52EEF0 Offset: 0x52D4F0 VA: 0x18052EEF0 Slot: 160
+	// RVA: 0x52EE80 Offset: 0x52D480 VA: 0x18052EE80 Slot: 160
 	public uint ProviderID() { }
 
 	// RVA: 0x2FA9E0 Offset: 0x2F8FE0 VA: 0x1802FA9E0 Slot: 161
 	public Vector3 ProviderPosition() { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 162
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 162
 	public BaseEntity Entity() { }
 
-	// RVA: 0x7C41E0 Offset: 0x7C27E0 VA: 0x1807C41E0
+	// RVA: 0x7E25D0 Offset: 0x7E0BD0 VA: 0x1807E25D0
 	public void .ctor() { }
 
 }
@@ -492,16 +492,16 @@ public class NPCShopKeeper : NPCPlayer // TypeDefIndex: 8850
 
 	// Methods
 
-	// RVA: 0x7C4340 Offset: 0x7C2940 VA: 0x1807C4340
+	// RVA: 0x7E2730 Offset: 0x7E0D30 VA: 0x1807E2730
 	public InvisibleVendingMachine GetVendingMachine() { }
 
-	// RVA: 0x7C43E0 Offset: 0x7C29E0 VA: 0x1807C43E0
+	// RVA: 0x7E27D0 Offset: 0x7E0DD0 VA: 0x1807E27D0
 	public void OnDrawGizmos() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 152
 	public override void UpdateProtectionFromClothing() { }
 
-	// RVA: 0x7C41E0 Offset: 0x7C27E0 VA: 0x1807C41E0
+	// RVA: 0x7E25D0 Offset: 0x7E0BD0 VA: 0x1807E25D0
 	public void .ctor() { }
 
 }
@@ -509,7 +509,7 @@ public class NPCShopKeeper : NPCPlayer // TypeDefIndex: 8850
 public class NPCPlayerCorpse : PlayerCorpse // TypeDefIndex: 8867
 {	// Methods
 
-	// RVA: 0x7C42D0 Offset: 0x7C28D0 VA: 0x1807C42D0
+	// RVA: 0x7E26C0 Offset: 0x7E0CC0 VA: 0x1807E26C0
 	public void .ctor() { }
 
 }
@@ -520,10 +520,10 @@ public class AICoverPoint : AIPoint // TypeDefIndex: 8903
 
 	// Methods
 
-	// RVA: 0xA90F90 Offset: 0xA8F590 VA: 0x180A90F90
+	// RVA: 0xA91460 Offset: 0xA8FA60 VA: 0x180A91460
 	public void OnDrawGizmos() { }
 
-	// RVA: 0xA915E0 Offset: 0xA8FBE0 VA: 0x180A915E0
+	// RVA: 0xA91AB0 Offset: 0xA900B0 VA: 0x180A91AB0
 	public void .ctor() { }
 
 }
@@ -532,19 +532,19 @@ public class AICoverPointTool : MonoBehaviour // TypeDefIndex: 8904
 {	// Methods
 
 	[ContextMenu] // RVA: 0xC1FD0 Offset: 0xC13D0 VA: 0x1800C1FD0
-	// RVA: 0xA90540 Offset: 0xA8EB40 VA: 0x180A90540
+	// RVA: 0xA90A10 Offset: 0xA8F010 VA: 0x180A90A10
 	public void PlaceCoverPoints() { }
 
-	// RVA: 0xA90C70 Offset: 0xA8F270 VA: 0x180A90C70
+	// RVA: 0xA91140 Offset: 0xA8F740 VA: 0x180A91140
 	private AICoverPointTool.TestResult TestPoint(Vector3 pos) { }
 
-	// RVA: 0xA90900 Offset: 0xA8EF00 VA: 0x180A90900
+	// RVA: 0xA90DD0 Offset: 0xA8F3D0 VA: 0x180A90DD0
 	private void PlacePoint(AICoverPointTool.TestResult result) { }
 
-	// RVA: 0xA90B40 Offset: 0xA8F140 VA: 0x180A90B40
+	// RVA: 0xA91010 Offset: 0xA8F610 VA: 0x180A91010
 	private void PlacePoint(Vector3 pos, Vector3 dir) { }
 
-	// RVA: 0xA90370 Offset: 0xA8E970 VA: 0x180A90370
+	// RVA: 0xA90840 Offset: 0xA8EE40 VA: 0x180A90840
 	public bool HitsCover(Ray ray, int layerMask, float maxDistance) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -581,17 +581,17 @@ public class AIInformationCell // TypeDefIndex: 8906
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
+	// RVA: 0x5DE3D0 Offset: 0x5DC9D0 VA: 0x1805DE3D0
 	public int get_X() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5DE450 Offset: 0x5DCA50 VA: 0x1805DE450
+	// RVA: 0x5DE3E0 Offset: 0x5DC9E0 VA: 0x1805DE3E0
 	public int get_Z() { }
 
-	// RVA: 0xA92F70 Offset: 0xA91570 VA: 0x180A92F70
+	// RVA: 0xA93440 Offset: 0xA91A40 VA: 0x180A93440
 	public void .ctor(Bounds bounds, GameObject root, int x, int z) { }
 
-	// RVA: 0xA92B50 Offset: 0xA91150 VA: 0x180A92B50
+	// RVA: 0xA93020 Offset: 0xA91620 VA: 0x180A93020
 	public void DebugDraw(Color color, bool points, float scale = 1) { }
 
 }
@@ -610,7 +610,7 @@ public class AIInformationCellContents<T> // TypeDefIndex: 8907
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5A5F0 Offset: 0xD58BF0 VA: 0x180D5A5F0
+	|-RVA: 0xD5B0A0 Offset: 0xD596A0 VA: 0x180D5B0A0
 	|-AIInformationCellContents<object>.get_Count
 	*/
 
@@ -618,7 +618,7 @@ public class AIInformationCellContents<T> // TypeDefIndex: 8907
 	public bool get_Empty() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15D8D80 Offset: 0x15D7380 VA: 0x1815D8D80
+	|-RVA: 0x1885320 Offset: 0x1883920 VA: 0x181885320
 	|-AIInformationCellContents<object>.get_Empty
 	*/
 
@@ -626,7 +626,7 @@ public class AIInformationCellContents<T> // TypeDefIndex: 8907
 	public void Init(Bounds cellBounds, GameObject root) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15D8B80 Offset: 0x15D7180 VA: 0x1815D8B80
+	|-RVA: 0x1885120 Offset: 0x1883720 VA: 0x181885120
 	|-AIInformationCellContents<AICoverPoint>.Init
 	|-AIInformationCellContents<AIMovePoint>.Init
 	|-AIInformationCellContents<object>.Init
@@ -636,7 +636,7 @@ public class AIInformationCellContents<T> // TypeDefIndex: 8907
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15D8B50 Offset: 0x15D7150 VA: 0x1815D8B50
+	|-RVA: 0x18850F0 Offset: 0x18836F0 VA: 0x1818850F0
 	|-AIInformationCellContents<object>.Clear
 	*/
 
@@ -644,7 +644,7 @@ public class AIInformationCellContents<T> // TypeDefIndex: 8907
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15D8B20 Offset: 0x15D7120 VA: 0x1815D8B20
+	|-RVA: 0x1761E50 Offset: 0x1760450 VA: 0x181761E50
 	|-AIInformationCellContents<object>.Add
 	*/
 
@@ -652,7 +652,7 @@ public class AIInformationCellContents<T> // TypeDefIndex: 8907
 	public void Remove(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15D8CD0 Offset: 0x15D72D0 VA: 0x1815D8CD0
+	|-RVA: 0x1885270 Offset: 0x1883870 VA: 0x181885270
 	|-AIInformationCellContents<object>.Remove
 	*/
 
@@ -660,7 +660,7 @@ public class AIInformationCellContents<T> // TypeDefIndex: 8907
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15D8D00 Offset: 0x15D7300 VA: 0x1815D8D00
+	|-RVA: 0x18852A0 Offset: 0x18838A0 VA: 0x1818852A0
 	|-AIInformationCellContents<AICoverPoint>..ctor
 	|-AIInformationCellContents<AIMovePoint>..ctor
 	|-AIInformationCellContents<object>..ctor
@@ -685,34 +685,34 @@ public class AIInformationGrid : MonoBehaviour // TypeDefIndex: 8908
 	// Methods
 
 	[ContextMenu] // RVA: 0xC3790 Offset: 0xC2B90 VA: 0x1800C3790
-	// RVA: 0xA93C50 Offset: 0xA92250 VA: 0x180A93C50
+	// RVA: 0xA94120 Offset: 0xA92720 VA: 0x180A94120
 	public void Init() { }
 
-	// RVA: 0xA93990 Offset: 0xA91F90 VA: 0x180A93990
+	// RVA: 0xA93E60 Offset: 0xA92460 VA: 0x180A93E60
 	private int GetIndex(int x, int z) { }
 
-	// RVA: 0xA932C0 Offset: 0xA918C0 VA: 0x180A932C0
+	// RVA: 0xA93790 Offset: 0xA91D90 VA: 0x180A93790
 	public AIInformationCell CellAt(int x, int z) { }
 
-	// RVA: 0xA939A0 Offset: 0xA91FA0 VA: 0x180A939A0
+	// RVA: 0xA93E70 Offset: 0xA92470 VA: 0x180A93E70
 	public AIMovePoint[] GetMovePointsInRange(Vector3 position, float maxRange, out int pointCount) { }
 
-	// RVA: 0xA936E0 Offset: 0xA91CE0 VA: 0x180A936E0
+	// RVA: 0xA93BB0 Offset: 0xA921B0 VA: 0x180A93BB0
 	public AICoverPoint[] GetCoverPointsInRange(Vector3 position, float maxRange, out int pointCount) { }
 
-	// RVA: 0xA934D0 Offset: 0xA91AD0 VA: 0x180A934D0
+	// RVA: 0xA939A0 Offset: 0xA91FA0 VA: 0x180A939A0
 	public AIInformationCell[] GetCellsInRange(Vector3 position, float maxRange, out int cellCount) { }
 
-	// RVA: 0xA933B0 Offset: 0xA919B0 VA: 0x180A933B0
+	// RVA: 0xA93880 Offset: 0xA91E80 VA: 0x180A93880
 	public AIInformationCell GetCell(Vector3 position) { }
 
-	// RVA: 0xA93300 Offset: 0xA91900 VA: 0x180A93300
+	// RVA: 0xA937D0 Offset: 0xA91DD0 VA: 0x180A937D0
 	public void OnDrawGizmos() { }
 
-	// RVA: 0xA93300 Offset: 0xA91900 VA: 0x180A93300
+	// RVA: 0xA937D0 Offset: 0xA91DD0 VA: 0x180A937D0
 	public void DebugDraw() { }
 
-	// RVA: 0xA94250 Offset: 0xA92850 VA: 0x180A94250
+	// RVA: 0xA94720 Offset: 0xA92D20 VA: 0x180A94720
 	public void .ctor() { }
 
 }
@@ -724,10 +724,10 @@ public class AIInformationGridTester : MonoBehaviour // TypeDefIndex: 8909
 
 	// Methods
 
-	// RVA: 0xA930F0 Offset: 0xA916F0 VA: 0x180A930F0
+	// RVA: 0xA935C0 Offset: 0xA91BC0 VA: 0x180A935C0
 	public void OnDrawGizmos() { }
 
-	// RVA: 0x4C7F30 Offset: 0x4C6530 VA: 0x1804C7F30
+	// RVA: 0x4C7EC0 Offset: 0x4C64C0 VA: 0x1804C7EC0
 	public void .ctor() { }
 
 }
@@ -749,10 +749,10 @@ public class AIInformationZone : BaseMonoBehaviour, IServerComponent // TypeDefI
 
 	// Methods
 
-	// RVA: 0xA94350 Offset: 0xA92950 VA: 0x180A94350
+	// RVA: 0xA94820 Offset: 0xA92E20 VA: 0x180A94820
 	public void .ctor() { }
 
-	// RVA: 0xA942F0 Offset: 0xA928F0 VA: 0x180A942F0
+	// RVA: 0xA947C0 Offset: 0xA92DC0 VA: 0x180A947C0
 	private static void .cctor() { }
 
 }
@@ -767,25 +767,25 @@ public class AIMovePoint : AIPoint // TypeDefIndex: 8911
 
 	// Methods
 
-	// RVA: 0xA95350 Offset: 0xA93950 VA: 0x180A95350
+	// RVA: 0xA95820 Offset: 0xA93E20 VA: 0x180A95820
 	public void OnDrawGizmos() { }
 
-	// RVA: 0xA95020 Offset: 0xA93620 VA: 0x180A95020
+	// RVA: 0xA954F0 Offset: 0xA93AF0 VA: 0x180A954F0
 	public void DrawLookAtPoints() { }
 
-	// RVA: 0xA95000 Offset: 0xA93600 VA: 0x180A95000
+	// RVA: 0xA954D0 Offset: 0xA93AD0 VA: 0x180A954D0
 	public void Clear() { }
 
-	// RVA: 0xA94F60 Offset: 0xA93560 VA: 0x180A94F60
+	// RVA: 0xA95430 Offset: 0xA93A30 VA: 0x180A95430
 	public void AddLookAtPoint(Transform transform) { }
 
-	// RVA: 0xA95310 Offset: 0xA93910 VA: 0x180A95310
+	// RVA: 0xA957E0 Offset: 0xA93DE0 VA: 0x180A957E0
 	public bool HasLookAtPoints() { }
 
-	// RVA: 0xA952A0 Offset: 0xA938A0 VA: 0x180A952A0
+	// RVA: 0xA95770 Offset: 0xA93D70 VA: 0x180A95770
 	public Transform GetRandomLookAtPoint() { }
 
-	// RVA: 0xA95400 Offset: 0xA93A00 VA: 0x180A95400
+	// RVA: 0xA958D0 Offset: 0xA93ED0 VA: 0x180A958D0
 	public void .ctor() { }
 
 }
@@ -810,35 +810,35 @@ public class AIMovePointPath : MonoBehaviour // TypeDefIndex: 8913
 
 	// Methods
 
-	// RVA: 0xA94630 Offset: 0xA92C30 VA: 0x180A94630
+	// RVA: 0xA94B00 Offset: 0xA93100 VA: 0x180A94B00
 	public void Clear() { }
 
-	// RVA: 0xA945D0 Offset: 0xA92BD0 VA: 0x180A945D0
+	// RVA: 0xA94AA0 Offset: 0xA930A0 VA: 0x180A94AA0
 	public void AddPoint(AIMovePoint point) { }
 
-	// RVA: 0xA948A0 Offset: 0xA92EA0 VA: 0x180A948A0
+	// RVA: 0xA94D70 Offset: 0xA93370 VA: 0x180A94D70
 	public AIMovePoint FindNearestPoint(Vector3 position) { }
 
-	// RVA: 0xA94680 Offset: 0xA92C80 VA: 0x180A94680
+	// RVA: 0xA94B50 Offset: 0xA93150 VA: 0x180A94B50
 	public int FindNearestPointIndex(Vector3 position) { }
 
-	// RVA: 0xA94A00 Offset: 0xA93000 VA: 0x180A94A00
+	// RVA: 0xA94ED0 Offset: 0xA934D0 VA: 0x180A94ED0
 	public AIMovePoint GetPointAtIndex(int index) { }
 
-	// RVA: 0xA94930 Offset: 0xA92F30 VA: 0x180A94930
+	// RVA: 0xA94E00 Offset: 0xA93400 VA: 0x180A94E00
 	public int GetNextPointIndex(int currentPointIndex, ref AIMovePointPath.PathDirection pathDirection) { }
 
-	// RVA: 0xA94B70 Offset: 0xA93170 VA: 0x180A94B70
+	// RVA: 0xA95040 Offset: 0xA93640 VA: 0x180A95040
 	private void OnDrawGizmos() { }
 
-	// RVA: 0xA94A70 Offset: 0xA93070 VA: 0x180A94A70
+	// RVA: 0xA94F40 Offset: 0xA93540 VA: 0x180A94F40
 	private void OnDrawGizmosSelected() { }
 
 	[ContextMenu] // RVA: 0xC3830 Offset: 0xC2C30 VA: 0x1800C3830
-	// RVA: 0xA94530 Offset: 0xA92B30 VA: 0x180A94530
+	// RVA: 0xA94A00 Offset: 0xA93000 VA: 0x180A94A00
 	public void AddChildPoints() { }
 
-	// RVA: 0xA94EE0 Offset: 0xA934E0 VA: 0x180A94EE0
+	// RVA: 0xA953B0 Offset: 0xA939B0 VA: 0x180A953B0
 	public void .ctor() { }
 
 }
@@ -865,28 +865,28 @@ public class AIPoint : BaseMonoBehaviour // TypeDefIndex: 8916
 
 	// Methods
 
-	// RVA: 0xA95630 Offset: 0xA93C30 VA: 0x180A95630
+	// RVA: 0xA95B00 Offset: 0xA94100 VA: 0x180A95B00
 	public bool InUse() { }
 
-	// RVA: 0xA95690 Offset: 0xA93C90 VA: 0x180A95690
+	// RVA: 0xA95B60 Offset: 0xA94160 VA: 0x180A95B60
 	public bool IsUsedBy(BaseEntity user) { }
 
-	// RVA: 0xA954A0 Offset: 0xA93AA0 VA: 0x180A954A0
+	// RVA: 0xA95970 Offset: 0xA93F70 VA: 0x180A95970
 	public bool CanBeUsedBy(BaseEntity user) { }
 
-	// RVA: 0xA95790 Offset: 0xA93D90 VA: 0x180A95790
+	// RVA: 0xA95C60 Offset: 0xA94260 VA: 0x180A95C60
 	public void SetUsedBy(BaseEntity user, float duration = 5) { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void SetUsedBy(BaseEntity user) { }
 
-	// RVA: 0xA7DF40 Offset: 0xA7C540 VA: 0x180A7DF40
+	// RVA: 0xA7E410 Offset: 0xA7CA10 VA: 0x180A7E410
 	public void ClearUsed() { }
 
-	// RVA: 0xA955A0 Offset: 0xA93BA0 VA: 0x180A955A0
+	// RVA: 0xA95A70 Offset: 0xA94070 VA: 0x180A95A70
 	public void ClearIfUsedBy(BaseEntity user) { }
 
-	// RVA: 0x521BF0 Offset: 0x5201F0 VA: 0x180521BF0
+	// RVA: 0x521B80 Offset: 0x520180 VA: 0x180521B80
 	public void .ctor() { }
 
 }
@@ -902,43 +902,43 @@ public class AITraversalArea : TriggerBase // TypeDefIndex: 8917
 
 	// Methods
 
-	// RVA: 0xA968C0 Offset: 0xA94EC0 VA: 0x180A968C0
+	// RVA: 0xA96D90 Offset: 0xA95390 VA: 0x180A96D90
 	public void OnValidate() { }
 
-	// RVA: 0xA963F0 Offset: 0xA949F0 VA: 0x180A963F0 Slot: 6
+	// RVA: 0xA968C0 Offset: 0xA94EC0 VA: 0x180A968C0 Slot: 6
 	internal override GameObject InterestedInObject(GameObject obj) { }
 
-	// RVA: 0xA95C10 Offset: 0xA94210 VA: 0x180A95C10
+	// RVA: 0xA960E0 Offset: 0xA946E0 VA: 0x180A960E0
 	public bool CanTraverse(BaseEntity ent) { }
 
-	// RVA: 0xA95C70 Offset: 0xA94270 VA: 0x180A95C70
+	// RVA: 0xA96140 Offset: 0xA94740 VA: 0x180A96140
 	public Transform GetClosestEntry(Vector3 position) { }
 
-	// RVA: 0xA962C0 Offset: 0xA948C0 VA: 0x180A962C0
+	// RVA: 0xA96790 Offset: 0xA94D90 VA: 0x180A96790
 	public Transform GetFarthestEntry(Vector3 position) { }
 
-	// RVA: 0xA96920 Offset: 0xA94F20 VA: 0x180A96920
+	// RVA: 0xA96DF0 Offset: 0xA953F0 VA: 0x180A96DF0
 	public void SetBusyFor(float dur = 1) { }
 
-	// RVA: 0xA95C10 Offset: 0xA94210 VA: 0x180A95C10
+	// RVA: 0xA960E0 Offset: 0xA946E0 VA: 0x180A960E0
 	public bool CanUse(Vector3 dirFrom) { }
 
-	// RVA: 0xA968A0 Offset: 0xA94EA0 VA: 0x180A968A0 Slot: 8
+	// RVA: 0xA96D70 Offset: 0xA95370 VA: 0x180A96D70 Slot: 8
 	internal override void OnEntityEnter(BaseEntity ent) { }
 
-	// RVA: 0xA95DA0 Offset: 0xA943A0 VA: 0x180A95DA0
+	// RVA: 0xA96270 Offset: 0xA94870 VA: 0x180A96270
 	public AITraversalWaitPoint GetEntryPointNear(Vector3 pos) { }
 
-	// RVA: 0xA95C30 Offset: 0xA94230 VA: 0x180A95C30
+	// RVA: 0xA96100 Offset: 0xA94700 VA: 0x180A96100
 	public bool EntityFilter(BaseEntity ent) { }
 
-	// RVA: 0xA968B0 Offset: 0xA94EB0 VA: 0x180A968B0 Slot: 9
+	// RVA: 0xA96D80 Offset: 0xA95380 VA: 0x180A96D80 Slot: 9
 	internal override void OnEntityLeave(BaseEntity ent) { }
 
-	// RVA: 0xA964F0 Offset: 0xA94AF0 VA: 0x180A964F0
+	// RVA: 0xA969C0 Offset: 0xA94FC0 VA: 0x180A969C0
 	public void OnDrawGizmos() { }
 
-	// RVA: 0x4D38B0 Offset: 0x4D1EB0 VA: 0x1804D38B0
+	// RVA: 0x4D3840 Offset: 0x4D1E40 VA: 0x1804D3840
 	public void .ctor() { }
 
 }
@@ -949,10 +949,10 @@ public class AITraversalWaitPoint : MonoBehaviour // TypeDefIndex: 8918
 
 	// Methods
 
-	// RVA: 0xA96950 Offset: 0xA94F50 VA: 0x180A96950
+	// RVA: 0xA96E20 Offset: 0xA95420 VA: 0x180A96E20
 	public bool Occupied() { }
 
-	// RVA: 0xA96970 Offset: 0xA94F70 VA: 0x180A96970
+	// RVA: 0xA96E40 Offset: 0xA95440 VA: 0x180A96E40
 	public void Occupy(float dur = 1) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -960,10 +960,10 @@ public class AITraversalWaitPoint : MonoBehaviour // TypeDefIndex: 8918
 
 }
 
-public class AnimalBrain : BaseAIBrain<BaseAnimalNPC> // TypeDefIndex: 8919
+public class AnimalBrain : BaseAIBrain // TypeDefIndex: 8919
 {	// Methods
 
-	// RVA: 0x828F80 Offset: 0x827580 VA: 0x180828F80
+	// RVA: 0x4A0A50 Offset: 0x49F050 VA: 0x1804A0A50
 	public void .ctor() { }
 
 }
@@ -975,7 +975,7 @@ public class AnimalRagdoll : Ragdoll // TypeDefIndex: 8926
 
 	// Methods
 
-	// RVA: 0x829600 Offset: 0x827C00 VA: 0x180829600
+	// RVA: 0x829B50 Offset: 0x828150 VA: 0x180829B50
 	public void .ctor() { }
 
 }
@@ -983,15 +983,15 @@ public class AnimalRagdoll : Ragdoll // TypeDefIndex: 8926
 public class AIThinkManager : BaseMonoBehaviour, IServerComponent // TypeDefIndex: 8929
 {	// Methods
 
-	// RVA: 0x521BF0 Offset: 0x5201F0 VA: 0x180521BF0
+	// RVA: 0x521B80 Offset: 0x520180 VA: 0x180521B80
 	public void .ctor() { }
 
 }
 
-public class ScientistBrain : BaseAIBrain<HumanNPC> // TypeDefIndex: 8933
+public class ScientistBrain : BaseAIBrain // TypeDefIndex: 8933
 {	// Methods
 
-	// RVA: 0x4A1070 Offset: 0x49F670 VA: 0x1804A1070
+	// RVA: 0x4A0A50 Offset: 0x49F050 VA: 0x1804A0A50
 	public void .ctor() { }
 
 }
@@ -1006,7 +1006,7 @@ public class ScientistNPC : HumanNPC, IAIMounted // TypeDefIndex: 8934
 
 	// Methods
 
-	// RVA: 0x4A10B0 Offset: 0x49F6B0 VA: 0x1804A10B0
+	// RVA: 0x4A1040 Offset: 0x49F640 VA: 0x1804A1040
 	public void .ctor() { }
 
 }
@@ -1039,10 +1039,10 @@ public class NPCPlayer : BasePlayer // TypeDefIndex: 8938
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 98
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 98
 	public override bool get_IsNpc() { }
 
-	// RVA: 0x7C41E0 Offset: 0x7C27E0 VA: 0x1807C41E0
+	// RVA: 0x7E25D0 Offset: 0x7E0BD0 VA: 0x1807E25D0
 	public void .ctor() { }
 
 }
@@ -1050,7 +1050,7 @@ public class NPCPlayer : BasePlayer // TypeDefIndex: 8938
 public class NPCNavigator : BaseNavigator // TypeDefIndex: 8953
 {	// Methods
 
-	// RVA: 0x7C4270 Offset: 0x7C2870 VA: 0x1807C4270
+	// RVA: 0x7E2660 Offset: 0x7E0C60 VA: 0x1807E2660
 	public void .ctor() { }
 
 }
@@ -1058,7 +1058,7 @@ public class NPCNavigator : BaseNavigator // TypeDefIndex: 8953
 public class NPCPlayerNavigator : BaseNavigator // TypeDefIndex: 8954
 {	// Methods
 
-	// RVA: 0x7C42E0 Offset: 0x7C28E0 VA: 0x1807C42E0
+	// RVA: 0x7E26D0 Offset: 0x7E0CD0 VA: 0x1807E26D0
 	public void .ctor() { }
 
 }
@@ -1070,7 +1070,7 @@ public class NPCPlayerNavigatorTester : BaseMonoBehaviour // TypeDefIndex: 8955
 
 	// Methods
 
-	// RVA: 0x521BF0 Offset: 0x5201F0 VA: 0x180521BF0
+	// RVA: 0x521B80 Offset: 0x520180 VA: 0x180521B80
 	public void .ctor() { }
 
 }
@@ -1117,10 +1117,10 @@ public enum AIThinkMode // TypeDefIndex: 8965
 public class AimConeUtil // TypeDefIndex: 8968
 {	// Methods
 
-	// RVA: 0xAA2B10 Offset: 0xAA1110 VA: 0x180AA2B10
+	// RVA: 0xAA2FE0 Offset: 0xAA15E0 VA: 0x180AA2FE0
 	public static Vector3 GetModifiedAimConeDirection(float aimCone, Vector3 inputVec, bool anywhereInside = True) { }
 
-	// RVA: 0xAA2A50 Offset: 0xAA1050 VA: 0x180AA2A50
+	// RVA: 0xAA2F20 Offset: 0xAA1520 VA: 0x180AA2F20
 	public static Quaternion GetAimConeQuat(float aimCone) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -1137,10 +1137,10 @@ public class AnimalSkin : MonoBehaviour, IClientComponent // TypeDefIndex: 9111
 
 	// Methods
 
-	// RVA: 0x829840 Offset: 0x827E40 VA: 0x180829840
+	// RVA: 0x829D90 Offset: 0x828390 VA: 0x180829D90
 	private void Start() { }
 
-	// RVA: 0x829610 Offset: 0x827C10 VA: 0x180829610
+	// RVA: 0x829B60 Offset: 0x828160 VA: 0x180829B60
 	public void ChangeSkin(int iSkin) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -1181,25 +1181,25 @@ public class AnimalAnimation : MonoBehaviour, IClientComponent // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x828E50 Offset: 0x827450 VA: 0x180828E50
+	// RVA: 0x8293E0 Offset: 0x8279E0 VA: 0x1808293E0
 	private void Update() { }
 
-	// RVA: 0x828D50 Offset: 0x827350 VA: 0x180828D50
+	// RVA: 0x8292E0 Offset: 0x8278E0 VA: 0x1808292E0
 	public bool ShouldPlayFootstep(AnimationEvent evt) { }
 
-	// RVA: 0x828760 Offset: 0x826D60 VA: 0x180828760
+	// RVA: 0x828CF0 Offset: 0x8272F0 VA: 0x180828CF0
 	private void FrontLeftFootstep(AnimationEvent evt) { }
 
-	// RVA: 0x8287C0 Offset: 0x826DC0 VA: 0x1808287C0
+	// RVA: 0x828D50 Offset: 0x827350 VA: 0x180828D50
 	private void FrontRightFootstep(AnimationEvent evt) { }
 
-	// RVA: 0x828440 Offset: 0x826A40 VA: 0x180828440
+	// RVA: 0x8289D0 Offset: 0x826FD0 VA: 0x1808289D0
 	private void BackLeftFootstep(AnimationEvent evt) { }
 
-	// RVA: 0x8284A0 Offset: 0x826AA0 VA: 0x1808284A0
+	// RVA: 0x828A30 Offset: 0x827030 VA: 0x180828A30
 	private void BackRightFootstep(AnimationEvent evt) { }
 
-	// RVA: 0x828500 Offset: 0x826B00 VA: 0x180828500
+	// RVA: 0x828A90 Offset: 0x827090 VA: 0x180828A90
 	private void Footstep(Transform tx) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -1208,13 +1208,13 @@ public class AnimalAnimation : MonoBehaviour, IClientComponent // TypeDefIndex: 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void PlayEffect(string effect) { }
 
-	// RVA: 0x828B60 Offset: 0x827160 VA: 0x180828B60
+	// RVA: 0x8290F0 Offset: 0x8276F0 VA: 0x1808290F0
 	public void PlaySound(string soundName) { }
 
-	// RVA: 0x828B10 Offset: 0x827110 VA: 0x180828B10
+	// RVA: 0x8290A0 Offset: 0x8276A0 VA: 0x1808290A0
 	public void PlaySoundDef(SoundDefinition def) { }
 
-	// RVA: 0x828820 Offset: 0x826E20 VA: 0x180828820
+	// RVA: 0x828DB0 Offset: 0x8273B0 VA: 0x180828DB0
 	private void PlaySaddleMovementSound() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -1232,19 +1232,19 @@ public class AnimalFootIK : MonoBehaviour // TypeDefIndex: 9115
 
 	// Methods
 
-	// RVA: 0x828FF0 Offset: 0x8275F0 VA: 0x180828FF0
+	// RVA: 0x829540 Offset: 0x827B40 VA: 0x180829540
 	public bool GroundSample(Vector3 origin, out RaycastHit hit) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Start() { }
 
-	// RVA: 0x828FC0 Offset: 0x8275C0 VA: 0x180828FC0
+	// RVA: 0x829510 Offset: 0x827B10 VA: 0x180829510
 	public AvatarIKGoal GoalFromIndex(int index) { }
 
-	// RVA: 0x829120 Offset: 0x827720 VA: 0x180829120
+	// RVA: 0x829670 Offset: 0x827C70 VA: 0x180829670
 	private void OnAnimatorIK(int layerIndex) { }
 
-	// RVA: 0x8295E0 Offset: 0x827BE0 VA: 0x1808295E0
+	// RVA: 0x829B30 Offset: 0x828130 VA: 0x180829B30
 	public void .ctor() { }
 
 }
@@ -1259,25 +1259,25 @@ public class NPCFootstepEffects : BaseFootstepEffect // TypeDefIndex: 9355
 
 	// Methods
 
-	// RVA: 0x7C4060 Offset: 0x7C2660 VA: 0x1807C4060
+	// RVA: 0x7E2450 Offset: 0x7E0A50 VA: 0x1807E2450
 	private void FrontLeftFootstep() { }
 
-	// RVA: 0x7C40B0 Offset: 0x7C26B0 VA: 0x1807C40B0
+	// RVA: 0x7E24A0 Offset: 0x7E0AA0 VA: 0x1807E24A0
 	private void FrontRightFootstep() { }
 
-	// RVA: 0x7C3E20 Offset: 0x7C2420 VA: 0x1807C3E20
+	// RVA: 0x7E2210 Offset: 0x7E0810 VA: 0x1807E2210
 	private void BackLeftFootstep() { }
 
-	// RVA: 0x7C3E70 Offset: 0x7C2470 VA: 0x1807C3E70
+	// RVA: 0x7E2260 Offset: 0x7E0860 VA: 0x1807E2260
 	private void BackRightFootstep() { }
 
-	// RVA: 0x7C3EC0 Offset: 0x7C24C0 VA: 0x1807C3EC0
+	// RVA: 0x7E22B0 Offset: 0x7E08B0 VA: 0x1807E22B0
 	private void Footstep(Vector3 vFootPos) { }
 
-	// RVA: 0x7C4100 Offset: 0x7C2700 VA: 0x1807C4100
+	// RVA: 0x7E24F0 Offset: 0x7E0AF0 VA: 0x1807E24F0
 	private void SetupFootstep(GameObject effect) { }
 
-	// RVA: 0x7C4190 Offset: 0x7C2790 VA: 0x1807C4190
+	// RVA: 0x7E2580 Offset: 0x7E0B80 VA: 0x1807E2580
 	public void .ctor() { }
 
 }
@@ -1296,7 +1296,7 @@ public class AIDesignSO : BaseScriptableObject // TypeDefIndex: 9378
 
 	// Methods
 
-	// RVA: 0x6A7B40 Offset: 0x6A6140 VA: 0x1806A7B40
+	// RVA: 0x6A7AD0 Offset: 0x6A60D0 VA: 0x1806A7AD0
 	public void .ctor() { }
 
 }
@@ -1322,7 +1322,7 @@ public class AIDesign // TypeDefIndex: 9379
 	public AIDesignScope get_Scope() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
+	// RVA: 0x57C970 Offset: 0x57AF70 VA: 0x18057C970
 	private void set_Scope(AIDesignScope value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -1330,28 +1330,28 @@ public class AIDesign // TypeDefIndex: 9379
 	public string get_Description() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	private void set_Description(string value) { }
 
-	// RVA: 0xA91900 Offset: 0xA8FF00 VA: 0x180A91900
+	// RVA: 0xA91DD0 Offset: 0xA903D0 VA: 0x180A91DD0
 	public void SetAvailableStates(List<AIState> states) { }
 
-	// RVA: 0xA918A0 Offset: 0xA8FEA0 VA: 0x180A918A0
+	// RVA: 0xA91D70 Offset: 0xA90370 VA: 0x180A91D70
 	public void Load(AIDesign design, BaseEntity owner) { }
 
-	// RVA: 0xA916F0 Offset: 0xA8FCF0 VA: 0x180A916F0
+	// RVA: 0xA91BC0 Offset: 0xA901C0 VA: 0x180A91BC0
 	private void InitStateContainers(AIDesign design, BaseEntity owner) { }
 
-	// RVA: 0xA915F0 Offset: 0xA8FBF0 VA: 0x180A915F0
+	// RVA: 0xA91AC0 Offset: 0xA900C0 VA: 0x180A91AC0
 	public AIStateContainer GetDefaultStateContainer() { }
 
-	// RVA: 0xA91670 Offset: 0xA8FC70 VA: 0x180A91670
+	// RVA: 0xA91B40 Offset: 0xA90140 VA: 0x180A91B40
 	public AIStateContainer GetStateContainerByID(int id) { }
 
-	// RVA: 0xA91990 Offset: 0xA8FF90 VA: 0x180A91990
+	// RVA: 0xA91E60 Offset: 0xA90460 VA: 0x180A91E60
 	public AIDesign ToProto(int currentStateID) { }
 
-	// RVA: 0xA91CC0 Offset: 0xA902C0 VA: 0x180A91CC0
+	// RVA: 0xA92190 Offset: 0xA90790 VA: 0x180A92190
 	public void .ctor() { }
 
 }
@@ -1359,20 +1359,20 @@ public class AIDesign // TypeDefIndex: 9379
 public static class AIDesigns // TypeDefIndex: 9380
 {	// Fields
 	public const string DesignFolderPath = "cfg/ai/";
-	private static Dictionary<string, AIDesign> designs; // 0x1D4C
+	private static Dictionary<string, AIDesign> designs; // 0x1C30
 
 	// Methods
 
-	// RVA: 0xA91D60 Offset: 0xA90360 VA: 0x180A91D60
+	// RVA: 0xA92230 Offset: 0xA90830 VA: 0x180A92230
 	public static AIDesign GetByNameOrInstance(string designName, AIDesign entityDesign) { }
 
-	// RVA: 0xA92050 Offset: 0xA90650 VA: 0x180A92050
+	// RVA: 0xA92520 Offset: 0xA90B20 VA: 0x180A92520
 	public static void RefreshCache(string designName, AIDesign design) { }
 
-	// RVA: 0xA91E20 Offset: 0xA90420 VA: 0x180A91E20
+	// RVA: 0xA922F0 Offset: 0xA908F0 VA: 0x180A922F0
 	private static AIDesign GetByName(string designName) { }
 
-	// RVA: 0xA92120 Offset: 0xA90720 VA: 0x180A92120
+	// RVA: 0xA925F0 Offset: 0xA90BF0 VA: 0x180A925F0
 	private static void .cctor() { }
 
 }
@@ -1426,32 +1426,32 @@ public class AIEvents // TypeDefIndex: 9382
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public int get_CurrentInputMemorySlot() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
+	// RVA: 0x79C6B0 Offset: 0x79ACB0 VA: 0x18079C6B0
 	private void set_CurrentInputMemorySlot(int value) { }
 
-	// RVA: 0xA92570 Offset: 0xA90B70 VA: 0x180A92570
+	// RVA: 0xA92A40 Offset: 0xA91040 VA: 0x180A92A40
 	public void Init(IAIEventListener listener, AIStateContainer stateContainer, BaseEntity owner, AIBrainSenses senses) { }
 
-	// RVA: 0xA92660 Offset: 0xA90C60 VA: 0x180A92660
+	// RVA: 0xA92B30 Offset: 0xA91130 VA: 0x180A92B30
 	private void RemoveAll() { }
 
-	// RVA: 0xA92180 Offset: 0xA90780 VA: 0x180A92180
+	// RVA: 0xA92650 Offset: 0xA90C50 VA: 0x180A92650
 	private void AddStateEvents(List<BaseAIEvent> events, BaseEntity owner) { }
 
-	// RVA: 0xA92380 Offset: 0xA90980 VA: 0x180A92380
+	// RVA: 0xA92850 Offset: 0xA90E50 VA: 0x180A92850
 	private void Add(BaseAIEvent aiEvent) { }
 
-	// RVA: 0xA926B0 Offset: 0xA90CB0 VA: 0x180A926B0
+	// RVA: 0xA92B80 Offset: 0xA91180 VA: 0x180A92B80
 	public void Tick(float deltaTime, StateStatus stateStatus) { }
 
-	// RVA: 0xA92480 Offset: 0xA90A80 VA: 0x180A92480
+	// RVA: 0xA92950 Offset: 0xA90F50 VA: 0x180A92950
 	private int FindNextEventBlock() { }
 
-	// RVA: 0xA92970 Offset: 0xA90F70 VA: 0x180A92970
+	// RVA: 0xA92E40 Offset: 0xA91440 VA: 0x180A92E40
 	public void .ctor() { }
 
 }
@@ -1464,7 +1464,7 @@ public class AIMemory // TypeDefIndex: 9383
 
 	// Methods
 
-	// RVA: 0xA94450 Offset: 0xA92A50 VA: 0x180A94450
+	// RVA: 0xA94920 Offset: 0xA92F20 VA: 0x180A94920
 	public void .ctor() { }
 
 }
@@ -1482,7 +1482,7 @@ public class AIMemoryBank<T> // TypeDefIndex: 9388
 	public void .ctor(MemoryBankType type, int slots) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15D9240 Offset: 0x15D7840 VA: 0x1815D9240
+	|-RVA: 0x18857E0 Offset: 0x1883DE0 VA: 0x1818857E0
 	|-AIMemoryBank<AIPoint>..ctor
 	|-AIMemoryBank<BaseEntity>..ctor
 	|-AIMemoryBank<object>..ctor
@@ -1493,10 +1493,10 @@ public class AIMemoryBank<T> // TypeDefIndex: 9388
 	public void Init(MemoryBankType type, int slots) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15D8EF0 Offset: 0x15D74F0 VA: 0x1815D8EF0
+	|-RVA: 0x1885490 Offset: 0x1883A90 VA: 0x181885490
 	|-AIMemoryBank<object>.Init
 	|
-	|-RVA: 0x15D8FA0 Offset: 0x15D75A0 VA: 0x1815D8FA0
+	|-RVA: 0x1885540 Offset: 0x1883B40 VA: 0x181885540
 	|-AIMemoryBank<Vector3>.Init
 	*/
 
@@ -1504,11 +1504,11 @@ public class AIMemoryBank<T> // TypeDefIndex: 9388
 	public void Set(T item, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15D9110 Offset: 0x15D7710 VA: 0x1815D9110
+	|-RVA: 0x18856B0 Offset: 0x1883CB0 VA: 0x1818856B0
 	|-AIMemoryBank<BaseEntity>.Set
 	|-AIMemoryBank<object>.Set
 	|
-	|-RVA: 0x15D91A0 Offset: 0x15D77A0 VA: 0x1815D91A0
+	|-RVA: 0x1885740 Offset: 0x1883D40 VA: 0x181885740
 	|-AIMemoryBank<Vector3>.Set
 	*/
 
@@ -1516,11 +1516,11 @@ public class AIMemoryBank<T> // TypeDefIndex: 9388
 	public T Get(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15D8E20 Offset: 0x15D7420 VA: 0x1815D8E20
+	|-RVA: 0x18853C0 Offset: 0x18839C0 VA: 0x1818853C0
 	|-AIMemoryBank<BaseEntity>.Get
 	|-AIMemoryBank<object>.Get
 	|
-	|-RVA: 0x15D8E70 Offset: 0x15D7470 VA: 0x1815D8E70
+	|-RVA: 0x1885410 Offset: 0x1883A10 VA: 0x181885410
 	|-AIMemoryBank<Vector3>.Get
 	*/
 
@@ -1528,7 +1528,7 @@ public class AIMemoryBank<T> // TypeDefIndex: 9388
 	public float GetTimeSinceSet(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15D8DB0 Offset: 0x15D73B0 VA: 0x1815D8DB0
+	|-RVA: 0x1885350 Offset: 0x1883950 VA: 0x181885350
 	|-AIMemoryBank<object>.GetTimeSinceSet
 	|-AIMemoryBank<Vector3>.GetTimeSinceSet
 	*/
@@ -1537,10 +1537,10 @@ public class AIMemoryBank<T> // TypeDefIndex: 9388
 	public void Remove(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15D9050 Offset: 0x15D7650 VA: 0x1815D9050
+	|-RVA: 0x18855F0 Offset: 0x1883BF0 VA: 0x1818855F0
 	|-AIMemoryBank<object>.Remove
 	|
-	|-RVA: 0x15D90B0 Offset: 0x15D76B0 VA: 0x1815D90B0
+	|-RVA: 0x1885650 Offset: 0x1883C50 VA: 0x181885650
 	|-AIMemoryBank<Vector3>.Remove
 	*/
 
@@ -1568,32 +1568,32 @@ public class AIStateContainer // TypeDefIndex: 9422
 	public int get_ID() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
+	// RVA: 0x57C970 Offset: 0x57AF70 VA: 0x18057C970
 	private void set_ID(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0
+	// RVA: 0x57C960 Offset: 0x57AF60 VA: 0x18057C960
 	public AIState get_State() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57C9F0 Offset: 0x57AFF0 VA: 0x18057C9F0
+	// RVA: 0x57C980 Offset: 0x57AF80 VA: 0x18057C980
 	private void set_State(AIState value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
+	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760
 	public int get_InputMemorySlot() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730
+	// RVA: 0x69D6C0 Offset: 0x69BCC0 VA: 0x18069D6C0
 	private void set_InputMemorySlot(int value) { }
 
-	// RVA: 0xA95850 Offset: 0xA93E50 VA: 0x180A95850
+	// RVA: 0xA95D20 Offset: 0xA94320 VA: 0x180A95D20
 	public void Init(AIStateContainer container, BaseEntity owner) { }
 
-	// RVA: 0xA95A40 Offset: 0xA94040 VA: 0x180A95A40
+	// RVA: 0xA95F10 Offset: 0xA94510 VA: 0x180A95F10
 	public AIStateContainer ToProto() { }
 
-	// RVA: 0xA95C00 Offset: 0xA94200 VA: 0x180A95C00
+	// RVA: 0xA960D0 Offset: 0xA946D0 VA: 0x180A960D0
 	public void .ctor() { }
 
 }
@@ -1616,7 +1616,7 @@ public class NPCAutoTurret : AutoTurret // TypeDefIndex: 9577
 
 	// Methods
 
-	// RVA: 0x7C3DB0 Offset: 0x7C23B0 VA: 0x1807C3DB0
+	// RVA: 0x7E21A0 Offset: 0x7E07A0 VA: 0x1807E21A0
 	public void .ctor() { }
 
 }
@@ -1635,7 +1635,7 @@ public class AIHelicopterAnimation : MonoBehaviour // TypeDefIndex: 9598
 
 	// Methods
 
-	// RVA: 0xA92AD0 Offset: 0xA910D0 VA: 0x180A92AD0
+	// RVA: 0xA92FA0 Offset: 0xA915A0 VA: 0x180A92FA0
 	public void .ctor() { }
 
 }
@@ -1662,7 +1662,7 @@ public class NPCSpawner : SpawnGroup // TypeDefIndex: 10004
 
 	// Methods
 
-	// RVA: 0x7C4550 Offset: 0x7C2B50 VA: 0x1807C4550
+	// RVA: 0x7E2940 Offset: 0x7E0F40 VA: 0x1807E2940
 	public void .ctor() { }
 
 }
@@ -1686,24 +1686,24 @@ public class AI : ConsoleSystem // TypeDefIndex: 11880
 	// Methods
 
 	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
-	// RVA: 0x6C96C0 Offset: 0x6C7CC0 VA: 0x1806C96C0
+	// RVA: 0x6C9650 Offset: 0x6C7C50 VA: 0x1806C9650
 	public static void aiDebug_lookat(ConsoleSystem.Arg args) { }
 
 	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
-	// RVA: 0x6C9500 Offset: 0x6C7B00 VA: 0x1806C9500
+	// RVA: 0x6C9490 Offset: 0x6C7A90 VA: 0x1806C9490
 	public static void aiDebug_LoadBalanceOverdueReport(ConsoleSystem.Arg args) { }
 
 	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void selectNPCLookat(ConsoleSystem.Arg args) { }
 
-	// RVA: 0x6C9120 Offset: 0x6C7720 VA: 0x1806C9120
+	// RVA: 0x6C90B0 Offset: 0x6C76B0 VA: 0x1806C90B0
 	private static bool CheckLookingAtVisible(HitTest test, TraceInfo trace) { }
 
-	// RVA: 0x6C94A0 Offset: 0x6C7AA0 VA: 0x1806C94A0
+	// RVA: 0x6C9430 Offset: 0x6C7A30 VA: 0x1806C9430
 	public void .ctor() { }
 
-	// RVA: 0x6C9400 Offset: 0x6C7A00 VA: 0x1806C9400
+	// RVA: 0x6C9390 Offset: 0x6C7990 VA: 0x1806C9390
 	private static void .cctor() { }
 
 }
@@ -1715,7 +1715,7 @@ public class AiManagedAgent : FacepunchBehaviour, IServerComponent // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }
@@ -1735,16 +1735,16 @@ public class AiManager : SingletonComponent<AiManager>, IServerComponent // Type
 
 	// Methods
 
-	// RVA: 0x4BB030 Offset: 0x4B9630 VA: 0x1804BB030
+	// RVA: 0x4BAFC0 Offset: 0x4B95C0 VA: 0x1804BAFC0
 	internal void OnEnableCover() { }
 
-	// RVA: 0x4BAF50 Offset: 0x4B9550 VA: 0x1804BAF50
+	// RVA: 0x4BAEE0 Offset: 0x4B94E0 VA: 0x1804BAEE0
 	internal void OnDisableCover() { }
 
-	// RVA: 0x4BAEC0 Offset: 0x4B94C0 VA: 0x1804BAEC0
+	// RVA: 0x4BAE50 Offset: 0x4B9450 VA: 0x1804BAE50
 	public CoverPointVolume GetCoverVolumeContaining(Vector3 point) { }
 
-	// RVA: 0x4BB0F0 Offset: 0x4B96F0 VA: 0x1804BB0F0
+	// RVA: 0x4BB080 Offset: 0x4B9680 VA: 0x1804BB080
 	public void .ctor() { }
 
 }
@@ -1768,7 +1768,7 @@ public class ScientistSpawner : SpawnGroup // TypeDefIndex: 12136
 
 	// Methods
 
-	// RVA: 0x4C8A40 Offset: 0x4C7040 VA: 0x1804C8A40
+	// RVA: 0x4C89D0 Offset: 0x4C6FD0 VA: 0x1804C89D0
 	public void .ctor() { }
 
 }
@@ -1790,13 +1790,13 @@ public class AiLocationManager : FacepunchBehaviour, IServerComponent // TypeDef
 
 	// Methods
 
-	// RVA: 0x4BAE00 Offset: 0x4B9400 VA: 0x1804BAE00
+	// RVA: 0x4BAD90 Offset: 0x4B9390 VA: 0x1804BAD90
 	public AiLocationSpawner.SquadSpawnerLocation get_LocationType() { }
 
-	// RVA: 0x4BADF0 Offset: 0x4B93F0 VA: 0x1804BADF0
+	// RVA: 0x4BAD80 Offset: 0x4B9380 VA: 0x1804BAD80
 	public void .ctor() { }
 
-	// RVA: 0x4BAD90 Offset: 0x4B9390 VA: 0x1804BAD90
+	// RVA: 0x4BAD20 Offset: 0x4B9320 VA: 0x1804BAD20
 	private static void .cctor() { }
 
 }
@@ -1814,7 +1814,7 @@ public class AiLocationSpawner : SpawnGroup // TypeDefIndex: 12138
 
 	// Methods
 
-	// RVA: 0x4BAE90 Offset: 0x4B9490 VA: 0x1804BAE90
+	// RVA: 0x4BAE20 Offset: 0x4B9420 VA: 0x1804BAE20
 	public void .ctor() { }
 
 }
@@ -1850,7 +1850,7 @@ public class ScientistJunkpileSpawner : MonoBehaviour, IServerComponent // TypeD
 
 	// Methods
 
-	// RVA: 0x4C89B0 Offset: 0x4C6FB0 VA: 0x1804C89B0
+	// RVA: 0x4C8940 Offset: 0x4C6F40 VA: 0x1804C8940
 	public void .ctor() { }
 
 }

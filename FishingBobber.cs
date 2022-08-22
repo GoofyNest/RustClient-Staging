@@ -14,10 +14,10 @@ public class FishingBobber : BaseCombatEntity // TypeDefIndex: 8868
 
 	// Methods
 
-	// RVA: 0x78D340 Offset: 0x78B940 VA: 0x18078D340
+	// RVA: 0x78D250 Offset: 0x78B850 VA: 0x18078D250
 	public void UpdateWithCurrentState(BaseFishingRod.FishState state) { }
 
-	// RVA: 0x78D4C0 Offset: 0x78BAC0 VA: 0x18078D4C0
+	// RVA: 0x78D3D0 Offset: 0x78B9D0 VA: 0x18078D3D0
 	public void .ctor() { }
 
 }

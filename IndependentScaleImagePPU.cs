@@ -7,10 +7,10 @@ public class IndependentScaleImagePPU : MonoBehaviour, IClientComponent // TypeD
 
 	// Methods
 
-	// RVA: 0x813520 Offset: 0x811B20 VA: 0x180813520
+	// RVA: 0x813AB0 Offset: 0x8120B0 VA: 0x180813AB0
 	public void OnEnable() { }
 
-	// RVA: 0x8135E0 Offset: 0x811BE0 VA: 0x1808135E0
+	// RVA: 0x813B70 Offset: 0x812170 VA: 0x180813B70
 	public void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

@@ -11,61 +11,61 @@ internal sealed class RegexNode // TypeDefIndex: 2625
 
 	// Methods
 
-	// RVA: 0x16B0700 Offset: 0x16AED00 VA: 0x1816B0700
+	// RVA: 0x16AE2F0 Offset: 0x16AC8F0 VA: 0x1816AE2F0
 	internal void .ctor(int type, RegexOptions options) { }
 
-	// RVA: 0x16B0790 Offset: 0x16AED90 VA: 0x1816B0790
+	// RVA: 0x16AE380 Offset: 0x16AC980 VA: 0x1816AE380
 	internal void .ctor(int type, RegexOptions options, char ch) { }
 
-	// RVA: 0x16B0740 Offset: 0x16AED40 VA: 0x1816B0740
+	// RVA: 0x16AE330 Offset: 0x16AC930 VA: 0x1816AE330
 	internal void .ctor(int type, RegexOptions options, string str) { }
 
-	// RVA: 0x16B07E0 Offset: 0x16AEDE0 VA: 0x1816B07E0
+	// RVA: 0x16AE3D0 Offset: 0x16AC9D0 VA: 0x1816AE3D0
 	internal void .ctor(int type, RegexOptions options, int m) { }
 
-	// RVA: 0x16B06B0 Offset: 0x16AECB0 VA: 0x1816B06B0
+	// RVA: 0x16AE2A0 Offset: 0x16AC8A0 VA: 0x1816AE2A0
 	internal void .ctor(int type, RegexOptions options, int m, int n) { }
 
-	// RVA: 0x16B06A0 Offset: 0x16AECA0 VA: 0x1816B06A0
+	// RVA: 0x16AE290 Offset: 0x16AC890 VA: 0x1816AE290
 	internal bool UseOptionR() { }
 
-	// RVA: 0x16B0540 Offset: 0x16AEB40 VA: 0x1816B0540
+	// RVA: 0x16AE130 Offset: 0x16AC730 VA: 0x1816AE130
 	internal RegexNode ReverseLeft() { }
 
-	// RVA: 0x16AF750 Offset: 0x16ADD50 VA: 0x1816AF750
+	// RVA: 0x16AD340 Offset: 0x16AB940 VA: 0x1816AD340
 	internal void MakeRep(int type, int min, int max) { }
 
-	// RVA: 0x16B02A0 Offset: 0x16AE8A0 VA: 0x1816B02A0
+	// RVA: 0x16ADE90 Offset: 0x16AC490 VA: 0x1816ADE90
 	internal RegexNode Reduce() { }
 
-	// RVA: 0x16B05A0 Offset: 0x16AEBA0 VA: 0x1816B05A0
+	// RVA: 0x16AE190 Offset: 0x16AC790 VA: 0x1816AE190
 	internal RegexNode StripEnation(int emptyType) { }
 
-	// RVA: 0x16AFED0 Offset: 0x16AE4D0 VA: 0x1816AFED0
+	// RVA: 0x16ADAC0 Offset: 0x16AC0C0 VA: 0x1816ADAC0
 	internal RegexNode ReduceGroup() { }
 
-	// RVA: 0x16AFF40 Offset: 0x16AE540 VA: 0x1816AFF40
+	// RVA: 0x16ADB30 Offset: 0x16AC130 VA: 0x1816ADB30
 	internal RegexNode ReduceRep() { }
 
-	// RVA: 0x16B0100 Offset: 0x16AE700 VA: 0x1816B0100
+	// RVA: 0x16ADCF0 Offset: 0x16AC2F0 VA: 0x1816ADCF0
 	internal RegexNode ReduceSet() { }
 
-	// RVA: 0x16AF760 Offset: 0x16ADD60 VA: 0x1816AF760
+	// RVA: 0x16AD350 Offset: 0x16AB950 VA: 0x1816AD350
 	internal RegexNode ReduceAlternation() { }
 
-	// RVA: 0x16AFB60 Offset: 0x16AE160 VA: 0x1816AFB60
+	// RVA: 0x16AD750 Offset: 0x16ABD50 VA: 0x1816AD750
 	internal RegexNode ReduceConcatenation() { }
 
-	// RVA: 0x16AF640 Offset: 0x16ADC40 VA: 0x1816AF640
+	// RVA: 0x16AD230 Offset: 0x16AB830 VA: 0x1816AD230
 	internal RegexNode MakeQuantifier(bool lazy, int min, int max) { }
 
-	// RVA: 0x16AF4D0 Offset: 0x16ADAD0 VA: 0x1816AF4D0
+	// RVA: 0x16AD0C0 Offset: 0x16AB6C0 VA: 0x1816AD0C0
 	internal void AddChild(RegexNode newChild) { }
 
-	// RVA: 0x16AF5E0 Offset: 0x16ADBE0 VA: 0x1816AF5E0
+	// RVA: 0x16AD1D0 Offset: 0x16AB7D0 VA: 0x1816AD1D0
 	internal RegexNode Child(int i) { }
 
-	// RVA: 0x16AF5A0 Offset: 0x16ADBA0 VA: 0x1816AF5A0
+	// RVA: 0x16AD190 Offset: 0x16AB790 VA: 0x1816AD190
 	internal int ChildCount() { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00

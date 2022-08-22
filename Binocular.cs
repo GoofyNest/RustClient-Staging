@@ -10,31 +10,31 @@ public class Binocular : AttackEntity // TypeDefIndex: 9462
 
 	// Methods
 
-	// RVA: 0x511C70 Offset: 0x510270 VA: 0x180511C70
+	// RVA: 0x511C00 Offset: 0x510200 VA: 0x180511C00
 	public bool IsAiming() { }
 
-	// RVA: 0x511C90 Offset: 0x510290 VA: 0x180511C90 Slot: 140
+	// RVA: 0x511C20 Offset: 0x510220 VA: 0x180511C20 Slot: 140
 	public override void OnDeploy() { }
 
-	// RVA: 0x5121E0 Offset: 0x5107E0 VA: 0x1805121E0 Slot: 142
+	// RVA: 0x512170 Offset: 0x510770 VA: 0x180512170 Slot: 142
 	public override void OnHolster() { }
 
-	// RVA: 0x511980 Offset: 0x50FF80 VA: 0x180511980
+	// RVA: 0x511910 Offset: 0x50FF10 VA: 0x180511910
 	public void ClearOverlays() { }
 
-	// RVA: 0x511D70 Offset: 0x510370 VA: 0x180511D70 Slot: 137
+	// RVA: 0x511D00 Offset: 0x510300 VA: 0x180511D00 Slot: 137
 	public override void OnFrame() { }
 
-	// RVA: 0x5119E0 Offset: 0x50FFE0 VA: 0x1805119E0
+	// RVA: 0x511970 Offset: 0x50FF70 VA: 0x180511970
 	public Vector3 GetScreenPos(Vector3 oldPos) { }
 
-	// RVA: 0x5124B0 Offset: 0x510AB0 VA: 0x1805124B0
+	// RVA: 0x512440 Offset: 0x510A40 VA: 0x180512440
 	public void SetViewmodelVisiblity(bool visible) { }
 
-	// RVA: 0x512250 Offset: 0x510850 VA: 0x180512250 Slot: 138
+	// RVA: 0x5121E0 Offset: 0x5107E0 VA: 0x1805121E0 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x5125C0 Offset: 0x510BC0 VA: 0x1805125C0
+	// RVA: 0x512550 Offset: 0x510B50 VA: 0x180512550
 	public void .ctor() { }
 
 }

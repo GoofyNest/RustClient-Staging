@@ -9,13 +9,13 @@ public class LightPulse : MonoBehaviour, IClientComponent // TypeDefIndex: 9351
 
 	// Methods
 
-	// RVA: 0x4F33E0 Offset: 0x4F19E0 VA: 0x1804F33E0
+	// RVA: 0x4F3370 Offset: 0x4F1970 VA: 0x1804F3370
 	private void OnEnable() { }
 
-	// RVA: 0x4F3430 Offset: 0x4F1A30 VA: 0x1804F3430
+	// RVA: 0x4F33C0 Offset: 0x4F19C0 VA: 0x1804F33C0
 	private void Update() { }
 
-	// RVA: 0x4F3620 Offset: 0x4F1C20 VA: 0x1804F3620
+	// RVA: 0x4F35B0 Offset: 0x4F1BB0 VA: 0x1804F35B0
 	public void .ctor() { }
 
 }

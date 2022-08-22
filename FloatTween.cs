@@ -38,10 +38,10 @@ internal struct FloatTween : ITweenValue // TypeDefIndex: 5042
 	// RVA: 0x117130 Offset: 0x116530 VA: 0x180117130
 	public void set_ignoreTimeScale(bool value) { }
 
-	// RVA: 0x19E600 Offset: 0x19DA00 VA: 0x18019E600 Slot: 4
+	// RVA: 0x19E2F0 Offset: 0x19D6F0 VA: 0x18019E2F0 Slot: 4
 	public void TweenValue(float floatPercentage) { }
 
-	// RVA: 0x19E5F0 Offset: 0x19D9F0 VA: 0x18019E5F0
+	// RVA: 0x19E2E0 Offset: 0x19D6E0 VA: 0x18019E2E0
 	public void AddOnChangedCallback(UnityAction<float> callback) { }
 
 	// RVA: 0x117040 Offset: 0x116440 VA: 0x180117040
@@ -58,7 +58,7 @@ internal struct FloatTween : ITweenValue // TypeDefIndex: 5042
 public class FloatTween.FloatTweenCallback : UnityEvent<float> // TypeDefIndex: 5043
 {	// Methods
 
-	// RVA: 0x10C6360 Offset: 0x10C4960 VA: 0x1810C6360
+	// RVA: 0x10C6DD0 Offset: 0x10C53D0 VA: 0x1810C6DD0
 	public void .ctor() { }
 
 }
@@ -123,7 +123,7 @@ internal struct FloatTween : ITweenValue // TypeDefIndex: 6753
 public class FloatTween.FloatTweenCallback : UnityEvent<float> // TypeDefIndex: 6754
 {	// Methods
 
-	// RVA: 0xC65A70 Offset: 0xC64070 VA: 0x180C65A70
+	// RVA: 0xC65F40 Offset: 0xC64540 VA: 0x180C65F40
 	public void .ctor() { }
 
 }

@@ -11,10 +11,10 @@ public class SkyLantern : StorageContainer, IIgniteable // TypeDefIndex: 8757
 
 	// Methods
 
-	// RVA: 0x5A6120 Offset: 0x5A4720 VA: 0x1805A6120 Slot: 80
+	// RVA: 0x5A60B0 Offset: 0x5A46B0 VA: 0x1805A60B0 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x5A6190 Offset: 0x5A4790 VA: 0x1805A6190
+	// RVA: 0x5A6120 Offset: 0x5A4720 VA: 0x1805A6120
 	public void .ctor() { }
 
 }

@@ -13,7 +13,7 @@ public struct BufferList.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposabl
 	public void .ctor(BufferList<T> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F5500 Offset: 0x1F4900 VA: 0x1801F5500
+	|-RVA: 0x214250 Offset: 0x213650 VA: 0x180214250
 	|-BufferList.Enumerator<FoliageKey>..ctor
 	|-BufferList.Enumerator<InstancingKey>..ctor
 	|-BufferList.Enumerator<InvokeAction>..ctor
@@ -31,7 +31,7 @@ public struct BufferList.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposabl
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F4F10 Offset: 0x1F4310 VA: 0x1801F4F10
+	|-RVA: 0x1F6210 Offset: 0x1F5610 VA: 0x1801F6210
 	|-BufferList.Enumerator<BasePlayer>.MoveNext
 	|-BufferList.Enumerator<FoliageKey>.MoveNext
 	|-BufferList.Enumerator<InstancingKey>.MoveNext
@@ -51,7 +51,7 @@ public struct BufferList.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposabl
 	public void Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F4FB0 Offset: 0x1F43B0 VA: 0x1801F4FB0
+	|-RVA: 0x1F62C0 Offset: 0x1F56C0 VA: 0x1801F62C0
 	|-BufferList.Enumerator<FoliageKey>.Reset
 	|-BufferList.Enumerator<InstancingKey>.Reset
 	|-BufferList.Enumerator<InvokeAction>.Reset
@@ -69,7 +69,7 @@ public struct BufferList.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposabl
 	public T get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F5530 Offset: 0x1F4930 VA: 0x1801F5530
+	|-RVA: 0x1F64D0 Offset: 0x1F58D0 VA: 0x1801F64D0
 	|-BufferList.Enumerator<BasePlayer>.get_Current
 	|-BufferList.Enumerator<Collider>.get_Current
 	|-BufferList.Enumerator<FoliageKey>.get_Current
@@ -78,18 +78,18 @@ public struct BufferList.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposabl
 	|-BufferList.Enumerator<uint>.get_Current
 	|-BufferList.Enumerator<ulong>.get_Current
 	|
-	|-RVA: 0x1F5540 Offset: 0x1F4940 VA: 0x1801F5540
+	|-RVA: 0x1F64B0 Offset: 0x1F58B0 VA: 0x1801F64B0
 	|-BufferList.Enumerator<InstancingKey>.get_Current
 	|-BufferList.Enumerator<InvokeAction>.get_Current
 	|-BufferList.Enumerator<SpecialPurposeCamera.RenderEntry>.get_Current
 	|
-	|-RVA: 0x1F5560 Offset: 0x1F4960 VA: 0x1801F5560
+	|-RVA: 0x214280 Offset: 0x213680 VA: 0x180214280
 	|-BufferList.Enumerator<RendererKey>.get_Current
 	|
-	|-RVA: 0x1F55A0 Offset: 0x1F49A0 VA: 0x1801F55A0
+	|-RVA: 0x2142C0 Offset: 0x2136C0 VA: 0x1802142C0
 	|-BufferList.Enumerator<Matrix4x4>.get_Current
 	|
-	|-RVA: 0x1F5580 Offset: 0x1F4980 VA: 0x1801F5580
+	|-RVA: 0x2142A0 Offset: 0x2136A0 VA: 0x1802142A0
 	|-BufferList.Enumerator<ViewModelDrawEvent>.get_Current
 	*/
 
@@ -97,31 +97,31 @@ public struct BufferList.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposabl
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F4FC0 Offset: 0x1F43C0 VA: 0x1801F4FC0
+	|-RVA: 0x213E00 Offset: 0x213200 VA: 0x180213E00
 	|-BufferList.Enumerator<FoliageKey>.System.Collections.IEnumerator.get_Current
 	|-BufferList.Enumerator<ulong>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x1F5060 Offset: 0x1F4460 VA: 0x1801F5060
+	|-RVA: 0x1F63C0 Offset: 0x1F57C0 VA: 0x1801F63C0
 	|-BufferList.Enumerator<InstancingKey>.System.Collections.IEnumerator.get_Current
 	|-BufferList.Enumerator<InvokeAction>.System.Collections.IEnumerator.get_Current
 	|-BufferList.Enumerator<SpecialPurposeCamera.RenderEntry>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x1F5250 Offset: 0x1F4650 VA: 0x1801F5250
+	|-RVA: 0x213FE0 Offset: 0x2133E0 VA: 0x180213FE0
 	|-BufferList.Enumerator<RendererKey>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x1F5360 Offset: 0x1F4760 VA: 0x1801F5360
+	|-RVA: 0x1F6380 Offset: 0x1F5780 VA: 0x1801F6380
 	|-BufferList.Enumerator<object>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x1F53A0 Offset: 0x1F47A0 VA: 0x1801F53A0
+	|-RVA: 0x2140F0 Offset: 0x2134F0 VA: 0x1802140F0
 	|-BufferList.Enumerator<float>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x1F5110 Offset: 0x1F4510 VA: 0x1801F5110
+	|-RVA: 0x213EA0 Offset: 0x2132A0 VA: 0x180213EA0
 	|-BufferList.Enumerator<uint>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x1F5440 Offset: 0x1F4840 VA: 0x1801F5440
+	|-RVA: 0x214190 Offset: 0x213590 VA: 0x180214190
 	|-BufferList.Enumerator<Matrix4x4>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x1F51A0 Offset: 0x1F45A0 VA: 0x1801F51A0
+	|-RVA: 0x213F30 Offset: 0x213330 VA: 0x180213F30
 	|-BufferList.Enumerator<ViewModelDrawEvent>.System.Collections.IEnumerator.get_Current
 	*/
 

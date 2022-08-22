@@ -1,6 +1,6 @@
 public abstract class ASubband // TypeDefIndex: 7398
 {	// Fields
-	internal static readonly float[] ScaleFactors; // 0x1DF4
+	internal static readonly float[] ScaleFactors; // 0x1C90
 
 	// Methods
 
@@ -19,7 +19,7 @@ public abstract class ASubband // TypeDefIndex: 7398
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	protected void .ctor() { }
 
-	// RVA: 0x5DA670 Offset: 0x5D8C70 VA: 0x1805DA670
+	// RVA: 0x5DA600 Offset: 0x5D8C00 VA: 0x1805DA600
 	private static void .cctor() { }
 
 }

@@ -5,7 +5,7 @@ public class LootSpawn : ScriptableObject // TypeDefIndex: 10743
 
 	// Methods
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }

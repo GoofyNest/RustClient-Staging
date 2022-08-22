@@ -28,116 +28,116 @@ public class TextInfo : ICloneable, IDeserializationCallback // TypeDefIndex: 71
 
 	// Methods
 
-	// RVA: 0x138A2A0 Offset: 0x13888A0 VA: 0x18138A2A0
+	// RVA: 0x13893A0 Offset: 0x13879A0 VA: 0x1813893A0
 	internal static TextInfo get_Invariant() { }
 
-	// RVA: 0x138A1F0 Offset: 0x13887F0 VA: 0x18138A1F0
+	// RVA: 0x13892F0 Offset: 0x13878F0 VA: 0x1813892F0
 	internal void .ctor(CultureData cultureData) { }
 
 	[OnDeserializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1388E20 Offset: 0x1387420 VA: 0x181388E20
+	// RVA: 0x1387F20 Offset: 0x1386520 VA: 0x181387F20
 	private void OnDeserializing(StreamingContext ctx) { }
 
-	// RVA: 0x1388CE0 Offset: 0x13872E0 VA: 0x181388CE0
+	// RVA: 0x1387DE0 Offset: 0x13863E0 VA: 0x181387DE0
 	private void OnDeserialized() { }
 
 	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1388E10 Offset: 0x1387410 VA: 0x181388E10
+	// RVA: 0x1387F10 Offset: 0x1386510 VA: 0x181387F10
 	private void OnDeserialized(StreamingContext ctx) { }
 
 	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1388E60 Offset: 0x1387460 VA: 0x181388E60
+	// RVA: 0x1387F60 Offset: 0x1386560 VA: 0x181387F60
 	private void OnSerializing(StreamingContext ctx) { }
 
-	// RVA: 0x1388730 Offset: 0x1386D30 VA: 0x181388730
+	// RVA: 0x1387830 Offset: 0x1385E30 VA: 0x181387830
 	internal static int GetHashCodeOrdinalIgnoreCase(string s) { }
 
-	// RVA: 0x13885F0 Offset: 0x1386BF0 VA: 0x1813885F0
+	// RVA: 0x13876F0 Offset: 0x1385CF0 VA: 0x1813876F0
 	internal static int GetHashCodeOrdinalIgnoreCase(string s, bool forceRandomizedHashing, long additionalEntropy) { }
 
-	// RVA: 0x1388320 Offset: 0x1386920 VA: 0x181388320
+	// RVA: 0x1387420 Offset: 0x1385A20 VA: 0x181387420
 	internal static int CompareOrdinalIgnoreCase(string str1, string str2) { }
 
-	// RVA: 0x1388310 Offset: 0x1386910 VA: 0x181388310
+	// RVA: 0x1387410 Offset: 0x1385A10 VA: 0x181387410
 	internal static int CompareOrdinalIgnoreCaseEx(string strA, int indexA, string strB, int indexB, int lengthA, int lengthB) { }
 
-	// RVA: 0x1388980 Offset: 0x1386F80 VA: 0x181388980
+	// RVA: 0x1387A80 Offset: 0x1386080 VA: 0x181387A80
 	internal static int IndexOfStringOrdinalIgnoreCase(string source, string value, int startIndex, int count) { }
 
-	// RVA: 0x1388C20 Offset: 0x1387220 VA: 0x181388C20
+	// RVA: 0x1387D20 Offset: 0x1386320 VA: 0x181387D20
 	internal static int LastIndexOfStringOrdinalIgnoreCase(string source, string value, int startIndex, int count) { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public string get_CultureName() { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x1388240 Offset: 0x1386840 VA: 0x181388240 Slot: 6
+	// RVA: 0x1387340 Offset: 0x1385940 VA: 0x181387340 Slot: 6
 	public virtual object Clone() { }
 
-	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
+	// RVA: 0x960010 Offset: 0x95E610 VA: 0x180960010
 	internal void SetReadOnlyState(bool readOnly) { }
 
-	// RVA: 0x1389660 Offset: 0x1387C60 VA: 0x181389660 Slot: 7
+	// RVA: 0x1388760 Offset: 0x1386D60 VA: 0x181388760 Slot: 7
 	public virtual char ToLower(char c) { }
 
-	// RVA: 0x13896C0 Offset: 0x1387CC0 VA: 0x1813896C0 Slot: 8
+	// RVA: 0x13887C0 Offset: 0x1386DC0 VA: 0x1813887C0 Slot: 8
 	public virtual string ToLower(string str) { }
 
-	// RVA: 0x1388F00 Offset: 0x1387500 VA: 0x181388F00
+	// RVA: 0x1388000 Offset: 0x1386600 VA: 0x181388000
 	private static char ToLowerAsciiInvariant(char c) { }
 
-	// RVA: 0x138A190 Offset: 0x1388790 VA: 0x18138A190 Slot: 9
+	// RVA: 0x1389290 Offset: 0x1387890 VA: 0x181389290 Slot: 9
 	public virtual char ToUpper(char c) { }
 
-	// RVA: 0x138A060 Offset: 0x1388660 VA: 0x18138A060 Slot: 10
+	// RVA: 0x1389160 Offset: 0x1387760 VA: 0x181389160 Slot: 10
 	public virtual string ToUpper(string str) { }
 
-	// RVA: 0x1389840 Offset: 0x1387E40 VA: 0x181389840
+	// RVA: 0x1388940 Offset: 0x1386F40 VA: 0x181388940
 	private static char ToUpperAsciiInvariant(char c) { }
 
-	// RVA: 0x1388C10 Offset: 0x1387210 VA: 0x181388C10
+	// RVA: 0x1387D10 Offset: 0x1386310 VA: 0x181387D10
 	private static bool IsAscii(char c) { }
 
-	// RVA: 0x138A3A0 Offset: 0x13889A0 VA: 0x18138A3A0
+	// RVA: 0x13894A0 Offset: 0x1387AA0 VA: 0x1813894A0
 	private bool get_IsAsciiCasingSameAsInvariant() { }
 
-	// RVA: 0x1388360 Offset: 0x1386960 VA: 0x181388360 Slot: 0
+	// RVA: 0x1387460 Offset: 0x1385A60 VA: 0x181387460 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xE6B890 Offset: 0xE69E90 VA: 0x180E6B890 Slot: 2
+	// RVA: 0xE6C340 Offset: 0xE6A940 VA: 0x180E6C340 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13897F0 Offset: 0x1387DF0 VA: 0x1813897F0 Slot: 3
+	// RVA: 0x13888F0 Offset: 0x1386EF0 VA: 0x1813888F0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1388E10 Offset: 0x1387410 VA: 0x181388E10 Slot: 5
+	// RVA: 0x1387F10 Offset: 0x1386510 VA: 0x181387F10 Slot: 5
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 
-	// RVA: 0x13885D0 Offset: 0x1386BD0 VA: 0x1813885D0
+	// RVA: 0x13876D0 Offset: 0x1385CD0 VA: 0x1813876D0
 	internal int GetCaseInsensitiveHashCode(string str) { }
 
-	// RVA: 0x1388400 Offset: 0x1386A00 VA: 0x181388400
+	// RVA: 0x1387500 Offset: 0x1385B00 VA: 0x181387500
 	internal int GetCaseInsensitiveHashCode(string str, bool forceRandomizedHashing, long additionalEntropy) { }
 
-	// RVA: 0x1388860 Offset: 0x1386E60 VA: 0x181388860
+	// RVA: 0x1387960 Offset: 0x1385F60 VA: 0x181387960
 	private int GetInvariantCaseInsensitiveHashCode(string str) { }
 
-	// RVA: 0x1389F70 Offset: 0x1388570 VA: 0x181389F70
+	// RVA: 0x1389070 Offset: 0x1387670 VA: 0x181389070
 	private string ToUpperInternal(string str) { }
 
-	// RVA: 0x1388F20 Offset: 0x1387520 VA: 0x181388F20
+	// RVA: 0x1388020 Offset: 0x1386620 VA: 0x181388020
 	private string ToLowerInternal(string str) { }
 
-	// RVA: 0x1389860 Offset: 0x1387E60 VA: 0x181389860
+	// RVA: 0x1388960 Offset: 0x1386F60 VA: 0x181388960
 	private char ToUpperInternal(char c) { }
 
-	// RVA: 0x1389010 Offset: 0x1387610 VA: 0x181389010
+	// RVA: 0x1388110 Offset: 0x1386710 VA: 0x181388110
 	private char ToLowerInternal(char c) { }
 
-	// RVA: 0x1388A50 Offset: 0x1387050 VA: 0x181388A50
+	// RVA: 0x1387B50 Offset: 0x1386150 VA: 0x181387B50
 	private static int InternalCompareStringOrdinalIgnoreCase(string strA, int indexA, string strB, int indexB, int lenA, int lenB) { }
 
-	// RVA: 0x138A270 Offset: 0x1388870 VA: 0x18138A270
+	// RVA: 0x1389370 Offset: 0x1387970 VA: 0x181389370
 	internal void .ctor() { }
 
 }

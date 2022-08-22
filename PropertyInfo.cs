@@ -17,7 +17,7 @@ public abstract class PropertyInfo : MemberInfo, _PropertyInfo // TypeDefIndex: 
 	// RVA: -1 Offset: -1 Slot: 19
 	public abstract bool get_CanWrite();
 
-	// RVA: 0xED99F0 Offset: 0xED7FF0 VA: 0x180ED99F0 Slot: 7
+	// RVA: 0xEDA4A0 Offset: 0xED8AA0 VA: 0x180EDA4A0 Slot: 7
 	public override MemberTypes get_MemberType() { }
 
 	// RVA: -1 Offset: -1 Slot: 20
@@ -29,7 +29,7 @@ public abstract class PropertyInfo : MemberInfo, _PropertyInfo // TypeDefIndex: 
 	// RVA: -1 Offset: -1 Slot: 21
 	public abstract MethodInfo[] GetAccessors(bool nonPublic);
 
-	// RVA: 0x18D48A0 Offset: 0x18D2EA0 VA: 0x1818D48A0 Slot: 22
+	// RVA: 0x18D3FC0 Offset: 0x18D25C0 VA: 0x1818D3FC0 Slot: 22
 	public MethodInfo GetGetMethod() { }
 
 	// RVA: -1 Offset: -1 Slot: 23
@@ -38,7 +38,7 @@ public abstract class PropertyInfo : MemberInfo, _PropertyInfo // TypeDefIndex: 
 	// RVA: -1 Offset: -1 Slot: 24
 	public abstract ParameterInfo[] GetIndexParameters();
 
-	// RVA: 0x18D4A80 Offset: 0x18D3080 VA: 0x1818D4A80 Slot: 25
+	// RVA: 0x18D41A0 Offset: 0x18D27A0 VA: 0x1818D41A0 Slot: 25
 	public MethodInfo GetSetMethod() { }
 
 	// RVA: -1 Offset: -1 Slot: 26
@@ -46,12 +46,12 @@ public abstract class PropertyInfo : MemberInfo, _PropertyInfo // TypeDefIndex: 
 
 	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	// RVA: 0x18D1630 Offset: 0x18CFC30 VA: 0x1818D1630 Slot: 27
+	// RVA: 0x18D0D50 Offset: 0x18CF350 VA: 0x1818D0D50 Slot: 27
 	public virtual object GetValue(object obj, object[] index) { }
 
 	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	// RVA: 0x18D4AA0 Offset: 0x18D30A0 VA: 0x1818D4AA0
+	// RVA: 0x18D41C0 Offset: 0x18D27C0 VA: 0x1818D41C0
 	public object GetValue(object obj) { }
 
 	// RVA: -1 Offset: -1 Slot: 28
@@ -59,43 +59,43 @@ public abstract class PropertyInfo : MemberInfo, _PropertyInfo // TypeDefIndex: 
 
 	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
 	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	// RVA: 0x18D4AE0 Offset: 0x18D30E0 VA: 0x1818D4AE0 Slot: 29
+	// RVA: 0x18D4200 Offset: 0x18D2800 VA: 0x1818D4200 Slot: 29
 	public virtual void SetValue(object obj, object value, object[] index) { }
 
 	// RVA: -1 Offset: -1 Slot: 30
 	public abstract void SetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, object[] index, CultureInfo culture);
 
-	// RVA: 0x18D48C0 Offset: 0x18D2EC0 VA: 0x1818D48C0 Slot: 31
+	// RVA: 0x18D3FE0 Offset: 0x18D25E0 VA: 0x1818D3FE0 Slot: 31
 	public virtual Type[] GetOptionalCustomModifiers() { }
 
-	// RVA: 0x18D4A20 Offset: 0x18D3020 VA: 0x1818D4A20 Slot: 32
+	// RVA: 0x18D4140 Offset: 0x18D2740 VA: 0x1818D4140 Slot: 32
 	public virtual Type[] GetRequiredCustomModifiers() { }
 
-	// RVA: 0x18D4810 Offset: 0x18D2E10 VA: 0x1818D4810
+	// RVA: 0x18D3F30 Offset: 0x18D2530 VA: 0x1818D3F30
 	private static NotImplementedException CreateNIE() { }
 
-	// RVA: 0x18D4860 Offset: 0x18D2E60 VA: 0x1818D4860 Slot: 33
+	// RVA: 0x18D3F80 Offset: 0x18D2580 VA: 0x1818D3F80 Slot: 33
 	public virtual object GetConstantValue() { }
 
-	// RVA: 0x18D49E0 Offset: 0x18D2FE0 VA: 0x1818D49E0 Slot: 34
+	// RVA: 0x18D4100 Offset: 0x18D2700 VA: 0x1818D4100 Slot: 34
 	public virtual object GetRawConstantValue() { }
 
-	// RVA: 0x1291C00 Offset: 0x1290200 VA: 0x181291C00 Slot: 0
+	// RVA: 0x12922A0 Offset: 0x12908A0 VA: 0x1812922A0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xCCE820 Offset: 0xCCCE20 VA: 0x180CCE820 Slot: 2
+	// RVA: 0xCCECC0 Offset: 0xCCD2C0 VA: 0x180CCECC0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x18C6610 Offset: 0x18C4C10 VA: 0x1818C6610
+	// RVA: 0x18C5D30 Offset: 0x18C4330 VA: 0x1818C5D30
 	public static bool op_Equality(PropertyInfo left, PropertyInfo right) { }
 
-	// RVA: 0x18C6660 Offset: 0x18C4C60 VA: 0x1818C6660
+	// RVA: 0x18C5D80 Offset: 0x18C4380 VA: 0x1818C5D80
 	public static bool op_Inequality(PropertyInfo left, PropertyInfo right) { }
 
-	// RVA: 0x18D4B20 Offset: 0x18D3120 VA: 0x1818D4B20
+	// RVA: 0x18D4240 Offset: 0x18D2840 VA: 0x1818D4240
 	private static PropertyInfo internal_from_handle_type(IntPtr event_handle, IntPtr type_handle) { }
 
-	// RVA: 0x18D4920 Offset: 0x18D2F20 VA: 0x1818D4920
+	// RVA: 0x18D4040 Offset: 0x18D2640 VA: 0x1818D4040
 	internal static PropertyInfo GetPropertyFromHandle(RuntimePropertyHandle handle, RuntimeTypeHandle reflectedType) { }
 
 }

@@ -25,16 +25,16 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics> // TypeDefIndex: 4111
 
 	// Methods
 
-	// RVA: 0x13A310 Offset: 0x139710 VA: 0x18013A310
+	// RVA: 0x13A130 Offset: 0x139530 VA: 0x18013A130
 	public float get_width() { }
 
-	// RVA: 0x212330 Offset: 0x211730 VA: 0x180212330
+	// RVA: 0x211760 Offset: 0x210B60 VA: 0x180211760
 	public float get_height() { }
 
-	// RVA: 0x212340 Offset: 0x211740 VA: 0x180212340
+	// RVA: 0x211770 Offset: 0x210B70 VA: 0x180211770
 	public float get_horizontalBearingX() { }
 
-	// RVA: 0x212350 Offset: 0x211750 VA: 0x180212350
+	// RVA: 0x211780 Offset: 0x210B80 VA: 0x180211780
 	public float get_horizontalBearingY() { }
 
 	// RVA: 0x23DCE0 Offset: 0x23D0E0 VA: 0x18023DCE0

@@ -9,17 +9,17 @@ public class ImageEffectComposite : MonoBehaviour // TypeDefIndex: 8030
 
 	// Methods
 
-	// RVA: 0x106D460 Offset: 0x106BA60 VA: 0x18106D460
+	// RVA: 0x106DED0 Offset: 0x106C4D0 VA: 0x18106DED0
 	public void Add(ImageEffectLayer effect) { }
 
-	// RVA: 0x106D990 Offset: 0x106BF90 VA: 0x18106D990
+	// RVA: 0x106E400 Offset: 0x106CA00 VA: 0x18106E400
 	public void Remove(ImageEffectLayer effect) { }
 
 	[ImageEffectTransformsToLDR] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x106D4C0 Offset: 0x106BAC0 VA: 0x18106D4C0
+	// RVA: 0x106DF30 Offset: 0x106C530 VA: 0x18106DF30
 	private void OnRenderImage(RenderTexture src, RenderTexture dst) { }
 
-	// RVA: 0x106D9F0 Offset: 0x106BFF0 VA: 0x18106D9F0
+	// RVA: 0x106E460 Offset: 0x106CA60 VA: 0x18106E460
 	public void .ctor() { }
 
 }
@@ -31,13 +31,13 @@ private sealed class ImageEffectComposite.<>c // TypeDefIndex: 8031
 
 	// Methods
 
-	// RVA: 0x107A900 Offset: 0x1078F00 VA: 0x18107A900
+	// RVA: 0x107B370 Offset: 0x1079970 VA: 0x18107B370
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x107A480 Offset: 0x1078A80 VA: 0x18107A480
+	// RVA: 0x107AEF0 Offset: 0x10794F0 VA: 0x18107AEF0
 	internal int <.ctor>b__9_0(ImageEffectLayer x, ImageEffectLayer y) { }
 
 }

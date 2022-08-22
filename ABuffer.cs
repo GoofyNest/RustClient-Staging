@@ -8,10 +8,10 @@ public abstract class ABuffer // TypeDefIndex: 7382
 	// RVA: -1 Offset: -1 Slot: 4
 	protected abstract void Append(int channel, short sampleValue);
 
-	// RVA: 0x5DA570 Offset: 0x5D8B70 VA: 0x1805DA570 Slot: 5
+	// RVA: 0x5DA500 Offset: 0x5D8B00 VA: 0x1805DA500 Slot: 5
 	internal virtual void AppendSamples(int channel, float[] samples) { }
 
-	// RVA: 0x5DA640 Offset: 0x5D8C40 VA: 0x1805DA640
+	// RVA: 0x5DA5D0 Offset: 0x5D8BD0 VA: 0x1805DA5D0
 	private static short Clip(float sample) { }
 
 	// RVA: -1 Offset: -1 Slot: 6

@@ -10,16 +10,16 @@ public static class FirstPersonSpectatorMode // TypeDefIndex: 9189
 
 	// Methods
 
-	// RVA: 0x78B860 Offset: 0x789E60 VA: 0x18078B860
+	// RVA: 0x78B7B0 Offset: 0x789DB0 VA: 0x18078B7B0
 	public static void Apply(Camera cam, BaseEntity target) { }
 
-	// RVA: 0x78CAD0 Offset: 0x78B0D0 VA: 0x18078CAD0
+	// RVA: 0x78CA20 Offset: 0x78B020 VA: 0x18078CA20
 	public static void OnFirstPersonSpectateEnds() { }
 
-	// RVA: 0x78CE20 Offset: 0x78B420 VA: 0x18078CE20
+	// RVA: 0x78CD70 Offset: 0x78B370 VA: 0x18078CD70
 	public static void OnPlayerSignal(BaseEntity.Signal signal, string arg, BasePlayer fromPlayer) { }
 
-	// RVA: 0x78CCB0 Offset: 0x78B2B0 VA: 0x18078CCB0
+	// RVA: 0x78CC00 Offset: 0x78B200 VA: 0x18078CC00
 	public static void OnHeldNetworkUpdate(HeldEntity entity) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

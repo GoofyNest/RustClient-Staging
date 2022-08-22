@@ -4,7 +4,7 @@ internal class Win32IPGlobalProperties : IPGlobalProperties // TypeDefIndex: 308
 
 	// Methods
 
-	// RVA: 0x1349960 Offset: 0x1347F60 VA: 0x181349960 Slot: 4
+	// RVA: 0x1348A60 Offset: 0x1347060 VA: 0x181348A60 Slot: 4
 	public override string get_DomainName() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

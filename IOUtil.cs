@@ -1,13 +1,13 @@
 internal static class IOUtil // TypeDefIndex: 1069
 {	// Methods
 
-	// RVA: 0x78D310 Offset: 0x78B910 VA: 0x18078D310
+	// RVA: 0x78D220 Offset: 0x78B820 VA: 0x18078D220
 	internal static bool FlagTest(MessageEnum flag, MessageEnum target) { }
 
-	// RVA: 0x11F58C0 Offset: 0x11F3EC0 VA: 0x1811F58C0
+	// RVA: 0x11F5F60 Offset: 0x11F4560 VA: 0x1811F5F60
 	internal static void WriteStringWithCode(string value, __BinaryWriter sout) { }
 
-	// RVA: 0x11F5920 Offset: 0x11F3F20 VA: 0x1811F5920
+	// RVA: 0x11F5FC0 Offset: 0x11F45C0 VA: 0x1811F5FC0
 	internal static void WriteWithCode(Type type, object value, __BinaryWriter sout) { }
 
 }

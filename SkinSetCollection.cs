@@ -4,13 +4,13 @@ public class SkinSetCollection : ScriptableObject // TypeDefIndex: 10760
 
 	// Methods
 
-	// RVA: 0x59E580 Offset: 0x59CB80 VA: 0x18059E580
+	// RVA: 0x59E510 Offset: 0x59CB10 VA: 0x18059E510
 	public int GetIndex(float MeshNumber) { }
 
-	// RVA: 0x59E620 Offset: 0x59CC20 VA: 0x18059E620
+	// RVA: 0x59E5B0 Offset: 0x59CBB0 VA: 0x18059E5B0
 	public SkinSet Get(float MeshNumber) { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }

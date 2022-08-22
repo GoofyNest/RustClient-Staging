@@ -5,13 +5,13 @@ public class BurstClothManager : MonoBehaviour // TypeDefIndex: 7311
 
 	// Methods
 
-	// RVA: 0x2238D20 Offset: 0x2237320 VA: 0x182238D20
+	// RVA: 0x2239540 Offset: 0x2237B40 VA: 0x182239540
 	public void LateUpdate() { }
 
-	// RVA: 0x2238C40 Offset: 0x2237240 VA: 0x182238C40
+	// RVA: 0x2239460 Offset: 0x2237A60 VA: 0x182239460
 	public static BurstClothManager Get() { }
 
-	// RVA: 0x2238FE0 Offset: 0x22375E0 VA: 0x182238FE0
+	// RVA: 0x2239800 Offset: 0x2237E00 VA: 0x182239800
 	public void .ctor() { }
 
 }

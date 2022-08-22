@@ -33,40 +33,40 @@ public class CameraMotionBlur : PostEffectsBase // TypeDefIndex: 8168
 
 	// Methods
 
-	// RVA: 0x12C8050 Offset: 0x12C6650 VA: 0x1812C8050
+	// RVA: 0x12CE500 Offset: 0x12CCB00 VA: 0x1812CE500
 	private void CalculateViewProjection() { }
 
-	// RVA: 0x12CA4E0 Offset: 0x12C8AE0 VA: 0x1812CA4E0
+	// RVA: 0x12D0990 Offset: 0x12CEF90 VA: 0x1812D0990
 	private void Start() { }
 
-	// RVA: 0x12C88A0 Offset: 0x12C6EA0 VA: 0x1812C88A0
+	// RVA: 0x12CED50 Offset: 0x12CD350 VA: 0x1812CED50
 	private void OnEnable() { }
 
-	// RVA: 0x12C86F0 Offset: 0x12C6CF0 VA: 0x1812C86F0
+	// RVA: 0x12CEBA0 Offset: 0x12CD1A0 VA: 0x1812CEBA0
 	private void OnDisable() { }
 
-	// RVA: 0x12C8230 Offset: 0x12C6830 VA: 0x1812C8230 Slot: 4
+	// RVA: 0x12CE6E0 Offset: 0x12CCCE0 VA: 0x1812CE6E0 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x12C8970 Offset: 0x12C6F70 VA: 0x1812C8970
+	// RVA: 0x12CEE20 Offset: 0x12CD420 VA: 0x1812CEE20
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x12CA2E0 Offset: 0x12C88E0 VA: 0x1812CA2E0
+	// RVA: 0x12D0790 Offset: 0x12CED90 VA: 0x1812D0790
 	private void Remember() { }
 
-	// RVA: 0x12C82E0 Offset: 0x12C68E0 VA: 0x1812C82E0
+	// RVA: 0x12CE790 Offset: 0x12CCD90 VA: 0x1812CE790
 	private Camera GetTmpCam() { }
 
-	// RVA: 0x12CA3D0 Offset: 0x12C89D0 VA: 0x1812CA3D0
+	// RVA: 0x12D0880 Offset: 0x12CEE80 VA: 0x1812D0880
 	private void StartFrame() { }
 
-	// RVA: 0x12CA730 Offset: 0x12C8D30 VA: 0x1812CA730
+	// RVA: 0x12D0BE0 Offset: 0x12CF1E0 VA: 0x1812D0BE0
 	private static int divRoundUp(int x, int d) { }
 
-	// RVA: 0x12CA610 Offset: 0x12C8C10 VA: 0x1812CA610
+	// RVA: 0x12D0AC0 Offset: 0x12CF0C0 VA: 0x1812D0AC0
 	public void .ctor() { }
 
-	// RVA: 0x12CA5D0 Offset: 0x12C8BD0 VA: 0x1812CA5D0
+	// RVA: 0x12D0A80 Offset: 0x12CF080 VA: 0x1812D0A80
 	private static void .cctor() { }
 
 }

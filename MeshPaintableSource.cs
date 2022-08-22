@@ -20,25 +20,25 @@ public class MeshPaintableSource : MonoBehaviour, IClientComponent // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x9663E0 Offset: 0x9649E0 VA: 0x1809663E0
+	// RVA: 0x9668E0 Offset: 0x964EE0 VA: 0x1809668E0
 	public void Init() { }
 
-	// RVA: 0x966330 Offset: 0x964930 VA: 0x180966330
+	// RVA: 0x966830 Offset: 0x964E30 VA: 0x180966830
 	public void Free() { }
 
-	// RVA: 0x966A70 Offset: 0x965070 VA: 0x180966A70 Slot: 4
+	// RVA: 0x966F70 Offset: 0x965570 VA: 0x180966F70 Slot: 4
 	public virtual void UpdateMaterials(MaterialPropertyBlock block, Texture2D textureOverride, bool forEditing = False, bool isSelected = False) { }
 
-	// RVA: 0x966A00 Offset: 0x965000 VA: 0x180966A00 Slot: 5
+	// RVA: 0x966F00 Offset: 0x965500 VA: 0x180966F00 Slot: 5
 	public virtual Color32[] UpdateFrom(Texture2D input) { }
 
-	// RVA: 0x9669A0 Offset: 0x964FA0 VA: 0x1809669A0
+	// RVA: 0x966EA0 Offset: 0x9654A0 VA: 0x180966EA0
 	public void Load(byte[] data) { }
 
-	// RVA: 0x966220 Offset: 0x964820 VA: 0x180966220
+	// RVA: 0x966720 Offset: 0x964D20 VA: 0x180966720
 	public void Clear() { }
 
-	// RVA: 0x966AA0 Offset: 0x9650A0 VA: 0x180966AA0
+	// RVA: 0x966FA0 Offset: 0x9655A0 VA: 0x180966FA0
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

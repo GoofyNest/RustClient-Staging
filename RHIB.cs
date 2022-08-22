@@ -10,35 +10,35 @@ public class RHIB : MotorRowboat // TypeDefIndex: 8439
 
 	// Methods
 
-	// RVA: 0x6A14F0 Offset: 0x69FAF0 VA: 0x1806A14F0 Slot: 49
+	// RVA: 0x6A1480 Offset: 0x69FA80 VA: 0x1806A1480 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x6A1E80 Offset: 0x6A0480 VA: 0x1806A1E80 Slot: 50
+	// RVA: 0x6A1E10 Offset: 0x6A0410 VA: 0x1806A1E10 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x6A1900 Offset: 0x69FF00 VA: 0x1806A1900 Slot: 35
+	// RVA: 0x6A1890 Offset: 0x69FE90 VA: 0x1806A1890 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.Menu] // RVA: 0x80A30 Offset: 0x7FE30 VA: 0x180080A30
 	[BaseEntity.Menu.Description] // RVA: 0x80A30 Offset: 0x7FE30 VA: 0x180080A30
 	[BaseEntity.Menu.Icon] // RVA: 0x80A30 Offset: 0x7FE30 VA: 0x180080A30
 	[BaseEntity.Menu.ShowIf] // RVA: 0x80A30 Offset: 0x7FE30 VA: 0x180080A30
-	// RVA: 0x6A1B00 Offset: 0x6A0100 VA: 0x1806A1B00
+	// RVA: 0x6A1A90 Offset: 0x6A0090 VA: 0x1806A1A90
 	public void Release(BasePlayer player) { }
 
-	// RVA: 0x6A19F0 Offset: 0x69FFF0 VA: 0x1806A19F0
+	// RVA: 0x6A1980 Offset: 0x69FF80 VA: 0x1806A1980
 	public bool Release_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x6A1800 Offset: 0x69FE00 VA: 0x1806A1800 Slot: 198
+	// RVA: 0x6A1790 Offset: 0x69FD90 VA: 0x1806A1790 Slot: 198
 	public override bool LookingAtEngine(BasePlayer player) { }
 
-	// RVA: 0x6A18E0 Offset: 0x69FEE0 VA: 0x1806A18E0 Slot: 199
+	// RVA: 0x6A1870 Offset: 0x69FE70 VA: 0x1806A1870 Slot: 199
 	public override bool LookingAtFuelArea(BasePlayer player) { }
 
-	// RVA: 0x6A1B40 Offset: 0x6A0140 VA: 0x1806A1B40 Slot: 197
+	// RVA: 0x6A1AD0 Offset: 0x6A00D0 VA: 0x1806A1AD0 Slot: 197
 	public override void UpdateEngineRotation() { }
 
-	// RVA: 0x6A1E20 Offset: 0x6A0420 VA: 0x1806A1E20
+	// RVA: 0x6A1DB0 Offset: 0x6A03B0 VA: 0x1806A1DB0
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

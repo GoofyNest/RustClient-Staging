@@ -45,49 +45,49 @@ public class HitInfo // TypeDefIndex: 9900
 
 	// Methods
 
-	// RVA: 0x73C480 Offset: 0x73AA80 VA: 0x18073C480
+	// RVA: 0x73C3D0 Offset: 0x73A9D0 VA: 0x18073C3D0
 	public bool IsProjectile() { }
 
-	// RVA: 0x73CCD0 Offset: 0x73B2D0 VA: 0x18073CCD0
+	// RVA: 0x73CC20 Offset: 0x73B220 VA: 0x18073CC20
 	public BasePlayer get_InitiatorPlayer() { }
 
-	// RVA: 0x73CD60 Offset: 0x73B360 VA: 0x18073CD60
+	// RVA: 0x73CCB0 Offset: 0x73B2B0 VA: 0x18073CCB0
 	public Vector3 get_attackNormal() { }
 
-	// RVA: 0x73D260 Offset: 0x73B860 VA: 0x18073D260
+	// RVA: 0x73D1B0 Offset: 0x73B7B0 VA: 0x18073D1B0
 	public bool get_hasDamage() { }
 
-	// RVA: 0x73CAF0 Offset: 0x73B0F0 VA: 0x18073CAF0
+	// RVA: 0x73CA40 Offset: 0x73B040 VA: 0x18073CA40
 	public void .ctor() { }
 
-	// RVA: 0x73CB70 Offset: 0x73B170 VA: 0x18073CB70
+	// RVA: 0x73CAC0 Offset: 0x73B0C0 VA: 0x18073CAC0
 	public void .ctor(BaseEntity attacker, BaseEntity target, DamageType type, float damageAmount, Vector3 vhitPosition) { }
 
-	// RVA: 0x73C940 Offset: 0x73AF40 VA: 0x18073C940
+	// RVA: 0x73C890 Offset: 0x73AE90 VA: 0x18073C890
 	public void .ctor(BaseEntity attacker, BaseEntity target, DamageType type, float damageAmount) { }
 
-	// RVA: 0x73C490 Offset: 0x73AA90 VA: 0x18073C490
+	// RVA: 0x73C3E0 Offset: 0x73A9E0 VA: 0x18073C3E0
 	public void LoadFromAttack(Attack attack, bool serverSide) { }
 
-	// RVA: 0x73D290 Offset: 0x73B890 VA: 0x18073D290
+	// RVA: 0x73D1E0 Offset: 0x73B7E0 VA: 0x18073D1E0
 	public bool get_isHeadshot() { }
 
-	// RVA: 0x73D100 Offset: 0x73B700 VA: 0x18073D100
+	// RVA: 0x73D050 Offset: 0x73B650 VA: 0x18073D050
 	public Translate.Phrase get_bonePhrase() { }
 
-	// RVA: 0x73CF70 Offset: 0x73B570 VA: 0x18073CF70
+	// RVA: 0x73CEC0 Offset: 0x73B4C0 VA: 0x18073CEC0
 	public string get_boneName() { }
 
-	// RVA: 0x73CE60 Offset: 0x73B460 VA: 0x18073CE60
+	// RVA: 0x73CDB0 Offset: 0x73B3B0 VA: 0x18073CDB0
 	public HitArea get_boneArea() { }
 
-	// RVA: 0x73C690 Offset: 0x73AC90 VA: 0x18073C690
+	// RVA: 0x73C5E0 Offset: 0x73ABE0 VA: 0x18073C5E0
 	public Vector3 PositionOnRay(Vector3 position) { }
 
-	// RVA: 0x73C250 Offset: 0x73A850 VA: 0x18073C250
+	// RVA: 0x73C1A0 Offset: 0x73A7A0 VA: 0x18073C1A0
 	public Vector3 HitPositionOnRay() { }
 
-	// RVA: 0x73C2A0 Offset: 0x73A8A0 VA: 0x18073C2A0
+	// RVA: 0x73C1F0 Offset: 0x73A7F0 VA: 0x18073C1F0
 	public bool IsNaNOrInfinity() { }
 
 }

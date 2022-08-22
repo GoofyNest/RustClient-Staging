@@ -4,7 +4,7 @@ public struct ValueTuple : IEquatable<ValueTuple>, IStructuralEquatable, IStruct
 	// RVA: 0x234400 Offset: 0x233800 VA: 0x180234400 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x21AFE0 Offset: 0x21A3E0 VA: 0x18021AFE0 Slot: 4
+	// RVA: 0x222C40 Offset: 0x222040 VA: 0x180222C40 Slot: 4
 	public bool Equals(ValueTuple other) { }
 
 	// RVA: 0x234540 Offset: 0x233940 VA: 0x180234540 Slot: 5
@@ -28,10 +28,10 @@ public struct ValueTuple : IEquatable<ValueTuple>, IStructuralEquatable, IStruct
 	// RVA: 0x234680 Offset: 0x233A80 VA: 0x180234680 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x21476B0 Offset: 0x2145CB0 VA: 0x1821476B0
+	// RVA: 0x2147ED0 Offset: 0x21464D0 VA: 0x182147ED0
 	internal static int CombineHashCodes(int h1, int h2) { }
 
-	// RVA: 0x2147730 Offset: 0x2145D30 VA: 0x182147730
+	// RVA: 0x2147F50 Offset: 0x2146550 VA: 0x182147F50
 	internal static int CombineHashCodes(int h1, int h2, int h3) { }
 
 }

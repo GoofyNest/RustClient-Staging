@@ -21,16 +21,16 @@ public struct Stat // TypeDefIndex: 5559
 	internal void set_Name(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1D8A30 Offset: 0x1D7E30 VA: 0x1801D8A30
+	// RVA: 0x1D90A0 Offset: 0x1D84A0 VA: 0x1801D90A0
 	internal void set_UserId(SteamId value) { }
 
-	// RVA: 0x1D8A00 Offset: 0x1D7E00 VA: 0x1801D8A00
+	// RVA: 0x1D9070 Offset: 0x1D8470 VA: 0x1801D9070
 	public void .ctor(string name) { }
 
-	// RVA: 0x1D8950 Offset: 0x1D7D50 VA: 0x1801D8950
+	// RVA: 0x1D8FC0 Offset: 0x1D83C0 VA: 0x1801D8FC0
 	public double GetGlobalFloat() { }
 
-	// RVA: 0x1D89B0 Offset: 0x1D7DB0 VA: 0x1801D89B0
+	// RVA: 0x1D9020 Offset: 0x1D8420 VA: 0x1801D9020
 	public long GetGlobalInt() { }
 
 }

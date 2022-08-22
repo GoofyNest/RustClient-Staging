@@ -1,13 +1,13 @@
 public class KeyNotFoundException : SystemException, ISerializable // TypeDefIndex: 1488
 {	// Methods
 
-	// RVA: 0x14653D0 Offset: 0x14639D0 VA: 0x1814653D0
+	// RVA: 0x14644A0 Offset: 0x1462AA0 VA: 0x1814644A0
 	public void .ctor() { }
 
-	// RVA: 0x14653A0 Offset: 0x14639A0 VA: 0x1814653A0
+	// RVA: 0x1464470 Offset: 0x1462A70 VA: 0x181464470
 	public void .ctor(string message) { }
 
-	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
+	// RVA: 0xFDDEB0 Offset: 0xFDC4B0 VA: 0x180FDDEB0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

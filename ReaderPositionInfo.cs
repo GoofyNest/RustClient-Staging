@@ -8,16 +8,16 @@ internal class ReaderPositionInfo : PositionInfo // TypeDefIndex: 1987
 
 	// Methods
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	public void .ctor(IXmlLineInfo lineInfo) { }
 
-	// RVA: 0xF60F60 Offset: 0xF5F560 VA: 0x180F60F60 Slot: 7
+	// RVA: 0xF61A00 Offset: 0xF60000 VA: 0x180F61A00 Slot: 7
 	public override bool HasLineInfo() { }
 
-	// RVA: 0xF60FB0 Offset: 0xF5F5B0 VA: 0x180F60FB0 Slot: 8
+	// RVA: 0xF61A50 Offset: 0xF60050 VA: 0x180F61A50 Slot: 8
 	public override int get_LineNumber() { }
 
-	// RVA: 0xF61000 Offset: 0xF5F600 VA: 0x180F61000 Slot: 9
+	// RVA: 0xF61AA0 Offset: 0xF600A0 VA: 0x180F61AA0 Slot: 9
 	public override int get_LinePosition() { }
 
 }

@@ -9,19 +9,19 @@ public class KeyBindUI : MonoBehaviour // TypeDefIndex: 11136
 
 	// Methods
 
-	// RVA: 0x67F500 Offset: 0x67DB00 VA: 0x18067F500
+	// RVA: 0x67F490 Offset: 0x67DA90 VA: 0x18067F490
 	private void OnEnable() { }
 
-	// RVA: 0x67F680 Offset: 0x67DC80 VA: 0x18067F680
+	// RVA: 0x67F610 Offset: 0x67DC10 VA: 0x18067F610
 	private void UpdateBinding() { }
 
-	// RVA: 0x67F620 Offset: 0x67DC20 VA: 0x18067F620
+	// RVA: 0x67F5B0 Offset: 0x67DBB0 VA: 0x18067F5B0
 	public void StartBinding(Button button) { }
 
-	// RVA: 0x67F510 Offset: 0x67DB10 VA: 0x18067F510
+	// RVA: 0x67F4A0 Offset: 0x67DAA0 VA: 0x18067F4A0
 	public void ResetToDefault() { }
 
-	// RVA: 0x67F810 Offset: 0x67DE10 VA: 0x18067F810
+	// RVA: 0x67F7A0 Offset: 0x67DDA0 VA: 0x18067F7A0
 	public void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

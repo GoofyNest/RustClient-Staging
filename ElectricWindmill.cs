@@ -12,31 +12,31 @@ public class ElectricWindmill : IOEntity // TypeDefIndex: 8740
 
 	// Methods
 
-	// RVA: 0x5BFA60 Offset: 0x5BE060 VA: 0x1805BFA60 Slot: 151
+	// RVA: 0x5BF9F0 Offset: 0x5BDFF0 VA: 0x1805BF9F0 Slot: 151
 	public override int MaximalPowerOutput() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 145
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 145
 	public override bool IsRootEntity() { }
 
-	// RVA: 0xAC1020 Offset: 0xABF620 VA: 0x180AC1020
+	// RVA: 0xAC14F0 Offset: 0xABFAF0 VA: 0x180AC14F0
 	public float GetWindSpeedScale() { }
 
-	// RVA: 0xAC1240 Offset: 0xABF840 VA: 0x180AC1240 Slot: 34
+	// RVA: 0xAC1710 Offset: 0xABFD10 VA: 0x180AC1710 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xAC0F30 Offset: 0xABF530 VA: 0x180AC0F30
+	// RVA: 0xAC1400 Offset: 0xABFA00 VA: 0x180AC1400
 	public Vector3 GetWindAimDir(float time) { }
 
-	// RVA: 0xAC15B0 Offset: 0xABFBB0 VA: 0x180AC15B0
+	// RVA: 0xAC1A80 Offset: 0xAC0080 VA: 0x180AC1A80
 	public void Woosh() { }
 
-	// RVA: 0xAC12D0 Offset: 0xABF8D0 VA: 0x180AC12D0
+	// RVA: 0xAC17A0 Offset: 0xABFDA0 VA: 0x180AC17A0
 	public void Update() { }
 
-	// RVA: 0xAC1660 Offset: 0xABFC60 VA: 0x180AC1660
+	// RVA: 0xAC1B30 Offset: 0xAC0130 VA: 0x180AC1B30
 	public void .ctor() { }
 
-	// RVA: 0xAC1610 Offset: 0xABFC10 VA: 0x180AC1610
+	// RVA: 0xAC1AE0 Offset: 0xAC00E0 VA: 0x180AC1AE0
 	private static void .cctor() { }
 
 }

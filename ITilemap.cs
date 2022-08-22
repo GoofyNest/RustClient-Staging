@@ -28,11 +28,11 @@ public class ITilemap // TypeDefIndex: 4565
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x231F280 Offset: 0x231D880 VA: 0x18231F280
+	// RVA: 0x231FAA0 Offset: 0x231E0A0 VA: 0x18231FAA0
 	public void RefreshTile(Vector3Int position) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231F210 Offset: 0x231D810 VA: 0x18231F210
+	// RVA: 0x231FA30 Offset: 0x231E030 VA: 0x18231FA30
 	private static ITilemap CreateInstance() { }
 
 }

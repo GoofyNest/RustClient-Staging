@@ -9,7 +9,7 @@ public class CrossingCornerClass // TypeDefIndex: 7256
 
 	// Methods
 
-	// RVA: 0xB7A2D0 Offset: 0xB788D0 VA: 0x180B7A2D0
+	// RVA: 0xB7A7A0 Offset: 0xB78DA0 VA: 0x180B7A7A0
 	public void .ctor(QDOQDSQOOQDDD sw, string name) { }
 
 }

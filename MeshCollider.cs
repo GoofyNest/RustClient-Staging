@@ -12,22 +12,22 @@ public class MeshCollider : Collider // TypeDefIndex: 3923
 
 	// Methods
 
-	// RVA: 0x2297B90 Offset: 0x2296190 VA: 0x182297B90
+	// RVA: 0x22983B0 Offset: 0x22969B0 VA: 0x1822983B0
 	public Mesh get_sharedMesh() { }
 
-	// RVA: 0x2297C60 Offset: 0x2296260 VA: 0x182297C60
+	// RVA: 0x2298480 Offset: 0x2296A80 VA: 0x182298480
 	public void set_sharedMesh(Mesh value) { }
 
-	// RVA: 0x2297B10 Offset: 0x2296110 VA: 0x182297B10
+	// RVA: 0x2298330 Offset: 0x2296930 VA: 0x182298330
 	public bool get_convex() { }
 
-	// RVA: 0x2297BD0 Offset: 0x22961D0 VA: 0x182297BD0
+	// RVA: 0x22983F0 Offset: 0x22969F0 VA: 0x1822983F0
 	public void set_convex(bool value) { }
 
-	// RVA: 0x2297B50 Offset: 0x2296150 VA: 0x182297B50
+	// RVA: 0x2298370 Offset: 0x2296970 VA: 0x182298370
 	public MeshColliderCookingOptions get_cookingOptions() { }
 
-	// RVA: 0x2297C20 Offset: 0x2296220 VA: 0x182297C20
+	// RVA: 0x2298440 Offset: 0x2296A40 VA: 0x182298440
 	public void set_cookingOptions(MeshColliderCookingOptions value) { }
 
 }

@@ -4,7 +4,7 @@ public class CopyText : MonoBehaviour // TypeDefIndex: 10843
 
 	// Methods
 
-	// RVA: 0x6BC390 Offset: 0x6BA990 VA: 0x1806BC390
+	// RVA: 0x6BC320 Offset: 0x6BA920 VA: 0x1806BC320
 	public void TriggerCopy() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

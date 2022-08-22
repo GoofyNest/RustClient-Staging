@@ -9,7 +9,7 @@ public class TriggerHurt : TriggerBase, IServerComponent, IHurtTrigger // TypeDe
 
 	// Methods
 
-	// RVA: 0xA21880 Offset: 0xA1FE80 VA: 0x180A21880
+	// RVA: 0xA21D70 Offset: 0xA20370 VA: 0x180A21D70
 	public void .ctor() { }
 
 }

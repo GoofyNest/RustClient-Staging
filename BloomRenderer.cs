@@ -5,13 +5,13 @@ internal sealed class BloomRenderer : PostProcessEffectRenderer<Bloom> // TypeDe
 
 	// Methods
 
-	// RVA: 0x9EF5B0 Offset: 0x9EDBB0 VA: 0x1809EF5B0 Slot: 4
+	// RVA: 0x9EFAA0 Offset: 0x9EE0A0 VA: 0x1809EFAA0 Slot: 4
 	public override void Init() { }
 
-	// RVA: 0x9EF6B0 Offset: 0x9EDCB0 VA: 0x1809EF6B0 Slot: 8
+	// RVA: 0x9EFBA0 Offset: 0x9EE1A0 VA: 0x1809EFBA0 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x9F0690 Offset: 0x9EEC90 VA: 0x1809F0690
+	// RVA: 0x9F0B80 Offset: 0x9EF180 VA: 0x1809F0B80
 	public void .ctor() { }
 
 }

@@ -5,19 +5,19 @@ public class ScrollRectDisable : ListComponent<ScrollRectDisable> // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x4A5800 Offset: 0x4A3E00 VA: 0x1804A5800
+	// RVA: 0x4A5790 Offset: 0x4A3D90 VA: 0x1804A5790
 	public static void UpdateScrollRects() { }
 
-	// RVA: 0x4A5680 Offset: 0x4A3C80 VA: 0x1804A5680
+	// RVA: 0x4A5610 Offset: 0x4A3C10 VA: 0x1804A5610
 	private void Awake() { }
 
-	// RVA: 0x4A5760 Offset: 0x4A3D60 VA: 0x1804A5760 Slot: 6
+	// RVA: 0x4A56F0 Offset: 0x4A3CF0 VA: 0x1804A56F0 Slot: 6
 	protected override void OnEnable() { }
 
-	// RVA: 0x4A56D0 Offset: 0x4A3CD0 VA: 0x1804A56D0
+	// RVA: 0x4A5660 Offset: 0x4A3C60 VA: 0x1804A5660
 	public void OnCursorChanged(bool cursorVisible) { }
 
-	// RVA: 0x4A59F0 Offset: 0x4A3FF0 VA: 0x1804A59F0
+	// RVA: 0x4A5980 Offset: 0x4A3F80 VA: 0x1804A5980
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

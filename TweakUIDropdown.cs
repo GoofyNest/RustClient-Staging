@@ -10,28 +10,28 @@ public class TweakUIDropdown : TweakUIBase // TypeDefIndex: 11144
 
 	// Methods
 
-	// RVA: 0x4D42E0 Offset: 0x4D28E0 VA: 0x1804D42E0 Slot: 4
+	// RVA: 0x4D4270 Offset: 0x4D2870 VA: 0x1804D4270 Slot: 4
 	protected override void Init() { }
 
-	// RVA: 0x4C2860 Offset: 0x4C0E60 VA: 0x1804C2860
+	// RVA: 0x4C27F0 Offset: 0x4C0DF0 VA: 0x1804C27F0
 	protected void OnEnable() { }
 
-	// RVA: 0x4D4310 Offset: 0x4D2910 VA: 0x1804D4310
+	// RVA: 0x4D42A0 Offset: 0x4D28A0 VA: 0x1804D42A0
 	public void OnValueChanged() { }
 
-	// RVA: 0x4D4200 Offset: 0x4D2800 VA: 0x1804D4200
+	// RVA: 0x4D4190 Offset: 0x4D2790 VA: 0x1804D4190
 	public void ChangeValue(int change) { }
 
-	// RVA: 0x4D4370 Offset: 0x4D2970 VA: 0x1804D4370 Slot: 9
+	// RVA: 0x4D4300 Offset: 0x4D2900 VA: 0x1804D4300 Slot: 9
 	protected override void SetConvarValue() { }
 
-	// RVA: 0x4D4330 Offset: 0x4D2930 VA: 0x1804D4330 Slot: 8
+	// RVA: 0x4D42C0 Offset: 0x4D28C0 VA: 0x1804D42C0 Slot: 8
 	public override void ResetToConvar() { }
 
-	// RVA: 0x4D4400 Offset: 0x4D2A00 VA: 0x1804D4400
+	// RVA: 0x4D4390 Offset: 0x4D2990 VA: 0x1804D4390
 	private void ShowValue(string value) { }
 
-	// RVA: 0x4D41B0 Offset: 0x4D27B0 VA: 0x1804D41B0
+	// RVA: 0x4D4140 Offset: 0x4D2740 VA: 0x1804D4140
 	public void .ctor() { }
 
 }

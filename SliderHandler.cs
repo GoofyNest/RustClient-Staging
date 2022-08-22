@@ -13,88 +13,88 @@ internal struct SliderHandler // TypeDefIndex: 4060
 
 	// Methods
 
-	// RVA: 0x22B0E0 Offset: 0x22A4E0 VA: 0x18022B0E0
+	// RVA: 0x22A0C0 Offset: 0x2294C0 VA: 0x18022A0C0
 	public void .ctor(Rect position, float currentValue, float size, float start, float end, GUIStyle slider, GUIStyle thumb, bool horiz, int id, GUIStyle thumbExtent) { }
 
-	// RVA: 0x22AEC0 Offset: 0x22A2C0 VA: 0x18022AEC0
+	// RVA: 0x229EA0 Offset: 0x2292A0 VA: 0x180229EA0
 	public float Handle() { }
 
-	// RVA: 0x22AF40 Offset: 0x22A340 VA: 0x18022AF40
+	// RVA: 0x229F20 Offset: 0x229320 VA: 0x180229F20
 	private float OnMouseDown() { }
 
-	// RVA: 0x22AF50 Offset: 0x22A350 VA: 0x18022AF50
+	// RVA: 0x229F30 Offset: 0x229330 VA: 0x180229F30
 	private float OnMouseDrag() { }
 
-	// RVA: 0x22AF60 Offset: 0x22A360 VA: 0x18022AF60
+	// RVA: 0x229F40 Offset: 0x229340 VA: 0x180229F40
 	private float OnMouseUp() { }
 
-	// RVA: 0x22AF70 Offset: 0x22A370 VA: 0x18022AF70
+	// RVA: 0x229F50 Offset: 0x229350 VA: 0x180229F50
 	private float OnRepaint() { }
 
-	// RVA: 0x22AE60 Offset: 0x22A260 VA: 0x18022AE60
+	// RVA: 0x229E40 Offset: 0x229240 VA: 0x180229E40
 	private EventType CurrentEventType() { }
 
-	// RVA: 0x22AEB0 Offset: 0x22A2B0 VA: 0x18022AEB0
+	// RVA: 0x229E90 Offset: 0x229290 VA: 0x180229E90
 	private int CurrentScrollTroughSide() { }
 
-	// RVA: 0x22AEF0 Offset: 0x22A2F0 VA: 0x18022AEF0
+	// RVA: 0x229ED0 Offset: 0x2292D0 VA: 0x180229ED0
 	private bool IsEmptySlider() { }
 
-	// RVA: 0x22B010 Offset: 0x22A410 VA: 0x18022B010
+	// RVA: 0x229FF0 Offset: 0x2293F0 VA: 0x180229FF0
 	private bool SupportsPageMovements() { }
 
-	// RVA: 0x22AF80 Offset: 0x22A380 VA: 0x18022AF80
+	// RVA: 0x229F60 Offset: 0x229360 VA: 0x180229F60
 	private float PageMovementValue() { }
 
-	// RVA: 0x22AF90 Offset: 0x22A390 VA: 0x18022AF90
+	// RVA: 0x229F70 Offset: 0x229370 VA: 0x180229F70
 	private float PageUpMovementBound() { }
 
-	// RVA: 0x22AE70 Offset: 0x22A270 VA: 0x18022AE70
+	// RVA: 0x229E50 Offset: 0x229250 VA: 0x180229E50
 	private Event CurrentEvent() { }
 
-	// RVA: 0x22B0A0 Offset: 0x22A4A0 VA: 0x18022B0A0
+	// RVA: 0x22A080 Offset: 0x229480 VA: 0x18022A080
 	private float ValueForCurrentMousePosition() { }
 
-	// RVA: 0x22AE30 Offset: 0x22A230 VA: 0x18022AE30
+	// RVA: 0x229E10 Offset: 0x229210 VA: 0x180229E10
 	private float Clamp(float value) { }
 
-	// RVA: 0x22B040 Offset: 0x22A440 VA: 0x18022B040
+	// RVA: 0x22A020 Offset: 0x229420 VA: 0x18022A020
 	private Rect ThumbSelectionRect() { }
 
-	// RVA: 0x22AFB0 Offset: 0x22A3B0 VA: 0x18022AFB0
+	// RVA: 0x229F90 Offset: 0x229390 VA: 0x180229F90
 	private void StartDraggingWithValue(float dragStartValue) { }
 
-	// RVA: 0x22AFA0 Offset: 0x22A3A0 VA: 0x18022AFA0
+	// RVA: 0x229F80 Offset: 0x229380 VA: 0x180229F80
 	private SliderState SliderState() { }
 
-	// RVA: 0x22B020 Offset: 0x22A420 VA: 0x18022B020
+	// RVA: 0x22A000 Offset: 0x229400 VA: 0x18022A000
 	private Rect ThumbExtRect() { }
 
-	// RVA: 0x22B040 Offset: 0x22A440 VA: 0x18022B040
+	// RVA: 0x22A020 Offset: 0x229420 VA: 0x18022A020
 	private Rect ThumbRect() { }
 
-	// RVA: 0x22B0C0 Offset: 0x22A4C0 VA: 0x18022B0C0
+	// RVA: 0x22A0A0 Offset: 0x2294A0 VA: 0x18022A0A0
 	private Rect VerticalThumbRect() { }
 
-	// RVA: 0x22AED0 Offset: 0x22A2D0 VA: 0x18022AED0
+	// RVA: 0x229EB0 Offset: 0x2292B0 VA: 0x180229EB0
 	private Rect HorizontalThumbRect() { }
 
-	// RVA: 0x22AE40 Offset: 0x22A240 VA: 0x18022AE40
+	// RVA: 0x229E20 Offset: 0x229220 VA: 0x180229E20
 	private float ClampedCurrentValue() { }
 
-	// RVA: 0x22AF30 Offset: 0x22A330 VA: 0x18022AF30
+	// RVA: 0x229F10 Offset: 0x229310 VA: 0x180229F10
 	private float MousePosition() { }
 
-	// RVA: 0x22B0B0 Offset: 0x22A4B0 VA: 0x18022B0B0
+	// RVA: 0x22A090 Offset: 0x229490 VA: 0x18022A090
 	private float ValuesPerPixel() { }
 
-	// RVA: 0x22B090 Offset: 0x22A490 VA: 0x18022B090
+	// RVA: 0x22A070 Offset: 0x229470 VA: 0x18022A070
 	private float ThumbSize() { }
 
-	// RVA: 0x22AF10 Offset: 0x22A310 VA: 0x18022AF10
+	// RVA: 0x229EF0 Offset: 0x2292F0 VA: 0x180229EF0
 	private float MaxValue() { }
 
-	// RVA: 0x22AF20 Offset: 0x22A320 VA: 0x18022AF20
+	// RVA: 0x229F00 Offset: 0x229300 VA: 0x180229F00
 	private float MinValue() { }
 
 }

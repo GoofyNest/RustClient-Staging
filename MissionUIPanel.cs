@@ -10,34 +10,34 @@ public class MissionUIPanel : MonoBehaviour // TypeDefIndex: 10218
 
 	// Methods
 
-	// RVA: 0x7685E0 Offset: 0x766BE0 VA: 0x1807685E0
+	// RVA: 0x768530 Offset: 0x766B30 VA: 0x180768530
 	public void Awake() { }
 
-	// RVA: 0x768DF0 Offset: 0x7673F0 VA: 0x180768DF0
+	// RVA: 0x768D40 Offset: 0x767340 VA: 0x180768D40
 	public void OnDestroy() { }
 
-	// RVA: 0x768BA0 Offset: 0x7671A0 VA: 0x180768BA0
+	// RVA: 0x768AF0 Offset: 0x7670F0 VA: 0x180768AF0
 	public static void MissionsUpdated() { }
 
-	// RVA: 0x768B70 Offset: 0x767170 VA: 0x180768B70
+	// RVA: 0x768AC0 Offset: 0x7670C0 VA: 0x180768AC0
 	public bool IsOpen() { }
 
-	// RVA: 0x768E80 Offset: 0x767480 VA: 0x180768E80
+	// RVA: 0x768DD0 Offset: 0x7673D0 VA: 0x180768DD0
 	public void Open() { }
 
-	// RVA: 0x4E63F0 Offset: 0x4E49F0 VA: 0x1804E63F0
+	// RVA: 0x4E6380 Offset: 0x4E4980 VA: 0x1804E6380
 	public void Close() { }
 
-	// RVA: 0x768630 Offset: 0x766C30 VA: 0x180768630
+	// RVA: 0x768580 Offset: 0x766B80 VA: 0x180768580
 	public void Clear() { }
 
-	// RVA: 0x7684D0 Offset: 0x766AD0 VA: 0x1807684D0
+	// RVA: 0x768420 Offset: 0x766A20 VA: 0x180768420
 	public void AbandonMission() { }
 
-	// RVA: 0x768740 Offset: 0x766D40 VA: 0x180768740
+	// RVA: 0x768690 Offset: 0x766C90 VA: 0x180768690
 	public void DoUpdate() { }
 
-	// RVA: 0x768FD0 Offset: 0x7675D0 VA: 0x180768FD0
+	// RVA: 0x768F20 Offset: 0x767520 VA: 0x180768F20
 	public void .ctor() { }
 
 }

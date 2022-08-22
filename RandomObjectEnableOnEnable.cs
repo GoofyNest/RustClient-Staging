@@ -4,7 +4,7 @@ public class RandomObjectEnableOnEnable : MonoBehaviour // TypeDefIndex: 11210
 
 	// Methods
 
-	// RVA: 0x6A7A10 Offset: 0x6A6010 VA: 0x1806A7A10
+	// RVA: 0x6A79A0 Offset: 0x6A5FA0 VA: 0x1806A79A0
 	public void OnEnable() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

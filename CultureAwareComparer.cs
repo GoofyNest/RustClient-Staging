@@ -7,22 +7,22 @@ internal sealed class CultureAwareComparer : StringComparer // TypeDefIndex: 304
 
 	// Methods
 
-	// RVA: 0x1792380 Offset: 0x1790980 VA: 0x181792380
+	// RVA: 0x1794790 Offset: 0x1792D90 VA: 0x181794790
 	internal void .ctor(CultureInfo culture, bool ignoreCase) { }
 
-	// RVA: 0x1792140 Offset: 0x1790740 VA: 0x181792140 Slot: 10
+	// RVA: 0x1794550 Offset: 0x1792B50 VA: 0x181794550 Slot: 10
 	public override int Compare(string x, string y) { }
 
-	// RVA: 0x17921A0 Offset: 0x17907A0 VA: 0x1817921A0 Slot: 11
+	// RVA: 0x17945B0 Offset: 0x1792BB0 VA: 0x1817945B0 Slot: 11
 	public override bool Equals(string x, string y) { }
 
-	// RVA: 0x17922B0 Offset: 0x17908B0 VA: 0x1817922B0 Slot: 12
+	// RVA: 0x17946C0 Offset: 0x1792CC0 VA: 0x1817946C0 Slot: 12
 	public override int GetHashCode(string obj) { }
 
-	// RVA: 0x1792200 Offset: 0x1790800 VA: 0x181792200 Slot: 0
+	// RVA: 0x1794610 Offset: 0x1792C10 VA: 0x181794610 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1792340 Offset: 0x1790940 VA: 0x181792340 Slot: 2
+	// RVA: 0x1794750 Offset: 0x1792D50 VA: 0x181794750 Slot: 2
 	public override int GetHashCode() { }
 
 }

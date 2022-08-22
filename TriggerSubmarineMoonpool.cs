@@ -1,7 +1,7 @@
 public class TriggerSubmarineMoonpool : TriggerBase, IServerComponent // TypeDefIndex: 10048
 {	// Methods
 
-	// RVA: 0x4D38B0 Offset: 0x4D1EB0 VA: 0x1804D38B0
+	// RVA: 0x4D3840 Offset: 0x4D1E40 VA: 0x1804D3840
 	public void .ctor() { }
 
 }

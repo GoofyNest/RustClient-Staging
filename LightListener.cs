@@ -9,13 +9,13 @@ public class LightListener : BaseEntity // TypeDefIndex: 9636
 
 	// Methods
 
-	// RVA: 0x4F24F0 Offset: 0x4F0AF0 VA: 0x1804F24F0 Slot: 16
+	// RVA: 0x4F2480 Offset: 0x4F0A80 VA: 0x1804F2480 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x4F2680 Offset: 0x4F0C80 VA: 0x1804F2680
+	// RVA: 0x4F2610 Offset: 0x4F0C10 VA: 0x1804F2610
 	public void SetLightsOn(bool wantsOn) { }
 
-	// RVA: 0x4F2800 Offset: 0x4F0E00 VA: 0x1804F2800
+	// RVA: 0x4F2790 Offset: 0x4F0D90 VA: 0x1804F2790
 	public void .ctor() { }
 
 }

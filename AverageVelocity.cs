@@ -12,13 +12,13 @@ public class AverageVelocity // TypeDefIndex: 9117
 
 	// Methods
 
-	// RVA: 0x7D03E0 Offset: 0x7CE9E0 VA: 0x1807D03E0
+	// RVA: 0x79B670 Offset: 0x799C70 VA: 0x18079B670
 	public void Record(Vector3 newPos) { }
 
-	// RVA: 0x7D0570 Offset: 0x7CEB70 VA: 0x1807D0570
+	// RVA: 0x79B800 Offset: 0x799E00 VA: 0x18079B800
 	public float get_Speed() { }
 
-	// RVA: 0x7D0550 Offset: 0x7CEB50 VA: 0x1807D0550
+	// RVA: 0x79B7E0 Offset: 0x799DE0 VA: 0x18079B7E0
 	public Vector3 get_Average() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

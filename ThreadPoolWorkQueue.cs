@@ -7,31 +7,31 @@ internal sealed class ThreadPoolWorkQueue // TypeDefIndex: 809
 
 	// Methods
 
-	// RVA: 0x160C260 Offset: 0x160A860 VA: 0x18160C260
+	// RVA: 0x15F9580 Offset: 0x15F7B80 VA: 0x1815F9580
 	public void .ctor() { }
 
-	// RVA: 0x160C010 Offset: 0x160A610 VA: 0x18160C010
+	// RVA: 0x15F9330 Offset: 0x15F7930 VA: 0x1815F9330
 	public ThreadPoolWorkQueueThreadLocals EnsureCurrentThreadHasQueue() { }
 
-	// RVA: 0x160C0A0 Offset: 0x160A6A0 VA: 0x18160C0A0
+	// RVA: 0x15F93C0 Offset: 0x15F79C0 VA: 0x1815F93C0
 	internal void EnsureThreadRequested() { }
 
-	// RVA: 0x160C1A0 Offset: 0x160A7A0 VA: 0x18160C1A0
+	// RVA: 0x15F94C0 Offset: 0x15F7AC0 VA: 0x1815F94C0
 	internal void MarkThreadRequestSatisfied() { }
 
-	// RVA: 0x160BDF0 Offset: 0x160A3F0 VA: 0x18160BDF0
+	// RVA: 0x15F9110 Offset: 0x15F7710 VA: 0x1815F9110
 	public void Enqueue(IThreadPoolWorkItem callback, bool forceGlobal) { }
 
-	// RVA: 0x160C140 Offset: 0x160A740 VA: 0x18160C140
+	// RVA: 0x15F9460 Offset: 0x15F7A60 VA: 0x1815F9460
 	internal bool LocalFindAndPop(IThreadPoolWorkItem callback) { }
 
-	// RVA: 0x160B5D0 Offset: 0x1609BD0 VA: 0x18160B5D0
+	// RVA: 0x15F88F0 Offset: 0x15F6EF0 VA: 0x1815F88F0
 	public void Dequeue(ThreadPoolWorkQueueThreadLocals tl, out IThreadPoolWorkItem callback, out bool missedSteal) { }
 
-	// RVA: 0x160B920 Offset: 0x1609F20 VA: 0x18160B920
+	// RVA: 0x15F8C40 Offset: 0x15F7240 VA: 0x1815F8C40
 	internal static bool Dispatch() { }
 
-	// RVA: 0x160C1F0 Offset: 0x160A7F0 VA: 0x18160C1F0
+	// RVA: 0x15F9510 Offset: 0x15F7B10 VA: 0x1815F9510
 	private static void .cctor() { }
 
 }
@@ -49,7 +49,7 @@ internal class ThreadPoolWorkQueue.SparseArray<T> // TypeDefIndex: 810
 	internal void .ctor(int initialSize) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A53FC0 Offset: 0x1A525C0 VA: 0x181A53FC0
+	|-RVA: 0x1A404F0 Offset: 0x1A3EAF0 VA: 0x181A404F0
 	|-ThreadPoolWorkQueue.SparseArray<object>..ctor
 	|-ThreadPoolWorkQueue.SparseArray<ThreadPoolWorkQueue.WorkStealingQueue>..ctor
 	*/
@@ -58,7 +58,7 @@ internal class ThreadPoolWorkQueue.SparseArray<T> // TypeDefIndex: 810
 	internal T[] get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1369030 Offset: 0x1367630 VA: 0x181369030
+	|-RVA: 0x1368130 Offset: 0x1366730 VA: 0x181368130
 	|-ThreadPoolWorkQueue.SparseArray<object>.get_Current
 	|-ThreadPoolWorkQueue.SparseArray<ThreadPoolWorkQueue.WorkStealingQueue>.get_Current
 	*/
@@ -67,7 +67,7 @@ internal class ThreadPoolWorkQueue.SparseArray<T> // TypeDefIndex: 810
 	internal int Add(T e) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A53BE0 Offset: 0x1A521E0 VA: 0x181A53BE0
+	|-RVA: 0x1A40110 Offset: 0x1A3E710 VA: 0x181A40110
 	|-ThreadPoolWorkQueue.SparseArray<object>.Add
 	|-ThreadPoolWorkQueue.SparseArray<ThreadPoolWorkQueue.WorkStealingQueue>.Add
 	*/
@@ -76,7 +76,7 @@ internal class ThreadPoolWorkQueue.SparseArray<T> // TypeDefIndex: 810
 	internal void Remove(T e) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A53E40 Offset: 0x1A52440 VA: 0x181A53E40
+	|-RVA: 0x1A40370 Offset: 0x1A3E970 VA: 0x181A40370
 	|-ThreadPoolWorkQueue.SparseArray<object>.Remove
 	|-ThreadPoolWorkQueue.SparseArray<ThreadPoolWorkQueue.WorkStealingQueue>.Remove
 	*/
@@ -93,22 +93,22 @@ internal class ThreadPoolWorkQueue.WorkStealingQueue // TypeDefIndex: 811
 
 	// Methods
 
-	// RVA: 0x161E2B0 Offset: 0x161C8B0 VA: 0x18161E2B0
+	// RVA: 0x160B5D0 Offset: 0x1609BD0 VA: 0x18160B5D0
 	public void LocalPush(IThreadPoolWorkItem obj) { }
 
-	// RVA: 0x161DC60 Offset: 0x161C260 VA: 0x18161DC60
+	// RVA: 0x160AF80 Offset: 0x1609580 VA: 0x18160AF80
 	public bool LocalFindAndPop(IThreadPoolWorkItem obj) { }
 
-	// RVA: 0x161DF60 Offset: 0x161C560 VA: 0x18161DF60
+	// RVA: 0x160B280 Offset: 0x1609880 VA: 0x18160B280
 	public bool LocalPop(out IThreadPoolWorkItem obj) { }
 
-	// RVA: 0x161EA20 Offset: 0x161D020 VA: 0x18161EA20
+	// RVA: 0x160BD40 Offset: 0x160A340 VA: 0x18160BD40
 	public bool TrySteal(out IThreadPoolWorkItem obj, ref bool missedSteal) { }
 
-	// RVA: 0x161E760 Offset: 0x161CD60 VA: 0x18161E760
+	// RVA: 0x160BA80 Offset: 0x160A080 VA: 0x18160BA80
 	private bool TrySteal(out IThreadPoolWorkItem obj, ref bool missedSteal, int millisecondsTimeout) { }
 
-	// RVA: 0x161EA40 Offset: 0x161D040 VA: 0x18161EA40
+	// RVA: 0x160BD60 Offset: 0x160A360 VA: 0x18160BD60
 	public void .ctor() { }
 
 }
@@ -121,23 +121,23 @@ internal class ThreadPoolWorkQueue.QueueSegment // TypeDefIndex: 812
 
 	// Methods
 
-	// RVA: 0x1606480 Offset: 0x1604A80 VA: 0x181606480
+	// RVA: 0x15F37A0 Offset: 0x15F1DA0 VA: 0x1815F37A0
 	private void GetIndexes(out int upper, out int lower) { }
 
-	// RVA: 0x1606400 Offset: 0x1604A00 VA: 0x181606400
+	// RVA: 0x15F3720 Offset: 0x15F1D20 VA: 0x1815F3720
 	private bool CompareExchangeIndexes(ref int prevUpper, int newUpper, ref int prevLower, int newLower) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
-	// RVA: 0x1606740 Offset: 0x1604D40 VA: 0x181606740
+	// RVA: 0x15F3A60 Offset: 0x15F2060 VA: 0x1815F3A60
 	public void .ctor() { }
 
-	// RVA: 0x16064C0 Offset: 0x1604AC0 VA: 0x1816064C0
+	// RVA: 0x15F37E0 Offset: 0x15F1DE0 VA: 0x1815F37E0
 	public bool IsUsedUp() { }
 
-	// RVA: 0x1606660 Offset: 0x1604C60 VA: 0x181606660
+	// RVA: 0x15F3980 Offset: 0x15F1F80 VA: 0x1815F3980
 	public bool TryEnqueue(IThreadPoolWorkItem node) { }
 
-	// RVA: 0x1606520 Offset: 0x1604B20 VA: 0x181606520
+	// RVA: 0x15F3840 Offset: 0x15F1E40 VA: 0x1815F3840
 	public bool TryDequeue(out IThreadPoolWorkItem node) { }
 
 }

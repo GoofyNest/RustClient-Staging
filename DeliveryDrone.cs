@@ -9,82 +9,82 @@ public class DeliveryDrone : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x20BC600 Offset: 0x20BAC00 VA: 0x1820BC600
+	// RVA: 0x20BCE20 Offset: 0x20BB420 VA: 0x1820BCE20
 	public static void ResetToPool(DeliveryDrone instance) { }
 
-	// RVA: 0x20BC6A0 Offset: 0x20BACA0 VA: 0x1820BC6A0
+	// RVA: 0x20BCEC0 Offset: 0x20BB4C0 VA: 0x1820BCEC0
 	public void ResetToPool() { }
 
-	// RVA: 0x20BC2B0 Offset: 0x20BA8B0 VA: 0x1820BC2B0 Slot: 9
+	// RVA: 0x20BCAD0 Offset: 0x20BB0D0 VA: 0x1820BCAD0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1C072E0 Offset: 0x1C058E0 VA: 0x181C072E0
+	// RVA: 0x1C07AD0 Offset: 0x1C060D0 VA: 0x181C07AD0
 	public void CopyTo(DeliveryDrone instance) { }
 
-	// RVA: 0x20BB120 Offset: 0x20B9720 VA: 0x1820BB120
+	// RVA: 0x20BB940 Offset: 0x20B9F40 VA: 0x1820BB940
 	public DeliveryDrone Copy() { }
 
-	// RVA: 0x20BB850 Offset: 0x20B9E50 VA: 0x1820BB850
+	// RVA: 0x20BC070 Offset: 0x20BA670 VA: 0x1820BC070
 	public static DeliveryDrone Deserialize(Stream stream) { }
 
-	// RVA: 0x20BB480 Offset: 0x20B9A80 VA: 0x1820BB480
+	// RVA: 0x20BBCA0 Offset: 0x20BA2A0 VA: 0x1820BBCA0
 	public static DeliveryDrone DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20BB500 Offset: 0x20B9B00 VA: 0x1820BB500
+	// RVA: 0x20BBD20 Offset: 0x20BA320 VA: 0x1820BBD20
 	public static DeliveryDrone DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20BBAA0 Offset: 0x20BA0A0 VA: 0x1820BBAA0
+	// RVA: 0x20BC2C0 Offset: 0x20BA8C0 VA: 0x1820BC2C0
 	public static DeliveryDrone Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20BC3D0 Offset: 0x20BA9D0 VA: 0x1820BC3D0
+	// RVA: 0x20BCBF0 Offset: 0x20BB1F0 VA: 0x1820BCBF0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20BCC60 Offset: 0x20BB260 VA: 0x1820BCC60 Slot: 12
+	// RVA: 0x20BD480 Offset: 0x20BBA80 VA: 0x1820BD480 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20BCC80 Offset: 0x20BB280 VA: 0x1820BCC80 Slot: 13
+	// RVA: 0x20BD4A0 Offset: 0x20BBAA0 VA: 0x1820BD4A0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, DeliveryDrone previous) { }
 
-	// RVA: 0x20BC5E0 Offset: 0x20BABE0 VA: 0x1820BC5E0 Slot: 14
+	// RVA: 0x20BCE00 Offset: 0x20BB400 VA: 0x1820BCE00 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20BBDB0 Offset: 0x20BA3B0 VA: 0x1820BBDB0
+	// RVA: 0x20BC5D0 Offset: 0x20BABD0 VA: 0x1820BC5D0
 	public static DeliveryDrone Deserialize(byte[] buffer, DeliveryDrone instance, bool isDelta = False) { }
 
-	// RVA: 0x20BC0A0 Offset: 0x20BA6A0 VA: 0x1820BC0A0
+	// RVA: 0x20BC8C0 Offset: 0x20BAEC0 VA: 0x1820BC8C0
 	public static DeliveryDrone Deserialize(Stream stream, DeliveryDrone instance, bool isDelta) { }
 
-	// RVA: 0x20BB1A0 Offset: 0x20B97A0 VA: 0x1820BB1A0
+	// RVA: 0x20BB9C0 Offset: 0x20B9FC0 VA: 0x1820BB9C0
 	public static DeliveryDrone DeserializeLengthDelimited(Stream stream, DeliveryDrone instance, bool isDelta) { }
 
-	// RVA: 0x20BB590 Offset: 0x20B9B90 VA: 0x1820BB590
+	// RVA: 0x20BBDB0 Offset: 0x20BA3B0 VA: 0x1820BBDB0
 	public static DeliveryDrone DeserializeLength(Stream stream, int length, DeliveryDrone instance, bool isDelta) { }
 
-	// RVA: 0x20BC740 Offset: 0x20BAD40 VA: 0x1820BC740
+	// RVA: 0x20BCF60 Offset: 0x20BB560 VA: 0x1820BCF60
 	public static void SerializeDelta(Stream stream, DeliveryDrone instance, DeliveryDrone previous) { }
 
-	// RVA: 0x20BCB10 Offset: 0x20BB110 VA: 0x1820BCB10
+	// RVA: 0x20BD330 Offset: 0x20BB930 VA: 0x1820BD330
 	public static void Serialize(Stream stream, DeliveryDrone instance) { }
 
-	// RVA: 0x20BCC50 Offset: 0x20BB250 VA: 0x1820BCC50
+	// RVA: 0x20BD470 Offset: 0x20BBA70 VA: 0x1820BD470
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20BCC60 Offset: 0x20BB260 VA: 0x1820BCC60
+	// RVA: 0x20BD480 Offset: 0x20BBA80 VA: 0x1820BD480
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20BCA00 Offset: 0x20BB000 VA: 0x1820BCA00
+	// RVA: 0x20BD220 Offset: 0x20BB820 VA: 0x1820BD220
 	public static byte[] SerializeToBytes(DeliveryDrone instance) { }
 
-	// RVA: 0x20BC950 Offset: 0x20BAF50 VA: 0x1820BC950
+	// RVA: 0x20BD170 Offset: 0x20BB770 VA: 0x1820BD170
 	public static void SerializeLengthDelimited(Stream stream, DeliveryDrone instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -104,7 +104,7 @@ public class DeliveryDrone : Drone // TypeDefIndex: 8799
 
 	// Methods
 
-	// RVA: 0x84CA40 Offset: 0x84B040 VA: 0x18084CA40
+	// RVA: 0x84CF90 Offset: 0x84B590 VA: 0x18084CF90
 	public void .ctor() { }
 
 }

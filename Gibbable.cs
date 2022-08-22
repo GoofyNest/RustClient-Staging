@@ -26,31 +26,31 @@ public class Gibbable : PrefabAttribute, IClientComponent // TypeDefIndex: 9890
 
 	// Methods
 
-	// RVA: 0xC9AA50 Offset: 0xC99050 VA: 0x180C9AA50 Slot: 6
+	// RVA: 0xC9AEF0 Offset: 0xC994F0 VA: 0x180C9AEF0 Slot: 6
 	protected override void AttributeSetup(GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0xC9AD70 Offset: 0xC99370 VA: 0x180C9AD70
+	// RVA: 0xC9B210 Offset: 0xC99810 VA: 0x180C9B210
 	public void CreateGibs(Transform forObject, Gibbable.ParentingType parentingType, Vector3 initialVelocity) { }
 
-	// RVA: 0xC9AE50 Offset: 0xC99450 VA: 0x180C9AE50
+	// RVA: 0xC9B2F0 Offset: 0xC998F0 VA: 0x180C9B2F0
 	public void CreateGibs(Transform forObject, Gibbable.ParentingType parentingType, Vector3 initialVelocity, Vector3 fxPos, Quaternion fxRotation) { }
 
-	// RVA: 0xC9C6E0 Offset: 0xC9ACE0 VA: 0x180C9C6E0
+	// RVA: 0xC9CB80 Offset: 0xC9B180 VA: 0x180C9CB80
 	private Vector3 Position(Vector3 position, Quaternion rotation) { }
 
-	// RVA: 0xC9C560 Offset: 0xC9AB60 VA: 0x180C9C560
+	// RVA: 0xC9CA00 Offset: 0xC9B000 VA: 0x180C9CA00
 	private Material[] GetMaterialsForGib(Gibbable.GibMesh mesh) { }
 
-	// RVA: 0xC9C5D0 Offset: 0xC9ABD0 VA: 0x180C9C5D0
+	// RVA: 0xC9CA70 Offset: 0xC9B070 VA: 0x180C9CA70
 	public bool GetMeshOverride(int index, out Gibbable.OverrideMesh m) { }
 
-	// RVA: 0xC9C6B0 Offset: 0xC9ACB0 VA: 0x180C9C6B0
+	// RVA: 0xC9CB50 Offset: 0xC9B150 VA: 0x180C9CB50
 	private string GetPathForEffect(Gibbable.BoundsEffectType type) { }
 
-	// RVA: 0xC9C500 Offset: 0xC9AB00 VA: 0x180C9C500 Slot: 7
+	// RVA: 0xC9C9A0 Offset: 0xC9AFA0 VA: 0x180C9C9A0 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0xC9C850 Offset: 0xC9AE50 VA: 0x180C9C850
+	// RVA: 0xC9CCF0 Offset: 0xC9B2F0 VA: 0x180C9CCF0
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

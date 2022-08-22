@@ -21,35 +21,35 @@ public class TrainCouplingController // TypeDefIndex: 9771
 
 	// Methods
 
-	// RVA: 0xA11010 Offset: 0xA0F610 VA: 0x180A11010
+	// RVA: 0xA11500 Offset: 0xA0FB00 VA: 0x180A11500
 	public bool get_IsCoupled() { }
 
-	// RVA: 0xA11060 Offset: 0xA0F660 VA: 0x180A11060
+	// RVA: 0xA11550 Offset: 0xA0FB50 VA: 0x180A11550
 	public bool get_IsFrontCoupled() { }
 
-	// RVA: 0xA11090 Offset: 0xA0F690 VA: 0x180A11090
+	// RVA: 0xA11580 Offset: 0xA0FB80 VA: 0x180A11580
 	public bool get_IsRearCoupled() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA110D0 Offset: 0xA0F6D0 VA: 0x180A110D0
+	// RVA: 0xA115C0 Offset: 0xA0FBC0 VA: 0x180A115C0
 	public float get_PreChangeTrackSpeed() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA110F0 Offset: 0xA0F6F0 VA: 0x180A110F0
+	// RVA: 0xA115E0 Offset: 0xA0FBE0 VA: 0x180A115E0
 	private void set_PreChangeTrackSpeed(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA110C0 Offset: 0xA0F6C0 VA: 0x180A110C0
+	// RVA: 0xA115B0 Offset: 0xA0FBB0 VA: 0x180A115B0
 	public bool get_PreChangeCoupledBackwards() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA110E0 Offset: 0xA0F6E0 VA: 0x180A110E0
+	// RVA: 0xA115D0 Offset: 0xA0FBD0 VA: 0x180A115D0
 	private void set_PreChangeCoupledBackwards(bool value) { }
 
-	// RVA: 0xA10EE0 Offset: 0xA0F4E0 VA: 0x180A10EE0
+	// RVA: 0xA113D0 Offset: 0xA0F9D0 VA: 0x180A113D0
 	public void .ctor(TrainCar owner) { }
 
-	// RVA: 0xA10EA0 Offset: 0xA0F4A0 VA: 0x180A10EA0
+	// RVA: 0xA11390 Offset: 0xA0F990 VA: 0x180A11390
 	private static void .cctor() { }
 
 }

@@ -6,52 +6,52 @@ public static class StringEx // TypeDefIndex: 6608
 	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BAC940 Offset: 0x1BAAF40 VA: 0x181BAC940
+	// RVA: 0x1BAD130 Offset: 0x1BAB730 VA: 0x181BAD130
 	public static string Replace(string originalString, string oldValue, string newValue, StringComparison comparisonType) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BAC4A0 Offset: 0x1BAAAA0 VA: 0x181BAC4A0
+	// RVA: 0x1BACC90 Offset: 0x1BAB290 VA: 0x181BACC90
 	public static bool Contains(string haystack, string needle, CompareOptions options) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BAC690 Offset: 0x1BAAC90 VA: 0x181BAC690
+	// RVA: 0x1BACE80 Offset: 0x1BAB480 VA: 0x181BACE80
 	public static bool IsLower(string str) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BACBA0 Offset: 0x1BAB1A0 VA: 0x181BACBA0
+	// RVA: 0x1BAD390 Offset: 0x1BAB990 VA: 0x181BAD390
 	public static string ToPrintable(string str, int maxLength = 2147483647) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BAC740 Offset: 0x1BAAD40 VA: 0x181BAC740
+	// RVA: 0x1BACF30 Offset: 0x1BAB530 VA: 0x181BACF30
 	public static bool IsNumeric(string str) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BAC610 Offset: 0x1BAAC10 VA: 0x181BAC610
+	// RVA: 0x1BACE00 Offset: 0x1BAB400 VA: 0x181BACE00
 	public static bool IsAlphaNumeric(string str) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BAC560 Offset: 0x1BAAB60 VA: 0x181BAC560
+	// RVA: 0x1BACD50 Offset: 0x1BAB350 VA: 0x181BACD50
 	public static string EscapeRichText(string str) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xB4BA0 Offset: 0xB3FA0 VA: 0x1800B4BA0
 	[ExtensionAttribute] // RVA: 0xB4BA0 Offset: 0xB3FA0 VA: 0x1800B4BA0
-	// RVA: 0x1BACAA0 Offset: 0x1BAB0A0 VA: 0x181BACAA0
+	// RVA: 0x1BAD290 Offset: 0x1BAB890 VA: 0x181BAD290
 	public static IEnumerable<string> SplitToLines(string input) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xB4CD0 Offset: 0xB40D0 VA: 0x1800B4CD0
 	[ExtensionAttribute] // RVA: 0xB4CD0 Offset: 0xB40D0 VA: 0x1800B4CD0
-	// RVA: 0x1BACA20 Offset: 0x1BAB020 VA: 0x181BACA20
+	// RVA: 0x1BAD210 Offset: 0x1BAB810 VA: 0x181BAD210
 	public static IEnumerable<string> SplitToChunks(string str, int chunkLength) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BAC7C0 Offset: 0x1BAADC0 VA: 0x181BAC7C0
+	// RVA: 0x1BACFB0 Offset: 0x1BAB5B0 VA: 0x181BACFB0
 	public static uint ManifestHash(string str) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BACB10 Offset: 0x1BAB110 VA: 0x181BACB10
+	// RVA: 0x1BAD300 Offset: 0x1BAB900 VA: 0x181BAD300
 	public static bool StartsWithAny(string str, string[] values) { }
 
-	// RVA: 0x1BACD00 Offset: 0x1BAB300 VA: 0x181BACD00
+	// RVA: 0x1BAD4F0 Offset: 0x1BABAF0 VA: 0x181BAD4F0
 	private static void .cctor() { }
 
 }
@@ -72,17 +72,17 @@ private sealed class StringEx.<SplitToLines>d__9 : IEnumerable<string>, IEnumera
 	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87750 Offset: 0xD85D50 VA: 0x180D87750
+	// RVA: 0xD88200 Offset: 0xD86800 VA: 0x180D88200
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BB0090 Offset: 0x1BAE690 VA: 0x181BB0090 Slot: 7
+	// RVA: 0x1BB0880 Offset: 0x1BAEE80 VA: 0x181BB0880 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x1BAFE30 Offset: 0x1BAE430 VA: 0x181BAFE30 Slot: 8
+	// RVA: 0x1BB0620 Offset: 0x1BAEC20 VA: 0x181BB0620 Slot: 8
 	private bool MoveNext() { }
 
-	// RVA: 0x1BB0140 Offset: 0x1BAE740 VA: 0x181BB0140
+	// RVA: 0x1BB0930 Offset: 0x1BAEF30 VA: 0x181BB0930
 	private void <>m__Finally1() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -90,7 +90,7 @@ private sealed class StringEx.<SplitToLines>d__9 : IEnumerable<string>, IEnumera
 	private string System.Collections.Generic.IEnumerator<System.String>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BB0040 Offset: 0x1BAE640 VA: 0x181BB0040 Slot: 10
+	// RVA: 0x1BB0830 Offset: 0x1BAEE30 VA: 0x181BB0830 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -98,11 +98,11 @@ private sealed class StringEx.<SplitToLines>d__9 : IEnumerable<string>, IEnumera
 	private object System.Collections.IEnumerator.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BAFFA0 Offset: 0x1BAE5A0 VA: 0x181BAFFA0 Slot: 4
+	// RVA: 0x1BB0790 Offset: 0x1BAED90 VA: 0x181BB0790 Slot: 4
 	private IEnumerator<string> System.Collections.Generic.IEnumerable<System.String>.GetEnumerator() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BAFFA0 Offset: 0x1BAE5A0 VA: 0x181BAFFA0 Slot: 5
+	// RVA: 0x1BB0790 Offset: 0x1BAED90 VA: 0x181BB0790 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
@@ -125,14 +125,14 @@ private sealed class StringEx.<SplitToChunks>d__10 : IEnumerable<string>, IEnume
 	// Methods
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD87750 Offset: 0xD85D50 VA: 0x180D87750
+	// RVA: 0xD88200 Offset: 0xD86800 VA: 0x180D88200
 	public void .ctor(int <>1__state) { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x1BAFC00 Offset: 0x1BAE200 VA: 0x181BAFC00 Slot: 8
+	// RVA: 0x1BB03F0 Offset: 0x1BAE9F0 VA: 0x181BB03F0 Slot: 8
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -140,7 +140,7 @@ private sealed class StringEx.<SplitToChunks>d__10 : IEnumerable<string>, IEnume
 	private string System.Collections.Generic.IEnumerator<System.String>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BAFDE0 Offset: 0x1BAE3E0 VA: 0x181BAFDE0 Slot: 10
+	// RVA: 0x1BB05D0 Offset: 0x1BAEBD0 VA: 0x181BB05D0 Slot: 10
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -148,11 +148,11 @@ private sealed class StringEx.<SplitToChunks>d__10 : IEnumerable<string>, IEnume
 	private object System.Collections.IEnumerator.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BAFD30 Offset: 0x1BAE330 VA: 0x181BAFD30 Slot: 4
+	// RVA: 0x1BB0520 Offset: 0x1BAEB20 VA: 0x181BB0520 Slot: 4
 	private IEnumerator<string> System.Collections.Generic.IEnumerable<System.String>.GetEnumerator() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1BAFD30 Offset: 0x1BAE330 VA: 0x181BAFD30 Slot: 5
+	// RVA: 0x1BB0520 Offset: 0x1BAEB20 VA: 0x181BB0520 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }

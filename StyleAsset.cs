@@ -7,7 +7,7 @@ public class StyleAsset : ScriptableObject // TypeDefIndex: 7063
 
 	// Methods
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -20,7 +20,7 @@ public class StyleAsset.Group // TypeDefIndex: 7064
 
 	// Methods
 
-	// RVA: 0xFC1970 Offset: 0xFBFF70 VA: 0x180FC1970
+	// RVA: 0xFC2410 Offset: 0xFC0A10 VA: 0x180FC2410
 	public void .ctor() { }
 
 }

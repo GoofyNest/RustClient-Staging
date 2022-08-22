@@ -5,19 +5,19 @@ public class DecalRecycle : BasePrefab, IClientComponent, IEffectRecycle, IOnPar
 
 	// Methods
 
-	// RVA: 0x83FAE0 Offset: 0x83E0E0 VA: 0x18083FAE0
+	// RVA: 0x840030 Offset: 0x83E630 VA: 0x180840030
 	protected void Awake() { }
 
-	// RVA: 0x83FB60 Offset: 0x83E160 VA: 0x18083FB60 Slot: 10
+	// RVA: 0x8400B0 Offset: 0x83E6B0 VA: 0x1808400B0 Slot: 10
 	protected virtual void OnEnable() { }
 
-	// RVA: 0x83FDC0 Offset: 0x83E3C0 VA: 0x18083FDC0 Slot: 8
+	// RVA: 0x840310 Offset: 0x83E910 VA: 0x180840310 Slot: 8
 	public void Recycle() { }
 
-	// RVA: 0x83FD90 Offset: 0x83E390 VA: 0x18083FD90 Slot: 9
+	// RVA: 0x8402E0 Offset: 0x83E8E0 VA: 0x1808402E0 Slot: 9
 	public void OnParentDestroying() { }
 
-	// RVA: 0x83F3F0 Offset: 0x83D9F0 VA: 0x18083F3F0
+	// RVA: 0x83F940 Offset: 0x83DF40 VA: 0x18083F940
 	public void .ctor() { }
 
 }

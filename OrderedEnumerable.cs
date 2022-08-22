@@ -18,7 +18,7 @@ private sealed class OrderedEnumerable.<GetEnumerator>d__1<TElement> : IEnumerat
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E9140 Offset: 0x15E7740 VA: 0x1815E9140
+	|-RVA: 0x164FEF0 Offset: 0x164E4F0 VA: 0x18164FEF0
 	|-OrderedEnumerable.<GetEnumerator>d__1<Demos.DemoInfo>..ctor
 	|-OrderedEnumerable.<GetEnumerator>d__1<ServerInfo>..ctor
 	|-OrderedEnumerable.<GetEnumerator>d__1<Item>..ctor
@@ -51,31 +51,31 @@ private sealed class OrderedEnumerable.<GetEnumerator>d__1<TElement> : IEnumerat
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x176CC10 Offset: 0x176B210 VA: 0x18176CC10
+	|-RVA: 0x176A760 Offset: 0x1768D60 VA: 0x18176A760
 	|-OrderedEnumerable.<GetEnumerator>d__1<Demos.DemoInfo>.MoveNext
 	|
-	|-RVA: 0x176D4B0 Offset: 0x176BAB0 VA: 0x18176D4B0
+	|-RVA: 0x176B000 Offset: 0x1769600 VA: 0x18176B000
 	|-OrderedEnumerable.<GetEnumerator>d__1<ServerInfo>.MoveNext
 	|
-	|-RVA: 0x176CF40 Offset: 0x176B540 VA: 0x18176CF40
+	|-RVA: 0x176AA90 Offset: 0x1769090 VA: 0x18176AA90
 	|-OrderedEnumerable.<GetEnumerator>d__1<Item>.MoveNext
 	|
-	|-RVA: 0x176D320 Offset: 0x176B920 VA: 0x18176D320
+	|-RVA: 0x176AE70 Offset: 0x1769470 VA: 0x18176AE70
 	|-OrderedEnumerable.<GetEnumerator>d__1<KeyValuePair<object, int>>.MoveNext
 	|
-	|-RVA: 0x176CDB0 Offset: 0x176B3B0 VA: 0x18176CDB0
+	|-RVA: 0x176A900 Offset: 0x1768F00 VA: 0x18176A900
 	|-OrderedEnumerable.<GetEnumerator>d__1<KeyValuePair<object, long>>.MoveNext
 	|
-	|-RVA: 0x176C900 Offset: 0x176AF00 VA: 0x18176C900
+	|-RVA: 0x176A450 Offset: 0x1768A50 VA: 0x18176A450
 	|-OrderedEnumerable.<GetEnumerator>d__1<KeyValuePair<object, object>>.MoveNext
 	|
-	|-RVA: 0x176C780 Offset: 0x176AD80 VA: 0x18176C780
+	|-RVA: 0x176A2D0 Offset: 0x17688D0 VA: 0x18176A2D0
 	|-OrderedEnumerable.<GetEnumerator>d__1<double>.MoveNext
 	|
-	|-RVA: 0x176CA90 Offset: 0x176B090 VA: 0x18176CA90
+	|-RVA: 0x176A5E0 Offset: 0x1768BE0 VA: 0x18176A5E0
 	|-OrderedEnumerable.<GetEnumerator>d__1<object>.MoveNext
 	|
-	|-RVA: 0x176D190 Offset: 0x176B790 VA: 0x18176D190
+	|-RVA: 0x176ACE0 Offset: 0x17692E0 VA: 0x18176ACE0
 	|-OrderedEnumerable.<GetEnumerator>d__1<Resolution>.MoveNext
 	*/
 
@@ -84,27 +84,27 @@ private sealed class OrderedEnumerable.<GetEnumerator>d__1<TElement> : IEnumerat
 	private TElement System.Collections.Generic.IEnumerator<TElement>.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x176D780 Offset: 0x176BD80 VA: 0x18176D780
+	|-RVA: 0x176B2D0 Offset: 0x17698D0 VA: 0x18176B2D0
 	|-OrderedEnumerable.<GetEnumerator>d__1<Demos.DemoInfo>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	|
-	|-RVA: 0xDEC370 Offset: 0xDEA970 VA: 0x180DEC370
+	|-RVA: 0xDECE20 Offset: 0xDEB420 VA: 0x180DECE20
 	|-OrderedEnumerable.<GetEnumerator>d__1<ServerInfo>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	|
-	|-RVA: 0x176D6F0 Offset: 0x176BCF0 VA: 0x18176D6F0
+	|-RVA: 0x176B240 Offset: 0x1769840 VA: 0x18176B240
 	|-OrderedEnumerable.<GetEnumerator>d__1<Item>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	|
-	|-RVA: 0xB114F0 Offset: 0xB0FAF0 VA: 0x180B114F0
+	|-RVA: 0xB119C0 Offset: 0xB0FFC0 VA: 0x180B119C0
 	|-OrderedEnumerable.<GetEnumerator>d__1<KeyValuePair<object, int>>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	|-OrderedEnumerable.<GetEnumerator>d__1<KeyValuePair<object, long>>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	|-OrderedEnumerable.<GetEnumerator>d__1<KeyValuePair<object, object>>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	|
-	|-RVA: 0xB3BB60 Offset: 0xB3A160 VA: 0x180B3BB60
+	|-RVA: 0xB3C030 Offset: 0xB3A630 VA: 0x180B3C030
 	|-OrderedEnumerable.<GetEnumerator>d__1<double>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	|
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	|-OrderedEnumerable.<GetEnumerator>d__1<object>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	|
-	|-RVA: 0x176D6D0 Offset: 0x176BCD0 VA: 0x18176D6D0
+	|-RVA: 0x176B220 Offset: 0x1769820 VA: 0x18176B220
 	|-OrderedEnumerable.<GetEnumerator>d__1<Resolution>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	*/
 
@@ -113,31 +113,31 @@ private sealed class OrderedEnumerable.<GetEnumerator>d__1<TElement> : IEnumerat
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x176D9D0 Offset: 0x176BFD0 VA: 0x18176D9D0
+	|-RVA: 0x176B520 Offset: 0x1769B20 VA: 0x18176B520
 	|-OrderedEnumerable.<GetEnumerator>d__1<Demos.DemoInfo>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176D890 Offset: 0x176BE90 VA: 0x18176D890
+	|-RVA: 0x176B3E0 Offset: 0x17699E0 VA: 0x18176B3E0
 	|-OrderedEnumerable.<GetEnumerator>d__1<ServerInfo>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176D840 Offset: 0x176BE40 VA: 0x18176D840
+	|-RVA: 0x176B390 Offset: 0x1769990 VA: 0x18176B390
 	|-OrderedEnumerable.<GetEnumerator>d__1<Item>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176D7A0 Offset: 0x176BDA0 VA: 0x18176D7A0
+	|-RVA: 0x176B2F0 Offset: 0x17698F0 VA: 0x18176B2F0
 	|-OrderedEnumerable.<GetEnumerator>d__1<KeyValuePair<object, int>>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176DA20 Offset: 0x176C020 VA: 0x18176DA20
+	|-RVA: 0x176B570 Offset: 0x1769B70 VA: 0x18176B570
 	|-OrderedEnumerable.<GetEnumerator>d__1<KeyValuePair<object, long>>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176D7F0 Offset: 0x176BDF0 VA: 0x18176D7F0
+	|-RVA: 0x176B340 Offset: 0x1769940 VA: 0x18176B340
 	|-OrderedEnumerable.<GetEnumerator>d__1<KeyValuePair<object, object>>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176D8E0 Offset: 0x176BEE0 VA: 0x18176D8E0
+	|-RVA: 0x176B430 Offset: 0x1769A30 VA: 0x18176B430
 	|-OrderedEnumerable.<GetEnumerator>d__1<double>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176D930 Offset: 0x176BF30 VA: 0x18176D930
+	|-RVA: 0x176B480 Offset: 0x1769A80 VA: 0x18176B480
 	|-OrderedEnumerable.<GetEnumerator>d__1<object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176D980 Offset: 0x176BF80 VA: 0x18176D980
+	|-RVA: 0x176B4D0 Offset: 0x1769AD0 VA: 0x18176B4D0
 	|-OrderedEnumerable.<GetEnumerator>d__1<Resolution>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -146,27 +146,27 @@ private sealed class OrderedEnumerable.<GetEnumerator>d__1<TElement> : IEnumerat
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x176DC70 Offset: 0x176C270 VA: 0x18176DC70
+	|-RVA: 0x176B7C0 Offset: 0x1769DC0 VA: 0x18176B7C0
 	|-OrderedEnumerable.<GetEnumerator>d__1<Demos.DemoInfo>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x176DBE0 Offset: 0x176C1E0 VA: 0x18176DBE0
+	|-RVA: 0x176B730 Offset: 0x1769D30 VA: 0x18176B730
 	|-OrderedEnumerable.<GetEnumerator>d__1<ServerInfo>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x176DAC0 Offset: 0x176C0C0 VA: 0x18176DAC0
+	|-RVA: 0x176B610 Offset: 0x1769C10 VA: 0x18176B610
 	|-OrderedEnumerable.<GetEnumerator>d__1<Item>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x176DA70 Offset: 0x176C070 VA: 0x18176DA70
+	|-RVA: 0x176B5C0 Offset: 0x1769BC0 VA: 0x18176B5C0
 	|-OrderedEnumerable.<GetEnumerator>d__1<KeyValuePair<object, int>>.System.Collections.IEnumerator.get_Current
 	|-OrderedEnumerable.<GetEnumerator>d__1<KeyValuePair<object, long>>.System.Collections.IEnumerator.get_Current
 	|-OrderedEnumerable.<GetEnumerator>d__1<KeyValuePair<object, object>>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x176DB90 Offset: 0x176C190 VA: 0x18176DB90
+	|-RVA: 0x176B6E0 Offset: 0x1769CE0 VA: 0x18176B6E0
 	|-OrderedEnumerable.<GetEnumerator>d__1<double>.System.Collections.IEnumerator.get_Current
 	|
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	|-OrderedEnumerable.<GetEnumerator>d__1<object>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x176DCC0 Offset: 0x176C2C0 VA: 0x18176DCC0
+	|-RVA: 0x176B810 Offset: 0x1769E10 VA: 0x18176B810
 	|-OrderedEnumerable.<GetEnumerator>d__1<Resolution>.System.Collections.IEnumerator.get_Current
 	*/
 

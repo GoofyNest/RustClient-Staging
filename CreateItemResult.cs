@@ -11,13 +11,13 @@ internal struct CreateItemResult_t : ICallbackData // TypeDefIndex: 5432
 
 	// Methods
 
-	// RVA: 0x1E5250 Offset: 0x1E4650 VA: 0x1801E5250 Slot: 5
+	// RVA: 0x1E5670 Offset: 0x1E4A70 VA: 0x1801E5670 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E5240 Offset: 0x1E4640 VA: 0x1801E5240 Slot: 4
+	// RVA: 0x1E5660 Offset: 0x1E4A60 VA: 0x1801E5660 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136F7C0 Offset: 0x136DDC0 VA: 0x18136F7C0
+	// RVA: 0x136E8C0 Offset: 0x136CEC0 VA: 0x18136E8C0
 	private static void .cctor() { }
 
 }

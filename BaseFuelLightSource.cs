@@ -1,7 +1,7 @@
 public class BaseFuelLightSource : BaseOven // TypeDefIndex: 9510
 {	// Methods
 
-	// RVA: 0xA3BCC0 Offset: 0xA3A2C0 VA: 0x180A3BCC0
+	// RVA: 0xA3C1B0 Offset: 0xA3A7B0 VA: 0x180A3C1B0
 	public void .ctor() { }
 
 }

@@ -24,34 +24,34 @@ public class SleepingBagButton : MonoBehaviour, IPointerEnterHandler, IEventSyst
 
 	// Methods
 
-	// RVA: 0x5A79B0 Offset: 0x5A5FB0 VA: 0x1805A79B0
+	// RVA: 0x5A7940 Offset: 0x5A5F40 VA: 0x1805A7940
 	public float get_timerSeconds() { }
 
-	// RVA: 0x5A7940 Offset: 0x5A5F40 VA: 0x1805A7940
+	// RVA: 0x5A78D0 Offset: 0x5A5ED0 VA: 0x1805A78D0
 	public string get_friendlyName() { }
 
-	// RVA: 0x5A73A0 Offset: 0x5A59A0 VA: 0x1805A73A0
+	// RVA: 0x5A7330 Offset: 0x5A5930 VA: 0x1805A7330
 	private void OnEnable() { }
 
-	// RVA: 0x5A7550 Offset: 0x5A5B50 VA: 0x1805A7550
+	// RVA: 0x5A74E0 Offset: 0x5A5AE0 VA: 0x1805A74E0
 	public void Setup(RespawnInformation.SpawnOptions option, UIDeathScreen.RespawnColourScheme colourScheme) { }
 
-	// RVA: 0x5A7730 Offset: 0x5A5D30 VA: 0x1805A7730
+	// RVA: 0x5A76C0 Offset: 0x5A5CC0 VA: 0x1805A76C0
 	private void UpdateButtonState(RespawnInformation.SpawnOptions option) { }
 
-	// RVA: 0x5A7800 Offset: 0x5A5E00 VA: 0x1805A7800
+	// RVA: 0x5A7790 Offset: 0x5A5D90 VA: 0x1805A7790
 	public void Update() { }
 
-	// RVA: 0x5A7270 Offset: 0x5A5870 VA: 0x1805A7270
+	// RVA: 0x5A7200 Offset: 0x5A5800 VA: 0x1805A7200
 	public void DoSpawn() { }
 
-	// RVA: 0x5A7140 Offset: 0x5A5740 VA: 0x1805A7140
+	// RVA: 0x5A70D0 Offset: 0x5A56D0 VA: 0x1805A70D0
 	public void DeleteBag() { }
 
-	// RVA: 0x5A7430 Offset: 0x5A5A30 VA: 0x1805A7430 Slot: 4
+	// RVA: 0x5A73C0 Offset: 0x5A59C0 VA: 0x1805A73C0 Slot: 4
 	public void OnPointerEnter(PointerEventData eventData) { }
 
-	// RVA: 0x5A74C0 Offset: 0x5A5AC0 VA: 0x1805A74C0 Slot: 5
+	// RVA: 0x5A7450 Offset: 0x5A5A50 VA: 0x1805A7450 Slot: 5
 	public void OnPointerExit(PointerEventData eventData) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

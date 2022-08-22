@@ -18,11 +18,11 @@ public static class PlatformServiceExtensions // TypeDefIndex: 6154
 	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2315C60 Offset: 0x2314260 VA: 0x182315C60
+	// RVA: 0x2316480 Offset: 0x2314A80 VA: 0x182316480
 	public static long AddPlayerStatInt(IPlatformService platform, string key, long amount) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2315B00 Offset: 0x2314100 VA: 0x182315B00
+	// RVA: 0x2316320 Offset: 0x2314920 VA: 0x182316320
 	public static double AddPlayerStatFloat(IPlatformService platform, string key, double amount) { }
 
 }

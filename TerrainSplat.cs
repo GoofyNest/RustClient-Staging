@@ -19,17 +19,17 @@ public static class TerrainSplat // TypeDefIndex: 7783
 	public const int FOREST_IDX = 5;
 	public const int STONES_IDX = 6;
 	public const int GRAVEL_IDX = 7;
-	private static Dictionary<int, int> type2index; // 0x22C0
+	private static Dictionary<int, int> type2index; // 0x2B10510
 
 	// Methods
 
-	// RVA: 0x2303E00 Offset: 0x2302400 VA: 0x182303E00
+	// RVA: 0x2304620 Offset: 0x2302C20 VA: 0x182304620
 	public static int TypeToIndex(int id) { }
 
-	// RVA: 0x768340 Offset: 0x766940 VA: 0x180768340
+	// RVA: 0x768290 Offset: 0x766890 VA: 0x180768290
 	public static int IndexToType(int idx) { }
 
-	// RVA: 0x2303E80 Offset: 0x2302480 VA: 0x182303E80
+	// RVA: 0x23046A0 Offset: 0x2302CA0 VA: 0x1823046A0
 	private static void .cctor() { }
 
 }

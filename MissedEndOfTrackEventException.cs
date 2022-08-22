@@ -1,7 +1,7 @@
 public sealed class MissedEndOfTrackEventException : MidiException // TypeDefIndex: 7577
 {	// Methods
 
-	// RVA: 0x13A3A50 Offset: 0x13A2050 VA: 0x1813A3A50
+	// RVA: 0x13A2B50 Offset: 0x13A1150 VA: 0x1813A2B50
 	internal void .ctor() { }
 
 }

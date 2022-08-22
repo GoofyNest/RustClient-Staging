@@ -9,16 +9,16 @@ public class DragMeCustomParent : DragMe // TypeDefIndex: 11273
 
 	// Methods
 
-	// RVA: 0xAAFC60 Offset: 0xAAE260 VA: 0x180AAFC60 Slot: 9
+	// RVA: 0xAB0130 Offset: 0xAAE730 VA: 0x180AB0130 Slot: 9
 	protected override Canvas get_TopCanvas() { }
 
-	// RVA: 0xAAFA70 Offset: 0xAAE070 VA: 0x180AAFA70 Slot: 8
+	// RVA: 0xAAFF40 Offset: 0xAAE540 VA: 0x180AAFF40 Slot: 8
 	protected override GameObject CreateDragObject(Canvas topCanvas, IDraggable dragInfo) { }
 
-	// RVA: 0x9975F0 Offset: 0x995BF0 VA: 0x1809975F0 Slot: 12
+	// RVA: 0x997AE0 Offset: 0x9960E0 VA: 0x180997AE0 Slot: 12
 	public override bool get_CancelOnDrop() { }
 
-	// RVA: 0xAAFC10 Offset: 0xAAE210 VA: 0x180AAFC10
+	// RVA: 0xAB00E0 Offset: 0xAAE6E0 VA: 0x180AB00E0
 	public void .ctor() { }
 
 }

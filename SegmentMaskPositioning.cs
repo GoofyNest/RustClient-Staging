@@ -13,10 +13,10 @@ public class SegmentMaskPositioning : MonoBehaviour // TypeDefIndex: 11203
 	// Methods
 
 	[ContextMenu] // RVA: 0x9F530 Offset: 0x9E930 VA: 0x18009F530
-	// RVA: 0x4A8640 Offset: 0x4A6C40 VA: 0x1804A8640
+	// RVA: 0x4A85D0 Offset: 0x4A6BD0 VA: 0x1804A85D0
 	public void Refresh() { }
 
-	// RVA: 0x4A9040 Offset: 0x4A7640 VA: 0x1804A9040
+	// RVA: 0x4A8FD0 Offset: 0x4A75D0 VA: 0x1804A8FD0
 	public void .ctor() { }
 
 }

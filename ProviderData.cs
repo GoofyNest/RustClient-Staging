@@ -8,10 +8,10 @@ internal class ProviderData // TypeDefIndex: 1140
 
 	// Methods
 
-	// RVA: 0x14826C0 Offset: 0x1480CC0 VA: 0x1814826C0
+	// RVA: 0x1481790 Offset: 0x147FD90 VA: 0x181481790
 	public void CopyFrom(ProviderData other) { }
 
-	// RVA: 0x1477CB0 Offset: 0x14762B0 VA: 0x181477CB0
+	// RVA: 0x1476D80 Offset: 0x1475380 VA: 0x181476D80
 	public void .ctor() { }
 
 }

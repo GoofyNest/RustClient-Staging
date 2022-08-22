@@ -35,226 +35,226 @@ public class TextMeshPro : TMP_Text, ILayoutElement // TypeDefIndex: 6866
 
 	// Methods
 
-	// RVA: 0x1161480 Offset: 0x115FA80 VA: 0x181161480 Slot: 4
+	// RVA: 0x1161EF0 Offset: 0x11604F0 VA: 0x181161EF0 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0x116EBA0 Offset: 0x116D1A0 VA: 0x18116EBA0 Slot: 5
+	// RVA: 0x116F610 Offset: 0x116DC10 VA: 0x18116F610 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x116EB40 Offset: 0x116D140 VA: 0x18116EB40 Slot: 7
+	// RVA: 0x116F5B0 Offset: 0x116DBB0 VA: 0x18116F5B0 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x116E9F0 Offset: 0x116CFF0 VA: 0x18116E9F0 Slot: 8
+	// RVA: 0x116F460 Offset: 0x116DA60 VA: 0x18116F460 Slot: 8
 	protected override void OnDestroy() { }
 
-	// RVA: 0x116E430 Offset: 0x116CA30 VA: 0x18116E430 Slot: 83
+	// RVA: 0x116EEA0 Offset: 0x116D4A0 VA: 0x18116EEA0 Slot: 83
 	protected override void LoadFontAsset() { }
 
-	// RVA: 0x1172700 Offset: 0x1170D00 VA: 0x181172700
+	// RVA: 0x1173170 Offset: 0x1171770 VA: 0x181173170
 	private void UpdateEnvMapMatrix() { }
 
-	// RVA: 0x11715F0 Offset: 0x116FBF0 VA: 0x1811715F0
+	// RVA: 0x1172060 Offset: 0x1170660 VA: 0x181172060
 	private void SetMask(MaskingTypes maskType) { }
 
-	// RVA: 0x1171550 Offset: 0x116FB50 VA: 0x181171550
+	// RVA: 0x1171FC0 Offset: 0x11705C0 VA: 0x181171FC0
 	private void SetMaskCoordinates(Vector4 coords) { }
 
-	// RVA: 0x1171430 Offset: 0x116FA30 VA: 0x181171430
+	// RVA: 0x1171EA0 Offset: 0x11704A0 VA: 0x181171EA0
 	private void SetMaskCoordinates(Vector4 coords, float softX, float softY) { }
 
-	// RVA: 0x11623A0 Offset: 0x11609A0 VA: 0x1811623A0
+	// RVA: 0x1162E10 Offset: 0x1161410 VA: 0x181162E10
 	private void EnableMasking() { }
 
-	// RVA: 0x1162250 Offset: 0x1160850 VA: 0x181162250
+	// RVA: 0x1162CC0 Offset: 0x11612C0 VA: 0x181162CC0
 	private void DisableMasking() { }
 
-	// RVA: 0x1172AA0 Offset: 0x11710A0 VA: 0x181172AA0
+	// RVA: 0x1173510 Offset: 0x1171B10 VA: 0x181173510
 	private void UpdateMask() { }
 
-	// RVA: 0x116DAD0 Offset: 0x116C0D0 VA: 0x18116DAD0 Slot: 85
+	// RVA: 0x116E540 Offset: 0x116CB40 VA: 0x18116E540 Slot: 85
 	protected override Material GetMaterial(Material mat) { }
 
-	// RVA: 0x116DC20 Offset: 0x116C220 VA: 0x18116DC20 Slot: 89
+	// RVA: 0x116E690 Offset: 0x116CC90 VA: 0x18116E690 Slot: 89
 	protected override Material[] GetMaterials(Material[] mats) { }
 
-	// RVA: 0x1172110 Offset: 0x1170710 VA: 0x181172110 Slot: 84
+	// RVA: 0x1172B80 Offset: 0x1171180 VA: 0x181172B80 Slot: 84
 	protected override void SetSharedMaterial(Material mat) { }
 
-	// RVA: 0x116E030 Offset: 0x116C630 VA: 0x18116E030 Slot: 87
+	// RVA: 0x116EAA0 Offset: 0x116D0A0 VA: 0x18116EAA0 Slot: 87
 	protected override Material[] GetSharedMaterials() { }
 
-	// RVA: 0x1172160 Offset: 0x1170760 VA: 0x181172160 Slot: 88
+	// RVA: 0x1172BD0 Offset: 0x11711D0 VA: 0x181172BD0 Slot: 88
 	protected override void SetSharedMaterials(Material[] materials) { }
 
-	// RVA: 0x1171D50 Offset: 0x1170350 VA: 0x181171D50 Slot: 93
+	// RVA: 0x11727C0 Offset: 0x1170DC0 VA: 0x1811727C0 Slot: 93
 	protected override void SetOutlineThickness(float thickness) { }
 
-	// RVA: 0x1171250 Offset: 0x116F850 VA: 0x181171250 Slot: 91
+	// RVA: 0x1171CC0 Offset: 0x11702C0 VA: 0x181171CC0 Slot: 91
 	protected override void SetFaceColor(Color32 color) { }
 
-	// RVA: 0x1171C10 Offset: 0x1170210 VA: 0x181171C10 Slot: 92
+	// RVA: 0x1172680 Offset: 0x1170C80 VA: 0x181172680 Slot: 92
 	protected override void SetOutlineColor(Color32 color) { }
 
-	// RVA: 0x1162180 Offset: 0x1160780 VA: 0x181162180
+	// RVA: 0x1162BF0 Offset: 0x11611F0 VA: 0x181162BF0
 	private void CreateMaterialInstance() { }
 
-	// RVA: 0x1171FB0 Offset: 0x11705B0 VA: 0x181171FB0 Slot: 94
+	// RVA: 0x1172A20 Offset: 0x1171020 VA: 0x181172A20 Slot: 94
 	protected override void SetShaderDepth() { }
 
-	// RVA: 0x1170EA0 Offset: 0x116F4A0 VA: 0x181170EA0 Slot: 95
+	// RVA: 0x1171910 Offset: 0x116FF10 VA: 0x181171910 Slot: 95
 	protected override void SetCulling() { }
 
-	// RVA: 0x1171EE0 Offset: 0x11704E0 VA: 0x181171EE0
+	// RVA: 0x1172950 Offset: 0x1170F50 VA: 0x181172950
 	private void SetPerspectiveCorrection() { }
 
-	// RVA: 0x116DF50 Offset: 0x116C550 VA: 0x18116DF50 Slot: 97
+	// RVA: 0x116E9C0 Offset: 0x116CFC0 VA: 0x18116E9C0 Slot: 97
 	protected override float GetPaddingForMaterial(Material mat) { }
 
-	// RVA: 0x116DE00 Offset: 0x116C400 VA: 0x18116DE00 Slot: 96
+	// RVA: 0x116E870 Offset: 0x116CE70 VA: 0x18116E870 Slot: 96
 	protected override float GetPaddingForMaterial() { }
 
-	// RVA: 0x116F1F0 Offset: 0x116D7F0 VA: 0x18116F1F0 Slot: 108
+	// RVA: 0x116FC60 Offset: 0x116E260 VA: 0x18116FC60 Slot: 108
 	protected override int SetArraySizes(TMP_Text.UnicodeChar[] chars) { }
 
-	// RVA: 0x1162050 Offset: 0x1160650 VA: 0x181162050 Slot: 114
+	// RVA: 0x1162AC0 Offset: 0x11610C0 VA: 0x181162AC0 Slot: 114
 	public override void ComputeMarginSize() { }
 
-	// RVA: 0x116EB20 Offset: 0x116D120 VA: 0x18116EB20 Slot: 13
+	// RVA: 0x116F590 Offset: 0x116DB90 VA: 0x18116F590 Slot: 13
 	protected override void OnDidApplyAnimationProperties() { }
 
-	// RVA: 0x116EF00 Offset: 0x116D500 VA: 0x18116EF00 Slot: 12
+	// RVA: 0x116F970 Offset: 0x116DF70 VA: 0x18116F970 Slot: 12
 	protected override void OnTransformParentChanged() { }
 
-	// RVA: 0x116EEB0 Offset: 0x116D4B0 VA: 0x18116EEB0 Slot: 10
+	// RVA: 0x116F920 Offset: 0x116DF20 VA: 0x18116F920 Slot: 10
 	protected override void OnRectTransformDimensionsChange() { }
 
-	// RVA: 0x116E340 Offset: 0x116C940 VA: 0x18116E340 Slot: 125
+	// RVA: 0x116EDB0 Offset: 0x116D3B0 VA: 0x18116EDB0 Slot: 125
 	internal override void InternalUpdate() { }
 
-	// RVA: 0x116ED00 Offset: 0x116D300 VA: 0x18116ED00
+	// RVA: 0x116F770 Offset: 0x116DD70 VA: 0x18116F770
 	private void OnPreRenderObject() { }
 
-	// RVA: 0x1162520 Offset: 0x1160B20 VA: 0x181162520 Slot: 109
+	// RVA: 0x1162F90 Offset: 0x1161590 VA: 0x181162F90 Slot: 109
 	protected override void GenerateTextMesh() { }
 
-	// RVA: 0x116E1F0 Offset: 0x116C7F0 VA: 0x18116E1F0 Slot: 98
+	// RVA: 0x116EC60 Offset: 0x116D260 VA: 0x18116EC60 Slot: 98
 	protected override Vector3[] GetTextContainerLocalCorners() { }
 
-	// RVA: 0x1171960 Offset: 0x116FF60 VA: 0x181171960
+	// RVA: 0x11723D0 Offset: 0x11709D0 VA: 0x1811723D0
 	private void SetMeshFilters(bool state) { }
 
-	// RVA: 0x116F030 Offset: 0x116D630 VA: 0x18116F030 Slot: 120
+	// RVA: 0x116FAA0 Offset: 0x116E0A0 VA: 0x18116FAA0 Slot: 120
 	protected override void SetActiveSubMeshes(bool state) { }
 
-	// RVA: 0x1161EB0 Offset: 0x11604B0 VA: 0x181161EB0 Slot: 121
+	// RVA: 0x1162920 Offset: 0x1160F20 VA: 0x181162920 Slot: 121
 	protected override void ClearSubMeshObjects() { }
 
-	// RVA: 0x116D5E0 Offset: 0x116BBE0 VA: 0x18116D5E0 Slot: 111
+	// RVA: 0x116E050 Offset: 0x116C650 VA: 0x18116E050 Slot: 111
 	protected override Bounds GetCompoundBounds() { }
 
-	// RVA: 0x1172E90 Offset: 0x1171490 VA: 0x181172E90
+	// RVA: 0x1173900 Offset: 0x1171F00 VA: 0x181173900
 	private void UpdateSDFScale(float scaleDelta) { }
 
-	// RVA: 0x1160DE0 Offset: 0x115F3E0 VA: 0x181160DE0 Slot: 112
+	// RVA: 0x1161850 Offset: 0x115FE50 VA: 0x181161850 Slot: 112
 	protected override void AdjustLineOffset(int startIndex, int endIndex, float offset) { }
 
-	// RVA: 0x11738F0 Offset: 0x1171EF0 VA: 0x1811738F0
+	// RVA: 0x1174360 Offset: 0x1172960 VA: 0x181174360
 	public int get_sortingLayerID() { }
 
-	// RVA: 0x1173AE0 Offset: 0x11720E0 VA: 0x181173AE0
+	// RVA: 0x1174550 Offset: 0x1172B50 VA: 0x181174550
 	public void set_sortingLayerID(int value) { }
 
-	// RVA: 0x1173920 Offset: 0x1171F20 VA: 0x181173920
+	// RVA: 0x1174390 Offset: 0x1172990 VA: 0x181174390
 	public int get_sortingOrder() { }
 
-	// RVA: 0x1173B10 Offset: 0x1172110 VA: 0x181173B10
+	// RVA: 0x1174580 Offset: 0x1172B80 VA: 0x181174580
 	public void set_sortingOrder(int value) { }
 
-	// RVA: 0x11736B0 Offset: 0x1171CB0 VA: 0x1811736B0 Slot: 71
+	// RVA: 0x1174120 Offset: 0x1172720 VA: 0x181174120 Slot: 71
 	public override bool get_autoSizeTextContainer() { }
 
-	// RVA: 0x11739F0 Offset: 0x1171FF0 VA: 0x1811739F0 Slot: 72
+	// RVA: 0x1174460 Offset: 0x1172A60 VA: 0x181174460 Slot: 72
 	public override void set_autoSizeTextContainer(bool value) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0
 	public TextContainer get_textContainer() { }
 
-	// RVA: 0x1173950 Offset: 0x1171F50 VA: 0x181173950
+	// RVA: 0x11743C0 Offset: 0x11729C0 VA: 0x1811743C0
 	public Transform get_transform() { }
 
-	// RVA: 0x1173850 Offset: 0x1171E50 VA: 0x181173850
+	// RVA: 0x11742C0 Offset: 0x11728C0 VA: 0x1811742C0
 	public Renderer get_renderer() { }
 
-	// RVA: 0x1173770 Offset: 0x1171D70 VA: 0x181173770 Slot: 73
+	// RVA: 0x11741E0 Offset: 0x11727E0 VA: 0x1811741E0 Slot: 73
 	public override Mesh get_mesh() { }
 
-	// RVA: 0x11736D0 Offset: 0x1171CD0 VA: 0x1811736D0
+	// RVA: 0x1174140 Offset: 0x1172740 VA: 0x181174140
 	public MeshFilter get_meshFilter() { }
 
-	// RVA: 0x11736C0 Offset: 0x1171CC0 VA: 0x1811736C0
+	// RVA: 0x1174130 Offset: 0x1172730 VA: 0x181174130
 	public MaskingTypes get_maskType() { }
 
-	// RVA: 0x1173AD0 Offset: 0x11720D0 VA: 0x181173AD0
+	// RVA: 0x1174540 Offset: 0x1172B40 VA: 0x181174540
 	public void set_maskType(MaskingTypes value) { }
 
-	// RVA: 0x11717B0 Offset: 0x116FDB0 VA: 0x1811717B0
+	// RVA: 0x1172220 Offset: 0x1170820 VA: 0x181172220
 	public void SetMask(MaskingTypes type, Vector4 maskCoords) { }
 
-	// RVA: 0x1171850 Offset: 0x116FE50 VA: 0x181171850
+	// RVA: 0x11722C0 Offset: 0x11708C0 VA: 0x1811722C0
 	public void SetMask(MaskingTypes type, Vector4 maskCoords, float softnessX, float softnessY) { }
 
-	// RVA: 0x11725D0 Offset: 0x1170BD0 VA: 0x1811725D0 Slot: 28
+	// RVA: 0x1173040 Offset: 0x1171640 VA: 0x181173040 Slot: 28
 	public override void SetVerticesDirty() { }
 
-	// RVA: 0x1171390 Offset: 0x116F990 VA: 0x181171390 Slot: 27
+	// RVA: 0x1171E00 Offset: 0x1170400 VA: 0x181171E00 Slot: 27
 	public override void SetLayoutDirty() { }
 
-	// RVA: 0xD9FE90 Offset: 0xD9E490 VA: 0x180D9FE90 Slot: 29
+	// RVA: 0xDA0940 Offset: 0xD9EF40 VA: 0x180DA0940 Slot: 29
 	public override void SetMaterialDirty() { }
 
-	// RVA: 0x116F1A0 Offset: 0x116D7A0 VA: 0x18116F1A0 Slot: 26
+	// RVA: 0x116FC10 Offset: 0x116E210 VA: 0x18116FC10 Slot: 26
 	public override void SetAllDirty() { }
 
-	// RVA: 0x116EF40 Offset: 0x116D540 VA: 0x18116EF40 Slot: 37
+	// RVA: 0x116F9B0 Offset: 0x116DFB0 VA: 0x18116F9B0 Slot: 37
 	public override void Rebuild(CanvasUpdate update) { }
 
-	// RVA: 0x1172BE0 Offset: 0x11711E0 VA: 0x181172BE0 Slot: 40
+	// RVA: 0x1173650 Offset: 0x1171C50 VA: 0x181173650 Slot: 40
 	protected override void UpdateMaterial() { }
 
-	// RVA: 0x1172D60 Offset: 0x1171360 VA: 0x181172D60 Slot: 105
+	// RVA: 0x11737D0 Offset: 0x1171DD0 VA: 0x1811737D0 Slot: 105
 	public override void UpdateMeshPadding() { }
 
-	// RVA: 0x11624F0 Offset: 0x1160AF0 VA: 0x1811624F0 Slot: 99
+	// RVA: 0x1162F60 Offset: 0x1161560 VA: 0x181162F60 Slot: 99
 	public override void ForceMeshUpdate() { }
 
-	// RVA: 0x1162500 Offset: 0x1160B00 VA: 0x181162500 Slot: 100
+	// RVA: 0x1162F70 Offset: 0x1161570 VA: 0x181162F70 Slot: 100
 	public override void ForceMeshUpdate(bool ignoreInactive) { }
 
-	// RVA: 0x116E2B0 Offset: 0x116C8B0 VA: 0x18116E2B0 Slot: 113
+	// RVA: 0x116ED20 Offset: 0x116D320 VA: 0x18116ED20 Slot: 113
 	public override TMP_TextInfo GetTextInfo(string text) { }
 
-	// RVA: 0x1161D40 Offset: 0x1160340 VA: 0x181161D40 Slot: 123
+	// RVA: 0x11627B0 Offset: 0x1160DB0 VA: 0x1811627B0 Slot: 123
 	public override void ClearMesh(bool updateMesh) { }
 
-	// RVA: 0x1172A80 Offset: 0x1171080 VA: 0x181172A80 Slot: 101
+	// RVA: 0x11734F0 Offset: 0x1171AF0 VA: 0x1811734F0 Slot: 101
 	public override void UpdateGeometry(Mesh mesh, int index) { }
 
-	// RVA: 0x1173190 Offset: 0x1171790 VA: 0x181173190 Slot: 102
+	// RVA: 0x1173C00 Offset: 0x1172200 VA: 0x181173C00 Slot: 102
 	public override void UpdateVertexData(TMP_VertexDataUpdateFlags flags) { }
 
-	// RVA: 0x11733C0 Offset: 0x11719C0 VA: 0x1811733C0 Slot: 103
+	// RVA: 0x1173E30 Offset: 0x1172430 VA: 0x181173E30 Slot: 103
 	public override void UpdateVertexData() { }
 
-	// RVA: 0x1172A60 Offset: 0x1171060 VA: 0x181172A60
+	// RVA: 0x11734D0 Offset: 0x1171AD0 VA: 0x1811734D0
 	public void UpdateFontAsset() { }
 
-	// RVA: 0x1161AC0 Offset: 0x11600C0 VA: 0x181161AC0 Slot: 126
+	// RVA: 0x1162530 Offset: 0x1160B30 VA: 0x181162530 Slot: 126
 	public void CalculateLayoutInputHorizontal() { }
 
-	// RVA: 0x1161C10 Offset: 0x1160210 VA: 0x181161C10 Slot: 127
+	// RVA: 0x1162680 Offset: 0x1160C80 VA: 0x181162680 Slot: 127
 	public void CalculateLayoutInputVertical() { }
 
-	// RVA: 0x11735F0 Offset: 0x1171BF0 VA: 0x1811735F0
+	// RVA: 0x1174060 Offset: 0x1172660 VA: 0x181174060
 	public void .ctor() { }
 
 }

@@ -8,22 +8,22 @@ internal struct RuntimeGPtrArrayHandle // TypeDefIndex: 10
 
 	// Methods
 
-	// RVA: 0x1F6820 Offset: 0x1F5C20 VA: 0x1801F6820
+	// RVA: 0x1F5670 Offset: 0x1F4A70 VA: 0x1801F5670
 	internal void .ctor(IntPtr ptr) { }
 
-	// RVA: 0x1F6970 Offset: 0x1F5D70 VA: 0x1801F6970
+	// RVA: 0x1F57C0 Offset: 0x1F4BC0 VA: 0x1801F57C0
 	internal int get_Length() { }
 
-	// RVA: 0x1F6960 Offset: 0x1F5D60 VA: 0x1801F6960
+	// RVA: 0x1F57B0 Offset: 0x1F4BB0 VA: 0x1801F57B0
 	internal IntPtr get_Item(int i) { }
 
-	// RVA: 0x1F6950 Offset: 0x1F5D50 VA: 0x1801F6950
+	// RVA: 0x1F57A0 Offset: 0x1F4BA0 VA: 0x1801F57A0
 	internal IntPtr Lookup(int i) { }
 
-	// RVA: 0x164A2E0 Offset: 0x16488E0 VA: 0x18164A2E0
+	// RVA: 0x1637600 Offset: 0x1635C00 VA: 0x181637600
 	private static void GPtrArrayFree(RuntimeStructs.GPtrArray* value) { }
 
-	// RVA: 0x164A2C0 Offset: 0x16488C0 VA: 0x18164A2C0
+	// RVA: 0x16375E0 Offset: 0x1635BE0 VA: 0x1816375E0
 	internal static void DestroyAndFree(ref RuntimeGPtrArrayHandle h) { }
 
 }

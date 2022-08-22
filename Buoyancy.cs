@@ -22,14 +22,14 @@ public class Buoyancy : ListComponent<Buoyancy>, IServerComponent // TypeDefInde
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6F0760 Offset: 0x6EED60 VA: 0x1806F0760
+	// RVA: 0x6F06F0 Offset: 0x6EECF0 VA: 0x1806F06F0
 	public float get_timeOutOfWater() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6F0770 Offset: 0x6EED70 VA: 0x1806F0770
+	// RVA: 0x6F0700 Offset: 0x6EED00 VA: 0x1806F0700
 	private void set_timeOutOfWater(float value) { }
 
-	// RVA: 0x6F06F0 Offset: 0x6EECF0 VA: 0x1806F06F0
+	// RVA: 0x6F0680 Offset: 0x6EEC80 VA: 0x1806F0680
 	public void .ctor() { }
 
 }

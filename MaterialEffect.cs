@@ -13,19 +13,19 @@ public class MaterialEffect : ScriptableObject // TypeDefIndex: 10196
 
 	// Methods
 
-	// RVA: 0x95ADF0 Offset: 0x9593F0 VA: 0x18095ADF0
+	// RVA: 0x95B2F0 Offset: 0x9598F0 VA: 0x18095B2F0
 	public MaterialEffect.Entry GetEntryFromMaterial(PhysicMaterial mat) { }
 
-	// RVA: 0x95AED0 Offset: 0x9594D0 VA: 0x18095AED0
+	// RVA: 0x95B3D0 Offset: 0x9599D0 VA: 0x18095B3D0
 	public MaterialEffect.Entry GetWaterEntry() { }
 
-	// RVA: 0x95B130 Offset: 0x959730 VA: 0x18095B130
+	// RVA: 0x95B630 Offset: 0x959C30 VA: 0x18095B630
 	public void SpawnOnRay(Ray ray, int mask, float length = 0,5, Vector3 forward, float speed = 0) { }
 
-	// RVA: 0x95B020 Offset: 0x959620 VA: 0x18095B020
+	// RVA: 0x95B520 Offset: 0x959B20 VA: 0x18095B520
 	public void PlaySound(SoundDefinition definition, Vector3 position, float velocity = 0) { }
 
-	// RVA: 0x95B910 Offset: 0x959F10 VA: 0x18095B910
+	// RVA: 0x95BE10 Offset: 0x95A410 VA: 0x18095BE10
 	public void .ctor() { }
 
 }

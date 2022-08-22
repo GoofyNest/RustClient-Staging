@@ -13,40 +13,40 @@ public class QuickCraftButton : MonoBehaviour, IPointerClickHandler, IEventSyste
 
 	// Methods
 
-	// RVA: 0x69BE70 Offset: 0x69A470 VA: 0x18069BE70
+	// RVA: 0x69BE00 Offset: 0x69A400 VA: 0x18069BE00
 	internal void Setup(ItemBlueprint item) { }
 
-	// RVA: 0x69BDA0 Offset: 0x69A3A0 VA: 0x18069BDA0
+	// RVA: 0x69BD30 Offset: 0x69A330 VA: 0x18069BD30
 	private void RefreshFavouriteIcon() { }
 
-	// RVA: 0x69C050 Offset: 0x69A650 VA: 0x18069C050
+	// RVA: 0x69BFE0 Offset: 0x69A5E0 VA: 0x18069BFE0
 	private void Update() { }
 
-	// RVA: 0x69BB00 Offset: 0x69A100 VA: 0x18069BB00
+	// RVA: 0x69BA90 Offset: 0x69A090 VA: 0x18069BA90
 	private void QueueItem(int quantity) { }
 
-	// RVA: 0x69B6C0 Offset: 0x699CC0 VA: 0x18069B6C0 Slot: 4
+	// RVA: 0x69B650 Offset: 0x699C50 VA: 0x18069B650 Slot: 4
 	public void OnPointerClick(PointerEventData eventData) { }
 
-	// RVA: 0x69BA80 Offset: 0x69A080 VA: 0x18069BA80
+	// RVA: 0x69BA10 Offset: 0x69A010 VA: 0x18069BA10
 	public void OnToggleFavouriteClicked() { }
 
-	// RVA: 0x69BA20 Offset: 0x69A020 VA: 0x18069BA20 Slot: 5
+	// RVA: 0x69B9B0 Offset: 0x699FB0 VA: 0x18069B9B0 Slot: 5
 	public void OnPointerEnter(PointerEventData eventData) { }
 
-	// RVA: 0x69BA50 Offset: 0x69A050 VA: 0x18069BA50 Slot: 6
+	// RVA: 0x69B9E0 Offset: 0x699FE0 VA: 0x18069B9E0 Slot: 6
 	public void OnPointerExit(PointerEventData eventData) { }
 
-	// RVA: 0x69B4C0 Offset: 0x699AC0 VA: 0x18069B4C0
+	// RVA: 0x69B450 Offset: 0x699A50 VA: 0x18069B450
 	public void OnFavouriteHovered() { }
 
-	// RVA: 0x69B640 Offset: 0x699C40 VA: 0x18069B640
+	// RVA: 0x69B5D0 Offset: 0x699BD0 VA: 0x18069B5D0
 	public void OnFavouriteUnhovered() { }
 
-	// RVA: 0x69C190 Offset: 0x69A790 VA: 0x18069C190
+	// RVA: 0x69C120 Offset: 0x69A720 VA: 0x18069C120
 	public void .ctor() { }
 
-	// RVA: 0x69C150 Offset: 0x69A750 VA: 0x18069C150
+	// RVA: 0x69C0E0 Offset: 0x69A6E0 VA: 0x18069C0E0
 	private static void .cctor() { }
 
 }

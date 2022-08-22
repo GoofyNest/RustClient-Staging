@@ -7,7 +7,7 @@ internal class IdRefNode // TypeDefIndex: 2394
 
 	// Methods
 
-	// RVA: 0xB106E0 Offset: 0xB0ECE0 VA: 0x180B106E0
+	// RVA: 0xB10BB0 Offset: 0xB0F1B0 VA: 0x180B10BB0
 	internal void .ctor(IdRefNode next, string id, int lineNo, int linePos) { }
 
 }

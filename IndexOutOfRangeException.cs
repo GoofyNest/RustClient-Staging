@@ -1,13 +1,13 @@
 public sealed class IndexOutOfRangeException : SystemException // TypeDefIndex: 256
 {	// Methods
 
-	// RVA: 0x1672140 Offset: 0x1670740 VA: 0x181672140
+	// RVA: 0x166FD30 Offset: 0x166E330 VA: 0x18166FD30
 	public void .ctor() { }
 
-	// RVA: 0x16721A0 Offset: 0x16707A0 VA: 0x1816721A0
+	// RVA: 0x166FD90 Offset: 0x166E390 VA: 0x18166FD90
 	public void .ctor(string message) { }
 
-	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
+	// RVA: 0xFDDEB0 Offset: 0xFDC4B0 VA: 0x180FDDEB0
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

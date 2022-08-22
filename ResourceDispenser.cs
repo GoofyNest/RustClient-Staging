@@ -8,7 +8,7 @@ public class ResourceDispenser : EntityComponent<BaseEntity>, IServerComponent /
 
 	// Methods
 
-	// RVA: 0x955F70 Offset: 0x954570 VA: 0x180955F70
+	// RVA: 0x956470 Offset: 0x954A70 VA: 0x180956470
 	public void .ctor() { }
 
 }
@@ -45,16 +45,16 @@ public class ResourceDispenser.GatherProperties // TypeDefIndex: 9508
 
 	// Methods
 
-	// RVA: 0x4BDAC0 Offset: 0x4BC0C0 VA: 0x1804BDAC0
+	// RVA: 0x4BDA50 Offset: 0x4BC050 VA: 0x1804BDA50
 	public float GetProficiency() { }
 
-	// RVA: 0x4BDA30 Offset: 0x4BC030 VA: 0x1804BDA30
+	// RVA: 0x4BD9C0 Offset: 0x4BBFC0 VA: 0x1804BD9C0
 	public bool Any() { }
 
-	// RVA: 0x4BDAA0 Offset: 0x4BC0A0 VA: 0x1804BDAA0
+	// RVA: 0x4BDA30 Offset: 0x4BC030 VA: 0x1804BDA30
 	public ResourceDispenser.GatherPropertyEntry GetFromIndex(int index) { }
 
-	// RVA: 0x4BDAA0 Offset: 0x4BC0A0 VA: 0x1804BDAA0
+	// RVA: 0x4BDA30 Offset: 0x4BC030 VA: 0x1804BDA30
 	public ResourceDispenser.GatherPropertyEntry GetFromIndex(ResourceDispenser.GatherType index) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

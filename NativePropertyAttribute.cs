@@ -10,16 +10,16 @@ internal class NativePropertyAttribute : NativeMethodAttribute // TypeDefIndex: 
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730
+	// RVA: 0x69D6C0 Offset: 0x69BCC0 VA: 0x18069D6C0
 	public void set_TargetType(TargetType value) { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0x23118F0 Offset: 0x230FEF0 VA: 0x1823118F0
+	// RVA: 0x2312110 Offset: 0x2310710 VA: 0x182312110
 	public void .ctor(string name) { }
 
-	// RVA: 0x2311C00 Offset: 0x2310200 VA: 0x182311C00
+	// RVA: 0x2312420 Offset: 0x2310A20 VA: 0x182312420
 	public void .ctor(string name, bool isFree, TargetType targetType) { }
 
 }

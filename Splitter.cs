@@ -1,7 +1,7 @@
 public class Splitter : IOEntity // TypeDefIndex: 9805
 {	// Methods
 
-	// RVA: 0xA80C90 Offset: 0xA7F290 VA: 0x180A80C90
+	// RVA: 0xA81160 Offset: 0xA7F760 VA: 0x180A81160
 	public void .ctor() { }
 
 }

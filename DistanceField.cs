@@ -5,28 +5,28 @@ public class DistanceField // TypeDefIndex: 11360
 
 	// Methods
 
-	// RVA: 0x9899F0 Offset: 0x987FF0 VA: 0x1809899F0
+	// RVA: 0x989EF0 Offset: 0x9884F0 VA: 0x180989EF0
 	public static void Generate(in int size, in byte threshold, in byte[] image, ref float[] distanceField) { }
 
-	// RVA: 0x98A8D0 Offset: 0x988ED0 VA: 0x18098A8D0
+	// RVA: 0x98ADD0 Offset: 0x9893D0 VA: 0x18098ADD0
 	private static float SampleClamped(float[] data, int size, int x, int y) { }
 
-	// RVA: 0x98A850 Offset: 0x988E50 VA: 0x18098A850
+	// RVA: 0x98AD50 Offset: 0x989350 VA: 0x18098AD50
 	private static Vector3 SampleClamped(Vector3[] data, int size, int x, int y) { }
 
-	// RVA: 0x98A7F0 Offset: 0x988DF0 VA: 0x18098A7F0
+	// RVA: 0x98ACF0 Offset: 0x9892F0 VA: 0x18098ACF0
 	private static ushort SampleClamped(ushort[] data, int size, int x, int y) { }
 
-	// RVA: 0x9892C0 Offset: 0x9878C0 VA: 0x1809892C0
+	// RVA: 0x9897C0 Offset: 0x987DC0 VA: 0x1809897C0
 	public static void GenerateVectors(in int size, in float[] distanceField, ref Vector3[] vectorField) { }
 
-	// RVA: 0x988ED0 Offset: 0x9874D0 VA: 0x180988ED0
+	// RVA: 0x9893D0 Offset: 0x9879D0 VA: 0x1809893D0
 	public static void ApplyGaussianBlur(int size, float[] distanceField, int steps = 1) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x98A930 Offset: 0x988F30 VA: 0x18098A930
+	// RVA: 0x98AE30 Offset: 0x989430 VA: 0x18098AE30
 	private static void .cctor() { }
 
 }

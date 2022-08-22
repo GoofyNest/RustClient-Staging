@@ -7,16 +7,16 @@ public sealed class Fog // TypeDefIndex: 11787
 
 	// Methods
 
-	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0
+	// RVA: 0x5B1870 Offset: 0x5AFE70 VA: 0x1805B1870
 	internal DepthTextureMode GetCameraFlags() { }
 
-	// RVA: 0x1015B50 Offset: 0x1014150 VA: 0x181015B50
+	// RVA: 0x10165F0 Offset: 0x1014BF0 VA: 0x1810165F0
 	internal bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x1015C80 Offset: 0x1014280 VA: 0x181015C80
+	// RVA: 0x1016720 Offset: 0x1014D20 VA: 0x181016720
 	internal void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x1016010 Offset: 0x1014610 VA: 0x181016010
+	// RVA: 0x1016AB0 Offset: 0x10150B0 VA: 0x181016AB0
 	public void .ctor() { }
 
 }

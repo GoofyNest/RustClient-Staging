@@ -4,7 +4,7 @@ public sealed class DebuggerTypeProxyAttribute : Attribute // TypeDefIndex: 1499
 
 	// Methods
 
-	// RVA: 0xD698E0 Offset: 0xD67EE0 VA: 0x180D698E0
+	// RVA: 0xD6A390 Offset: 0xD68990 VA: 0x180D6A390
 	public void .ctor(Type type) { }
 
 }

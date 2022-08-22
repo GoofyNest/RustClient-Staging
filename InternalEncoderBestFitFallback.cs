@@ -8,19 +8,19 @@ internal class InternalEncoderBestFitFallback : EncoderFallback // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x191C8E0 Offset: 0x191AEE0 VA: 0x18191C8E0
+	// RVA: 0x191C000 Offset: 0x191A600 VA: 0x18191C000
 	internal void .ctor(Encoding encoding) { }
 
-	// RVA: 0x191C7A0 Offset: 0x191ADA0 VA: 0x18191C7A0 Slot: 4
+	// RVA: 0x191BEC0 Offset: 0x191A4C0 VA: 0x18191BEC0 Slot: 4
 	public override EncoderFallbackBuffer CreateFallbackBuffer() { }
 
-	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 5
+	// RVA: 0x5B1870 Offset: 0x5AFE70 VA: 0x1805B1870 Slot: 5
 	public override int get_MaxCharCount() { }
 
-	// RVA: 0x191C800 Offset: 0x191AE00 VA: 0x18191C800 Slot: 0
+	// RVA: 0x191BF20 Offset: 0x191A520 VA: 0x18191BF20 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x191BFC0 Offset: 0x191A5C0 VA: 0x18191BFC0 Slot: 2
+	// RVA: 0x191B6E0 Offset: 0x1919CE0 VA: 0x18191B6E0 Slot: 2
 	public override int GetHashCode() { }
 
 }

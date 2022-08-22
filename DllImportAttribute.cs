@@ -15,19 +15,19 @@ public sealed class DllImportAttribute : Attribute // TypeDefIndex: 1338
 
 	// Methods
 
-	// RVA: 0xFE6050 Offset: 0xFE4650 VA: 0x180FE6050
+	// RVA: 0xFE6AF0 Offset: 0xFE50F0 VA: 0x180FE6AF0
 	internal static Attribute GetCustomAttribute(RuntimeMethodInfo method) { }
 
-	// RVA: 0xFE6310 Offset: 0xFE4910 VA: 0x180FE6310
+	// RVA: 0xFE6DB0 Offset: 0xFE53B0 VA: 0x180FE6DB0
 	internal static bool IsDefined(RuntimeMethodInfo method) { }
 
-	// RVA: 0xFE6340 Offset: 0xFE4940 VA: 0x180FE6340
+	// RVA: 0xFE6DE0 Offset: 0xFE53E0 VA: 0x180FE6DE0
 	internal void .ctor(string dllName, string entryPoint, CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar) { }
 
-	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
+	// RVA: 0x7B9710 Offset: 0x7B7D10 VA: 0x1807B9710
 	public void .ctor(string dllName) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_Value() { }
 
 }

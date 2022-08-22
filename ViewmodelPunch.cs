@@ -8,13 +8,13 @@ public class ViewmodelPunch : MonoBehaviour // TypeDefIndex: 11464
 
 	// Methods
 
-	// RVA: 0x7FA210 Offset: 0x7F8810 VA: 0x1807FA210
+	// RVA: 0x7FA7A0 Offset: 0x7F8DA0 VA: 0x1807FA7A0
 	public void DoPunch() { }
 
-	// RVA: 0x7F9F30 Offset: 0x7F8530 VA: 0x1807F9F30
+	// RVA: 0x7FA4C0 Offset: 0x7F8AC0 VA: 0x1807FA4C0
 	public void Apply(ref CachedTransform<BaseViewModel> vm, float fov, BasePlayer player) { }
 
-	// RVA: 0x7FA230 Offset: 0x7F8830 VA: 0x1807FA230
+	// RVA: 0x7FA7C0 Offset: 0x7F8DC0 VA: 0x1807FA7C0
 	public void .ctor() { }
 
 }

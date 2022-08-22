@@ -10,7 +10,7 @@ public class BradleySpawner : MonoBehaviour, IServerComponent // TypeDefIndex: 8
 
 	// Methods
 
-	// RVA: 0x5216C0 Offset: 0x51FCC0 VA: 0x1805216C0
+	// RVA: 0x521650 Offset: 0x51FC50 VA: 0x180521650
 	public void .ctor() { }
 
 }

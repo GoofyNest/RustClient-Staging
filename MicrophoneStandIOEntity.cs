@@ -15,40 +15,40 @@ public class MicrophoneStandIOEntity : IOEntity, IAudioConnectionSource // TypeD
 
 	// Methods
 
-	// RVA: 0x96ADD0 Offset: 0x9693D0 VA: 0x18096ADD0 Slot: 14
+	// RVA: 0x96B2D0 Offset: 0x9698D0 VA: 0x18096B2D0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x96AEB0 Offset: 0x9694B0 VA: 0x18096AEB0
+	// RVA: 0x96B3B0 Offset: 0x9699B0 VA: 0x18096B3B0
 	private void FindNearbyInstruments() { }
 
-	// RVA: 0x96B610 Offset: 0x969C10 VA: 0x18096B610
+	// RVA: 0x96BB10 Offset: 0x96A110 VA: 0x18096BB10
 	public void PlayNote(InstrumentKeyController key, SoundDefinition def, float velocity, NoteBindingCollection collection) { }
 
-	// RVA: 0x96B9E0 Offset: 0x969FE0 VA: 0x18096B9E0
+	// RVA: 0x96BEE0 Offset: 0x96A4E0 VA: 0x18096BEE0
 	public void StopNote(InstrumentKeyController key, float fadeOutTime = 0,1) { }
 
-	// RVA: 0x96B8A0 Offset: 0x969EA0 VA: 0x18096B8A0 Slot: 159
+	// RVA: 0x96BDA0 Offset: 0x96A3A0 VA: 0x18096BDA0 Slot: 159
 	public void SpeakerConnected(ConnectedSpeaker speaker) { }
 
-	// RVA: 0x96B980 Offset: 0x969F80 VA: 0x18096B980 Slot: 160
+	// RVA: 0x96BE80 Offset: 0x96A480 VA: 0x18096BE80 Slot: 160
 	public void SpeakerDisconnected(ConnectedSpeaker repeater) { }
 
-	// RVA: 0x96B570 Offset: 0x969B70 VA: 0x18096B570 Slot: 161
+	// RVA: 0x96BA70 Offset: 0x96A070 VA: 0x18096BA70 Slot: 161
 	public AudioSource GetSource() { }
 
-	// RVA: 0x5368D0 Offset: 0x534ED0 VA: 0x1805368D0 Slot: 162
+	// RVA: 0x536860 Offset: 0x534E60 VA: 0x180536860 Slot: 162
 	public float get_VolumeVisualisationMultiplier() { }
 
-	// RVA: 0x96B470 Offset: 0x969A70 VA: 0x18096B470 Slot: 163
+	// RVA: 0x96B970 Offset: 0x969F70 VA: 0x18096B970 Slot: 163
 	public float GetFakeInput() { }
 
-	// RVA: 0x96B330 Offset: 0x969930 VA: 0x18096B330
+	// RVA: 0x96B830 Offset: 0x969E30 VA: 0x18096B830
 	private int GetActiveSoundsCount() { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 164
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 164
 	public IOEntity ToEntity() { }
 
-	// RVA: 0x96BBA0 Offset: 0x96A1A0 VA: 0x18096BBA0
+	// RVA: 0x96C0A0 Offset: 0x96A6A0 VA: 0x18096C0A0
 	public void .ctor() { }
 
 }

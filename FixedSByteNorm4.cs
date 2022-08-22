@@ -13,7 +13,7 @@ public struct FixedSByteNorm4 // TypeDefIndex: 11419
 	// RVA: 0xF5470 Offset: 0xF4870 VA: 0x1800F5470
 	public void .ctor(Vector4 vec) { }
 
-	// RVA: 0x78DE10 Offset: 0x78C410 VA: 0x18078DE10
+	// RVA: 0x78DD20 Offset: 0x78C320 VA: 0x18078DD20
 	public static Vector4 op_Explicit(FixedSByteNorm4 vec) { }
 
 }

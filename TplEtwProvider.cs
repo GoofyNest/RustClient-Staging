@@ -1,28 +1,28 @@
 internal class TplEtwProvider : EventSource // TypeDefIndex: 1594
 {	// Fields
-	public static TplEtwProvider Log; // 0x1415A
+	public static TplEtwProvider Log; // 0x13EE0
 
 	// Properties
 	public bool Debug { get; }
 
 	// Methods
 
-	// RVA: 0x10E7260 Offset: 0x10E5860 VA: 0x1810E7260
+	// RVA: 0x10E7CD0 Offset: 0x10E62D0 VA: 0x1810E7CD0
 	public bool get_Debug() { }
 
-	// RVA: 0x10E7050 Offset: 0x10E5650 VA: 0x1810E7050
+	// RVA: 0x10E7AC0 Offset: 0x10E60C0 VA: 0x1810E7AC0
 	public void DebugFacilityMessage(string Facility, string Message) { }
 
-	// RVA: 0x10E7020 Offset: 0x10E5620 VA: 0x1810E7020
+	// RVA: 0x10E7A90 Offset: 0x10E6090 VA: 0x1810E7A90
 	public void DebugFacilityMessage1(string Facility, string Message, string Arg) { }
 
-	// RVA: 0x10E7080 Offset: 0x10E5680 VA: 0x1810E7080
+	// RVA: 0x10E7AF0 Offset: 0x10E60F0 VA: 0x1810E7AF0
 	public void SetActivityId(Guid Id) { }
 
-	// RVA: 0x10E7200 Offset: 0x10E5800 VA: 0x1810E7200
+	// RVA: 0x10E7C70 Offset: 0x10E6270 VA: 0x1810E7C70
 	public void .ctor() { }
 
-	// RVA: 0x10E7160 Offset: 0x10E5760 VA: 0x1810E7160
+	// RVA: 0x10E7BD0 Offset: 0x10E61D0 VA: 0x1810E7BD0
 	private static void .cctor() { }
 
 }

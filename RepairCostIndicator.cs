@@ -6,16 +6,16 @@ public class RepairCostIndicator : SingletonComponent<RepairCostIndicator>, ICli
 
 	// Methods
 
-	// RVA: 0x953630 Offset: 0x951C30 VA: 0x180953630 Slot: 6
+	// RVA: 0x953B30 Offset: 0x952130 VA: 0x180953B30 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x953660 Offset: 0x951C60 VA: 0x180953660
+	// RVA: 0x953B60 Offset: 0x952160 VA: 0x180953B60
 	public void ShowCostIndicator(List<ItemAmount> costs, BasePlayer player) { }
 
-	// RVA: 0x9539E0 Offset: 0x951FE0 VA: 0x1809539E0
+	// RVA: 0x953EE0 Offset: 0x9524E0 VA: 0x180953EE0
 	private void UpdateFade() { }
 
-	// RVA: 0x953DA0 Offset: 0x9523A0 VA: 0x180953DA0
+	// RVA: 0x9542A0 Offset: 0x9528A0 VA: 0x1809542A0
 	public void .ctor() { }
 
 }

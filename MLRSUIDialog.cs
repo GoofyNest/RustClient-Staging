@@ -11,31 +11,31 @@ public class MLRSUIDialog : UIDialog // TypeDefIndex: 9727
 
 	// Methods
 
-	// RVA: 0x5543B0 Offset: 0x5529B0 VA: 0x1805543B0
+	// RVA: 0x554340 Offset: 0x552940 VA: 0x180554340
 	protected void Start() { }
 
-	// RVA: 0x5544C0 Offset: 0x552AC0 VA: 0x1805544C0
+	// RVA: 0x554450 Offset: 0x552A50 VA: 0x180554450
 	protected void Update() { }
 
-	// RVA: 0x554210 Offset: 0x552810 VA: 0x180554210 Slot: 5
+	// RVA: 0x5541A0 Offset: 0x5527A0 VA: 0x1805541A0 Slot: 5
 	public override void Clear() { }
 
-	// RVA: 0x5542E0 Offset: 0x5528E0 VA: 0x1805542E0
+	// RVA: 0x554270 Offset: 0x552870 VA: 0x180554270
 	public void Init(MLRS mlrs) { }
 
-	// RVA: 0x554330 Offset: 0x552930 VA: 0x180554330 Slot: 8
+	// RVA: 0x5542C0 Offset: 0x5528C0 VA: 0x1805542C0 Slot: 8
 	public override void OpenDialog() { }
 
-	// RVA: 0x554260 Offset: 0x552860 VA: 0x180554260 Slot: 9
+	// RVA: 0x5541F0 Offset: 0x5527F0 VA: 0x1805541F0 Slot: 9
 	public override void CloseDialog() { }
 
-	// RVA: 0x5543F0 Offset: 0x5529F0 VA: 0x1805543F0
+	// RVA: 0x554380 Offset: 0x552980 VA: 0x180554380
 	private void SwapTitleText() { }
 
-	// RVA: 0x554180 Offset: 0x552780 VA: 0x180554180
+	// RVA: 0x554110 Offset: 0x552710 VA: 0x180554110
 	private void ClearOwner() { }
 
-	// RVA: 0x5546B0 Offset: 0x552CB0 VA: 0x1805546B0
+	// RVA: 0x554640 Offset: 0x552C40 VA: 0x180554640
 	public void .ctor() { }
 
 }

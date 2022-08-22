@@ -6,10 +6,10 @@ public class RandomStaticObject : MonoBehaviour // TypeDefIndex: 10356
 
 	// Methods
 
-	// RVA: 0x6A7C50 Offset: 0x6A6250 VA: 0x1806A7C50
+	// RVA: 0x6A7BE0 Offset: 0x6A61E0 VA: 0x1806A7BE0
 	protected void Start() { }
 
-	// RVA: 0x6A6E80 Offset: 0x6A5480 VA: 0x1806A6E80
+	// RVA: 0x6A6E10 Offset: 0x6A5410 VA: 0x1806A6E10
 	public void .ctor() { }
 
 }

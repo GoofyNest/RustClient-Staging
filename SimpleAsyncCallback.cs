@@ -4,7 +4,7 @@ internal sealed class SimpleAsyncCallback : MulticastDelegate // TypeDefIndex: 3
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x583E20 Offset: 0x582420 VA: 0x180583E20 Slot: 12
+	// RVA: 0x583DB0 Offset: 0x5823B0 VA: 0x180583DB0 Slot: 12
 	public virtual void Invoke(SimpleAsyncResult result) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13

@@ -7,82 +7,82 @@ public class InstrumentRecording : IDisposable, Pool.IPooled, IProto // TypeDefI
 
 	// Methods
 
-	// RVA: 0x1C0DEE0 Offset: 0x1C0C4E0 VA: 0x181C0DEE0
+	// RVA: 0x1C0E6D0 Offset: 0x1C0CCD0 VA: 0x181C0E6D0
 	public static void ResetToPool(InstrumentRecording instance) { }
 
-	// RVA: 0x1C0DD00 Offset: 0x1C0C300 VA: 0x181C0DD00
+	// RVA: 0x1C0E4F0 Offset: 0x1C0CAF0 VA: 0x181C0E4F0
 	public void ResetToPool() { }
 
-	// RVA: 0x1C0DC40 Offset: 0x1C0C240 VA: 0x181C0DC40 Slot: 9
+	// RVA: 0x1C0E430 Offset: 0x1C0CA30 VA: 0x181C0E430 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1C0CE20 Offset: 0x1C0B420 VA: 0x181C0CE20
+	// RVA: 0x1C0D610 Offset: 0x1C0BC10 VA: 0x181C0D610
 	public void CopyTo(InstrumentRecording instance) { }
 
-	// RVA: 0x1C0CFF0 Offset: 0x1C0B5F0 VA: 0x181C0CFF0
+	// RVA: 0x1C0D7E0 Offset: 0x1C0BDE0 VA: 0x181C0D7E0
 	public InstrumentRecording Copy() { }
 
-	// RVA: 0x1C0D890 Offset: 0x1C0BE90 VA: 0x181C0D890
+	// RVA: 0x1C0E080 Offset: 0x1C0C680 VA: 0x181C0E080
 	public static InstrumentRecording Deserialize(Stream stream) { }
 
-	// RVA: 0x1C0D070 Offset: 0x1C0B670 VA: 0x181C0D070
+	// RVA: 0x1C0D860 Offset: 0x1C0BE60 VA: 0x181C0D860
 	public static InstrumentRecording DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1C0D400 Offset: 0x1C0BA00 VA: 0x181C0D400
+	// RVA: 0x1C0DBF0 Offset: 0x1C0C1F0 VA: 0x181C0DBF0
 	public static InstrumentRecording DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1C0D770 Offset: 0x1C0BD70 VA: 0x181C0D770
+	// RVA: 0x1C0DF60 Offset: 0x1C0C560 VA: 0x181C0DF60
 	public static InstrumentRecording Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1C0DCC0 Offset: 0x1C0C2C0 VA: 0x181C0DCC0
+	// RVA: 0x1C0E4B0 Offset: 0x1C0CAB0 VA: 0x181C0E4B0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1C0E710 Offset: 0x1C0CD10 VA: 0x181C0E710 Slot: 12
+	// RVA: 0x1C0EF00 Offset: 0x1C0D500 VA: 0x181C0EF00 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1C0E730 Offset: 0x1C0CD30 VA: 0x181C0E730 Slot: 13
+	// RVA: 0x1C0EF20 Offset: 0x1C0D520 VA: 0x181C0EF20 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, InstrumentRecording previous) { }
 
-	// RVA: 0x1C0DCE0 Offset: 0x1C0C2E0 VA: 0x181C0DCE0 Slot: 14
+	// RVA: 0x1C0E4D0 Offset: 0x1C0CAD0 VA: 0x181C0E4D0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1C0D910 Offset: 0x1C0BF10 VA: 0x181C0D910
+	// RVA: 0x1C0E100 Offset: 0x1C0C700 VA: 0x181C0E100
 	public static InstrumentRecording Deserialize(byte[] buffer, InstrumentRecording instance, bool isDelta = False) { }
 
-	// RVA: 0x1C0DA10 Offset: 0x1C0C010 VA: 0x181C0DA10
+	// RVA: 0x1C0E200 Offset: 0x1C0C800 VA: 0x181C0E200
 	public static InstrumentRecording Deserialize(Stream stream, InstrumentRecording instance, bool isDelta) { }
 
-	// RVA: 0x1C0D0F0 Offset: 0x1C0B6F0 VA: 0x181C0D0F0
+	// RVA: 0x1C0D8E0 Offset: 0x1C0BEE0 VA: 0x181C0D8E0
 	public static InstrumentRecording DeserializeLengthDelimited(Stream stream, InstrumentRecording instance, bool isDelta) { }
 
-	// RVA: 0x1C0D490 Offset: 0x1C0BA90 VA: 0x181C0D490
+	// RVA: 0x1C0DC80 Offset: 0x1C0C280 VA: 0x181C0DC80
 	public static InstrumentRecording DeserializeLength(Stream stream, int length, InstrumentRecording instance, bool isDelta) { }
 
-	// RVA: 0x1C0E0C0 Offset: 0x1C0C6C0 VA: 0x181C0E0C0
+	// RVA: 0x1C0E8B0 Offset: 0x1C0CEB0 VA: 0x181C0E8B0
 	public static void SerializeDelta(Stream stream, InstrumentRecording instance, InstrumentRecording previous) { }
 
-	// RVA: 0x1C0E4D0 Offset: 0x1C0CAD0 VA: 0x181C0E4D0
+	// RVA: 0x1C0ECC0 Offset: 0x1C0D2C0 VA: 0x181C0ECC0
 	public static void Serialize(Stream stream, InstrumentRecording instance) { }
 
-	// RVA: 0x1C0E700 Offset: 0x1C0CD00 VA: 0x181C0E700
+	// RVA: 0x1C0EEF0 Offset: 0x1C0D4F0 VA: 0x181C0EEF0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1C0E710 Offset: 0x1C0CD10 VA: 0x181C0E710
+	// RVA: 0x1C0EF00 Offset: 0x1C0D500 VA: 0x181C0EF00
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1C0E3C0 Offset: 0x1C0C9C0 VA: 0x181C0E3C0
+	// RVA: 0x1C0EBB0 Offset: 0x1C0D1B0 VA: 0x181C0EBB0
 	public static byte[] SerializeToBytes(InstrumentRecording instance) { }
 
-	// RVA: 0x1C0E310 Offset: 0x1C0C910 VA: 0x181C0E310
+	// RVA: 0x1C0EB00 Offset: 0x1C0D100 VA: 0x181C0EB00
 	public static void SerializeLengthDelimited(Stream stream, InstrumentRecording instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -102,82 +102,82 @@ public class InstrumentRecordingNote : IDisposable, Pool.IPooled, IProto // Type
 
 	// Methods
 
-	// RVA: 0x1C0C510 Offset: 0x1C0AB10 VA: 0x181C0C510
+	// RVA: 0x1C0CD00 Offset: 0x1C0B300 VA: 0x181C0CD00
 	public static void ResetToPool(InstrumentRecordingNote instance) { }
 
-	// RVA: 0x1C0C5F0 Offset: 0x1C0ABF0 VA: 0x181C0C5F0
+	// RVA: 0x1C0CDE0 Offset: 0x1C0B3E0 VA: 0x181C0CDE0
 	public void ResetToPool() { }
 
-	// RVA: 0x1C0C150 Offset: 0x1C0A750 VA: 0x181C0C150 Slot: 9
+	// RVA: 0x1C0C940 Offset: 0x1C0AF40 VA: 0x181C0C940 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1C0A890 Offset: 0x1C08E90 VA: 0x181C0A890
+	// RVA: 0x1C0B080 Offset: 0x1C09680 VA: 0x181C0B080
 	public void CopyTo(InstrumentRecordingNote instance) { }
 
-	// RVA: 0x1C0A8E0 Offset: 0x1C08EE0 VA: 0x181C0A8E0
+	// RVA: 0x1C0B0D0 Offset: 0x1C096D0 VA: 0x181C0B0D0
 	public InstrumentRecordingNote Copy() { }
 
-	// RVA: 0x1C0BDE0 Offset: 0x1C0A3E0 VA: 0x181C0BDE0
+	// RVA: 0x1C0C5D0 Offset: 0x1C0ABD0 VA: 0x181C0C5D0
 	public static InstrumentRecordingNote Deserialize(Stream stream) { }
 
-	// RVA: 0x1C0AD80 Offset: 0x1C09380 VA: 0x181C0AD80
+	// RVA: 0x1C0B570 Offset: 0x1C09B70 VA: 0x181C0B570
 	public static InstrumentRecordingNote DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1C0AE00 Offset: 0x1C09400 VA: 0x181C0AE00
+	// RVA: 0x1C0B5F0 Offset: 0x1C09BF0 VA: 0x181C0B5F0
 	public static InstrumentRecordingNote DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1C0B9B0 Offset: 0x1C09FB0 VA: 0x181C0B9B0
+	// RVA: 0x1C0C1A0 Offset: 0x1C0A7A0 VA: 0x181C0C1A0
 	public static InstrumentRecordingNote Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1C0C1D0 Offset: 0x1C0A7D0 VA: 0x181C0C1D0
+	// RVA: 0x1C0C9C0 Offset: 0x1C0AFC0 VA: 0x181C0C9C0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1C0CDE0 Offset: 0x1C0B3E0 VA: 0x181C0CDE0 Slot: 12
+	// RVA: 0x1C0D5D0 Offset: 0x1C0BBD0 VA: 0x181C0D5D0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1C0CE00 Offset: 0x1C0B400 VA: 0x181C0CE00 Slot: 13
+	// RVA: 0x1C0D5F0 Offset: 0x1C0BBF0 VA: 0x181C0D5F0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, InstrumentRecordingNote previous) { }
 
-	// RVA: 0x1C0C4F0 Offset: 0x1C0AAF0 VA: 0x181C0C4F0 Slot: 14
+	// RVA: 0x1C0CCE0 Offset: 0x1C0B2E0 VA: 0x181C0CCE0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1C0B5A0 Offset: 0x1C09BA0 VA: 0x181C0B5A0
+	// RVA: 0x1C0BD90 Offset: 0x1C0A390 VA: 0x181C0BD90
 	public static InstrumentRecordingNote Deserialize(byte[] buffer, InstrumentRecordingNote instance, bool isDelta = False) { }
 
-	// RVA: 0x1C0B270 Offset: 0x1C09870 VA: 0x181C0B270
+	// RVA: 0x1C0BA60 Offset: 0x1C0A060 VA: 0x181C0BA60
 	public static InstrumentRecordingNote Deserialize(Stream stream, InstrumentRecordingNote instance, bool isDelta) { }
 
-	// RVA: 0x1C0A980 Offset: 0x1C08F80 VA: 0x181C0A980
+	// RVA: 0x1C0B170 Offset: 0x1C09770 VA: 0x181C0B170
 	public static InstrumentRecordingNote DeserializeLengthDelimited(Stream stream, InstrumentRecordingNote instance, bool isDelta) { }
 
-	// RVA: 0x1C0AE90 Offset: 0x1C09490 VA: 0x181C0AE90
+	// RVA: 0x1C0B680 Offset: 0x1C09C80 VA: 0x181C0B680
 	public static InstrumentRecordingNote DeserializeLength(Stream stream, int length, InstrumentRecordingNote instance, bool isDelta) { }
 
-	// RVA: 0x1C0C6D0 Offset: 0x1C0ACD0 VA: 0x181C0C6D0
+	// RVA: 0x1C0CEC0 Offset: 0x1C0B4C0 VA: 0x181C0CEC0
 	public static void SerializeDelta(Stream stream, InstrumentRecordingNote instance, InstrumentRecordingNote previous) { }
 
-	// RVA: 0x1C0CBF0 Offset: 0x1C0B1F0 VA: 0x181C0CBF0
+	// RVA: 0x1C0D3E0 Offset: 0x1C0B9E0 VA: 0x181C0D3E0
 	public static void Serialize(Stream stream, InstrumentRecordingNote instance) { }
 
-	// RVA: 0x1C0CDD0 Offset: 0x1C0B3D0 VA: 0x181C0CDD0
+	// RVA: 0x1C0D5C0 Offset: 0x1C0BBC0 VA: 0x181C0D5C0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1C0CDE0 Offset: 0x1C0B3E0 VA: 0x181C0CDE0
+	// RVA: 0x1C0D5D0 Offset: 0x1C0BBD0 VA: 0x181C0D5D0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1C0CAE0 Offset: 0x1C0B0E0 VA: 0x181C0CAE0
+	// RVA: 0x1C0D2D0 Offset: 0x1C0B8D0 VA: 0x181C0D2D0
 	public static byte[] SerializeToBytes(InstrumentRecordingNote instance) { }
 
-	// RVA: 0x1C0CA30 Offset: 0x1C0B030 VA: 0x181C0CA30
+	// RVA: 0x1C0D220 Offset: 0x1C0B820 VA: 0x181C0D220
 	public static void SerializeLengthDelimited(Stream stream, InstrumentRecordingNote instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -191,82 +191,82 @@ public class InstrumentMidiBindings : IDisposable, Pool.IPooled, IProto // TypeD
 
 	// Methods
 
-	// RVA: 0x1C0A020 Offset: 0x1C08620 VA: 0x181C0A020
+	// RVA: 0x1C0A810 Offset: 0x1C08E10 VA: 0x181C0A810
 	public static void ResetToPool(InstrumentMidiBindings instance) { }
 
-	// RVA: 0x1C09E40 Offset: 0x1C08440 VA: 0x181C09E40
+	// RVA: 0x1C0A630 Offset: 0x1C08C30 VA: 0x181C0A630
 	public void ResetToPool() { }
 
-	// RVA: 0x1C09D80 Offset: 0x1C08380 VA: 0x181C09D80 Slot: 9
+	// RVA: 0x1C0A570 Offset: 0x1C08B70 VA: 0x181C0A570 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1C08E10 Offset: 0x1C07410 VA: 0x181C08E10
+	// RVA: 0x1C09600 Offset: 0x1C07C00 VA: 0x181C09600
 	public void CopyTo(InstrumentMidiBindings instance) { }
 
-	// RVA: 0x1C08FC0 Offset: 0x1C075C0 VA: 0x181C08FC0
+	// RVA: 0x1C097B0 Offset: 0x1C07DB0 VA: 0x181C097B0
 	public InstrumentMidiBindings Copy() { }
 
-	// RVA: 0x1C099B0 Offset: 0x1C07FB0 VA: 0x181C099B0
+	// RVA: 0x1C0A1A0 Offset: 0x1C087A0 VA: 0x181C0A1A0
 	public static InstrumentMidiBindings Deserialize(Stream stream) { }
 
-	// RVA: 0x1C094C0 Offset: 0x1C07AC0 VA: 0x181C094C0
+	// RVA: 0x1C09CB0 Offset: 0x1C082B0 VA: 0x181C09CB0
 	public static InstrumentMidiBindings DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1C09540 Offset: 0x1C07B40 VA: 0x181C09540
+	// RVA: 0x1C09D30 Offset: 0x1C08330 VA: 0x181C09D30
 	public static InstrumentMidiBindings DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1C09A30 Offset: 0x1C08030 VA: 0x181C09A30
+	// RVA: 0x1C0A220 Offset: 0x1C08820 VA: 0x181C0A220
 	public static InstrumentMidiBindings Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1C09E00 Offset: 0x1C08400 VA: 0x181C09E00
+	// RVA: 0x1C0A5F0 Offset: 0x1C08BF0 VA: 0x181C0A5F0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1C0A850 Offset: 0x1C08E50 VA: 0x181C0A850 Slot: 12
+	// RVA: 0x1C0B040 Offset: 0x1C09640 VA: 0x181C0B040 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1C0A870 Offset: 0x1C08E70 VA: 0x181C0A870 Slot: 13
+	// RVA: 0x1C0B060 Offset: 0x1C09660 VA: 0x181C0B060 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, InstrumentMidiBindings previous) { }
 
-	// RVA: 0x1C09E20 Offset: 0x1C08420 VA: 0x181C09E20 Slot: 14
+	// RVA: 0x1C0A610 Offset: 0x1C08C10 VA: 0x181C0A610 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1C098B0 Offset: 0x1C07EB0 VA: 0x181C098B0
+	// RVA: 0x1C0A0A0 Offset: 0x1C086A0 VA: 0x181C0A0A0
 	public static InstrumentMidiBindings Deserialize(byte[] buffer, InstrumentMidiBindings instance, bool isDelta = False) { }
 
-	// RVA: 0x1C09B50 Offset: 0x1C08150 VA: 0x181C09B50
+	// RVA: 0x1C0A340 Offset: 0x1C08940 VA: 0x181C0A340
 	public static InstrumentMidiBindings Deserialize(Stream stream, InstrumentMidiBindings instance, bool isDelta) { }
 
-	// RVA: 0x1C091B0 Offset: 0x1C077B0 VA: 0x181C091B0
+	// RVA: 0x1C099A0 Offset: 0x1C07FA0 VA: 0x181C099A0
 	public static InstrumentMidiBindings DeserializeLengthDelimited(Stream stream, InstrumentMidiBindings instance, bool isDelta) { }
 
-	// RVA: 0x1C095D0 Offset: 0x1C07BD0 VA: 0x181C095D0
+	// RVA: 0x1C09DC0 Offset: 0x1C083C0 VA: 0x181C09DC0
 	public static InstrumentMidiBindings DeserializeLength(Stream stream, int length, InstrumentMidiBindings instance, bool isDelta) { }
 
-	// RVA: 0x1C0A200 Offset: 0x1C08800 VA: 0x181C0A200
+	// RVA: 0x1C0A9F0 Offset: 0x1C08FF0 VA: 0x181C0A9F0
 	public static void SerializeDelta(Stream stream, InstrumentMidiBindings instance, InstrumentMidiBindings previous) { }
 
-	// RVA: 0x1C0A610 Offset: 0x1C08C10 VA: 0x181C0A610
+	// RVA: 0x1C0AE00 Offset: 0x1C09400 VA: 0x181C0AE00
 	public static void Serialize(Stream stream, InstrumentMidiBindings instance) { }
 
-	// RVA: 0x1C0A840 Offset: 0x1C08E40 VA: 0x181C0A840
+	// RVA: 0x1C0B030 Offset: 0x1C09630 VA: 0x181C0B030
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1C0A850 Offset: 0x1C08E50 VA: 0x181C0A850
+	// RVA: 0x1C0B040 Offset: 0x1C09640 VA: 0x181C0B040
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1C0A500 Offset: 0x1C08B00 VA: 0x181C0A500
+	// RVA: 0x1C0ACF0 Offset: 0x1C092F0 VA: 0x181C0ACF0
 	public static byte[] SerializeToBytes(InstrumentMidiBindings instance) { }
 
-	// RVA: 0x1C0A450 Offset: 0x1C08A50 VA: 0x181C0A450
+	// RVA: 0x1C0AC40 Offset: 0x1C09240 VA: 0x181C0AC40
 	public static void SerializeLengthDelimited(Stream stream, InstrumentMidiBindings instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -282,82 +282,82 @@ public class InstrumentMidiBinding : IDisposable, Pool.IPooled, IProto // TypeDe
 
 	// Methods
 
-	// RVA: 0x1C08750 Offset: 0x1C06D50 VA: 0x181C08750
+	// RVA: 0x1C08F40 Offset: 0x1C07540 VA: 0x181C08F40
 	public static void ResetToPool(InstrumentMidiBinding instance) { }
 
-	// RVA: 0x1C087F0 Offset: 0x1C06DF0 VA: 0x181C087F0
+	// RVA: 0x1C08FE0 Offset: 0x1C075E0 VA: 0x181C08FE0
 	public void ResetToPool() { }
 
-	// RVA: 0x1C084A0 Offset: 0x1C06AA0 VA: 0x181C084A0 Slot: 9
+	// RVA: 0x1C08C90 Offset: 0x1C07290 VA: 0x181C08C90 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1C072E0 Offset: 0x1C058E0 VA: 0x181C072E0
+	// RVA: 0x1C07AD0 Offset: 0x1C060D0 VA: 0x181C07AD0
 	public void CopyTo(InstrumentMidiBinding instance) { }
 
-	// RVA: 0x1C07310 Offset: 0x1C05910 VA: 0x181C07310
+	// RVA: 0x1C07B00 Offset: 0x1C06100 VA: 0x181C07B00
 	public InstrumentMidiBinding Copy() { }
 
-	// RVA: 0x1C08250 Offset: 0x1C06850 VA: 0x181C08250
+	// RVA: 0x1C08A40 Offset: 0x1C07040 VA: 0x181C08A40
 	public static InstrumentMidiBinding Deserialize(Stream stream) { }
 
-	// RVA: 0x1C07390 Offset: 0x1C05990 VA: 0x181C07390
+	// RVA: 0x1C07B80 Offset: 0x1C06180 VA: 0x181C07B80
 	public static InstrumentMidiBinding DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1C079B0 Offset: 0x1C05FB0 VA: 0x181C079B0
+	// RVA: 0x1C081A0 Offset: 0x1C067A0 VA: 0x181C081A0
 	public static InstrumentMidiBinding DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1C07F40 Offset: 0x1C06540 VA: 0x181C07F40
+	// RVA: 0x1C08730 Offset: 0x1C06D30 VA: 0x181C08730
 	public static InstrumentMidiBinding Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1C08520 Offset: 0x1C06B20 VA: 0x181C08520
+	// RVA: 0x1C08D10 Offset: 0x1C07310 VA: 0x181C08D10
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1C08DD0 Offset: 0x1C073D0 VA: 0x181C08DD0 Slot: 12
+	// RVA: 0x1C095C0 Offset: 0x1C07BC0 VA: 0x181C095C0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1C08DF0 Offset: 0x1C073F0 VA: 0x181C08DF0 Slot: 13
+	// RVA: 0x1C095E0 Offset: 0x1C07BE0 VA: 0x181C095E0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, InstrumentMidiBinding previous) { }
 
-	// RVA: 0x1C08730 Offset: 0x1C06D30 VA: 0x181C08730 Slot: 14
+	// RVA: 0x1C08F20 Offset: 0x1C07520 VA: 0x181C08F20 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1C07A40 Offset: 0x1C06040 VA: 0x181C07A40
+	// RVA: 0x1C08230 Offset: 0x1C06830 VA: 0x181C08230
 	public static InstrumentMidiBinding Deserialize(byte[] buffer, InstrumentMidiBinding instance, bool isDelta = False) { }
 
-	// RVA: 0x1C07D30 Offset: 0x1C06330 VA: 0x181C07D30
+	// RVA: 0x1C08520 Offset: 0x1C06B20 VA: 0x181C08520
 	public static InstrumentMidiBinding Deserialize(Stream stream, InstrumentMidiBinding instance, bool isDelta) { }
 
-	// RVA: 0x1C07410 Offset: 0x1C05A10 VA: 0x181C07410
+	// RVA: 0x1C07C00 Offset: 0x1C06200 VA: 0x181C07C00
 	public static InstrumentMidiBinding DeserializeLengthDelimited(Stream stream, InstrumentMidiBinding instance, bool isDelta) { }
 
-	// RVA: 0x1C076F0 Offset: 0x1C05CF0 VA: 0x181C076F0
+	// RVA: 0x1C07EE0 Offset: 0x1C064E0 VA: 0x181C07EE0
 	public static InstrumentMidiBinding DeserializeLength(Stream stream, int length, InstrumentMidiBinding instance, bool isDelta) { }
 
-	// RVA: 0x1C08890 Offset: 0x1C06E90 VA: 0x181C08890
+	// RVA: 0x1C09080 Offset: 0x1C07680 VA: 0x181C09080
 	public static void SerializeDelta(Stream stream, InstrumentMidiBinding instance, InstrumentMidiBinding previous) { }
 
-	// RVA: 0x1C08C70 Offset: 0x1C07270 VA: 0x181C08C70
+	// RVA: 0x1C09460 Offset: 0x1C07A60 VA: 0x181C09460
 	public static void Serialize(Stream stream, InstrumentMidiBinding instance) { }
 
-	// RVA: 0x1C08DC0 Offset: 0x1C073C0 VA: 0x181C08DC0
+	// RVA: 0x1C095B0 Offset: 0x1C07BB0 VA: 0x181C095B0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1C08DD0 Offset: 0x1C073D0 VA: 0x181C08DD0
+	// RVA: 0x1C095C0 Offset: 0x1C07BC0 VA: 0x181C095C0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1C08B60 Offset: 0x1C07160 VA: 0x181C08B60
+	// RVA: 0x1C09350 Offset: 0x1C07950 VA: 0x181C09350
 	public static byte[] SerializeToBytes(InstrumentMidiBinding instance) { }
 
-	// RVA: 0x1C08AB0 Offset: 0x1C070B0 VA: 0x181C08AB0
+	// RVA: 0x1C092A0 Offset: 0x1C078A0 VA: 0x181C092A0
 	public static void SerializeLengthDelimited(Stream stream, InstrumentMidiBinding instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -365,16 +365,16 @@ public class InstrumentMidiBinding : IDisposable, Pool.IPooled, IProto // TypeDe
 public sealed class InstrumentNameEvent : BaseTextEvent // TypeDefIndex: 7537
 {	// Methods
 
-	// RVA: 0x1399470 Offset: 0x1397A70 VA: 0x181399470
+	// RVA: 0x1398570 Offset: 0x1396B70 VA: 0x181398570
 	public void .ctor() { }
 
-	// RVA: 0x1399490 Offset: 0x1397A90 VA: 0x181399490
+	// RVA: 0x1398590 Offset: 0x1396B90 VA: 0x181398590
 	public void .ctor(string instrumentName) { }
 
-	// RVA: 0x13993B0 Offset: 0x13979B0 VA: 0x1813993B0 Slot: 5
+	// RVA: 0x13984B0 Offset: 0x1396AB0 VA: 0x1813984B0 Slot: 5
 	protected override MidiEvent CloneEvent() { }
 
-	// RVA: 0x1399420 Offset: 0x1397A20 VA: 0x181399420 Slot: 3
+	// RVA: 0x1398520 Offset: 0x1396B20 VA: 0x181398520 Slot: 3
 	public override string ToString() { }
 
 }
@@ -391,34 +391,34 @@ public class InstrumentTool : HeldEntity // TypeDefIndex: 8586
 
 	// Methods
 
-	// RVA: 0x81E480 Offset: 0x81CA80 VA: 0x18081E480 Slot: 35
+	// RVA: 0x81EA10 Offset: 0x81D010 VA: 0x18081EA10 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x81D700 Offset: 0x81BD00 VA: 0x18081D700 Slot: 136
+	// RVA: 0x81DC90 Offset: 0x81C290 VA: 0x18081DC90 Slot: 136
 	public override void ClampPitch(ref float pitch) { }
 
-	// RVA: 0x81E260 Offset: 0x81C860 VA: 0x18081E260 Slot: 138
+	// RVA: 0x81E7F0 Offset: 0x81CDF0 VA: 0x18081E7F0 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x81DA60 Offset: 0x81C060 VA: 0x18081DA60 Slot: 149
+	// RVA: 0x81DFF0 Offset: 0x81C5F0 VA: 0x18081DFF0 Slot: 149
 	public override float GetMovementMultiplier() { }
 
-	// RVA: 0x81DB00 Offset: 0x81C100 VA: 0x18081DB00 Slot: 157
+	// RVA: 0x81E090 Offset: 0x81C690 VA: 0x18081E090 Slot: 157
 	protected virtual void LateUpdate() { }
 
-	// RVA: 0x81DC40 Offset: 0x81C240 VA: 0x18081DC40 Slot: 141
+	// RVA: 0x81E1D0 Offset: 0x81C7D0 VA: 0x18081E1D0 Slot: 141
 	public override void OnDeployed() { }
 
-	// RVA: 0x81DBE0 Offset: 0x81C1E0 VA: 0x18081DBE0
+	// RVA: 0x81E170 Offset: 0x81C770 VA: 0x18081E170
 	private void OnAnimationSlotSet(InstrumentKeyController.AnimationSlot slot) { }
 
-	// RVA: 0x81E0C0 Offset: 0x81C6C0 VA: 0x18081E0C0 Slot: 143
+	// RVA: 0x81E650 Offset: 0x81CC50 VA: 0x18081E650 Slot: 143
 	public override void OnHolstered() { }
 
-	// RVA: 0x81ED90 Offset: 0x81D390 VA: 0x18081ED90 Slot: 147
+	// RVA: 0x81F320 Offset: 0x81D920 VA: 0x18081F320 Slot: 147
 	protected override void ProcessPlayerModel(PlayerModel playerModel) { }
 
-	// RVA: 0x81DEF0 Offset: 0x81C4F0 VA: 0x18081DEF0 Slot: 80
+	// RVA: 0x81E480 Offset: 0x81CA80 VA: 0x18081E480 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 158
@@ -427,24 +427,24 @@ public class InstrumentTool : HeldEntity // TypeDefIndex: 8586
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 159
 	protected virtual void RemotePlayerHolster(BasePlayer player) { }
 
-	// RVA: 0x81EEA0 Offset: 0x81D4A0 VA: 0x18081EEA0 Slot: 152
+	// RVA: 0x81F430 Offset: 0x81DA30 VA: 0x18081F430 Slot: 152
 	public override void ProcessSpectatorViewmodel(ViewModel vm) { }
 
-	// RVA: 0x81EFC0 Offset: 0x81D5C0 VA: 0x18081EFC0 Slot: 27
+	// RVA: 0x81F550 Offset: 0x81DB50 VA: 0x18081F550 Slot: 27
 	public override void ResetState() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x81D7A0 Offset: 0x81BDA0 VA: 0x18081D7A0
+	// RVA: 0x81DD30 Offset: 0x81C330 VA: 0x18081DD30
 	private void Client_PlayNote(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x81D920 Offset: 0x81BF20 VA: 0x18081D920
+	// RVA: 0x81DEB0 Offset: 0x81C4B0 VA: 0x18081DEB0
 	private void Client_StopNote(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 156
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 156
 	public override bool IsInstrument() { }
 
-	// RVA: 0x81F090 Offset: 0x81D690 VA: 0x18081F090
+	// RVA: 0x81F620 Offset: 0x81DC20 VA: 0x18081F620
 	public void .ctor() { }
 
 }
@@ -459,13 +459,13 @@ public class InstrumentStateBehaviour : StateMachineBehaviour // TypeDefIndex: 8
 
 	// Methods
 
-	// RVA: 0x81D1E0 Offset: 0x81B7E0 VA: 0x18081D1E0 Slot: 5
+	// RVA: 0x81D770 Offset: 0x81BD70 VA: 0x18081D770 Slot: 5
 	public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) { }
 
-	// RVA: 0x81D6E0 Offset: 0x81BCE0 VA: 0x18081D6E0
+	// RVA: 0x81DC70 Offset: 0x81C270 VA: 0x18081DC70
 	public void .ctor() { }
 
-	// RVA: 0x81D3E0 Offset: 0x81B9E0 VA: 0x18081D3E0
+	// RVA: 0x81D970 Offset: 0x81BF70 VA: 0x18081D970
 	private static void .cctor() { }
 
 }
@@ -495,13 +495,13 @@ public class InstrumentViewmodel : MonoBehaviour // TypeDefIndex: 8743
 
 	// Methods
 
-	// RVA: 0xA23A30 Offset: 0xA22030 VA: 0x180A23A30
+	// RVA: 0xA23F20 Offset: 0xA22520 VA: 0x180A23F20
 	public void UpdateSlots(InstrumentKeyController.AnimationSlot currentSlot, bool recentlyPlayed, bool playedNoteThisFrame) { }
 
-	// RVA: 0xA23CF0 Offset: 0xA222F0 VA: 0x180A23CF0
+	// RVA: 0xA241E0 Offset: 0xA227E0 VA: 0x180A241E0
 	private void UpdateState(int param, bool state) { }
 
-	// RVA: 0xA23D40 Offset: 0xA22340 VA: 0x180A23D40
+	// RVA: 0xA24230 Offset: 0xA22830 VA: 0x180A24230
 	public void .ctor() { }
 
 }
@@ -516,28 +516,28 @@ public class InstrumentToolGuitar : InstrumentTool // TypeDefIndex: 9468
 
 	// Methods
 
-	// RVA: 0xA235B0 Offset: 0xA21BB0 VA: 0x180A235B0 Slot: 157
+	// RVA: 0xA23AA0 Offset: 0xA220A0 VA: 0x180A23AA0 Slot: 157
 	protected override void LateUpdate() { }
 
-	// RVA: 0xA23930 Offset: 0xA21F30 VA: 0x180A23930 Slot: 147
+	// RVA: 0xA23E20 Offset: 0xA22420 VA: 0x180A23E20 Slot: 147
 	protected override void ProcessPlayerModel(PlayerModel playerModel) { }
 
-	// RVA: 0xA237D0 Offset: 0xA21DD0 VA: 0x180A237D0 Slot: 145
+	// RVA: 0xA23CC0 Offset: 0xA222C0 VA: 0x180A23CC0 Slot: 145
 	public override void OnReliableEvent(string name) { }
 
-	// RVA: 0xA234F0 Offset: 0xA21AF0 VA: 0x180A234F0
+	// RVA: 0xA239E0 Offset: 0xA21FE0 VA: 0x180A239E0
 	public void DeployBegin() { }
 
-	// RVA: 0xA23550 Offset: 0xA21B50 VA: 0x180A23550
+	// RVA: 0xA23A40 Offset: 0xA22040 VA: 0x180A23A40
 	public void DeployComplete() { }
 
-	// RVA: 0xA238F0 Offset: 0xA21EF0 VA: 0x180A238F0 Slot: 150
+	// RVA: 0xA23DE0 Offset: 0xA223E0 VA: 0x180A23DE0 Slot: 150
 	public override void OnSpawnedForWorkshopPreview() { }
 
-	// RVA: 0xA23A20 Offset: 0xA22020 VA: 0x180A23A20
+	// RVA: 0xA23F10 Offset: 0xA22510 VA: 0x180A23F10
 	public void .ctor() { }
 
-	// RVA: 0xA239D0 Offset: 0xA21FD0 VA: 0x180A239D0
+	// RVA: 0xA23EC0 Offset: 0xA224C0 VA: 0x180A23EC0
 	private static void .cctor() { }
 
 }
@@ -552,7 +552,7 @@ public class InstrumentDebugInput : MonoBehaviour // TypeDefIndex: 9549
 
 	// Methods
 
-	// RVA: 0x815E20 Offset: 0x814420 VA: 0x180815E20
+	// RVA: 0x8163B0 Offset: 0x8149B0 VA: 0x1808163B0
 	public void .ctor() { }
 
 }
@@ -594,28 +594,28 @@ public class InstrumentIKController : MonoBehaviour // TypeDefIndex: 9550
 
 	// Methods
 
-	// RVA: 0x816130 Offset: 0x814730 VA: 0x180816130
+	// RVA: 0x8166C0 Offset: 0x814CC0 VA: 0x1808166C0
 	public void HoldHandsUpdate(InstrumentKeyController key) { }
 
-	// RVA: 0x8166C0 Offset: 0x814CC0 VA: 0x1808166C0
+	// RVA: 0x816C50 Offset: 0x815250 VA: 0x180816C50
 	public void UpdateIK(BasePlayer forPlayer) { }
 
-	// RVA: 0x815E60 Offset: 0x814460 VA: 0x180815E60
+	// RVA: 0x8163F0 Offset: 0x8149F0 VA: 0x1808163F0
 	private Vector3 GetHandHeight(float noteTime) { }
 
-	// RVA: 0x815FF0 Offset: 0x8145F0 VA: 0x180815FF0
+	// RVA: 0x816580 Offset: 0x814B80 VA: 0x180816580
 	private Vector3 GetWorldSpaceIkTarget(int target, InstrumentKeyController.IKType type, Vector3 localOffset) { }
 
-	// RVA: 0x815F60 Offset: 0x814560 VA: 0x180815F60
+	// RVA: 0x8164F0 Offset: 0x814AF0 VA: 0x1808164F0
 	private Transform GetHandTransform(int target, InstrumentKeyController.IKType type) { }
 
-	// RVA: 0x815EF0 Offset: 0x8144F0 VA: 0x180815EF0
+	// RVA: 0x816480 Offset: 0x814A80 VA: 0x180816480
 	private Transform GetHandRotationTransform(int target, InstrumentKeyController.IKType type) { }
 
-	// RVA: 0x816350 Offset: 0x814950 VA: 0x180816350
+	// RVA: 0x8168E0 Offset: 0x814EE0 VA: 0x1808168E0
 	public void SetIkTarget(InstrumentKeyController.IKType type, int target) { }
 
-	// RVA: 0x817030 Offset: 0x815630 VA: 0x180817030
+	// RVA: 0x8175C0 Offset: 0x815BC0 VA: 0x1808175C0
 	public void .ctor() { }
 
 }
@@ -623,7 +623,7 @@ public class InstrumentIKController : MonoBehaviour // TypeDefIndex: 9550
 public class InstrumentIKTargetAttribute : PropertyAttribute // TypeDefIndex: 9551
 {	// Methods
 
-	// RVA: 0x517860 Offset: 0x515E60 VA: 0x180517860
+	// RVA: 0x5177F0 Offset: 0x515DF0 VA: 0x1805177F0
 	public void .ctor() { }
 
 }
@@ -698,193 +698,193 @@ public class InstrumentKeyController : MonoBehaviour // TypeDefIndex: 9552
 
 	// Methods
 
-	// RVA: 0x8174F0 Offset: 0x815AF0 VA: 0x1808174F0
+	// RVA: 0x817A80 Offset: 0x816080 VA: 0x180817A80
 	private void DisableProps() { }
 
-	// RVA: 0x81C380 Offset: 0x81A980 VA: 0x18081C380
+	// RVA: 0x81C910 Offset: 0x81AF10 VA: 0x18081C910
 	private void UpdateHeldProps(BasePlayer forPlayer) { }
 
-	// RVA: 0x81A290 Offset: 0x818890 VA: 0x18081A290
+	// RVA: 0x81A820 Offset: 0x818E20 VA: 0x18081A820
 	private void RunInstrumentAnimation(BasePlayer forPlayer) { }
 
-	// RVA: 0x81A810 Offset: 0x818E10 VA: 0x18081A810
+	// RVA: 0x81ADA0 Offset: 0x8193A0 VA: 0x18081ADA0
 	private void SetAnimationSlot(InstrumentKeyController.AnimationSlot slot, PlayerModel forPlayer) { }
 
-	// RVA: 0x8175E0 Offset: 0x815BE0 VA: 0x1808175E0
+	// RVA: 0x817B70 Offset: 0x816170 VA: 0x180817B70
 	private int GetAnimationSlotHash(InstrumentKeyController.AnimationSlot slot) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public MicrophoneStandIOEntity get_currentReceiver() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	private void set_currentReceiver(MicrophoneStandIOEntity value) { }
 
-	// RVA: 0x81AE60 Offset: 0x819460 VA: 0x18081AE60
+	// RVA: 0x81B3F0 Offset: 0x8199F0 VA: 0x18081B3F0
 	public bool SetCurrentReceiver(MicrophoneStandIOEntity receiver) { }
 
-	// RVA: 0x817380 Offset: 0x815980 VA: 0x180817380
+	// RVA: 0x817910 Offset: 0x815F10 VA: 0x180817910
 	public void ClearReceiver() { }
 
-	// RVA: 0x81BF00 Offset: 0x81A500 VA: 0x18081BF00
+	// RVA: 0x81C490 Offset: 0x81AA90 VA: 0x18081C490
 	public void SubscribeToMidi(BasePlayer forPlayer) { }
 
-	// RVA: 0x81C6B0 Offset: 0x81ACB0 VA: 0x18081C6B0
+	// RVA: 0x81CC40 Offset: 0x81B240 VA: 0x18081CC40
 	public void UpdateMidiBindings() { }
 
-	// RVA: 0x81C180 Offset: 0x81A780 VA: 0x18081C180
+	// RVA: 0x81C710 Offset: 0x81AD10 VA: 0x18081C710
 	public void UnsubscribeFromMidi() { }
 
-	// RVA: 0x81A230 Offset: 0x818830 VA: 0x18081A230
+	// RVA: 0x81A7C0 Offset: 0x818DC0 VA: 0x18081A7C0
 	public void ResetState() { }
 
-	// RVA: 0x819940 Offset: 0x817F40 VA: 0x180819940
+	// RVA: 0x819ED0 Offset: 0x8184D0 VA: 0x180819ED0
 	private void PlayNoteViaMIDI(int noteIndex, float velocity) { }
 
-	// RVA: 0x81B760 Offset: 0x819D60 VA: 0x18081B760
+	// RVA: 0x81BCF0 Offset: 0x81A2F0 VA: 0x18081BCF0
 	private void StopNoteViaMIDI(int noteIndex) { }
 
-	// RVA: 0x818110 Offset: 0x816710 VA: 0x180818110
+	// RVA: 0x8186A0 Offset: 0x816CA0 VA: 0x1808186A0
 	private void NoteOnDelegate(MidiChannel channel, int note, float velocity) { }
 
-	// RVA: 0x817E70 Offset: 0x816470 VA: 0x180817E70
+	// RVA: 0x818400 Offset: 0x816A00 VA: 0x180818400
 	private void NoteOffDelegate(MidiChannel channel, int note) { }
 
-	// RVA: 0x817970 Offset: 0x815F70 VA: 0x180817970
+	// RVA: 0x817F00 Offset: 0x816500 VA: 0x180817F00
 	private void KnobDelegate(MidiChannel channel, int knobNumber, float knobValue) { }
 
-	// RVA: 0x8171C0 Offset: 0x8157C0 VA: 0x1808171C0
+	// RVA: 0x817750 Offset: 0x815D50 VA: 0x180817750
 	private bool ApplyMidiRebinding(int inNote, out int index) { }
 
-	// RVA: 0x8173A0 Offset: 0x8159A0 VA: 0x1808173A0
+	// RVA: 0x817930 Offset: 0x815F30 VA: 0x180817930
 	private void ConvertMidiNoteToIndex(int note, out int index) { }
 
-	// RVA: 0x81B360 Offset: 0x819960 VA: 0x18081B360
+	// RVA: 0x81B8F0 Offset: 0x819EF0 VA: 0x18081B8F0
 	public void StartRecording(string fileName) { }
 
-	// RVA: 0x81BCE0 Offset: 0x81A2E0 VA: 0x18081BCE0
+	// RVA: 0x81C270 Offset: 0x81A870 VA: 0x18081C270
 	public void StopRecording() { }
 
-	// RVA: 0x819F90 Offset: 0x818590 VA: 0x180819F90
+	// RVA: 0x81A520 Offset: 0x818B20 VA: 0x18081A520
 	private void RecordNoteStart(Notes note, int octave, float velocity, InstrumentKeyController.NoteType type, bool hold) { }
 
-	// RVA: 0x81A080 Offset: 0x818680 VA: 0x18081A080
+	// RVA: 0x81A610 Offset: 0x818C10 VA: 0x18081A610
 	private void RecordNoteStop(Notes note, int octave, InstrumentKeyController.NoteType type) { }
 
-	// RVA: 0x819D00 Offset: 0x818300 VA: 0x180819D00
+	// RVA: 0x81A290 Offset: 0x818890 VA: 0x18081A290
 	public void PlayRecording(InstrumentRecording recording) { }
 
-	// RVA: 0x81C750 Offset: 0x81AD50 VA: 0x18081C750
+	// RVA: 0x81CCE0 Offset: 0x81B2E0 VA: 0x18081CCE0
 	private void UpdatePlayingRecording(BasePlayer forPlayer) { }
 
-	// RVA: 0x81BCA0 Offset: 0x81A2A0 VA: 0x18081BCA0
+	// RVA: 0x81C230 Offset: 0x81A830 VA: 0x18081C230
 	private void StopPlayingRecording() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x81CEC0 Offset: 0x81B4C0 VA: 0x18081CEC0
+	// RVA: 0x81D450 Offset: 0x81BA50 VA: 0x18081D450
 	public bool get_FullKeyboardMode() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x81D1C0 Offset: 0x81B7C0 VA: 0x18081D1C0
+	// RVA: 0x81D750 Offset: 0x81BD50 VA: 0x18081D750
 	private void set_FullKeyboardMode(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x81CDF0 Offset: 0x81B3F0 VA: 0x18081CDF0
+	// RVA: 0x81D380 Offset: 0x81B980 VA: 0x18081D380
 	public InstrumentKeyController.AnimationSlot get_CurrentAnimation() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x81D1B0 Offset: 0x81B7B0 VA: 0x18081D1B0
+	// RVA: 0x81D740 Offset: 0x81BD40 VA: 0x18081D740
 	private void set_CurrentAnimation(InstrumentKeyController.AnimationSlot value) { }
 
-	// RVA: 0x81D180 Offset: 0x81B780 VA: 0x18081D180
+	// RVA: 0x81D710 Offset: 0x81BD10 VA: 0x18081D710
 	public bool get_RecentlyPlayedNote() { }
 
-	// RVA: 0x81CED0 Offset: 0x81B4D0 VA: 0x18081CED0
+	// RVA: 0x81D460 Offset: 0x81BA60 VA: 0x18081D460
 	private bool get_HeldByLocalPlayer() { }
 
-	// RVA: 0x81D060 Offset: 0x81B660 VA: 0x18081D060
+	// RVA: 0x81D5F0 Offset: 0x81BBF0 VA: 0x18081D5F0
 	private bool get_IsPlaying() { }
 
-	// RVA: 0x81CE00 Offset: 0x81B400 VA: 0x18081CE00
+	// RVA: 0x81D390 Offset: 0x81B990 VA: 0x18081D390
 	private int get_CurrentlyPlayingNotes() { }
 
-	// RVA: 0x81AF00 Offset: 0x819500 VA: 0x18081AF00
+	// RVA: 0x81B490 Offset: 0x819A90 VA: 0x18081B490
 	public void SetFullKeyboardMode(bool state) { }
 
-	// RVA: 0x8185F0 Offset: 0x816BF0 VA: 0x1808185F0
+	// RVA: 0x818B80 Offset: 0x817180 VA: 0x180818B80
 	public void OnInput(BasePlayer player) { }
 
-	// RVA: 0x8185D0 Offset: 0x816BD0 VA: 0x1808185D0
+	// RVA: 0x818B60 Offset: 0x817160 VA: 0x180818B60
 	private void OnDisable() { }
 
-	// RVA: 0x817880 Offset: 0x815E80 VA: 0x180817880
+	// RVA: 0x817E10 Offset: 0x816410 VA: 0x180817E10
 	public void InUseUpdate(BasePlayer forPlayer) { }
 
-	// RVA: 0x817C60 Offset: 0x816260 VA: 0x180817C60
+	// RVA: 0x8181F0 Offset: 0x8167F0 VA: 0x1808181F0
 	public void LateUpdateInstrument(BasePlayer forPlayer) { }
 
-	// RVA: 0x819850 Offset: 0x817E50 VA: 0x180819850
+	// RVA: 0x819DE0 Offset: 0x8183E0 VA: 0x180819DE0
 	public void PlayNoteRPC(BaseEntity.RPCMessage msg, bool isLocal) { }
 
-	// RVA: 0x819B60 Offset: 0x818160 VA: 0x180819B60
+	// RVA: 0x81A0F0 Offset: 0x8186F0 VA: 0x18081A0F0
 	public bool PlayNote(Notes note, InstrumentKeyController.NoteType type, int octave, float velocity, bool isLocal) { }
 
-	// RVA: 0x81B8B0 Offset: 0x819EB0 VA: 0x18081B8B0
+	// RVA: 0x81BE40 Offset: 0x81A440 VA: 0x18081BE40
 	public bool StopNote(Notes note, InstrumentKeyController.NoteType type, int octave) { }
 
-	// RVA: 0x81B6B0 Offset: 0x819CB0 VA: 0x18081B6B0
+	// RVA: 0x81BC40 Offset: 0x81A240 VA: 0x18081BC40
 	public void StopNoteRPC(BaseEntity.RPCMessage msg, bool isLocal) { }
 
-	// RVA: 0x81B4E0 Offset: 0x819AE0 VA: 0x18081B4E0
+	// RVA: 0x81BA70 Offset: 0x81A070 VA: 0x18081BA70
 	public void StopAllNotes(bool blockUntilRelease) { }
 
-	// RVA: 0x81BA00 Offset: 0x81A000 VA: 0x18081BA00
+	// RVA: 0x81BF90 Offset: 0x81A590 VA: 0x18081BF90
 	public void StopOldestNote(bool blockUntilRelease, bool isVoiceStealing = False) { }
 
-	// RVA: 0x818480 Offset: 0x816A80 VA: 0x180818480
+	// RVA: 0x818A10 Offset: 0x817010 VA: 0x180818A10
 	public void OnClientBeginUse(BasePlayer player) { }
 
-	// RVA: 0x81B2C0 Offset: 0x8198C0 VA: 0x18081B2C0
+	// RVA: 0x81B850 Offset: 0x819E50 VA: 0x18081B850
 	public void SetupBindings() { }
 
-	// RVA: 0x818520 Offset: 0x816B20 VA: 0x180818520
+	// RVA: 0x818AB0 Offset: 0x8170B0 VA: 0x180818AB0
 	public void OnClientEndUse(BasePlayer player) { }
 
-	// RVA: 0x8185E0 Offset: 0x816BE0 VA: 0x1808185E0
+	// RVA: 0x818B70 Offset: 0x817170 VA: 0x180818B70
 	public void OnEnable() { }
 
-	// RVA: 0x817830 Offset: 0x815E30 VA: 0x180817830
+	// RVA: 0x817DC0 Offset: 0x8163C0 VA: 0x180817DC0
 	private GameObject GetNoteSoundPosition(int index) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x81D170 Offset: 0x81B770 VA: 0x18081D170
+	// RVA: 0x81D700 Offset: 0x81BD00 VA: 0x18081D700
 	public bool get_PlayedNoteThisFrame() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x81D1D0 Offset: 0x81B7D0 VA: 0x18081D1D0
+	// RVA: 0x81D760 Offset: 0x81BD60 VA: 0x18081D760
 	private void set_PlayedNoteThisFrame(bool value) { }
 
-	// RVA: 0x819110 Offset: 0x817710 VA: 0x180819110
+	// RVA: 0x8196A0 Offset: 0x817CA0 VA: 0x1808196A0
 	public void OnPlayerPlayedNote(Notes note, InstrumentKeyController.NoteType type, int octave, float velocity, BasePlayer player) { }
 
-	// RVA: 0x817C70 Offset: 0x816270 VA: 0x180817C70
+	// RVA: 0x818200 Offset: 0x816800 VA: 0x180818200
 	private void LoadPlayedInstruments() { }
 
-	// RVA: 0x81A660 Offset: 0x818C60 VA: 0x18081A660
+	// RVA: 0x81ABF0 Offset: 0x8191F0 VA: 0x18081ABF0
 	private void SavePlayedInstruments() { }
 
-	// RVA: 0x819620 Offset: 0x817C20 VA: 0x180819620
+	// RVA: 0x819BB0 Offset: 0x8181B0 VA: 0x180819BB0
 	public void OnPlayerStoppedNote(Notes note, InstrumentKeyController.NoteType type, int octave) { }
 
-	// RVA: 0x81CCA0 Offset: 0x81B2A0 VA: 0x18081CCA0
+	// RVA: 0x81D230 Offset: 0x81B830 VA: 0x18081D230
 	public void .ctor() { }
 
-	// RVA: 0x81CB80 Offset: 0x81B180 VA: 0x18081CB80
+	// RVA: 0x81D110 Offset: 0x81B710 VA: 0x18081D110
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x81C170 Offset: 0x81A770 VA: 0x18081C170
+	// RVA: 0x81C700 Offset: 0x81AD00 VA: 0x18081C700
 	private void <SetFullKeyboardMode>b__98_0() { }
 
 }
@@ -928,7 +928,7 @@ public struct InstrumentKeyController.NoteBinding // TypeDefIndex: 9553
 	// RVA: 0xF8E90 Offset: 0xF8290 VA: 0x1800F8E90
 	public bool PlaySound(bool isLocal, float velocity, InstrumentKeyController keyController, NoteBindingCollection noteCollection, NoteBindingCollection.NoteData data) { }
 
-	// RVA: 0x81F990 Offset: 0x81DF90 VA: 0x18081F990
+	// RVA: 0x81FF20 Offset: 0x81E520 VA: 0x18081FF20
 	public static void SetupSound(bool isLocal, float velocity, NoteBindingCollection noteCollection, Sound forSound) { }
 
 	// RVA: 0xF8EF0 Offset: 0xF82F0 VA: 0x1800F8EF0
@@ -1014,13 +1014,13 @@ public abstract class InstrumentTip : BaseTip // TypeDefIndex: 11609
 
 	// Methods
 
-	// RVA: 0xC5C310 Offset: 0xC5A910 VA: 0x180C5C310
+	// RVA: 0xC5C7E0 Offset: 0xC5ADE0 VA: 0x180C5C7E0
 	public InstrumentKeyController get_Instrument() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0
 	public bool IsKeypadHostingMusicBinds() { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	protected void .ctor() { }
 
 }

@@ -10,22 +10,22 @@ public sealed class DesignOnlyAttribute : Attribute // TypeDefIndex: 2690
 
 	// Methods
 
-	// RVA: 0xFDCE40 Offset: 0xFDB440 VA: 0x180FDCE40
+	// RVA: 0xFDD8E0 Offset: 0xFDBEE0 VA: 0x180FDD8E0
 	public void .ctor(bool isDesignOnly) { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public bool get_IsDesignOnly() { }
 
-	// RVA: 0x15C1350 Offset: 0x15BF950 VA: 0x1815C1350 Slot: 6
+	// RVA: 0x15C0420 Offset: 0x15BEA20 VA: 0x1815C0420 Slot: 6
 	public override bool IsDefaultAttribute() { }
 
-	// RVA: 0x15C12D0 Offset: 0x15BF8D0 VA: 0x1815C12D0 Slot: 0
+	// RVA: 0x15C03A0 Offset: 0x15BE9A0 VA: 0x1815C03A0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x13C8BB0 Offset: 0x13C71B0 VA: 0x1813C8BB0 Slot: 2
+	// RVA: 0x13C7CB0 Offset: 0x13C62B0 VA: 0x1813C7CB0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x15C13D0 Offset: 0x15BF9D0 VA: 0x1815C13D0
+	// RVA: 0x15C04A0 Offset: 0x15BEAA0 VA: 0x1815C04A0
 	private static void .cctor() { }
 
 }

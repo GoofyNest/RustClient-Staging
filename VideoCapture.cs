@@ -5,50 +5,50 @@ public class VideoCapture : IDisposable // TypeDefIndex: 3616
 
 	// Methods
 
-	// RVA: 0x2186A80 Offset: 0x2185080 VA: 0x182186A80
+	// RVA: 0x21872A0 Offset: 0x21858A0 VA: 0x1821872A0
 	private static VideoCapture.VideoCaptureResult MakeCaptureResult(long hResult) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2186620 Offset: 0x2184C20 VA: 0x182186620
+	// RVA: 0x2186E40 Offset: 0x2185440 VA: 0x182186E40
 	private static void InvokeOnCreatedVideoCaptureResourceDelegate(VideoCapture.OnVideoCaptureResourceCreatedCallback callback, IntPtr nativePtr) { }
 
-	// RVA: 0x182A180 Offset: 0x1828780 VA: 0x18182A180
+	// RVA: 0x18175C0 Offset: 0x1815BC0 VA: 0x1818175C0
 	private void .ctor(IntPtr nativeCaptureObject) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21868A0 Offset: 0x2184EA0 VA: 0x1821868A0
+	// RVA: 0x21870C0 Offset: 0x21856C0 VA: 0x1821870C0
 	private static void InvokeOnVideoModeStartedDelegate(VideoCapture.OnVideoModeStartedCallback callback, long hResult) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2186990 Offset: 0x2184F90 VA: 0x182186990
+	// RVA: 0x21871B0 Offset: 0x21857B0 VA: 0x1821871B0
 	private static void InvokeOnVideoModeStoppedDelegate(VideoCapture.OnVideoModeStoppedCallback callback, long hResult) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21866C0 Offset: 0x2184CC0 VA: 0x1821866C0
+	// RVA: 0x2186EE0 Offset: 0x21854E0 VA: 0x182186EE0
 	private static void InvokeOnStartedRecordingVideoToDiskDelegate(VideoCapture.OnStartedRecordingVideoCallback callback, long hResult) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21867B0 Offset: 0x2184DB0 VA: 0x1821867B0
+	// RVA: 0x2186FD0 Offset: 0x21855D0 VA: 0x182186FD0
 	private static void InvokeOnStoppedRecordingVideoToDiskDelegate(VideoCapture.OnStoppedRecordingVideoCallback callback, long hResult) { }
 
-	// RVA: 0x21864B0 Offset: 0x2184AB0 VA: 0x1821864B0 Slot: 4
+	// RVA: 0x2186CD0 Offset: 0x21852D0 VA: 0x182186CD0 Slot: 4
 	public void Dispose() { }
 
 	[NativeConditionalAttribute] // RVA: 0xDDA50 Offset: 0xDCE50 VA: 0x1800DDA50
 	[NativeMethodAttribute] // RVA: 0xDDA50 Offset: 0xDCE50 VA: 0x1800DDA50
-	// RVA: 0x2186470 Offset: 0x2184A70 VA: 0x182186470
+	// RVA: 0x2186C90 Offset: 0x2185290 VA: 0x182186C90
 	private void Dispose_Internal() { }
 
-	// RVA: 0x2186540 Offset: 0x2184B40 VA: 0x182186540 Slot: 1
+	// RVA: 0x2186D60 Offset: 0x2185360 VA: 0x182186D60 Slot: 1
 	protected override void Finalize() { }
 
 	[ThreadAndSerializationSafeAttribute] // RVA: 0xDDBA0 Offset: 0xDCFA0 VA: 0x1800DDBA0
 	[NativeMethodAttribute] // RVA: 0xDDBA0 Offset: 0xDCFA0 VA: 0x1800DDBA0
 	[NativeConditionalAttribute] // RVA: 0xDDBA0 Offset: 0xDCFA0 VA: 0x1800DDBA0
-	// RVA: 0x2186430 Offset: 0x2184A30 VA: 0x182186430
+	// RVA: 0x2186C50 Offset: 0x2185250 VA: 0x182186C50
 	private void DisposeThreaded_Internal() { }
 
-	// RVA: 0x2186B20 Offset: 0x2185120 VA: 0x182186B20
+	// RVA: 0x2187340 Offset: 0x2185940 VA: 0x182187340
 	private static void .cctor() { }
 
 }
@@ -91,10 +91,10 @@ public sealed class VideoCapture.OnVideoModeStartedCallback : MulticastDelegate 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x21783B0 Offset: 0x21769B0 VA: 0x1821783B0 Slot: 12
+	// RVA: 0x2178BD0 Offset: 0x21771D0 VA: 0x182178BD0 Slot: 12
 	public virtual void Invoke(VideoCapture.VideoCaptureResult result) { }
 
-	// RVA: 0x21788F0 Offset: 0x2176EF0 VA: 0x1821788F0 Slot: 13
+	// RVA: 0x2179110 Offset: 0x2177710 VA: 0x182179110 Slot: 13
 	public virtual IAsyncResult BeginInvoke(VideoCapture.VideoCaptureResult result, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -108,10 +108,10 @@ public sealed class VideoCapture.OnVideoModeStoppedCallback : MulticastDelegate 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x21783B0 Offset: 0x21769B0 VA: 0x1821783B0 Slot: 12
+	// RVA: 0x2178BD0 Offset: 0x21771D0 VA: 0x182178BD0 Slot: 12
 	public virtual void Invoke(VideoCapture.VideoCaptureResult result) { }
 
-	// RVA: 0x2178970 Offset: 0x2176F70 VA: 0x182178970 Slot: 13
+	// RVA: 0x2179190 Offset: 0x2177790 VA: 0x182179190 Slot: 13
 	public virtual IAsyncResult BeginInvoke(VideoCapture.VideoCaptureResult result, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -125,10 +125,10 @@ public sealed class VideoCapture.OnStartedRecordingVideoCallback : MulticastDele
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x21783B0 Offset: 0x21769B0 VA: 0x1821783B0 Slot: 12
+	// RVA: 0x2178BD0 Offset: 0x21771D0 VA: 0x182178BD0 Slot: 12
 	public virtual void Invoke(VideoCapture.VideoCaptureResult result) { }
 
-	// RVA: 0x21787F0 Offset: 0x2176DF0 VA: 0x1821787F0 Slot: 13
+	// RVA: 0x2179010 Offset: 0x2177610 VA: 0x182179010 Slot: 13
 	public virtual IAsyncResult BeginInvoke(VideoCapture.VideoCaptureResult result, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -142,10 +142,10 @@ public sealed class VideoCapture.OnStoppedRecordingVideoCallback : MulticastDele
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x21783B0 Offset: 0x21769B0 VA: 0x1821783B0 Slot: 12
+	// RVA: 0x2178BD0 Offset: 0x21771D0 VA: 0x182178BD0 Slot: 12
 	public virtual void Invoke(VideoCapture.VideoCaptureResult result) { }
 
-	// RVA: 0x2178870 Offset: 0x2176E70 VA: 0x182178870 Slot: 13
+	// RVA: 0x2179090 Offset: 0x2177690 VA: 0x182179090 Slot: 13
 	public virtual IAsyncResult BeginInvoke(VideoCapture.VideoCaptureResult result, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

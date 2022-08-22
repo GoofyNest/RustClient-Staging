@@ -14,19 +14,19 @@ public abstract class ReadOnlyCollectionBase : ICollection, IEnumerable // TypeD
 
 	// Methods
 
-	// RVA: 0x1468B70 Offset: 0x1467170 VA: 0x181468B70
+	// RVA: 0x1467C40 Offset: 0x1466240 VA: 0x181467C40
 	protected ArrayList get_InnerList() { }
 
-	// RVA: 0x1468AE0 Offset: 0x14670E0 VA: 0x181468AE0 Slot: 8
+	// RVA: 0x1467BB0 Offset: 0x14661B0 VA: 0x181467BB0 Slot: 8
 	public virtual int get_Count() { }
 
-	// RVA: 0x1468A50 Offset: 0x1467050 VA: 0x181468A50 Slot: 6
+	// RVA: 0x1467B20 Offset: 0x1466120 VA: 0x181467B20 Slot: 6
 	private object System.Collections.ICollection.get_SyncRoot() { }
 
-	// RVA: 0x14689A0 Offset: 0x1466FA0 VA: 0x1814689A0 Slot: 4
+	// RVA: 0x1467A70 Offset: 0x1466070 VA: 0x181467A70 Slot: 4
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 
-	// RVA: 0x1468910 Offset: 0x1466F10 VA: 0x181468910 Slot: 9
+	// RVA: 0x14679E0 Offset: 0x1465FE0 VA: 0x1814679E0 Slot: 9
 	public virtual IEnumerator GetEnumerator() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

@@ -5,10 +5,10 @@ public class RealmedCollider : BasePrefab // TypeDefIndex: 9986
 
 	// Methods
 
-	// RVA: 0x6AB1B0 Offset: 0x6A97B0 VA: 0x1806AB1B0 Slot: 7
+	// RVA: 0x6AB140 Offset: 0x6A9740 VA: 0x1806AB140 Slot: 7
 	public override void PreProcess(IPrefabProcessor process, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x4D38B0 Offset: 0x4D1EB0 VA: 0x1804D38B0
+	// RVA: 0x4D3840 Offset: 0x4D1E40 VA: 0x1804D3840
 	public void .ctor() { }
 
 }

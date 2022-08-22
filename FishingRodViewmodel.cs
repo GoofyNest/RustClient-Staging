@@ -17,22 +17,22 @@ public class FishingRodViewmodel : MonoBehaviour // TypeDefIndex: 11437
 
 	// Methods
 
-	// RVA: 0x78D6B0 Offset: 0x78BCB0 VA: 0x18078D6B0
+	// RVA: 0x78D5C0 Offset: 0x78BBC0 VA: 0x18078D5C0
 	private void Start() { }
 
-	// RVA: 0x78D6E0 Offset: 0x78BCE0 VA: 0x18078D6E0
+	// RVA: 0x78D5F0 Offset: 0x78BBF0 VA: 0x18078D5F0
 	public void UpdateState(bool pullingLeft, bool pullingRight, bool pullingBack, float strainAmount, Animator forAnimator) { }
 
-	// RVA: 0x78D500 Offset: 0x78BB00 VA: 0x18078D500
+	// RVA: 0x78D410 Offset: 0x78BA10 VA: 0x18078D410
 	public void SetFish(int id) { }
 
-	// RVA: 0x78D6C0 Offset: 0x78BCC0 VA: 0x18078D6C0
+	// RVA: 0x78D5D0 Offset: 0x78BBD0 VA: 0x18078D5D0
 	public void ToggleCatchRoot(bool state) { }
 
-	// RVA: 0x78DBF0 Offset: 0x78C1F0 VA: 0x18078DBF0
+	// RVA: 0x78DB00 Offset: 0x78C100 VA: 0x18078DB00
 	public void .ctor() { }
 
-	// RVA: 0x78DB80 Offset: 0x78C180 VA: 0x18078DB80
+	// RVA: 0x78DA90 Offset: 0x78C090 VA: 0x18078DA90
 	private static void .cctor() { }
 
 }

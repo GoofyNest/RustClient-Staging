@@ -22,7 +22,7 @@ internal class RazerErrors // TypeDefIndex: 7676
 
 	// Methods
 
-	// RVA: 0x21C01D0 Offset: 0x21BE7D0 VA: 0x1821C01D0
+	// RVA: 0x21C09F0 Offset: 0x21BEFF0 VA: 0x1821C09F0
 	public static string GetResultString(int result) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

@@ -9,16 +9,16 @@ public class ScreenOverlayEx : PostEffectsBase, IImageEffect // TypeDefIndex: 80
 
 	// Methods
 
-	// RVA: 0x10740E0 Offset: 0x10726E0 VA: 0x1810740E0 Slot: 4
+	// RVA: 0x1074B50 Offset: 0x1073150 VA: 0x181074B50 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x1074140 Offset: 0x1072740 VA: 0x181074140 Slot: 5
+	// RVA: 0x1074BB0 Offset: 0x10731B0 VA: 0x181074BB0 Slot: 5
 	public bool IsActive() { }
 
-	// RVA: 0x1074180 Offset: 0x1072780 VA: 0x181074180 Slot: 6
+	// RVA: 0x1074BF0 Offset: 0x10731F0 VA: 0x181074BF0 Slot: 6
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x1074570 Offset: 0x1072B70 VA: 0x181074570
+	// RVA: 0x1074FE0 Offset: 0x10735E0 VA: 0x181074FE0
 	public void .ctor() { }
 
 }

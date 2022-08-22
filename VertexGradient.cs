@@ -7,10 +7,10 @@ public struct VertexGradient // TypeDefIndex: 6856
 
 	// Methods
 
-	// RVA: 0x225460 Offset: 0x224860 VA: 0x180225460
+	// RVA: 0x2209E0 Offset: 0x21FDE0 VA: 0x1802209E0
 	public void .ctor(Color color) { }
 
-	// RVA: 0x225430 Offset: 0x224830 VA: 0x180225430
+	// RVA: 0x2209B0 Offset: 0x21FDB0 VA: 0x1802209B0
 	public void .ctor(Color color0, Color color1, Color color2, Color color3) { }
 
 }

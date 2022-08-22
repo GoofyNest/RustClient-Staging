@@ -6,31 +6,31 @@ public class BranchConfig : UIDialog // TypeDefIndex: 8729
 
 	// Methods
 
-	// RVA: 0x5218E0 Offset: 0x51FEE0 VA: 0x1805218E0 Slot: 8
+	// RVA: 0x521870 Offset: 0x51FE70 VA: 0x180521870 Slot: 8
 	public override void OpenDialog() { }
 
-	// RVA: 0x5219C0 Offset: 0x51FFC0 VA: 0x1805219C0
+	// RVA: 0x521950 Offset: 0x51FF50 VA: 0x180521950
 	public void SetBranch(ElectricalBranch newSwitch) { }
 
-	// RVA: 0x5216E0 Offset: 0x51FCE0 VA: 0x1805216E0
+	// RVA: 0x521670 Offset: 0x51FC70 VA: 0x180521670
 	public void Confirm() { }
 
-	// RVA: 0x521920 Offset: 0x51FF20 VA: 0x180521920
+	// RVA: 0x5218B0 Offset: 0x51FEB0 VA: 0x1805218B0
 	public void SelectTextField() { }
 
-	// RVA: 0x521790 Offset: 0x51FD90 VA: 0x180521790
+	// RVA: 0x521720 Offset: 0x51FD20 VA: 0x180521720
 	public int GetIntValue() { }
 
-	// RVA: 0x521A60 Offset: 0x520060 VA: 0x180521A60
+	// RVA: 0x5219F0 Offset: 0x51FFF0 VA: 0x1805219F0
 	public void ValueChanged() { }
 
-	// RVA: 0x4C27D0 Offset: 0x4C0DD0 VA: 0x1804C27D0
+	// RVA: 0x4C2760 Offset: 0x4C0D60 VA: 0x1804C2760
 	public void Cancel() { }
 
-	// RVA: 0x521820 Offset: 0x51FE20 VA: 0x180521820
+	// RVA: 0x5217B0 Offset: 0x51FDB0 VA: 0x1805217B0
 	public void OnTextFieldEnd() { }
 
-	// RVA: 0x4C1AB0 Offset: 0x4C00B0 VA: 0x1804C1AB0
+	// RVA: 0x4C1A40 Offset: 0x4C0040 VA: 0x1804C1A40
 	public void .ctor() { }
 
 }

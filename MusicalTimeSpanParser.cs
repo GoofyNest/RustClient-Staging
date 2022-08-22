@@ -11,13 +11,13 @@ internal static class MusicalTimeSpanParser // TypeDefIndex: 7488
 
 	// Methods
 
-	// RVA: 0x21FD2B0 Offset: 0x21FB8B0 VA: 0x1821FD2B0
+	// RVA: 0x21FDAD0 Offset: 0x21FC0D0 VA: 0x1821FDAD0
 	internal static ParsingResult TryParse(string input, out MusicalTimeSpan timeSpan) { }
 
-	// RVA: 0x21FD040 Offset: 0x21FB640 VA: 0x1821FD040
+	// RVA: 0x21FD860 Offset: 0x21FBE60 VA: 0x1821FD860
 	private static string GetMnemonicGroup(string groupName, IEnumerable<string> mnemonics) { }
 
-	// RVA: 0x21FD910 Offset: 0x21FBF10 VA: 0x1821FD910
+	// RVA: 0x21FE130 Offset: 0x21FC730 VA: 0x1821FE130
 	private static void .cctor() { }
 
 }

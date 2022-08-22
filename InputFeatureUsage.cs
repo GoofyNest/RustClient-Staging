@@ -10,10 +10,10 @@ public struct InputFeatureUsage : IEquatable<InputFeatureUsage> // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1FBAB0 Offset: 0x1FAEB0 VA: 0x1801FBAB0
+	// RVA: 0x1FB6E0 Offset: 0x1FAAE0 VA: 0x1801FB6E0
 	public string get_name() { }
 
-	// RVA: 0x13AC20 Offset: 0x13A020 VA: 0x18013AC20
+	// RVA: 0x13AA40 Offset: 0x139E40 VA: 0x18013AA40
 	internal InputFeatureType get_internalType() { }
 
 	// RVA: 0x23E6D0 Offset: 0x23DAD0 VA: 0x18023E6D0 Slot: 0

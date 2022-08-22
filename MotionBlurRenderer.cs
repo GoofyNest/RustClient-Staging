@@ -1,13 +1,13 @@
 internal sealed class MotionBlurRenderer : PostProcessEffectRenderer<MotionBlur> // TypeDefIndex: 11793
 {	// Methods
 
-	// RVA: 0x6F3610 Offset: 0x6F1C10 VA: 0x1806F3610 Slot: 5
+	// RVA: 0x6F35A0 Offset: 0x6F1BA0 VA: 0x1806F35A0 Slot: 5
 	public override DepthTextureMode GetCameraFlags() { }
 
-	// RVA: 0x1019A20 Offset: 0x1018020 VA: 0x181019A20 Slot: 8
+	// RVA: 0x101A4C0 Offset: 0x1018AC0 VA: 0x18101A4C0 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x101A5D0 Offset: 0x1018BD0 VA: 0x18101A5D0
+	// RVA: 0x101B070 Offset: 0x1019670 VA: 0x18101B070
 	public void .ctor() { }
 
 }

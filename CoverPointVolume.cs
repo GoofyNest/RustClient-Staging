@@ -16,25 +16,25 @@ public class CoverPointVolume : MonoBehaviour, IServerComponent // TypeDefIndex:
 	// Methods
 
 	[ContextMenu] // RVA: 0xE0270 Offset: 0xDF670 VA: 0x1800E0270
-	// RVA: 0x4BB6E0 Offset: 0x4B9CE0 VA: 0x1804BB6E0
+	// RVA: 0x4BB670 Offset: 0x4B9C70 VA: 0x1804BB670
 	private void ClearCoverPoints() { }
 
-	// RVA: 0x4BB830 Offset: 0x4B9E30 VA: 0x1804BB830
+	// RVA: 0x4BB7C0 Offset: 0x4B9DC0 VA: 0x1804BB7C0
 	public Bounds GetBounds() { }
 
-	// RVA: 0x4BB4B0 Offset: 0x4B9AB0 VA: 0x1804BB4B0
+	// RVA: 0x4BB440 Offset: 0x4B9A40 VA: 0x1804BB440
 	private CoverPoint CalculateCoverPoint(NavMeshHit info) { }
 
-	// RVA: 0x4BB9C0 Offset: 0x4B9FC0 VA: 0x1804BB9C0
+	// RVA: 0x4BB950 Offset: 0x4B9F50 VA: 0x1804BB950
 	internal CoverPointVolume.CoverType ProvidesCoverInDir(Ray ray, float maxDistance, out RaycastHit rayHit) { }
 
-	// RVA: 0x4BB740 Offset: 0x4B9D40 VA: 0x1804BB740
+	// RVA: 0x4BB6D0 Offset: 0x4B9CD0 VA: 0x1804BB6D0
 	public bool Contains(Vector3 point) { }
 
-	// RVA: 0x4BBDE0 Offset: 0x4BA3E0 VA: 0x1804BBDE0
+	// RVA: 0x4BBD70 Offset: 0x4BA370 VA: 0x1804BBD70
 	public void .ctor() { }
 
-	// RVA: 0x4BBD90 Offset: 0x4BA390 VA: 0x1804BBD90
+	// RVA: 0x4BBD20 Offset: 0x4BA320 VA: 0x1804BBD20
 	private static void .cctor() { }
 
 }

@@ -11,7 +11,7 @@ public abstract class BaseTip // TypeDefIndex: 11592
 	// RVA: -1 Offset: -1 Slot: 5
 	public abstract bool get_ShouldShow();
 
-	// RVA: 0x7494F0 Offset: 0x747AF0 VA: 0x1807494F0
+	// RVA: 0x749440 Offset: 0x747A40 VA: 0x180749440
 	public string get_Type() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

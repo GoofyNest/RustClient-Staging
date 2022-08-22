@@ -10,11 +10,11 @@ public static class PhraseRecognitionSystem // TypeDefIndex: 3591
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21795B0 Offset: 0x2177BB0 VA: 0x1821795B0
+	// RVA: 0x2179DD0 Offset: 0x21783D0 VA: 0x182179DD0
 	private static void PhraseRecognitionSystem_InvokeErrorEvent(SpeechError errorCode) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2179600 Offset: 0x2177C00 VA: 0x182179600
+	// RVA: 0x2179E20 Offset: 0x2178420 VA: 0x182179E20
 	private static void PhraseRecognitionSystem_InvokeStatusChangedEvent(SpeechSystemStatus status) { }
 
 }
@@ -25,10 +25,10 @@ public sealed class PhraseRecognitionSystem.ErrorDelegate : MulticastDelegate //
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x19C83A0 Offset: 0x19C69A0 VA: 0x1819C83A0 Slot: 12
+	// RVA: 0x19B57A0 Offset: 0x19B3DA0 VA: 0x1819B57A0 Slot: 12
 	public virtual void Invoke(SpeechError errorCode) { }
 
-	// RVA: 0x21781C0 Offset: 0x21767C0 VA: 0x1821781C0 Slot: 13
+	// RVA: 0x21789E0 Offset: 0x2176FE0 VA: 0x1821789E0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(SpeechError errorCode, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -42,10 +42,10 @@ public sealed class PhraseRecognitionSystem.StatusDelegate : MulticastDelegate /
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x19C83A0 Offset: 0x19C69A0 VA: 0x1819C83A0 Slot: 12
+	// RVA: 0x19B57A0 Offset: 0x19B3DA0 VA: 0x1819B57A0 Slot: 12
 	public virtual void Invoke(SpeechSystemStatus status) { }
 
-	// RVA: 0x2179EC0 Offset: 0x21784C0 VA: 0x182179EC0 Slot: 13
+	// RVA: 0x217A6E0 Offset: 0x2178CE0 VA: 0x18217A6E0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(SpeechSystemStatus status, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

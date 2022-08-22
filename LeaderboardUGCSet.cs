@@ -10,13 +10,13 @@ internal struct LeaderboardUGCSet_t : ICallbackData // TypeDefIndex: 5396
 
 	// Methods
 
-	// RVA: 0x1EB2F0 Offset: 0x1EA6F0 VA: 0x1801EB2F0 Slot: 5
+	// RVA: 0x1EB710 Offset: 0x1EAB10 VA: 0x1801EB710 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EB2E0 Offset: 0x1EA6E0 VA: 0x1801EB2E0 Slot: 4
+	// RVA: 0x1EB700 Offset: 0x1EAB00 VA: 0x1801EB700 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13738D0 Offset: 0x1371ED0 VA: 0x1813738D0
+	// RVA: 0x13729D0 Offset: 0x1370FD0 VA: 0x1813729D0
 	private static void .cctor() { }
 
 }

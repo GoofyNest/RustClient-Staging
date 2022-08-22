@@ -26,111 +26,111 @@ public class MainCamera : RustCamera<MainCamera> // TypeDefIndex: 9201
 
 	// Methods
 
-	// RVA: 0x55E5A0 Offset: 0x55CBA0 VA: 0x18055E5A0
+	// RVA: 0x55E530 Offset: 0x55CB30 VA: 0x18055E530
 	public static bool get_isValid() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x55E8B0 Offset: 0x55CEB0 VA: 0x18055E8B0
+	// RVA: 0x55E840 Offset: 0x55CE40 VA: 0x18055E840
 	public static Vector3 get_velocity() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x55EC20 Offset: 0x55D220 VA: 0x18055EC20
+	// RVA: 0x55EBB0 Offset: 0x55D1B0 VA: 0x18055EBB0
 	private static void set_velocity(Vector3 value) { }
 
-	// RVA: 0x55E680 Offset: 0x55CC80 VA: 0x18055E680
+	// RVA: 0x55E610 Offset: 0x55CC10 VA: 0x18055E610
 	public static Vector3 get_position() { }
 
-	// RVA: 0x55E9C0 Offset: 0x55CFC0 VA: 0x18055E9C0
+	// RVA: 0x55E950 Offset: 0x55CF50 VA: 0x18055E950
 	public static void set_position(Vector3 value) { }
 
-	// RVA: 0x55E510 Offset: 0x55CB10 VA: 0x18055E510
+	// RVA: 0x55E4A0 Offset: 0x55CAA0 VA: 0x18055E4A0
 	public static Vector3 get_forward() { }
 
-	// RVA: 0x55E920 Offset: 0x55CF20 VA: 0x18055E920
+	// RVA: 0x55E8B0 Offset: 0x55CEB0 VA: 0x18055E8B0
 	public static void set_forward(Vector3 value) { }
 
-	// RVA: 0x55E710 Offset: 0x55CD10 VA: 0x18055E710
+	// RVA: 0x55E6A0 Offset: 0x55CCA0 VA: 0x18055E6A0
 	public static Vector3 get_right() { }
 
-	// RVA: 0x55EA50 Offset: 0x55D050 VA: 0x18055EA50
+	// RVA: 0x55E9E0 Offset: 0x55CFE0 VA: 0x18055E9E0
 	public static void set_right(Vector3 value) { }
 
-	// RVA: 0x55E820 Offset: 0x55CE20 VA: 0x18055E820
+	// RVA: 0x55E7B0 Offset: 0x55CDB0 VA: 0x18055E7B0
 	public static Vector3 get_up() { }
 
-	// RVA: 0x55EB70 Offset: 0x55D170 VA: 0x18055EB70
+	// RVA: 0x55EB00 Offset: 0x55D100 VA: 0x18055EB00
 	public static void set_up(Vector3 value) { }
 
-	// RVA: 0x55E7A0 Offset: 0x55CDA0 VA: 0x18055E7A0
+	// RVA: 0x55E730 Offset: 0x55CD30 VA: 0x18055E730
 	public static Quaternion get_rotation() { }
 
-	// RVA: 0x55EAF0 Offset: 0x55D0F0 VA: 0x18055EAF0
+	// RVA: 0x55EA80 Offset: 0x55D080 VA: 0x18055EA80
 	public static void set_rotation(Quaternion value) { }
 
-	// RVA: 0x55E150 Offset: 0x55C750 VA: 0x18055E150
+	// RVA: 0x55E0E0 Offset: 0x55C6E0 VA: 0x18055E0E0
 	public static Ray get_Ray() { }
 
-	// RVA: 0x55E2D0 Offset: 0x55C8D0 VA: 0x18055E2D0
+	// RVA: 0x55E260 Offset: 0x55C860 VA: 0x18055E260
 	public static RaycastHit get_Raycast() { }
 
-	// RVA: 0x55CD40 Offset: 0x55B340 VA: 0x18055CD40
+	// RVA: 0x55CCD0 Offset: 0x55B2D0 VA: 0x18055CCD0
 	public static EnvironmentType GetEnvironment() { }
 
-	// RVA: 0x55CE20 Offset: 0x55B420 VA: 0x18055CE20
+	// RVA: 0x55CDB0 Offset: 0x55B3B0 VA: 0x18055CDB0
 	public static bool InEnvironment(EnvironmentType type) { }
 
-	// RVA: 0x55C5A0 Offset: 0x55ABA0 VA: 0x18055C5A0 Slot: 6
+	// RVA: 0x55C530 Offset: 0x55AB30 VA: 0x18055C530 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x55D770 Offset: 0x55BD70 VA: 0x18055D770
+	// RVA: 0x55D700 Offset: 0x55BD00 VA: 0x18055D700
 	public void Setup() { }
 
-	// RVA: 0x55D2D0 Offset: 0x55B8D0 VA: 0x18055D2D0 Slot: 7
+	// RVA: 0x55D260 Offset: 0x55B860 VA: 0x18055D260 Slot: 7
 	protected override void OnDestroy() { }
 
-	// RVA: 0x55C3B0 Offset: 0x55A9B0 VA: 0x18055C3B0
+	// RVA: 0x55C340 Offset: 0x55A940 VA: 0x18055C340
 	private void AdjustTextureStreamingBudget() { }
 
-	// RVA: 0x55E070 Offset: 0x55C670 VA: 0x18055E070
+	// RVA: 0x55E000 Offset: 0x55C600 VA: 0x18055E000
 	private void Update() { }
 
-	// RVA: 0x55D3D0 Offset: 0x55B9D0 VA: 0x18055D3D0
+	// RVA: 0x55D360 Offset: 0x55B960 VA: 0x18055D360
 	public void RecordFrameTime() { }
 
-	// RVA: 0x55D0C0 Offset: 0x55B6C0 VA: 0x18055D0C0 Slot: 9
+	// RVA: 0x55D050 Offset: 0x55B650 VA: 0x18055D050 Slot: 9
 	protected override void LateUpdate() { }
 
-	// RVA: 0x55C9B0 Offset: 0x55AFB0 VA: 0x18055C9B0
+	// RVA: 0x55C940 Offset: 0x55AF40 VA: 0x18055C940
 	public static float Distance(Vector3 pos) { }
 
-	// RVA: 0x55DC00 Offset: 0x55C200 VA: 0x18055DC00
+	// RVA: 0x55DB90 Offset: 0x55C190 VA: 0x18055DB90
 	public static float SqrDistance(Vector3 pos) { }
 
-	// RVA: 0x55CB50 Offset: 0x55B150 VA: 0x18055CB50
+	// RVA: 0x55CAE0 Offset: 0x55B0E0 VA: 0x18055CAE0
 	public static float Distance(BaseEntity ent) { }
 
-	// RVA: 0x55D9F0 Offset: 0x55BFF0 VA: 0x18055D9F0
+	// RVA: 0x55D980 Offset: 0x55BF80 VA: 0x18055D980
 	public static float SqrDistance(BaseEntity ent) { }
 
-	// RVA: 0x55C680 Offset: 0x55AC80 VA: 0x18055C680
+	// RVA: 0x55C610 Offset: 0x55AC10 VA: 0x18055C610
 	public static float Distance2D(Vector3 pos) { }
 
-	// RVA: 0x55D830 Offset: 0x55BE30 VA: 0x18055D830
+	// RVA: 0x55D7C0 Offset: 0x55BDC0 VA: 0x18055D7C0
 	public static float SqrDistance2D(Vector3 pos) { }
 
-	// RVA: 0x55C7F0 Offset: 0x55ADF0 VA: 0x18055C7F0
+	// RVA: 0x55C780 Offset: 0x55AD80 VA: 0x18055C780
 	public static float Distance2D(BaseEntity ent) { }
 
-	// RVA: 0x55DDD0 Offset: 0x55C3D0 VA: 0x18055DDD0
+	// RVA: 0x55DD60 Offset: 0x55C360 VA: 0x18055DD60
 	public static HitTest Trace(float maxDistance, BaseEntity IgnoreEntity, float radius = 0) { }
 
-	// RVA: 0x55CF10 Offset: 0x55B510 VA: 0x18055CF10
+	// RVA: 0x55CEA0 Offset: 0x55B4A0 VA: 0x18055CEA0
 	public static bool IsInFrontOfLocalPlayerCamera(Vector3 point) { }
 
-	// RVA: 0x55E0F0 Offset: 0x55C6F0 VA: 0x18055E0F0
+	// RVA: 0x55E080 Offset: 0x55C680 VA: 0x18055E080
 	public void .ctor() { }
 
-	// RVA: 0x55E080 Offset: 0x55C680 VA: 0x18055E080
+	// RVA: 0x55E010 Offset: 0x55C610 VA: 0x18055E010
 	private static void .cctor() { }
 
 }

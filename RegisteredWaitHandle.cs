@@ -12,17 +12,17 @@ public sealed class RegisteredWaitHandle : MarshalByRefObject // TypeDefIndex: 8
 
 	// Methods
 
-	// RVA: 0x14992A0 Offset: 0x14978A0 VA: 0x1814992A0
+	// RVA: 0x1498370 Offset: 0x1496970 VA: 0x181498370
 	internal void .ctor(WaitHandle waitObject, WaitOrTimerCallback callback, object state, TimeSpan timeout, bool executeOnlyOnce) { }
 
-	// RVA: 0x1498DE0 Offset: 0x14973E0 VA: 0x181498DE0
+	// RVA: 0x1497EB0 Offset: 0x14964B0 VA: 0x181497EB0
 	internal void Wait(object state) { }
 
-	// RVA: 0x1498AB0 Offset: 0x14970B0 VA: 0x181498AB0
+	// RVA: 0x1497B80 Offset: 0x1496180 VA: 0x181497B80
 	private void DoCallBack(object timedOut) { }
 
 	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
-	// RVA: 0x1498C70 Offset: 0x1497270 VA: 0x181498C70
+	// RVA: 0x1497D40 Offset: 0x1496340 VA: 0x181497D40
 	public bool Unregister(WaitHandle waitObject) { }
 
 }

@@ -11,31 +11,31 @@ public sealed class X509KeyUsageExtension : X509Extension // TypeDefIndex: 2836
 
 	// Methods
 
-	// RVA: 0x14DC3A0 Offset: 0x14DA9A0 VA: 0x1814DC3A0
+	// RVA: 0x14DB470 Offset: 0x14D9A70 VA: 0x1814DB470
 	public void .ctor() { }
 
-	// RVA: 0x14DC210 Offset: 0x14DA810 VA: 0x1814DC210
+	// RVA: 0x14DB2E0 Offset: 0x14D98E0 VA: 0x1814DB2E0
 	public void .ctor(AsnEncodedData encodedKeyUsage, bool critical) { }
 
-	// RVA: 0x14DC2E0 Offset: 0x14DA8E0 VA: 0x1814DC2E0
+	// RVA: 0x14DB3B0 Offset: 0x14D99B0 VA: 0x1814DB3B0
 	public void .ctor(X509KeyUsageFlags keyUsages, bool critical) { }
 
-	// RVA: 0x14DC420 Offset: 0x14DAA20 VA: 0x1814DC420
+	// RVA: 0x14DB4F0 Offset: 0x14D9AF0 VA: 0x1814DB4F0
 	public X509KeyUsageFlags get_KeyUsages() { }
 
-	// RVA: 0x14DB910 Offset: 0x14D9F10 VA: 0x1814DB910 Slot: 4
+	// RVA: 0x14DA9E0 Offset: 0x14D8FE0 VA: 0x1814DA9E0 Slot: 4
 	public override void CopyFrom(AsnEncodedData asnEncodedData) { }
 
-	// RVA: 0x14DBDD0 Offset: 0x14DA3D0 VA: 0x1814DBDD0
+	// RVA: 0x14DAEA0 Offset: 0x14D94A0 VA: 0x1814DAEA0
 	internal X509KeyUsageFlags GetValidFlags(X509KeyUsageFlags flags) { }
 
-	// RVA: 0x14DBA90 Offset: 0x14DA090 VA: 0x1814DBA90
+	// RVA: 0x14DAB60 Offset: 0x14D9160 VA: 0x1814DAB60
 	internal AsnDecodeStatus Decode(byte[] extension) { }
 
-	// RVA: 0x14DBC10 Offset: 0x14DA210 VA: 0x1814DBC10
+	// RVA: 0x14DACE0 Offset: 0x14D92E0 VA: 0x1814DACE0
 	internal byte[] Encode() { }
 
-	// RVA: 0x14DBDE0 Offset: 0x14DA3E0 VA: 0x1814DBDE0 Slot: 6
+	// RVA: 0x14DAEB0 Offset: 0x14D94B0 VA: 0x1814DAEB0 Slot: 6
 	internal override string ToString(bool multiLine) { }
 
 }

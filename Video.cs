@@ -11,25 +11,25 @@ public class Video : RustControl // TypeDefIndex: 7043
 
 	// Methods
 
-	// RVA: 0xFD9880 Offset: 0xFD7E80 VA: 0x180FD9880 Slot: 4
+	// RVA: 0xFDA320 Offset: 0xFD8920 VA: 0x180FDA320 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0xFDA520 Offset: 0xFD8B20 VA: 0x180FDA520
+	// RVA: 0xFDAFC0 Offset: 0xFD95C0 VA: 0x180FDAFC0
 	private void VideoPlayer_errorReceived(VideoPlayer source, string message) { }
 
-	// RVA: 0xFDA450 Offset: 0xFD8A50 VA: 0x180FDA450
+	// RVA: 0xFDAEF0 Offset: 0xFD94F0 VA: 0x180FDAEF0
 	public void PlayUrl(string video) { }
 
-	// RVA: 0xFDA190 Offset: 0xFD8790 VA: 0x180FDA190
+	// RVA: 0xFDAC30 Offset: 0xFD9230 VA: 0x180FDAC30
 	public void LateUpdate() { }
 
-	// RVA: 0xFD9910 Offset: 0xFD7F10 VA: 0x180FD9910
+	// RVA: 0xFDA3B0 Offset: 0xFD89B0 VA: 0x180FDA3B0
 	private void Cover() { }
 
-	// RVA: 0xFDA4C0 Offset: 0xFD8AC0 VA: 0x180FDA4C0
+	// RVA: 0xFDAF60 Offset: 0xFD9560 VA: 0x180FDAF60
 	public void Stop() { }
 
-	// RVA: 0xFDA590 Offset: 0xFD8B90 VA: 0x180FDA590
+	// RVA: 0xFDB030 Offset: 0xFD9630 VA: 0x180FDB030
 	public void .ctor() { }
 
 }

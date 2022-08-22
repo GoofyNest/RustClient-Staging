@@ -12,34 +12,34 @@ public class CultureNotFoundException : ArgumentException, ISerializable // Type
 
 	// Methods
 
-	// RVA: 0x16DE8F0 Offset: 0x16DCEF0 VA: 0x1816DE8F0
+	// RVA: 0x16DC4E0 Offset: 0x16DAAE0 VA: 0x1816DC4E0
 	public void .ctor() { }
 
-	// RVA: 0x16DEAA0 Offset: 0x16DD0A0 VA: 0x1816DEAA0
+	// RVA: 0x16DC690 Offset: 0x16DAC90 VA: 0x1816DC690
 	public void .ctor(string paramName, string message) { }
 
-	// RVA: 0x16DE8B0 Offset: 0x16DCEB0 VA: 0x1816DE8B0
+	// RVA: 0x16DC4A0 Offset: 0x16DAAA0 VA: 0x1816DC4A0
 	public void .ctor(string paramName, string invalidCultureName, string message) { }
 
-	// RVA: 0x16DE940 Offset: 0x16DCF40 VA: 0x1816DE940
+	// RVA: 0x16DC530 Offset: 0x16DAB30 VA: 0x1816DC530
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x16DE760 Offset: 0x16DCD60 VA: 0x1816DE760 Slot: 10
+	// RVA: 0x16DC350 Offset: 0x16DA950 VA: 0x1816DC350 Slot: 10
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380 Slot: 12
+	// RVA: 0x574310 Offset: 0x572910 VA: 0x180574310 Slot: 12
 	public virtual Nullable<int> get_InvalidCultureId() { }
 
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050 Slot: 13
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0 Slot: 13
 	public virtual string get_InvalidCultureName() { }
 
-	// RVA: 0x16DEAC0 Offset: 0x16DD0C0 VA: 0x1816DEAC0
+	// RVA: 0x16DC6B0 Offset: 0x16DACB0 VA: 0x1816DC6B0
 	private static string get_DefaultMessage() { }
 
-	// RVA: 0x16DEB00 Offset: 0x16DD100 VA: 0x1816DEB00
+	// RVA: 0x16DC6F0 Offset: 0x16DACF0 VA: 0x1816DC6F0
 	private string get_FormatedInvalidCultureId() { }
 
-	// RVA: 0x16DEC00 Offset: 0x16DD200 VA: 0x1816DEC00 Slot: 5
+	// RVA: 0x16DC7F0 Offset: 0x16DADF0 VA: 0x1816DC7F0 Slot: 5
 	public override string get_Message() { }
 
 }

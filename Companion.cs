@@ -26,53 +26,53 @@ public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // 
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x582940 Offset: 0x580F40 VA: 0x180582940
+	// RVA: 0x5828D0 Offset: 0x580ED0 VA: 0x1805828D0
 	public CompanionSetupScreen.ScreenState get_State() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x582950 Offset: 0x580F50 VA: 0x180582950
+	// RVA: 0x5828E0 Offset: 0x580EE0 VA: 0x1805828E0
 	private void set_State(CompanionSetupScreen.ScreenState value) { }
 
-	// RVA: 0x582190 Offset: 0x580790 VA: 0x180582190
+	// RVA: 0x582120 Offset: 0x580720 VA: 0x180582120
 	public void OnEnable() { }
 
-	// RVA: 0x582420 Offset: 0x580A20 VA: 0x180582420
+	// RVA: 0x5823B0 Offset: 0x5809B0 VA: 0x1805823B0
 	public void Refresh() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x95060 Offset: 0x94460 VA: 0x180095060
-	// RVA: 0x582350 Offset: 0x580950 VA: 0x180582350
+	// RVA: 0x5822E0 Offset: 0x5808E0 VA: 0x1805822E0
 	public void RefreshImpl() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x95260 Offset: 0x94660 VA: 0x180095260
-	// RVA: 0x581F70 Offset: 0x580570 VA: 0x180581F70
+	// RVA: 0x581F00 Offset: 0x580500 VA: 0x180581F00
 	public void Enable() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x95320 Offset: 0x94720 VA: 0x180095320
-	// RVA: 0x581EA0 Offset: 0x5804A0 VA: 0x180581EA0
+	// RVA: 0x581E30 Offset: 0x580430 VA: 0x180581E30
 	public void Disable() { }
 
-	// RVA: 0x5821E0 Offset: 0x5807E0 VA: 0x1805821E0
+	// RVA: 0x582170 Offset: 0x580770 VA: 0x180582170
 	public void Pair() { }
 
-	// RVA: 0x5828B0 Offset: 0x580EB0 VA: 0x1805828B0
+	// RVA: 0x582840 Offset: 0x580E40 VA: 0x180582840
 	private void ResetPair() { }
 
-	// RVA: 0x5821A0 Offset: 0x5807A0 VA: 0x1805821A0
+	// RVA: 0x582130 Offset: 0x580730 VA: 0x180582130
 	public void OpenVideo() { }
 
-	// RVA: 0x582040 Offset: 0x580640 VA: 0x180582040
+	// RVA: 0x581FD0 Offset: 0x5805D0 VA: 0x180581FD0
 	public void HelpPressed() { }
 
-	// RVA: 0x582190 Offset: 0x580790 VA: 0x180582190
+	// RVA: 0x582120 Offset: 0x580720 VA: 0x180582120
 	public void HelpReleased() { }
 
-	// RVA: 0x5828D0 Offset: 0x580ED0 VA: 0x1805828D0
+	// RVA: 0x582860 Offset: 0x580E60 VA: 0x180582860
 	private void UpdateUI() { }
 
-	// RVA: 0x581C60 Offset: 0x580260 VA: 0x180581C60
+	// RVA: 0x581BF0 Offset: 0x5801F0 VA: 0x180581BF0
 	public void ChangeState(CompanionSetupScreen.ScreenState state) { }
 
-	// RVA: 0x5828E0 Offset: 0x580EE0 VA: 0x1805828E0
+	// RVA: 0x582870 Offset: 0x580E70 VA: 0x180582870
 	public void .ctor() { }
 
 }
@@ -151,26 +151,26 @@ public static class CompanionSubscription // TypeDefIndex: 11090
 	private const string CheckApi = "https://companion-rust.facepunch.com/api/subscriptions/check";
 	private const string AddApi = "https://companion-rust.facepunch.com/api/subscriptions/add";
 	private const string RemoveApi = "https://companion-rust.facepunch.com/api/subscriptions/remove";
-	private static readonly HttpClient Http; // 0x3288
+	private static readonly HttpClient Http; // 0x2F00
 
 	// Methods
 
 	[AsyncStateMachineAttribute] // RVA: 0x957A0 Offset: 0x94BA0 VA: 0x1800957A0
-	// RVA: 0x582A30 Offset: 0x581030 VA: 0x180582A30
+	// RVA: 0x5829C0 Offset: 0x580FC0 VA: 0x1805829C0
 	public static Task<CompanionSubscription.Status> CheckStatus() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x957F0 Offset: 0x94BF0 VA: 0x1800957F0
-	// RVA: 0x582960 Offset: 0x580F60 VA: 0x180582960
+	// RVA: 0x5828F0 Offset: 0x580EF0 VA: 0x1805828F0
 	public static Task Add() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x959E0 Offset: 0x94DE0 VA: 0x1800959E0
-	// RVA: 0x582D00 Offset: 0x581300 VA: 0x180582D00
+	// RVA: 0x582C90 Offset: 0x581290 VA: 0x180582C90
 	public static Task Remove() { }
 
-	// RVA: 0x582B10 Offset: 0x581110 VA: 0x180582B10
+	// RVA: 0x582AA0 Offset: 0x5810A0 VA: 0x180582AA0
 	private static StringContent GenerateRequest(IAuthTicket authTicket) { }
 
-	// RVA: 0x582DD0 Offset: 0x5813D0 VA: 0x180582DD0
+	// RVA: 0x582D60 Offset: 0x581360 VA: 0x180582D60
 	private static void .cctor() { }
 
 }

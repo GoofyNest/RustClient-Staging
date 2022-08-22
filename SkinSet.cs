@@ -19,10 +19,10 @@ public class SkinSet : ScriptableObject // TypeDefIndex: 10759
 
 	// Methods
 
-	// RVA: 0x59E6F0 Offset: 0x59CCF0 VA: 0x18059E6F0
+	// RVA: 0x59E680 Offset: 0x59CC80 VA: 0x18059E680
 	internal Color GetSkinColor(float skinNumber) { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }

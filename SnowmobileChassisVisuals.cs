@@ -49,31 +49,31 @@ public class SnowmobileChassisVisuals : VehicleChassisVisuals<Snowmobile>, IClie
 
 	// Methods
 
-	// RVA: 0x5B2630 Offset: 0x5B0C30 VA: 0x1805B2630 Slot: 4
+	// RVA: 0x5B25C0 Offset: 0x5B0BC0 VA: 0x1805B25C0 Slot: 4
 	public override void Init(Snowmobile owner, VehicleChassisVisuals.ClientWheelData<Snowmobile>[] clientWheelData) { }
 
-	// RVA: 0x5B3510 Offset: 0x5B1B10 VA: 0x1805B3510 Slot: 5
+	// RVA: 0x5B34A0 Offset: 0x5B1AA0 VA: 0x1805B34A0 Slot: 5
 	protected override void PreWheelUpdateTick() { }
 
-	// RVA: 0x5B2780 Offset: 0x5B0D80 VA: 0x1805B2780 Slot: 7
+	// RVA: 0x5B2710 Offset: 0x5B0D10 VA: 0x1805B2710 Slot: 7
 	protected override void PostWheelUpdateTick(bool instant, bool isCloseToCamera, float steer, float dt) { }
 
-	// RVA: 0x5B3670 Offset: 0x5B1C70 VA: 0x1805B3670 Slot: 8
+	// RVA: 0x5B3600 Offset: 0x5B1C00 VA: 0x1805B3600 Slot: 8
 	protected override void StopAll() { }
 
-	// RVA: 0x5B3800 Offset: 0x5B1E00 VA: 0x1805B3800 Slot: 6
+	// RVA: 0x5B3790 Offset: 0x5B1D90 VA: 0x1805B3790 Slot: 6
 	protected override void UpdateWheelVisuals(VehicleChassisVisuals.ClientWheelData<Snowmobile> wheelData, bool isOn, float steer, float dt) { }
 
-	// RVA: 0x5B3520 Offset: 0x5B1B20 VA: 0x1805B3520
+	// RVA: 0x5B34B0 Offset: 0x5B1AB0 VA: 0x1805B34B0
 	private void SetSuspensionExtension(Transform visualWheel, Vector3 restingLocalPos, float extension, float prevExtension, float maxVisualExtension, float updateSpeed, float dt, bool reverse) { }
 
-	// RVA: 0x5B25C0 Offset: 0x5B0BC0 VA: 0x1805B25C0
+	// RVA: 0x5B2550 Offset: 0x5B0B50 VA: 0x1805B2550
 	private void InitAnim() { }
 
-	// RVA: 0x5B3EA0 Offset: 0x5B24A0 VA: 0x1805B3EA0
+	// RVA: 0x5B3E30 Offset: 0x5B2430 VA: 0x1805B3E30
 	public void .ctor() { }
 
-	// RVA: 0x5B3DE0 Offset: 0x5B23E0 VA: 0x1805B3DE0
+	// RVA: 0x5B3D70 Offset: 0x5B2370 VA: 0x1805B3D70
 	private static void .cctor() { }
 
 }

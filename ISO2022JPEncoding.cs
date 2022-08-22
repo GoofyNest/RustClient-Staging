@@ -10,37 +10,37 @@ public class ISO2022JPEncoding : MonoEncoding // TypeDefIndex: 7803
 
 	// Methods
 
-	// RVA: 0x2252B50 Offset: 0x2251150 VA: 0x182252B50
+	// RVA: 0x2253370 Offset: 0x2251970 VA: 0x182253370
 	public void .ctor(int codePage, bool allow1ByteKana, bool allowShiftIO) { }
 
-	// RVA: 0x2252B90 Offset: 0x2251190 VA: 0x182252B90 Slot: 7
+	// RVA: 0x22533B0 Offset: 0x22519B0 VA: 0x1822533B0 Slot: 7
 	public override string get_BodyName() { }
 
-	// RVA: 0x2252BC0 Offset: 0x22511C0 VA: 0x182252BC0 Slot: 9
+	// RVA: 0x22533E0 Offset: 0x22519E0 VA: 0x1822533E0 Slot: 9
 	public override string get_HeaderName() { }
 
-	// RVA: 0x2252BF0 Offset: 0x22511F0 VA: 0x182252BF0 Slot: 10
+	// RVA: 0x2253410 Offset: 0x2251A10 VA: 0x182253410 Slot: 10
 	public override string get_WebName() { }
 
-	// RVA: 0x2252B40 Offset: 0x2251140 VA: 0x182252B40 Slot: 40
+	// RVA: 0x2253360 Offset: 0x2251960 VA: 0x182253360 Slot: 40
 	public override int GetMaxByteCount(int charCount) { }
 
-	// RVA: 0x79A230 Offset: 0x798830 VA: 0x18079A230 Slot: 41
+	// RVA: 0x79A140 Offset: 0x798740 VA: 0x18079A140 Slot: 41
 	public override int GetMaxCharCount(int byteCount) { }
 
-	// RVA: 0x2252870 Offset: 0x2250E70 VA: 0x182252870 Slot: 19
+	// RVA: 0x2253090 Offset: 0x2251690 VA: 0x182253090 Slot: 19
 	public override int GetByteCount(char[] chars, int charIndex, int charCount) { }
 
-	// RVA: 0x22527C0 Offset: 0x2250DC0 VA: 0x1822527C0 Slot: 46
+	// RVA: 0x2252FE0 Offset: 0x22515E0 VA: 0x182252FE0 Slot: 46
 	public override int GetByteCountImpl(char* chars, int count) { }
 
-	// RVA: 0x2252930 Offset: 0x2250F30 VA: 0x182252930 Slot: 47
+	// RVA: 0x2253150 Offset: 0x2251750 VA: 0x182253150 Slot: 47
 	public override int GetBytesImpl(char* chars, int charCount, byte* bytes, int byteCount) { }
 
-	// RVA: 0x2252A00 Offset: 0x2251000 VA: 0x182252A00 Slot: 29
+	// RVA: 0x2253220 Offset: 0x2251820 VA: 0x182253220 Slot: 29
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x2252AA0 Offset: 0x22510A0 VA: 0x182252AA0 Slot: 33
+	// RVA: 0x22532C0 Offset: 0x22518C0 VA: 0x1822532C0 Slot: 33
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
 }

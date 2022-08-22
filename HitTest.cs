@@ -23,16 +23,16 @@ public class HitTest // TypeDefIndex: 9898
 
 	// Methods
 
-	// RVA: 0x73DE60 Offset: 0x73C460 VA: 0x18073DE60
+	// RVA: 0x73DDB0 Offset: 0x73C3B0 VA: 0x18073DDB0
 	public Vector3 HitPointWorld() { }
 
-	// RVA: 0x73DD40 Offset: 0x73C340 VA: 0x18073DD40
+	// RVA: 0x73DC90 Offset: 0x73C290 VA: 0x18073DC90
 	public Vector3 HitNormalWorld() { }
 
-	// RVA: 0x73D4B0 Offset: 0x73BAB0 VA: 0x18073D4B0
+	// RVA: 0x73D400 Offset: 0x73BA00 VA: 0x18073D400
 	public Attack BuildAttackMessage() { }
 
-	// RVA: 0x73DC60 Offset: 0x73C260 VA: 0x18073DC60
+	// RVA: 0x73DBB0 Offset: 0x73C1B0 VA: 0x18073DBB0
 	public void Clear() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

@@ -7,7 +7,7 @@ internal sealed class PropertyAnalysis // TypeDefIndex: 1530
 
 	// Methods
 
-	// RVA: 0x10E4B30 Offset: 0x10E3130 VA: 0x1810E4B30
+	// RVA: 0x10E55A0 Offset: 0x10E3BA0 VA: 0x1810E55A0
 	public void .ctor(string name, MethodInfo getterInfo, TraceLoggingTypeInfo typeInfo, EventFieldAttribute fieldAttribute) { }
 
 }

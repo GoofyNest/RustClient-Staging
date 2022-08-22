@@ -10,7 +10,7 @@ internal sealed class EmptyEnumerator : IEnumerator // TypeDefIndex: 1983
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 6
 	private void System.Collections.IEnumerator.Reset() { }
 
-	// RVA: 0x12F0650 Offset: 0x12EEC50 VA: 0x1812F0650 Slot: 5
+	// RVA: 0x12F6B00 Offset: 0x12F5100 VA: 0x1812F6B00 Slot: 5
 	private object System.Collections.IEnumerator.get_Current() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

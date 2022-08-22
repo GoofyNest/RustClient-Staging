@@ -11,16 +11,16 @@ public class EdgeER // TypeDefIndex: 6873
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	public void .ctor(PointER startPoint, PointER endPoint) { }
 
-	// RVA: 0x15C1790 Offset: 0x15BFD90 VA: 0x1815C1790 Slot: 2
+	// RVA: 0x15C0860 Offset: 0x15BEE60 VA: 0x1815C0860 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x2317C50 Offset: 0x2316250 VA: 0x182317C50 Slot: 0
+	// RVA: 0x2318470 Offset: 0x2316A70 VA: 0x182318470 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x2317CE0 Offset: 0x23162E0 VA: 0x182317CE0
+	// RVA: 0x2318500 Offset: 0x2316B00 VA: 0x182318500
 	public static bool op_Equality(EdgeER left, EdgeER right) { }
 
 }

@@ -7,10 +7,10 @@ public sealed class WaitUntil : CustomYieldInstruction // TypeDefIndex: 3542
 
 	// Methods
 
-	// RVA: 0x2186C40 Offset: 0x2185240 VA: 0x182186C40 Slot: 7
+	// RVA: 0x2187460 Offset: 0x2185A60 VA: 0x182187460 Slot: 7
 	public override bool get_keepWaiting() { }
 
-	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
+	// RVA: 0x7B9710 Offset: 0x7B7D10 VA: 0x1807B9710
 	public void .ctor(Func<bool> predicate) { }
 
 }

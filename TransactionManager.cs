@@ -8,10 +8,10 @@ public static class TransactionManager // TypeDefIndex: 3987
 
 	// Methods
 
-	// RVA: 0x230CEC0 Offset: 0x230B4C0 VA: 0x18230CEC0
+	// RVA: 0x230D6E0 Offset: 0x230BCE0 VA: 0x18230D6E0
 	private static void .cctor() { }
 
-	// RVA: 0x230CF50 Offset: 0x230B550 VA: 0x18230CF50
+	// RVA: 0x230D770 Offset: 0x230BD70 VA: 0x18230D770
 	public static TimeSpan get_DefaultTimeout() { }
 
 }

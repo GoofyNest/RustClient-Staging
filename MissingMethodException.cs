@@ -7,22 +7,22 @@ public class MissingMethodException : MissingMemberException, ISerializable // T
 
 	// Methods
 
-	// RVA: 0x1676740 Offset: 0x1674D40 VA: 0x181676740
+	// RVA: 0x1674330 Offset: 0x1672930 VA: 0x181674330
 	public void .ctor() { }
 
-	// RVA: 0x16767C0 Offset: 0x1674DC0 VA: 0x1816767C0
+	// RVA: 0x16743B0 Offset: 0x16729B0 VA: 0x1816743B0
 	public void .ctor(string message) { }
 
-	// RVA: 0x1675F90 Offset: 0x1674590 VA: 0x181675F90
+	// RVA: 0x1673B80 Offset: 0x1672180 VA: 0x181673B80
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1676810 Offset: 0x1674E10 VA: 0x181676810 Slot: 5
+	// RVA: 0x1674400 Offset: 0x1672A00 VA: 0x181674400 Slot: 5
 	public override string get_Message() { }
 
-	// RVA: 0x1676000 Offset: 0x1674600 VA: 0x181676000
+	// RVA: 0x1673BF0 Offset: 0x16721F0 VA: 0x181673BF0
 	public void .ctor(string className, string methodName) { }
 
-	// RVA: 0x16766A0 Offset: 0x1674CA0 VA: 0x1816766A0
+	// RVA: 0x1674290 Offset: 0x1672890 VA: 0x181674290
 	private void .ctor(string className, string methodName, string signature, string message) { }
 
 }

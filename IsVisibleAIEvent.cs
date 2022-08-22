@@ -1,7 +1,7 @@
 public class IsVisibleAIEvent : BaseAIEvent // TypeDefIndex: 9404
 {	// Methods
 
-	// RVA: 0xA25B90 Offset: 0xA24190 VA: 0x180A25B90
+	// RVA: 0xA26080 Offset: 0xA24680 VA: 0x180A26080
 	public void .ctor() { }
 
 }

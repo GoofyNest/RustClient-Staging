@@ -8,25 +8,25 @@ public sealed class TypeConverterAttribute : Attribute // TypeDefIndex: 2754
 
 	// Methods
 
-	// RVA: 0x1738B80 Offset: 0x1737180 VA: 0x181738B80
+	// RVA: 0x1736740 Offset: 0x1734D40 VA: 0x181736740
 	public void .ctor() { }
 
-	// RVA: 0x1738AA0 Offset: 0x17370A0 VA: 0x181738AA0
+	// RVA: 0x1736660 Offset: 0x1734C60 VA: 0x181736660
 	public void .ctor(Type type) { }
 
-	// RVA: 0x1738AF0 Offset: 0x17370F0 VA: 0x181738AF0
+	// RVA: 0x17366B0 Offset: 0x1734CB0 VA: 0x1817366B0
 	public void .ctor(string typeName) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_ConverterTypeName() { }
 
-	// RVA: 0x17389A0 Offset: 0x1736FA0 VA: 0x1817389A0 Slot: 0
+	// RVA: 0x1736560 Offset: 0x1734B60 VA: 0x181736560 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xDE2260 Offset: 0xDE0860 VA: 0x180DE2260 Slot: 2
+	// RVA: 0xDE2D10 Offset: 0xDE1310 VA: 0x180DE2D10 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1738A10 Offset: 0x1737010 VA: 0x181738A10
+	// RVA: 0x17365D0 Offset: 0x1734BD0 VA: 0x1817365D0
 	private static void .cctor() { }
 
 }

@@ -21,23 +21,23 @@ public sealed class ReaderSettings // TypeDefIndex: 7600
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public int get_NonSeekableStreamBufferSize() { }
 
-	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0
+	// RVA: 0x57C960 Offset: 0x57AF60 VA: 0x18057C960
 	public int get_NonSeekableStreamIncrementalBytesReadingThreshold() { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public int get_NonSeekableStreamIncrementalBytesReadingStep() { }
 
-	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
+	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760
 	public BufferingPolicy get_BufferingPolicy() { }
 
-	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
+	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0
 	public int get_BufferSize() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public byte[] get_Buffer() { }
 
-	// RVA: 0x13A55A0 Offset: 0x13A3BA0 VA: 0x1813A55A0
+	// RVA: 0x13A46A0 Offset: 0x13A2CA0 VA: 0x1813A46A0
 	public void .ctor() { }
 
 }

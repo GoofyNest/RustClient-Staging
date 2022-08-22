@@ -11,64 +11,64 @@ public class Planner : HeldEntity // TypeDefIndex: 8615
 
 	// Methods
 
-	// RVA: 0x91C500 Offset: 0x91AB00 VA: 0x18091C500 Slot: 35
+	// RVA: 0x91CA10 Offset: 0x91B010 VA: 0x18091CA10 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x91CA00 Offset: 0x91B000 VA: 0x18091CA00 Slot: 27
+	// RVA: 0x91CF10 Offset: 0x91B510 VA: 0x18091CF10 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0x91C250 Offset: 0x91A850 VA: 0x18091C250 Slot: 137
+	// RVA: 0x91C760 Offset: 0x91AD60 VA: 0x18091C760 Slot: 137
 	public override void OnFrame() { }
 
-	// RVA: 0x91BEC0 Offset: 0x91A4C0 VA: 0x18091BEC0 Slot: 140
+	// RVA: 0x91C3D0 Offset: 0x91A9D0 VA: 0x18091C3D0 Slot: 140
 	public override void OnDeploy() { }
 
-	// RVA: 0x91C270 Offset: 0x91A870 VA: 0x18091C270 Slot: 143
+	// RVA: 0x91C780 Offset: 0x91AD80 VA: 0x18091C780 Slot: 143
 	public override void OnHolstered() { }
 
-	// RVA: 0x91C290 Offset: 0x91A890 VA: 0x18091C290 Slot: 138
+	// RVA: 0x91C7A0 Offset: 0x91ADA0 VA: 0x18091C7A0 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x91C5F0 Offset: 0x91ABF0 VA: 0x18091C5F0
+	// RVA: 0x91CB00 Offset: 0x91B100 VA: 0x18091CB00
 	private void OpenComponentMenu() { }
 
-	// RVA: 0x91CB40 Offset: 0x91B140 VA: 0x18091CB40
+	// RVA: 0x91D050 Offset: 0x91B650 VA: 0x18091D050
 	private void SwitchConstruction(Construction c) { }
 
-	// RVA: 0x91A940 Offset: 0x918F40 VA: 0x18091A940
+	// RVA: 0x91AE50 Offset: 0x919450 VA: 0x18091AE50
 	private void DoBuild() { }
 
-	// RVA: 0x91CA80 Offset: 0x91B080 VA: 0x18091CA80
+	// RVA: 0x91CF90 Offset: 0x91B590 VA: 0x18091CF90
 	private void SetDefaultPlan() { }
 
-	// RVA: 0x91BE40 Offset: 0x91A440 VA: 0x18091BE40 Slot: 72
+	// RVA: 0x91C350 Offset: 0x91A950 VA: 0x18091C350 Slot: 72
 	public override bool NeedsCrosshair() { }
 
-	// RVA: 0x91CBD0 Offset: 0x91B1D0 VA: 0x18091CBD0
+	// RVA: 0x91D0E0 Offset: 0x91B6E0 VA: 0x18091D0E0
 	private void UpdateGuide() { }
 
-	// RVA: 0x91A830 Offset: 0x918E30 VA: 0x18091A830
+	// RVA: 0x91AD40 Offset: 0x919340 VA: 0x18091AD40
 	private void CloseGuide() { }
 
-	// RVA: 0x91B010 Offset: 0x919610 VA: 0x18091B010
+	// RVA: 0x91B520 Offset: 0x919B20 VA: 0x18091B520
 	internal void FillPlacement(ref Construction.Target target, Construction component) { }
 
-	// RVA: 0x91B7E0 Offset: 0x919DE0 VA: 0x18091B7E0
+	// RVA: 0x91BCF0 Offset: 0x91A2F0 VA: 0x18091BCF0
 	internal void FindTerrainPlacement(ref Construction.Target target, Construction component) { }
 
-	// RVA: 0x91B0F0 Offset: 0x9196F0 VA: 0x18091B0F0
+	// RVA: 0x91B600 Offset: 0x919C00 VA: 0x18091B600
 	internal bool FindAppropriateHandle(ref Construction.Target target, Construction component) { }
 
-	// RVA: 0x91BDB0 Offset: 0x91A3B0 VA: 0x18091BDB0
+	// RVA: 0x91C2C0 Offset: 0x91A8C0 VA: 0x18091C2C0
 	public ItemModDeployable GetModDeployable() { }
 
-	// RVA: 0x91BD10 Offset: 0x91A310 VA: 0x18091BD10
+	// RVA: 0x91C220 Offset: 0x91A820 VA: 0x18091C220
 	public Deployable GetDeployable() { }
 
-	// RVA: 0x91CED0 Offset: 0x91B4D0 VA: 0x18091CED0
+	// RVA: 0x91D3E0 Offset: 0x91B9E0 VA: 0x18091D3E0
 	public bool get_isTypeDeployable() { }
 
-	// RVA: 0x91CE00 Offset: 0x91B400 VA: 0x18091CE00
+	// RVA: 0x91D310 Offset: 0x91B910 VA: 0x18091D310
 	public void .ctor() { }
 
 }
@@ -86,46 +86,46 @@ public class Planner.Guide // TypeDefIndex: 8616
 
 	// Methods
 
-	// RVA: 0x905D10 Offset: 0x904310 VA: 0x180905D10
+	// RVA: 0x906220 Offset: 0x904820 VA: 0x180906220
 	public bool IsValid() { }
 
-	// RVA: 0x905F10 Offset: 0x904510 VA: 0x180905F10
+	// RVA: 0x906420 Offset: 0x904A20 VA: 0x180906420
 	private void UpdateComponent(Construction c) { }
 
-	// RVA: 0x906150 Offset: 0x904750 VA: 0x180906150
+	// RVA: 0x906660 Offset: 0x904C60 VA: 0x180906660
 	public void Update(ref Construction.Target placement, Construction currentComponent) { }
 
-	// RVA: 0x905A90 Offset: 0x904090 VA: 0x180905A90
+	// RVA: 0x905FA0 Offset: 0x9045A0 VA: 0x180905FA0
 	public void BecomeValid() { }
 
-	// RVA: 0x905A40 Offset: 0x904040 VA: 0x180905A40
+	// RVA: 0x905F50 Offset: 0x904550 VA: 0x180905F50
 	public void BecomeNeutral() { }
 
-	// RVA: 0x9059F0 Offset: 0x903FF0 VA: 0x1809059F0
+	// RVA: 0x905F00 Offset: 0x904500 VA: 0x180905F00
 	public void BecomeInvalid(bool force = False) { }
 
-	// RVA: 0x905E20 Offset: 0x904420 VA: 0x180905E20
+	// RVA: 0x906330 Offset: 0x904930 VA: 0x180906330
 	public void Shutdown() { }
 
-	// RVA: 0x905BE0 Offset: 0x9041E0 VA: 0x180905BE0
+	// RVA: 0x9060F0 Offset: 0x9046F0 VA: 0x1809060F0
 	private Material CacheMaterialInstance(Material asset, ref Material inst) { }
 
-	// RVA: 0x905D70 Offset: 0x904370 VA: 0x180905D70
+	// RVA: 0x906280 Offset: 0x904880 VA: 0x180906280
 	private void ReleaseMaterialInstance(ref Material mat) { }
 
-	// RVA: 0x905B60 Offset: 0x904160 VA: 0x180905B60
+	// RVA: 0x906070 Offset: 0x904670 VA: 0x180906070
 	private Material CacheGoodMaterial() { }
 
-	// RVA: 0x905C90 Offset: 0x904290 VA: 0x180905C90
+	// RVA: 0x9061A0 Offset: 0x9047A0 VA: 0x1809061A0
 	private Material CacheNeutralMaterial() { }
 
-	// RVA: 0x905AE0 Offset: 0x9040E0 VA: 0x180905AE0
+	// RVA: 0x905FF0 Offset: 0x9045F0 VA: 0x180905FF0
 	private Material CacheBadMaterial() { }
 
-	// RVA: 0x9060B0 Offset: 0x9046B0 VA: 0x1809060B0
+	// RVA: 0x9065C0 Offset: 0x904BC0 VA: 0x1809065C0
 	private void UpdateGuideTransparency(bool transparent) { }
 
-	// RVA: 0x906D80 Offset: 0x905380 VA: 0x180906D80
+	// RVA: 0x907290 Offset: 0x905890 VA: 0x180907290
 	public void .ctor() { }
 
 }
@@ -149,7 +149,7 @@ private sealed class Planner.<>c__DisplayClass9_0 // TypeDefIndex: 8618
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x920B50 Offset: 0x91F150 VA: 0x180920B50
+	// RVA: 0x921060 Offset: 0x91F660 VA: 0x180921060
 	internal void <OpenComponentMenu>b__0(BasePlayer ply) { }
 
 }

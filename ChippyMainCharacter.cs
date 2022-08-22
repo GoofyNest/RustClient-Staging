@@ -8,13 +8,13 @@ public class ChippyMainCharacter : SpriteArcadeEntity // TypeDefIndex: 8769
 
 	// Methods
 
-	// RVA: 0x53AF00 Offset: 0x539500 VA: 0x18053AF00 Slot: 8
+	// RVA: 0x53AE90 Offset: 0x539490 VA: 0x18053AE90 Slot: 8
 	public override void OnKilled() { }
 
-	// RVA: 0x53AB60 Offset: 0x539160 VA: 0x18053AB60 Slot: 9
+	// RVA: 0x53AAF0 Offset: 0x5390F0 VA: 0x18053AAF0 Slot: 9
 	public override void AuthorativeThink(float delta) { }
 
-	// RVA: 0x53AF60 Offset: 0x539560 VA: 0x18053AF60
+	// RVA: 0x53AEF0 Offset: 0x5394F0 VA: 0x18053AEF0
 	public void .ctor() { }
 
 }

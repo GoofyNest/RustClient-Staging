@@ -5,16 +5,16 @@ public class PathSequencePowerline : PathSequence // TypeDefIndex: 10366
 
 	// Methods
 
-	// RVA: 0x869E60 Offset: 0x868460 VA: 0x180869E60 Slot: 8
+	// RVA: 0x8855C0 Offset: 0x883BC0 VA: 0x1808855C0 Slot: 8
 	public override void ApplySequenceReplacement(List<Prefab> sequence, ref Prefab replacement, Prefab[] possibleReplacements, int pathLength, int pathIndex) { }
 
-	// RVA: 0x86A210 Offset: 0x868810 VA: 0x18086A210
+	// RVA: 0x885970 Offset: 0x883F70 VA: 0x180885970
 	private Prefab GetPrefabOfType(Prefab[] options, PathSequencePowerline.SequenceRule ruleToFind) { }
 
-	// RVA: 0x86A0A0 Offset: 0x8686A0 VA: 0x18086A0A0
+	// RVA: 0x885800 Offset: 0x883E00 VA: 0x180885800
 	private int GetIndexCountToRule(List<Prefab> sequence, PathSequencePowerline.SequenceRule rule) { }
 
-	// RVA: 0x86A380 Offset: 0x868980 VA: 0x18086A380
+	// RVA: 0x885AE0 Offset: 0x8840E0 VA: 0x180885AE0
 	public void .ctor() { }
 
 }

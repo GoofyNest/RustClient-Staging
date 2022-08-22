@@ -11,16 +11,16 @@ public class PerformanceUI : MonoBehaviour // TypeDefIndex: 6210
 
 	// Methods
 
-	// RVA: 0x14B5E50 Offset: 0x14B4450 VA: 0x1814B5E50
+	// RVA: 0x14B4F20 Offset: 0x14B3520 VA: 0x1814B4F20
 	private void Awake() { }
 
-	// RVA: 0x14B6660 Offset: 0x14B4C60 VA: 0x1814B6660
+	// RVA: 0x14B5730 Offset: 0x14B3D30 VA: 0x1814B5730
 	private void Update() { }
 
-	// RVA: 0x14B6590 Offset: 0x14B4B90 VA: 0x1814B6590
+	// RVA: 0x14B5660 Offset: 0x14B3C60 VA: 0x1814B5660
 	private void UpdateRainbow() { }
 
-	// RVA: 0x14B6510 Offset: 0x14B4B10 VA: 0x1814B6510
+	// RVA: 0x14B55E0 Offset: 0x14B3BE0 VA: 0x1814B55E0
 	public static void SpawnPrefab() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

@@ -8,7 +8,7 @@ public class HelicopterDebris : ServerGib // TypeDefIndex: 9599
 
 	// Methods
 
-	// RVA: 0x739DF0 Offset: 0x7383F0 VA: 0x180739DF0
+	// RVA: 0x739D40 Offset: 0x738340 VA: 0x180739D40
 	public void .ctor() { }
 
 }

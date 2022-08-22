@@ -11,16 +11,16 @@ public class SedanWheelSmoke : MonoBehaviour // TypeDefIndex: 8297
 
 	// Methods
 
-	// RVA: 0x4A75F0 Offset: 0x4A5BF0 VA: 0x1804A75F0
+	// RVA: 0x4A7580 Offset: 0x4A5B80 VA: 0x1804A7580
 	public void InitWheelSmoke() { }
 
-	// RVA: 0x4A7F70 Offset: 0x4A6570 VA: 0x1804A7F70
+	// RVA: 0x4A7F00 Offset: 0x4A6500 VA: 0x1804A7F00
 	public void UpdateWheelSmoke() { }
 
-	// RVA: 0x4A77A0 Offset: 0x4A5DA0 VA: 0x1804A77A0
+	// RVA: 0x4A7730 Offset: 0x4A5D30 VA: 0x1804A7730
 	private void UpdateTireEffects(float speedRatio) { }
 
-	// RVA: 0x4A71E0 Offset: 0x4A57E0 VA: 0x1804A71E0
+	// RVA: 0x4A7170 Offset: 0x4A5770 VA: 0x1804A7170
 	private bool CheckInWater(int i) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

@@ -7,38 +7,38 @@ public class WorkshopMainMenu : SingletonComponent<WorkshopMainMenu> // TypeDefI
 
 	// Methods
 
-	// RVA: 0x8FE760 Offset: 0x8FCD60 VA: 0x1808FE760
+	// RVA: 0x8FEC70 Offset: 0x8FD270 VA: 0x1808FEC70
 	public void CreateNewItem() { }
 
-	// RVA: 0x8FE840 Offset: 0x8FCE40 VA: 0x1808FE840
+	// RVA: 0x8FED50 Offset: 0x8FD350 VA: 0x1808FED50
 	private void OnEnable() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x9CE30 Offset: 0x9C230 VA: 0x18009CE30
-	// RVA: 0x8FE6F0 Offset: 0x8FCCF0 VA: 0x1808FE6F0
+	// RVA: 0x8FEC00 Offset: 0x8FD200 VA: 0x1808FEC00
 	private IEnumerator CreateNewItemAsync() { }
 
-	// RVA: 0x8FE920 Offset: 0x8FCF20 VA: 0x1808FE920
+	// RVA: 0x8FEE30 Offset: 0x8FD430 VA: 0x1808FEE30
 	public void StartEditingItem(IWorkshopContent id) { }
 
-	// RVA: 0x8FEA40 Offset: 0x8FD040 VA: 0x1808FEA40
+	// RVA: 0x8FEF50 Offset: 0x8FD550 VA: 0x1808FEF50
 	public void StartViewingItem(IWorkshopContent id) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x9D040 Offset: 0x9C440 VA: 0x18009D040
-	// RVA: 0x8FE7D0 Offset: 0x8FCDD0 VA: 0x1808FE7D0
+	// RVA: 0x8FECE0 Offset: 0x8FD2E0 VA: 0x1808FECE0
 	private IEnumerator LoadEditor() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x9D220 Offset: 0x9C620 VA: 0x18009D220
-	// RVA: 0x8FE890 Offset: 0x8FCE90 VA: 0x1808FE890
+	// RVA: 0x8FEDA0 Offset: 0x8FD3A0 VA: 0x1808FEDA0
 	private IEnumerator StartEditingItemAsync(IWorkshopContent id) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x9D3B0 Offset: 0x9C7B0 VA: 0x18009D3B0
-	// RVA: 0x8FE9B0 Offset: 0x8FCFB0 VA: 0x1808FE9B0
+	// RVA: 0x8FEEC0 Offset: 0x8FD4C0 VA: 0x1808FEEC0
 	private IEnumerator StartViewingItemAsync(IWorkshopContent id) { }
 
-	// RVA: 0x8FEC10 Offset: 0x8FD210 VA: 0x1808FEC10
+	// RVA: 0x8FF120 Offset: 0x8FD720 VA: 0x1808FF120
 	public void .ctor() { }
 
-	// RVA: 0x8FEAD0 Offset: 0x8FD0D0 VA: 0x1808FEAD0
+	// RVA: 0x8FEFE0 Offset: 0x8FD5E0 VA: 0x1808FEFE0
 	private static void .cctor() { }
 
 }
@@ -63,7 +63,7 @@ private sealed class WorkshopMainMenu.<CreateNewItemAsync>d__6 : IEnumerator<obj
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x8E9630 Offset: 0x8E7C30 VA: 0x1808E9630 Slot: 6
+	// RVA: 0x8E9B40 Offset: 0x8E8140 VA: 0x1808E9B40 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -71,7 +71,7 @@ private sealed class WorkshopMainMenu.<CreateNewItemAsync>d__6 : IEnumerator<obj
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8E9780 Offset: 0x8E7D80 VA: 0x1808E9780 Slot: 8
+	// RVA: 0x8E9C90 Offset: 0x8E8290 VA: 0x1808E9C90 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -87,13 +87,13 @@ private sealed class WorkshopMainMenu.<>c // TypeDefIndex: 11180
 
 	// Methods
 
-	// RVA: 0x8EE3B0 Offset: 0x8EC9B0 VA: 0x1808EE3B0
+	// RVA: 0x8EE8C0 Offset: 0x8ECEC0 VA: 0x1808EE8C0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8EE0D0 Offset: 0x8EC6D0 VA: 0x1808EE0D0
+	// RVA: 0x8EE5E0 Offset: 0x8ECBE0 VA: 0x1808EE5E0
 	internal void <LoadEditor>b__9_0(bool o, string str) { }
 
 }
@@ -118,7 +118,7 @@ private sealed class WorkshopMainMenu.<LoadEditor>d__9 : IEnumerator<object>, IE
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x8EC880 Offset: 0x8EAE80 VA: 0x1808EC880 Slot: 6
+	// RVA: 0x8ECD90 Offset: 0x8EB390 VA: 0x1808ECD90 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -126,7 +126,7 @@ private sealed class WorkshopMainMenu.<LoadEditor>d__9 : IEnumerator<object>, IE
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8ECD10 Offset: 0x8EB310 VA: 0x1808ECD10 Slot: 8
+	// RVA: 0x8ED220 Offset: 0x8EB820 VA: 0x1808ED220 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -156,7 +156,7 @@ private sealed class WorkshopMainMenu.<StartEditingItemAsync>d__10 : IEnumerator
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x8ED860 Offset: 0x8EBE60 VA: 0x1808ED860 Slot: 6
+	// RVA: 0x8EDD70 Offset: 0x8EC370 VA: 0x1808EDD70 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -164,7 +164,7 @@ private sealed class WorkshopMainMenu.<StartEditingItemAsync>d__10 : IEnumerator
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8EDA40 Offset: 0x8EC040 VA: 0x1808EDA40 Slot: 8
+	// RVA: 0x8EDF50 Offset: 0x8EC550 VA: 0x1808EDF50 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -194,7 +194,7 @@ private sealed class WorkshopMainMenu.<StartViewingItemAsync>d__11 : IEnumerator
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x8EDA90 Offset: 0x8EC090 VA: 0x1808EDA90 Slot: 6
+	// RVA: 0x8EDFA0 Offset: 0x8EC5A0 VA: 0x1808EDFA0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -202,7 +202,7 @@ private sealed class WorkshopMainMenu.<StartViewingItemAsync>d__11 : IEnumerator
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8EDC70 Offset: 0x8EC270 VA: 0x1808EDC70 Slot: 8
+	// RVA: 0x8EE180 Offset: 0x8EC780 VA: 0x1808EE180 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

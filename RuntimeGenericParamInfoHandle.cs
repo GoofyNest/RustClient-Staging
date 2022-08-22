@@ -8,19 +8,19 @@ internal struct RuntimeGenericParamInfoHandle // TypeDefIndex: 7
 
 	// Methods
 
-	// RVA: 0x1F6820 Offset: 0x1F5C20 VA: 0x1801F6820
+	// RVA: 0x1F5670 Offset: 0x1F4A70 VA: 0x1801F5670
 	internal void .ctor(IntPtr ptr) { }
 
-	// RVA: 0x1F6A00 Offset: 0x1F5E00 VA: 0x1801F6A00
+	// RVA: 0x1F5850 Offset: 0x1F4C50 VA: 0x1801F5850
 	internal Type[] get_Constraints() { }
 
-	// RVA: 0x1F69E0 Offset: 0x1F5DE0 VA: 0x1801F69E0
+	// RVA: 0x1F5830 Offset: 0x1F4C30 VA: 0x1801F5830
 	internal GenericParameterAttributes get_Attributes() { }
 
-	// RVA: 0x1F69D0 Offset: 0x1F5DD0 VA: 0x1801F69D0
+	// RVA: 0x1F5820 Offset: 0x1F4C20 VA: 0x1801F5820
 	private Type[] GetConstraints() { }
 
-	// RVA: 0x1F6990 Offset: 0x1F5D90 VA: 0x1801F6990
+	// RVA: 0x1F57E0 Offset: 0x1F4BE0 VA: 0x1801F57E0
 	private int GetConstraintsCount() { }
 
 }

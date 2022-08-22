@@ -28,7 +28,7 @@ public class ERVegetationStudio : ScriptableObject // TypeDefIndex: 11486
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void RemoveBiomeArea(GameObject go) { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }

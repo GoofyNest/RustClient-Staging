@@ -9,19 +9,19 @@ public class PowerBar : MonoBehaviour // TypeDefIndex: 11206
 
 	// Methods
 
-	// RVA: 0x99C560 Offset: 0x99AB60 VA: 0x18099C560
+	// RVA: 0x99CA50 Offset: 0x99B050 VA: 0x18099CA50
 	public void Awake() { }
 
-	// RVA: 0x99C5E0 Offset: 0x99ABE0 VA: 0x18099C5E0
+	// RVA: 0x99CAD0 Offset: 0x99B0D0 VA: 0x18099CAD0
 	public void OnDestroy() { }
 
-	// RVA: 0x99C620 Offset: 0x99AC20 VA: 0x18099C620
+	// RVA: 0x99CB10 Offset: 0x99B110 VA: 0x18099CB10
 	public void SetProgress(float newprogress) { }
 
-	// RVA: 0x82BDD0 Offset: 0x82A3D0 VA: 0x18082BDD0
+	// RVA: 0x82C320 Offset: 0x82A920 VA: 0x18082C320
 	public void SetVisible(bool wantsVis) { }
 
-	// RVA: 0x99C690 Offset: 0x99AC90 VA: 0x18099C690
+	// RVA: 0x99CB80 Offset: 0x99B180 VA: 0x18099CB80
 	public void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

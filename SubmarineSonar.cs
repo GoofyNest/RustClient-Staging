@@ -31,33 +31,33 @@ public class SubmarineSonar : FacepunchBehaviour // TypeDefIndex: 11679
 
 	// Methods
 
-	// RVA: 0x5C3640 Offset: 0x5C1C40 VA: 0x1805C3640
+	// RVA: 0x5C35D0 Offset: 0x5C1BD0 VA: 0x1805C35D0
 	protected void Awake() { }
 
-	// RVA: 0x5C4200 Offset: 0x5C2800 VA: 0x1805C4200
+	// RVA: 0x5C4190 Offset: 0x5C2790 VA: 0x1805C4190
 	public void UpdateTick() { }
 
-	// RVA: 0x5C36F0 Offset: 0x5C1CF0 VA: 0x1805C36F0
+	// RVA: 0x5C3680 Offset: 0x5C1C80 VA: 0x1805C3680
 	private float GetAngleChangeSinceRefresh() { }
 
-	// RVA: 0x5C39F0 Offset: 0x5C1FF0 VA: 0x1805C39F0
+	// RVA: 0x5C3980 Offset: 0x5C1F80 VA: 0x1805C3980
 	private void Refresh(List<SubmarineSonar.SonarBlip> extras) { }
 
-	// RVA: 0x5C37F0 Offset: 0x5C1DF0 VA: 0x1805C37F0
+	// RVA: 0x5C3780 Offset: 0x5C1D80 VA: 0x1805C3780
 	private Color GetBlipColour(SonarObject.SType type, float distance) { }
 
-	// RVA: 0x5C3920 Offset: 0x5C1F20 VA: 0x1805C3920
+	// RVA: 0x5C38B0 Offset: 0x5C1EB0 VA: 0x1805C38B0
 	private static float GetBlipScale(SonarObject.SType type, float distance) { }
 
-	// RVA: 0x5C4580 Offset: 0x5C2B80 VA: 0x1805C4580
+	// RVA: 0x5C4510 Offset: 0x5C2B10 VA: 0x1805C4510
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5C3ED0 Offset: 0x5C24D0 VA: 0x1805C3ED0
+	// RVA: 0x5C3E60 Offset: 0x5C2460 VA: 0x1805C3E60
 	private float <UpdateTick>g__GetCurrentBlipAngle|20_0(SubmarineSonar.SonarBlip nextBlip) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5C4000 Offset: 0x5C2600 VA: 0x1805C4000
+	// RVA: 0x5C3F90 Offset: 0x5C2590 VA: 0x1805C3F90
 	private void <UpdateTick>g__ShowBlip|20_1(SubmarineSonar.SonarBlip nextBlip, float nextAngle) { }
 
 }

@@ -7,10 +7,10 @@ public class DecorAlign : DecorComponent // TypeDefIndex: 10323
 
 	// Methods
 
-	// RVA: 0x840B70 Offset: 0x83F170 VA: 0x180840B70 Slot: 8
+	// RVA: 0x8410C0 Offset: 0x83F6C0 VA: 0x1808410C0 Slot: 8
 	public override void Apply(ref Vector3 pos, ref Quaternion rot, ref Vector3 scale) { }
 
-	// RVA: 0x841460 Offset: 0x83FA60 VA: 0x180841460
+	// RVA: 0x8419B0 Offset: 0x83FFB0 VA: 0x1808419B0
 	public void .ctor() { }
 
 }

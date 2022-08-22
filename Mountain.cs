@@ -4,28 +4,28 @@ public class Mountain : TerrainPlacement // TypeDefIndex: 10590
 
 	// Methods
 
-	// RVA: 0x7BB660 Offset: 0x7B9C60 VA: 0x1807BB660
+	// RVA: 0x7D9A50 Offset: 0x7D8050 VA: 0x1807D9A50
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x7BA640 Offset: 0x7B8C40 VA: 0x1807BA640 Slot: 8
+	// RVA: 0x7D8A30 Offset: 0x7D7030 VA: 0x1807D8A30 Slot: 8
 	protected override void ApplyHeight(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
-	// RVA: 0x7BAB30 Offset: 0x7B9130 VA: 0x1807BAB30 Slot: 9
+	// RVA: 0x7D8F20 Offset: 0x7D7520 VA: 0x1807D8F20 Slot: 9
 	protected override void ApplySplat(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 10
 	protected override void ApplyAlpha(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
-	// RVA: 0x7BA080 Offset: 0x7B8680 VA: 0x1807BA080 Slot: 11
+	// RVA: 0x7D8470 Offset: 0x7D6A70 VA: 0x1807D8470 Slot: 11
 	protected override void ApplyBiome(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
-	// RVA: 0x7BB1B0 Offset: 0x7B97B0 VA: 0x1807BB1B0 Slot: 12
+	// RVA: 0x7D95A0 Offset: 0x7D7BA0 VA: 0x1807D95A0 Slot: 12
 	protected override void ApplyTopology(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 13
 	protected override void ApplyWater(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
-	// RVA: 0x7BB8F0 Offset: 0x7B9EF0 VA: 0x1807BB8F0
+	// RVA: 0x7D9CE0 Offset: 0x7D82E0 VA: 0x1807D9CE0
 	public void .ctor() { }
 
 }
@@ -42,7 +42,7 @@ private sealed class Mountain.<>c__DisplayClass2_0 // TypeDefIndex: 10591
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7CF1D0 Offset: 0x7CD7D0 VA: 0x1807CF1D0
+	// RVA: 0x7ED5C0 Offset: 0x7EBBC0 VA: 0x1807ED5C0
 	internal void <ApplyHeight>b__0(int x, int z) { }
 
 }
@@ -69,7 +69,7 @@ private sealed class Mountain.<>c__DisplayClass3_0 // TypeDefIndex: 10592
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7CF5A0 Offset: 0x7CDBA0 VA: 0x1807CF5A0
+	// RVA: 0x7ED990 Offset: 0x7EBF90 VA: 0x1807ED990
 	internal void <ApplySplat>b__0(int x, int z) { }
 
 }
@@ -91,7 +91,7 @@ private sealed class Mountain.<>c__DisplayClass5_0 // TypeDefIndex: 10593
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7CFB10 Offset: 0x7CE110 VA: 0x1807CFB10
+	// RVA: 0x7EDF00 Offset: 0x7EC500 VA: 0x1807EDF00
 	internal void <ApplyBiome>b__0(int x, int z) { }
 
 }
@@ -107,7 +107,7 @@ private sealed class Mountain.<>c__DisplayClass6_0 // TypeDefIndex: 10594
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7CFF40 Offset: 0x7CE540 VA: 0x1807CFF40
+	// RVA: 0x7EE330 Offset: 0x7EC930 VA: 0x1807EE330
 	internal void <ApplyTopology>b__0(int x, int z) { }
 
 }

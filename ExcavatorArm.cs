@@ -33,77 +33,77 @@ public class ExcavatorArm : BaseEntity // TypeDefIndex: 8390
 
 	// Methods
 
-	// RVA: 0x8CC350 Offset: 0x8CA950 VA: 0x1808CC350 Slot: 49
+	// RVA: 0x8CC860 Offset: 0x8CAE60 VA: 0x1808CC860 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x8CDC10 Offset: 0x8CC210 VA: 0x1808CDC10 Slot: 50
+	// RVA: 0x8CE120 Offset: 0x8CC720 VA: 0x1808CE120 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x8CD4C0 Offset: 0x8CBAC0 VA: 0x1808CD4C0 Slot: 35
+	// RVA: 0x8CD9D0 Offset: 0x8CBFD0 VA: 0x1808CD9D0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x557C60 Offset: 0x556260 VA: 0x180557C60
+	// RVA: 0x557BF0 Offset: 0x5561F0 VA: 0x180557BF0
 	public bool IsPowered() { }
 
-	// RVA: 0x5B0430 Offset: 0x5AEA30 VA: 0x1805B0430
+	// RVA: 0x5B03C0 Offset: 0x5AE9C0 VA: 0x1805B03C0
 	public bool IsMining() { }
 
-	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 52
+	// RVA: 0x568670 Offset: 0x566C70 VA: 0x180568670 Slot: 52
 	public override float GetExtrapolationTime() { }
 
-	// RVA: 0x8CD660 Offset: 0x8CBC60 VA: 0x1808CD660 Slot: 16
+	// RVA: 0x8CDB70 Offset: 0x8CC170 VA: 0x1808CDB70 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x8CD750 Offset: 0x8CBD50 VA: 0x1808CD750
+	// RVA: 0x8CDC60 Offset: 0x8CC260 VA: 0x1808CDC60
 	public void SetLightStatus(bool wantsOn) { }
 
-	// RVA: 0x8CD790 Offset: 0x8CBD90 VA: 0x1808CD790
+	// RVA: 0x8CDCA0 Offset: 0x8CC2A0 VA: 0x1808CDCA0
 	public void Update() { }
 
 	[BaseEntity.Menu] // RVA: 0xDEF90 Offset: 0xDE390 VA: 0x1800DEF90
 	[BaseEntity.Menu.Description] // RVA: 0xDEF90 Offset: 0xDE390 VA: 0x1800DEF90
 	[BaseEntity.Menu.Icon] // RVA: 0xDEF90 Offset: 0xDE390 VA: 0x1800DEF90
 	[BaseEntity.Menu.ShowIf] // RVA: 0xDEF90 Offset: 0xDE390 VA: 0x1800DEF90
-	// RVA: 0x8CCDC0 Offset: 0x8CB3C0 VA: 0x1808CCDC0
+	// RVA: 0x8CD2D0 Offset: 0x8CB8D0 VA: 0x1808CD2D0
 	public void Menu_TargetHQM(BasePlayer player) { }
 
-	// RVA: 0x8CCD00 Offset: 0x8CB300 VA: 0x1808CCD00
+	// RVA: 0x8CD210 Offset: 0x8CB810 VA: 0x1808CD210
 	public bool Menu_TargetHQM_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xDF1B0 Offset: 0xDE5B0 VA: 0x1800DF1B0
 	[BaseEntity.Menu.Description] // RVA: 0xDF1B0 Offset: 0xDE5B0 VA: 0x1800DF1B0
 	[BaseEntity.Menu.Icon] // RVA: 0xDF1B0 Offset: 0xDE5B0 VA: 0x1800DF1B0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xDF1B0 Offset: 0xDE5B0 VA: 0x1800DF1B0
-	// RVA: 0x8CD390 Offset: 0x8CB990 VA: 0x1808CD390
+	// RVA: 0x8CD8A0 Offset: 0x8CBEA0 VA: 0x1808CD8A0
 	public void Menu_TargetSulfur(BasePlayer player) { }
 
-	// RVA: 0x8CD2D0 Offset: 0x8CB8D0 VA: 0x1808CD2D0
+	// RVA: 0x8CD7E0 Offset: 0x8CBDE0 VA: 0x1808CD7E0
 	public bool Menu_TargetSulfur_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
 	[BaseEntity.Menu.Description] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
 	[BaseEntity.Menu.Icon] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
-	// RVA: 0x8CD1A0 Offset: 0x8CB7A0 VA: 0x1808CD1A0
+	// RVA: 0x8CD6B0 Offset: 0x8CBCB0 VA: 0x1808CD6B0
 	public void Menu_TargetStone(BasePlayer player) { }
 
-	// RVA: 0x8CD0E0 Offset: 0x8CB6E0 VA: 0x1808CD0E0
+	// RVA: 0x8CD5F0 Offset: 0x8CBBF0 VA: 0x1808CD5F0
 	public bool Menu_TargetStone_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
 	[BaseEntity.Menu.Description] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
 	[BaseEntity.Menu.Icon] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
-	// RVA: 0x8CCFB0 Offset: 0x8CB5B0 VA: 0x1808CCFB0
+	// RVA: 0x8CD4C0 Offset: 0x8CBAC0 VA: 0x1808CD4C0
 	public void Menu_TargetMetal(BasePlayer player) { }
 
-	// RVA: 0x8CCEF0 Offset: 0x8CB4F0 VA: 0x1808CCEF0
+	// RVA: 0x8CD400 Offset: 0x8CBA00 VA: 0x1808CD400
 	public bool Menu_TargetMetal_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x8CD5B0 Offset: 0x8CBBB0 VA: 0x1808CD5B0
+	// RVA: 0x8CDAC0 Offset: 0x8CC0C0 VA: 0x1808CDAC0
 	private void PlayMiningStartButtonSound(Vector3 position) { }
 
-	// RVA: 0x8CDB80 Offset: 0x8CC180 VA: 0x1808CDB80
+	// RVA: 0x8CE090 Offset: 0x8CC690 VA: 0x1808CE090
 	public void .ctor() { }
 
 }

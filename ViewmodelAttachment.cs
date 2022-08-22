@@ -7,28 +7,28 @@ public class ViewmodelAttachment : EntityComponent<BaseEntity>, IClientComponent
 
 	// Methods
 
-	// RVA: 0x7F6B40 Offset: 0x7F5140 VA: 0x1807F6B40
+	// RVA: 0x7F70D0 Offset: 0x7F56D0 VA: 0x1807F70D0
 	public void OnEnable() { }
 
-	// RVA: 0x7F6940 Offset: 0x7F4F40 VA: 0x1807F6940
+	// RVA: 0x7F6ED0 Offset: 0x7F54D0 VA: 0x1807F6ED0
 	public void OnDisable() { }
 
-	// RVA: 0x7F6BF0 Offset: 0x7F51F0 VA: 0x1807F6BF0 Slot: 10
+	// RVA: 0x7F7180 Offset: 0x7F5780 VA: 0x1807F7180 Slot: 10
 	public void OnViewModeChanged() { }
 
-	// RVA: 0x7F6BF0 Offset: 0x7F51F0 VA: 0x1807F6BF0 Slot: 11
+	// RVA: 0x7F7180 Offset: 0x7F5780 VA: 0x1807F7180 Slot: 11
 	public void OnViewModelUpdated() { }
 
-	// RVA: 0x7F62E0 Offset: 0x7F48E0 VA: 0x1807F62E0
+	// RVA: 0x7F6870 Offset: 0x7F4E70 VA: 0x1807F6870
 	public void CreateAttachment() { }
 
-	// RVA: 0x7F6C00 Offset: 0x7F5200 VA: 0x1807F6C00 Slot: 12
+	// RVA: 0x7F7190 Offset: 0x7F5790 VA: 0x1807F7190 Slot: 12
 	public virtual void RootEntFlagsChanged(BaseEntity flagCarrier) { }
 
-	// RVA: 0x7F67E0 Offset: 0x7F4DE0 VA: 0x1807F67E0
+	// RVA: 0x7F6D70 Offset: 0x7F5370 VA: 0x1807F6D70
 	private bool IsThisOurViewmodel(BaseViewModel viewmodel) { }
 
-	// RVA: 0x7F6CE0 Offset: 0x7F52E0 VA: 0x1807F6CE0
+	// RVA: 0x7F7270 Offset: 0x7F5870 VA: 0x1807F7270
 	public void .ctor() { }
 
 }

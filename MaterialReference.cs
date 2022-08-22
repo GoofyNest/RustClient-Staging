@@ -14,13 +14,13 @@ public struct MaterialReference // TypeDefIndex: 6742
 	// RVA: 0x117550 Offset: 0x116950 VA: 0x180117550
 	public void .ctor(int index, TMP_FontAsset fontAsset, Material material, float padding) { }
 
-	// RVA: 0xC670A0 Offset: 0xC656A0 VA: 0x180C670A0
+	// RVA: 0xC67570 Offset: 0xC65B70 VA: 0x180C67570
 	public static bool Contains(MaterialReference[] materialReferences, TMP_FontAsset fontAsset) { }
 
-	// RVA: 0xC66E90 Offset: 0xC65490 VA: 0x180C66E90
+	// RVA: 0xC67360 Offset: 0xC65960 VA: 0x180C67360
 	public static int AddMaterialReference(Material material, TMP_FontAsset fontAsset, MaterialReference[] materialReferences, Dictionary<int, int> materialReferenceIndexLookup) { }
 
-	// RVA: 0xC66CB0 Offset: 0xC652B0 VA: 0x180C66CB0
+	// RVA: 0xC67180 Offset: 0xC65780 VA: 0x180C67180
 	public static int AddMaterialReference(Material material, MaterialReference[] materialReferences, Dictionary<int, int> materialReferenceIndexLookup) { }
 
 }

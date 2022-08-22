@@ -14,22 +14,22 @@ public abstract class SafeHandle : CriticalFinalizerObject, IDisposable // TypeD
 	// Methods
 
 	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
-	// RVA: 0xFF5D00 Offset: 0xFF4300 VA: 0x180FF5D00
+	// RVA: 0xFF67A0 Offset: 0xFF4DA0 VA: 0x180FF67A0
 	protected void .ctor(IntPtr invalidHandleValue, bool ownsHandle) { }
 
-	// RVA: 0xFE4EF0 Offset: 0xFE34F0 VA: 0x180FE4EF0 Slot: 1
+	// RVA: 0xFE5990 Offset: 0xFE3F90 VA: 0x180FE5990 Slot: 1
 	protected override void Finalize() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x8C1190 Offset: 0x8BF790 VA: 0x1808C1190
+	// RVA: 0x8C16A0 Offset: 0x8BFCA0 VA: 0x1808C16A0
 	protected void SetHandle(IntPtr handle) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public IntPtr DangerousGetHandle() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x87A690 Offset: 0x878C90 VA: 0x18087A690
+	// RVA: 0x85D9D0 Offset: 0x85BFD0 VA: 0x18085D9D0
 	public bool get_IsClosed() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
@@ -37,15 +37,15 @@ public abstract class SafeHandle : CriticalFinalizerObject, IDisposable // TypeD
 	public abstract bool get_IsInvalid();
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0xFE4ED0 Offset: 0xFE34D0 VA: 0x180FE4ED0
+	// RVA: 0xFE5970 Offset: 0xFE3F70 VA: 0x180FE5970
 	public void Close() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0xFE4ED0 Offset: 0xFE34D0 VA: 0x180FE4ED0 Slot: 4
+	// RVA: 0xFE5970 Offset: 0xFE3F70 VA: 0x180FE5970 Slot: 4
 	public void Dispose() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0xFF5AD0 Offset: 0xFF40D0 VA: 0x180FF5AD0 Slot: 6
+	// RVA: 0xFF6570 Offset: 0xFF4B70 VA: 0x180FF6570 Slot: 6
 	protected virtual void Dispose(bool disposing) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
@@ -53,24 +53,24 @@ public abstract class SafeHandle : CriticalFinalizerObject, IDisposable // TypeD
 	protected abstract bool ReleaseHandle();
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0xFF5C30 Offset: 0xFF4230 VA: 0x180FF5C30
+	// RVA: 0xFF66D0 Offset: 0xFF4CD0 VA: 0x180FF66D0
 	public void SetHandleAsInvalid() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
-	// RVA: 0xFF57F0 Offset: 0xFF3DF0 VA: 0x180FF57F0
+	// RVA: 0xFF6290 Offset: 0xFF4890 VA: 0x180FF6290
 	public void DangerousAddRef(ref bool success) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0xFF5AC0 Offset: 0xFF40C0 VA: 0x180FF5AC0
+	// RVA: 0xFF6560 Offset: 0xFF4B60 VA: 0x180FF6560
 	public void DangerousRelease() { }
 
-	// RVA: 0xFF5B80 Offset: 0xFF4180 VA: 0x180FF5B80
+	// RVA: 0xFF6620 Offset: 0xFF4C20 VA: 0x180FF6620
 	private void InternalDispose() { }
 
-	// RVA: 0xFF5C10 Offset: 0xFF4210 VA: 0x180FF5C10
+	// RVA: 0xFF66B0 Offset: 0xFF4CB0 VA: 0x180FF66B0
 	private void InternalFinalize() { }
 
-	// RVA: 0xFF5910 Offset: 0xFF3F10 VA: 0x180FF5910
+	// RVA: 0xFF63B0 Offset: 0xFF49B0 VA: 0x180FF63B0
 	private void DangerousReleaseInternal(bool dispose) { }
 
 }

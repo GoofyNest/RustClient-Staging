@@ -1,13 +1,13 @@
 public static class MeshCache // TypeDefIndex: 9153
 {	// Fields
-	public static Dictionary<Mesh, MeshCache.Data> dictionary; // 0x1CBC
+	public static Dictionary<Mesh, MeshCache.Data> dictionary; // 0x1BB0
 
 	// Methods
 
-	// RVA: 0x95FB20 Offset: 0x95E120 VA: 0x18095FB20
+	// RVA: 0x960020 Offset: 0x95E620 VA: 0x180960020
 	public static MeshCache.Data Get(Mesh mesh) { }
 
-	// RVA: 0x95FDB0 Offset: 0x95E3B0 VA: 0x18095FDB0
+	// RVA: 0x9602B0 Offset: 0x95E8B0 VA: 0x1809602B0
 	private static void .cctor() { }
 
 }

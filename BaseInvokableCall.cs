@@ -4,7 +4,7 @@ internal abstract class BaseInvokableCall // TypeDefIndex: 3627
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	protected void .ctor() { }
 
-	// RVA: 0x181F990 Offset: 0x181DF90 VA: 0x18181F990
+	// RVA: 0x180CDD0 Offset: 0x180B3D0 VA: 0x18180CDD0
 	protected void .ctor(object target, MethodInfo function) { }
 
 	// RVA: -1 Offset: -1 Slot: 4
@@ -14,35 +14,35 @@ internal abstract class BaseInvokableCall // TypeDefIndex: 3627
 	protected static void ThrowOnInvalidArg<T>(object arg) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CAA30 Offset: 0x5C9030 VA: 0x1805CAA30
+	|-RVA: 0x5CA9C0 Offset: 0x5C8FC0 VA: 0x1805CA9C0
 	|-BaseInvokableCall.ThrowOnInvalidArg<Option>
 	|
-	|-RVA: 0x5CA4B0 Offset: 0x5C8AB0 VA: 0x1805CA4B0
+	|-RVA: 0x5CA440 Offset: 0x5C8A40 VA: 0x1805CA440
 	|-BaseInvokableCall.ThrowOnInvalidArg<bool>
 	|
-	|-RVA: 0x5CA8D0 Offset: 0x5C8ED0 VA: 0x1805CA8D0
+	|-RVA: 0x5CA860 Offset: 0x5C8E60 VA: 0x1805CA860
 	|-BaseInvokableCall.ThrowOnInvalidArg<int>
 	|
-	|-RVA: 0x5CA770 Offset: 0x5C8D70 VA: 0x1805CA770
+	|-RVA: 0x5CA700 Offset: 0x5C8D00 VA: 0x1805CA700
 	|-BaseInvokableCall.ThrowOnInvalidArg<Int32Enum>
 	|
-	|-RVA: 0x5CAB90 Offset: 0x5C9190 VA: 0x1805CAB90
+	|-RVA: 0x5CAB20 Offset: 0x5C9120 VA: 0x1805CAB20
 	|-BaseInvokableCall.ThrowOnInvalidArg<object>
 	|
-	|-RVA: 0x5CACF0 Offset: 0x5C92F0 VA: 0x1805CACF0
+	|-RVA: 0x5CAC80 Offset: 0x5C9280 VA: 0x1805CAC80
 	|-BaseInvokableCall.ThrowOnInvalidArg<float>
 	|
-	|-RVA: 0x5CAE50 Offset: 0x5C9450 VA: 0x1805CAE50
+	|-RVA: 0x5CADE0 Offset: 0x5C93E0 VA: 0x1805CADE0
 	|-BaseInvokableCall.ThrowOnInvalidArg<ulong>
 	|
-	|-RVA: 0x5CA610 Offset: 0x5C8C10 VA: 0x1805CA610
+	|-RVA: 0x5CA5A0 Offset: 0x5C8BA0 VA: 0x1805CA5A0
 	|-BaseInvokableCall.ThrowOnInvalidArg<Color>
 	|
-	|-RVA: 0x5CAFB0 Offset: 0x5C95B0 VA: 0x1805CAFB0
+	|-RVA: 0x5CAF40 Offset: 0x5C9540 VA: 0x1805CAF40
 	|-BaseInvokableCall.ThrowOnInvalidArg<Vector2>
 	*/
 
-	// RVA: 0x181F8E0 Offset: 0x181DEE0 VA: 0x18181F8E0
+	// RVA: 0x180CD20 Offset: 0x180B320 VA: 0x18180CD20
 	protected static bool AllowInvoke(Delegate delegate) { }
 
 	// RVA: -1 Offset: -1 Slot: 5

@@ -6,19 +6,19 @@ public class AuthenticationManager // TypeDefIndex: 2987
 
 	// Methods
 
-	// RVA: 0x151EE70 Offset: 0x151D470 VA: 0x18151EE70
+	// RVA: 0x151DF40 Offset: 0x151C540 VA: 0x18151DF40
 	private static void EnsureModules() { }
 
-	// RVA: 0x151EA20 Offset: 0x151D020 VA: 0x18151EA20
+	// RVA: 0x151DAF0 Offset: 0x151C0F0 VA: 0x18151DAF0
 	public static Authorization Authenticate(string challenge, WebRequest request, ICredentials credentials) { }
 
-	// RVA: 0x151EB40 Offset: 0x151D140 VA: 0x18151EB40
+	// RVA: 0x151DC10 Offset: 0x151C210 VA: 0x18151DC10
 	private static Authorization DoAuthenticate(string challenge, WebRequest request, ICredentials credentials) { }
 
-	// RVA: 0x151F0E0 Offset: 0x151D6E0 VA: 0x18151F0E0
+	// RVA: 0x151E1B0 Offset: 0x151C7B0 VA: 0x18151E1B0
 	public static Authorization PreAuthenticate(WebRequest request, ICredentials credentials) { }
 
-	// RVA: 0x151F470 Offset: 0x151DA70 VA: 0x18151F470
+	// RVA: 0x151E540 Offset: 0x151CB40 VA: 0x18151E540
 	private static void .cctor() { }
 
 }

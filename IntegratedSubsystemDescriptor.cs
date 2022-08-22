@@ -7,7 +7,7 @@ public abstract class IntegratedSubsystemDescriptor : ISubsystemDescriptorImpl, 
 
 	// Methods
 
-	// RVA: 0x8C1190 Offset: 0x8BF790 VA: 0x1808C1190 Slot: 4
+	// RVA: 0x8C16A0 Offset: 0x8BFCA0 VA: 0x1808C16A0 Slot: 4
 	private void UnityEngine.ISubsystemDescriptorImpl.set_ptr(IntPtr value) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

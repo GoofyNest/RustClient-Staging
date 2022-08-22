@@ -11,7 +11,7 @@ public class TerrainAnchorGenerator : MonoBehaviour, IEditorComponent // TypeDef
 
 	// Methods
 
-	// RVA: 0x1137F40 Offset: 0x1136540 VA: 0x181137F40
+	// RVA: 0x11389B0 Offset: 0x1136FB0 VA: 0x1811389B0
 	public void .ctor() { }
 
 }

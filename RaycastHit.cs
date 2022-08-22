@@ -29,16 +29,16 @@ public struct RaycastHit // TypeDefIndex: 3919
 	// RVA: 0x2395C0 Offset: 0x2389C0 VA: 0x1802395C0
 	public Collider get_collider() { }
 
-	// RVA: 0x212B90 Offset: 0x211F90 VA: 0x180212B90
+	// RVA: 0x211FC0 Offset: 0x2113C0 VA: 0x180211FC0
 	public Vector3 get_point() { }
 
-	// RVA: 0x204F30 Offset: 0x204330 VA: 0x180204F30
+	// RVA: 0x204B60 Offset: 0x203F60 VA: 0x180204B60
 	public void set_point(Vector3 value) { }
 
-	// RVA: 0x212BB0 Offset: 0x211FB0 VA: 0x180212BB0
+	// RVA: 0x211FE0 Offset: 0x2113E0 VA: 0x180211FE0
 	public Vector3 get_normal() { }
 
-	// RVA: 0x212CC0 Offset: 0x2120C0 VA: 0x180212CC0
+	// RVA: 0x2120F0 Offset: 0x2114F0 VA: 0x1802120F0
 	public void set_normal(Vector3 value) { }
 
 	// RVA: 0x2395D0 Offset: 0x2389D0 VA: 0x1802395D0
@@ -47,11 +47,11 @@ public struct RaycastHit // TypeDefIndex: 3919
 	// RVA: 0x239830 Offset: 0x238C30 VA: 0x180239830
 	public void set_distance(float value) { }
 
-	// RVA: 0x212310 Offset: 0x211710 VA: 0x180212310
+	// RVA: 0x211740 Offset: 0x210B40 VA: 0x180211740
 	public int get_triangleIndex() { }
 
 	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
-	// RVA: 0x229DFE0 Offset: 0x229C5E0 VA: 0x18229DFE0
+	// RVA: 0x229E800 Offset: 0x229CE00 VA: 0x18229E800
 	private static Vector2 CalculateRaycastTexCoord(Collider collider, Vector2 uv, Vector3 pos, uint face, int textcoord) { }
 
 	// RVA: 0x239690 Offset: 0x238A90 VA: 0x180239690
@@ -66,7 +66,7 @@ public struct RaycastHit // TypeDefIndex: 3919
 	// RVA: 0x2395E0 Offset: 0x2389E0 VA: 0x1802395E0
 	public Rigidbody get_rigidbody() { }
 
-	// RVA: 0x229DF70 Offset: 0x229C570 VA: 0x18229DF70
+	// RVA: 0x229E790 Offset: 0x229CD90 VA: 0x18229E790
 	private static void CalculateRaycastTexCoord_Injected(Collider collider, ref Vector2 uv, ref Vector3 pos, uint face, int textcoord, out Vector2 ret) { }
 
 }

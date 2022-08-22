@@ -10,28 +10,28 @@ public sealed class CharEnumerator : IEnumerator, ICloneable, IEnumerator<char>,
 
 	// Methods
 
-	// RVA: 0x117C710 Offset: 0x117AD10 VA: 0x18117C710
+	// RVA: 0x1181030 Offset: 0x117F630 VA: 0x181181030
 	internal void .ctor(string str) { }
 
-	// RVA: 0xD712E0 Offset: 0xD6F8E0 VA: 0x180D712E0 Slot: 7
+	// RVA: 0xD71D90 Offset: 0xD70390 VA: 0x180D71D90 Slot: 7
 	public object Clone() { }
 
-	// RVA: 0x15622C0 Offset: 0x15608C0 VA: 0x1815622C0 Slot: 4
+	// RVA: 0x1561390 Offset: 0x155F990 VA: 0x181561390 Slot: 4
 	public bool MoveNext() { }
 
-	// RVA: 0x1562290 Offset: 0x1560890 VA: 0x181562290 Slot: 9
+	// RVA: 0x1561360 Offset: 0x155F960 VA: 0x181561360 Slot: 9
 	public void Dispose() { }
 
-	// RVA: 0x1562320 Offset: 0x1560920 VA: 0x181562320 Slot: 5
+	// RVA: 0x15613F0 Offset: 0x155F9F0 VA: 0x1815613F0 Slot: 5
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	// RVA: 0x1562440 Offset: 0x1560A40 VA: 0x181562440 Slot: 8
+	// RVA: 0x1561510 Offset: 0x155FB10 VA: 0x181561510 Slot: 8
 	public char get_Current() { }
 
-	// RVA: 0x1562310 Offset: 0x1560910 VA: 0x181562310 Slot: 6
+	// RVA: 0x15613E0 Offset: 0x155F9E0 VA: 0x1815613E0 Slot: 6
 	public void Reset() { }
 
-	// RVA: 0x1562410 Offset: 0x1560A10 VA: 0x181562410
+	// RVA: 0x15614E0 Offset: 0x155FAE0 VA: 0x1815614E0
 	internal void .ctor() { }
 
 }

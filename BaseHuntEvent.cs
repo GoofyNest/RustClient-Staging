@@ -5,13 +5,13 @@ public class BaseHuntEvent : BaseEntity // TypeDefIndex: 9815
 
 	// Methods
 
-	// RVA: 0xA422A0 Offset: 0xA408A0 VA: 0x180A422A0 Slot: 14
+	// RVA: 0xA42790 Offset: 0xA40D90 VA: 0x180A42790 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xA42300 Offset: 0xA40900 VA: 0x180A42300
+	// RVA: 0xA427F0 Offset: 0xA40DF0 VA: 0x180A427F0
 	public void PlayMusic() { }
 
-	// RVA: 0xA42330 Offset: 0xA40930 VA: 0x180A42330
+	// RVA: 0xA42820 Offset: 0xA40E20 VA: 0x180A42820
 	public void .ctor() { }
 
 }

@@ -9,37 +9,37 @@ public class ProtectionProperties : ScriptableObject // TypeDefIndex: 10751
 
 	// Methods
 
-	// RVA: 0x699EB0 Offset: 0x6984B0 VA: 0x180699EB0
+	// RVA: 0x699E40 Offset: 0x698440 VA: 0x180699E40
 	public void OnValidate() { }
 
-	// RVA: 0x699D50 Offset: 0x698350 VA: 0x180699D50
+	// RVA: 0x699CE0 Offset: 0x6982E0 VA: 0x180699CE0
 	public void Clear() { }
 
-	// RVA: 0x699A60 Offset: 0x698060 VA: 0x180699A60
+	// RVA: 0x6999F0 Offset: 0x697FF0 VA: 0x1806999F0
 	public void Add(float amount) { }
 
-	// RVA: 0x699BF0 Offset: 0x6981F0 VA: 0x180699BF0
+	// RVA: 0x699B80 Offset: 0x698180 VA: 0x180699B80
 	public void Add(DamageType index, float amount) { }
 
-	// RVA: 0x699AD0 Offset: 0x6980D0 VA: 0x180699AD0
+	// RVA: 0x699A60 Offset: 0x698060 VA: 0x180699A60
 	public void Add(ProtectionProperties other, float scale) { }
 
-	// RVA: 0x699C30 Offset: 0x698230 VA: 0x180699C30
+	// RVA: 0x699BC0 Offset: 0x6981C0 VA: 0x180699BC0
 	public void Add(List<Item> items, HitArea area = -1) { }
 
-	// RVA: 0x699E00 Offset: 0x698400 VA: 0x180699E00
+	// RVA: 0x699D90 Offset: 0x698390 VA: 0x180699D90
 	public void Multiply(float multiplier) { }
 
-	// RVA: 0x699E70 Offset: 0x698470 VA: 0x180699E70
+	// RVA: 0x699E00 Offset: 0x698400 VA: 0x180699E00
 	public void Multiply(DamageType index, float multiplier) { }
 
-	// RVA: 0x699FC0 Offset: 0x6985C0 VA: 0x180699FC0
+	// RVA: 0x699F50 Offset: 0x698550 VA: 0x180699F50
 	public void Scale(DamageTypeList damageList, float ProtectionAmount = 1) { }
 
-	// RVA: 0x699DC0 Offset: 0x6983C0 VA: 0x180699DC0
+	// RVA: 0x699D50 Offset: 0x698350 VA: 0x180699D50
 	public float Get(DamageType damageType) { }
 
-	// RVA: 0x69A120 Offset: 0x698720 VA: 0x18069A120
+	// RVA: 0x69A0B0 Offset: 0x6986B0 VA: 0x18069A0B0
 	public void .ctor() { }
 
 }

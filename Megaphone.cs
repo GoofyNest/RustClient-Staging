@@ -20,33 +20,33 @@ public class Megaphone : HeldEntity // TypeDefIndex: 8604
 
 	// Methods
 
-	// RVA: 0x95D240 Offset: 0x95B840 VA: 0x18095D240 Slot: 35
+	// RVA: 0x95D740 Offset: 0x95BD40 VA: 0x18095D740 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95D560 Offset: 0x95BB60 VA: 0x18095D560
+	// RVA: 0x95DA60 Offset: 0x95C060 VA: 0x18095DA60
 	public static float get_MegaphoneVoiceRange() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95D620 Offset: 0x95BC20 VA: 0x18095D620
+	// RVA: 0x95DB20 Offset: 0x95C120 VA: 0x18095DB20
 	public static void set_MegaphoneVoiceRange(float value) { }
 
-	// RVA: 0x95D330 Offset: 0x95B930 VA: 0x18095D330
+	// RVA: 0x95D830 Offset: 0x95BE30 VA: 0x18095D830
 	public bool Receive(byte[] data) { }
 
-	// RVA: 0x95CE10 Offset: 0x95B410 VA: 0x18095CE10 Slot: 138
+	// RVA: 0x95D310 Offset: 0x95B910 VA: 0x18095D310 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x95D440 Offset: 0x95BA40 VA: 0x18095D440
+	// RVA: 0x95D940 Offset: 0x95BF40 VA: 0x18095D940
 	private void Update() { }
 
-	// RVA: 0x95CC30 Offset: 0x95B230 VA: 0x18095CC30 Slot: 80
+	// RVA: 0x95D130 Offset: 0x95B730 VA: 0x18095D130 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x95D4F0 Offset: 0x95BAF0 VA: 0x18095D4F0
+	// RVA: 0x95D9F0 Offset: 0x95BFF0 VA: 0x18095D9F0
 	public void .ctor() { }
 
-	// RVA: 0x95D480 Offset: 0x95BA80 VA: 0x18095D480
+	// RVA: 0x95D980 Offset: 0x95BF80 VA: 0x18095D980
 	private static void .cctor() { }
 
 }

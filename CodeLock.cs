@@ -8,82 +8,82 @@ public class CodeLock : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6306
 
 	// Methods
 
-	// RVA: 0x20AF200 Offset: 0x20AD800 VA: 0x1820AF200
+	// RVA: 0x20AFA20 Offset: 0x20AE020 VA: 0x1820AFA20
 	public static void ResetToPool(CodeLock instance) { }
 
-	// RVA: 0x20AF2C0 Offset: 0x20AD8C0 VA: 0x1820AF2C0
+	// RVA: 0x20AFAE0 Offset: 0x20AE0E0 VA: 0x1820AFAE0
 	public void ResetToPool() { }
 
-	// RVA: 0x20AF080 Offset: 0x20AD680 VA: 0x1820AF080 Slot: 9
+	// RVA: 0x20AF8A0 Offset: 0x20ADEA0 VA: 0x1820AF8A0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20AE2A0 Offset: 0x20AC8A0 VA: 0x1820AE2A0
+	// RVA: 0x20AEAC0 Offset: 0x20AD0C0 VA: 0x1820AEAC0
 	public void CopyTo(CodeLock instance) { }
 
-	// RVA: 0x20AE390 Offset: 0x20AC990 VA: 0x1820AE390
+	// RVA: 0x20AEBB0 Offset: 0x20AD1B0 VA: 0x1820AEBB0
 	public CodeLock Copy() { }
 
-	// RVA: 0x20AF000 Offset: 0x20AD600 VA: 0x1820AF000
+	// RVA: 0x20AF820 Offset: 0x20ADE20 VA: 0x1820AF820
 	public static CodeLock Deserialize(Stream stream) { }
 
-	// RVA: 0x20AE4D0 Offset: 0x20ACAD0 VA: 0x1820AE4D0
+	// RVA: 0x20AECF0 Offset: 0x20AD2F0 VA: 0x1820AECF0
 	public static CodeLock DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20AEB20 Offset: 0x20AD120 VA: 0x1820AEB20
+	// RVA: 0x20AF340 Offset: 0x20AD940 VA: 0x1820AF340
 	public static CodeLock DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20AEEE0 Offset: 0x20AD4E0 VA: 0x1820AEEE0
+	// RVA: 0x20AF700 Offset: 0x20ADD00 VA: 0x1820AF700
 	public static CodeLock Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20AF1C0 Offset: 0x20AD7C0 VA: 0x1820AF1C0
+	// RVA: 0x20AF9E0 Offset: 0x20ADFE0 VA: 0x1820AF9E0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20AF980 Offset: 0x20ADF80 VA: 0x1820AF980 Slot: 12
+	// RVA: 0x20B01A0 Offset: 0x20AE7A0 VA: 0x1820B01A0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20AF9A0 Offset: 0x20ADFA0 VA: 0x1820AF9A0 Slot: 13
+	// RVA: 0x20B01C0 Offset: 0x20AE7C0 VA: 0x1820B01C0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CodeLock previous) { }
 
-	// RVA: 0x20AF1E0 Offset: 0x20AD7E0 VA: 0x1820AF1E0 Slot: 14
+	// RVA: 0x20AFA00 Offset: 0x20AE000 VA: 0x1820AFA00 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20AEDE0 Offset: 0x20AD3E0 VA: 0x1820AEDE0
+	// RVA: 0x20AF600 Offset: 0x20ADC00 VA: 0x1820AF600
 	public static CodeLock Deserialize(byte[] buffer, CodeLock instance, bool isDelta = False) { }
 
-	// RVA: 0x20AEBB0 Offset: 0x20AD1B0 VA: 0x1820AEBB0
+	// RVA: 0x20AF3D0 Offset: 0x20AD9D0 VA: 0x1820AF3D0
 	public static CodeLock Deserialize(Stream stream, CodeLock instance, bool isDelta) { }
 
-	// RVA: 0x20AE550 Offset: 0x20ACB50 VA: 0x1820AE550
+	// RVA: 0x20AED70 Offset: 0x20AD370 VA: 0x1820AED70
 	public static CodeLock DeserializeLengthDelimited(Stream stream, CodeLock instance, bool isDelta) { }
 
-	// RVA: 0x20AE850 Offset: 0x20ACE50 VA: 0x1820AE850
+	// RVA: 0x20AF070 Offset: 0x20AD670 VA: 0x1820AF070
 	public static CodeLock DeserializeLength(Stream stream, int length, CodeLock instance, bool isDelta) { }
 
-	// RVA: 0x20AF380 Offset: 0x20AD980 VA: 0x1820AF380
+	// RVA: 0x20AFBA0 Offset: 0x20AE1A0 VA: 0x1820AFBA0
 	public static void SerializeDelta(Stream stream, CodeLock instance, CodeLock previous) { }
 
-	// RVA: 0x20AF760 Offset: 0x20ADD60 VA: 0x1820AF760
+	// RVA: 0x20AFF80 Offset: 0x20AE580 VA: 0x1820AFF80
 	public static void Serialize(Stream stream, CodeLock instance) { }
 
-	// RVA: 0x20AF970 Offset: 0x20ADF70 VA: 0x1820AF970
+	// RVA: 0x20B0190 Offset: 0x20AE790 VA: 0x1820B0190
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20AF980 Offset: 0x20ADF80 VA: 0x1820AF980
+	// RVA: 0x20B01A0 Offset: 0x20AE7A0 VA: 0x1820B01A0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20AF650 Offset: 0x20ADC50 VA: 0x1820AF650
+	// RVA: 0x20AFE70 Offset: 0x20AE470 VA: 0x1820AFE70
 	public static byte[] SerializeToBytes(CodeLock instance) { }
 
-	// RVA: 0x20AF5A0 Offset: 0x20ADBA0 VA: 0x1820AF5A0
+	// RVA: 0x20AFDC0 Offset: 0x20AE3C0 VA: 0x1820AFDC0
 	public static void SerializeLengthDelimited(Stream stream, CodeLock instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -99,82 +99,82 @@ public class CodeLock.Private : IDisposable, Pool.IPooled, IProto // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x20BE400 Offset: 0x20BCA00 VA: 0x1820BE400
+	// RVA: 0x20BEC20 Offset: 0x20BD220 VA: 0x1820BEC20
 	public static void ResetToPool(CodeLock.Private instance) { }
 
-	// RVA: 0x20BE260 Offset: 0x20BC860 VA: 0x1820BE260
+	// RVA: 0x20BEA80 Offset: 0x20BD080 VA: 0x1820BEA80
 	public void ResetToPool() { }
 
-	// RVA: 0x20BE1A0 Offset: 0x20BC7A0 VA: 0x1820BE1A0 Slot: 9
+	// RVA: 0x20BE9C0 Offset: 0x20BCFC0 VA: 0x1820BE9C0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20BCCA0 Offset: 0x20BB2A0 VA: 0x1820BCCA0
+	// RVA: 0x20BD4C0 Offset: 0x20BBAC0 VA: 0x1820BD4C0
 	public void CopyTo(CodeLock.Private instance) { }
 
-	// RVA: 0x20BCEC0 Offset: 0x20BB4C0 VA: 0x1820BCEC0
+	// RVA: 0x20BD6E0 Offset: 0x20BBCE0 VA: 0x1820BD6E0
 	public CodeLock.Private Copy() { }
 
-	// RVA: 0x20BD860 Offset: 0x20BBE60 VA: 0x1820BD860
+	// RVA: 0x20BE080 Offset: 0x20BC680 VA: 0x1820BE080
 	public static CodeLock.Private Deserialize(Stream stream) { }
 
-	// RVA: 0x20BD2D0 Offset: 0x20BB8D0 VA: 0x1820BD2D0
+	// RVA: 0x20BDAF0 Offset: 0x20BC0F0 VA: 0x1820BDAF0
 	public static CodeLock.Private DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20BD350 Offset: 0x20BB950 VA: 0x1820BD350
+	// RVA: 0x20BDB70 Offset: 0x20BC170 VA: 0x1820BDB70
 	public static CodeLock.Private DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20BDDF0 Offset: 0x20BC3F0 VA: 0x1820BDDF0
+	// RVA: 0x20BE610 Offset: 0x20BCC10 VA: 0x1820BE610
 	public static CodeLock.Private Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20BE220 Offset: 0x20BC820 VA: 0x1820BE220
+	// RVA: 0x20BEA40 Offset: 0x20BD040 VA: 0x1820BEA40
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20BECE0 Offset: 0x20BD2E0 VA: 0x1820BECE0 Slot: 12
+	// RVA: 0x20BF500 Offset: 0x20BDB00 VA: 0x1820BF500 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20BED00 Offset: 0x20BD300 VA: 0x1820BED00 Slot: 13
+	// RVA: 0x20BF520 Offset: 0x20BDB20 VA: 0x1820BF520 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CodeLock.Private previous) { }
 
-	// RVA: 0x20BE240 Offset: 0x20BC840 VA: 0x1820BE240 Slot: 14
+	// RVA: 0x20BEA60 Offset: 0x20BD060 VA: 0x1820BEA60 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20BD760 Offset: 0x20BBD60 VA: 0x1820BD760
+	// RVA: 0x20BDF80 Offset: 0x20BC580 VA: 0x1820BDF80
 	public static CodeLock.Private Deserialize(byte[] buffer, CodeLock.Private instance, bool isDelta = False) { }
 
-	// RVA: 0x20BDB40 Offset: 0x20BC140 VA: 0x1820BDB40
+	// RVA: 0x20BE360 Offset: 0x20BC960 VA: 0x1820BE360
 	public static CodeLock.Private Deserialize(Stream stream, CodeLock.Private instance, bool isDelta) { }
 
-	// RVA: 0x20BCF40 Offset: 0x20BB540 VA: 0x1820BCF40
+	// RVA: 0x20BD760 Offset: 0x20BBD60 VA: 0x1820BD760
 	public static CodeLock.Private DeserializeLengthDelimited(Stream stream, CodeLock.Private instance, bool isDelta) { }
 
-	// RVA: 0x20BD3E0 Offset: 0x20BB9E0 VA: 0x1820BD3E0
+	// RVA: 0x20BDC00 Offset: 0x20BC200 VA: 0x1820BDC00
 	public static CodeLock.Private DeserializeLength(Stream stream, int length, CodeLock.Private instance, bool isDelta) { }
 
-	// RVA: 0x20BE5A0 Offset: 0x20BCBA0 VA: 0x1820BE5A0
+	// RVA: 0x20BEDC0 Offset: 0x20BD3C0 VA: 0x1820BEDC0
 	public static void SerializeDelta(Stream stream, CodeLock.Private instance, CodeLock.Private previous) { }
 
-	// RVA: 0x20BEA30 Offset: 0x20BD030 VA: 0x1820BEA30
+	// RVA: 0x20BF250 Offset: 0x20BD850 VA: 0x1820BF250
 	public static void Serialize(Stream stream, CodeLock.Private instance) { }
 
-	// RVA: 0x20BECD0 Offset: 0x20BD2D0 VA: 0x1820BECD0
+	// RVA: 0x20BF4F0 Offset: 0x20BDAF0 VA: 0x1820BF4F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20BECE0 Offset: 0x20BD2E0 VA: 0x1820BECE0
+	// RVA: 0x20BF500 Offset: 0x20BDB00 VA: 0x1820BF500
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20BE920 Offset: 0x20BCF20 VA: 0x1820BE920
+	// RVA: 0x20BF140 Offset: 0x20BD740 VA: 0x1820BF140
 	public static byte[] SerializeToBytes(CodeLock.Private instance) { }
 
-	// RVA: 0x20BE870 Offset: 0x20BCE70 VA: 0x1820BE870
+	// RVA: 0x20BF090 Offset: 0x20BD690 VA: 0x1820BF090
 	public static void SerializeLengthDelimited(Stream stream, CodeLock.Private instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -200,81 +200,81 @@ public class CodeLock : BaseLock // TypeDefIndex: 8373
 
 	// Methods
 
-	// RVA: 0x579BE0 Offset: 0x5781E0 VA: 0x180579BE0 Slot: 49
+	// RVA: 0x579B70 Offset: 0x578170 VA: 0x180579B70 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x57B140 Offset: 0x579740 VA: 0x18057B140 Slot: 50
+	// RVA: 0x57B0D0 Offset: 0x5796D0 VA: 0x18057B0D0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x57AA20 Offset: 0x579020 VA: 0x18057AA20 Slot: 35
+	// RVA: 0x57A9B0 Offset: 0x578FB0 VA: 0x18057A9B0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x57A590 Offset: 0x578B90 VA: 0x18057A590
+	// RVA: 0x57A520 Offset: 0x578B20 VA: 0x18057A520
 	public bool IsCodeEntryBlocked() { }
 
-	// RVA: 0x57A5A0 Offset: 0x578BA0 VA: 0x18057A5A0 Slot: 34
+	// RVA: 0x57A530 Offset: 0x578B30 VA: 0x18057A530 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	[BaseEntity.Menu] // RVA: 0xD3ED0 Offset: 0xD32D0 VA: 0x1800D3ED0
 	[BaseEntity.Menu.Description] // RVA: 0xD3ED0 Offset: 0xD32D0 VA: 0x1800D3ED0
 	[BaseEntity.Menu.Icon] // RVA: 0xD3ED0 Offset: 0xD32D0 VA: 0x1800D3ED0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xD3ED0 Offset: 0xD32D0 VA: 0x1800D3ED0
-	// RVA: 0x57A9E0 Offset: 0x578FE0 VA: 0x18057A9E0
+	// RVA: 0x57A970 Offset: 0x578F70 VA: 0x18057A970
 	public void Menu_Unlock(BasePlayer player) { }
 
-	// RVA: 0x57A9A0 Offset: 0x578FA0 VA: 0x18057A9A0
+	// RVA: 0x57A930 Offset: 0x578F30 VA: 0x18057A930
 	public bool Menu_Unlock_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xD5430 Offset: 0xD4830 VA: 0x1800D5430
 	[BaseEntity.Menu.Description] // RVA: 0xD5430 Offset: 0xD4830 VA: 0x1800D5430
 	[BaseEntity.Menu.Icon] // RVA: 0xD5430 Offset: 0xD4830 VA: 0x1800D5430
 	[BaseEntity.Menu.ShowIf] // RVA: 0xD5430 Offset: 0xD4830 VA: 0x1800D5430
-	// RVA: 0x57A960 Offset: 0x578F60 VA: 0x18057A960
+	// RVA: 0x57A8F0 Offset: 0x578EF0 VA: 0x18057A8F0
 	public void Menu_Lock(BasePlayer player) { }
 
-	// RVA: 0x57A930 Offset: 0x578F30 VA: 0x18057A930
+	// RVA: 0x57A8C0 Offset: 0x578EC0 VA: 0x18057A8C0
 	public bool Menu_Lock_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xD5660 Offset: 0xD4A60 VA: 0x1800D5660
 	[BaseEntity.Menu.Description] // RVA: 0xD5660 Offset: 0xD4A60 VA: 0x1800D5660
 	[BaseEntity.Menu.Icon] // RVA: 0xD5660 Offset: 0xD4A60 VA: 0x1800D5660
 	[BaseEntity.Menu.ShowIf] // RVA: 0xD5660 Offset: 0xD4A60 VA: 0x1800D5660
-	// RVA: 0x57A7D0 Offset: 0x578DD0 VA: 0x18057A7D0
+	// RVA: 0x57A760 Offset: 0x578D60 VA: 0x18057A760
 	public void Menu_ChangeLockCode(BasePlayer player) { }
 
-	// RVA: 0x57A790 Offset: 0x578D90 VA: 0x18057A790
+	// RVA: 0x57A720 Offset: 0x578D20 VA: 0x18057A720
 	public bool Menu_ChangeLockCode_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xD58A0 Offset: 0xD4CA0 VA: 0x1800D58A0
 	[BaseEntity.Menu.Description] // RVA: 0xD58A0 Offset: 0xD4CA0 VA: 0x1800D58A0
 	[BaseEntity.Menu.Icon] // RVA: 0xD58A0 Offset: 0xD4CA0 VA: 0x1800D58A0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xD58A0 Offset: 0xD4CA0 VA: 0x1800D58A0
-	// RVA: 0x57A630 Offset: 0x578C30 VA: 0x18057A630
+	// RVA: 0x57A5C0 Offset: 0x578BC0 VA: 0x18057A5C0
 	public void Menu_ChangeGuestCode(BasePlayer player) { }
 
-	// RVA: 0x57A600 Offset: 0x578C00 VA: 0x18057A600
+	// RVA: 0x57A590 Offset: 0x578B90 VA: 0x18057A590
 	public bool Menu_ChangeGuestCode_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x579A60 Offset: 0x578060 VA: 0x180579A60
+	// RVA: 0x5799F0 Offset: 0x577FF0 VA: 0x1805799F0
 	private void EnterUnlockCode(BaseEntity.RPCMessage rpc) { }
 
-	// RVA: 0x57B130 Offset: 0x579730 VA: 0x18057B130
+	// RVA: 0x57B0C0 Offset: 0x5796C0 VA: 0x18057B0C0
 	public void .ctor() { }
 
-	// RVA: 0x57B0C0 Offset: 0x5796C0 VA: 0x18057B0C0
+	// RVA: 0x57B050 Offset: 0x579650 VA: 0x18057B050
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57B060 Offset: 0x579660 VA: 0x18057B060
+	// RVA: 0x57AFF0 Offset: 0x5795F0 VA: 0x18057AFF0
 	private void <Menu_ChangeLockCode>b__23_0(string str) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57B000 Offset: 0x579600 VA: 0x18057B000
+	// RVA: 0x57AF90 Offset: 0x579590 VA: 0x18057AF90
 	private void <Menu_ChangeGuestCode>b__25_0(string str) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57AFB0 Offset: 0x5795B0 VA: 0x18057AFB0
+	// RVA: 0x57AF40 Offset: 0x579540 VA: 0x18057AF40
 	private void <EnterUnlockCode>b__27_0(string str) { }
 
 }

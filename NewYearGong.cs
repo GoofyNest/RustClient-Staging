@@ -12,17 +12,17 @@ public class NewYearGong : BaseCombatEntity // TypeDefIndex: 8609
 
 	// Methods
 
-	// RVA: 0x9D0BC0 Offset: 0x9CF1C0 VA: 0x1809D0BC0 Slot: 35
+	// RVA: 0x9D10B0 Offset: 0x9CF6B0 VA: 0x1809D10B0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9D1010 Offset: 0x9CF610 VA: 0x1809D1010
+	// RVA: 0x9D1500 Offset: 0x9CFB00 VA: 0x1809D1500
 	public void PlaySound(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x9D1270 Offset: 0x9CF870 VA: 0x1809D1270
+	// RVA: 0x9D1760 Offset: 0x9CFD60 VA: 0x1809D1760
 	public void .ctor() { }
 
-	// RVA: 0x9D1220 Offset: 0x9CF820 VA: 0x1809D1220
+	// RVA: 0x9D1710 Offset: 0x9CFD10 VA: 0x1809D1710
 	private static void .cctor() { }
 
 }

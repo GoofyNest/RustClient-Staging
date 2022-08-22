@@ -18,37 +18,37 @@ public class SoundSource : MonoBehaviour, IClientComponentEx, ILOD, ISoundBudget
 
 	// Methods
 
-	// RVA: 0xA7CFB0 Offset: 0xA7B5B0 VA: 0x180A7CFB0
+	// RVA: 0xA7D480 Offset: 0xA7BA80 VA: 0x180A7D480
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0xA7D2D0 Offset: 0xA7B8D0 VA: 0x180A7D2D0
+	// RVA: 0xA7D7A0 Offset: 0xA7BDA0 VA: 0x180A7D7A0
 	private void OnValidate() { }
 
-	// RVA: 0xA7D180 Offset: 0xA7B780 VA: 0x180A7D180
+	// RVA: 0xA7D650 Offset: 0xA7BC50 VA: 0x180A7D650
 	private void OnEnable() { }
 
-	// RVA: 0xA7CE20 Offset: 0xA7B420 VA: 0x180A7CE20
+	// RVA: 0xA7D2F0 Offset: 0xA7B8F0 VA: 0x180A7D2F0
 	private void OnDisable() { }
 
-	// RVA: 0xA7CD30 Offset: 0xA7B330 VA: 0x180A7CD30 Slot: 7
+	// RVA: 0xA7D200 Offset: 0xA7B800 VA: 0x180A7D200 Slot: 7
 	public void DoUpdate() { }
 
-	// RVA: 0xA7C760 Offset: 0xA7AD60 VA: 0x180A7C760
+	// RVA: 0xA7CC30 Offset: 0xA7B230 VA: 0x180A7CC30
 	public void DoOcclusionCheck() { }
 
-	// RVA: 0xA7D450 Offset: 0xA7BA50 VA: 0x180A7D450 Slot: 6
+	// RVA: 0xA7D920 Offset: 0xA7BF20 VA: 0x180A7D920 Slot: 6
 	public void RefreshLOD() { }
 
-	// RVA: 0xA7C710 Offset: 0xA7AD10 VA: 0x180A7C710 Slot: 5
+	// RVA: 0xA7CBE0 Offset: 0xA7B1E0 VA: 0x180A7CBE0 Slot: 5
 	public void ChangeLOD() { }
 
-	// RVA: 0xA7D3A0 Offset: 0xA7B9A0 VA: 0x180A7D3A0 Slot: 9
+	// RVA: 0xA7D870 Offset: 0xA7BE70 VA: 0x180A7D870 Slot: 9
 	public virtual void PreClientComponentCull(IPrefabProcessor p) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 8
 	public bool IsSyncedToParent() { }
 
-	// RVA: 0xA7D4D0 Offset: 0xA7BAD0 VA: 0x180A7D4D0
+	// RVA: 0xA7D9A0 Offset: 0xA7BFA0 VA: 0x180A7D9A0
 	public void .ctor() { }
 
 }
@@ -60,7 +60,7 @@ public class SoundSource.OcclusionPoint // TypeDefIndex: 9044
 
 	// Methods
 
-	// RVA: 0xA74790 Offset: 0xA72D90 VA: 0x180A74790
+	// RVA: 0xA74C60 Offset: 0xA73260 VA: 0x180A74C60
 	public void .ctor() { }
 
 }

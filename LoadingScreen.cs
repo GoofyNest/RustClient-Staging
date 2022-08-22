@@ -42,91 +42,91 @@ public class LoadingScreen : SingletonComponent<LoadingScreen> // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x4FAAE0 Offset: 0x4F90E0 VA: 0x1804FAAE0
+	// RVA: 0x4FAA70 Offset: 0x4F9070 VA: 0x1804FAA70
 	public static bool get_isOpen() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4FAAA0 Offset: 0x4F90A0 VA: 0x1804FAAA0
+	// RVA: 0x4FAA30 Offset: 0x4F9030 VA: 0x1804FAA30
 	public static bool get_WantsSkip() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4FAC90 Offset: 0x4F9290 VA: 0x1804FAC90
+	// RVA: 0x4FAC20 Offset: 0x4F9220 VA: 0x1804FAC20
 	private static void set_WantsSkip(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4FAC40 Offset: 0x4F9240 VA: 0x1804FAC40
+	// RVA: 0x4FABD0 Offset: 0x4F91D0 VA: 0x1804FABD0
 	private static void set_Text(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4FAA60 Offset: 0x4F9060 VA: 0x1804FAA60
+	// RVA: 0x4FA9F0 Offset: 0x4F8FF0 VA: 0x1804FA9F0
 	public static string get_Text() { }
 
-	// RVA: 0x4F85D0 Offset: 0x4F6BD0 VA: 0x1804F85D0 Slot: 6
+	// RVA: 0x4F8560 Offset: 0x4F6B60 VA: 0x1804F8560 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x4F9570 Offset: 0x4F7B70 VA: 0x1804F9570 Slot: 7
+	// RVA: 0x4F9500 Offset: 0x4F7B00 VA: 0x1804F9500 Slot: 7
 	protected override void OnDestroy() { }
 
-	// RVA: 0x4F9660 Offset: 0x4F7C60 VA: 0x1804F9660
+	// RVA: 0x4F95F0 Offset: 0x4F7BF0 VA: 0x1804F95F0
 	public void OnDisable() { }
 
-	// RVA: 0x4F9950 Offset: 0x4F7F50 VA: 0x1804F9950
+	// RVA: 0x4F98E0 Offset: 0x4F7EE0 VA: 0x1804F98E0
 	public static void Show(bool hideCancel = False) { }
 
-	// RVA: 0x4F9000 Offset: 0x4F7600 VA: 0x1804F9000
+	// RVA: 0x4F8F90 Offset: 0x4F7590 VA: 0x1804F8F90
 	public static void Hide() { }
 
-	// RVA: 0x4F9670 Offset: 0x4F7C70 VA: 0x1804F9670
+	// RVA: 0x4F9600 Offset: 0x4F7C00 VA: 0x1804F9600
 	public static void ShowPerformanceWarning() { }
 
-	// RVA: 0x4F8C80 Offset: 0x4F7280 VA: 0x1804F8C80
+	// RVA: 0x4F8C10 Offset: 0x4F7210 VA: 0x1804F8C10
 	public static void HidePerformanceWarning() { }
 
-	// RVA: 0x4F97C0 Offset: 0x4F7DC0 VA: 0x1804F97C0
+	// RVA: 0x4F9750 Offset: 0x4F7D50 VA: 0x1804F9750
 	public static void ShowSkip() { }
 
-	// RVA: 0x4F8E70 Offset: 0x4F7470 VA: 0x1804F8E70
+	// RVA: 0x4F8E00 Offset: 0x4F7400 VA: 0x1804F8E00
 	public static void HideSkip() { }
 
-	// RVA: 0x4FA5C0 Offset: 0x4F8BC0 VA: 0x1804FA5C0
+	// RVA: 0x4FA550 Offset: 0x4F8B50 VA: 0x1804FA550
 	public static void Update(string strType) { }
 
-	// RVA: 0x4FA820 Offset: 0x4F8E20 VA: 0x1804FA820
+	// RVA: 0x4FA7B0 Offset: 0x4F8DB0 VA: 0x1804FA7B0
 	public static void Update(string strType, string strSubtitle) { }
 
-	// RVA: 0x4F9EF0 Offset: 0x4F84F0 VA: 0x1804F9EF0
+	// RVA: 0x4F9E80 Offset: 0x4F8480 VA: 0x1804F9E80
 	public void UpdateFromServer(string strTitle, string strSubtitle) { }
 
-	// RVA: 0x4F8880 Offset: 0x4F6E80 VA: 0x1804F8880
+	// RVA: 0x4F8810 Offset: 0x4F6E10 VA: 0x1804F8810
 	public void CancelLoading() { }
 
-	// RVA: 0x4F9DB0 Offset: 0x4F83B0 VA: 0x1804F9DB0
+	// RVA: 0x4F9D40 Offset: 0x4F8340 VA: 0x1804F9D40
 	public void SkipLoading() { }
 
-	// RVA: 0x4F8DD0 Offset: 0x4F73D0 VA: 0x1804F8DD0
+	// RVA: 0x4F8D60 Offset: 0x4F7360 VA: 0x1804F8D60
 	private void HidePingWarning() { }
 
-	// RVA: 0x4F9FB0 Offset: 0x4F85B0 VA: 0x1804F9FB0
+	// RVA: 0x4F9F40 Offset: 0x4F8540 VA: 0x1804F9F40
 	private void UpdatePingWarning() { }
 
-	// RVA: 0x4FA2F0 Offset: 0x4F88F0 VA: 0x1804FA2F0
+	// RVA: 0x4FA280 Offset: 0x4F8880 VA: 0x1804FA280
 	public void UpdateServerInfo(Nullable<ServerInfo> server, Dictionary<string, string> serverRules) { }
 
-	// RVA: 0x4F93F0 Offset: 0x4F79F0 VA: 0x1804F93F0
+	// RVA: 0x4F9380 Offset: 0x4F7980 VA: 0x1804F9380
 	private void LoadBackgroundImage() { }
 
-	// RVA: 0x4F8BC0 Offset: 0x4F71C0 VA: 0x1804F8BC0
+	// RVA: 0x4F8B50 Offset: 0x4F7150 VA: 0x1804F8B50
 	private void FreeBackgroundImage() { }
 
-	// RVA: 0x4F8930 Offset: 0x4F6F30 VA: 0x1804F8930
+	// RVA: 0x4F88C0 Offset: 0x4F6EC0 VA: 0x1804F88C0
 	private void ChooseBackgroundImage() { }
 
-	// RVA: 0x4FA9E0 Offset: 0x4F8FE0 VA: 0x1804FA9E0
+	// RVA: 0x4FA970 Offset: 0x4F8F70 VA: 0x1804FA970
 	public void .ctor() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x98130 Offset: 0x97530 VA: 0x180098130
 	[CompilerGeneratedAttribute] // RVA: 0x98130 Offset: 0x97530 VA: 0x180098130
-	// RVA: 0x4F9DF0 Offset: 0x4F83F0 VA: 0x1804F9DF0
+	// RVA: 0x4F9D80 Offset: 0x4F8380 VA: 0x1804F9D80
 	private void <ChooseBackgroundImage>g__PreloadBackgroundImage|56_0(string url) { }
 
 }

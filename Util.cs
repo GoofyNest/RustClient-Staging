@@ -12,10 +12,10 @@ public static class Util // TypeDefIndex: 11649
 	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x589E40 Offset: 0x588440 VA: 0x180589E40
+	// RVA: 0x589DD0 Offset: 0x5883D0 VA: 0x180589DD0
 	public static string ToErrorMessage(NotificationSendResult result) { }
 
-	// RVA: 0x58A050 Offset: 0x588650 VA: 0x18058A050
+	// RVA: 0x589FE0 Offset: 0x5885E0 VA: 0x180589FE0
 	private static void .cctor() { }
 
 }
@@ -23,7 +23,7 @@ public static class Util // TypeDefIndex: 11649
 public static class Util // TypeDefIndex: 11676
 {	// Methods
 
-	// RVA: 0x764C90 Offset: 0x763290 VA: 0x180764C90
+	// RVA: 0x764BE0 Offset: 0x7631E0 VA: 0x180764BE0
 	public static Info GetInfo(GameObject obj, BasePlayer player) { }
 
 }

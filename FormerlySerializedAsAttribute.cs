@@ -4,7 +4,7 @@ public class FormerlySerializedAsAttribute : Attribute // TypeDefIndex: 3649
 
 	// Methods
 
-	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
+	// RVA: 0x7B9710 Offset: 0x7B7D10 VA: 0x1807B9710
 	public void .ctor(string oldName) { }
 
 }

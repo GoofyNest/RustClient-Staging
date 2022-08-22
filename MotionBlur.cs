@@ -6,16 +6,16 @@ public class MotionBlur : ImageEffectBase // TypeDefIndex: 8193
 
 	// Methods
 
-	// RVA: 0x21E1890 Offset: 0x21DFE90 VA: 0x1821E1890 Slot: 4
+	// RVA: 0x21E20B0 Offset: 0x21E06B0 VA: 0x1821E20B0 Slot: 4
 	protected override void Start() { }
 
-	// RVA: 0x21E1400 Offset: 0x21DFA00 VA: 0x1821E1400 Slot: 5
+	// RVA: 0x21E1C20 Offset: 0x21E0220 VA: 0x1821E1C20 Slot: 5
 	protected override void OnDisable() { }
 
-	// RVA: 0x21E14E0 Offset: 0x21DFAE0 VA: 0x1821E14E0
+	// RVA: 0x21E1D00 Offset: 0x21E0300 VA: 0x1821E1D00
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21E1940 Offset: 0x21DFF40 VA: 0x1821E1940
+	// RVA: 0x21E2160 Offset: 0x21E0760 VA: 0x1821E2160
 	public void .ctor() { }
 
 }
@@ -31,10 +31,10 @@ public sealed class MotionBlur : PostProcessEffectSettings // TypeDefIndex: 1179
 
 	// Methods
 
-	// RVA: 0x101A610 Offset: 0x1018C10 VA: 0x18101A610 Slot: 4
+	// RVA: 0x101B0B0 Offset: 0x10196B0 VA: 0x18101B0B0 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x101A6E0 Offset: 0x1018CE0 VA: 0x18101A6E0
+	// RVA: 0x101B180 Offset: 0x1019780 VA: 0x18101B180
 	public void .ctor() { }
 
 }

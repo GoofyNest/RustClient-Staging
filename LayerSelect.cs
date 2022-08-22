@@ -12,10 +12,10 @@ public struct LayerSelect // TypeDefIndex: 11429
 	// RVA: 0xF3850 Offset: 0xF2C50 VA: 0x1800F3850
 	public void .ctor(int layer) { }
 
-	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
+	// RVA: 0x68A650 Offset: 0x688C50 VA: 0x18068A650
 	public static int op_Implicit(LayerSelect layer) { }
 
-	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
+	// RVA: 0x68A650 Offset: 0x688C50 VA: 0x18068A650
 	public static LayerSelect op_Implicit(int layer) { }
 
 	// RVA: 0xF3860 Offset: 0xF2C60 VA: 0x1800F3860

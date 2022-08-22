@@ -9,13 +9,13 @@ internal class Filter : AstNode // TypeDefIndex: 1791
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	public void .ctor(AstNode input, AstNode condition) { }
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90 Slot: 4
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20 Slot: 4
 	public override AstNode.AstType get_Type() { }
 
-	// RVA: 0xAC2060 Offset: 0xAC0660 VA: 0x180AC2060 Slot: 5
+	// RVA: 0xAC2530 Offset: 0xAC0B30 VA: 0x180AC2530 Slot: 5
 	public override XPathResultType get_ReturnType() { }
 
 }

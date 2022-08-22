@@ -16,35 +16,35 @@ public class BaseOven : StorageContainer, ISplashable // TypeDefIndex: 8333
 
 	// Methods
 
-	// RVA: 0xA51830 Offset: 0xA4FE30 VA: 0x180A51830 Slot: 49
+	// RVA: 0xA51D00 Offset: 0xA50300 VA: 0x180A51D00 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xA51FB0 Offset: 0xA505B0 VA: 0x180A51FB0 Slot: 50
+	// RVA: 0xA52480 Offset: 0xA50A80 VA: 0x180A52480 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xA51DA0 Offset: 0xA503A0 VA: 0x180A51DA0 Slot: 35
+	// RVA: 0xA52270 Offset: 0xA50870 VA: 0x180A52270 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA51D80 Offset: 0xA50380 VA: 0x180A51D80 Slot: 85
+	// RVA: 0xA52250 Offset: 0xA50850 VA: 0x180A52250 Slot: 85
 	public override bool HasSlot(BaseEntity.Slot slot) { }
 
 	[BaseEntity.Menu] // RVA: 0xB9E80 Offset: 0xB9280 VA: 0x1800B9E80
 	[BaseEntity.Menu.ShowIf] // RVA: 0xB9E80 Offset: 0xB9280 VA: 0x1800B9E80
-	// RVA: 0xA51F60 Offset: 0xA50560 VA: 0x180A51F60
+	// RVA: 0xA52430 Offset: 0xA50A30 VA: 0x180A52430
 	public void SwitchOn(BasePlayer player) { }
 
-	// RVA: 0xA51F20 Offset: 0xA50520 VA: 0x180A51F20 Slot: 155
+	// RVA: 0xA523F0 Offset: 0xA509F0 VA: 0x180A523F0 Slot: 155
 	protected virtual bool SwitchOn_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xB9F90 Offset: 0xB9390 VA: 0x1800B9F90
 	[BaseEntity.Menu.ShowIf] // RVA: 0xB9F90 Offset: 0xB9390 VA: 0x1800B9F90
-	// RVA: 0xA51ED0 Offset: 0xA504D0 VA: 0x180A51ED0
+	// RVA: 0xA523A0 Offset: 0xA509A0 VA: 0x180A523A0
 	public void SwitchOff(BasePlayer player) { }
 
-	// RVA: 0xA51E90 Offset: 0xA50490 VA: 0x180A51E90 Slot: 156
+	// RVA: 0xA52360 Offset: 0xA50960 VA: 0x180A52360 Slot: 156
 	protected virtual bool SwitchOff_ShowIf(BasePlayer player) { }
 
-	// RVA: 0xA3BCC0 Offset: 0xA3A2C0 VA: 0x180A3BCC0
+	// RVA: 0xA3C1B0 Offset: 0xA3A7B0 VA: 0x180A3C1B0
 	public void .ctor() { }
 
 }

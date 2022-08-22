@@ -6,21 +6,21 @@ public static class TextureFormatUtilities // TypeDefIndex: 11873
 
 	// Methods
 
-	// RVA: 0x11E3210 Offset: 0x11E1810 VA: 0x1811E3210
+	// RVA: 0x11E38B0 Offset: 0x11E1EB0 VA: 0x1811E38B0
 	private static void .cctor() { }
 
-	// RVA: 0x11E2FE0 Offset: 0x11E15E0 VA: 0x1811E2FE0
+	// RVA: 0x11E3680 Offset: 0x11E1C80 VA: 0x1811E3680
 	private static bool IsObsolete(object value) { }
 
-	// RVA: 0x11E2DF0 Offset: 0x11E13F0 VA: 0x1811E2DF0
+	// RVA: 0x11E3490 Offset: 0x11E1A90 VA: 0x1811E3490
 	public static RenderTextureFormat GetUncompressedRenderTextureFormat(Texture texture) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11E30F0 Offset: 0x11E16F0 VA: 0x1811E30F0
+	// RVA: 0x11E3790 Offset: 0x11E1D90 VA: 0x1811E3790
 	internal static bool IsSupported(RenderTextureFormat format) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x11E3180 Offset: 0x11E1780 VA: 0x1811E3180
+	// RVA: 0x11E3820 Offset: 0x11E1E20 VA: 0x1811E3820
 	internal static bool IsSupported(TextureFormat format) { }
 
 }

@@ -4,7 +4,7 @@ internal struct Utf8StringPointer // TypeDefIndex: 5271
 
 	// Methods
 
-	// RVA: 0x19E1170 Offset: 0x19DF770 VA: 0x1819E1170
+	// RVA: 0x19CE570 Offset: 0x19CCB70 VA: 0x1819CE570
 	public static string op_Implicit(Utf8StringPointer p) { }
 
 }

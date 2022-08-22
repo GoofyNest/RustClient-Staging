@@ -6,16 +6,16 @@ public class PreloadedCassetteContent : ScriptableObject // TypeDefIndex: 9452
 
 	// Methods
 
-	// RVA: 0x9A7560 Offset: 0x9A5B60 VA: 0x1809A7560
+	// RVA: 0x9A7A50 Offset: 0x9A6050 VA: 0x1809A7A50
 	public SoundDefinition GetSoundContent(int index, PreloadedCassetteContent.PreloadType type) { }
 
-	// RVA: 0x9A74D0 Offset: 0x9A5AD0 VA: 0x1809A74D0
+	// RVA: 0x9A79C0 Offset: 0x9A5FC0 VA: 0x1809A79C0
 	private SoundDefinition GetDefinition(int index, SoundDefinition[] array) { }
 
-	// RVA: 0x9A7700 Offset: 0x9A5D00 VA: 0x1809A7700
+	// RVA: 0x9A7BF0 Offset: 0x9A61F0 VA: 0x1809A7BF0
 	public SoundDefinition GetSoundContent(uint id) { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }

@@ -4,10 +4,10 @@ public sealed class ServicePointManagerElement : ConfigurationElement // TypeDef
 
 	// Methods
 
-	// RVA: 0x15375C0 Offset: 0x1535BC0 VA: 0x1815375C0
+	// RVA: 0x1536690 Offset: 0x1534C90 VA: 0x181536690
 	public void .ctor() { }
 
-	// RVA: 0x15375F0 Offset: 0x1535BF0 VA: 0x1815375F0 Slot: 4
+	// RVA: 0x15366C0 Offset: 0x1534CC0 VA: 0x1815366C0 Slot: 4
 	protected override ConfigurationPropertyCollection get_Properties() { }
 
 }

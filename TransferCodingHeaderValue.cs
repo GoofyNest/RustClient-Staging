@@ -9,34 +9,34 @@ public class TransferCodingHeaderValue : ICloneable // TypeDefIndex: 5808
 
 	// Methods
 
-	// RVA: 0x1097DF0 Offset: 0x10963F0 VA: 0x181097DF0
+	// RVA: 0x1098860 Offset: 0x1096E60 VA: 0x181098860
 	protected void .ctor(TransferCodingHeaderValue source) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	internal void .ctor() { }
 
-	// RVA: 0x1098050 Offset: 0x1096650 VA: 0x181098050
+	// RVA: 0x1098AC0 Offset: 0x10970C0 VA: 0x181098AC0
 	public ICollection<NameValueHeaderValue> get_Parameters() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_Value() { }
 
-	// RVA: 0x1097AD0 Offset: 0x10960D0 VA: 0x181097AD0 Slot: 4
+	// RVA: 0x1098540 Offset: 0x1096B40 VA: 0x181098540 Slot: 4
 	private object System.ICloneable.Clone() { }
 
-	// RVA: 0x1097990 Offset: 0x1095F90 VA: 0x181097990 Slot: 0
+	// RVA: 0x1098400 Offset: 0x1096A00 VA: 0x181098400 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1097A50 Offset: 0x1096050 VA: 0x181097A50 Slot: 2
+	// RVA: 0x10984C0 Offset: 0x1096AC0 VA: 0x1810984C0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1097B30 Offset: 0x1096130 VA: 0x181097B30 Slot: 3
+	// RVA: 0x10985A0 Offset: 0x1096BA0 VA: 0x1810985A0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1097D60 Offset: 0x1096360 VA: 0x181097D60
+	// RVA: 0x10987D0 Offset: 0x1096DD0 VA: 0x1810987D0
 	internal static bool TryParse(string input, int minimalCount, out List<TransferCodingHeaderValue> result) { }
 
-	// RVA: 0x1097B90 Offset: 0x1096190 VA: 0x181097B90
+	// RVA: 0x1098600 Offset: 0x1096C00 VA: 0x181098600
 	private static bool TryParseElement(Lexer lexer, out TransferCodingHeaderValue parsedValue, out Token t) { }
 
 }

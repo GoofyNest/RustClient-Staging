@@ -4,13 +4,13 @@ public class SharpenAndVignetteRenderer : PostProcessEffectRenderer<SharpenAndVi
 
 	// Methods
 
-	// RVA: 0x594AE0 Offset: 0x5930E0 VA: 0x180594AE0 Slot: 4
+	// RVA: 0x594A70 Offset: 0x593070 VA: 0x180594A70 Slot: 4
 	public override void Init() { }
 
-	// RVA: 0x594B30 Offset: 0x593130 VA: 0x180594B30 Slot: 8
+	// RVA: 0x594AC0 Offset: 0x5930C0 VA: 0x180594AC0 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x595020 Offset: 0x593620 VA: 0x180595020
+	// RVA: 0x594FB0 Offset: 0x5935B0 VA: 0x180594FB0
 	public void .ctor() { }
 
 }

@@ -11,13 +11,13 @@ internal struct SetUserItemVoteResult_t : ICallbackData // TypeDefIndex: 5437
 
 	// Methods
 
-	// RVA: 0x1D87A0 Offset: 0x1D7BA0 VA: 0x1801D87A0 Slot: 5
+	// RVA: 0x1D8E10 Offset: 0x1D8210 VA: 0x1801D8E10 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D8790 Offset: 0x1D7B90 VA: 0x1801D8790 Slot: 4
+	// RVA: 0x1D8E00 Offset: 0x1D8200 VA: 0x1801D8E00 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128FB00 Offset: 0x128E100 VA: 0x18128FB00
+	// RVA: 0x12901A0 Offset: 0x128E7A0 VA: 0x1812901A0
 	private static void .cctor() { }
 
 }

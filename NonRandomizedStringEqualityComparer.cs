@@ -11,13 +11,13 @@ internal sealed class DictionaryValueCollectionDebugView<TKey, TValue> // TypeDe
 internal sealed class NonRandomizedStringEqualityComparer : EqualityComparer<string> // TypeDefIndex: 1460
 	// Methods
 
-	// RVA: 0xFE6DC0 Offset: 0xFE53C0 VA: 0x180FE6DC0 Slot: 8
+	// RVA: 0xFE7860 Offset: 0xFE5E60 VA: 0x180FE7860 Slot: 8
 	public sealed override bool Equals(string x, string y) { }
 
-	// RVA: 0x1466F30 Offset: 0x1465530 VA: 0x181466F30 Slot: 9
+	// RVA: 0x1466000 Offset: 0x1464600 VA: 0x181466000 Slot: 9
 	public sealed override int GetHashCode(string obj) { }
 
-	// RVA: 0x1466F50 Offset: 0x1465550 VA: 0x181466F50
+	// RVA: 0x1466020 Offset: 0x1464620 VA: 0x181466020
 	public void .ctor() { }
 
 }

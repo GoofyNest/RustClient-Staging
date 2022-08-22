@@ -15,13 +15,13 @@ internal struct GSReputation_t : ICallbackData // TypeDefIndex: 5497
 
 	// Methods
 
-	// RVA: 0x1E7740 Offset: 0x1E6B40 VA: 0x1801E7740 Slot: 5
+	// RVA: 0x1E7B60 Offset: 0x1E6F60 VA: 0x1801E7B60 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E7730 Offset: 0x1E6B30 VA: 0x1801E7730 Slot: 4
+	// RVA: 0x1E7B50 Offset: 0x1E6F50 VA: 0x1801E7B50 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370F10 Offset: 0x136F510 VA: 0x181370F10
+	// RVA: 0x1370010 Offset: 0x136E610 VA: 0x181370010
 	private static void .cctor() { }
 
 }

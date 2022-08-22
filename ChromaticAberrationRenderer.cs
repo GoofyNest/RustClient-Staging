@@ -4,13 +4,13 @@ internal sealed class ChromaticAberrationRenderer : PostProcessEffectRenderer<Ch
 
 	// Methods
 
-	// RVA: 0x9F18A0 Offset: 0x9EFEA0 VA: 0x1809F18A0 Slot: 8
+	// RVA: 0x9F1D90 Offset: 0x9F0390 VA: 0x1809F1D90 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x9F1820 Offset: 0x9EFE20 VA: 0x1809F1820 Slot: 7
+	// RVA: 0x9F1D10 Offset: 0x9F0310 VA: 0x1809F1D10 Slot: 7
 	public override void Release() { }
 
-	// RVA: 0x9F1C50 Offset: 0x9F0250 VA: 0x1809F1C50
+	// RVA: 0x9F2140 Offset: 0x9F0740 VA: 0x1809F2140
 	public void .ctor() { }
 
 }

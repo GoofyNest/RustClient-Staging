@@ -8,19 +8,19 @@ public class EZCurveRectAttribute : PropertyAttribute // TypeDefIndex: 7125
 
 	// Methods
 
-	// RVA: 0x22389E0 Offset: 0x2236FE0 VA: 0x1822389E0
+	// RVA: 0x2239200 Offset: 0x2237800 VA: 0x182239200
 	public void .ctor() { }
 
-	// RVA: 0x2238A50 Offset: 0x2237050 VA: 0x182238A50
+	// RVA: 0x2239270 Offset: 0x2237870 VA: 0x182239270
 	public void .ctor(Rect rect) { }
 
-	// RVA: 0x2238B40 Offset: 0x2237140 VA: 0x182238B40
+	// RVA: 0x2239360 Offset: 0x2237960 VA: 0x182239360
 	public void .ctor(float x, float y, float width, float height) { }
 
-	// RVA: 0x2238BE0 Offset: 0x22371E0 VA: 0x182238BE0
+	// RVA: 0x2239400 Offset: 0x2237A00 VA: 0x182239400
 	public void .ctor(Rect rect, Color color) { }
 
-	// RVA: 0x2238A90 Offset: 0x2237090 VA: 0x182238A90
+	// RVA: 0x22392B0 Offset: 0x22378B0 VA: 0x1822392B0
 	public void .ctor(float x, float y, float width, float height, Color color) { }
 
 }

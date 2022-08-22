@@ -46,55 +46,55 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 8330
 
 	// Methods
 
-	// RVA: 0xA4AE30 Offset: 0xA49430 VA: 0x180A4AE30 Slot: 49
+	// RVA: 0xA4B320 Offset: 0xA49920 VA: 0x180A4B320 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xA4CF00 Offset: 0xA4B500 VA: 0x180A4CF00 Slot: 50
+	// RVA: 0xA4D3F0 Offset: 0xA4B9F0 VA: 0x180A4D3F0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xA4BC20 Offset: 0xA4A220 VA: 0x180A4BC20 Slot: 35
+	// RVA: 0xA4C110 Offset: 0xA4A710 VA: 0x180A4C110 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA4A230 Offset: 0xA48830 VA: 0x180A4A230 Slot: 145
+	// RVA: 0xA4A720 Offset: 0xA48D20 VA: 0x180A4A720 Slot: 145
 	public virtual bool CanHoldItems() { }
 
-	// RVA: 0xA4B190 Offset: 0xA49790 VA: 0x180A4B190 Slot: 146
+	// RVA: 0xA4B680 Offset: 0xA49C80 VA: 0x180A4B680 Slot: 146
 	public virtual BasePlayer.CameraMode GetMountedCameraMode() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 147
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 147
 	public virtual bool DirectlyMountable() { }
 
-	// RVA: 0xA4ADA0 Offset: 0xA493A0 VA: 0x180A4ADA0 Slot: 148
+	// RVA: 0xA4B290 Offset: 0xA49890 VA: 0x180A4B290 Slot: 148
 	public virtual Transform GetEyeOverride() { }
 
-	// RVA: 0xA4B140 Offset: 0xA49740 VA: 0x180A4B140 Slot: 149
+	// RVA: 0xA4B630 Offset: 0xA49C30 VA: 0x180A4B630 Slot: 149
 	public virtual Quaternion GetMountedBodyAngles() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 150
 	public virtual bool ModifiesThirdPersonCamera() { }
 
-	// RVA: 0x6D36B0 Offset: 0x6D1CB0 VA: 0x1806D36B0 Slot: 151
+	// RVA: 0x6D3640 Offset: 0x6D1C40 VA: 0x1806D3640 Slot: 151
 	public virtual Vector2 GetPitchClamp() { }
 
-	// RVA: 0x6D36D0 Offset: 0x6D1CD0 VA: 0x1806D36D0 Slot: 152
+	// RVA: 0x6D3660 Offset: 0x6D1C60 VA: 0x1806D3660 Slot: 152
 	public virtual Vector2 GetYawClamp() { }
 
-	// RVA: 0xA4B3F0 Offset: 0xA499F0 VA: 0x180A4B3F0 Slot: 153
+	// RVA: 0xA4B8E0 Offset: 0xA49EE0 VA: 0x180A4B8E0 Slot: 153
 	public virtual bool IsMounted() { }
 
-	// RVA: 0xA4AA30 Offset: 0xA49030 VA: 0x180A4AA30 Slot: 154
+	// RVA: 0xA4AF20 Offset: 0xA49520 VA: 0x180A4AF20 Slot: 154
 	public virtual Vector3 EyePositionForPlayer(BasePlayer player, Quaternion lookRot) { }
 
-	// RVA: 0xA4A930 Offset: 0xA48F30 VA: 0x180A4A930 Slot: 155
+	// RVA: 0xA4AE20 Offset: 0xA49420 VA: 0x180A4AE20 Slot: 155
 	public virtual Vector3 EyeCenterForPlayer(BasePlayer player, Quaternion lookRot) { }
 
-	// RVA: 0xA4CD30 Offset: 0xA4B330 VA: 0x180A4CD30 Slot: 156
+	// RVA: 0xA4D220 Offset: 0xA4B820 VA: 0x180A4D220 Slot: 156
 	public virtual float WaterFactorForPlayer(BasePlayer player) { }
 
-	// RVA: 0xA4B530 Offset: 0xA49B30 VA: 0x180A4B530 Slot: 112
+	// RVA: 0xA4BA20 Offset: 0xA4A020 VA: 0x180A4BA20 Slot: 112
 	public override float MaxVelocity() { }
 
-	// RVA: 0xA4C220 Offset: 0xA4A820 VA: 0x180A4C220 Slot: 157
+	// RVA: 0xA4C710 Offset: 0xA4AD10 VA: 0x180A4C710 Slot: 157
 	public virtual bool PlayerIsMounted(BasePlayer player) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 158
@@ -103,7 +103,7 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 8330
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 159
 	public virtual bool ForceUpdatePlayerModel(BasePlayer p) { }
 
-	// RVA: 0xA4C760 Offset: 0xA4AD60 VA: 0x180A4C760
+	// RVA: 0xA4CC50 Offset: 0xA4B250 VA: 0x180A4CC50
 	internal void UpdatePlayerModel(PlayerModel playerModel) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 160
@@ -112,31 +112,31 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 8330
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 161
 	protected virtual bool SuppressHandsAnimationLayer() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 162
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 162
 	protected virtual AnimatorOverrideController GetAnimationOverride() { }
 
-	// RVA: 0x4C3900 Offset: 0x4C1F00 VA: 0x1804C3900 Slot: 163
+	// RVA: 0x4C3890 Offset: 0x4C1E90 VA: 0x1804C3890 Slot: 163
 	protected virtual float GetSpineLookAtWeight() { }
 
-	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 164
+	// RVA: 0x568670 Offset: 0x566C70 VA: 0x180568670 Slot: 164
 	public virtual float GetMountedAnimationSpeed() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 165
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 165
 	public virtual bool get_DisableLegsMeshAtExtremeViewAnglesInFirstPersonWithEyes() { }
 
-	// RVA: 0x714290 Offset: 0x712890 VA: 0x180714290 Slot: 166
+	// RVA: 0x7141E0 Offset: 0x7127E0 VA: 0x1807141E0 Slot: 166
 	public virtual float get_FirstPersonWithArmsEyesLerp() { }
 
-	// RVA: 0xA4B6F0 Offset: 0xA49CF0 VA: 0x180A4B6F0 Slot: 167
+	// RVA: 0xA4BBE0 Offset: 0xA4A1E0 VA: 0x180A4BBE0 Slot: 167
 	public virtual Vector3 ModifyThirdPersonEyeOffset(Vector3 eyeOffset) { }
 
-	// RVA: 0xA4B4C0 Offset: 0xA49AC0 VA: 0x180A4B4C0 Slot: 168
+	// RVA: 0xA4B9B0 Offset: 0xA49FB0 VA: 0x180A4B9B0 Slot: 168
 	public virtual bool LockThirdPersonOffset(out Vector3 offset) { }
 
-	// RVA: 0xA4B400 Offset: 0xA49A00 VA: 0x180A4B400 Slot: 169
+	// RVA: 0xA4B8F0 Offset: 0xA49EF0 VA: 0x180A4B8F0 Slot: 169
 	public virtual bool LocalPlayerIsMounted() { }
 
-	// RVA: 0xA4CCA0 Offset: 0xA4B2A0 VA: 0x180A4CCA0 Slot: 170
+	// RVA: 0xA4D190 Offset: 0xA4B790 VA: 0x180A4D190 Slot: 170
 	public virtual BaseVehicle VehicleParent() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 171
@@ -145,78 +145,78 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 8330
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 172
 	public virtual bool IsInstrument() { }
 
-	// RVA: 0xA4C820 Offset: 0xA4AE20 VA: 0x180A4C820 Slot: 173
+	// RVA: 0xA4CD10 Offset: 0xA4B310 VA: 0x180A4CD10 Slot: 173
 	public virtual void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0xA4CBF0 Offset: 0xA4B1F0 VA: 0x180A4CBF0 Slot: 174
+	// RVA: 0xA4D0E0 Offset: 0xA4B6E0 VA: 0x180A4D0E0 Slot: 174
 	public virtual void UpdatePlayerRotation(BasePlayer player) { }
 
-	// RVA: 0xA4C730 Offset: 0xA4AD30 VA: 0x180A4C730 Slot: 59
+	// RVA: 0xA4CC20 Offset: 0xA4B220 VA: 0x180A4CC20 Slot: 59
 	public override void SetNetworkPosition(Vector3 vPos) { }
 
-	// RVA: 0xA4CA80 Offset: 0xA4B080 VA: 0x180A4CA80
+	// RVA: 0xA4CF70 Offset: 0xA4B570 VA: 0x180A4CF70
 	public void UpdatePlayerPosition(BasePlayer player) { }
 
-	// RVA: 0xA4B260 Offset: 0xA49860 VA: 0x180A4B260 Slot: 175
+	// RVA: 0xA4B750 Offset: 0xA49D50 VA: 0x180A4B750 Slot: 175
 	public virtual Quaternion GetMountedRotation() { }
 
-	// RVA: 0xA4B1A0 Offset: 0xA497A0 VA: 0x180A4B1A0
+	// RVA: 0xA4B690 Offset: 0xA49C90 VA: 0x180A4B690
 	public Vector3 GetMountedPosition() { }
 
-	// RVA: 0xA4C300 Offset: 0xA4A900 VA: 0x180A4C300 Slot: 176
+	// RVA: 0xA4C7F0 Offset: 0xA4ADF0 VA: 0x180A4C7F0 Slot: 176
 	public virtual void PlayerMounted(BasePlayer player, bool wasSwap) { }
 
-	// RVA: 0xA4BD40 Offset: 0xA4A340 VA: 0x180A4BD40 Slot: 177
+	// RVA: 0xA4C230 Offset: 0xA4A830 VA: 0x180A4C230 Slot: 177
 	public virtual void PlayerDismounted(BasePlayer player, bool wasSwap) { }
 
-	// RVA: 0xA4A240 Offset: 0xA48840 VA: 0x180A4A240 Slot: 178
+	// RVA: 0xA4A730 Offset: 0xA48D30 VA: 0x180A4A730 Slot: 178
 	protected virtual void ClientOnPlayerDismounted(BasePlayer player) { }
 
-	// RVA: 0xA4A2E0 Offset: 0xA488E0 VA: 0x180A4A2E0 Slot: 179
+	// RVA: 0xA4A7D0 Offset: 0xA48DD0 VA: 0x180A4A7D0 Slot: 179
 	protected virtual void ClientOnPlayerMounted(BasePlayer player) { }
 
-	// RVA: 0xA4BD10 Offset: 0xA4A310 VA: 0x180A4BD10 Slot: 180
+	// RVA: 0xA4C200 Offset: 0xA4A800 VA: 0x180A4C200 Slot: 180
 	public virtual void OverrideViewAngles(BasePlayer player) { }
 
-	// RVA: 0xA4A4C0 Offset: 0xA48AC0 VA: 0x180A4A4C0 Slot: 181
+	// RVA: 0xA4A9B0 Offset: 0xA48FB0 VA: 0x180A4A9B0 Slot: 181
 	public virtual void DoPlayerMovement(BasePlayer player, InputState input, ModelState modelState) { }
 
-	// RVA: 0xA4B370 Offset: 0xA49970 VA: 0x180A4B370 Slot: 182
+	// RVA: 0xA4B860 Offset: 0xA49E60 VA: 0x180A4B860 Slot: 182
 	protected virtual bool HoldToDismount() { }
 
-	// RVA: 0xA4A3B0 Offset: 0xA489B0 VA: 0x180A4A3B0
+	// RVA: 0xA4A8A0 Offset: 0xA48EA0 VA: 0x180A4A8A0
 	public void ClientRequestDismount() { }
 
 	[BaseEntity.Menu] // RVA: 0x7AB20 Offset: 0x79F20 VA: 0x18007AB20
 	[BaseEntity.Menu.Description] // RVA: 0x7AB20 Offset: 0x79F20 VA: 0x18007AB20
 	[BaseEntity.Menu.Icon] // RVA: 0x7AB20 Offset: 0x79F20 VA: 0x18007AB20
 	[BaseEntity.Menu.ShowIf] // RVA: 0x7AB20 Offset: 0x79F20 VA: 0x18007AB20
-	// RVA: 0xA4B680 Offset: 0xA49C80 VA: 0x180A4B680
+	// RVA: 0xA4BB70 Offset: 0xA4A170 VA: 0x180A4BB70
 	public void Menu_Mount(BasePlayer player) { }
 
-	// RVA: 0xA4B5E0 Offset: 0xA49BE0 VA: 0x180A4B5E0 Slot: 183
+	// RVA: 0xA4BAD0 Offset: 0xA4A0D0 VA: 0x180A4BAD0 Slot: 183
 	public virtual bool Menu_Mount_ShowIf(BasePlayer player) { }
 
-	// RVA: 0xA4B710 Offset: 0xA49D10 VA: 0x180A4B710 Slot: 184
+	// RVA: 0xA4BC00 Offset: 0xA4A200 VA: 0x180A4BC00 Slot: 184
 	public virtual bool MountMenuVisible(BasePlayer player) { }
 
-	// RVA: 0xA4B7A0 Offset: 0xA49DA0 VA: 0x180A4B7A0
+	// RVA: 0xA4BC90 Offset: 0xA4A290 VA: 0x180A4BC90
 	public bool NearMountPoint(BasePlayer player) { }
 
-	// RVA: 0xA4A3F0 Offset: 0xA489F0 VA: 0x180A4A3F0
+	// RVA: 0xA4A8E0 Offset: 0xA48EE0 VA: 0x180A4A8E0
 	public static Vector3 ConvertVector(Vector3 vec) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 185
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 185
 	public virtual bool get_BlocksDoors() { }
 
-	// RVA: 0xA4CE50 Offset: 0xA4B450 VA: 0x180A4CE50
+	// RVA: 0xA4D340 Offset: 0xA4B940 VA: 0x180A4D340
 	public void .ctor() { }
 
-	// RVA: 0xA4CDE0 Offset: 0xA4B3E0 VA: 0x180A4CDE0
+	// RVA: 0xA4D2D0 Offset: 0xA4B8D0 VA: 0x180A4D2D0
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4A3B0 Offset: 0xA489B0 VA: 0x180A4A3B0
+	// RVA: 0xA4A8A0 Offset: 0xA48EA0 VA: 0x180A4A8A0
 	private void <DoPlayerMovement>b__78_0(BasePlayer basePlayer) { }
 
 }

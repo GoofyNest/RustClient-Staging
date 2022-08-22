@@ -9,18 +9,18 @@ public static class Account // TypeDefIndex: 6172
 
 	// Methods
 
-	// RVA: 0x14A9440 Offset: 0x14A7A40 VA: 0x1814A9440
+	// RVA: 0x14A8510 Offset: 0x14A6B10 VA: 0x1814A8510
 	public static bool get_IsReachable() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x9F030 Offset: 0x9E430 VA: 0x18009F030
-	// RVA: 0x14A9320 Offset: 0x14A7920 VA: 0x1814A9320
+	// RVA: 0x14A83F0 Offset: 0x14A69F0 VA: 0x1814A83F0
 	public static Task Refresh() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x9F130 Offset: 0x9E530 VA: 0x18009F130
-	// RVA: 0x14A9240 Offset: 0x14A7840 VA: 0x1814A9240
+	// RVA: 0x14A8310 Offset: 0x14A6910 VA: 0x1814A8310
 	public static Task ReadAllNotices() { }
 
-	// RVA: 0x14A93F0 Offset: 0x14A79F0 VA: 0x1814A93F0
+	// RVA: 0x14A84C0 Offset: 0x14A6AC0 VA: 0x1814A84C0
 	private static void .cctor() { }
 
 }
@@ -42,19 +42,19 @@ public class Account.AccountJson // TypeDefIndex: 6173
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_SteamId() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_SteamId(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public int get_UnreadNotices() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
+	// RVA: 0x79C6B0 Offset: 0x79ACB0 VA: 0x18079C6B0
 	public void set_UnreadNotices(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -80,7 +80,7 @@ private struct Account.<Refresh>d__6 : IAsyncStateMachine // TypeDefIndex: 6174
 
 	// Methods
 
-	// RVA: 0x1F1970 Offset: 0x1F0D70 VA: 0x1801F1970 Slot: 4
+	// RVA: 0x1F1D90 Offset: 0x1F1190 VA: 0x1801F1D90 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -100,7 +100,7 @@ private struct Account.<ReadAllNotices>d__7 : IAsyncStateMachine // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1F1960 Offset: 0x1F0D60 VA: 0x1801F1960 Slot: 4
+	// RVA: 0x1F1D80 Offset: 0x1F1180 VA: 0x1801F1D80 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

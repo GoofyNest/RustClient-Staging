@@ -12,52 +12,52 @@ internal class Ucs4Encoding : Encoding // TypeDefIndex: 2014
 
 	// Methods
 
-	// RVA: 0x4C2860 Offset: 0x4C0E60 VA: 0x1804C2860 Slot: 10
+	// RVA: 0x4C27F0 Offset: 0x4C0DF0 VA: 0x1804C27F0 Slot: 10
 	public override string get_WebName() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0 Slot: 38
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340 Slot: 38
 	public override Decoder GetDecoder() { }
 
-	// RVA: 0xE4F0E0 Offset: 0xE4D6E0 VA: 0x180E4F0E0 Slot: 19
+	// RVA: 0xE4FB90 Offset: 0xE4E190 VA: 0x180E4FB90 Slot: 19
 	public override int GetByteCount(char[] chars, int index, int count) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 25
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 25
 	public override byte[] GetBytes(string s) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 24
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 24
 	public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 40
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 40
 	public override int GetMaxByteCount(int charCount) { }
 
-	// RVA: 0xE4F140 Offset: 0xE4D740 VA: 0x180E4F140 Slot: 29
+	// RVA: 0xE4FBF0 Offset: 0xE4E1F0 VA: 0x180E4FBF0 Slot: 29
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0xE4F170 Offset: 0xE4D770 VA: 0x180E4F170 Slot: 33
+	// RVA: 0xE4FC20 Offset: 0xE4E220 VA: 0x180E4FC20 Slot: 33
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0xE4F1A0 Offset: 0xE4D7A0 VA: 0x180E4F1A0 Slot: 41
+	// RVA: 0xE4FC50 Offset: 0xE4E250 VA: 0x180E4FC50 Slot: 41
 	public override int GetMaxCharCount(int byteCount) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 36
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 36
 	public override int get_CodePage() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 39
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 39
 	public override Encoder GetEncoder() { }
 
-	// RVA: 0xE4F430 Offset: 0xE4DA30 VA: 0x180E4F430
+	// RVA: 0xE4FEE0 Offset: 0xE4E4E0 VA: 0x180E4FEE0
 	internal static Encoding get_UCS4_Littleendian() { }
 
-	// RVA: 0xE4F360 Offset: 0xE4D960 VA: 0x180E4F360
+	// RVA: 0xE4FE10 Offset: 0xE4E410 VA: 0x180E4FE10
 	internal static Encoding get_UCS4_Bigendian() { }
 
-	// RVA: 0xE4F1C0 Offset: 0xE4D7C0 VA: 0x180E4F1C0
+	// RVA: 0xE4FC70 Offset: 0xE4E270 VA: 0x180E4FC70
 	internal static Encoding get_UCS4_2143() { }
 
-	// RVA: 0xE4F290 Offset: 0xE4D890 VA: 0x180E4F290
+	// RVA: 0xE4FD40 Offset: 0xE4E340 VA: 0x180E4FD40
 	internal static Encoding get_UCS4_3412() { }
 
-	// RVA: 0xE4F1B0 Offset: 0xE4D7B0 VA: 0x180E4F1B0
+	// RVA: 0xE4FC60 Offset: 0xE4E260 VA: 0x180E4FC60
 	public void .ctor() { }
 
 }

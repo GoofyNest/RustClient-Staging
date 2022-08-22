@@ -28,21 +28,21 @@ internal static class Internal_SubsystemInstances // TypeDefIndex: 3942
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x23193D0 Offset: 0x23179D0 VA: 0x1823193D0
+	// RVA: 0x2319BF0 Offset: 0x23181F0 VA: 0x182319BF0
 	internal static void Internal_InitializeManagedInstance(IntPtr ptr, IntegratedSubsystem inst) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2318FC0 Offset: 0x23175C0 VA: 0x182318FC0
+	// RVA: 0x23197E0 Offset: 0x2317DE0 VA: 0x1823197E0
 	internal static void Internal_ClearManagedInstances() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2319490 Offset: 0x2317A90 VA: 0x182319490
+	// RVA: 0x2319CB0 Offset: 0x23182B0 VA: 0x182319CB0
 	internal static void Internal_RemoveInstanceByPtr(IntPtr ptr) { }
 
-	// RVA: 0x23191F0 Offset: 0x23177F0 VA: 0x1823191F0
+	// RVA: 0x2319A10 Offset: 0x2318010 VA: 0x182319A10
 	internal static IntegratedSubsystem Internal_GetInstanceByPtr(IntPtr ptr) { }
 
-	// RVA: 0x2319730 Offset: 0x2317D30 VA: 0x182319730
+	// RVA: 0x2319F50 Offset: 0x2318550 VA: 0x182319F50
 	private static void .cctor() { }
 
 }
@@ -55,18 +55,18 @@ internal static class Internal_SubsystemDescriptors // TypeDefIndex: 3943
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2318A60 Offset: 0x2317060 VA: 0x182318A60
+	// RVA: 0x2319280 Offset: 0x2317880 VA: 0x182319280
 	internal static bool Internal_AddDescriptor(SubsystemDescriptor descriptor) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2318E80 Offset: 0x2317480 VA: 0x182318E80
+	// RVA: 0x23196A0 Offset: 0x2317CA0 VA: 0x1823196A0
 	internal static void Internal_InitializeManagedDescriptor(IntPtr ptr, ISubsystemDescriptorImpl desc) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2318C90 Offset: 0x2317290 VA: 0x182318C90
+	// RVA: 0x23194B0 Offset: 0x2317AB0 VA: 0x1823194B0
 	internal static void Internal_ClearManagedDescriptors() { }
 
-	// RVA: 0x2318F20 Offset: 0x2317520 VA: 0x182318F20
+	// RVA: 0x2319740 Offset: 0x2317D40 VA: 0x182319740
 	private static void .cctor() { }
 
 }

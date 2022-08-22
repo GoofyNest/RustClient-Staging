@@ -5,25 +5,25 @@ public sealed class X500DistinguishedName : AsnEncodedData // TypeDefIndex: 2812
 
 	// Methods
 
-	// RVA: 0x1190750 Offset: 0x118ED50 VA: 0x181190750
+	// RVA: 0x1195070 Offset: 0x1193670 VA: 0x181195070
 	public void .ctor(byte[] encodedDistinguishedName) { }
 
-	// RVA: 0x11904F0 Offset: 0x118EAF0 VA: 0x1811904F0
+	// RVA: 0x1194E10 Offset: 0x1193410 VA: 0x181194E10
 	public string Decode(X500DistinguishedNameFlags flag) { }
 
-	// RVA: 0x1190680 Offset: 0x118EC80 VA: 0x181190680 Slot: 5
+	// RVA: 0x1194FA0 Offset: 0x11935A0 VA: 0x181194FA0 Slot: 5
 	public override string Format(bool multiLine) { }
 
-	// RVA: 0x11906F0 Offset: 0x118ECF0 VA: 0x1811906F0
+	// RVA: 0x1195010 Offset: 0x1193610 VA: 0x181195010
 	private static string GetSeparator(X500DistinguishedNameFlags flag) { }
 
-	// RVA: 0x1190420 Offset: 0x118EA20 VA: 0x181190420
+	// RVA: 0x1194D40 Offset: 0x1193340 VA: 0x181194D40
 	private void DecodeRawData() { }
 
-	// RVA: 0x11901A0 Offset: 0x118E7A0 VA: 0x1811901A0
+	// RVA: 0x1194AC0 Offset: 0x11930C0 VA: 0x181194AC0
 	private static string Canonize(string s) { }
 
-	// RVA: 0x118FF30 Offset: 0x118E530 VA: 0x18118FF30
+	// RVA: 0x1194850 Offset: 0x1192E50 VA: 0x181194850
 	internal static bool AreEqual(X500DistinguishedName name1, X500DistinguishedName name2) { }
 
 }

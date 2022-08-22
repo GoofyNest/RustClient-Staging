@@ -20,20 +20,20 @@ public class ConditionalObject // TypeDefIndex: 12096
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BB480 Offset: 0x4B9A80 VA: 0x1804BB480
+	// RVA: 0x4BB410 Offset: 0x4B9A10 VA: 0x1804BB410
 	public Nullable<bool> get_IsActive() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BB490 Offset: 0x4B9A90 VA: 0x1804BB490
+	// RVA: 0x4BB420 Offset: 0x4B9A20 VA: 0x1804BB420
 	private void set_IsActive(Nullable<bool> value) { }
 
-	// RVA: 0x4BB3E0 Offset: 0x4B99E0 VA: 0x1804BB3E0
+	// RVA: 0x4BB370 Offset: 0x4B9970 VA: 0x1804BB370
 	public void .ctor(GameObject conditionalGO, GameObject ownerGO, int socketsTaken) { }
 
-	// RVA: 0x4BB340 Offset: 0x4B9940 VA: 0x1804BB340
+	// RVA: 0x4BB2D0 Offset: 0x4B98D0 VA: 0x1804BB2D0
 	public void SetActive(bool active) { }
 
-	// RVA: 0x4BB2D0 Offset: 0x4B98D0 VA: 0x1804BB2D0
+	// RVA: 0x4BB260 Offset: 0x4B9860 VA: 0x1804BB260
 	public void RefreshActive() { }
 
 }

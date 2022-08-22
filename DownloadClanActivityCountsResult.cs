@@ -9,13 +9,13 @@ internal struct DownloadClanActivityCountsResult_t : ICallbackData // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1E5410 Offset: 0x1E4810 VA: 0x1801E5410 Slot: 5
+	// RVA: 0x1E5830 Offset: 0x1E4C30 VA: 0x1801E5830 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E5400 Offset: 0x1E4800 VA: 0x1801E5400 Slot: 4
+	// RVA: 0x1E5820 Offset: 0x1E4C20 VA: 0x1801E5820 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370240 Offset: 0x136E840 VA: 0x181370240
+	// RVA: 0x136F340 Offset: 0x136D940 VA: 0x18136F340
 	private static void .cctor() { }
 
 }

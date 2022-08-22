@@ -9,19 +9,19 @@ public class RandomDynamicObject : MonoBehaviour, IClientComponent, ILOD // Type
 
 	// Methods
 
-	// RVA: 0x6A6FB0 Offset: 0x6A55B0 VA: 0x1806A6FB0
+	// RVA: 0x6A6F40 Offset: 0x6A5540 VA: 0x1806A6F40
 	protected void OnEnable() { }
 
-	// RVA: 0x6A6F00 Offset: 0x6A5500 VA: 0x1806A6F00
+	// RVA: 0x6A6E90 Offset: 0x6A5490 VA: 0x1806A6E90
 	protected void OnDisable() { }
 
-	// RVA: 0x6A7340 Offset: 0x6A5940 VA: 0x1806A7340 Slot: 5
+	// RVA: 0x6A72D0 Offset: 0x6A58D0 VA: 0x1806A72D0 Slot: 5
 	public void RefreshLOD() { }
 
-	// RVA: 0x6A6E90 Offset: 0x6A5490 VA: 0x1806A6E90 Slot: 4
+	// RVA: 0x6A6E20 Offset: 0x6A5420 VA: 0x1806A6E20 Slot: 4
 	public void ChangeLOD() { }
 
-	// RVA: 0x6A73C0 Offset: 0x6A59C0 VA: 0x1806A73C0
+	// RVA: 0x6A7350 Offset: 0x6A5950 VA: 0x1806A7350
 	public void .ctor() { }
 
 }

@@ -1,10 +1,10 @@
 public class HMACSHA256 : HMAC // TypeDefIndex: 964
 {	// Methods
 
-	// RVA: 0x1701400 Offset: 0x16FFA00 VA: 0x181701400
+	// RVA: 0x16FEFF0 Offset: 0x16FD5F0 VA: 0x1816FEFF0
 	public void .ctor() { }
 
-	// RVA: 0x1701330 Offset: 0x16FF930 VA: 0x181701330
+	// RVA: 0x16FEF20 Offset: 0x16FD520 VA: 0x1816FEF20
 	public void .ctor(byte[] key) { }
 
 }

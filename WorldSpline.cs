@@ -12,70 +12,70 @@ public class WorldSpline : MonoBehaviour // TypeDefIndex: 11411
 
 	// Methods
 
-	// RVA: 0x1A8A1D0 Offset: 0x1A887D0 VA: 0x181A8A1D0
+	// RVA: 0x1A769E0 Offset: 0x1A74FE0 VA: 0x181A769E0
 	public WorldSplineData GetData() { }
 
-	// RVA: 0x1A8B840 Offset: 0x1A89E40 VA: 0x181A8B840
+	// RVA: 0x1A78050 Offset: 0x1A76650 VA: 0x181A78050
 	public void SetAll(Vector3[] points, Vector3[] tangents, float lutInterval) { }
 
-	// RVA: 0x1A897C0 Offset: 0x1A87DC0 VA: 0x181A897C0
+	// RVA: 0x1A75FD0 Offset: 0x1A745D0 VA: 0x181A75FD0
 	public void CheckValidity() { }
 
-	// RVA: 0x1A8B6B0 Offset: 0x1A89CB0 VA: 0x181A8B6B0 Slot: 4
+	// RVA: 0x1A77EC0 Offset: 0x1A764C0 VA: 0x181A77EC0 Slot: 4
 	protected virtual void OnDrawGizmosSelected() { }
 
-	// RVA: 0x1A89A60 Offset: 0x1A88060 VA: 0x181A89A60
+	// RVA: 0x1A76270 Offset: 0x1A74870 VA: 0x181A76270
 	protected static void DrawSplineGizmo(WorldSpline ws, Color splineColour) { }
 
-	// RVA: 0x1A8B2A0 Offset: 0x1A898A0 VA: 0x181A8B2A0
+	// RVA: 0x1A77AB0 Offset: 0x1A760B0 VA: 0x181A77AB0
 	private static Vector3[] GetVisualSpline(WorldSpline ws, WorldSplineData data, float distBetweenPoints) { }
 
-	// RVA: 0x1A8AAD0 Offset: 0x1A890D0 VA: 0x181A8AAD0
+	// RVA: 0x1A772E0 Offset: 0x1A758E0 VA: 0x181A772E0
 	public Vector3 GetStartPointWorld() { }
 
-	// RVA: 0x1A8A3C0 Offset: 0x1A889C0 VA: 0x181A8A3C0
+	// RVA: 0x1A76BD0 Offset: 0x1A751D0 VA: 0x181A76BD0
 	public Vector3 GetEndPointWorld() { }
 
-	// RVA: 0x1A8AB60 Offset: 0x1A89160 VA: 0x181A8AB60
+	// RVA: 0x1A77370 Offset: 0x1A75970 VA: 0x181A77370
 	public Vector3 GetStartTangentWorld() { }
 
-	// RVA: 0x1A8A460 Offset: 0x1A88A60 VA: 0x181A8A460
+	// RVA: 0x1A76C70 Offset: 0x1A75270 VA: 0x181A76C70
 	public Vector3 GetEndTangentWorld() { }
 
-	// RVA: 0x1A8AEA0 Offset: 0x1A894A0 VA: 0x181A8AEA0
+	// RVA: 0x1A776B0 Offset: 0x1A75CB0 VA: 0x181A776B0
 	public Vector3 GetTangentCubicHermiteWorld(float distance) { }
 
-	// RVA: 0x1A8ACF0 Offset: 0x1A892F0 VA: 0x181A8ACF0
+	// RVA: 0x1A77500 Offset: 0x1A75B00 VA: 0x181A77500
 	public Vector3 GetTangentCubicHermiteWorld(float distance, WorldSplineData data) { }
 
-	// RVA: 0x1A8A810 Offset: 0x1A88E10 VA: 0x181A8A810
+	// RVA: 0x1A77020 Offset: 0x1A75620 VA: 0x181A77020
 	public Vector3 GetPointCubicHermiteWorld(float distance) { }
 
-	// RVA: 0x1A8A8D0 Offset: 0x1A88ED0 VA: 0x181A8A8D0
+	// RVA: 0x1A770E0 Offset: 0x1A756E0 VA: 0x181A770E0
 	public Vector3 GetPointCubicHermiteWorld(float distance, WorldSplineData data) { }
 
-	// RVA: 0x1A8A700 Offset: 0x1A88D00 VA: 0x181A8A700
+	// RVA: 0x1A76F10 Offset: 0x1A75510 VA: 0x181A76F10
 	public Vector3 GetPointAndTangentCubicHermiteWorld(float distance, out Vector3 tangent) { }
 
-	// RVA: 0x1A8A600 Offset: 0x1A88C00 VA: 0x181A8A600
+	// RVA: 0x1A76E10 Offset: 0x1A75410 VA: 0x181A76E10
 	public Vector3 GetPointAndTangentCubicHermiteWorld(float distance, WorldSplineData data, out Vector3 tangent) { }
 
-	// RVA: 0x1A8A980 Offset: 0x1A88F80 VA: 0x181A8A980
+	// RVA: 0x1A77190 Offset: 0x1A75790 VA: 0x181A77190
 	public Vector3[] GetPointsWorld() { }
 
-	// RVA: 0x1A8B050 Offset: 0x1A89650 VA: 0x181A8B050
+	// RVA: 0x1A77860 Offset: 0x1A75E60 VA: 0x181A77860
 	public Vector3[] GetTangentsWorld() { }
 
-	// RVA: 0x1A8B730 Offset: 0x1A89D30 VA: 0x181A8B730
+	// RVA: 0x1A77F40 Offset: 0x1A76540 VA: 0x181A77F40
 	private static Vector3[] PointsToWorld(Vector3[] points, Transform tr) { }
 
-	// RVA: 0x1A8B890 Offset: 0x1A89E90 VA: 0x181A8B890
+	// RVA: 0x1A780A0 Offset: 0x1A766A0 VA: 0x181A780A0
 	private static Vector3[] TangentsToWorld(Vector3[] tangents, Transform tr) { }
 
-	// RVA: 0x1A8BB10 Offset: 0x1A8A110 VA: 0x181A8BB10
+	// RVA: 0x1A78320 Offset: 0x1A76920 VA: 0x181A78320
 	public void .ctor() { }
 
-	// RVA: 0x1A8BAB0 Offset: 0x1A8A0B0 VA: 0x181A8BAB0
+	// RVA: 0x1A782C0 Offset: 0x1A768C0 VA: 0x181A782C0
 	private static void .cctor() { }
 
 }

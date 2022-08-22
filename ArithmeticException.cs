@@ -1,16 +1,16 @@
 public class ArithmeticException : SystemException // TypeDefIndex: 169
 {	// Methods
 
-	// RVA: 0x15549B0 Offset: 0x1552FB0 VA: 0x1815549B0
+	// RVA: 0x1553A80 Offset: 0x1552080 VA: 0x181553A80
 	public void .ctor() { }
 
-	// RVA: 0x1554A10 Offset: 0x1553010 VA: 0x181554A10
+	// RVA: 0x1553AE0 Offset: 0x15520E0 VA: 0x181553AE0
 	public void .ctor(string message) { }
 
-	// RVA: 0x1554980 Offset: 0x1552F80 VA: 0x181554980
+	// RVA: 0x1553A50 Offset: 0x1552050 VA: 0x181553A50
 	public void .ctor(string message, Exception innerException) { }
 
-	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
+	// RVA: 0xFDDEB0 Offset: 0xFDC4B0 VA: 0x180FDDEB0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

@@ -1,19 +1,19 @@
 public class ScreenshotCamera : RustCamera<ScreenshotCamera> // TypeDefIndex: 9234
 {	// Fields
-	public static List<ScreenshotCamera> activeScreenshotCameras; // 0x1CE0
+	public static List<ScreenshotCamera> activeScreenshotCameras; // 0x1BE0
 
 	// Methods
 
-	// RVA: 0x4A4F20 Offset: 0x4A3520 VA: 0x1804A4F20 Slot: 8
+	// RVA: 0x4A4EB0 Offset: 0x4A34B0 VA: 0x1804A4EB0 Slot: 8
 	protected override void OnEnable() { }
 
-	// RVA: 0x4A4EA0 Offset: 0x4A34A0 VA: 0x1804A4EA0 Slot: 10
+	// RVA: 0x4A4E30 Offset: 0x4A3430 VA: 0x1804A4E30 Slot: 10
 	protected virtual void OnDisable() { }
 
-	// RVA: 0x4A5010 Offset: 0x4A3610 VA: 0x1804A5010
+	// RVA: 0x4A4FA0 Offset: 0x4A35A0 VA: 0x1804A4FA0
 	public void .ctor() { }
 
-	// RVA: 0x4A4FB0 Offset: 0x4A35B0 VA: 0x1804A4FB0
+	// RVA: 0x4A4F40 Offset: 0x4A3540 VA: 0x1804A4F40
 	private static void .cctor() { }
 
 }

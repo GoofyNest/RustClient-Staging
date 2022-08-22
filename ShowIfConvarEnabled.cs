@@ -6,16 +6,16 @@ public class ShowIfConvarEnabled : MonoBehaviour // TypeDefIndex: 11280
 
 	// Methods
 
-	// RVA: 0x59A180 Offset: 0x598780 VA: 0x18059A180
+	// RVA: 0x59A110 Offset: 0x598710 VA: 0x18059A110
 	public void OnEnable() { }
 
-	// RVA: 0x59A100 Offset: 0x598700 VA: 0x18059A100
+	// RVA: 0x59A090 Offset: 0x598690 VA: 0x18059A090
 	public void OnDestroy() { }
 
-	// RVA: 0x59A2E0 Offset: 0x5988E0 VA: 0x18059A2E0
+	// RVA: 0x59A270 Offset: 0x598870 VA: 0x18059A270
 	private void OnValueChanged(ConsoleSystem.Command obj) { }
 
-	// RVA: 0x59A330 Offset: 0x598930 VA: 0x18059A330
+	// RVA: 0x59A2C0 Offset: 0x5988C0 VA: 0x18059A2C0
 	public void .ctor() { }
 
 }

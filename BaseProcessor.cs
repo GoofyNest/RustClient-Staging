@@ -16,67 +16,67 @@ internal class BaseProcessor // TypeDefIndex: 2139
 
 	// Methods
 
-	// RVA: 0xF45070 Offset: 0xF43670 VA: 0x180F45070
+	// RVA: 0xF45B10 Offset: 0xF44110 VA: 0x180F45B10
 	public void .ctor(XmlNameTable nameTable, SchemaNames schemaNames, ValidationEventHandler eventHandler) { }
 
-	// RVA: 0xF45110 Offset: 0xF43710 VA: 0x180F45110
+	// RVA: 0xF45BB0 Offset: 0xF441B0 VA: 0x180F45BB0
 	public void .ctor(XmlNameTable nameTable, SchemaNames schemaNames, ValidationEventHandler eventHandler, XmlSchemaCompilationSettings compilationSettings) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	protected XmlNameTable get_NameTable() { }
 
-	// RVA: 0xF451F0 Offset: 0xF437F0 VA: 0x180F451F0
+	// RVA: 0xF45C90 Offset: 0xF44290 VA: 0x180F45C90
 	protected SchemaNames get_SchemaNames() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	protected ValidationEventHandler get_EventHandler() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	protected XmlSchemaCompilationSettings get_CompilationSettings() { }
 
-	// RVA: 0xF451E0 Offset: 0xF437E0 VA: 0x180F451E0
+	// RVA: 0xF45C80 Offset: 0xF44280 VA: 0x180F45C80
 	protected bool get_HasErrors() { }
 
-	// RVA: 0xF43DC0 Offset: 0xF423C0 VA: 0x180F43DC0
+	// RVA: 0xF44860 Offset: 0xF42E60 VA: 0x180F44860
 	protected void AddToTable(XmlSchemaObjectTable table, XmlQualifiedName qname, XmlSchemaObject item) { }
 
-	// RVA: 0xF44340 Offset: 0xF42940 VA: 0x180F44340
+	// RVA: 0xF44DE0 Offset: 0xF433E0 VA: 0x180F44DE0
 	private bool IsValidAttributeGroupRedefine(XmlSchemaObject existingObject, XmlSchemaObject item, XmlSchemaObjectTable table) { }
 
-	// RVA: 0xF44460 Offset: 0xF42A60 VA: 0x180F44460
+	// RVA: 0xF44F00 Offset: 0xF43500 VA: 0x180F44F00
 	private bool IsValidGroupRedefine(XmlSchemaObject existingObject, XmlSchemaObject item, XmlSchemaObjectTable table) { }
 
-	// RVA: 0xF44580 Offset: 0xF42B80 VA: 0x180F44580
+	// RVA: 0xF45020 Offset: 0xF43620 VA: 0x180F45020
 	private bool IsValidTypeRedefine(XmlSchemaObject existingObject, XmlSchemaObject item, XmlSchemaObjectTable table) { }
 
-	// RVA: 0xF44AE0 Offset: 0xF430E0 VA: 0x180F44AE0
+	// RVA: 0xF45580 Offset: 0xF43B80 VA: 0x180F45580
 	protected void SendValidationEvent(string code, XmlSchemaObject source) { }
 
-	// RVA: 0xF44E40 Offset: 0xF43440 VA: 0x180F44E40
+	// RVA: 0xF458E0 Offset: 0xF43EE0 VA: 0x180F458E0
 	protected void SendValidationEvent(string code, string msg, XmlSchemaObject source) { }
 
-	// RVA: 0xF44730 Offset: 0xF42D30 VA: 0x180F44730
+	// RVA: 0xF451D0 Offset: 0xF437D0 VA: 0x180F451D0
 	protected void SendValidationEvent(string code, string msg1, string msg2, XmlSchemaObject source) { }
 
-	// RVA: 0xF44CF0 Offset: 0xF432F0 VA: 0x180F44CF0
+	// RVA: 0xF45790 Offset: 0xF43D90 VA: 0x180F45790
 	protected void SendValidationEvent(string code, string[] args, Exception innerException, XmlSchemaObject source) { }
 
-	// RVA: 0xF44900 Offset: 0xF42F00 VA: 0x180F44900
+	// RVA: 0xF453A0 Offset: 0xF439A0 VA: 0x180F453A0
 	protected void SendValidationEvent(string code, string msg1, string msg2, string sourceUri, int lineNumber, int linePosition) { }
 
-	// RVA: 0xF44F30 Offset: 0xF43530 VA: 0x180F44F30
+	// RVA: 0xF459D0 Offset: 0xF43FD0 VA: 0x180F459D0
 	protected void SendValidationEvent(string code, XmlSchemaObject source, XmlSeverityType severity) { }
 
-	// RVA: 0xF44BC0 Offset: 0xF431C0 VA: 0x180F44BC0
+	// RVA: 0xF45660 Offset: 0xF43C60 VA: 0x180F45660
 	protected void SendValidationEvent(XmlSchemaException e) { }
 
-	// RVA: 0xF44C50 Offset: 0xF43250 VA: 0x180F44C50
+	// RVA: 0xF456F0 Offset: 0xF43CF0 VA: 0x180F456F0
 	protected void SendValidationEvent(string code, string msg, XmlSchemaObject source, XmlSeverityType severity) { }
 
-	// RVA: 0xF44FC0 Offset: 0xF435C0 VA: 0x180F44FC0
+	// RVA: 0xF45A60 Offset: 0xF44060 VA: 0x180F45A60
 	protected void SendValidationEvent(XmlSchemaException e, XmlSeverityType severity) { }
 
-	// RVA: 0xF446A0 Offset: 0xF42CA0 VA: 0x180F446A0
+	// RVA: 0xF45140 Offset: 0xF43740 VA: 0x180F45140
 	protected void SendValidationEventNoThrow(XmlSchemaException e, XmlSeverityType severity) { }
 
 }

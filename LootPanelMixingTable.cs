@@ -10,37 +10,37 @@ public class LootPanelMixingTable : LootPanel, IInventoryChanged // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x508B70 Offset: 0x507170 VA: 0x180508B70
+	// RVA: 0x508B00 Offset: 0x507100 VA: 0x180508B00
 	private void OnEnable() { }
 
-	// RVA: 0x508AB0 Offset: 0x5070B0 VA: 0x180508AB0 Slot: 6
+	// RVA: 0x508A40 Offset: 0x507040 VA: 0x180508A40 Slot: 6
 	protected override void OnDisable() { }
 
-	// RVA: 0x508E70 Offset: 0x507470 VA: 0x180508E70
+	// RVA: 0x508E00 Offset: 0x507400 VA: 0x180508E00
 	public void SetupRecipeBook() { }
 
-	// RVA: 0x508920 Offset: 0x506F20 VA: 0x180508920
+	// RVA: 0x5088B0 Offset: 0x506EB0 VA: 0x1805088B0
 	private void DestroyRecipeItems() { }
 
-	// RVA: 0x509330 Offset: 0x507930 VA: 0x180509330 Slot: 5
+	// RVA: 0x5092C0 Offset: 0x5078C0 VA: 0x1805092C0 Slot: 5
 	public override void Update() { }
 
-	// RVA: 0x508C00 Offset: 0x507200 VA: 0x180508C00 Slot: 7
+	// RVA: 0x508B90 Offset: 0x507190 VA: 0x180508B90 Slot: 7
 	public void OnInventoryChanged() { }
 
-	// RVA: 0x508C10 Offset: 0x507210 VA: 0x180508C10
+	// RVA: 0x508BA0 Offset: 0x5071A0 VA: 0x180508BA0
 	private void RefreshRecipeValidity() { }
 
-	// RVA: 0x5089F0 Offset: 0x506FF0 VA: 0x1805089F0
+	// RVA: 0x508980 Offset: 0x506F80 VA: 0x180508980
 	public MixingTable GetMixingTable() { }
 
-	// RVA: 0x508A80 Offset: 0x507080 VA: 0x180508A80
+	// RVA: 0x508A10 Offset: 0x507010 VA: 0x180508A10
 	public bool IsOn() { }
 
-	// RVA: 0x5091C0 Offset: 0x5077C0 VA: 0x1805091C0
+	// RVA: 0x509150 Offset: 0x507750 VA: 0x180509150
 	public void Switch(bool onOff) { }
 
-	// RVA: 0x509540 Offset: 0x507B40 VA: 0x180509540
+	// RVA: 0x5094D0 Offset: 0x507AD0 VA: 0x1805094D0
 	public void .ctor() { }
 
 }

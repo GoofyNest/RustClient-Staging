@@ -26,15 +26,15 @@ public class ImpostorBatch // TypeDefIndex: 10681
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	private void set_Mesh(Mesh value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Mesh get_Mesh() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	private void set_Material(Material value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -50,46 +50,46 @@ public class ImpostorBatch // TypeDefIndex: 10681
 	public ComputeBuffer get_PositionBuffer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	private void set_ArgsBuffer(ComputeBuffer value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public ComputeBuffer get_ArgsBuffer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x805600 Offset: 0x803C00 VA: 0x180805600
+	// RVA: 0x805B90 Offset: 0x804190 VA: 0x180805B90
 	public bool get_IsDirty() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x810000 Offset: 0x80E600 VA: 0x180810000
+	// RVA: 0x810590 Offset: 0x80EB90 VA: 0x180810590
 	public void set_IsDirty(bool value) { }
 
-	// RVA: 0x80FF70 Offset: 0x80E570 VA: 0x18080FF70
+	// RVA: 0x810500 Offset: 0x80EB00 VA: 0x180810500
 	public int get_Count() { }
 
-	// RVA: 0x80FFB0 Offset: 0x80E5B0 VA: 0x18080FFB0
+	// RVA: 0x810540 Offset: 0x80EB40 VA: 0x180810540
 	public bool get_Visible() { }
 
-	// RVA: 0x7EE820 Offset: 0x7ECE20 VA: 0x1807EE820
+	// RVA: 0x7EEDB0 Offset: 0x7ED3B0 VA: 0x1807EEDB0
 	private ComputeBuffer SafeRelease(ComputeBuffer buffer) { }
 
-	// RVA: 0x80F970 Offset: 0x80DF70 VA: 0x18080F970
+	// RVA: 0x80FF00 Offset: 0x80E500 VA: 0x18080FF00
 	public void Initialize(Mesh mesh, Material material) { }
 
-	// RVA: 0x80FB80 Offset: 0x80E180 VA: 0x18080FB80
+	// RVA: 0x810110 Offset: 0x80E710 VA: 0x180810110
 	public void Release() { }
 
-	// RVA: 0x80F850 Offset: 0x80DE50 VA: 0x18080F850
+	// RVA: 0x80FDE0 Offset: 0x80E3E0 VA: 0x18080FDE0
 	public void AddInstance(ImpostorInstanceData data) { }
 
-	// RVA: 0x80FC60 Offset: 0x80E260 VA: 0x18080FC60
+	// RVA: 0x8101F0 Offset: 0x80E7F0 VA: 0x1808101F0
 	public void RemoveInstance(ImpostorInstanceData data) { }
 
-	// RVA: 0x80FD50 Offset: 0x80E350 VA: 0x18080FD50
+	// RVA: 0x8102E0 Offset: 0x80E8E0 VA: 0x1808102E0
 	public void UpdateBuffers() { }
 
-	// RVA: 0x80FF00 Offset: 0x80E500 VA: 0x18080FF00
+	// RVA: 0x810490 Offset: 0x80EA90 VA: 0x180810490
 	public void .ctor() { }
 
 }

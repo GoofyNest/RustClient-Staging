@@ -15,7 +15,7 @@ public class SharpenAndVignette : PostProcessEffectSettings // TypeDefIndex: 102
 
 	// Methods
 
-	// RVA: 0x595060 Offset: 0x593660 VA: 0x180595060
+	// RVA: 0x594FF0 Offset: 0x5935F0 VA: 0x180594FF0
 	public void .ctor() { }
 
 }

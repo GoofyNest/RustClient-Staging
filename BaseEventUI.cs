@@ -22,50 +22,50 @@ public class BaseEventUI : MonoBehaviour // TypeDefIndex: 10789
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743B0 Offset: 0x5729B0 VA: 0x1805743B0
+	// RVA: 0x574340 Offset: 0x572940 VA: 0x180574340
 	public int get_ID() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574440 Offset: 0x572A40 VA: 0x180574440
+	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
 	private void set_ID(int value) { }
 
-	// RVA: 0x7E7220 Offset: 0x7E5820 VA: 0x1807E7220 Slot: 4
+	// RVA: 0x7B2B40 Offset: 0x7B1140 VA: 0x1807B2B40 Slot: 4
 	public virtual void Init(AIEventType eventType, BaseStateUI stateUI) { }
 
-	// RVA: 0x7E7530 Offset: 0x7E5B30 VA: 0x1807E7530 Slot: 5
+	// RVA: 0x7B2E50 Offset: 0x7B1450 VA: 0x1807B2E50 Slot: 5
 	public virtual AIEventData Save() { }
 
-	// RVA: 0x7E7320 Offset: 0x7E5920 VA: 0x1807E7320 Slot: 6
+	// RVA: 0x7B2C40 Offset: 0x7B1240 VA: 0x1807B2C40 Slot: 6
 	public virtual void Load(AIEventData data) { }
 
-	// RVA: 0x7E76C0 Offset: 0x7E5CC0 VA: 0x1807E76C0
+	// RVA: 0x7B2FE0 Offset: 0x7B15E0 VA: 0x1807B2FE0
 	public void SetOutputStateContainer(int id) { }
 
-	// RVA: 0x7E6EF0 Offset: 0x7E54F0 VA: 0x1807E6EF0
+	// RVA: 0x7B2810 Offset: 0x7B0E10 VA: 0x1807B2810
 	public void ClearOutputStateContainer() { }
 
-	// RVA: 0x7E71D0 Offset: 0x7E57D0 VA: 0x1807E71D0
+	// RVA: 0x7B2AF0 Offset: 0x7B10F0 VA: 0x1807B2AF0
 	public int GetOutputStateContainer() { }
 
-	// RVA: 0x7E7500 Offset: 0x7E5B00 VA: 0x1807E7500
+	// RVA: 0x7B2E20 Offset: 0x7B1420 VA: 0x1807B2E20
 	public float ParseFloat(string input) { }
 
-	// RVA: 0x7E6F40 Offset: 0x7E5540 VA: 0x1807E6F40
+	// RVA: 0x7B2860 Offset: 0x7B0E60 VA: 0x1807B2860
 	public void Clicked() { }
 
-	// RVA: 0x7E7460 Offset: 0x7E5A60 VA: 0x1807E7460
+	// RVA: 0x7B2D80 Offset: 0x7B1380 VA: 0x1807B2D80
 	public void OutputClicked(object value) { }
 
-	// RVA: 0x7E71A0 Offset: 0x7E57A0 VA: 0x1807E71A0
+	// RVA: 0x7B2AC0 Offset: 0x7B10C0 VA: 0x1807B2AC0
 	public void DeleteClicked() { }
 
-	// RVA: 0x7E7430 Offset: 0x7E5A30 VA: 0x1807E7430
+	// RVA: 0x7B2D50 Offset: 0x7B1350 VA: 0x1807B2D50
 	public void MoveUpClicked() { }
 
-	// RVA: 0x7E7400 Offset: 0x7E5A00 VA: 0x1807E7400
+	// RVA: 0x7B2D20 Offset: 0x7B1320 VA: 0x1807B2D20
 	public void MoveDownClicked() { }
 
-	// RVA: 0x7E7700 Offset: 0x7E5D00 VA: 0x1807E7700
+	// RVA: 0x7B3020 Offset: 0x7B1620 VA: 0x1807B3020
 	public void SetTriggered(bool flag) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

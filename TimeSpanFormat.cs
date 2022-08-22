@@ -5,19 +5,19 @@ internal static class TimeSpanFormat // TypeDefIndex: 720
 
 	// Methods
 
-	// RVA: 0x138B700 Offset: 0x1389D00 VA: 0x18138B700
+	// RVA: 0x138A800 Offset: 0x1388E00 VA: 0x18138A800
 	private static string IntToString(int n, int digits) { }
 
-	// RVA: 0x138B4F0 Offset: 0x1389AF0 VA: 0x18138B4F0
+	// RVA: 0x138A5F0 Offset: 0x1388BF0 VA: 0x18138A5F0
 	internal static string Format(TimeSpan value, string format, IFormatProvider formatProvider) { }
 
-	// RVA: 0x138AED0 Offset: 0x13894D0 VA: 0x18138AED0
+	// RVA: 0x1389FD0 Offset: 0x13885D0 VA: 0x181389FD0
 	private static string FormatStandard(TimeSpan value, bool isInvariant, string format, TimeSpanFormat.Pattern pattern) { }
 
-	// RVA: 0x138A470 Offset: 0x1388A70 VA: 0x18138A470
+	// RVA: 0x1389570 Offset: 0x1387B70 VA: 0x181389570
 	internal static string FormatCustomized(TimeSpan value, string format, DateTimeFormatInfo dtfi) { }
 
-	// RVA: 0x138B730 Offset: 0x1389D30 VA: 0x18138B730
+	// RVA: 0x138A830 Offset: 0x1388E30 VA: 0x18138A830
 	private static void .cctor() { }
 
 }
@@ -51,28 +51,28 @@ internal struct TimeSpanFormat.FormatLiterals // TypeDefIndex: 722
 
 	// Methods
 
-	// RVA: 0x1EC910 Offset: 0x1EBD10 VA: 0x1801EC910
+	// RVA: 0x1ECD30 Offset: 0x1EC130 VA: 0x1801ECD30
 	internal string get_Start() { }
 
-	// RVA: 0x1EC7D0 Offset: 0x1EBBD0 VA: 0x1801EC7D0
+	// RVA: 0x1ECBF0 Offset: 0x1EBFF0 VA: 0x1801ECBF0
 	internal string get_DayHourSep() { }
 
-	// RVA: 0x1EC850 Offset: 0x1EBC50 VA: 0x1801EC850
+	// RVA: 0x1ECC70 Offset: 0x1EC070 VA: 0x1801ECC70
 	internal string get_HourMinuteSep() { }
 
-	// RVA: 0x1EC890 Offset: 0x1EBC90 VA: 0x1801EC890
+	// RVA: 0x1ECCB0 Offset: 0x1EC0B0 VA: 0x1801ECCB0
 	internal string get_MinuteSecondSep() { }
 
-	// RVA: 0x1EC8D0 Offset: 0x1EBCD0 VA: 0x1801EC8D0
+	// RVA: 0x1ECCF0 Offset: 0x1EC0F0 VA: 0x1801ECCF0
 	internal string get_SecondFractionSep() { }
 
-	// RVA: 0x1EC810 Offset: 0x1EBC10 VA: 0x1801EC810
+	// RVA: 0x1ECC30 Offset: 0x1EC030 VA: 0x1801ECC30
 	internal string get_End() { }
 
-	// RVA: 0x137E290 Offset: 0x137C890 VA: 0x18137E290
+	// RVA: 0x137D390 Offset: 0x137B990 VA: 0x18137D390
 	internal static TimeSpanFormat.FormatLiterals InitInvariant(bool isNegative) { }
 
-	// RVA: 0x1EC7C0 Offset: 0x1EBBC0 VA: 0x1801EC7C0
+	// RVA: 0x1ECBE0 Offset: 0x1EBFE0 VA: 0x1801ECBE0
 	internal void Init(string format, bool useInvariantFieldLengths) { }
 
 }

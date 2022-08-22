@@ -21,7 +21,7 @@ public class SidewalkPresetClass // TypeDefIndex: 7255
 
 	// Methods
 
-	// RVA: 0x22C5290 Offset: 0x22C3890 VA: 0x1822C5290
+	// RVA: 0x22C5AB0 Offset: 0x22C40B0 VA: 0x1822C5AB0
 	public void .ctor(QDOQDSQOOQDDD corner, string name) { }
 
 }

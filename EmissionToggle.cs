@@ -10,22 +10,22 @@ public class EmissionToggle : MonoBehaviour, IClientComponent // TypeDefIndex: 9
 
 	// Methods
 
-	// RVA: 0x8C1860 Offset: 0x8BFE60 VA: 0x1808C1860
+	// RVA: 0x8C1D70 Offset: 0x8C0370 VA: 0x1808C1D70
 	public void OnEnable() { }
 
-	// RVA: 0x8C1600 Offset: 0x8BFC00 VA: 0x1808C1600
+	// RVA: 0x8C1B10 Offset: 0x8C0110 VA: 0x1808C1B10
 	private void Init() { }
 
-	// RVA: 0x8C1870 Offset: 0x8BFE70 VA: 0x1808C1870
+	// RVA: 0x8C1D80 Offset: 0x8C0380 VA: 0x1808C1D80
 	public void SetEmissionEnabled(bool on) { }
 
-	// RVA: 0x8C18A0 Offset: 0x8BFEA0 VA: 0x1808C18A0
+	// RVA: 0x8C1DB0 Offset: 0x8C03B0 VA: 0x1808C1DB0
 	public void SetEmission(float percent) { }
 
-	// RVA: 0x8C1B00 Offset: 0x8C0100 VA: 0x1808C1B00
+	// RVA: 0x8C2010 Offset: 0x8C0610 VA: 0x1808C2010
 	public void .ctor() { }
 
-	// RVA: 0x8C1AB0 Offset: 0x8C00B0 VA: 0x1808C1AB0
+	// RVA: 0x8C1FC0 Offset: 0x8C05C0 VA: 0x1808C1FC0
 	private static void .cctor() { }
 
 }

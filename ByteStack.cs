@@ -7,13 +7,13 @@ internal class ByteStack // TypeDefIndex: 1832
 
 	// Methods
 
-	// RVA: 0x12E3120 Offset: 0x12E1720 VA: 0x1812E3120
+	// RVA: 0x12E95D0 Offset: 0x12E7BD0 VA: 0x1812E95D0
 	public void .ctor(int growthRate) { }
 
-	// RVA: 0x12E3050 Offset: 0x12E1650 VA: 0x1812E3050
+	// RVA: 0x12E9500 Offset: 0x12E7B00 VA: 0x1812E9500
 	public void Push(byte data) { }
 
-	// RVA: 0x12E3000 Offset: 0x12E1600 VA: 0x1812E3000
+	// RVA: 0x12E94B0 Offset: 0x12E7AB0 VA: 0x1812E94B0
 	public byte Pop() { }
 
 }

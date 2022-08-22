@@ -4,46 +4,46 @@ public class DamageTypeList // TypeDefIndex: 12031
 
 	// Methods
 
-	// RVA: 0x4BCB10 Offset: 0x4BB110 VA: 0x1804BCB10
+	// RVA: 0x4BCAA0 Offset: 0x4BB0A0 VA: 0x1804BCAA0
 	public void Set(DamageType index, float amount) { }
 
-	// RVA: 0x4BC940 Offset: 0x4BAF40 VA: 0x1804BC940
+	// RVA: 0x4BC8D0 Offset: 0x4BAED0 VA: 0x1804BC8D0
 	public float Get(DamageType index) { }
 
-	// RVA: 0x4BC690 Offset: 0x4BAC90 VA: 0x1804BC690
+	// RVA: 0x4BC620 Offset: 0x4BAC20 VA: 0x1804BC620
 	public void Add(DamageType index, float amount) { }
 
-	// RVA: 0x4BCAD0 Offset: 0x4BB0D0 VA: 0x1804BCAD0
+	// RVA: 0x4BCA60 Offset: 0x4BB060 VA: 0x1804BCA60
 	public void Scale(DamageType index, float amount) { }
 
-	// RVA: 0x4BC980 Offset: 0x4BAF80 VA: 0x1804BC980
+	// RVA: 0x4BC910 Offset: 0x4BAF10 VA: 0x1804BC910
 	public bool Has(DamageType index) { }
 
-	// RVA: 0x4BCB50 Offset: 0x4BB150 VA: 0x1804BCB50
+	// RVA: 0x4BCAE0 Offset: 0x4BB0E0 VA: 0x1804BCAE0
 	public float Total() { }
 
-	// RVA: 0x4BC810 Offset: 0x4BAE10 VA: 0x1804BC810
+	// RVA: 0x4BC7A0 Offset: 0x4BADA0 VA: 0x1804BC7A0
 	public void Clear() { }
 
-	// RVA: 0x4BC6D0 Offset: 0x4BACD0 VA: 0x1804BC6D0
+	// RVA: 0x4BC660 Offset: 0x4BAC60 VA: 0x1804BC660
 	public void Add(List<DamageTypeEntry> entries) { }
 
-	// RVA: 0x4BCA60 Offset: 0x4BB060 VA: 0x1804BCA60
+	// RVA: 0x4BC9F0 Offset: 0x4BAFF0 VA: 0x1804BC9F0
 	public void ScaleAll(float amount) { }
 
-	// RVA: 0x4BC880 Offset: 0x4BAE80 VA: 0x1804BC880
+	// RVA: 0x4BC810 Offset: 0x4BAE10 VA: 0x1804BC810
 	public DamageType GetMajorityDamageType() { }
 
-	// RVA: 0x4BCA30 Offset: 0x4BB030 VA: 0x1804BCA30
+	// RVA: 0x4BC9C0 Offset: 0x4BAFC0 VA: 0x1804BC9C0
 	public bool IsMeleeType() { }
 
-	// RVA: 0x4BC9D0 Offset: 0x4BAFD0 VA: 0x1804BC9D0
+	// RVA: 0x4BC960 Offset: 0x4BAF60 VA: 0x1804BC960
 	public bool IsBleedCausing() { }
 
-	// RVA: 0x4BCA00 Offset: 0x4BB000 VA: 0x1804BCA00
+	// RVA: 0x4BC990 Offset: 0x4BAF90 VA: 0x1804BC990
 	public bool IsConsideredAnAttack() { }
 
-	// RVA: 0x4BCC00 Offset: 0x4BB200 VA: 0x1804BCC00
+	// RVA: 0x4BCB90 Offset: 0x4BB190 VA: 0x1804BCB90
 	public void .ctor() { }
 
 }

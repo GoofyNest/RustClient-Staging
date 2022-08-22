@@ -10,13 +10,13 @@ public class TransactionInformation // TypeDefIndex: 3986
 
 	// Methods
 
-	// RVA: 0x230CDD0 Offset: 0x230B3D0 VA: 0x18230CDD0
+	// RVA: 0x230D5F0 Offset: 0x230BBF0 VA: 0x18230D5F0
 	internal void .ctor() { }
 
-	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
+	// RVA: 0xA39490 Offset: 0xA37A90 VA: 0x180A39490
 	public TransactionStatus get_Status() { }
 
-	// RVA: 0xA39560 Offset: 0xA37B60 VA: 0x180A39560
+	// RVA: 0xA39A50 Offset: 0xA38050 VA: 0x180A39A50
 	internal void set_Status(TransactionStatus value) { }
 
 }

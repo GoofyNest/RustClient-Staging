@@ -24,126 +24,126 @@ public sealed class TypeDescriptor // TypeDefIndex: 2758
 
 	// Methods
 
-	// RVA: 0x17413C0 Offset: 0x173F9C0 VA: 0x1817413C0
+	// RVA: 0x173EF80 Offset: 0x173D580 VA: 0x18173EF80
 	public static Type get_ComObjectType() { }
 
-	// RVA: 0x1741420 Offset: 0x173FA20 VA: 0x181741420
+	// RVA: 0x173EFE0 Offset: 0x173D5E0 VA: 0x18173EFE0
 	public static Type get_InterfaceType() { }
 
-	// RVA: 0x1741480 Offset: 0x173FA80 VA: 0x181741480
+	// RVA: 0x173F040 Offset: 0x173D640 VA: 0x18173F040
 	internal static int get_MetadataVersion() { }
 
 	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
-	// RVA: 0x173A8B0 Offset: 0x1738EB0 VA: 0x18173A8B0
+	// RVA: 0x1738470 Offset: 0x1736A70 VA: 0x181738470
 	public static void AddProvider(TypeDescriptionProvider provider, Type type) { }
 
-	// RVA: 0x173AB50 Offset: 0x1739150 VA: 0x18173AB50
+	// RVA: 0x1738710 Offset: 0x1736D10 VA: 0x181738710
 	private static void CheckDefaultProvider(Type type) { }
 
-	// RVA: 0x173B210 Offset: 0x1739810 VA: 0x18173B210
+	// RVA: 0x1738DD0 Offset: 0x17373D0 VA: 0x181738DD0
 	public static object CreateInstance(IServiceProvider provider, Type objectType, Type[] argTypes, object[] args) { }
 
-	// RVA: 0x173B470 Offset: 0x1739A70 VA: 0x18173B470
+	// RVA: 0x1739030 Offset: 0x1737630 VA: 0x181739030
 	private static ArrayList FilterMembers(IList members, Attribute[] attributes) { }
 
 	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
-	// RVA: 0x173B690 Offset: 0x1739C90 VA: 0x18173B690
+	// RVA: 0x1739250 Offset: 0x1737850 VA: 0x181739250
 	public static object GetAssociation(Type type, object primary) { }
 
-	// RVA: 0x173BB70 Offset: 0x173A170 VA: 0x18173BB70
+	// RVA: 0x1739730 Offset: 0x1737D30 VA: 0x181739730
 	public static AttributeCollection GetAttributes(Type componentType) { }
 
-	// RVA: 0x173BB10 Offset: 0x173A110 VA: 0x18173BB10
+	// RVA: 0x17396D0 Offset: 0x1737CD0 VA: 0x1817396D0
 	public static AttributeCollection GetAttributes(object component) { }
 
 	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
-	// RVA: 0x173BC40 Offset: 0x173A240 VA: 0x18173BC40
+	// RVA: 0x1739800 Offset: 0x1737E00 VA: 0x181739800
 	public static AttributeCollection GetAttributes(object component, bool noCustomTypeDesc) { }
 
-	// RVA: 0x173BF50 Offset: 0x173A550 VA: 0x18173BF50
+	// RVA: 0x1739B10 Offset: 0x1738110 VA: 0x181739B10
 	internal static IDictionary GetCache(object instance) { }
 
-	// RVA: 0x173C010 Offset: 0x173A610 VA: 0x18173C010
+	// RVA: 0x1739BD0 Offset: 0x17381D0 VA: 0x181739BD0
 	public static TypeConverter GetConverter(Type type) { }
 
-	// RVA: 0x173C090 Offset: 0x173A690 VA: 0x18173C090
+	// RVA: 0x1739C50 Offset: 0x1738250 VA: 0x181739C50
 	internal static ICustomTypeDescriptor GetDescriptor(Type type, string typeName) { }
 
-	// RVA: 0x173C1C0 Offset: 0x173A7C0 VA: 0x18173C1C0
+	// RVA: 0x1739D80 Offset: 0x1738380 VA: 0x181739D80
 	internal static ICustomTypeDescriptor GetDescriptor(object component, bool noCustomTypeDesc) { }
 
-	// RVA: 0x173C420 Offset: 0x173AA20 VA: 0x18173C420
+	// RVA: 0x1739FE0 Offset: 0x17385E0 VA: 0x181739FE0
 	internal static ICustomTypeDescriptor GetExtendedDescriptor(object component) { }
 
-	// RVA: 0x173C510 Offset: 0x173AB10 VA: 0x18173C510
+	// RVA: 0x173A0D0 Offset: 0x17386D0 VA: 0x18173A0D0
 	private static string GetExtenderCollisionSuffix(MemberDescriptor member) { }
 
-	// RVA: 0x173C780 Offset: 0x173AD80 VA: 0x18173C780
+	// RVA: 0x173A340 Offset: 0x1738940 VA: 0x18173A340
 	private static Type GetNodeForBaseType(Type searchType) { }
 
-	// RVA: 0x173CE50 Offset: 0x173B450 VA: 0x18173CE50
+	// RVA: 0x173AA10 Offset: 0x1739010 VA: 0x18173AA10
 	public static PropertyDescriptorCollection GetProperties(object component) { }
 
 	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
-	// RVA: 0x173CDE0 Offset: 0x173B3E0 VA: 0x18173CDE0
+	// RVA: 0x173A9A0 Offset: 0x1738FA0 VA: 0x18173A9A0
 	public static PropertyDescriptorCollection GetProperties(object component, bool noCustomTypeDesc) { }
 
-	// RVA: 0x173C900 Offset: 0x173AF00 VA: 0x18173C900
+	// RVA: 0x173A4C0 Offset: 0x1738AC0 VA: 0x18173A4C0
 	private static PropertyDescriptorCollection GetPropertiesImpl(object component, Attribute[] attributes, bool noCustomTypeDesc, bool noAttributes) { }
 
-	// RVA: 0x173CF00 Offset: 0x173B500 VA: 0x18173CF00
+	// RVA: 0x173AAC0 Offset: 0x17390C0 VA: 0x18173AAC0
 	internal static TypeDescriptionProvider GetProviderRecursive(Type type) { }
 
 	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
-	// RVA: 0x173CF60 Offset: 0x173B560 VA: 0x18173CF60
+	// RVA: 0x173AB20 Offset: 0x1739120 VA: 0x18173AB20
 	public static Type GetReflectionType(Type type) { }
 
-	// RVA: 0x173D6D0 Offset: 0x173BCD0 VA: 0x18173D6D0
+	// RVA: 0x173B290 Offset: 0x1739890 VA: 0x18173B290
 	private static TypeDescriptor.TypeDescriptionNode NodeFor(Type type) { }
 
-	// RVA: 0x173D080 Offset: 0x173B680 VA: 0x18173D080
+	// RVA: 0x173AC40 Offset: 0x1739240 VA: 0x18173AC40
 	private static TypeDescriptor.TypeDescriptionNode NodeFor(Type type, bool createDelegator) { }
 
-	// RVA: 0x173D670 Offset: 0x173BC70 VA: 0x18173D670
+	// RVA: 0x173B230 Offset: 0x1739830 VA: 0x18173B230
 	private static TypeDescriptor.TypeDescriptionNode NodeFor(object instance) { }
 
-	// RVA: 0x173D730 Offset: 0x173BD30 VA: 0x18173D730
+	// RVA: 0x173B2F0 Offset: 0x17398F0 VA: 0x18173B2F0
 	private static TypeDescriptor.TypeDescriptionNode NodeFor(object instance, bool createDelegator) { }
 
-	// RVA: 0x173D960 Offset: 0x173BF60 VA: 0x18173D960
+	// RVA: 0x173B520 Offset: 0x1739B20 VA: 0x18173B520
 	private static ICollection PipelineAttributeFilter(int pipelineType, ICollection members, Attribute[] filter, object instance, IDictionary cache) { }
 
-	// RVA: 0x173DDA0 Offset: 0x173C3A0 VA: 0x18173DDA0
+	// RVA: 0x173B960 Offset: 0x1739F60 VA: 0x18173B960
 	private static ICollection PipelineFilter(int pipelineType, ICollection members, object instance, IDictionary cache) { }
 
-	// RVA: 0x173F140 Offset: 0x173D740 VA: 0x18173F140
+	// RVA: 0x173CD00 Offset: 0x173B300 VA: 0x18173CD00
 	private static ICollection PipelineInitialize(int pipelineType, ICollection members, IDictionary cache) { }
 
-	// RVA: 0x173F520 Offset: 0x173DB20 VA: 0x18173F520
+	// RVA: 0x173D0E0 Offset: 0x173B6E0 VA: 0x18173D0E0
 	private static ICollection PipelineMerge(int pipelineType, ICollection primary, ICollection secondary, object instance, IDictionary cache) { }
 
-	// RVA: 0x173FE20 Offset: 0x173E420 VA: 0x18173FE20
+	// RVA: 0x173D9E0 Offset: 0x173BFE0 VA: 0x18173D9E0
 	private static void RaiseRefresh(object component) { }
 
-	// RVA: 0x173FF40 Offset: 0x173E540 VA: 0x18173FF40
+	// RVA: 0x173DB00 Offset: 0x173C100 VA: 0x18173DB00
 	private static void RaiseRefresh(Type type) { }
 
-	// RVA: 0x1740560 Offset: 0x173EB60 VA: 0x181740560
+	// RVA: 0x173E120 Offset: 0x173C720 VA: 0x18173E120
 	public static void Refresh(object component) { }
 
-	// RVA: 0x17405C0 Offset: 0x173EBC0 VA: 0x1817405C0
+	// RVA: 0x173E180 Offset: 0x173C780 VA: 0x18173E180
 	private static void Refresh(object component, bool refreshReflectionProvider) { }
 
-	// RVA: 0x1740030 Offset: 0x173E630 VA: 0x181740030
+	// RVA: 0x173DBF0 Offset: 0x173C1F0 VA: 0x18173DBF0
 	public static void Refresh(Type type) { }
 
-	// RVA: 0x1740CE0 Offset: 0x173F2E0 VA: 0x181740CE0
+	// RVA: 0x173E8A0 Offset: 0x173CEA0 VA: 0x18173E8A0
 	private static bool ShouldHideMember(MemberDescriptor member, Attribute attribute) { }
 
-	// RVA: 0x1740DA0 Offset: 0x173F3A0 VA: 0x181740DA0
+	// RVA: 0x173E960 Offset: 0x173CF60 VA: 0x18173E960
 	public static void SortDescriptorArray(IList infos) { }
 
-	// RVA: 0x1740E80 Offset: 0x173F480 VA: 0x181740E80
+	// RVA: 0x173EA40 Offset: 0x173D040 VA: 0x18173EA40
 	private static void .cctor() { }
 
 }
@@ -155,10 +155,10 @@ private sealed class TypeDescriptor.AttributeFilterCacheItem // TypeDefIndex: 27
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	internal void .ctor(Attribute[] filter, ICollection filteredMembers) { }
 
-	// RVA: 0x1727E20 Offset: 0x1726420 VA: 0x181727E20
+	// RVA: 0x17259E0 Offset: 0x1723FE0 VA: 0x1817259E0
 	internal bool IsValid(Attribute[] filter) { }
 
 }
@@ -170,10 +170,10 @@ private sealed class TypeDescriptor.FilterCacheItem // TypeDefIndex: 2760
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	internal void .ctor(ITypeDescriptorFilterService filterService, ICollection filteredMembers) { }
 
-	// RVA: 0xE36F80 Offset: 0xE35580 VA: 0x180E36F80
+	// RVA: 0xE37A30 Offset: 0xE36030 VA: 0x180E37A30
 	internal bool IsValid(ITypeDescriptorFilterService filterService) { }
 
 }
@@ -183,17 +183,17 @@ private sealed class TypeDescriptor.MemberDescriptorComparer : IComparer // Type
 // Namespace: 
 private sealed class TypeDescriptor.MemberDescriptorComparer : IComparer // TypeDefIndex: 2762
 	// Fields
-	public static readonly TypeDescriptor.MemberDescriptorComparer Instance; // 0x144DE
+	public static readonly TypeDescriptor.MemberDescriptorComparer Instance; // 0x14240
 
 	// Methods
 
-	// RVA: 0x172C220 Offset: 0x172A820 VA: 0x18172C220 Slot: 4
+	// RVA: 0x1729DE0 Offset: 0x17283E0 VA: 0x181729DE0 Slot: 4
 	public int Compare(object left, object right) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x172C3F0 Offset: 0x172A9F0 VA: 0x18172C3F0
+	// RVA: 0x1729FB0 Offset: 0x17285B0 VA: 0x181729FB0
 	private static void .cctor() { }
 
 }
@@ -205,22 +205,22 @@ private sealed class TypeDescriptor.MergedTypeDescriptor : ICustomTypeDescriptor
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	internal void .ctor(ICustomTypeDescriptor primary, ICustomTypeDescriptor secondary) { }
 
-	// RVA: 0x172C450 Offset: 0x172AA50 VA: 0x18172C450 Slot: 4
+	// RVA: 0x172A010 Offset: 0x1728610 VA: 0x18172A010 Slot: 4
 	private AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes() { }
 
-	// RVA: 0x172C4C0 Offset: 0x172AAC0 VA: 0x18172C4C0 Slot: 5
+	// RVA: 0x172A080 Offset: 0x1728680 VA: 0x18172A080 Slot: 5
 	private TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter() { }
 
-	// RVA: 0x172C530 Offset: 0x172AB30 VA: 0x18172C530 Slot: 6
+	// RVA: 0x172A0F0 Offset: 0x17286F0 VA: 0x18172A0F0 Slot: 6
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties() { }
 
-	// RVA: 0x172C5A0 Offset: 0x172ABA0 VA: 0x18172C5A0 Slot: 7
+	// RVA: 0x172A160 Offset: 0x1728760 VA: 0x18172A160 Slot: 7
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties(Attribute[] attributes) { }
 
-	// RVA: 0x172C620 Offset: 0x172AC20 VA: 0x18172C620 Slot: 8
+	// RVA: 0x172A1E0 Offset: 0x17287E0 VA: 0x18172A1E0 Slot: 8
 	private object System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(PropertyDescriptor pd) { }
 
 }
@@ -232,25 +232,25 @@ private sealed class TypeDescriptor.TypeDescriptionNode : TypeDescriptionProvide
 
 	// Methods
 
-	// RVA: 0x173A360 Offset: 0x1738960 VA: 0x18173A360
+	// RVA: 0x1737F20 Offset: 0x1736520 VA: 0x181737F20
 	internal void .ctor(TypeDescriptionProvider provider) { }
 
-	// RVA: 0x1739DC0 Offset: 0x17383C0 VA: 0x181739DC0 Slot: 4
+	// RVA: 0x1737980 Offset: 0x1735F80 VA: 0x181737980 Slot: 4
 	public override object CreateInstance(IServiceProvider provider, Type objectType, Type[] argTypes, object[] args) { }
 
-	// RVA: 0x1739F40 Offset: 0x1738540 VA: 0x181739F40 Slot: 5
+	// RVA: 0x1737B00 Offset: 0x1736100 VA: 0x181737B00 Slot: 5
 	public override IDictionary GetCache(object instance) { }
 
-	// RVA: 0x1739FD0 Offset: 0x17385D0 VA: 0x181739FD0 Slot: 6
+	// RVA: 0x1737B90 Offset: 0x1736190 VA: 0x181737B90 Slot: 6
 	public override ICustomTypeDescriptor GetExtendedTypeDescriptor(object instance) { }
 
-	// RVA: 0x173A090 Offset: 0x1738690 VA: 0x18173A090 Slot: 7
+	// RVA: 0x1737C50 Offset: 0x1736250 VA: 0x181737C50 Slot: 7
 	protected internal override IExtenderProvider[] GetExtenderProviders(object instance) { }
 
-	// RVA: 0x173A120 Offset: 0x1738720 VA: 0x18173A120 Slot: 8
+	// RVA: 0x1737CE0 Offset: 0x17362E0 VA: 0x181737CE0 Slot: 8
 	public override Type GetReflectionType(Type objectType, object instance) { }
 
-	// RVA: 0x173A1F0 Offset: 0x17387F0 VA: 0x18173A1F0 Slot: 9
+	// RVA: 0x1737DB0 Offset: 0x17363B0 VA: 0x181737DB0 Slot: 9
 	public override ICustomTypeDescriptor GetTypeDescriptor(Type objectType, object instance) { }
 
 }
@@ -262,22 +262,22 @@ private struct TypeDescriptor.TypeDescriptionNode.DefaultExtendedTypeDescriptor 
 
 	// Methods
 
-	// RVA: 0xF5A50 Offset: 0xF4E50 VA: 0x1800F5A50
+	// RVA: 0xF5DB0 Offset: 0xF51B0 VA: 0x1800F5DB0
 	internal void .ctor(TypeDescriptor.TypeDescriptionNode node, object instance) { }
 
-	// RVA: 0x2079E0 Offset: 0x206DE0 VA: 0x1802079E0 Slot: 4
+	// RVA: 0x207610 Offset: 0x206A10 VA: 0x180207610 Slot: 4
 	private AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes() { }
 
-	// RVA: 0x2079F0 Offset: 0x206DF0 VA: 0x1802079F0 Slot: 5
+	// RVA: 0x207620 Offset: 0x206A20 VA: 0x180207620 Slot: 5
 	private TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter() { }
 
-	// RVA: 0x207A10 Offset: 0x206E10 VA: 0x180207A10 Slot: 6
+	// RVA: 0x207640 Offset: 0x206A40 VA: 0x180207640 Slot: 6
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties() { }
 
-	// RVA: 0x207A00 Offset: 0x206E00 VA: 0x180207A00 Slot: 7
+	// RVA: 0x207630 Offset: 0x206A30 VA: 0x180207630 Slot: 7
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties(Attribute[] attributes) { }
 
-	// RVA: 0x207A20 Offset: 0x206E20 VA: 0x180207A20 Slot: 8
+	// RVA: 0x207650 Offset: 0x206A50 VA: 0x180207650 Slot: 8
 	private object System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(PropertyDescriptor pd) { }
 
 }
@@ -290,22 +290,22 @@ private struct TypeDescriptor.TypeDescriptionNode.DefaultTypeDescriptor : ICusto
 
 	// Methods
 
-	// RVA: 0xF5C70 Offset: 0xF5070 VA: 0x1800F5C70
+	// RVA: 0xF5FD0 Offset: 0xF53D0 VA: 0x1800F5FD0
 	internal void .ctor(TypeDescriptor.TypeDescriptionNode node, Type objectType, object instance) { }
 
-	// RVA: 0x207A50 Offset: 0x206E50 VA: 0x180207A50 Slot: 4
+	// RVA: 0x207680 Offset: 0x206A80 VA: 0x180207680 Slot: 4
 	private AttributeCollection System.ComponentModel.ICustomTypeDescriptor.GetAttributes() { }
 
-	// RVA: 0x207A60 Offset: 0x206E60 VA: 0x180207A60 Slot: 5
+	// RVA: 0x207690 Offset: 0x206A90 VA: 0x180207690 Slot: 5
 	private TypeConverter System.ComponentModel.ICustomTypeDescriptor.GetConverter() { }
 
-	// RVA: 0x207A80 Offset: 0x206E80 VA: 0x180207A80 Slot: 6
+	// RVA: 0x2076B0 Offset: 0x206AB0 VA: 0x1802076B0 Slot: 6
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties() { }
 
-	// RVA: 0x207A70 Offset: 0x206E70 VA: 0x180207A70 Slot: 7
+	// RVA: 0x2076A0 Offset: 0x206AA0 VA: 0x1802076A0 Slot: 7
 	private PropertyDescriptorCollection System.ComponentModel.ICustomTypeDescriptor.GetProperties(Attribute[] attributes) { }
 
-	// RVA: 0x207A90 Offset: 0x206E90 VA: 0x180207A90 Slot: 8
+	// RVA: 0x2076C0 Offset: 0x206AC0 VA: 0x1802076C0 Slot: 8
 	private object System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner(PropertyDescriptor pd) { }
 
 }

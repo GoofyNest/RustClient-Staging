@@ -6,7 +6,7 @@ public class PhotoFilter : PostProcessEffectSettings // TypeDefIndex: 10267
 
 	// Methods
 
-	// RVA: 0x9074A0 Offset: 0x905AA0 VA: 0x1809074A0
+	// RVA: 0x9079B0 Offset: 0x905FB0 VA: 0x1809079B0
 	public void .ctor() { }
 
 }

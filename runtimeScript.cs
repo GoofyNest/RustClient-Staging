@@ -9,16 +9,16 @@ public class runtimeScript : MonoBehaviour // TypeDefIndex: 11487
 
 	// Methods
 
-	// RVA: 0x1A933D0 Offset: 0x1A919D0 VA: 0x181A933D0
+	// RVA: 0x1A7FBE0 Offset: 0x1A7E1E0 VA: 0x181A7FBE0
 	private void Start() { }
 
-	// RVA: 0x1A937D0 Offset: 0x1A91DD0 VA: 0x181A937D0
+	// RVA: 0x1A7FFE0 Offset: 0x1A7E5E0 VA: 0x181A7FFE0
 	private void Update() { }
 
-	// RVA: 0x1A93350 Offset: 0x1A91950 VA: 0x181A93350
+	// RVA: 0x1A7FB60 Offset: 0x1A7E160 VA: 0x181A7FB60
 	private void OnDestroy() { }
 
-	// RVA: 0x1A93900 Offset: 0x1A91F00 VA: 0x181A93900
+	// RVA: 0x1A80110 Offset: 0x1A7E710 VA: 0x181A80110
 	public void .ctor() { }
 
 }

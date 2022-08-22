@@ -8,13 +8,13 @@ public class IronSightOverride : MonoBehaviour // TypeDefIndex: 11439
 
 	// Methods
 
-	// RVA: 0xA23F60 Offset: 0xA22560 VA: 0x180A23F60
+	// RVA: 0xA24450 Offset: 0xA22A50 VA: 0x180A24450
 	public void Update() { }
 
-	// RVA: 0xA23E50 Offset: 0xA22450 VA: 0x180A23E50
+	// RVA: 0xA24340 Offset: 0xA22940 VA: 0x180A24340
 	public void OnDisable() { }
 
-	// RVA: 0xA23FF0 Offset: 0xA225F0 VA: 0x180A23FF0
+	// RVA: 0xA244E0 Offset: 0xA22AE0 VA: 0x180A244E0
 	public void .ctor() { }
 
 }

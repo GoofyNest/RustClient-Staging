@@ -7,13 +7,13 @@ public class FrostRenderer : PostProcessEffectRenderer<Frost> // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0x755400 Offset: 0x753A00 VA: 0x180755400 Slot: 4
+	// RVA: 0x755350 Offset: 0x753950 VA: 0x180755350 Slot: 4
 	public override void Init() { }
 
-	// RVA: 0x755450 Offset: 0x753A50 VA: 0x180755450 Slot: 8
+	// RVA: 0x7553A0 Offset: 0x7539A0 VA: 0x1807553A0 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x755730 Offset: 0x753D30 VA: 0x180755730
+	// RVA: 0x755680 Offset: 0x753C80 VA: 0x180755680
 	public void .ctor() { }
 
 }

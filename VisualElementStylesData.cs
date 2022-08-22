@@ -33,10 +33,10 @@ internal class VisualElementStylesData // TypeDefIndex: 4728
 
 	// Methods
 
-	// RVA: 0xEBEEA0 Offset: 0xEBD4A0 VA: 0x180EBEEA0
+	// RVA: 0xEBF950 Offset: 0xEBDF50 VA: 0x180EBF950
 	public void .ctor(bool isShared) { }
 
-	// RVA: 0xEBEE00 Offset: 0xEBD400 VA: 0x180EBEE00
+	// RVA: 0xEBF8B0 Offset: 0xEBDEB0 VA: 0x180EBF8B0
 	private static void .cctor() { }
 
 }

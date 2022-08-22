@@ -10,10 +10,10 @@ public class RemotingSurrogateSelector : ISurrogateSelector // TypeDefIndex: 125
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x148C240 Offset: 0x148A840 VA: 0x18148C240 Slot: 5
+	// RVA: 0x148B310 Offset: 0x1489910 VA: 0x18148B310 Slot: 5
 	public virtual ISerializationSurrogate GetSurrogate(Type type, StreamingContext context, out ISurrogateSelector ssout) { }
 
-	// RVA: 0x148C440 Offset: 0x148AA40 VA: 0x18148C440
+	// RVA: 0x148B510 Offset: 0x1489B10 VA: 0x18148B510
 	private static void .cctor() { }
 
 }

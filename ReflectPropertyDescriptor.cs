@@ -37,70 +37,70 @@ internal sealed class ReflectPropertyDescriptor : PropertyDescriptor // TypeDefI
 
 	// Methods
 
-	// RVA: 0x15D5C60 Offset: 0x15D4260 VA: 0x1815D5C60
+	// RVA: 0x15D4D30 Offset: 0x15D3330 VA: 0x1815D4D30
 	public void .ctor(Type componentClass, string name, Type type, Attribute[] attributes) { }
 
-	// RVA: 0x15D5B00 Offset: 0x15D4100 VA: 0x1815D5B00
+	// RVA: 0x15D4BD0 Offset: 0x15D31D0 VA: 0x1815D4BD0
 	public void .ctor(Type componentClass, string name, Type type, PropertyInfo propInfo, MethodInfo getMethod, MethodInfo setMethod, Attribute[] attrs) { }
 
-	// RVA: 0x15D5E60 Offset: 0x15D4460 VA: 0x1815D5E60
+	// RVA: 0x15D4F30 Offset: 0x15D3530 VA: 0x1815D4F30
 	public void .ctor(Type componentClass, string name, Type type, Type receiverType, MethodInfo getMethod, MethodInfo setMethod, Attribute[] attrs) { }
 
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050 Slot: 13
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0 Slot: 13
 	public override Type get_ComponentType() { }
 
-	// RVA: 0x15D5F50 Offset: 0x15D4550 VA: 0x1815D5F50
+	// RVA: 0x15D5020 Offset: 0x15D3620 VA: 0x1815D5020
 	private object get_DefaultValue() { }
 
-	// RVA: 0x15D62A0 Offset: 0x15D48A0 VA: 0x1815D62A0
+	// RVA: 0x15D5370 Offset: 0x15D3970 VA: 0x1815D5370
 	private MethodInfo get_GetMethodValue() { }
 
-	// RVA: 0x15D6780 Offset: 0x15D4D80 VA: 0x1815D6780
+	// RVA: 0x15D5850 Offset: 0x15D3E50 VA: 0x1815D5850
 	private bool get_IsExtender() { }
 
-	// RVA: 0x15D67E0 Offset: 0x15D4DE0 VA: 0x1815D67E0 Slot: 15
+	// RVA: 0x15D58B0 Offset: 0x15D3EB0 VA: 0x1815D58B0 Slot: 15
 	public override bool get_IsReadOnly() { }
 
-	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380 Slot: 16
+	// RVA: 0x574310 Offset: 0x572910 VA: 0x180574310 Slot: 16
 	public override Type get_PropertyType() { }
 
-	// RVA: 0x15D68D0 Offset: 0x15D4ED0 VA: 0x1815D68D0
+	// RVA: 0x15D59A0 Offset: 0x15D3FA0 VA: 0x1815D59A0
 	private MethodInfo get_SetMethodValue() { }
 
-	// RVA: 0x15D6F60 Offset: 0x15D5560 VA: 0x1815D6F60
+	// RVA: 0x15D6030 Offset: 0x15D4630 VA: 0x1815D6030
 	private MethodInfo get_ShouldSerializeMethodValue() { }
 
-	// RVA: 0xC73D40 Offset: 0xC72340 VA: 0x180C73D40
+	// RVA: 0x79BDF0 Offset: 0x79A3F0 VA: 0x18079BDF0
 	internal Type ExtenderGetReceiverType() { }
 
-	// RVA: 0x15D39F0 Offset: 0x15D1FF0 VA: 0x1815D39F0
+	// RVA: 0x15D2AC0 Offset: 0x15D10C0 VA: 0x1815D2AC0
 	internal Type ExtenderGetType(IExtenderProvider provider) { }
 
-	// RVA: 0x15D3A10 Offset: 0x15D2010 VA: 0x1815D3A10
+	// RVA: 0x15D2AE0 Offset: 0x15D10E0 VA: 0x1815D2AE0
 	internal object ExtenderGetValue(IExtenderProvider provider, object component) { }
 
-	// RVA: 0x15D3B70 Offset: 0x15D2170 VA: 0x1815D3B70
+	// RVA: 0x15D2C40 Offset: 0x15D1240 VA: 0x1815D2C40
 	internal void ExtenderSetValue(IExtenderProvider provider, object component, object value, PropertyDescriptor notifyDesc) { }
 
-	// RVA: 0x15D3EB0 Offset: 0x15D24B0 VA: 0x1815D3EB0
+	// RVA: 0x15D2F80 Offset: 0x15D1580 VA: 0x1815D2F80
 	internal bool ExtenderShouldSerializeValue(IExtenderProvider provider, object component) { }
 
-	// RVA: 0x15D42A0 Offset: 0x15D28A0 VA: 0x1815D42A0 Slot: 11
+	// RVA: 0x15D3370 Offset: 0x15D1970 VA: 0x1815D3370 Slot: 11
 	protected override void FillAttributes(IList attributes) { }
 
-	// RVA: 0x15D4D90 Offset: 0x15D3390 VA: 0x1815D4D90 Slot: 17
+	// RVA: 0x15D3E60 Offset: 0x15D2460 VA: 0x1815D3E60 Slot: 17
 	public override object GetValue(object component) { }
 
-	// RVA: 0x15D5080 Offset: 0x15D3680 VA: 0x1815D5080 Slot: 18
+	// RVA: 0x15D4150 Offset: 0x15D2750 VA: 0x1815D4150 Slot: 18
 	protected override void OnValueChanged(object component, EventArgs e) { }
 
-	// RVA: 0x15D5180 Offset: 0x15D3780 VA: 0x1815D5180 Slot: 19
+	// RVA: 0x15D4250 Offset: 0x15D2850 VA: 0x1815D4250 Slot: 19
 	public override void SetValue(object component, object value) { }
 
-	// RVA: 0x15D5570 Offset: 0x15D3B70 VA: 0x1815D5570 Slot: 20
+	// RVA: 0x15D4640 Offset: 0x15D2C40 VA: 0x1815D4640 Slot: 20
 	public override bool ShouldSerializeValue(object component) { }
 
-	// RVA: 0x15D5850 Offset: 0x15D3E50 VA: 0x1815D5850
+	// RVA: 0x15D4920 Offset: 0x15D2F20 VA: 0x1815D4920
 	private static void .cctor() { }
 
 }

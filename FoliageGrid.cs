@@ -20,65 +20,65 @@ public class FoliageGrid : SingletonComponent<FoliageGrid>, IClientComponent // 
 
 	// Methods
 
-	// RVA: 0x74DE90 Offset: 0x74C490 VA: 0x18074DE90
+	// RVA: 0x74DDE0 Offset: 0x74C3E0 VA: 0x18074DDE0
 	public static float get_MaxRefreshDistance() { }
 
-	// RVA: 0x74DD60 Offset: 0x74C360 VA: 0x18074DD60
+	// RVA: 0x74DCB0 Offset: 0x74C2B0 VA: 0x18074DCB0
 	public bool get_Initialized() { }
 
-	// RVA: 0x74DDF0 Offset: 0x74C3F0 VA: 0x18074DDF0
+	// RVA: 0x74DD40 Offset: 0x74C340 VA: 0x18074DD40
 	public float get_MaxMilliseconds() { }
 
-	// RVA: 0x74D690 Offset: 0x74BC90 VA: 0x18074D690
+	// RVA: 0x74D5E0 Offset: 0x74BBE0 VA: 0x18074D5E0
 	protected void OnEnable() { }
 
-	// RVA: 0x74D790 Offset: 0x74BD90 VA: 0x18074D790
+	// RVA: 0x74D6E0 Offset: 0x74BCE0 VA: 0x18074D6E0
 	public static void RefreshAll(bool force = False) { }
 
-	// RVA: 0x74D9B0 Offset: 0x74BFB0 VA: 0x18074D9B0
+	// RVA: 0x74D900 Offset: 0x74BF00 VA: 0x18074D900
 	public void Refresh(bool force = False) { }
 
-	// RVA: 0x74DD70 Offset: 0x74C370 VA: 0x18074DD70
+	// RVA: 0x74DCC0 Offset: 0x74C2C0 VA: 0x18074DCC0
 	public FoliageCell get_Item(Vector3 worldPos) { }
 
-	// RVA: 0x74D370 Offset: 0x74B970 VA: 0x18074D370
+	// RVA: 0x74D2C0 Offset: 0x74B8C0 VA: 0x18074D2C0
 	private void Init() { }
 
-	// RVA: 0x74D1F0 Offset: 0x74B7F0 VA: 0x18074D1F0
+	// RVA: 0x74D140 Offset: 0x74B740 VA: 0x18074D140
 	public FoliageGridBatch CreateInstance() { }
 
-	// RVA: 0x74D700 Offset: 0x74BD00 VA: 0x18074D700
+	// RVA: 0x74D650 Offset: 0x74BC50 VA: 0x18074D650
 	public void RecycleInstance(FoliageGridBatch instance) { }
 
-	// RVA: 0x74D060 Offset: 0x74B660 VA: 0x18074D060
+	// RVA: 0x74CFB0 Offset: 0x74B5B0 VA: 0x18074CFB0
 	public void AddPlacement(FoliagePlacement placement) { }
 
-	// RVA: 0x74D540 Offset: 0x74BB40 VA: 0x18074D540
+	// RVA: 0x74D490 Offset: 0x74BA90 VA: 0x18074D490
 	public int MeshCount() { }
 
-	// RVA: 0x74D140 Offset: 0x74B740 VA: 0x18074D140
+	// RVA: 0x74D090 Offset: 0x74B690 VA: 0x18074D090
 	public int BatchedMeshCount() { }
 
-	// RVA: 0x74DBD0 Offset: 0x74C1D0 VA: 0x18074DBD0
+	// RVA: 0x74DB20 Offset: 0x74C120 VA: 0x18074DB20
 	public int VertexCount() { }
 
-	// RVA: 0x74DF30 Offset: 0x74C530 VA: 0x18074DF30
+	// RVA: 0x74DE80 Offset: 0x74C480 VA: 0x18074DE80
 	public bool get_NeedsTimeout() { }
 
-	// RVA: 0x74DB20 Offset: 0x74C120 VA: 0x18074DB20
+	// RVA: 0x74DA70 Offset: 0x74C070 VA: 0x18074DA70
 	public void ResetTimeout() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xA2E30 Offset: 0xA2230 VA: 0x1800A2E30
-	// RVA: 0x74DB60 Offset: 0x74C160 VA: 0x18074DB60
+	// RVA: 0x74DAB0 Offset: 0x74C0B0 VA: 0x18074DAB0
 	private IEnumerator UpdateCoroutine() { }
 
-	// RVA: 0x74D5F0 Offset: 0x74BBF0 VA: 0x18074D5F0
+	// RVA: 0x74D540 Offset: 0x74BB40 VA: 0x18074D540
 	private bool NeedsUpdate() { }
 
-	// RVA: 0x74D2B0 Offset: 0x74B8B0 VA: 0x18074D2B0
+	// RVA: 0x74D200 Offset: 0x74B800 VA: 0x18074D200
 	private Vector2i GetCurrentCellCoordinates() { }
 
-	// RVA: 0x74DC80 Offset: 0x74C280 VA: 0x18074DC80
+	// RVA: 0x74DBD0 Offset: 0x74C1D0 VA: 0x18074DBD0
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
@@ -110,7 +110,7 @@ private sealed class FoliageGrid.<UpdateCoroutine>d__31 : IEnumerator<object>, I
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x763F30 Offset: 0x762530 VA: 0x180763F30 Slot: 6
+	// RVA: 0x763E80 Offset: 0x762480 VA: 0x180763E80 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -118,7 +118,7 @@ private sealed class FoliageGrid.<UpdateCoroutine>d__31 : IEnumerator<object>, I
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7647C0 Offset: 0x762DC0 VA: 0x1807647C0 Slot: 8
+	// RVA: 0x764710 Offset: 0x762D10 VA: 0x180764710 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

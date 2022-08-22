@@ -12,10 +12,10 @@ public class PhysicsEffects : MonoBehaviour // TypeDefIndex: 9358
 
 	// Methods
 
-	// RVA: 0x90A1D0 Offset: 0x9087D0 VA: 0x18090A1D0
+	// RVA: 0x90A6E0 Offset: 0x908CE0 VA: 0x18090A6E0
 	public void PlayImpactSound(float hardness) { }
 
-	// RVA: 0x90A2E0 Offset: 0x9088E0 VA: 0x18090A2E0
+	// RVA: 0x90A7F0 Offset: 0x908DF0 VA: 0x18090A7F0
 	public void .ctor() { }
 
 }

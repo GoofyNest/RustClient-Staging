@@ -7,16 +7,16 @@ public class TabToggle : MonoBehaviour // TypeDefIndex: 11231
 
 	// Methods
 
-	// RVA: 0x7A84C0 Offset: 0x7A6AC0 VA: 0x1807A84C0
+	// RVA: 0x7C68C0 Offset: 0x7C4EC0 VA: 0x1807C68C0
 	public void Awake() { }
 
-	// RVA: 0x7A88F0 Offset: 0x7A6EF0 VA: 0x1807A88F0
+	// RVA: 0x7C6CF0 Offset: 0x7C52F0 VA: 0x1807C6CF0
 	public void SwitchTo(Button sourceTab) { }
 
-	// RVA: 0x7A8670 Offset: 0x7A6C70 VA: 0x1807A8670
+	// RVA: 0x7C6A70 Offset: 0x7C5070 VA: 0x1807C6A70
 	private void Hide(GameObject go) { }
 
-	// RVA: 0x7A87F0 Offset: 0x7A6DF0 VA: 0x1807A87F0
+	// RVA: 0x7C6BF0 Offset: 0x7C51F0 VA: 0x1807C6BF0
 	private void Show(GameObject go) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -34,7 +34,7 @@ private sealed class TabToggle.<>c__DisplayClass4_0 // TypeDefIndex: 11232
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7B5260 Offset: 0x7B3860 VA: 0x1807B5260
+	// RVA: 0x7D3650 Offset: 0x7D1C50 VA: 0x1807D3650
 	internal void <Awake>b__0() { }
 
 }
@@ -48,7 +48,7 @@ private sealed class TabToggle.<>c__DisplayClass6_0 // TypeDefIndex: 11233
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x7B5290 Offset: 0x7B3890 VA: 0x1807B5290
+	// RVA: 0x7D3680 Offset: 0x7D1C80 VA: 0x1807D3680
 	internal void <Hide>b__0() { }
 
 }

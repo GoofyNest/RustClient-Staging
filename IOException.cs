@@ -4,22 +4,22 @@ public class IOException : SystemException // TypeDefIndex: 634
 
 	// Methods
 
-	// RVA: 0x16251F0 Offset: 0x16237F0 VA: 0x1816251F0
+	// RVA: 0x1612510 Offset: 0x1610B10 VA: 0x181612510
 	public void .ctor() { }
 
-	// RVA: 0x1625250 Offset: 0x1623850 VA: 0x181625250
+	// RVA: 0x1612570 Offset: 0x1610B70 VA: 0x181612570
 	public void .ctor(string message) { }
 
-	// RVA: 0xFE6900 Offset: 0xFE4F00 VA: 0x180FE6900
+	// RVA: 0xFE73A0 Offset: 0xFE59A0 VA: 0x180FE73A0
 	public void .ctor(string message, int hresult) { }
 
-	// RVA: 0x1625280 Offset: 0x1623880 VA: 0x181625280
+	// RVA: 0x16125A0 Offset: 0x1610BA0 VA: 0x1816125A0
 	internal void .ctor(string message, int hresult, string maybeFullPath) { }
 
-	// RVA: 0x16251C0 Offset: 0x16237C0 VA: 0x1816251C0
+	// RVA: 0x16124E0 Offset: 0x1610AE0 VA: 0x1816124E0
 	public void .ctor(string message, Exception innerException) { }
 
-	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
+	// RVA: 0xFDDEB0 Offset: 0xFDC4B0 VA: 0x180FDDEB0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

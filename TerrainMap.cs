@@ -4,52 +4,52 @@ public abstract class TerrainMap : TerrainExtension // TypeDefIndex: 10408
 
 	// Methods
 
-	// RVA: 0x1145C00 Offset: 0x1144200 VA: 0x181145C00
+	// RVA: 0x1146670 Offset: 0x1144C70 VA: 0x181146670
 	public void ApplyFilter(float normX, float normZ, float radius, float fade, Action<int, int, float> action) { }
 
-	// RVA: 0x1147C90 Offset: 0x1146290 VA: 0x181147C90
+	// RVA: 0x1148700 Offset: 0x1146D00 VA: 0x181148700
 	public void ForEach(Vector3 worldPos, float radius, Action<int, int> action) { }
 
-	// RVA: 0x1146F00 Offset: 0x1145500 VA: 0x181146F00
+	// RVA: 0x1147970 Offset: 0x1145F70 VA: 0x181147970
 	public void ForEachParallel(Vector3 v0, Vector3 v1, Vector3 v2, Action<int, int> action) { }
 
-	// RVA: 0x1146D10 Offset: 0x1145310 VA: 0x181146D10
+	// RVA: 0x1147780 Offset: 0x1145D80 VA: 0x181147780
 	public void ForEachParallel(Vector2i v0, Vector2i v1, Vector2i v2, Action<int, int> action) { }
 
-	// RVA: 0x11477A0 Offset: 0x1145DA0 VA: 0x1811477A0
+	// RVA: 0x1148210 Offset: 0x1146810 VA: 0x181148210
 	public void ForEach(Vector3 v0, Vector3 v1, Vector3 v2, Action<int, int> action) { }
 
-	// RVA: 0x1147700 Offset: 0x1145D00 VA: 0x181147700
+	// RVA: 0x1148170 Offset: 0x1146770 VA: 0x181148170
 	public void ForEach(Vector2i v0, Vector2i v1, Vector2i v2, Action<int, int> action) { }
 
-	// RVA: 0x1145FD0 Offset: 0x11445D0 VA: 0x181145FD0
+	// RVA: 0x1146A40 Offset: 0x1145040 VA: 0x181146A40
 	private void ForEachInternal(Vector2i v0, Vector2i v1, Vector2i v2, Action<int, int> action, Vector2i min, Vector2i max) { }
 
-	// RVA: 0x1146710 Offset: 0x1144D10 VA: 0x181146710
+	// RVA: 0x1147180 Offset: 0x1145780 VA: 0x181147180
 	public void ForEachParallel(Vector3 v0, Vector3 v1, Vector3 v2, Vector3 v3, Action<int, int> action) { }
 
-	// RVA: 0x1147380 Offset: 0x1145980 VA: 0x181147380
+	// RVA: 0x1147DF0 Offset: 0x11463F0 VA: 0x181147DF0
 	public void ForEachParallel(Vector2i v0, Vector2i v1, Vector2i v2, Vector2i v3, Action<int, int> action) { }
 
-	// RVA: 0x1147FC0 Offset: 0x11465C0 VA: 0x181147FC0
+	// RVA: 0x1148A30 Offset: 0x1147030 VA: 0x181148A30
 	public void ForEach(Vector3 v0, Vector3 v1, Vector3 v2, Vector3 v3, Action<int, int> action) { }
 
-	// RVA: 0x1147F10 Offset: 0x1146510 VA: 0x181147F10
+	// RVA: 0x1148980 Offset: 0x1146F80 VA: 0x181148980
 	public void ForEach(Vector2i v0, Vector2i v1, Vector2i v2, Vector2i v3, Action<int, int> action) { }
 
-	// RVA: 0x11462D0 Offset: 0x11448D0 VA: 0x1811462D0
+	// RVA: 0x1146D40 Offset: 0x1145340 VA: 0x181146D40
 	private void ForEachInternal(Vector2i v0, Vector2i v1, Vector2i v2, Vector2i v3, Action<int, int> action, Vector2i min, Vector2i max) { }
 
-	// RVA: 0x1147660 Offset: 0x1145C60 VA: 0x181147660
+	// RVA: 0x11480D0 Offset: 0x11466D0 VA: 0x1811480D0
 	public void ForEach(int x_min, int x_max, int z_min, int z_max, Action<int, int> action) { }
 
-	// RVA: 0x11475D0 Offset: 0x1145BD0 VA: 0x1811475D0
+	// RVA: 0x1148040 Offset: 0x1146640 VA: 0x181148040
 	public void ForEach(Action<int, int> action) { }
 
-	// RVA: 0x1148640 Offset: 0x1146C40 VA: 0x181148640
+	// RVA: 0x11490B0 Offset: 0x11476B0 VA: 0x1811490B0
 	public int Index(float normalized) { }
 
-	// RVA: 0x1145FB0 Offset: 0x11445B0 VA: 0x181145FB0
+	// RVA: 0x1146A20 Offset: 0x1145020 VA: 0x181146A20
 	public float Coordinate(int index) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -72,7 +72,7 @@ private sealed class TerrainMap.<>c__DisplayClass4_0 // TypeDefIndex: 10409
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x11558A0 Offset: 0x1153EA0 VA: 0x1811558A0
+	// RVA: 0x1156310 Offset: 0x1154910 VA: 0x181156310
 	internal void <ForEachParallel>b__0(int thread_id, int thread_count) { }
 
 }
@@ -94,7 +94,7 @@ private sealed class TerrainMap.<>c__DisplayClass9_0 // TypeDefIndex: 10410
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1155CA0 Offset: 0x11542A0 VA: 0x181155CA0
+	// RVA: 0x1156710 Offset: 0x1154D10 VA: 0x181156710
 	internal void <ForEachParallel>b__0(int thread_id, int thread_count) { }
 
 }

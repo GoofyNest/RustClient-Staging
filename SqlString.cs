@@ -46,37 +46,37 @@ public struct SqlString : INullable, IComparable, IXmlSerializable // TypeDefInd
 	// RVA: 0x11B340 Offset: 0x11A740 VA: 0x18011B340
 	private void SetCompareInfo() { }
 
-	// RVA: 0xCCAD80 Offset: 0xCC9380 VA: 0x180CCAD80
+	// RVA: 0xCCB220 Offset: 0xCC9820 VA: 0x180CCB220
 	public static SqlString op_Implicit(string x) { }
 
 	// RVA: 0x11B4F0 Offset: 0x11A8F0 VA: 0x18011B4F0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xCCAAA0 Offset: 0xCC90A0 VA: 0x180CCAAA0
+	// RVA: 0xCCAF40 Offset: 0xCC9540 VA: 0x180CCAF40
 	public static SqlString op_Addition(SqlString x, SqlString y) { }
 
-	// RVA: 0xCCA0C0 Offset: 0xCC86C0 VA: 0x180CCA0C0
+	// RVA: 0xCCA560 Offset: 0xCC8B60 VA: 0x180CCA560
 	private static int StringCompare(SqlString x, SqlString y) { }
 
-	// RVA: 0xCC99C0 Offset: 0xCC7FC0 VA: 0x180CC99C0
+	// RVA: 0xCC9E60 Offset: 0xCC8460 VA: 0x180CC9E60
 	private static SqlBoolean Compare(SqlString x, SqlString y, EComparison ecExpectedResult) { }
 
-	// RVA: 0xCCAC20 Offset: 0xCC9220 VA: 0x180CCAC20
+	// RVA: 0xCCB0C0 Offset: 0xCC96C0 VA: 0x180CCB0C0
 	public static SqlBoolean op_Equality(SqlString x, SqlString y) { }
 
-	// RVA: 0xCCA590 Offset: 0xCC8B90 VA: 0x180CCA590
+	// RVA: 0xCCAA30 Offset: 0xCC9030 VA: 0x180CCAA30
 	private static void ValidateSqlCompareOptions(SqlCompareOptions compareOptions) { }
 
-	// RVA: 0xCC9810 Offset: 0xCC7E10 VA: 0x180CC9810
+	// RVA: 0xCC9CB0 Offset: 0xCC82B0 VA: 0x180CC9CB0
 	public static CompareOptions CompareOptionsFromSqlCompareOptions(SqlCompareOptions compareOptions) { }
 
 	// RVA: 0x11B310 Offset: 0x11A710 VA: 0x18011B310
 	private bool FBinarySort() { }
 
-	// RVA: 0xCC95A0 Offset: 0xCC7BA0 VA: 0x180CC95A0
+	// RVA: 0xCC9A40 Offset: 0xCC8040 VA: 0x180CC9A40
 	private static int CompareBinary(SqlString x, SqlString y) { }
 
-	// RVA: 0xCC9430 Offset: 0xCC7A30 VA: 0x180CC9430
+	// RVA: 0xCC98D0 Offset: 0xCC7ED0 VA: 0x180CC98D0
 	private static int CompareBinary2(SqlString x, SqlString y) { }
 
 	// RVA: 0x11B1B0 Offset: 0x11A5B0 VA: 0x18011B1B0 Slot: 5
@@ -100,10 +100,10 @@ public struct SqlString : INullable, IComparable, IXmlSerializable // TypeDefInd
 	// RVA: 0x11B450 Offset: 0x11A850 VA: 0x18011B450 Slot: 8
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
-	// RVA: 0xCC9FC0 Offset: 0xCC85C0 VA: 0x180CC9FC0
+	// RVA: 0xCCA460 Offset: 0xCC8A60 VA: 0x180CCA460
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet) { }
 
-	// RVA: 0xCCA630 Offset: 0xCC8C30 VA: 0x180CCA630
+	// RVA: 0xCCAAD0 Offset: 0xCC90D0 VA: 0x180CCAAD0
 	private static void .cctor() { }
 
 }

@@ -11,13 +11,13 @@ internal struct SubmitPlayerResultResultCallback_t : ICallbackData // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x1DB0D0 Offset: 0x1DA4D0 VA: 0x1801DB0D0 Slot: 5
+	// RVA: 0x1DB740 Offset: 0x1DAB40 VA: 0x1801DB740 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DB0C0 Offset: 0x1DA4C0 VA: 0x1801DB0C0 Slot: 4
+	// RVA: 0x1DB730 Offset: 0x1DAB30 VA: 0x1801DB730 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x12913E0 Offset: 0x128F9E0 VA: 0x1812913E0
+	// RVA: 0x1291A80 Offset: 0x1290080 VA: 0x181291A80
 	private static void .cctor() { }
 
 }

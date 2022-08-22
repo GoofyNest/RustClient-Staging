@@ -13,14 +13,14 @@ public sealed class ColorUsageAttribute : PropertyAttribute // TypeDefIndex: 348
 
 	// Methods
 
-	// RVA: 0x1823F70 Offset: 0x1822570 VA: 0x181823F70
+	// RVA: 0x18113B0 Offset: 0x180F9B0 VA: 0x1818113B0
 	public void .ctor(bool showAlpha) { }
 
-	// RVA: 0x1823F10 Offset: 0x1822510 VA: 0x181823F10
+	// RVA: 0x1811350 Offset: 0x180F950 VA: 0x181811350
 	public void .ctor(bool showAlpha, bool hdr) { }
 
 	[ObsoleteAttribute] // RVA: 0xB3460 Offset: 0xB2860 VA: 0x1800B3460
-	// RVA: 0x1823FC0 Offset: 0x18225C0 VA: 0x181823FC0
+	// RVA: 0x1811400 Offset: 0x180FA00 VA: 0x181811400
 	public void .ctor(bool showAlpha, bool hdr, float minBrightness, float maxBrightness, float minExposureValue, float maxExposureValue) { }
 
 }

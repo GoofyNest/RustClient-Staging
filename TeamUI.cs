@@ -15,25 +15,25 @@ public class TeamUI : MonoBehaviour // TypeDefIndex: 11235
 
 	// Methods
 
-	// RVA: 0x7A9AB0 Offset: 0x7A80B0 VA: 0x1807A9AB0
+	// RVA: 0x7C7EB0 Offset: 0x7C64B0 VA: 0x1807C7EB0
 	public void Update() { }
 
-	// RVA: 0x7A98C0 Offset: 0x7A7EC0 VA: 0x1807A98C0
+	// RVA: 0x7C7CC0 Offset: 0x7C62C0 VA: 0x1807C7CC0
 	public void LeaveTeamClicked() { }
 
-	// RVA: 0x7A9830 Offset: 0x7A7E30 VA: 0x1807A9830
+	// RVA: 0x7C7C30 Offset: 0x7C6230 VA: 0x1807C7C30
 	public void CreateTeam() { }
 
-	// RVA: 0x7A96D0 Offset: 0x7A7CD0 VA: 0x1807A96D0
+	// RVA: 0x7C7AD0 Offset: 0x7C60D0 VA: 0x1807C7AD0
 	public void AcceptJoin() { }
 
-	// RVA: 0x7A9950 Offset: 0x7A7F50 VA: 0x1807A9950
+	// RVA: 0x7C7D50 Offset: 0x7C6350 VA: 0x1807C7D50
 	public void RejectJoin() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0x7AA120 Offset: 0x7A8720 VA: 0x1807AA120
+	// RVA: 0x7C8520 Offset: 0x7C6B20 VA: 0x1807C8520
 	private static void .cctor() { }
 
 }

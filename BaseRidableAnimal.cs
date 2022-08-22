@@ -73,70 +73,70 @@ public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 8347
 
 	// Methods
 
-	// RVA: 0x928790 Offset: 0x926D90 VA: 0x180928790 Slot: 49
+	// RVA: 0x928CA0 Offset: 0x9272A0 VA: 0x180928CA0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x92AF40 Offset: 0x929540 VA: 0x18092AF40 Slot: 50
+	// RVA: 0x92B450 Offset: 0x929A50 VA: 0x18092B450 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x929DD0 Offset: 0x9283D0 VA: 0x180929DD0 Slot: 35
+	// RVA: 0x92A2E0 Offset: 0x9288E0 VA: 0x18092A2E0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x5799C0 Offset: 0x577FC0 VA: 0x1805799C0
+	// RVA: 0x579950 Offset: 0x577F50 VA: 0x180579950
 	public bool IsForSale() { }
 
-	// RVA: 0x9282C0 Offset: 0x9268C0 VA: 0x1809282C0 Slot: 194
+	// RVA: 0x9287D0 Offset: 0x926DD0 VA: 0x1809287D0 Slot: 194
 	public virtual bool CanOpenStorage(BasePlayer player) { }
 
-	// RVA: 0x929660 Offset: 0x927C60 VA: 0x180929660
+	// RVA: 0x929B70 Offset: 0x928170 VA: 0x180929B70
 	public void LoadContainer(BaseNetworkable.LoadInfo info) { }
 
 	[BaseEntity.Menu] // RVA: 0xC5070 Offset: 0xC4470 VA: 0x1800C5070
 	[BaseEntity.Menu.Description] // RVA: 0xC5070 Offset: 0xC4470 VA: 0x1800C5070
 	[BaseEntity.Menu.Icon] // RVA: 0xC5070 Offset: 0xC4470 VA: 0x1800C5070
 	[BaseEntity.Menu.ShowIf] // RVA: 0xC5070 Offset: 0xC4470 VA: 0x1800C5070
-	// RVA: 0x929B90 Offset: 0x928190 VA: 0x180929B90
+	// RVA: 0x92A0A0 Offset: 0x9286A0 VA: 0x18092A0A0
 	public void Menu_Open(BasePlayer player) { }
 
-	// RVA: 0x929A70 Offset: 0x928070 VA: 0x180929A70
+	// RVA: 0x929F80 Offset: 0x928580 VA: 0x180929F80
 	public bool Menu_Open_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x92A830 Offset: 0x928E30 VA: 0x18092A830 Slot: 195
+	// RVA: 0x92AD40 Offset: 0x929340 VA: 0x18092AD40 Slot: 195
 	public virtual bool ShouldShowLootMenus() { }
 
-	// RVA: 0x928750 Offset: 0x926D50 VA: 0x180928750
+	// RVA: 0x928C60 Offset: 0x927260 VA: 0x180928C60
 	public float GetBreathingDelay() { }
 
-	// RVA: 0x8CE710 Offset: 0x8CCD10 VA: 0x1808CE710
+	// RVA: 0x8CEC20 Offset: 0x8CD220 VA: 0x1808CEC20
 	public bool IsLeading() { }
 
-	// RVA: 0x92A980 Offset: 0x928F80 VA: 0x18092A980
+	// RVA: 0x92AE90 Offset: 0x929490 VA: 0x18092AE90
 	public static float UnitsToKPH(float unitsPerSecond) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 98
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 98
 	public override bool get_IsNpc() { }
 
-	// RVA: 0x929750 Offset: 0x927D50 VA: 0x180929750 Slot: 34
+	// RVA: 0x929C60 Offset: 0x928260 VA: 0x180929C60 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x92A9A0 Offset: 0x928FA0 VA: 0x18092A9A0
+	// RVA: 0x92AEB0 Offset: 0x9294B0 VA: 0x18092AEB0
 	public void UpdateBreathingRate() { }
 
-	// RVA: 0x92A650 Offset: 0x928C50 VA: 0x18092A650 Slot: 16
+	// RVA: 0x92AB60 Offset: 0x929160 VA: 0x18092AB60 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x92A8C0 Offset: 0x928EC0 VA: 0x18092A8C0
+	// RVA: 0x92ADD0 Offset: 0x9293D0 VA: 0x18092ADD0
 	public void SprintSoundPlay() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x92A8F0 Offset: 0x928EF0 VA: 0x18092A8F0
+	// RVA: 0x92AE00 Offset: 0x929400 VA: 0x18092AE00
 	public void Stand(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9286D0 Offset: 0x926CD0 VA: 0x1809286D0
+	// RVA: 0x928BE0 Offset: 0x9271E0 VA: 0x180928BE0
 	public void Eat(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x928590 Offset: 0x926B90 VA: 0x180928590 Slot: 131
+	// RVA: 0x928AA0 Offset: 0x9270A0 VA: 0x180928AA0 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xC54E0 Offset: 0xC48E0 VA: 0x1800C54E0
@@ -146,43 +146,43 @@ public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 8347
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Menu_TooHeavy(BasePlayer player) { }
 
-	// RVA: 0x929630 Offset: 0x927C30 VA: 0x180929630
+	// RVA: 0x929B40 Offset: 0x928140 VA: 0x180929B40
 	public bool Menu_TooHeavy_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xC5790 Offset: 0xC4B90 VA: 0x1800C5790
 	[BaseEntity.Menu.Description] // RVA: 0xC5790 Offset: 0xC4B90 VA: 0x1800C5790
 	[BaseEntity.Menu.Icon] // RVA: 0xC5790 Offset: 0xC4B90 VA: 0x1800C5790
 	[BaseEntity.Menu.ShowIf] // RVA: 0xC5790 Offset: 0xC4B90 VA: 0x1800C5790
-	// RVA: 0x929CA0 Offset: 0x9282A0 VA: 0x180929CA0
+	// RVA: 0x92A1B0 Offset: 0x9287B0 VA: 0x18092A1B0
 	public void Menu_Ride(BasePlayer player) { }
 
-	// RVA: 0x929BD0 Offset: 0x9281D0 VA: 0x180929BD0
+	// RVA: 0x92A0E0 Offset: 0x9286E0 VA: 0x18092A0E0
 	public bool Menu_Ride_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x928320 Offset: 0x926920 VA: 0x180928320
+	// RVA: 0x928830 Offset: 0x926E30 VA: 0x180928830
 	private bool CanPlayerSeeSaddlePoint(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xC5A70 Offset: 0xC4E70 VA: 0x1800C5A70
 	[BaseEntity.Menu.Description] // RVA: 0xC5A70 Offset: 0xC4E70 VA: 0x1800C5A70
 	[BaseEntity.Menu.Icon] // RVA: 0xC5A70 Offset: 0xC4E70 VA: 0x1800C5A70
 	[BaseEntity.Menu.ShowIf] // RVA: 0xC5A70 Offset: 0xC4E70 VA: 0x1800C5A70
-	// RVA: 0x929A20 Offset: 0x928020 VA: 0x180929A20
+	// RVA: 0x929F30 Offset: 0x928530 VA: 0x180929F30
 	public void Menu_Lead(BasePlayer player) { }
 
-	// RVA: 0x929980 Offset: 0x927F80 VA: 0x180929980
+	// RVA: 0x929E90 Offset: 0x928490 VA: 0x180929E90
 	public bool Menu_Lead_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xC5CF0 Offset: 0xC50F0 VA: 0x1800C5CF0
 	[BaseEntity.Menu.Description] // RVA: 0xC5CF0 Offset: 0xC50F0 VA: 0x1800C5CF0
 	[BaseEntity.Menu.Icon] // RVA: 0xC5CF0 Offset: 0xC50F0 VA: 0x1800C5CF0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xC5CF0 Offset: 0xC50F0 VA: 0x1800C5CF0
-	// RVA: 0x929D80 Offset: 0x928380 VA: 0x180929D80
+	// RVA: 0x92A290 Offset: 0x928890 VA: 0x18092A290
 	public void Menu_StopLead(BasePlayer player) { }
 
-	// RVA: 0x929CE0 Offset: 0x9282E0 VA: 0x180929CE0
+	// RVA: 0x92A1F0 Offset: 0x9287F0 VA: 0x18092A1F0
 	public bool Menu_StopLead_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 196
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 196
 	public virtual bool RideMenuVisible() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 184
@@ -192,34 +192,34 @@ public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 8347
 	[BaseEntity.Menu.Description] // RVA: 0xC5F60 Offset: 0xC5360 VA: 0x1800C5F60
 	[BaseEntity.Menu.Icon] // RVA: 0xC5F60 Offset: 0xC5360 VA: 0x1800C5F60
 	[BaseEntity.Menu.ShowIf] // RVA: 0xC5F60 Offset: 0xC5360 VA: 0x1800C5F60
-	// RVA: 0x929940 Offset: 0x927F40 VA: 0x180929940
+	// RVA: 0x929E50 Offset: 0x928450 VA: 0x180929E50
 	public void Menu_Claim(BasePlayer player) { }
 
-	// RVA: 0x929860 Offset: 0x927E60 VA: 0x180929860
+	// RVA: 0x929D70 Offset: 0x928370 VA: 0x180929D70
 	public bool Menu_Claim_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x92A610 Offset: 0x928C10 VA: 0x18092A610
+	// RVA: 0x92AB20 Offset: 0x929120 VA: 0x18092AB20
 	public bool PlayerHasToken(BasePlayer player) { }
 
-	// RVA: 0x9295C0 Offset: 0x927BC0 VA: 0x1809295C0
+	// RVA: 0x929AD0 Offset: 0x9280D0 VA: 0x180929AD0
 	public Item GetPurchaseToken(BasePlayer player) { }
 
-	// RVA: 0x929620 Offset: 0x927C20 VA: 0x180929620 Slot: 197
+	// RVA: 0x929B30 Offset: 0x928130 VA: 0x180929B30 Slot: 197
 	public virtual float GetWalkSpeed() { }
 
-	// RVA: 0x929610 Offset: 0x927C10 VA: 0x180929610 Slot: 198
+	// RVA: 0x929B20 Offset: 0x928120 VA: 0x180929B20 Slot: 198
 	public virtual float GetTrotSpeed() { }
 
-	// RVA: 0x929600 Offset: 0x927C00 VA: 0x180929600 Slot: 199
+	// RVA: 0x929B10 Offset: 0x928110 VA: 0x180929B10 Slot: 199
 	public virtual float GetRunSpeed() { }
 
-	// RVA: 0x929630 Offset: 0x927C30 VA: 0x180929630
+	// RVA: 0x929B40 Offset: 0x928140 VA: 0x180929B40
 	public bool IsPlayerTooHeavy(BasePlayer player) { }
 
-	// RVA: 0x92AB50 Offset: 0x929150 VA: 0x18092AB50
+	// RVA: 0x92B060 Offset: 0x929660 VA: 0x18092B060
 	public void .ctor() { }
 
-	// RVA: 0x92AB10 Offset: 0x929110 VA: 0x18092AB10
+	// RVA: 0x92B020 Offset: 0x929620 VA: 0x18092B020
 	private static void .cctor() { }
 
 }

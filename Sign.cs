@@ -8,82 +8,82 @@ public class Sign : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6319
 
 	// Methods
 
-	// RVA: 0x1E0B030 Offset: 0x1E09630 VA: 0x181E0B030
+	// RVA: 0x1E0B850 Offset: 0x1E09E50 VA: 0x181E0B850
 	public static void ResetToPool(Sign instance) { }
 
-	// RVA: 0x1E0AED0 Offset: 0x1E094D0 VA: 0x181E0AED0
+	// RVA: 0x1E0B6F0 Offset: 0x1E09CF0 VA: 0x181E0B6F0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E0ACC0 Offset: 0x1E092C0 VA: 0x181E0ACC0 Slot: 9
+	// RVA: 0x1E0B4E0 Offset: 0x1E09AE0 VA: 0x181E0B4E0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E09D40 Offset: 0x1E08340 VA: 0x181E09D40
+	// RVA: 0x1E0A560 Offset: 0x1E08B60 VA: 0x181E0A560
 	public void CopyTo(Sign instance) { }
 
-	// RVA: 0x1E09F40 Offset: 0x1E08540 VA: 0x181E09F40
+	// RVA: 0x1E0A760 Offset: 0x1E08D60 VA: 0x181E0A760
 	public Sign Copy() { }
 
-	// RVA: 0x1E0AC40 Offset: 0x1E09240 VA: 0x181E0AC40
+	// RVA: 0x1E0B460 Offset: 0x1E09A60 VA: 0x181E0B460
 	public static Sign Deserialize(Stream stream) { }
 
-	// RVA: 0x1E09FC0 Offset: 0x1E085C0 VA: 0x181E09FC0
+	// RVA: 0x1E0A7E0 Offset: 0x1E08DE0 VA: 0x181E0A7E0
 	public static Sign DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E0A700 Offset: 0x1E08D00 VA: 0x181E0A700
+	// RVA: 0x1E0AF20 Offset: 0x1E09520 VA: 0x181E0AF20
 	public static Sign DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E0AB20 Offset: 0x1E09120 VA: 0x181E0AB20
+	// RVA: 0x1E0B340 Offset: 0x1E09940 VA: 0x181E0B340
 	public static Sign Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E0AE90 Offset: 0x1E09490 VA: 0x181E0AE90
+	// RVA: 0x1E0B6B0 Offset: 0x1E09CB0 VA: 0x181E0B6B0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E0B7D0 Offset: 0x1E09DD0 VA: 0x181E0B7D0 Slot: 12
+	// RVA: 0x1E0BFF0 Offset: 0x1E0A5F0 VA: 0x181E0BFF0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E0B7F0 Offset: 0x1E09DF0 VA: 0x181E0B7F0 Slot: 13
+	// RVA: 0x1E0C010 Offset: 0x1E0A610 VA: 0x181E0C010 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Sign previous) { }
 
-	// RVA: 0x1E0AEB0 Offset: 0x1E094B0 VA: 0x181E0AEB0 Slot: 14
+	// RVA: 0x1E0B6D0 Offset: 0x1E09CD0 VA: 0x181E0B6D0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E0A790 Offset: 0x1E08D90 VA: 0x181E0A790
+	// RVA: 0x1E0AFB0 Offset: 0x1E095B0 VA: 0x181E0AFB0
 	public static Sign Deserialize(byte[] buffer, Sign instance, bool isDelta = False) { }
 
-	// RVA: 0x1E0A890 Offset: 0x1E08E90 VA: 0x181E0A890
+	// RVA: 0x1E0B0B0 Offset: 0x1E096B0 VA: 0x181E0B0B0
 	public static Sign Deserialize(Stream stream, Sign instance, bool isDelta) { }
 
-	// RVA: 0x1E0A040 Offset: 0x1E08640 VA: 0x181E0A040
+	// RVA: 0x1E0A860 Offset: 0x1E08E60 VA: 0x181E0A860
 	public static Sign DeserializeLengthDelimited(Stream stream, Sign instance, bool isDelta) { }
 
-	// RVA: 0x1E0A3B0 Offset: 0x1E089B0 VA: 0x181E0A3B0
+	// RVA: 0x1E0ABD0 Offset: 0x1E091D0 VA: 0x181E0ABD0
 	public static Sign DeserializeLength(Stream stream, int length, Sign instance, bool isDelta) { }
 
-	// RVA: 0x1E0B190 Offset: 0x1E09790 VA: 0x181E0B190
+	// RVA: 0x1E0B9B0 Offset: 0x1E09FB0 VA: 0x181E0B9B0
 	public static void SerializeDelta(Stream stream, Sign instance, Sign previous) { }
 
-	// RVA: 0x1E0B590 Offset: 0x1E09B90 VA: 0x181E0B590
+	// RVA: 0x1E0BDB0 Offset: 0x1E0A3B0 VA: 0x181E0BDB0
 	public static void Serialize(Stream stream, Sign instance) { }
 
-	// RVA: 0x1E0B7C0 Offset: 0x1E09DC0 VA: 0x181E0B7C0
+	// RVA: 0x1E0BFE0 Offset: 0x1E0A5E0 VA: 0x181E0BFE0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E0B7D0 Offset: 0x1E09DD0 VA: 0x181E0B7D0
+	// RVA: 0x1E0BFF0 Offset: 0x1E0A5F0 VA: 0x181E0BFF0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E0B480 Offset: 0x1E09A80 VA: 0x181E0B480
+	// RVA: 0x1E0BCA0 Offset: 0x1E0A2A0 VA: 0x181E0BCA0
 	public static byte[] SerializeToBytes(Sign instance) { }
 
-	// RVA: 0x1E0B3D0 Offset: 0x1E099D0 VA: 0x181E0B3D0
+	// RVA: 0x1E0BBF0 Offset: 0x1E0A1F0 VA: 0x181E0BBF0
 	public static void SerializeLengthDelimited(Stream stream, Sign instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }

@@ -15,37 +15,37 @@ internal class ErrorMessage : IMethodCallMessage, IMethodMessage, IMessage // Ty
 
 	// Methods
 
-	// RVA: 0x1477C00 Offset: 0x1476200 VA: 0x181477C00
+	// RVA: 0x1476CD0 Offset: 0x14752D0 VA: 0x181476CD0
 	public void .ctor() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 4
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 4
 	public int get_ArgCount() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 5
 	public object[] get_Args() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 7
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 7
 	public MethodBase get_MethodBase() { }
 
-	// RVA: 0x1477C50 Offset: 0x1476250 VA: 0x181477C50 Slot: 8
+	// RVA: 0x1476D20 Offset: 0x1475320 VA: 0x181476D20 Slot: 8
 	public string get_MethodName() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 9
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 9
 	public object get_MethodSignature() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 14
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 14
 	public virtual IDictionary get_Properties() { }
 
-	// RVA: 0x1477C80 Offset: 0x1476280 VA: 0x181477C80 Slot: 10
+	// RVA: 0x1476D50 Offset: 0x1475350 VA: 0x181476D50 Slot: 10
 	public string get_TypeName() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 11
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 11
 	public string get_Uri() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 12
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 12
 	public object GetArg(int arg_num) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 6
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 6
 	public LogicalCallContext get_LogicalCallContext() { }
 
 }

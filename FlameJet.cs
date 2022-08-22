@@ -16,25 +16,25 @@ public class FlameJet : MonoBehaviour // TypeDefIndex: 8898
 
 	// Methods
 
-	// RVA: 0x78E190 Offset: 0x78C790 VA: 0x18078E190
+	// RVA: 0x78E0A0 Offset: 0x78C6A0 VA: 0x18078E0A0
 	private void Initialize() { }
 
-	// RVA: 0x78E190 Offset: 0x78C790 VA: 0x18078E190
+	// RVA: 0x78E0A0 Offset: 0x78C6A0 VA: 0x18078E0A0
 	private void Awake() { }
 
-	// RVA: 0x78E260 Offset: 0x78C860 VA: 0x18078E260
+	// RVA: 0x78E170 Offset: 0x78C770 VA: 0x18078E170
 	public void LateUpdate() { }
 
-	// RVA: 0x78E280 Offset: 0x78C880 VA: 0x18078E280
+	// RVA: 0x78E190 Offset: 0x78C790 VA: 0x18078E190
 	public void SetOn(bool isOn) { }
 
-	// RVA: 0x78E7C0 Offset: 0x78CDC0 VA: 0x18078E7C0
+	// RVA: 0x78E6D0 Offset: 0x78CCD0 VA: 0x18078E6D0
 	private float curve(float x) { }
 
-	// RVA: 0x78E290 Offset: 0x78C890 VA: 0x18078E290
+	// RVA: 0x78E1A0 Offset: 0x78C7A0 VA: 0x18078E1A0
 	private void UpdateLine() { }
 
-	// RVA: 0x78E760 Offset: 0x78CD60 VA: 0x18078E760
+	// RVA: 0x78E670 Offset: 0x78CC70 VA: 0x18078E670
 	public void .ctor() { }
 
 }

@@ -1,62 +1,62 @@
 public static class Monitor // TypeDefIndex: 788
 {	// Methods
 
-	// RVA: 0x14971D0 Offset: 0x14957D0 VA: 0x1814971D0
+	// RVA: 0x14962A0 Offset: 0x14948A0 VA: 0x1814962A0
 	public static void Enter(object obj) { }
 
-	// RVA: 0x14971E0 Offset: 0x14957E0 VA: 0x1814971E0
+	// RVA: 0x14962B0 Offset: 0x14948B0 VA: 0x1814962B0
 	public static void Enter(object obj, ref bool lockTaken) { }
 
-	// RVA: 0x1497720 Offset: 0x1495D20 VA: 0x181497720
+	// RVA: 0x14967F0 Offset: 0x1494DF0 VA: 0x1814967F0
 	private static void ThrowLockTakenException() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x1497270 Offset: 0x1495870 VA: 0x181497270
+	// RVA: 0x1496340 Offset: 0x1494940 VA: 0x181496340
 	public static void Exit(object obj) { }
 
-	// RVA: 0x1497790 Offset: 0x1495D90 VA: 0x181497790
+	// RVA: 0x1496860 Offset: 0x1494E60 VA: 0x181496860
 	public static void TryEnter(object obj, ref bool lockTaken) { }
 
-	// RVA: 0x1497820 Offset: 0x1495E20 VA: 0x181497820
+	// RVA: 0x14968F0 Offset: 0x1494EF0 VA: 0x1814968F0
 	public static bool Wait(object obj, int millisecondsTimeout, bool exitContext) { }
 
-	// RVA: 0x1497820 Offset: 0x1495E20 VA: 0x181497820
+	// RVA: 0x14968F0 Offset: 0x1494EF0 VA: 0x1814968F0
 	public static bool Wait(object obj, int millisecondsTimeout) { }
 
-	// RVA: 0x1497520 Offset: 0x1495B20 VA: 0x181497520
+	// RVA: 0x14965F0 Offset: 0x1494BF0 VA: 0x1814965F0
 	public static void Pulse(object obj) { }
 
-	// RVA: 0x1497460 Offset: 0x1495A60 VA: 0x181497460
+	// RVA: 0x1496530 Offset: 0x1494B30 VA: 0x181496530
 	public static void PulseAll(object obj) { }
 
-	// RVA: 0x14972A0 Offset: 0x14958A0 VA: 0x1814972A0
+	// RVA: 0x1496370 Offset: 0x1494970 VA: 0x181496370
 	private static bool Monitor_test_synchronised(object obj) { }
 
-	// RVA: 0x1497290 Offset: 0x1495890 VA: 0x181497290
+	// RVA: 0x1496360 Offset: 0x1494960 VA: 0x181496360
 	private static void Monitor_pulse(object obj) { }
 
-	// RVA: 0x1497330 Offset: 0x1495930 VA: 0x181497330
+	// RVA: 0x1496400 Offset: 0x1494A00 VA: 0x181496400
 	private static void ObjPulse(object obj) { }
 
-	// RVA: 0x1497280 Offset: 0x1495880 VA: 0x181497280
+	// RVA: 0x1496350 Offset: 0x1494950 VA: 0x181496350
 	private static void Monitor_pulse_all(object obj) { }
 
-	// RVA: 0x14972C0 Offset: 0x14958C0 VA: 0x1814972C0
+	// RVA: 0x1496390 Offset: 0x1494990 VA: 0x181496390
 	private static void ObjPulseAll(object obj) { }
 
-	// RVA: 0x14972B0 Offset: 0x14958B0 VA: 0x1814972B0
+	// RVA: 0x1496380 Offset: 0x1494980 VA: 0x181496380
 	private static bool Monitor_wait(object obj, int ms) { }
 
-	// RVA: 0x14973A0 Offset: 0x14959A0 VA: 0x1814973A0
+	// RVA: 0x1496470 Offset: 0x1494A70 VA: 0x181496470
 	private static bool ObjWait(bool exitContext, int millisecondsTimeout, object obj) { }
 
-	// RVA: 0x1497930 Offset: 0x1495F30 VA: 0x181497930
+	// RVA: 0x1496A00 Offset: 0x1495000 VA: 0x181496A00
 	private static void try_enter_with_atomic_var(object obj, int millisecondsTimeout, ref bool lockTaken) { }
 
-	// RVA: 0x14975E0 Offset: 0x1495BE0 VA: 0x1814975E0
+	// RVA: 0x14966B0 Offset: 0x1494CB0 VA: 0x1814966B0
 	private static void ReliableEnterTimeout(object obj, int timeout, ref bool lockTaken) { }
 
-	// RVA: 0x14976A0 Offset: 0x1495CA0 VA: 0x1814976A0
+	// RVA: 0x1496770 Offset: 0x1494D70 VA: 0x181496770
 	private static void ReliableEnter(object obj, ref bool lockTaken) { }
 
 }
@@ -73,14 +73,14 @@ public abstract class Monitor // TypeDefIndex: 11821
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public RenderTexture get_output() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	protected void set_output(RenderTexture value) { }
 
-	// RVA: 0x1019920 Offset: 0x1017F20 VA: 0x181019920
+	// RVA: 0x101A3C0 Offset: 0x10189C0 VA: 0x18101A3C0
 	public bool IsRequestedAndSupported(PostProcessRenderContext context) { }
 
 	// RVA: -1 Offset: -1 Slot: 4
@@ -89,13 +89,13 @@ public abstract class Monitor // TypeDefIndex: 11821
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 5
 	internal virtual bool NeedsHalfRes() { }
 
-	// RVA: 0x1019790 Offset: 0x1017D90 VA: 0x181019790
+	// RVA: 0x101A230 Offset: 0x1018830 VA: 0x18101A230
 	protected void CheckOutput(int width, int height) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 6
 	internal virtual void OnEnable() { }
 
-	// RVA: 0x10199C0 Offset: 0x1017FC0 VA: 0x1810199C0 Slot: 7
+	// RVA: 0x101A460 Offset: 0x1018A60 VA: 0x18101A460 Slot: 7
 	internal virtual void OnDisable() { }
 
 	// RVA: -1 Offset: -1 Slot: 8

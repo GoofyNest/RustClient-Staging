@@ -12,7 +12,7 @@ public class Add // TypeDefIndex: 6251
 
 	// Methods
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20
 	public int get_Version() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

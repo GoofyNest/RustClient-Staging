@@ -51,148 +51,148 @@ public class BaseGameMode : BaseEntity // TypeDefIndex: 8517
 
 	// Methods
 
-	// RVA: 0xA3E0B0 Offset: 0xA3C6B0 VA: 0x180A3E0B0 Slot: 35
+	// RVA: 0xA3E5A0 Offset: 0xA3CBA0 VA: 0x180A3E5A0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA3C9B0 Offset: 0xA3AFB0 VA: 0x180A3C9B0
+	// RVA: 0xA3CEA0 Offset: 0xA3B4A0 VA: 0x180A3CEA0
 	public GameMode GetGameScores() { }
 
-	// RVA: 0xA3E8C0 Offset: 0xA3CEC0 VA: 0x180A3E8C0
+	// RVA: 0xA3EDB0 Offset: 0xA3D3B0 VA: 0x180A3EDB0
 	public int ScoreColumnIndex(string scoreName) { }
 
-	// RVA: 0xA3D740 Offset: 0xA3BD40 VA: 0x180A3D740
+	// RVA: 0xA3DC30 Offset: 0xA3C230 VA: 0x180A3DC30
 	public void InitScores() { }
 
-	// RVA: 0xA3BF30 Offset: 0xA3A530 VA: 0x180A3BF30
+	// RVA: 0xA3C420 Offset: 0xA3AA20 VA: 0x180A3C420
 	public void CopyGameModeScores(GameMode from, GameMode to) { }
 
-	// RVA: 0xA3CD20 Offset: 0xA3B320 VA: 0x180A3CD20
+	// RVA: 0xA3D210 Offset: 0xA3B810 VA: 0x180A3D210
 	public GameMode.PlayerScore GetPlayerScoreForPlayer(BasePlayer player) { }
 
-	// RVA: 0xA3CFB0 Offset: 0xA3B5B0 VA: 0x180A3CFB0
+	// RVA: 0xA3D4A0 Offset: 0xA3BAA0 VA: 0x180A3D4A0
 	public int GetScoreIndexByName(string name) { }
 
-	// RVA: 0xA3DCC0 Offset: 0xA3C2C0 VA: 0x180A3DCC0 Slot: 131
+	// RVA: 0xA3E1B0 Offset: 0xA3C7B0 VA: 0x180A3E1B0 Slot: 131
 	public virtual bool IsDraw() { }
 
-	// RVA: 0xA3D190 Offset: 0xA3B790 VA: 0x180A3D190 Slot: 132
+	// RVA: 0xA3D680 Offset: 0xA3BC80 VA: 0x180A3D680 Slot: 132
 	public virtual string GetWinnerName() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 133
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 133
 	public virtual int GetPlayerTeamPosition(BasePlayer player) { }
 
-	// RVA: 0xA3CB10 Offset: 0xA3B110 VA: 0x180A3CB10 Slot: 134
+	// RVA: 0xA3D000 Offset: 0xA3B600 VA: 0x180A3D000 Slot: 134
 	public virtual int GetPlayerRank(BasePlayer player) { }
 
-	// RVA: 0xA3D440 Offset: 0xA3BA40 VA: 0x180A3D440
+	// RVA: 0xA3D930 Offset: 0xA3BF30 VA: 0x180A3D930
 	public int GetWinningTeamIndex() { }
 
-	// RVA: 0xA3C660 Offset: 0xA3AC60 VA: 0x180A3C660 Slot: 135
+	// RVA: 0xA3CB50 Offset: 0xA3B150 VA: 0x180A3CB50 Slot: 135
 	public virtual bool DidPlayerWin(BasePlayer player) { }
 
-	// RVA: 0xA3DF80 Offset: 0xA3C580 VA: 0x180A3DF80
+	// RVA: 0xA3E470 Offset: 0xA3CA70 VA: 0x180A3E470
 	public bool IsTeamGame() { }
 
-	// RVA: 0xA3DFB0 Offset: 0xA3C5B0 VA: 0x180A3DFB0
+	// RVA: 0xA3E4A0 Offset: 0xA3CAA0 VA: 0x180A3E4A0
 	public bool KeepScores() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA3EF00 Offset: 0xA3D500 VA: 0x180A3EF00
+	// RVA: 0xA3F3F0 Offset: 0xA3D9F0 VA: 0x180A3F3F0
 	public static void add_GameModeChanged(Action<BaseGameMode> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA3EFF0 Offset: 0xA3D5F0 VA: 0x180A3EFF0
+	// RVA: 0xA3F4E0 Offset: 0xA3DAE0 VA: 0x180A3F4E0
 	public static void remove_GameModeChanged(Action<BaseGameMode> value) { }
 
-	// RVA: 0xA3D540 Offset: 0xA3BB40 VA: 0x180A3D540
+	// RVA: 0xA3DA30 Offset: 0xA3C030 VA: 0x180A3DA30
 	public bool HasAnyGameModeTag(string[] tags) { }
 
-	// RVA: 0xA3D610 Offset: 0xA3BC10 VA: 0x180A3D610
+	// RVA: 0xA3DB00 Offset: 0xA3C100 VA: 0x180A3DB00
 	public bool HasGameModeTag(string tag) { }
 
-	// RVA: 0xA3BD20 Offset: 0xA3A320 VA: 0x180A3BD20
+	// RVA: 0xA3C210 Offset: 0xA3A810 VA: 0x180A3C210
 	public bool AllowsSleeping() { }
 
-	// RVA: 0xA3D6C0 Offset: 0xA3BCC0 VA: 0x180A3D6C0
+	// RVA: 0xA3DBB0 Offset: 0xA3C1B0 VA: 0x180A3DBB0
 	public bool HasLoadouts() { }
 
-	// RVA: 0xA3CAE0 Offset: 0xA3B0E0 VA: 0x180A3CAE0
+	// RVA: 0xA3CFD0 Offset: 0xA3B5D0 VA: 0x180A3CFD0
 	public int GetNumTeams() { }
 
-	// RVA: 0xA3D0C0 Offset: 0xA3B6C0 VA: 0x180A3D0C0
+	// RVA: 0xA3D5B0 Offset: 0xA3BBB0 VA: 0x180A3D5B0
 	public int GetTeamScore(int teamIndex) { }
 
-	// RVA: 0xA3E970 Offset: 0xA3CF70 VA: 0x180A3E970
+	// RVA: 0xA3EE60 Offset: 0xA3D460 VA: 0x180A3EE60
 	public static void SetActiveGameMode(BaseGameMode newActive, bool serverside) { }
 
-	// RVA: 0xA3C950 Offset: 0xA3AF50 VA: 0x180A3C950
+	// RVA: 0xA3CE40 Offset: 0xA3B440 VA: 0x180A3CE40
 	public static BaseGameMode GetActiveGameMode(bool serverside) { }
 
-	// RVA: 0xA3DFE0 Offset: 0xA3C5E0 VA: 0x180A3DFE0 Slot: 34
+	// RVA: 0xA3E4D0 Offset: 0xA3CAD0 VA: 0x180A3E4D0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	// RVA: 0x49BB60 Offset: 0x49A160 VA: 0x18049BB60 Slot: 136
 	public virtual bool InWarmup() { }
 
-	// RVA: 0x50CC40 Offset: 0x50B240 VA: 0x18050CC40 Slot: 137
+	// RVA: 0x50CBD0 Offset: 0x50B1D0 VA: 0x18050CBD0 Slot: 137
 	public virtual bool IsWaitingForPlayers() { }
 
-	// RVA: 0x5799C0 Offset: 0x577FC0 VA: 0x1805799C0 Slot: 138
+	// RVA: 0x579950 Offset: 0x577F50 VA: 0x180579950 Slot: 138
 	public virtual bool IsMatchOver() { }
 
-	// RVA: 0xA3DF10 Offset: 0xA3C510 VA: 0x180A3DF10 Slot: 139
+	// RVA: 0xA3E400 Offset: 0xA3CA00 VA: 0x180A3E400 Slot: 139
 	public virtual bool IsMatchActive() { }
 
-	// RVA: 0xA3D9A0 Offset: 0xA3BFA0 VA: 0x180A3D9A0 Slot: 28
+	// RVA: 0xA3DE90 Offset: 0xA3C490 VA: 0x180A3DE90 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0xA3C550 Offset: 0xA3AB50 VA: 0x180A3C550 Slot: 31
+	// RVA: 0xA3CA40 Offset: 0xA3B040 VA: 0x180A3CA40 Slot: 31
 	public override void DestroyShared() { }
 
-	// RVA: 0xA3E040 Offset: 0xA3C640 VA: 0x180A3E040 Slot: 140
+	// RVA: 0xA3E530 Offset: 0xA3CB30 VA: 0x180A3E530 Slot: 140
 	protected virtual void OnCreated() { }
 
-	// RVA: 0xA3C4E0 Offset: 0xA3AAE0 VA: 0x180A3C4E0
+	// RVA: 0xA3C9D0 Offset: 0xA3AFD0 VA: 0x180A3C9D0
 	public void DelayedRespawn() { }
 
-	// RVA: 0xA3C840 Offset: 0xA3AE40 VA: 0x180A3C840
+	// RVA: 0xA3CD30 Offset: 0xA3B330 VA: 0x180A3CD30
 	public void DoRespawn() { }
 
-	// RVA: 0xA3E5D0 Offset: 0xA3CBD0 VA: 0x180A3E5D0 Slot: 16
+	// RVA: 0xA3EAC0 Offset: 0xA3D0C0 VA: 0x180A3EAC0 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0xA3BE40 Offset: 0xA3A440 VA: 0x180A3BE40 Slot: 141
+	// RVA: 0xA3C330 Offset: 0xA3A930 VA: 0x180A3C330 Slot: 141
 	protected virtual void ClientWarmupStart() { }
 
-	// RVA: 0xA3BD30 Offset: 0xA3A330 VA: 0x180A3BD30 Slot: 142
+	// RVA: 0xA3C220 Offset: 0xA3A820 VA: 0x180A3C220 Slot: 142
 	protected virtual void ClientMatchEnd() { }
 
-	// RVA: 0xA3BE20 Offset: 0xA3A420 VA: 0x180A3BE20 Slot: 143
+	// RVA: 0xA3C310 Offset: 0xA3A910 VA: 0x180A3C310 Slot: 143
 	protected virtual void ClientMatchStart() { }
 
-	// RVA: 0xA3D130 Offset: 0xA3B730 VA: 0x180A3D130 Slot: 144
+	// RVA: 0xA3D620 Offset: 0xA3BC20 VA: 0x180A3D620 Slot: 144
 	public virtual SoundDefinition GetWarmupMusic() { }
 
-	// RVA: 0xA3C9C0 Offset: 0xA3AFC0 VA: 0x180A3C9C0 Slot: 145
+	// RVA: 0xA3CEB0 Offset: 0xA3B4B0 VA: 0x180A3CEB0 Slot: 145
 	public virtual SoundDefinition GetMatchEndMusic() { }
 
-	// RVA: 0xA3EC90 Offset: 0xA3D290 VA: 0x180A3EC90
+	// RVA: 0xA3F180 Offset: 0xA3D780 VA: 0x180A3F180
 	public float TimeUntilWarmupEnds() { }
 
-	// RVA: 0xA3EBC0 Offset: 0xA3D1C0 VA: 0x180A3EBC0
+	// RVA: 0xA3F0B0 Offset: 0xA3D6B0 VA: 0x180A3F0B0
 	public float TimeUntilMatchResets() { }
 
-	// RVA: 0xA3EAF0 Offset: 0xA3D0F0 VA: 0x180A3EAF0
+	// RVA: 0xA3EFE0 Offset: 0xA3D5E0 VA: 0x180A3EFE0
 	public float TimeUntilMatchEnds() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA3E790 Offset: 0xA3CD90 VA: 0x180A3E790
+	// RVA: 0xA3EC80 Offset: 0xA3D280 VA: 0x180A3EC80
 	public void RPC_ScoreSplash(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0xA3EDF0 Offset: 0xA3D3F0 VA: 0x180A3EDF0
+	// RVA: 0xA3F2E0 Offset: 0xA3D8E0 VA: 0x180A3F2E0
 	public void .ctor() { }
 
-	// RVA: 0xA3ED60 Offset: 0xA3D360 VA: 0x180A3ED60
+	// RVA: 0xA3F250 Offset: 0xA3D850 VA: 0x180A3F250
 	private static void .cctor() { }
 
 }

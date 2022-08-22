@@ -14,7 +14,7 @@ public sealed class PublicKey // TypeDefIndex: 2811
 
 	// Methods
 
-	// RVA: 0x117D470 Offset: 0x117BA70 VA: 0x18117D470
+	// RVA: 0x1181D90 Offset: 0x1180390 VA: 0x181181D90
 	internal void .ctor(X509Certificate certificate) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
@@ -23,22 +23,22 @@ public sealed class PublicKey // TypeDefIndex: 2811
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public AsnEncodedData get_EncodedParameters() { }
 
-	// RVA: 0x117DAF0 Offset: 0x117C0F0 VA: 0x18117DAF0
+	// RVA: 0x1182410 Offset: 0x1180A10 VA: 0x181182410
 	public AsymmetricAlgorithm get_Key() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public Oid get_Oid() { }
 
-	// RVA: 0x117D370 Offset: 0x117B970 VA: 0x18117D370
+	// RVA: 0x1181C90 Offset: 0x1180290 VA: 0x181181C90
 	private static byte[] GetUnsignedBigInteger(byte[] integer) { }
 
-	// RVA: 0x117CC80 Offset: 0x117B280 VA: 0x18117CC80
+	// RVA: 0x11815A0 Offset: 0x117FBA0 VA: 0x1811815A0
 	internal static DSA DecodeDSA(byte[] rawPublicKey, byte[] rawParameters) { }
 
-	// RVA: 0x117D090 Offset: 0x117B690 VA: 0x18117D090
+	// RVA: 0x11819B0 Offset: 0x117FFB0 VA: 0x1811819B0
 	internal static RSA DecodeRSA(byte[] rawPublicKey) { }
 
-	// RVA: 0x117D420 Offset: 0x117BA20 VA: 0x18117D420
+	// RVA: 0x1181D40 Offset: 0x1180340 VA: 0x181181D40
 	private static void .cctor() { }
 
 }

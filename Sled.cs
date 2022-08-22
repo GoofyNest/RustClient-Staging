@@ -40,31 +40,31 @@ public class Sled : BaseVehicle, INotifyTrigger // TypeDefIndex: 8836
 
 	// Methods
 
-	// RVA: 0x5A6760 Offset: 0x5A4D60 VA: 0x1805A6760 Slot: 80
+	// RVA: 0x5A66F0 Offset: 0x5A4CF0 VA: 0x1805A66F0 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x5A6A90 Offset: 0x5A5090 VA: 0x1805A6A90 Slot: 83
+	// RVA: 0x5A6A20 Offset: 0x5A5020 VA: 0x1805A6A20 Slot: 83
 	public override void OnSignal(BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0x5A6720 Offset: 0x5A4D20 VA: 0x1805A6720 Slot: 131
+	// RVA: 0x5A66B0 Offset: 0x5A4CB0 VA: 0x1805A66B0 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0x5A6660 Offset: 0x5A4C60 VA: 0x1805A6660 Slot: 13
+	// RVA: 0x5A65F0 Offset: 0x5A4BF0 VA: 0x1805A65F0 Slot: 13
 	public override void ClientOnEnable() { }
 
-	// RVA: 0x5A65D0 Offset: 0x5A4BD0 VA: 0x1805A65D0 Slot: 14
+	// RVA: 0x5A6560 Offset: 0x5A4B60 VA: 0x1805A6560 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x5A6E40 Offset: 0x5A5440 VA: 0x1805A6E40
+	// RVA: 0x5A6DD0 Offset: 0x5A53D0 VA: 0x1805A6DD0
 	private void UpdateSounds() { }
 
-	// RVA: 0x5A6BC0 Offset: 0x5A51C0 VA: 0x1805A6BC0
+	// RVA: 0x5A6B50 Offset: 0x5A5150 VA: 0x1805A6B50
 	private void SetMovementLoopSound(SoundDefinition targetDef) { }
 
-	// RVA: 0x5A7110 Offset: 0x5A5710 VA: 0x1805A7110
+	// RVA: 0x5A70A0 Offset: 0x5A56A0 VA: 0x1805A70A0
 	public bool get_ShowHelpPrompt() { }
 
-	// RVA: 0x5A6590 Offset: 0x5A4B90 VA: 0x1805A6590 Slot: 134
+	// RVA: 0x5A6520 Offset: 0x5A4B20 VA: 0x1805A6520 Slot: 134
 	public override bool CanPickup(BasePlayer player) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 194
@@ -76,7 +76,7 @@ public class Sled : BaseVehicle, INotifyTrigger // TypeDefIndex: 8836
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 185
 	public override bool get_BlocksDoors() { }
 
-	// RVA: 0x5A70A0 Offset: 0x5A56A0 VA: 0x1805A70A0
+	// RVA: 0x5A7030 Offset: 0x5A5630 VA: 0x1805A7030
 	public void .ctor() { }
 
 }

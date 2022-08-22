@@ -9,13 +9,13 @@ internal struct HTML_BrowserReady_t : ICallbackData // TypeDefIndex: 5451
 
 	// Methods
 
-	// RVA: 0x1E97B0 Offset: 0x1E8BB0 VA: 0x1801E97B0 Slot: 5
+	// RVA: 0x1E9BD0 Offset: 0x1E8FD0 VA: 0x1801E9BD0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E97A0 Offset: 0x1E8BA0 VA: 0x1801E97A0 Slot: 4
+	// RVA: 0x1E9BC0 Offset: 0x1E8FC0 VA: 0x1801E9BC0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371E40 Offset: 0x1370440 VA: 0x181371E40
+	// RVA: 0x1370F40 Offset: 0x136F540 VA: 0x181370F40
 	private static void .cctor() { }
 
 }
@@ -42,13 +42,13 @@ internal struct HTML_NeedsPaint_t : ICallbackData // TypeDefIndex: 5452
 
 	// Methods
 
-	// RVA: 0x1E9E80 Offset: 0x1E9280 VA: 0x1801E9E80 Slot: 5
+	// RVA: 0x1EA2A0 Offset: 0x1E96A0 VA: 0x1801EA2A0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9E70 Offset: 0x1E9270 VA: 0x1801E9E70 Slot: 4
+	// RVA: 0x1EA290 Offset: 0x1E9690 VA: 0x1801EA290 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13725C0 Offset: 0x1370BC0 VA: 0x1813725C0
+	// RVA: 0x13716C0 Offset: 0x136FCC0 VA: 0x1813716C0
 	private static void .cctor() { }
 
 }
@@ -68,13 +68,13 @@ internal struct HTML_StartRequest_t : ICallbackData // TypeDefIndex: 5453
 
 	// Methods
 
-	// RVA: 0x1EA2C0 Offset: 0x1E96C0 VA: 0x1801EA2C0 Slot: 5
+	// RVA: 0x1EA6E0 Offset: 0x1E9AE0 VA: 0x1801EA6E0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA2B0 Offset: 0x1E96B0 VA: 0x1801EA2B0 Slot: 4
+	// RVA: 0x1EA6D0 Offset: 0x1E9AD0 VA: 0x1801EA6D0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372980 Offset: 0x1370F80 VA: 0x181372980
+	// RVA: 0x1371A80 Offset: 0x1370080 VA: 0x181371A80
 	private static void .cctor() { }
 
 }
@@ -90,13 +90,13 @@ internal struct HTML_CloseBrowser_t : ICallbackData // TypeDefIndex: 5454
 
 	// Methods
 
-	// RVA: 0x1E99C0 Offset: 0x1E8DC0 VA: 0x1801E99C0 Slot: 5
+	// RVA: 0x1E9DE0 Offset: 0x1E91E0 VA: 0x1801E9DE0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E99B0 Offset: 0x1E8DB0 VA: 0x1801E99B0 Slot: 4
+	// RVA: 0x1E9DD0 Offset: 0x1E91D0 VA: 0x1801E9DD0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13720C0 Offset: 0x13706C0 VA: 0x1813720C0
+	// RVA: 0x13711C0 Offset: 0x136F7C0 VA: 0x1813711C0
 	private static void .cctor() { }
 
 }
@@ -117,13 +117,13 @@ internal struct HTML_URLChanged_t : ICallbackData // TypeDefIndex: 5455
 
 	// Methods
 
-	// RVA: 0x1EA4C0 Offset: 0x1E98C0 VA: 0x1801EA4C0 Slot: 5
+	// RVA: 0x1EA8E0 Offset: 0x1E9CE0 VA: 0x1801EA8E0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA4B0 Offset: 0x1E98B0 VA: 0x1801EA4B0 Slot: 4
+	// RVA: 0x1EA8D0 Offset: 0x1E9CD0 VA: 0x1801EA8D0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372AC0 Offset: 0x13710C0 VA: 0x181372AC0
+	// RVA: 0x1371BC0 Offset: 0x13701C0 VA: 0x181371BC0
 	private static void .cctor() { }
 
 }
@@ -141,13 +141,13 @@ internal struct HTML_FinishedRequest_t : ICallbackData // TypeDefIndex: 5456
 
 	// Methods
 
-	// RVA: 0x1E9B30 Offset: 0x1E8F30 VA: 0x1801E9B30 Slot: 5
+	// RVA: 0x1E9F50 Offset: 0x1E9350 VA: 0x1801E9F50 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9B20 Offset: 0x1E8F20 VA: 0x1801E9B20 Slot: 4
+	// RVA: 0x1E9F40 Offset: 0x1E9340 VA: 0x1801E9F40 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372200 Offset: 0x1370800 VA: 0x181372200
+	// RVA: 0x1371300 Offset: 0x136F900 VA: 0x181371300
 	private static void .cctor() { }
 
 }
@@ -164,13 +164,13 @@ internal struct HTML_OpenLinkInNewTab_t : ICallbackData // TypeDefIndex: 5457
 
 	// Methods
 
-	// RVA: 0x1EA100 Offset: 0x1E9500 VA: 0x1801EA100 Slot: 5
+	// RVA: 0x1EA520 Offset: 0x1E9920 VA: 0x1801EA520 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA0F0 Offset: 0x1E94F0 VA: 0x1801EA0F0 Slot: 4
+	// RVA: 0x1EA510 Offset: 0x1E9910 VA: 0x1801EA510 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372700 Offset: 0x1370D00 VA: 0x181372700
+	// RVA: 0x1371800 Offset: 0x136FE00 VA: 0x181371800
 	private static void .cctor() { }
 
 }
@@ -187,13 +187,13 @@ internal struct HTML_ChangedTitle_t : ICallbackData // TypeDefIndex: 5458
 
 	// Methods
 
-	// RVA: 0x1E9900 Offset: 0x1E8D00 VA: 0x1801E9900 Slot: 5
+	// RVA: 0x1E9D20 Offset: 0x1E9120 VA: 0x1801E9D20 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E98F0 Offset: 0x1E8CF0 VA: 0x1801E98F0 Slot: 4
+	// RVA: 0x1E9D10 Offset: 0x1E9110 VA: 0x1801E9D10 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372020 Offset: 0x1370620 VA: 0x181372020
+	// RVA: 0x1371120 Offset: 0x136F720 VA: 0x181371120
 	private static void .cctor() { }
 
 }
@@ -211,13 +211,13 @@ internal struct HTML_SearchResults_t : ICallbackData // TypeDefIndex: 5459
 
 	// Methods
 
-	// RVA: 0x1EA170 Offset: 0x1E9570 VA: 0x1801EA170 Slot: 5
+	// RVA: 0x1EA590 Offset: 0x1E9990 VA: 0x1801EA590 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA160 Offset: 0x1E9560 VA: 0x1801EA160 Slot: 4
+	// RVA: 0x1EA580 Offset: 0x1E9980 VA: 0x1801EA580 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13727A0 Offset: 0x1370DA0 VA: 0x1813727A0
+	// RVA: 0x13718A0 Offset: 0x136FEA0 VA: 0x1813718A0
 	private static void .cctor() { }
 
 }
@@ -235,13 +235,13 @@ internal struct HTML_CanGoBackAndForward_t : ICallbackData // TypeDefIndex: 5460
 
 	// Methods
 
-	// RVA: 0x1E9890 Offset: 0x1E8C90 VA: 0x1801E9890 Slot: 5
+	// RVA: 0x1E9CB0 Offset: 0x1E90B0 VA: 0x1801E9CB0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9880 Offset: 0x1E8C80 VA: 0x1801E9880 Slot: 4
+	// RVA: 0x1E9CA0 Offset: 0x1E90A0 VA: 0x1801E9CA0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371F80 Offset: 0x1370580 VA: 0x181371F80
+	// RVA: 0x1371080 Offset: 0x136F680 VA: 0x181371080
 	private static void .cctor() { }
 
 }
@@ -262,13 +262,13 @@ internal struct HTML_HorizontalScroll_t : ICallbackData // TypeDefIndex: 5461
 
 	// Methods
 
-	// RVA: 0x1E9C10 Offset: 0x1E9010 VA: 0x1801E9C10 Slot: 5
+	// RVA: 0x1EA030 Offset: 0x1E9430 VA: 0x1801EA030 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9C00 Offset: 0x1E9000 VA: 0x1801E9C00 Slot: 4
+	// RVA: 0x1EA020 Offset: 0x1E9420 VA: 0x1801EA020 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372340 Offset: 0x1370940 VA: 0x181372340
+	// RVA: 0x1371440 Offset: 0x136FA40 VA: 0x181371440
 	private static void .cctor() { }
 
 }
@@ -289,13 +289,13 @@ internal struct HTML_VerticalScroll_t : ICallbackData // TypeDefIndex: 5462
 
 	// Methods
 
-	// RVA: 0x1EA6D0 Offset: 0x1E9AD0 VA: 0x1801EA6D0 Slot: 5
+	// RVA: 0x1EAAF0 Offset: 0x1E9EF0 VA: 0x1801EAAF0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA6C0 Offset: 0x1E9AC0 VA: 0x1801EA6C0 Slot: 4
+	// RVA: 0x1EAAE0 Offset: 0x1E9EE0 VA: 0x1801EAAE0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372C00 Offset: 0x1371200 VA: 0x181372C00
+	// RVA: 0x1371D00 Offset: 0x1370300 VA: 0x181371D00
 	private static void .cctor() { }
 
 }
@@ -316,13 +316,13 @@ internal struct HTML_LinkAtPosition_t : ICallbackData // TypeDefIndex: 5463
 
 	// Methods
 
-	// RVA: 0x1E9D60 Offset: 0x1E9160 VA: 0x1801E9D60 Slot: 5
+	// RVA: 0x1EA180 Offset: 0x1E9580 VA: 0x1801EA180 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9D50 Offset: 0x1E9150 VA: 0x1801E9D50 Slot: 4
+	// RVA: 0x1EA170 Offset: 0x1E9570 VA: 0x1801EA170 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372520 Offset: 0x1370B20 VA: 0x181372520
+	// RVA: 0x1371620 Offset: 0x136FC20 VA: 0x181371620
 	private static void .cctor() { }
 
 }
@@ -339,13 +339,13 @@ internal struct HTML_JSAlert_t : ICallbackData // TypeDefIndex: 5464
 
 	// Methods
 
-	// RVA: 0x1E9C80 Offset: 0x1E9080 VA: 0x1801E9C80 Slot: 5
+	// RVA: 0x1EA0A0 Offset: 0x1E94A0 VA: 0x1801EA0A0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9C70 Offset: 0x1E9070 VA: 0x1801E9C70 Slot: 4
+	// RVA: 0x1EA090 Offset: 0x1E9490 VA: 0x1801EA090 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13723E0 Offset: 0x13709E0 VA: 0x1813723E0
+	// RVA: 0x13714E0 Offset: 0x136FAE0 VA: 0x1813714E0
 	private static void .cctor() { }
 
 }
@@ -362,13 +362,13 @@ internal struct HTML_JSConfirm_t : ICallbackData // TypeDefIndex: 5465
 
 	// Methods
 
-	// RVA: 0x1E9CF0 Offset: 0x1E90F0 VA: 0x1801E9CF0 Slot: 5
+	// RVA: 0x1EA110 Offset: 0x1E9510 VA: 0x1801EA110 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9CE0 Offset: 0x1E90E0 VA: 0x1801E9CE0 Slot: 4
+	// RVA: 0x1EA100 Offset: 0x1E9500 VA: 0x1801EA100 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372480 Offset: 0x1370A80 VA: 0x181372480
+	// RVA: 0x1371580 Offset: 0x136FB80 VA: 0x181371580
 	private static void .cctor() { }
 
 }
@@ -386,13 +386,13 @@ internal struct HTML_FileOpenDialog_t : ICallbackData // TypeDefIndex: 5466
 
 	// Methods
 
-	// RVA: 0x1E9A30 Offset: 0x1E8E30 VA: 0x1801E9A30 Slot: 5
+	// RVA: 0x1E9E50 Offset: 0x1E9250 VA: 0x1801E9E50 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9A20 Offset: 0x1E8E20 VA: 0x1801E9A20 Slot: 4
+	// RVA: 0x1E9E40 Offset: 0x1E9240 VA: 0x1801E9E40 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372160 Offset: 0x1370760 VA: 0x181372160
+	// RVA: 0x1371260 Offset: 0x136F860 VA: 0x181371260
 	private static void .cctor() { }
 
 }
@@ -414,13 +414,13 @@ internal struct HTML_NewWindow_t : ICallbackData // TypeDefIndex: 5467
 
 	// Methods
 
-	// RVA: 0x1E9FE0 Offset: 0x1E93E0 VA: 0x1801E9FE0 Slot: 5
+	// RVA: 0x1EA400 Offset: 0x1E9800 VA: 0x1801EA400 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9FD0 Offset: 0x1E93D0 VA: 0x1801E9FD0 Slot: 4
+	// RVA: 0x1EA3F0 Offset: 0x1E97F0 VA: 0x1801EA3F0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372660 Offset: 0x1370C60 VA: 0x181372660
+	// RVA: 0x1371760 Offset: 0x136FD60 VA: 0x181371760
 	private static void .cctor() { }
 
 }
@@ -437,13 +437,13 @@ internal struct HTML_SetCursor_t : ICallbackData // TypeDefIndex: 5468
 
 	// Methods
 
-	// RVA: 0x1EA1E0 Offset: 0x1E95E0 VA: 0x1801EA1E0 Slot: 5
+	// RVA: 0x1EA600 Offset: 0x1E9A00 VA: 0x1801EA600 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA1D0 Offset: 0x1E95D0 VA: 0x1801EA1D0 Slot: 4
+	// RVA: 0x1EA5F0 Offset: 0x1E99F0 VA: 0x1801EA5F0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372840 Offset: 0x1370E40 VA: 0x181372840
+	// RVA: 0x1371940 Offset: 0x136FF40 VA: 0x181371940
 	private static void .cctor() { }
 
 }
@@ -460,13 +460,13 @@ internal struct HTML_StatusText_t : ICallbackData // TypeDefIndex: 5469
 
 	// Methods
 
-	// RVA: 0x1EA450 Offset: 0x1E9850 VA: 0x1801EA450 Slot: 5
+	// RVA: 0x1EA870 Offset: 0x1E9C70 VA: 0x1801EA870 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA440 Offset: 0x1E9840 VA: 0x1801EA440 Slot: 4
+	// RVA: 0x1EA860 Offset: 0x1E9C60 VA: 0x1801EA860 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372A20 Offset: 0x1371020 VA: 0x181372A20
+	// RVA: 0x1371B20 Offset: 0x1370120 VA: 0x181371B20
 	private static void .cctor() { }
 
 }
@@ -483,13 +483,13 @@ internal struct HTML_ShowToolTip_t : ICallbackData // TypeDefIndex: 5470
 
 	// Methods
 
-	// RVA: 0x1EA250 Offset: 0x1E9650 VA: 0x1801EA250 Slot: 5
+	// RVA: 0x1EA670 Offset: 0x1E9A70 VA: 0x1801EA670 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA240 Offset: 0x1E9640 VA: 0x1801EA240 Slot: 4
+	// RVA: 0x1EA660 Offset: 0x1E9A60 VA: 0x1801EA660 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13728E0 Offset: 0x1370EE0 VA: 0x1813728E0
+	// RVA: 0x13719E0 Offset: 0x136FFE0 VA: 0x1813719E0
 	private static void .cctor() { }
 
 }
@@ -506,13 +506,13 @@ internal struct HTML_UpdateToolTip_t : ICallbackData // TypeDefIndex: 5471
 
 	// Methods
 
-	// RVA: 0x1EA660 Offset: 0x1E9A60 VA: 0x1801EA660 Slot: 5
+	// RVA: 0x1EAA80 Offset: 0x1E9E80 VA: 0x1801EAA80 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EA650 Offset: 0x1E9A50 VA: 0x1801EA650 Slot: 4
+	// RVA: 0x1EAA70 Offset: 0x1E9E70 VA: 0x1801EAA70 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1372B60 Offset: 0x1371160 VA: 0x181372B60
+	// RVA: 0x1371C60 Offset: 0x1370260 VA: 0x181371C60
 	private static void .cctor() { }
 
 }
@@ -528,13 +528,13 @@ internal struct HTML_HideToolTip_t : ICallbackData // TypeDefIndex: 5472
 
 	// Methods
 
-	// RVA: 0x1E9BA0 Offset: 0x1E8FA0 VA: 0x1801E9BA0 Slot: 5
+	// RVA: 0x1E9FC0 Offset: 0x1E93C0 VA: 0x1801E9FC0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9B90 Offset: 0x1E8F90 VA: 0x1801E9B90 Slot: 4
+	// RVA: 0x1E9FB0 Offset: 0x1E93B0 VA: 0x1801E9FB0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13722A0 Offset: 0x13708A0 VA: 0x1813722A0
+	// RVA: 0x13713A0 Offset: 0x136F9A0 VA: 0x1813713A0
 	private static void .cctor() { }
 
 }
@@ -551,13 +551,13 @@ internal struct HTML_BrowserRestarted_t : ICallbackData // TypeDefIndex: 5473
 
 	// Methods
 
-	// RVA: 0x1E9820 Offset: 0x1E8C20 VA: 0x1801E9820 Slot: 5
+	// RVA: 0x1E9C40 Offset: 0x1E9040 VA: 0x1801E9C40 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9810 Offset: 0x1E8C10 VA: 0x1801E9810 Slot: 4
+	// RVA: 0x1E9C30 Offset: 0x1E9030 VA: 0x1801E9C30 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371EE0 Offset: 0x13704E0 VA: 0x181371EE0
+	// RVA: 0x1370FE0 Offset: 0x136F5E0 VA: 0x181370FE0
 	private static void .cctor() { }
 
 }

@@ -6,28 +6,28 @@ internal static class PointerDeviceState // TypeDefIndex: 4685
 
 	// Methods
 
-	// RVA: 0xEB7200 Offset: 0xEB5800 VA: 0x180EB7200
+	// RVA: 0xEB7CB0 Offset: 0xEB62B0 VA: 0x180EB7CB0
 	public static void SavePointerPosition(int pointerId, Vector2 position, IPanel panel) { }
 
-	// RVA: 0xEB6FB0 Offset: 0xEB55B0 VA: 0x180EB6FB0
+	// RVA: 0xEB7A60 Offset: 0xEB6060 VA: 0x180EB7A60
 	public static void PressButton(int pointerId, int buttonId) { }
 
-	// RVA: 0xEB7120 Offset: 0xEB5720 VA: 0x180EB7120
+	// RVA: 0xEB7BD0 Offset: 0xEB61D0 VA: 0x180EB7BD0
 	public static void ReleaseButton(int pointerId, int buttonId) { }
 
-	// RVA: 0xEB7090 Offset: 0xEB5690 VA: 0x180EB7090
+	// RVA: 0xEB7B40 Offset: 0xEB6140 VA: 0x180EB7B40
 	public static void ReleaseAllButtons(int pointerId) { }
 
-	// RVA: 0xEB6DF0 Offset: 0xEB53F0 VA: 0x180EB6DF0
+	// RVA: 0xEB78A0 Offset: 0xEB5EA0 VA: 0x180EB78A0
 	public static Vector2 GetPointerPosition(int pointerId) { }
 
-	// RVA: 0xEB6E80 Offset: 0xEB5480 VA: 0x180EB6E80
+	// RVA: 0xEB7930 Offset: 0xEB5F30 VA: 0x180EB7930
 	public static int GetPressedButtons(int pointerId) { }
 
-	// RVA: 0xEB6F10 Offset: 0xEB5510 VA: 0x180EB6F10
+	// RVA: 0xEB79C0 Offset: 0xEB5FC0 VA: 0x180EB79C0
 	internal static bool HasAdditionalPressedButtons(int pointerId, int exceptButtonId) { }
 
-	// RVA: 0xEB7330 Offset: 0xEB5930 VA: 0x180EB7330
+	// RVA: 0xEB7DE0 Offset: 0xEB63E0 VA: 0x180EB7DE0
 	private static void .cctor() { }
 
 }

@@ -12,28 +12,28 @@ internal sealed class LeafRangeNode : LeafNode // TypeDefIndex: 2166
 
 	// Methods
 
-	// RVA: 0xB11440 Offset: 0xB0FA40 VA: 0x180B11440
+	// RVA: 0xB11910 Offset: 0xB0FF10 VA: 0x180B11910
 	public void .ctor(Decimal min, Decimal max) { }
 
-	// RVA: 0xB11490 Offset: 0xB0FA90 VA: 0x180B11490
+	// RVA: 0xB11960 Offset: 0xB0FF60 VA: 0x180B11960
 	public void .ctor(int pos, Decimal min, Decimal max) { }
 
-	// RVA: 0xB114E0 Offset: 0xB0FAE0 VA: 0x180B114E0
+	// RVA: 0xB119B0 Offset: 0xB0FFB0 VA: 0x180B119B0
 	public Decimal get_Max() { }
 
-	// RVA: 0xB114F0 Offset: 0xB0FAF0 VA: 0x180B114F0
+	// RVA: 0xB119C0 Offset: 0xB0FFC0 VA: 0x180B119C0
 	public Decimal get_Min() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public BitSet get_NextIteration() { }
 
-	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
+	// RVA: 0x6AD650 Offset: 0x6ABC50 VA: 0x1806AD650
 	public void set_NextIteration(BitSet value) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 7
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 7
 	public override bool get_IsRangeNode() { }
 
-	// RVA: 0xB11400 Offset: 0xB0FA00 VA: 0x180B11400 Slot: 4
+	// RVA: 0xB118D0 Offset: 0xB0FED0 VA: 0x180B118D0 Slot: 4
 	public override void ExpandTree(InteriorNode parent, SymbolsDictionary symbols, Positions positions) { }
 
 }

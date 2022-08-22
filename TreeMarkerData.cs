@@ -10,10 +10,10 @@ public class TreeMarkerData : PrefabAttribute, IServerComponent // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0xA1E8D0 Offset: 0xA1CED0 VA: 0x180A1E8D0 Slot: 7
+	// RVA: 0xA1EDC0 Offset: 0xA1D3C0 VA: 0x180A1EDC0 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0xA1E930 Offset: 0xA1CF30 VA: 0x180A1E930
+	// RVA: 0xA1EE20 Offset: 0xA1D420 VA: 0x180A1EE20
 	public void .ctor() { }
 
 }

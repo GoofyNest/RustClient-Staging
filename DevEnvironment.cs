@@ -4,16 +4,16 @@ public class DevEnvironment : DevControlsTab // TypeDefIndex: 9300
 
 	// Methods
 
-	// RVA: 0x97EBE0 Offset: 0x97D1E0 VA: 0x18097EBE0
+	// RVA: 0x97F0E0 Offset: 0x97D6E0 VA: 0x18097F0E0
 	private void OnEnable() { }
 
-	// RVA: 0x97EBB0 Offset: 0x97D1B0 VA: 0x18097EBB0 Slot: 6
+	// RVA: 0x97F0B0 Offset: 0x97D6B0 VA: 0x18097F0B0 Slot: 6
 	public override string GetTabName() { }
 
-	// RVA: 0x97EC70 Offset: 0x97D270 VA: 0x18097EC70 Slot: 7
+	// RVA: 0x97F170 Offset: 0x97D770 VA: 0x18097F170 Slot: 7
 	public override void OnTabContents() { }
 
-	// RVA: 0x521BF0 Offset: 0x5201F0 VA: 0x180521BF0
+	// RVA: 0x521B80 Offset: 0x520180 VA: 0x180521B80
 	public void .ctor() { }
 
 }

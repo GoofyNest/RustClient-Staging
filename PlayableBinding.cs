@@ -9,7 +9,7 @@ public struct PlayableBinding // TypeDefIndex: 3867
 
 	// Methods
 
-	// RVA: 0x18FA710 Offset: 0x18F8D10 VA: 0x1818FA710
+	// RVA: 0x18F9E30 Offset: 0x18F8430 VA: 0x1818F9E30
 	private static void .cctor() { }
 
 }
@@ -20,13 +20,13 @@ internal sealed class PlayableBinding.CreateOutputMethod : MulticastDelegate // 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x18E9690 Offset: 0x18E7C90 VA: 0x1818E9690 Slot: 12
+	// RVA: 0x18E8DB0 Offset: 0x18E73B0 VA: 0x1818E8DB0 Slot: 12
 	public virtual PlayableOutput Invoke(PlayableGraph graph, string name) { }
 
-	// RVA: 0x18E9600 Offset: 0x18E7C00 VA: 0x1818E9600 Slot: 13
+	// RVA: 0x18E8D20 Offset: 0x18E7320 VA: 0x1818E8D20 Slot: 13
 	public virtual IAsyncResult BeginInvoke(PlayableGraph graph, string name, AsyncCallback callback, object object) { }
 
-	// RVA: 0x1220D40 Offset: 0x121F340 VA: 0x181220D40 Slot: 14
+	// RVA: 0x12213E0 Offset: 0x121F9E0 VA: 0x1812213E0 Slot: 14
 	public virtual PlayableOutput EndInvoke(IAsyncResult result) { }
 
 }

@@ -5,7 +5,7 @@ public class WeightedAudioClip // TypeDefIndex: 9047
 
 	// Methods
 
-	// RVA: 0x83C900 Offset: 0x83AF00 VA: 0x18083C900
+	// RVA: 0x83CE50 Offset: 0x83B450 VA: 0x18083CE50
 	public void .ctor() { }
 
 }

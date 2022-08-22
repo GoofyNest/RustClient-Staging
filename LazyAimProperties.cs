@@ -7,7 +7,7 @@ public class LazyAimProperties : ScriptableObject // TypeDefIndex: 9981
 
 	// Methods
 
-	// RVA: 0x68A6D0 Offset: 0x688CD0 VA: 0x18068A6D0
+	// RVA: 0x68A660 Offset: 0x688C60 VA: 0x18068A660
 	public void .ctor() { }
 
 }

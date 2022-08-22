@@ -5,10 +5,10 @@ public static class ScreenCapture // TypeDefIndex: 4558
 public static class ScreenCapture // TypeDefIndex: 4558
 	// Methods
 
-	// RVA: 0x23233D0 Offset: 0x23219D0 VA: 0x1823233D0
+	// RVA: 0x2323BF0 Offset: 0x23221F0 VA: 0x182323BF0
 	public static void CaptureScreenshot(string filename, int superSize) { }
 
-	// RVA: 0x2323420 Offset: 0x2321A20 VA: 0x182323420
+	// RVA: 0x2323C40 Offset: 0x2322240 VA: 0x182323C40
 	private static void CaptureScreenshot(string filename, int superSize, ScreenCapture.StereoScreenCaptureMode CaptureMode) { }
 
 }

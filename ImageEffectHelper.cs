@@ -4,13 +4,13 @@ public static class ImageEffectHelper // TypeDefIndex: 11652
 
 	// Methods
 
-	// RVA: 0x111F690 Offset: 0x111DC90 VA: 0x18111F690
+	// RVA: 0x1120100 Offset: 0x111E700 VA: 0x181120100
 	public static bool IsSupported(Shader s, bool needDepth, bool needHdr, MonoBehaviour effect) { }
 
-	// RVA: 0x111F5D0 Offset: 0x111DBD0 VA: 0x18111F5D0
+	// RVA: 0x1120040 Offset: 0x111E640 VA: 0x181120040
 	public static Material CheckShaderAndCreateMaterial(Shader s) { }
 
-	// RVA: 0x8D1660 Offset: 0x8CFC60 VA: 0x1808D1660
+	// RVA: 0x8D1B70 Offset: 0x8D0170 VA: 0x1808D1B70
 	public static bool get_supportsDX11() { }
 
 }

@@ -15,43 +15,43 @@ public class AspectRatioFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 
 	// Methods
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public AspectRatioFitter.AspectMode get_aspectMode() { }
 
-	// RVA: 0x10B5980 Offset: 0x10B3F80 VA: 0x1810B5980
+	// RVA: 0x10B63F0 Offset: 0x10B49F0 VA: 0x1810B63F0
 	public void set_aspectMode(AspectRatioFitter.AspectMode value) { }
 
-	// RVA: 0x774790 Offset: 0x772D90 VA: 0x180774790
+	// RVA: 0x7746E0 Offset: 0x772CE0 VA: 0x1807746E0
 	public float get_aspectRatio() { }
 
-	// RVA: 0x10B59E0 Offset: 0x10B3FE0 VA: 0x1810B59E0
+	// RVA: 0x10B6450 Offset: 0x10B4A50 VA: 0x1810B6450
 	public void set_aspectRatio(float value) { }
 
-	// RVA: 0x10B58E0 Offset: 0x10B3EE0 VA: 0x1810B58E0
+	// RVA: 0x10B6350 Offset: 0x10B4950 VA: 0x1810B6350
 	private RectTransform get_rectTransform() { }
 
-	// RVA: 0x6F5EF0 Offset: 0x6F44F0 VA: 0x1806F5EF0
+	// RVA: 0x6F5E40 Offset: 0x6F4440 VA: 0x1806F5E40
 	protected void .ctor() { }
 
-	// RVA: 0x10B5560 Offset: 0x10B3B60 VA: 0x1810B5560 Slot: 5
+	// RVA: 0x10B5FD0 Offset: 0x10B45D0 VA: 0x1810B5FD0 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x10B54F0 Offset: 0x10B3AF0 VA: 0x1810B54F0 Slot: 7
+	// RVA: 0x10B5F60 Offset: 0x10B4560 VA: 0x1810B5F60 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x10B58C0 Offset: 0x10B3EC0 VA: 0x1810B58C0 Slot: 19
+	// RVA: 0x10B6330 Offset: 0x10B4930 VA: 0x1810B6330 Slot: 19
 	protected virtual void Update() { }
 
-	// RVA: 0x10B5560 Offset: 0x10B3B60 VA: 0x1810B5560 Slot: 10
+	// RVA: 0x10B5FD0 Offset: 0x10B45D0 VA: 0x1810B5FD0 Slot: 10
 	protected override void OnRectTransformDimensionsChange() { }
 
-	// RVA: 0x10B5570 Offset: 0x10B3B70 VA: 0x1810B5570
+	// RVA: 0x10B5FE0 Offset: 0x10B45E0 VA: 0x1810B5FE0
 	private void UpdateRect() { }
 
-	// RVA: 0x10B5420 Offset: 0x10B3A20 VA: 0x1810B5420
+	// RVA: 0x10B5E90 Offset: 0x10B4490 VA: 0x1810B5E90
 	private float GetSizeDeltaToProduceSize(float size, int axis) { }
 
-	// RVA: 0x10B5330 Offset: 0x10B3930 VA: 0x1810B5330
+	// RVA: 0x10B5DA0 Offset: 0x10B43A0 VA: 0x1810B5DA0
 	private Vector2 GetParentSize() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 20
@@ -60,7 +60,7 @@ public class AspectRatioFitter : UIBehaviour, ILayoutSelfController, ILayoutCont
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 21
 	public virtual void SetLayoutVertical() { }
 
-	// RVA: 0x10B5560 Offset: 0x10B3B60 VA: 0x1810B5560
+	// RVA: 0x10B5FD0 Offset: 0x10B45D0 VA: 0x1810B5FD0
 	protected void SetDirty() { }
 
 }

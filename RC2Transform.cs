@@ -10,13 +10,13 @@ internal class RC2Transform : SymmetricTransform // TypeDefIndex: 1007
 
 	// Methods
 
-	// RVA: 0x1706370 Offset: 0x1704970 VA: 0x181706370
+	// RVA: 0x1703F60 Offset: 0x1702560 VA: 0x181703F60
 	public void .ctor(RC2 rc2Algo, bool encryption, byte[] key, byte[] iv) { }
 
-	// RVA: 0x1705510 Offset: 0x1703B10 VA: 0x181705510 Slot: 15
+	// RVA: 0x1703100 Offset: 0x1701700 VA: 0x181703100 Slot: 15
 	protected override void ECB(byte[] input, byte[] output) { }
 
-	// RVA: 0x1706300 Offset: 0x1704900 VA: 0x181706300
+	// RVA: 0x1703EF0 Offset: 0x17024F0 VA: 0x181703EF0
 	private static void .cctor() { }
 
 }

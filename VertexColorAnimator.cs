@@ -8,28 +8,28 @@ public class VertexColorAnimator : MonoBehaviour // TypeDefIndex: 11530
 
 	// Methods
 
-	// RVA: 0xADD7E0 Offset: 0xADBDE0 VA: 0x180ADD7E0
+	// RVA: 0xADDCB0 Offset: 0xADC2B0 VA: 0x180ADDCB0
 	public void initLists() { }
 
-	// RVA: 0xADD6C0 Offset: 0xADBCC0 VA: 0x180ADD6C0
+	// RVA: 0xADDB90 Offset: 0xADC190 VA: 0x180ADDB90
 	public void addMesh(Mesh mesh, float atPosition) { }
 
-	// RVA: 0x87F610 Offset: 0x87DC10 VA: 0x18087F610
+	// RVA: 0x862950 Offset: 0x860F50 VA: 0x180862950
 	private void Start() { }
 
-	// RVA: 0xADD870 Offset: 0xADBE70 VA: 0x180ADD870
+	// RVA: 0xADDD40 Offset: 0xADC340 VA: 0x180ADDD40
 	public void replaceKeyframe(int frameIndex, Mesh mesh) { }
 
-	// RVA: 0xADD770 Offset: 0xADBD70 VA: 0x180ADD770
+	// RVA: 0xADDC40 Offset: 0xADC240 VA: 0x180ADDC40
 	public void deleteKeyframe(int frameIndex) { }
 
-	// RVA: 0xADD8F0 Offset: 0xADBEF0 VA: 0x180ADD8F0
+	// RVA: 0xADDDC0 Offset: 0xADC3C0 VA: 0x180ADDDC0
 	public void scrobble(float scrobblePos) { }
 
-	// RVA: 0xADD240 Offset: 0xADB840 VA: 0x180ADD240
+	// RVA: 0xADD710 Offset: 0xADBD10 VA: 0x180ADD710
 	private void Update() { }
 
-	// RVA: 0xADD6B0 Offset: 0xADBCB0 VA: 0x180ADD6B0
+	// RVA: 0xADDB80 Offset: 0xADC180 VA: 0x180ADDB80
 	public void .ctor() { }
 
 }

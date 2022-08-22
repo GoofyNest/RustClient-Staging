@@ -55,34 +55,34 @@ public class m2bradleyAnimator : MonoBehaviour // TypeDefIndex: 9594
 
 	// Methods
 
-	// RVA: 0x1A91B50 Offset: 0x1A90150 VA: 0x181A91B50
+	// RVA: 0x1A7E360 Offset: 0x1A7C960 VA: 0x181A7E360
 	private void Start() { }
 
-	// RVA: 0x1A92D80 Offset: 0x1A91380 VA: 0x181A92D80
+	// RVA: 0x1A7F590 Offset: 0x1A7DB90 VA: 0x181A7F590
 	private void Update() { }
 
-	// RVA: 0x1A91520 Offset: 0x1A8FB20 VA: 0x181A91520
+	// RVA: 0x1A7DD30 Offset: 0x1A7C330 VA: 0x181A7DD30
 	private void AnimateWheelsTreads() { }
 
-	// RVA: 0x1A90F90 Offset: 0x1A8F590 VA: 0x181A90F90
+	// RVA: 0x1A7D7A0 Offset: 0x1A7BDA0 VA: 0x181A7D7A0
 	private void AdjustShocksHeight() { }
 
-	// RVA: 0x1A92720 Offset: 0x1A90D20 VA: 0x181A92720
+	// RVA: 0x1A7EF30 Offset: 0x1A7D530 VA: 0x181A7EF30
 	private void TrackTurret() { }
 
-	// RVA: 0x1A92300 Offset: 0x1A90900 VA: 0x181A92300
+	// RVA: 0x1A7EB10 Offset: 0x1A7D110 VA: 0x181A7EB10
 	private void TrackSpotLight() { }
 
-	// RVA: 0x1A91C50 Offset: 0x1A90250 VA: 0x181A91C50
+	// RVA: 0x1A7E460 Offset: 0x1A7CA60 VA: 0x181A7E460
 	private void TrackSideGuns() { }
 
-	// RVA: 0x1A91880 Offset: 0x1A8FE80 VA: 0x181A91880
+	// RVA: 0x1A7E090 Offset: 0x1A7C690 VA: 0x181A7E090
 	public void CalculateYawPitchOffset(Transform objectTransform, Vector3 vecStart, Vector3 vecEnd, out float yaw, out float pitch) { }
 
-	// RVA: 0x1A91B20 Offset: 0x1A90120 VA: 0x181A91B20
+	// RVA: 0x1A7E330 Offset: 0x1A7C930 VA: 0x181A7E330
 	public float NormalizeYaw(float flYaw) { }
 
-	// RVA: 0x1A92E10 Offset: 0x1A91410 VA: 0x181A92E10
+	// RVA: 0x1A7F620 Offset: 0x1A7DC20 VA: 0x181A7F620
 	public void .ctor() { }
 
 }

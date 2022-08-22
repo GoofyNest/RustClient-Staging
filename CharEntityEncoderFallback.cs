@@ -12,22 +12,22 @@ internal class CharEntityEncoderFallback : EncoderFallback // TypeDefIndex: 1834
 
 	// Methods
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	internal void .ctor() { }
 
-	// RVA: 0x12E3D10 Offset: 0x12E2310 VA: 0x1812E3D10 Slot: 4
+	// RVA: 0x12EA1C0 Offset: 0x12E87C0 VA: 0x1812EA1C0 Slot: 4
 	public override EncoderFallbackBuffer CreateFallbackBuffer() { }
 
-	// RVA: 0xB9F620 Offset: 0xB9DC20 VA: 0x180B9F620 Slot: 5
+	// RVA: 0xB9FAF0 Offset: 0xB9E0F0 VA: 0x180B9FAF0 Slot: 5
 	public override int get_MaxCharCount() { }
 
-	// RVA: 0xA39560 Offset: 0xA37B60 VA: 0x180A39560
+	// RVA: 0xA39A50 Offset: 0xA38050 VA: 0x180A39A50
 	internal void set_StartOffset(int value) { }
 
-	// RVA: 0x12E3DE0 Offset: 0x12E23E0 VA: 0x1812E3DE0
+	// RVA: 0x12EA290 Offset: 0x12E8890 VA: 0x1812EA290
 	internal void Reset(int[] textContentMarks, int endMarkPos) { }
 
-	// RVA: 0x12E3CB0 Offset: 0x12E22B0 VA: 0x1812E3CB0
+	// RVA: 0x12EA160 Offset: 0x12E8760 VA: 0x1812EA160
 	internal bool CanReplaceAt(int index) { }
 
 }

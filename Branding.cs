@@ -6,10 +6,10 @@ public class Branding : BaseMonoBehaviour // TypeDefIndex: 10828
 
 	// Methods
 
-	// RVA: 0x521AD0 Offset: 0x5200D0 VA: 0x180521AD0
+	// RVA: 0x521A60 Offset: 0x520060 VA: 0x180521A60
 	private void Update() { }
 
-	// RVA: 0x521BF0 Offset: 0x5201F0 VA: 0x180521BF0
+	// RVA: 0x521B80 Offset: 0x520180 VA: 0x180521B80
 	public void .ctor() { }
 
 }

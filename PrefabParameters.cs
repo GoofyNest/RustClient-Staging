@@ -5,7 +5,7 @@ public class PrefabParameters : MonoBehaviour // TypeDefIndex: 9974
 
 	// Methods
 
-	// RVA: 0x9A16A0 Offset: 0x99FCA0 VA: 0x1809A16A0
+	// RVA: 0x9A1B90 Offset: 0x9A0190 VA: 0x1809A1B90
 	public void .ctor() { }
 
 }

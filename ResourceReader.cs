@@ -17,82 +17,82 @@ public sealed class ResourceReader : IResourceReader, IEnumerable, IDisposable /
 
 	// Methods
 
-	// RVA: 0xFF34B0 Offset: 0xFF1AB0 VA: 0x180FF34B0
+	// RVA: 0xFF3F50 Offset: 0xFF2550 VA: 0x180FF3F50
 	internal void .ctor(Stream stream, Dictionary<string, ResourceLocator> resCache) { }
 
-	// RVA: 0xFEFCE0 Offset: 0xFEE2E0 VA: 0x180FEFCE0 Slot: 4
+	// RVA: 0xFF0780 Offset: 0xFEED80 VA: 0x180FF0780 Slot: 4
 	public void Close() { }
 
-	// RVA: 0xFF03D0 Offset: 0xFEE9D0 VA: 0x180FF03D0 Slot: 7
+	// RVA: 0xFF0E70 Offset: 0xFEF470 VA: 0x180FF0E70 Slot: 7
 	public void Dispose() { }
 
-	// RVA: 0xFF0310 Offset: 0xFEE910 VA: 0x180FF0310
+	// RVA: 0xFF0DB0 Offset: 0xFEF3B0 VA: 0x180FF0DB0
 	private void Dispose(bool disposing) { }
 
-	// RVA: 0xFF1840 Offset: 0xFEFE40 VA: 0x180FF1840
+	// RVA: 0xFF22E0 Offset: 0xFF08E0 VA: 0x180FF22E0
 	internal static int ReadUnalignedI4(int* p) { }
 
-	// RVA: 0xFF1860 Offset: 0xFEFE60 VA: 0x180FF1860
+	// RVA: 0xFF2300 Offset: 0xFF0900 VA: 0x180FF2300
 	private void SkipString() { }
 
-	// RVA: 0xFF0D60 Offset: 0xFEF360 VA: 0x180FF0D60
+	// RVA: 0xFF1800 Offset: 0xFEFE00 VA: 0x180FF1800
 	private int GetNameHash(int index) { }
 
-	// RVA: 0xFF0DD0 Offset: 0xFEF3D0 VA: 0x180FF0DD0
+	// RVA: 0xFF1870 Offset: 0xFEFE70 VA: 0x180FF1870
 	private int GetNamePosition(int index) { }
 
-	// RVA: 0xFF0CA0 Offset: 0xFEF2A0 VA: 0x180FF0CA0 Slot: 6
+	// RVA: 0xFF1740 Offset: 0xFEFD40 VA: 0x180FF1740 Slot: 6
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0xFF0CA0 Offset: 0xFEF2A0 VA: 0x180FF0CA0 Slot: 5
+	// RVA: 0xFF1740 Offset: 0xFEFD40 VA: 0x180FF1740 Slot: 5
 	public IDictionaryEnumerator GetEnumerator() { }
 
-	// RVA: 0xFF0C30 Offset: 0xFEF230 VA: 0x180FF0C30
+	// RVA: 0xFF16D0 Offset: 0xFEFCD0 VA: 0x180FF16D0
 	internal ResourceReader.ResourceEnumerator GetEnumeratorInternal() { }
 
-	// RVA: 0xFF03E0 Offset: 0xFEE9E0 VA: 0x180FF03E0
+	// RVA: 0xFF0E80 Offset: 0xFEF480 VA: 0x180FF0E80
 	internal int FindPosForResource(string name) { }
 
-	// RVA: 0xFEFDA0 Offset: 0xFEE3A0 VA: 0x180FEFDA0
+	// RVA: 0xFF0840 Offset: 0xFEEE40 VA: 0x180FF0840
 	private bool CompareStringEqualsName(string name) { }
 
-	// RVA: 0xFEF550 Offset: 0xFEDB50 VA: 0x180FEF550
+	// RVA: 0xFEFFF0 Offset: 0xFEE5F0 VA: 0x180FEFFF0
 	private string AllocateStringForNameIndex(int index, out int dataOffset) { }
 
-	// RVA: 0xFF0F10 Offset: 0xFEF510 VA: 0x180FF0F10
+	// RVA: 0xFF19B0 Offset: 0xFEFFB0 VA: 0x180FF19B0
 	private object GetValueForNameIndex(int index) { }
 
-	// RVA: 0xFF1440 Offset: 0xFEFA40 VA: 0x180FF1440
+	// RVA: 0xFF1EE0 Offset: 0xFF04E0 VA: 0x180FF1EE0
 	internal string LoadString(int pos) { }
 
-	// RVA: 0xFF1370 Offset: 0xFEF970 VA: 0x180FF1370
+	// RVA: 0xFF1E10 Offset: 0xFF0410 VA: 0x180FF1E10
 	internal object LoadObject(int pos) { }
 
-	// RVA: 0xFF13A0 Offset: 0xFEF9A0 VA: 0x180FF13A0
+	// RVA: 0xFF1E40 Offset: 0xFF0440 VA: 0x180FF1E40
 	internal object LoadObject(int pos, out ResourceTypeCode typeCode) { }
 
-	// RVA: 0xFF11A0 Offset: 0xFEF7A0 VA: 0x180FF11A0
+	// RVA: 0xFF1C40 Offset: 0xFF0240 VA: 0x180FF1C40
 	internal object LoadObjectV1(int pos) { }
 
-	// RVA: 0xFF1930 Offset: 0xFEFF30 VA: 0x180FF1930
+	// RVA: 0xFF23D0 Offset: 0xFF09D0 VA: 0x180FF23D0
 	private object _LoadObjectV1(int pos) { }
 
-	// RVA: 0xFF1280 Offset: 0xFEF880 VA: 0x180FF1280
+	// RVA: 0xFF1D20 Offset: 0xFF0320 VA: 0x180FF1D20
 	internal object LoadObjectV2(int pos, out ResourceTypeCode typeCode) { }
 
-	// RVA: 0xFF2130 Offset: 0xFF0730 VA: 0x180FF2130
+	// RVA: 0xFF2BD0 Offset: 0xFF11D0 VA: 0x180FF2BD0
 	private object _LoadObjectV2(int pos, out ResourceTypeCode typeCode) { }
 
-	// RVA: 0xFF0150 Offset: 0xFEE750 VA: 0x180FF0150
+	// RVA: 0xFF0BF0 Offset: 0xFEF1F0 VA: 0x180FF0BF0
 	private object DeserializeObject(int typeIndex) { }
 
-	// RVA: 0xFF1710 Offset: 0xFEFD10 VA: 0x180FF1710
+	// RVA: 0xFF21B0 Offset: 0xFF07B0 VA: 0x180FF21B0
 	private void ReadResources() { }
 
-	// RVA: 0xFF2B50 Offset: 0xFF1150 VA: 0x180FF2B50
+	// RVA: 0xFF35F0 Offset: 0xFF1BF0 VA: 0x180FF35F0
 	private void _ReadResources() { }
 
-	// RVA: 0xFF0810 Offset: 0xFEEE10 VA: 0x180FF0810
+	// RVA: 0xFF12B0 Offset: 0xFEF8B0 VA: 0x180FF12B0
 	private RuntimeType FindType(int typeIndex) { }
 
 }
@@ -113,28 +113,28 @@ internal sealed class ResourceReader.ResourceEnumerator : IDictionaryEnumerator,
 
 	// Methods
 
-	// RVA: 0xFEC110 Offset: 0xFEA710 VA: 0x180FEC110
+	// RVA: 0xFECBB0 Offset: 0xFEB1B0 VA: 0x180FECBB0
 	internal void .ctor(ResourceReader reader) { }
 
-	// RVA: 0xFEC020 Offset: 0xFEA620 VA: 0x180FEC020 Slot: 7
+	// RVA: 0xFECAC0 Offset: 0xFEB0C0 VA: 0x180FECAC0 Slot: 7
 	public bool MoveNext() { }
 
-	// RVA: 0xFEC550 Offset: 0xFEAB50 VA: 0x180FEC550 Slot: 4
+	// RVA: 0xFECFF0 Offset: 0xFEB5F0 VA: 0x180FECFF0 Slot: 4
 	public object get_Key() { }
 
-	// RVA: 0xFEC150 Offset: 0xFEA750 VA: 0x180FEC150 Slot: 8
+	// RVA: 0xFECBF0 Offset: 0xFEB1F0 VA: 0x180FECBF0 Slot: 8
 	public object get_Current() { }
 
-	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
+	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760
 	internal int get_DataPosition() { }
 
-	// RVA: 0xFEC1B0 Offset: 0xFEA7B0 VA: 0x180FEC1B0 Slot: 6
+	// RVA: 0xFECC50 Offset: 0xFEB250 VA: 0x180FECC50 Slot: 6
 	public DictionaryEntry get_Entry() { }
 
-	// RVA: 0xFEC680 Offset: 0xFEAC80 VA: 0x180FEC680 Slot: 5
+	// RVA: 0xFED120 Offset: 0xFEB720 VA: 0x180FED120 Slot: 5
 	public object get_Value() { }
 
-	// RVA: 0xFEC070 Offset: 0xFEA670 VA: 0x180FEC070 Slot: 9
+	// RVA: 0xFECB10 Offset: 0xFEB110 VA: 0x180FECB10 Slot: 9
 	public void Reset() { }
 
 }

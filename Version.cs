@@ -15,85 +15,85 @@ public sealed class Version : ICloneable, IComparable, IComparable<Version>, IEq
 
 	// Methods
 
-	// RVA: 0x2149520 Offset: 0x2147B20 VA: 0x182149520
+	// RVA: 0x2149D40 Offset: 0x2148340 VA: 0x182149D40
 	public void .ctor(int major, int minor, int build, int revision) { }
 
-	// RVA: 0x2149180 Offset: 0x2147780 VA: 0x182149180
+	// RVA: 0x21499A0 Offset: 0x2147FA0 VA: 0x1821499A0
 	public void .ctor(int major, int minor, int build) { }
 
-	// RVA: 0x2149430 Offset: 0x2147A30 VA: 0x182149430
+	// RVA: 0x2149C50 Offset: 0x2148250 VA: 0x182149C50
 	public void .ctor(int major, int minor) { }
 
-	// RVA: 0x21492D0 Offset: 0x21478D0 VA: 0x1821492D0
+	// RVA: 0x2149AF0 Offset: 0x21480F0 VA: 0x182149AF0
 	public void .ctor(string version) { }
 
-	// RVA: 0x2149150 Offset: 0x2147750 VA: 0x182149150
+	// RVA: 0x2149970 Offset: 0x2147F70 VA: 0x182149970
 	public void .ctor() { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public int get_Major() { }
 
-	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0
+	// RVA: 0x57C960 Offset: 0x57AF60 VA: 0x18057C960
 	public int get_Minor() { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public int get_Build() { }
 
-	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
+	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0
 	public int get_Revision() { }
 
-	// RVA: 0x2147E10 Offset: 0x2146410 VA: 0x182147E10 Slot: 4
+	// RVA: 0x2148630 Offset: 0x2146C30 VA: 0x182148630 Slot: 4
 	public object Clone() { }
 
-	// RVA: 0x2147E90 Offset: 0x2146490 VA: 0x182147E90 Slot: 5
+	// RVA: 0x21486B0 Offset: 0x2146CB0 VA: 0x1821486B0 Slot: 5
 	public int CompareTo(object version) { }
 
-	// RVA: 0x2147FF0 Offset: 0x21465F0 VA: 0x182147FF0 Slot: 6
+	// RVA: 0x2148810 Offset: 0x2146E10 VA: 0x182148810 Slot: 6
 	public int CompareTo(Version value) { }
 
-	// RVA: 0x2148190 Offset: 0x2146790 VA: 0x182148190 Slot: 0
+	// RVA: 0x21489B0 Offset: 0x2146FB0 VA: 0x1821489B0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x21480F0 Offset: 0x21466F0 VA: 0x1821480F0 Slot: 7
+	// RVA: 0x2148910 Offset: 0x2146F10 VA: 0x182148910 Slot: 7
 	public bool Equals(Version obj) { }
 
-	// RVA: 0x2148290 Offset: 0x2146890 VA: 0x182148290 Slot: 2
+	// RVA: 0x2148AB0 Offset: 0x21470B0 VA: 0x182148AB0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x21488E0 Offset: 0x2146EE0 VA: 0x1821488E0 Slot: 3
+	// RVA: 0x2149100 Offset: 0x2147700 VA: 0x182149100 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x21483B0 Offset: 0x21469B0 VA: 0x1821483B0
+	// RVA: 0x2148BD0 Offset: 0x21471D0 VA: 0x182148BD0
 	public string ToString(int fieldCount) { }
 
-	// RVA: 0x2147D80 Offset: 0x2146380 VA: 0x182147D80
+	// RVA: 0x21485A0 Offset: 0x2146BA0 VA: 0x1821485A0
 	private static void AppendPositiveNumber(int num, StringBuilder sb) { }
 
-	// RVA: 0x21482C0 Offset: 0x21468C0 VA: 0x1821482C0
+	// RVA: 0x2148AE0 Offset: 0x21470E0 VA: 0x182148AE0
 	public static Version Parse(string input) { }
 
-	// RVA: 0x2148A60 Offset: 0x2147060 VA: 0x182148A60
+	// RVA: 0x2149280 Offset: 0x2147880 VA: 0x182149280
 	private static bool TryParseVersion(string version, ref Version.VersionResult result) { }
 
-	// RVA: 0x2148910 Offset: 0x2146F10 VA: 0x182148910
+	// RVA: 0x2149130 Offset: 0x2147730 VA: 0x182149130
 	private static bool TryParseComponent(string component, string componentName, ref Version.VersionResult result, out int parsedComponent) { }
 
-	// RVA: 0x21496C0 Offset: 0x2147CC0 VA: 0x1821496C0
+	// RVA: 0x2149EE0 Offset: 0x21484E0 VA: 0x182149EE0
 	public static bool op_Equality(Version v1, Version v2) { }
 
-	// RVA: 0x2149840 Offset: 0x2147E40 VA: 0x182149840
+	// RVA: 0x214A060 Offset: 0x2148660 VA: 0x18214A060
 	public static bool op_Inequality(Version v1, Version v2) { }
 
-	// RVA: 0x21499C0 Offset: 0x2147FC0 VA: 0x1821499C0
+	// RVA: 0x214A1E0 Offset: 0x21487E0 VA: 0x18214A1E0
 	public static bool op_LessThan(Version v1, Version v2) { }
 
-	// RVA: 0x2149940 Offset: 0x2147F40 VA: 0x182149940
+	// RVA: 0x214A160 Offset: 0x2148760 VA: 0x18214A160
 	public static bool op_LessThanOrEqual(Version v1, Version v2) { }
 
-	// RVA: 0x2149780 Offset: 0x2147D80 VA: 0x182149780
+	// RVA: 0x2149FA0 Offset: 0x21485A0 VA: 0x182149FA0
 	public static bool op_GreaterThanOrEqual(Version v1, Version v2) { }
 
-	// RVA: 0x21490D0 Offset: 0x21476D0 VA: 0x1821490D0
+	// RVA: 0x21498F0 Offset: 0x2147EF0 VA: 0x1821498F0
 	private static void .cctor() { }
 
 }

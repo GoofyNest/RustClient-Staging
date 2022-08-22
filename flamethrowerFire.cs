@@ -13,22 +13,22 @@ public class flamethrowerFire : MonoBehaviour // TypeDefIndex: 11467
 
 	// Methods
 
-	// RVA: 0x1A90C70 Offset: 0x1A8F270 VA: 0x181A90C70
+	// RVA: 0x1A7D480 Offset: 0x1A7BA80 VA: 0x181A7D480
 	public void PilotLightOn() { }
 
-	// RVA: 0x1A90CF0 Offset: 0x1A8F2F0 VA: 0x181A90CF0
+	// RVA: 0x1A7D500 Offset: 0x1A7BB00 VA: 0x181A7D500
 	public void SetFlameStatus(bool status) { }
 
-	// RVA: 0x1A90D60 Offset: 0x1A8F360 VA: 0x181A90D60
+	// RVA: 0x1A7D570 Offset: 0x1A7BB70 VA: 0x181A7D570
 	public void ShutOff() { }
 
-	// RVA: 0x1A90BF0 Offset: 0x1A8F1F0 VA: 0x181A90BF0
+	// RVA: 0x1A7D400 Offset: 0x1A7BA00 VA: 0x181A7D400
 	public void FlameOn() { }
 
-	// RVA: 0x1A90DE0 Offset: 0x1A8F3E0 VA: 0x181A90DE0
+	// RVA: 0x1A7D5F0 Offset: 0x1A7BBF0 VA: 0x181A7D5F0
 	private void Start() { }
 
-	// RVA: 0x1A90DF0 Offset: 0x1A8F3F0 VA: 0x181A90DF0
+	// RVA: 0x1A7D600 Offset: 0x1A7BC00 VA: 0x181A7D600
 	private void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

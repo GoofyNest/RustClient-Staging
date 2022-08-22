@@ -5,7 +5,7 @@ internal sealed class ConstraintTable // TypeDefIndex: 4317
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	public void .ctor(DataTable t, XmlSchemaIdentityConstraint c) { }
 
 }

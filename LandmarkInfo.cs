@@ -11,10 +11,10 @@ public class LandmarkInfo : MonoBehaviour // TypeDefIndex: 9961
 
 	// Methods
 
-	// RVA: 0x686A10 Offset: 0x685010 VA: 0x180686A10 Slot: 4
+	// RVA: 0x6869A0 Offset: 0x684FA0 VA: 0x1806869A0 Slot: 4
 	public virtual MapLayer get_MapLayer() { }
 
-	// RVA: 0x686920 Offset: 0x684F20 VA: 0x180686920 Slot: 5
+	// RVA: 0x6868B0 Offset: 0x684EB0 VA: 0x1806868B0 Slot: 5
 	protected virtual void Awake() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

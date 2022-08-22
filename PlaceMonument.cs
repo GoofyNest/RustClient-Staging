@@ -6,10 +6,10 @@ public class PlaceMonument : ProceduralComponent // TypeDefIndex: 10535
 
 	// Methods
 
-	// RVA: 0x910AC0 Offset: 0x90F0C0 VA: 0x180910AC0 Slot: 5
+	// RVA: 0x910FD0 Offset: 0x90F5D0 VA: 0x180910FD0 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40
+	// RVA: 0x57BBD0 Offset: 0x57A1D0 VA: 0x18057BBD0
 	public void .ctor() { }
 
 }

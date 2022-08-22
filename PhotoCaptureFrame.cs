@@ -19,49 +19,49 @@ public sealed class PhotoCaptureFrame : IDisposable // TypeDefIndex: 3615
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public int get_dataLength() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
+	// RVA: 0x79C6B0 Offset: 0x79ACB0 VA: 0x18079C6B0
 	private void set_dataLength(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0DB0 Offset: 0x7CF3B0 VA: 0x1807D0DB0
+	// RVA: 0x79C6D0 Offset: 0x79ACD0 VA: 0x18079C6D0
 	private void set_hasLocationData(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730
+	// RVA: 0x69D6C0 Offset: 0x69BCC0 VA: 0x18069D6C0
 	private void set_pixelFormat(CapturePixelFormat value) { }
 
 	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2178C00 Offset: 0x2177200 VA: 0x182178C00
+	// RVA: 0x2179420 Offset: 0x2177A20 VA: 0x182179420
 	private int GetDataLength() { }
 
 	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2178C40 Offset: 0x2177240 VA: 0x182178C40
+	// RVA: 0x2179460 Offset: 0x2177A60 VA: 0x182179460
 	private bool GetHasLocationData() { }
 
 	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2178BC0 Offset: 0x21771C0 VA: 0x182178BC0
+	// RVA: 0x21793E0 Offset: 0x21779E0 VA: 0x1821793E0
 	private CapturePixelFormat GetCapturePixelFormat() { }
 
-	// RVA: 0x2178C80 Offset: 0x2177280 VA: 0x182178C80
+	// RVA: 0x21794A0 Offset: 0x2177AA0 VA: 0x1821794A0
 	internal void .ctor(IntPtr nativePtr) { }
 
-	// RVA: 0x21789F0 Offset: 0x2176FF0 VA: 0x1821789F0
+	// RVA: 0x2179210 Offset: 0x2177810 VA: 0x182179210
 	private void Cleanup() { }
 
 	[NativeConditionalAttribute] // RVA: 0xDC030 Offset: 0xDB430 VA: 0x1800DC030
 	[ThreadAndSerializationSafeAttribute] // RVA: 0xDC030 Offset: 0xDB430 VA: 0x1800DC030
 	[NativeNameAttribute] // RVA: 0xDC030 Offset: 0xDB430 VA: 0x1800DC030
-	// RVA: 0x2178A90 Offset: 0x2177090 VA: 0x182178A90
+	// RVA: 0x21792B0 Offset: 0x21778B0 VA: 0x1821792B0
 	private void Dispose_Internal() { }
 
-	// RVA: 0x2178AD0 Offset: 0x21770D0 VA: 0x182178AD0 Slot: 4
+	// RVA: 0x21792F0 Offset: 0x21778F0 VA: 0x1821792F0 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x2178B30 Offset: 0x2177130 VA: 0x182178B30 Slot: 1
+	// RVA: 0x2179350 Offset: 0x2177950 VA: 0x182179350 Slot: 1
 	protected override void Finalize() { }
 
 }

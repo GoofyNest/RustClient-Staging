@@ -6,19 +6,19 @@ public struct InventoryRecipe : IEquatable<InventoryRecipe> // TypeDefIndex: 524
 
 	// Methods
 
-	// RVA: 0xDE1FD0 Offset: 0xDE05D0 VA: 0x180DE1FD0
+	// RVA: 0xDE2A80 Offset: 0xDE1080 VA: 0x180DE2A80
 	internal static InventoryRecipe FromString(string part, InventoryDef Result) { }
 
-	// RVA: 0x122E50 Offset: 0x122250 VA: 0x180122E50
+	// RVA: 0x122C70 Offset: 0x122070 VA: 0x180122C70
 	internal bool ContainsIngredient(InventoryDef inventoryDef) { }
 
-	// RVA: 0x122ED0 Offset: 0x1222D0 VA: 0x180122ED0 Slot: 0
+	// RVA: 0x122CF0 Offset: 0x1220F0 VA: 0x180122CF0 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0x122F80 Offset: 0x122380 VA: 0x180122F80 Slot: 2
+	// RVA: 0x122DA0 Offset: 0x1221A0 VA: 0x180122DA0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x122E60 Offset: 0x122260 VA: 0x180122E60 Slot: 4
+	// RVA: 0x122C80 Offset: 0x122080 VA: 0x180122C80 Slot: 4
 	public bool Equals(InventoryRecipe p) { }
 
 }
@@ -31,7 +31,7 @@ public struct InventoryRecipe.Ingredient // TypeDefIndex: 5247
 
 	// Methods
 
-	// RVA: 0xDE0610 Offset: 0xDDEC10 VA: 0x180DE0610
+	// RVA: 0xDE10C0 Offset: 0xDDF6C0 VA: 0x180DE10C0
 	internal static InventoryRecipe.Ingredient FromString(string part) { }
 
 }
@@ -44,16 +44,16 @@ private sealed class InventoryRecipe.<>c // TypeDefIndex: 5248
 
 	// Methods
 
-	// RVA: 0xDF0660 Offset: 0xDEEC60 VA: 0x180DF0660
+	// RVA: 0xDF1110 Offset: 0xDEF710 VA: 0x180DF1110
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xDEF550 Offset: 0xDEDB50 VA: 0x180DEF550
+	// RVA: 0xDF0000 Offset: 0xDEE600 VA: 0x180DF0000
 	internal InventoryRecipe.Ingredient <FromString>b__4_0(string x) { }
 
-	// RVA: 0xDEF590 Offset: 0xDEDB90 VA: 0x180DEF590
+	// RVA: 0xDF0040 Offset: 0xDEE640 VA: 0x180DF0040
 	internal bool <FromString>b__4_1(InventoryRecipe.Ingredient x) { }
 
 }
@@ -67,7 +67,7 @@ private sealed class InventoryRecipe.<>c__DisplayClass5_0 // TypeDefIndex: 5249
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xDF0520 Offset: 0xDEEB20 VA: 0x180DF0520
+	// RVA: 0xDF0FD0 Offset: 0xDEF5D0 VA: 0x180DF0FD0
 	internal bool <ContainsIngredient>b__0(InventoryRecipe.Ingredient x) { }
 
 }

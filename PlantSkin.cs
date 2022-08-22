@@ -5,10 +5,10 @@ public class PlantSkin : MonoBehaviour, IClientComponent // TypeDefIndex: 9643
 
 	// Methods
 
-	// RVA: 0x91D780 Offset: 0x91BD80 VA: 0x18091D780
+	// RVA: 0x91DC90 Offset: 0x91C290 VA: 0x18091DC90
 	public void Awake() { }
 
-	// RVA: 0x91D7E0 Offset: 0x91BDE0 VA: 0x18091D7E0
+	// RVA: 0x91DCF0 Offset: 0x91C2F0 VA: 0x18091DCF0
 	public void .ctor() { }
 
 }

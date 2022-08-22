@@ -9,23 +9,23 @@ public class InRangeOfHomeAIEvent : BaseAIEvent // TypeDefIndex: 9403
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x533E60 Offset: 0x532460 VA: 0x180533E60
+	// RVA: 0x533DF0 Offset: 0x5323F0 VA: 0x180533DF0
 	public float get_Range() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
+	// RVA: 0x533E00 Offset: 0x532400 VA: 0x180533E00
 	public void set_Range(float value) { }
 
-	// RVA: 0x8133D0 Offset: 0x8119D0 VA: 0x1808133D0
+	// RVA: 0x813960 Offset: 0x811F60 VA: 0x180813960
 	public void .ctor() { }
 
-	// RVA: 0x8132E0 Offset: 0x8118E0 VA: 0x1808132E0 Slot: 4
+	// RVA: 0x813870 Offset: 0x811E70 VA: 0x180813870 Slot: 4
 	public override void Init(AIEventData data, BaseEntity owner) { }
 
-	// RVA: 0x813320 Offset: 0x811920 VA: 0x180813320 Slot: 6
+	// RVA: 0x8138B0 Offset: 0x811EB0 VA: 0x1808138B0 Slot: 6
 	public override AIEventData ToProto() { }
 
-	// RVA: 0x813200 Offset: 0x811800 VA: 0x180813200 Slot: 8
+	// RVA: 0x813790 Offset: 0x811D90 VA: 0x180813790 Slot: 8
 	public override void Execute(AIMemory memory, AIBrainSenses senses, StateStatus stateStatus) { }
 
 }

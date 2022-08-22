@@ -13,28 +13,28 @@ public class LayerIDecoder : IFrameDecoder // TypeDefIndex: 7400
 
 	// Methods
 
-	// RVA: 0x661530 Offset: 0x65FB30 VA: 0x180661530
+	// RVA: 0x6614C0 Offset: 0x65FAC0 VA: 0x1806614C0
 	internal void .ctor() { }
 
-	// RVA: 0x6611A0 Offset: 0x65F7A0 VA: 0x1806611A0 Slot: 5
+	// RVA: 0x661130 Offset: 0x65F730 VA: 0x180661130 Slot: 5
 	public virtual void DecodeFrame() { }
 
-	// RVA: 0x661120 Offset: 0x65F720 VA: 0x180661120 Slot: 6
+	// RVA: 0x6610B0 Offset: 0x65F6B0 VA: 0x1806610B0 Slot: 6
 	internal virtual void Create(Bitstream stream0, Header header0, SynthesisFilter filtera, SynthesisFilter filterb, ABuffer buffer0, int whichCh0) { }
 
-	// RVA: 0x660D80 Offset: 0x65F380 VA: 0x180660D80 Slot: 7
+	// RVA: 0x660D10 Offset: 0x65F310 VA: 0x180660D10 Slot: 7
 	protected virtual void CreateSubbands() { }
 
-	// RVA: 0x6612D0 Offset: 0x65F8D0 VA: 0x1806612D0 Slot: 8
+	// RVA: 0x661260 Offset: 0x65F860 VA: 0x180661260 Slot: 8
 	protected virtual void ReadAllocation() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 9
 	protected virtual void ReadScaleFactorSelection() { }
 
-	// RVA: 0x6614C0 Offset: 0x65FAC0 VA: 0x1806614C0 Slot: 10
+	// RVA: 0x661450 Offset: 0x65FA50 VA: 0x180661450 Slot: 10
 	protected virtual void ReadScaleFactors() { }
 
-	// RVA: 0x661350 Offset: 0x65F950 VA: 0x180661350 Slot: 11
+	// RVA: 0x6612E0 Offset: 0x65F8E0 VA: 0x1806612E0 Slot: 11
 	protected virtual void ReadSampleData() { }
 
 }

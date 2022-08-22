@@ -14,7 +14,7 @@ public struct UgcAdditionalPreview // TypeDefIndex: 5560
 
 	// Methods
 
-	// RVA: 0x1DB3E0 Offset: 0x1DA7E0 VA: 0x1801DB3E0
+	// RVA: 0x1DBA50 Offset: 0x1DAE50 VA: 0x1801DBA50
 	internal void .ctor(string urlOrVideoID, string originalFileName, ItemPreviewType itemPreviewType) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

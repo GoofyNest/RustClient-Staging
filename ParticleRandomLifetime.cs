@@ -6,10 +6,10 @@ public class ParticleRandomLifetime : MonoBehaviour // TypeDefIndex: 9212
 
 	// Methods
 
-	// RVA: 0x85D780 Offset: 0x85BD80 VA: 0x18085D780
+	// RVA: 0x878EE0 Offset: 0x8774E0 VA: 0x180878EE0
 	public void Awake() { }
 
-	// RVA: 0x85D810 Offset: 0x85BE10 VA: 0x18085D810
+	// RVA: 0x878F70 Offset: 0x877570 VA: 0x180878F70
 	public void .ctor() { }
 
 }

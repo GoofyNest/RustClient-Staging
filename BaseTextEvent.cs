@@ -8,10 +8,10 @@ public abstract class BaseTextEvent : MetaEvent // TypeDefIndex: 7531
 
 	// Methods
 
-	// RVA: 0x1396390 Offset: 0x1394990 VA: 0x181396390
+	// RVA: 0x1395490 Offset: 0x1393A90 VA: 0x181395490
 	public void .ctor(MidiEventType eventType) { }
 
-	// RVA: 0x13963C0 Offset: 0x13949C0 VA: 0x1813963C0
+	// RVA: 0x13954C0 Offset: 0x1393AC0 VA: 0x1813954C0
 	public void .ctor(MidiEventType eventType, string text) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -22,7 +22,7 @@ public abstract class BaseTextEvent : MetaEvent // TypeDefIndex: 7531
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_Text(string value) { }
 
-	// RVA: 0x1396250 Offset: 0x1394850 VA: 0x181396250 Slot: 6
+	// RVA: 0x1395350 Offset: 0x1393950 VA: 0x181395350 Slot: 6
 	protected sealed override void ReadContent(MidiReader reader, ReadingSettings settings, int size) { }
 
 }

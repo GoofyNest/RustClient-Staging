@@ -19,43 +19,43 @@ public class RepairBenchPanel : LootPanel // TypeDefIndex: 11048
 
 	// Methods
 
-	// RVA: 0x952470 Offset: 0x950A70 VA: 0x180952470
+	// RVA: 0x952980 Offset: 0x950F80 VA: 0x180952980
 	public void OnEnable() { }
 
-	// RVA: 0x952370 Offset: 0x950970 VA: 0x180952370 Slot: 6
+	// RVA: 0x952880 Offset: 0x950E80 VA: 0x180952880 Slot: 6
 	protected override void OnDisable() { }
 
-	// RVA: 0x952C40 Offset: 0x951240 VA: 0x180952C40 Slot: 5
+	// RVA: 0x953150 Offset: 0x951750 VA: 0x180953150 Slot: 5
 	public override void Update() { }
 
-	// RVA: 0x952CA0 Offset: 0x9512A0 VA: 0x180952CA0
+	// RVA: 0x79BDE0 Offset: 0x79A3E0 VA: 0x18079BDE0
 	public Item get_item() { }
 
-	// RVA: 0x9529E0 Offset: 0x950FE0 VA: 0x1809529E0
+	// RVA: 0x952EF0 Offset: 0x9514F0 VA: 0x180952EF0
 	public void UpdateAvailableSkins() { }
 
-	// RVA: 0x9528A0 Offset: 0x950EA0 VA: 0x1809528A0
+	// RVA: 0x952DB0 Offset: 0x9513B0 VA: 0x180952DB0
 	public void SkinClicked() { }
 
-	// RVA: 0x951A60 Offset: 0x950060 VA: 0x180951A60
+	// RVA: 0x951F70 Offset: 0x950570 VA: 0x180951F70
 	private void DisableAttachmentBlock() { }
 
-	// RVA: 0x952810 Offset: 0x950E10 VA: 0x180952810
+	// RVA: 0x952D20 Offset: 0x951320 VA: 0x180952D20
 	public void RepairClicked() { }
 
-	// RVA: 0x9522E0 Offset: 0x9508E0 VA: 0x1809522E0
+	// RVA: 0x9527F0 Offset: 0x950DF0 VA: 0x1809527F0
 	public bool IsItemRepairable(ItemDefinition info) { }
 
-	// RVA: 0x951A90 Offset: 0x950090 VA: 0x180951A90
+	// RVA: 0x951FA0 Offset: 0x9505A0 VA: 0x180951FA0
 	private string GetCostText() { }
 
-	// RVA: 0x952520 Offset: 0x950B20 VA: 0x180952520
+	// RVA: 0x952A30 Offset: 0x951030 VA: 0x180952A30
 	private void Refresh() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void UpdateSkinPanel() { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

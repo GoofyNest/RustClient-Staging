@@ -300,10 +300,10 @@ public static class Consts // TypeDefIndex: 11539
 
 	// Methods
 
-	// RVA: 0x111DE80 Offset: 0x111C480 VA: 0x18111DE80
+	// RVA: 0x111E8F0 Offset: 0x111CEF0 VA: 0x18111E8F0
 	public static HideFlags get_ProceduralObjectsHideFlags() { }
 
-	// RVA: 0x111DCE0 Offset: 0x111C2E0 VA: 0x18111DCE0
+	// RVA: 0x111E750 Offset: 0x111CD50 VA: 0x18111E750
 	private static void .cctor() { }
 
 }

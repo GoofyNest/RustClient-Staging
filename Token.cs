@@ -14,35 +14,35 @@ internal struct Token // TypeDefIndex: 5781
 
 	// Methods
 
-	// RVA: 0x19DF30 Offset: 0x19D330 VA: 0x18019DF30
+	// RVA: 0x19DC20 Offset: 0x19D020 VA: 0x18019DC20
 	public void .ctor(Token.Type type, int startPosition, int endPosition) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B7E0 Offset: 0x14ABE0 VA: 0x18014B7E0
+	// RVA: 0x14B600 Offset: 0x14AA00 VA: 0x18014B600
 	public int get_StartPosition() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19DF60 Offset: 0x19D360 VA: 0x18019DF60
+	// RVA: 0x19DC50 Offset: 0x19D050 VA: 0x18019DC50
 	private void set_StartPosition(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
+	// RVA: 0x122C30 Offset: 0x122030 VA: 0x180122C30
 	public int get_EndPosition() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19DF50 Offset: 0x19D350 VA: 0x18019DF50
+	// RVA: 0x19DC40 Offset: 0x19D040 VA: 0x18019DC40
 	private void set_EndPosition(int value) { }
 
 	// RVA: 0xF3720 Offset: 0xF2B20 VA: 0x1800F3720
 	public Token.Type get_Kind() { }
 
-	// RVA: 0xDE68E0 Offset: 0xDE4EE0 VA: 0x180DE68E0
+	// RVA: 0xDE7390 Offset: 0xDE5990 VA: 0x180DE7390
 	public static Token.Type op_Implicit(Token token) { }
 
-	// RVA: 0x19DEB0 Offset: 0x19D2B0 VA: 0x18019DEB0 Slot: 3
+	// RVA: 0x19DBA0 Offset: 0x19CFA0 VA: 0x18019DBA0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1097940 Offset: 0x1095F40 VA: 0x181097940
+	// RVA: 0x10983B0 Offset: 0x10969B0 VA: 0x1810983B0
 	private static void .cctor() { }
 
 }

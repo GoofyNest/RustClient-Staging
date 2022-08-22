@@ -6,82 +6,82 @@ public class SubEntityList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1DC26C0 Offset: 0x1DC0CC0 VA: 0x181DC26C0
+	// RVA: 0x1DC2EB0 Offset: 0x1DC14B0 VA: 0x181DC2EB0
 	public static void ResetToPool(SubEntityList instance) { }
 
-	// RVA: 0x1DC25E0 Offset: 0x1DC0BE0 VA: 0x181DC25E0
+	// RVA: 0x1DC2DD0 Offset: 0x1DC13D0 VA: 0x181DC2DD0
 	public void ResetToPool() { }
 
-	// RVA: 0x1DC2450 Offset: 0x1DC0A50 VA: 0x181DC2450 Slot: 9
+	// RVA: 0x1DC2C40 Offset: 0x1DC1240 VA: 0x181DC2C40 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DC1760 Offset: 0x1DBFD60 VA: 0x181DC1760
+	// RVA: 0x1DC1F50 Offset: 0x1DC0550 VA: 0x181DC1F50
 	public void CopyTo(SubEntityList instance) { }
 
-	// RVA: 0x1DC1880 Offset: 0x1DBFE80 VA: 0x181DC1880
+	// RVA: 0x1DC2070 Offset: 0x1DC0670 VA: 0x181DC2070
 	public SubEntityList Copy() { }
 
-	// RVA: 0x1DC22B0 Offset: 0x1DC08B0 VA: 0x181DC22B0
+	// RVA: 0x1DC2AA0 Offset: 0x1DC10A0 VA: 0x181DC2AA0
 	public static SubEntityList Deserialize(Stream stream) { }
 
-	// RVA: 0x1DC19E0 Offset: 0x1DBFFE0 VA: 0x181DC19E0
+	// RVA: 0x1DC21D0 Offset: 0x1DC07D0 VA: 0x181DC21D0
 	public static SubEntityList DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DC1F60 Offset: 0x1DC0560 VA: 0x181DC1F60
+	// RVA: 0x1DC2750 Offset: 0x1DC0D50 VA: 0x181DC2750
 	public static SubEntityList DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DC2330 Offset: 0x1DC0930 VA: 0x181DC2330
+	// RVA: 0x1DC2B20 Offset: 0x1DC1120 VA: 0x181DC2B20
 	public static SubEntityList Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DC25A0 Offset: 0x1DC0BA0 VA: 0x181DC25A0
+	// RVA: 0x1DC2D90 Offset: 0x1DC1390 VA: 0x181DC2D90
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DC2BF0 Offset: 0x1DC11F0 VA: 0x181DC2BF0 Slot: 12
+	// RVA: 0x1DC33E0 Offset: 0x1DC19E0 VA: 0x181DC33E0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DC2C10 Offset: 0x1DC1210 VA: 0x181DC2C10 Slot: 13
+	// RVA: 0x1DC3400 Offset: 0x1DC1A00 VA: 0x181DC3400 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SubEntityList previous) { }
 
-	// RVA: 0x1DC25C0 Offset: 0x1DC0BC0 VA: 0x181DC25C0 Slot: 14
+	// RVA: 0x1DC2DB0 Offset: 0x1DC13B0 VA: 0x181DC2DB0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DC1FF0 Offset: 0x1DC05F0 VA: 0x181DC1FF0
+	// RVA: 0x1DC27E0 Offset: 0x1DC0DE0 VA: 0x181DC27E0
 	public static SubEntityList Deserialize(byte[] buffer, SubEntityList instance, bool isDelta = False) { }
 
-	// RVA: 0x1DC20F0 Offset: 0x1DC06F0 VA: 0x181DC20F0
+	// RVA: 0x1DC28E0 Offset: 0x1DC0EE0 VA: 0x181DC28E0
 	public static SubEntityList Deserialize(Stream stream, SubEntityList instance, bool isDelta) { }
 
-	// RVA: 0x1DC1A60 Offset: 0x1DC0060 VA: 0x181DC1A60
+	// RVA: 0x1DC2250 Offset: 0x1DC0850 VA: 0x181DC2250
 	public static SubEntityList DeserializeLengthDelimited(Stream stream, SubEntityList instance, bool isDelta) { }
 
-	// RVA: 0x1DC1CF0 Offset: 0x1DC02F0 VA: 0x181DC1CF0
+	// RVA: 0x1DC24E0 Offset: 0x1DC0AE0 VA: 0x181DC24E0
 	public static SubEntityList DeserializeLength(Stream stream, int length, SubEntityList instance, bool isDelta) { }
 
-	// RVA: 0x1DC27A0 Offset: 0x1DC0DA0 VA: 0x181DC27A0
+	// RVA: 0x1DC2F90 Offset: 0x1DC1590 VA: 0x181DC2F90
 	public static void SerializeDelta(Stream stream, SubEntityList instance, SubEntityList previous) { }
 
-	// RVA: 0x1DC2AA0 Offset: 0x1DC10A0 VA: 0x181DC2AA0
+	// RVA: 0x1DC3290 Offset: 0x1DC1890 VA: 0x181DC3290
 	public static void Serialize(Stream stream, SubEntityList instance) { }
 
-	// RVA: 0x1DC2BE0 Offset: 0x1DC11E0 VA: 0x181DC2BE0
+	// RVA: 0x1DC33D0 Offset: 0x1DC19D0 VA: 0x181DC33D0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DC2BF0 Offset: 0x1DC11F0 VA: 0x181DC2BF0
+	// RVA: 0x1DC33E0 Offset: 0x1DC19E0 VA: 0x181DC33E0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DC2990 Offset: 0x1DC0F90 VA: 0x181DC2990
+	// RVA: 0x1DC3180 Offset: 0x1DC1780 VA: 0x181DC3180
 	public static byte[] SerializeToBytes(SubEntityList instance) { }
 
-	// RVA: 0x1DC28E0 Offset: 0x1DC0EE0 VA: 0x181DC28E0
+	// RVA: 0x1DC30D0 Offset: 0x1DC16D0 VA: 0x181DC30D0
 	public static void SerializeLengthDelimited(Stream stream, SubEntityList instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }

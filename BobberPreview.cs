@@ -6,7 +6,7 @@ public class BobberPreview : MonoBehaviour // TypeDefIndex: 8869
 
 	// Methods
 
-	// RVA: 0x516FA0 Offset: 0x5155A0 VA: 0x180516FA0
+	// RVA: 0x516F30 Offset: 0x515530 VA: 0x180516F30
 	public void SetState(bool state) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

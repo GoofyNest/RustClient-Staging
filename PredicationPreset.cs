@@ -9,7 +9,7 @@ public class PredicationPreset // TypeDefIndex: 11561
 
 	// Methods
 
-	// RVA: 0x5A4F10 Offset: 0x5A3510 VA: 0x1805A4F10
+	// RVA: 0x5A4EA0 Offset: 0x5A34A0 VA: 0x1805A4EA0
 	public void .ctor() { }
 
 }

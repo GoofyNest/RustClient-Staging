@@ -1,10 +1,10 @@
 internal static class SR // TypeDefIndex: 3
 {	// Methods
 
-	// RVA: 0x1564920 Offset: 0x1562F20 VA: 0x181564920
+	// RVA: 0x15639F0 Offset: 0x1561FF0 VA: 0x1815639F0
 	internal static string Format(string resourceFormat, object p1) { }
 
-	// RVA: 0x1564890 Offset: 0x1562E90 VA: 0x181564890
+	// RVA: 0x1563960 Offset: 0x1561F60 VA: 0x181563960
 	internal static string Format(string resourceFormat, object p1, object p2) { }
 
 }
@@ -45,10 +45,10 @@ internal class <Module> // TypeDefIndex: 1783
 internal static class SR // TypeDefIndex: 1784
 	// Methods
 
-	// RVA: 0x12F4A40 Offset: 0x12F3040 VA: 0x1812F4A40
+	// RVA: 0x12FAEF0 Offset: 0x12F94F0 VA: 0x1812FAEF0
 	internal static string GetString(string name, object[] args) { }
 
-	// RVA: 0x12F4AB0 Offset: 0x12F30B0 VA: 0x1812F4AB0
+	// RVA: 0x12FAF60 Offset: 0x12F9560 VA: 0x1812FAF60
 	internal static string GetString(CultureInfo culture, string name, object[] args) { }
 
 }
@@ -119,19 +119,19 @@ internal class <Module> // TypeDefIndex: 2452
 internal static class SR // TypeDefIndex: 2453
 	// Methods
 
-	// RVA: 0x15D7440 Offset: 0x15D5A40 VA: 0x1815D7440
+	// RVA: 0x15D6510 Offset: 0x15D4B10 VA: 0x1815D6510
 	internal static string GetString(string name, object[] args) { }
 
-	// RVA: 0x12F4AB0 Offset: 0x12F30B0 VA: 0x1812F4AB0
+	// RVA: 0x12FAF60 Offset: 0x12F9560 VA: 0x1812FAF60
 	internal static string GetString(CultureInfo culture, string name, object[] args) { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80
 	internal static string GetString(string name) { }
 
-	// RVA: 0x15D7340 Offset: 0x15D5940 VA: 0x1815D7340
+	// RVA: 0x15D6410 Offset: 0x15D4A10 VA: 0x1815D6410
 	internal static string Format(string resourceFormat, object p1) { }
 
-	// RVA: 0x15D73B0 Offset: 0x15D59B0 VA: 0x1815D73B0
+	// RVA: 0x15D6480 Offset: 0x15D4A80 VA: 0x1815D6480
 	internal static string Format(string resourceFormat, object p1, object p2) { }
 
 }
@@ -142,10 +142,10 @@ internal static class SR // TypeDefIndex: 3188
 internal static class SR // TypeDefIndex: 3188
 	// Methods
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80
 	internal static string GetString(string name) { }
 
-	// RVA: 0x222CD90 Offset: 0x222B390 VA: 0x18222CD90
+	// RVA: 0x222D5B0 Offset: 0x222BBB0 VA: 0x18222D5B0
 	internal static string Format(string resourceFormat, object p1) { }
 
 }
@@ -156,7 +156,7 @@ internal static class SR // TypeDefIndex: 3962
 internal static class SR // TypeDefIndex: 3962
 	// Methods
 
-	// RVA: 0x2238970 Offset: 0x2236F70 VA: 0x182238970
+	// RVA: 0x2239190 Offset: 0x2237790 VA: 0x182239190
 	internal static string Format(string resourceFormat, object p1) { }
 
 }
@@ -167,19 +167,19 @@ internal static class SR // TypeDefIndex: 4164
 internal static class SR // TypeDefIndex: 4164
 	// Methods
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80
 	internal static string GetString(string name) { }
 
-	// RVA: 0x1282F60 Offset: 0x1281560 VA: 0x181282F60
+	// RVA: 0x1283600 Offset: 0x1281C00 VA: 0x181283600
 	internal static string Format(string resourceFormat, object[] args) { }
 
-	// RVA: 0x1283080 Offset: 0x1281680 VA: 0x181283080
+	// RVA: 0x1283720 Offset: 0x1281D20 VA: 0x181283720
 	internal static string Format(string resourceFormat, object p1) { }
 
-	// RVA: 0x12830F0 Offset: 0x12816F0 VA: 0x1812830F0
+	// RVA: 0x1283790 Offset: 0x1281D90 VA: 0x181283790
 	internal static string Format(string resourceFormat, object p1, object p2) { }
 
-	// RVA: 0x1282FE0 Offset: 0x12815E0 VA: 0x181282FE0
+	// RVA: 0x1283680 Offset: 0x1281C80 VA: 0x181283680
 	internal static string Format(string resourceFormat, object p1, object p2, object p3) { }
 
 }
@@ -198,16 +198,16 @@ internal class SR // TypeDefIndex: 4895
 
 	// Methods
 
-	// RVA: 0x140F860 Offset: 0x140DE60 VA: 0x18140F860
+	// RVA: 0x140E940 Offset: 0x140CF40 VA: 0x18140E940
 	internal static ResourceManager get_ResourceManager() { }
 
-	// RVA: 0x140F710 Offset: 0x140DD10 VA: 0x18140F710
+	// RVA: 0x140E7F0 Offset: 0x140CDF0 VA: 0x18140E7F0
 	internal static string get_DataTypes() { }
 
-	// RVA: 0x140F780 Offset: 0x140DD80 VA: 0x18140F780
+	// RVA: 0x140E860 Offset: 0x140CE60 VA: 0x18140E860
 	internal static string get_Keywords() { }
 
-	// RVA: 0x140F7F0 Offset: 0x140DDF0 VA: 0x18140F7F0
+	// RVA: 0x140E8D0 Offset: 0x140CED0 VA: 0x18140E8D0
 	internal static string get_MetaDataCollections() { }
 
 }
@@ -234,20 +234,20 @@ internal static class SR // TypeDefIndex: 6266
 
 	// Methods
 
-	// RVA: 0x231A020 Offset: 0x2318620 VA: 0x18231A020
+	// RVA: 0x231A840 Offset: 0x2318E40 VA: 0x18231A840
 	private static ResourceManager get_ResourceManager() { }
 
-	// RVA: 0x2319D60 Offset: 0x2318360 VA: 0x182319D60
+	// RVA: 0x231A580 Offset: 0x2318B80 VA: 0x18231A580
 	internal static string GetResourceString(string resourceKey, string defaultString) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231A140 Offset: 0x2318740 VA: 0x18231A140
+	// RVA: 0x231A960 Offset: 0x2318F60 VA: 0x18231A960
 	internal static Type get_ResourceType() { }
 
-	// RVA: 0x2319FC0 Offset: 0x23185C0 VA: 0x182319FC0
+	// RVA: 0x231A7E0 Offset: 0x2318DE0 VA: 0x18231A7E0
 	internal static string get_ArgumentException_BufferNotFromPool() { }
 
-	// RVA: 0x2319F40 Offset: 0x2318540 VA: 0x182319F40
+	// RVA: 0x231A760 Offset: 0x2318D60 VA: 0x18231A760
 	private static void .cctor() { }
 
 }
@@ -268,35 +268,35 @@ internal static class SR // TypeDefIndex: 6734
 
 	// Methods
 
-	// RVA: 0x231B060 Offset: 0x2319660 VA: 0x18231B060
+	// RVA: 0x231B880 Offset: 0x2319E80 VA: 0x18231B880
 	private static ResourceManager get_ResourceManager() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	private static bool UsingResourceKeys() { }
 
-	// RVA: 0x231AC80 Offset: 0x2319280 VA: 0x18231AC80
+	// RVA: 0x231B4A0 Offset: 0x2319AA0 VA: 0x18231B4A0
 	internal static string GetResourceString(string resourceKey, string defaultString) { }
 
-	// RVA: 0x231AB30 Offset: 0x2319130 VA: 0x18231AB30
+	// RVA: 0x231B350 Offset: 0x2319950 VA: 0x18231B350
 	internal static string Format(string resourceFormat, object p1) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x231B180 Offset: 0x2319780 VA: 0x18231B180
+	// RVA: 0x231B9A0 Offset: 0x2319FA0 VA: 0x18231B9A0
 	internal static Type get_ResourceType() { }
 
-	// RVA: 0x231AFA0 Offset: 0x23195A0 VA: 0x18231AFA0
+	// RVA: 0x231B7C0 Offset: 0x2319DC0 VA: 0x18231B7C0
 	internal static string get_NotSupported_CannotCallEqualsOnSpan() { }
 
-	// RVA: 0x231B000 Offset: 0x2319600 VA: 0x18231B000
+	// RVA: 0x231B820 Offset: 0x2319E20 VA: 0x18231B820
 	internal static string get_NotSupported_CannotCallGetHashCodeOnSpan() { }
 
-	// RVA: 0x231AF40 Offset: 0x2319540 VA: 0x18231AF40
+	// RVA: 0x231B760 Offset: 0x2319D60 VA: 0x18231B760
 	internal static string get_Argument_InvalidTypeWithPointersNotSupported() { }
 
-	// RVA: 0x231AEE0 Offset: 0x23194E0 VA: 0x18231AEE0
+	// RVA: 0x231B700 Offset: 0x2319D00 VA: 0x18231B700
 	internal static string get_Argument_DestinationTooShort() { }
 
-	// RVA: 0x231AE60 Offset: 0x2319460 VA: 0x18231AE60
+	// RVA: 0x231B680 Offset: 0x2319C80 VA: 0x18231B680
 	private static void .cctor() { }
 
 }

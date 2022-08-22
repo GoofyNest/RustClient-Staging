@@ -5,22 +5,22 @@ public class UnityEvent : UnityEventBase // TypeDefIndex: 3640
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1834920 Offset: 0x1832F20 VA: 0x181834920
+	// RVA: 0x1822260 Offset: 0x1820860 VA: 0x181822260
 	public void .ctor() { }
 
-	// RVA: 0x18344E0 Offset: 0x1832AE0 VA: 0x1818344E0
+	// RVA: 0x1821E20 Offset: 0x1820420 VA: 0x181821E20
 	public void AddListener(UnityAction call) { }
 
-	// RVA: 0x1834590 Offset: 0x1832B90 VA: 0x181834590 Slot: 6
+	// RVA: 0x1821ED0 Offset: 0x18204D0 VA: 0x181821ED0 Slot: 6
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 
-	// RVA: 0x18345F0 Offset: 0x1832BF0 VA: 0x1818345F0 Slot: 7
+	// RVA: 0x1821F30 Offset: 0x1820530 VA: 0x181821F30 Slot: 7
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 
-	// RVA: 0x1834660 Offset: 0x1832C60 VA: 0x181834660
+	// RVA: 0x1821FA0 Offset: 0x18205A0 VA: 0x181821FA0
 	private static BaseInvokableCall GetDelegate(UnityAction action) { }
 
-	// RVA: 0x18346C0 Offset: 0x1832CC0 VA: 0x1818346C0
+	// RVA: 0x1822000 Offset: 0x1820600 VA: 0x181822000
 	public void Invoke() { }
 
 }

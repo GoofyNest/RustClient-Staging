@@ -5,22 +5,22 @@ internal sealed class LocalDataStore // TypeDefIndex: 146
 
 	// Methods
 
-	// RVA: 0x1674A40 Offset: 0x1673040 VA: 0x181674A40
+	// RVA: 0x1672630 Offset: 0x1670C30 VA: 0x181672630
 	public void .ctor(LocalDataStoreMgr mgr, int InitialCapacity) { }
 
-	// RVA: 0x1674440 Offset: 0x1672A40 VA: 0x181674440
+	// RVA: 0x1672030 Offset: 0x1670630 VA: 0x181672030
 	internal void Dispose() { }
 
-	// RVA: 0x16744D0 Offset: 0x1672AD0 VA: 0x1816744D0
+	// RVA: 0x16720C0 Offset: 0x16706C0 VA: 0x1816720C0
 	public object GetData(LocalDataStoreSlot slot) { }
 
-	// RVA: 0x16748D0 Offset: 0x1672ED0 VA: 0x1816748D0
+	// RVA: 0x16724C0 Offset: 0x1670AC0 VA: 0x1816724C0
 	public void SetData(LocalDataStoreSlot slot, object data) { }
 
-	// RVA: 0x1674470 Offset: 0x1672A70 VA: 0x181674470
+	// RVA: 0x1672060 Offset: 0x1670660 VA: 0x181672060
 	internal void FreeData(int slot, long cookie) { }
 
-	// RVA: 0x1674620 Offset: 0x1672C20 VA: 0x181674620
+	// RVA: 0x1672210 Offset: 0x1670810 VA: 0x181672210
 	private LocalDataStoreElement PopulateElement(LocalDataStoreSlot slot) { }
 
 }

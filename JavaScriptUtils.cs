@@ -6,19 +6,19 @@ internal static class JavaScriptUtils // TypeDefIndex: 5959
 
 	// Methods
 
-	// RVA: 0x1807FA0 Offset: 0x18065A0 VA: 0x181807FA0
+	// RVA: 0x17F53E0 Offset: 0x17F39E0 VA: 0x1817F53E0
 	private static void .cctor() { }
 
-	// RVA: 0x1807520 Offset: 0x1805B20 VA: 0x181807520
+	// RVA: 0x17F4960 Offset: 0x17F2F60 VA: 0x1817F4960
 	public static bool[] GetCharEscapeFlags(StringEscapeHandling stringEscapeHandling, char quoteChar) { }
 
-	// RVA: 0x1807600 Offset: 0x1805C00 VA: 0x181807600
+	// RVA: 0x17F4A40 Offset: 0x17F3040 VA: 0x1817F4A40
 	public static bool ShouldEscapeJavaScriptString(string s, bool[] charEscapeFlags) { }
 
-	// RVA: 0x18079A0 Offset: 0x1805FA0 VA: 0x1818079A0
+	// RVA: 0x17F4DE0 Offset: 0x17F33E0 VA: 0x1817F4DE0
 	public static void WriteEscapedJavaScriptString(TextWriter writer, string s, char delimiter, bool appendDelimiters, bool[] charEscapeFlags, StringEscapeHandling stringEscapeHandling, IArrayPool<char> bufferPool, ref char[] writeBuffer) { }
 
-	// RVA: 0x1807690 Offset: 0x1805C90 VA: 0x181807690
+	// RVA: 0x17F4AD0 Offset: 0x17F30D0 VA: 0x1817F4AD0
 	public static string ToEscapedJavaScriptString(string value, char delimiter, bool appendDelimiters, StringEscapeHandling stringEscapeHandling) { }
 
 }

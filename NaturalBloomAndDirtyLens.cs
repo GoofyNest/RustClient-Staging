@@ -29,19 +29,19 @@ public class NaturalBloomAndDirtyLens : MonoBehaviour // TypeDefIndex: 10098
 
 	// Methods
 
-	// RVA: 0x7CA630 Offset: 0x7C8C30 VA: 0x1807CA630
+	// RVA: 0x7E8A20 Offset: 0x7E7020 VA: 0x1807E8A20
 	private void OnDisable() { }
 
-	// RVA: 0x7CB240 Offset: 0x7C9840 VA: 0x1807CB240
+	// RVA: 0x7E9630 Offset: 0x7E7C30 VA: 0x1807E9630
 	private void UpdateMaterial(bool encoding) { }
 
-	// RVA: 0x7CA790 Offset: 0x7C8D90 VA: 0x1807CA790
+	// RVA: 0x7E8B80 Offset: 0x7E7180 VA: 0x1807E8B80
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x7CB950 Offset: 0x7C9F50 VA: 0x1807CB950
+	// RVA: 0x7E9D40 Offset: 0x7E8340 VA: 0x1807E9D40
 	public void .ctor() { }
 
-	// RVA: 0x7CB620 Offset: 0x7C9C20 VA: 0x1807CB620
+	// RVA: 0x7E9A10 Offset: 0x7E8010 VA: 0x1807E9A10
 	private static void .cctor() { }
 
 }

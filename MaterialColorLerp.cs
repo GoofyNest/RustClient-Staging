@@ -11,25 +11,25 @@ public class MaterialColorLerp : MonoBehaviour, IClientComponent // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x95A310 Offset: 0x958910 VA: 0x18095A310
+	// RVA: 0x95A810 Offset: 0x958E10 VA: 0x18095A810
 	public void OnEnable() { }
 
-	// RVA: 0x95A310 Offset: 0x958910 VA: 0x18095A310
+	// RVA: 0x95A810 Offset: 0x958E10 VA: 0x18095A810
 	private void Init() { }
 
-	// RVA: 0x95A3B0 Offset: 0x9589B0 VA: 0x18095A3B0
+	// RVA: 0x95A8B0 Offset: 0x958EB0 VA: 0x18095A8B0
 	public void SetColorScale(float scale) { }
 
-	// RVA: 0x95A710 Offset: 0x958D10 VA: 0x18095A710
+	// RVA: 0x95AC10 Offset: 0x959210 VA: 0x18095AC10
 	public void Update() { }
 
-	// RVA: 0x95A350 Offset: 0x958950 VA: 0x18095A350
+	// RVA: 0x95A850 Offset: 0x958E50 VA: 0x18095A850
 	public void RefreshRenderers() { }
 
-	// RVA: 0x95A460 Offset: 0x958A60 VA: 0x18095A460
+	// RVA: 0x95A960 Offset: 0x958F60 VA: 0x18095A960
 	private void UpdateMaterials(Color final) { }
 
-	// RVA: 0x95A860 Offset: 0x958E60 VA: 0x18095A860
+	// RVA: 0x95AD60 Offset: 0x959360 VA: 0x18095AD60
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

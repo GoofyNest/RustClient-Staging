@@ -20,16 +20,16 @@ public class LargeShredder : BaseEntity // TypeDefIndex: 9634
 
 	// Methods
 
-	// RVA: 0x5B12D0 Offset: 0x5AF8D0 VA: 0x1805B12D0 Slot: 16
+	// RVA: 0x5B1260 Offset: 0x5AF860 VA: 0x1805B1260 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x687700 Offset: 0x685D00 VA: 0x180687700
+	// RVA: 0x687690 Offset: 0x685C90 VA: 0x180687690
 	public void ClientUpdate() { }
 
-	// RVA: 0x687700 Offset: 0x685D00 VA: 0x180687700
+	// RVA: 0x687690 Offset: 0x685C90 VA: 0x180687690
 	private void Update() { }
 
-	// RVA: 0x687890 Offset: 0x685E90 VA: 0x180687890
+	// RVA: 0x687820 Offset: 0x685E20 VA: 0x180687820
 	public void .ctor() { }
 
 }

@@ -10,28 +10,28 @@ public class RustButtonGroup : RustControl // TypeDefIndex: 7014
 
 	// Methods
 
-	// RVA: 0xFCA880 Offset: 0xFC8E80 VA: 0x180FCA880
+	// RVA: 0xFCB320 Offset: 0xFC9920 VA: 0x180FCB320
 	public Option get_Value() { }
 
-	// RVA: 0xFCA290 Offset: 0xFC8890 VA: 0x180FCA290 Slot: 4
+	// RVA: 0xFCAD30 Offset: 0xFC9330 VA: 0x180FCAD30 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0xFCA700 Offset: 0xFC8D00 VA: 0x180FCA700
+	// RVA: 0xFCB1A0 Offset: 0xFC97A0 VA: 0x180FCB1A0
 	public void SetOption(int i) { }
 
-	// RVA: 0xFCA660 Offset: 0xFC8C60 VA: 0x180FCA660
+	// RVA: 0xFCB100 Offset: 0xFC9700 VA: 0x180FCB100
 	public void SetOption(string value) { }
 
-	// RVA: 0xFCA540 Offset: 0xFC8B40 VA: 0x180FCA540
+	// RVA: 0xFCAFE0 Offset: 0xFC95E0 VA: 0x180FCAFE0
 	private void ButtonPressed(int i) { }
 
-	// RVA: 0xFCA5F0 Offset: 0xFC8BF0 VA: 0x180FCA5F0
+	// RVA: 0xFCB090 Offset: 0xFC9690 VA: 0x180FCB090
 	public void SetOptionDefault() { }
 
-	// RVA: 0xFCA2B0 Offset: 0xFC88B0 VA: 0x180FCA2B0
+	// RVA: 0xFCAD50 Offset: 0xFC9350 VA: 0x180FCAD50
 	public void BuildContents() { }
 
-	// RVA: 0xFCA810 Offset: 0xFC8E10 VA: 0x180FCA810
+	// RVA: 0xFCB2B0 Offset: 0xFC98B0 VA: 0x180FCB2B0
 	public void .ctor() { }
 
 }
@@ -39,7 +39,7 @@ public class RustButtonGroup : RustControl // TypeDefIndex: 7014
 public class RustButtonGroup.ChangedEvent : UnityEvent<Option> // TypeDefIndex: 7015
 {	// Methods
 
-	// RVA: 0xFBE340 Offset: 0xFBC940 VA: 0x180FBE340
+	// RVA: 0xFBEDE0 Offset: 0xFBD3E0 VA: 0x180FBEDE0
 	public void .ctor() { }
 
 }
@@ -54,7 +54,7 @@ private sealed class RustButtonGroup.<>c__DisplayClass12_0 // TypeDefIndex: 7016
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD89B0 Offset: 0xFD6FB0 VA: 0x180FD89B0
+	// RVA: 0xFD9450 Offset: 0xFD7A50 VA: 0x180FD9450
 	internal void <BuildContents>b__0() { }
 
 }

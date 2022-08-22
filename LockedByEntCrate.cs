@@ -4,16 +4,16 @@ public class LockedByEntCrate : LootContainer // TypeDefIndex: 9601
 
 	// Methods
 
-	// RVA: 0x4FF170 Offset: 0x4FD770 VA: 0x1804FF170
+	// RVA: 0x4FF100 Offset: 0x4FD700 VA: 0x1804FF100
 	public void SetLockingEnt(GameObject ent) { }
 
-	// RVA: 0x4FF110 Offset: 0x4FD710 VA: 0x1804FF110
+	// RVA: 0x4FF0A0 Offset: 0x4FD6A0 VA: 0x1804FF0A0
 	public void SetLocked(bool isLocked) { }
 
-	// RVA: 0x4FF300 Offset: 0x4FD900 VA: 0x1804FF300
+	// RVA: 0x4FF290 Offset: 0x4FD890 VA: 0x1804FF290
 	public void Think() { }
 
-	// RVA: 0x4FF4F0 Offset: 0x4FDAF0 VA: 0x1804FF4F0
+	// RVA: 0x4FF480 Offset: 0x4FDA80 VA: 0x1804FF480
 	public void .ctor() { }
 
 }

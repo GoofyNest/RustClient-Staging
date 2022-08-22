@@ -1,7 +1,7 @@
 public class LaserDetector : BaseDetector // TypeDefIndex: 8702
 {	// Methods
 
-	// RVA: 0x6899D0 Offset: 0x687FD0 VA: 0x1806899D0
+	// RVA: 0x689960 Offset: 0x687F60 VA: 0x180689960
 	public void .ctor() { }
 
 }

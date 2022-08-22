@@ -12,10 +12,10 @@ public struct ContactPoint // TypeDefIndex: 3932
 
 	// Methods
 
-	// RVA: 0x212B90 Offset: 0x211F90 VA: 0x180212B90
+	// RVA: 0x211FC0 Offset: 0x2113C0 VA: 0x180211FC0
 	public Vector3 get_point() { }
 
-	// RVA: 0x212BB0 Offset: 0x211FB0 VA: 0x180212BB0
+	// RVA: 0x211FE0 Offset: 0x2113E0 VA: 0x180211FE0
 	public Vector3 get_normal() { }
 
 }

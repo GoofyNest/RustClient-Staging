@@ -7,10 +7,10 @@ public class BunnyEntry : MonoBehaviour // TypeDefIndex: 8787
 
 	// Methods
 
-	// RVA: 0x6F0460 Offset: 0x6EEA60 VA: 0x1806F0460
+	// RVA: 0x6F03F0 Offset: 0x6EE9F0 VA: 0x1806F03F0
 	public void UpdateText(string newName, int amount, bool isLocalPlayer = False) { }
 
-	// RVA: 0x6F03C0 Offset: 0x6EE9C0 VA: 0x1806F03C0
+	// RVA: 0x6F0350 Offset: 0x6EE950 VA: 0x1806F0350
 	public void Clear() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

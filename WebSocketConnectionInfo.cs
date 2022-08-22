@@ -26,18 +26,18 @@ public class WebSocketConnectionInfo : IWebSocketConnectionInfo // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x2209BE0 Offset: 0x22081E0 VA: 0x182209BE0
+	// RVA: 0x220A400 Offset: 0x2208A00 VA: 0x18220A400
 	public static WebSocketConnectionInfo Create(WebSocketHttpRequest request, IPAddress clientIp, int clientPort) { }
 
-	// RVA: 0x2209D40 Offset: 0x2208340 VA: 0x182209D40
+	// RVA: 0x220A560 Offset: 0x2208B60 VA: 0x18220A560
 	private void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	private void set_SubProtocol(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	private void set_Origin(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -45,27 +45,27 @@ public class WebSocketConnectionInfo : IWebSocketConnectionInfo // TypeDefIndex:
 	private void set_Host(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 4
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0 Slot: 4
 	public string get_Path() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	private void set_Path(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050 Slot: 5
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0 Slot: 5
 	public IPAddress get_ClientIpAddress() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	public void set_ClientIpAddress(IPAddress value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC74BD0 Offset: 0xC731D0 VA: 0x180C74BD0
+	// RVA: 0xC75070 Offset: 0xC73670 VA: 0x180C75070
 	public void set_ClientPort(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2209DB0 Offset: 0x22083B0 VA: 0x182209DB0
+	// RVA: 0x220A5D0 Offset: 0x2208BD0 VA: 0x18220A5D0
 	public void set_Id(Guid value) { }
 
 }

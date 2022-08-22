@@ -22,43 +22,43 @@ public class VisualizeTexelDensity : MonoBehaviour // TypeDefIndex: 11533
 
 	// Methods
 
-	// RVA: 0x7FFC90 Offset: 0x7FE290 VA: 0x1807FFC90
+	// RVA: 0x800220 Offset: 0x7FE820 VA: 0x180800220
 	public static VisualizeTexelDensity get_Instance() { }
 
-	// RVA: 0x7FE600 Offset: 0x7FCC00 VA: 0x1807FE600
+	// RVA: 0x7FEB90 Offset: 0x7FD190 VA: 0x1807FEB90
 	private void Awake() { }
 
-	// RVA: 0x7FEBC0 Offset: 0x7FD1C0 VA: 0x1807FEBC0
+	// RVA: 0x7FF150 Offset: 0x7FD750 VA: 0x1807FF150
 	private void OnEnable() { }
 
-	// RVA: 0x7FEB40 Offset: 0x7FD140 VA: 0x1807FEB40
+	// RVA: 0x7FF0D0 Offset: 0x7FD6D0 VA: 0x1807FF0D0
 	private void OnDisable() { }
 
-	// RVA: 0x7FE9E0 Offset: 0x7FCFE0 VA: 0x1807FE9E0
+	// RVA: 0x7FEF70 Offset: 0x7FD570 VA: 0x1807FEF70
 	private void LoadResources() { }
 
-	// RVA: 0x7FF4F0 Offset: 0x7FDAF0 VA: 0x1807FF4F0
+	// RVA: 0x7FFA80 Offset: 0x7FE080 VA: 0x1807FFA80
 	private void SafeDestroyViewTexelDensity() { }
 
-	// RVA: 0x7FF400 Offset: 0x7FDA00 VA: 0x1807FF400
+	// RVA: 0x7FF990 Offset: 0x7FDF90 VA: 0x1807FF990
 	private void SafeDestroyViewTexelDensityRT() { }
 
-	// RVA: 0x7FF680 Offset: 0x7FDC80 VA: 0x1807FF680
+	// RVA: 0x7FFC10 Offset: 0x7FE210 VA: 0x1807FFC10
 	private void UpdateViewTexelDensity(bool screenResized) { }
 
-	// RVA: 0x7FE680 Offset: 0x7FCC80 VA: 0x1807FE680
+	// RVA: 0x7FEC10 Offset: 0x7FD210 VA: 0x1807FEC10
 	private bool CheckScreenResized(int width, int height) { }
 
-	// RVA: 0x7FF290 Offset: 0x7FD890 VA: 0x1807FF290
+	// RVA: 0x7FF820 Offset: 0x7FDE20 VA: 0x1807FF820
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x7FE6A0 Offset: 0x7FCCA0 VA: 0x1807FE6A0
+	// RVA: 0x7FEC30 Offset: 0x7FD230 VA: 0x1807FEC30
 	private void DrawGUIText(float x, float y, Vector2 size, string text, GUIStyle fontStyle) { }
 
-	// RVA: 0x7FED80 Offset: 0x7FD380 VA: 0x1807FED80
+	// RVA: 0x7FF310 Offset: 0x7FD910 VA: 0x1807FF310
 	private void OnGUI() { }
 
-	// RVA: 0x7FFC30 Offset: 0x7FE230 VA: 0x1807FFC30
+	// RVA: 0x8001C0 Offset: 0x7FE7C0 VA: 0x1808001C0
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

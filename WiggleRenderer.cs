@@ -7,13 +7,13 @@ public class WiggleRenderer : PostProcessEffectRenderer<Wiggle> // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x8F5D60 Offset: 0x8F4360 VA: 0x1808F5D60 Slot: 4
+	// RVA: 0x8F6270 Offset: 0x8F4870 VA: 0x1808F6270 Slot: 4
 	public override void Init() { }
 
-	// RVA: 0x8F5DB0 Offset: 0x8F43B0 VA: 0x1808F5DB0 Slot: 8
+	// RVA: 0x8F62C0 Offset: 0x8F48C0 VA: 0x1808F62C0 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x8F6040 Offset: 0x8F4640 VA: 0x1808F6040
+	// RVA: 0x8F6550 Offset: 0x8F4B50 VA: 0x1808F6550
 	public void .ctor() { }
 
 }

@@ -41,34 +41,34 @@ public class NpcWalkAnimation : MonoBehaviour, IClientComponent // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x9D50A0 Offset: 0x9D36A0 VA: 0x1809D50A0
+	// RVA: 0x9D5590 Offset: 0x9D3B90 VA: 0x1809D5590
 	public void Start() { }
 
-	// RVA: 0x9D4EB0 Offset: 0x9D34B0 VA: 0x1809D4EB0
+	// RVA: 0x9D53A0 Offset: 0x9D39A0 VA: 0x1809D53A0
 	private void OnEnable() { }
 
-	// RVA: 0x9D4E30 Offset: 0x9D3430 VA: 0x1809D4E30
+	// RVA: 0x9D5320 Offset: 0x9D3920 VA: 0x1809D5320
 	private void OnDisable() { }
 
-	// RVA: 0x9D49E0 Offset: 0x9D2FE0 VA: 0x1809D49E0
+	// RVA: 0x9D4ED0 Offset: 0x9D34D0 VA: 0x1809D4ED0
 	public Quaternion GetRotation() { }
 
-	// RVA: 0x9D4F30 Offset: 0x9D3530 VA: 0x1809D4F30
+	// RVA: 0x9D5420 Offset: 0x9D3A20 VA: 0x1809D5420
 	private void QueuedGroundAlign() { }
 
-	// RVA: 0x9D52C0 Offset: 0x9D38C0 VA: 0x1809D52C0
+	// RVA: 0x9D57B0 Offset: 0x9D3DB0 VA: 0x1809D57B0
 	private void Update() { }
 
-	// RVA: 0x9D4AA0 Offset: 0x9D30A0 VA: 0x1809D4AA0
+	// RVA: 0x9D4F90 Offset: 0x9D3590 VA: 0x1809D4F90
 	public bool GroundSample(Vector3 origin, out RaycastHit hit) { }
 
-	// RVA: 0x9D4BD0 Offset: 0x9D31D0 VA: 0x1809D4BD0
+	// RVA: 0x9D50C0 Offset: 0x9D36C0 VA: 0x1809D50C0
 	public void LateUpdate() { }
 
-	// RVA: 0x9D64D0 Offset: 0x9D4AD0 VA: 0x1809D64D0
+	// RVA: 0x9D69C0 Offset: 0x9D4FC0 VA: 0x1809D69C0
 	public void .ctor() { }
 
-	// RVA: 0x9D63C0 Offset: 0x9D49C0 VA: 0x1809D63C0
+	// RVA: 0x9D68B0 Offset: 0x9D4EB0 VA: 0x1809D68B0
 	private static void .cctor() { }
 
 }
@@ -76,13 +76,13 @@ public class NpcWalkAnimation : MonoBehaviour, IClientComponent // TypeDefIndex:
 public class NpcWalkAnimation.NPCWalkWorkQueue : PersistentObjectWorkQueue<NpcWalkAnimation> // TypeDefIndex: 9119
 {	// Methods
 
-	// RVA: 0x9D08E0 Offset: 0x9CEEE0 VA: 0x1809D08E0 Slot: 5
+	// RVA: 0x9D0DD0 Offset: 0x9CF3D0 VA: 0x1809D0DD0 Slot: 5
 	protected override void RunJob(NpcWalkAnimation entity) { }
 
-	// RVA: 0x9D0920 Offset: 0x9CEF20 VA: 0x1809D0920 Slot: 4
+	// RVA: 0x9D0E10 Offset: 0x9CF410 VA: 0x1809D0E10 Slot: 4
 	protected override bool ShouldAdd(NpcWalkAnimation entity) { }
 
-	// RVA: 0x9D09C0 Offset: 0x9CEFC0 VA: 0x1809D09C0
+	// RVA: 0x9D0EB0 Offset: 0x9CF4B0 VA: 0x1809D0EB0
 	public void .ctor() { }
 
 }

@@ -77,203 +77,203 @@ public class PhoneController : EntityComponent<BaseEntity> // TypeDefIndex: 9451
 
 	// Methods
 
-	// RVA: 0x8711C0 Offset: 0x86F7C0 VA: 0x1808711C0
+	// RVA: 0x88C8E0 Offset: 0x88AEE0 VA: 0x18088C8E0
 	public void PlayVoicemail(uint id) { }
 
-	// RVA: 0x8719D0 Offset: 0x86FFD0 VA: 0x1808719D0
+	// RVA: 0x88D0F0 Offset: 0x88B6F0 VA: 0x18088D0F0
 	public void StopVoicemail() { }
 
-	// RVA: 0x8701D0 Offset: 0x86E7D0 VA: 0x1808701D0
+	// RVA: 0x88B8F0 Offset: 0x889EF0 VA: 0x18088B8F0
 	public void DeleteVoicemail(uint id) { }
 
-	// RVA: 0x86FE40 Offset: 0x86E440 VA: 0x18086FE40
+	// RVA: 0x88B560 Offset: 0x889B60 VA: 0x18088B560
 	public void ClientToggleVoicemail(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x871F40 Offset: 0x870540 VA: 0x180871F40
+	// RVA: 0x88D660 Offset: 0x88BC60 VA: 0x18088D660
 	public int get_MaxVoicemailSlots() { }
 
-	// RVA: 0x872110 Offset: 0x870710 VA: 0x180872110
+	// RVA: 0x88D830 Offset: 0x88BE30 VA: 0x18088D830
 	public BasePlayer get_currentPlayer() { }
 
-	// RVA: 0x8722B0 Offset: 0x8708B0 VA: 0x1808722B0
+	// RVA: 0x88D9D0 Offset: 0x88BFD0 VA: 0x18088D9D0
 	public void set_currentPlayer(BasePlayer value) { }
 
-	// RVA: 0x872190 Offset: 0x870790 VA: 0x180872190
+	// RVA: 0x88D8B0 Offset: 0x88BEB0 VA: 0x18088D8B0
 	private bool get_isServer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872240 Offset: 0x870840 VA: 0x180872240
+	// RVA: 0x88D960 Offset: 0x88BF60 VA: 0x18088D960
 	public int get_lastDialedNumber() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8722C0 Offset: 0x8708C0 VA: 0x1808722C0
+	// RVA: 0x88D9E0 Offset: 0x88BFE0 VA: 0x18088D9E0
 	public void set_lastDialedNumber(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872250 Offset: 0x870850 VA: 0x180872250
+	// RVA: 0x88D970 Offset: 0x88BF70 VA: 0x18088D970
 	public PhoneDirectory get_savedNumbers() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8722D0 Offset: 0x8708D0 VA: 0x1808722D0
+	// RVA: 0x88D9F0 Offset: 0x88BFF0 VA: 0x18088D9F0
 	public void set_savedNumbers(PhoneDirectory value) { }
 
-	// RVA: 0x871FE0 Offset: 0x8705E0 VA: 0x180871FE0
+	// RVA: 0x88D700 Offset: 0x88BD00 VA: 0x18088D700
 	public BaseEntity get_ParentEntity() { }
 
-	// RVA: 0x872020 Offset: 0x870620 VA: 0x180872020
+	// RVA: 0x88D740 Offset: 0x88BD40 VA: 0x18088D740
 	private Cassette get_cachedCassette() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872100 Offset: 0x870700 VA: 0x180872100
+	// RVA: 0x88D820 Offset: 0x88BE20 VA: 0x18088D820
 	public Telephone.CallState get_clientCallState() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8722A0 Offset: 0x8708A0 VA: 0x1808722A0
+	// RVA: 0x88D9C0 Offset: 0x88BFC0 VA: 0x18088D9C0
 	private void set_clientCallState(Telephone.CallState value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x871E40 Offset: 0x870440 VA: 0x180871E40
+	// RVA: 0x88D560 Offset: 0x88BB60 VA: 0x18088D560
 	public PhoneDialler get_CurrentDialog() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872290 Offset: 0x870890 VA: 0x180872290
+	// RVA: 0x88D9B0 Offset: 0x88BFB0 VA: 0x18088D9B0
 	private void set_CurrentDialog(PhoneDialler value) { }
 
-	// RVA: 0x871E00 Offset: 0x870400 VA: 0x180871E00
+	// RVA: 0x88D520 Offset: 0x88BB20 VA: 0x18088D520
 	public float get_CallDuration() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x701920 Offset: 0x6FFF20 VA: 0x180701920
+	// RVA: 0x701870 Offset: 0x6FFE70 VA: 0x180701870
 	public PhoneDirectory get_currentDirectory() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7019B0 Offset: 0x6FFFB0 VA: 0x1807019B0
+	// RVA: 0x701900 Offset: 0x6FFF00 VA: 0x180701900
 	private void set_currentDirectory(PhoneDirectory value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x871E30 Offset: 0x870430 VA: 0x180871E30
+	// RVA: 0x88D550 Offset: 0x88BB50 VA: 0x18088D550
 	public int get_ConnectedCallPhoneNumber() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872280 Offset: 0x870880 VA: 0x180872280
+	// RVA: 0x88D9A0 Offset: 0x88BFA0 VA: 0x18088D9A0
 	private void set_ConnectedCallPhoneNumber(int value) { }
 
-	// RVA: 0x870DA0 Offset: 0x86F3A0 VA: 0x180870DA0
+	// RVA: 0x88C4C0 Offset: 0x88AAC0 VA: 0x18088C4C0
 	public void OpenDialler(BasePlayer player) { }
 
-	// RVA: 0x86F300 Offset: 0x86D900 VA: 0x18086F300
+	// RVA: 0x88AA20 Offset: 0x889020 VA: 0x18088AA20
 	public void AnswerPhone(BasePlayer player) { }
 
-	// RVA: 0x86F480 Offset: 0x86DA80 VA: 0x18086F480
+	// RVA: 0x88ABA0 Offset: 0x8891A0 VA: 0x18088ABA0
 	public void AnswerViaUI() { }
 
-	// RVA: 0x870980 Offset: 0x86EF80 VA: 0x180870980
+	// RVA: 0x88C0A0 Offset: 0x88A6A0 VA: 0x18088C0A0
 	public void OnClosedDialler(BasePlayer player) { }
 
-	// RVA: 0x870D30 Offset: 0x86F330 VA: 0x180870D30
+	// RVA: 0x88C450 Offset: 0x88AA50 VA: 0x18088C450
 	public void OnLocalPlayerCancelled() { }
 
-	// RVA: 0x871D40 Offset: 0x870340 VA: 0x180871D40
+	// RVA: 0x88D460 Offset: 0x88BA60 VA: 0x18088D460
 	public void UpdatePhoneNumber(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x8714C0 Offset: 0x86FAC0 VA: 0x1808714C0
+	// RVA: 0x88CBE0 Offset: 0x88B1E0 VA: 0x18088CBE0
 	public void SetClientState(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x871AC0 Offset: 0x8700C0 VA: 0x180871AC0
+	// RVA: 0x88D1E0 Offset: 0x88B7E0 VA: 0x18088D1E0
 	private void ToggleRingingLight() { }
 
-	// RVA: 0x870130 Offset: 0x86E730 VA: 0x180870130
+	// RVA: 0x88B850 Offset: 0x889E50 VA: 0x18088B850
 	public void ControllerLateUpdate() { }
 
-	// RVA: 0x870240 Offset: 0x86E840 VA: 0x180870240
+	// RVA: 0x88B960 Offset: 0x889F60 VA: 0x18088B960
 	public void DialNumber(int number) { }
 
-	// RVA: 0x86F5B0 Offset: 0x86DBB0 VA: 0x18086F5B0
+	// RVA: 0x88ACD0 Offset: 0x8892D0 VA: 0x18088ACD0
 	public void ClientOnDialFailed(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x86FBA0 Offset: 0x86E1A0 VA: 0x18086FBA0
+	// RVA: 0x88B2C0 Offset: 0x8898C0 VA: 0x18088B2C0
 	public void ClientReceiveAnsweringData(BaseEntity.RPCMessage msg, Cassette cachedCassette) { }
 
-	// RVA: 0x86F8C0 Offset: 0x86DEC0 VA: 0x18086F8C0
+	// RVA: 0x88AFE0 Offset: 0x8895E0 VA: 0x18088AFE0
 	public void ClientPlayAnsweringMessage(BaseEntity.RPCMessage msg) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x871DF0 Offset: 0x8703F0 VA: 0x180871DF0
+	// RVA: 0x88D510 Offset: 0x88BB10 VA: 0x18088D510
 	public TimeSince get_AnsweringMessageStartTime() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872270 Offset: 0x870870 VA: 0x180872270
+	// RVA: 0x88D990 Offset: 0x88BF90 VA: 0x18088D990
 	private void set_AnsweringMessageStartTime(TimeSince value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x871DE0 Offset: 0x8703E0 VA: 0x180871DE0
+	// RVA: 0x88D500 Offset: 0x88BB00 VA: 0x18088D500
 	public float get_AnsweringMachineMessageLength() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x872260 Offset: 0x870860 VA: 0x180872260
+	// RVA: 0x88D980 Offset: 0x88BF80 VA: 0x18088D980
 	private void set_AnsweringMachineMessageLength(float value) { }
 
-	// RVA: 0x870F20 Offset: 0x86F520 VA: 0x180870F20
+	// RVA: 0x88C640 Offset: 0x88AC40 VA: 0x18088C640
 	private void PlayAnsweringMessage(AudioClip clip, bool canLeaveVoicemail) { }
 
-	// RVA: 0x870540 Offset: 0x86EB40 VA: 0x180870540
+	// RVA: 0x88BC60 Offset: 0x88A260 VA: 0x18088BC60
 	public void InitiateVoicemailRecord() { }
 
-	// RVA: 0x8702B0 Offset: 0x86E8B0 VA: 0x1808702B0
+	// RVA: 0x88B9D0 Offset: 0x889FD0 VA: 0x18088B9D0
 	public void FinishVoicemailRecording() { }
 
-	// RVA: 0x86F4E0 Offset: 0x86DAE0 VA: 0x18086F4E0
+	// RVA: 0x88AC00 Offset: 0x889200 VA: 0x18088AC00
 	public void ClientHangUp() { }
 
-	// RVA: 0x870D00 Offset: 0x86F300 VA: 0x180870D00
+	// RVA: 0x88C420 Offset: 0x88AA20 VA: 0x18088C420
 	public void OnIncomingCallDuringCall() { }
 
-	// RVA: 0x870D50 Offset: 0x86F350 VA: 0x180870D50
+	// RVA: 0x88C470 Offset: 0x88AA70 VA: 0x18088C470
 	public void OnReceivedVoice(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x871A30 Offset: 0x870030 VA: 0x180871A30
+	// RVA: 0x88D150 Offset: 0x88B750 VA: 0x18088D150
 	public void SubmitNewName(string newName) { }
 
-	// RVA: 0x871410 Offset: 0x86FA10 VA: 0x180871410
+	// RVA: 0x88CB30 Offset: 0x88B130 VA: 0x18088CB30
 	public bool RequestPhoneDirectory(int page) { }
 
-	// RVA: 0x871230 Offset: 0x86F830 VA: 0x180871230
+	// RVA: 0x88C950 Offset: 0x88AF50 VA: 0x18088C950
 	public void ReceivePhoneDirectory(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x870020 Offset: 0x86E620 VA: 0x180870020
+	// RVA: 0x88B740 Offset: 0x889D40 VA: 0x18088B740
 	public void Client_AddSavedNumber(uint number, string savedPhoneName) { }
 
-	// RVA: 0x8700C0 Offset: 0x86E6C0 VA: 0x1808700C0
+	// RVA: 0x88B7E0 Offset: 0x889DE0 VA: 0x18088B7E0
 	public void Client_RemoveSavedNumber(uint number) { }
 
-	// RVA: 0x870820 Offset: 0x86EE20 VA: 0x180870820
+	// RVA: 0x88BF40 Offset: 0x88A540 VA: 0x18088BF40
 	public void OnClientLoaded() { }
 
-	// RVA: 0x871E50 Offset: 0x870450 VA: 0x180871E50
+	// RVA: 0x88D570 Offset: 0x88BB70 VA: 0x18088D570
 	public bool get_IsDead() { }
 
-	// RVA: 0x8706F0 Offset: 0x86ECF0 VA: 0x1808706F0
+	// RVA: 0x88BE10 Offset: 0x88A410 VA: 0x18088BE10
 	private bool IsPowered() { }
 
-	// RVA: 0x8707E0 Offset: 0x86EDE0 VA: 0x1808707E0
+	// RVA: 0x88BF00 Offset: 0x88A500 VA: 0x18088BF00
 	public bool IsSavedContactValid(string contactName, int contactNumber) { }
 
-	// RVA: 0x870B50 Offset: 0x86F150 VA: 0x180870B50
+	// RVA: 0x88C270 Offset: 0x88A870 VA: 0x18088C270
 	public void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x871D80 Offset: 0x870380 VA: 0x180871D80
+	// RVA: 0x88D4A0 Offset: 0x88BAA0 VA: 0x18088D4A0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x871C80 Offset: 0x870280 VA: 0x180871C80
+	// RVA: 0x88D3A0 Offset: 0x88B9A0 VA: 0x18088D3A0
 	private void <ClientToggleVoicemail>b__3_0(AudioClip clip, bool success) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x871BC0 Offset: 0x8701C0 VA: 0x180871BC0
+	// RVA: 0x88D2E0 Offset: 0x88B8E0 VA: 0x18088D2E0
 	private void <ClientReceiveAnsweringData>b__93_0(AudioClip clip, bool success) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x871B00 Offset: 0x870100 VA: 0x180871B00
+	// RVA: 0x88D220 Offset: 0x88B820 VA: 0x18088D220
 	private void <ClientPlayAnsweringMessage>b__94_0(AudioClip clip, bool success) { }
 
 }

@@ -12,19 +12,19 @@ internal class WorkshopItemButton : MonoBehaviour // TypeDefIndex: 7742
 
 	// Methods
 
-	// RVA: 0xE81290 Offset: 0xE7F890 VA: 0x180E81290
+	// RVA: 0xE81D40 Offset: 0xE80340 VA: 0x180E81D40
 	internal void Init(IWorkshopContent item) { }
 
-	// RVA: 0xE81670 Offset: 0xE7FC70 VA: 0x180E81670
+	// RVA: 0xE82120 Offset: 0xE80720 VA: 0x180E82120
 	public void Update() { }
 
-	// RVA: 0xE81570 Offset: 0xE7FB70 VA: 0x180E81570
+	// RVA: 0xE82020 Offset: 0xE80620 VA: 0x180E82020
 	public void OpenWebpage() { }
 
-	// RVA: 0xE815D0 Offset: 0xE7FBD0 VA: 0x180E815D0
+	// RVA: 0xE82080 Offset: 0xE80680 VA: 0x180E82080
 	public void StartEditing() { }
 
-	// RVA: 0xE81620 Offset: 0xE7FC20 VA: 0x180E81620
+	// RVA: 0xE820D0 Offset: 0xE806D0 VA: 0x180E820D0
 	public void StartViewing() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

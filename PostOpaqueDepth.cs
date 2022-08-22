@@ -16,37 +16,37 @@ public class PostOpaqueDepth : MonoBehaviour // TypeDefIndex: 10689
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public RenderTexture get_PostOpaque() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public Material get_CopyDepthMat() { }
 
-	// RVA: 0x99C120 Offset: 0x99A720 VA: 0x18099C120
+	// RVA: 0x99C610 Offset: 0x99AC10 VA: 0x18099C610
 	private void OnEnable() { }
 
-	// RVA: 0x99BF70 Offset: 0x99A570 VA: 0x18099BF70
+	// RVA: 0x99C460 Offset: 0x99AA60 VA: 0x18099C460
 	private void OnDisable() { }
 
-	// RVA: 0x99B8C0 Offset: 0x999EC0 VA: 0x18099B8C0
+	// RVA: 0x99BDB0 Offset: 0x99A3B0 VA: 0x18099BDB0
 	private void CheckCommandBuffer() { }
 
-	// RVA: 0x99BA40 Offset: 0x99A040 VA: 0x18099BA40
+	// RVA: 0x99BF30 Offset: 0x99A530 VA: 0x18099BF30
 	private void CleanupCommandBuffer() { }
 
-	// RVA: 0x99BB00 Offset: 0x99A100 VA: 0x18099BB00
+	// RVA: 0x99BFF0 Offset: 0x99A5F0 VA: 0x18099BFF0
 	private void CreateMaterial() { }
 
-	// RVA: 0x99BBA0 Offset: 0x99A1A0 VA: 0x18099BBA0
+	// RVA: 0x99C090 Offset: 0x99A690 VA: 0x18099C090
 	private void DestroyMaterial() { }
 
-	// RVA: 0x99BC50 Offset: 0x99A250 VA: 0x18099BC50
+	// RVA: 0x99C140 Offset: 0x99A740 VA: 0x18099C140
 	private void DestroyRenderTextures() { }
 
-	// RVA: 0x99B540 Offset: 0x999B40 VA: 0x18099B540
+	// RVA: 0x99BA30 Offset: 0x99A030 VA: 0x18099BA30
 	private bool CheckBindRenderTextures() { }
 
-	// RVA: 0x99BDA0 Offset: 0x99A3A0 VA: 0x18099BDA0
+	// RVA: 0x99C290 Offset: 0x99A890 VA: 0x18099C290
 	private void FillCommandBuffer(CommandBuffer cb) { }
 
-	// RVA: 0x99C200 Offset: 0x99A800 VA: 0x18099C200
+	// RVA: 0x99C6F0 Offset: 0x99ACF0 VA: 0x18099C6F0
 	public void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

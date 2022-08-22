@@ -7,10 +7,10 @@ public class PlaceDecorValueNoise : ProceduralComponent // TypeDefIndex: 10533
 
 	// Methods
 
-	// RVA: 0x90FBF0 Offset: 0x90E1F0 VA: 0x18090FBF0 Slot: 5
+	// RVA: 0x910100 Offset: 0x90E700 VA: 0x180910100 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x910360 Offset: 0x90E960 VA: 0x180910360
+	// RVA: 0x910870 Offset: 0x90EE70 VA: 0x180910870
 	public void .ctor() { }
 
 }

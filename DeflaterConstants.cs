@@ -13,7 +13,7 @@ internal class DeflaterConstants // TypeDefIndex: 5657
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13AC020 Offset: 0x13AA620 VA: 0x1813AC020
+	// RVA: 0x13AB120 Offset: 0x13A9720 VA: 0x1813AB120
 	private static void .cctor() { }
 
 }

@@ -7,13 +7,13 @@ public class OptionAttribute : Attribute // TypeDefIndex: 7028
 
 	// Methods
 
-	// RVA: 0xFC6C00 Offset: 0xFC5200 VA: 0x180FC6C00
+	// RVA: 0xFC76A0 Offset: 0xFC5CA0 VA: 0x180FC76A0
 	public void .ctor(string token, string english, string value, bool isdefault = False, Icons icon = 0) { }
 
-	// RVA: 0xFC6B50 Offset: 0xFC5150 VA: 0x180FC6B50
+	// RVA: 0xFC75F0 Offset: 0xFC5BF0 VA: 0x180FC75F0
 	public void .ctor(Icons icon, string value, bool isdefault = False) { }
 
-	// RVA: 0xFC6AE0 Offset: 0xFC50E0 VA: 0x180FC6AE0
+	// RVA: 0xFC7580 Offset: 0xFC5B80 VA: 0x180FC7580
 	public Option GetOption() { }
 
 }

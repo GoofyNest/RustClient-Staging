@@ -1,13 +1,13 @@
 internal static class BeforeRenderHelper // TypeDefIndex: 3381
 {	// Fields
-	private static List<BeforeRenderHelper.OrderBlock> s_OrderBlocks; // 0x2B111E0
+	private static List<BeforeRenderHelper.OrderBlock> s_OrderBlocks; // 0x144CE
 
 	// Methods
 
-	// RVA: 0x181FA50 Offset: 0x181E050 VA: 0x18181FA50
+	// RVA: 0x180CE90 Offset: 0x180B490 VA: 0x18180CE90
 	public static void Invoke() { }
 
-	// RVA: 0x181FC00 Offset: 0x181E200 VA: 0x18181FC00
+	// RVA: 0x180D040 Offset: 0x180B640 VA: 0x18180D040
 	private static void .cctor() { }
 
 }

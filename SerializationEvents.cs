@@ -10,28 +10,28 @@ internal class SerializationEvents // TypeDefIndex: 1054
 
 	// Methods
 
-	// RVA: 0x12A6440 Offset: 0x12A4A40 VA: 0x1812A6440
+	// RVA: 0x12A6AE0 Offset: 0x12A50E0 VA: 0x1812A6AE0
 	private List<MethodInfo> GetMethodsWithAttribute(Type attribute, Type t) { }
 
-	// RVA: 0x12A6D00 Offset: 0x12A5300 VA: 0x1812A6D00
+	// RVA: 0x12A73A0 Offset: 0x12A59A0 VA: 0x1812A73A0
 	internal void .ctor(Type t) { }
 
-	// RVA: 0x12A6E30 Offset: 0x12A5430 VA: 0x1812A6E30
+	// RVA: 0x12A74D0 Offset: 0x12A5AD0 VA: 0x1812A74D0
 	internal bool get_HasOnSerializingEvents() { }
 
-	// RVA: 0x12A6AB0 Offset: 0x12A50B0 VA: 0x1812A6AB0
+	// RVA: 0x12A7150 Offset: 0x12A5750 VA: 0x1812A7150
 	internal void InvokeOnSerializing(object obj, StreamingContext context) { }
 
-	// RVA: 0x12A6860 Offset: 0x12A4E60 VA: 0x1812A6860
+	// RVA: 0x12A6F00 Offset: 0x12A5500 VA: 0x1812A6F00
 	internal void InvokeOnDeserializing(object obj, StreamingContext context) { }
 
-	// RVA: 0x12A6610 Offset: 0x12A4C10 VA: 0x1812A6610
+	// RVA: 0x12A6CB0 Offset: 0x12A52B0 VA: 0x1812A6CB0
 	internal void InvokeOnDeserialized(object obj, StreamingContext context) { }
 
-	// RVA: 0x12A6200 Offset: 0x12A4800 VA: 0x1812A6200
+	// RVA: 0x12A68A0 Offset: 0x12A4EA0 VA: 0x1812A68A0
 	internal SerializationEventHandler AddOnSerialized(object obj, SerializationEventHandler handler) { }
 
-	// RVA: 0x12A5FC0 Offset: 0x12A45C0 VA: 0x1812A5FC0
+	// RVA: 0x12A6660 Offset: 0x12A4C60 VA: 0x1812A6660
 	internal SerializationEventHandler AddOnDeserialized(object obj, SerializationEventHandler handler) { }
 
 }

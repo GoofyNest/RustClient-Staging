@@ -1,46 +1,46 @@
 internal static class X509Helper // TypeDefIndex: 1020
 {	// Fields
-	private static INativeCertificateHelper nativeHelper; // 0x13F00
+	private static INativeCertificateHelper nativeHelper; // 0x2B10360
 
 	// Methods
 
-	// RVA: 0x17CCF60 Offset: 0x17CB560 VA: 0x1817CCF60
+	// RVA: 0x17CAAB0 Offset: 0x17C90B0 VA: 0x1817CAAB0
 	internal static void InstallNativeHelper(INativeCertificateHelper helper) { }
 
-	// RVA: 0x17CCC30 Offset: 0x17CB230 VA: 0x1817CCC30
+	// RVA: 0x17CA780 Offset: 0x17C8D80 VA: 0x1817CA780
 	private static X509CertificateImpl Import(byte[] rawData) { }
 
-	// RVA: 0x17CCE30 Offset: 0x17CB430 VA: 0x1817CCE30
+	// RVA: 0x17CA980 Offset: 0x17C8F80 VA: 0x1817CA980
 	public static X509CertificateImpl InitFromCertificate(X509Certificate cert) { }
 
-	// RVA: 0x17CCD20 Offset: 0x17CB320 VA: 0x1817CCD20
+	// RVA: 0x17CA870 Offset: 0x17C8E70 VA: 0x1817CA870
 	public static X509CertificateImpl InitFromCertificate(X509CertificateImpl impl) { }
 
-	// RVA: 0x14DB880 Offset: 0x14D9E80 VA: 0x1814DB880
+	// RVA: 0x14DA950 Offset: 0x14D8F50 VA: 0x1814DA950
 	public static bool IsValid(X509CertificateImpl impl) { }
 
-	// RVA: 0x17CD0C0 Offset: 0x17CB6C0 VA: 0x1817CD0C0
+	// RVA: 0x17CAC10 Offset: 0x17C9210 VA: 0x1817CAC10
 	internal static void ThrowIfContextInvalid(X509CertificateImpl impl) { }
 
-	// RVA: 0x17CC710 Offset: 0x17CAD10 VA: 0x1817CC710
+	// RVA: 0x17CA260 Offset: 0x17C8860 VA: 0x1817CA260
 	internal static Exception GetInvalidContextException() { }
 
-	// RVA: 0x17CC870 Offset: 0x17CAE70 VA: 0x1817CC870
+	// RVA: 0x17CA3C0 Offset: 0x17C89C0 VA: 0x1817CA3C0
 	internal static X509Certificate ImportPkcs12(byte[] rawData, string password) { }
 
-	// RVA: 0x17CCFB0 Offset: 0x17CB5B0 VA: 0x1817CCFB0
+	// RVA: 0x17CAB00 Offset: 0x17C9100 VA: 0x1817CAB00
 	private static byte[] PEM(string type, byte[] data) { }
 
-	// RVA: 0x17CC560 Offset: 0x17CAB60 VA: 0x1817CC560
+	// RVA: 0x17CA0B0 Offset: 0x17C86B0 VA: 0x1817CA0B0
 	private static byte[] ConvertData(byte[] data) { }
 
-	// RVA: 0x17CC780 Offset: 0x17CAD80 VA: 0x1817CC780
+	// RVA: 0x17CA2D0 Offset: 0x17C88D0 VA: 0x1817CA2D0
 	private static X509CertificateImpl ImportCore(byte[] rawData) { }
 
-	// RVA: 0x17CCC40 Offset: 0x17CB240 VA: 0x1817CCC40
+	// RVA: 0x17CA790 Offset: 0x17C8D90 VA: 0x1817CA790
 	public static X509CertificateImpl Import(byte[] rawData, string password, X509KeyStorageFlags keyStorageFlags) { }
 
-	// RVA: 0x17CD120 Offset: 0x17CB720 VA: 0x1817CD120
+	// RVA: 0x17CAC70 Offset: 0x17C9270 VA: 0x1817CAC70
 	public static string ToHexString(byte[] data) { }
 
 }

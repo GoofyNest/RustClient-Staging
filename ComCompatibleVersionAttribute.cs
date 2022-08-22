@@ -7,7 +7,7 @@ public sealed class ComCompatibleVersionAttribute : Attribute // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0xFE0D40 Offset: 0xFDF340 VA: 0x180FE0D40
+	// RVA: 0xFE17E0 Offset: 0xFDFDE0 VA: 0x180FE17E0
 	public void .ctor(int major, int minor, int build, int revision) { }
 
 }

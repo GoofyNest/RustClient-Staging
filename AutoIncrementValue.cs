@@ -50,7 +50,7 @@ internal abstract class AutoIncrementValue // TypeDefIndex: 4182
 	// RVA: -1 Offset: -1 Slot: 13
 	internal abstract void MoveAfter();
 
-	// RVA: 0x1268540 Offset: 0x1266B40 VA: 0x181268540
+	// RVA: 0x1268BE0 Offset: 0x12671E0 VA: 0x181268BE0
 	internal AutoIncrementValue Clone() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

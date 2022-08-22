@@ -16,32 +16,32 @@ public class FlameTurret : StorageContainer // TypeDefIndex: 8569
 
 	// Methods
 
-	// RVA: 0x790020 Offset: 0x78E620 VA: 0x180790020 Slot: 35
+	// RVA: 0x78FF30 Offset: 0x78E530 VA: 0x18078FF30 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x738290 Offset: 0x736890 VA: 0x180738290
+	// RVA: 0x7381E0 Offset: 0x7367E0 VA: 0x1807381E0
 	public bool IsTriggered() { }
 
-	// RVA: 0x78FFE0 Offset: 0x78E5E0 VA: 0x18078FFE0
+	// RVA: 0x78FEF0 Offset: 0x78E4F0 VA: 0x18078FEF0
 	public Vector3 GetEyePosition() { }
 
-	// RVA: 0x7906D0 Offset: 0x78ECD0 VA: 0x1807906D0
+	// RVA: 0x7905E0 Offset: 0x78EBE0 VA: 0x1807905E0
 	public void Update() { }
 
-	// RVA: 0x78FF90 Offset: 0x78E590 VA: 0x18078FF90 Slot: 134
+	// RVA: 0x78FEA0 Offset: 0x78E4A0 VA: 0x18078FEA0 Slot: 134
 	public override bool CanPickup(BasePlayer player) { }
 
-	// RVA: 0x78FFD0 Offset: 0x78E5D0 VA: 0x18078FFD0
+	// RVA: 0x78FEE0 Offset: 0x78E4E0 VA: 0x18078FEE0
 	public void ClientThink() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x78FF30 Offset: 0x78E530 VA: 0x18078FF30
+	// RVA: 0x78FE40 Offset: 0x78E440 VA: 0x18078FE40
 	public void CLIENT_ReceiveAimDir(BaseEntity.RPCMessage rpc) { }
 
-	// RVA: 0x790480 Offset: 0x78EA80 VA: 0x180790480
+	// RVA: 0x790390 Offset: 0x78E990 VA: 0x180790390
 	public void UpdateAiming() { }
 
-	// RVA: 0x790700 Offset: 0x78ED00 VA: 0x180790700
+	// RVA: 0x790610 Offset: 0x78EC10 VA: 0x180790610
 	public void .ctor() { }
 
 }

@@ -13,10 +13,10 @@ public struct SubsurfaceProfileData // TypeDefIndex: 10662
 
 	// Methods
 
-	// RVA: 0x7A4070 Offset: 0x7A2670 VA: 0x1807A4070
+	// RVA: 0x7C2470 Offset: 0x7C0A70 VA: 0x1807C2470
 	public static SubsurfaceProfileData get_Default() { }
 
-	// RVA: 0x7A4120 Offset: 0x7A2720 VA: 0x1807A4120
+	// RVA: 0x7C2520 Offset: 0x7C0B20 VA: 0x1807C2520
 	public static SubsurfaceProfileData get_Invalid() { }
 
 }

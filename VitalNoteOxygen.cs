@@ -30,19 +30,19 @@ public class VitalNoteOxygen : MonoBehaviour, IClientComponent, IVitalNotice // 
 
 	// Methods
 
-	// RVA: 0x800970 Offset: 0x7FEF70 VA: 0x180800970 Slot: 4
+	// RVA: 0x800F00 Offset: 0x7FF500 VA: 0x180800F00 Slot: 4
 	public void Refresh() { }
 
-	// RVA: 0x800920 Offset: 0x7FEF20 VA: 0x180800920
+	// RVA: 0x800EB0 Offset: 0x7FF4B0 VA: 0x180800EB0
 	private void Hide() { }
 
-	// RVA: 0x800EF0 Offset: 0x7FF4F0 VA: 0x180800EF0 Slot: 6
+	// RVA: 0x801480 Offset: 0x7FFA80 VA: 0x180801480 Slot: 6
 	protected virtual void Show() { }
 
-	// RVA: 0x768B70 Offset: 0x767170 VA: 0x180768B70 Slot: 5
+	// RVA: 0x768AC0 Offset: 0x7670C0 VA: 0x180768AC0 Slot: 5
 	public bool get_IsActive() { }
 
-	// RVA: 0x800F40 Offset: 0x7FF540 VA: 0x180800F40
+	// RVA: 0x8014D0 Offset: 0x7FFAD0 VA: 0x1808014D0
 	public void .ctor() { }
 
 }

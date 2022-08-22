@@ -11,31 +11,31 @@ public class TraceListenerCollection : IList, ICollection, IEnumerable // TypeDe
 
 	// Methods
 
-	// RVA: 0x1737B00 Offset: 0x1736100 VA: 0x181737B00
+	// RVA: 0x17356C0 Offset: 0x1733CC0 VA: 0x1817356C0
 	internal void .ctor() { }
 
-	// RVA: 0xB19300 Offset: 0xB17900 VA: 0x180B19300 Slot: 16
+	// RVA: 0xB197D0 Offset: 0xB17DD0 VA: 0x180B197D0 Slot: 16
 	public int get_Count() { }
 
-	// RVA: 0x1736D10 Offset: 0x1735310 VA: 0x181736D10
+	// RVA: 0x17348D0 Offset: 0x1732ED0 VA: 0x1817348D0
 	public int Add(TraceListener listener) { }
 
-	// RVA: 0x1736E50 Offset: 0x1735450 VA: 0x181736E50 Slot: 8
+	// RVA: 0x1734A10 Offset: 0x1733010 VA: 0x181734A10 Slot: 8
 	public void Clear() { }
 
-	// RVA: 0xBC86D0 Offset: 0xBC6CD0 VA: 0x180BC86D0 Slot: 18
+	// RVA: 0xBC8BA0 Offset: 0xBC71A0 VA: 0x180BC8BA0 Slot: 18
 	public IEnumerator GetEnumerator() { }
 
-	// RVA: 0x1736EB0 Offset: 0x17354B0 VA: 0x181736EB0
+	// RVA: 0x1734A70 Offset: 0x1733070 VA: 0x181734A70
 	internal void InitializeListener(TraceListener listener) { }
 
-	// RVA: 0x1737000 Offset: 0x1735600 VA: 0x181737000 Slot: 14
+	// RVA: 0x1734BC0 Offset: 0x17331C0 VA: 0x181734BC0 Slot: 14
 	public void RemoveAt(int index) { }
 
-	// RVA: 0xBC8550 Offset: 0xBC6B50 VA: 0x180BC8550 Slot: 4
+	// RVA: 0xBC8A20 Offset: 0xBC7020 VA: 0x180BC8A20 Slot: 4
 	private object System.Collections.IList.get_Item(int index) { }
 
-	// RVA: 0x1737900 Offset: 0x1735F00 VA: 0x181737900 Slot: 5
+	// RVA: 0x17354C0 Offset: 0x1733AC0 VA: 0x1817354C0 Slot: 5
 	private void System.Collections.IList.set_Item(int index, object value) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 9
@@ -44,25 +44,25 @@ public class TraceListenerCollection : IList, ICollection, IEnumerable // TypeDe
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 10
 	private bool System.Collections.IList.get_IsFixedSize() { }
 
-	// RVA: 0x1737260 Offset: 0x1735860 VA: 0x181737260 Slot: 6
+	// RVA: 0x1734E20 Offset: 0x1733420 VA: 0x181734E20 Slot: 6
 	private int System.Collections.IList.Add(object value) { }
 
-	// RVA: 0x146DC50 Offset: 0x146C250 VA: 0x18146DC50 Slot: 7
+	// RVA: 0x146CD20 Offset: 0x146B320 VA: 0x18146CD20 Slot: 7
 	private bool System.Collections.IList.Contains(object value) { }
 
-	// RVA: 0x15D74B0 Offset: 0x15D5AB0 VA: 0x1815D74B0 Slot: 11
+	// RVA: 0x15D6580 Offset: 0x15D4B80 VA: 0x1815D6580 Slot: 11
 	private int System.Collections.IList.IndexOf(object value) { }
 
-	// RVA: 0x1737520 Offset: 0x1735B20 VA: 0x181737520 Slot: 12
+	// RVA: 0x17350E0 Offset: 0x17336E0 VA: 0x1817350E0 Slot: 12
 	private void System.Collections.IList.Insert(int index, object value) { }
 
-	// RVA: 0x17377D0 Offset: 0x1735DD0 VA: 0x1817377D0 Slot: 13
+	// RVA: 0x1735390 Offset: 0x1733990 VA: 0x181735390 Slot: 13
 	private void System.Collections.IList.Remove(object value) { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 17
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 17
 	private object System.Collections.ICollection.get_SyncRoot() { }
 
-	// RVA: 0x1737130 Offset: 0x1735730 VA: 0x181737130 Slot: 15
+	// RVA: 0x1734CF0 Offset: 0x17332F0 VA: 0x181734CF0 Slot: 15
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 
 }

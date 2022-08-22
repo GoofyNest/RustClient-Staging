@@ -10,10 +10,10 @@ public struct SpinWait // TypeDefIndex: 764
 
 	// Methods
 
-	// RVA: 0x1F0AC0 Offset: 0x1EFEC0 VA: 0x1801F0AC0
+	// RVA: 0x1F0EE0 Offset: 0x1F02E0 VA: 0x1801F0EE0
 	public bool get_NextSpinWillYield() { }
 
-	// RVA: 0x1F0AB0 Offset: 0x1EFEB0 VA: 0x1801F0AB0
+	// RVA: 0x1F0ED0 Offset: 0x1F02D0 VA: 0x1801F0ED0
 	public void SpinOnce() { }
 
 }

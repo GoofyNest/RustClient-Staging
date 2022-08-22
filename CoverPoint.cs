@@ -26,66 +26,66 @@ public class CoverPoint // TypeDefIndex: 12126
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public CoverPointVolume get_Volume() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	private void set_Volume(CoverPointVolume value) { }
 
-	// RVA: 0x4BC500 Offset: 0x4BAB00 VA: 0x1804BC500
+	// RVA: 0x4BC490 Offset: 0x4BAA90 VA: 0x1804BC490
 	public Vector3 get_Position() { }
 
-	// RVA: 0x4BC600 Offset: 0x4BAC00 VA: 0x1804BC600
+	// RVA: 0x4BC590 Offset: 0x4BAB90 VA: 0x1804BC590
 	public void set_Position(Vector3 value) { }
 
-	// RVA: 0x4BC450 Offset: 0x4BAA50 VA: 0x1804BC450
+	// RVA: 0x4BC3E0 Offset: 0x4BA9E0 VA: 0x1804BC3E0
 	public Vector3 get_Normal() { }
 
-	// RVA: 0x4BC5F0 Offset: 0x4BABF0 VA: 0x1804BC5F0
+	// RVA: 0x4BC580 Offset: 0x4BAB80 VA: 0x1804BC580
 	public void set_Normal(Vector3 value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	public BaseEntity get_ReservedFor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
+	// RVA: 0x4BC5A0 Offset: 0x4BABA0 VA: 0x1804BC5A0
 	public void set_ReservedFor(BaseEntity value) { }
 
-	// RVA: 0x4BC3F0 Offset: 0x4BA9F0 VA: 0x1804BC3F0
+	// RVA: 0x4BC380 Offset: 0x4BA980 VA: 0x1804BC380
 	public bool get_IsReserved() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC3E0 Offset: 0x4BA9E0 VA: 0x1804BC3E0
+	// RVA: 0x4BC370 Offset: 0x4BA970 VA: 0x1804BC370
 	public bool get_IsCompromised() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5E0 Offset: 0x4BABE0 VA: 0x1804BC5E0
+	// RVA: 0x4BC570 Offset: 0x4BAB70 VA: 0x1804BC570
 	public void set_IsCompromised(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
+	// RVA: 0x4BC550 Offset: 0x4BAB50 VA: 0x1804BC550
 	public float get_Score() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC620 Offset: 0x4BAC20 VA: 0x1804BC620
+	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
 	public void set_Score(float value) { }
 
-	// RVA: 0x4BC030 Offset: 0x4BA630 VA: 0x1804BC030
+	// RVA: 0x4BBFC0 Offset: 0x4BA5C0 VA: 0x1804BBFC0
 	public bool IsValidFor(BaseEntity entity) { }
 
-	// RVA: 0x4BC390 Offset: 0x4BA990 VA: 0x1804BC390
+	// RVA: 0x4BC320 Offset: 0x4BA920 VA: 0x1804BC320
 	public void .ctor(CoverPointVolume volume, float score) { }
 
-	// RVA: 0x4BBF30 Offset: 0x4BA530 VA: 0x1804BBF30
+	// RVA: 0x4BBEC0 Offset: 0x4BA4C0 VA: 0x1804BBEC0
 	public void CoverIsCompromised(float cooldown) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xDF880 Offset: 0xDEC80 VA: 0x1800DF880
-	// RVA: 0x4BC310 Offset: 0x4BA910 VA: 0x1804BC310
+	// RVA: 0x4BC2A0 Offset: 0x4BA8A0 VA: 0x1804BC2A0
 	private IEnumerator StartCooldown(float cooldown) { }
 
-	// RVA: 0x4BC100 Offset: 0x4BA700 VA: 0x1804BC100
+	// RVA: 0x4BC090 Offset: 0x4BA690 VA: 0x1804BC090
 	public bool ProvidesCoverFromPoint(Vector3 point, float arcThreshold) { }
 
 }
@@ -120,7 +120,7 @@ private sealed class CoverPoint.<StartCooldown>d__33 : IEnumerator<object>, IEnu
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x4D18E0 Offset: 0x4CFEE0 VA: 0x1804D18E0 Slot: 6
+	// RVA: 0x4D1870 Offset: 0x4CFE70 VA: 0x1804D1870 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -128,7 +128,7 @@ private sealed class CoverPoint.<StartCooldown>d__33 : IEnumerator<object>, IEnu
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D19A0 Offset: 0x4CFFA0 VA: 0x1804D19A0 Slot: 8
+	// RVA: 0x4D1930 Offset: 0x4CFF30 VA: 0x1804D1930 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

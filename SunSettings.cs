@@ -4,10 +4,10 @@ public class SunSettings : MonoBehaviour, IClientComponent // TypeDefIndex: 9241
 
 	// Methods
 
-	// RVA: 0x7A5AF0 Offset: 0x7A40F0 VA: 0x1807A5AF0
+	// RVA: 0x7C3EF0 Offset: 0x7C24F0 VA: 0x1807C3EF0
 	private void OnEnable() { }
 
-	// RVA: 0x7A5B40 Offset: 0x7A4140 VA: 0x1807A5B40
+	// RVA: 0x7C3F40 Offset: 0x7C2540 VA: 0x1807C3F40
 	private void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

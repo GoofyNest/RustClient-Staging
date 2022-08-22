@@ -5,29 +5,29 @@ internal class UnityLogWriter : TextWriter // TypeDefIndex: 3459
 	// Methods
 
 	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2180CA0 Offset: 0x217F2A0 VA: 0x182180CA0
+	// RVA: 0x21814C0 Offset: 0x217FAC0 VA: 0x1821814C0
 	public static void WriteStringToUnityLog(string s) { }
 
 	[FreeFunctionAttribute] // RVA: 0x855F0 Offset: 0x849F0 VA: 0x1800855F0
-	// RVA: 0x2180C60 Offset: 0x217F260 VA: 0x182180C60
+	// RVA: 0x2181480 Offset: 0x217FA80 VA: 0x182181480
 	private static void WriteStringToUnityLogImpl(string s) { }
 
-	// RVA: 0x2180BC0 Offset: 0x217F1C0 VA: 0x182180BC0
+	// RVA: 0x21813E0 Offset: 0x217F9E0 VA: 0x1821813E0
 	public static void Init() { }
 
-	// RVA: 0x2180E20 Offset: 0x217F420 VA: 0x182180E20 Slot: 11
+	// RVA: 0x2181640 Offset: 0x217FC40 VA: 0x182181640 Slot: 11
 	public override Encoding get_Encoding() { }
 
-	// RVA: 0x2180CE0 Offset: 0x217F2E0 VA: 0x182180CE0 Slot: 12
+	// RVA: 0x2181500 Offset: 0x217FB00 VA: 0x182181500 Slot: 12
 	public override void Write(char value) { }
 
-	// RVA: 0x2180D80 Offset: 0x217F380 VA: 0x182180D80 Slot: 15
+	// RVA: 0x21815A0 Offset: 0x217FBA0 VA: 0x1821815A0 Slot: 15
 	public override void Write(string s) { }
 
-	// RVA: 0x2180D30 Offset: 0x217F330 VA: 0x182180D30 Slot: 14
+	// RVA: 0x2181550 Offset: 0x217FB50 VA: 0x182181550 Slot: 14
 	public override void Write(char[] buffer, int index, int count) { }
 
-	// RVA: 0x2180DC0 Offset: 0x217F3C0 VA: 0x182180DC0
+	// RVA: 0x21815E0 Offset: 0x217FBE0 VA: 0x1821815E0
 	public void .ctor() { }
 
 }

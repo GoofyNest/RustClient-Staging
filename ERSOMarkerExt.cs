@@ -30,22 +30,22 @@ public class ERSOMarkerExt : ScriptableObject // TypeDefIndex: 7237
 
 	// Methods
 
-	// RVA: 0xA59A70 Offset: 0xA58070 VA: 0x180A59A70
+	// RVA: 0xA59F40 Offset: 0xA58540 VA: 0x180A59F40
 	public void Init(SideObject so, bool flag) { }
 
-	// RVA: 0xA59BA0 Offset: 0xA581A0 VA: 0x180A59BA0
+	// RVA: 0xA5A070 Offset: 0xA58670 VA: 0x180A5A070
 	public void OODOOOQQCO(ERSOMarkerExt source) { }
 
-	// RVA: 0xA59930 Offset: 0xA57F30 VA: 0x180A59930
+	// RVA: 0xA59E00 Offset: 0xA58400 VA: 0x180A59E00
 	public void Copy(ERSOMarkerExt source) { }
 
-	// RVA: 0xA59960 Offset: 0xA57F60 VA: 0x180A59960
+	// RVA: 0xA59E30 Offset: 0xA58430 VA: 0x180A59E30
 	public static ERSOMarkerExt CreateInstance(SideObject so, bool flag) { }
 
-	// RVA: 0xA59B50 Offset: 0xA58150 VA: 0x180A59B50
+	// RVA: 0xA5A020 Offset: 0xA58620 VA: 0x180A5A020
 	public void ODCOCDOOCQ(SideObject so) { }
 
-	// RVA: 0xA59E50 Offset: 0xA58450 VA: 0x180A59E50
+	// RVA: 0xA5A320 Offset: 0xA58920 VA: 0x180A5A320
 	public void .ctor() { }
 
 }

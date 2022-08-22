@@ -7,34 +7,34 @@ public class CapsuleCollider : Collider // TypeDefIndex: 3924
 
 	// Methods
 
-	// RVA: 0x2296C50 Offset: 0x2295250 VA: 0x182296C50
+	// RVA: 0x2297470 Offset: 0x2295A70 VA: 0x182297470
 	public Vector3 get_center() { }
 
-	// RVA: 0x2296DB0 Offset: 0x22953B0 VA: 0x182296DB0
+	// RVA: 0x22975D0 Offset: 0x2295BD0 VA: 0x1822975D0
 	public void set_center(Vector3 value) { }
 
-	// RVA: 0x2296D20 Offset: 0x2295320 VA: 0x182296D20
+	// RVA: 0x2297540 Offset: 0x2295B40 VA: 0x182297540
 	public float get_radius() { }
 
-	// RVA: 0x2296E90 Offset: 0x2295490 VA: 0x182296E90
+	// RVA: 0x22976B0 Offset: 0x2295CB0 VA: 0x1822976B0
 	public void set_radius(float value) { }
 
-	// RVA: 0x2296CE0 Offset: 0x22952E0 VA: 0x182296CE0
+	// RVA: 0x2297500 Offset: 0x2295B00 VA: 0x182297500
 	public float get_height() { }
 
-	// RVA: 0x2296E40 Offset: 0x2295440 VA: 0x182296E40
+	// RVA: 0x2297660 Offset: 0x2295C60 VA: 0x182297660
 	public void set_height(float value) { }
 
-	// RVA: 0x2296CA0 Offset: 0x22952A0 VA: 0x182296CA0
+	// RVA: 0x22974C0 Offset: 0x2295AC0 VA: 0x1822974C0
 	public int get_direction() { }
 
-	// RVA: 0x2296E00 Offset: 0x2295400 VA: 0x182296E00
+	// RVA: 0x2297620 Offset: 0x2295C20 VA: 0x182297620
 	public void set_direction(int value) { }
 
-	// RVA: 0x2296C00 Offset: 0x2295200 VA: 0x182296C00
+	// RVA: 0x2297420 Offset: 0x2295A20 VA: 0x182297420
 	private void get_center_Injected(out Vector3 ret) { }
 
-	// RVA: 0x2296D60 Offset: 0x2295360 VA: 0x182296D60
+	// RVA: 0x2297580 Offset: 0x2295B80 VA: 0x182297580
 	private void set_center_Injected(ref Vector3 value) { }
 
 }

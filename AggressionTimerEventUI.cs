@@ -1,13 +1,13 @@
 public class AggressionTimerEventUI : BaseEventUI // TypeDefIndex: 10784
 {	// Methods
 
-	// RVA: 0xAA29A0 Offset: 0xAA0FA0 VA: 0x180AA29A0 Slot: 5
+	// RVA: 0xAA2E70 Offset: 0xAA1470 VA: 0x180AA2E70 Slot: 5
 	public override AIEventData Save() { }
 
-	// RVA: 0xAA2930 Offset: 0xAA0F30 VA: 0x180AA2930 Slot: 6
+	// RVA: 0xAA2E00 Offset: 0xAA1400 VA: 0x180AA2E00 Slot: 6
 	public override void Load(AIEventData data) { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

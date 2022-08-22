@@ -11,7 +11,7 @@ public class PointERV3 // TypeDefIndex: 7302
 
 	// Methods
 
-	// RVA: 0xD05920 Offset: 0xD03F20 VA: 0x180D05920
+	// RVA: 0xD05DC0 Offset: 0xD043C0 VA: 0x180D05DC0
 	public void .ctor() { }
 
 }

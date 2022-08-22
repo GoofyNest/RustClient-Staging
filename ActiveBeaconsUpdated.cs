@@ -1,6 +1,6 @@
 internal struct ActiveBeaconsUpdated_t : ICallbackData // TypeDefIndex: 5360
 {	// Fields
-	public static int _datasize; // 0x13980
+	public static int _datasize; // 0x2B10380
 
 	// Properties
 	public int DataSize { get; }
@@ -8,13 +8,13 @@ internal struct ActiveBeaconsUpdated_t : ICallbackData // TypeDefIndex: 5360
 
 	// Methods
 
-	// RVA: 0x1E40A0 Offset: 0x1E34A0 VA: 0x1801E40A0 Slot: 5
+	// RVA: 0x1E44C0 Offset: 0x1E38C0 VA: 0x1801E44C0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E4090 Offset: 0x1E3490 VA: 0x1801E4090 Slot: 4
+	// RVA: 0x1E44B0 Offset: 0x1E38B0 VA: 0x1801E44B0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x136AE00 Offset: 0x1369400 VA: 0x18136AE00
+	// RVA: 0x1369F00 Offset: 0x1368500 VA: 0x181369F00
 	private static void .cctor() { }
 
 }

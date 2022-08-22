@@ -12,7 +12,7 @@ public class TriggerVehiclePush : TriggerBase, IServerComponent // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x4D3D80 Offset: 0x4D2380 VA: 0x1804D3D80
+	// RVA: 0x4D3D10 Offset: 0x4D2310 VA: 0x1804D3D10
 	public void .ctor() { }
 
 }

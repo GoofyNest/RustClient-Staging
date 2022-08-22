@@ -1,34 +1,34 @@
 public class InvokeHandler : InvokeHandlerBase<InvokeHandler> // TypeDefIndex: 5566
 {	// Methods
 
-	// RVA: 0x198C700 Offset: 0x198AD00 VA: 0x18198C700 Slot: 8
+	// RVA: 0x1979B00 Offset: 0x1978100 VA: 0x181979B00 Slot: 8
 	protected override float GetTime() { }
 
-	// RVA: 0x198C500 Offset: 0x198AB00 VA: 0x18198C500
+	// RVA: 0x1979900 Offset: 0x1977F00 VA: 0x181979900
 	public static void FindInvokes(Behaviour sender, List<InvokeAction> list) { }
 
-	// RVA: 0x198C380 Offset: 0x198A980 VA: 0x18198C380
+	// RVA: 0x1979780 Offset: 0x1977D80 VA: 0x181979780
 	public static int Count() { }
 
-	// RVA: 0x198B6F0 Offset: 0x1989CF0 VA: 0x18198B6F0
+	// RVA: 0x1978AF0 Offset: 0x19770F0 VA: 0x181978AF0
 	public static bool IsInvoking(Behaviour sender, Action action) { }
 
-	// RVA: 0x198B410 Offset: 0x1989A10 VA: 0x18198B410
+	// RVA: 0x1978810 Offset: 0x1976E10 VA: 0x181978810
 	public static void Invoke(Behaviour sender, Action action, float time) { }
 
-	// RVA: 0x198B290 Offset: 0x1989890 VA: 0x18198B290
+	// RVA: 0x1978690 Offset: 0x1976C90 VA: 0x181978690
 	public static void InvokeRepeating(Behaviour sender, Action action, float time, float repeat) { }
 
-	// RVA: 0x198AFB0 Offset: 0x19895B0 VA: 0x18198AFB0
+	// RVA: 0x19783B0 Offset: 0x19769B0 VA: 0x1819783B0
 	public static void InvokeRandomized(Behaviour sender, Action action, float time, float repeat, float random) { }
 
-	// RVA: 0x198AE50 Offset: 0x1989450 VA: 0x18198AE50
+	// RVA: 0x1978250 Offset: 0x1976850 VA: 0x181978250
 	public static void CancelInvoke(Behaviour sender, Action action) { }
 
-	// RVA: 0x198C460 Offset: 0x198AA60 VA: 0x18198C460
+	// RVA: 0x1979860 Offset: 0x1977E60 VA: 0x181979860
 	private static void CreateInstance() { }
 
-	// RVA: 0x198C710 Offset: 0x198AD10 VA: 0x18198C710
+	// RVA: 0x1979B10 Offset: 0x1978110 VA: 0x181979B10
 	public void .ctor() { }
 
 }

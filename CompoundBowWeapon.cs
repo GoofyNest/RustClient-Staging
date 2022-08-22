@@ -20,49 +20,49 @@ public class CompoundBowWeapon : BowWeapon // TypeDefIndex: 8561
 
 	// Methods
 
-	// RVA: 0x6D23D0 Offset: 0x6D09D0 VA: 0x1806D23D0 Slot: 35
+	// RVA: 0x6D2360 Offset: 0x6D0960 VA: 0x1806D2360 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x6D2B70 Offset: 0x6D1170 VA: 0x1806D2B70
+	// RVA: 0x6D2B00 Offset: 0x6D1100 VA: 0x1806D2B00
 	public void UpdateMovementPenalty(float delta) { }
 
-	// RVA: 0x6D1E20 Offset: 0x6D0420 VA: 0x1806D1E20 Slot: 165
+	// RVA: 0x6D1DB0 Offset: 0x6D03B0 VA: 0x1806D1DB0 Slot: 165
 	public override void DidAttackClientside() { }
 
-	// RVA: 0x6D2090 Offset: 0x6D0690 VA: 0x1806D2090 Slot: 138
+	// RVA: 0x6D2020 Offset: 0x6D0620 VA: 0x1806D2020 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x6D1FF0 Offset: 0x6D05F0 VA: 0x1806D1FF0 Slot: 143
+	// RVA: 0x6D1F80 Offset: 0x6D0580 VA: 0x1806D1F80 Slot: 143
 	public override void OnHolstered() { }
 
-	// RVA: 0x6D25C0 Offset: 0x6D0BC0 VA: 0x1806D25C0
+	// RVA: 0x6D2550 Offset: 0x6D0B50 VA: 0x1806D2550
 	public void SetStringHeld(bool isHeld) { }
 
-	// RVA: 0x6D24C0 Offset: 0x6D0AC0 VA: 0x1806D24C0 Slot: 144
+	// RVA: 0x6D2450 Offset: 0x6D0A50 VA: 0x1806D2450 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
-	// RVA: 0x6D1EC0 Offset: 0x6D04C0 VA: 0x1806D1EC0
+	// RVA: 0x6D1E50 Offset: 0x6D0450 VA: 0x1806D1E50
 	public float GetLastPlayerMovementTime() { }
 
-	// RVA: 0x6D1F30 Offset: 0x6D0530 VA: 0x1806D1F30
+	// RVA: 0x6D1EC0 Offset: 0x6D04C0 VA: 0x1806D1EC0
 	public float GetStringBonusScale() { }
 
-	// RVA: 0x6D1E40 Offset: 0x6D0440 VA: 0x1806D1E40 Slot: 160
+	// RVA: 0x6D1DD0 Offset: 0x6D03D0 VA: 0x1806D1DD0 Slot: 160
 	public override float GetDamageScale(bool getMax = False) { }
 
-	// RVA: 0x6D1E80 Offset: 0x6D0480 VA: 0x1806D1E80 Slot: 161
+	// RVA: 0x6D1E10 Offset: 0x6D0410 VA: 0x1806D1E10 Slot: 161
 	public override float GetDistanceScale(bool getMax = False) { }
 
-	// RVA: 0x6D1EF0 Offset: 0x6D04F0 VA: 0x1806D1EF0 Slot: 162
+	// RVA: 0x6D1E80 Offset: 0x6D0480 VA: 0x1806D1E80 Slot: 162
 	public override float GetProjectileVelocityScale(bool getMax = False) { }
 
-	// RVA: 0x6D2630 Offset: 0x6D0C30 VA: 0x1806D2630
+	// RVA: 0x6D25C0 Offset: 0x6D0BC0 VA: 0x1806D25C0
 	private void StopDrawSounds() { }
 
-	// RVA: 0x6D2760 Offset: 0x6D0D60 VA: 0x1806D2760
+	// RVA: 0x6D26F0 Offset: 0x6D0CF0 VA: 0x1806D26F0
 	private void UpdateDrawSounds() { }
 
-	// RVA: 0x6D2D00 Offset: 0x6D1300 VA: 0x1806D2D00
+	// RVA: 0x6D2C90 Offset: 0x6D1290 VA: 0x1806D2C90
 	public void .ctor() { }
 
 }

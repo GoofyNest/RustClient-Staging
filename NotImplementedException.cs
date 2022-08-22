@@ -1,13 +1,13 @@
 public class NotImplementedException : SystemException // TypeDefIndex: 275
 {	// Methods
 
-	// RVA: 0x1679B80 Offset: 0x1678180 VA: 0x181679B80
+	// RVA: 0x1677770 Offset: 0x1675D70 VA: 0x181677770
 	public void .ctor() { }
 
-	// RVA: 0x1679BE0 Offset: 0x16781E0 VA: 0x181679BE0
+	// RVA: 0x16777D0 Offset: 0x1675DD0 VA: 0x1816777D0
 	public void .ctor(string message) { }
 
-	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
+	// RVA: 0xFDDEB0 Offset: 0xFDC4B0 VA: 0x180FDDEB0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

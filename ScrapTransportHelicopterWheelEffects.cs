@@ -7,7 +7,7 @@ public class ScrapTransportHelicopterWheelEffects : MonoBehaviour, IServerCompon
 
 	// Methods
 
-	// RVA: 0x4A29B0 Offset: 0x4A0FB0 VA: 0x1804A29B0
+	// RVA: 0x4A2940 Offset: 0x4A0F40 VA: 0x1804A2940
 	public void .ctor() { }
 
 }

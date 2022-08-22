@@ -5,7 +5,7 @@ public class JunkpileNPCSpawner : NPCSpawner // TypeDefIndex: 10003
 
 	// Methods
 
-	// RVA: 0x67D990 Offset: 0x67BF90 VA: 0x18067D990
+	// RVA: 0x67D920 Offset: 0x67BF20 VA: 0x18067D920
 	public void .ctor() { }
 
 }

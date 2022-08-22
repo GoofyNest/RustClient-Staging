@@ -9,26 +9,26 @@ public sealed class ReaderWriterLock : CriticalFinalizerObject // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1498920 Offset: 0x1496F20 VA: 0x181498920
+	// RVA: 0x14979F0 Offset: 0x1495FF0 VA: 0x1814979F0
 	public void .ctor() { }
 
-	// RVA: 0x1498680 Offset: 0x1496C80 VA: 0x181498680 Slot: 1
+	// RVA: 0x1497750 Offset: 0x1495D50 VA: 0x181497750 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1498670 Offset: 0x1496C70 VA: 0x181498670
+	// RVA: 0x1497740 Offset: 0x1495D40 VA: 0x181497740
 	public void AcquireWriterLock(int millisecondsTimeout) { }
 
-	// RVA: 0x1498460 Offset: 0x1496A60 VA: 0x181498460
+	// RVA: 0x1497530 Offset: 0x1495B30 VA: 0x181497530
 	private void AcquireWriterLock(int millisecondsTimeout, int initialLockCount) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x1498710 Offset: 0x1496D10 VA: 0x181498710
+	// RVA: 0x14977E0 Offset: 0x1495DE0 VA: 0x1814977E0
 	public void ReleaseWriterLock() { }
 
-	// RVA: 0x14988C0 Offset: 0x1496EC0 VA: 0x1814988C0
+	// RVA: 0x1497990 Offset: 0x1495F90 VA: 0x181497990
 	private void ReleaseWriterLock(int releaseCount) { }
 
-	// RVA: 0x14986E0 Offset: 0x1496CE0 VA: 0x1814986E0
+	// RVA: 0x14977B0 Offset: 0x1495DB0 VA: 0x1814977B0
 	private bool HasWriterLock() { }
 
 }

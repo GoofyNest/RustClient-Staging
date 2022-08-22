@@ -24,73 +24,73 @@ public class SkinnedMultiMesh : MonoBehaviour, IPrefabPreProcess // TypeDefIndex
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
+	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
 	public List<Renderer> get_Renderers() { }
 
-	// RVA: 0x5A0060 Offset: 0x59E660 VA: 0x1805A0060 Slot: 4
+	// RVA: 0x59FFF0 Offset: 0x59E5F0 VA: 0x18059FFF0 Slot: 4
 	public void PreProcess(IPrefabProcessor process, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x59E730 Offset: 0x59CD30 VA: 0x18059E730
+	// RVA: 0x59E6C0 Offset: 0x59CCC0 VA: 0x18059E6C0
 	public void Clear() { }
 
-	// RVA: 0x5A1690 Offset: 0x59FC90 VA: 0x1805A1690
+	// RVA: 0x5A1620 Offset: 0x59FC20 VA: 0x1805A1620
 	public long WorkoutPartsHash() { }
 
-	// RVA: 0x5A0120 Offset: 0x59E720 VA: 0x1805A0120
+	// RVA: 0x5A00B0 Offset: 0x59E6B0 VA: 0x1805A00B0
 	public void RebuildModel(PlayerModel model, bool reset) { }
 
-	// RVA: 0x59FA70 Offset: 0x59E070 VA: 0x18059FA70
+	// RVA: 0x59FA00 Offset: 0x59E000 VA: 0x18059FA00
 	private void DoSkinSetup(PlayerModel model, Wearable wearable) { }
 
-	// RVA: 0x59EF90 Offset: 0x59D590 VA: 0x18059EF90
+	// RVA: 0x59EF20 Offset: 0x59D520 VA: 0x18059EF20
 	private void DoHairCapSetup(Wearable wearable, List<KeyValuePair<HairCapMask, Renderer>> wearableHairCapSkins) { }
 
-	// RVA: 0x59F1D0 Offset: 0x59D7D0 VA: 0x18059F1D0
+	// RVA: 0x59F160 Offset: 0x59D760 VA: 0x18059F160
 	private void DoHairSetup(Wearable wearable) { }
 
-	// RVA: 0x59FBC0 Offset: 0x59E1C0 VA: 0x18059FBC0
+	// RVA: 0x59FB50 Offset: 0x59E150 VA: 0x18059FB50
 	private void DoWearableSetup(Wearable wearable, List<WearableHairCap> wearableHairCap) { }
 
-	// RVA: 0x59F8A0 Offset: 0x59DEA0 VA: 0x18059F8A0
+	// RVA: 0x59F830 Offset: 0x59DE30 VA: 0x18059F830
 	private void DoRetargeting(Wearable wearable) { }
 
-	// RVA: 0x59EC00 Offset: 0x59D200 VA: 0x18059EC00
+	// RVA: 0x59EB90 Offset: 0x59D190 VA: 0x18059EB90
 	private void DoBoneRetargeting(Wearable wearable, Item item) { }
 
-	// RVA: 0x5A14C0 Offset: 0x59FAC0 VA: 0x1805A14C0
+	// RVA: 0x5A1450 Offset: 0x59FA50 VA: 0x1805A1450
 	private void UpdateRenderers(Wearable wearable) { }
 
-	// RVA: 0x59F2B0 Offset: 0x59D8B0 VA: 0x18059F2B0
+	// RVA: 0x59F240 Offset: 0x59D840 VA: 0x18059F240
 	private void DoItemSetup(SkinnedMultiMesh.Part part, List<IItemSetup> itemSetups) { }
 
-	// RVA: 0x59F470 Offset: 0x59DA70 VA: 0x18059F470
+	// RVA: 0x59F400 Offset: 0x59DA00 VA: 0x18059F400
 	public void DoLODSetup() { }
 
-	// RVA: 0x59E8E0 Offset: 0x59CEE0 VA: 0x18059E8E0
+	// RVA: 0x59E870 Offset: 0x59CE70 VA: 0x18059E870
 	public void DeformCreatedPart(int blendShapeIndex) { }
 
-	// RVA: 0x59FE20 Offset: 0x59E420 VA: 0x18059FE20
+	// RVA: 0x59FDB0 Offset: 0x59E3B0 VA: 0x18059FDB0
 	public Transform FindBone(string strName) { }
 
-	// RVA: 0x59FF00 Offset: 0x59E500 VA: 0x18059FF00
+	// RVA: 0x59FE90 Offset: 0x59E490 VA: 0x18059FE90
 	public Transform[] GetBones() { }
 
-	// RVA: 0x59FE40 Offset: 0x59E440 VA: 0x18059FE40
+	// RVA: 0x59FDD0 Offset: 0x59E3D0 VA: 0x18059FDD0
 	public SkinnedMultiMesh.Part[] FindParts(string name) { }
 
-	// RVA: 0x59F9C0 Offset: 0x59DFC0 VA: 0x18059F9C0
+	// RVA: 0x59F950 Offset: 0x59DF50 VA: 0x18059F950
 	internal void DoShadowOverride(Renderer renderer, MaterialPropertyBlock block) { }
 
-	// RVA: 0x5A1430 Offset: 0x59FA30 VA: 0x1805A1430
+	// RVA: 0x5A13C0 Offset: 0x59F9C0 VA: 0x1805A13C0
 	private void SetupLightShadowBiasScale(Renderer renderer, MaterialPropertyBlock block, bool shadowOnly) { }
 
-	// RVA: 0x5A12F0 Offset: 0x59F8F0 VA: 0x1805A12F0
+	// RVA: 0x5A1280 Offset: 0x59F880 VA: 0x1805A1280
 	public void SetVisible(bool bVisible) { }
 
-	// RVA: 0x59FF50 Offset: 0x59E550 VA: 0x18059FF50
+	// RVA: 0x59FEE0 Offset: 0x59E4E0 VA: 0x18059FEE0
 	public bool IsCurrentlyVisible() { }
 
-	// RVA: 0x5A1800 Offset: 0x59FE00 VA: 0x1805A1800
+	// RVA: 0x5A1790 Offset: 0x59FD90 VA: 0x1805A1790
 	public void .ctor() { }
 
 }
@@ -112,16 +112,16 @@ private sealed class SkinnedMultiMesh.<>c // TypeDefIndex: 9238
 
 	// Methods
 
-	// RVA: 0x5C4790 Offset: 0x5C2D90 VA: 0x1805C4790
+	// RVA: 0x5C4720 Offset: 0x5C2D20 VA: 0x1805C4720
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x5C4650 Offset: 0x5C2C50 VA: 0x1805C4650
+	// RVA: 0x5C45E0 Offset: 0x5C2BE0 VA: 0x1805C45E0
 	internal long <WorkoutPartsHash>b__21_0(SkinnedMultiMesh.Part x) { }
 
-	// RVA: 0x5C4630 Offset: 0x5C2C30 VA: 0x1805C4630
+	// RVA: 0x5C45C0 Offset: 0x5C2BC0 VA: 0x1805C45C0
 	internal bool <IsCurrentlyVisible>b__39_0(Renderer r) { }
 
 }
@@ -135,7 +135,7 @@ private sealed class SkinnedMultiMesh.<>c__DisplayClass35_0 // TypeDefIndex: 923
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x5C4740 Offset: 0x5C2D40 VA: 0x1805C4740
+	// RVA: 0x5C46D0 Offset: 0x5C2CD0 VA: 0x1805C46D0
 	internal bool <FindParts>b__0(SkinnedMultiMesh.Part x) { }
 
 }

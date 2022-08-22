@@ -6,16 +6,16 @@ internal class HebrewNumber // TypeDefIndex: 708
 
 	// Methods
 
-	// RVA: 0x16F4C30 Offset: 0x16F3230 VA: 0x1816F4C30
+	// RVA: 0x16F2820 Offset: 0x16F0E20 VA: 0x1816F2820
 	internal static string ToString(int Number) { }
 
-	// RVA: 0x16F4A10 Offset: 0x16F3010 VA: 0x1816F4A10
+	// RVA: 0x16F2600 Offset: 0x16F0C00 VA: 0x1816F2600
 	internal static HebrewNumberParsingState ParseByChar(char ch, ref HebrewNumberParsingContext context) { }
 
-	// RVA: 0x16F4910 Offset: 0x16F2F10 VA: 0x1816F4910
+	// RVA: 0x16F2500 Offset: 0x16F0B00 VA: 0x1816F2500
 	internal static bool IsDigit(char ch) { }
 
-	// RVA: 0x16F4EA0 Offset: 0x16F34A0 VA: 0x1816F4EA0
+	// RVA: 0x16F2A90 Offset: 0x16F1090 VA: 0x1816F2A90
 	private static void .cctor() { }
 
 }

@@ -11,31 +11,31 @@ internal class UnitySerializationHolder : ISerializable, IObjectReference // Typ
 
 	// Methods
 
-	// RVA: 0x2146F40 Offset: 0x2145540 VA: 0x182146F40
+	// RVA: 0x2147760 Offset: 0x2145D60 VA: 0x182147760
 	internal static void GetUnitySerializationInfo(SerializationInfo info, Missing missing) { }
 
-	// RVA: 0x2146280 Offset: 0x2144880 VA: 0x182146280
+	// RVA: 0x2146AA0 Offset: 0x21450A0 VA: 0x182146AA0
 	internal static RuntimeType AddElementTypes(SerializationInfo info, RuntimeType type) { }
 
-	// RVA: 0x2147200 Offset: 0x2145800 VA: 0x182147200
+	// RVA: 0x2147A20 Offset: 0x2146020 VA: 0x182147A20
 	internal Type MakeElementTypes(Type type) { }
 
-	// RVA: 0x2146BC0 Offset: 0x21451C0 VA: 0x182146BC0
+	// RVA: 0x21473E0 Offset: 0x21459E0 VA: 0x1821473E0
 	internal static void GetUnitySerializationInfo(SerializationInfo info, RuntimeType type) { }
 
-	// RVA: 0x2147020 Offset: 0x2145620 VA: 0x182147020
+	// RVA: 0x2147840 Offset: 0x2145E40 VA: 0x182147840
 	internal static void GetUnitySerializationInfo(SerializationInfo info, int unityType, string data, RuntimeAssembly assembly) { }
 
-	// RVA: 0x21473C0 Offset: 0x21459C0 VA: 0x1821473C0
+	// RVA: 0x2147BE0 Offset: 0x21461E0 VA: 0x182147BE0
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x2147320 Offset: 0x2145920 VA: 0x182147320
+	// RVA: 0x2147B40 Offset: 0x2146140 VA: 0x182147B40
 	private void ThrowInsufficientInformation(string field) { }
 
-	// RVA: 0x2146510 Offset: 0x2144B10 VA: 0x182146510 Slot: 6
+	// RVA: 0x2146D30 Offset: 0x2145330 VA: 0x182146D30 Slot: 6
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x2146580 Offset: 0x2144B80 VA: 0x182146580 Slot: 7
+	// RVA: 0x2146DA0 Offset: 0x21453A0 VA: 0x182146DA0 Slot: 7
 	public virtual object GetRealObject(StreamingContext context) { }
 
 }

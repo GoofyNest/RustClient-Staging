@@ -11,16 +11,16 @@ public class EnvironmentVolumePropertiesCollection : ScriptableObject // TypeDef
 
 	// Methods
 
-	// RVA: 0x8CB340 Offset: 0x8C9940 VA: 0x1808CB340
+	// RVA: 0x8CB850 Offset: 0x8C9E50 VA: 0x1808CB850
 	public float FindReflectionMultiplier(EnvironmentType type) { }
 
-	// RVA: 0x8CB230 Offset: 0x8C9830 VA: 0x1808CB230
+	// RVA: 0x8CB740 Offset: 0x8C9D40 VA: 0x1808CB740
 	public float FindAmbientMultiplier(EnvironmentType type) { }
 
-	// RVA: 0x8CB2A0 Offset: 0x8C98A0 VA: 0x1808CB2A0
+	// RVA: 0x8CB7B0 Offset: 0x8C9DB0 VA: 0x1808CB7B0
 	public LayerMask FindReflectionCullingFlags() { }
 
-	// RVA: 0x8CB430 Offset: 0x8C9A30 VA: 0x1808CB430
+	// RVA: 0x8CB940 Offset: 0x8C9F40 VA: 0x1808CB940
 	public void .ctor() { }
 
 }
@@ -64,7 +64,7 @@ public class EnvironmentVolumePropertiesCollection.OceanParameters // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x8D68F0 Offset: 0x8D4EF0 VA: 0x1808D68F0
+	// RVA: 0x8D6E00 Offset: 0x8D5400 VA: 0x1808D6E00
 	public void .ctor() { }
 
 }

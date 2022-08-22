@@ -1,13 +1,13 @@
 internal sealed class BarBeatTicksTimeSpanConverter : ITimeSpanConverter // TypeDefIndex: 7469
 {	// Methods
 
-	// RVA: 0x13947F0 Offset: 0x1392DF0 VA: 0x1813947F0 Slot: 4
+	// RVA: 0x13938F0 Offset: 0x1391EF0 VA: 0x1813938F0 Slot: 4
 	public ITimeSpan ConvertTo(long timeSpan, long time, TempoMap tempoMap) { }
 
-	// RVA: 0x13941C0 Offset: 0x13927C0 VA: 0x1813941C0 Slot: 5
+	// RVA: 0x13932C0 Offset: 0x13918C0 VA: 0x1813932C0 Slot: 5
 	public long ConvertFrom(ITimeSpan timeSpan, long time, TempoMap tempoMap) { }
 
-	// RVA: 0x13940E0 Offset: 0x13926E0 VA: 0x1813940E0
+	// RVA: 0x13931E0 Offset: 0x13917E0 VA: 0x1813931E0
 	private static void CalculateComponents(long totalTicks, TimeSignature timeSignature, short ticksPerQuarterNote, out long bars, out long beats, out long ticks) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -25,7 +25,7 @@ private sealed class BarBeatTicksTimeSpanConverter.<>c__DisplayClass0_0 // TypeD
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13AA890 Offset: 0x13A8E90 VA: 0x1813AA890
+	// RVA: 0x13A9990 Offset: 0x13A7F90 VA: 0x1813A9990
 	internal bool <ConvertTo>b__0(ValueChange<TimeSignature> v) { }
 
 }
@@ -42,10 +42,10 @@ private sealed class BarBeatTicksTimeSpanConverter.<>c__DisplayClass1_0 // TypeD
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x13AA8F0 Offset: 0x13A8EF0 VA: 0x1813AA8F0
+	// RVA: 0x13A99F0 Offset: 0x13A7FF0 VA: 0x1813A99F0
 	internal bool <ConvertFrom>b__0(ValueChange<TimeSignature> v) { }
 
-	// RVA: 0x13AA960 Offset: 0x13A8F60 VA: 0x1813AA960
+	// RVA: 0x13A9A60 Offset: 0x13A8060 VA: 0x1813A9A60
 	internal bool <ConvertFrom>b__1(ValueChange<TimeSignature> v) { }
 
 }

@@ -7,46 +7,46 @@ public class AggregateException : Exception // TypeDefIndex: 141
 
 	// Methods
 
-	// RVA: 0x1551BA0 Offset: 0x15501A0 VA: 0x181551BA0
+	// RVA: 0x1550C70 Offset: 0x154F270 VA: 0x181550C70
 	public void .ctor() { }
 
-	// RVA: 0x15512A0 Offset: 0x154F8A0 VA: 0x1815512A0
+	// RVA: 0x1550370 Offset: 0x154E970 VA: 0x181550370
 	public void .ctor(IEnumerable<Exception> innerExceptions) { }
 
-	// RVA: 0x1551670 Offset: 0x154FC70 VA: 0x181551670
+	// RVA: 0x1550740 Offset: 0x154ED40 VA: 0x181550740
 	public void .ctor(Exception[] innerExceptions) { }
 
-	// RVA: 0x1551C60 Offset: 0x1550260 VA: 0x181551C60
+	// RVA: 0x1550D30 Offset: 0x154F330 VA: 0x181550D30
 	public void .ctor(string message, IEnumerable<Exception> innerExceptions) { }
 
-	// RVA: 0x15517A0 Offset: 0x154FDA0 VA: 0x1815517A0
+	// RVA: 0x1550870 Offset: 0x154EE70 VA: 0x181550870
 	public void .ctor(string message, Exception[] innerExceptions) { }
 
-	// RVA: 0x1551370 Offset: 0x154F970 VA: 0x181551370
+	// RVA: 0x1550440 Offset: 0x154EA40 VA: 0x181550440
 	private void .ctor(string message, IList<Exception> innerExceptions) { }
 
-	// RVA: 0x15516D0 Offset: 0x154FCD0 VA: 0x1815516D0
+	// RVA: 0x15507A0 Offset: 0x154EDA0 VA: 0x1815507A0
 	internal void .ctor(IEnumerable<ExceptionDispatchInfo> innerExceptionInfos) { }
 
-	// RVA: 0x15515C0 Offset: 0x154FBC0 VA: 0x1815515C0
+	// RVA: 0x1550690 Offset: 0x154EC90 VA: 0x181550690
 	internal void .ctor(string message, IEnumerable<ExceptionDispatchInfo> innerExceptionInfos) { }
 
-	// RVA: 0x15517B0 Offset: 0x154FDB0 VA: 0x1815517B0
+	// RVA: 0x1550880 Offset: 0x154EE80 VA: 0x181550880
 	private void .ctor(string message, IList<ExceptionDispatchInfo> innerExceptionInfos) { }
 
-	// RVA: 0x1551A10 Offset: 0x1550010 VA: 0x181551A10
+	// RVA: 0x1550AE0 Offset: 0x154F0E0 VA: 0x181550AE0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1550DC0 Offset: 0x154F3C0 VA: 0x181550DC0 Slot: 10
+	// RVA: 0x154FE90 Offset: 0x154E490 VA: 0x18154FE90 Slot: 10
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300
 	public ReadOnlyCollection<Exception> get_InnerExceptions() { }
 
-	// RVA: 0x1550BD0 Offset: 0x154F1D0 VA: 0x181550BD0
+	// RVA: 0x154FCA0 Offset: 0x154E2A0 VA: 0x18154FCA0
 	public AggregateException Flatten() { }
 
-	// RVA: 0x1550F00 Offset: 0x154F500 VA: 0x181550F00 Slot: 3
+	// RVA: 0x154FFD0 Offset: 0x154E5D0 VA: 0x18154FFD0 Slot: 3
 	public override string ToString() { }
 
 }

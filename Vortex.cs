@@ -6,10 +6,10 @@ public class Vortex : ImageEffectBase // TypeDefIndex: 8218
 
 	// Methods
 
-	// RVA: 0x21E9F70 Offset: 0x21E8570 VA: 0x1821E9F70
+	// RVA: 0x21EA790 Offset: 0x21E8D90 VA: 0x1821EA790
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21EA860 Offset: 0x21E8E60 VA: 0x1821EA860
+	// RVA: 0x21EB080 Offset: 0x21E9680 VA: 0x1821EB080
 	public void .ctor() { }
 
 }

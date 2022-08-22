@@ -15,19 +15,19 @@ public sealed class Spline // TypeDefIndex: 11871
 
 	// Methods
 
-	// RVA: 0x11E0850 Offset: 0x11DEE50 VA: 0x1811E0850
+	// RVA: 0x11E0EF0 Offset: 0x11DF4F0 VA: 0x1811E0EF0
 	public void .ctor(AnimationCurve curve, float zeroValue, bool loop, Vector2 bounds) { }
 
-	// RVA: 0x11E04B0 Offset: 0x11DEAB0 VA: 0x1811E04B0
+	// RVA: 0x11E0B50 Offset: 0x11DF150 VA: 0x1811E0B50
 	public void Cache(int frame) { }
 
-	// RVA: 0x11E07E0 Offset: 0x11DEDE0 VA: 0x1811E07E0
+	// RVA: 0x11E0E80 Offset: 0x11DF480 VA: 0x1811E0E80
 	public float Evaluate(float t, int length) { }
 
-	// RVA: 0x11E0770 Offset: 0x11DED70 VA: 0x1811E0770
+	// RVA: 0x11E0E10 Offset: 0x11DF410 VA: 0x1811E0E10
 	public float Evaluate(float t) { }
 
-	// RVA: 0x11E0820 Offset: 0x11DEE20 VA: 0x1811E0820 Slot: 2
+	// RVA: 0x11E0EC0 Offset: 0x11DF4C0 VA: 0x1811E0EC0 Slot: 2
 	public override int GetHashCode() { }
 
 }

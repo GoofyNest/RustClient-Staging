@@ -7,7 +7,7 @@ internal struct RuntimeRemoteClassHandle // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x1E0360 Offset: 0x1DF760 VA: 0x1801E0360
+	// RVA: 0x1E0AA0 Offset: 0x1DFEA0 VA: 0x1801E0AA0
 	internal RuntimeClassHandle get_ProxyClass() { }
 
 }

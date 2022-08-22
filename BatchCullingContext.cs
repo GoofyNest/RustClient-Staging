@@ -7,7 +7,7 @@ public struct BatchCullingContext // TypeDefIndex: 3844
 
 	// Methods
 
-	// RVA: 0x221860 Offset: 0x220C60 VA: 0x180221860
+	// RVA: 0x21CDE0 Offset: 0x21C1E0 VA: 0x18021CDE0
 	public void .ctor(NativeArray<Plane> inCullingPlanes, NativeArray<BatchVisibility> inOutBatchVisibility, NativeArray<int> outVisibleIndices, LODParameters inLodParameters) { }
 
 }

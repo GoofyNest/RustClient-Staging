@@ -12,13 +12,13 @@ public class SeedInformationPanel : ItemInformationPanel // TypeDefIndex: 11050
 
 	// Methods
 
-	// RVA: 0x4A81C0 Offset: 0x4A67C0 VA: 0x1804A81C0 Slot: 4
+	// RVA: 0x4A8150 Offset: 0x4A6750 VA: 0x1804A8150 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x4A82B0 Offset: 0x4A68B0 VA: 0x1804A82B0 Slot: 5
+	// RVA: 0x4A8240 Offset: 0x4A6840 VA: 0x1804A8240 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
-	// RVA: 0x4A85D0 Offset: 0x4A6BD0 VA: 0x1804A85D0
+	// RVA: 0x4A8560 Offset: 0x4A6B60 VA: 0x1804A8560
 	public void .ctor() { }
 
 }

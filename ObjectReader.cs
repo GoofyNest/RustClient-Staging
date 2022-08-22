@@ -31,103 +31,103 @@ internal sealed class ObjectReader // TypeDefIndex: 1112
 
 	// Methods
 
-	// RVA: 0x11FBEE0 Offset: 0x11FA4E0 VA: 0x1811FBEE0
+	// RVA: 0x11FC580 Offset: 0x11FAB80 VA: 0x1811FC580
 	private SerStack get_ValueFixupStack() { }
 
-	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
+	// RVA: 0x5362B0 Offset: 0x5348B0 VA: 0x1805362B0
 	internal object get_TopObject() { }
 
-	// RVA: 0x11FBF60 Offset: 0x11FA560 VA: 0x1811FBF60
+	// RVA: 0x11FC600 Offset: 0x11FAC00 VA: 0x1811FC600
 	internal void set_TopObject(object value) { }
 
-	// RVA: 0x11FBDB0 Offset: 0x11FA3B0 VA: 0x1811FBDB0
+	// RVA: 0x11FC450 Offset: 0x11FAA50 VA: 0x1811FC450
 	internal void .ctor(Stream stream, ISurrogateSelector selector, StreamingContext context, InternalFE formatterEnums, SerializationBinder binder) { }
 
-	// RVA: 0x11F7990 Offset: 0x11F5F90 VA: 0x1811F7990
+	// RVA: 0x11F8030 Offset: 0x11F6630 VA: 0x1811F8030
 	internal object Deserialize(HeaderHandler handler, __BinaryParser serParser, bool fCheck) { }
 
-	// RVA: 0x11F8840 Offset: 0x11F6E40 VA: 0x1811F8840
+	// RVA: 0x11F8EE0 Offset: 0x11F74E0 VA: 0x1811F8EE0
 	private bool HasSurrogate(Type t) { }
 
-	// RVA: 0x11F7550 Offset: 0x11F5B50 VA: 0x1811F7550
+	// RVA: 0x11F7BF0 Offset: 0x11F61F0 VA: 0x1811F7BF0
 	private void CheckSerializable(Type t) { }
 
-	// RVA: 0x11F8930 Offset: 0x11F6F30 VA: 0x1811F8930
+	// RVA: 0x11F8FD0 Offset: 0x11F75D0 VA: 0x1811F8FD0
 	private void InitFullDeserialization() { }
 
-	// RVA: 0x11F7950 Offset: 0x11F5F50 VA: 0x1811F7950
+	// RVA: 0x11F7FF0 Offset: 0x11F65F0 VA: 0x1811F7FF0
 	internal object CrossAppDomainArray(int index) { }
 
-	// RVA: 0x11F7900 Offset: 0x11F5F00 VA: 0x1811F7900
+	// RVA: 0x11F7FA0 Offset: 0x11F65A0 VA: 0x1811F7FA0
 	internal ReadObjectInfo CreateReadObjectInfo(Type objectType) { }
 
-	// RVA: 0x11F7780 Offset: 0x11F5D80 VA: 0x1811F7780
+	// RVA: 0x11F7E20 Offset: 0x11F6420 VA: 0x1811F7E20
 	internal ReadObjectInfo CreateReadObjectInfo(Type objectType, string[] memberNames, Type[] memberTypes) { }
 
-	// RVA: 0x11FB8F0 Offset: 0x11F9EF0 VA: 0x1811FB8F0
+	// RVA: 0x11FBF90 Offset: 0x11FA590 VA: 0x1811FBF90
 	internal void Parse(ParseRecord pr) { }
 
-	// RVA: 0x11FA370 Offset: 0x11F8970 VA: 0x1811FA370
+	// RVA: 0x11FAA10 Offset: 0x11F9010 VA: 0x1811FAA10
 	private void ParseError(ParseRecord processing, ParseRecord onStack) { }
 
-	// RVA: 0x11FB7A0 Offset: 0x11F9DA0 VA: 0x1811FB7A0
+	// RVA: 0x11FBE40 Offset: 0x11FA440 VA: 0x1811FBE40
 	private void ParseSerializedStreamHeader(ParseRecord pr) { }
 
-	// RVA: 0x11FB770 Offset: 0x11F9D70 VA: 0x1811FB770
+	// RVA: 0x11FBE10 Offset: 0x11FA410 VA: 0x1811FBE10
 	private void ParseSerializedStreamHeaderEnd(ParseRecord pr) { }
 
-	// RVA: 0x11FB3F0 Offset: 0x11F99F0 VA: 0x1811FB3F0
+	// RVA: 0x11FBA90 Offset: 0x11FA090 VA: 0x1811FBA90
 	private void ParseObject(ParseRecord pr) { }
 
-	// RVA: 0x11FAF40 Offset: 0x11F9540 VA: 0x1811FAF40
+	// RVA: 0x11FB5E0 Offset: 0x11F9BE0 VA: 0x1811FB5E0
 	private void ParseObjectEnd(ParseRecord pr) { }
 
-	// RVA: 0x11F99E0 Offset: 0x11F7FE0 VA: 0x1811F99E0
+	// RVA: 0x11FA080 Offset: 0x11F8680 VA: 0x1811FA080
 	private void ParseArray(ParseRecord pr) { }
 
-	// RVA: 0x11F8A40 Offset: 0x11F7040 VA: 0x1811F8A40
+	// RVA: 0x11F90E0 Offset: 0x11F76E0 VA: 0x1811F90E0
 	private void NextRectangleMap(ParseRecord pr) { }
 
-	// RVA: 0x11F8B80 Offset: 0x11F7180 VA: 0x1811F8B80
+	// RVA: 0x11F9220 Offset: 0x11F7820 VA: 0x1811F9220
 	private void ParseArrayMember(ParseRecord pr) { }
 
-	// RVA: 0x11F8B50 Offset: 0x11F7150 VA: 0x1811F8B50
+	// RVA: 0x11F91F0 Offset: 0x11F77F0 VA: 0x1811F91F0
 	private void ParseArrayMemberEnd(ParseRecord pr) { }
 
-	// RVA: 0x11FA670 Offset: 0x11F8C70 VA: 0x1811FA670
+	// RVA: 0x11FAD10 Offset: 0x11F9310 VA: 0x1811FAD10
 	private void ParseMember(ParseRecord pr) { }
 
-	// RVA: 0x11FA5C0 Offset: 0x11F8BC0 VA: 0x1811FA5C0
+	// RVA: 0x11FAC60 Offset: 0x11F9260 VA: 0x1811FAC60
 	private void ParseMemberEnd(ParseRecord pr) { }
 
-	// RVA: 0x11FB7D0 Offset: 0x11F9DD0 VA: 0x1811FB7D0
+	// RVA: 0x11FBE70 Offset: 0x11FA470 VA: 0x1811FBE70
 	private void ParseString(ParseRecord pr, ParseRecord parentPr) { }
 
-	// RVA: 0x11FBB20 Offset: 0x11FA120 VA: 0x1811FBB20
+	// RVA: 0x11FC1C0 Offset: 0x11FA7C0 VA: 0x1811FC1C0
 	private void RegisterObject(object obj, ParseRecord pr, ParseRecord objectPr) { }
 
-	// RVA: 0x11FBC00 Offset: 0x11FA200 VA: 0x1811FBC00
+	// RVA: 0x11FC2A0 Offset: 0x11FA8A0 VA: 0x1811FC2A0
 	private void RegisterObject(object obj, ParseRecord pr, ParseRecord objectPr, bool bIsString) { }
 
-	// RVA: 0x11F80E0 Offset: 0x11F66E0 VA: 0x1811F80E0
+	// RVA: 0x11F8780 Offset: 0x11F6D80 VA: 0x1811F8780
 	internal long GetId(long objectId) { }
 
-	// RVA: 0x11F74F0 Offset: 0x11F5AF0 VA: 0x1811F74F0
+	// RVA: 0x11F7B90 Offset: 0x11F6190 VA: 0x1811F7B90
 	internal Type Bind(string assemblyString, string typeString) { }
 
-	// RVA: 0x11F7DA0 Offset: 0x11F63A0 VA: 0x1811F7DA0
+	// RVA: 0x11F8440 Offset: 0x11F6A40 VA: 0x1811F8440
 	internal Type FastBindToType(string assemblyName, string typeName) { }
 
-	// RVA: 0x11FBD40 Offset: 0x11FA340 VA: 0x1811FBD40
+	// RVA: 0x11FC3E0 Offset: 0x11FA9E0 VA: 0x1811FC3E0
 	private static Assembly ResolveSimpleAssemblyName(AssemblyName assemblyName) { }
 
-	// RVA: 0x11F8330 Offset: 0x11F6930 VA: 0x1811F8330
+	// RVA: 0x11F89D0 Offset: 0x11F6FD0 VA: 0x1811F89D0
 	private static void GetSimplyNamedTypeFromAssembly(Assembly assm, string typeName, ref Type type) { }
 
-	// RVA: 0x11F8530 Offset: 0x11F6B30 VA: 0x1811F8530
+	// RVA: 0x11F8BD0 Offset: 0x11F71D0 VA: 0x1811F8BD0
 	internal Type GetType(BinaryAssemblyInfo assemblyInfo, string name) { }
 
-	// RVA: 0x11F76A0 Offset: 0x11F5CA0 VA: 0x1811F76A0
+	// RVA: 0x11F7D40 Offset: 0x11F6340 VA: 0x1811F7D40
 	private static void CheckTypeForwardedTo(Assembly sourceAssembly, Assembly destAssembly, Type resolvedType) { }
 
 }
@@ -150,10 +150,10 @@ internal sealed class ObjectReader.TopLevelAssemblyTypeResolver // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	public void .ctor(Assembly topLevelAssembly) { }
 
-	// RVA: 0x1205990 Offset: 0x1203F90 VA: 0x181205990
+	// RVA: 0x1206030 Offset: 0x1204630 VA: 0x181206030
 	public Type ResolveType(Assembly assembly, string simpleTypeName, bool ignoreCase) { }
 
 }

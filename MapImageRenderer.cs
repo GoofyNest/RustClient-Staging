@@ -20,16 +20,16 @@ public static class MapImageRenderer // TypeDefIndex: 10745
 
 	// Methods
 
-	// RVA: 0x5635D0 Offset: 0x561BD0 VA: 0x1805635D0
+	// RVA: 0x563560 Offset: 0x561B60 VA: 0x180563560
 	public static byte[] Render(out int imageWidth, out int imageHeight, out Color background, float scale = 0,5, bool lossy = True) { }
 
-	// RVA: 0x563440 Offset: 0x561A40 VA: 0x180563440
+	// RVA: 0x5633D0 Offset: 0x5619D0 VA: 0x1805633D0
 	private static byte[] EncodeToFile(int width, int height, Color[] pixels, bool lossy) { }
 
-	// RVA: 0x563A60 Offset: 0x562060 VA: 0x180563A60
+	// RVA: 0x5639F0 Offset: 0x561FF0 VA: 0x1805639F0
 	private static Vector3 UnpackNormal(Vector4 value) { }
 
-	// RVA: 0x563BA0 Offset: 0x5621A0 VA: 0x180563BA0
+	// RVA: 0x563B30 Offset: 0x562130 VA: 0x180563B30
 	private static void .cctor() { }
 
 }
@@ -58,10 +58,10 @@ private struct MapImageRenderer.Array2D<T> // TypeDefIndex: 10746
 	public ref T get_Item(int x, int y) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x210EE0 Offset: 0x2102E0 VA: 0x180210EE0
+	|-RVA: 0x1F6140 Offset: 0x1F5540 VA: 0x1801F6140
 	|-MapImageRenderer.Array2D<object>.get_Item
 	|
-	|-RVA: 0x210E10 Offset: 0x210210 VA: 0x180210E10
+	|-RVA: 0x1F6070 Offset: 0x1F5470 VA: 0x1801F6070
 	|-MapImageRenderer.Array2D<Color>.get_Item
 	*/
 
@@ -80,16 +80,16 @@ private sealed class MapImageRenderer.<>c__DisplayClass17_0 // TypeDefIndex: 107
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x56F930 Offset: 0x56DF30 VA: 0x18056F930
+	// RVA: 0x56F8C0 Offset: 0x56DEC0 VA: 0x18056F8C0
 	internal float <Render>g__GetHeight|0(float x, float y) { }
 
-	// RVA: 0x56F950 Offset: 0x56DF50 VA: 0x18056F950
+	// RVA: 0x56F8E0 Offset: 0x56DEE0 VA: 0x18056F8E0
 	internal Vector3 <Render>g__GetNormal|1(float x, float y) { }
 
-	// RVA: 0x56F9A0 Offset: 0x56DFA0 VA: 0x18056F9A0
+	// RVA: 0x56F930 Offset: 0x56DF30 VA: 0x18056F930
 	internal float <Render>g__GetSplat|2(float x, float y, int mask) { }
 
-	// RVA: 0x56ED50 Offset: 0x56D350 VA: 0x18056ED50
+	// RVA: 0x56ECE0 Offset: 0x56D2E0 VA: 0x18056ECE0
 	internal void <Render>b__3(int y) { }
 
 }

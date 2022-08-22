@@ -17,37 +17,37 @@ internal class TypedObject // TypeDefIndex: 2149
 
 	// Methods
 
-	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
+	// RVA: 0xA39490 Offset: 0xA37A90 VA: 0x180A39490
 	public int get_Dim() { }
 
-	// RVA: 0xBA1D40 Offset: 0xBA0340 VA: 0x180BA1D40
+	// RVA: 0xBA2210 Offset: 0xBA0810 VA: 0x180BA2210
 	public bool get_IsList() { }
 
-	// RVA: 0xEF1F10 Offset: 0xEF0510 VA: 0x180EF1F10
+	// RVA: 0xEF29C0 Offset: 0xEF0FC0 VA: 0x180EF29C0
 	public bool get_IsDecimal() { }
 
-	// RVA: 0x4D2120 Offset: 0x4D0720 VA: 0x1804D2120
+	// RVA: 0x4D20B0 Offset: 0x4D06B0 VA: 0x1804D20B0
 	public Decimal[] get_Dvalue() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public object get_Value() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public XmlSchemaDatatype get_Type() { }
 
-	// RVA: 0xEF1D40 Offset: 0xEF0340 VA: 0x180EF1D40
+	// RVA: 0xEF27F0 Offset: 0xEF0DF0 VA: 0x180EF27F0
 	public void .ctor(object obj, string svalue, XmlSchemaDatatype xsdtype) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xEF1A10 Offset: 0xEF0010 VA: 0x180EF1A10
+	// RVA: 0xEF24C0 Offset: 0xEF0AC0 VA: 0x180EF24C0
 	public void SetDecimal() { }
 
-	// RVA: 0xEF18D0 Offset: 0xEEFED0 VA: 0x180EF18D0
+	// RVA: 0xEF2380 Offset: 0xEF0980 VA: 0x180EF2380
 	private bool ListDValueEquals(TypedObject other) { }
 
-	// RVA: 0xEF1540 Offset: 0xEEFB40 VA: 0x180EF1540
+	// RVA: 0xEF1FF0 Offset: 0xEF05F0 VA: 0x180EF1FF0
 	public bool Equals(TypedObject other) { }
 
 }
@@ -72,10 +72,10 @@ private class TypedObject.DecimalStruct // TypeDefIndex: 2150
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public Decimal[] get_Dvalue() { }
 
-	// RVA: 0xEDA620 Offset: 0xED8C20 VA: 0x180EDA620
+	// RVA: 0xEDB0D0 Offset: 0xED96D0 VA: 0x180EDB0D0
 	public void .ctor() { }
 
-	// RVA: 0xEDA680 Offset: 0xED8C80 VA: 0x180EDA680
+	// RVA: 0xEDB130 Offset: 0xED9730 VA: 0x180EDB130
 	public void .ctor(int dim) { }
 
 }

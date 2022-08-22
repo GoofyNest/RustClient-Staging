@@ -10,13 +10,13 @@ internal struct EndGameResultCallback_t : ICallbackData // TypeDefIndex: 5354
 
 	// Methods
 
-	// RVA: 0x1E55D0 Offset: 0x1E49D0 VA: 0x1801E55D0 Slot: 5
+	// RVA: 0x1E59F0 Offset: 0x1E4DF0 VA: 0x1801E59F0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E55C0 Offset: 0x1E49C0 VA: 0x1801E55C0 Slot: 4
+	// RVA: 0x1E59E0 Offset: 0x1E4DE0 VA: 0x1801E59E0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13704F0 Offset: 0x136EAF0 VA: 0x1813704F0
+	// RVA: 0x136F5F0 Offset: 0x136DBF0 VA: 0x18136F5F0
 	private static void .cctor() { }
 
 }

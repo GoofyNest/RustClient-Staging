@@ -10,7 +10,7 @@ public static class CollectionExtensions // TypeDefIndex: 1442
 	public static TValue GetValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue> dictionary, TKey key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF1310 Offset: 0xBEF910 VA: 0x180BF1310
+	|-RVA: 0xBF17E0 Offset: 0xBEFDE0 VA: 0x180BF17E0
 	|-CollectionExtensions.GetValueOrDefault<object, object>
 	|-CollectionExtensions.GetValueOrDefault<string, LocalDataStoreSlot>
 	*/
@@ -20,7 +20,7 @@ public static class CollectionExtensions // TypeDefIndex: 1442
 	public static TValue GetValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue> dictionary, TKey key, TValue defaultValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159E980 Offset: 0x159CF80 VA: 0x18159E980
+	|-RVA: 0x159DA50 Offset: 0x159C050 VA: 0x18159DA50
 	|-CollectionExtensions.GetValueOrDefault<object, object>
 	*/
 
@@ -34,7 +34,7 @@ internal static class CollectionExtensions // TypeDefIndex: 5760
 	public static bool SequenceEqual<TSource>(List<TSource> first, List<TSource> second) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBEE8B0 Offset: 0xBECEB0 VA: 0x180BEE8B0
+	|-RVA: 0xBEED80 Offset: 0xBED380 VA: 0x180BEED80
 	|-CollectionExtensions.SequenceEqual<NameValueHeaderValue>
 	|-CollectionExtensions.SequenceEqual<RangeItemHeaderValue>
 	|-CollectionExtensions.SequenceEqual<object>
@@ -42,7 +42,7 @@ internal static class CollectionExtensions // TypeDefIndex: 5760
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086930 Offset: 0x1084F30 VA: 0x181086930
+	// RVA: 0x10873A0 Offset: 0x10859A0 VA: 0x1810873A0
 	public static void SetValue(List<NameValueHeaderValue> parameters, string key, string value) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -50,7 +50,7 @@ internal static class CollectionExtensions // TypeDefIndex: 5760
 	public static string ToString<T>(List<T> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED1790 Offset: 0xECFD90 VA: 0x180ED1790
+	|-RVA: 0xED2240 Offset: 0xED0840 VA: 0x180ED2240
 	|-CollectionExtensions.ToString<NameValueHeaderValue>
 	|-CollectionExtensions.ToString<object>
 	*/
@@ -60,7 +60,7 @@ internal static class CollectionExtensions // TypeDefIndex: 5760
 	public static void ToStringBuilder<T>(List<T> list, StringBuilder sb) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDFFBF0 Offset: 0xDFE1F0 VA: 0x180DFFBF0
+	|-RVA: 0xE006A0 Offset: 0xDFECA0 VA: 0x180E006A0
 	|-CollectionExtensions.ToStringBuilder<NameValueHeaderValue>
 	|-CollectionExtensions.ToStringBuilder<object>
 	|-CollectionExtensions.ToStringBuilder<string>

@@ -4,10 +4,10 @@ public sealed class HttpWebRequestElement : ConfigurationElement // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1533920 Offset: 0x1531F20 VA: 0x181533920
+	// RVA: 0x15329F0 Offset: 0x1530FF0 VA: 0x1815329F0
 	public void .ctor() { }
 
-	// RVA: 0x1533950 Offset: 0x1531F50 VA: 0x181533950 Slot: 4
+	// RVA: 0x1532A20 Offset: 0x1531020 VA: 0x181532A20 Slot: 4
 	protected override ConfigurationPropertyCollection get_Properties() { }
 
 }

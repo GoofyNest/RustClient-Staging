@@ -8,10 +8,10 @@ public abstract class CustomYieldInstruction : IEnumerator // TypeDefIndex: 3511
 	// RVA: -1 Offset: -1 Slot: 7
 	public abstract bool get_keepWaiting();
 
-	// RVA: 0xB3BDD0 Offset: 0xB3A3D0 VA: 0x180B3BDD0 Slot: 5
+	// RVA: 0xB3C2A0 Offset: 0xB3A8A0 VA: 0x180B3C2A0 Slot: 5
 	public object get_Current() { }
 
-	// RVA: 0x82BDB0 Offset: 0x82A3B0 VA: 0x18082BDB0 Slot: 4
+	// RVA: 0x82C300 Offset: 0x82A900 VA: 0x18082C300 Slot: 4
 	public bool MoveNext() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 6

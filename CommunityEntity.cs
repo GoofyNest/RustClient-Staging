@@ -9,52 +9,52 @@ public class CommunityEntity : PointEntity // TypeDefIndex: 8551
 
 	// Methods
 
-	// RVA: 0x580BF0 Offset: 0x57F1F0 VA: 0x180580BF0 Slot: 35
+	// RVA: 0x580B80 Offset: 0x57F180 VA: 0x180580B80 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57ECC0 Offset: 0x57D2C0 VA: 0x18057ECC0
+	// RVA: 0x57EC50 Offset: 0x57D250 VA: 0x18057EC50
 	public void CL_ReceiveFilePng(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x580960 Offset: 0x57EF60 VA: 0x180580960
+	// RVA: 0x5808F0 Offset: 0x57EEF0 VA: 0x1805808F0
 	private static CommunityEntity.CachedTexture GetCachedTexture(uint textureId) { }
 
-	// RVA: 0x5817F0 Offset: 0x57FDF0 VA: 0x1805817F0
+	// RVA: 0x581780 Offset: 0x57FD80 VA: 0x180581780
 	private CommunityEntity.CachedTexture StoreCachedTexture(uint textureId, byte[] bytes) { }
 
-	// RVA: 0x57EA20 Offset: 0x57D020 VA: 0x18057EA20
+	// RVA: 0x57E9B0 Offset: 0x57CFB0 VA: 0x18057E9B0
 	private void ApplyTextureToImage(MaskableGraphic component, uint textureID) { }
 
-	// RVA: 0x57E7A0 Offset: 0x57CDA0 VA: 0x18057E7A0
+	// RVA: 0x57E730 Offset: 0x57CD30 VA: 0x18057E730
 	private void ApplyCachedTextureToImage(MaskableGraphic component, CommunityEntity.CachedTexture texture) { }
 
-	// RVA: 0x581970 Offset: 0x57FF70 VA: 0x180581970
+	// RVA: 0x581900 Offset: 0x57FF00 VA: 0x180581900
 	private static void UnloadTextureCache() { }
 
-	// RVA: 0x580540 Offset: 0x57EB40 VA: 0x180580540
+	// RVA: 0x5804D0 Offset: 0x57EAD0 VA: 0x1805804D0
 	public static void DestroyServerCreatedUI() { }
 
-	// RVA: 0x581740 Offset: 0x57FD40 VA: 0x180581740
+	// RVA: 0x5816D0 Offset: 0x57FCD0 VA: 0x1805816D0
 	public void SetVisible(bool b) { }
 
-	// RVA: 0x581680 Offset: 0x57FC80 VA: 0x180581680
+	// RVA: 0x581610 Offset: 0x57FC10 VA: 0x180581610
 	private static void RegisterUi(GameObject go) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57E000 Offset: 0x57C600 VA: 0x18057E000
+	// RVA: 0x57DF90 Offset: 0x57C590 VA: 0x18057DF90
 	public void AddUI(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x580850 Offset: 0x57EE50 VA: 0x180580850
+	// RVA: 0x5807E0 Offset: 0x57EDE0 VA: 0x1805807E0
 	private GameObject FindPanel(string name) { }
 
-	// RVA: 0x57EF80 Offset: 0x57D580 VA: 0x18057EF80
+	// RVA: 0x57EF10 Offset: 0x57D510 VA: 0x18057EF10
 	private void CreateComponents(GameObject go, Object obj) { }
 
 	// RVA: -1 Offset: -1
 	private static T ParseEnum<T>(string value, T defaultValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CB3B0 Offset: 0x5C99B0 VA: 0x1805CB3B0
+	|-RVA: 0x5CB340 Offset: 0x5C9940 VA: 0x1805CB340
 	|-CommunityEntity.ParseEnum<Int32Enum>
 	|-CommunityEntity.ParseEnum<TextAnchor>
 	|-CommunityEntity.ParseEnum<Image.Type>
@@ -62,30 +62,30 @@ public class CommunityEntity : PointEntity // TypeDefIndex: 8551
 	|-CommunityEntity.ParseEnum<VerticalWrapMode>
 	*/
 
-	// RVA: 0x5809F0 Offset: 0x57EFF0 VA: 0x1805809F0
+	// RVA: 0x580980 Offset: 0x57EF80 VA: 0x180580980
 	private void GraphicComponentCreated(Graphic c, Object obj) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xAA280 Offset: 0xA9680 VA: 0x1800AA280
-	// RVA: 0x580B60 Offset: 0x57F160 VA: 0x180580B60
+	// RVA: 0x580AF0 Offset: 0x57F0F0 VA: 0x180580AF0
 	private IEnumerator LoadTextureFromWWW(RawImage c, string p) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x580800 Offset: 0x57EE00 VA: 0x180580800
+	// RVA: 0x580790 Offset: 0x57ED90 VA: 0x180580790
 	public void DestroyUI(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x5803A0 Offset: 0x57E9A0 VA: 0x1805803A0
+	// RVA: 0x580330 Offset: 0x57E930 VA: 0x180580330
 	private void DestroyPanel(string pnlName) { }
 
-	// RVA: 0x580AB0 Offset: 0x57F0B0 VA: 0x180580AB0 Slot: 28
+	// RVA: 0x580A40 Offset: 0x57F040 VA: 0x180580A40 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0x580750 Offset: 0x57ED50 VA: 0x180580750 Slot: 31
+	// RVA: 0x5806E0 Offset: 0x57ECE0 VA: 0x1805806E0 Slot: 31
 	public override void DestroyShared() { }
 
-	// RVA: 0x581C50 Offset: 0x580250 VA: 0x180581C50
+	// RVA: 0x581BE0 Offset: 0x5801E0 VA: 0x180581BE0
 	public void .ctor() { }
 
-	// RVA: 0x581B00 Offset: 0x580100 VA: 0x180581B00
+	// RVA: 0x581A90 Offset: 0x580090 VA: 0x180581A90
 	private static void .cctor() { }
 
 }
@@ -102,16 +102,16 @@ private class CommunityEntity.Countdown : MonoBehaviour // TypeDefIndex: 8552
 
 	// Methods
 
-	// RVA: 0x5839A0 Offset: 0x581FA0 VA: 0x1805839A0
+	// RVA: 0x583930 Offset: 0x581F30 VA: 0x180583930
 	private void Start() { }
 
-	// RVA: 0x583B10 Offset: 0x582110 VA: 0x180583B10
+	// RVA: 0x583AA0 Offset: 0x5820A0 VA: 0x180583AA0
 	private void UpdateCountdown() { }
 
-	// RVA: 0x5838C0 Offset: 0x581EC0 VA: 0x1805838C0
+	// RVA: 0x583850 Offset: 0x581E50 VA: 0x180583850
 	private void End() { }
 
-	// RVA: 0x583C10 Offset: 0x582210 VA: 0x180583C10
+	// RVA: 0x583BA0 Offset: 0x5821A0 VA: 0x180583BA0
 	public void .ctor() { }
 
 }
@@ -122,10 +122,10 @@ private class CommunityEntity.FadeOut : MonoBehaviour // TypeDefIndex: 8553
 
 	// Methods
 
-	// RVA: 0x583CE0 Offset: 0x5822E0 VA: 0x180583CE0
+	// RVA: 0x583C70 Offset: 0x582270 VA: 0x180583C70
 	public void FadeOutAndDestroy() { }
 
-	// RVA: 0x583DC0 Offset: 0x5823C0 VA: 0x180583DC0
+	// RVA: 0x583D50 Offset: 0x582350 VA: 0x180583D50
 	public void Kill() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -140,7 +140,7 @@ private class CommunityEntity.CachedTexture // TypeDefIndex: 8554
 
 	// Methods
 
-	// RVA: 0x56FAF0 Offset: 0x56E0F0 VA: 0x18056FAF0
+	// RVA: 0x56FA80 Offset: 0x56E080 VA: 0x18056FA80
 	public void Destroy() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -169,10 +169,10 @@ private sealed class CommunityEntity.<>c__DisplayClass19_1 // TypeDefIndex: 8556
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x4B3BA0 Offset: 0x4B21A0 VA: 0x1804B3BA0
+	// RVA: 0x4B3B30 Offset: 0x4B2130 VA: 0x1804B3B30
 	internal bool <CreateComponents>b__0(ItemSkinDirectory.Skin x) { }
 
-	// RVA: 0x589B70 Offset: 0x588170 VA: 0x180589B70
+	// RVA: 0x589B00 Offset: 0x588100 VA: 0x180589B00
 	internal void <CreateComponents>b__1() { }
 
 }
@@ -186,7 +186,7 @@ private sealed class CommunityEntity.<>c__DisplayClass19_2 // TypeDefIndex: 8557
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x589C20 Offset: 0x588220 VA: 0x180589C20
+	// RVA: 0x589BB0 Offset: 0x5881B0 VA: 0x180589BB0
 	internal void <CreateComponents>b__2() { }
 
 }
@@ -201,7 +201,7 @@ private sealed class CommunityEntity.<>c__DisplayClass19_3 // TypeDefIndex: 8558
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x589C30 Offset: 0x588230 VA: 0x180589C30
+	// RVA: 0x589BC0 Offset: 0x5881C0 VA: 0x180589BC0
 	internal void <CreateComponents>b__3() { }
 
 }
@@ -215,7 +215,7 @@ private sealed class CommunityEntity.<>c__DisplayClass19_4 // TypeDefIndex: 8559
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x589C60 Offset: 0x588260 VA: 0x180589C60
+	// RVA: 0x589BF0 Offset: 0x5881F0 VA: 0x180589BF0
 	internal void <CreateComponents>b__4(string value) { }
 
 }
@@ -242,7 +242,7 @@ private sealed class CommunityEntity.<LoadTextureFromWWW>d__22 : IEnumerator<obj
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x5875B0 Offset: 0x585BB0 VA: 0x1805875B0 Slot: 6
+	// RVA: 0x587540 Offset: 0x585B40 VA: 0x180587540 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -250,7 +250,7 @@ private sealed class CommunityEntity.<LoadTextureFromWWW>d__22 : IEnumerator<obj
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5879D0 Offset: 0x585FD0 VA: 0x1805879D0 Slot: 8
+	// RVA: 0x587960 Offset: 0x585F60 VA: 0x180587960 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

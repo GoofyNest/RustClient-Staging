@@ -13,7 +13,7 @@ public class ERTerrainData // TypeDefIndex: 7295
 
 	// Methods
 
-	// RVA: 0xA683B0 Offset: 0xA669B0 VA: 0x180A683B0
+	// RVA: 0xA68880 Offset: 0xA66E80 VA: 0x180A68880
 	public void .ctor(int m_terrainWidth, int m_terrainHeight, float m_originalHeight, float m_flattenedHeight, bool m_critical, float m_perc, float m_outerHeight, Vector3 m_hitPoint, Vector3 m_outerPoint) { }
 
 }

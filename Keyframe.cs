@@ -16,19 +16,19 @@ public struct Keyframe // TypeDefIndex: 3351
 
 	// Methods
 
-	// RVA: 0x215AA0 Offset: 0x214EA0 VA: 0x180215AA0
+	// RVA: 0x216170 Offset: 0x215570 VA: 0x180216170
 	public void .ctor(float time, float value) { }
 
-	// RVA: 0x215AC0 Offset: 0x214EC0 VA: 0x180215AC0
+	// RVA: 0x216190 Offset: 0x215590 VA: 0x180216190
 	public void .ctor(float time, float value, float inTangent, float outTangent) { }
 
-	// RVA: 0x13A310 Offset: 0x139710 VA: 0x18013A310
+	// RVA: 0x13A130 Offset: 0x139530 VA: 0x18013A130
 	public float get_time() { }
 
 	// RVA: 0xF2390 Offset: 0xF1790 VA: 0x1800F2390
 	public void set_time(float value) { }
 
-	// RVA: 0x212330 Offset: 0x211730 VA: 0x180212330
+	// RVA: 0x211760 Offset: 0x210B60 VA: 0x180211760
 	public float get_value() { }
 
 	// RVA: 0x117140 Offset: 0x116540 VA: 0x180117140

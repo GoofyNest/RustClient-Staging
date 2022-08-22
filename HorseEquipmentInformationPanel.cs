@@ -7,13 +7,13 @@ public class HorseEquipmentInformationPanel : ItemInformationPanel // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x7420B0 Offset: 0x7406B0 VA: 0x1807420B0 Slot: 4
+	// RVA: 0x742000 Offset: 0x740600 VA: 0x180742000 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x742130 Offset: 0x740730 VA: 0x180742130 Slot: 5
+	// RVA: 0x742080 Offset: 0x740680 VA: 0x180742080 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

@@ -10,34 +10,34 @@ public static class ColorUtilities // TypeDefIndex: 11857
 
 	// Methods
 
-	// RVA: 0x9F7D90 Offset: 0x9F6390 VA: 0x1809F7D90
+	// RVA: 0x9F8280 Offset: 0x9F6880 VA: 0x1809F8280
 	public static float StandardIlluminantY(float x) { }
 
-	// RVA: 0x9F7680 Offset: 0x9F5C80 VA: 0x1809F7680
+	// RVA: 0x9F7B70 Offset: 0x9F6170 VA: 0x1809F7B70
 	public static Vector3 CIExyToLMS(float x, float y) { }
 
-	// RVA: 0x9F7AA0 Offset: 0x9F60A0 VA: 0x1809F7AA0
+	// RVA: 0x9F7F90 Offset: 0x9F6590 VA: 0x1809F7F90
 	public static Vector3 ComputeColorBalance(float temperature, float tint) { }
 
-	// RVA: 0x9F79C0 Offset: 0x9F5FC0 VA: 0x1809F79C0
+	// RVA: 0x9F7EB0 Offset: 0x9F64B0 VA: 0x1809F7EB0
 	public static Vector3 ColorToLift(Vector4 color) { }
 
-	// RVA: 0x9F7810 Offset: 0x9F5E10 VA: 0x1809F7810
+	// RVA: 0x9F7D00 Offset: 0x9F6300 VA: 0x1809F7D00
 	public static Vector3 ColorToInverseGamma(Vector4 color) { }
 
-	// RVA: 0x9F7730 Offset: 0x9F5D30 VA: 0x1809F7730
+	// RVA: 0x9F7C20 Offset: 0x9F6220 VA: 0x1809F7C20
 	public static Vector3 ColorToGain(Vector4 color) { }
 
-	// RVA: 0x9F7CE0 Offset: 0x9F62E0 VA: 0x1809F7CE0
+	// RVA: 0x9F81D0 Offset: 0x9F67D0 VA: 0x1809F81D0
 	public static float LogCToLinear(float x) { }
 
-	// RVA: 0x9F7C40 Offset: 0x9F6240 VA: 0x1809F7C40
+	// RVA: 0x9F8130 Offset: 0x9F6730 VA: 0x1809F8130
 	public static float LinearToLogC(float x) { }
 
-	// RVA: 0x9F7DC0 Offset: 0x9F63C0 VA: 0x1809F7DC0
+	// RVA: 0x9F82B0 Offset: 0x9F68B0 VA: 0x1809F82B0
 	public static uint ToHex(Color c) { }
 
-	// RVA: 0x9F7E20 Offset: 0x9F6420 VA: 0x1809F7E20
+	// RVA: 0x9F8310 Offset: 0x9F6910 VA: 0x1809F8310
 	public static Color ToRGBA(uint hex) { }
 
 }

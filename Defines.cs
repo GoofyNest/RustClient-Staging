@@ -93,7 +93,7 @@ internal static class Defines // TypeDefIndex: 5503
 
 	// Methods
 
-	// RVA: 0x136F870 Offset: 0x136DE70 VA: 0x18136F870
+	// RVA: 0x136E970 Offset: 0x136CF70 VA: 0x18136E970
 	private static void .cctor() { }
 
 }
@@ -130,12 +130,12 @@ public class Defines // TypeDefIndex: 6677
 
 public static class Defines // TypeDefIndex: 12035
 {	// Fields
-	public static uint appID; // 0x2B11334
+	public static uint appID; // 0x1E6A0
 	public const string resourceFolder = "assets/bundled";
 
 	// Methods
 
-	// RVA: 0x4BCC60 Offset: 0x4BB260 VA: 0x1804BCC60
+	// RVA: 0x4BCBF0 Offset: 0x4BB1F0 VA: 0x1804BCBF0
 	private static void .cctor() { }
 
 }

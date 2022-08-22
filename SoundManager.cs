@@ -19,62 +19,62 @@ public class SoundManager : SingletonComponent<SoundManager>, IClientComponent /
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA797B0 Offset: 0xA77DB0 VA: 0x180A797B0
+	// RVA: 0xA79C80 Offset: 0xA78280 VA: 0x180A79C80
 	public Vector3 get_smoothedCameraVel() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA797D0 Offset: 0xA77DD0 VA: 0x180A797D0
+	// RVA: 0xA79CA0 Offset: 0xA782A0 VA: 0x180A79CA0
 	private void set_smoothedCameraVel(Vector3 value) { }
 
-	// RVA: 0xA76930 Offset: 0xA74F30 VA: 0x180A76930 Slot: 6
+	// RVA: 0xA76E00 Offset: 0xA75400 VA: 0x180A76E00 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0xA78FB0 Offset: 0xA775B0 VA: 0x180A78FB0
+	// RVA: 0xA79480 Offset: 0xA77A80 VA: 0x180A79480
 	public void Update() { }
 
-	// RVA: 0xA78CB0 Offset: 0xA772B0 VA: 0x180A78CB0
+	// RVA: 0xA79180 Offset: 0xA77780 VA: 0x180A79180
 	private void UpdateCameraVelocity() { }
 
-	// RVA: 0xA78990 Offset: 0xA76F90 VA: 0x180A78990
+	// RVA: 0xA78E60 Offset: 0xA77460 VA: 0x180A78E60
 	private void StartPendingSoundPlayers() { }
 
-	// RVA: 0xA78AA0 Offset: 0xA770A0 VA: 0x180A78AA0
+	// RVA: 0xA78F70 Offset: 0xA77570 VA: 0x180A78F70
 	private void StartScheduledSounds() { }
 
-	// RVA: 0xA76840 Offset: 0xA74E40 VA: 0x180A76840
+	// RVA: 0xA76D10 Offset: 0xA75310 VA: 0x180A76D10
 	public static void AddPendingSoundPlayer(SoundPlayer player) { }
 
-	// RVA: 0xA76750 Offset: 0xA74D50 VA: 0x180A76750
+	// RVA: 0xA76C20 Offset: 0xA75220 VA: 0x180A76C20
 	public static void AddBudgetedUpdatable(ISoundBudgetedUpdate updatable) { }
 
-	// RVA: 0xA77960 Offset: 0xA75F60 VA: 0x180A77960
+	// RVA: 0xA77E30 Offset: 0xA76430 VA: 0x180A77E30
 	public static void RemoveBudgetedUpdatable(ISoundBudgetedUpdate updatable) { }
 
-	// RVA: 0xA78830 Offset: 0xA76E30 VA: 0x180A78830
+	// RVA: 0xA78D00 Offset: 0xA77300 VA: 0x180A78D00
 	public static SoundManager.ScheduledSound ScheduleOneshot(SoundDefinition def, float startTime, Vector3 position, float volumeMod = 1) { }
 
-	// RVA: 0xA769A0 Offset: 0xA74FA0 VA: 0x180A769A0
+	// RVA: 0xA76E70 Offset: 0xA75470 VA: 0x180A76E70
 	public static void CancelScheduledSound(SoundManager.ScheduledSound scheduledSound) { }
 
-	// RVA: 0xA773F0 Offset: 0xA759F0 VA: 0x180A773F0
+	// RVA: 0xA778C0 Offset: 0xA75EC0 VA: 0x180A778C0
 	public static Sound PlayOneshot(SoundDefinition def, GameObject targetParent, bool firstPerson = False, Vector3 position) { }
 
-	// RVA: 0xA77A50 Offset: 0xA76050 VA: 0x180A77A50
+	// RVA: 0xA77F20 Offset: 0xA76520 VA: 0x180A77F20
 	public static Sound RequestSoundInstance(SoundDefinition def, GameObject targetParent, Vector3 position, bool firstPerson = False) { }
 
-	// RVA: 0xA76A90 Offset: 0xA75090 VA: 0x180A76A90
+	// RVA: 0xA76F60 Offset: 0xA75560 VA: 0x180A76F60
 	private Sound CreateSoundInstance(SoundDefinition def, GameObject targetParent, bool firstPerson, float cameraDistance) { }
 
-	// RVA: 0xA77080 Offset: 0xA75680 VA: 0x180A77080
+	// RVA: 0xA77550 Offset: 0xA75B50 VA: 0x180A77550
 	private List<Sound> GetOtherLocalSoundInstances(SoundDefinition def, Vector3 pos, List<Sound> otherSounds) { }
 
-	// RVA: 0xA772B0 Offset: 0xA758B0 VA: 0x180A772B0
+	// RVA: 0xA77780 Offset: 0xA75D80 VA: 0x180A77780
 	private GameObject GetSoundObject(SoundDefinition soundDef) { }
 
-	// RVA: 0xA776D0 Offset: 0xA75CD0 VA: 0x180A776D0
+	// RVA: 0xA77BA0 Offset: 0xA761A0 VA: 0x180A77BA0
 	public static void RecycleSound(Sound sound) { }
 
-	// RVA: 0xA79640 Offset: 0xA77C40 VA: 0x180A79640
+	// RVA: 0xA79B10 Offset: 0xA78110 VA: 0x180A79B10
 	public void .ctor() { }
 
 }
@@ -88,7 +88,7 @@ public class SoundManager.ScheduledSound // TypeDefIndex: 9033
 
 	// Methods
 
-	// RVA: 0xA74C00 Offset: 0xA73200 VA: 0x180A74C00
+	// RVA: 0xA750D0 Offset: 0xA736D0 VA: 0x180A750D0
 	public void .ctor(SoundDefinition def, float startTime, Vector3 position, float volumeMod = 1) { }
 
 }

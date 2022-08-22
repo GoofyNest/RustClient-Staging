@@ -5,50 +5,50 @@ public class PhotoCapture : IDisposable // TypeDefIndex: 3607
 
 	// Methods
 
-	// RVA: 0x21794D0 Offset: 0x2177AD0 VA: 0x1821794D0
+	// RVA: 0x2179CF0 Offset: 0x21782F0 VA: 0x182179CF0
 	private static PhotoCapture.PhotoCaptureResult MakeCaptureResult(long hResult) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2179250 Offset: 0x2177850 VA: 0x182179250
+	// RVA: 0x2179A70 Offset: 0x2178070 VA: 0x182179A70
 	private static void InvokeOnCreatedResourceDelegate(PhotoCapture.OnCaptureResourceCreatedCallback callback, IntPtr nativePtr) { }
 
-	// RVA: 0x182A180 Offset: 0x1828780 VA: 0x18182A180
+	// RVA: 0x18175C0 Offset: 0x1815BC0 VA: 0x1818175C0
 	private void .ctor(IntPtr nativeCaptureObject) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21792F0 Offset: 0x21778F0 VA: 0x1821792F0
+	// RVA: 0x2179B10 Offset: 0x2178110 VA: 0x182179B10
 	private static void InvokeOnPhotoModeStartedDelegate(PhotoCapture.OnPhotoModeStartedCallback callback, long hResult) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21793E0 Offset: 0x21779E0 VA: 0x1821793E0
+	// RVA: 0x2179C00 Offset: 0x2178200 VA: 0x182179C00
 	private static void InvokeOnPhotoModeStoppedDelegate(PhotoCapture.OnPhotoModeStoppedCallback callback, long hResult) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2178F60 Offset: 0x2177560 VA: 0x182178F60
+	// RVA: 0x2179780 Offset: 0x2177D80 VA: 0x182179780
 	private static void InvokeOnCapturedPhotoToDiskDelegate(PhotoCapture.OnCapturedToDiskCallback callback, long hResult) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2179050 Offset: 0x2177650 VA: 0x182179050
+	// RVA: 0x2179870 Offset: 0x2177E70 VA: 0x182179870
 	private static void InvokeOnCapturedPhotoToMemoryDelegate(PhotoCapture.OnCapturedToMemoryCallback callback, long hResult, IntPtr photoCaptureFramePtr) { }
 
-	// RVA: 0x2178DF0 Offset: 0x21773F0 VA: 0x182178DF0 Slot: 4
+	// RVA: 0x2179610 Offset: 0x2177C10 VA: 0x182179610 Slot: 4
 	public void Dispose() { }
 
 	[NativeConditionalAttribute] // RVA: 0xDAD60 Offset: 0xDA160 VA: 0x1800DAD60
 	[NativeNameAttribute] // RVA: 0xDAD60 Offset: 0xDA160 VA: 0x1800DAD60
-	// RVA: 0x2178DB0 Offset: 0x21773B0 VA: 0x182178DB0
+	// RVA: 0x21795D0 Offset: 0x2177BD0 VA: 0x1821795D0
 	private void Dispose_Internal() { }
 
-	// RVA: 0x2178E80 Offset: 0x2177480 VA: 0x182178E80 Slot: 1
+	// RVA: 0x21796A0 Offset: 0x2177CA0 VA: 0x1821796A0 Slot: 1
 	protected override void Finalize() { }
 
 	[NativeNameAttribute] // RVA: 0xDAF00 Offset: 0xDA300 VA: 0x1800DAF00
 	[NativeConditionalAttribute] // RVA: 0xDAF00 Offset: 0xDA300 VA: 0x1800DAF00
 	[ThreadAndSerializationSafeAttribute] // RVA: 0xDAF00 Offset: 0xDA300 VA: 0x1800DAF00
-	// RVA: 0x2178D70 Offset: 0x2177370 VA: 0x182178D70
+	// RVA: 0x2179590 Offset: 0x2177B90 VA: 0x182179590
 	private void DisposeThreaded_Internal() { }
 
-	// RVA: 0x2179570 Offset: 0x2177B70 VA: 0x182179570
+	// RVA: 0x2179D90 Offset: 0x2178390 VA: 0x182179D90
 	private static void .cctor() { }
 
 }
@@ -91,10 +91,10 @@ public sealed class PhotoCapture.OnPhotoModeStartedCallback : MulticastDelegate 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x21783B0 Offset: 0x21769B0 VA: 0x1821783B0 Slot: 12
+	// RVA: 0x2178BD0 Offset: 0x21771D0 VA: 0x182178BD0 Slot: 12
 	public virtual void Invoke(PhotoCapture.PhotoCaptureResult result) { }
 
-	// RVA: 0x21786F0 Offset: 0x2176CF0 VA: 0x1821786F0 Slot: 13
+	// RVA: 0x2178F10 Offset: 0x2177510 VA: 0x182178F10 Slot: 13
 	public virtual IAsyncResult BeginInvoke(PhotoCapture.PhotoCaptureResult result, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -108,10 +108,10 @@ public sealed class PhotoCapture.OnPhotoModeStoppedCallback : MulticastDelegate 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x21783B0 Offset: 0x21769B0 VA: 0x1821783B0 Slot: 12
+	// RVA: 0x2178BD0 Offset: 0x21771D0 VA: 0x182178BD0 Slot: 12
 	public virtual void Invoke(PhotoCapture.PhotoCaptureResult result) { }
 
-	// RVA: 0x2178770 Offset: 0x2176D70 VA: 0x182178770 Slot: 13
+	// RVA: 0x2178F90 Offset: 0x2177590 VA: 0x182178F90 Slot: 13
 	public virtual IAsyncResult BeginInvoke(PhotoCapture.PhotoCaptureResult result, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -125,10 +125,10 @@ public sealed class PhotoCapture.OnCapturedToDiskCallback : MulticastDelegate //
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x21783B0 Offset: 0x21769B0 VA: 0x1821783B0 Slot: 12
+	// RVA: 0x2178BD0 Offset: 0x21771D0 VA: 0x182178BD0 Slot: 12
 	public virtual void Invoke(PhotoCapture.PhotoCaptureResult result) { }
 
-	// RVA: 0x2178330 Offset: 0x2176930 VA: 0x182178330 Slot: 13
+	// RVA: 0x2178B50 Offset: 0x2177150 VA: 0x182178B50 Slot: 13
 	public virtual IAsyncResult BeginInvoke(PhotoCapture.PhotoCaptureResult result, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -142,10 +142,10 @@ public sealed class PhotoCapture.OnCapturedToMemoryCallback : MulticastDelegate 
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1A47EA0 Offset: 0x1A464A0 VA: 0x181A47EA0 Slot: 12
+	// RVA: 0x1AA09C0 Offset: 0x1A9EFC0 VA: 0x181AA09C0 Slot: 12
 	public virtual void Invoke(PhotoCapture.PhotoCaptureResult result, PhotoCaptureFrame photoCaptureFrame) { }
 
-	// RVA: 0x2178660 Offset: 0x2176C60 VA: 0x182178660 Slot: 13
+	// RVA: 0x2178E80 Offset: 0x2177480 VA: 0x182178E80 Slot: 13
 	public virtual IAsyncResult BeginInvoke(PhotoCapture.PhotoCaptureResult result, PhotoCaptureFrame photoCaptureFrame, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

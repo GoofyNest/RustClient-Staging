@@ -30,25 +30,25 @@ public class Drone : RemoteControlEntity // TypeDefIndex: 8689
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 157
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 157
 	public override bool get_RequiresMouse() { }
 
-	// RVA: 0xAB1190 Offset: 0xAAF790 VA: 0x180AB1190 Slot: 14
+	// RVA: 0xAB1660 Offset: 0xAAFC60 VA: 0x180AB1660 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xAB1250 Offset: 0xAAF850 VA: 0x180AB1250 Slot: 19
+	// RVA: 0xAB1720 Offset: 0xAAFD20 VA: 0x180AB1720 Slot: 19
 	protected override void DoClientDestroy() { }
 
-	// RVA: 0xAB1320 Offset: 0xAAF920 VA: 0x180AB1320
+	// RVA: 0xAB17F0 Offset: 0xAAFDF0 VA: 0x180AB17F0
 	private void PlayMovementStopSound() { }
 
-	// RVA: 0xAB16E0 Offset: 0xAAFCE0 VA: 0x180AB16E0
+	// RVA: 0xAB1BB0 Offset: 0xAB01B0 VA: 0x180AB1BB0
 	private void UpdateSounds() { }
 
-	// RVA: 0xAB1470 Offset: 0xAAFA70 VA: 0x180AB1470
+	// RVA: 0xAB1940 Offset: 0xAAFF40 VA: 0x180AB1940
 	private void SetMovementLoopSound(SoundDefinition targetDef) { }
 
-	// RVA: 0xAB18A0 Offset: 0xAAFEA0 VA: 0x180AB18A0
+	// RVA: 0xAB1D70 Offset: 0xAB0370 VA: 0x180AB1D70
 	public void .ctor() { }
 
 }

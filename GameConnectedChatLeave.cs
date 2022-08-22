@@ -12,13 +12,13 @@ internal struct GameConnectedChatLeave_t : ICallbackData // TypeDefIndex: 5317
 
 	// Methods
 
-	// RVA: 0x1E7900 Offset: 0x1E6D00 VA: 0x1801E7900 Slot: 5
+	// RVA: 0x1E7D20 Offset: 0x1E7120 VA: 0x1801E7D20 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E78F0 Offset: 0x1E6CF0 VA: 0x1801E78F0 Slot: 4
+	// RVA: 0x1E7D10 Offset: 0x1E7110 VA: 0x1801E7D10 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371190 Offset: 0x136F790 VA: 0x181371190
+	// RVA: 0x1370290 Offset: 0x136E890 VA: 0x181370290
 	private static void .cctor() { }
 
 }

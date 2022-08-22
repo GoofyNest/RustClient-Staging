@@ -38,73 +38,73 @@ public class ShoutcastStreamer : MonoBehaviour, IClientComponent // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x599C80 Offset: 0x598280 VA: 0x180599C80
+	// RVA: 0x599C10 Offset: 0x598210 VA: 0x180599C10
 	public static bool get_AllowInternetStreams() { }
 
-	// RVA: 0x599DD0 Offset: 0x5983D0 VA: 0x180599DD0
+	// RVA: 0x599D60 Offset: 0x598360 VA: 0x180599D60
 	public static void set_AllowInternetStreams(bool value) { }
 
-	// RVA: 0x599C10 Offset: 0x598210 VA: 0x180599C10
+	// RVA: 0x599BA0 Offset: 0x5981A0 VA: 0x180599BA0
 	public static int get_ActiveStreamCount() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x599D40 Offset: 0x598340 VA: 0x180599D40
+	// RVA: 0x599CD0 Offset: 0x5982D0 VA: 0x180599CD0
 	public uint get_CurrentReadIndex() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x59A0F0 Offset: 0x5986F0 VA: 0x18059A0F0
+	// RVA: 0x59A080 Offset: 0x598680 VA: 0x18059A080
 	public void set_CurrentReadIndex(uint value) { }
 
-	// RVA: 0x599D50 Offset: 0x598350 VA: 0x180599D50
+	// RVA: 0x599CE0 Offset: 0x5982E0 VA: 0x180599CE0
 	public bool get_IsConnected() { }
 
-	// RVA: 0x599D70 Offset: 0x598370 VA: 0x180599D70
+	// RVA: 0x599D00 Offset: 0x598300 VA: 0x180599D00
 	public bool get_IsPlayingBuiltinAudio() { }
 
-	// RVA: 0x598440 Offset: 0x596A40 VA: 0x180598440
+	// RVA: 0x5983D0 Offset: 0x5969D0 VA: 0x1805983D0
 	public void Connect(string host, bool localPlayer = False) { }
 
-	// RVA: 0x598D20 Offset: 0x597320 VA: 0x180598D20
+	// RVA: 0x598CB0 Offset: 0x5972B0 VA: 0x180598CB0
 	private RadioPlaylist GetPlaylistforUrl(string url) { }
 
-	// RVA: 0x599120 Offset: 0x597720 VA: 0x180599120
+	// RVA: 0x5990B0 Offset: 0x5976B0 VA: 0x1805990B0
 	private void PlayPlaylist() { }
 
-	// RVA: 0x599020 Offset: 0x597620 VA: 0x180599020
+	// RVA: 0x598FB0 Offset: 0x5975B0 VA: 0x180598FB0
 	public void OnStreamsAllowedToggled(bool allowed) { }
 
-	// RVA: 0x598A20 Offset: 0x597020 VA: 0x180598A20
+	// RVA: 0x5989B0 Offset: 0x596FB0 VA: 0x1805989B0
 	public void Disconnect(bool playSafeAfterDisconnect = False) { }
 
-	// RVA: 0x598DB0 Offset: 0x5973B0 VA: 0x180598DB0
+	// RVA: 0x598D40 Offset: 0x597340 VA: 0x180598D40
 	private void OnAudioRead(float[] data) { }
 
-	// RVA: 0x599280 Offset: 0x597880 VA: 0x180599280
+	// RVA: 0x599210 Offset: 0x597810 VA: 0x180599210
 	public static int ProcessStreamData(float[] data, float[] floatSamples, ref uint readIndex, uint writeIndex) { }
 
-	// RVA: 0x599510 Offset: 0x597B10 VA: 0x180599510
+	// RVA: 0x5994A0 Offset: 0x597AA0 VA: 0x1805994A0
 	protected void Update() { }
 
-	// RVA: 0x5994B0 Offset: 0x597AB0 VA: 0x1805994B0
+	// RVA: 0x599440 Offset: 0x597A40 VA: 0x180599440
 	public void ResetSample(uint read) { }
 
-	// RVA: 0x599CE0 Offset: 0x5982E0 VA: 0x180599CE0
+	// RVA: 0x599C70 Offset: 0x598270 VA: 0x180599C70
 	private uint get_BufferedData() { }
 
-	// RVA: 0x599D00 Offset: 0x598300 VA: 0x180599D00
+	// RVA: 0x599C90 Offset: 0x598290 VA: 0x180599C90
 	private float get_BufferedPercentage() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xCC050 Offset: 0xCB450 VA: 0x1800CC050
-	// RVA: 0x5993E0 Offset: 0x5979E0 VA: 0x1805993E0
+	// RVA: 0x599370 Offset: 0x597970 VA: 0x180599370
 	private void ReadData() { }
 
-	// RVA: 0x599010 Offset: 0x597610 VA: 0x180599010
+	// RVA: 0x598FA0 Offset: 0x5975A0 VA: 0x180598FA0
 	private void OnDisable() { }
 
-	// RVA: 0x599BC0 Offset: 0x5981C0 VA: 0x180599BC0
+	// RVA: 0x599B50 Offset: 0x598150 VA: 0x180599B50
 	public void .ctor() { }
 
-	// RVA: 0x599B10 Offset: 0x598110 VA: 0x180599B10
+	// RVA: 0x599AA0 Offset: 0x5980A0 VA: 0x180599AA0
 	private static void .cctor() { }
 
 }

@@ -57,140 +57,140 @@ public class TerrainTexturing : TerrainExtension // TypeDefIndex: 10432
 
 	// Methods
 
-	// RVA: 0x87EE10 Offset: 0x87D410 VA: 0x18087EE10
+	// RVA: 0x862150 Offset: 0x860750 VA: 0x180862150
 	private void InitializeBasePyramid() { }
 
-	// RVA: 0x87F3C0 Offset: 0x87D9C0 VA: 0x18087F3C0
+	// RVA: 0x862700 Offset: 0x860D00 VA: 0x180862700
 	private void ReleaseBasePyramid() { }
 
-	// RVA: 0x87F800 Offset: 0x87DE00 VA: 0x18087F800
+	// RVA: 0x862B40 Offset: 0x861140 VA: 0x180862B40
 	private void UpdateBasePyramid() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public RenderTexture get_DiffuseBasePyramidTexture() { }
 
-	// RVA: 0x87D9B0 Offset: 0x87BFB0 VA: 0x18087D9B0
+	// RVA: 0x860CF0 Offset: 0x85F2F0 VA: 0x180860CF0
 	private RenderTexture CreateBasePyramidRT(string name, int size, bool linear) { }
 
-	// RVA: 0x87ECC0 Offset: 0x87D2C0 VA: 0x18087ECC0
+	// RVA: 0x862000 Offset: 0x860600 VA: 0x180862000
 	private void InitializeBasePyramidTexture() { }
 
-	// RVA: 0x87F3C0 Offset: 0x87D9C0 VA: 0x18087F3C0
+	// RVA: 0x862700 Offset: 0x860D00 VA: 0x180862700
 	private void ReleaseBasePyramidTexture() { }
 
-	// RVA: 0x87CD50 Offset: 0x87B350 VA: 0x18087CD50
+	// RVA: 0x860090 Offset: 0x85E690 VA: 0x180860090
 	private void CacheBasePyramidTexture() { }
 
-	// RVA: 0x87F630 Offset: 0x87DC30 VA: 0x18087F630
+	// RVA: 0x862970 Offset: 0x860F70 VA: 0x180862970
 	private void UpdateBasePyramidShaderConstants() { }
 
-	// RVA: 0x87F670 Offset: 0x87DC70 VA: 0x18087F670
+	// RVA: 0x8629B0 Offset: 0x860FB0 VA: 0x1808629B0
 	private void UpdateBasePyramidTexture() { }
 
-	// RVA: 0x87D890 Offset: 0x87BE90 VA: 0x18087D890
+	// RVA: 0x860BD0 Offset: 0x85F1D0 VA: 0x180860BD0
 	private bool CheckLostBasePyramidTexture() { }
 
-	// RVA: 0x87EF90 Offset: 0x87D590 VA: 0x18087EF90
+	// RVA: 0x8622D0 Offset: 0x8608D0 VA: 0x1808622D0
 	private void InitializeCoarseHeightSlope() { }
 
-	// RVA: 0x87F3F0 Offset: 0x87D9F0 VA: 0x18087F3F0
+	// RVA: 0x862730 Offset: 0x860D30 VA: 0x180862730
 	private void ReleaseCoarseHeightSlope() { }
 
-	// RVA: 0x87F810 Offset: 0x87DE10 VA: 0x18087F810
+	// RVA: 0x862B50 Offset: 0x861150 VA: 0x180862B50
 	private void UpdateCoarseHeightSlope() { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	public RenderTexture get_CoarseHeightSlopeTexture() { }
 
-	// RVA: 0x87EE20 Offset: 0x87D420 VA: 0x18087EE20
+	// RVA: 0x862160 Offset: 0x860760 VA: 0x180862160
 	private void InitializeCoarseHeightSlopeTexture() { }
 
-	// RVA: 0x87F3F0 Offset: 0x87D9F0 VA: 0x18087F3F0
+	// RVA: 0x862730 Offset: 0x860D30 VA: 0x180862730
 	private void ReleaseCoarseHeightSlopeTexture() { }
 
-	// RVA: 0x87CF60 Offset: 0x87B560 VA: 0x18087CF60
+	// RVA: 0x8602A0 Offset: 0x85E8A0 VA: 0x1808602A0
 	private void CacheCoarseHeightSlopeTexture() { }
 
-	// RVA: 0x87F810 Offset: 0x87DE10 VA: 0x18087F810
+	// RVA: 0x862B50 Offset: 0x861150 VA: 0x180862B50
 	private void UpdateCoarseHeightSlopeTexture() { }
 
-	// RVA: 0x87D920 Offset: 0x87BF20 VA: 0x18087D920
+	// RVA: 0x860C60 Offset: 0x85F260 VA: 0x180860C60
 	private bool CheckLostCoarseHeightSlopeTexture() { }
 
-	// RVA: 0x5DE920 Offset: 0x5DCF20 VA: 0x1805DE920
+	// RVA: 0x5DE8B0 Offset: 0x5DCEB0 VA: 0x1805DE8B0
 	public int get_ShoreMapSize() { }
 
-	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
+	// RVA: 0x5362B0 Offset: 0x5348B0 VA: 0x1805362B0
 	public Vector3[] get_ShoreMap() { }
 
-	// RVA: 0x87EFA0 Offset: 0x87D5A0 VA: 0x18087EFA0
+	// RVA: 0x8622E0 Offset: 0x8608E0 VA: 0x1808622E0
 	private void InitializeShoreVector() { }
 
-	// RVA: 0x87DED0 Offset: 0x87C4D0 VA: 0x18087DED0
+	// RVA: 0x861210 Offset: 0x85F810 VA: 0x180861210
 	private void GenerateShoreVector() { }
 
-	// RVA: 0x87F440 Offset: 0x87DA40 VA: 0x18087F440
+	// RVA: 0x862780 Offset: 0x860D80 VA: 0x180862780
 	private void ReleaseShoreVector() { }
 
-	// RVA: 0x87DFB0 Offset: 0x87C5B0 VA: 0x18087DFB0
+	// RVA: 0x8612F0 Offset: 0x85F8F0 VA: 0x1808612F0
 	private void GenerateShoreVector(out float[] distances, out Vector3[] vectors) { }
 
-	// RVA: 0x87E5A0 Offset: 0x87CBA0 VA: 0x18087E5A0
+	// RVA: 0x8618E0 Offset: 0x85FEE0 VA: 0x1808618E0
 	public float GetCoarseDistanceToShore(Vector3 pos) { }
 
-	// RVA: 0x87E6F0 Offset: 0x87CCF0 VA: 0x18087E6F0
+	// RVA: 0x861A30 Offset: 0x860030 VA: 0x180861A30
 	public float GetCoarseDistanceToShore(Vector2 uv) { }
 
-	// RVA: 0x87E840 Offset: 0x87CE40 VA: 0x18087E840
+	// RVA: 0x861B80 Offset: 0x860180 VA: 0x180861B80
 	public Vector3 GetCoarseVectorToShore(Vector3 pos) { }
 
-	// RVA: 0x87E9C0 Offset: 0x87CFC0 VA: 0x18087E9C0
+	// RVA: 0x861D00 Offset: 0x860300 VA: 0x180861D00
 	public Vector3 GetCoarseVectorToShore(Vector2 uv) { }
 
-	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
+	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0
 	public Texture2D get_ShoreVectorTexture() { }
 
-	// RVA: 0x87DD00 Offset: 0x87C300 VA: 0x18087DD00
+	// RVA: 0x861040 Offset: 0x85F640 VA: 0x180861040
 	private void GenerateShoreVectorTexture(int size) { }
 
-	// RVA: 0x87F400 Offset: 0x87DA00 VA: 0x18087F400
+	// RVA: 0x862740 Offset: 0x860D40 VA: 0x180862740
 	private void ReleaseShoreVectorTexture() { }
 
-	// RVA: 0x8819E0 Offset: 0x87FFE0 VA: 0x1808819E0
+	// RVA: 0x864D20 Offset: 0x863320 VA: 0x180864D20
 	public static TerrainTexturing get_Instance() { }
 
-	// RVA: 0x87D790 Offset: 0x87BD90 VA: 0x18087D790
+	// RVA: 0x860AD0 Offset: 0x85F0D0 VA: 0x180860AD0
 	private void CheckInstance() { }
 
-	// RVA: 0x87CD40 Offset: 0x87B340 VA: 0x18087CD40
+	// RVA: 0x860080 Offset: 0x85E680 VA: 0x180860080
 	private void Awake() { }
 
-	// RVA: 0x87F570 Offset: 0x87DB70 VA: 0x18087F570 Slot: 4
+	// RVA: 0x8628B0 Offset: 0x860EB0 VA: 0x1808628B0 Slot: 4
 	public override void Setup() { }
 
-	// RVA: 0x87F230 Offset: 0x87D830 VA: 0x18087F230 Slot: 5
+	// RVA: 0x862570 Offset: 0x860B70 VA: 0x180862570 Slot: 5
 	public override void PostSetup() { }
 
-	// RVA: 0x87F580 Offset: 0x87DB80 VA: 0x18087F580
+	// RVA: 0x8628C0 Offset: 0x860EC0 VA: 0x1808628C0
 	private void Shutdown() { }
 
-	// RVA: 0x87CD40 Offset: 0x87B340 VA: 0x18087CD40
+	// RVA: 0x860080 Offset: 0x85E680 VA: 0x180860080
 	private void OnEnable() { }
 
-	// RVA: 0x87F1C0 Offset: 0x87D7C0 VA: 0x18087F1C0
+	// RVA: 0x862500 Offset: 0x860B00 VA: 0x180862500
 	private void OnDisable() { }
 
-	// RVA: 0x880BE0 Offset: 0x87F1E0 VA: 0x180880BE0
+	// RVA: 0x863F20 Offset: 0x862520 VA: 0x180863F20
 	private void Update() { }
 
-	// RVA: 0x87DAE0 Offset: 0x87C0E0 VA: 0x18087DAE0
+	// RVA: 0x860E20 Offset: 0x85F420 VA: 0x180860E20
 	private Material CreateMaterial(string name) { }
 
 	// RVA: -1 Offset: -1
 	private void SafeDestroy<T>(ref T mat) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D4380 Offset: 0x5D2980 VA: 0x1805D4380
+	|-RVA: 0x5D4310 Offset: 0x5D2910 VA: 0x1805D4310
 	|-TerrainTexturing.SafeDestroy<object>
 	|-TerrainTexturing.SafeDestroy<Material>
 	|-TerrainTexturing.SafeDestroy<Texture2D>
@@ -200,44 +200,44 @@ public class TerrainTexturing : TerrainExtension // TypeDefIndex: 10432
 	private void SafeDispose<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D4420 Offset: 0x5D2A20 VA: 0x1805D4420
+	|-RVA: 0x5D43B0 Offset: 0x5D29B0 VA: 0x1805D43B0
 	|-TerrainTexturing.SafeDispose<object>
 	*/
 
-	// RVA: 0x87F4B0 Offset: 0x87DAB0 VA: 0x18087F4B0
+	// RVA: 0x8627F0 Offset: 0x860DF0 VA: 0x1808627F0
 	private void SafeDestroyRT(ref RenderTexture rtex) { }
 
-	// RVA: 0x87DB60 Offset: 0x87C160 VA: 0x18087DB60
+	// RVA: 0x860EA0 Offset: 0x85F4A0 VA: 0x180860EA0
 	private Texture2D CreateTex(string name, int width, int height, TextureFormat format, bool mips, bool linear) { }
 
-	// RVA: 0x87DC50 Offset: 0x87C250 VA: 0x18087DC50
+	// RVA: 0x860F90 Offset: 0x85F590 VA: 0x180860F90
 	private void DestroyTex(ref Texture2D tex) { }
 
-	// RVA: 0x880DB0 Offset: 0x87F3B0 VA: 0x180880DB0
+	// RVA: 0x8640F0 Offset: 0x8626F0 VA: 0x1808640F0
 	private void WarmupStrings() { }
 
-	// RVA: 0x87F9E0 Offset: 0x87DFE0 VA: 0x18087F9E0
+	// RVA: 0x862D20 Offset: 0x861320 VA: 0x180862D20
 	private void UpdateTerrainShaderConstants() { }
 
-	// RVA: 0x87F920 Offset: 0x87DF20 VA: 0x18087F920
+	// RVA: 0x862C60 Offset: 0x861260 VA: 0x180862C60
 	private void UpdateFoliageDisplaceShaderConstants() { }
 
-	// RVA: 0x87F960 Offset: 0x87DF60 VA: 0x18087F960
+	// RVA: 0x862CA0 Offset: 0x8612A0 VA: 0x180862CA0
 	private void UpdateGlobalShaderConstants() { }
 
-	// RVA: 0x880870 Offset: 0x87EE70 VA: 0x180880870
+	// RVA: 0x863BB0 Offset: 0x8621B0 VA: 0x180863BB0
 	private void UpdateTerrainToGlobal() { }
 
-	// RVA: 0x87F620 Offset: 0x87DC20 VA: 0x18087F620
+	// RVA: 0x862960 Offset: 0x860F60 VA: 0x180862960
 	public void TriggerUpdateGlobalParams() { }
 
-	// RVA: 0x87F610 Offset: 0x87DC10 VA: 0x18087F610
+	// RVA: 0x862950 Offset: 0x860F50 VA: 0x180862950
 	public void TriggerBasePyramidUpdate() { }
 
-	// RVA: 0x8819C0 Offset: 0x87FFC0 VA: 0x1808819C0
+	// RVA: 0x864D00 Offset: 0x863300 VA: 0x180864D00
 	public void .ctor() { }
 
-	// RVA: 0x8816B0 Offset: 0x87FCB0 VA: 0x1808816B0
+	// RVA: 0x8649F0 Offset: 0x862FF0 VA: 0x1808649F0
 	private static void .cctor() { }
 
 }
@@ -293,7 +293,7 @@ private sealed class TerrainTexturing.<>c__DisplayClass27_1 // TypeDefIndex: 104
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x88F680 Offset: 0x88DC80 VA: 0x18088F680
+	// RVA: 0x8729C0 Offset: 0x870FC0 VA: 0x1808729C0
 	internal void <CacheCoarseHeightSlopeTexture>b__0(int dz) { }
 
 }
@@ -309,7 +309,7 @@ private sealed class TerrainTexturing.<>c__DisplayClass27_2 // TypeDefIndex: 104
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x88FAB0 Offset: 0x88E0B0 VA: 0x18088FAB0
+	// RVA: 0x872DF0 Offset: 0x8713F0 VA: 0x180872DF0
 	internal void <CacheCoarseHeightSlopeTexture>b__1(int dz) { }
 
 }

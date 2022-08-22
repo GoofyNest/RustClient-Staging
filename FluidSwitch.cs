@@ -11,25 +11,25 @@ public class FluidSwitch : ElectricSwitch // TypeDefIndex: 9801
 
 	// Methods
 
-	// RVA: 0x7934F0 Offset: 0x791AF0 VA: 0x1807934F0 Slot: 27
+	// RVA: 0x793400 Offset: 0x791A00 VA: 0x180793400 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 146
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 146
 	public override bool get_IsGravitySource() { }
 
-	// RVA: 0x793650 Offset: 0x791C50 VA: 0x180793650 Slot: 157
+	// RVA: 0x793560 Offset: 0x791B60 VA: 0x180793560 Slot: 157
 	protected override bool get_DisregardGravityRestrictionsOnLiquid() { }
 
-	// RVA: 0x7932F0 Offset: 0x7918F0 VA: 0x1807932F0 Slot: 158
+	// RVA: 0x793200 Offset: 0x791800 VA: 0x180793200 Slot: 158
 	public override bool AllowLiquidPassthrough(IOEntity fromSource, Vector3 sourceWorldPosition, bool forPlacement = False) { }
 
-	// RVA: 0x793370 Offset: 0x791970 VA: 0x180793370 Slot: 80
+	// RVA: 0x793280 Offset: 0x791880 VA: 0x180793280 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x793630 Offset: 0x791C30 VA: 0x180793630
+	// RVA: 0x793540 Offset: 0x791B40 VA: 0x180793540
 	public void .ctor() { }
 
-	// RVA: 0x7935C0 Offset: 0x791BC0 VA: 0x1807935C0
+	// RVA: 0x7934D0 Offset: 0x791AD0 VA: 0x1807934D0
 	private static void .cctor() { }
 
 }

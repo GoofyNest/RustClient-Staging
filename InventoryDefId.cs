@@ -4,28 +4,28 @@ public struct InventoryDefId : IEquatable<InventoryDefId>, IComparable<Inventory
 
 	// Methods
 
-	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
+	// RVA: 0x68A650 Offset: 0x688C50 VA: 0x18068A650
 	public static InventoryDefId op_Implicit(int value) { }
 
-	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
+	// RVA: 0x68A650 Offset: 0x688C50 VA: 0x18068A650
 	public static int op_Implicit(InventoryDefId value) { }
 
-	// RVA: 0x1D9220 Offset: 0x1D8620 VA: 0x1801D9220 Slot: 3
+	// RVA: 0x1D9890 Offset: 0x1D8C90 VA: 0x1801D9890 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x14C4D0 Offset: 0x14B8D0 VA: 0x18014C4D0 Slot: 2
+	// RVA: 0x14C2F0 Offset: 0x14B6F0 VA: 0x18014C2F0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1EAE00 Offset: 0x1EA200 VA: 0x1801EAE00 Slot: 0
+	// RVA: 0x1EB220 Offset: 0x1EA620 VA: 0x1801EB220 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0x1D7CB0 Offset: 0x1D70B0 VA: 0x1801D7CB0 Slot: 4
+	// RVA: 0x1D8320 Offset: 0x1D7720 VA: 0x1801D8320 Slot: 4
 	public bool Equals(InventoryDefId p) { }
 
-	// RVA: 0x1371E20 Offset: 0x1370420 VA: 0x181371E20
+	// RVA: 0x1370F20 Offset: 0x136F520 VA: 0x181370F20
 	public static bool op_Equality(InventoryDefId a, InventoryDefId b) { }
 
-	// RVA: 0x1D91A0 Offset: 0x1D85A0 VA: 0x1801D91A0 Slot: 5
+	// RVA: 0x1D9810 Offset: 0x1D8C10 VA: 0x1801D9810 Slot: 5
 	public int CompareTo(InventoryDefId other) { }
 
 }

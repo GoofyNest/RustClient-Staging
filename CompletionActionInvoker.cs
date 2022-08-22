@@ -5,10 +5,10 @@ internal sealed class CompletionActionInvoker : IThreadPoolWorkItem // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	internal void .ctor(ITaskCompletionAction action, Task completingTask) { }
 
-	// RVA: 0x14927D0 Offset: 0x1490DD0 VA: 0x1814927D0 Slot: 4
+	// RVA: 0x14918A0 Offset: 0x148FEA0 VA: 0x1814918A0 Slot: 4
 	public void ExecuteWorkItem() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5

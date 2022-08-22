@@ -54,143 +54,143 @@ internal class WebConnectionStream : Stream // TypeDefIndex: 3033
 
 	// Methods
 
-	// RVA: 0x1182B90 Offset: 0x1181190 VA: 0x181182B90
+	// RVA: 0x11874B0 Offset: 0x1185AB0 VA: 0x1811874B0
 	public void .ctor(WebConnection cnc, WebConnectionData data) { }
 
-	// RVA: 0x1182A00 Offset: 0x1181000 VA: 0x181182A00
+	// RVA: 0x1187320 Offset: 0x1185920 VA: 0x181187320
 	public void .ctor(WebConnection cnc, HttpWebRequest request) { }
 
-	// RVA: 0x11809F0 Offset: 0x117EFF0 VA: 0x1811809F0
+	// RVA: 0x1185310 Offset: 0x1183910 VA: 0x181185310
 	private bool CheckAuthHeader(string headerName) { }
 
-	// RVA: 0x11815A0 Offset: 0x117FBA0 VA: 0x1811815A0
+	// RVA: 0x1185EC0 Offset: 0x11844C0 VA: 0x181185EC0
 	private bool IsNtlmAuth() { }
 
-	// RVA: 0x1180AC0 Offset: 0x117F0C0 VA: 0x181180AC0
+	// RVA: 0x11853E0 Offset: 0x11839E0 VA: 0x1811853E0
 	internal void CheckResponseInBuffer() { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	internal WebConnection get_Connection() { }
 
-	// RVA: 0x107A110 Offset: 0x1078710 VA: 0x18107A110 Slot: 13
+	// RVA: 0x107AB80 Offset: 0x1079180 VA: 0x18107AB80 Slot: 13
 	public override int get_ReadTimeout() { }
 
-	// RVA: 0x107A100 Offset: 0x1078700 VA: 0x18107A100 Slot: 14
+	// RVA: 0x107AB70 Offset: 0x1079170 VA: 0x18107AB70 Slot: 14
 	public override int get_WriteTimeout() { }
 
-	// RVA: 0x1182ED0 Offset: 0x11814D0 VA: 0x181182ED0
+	// RVA: 0x11877F0 Offset: 0x1185DF0 VA: 0x1811877F0
 	internal bool get_CompleteRequestWritten() { }
 
-	// RVA: 0xEC1B30 Offset: 0xEC0130 VA: 0x180EC1B30
+	// RVA: 0xEC25E0 Offset: 0xEC0BE0 VA: 0x180EC25E0
 	internal void set_SendChunked(bool value) { }
 
-	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
+	// RVA: 0x4BC5A0 Offset: 0x4BABA0 VA: 0x1804BC5A0
 	internal void set_ReadBuffer(byte[] value) { }
 
-	// RVA: 0x598430 Offset: 0x596A30 VA: 0x180598430
+	// RVA: 0x5983C0 Offset: 0x5969C0 VA: 0x1805983C0
 	internal void set_ReadBufferOffset(int value) { }
 
-	// RVA: 0x59A0F0 Offset: 0x5986F0 VA: 0x18059A0F0
+	// RVA: 0x59A080 Offset: 0x598680 VA: 0x18059A080
 	internal void set_ReadBufferSize(int value) { }
 
-	// RVA: 0x1182FE0 Offset: 0x11815E0 VA: 0x181182FE0
+	// RVA: 0x1187900 Offset: 0x1185F00 VA: 0x181187900
 	internal byte[] get_WriteBuffer() { }
 
-	// RVA: 0x1182FB0 Offset: 0x11815B0 VA: 0x181182FB0
+	// RVA: 0x11878D0 Offset: 0x1185ED0 VA: 0x1811878D0
 	internal int get_WriteBufferLength() { }
 
-	// RVA: 0x1181550 Offset: 0x117FB50 VA: 0x181181550
+	// RVA: 0x1185E70 Offset: 0x1184470 VA: 0x181185E70
 	internal void ForceCompletion() { }
 
-	// RVA: 0x1180A80 Offset: 0x117F080 VA: 0x181180A80
+	// RVA: 0x11853A0 Offset: 0x11839A0 VA: 0x1811853A0
 	internal void CheckComplete() { }
 
-	// RVA: 0x1181690 Offset: 0x117FC90 VA: 0x181181690
+	// RVA: 0x1185FB0 Offset: 0x11845B0 VA: 0x181185FB0
 	internal void ReadAll() { }
 
-	// RVA: 0x11823E0 Offset: 0x11809E0 VA: 0x1811823E0
+	// RVA: 0x1186D00 Offset: 0x1185300 VA: 0x181186D00
 	private void WriteCallbackWrapper(IAsyncResult r) { }
 
-	// RVA: 0x1181A70 Offset: 0x1180070 VA: 0x181181A70
+	// RVA: 0x1186390 Offset: 0x1184990 VA: 0x181186390
 	private void ReadCallbackWrapper(IAsyncResult r) { }
 
-	// RVA: 0x1181B90 Offset: 0x1180190 VA: 0x181181B90 Slot: 27
+	// RVA: 0x11864B0 Offset: 0x1184AB0 VA: 0x1811864B0 Slot: 27
 	public override int Read(byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x117FEB0 Offset: 0x117E4B0 VA: 0x18117FEB0 Slot: 19
+	// RVA: 0x11847D0 Offset: 0x1182DD0 VA: 0x1811847D0 Slot: 19
 	public override IAsyncResult BeginRead(byte[] buffer, int offset, int size, AsyncCallback cb, object state) { }
 
-	// RVA: 0x1180F80 Offset: 0x117F580 VA: 0x181180F80 Slot: 20
+	// RVA: 0x11858A0 Offset: 0x1183EA0 VA: 0x1811858A0 Slot: 20
 	public override int EndRead(IAsyncResult r) { }
 
-	// RVA: 0x1182190 Offset: 0x1180790 VA: 0x181182190
+	// RVA: 0x1186AB0 Offset: 0x11850B0 VA: 0x181186AB0
 	private void WriteAsyncCB(IAsyncResult r) { }
 
-	// RVA: 0x1180270 Offset: 0x117E870 VA: 0x181180270 Slot: 22
+	// RVA: 0x1184B90 Offset: 0x1183190 VA: 0x181184B90 Slot: 22
 	public override IAsyncResult BeginWrite(byte[] buffer, int offset, int size, AsyncCallback cb, object state) { }
 
-	// RVA: 0x1180B10 Offset: 0x117F110 VA: 0x181180B10
+	// RVA: 0x1185430 Offset: 0x1183A30 VA: 0x181185430
 	private void CheckWriteOverflow(long contentLength, long totalWritten, long size) { }
 
-	// RVA: 0x11812E0 Offset: 0x117F8E0 VA: 0x1811812E0 Slot: 23
+	// RVA: 0x1185C00 Offset: 0x1184200 VA: 0x181185C00 Slot: 23
 	public override void EndWrite(IAsyncResult r) { }
 
-	// RVA: 0x11827D0 Offset: 0x1180DD0 VA: 0x1811827D0 Slot: 29
+	// RVA: 0x11870F0 Offset: 0x11856F0 VA: 0x1811870F0 Slot: 29
 	public override void Write(byte[] buffer, int offset, int size) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 18
 	public override void Flush() { }
 
-	// RVA: 0x1181D80 Offset: 0x1180380 VA: 0x181181D80
+	// RVA: 0x11866A0 Offset: 0x1184CA0 VA: 0x1811866A0
 	internal void SetHeadersAsync(bool setInternalLength, SimpleAsyncCallback callback) { }
 
-	// RVA: 0x1181E40 Offset: 0x1180440 VA: 0x181181E40
+	// RVA: 0x1186760 Offset: 0x1184D60 VA: 0x181186760
 	private bool SetHeadersAsync(SimpleAsyncResult result, bool setInternalLength) { }
 
-	// RVA: 0x1182FA0 Offset: 0x11815A0 VA: 0x181182FA0
+	// RVA: 0x11878C0 Offset: 0x1185EC0 VA: 0x1811878C0
 	internal bool get_RequestWritten() { }
 
-	// RVA: 0x1182550 Offset: 0x1180B50 VA: 0x181182550
+	// RVA: 0x1186E70 Offset: 0x1185470 VA: 0x181186E70
 	internal bool WriteRequestAsync(SimpleAsyncResult result) { }
 
-	// RVA: 0x962F70 Offset: 0x961570 VA: 0x180962F70
+	// RVA: 0x963470 Offset: 0x961A70 VA: 0x180963470
 	internal void InternalClose() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1182EE0 Offset: 0x11814E0 VA: 0x181182EE0
+	// RVA: 0x1187800 Offset: 0x1185E00 VA: 0x181187800
 	internal bool get_GetResponseOnClose() { }
 
-	// RVA: 0x1180BE0 Offset: 0x117F1E0 VA: 0x181180BE0 Slot: 16
+	// RVA: 0x1185500 Offset: 0x1183B00 VA: 0x181185500 Slot: 16
 	public override void Close() { }
 
-	// RVA: 0x1181670 Offset: 0x117FC70 VA: 0x181181670
+	// RVA: 0x1185F90 Offset: 0x1184590 VA: 0x181185F90
 	internal void KillBuffer() { }
 
-	// RVA: 0x1181D30 Offset: 0x1180330 VA: 0x181181D30 Slot: 25
+	// RVA: 0x1186650 Offset: 0x1184C50 VA: 0x181186650 Slot: 25
 	public override long Seek(long a, SeekOrigin b) { }
 
-	// RVA: 0x1182140 Offset: 0x1180740 VA: 0x181182140 Slot: 26
+	// RVA: 0x1186A60 Offset: 0x1185060 VA: 0x181186A60 Slot: 26
 	public override void SetLength(long a) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 8
 	public override bool get_CanSeek() { }
 
-	// RVA: 0x1182E90 Offset: 0x1181490 VA: 0x181182E90 Slot: 7
+	// RVA: 0x11877B0 Offset: 0x1185DB0 VA: 0x1811877B0 Slot: 7
 	public override bool get_CanRead() { }
 
-	// RVA: 0x1182EB0 Offset: 0x11814B0 VA: 0x181182EB0 Slot: 9
+	// RVA: 0x11877D0 Offset: 0x1185DD0 VA: 0x1811877D0 Slot: 9
 	public override bool get_CanWrite() { }
 
-	// RVA: 0x1182EF0 Offset: 0x11814F0 VA: 0x181182EF0 Slot: 10
+	// RVA: 0x1187810 Offset: 0x1185E10 VA: 0x181187810 Slot: 10
 	public override long get_Length() { }
 
-	// RVA: 0x1182F50 Offset: 0x1181550 VA: 0x181182F50 Slot: 11
+	// RVA: 0x1187870 Offset: 0x1185E70 VA: 0x181187870 Slot: 11
 	public override long get_Position() { }
 
-	// RVA: 0x1183010 Offset: 0x1181610 VA: 0x181183010 Slot: 12
+	// RVA: 0x1187930 Offset: 0x1185F30 VA: 0x181187930 Slot: 12
 	public override void set_Position(long value) { }
 
-	// RVA: 0x1182970 Offset: 0x1180F70 VA: 0x181182970
+	// RVA: 0x1187290 Offset: 0x1185890 VA: 0x181187290
 	private static void .cctor() { }
 
 }
@@ -205,7 +205,7 @@ private sealed class WebConnectionStream.<>c__DisplayClass75_0 // TypeDefIndex: 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x117DE70 Offset: 0x117C470 VA: 0x18117DE70
+	// RVA: 0x1182790 Offset: 0x1180D90 VA: 0x181182790
 	internal bool <SetHeadersAsync>b__0(SimpleAsyncResult r) { }
 
 }
@@ -220,7 +220,7 @@ private sealed class WebConnectionStream.<>c__DisplayClass76_0 // TypeDefIndex: 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x117DEA0 Offset: 0x117C4A0 VA: 0x18117DEA0
+	// RVA: 0x11827C0 Offset: 0x1180DC0 VA: 0x1811827C0
 	internal void <SetHeadersAsync>b__0(IAsyncResult r) { }
 
 }
@@ -238,10 +238,10 @@ private sealed class WebConnectionStream.<>c__DisplayClass80_0 // TypeDefIndex: 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x117E4E0 Offset: 0x117CAE0 VA: 0x18117E4E0
+	// RVA: 0x1182E00 Offset: 0x1181400 VA: 0x181182E00
 	internal void <WriteRequestAsync>b__0(SimpleAsyncResult inner) { }
 
-	// RVA: 0x117E6A0 Offset: 0x117CCA0 VA: 0x18117E6A0
+	// RVA: 0x1182FC0 Offset: 0x11815C0 VA: 0x181182FC0
 	internal void <WriteRequestAsync>b__1(IAsyncResult r) { }
 
 }

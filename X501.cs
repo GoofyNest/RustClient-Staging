@@ -18,16 +18,16 @@ internal sealed class X501 // TypeDefIndex: 57
 
 	// Methods
 
-	// RVA: 0x175D3C0 Offset: 0x175B9C0 VA: 0x18175D3C0
+	// RVA: 0x175AF80 Offset: 0x1759580 VA: 0x18175AF80
 	public static string ToString(ASN1 seq) { }
 
-	// RVA: 0x175D210 Offset: 0x175B810 VA: 0x18175D210
+	// RVA: 0x175ADD0 Offset: 0x17593D0 VA: 0x18175ADD0
 	public static string ToString(ASN1 seq, bool reversed, string separator, bool quotes) { }
 
-	// RVA: 0x175C9F0 Offset: 0x175AFF0 VA: 0x18175C9F0
+	// RVA: 0x175A5B0 Offset: 0x1758BB0 VA: 0x18175A5B0
 	private static void AppendEntry(StringBuilder sb, ASN1 entry, bool quotes) { }
 
-	// RVA: 0x175D4D0 Offset: 0x175BAD0 VA: 0x18175D4D0
+	// RVA: 0x175B090 Offset: 0x1759690 VA: 0x18175B090
 	private static void .cctor() { }
 
 }
@@ -52,16 +52,16 @@ public sealed class X501 // TypeDefIndex: 1713
 
 	// Methods
 
-	// RVA: 0x227D700 Offset: 0x227BD00 VA: 0x18227D700
+	// RVA: 0x227DF20 Offset: 0x227C520 VA: 0x18227DF20
 	public static string ToString(ASN1 seq) { }
 
-	// RVA: 0x227D810 Offset: 0x227BE10 VA: 0x18227D810
+	// RVA: 0x227E030 Offset: 0x227C630 VA: 0x18227E030
 	public static string ToString(ASN1 seq, bool reversed, string separator, bool quotes) { }
 
-	// RVA: 0x227CEE0 Offset: 0x227B4E0 VA: 0x18227CEE0
+	// RVA: 0x227D700 Offset: 0x227BD00 VA: 0x18227D700
 	private static void AppendEntry(StringBuilder sb, ASN1 entry, bool quotes) { }
 
-	// RVA: 0x227D9C0 Offset: 0x227BFC0 VA: 0x18227D9C0
+	// RVA: 0x227E1E0 Offset: 0x227C7E0 VA: 0x18227E1E0
 	private static void .cctor() { }
 
 }

@@ -9,21 +9,21 @@ public static class SubsystemManager // TypeDefIndex: 3944
 
 	// Methods
 
-	// RVA: 0x2319950 Offset: 0x2317F50 VA: 0x182319950
+	// RVA: 0x231A170 Offset: 0x2318770 VA: 0x18231A170
 	private static void .cctor() { }
 
-	// RVA: 0x2319910 Offset: 0x2317F10 VA: 0x182319910
+	// RVA: 0x231A130 Offset: 0x2318730 VA: 0x18231A130
 	internal static void ReportSingleSubsystemAnalytics(string id) { }
 
-	// RVA: 0x2319950 Offset: 0x2317F50 VA: 0x182319950
+	// RVA: 0x231A170 Offset: 0x2318770 VA: 0x18231A170
 	internal static void StaticConstructScriptingClassMap() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2319870 Offset: 0x2317E70 VA: 0x182319870
+	// RVA: 0x231A090 Offset: 0x2318690 VA: 0x18231A090
 	private static void Internal_ReloadSubsystemsStarted() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x23197D0 Offset: 0x2317DD0 VA: 0x1823197D0
+	// RVA: 0x2319FF0 Offset: 0x23185F0 VA: 0x182319FF0
 	private static void Internal_ReloadSubsystemsCompleted() { }
 
 }

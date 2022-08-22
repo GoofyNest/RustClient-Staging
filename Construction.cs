@@ -35,40 +35,40 @@ public class Construction : PrefabAttribute // TypeDefIndex: 9052
 
 	// Methods
 
-	// RVA: 0x6B5640 Offset: 0x6B3C40 VA: 0x1806B5640
+	// RVA: 0x6B55D0 Offset: 0x6B3BD0 VA: 0x1806B55D0
 	public bool UpdatePlacement(Transform transform, Construction common, ref Construction.Target target) { }
 
-	// RVA: 0x6B4C60 Offset: 0x6B3260 VA: 0x1806B4C60
+	// RVA: 0x6B4BF0 Offset: 0x6B31F0 VA: 0x1806B4BF0
 	private bool TestPlacingThroughRock(ref Construction.Placement placement, Construction.Target target) { }
 
-	// RVA: 0x6B4F20 Offset: 0x6B3520 VA: 0x1806B4F20
+	// RVA: 0x6B4EB0 Offset: 0x6B34B0 VA: 0x1806B4EB0
 	private static bool TestPlacingThroughWall(ref Construction.Placement placement, Transform transform, Construction common, Construction.Target target) { }
 
-	// RVA: 0x6B47B0 Offset: 0x6B2DB0 VA: 0x1806B47B0
+	// RVA: 0x6B4740 Offset: 0x6B2D40 VA: 0x1806B4740
 	private bool TestPlacingCloseToRoad(ref Construction.Placement placement, Construction.Target target) { }
 
-	// RVA: 0x6B43C0 Offset: 0x6B29C0 VA: 0x1806B43C0 Slot: 8
+	// RVA: 0x6B4350 Offset: 0x6B2950 VA: 0x1806B4350 Slot: 8
 	public virtual bool ShowAsNeutral(Construction.Target target) { }
 
-	// RVA: 0x6B66B0 Offset: 0x6B4CB0 VA: 0x1806B66B0
+	// RVA: 0x6B6640 Offset: 0x6B4C40 VA: 0x1806B6640
 	public static bool get_DebugDraw() { }
 
-	// RVA: 0x6B42C0 Offset: 0x6B28C0 VA: 0x1806B42C0
+	// RVA: 0x6B4250 Offset: 0x6B2850 VA: 0x1806B4250
 	public bool HasMaleSockets(Construction.Target target) { }
 
-	// RVA: 0x6B4100 Offset: 0x6B2700 VA: 0x1806B4100
+	// RVA: 0x6B4090 Offset: 0x6B2690 VA: 0x1806B4090
 	public void FindMaleSockets(Construction.Target target, List<Socket_Base> sockets) { }
 
-	// RVA: 0x6B36B0 Offset: 0x6B1CB0 VA: 0x1806B36B0
+	// RVA: 0x6B3640 Offset: 0x6B1C40 VA: 0x1806B3640
 	public GameObject CreateGuideSkin() { }
 
-	// RVA: 0x6B32F0 Offset: 0x6B18F0 VA: 0x1806B32F0 Slot: 6
+	// RVA: 0x6B3280 Offset: 0x6B1880 VA: 0x1806B3280 Slot: 6
 	protected override void AttributeSetup(GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x6B4260 Offset: 0x6B2860 VA: 0x1806B4260 Slot: 7
+	// RVA: 0x6B41F0 Offset: 0x6B27F0 VA: 0x1806B41F0 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x6B46C0 Offset: 0x6B2CC0 VA: 0x1806B46C0
+	// RVA: 0x6B4650 Offset: 0x6B2C50 VA: 0x1806B4650
 	public void .ctor() { }
 
 }
@@ -120,10 +120,10 @@ public class Construction.Grade // TypeDefIndex: 9055
 
 	// Methods
 
-	// RVA: 0x6C81E0 Offset: 0x6C67E0 VA: 0x1806C81E0
+	// RVA: 0x6C8170 Offset: 0x6C6770 VA: 0x1806C8170
 	public PhysicMaterial get_physicMaterial() { }
 
-	// RVA: 0x6C81C0 Offset: 0x6C67C0 VA: 0x1806C81C0
+	// RVA: 0x6C8150 Offset: 0x6C6750 VA: 0x1806C8150
 	public ProtectionProperties get_damageProtecton() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -139,30 +139,30 @@ private sealed class Construction.<>c // TypeDefIndex: 9056
 
 	// Methods
 
-	// RVA: 0x6C90C0 Offset: 0x6C76C0 VA: 0x1806C90C0
+	// RVA: 0x6C9050 Offset: 0x6C7650 VA: 0x1806C9050
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x6C8F40 Offset: 0x6C7540 VA: 0x1806C8F40
+	// RVA: 0x6C8ED0 Offset: 0x6C74D0 VA: 0x1806C8ED0
 	internal bool <CreateGuideSkin>b__33_0(ConstructionGrade x) { }
 
-	// RVA: 0x6C8FA0 Offset: 0x6C75A0 VA: 0x1806C8FA0
+	// RVA: 0x6C8F30 Offset: 0x6C7530 VA: 0x1806C8F30
 	internal BuildingGrade.Enum <CreateGuideSkin>b__33_1(ConstructionGrade x) { }
 
 }
 
 public class Construction_SleepingBag : Construction // TypeDefIndex: 9063
 {	// Fields
-	public static bool ShowSleepingBagProximityWarning; // 0x1C55
+	public static bool ShowSleepingBagProximityWarning; // 0x1B70
 
 	// Methods
 
-	// RVA: 0x6B43E0 Offset: 0x6B29E0 VA: 0x1806B43E0 Slot: 8
+	// RVA: 0x6B4370 Offset: 0x6B2970 VA: 0x1806B4370 Slot: 8
 	public override bool ShowAsNeutral(Construction.Target target) { }
 
-	// RVA: 0x6B46C0 Offset: 0x6B2CC0 VA: 0x1806B46C0
+	// RVA: 0x6B4650 Offset: 0x6B2C50 VA: 0x1806B4650
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

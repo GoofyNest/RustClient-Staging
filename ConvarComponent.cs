@@ -6,16 +6,16 @@ public class ConvarComponent : MonoBehaviour // TypeDefIndex: 11302
 
 	// Methods
 
-	// RVA: 0x6BA3C0 Offset: 0x6B89C0 VA: 0x1806BA3C0
+	// RVA: 0x6BA350 Offset: 0x6B8950 VA: 0x1806BA350
 	protected void OnEnable() { }
 
-	// RVA: 0x6BA1C0 Offset: 0x6B87C0 VA: 0x1806BA1C0
+	// RVA: 0x6BA150 Offset: 0x6B8750 VA: 0x1806BA150
 	protected void OnDisable() { }
 
-	// RVA: 0x6BA4E0 Offset: 0x6B8AE0 VA: 0x1806BA4E0
+	// RVA: 0x6BA470 Offset: 0x6B8A70 VA: 0x1806BA470
 	private bool ShouldRun() { }
 
-	// RVA: 0x6BA4F0 Offset: 0x6B8AF0 VA: 0x1806BA4F0
+	// RVA: 0x6BA480 Offset: 0x6B8A80 VA: 0x1806BA480
 	public void .ctor() { }
 
 }
@@ -29,13 +29,13 @@ public class ConvarComponent.ConvarEvent // TypeDefIndex: 11303
 
 	// Methods
 
-	// RVA: 0x6BA630 Offset: 0x6B8C30 VA: 0x1806BA630
+	// RVA: 0x6BA5C0 Offset: 0x6B8BC0 VA: 0x1806BA5C0
 	public void OnEnable() { }
 
-	// RVA: 0x6BA7E0 Offset: 0x6B8DE0 VA: 0x1806BA7E0
+	// RVA: 0x6BA770 Offset: 0x6B8D70 VA: 0x1806BA770
 	private void cmd_OnValueChanged(ConsoleSystem.Command obj) { }
 
-	// RVA: 0x6BA570 Offset: 0x6B8B70 VA: 0x1806BA570
+	// RVA: 0x6BA500 Offset: 0x6B8B00 VA: 0x1806BA500
 	public void OnDisable() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

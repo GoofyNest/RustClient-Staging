@@ -12,23 +12,23 @@ public abstract class Encoder // TypeDefIndex: 444
 
 	// Methods
 
-	// RVA: 0x18AF080 Offset: 0x18AD680 VA: 0x1818AF080
+	// RVA: 0x18AE7A0 Offset: 0x18ACDA0 VA: 0x1818AE7A0
 	internal void SerializeEncoder(SerializationInfo info) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	protected void .ctor() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public EncoderFallback get_Fallback() { }
 
-	// RVA: 0x18AF0E0 Offset: 0x18AD6E0 VA: 0x1818AF0E0
+	// RVA: 0x18AE800 Offset: 0x18ACE00 VA: 0x1818AE800
 	public EncoderFallbackBuffer get_FallbackBuffer() { }
 
-	// RVA: 0x17CB400 Offset: 0x17C9A00 VA: 0x1817CB400
+	// RVA: 0x17C8F50 Offset: 0x17C7550 VA: 0x1817C8F50
 	internal bool get_InternalHasFallbackBuffer() { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x18AEFB0 Offset: 0x18AD5B0 VA: 0x1818AEFB0 Slot: 4
+	// RVA: 0x18AE6D0 Offset: 0x18ACCD0 VA: 0x1818AE6D0 Slot: 4
 	public virtual void Reset() { }
 
 	// RVA: -1 Offset: -1 Slot: 5
@@ -36,7 +36,7 @@ public abstract class Encoder // TypeDefIndex: 444
 
 	[CLSCompliantAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
 	[ComVisibleAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
-	// RVA: 0x18AEC10 Offset: 0x18AD210 VA: 0x1818AEC10 Slot: 6
+	// RVA: 0x18AE330 Offset: 0x18AC930 VA: 0x1818AE330 Slot: 6
 	public virtual int GetByteCount(char* chars, int count, bool flush) { }
 
 	// RVA: -1 Offset: -1 Slot: 7
@@ -44,16 +44,16 @@ public abstract class Encoder // TypeDefIndex: 444
 
 	[CLSCompliantAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
 	[ComVisibleAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
-	// RVA: 0x18AED80 Offset: 0x18AD380 VA: 0x1818AED80 Slot: 8
+	// RVA: 0x18AE4A0 Offset: 0x18ACAA0 VA: 0x1818AE4A0 Slot: 8
 	public virtual int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, bool flush) { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x18AE8A0 Offset: 0x18ACEA0 VA: 0x1818AE8A0 Slot: 9
+	// RVA: 0x18ADFC0 Offset: 0x18AC5C0 VA: 0x1818ADFC0 Slot: 9
 	public virtual void Convert(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed) { }
 
 	[ComVisibleAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
 	[CLSCompliantAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
-	// RVA: 0x18AE660 Offset: 0x18ACC60 VA: 0x1818AE660 Slot: 10
+	// RVA: 0x18ADD80 Offset: 0x18AC380 VA: 0x1818ADD80 Slot: 10
 	public virtual void Convert(char* chars, int charCount, byte* bytes, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed) { }
 
 }
@@ -64,19 +64,19 @@ public sealed class EncoderExceptionFallback : EncoderFallback // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0x18AE5B0 Offset: 0x18ACBB0 VA: 0x1818AE5B0 Slot: 4
+	// RVA: 0x18ADCD0 Offset: 0x18AC2D0 VA: 0x1818ADCD0 Slot: 4
 	public override EncoderFallbackBuffer CreateFallbackBuffer() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 5
 	public override int get_MaxCharCount() { }
 
-	// RVA: 0x18AE600 Offset: 0x18ACC00 VA: 0x1818AE600 Slot: 0
+	// RVA: 0x18ADD20 Offset: 0x18AC320 VA: 0x1818ADD20 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x18AE650 Offset: 0x18ACC50 VA: 0x1818AE650 Slot: 2
+	// RVA: 0x18ADD70 Offset: 0x18AC370 VA: 0x1818ADD70 Slot: 2
 	public override int GetHashCode() { }
 
 }
@@ -87,22 +87,22 @@ public sealed class EncoderExceptionFallbackBuffer : EncoderFallbackBuffer // Ty
 
 	// Methods
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0x18AE140 Offset: 0x18AC740 VA: 0x1818AE140 Slot: 4
+	// RVA: 0x18AD860 Offset: 0x18ABE60 VA: 0x1818AD860 Slot: 4
 	public override bool Fallback(char charUnknown, int index) { }
 
-	// RVA: 0x18AE250 Offset: 0x18AC850 VA: 0x1818AE250 Slot: 5
+	// RVA: 0x18AD970 Offset: 0x18ABF70 VA: 0x1818AD970 Slot: 5
 	public override bool Fallback(char charUnknownHigh, char charUnknownLow, int index) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 6
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 6
 	public override char GetNextChar() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 7
 	public override bool MovePrevious() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 8
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 8
 	public override int get_Remaining() { }
 
 }
@@ -116,16 +116,16 @@ public sealed class EncoderFallbackException : ArgumentException // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1913AA0 Offset: 0x19120A0 VA: 0x181913AA0
+	// RVA: 0x19131C0 Offset: 0x19117C0 VA: 0x1819131C0
 	public void .ctor() { }
 
-	// RVA: 0x15C8540 Offset: 0x15C6B40 VA: 0x1815C8540
+	// RVA: 0x15C7610 Offset: 0x15C5C10 VA: 0x1815C7610
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1913B00 Offset: 0x1912100 VA: 0x181913B00
+	// RVA: 0x1913220 Offset: 0x1911820 VA: 0x181913220
 	internal void .ctor(string message, char charUnknown, int index) { }
 
-	// RVA: 0x1913820 Offset: 0x1911E20 VA: 0x181913820
+	// RVA: 0x1912F40 Offset: 0x1911540 VA: 0x181912F40
 	internal void .ctor(string message, char charUnknownHigh, char charUnknownLow, int index) { }
 
 }
@@ -145,13 +145,13 @@ public abstract class EncoderFallback // TypeDefIndex: 450
 
 	// Methods
 
-	// RVA: 0x1913D00 Offset: 0x1912300 VA: 0x181913D00
+	// RVA: 0x1913420 Offset: 0x1911A20 VA: 0x181913420
 	private static object get_InternalSyncObject() { }
 
-	// RVA: 0x1913D90 Offset: 0x1912390 VA: 0x181913D90
+	// RVA: 0x19134B0 Offset: 0x1911AB0 VA: 0x1819134B0
 	public static EncoderFallback get_ReplacementFallback() { }
 
-	// RVA: 0x1913B40 Offset: 0x1912140 VA: 0x181913B40
+	// RVA: 0x1913260 Offset: 0x1911860 VA: 0x181913260
 	public static EncoderFallback get_ExceptionFallback() { }
 
 	// RVA: -1 Offset: -1 Slot: 4
@@ -196,22 +196,22 @@ public abstract class EncoderFallbackBuffer // TypeDefIndex: 451
 	// RVA: -1 Offset: -1 Slot: 8
 	public abstract int get_Remaining();
 
-	// RVA: 0x1913730 Offset: 0x1911D30 VA: 0x181913730 Slot: 9
+	// RVA: 0x1912E50 Offset: 0x1911450 VA: 0x181912E50 Slot: 9
 	public virtual void Reset() { }
 
-	// RVA: 0x1913710 Offset: 0x1911D10 VA: 0x181913710
+	// RVA: 0x1912E30 Offset: 0x1911430 VA: 0x181912E30
 	internal void InternalReset() { }
 
-	// RVA: 0x19136D0 Offset: 0x1911CD0 VA: 0x1819136D0
+	// RVA: 0x1912DF0 Offset: 0x19113F0 VA: 0x181912DF0
 	internal void InternalInitialize(char* charStart, char* charEnd, EncoderNLS encoder, bool setEncoder) { }
 
-	// RVA: 0x1913690 Offset: 0x1911C90 VA: 0x181913690
+	// RVA: 0x1912DB0 Offset: 0x19113B0 VA: 0x181912DB0
 	internal char InternalGetNextChar() { }
 
-	// RVA: 0x19134D0 Offset: 0x1911AD0 VA: 0x1819134D0 Slot: 10
+	// RVA: 0x1912BF0 Offset: 0x19111F0 VA: 0x181912BF0 Slot: 10
 	internal virtual bool InternalFallback(char ch, ref char* chars) { }
 
-	// RVA: 0x1913760 Offset: 0x1911D60 VA: 0x181913760
+	// RVA: 0x1912E80 Offset: 0x1911480 VA: 0x181912E80
 	internal void ThrowLastCharRecursive(int charRecursive) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -234,49 +234,49 @@ internal class EncoderNLS : Encoder, ISerializable // TypeDefIndex: 452
 
 	// Methods
 
-	// RVA: 0x1914C50 Offset: 0x1913250 VA: 0x181914C50
+	// RVA: 0x1914370 Offset: 0x1912970 VA: 0x181914370
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1914B20 Offset: 0x1913120 VA: 0x181914B20 Slot: 11
+	// RVA: 0x1914240 Offset: 0x1912840 VA: 0x181914240 Slot: 11
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1914BE0 Offset: 0x19131E0 VA: 0x181914BE0
+	// RVA: 0x1914300 Offset: 0x1912900 VA: 0x181914300
 	internal void .ctor(Encoding encoding) { }
 
-	// RVA: 0x1914D10 Offset: 0x1913310 VA: 0x181914D10
+	// RVA: 0x1914430 Offset: 0x1912A30 VA: 0x181914430
 	internal void .ctor() { }
 
-	// RVA: 0x1914AF0 Offset: 0x19130F0 VA: 0x181914AF0 Slot: 4
+	// RVA: 0x1914210 Offset: 0x1912810 VA: 0x181914210 Slot: 4
 	public override void Reset() { }
 
-	// RVA: 0x1914450 Offset: 0x1912A50 VA: 0x181914450 Slot: 5
+	// RVA: 0x1913B70 Offset: 0x1912170 VA: 0x181913B70 Slot: 5
 	public override int GetByteCount(char[] chars, int index, int count, bool flush) { }
 
-	// RVA: 0x1914600 Offset: 0x1912C00 VA: 0x181914600 Slot: 6
+	// RVA: 0x1913D20 Offset: 0x1912320 VA: 0x181913D20 Slot: 6
 	public override int GetByteCount(char* chars, int count, bool flush) { }
 
-	// RVA: 0x1914720 Offset: 0x1912D20 VA: 0x181914720 Slot: 7
+	// RVA: 0x1913E40 Offset: 0x1912440 VA: 0x181913E40 Slot: 7
 	public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, bool flush) { }
 
-	// RVA: 0x19149A0 Offset: 0x1912FA0 VA: 0x1819149A0 Slot: 8
+	// RVA: 0x19140C0 Offset: 0x19126C0 VA: 0x1819140C0 Slot: 8
 	public override int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, bool flush) { }
 
-	// RVA: 0x1913F70 Offset: 0x1912570 VA: 0x181913F70 Slot: 9
+	// RVA: 0x1913690 Offset: 0x1911C90 VA: 0x181913690 Slot: 9
 	public override void Convert(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed) { }
 
-	// RVA: 0x1914280 Offset: 0x1912880 VA: 0x181914280 Slot: 10
+	// RVA: 0x19139A0 Offset: 0x1911FA0 VA: 0x1819139A0 Slot: 10
 	public override void Convert(char* chars, int charCount, byte* bytes, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed) { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public Encoding get_Encoding() { }
 
-	// RVA: 0x82BDA0 Offset: 0x82A3A0 VA: 0x18082BDA0
+	// RVA: 0x82C2F0 Offset: 0x82A8F0 VA: 0x18082C2F0
 	public bool get_MustFlush() { }
 
-	// RVA: 0x1914D50 Offset: 0x1913350 VA: 0x181914D50 Slot: 12
+	// RVA: 0x1914470 Offset: 0x1912A70 VA: 0x181914470 Slot: 12
 	internal virtual bool get_HasState() { }
 
-	// RVA: 0xF60020 Offset: 0xF5E620 VA: 0x180F60020
+	// RVA: 0xF60AC0 Offset: 0xF5F0C0 VA: 0x180F60AC0
 	internal void ClearMustFlush() { }
 
 }
@@ -291,25 +291,25 @@ public sealed class EncoderReplacementFallback : EncoderFallback // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1915390 Offset: 0x1913990 VA: 0x181915390
+	// RVA: 0x1914AB0 Offset: 0x19130B0 VA: 0x181914AB0
 	public void .ctor() { }
 
-	// RVA: 0x19153D0 Offset: 0x19139D0 VA: 0x1819153D0
+	// RVA: 0x1914AF0 Offset: 0x19130F0 VA: 0x181914AF0
 	public void .ctor(string replacement) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string get_DefaultString() { }
 
-	// RVA: 0x19152A0 Offset: 0x19138A0 VA: 0x1819152A0 Slot: 4
+	// RVA: 0x19149C0 Offset: 0x1912FC0 VA: 0x1819149C0 Slot: 4
 	public override EncoderFallbackBuffer CreateFallbackBuffer() { }
 
-	// RVA: 0x18AD610 Offset: 0x18ABC10 VA: 0x1818AD610 Slot: 5
+	// RVA: 0x18ACD30 Offset: 0x18AB330 VA: 0x1818ACD30 Slot: 5
 	public override int get_MaxCharCount() { }
 
-	// RVA: 0x1915320 Offset: 0x1913920 VA: 0x181915320 Slot: 0
+	// RVA: 0x1914A40 Offset: 0x1913040 VA: 0x181914A40 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0xAE5D30 Offset: 0xAE4330 VA: 0x180AE5D30 Slot: 2
+	// RVA: 0xAE6200 Offset: 0xAE4800 VA: 0x180AE6200 Slot: 2
 	public override int GetHashCode() { }
 
 }
@@ -325,25 +325,25 @@ public sealed class EncoderReplacementFallbackBuffer : EncoderFallbackBuffer // 
 
 	// Methods
 
-	// RVA: 0x1915230 Offset: 0x1913830 VA: 0x181915230
+	// RVA: 0x1914950 Offset: 0x1912F50 VA: 0x181914950
 	public void .ctor(EncoderReplacementFallback fallback) { }
 
-	// RVA: 0x1915020 Offset: 0x1913620 VA: 0x181915020 Slot: 4
+	// RVA: 0x1914740 Offset: 0x1912D40 VA: 0x181914740 Slot: 4
 	public override bool Fallback(char charUnknown, int index) { }
 
-	// RVA: 0x1914D60 Offset: 0x1913360 VA: 0x181914D60 Slot: 5
+	// RVA: 0x1914480 Offset: 0x1912A80 VA: 0x181914480 Slot: 5
 	public override bool Fallback(char charUnknownHigh, char charUnknownLow, int index) { }
 
-	// RVA: 0x19151A0 Offset: 0x19137A0 VA: 0x1819151A0 Slot: 6
+	// RVA: 0x19148C0 Offset: 0x1912EC0 VA: 0x1819148C0 Slot: 6
 	public override char GetNextChar() { }
 
-	// RVA: 0x19151F0 Offset: 0x19137F0 VA: 0x1819151F0 Slot: 7
+	// RVA: 0x1914910 Offset: 0x1912F10 VA: 0x181914910 Slot: 7
 	public override bool MovePrevious() { }
 
-	// RVA: 0x1915290 Offset: 0x1913890 VA: 0x181915290 Slot: 8
+	// RVA: 0x19149B0 Offset: 0x1912FB0 VA: 0x1819149B0 Slot: 8
 	public override int get_Remaining() { }
 
-	// RVA: 0x1915210 Offset: 0x1913810 VA: 0x181915210 Slot: 9
+	// RVA: 0x1914930 Offset: 0x1912F30 VA: 0x181914930 Slot: 9
 	public override void Reset() { }
 
 }
@@ -447,110 +447,110 @@ public abstract class Encoding : ICloneable // TypeDefIndex: 455
 
 	// Methods
 
-	// RVA: 0x191AF40 Offset: 0x1919540 VA: 0x18191AF40
+	// RVA: 0x191A660 Offset: 0x1918C60 VA: 0x18191A660
 	protected void .ctor() { }
 
-	// RVA: 0x191AEB0 Offset: 0x19194B0 VA: 0x18191AEB0
+	// RVA: 0x191A5D0 Offset: 0x1918BD0 VA: 0x18191A5D0
 	protected void .ctor(int codePage) { }
 
-	// RVA: 0x191AAC0 Offset: 0x19190C0 VA: 0x18191AAC0 Slot: 5
+	// RVA: 0x191A1E0 Offset: 0x19187E0 VA: 0x18191A1E0 Slot: 5
 	internal virtual void SetDefaultFallbacks() { }
 
-	// RVA: 0x191A970 Offset: 0x1918F70 VA: 0x18191A970
+	// RVA: 0x191A090 Offset: 0x1918690 VA: 0x18191A090
 	internal void OnDeserializing() { }
 
-	// RVA: 0x191A920 Offset: 0x1918F20 VA: 0x18191A920
+	// RVA: 0x191A040 Offset: 0x1918640 VA: 0x18191A040
 	internal void OnDeserialized() { }
 
 	[OnDeserializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x191A970 Offset: 0x1918F70 VA: 0x18191A970
+	// RVA: 0x191A090 Offset: 0x1918690 VA: 0x18191A090
 	private void OnDeserializing(StreamingContext ctx) { }
 
 	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x191A920 Offset: 0x1918F20 VA: 0x18191A920
+	// RVA: 0x191A040 Offset: 0x1918640 VA: 0x18191A040
 	private void OnDeserialized(StreamingContext ctx) { }
 
 	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA7DF40 Offset: 0xA7C540 VA: 0x180A7DF40
+	// RVA: 0xA7E410 Offset: 0xA7CA10 VA: 0x180A7E410
 	private void OnSerializing(StreamingContext ctx) { }
 
-	// RVA: 0x19183F0 Offset: 0x19169F0 VA: 0x1819183F0
+	// RVA: 0x1917B10 Offset: 0x1916110 VA: 0x181917B10
 	internal void DeserializeEncoding(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x191A9B0 Offset: 0x1918FB0 VA: 0x18191A9B0
+	// RVA: 0x191A0D0 Offset: 0x19186D0 VA: 0x18191A0D0
 	internal void SerializeEncoding(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x191B240 Offset: 0x1919840 VA: 0x18191B240
+	// RVA: 0x191A960 Offset: 0x1918F60 VA: 0x18191A960
 	private static object get_InternalSyncObject() { }
 
-	// RVA: 0x1919650 Offset: 0x1917C50 VA: 0x181919650
+	// RVA: 0x1918D70 Offset: 0x1917370 VA: 0x181918D70
 	public static Encoding GetEncoding(int codepage) { }
 
-	// RVA: 0x191A500 Offset: 0x1918B00 VA: 0x18191A500
+	// RVA: 0x1919C20 Offset: 0x1918220 VA: 0x181919C20
 	public static Encoding GetEncoding(string name) { }
 
-	// RVA: 0x191A6F0 Offset: 0x1918CF0 VA: 0x18191A6F0 Slot: 6
+	// RVA: 0x1919E10 Offset: 0x1918410 VA: 0x181919E10 Slot: 6
 	public virtual byte[] GetPreamble() { }
 
-	// RVA: 0x1919450 Offset: 0x1917A50 VA: 0x181919450
+	// RVA: 0x1918B70 Offset: 0x1917170 VA: 0x181918B70
 	private void GetDataItem() { }
 
-	// RVA: 0x191B0E0 Offset: 0x19196E0 VA: 0x18191B0E0 Slot: 7
+	// RVA: 0x191A800 Offset: 0x1918E00 VA: 0x18191A800 Slot: 7
 	public virtual string get_BodyName() { }
 
-	// RVA: 0x191B1F0 Offset: 0x19197F0 VA: 0x18191B1F0 Slot: 8
+	// RVA: 0x191A910 Offset: 0x1918F10 VA: 0x18191A910 Slot: 8
 	public virtual string get_EncodingName() { }
 
-	// RVA: 0x191B200 Offset: 0x1919800 VA: 0x18191B200 Slot: 9
+	// RVA: 0x191A920 Offset: 0x1918F20 VA: 0x18191A920 Slot: 9
 	public virtual string get_HeaderName() { }
 
-	// RVA: 0x191B7E0 Offset: 0x1919DE0 VA: 0x18191B7E0 Slot: 10
+	// RVA: 0x191AF00 Offset: 0x1919500 VA: 0x18191AF00 Slot: 10
 	public virtual string get_WebName() { }
 
-	// RVA: 0x191B820 Offset: 0x1919E20 VA: 0x18191B820 Slot: 11
+	// RVA: 0x191AF40 Offset: 0x1919540 VA: 0x18191AF40 Slot: 11
 	public virtual int get_WindowsCodePage() { }
 
-	// RVA: 0x191B2D0 Offset: 0x19198D0 VA: 0x18191B2D0 Slot: 12
+	// RVA: 0x191A9F0 Offset: 0x1918FF0 VA: 0x18191A9F0 Slot: 12
 	public virtual bool get_IsBrowserDisplay() { }
 
-	// RVA: 0x191B310 Offset: 0x1919910 VA: 0x18191B310 Slot: 13
+	// RVA: 0x191AA30 Offset: 0x1919030 VA: 0x18191AA30 Slot: 13
 	public virtual bool get_IsBrowserSave() { }
 
-	// RVA: 0x191B350 Offset: 0x1919950 VA: 0x18191B350 Slot: 14
+	// RVA: 0x191AA70 Offset: 0x1919070 VA: 0x18191AA70 Slot: 14
 	public virtual bool get_IsMailNewsDisplay() { }
 
-	// RVA: 0x191B390 Offset: 0x1919990 VA: 0x18191B390 Slot: 15
+	// RVA: 0x191AAB0 Offset: 0x19190B0 VA: 0x18191AAB0 Slot: 15
 	public virtual bool get_IsMailNewsSave() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 16
 	public virtual bool get_IsSingleByte() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public EncoderFallback get_EncoderFallback() { }
 
-	// RVA: 0x191B930 Offset: 0x1919F30 VA: 0x18191B930
+	// RVA: 0x191B050 Offset: 0x1919650 VA: 0x18191B050
 	public void set_EncoderFallback(EncoderFallback value) { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public DecoderFallback get_DecoderFallback() { }
 
-	// RVA: 0x191B870 Offset: 0x1919E70 VA: 0x18191B870
+	// RVA: 0x191AF90 Offset: 0x1919590 VA: 0x18191AF90
 	public void set_DecoderFallback(DecoderFallback value) { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x1918300 Offset: 0x1916900 VA: 0x181918300 Slot: 17
+	// RVA: 0x1917A20 Offset: 0x1916020 VA: 0x181917A20 Slot: 17
 	public virtual object Clone() { }
 
-	// RVA: 0xB106C0 Offset: 0xB0ECC0 VA: 0x180B106C0
+	// RVA: 0xB10B90 Offset: 0xB0F190 VA: 0x180B10B90
 	public bool get_IsReadOnly() { }
 
-	// RVA: 0x191AFA0 Offset: 0x19195A0 VA: 0x18191AFA0
+	// RVA: 0x191A6C0 Offset: 0x1918CC0 VA: 0x18191A6C0
 	public static Encoding get_ASCII() { }
 
-	// RVA: 0x191B3D0 Offset: 0x19199D0 VA: 0x18191B3D0
+	// RVA: 0x191AAF0 Offset: 0x19190F0 VA: 0x18191AAF0
 	private static Encoding get_Latin1() { }
 
-	// RVA: 0x1918860 Offset: 0x1916E60 VA: 0x181918860 Slot: 18
+	// RVA: 0x1917F80 Offset: 0x1916580 VA: 0x181917F80 Slot: 18
 	public virtual int GetByteCount(string s) { }
 
 	// RVA: -1 Offset: -1 Slot: 19
@@ -558,33 +558,33 @@ public abstract class Encoding : ICloneable // TypeDefIndex: 455
 
 	[ComVisibleAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
 	[CLSCompliantAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
-	// RVA: 0x1918910 Offset: 0x1916F10 VA: 0x181918910 Slot: 20
+	// RVA: 0x1918030 Offset: 0x1916630 VA: 0x181918030 Slot: 20
 	public virtual int GetByteCount(char* chars, int count) { }
 
-	// RVA: 0x1277330 Offset: 0x1275930 VA: 0x181277330 Slot: 21
+	// RVA: 0x12779D0 Offset: 0x1275FD0 VA: 0x1812779D0 Slot: 21
 	internal virtual int GetByteCount(char* chars, int count, EncoderNLS encoder) { }
 
-	// RVA: 0x1918F20 Offset: 0x1917520 VA: 0x181918F20 Slot: 22
+	// RVA: 0x1918640 Offset: 0x1916C40 VA: 0x181918640 Slot: 22
 	public virtual byte[] GetBytes(char[] chars) { }
 
-	// RVA: 0x1918E50 Offset: 0x1917450 VA: 0x181918E50 Slot: 23
+	// RVA: 0x1918570 Offset: 0x1916B70 VA: 0x181918570 Slot: 23
 	public virtual byte[] GetBytes(char[] chars, int index, int count) { }
 
 	// RVA: -1 Offset: -1 Slot: 24
 	public abstract int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex);
 
-	// RVA: 0x1918C80 Offset: 0x1917280 VA: 0x181918C80 Slot: 25
+	// RVA: 0x19183A0 Offset: 0x19169A0 VA: 0x1819183A0 Slot: 25
 	public virtual byte[] GetBytes(string s) { }
 
-	// RVA: 0x1918D70 Offset: 0x1917370 VA: 0x181918D70 Slot: 26
+	// RVA: 0x1918490 Offset: 0x1916A90 VA: 0x181918490 Slot: 26
 	public virtual int GetBytes(string s, int charIndex, int charCount, byte[] bytes, int byteIndex) { }
 
-	// RVA: 0x1918E30 Offset: 0x1917430 VA: 0x181918E30 Slot: 27
+	// RVA: 0x1918550 Offset: 0x1916B50 VA: 0x181918550 Slot: 27
 	internal virtual int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, EncoderNLS encoder) { }
 
 	[CLSCompliantAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
 	[ComVisibleAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
-	// RVA: 0x1918A60 Offset: 0x1917060 VA: 0x181918A60 Slot: 28
+	// RVA: 0x1918180 Offset: 0x1916780 VA: 0x181918180 Slot: 28
 	public virtual int GetBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 	// RVA: -1 Offset: -1 Slot: 29
@@ -592,13 +592,13 @@ public abstract class Encoding : ICloneable // TypeDefIndex: 455
 
 	[CLSCompliantAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
 	[ComVisibleAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
-	// RVA: 0x1918FD0 Offset: 0x19175D0 VA: 0x181918FD0 Slot: 30
+	// RVA: 0x19186F0 Offset: 0x1916CF0 VA: 0x1819186F0 Slot: 30
 	public virtual int GetCharCount(byte* bytes, int count) { }
 
-	// RVA: 0x1919120 Offset: 0x1917720 VA: 0x181919120 Slot: 31
+	// RVA: 0x1918840 Offset: 0x1916E40 VA: 0x181918840 Slot: 31
 	internal virtual int GetCharCount(byte* bytes, int count, DecoderNLS decoder) { }
 
-	// RVA: 0x1919140 Offset: 0x1917740 VA: 0x181919140 Slot: 32
+	// RVA: 0x1918860 Offset: 0x1916E60 VA: 0x181918860 Slot: 32
 	public virtual char[] GetChars(byte[] bytes, int index, int count) { }
 
 	// RVA: -1 Offset: -1 Slot: 33
@@ -606,15 +606,15 @@ public abstract class Encoding : ICloneable // TypeDefIndex: 455
 
 	[ComVisibleAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
 	[CLSCompliantAttribute] // RVA: 0x902D0 Offset: 0x8F6D0 VA: 0x1800902D0
-	// RVA: 0x1919210 Offset: 0x1917810 VA: 0x181919210 Slot: 34
+	// RVA: 0x1918930 Offset: 0x1916F30 VA: 0x181918930 Slot: 34
 	public virtual int GetChars(byte* bytes, int byteCount, char* chars, int charCount) { }
 
-	// RVA: 0x1919430 Offset: 0x1917A30 VA: 0x181919430 Slot: 35
+	// RVA: 0x1918B50 Offset: 0x1917150 VA: 0x181918B50 Slot: 35
 	internal virtual int GetChars(byte* bytes, int byteCount, char* chars, int charCount, DecoderNLS decoder) { }
 
 	[CLSCompliantAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
 	[ComVisibleAttribute] // RVA: 0x90700 Offset: 0x8FB00 VA: 0x180090700
-	// RVA: 0x191A750 Offset: 0x1918D50 VA: 0x18191A750
+	// RVA: 0x1919E70 Offset: 0x1918470 VA: 0x181919E70
 	public string GetString(byte* bytes, int byteCount) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00 Slot: 36
@@ -624,19 +624,19 @@ public abstract class Encoding : ICloneable // TypeDefIndex: 455
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 37
 	public virtual bool IsAlwaysNormalized(NormalizationForm form) { }
 
-	// RVA: 0x1919570 Offset: 0x1917B70 VA: 0x181919570 Slot: 38
+	// RVA: 0x1918C90 Offset: 0x1917290 VA: 0x181918C90 Slot: 38
 	public virtual Decoder GetDecoder() { }
 
-	// RVA: 0x1918390 Offset: 0x1916990 VA: 0x181918390
+	// RVA: 0x1917AB0 Offset: 0x19160B0 VA: 0x181917AB0
 	private static Encoding CreateDefaultEncoding() { }
 
-	// RVA: 0x13A3A40 Offset: 0x13A2040 VA: 0x1813A3A40
+	// RVA: 0x13A2B40 Offset: 0x13A1140 VA: 0x1813A2B40
 	internal void setReadOnly(bool value = True) { }
 
-	// RVA: 0x191B120 Offset: 0x1919720 VA: 0x18191B120
+	// RVA: 0x191A840 Offset: 0x1918E40 VA: 0x18191A840
 	public static Encoding get_Default() { }
 
-	// RVA: 0x19195E0 Offset: 0x1917BE0 VA: 0x1819195E0 Slot: 39
+	// RVA: 0x1918D00 Offset: 0x1917300 VA: 0x181918D00 Slot: 39
 	public virtual Encoder GetEncoder() { }
 
 	// RVA: -1 Offset: -1 Slot: 40
@@ -645,49 +645,49 @@ public abstract class Encoding : ICloneable // TypeDefIndex: 455
 	// RVA: -1 Offset: -1 Slot: 41
 	public abstract int GetMaxCharCount(int byteCount);
 
-	// RVA: 0x191A840 Offset: 0x1918E40 VA: 0x18191A840 Slot: 42
+	// RVA: 0x1919F60 Offset: 0x1918560 VA: 0x181919F60 Slot: 42
 	public virtual string GetString(byte[] bytes) { }
 
-	// RVA: 0x191A8F0 Offset: 0x1918EF0 VA: 0x18191A8F0 Slot: 43
+	// RVA: 0x191A010 Offset: 0x1918610 VA: 0x18191A010 Slot: 43
 	public virtual string GetString(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x191B740 Offset: 0x1919D40 VA: 0x18191B740
+	// RVA: 0x191AE60 Offset: 0x1919460 VA: 0x18191AE60
 	public static Encoding get_Unicode() { }
 
-	// RVA: 0x191B040 Offset: 0x1919640 VA: 0x18191B040
+	// RVA: 0x191A760 Offset: 0x1918D60 VA: 0x18191A760
 	public static Encoding get_BigEndianUnicode() { }
 
-	// RVA: 0x191B570 Offset: 0x1919B70 VA: 0x18191B570
+	// RVA: 0x191AC90 Offset: 0x1919290 VA: 0x18191AC90
 	public static Encoding get_UTF7() { }
 
-	// RVA: 0x191B660 Offset: 0x1919C60 VA: 0x18191B660
+	// RVA: 0x191AD80 Offset: 0x1919380 VA: 0x18191AD80
 	public static Encoding get_UTF8() { }
 
-	// RVA: 0x191B4B0 Offset: 0x1919AB0 VA: 0x18191B4B0
+	// RVA: 0x191ABD0 Offset: 0x19191D0 VA: 0x18191ABD0
 	public static Encoding get_UTF32() { }
 
-	// RVA: 0x19186B0 Offset: 0x1916CB0 VA: 0x1819186B0 Slot: 0
+	// RVA: 0x1917DD0 Offset: 0x19163D0 VA: 0x181917DD0 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x191A680 Offset: 0x1918C80 VA: 0x18191A680 Slot: 2
+	// RVA: 0x1919DA0 Offset: 0x19183A0 VA: 0x181919DA0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1918800 Offset: 0x1916E00 VA: 0x181918800 Slot: 44
+	// RVA: 0x1917F20 Offset: 0x1916520 VA: 0x181917F20 Slot: 44
 	internal virtual char[] GetBestFitUnicodeToBytesData() { }
 
-	// RVA: 0x19187A0 Offset: 0x1916DA0 VA: 0x1819187A0 Slot: 45
+	// RVA: 0x1917EC0 Offset: 0x19164C0 VA: 0x181917EC0 Slot: 45
 	internal virtual char[] GetBestFitBytesToUnicodeData() { }
 
-	// RVA: 0x191AC10 Offset: 0x1919210 VA: 0x18191AC10
+	// RVA: 0x191A330 Offset: 0x1918930 VA: 0x18191A330
 	internal void ThrowBytesOverflow() { }
 
-	// RVA: 0x191AB80 Offset: 0x1919180 VA: 0x18191AB80
+	// RVA: 0x191A2A0 Offset: 0x19188A0 VA: 0x18191A2A0
 	internal void ThrowBytesOverflow(EncoderNLS encoder, bool nothingEncoded) { }
 
-	// RVA: 0x191ADB0 Offset: 0x19193B0 VA: 0x18191ADB0
+	// RVA: 0x191A4D0 Offset: 0x1918AD0 VA: 0x18191A4D0
 	internal void ThrowCharsOverflow() { }
 
-	// RVA: 0x191AD10 Offset: 0x1919310 VA: 0x18191AD10
+	// RVA: 0x191A430 Offset: 0x1918A30 VA: 0x18191A430
 	internal void ThrowCharsOverflow(DecoderNLS decoder, bool nothingDecoded) { }
 
 }
@@ -700,28 +700,28 @@ internal class Encoding.DefaultEncoder : Encoder, ISerializable, IObjectReferenc
 
 	// Methods
 
-	// RVA: 0x1913010 Offset: 0x1911610 VA: 0x181913010
+	// RVA: 0x1912730 Offset: 0x1910D30 VA: 0x181912730
 	public void .ctor(Encoding encoding) { }
 
-	// RVA: 0x1913280 Offset: 0x1911880 VA: 0x181913280
+	// RVA: 0x19129A0 Offset: 0x1910FA0 VA: 0x1819129A0
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1913110 Offset: 0x1911710 VA: 0x181913110 Slot: 12
+	// RVA: 0x1912830 Offset: 0x1910E30 VA: 0x181912830 Slot: 12
 	public object GetRealObject(StreamingContext context) { }
 
-	// RVA: 0x19131F0 Offset: 0x19117F0 VA: 0x1819131F0 Slot: 11
+	// RVA: 0x1912910 Offset: 0x1910F10 VA: 0x181912910 Slot: 11
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1913050 Offset: 0x1911650 VA: 0x181913050 Slot: 5
+	// RVA: 0x1912770 Offset: 0x1910D70 VA: 0x181912770 Slot: 5
 	public override int GetByteCount(char[] chars, int index, int count, bool flush) { }
 
-	// RVA: 0x1913080 Offset: 0x1911680 VA: 0x181913080 Slot: 6
+	// RVA: 0x19127A0 Offset: 0x1910DA0 VA: 0x1819127A0 Slot: 6
 	public override int GetByteCount(char* chars, int count, bool flush) { }
 
-	// RVA: 0x19130B0 Offset: 0x19116B0 VA: 0x1819130B0 Slot: 7
+	// RVA: 0x19127D0 Offset: 0x1910DD0 VA: 0x1819127D0 Slot: 7
 	public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, bool flush) { }
 
-	// RVA: 0x19130E0 Offset: 0x19116E0 VA: 0x1819130E0 Slot: 8
+	// RVA: 0x1912800 Offset: 0x1910E00 VA: 0x181912800 Slot: 8
 	public override int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, bool flush) { }
 
 }
@@ -733,34 +733,34 @@ internal class Encoding.DefaultDecoder : Decoder, ISerializable, IObjectReferenc
 
 	// Methods
 
-	// RVA: 0x1913010 Offset: 0x1911610 VA: 0x181913010
+	// RVA: 0x1912730 Offset: 0x1910D30 VA: 0x181912730
 	public void .ctor(Encoding encoding) { }
 
-	// RVA: 0x1912E10 Offset: 0x1911410 VA: 0x181912E10
+	// RVA: 0x1912530 Offset: 0x1910B30 VA: 0x181912530
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1912D10 Offset: 0x1911310 VA: 0x181912D10 Slot: 14
+	// RVA: 0x1912430 Offset: 0x1910A30 VA: 0x181912430 Slot: 14
 	public object GetRealObject(StreamingContext context) { }
 
-	// RVA: 0x1912D80 Offset: 0x1911380 VA: 0x181912D80 Slot: 13
+	// RVA: 0x19124A0 Offset: 0x1910AA0 VA: 0x1819124A0 Slot: 13
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xE4D900 Offset: 0xE4BF00 VA: 0x180E4D900 Slot: 5
+	// RVA: 0xE4E3B0 Offset: 0xE4C9B0 VA: 0x180E4E3B0 Slot: 5
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x1912C80 Offset: 0x1911280 VA: 0x181912C80 Slot: 6
+	// RVA: 0x19123A0 Offset: 0x19109A0 VA: 0x1819123A0 Slot: 6
 	public override int GetCharCount(byte[] bytes, int index, int count, bool flush) { }
 
-	// RVA: 0x1912C50 Offset: 0x1911250 VA: 0x181912C50 Slot: 7
+	// RVA: 0x1912370 Offset: 0x1910970 VA: 0x181912370 Slot: 7
 	public override int GetCharCount(byte* bytes, int count, bool flush) { }
 
-	// RVA: 0x18ACF50 Offset: 0x18AB550 VA: 0x1818ACF50 Slot: 8
+	// RVA: 0x18AC670 Offset: 0x18AAC70 VA: 0x1818AC670 Slot: 8
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x1912CE0 Offset: 0x19112E0 VA: 0x181912CE0 Slot: 9
+	// RVA: 0x1912400 Offset: 0x1910A00 VA: 0x181912400 Slot: 9
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, bool flush) { }
 
-	// RVA: 0x1912CB0 Offset: 0x19112B0 VA: 0x181912CB0 Slot: 10
+	// RVA: 0x19123D0 Offset: 0x19109D0 VA: 0x1819123D0 Slot: 10
 	public override int GetChars(byte* bytes, int byteCount, char* chars, int charCount, bool flush) { }
 
 }
@@ -785,34 +785,34 @@ internal class Encoding.EncodingCharBuffer // TypeDefIndex: 458
 
 	// Methods
 
-	// RVA: 0x19162A0 Offset: 0x19148A0 VA: 0x1819162A0
+	// RVA: 0x19159C0 Offset: 0x1913FC0 VA: 0x1819159C0
 	internal void .ctor(Encoding enc, DecoderNLS decoder, char* charStart, int charCount, byte* byteStart, int byteCount) { }
 
-	// RVA: 0x1915EE0 Offset: 0x19144E0 VA: 0x181915EE0
+	// RVA: 0x1915600 Offset: 0x1913C00 VA: 0x181915600
 	internal bool AddChar(char ch, int numBytes) { }
 
-	// RVA: 0x1915FC0 Offset: 0x19145C0 VA: 0x181915FC0
+	// RVA: 0x19156E0 Offset: 0x1913CE0 VA: 0x1819156E0
 	internal bool AddChar(char ch) { }
 
-	// RVA: 0x19160A0 Offset: 0x19146A0 VA: 0x1819160A0
+	// RVA: 0x19157C0 Offset: 0x1913DC0 VA: 0x1819157C0
 	internal void AdjustBytes(int count) { }
 
-	// RVA: 0x19163B0 Offset: 0x19149B0 VA: 0x1819163B0
+	// RVA: 0x1915AD0 Offset: 0x19140D0 VA: 0x181915AD0
 	internal bool get_MoreData() { }
 
-	// RVA: 0x1916280 Offset: 0x1914880 VA: 0x181916280
+	// RVA: 0x19159A0 Offset: 0x1913FA0 VA: 0x1819159A0
 	internal byte GetNextByte() { }
 
-	// RVA: 0x19163A0 Offset: 0x19149A0 VA: 0x1819163A0
+	// RVA: 0x1915AC0 Offset: 0x19140C0 VA: 0x181915AC0
 	internal int get_BytesUsed() { }
 
-	// RVA: 0x1916200 Offset: 0x1914800 VA: 0x181916200
+	// RVA: 0x1915920 Offset: 0x1913F20 VA: 0x181915920
 	internal bool Fallback(byte fallbackByte) { }
 
-	// RVA: 0x19160B0 Offset: 0x19146B0 VA: 0x1819160B0
+	// RVA: 0x19157D0 Offset: 0x1913DD0 VA: 0x1819157D0
 	internal bool Fallback(byte[] byteBuffer) { }
 
-	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
+	// RVA: 0x4BE590 Offset: 0x4BCB90 VA: 0x1804BE590
 	internal int get_Count() { }
 
 }
@@ -837,34 +837,34 @@ internal class Encoding.EncodingByteBuffer // TypeDefIndex: 459
 
 	// Methods
 
-	// RVA: 0x1915BD0 Offset: 0x19141D0 VA: 0x181915BD0
+	// RVA: 0x19152F0 Offset: 0x19138F0 VA: 0x1819152F0
 	internal void .ctor(Encoding inEncoding, EncoderNLS inEncoder, byte* inByteStart, int inByteCount, char* inCharStart, int inCharCount) { }
 
-	// RVA: 0x1915960 Offset: 0x1913F60 VA: 0x181915960
+	// RVA: 0x1915080 Offset: 0x1913680 VA: 0x181915080
 	internal bool AddByte(byte b, int moreBytesExpected) { }
 
-	// RVA: 0x19158A0 Offset: 0x1913EA0 VA: 0x1819158A0
+	// RVA: 0x1914FC0 Offset: 0x19135C0 VA: 0x181914FC0
 	internal bool AddByte(byte b1) { }
 
-	// RVA: 0x19158B0 Offset: 0x1913EB0 VA: 0x1819158B0
+	// RVA: 0x1914FD0 Offset: 0x19135D0 VA: 0x181914FD0
 	internal bool AddByte(byte b1, byte b2) { }
 
-	// RVA: 0x1915900 Offset: 0x1913F00 VA: 0x181915900
+	// RVA: 0x1915020 Offset: 0x1913620 VA: 0x181915020
 	internal bool AddByte(byte b1, byte b2, int moreBytesExpected) { }
 
-	// RVA: 0x1915AE0 Offset: 0x19140E0 VA: 0x181915AE0
+	// RVA: 0x1915200 Offset: 0x1913800 VA: 0x181915200
 	internal void MovePrevious(bool bThrow) { }
 
-	// RVA: 0x1915E90 Offset: 0x1914490 VA: 0x181915E90
+	// RVA: 0x19155B0 Offset: 0x1913BB0 VA: 0x1819155B0
 	internal bool get_MoreData() { }
 
-	// RVA: 0x1915A70 Offset: 0x1914070 VA: 0x181915A70
+	// RVA: 0x1915190 Offset: 0x1913790 VA: 0x181915190
 	internal char GetNextChar() { }
 
-	// RVA: 0x1915E70 Offset: 0x1914470 VA: 0x181915E70
+	// RVA: 0x1915590 Offset: 0x1913B90 VA: 0x181915590
 	internal int get_CharsUsed() { }
 
-	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
+	// RVA: 0x5DE3D0 Offset: 0x5DC9D0 VA: 0x1805DE3D0
 	internal int get_Count() { }
 
 }
@@ -872,46 +872,46 @@ internal class Encoding.EncodingByteBuffer // TypeDefIndex: 459
 internal abstract class EncodingNLS : Encoding // TypeDefIndex: 460
 {	// Methods
 
-	// RVA: 0x1918070 Offset: 0x1916670 VA: 0x181918070
+	// RVA: 0x1917790 Offset: 0x1915D90 VA: 0x181917790
 	protected void .ctor(int codePage) { }
 
-	// RVA: 0x1917020 Offset: 0x1915620 VA: 0x181917020 Slot: 19
+	// RVA: 0x1916740 Offset: 0x1914D40 VA: 0x181916740 Slot: 19
 	public override int GetByteCount(char[] chars, int index, int count) { }
 
-	// RVA: 0x1916F80 Offset: 0x1915580 VA: 0x181916F80 Slot: 18
+	// RVA: 0x19166A0 Offset: 0x1914CA0 VA: 0x1819166A0 Slot: 18
 	public override int GetByteCount(string s) { }
 
-	// RVA: 0x1916E80 Offset: 0x1915480 VA: 0x181916E80 Slot: 20
+	// RVA: 0x19165A0 Offset: 0x1914BA0 VA: 0x1819165A0 Slot: 20
 	public override int GetByteCount(char* chars, int count) { }
 
-	// RVA: 0x1917550 Offset: 0x1915B50 VA: 0x181917550 Slot: 26
+	// RVA: 0x1916C70 Offset: 0x1915270 VA: 0x181916C70 Slot: 26
 	public override int GetBytes(string s, int charIndex, int charCount, byte[] bytes, int byteIndex) { }
 
-	// RVA: 0x19171B0 Offset: 0x19157B0 VA: 0x1819171B0 Slot: 24
+	// RVA: 0x19168D0 Offset: 0x1914ED0 VA: 0x1819168D0 Slot: 24
 	public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex) { }
 
-	// RVA: 0x1917410 Offset: 0x1915A10 VA: 0x181917410 Slot: 28
+	// RVA: 0x1916B30 Offset: 0x1915130 VA: 0x181916B30 Slot: 28
 	public override int GetBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
-	// RVA: 0x19177B0 Offset: 0x1915DB0 VA: 0x1819177B0 Slot: 29
+	// RVA: 0x1916ED0 Offset: 0x19154D0 VA: 0x181916ED0 Slot: 29
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x1917940 Offset: 0x1915F40 VA: 0x181917940 Slot: 30
+	// RVA: 0x1917060 Offset: 0x1915660 VA: 0x181917060 Slot: 30
 	public override int GetCharCount(byte* bytes, int count) { }
 
-	// RVA: 0x1917B80 Offset: 0x1916180 VA: 0x181917B80 Slot: 33
+	// RVA: 0x19172A0 Offset: 0x19158A0 VA: 0x1819172A0 Slot: 33
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x1917A40 Offset: 0x1916040 VA: 0x181917A40 Slot: 34
+	// RVA: 0x1917160 Offset: 0x1915760 VA: 0x181917160 Slot: 34
 	public override int GetChars(byte* bytes, int byteCount, char* chars, int charCount) { }
 
-	// RVA: 0x1917EE0 Offset: 0x19164E0 VA: 0x181917EE0 Slot: 43
+	// RVA: 0x1917600 Offset: 0x1915C00 VA: 0x181917600 Slot: 43
 	public override string GetString(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x1917DE0 Offset: 0x19163E0 VA: 0x181917DE0 Slot: 38
+	// RVA: 0x1917500 Offset: 0x1915B00 VA: 0x181917500 Slot: 38
 	public override Decoder GetDecoder() { }
 
-	// RVA: 0x1917E40 Offset: 0x1916440 VA: 0x181917E40 Slot: 39
+	// RVA: 0x1917560 Offset: 0x1915B60 VA: 0x181917560 Slot: 39
 	public override Encoder GetEncoder() { }
 
 }
@@ -929,13 +929,13 @@ public abstract class EncodingProvider // TypeDefIndex: 461
 	// RVA: -1 Offset: -1 Slot: 5
 	public abstract Encoding GetEncoding(int codepage);
 
-	// RVA: 0x1918190 Offset: 0x1916790 VA: 0x181918190
+	// RVA: 0x19178B0 Offset: 0x1915EB0 VA: 0x1819178B0
 	internal static Encoding GetEncodingFromProvider(int codepage) { }
 
-	// RVA: 0x1918080 Offset: 0x1916680 VA: 0x181918080
+	// RVA: 0x19177A0 Offset: 0x1915DA0 VA: 0x1819177A0
 	internal static Encoding GetEncodingFromProvider(string encodingName) { }
 
-	// RVA: 0x19182A0 Offset: 0x19168A0 VA: 0x1819182A0
+	// RVA: 0x19179C0 Offset: 0x1915FC0 VA: 0x1819179C0
 	private static void .cctor() { }
 
 }
@@ -952,19 +952,19 @@ internal static class EncodingHelper // TypeDefIndex: 479
 
 	// Methods
 
-	// RVA: 0x1916C20 Offset: 0x1915220 VA: 0x181916C20
+	// RVA: 0x1916340 Offset: 0x1914940 VA: 0x181916340
 	internal static Encoding get_UTF8Unmarked() { }
 
-	// RVA: 0x1916660 Offset: 0x1914C60 VA: 0x181916660
+	// RVA: 0x1915D80 Offset: 0x1914380 VA: 0x181915D80
 	internal static string InternalCodePage(ref int code_page) { }
 
-	// RVA: 0x19163C0 Offset: 0x19149C0 VA: 0x1819163C0
+	// RVA: 0x1915AE0 Offset: 0x19140E0 VA: 0x181915AE0
 	internal static Encoding GetDefaultEncoding() { }
 
-	// RVA: 0x1916670 Offset: 0x1914C70 VA: 0x181916670
+	// RVA: 0x1915D90 Offset: 0x1914390 VA: 0x181915D90
 	internal static object InvokeI18N(string name, object[] args) { }
 
-	// RVA: 0x1916BC0 Offset: 0x19151C0 VA: 0x181916BC0
+	// RVA: 0x19162E0 Offset: 0x19148E0 VA: 0x1819162E0
 	private static void .cctor() { }
 
 }
@@ -979,25 +979,25 @@ internal static class EncodingTable // TypeDefIndex: 736
 
 	// Methods
 
-	// RVA: 0x16E8070 Offset: 0x16E6670 VA: 0x1816E8070
+	// RVA: 0x16E5C60 Offset: 0x16E4260 VA: 0x1816E5C60
 	private static int GetNumEncodingItems() { }
 
-	// RVA: 0x16E7C80 Offset: 0x16E6280 VA: 0x1816E7C80
+	// RVA: 0x16E5870 Offset: 0x16E3E70 VA: 0x1816E5870
 	private static InternalEncodingDataItem ENC(string name, ushort cp) { }
 
-	// RVA: 0x16E80E0 Offset: 0x16E66E0 VA: 0x1816E80E0
+	// RVA: 0x16E5CD0 Offset: 0x16E42D0 VA: 0x1816E5CD0
 	private static InternalCodePageDataItem MapCodePageDataItem(ushort cp, ushort fcp, string names, uint flags) { }
 
-	// RVA: 0x16E8110 Offset: 0x16E6710 VA: 0x1816E8110
+	// RVA: 0x16E5D00 Offset: 0x16E4300 VA: 0x1816E5D00
 	private static void .cctor() { }
 
-	// RVA: 0x16F1D40 Offset: 0x16F0340 VA: 0x1816F1D40
+	// RVA: 0x16EF930 Offset: 0x16EDF30 VA: 0x1816EF930
 	private static int internalGetCodePageFromName(string name) { }
 
-	// RVA: 0x16E7EF0 Offset: 0x16E64F0 VA: 0x1816E7EF0
+	// RVA: 0x16E5AE0 Offset: 0x16E40E0 VA: 0x1816E5AE0
 	internal static int GetCodePageFromName(string name) { }
 
-	// RVA: 0x16E7CC0 Offset: 0x16E62C0 VA: 0x1816E7CC0
+	// RVA: 0x16E58B0 Offset: 0x16E3EB0 VA: 0x1816E58B0
 	internal static CodePageDataItem GetCodePageDataItem(int codepage) { }
 
 }
@@ -1005,7 +1005,7 @@ internal static class EncodingTable // TypeDefIndex: 736
 public class ENCshift_jis : CP932 // TypeDefIndex: 7799
 {	// Methods
 
-	// RVA: 0x224C650 Offset: 0x224AC50 VA: 0x18224C650
+	// RVA: 0x224CE70 Offset: 0x224B470 VA: 0x18224CE70
 	public void .ctor() { }
 
 }
@@ -1013,7 +1013,7 @@ public class ENCshift_jis : CP932 // TypeDefIndex: 7799
 public class ENCiso_2022_jp : CP50220 // TypeDefIndex: 7807
 {	// Methods
 
-	// RVA: 0x2249DC0 Offset: 0x22483C0 VA: 0x182249DC0
+	// RVA: 0x224A5E0 Offset: 0x2248BE0 VA: 0x18224A5E0
 	public void .ctor() { }
 
 }
@@ -1021,7 +1021,7 @@ public class ENCiso_2022_jp : CP50220 // TypeDefIndex: 7807
 public class ENCeuc_jp : CP51932 // TypeDefIndex: 7811
 {	// Methods
 
-	// RVA: 0x224B1D0 Offset: 0x22497D0 VA: 0x18224B1D0
+	// RVA: 0x224B9F0 Offset: 0x2249FF0 VA: 0x18224B9F0
 	public void .ctor() { }
 
 }
@@ -1029,7 +1029,7 @@ public class ENCeuc_jp : CP51932 // TypeDefIndex: 7811
 internal class ENCgb2312 : CP936 // TypeDefIndex: 7814
 {	// Methods
 
-	// RVA: 0x224D1A0 Offset: 0x224B7A0 VA: 0x18224D1A0
+	// RVA: 0x224D9C0 Offset: 0x224BFC0 VA: 0x18224D9C0
 	public void .ctor() { }
 
 }
@@ -1037,7 +1037,7 @@ internal class ENCgb2312 : CP936 // TypeDefIndex: 7814
 internal class ENCuhc : CP949 // TypeDefIndex: 7819
 {	// Methods
 
-	// RVA: 0x224D270 Offset: 0x224B870 VA: 0x18224D270
+	// RVA: 0x224DA90 Offset: 0x224C090 VA: 0x18224DA90
 	public void .ctor() { }
 
 }
@@ -1045,7 +1045,7 @@ internal class ENCuhc : CP949 // TypeDefIndex: 7819
 internal class ENCeuc_kr : CP51949 // TypeDefIndex: 7820
 {	// Methods
 
-	// RVA: 0x224B2B0 Offset: 0x22498B0 VA: 0x18224B2B0
+	// RVA: 0x224BAD0 Offset: 0x224A0D0 VA: 0x18224BAD0
 	public void .ctor() { }
 
 }
@@ -1053,7 +1053,7 @@ internal class ENCeuc_kr : CP51949 // TypeDefIndex: 7820
 internal class ENCbig5 : CP950 // TypeDefIndex: 7823
 {	// Methods
 
-	// RVA: 0x224DC80 Offset: 0x224C280 VA: 0x18224DC80
+	// RVA: 0x224E4A0 Offset: 0x224CAA0 VA: 0x18224E4A0
 	public void .ctor() { }
 
 }
@@ -1061,7 +1061,7 @@ internal class ENCbig5 : CP950 // TypeDefIndex: 7823
 internal class ENCgb18030 : GB18030Encoding // TypeDefIndex: 7828
 {	// Methods
 
-	// RVA: 0x224B3A0 Offset: 0x22499A0 VA: 0x18224B3A0
+	// RVA: 0x224BBC0 Offset: 0x224A1C0 VA: 0x18224BBC0
 	public void .ctor() { }
 
 }
@@ -1069,7 +1069,7 @@ internal class ENCgb18030 : GB18030Encoding // TypeDefIndex: 7828
 public class ENCwindows_1254 : CP1254 // TypeDefIndex: 7841
 {	// Methods
 
-	// RVA: 0x2307C50 Offset: 0x2306250 VA: 0x182307C50
+	// RVA: 0x2308470 Offset: 0x2306A70 VA: 0x182308470
 	public void .ctor() { }
 
 }
@@ -1077,7 +1077,7 @@ public class ENCwindows_1254 : CP1254 // TypeDefIndex: 7841
 public class ENCwindows_1255 : CP1255 // TypeDefIndex: 7843
 {	// Methods
 
-	// RVA: 0x2307D50 Offset: 0x2306350 VA: 0x182307D50
+	// RVA: 0x2308570 Offset: 0x2306B70 VA: 0x182308570
 	public void .ctor() { }
 
 }
@@ -1085,7 +1085,7 @@ public class ENCwindows_1255 : CP1255 // TypeDefIndex: 7843
 public class ENCwindows_1256 : CP1256 // TypeDefIndex: 7845
 {	// Methods
 
-	// RVA: 0x2307E50 Offset: 0x2306450 VA: 0x182307E50
+	// RVA: 0x2308670 Offset: 0x2306C70 VA: 0x182308670
 	public void .ctor() { }
 
 }
@@ -1093,7 +1093,7 @@ public class ENCwindows_1256 : CP1256 // TypeDefIndex: 7845
 public class ENCiso_8859_6 : CP28596 // TypeDefIndex: 7847
 {	// Methods
 
-	// RVA: 0x2307950 Offset: 0x2305F50 VA: 0x182307950
+	// RVA: 0x2308170 Offset: 0x2306770 VA: 0x182308170
 	public void .ctor() { }
 
 }
@@ -1101,7 +1101,7 @@ public class ENCiso_8859_6 : CP28596 // TypeDefIndex: 7847
 public class ENCiso_8859_8 : CP28598 // TypeDefIndex: 7849
 {	// Methods
 
-	// RVA: 0x2307A50 Offset: 0x2306050 VA: 0x182307A50
+	// RVA: 0x2308270 Offset: 0x2306870 VA: 0x182308270
 	public void .ctor() { }
 
 }
@@ -1109,7 +1109,7 @@ public class ENCiso_8859_8 : CP28598 // TypeDefIndex: 7849
 public class ENCiso_8859_9 : CP28599 // TypeDefIndex: 7851
 {	// Methods
 
-	// RVA: 0x2307B50 Offset: 0x2306150 VA: 0x182307B50
+	// RVA: 0x2308370 Offset: 0x2306970 VA: 0x182308370
 	public void .ctor() { }
 
 }
@@ -1117,7 +1117,7 @@ public class ENCiso_8859_9 : CP28599 // TypeDefIndex: 7851
 public class ENCwindows_38598 : CP38598 // TypeDefIndex: 7853
 {	// Methods
 
-	// RVA: 0x2307F50 Offset: 0x2306550 VA: 0x182307F50
+	// RVA: 0x2308770 Offset: 0x2306D70 VA: 0x182308770
 	public void .ctor() { }
 
 }
@@ -1125,7 +1125,7 @@ public class ENCwindows_38598 : CP38598 // TypeDefIndex: 7853
 public class ENCwindows_1251 : CP1251 // TypeDefIndex: 7859
 {	// Methods
 
-	// RVA: 0x22F4D50 Offset: 0x22F3350 VA: 0x1822F4D50
+	// RVA: 0x22F5570 Offset: 0x22F3B70 VA: 0x1822F5570
 	public void .ctor() { }
 
 }
@@ -1133,7 +1133,7 @@ public class ENCwindows_1251 : CP1251 // TypeDefIndex: 7859
 public class ENCwindows_1257 : CP1257 // TypeDefIndex: 7861
 {	// Methods
 
-	// RVA: 0x22F4E50 Offset: 0x22F3450 VA: 0x1822F4E50
+	// RVA: 0x22F5670 Offset: 0x22F3C70 VA: 0x1822F5670
 	public void .ctor() { }
 
 }
@@ -1141,7 +1141,7 @@ public class ENCwindows_1257 : CP1257 // TypeDefIndex: 7861
 public class ENCwindows_1258 : CP1258 // TypeDefIndex: 7863
 {	// Methods
 
-	// RVA: 0x22F4F50 Offset: 0x22F3550 VA: 0x1822F4F50
+	// RVA: 0x22F5770 Offset: 0x22F3D70 VA: 0x1822F5770
 	public void .ctor() { }
 
 }
@@ -1149,7 +1149,7 @@ public class ENCwindows_1258 : CP1258 // TypeDefIndex: 7863
 public class ENCkoi8_r : CP20866 // TypeDefIndex: 7865
 {	// Methods
 
-	// RVA: 0x22F4B50 Offset: 0x22F3150 VA: 0x1822F4B50
+	// RVA: 0x22F5370 Offset: 0x22F3970 VA: 0x1822F5370
 	public void .ctor() { }
 
 }
@@ -1157,7 +1157,7 @@ public class ENCkoi8_r : CP20866 // TypeDefIndex: 7865
 public class ENCkoi8_u : CP21866 // TypeDefIndex: 7867
 {	// Methods
 
-	// RVA: 0x22F4C50 Offset: 0x22F3250 VA: 0x1822F4C50
+	// RVA: 0x22F5470 Offset: 0x22F3A70 VA: 0x1822F5470
 	public void .ctor() { }
 
 }
@@ -1165,7 +1165,7 @@ public class ENCkoi8_u : CP21866 // TypeDefIndex: 7867
 public class ENCiso_8859_4 : CP28594 // TypeDefIndex: 7869
 {	// Methods
 
-	// RVA: 0x22F4950 Offset: 0x22F2F50 VA: 0x1822F4950
+	// RVA: 0x22F5170 Offset: 0x22F3770 VA: 0x1822F5170
 	public void .ctor() { }
 
 }
@@ -1173,7 +1173,7 @@ public class ENCiso_8859_4 : CP28594 // TypeDefIndex: 7869
 public class ENCiso_8859_5 : CP28595 // TypeDefIndex: 7871
 {	// Methods
 
-	// RVA: 0x22F4A50 Offset: 0x22F3050 VA: 0x1822F4A50
+	// RVA: 0x22F5270 Offset: 0x22F3870 VA: 0x1822F5270
 	public void .ctor() { }
 
 }
@@ -1181,7 +1181,7 @@ public class ENCiso_8859_5 : CP28595 // TypeDefIndex: 7871
 public class ENCx_iscii_de : CP57002 // TypeDefIndex: 7883
 {	// Methods
 
-	// RVA: 0x22F4060 Offset: 0x22F2660 VA: 0x1822F4060
+	// RVA: 0x22F4880 Offset: 0x22F2E80 VA: 0x1822F4880
 	public void .ctor() { }
 
 }
@@ -1189,7 +1189,7 @@ public class ENCx_iscii_de : CP57002 // TypeDefIndex: 7883
 public class ENCx_iscii_be : CP57003 // TypeDefIndex: 7884
 {	// Methods
 
-	// RVA: 0x22F40E0 Offset: 0x22F26E0 VA: 0x1822F40E0
+	// RVA: 0x22F4900 Offset: 0x22F2F00 VA: 0x1822F4900
 	public void .ctor() { }
 
 }
@@ -1197,7 +1197,7 @@ public class ENCx_iscii_be : CP57003 // TypeDefIndex: 7884
 public class ENCx_iscii_ta : CP57004 // TypeDefIndex: 7885
 {	// Methods
 
-	// RVA: 0x22F4160 Offset: 0x22F2760 VA: 0x1822F4160
+	// RVA: 0x22F4980 Offset: 0x22F2F80 VA: 0x1822F4980
 	public void .ctor() { }
 
 }
@@ -1205,7 +1205,7 @@ public class ENCx_iscii_ta : CP57004 // TypeDefIndex: 7885
 public class ENCx_iscii_te : CP57005 // TypeDefIndex: 7886
 {	// Methods
 
-	// RVA: 0x22F41E0 Offset: 0x22F27E0 VA: 0x1822F41E0
+	// RVA: 0x22F4A00 Offset: 0x22F3000 VA: 0x1822F4A00
 	public void .ctor() { }
 
 }
@@ -1213,7 +1213,7 @@ public class ENCx_iscii_te : CP57005 // TypeDefIndex: 7886
 public class ENCx_iscii_as : CP57006 // TypeDefIndex: 7887
 {	// Methods
 
-	// RVA: 0x22F4260 Offset: 0x22F2860 VA: 0x1822F4260
+	// RVA: 0x22F4A80 Offset: 0x22F3080 VA: 0x1822F4A80
 	public void .ctor() { }
 
 }
@@ -1221,7 +1221,7 @@ public class ENCx_iscii_as : CP57006 // TypeDefIndex: 7887
 public class ENCx_iscii_or : CP57007 // TypeDefIndex: 7888
 {	// Methods
 
-	// RVA: 0x22F42E0 Offset: 0x22F28E0 VA: 0x1822F42E0
+	// RVA: 0x22F4B00 Offset: 0x22F3100 VA: 0x1822F4B00
 	public void .ctor() { }
 
 }
@@ -1229,7 +1229,7 @@ public class ENCx_iscii_or : CP57007 // TypeDefIndex: 7888
 public class ENCx_iscii_ka : CP57008 // TypeDefIndex: 7889
 {	// Methods
 
-	// RVA: 0x22F4360 Offset: 0x22F2960 VA: 0x1822F4360
+	// RVA: 0x22F4B80 Offset: 0x22F3180 VA: 0x1822F4B80
 	public void .ctor() { }
 
 }
@@ -1237,7 +1237,7 @@ public class ENCx_iscii_ka : CP57008 // TypeDefIndex: 7889
 public class ENCx_iscii_ma : CP57009 // TypeDefIndex: 7890
 {	// Methods
 
-	// RVA: 0x22F43E0 Offset: 0x22F29E0 VA: 0x1822F43E0
+	// RVA: 0x22F4C00 Offset: 0x22F3200 VA: 0x1822F4C00
 	public void .ctor() { }
 
 }
@@ -1245,7 +1245,7 @@ public class ENCx_iscii_ma : CP57009 // TypeDefIndex: 7890
 public class ENCx_iscii_gu : CP57010 // TypeDefIndex: 7891
 {	// Methods
 
-	// RVA: 0x22F4460 Offset: 0x22F2A60 VA: 0x1822F4460
+	// RVA: 0x22F4C80 Offset: 0x22F3280 VA: 0x1822F4C80
 	public void .ctor() { }
 
 }
@@ -1253,7 +1253,7 @@ public class ENCx_iscii_gu : CP57010 // TypeDefIndex: 7891
 public class ENCx_iscii_pa : CP57011 // TypeDefIndex: 7892
 {	// Methods
 
-	// RVA: 0x22F44E0 Offset: 0x22F2AE0 VA: 0x1822F44E0
+	// RVA: 0x22F4D00 Offset: 0x22F3300 VA: 0x1822F4D00
 	public void .ctor() { }
 
 }
@@ -1261,7 +1261,7 @@ public class ENCx_iscii_pa : CP57011 // TypeDefIndex: 7892
 public class ENCwindows_874 : CP874 // TypeDefIndex: 7894
 {	// Methods
 
-	// RVA: 0x22F5050 Offset: 0x22F3650 VA: 0x1822F5050
+	// RVA: 0x22F5870 Offset: 0x22F3E70 VA: 0x1822F5870
 	public void .ctor() { }
 
 }
@@ -1269,7 +1269,7 @@ public class ENCwindows_874 : CP874 // TypeDefIndex: 7894
 public class ENCibm866 : CP866 // TypeDefIndex: 7900
 {	// Methods
 
-	// RVA: 0x22EE390 Offset: 0x22EC990 VA: 0x1822EE390
+	// RVA: 0x22EEBB0 Offset: 0x22ED1B0 VA: 0x1822EEBB0
 	public void .ctor() { }
 
 }
@@ -1277,7 +1277,7 @@ public class ENCibm866 : CP866 // TypeDefIndex: 7900
 public class ENCibm1026 : CP1026 // TypeDefIndex: 7902
 {	// Methods
 
-	// RVA: 0x22ED9F0 Offset: 0x22EBFF0 VA: 0x1822ED9F0
+	// RVA: 0x22EE210 Offset: 0x22EC810 VA: 0x1822EE210
 	public void .ctor() { }
 
 }
@@ -1285,7 +1285,7 @@ public class ENCibm1026 : CP1026 // TypeDefIndex: 7902
 public class ENCibm869 : CP869 // TypeDefIndex: 7904
 {	// Methods
 
-	// RVA: 0x22EE490 Offset: 0x22ECA90 VA: 0x1822EE490
+	// RVA: 0x22EECB0 Offset: 0x22ED2B0 VA: 0x1822EECB0
 	public void .ctor() { }
 
 }
@@ -1293,7 +1293,7 @@ public class ENCibm869 : CP869 // TypeDefIndex: 7904
 public class ENCibm870 : CP870 // TypeDefIndex: 7906
 {	// Methods
 
-	// RVA: 0x22EE590 Offset: 0x22ECB90 VA: 0x1822EE590
+	// RVA: 0x22EEDB0 Offset: 0x22ED3B0 VA: 0x1822EEDB0
 	public void .ctor() { }
 
 }
@@ -1301,7 +1301,7 @@ public class ENCibm870 : CP870 // TypeDefIndex: 7906
 public class ENCibm875 : CP875 // TypeDefIndex: 7908
 {	// Methods
 
-	// RVA: 0x22EE6F0 Offset: 0x22ECCF0 VA: 0x1822EE6F0
+	// RVA: 0x22EEF10 Offset: 0x22ED510 VA: 0x1822EEF10
 	public void .ctor() { }
 
 }
@@ -1309,7 +1309,7 @@ public class ENCibm875 : CP875 // TypeDefIndex: 7908
 public class ENCibm1047 : CP1047 // TypeDefIndex: 7910
 {	// Methods
 
-	// RVA: 0x22EDA50 Offset: 0x22EC050 VA: 0x1822EDA50
+	// RVA: 0x22EE270 Offset: 0x22EC870 VA: 0x1822EE270
 	public void .ctor() { }
 
 }
@@ -1317,7 +1317,7 @@ public class ENCibm1047 : CP1047 // TypeDefIndex: 7910
 public class ENCibm01140 : CP1140 // TypeDefIndex: 7912
 {	// Methods
 
-	// RVA: 0x22ED7B0 Offset: 0x22EBDB0 VA: 0x1822ED7B0
+	// RVA: 0x22EDFD0 Offset: 0x22EC5D0 VA: 0x1822EDFD0
 	public void .ctor() { }
 
 }
@@ -1325,7 +1325,7 @@ public class ENCibm01140 : CP1140 // TypeDefIndex: 7912
 public class ENCibm01141 : CP1141 // TypeDefIndex: 7914
 {	// Methods
 
-	// RVA: 0x22ED810 Offset: 0x22EBE10 VA: 0x1822ED810
+	// RVA: 0x22EE030 Offset: 0x22EC630 VA: 0x1822EE030
 	public void .ctor() { }
 
 }
@@ -1333,7 +1333,7 @@ public class ENCibm01141 : CP1141 // TypeDefIndex: 7914
 public class ENCibm01142 : CP1142 // TypeDefIndex: 7916
 {	// Methods
 
-	// RVA: 0x22ED870 Offset: 0x22EBE70 VA: 0x1822ED870
+	// RVA: 0x22EE090 Offset: 0x22EC690 VA: 0x1822EE090
 	public void .ctor() { }
 
 }
@@ -1341,7 +1341,7 @@ public class ENCibm01142 : CP1142 // TypeDefIndex: 7916
 public class ENCibm01143 : CP1143 // TypeDefIndex: 7918
 {	// Methods
 
-	// RVA: 0x22ED8D0 Offset: 0x22EBED0 VA: 0x1822ED8D0
+	// RVA: 0x22EE0F0 Offset: 0x22EC6F0 VA: 0x1822EE0F0
 	public void .ctor() { }
 
 }
@@ -1349,7 +1349,7 @@ public class ENCibm01143 : CP1143 // TypeDefIndex: 7918
 public class ENCibm1144 : CP1144 // TypeDefIndex: 7920
 {	// Methods
 
-	// RVA: 0x22EDAB0 Offset: 0x22EC0B0 VA: 0x1822EDAB0
+	// RVA: 0x22EE2D0 Offset: 0x22EC8D0 VA: 0x1822EE2D0
 	public void .ctor() { }
 
 }
@@ -1357,7 +1357,7 @@ public class ENCibm1144 : CP1144 // TypeDefIndex: 7920
 public class ENCibm1145 : CP1145 // TypeDefIndex: 7922
 {	// Methods
 
-	// RVA: 0x22EDB10 Offset: 0x22EC110 VA: 0x1822EDB10
+	// RVA: 0x22EE330 Offset: 0x22EC930 VA: 0x1822EE330
 	public void .ctor() { }
 
 }
@@ -1365,7 +1365,7 @@ public class ENCibm1145 : CP1145 // TypeDefIndex: 7922
 public class ENCibm1146 : CP1146 // TypeDefIndex: 7924
 {	// Methods
 
-	// RVA: 0x22EDB70 Offset: 0x22EC170 VA: 0x1822EDB70
+	// RVA: 0x22EE390 Offset: 0x22EC990 VA: 0x1822EE390
 	public void .ctor() { }
 
 }
@@ -1373,7 +1373,7 @@ public class ENCibm1146 : CP1146 // TypeDefIndex: 7924
 public class ENCibm1147 : CP1147 // TypeDefIndex: 7926
 {	// Methods
 
-	// RVA: 0x22EDBD0 Offset: 0x22EC1D0 VA: 0x1822EDBD0
+	// RVA: 0x22EE3F0 Offset: 0x22EC9F0 VA: 0x1822EE3F0
 	public void .ctor() { }
 
 }
@@ -1381,7 +1381,7 @@ public class ENCibm1147 : CP1147 // TypeDefIndex: 7926
 public class ENCibm1148 : CP1148 // TypeDefIndex: 7928
 {	// Methods
 
-	// RVA: 0x22EDC30 Offset: 0x22EC230 VA: 0x1822EDC30
+	// RVA: 0x22EE450 Offset: 0x22ECA50 VA: 0x1822EE450
 	public void .ctor() { }
 
 }
@@ -1389,7 +1389,7 @@ public class ENCibm1148 : CP1148 // TypeDefIndex: 7928
 public class ENCibm1149 : CP1149 // TypeDefIndex: 7930
 {	// Methods
 
-	// RVA: 0x22EDC90 Offset: 0x22EC290 VA: 0x1822EDC90
+	// RVA: 0x22EE4B0 Offset: 0x22ECAB0 VA: 0x1822EE4B0
 	public void .ctor() { }
 
 }
@@ -1397,7 +1397,7 @@ public class ENCibm1149 : CP1149 // TypeDefIndex: 7930
 public class ENCibm273 : CP20273 // TypeDefIndex: 7932
 {	// Methods
 
-	// RVA: 0x22EDCF0 Offset: 0x22EC2F0 VA: 0x1822EDCF0
+	// RVA: 0x22EE510 Offset: 0x22ECB10 VA: 0x1822EE510
 	public void .ctor() { }
 
 }
@@ -1405,7 +1405,7 @@ public class ENCibm273 : CP20273 // TypeDefIndex: 7932
 public class ENCibm277 : CP20277 // TypeDefIndex: 7934
 {	// Methods
 
-	// RVA: 0x22EDD50 Offset: 0x22EC350 VA: 0x1822EDD50
+	// RVA: 0x22EE570 Offset: 0x22ECB70 VA: 0x1822EE570
 	public void .ctor() { }
 
 }
@@ -1413,7 +1413,7 @@ public class ENCibm277 : CP20277 // TypeDefIndex: 7934
 public class ENCibm278 : CP20278 // TypeDefIndex: 7936
 {	// Methods
 
-	// RVA: 0x22EDDB0 Offset: 0x22EC3B0 VA: 0x1822EDDB0
+	// RVA: 0x22EE5D0 Offset: 0x22ECBD0 VA: 0x1822EE5D0
 	public void .ctor() { }
 
 }
@@ -1421,7 +1421,7 @@ public class ENCibm278 : CP20278 // TypeDefIndex: 7936
 public class ENCibm280 : CP20280 // TypeDefIndex: 7938
 {	// Methods
 
-	// RVA: 0x22EDE10 Offset: 0x22EC410 VA: 0x1822EDE10
+	// RVA: 0x22EE630 Offset: 0x22ECC30 VA: 0x1822EE630
 	public void .ctor() { }
 
 }
@@ -1429,7 +1429,7 @@ public class ENCibm280 : CP20280 // TypeDefIndex: 7938
 public class ENCibm284 : CP20284 // TypeDefIndex: 7940
 {	// Methods
 
-	// RVA: 0x22EDE70 Offset: 0x22EC470 VA: 0x1822EDE70
+	// RVA: 0x22EE690 Offset: 0x22ECC90 VA: 0x1822EE690
 	public void .ctor() { }
 
 }
@@ -1437,7 +1437,7 @@ public class ENCibm284 : CP20284 // TypeDefIndex: 7940
 public class ENCibm285 : CP20285 // TypeDefIndex: 7942
 {	// Methods
 
-	// RVA: 0x22EDED0 Offset: 0x22EC4D0 VA: 0x1822EDED0
+	// RVA: 0x22EE6F0 Offset: 0x22ECCF0 VA: 0x1822EE6F0
 	public void .ctor() { }
 
 }
@@ -1445,7 +1445,7 @@ public class ENCibm285 : CP20285 // TypeDefIndex: 7942
 public class ENCibm290 : CP20290 // TypeDefIndex: 7944
 {	// Methods
 
-	// RVA: 0x22EDF30 Offset: 0x22EC530 VA: 0x1822EDF30
+	// RVA: 0x22EE750 Offset: 0x22ECD50 VA: 0x1822EE750
 	public void .ctor() { }
 
 }
@@ -1453,7 +1453,7 @@ public class ENCibm290 : CP20290 // TypeDefIndex: 7944
 public class ENCibm297 : CP20297 // TypeDefIndex: 7946
 {	// Methods
 
-	// RVA: 0x22EDF90 Offset: 0x22EC590 VA: 0x1822EDF90
+	// RVA: 0x22EE7B0 Offset: 0x22ECDB0 VA: 0x1822EE7B0
 	public void .ctor() { }
 
 }
@@ -1461,7 +1461,7 @@ public class ENCibm297 : CP20297 // TypeDefIndex: 7946
 public class ENCibm420 : CP20420 // TypeDefIndex: 7948
 {	// Methods
 
-	// RVA: 0x22EDFF0 Offset: 0x22EC5F0 VA: 0x1822EDFF0
+	// RVA: 0x22EE810 Offset: 0x22ECE10 VA: 0x1822EE810
 	public void .ctor() { }
 
 }
@@ -1469,7 +1469,7 @@ public class ENCibm420 : CP20420 // TypeDefIndex: 7948
 public class ENCibm424 : CP20424 // TypeDefIndex: 7950
 {	// Methods
 
-	// RVA: 0x22EE050 Offset: 0x22EC650 VA: 0x1822EE050
+	// RVA: 0x22EE870 Offset: 0x22ECE70 VA: 0x1822EE870
 	public void .ctor() { }
 
 }
@@ -1477,7 +1477,7 @@ public class ENCibm424 : CP20424 // TypeDefIndex: 7950
 public class ENCibm871 : CP20871 // TypeDefIndex: 7952
 {	// Methods
 
-	// RVA: 0x22EE690 Offset: 0x22ECC90 VA: 0x1822EE690
+	// RVA: 0x22EEEB0 Offset: 0x22ED4B0 VA: 0x1822EEEB0
 	public void .ctor() { }
 
 }
@@ -1485,7 +1485,7 @@ public class ENCibm871 : CP20871 // TypeDefIndex: 7952
 public class ENCibm1025 : CP21025 // TypeDefIndex: 7954
 {	// Methods
 
-	// RVA: 0x22ED990 Offset: 0x22EBF90 VA: 0x1822ED990
+	// RVA: 0x22EE1B0 Offset: 0x22EC7B0 VA: 0x1822EE1B0
 	public void .ctor() { }
 
 }
@@ -1493,7 +1493,7 @@ public class ENCibm1025 : CP21025 // TypeDefIndex: 7954
 public class ENCibm037 : CP37 // TypeDefIndex: 7956
 {	// Methods
 
-	// RVA: 0x22ED930 Offset: 0x22EBF30 VA: 0x1822ED930
+	// RVA: 0x22EE150 Offset: 0x22EC750 VA: 0x1822EE150
 	public void .ctor() { }
 
 }
@@ -1501,7 +1501,7 @@ public class ENCibm037 : CP37 // TypeDefIndex: 7956
 public class ENCibm500 : CP500 // TypeDefIndex: 7958
 {	// Methods
 
-	// RVA: 0x22EE0B0 Offset: 0x22EC6B0 VA: 0x1822EE0B0
+	// RVA: 0x22EE8D0 Offset: 0x22ECED0 VA: 0x1822EE8D0
 	public void .ctor() { }
 
 }
@@ -1509,7 +1509,7 @@ public class ENCibm500 : CP500 // TypeDefIndex: 7958
 public class ENCasmo_708 : CP708 // TypeDefIndex: 7960
 {	// Methods
 
-	// RVA: 0x22ED6F0 Offset: 0x22EBCF0 VA: 0x1822ED6F0
+	// RVA: 0x22EDF10 Offset: 0x22EC510 VA: 0x1822EDF10
 	public void .ctor() { }
 
 }
@@ -1517,7 +1517,7 @@ public class ENCasmo_708 : CP708 // TypeDefIndex: 7960
 public class ENCibm852 : CP852 // TypeDefIndex: 7962
 {	// Methods
 
-	// RVA: 0x22EE110 Offset: 0x22EC710 VA: 0x1822EE110
+	// RVA: 0x22EE930 Offset: 0x22ECF30 VA: 0x1822EE930
 	public void .ctor() { }
 
 }
@@ -1525,7 +1525,7 @@ public class ENCibm852 : CP852 // TypeDefIndex: 7962
 public class ENCibm855 : CP855 // TypeDefIndex: 7964
 {	// Methods
 
-	// RVA: 0x22EE170 Offset: 0x22EC770 VA: 0x1822EE170
+	// RVA: 0x22EE990 Offset: 0x22ECF90 VA: 0x1822EE990
 	public void .ctor() { }
 
 }
@@ -1533,7 +1533,7 @@ public class ENCibm855 : CP855 // TypeDefIndex: 7964
 public class ENCibm857 : CP857 // TypeDefIndex: 7966
 {	// Methods
 
-	// RVA: 0x22EE1D0 Offset: 0x22EC7D0 VA: 0x1822EE1D0
+	// RVA: 0x22EE9F0 Offset: 0x22ECFF0 VA: 0x1822EE9F0
 	public void .ctor() { }
 
 }
@@ -1541,7 +1541,7 @@ public class ENCibm857 : CP857 // TypeDefIndex: 7966
 public class ENCibm00858 : CP858 // TypeDefIndex: 7968
 {	// Methods
 
-	// RVA: 0x22ED750 Offset: 0x22EBD50 VA: 0x1822ED750
+	// RVA: 0x22EDF70 Offset: 0x22EC570 VA: 0x1822EDF70
 	public void .ctor() { }
 
 }
@@ -1549,7 +1549,7 @@ public class ENCibm00858 : CP858 // TypeDefIndex: 7968
 public class ENCibm862 : CP862 // TypeDefIndex: 7970
 {	// Methods
 
-	// RVA: 0x22EE230 Offset: 0x22EC830 VA: 0x1822EE230
+	// RVA: 0x22EEA50 Offset: 0x22ED050 VA: 0x1822EEA50
 	public void .ctor() { }
 
 }
@@ -1557,7 +1557,7 @@ public class ENCibm862 : CP862 // TypeDefIndex: 7970
 public class ENCibm864 : CP864 // TypeDefIndex: 7972
 {	// Methods
 
-	// RVA: 0x22EE290 Offset: 0x22EC890 VA: 0x1822EE290
+	// RVA: 0x22EEAB0 Offset: 0x22ED0B0 VA: 0x1822EEAB0
 	public void .ctor() { }
 
 }
@@ -1565,7 +1565,7 @@ public class ENCibm864 : CP864 // TypeDefIndex: 7972
 public class ENCmacintosh : CP10000 // TypeDefIndex: 7978
 {	// Methods
 
-	// RVA: 0x228D780 Offset: 0x228BD80 VA: 0x18228D780
+	// RVA: 0x228DFA0 Offset: 0x228C5A0 VA: 0x18228DFA0
 	public void .ctor() { }
 
 }
@@ -1573,7 +1573,7 @@ public class ENCmacintosh : CP10000 // TypeDefIndex: 7978
 public class ENCx_mac_icelandic : CP10079 // TypeDefIndex: 7980
 {	// Methods
 
-	// RVA: 0x228DB80 Offset: 0x228C180 VA: 0x18228DB80
+	// RVA: 0x228E3A0 Offset: 0x228C9A0 VA: 0x18228E3A0
 	public void .ctor() { }
 
 }
@@ -1581,7 +1581,7 @@ public class ENCx_mac_icelandic : CP10079 // TypeDefIndex: 7980
 public class ENCwindows_1250 : CP1250 // TypeDefIndex: 7982
 {	// Methods
 
-	// RVA: 0x228D880 Offset: 0x228BE80 VA: 0x18228D880
+	// RVA: 0x228E0A0 Offset: 0x228C6A0 VA: 0x18228E0A0
 	public void .ctor() { }
 
 }
@@ -1589,7 +1589,7 @@ public class ENCwindows_1250 : CP1250 // TypeDefIndex: 7982
 public class ENCwindows_1252 : CP1252 // TypeDefIndex: 7984
 {	// Methods
 
-	// RVA: 0x228D980 Offset: 0x228BF80 VA: 0x18228D980
+	// RVA: 0x228E1A0 Offset: 0x228C7A0 VA: 0x18228E1A0
 	public void .ctor() { }
 
 }
@@ -1597,7 +1597,7 @@ public class ENCwindows_1252 : CP1252 // TypeDefIndex: 7984
 public class ENCwindows_1253 : CP1253 // TypeDefIndex: 7986
 {	// Methods
 
-	// RVA: 0x228DA80 Offset: 0x228C080 VA: 0x18228DA80
+	// RVA: 0x228E2A0 Offset: 0x228C8A0 VA: 0x18228E2A0
 	public void .ctor() { }
 
 }
@@ -1605,7 +1605,7 @@ public class ENCwindows_1253 : CP1253 // TypeDefIndex: 7986
 public class ENCiso_8859_2 : CP28592 // TypeDefIndex: 7988
 {	// Methods
 
-	// RVA: 0x228D480 Offset: 0x228BA80 VA: 0x18228D480
+	// RVA: 0x228DCA0 Offset: 0x228C2A0 VA: 0x18228DCA0
 	public void .ctor() { }
 
 }
@@ -1613,7 +1613,7 @@ public class ENCiso_8859_2 : CP28592 // TypeDefIndex: 7988
 public class ENCiso_8859_3 : CP28593 // TypeDefIndex: 7990
 {	// Methods
 
-	// RVA: 0x228D580 Offset: 0x228BB80 VA: 0x18228D580
+	// RVA: 0x228DDA0 Offset: 0x228C3A0 VA: 0x18228DDA0
 	public void .ctor() { }
 
 }
@@ -1621,7 +1621,7 @@ public class ENCiso_8859_3 : CP28593 // TypeDefIndex: 7990
 public class ENCiso_8859_7 : CP28597 // TypeDefIndex: 7992
 {	// Methods
 
-	// RVA: 0x228D680 Offset: 0x228BC80 VA: 0x18228D680
+	// RVA: 0x228DEA0 Offset: 0x228C4A0 VA: 0x18228DEA0
 	public void .ctor() { }
 
 }
@@ -1629,7 +1629,7 @@ public class ENCiso_8859_7 : CP28597 // TypeDefIndex: 7992
 public class ENCiso_8859_15 : CP28605 // TypeDefIndex: 7994
 {	// Methods
 
-	// RVA: 0x228D380 Offset: 0x228B980 VA: 0x18228D380
+	// RVA: 0x228DBA0 Offset: 0x228C1A0 VA: 0x18228DBA0
 	public void .ctor() { }
 
 }
@@ -1637,7 +1637,7 @@ public class ENCiso_8859_15 : CP28605 // TypeDefIndex: 7994
 public class ENCibm437 : CP437 // TypeDefIndex: 7996
 {	// Methods
 
-	// RVA: 0x228CD80 Offset: 0x228B380 VA: 0x18228CD80
+	// RVA: 0x228D5A0 Offset: 0x228BBA0 VA: 0x18228D5A0
 	public void .ctor() { }
 
 }
@@ -1645,7 +1645,7 @@ public class ENCibm437 : CP437 // TypeDefIndex: 7996
 public class ENCibm850 : CP850 // TypeDefIndex: 7998
 {	// Methods
 
-	// RVA: 0x228CE80 Offset: 0x228B480 VA: 0x18228CE80
+	// RVA: 0x228D6A0 Offset: 0x228BCA0 VA: 0x18228D6A0
 	public void .ctor() { }
 
 }
@@ -1653,7 +1653,7 @@ public class ENCibm850 : CP850 // TypeDefIndex: 7998
 public class ENCibm860 : CP860 // TypeDefIndex: 8000
 {	// Methods
 
-	// RVA: 0x228CF80 Offset: 0x228B580 VA: 0x18228CF80
+	// RVA: 0x228D7A0 Offset: 0x228BDA0 VA: 0x18228D7A0
 	public void .ctor() { }
 
 }
@@ -1661,7 +1661,7 @@ public class ENCibm860 : CP860 // TypeDefIndex: 8000
 public class ENCibm861 : CP861 // TypeDefIndex: 8002
 {	// Methods
 
-	// RVA: 0x228D080 Offset: 0x228B680 VA: 0x18228D080
+	// RVA: 0x228D8A0 Offset: 0x228BEA0 VA: 0x18228D8A0
 	public void .ctor() { }
 
 }
@@ -1669,7 +1669,7 @@ public class ENCibm861 : CP861 // TypeDefIndex: 8002
 public class ENCibm863 : CP863 // TypeDefIndex: 8004
 {	// Methods
 
-	// RVA: 0x228D180 Offset: 0x228B780 VA: 0x18228D180
+	// RVA: 0x228D9A0 Offset: 0x228BFA0 VA: 0x18228D9A0
 	public void .ctor() { }
 
 }
@@ -1677,7 +1677,7 @@ public class ENCibm863 : CP863 // TypeDefIndex: 8004
 public class ENCibm865 : CP865 // TypeDefIndex: 8006
 {	// Methods
 
-	// RVA: 0x228D280 Offset: 0x228B880 VA: 0x18228D280
+	// RVA: 0x228DAA0 Offset: 0x228C0A0 VA: 0x18228DAA0
 	public void .ctor() { }
 
 }
@@ -1699,82 +1699,82 @@ public sealed class Encoder // TypeDefIndex: 11571
 
 	// Methods
 
-	// RVA: 0x87A5F0 Offset: 0x878BF0 VA: 0x18087A5F0
+	// RVA: 0x85D930 Offset: 0x85BF30 VA: 0x18085D930
 	private void .ctor(EncodeOptions options) { }
 
-	// RVA: 0x87A1E0 Offset: 0x8787E0 VA: 0x18087A1E0
+	// RVA: 0x85D520 Offset: 0x85BB20 VA: 0x18085D520
 	public static string Encode(object obj) { }
 
-	// RVA: 0x87A100 Offset: 0x878700 VA: 0x18087A100
+	// RVA: 0x85D440 Offset: 0x85BA40 VA: 0x18085D440
 	public static string Encode(object obj, EncodeOptions options) { }
 
-	// RVA: 0x87A690 Offset: 0x878C90 VA: 0x18087A690
+	// RVA: 0x85D9D0 Offset: 0x85BFD0 VA: 0x18085D9D0
 	private bool get_PrettyPrintEnabled() { }
 
-	// RVA: 0x87A6A0 Offset: 0x878CA0 VA: 0x18087A6A0
+	// RVA: 0x85D9E0 Offset: 0x85BFE0 VA: 0x18085D9E0
 	private bool get_TypeHintsEnabled() { }
 
-	// RVA: 0x87A680 Offset: 0x878C80 VA: 0x18087A680
+	// RVA: 0x85D9C0 Offset: 0x85BFC0 VA: 0x18085D9C0
 	private bool get_IncludePublicPropertiesEnabled() { }
 
-	// RVA: 0x87A670 Offset: 0x878C70 VA: 0x18087A670
+	// RVA: 0x85D9B0 Offset: 0x85BFB0 VA: 0x18085D9B0
 	private bool get_EnforceHierarchyOrderEnabled() { }
 
-	// RVA: 0x879AF0 Offset: 0x8780F0 VA: 0x180879AF0
+	// RVA: 0x85CE30 Offset: 0x85B430 VA: 0x18085CE30
 	private void EncodeValue(object value, bool forceTypeHint) { }
 
-	// RVA: 0x87A240 Offset: 0x878840 VA: 0x18087A240
+	// RVA: 0x85D580 Offset: 0x85BB80 VA: 0x18085D580
 	private IEnumerable<FieldInfo> GetFieldsForType(Type type) { }
 
-	// RVA: 0x87A3B0 Offset: 0x8789B0 VA: 0x18087A3B0
+	// RVA: 0x85D6F0 Offset: 0x85BCF0 VA: 0x18085D6F0
 	private IEnumerable<PropertyInfo> GetPropertiesForType(Type type) { }
 
-	// RVA: 0x878600 Offset: 0x876C00 VA: 0x180878600
+	// RVA: 0x85B940 Offset: 0x859F40 VA: 0x18085B940
 	private void EncodeObject(object value, bool forceTypeHint) { }
 
-	// RVA: 0x879190 Offset: 0x877790 VA: 0x180879190
+	// RVA: 0x85C4D0 Offset: 0x85AAD0 VA: 0x18085C4D0
 	private void EncodeProxyArray(ProxyArray value) { }
 
-	// RVA: 0x8794A0 Offset: 0x877AA0 VA: 0x1808794A0
+	// RVA: 0x85C7E0 Offset: 0x85ADE0 VA: 0x18085C7E0
 	private void EncodeProxyObject(ProxyObject value) { }
 
-	// RVA: 0x877ED0 Offset: 0x8764D0 VA: 0x180877ED0
+	// RVA: 0x85B210 Offset: 0x859810 VA: 0x18085B210
 	private void EncodeDictionary(IDictionary value, bool forceTypeHint) { }
 
-	// RVA: 0x8782F0 Offset: 0x8768F0 VA: 0x1808782F0
+	// RVA: 0x85B630 Offset: 0x859C30 VA: 0x18085B630
 	private void EncodeList(IList value, bool forceTypeHint) { }
 
-	// RVA: 0x877E10 Offset: 0x876410 VA: 0x180877E10
+	// RVA: 0x85B150 Offset: 0x859750 VA: 0x18085B150
 	private void EncodeArray(Array value, bool forceTypeHint) { }
 
-	// RVA: 0x877B10 Offset: 0x876110 VA: 0x180877B10
+	// RVA: 0x85AE50 Offset: 0x859450 VA: 0x18085AE50
 	private void EncodeArrayRank(Array value, int rank, int[] indices, bool forceTypeHint) { }
 
-	// RVA: 0x879800 Offset: 0x877E00 VA: 0x180879800
+	// RVA: 0x85CB40 Offset: 0x85B140 VA: 0x18085CB40
 	private void EncodeString(string value) { }
 
-	// RVA: 0x877A20 Offset: 0x876020 VA: 0x180877A20
+	// RVA: 0x85AD60 Offset: 0x859360 VA: 0x18085AD60
 	private void AppendIndent() { }
 
-	// RVA: 0x877A70 Offset: 0x876070 VA: 0x180877A70
+	// RVA: 0x85ADB0 Offset: 0x8593B0 VA: 0x18085ADB0
 	private void AppendOpenBrace() { }
 
-	// RVA: 0x877850 Offset: 0x875E50 VA: 0x180877850
+	// RVA: 0x85AB90 Offset: 0x859190 VA: 0x18085AB90
 	private void AppendCloseBrace() { }
 
-	// RVA: 0x877AC0 Offset: 0x8760C0 VA: 0x180877AC0
+	// RVA: 0x85AE00 Offset: 0x859400 VA: 0x18085AE00
 	private void AppendOpenBracket() { }
 
-	// RVA: 0x8778D0 Offset: 0x875ED0 VA: 0x1808778D0
+	// RVA: 0x85AC10 Offset: 0x859210 VA: 0x18085AC10
 	private void AppendCloseBracket() { }
 
-	// RVA: 0x8779A0 Offset: 0x875FA0 VA: 0x1808779A0
+	// RVA: 0x85ACE0 Offset: 0x8592E0 VA: 0x18085ACE0
 	private void AppendComma(bool firstItem) { }
 
-	// RVA: 0x877950 Offset: 0x875F50 VA: 0x180877950
+	// RVA: 0x85AC90 Offset: 0x859290 VA: 0x18085AC90
 	private void AppendColon() { }
 
-	// RVA: 0x87A520 Offset: 0x878B20 VA: 0x18087A520
+	// RVA: 0x85D860 Offset: 0x85BE60 VA: 0x18085D860
 	private static void .cctor() { }
 
 }

@@ -11,31 +11,31 @@ public abstract class LODComponentParticleSystem : LODComponent // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x682B30 Offset: 0x681130 VA: 0x180682B30 Slot: 8
+	// RVA: 0x682AC0 Offset: 0x6810C0 VA: 0x180682AC0 Slot: 8
 	protected override void InitLOD() { }
 
-	// RVA: 0x682A40 Offset: 0x681040 VA: 0x180682A40 Slot: 9
+	// RVA: 0x6829D0 Offset: 0x680FD0 VA: 0x1806829D0 Slot: 9
 	protected override void EnableLOD() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 10
 	protected override void DisableLOD() { }
 
-	// RVA: 0x682C90 Offset: 0x681290 VA: 0x180682C90 Slot: 13
+	// RVA: 0x682C20 Offset: 0x681220 VA: 0x180682C20 Slot: 13
 	protected override void Show() { }
 
-	// RVA: 0x682A80 Offset: 0x681080 VA: 0x180682A80 Slot: 14
+	// RVA: 0x682A10 Offset: 0x681010 VA: 0x180682A10 Slot: 14
 	protected override void Hide() { }
 
-	// RVA: 0x682A50 Offset: 0x681050 VA: 0x180682A50
+	// RVA: 0x6829E0 Offset: 0x680FE0 VA: 0x1806829E0
 	private void EnableParticleRenderer() { }
 
-	// RVA: 0x682A10 Offset: 0x681010 VA: 0x180682A10
+	// RVA: 0x6829A0 Offset: 0x680FA0 VA: 0x1806829A0
 	private void DisableParticleRenderer() { }
 
-	// RVA: 0x682BF0 Offset: 0x6811F0 VA: 0x180682BF0
+	// RVA: 0x682B80 Offset: 0x681180 VA: 0x180682B80
 	protected void SetEmissionRate(float rate) { }
 
-	// RVA: 0x682D40 Offset: 0x681340 VA: 0x180682D40
+	// RVA: 0x682CD0 Offset: 0x6812D0 VA: 0x180682CD0
 	protected void .ctor() { }
 
 }

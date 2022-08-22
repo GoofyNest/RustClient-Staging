@@ -8,7 +8,7 @@ public abstract class SysExEvent : MidiEvent // TypeDefIndex: 7519
 
 	// Methods
 
-	// RVA: 0x1396390 Offset: 0x1394990 VA: 0x181396390
+	// RVA: 0x1395490 Offset: 0x1393A90 VA: 0x181395490
 	protected void .ctor(MidiEventType eventType) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -19,7 +19,7 @@ public abstract class SysExEvent : MidiEvent // TypeDefIndex: 7519
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_Data(byte[] value) { }
 
-	// RVA: 0x13A8A50 Offset: 0x13A7050 VA: 0x1813A8A50 Slot: 4
+	// RVA: 0x13A7B50 Offset: 0x13A6150 VA: 0x1813A7B50 Slot: 4
 	internal sealed override void Read(MidiReader reader, ReadingSettings settings, int size) { }
 
 }

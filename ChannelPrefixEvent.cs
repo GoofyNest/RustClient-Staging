@@ -8,27 +8,27 @@ public sealed class ChannelPrefixEvent : MetaEvent // TypeDefIndex: 7532
 
 	// Methods
 
-	// RVA: 0x1396DE0 Offset: 0x13953E0 VA: 0x181396DE0
+	// RVA: 0x1395EE0 Offset: 0x13944E0 VA: 0x181395EE0
 	public void .ctor() { }
 
-	// RVA: 0x1396E00 Offset: 0x1395400 VA: 0x181396E00
+	// RVA: 0x1395F00 Offset: 0x1394500 VA: 0x181395F00
 	public void .ctor(byte channel) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
+	// RVA: 0xB10B80 Offset: 0xB0F180 VA: 0x180B10B80
 	public byte get_Channel() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7F9BF0 Offset: 0x7F81F0 VA: 0x1807F9BF0
+	// RVA: 0x7FA180 Offset: 0x7F8780 VA: 0x1807FA180
 	public void set_Channel(byte value) { }
 
-	// RVA: 0x1396D50 Offset: 0x1395350 VA: 0x181396D50 Slot: 6
+	// RVA: 0x1395E50 Offset: 0x1394450 VA: 0x181395E50 Slot: 6
 	protected override void ReadContent(MidiReader reader, ReadingSettings settings, int size) { }
 
-	// RVA: 0x1396CF0 Offset: 0x13952F0 VA: 0x181396CF0 Slot: 5
+	// RVA: 0x1395DF0 Offset: 0x13943F0 VA: 0x181395DF0 Slot: 5
 	protected override MidiEvent CloneEvent() { }
 
-	// RVA: 0x1396D80 Offset: 0x1395380 VA: 0x181396D80 Slot: 3
+	// RVA: 0x1395E80 Offset: 0x1394480 VA: 0x181395E80 Slot: 3
 	public override string ToString() { }
 
 }

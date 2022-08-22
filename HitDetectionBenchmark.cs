@@ -9,16 +9,16 @@ public class HitDetectionBenchmark : BenchmarkScene // TypeDefIndex: 8255
 
 	// Methods
 
-	// RVA: 0x73B840 Offset: 0x739E40 VA: 0x18073B840 Slot: 7
+	// RVA: 0x73B790 Offset: 0x739D90 VA: 0x18073B790 Slot: 7
 	public override void StartBenchmark() { }
 
-	// RVA: 0x73B4C0 Offset: 0x739AC0 VA: 0x18073B4C0 Slot: 8
+	// RVA: 0x73B410 Offset: 0x739A10 VA: 0x18073B410 Slot: 8
 	public override void BenchmarkUpdate() { }
 
-	// RVA: 0x73BEE0 Offset: 0x73A4E0 VA: 0x18073BEE0 Slot: 9
+	// RVA: 0x73BE30 Offset: 0x73A430 VA: 0x18073BE30 Slot: 9
 	public override void StopBenchmark() { }
 
-	// RVA: 0x73C190 Offset: 0x73A790 VA: 0x18073C190
+	// RVA: 0x73C0E0 Offset: 0x73A6E0 VA: 0x18073C0E0
 	public void .ctor() { }
 
 }
@@ -32,19 +32,19 @@ private sealed class HitDetectionBenchmark.<>c // TypeDefIndex: 8256
 
 	// Methods
 
-	// RVA: 0x749490 Offset: 0x747A90 VA: 0x180749490
+	// RVA: 0x7493E0 Offset: 0x7479E0 VA: 0x1807493E0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x749320 Offset: 0x747920 VA: 0x180749320
+	// RVA: 0x749270 Offset: 0x747870 VA: 0x180749270
 	internal ItemModWearable <StartBenchmark>b__6_0(ItemDefinition x) { }
 
-	// RVA: 0x749370 Offset: 0x747970 VA: 0x180749370
+	// RVA: 0x7492C0 Offset: 0x7478C0 VA: 0x1807492C0
 	internal bool <StartBenchmark>b__6_1(ItemModWearable x) { }
 
-	// RVA: 0x7493D0 Offset: 0x7479D0 VA: 0x1807493D0
+	// RVA: 0x749320 Offset: 0x747920 VA: 0x180749320
 	internal Guid <StartBenchmark>b__6_2(ItemModWearable x) { }
 
 }

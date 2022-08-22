@@ -7,82 +7,82 @@ public class BoomBox : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6391
 
 	// Methods
 
-	// RVA: 0x1F6C6E0 Offset: 0x1F6ACE0 VA: 0x181F6C6E0
+	// RVA: 0x1F6CF00 Offset: 0x1F6B500 VA: 0x181F6CF00
 	public static void ResetToPool(BoomBox instance) { }
 
-	// RVA: 0x1F6C630 Offset: 0x1F6AC30 VA: 0x181F6C630
+	// RVA: 0x1F6CE50 Offset: 0x1F6B450 VA: 0x181F6CE50
 	public void ResetToPool() { }
 
-	// RVA: 0x1F6C4D0 Offset: 0x1F6AAD0 VA: 0x181F6C4D0 Slot: 9
+	// RVA: 0x1F6CCF0 Offset: 0x1F6B2F0 VA: 0x181F6CCF0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DAD6F0 Offset: 0x1DABCF0 VA: 0x181DAD6F0
+	// RVA: 0x1DADEE0 Offset: 0x1DAC4E0 VA: 0x181DADEE0
 	public void CopyTo(BoomBox instance) { }
 
-	// RVA: 0x1F6B7D0 Offset: 0x1F69DD0 VA: 0x181F6B7D0
+	// RVA: 0x1F6BFF0 Offset: 0x1F6A5F0 VA: 0x181F6BFF0
 	public BoomBox Copy() { }
 
-	// RVA: 0x1F6C310 Offset: 0x1F6A910 VA: 0x181F6C310
+	// RVA: 0x1F6CB30 Offset: 0x1F6B130 VA: 0x181F6CB30
 	public static BoomBox Deserialize(Stream stream) { }
 
-	// RVA: 0x1F6BAC0 Offset: 0x1F6A0C0 VA: 0x181F6BAC0
+	// RVA: 0x1F6C2E0 Offset: 0x1F6A8E0 VA: 0x181F6C2E0
 	public static BoomBox DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F6BB40 Offset: 0x1F6A140 VA: 0x181F6BB40
+	// RVA: 0x1F6C360 Offset: 0x1F6A960 VA: 0x181F6C360
 	public static BoomBox DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F6BE10 Offset: 0x1F6A410 VA: 0x181F6BE10
+	// RVA: 0x1F6C630 Offset: 0x1F6AC30 VA: 0x181F6C630
 	public static BoomBox Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F6C5F0 Offset: 0x1F6ABF0 VA: 0x181F6C5F0
+	// RVA: 0x1F6CE10 Offset: 0x1F6B410 VA: 0x181F6CE10
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F6CC40 Offset: 0x1F6B240 VA: 0x181F6CC40 Slot: 12
+	// RVA: 0x1F6D460 Offset: 0x1F6BA60 VA: 0x181F6D460 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F6CC60 Offset: 0x1F6B260 VA: 0x181F6CC60 Slot: 13
+	// RVA: 0x1F6D480 Offset: 0x1F6BA80 VA: 0x181F6D480 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, BoomBox previous) { }
 
-	// RVA: 0x1F6C610 Offset: 0x1F6AC10 VA: 0x181F6C610 Slot: 14
+	// RVA: 0x1F6CE30 Offset: 0x1F6B430 VA: 0x181F6CE30 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F6C210 Offset: 0x1F6A810 VA: 0x181F6C210
+	// RVA: 0x1F6CA30 Offset: 0x1F6B030 VA: 0x181F6CA30
 	public static BoomBox Deserialize(byte[] buffer, BoomBox instance, bool isDelta = False) { }
 
-	// RVA: 0x1F6C090 Offset: 0x1F6A690 VA: 0x181F6C090
+	// RVA: 0x1F6C8B0 Offset: 0x1F6AEB0 VA: 0x181F6C8B0
 	public static BoomBox Deserialize(Stream stream, BoomBox instance, bool isDelta) { }
 
-	// RVA: 0x1F6B860 Offset: 0x1F69E60 VA: 0x181F6B860
+	// RVA: 0x1F6C080 Offset: 0x1F6A680 VA: 0x181F6C080
 	public static BoomBox DeserializeLengthDelimited(Stream stream, BoomBox instance, bool isDelta) { }
 
-	// RVA: 0x1F6BBD0 Offset: 0x1F6A1D0 VA: 0x181F6BBD0
+	// RVA: 0x1F6C3F0 Offset: 0x1F6A9F0 VA: 0x181F6C3F0
 	public static BoomBox DeserializeLength(Stream stream, int length, BoomBox instance, bool isDelta) { }
 
-	// RVA: 0x1F6C790 Offset: 0x1F6AD90 VA: 0x181F6C790
+	// RVA: 0x1F6CFB0 Offset: 0x1F6B5B0 VA: 0x181F6CFB0
 	public static void SerializeDelta(Stream stream, BoomBox instance, BoomBox previous) { }
 
-	// RVA: 0x1F6CAE0 Offset: 0x1F6B0E0 VA: 0x181F6CAE0
+	// RVA: 0x1F6D300 Offset: 0x1F6B900 VA: 0x181F6D300
 	public static void Serialize(Stream stream, BoomBox instance) { }
 
-	// RVA: 0x1F6CC30 Offset: 0x1F6B230 VA: 0x181F6CC30
+	// RVA: 0x1F6D450 Offset: 0x1F6BA50 VA: 0x181F6D450
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F6CC40 Offset: 0x1F6B240 VA: 0x181F6CC40
+	// RVA: 0x1F6D460 Offset: 0x1F6BA60 VA: 0x181F6D460
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F6C9D0 Offset: 0x1F6AFD0 VA: 0x181F6C9D0
+	// RVA: 0x1F6D1F0 Offset: 0x1F6B7F0 VA: 0x181F6D1F0
 	public static byte[] SerializeToBytes(BoomBox instance) { }
 
-	// RVA: 0x1F6C920 Offset: 0x1F6AF20 VA: 0x181F6C920
+	// RVA: 0x1F6D140 Offset: 0x1F6B740 VA: 0x181F6D140
 	public static void SerializeLengthDelimited(Stream stream, BoomBox instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -119,122 +119,122 @@ public class BoomBox : EntityComponent<BaseEntity>, INotifyLOD // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x518360 Offset: 0x516960 VA: 0x180518360
+	// RVA: 0x5182F0 Offset: 0x5168F0 VA: 0x1805182F0
 	public static void LoadStations() { }
 
-	// RVA: 0x517DE0 Offset: 0x5163E0 VA: 0x180517DE0
+	// RVA: 0x517D70 Offset: 0x516370 VA: 0x180517D70
 	private static string GetStationData() { }
 
-	// RVA: 0x518230 Offset: 0x516830 VA: 0x180518230
+	// RVA: 0x5181C0 Offset: 0x5167C0 VA: 0x1805181C0
 	private static bool IsStationValid(string url) { }
 
-	// RVA: 0x5190F0 Offset: 0x5176F0 VA: 0x1805190F0
+	// RVA: 0x519080 Offset: 0x517680 VA: 0x180519080
 	public static void ParseServerUrlList() { }
 
-	// RVA: 0x5196C0 Offset: 0x517CC0 VA: 0x1805196C0
+	// RVA: 0x519650 Offset: 0x517C50 VA: 0x180519650
 	public static void ResetServerValidStations() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public string get_CurrentRadioIp() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	private void set_CurrentRadioIp(string value) { }
 
-	// RVA: 0x517A70 Offset: 0x516070 VA: 0x180517A70
+	// RVA: 0x517A00 Offset: 0x516000 VA: 0x180517A00
 	public void ChangeRadioSettings(BasePlayer player) { }
 
-	// RVA: 0x518940 Offset: 0x516F40 VA: 0x180518940
+	// RVA: 0x5188D0 Offset: 0x516ED0 VA: 0x1805188D0
 	public void OnChangedBoomBoxSettings(string newIP) { }
 
-	// RVA: 0x517870 Offset: 0x515E70 VA: 0x180517870
+	// RVA: 0x517800 Offset: 0x515E00 VA: 0x180517800
 	public bool CanChangeRadioSettings(BasePlayer player) { }
 
-	// RVA: 0x5190A0 Offset: 0x5176A0 VA: 0x1805190A0
+	// RVA: 0x519030 Offset: 0x517630 VA: 0x180519030
 	public void OnRadioIPChanged(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x519C60 Offset: 0x518260 VA: 0x180519C60
+	// RVA: 0x519BF0 Offset: 0x5181F0 VA: 0x180519BF0
 	private bool get_IsLocalPlayer() { }
 
-	// RVA: 0x5185C0 Offset: 0x516BC0 VA: 0x1805185C0
+	// RVA: 0x518550 Offset: 0x516B50 VA: 0x180518550
 	public void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x519C10 Offset: 0x518210 VA: 0x180519C10
+	// RVA: 0x519BA0 Offset: 0x5181A0 VA: 0x180519BA0
 	public BaseEntity get_BaseEntity() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
+	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0
 	public Cassette get_CurrentCassette() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50
+	// RVA: 0x519DE0 Offset: 0x5183E0 VA: 0x180519DE0
 	private void set_CurrentCassette(Cassette value) { }
 
-	// RVA: 0x519470 Offset: 0x517A70 VA: 0x180519470
+	// RVA: 0x519400 Offset: 0x517A00 VA: 0x180519400
 	public void Play(BasePlayer forPlayer) { }
 
-	// RVA: 0x5198E0 Offset: 0x517EE0 VA: 0x1805198E0
+	// RVA: 0x519870 Offset: 0x517E70 VA: 0x180519870
 	public void Stop(BasePlayer forPlayer) { }
 
-	// RVA: 0x5179D0 Offset: 0x515FD0 VA: 0x1805179D0
+	// RVA: 0x517960 Offset: 0x515F60 VA: 0x180517960
 	public bool CanStop(BasePlayer forPlayer) { }
 
-	// RVA: 0x517920 Offset: 0x515F20 VA: 0x180517920
+	// RVA: 0x5178B0 Offset: 0x515EB0 VA: 0x1805178B0
 	public bool CanStart(BasePlayer forPlayer) { }
 
-	// RVA: 0x517F20 Offset: 0x516520 VA: 0x180517F20
+	// RVA: 0x517EB0 Offset: 0x5164B0 VA: 0x180517EB0
 	private bool HasTape() { }
 
-	// RVA: 0x519A70 Offset: 0x518070 VA: 0x180519A70
+	// RVA: 0x519A00 Offset: 0x518000 VA: 0x180519A00
 	private void UpdateAudioClip(AudioClip clip) { }
 
-	// RVA: 0x517BF0 Offset: 0x5161F0 VA: 0x180517BF0
+	// RVA: 0x517B80 Offset: 0x516180 VA: 0x180517B80
 	public void Client_OnCassetteInserted(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x517D90 Offset: 0x516390 VA: 0x180517D90
+	// RVA: 0x517D20 Offset: 0x516320 VA: 0x180517D20
 	public void Client_OnCassetteRemoved(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x5189B0 Offset: 0x516FB0 VA: 0x1805189B0
+	// RVA: 0x518940 Offset: 0x516F40 VA: 0x180518940
 	public void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next, DeployableBoomBox deployable) { }
 
-	// RVA: 0x518620 Offset: 0x516C20 VA: 0x180518620
+	// RVA: 0x5185B0 Offset: 0x516BB0 VA: 0x1805185B0
 	private void LocalPlayerRadioTick() { }
 
-	// RVA: 0x519600 Offset: 0x517C00 VA: 0x180519600
+	// RVA: 0x519590 Offset: 0x517B90 VA: 0x180519590
 	public void RequestCassetteAudioUpdate() { }
 
-	// RVA: 0x519010 Offset: 0x517610 VA: 0x180519010
+	// RVA: 0x518FA0 Offset: 0x5175A0 VA: 0x180518FA0
 	public void OnLoadedWithCassette(Cassette c) { }
 
-	// RVA: 0x518880 Offset: 0x516E80 VA: 0x180518880
+	// RVA: 0x518810 Offset: 0x516E10 VA: 0x180518810
 	public void OnCensorRecordingsChanged() { }
 
-	// RVA: 0x519800 Offset: 0x517E00 VA: 0x180519800 Slot: 10
+	// RVA: 0x519790 Offset: 0x517D90 VA: 0x180519790 Slot: 10
 	public void Show() { }
 
-	// RVA: 0x517F80 Offset: 0x516580 VA: 0x180517F80 Slot: 11
+	// RVA: 0x517F10 Offset: 0x516510 VA: 0x180517F10 Slot: 11
 	public void Hide() { }
 
-	// RVA: 0x5180F0 Offset: 0x5166F0 VA: 0x1805180F0
+	// RVA: 0x518080 Offset: 0x516680 VA: 0x180518080
 	private bool IsPowered() { }
 
-	// RVA: 0x518040 Offset: 0x516640 VA: 0x180518040
+	// RVA: 0x517FD0 Offset: 0x5165D0 VA: 0x180517FD0
 	private bool IsOn() { }
 
-	// RVA: 0x517E60 Offset: 0x516460 VA: 0x180517E60
+	// RVA: 0x517DF0 Offset: 0x5163F0 VA: 0x180517DF0
 	private bool HasFlag(BaseEntity.Flags f) { }
 
-	// RVA: 0x519730 Offset: 0x517D30 VA: 0x180519730
+	// RVA: 0x5196C0 Offset: 0x517CC0 VA: 0x1805196C0
 	private void SetFlag(BaseEntity.Flags f, bool state) { }
 
-	// RVA: 0x519DA0 Offset: 0x5183A0 VA: 0x180519DA0
+	// RVA: 0x519D30 Offset: 0x518330 VA: 0x180519D30
 	private bool get_isClient() { }
 
-	// RVA: 0x519BB0 Offset: 0x5181B0 VA: 0x180519BB0
+	// RVA: 0x519B40 Offset: 0x518140 VA: 0x180519B40
 	public void .ctor() { }
 
-	// RVA: 0x519B60 Offset: 0x518160 VA: 0x180519B60
+	// RVA: 0x519AF0 Offset: 0x5180F0 VA: 0x180519AF0
 	private static void .cctor() { }
 
 }

@@ -16,34 +16,34 @@ public class EnvironmentFishManager : BaseMonoBehaviour, IClientComponent // Typ
 
 	// Methods
 
-	// RVA: 0x8C71B0 Offset: 0x8C57B0 VA: 0x1808C71B0
+	// RVA: 0x8C76C0 Offset: 0x8C5CC0 VA: 0x1808C76C0
 	public int GetMaxFish() { }
 
-	// RVA: 0x8C6D40 Offset: 0x8C5340 VA: 0x1808C6D40
+	// RVA: 0x8C7250 Offset: 0x8C5850 VA: 0x1808C7250
 	public void Init() { }
 
-	// RVA: 0x8C6E50 Offset: 0x8C5450 VA: 0x1808C6E50
+	// RVA: 0x8C7360 Offset: 0x8C5960 VA: 0x1808C7360
 	public void GenerateFish() { }
 
-	// RVA: 0x8C6D50 Offset: 0x8C5350 VA: 0x1808C6D50
+	// RVA: 0x8C7260 Offset: 0x8C5860 VA: 0x1808C7260
 	public void Cleanup() { }
 
-	// RVA: 0x8C6D40 Offset: 0x8C5340 VA: 0x1808C6D40
+	// RVA: 0x8C7250 Offset: 0x8C5850 VA: 0x1808C7250
 	public void Awake() { }
 
-	// RVA: 0x8C7240 Offset: 0x8C5840 VA: 0x1808C7240
+	// RVA: 0x8C7750 Offset: 0x8C5D50 VA: 0x1808C7750
 	public void OnDestroy() { }
 
-	// RVA: 0x8C7DF0 Offset: 0x8C63F0 VA: 0x1808C7DF0
+	// RVA: 0x8C8300 Offset: 0x8C6900 VA: 0x1808C8300
 	public void Update() { }
 
-	// RVA: 0x8C7250 Offset: 0x8C5850 VA: 0x1808C7250
+	// RVA: 0x8C7760 Offset: 0x8C5D60 VA: 0x1808C7760
 	public void UpdateFish() { }
 
-	// RVA: 0x8C7F90 Offset: 0x8C6590 VA: 0x1808C7F90
+	// RVA: 0x8C84A0 Offset: 0x8C6AA0 VA: 0x1808C84A0
 	public void .ctor() { }
 
-	// RVA: 0x8C7ED0 Offset: 0x8C64D0 VA: 0x1808C7ED0
+	// RVA: 0x8C83E0 Offset: 0x8C69E0 VA: 0x1808C83E0
 	private static void .cctor() { }
 
 }
@@ -62,16 +62,16 @@ public class EnvironmentFishManager.FishTypeInstance // TypeDefIndex: 8950
 
 	// Methods
 
-	// RVA: 0x8D6430 Offset: 0x8D4A30 VA: 0x1808D6430
+	// RVA: 0x8D6940 Offset: 0x8D4F40 VA: 0x1808D6940
 	public float GetPopulationScaleForPoint(Vector3 point) { }
 
-	// RVA: 0x8D65A0 Offset: 0x8D4BA0 VA: 0x1808D65A0
+	// RVA: 0x8D6AB0 Offset: 0x8D50B0 VA: 0x1808D6AB0
 	public EnvironmentFish GetSleeping() { }
 
-	// RVA: 0x8D6650 Offset: 0x8D4C50 VA: 0x1808D6650
+	// RVA: 0x8D6B60 Offset: 0x8D5160 VA: 0x1808D6B60
 	public void Sleep(EnvironmentFish toSleep) { }
 
-	// RVA: 0x8D6770 Offset: 0x8D4D70 VA: 0x1808D6770
+	// RVA: 0x8D6C80 Offset: 0x8D5280 VA: 0x1808D6C80
 	public void .ctor() { }
 
 }
@@ -79,13 +79,13 @@ public class EnvironmentFishManager.FishTypeInstance // TypeDefIndex: 8950
 public class EnvironmentFishManager.EnvironmentFishWorkQueue : ObjectWorkQueue<EnvironmentFish> // TypeDefIndex: 8951
 {	// Methods
 
-	// RVA: 0x8C8000 Offset: 0x8C6600 VA: 0x1808C8000 Slot: 6
+	// RVA: 0x8C8510 Offset: 0x8C6B10 VA: 0x1808C8510 Slot: 6
 	protected override void RunJob(EnvironmentFish entity) { }
 
-	// RVA: 0x8C8050 Offset: 0x8C6650 VA: 0x1808C8050 Slot: 5
+	// RVA: 0x8C8560 Offset: 0x8C6B60 VA: 0x1808C8560 Slot: 5
 	protected override bool ShouldAdd(EnvironmentFish entity) { }
 
-	// RVA: 0x8C80F0 Offset: 0x8C66F0 VA: 0x1808C80F0
+	// RVA: 0x8C8600 Offset: 0x8C6C00 VA: 0x1808C8600
 	public void .ctor() { }
 
 }

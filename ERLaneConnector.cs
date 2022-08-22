@@ -21,13 +21,13 @@ public class ERLaneConnector // TypeDefIndex: 7243
 
 	// Methods
 
-	// RVA: 0x9BA510 Offset: 0x9B8B10 VA: 0x1809BA510
+	// RVA: 0x9BAA00 Offset: 0x9B9000 VA: 0x1809BAA00
 	public static ERLaneConnector CreateInstance() { }
 
-	// RVA: 0x9BA580 Offset: 0x9B8B80 VA: 0x1809BA580
+	// RVA: 0x9BAA70 Offset: 0x9B9070 VA: 0x1809BAA70
 	public static List<ERLaneConnector> GetLaneConnectors(ERLaneData laneData, int index) { }
 
-	// RVA: 0x9BA670 Offset: 0x9B8C70 VA: 0x1809BA670
+	// RVA: 0x9BAB60 Offset: 0x9B9160 VA: 0x1809BAB60
 	public void .ctor() { }
 
 }

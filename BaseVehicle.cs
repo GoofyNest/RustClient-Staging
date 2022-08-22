@@ -6,82 +6,82 @@ public class BaseVehicle : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 	// Methods
 
-	// RVA: 0x1F6B050 Offset: 0x1F69650 VA: 0x181F6B050
+	// RVA: 0x1F6B870 Offset: 0x1F69E70 VA: 0x181F6B870
 	public static void ResetToPool(BaseVehicle instance) { }
 
-	// RVA: 0x1F6AEA0 Offset: 0x1F694A0 VA: 0x181F6AEA0
+	// RVA: 0x1F6B6C0 Offset: 0x1F69CC0 VA: 0x181F6B6C0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F6AC20 Offset: 0x1F69220 VA: 0x181F6AC20 Slot: 9
+	// RVA: 0x1F6B440 Offset: 0x1F69A40 VA: 0x181F6B440 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F69DA0 Offset: 0x1F683A0 VA: 0x181F69DA0
+	// RVA: 0x1F6A5C0 Offset: 0x1F68BC0 VA: 0x181F6A5C0
 	public void CopyTo(BaseVehicle instance) { }
 
-	// RVA: 0x1F69F30 Offset: 0x1F68530 VA: 0x181F69F30
+	// RVA: 0x1F6A750 Offset: 0x1F68D50 VA: 0x181F6A750
 	public BaseVehicle Copy() { }
 
-	// RVA: 0x1F6A9B0 Offset: 0x1F68FB0 VA: 0x181F6A9B0
+	// RVA: 0x1F6B1D0 Offset: 0x1F697D0 VA: 0x181F6B1D0
 	public static BaseVehicle Deserialize(Stream stream) { }
 
-	// RVA: 0x1F6A3E0 Offset: 0x1F689E0 VA: 0x181F6A3E0
+	// RVA: 0x1F6AC00 Offset: 0x1F69200 VA: 0x181F6AC00
 	public static BaseVehicle DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F6A460 Offset: 0x1F68A60 VA: 0x181F6A460
+	// RVA: 0x1F6AC80 Offset: 0x1F69280 VA: 0x181F6AC80
 	public static BaseVehicle DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F6A890 Offset: 0x1F68E90 VA: 0x181F6A890
+	// RVA: 0x1F6B0B0 Offset: 0x1F696B0 VA: 0x181F6B0B0
 	public static BaseVehicle Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F6AE60 Offset: 0x1F69460 VA: 0x181F6AE60
+	// RVA: 0x1F6B680 Offset: 0x1F69C80 VA: 0x181F6B680
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F6B790 Offset: 0x1F69D90 VA: 0x181F6B790 Slot: 12
+	// RVA: 0x1F6BFB0 Offset: 0x1F6A5B0 VA: 0x181F6BFB0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F6B7B0 Offset: 0x1F69DB0 VA: 0x181F6B7B0 Slot: 13
+	// RVA: 0x1F6BFD0 Offset: 0x1F6A5D0 VA: 0x181F6BFD0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, BaseVehicle previous) { }
 
-	// RVA: 0x1F6AE80 Offset: 0x1F69480 VA: 0x181F6AE80 Slot: 14
+	// RVA: 0x1F6B6A0 Offset: 0x1F69CA0 VA: 0x181F6B6A0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F6A790 Offset: 0x1F68D90 VA: 0x181F6A790
+	// RVA: 0x1F6AFB0 Offset: 0x1F695B0 VA: 0x181F6AFB0
 	public static BaseVehicle Deserialize(byte[] buffer, BaseVehicle instance, bool isDelta = False) { }
 
-	// RVA: 0x1F6AA30 Offset: 0x1F69030 VA: 0x181F6AA30
+	// RVA: 0x1F6B250 Offset: 0x1F69850 VA: 0x181F6B250
 	public static BaseVehicle Deserialize(Stream stream, BaseVehicle instance, bool isDelta) { }
 
-	// RVA: 0x1F6A110 Offset: 0x1F68710 VA: 0x181F6A110
+	// RVA: 0x1F6A930 Offset: 0x1F68F30 VA: 0x181F6A930
 	public static BaseVehicle DeserializeLengthDelimited(Stream stream, BaseVehicle instance, bool isDelta) { }
 
-	// RVA: 0x1F6A4F0 Offset: 0x1F68AF0 VA: 0x181F6A4F0
+	// RVA: 0x1F6AD10 Offset: 0x1F69310 VA: 0x181F6AD10
 	public static BaseVehicle DeserializeLength(Stream stream, int length, BaseVehicle instance, bool isDelta) { }
 
-	// RVA: 0x1F6B200 Offset: 0x1F69800 VA: 0x181F6B200
+	// RVA: 0x1F6BA20 Offset: 0x1F6A020 VA: 0x181F6BA20
 	public static void SerializeDelta(Stream stream, BaseVehicle instance, BaseVehicle previous) { }
 
-	// RVA: 0x1F6B5A0 Offset: 0x1F69BA0 VA: 0x181F6B5A0
+	// RVA: 0x1F6BDC0 Offset: 0x1F6A3C0 VA: 0x181F6BDC0
 	public static void Serialize(Stream stream, BaseVehicle instance) { }
 
-	// RVA: 0x1F6B780 Offset: 0x1F69D80 VA: 0x181F6B780
+	// RVA: 0x1F6BFA0 Offset: 0x1F6A5A0 VA: 0x181F6BFA0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F6B790 Offset: 0x1F69D90 VA: 0x181F6B790
+	// RVA: 0x1F6BFB0 Offset: 0x1F6A5B0 VA: 0x181F6BFB0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F6B490 Offset: 0x1F69A90 VA: 0x181F6B490
+	// RVA: 0x1F6BCB0 Offset: 0x1F6A2B0 VA: 0x181F6BCB0
 	public static byte[] SerializeToBytes(BaseVehicle instance) { }
 
-	// RVA: 0x1F6B3E0 Offset: 0x1F699E0 VA: 0x181F6B3E0
+	// RVA: 0x1F6BC00 Offset: 0x1F6A200 VA: 0x181F6BC00
 	public static void SerializeLengthDelimited(Stream stream, BaseVehicle instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -95,82 +95,82 @@ public class BaseVehicle.MountPoint : IDisposable, Pool.IPooled, IProto // TypeD
 
 	// Methods
 
-	// RVA: 0x1F7D0B0 Offset: 0x1F7B6B0 VA: 0x181F7D0B0
+	// RVA: 0x1F7D8D0 Offset: 0x1F7BED0 VA: 0x181F7D8D0
 	public static void ResetToPool(BaseVehicle.MountPoint instance) { }
 
-	// RVA: 0x1F7D030 Offset: 0x1F7B630 VA: 0x181F7D030
+	// RVA: 0x1F7D850 Offset: 0x1F7BE50 VA: 0x181F7D850
 	public void ResetToPool() { }
 
-	// RVA: 0x1F7CE10 Offset: 0x1F7B410 VA: 0x181F7CE10 Slot: 9
+	// RVA: 0x1F7D630 Offset: 0x1F7BC30 VA: 0x181F7D630 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DBEBA0 Offset: 0x1DBD1A0 VA: 0x181DBEBA0
+	// RVA: 0x1DBF390 Offset: 0x1DBD990 VA: 0x181DBF390
 	public void CopyTo(BaseVehicle.MountPoint instance) { }
 
-	// RVA: 0x1F7C010 Offset: 0x1F7A610 VA: 0x181F7C010
+	// RVA: 0x1F7C830 Offset: 0x1F7AE30 VA: 0x181F7C830
 	public BaseVehicle.MountPoint Copy() { }
 
-	// RVA: 0x1F7C790 Offset: 0x1F7AD90 VA: 0x181F7C790
+	// RVA: 0x1F7CFB0 Offset: 0x1F7B5B0 VA: 0x181F7CFB0
 	public static BaseVehicle.MountPoint Deserialize(Stream stream) { }
 
-	// RVA: 0x1F7C2D0 Offset: 0x1F7A8D0 VA: 0x181F7C2D0
+	// RVA: 0x1F7CAF0 Offset: 0x1F7B0F0 VA: 0x181F7CAF0
 	public static BaseVehicle.MountPoint DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F7C350 Offset: 0x1F7A950 VA: 0x181F7C350
+	// RVA: 0x1F7CB70 Offset: 0x1F7B170 VA: 0x181F7CB70
 	public static BaseVehicle.MountPoint DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F7C950 Offset: 0x1F7AF50 VA: 0x181F7C950
+	// RVA: 0x1F7D170 Offset: 0x1F7B770 VA: 0x181F7D170
 	public static BaseVehicle.MountPoint Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F7CE90 Offset: 0x1F7B490 VA: 0x181F7CE90
+	// RVA: 0x1F7D6B0 Offset: 0x1F7BCB0 VA: 0x181F7D6B0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F7D570 Offset: 0x1F7BB70 VA: 0x181F7D570 Slot: 12
+	// RVA: 0x1F7DD90 Offset: 0x1F7C390 VA: 0x181F7DD90 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F7D590 Offset: 0x1F7BB90 VA: 0x181F7D590 Slot: 13
+	// RVA: 0x1F7DDB0 Offset: 0x1F7C3B0 VA: 0x181F7DDB0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, BaseVehicle.MountPoint previous) { }
 
-	// RVA: 0x1F7D010 Offset: 0x1F7B610 VA: 0x181F7D010 Slot: 14
+	// RVA: 0x1F7D830 Offset: 0x1F7BE30 VA: 0x181F7D830 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F7CBC0 Offset: 0x1F7B1C0 VA: 0x181F7CBC0
+	// RVA: 0x1F7D3E0 Offset: 0x1F7B9E0 VA: 0x181F7D3E0
 	public static BaseVehicle.MountPoint Deserialize(byte[] buffer, BaseVehicle.MountPoint instance, bool isDelta = False) { }
 
-	// RVA: 0x1F7C610 Offset: 0x1F7AC10 VA: 0x181F7C610
+	// RVA: 0x1F7CE30 Offset: 0x1F7B430 VA: 0x181F7CE30
 	public static BaseVehicle.MountPoint Deserialize(Stream stream, BaseVehicle.MountPoint instance, bool isDelta) { }
 
-	// RVA: 0x1F7C080 Offset: 0x1F7A680 VA: 0x181F7C080
+	// RVA: 0x1F7C8A0 Offset: 0x1F7AEA0 VA: 0x181F7C8A0
 	public static BaseVehicle.MountPoint DeserializeLengthDelimited(Stream stream, BaseVehicle.MountPoint instance, bool isDelta) { }
 
-	// RVA: 0x1F7C3E0 Offset: 0x1F7A9E0 VA: 0x181F7C3E0
+	// RVA: 0x1F7CC00 Offset: 0x1F7B200 VA: 0x181F7CC00
 	public static BaseVehicle.MountPoint DeserializeLength(Stream stream, int length, BaseVehicle.MountPoint instance, bool isDelta) { }
 
-	// RVA: 0x1F7D130 Offset: 0x1F7B730 VA: 0x181F7D130
+	// RVA: 0x1F7D950 Offset: 0x1F7BF50 VA: 0x181F7D950
 	public static void SerializeDelta(Stream stream, BaseVehicle.MountPoint instance, BaseVehicle.MountPoint previous) { }
 
-	// RVA: 0x1F7D460 Offset: 0x1F7BA60 VA: 0x181F7D460
+	// RVA: 0x1F7DC80 Offset: 0x1F7C280 VA: 0x181F7DC80
 	public static void Serialize(Stream stream, BaseVehicle.MountPoint instance) { }
 
-	// RVA: 0x1F7D560 Offset: 0x1F7BB60 VA: 0x181F7D560
+	// RVA: 0x1F7DD80 Offset: 0x1F7C380 VA: 0x181F7DD80
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F7D570 Offset: 0x1F7BB70 VA: 0x181F7D570
+	// RVA: 0x1F7DD90 Offset: 0x1F7C390 VA: 0x181F7DD90
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F7D350 Offset: 0x1F7B950 VA: 0x181F7D350
+	// RVA: 0x1F7DB70 Offset: 0x1F7C170 VA: 0x181F7DB70
 	public static byte[] SerializeToBytes(BaseVehicle.MountPoint instance) { }
 
-	// RVA: 0x1F7D2A0 Offset: 0x1F7B8A0 VA: 0x181F7D2A0
+	// RVA: 0x1F7DAC0 Offset: 0x1F7C0C0 VA: 0x181F7DAC0
 	public static void SerializeLengthDelimited(Stream stream, BaseVehicle.MountPoint instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -184,82 +184,82 @@ public class Motorboat : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6346
 
 	// Methods
 
-	// RVA: 0x1F8B530 Offset: 0x1F89B30 VA: 0x181F8B530
+	// RVA: 0x1F8BD50 Offset: 0x1F8A350 VA: 0x181F8BD50
 	public static void ResetToPool(Motorboat instance) { }
 
-	// RVA: 0x1F8B4B0 Offset: 0x1F89AB0 VA: 0x181F8B4B0
+	// RVA: 0x1F8BCD0 Offset: 0x1F8A2D0 VA: 0x181F8BCD0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F8B210 Offset: 0x1F89810 VA: 0x181F8B210 Slot: 9
+	// RVA: 0x1F8BA30 Offset: 0x1F8A030 VA: 0x181F8BA30 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DBEBA0 Offset: 0x1DBD1A0 VA: 0x181DBEBA0
+	// RVA: 0x1DBF390 Offset: 0x1DBD990 VA: 0x181DBF390
 	public void CopyTo(Motorboat instance) { }
 
-	// RVA: 0x1F8A410 Offset: 0x1F88A10 VA: 0x181F8A410
+	// RVA: 0x1F8AC30 Offset: 0x1F89230 VA: 0x181F8AC30
 	public Motorboat Copy() { }
 
-	// RVA: 0x1F8B050 Offset: 0x1F89650 VA: 0x181F8B050
+	// RVA: 0x1F8B870 Offset: 0x1F89E70 VA: 0x181F8B870
 	public static Motorboat Deserialize(Stream stream) { }
 
-	// RVA: 0x1F8A480 Offset: 0x1F88A80 VA: 0x181F8A480
+	// RVA: 0x1F8ACA0 Offset: 0x1F892A0 VA: 0x181F8ACA0
 	public static Motorboat DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F8A980 Offset: 0x1F88F80 VA: 0x181F8A980
+	// RVA: 0x1F8B1A0 Offset: 0x1F897A0 VA: 0x181F8B1A0
 	public static Motorboat DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F8AA10 Offset: 0x1F89010 VA: 0x181F8AA10
+	// RVA: 0x1F8B230 Offset: 0x1F89830 VA: 0x181F8B230
 	public static Motorboat Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F8B310 Offset: 0x1F89910 VA: 0x181F8B310
+	// RVA: 0x1F8BB30 Offset: 0x1F8A130 VA: 0x181F8BB30
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F8B9F0 Offset: 0x1F89FF0 VA: 0x181F8B9F0 Slot: 12
+	// RVA: 0x1F8C210 Offset: 0x1F8A810 VA: 0x181F8C210 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F8BA10 Offset: 0x1F8A010 VA: 0x181F8BA10 Slot: 13
+	// RVA: 0x1F8C230 Offset: 0x1F8A830 VA: 0x181F8C230 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Motorboat previous) { }
 
-	// RVA: 0x1F8B490 Offset: 0x1F89A90 VA: 0x181F8B490 Slot: 14
+	// RVA: 0x1F8BCB0 Offset: 0x1F8A2B0 VA: 0x181F8BCB0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F8AE00 Offset: 0x1F89400 VA: 0x181F8AE00
+	// RVA: 0x1F8B620 Offset: 0x1F89C20 VA: 0x181F8B620
 	public static Motorboat Deserialize(byte[] buffer, Motorboat instance, bool isDelta = False) { }
 
-	// RVA: 0x1F8AC80 Offset: 0x1F89280 VA: 0x181F8AC80
+	// RVA: 0x1F8B4A0 Offset: 0x1F89AA0 VA: 0x181F8B4A0
 	public static Motorboat Deserialize(Stream stream, Motorboat instance, bool isDelta) { }
 
-	// RVA: 0x1F8A500 Offset: 0x1F88B00 VA: 0x181F8A500
+	// RVA: 0x1F8AD20 Offset: 0x1F89320 VA: 0x181F8AD20
 	public static Motorboat DeserializeLengthDelimited(Stream stream, Motorboat instance, bool isDelta) { }
 
-	// RVA: 0x1F8A750 Offset: 0x1F88D50 VA: 0x181F8A750
+	// RVA: 0x1F8AF70 Offset: 0x1F89570 VA: 0x181F8AF70
 	public static Motorboat DeserializeLength(Stream stream, int length, Motorboat instance, bool isDelta) { }
 
-	// RVA: 0x1F8B5B0 Offset: 0x1F89BB0 VA: 0x181F8B5B0
+	// RVA: 0x1F8BDD0 Offset: 0x1F8A3D0 VA: 0x181F8BDD0
 	public static void SerializeDelta(Stream stream, Motorboat instance, Motorboat previous) { }
 
-	// RVA: 0x1F8B8E0 Offset: 0x1F89EE0 VA: 0x181F8B8E0
+	// RVA: 0x1F8C100 Offset: 0x1F8A700 VA: 0x181F8C100
 	public static void Serialize(Stream stream, Motorboat instance) { }
 
-	// RVA: 0x1F8B9E0 Offset: 0x1F89FE0 VA: 0x181F8B9E0
+	// RVA: 0x1F8C200 Offset: 0x1F8A800 VA: 0x181F8C200
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F8B9F0 Offset: 0x1F89FF0 VA: 0x181F8B9F0
+	// RVA: 0x1F8C210 Offset: 0x1F8A810 VA: 0x181F8C210
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F8B7D0 Offset: 0x1F89DD0 VA: 0x181F8B7D0
+	// RVA: 0x1F8BFF0 Offset: 0x1F8A5F0 VA: 0x181F8BFF0
 	public static byte[] SerializeToBytes(Motorboat instance) { }
 
-	// RVA: 0x1F8B720 Offset: 0x1F89D20 VA: 0x181F8B720
+	// RVA: 0x1F8BF40 Offset: 0x1F8A540 VA: 0x181F8BF40
 	public static void SerializeLengthDelimited(Stream stream, Motorboat instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -272,82 +272,82 @@ public class ModularVehicle : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1F87FA0 Offset: 0x1F865A0 VA: 0x181F87FA0
+	// RVA: 0x1F887C0 Offset: 0x1F86DC0 VA: 0x181F887C0
 	public static void ResetToPool(ModularVehicle instance) { }
 
-	// RVA: 0x1F87F20 Offset: 0x1F86520 VA: 0x181F87F20
+	// RVA: 0x1F88740 Offset: 0x1F86D40 VA: 0x181F88740
 	public void ResetToPool() { }
 
-	// RVA: 0x1F87DF0 Offset: 0x1F863F0 VA: 0x181F87DF0 Slot: 9
+	// RVA: 0x1F88610 Offset: 0x1F86C10 VA: 0x181F88610 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E19440 Offset: 0x1E17A40 VA: 0x181E19440
+	// RVA: 0x1E19C60 Offset: 0x1E18260 VA: 0x181E19C60
 	public void CopyTo(ModularVehicle instance) { }
 
-	// RVA: 0x1F87470 Offset: 0x1F85A70 VA: 0x181F87470
+	// RVA: 0x1F87C90 Offset: 0x1F86290 VA: 0x181F87C90
 	public ModularVehicle Copy() { }
 
-	// RVA: 0x1F87D70 Offset: 0x1F86370 VA: 0x181F87D70
+	// RVA: 0x1F88590 Offset: 0x1F86B90 VA: 0x181F88590
 	public static ModularVehicle Deserialize(Stream stream) { }
 
-	// RVA: 0x1F874E0 Offset: 0x1F85AE0 VA: 0x181F874E0
+	// RVA: 0x1F87D00 Offset: 0x1F86300 VA: 0x181F87D00
 	public static ModularVehicle DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F87780 Offset: 0x1F85D80 VA: 0x181F87780
+	// RVA: 0x1F87FA0 Offset: 0x1F865A0 VA: 0x181F87FA0
 	public static ModularVehicle DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F87C50 Offset: 0x1F86250 VA: 0x181F87C50
+	// RVA: 0x1F88470 Offset: 0x1F86A70 VA: 0x181F88470
 	public static ModularVehicle Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F87EE0 Offset: 0x1F864E0 VA: 0x181F87EE0
+	// RVA: 0x1F88700 Offset: 0x1F86D00 VA: 0x181F88700
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F88430 Offset: 0x1F86A30 VA: 0x181F88430 Slot: 12
+	// RVA: 0x1F88C50 Offset: 0x1F87250 VA: 0x181F88C50 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F88500 Offset: 0x1F86B00 VA: 0x181F88500 Slot: 13
+	// RVA: 0x1F88D20 Offset: 0x1F87320 VA: 0x181F88D20 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ModularVehicle previous) { }
 
-	// RVA: 0x1F87F00 Offset: 0x1F86500 VA: 0x181F87F00 Slot: 14
+	// RVA: 0x1F88720 Offset: 0x1F86D20 VA: 0x181F88720 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F87A10 Offset: 0x1F86010 VA: 0x181F87A10
+	// RVA: 0x1F88230 Offset: 0x1F86830 VA: 0x181F88230
 	public static ModularVehicle Deserialize(byte[] buffer, ModularVehicle instance, bool isDelta = False) { }
 
-	// RVA: 0x1F87B10 Offset: 0x1F86110 VA: 0x181F87B10
+	// RVA: 0x1F88330 Offset: 0x1F86930 VA: 0x181F88330
 	public static ModularVehicle Deserialize(Stream stream, ModularVehicle instance, bool isDelta) { }
 
-	// RVA: 0x1F87560 Offset: 0x1F85B60 VA: 0x181F87560
+	// RVA: 0x1F87D80 Offset: 0x1F86380 VA: 0x181F87D80
 	public static ModularVehicle DeserializeLengthDelimited(Stream stream, ModularVehicle instance, bool isDelta) { }
 
-	// RVA: 0x1F87810 Offset: 0x1F85E10 VA: 0x181F87810
+	// RVA: 0x1F88030 Offset: 0x1F86630 VA: 0x181F88030
 	public static ModularVehicle DeserializeLength(Stream stream, int length, ModularVehicle instance, bool isDelta) { }
 
-	// RVA: 0x1F88020 Offset: 0x1F86620 VA: 0x181F88020
+	// RVA: 0x1F88840 Offset: 0x1F86E40 VA: 0x181F88840
 	public static void SerializeDelta(Stream stream, ModularVehicle instance, ModularVehicle previous) { }
 
-	// RVA: 0x1F88350 Offset: 0x1F86950 VA: 0x181F88350
+	// RVA: 0x1F88B70 Offset: 0x1F87170 VA: 0x181F88B70
 	public static void Serialize(Stream stream, ModularVehicle instance) { }
 
-	// RVA: 0x1F88420 Offset: 0x1F86A20 VA: 0x181F88420
+	// RVA: 0x1F88C40 Offset: 0x1F87240 VA: 0x181F88C40
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F88430 Offset: 0x1F86A30 VA: 0x181F88430
+	// RVA: 0x1F88C50 Offset: 0x1F87250 VA: 0x181F88C50
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F881A0 Offset: 0x1F867A0 VA: 0x181F881A0
+	// RVA: 0x1F889C0 Offset: 0x1F86FC0 VA: 0x181F889C0
 	public static byte[] SerializeToBytes(ModularVehicle instance) { }
 
-	// RVA: 0x1F880F0 Offset: 0x1F866F0 VA: 0x181F880F0
+	// RVA: 0x1F88910 Offset: 0x1F86F10 VA: 0x181F88910
 	public static void SerializeLengthDelimited(Stream stream, ModularVehicle instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -366,82 +366,82 @@ public class ModularCar : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 634
 
 	// Methods
 
-	// RVA: 0x1F86C90 Offset: 0x1F85290 VA: 0x181F86C90
+	// RVA: 0x1F874B0 Offset: 0x1F85AB0 VA: 0x181F874B0
 	public static void ResetToPool(ModularCar instance) { }
 
-	// RVA: 0x1F86BC0 Offset: 0x1F851C0 VA: 0x181F86BC0
+	// RVA: 0x1F873E0 Offset: 0x1F859E0 VA: 0x181F873E0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F86400 Offset: 0x1F84A00 VA: 0x181F86400 Slot: 9
+	// RVA: 0x1F86C20 Offset: 0x1F85220 VA: 0x181F86C20 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DB3600 Offset: 0x1DB1C00 VA: 0x181DB3600
+	// RVA: 0x1DB3DF0 Offset: 0x1DB23F0 VA: 0x181DB3DF0
 	public void CopyTo(ModularCar instance) { }
 
-	// RVA: 0x1F849F0 Offset: 0x1F82FF0 VA: 0x181F849F0
+	// RVA: 0x1F85210 Offset: 0x1F83810 VA: 0x181F85210
 	public ModularCar Copy() { }
 
-	// RVA: 0x1F85E00 Offset: 0x1F84400 VA: 0x181F85E00
+	// RVA: 0x1F86620 Offset: 0x1F84C20 VA: 0x181F86620
 	public static ModularCar Deserialize(Stream stream) { }
 
-	// RVA: 0x1F84E40 Offset: 0x1F83440 VA: 0x181F84E40
+	// RVA: 0x1F85660 Offset: 0x1F83C60 VA: 0x181F85660
 	public static ModularCar DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F85260 Offset: 0x1F83860 VA: 0x181F85260
+	// RVA: 0x1F85A80 Offset: 0x1F84080 VA: 0x181F85A80
 	public static ModularCar DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F85A10 Offset: 0x1F84010 VA: 0x181F85A10
+	// RVA: 0x1F86230 Offset: 0x1F84830 VA: 0x181F86230
 	public static ModularCar Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F86550 Offset: 0x1F84B50 VA: 0x181F86550
+	// RVA: 0x1F86D70 Offset: 0x1F85370 VA: 0x181F86D70
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F87430 Offset: 0x1F85A30 VA: 0x181F87430 Slot: 12
+	// RVA: 0x1F87C50 Offset: 0x1F86250 VA: 0x181F87C50 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F87450 Offset: 0x1F85A50 VA: 0x181F87450 Slot: 13
+	// RVA: 0x1F87C70 Offset: 0x1F86270 VA: 0x181F87C70 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ModularCar previous) { }
 
-	// RVA: 0x1F86830 Offset: 0x1F84E30 VA: 0x181F86830 Slot: 14
+	// RVA: 0x1F87050 Offset: 0x1F85650 VA: 0x181F87050 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F85640 Offset: 0x1F83C40 VA: 0x181F85640
+	// RVA: 0x1F85E60 Offset: 0x1F84460 VA: 0x181F85E60
 	public static ModularCar Deserialize(byte[] buffer, ModularCar instance, bool isDelta = False) { }
 
-	// RVA: 0x1F86120 Offset: 0x1F84720 VA: 0x181F86120
+	// RVA: 0x1F86940 Offset: 0x1F84F40 VA: 0x181F86940
 	public static ModularCar Deserialize(Stream stream, ModularCar instance, bool isDelta) { }
 
-	// RVA: 0x1F84A80 Offset: 0x1F83080 VA: 0x181F84A80
+	// RVA: 0x1F852A0 Offset: 0x1F838A0 VA: 0x181F852A0
 	public static ModularCar DeserializeLengthDelimited(Stream stream, ModularCar instance, bool isDelta) { }
 
-	// RVA: 0x1F84EC0 Offset: 0x1F834C0 VA: 0x181F84EC0
+	// RVA: 0x1F856E0 Offset: 0x1F83CE0 VA: 0x181F856E0
 	public static ModularCar DeserializeLength(Stream stream, int length, ModularCar instance, bool isDelta) { }
 
-	// RVA: 0x1F86D60 Offset: 0x1F85360 VA: 0x181F86D60
+	// RVA: 0x1F87580 Offset: 0x1F85B80 VA: 0x181F87580
 	public static void SerializeDelta(Stream stream, ModularCar instance, ModularCar previous) { }
 
-	// RVA: 0x1F87260 Offset: 0x1F85860 VA: 0x181F87260
+	// RVA: 0x1F87A80 Offset: 0x1F86080 VA: 0x181F87A80
 	public static void Serialize(Stream stream, ModularCar instance) { }
 
-	// RVA: 0x1F87420 Offset: 0x1F85A20 VA: 0x181F87420
+	// RVA: 0x1F87C40 Offset: 0x1F86240 VA: 0x181F87C40
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F87430 Offset: 0x1F85A30 VA: 0x181F87430
+	// RVA: 0x1F87C50 Offset: 0x1F86250 VA: 0x181F87C50
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F87150 Offset: 0x1F85750 VA: 0x181F87150
+	// RVA: 0x1F87970 Offset: 0x1F85F70 VA: 0x181F87970
 	public static byte[] SerializeToBytes(ModularCar instance) { }
 
-	// RVA: 0x1F870A0 Offset: 0x1F856A0 VA: 0x181F870A0
+	// RVA: 0x1F878C0 Offset: 0x1F85EC0 VA: 0x181F878C0
 	public static void SerializeLengthDelimited(Stream stream, ModularCar instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -458,82 +458,82 @@ public class VehicleLift : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 	// Methods
 
-	// RVA: 0x1EFB310 Offset: 0x1EF9910 VA: 0x181EFB310
+	// RVA: 0x1EFBB30 Offset: 0x1EFA130 VA: 0x181EFBB30
 	public static void ResetToPool(VehicleLift instance) { }
 
-	// RVA: 0x1EFB3C0 Offset: 0x1EF99C0 VA: 0x181EFB3C0
+	// RVA: 0x1EFBBE0 Offset: 0x1EFA1E0 VA: 0x181EFBBE0
 	public void ResetToPool() { }
 
-	// RVA: 0x1EFAF60 Offset: 0x1EF9560 VA: 0x181EFAF60 Slot: 9
+	// RVA: 0x1EFB780 Offset: 0x1EF9D80 VA: 0x181EFB780 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1EF9C10 Offset: 0x1EF8210 VA: 0x181EF9C10
+	// RVA: 0x1EFA430 Offset: 0x1EF8A30 VA: 0x181EFA430
 	public void CopyTo(VehicleLift instance) { }
 
-	// RVA: 0x1EF9C50 Offset: 0x1EF8250 VA: 0x181EF9C50
+	// RVA: 0x1EFA470 Offset: 0x1EF8A70 VA: 0x181EFA470
 	public VehicleLift Copy() { }
 
-	// RVA: 0x1EFA730 Offset: 0x1EF8D30 VA: 0x181EFA730
+	// RVA: 0x1EFAF50 Offset: 0x1EF9550 VA: 0x181EFAF50
 	public static VehicleLift Deserialize(Stream stream) { }
 
-	// RVA: 0x1EF9CD0 Offset: 0x1EF82D0 VA: 0x181EF9CD0
+	// RVA: 0x1EFA4F0 Offset: 0x1EF8AF0 VA: 0x181EFA4F0
 	public static VehicleLift DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1EFA370 Offset: 0x1EF8970 VA: 0x181EFA370
+	// RVA: 0x1EFAB90 Offset: 0x1EF9190 VA: 0x181EFAB90
 	public static VehicleLift DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1EFAC10 Offset: 0x1EF9210 VA: 0x181EFAC10
+	// RVA: 0x1EFB430 Offset: 0x1EF9A30 VA: 0x181EFB430
 	public static VehicleLift Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1EFB0A0 Offset: 0x1EF96A0 VA: 0x181EFB0A0
+	// RVA: 0x1EFB8C0 Offset: 0x1EF9EC0 VA: 0x181EFB8C0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1EFB9A0 Offset: 0x1EF9FA0 VA: 0x181EFB9A0 Slot: 12
+	// RVA: 0x1EFC1C0 Offset: 0x1EFA7C0 VA: 0x181EFC1C0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1EFB9C0 Offset: 0x1EF9FC0 VA: 0x181EFB9C0 Slot: 13
+	// RVA: 0x1EFC1E0 Offset: 0x1EFA7E0 VA: 0x181EFC1E0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, VehicleLift previous) { }
 
-	// RVA: 0x1EFB2F0 Offset: 0x1EF98F0 VA: 0x181EFB2F0 Slot: 14
+	// RVA: 0x1EFBB10 Offset: 0x1EFA110 VA: 0x181EFBB10 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1EFA400 Offset: 0x1EF8A00 VA: 0x181EFA400
+	// RVA: 0x1EFAC20 Offset: 0x1EF9220 VA: 0x181EFAC20
 	public static VehicleLift Deserialize(byte[] buffer, VehicleLift instance, bool isDelta = False) { }
 
-	// RVA: 0x1EFA9C0 Offset: 0x1EF8FC0 VA: 0x181EFA9C0
+	// RVA: 0x1EFB1E0 Offset: 0x1EF97E0 VA: 0x181EFB1E0
 	public static VehicleLift Deserialize(Stream stream, VehicleLift instance, bool isDelta) { }
 
-	// RVA: 0x1EF9D50 Offset: 0x1EF8350 VA: 0x181EF9D50
+	// RVA: 0x1EFA570 Offset: 0x1EF8B70 VA: 0x181EFA570
 	public static VehicleLift DeserializeLengthDelimited(Stream stream, VehicleLift instance, bool isDelta) { }
 
-	// RVA: 0x1EFA070 Offset: 0x1EF8670 VA: 0x181EFA070
+	// RVA: 0x1EFA890 Offset: 0x1EF8E90 VA: 0x181EFA890
 	public static VehicleLift DeserializeLength(Stream stream, int length, VehicleLift instance, bool isDelta) { }
 
-	// RVA: 0x1EFB470 Offset: 0x1EF9A70 VA: 0x181EFB470
+	// RVA: 0x1EFBC90 Offset: 0x1EFA290 VA: 0x181EFBC90
 	public static void SerializeDelta(Stream stream, VehicleLift instance, VehicleLift previous) { }
 
-	// RVA: 0x1EFB820 Offset: 0x1EF9E20 VA: 0x181EFB820
+	// RVA: 0x1EFC040 Offset: 0x1EFA640 VA: 0x181EFC040
 	public static void Serialize(Stream stream, VehicleLift instance) { }
 
-	// RVA: 0x1EFB990 Offset: 0x1EF9F90 VA: 0x181EFB990
+	// RVA: 0x1EFC1B0 Offset: 0x1EFA7B0 VA: 0x181EFC1B0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1EFB9A0 Offset: 0x1EF9FA0 VA: 0x181EFB9A0
+	// RVA: 0x1EFC1C0 Offset: 0x1EFA7C0 VA: 0x181EFC1C0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1EFB710 Offset: 0x1EF9D10 VA: 0x181EFB710
+	// RVA: 0x1EFBF30 Offset: 0x1EFA530 VA: 0x181EFBF30
 	public static byte[] SerializeToBytes(VehicleLift instance) { }
 
-	// RVA: 0x1EFB660 Offset: 0x1EF9C60 VA: 0x181EFB660
+	// RVA: 0x1EFBE80 Offset: 0x1EFA480 VA: 0x181EFBE80
 	public static void SerializeLengthDelimited(Stream stream, VehicleLift instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -549,82 +549,82 @@ public class EngineStorage : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1E75490 Offset: 0x1E73A90 VA: 0x181E75490
+	// RVA: 0x1E75CB0 Offset: 0x1E742B0 VA: 0x181E75CB0
 	public static void ResetToPool(EngineStorage instance) { }
 
-	// RVA: 0x1E75530 Offset: 0x1E73B30 VA: 0x181E75530
+	// RVA: 0x1E75D50 Offset: 0x1E74350 VA: 0x181E75D50
 	public void ResetToPool() { }
 
-	// RVA: 0x1E75130 Offset: 0x1E73730 VA: 0x181E75130 Slot: 9
+	// RVA: 0x1E75950 Offset: 0x1E73F50 VA: 0x181E75950 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E73F30 Offset: 0x1E72530 VA: 0x181E73F30
+	// RVA: 0x1E74750 Offset: 0x1E72D50 VA: 0x181E74750
 	public void CopyTo(EngineStorage instance) { }
 
-	// RVA: 0x1E73F60 Offset: 0x1E72560 VA: 0x181E73F60
+	// RVA: 0x1E74780 Offset: 0x1E72D80 VA: 0x181E74780
 	public EngineStorage Copy() { }
 
-	// RVA: 0x1E746B0 Offset: 0x1E72CB0 VA: 0x181E746B0
+	// RVA: 0x1E74ED0 Offset: 0x1E734D0 VA: 0x181E74ED0
 	public static EngineStorage Deserialize(Stream stream) { }
 
-	// RVA: 0x1E742D0 Offset: 0x1E728D0 VA: 0x181E742D0
+	// RVA: 0x1E74AF0 Offset: 0x1E730F0 VA: 0x181E74AF0
 	public static EngineStorage DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E74350 Offset: 0x1E72950 VA: 0x181E74350
+	// RVA: 0x1E74B70 Offset: 0x1E73170 VA: 0x181E74B70
 	public static EngineStorage DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E74C00 Offset: 0x1E73200 VA: 0x181E74C00
+	// RVA: 0x1E75420 Offset: 0x1E73A20 VA: 0x181E75420
 	public static EngineStorage Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E75250 Offset: 0x1E73850 VA: 0x181E75250
+	// RVA: 0x1E75A70 Offset: 0x1E74070 VA: 0x181E75A70
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E75B00 Offset: 0x1E74100 VA: 0x181E75B00 Slot: 12
+	// RVA: 0x1E76320 Offset: 0x1E74920 VA: 0x181E76320 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E75B20 Offset: 0x1E74120 VA: 0x181E75B20 Slot: 13
+	// RVA: 0x1E76340 Offset: 0x1E74940 VA: 0x181E76340 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, EngineStorage previous) { }
 
-	// RVA: 0x1E75470 Offset: 0x1E73A70 VA: 0x181E75470 Slot: 14
+	// RVA: 0x1E75C90 Offset: 0x1E74290 VA: 0x181E75C90 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E74910 Offset: 0x1E72F10 VA: 0x181E74910
+	// RVA: 0x1E75130 Offset: 0x1E73730 VA: 0x181E75130
 	public static EngineStorage Deserialize(byte[] buffer, EngineStorage instance, bool isDelta = False) { }
 
-	// RVA: 0x1E74F10 Offset: 0x1E73510 VA: 0x181E74F10
+	// RVA: 0x1E75730 Offset: 0x1E73D30 VA: 0x181E75730
 	public static EngineStorage Deserialize(Stream stream, EngineStorage instance, bool isDelta) { }
 
-	// RVA: 0x1E73FE0 Offset: 0x1E725E0 VA: 0x181E73FE0
+	// RVA: 0x1E74800 Offset: 0x1E72E00 VA: 0x181E74800
 	public static EngineStorage DeserializeLengthDelimited(Stream stream, EngineStorage instance, bool isDelta) { }
 
-	// RVA: 0x1E743E0 Offset: 0x1E729E0 VA: 0x181E743E0
+	// RVA: 0x1E74C00 Offset: 0x1E73200 VA: 0x181E74C00
 	public static EngineStorage DeserializeLength(Stream stream, int length, EngineStorage instance, bool isDelta) { }
 
-	// RVA: 0x1E755D0 Offset: 0x1E73BD0 VA: 0x181E755D0
+	// RVA: 0x1E75DF0 Offset: 0x1E743F0 VA: 0x181E75DF0
 	public static void SerializeDelta(Stream stream, EngineStorage instance, EngineStorage previous) { }
 
-	// RVA: 0x1E759A0 Offset: 0x1E73FA0 VA: 0x181E759A0
+	// RVA: 0x1E761C0 Offset: 0x1E747C0 VA: 0x181E761C0
 	public static void Serialize(Stream stream, EngineStorage instance) { }
 
-	// RVA: 0x1E75AF0 Offset: 0x1E740F0 VA: 0x181E75AF0
+	// RVA: 0x1E76310 Offset: 0x1E74910 VA: 0x181E76310
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E75B00 Offset: 0x1E74100 VA: 0x181E75B00
+	// RVA: 0x1E76320 Offset: 0x1E74920 VA: 0x181E76320
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E75890 Offset: 0x1E73E90 VA: 0x181E75890
+	// RVA: 0x1E760B0 Offset: 0x1E746B0 VA: 0x181E760B0
 	public static byte[] SerializeToBytes(EngineStorage instance) { }
 
-	// RVA: 0x1E757E0 Offset: 0x1E73DE0 VA: 0x181E757E0
+	// RVA: 0x1E76000 Offset: 0x1E74600 VA: 0x181E76000
 	public static void SerializeLengthDelimited(Stream stream, EngineStorage instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -638,82 +638,82 @@ public class VehicleVendor : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1EFDC80 Offset: 0x1EFC280 VA: 0x181EFDC80
+	// RVA: 0x1EFE4A0 Offset: 0x1EFCAA0 VA: 0x181EFE4A0
 	public static void ResetToPool(VehicleVendor instance) { }
 
-	// RVA: 0x1EFDE60 Offset: 0x1EFC460 VA: 0x181EFDE60
+	// RVA: 0x1EFE680 Offset: 0x1EFCC80 VA: 0x181EFE680
 	public void ResetToPool() { }
 
-	// RVA: 0x1EFDBC0 Offset: 0x1EFC1C0 VA: 0x181EFDBC0 Slot: 9
+	// RVA: 0x1EFE3E0 Offset: 0x1EFC9E0 VA: 0x181EFE3E0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1EFCC60 Offset: 0x1EFB260 VA: 0x181EFCC60
+	// RVA: 0x1EFD480 Offset: 0x1EFBA80 VA: 0x181EFD480
 	public void CopyTo(VehicleVendor instance) { }
 
-	// RVA: 0x1EFCE00 Offset: 0x1EFB400 VA: 0x181EFCE00
+	// RVA: 0x1EFD620 Offset: 0x1EFBC20 VA: 0x181EFD620
 	public VehicleVendor Copy() { }
 
-	// RVA: 0x1EFDA40 Offset: 0x1EFC040 VA: 0x181EFDA40
+	// RVA: 0x1EFE260 Offset: 0x1EFC860 VA: 0x181EFE260
 	public static VehicleVendor Deserialize(Stream stream) { }
 
-	// RVA: 0x1EFD300 Offset: 0x1EFB900 VA: 0x181EFD300
+	// RVA: 0x1EFDB20 Offset: 0x1EFC120 VA: 0x181EFDB20
 	public static VehicleVendor DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1EFD660 Offset: 0x1EFBC60 VA: 0x181EFD660
+	// RVA: 0x1EFDE80 Offset: 0x1EFC480 VA: 0x181EFDE80
 	public static VehicleVendor DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1EFD6F0 Offset: 0x1EFBCF0 VA: 0x181EFD6F0
+	// RVA: 0x1EFDF10 Offset: 0x1EFC510 VA: 0x181EFDF10
 	public static VehicleVendor Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1EFDC40 Offset: 0x1EFC240 VA: 0x181EFDC40
+	// RVA: 0x1EFE460 Offset: 0x1EFCA60 VA: 0x181EFE460
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1EFE690 Offset: 0x1EFCC90 VA: 0x181EFE690 Slot: 12
+	// RVA: 0x1EFEEB0 Offset: 0x1EFD4B0 VA: 0x181EFEEB0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1EFE6B0 Offset: 0x1EFCCB0 VA: 0x181EFE6B0 Slot: 13
+	// RVA: 0x1EFEED0 Offset: 0x1EFD4D0 VA: 0x181EFEED0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, VehicleVendor previous) { }
 
-	// RVA: 0x1EFDC60 Offset: 0x1EFC260 VA: 0x181EFDC60 Slot: 14
+	// RVA: 0x1EFE480 Offset: 0x1EFCA80 VA: 0x181EFE480 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1EFDAC0 Offset: 0x1EFC0C0 VA: 0x181EFDAC0
+	// RVA: 0x1EFE2E0 Offset: 0x1EFC8E0 VA: 0x181EFE2E0
 	public static VehicleVendor Deserialize(byte[] buffer, VehicleVendor instance, bool isDelta = False) { }
 
-	// RVA: 0x1EFD810 Offset: 0x1EFBE10 VA: 0x181EFD810
+	// RVA: 0x1EFE030 Offset: 0x1EFC630 VA: 0x181EFE030
 	public static VehicleVendor Deserialize(Stream stream, VehicleVendor instance, bool isDelta) { }
 
-	// RVA: 0x1EFCFF0 Offset: 0x1EFB5F0 VA: 0x181EFCFF0
+	// RVA: 0x1EFD810 Offset: 0x1EFBE10 VA: 0x181EFD810
 	public static VehicleVendor DeserializeLengthDelimited(Stream stream, VehicleVendor instance, bool isDelta) { }
 
-	// RVA: 0x1EFD380 Offset: 0x1EFB980 VA: 0x181EFD380
+	// RVA: 0x1EFDBA0 Offset: 0x1EFC1A0 VA: 0x181EFDBA0
 	public static VehicleVendor DeserializeLength(Stream stream, int length, VehicleVendor instance, bool isDelta) { }
 
-	// RVA: 0x1EFE040 Offset: 0x1EFC640 VA: 0x181EFE040
+	// RVA: 0x1EFE860 Offset: 0x1EFCE60 VA: 0x181EFE860
 	public static void SerializeDelta(Stream stream, VehicleVendor instance, VehicleVendor previous) { }
 
-	// RVA: 0x1EFE450 Offset: 0x1EFCA50 VA: 0x181EFE450
+	// RVA: 0x1EFEC70 Offset: 0x1EFD270 VA: 0x181EFEC70
 	public static void Serialize(Stream stream, VehicleVendor instance) { }
 
-	// RVA: 0x1EFE680 Offset: 0x1EFCC80 VA: 0x181EFE680
+	// RVA: 0x1EFEEA0 Offset: 0x1EFD4A0 VA: 0x181EFEEA0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1EFE690 Offset: 0x1EFCC90 VA: 0x181EFE690
+	// RVA: 0x1EFEEB0 Offset: 0x1EFD4B0 VA: 0x181EFEEB0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1EFE340 Offset: 0x1EFC940 VA: 0x181EFE340
+	// RVA: 0x1EFEB60 Offset: 0x1EFD160 VA: 0x181EFEB60
 	public static byte[] SerializeToBytes(VehicleVendor instance) { }
 
-	// RVA: 0x1EFE290 Offset: 0x1EFC890 VA: 0x181EFE290
+	// RVA: 0x1EFEAB0 Offset: 0x1EFD0B0 VA: 0x181EFEAB0
 	public static void SerializeLengthDelimited(Stream stream, VehicleVendor instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -727,82 +727,82 @@ public class VehicleVendor.PlayerStorage : IDisposable, Pool.IPooled, IProto // 
 
 	// Methods
 
-	// RVA: 0x1EE6F60 Offset: 0x1EE5560 VA: 0x181EE6F60
+	// RVA: 0x1EE7780 Offset: 0x1EE5D80 VA: 0x181EE7780
 	public static void ResetToPool(VehicleVendor.PlayerStorage instance) { }
 
-	// RVA: 0x1EE7120 Offset: 0x1EE5720 VA: 0x181EE7120
+	// RVA: 0x1EE7940 Offset: 0x1EE5F40 VA: 0x181EE7940
 	public void ResetToPool() { }
 
-	// RVA: 0x1EE6EA0 Offset: 0x1EE54A0 VA: 0x181EE6EA0 Slot: 9
+	// RVA: 0x1EE76C0 Offset: 0x1EE5CC0 VA: 0x181EE76C0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1EE60A0 Offset: 0x1EE46A0 VA: 0x181EE60A0
+	// RVA: 0x1EE68C0 Offset: 0x1EE4EC0 VA: 0x181EE68C0
 	public void CopyTo(VehicleVendor.PlayerStorage instance) { }
 
-	// RVA: 0x1EE6250 Offset: 0x1EE4850 VA: 0x181EE6250
+	// RVA: 0x1EE6A70 Offset: 0x1EE5070 VA: 0x181EE6A70
 	public VehicleVendor.PlayerStorage Copy() { }
 
-	// RVA: 0x1EE6C00 Offset: 0x1EE5200 VA: 0x181EE6C00
+	// RVA: 0x1EE7420 Offset: 0x1EE5A20 VA: 0x181EE7420
 	public static VehicleVendor.PlayerStorage Deserialize(Stream stream) { }
 
-	// RVA: 0x1EE65E0 Offset: 0x1EE4BE0 VA: 0x181EE65E0
+	// RVA: 0x1EE6E00 Offset: 0x1EE5400 VA: 0x181EE6E00
 	public static VehicleVendor.PlayerStorage DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1EE6660 Offset: 0x1EE4C60 VA: 0x181EE6660
+	// RVA: 0x1EE6E80 Offset: 0x1EE5480 VA: 0x181EE6E80
 	public static VehicleVendor.PlayerStorage DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1EE6C80 Offset: 0x1EE5280 VA: 0x181EE6C80
+	// RVA: 0x1EE74A0 Offset: 0x1EE5AA0 VA: 0x181EE74A0
 	public static VehicleVendor.PlayerStorage Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1EE6F20 Offset: 0x1EE5520 VA: 0x181EE6F20
+	// RVA: 0x1EE7740 Offset: 0x1EE5D40 VA: 0x181EE7740
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1EE7910 Offset: 0x1EE5F10 VA: 0x181EE7910 Slot: 12
+	// RVA: 0x1EE8130 Offset: 0x1EE6730 VA: 0x181EE8130 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1EE7930 Offset: 0x1EE5F30 VA: 0x181EE7930 Slot: 13
+	// RVA: 0x1EE8150 Offset: 0x1EE6750 VA: 0x181EE8150 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, VehicleVendor.PlayerStorage previous) { }
 
-	// RVA: 0x1EE6F40 Offset: 0x1EE5540 VA: 0x181EE6F40 Slot: 14
+	// RVA: 0x1EE7760 Offset: 0x1EE5D60 VA: 0x181EE7760 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1EE6DA0 Offset: 0x1EE53A0 VA: 0x181EE6DA0
+	// RVA: 0x1EE75C0 Offset: 0x1EE5BC0 VA: 0x181EE75C0
 	public static VehicleVendor.PlayerStorage Deserialize(byte[] buffer, VehicleVendor.PlayerStorage instance, bool isDelta = False) { }
 
-	// RVA: 0x1EE69D0 Offset: 0x1EE4FD0 VA: 0x181EE69D0
+	// RVA: 0x1EE71F0 Offset: 0x1EE57F0 VA: 0x181EE71F0
 	public static VehicleVendor.PlayerStorage Deserialize(Stream stream, VehicleVendor.PlayerStorage instance, bool isDelta) { }
 
-	// RVA: 0x1EE62D0 Offset: 0x1EE48D0 VA: 0x181EE62D0
+	// RVA: 0x1EE6AF0 Offset: 0x1EE50F0 VA: 0x181EE6AF0
 	public static VehicleVendor.PlayerStorage DeserializeLengthDelimited(Stream stream, VehicleVendor.PlayerStorage instance, bool isDelta) { }
 
-	// RVA: 0x1EE66F0 Offset: 0x1EE4CF0 VA: 0x181EE66F0
+	// RVA: 0x1EE6F10 Offset: 0x1EE5510 VA: 0x181EE6F10
 	public static VehicleVendor.PlayerStorage DeserializeLength(Stream stream, int length, VehicleVendor.PlayerStorage instance, bool isDelta) { }
 
-	// RVA: 0x1EE72E0 Offset: 0x1EE58E0 VA: 0x181EE72E0
+	// RVA: 0x1EE7B00 Offset: 0x1EE6100 VA: 0x181EE7B00
 	public static void SerializeDelta(Stream stream, VehicleVendor.PlayerStorage instance, VehicleVendor.PlayerStorage previous) { }
 
-	// RVA: 0x1EE76E0 Offset: 0x1EE5CE0 VA: 0x181EE76E0
+	// RVA: 0x1EE7F00 Offset: 0x1EE6500 VA: 0x181EE7F00
 	public static void Serialize(Stream stream, VehicleVendor.PlayerStorage instance) { }
 
-	// RVA: 0x1EE7900 Offset: 0x1EE5F00 VA: 0x181EE7900
+	// RVA: 0x1EE8120 Offset: 0x1EE6720 VA: 0x181EE8120
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1EE7910 Offset: 0x1EE5F10 VA: 0x181EE7910
+	// RVA: 0x1EE8130 Offset: 0x1EE6730 VA: 0x181EE8130
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1EE75D0 Offset: 0x1EE5BD0 VA: 0x181EE75D0
+	// RVA: 0x1EE7DF0 Offset: 0x1EE63F0 VA: 0x181EE7DF0
 	public static byte[] SerializeToBytes(VehicleVendor.PlayerStorage instance) { }
 
-	// RVA: 0x1EE7520 Offset: 0x1EE5B20 VA: 0x181EE7520
+	// RVA: 0x1EE7D40 Offset: 0x1EE6340 VA: 0x181EE7D40
 	public static void SerializeLengthDelimited(Stream stream, VehicleVendor.PlayerStorage instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -817,82 +817,82 @@ public class VehicleVendor.PlayerStorage.PlayerStoredVehicle : IDisposable, Pool
 
 	// Methods
 
-	// RVA: 0x1EE8CF0 Offset: 0x1EE72F0 VA: 0x181EE8CF0
+	// RVA: 0x1EE9510 Offset: 0x1EE7B10 VA: 0x181EE9510
 	public static void ResetToPool(VehicleVendor.PlayerStorage.PlayerStoredVehicle instance) { }
 
-	// RVA: 0x1EE8C20 Offset: 0x1EE7220 VA: 0x181EE8C20
+	// RVA: 0x1EE9440 Offset: 0x1EE7A40 VA: 0x181EE9440
 	public void ResetToPool() { }
 
-	// RVA: 0x1EE89B0 Offset: 0x1EE6FB0 VA: 0x181EE89B0 Slot: 9
+	// RVA: 0x1EE91D0 Offset: 0x1EE77D0 VA: 0x181EE91D0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1EE7950 Offset: 0x1EE5F50 VA: 0x181EE7950
+	// RVA: 0x1EE8170 Offset: 0x1EE6770 VA: 0x181EE8170
 	public void CopyTo(VehicleVendor.PlayerStorage.PlayerStoredVehicle instance) { }
 
-	// RVA: 0x1EE79A0 Offset: 0x1EE5FA0 VA: 0x181EE79A0
+	// RVA: 0x1EE81C0 Offset: 0x1EE67C0 VA: 0x181EE81C0
 	public VehicleVendor.PlayerStorage.PlayerStoredVehicle Copy() { }
 
-	// RVA: 0x1EE84E0 Offset: 0x1EE6AE0 VA: 0x181EE84E0
+	// RVA: 0x1EE8D00 Offset: 0x1EE7300 VA: 0x181EE8D00
 	public static VehicleVendor.PlayerStorage.PlayerStoredVehicle Deserialize(Stream stream) { }
 
-	// RVA: 0x1EE7CE0 Offset: 0x1EE62E0 VA: 0x181EE7CE0
+	// RVA: 0x1EE8500 Offset: 0x1EE6B00 VA: 0x181EE8500
 	public static VehicleVendor.PlayerStorage.PlayerStoredVehicle DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1EE7FE0 Offset: 0x1EE65E0 VA: 0x181EE7FE0
+	// RVA: 0x1EE8800 Offset: 0x1EE6E00 VA: 0x181EE8800
 	public static VehicleVendor.PlayerStorage.PlayerStoredVehicle DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1EE86F0 Offset: 0x1EE6CF0 VA: 0x181EE86F0
+	// RVA: 0x1EE8F10 Offset: 0x1EE7510 VA: 0x181EE8F10
 	public static VehicleVendor.PlayerStorage.PlayerStoredVehicle Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1EE8A30 Offset: 0x1EE7030 VA: 0x181EE8A30
+	// RVA: 0x1EE9250 Offset: 0x1EE7850 VA: 0x181EE9250
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1EE9350 Offset: 0x1EE7950 VA: 0x181EE9350 Slot: 12
+	// RVA: 0x1EE9B70 Offset: 0x1EE8170 VA: 0x181EE9B70 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1EE9370 Offset: 0x1EE7970 VA: 0x181EE9370 Slot: 13
+	// RVA: 0x1EE9B90 Offset: 0x1EE8190 VA: 0x181EE9B90 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, VehicleVendor.PlayerStorage.PlayerStoredVehicle previous) { }
 
-	// RVA: 0x1EE8C00 Offset: 0x1EE7200 VA: 0x181EE8C00 Slot: 14
+	// RVA: 0x1EE9420 Offset: 0x1EE7A20 VA: 0x181EE9420 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1EE8070 Offset: 0x1EE6670 VA: 0x181EE8070
+	// RVA: 0x1EE8890 Offset: 0x1EE6E90 VA: 0x181EE8890
 	public static VehicleVendor.PlayerStorage.PlayerStoredVehicle Deserialize(byte[] buffer, VehicleVendor.PlayerStorage.PlayerStoredVehicle instance, bool isDelta = False) { }
 
-	// RVA: 0x1EE8310 Offset: 0x1EE6910 VA: 0x181EE8310
+	// RVA: 0x1EE8B30 Offset: 0x1EE7130 VA: 0x181EE8B30
 	public static VehicleVendor.PlayerStorage.PlayerStoredVehicle Deserialize(Stream stream, VehicleVendor.PlayerStorage.PlayerStoredVehicle instance, bool isDelta) { }
 
-	// RVA: 0x1EE7A40 Offset: 0x1EE6040 VA: 0x181EE7A40
+	// RVA: 0x1EE8260 Offset: 0x1EE6860 VA: 0x181EE8260
 	public static VehicleVendor.PlayerStorage.PlayerStoredVehicle DeserializeLengthDelimited(Stream stream, VehicleVendor.PlayerStorage.PlayerStoredVehicle instance, bool isDelta) { }
 
-	// RVA: 0x1EE7D60 Offset: 0x1EE6360 VA: 0x181EE7D60
+	// RVA: 0x1EE8580 Offset: 0x1EE6B80 VA: 0x181EE8580
 	public static VehicleVendor.PlayerStorage.PlayerStoredVehicle DeserializeLength(Stream stream, int length, VehicleVendor.PlayerStorage.PlayerStoredVehicle instance, bool isDelta) { }
 
-	// RVA: 0x1EE8DC0 Offset: 0x1EE73C0 VA: 0x181EE8DC0
+	// RVA: 0x1EE95E0 Offset: 0x1EE7BE0 VA: 0x181EE95E0
 	public static void SerializeDelta(Stream stream, VehicleVendor.PlayerStorage.PlayerStoredVehicle instance, VehicleVendor.PlayerStorage.PlayerStoredVehicle previous) { }
 
-	// RVA: 0x1EE9190 Offset: 0x1EE7790 VA: 0x181EE9190
+	// RVA: 0x1EE99B0 Offset: 0x1EE7FB0 VA: 0x181EE99B0
 	public static void Serialize(Stream stream, VehicleVendor.PlayerStorage.PlayerStoredVehicle instance) { }
 
-	// RVA: 0x1EE9340 Offset: 0x1EE7940 VA: 0x181EE9340
+	// RVA: 0x1EE9B60 Offset: 0x1EE8160 VA: 0x181EE9B60
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1EE9350 Offset: 0x1EE7950 VA: 0x181EE9350
+	// RVA: 0x1EE9B70 Offset: 0x1EE8170 VA: 0x181EE9B70
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1EE9080 Offset: 0x1EE7680 VA: 0x181EE9080
+	// RVA: 0x1EE98A0 Offset: 0x1EE7EA0 VA: 0x181EE98A0
 	public static byte[] SerializeToBytes(VehicleVendor.PlayerStorage.PlayerStoredVehicle instance) { }
 
-	// RVA: 0x1EE8FD0 Offset: 0x1EE75D0 VA: 0x181EE8FD0
+	// RVA: 0x1EE97F0 Offset: 0x1EE7DF0 VA: 0x181EE97F0
 	public static void SerializeLengthDelimited(Stream stream, VehicleVendor.PlayerStorage.PlayerStoredVehicle instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -905,82 +905,82 @@ public class VehicleModule : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1EFC490 Offset: 0x1EFAA90 VA: 0x181EFC490
+	// RVA: 0x1EFCCB0 Offset: 0x1EFB2B0 VA: 0x181EFCCB0
 	public static void ResetToPool(VehicleModule instance) { }
 
-	// RVA: 0x1EFC510 Offset: 0x1EFAB10 VA: 0x181EFC510
+	// RVA: 0x1EFCD30 Offset: 0x1EFB330 VA: 0x181EFCD30
 	public void ResetToPool() { }
 
-	// RVA: 0x1EFC360 Offset: 0x1EFA960 VA: 0x181EFC360 Slot: 9
+	// RVA: 0x1EFCB80 Offset: 0x1EFB180 VA: 0x181EFCB80 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE790 Offset: 0x1BFCD90 VA: 0x181BFE790
+	// RVA: 0x1BFEF80 Offset: 0x1BFD580 VA: 0x181BFEF80
 	public void CopyTo(VehicleModule instance) { }
 
-	// RVA: 0x1EFB9E0 Offset: 0x1EF9FE0 VA: 0x181EFB9E0
+	// RVA: 0x1EFC200 Offset: 0x1EFA800 VA: 0x181EFC200
 	public VehicleModule Copy() { }
 
-	// RVA: 0x1EFC2E0 Offset: 0x1EFA8E0 VA: 0x181EFC2E0
+	// RVA: 0x1EFCB00 Offset: 0x1EFB100 VA: 0x181EFCB00
 	public static VehicleModule Deserialize(Stream stream) { }
 
-	// RVA: 0x1EFBA50 Offset: 0x1EFA050 VA: 0x181EFBA50
+	// RVA: 0x1EFC270 Offset: 0x1EFA870 VA: 0x181EFC270
 	public static VehicleModule DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1EFBEF0 Offset: 0x1EFA4F0 VA: 0x181EFBEF0
+	// RVA: 0x1EFC710 Offset: 0x1EFAD10 VA: 0x181EFC710
 	public static VehicleModule DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1EFC1C0 Offset: 0x1EFA7C0 VA: 0x181EFC1C0
+	// RVA: 0x1EFC9E0 Offset: 0x1EFAFE0 VA: 0x181EFC9E0
 	public static VehicleModule Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1EFC450 Offset: 0x1EFAA50 VA: 0x181EFC450
+	// RVA: 0x1EFCC70 Offset: 0x1EFB270 VA: 0x181EFCC70
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1EFC9E0 Offset: 0x1EFAFE0 VA: 0x181EFC9E0 Slot: 12
+	// RVA: 0x1EFD200 Offset: 0x1EFB800 VA: 0x181EFD200 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1EFCAB0 Offset: 0x1EFB0B0 VA: 0x181EFCAB0 Slot: 13
+	// RVA: 0x1EFD2D0 Offset: 0x1EFB8D0 VA: 0x181EFD2D0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, VehicleModule previous) { }
 
-	// RVA: 0x1EFC470 Offset: 0x1EFAA70 VA: 0x181EFC470 Slot: 14
+	// RVA: 0x1EFCC90 Offset: 0x1EFB290 VA: 0x181EFCC90 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1EFBF80 Offset: 0x1EFA580 VA: 0x181EFBF80
+	// RVA: 0x1EFC7A0 Offset: 0x1EFADA0 VA: 0x181EFC7A0
 	public static VehicleModule Deserialize(byte[] buffer, VehicleModule instance, bool isDelta = False) { }
 
-	// RVA: 0x1EFC080 Offset: 0x1EFA680 VA: 0x181EFC080
+	// RVA: 0x1EFC8A0 Offset: 0x1EFAEA0 VA: 0x181EFC8A0
 	public static VehicleModule Deserialize(Stream stream, VehicleModule instance, bool isDelta) { }
 
-	// RVA: 0x1EFBAD0 Offset: 0x1EFA0D0 VA: 0x181EFBAD0
+	// RVA: 0x1EFC2F0 Offset: 0x1EFA8F0 VA: 0x181EFC2F0
 	public static VehicleModule DeserializeLengthDelimited(Stream stream, VehicleModule instance, bool isDelta) { }
 
-	// RVA: 0x1EFBCF0 Offset: 0x1EFA2F0 VA: 0x181EFBCF0
+	// RVA: 0x1EFC510 Offset: 0x1EFAB10 VA: 0x181EFC510
 	public static VehicleModule DeserializeLength(Stream stream, int length, VehicleModule instance, bool isDelta) { }
 
-	// RVA: 0x1EFC590 Offset: 0x1EFAB90 VA: 0x181EFC590
+	// RVA: 0x1EFCDB0 Offset: 0x1EFB3B0 VA: 0x181EFCDB0
 	public static void SerializeDelta(Stream stream, VehicleModule instance, VehicleModule previous) { }
 
-	// RVA: 0x1EFC900 Offset: 0x1EFAF00 VA: 0x181EFC900
+	// RVA: 0x1EFD120 Offset: 0x1EFB720 VA: 0x181EFD120
 	public static void Serialize(Stream stream, VehicleModule instance) { }
 
-	// RVA: 0x1EFC9D0 Offset: 0x1EFAFD0 VA: 0x181EFC9D0
+	// RVA: 0x1EFD1F0 Offset: 0x1EFB7F0 VA: 0x181EFD1F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1EFC9E0 Offset: 0x1EFAFE0 VA: 0x181EFC9E0
+	// RVA: 0x1EFD200 Offset: 0x1EFB800 VA: 0x181EFD200
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1EFC750 Offset: 0x1EFAD50 VA: 0x181EFC750
+	// RVA: 0x1EFCF70 Offset: 0x1EFB570 VA: 0x181EFCF70
 	public static byte[] SerializeToBytes(VehicleModule instance) { }
 
-	// RVA: 0x1EFC6A0 Offset: 0x1EFACA0 VA: 0x181EFC6A0
+	// RVA: 0x1EFCEC0 Offset: 0x1EFB4C0 VA: 0x181EFCEC0
 	public static void SerializeLengthDelimited(Stream stream, VehicleModule instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -995,82 +995,82 @@ public class CamperModule : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x1F75200 Offset: 0x1F73800 VA: 0x181F75200
+	// RVA: 0x1F75A20 Offset: 0x1F74020 VA: 0x181F75A20
 	public static void ResetToPool(CamperModule instance) { }
 
-	// RVA: 0x1F75290 Offset: 0x1F73890 VA: 0x181F75290
+	// RVA: 0x1F75AB0 Offset: 0x1F740B0 VA: 0x181F75AB0
 	public void ResetToPool() { }
 
-	// RVA: 0x1F74F20 Offset: 0x1F73520 VA: 0x181F74F20 Slot: 9
+	// RVA: 0x1F75740 Offset: 0x1F73D40 VA: 0x181F75740 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E28720 Offset: 0x1E26D20 VA: 0x181E28720
+	// RVA: 0x1E28F40 Offset: 0x1E27540 VA: 0x181E28F40
 	public void CopyTo(CamperModule instance) { }
 
-	// RVA: 0x1F73FF0 Offset: 0x1F725F0 VA: 0x181F73FF0
+	// RVA: 0x1F74810 Offset: 0x1F72E10 VA: 0x181F74810
 	public CamperModule Copy() { }
 
-	// RVA: 0x1F74810 Offset: 0x1F72E10 VA: 0x181F74810
+	// RVA: 0x1F75030 Offset: 0x1F73630 VA: 0x181F75030
 	public static CamperModule Deserialize(Stream stream) { }
 
-	// RVA: 0x1F74070 Offset: 0x1F72670 VA: 0x181F74070
+	// RVA: 0x1F74890 Offset: 0x1F72E90 VA: 0x181F74890
 	public static CamperModule DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F74370 Offset: 0x1F72970 VA: 0x181F74370
+	// RVA: 0x1F74B90 Offset: 0x1F73190 VA: 0x181F74B90
 	public static CamperModule DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F74A00 Offset: 0x1F73000 VA: 0x181F74A00
+	// RVA: 0x1F75220 Offset: 0x1F73820 VA: 0x181F75220
 	public static CamperModule Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F75030 Offset: 0x1F73630 VA: 0x181F75030
+	// RVA: 0x1F75850 Offset: 0x1F73E50 VA: 0x181F75850
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F757D0 Offset: 0x1F73DD0 VA: 0x181F757D0 Slot: 12
+	// RVA: 0x1F75FF0 Offset: 0x1F745F0 VA: 0x181F75FF0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F757F0 Offset: 0x1F73DF0 VA: 0x181F757F0 Slot: 13
+	// RVA: 0x1F76010 Offset: 0x1F74610 VA: 0x181F76010 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, CamperModule previous) { }
 
-	// RVA: 0x1F751E0 Offset: 0x1F737E0 VA: 0x181F751E0 Slot: 14
+	// RVA: 0x1F75A00 Offset: 0x1F74000 VA: 0x181F75A00 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F74CA0 Offset: 0x1F732A0 VA: 0x181F74CA0
+	// RVA: 0x1F754C0 Offset: 0x1F73AC0 VA: 0x181F754C0
 	public static CamperModule Deserialize(byte[] buffer, CamperModule instance, bool isDelta = False) { }
 
-	// RVA: 0x1F74660 Offset: 0x1F72C60 VA: 0x181F74660
+	// RVA: 0x1F74E80 Offset: 0x1F73480 VA: 0x181F74E80
 	public static CamperModule Deserialize(Stream stream, CamperModule instance, bool isDelta) { }
 
-	// RVA: 0x1F740F0 Offset: 0x1F726F0 VA: 0x181F740F0
+	// RVA: 0x1F74910 Offset: 0x1F72F10 VA: 0x181F74910
 	public static CamperModule DeserializeLengthDelimited(Stream stream, CamperModule instance, bool isDelta) { }
 
-	// RVA: 0x1F74400 Offset: 0x1F72A00 VA: 0x181F74400
+	// RVA: 0x1F74C20 Offset: 0x1F73220 VA: 0x181F74C20
 	public static CamperModule DeserializeLength(Stream stream, int length, CamperModule instance, bool isDelta) { }
 
-	// RVA: 0x1F75320 Offset: 0x1F73920 VA: 0x181F75320
+	// RVA: 0x1F75B40 Offset: 0x1F74140 VA: 0x181F75B40
 	public static void SerializeDelta(Stream stream, CamperModule instance, CamperModule previous) { }
 
-	// RVA: 0x1F756A0 Offset: 0x1F73CA0 VA: 0x181F756A0
+	// RVA: 0x1F75EC0 Offset: 0x1F744C0 VA: 0x181F75EC0
 	public static void Serialize(Stream stream, CamperModule instance) { }
 
-	// RVA: 0x1F757C0 Offset: 0x1F73DC0 VA: 0x181F757C0
+	// RVA: 0x1F75FE0 Offset: 0x1F745E0 VA: 0x181F75FE0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F757D0 Offset: 0x1F73DD0 VA: 0x181F757D0
+	// RVA: 0x1F75FF0 Offset: 0x1F745F0 VA: 0x181F75FF0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F75590 Offset: 0x1F73B90 VA: 0x181F75590
+	// RVA: 0x1F75DB0 Offset: 0x1F743B0 VA: 0x181F75DB0
 	public static byte[] SerializeToBytes(CamperModule instance) { }
 
-	// RVA: 0x1F754E0 Offset: 0x1F73AE0 VA: 0x181F754E0
+	// RVA: 0x1F75D00 Offset: 0x1F74300 VA: 0x181F75D00
 	public static void SerializeLengthDelimited(Stream stream, CamperModule instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -1107,37 +1107,37 @@ public class BaseVehicle : BaseMountable // TypeDefIndex: 8351
 
 	// Methods
 
-	// RVA: 0x935AE0 Offset: 0x9340E0 VA: 0x180935AE0 Slot: 49
+	// RVA: 0x935FF0 Offset: 0x9345F0 VA: 0x180935FF0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x936D50 Offset: 0x935350 VA: 0x180936D50 Slot: 50
+	// RVA: 0x937260 Offset: 0x935860 VA: 0x180937260 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x936870 Offset: 0x934E70 VA: 0x180936870 Slot: 35
+	// RVA: 0x936D80 Offset: 0x935380 VA: 0x180936D80 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x936A90 Offset: 0x935090 VA: 0x180936A90 Slot: 173
+	// RVA: 0x936FA0 Offset: 0x9355A0 VA: 0x180936FA0 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0x935A70 Offset: 0x934070 VA: 0x180935A70 Slot: 14
+	// RVA: 0x935F80 Offset: 0x934580 VA: 0x180935F80 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x936A00 Offset: 0x935000 VA: 0x180936A00 Slot: 16
+	// RVA: 0x936F10 Offset: 0x935510 VA: 0x180936F10 Slot: 16
 	public override void PostNetworkUpdate() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 186
 	public virtual void InitializeClientEffects() { }
 
-	// RVA: 0x935AC0 Offset: 0x9340C0 VA: 0x180935AC0 Slot: 187
+	// RVA: 0x935FD0 Offset: 0x9345D0 VA: 0x180935FD0 Slot: 187
 	public virtual float GetHUDHealth() { }
 
-	// RVA: 0x934FA0 Offset: 0x9335A0 VA: 0x180934FA0 Slot: 188
+	// RVA: 0x9354B0 Offset: 0x933AB0 VA: 0x1809354B0 Slot: 188
 	public virtual float GetHUDMaxHealth() { }
 
-	// RVA: 0x936430 Offset: 0x934A30 VA: 0x180936430 Slot: 169
+	// RVA: 0x936940 Offset: 0x934F40 VA: 0x180936940 Slot: 169
 	public override bool LocalPlayerIsMounted() { }
 
-	// RVA: 0x936670 Offset: 0x934C70 VA: 0x180936670 Slot: 189
+	// RVA: 0x936B80 Offset: 0x935180 VA: 0x180936B80 Slot: 189
 	public virtual bool Menu_Push_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xCBA80 Offset: 0xCAE80 VA: 0x1800CBA80
@@ -1147,67 +1147,67 @@ public class BaseVehicle : BaseMountable // TypeDefIndex: 8351
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void Menu_Occupied(BasePlayer player) { }
 
-	// RVA: 0x936580 Offset: 0x934B80 VA: 0x180936580 Slot: 190
+	// RVA: 0x936A90 Offset: 0x935090 VA: 0x180936A90 Slot: 190
 	protected virtual bool Menu_Occupied_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x9364F0 Offset: 0x934AF0 VA: 0x1809364F0 Slot: 183
+	// RVA: 0x936A00 Offset: 0x935000 VA: 0x180936A00 Slot: 183
 	public override bool Menu_Mount_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x936C80 Offset: 0x935280 VA: 0x180936C80 Slot: 191
+	// RVA: 0x937190 Offset: 0x935790 VA: 0x180937190 Slot: 191
 	protected virtual void WorkshopMode() { }
 
-	// RVA: 0x8CE710 Offset: 0x8CCD10 VA: 0x1808CE710
+	// RVA: 0x8CEC20 Offset: 0x8CD220 VA: 0x1808CEC20
 	public bool IsStationary() { }
 
-	// RVA: 0x936410 Offset: 0x934A10 VA: 0x180936410
+	// RVA: 0x936920 Offset: 0x934F20 VA: 0x180936920
 	public bool IsMoving() { }
 
-	// RVA: 0x936E20 Offset: 0x935420 VA: 0x180936E20
+	// RVA: 0x937330 Offset: 0x935930 VA: 0x180937330
 	public bool get_IsMovingOrOn() { }
 
-	// RVA: 0x936E60 Offset: 0x935460 VA: 0x180936E60 Slot: 76
+	// RVA: 0x937370 Offset: 0x935970 VA: 0x180937370 Slot: 76
 	public override float get_RealisticMass() { }
 
-	// RVA: 0x936960 Offset: 0x934F60 VA: 0x180936960 Slot: 157
+	// RVA: 0x936E70 Offset: 0x935470 VA: 0x180936E70 Slot: 157
 	public override bool PlayerIsMounted(BasePlayer player) { }
 
-	// RVA: 0x6FDD30 Offset: 0x6FC330 VA: 0x1806FDD30 Slot: 192
+	// RVA: 0x6FDC80 Offset: 0x6FC280 VA: 0x1806FDC80 Slot: 192
 	protected virtual bool CanPushNow(BasePlayer pusher) { }
 
-	// RVA: 0x936120 Offset: 0x934720 VA: 0x180936120
+	// RVA: 0x936630 Offset: 0x934C30 VA: 0x180936630
 	public bool HasMountPoints() { }
 
-	// RVA: 0x9363B0 Offset: 0x9349B0 VA: 0x1809363B0 Slot: 153
+	// RVA: 0x9368C0 Offset: 0x934EC0 VA: 0x1809368C0 Slot: 153
 	public override bool IsMounted() { }
 
-	// RVA: 0x9359E0 Offset: 0x933FE0 VA: 0x1809359E0 Slot: 120
+	// RVA: 0x935EF0 Offset: 0x9344F0 VA: 0x180935EF0 Slot: 120
 	public override bool CanBeLooted(BasePlayer player) { }
 
-	// RVA: 0x9362E0 Offset: 0x9348E0 VA: 0x1809362E0
+	// RVA: 0x9367F0 Offset: 0x934DF0 VA: 0x1809367F0
 	public bool IsFlipped() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 193
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 193
 	public virtual bool IsVehicleRoot() { }
 
-	// RVA: 0x935AA0 Offset: 0x9340A0 VA: 0x180935AA0 Slot: 147
+	// RVA: 0x935FB0 Offset: 0x9345B0 VA: 0x180935FB0 Slot: 147
 	public override bool DirectlyMountable() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 170
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 170
 	public override BaseVehicle VehicleParent() { }
 
-	// RVA: 0x936690 Offset: 0x934C90 VA: 0x180936690 Slot: 22
+	// RVA: 0x936BA0 Offset: 0x9351A0 VA: 0x180936BA0 Slot: 22
 	protected override void OnChildAdded(BaseEntity child) { }
 
-	// RVA: 0x9367A0 Offset: 0x934DA0 VA: 0x1809367A0 Slot: 23
+	// RVA: 0x936CB0 Offset: 0x9352B0 VA: 0x180936CB0 Slot: 23
 	protected override void OnChildRemoved(BaseEntity child) { }
 
-	// RVA: 0x936F00 Offset: 0x935500 VA: 0x180936F00
+	// RVA: 0x937410 Offset: 0x935A10 VA: 0x180937410
 	public BaseVehicle.Enumerable get_allMountPoints() { }
 
-	// RVA: 0x935DF0 Offset: 0x9343F0 VA: 0x180935DF0
+	// RVA: 0x936300 Offset: 0x934900 VA: 0x180936300
 	public BaseVehicle.MountPointInfo GetMountPoint(int index) { }
 
-	// RVA: 0x936CA0 Offset: 0x9352A0 VA: 0x180936CA0
+	// RVA: 0x9371B0 Offset: 0x9357B0 VA: 0x1809371B0
 	public void .ctor() { }
 
 }
@@ -1231,7 +1231,7 @@ public class BaseVehicle.MountPointInfo // TypeDefIndex: 8353
 
 	// Methods
 
-	// RVA: 0x93A900 Offset: 0x938F00 VA: 0x18093A900
+	// RVA: 0x93AE10 Offset: 0x939410 VA: 0x18093AE10
 	public void .ctor() { }
 
 }
@@ -1313,10 +1313,10 @@ private class BaseVehicle.Enumerator.Box : Pool.IPooled // TypeDefIndex: 8357
 
 	// Methods
 
-	// RVA: 0x93A1B0 Offset: 0x9387B0 VA: 0x18093A1B0 Slot: 4
+	// RVA: 0x93A6C0 Offset: 0x938CC0 VA: 0x18093A6C0 Slot: 4
 	public void EnterPool() { }
 
-	// RVA: 0x93A1B0 Offset: 0x9387B0 VA: 0x18093A1B0 Slot: 5
+	// RVA: 0x93A6C0 Offset: 0x938CC0 VA: 0x18093A6C0 Slot: 5
 	public void LeavePool() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -1374,40 +1374,40 @@ public class BaseVehicleModule : BaseVehicle, IPrefabPreProcess // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x932AE0 Offset: 0x9310E0 VA: 0x180932AE0 Slot: 49
+	// RVA: 0x932FF0 Offset: 0x9315F0 VA: 0x180932FF0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x935250 Offset: 0x933850 VA: 0x180935250 Slot: 50
+	// RVA: 0x935760 Offset: 0x933D60 VA: 0x180935760 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x933E10 Offset: 0x932410 VA: 0x180933E10 Slot: 35
+	// RVA: 0x934320 Offset: 0x932920 VA: 0x180934320 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x932390 Offset: 0x930990 VA: 0x180932390 Slot: 14
+	// RVA: 0x9328A0 Offset: 0x930EA0 VA: 0x1809328A0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x932640 Offset: 0x930C40 VA: 0x180932640 Slot: 194
+	// RVA: 0x932B50 Offset: 0x931150 VA: 0x180932B50 Slot: 194
 	public virtual void ClientVehicleTick() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 195
 	public virtual void OnClientTickStopped() { }
 
-	// RVA: 0x932410 Offset: 0x930A10 VA: 0x180932410 Slot: 196
+	// RVA: 0x932920 Offset: 0x930F20 VA: 0x180932920 Slot: 196
 	public virtual void ClientOnLoad() { }
 
-	// RVA: 0x9327A0 Offset: 0x930DA0 VA: 0x1809327A0 Slot: 131
+	// RVA: 0x932CB0 Offset: 0x9312B0 VA: 0x180932CB0 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0x934F20 Offset: 0x933520 VA: 0x180934F20
+	// RVA: 0x935430 Offset: 0x933A30 VA: 0x180935430
 	public void SetLightState(bool headlightsOn, bool brakesOn) { }
 
-	// RVA: 0x9321A0 Offset: 0x9307A0 VA: 0x1809321A0
+	// RVA: 0x9326B0 Offset: 0x930CB0 VA: 0x1809326B0
 	public void ClearDecals(BaseVehicleModule.DecalType decalType) { }
 
-	// RVA: 0x932810 Offset: 0x930E10 VA: 0x180932810
+	// RVA: 0x932D20 Offset: 0x931320 VA: 0x180932D20
 	public void DrawHighlight() { }
 
-	// RVA: 0x933690 Offset: 0x931C90 VA: 0x180933690 Slot: 183
+	// RVA: 0x933BA0 Offset: 0x9321A0 VA: 0x180933BA0 Slot: 183
 	public override bool Menu_Mount_ShowIf(BasePlayer player) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 173
@@ -1417,20 +1417,20 @@ public class BaseVehicleModule : BaseVehicle, IPrefabPreProcess // TypeDefIndex:
 	[BaseEntity.Menu.Description] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
 	[BaseEntity.Menu.Icon] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
-	// RVA: 0x933810 Offset: 0x931E10 VA: 0x180933810
+	// RVA: 0x933D20 Offset: 0x932320 VA: 0x180933D20
 	public void Menu_Push(BasePlayer player) { }
 
-	// RVA: 0x933760 Offset: 0x931D60 VA: 0x180933760 Slot: 189
+	// RVA: 0x933C70 Offset: 0x932270 VA: 0x180933C70 Slot: 189
 	public override bool Menu_Push_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xCD080 Offset: 0xCC480 VA: 0x1800CD080
 	[BaseEntity.Menu.Description] // RVA: 0xCD080 Offset: 0xCC480 VA: 0x1800CD080
 	[BaseEntity.Menu.Icon] // RVA: 0xCD080 Offset: 0xCC480 VA: 0x1800CD080
 	[BaseEntity.Menu.ShowIf] // RVA: 0xCD080 Offset: 0xCC480 VA: 0x1800CD080
-	// RVA: 0x933BB0 Offset: 0x9321B0 VA: 0x180933BB0
+	// RVA: 0x9340C0 Offset: 0x9326C0 VA: 0x1809340C0
 	public void Menu_Use(BasePlayer player) { }
 
-	// RVA: 0x9338B0 Offset: 0x931EB0 VA: 0x1809338B0
+	// RVA: 0x933DC0 Offset: 0x9323C0 VA: 0x180933DC0
 	public bool Menu_Use_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xCD300 Offset: 0xCC700 VA: 0x1800CD300
@@ -1440,38 +1440,38 @@ public class BaseVehicleModule : BaseVehicle, IPrefabPreProcess // TypeDefIndex:
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Menu_Locked(BasePlayer player) { }
 
-	// RVA: 0x933540 Offset: 0x931B40 VA: 0x180933540 Slot: 197
+	// RVA: 0x933A50 Offset: 0x932050 VA: 0x180933A50 Slot: 197
 	public virtual bool Menu_Locked_ShowIf(BasePlayer player) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x935450 Offset: 0x933A50 VA: 0x180935450
+	// RVA: 0x935960 Offset: 0x933F60 VA: 0x180935960
 	public BaseModularVehicle get_Vehicle() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x935470 Offset: 0x933A70 VA: 0x180935470
+	// RVA: 0x935980 Offset: 0x933F80 VA: 0x180935980
 	private void set_Vehicle(BaseModularVehicle value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x935240 Offset: 0x933840 VA: 0x180935240
+	// RVA: 0x935750 Offset: 0x933D50 VA: 0x180935750
 	public int get_FirstSocketIndex() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x935460 Offset: 0x933A60 VA: 0x180935460
+	// RVA: 0x935970 Offset: 0x933F70 VA: 0x180935970
 	private void set_FirstSocketIndex(int value) { }
 
-	// RVA: 0x935200 Offset: 0x933800 VA: 0x180935200
+	// RVA: 0x935710 Offset: 0x933D10 VA: 0x180935710
 	public Vector3 get_CentreOfMass() { }
 
-	// RVA: 0x935440 Offset: 0x933A40 VA: 0x180935440
+	// RVA: 0x935950 Offset: 0x933F50 VA: 0x180935950
 	public float get_Mass() { }
 
-	// RVA: 0x52EEF0 Offset: 0x52D4F0 VA: 0x18052EEF0
+	// RVA: 0x52EE80 Offset: 0x52D480 VA: 0x18052EE80
 	public uint get_ID() { }
 
-	// RVA: 0x9353E0 Offset: 0x9339E0 VA: 0x1809353E0
+	// RVA: 0x9358F0 Offset: 0x933EF0 VA: 0x1809358F0
 	public bool get_IsOnAVehicle() { }
 
-	// RVA: 0x77AB40 Offset: 0x779140 VA: 0x18077AB40
+	// RVA: 0x77AA90 Offset: 0x779090 VA: 0x18077AA90
 	public ItemDefinition get_AssociatedItemDef() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 198
@@ -1480,70 +1480,70 @@ public class BaseVehicleModule : BaseVehicle, IPrefabPreProcess // TypeDefIndex:
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 199
 	public virtual bool get_HasAnEngine() { }
 
-	// RVA: 0x933F40 Offset: 0x932540 VA: 0x180933F40 Slot: 84
+	// RVA: 0x934450 Offset: 0x932A50 VA: 0x180934450 Slot: 84
 	public override void PreProcess(IPrefabProcessor process, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x934D20 Offset: 0x933320 VA: 0x180934D20
+	// RVA: 0x935230 Offset: 0x933830 VA: 0x180935230
 	public void RefreshParameters() { }
 
-	// RVA: 0x933D50 Offset: 0x932350 VA: 0x180933D50 Slot: 200
+	// RVA: 0x934260 Offset: 0x932860 VA: 0x180934260 Slot: 200
 	public virtual void ModuleAdded(BaseModularVehicle vehicle, int firstSocketIndex) { }
 
-	// RVA: 0x933DE0 Offset: 0x9323E0 VA: 0x180933DE0 Slot: 201
+	// RVA: 0x9342F0 Offset: 0x9328F0 VA: 0x1809342F0 Slot: 201
 	public virtual void ModuleRemoved() { }
 
-	// RVA: 0x933F00 Offset: 0x932500 VA: 0x180933F00
+	// RVA: 0x934410 Offset: 0x932A10 VA: 0x180934410
 	public void OtherVehicleModulesChanged() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 202
 	public virtual void OnEngineStateChanged(VehicleEngineController.EngineState<GroundVehicle> oldState, VehicleEngineController.EngineState<GroundVehicle> newState) { }
 
-	// RVA: 0x9334A0 Offset: 0x931AA0 VA: 0x1809334A0 Slot: 111
+	// RVA: 0x9339B0 Offset: 0x931FB0 VA: 0x1809339B0 Slot: 111
 	public override float MaxHealth() { }
 
-	// RVA: 0x934FA0 Offset: 0x9335A0 VA: 0x180934FA0 Slot: 143
+	// RVA: 0x9354B0 Offset: 0x933AB0 VA: 0x1809354B0 Slot: 143
 	public override float StartHealth() { }
 
-	// RVA: 0x933290 Offset: 0x931890 VA: 0x180933290
+	// RVA: 0x9337A0 Offset: 0x931DA0 VA: 0x1809337A0
 	public int GetNumSocketsTaken() { }
 
-	// RVA: 0x932940 Offset: 0x930F40 VA: 0x180932940
+	// RVA: 0x932E50 Offset: 0x931450 VA: 0x180932E50
 	public List<ConditionalObject> GetConditionals() { }
 
-	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 203
+	// RVA: 0x568670 Offset: 0x566C70 VA: 0x180568670 Slot: 203
 	public virtual float GetMaxDriveForce() { }
 
-	// RVA: 0x934B00 Offset: 0x933100 VA: 0x180934B00
+	// RVA: 0x935010 Offset: 0x933610 VA: 0x180935010
 	public void RefreshConditionals(bool canGib) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 204
 	protected virtual void PostConditionalRefresh() { }
 
-	// RVA: 0x934020 Offset: 0x932620 VA: 0x180934020
+	// RVA: 0x934530 Offset: 0x932B30 VA: 0x180934530
 	private void RefreshConditional(ConditionalObject conditional, bool canGib) { }
 
-	// RVA: 0x935110 Offset: 0x933710 VA: 0x180935110
+	// RVA: 0x935620 Offset: 0x933C20 VA: 0x180935620
 	private bool TryGetAdjacentModuleInFront(out BaseVehicleModule result) { }
 
-	// RVA: 0x934FC0 Offset: 0x9335C0 VA: 0x180934FC0
+	// RVA: 0x9354D0 Offset: 0x933AD0 VA: 0x1809354D0
 	private bool TryGetAdjacentModuleBehind(out BaseVehicleModule result) { }
 
-	// RVA: 0x933330 Offset: 0x931930 VA: 0x180933330
+	// RVA: 0x933840 Offset: 0x931E40 VA: 0x180933840
 	private bool InSameVisualGroupAs(BaseVehicleModule moduleEntity, ConditionalObject.AdjacentMatchType matchType) { }
 
-	// RVA: 0x932040 Offset: 0x930640 VA: 0x180932040
+	// RVA: 0x932550 Offset: 0x930B50 VA: 0x180932550
 	private bool CanBeUsedNowBy(BasePlayer player) { }
 
-	// RVA: 0x933F10 Offset: 0x932510 VA: 0x180933F10
+	// RVA: 0x934420 Offset: 0x932A20 VA: 0x180934420
 	public bool PlayerIsLookingAtUsable(string lookingAtColldierName, string usableColliderName) { }
 
-	// RVA: 0x933430 Offset: 0x931A30 VA: 0x180933430 Slot: 34
+	// RVA: 0x933940 Offset: 0x931F40 VA: 0x180933940 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 193
 	public override bool IsVehicleRoot() { }
 
-	// RVA: 0x9351D0 Offset: 0x9337D0 VA: 0x1809351D0
+	// RVA: 0x9356E0 Offset: 0x933CE0 VA: 0x1809356E0
 	public void .ctor() { }
 
 }
@@ -1587,36 +1587,36 @@ public class EngineSwitch : BaseEntity // TypeDefIndex: 8389
 
 	// Methods
 
-	// RVA: 0x8C35F0 Offset: 0x8C1BF0 VA: 0x1808C35F0 Slot: 49
+	// RVA: 0x8C3B00 Offset: 0x8C2100 VA: 0x1808C3B00 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x8C3CF0 Offset: 0x8C22F0 VA: 0x1808C3CF0 Slot: 50
+	// RVA: 0x8C4200 Offset: 0x8C2800 VA: 0x1808C4200 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x8C3BA0 Offset: 0x8C21A0 VA: 0x1808C3BA0 Slot: 35
+	// RVA: 0x8C40B0 Offset: 0x8C26B0 VA: 0x1808C40B0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.Menu] // RVA: 0xDC460 Offset: 0xDB860 VA: 0x1800DC460
 	[BaseEntity.Menu.Description] // RVA: 0xDC460 Offset: 0xDB860 VA: 0x1800DC460
 	[BaseEntity.Menu.Icon] // RVA: 0xDC460 Offset: 0xDB860 VA: 0x1800DC460
 	[BaseEntity.Menu.ShowIf] // RVA: 0xDC460 Offset: 0xDB860 VA: 0x1800DC460
-	// RVA: 0x8C3B20 Offset: 0x8C2120 VA: 0x1808C3B20
+	// RVA: 0x8C4030 Offset: 0x8C2630 VA: 0x1808C4030
 	public void Menu_StartEngine(BasePlayer player) { }
 
-	// RVA: 0x50DF50 Offset: 0x50C550 VA: 0x18050DF50
+	// RVA: 0x50DEE0 Offset: 0x50C4E0 VA: 0x18050DEE0
 	public bool Menu_EngineOn_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0xDD950 Offset: 0xDCD50 VA: 0x1800DD950
 	[BaseEntity.Menu.Description] // RVA: 0xDD950 Offset: 0xDCD50 VA: 0x1800DD950
 	[BaseEntity.Menu.Icon] // RVA: 0xDD950 Offset: 0xDCD50 VA: 0x1800DD950
 	[BaseEntity.Menu.ShowIf] // RVA: 0xDD950 Offset: 0xDCD50 VA: 0x1800DD950
-	// RVA: 0x8C3B60 Offset: 0x8C2160 VA: 0x1808C3B60
+	// RVA: 0x8C4070 Offset: 0x8C2670 VA: 0x1808C4070
 	public void Menu_StopEngine(BasePlayer player) { }
 
-	// RVA: 0x4F6310 Offset: 0x4F4910 VA: 0x1804F6310
+	// RVA: 0x4F62A0 Offset: 0x4F48A0 VA: 0x1804F62A0
 	public bool Menu_EngineOff_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x8C3C90 Offset: 0x8C2290 VA: 0x1808C3C90
+	// RVA: 0x8C41A0 Offset: 0x8C27A0 VA: 0x1808C41A0
 	public void .ctor() { }
 
 }
@@ -1694,85 +1694,85 @@ public class ModularCar : BaseModularVehicle, IVehicleLockUser, VehicleChassisVi
 
 	// Methods
 
-	// RVA: 0x7785C0 Offset: 0x776BC0 VA: 0x1807785C0 Slot: 49
+	// RVA: 0x778510 Offset: 0x776B10 VA: 0x180778510 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x77AB70 Offset: 0x779170 VA: 0x18077AB70 Slot: 50
+	// RVA: 0x77AAC0 Offset: 0x7790C0 VA: 0x18077AAC0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x779AF0 Offset: 0x7780F0 VA: 0x180779AF0 Slot: 35
+	// RVA: 0x779A40 Offset: 0x778040 VA: 0x180779A40 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x77AD20 Offset: 0x779320 VA: 0x18077AD20
+	// RVA: 0x77AC70 Offset: 0x779270 VA: 0x18077AC70
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> get_WheelDataFL() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x77AD60 Offset: 0x779360 VA: 0x18077AD60
+	// RVA: 0x77ACB0 Offset: 0x7792B0 VA: 0x18077ACB0
 	private void set_WheelDataFL(VehicleChassisVisuals.ClientWheelData<ModularCar> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x77AD30 Offset: 0x779330 VA: 0x18077AD30
+	// RVA: 0x77AC80 Offset: 0x779280 VA: 0x18077AC80
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> get_WheelDataFR() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x77AD70 Offset: 0x779370 VA: 0x18077AD70
+	// RVA: 0x77ACC0 Offset: 0x7792C0 VA: 0x18077ACC0
 	private void set_WheelDataFR(VehicleChassisVisuals.ClientWheelData<ModularCar> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x77AD40 Offset: 0x779340 VA: 0x18077AD40
+	// RVA: 0x77AC90 Offset: 0x779290 VA: 0x18077AC90
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> get_WheelDataRL() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x77AD80 Offset: 0x779380 VA: 0x18077AD80
+	// RVA: 0x77ACD0 Offset: 0x7792D0 VA: 0x18077ACD0
 	private void set_WheelDataRL(VehicleChassisVisuals.ClientWheelData<ModularCar> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x77AD50 Offset: 0x779350 VA: 0x18077AD50
+	// RVA: 0x77ACA0 Offset: 0x7792A0 VA: 0x18077ACA0
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> get_WheelDataRR() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x77AD90 Offset: 0x779390 VA: 0x18077AD90
+	// RVA: 0x77ACE0 Offset: 0x7792E0 VA: 0x18077ACE0
 	private void set_WheelDataRR(VehicleChassisVisuals.ClientWheelData<ModularCar> value) { }
 
-	// RVA: 0x777C70 Offset: 0x776270 VA: 0x180777C70 Slot: 14
+	// RVA: 0x777BC0 Offset: 0x7761C0 VA: 0x180777BC0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x7799A0 Offset: 0x777FA0 VA: 0x1807799A0 Slot: 132
+	// RVA: 0x7798F0 Offset: 0x777EF0 VA: 0x1807798F0 Slot: 132
 	protected override void OnLifeStateChanged() { }
 
-	// RVA: 0x778080 Offset: 0x776680 VA: 0x180778080 Slot: 131
+	// RVA: 0x777FD0 Offset: 0x7765D0 VA: 0x180777FD0 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0x778C70 Offset: 0x777270 VA: 0x180778C70
+	// RVA: 0x778BC0 Offset: 0x7771C0 VA: 0x180778BC0
 	public bool HasAnEngineAtLowPerformance() { }
 
-	// RVA: 0x778E80 Offset: 0x777480 VA: 0x180778E80
+	// RVA: 0x778DD0 Offset: 0x7773D0 VA: 0x180778DD0
 	public bool HasLowFuel() { }
 
-	// RVA: 0x778C30 Offset: 0x777230 VA: 0x180778C30
+	// RVA: 0x778B80 Offset: 0x777180 VA: 0x180778B80
 	public bool HadRecentFailedEngineStart() { }
 
-	// RVA: 0x77A7B0 Offset: 0x778DB0 VA: 0x18077A7B0 Slot: 62
+	// RVA: 0x77A700 Offset: 0x778D00 VA: 0x18077A700 Slot: 62
 	protected override void SpawnGibs() { }
 
-	// RVA: 0x778B50 Offset: 0x777150 VA: 0x180778B50 Slot: 202
+	// RVA: 0x778AA0 Offset: 0x7770A0 VA: 0x180778AA0 Slot: 202
 	protected override void GroundVehicleClientTick() { }
 
-	// RVA: 0x7798E0 Offset: 0x777EE0 VA: 0x1807798E0 Slot: 201
+	// RVA: 0x779830 Offset: 0x777E30 VA: 0x180779830 Slot: 201
 	protected override void OnClientTickStopped() { }
 
-	// RVA: 0x778F30 Offset: 0x777530 VA: 0x180778F30 Slot: 204
+	// RVA: 0x778E80 Offset: 0x777480 VA: 0x180778E80 Slot: 204
 	protected override bool IsBraking() { }
 
 	[BaseEntity.Menu] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	[BaseEntity.Menu.Description] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	[BaseEntity.Menu.Icon] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
-	// RVA: 0x779250 Offset: 0x777850 VA: 0x180779250
+	// RVA: 0x7791A0 Offset: 0x7777A0 VA: 0x1807791A0
 	public void Menu_FuelStorage(BasePlayer player) { }
 
-	// RVA: 0x779180 Offset: 0x777780 VA: 0x180779180
+	// RVA: 0x7790D0 Offset: 0x7776D0 VA: 0x1807790D0
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x75390 Offset: 0x74790 VA: 0x180075390
@@ -1782,117 +1782,117 @@ public class ModularCar : BaseModularVehicle, IVehicleLockUser, VehicleChassisVi
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Menu_Locked(BasePlayer player) { }
 
-	// RVA: 0x779290 Offset: 0x777890 VA: 0x180779290
+	// RVA: 0x7791E0 Offset: 0x7777E0 VA: 0x1807791E0
 	public bool Menu_Locked_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x7796F0 Offset: 0x777CF0 VA: 0x1807796F0 Slot: 184
+	// RVA: 0x779640 Offset: 0x777C40 VA: 0x180779640 Slot: 184
 	public override bool MountMenuVisible(BasePlayer player) { }
 
-	// RVA: 0x778170 Offset: 0x776770 VA: 0x180778170 Slot: 187
+	// RVA: 0x7780C0 Offset: 0x7766C0 VA: 0x1807780C0 Slot: 187
 	public override float GetHUDHealth() { }
 
-	// RVA: 0x778240 Offset: 0x776840 VA: 0x180778240 Slot: 188
+	// RVA: 0x778190 Offset: 0x776790 VA: 0x180778190 Slot: 188
 	public override float GetHUDMaxHealth() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x779370 Offset: 0x777970 VA: 0x180779370
+	// RVA: 0x7792C0 Offset: 0x7778C0 VA: 0x1807792C0
 	private void ModularCarUpdate(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7780B0 Offset: 0x7766B0 VA: 0x1807780B0
+	// RVA: 0x778000 Offset: 0x776600 VA: 0x180778000
 	private void EngineStartFailed(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x77AB60 Offset: 0x779160 VA: 0x18077AB60 Slot: 196
+	// RVA: 0x77AAB0 Offset: 0x7790B0 VA: 0x18077AAB0 Slot: 196
 	public override float get_DriveWheelVelocity() { }
 
-	// RVA: 0x77AB50 Offset: 0x779150 VA: 0x18077AB50
+	// RVA: 0x77AAA0 Offset: 0x7790A0 VA: 0x18077AAA0
 	public float get_DriveWheelSlip() { }
 
-	// RVA: 0x77AD10 Offset: 0x779310 VA: 0x18077AD10 Slot: 215
+	// RVA: 0x77AC60 Offset: 0x779260 VA: 0x18077AC60 Slot: 215
 	public float get_SteerAngle() { }
 
-	// RVA: 0x77AB40 Offset: 0x779140 VA: 0x18077AB40
+	// RVA: 0x77AA90 Offset: 0x779090 VA: 0x18077AA90
 	public ItemDefinition get_AssociatedItemDef() { }
 
-	// RVA: 0x77ACF0 Offset: 0x7792F0 VA: 0x18077ACF0 Slot: 216
+	// RVA: 0x77AC40 Offset: 0x779240 VA: 0x18077AC40 Slot: 216
 	public float get_MaxSteerAngle() { }
 
-	// RVA: 0x77ACC0 Offset: 0x7792C0 VA: 0x18077ACC0 Slot: 206
+	// RVA: 0x77AC10 Offset: 0x779210 VA: 0x18077AC10 Slot: 206
 	public override bool get_IsLockable() { }
 
-	// RVA: 0x77A470 Offset: 0x778A70 VA: 0x18077A470 Slot: 84
+	// RVA: 0x77A3C0 Offset: 0x7789C0 VA: 0x18077A3C0 Slot: 84
 	public override void PreProcess(IPrefabProcessor process, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x778EA0 Offset: 0x7774A0 VA: 0x180778EA0 Slot: 28
+	// RVA: 0x778DF0 Offset: 0x7773F0 VA: 0x180778DF0 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0x779150 Offset: 0x777750 VA: 0x180779150 Slot: 111
+	// RVA: 0x7790A0 Offset: 0x7776A0 VA: 0x1807790A0 Slot: 111
 	public override float MaxHealth() { }
 
-	// RVA: 0x779150 Offset: 0x777750 VA: 0x180779150 Slot: 143
+	// RVA: 0x7790A0 Offset: 0x7776A0 VA: 0x1807790A0 Slot: 143
 	public override float StartHealth() { }
 
-	// RVA: 0x778170 Offset: 0x776770 VA: 0x180778170
+	// RVA: 0x7780C0 Offset: 0x7766C0 VA: 0x1807780C0
 	public float TotalHealth() { }
 
-	// RVA: 0x778240 Offset: 0x776840 VA: 0x180778240
+	// RVA: 0x778190 Offset: 0x776790 VA: 0x180778190
 	public float TotalMaxHealth() { }
 
-	// RVA: 0x778430 Offset: 0x776A30 VA: 0x180778430 Slot: 197
+	// RVA: 0x778380 Offset: 0x776980 VA: 0x180778380 Slot: 197
 	public override float GetMaxForwardSpeed() { }
 
-	// RVA: 0x778F60 Offset: 0x777560 VA: 0x180778F60 Slot: 34
+	// RVA: 0x778EB0 Offset: 0x7774B0 VA: 0x180778EB0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x779960 Offset: 0x777F60 VA: 0x180779960 Slot: 80
+	// RVA: 0x7798B0 Offset: 0x777EB0 VA: 0x1807798B0 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x778B20 Offset: 0x777120 VA: 0x180778B20 Slot: 198
+	// RVA: 0x778A70 Offset: 0x777070 VA: 0x180778A70 Slot: 198
 	public override float GetThrottleInput() { }
 
-	// RVA: 0x778130 Offset: 0x776730 VA: 0x180778130 Slot: 199
+	// RVA: 0x778080 Offset: 0x776680 VA: 0x180778080 Slot: 199
 	public override float GetBrakeInput() { }
 
-	// RVA: 0x778310 Offset: 0x776910 VA: 0x180778310
+	// RVA: 0x778260 Offset: 0x776860 VA: 0x180778260
 	public float GetMaxDriveForce() { }
 
-	// RVA: 0x778160 Offset: 0x776760 VA: 0x180778160
+	// RVA: 0x7780B0 Offset: 0x7766B0 VA: 0x1807780B0
 	public float GetFuelFraction() { }
 
-	// RVA: 0x77A440 Offset: 0x778A40 VA: 0x18077A440 Slot: 210
+	// RVA: 0x77A390 Offset: 0x778990 VA: 0x18077A390 Slot: 210
 	public bool PlayerHasUnlockPermission(BasePlayer player) { }
 
-	// RVA: 0x77A3E0 Offset: 0x7789E0 VA: 0x18077A3E0 Slot: 207
+	// RVA: 0x77A330 Offset: 0x778930 VA: 0x18077A330 Slot: 207
 	public override bool PlayerCanUseThis(BasePlayer player, ModularCarLock.LockType lockType) { }
 
-	// RVA: 0x77A390 Offset: 0x778990 VA: 0x18077A390 Slot: 212
+	// RVA: 0x77A2E0 Offset: 0x7788E0 VA: 0x18077A2E0 Slot: 212
 	public bool PlayerCanDestroyLock(BasePlayer player, BaseVehicleModule viaModule) { }
 
-	// RVA: 0x777AF0 Offset: 0x7760F0 VA: 0x180777AF0 Slot: 120
+	// RVA: 0x777A40 Offset: 0x776040 VA: 0x180777A40 Slot: 120
 	public override bool CanBeLooted(BasePlayer player) { }
 
-	// RVA: 0x777C00 Offset: 0x776200 VA: 0x180777C00 Slot: 192
+	// RVA: 0x777B50 Offset: 0x776150 VA: 0x180777B50 Slot: 192
 	protected override bool CanPushNow(BasePlayer pusher) { }
 
-	// RVA: 0x77A570 Offset: 0x778B70 VA: 0x18077A570
+	// RVA: 0x77A4C0 Offset: 0x778AC0 VA: 0x18077A4C0
 	protected bool RefreshEngineState() { }
 
-	// RVA: 0x77A740 Offset: 0x778D40 VA: 0x18077A740
+	// RVA: 0x77A690 Offset: 0x778C90 VA: 0x18077A690
 	private float RollOffDriveForce(float driveForce) { }
 
-	// RVA: 0x77A520 Offset: 0x778B20 VA: 0x18077A520
+	// RVA: 0x77A470 Offset: 0x778A70 VA: 0x18077A470
 	private void RefreshChassisProtectionState() { }
 
-	// RVA: 0x779490 Offset: 0x777A90 VA: 0x180779490 Slot: 208
+	// RVA: 0x7793E0 Offset: 0x7779E0 VA: 0x1807793E0 Slot: 208
 	protected override void ModuleEntityAdded(BaseVehicleModule addedModule) { }
 
-	// RVA: 0x7795C0 Offset: 0x777BC0 VA: 0x1807795C0 Slot: 209
+	// RVA: 0x779510 Offset: 0x777B10 VA: 0x180779510 Slot: 209
 	protected override void ModuleEntityRemoved(BaseVehicleModule removedModule) { }
 
-	// RVA: 0x77AB20 Offset: 0x779120 VA: 0x18077AB20
+	// RVA: 0x77AA70 Offset: 0x779070 VA: 0x18077AA70
 	public void .ctor() { }
 
-	// RVA: 0x77AAB0 Offset: 0x7790B0 VA: 0x18077AAB0
+	// RVA: 0x77AA00 Offset: 0x779000 VA: 0x18077AA00
 	private static void .cctor() { }
 
 }
@@ -1911,7 +1911,7 @@ public class ModularCar.SpawnSettings // TypeDefIndex: 8416
 
 	// Methods
 
-	// RVA: 0x77EBB0 Offset: 0x77D1B0 VA: 0x18077EBB0
+	// RVA: 0x77EB00 Offset: 0x77D100 VA: 0x18077EB00
 	public void .ctor() { }
 
 }
@@ -1996,56 +1996,56 @@ public class ModularCarGarage : ContainerIOEntity // TypeDefIndex: 8418
 
 	// Methods
 
-	// RVA: 0x775710 Offset: 0x773D10 VA: 0x180775710 Slot: 49
+	// RVA: 0x775660 Offset: 0x773C60 VA: 0x180775660 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x776DD0 Offset: 0x7753D0 VA: 0x180776DD0 Slot: 50
+	// RVA: 0x776D20 Offset: 0x775320 VA: 0x180776D20 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x7764C0 Offset: 0x774AC0 VA: 0x1807764C0 Slot: 35
+	// RVA: 0x776410 Offset: 0x774A10 VA: 0x180776410 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x775570 Offset: 0x773B70 VA: 0x180775570 Slot: 14
+	// RVA: 0x7754C0 Offset: 0x773AC0 VA: 0x1807754C0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x776B70 Offset: 0x775170 VA: 0x180776B70
+	// RVA: 0x776AC0 Offset: 0x7750C0 VA: 0x180776AC0
 	public void TryRepair(uint itemUID) { }
 
-	// RVA: 0x775C60 Offset: 0x774260 VA: 0x180775C60 Slot: 34
+	// RVA: 0x775BB0 Offset: 0x7741B0 VA: 0x180775BB0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x7756A0 Offset: 0x773CA0 VA: 0x1807756A0
+	// RVA: 0x7755F0 Offset: 0x773BF0 VA: 0x1807755F0
 	public void ClientSelectedLootItem(Item item) { }
 
-	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 165
+	// RVA: 0x5B1870 Offset: 0x5AFE70 VA: 0x1805B1870 Slot: 165
 	public override int GetMoveToContainerIndex(BasePlayer player, Item item) { }
 
-	// RVA: 0x7765B0 Offset: 0x774BB0 VA: 0x1807765B0
+	// RVA: 0x776500 Offset: 0x774B00 VA: 0x180776500
 	private bool PlayerHasInternalModuleLoot() { }
 
-	// RVA: 0x7755E0 Offset: 0x773BE0 VA: 0x1807755E0
+	// RVA: 0x775530 Offset: 0x773B30 VA: 0x180775530
 	public void ClientRequestAddLock() { }
 
-	// RVA: 0x775660 Offset: 0x773C60 VA: 0x180775660
+	// RVA: 0x7755B0 Offset: 0x773BB0 VA: 0x1807755B0
 	public void ClientRequestRemoveLock() { }
 
-	// RVA: 0x775620 Offset: 0x773C20 VA: 0x180775620
+	// RVA: 0x775570 Offset: 0x773B70 VA: 0x180775570
 	public void ClientRequestNewKey() { }
 
-	// RVA: 0x776870 Offset: 0x774E70 VA: 0x180776870
+	// RVA: 0x7767C0 Offset: 0x774DC0 VA: 0x1807767C0
 	private void RefreshPoweredLightState() { }
 
-	// RVA: 0x7767E0 Offset: 0x774DE0 VA: 0x1807767E0
+	// RVA: 0x776730 Offset: 0x774D30 VA: 0x180776730
 	private void RefreshInUseLightState() { }
 
 	[BaseEntity.Menu] // RVA: 0x77310 Offset: 0x76710 VA: 0x180077310
 	[BaseEntity.Menu.Description] // RVA: 0x77310 Offset: 0x76710 VA: 0x180077310
 	[BaseEntity.Menu.Icon] // RVA: 0x77310 Offset: 0x76710 VA: 0x180077310
 	[BaseEntity.Menu.ShowIf] // RVA: 0x77310 Offset: 0x76710 VA: 0x180077310
-	// RVA: 0x775F90 Offset: 0x774590 VA: 0x180775F90
+	// RVA: 0x775EE0 Offset: 0x7744E0 VA: 0x180775EE0
 	public void Menu_EditVehicle(BasePlayer player) { }
 
-	// RVA: 0x775E90 Offset: 0x774490 VA: 0x180775E90
+	// RVA: 0x775DE0 Offset: 0x7743E0 VA: 0x180775DE0
 	public bool Menu_EditVehicle_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x77650 Offset: 0x76A50 VA: 0x180077650
@@ -2055,104 +2055,104 @@ public class ModularCarGarage : ContainerIOEntity // TypeDefIndex: 8418
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Menu_InsufficientPower(BasePlayer player) { }
 
-	// RVA: 0x775FD0 Offset: 0x7745D0 VA: 0x180775FD0
+	// RVA: 0x775F20 Offset: 0x774520 VA: 0x180775F20
 	public bool Menu_InsufficientPower_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x776970 Offset: 0x774F70 VA: 0x180776970
+	// RVA: 0x7768C0 Offset: 0x774EC0 VA: 0x1807768C0
 	public void StartChassisDestroy() { }
 
-	// RVA: 0x775510 Offset: 0x773B10 VA: 0x180775510
+	// RVA: 0x775460 Offset: 0x773A60 VA: 0x180775460
 	public void CancelChassisDestroy() { }
 
-	// RVA: 0x776FA0 Offset: 0x7755A0 VA: 0x180776FA0
+	// RVA: 0x776EF0 Offset: 0x7754F0 VA: 0x180776EF0
 	public float get_TimeLeftToCancelChassisDestroy() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x776F90 Offset: 0x775590 VA: 0x180776F90
+	// RVA: 0x776EE0 Offset: 0x7754E0 VA: 0x180776EE0
 	public bool get_PlatformIsOccupied() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x777080 Offset: 0x775680 VA: 0x180777080
+	// RVA: 0x776FD0 Offset: 0x7755D0 VA: 0x180776FD0
 	private void set_PlatformIsOccupied(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x776DC0 Offset: 0x7753C0 VA: 0x180776DC0
+	// RVA: 0x776D10 Offset: 0x775310 VA: 0x180776D10
 	public bool get_HasEditableOccupant() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x777050 Offset: 0x775650 VA: 0x180777050
+	// RVA: 0x776FA0 Offset: 0x7755A0 VA: 0x180776FA0
 	private void set_HasEditableOccupant(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x776DB0 Offset: 0x7753B0 VA: 0x180776DB0
+	// RVA: 0x776D00 Offset: 0x775300 VA: 0x180776D00
 	public bool get_HasDriveableOccupant() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x777040 Offset: 0x775640 VA: 0x180777040
+	// RVA: 0x776F90 Offset: 0x775590 VA: 0x180776F90
 	private void set_HasDriveableOccupant(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x776F80 Offset: 0x775580 VA: 0x180776F80
+	// RVA: 0x776ED0 Offset: 0x7754D0 VA: 0x180776ED0
 	public ModularCarGarage.OccupantLock get_OccupantLockState() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x777070 Offset: 0x775670 VA: 0x180777070
+	// RVA: 0x776FC0 Offset: 0x7755C0 VA: 0x180776FC0
 	private void set_OccupantLockState(ModularCarGarage.OccupantLock value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x776F70 Offset: 0x775570 VA: 0x180776F70
+	// RVA: 0x776EC0 Offset: 0x7754C0 VA: 0x180776EC0
 	public int get_OccupantLockID() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x777060 Offset: 0x775660 VA: 0x180777060
+	// RVA: 0x776FB0 Offset: 0x7755B0 VA: 0x180776FB0
 	private void set_OccupantLockID(int value) { }
 
-	// RVA: 0x776F60 Offset: 0x775560 VA: 0x180776F60
+	// RVA: 0x776EB0 Offset: 0x7754B0 VA: 0x180776EB0
 	private bool get_LiftIsUp() { }
 
-	// RVA: 0x776F30 Offset: 0x775530 VA: 0x180776F30
+	// RVA: 0x776E80 Offset: 0x775480 VA: 0x180776E80
 	private bool get_LiftIsMoving() { }
 
-	// RVA: 0x776F20 Offset: 0x775520 VA: 0x180776F20
+	// RVA: 0x776E70 Offset: 0x775470 VA: 0x180776E70
 	private bool get_LiftIsDown() { }
 
-	// RVA: 0x557F50 Offset: 0x556550 VA: 0x180557F50
+	// RVA: 0x557EE0 Offset: 0x5564E0 VA: 0x180557EE0
 	public bool get_IsDestroyingChassis() { }
 
-	// RVA: 0x776780 Offset: 0x774D80 VA: 0x180776780 Slot: 84
+	// RVA: 0x7766D0 Offset: 0x774CD0 VA: 0x1807766D0 Slot: 84
 	public override void PreProcess(IPrefabProcessor process, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x776460 Offset: 0x774A60 VA: 0x180776460 Slot: 80
+	// RVA: 0x7763B0 Offset: 0x7749B0 VA: 0x1807763B0 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x5B0430 Offset: 0x5AEA30 VA: 0x1805B0430 Slot: 120
+	// RVA: 0x5B03C0 Offset: 0x5AE9C0 VA: 0x1805B03C0 Slot: 120
 	public override bool CanBeLooted(BasePlayer player) { }
 
-	// RVA: 0x6F3610 Offset: 0x6F1C10 VA: 0x1806F3610 Slot: 150
+	// RVA: 0x6F35A0 Offset: 0x6F1BA0 VA: 0x1806F35A0 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0x7768B0 Offset: 0x774EB0 VA: 0x1807768B0
+	// RVA: 0x776800 Offset: 0x774E00 VA: 0x180776800
 	private void SetOccupantState(bool hasOccupant, bool editableOccupant, bool driveableOccupant, ModularCarGarage.OccupantLock occupantLockState, int occupantLockID, bool forced = False) { }
 
-	// RVA: 0x776810 Offset: 0x774E10 VA: 0x180776810
+	// RVA: 0x776760 Offset: 0x774D60 VA: 0x180776760
 	private void RefreshLiftState(bool forced = False) { }
 
-	// RVA: 0x7762C0 Offset: 0x7748C0 VA: 0x1807762C0
+	// RVA: 0x776210 Offset: 0x774810 VA: 0x180776210
 	private void MoveLift(ModularCarGarage.VehicleLiftState desiredLiftState, float startDelay = 0, bool forced = False) { }
 
-	// RVA: 0x776240 Offset: 0x774840 VA: 0x180776240
+	// RVA: 0x776190 Offset: 0x774790 VA: 0x180776190
 	private void MoveLiftUp() { }
 
-	// RVA: 0x776090 Offset: 0x774690 VA: 0x180776090
+	// RVA: 0x775FE0 Offset: 0x7745E0 VA: 0x180775FE0
 	private void MoveLiftDown() { }
 
-	// RVA: 0x7769C0 Offset: 0x774FC0 VA: 0x1807769C0
+	// RVA: 0x776910 Offset: 0x774F10 VA: 0x180776910
 	private void StartLiftSounds() { }
 
-	// RVA: 0x776BC0 Offset: 0x7751C0 VA: 0x180776BC0
+	// RVA: 0x776B10 Offset: 0x775110 VA: 0x180776B10
 	private void UpdateLiftSounds() { }
 
-	// RVA: 0x776D50 Offset: 0x775350 VA: 0x180776D50
+	// RVA: 0x776CA0 Offset: 0x7752A0 VA: 0x180776CA0
 	public void .ctor() { }
 
 }
@@ -2266,106 +2266,106 @@ public class MotorRowboat : BaseBoat // TypeDefIndex: 8422
 
 	// Methods
 
-	// RVA: 0x7B70F0 Offset: 0x7B56F0 VA: 0x1807B70F0 Slot: 49
+	// RVA: 0x7D54E0 Offset: 0x7D3AE0 VA: 0x1807D54E0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x7B98B0 Offset: 0x7B7EB0 VA: 0x1807B98B0 Slot: 50
+	// RVA: 0x7D7CA0 Offset: 0x7D62A0 VA: 0x1807D7CA0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x7B7FA0 Offset: 0x7B65A0 VA: 0x1807B7FA0 Slot: 35
+	// RVA: 0x7D6390 Offset: 0x7D4990 VA: 0x1807D6390 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x7B8AE0 Offset: 0x7B70E0 VA: 0x1807B8AE0
+	// RVA: 0x7D6ED0 Offset: 0x7D54D0 VA: 0x1807D6ED0
 	public void UpdateSounds() { }
 
-	// RVA: 0x7B79A0 Offset: 0x7B5FA0 VA: 0x1807B79A0 Slot: 28
+	// RVA: 0x7D5D90 Offset: 0x7D4390 VA: 0x1807D5D90 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0x7B89C0 Offset: 0x7B6FC0 VA: 0x1807B89C0 Slot: 173
+	// RVA: 0x7D6DB0 Offset: 0x7D53B0 VA: 0x1807D6DB0 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0x7B96A0 Offset: 0x7B7CA0 VA: 0x1807B96A0
+	// RVA: 0x7D7A90 Offset: 0x7D6090 VA: 0x1807D7A90
 	public void Update() { }
 
-	// RVA: 0x7B9180 Offset: 0x7B7780 VA: 0x1807B9180
+	// RVA: 0x7D7570 Offset: 0x7D5B70 VA: 0x1807D7570
 	public void UpdateWake() { }
 
-	// RVA: 0x7B8280 Offset: 0x7B6880 VA: 0x1807B8280
+	// RVA: 0x7D6670 Offset: 0x7D4C70 VA: 0x1807D6670
 	public void UpdateEffects() { }
 
-	// RVA: 0x7B7A50 Offset: 0x7B6050 VA: 0x1807B7A50 Slot: 186
+	// RVA: 0x7D5E40 Offset: 0x7D4440 VA: 0x1807D5E40 Slot: 186
 	public override void InitializeClientEffects() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 196
 	public virtual void ShutdownClientEffects() { }
 
-	// RVA: 0x7B86E0 Offset: 0x7B6CE0 VA: 0x1807B86E0 Slot: 197
+	// RVA: 0x7D6AD0 Offset: 0x7D50D0 VA: 0x1807D6AD0 Slot: 197
 	public virtual void UpdateEngineRotation() { }
 
-	// RVA: 0x7B8170 Offset: 0x7B6770 VA: 0x1807B8170 Slot: 59
+	// RVA: 0x7D6560 Offset: 0x7D4B60 VA: 0x1807D6560 Slot: 59
 	public override void SetNetworkPosition(Vector3 vPos) { }
 
-	// RVA: 0x7B7F30 Offset: 0x7B6530 VA: 0x1807B7F30 Slot: 184
+	// RVA: 0x7D6320 Offset: 0x7D4920 VA: 0x1807D6320 Slot: 184
 	public override bool MountMenuVisible(BasePlayer player) { }
 
-	// RVA: 0x67E0A0 Offset: 0x67C6A0 VA: 0x18067E0A0 Slot: 131
+	// RVA: 0x67E030 Offset: 0x67C630 VA: 0x18067E030 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0x7B7BE0 Offset: 0x7B61E0 VA: 0x1807B7BE0 Slot: 198
+	// RVA: 0x7D5FD0 Offset: 0x7D45D0 VA: 0x1807D5FD0 Slot: 198
 	public virtual bool LookingAtEngine(BasePlayer player) { }
 
-	// RVA: 0x6A18E0 Offset: 0x69FEE0 VA: 0x1806A18E0 Slot: 199
+	// RVA: 0x6A1870 Offset: 0x69FE70 VA: 0x1806A1870 Slot: 199
 	public virtual bool LookingAtFuelArea(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x7A140 Offset: 0x79540 VA: 0x18007A140
 	[BaseEntity.Menu.Description] // RVA: 0x7A140 Offset: 0x79540 VA: 0x18007A140
 	[BaseEntity.Menu.Icon] // RVA: 0x7A140 Offset: 0x79540 VA: 0x18007A140
 	[BaseEntity.Menu.ShowIf] // RVA: 0x7A140 Offset: 0x79540 VA: 0x18007A140
-	// RVA: 0x7B7E10 Offset: 0x7B6410 VA: 0x1807B7E10
+	// RVA: 0x7D6200 Offset: 0x7D4800 VA: 0x1807D6200
 	public void Menu_StartEngine(BasePlayer player) { }
 
-	// RVA: 0x7B7D70 Offset: 0x7B6370 VA: 0x1807B7D70
+	// RVA: 0x7D6160 Offset: 0x7D4760 VA: 0x1807D6160
 	public bool Menu_StartEngine_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x7A540 Offset: 0x79940 VA: 0x18007A540
 	[BaseEntity.Menu.Description] // RVA: 0x7A540 Offset: 0x79940 VA: 0x18007A540
 	[BaseEntity.Menu.Icon] // RVA: 0x7A540 Offset: 0x79940 VA: 0x18007A540
 	[BaseEntity.Menu.ShowIf] // RVA: 0x7A540 Offset: 0x79940 VA: 0x18007A540
-	// RVA: 0x7B7EE0 Offset: 0x7B64E0 VA: 0x1807B7EE0
+	// RVA: 0x7D62D0 Offset: 0x7D48D0 VA: 0x1807D62D0
 	public void Menu_StopEngine(BasePlayer player) { }
 
-	// RVA: 0x7B7E60 Offset: 0x7B6460 VA: 0x1807B7E60
+	// RVA: 0x7D6250 Offset: 0x7D4850 VA: 0x1807D6250
 	public bool Menu_StopEngine_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x7A840 Offset: 0x79C40 VA: 0x18007A840
 	[BaseEntity.Menu.Description] // RVA: 0x7A840 Offset: 0x79C40 VA: 0x18007A840
 	[BaseEntity.Menu.Icon] // RVA: 0x7A840 Offset: 0x79C40 VA: 0x18007A840
 	[BaseEntity.Menu.ShowIf] // RVA: 0x7A840 Offset: 0x79C40 VA: 0x18007A840
-	// RVA: 0x7B7D30 Offset: 0x7B6330 VA: 0x1807B7D30
+	// RVA: 0x7D6120 Offset: 0x7D4720 VA: 0x1807D6120
 	public void Menu_FuelStorage(BasePlayer player) { }
 
-	// RVA: 0x7B7CC0 Offset: 0x7B62C0 VA: 0x1807B7CC0
+	// RVA: 0x7D60B0 Offset: 0x7D46B0 VA: 0x1807D60B0
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x7B8090 Offset: 0x7B6690 VA: 0x1807B8090 Slot: 83
+	// RVA: 0x7D6480 Offset: 0x7D4A80 VA: 0x1807D6480 Slot: 83
 	public override void OnSignal(BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0x7B6EA0 Offset: 0x7B54A0 VA: 0x1807B6EA0 Slot: 192
+	// RVA: 0x7D5290 Offset: 0x7D3890 VA: 0x1807D5290 Slot: 192
 	protected override bool CanPushNow(BasePlayer pusher) { }
 
-	// RVA: 0x7B81E0 Offset: 0x7B67E0 VA: 0x1807B81E0
+	// RVA: 0x7D65D0 Offset: 0x7D4BD0 VA: 0x1807D65D0
 	private bool ShowPushMenu(BasePlayer player) { }
 
-	// RVA: 0x7B7B30 Offset: 0x7B6130 VA: 0x1807B7B30 Slot: 34
+	// RVA: 0x7D5F20 Offset: 0x7D4520 VA: 0x1807D5F20 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x7B9700 Offset: 0x7B7D00 VA: 0x1807B9700 Slot: 191
+	// RVA: 0x7D7AF0 Offset: 0x7D60F0 VA: 0x1807D7AF0 Slot: 191
 	protected override void WorkshopMode() { }
 
-	// RVA: 0x7B97C0 Offset: 0x7B7DC0 VA: 0x1807B97C0
+	// RVA: 0x7D7BB0 Offset: 0x7D61B0 VA: 0x1807D7BB0
 	public void .ctor() { }
 
-	// RVA: 0x7B9760 Offset: 0x7B7D60 VA: 0x1807B9760
+	// RVA: 0x7D7B50 Offset: 0x7D6150 VA: 0x1807D7B50
 	private static void .cctor() { }
 
 }
@@ -2395,88 +2395,88 @@ public class VehicleModuleCamper : VehicleModuleSeating // TypeDefIndex: 8477
 
 	// Methods
 
-	// RVA: 0xAD1580 Offset: 0xACFB80 VA: 0x180AD1580 Slot: 49
+	// RVA: 0xAD1A50 Offset: 0xAD0050 VA: 0x180AD1A50 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xAD31C0 Offset: 0xAD17C0 VA: 0x180AD31C0 Slot: 50
+	// RVA: 0xAD3690 Offset: 0xAD1C90 VA: 0x180AD3690 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xAD3070 Offset: 0xAD1670 VA: 0x180AD3070 Slot: 35
+	// RVA: 0xAD3540 Offset: 0xAD1B40 VA: 0x180AD3540 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xAD1470 Offset: 0xACFA70 VA: 0x180AD1470 Slot: 120
+	// RVA: 0xAD1940 Offset: 0xACFF40 VA: 0x180AD1940 Slot: 120
 	public override bool CanBeLooted(BasePlayer player) { }
 
-	// RVA: 0xAD2720 Offset: 0xAD0D20 VA: 0x180AD2720 Slot: 205
+	// RVA: 0xAD2BF0 Offset: 0xAD11F0 VA: 0x180AD2BF0 Slot: 205
 	public override bool IsOnThisModule(BasePlayer player) { }
 
-	// RVA: 0xAD28E0 Offset: 0xAD0EE0 VA: 0x180AD28E0 Slot: 34
+	// RVA: 0xAD2DB0 Offset: 0xAD13B0 VA: 0x180AD2DB0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	[BaseEntity.Menu] // RVA: 0x854E0 Offset: 0x848E0 VA: 0x1800854E0
 	[BaseEntity.Menu.Icon] // RVA: 0x854E0 Offset: 0x848E0 VA: 0x1800854E0
 	[BaseEntity.Menu.Description] // RVA: 0x854E0 Offset: 0x848E0 VA: 0x1800854E0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x854E0 Offset: 0x848E0 VA: 0x1800854E0
-	// RVA: 0xAD2D10 Offset: 0xAD1310 VA: 0x180AD2D10
+	// RVA: 0xAD31E0 Offset: 0xAD17E0 VA: 0x180AD31E0
 	public void Menu_MakeBed(BasePlayer player) { }
 
-	// RVA: 0xAD2C50 Offset: 0xAD1250 VA: 0x180AD2C50 Slot: 206
+	// RVA: 0xAD3120 Offset: 0xAD1720 VA: 0x180AD3120 Slot: 206
 	public virtual bool Menu_MakeBed_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x96B80 Offset: 0x95F80 VA: 0x180096B80
 	[BaseEntity.Menu.Icon] // RVA: 0x96B80 Offset: 0x95F80 VA: 0x180096B80
 	[BaseEntity.Menu.Description] // RVA: 0x96B80 Offset: 0x95F80 VA: 0x180096B80
 	[BaseEntity.Menu.ShowIf] // RVA: 0x96B80 Offset: 0x95F80 VA: 0x180096B80
-	// RVA: 0xAD2BC0 Offset: 0xAD11C0 VA: 0x180AD2BC0
+	// RVA: 0xAD3090 Offset: 0xAD1690 VA: 0x180AD3090
 	public void Menu_ClearBedOwner(BasePlayer player) { }
 
-	// RVA: 0xAD2B00 Offset: 0xAD1100 VA: 0x180AD2B00 Slot: 207
+	// RVA: 0xAD2FD0 Offset: 0xAD15D0 VA: 0x180AD2FD0 Slot: 207
 	public virtual bool Menu_ClearBedOwner_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
 	[BaseEntity.Menu.Icon] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
 	[BaseEntity.Menu.Description] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
 	[BaseEntity.Menu.ShowIf] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
-	// RVA: 0xAD2A70 Offset: 0xAD1070 VA: 0x180AD2A70
+	// RVA: 0xAD2F40 Offset: 0xAD1540 VA: 0x180AD2F40
 	public void Menu_AssignToFriend(BasePlayer player) { }
 
-	// RVA: 0xAD29B0 Offset: 0xAD0FB0 VA: 0x180AD29B0 Slot: 208
+	// RVA: 0xAD2E80 Offset: 0xAD1480 VA: 0x180AD2E80 Slot: 208
 	public virtual bool Menu_AssignToFriend_Test(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x84650 Offset: 0x83A50 VA: 0x180084650
 	[BaseEntity.Menu.Icon] // RVA: 0x84650 Offset: 0x83A50 VA: 0x180084650
 	[BaseEntity.Menu.Description] // RVA: 0x84650 Offset: 0x83A50 VA: 0x180084650
 	[BaseEntity.Menu.ShowIf] // RVA: 0x84650 Offset: 0x83A50 VA: 0x180084650
-	// RVA: 0xAD2FE0 Offset: 0xAD15E0 VA: 0x180AD2FE0
+	// RVA: 0xAD34B0 Offset: 0xAD1AB0 VA: 0x180AD34B0
 	public void Menu_Rename(BasePlayer player) { }
 
-	// RVA: 0xAD14C0 Offset: 0xACFAC0 VA: 0x180AD14C0 Slot: 209
+	// RVA: 0xAD1990 Offset: 0xACFF90 VA: 0x180AD1990 Slot: 209
 	protected virtual bool CanRename_Test(BasePlayer player) { }
 
-	// RVA: 0xAD2340 Offset: 0xAD0940 VA: 0x180AD2340
+	// RVA: 0xAD2810 Offset: 0xAD0E10 VA: 0x180AD2810
 	private SleepingBagCamper GetSleepingBagForPlayer(BasePlayer p) { }
 
 	[BaseEntity.Menu] // RVA: 0x97550 Offset: 0x96950 VA: 0x180097550
 	[BaseEntity.Menu.Description] // RVA: 0x97550 Offset: 0x96950 VA: 0x180097550
 	[BaseEntity.Menu.Icon] // RVA: 0x97550 Offset: 0x96950 VA: 0x180097550
 	[BaseEntity.Menu.ShowIf] // RVA: 0x97550 Offset: 0x96950 VA: 0x180097550
-	// RVA: 0xAD2E70 Offset: 0xAD1470 VA: 0x180AD2E70
+	// RVA: 0xAD3340 Offset: 0xAD1940 VA: 0x180AD3340
 	public void Menu_OpenLocker(BasePlayer player) { }
 
-	// RVA: 0xAD2DA0 Offset: 0xAD13A0 VA: 0x180AD2DA0
+	// RVA: 0xAD3270 Offset: 0xAD1870 VA: 0x180AD3270
 	public bool Menu_OpenLocker_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x97790 Offset: 0x96B90 VA: 0x180097790
 	[BaseEntity.Menu.Description] // RVA: 0x97790 Offset: 0x96B90 VA: 0x180097790
 	[BaseEntity.Menu.Icon] // RVA: 0x97790 Offset: 0x96B90 VA: 0x180097790
 	[BaseEntity.Menu.ShowIf] // RVA: 0x97790 Offset: 0x96B90 VA: 0x180097790
-	// RVA: 0xAD2FA0 Offset: 0xAD15A0 VA: 0x180AD2FA0
+	// RVA: 0xAD3470 Offset: 0xAD1A70 VA: 0x180AD3470
 	public void Menu_OpenStorage(BasePlayer player) { }
 
-	// RVA: 0xAD2EB0 Offset: 0xAD14B0 VA: 0x180AD2EB0
+	// RVA: 0xAD3380 Offset: 0xAD1980 VA: 0x180AD3380
 	public bool Menu_OpenStorage_ShowIf(BasePlayer player) { }
 
-	// RVA: 0xAD3160 Offset: 0xAD1760 VA: 0x180AD3160
+	// RVA: 0xAD3630 Offset: 0xAD1C30 VA: 0x180AD3630
 	public void .ctor() { }
 
 }
@@ -2531,97 +2531,97 @@ public class VehicleModuleSeating : BaseVehicleModule, IPrefabPreProcess // Type
 
 	// Methods
 
-	// RVA: 0xAD4E00 Offset: 0xAD3400 VA: 0x180AD4E00 Slot: 49
+	// RVA: 0xAD52D0 Offset: 0xAD38D0 VA: 0x180AD52D0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xAD6FD0 Offset: 0xAD55D0 VA: 0x180AD6FD0 Slot: 50
+	// RVA: 0xAD74A0 Offset: 0xAD5AA0 VA: 0x180AD74A0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xAD5D90 Offset: 0xAD4390 VA: 0x180AD5D90 Slot: 35
+	// RVA: 0xAD6260 Offset: 0xAD4860 VA: 0x180AD6260 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xAD7090 Offset: 0xAD5690 VA: 0x180AD7090 Slot: 198
+	// RVA: 0xAD7560 Offset: 0xAD5B60 VA: 0x180AD7560 Slot: 198
 	public override bool get_HasSeating() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD6FA0 Offset: 0xAD55A0 VA: 0x180AD6FA0
+	// RVA: 0xAD7470 Offset: 0xAD5A70 VA: 0x180AD7470
 	protected ModularCar get_Car() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD7150 Offset: 0xAD5750 VA: 0x180AD7150
+	// RVA: 0xAD7620 Offset: 0xAD5C20 VA: 0x180AD7620
 	private void set_Car(ModularCar value) { }
 
-	// RVA: 0xAD70E0 Offset: 0xAD56E0 VA: 0x180AD70E0
+	// RVA: 0xAD75B0 Offset: 0xAD5BB0 VA: 0x180AD75B0
 	protected bool get_IsOnACar() { }
 
-	// RVA: 0xAD7140 Offset: 0xAD5740 VA: 0x180AD7140
+	// RVA: 0xAD7610 Offset: 0xAD5C10 VA: 0x180AD7610
 	protected bool get_IsOnAVehicleLockUser() { }
 
-	// RVA: 0xAD6FB0 Offset: 0xAD55B0 VA: 0x180AD6FB0
+	// RVA: 0xAD7480 Offset: 0xAD5A80 VA: 0x180AD7480
 	public bool get_DoorsAreLockable() { }
 
-	// RVA: 0xAD6090 Offset: 0xAD4690 VA: 0x180AD6090 Slot: 84
+	// RVA: 0xAD6560 Offset: 0xAD4B60 VA: 0x180AD6560 Slot: 84
 	public override void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0xAD46E0 Offset: 0xAD2CE0 VA: 0x180AD46E0 Slot: 194
+	// RVA: 0xAD4BB0 Offset: 0xAD31B0 VA: 0x180AD4BB0 Slot: 194
 	public override void ClientVehicleTick() { }
 
-	// RVA: 0xAD5960 Offset: 0xAD3F60 VA: 0x180AD5960 Slot: 195
+	// RVA: 0xAD5E30 Offset: 0xAD4430 VA: 0x180AD5E30 Slot: 195
 	public override void OnClientTickStopped() { }
 
-	// RVA: 0xAD6700 Offset: 0xAD4D00 VA: 0x180AD6700 Slot: 173
+	// RVA: 0xAD6BD0 Offset: 0xAD51D0 VA: 0x180AD6BD0 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0xAD63B0 Offset: 0xAD49B0 VA: 0x180AD63B0
+	// RVA: 0xAD6880 Offset: 0xAD4E80 VA: 0x180AD6880
 	private void SetCheckEngineLightState(bool isOn) { }
 
-	// RVA: 0xAD6470 Offset: 0xAD4A70 VA: 0x180AD6470
+	// RVA: 0xAD6940 Offset: 0xAD4F40 VA: 0x180AD6940
 	private void SetFuelLightState(bool isOn) { }
 
-	// RVA: 0xAD6540 Offset: 0xAD4B40 VA: 0x180AD6540
+	// RVA: 0xAD6A10 Offset: 0xAD5010 VA: 0x180AD6A10
 	private void SetLightState(bool isOn, int lightMatIndex, Color lightEmission) { }
 
-	// RVA: 0xAD5A30 Offset: 0xAD4030 VA: 0x180AD5A30 Slot: 80
+	// RVA: 0xAD5F00 Offset: 0xAD4500 VA: 0x180AD5F00 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0xAD6E80 Offset: 0xAD5480 VA: 0x180AD6E80
+	// RVA: 0xAD7350 Offset: 0xAD5950 VA: 0x180AD7350
 	public bool ValidMountRay(BasePlayer player) { }
 
-	// RVA: 0xAD56F0 Offset: 0xAD3CF0 VA: 0x180AD56F0 Slot: 197
+	// RVA: 0xAD5BC0 Offset: 0xAD41C0 VA: 0x180AD5BC0 Slot: 197
 	public override bool Menu_Locked_ShowIf(BasePlayer player) { }
 
-	// RVA: 0xAD5390 Offset: 0xAD3990 VA: 0x180AD5390
+	// RVA: 0xAD5860 Offset: 0xAD3E60 VA: 0x180AD5860
 	private bool LookingAtAMountHotSpot(BasePlayer localPlayer) { }
 
 	[BaseEntity.Menu] // RVA: 0x98A20 Offset: 0x97E20 VA: 0x180098A20
 	[BaseEntity.Menu.Description] // RVA: 0x98A20 Offset: 0x97E20 VA: 0x180098A20
 	[BaseEntity.Menu.Icon] // RVA: 0x98A20 Offset: 0x97E20 VA: 0x180098A20
 	[BaseEntity.Menu.ShowIf] // RVA: 0x98A20 Offset: 0x97E20 VA: 0x180098A20
-	// RVA: 0xAD56B0 Offset: 0xAD3CB0 VA: 0x180AD56B0
+	// RVA: 0xAD5B80 Offset: 0xAD4180 VA: 0x180AD5B80
 	public void Menu_DestroyLock(BasePlayer player) { }
 
-	// RVA: 0xAD56A0 Offset: 0xAD3CA0 VA: 0x180AD56A0
+	// RVA: 0xAD5B70 Offset: 0xAD4170 VA: 0x180AD5B70
 	public bool Menu_DestroyLock_ShowIf(BasePlayer player) { }
 
-	// RVA: 0xAD5270 Offset: 0xAD3870 VA: 0x180AD5270 Slot: 205
+	// RVA: 0xAD5740 Offset: 0xAD3D40 VA: 0x180AD5740 Slot: 205
 	public virtual bool IsOnThisModule(BasePlayer player) { }
 
-	// RVA: 0xAD5110 Offset: 0xAD3710 VA: 0x180AD5110
+	// RVA: 0xAD55E0 Offset: 0xAD3BE0 VA: 0x180AD55E0
 	public bool HasADriverSeat() { }
 
-	// RVA: 0xAD5850 Offset: 0xAD3E50 VA: 0x180AD5850 Slot: 200
+	// RVA: 0xAD5D20 Offset: 0xAD4320 VA: 0x180AD5D20 Slot: 200
 	public override void ModuleAdded(BaseModularVehicle vehicle, int firstSocketIndex) { }
 
-	// RVA: 0xAD5920 Offset: 0xAD3F20 VA: 0x180AD5920 Slot: 201
+	// RVA: 0xAD5DF0 Offset: 0xAD43F0 VA: 0x180AD5DF0 Slot: 201
 	public override void ModuleRemoved() { }
 
-	// RVA: 0xAD5E80 Offset: 0xAD4480 VA: 0x180AD5E80
+	// RVA: 0xAD6350 Offset: 0xAD4950 VA: 0x180AD6350
 	public bool PlayerCanDestroyLock(BasePlayer player) { }
 
-	// RVA: 0xAD6F90 Offset: 0xAD5590 VA: 0x180AD6F90
+	// RVA: 0xAD7460 Offset: 0xAD5A60 VA: 0x180AD7460
 	public void .ctor() { }
 
-	// RVA: 0xAD6F40 Offset: 0xAD5540 VA: 0x180AD6F40
+	// RVA: 0xAD7410 Offset: 0xAD5A10 VA: 0x180AD7410
 	private static void .cctor() { }
 
 }
@@ -2668,7 +2668,7 @@ public class VehicleModuleSeating.Seating // TypeDefIndex: 8480
 
 	// Methods
 
-	// RVA: 0xAC9BF0 Offset: 0xAC81F0 VA: 0x180AC9BF0
+	// RVA: 0xACA0C0 Offset: 0xAC86C0 VA: 0x180ACA0C0
 	public void .ctor() { }
 
 }
@@ -2685,35 +2685,35 @@ public class VehicleModuleStorage : VehicleModuleSeating // TypeDefIndex: 8481
 
 	// Methods
 
-	// RVA: 0xAD7260 Offset: 0xAD5860 VA: 0x180AD7260 Slot: 49
+	// RVA: 0xAD7730 Offset: 0xAD5D30 VA: 0x180AD7730 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xAD77D0 Offset: 0xAD5DD0 VA: 0x180AD77D0 Slot: 50
+	// RVA: 0xAD7CA0 Offset: 0xAD62A0 VA: 0x180AD7CA0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xAD76E0 Offset: 0xAD5CE0 VA: 0x180AD76E0 Slot: 35
+	// RVA: 0xAD7BB0 Offset: 0xAD61B0 VA: 0x180AD7BB0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xAD71C0 Offset: 0xAD57C0 VA: 0x180AD71C0
+	// RVA: 0xAD7690 Offset: 0xAD5C90 VA: 0x180AD7690
 	public IItemContainerEntity GetContainer() { }
 
-	// RVA: 0xAD7570 Offset: 0xAD5B70 VA: 0x180AD7570 Slot: 34
+	// RVA: 0xAD7A40 Offset: 0xAD6040 VA: 0x180AD7A40 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xAD7160 Offset: 0xAD5760 VA: 0x180AD7160 Slot: 120
+	// RVA: 0xAD7630 Offset: 0xAD5C30 VA: 0x180AD7630 Slot: 120
 	public override bool CanBeLooted(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
 	[BaseEntity.Menu.Description] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
 	[BaseEntity.Menu.Icon] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
-	// RVA: 0xAD76A0 Offset: 0xAD5CA0 VA: 0x180AD76A0
+	// RVA: 0xAD7B70 Offset: 0xAD6170 VA: 0x180AD7B70
 	public void Menu_Open(BasePlayer player) { }
 
-	// RVA: 0xAD75D0 Offset: 0xAD5BD0 VA: 0x180AD75D0
+	// RVA: 0xAD7AA0 Offset: 0xAD60A0 VA: 0x180AD7AA0
 	public bool Menu_Open_ShowIf(BasePlayer player) { }
 
-	// RVA: 0xAD42E0 Offset: 0xAD28E0 VA: 0x180AD42E0
+	// RVA: 0xAD47B0 Offset: 0xAD2DB0 VA: 0x180AD47B0
 	public void .ctor() { }
 
 }
@@ -2747,32 +2747,32 @@ public class VehicleModuleTaxi : VehicleModuleStorage // TypeDefIndex: 8483
 
 	// Methods
 
-	// RVA: 0xAD7C00 Offset: 0xAD6200 VA: 0x180AD7C00 Slot: 49
+	// RVA: 0xAD80D0 Offset: 0xAD66D0 VA: 0x180AD80D0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xAD81B0 Offset: 0xAD67B0 VA: 0x180AD81B0 Slot: 50
+	// RVA: 0xAD8680 Offset: 0xAD6C80 VA: 0x180AD8680 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xAD8060 Offset: 0xAD6660 VA: 0x180AD8060 Slot: 35
+	// RVA: 0xAD8530 Offset: 0xAD6B30 VA: 0x180AD8530 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xAD8320 Offset: 0xAD6920 VA: 0x180AD8320
+	// RVA: 0xAD87F0 Offset: 0xAD6DF0 VA: 0x180AD87F0
 	private Vector3 get_KickButtonPos() { }
 
-	// RVA: 0xAD7890 Offset: 0xAD5E90 VA: 0x180AD7890
+	// RVA: 0xAD7D60 Offset: 0xAD6360 VA: 0x180AD7D60
 	private bool CanKickPassengers(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x9A5A0 Offset: 0x999A0 VA: 0x18009A5A0
 	[BaseEntity.Menu.Description] // RVA: 0x9A5A0 Offset: 0x999A0 VA: 0x18009A5A0
 	[BaseEntity.Menu.Icon] // RVA: 0x9A5A0 Offset: 0x999A0 VA: 0x18009A5A0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x9A5A0 Offset: 0x999A0 VA: 0x18009A5A0
-	// RVA: 0xAD7FD0 Offset: 0xAD65D0 VA: 0x180AD7FD0
+	// RVA: 0xAD84A0 Offset: 0xAD6AA0 VA: 0x180AD84A0
 	public void Menu_Kick_Passengers(BasePlayer player) { }
 
-	// RVA: 0xAD7F10 Offset: 0xAD6510 VA: 0x180AD7F10
+	// RVA: 0xAD83E0 Offset: 0xAD69E0 VA: 0x180AD83E0
 	public bool Menu_Kick_Passengers_ShowIf(BasePlayer player) { }
 
-	// RVA: 0xAD8150 Offset: 0xAD6750 VA: 0x180AD8150
+	// RVA: 0xAD8620 Offset: 0xAD6C20 VA: 0x180AD8620
 	public void .ctor() { }
 
 }
@@ -2786,25 +2786,25 @@ public class ModularCarOven : BaseOven // TypeDefIndex: 8608
 
 	// Methods
 
-	// RVA: 0x7774B0 Offset: 0x775AB0 VA: 0x1807774B0 Slot: 35
+	// RVA: 0x777400 Offset: 0x775A00 VA: 0x180777400 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x7777C0 Offset: 0x775DC0 VA: 0x1807777C0
+	// RVA: 0x777710 Offset: 0x775D10 VA: 0x180777710
 	private BaseVehicleModule get_ModuleParent() { }
 
-	// RVA: 0x7775A0 Offset: 0x775BA0 VA: 0x1807775A0 Slot: 27
+	// RVA: 0x7774F0 Offset: 0x775AF0 VA: 0x1807774F0 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0x7775D0 Offset: 0x775BD0 VA: 0x1807775D0 Slot: 156
+	// RVA: 0x777520 Offset: 0x775B20 VA: 0x180777520 Slot: 156
 	protected override bool SwitchOff_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x7776A0 Offset: 0x775CA0 VA: 0x1807776A0 Slot: 155
+	// RVA: 0x7775F0 Offset: 0x775BF0 VA: 0x1807775F0 Slot: 155
 	protected override bool SwitchOn_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x7773E0 Offset: 0x7759E0 VA: 0x1807773E0 Slot: 154
+	// RVA: 0x777330 Offset: 0x775930 VA: 0x180777330 Slot: 154
 	protected override bool Menu_Open_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x52ED00 Offset: 0x52D300 VA: 0x18052ED00
+	// RVA: 0x52EC90 Offset: 0x52D290 VA: 0x18052EC90
 	public void .ctor() { }
 
 }
@@ -2816,19 +2816,19 @@ public class VehicleVendor : NPCTalking // TypeDefIndex: 8851
 
 	// Methods
 
-	// RVA: 0xAD8710 Offset: 0xAD6D10 VA: 0x180AD8710 Slot: 158
+	// RVA: 0xAD8BE0 Offset: 0xAD71E0 VA: 0x180AD8BE0 Slot: 158
 	public override string GetConversationStartSpeech(BasePlayer player) { }
 
-	// RVA: 0xAD8760 Offset: 0xAD6D60 VA: 0x180AD8760
+	// RVA: 0xAD8C30 Offset: 0xAD7230 VA: 0x180AD8C30
 	public VehicleSpawner GetVehicleSpawner() { }
 
-	// RVA: 0xAD8800 Offset: 0xAD6E00 VA: 0x180AD8800 Slot: 34
+	// RVA: 0xAD8CD0 Offset: 0xAD72D0 VA: 0x180AD8CD0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x7C47B0 Offset: 0x7C2DB0 VA: 0x1807C47B0 Slot: 159
+	// RVA: 0x7E2BA0 Offset: 0x7E11A0 VA: 0x1807E2BA0 Slot: 159
 	public override ConversationData GetConversationFor(BasePlayer player) { }
 
-	// RVA: 0xAD8860 Offset: 0xAD6E60 VA: 0x180AD8860
+	// RVA: 0xAD8D30 Offset: 0xAD7330 VA: 0x180AD8D30
 	public void .ctor() { }
 
 }
@@ -2844,13 +2844,13 @@ public class VehicleSpawner : BaseEntity // TypeDefIndex: 8852
 
 	// Methods
 
-	// RVA: 0xAD84E0 Offset: 0xAD6AE0 VA: 0x180AD84E0 Slot: 131
+	// RVA: 0xAD89B0 Offset: 0xAD6FB0 VA: 0x180AD89B0 Slot: 131
 	public virtual int GetOccupyLayer() { }
 
-	// RVA: 0xAD84F0 Offset: 0xAD6AF0 VA: 0x180AD84F0
+	// RVA: 0xAD89C0 Offset: 0xAD6FC0 VA: 0x180AD89C0
 	public BaseVehicle GetVehicleOccupying() { }
 
-	// RVA: 0xAD8690 Offset: 0xAD6C90 VA: 0x180AD8690
+	// RVA: 0xAD8B60 Offset: 0xAD7160 VA: 0x180AD8B60
 	public void .ctor() { }
 
 }
@@ -2897,34 +2897,34 @@ public class EngineAudioClip : MonoBehaviour, IClientComponent // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x8C1CA0 Offset: 0x8C02A0 VA: 0x1808C1CA0
+	// RVA: 0x8C21B0 Offset: 0x8C07B0 VA: 0x1808C21B0
 	private int GetBucketRPM(int RPM) { }
 
-	// RVA: 0x8C1B10 Offset: 0x8C0110 VA: 0x1808C1B10
+	// RVA: 0x8C2020 Offset: 0x8C0620 VA: 0x1808C2020
 	private void Awake() { }
 
-	// RVA: 0x8C2740 Offset: 0x8C0D40 VA: 0x1808C2740
+	// RVA: 0x8C2C50 Offset: 0x8C1250 VA: 0x1808C2C50
 	private void Update() { }
 
-	// RVA: 0x8C2620 Offset: 0x8C0C20 VA: 0x1808C2620
+	// RVA: 0x8C2B30 Offset: 0x8C1130 VA: 0x1808C2B30
 	private void UpdateRPM() { }
 
-	// RVA: 0x8C1D10 Offset: 0x8C0310 VA: 0x1808C1D10
+	// RVA: 0x8C2220 Offset: 0x8C0820 VA: 0x1808C2220
 	private void InitAudioClip() { }
 
-	// RVA: 0x8C1E40 Offset: 0x8C0440 VA: 0x1808C1E40
+	// RVA: 0x8C2350 Offset: 0x8C0950 VA: 0x1808C2350
 	private void OnAudioRead(float[] data) { }
 
-	// RVA: 0x8C22B0 Offset: 0x8C08B0 VA: 0x1808C22B0
+	// RVA: 0x8C27C0 Offset: 0x8C0DC0 VA: 0x1808C27C0
 	private void SpawnGrain() { }
 
-	// RVA: 0x8C1B90 Offset: 0x8C0190 VA: 0x1808C1B90
+	// RVA: 0x8C20A0 Offset: 0x8C06A0 VA: 0x1808C20A0
 	private void CleanupFinishedGrains() { }
 
-	// RVA: 0x8C2000 Offset: 0x8C0600 VA: 0x1808C2000
+	// RVA: 0x8C2510 Offset: 0x8C0B10 VA: 0x1808C2510
 	private void SetupRPMBuckets() { }
 
-	// RVA: 0x8C2B10 Offset: 0x8C1110 VA: 0x1808C2B10
+	// RVA: 0x8C3020 Offset: 0x8C1620 VA: 0x1808C3020
 	public void .ctor() { }
 
 }
@@ -2939,7 +2939,7 @@ public class EngineAudioClip.EngineCycle // TypeDefIndex: 8988
 
 	// Methods
 
-	// RVA: 0x8C3020 Offset: 0x8C1620 VA: 0x1808C3020
+	// RVA: 0x8C3530 Offset: 0x8C1B30 VA: 0x1808C3530
 	public void .ctor(int RPM, int startSample, int endSample, float period, int id) { }
 
 }
@@ -2952,16 +2952,16 @@ public class EngineAudioClip.EngineCycleBucket // TypeDefIndex: 8989
 
 	// Methods
 
-	// RVA: 0x8C2F70 Offset: 0x8C1570 VA: 0x1808C2F70
+	// RVA: 0x8C3480 Offset: 0x8C1A80 VA: 0x1808C3480
 	public void .ctor(int RPM) { }
 
-	// RVA: 0x8C2DA0 Offset: 0x8C13A0 VA: 0x1808C2DA0
+	// RVA: 0x8C32B0 Offset: 0x8C18B0 VA: 0x1808C32B0
 	public EngineAudioClip.EngineCycle GetCycle(Random random, int lastCycleId) { }
 
-	// RVA: 0x8C2EB0 Offset: 0x8C14B0 VA: 0x1808C2EB0
+	// RVA: 0x8C33C0 Offset: 0x8C19C0 VA: 0x1808C33C0
 	private void ResetRemainingCycles(Random random) { }
 
-	// RVA: 0x8C2D30 Offset: 0x8C1330 VA: 0x1808C2D30
+	// RVA: 0x8C3240 Offset: 0x8C1840 VA: 0x1808C3240
 	public void Add(EngineAudioClip.EngineCycle cycle) { }
 
 }
@@ -2986,13 +2986,13 @@ public class EngineAudioClip.Grain // TypeDefIndex: 8990
 
 	// Methods
 
-	// RVA: 0x5A4ED0 Offset: 0x5A34D0 VA: 0x1805A4ED0
+	// RVA: 0x5A4E60 Offset: 0x5A3460 VA: 0x1805A4E60
 	public bool get_finished() { }
 
-	// RVA: 0x8D6850 Offset: 0x8D4E50 VA: 0x1808D6850
+	// RVA: 0x8D6D60 Offset: 0x8D5360 VA: 0x1808D6D60
 	public void Init(float[] source, EngineAudioClip.EngineCycle cycle, int cyclePadding) { }
 
-	// RVA: 0x8D6790 Offset: 0x8D4D90 VA: 0x1808D6790
+	// RVA: 0x8D6CA0 Offset: 0x8D52A0 VA: 0x1808D6CA0
 	public float GetSample() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -3006,19 +3006,19 @@ public class BaseVehicleMountPoint : BaseMountable // TypeDefIndex: 9697
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 147
 	public override bool DirectlyMountable() { }
 
-	// RVA: 0x9355D0 Offset: 0x933BD0 VA: 0x1809355D0 Slot: 170
+	// RVA: 0x935AE0 Offset: 0x9340E0 VA: 0x180935AE0 Slot: 170
 	public override BaseVehicle VehicleParent() { }
 
-	// RVA: 0x935520 Offset: 0x933B20 VA: 0x180935520 Slot: 109
+	// RVA: 0x935A30 Offset: 0x934030 VA: 0x180935A30 Slot: 109
 	public override bool BlocksWaterFor(BasePlayer player) { }
 
-	// RVA: 0x935740 Offset: 0x933D40 VA: 0x180935740 Slot: 156
+	// RVA: 0x935C50 Offset: 0x934250 VA: 0x180935C50 Slot: 156
 	public override float WaterFactorForPlayer(BasePlayer player) { }
 
-	// RVA: 0x935480 Offset: 0x933A80 VA: 0x180935480 Slot: 108
+	// RVA: 0x935990 Offset: 0x933F90 VA: 0x180935990 Slot: 108
 	public override float AirFactor() { }
 
-	// RVA: 0x9357F0 Offset: 0x933DF0 VA: 0x1809357F0
+	// RVA: 0x935D00 Offset: 0x934300 VA: 0x180935D00
 	public void .ctor() { }
 
 }
@@ -3031,19 +3031,19 @@ public class BaseVehicleSeat : BaseVehicleMountPoint // TypeDefIndex: 9698
 
 	// Methods
 
-	// RVA: 0x935870 Offset: 0x933E70 VA: 0x180935870 Slot: 158
+	// RVA: 0x935D80 Offset: 0x934380 VA: 0x180935D80 Slot: 158
 	public override void OnClientInput(BasePlayer player) { }
 
-	// RVA: 0x935930 Offset: 0x933F30 VA: 0x180935930 Slot: 173
+	// RVA: 0x935E40 Offset: 0x934440 VA: 0x180935E40 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0x935860 Offset: 0x933E60 VA: 0x180935860 Slot: 164
+	// RVA: 0x935D70 Offset: 0x934370 VA: 0x180935D70 Slot: 164
 	public override float GetMountedAnimationSpeed() { }
 
-	// RVA: 0x935850 Offset: 0x933E50 VA: 0x180935850 Slot: 159
+	// RVA: 0x935D60 Offset: 0x934360 VA: 0x180935D60 Slot: 159
 	public override bool ForceUpdatePlayerModel(BasePlayer p) { }
 
-	// RVA: 0x9357F0 Offset: 0x933DF0 VA: 0x1809357F0
+	// RVA: 0x935D00 Offset: 0x934300 VA: 0x180935D00
 	public void .ctor() { }
 
 }
@@ -3069,10 +3069,10 @@ public class EngineAudioSet : ScriptableObject // TypeDefIndex: 9735
 
 	// Methods
 
-	// RVA: 0x8C2C80 Offset: 0x8C1280 VA: 0x1808C2C80
+	// RVA: 0x8C3190 Offset: 0x8C1790 VA: 0x1808C3190
 	public BlendedEngineLoopDefinition GetEngineLoopDef(int numEngines) { }
 
-	// RVA: 0x8C2CC0 Offset: 0x8C12C0 VA: 0x1808C2CC0
+	// RVA: 0x8C31D0 Offset: 0x8C17D0 VA: 0x1808C31D0
 	public void .ctor() { }
 
 }
@@ -3085,13 +3085,13 @@ public class ModularCarCentralLockingSwitch : VehicleModuleButtonComponent // Ty
 
 	// Methods
 
-	// RVA: 0x774990 Offset: 0x772F90 VA: 0x180774990 Slot: 4
+	// RVA: 0x7748E0 Offset: 0x772EE0 VA: 0x1807748E0 Slot: 4
 	public override void ClientUse(BasePlayer player, BaseVehicleModule parentModule) { }
 
-	// RVA: 0x774810 Offset: 0x772E10 VA: 0x180774810 Slot: 5
+	// RVA: 0x774760 Offset: 0x772D60 VA: 0x180774760 Slot: 5
 	public override void ClientUpdateTick(BaseVehicleModule parentModule) { }
 
-	// RVA: 0x774AA0 Offset: 0x7730A0 VA: 0x180774AA0
+	// RVA: 0x7749F0 Offset: 0x772FF0 VA: 0x1807749F0
 	public void .ctor() { }
 
 }
@@ -3106,25 +3106,25 @@ public class ModularCarChassisVisuals : VehicleChassisVisuals<ModularCar>, IClie
 
 	// Methods
 
-	// RVA: 0x774AB0 Offset: 0x7730B0 VA: 0x180774AB0 Slot: 4
+	// RVA: 0x774A00 Offset: 0x773000 VA: 0x180774A00 Slot: 4
 	public override void Init(ModularCar owner, VehicleChassisVisuals.ClientWheelData<ModularCar>[] clientWheelData) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	protected override void PreWheelUpdateTick() { }
 
-	// RVA: 0x774D10 Offset: 0x773310 VA: 0x180774D10 Slot: 7
+	// RVA: 0x774C60 Offset: 0x773260 VA: 0x180774C60 Slot: 7
 	protected override void PostWheelUpdateTick(bool instant, bool isCloseToCamera, float steer, float dt) { }
 
-	// RVA: 0x775230 Offset: 0x773830 VA: 0x180775230 Slot: 6
+	// RVA: 0x775180 Offset: 0x773780 VA: 0x180775180 Slot: 6
 	protected override void UpdateWheelVisuals(VehicleChassisVisuals.ClientWheelData<ModularCar> wheelData, bool isOn, float steer, float dt) { }
 
-	// RVA: 0x774EA0 Offset: 0x7734A0 VA: 0x180774EA0
+	// RVA: 0x774DF0 Offset: 0x7733F0 VA: 0x180774DF0
 	private void UpdateAxle(Transform axle, VehicleChassisVisuals.ClientWheelData<ModularCar> wheelDataL, VehicleChassisVisuals.ClientWheelData<ModularCar> wheelDataR, float dt, bool instant) { }
 
-	// RVA: 0x774B20 Offset: 0x773120 VA: 0x180774B20
+	// RVA: 0x774A70 Offset: 0x773070 VA: 0x180774A70
 	private void LookAt(ModularCarChassisVisuals.LookAtTarget lookAt) { }
 
-	// RVA: 0x7754D0 Offset: 0x773AD0 VA: 0x1807754D0
+	// RVA: 0x775420 Offset: 0x773A20 VA: 0x180775420
 	public void .ctor() { }
 
 }
@@ -3160,7 +3160,7 @@ public class ModularCarChassisVisuals.LookAtTarget // TypeDefIndex: 9741
 public class VehicleLiftOccupantTrigger : TriggerBase // TypeDefIndex: 9742
 {	// Methods
 
-	// RVA: 0x4D38B0 Offset: 0x4D1EB0 VA: 0x1804D38B0
+	// RVA: 0x4D3840 Offset: 0x4D1E40 VA: 0x1804D3840
 	public void .ctor() { }
 
 }
@@ -3180,32 +3180,32 @@ public class ModularCarLock // TypeDefIndex: 9744
 
 	// Methods
 
-	// RVA: 0x777340 Offset: 0x775940 VA: 0x180777340
+	// RVA: 0x777290 Offset: 0x775890 VA: 0x180777290
 	public bool get_HasALock() { }
 
-	// RVA: 0x777350 Offset: 0x775950 VA: 0x180777350
+	// RVA: 0x7772A0 Offset: 0x7758A0 VA: 0x1807772A0
 	public bool get_IsLocked() { }
 
-	// RVA: 0x7772B0 Offset: 0x7758B0 VA: 0x1807772B0
+	// RVA: 0x777200 Offset: 0x775800 VA: 0x180777200
 	public bool get_CentralLockingIsOn() { }
 
-	// RVA: 0x777260 Offset: 0x775860 VA: 0x180777260
+	// RVA: 0x7771B0 Offset: 0x7757B0 VA: 0x1807771B0
 	public void .ctor(ModularCar owner, bool isServer) { }
 
-	// RVA: 0x777160 Offset: 0x775760 VA: 0x180777160
+	// RVA: 0x7770B0 Offset: 0x7756B0 VA: 0x1807770B0
 	public bool PlayerHasUnlockPermission(BasePlayer player) { }
 
-	// RVA: 0x777110 Offset: 0x775710 VA: 0x180777110
+	// RVA: 0x777060 Offset: 0x775660 VA: 0x180777060
 	public bool PlayerCanUseThis(BasePlayer player, ModularCarLock.LockType lockType) { }
 
-	// RVA: 0x7770D0 Offset: 0x7756D0 VA: 0x1807770D0
+	// RVA: 0x777020 Offset: 0x775620 VA: 0x180777020
 	public bool PlayerCanDestroyLock(BaseVehicleModule viaModule) { }
 
-	// RVA: 0x777090 Offset: 0x775690 VA: 0x180777090
+	// RVA: 0x776FE0 Offset: 0x7755E0 VA: 0x180776FE0
 	private bool KeyCanUnlockThis(Item key) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x777090 Offset: 0x775690 VA: 0x180777090
+	// RVA: 0x776FE0 Offset: 0x7755E0 VA: 0x180776FE0
 	private bool <PlayerHasUnlockPermission>b__13_0(Item key) { }
 
 }
@@ -3224,7 +3224,7 @@ public class ModularCarPresetConfig : ScriptableObject // TypeDefIndex: 9746
 
 	// Methods
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -3253,31 +3253,31 @@ public class ModularCarSeat : MouseSteerableSeat // TypeDefIndex: 9747
 
 	// Methods
 
-	// RVA: 0x7778B0 Offset: 0x775EB0 VA: 0x1807778B0
+	// RVA: 0x777800 Offset: 0x775E00 VA: 0x180777800
 	public bool get_HasLeftFootIK() { }
 
-	// RVA: 0x7778F0 Offset: 0x775EF0 VA: 0x1807778F0
+	// RVA: 0x777840 Offset: 0x775E40 VA: 0x180777840
 	public bool get_HasRightFootIK() { }
 
-	// RVA: 0x777930 Offset: 0x775F30 VA: 0x180777930
+	// RVA: 0x777880 Offset: 0x775E80 VA: 0x180777880
 	public Vector3 get_LeftFootIKPos() { }
 
-	// RVA: 0x777A10 Offset: 0x776010 VA: 0x180777A10
+	// RVA: 0x777960 Offset: 0x775F60 VA: 0x180777960
 	public Vector3 get_RightFootIKPos() { }
 
-	// RVA: 0x7778D0 Offset: 0x775ED0 VA: 0x1807778D0
+	// RVA: 0x777820 Offset: 0x775E20 VA: 0x180777820
 	public bool get_HasLeftHandIK() { }
 
-	// RVA: 0x777910 Offset: 0x775F10 VA: 0x180777910
+	// RVA: 0x777860 Offset: 0x775E60 VA: 0x180777860
 	public bool get_HasRightHandIK() { }
 
-	// RVA: 0x7779A0 Offset: 0x775FA0 VA: 0x1807779A0
+	// RVA: 0x7778F0 Offset: 0x775EF0 VA: 0x1807778F0
 	public Vector3 get_LeftHandIKPos() { }
 
-	// RVA: 0x777A80 Offset: 0x776080 VA: 0x180777A80
+	// RVA: 0x7779D0 Offset: 0x775FD0 VA: 0x1807779D0
 	public Vector3 get_RightHandIKPos() { }
 
-	// RVA: 0x7778A0 Offset: 0x775EA0 VA: 0x1807778A0
+	// RVA: 0x7777F0 Offset: 0x775DF0 VA: 0x1807777F0
 	public void .ctor() { }
 
 }
@@ -3289,16 +3289,16 @@ public class ModularVehicleShopFront : ShopFront // TypeDefIndex: 9748
 
 	// Methods
 
-	// RVA: 0x77ADA0 Offset: 0x7793A0 VA: 0x18077ADA0 Slot: 120
+	// RVA: 0x77ACF0 Offset: 0x7792F0 VA: 0x18077ACF0 Slot: 120
 	public override bool CanBeLooted(BasePlayer player) { }
 
-	// RVA: 0x77AE30 Offset: 0x779430 VA: 0x18077AE30 Slot: 153
+	// RVA: 0x77AD80 Offset: 0x779380 VA: 0x18077AD80 Slot: 153
 	public override bool ShouldShowLootMenus() { }
 
-	// RVA: 0x77AF40 Offset: 0x779540 VA: 0x18077AF40
+	// RVA: 0x77AE90 Offset: 0x779490 VA: 0x18077AE90
 	private bool WithinUseDistance(BasePlayer player) { }
 
-	// RVA: 0x77AFB0 Offset: 0x7795B0 VA: 0x18077AFB0
+	// RVA: 0x77AF00 Offset: 0x779500 VA: 0x18077AF00
 	public void .ctor() { }
 
 }
@@ -3323,13 +3323,13 @@ public abstract class VehicleModuleButtonComponent : MonoBehaviour // TypeDefInd
 
 	// Methods
 
-	// RVA: 0xAD1360 Offset: 0xACF960 VA: 0x180AD1360 Slot: 4
+	// RVA: 0xAD1830 Offset: 0xACFE30 VA: 0x180AD1830 Slot: 4
 	public virtual void ClientUse(BasePlayer player, BaseVehicleModule parentModule) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	public virtual void ClientUpdateTick(BaseVehicleModule parentModule) { }
 
-	// RVA: 0xAD1420 Offset: 0xACFA20 VA: 0x180AD1420
+	// RVA: 0xAD18F0 Offset: 0xACFEF0 VA: 0x180AD18F0
 	protected void .ctor() { }
 
 }
@@ -3370,98 +3370,98 @@ public class VehicleModuleEngine : VehicleModuleStorage // TypeDefIndex: 9751
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 199
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 199
 	public override bool get_HasAnEngine() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD4490 Offset: 0xAD2A90 VA: 0x180AD4490
+	// RVA: 0xAD4960 Offset: 0xAD2F60 VA: 0x180AD4960
 	public bool get_IsUsable() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD4500 Offset: 0xAD2B00 VA: 0x180AD4500
+	// RVA: 0xAD49D0 Offset: 0xAD2FD0 VA: 0x180AD49D0
 	private void set_IsUsable(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD44D0 Offset: 0xAD2AD0 VA: 0x180AD44D0
+	// RVA: 0xAD49A0 Offset: 0xAD2FA0 VA: 0x180AD49A0
 	public float get_PerformanceFractionAcceleration() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD4520 Offset: 0xAD2B20 VA: 0x180AD4520
+	// RVA: 0xAD49F0 Offset: 0xAD2FF0 VA: 0x180AD49F0
 	private void set_PerformanceFractionAcceleration(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD44F0 Offset: 0xAD2AF0 VA: 0x180AD44F0
+	// RVA: 0xAD49C0 Offset: 0xAD2FC0 VA: 0x180AD49C0
 	public float get_PerformanceFractionTopSpeed() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD4540 Offset: 0xAD2B40 VA: 0x180AD4540
+	// RVA: 0xAD4A10 Offset: 0xAD3010 VA: 0x180AD4A10
 	private void set_PerformanceFractionTopSpeed(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD44E0 Offset: 0xAD2AE0 VA: 0x180AD44E0
+	// RVA: 0xAD49B0 Offset: 0xAD2FB0 VA: 0x180AD49B0
 	public float get_PerformanceFractionFuelEconomy() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD4530 Offset: 0xAD2B30 VA: 0x180AD4530
+	// RVA: 0xAD4A00 Offset: 0xAD3000 VA: 0x180AD4A00
 	private void set_PerformanceFractionFuelEconomy(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD44C0 Offset: 0xAD2AC0 VA: 0x180AD44C0
+	// RVA: 0xAD4990 Offset: 0xAD2F90 VA: 0x180AD4990
 	public float get_OverallPerformanceFraction() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD4510 Offset: 0xAD2B10 VA: 0x180AD4510
+	// RVA: 0xAD49E0 Offset: 0xAD2FE0 VA: 0x180AD49E0
 	private void set_OverallPerformanceFraction(float value) { }
 
-	// RVA: 0xAD4340 Offset: 0xAD2940 VA: 0x180AD4340
+	// RVA: 0xAD4810 Offset: 0xAD2E10 VA: 0x180AD4810
 	public bool get_AtLowPerformance() { }
 
-	// RVA: 0xAD4360 Offset: 0xAD2960 VA: 0x180AD4360
+	// RVA: 0xAD4830 Offset: 0xAD2E30 VA: 0x180AD4830
 	public bool get_AtPeakPerformance() { }
 
-	// RVA: 0xAD44A0 Offset: 0xAD2AA0 VA: 0x180AD44A0
+	// RVA: 0xAD4970 Offset: 0xAD2F70 VA: 0x180AD4970
 	public int get_KW() { }
 
-	// RVA: 0xAD43D0 Offset: 0xAD29D0 VA: 0x180AD43D0
+	// RVA: 0xAD48A0 Offset: 0xAD2EA0 VA: 0x180AD48A0
 	public EngineAudioSet get_AudioSet() { }
 
-	// RVA: 0xAD43F0 Offset: 0xAD29F0 VA: 0x180AD43F0
+	// RVA: 0xAD48C0 Offset: 0xAD2EC0 VA: 0x180AD48C0
 	private bool get_EngineIsOn() { }
 
-	// RVA: 0xAD3CD0 Offset: 0xAD22D0 VA: 0x180AD3CD0 Slot: 28
+	// RVA: 0xAD41A0 Offset: 0xAD27A0 VA: 0x180AD41A0 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0xAD3E40 Offset: 0xAD2440 VA: 0x180AD3E40 Slot: 202
+	// RVA: 0xAD4310 Offset: 0xAD2910 VA: 0x180AD4310 Slot: 202
 	public override void OnEngineStateChanged(VehicleEngineController.EngineState<GroundVehicle> oldState, VehicleEngineController.EngineState<GroundVehicle> newState) { }
 
-	// RVA: 0xAD3BA0 Offset: 0xAD21A0 VA: 0x180AD3BA0 Slot: 203
+	// RVA: 0xAD4070 Offset: 0xAD2670 VA: 0x180AD4070 Slot: 203
 	public override float GetMaxDriveForce() { }
 
-	// RVA: 0xAD4080 Offset: 0xAD2680 VA: 0x180AD4080
+	// RVA: 0xAD4550 Offset: 0xAD2B50 VA: 0x180AD4550
 	public void RefreshPerformanceStats(EngineStorage engineStorage) { }
 
-	// RVA: 0xAD3BF0 Offset: 0xAD21F0 VA: 0x180AD3BF0
+	// RVA: 0xAD40C0 Offset: 0xAD26C0 VA: 0x180AD40C0
 	private float GetPerformanceFraction(float statBoostPercent) { }
 
-	// RVA: 0xAD3D70 Offset: 0xAD2370 VA: 0x180AD3D70 Slot: 34
+	// RVA: 0xAD4240 Offset: 0xAD2840 VA: 0x180AD4240 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xAD3420 Offset: 0xAD1A20 VA: 0x180AD3420 Slot: 13
+	// RVA: 0xAD38F0 Offset: 0xAD1EF0 VA: 0x180AD38F0 Slot: 13
 	public override void ClientOnEnable() { }
 
-	// RVA: 0xAD34C0 Offset: 0xAD1AC0 VA: 0x180AD34C0 Slot: 194
+	// RVA: 0xAD3990 Offset: 0xAD1F90 VA: 0x180AD3990 Slot: 194
 	public override void ClientVehicleTick() { }
 
-	// RVA: 0xAD3F20 Offset: 0xAD2520 VA: 0x180AD3F20
+	// RVA: 0xAD43F0 Offset: 0xAD29F0 VA: 0x180AD43F0
 	private void PlayBadPerformanceSound() { }
 
-	// RVA: 0xAD4220 Offset: 0xAD2820 VA: 0x180AD4220
+	// RVA: 0xAD46F0 Offset: 0xAD2CF0 VA: 0x180AD46F0
 	private void StopBadPerformanceSound() { }
 
-	// RVA: 0xAD4190 Offset: 0xAD2790 VA: 0x180AD4190
+	// RVA: 0xAD4660 Offset: 0xAD2C60 VA: 0x180AD4660
 	private void SetFXState(bool isOn) { }
 
-	// RVA: 0xAD42E0 Offset: 0xAD28E0 VA: 0x180AD42E0
+	// RVA: 0xAD47B0 Offset: 0xAD2DB0 VA: 0x180AD47B0
 	public void .ctor() { }
 
 }
@@ -3484,7 +3484,7 @@ public class VehicleModuleEngine.Engine // TypeDefIndex: 9752
 
 	// Methods
 
-	// RVA: 0xAC7AA0 Offset: 0xAC60A0 VA: 0x180AC7AA0
+	// RVA: 0xAC7F70 Offset: 0xAC6570 VA: 0x180AC7F70
 	public void .ctor() { }
 
 }
@@ -3503,16 +3503,16 @@ public class VehicleLight : MonoBehaviour, IClientComponent // TypeDefIndex: 975
 
 	// Methods
 
-	// RVA: 0xAD10A0 Offset: 0xACF6A0 VA: 0x180AD10A0
+	// RVA: 0xAD1570 Offset: 0xACFB70 VA: 0x180AD1570
 	public void SetLightVisuals(bool headlightsOn, bool brakesOn) { }
 
-	// RVA: 0xAD0E30 Offset: 0xACF430 VA: 0x180AD0E30
+	// RVA: 0xAD1300 Offset: 0xACF900 VA: 0x180AD1300
 	public static void SetLightVisuals(IReadOnlyList<VehicleLight> lights, bool headlightsOn, bool brakesOn) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0xAD1310 Offset: 0xACF910 VA: 0x180AD1310
+	// RVA: 0xAD17E0 Offset: 0xACFDE0 VA: 0x180AD17E0
 	private static void .cctor() { }
 
 }
@@ -3538,13 +3538,13 @@ public class EngineDamageOverTime // TypeDefIndex: 9762
 
 	// Methods
 
-	// RVA: 0x8C3300 Offset: 0x8C1900 VA: 0x1808C3300
+	// RVA: 0x8C3810 Offset: 0x8C1E10 VA: 0x1808C3810
 	public void .ctor(float triggerDamage, float maxSeconds, Action trigger) { }
 
-	// RVA: 0x8C3190 Offset: 0x8C1790 VA: 0x1808C3190
+	// RVA: 0x8C36A0 Offset: 0x8C1CA0 VA: 0x1808C36A0
 	public void TakeDamage(float amount) { }
 
-	// RVA: 0x8C3080 Offset: 0x8C1680 VA: 0x1808C3080
+	// RVA: 0x8C3590 Offset: 0x8C1B90 VA: 0x1808C3590
 	private float GetRecentDamage() { }
 
 }
@@ -3596,7 +3596,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	public virtual void Init(T owner, VehicleChassisVisuals.ClientWheelData<T>[] clientWheelData) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CE210 Offset: 0x19CC810 VA: 0x1819CE210
+	|-RVA: 0x19BB610 Offset: 0x19B9C10 VA: 0x1819BB610
 	|-VehicleChassisVisuals<ModularCar>.Init
 	|-VehicleChassisVisuals<Snowmobile>.Init
 	|-VehicleChassisVisuals<object>.Init
@@ -3606,7 +3606,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	public void UpdateTick(float dt, bool instantForced = False) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CEC90 Offset: 0x19CD290 VA: 0x1819CEC90
+	|-RVA: 0x19BC090 Offset: 0x19BA690 VA: 0x1819BC090
 	|-VehicleChassisVisuals<ModularCar>.UpdateTick
 	|-VehicleChassisVisuals<Snowmobile>.UpdateTick
 	|-VehicleChassisVisuals<object>.UpdateTick
@@ -3616,7 +3616,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	public bool IsGrounded() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CE280 Offset: 0x19CC880 VA: 0x1819CE280
+	|-RVA: 0x19BB680 Offset: 0x19B9C80 VA: 0x1819BB680
 	|-VehicleChassisVisuals<Snowmobile>.IsGrounded
 	|-VehicleChassisVisuals<object>.IsGrounded
 	*/
@@ -3649,7 +3649,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	public float CalculateWheelSlip() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CDB50 Offset: 0x19CC150 VA: 0x1819CDB50
+	|-RVA: 0x19BAF50 Offset: 0x19B9550 VA: 0x1819BAF50
 	|-VehicleChassisVisuals<ModularCar>.CalculateWheelSlip
 	|-VehicleChassisVisuals<Snowmobile>.CalculateWheelSlip
 	|-VehicleChassisVisuals<object>.CalculateWheelSlip
@@ -3659,7 +3659,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	protected void UpdateWheelSuspensionData(VehicleChassisVisuals.ClientWheelData<T> wheelData, Vector3 traceSource, Nullable<Vector3> traceSource2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CF0A0 Offset: 0x19CD6A0 VA: 0x1819CF0A0
+	|-RVA: 0x19BC4A0 Offset: 0x19BAAA0 VA: 0x1819BC4A0
 	|-VehicleChassisVisuals<ModularCar>.UpdateWheelSuspensionData
 	|-VehicleChassisVisuals<Snowmobile>.UpdateWheelSuspensionData
 	|-VehicleChassisVisuals<object>.UpdateWheelSuspensionData
@@ -3669,7 +3669,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	protected float GetWheelRotation(VehicleChassisVisuals.ClientWheelData<T> wheelData, bool receivingDriveWheelVels, float dt) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CDF90 Offset: 0x19CC590 VA: 0x1819CDF90
+	|-RVA: 0x19BB390 Offset: 0x19B9990 VA: 0x1819BB390
 	|-VehicleChassisVisuals<ModularCar>.GetWheelRotation
 	|-VehicleChassisVisuals<Snowmobile>.GetWheelRotation
 	|-VehicleChassisVisuals<object>.GetWheelRotation
@@ -3679,7 +3679,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	protected static void UpdateSteerRotation(Transform t, float steer, int axis) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CEBA0 Offset: 0x19CD1A0 VA: 0x1819CEBA0
+	|-RVA: 0x19BBFA0 Offset: 0x19BA5A0 VA: 0x1819BBFA0
 	|-VehicleChassisVisuals<ModularCar>.UpdateSteerRotation
 	|-VehicleChassisVisuals<object>.UpdateSteerRotation
 	*/
@@ -3688,7 +3688,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	protected static void ShowTerrainFX(VehicleChassisVisuals.ClientWheelData<T> wheelData, float throttleInput) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CE350 Offset: 0x19CC950 VA: 0x1819CE350
+	|-RVA: 0x19BB750 Offset: 0x19B9D50 VA: 0x1819BB750
 	|-VehicleChassisVisuals<ModularCar>.ShowTerrainFX
 	|-VehicleChassisVisuals<object>.ShowTerrainFX
 	*/
@@ -3697,7 +3697,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	protected static void ShowTerrainFX(VehicleChassisVisuals.ClientWheelData<T> wheelData, float throttleInput, float speed, float minSpeed) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CE7B0 Offset: 0x19CCDB0 VA: 0x1819CE7B0
+	|-RVA: 0x19BBBB0 Offset: 0x19BA1B0 VA: 0x1819BBBB0
 	|-VehicleChassisVisuals<Snowmobile>.ShowTerrainFX
 	|-VehicleChassisVisuals<object>.ShowTerrainFX
 	*/
@@ -3706,7 +3706,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	protected static void ShowTerrainFX(VehicleChassisVisuals.ClientWheelData<T> wheelData, bool isOnWater, float spinSlip, TerrainConfig.GroundType groundType, float throttleInput) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CE440 Offset: 0x19CCA40 VA: 0x1819CE440
+	|-RVA: 0x19BB840 Offset: 0x19B9E40 VA: 0x1819BB840
 	|-VehicleChassisVisuals<object>.ShowTerrainFX
 	*/
 
@@ -3714,7 +3714,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	protected static void ShowTerrainFX(VehicleChassisVisuals.ClientWheelData<T> wheelData, bool isOnWater, float spinSlip, TerrainConfig.GroundType groundType, float throttleInput, float speed, float minSpeed) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CE510 Offset: 0x19CCB10 VA: 0x1819CE510
+	|-RVA: 0x19BB910 Offset: 0x19B9F10 VA: 0x1819BB910
 	|-VehicleChassisVisuals<Snowmobile>.ShowTerrainFX
 	|-VehicleChassisVisuals<object>.ShowTerrainFX
 	*/
@@ -3723,7 +3723,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	public void UpdateTickStopped() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CEC40 Offset: 0x19CD240 VA: 0x1819CEC40
+	|-RVA: 0x19BC040 Offset: 0x19BA640 VA: 0x1819BC040
 	|-VehicleChassisVisuals<ModularCar>.UpdateTickStopped
 	|-VehicleChassisVisuals<Snowmobile>.UpdateTickStopped
 	|-VehicleChassisVisuals<object>.UpdateTickStopped
@@ -3733,7 +3733,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	protected virtual void StopAll() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CE8D0 Offset: 0x19CCED0 VA: 0x1819CE8D0
+	|-RVA: 0x19BBCD0 Offset: 0x19BA2D0 VA: 0x1819BBCD0
 	|-VehicleChassisVisuals<ModularCar>.StopAll
 	|-VehicleChassisVisuals<Snowmobile>.StopAll
 	|-VehicleChassisVisuals<object>.StopAll
@@ -3743,7 +3743,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	protected static void StopTerrainFX(VehicleChassisVisuals.ClientWheelData<T> wheelData) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CE980 Offset: 0x19CCF80 VA: 0x1819CE980
+	|-RVA: 0x19BBD80 Offset: 0x19BA380 VA: 0x1819BBD80
 	|-VehicleChassisVisuals<object>.StopTerrainFX
 	*/
 
@@ -3751,7 +3751,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x847220 Offset: 0x845820 VA: 0x180847220
+	|-RVA: 0x847770 Offset: 0x845D70 VA: 0x180847770
 	|-VehicleChassisVisuals<ModularCar>..ctor
 	|-VehicleChassisVisuals<Snowmobile>..ctor
 	|-VehicleChassisVisuals<object>..ctor
@@ -3762,7 +3762,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	internal static bool <UpdateWheelSuspensionData>g__GetSuspensionHit|17_0(Vector3 ts, out RaycastHit hit, ref VehicleChassisVisuals.<>c__DisplayClass17_0<T> ) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CEA80 Offset: 0x19CD080 VA: 0x1819CEA80
+	|-RVA: 0x19BBE80 Offset: 0x19BA480 VA: 0x1819BBE80
 	|-VehicleChassisVisuals<object>.<UpdateWheelSuspensionData>g__GetSuspensionHit|17_0
 	*/
 
@@ -3794,7 +3794,7 @@ public class VehicleChassisVisuals.ClientWheelData<T> // TypeDefIndex: 9783
 	public bool get_isOnHardGround() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BBB20 Offset: 0x19BA120 VA: 0x1819BBB20
+	|-RVA: 0x19A8F20 Offset: 0x19A7520 VA: 0x1819A8F20
 	|-VehicleChassisVisuals.ClientWheelData<ModularCar>.get_isOnHardGround
 	|-VehicleChassisVisuals.ClientWheelData<object>.get_isOnHardGround
 	*/
@@ -3803,7 +3803,7 @@ public class VehicleChassisVisuals.ClientWheelData<T> // TypeDefIndex: 9783
 	public void .ctor(VisualCarWheel wheel, Transform vehicleTransform) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BBA50 Offset: 0x19BA050 VA: 0x1819BBA50
+	|-RVA: 0x19A8E50 Offset: 0x19A7450 VA: 0x1819A8E50
 	|-VehicleChassisVisuals.ClientWheelData<ModularCar>..ctor
 	|-VehicleChassisVisuals.ClientWheelData<Snowmobile>..ctor
 	|-VehicleChassisVisuals.ClientWheelData<object>..ctor
@@ -3843,7 +3843,7 @@ public class VehicleEngineController<TOwner> // TypeDefIndex: 9787
 	public VehicleEngineController.EngineState<TOwner> get_CurEngineState() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CF770 Offset: 0x19CDD70 VA: 0x1819CF770
+	|-RVA: 0x19BCB70 Offset: 0x19BB170 VA: 0x1819BCB70
 	|-VehicleEngineController<BaseSubmarine>.get_CurEngineState
 	|-VehicleEngineController<GroundVehicle>.get_CurEngineState
 	|-VehicleEngineController<MiniCopter>.get_CurEngineState
@@ -3855,7 +3855,7 @@ public class VehicleEngineController<TOwner> // TypeDefIndex: 9787
 	public bool get_IsOn() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CF7D0 Offset: 0x19CDDD0 VA: 0x1819CF7D0
+	|-RVA: 0x19BCBD0 Offset: 0x19BB1D0 VA: 0x1819BCBD0
 	|-VehicleEngineController<BaseSubmarine>.get_IsOn
 	|-VehicleEngineController<GroundVehicle>.get_IsOn
 	|-VehicleEngineController<object>.get_IsOn
@@ -3865,7 +3865,7 @@ public class VehicleEngineController<TOwner> // TypeDefIndex: 9787
 	public bool get_IsOff() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E6A10 Offset: 0x15E5010 VA: 0x1815E6A10
+	|-RVA: 0x1893750 Offset: 0x1891D50 VA: 0x181893750
 	|-VehicleEngineController<object>.get_IsOff
 	|-VehicleEngineController<TrainEngine>.get_IsOff
 	*/
@@ -3874,7 +3874,7 @@ public class VehicleEngineController<TOwner> // TypeDefIndex: 9787
 	public bool get_IsStarting() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CF830 Offset: 0x19CDE30 VA: 0x1819CF830
+	|-RVA: 0x19BCC30 Offset: 0x19BB230 VA: 0x1819BCC30
 	|-VehicleEngineController<MiniCopter>.get_IsStarting
 	|-VehicleEngineController<object>.get_IsStarting
 	*/
@@ -3883,7 +3883,7 @@ public class VehicleEngineController<TOwner> // TypeDefIndex: 9787
 	public bool get_IsStartingOrOn() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CF800 Offset: 0x19CDE00 VA: 0x1819CF800
+	|-RVA: 0x19BCC00 Offset: 0x19BB200 VA: 0x1819BCC00
 	|-VehicleEngineController<GroundVehicle>.get_IsStartingOrOn
 	|-VehicleEngineController<object>.get_IsStartingOrOn
 	|-VehicleEngineController<TrainEngine>.get_IsStartingOrOn
@@ -3894,7 +3894,7 @@ public class VehicleEngineController<TOwner> // TypeDefIndex: 9787
 	public EntityFuelSystem get_FuelSystem() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	|-RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	|-VehicleEngineController<BaseSubmarine>.get_FuelSystem
 	|-VehicleEngineController<GroundVehicle>.get_FuelSystem
 	|-VehicleEngineController<MiniCopter>.get_FuelSystem
@@ -3907,7 +3907,7 @@ public class VehicleEngineController<TOwner> // TypeDefIndex: 9787
 	private void set_FuelSystem(EntityFuelSystem value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	|-RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	|-VehicleEngineController<object>.set_FuelSystem
 	*/
 
@@ -3915,7 +3915,7 @@ public class VehicleEngineController<TOwner> // TypeDefIndex: 9787
 	public void .ctor(TOwner owner, bool isServer, float engineStartupTime, GameObjectRef fuelStoragePrefab, Transform waterloggedPoint, BaseEntity.Flags engineStartingFlag = 128) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CF650 Offset: 0x19CDC50 VA: 0x1819CF650
+	|-RVA: 0x19BCA50 Offset: 0x19BB050 VA: 0x1819BCA50
 	|-VehicleEngineController<BaseSubmarine>..ctor
 	|-VehicleEngineController<GroundVehicle>..ctor
 	|-VehicleEngineController<MiniCopter>..ctor
@@ -3927,7 +3927,7 @@ public class VehicleEngineController<TOwner> // TypeDefIndex: 9787
 	public VehicleEngineController.EngineState<TOwner> EngineStateFrom(BaseEntity.Flags flags) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CF550 Offset: 0x19CDB50 VA: 0x1819CF550
+	|-RVA: 0x19BC950 Offset: 0x19BAF50 VA: 0x1819BC950
 	|-VehicleEngineController<object>.EngineStateFrom
 	|-VehicleEngineController<TrainEngine>.EngineStateFrom
 	*/
@@ -3946,7 +3946,7 @@ public enum VehicleEngineController.EngineState<TOwner> // TypeDefIndex: 9788
 public class VehicleSpawnPoint : SpaceCheckingSpawnPoint // TypeDefIndex: 10011
 {	// Methods
 
-	// RVA: 0xAD84D0 Offset: 0xAD6AD0 VA: 0x180AD84D0
+	// RVA: 0xAD89A0 Offset: 0xAD6FA0 VA: 0x180AD89A0
 	public void .ctor() { }
 
 }
@@ -3970,13 +3970,13 @@ public class EngineItemInformationPanel : ItemInformationPanel // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x8C33B0 Offset: 0x8C19B0 VA: 0x1808C33B0 Slot: 4
+	// RVA: 0x8C38C0 Offset: 0x8C1EC0 VA: 0x1808C38C0 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x8C3430 Offset: 0x8C1A30 VA: 0x1808C3430 Slot: 5
+	// RVA: 0x8C3940 Offset: 0x8C1F40 VA: 0x1808C3940 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }
@@ -3991,25 +3991,25 @@ public class VehicleEditingItemIcon : MonoBehaviour, IInventoryChanged // TypeDe
 
 	// Methods
 
-	// RVA: 0xACDAE0 Offset: 0xACC0E0 VA: 0x180ACDAE0
+	// RVA: 0xACDFB0 Offset: 0xACC5B0 VA: 0x180ACDFB0
 	protected void Awake() { }
 
-	// RVA: 0xACDD80 Offset: 0xACC380 VA: 0x180ACDD80
+	// RVA: 0xACE250 Offset: 0xACC850 VA: 0x180ACE250
 	protected void OnEnable() { }
 
-	// RVA: 0xACDD00 Offset: 0xACC300 VA: 0x180ACDD00
+	// RVA: 0xACE1D0 Offset: 0xACC7D0 VA: 0x180ACE1D0
 	protected void OnDisable() { }
 
-	// RVA: 0xACDE40 Offset: 0xACC440 VA: 0x180ACDE40 Slot: 4
+	// RVA: 0xACE310 Offset: 0xACC910 VA: 0x180ACE310 Slot: 4
 	public void OnInventoryChanged() { }
 
-	// RVA: 0xACDB70 Offset: 0xACC170 VA: 0x180ACDB70
+	// RVA: 0xACE040 Offset: 0xACC640 VA: 0x180ACE040
 	private void InventoryChangeRefresh() { }
 
-	// RVA: 0xACDE50 Offset: 0xACC450 VA: 0x180ACDE50
+	// RVA: 0xACE320 Offset: 0xACC920 VA: 0x180ACE320
 	private void SetLinkSprite(Sprite sprite) { }
 
-	// RVA: 0xACDB30 Offset: 0xACC130 VA: 0x180ACDB30
+	// RVA: 0xACE000 Offset: 0xACC600 VA: 0x180ACE000
 	private void ClearLinkSprite() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -4113,86 +4113,86 @@ public class VehicleEditingPanel : LootPanel // TypeDefIndex: 11062
 
 	// Methods
 
-	// RVA: 0xAD0D70 Offset: 0xACF370 VA: 0x180AD0D70
+	// RVA: 0xAD1240 Offset: 0xACF840 VA: 0x180AD1240
 	private Item get_CurSelectedItem() { }
 
-	// RVA: 0xAD0E20 Offset: 0xACF420 VA: 0x180AD0E20
+	// RVA: 0xAD12F0 Offset: 0xACF8F0 VA: 0x180AD12F0
 	private ItemContainer get_ModulesContainer() { }
 
-	// RVA: 0xAD0D60 Offset: 0xACF360 VA: 0x180AD0D60
+	// RVA: 0xAD1230 Offset: 0xACF830 VA: 0x180AD1230
 	private ItemContainer get_ChassisContainer() { }
 
-	// RVA: 0xAD0E10 Offset: 0xACF410 VA: 0x180AD0E10
+	// RVA: 0xAD12E0 Offset: 0xACF8E0 VA: 0x180AD12E0
 	private ItemContainer get_ModuleInternalItemContainer() { }
 
-	// RVA: 0xACE680 Offset: 0xACCC80 VA: 0x180ACE680
+	// RVA: 0xACEB50 Offset: 0xACD150 VA: 0x180ACEB50
 	protected void OnEnable() { }
 
-	// RVA: 0xAD0B40 Offset: 0xACF140 VA: 0x180AD0B40 Slot: 5
+	// RVA: 0xAD1010 Offset: 0xACF610 VA: 0x180AD1010 Slot: 5
 	public override void Update() { }
 
-	// RVA: 0xAD0390 Offset: 0xACE990 VA: 0x180AD0390
+	// RVA: 0xAD0860 Offset: 0xACEE60 VA: 0x180AD0860
 	public void RepairClicked() { }
 
-	// RVA: 0xACE0D0 Offset: 0xACC6D0 VA: 0x180ACE0D0
+	// RVA: 0xACE5A0 Offset: 0xACCBA0 VA: 0x180ACE5A0
 	public void CraftLockClicked() { }
 
-	// RVA: 0xAD0310 Offset: 0xACE910 VA: 0x180AD0310
+	// RVA: 0xAD07E0 Offset: 0xACEDE0 VA: 0x180AD07E0
 	public void RemoveLockClicked() { }
 
-	// RVA: 0xACE180 Offset: 0xACC780 VA: 0x180ACE180
+	// RVA: 0xACE650 Offset: 0xACCC50 VA: 0x180ACE650
 	public void DestroyChassisClicked() { }
 
-	// RVA: 0xAD04E0 Offset: 0xACEAE0 VA: 0x180AD04E0
+	// RVA: 0xAD09B0 Offset: 0xACEFB0 VA: 0x180AD09B0
 	public void TakeInternalItemsClicked() { }
 
-	// RVA: 0xACE410 Offset: 0xACCA10 VA: 0x180ACE410
+	// RVA: 0xACE8E0 Offset: 0xACCEE0 VA: 0x180ACE8E0
 	public void OnCopyFromLiquidDown() { }
 
-	// RVA: 0xACE490 Offset: 0xACCA90 VA: 0x180ACE490
+	// RVA: 0xACE960 Offset: 0xACCF60 VA: 0x180ACE960
 	public void OnCopyFromLiquidUp() { }
 
-	// RVA: 0xAD0440 Offset: 0xACEA40 VA: 0x180AD0440
+	// RVA: 0xAD0910 Offset: 0xACEF10 VA: 0x180AD0910
 	private bool SelectedValidLiquidTarget() { }
 
-	// RVA: 0xACE2B0 Offset: 0xACC8B0 VA: 0x180ACE2B0
+	// RVA: 0xACE780 Offset: 0xACCD80 VA: 0x180ACE780
 	private void LiquidCopyFrom() { }
 
-	// RVA: 0xACDEA0 Offset: 0xACC4A0 VA: 0x180ACDEA0
+	// RVA: 0xACE370 Offset: 0xACC970 VA: 0x180ACE370
 	private bool CanTakeLiquid() { }
 
-	// RVA: 0xACE220 Offset: 0xACC820 VA: 0x180ACE220
+	// RVA: 0xACE6F0 Offset: 0xACCCF0 VA: 0x180ACE6F0
 	private ModularCarGarage GetGarage() { }
 
-	// RVA: 0xACEB40 Offset: 0xACD140 VA: 0x180ACEB40
+	// RVA: 0xACF010 Offset: 0xACD610 VA: 0x180ACF010
 	private void RefreshEditUI() { }
 
-	// RVA: 0xACEDA0 Offset: 0xACD3A0 VA: 0x180ACEDA0
+	// RVA: 0xACF270 Offset: 0xACD870 VA: 0x180ACF270
 	private void RefreshHasVehicle(ModularCarGarage garage, bool forced = False) { }
 
-	// RVA: 0xACEF10 Offset: 0xACD510 VA: 0x180ACEF10
+	// RVA: 0xACF3E0 Offset: 0xACD9E0 VA: 0x180ACF3E0
 	private void RefreshInfoText() { }
 
-	// RVA: 0xACFEC0 Offset: 0xACE4C0 VA: 0x180ACFEC0
+	// RVA: 0xAD0390 Offset: 0xACE990 VA: 0x180AD0390
 	private void RefreshWarningText() { }
 
-	// RVA: 0xACE830 Offset: 0xACCE30 VA: 0x180ACE830
+	// RVA: 0xACED00 Offset: 0xACD300 VA: 0x180ACED00
 	private void OnSelectedItemChanged(Item newSelectedItem) { }
 
-	// RVA: 0xACE8C0 Offset: 0xACCEC0 VA: 0x180ACE8C0
+	// RVA: 0xACED90 Offset: 0xACD390 VA: 0x180ACED90
 	private void RefreshDestroyGroup(ModularCarGarage garage) { }
 
-	// RVA: 0xACF200 Offset: 0xACD800 VA: 0x180ACF200
+	// RVA: 0xACF6D0 Offset: 0xACDCD0 VA: 0x180ACF6D0
 	private void RefreshLockCreation(ModularCarGarage garage) { }
 
-	// RVA: 0xACF860 Offset: 0xACDE60 VA: 0x180ACF860
+	// RVA: 0xACFD30 Offset: 0xACE330 VA: 0x180ACFD30
 	private void RefreshRepair() { }
 
-	// RVA: 0xAD0D50 Offset: 0xACF350 VA: 0x180AD0D50
+	// RVA: 0xAD1220 Offset: 0xACF820 VA: 0x180AD1220
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAD07A0 Offset: 0xACEDA0 VA: 0x180AD07A0
+	// RVA: 0xAD0C70 Offset: 0xACF270 VA: 0x180AD0C70
 	private bool <RefreshLockCreation>g__AddResourceInfo|72_0(string prefixText, ItemAmount ingredient, ref VehicleEditingPanel.<>c__DisplayClass72_0 ) { }
 
 }
@@ -4206,7 +4206,7 @@ private class VehicleEditingPanel.CreateChassisEntry // TypeDefIndex: 11063
 
 	// Methods
 
-	// RVA: 0xAC7A50 Offset: 0xAC6050 VA: 0x180AC7A50
+	// RVA: 0xAC7F20 Offset: 0xAC6520 VA: 0x180AC7F20
 	public ItemDefinition GetChassisItemDef(ModularCarGarage garage) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -4228,13 +4228,13 @@ public class VehicleModuleInformationPanel : ItemInformationPanel // TypeDefInde
 
 	// Methods
 
-	// RVA: 0xAD4550 Offset: 0xAD2B50 VA: 0x180AD4550 Slot: 4
+	// RVA: 0xAD4A20 Offset: 0xAD3020 VA: 0x180AD4A20 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0xAD45A0 Offset: 0xAD2BA0 VA: 0x180AD45A0 Slot: 5
+	// RVA: 0xAD4A70 Offset: 0xAD3070 VA: 0x180AD4A70 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }
@@ -4251,15 +4251,15 @@ public static class EngineItemTypeEx // TypeDefIndex: 12102
 {	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BCCA0 Offset: 0x4BB2A0 VA: 0x1804BCCA0
+	// RVA: 0x4BCC30 Offset: 0x4BB230 VA: 0x1804BCC30
 	public static bool BoostsAcceleration(EngineStorage.EngineItemTypes engineItemType) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BCCC0 Offset: 0x4BB2C0 VA: 0x1804BCCC0
+	// RVA: 0x4BCC50 Offset: 0x4BB250 VA: 0x1804BCC50
 	public static bool BoostsTopSpeed(EngineStorage.EngineItemTypes engineItemType) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BCCB0 Offset: 0x4BB2B0 VA: 0x1804BCCB0
+	// RVA: 0x4BCC40 Offset: 0x4BB240 VA: 0x1804BCC40
 	public static bool BoostsFuelEconomy(EngineStorage.EngineItemTypes engineItemType) { }
 
 }
@@ -4299,56 +4299,56 @@ public class EngineStorage : StorageContainer // TypeDefIndex: 12103
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BD150 Offset: 0x4BB750 VA: 0x1804BD150
+	// RVA: 0x4BD0E0 Offset: 0x4BB6E0 VA: 0x1804BD0E0
 	public bool get_isUsable() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BD190 Offset: 0x4BB790 VA: 0x1804BD190
+	// RVA: 0x4BD120 Offset: 0x4BB720 VA: 0x1804BD120
 	private void set_isUsable(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BD130 Offset: 0x4BB730 VA: 0x1804BD130
+	// RVA: 0x4BD0C0 Offset: 0x4BB6C0 VA: 0x1804BD0C0
 	public float get_accelerationBoostPercent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BD170 Offset: 0x4BB770 VA: 0x1804BD170
+	// RVA: 0x4BD100 Offset: 0x4BB700 VA: 0x1804BD100
 	private void set_accelerationBoostPercent(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BD160 Offset: 0x4BB760 VA: 0x1804BD160
+	// RVA: 0x4BD0F0 Offset: 0x4BB6F0 VA: 0x1804BD0F0
 	public float get_topSpeedBoostPercent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BD1A0 Offset: 0x4BB7A0 VA: 0x1804BD1A0
+	// RVA: 0x4BD130 Offset: 0x4BB730 VA: 0x1804BD130
 	private void set_topSpeedBoostPercent(float value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BD140 Offset: 0x4BB740 VA: 0x1804BD140
+	// RVA: 0x4BD0D0 Offset: 0x4BB6D0 VA: 0x1804BD0D0
 	public float get_fuelEconomyBoostPercent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BD180 Offset: 0x4BB780 VA: 0x1804BD180
+	// RVA: 0x4BD110 Offset: 0x4BB710 VA: 0x1804BD110
 	private void set_fuelEconomyBoostPercent(float value) { }
 
-	// RVA: 0x4BCDA0 Offset: 0x4BB3A0 VA: 0x1804BCDA0
+	// RVA: 0x4BCD30 Offset: 0x4BB330 VA: 0x1804BCD30
 	public VehicleModuleEngine GetEngineModule() { }
 
-	// RVA: 0x4BCD70 Offset: 0x4BB370 VA: 0x1804BCD70
+	// RVA: 0x4BCD00 Offset: 0x4BB300 VA: 0x1804BCD00
 	public float GetAveragedLoadoutPercent() { }
 
-	// RVA: 0x4BD020 Offset: 0x4BB620 VA: 0x1804BD020 Slot: 34
+	// RVA: 0x4BCFB0 Offset: 0x4BB5B0 VA: 0x1804BCFB0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x4BCCD0 Offset: 0x4BB2D0 VA: 0x1804BCCD0 Slot: 120
+	// RVA: 0x4BCC60 Offset: 0x4BB260 VA: 0x1804BCC60 Slot: 120
 	public override bool CanBeLooted(BasePlayer player) { }
 
-	// RVA: 0x4BCE40 Offset: 0x4BB440 VA: 0x1804BCE40
+	// RVA: 0x4BCDD0 Offset: 0x4BB3D0 VA: 0x1804BCDD0
 	private int GetValidSlot(Item item) { }
 
-	// RVA: 0x4BCE30 Offset: 0x4BB430 VA: 0x1804BCE30 Slot: 152
+	// RVA: 0x4BCDC0 Offset: 0x4BB3C0 VA: 0x1804BCDC0 Slot: 152
 	public override int GetMoveToSlotIndex(BasePlayer player, Item item) { }
 
-	// RVA: 0x4BD0D0 Offset: 0x4BB6D0 VA: 0x1804BD0D0
+	// RVA: 0x4BD060 Offset: 0x4BB660 VA: 0x1804BD060
 	public void .ctor() { }
 
 }
@@ -4437,70 +4437,70 @@ public class ModularCarAudio : GroundVehicleAudio // TypeDefIndex: 12105
 
 	// Methods
 
-	// RVA: 0x4C12E0 Offset: 0x4BF8E0 VA: 0x1804C12E0 Slot: 4
+	// RVA: 0x4C1270 Offset: 0x4BF870 VA: 0x1804C1270 Slot: 4
 	protected override EngineAudioSet get_EngineAudioSet() { }
 
-	// RVA: 0x4C13B0 Offset: 0x4BF9B0 VA: 0x1804C13B0 Slot: 5
+	// RVA: 0x4C1340 Offset: 0x4BF940 VA: 0x1804C1340 Slot: 5
 	protected override void set_EngineAudioSet(EngineAudioSet value) { }
 
-	// RVA: 0x4C12F0 Offset: 0x4BF8F0 VA: 0x1804C12F0
+	// RVA: 0x4C1280 Offset: 0x4BF880 VA: 0x1804C1280
 	private VehicleChassisVisuals.ClientWheelData<ModularCar> get_wheelDataFL() { }
 
-	// RVA: 0x4C1320 Offset: 0x4BF920 VA: 0x1804C1320
+	// RVA: 0x4C12B0 Offset: 0x4BF8B0 VA: 0x1804C12B0
 	private VehicleChassisVisuals.ClientWheelData<ModularCar> get_wheelDataFR() { }
 
-	// RVA: 0x4C1350 Offset: 0x4BF950 VA: 0x1804C1350
+	// RVA: 0x4C12E0 Offset: 0x4BF8E0 VA: 0x1804C12E0
 	private VehicleChassisVisuals.ClientWheelData<ModularCar> get_wheelDataRL() { }
 
-	// RVA: 0x4C1380 Offset: 0x4BF980 VA: 0x1804C1380
+	// RVA: 0x4C1310 Offset: 0x4BF910 VA: 0x1804C1310
 	private VehicleChassisVisuals.ClientWheelData<ModularCar> get_wheelDataRR() { }
 
-	// RVA: 0x4BF320 Offset: 0x4BD920 VA: 0x1804BF320 Slot: 6
+	// RVA: 0x4BF2B0 Offset: 0x4BD8B0 VA: 0x1804BF2B0 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x4BF3C0 Offset: 0x4BD9C0 VA: 0x1804BF3C0 Slot: 7
+	// RVA: 0x4BF350 Offset: 0x4BD950 VA: 0x1804BF350 Slot: 7
 	public override void ClientTick() { }
 
-	// RVA: 0x4BF770 Offset: 0x4BDD70 VA: 0x1804BF770 Slot: 8
+	// RVA: 0x4BF700 Offset: 0x4BDD00 VA: 0x1804BF700 Slot: 8
 	public override void OnClientTickStopped() { }
 
-	// RVA: 0x4BF7B0 Offset: 0x4BDDB0 VA: 0x1804BF7B0
+	// RVA: 0x4BF740 Offset: 0x4BDD40 VA: 0x1804BF740
 	internal void OnModuleAdded(BaseVehicleModule addedModule) { }
 
-	// RVA: 0x4BF960 Offset: 0x4BDF60 VA: 0x1804BF960
+	// RVA: 0x4BF8F0 Offset: 0x4BDEF0 VA: 0x1804BF8F0
 	internal void OnModuleRemoved(BaseVehicleModule removedModule) { }
 
-	// RVA: 0x4BF700 Offset: 0x4BDD00 VA: 0x1804BF700 Slot: 9
+	// RVA: 0x4BF690 Offset: 0x4BDC90 VA: 0x1804BF690 Slot: 9
 	protected override int GetNumEngines() { }
 
-	// RVA: 0x4BFCA0 Offset: 0x4BE2A0 VA: 0x1804BFCA0
+	// RVA: 0x4BFC30 Offset: 0x4BE230 VA: 0x1804BFC30
 	private void PlayTyreAudio() { }
 
-	// RVA: 0x4BFF80 Offset: 0x4BE580 VA: 0x1804BFF80
+	// RVA: 0x4BFF10 Offset: 0x4BE510 VA: 0x1804BFF10
 	private void StopTyreAudio() { }
 
-	// RVA: 0x4BFEC0 Offset: 0x4BE4C0 VA: 0x1804BFEC0
+	// RVA: 0x4BFE50 Offset: 0x4BE450 VA: 0x1804BFE50
 	private void StopSkidSound() { }
 
-	// RVA: 0x4C00E0 Offset: 0x4BE6E0 VA: 0x1804C00E0
+	// RVA: 0x4C0070 Offset: 0x4BE670 VA: 0x1804C0070
 	private void UpdateMovementRattleSound() { }
 
-	// RVA: 0x4BFE00 Offset: 0x4BE400 VA: 0x1804BFE00
+	// RVA: 0x4BFD90 Offset: 0x4BE390 VA: 0x1804BFD90
 	private void StopMovementRattleSound() { }
 
-	// RVA: 0x4C0A10 Offset: 0x4BF010 VA: 0x1804C0A10
+	// RVA: 0x4C09A0 Offset: 0x4BEFA0 VA: 0x1804C09A0
 	private void UpdateSuspensionSounds() { }
 
-	// RVA: 0x4C0600 Offset: 0x4BEC00 VA: 0x1804C0600
+	// RVA: 0x4C0590 Offset: 0x4BEB90 VA: 0x1804C0590
 	private void UpdateSkidSound(float dt, VehicleChassisVisuals.ClientWheelData<ModularCar> wheelData) { }
 
-	// RVA: 0x4C0010 Offset: 0x4BE610 VA: 0x1804C0010
+	// RVA: 0x4BFFA0 Offset: 0x4BE5A0 VA: 0x1804BFFA0
 	private void StopTyreSound(VehicleChassisVisuals.ClientWheelData<ModularCar> wheelData) { }
 
-	// RVA: 0x4C0DB0 Offset: 0x4BF3B0 VA: 0x1804C0DB0
+	// RVA: 0x4C0D40 Offset: 0x4BF340 VA: 0x1804C0D40
 	private void UpdateTyreSound(VehicleChassisVisuals.ClientWheelData<ModularCar> wheelData, float speedRatio) { }
 
-	// RVA: 0x4C1180 Offset: 0x4BF780 VA: 0x1804C1180
+	// RVA: 0x4C1110 Offset: 0x4BF710 VA: 0x1804C1110
 	public void .ctor() { }
 
 }
@@ -4522,19 +4522,19 @@ public class ModularVehicleSocket // TypeDefIndex: 12106
 
 	// Methods
 
-	// RVA: 0x4C1480 Offset: 0x4BFA80 VA: 0x1804C1480
+	// RVA: 0x4C1410 Offset: 0x4BFA10 VA: 0x1804C1410
 	public Vector3 get_WorldPosition() { }
 
-	// RVA: 0x4C14C0 Offset: 0x4BFAC0 VA: 0x1804C14C0
+	// RVA: 0x4C1450 Offset: 0x4BFA50 VA: 0x1804C1450
 	public Quaternion get_WorldRotation() { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public ModularVehicleSocket.SocketWheelType get_WheelType() { }
 
-	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
+	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0
 	public ModularVehicleSocket.SocketLocationType get_LocationType() { }
 
-	// RVA: 0x4C13C0 Offset: 0x4BF9C0 VA: 0x1804C13C0
+	// RVA: 0x4C1350 Offset: 0x4BF950 VA: 0x1804C1350
 	public bool ShouldBeActive(ConditionalSocketSettings modelSettings) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -4567,10 +4567,10 @@ public class VehicleModuleEngineItems : ScriptableObject // TypeDefIndex: 12109
 
 	// Methods
 
-	// RVA: 0x4D2BB0 Offset: 0x4D11B0 VA: 0x1804D2BB0
+	// RVA: 0x4D2B40 Offset: 0x4D1140 VA: 0x1804D2B40
 	public bool TryGetItem(int tier, EngineStorage.EngineItemTypes type, out ItemModEngineItem output) { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -4587,19 +4587,19 @@ public class VehicleModuleSlidingComponent // TypeDefIndex: 12110
 
 	// Methods
 
-	// RVA: 0x4D31E0 Offset: 0x4D17E0 VA: 0x1804D31E0
+	// RVA: 0x4D3170 Offset: 0x4D1770 VA: 0x1804D3170
 	public bool WantsOpenPos(BaseEntity parentEntity) { }
 
-	// RVA: 0x4D2FB0 Offset: 0x4D15B0 VA: 0x1804D2FB0
+	// RVA: 0x4D2F40 Offset: 0x4D1540 VA: 0x1804D2F40
 	public void ClientUpdateTick(BaseVehicleModule parentModule) { }
 
-	// RVA: 0x4D2FF0 Offset: 0x4D15F0 VA: 0x1804D2FF0
+	// RVA: 0x4D2F80 Offset: 0x4D1580 VA: 0x1804D2F80
 	private void PlaySounds(bool wantsOpenPos) { }
 
-	// RVA: 0x4D2D20 Offset: 0x4D1320 VA: 0x1804D2D20
+	// RVA: 0x4D2CB0 Offset: 0x4D12B0 VA: 0x1804D2CB0
 	private void CheckPosition(BaseEntity parentEntity, float dt) { }
 
-	// RVA: 0x4D3210 Offset: 0x4D1810 VA: 0x1804D3210
+	// RVA: 0x4D31A0 Offset: 0x4D17A0 VA: 0x1804D31A0
 	public void .ctor() { }
 
 }

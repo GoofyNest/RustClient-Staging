@@ -1,7 +1,7 @@
 public class FuseBox : IOEntity // TypeDefIndex: 9802
 {	// Methods
 
-	// RVA: 0x7561E0 Offset: 0x7547E0 VA: 0x1807561E0
+	// RVA: 0x756130 Offset: 0x754730 VA: 0x180756130
 	public void .ctor() { }
 
 }

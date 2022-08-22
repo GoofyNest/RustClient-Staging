@@ -7,10 +7,10 @@ public class TriggerZone : MonoBehaviour // TypeDefIndex: 11552
 
 	// Methods
 
-	// RVA: 0xAC9C10 Offset: 0xAC8210 VA: 0x180AC9C10
+	// RVA: 0xACA0E0 Offset: 0xAC86E0 VA: 0x180ACA0E0
 	private void Update() { }
 
-	// RVA: 0xAC9EB0 Offset: 0xAC84B0 VA: 0x180AC9EB0
+	// RVA: 0xACA380 Offset: 0xAC8980 VA: 0x180ACA380
 	public void .ctor() { }
 
 }

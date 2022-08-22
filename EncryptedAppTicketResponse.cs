@@ -9,13 +9,13 @@ internal struct EncryptedAppTicketResponse_t : ICallbackData // TypeDefIndex: 53
 
 	// Methods
 
-	// RVA: 0x1E5560 Offset: 0x1E4960 VA: 0x1801E5560 Slot: 5
+	// RVA: 0x1E5980 Offset: 0x1E4D80 VA: 0x1801E5980 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E5550 Offset: 0x1E4950 VA: 0x1801E5550 Slot: 4
+	// RVA: 0x1E5970 Offset: 0x1E4D70 VA: 0x1801E5970 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370440 Offset: 0x136EA40 VA: 0x181370440
+	// RVA: 0x136F540 Offset: 0x136DB40 VA: 0x18136F540
 	private static void .cctor() { }
 
 }

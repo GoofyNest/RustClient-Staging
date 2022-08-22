@@ -9,19 +9,19 @@ public class ViewmodelLower : MonoBehaviour // TypeDefIndex: 11462
 
 	// Methods
 
-	// RVA: 0x7F9BF0 Offset: 0x7F81F0 VA: 0x1807F9BF0
+	// RVA: 0x7FA180 Offset: 0x7F8780 VA: 0x1807FA180
 	public void SetShouldLower(bool shouldLower) { }
 
-	// RVA: 0x7F9C80 Offset: 0x7F8280 VA: 0x1807F9C80
+	// RVA: 0x7FA210 Offset: 0x7F8810 VA: 0x1807FA210
 	private void Update() { }
 
-	// RVA: 0x7F9C00 Offset: 0x7F8200 VA: 0x1807F9C00
+	// RVA: 0x7FA190 Offset: 0x7F8790 VA: 0x1807FA190
 	private bool ShouldLower(BasePlayer player) { }
 
-	// RVA: 0x7F9AF0 Offset: 0x7F80F0 VA: 0x1807F9AF0
+	// RVA: 0x7FA080 Offset: 0x7F8680 VA: 0x1807FA080
 	public void Apply(ref CachedTransform<BaseViewModel> vm, BasePlayer player) { }
 
-	// RVA: 0x7F9DD0 Offset: 0x7F83D0 VA: 0x1807F9DD0
+	// RVA: 0x7FA360 Offset: 0x7F8960 VA: 0x1807FA360
 	public void .ctor() { }
 
 }

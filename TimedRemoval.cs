@@ -5,10 +5,10 @@ public class TimedRemoval : MonoBehaviour // TypeDefIndex: 9244
 
 	// Methods
 
-	// RVA: 0x88A970 Offset: 0x888F70 VA: 0x18088A970
+	// RVA: 0x86DCB0 Offset: 0x86C2B0 VA: 0x18086DCB0
 	private void OnEnable() { }
 
-	// RVA: 0x57BC30 Offset: 0x57A230 VA: 0x18057BC30
+	// RVA: 0x57BBC0 Offset: 0x57A1C0 VA: 0x18057BBC0
 	public void .ctor() { }
 
 }

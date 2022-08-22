@@ -11,13 +11,13 @@ internal struct UserStatsReceived_t : ICallbackData // TypeDefIndex: 5386
 
 	// Methods
 
-	// RVA: 0x1DC750 Offset: 0x1DBB50 VA: 0x1801DC750 Slot: 5
+	// RVA: 0x1DCDC0 Offset: 0x1DC1C0 VA: 0x1801DCDC0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DC740 Offset: 0x1DBB40 VA: 0x1801DC740 Slot: 4
+	// RVA: 0x1DCDB0 Offset: 0x1DC1B0 VA: 0x1801DCDB0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1292000 Offset: 0x1290600 VA: 0x181292000
+	// RVA: 0x12926A0 Offset: 0x1290CA0 VA: 0x1812926A0
 	private static void .cctor() { }
 
 }

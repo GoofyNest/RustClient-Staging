@@ -5,7 +5,7 @@ public struct ExtendGBufferParams // TypeDefIndex: 10656
 
 	// Methods
 
-	// RVA: 0x8D3E40 Offset: 0x8D2440 VA: 0x1808D3E40
+	// RVA: 0x8D4350 Offset: 0x8D2950 VA: 0x1808D4350
 	private static void .cctor() { }
 
 }

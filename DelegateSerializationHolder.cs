@@ -4,16 +4,16 @@ internal class DelegateSerializationHolder : ISerializable, IObjectReference // 
 
 	// Methods
 
-	// RVA: 0xD710D0 Offset: 0xD6F6D0 VA: 0x180D710D0
+	// RVA: 0xD71B80 Offset: 0xD70180 VA: 0x180D71B80
 	private void .ctor(SerializationInfo info, StreamingContext ctx) { }
 
-	// RVA: 0xD70E60 Offset: 0xD6F460 VA: 0x180D70E60
+	// RVA: 0xD71910 Offset: 0xD6FF10 VA: 0x180D71910
 	public static void GetDelegateData(Delegate instance, SerializationInfo info, StreamingContext ctx) { }
 
-	// RVA: 0xD71080 Offset: 0xD6F680 VA: 0x180D71080 Slot: 4
+	// RVA: 0xD71B30 Offset: 0xD70130 VA: 0x180D71B30 Slot: 4
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 5
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 5
 	public object GetRealObject(StreamingContext context) { }
 
 }
@@ -30,10 +30,10 @@ private class DelegateSerializationHolder.DelegateEntry // TypeDefIndex: 358
 
 	// Methods
 
-	// RVA: 0xD70C70 Offset: 0xD6F270 VA: 0x180D70C70
+	// RVA: 0xD71720 Offset: 0xD6FD20 VA: 0x180D71720
 	public void .ctor(Delegate del, string targetLabel) { }
 
-	// RVA: 0xD708D0 Offset: 0xD6EED0 VA: 0x180D708D0
+	// RVA: 0xD71380 Offset: 0xD6F980 VA: 0x180D71380
 	public Delegate DeserializeDelegate(SerializationInfo info, int index) { }
 
 }

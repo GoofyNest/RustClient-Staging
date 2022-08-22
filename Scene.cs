@@ -13,57 +13,57 @@ public struct Scene // TypeDefIndex: 3655
 	// Methods
 
 	[StaticAccessorAttribute] // RVA: 0xE1900 Offset: 0xE0D00 VA: 0x1800E1900
-	// RVA: 0x19B4BE0 Offset: 0x19B31E0 VA: 0x1819B4BE0
+	// RVA: 0x19A1FE0 Offset: 0x19A05E0 VA: 0x1819A1FE0
 	private static bool IsValidInternal(int sceneHandle) { }
 
 	[StaticAccessorAttribute] // RVA: 0xE1900 Offset: 0xE0D00 VA: 0x1800E1900
-	// RVA: 0x19B4880 Offset: 0x19B2E80 VA: 0x1819B4880
+	// RVA: 0x19A1C80 Offset: 0x19A0280 VA: 0x1819A1C80
 	private static string GetNameInternal(int sceneHandle) { }
 
 	[StaticAccessorAttribute] // RVA: 0xE1900 Offset: 0xE0D00 VA: 0x1800E1900
-	// RVA: 0x19B4840 Offset: 0x19B2E40 VA: 0x1819B4840
+	// RVA: 0x19A1C40 Offset: 0x19A0240 VA: 0x1819A1C40
 	private static bool GetIsLoadedInternal(int sceneHandle) { }
 
 	[StaticAccessorAttribute] // RVA: 0xE1900 Offset: 0xE0D00 VA: 0x1800E1900
-	// RVA: 0x19B4800 Offset: 0x19B2E00 VA: 0x1819B4800
+	// RVA: 0x19A1C00 Offset: 0x19A0200 VA: 0x1819A1C00
 	private static int GetBuildIndexInternal(int sceneHandle) { }
 
 	[StaticAccessorAttribute] // RVA: 0xE1900 Offset: 0xE0D00 VA: 0x1800E1900
-	// RVA: 0x19B48C0 Offset: 0x19B2EC0 VA: 0x1819B48C0
+	// RVA: 0x19A1CC0 Offset: 0x19A02C0 VA: 0x1819A1CC0
 	private static int GetRootCountInternal(int sceneHandle) { }
 
 	[StaticAccessorAttribute] // RVA: 0xE1900 Offset: 0xE0D00 VA: 0x1800E1900
-	// RVA: 0x19B4900 Offset: 0x19B2F00 VA: 0x1819B4900
+	// RVA: 0x19A1D00 Offset: 0x19A0300 VA: 0x1819A1D00
 	private static void GetRootGameObjectsInternal(int sceneHandle, object resultRootList) { }
 
-	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
+	// RVA: 0x13A3C0 Offset: 0x1397C0 VA: 0x18013A3C0
 	public int get_handle() { }
 
-	// RVA: 0x2229F0 Offset: 0x221DF0 VA: 0x1802229F0
+	// RVA: 0x21DF70 Offset: 0x21D370 VA: 0x18021DF70
 	public bool IsValid() { }
 
-	// RVA: 0x222AB0 Offset: 0x221EB0 VA: 0x180222AB0
+	// RVA: 0x21E030 Offset: 0x21D430 VA: 0x18021E030
 	public string get_name() { }
 
-	// RVA: 0x222A70 Offset: 0x221E70 VA: 0x180222A70
+	// RVA: 0x21DFF0 Offset: 0x21D3F0 VA: 0x18021DFF0
 	public bool get_isLoaded() { }
 
-	// RVA: 0x222A30 Offset: 0x221E30 VA: 0x180222A30
+	// RVA: 0x21DFB0 Offset: 0x21D3B0 VA: 0x18021DFB0
 	public int get_buildIndex() { }
 
-	// RVA: 0x222AF0 Offset: 0x221EF0 VA: 0x180222AF0
+	// RVA: 0x21E070 Offset: 0x21D470 VA: 0x18021E070
 	public int get_rootCount() { }
 
-	// RVA: 0x222930 Offset: 0x221D30 VA: 0x180222930
+	// RVA: 0x21DEB0 Offset: 0x21D2B0 VA: 0x18021DEB0
 	public GameObject[] GetRootGameObjects() { }
 
-	// RVA: 0x2229E0 Offset: 0x221DE0 VA: 0x1802229E0
+	// RVA: 0x21DF60 Offset: 0x21D360 VA: 0x18021DF60
 	public void GetRootGameObjects(List<GameObject> rootGameObjects) { }
 
-	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0 Slot: 2
+	// RVA: 0x13A3C0 Offset: 0x1397C0 VA: 0x18013A3C0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x2228B0 Offset: 0x221CB0 VA: 0x1802228B0 Slot: 0
+	// RVA: 0x21DE30 Offset: 0x21D230 VA: 0x18021DE30 Slot: 0
 	public override bool Equals(object other) { }
 
 }

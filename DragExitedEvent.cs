@@ -1,19 +1,19 @@
 public class DragExitedEvent : DragAndDropEventBase<DragExitedEvent> // TypeDefIndex: 4634
 {	// Methods
 
-	// RVA: 0xEAA130 Offset: 0xEA8730 VA: 0x180EAA130 Slot: 12
+	// RVA: 0xEAABE0 Offset: 0xEA91E0 VA: 0x180EAABE0 Slot: 12
 	protected override void Init() { }
 
-	// RVA: 0xEAA170 Offset: 0xEA8770 VA: 0x180EAA170
+	// RVA: 0xEAAC20 Offset: 0xEA9220 VA: 0x180EAAC20
 	private void LocalInit() { }
 
-	// RVA: 0xEAA2A0 Offset: 0xEA88A0 VA: 0x180EAA2A0
+	// RVA: 0xEAAD50 Offset: 0xEA9350 VA: 0x180EAAD50
 	public void .ctor() { }
 
-	// RVA: 0xEAA070 Offset: 0xEA8670 VA: 0x180EAA070
+	// RVA: 0xEAAB20 Offset: 0xEA9120 VA: 0x180EAAB20
 	public static DragExitedEvent GetPooled(Event systemEvent) { }
 
-	// RVA: 0xEAA180 Offset: 0xEA8780 VA: 0x180EAA180 Slot: 9
+	// RVA: 0xEAAC30 Offset: 0xEA9230 VA: 0x180EAAC30 Slot: 9
 	protected internal override void PostDispatch(IPanel panel) { }
 
 }

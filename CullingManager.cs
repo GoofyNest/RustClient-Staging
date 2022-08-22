@@ -4,16 +4,16 @@ public class CullingManager : SingletonComponent<CullingManager> // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x6C5210 Offset: 0x6C3810 VA: 0x1806C5210
+	// RVA: 0x6C51A0 Offset: 0x6C37A0 VA: 0x1806C51A0
 	public void MarkSeen(Vector3 pos) { }
 
-	// RVA: 0x6C5420 Offset: 0x6C3A20 VA: 0x1806C5420
+	// RVA: 0x6C53B0 Offset: 0x6C39B0 VA: 0x1806C53B0
 	private void RemoveInvisible() { }
 
-	// RVA: 0x6C50C0 Offset: 0x6C36C0 VA: 0x1806C50C0
+	// RVA: 0x6C5050 Offset: 0x6C3650 VA: 0x1806C5050
 	protected void LateUpdate() { }
 
-	// RVA: 0x6C54E0 Offset: 0x6C3AE0 VA: 0x1806C54E0
+	// RVA: 0x6C5470 Offset: 0x6C3A70 VA: 0x1806C5470
 	public void .ctor() { }
 
 }

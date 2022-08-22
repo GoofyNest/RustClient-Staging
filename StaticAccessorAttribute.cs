@@ -14,18 +14,18 @@ internal class StaticAccessorAttribute : Attribute // TypeDefIndex: 3285
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_Name(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
+	// RVA: 0x79C6B0 Offset: 0x79ACB0 VA: 0x18079C6B0
 	public void set_Type(StaticAccessorType value) { }
 
 	[VisibleToOtherModulesAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EDDF0 Offset: 0x7EC3F0 VA: 0x1807EDDF0
+	// RVA: 0x7B9710 Offset: 0x7B7D10 VA: 0x1807B9710
 	internal void .ctor(string name) { }
 
-	// RVA: 0xFE7800 Offset: 0xFE5E00 VA: 0x180FE7800
+	// RVA: 0xFE82A0 Offset: 0xFE68A0 VA: 0x180FE82A0
 	public void .ctor(string name, StaticAccessorType type) { }
 
 }

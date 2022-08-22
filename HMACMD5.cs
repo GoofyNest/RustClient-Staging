@@ -1,10 +1,10 @@
 public class HMACMD5 : HMAC // TypeDefIndex: 961
 {	// Methods
 
-	// RVA: 0x1700EF0 Offset: 0x16FF4F0 VA: 0x181700EF0
+	// RVA: 0x16FEAE0 Offset: 0x16FD0E0 VA: 0x1816FEAE0
 	public void .ctor() { }
 
-	// RVA: 0x1700E20 Offset: 0x16FF420 VA: 0x181700E20
+	// RVA: 0x16FEA10 Offset: 0x16FD010 VA: 0x1816FEA10
 	public void .ctor(byte[] key) { }
 
 }

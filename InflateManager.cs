@@ -16,25 +16,25 @@ internal sealed class InflateManager // TypeDefIndex: 6950
 
 	// Methods
 
-	// RVA: 0x82BDA0 Offset: 0x82A3A0 VA: 0x18082BDA0
+	// RVA: 0x82C2F0 Offset: 0x82A8F0 VA: 0x18082C2F0
 	internal bool get_HandleRfc1950HeaderBytes() { }
 
-	// RVA: 0x21D4D30 Offset: 0x21D3330 VA: 0x1821D4D30
+	// RVA: 0x21D5550 Offset: 0x21D3B50 VA: 0x1821D5550
 	public void .ctor(bool expectRfc1950HeaderBytes) { }
 
-	// RVA: 0x21D4C30 Offset: 0x21D3230 VA: 0x1821D4C30
+	// RVA: 0x21D5450 Offset: 0x21D3A50 VA: 0x1821D5450
 	internal int Reset() { }
 
-	// RVA: 0x21D4020 Offset: 0x21D2620 VA: 0x1821D4020
+	// RVA: 0x21D4840 Offset: 0x21D2E40 VA: 0x1821D4840
 	internal int End() { }
 
-	// RVA: 0x21D4980 Offset: 0x21D2F80 VA: 0x1821D4980
+	// RVA: 0x21D51A0 Offset: 0x21D37A0 VA: 0x1821D51A0
 	internal int Initialize(ZlibCodec codec, int w) { }
 
-	// RVA: 0x21D4090 Offset: 0x21D2690 VA: 0x1821D4090
+	// RVA: 0x21D48B0 Offset: 0x21D2EB0 VA: 0x1821D48B0
 	internal int Inflate(FlushType flush) { }
 
-	// RVA: 0x21D4CA0 Offset: 0x21D32A0 VA: 0x1821D4CA0
+	// RVA: 0x21D54C0 Offset: 0x21D3AC0 VA: 0x1821D54C0
 	private static void .cctor() { }
 
 }

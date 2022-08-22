@@ -50,116 +50,116 @@ public class PhoneDialler : UIDialog // TypeDefIndex: 10897
 
 	// Methods
 
-	// RVA: 0x875140 Offset: 0x873740 VA: 0x180875140
+	// RVA: 0x890860 Offset: 0x88EE60 VA: 0x180890860
 	public bool get_IsContactsActive() { }
 
-	// RVA: 0x873DE0 Offset: 0x8723E0 VA: 0x180873DE0
+	// RVA: 0x88F500 Offset: 0x88DB00 VA: 0x18088F500
 	public void SetPhone(PhoneController t) { }
 
-	// RVA: 0x874320 Offset: 0x872920 VA: 0x180874320
+	// RVA: 0x88FA40 Offset: 0x88E040 VA: 0x18088FA40
 	public void Update() { }
 
-	// RVA: 0x872730 Offset: 0x870D30 VA: 0x180872730
+	// RVA: 0x88DE50 Offset: 0x88C450 VA: 0x18088DE50
 	public void EnterNumber(int i) { }
 
-	// RVA: 0x873CE0 Offset: 0x8722E0 VA: 0x180873CE0
+	// RVA: 0x88F400 Offset: 0x88DA00 VA: 0x18088F400
 	public void SetNumber(string number) { }
 
-	// RVA: 0x872340 Offset: 0x870940 VA: 0x180872340
+	// RVA: 0x88DA60 Offset: 0x88C060 VA: 0x18088DA60
 	public void ClearCode() { }
 
-	// RVA: 0x872620 Offset: 0x870C20 VA: 0x180872620
+	// RVA: 0x88DD40 Offset: 0x88C340 VA: 0x18088DD40
 	public void Dial() { }
 
-	// RVA: 0x8731A0 Offset: 0x8717A0 VA: 0x1808731A0
+	// RVA: 0x88E8C0 Offset: 0x88CEC0 VA: 0x18088E8C0
 	public void OnFail(Telephone.DialFailReason reason) { }
 
-	// RVA: 0x8732F0 Offset: 0x8718F0 VA: 0x1808732F0
+	// RVA: 0x88EA10 Offset: 0x88D010 VA: 0x18088EA10
 	public void OnPhoneStateChanged(PhoneController c) { }
 
-	// RVA: 0x8722E0 Offset: 0x8708E0 VA: 0x1808722E0
+	// RVA: 0x88DA00 Offset: 0x88C000 VA: 0x18088DA00
 	public void Answer() { }
 
-	// RVA: 0x872A20 Offset: 0x871020 VA: 0x180872A20
+	// RVA: 0x88E140 Offset: 0x88C740 VA: 0x18088E140
 	public void HangUp() { }
 
-	// RVA: 0x8723F0 Offset: 0x8709F0 VA: 0x1808723F0 Slot: 9
+	// RVA: 0x88DB10 Offset: 0x88C110 VA: 0x18088DB10 Slot: 9
 	public override void CloseDialog() { }
 
-	// RVA: 0x872850 Offset: 0x870E50 VA: 0x180872850
+	// RVA: 0x88DF70 Offset: 0x88C570 VA: 0x18088DF70
 	public void ForceClose() { }
 
-	// RVA: 0x8729C0 Offset: 0x870FC0 VA: 0x1808729C0
+	// RVA: 0x88E0E0 Offset: 0x88C6E0 VA: 0x18088E0E0
 	public static string FormatPhoneNumber(string number) { }
 
-	// RVA: 0x872DD0 Offset: 0x8713D0 VA: 0x180872DD0
+	// RVA: 0x88E4F0 Offset: 0x88CAF0 VA: 0x18088E4F0
 	public void OnClickedDirectory() { }
 
-	// RVA: 0x873710 Offset: 0x871D10 VA: 0x180873710
+	// RVA: 0x88EE30 Offset: 0x88D430 VA: 0x18088EE30
 	public void OnReceivedDirectory() { }
 
-	// RVA: 0x872C70 Offset: 0x871270 VA: 0x180872C70
+	// RVA: 0x88E390 Offset: 0x88C990 VA: 0x18088E390
 	public void OnClickedContacts() { }
 
-	// RVA: 0x873960 Offset: 0x871F60 VA: 0x180873960
+	// RVA: 0x88F080 Offset: 0x88D680 VA: 0x18088F080
 	public void PopulateDirectory(PhoneDirectory directory, Transform forRoot, bool showDeleteOption) { }
 
-	// RVA: 0x872BD0 Offset: 0x8711D0 VA: 0x180872BD0
+	// RVA: 0x88E2F0 Offset: 0x88C8F0 VA: 0x18088E2F0
 	public void OnClickedCallDirectoryEntry(string number) { }
 
-	// RVA: 0x872D30 Offset: 0x871330 VA: 0x180872D30
+	// RVA: 0x88E450 Offset: 0x88CA50 VA: 0x18088E450
 	public void OnClickedDeletePhoneNumber(string phoneNumber) { }
 
-	// RVA: 0x873260 Offset: 0x871860 VA: 0x180873260
+	// RVA: 0x88E980 Offset: 0x88CF80 VA: 0x18088E980
 	public void OnNameInput(string newName) { }
 
-	// RVA: 0x872F40 Offset: 0x871540 VA: 0x180872F40
+	// RVA: 0x88E660 Offset: 0x88CC60 VA: 0x18088E660
 	public void OnClickedSaveNumber() { }
 
-	// RVA: 0x8740E0 Offset: 0x8726E0 VA: 0x1808740E0
+	// RVA: 0x88F800 Offset: 0x88DE00 VA: 0x18088F800
 	public void UpdateAddContactButton() { }
 
-	// RVA: 0x872A50 Offset: 0x871050 VA: 0x180872A50
+	// RVA: 0x88E170 Offset: 0x88C770 VA: 0x18088E170
 	public void LoadDirectory(int direction) { }
 
-	// RVA: 0x8741A0 Offset: 0x8727A0 VA: 0x1808741A0
+	// RVA: 0x88F8C0 Offset: 0x88DEC0 VA: 0x18088F8C0
 	private void UpdateIncomingCallText(PhoneController c) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x88F00 Offset: 0x88300 VA: 0x180088F00
-	// RVA: 0x873860 Offset: 0x871E60 VA: 0x180873860
+	// RVA: 0x88EF80 Offset: 0x88D580 VA: 0x18088EF80
 	private IEnumerator PlayInputBeepsForPhoneNumber(string number) { }
 
-	// RVA: 0x8735F0 Offset: 0x871BF0 VA: 0x1808735F0
+	// RVA: 0x88ED10 Offset: 0x88D310 VA: 0x18088ED10
 	public void OnReceivedAnsweringMessage(float length, bool canLeaveVoicemail) { }
 
-	// RVA: 0x873830 Offset: 0x871E30 VA: 0x180873830
+	// RVA: 0x88EF50 Offset: 0x88D550 VA: 0x18088EF50
 	public void OnStartedRecordingVoicemail(float duration) { }
 
-	// RVA: 0x872820 Offset: 0x870E20 VA: 0x180872820
+	// RVA: 0x88DF40 Offset: 0x88C540 VA: 0x18088DF40
 	public void FinishVoicemailRecording() { }
 
-	// RVA: 0x8738F0 Offset: 0x871EF0 VA: 0x1808738F0
+	// RVA: 0x88F010 Offset: 0x88D610 VA: 0x18088F010
 	public void PlayVoicemail(uint id) { }
 
-	// RVA: 0x874080 Offset: 0x872680 VA: 0x180874080
+	// RVA: 0x88F7A0 Offset: 0x88DDA0 VA: 0x18088F7A0
 	public void StopVoicemail() { }
 
-	// RVA: 0x8725B0 Offset: 0x870BB0 VA: 0x1808725B0
+	// RVA: 0x88DCD0 Offset: 0x88C2D0 VA: 0x18088DCD0
 	public void DeleteVoicemail(uint id) { }
 
-	// RVA: 0x875210 Offset: 0x873810 VA: 0x180875210
+	// RVA: 0x890930 Offset: 0x88EF30 VA: 0x180890930
 	public float get_NormalisedAnsweringMessagePlayTime() { }
 
-	// RVA: 0x875170 Offset: 0x873770 VA: 0x180875170
+	// RVA: 0x890890 Offset: 0x88EE90 VA: 0x180890890
 	public bool get_IsPlayingAnsweringMessage() { }
 
-	// RVA: 0x8730C0 Offset: 0x8716C0 VA: 0x1808730C0
+	// RVA: 0x88E7E0 Offset: 0x88CDE0 VA: 0x18088E7E0
 	public void OnClickedVoicemail() { }
 
-	// RVA: 0x872580 Offset: 0x870B80 VA: 0x180872580
+	// RVA: 0x88DCA0 Offset: 0x88C2A0 VA: 0x18088DCA0
 	public void CopyCurrentNumberToClipboard() { }
 
-	// RVA: 0x8750D0 Offset: 0x8736D0 VA: 0x1808750D0
+	// RVA: 0x8907F0 Offset: 0x88EDF0 VA: 0x1808907F0
 	public void .ctor() { }
 
 }
@@ -186,7 +186,7 @@ private sealed class PhoneDialler.<PlayInputBeepsForPhoneNumber>d__68 : IEnumera
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x9205B0 Offset: 0x91EBB0 VA: 0x1809205B0 Slot: 6
+	// RVA: 0x920AC0 Offset: 0x91F0C0 VA: 0x180920AC0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -194,7 +194,7 @@ private sealed class PhoneDialler.<PlayInputBeepsForPhoneNumber>d__68 : IEnumera
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9207C0 Offset: 0x91EDC0 VA: 0x1809207C0 Slot: 8
+	// RVA: 0x920CD0 Offset: 0x91F2D0 VA: 0x180920CD0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

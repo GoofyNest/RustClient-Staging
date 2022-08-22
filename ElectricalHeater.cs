@@ -9,22 +9,22 @@ public class ElectricalHeater : IOEntity // TypeDefIndex: 8705
 
 	// Methods
 
-	// RVA: 0xAC2060 Offset: 0xAC0660 VA: 0x180AC2060 Slot: 150
+	// RVA: 0xAC2530 Offset: 0xAC0B30 VA: 0x180AC2530 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0xAC22B0 Offset: 0xAC08B0 VA: 0x180AC22B0 Slot: 27
+	// RVA: 0xAC2780 Offset: 0xAC0D80 VA: 0x180AC2780 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0xAC2010 Offset: 0xAC0610 VA: 0x180AC2010 Slot: 14
+	// RVA: 0xAC24E0 Offset: 0xAC0AE0 VA: 0x180AC24E0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xAC2200 Offset: 0xAC0800 VA: 0x180AC2200 Slot: 16
+	// RVA: 0xAC26D0 Offset: 0xAC0CD0 VA: 0x180AC26D0 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0xAC2070 Offset: 0xAC0670 VA: 0x180AC2070
+	// RVA: 0xAC2540 Offset: 0xAC0B40 VA: 0x180AC2540
 	public void LightLerp() { }
 
-	// RVA: 0xAC2370 Offset: 0xAC0970 VA: 0x180AC2370
+	// RVA: 0xAC2840 Offset: 0xAC0E40 VA: 0x180AC2840
 	public void .ctor() { }
 
 }

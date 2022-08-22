@@ -1,7 +1,7 @@
 public abstract class HttpMessageHandler : IDisposable // TypeDefIndex: 5750
 {	// Methods
 
-	// RVA: 0x100F370 Offset: 0x100D970 VA: 0x18100F370 Slot: 4
+	// RVA: 0x100FE10 Offset: 0x100E410 VA: 0x18100FE10 Slot: 4
 	public void Dispose() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5

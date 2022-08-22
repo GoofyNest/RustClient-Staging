@@ -1,7 +1,7 @@
 public sealed class OnDeserializedAttribute : Attribute // TypeDefIndex: 1052
 {	// Methods
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 }

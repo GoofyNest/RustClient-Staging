@@ -9,16 +9,16 @@ public class PrefabInformation : PrefabAttribute // TypeDefIndex: 9971
 
 	// Methods
 
-	// RVA: 0x9A14C0 Offset: 0x99FAC0 VA: 0x1809A14C0 Slot: 7
+	// RVA: 0x9A19B0 Offset: 0x99FFB0 VA: 0x1809A19B0 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x9A1370 Offset: 0x99F970 VA: 0x1809A1370 Slot: 6
+	// RVA: 0x9A1860 Offset: 0x99FE60 VA: 0x1809A1860 Slot: 6
 	protected override void AttributeSetup(GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x9A1580 Offset: 0x99FB80 VA: 0x1809A1580
+	// RVA: 0x9A1A70 Offset: 0x9A0070 VA: 0x1809A1A70
 	public void .ctor() { }
 
-	// RVA: 0x9A1520 Offset: 0x99FB20 VA: 0x1809A1520
+	// RVA: 0x9A1A10 Offset: 0x9A0010 VA: 0x1809A1A10
 	private static void .cctor() { }
 
 }

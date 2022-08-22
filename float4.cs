@@ -38,22 +38,22 @@ public struct float4 : IEquatable<float4>, IFormattable // TypeDefIndex: 7105
 	// RVA: 0x23A150 Offset: 0x239550 VA: 0x18023A150
 	public void .ctor(float3 xyz, float w) { }
 
-	// RVA: 0x22AE530 Offset: 0x22ACB30 VA: 0x1822AE530
+	// RVA: 0x22AED50 Offset: 0x22AD350 VA: 0x1822AED50
 	public static float4 op_Multiply(float4 lhs, float4 rhs) { }
 
-	// RVA: 0x22AE5B0 Offset: 0x22ACBB0 VA: 0x1822AE5B0
+	// RVA: 0x22AEDD0 Offset: 0x22AD3D0 VA: 0x1822AEDD0
 	public static float4 op_Multiply(float4 lhs, float rhs) { }
 
-	// RVA: 0x22AE590 Offset: 0x22ACB90 VA: 0x1822AE590
+	// RVA: 0x22AEDB0 Offset: 0x22AD3B0 VA: 0x1822AEDB0
 	public static float4 op_Multiply(float lhs, float4 rhs) { }
 
-	// RVA: 0x22AE4D0 Offset: 0x22ACAD0 VA: 0x1822AE4D0
+	// RVA: 0x22AECF0 Offset: 0x22AD2F0 VA: 0x1822AECF0
 	public static float4 op_Addition(float4 lhs, float4 rhs) { }
 
-	// RVA: 0x22AE5D0 Offset: 0x22ACBD0 VA: 0x1822AE5D0
+	// RVA: 0x22AEDF0 Offset: 0x22AD3F0 VA: 0x1822AEDF0
 	public static float4 op_Subtraction(float4 lhs, float4 rhs) { }
 
-	// RVA: 0x22AE630 Offset: 0x22ACC30 VA: 0x1822AE630
+	// RVA: 0x22AEE50 Offset: 0x22AD450 VA: 0x1822AEE50
 	public static float4 op_UnaryNegation(float4 val) { }
 
 	// RVA: 0x23A1E0 Offset: 0x2395E0 VA: 0x18023A1E0

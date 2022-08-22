@@ -1,7 +1,7 @@
 public abstract class ProceduralObject : MonoBehaviour // TypeDefIndex: 10564
 {	// Methods
 
-	// RVA: 0x691600 Offset: 0x68FC00 VA: 0x180691600
+	// RVA: 0x691590 Offset: 0x68FB90 VA: 0x180691590
 	protected void Awake() { }
 
 	// RVA: -1 Offset: -1 Slot: 4

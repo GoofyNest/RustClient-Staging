@@ -5,7 +5,7 @@ public sealed class UnknownFileFormatException : MidiException // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x13AB7D0 Offset: 0x13A9DD0 VA: 0x1813AB7D0
+	// RVA: 0x13AA8D0 Offset: 0x13A8ED0 VA: 0x1813AA8D0
 	internal void .ctor(ushort fileFormat) { }
 
 }

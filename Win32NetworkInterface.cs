@@ -8,10 +8,10 @@ internal class Win32NetworkInterface // TypeDefIndex: 3082
 
 	// Methods
 
-	// RVA: 0x1349B60 Offset: 0x1348160 VA: 0x181349B60
+	// RVA: 0x1348C60 Offset: 0x1347260 VA: 0x181348C60
 	private static extern int GetNetworkParams(IntPtr ptr, ref int size) { }
 
-	// RVA: 0x1349BF0 Offset: 0x13481F0 VA: 0x181349BF0
+	// RVA: 0x1348CF0 Offset: 0x13472F0 VA: 0x181348CF0
 	public static Win32_FIXED_INFO get_FixedInfo() { }
 
 }

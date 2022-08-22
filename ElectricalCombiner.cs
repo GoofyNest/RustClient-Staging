@@ -6,10 +6,10 @@ public class ElectricalCombiner : IOEntity // TypeDefIndex: 8708
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 145
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 145
 	public override bool IsRootEntity() { }
 
-	// RVA: 0xAC1F50 Offset: 0xAC0550 VA: 0x180AC1F50
+	// RVA: 0xAC2420 Offset: 0xAC0A20 VA: 0x180AC2420
 	public void .ctor() { }
 
 }

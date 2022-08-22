@@ -16,19 +16,19 @@ public class EyeController : MonoBehaviour // TypeDefIndex: 9346
 
 	// Methods
 
-	// RVA: 0x8D47B0 Offset: 0x8D2DB0 VA: 0x1808D47B0
+	// RVA: 0x8D4CC0 Offset: 0x8D32C0 VA: 0x1808D4CC0
 	public void UpdateEyes() { }
 
-	// RVA: 0x8D44E0 Offset: 0x8D2AE0 VA: 0x1808D44E0
+	// RVA: 0x8D49F0 Offset: 0x8D2FF0 VA: 0x1808D49F0
 	private void UpdateEye(Transform eye, Vector3 LookAt) { }
 
-	// RVA: 0x8D4B10 Offset: 0x8D3110 VA: 0x1808D4B10
+	// RVA: 0x8D5020 Offset: 0x8D3620 VA: 0x1808D5020
 	private void UpdateFlicker() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void UpdateFocus(Vector3 defaultLookAtPos) { }
 
-	// RVA: 0x8D4D70 Offset: 0x8D3370 VA: 0x1808D4D70
+	// RVA: 0x8D5280 Offset: 0x8D3880 VA: 0x1808D5280
 	public void .ctor() { }
 
 }

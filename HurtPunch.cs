@@ -6,22 +6,22 @@ public class HurtPunch : MonoBehaviour // TypeDefIndex: 9132
 
 	// Methods
 
-	// RVA: 0x746480 Offset: 0x744A80 VA: 0x180746480
+	// RVA: 0x7463D0 Offset: 0x7449D0 VA: 0x1807463D0
 	public static void Punch(float damageScale = 1) { }
 
-	// RVA: 0x746380 Offset: 0x744980 VA: 0x180746380
+	// RVA: 0x7462D0 Offset: 0x7448D0 VA: 0x1807462D0
 	private float GetPunchHurtScale() { }
 
-	// RVA: 0x515E30 Offset: 0x514430 VA: 0x180515E30
+	// RVA: 0x515DC0 Offset: 0x5143C0 VA: 0x180515DC0
 	public void Awake() { }
 
-	// RVA: 0x746510 Offset: 0x744B10 VA: 0x180746510
+	// RVA: 0x746460 Offset: 0x744A60 VA: 0x180746460
 	protected void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0x746700 Offset: 0x744D00 VA: 0x180746700
+	// RVA: 0x746650 Offset: 0x744C50 VA: 0x180746650
 	private static void .cctor() { }
 
 }

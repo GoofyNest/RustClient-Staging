@@ -8,13 +8,13 @@ public class FlashlightBeam : MonoBehaviour, IClientComponent // TypeDefIndex: 8
 
 	// Methods
 
-	// RVA: 0x7929E0 Offset: 0x790FE0 VA: 0x1807929E0
+	// RVA: 0x7928F0 Offset: 0x790EF0 VA: 0x1807928F0
 	public void OnEnable() { }
 
-	// RVA: 0x7926A0 Offset: 0x790CA0 VA: 0x1807926A0
+	// RVA: 0x7925B0 Offset: 0x790BB0 VA: 0x1807925B0
 	private void LateUpdate() { }
 
-	// RVA: 0x792B80 Offset: 0x791180 VA: 0x180792B80
+	// RVA: 0x792A90 Offset: 0x791090 VA: 0x180792A90
 	public void .ctor() { }
 
 }

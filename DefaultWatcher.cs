@@ -10,34 +10,34 @@ internal class DefaultWatcher : IFileWatcher // TypeDefIndex: 2841
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x15299E0 Offset: 0x1527FE0 VA: 0x1815299E0
+	// RVA: 0x1528AB0 Offset: 0x15270B0 VA: 0x181528AB0
 	public static bool GetInstance(out IFileWatcher watcher) { }
 
-	// RVA: 0x152AF90 Offset: 0x1529590 VA: 0x18152AF90 Slot: 4
+	// RVA: 0x152A060 Offset: 0x1528660 VA: 0x18152A060 Slot: 4
 	public void StartDispatching(FileSystemWatcher fsw) { }
 
-	// RVA: 0x152B770 Offset: 0x1529D70 VA: 0x18152B770 Slot: 5
+	// RVA: 0x152A840 Offset: 0x1528E40 VA: 0x18152A840 Slot: 5
 	public void StopDispatching(FileSystemWatcher fsw) { }
 
-	// RVA: 0x152A760 Offset: 0x1528D60 VA: 0x18152A760
+	// RVA: 0x1529830 Offset: 0x1527E30 VA: 0x181529830
 	private void Monitor() { }
 
-	// RVA: 0x152BA30 Offset: 0x152A030 VA: 0x18152BA30
+	// RVA: 0x152AB00 Offset: 0x1529100 VA: 0x18152AB00
 	private bool UpdateDataAndDispatch(DefaultWatcherData data, bool dispatch) { }
 
-	// RVA: 0x1529660 Offset: 0x1527C60 VA: 0x181529660
+	// RVA: 0x1528730 Offset: 0x1526D30 VA: 0x181528730
 	private static void DispatchEvents(FileSystemWatcher fsw, FileAction action, string filename) { }
 
-	// RVA: 0x1529760 Offset: 0x1527D60 VA: 0x181529760
+	// RVA: 0x1528830 Offset: 0x1526E30 VA: 0x181528830
 	private void DoFiles(DefaultWatcherData data, string directory, bool dispatch) { }
 
-	// RVA: 0x1529AF0 Offset: 0x15280F0 VA: 0x181529AF0
+	// RVA: 0x1528BC0 Offset: 0x15271C0 VA: 0x181528BC0
 	private void IterateAndModifyFilesData(DefaultWatcherData data, string directory, bool dispatch, string[] files) { }
 
-	// RVA: 0x1529590 Offset: 0x1527B90 VA: 0x181529590
+	// RVA: 0x1528660 Offset: 0x1526C60 VA: 0x181528660
 	private static FileData CreateFileData(string directory, string filename) { }
 
-	// RVA: 0x152BB50 Offset: 0x152A150 VA: 0x18152BB50
+	// RVA: 0x152AC20 Offset: 0x1529220 VA: 0x18152AC20
 	private static void .cctor() { }
 
 }

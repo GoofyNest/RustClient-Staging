@@ -4,16 +4,16 @@ public class AStarNodeList : List<AStarNode> // TypeDefIndex: 12147
 
 	// Methods
 
-	// RVA: 0x4BA3A0 Offset: 0x4B89A0 VA: 0x1804BA3A0
+	// RVA: 0x4BA330 Offset: 0x4B8930 VA: 0x1804BA330
 	public bool Contains(BasePathNode n) { }
 
-	// RVA: 0x4BA450 Offset: 0x4B8A50 VA: 0x1804BA450
+	// RVA: 0x4BA3E0 Offset: 0x4B89E0 VA: 0x1804BA3E0
 	public AStarNode GetAStarNodeOf(BasePathNode n) { }
 
-	// RVA: 0x4BA360 Offset: 0x4B8960 VA: 0x1804BA360
+	// RVA: 0x4BA2F0 Offset: 0x4B88F0 VA: 0x1804BA2F0
 	public void AStarNodeSort() { }
 
-	// RVA: 0x4BA510 Offset: 0x4B8B10 VA: 0x1804BA510
+	// RVA: 0x4BA4A0 Offset: 0x4B8AA0 VA: 0x1804BA4A0
 	public void .ctor() { }
 
 }
@@ -21,7 +21,7 @@ public class AStarNodeList : List<AStarNode> // TypeDefIndex: 12147
 private class AStarNodeList.AStarNodeComparer : IComparer<AStarNode> // TypeDefIndex: 12148
 {	// Methods
 
-	// RVA: 0x4BA310 Offset: 0x4B8910 VA: 0x1804BA310 Slot: 4
+	// RVA: 0x4BA2A0 Offset: 0x4B88A0 VA: 0x1804BA2A0 Slot: 4
 	private int System.Collections.Generic.IComparer<Rust.AI.AStarNode>.Compare(AStarNode lhs, AStarNode rhs) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

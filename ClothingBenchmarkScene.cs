@@ -7,16 +7,16 @@ public class ClothingBenchmarkScene : BenchmarkScene // TypeDefIndex: 8249
 
 	// Methods
 
-	// RVA: 0x574F40 Offset: 0x573540 VA: 0x180574F40 Slot: 7
+	// RVA: 0x574ED0 Offset: 0x5734D0 VA: 0x180574ED0 Slot: 7
 	public override void StartBenchmark() { }
 
-	// RVA: 0x574BE0 Offset: 0x5731E0 VA: 0x180574BE0 Slot: 8
+	// RVA: 0x574B70 Offset: 0x573170 VA: 0x180574B70 Slot: 8
 	public override void BenchmarkUpdate() { }
 
-	// RVA: 0x575480 Offset: 0x573A80 VA: 0x180575480 Slot: 9
+	// RVA: 0x575410 Offset: 0x573A10 VA: 0x180575410 Slot: 9
 	public override void StopBenchmark() { }
 
-	// RVA: 0x5755F0 Offset: 0x573BF0 VA: 0x1805755F0
+	// RVA: 0x575580 Offset: 0x573B80 VA: 0x180575580
 	public void .ctor() { }
 
 }
@@ -31,22 +31,22 @@ private sealed class ClothingBenchmarkScene.<>c // TypeDefIndex: 8250
 
 	// Methods
 
-	// RVA: 0x589D20 Offset: 0x588320 VA: 0x180589D20
+	// RVA: 0x589CB0 Offset: 0x5882B0 VA: 0x180589CB0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x589A20 Offset: 0x588020 VA: 0x180589A20
+	// RVA: 0x5899B0 Offset: 0x587FB0 VA: 0x1805899B0
 	internal ItemModWearable <StartBenchmark>b__4_0(ItemDefinition x) { }
 
-	// RVA: 0x589A70 Offset: 0x588070 VA: 0x180589A70
+	// RVA: 0x589A00 Offset: 0x588000 VA: 0x180589A00
 	internal bool <StartBenchmark>b__4_1(ItemModWearable x) { }
 
-	// RVA: 0x589AD0 Offset: 0x5880D0 VA: 0x180589AD0
+	// RVA: 0x589A60 Offset: 0x588060 VA: 0x180589A60
 	internal Guid <StartBenchmark>b__4_2(ItemModWearable x) { }
 
-	// RVA: 0x5899A0 Offset: 0x587FA0 VA: 0x1805899A0
+	// RVA: 0x589930 Offset: 0x587F30 VA: 0x180589930
 	internal Guid <BenchmarkUpdate>b__5_0(ItemModWearable x) { }
 
 }

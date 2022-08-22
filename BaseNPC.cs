@@ -6,82 +6,82 @@ public class BaseNPC : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6295
 
 	// Methods
 
-	// RVA: 0x1FFFBE0 Offset: 0x1FFE1E0 VA: 0x181FFFBE0
+	// RVA: 0x2000400 Offset: 0x1FFEA00 VA: 0x182000400
 	public static void ResetToPool(BaseNPC instance) { }
 
-	// RVA: 0x1FFFC60 Offset: 0x1FFE260 VA: 0x181FFFC60
+	// RVA: 0x2000480 Offset: 0x1FFEA80 VA: 0x182000480
 	public void ResetToPool() { }
 
-	// RVA: 0x1FFFAB0 Offset: 0x1FFE0B0 VA: 0x181FFFAB0 Slot: 9
+	// RVA: 0x20002D0 Offset: 0x1FFE8D0 VA: 0x1820002D0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE790 Offset: 0x1BFCD90 VA: 0x181BFE790
+	// RVA: 0x1BFEF80 Offset: 0x1BFD580 VA: 0x181BFEF80
 	public void CopyTo(BaseNPC instance) { }
 
-	// RVA: 0x1FFF130 Offset: 0x1FFD730 VA: 0x181FFF130
+	// RVA: 0x1FFF950 Offset: 0x1FFDF50 VA: 0x181FFF950
 	public BaseNPC Copy() { }
 
-	// RVA: 0x1FFFA30 Offset: 0x1FFE030 VA: 0x181FFFA30
+	// RVA: 0x2000250 Offset: 0x1FFE850 VA: 0x182000250
 	public static BaseNPC Deserialize(Stream stream) { }
 
-	// RVA: 0x1FFF1A0 Offset: 0x1FFD7A0 VA: 0x181FFF1A0
+	// RVA: 0x1FFF9C0 Offset: 0x1FFDFC0 VA: 0x181FFF9C0
 	public static BaseNPC DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1FFF440 Offset: 0x1FFDA40 VA: 0x181FFF440
+	// RVA: 0x1FFFC60 Offset: 0x1FFE260 VA: 0x181FFFC60
 	public static BaseNPC DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1FFF6D0 Offset: 0x1FFDCD0 VA: 0x181FFF6D0
+	// RVA: 0x1FFFEF0 Offset: 0x1FFE4F0 VA: 0x181FFFEF0
 	public static BaseNPC Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1FFFBA0 Offset: 0x1FFE1A0 VA: 0x181FFFBA0
+	// RVA: 0x20003C0 Offset: 0x1FFE9C0 VA: 0x1820003C0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x2000130 Offset: 0x1FFE730 VA: 0x182000130 Slot: 12
+	// RVA: 0x2000950 Offset: 0x1FFEF50 VA: 0x182000950 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x2000200 Offset: 0x1FFE800 VA: 0x182000200 Slot: 13
+	// RVA: 0x2000A20 Offset: 0x1FFF020 VA: 0x182000A20 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, BaseNPC previous) { }
 
-	// RVA: 0x1FFFBC0 Offset: 0x1FFE1C0 VA: 0x181FFFBC0 Slot: 14
+	// RVA: 0x20003E0 Offset: 0x1FFE9E0 VA: 0x1820003E0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1FFF7F0 Offset: 0x1FFDDF0 VA: 0x181FFF7F0
+	// RVA: 0x2000010 Offset: 0x1FFE610 VA: 0x182000010
 	public static BaseNPC Deserialize(byte[] buffer, BaseNPC instance, bool isDelta = False) { }
 
-	// RVA: 0x1FFF8F0 Offset: 0x1FFDEF0 VA: 0x181FFF8F0
+	// RVA: 0x2000110 Offset: 0x1FFE710 VA: 0x182000110
 	public static BaseNPC Deserialize(Stream stream, BaseNPC instance, bool isDelta) { }
 
-	// RVA: 0x1FFF220 Offset: 0x1FFD820 VA: 0x181FFF220
+	// RVA: 0x1FFFA40 Offset: 0x1FFE040 VA: 0x181FFFA40
 	public static BaseNPC DeserializeLengthDelimited(Stream stream, BaseNPC instance, bool isDelta) { }
 
-	// RVA: 0x1FFF4D0 Offset: 0x1FFDAD0 VA: 0x181FFF4D0
+	// RVA: 0x1FFFCF0 Offset: 0x1FFE2F0 VA: 0x181FFFCF0
 	public static BaseNPC DeserializeLength(Stream stream, int length, BaseNPC instance, bool isDelta) { }
 
-	// RVA: 0x1FFFCE0 Offset: 0x1FFE2E0 VA: 0x181FFFCE0
+	// RVA: 0x2000500 Offset: 0x1FFEB00 VA: 0x182000500
 	public static void SerializeDelta(Stream stream, BaseNPC instance, BaseNPC previous) { }
 
-	// RVA: 0x2000050 Offset: 0x1FFE650 VA: 0x182000050
+	// RVA: 0x2000870 Offset: 0x1FFEE70 VA: 0x182000870
 	public static void Serialize(Stream stream, BaseNPC instance) { }
 
-	// RVA: 0x2000120 Offset: 0x1FFE720 VA: 0x182000120
+	// RVA: 0x2000940 Offset: 0x1FFEF40 VA: 0x182000940
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x2000130 Offset: 0x1FFE730 VA: 0x182000130
+	// RVA: 0x2000950 Offset: 0x1FFEF50 VA: 0x182000950
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1FFFEA0 Offset: 0x1FFE4A0 VA: 0x181FFFEA0
+	// RVA: 0x20006C0 Offset: 0x1FFECC0 VA: 0x1820006C0
 	public static byte[] SerializeToBytes(BaseNPC instance) { }
 
-	// RVA: 0x1FFFDF0 Offset: 0x1FFE3F0 VA: 0x181FFFDF0
+	// RVA: 0x2000610 Offset: 0x1FFEC10 VA: 0x182000610
 	public static void SerializeLengthDelimited(Stream stream, BaseNPC instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -130,121 +130,121 @@ public class BaseNpc : BaseCombatEntity // TypeDefIndex: 8525
 
 	// Methods
 
-	// RVA: 0xA4FC60 Offset: 0xA4E260 VA: 0x180A4FC60 Slot: 35
+	// RVA: 0xA50130 Offset: 0xA4E730 VA: 0x180A50130 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA50BD0 Offset: 0xA4F1D0 VA: 0x180A50BD0
+	// RVA: 0xA510A0 Offset: 0xA4F6A0 VA: 0x180A510A0
 	public int TopologyPreference() { }
 
-	// RVA: 0xA4FAC0 Offset: 0xA4E0C0 VA: 0x180A4FAC0 Slot: 52
+	// RVA: 0xA4FF90 Offset: 0xA4E590 VA: 0x180A4FF90 Slot: 52
 	public override float GetExtrapolationTime() { }
 
-	// RVA: 0xA50670 Offset: 0xA4EC70 VA: 0x180A50670 Slot: 83
+	// RVA: 0xA50B40 Offset: 0xA4F140 VA: 0x180A50B40 Slot: 83
 	public override void OnSignal(BaseEntity.Signal signal, string arg) { }
 
-	// RVA: 0xA4F800 Offset: 0xA4DE00 VA: 0x180A4F800 Slot: 14
+	// RVA: 0xA4FCD0 Offset: 0xA4E2D0 VA: 0x180A4FCD0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xA4F990 Offset: 0xA4DF90 VA: 0x180A4F990 Slot: 19
+	// RVA: 0xA4FE60 Offset: 0xA4E460 VA: 0x180A4FE60 Slot: 19
 	protected override void DoClientDestroy() { }
 
-	// RVA: 0xA4F610 Offset: 0xA4DC10 VA: 0x180A4F610
+	// RVA: 0xA4FAE0 Offset: 0xA4E0E0 VA: 0x180A4FAE0
 	public static void ClientCycle(float deltaTime) { }
 
-	// RVA: 0xA4FBB0 Offset: 0xA4E1B0 VA: 0x180A4FBB0 Slot: 89
+	// RVA: 0xA50080 Offset: 0xA4E680 VA: 0x180A50080 Slot: 89
 	public override void MakeVisible() { }
 
-	// RVA: 0xA4F8F0 Offset: 0xA4DEF0 VA: 0x180A4F8F0
+	// RVA: 0xA4FDC0 Offset: 0xA4E3C0 VA: 0x180A4FDC0
 	protected void ClientUpdate() { }
 
-	// RVA: 0xA51770 Offset: 0xA4FD70 VA: 0x180A51770
+	// RVA: 0xA51C40 Offset: 0xA50240 VA: 0x180A51C40
 	public static List<BaseNpc> get_VisibleNpcList() { }
 
-	// RVA: 0xA4F4F0 Offset: 0xA4DAF0 VA: 0x180A4F4F0
+	// RVA: 0xA4F9C0 Offset: 0xA4DFC0 VA: 0x180A4F9C0
 	public static void ClearVisibility() { }
 
-	// RVA: 0xA50A60 Offset: 0xA4F060 VA: 0x180A50A60
+	// RVA: 0xA50F30 Offset: 0xA4F530 VA: 0x180A50F30
 	public static void RegisterForVisibility(BaseNpc npc) { }
 
-	// RVA: 0xA50BE0 Offset: 0xA4F1E0 VA: 0x180A50BE0
+	// RVA: 0xA510B0 Offset: 0xA4F6B0 VA: 0x180A510B0
 	public static void UnregisterFromVisibility(BaseNpc npc) { }
 
-	// RVA: 0xA50B10 Offset: 0xA4F110 VA: 0x180A50B10 Slot: 60
+	// RVA: 0xA50FE0 Offset: 0xA4F5E0 VA: 0x180A50FE0 Slot: 60
 	public override void SetNetworkRotation(Quaternion rot) { }
 
-	// RVA: 0xA4FB50 Offset: 0xA4E150 VA: 0x180A4FB50 Slot: 25
+	// RVA: 0xA50020 Offset: 0xA4E620 VA: 0x180A50020 Slot: 25
 	public override Quaternion GetNetworkRotation() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4FA60 Offset: 0xA4E060 VA: 0x180A4FA60 Slot: 145
+	// RVA: 0xA4FF30 Offset: 0xA4E530 VA: 0x180A4FF30 Slot: 145
 	public virtual void Eat(Vector3 position) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4F490 Offset: 0xA4DA90 VA: 0x180A4F490 Slot: 146
+	// RVA: 0xA4F960 Offset: 0xA4DF60 VA: 0x180A4F960 Slot: 146
 	public virtual void Attack(Vector3 position) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA50B50 Offset: 0xA4F150 VA: 0x180A50B50 Slot: 147
+	// RVA: 0xA51020 Offset: 0xA4F620 VA: 0x180A51020 Slot: 147
 	public virtual void Startled(Vector3 position) { }
 
-	// RVA: 0xA4FBA0 Offset: 0xA4E1A0 VA: 0x180A4FBA0
+	// RVA: 0xA50070 Offset: 0xA4E670 VA: 0x180A50070
 	public bool HasAiFlag(BaseNpc.AiFlags f) { }
 
-	// RVA: 0xA50AF0 Offset: 0xA4F0F0 VA: 0x180A50AF0
+	// RVA: 0xA50FC0 Offset: 0xA4F5C0 VA: 0x180A50FC0
 	public void SetAiFlag(BaseNpc.AiFlags f, bool set) { }
 
-	// RVA: 0xA51750 Offset: 0xA4FD50 VA: 0x180A51750
+	// RVA: 0xA51C20 Offset: 0xA50220 VA: 0x180A51C20
 	public bool get_IsSitting() { }
 
-	// RVA: 0xA517F0 Offset: 0xA4FDF0 VA: 0x180A517F0
+	// RVA: 0xA51CC0 Offset: 0xA502C0 VA: 0x180A51CC0
 	public void set_IsSitting(bool value) { }
 
-	// RVA: 0xA51740 Offset: 0xA4FD40 VA: 0x180A51740
+	// RVA: 0xA51C10 Offset: 0xA50210 VA: 0x180A51C10
 	public bool get_IsChasing() { }
 
-	// RVA: 0xA517D0 Offset: 0xA4FDD0 VA: 0x180A517D0
+	// RVA: 0xA51CA0 Offset: 0xA502A0 VA: 0x180A51CA0
 	public void set_IsChasing(bool value) { }
 
-	// RVA: 0xA51760 Offset: 0xA4FD60 VA: 0x180A51760
+	// RVA: 0xA51C30 Offset: 0xA50230 VA: 0x180A51C30
 	public bool get_IsSleeping() { }
 
-	// RVA: 0xA51810 Offset: 0xA4FE10 VA: 0x180A51810
+	// RVA: 0xA51CE0 Offset: 0xA502E0 VA: 0x180A51CE0
 	public void set_IsSleeping(bool value) { }
 
-	// RVA: 0xA51030 Offset: 0xA4F630 VA: 0x180A51030
+	// RVA: 0xA51500 Offset: 0xA4FB00 VA: 0x180A51500
 	public static void UpdateNpcVisibilities() { }
 
-	// RVA: 0xA50BB0 Offset: 0xA4F1B0 VA: 0x180A50BB0
+	// RVA: 0xA51080 Offset: 0xA4F680 VA: 0x180A51080
 	private float TimeSinceSeen() { }
 
-	// RVA: 0xA50B20 Offset: 0xA4F120 VA: 0x180A50B20
+	// RVA: 0xA50FF0 Offset: 0xA4F5F0 VA: 0x180A50FF0
 	private void SetNextVisThink(float addTime) { }
 
-	// RVA: 0xA51640 Offset: 0xA4FC40 VA: 0x180A51640
+	// RVA: 0xA51B10 Offset: 0xA50110 VA: 0x180A51B10
 	private bool WantsVisUpdate() { }
 
-	// RVA: 0xA50C70 Offset: 0xA4F270 VA: 0x180A50C70 Slot: 90
+	// RVA: 0xA51140 Offset: 0xA4F740 VA: 0x180A51140 Slot: 90
 	protected override void UpdateCullingSpheres() { }
 
-	// RVA: 0xA51150 Offset: 0xA4F750 VA: 0x180A51150
+	// RVA: 0xA51620 Offset: 0xA4FC20 VA: 0x180A51620
 	private void VisUpdateUsingCulling(float dist, bool visibility) { }
 
-	// RVA: 0xA50770 Offset: 0xA4ED70 VA: 0x180A50770 Slot: 92
+	// RVA: 0xA50C40 Offset: 0xA4F240 VA: 0x180A50C40 Slot: 92
 	protected override void OnVisibilityChanged(bool visible) { }
 
-	// RVA: 0xA51250 Offset: 0xA4F850 VA: 0x180A51250
+	// RVA: 0xA51720 Offset: 0xA4FD20 VA: 0x180A51720
 	private void VisUpdate() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 98
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 98
 	public override bool get_IsNpc() { }
 
-	// RVA: 0x9244A0 Offset: 0x922AA0 VA: 0x1809244A0 Slot: 112
+	// RVA: 0x9249B0 Offset: 0x922FB0 VA: 0x1809249B0 Slot: 112
 	public override float MaxVelocity() { }
 
-	// RVA: 0xA516C0 Offset: 0xA4FCC0 VA: 0x180A516C0
+	// RVA: 0xA51B90 Offset: 0xA50190 VA: 0x180A51B90
 	public void .ctor() { }
 
-	// RVA: 0xA51660 Offset: 0xA4FC60 VA: 0x180A51660
+	// RVA: 0xA51B30 Offset: 0xA50130 VA: 0x180A51B30
 	private static void .cctor() { }
 
 }

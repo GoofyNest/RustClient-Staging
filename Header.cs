@@ -43,73 +43,73 @@ public class Header // TypeDefIndex: 7392
 
 	// Methods
 
-	// RVA: 0x5E2F10 Offset: 0x5E1510 VA: 0x1805E2F10
+	// RVA: 0x5E2EA0 Offset: 0x5E14A0 VA: 0x1805E2EA0
 	internal void .ctor() { }
 
-	// RVA: 0x5DE2D0 Offset: 0x5DC8D0 VA: 0x1805DE2D0
+	// RVA: 0x5DE260 Offset: 0x5DC860 VA: 0x1805DE260
 	private void InitBlock() { }
 
-	// RVA: 0x5DE530 Offset: 0x5DCB30 VA: 0x1805DE530 Slot: 3
+	// RVA: 0x5DE4C0 Offset: 0x5DCAC0 VA: 0x1805DE4C0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x5E2F60 Offset: 0x5E1560 VA: 0x1805E2F60
+	// RVA: 0x5E2EF0 Offset: 0x5E14F0 VA: 0x1805E2EF0
 	internal void read_header(Bitstream stream, Crc16[] crcp) { }
 
-	// RVA: 0x5DE920 Offset: 0x5DCF20 VA: 0x1805DE920
+	// RVA: 0x5DE8B0 Offset: 0x5DCEB0 VA: 0x1805DE8B0
 	internal int Version() { }
 
-	// RVA: 0x5DE3B0 Offset: 0x5DC9B0 VA: 0x1805DE3B0
+	// RVA: 0x5DE340 Offset: 0x5DC940 VA: 0x1805DE340
 	internal int Layer() { }
 
-	// RVA: 0x5E2F40 Offset: 0x5E1540 VA: 0x1805E2F40
+	// RVA: 0x5E2ED0 Offset: 0x5E14D0 VA: 0x1805E2ED0
 	internal int bitrate_index() { }
 
-	// RVA: 0x599D40 Offset: 0x598340 VA: 0x180599D40
+	// RVA: 0x599CD0 Offset: 0x5982D0 VA: 0x180599CD0
 	internal int sample_frequency() { }
 
-	// RVA: 0x5DE220 Offset: 0x5DC820 VA: 0x1805DE220
+	// RVA: 0x5DE1B0 Offset: 0x5DC7B0 VA: 0x1805DE1B0
 	internal int Frequency() { }
 
-	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
+	// RVA: 0x5DE3D0 Offset: 0x5DC9D0 VA: 0x1805DE3D0
 	internal int Mode() { }
 
-	// RVA: 0x5DE330 Offset: 0x5DC930 VA: 0x1805DE330
+	// RVA: 0x5DE2C0 Offset: 0x5DC8C0 VA: 0x1805DE2C0
 	internal bool IsProtection() { }
 
-	// RVA: 0x5DE2E0 Offset: 0x5DC8E0 VA: 0x1805DE2E0
+	// RVA: 0x5DE270 Offset: 0x5DC870 VA: 0x1805DE270
 	internal bool IsChecksumOK() { }
 
-	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0
+	// RVA: 0x57C960 Offset: 0x57AF60 VA: 0x18057C960
 	internal int Slots() { }
 
-	// RVA: 0x5E2F50 Offset: 0x5E1550 VA: 0x1805E2F50
+	// RVA: 0x5E2EE0 Offset: 0x5E14E0 VA: 0x1805E2EE0
 	internal int mode_extension() { }
 
-	// RVA: 0x5DDF10 Offset: 0x5DC510 VA: 0x1805DDF10
+	// RVA: 0x5DDEA0 Offset: 0x5DC4A0 VA: 0x1805DDEA0
 	internal int CalculateFrameSize() { }
 
-	// RVA: 0x5DE340 Offset: 0x5DC940 VA: 0x1805DE340
+	// RVA: 0x5DE2D0 Offset: 0x5DC8D0 VA: 0x1805DE2D0
 	internal string LayerAsString() { }
 
-	// RVA: 0x5DDE40 Offset: 0x5DC440 VA: 0x1805DDE40
+	// RVA: 0x5DDDD0 Offset: 0x5DC3D0 VA: 0x1805DDDD0
 	internal string BitrateAsString() { }
 
-	// RVA: 0x5DE460 Offset: 0x5DCA60 VA: 0x1805DE460
+	// RVA: 0x5DE3F0 Offset: 0x5DC9F0 VA: 0x1805DE3F0
 	internal string SampleFrequencyAsString() { }
 
-	// RVA: 0x5DE3C0 Offset: 0x5DC9C0 VA: 0x1805DE3C0
+	// RVA: 0x5DE350 Offset: 0x5DC950 VA: 0x1805DE350
 	internal string ModeAsString() { }
 
-	// RVA: 0x5DE8B0 Offset: 0x5DCEB0 VA: 0x1805DE8B0
+	// RVA: 0x5DE840 Offset: 0x5DCE40 VA: 0x1805DE840
 	internal string VersionAsString() { }
 
-	// RVA: 0x5DE450 Offset: 0x5DCA50 VA: 0x1805DE450
+	// RVA: 0x5DE3E0 Offset: 0x5DC9E0 VA: 0x1805DE3E0
 	internal int NumberSubbands() { }
 
-	// RVA: 0x598420 Offset: 0x596A20 VA: 0x180598420
+	// RVA: 0x5983B0 Offset: 0x5969B0 VA: 0x1805983B0
 	internal int IntensityStereoBound() { }
 
-	// RVA: 0x5DE930 Offset: 0x5DCF30 VA: 0x1805DE930
+	// RVA: 0x5DE8C0 Offset: 0x5DCEC0 VA: 0x1805DE8C0
 	private static void .cctor() { }
 
 }

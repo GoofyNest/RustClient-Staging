@@ -11,22 +11,22 @@ internal class Bootstring // TypeDefIndex: 744
 
 	// Methods
 
-	// RVA: 0x10CF8E0 Offset: 0x10CDEE0 VA: 0x1810CF8E0
+	// RVA: 0x10D0350 Offset: 0x10CE950 VA: 0x1810D0350
 	public void .ctor(char delimiter, int baseNum, int tmin, int tmax, int skew, int damp, int initialBias, int initialN) { }
 
-	// RVA: 0x10CF4E0 Offset: 0x10CDAE0 VA: 0x1810CF4E0
+	// RVA: 0x10CFF50 Offset: 0x10CE550 VA: 0x1810CFF50
 	public string Encode(string s, int offset) { }
 
-	// RVA: 0x10CF4C0 Offset: 0x10CDAC0 VA: 0x1810CF4C0
+	// RVA: 0x10CFF30 Offset: 0x10CE530 VA: 0x1810CFF30
 	private char EncodeDigit(int d) { }
 
-	// RVA: 0x10CF1B0 Offset: 0x10CD7B0 VA: 0x1810CF1B0
+	// RVA: 0x10CFC20 Offset: 0x10CE220 VA: 0x1810CFC20
 	private int DecodeDigit(char c) { }
 
-	// RVA: 0x10CF140 Offset: 0x10CD740 VA: 0x1810CF140
+	// RVA: 0x10CFBB0 Offset: 0x10CE1B0 VA: 0x1810CFBB0
 	private int Adapt(int delta, int numPoints, bool firstTime) { }
 
-	// RVA: 0x10CF1E0 Offset: 0x10CD7E0 VA: 0x1810CF1E0
+	// RVA: 0x10CFC50 Offset: 0x10CE250 VA: 0x1810CFC50
 	public string Decode(string s, int offset) { }
 
 }

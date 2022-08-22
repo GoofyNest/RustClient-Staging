@@ -9,20 +9,20 @@ public class MonumentBenchmarkScene : BenchmarkScene // TypeDefIndex: 8257
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 4
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 4
 	public override bool get_SubmitsOwnResults() { }
 
-	// RVA: 0x77B200 Offset: 0x779800 VA: 0x18077B200 Slot: 7
+	// RVA: 0x77B150 Offset: 0x779750 VA: 0x18077B150 Slot: 7
 	public override void StartBenchmark() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xA2780 Offset: 0xA1B80 VA: 0x1800A2780
-	// RVA: 0x77B180 Offset: 0x779780 VA: 0x18077B180
+	// RVA: 0x77B0D0 Offset: 0x7796D0 VA: 0x18077B0D0
 	private IEnumerator DoMonumentBenchmark() { }
 
-	// RVA: 0x77B1F0 Offset: 0x7797F0 VA: 0x18077B1F0 Slot: 5
+	// RVA: 0x77B140 Offset: 0x779740 VA: 0x18077B140 Slot: 5
 	public override bool ShouldEnd() { }
 
-	// RVA: 0x77B280 Offset: 0x779880 VA: 0x18077B280
+	// RVA: 0x77B1D0 Offset: 0x7797D0 VA: 0x18077B1D0
 	public void .ctor() { }
 
 }
@@ -58,7 +58,7 @@ private sealed class MonumentBenchmarkScene.<DoMonumentBenchmark>d__6 : IEnumera
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x77EBD0 Offset: 0x77D1D0 VA: 0x18077EBD0 Slot: 6
+	// RVA: 0x77EB20 Offset: 0x77D120 VA: 0x18077EB20 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -66,7 +66,7 @@ private sealed class MonumentBenchmarkScene.<DoMonumentBenchmark>d__6 : IEnumera
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x77F580 Offset: 0x77DB80 VA: 0x18077F580 Slot: 8
+	// RVA: 0x77F4D0 Offset: 0x77DAD0 VA: 0x18077F4D0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

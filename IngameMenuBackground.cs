@@ -5,7 +5,7 @@ public class IngameMenuBackground : MonoBehaviour // TypeDefIndex: 10979
 
 	// Methods
 
-	// RVA: 0x813A00 Offset: 0x812000 VA: 0x180813A00
+	// RVA: 0x813F90 Offset: 0x812590 VA: 0x180813F90
 	private void LateUpdate() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

@@ -8,13 +8,13 @@ public class EnvSync : PointEntity // TypeDefIndex: 9587
 
 	// Methods
 
-	// RVA: 0x8C66E0 Offset: 0x8C4CE0 VA: 0x1808C66E0 Slot: 34
+	// RVA: 0x8C6BF0 Offset: 0x8C51F0 VA: 0x1808C6BF0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x8C6890 Offset: 0x8C4E90 VA: 0x1808C6890
+	// RVA: 0x8C6DA0 Offset: 0x8C53A0 VA: 0x1808C6DA0
 	protected void Update() { }
 
-	// RVA: 0x8C6CD0 Offset: 0x8C52D0 VA: 0x1808C6CD0
+	// RVA: 0x8C71E0 Offset: 0x8C57E0 VA: 0x1808C71E0
 	public void .ctor() { }
 
 }

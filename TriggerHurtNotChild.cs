@@ -16,7 +16,7 @@ public class TriggerHurtNotChild : TriggerBase, IServerComponent, IHurtTrigger /
 
 	// Methods
 
-	// RVA: 0xA21850 Offset: 0xA1FE50 VA: 0x180A21850
+	// RVA: 0xA21D40 Offset: 0xA20340 VA: 0x180A21D40
 	public void .ctor() { }
 
 }

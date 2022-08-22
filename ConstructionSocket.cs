@@ -12,31 +12,31 @@ public class ConstructionSocket : Socket_Base // TypeDefIndex: 9060
 
 	// Methods
 
-	// RVA: 0x6B2DB0 Offset: 0x6B13B0 VA: 0x1806B2DB0
+	// RVA: 0x6B2D40 Offset: 0x6B1340 VA: 0x1806B2D40
 	private void OnDrawGizmos() { }
 
-	// RVA: 0x6B2CF0 Offset: 0x6B12F0 VA: 0x1806B2CF0
+	// RVA: 0x6B2C80 Offset: 0x6B1280 VA: 0x1806B2C80
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0x6B3220 Offset: 0x6B1820 VA: 0x1806B3220 Slot: 8
+	// RVA: 0x6B31B0 Offset: 0x6B17B0 VA: 0x1806B31B0 Slot: 8
 	public override bool TestTarget(Construction.Target target) { }
 
-	// RVA: 0x6B2BF0 Offset: 0x6B11F0 VA: 0x1806B2BF0 Slot: 9
+	// RVA: 0x6B2B80 Offset: 0x6B1180 VA: 0x1806B2B80 Slot: 9
 	public override bool IsCompatible(Socket_Base socket) { }
 
-	// RVA: 0x6B1730 Offset: 0x6AFD30 VA: 0x1806B1730 Slot: 10
+	// RVA: 0x6B16C0 Offset: 0x6AFCC0 VA: 0x1806B16C0 Slot: 10
 	public override bool CanConnect(Vector3 position, Quaternion rotation, Socket_Base socket, Vector3 socketPosition, Quaternion socketRotation) { }
 
-	// RVA: 0x6B3060 Offset: 0x6B1660 VA: 0x1806B3060
+	// RVA: 0x6B2FF0 Offset: 0x6B15F0 VA: 0x1806B2FF0
 	public bool TestRestrictedAngles(Vector3 suggestedPos, Quaternion suggestedAng, Construction.Target target) { }
 
-	// RVA: 0x6B1CF0 Offset: 0x6B02F0 VA: 0x1806B1CF0 Slot: 11
+	// RVA: 0x6B1C80 Offset: 0x6B0280 VA: 0x1806B1C80 Slot: 11
 	public override Construction.Placement DoPlacement(Construction.Target target) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 13
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 13
 	protected virtual bool CanConnectToEntity(Construction.Target target) { }
 
-	// RVA: 0x6B32D0 Offset: 0x6B18D0 VA: 0x1806B32D0
+	// RVA: 0x6B3260 Offset: 0x6B1860 VA: 0x1806B3260
 	public void .ctor() { }
 
 }
@@ -72,13 +72,13 @@ public class ConstructionSocket_Elevator : ConstructionSocket // TypeDefIndex: 9
 
 	// Methods
 
-	// RVA: 0x6B26E0 Offset: 0x6B0CE0 VA: 0x1806B26E0 Slot: 13
+	// RVA: 0x6B2670 Offset: 0x6B0C70 VA: 0x1806B2670 Slot: 13
 	protected override bool CanConnectToEntity(Construction.Target target) { }
 
-	// RVA: 0x6B2900 Offset: 0x6B0F00 VA: 0x1806B2900 Slot: 10
+	// RVA: 0x6B2890 Offset: 0x6B0E90 VA: 0x1806B2890 Slot: 10
 	public override bool CanConnect(Vector3 position, Quaternion rotation, Socket_Base socket, Vector3 socketPosition, Quaternion socketRotation) { }
 
-	// RVA: 0x6B2BC0 Offset: 0x6B11C0 VA: 0x1806B2BC0
+	// RVA: 0x6B2B50 Offset: 0x6B1150 VA: 0x1806B2B50
 	public void .ctor() { }
 
 }

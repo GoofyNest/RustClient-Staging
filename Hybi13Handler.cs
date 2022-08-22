@@ -13,66 +13,66 @@ internal class Hybi13Handler : IHandler, IDisposable // TypeDefIndex: 6935
 
 	// Methods
 
-	// RVA: 0x22075E0 Offset: 0x2205BE0 VA: 0x1822075E0
+	// RVA: 0x2207E00 Offset: 0x2206400 VA: 0x182207E00
 	public void .ctor(WebSocketHttpRequest request, IWebSocketConnection connection) { }
 
-	// RVA: 0x2206120 Offset: 0x2204720 VA: 0x182206120 Slot: 8
+	// RVA: 0x2206940 Offset: 0x2204F40 VA: 0x182206940 Slot: 8
 	public void Dispose() { }
 
-	// RVA: 0x22073C0 Offset: 0x22059C0 VA: 0x1822073C0 Slot: 4
+	// RVA: 0x2207BE0 Offset: 0x22061E0 VA: 0x182207BE0 Slot: 4
 	public void Receive(Span<byte> newData) { }
 
-	// RVA: 0x2205DE0 Offset: 0x22043E0 VA: 0x182205DE0 Slot: 5
+	// RVA: 0x2206600 Offset: 0x2204C00 VA: 0x182206600 Slot: 5
 	public MemoryBuffer CreateHandshake() { }
 
-	// RVA: 0x2206690 Offset: 0x2204C90 VA: 0x182206690 Slot: 6
+	// RVA: 0x2206EB0 Offset: 0x22054B0 VA: 0x182206EB0 Slot: 6
 	public MemoryBuffer FrameText(string text) { }
 
-	// RVA: 0x22068F0 Offset: 0x2204EF0 VA: 0x1822068F0 Slot: 9
+	// RVA: 0x2207110 Offset: 0x2205710 VA: 0x182207110 Slot: 9
 	public MemoryBuffer FrameText(MemoryBuffer utf8StringBytes) { }
 
-	// RVA: 0x22061F0 Offset: 0x22047F0 VA: 0x1822061F0 Slot: 7
+	// RVA: 0x2206A10 Offset: 0x2205010 VA: 0x182206A10 Slot: 7
 	public MemoryBuffer FrameClose(ushort code) { }
 
-	// RVA: 0x2206590 Offset: 0x2204B90 VA: 0x182206590
+	// RVA: 0x2206DB0 Offset: 0x22053B0 VA: 0x182206DB0
 	private static MemoryBuffer FrameData(MemoryBuffer payload, FrameType frameType) { }
 
-	// RVA: 0x22063E0 Offset: 0x22049E0 VA: 0x1822063E0
+	// RVA: 0x2206C00 Offset: 0x2205200 VA: 0x182206C00
 	private static MemoryBuffer FrameData(Span<byte> payload, FrameType frameType) { }
 
-	// RVA: 0x2206F30 Offset: 0x2205530 VA: 0x182206F30
+	// RVA: 0x2207750 Offset: 0x2205D50 VA: 0x182207750
 	private void ReceiveData() { }
 
-	// RVA: 0x2206AB0 Offset: 0x22050B0 VA: 0x182206AB0
+	// RVA: 0x22072D0 Offset: 0x22058D0 VA: 0x1822072D0
 	private void ProcessFrame(FrameType frameType, ArraySegment<byte> buffer) { }
 
-	// RVA: 0x2205DD0 Offset: 0x22043D0 VA: 0x182205DD0
+	// RVA: 0x22065F0 Offset: 0x2204BF0 VA: 0x1822065F0
 	private void Clear() { }
 
-	// RVA: 0x2206040 Offset: 0x2204640 VA: 0x182206040
+	// RVA: 0x2206860 Offset: 0x2204E60 VA: 0x182206860
 	internal static string CreateResponseKey(string requestKey) { }
 
-	// RVA: 0x2206E60 Offset: 0x2205460 VA: 0x182206E60
+	// RVA: 0x2207680 Offset: 0x2205C80 VA: 0x182207680
 	internal static string ReadUTF8PayloadData(ArraySegment<byte> bytes) { }
 
-	// RVA: 0x22074B0 Offset: 0x2205AB0 VA: 0x1822074B0
+	// RVA: 0x2207CD0 Offset: 0x22062D0 VA: 0x182207CD0
 	private static void .cctor() { }
 
 }
 
 private sealed class Hybi13Handler.<>c // TypeDefIndex: 6936
 {	// Fields
-	public static readonly Hybi13Handler.<>c <>9; // 0x3903
+	public static readonly Hybi13Handler.<>c <>9; // 0x36F0
 
 	// Methods
 
-	// RVA: 0x2209B20 Offset: 0x2208120 VA: 0x182209B20
+	// RVA: 0x220A340 Offset: 0x2208940 VA: 0x18220A340
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2209170 Offset: 0x2207770 VA: 0x182209170
+	// RVA: 0x2209990 Offset: 0x2207F90 VA: 0x182209990
 	internal StringBuilder <.cctor>b__28_0() { }
 
 }

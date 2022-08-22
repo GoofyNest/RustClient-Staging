@@ -4,13 +4,13 @@ public class MapMarkerMLRSRocket : MapMarker // TypeDefIndex: 9729
 
 	// Methods
 
-	// RVA: 0x5679D0 Offset: 0x565FD0 VA: 0x1805679D0 Slot: 131
+	// RVA: 0x567960 Offset: 0x565F60 VA: 0x180567960 Slot: 131
 	public override void SetupUIMarker(GameObject marker) { }
 
-	// RVA: 0x567BB0 Offset: 0x5661B0 VA: 0x180567BB0
+	// RVA: 0x567B40 Offset: 0x566140 VA: 0x180567B40
 	public void Update() { }
 
-	// RVA: 0x567D40 Offset: 0x566340 VA: 0x180567D40
+	// RVA: 0x567CD0 Offset: 0x5662D0 VA: 0x180567CD0
 	public void .ctor() { }
 
 }

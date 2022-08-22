@@ -17,34 +17,34 @@ public class DiamondGraph : UIPrimitiveBase // TypeDefIndex: 11715
 
 	// Methods
 
-	// RVA: 0x11D5B10 Offset: 0x11D4110 VA: 0x1811D5B10
+	// RVA: 0x11D61B0 Offset: 0x11D47B0 VA: 0x1811D61B0
 	public float get_A() { }
 
-	// RVA: 0x11D5B30 Offset: 0x11D4130 VA: 0x1811D5B30
+	// RVA: 0x11D61D0 Offset: 0x11D47D0 VA: 0x1811D61D0
 	public void set_A(float value) { }
 
-	// RVA: 0xDA05D0 Offset: 0xD9EBD0 VA: 0x180DA05D0
+	// RVA: 0xDA1080 Offset: 0xD9F680 VA: 0x180DA1080
 	public float get_B() { }
 
-	// RVA: 0xDA08C0 Offset: 0xD9EEC0 VA: 0x180DA08C0
+	// RVA: 0xDA1370 Offset: 0xD9F970 VA: 0x180DA1370
 	public void set_B(float value) { }
 
-	// RVA: 0x112C3A0 Offset: 0x112A9A0 VA: 0x18112C3A0
+	// RVA: 0x112CE10 Offset: 0x112B410 VA: 0x18112CE10
 	public float get_C() { }
 
-	// RVA: 0x11D5B40 Offset: 0x11D4140 VA: 0x1811D5B40
+	// RVA: 0x11D61E0 Offset: 0x11D47E0 VA: 0x1811D61E0
 	public void set_C(float value) { }
 
-	// RVA: 0x11D5B20 Offset: 0x11D4120 VA: 0x1811D5B20
+	// RVA: 0x11D61C0 Offset: 0x11D47C0 VA: 0x1811D61C0
 	public float get_D() { }
 
-	// RVA: 0x11D5B50 Offset: 0x11D4150 VA: 0x1811D5B50
+	// RVA: 0x11D61F0 Offset: 0x11D47F0 VA: 0x1811D61F0
 	public void set_D(float value) { }
 
-	// RVA: 0x11D56E0 Offset: 0x11D3CE0 VA: 0x1811D56E0 Slot: 44
+	// RVA: 0x11D5D80 Offset: 0x11D4380 VA: 0x1811D5D80 Slot: 44
 	protected override void OnPopulateMesh(VertexHelper vh) { }
 
-	// RVA: 0x11D5A90 Offset: 0x11D4090 VA: 0x1811D5A90
+	// RVA: 0x11D6130 Offset: 0x11D4730 VA: 0x1811D6130
 	public void .ctor() { }
 
 }

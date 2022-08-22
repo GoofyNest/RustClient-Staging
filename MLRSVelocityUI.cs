@@ -8,13 +8,13 @@ public class MLRSVelocityUI : MonoBehaviour // TypeDefIndex: 9728
 
 	// Methods
 
-	// RVA: 0x5546C0 Offset: 0x552CC0 VA: 0x1805546C0
+	// RVA: 0x554650 Offset: 0x552C50 VA: 0x180554650
 	protected void OnEnable() { }
 
-	// RVA: 0x5547A0 Offset: 0x552DA0 VA: 0x1805547A0
+	// RVA: 0x554730 Offset: 0x552D30 VA: 0x180554730
 	public void SetVelocity(float curVel, float maxVel) { }
 
-	// RVA: 0x554880 Offset: 0x552E80 VA: 0x180554880
+	// RVA: 0x554810 Offset: 0x552E10 VA: 0x180554810
 	public void .ctor() { }
 
 }

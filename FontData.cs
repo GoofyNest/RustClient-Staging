@@ -47,85 +47,85 @@ public class FontData : ISerializationCallbackReceiver // TypeDefIndex: 4928
 
 	// Methods
 
-	// RVA: 0x15EAAC0 Offset: 0x15E90C0 VA: 0x1815EAAC0
+	// RVA: 0x15D7DE0 Offset: 0x15D63E0 VA: 0x1815D7DE0
 	public static FontData get_defaultFontData() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Font get_font() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_font(Font value) { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public int get_fontSize() { }
 
-	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
+	// RVA: 0x79C6B0 Offset: 0x79ACB0 VA: 0x18079C6B0
 	public void set_fontSize(int value) { }
 
-	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
+	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0
 	public FontStyle get_fontStyle() { }
 
-	// RVA: 0x95FB00 Offset: 0x95E100 VA: 0x18095FB00
+	// RVA: 0x960000 Offset: 0x95E600 VA: 0x180960000
 	public void set_fontStyle(FontStyle value) { }
 
-	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
+	// RVA: 0xB10B80 Offset: 0xB0F180 VA: 0x180B10B80
 	public bool get_bestFit() { }
 
-	// RVA: 0x7F9BF0 Offset: 0x7F81F0 VA: 0x1807F9BF0
+	// RVA: 0x7FA180 Offset: 0x7F8780 VA: 0x1807FA180
 	public void set_bestFit(bool value) { }
 
-	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
+	// RVA: 0x79C630 Offset: 0x79AC30 VA: 0x18079C630
 	public int get_minSize() { }
 
-	// RVA: 0x7D0D70 Offset: 0x7CF370 VA: 0x1807D0D70
+	// RVA: 0x79C690 Offset: 0x79AC90 VA: 0x18079C690
 	public void set_minSize(int value) { }
 
-	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
+	// RVA: 0x4BE590 Offset: 0x4BCB90 VA: 0x1804BE590
 	public int get_maxSize() { }
 
-	// RVA: 0x7D0D60 Offset: 0x7CF360 VA: 0x1807D0D60
+	// RVA: 0x79C680 Offset: 0x79AC80 VA: 0x18079C680
 	public void set_maxSize(int value) { }
 
-	// RVA: 0x5DE3B0 Offset: 0x5DC9B0 VA: 0x1805DE3B0
+	// RVA: 0x5DE340 Offset: 0x5DC940 VA: 0x1805DE340
 	public TextAnchor get_alignment() { }
 
-	// RVA: 0x10B82E0 Offset: 0x10B68E0 VA: 0x1810B82E0
+	// RVA: 0x10B8D50 Offset: 0x10B7350 VA: 0x1810B8D50
 	public void set_alignment(TextAnchor value) { }
 
-	// RVA: 0x82BDA0 Offset: 0x82A3A0 VA: 0x18082BDA0
+	// RVA: 0x82C2F0 Offset: 0x82A8F0 VA: 0x18082C2F0
 	public bool get_alignByGeometry() { }
 
-	// RVA: 0x82BDD0 Offset: 0x82A3D0 VA: 0x18082BDD0
+	// RVA: 0x82C320 Offset: 0x82A920 VA: 0x18082C320
 	public void set_alignByGeometry(bool value) { }
 
-	// RVA: 0xFFB570 Offset: 0xFF9B70 VA: 0x180FFB570
+	// RVA: 0xFFC010 Offset: 0xFFA610 VA: 0x180FFC010
 	public bool get_richText() { }
 
-	// RVA: 0x15EAB40 Offset: 0x15E9140 VA: 0x1815EAB40
+	// RVA: 0x15D7E60 Offset: 0x15D6460 VA: 0x1815D7E60
 	public void set_richText(bool value) { }
 
-	// RVA: 0x5E2F40 Offset: 0x5E1540 VA: 0x1805E2F40
+	// RVA: 0x5E2ED0 Offset: 0x5E14D0 VA: 0x1805E2ED0
 	public HorizontalWrapMode get_horizontalOverflow() { }
 
-	// RVA: 0xD73FD0 Offset: 0xD725D0 VA: 0x180D73FD0
+	// RVA: 0xD74A80 Offset: 0xD73080 VA: 0x180D74A80
 	public void set_horizontalOverflow(HorizontalWrapMode value) { }
 
-	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50
+	// RVA: 0x6BB9E0 Offset: 0x6B9FE0 VA: 0x1806BB9E0
 	public VerticalWrapMode get_verticalOverflow() { }
 
-	// RVA: 0xC74BD0 Offset: 0xC731D0 VA: 0x180C74BD0
+	// RVA: 0xC75070 Offset: 0xC73670 VA: 0x180C75070
 	public void set_verticalOverflow(VerticalWrapMode value) { }
 
-	// RVA: 0xA21B80 Offset: 0xA20180 VA: 0x180A21B80
+	// RVA: 0xA22070 Offset: 0xA20670 VA: 0x180A22070
 	public float get_lineSpacing() { }
 
-	// RVA: 0x522390 Offset: 0x520990 VA: 0x180522390
+	// RVA: 0x522320 Offset: 0x520920 VA: 0x180522320
 	public void set_lineSpacing(float value) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4
 	private void UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize() { }
 
-	// RVA: 0x15EAA20 Offset: 0x15E9020 VA: 0x1815EAA20 Slot: 5
+	// RVA: 0x15D7D40 Offset: 0x15D6340 VA: 0x1815D7D40 Slot: 5
 	private void UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

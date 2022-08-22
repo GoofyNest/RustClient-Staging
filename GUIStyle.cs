@@ -52,261 +52,261 @@ public sealed class GUIStyle // TypeDefIndex: 4048
 
 	// Methods
 
-	// RVA: 0x1A7BFF0 Offset: 0x1A7A5F0 VA: 0x181A7BFF0
+	// RVA: 0x1A68520 Offset: 0x1A66B20 VA: 0x181A68520
 	internal string get_rawName() { }
 
-	// RVA: 0x1A7C3C0 Offset: 0x1A7A9C0 VA: 0x181A7C3C0
+	// RVA: 0x1A688F0 Offset: 0x1A66EF0 VA: 0x181A688F0
 	internal void set_rawName(string value) { }
 
-	// RVA: 0x1A7BAE0 Offset: 0x1A7A0E0 VA: 0x181A7BAE0
+	// RVA: 0x1A68010 Offset: 0x1A66610 VA: 0x181A68010
 	public Font get_font() { }
 
-	// RVA: 0x1A7BB20 Offset: 0x1A7A120 VA: 0x181A7BB20
+	// RVA: 0x1A68050 Offset: 0x1A66650 VA: 0x181A68050
 	public ImagePosition get_imagePosition() { }
 
-	// RVA: 0x1A7C260 Offset: 0x1A7A860 VA: 0x181A7C260
+	// RVA: 0x1A68790 Offset: 0x1A66D90 VA: 0x181A68790
 	public void set_alignment(TextAnchor value) { }
 
-	// RVA: 0x1A7C0B0 Offset: 0x1A7A6B0 VA: 0x181A7C0B0
+	// RVA: 0x1A685E0 Offset: 0x1A66BE0 VA: 0x181A685E0
 	public bool get_wordWrap() { }
 
-	// RVA: 0x1A7BA10 Offset: 0x1A7A010 VA: 0x181A7BA10
+	// RVA: 0x1A67F40 Offset: 0x1A66540 VA: 0x181A67F40
 	public Vector2 get_contentOffset() { }
 
-	// RVA: 0x1A7C2F0 Offset: 0x1A7A8F0 VA: 0x181A7C2F0
+	// RVA: 0x1A68820 Offset: 0x1A66E20 VA: 0x181A68820
 	public void set_contentOffset(Vector2 value) { }
 
-	// RVA: 0x1A7BAA0 Offset: 0x1A7A0A0 VA: 0x181A7BAA0
+	// RVA: 0x1A67FD0 Offset: 0x1A665D0 VA: 0x181A67FD0
 	public float get_fixedWidth() { }
 
-	// RVA: 0x1A7BA60 Offset: 0x1A7A060 VA: 0x181A7BA60
+	// RVA: 0x1A67F90 Offset: 0x1A66590 VA: 0x181A67F90
 	public float get_fixedHeight() { }
 
-	// RVA: 0x1A7C070 Offset: 0x1A7A670 VA: 0x181A7C070
+	// RVA: 0x1A685A0 Offset: 0x1A66BA0 VA: 0x181A685A0
 	public bool get_stretchWidth() { }
 
-	// RVA: 0x1A7C460 Offset: 0x1A7AA60 VA: 0x181A7C460
+	// RVA: 0x1A68990 Offset: 0x1A66F90 VA: 0x181A68990
 	public void set_stretchWidth(bool value) { }
 
-	// RVA: 0x1A7C030 Offset: 0x1A7A630 VA: 0x181A7C030
+	// RVA: 0x1A68560 Offset: 0x1A66B60 VA: 0x181A68560
 	public bool get_stretchHeight() { }
 
-	// RVA: 0x1A7C410 Offset: 0x1A7AA10 VA: 0x181A7C410
+	// RVA: 0x1A68940 Offset: 0x1A66F40 VA: 0x181A68940
 	public void set_stretchHeight(bool value) { }
 
-	// RVA: 0x1A7C330 Offset: 0x1A7A930 VA: 0x181A7C330
+	// RVA: 0x1A68860 Offset: 0x1A66E60 VA: 0x181A68860
 	public void set_fontSize(int value) { }
 
-	// RVA: 0x1A7C220 Offset: 0x1A7A820 VA: 0x181A7C220
+	// RVA: 0x1A68750 Offset: 0x1A66D50 VA: 0x181A68750
 	internal void set_Internal_clipOffset(Vector2 value) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD2250 Offset: 0xD1650 VA: 0x1800D2250
-	// RVA: 0x1A7AE20 Offset: 0x1A79420 VA: 0x181A7AE20
+	// RVA: 0x1A67350 Offset: 0x1A65950 VA: 0x181A67350
 	private static IntPtr Internal_Create(GUIStyle self) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD2370 Offset: 0xD1770 VA: 0x1800D2370
-	// RVA: 0x1A7ADD0 Offset: 0x1A793D0 VA: 0x181A7ADD0
+	// RVA: 0x1A67300 Offset: 0x1A65900 VA: 0x181A67300
 	private static IntPtr Internal_Copy(GUIStyle self, GUIStyle other) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD2430 Offset: 0xD1830 VA: 0x1800D2430
-	// RVA: 0x1A7AE60 Offset: 0x1A79460 VA: 0x181A7AE60
+	// RVA: 0x1A67390 Offset: 0x1A65990 VA: 0x181A67390
 	private static void Internal_Destroy(IntPtr self) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD25F0 Offset: 0xD19F0 VA: 0x1800D25F0
-	// RVA: 0x1A7AC00 Offset: 0x1A79200 VA: 0x181A7AC00
+	// RVA: 0x1A67130 Offset: 0x1A65730 VA: 0x181A67130
 	private IntPtr GetStyleStatePtr(int idx) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD26E0 Offset: 0xD1AE0 VA: 0x1800D26E0
-	// RVA: 0x1A7ABC0 Offset: 0x1A791C0 VA: 0x181A7ABC0
+	// RVA: 0x1A670F0 Offset: 0x1A656F0 VA: 0x181A670F0
 	private IntPtr GetRectOffsetPtr(int idx) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD27D0 Offset: 0xD1BD0 VA: 0x1800D27D0
-	// RVA: 0x1A7B4F0 Offset: 0x1A79AF0 VA: 0x181A7B4F0
+	// RVA: 0x1A67A20 Offset: 0x1A66020 VA: 0x181A67A20
 	private static float Internal_GetLineHeight(IntPtr target) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD29D0 Offset: 0xD1DD0 VA: 0x1800D29D0
-	// RVA: 0x1A7B270 Offset: 0x1A79870 VA: 0x181A7B270
+	// RVA: 0x1A677A0 Offset: 0x1A65DA0 VA: 0x181A677A0
 	private void Internal_Draw(Rect screenRect, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD3DC0 Offset: 0xD31C0 VA: 0x1800D3DC0
-	// RVA: 0x1A7AF10 Offset: 0x1A79510 VA: 0x181A7AF10
+	// RVA: 0x1A67440 Offset: 0x1A65A40 VA: 0x181A67440
 	private void Internal_Draw2(Rect position, GUIContent content, int controlID, bool on) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD3E90 Offset: 0xD3290 VA: 0x1800D3E90
-	// RVA: 0x1A7AFF0 Offset: 0x1A795F0 VA: 0x181A7AFF0
+	// RVA: 0x1A67520 Offset: 0x1A65B20 VA: 0x181A67520
 	private void Internal_DrawCursor(Rect position, GUIContent content, int pos, Color cursorColor) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD3FB0 Offset: 0xD33B0 VA: 0x1800D3FB0
-	// RVA: 0x1A7B110 Offset: 0x1A79710 VA: 0x181A7B110
+	// RVA: 0x1A67640 Offset: 0x1A65C40 VA: 0x181A67640
 	private void Internal_DrawWithTextSelection(Rect screenRect, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus, bool drawSelectionAsComposition, int cursorFirst, int cursorLast, Color cursorColor, Color selectionColor) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD53F0 Offset: 0xD47F0 VA: 0x1800D53F0
-	// RVA: 0x1A7B3A0 Offset: 0x1A799A0 VA: 0x181A7B3A0
+	// RVA: 0x1A678D0 Offset: 0x1A65ED0 VA: 0x181A678D0
 	internal Vector2 Internal_GetCursorPixelPosition(Rect position, GUIContent content, int cursorStringIndex) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD5510 Offset: 0xD4910 VA: 0x1800D5510
-	// RVA: 0x1A7B490 Offset: 0x1A79A90 VA: 0x181A7B490
+	// RVA: 0x1A679C0 Offset: 0x1A65FC0 VA: 0x181A679C0
 	internal int Internal_GetCursorStringIndex(Rect position, GUIContent content, Vector2 cursorPixelPosition) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD55A0 Offset: 0xD49A0 VA: 0x1800D55A0
-	// RVA: 0x1A7B5A0 Offset: 0x1A79BA0 VA: 0x181A7B5A0
+	// RVA: 0x1A67AD0 Offset: 0x1A660D0 VA: 0x181A67AD0
 	internal string Internal_GetSelectedRenderedText(Rect localPosition, GUIContent mContent, int selectIndex, int cursorIndex) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD5620 Offset: 0xD4A20 VA: 0x1800D5620
-	// RVA: 0x1A79B10 Offset: 0x1A78110 VA: 0x181A79B10
+	// RVA: 0x1A66040 Offset: 0x1A64640 VA: 0x181A66040
 	internal Vector2 Internal_CalcSize(GUIContent content) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD5790 Offset: 0xD4B90 VA: 0x1800D5790
-	// RVA: 0x1A79AB0 Offset: 0x1A780B0 VA: 0x181A79AB0
+	// RVA: 0x1A65FE0 Offset: 0x1A645E0 VA: 0x181A65FE0
 	internal Vector2 Internal_CalcSizeWithConstraints(GUIContent content, Vector2 maxSize) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD5820 Offset: 0xD4C20 VA: 0x1800D5820
-	// RVA: 0x1A799D0 Offset: 0x1A77FD0 VA: 0x181A799D0
+	// RVA: 0x1A65F00 Offset: 0x1A64500 VA: 0x181A65F00
 	private float Internal_CalcHeight(GUIContent content, float width) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD5860 Offset: 0xD4C60 VA: 0x1800D5860
-	// RVA: 0x1A7ACA0 Offset: 0x1A792A0 VA: 0x181A7ACA0
+	// RVA: 0x1A671D0 Offset: 0x1A657D0 VA: 0x181A671D0
 	private Vector2 Internal_CalcMinMaxWidth(GUIContent content) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD5A00 Offset: 0xD4E00 VA: 0x1800D5A00
-	// RVA: 0x1A7B6A0 Offset: 0x1A79CA0 VA: 0x181A7B6A0
+	// RVA: 0x1A67BD0 Offset: 0x1A661D0 VA: 0x181A67BD0
 	internal static void SetMouseTooltip(string tooltip, Rect screenRect) { }
 
 	[FreeFunctionAttribute] // RVA: 0xD5AD0 Offset: 0xD4ED0 VA: 0x1800D5AD0
-	// RVA: 0x1A7B300 Offset: 0x1A79900 VA: 0x181A7B300
+	// RVA: 0x1A67830 Offset: 0x1A65E30 VA: 0x181A67830
 	private static float Internal_GetCursorFlashOffset() { }
 
 	[FreeFunctionAttribute] // RVA: 0xD5BD0 Offset: 0xD4FD0 VA: 0x1800D5BD0
-	// RVA: 0x1A7B610 Offset: 0x1A79C10 VA: 0x181A7B610
+	// RVA: 0x1A67B40 Offset: 0x1A66140 VA: 0x181A67B40
 	internal static void SetDefaultFont(Font font) { }
 
-	// RVA: 0x1A7B940 Offset: 0x1A79F40 VA: 0x181A7B940
+	// RVA: 0x1A67E70 Offset: 0x1A66470 VA: 0x181A67E70
 	public void .ctor() { }
 
-	// RVA: 0x1A7B870 Offset: 0x1A79E70 VA: 0x181A7B870
+	// RVA: 0x1A67DA0 Offset: 0x1A663A0 VA: 0x181A67DA0
 	public void .ctor(GUIStyle other) { }
 
-	// RVA: 0x1A7A9E0 Offset: 0x1A78FE0 VA: 0x181A7A9E0 Slot: 1
+	// RVA: 0x1A66F10 Offset: 0x1A65510 VA: 0x181A66F10 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1A7BD60 Offset: 0x1A7A360 VA: 0x181A7BD60
+	// RVA: 0x1A68290 Offset: 0x1A66890 VA: 0x181A68290
 	public string get_name() { }
 
-	// RVA: 0x1A7C370 Offset: 0x1A7A970 VA: 0x181A7C370
+	// RVA: 0x1A688A0 Offset: 0x1A66EA0 VA: 0x181A688A0
 	public void set_name(string value) { }
 
-	// RVA: 0x1A7BE80 Offset: 0x1A7A480 VA: 0x181A7BE80
+	// RVA: 0x1A683B0 Offset: 0x1A669B0 VA: 0x181A683B0
 	public GUIStyleState get_normal() { }
 
-	// RVA: 0x1A7BCB0 Offset: 0x1A7A2B0 VA: 0x181A7BCB0
+	// RVA: 0x1A681E0 Offset: 0x1A667E0 VA: 0x181A681E0
 	public RectOffset get_margin() { }
 
-	// RVA: 0x1A7BF40 Offset: 0x1A7A540 VA: 0x181A7BF40
+	// RVA: 0x1A68470 Offset: 0x1A66A70 VA: 0x181A68470
 	public RectOffset get_padding() { }
 
-	// RVA: 0x1A7BC00 Offset: 0x1A7A200 VA: 0x181A7BC00
+	// RVA: 0x1A68130 Offset: 0x1A66730 VA: 0x181A68130
 	public float get_lineHeight() { }
 
-	// RVA: 0x1A7A7B0 Offset: 0x1A78DB0 VA: 0x181A7A7B0
+	// RVA: 0x1A66CE0 Offset: 0x1A652E0 VA: 0x181A66CE0
 	public void Draw(Rect position, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus) { }
 
-	// RVA: 0x1A7A920 Offset: 0x1A78F20 VA: 0x181A7A920
+	// RVA: 0x1A66E50 Offset: 0x1A65450 VA: 0x181A66E50
 	public void Draw(Rect position, GUIContent content, int controlID) { }
 
-	// RVA: 0x1A7A6E0 Offset: 0x1A78CE0 VA: 0x181A7A6E0
+	// RVA: 0x1A66C10 Offset: 0x1A65210 VA: 0x181A66C10
 	public void Draw(Rect position, GUIContent content, int controlID, bool on) { }
 
-	// RVA: 0x1A7A5C0 Offset: 0x1A78BC0 VA: 0x181A7A5C0
+	// RVA: 0x1A66AF0 Offset: 0x1A650F0 VA: 0x181A66AF0
 	public void Draw(Rect position, GUIContent content, int controlID, bool on, bool hover) { }
 
-	// RVA: 0x1A7A840 Offset: 0x1A78E40 VA: 0x181A7A840
+	// RVA: 0x1A66D70 Offset: 0x1A65370 VA: 0x181A66D70
 	private void Draw(Rect position, GUIContent content, int controlId, bool isHover, bool isActive, bool on, bool hasKeyboardFocus) { }
 
-	// RVA: 0x1A79B70 Offset: 0x1A78170 VA: 0x181A79B70
+	// RVA: 0x1A660A0 Offset: 0x1A646A0 VA: 0x181A660A0
 	public void DrawCursor(Rect position, GUIContent content, int controlID, int character) { }
 
-	// RVA: 0x1A7A030 Offset: 0x1A78630 VA: 0x181A7A030
+	// RVA: 0x1A66560 Offset: 0x1A64B60 VA: 0x181A66560
 	internal void DrawWithTextSelection(Rect position, GUIContent content, bool isActive, bool hasKeyboardFocus, int firstSelectedCharacter, int lastSelectedCharacter, bool drawSelectionAsComposition, Color selectionColor) { }
 
-	// RVA: 0x1A79E50 Offset: 0x1A78450 VA: 0x181A79E50
+	// RVA: 0x1A66380 Offset: 0x1A64980 VA: 0x181A66380
 	internal void DrawWithTextSelection(Rect position, GUIContent content, int controlID, int firstSelectedCharacter, int lastSelectedCharacter, bool drawSelectionAsComposition) { }
 
-	// RVA: 0x1A7A3F0 Offset: 0x1A789F0 VA: 0x181A7A3F0
+	// RVA: 0x1A66920 Offset: 0x1A64F20 VA: 0x181A66920
 	public void DrawWithTextSelection(Rect position, GUIContent content, int controlID, int firstSelectedCharacter, int lastSelectedCharacter) { }
 
-	// RVA: 0x1A7C0F0 Offset: 0x1A7A6F0 VA: 0x181A7C0F0
+	// RVA: 0x1A68620 Offset: 0x1A66C20 VA: 0x181A68620
 	public static GUIStyle op_Implicit(string str) { }
 
-	// RVA: 0x1A7BDC0 Offset: 0x1A7A3C0 VA: 0x181A7BDC0
+	// RVA: 0x1A682F0 Offset: 0x1A668F0 VA: 0x181A682F0
 	public static GUIStyle get_none() { }
 
-	// RVA: 0x1A7AAE0 Offset: 0x1A790E0 VA: 0x181A7AAE0
+	// RVA: 0x1A67010 Offset: 0x1A65610 VA: 0x181A67010
 	public Vector2 GetCursorPixelPosition(Rect position, GUIContent content, int cursorStringIndex) { }
 
-	// RVA: 0x1A7AB60 Offset: 0x1A79160 VA: 0x181A7AB60
+	// RVA: 0x1A67090 Offset: 0x1A65690 VA: 0x181A67090
 	public int GetCursorStringIndex(Rect position, GUIContent content, Vector2 cursorPixelPosition) { }
 
-	// RVA: 0x1A79B10 Offset: 0x1A78110 VA: 0x181A79B10
+	// RVA: 0x1A66040 Offset: 0x1A64640 VA: 0x181A66040
 	public Vector2 CalcSize(GUIContent content) { }
 
-	// RVA: 0x1A79AB0 Offset: 0x1A780B0 VA: 0x181A79AB0
+	// RVA: 0x1A65FE0 Offset: 0x1A645E0 VA: 0x181A65FE0
 	internal Vector2 CalcSizeWithConstraints(GUIContent content, Vector2 constraints) { }
 
-	// RVA: 0x1A799D0 Offset: 0x1A77FD0 VA: 0x181A799D0
+	// RVA: 0x1A65F00 Offset: 0x1A64500 VA: 0x181A65F00
 	public float CalcHeight(GUIContent content, float width) { }
 
-	// RVA: 0x1A7BB60 Offset: 0x1A7A160 VA: 0x181A7BB60
+	// RVA: 0x1A68090 Offset: 0x1A66690 VA: 0x181A68090
 	public bool get_isHeightDependantOnWidth() { }
 
-	// RVA: 0x1A79A30 Offset: 0x1A78030 VA: 0x181A79A30
+	// RVA: 0x1A65F60 Offset: 0x1A64560 VA: 0x181A65F60
 	public void CalcMinMaxWidth(GUIContent content, out float minWidth, out float maxWidth) { }
 
-	// RVA: 0x1A7B720 Offset: 0x1A79D20 VA: 0x181A7B720 Slot: 3
+	// RVA: 0x1A67C50 Offset: 0x1A66250 VA: 0x181A67C50 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1A7B830 Offset: 0x1A79E30 VA: 0x181A7B830
+	// RVA: 0x1A67D60 Offset: 0x1A66360 VA: 0x181A67D60
 	private static void .cctor() { }
 
-	// RVA: 0x1A7B9C0 Offset: 0x1A79FC0 VA: 0x181A7B9C0
+	// RVA: 0x1A67EF0 Offset: 0x1A664F0 VA: 0x181A67EF0
 	private void get_contentOffset_Injected(out Vector2 ret) { }
 
-	// RVA: 0x1A7C2A0 Offset: 0x1A7A8A0 VA: 0x181A7C2A0
+	// RVA: 0x1A687D0 Offset: 0x1A66DD0 VA: 0x181A687D0
 	private void set_contentOffset_Injected(ref Vector2 value) { }
 
-	// RVA: 0x1A7C1D0 Offset: 0x1A7A7D0 VA: 0x181A7C1D0
+	// RVA: 0x1A68700 Offset: 0x1A66D00 VA: 0x181A68700
 	private void set_Internal_clipOffset_Injected(ref Vector2 value) { }
 
-	// RVA: 0x1A7B1E0 Offset: 0x1A797E0 VA: 0x181A7B1E0
+	// RVA: 0x1A67710 Offset: 0x1A65D10 VA: 0x181A67710
 	private void Internal_Draw_Injected(ref Rect screenRect, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus) { }
 
-	// RVA: 0x1A7AEA0 Offset: 0x1A794A0 VA: 0x181A7AEA0
+	// RVA: 0x1A673D0 Offset: 0x1A659D0 VA: 0x181A673D0
 	private void Internal_Draw2_Injected(ref Rect position, GUIContent content, int controlID, bool on) { }
 
-	// RVA: 0x1A7AF80 Offset: 0x1A79580 VA: 0x181A7AF80
+	// RVA: 0x1A674B0 Offset: 0x1A65AB0 VA: 0x181A674B0
 	private void Internal_DrawCursor_Injected(ref Rect position, GUIContent content, int pos, ref Color cursorColor) { }
 
-	// RVA: 0x1A7B060 Offset: 0x1A79660 VA: 0x181A7B060
+	// RVA: 0x1A67590 Offset: 0x1A65B90 VA: 0x181A67590
 	private void Internal_DrawWithTextSelection_Injected(ref Rect screenRect, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus, bool drawSelectionAsComposition, int cursorFirst, int cursorLast, ref Color cursorColor, ref Color selectionColor) { }
 
-	// RVA: 0x1A7B330 Offset: 0x1A79930 VA: 0x181A7B330
+	// RVA: 0x1A67860 Offset: 0x1A65E60 VA: 0x181A67860
 	private void Internal_GetCursorPixelPosition_Injected(ref Rect position, GUIContent content, int cursorStringIndex, out Vector2 ret) { }
 
-	// RVA: 0x1A7B420 Offset: 0x1A79A20 VA: 0x181A7B420
+	// RVA: 0x1A67950 Offset: 0x1A65F50 VA: 0x181A67950
 	private int Internal_GetCursorStringIndex_Injected(ref Rect position, GUIContent content, ref Vector2 cursorPixelPosition) { }
 
-	// RVA: 0x1A7B530 Offset: 0x1A79B30 VA: 0x181A7B530
+	// RVA: 0x1A67A60 Offset: 0x1A66060 VA: 0x181A67A60
 	private string Internal_GetSelectedRenderedText_Injected(ref Rect localPosition, GUIContent mContent, int selectIndex, int cursorIndex) { }
 
-	// RVA: 0x1A7AD70 Offset: 0x1A79370 VA: 0x181A7AD70
+	// RVA: 0x1A672A0 Offset: 0x1A658A0 VA: 0x181A672A0
 	private void Internal_CalcSize_Injected(GUIContent content, out Vector2 ret) { }
 
-	// RVA: 0x1A7AD00 Offset: 0x1A79300 VA: 0x181A7AD00
+	// RVA: 0x1A67230 Offset: 0x1A65830 VA: 0x181A67230
 	private void Internal_CalcSizeWithConstraints_Injected(GUIContent content, ref Vector2 maxSize, out Vector2 ret) { }
 
-	// RVA: 0x1A7AC40 Offset: 0x1A79240 VA: 0x181A7AC40
+	// RVA: 0x1A67170 Offset: 0x1A65770 VA: 0x181A67170
 	private void Internal_CalcMinMaxWidth_Injected(GUIContent content, out Vector2 ret) { }
 
-	// RVA: 0x1A7B650 Offset: 0x1A79C50 VA: 0x181A7B650
+	// RVA: 0x1A67B80 Offset: 0x1A66180 VA: 0x181A67B80
 	private static void SetMouseTooltip_Injected(string tooltip, ref Rect screenRect) { }
 
 }

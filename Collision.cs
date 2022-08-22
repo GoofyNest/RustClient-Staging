@@ -16,22 +16,22 @@ public class Collision // TypeDefIndex: 3915
 
 	// Methods
 
-	// RVA: 0x22977A0 Offset: 0x2295DA0 VA: 0x1822977A0
+	// RVA: 0x2297FC0 Offset: 0x22965C0 VA: 0x182297FC0
 	private ContactPoint[] GetContacts_Internal() { }
 
-	// RVA: 0x181DC90 Offset: 0x181C290 VA: 0x18181DC90
+	// RVA: 0x180B0D0 Offset: 0x18096D0 VA: 0x18180B0D0
 	public Rigidbody get_rigidbody() { }
 
-	// RVA: 0xEB5D90 Offset: 0xEB4390 VA: 0x180EB5D90
+	// RVA: 0xEB6840 Offset: 0xEB4E40 VA: 0x180EB6840
 	public Collider get_collider() { }
 
-	// RVA: 0x22977C0 Offset: 0x2295DC0 VA: 0x1822977C0
+	// RVA: 0x2297FE0 Offset: 0x22965E0 VA: 0x182297FE0
 	public Transform get_transform() { }
 
-	// RVA: 0x22977B0 Offset: 0x2295DB0 VA: 0x1822977B0
+	// RVA: 0x2297FD0 Offset: 0x22965D0 VA: 0x182297FD0
 	public int get_contactCount() { }
 
-	// RVA: 0x2297670 Offset: 0x2295C70 VA: 0x182297670
+	// RVA: 0x2297E90 Offset: 0x2296490 VA: 0x182297E90
 	public ContactPoint GetContact(int index) { }
 
 }

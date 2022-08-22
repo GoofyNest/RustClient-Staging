@@ -8,23 +8,23 @@ public sealed class GraphicsSettings : Object // TypeDefIndex: 3839
 
 	// Methods
 
-	// RVA: 0x19AA550 Offset: 0x19A8B50 VA: 0x1819AA550
+	// RVA: 0x1997950 Offset: 0x1995F50 VA: 0x181997950
 	public static bool get_lightsUseLinearIntensity() { }
 
-	// RVA: 0x19AA410 Offset: 0x19A8A10 VA: 0x1819AA410
+	// RVA: 0x1997810 Offset: 0x1995E10 VA: 0x181997810
 	internal static bool AllowEnlightenSupportForUpgradedProject() { }
 
-	// RVA: 0x19AA4B0 Offset: 0x19A8AB0 VA: 0x1819AA4B0
+	// RVA: 0x19978B0 Offset: 0x1995EB0 VA: 0x1819978B0
 	public static RenderPipelineAsset get_renderPipelineAsset() { }
 
-	// RVA: 0x19AA480 Offset: 0x19A8A80 VA: 0x1819AA480
+	// RVA: 0x1997880 Offset: 0x1995E80 VA: 0x181997880
 	private static ScriptableObject get_INTERNAL_defaultRenderPipeline() { }
 
-	// RVA: 0x19AA4B0 Offset: 0x19A8AB0 VA: 0x1819AA4B0
+	// RVA: 0x19978B0 Offset: 0x1995EB0 VA: 0x1819978B0
 	public static RenderPipelineAsset get_defaultRenderPipeline() { }
 
 	[NativeNameAttribute] // RVA: 0x724A0 Offset: 0x718A0 VA: 0x1800724A0
-	// RVA: 0x19AA440 Offset: 0x19A8A40 VA: 0x1819AA440
+	// RVA: 0x1997840 Offset: 0x1995E40 VA: 0x181997840
 	public static BuiltinShaderMode GetShaderMode(BuiltinShaderType type) { }
 
 }

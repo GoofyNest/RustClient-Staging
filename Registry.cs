@@ -11,7 +11,7 @@ public static class Registry // TypeDefIndex: 101
 
 	// Methods
 
-	// RVA: 0x164A0B0 Offset: 0x16486B0 VA: 0x18164A0B0
+	// RVA: 0x16373D0 Offset: 0x16359D0 VA: 0x1816373D0
 	private static void .cctor() { }
 
 }

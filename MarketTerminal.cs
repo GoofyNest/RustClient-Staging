@@ -10,82 +10,82 @@ public class MarketTerminal : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1F43400 Offset: 0x1F41A00 VA: 0x181F43400
+	// RVA: 0x1F43C20 Offset: 0x1F42220 VA: 0x181F43C20
 	public static void ResetToPool(MarketTerminal instance) { }
 
-	// RVA: 0x1F43620 Offset: 0x1F41C20 VA: 0x181F43620
+	// RVA: 0x1F43E40 Offset: 0x1F42440 VA: 0x181F43E40
 	public void ResetToPool() { }
 
-	// RVA: 0x1F43340 Offset: 0x1F41940 VA: 0x181F43340 Slot: 9
+	// RVA: 0x1F43B60 Offset: 0x1F42160 VA: 0x181F43B60 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F41D50 Offset: 0x1F40350 VA: 0x181F41D50
+	// RVA: 0x1F42570 Offset: 0x1F40B70 VA: 0x181F42570
 	public void CopyTo(MarketTerminal instance) { }
 
-	// RVA: 0x1F41F10 Offset: 0x1F40510 VA: 0x181F41F10
+	// RVA: 0x1F42730 Offset: 0x1F40D30 VA: 0x181F42730
 	public MarketTerminal Copy() { }
 
-	// RVA: 0x1F43020 Offset: 0x1F41620 VA: 0x181F43020
+	// RVA: 0x1F43840 Offset: 0x1F41E40 VA: 0x181F43840
 	public static MarketTerminal Deserialize(Stream stream) { }
 
-	// RVA: 0x1F41F90 Offset: 0x1F40590 VA: 0x181F41F90
+	// RVA: 0x1F427B0 Offset: 0x1F40DB0 VA: 0x181F427B0
 	public static MarketTerminal DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F42400 Offset: 0x1F40A00 VA: 0x181F42400
+	// RVA: 0x1F42C20 Offset: 0x1F41220 VA: 0x181F42C20
 	public static MarketTerminal DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F42950 Offset: 0x1F40F50 VA: 0x181F42950
+	// RVA: 0x1F43170 Offset: 0x1F41770 VA: 0x181F43170
 	public static MarketTerminal Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F433C0 Offset: 0x1F419C0 VA: 0x181F433C0
+	// RVA: 0x1F43BE0 Offset: 0x1F421E0 VA: 0x181F43BE0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F44080 Offset: 0x1F42680 VA: 0x181F44080 Slot: 12
+	// RVA: 0x1F448A0 Offset: 0x1F42EA0 VA: 0x181F448A0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F440A0 Offset: 0x1F426A0 VA: 0x181F440A0 Slot: 13
+	// RVA: 0x1F448C0 Offset: 0x1F42EC0 VA: 0x181F448C0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, MarketTerminal previous) { }
 
-	// RVA: 0x1F433E0 Offset: 0x1F419E0 VA: 0x181F433E0 Slot: 14
+	// RVA: 0x1F43C00 Offset: 0x1F42200 VA: 0x181F43C00 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F42850 Offset: 0x1F40E50 VA: 0x181F42850
+	// RVA: 0x1F43070 Offset: 0x1F41670 VA: 0x181F43070
 	public static MarketTerminal Deserialize(byte[] buffer, MarketTerminal instance, bool isDelta = False) { }
 
-	// RVA: 0x1F42D10 Offset: 0x1F41310 VA: 0x181F42D10
+	// RVA: 0x1F43530 Offset: 0x1F41B30 VA: 0x181F43530
 	public static MarketTerminal Deserialize(Stream stream, MarketTerminal instance, bool isDelta) { }
 
-	// RVA: 0x1F42010 Offset: 0x1F40610 VA: 0x181F42010
+	// RVA: 0x1F42830 Offset: 0x1F40E30 VA: 0x181F42830
 	public static MarketTerminal DeserializeLengthDelimited(Stream stream, MarketTerminal instance, bool isDelta) { }
 
-	// RVA: 0x1F42490 Offset: 0x1F40A90 VA: 0x181F42490
+	// RVA: 0x1F42CB0 Offset: 0x1F412B0 VA: 0x181F42CB0
 	public static MarketTerminal DeserializeLength(Stream stream, int length, MarketTerminal instance, bool isDelta) { }
 
-	// RVA: 0x1F43840 Offset: 0x1F41E40 VA: 0x181F43840
+	// RVA: 0x1F44060 Offset: 0x1F42660 VA: 0x181F44060
 	public static void SerializeDelta(Stream stream, MarketTerminal instance, MarketTerminal previous) { }
 
-	// RVA: 0x1F43D80 Offset: 0x1F42380 VA: 0x181F43D80
+	// RVA: 0x1F445A0 Offset: 0x1F42BA0 VA: 0x181F445A0
 	public static void Serialize(Stream stream, MarketTerminal instance) { }
 
-	// RVA: 0x1F44070 Offset: 0x1F42670 VA: 0x181F44070
+	// RVA: 0x1F44890 Offset: 0x1F42E90 VA: 0x181F44890
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F44080 Offset: 0x1F42680 VA: 0x181F44080
+	// RVA: 0x1F448A0 Offset: 0x1F42EA0 VA: 0x181F448A0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F43C70 Offset: 0x1F42270 VA: 0x181F43C70
+	// RVA: 0x1F44490 Offset: 0x1F42A90 VA: 0x181F44490
 	public static byte[] SerializeToBytes(MarketTerminal instance) { }
 
-	// RVA: 0x1F43BC0 Offset: 0x1F421C0 VA: 0x181F43BC0
+	// RVA: 0x1F443E0 Offset: 0x1F429E0 VA: 0x181F443E0
 	public static void SerializeLengthDelimited(Stream stream, MarketTerminal instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -100,82 +100,82 @@ public class MarketTerminal.PendingOrder : IDisposable, Pool.IPooled, IProto // 
 
 	// Methods
 
-	// RVA: 0x1F57570 Offset: 0x1F55B70 VA: 0x181F57570
+	// RVA: 0x1F57D90 Offset: 0x1F56390 VA: 0x181F57D90
 	public static void ResetToPool(MarketTerminal.PendingOrder instance) { }
 
-	// RVA: 0x1F57610 Offset: 0x1F55C10 VA: 0x181F57610
+	// RVA: 0x1F57E30 Offset: 0x1F56430 VA: 0x181F57E30
 	public void ResetToPool() { }
 
-	// RVA: 0x1F57310 Offset: 0x1F55910 VA: 0x181F57310 Slot: 9
+	// RVA: 0x1F57B30 Offset: 0x1F56130 VA: 0x181F57B30 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F56350 Offset: 0x1F54950 VA: 0x181F56350
+	// RVA: 0x1F56B70 Offset: 0x1F55170 VA: 0x181F56B70
 	public void CopyTo(MarketTerminal.PendingOrder instance) { }
 
-	// RVA: 0x1F56380 Offset: 0x1F54980 VA: 0x181F56380
+	// RVA: 0x1F56BA0 Offset: 0x1F551A0 VA: 0x181F56BA0
 	public MarketTerminal.PendingOrder Copy() { }
 
-	// RVA: 0x1F57110 Offset: 0x1F55710 VA: 0x181F57110
+	// RVA: 0x1F57930 Offset: 0x1F55F30 VA: 0x181F57930
 	public static MarketTerminal.PendingOrder Deserialize(Stream stream) { }
 
-	// RVA: 0x1F56400 Offset: 0x1F54A00 VA: 0x181F56400
+	// RVA: 0x1F56C20 Offset: 0x1F55220 VA: 0x181F56C20
 	public static MarketTerminal.PendingOrder DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F56980 Offset: 0x1F54F80 VA: 0x181F56980
+	// RVA: 0x1F571A0 Offset: 0x1F557A0 VA: 0x181F571A0
 	public static MarketTerminal.PendingOrder DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F56BD0 Offset: 0x1F551D0 VA: 0x181F56BD0
+	// RVA: 0x1F573F0 Offset: 0x1F559F0 VA: 0x181F573F0
 	public static MarketTerminal.PendingOrder Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F57390 Offset: 0x1F55990 VA: 0x181F57390
+	// RVA: 0x1F57BB0 Offset: 0x1F561B0 VA: 0x181F57BB0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F57BA0 Offset: 0x1F561A0 VA: 0x181F57BA0 Slot: 12
+	// RVA: 0x1F583C0 Offset: 0x1F569C0 VA: 0x181F583C0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F57BC0 Offset: 0x1F561C0 VA: 0x181F57BC0 Slot: 13
+	// RVA: 0x1F583E0 Offset: 0x1F569E0 VA: 0x181F583E0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, MarketTerminal.PendingOrder previous) { }
 
-	// RVA: 0x1F57550 Offset: 0x1F55B50 VA: 0x181F57550 Slot: 14
+	// RVA: 0x1F57D70 Offset: 0x1F56370 VA: 0x181F57D70 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F56E80 Offset: 0x1F55480 VA: 0x181F56E80
+	// RVA: 0x1F576A0 Offset: 0x1F55CA0 VA: 0x181F576A0
 	public static MarketTerminal.PendingOrder Deserialize(byte[] buffer, MarketTerminal.PendingOrder instance, bool isDelta = False) { }
 
-	// RVA: 0x1F56A10 Offset: 0x1F55010 VA: 0x181F56A10
+	// RVA: 0x1F57230 Offset: 0x1F55830 VA: 0x181F57230
 	public static MarketTerminal.PendingOrder Deserialize(Stream stream, MarketTerminal.PendingOrder instance, bool isDelta) { }
 
-	// RVA: 0x1F56480 Offset: 0x1F54A80 VA: 0x181F56480
+	// RVA: 0x1F56CA0 Offset: 0x1F552A0 VA: 0x181F56CA0
 	public static MarketTerminal.PendingOrder DeserializeLengthDelimited(Stream stream, MarketTerminal.PendingOrder instance, bool isDelta) { }
 
-	// RVA: 0x1F56710 Offset: 0x1F54D10 VA: 0x181F56710
+	// RVA: 0x1F56F30 Offset: 0x1F55530 VA: 0x181F56F30
 	public static MarketTerminal.PendingOrder DeserializeLength(Stream stream, int length, MarketTerminal.PendingOrder instance, bool isDelta) { }
 
-	// RVA: 0x1F576B0 Offset: 0x1F55CB0 VA: 0x181F576B0
+	// RVA: 0x1F57ED0 Offset: 0x1F564D0 VA: 0x181F57ED0
 	public static void SerializeDelta(Stream stream, MarketTerminal.PendingOrder instance, MarketTerminal.PendingOrder previous) { }
 
-	// RVA: 0x1F57A60 Offset: 0x1F56060 VA: 0x181F57A60
+	// RVA: 0x1F58280 Offset: 0x1F56880 VA: 0x181F58280
 	public static void Serialize(Stream stream, MarketTerminal.PendingOrder instance) { }
 
-	// RVA: 0x1F57B90 Offset: 0x1F56190 VA: 0x181F57B90
+	// RVA: 0x1F583B0 Offset: 0x1F569B0 VA: 0x181F583B0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F57BA0 Offset: 0x1F561A0 VA: 0x181F57BA0
+	// RVA: 0x1F583C0 Offset: 0x1F569C0 VA: 0x181F583C0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F57950 Offset: 0x1F55F50 VA: 0x181F57950
+	// RVA: 0x1F58170 Offset: 0x1F56770 VA: 0x181F58170
 	public static byte[] SerializeToBytes(MarketTerminal.PendingOrder instance) { }
 
-	// RVA: 0x1F578A0 Offset: 0x1F55EA0 VA: 0x181F578A0
+	// RVA: 0x1F580C0 Offset: 0x1F566C0 VA: 0x181F580C0
 	public static void SerializeLengthDelimited(Stream stream, MarketTerminal.PendingOrder instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -205,56 +205,56 @@ public class MarketTerminal : StorageContainer // TypeDefIndex: 8409
 
 	// Methods
 
-	// RVA: 0x958AA0 Offset: 0x9570A0 VA: 0x180958AA0 Slot: 49
+	// RVA: 0x958FA0 Offset: 0x9575A0 VA: 0x180958FA0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x95A1F0 Offset: 0x9587F0 VA: 0x18095A1F0 Slot: 50
+	// RVA: 0x95A6F0 Offset: 0x958CF0 VA: 0x18095A6F0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x959390 Offset: 0x957990 VA: 0x180959390 Slot: 35
+	// RVA: 0x959890 Offset: 0x957E90 VA: 0x180959890 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x958720 Offset: 0x956D20 VA: 0x180958720
+	// RVA: 0x958C20 Offset: 0x957220 VA: 0x180958C20
 	public void Client_OpenMarket(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x958940 Offset: 0x956F40 VA: 0x180958940
+	// RVA: 0x958E40 Offset: 0x957440 VA: 0x180958E40
 	public void Client_ShowItemNotice(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9584C0 Offset: 0x956AC0 VA: 0x1809584C0
+	// RVA: 0x9589C0 Offset: 0x956FC0 VA: 0x1809589C0
 	public void Client_CloseMarketUI(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.Menu] // RVA: 0xED6E0 Offset: 0xECAE0 VA: 0x1800ED6E0
 	[BaseEntity.Menu.Description] // RVA: 0xED6E0 Offset: 0xECAE0 VA: 0x1800ED6E0
 	[BaseEntity.Menu.Icon] // RVA: 0xED6E0 Offset: 0xECAE0 VA: 0x1800ED6E0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xED6E0 Offset: 0xECAE0 VA: 0x1800ED6E0
-	// RVA: 0x959350 Offset: 0x957950 VA: 0x180959350
+	// RVA: 0x959850 Offset: 0x957E50 VA: 0x180959850
 	public void Menu_RequestOpenMarket(BasePlayer player) { }
 
-	// RVA: 0x959340 Offset: 0x957940 VA: 0x180959340
+	// RVA: 0x959840 Offset: 0x957E40 VA: 0x180959840
 	public bool Menu_RequestOpenMarket_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x95A0A0 Offset: 0x9586A0 VA: 0x18095A0A0 Slot: 153
+	// RVA: 0x95A5A0 Offset: 0x958BA0 VA: 0x18095A5A0 Slot: 153
 	public override bool ShouldShowLootMenus() { }
 
-	// RVA: 0x959F00 Offset: 0x958500 VA: 0x180959F00 Slot: 16
+	// RVA: 0x95A400 Offset: 0x958A00 VA: 0x18095A400 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x958260 Offset: 0x956860 VA: 0x180958260
+	// RVA: 0x958760 Offset: 0x956D60 VA: 0x180958760
 	public bool CanPlayerAffordOrderAndDeliveryFee(BasePlayer player, VendingMachine.SellOrder sellOrder, int numberOfTransactions) { }
 
-	// RVA: 0x958DB0 Offset: 0x9573B0 VA: 0x180958DB0
+	// RVA: 0x9592B0 Offset: 0x9578B0 VA: 0x1809592B0
 	public bool HasPendingOrderFor(uint vendingMachineId) { }
 
-	// RVA: 0x958400 Offset: 0x956A00 VA: 0x180958400
+	// RVA: 0x958900 Offset: 0x956F00 VA: 0x180958900
 	public bool CanPlayerInteract(BasePlayer player) { }
 
-	// RVA: 0x958EE0 Offset: 0x9574E0 VA: 0x180958EE0 Slot: 34
+	// RVA: 0x9593E0 Offset: 0x9579E0 VA: 0x1809593E0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x95A180 Offset: 0x958780 VA: 0x18095A180
+	// RVA: 0x95A680 Offset: 0x958C80 VA: 0x18095A680
 	public void .ctor() { }
 
 }
@@ -267,16 +267,16 @@ private sealed class MarketTerminal.<>c // TypeDefIndex: 8410
 
 	// Methods
 
-	// RVA: 0x970BB0 Offset: 0x96F1B0 VA: 0x180970BB0
+	// RVA: 0x9710B0 Offset: 0x96F6B0 VA: 0x1809710B0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x56EBC0 Offset: 0x56D1C0 VA: 0x18056EBC0
+	// RVA: 0x56EB50 Offset: 0x56D150 VA: 0x18056EB50
 	internal int <CanPlayerAffordOrderAndDeliveryFee>b__27_0(Item i) { }
 
-	// RVA: 0x970A70 Offset: 0x96F070 VA: 0x180970A70
+	// RVA: 0x970F70 Offset: 0x96F570 VA: 0x180970F70
 	internal uint <HasPendingOrderFor>b__28_0(MarketTerminal.PendingOrder o) { }
 
 }

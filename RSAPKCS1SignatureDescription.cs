@@ -4,7 +4,7 @@ internal abstract class RSAPKCS1SignatureDescription : SignatureDescription // T
 
 	// Methods
 
-	// RVA: 0x17B74B0 Offset: 0x17B5AB0 VA: 0x1817B74B0
+	// RVA: 0x17B5000 Offset: 0x17B3600 VA: 0x1817B5000
 	protected void .ctor(string hashAlgorithm, string digestAlgorithm) { }
 
 }

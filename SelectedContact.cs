@@ -18,43 +18,43 @@ public class SelectedContact : SingletonComponent<SelectedContact> // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x4AB180 Offset: 0x4A9780 VA: 0x1804AB180
+	// RVA: 0x4AB110 Offset: 0x4A9710 VA: 0x1804AB110
 	public void SetSelected_Internal(RelationshipManager.PlayerRelationshipInfo selected) { }
 
-	// RVA: 0x4AB7F0 Offset: 0x4A9DF0 VA: 0x1804AB7F0
+	// RVA: 0x4AB780 Offset: 0x4A9D80 VA: 0x1804AB780
 	public void Update() { }
 
-	// RVA: 0x4AB6F0 Offset: 0x4A9CF0 VA: 0x1804AB6F0
+	// RVA: 0x4AB680 Offset: 0x4A9C80 VA: 0x1804AB680
 	public void SetVisible(bool wantsVis) { }
 
-	// RVA: 0x4AB670 Offset: 0x4A9C70 VA: 0x1804AB670
+	// RVA: 0x4AB600 Offset: 0x4A9C00 VA: 0x1804AB600
 	public static void SetSelected(RelationshipManager.PlayerRelationshipInfo selected) { }
 
-	// RVA: 0x4AAF90 Offset: 0x4A9590 VA: 0x1804AAF90
+	// RVA: 0x4AAF20 Offset: 0x4A9520 VA: 0x1804AAF20
 	public void OnNoteTextChanged() { }
 
-	// RVA: 0x4AB170 Offset: 0x4A9770 VA: 0x1804AB170
+	// RVA: 0x4AB100 Offset: 0x4A9700 VA: 0x1804AB100
 	public bool SelectedValid() { }
 
-	// RVA: 0x4AAE40 Offset: 0x4A9440 VA: 0x1804AAE40
+	// RVA: 0x4AADD0 Offset: 0x4A93D0 VA: 0x1804AADD0
 	public void MakeAlly() { }
 
-	// RVA: 0x4AAF20 Offset: 0x4A9520 VA: 0x1804AAF20
+	// RVA: 0x4AAEB0 Offset: 0x4A94B0 VA: 0x1804AAEB0
 	public void MakeSeen() { }
 
-	// RVA: 0x4AAEB0 Offset: 0x4A94B0 VA: 0x1804AAEB0
+	// RVA: 0x4AAE40 Offset: 0x4A9440 VA: 0x1804AAE40
 	public void MakeEnemy() { }
 
-	// RVA: 0x4AADD0 Offset: 0x4A93D0 VA: 0x1804AADD0
+	// RVA: 0x4AAD60 Offset: 0x4A9360 VA: 0x1804AAD60
 	public void Forget() { }
 
-	// RVA: 0x4AB750 Offset: 0x4A9D50 VA: 0x1804AB750
+	// RVA: 0x4AB6E0 Offset: 0x4A9CE0 VA: 0x1804AB6E0
 	public void ToggleMute(bool state) { }
 
-	// RVA: 0x4AB0B0 Offset: 0x4A96B0 VA: 0x1804AB0B0
+	// RVA: 0x4AB040 Offset: 0x4A9640 VA: 0x1804AB040
 	public void ReportPlayer() { }
 
-	// RVA: 0x4AB980 Offset: 0x4A9F80 VA: 0x1804AB980
+	// RVA: 0x4AB910 Offset: 0x4A9F10 VA: 0x1804AB910
 	public void .ctor() { }
 
 }

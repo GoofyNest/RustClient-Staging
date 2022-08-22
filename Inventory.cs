@@ -1,6 +1,6 @@
 public class Inventory : ConsoleSystem // TypeDefIndex: 11938
 {	// Fields
-	private static float _quickCraftDelay; // 0x20460
+	private static float _quickCraftDelay; // 0x2B104D4
 
 	// Properties
 	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380

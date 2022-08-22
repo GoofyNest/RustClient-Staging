@@ -36,115 +36,115 @@ internal sealed class SchemaElementDecl : SchemaDeclBase, IDtdAttributeListInfo 
 
 	// Methods
 
-	// RVA: 0xEE6F30 Offset: 0xEE5530 VA: 0x180EE6F30
+	// RVA: 0xEE79E0 Offset: 0xEE5FE0 VA: 0x180EE79E0
 	internal void .ctor() { }
 
-	// RVA: 0xEE6CF0 Offset: 0xEE52F0 VA: 0x180EE6CF0
+	// RVA: 0xEE77A0 Offset: 0xEE5DA0 VA: 0x180EE77A0
 	internal void .ctor(XmlSchemaDatatype dtype) { }
 
-	// RVA: 0xEE6DF0 Offset: 0xEE53F0 VA: 0x180EE6DF0
+	// RVA: 0xEE78A0 Offset: 0xEE5EA0 VA: 0x180EE78A0
 	internal void .ctor(XmlQualifiedName name, string prefix) { }
 
-	// RVA: 0xEE6A80 Offset: 0xEE5080 VA: 0x180EE6A80
+	// RVA: 0xEE7530 Offset: 0xEE5B30 VA: 0x180EE7530
 	internal static SchemaElementDecl CreateAnyTypeElementDecl() { }
 
-	// RVA: 0xE75B00 Offset: 0xE74100 VA: 0x180E75B00 Slot: 4
+	// RVA: 0xE765B0 Offset: 0xE74BB0 VA: 0x180E765B0 Slot: 4
 	private bool System.Xml.IDtdAttributeListInfo.get_HasNonCDataAttributes() { }
 
-	// RVA: 0xEE6BE0 Offset: 0xEE51E0 VA: 0x180EE6BE0 Slot: 5
+	// RVA: 0xEE7690 Offset: 0xEE5C90 VA: 0x180EE7690 Slot: 5
 	private IDtdAttributeInfo System.Xml.IDtdAttributeListInfo.LookupAttribute(string prefix, string localName) { }
 
-	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50 Slot: 6
+	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0 Slot: 6
 	private IEnumerable<IDtdDefaultAttributeInfo> System.Xml.IDtdAttributeListInfo.LookupDefaultAttributes() { }
 
-	// RVA: 0xC315B0 Offset: 0xC2FBB0 VA: 0x180C315B0
+	// RVA: 0xC31A80 Offset: 0xC30080 VA: 0x180C31A80
 	internal bool get_IsIdDeclared() { }
 
-	// RVA: 0xC326D0 Offset: 0xC30CD0 VA: 0x180C326D0
+	// RVA: 0xC32BA0 Offset: 0xC311A0 VA: 0x180C32BA0
 	internal void set_IsIdDeclared(bool value) { }
 
-	// RVA: 0xE75B00 Offset: 0xE74100 VA: 0x180E75B00
+	// RVA: 0xE765B0 Offset: 0xE74BB0 VA: 0x180E765B0
 	internal bool get_HasNonCDataAttribute() { }
 
-	// RVA: 0xE75B30 Offset: 0xE74130 VA: 0x180E75B30
+	// RVA: 0xE765E0 Offset: 0xE74BE0 VA: 0x180E765E0
 	internal void set_HasNonCDataAttribute(bool value) { }
 
-	// RVA: 0xEE6A20 Offset: 0xEE5020 VA: 0x180EE6A20
+	// RVA: 0xEE74D0 Offset: 0xEE5AD0 VA: 0x180EE74D0
 	internal SchemaElementDecl Clone() { }
 
-	// RVA: 0xE75AE0 Offset: 0xE740E0 VA: 0x180E75AE0
+	// RVA: 0xE76590 Offset: 0xE74B90 VA: 0x180E76590
 	internal bool get_IsAbstract() { }
 
-	// RVA: 0xE75B10 Offset: 0xE74110 VA: 0x180E75B10
+	// RVA: 0xE765C0 Offset: 0xE74BC0 VA: 0x180E765C0
 	internal void set_IsAbstract(bool value) { }
 
-	// RVA: 0xE75AF0 Offset: 0xE740F0 VA: 0x180E75AF0
+	// RVA: 0xE765A0 Offset: 0xE74BA0 VA: 0x180E765A0
 	internal bool get_IsNillable() { }
 
-	// RVA: 0xE75B20 Offset: 0xE74120 VA: 0x180E75B20
+	// RVA: 0xE765D0 Offset: 0xE74BD0 VA: 0x180E765D0
 	internal void set_IsNillable(bool value) { }
 
-	// RVA: 0xD27AA0 Offset: 0xD260A0 VA: 0x180D27AA0
+	// RVA: 0xD27F40 Offset: 0xD26540 VA: 0x180D27F40
 	internal XmlSchemaDerivationMethod get_Block() { }
 
-	// RVA: 0xD27A10 Offset: 0xD26010 VA: 0x180D27A10
+	// RVA: 0xD27EB0 Offset: 0xD264B0 VA: 0x180D27EB0
 	internal void set_Block(XmlSchemaDerivationMethod value) { }
 
-	// RVA: 0xEE6FE0 Offset: 0xEE55E0 VA: 0x180EE6FE0
+	// RVA: 0xEE7A90 Offset: 0xEE6090 VA: 0x180EE7A90
 	internal bool get_IsNotationDeclared() { }
 
-	// RVA: 0xEE6FF0 Offset: 0xEE55F0 VA: 0x180EE6FF0
+	// RVA: 0xEE7AA0 Offset: 0xEE60A0 VA: 0x180EE7AA0
 	internal void set_IsNotationDeclared(bool value) { }
 
-	// RVA: 0xEE6FD0 Offset: 0xEE55D0 VA: 0x180EE6FD0
+	// RVA: 0xEE7A80 Offset: 0xEE6080 VA: 0x180EE7A80
 	internal bool get_HasDefaultAttribute() { }
 
-	// RVA: 0xCA6D60 Offset: 0xCA5360 VA: 0x180CA6D60
+	// RVA: 0xCA7200 Offset: 0xCA5800 VA: 0x180CA7200
 	internal bool get_HasRequiredAttribute() { }
 
-	// RVA: 0x5743E0 Offset: 0x5729E0 VA: 0x1805743E0
+	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
 	internal ContentValidator get_ContentValidator() { }
 
-	// RVA: 0x574470 Offset: 0x572A70 VA: 0x180574470
+	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
 	internal void set_ContentValidator(ContentValidator value) { }
 
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300
 	internal XmlSchemaAnyAttribute get_AnyAttribute() { }
 
-	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
+	// RVA: 0x574390 Offset: 0x572990 VA: 0x180574390
 	internal void set_AnyAttribute(XmlSchemaAnyAttribute value) { }
 
-	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
+	// RVA: 0x574310 Offset: 0x572910 VA: 0x180574310
 	internal CompiledIdentityConstraint[] get_Constraints() { }
 
-	// RVA: 0x574410 Offset: 0x572A10 VA: 0x180574410
+	// RVA: 0x5743A0 Offset: 0x5729A0 VA: 0x1805743A0
 	internal void set_Constraints(CompiledIdentityConstraint[] value) { }
 
-	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
+	// RVA: 0x5742F0 Offset: 0x5728F0 VA: 0x1805742F0
 	internal XmlSchemaElement get_SchemaElement() { }
 
-	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
+	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
 	internal void set_SchemaElement(XmlSchemaElement value) { }
 
-	// RVA: 0xEE6700 Offset: 0xEE4D00 VA: 0x180EE6700
+	// RVA: 0xEE71B0 Offset: 0xEE57B0 VA: 0x180EE71B0
 	internal void AddAttDef(SchemaAttDef attdef) { }
 
-	// RVA: 0xEE6B60 Offset: 0xEE5160 VA: 0x180EE6B60
+	// RVA: 0xEE7610 Offset: 0xEE5C10 VA: 0x180EE7610
 	internal SchemaAttDef GetAttDef(XmlQualifiedName qname) { }
 
-	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
+	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0
 	internal IList<IDtdDefaultAttributeInfo> get_DefaultAttDefs() { }
 
-	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
+	// RVA: 0x5362B0 Offset: 0x5348B0 VA: 0x1805362B0
 	internal Dictionary<XmlQualifiedName, SchemaAttDef> get_AttDefs() { }
 
-	// RVA: 0x4E8520 Offset: 0x4E6B20 VA: 0x1804E8520
+	// RVA: 0x4E84B0 Offset: 0x4E6AB0 VA: 0x1804E84B0
 	internal Dictionary<XmlQualifiedName, XmlQualifiedName> get_ProhibitedAttributes() { }
 
-	// RVA: 0xEE67E0 Offset: 0xEE4DE0 VA: 0x180EE67E0
+	// RVA: 0xEE7290 Offset: 0xEE5890 VA: 0x180EE7290
 	internal void CheckAttributes(Hashtable presence, bool standalone) { }
 
-	// RVA: 0xEE6C90 Offset: 0xEE5290 VA: 0x180EE6C90
+	// RVA: 0xEE7740 Offset: 0xEE5D40 VA: 0x180EE7740
 	private static void .cctor() { }
 
 }

@@ -5,28 +5,28 @@ public class Monument : TerrainPlacement // TypeDefIndex: 10584
 
 	// Methods
 
-	// RVA: 0x77EA50 Offset: 0x77D050 VA: 0x18077EA50
+	// RVA: 0x77E9A0 Offset: 0x77CFA0 VA: 0x18077E9A0
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x77D990 Offset: 0x77BF90 VA: 0x18077D990 Slot: 8
+	// RVA: 0x77D8E0 Offset: 0x77BEE0 VA: 0x18077D8E0 Slot: 8
 	protected override void ApplyHeight(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
-	// RVA: 0x77DF90 Offset: 0x77C590 VA: 0x18077DF90 Slot: 9
+	// RVA: 0x77DEE0 Offset: 0x77C4E0 VA: 0x18077DEE0 Slot: 9
 	protected override void ApplySplat(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
-	// RVA: 0x77CF70 Offset: 0x77B570 VA: 0x18077CF70 Slot: 10
+	// RVA: 0x77CEC0 Offset: 0x77B4C0 VA: 0x18077CEC0 Slot: 10
 	protected override void ApplyAlpha(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
-	// RVA: 0x77D450 Offset: 0x77BA50 VA: 0x18077D450 Slot: 11
+	// RVA: 0x77D3A0 Offset: 0x77B9A0 VA: 0x18077D3A0 Slot: 11
 	protected override void ApplyBiome(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
-	// RVA: 0x77E570 Offset: 0x77CB70 VA: 0x18077E570 Slot: 12
+	// RVA: 0x77E4C0 Offset: 0x77CAC0 VA: 0x18077E4C0 Slot: 12
 	protected override void ApplyTopology(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 13
 	protected override void ApplyWater(Matrix4x4 localToWorld, Matrix4x4 worldToLocal) { }
 
-	// RVA: 0x77EB90 Offset: 0x77D190 VA: 0x18077EB90
+	// RVA: 0x77EAE0 Offset: 0x77D0E0 VA: 0x18077EAE0
 	public void .ctor() { }
 
 }
@@ -45,7 +45,7 @@ private sealed class Monument.<>c__DisplayClass3_0 // TypeDefIndex: 10585
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x77F700 Offset: 0x77DD00 VA: 0x18077F700
+	// RVA: 0x77F650 Offset: 0x77DC50 VA: 0x18077F650
 	internal void <ApplyHeight>b__0(int x, int z) { }
 
 }
@@ -70,7 +70,7 @@ private sealed class Monument.<>c__DisplayClass4_0 // TypeDefIndex: 10586
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x77FB40 Offset: 0x77E140 VA: 0x18077FB40
+	// RVA: 0x77FA90 Offset: 0x77E090 VA: 0x18077FA90
 	internal void <ApplySplat>b__0(int x, int z) { }
 
 }
@@ -86,7 +86,7 @@ private sealed class Monument.<>c__DisplayClass5_0 // TypeDefIndex: 10587
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x780050 Offset: 0x77E650 VA: 0x180780050
+	// RVA: 0x77FFA0 Offset: 0x77E5A0 VA: 0x18077FFA0
 	internal void <ApplyAlpha>b__0(int x, int z) { }
 
 }
@@ -106,7 +106,7 @@ private sealed class Monument.<>c__DisplayClass6_0 // TypeDefIndex: 10588
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x780380 Offset: 0x77E980 VA: 0x180780380
+	// RVA: 0x7802D0 Offset: 0x77E8D0 VA: 0x1807802D0
 	internal void <ApplyBiome>b__0(int x, int z) { }
 
 }
@@ -122,7 +122,7 @@ private sealed class Monument.<>c__DisplayClass7_0 // TypeDefIndex: 10589
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x780730 Offset: 0x77ED30 VA: 0x180780730
+	// RVA: 0x780680 Offset: 0x77EC80 VA: 0x180780680
 	internal void <ApplyTopology>b__0(int x, int z) { }
 
 }

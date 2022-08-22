@@ -1,7 +1,7 @@
 public class AmplifyOcclusionEffect : AmplifyOcclusionBase // TypeDefIndex: 11476
 {	// Methods
 
-	// RVA: 0x8283A0 Offset: 0x8269A0 VA: 0x1808283A0
+	// RVA: 0x828930 Offset: 0x826F30 VA: 0x180828930
 	public void .ctor() { }
 
 }

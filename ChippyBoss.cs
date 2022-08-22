@@ -15,34 +15,34 @@ public class ChippyBoss : SpriteArcadeEntity // TypeDefIndex: 8766
 
 	// Methods
 
-	// RVA: 0x539FB0 Offset: 0x5385B0 VA: 0x180539FB0
+	// RVA: 0x539F40 Offset: 0x538540 VA: 0x180539F40
 	public void SetLevel(int newLevel) { }
 
-	// RVA: 0x539DC0 Offset: 0x5383C0 VA: 0x180539DC0 Slot: 6
+	// RVA: 0x539D50 Offset: 0x538350 VA: 0x180539D50 Slot: 6
 	public override bool OnEntityMessage(string msg, bool predicted = False) { }
 
-	// RVA: 0x539C50 Offset: 0x538250 VA: 0x180539C50
+	// RVA: 0x539BE0 Offset: 0x5381E0 VA: 0x180539BE0
 	public void Flash() { }
 
-	// RVA: 0x539D40 Offset: 0x538340 VA: 0x180539D40 Slot: 11
+	// RVA: 0x539CD0 Offset: 0x5382D0 VA: 0x180539CD0 Slot: 11
 	public override void Initialize() { }
 
-	// RVA: 0x539F50 Offset: 0x538550 VA: 0x180539F50
+	// RVA: 0x539EE0 Offset: 0x5384E0 VA: 0x180539EE0
 	public void RemoveMe() { }
 
-	// RVA: 0x5397B0 Offset: 0x537DB0 VA: 0x1805397B0
+	// RVA: 0x539740 Offset: 0x537D40 VA: 0x180539740
 	public void Animate() { }
 
-	// RVA: 0x539CA0 Offset: 0x5382A0 VA: 0x180539CA0 Slot: 7
+	// RVA: 0x539C30 Offset: 0x538230 VA: 0x180539C30 Slot: 7
 	public override void Hurt(ArcadeEntity damageSource, float damage, Vector3 hitPos, Collider collider) { }
 
-	// RVA: 0x539E80 Offset: 0x538480 VA: 0x180539E80 Slot: 8
+	// RVA: 0x539E10 Offset: 0x538410 VA: 0x180539E10 Slot: 8
 	public override void OnKilled() { }
 
-	// RVA: 0x539880 Offset: 0x537E80 VA: 0x180539880
+	// RVA: 0x539810 Offset: 0x537E10 VA: 0x180539810
 	public void FixedUpdate() { }
 
-	// RVA: 0x53A0B0 Offset: 0x5386B0 VA: 0x18053A0B0
+	// RVA: 0x53A040 Offset: 0x538640 VA: 0x18053A040
 	public void .ctor() { }
 
 }

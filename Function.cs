@@ -12,22 +12,22 @@ internal class Function : AstNode // TypeDefIndex: 1792
 
 	// Methods
 
-	// RVA: 0x12F0730 Offset: 0x12EED30 VA: 0x1812F0730
+	// RVA: 0x12F6BE0 Offset: 0x12F51E0 VA: 0x1812F6BE0
 	public void .ctor(Function.FunctionType ftype, ArrayList argumentList) { }
 
-	// RVA: 0x12F0850 Offset: 0x12EEE50 VA: 0x1812F0850
+	// RVA: 0x12F6D00 Offset: 0x12F5300 VA: 0x1812F6D00
 	public void .ctor(string prefix, string name, ArrayList argumentList) { }
 
-	// RVA: 0x12F07B0 Offset: 0x12EEDB0 VA: 0x1812F07B0
+	// RVA: 0x12F6C60 Offset: 0x12F5260 VA: 0x1812F6C60
 	public void .ctor(Function.FunctionType ftype, AstNode arg) { }
 
-	// RVA: 0xE38110 Offset: 0xE36710 VA: 0x180E38110 Slot: 4
+	// RVA: 0xE38BC0 Offset: 0xE371C0 VA: 0x180E38BC0 Slot: 4
 	public override AstNode.AstType get_Type() { }
 
-	// RVA: 0x12F0900 Offset: 0x12EEF00 VA: 0x1812F0900 Slot: 5
+	// RVA: 0x12F6DB0 Offset: 0x12F53B0 VA: 0x1812F6DB0 Slot: 5
 	public override XPathResultType get_ReturnType() { }
 
-	// RVA: 0x12F06C0 Offset: 0x12EECC0 VA: 0x1812F06C0
+	// RVA: 0x12F6B70 Offset: 0x12F5170 VA: 0x1812F6B70
 	private static void .cctor() { }
 
 }
@@ -79,10 +79,10 @@ internal sealed class Function // TypeDefIndex: 4261
 
 	// Methods
 
-	// RVA: 0x13EEFC0 Offset: 0x13ED5C0 VA: 0x1813EEFC0
+	// RVA: 0x13EE0C0 Offset: 0x13EC6C0 VA: 0x1813EE0C0
 	internal void .ctor(string name, FunctionId id, Type result, bool IsValidateArguments, bool IsVariantArgumentList, int argumentCount, Type a1, Type a2, Type a3) { }
 
-	// RVA: 0x13EDFD0 Offset: 0x13EC5D0 VA: 0x1813EDFD0
+	// RVA: 0x13ED0D0 Offset: 0x13EB6D0 VA: 0x1813ED0D0
 	private static void .cctor() { }
 
 }

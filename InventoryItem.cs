@@ -19,49 +19,49 @@ public struct InventoryItem : IEquatable<InventoryItem> // TypeDefIndex: 5241
 	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
 	public InventoryItemId get_Id() { }
 
-	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
+	// RVA: 0x122C30 Offset: 0x122030 VA: 0x180122C30
 	public InventoryDefId get_DefId() { }
 
 	// RVA: 0x10AB20 Offset: 0x109F20 VA: 0x18010AB20
 	public int get_Quantity() { }
 
-	// RVA: 0x122E20 Offset: 0x122220 VA: 0x180122E20
+	// RVA: 0x122C40 Offset: 0x122040 VA: 0x180122C40
 	public InventoryDef get_Def() { }
 
 	// RVA: 0xF3EF0 Offset: 0xF32F0 VA: 0x1800F3EF0
 	public Dictionary<string, string> get_Properties() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x97D70 Offset: 0x97170 VA: 0x180097D70
-	// RVA: 0x122B20 Offset: 0x121F20 VA: 0x180122B20
+	// RVA: 0x122940 Offset: 0x121D40 VA: 0x180122940
 	public Task<Nullable<InventoryResult>> ConsumeAsync(int amount = 1) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x98040 Offset: 0x97440 VA: 0x180098040
-	// RVA: 0x122CF0 Offset: 0x1220F0 VA: 0x180122CF0
+	// RVA: 0x122B10 Offset: 0x121F10 VA: 0x180122B10
 	public Task<Nullable<InventoryResult>> SplitStackAsync(int quantity = 1) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x981A0 Offset: 0x975A0 VA: 0x1800981A0
-	// RVA: 0x1229F0 Offset: 0x121DF0 VA: 0x1801229F0
+	// RVA: 0x122810 Offset: 0x121C10 VA: 0x180122810
 	public Task<Nullable<InventoryResult>> AddAsync(InventoryItem add, int quantity = 1) { }
 
-	// RVA: 0xDE17C0 Offset: 0xDDFDC0 VA: 0x180DE17C0
+	// RVA: 0xDE2270 Offset: 0xDE0870 VA: 0x180DE2270
 	internal static InventoryItem From(SteamItemDetails_t details) { }
 
-	// RVA: 0xDE1830 Offset: 0xDDFE30 VA: 0x180DE1830
+	// RVA: 0xDE22E0 Offset: 0xDE08E0 VA: 0x180DE22E0
 	internal static Dictionary<string, string> GetProperties(SteamInventoryResult_t result, int index) { }
 
-	// RVA: 0x122E00 Offset: 0x122200 VA: 0x180122E00
+	// RVA: 0x122C20 Offset: 0x122020 VA: 0x180122C20
 	public DateTime get_Acquired() { }
 
-	// RVA: 0xDE1DE0 Offset: 0xDE03E0 VA: 0x180DE1DE0
+	// RVA: 0xDE2890 Offset: 0xDE0E90 VA: 0x180DE2890
 	public static bool op_Equality(InventoryItem a, InventoryItem b) { }
 
-	// RVA: 0x122C30 Offset: 0x122030 VA: 0x180122C30 Slot: 0
+	// RVA: 0x122A50 Offset: 0x121E50 VA: 0x180122A50 Slot: 0
 	public override bool Equals(object p) { }
 
-	// RVA: 0x122CE0 Offset: 0x1220E0 VA: 0x180122CE0 Slot: 2
+	// RVA: 0x122B00 Offset: 0x121F00 VA: 0x180122B00 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x122CB0 Offset: 0x1220B0 VA: 0x180122CB0 Slot: 4
+	// RVA: 0x122AD0 Offset: 0x121ED0 VA: 0x180122AD0 Slot: 4
 	public bool Equals(InventoryItem p) { }
 
 }
@@ -83,11 +83,11 @@ private struct InventoryItem.<ConsumeAsync>d__21 : IAsyncStateMachine // TypeDef
 
 	// Methods
 
-	// RVA: 0x123240 Offset: 0x122640 VA: 0x180123240 Slot: 4
+	// RVA: 0x123060 Offset: 0x122460 VA: 0x180123060 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x123250 Offset: 0x122650 VA: 0x180123250 Slot: 5
+	// RVA: 0x123070 Offset: 0x122470 VA: 0x180123070 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -102,11 +102,11 @@ private struct InventoryItem.<SplitStackAsync>d__22 : IAsyncStateMachine // Type
 
 	// Methods
 
-	// RVA: 0x123790 Offset: 0x122B90 VA: 0x180123790 Slot: 4
+	// RVA: 0x1235B0 Offset: 0x1229B0 VA: 0x1801235B0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1237A0 Offset: 0x122BA0 VA: 0x1801237A0 Slot: 5
+	// RVA: 0x1235C0 Offset: 0x1229C0 VA: 0x1801235C0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -122,11 +122,11 @@ private struct InventoryItem.<AddAsync>d__23 : IAsyncStateMachine // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x1231D0 Offset: 0x1225D0 VA: 0x1801231D0 Slot: 4
+	// RVA: 0x122FF0 Offset: 0x1223F0 VA: 0x180122FF0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1231E0 Offset: 0x1225E0 VA: 0x1801231E0 Slot: 5
+	// RVA: 0x123000 Offset: 0x122400 VA: 0x180123000 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

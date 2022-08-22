@@ -29,22 +29,22 @@ public class Value // TypeDefIndex: 8139
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	public void .ctor(ValueType type) { }
 
-	// RVA: 0x107B120 Offset: 0x1079720 VA: 0x18107B120
+	// RVA: 0x107BB90 Offset: 0x107A190 VA: 0x18107BB90
 	public void .ctor(string str) { }
 
-	// RVA: 0x107B160 Offset: 0x1079760 VA: 0x18107B160
+	// RVA: 0x107BBD0 Offset: 0x107A1D0 VA: 0x18107BBD0
 	public void .ctor(double number) { }
 
-	// RVA: 0x107B090 Offset: 0x1079690 VA: 0x18107B090
+	// RVA: 0x107BB00 Offset: 0x107A100 VA: 0x18107BB00
 	public void .ctor(Object obj) { }
 
-	// RVA: 0x107B0E0 Offset: 0x10796E0 VA: 0x18107B0E0
+	// RVA: 0x107BB50 Offset: 0x107A150 VA: 0x18107BB50
 	public void .ctor(Array array) { }
 
-	// RVA: 0x107B190 Offset: 0x1079790 VA: 0x18107B190
+	// RVA: 0x107BC00 Offset: 0x107A200 VA: 0x18107BC00
 	public void .ctor(bool boolean) { }
 
-	// RVA: 0x107AF60 Offset: 0x1079560 VA: 0x18107AF60
+	// RVA: 0x107B9D0 Offset: 0x1079FD0 VA: 0x18107B9D0
 	public void .ctor(Value value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -52,7 +52,7 @@ public class Value // TypeDefIndex: 8139
 	public ValueType get_Type() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
+	// RVA: 0x57C970 Offset: 0x57AF70 VA: 0x18057C970
 	private void set_Type(ValueType value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -60,65 +60,65 @@ public class Value // TypeDefIndex: 8139
 	public string get_Str() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_Str(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107B1C0 Offset: 0x10797C0 VA: 0x18107B1C0
+	// RVA: 0x107BC30 Offset: 0x107A230 VA: 0x18107BC30
 	public double get_Number() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x107B3F0 Offset: 0x10799F0 VA: 0x18107B3F0
+	// RVA: 0x107BE60 Offset: 0x107A460 VA: 0x18107BE60
 	public void set_Number(double value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public Object get_Obj() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	public void set_Obj(Object value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public Array get_Array() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	public void set_Array(Array value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1150 Offset: 0x8BF750 VA: 0x1808C1150
+	// RVA: 0x8C1660 Offset: 0x8BFC60 VA: 0x1808C1660
 	public bool get_Boolean() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x78E280 Offset: 0x78C880 VA: 0x18078E280
+	// RVA: 0x78E190 Offset: 0x78C790 VA: 0x18078E190
 	public void set_Boolean(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	public Value get_Parent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
+	// RVA: 0x4BC5A0 Offset: 0x4BABA0 VA: 0x1804BC5A0
 	public void set_Parent(Value value) { }
 
-	// RVA: 0x107B310 Offset: 0x1079910 VA: 0x18107B310
+	// RVA: 0x107BD80 Offset: 0x107A380 VA: 0x18107BD80
 	public static Value op_Implicit(string str) { }
 
-	// RVA: 0x107B250 Offset: 0x1079850 VA: 0x18107B250
+	// RVA: 0x107BCC0 Offset: 0x107A2C0 VA: 0x18107BCC0
 	public static Value op_Implicit(double number) { }
 
-	// RVA: 0x107B1D0 Offset: 0x10797D0 VA: 0x18107B1D0
+	// RVA: 0x107BC40 Offset: 0x107A240 VA: 0x18107BC40
 	public static Value op_Implicit(Object obj) { }
 
-	// RVA: 0x107B380 Offset: 0x1079980 VA: 0x18107B380
+	// RVA: 0x107BDF0 Offset: 0x107A3F0 VA: 0x18107BDF0
 	public static Value op_Implicit(Array array) { }
 
-	// RVA: 0x107B2B0 Offset: 0x10798B0 VA: 0x18107B2B0
+	// RVA: 0x107BD20 Offset: 0x107A320 VA: 0x18107BD20
 	public static Value op_Implicit(bool boolean) { }
 
-	// RVA: 0x107AE70 Offset: 0x1079470 VA: 0x18107AE70 Slot: 3
+	// RVA: 0x107B8E0 Offset: 0x1079EE0 VA: 0x18107B8E0 Slot: 3
 	public override string ToString() { }
 
 }

@@ -9,25 +9,25 @@ public class OreHopper : PercentFullStorageContainer // TypeDefIndex: 8284
 
 	// Methods
 
-	// RVA: 0x9E6F70 Offset: 0x9E5570 VA: 0x1809E6F70 Slot: 155
+	// RVA: 0x9E7460 Offset: 0x9E5A60 VA: 0x1809E7460 Slot: 155
 	protected override void OnPercentFullChanged(float newPercentFull) { }
 
-	// RVA: 0x9E7430 Offset: 0x9E5A30 VA: 0x1809E7430
+	// RVA: 0x9E7920 Offset: 0x9E5F20 VA: 0x1809E7920
 	private void SetVisualOreLevel(float percentFull) { }
 
-	// RVA: 0x9E6F70 Offset: 0x9E5570 VA: 0x1809E6F70
+	// RVA: 0x9E7460 Offset: 0x9E5A60 VA: 0x1809E7460
 	public void VisualLerpToOreLevel() { }
 
-	// RVA: 0x9E7000 Offset: 0x9E5600 VA: 0x1809E7000
+	// RVA: 0x9E74F0 Offset: 0x9E5AF0 VA: 0x1809E74F0
 	private void OreVisualLerpUpdate() { }
 
-	// RVA: 0x9E6EE0 Offset: 0x9E54E0 VA: 0x1809E6EE0 Slot: 14
+	// RVA: 0x9E73D0 Offset: 0x9E59D0 VA: 0x1809E73D0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x9E7150 Offset: 0x9E5750 VA: 0x1809E7150
+	// RVA: 0x9E7640 Offset: 0x9E5C40 VA: 0x1809E7640
 	public void SetOreMat(int lootTypeIndex, ParticleSystem[] unloadingFX, ParticleSystem[] particleFX) { }
 
-	// RVA: 0x9E7510 Offset: 0x9E5B10 VA: 0x1809E7510
+	// RVA: 0x9E7A00 Offset: 0x9E6000 VA: 0x1809E7A00
 	public void .ctor() { }
 
 }

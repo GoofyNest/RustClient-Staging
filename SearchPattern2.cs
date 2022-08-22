@@ -12,19 +12,19 @@ internal class SearchPattern2 // TypeDefIndex: 2855
 
 	// Methods
 
-	// RVA: 0x1537520 Offset: 0x1535B20 VA: 0x181537520
+	// RVA: 0x15365F0 Offset: 0x1534BF0 VA: 0x1815365F0
 	public void .ctor(string pattern) { }
 
-	// RVA: 0x1537570 Offset: 0x1535B70 VA: 0x181537570
+	// RVA: 0x1536640 Offset: 0x1534C40 VA: 0x181536640
 	public void .ctor(string pattern, bool ignore) { }
 
-	// RVA: 0xFA7460 Offset: 0xFA5A60 VA: 0x180FA7460
+	// RVA: 0xFA7F00 Offset: 0xFA6500 VA: 0x180FA7F00
 	public bool get_HasWildcard() { }
 
-	// RVA: 0x15370B0 Offset: 0x15356B0 VA: 0x1815370B0
+	// RVA: 0x1536180 Offset: 0x1534780 VA: 0x181536180
 	private void Compile(string pattern) { }
 
-	// RVA: 0x15373C0 Offset: 0x15359C0 VA: 0x1815373C0
+	// RVA: 0x1536490 Offset: 0x1534A90 VA: 0x181536490
 	private static void .cctor() { }
 
 }
@@ -37,7 +37,7 @@ private class SearchPattern2.Op // TypeDefIndex: 2856
 
 	// Methods
 
-	// RVA: 0x1536C50 Offset: 0x1535250 VA: 0x181536C50
+	// RVA: 0x1535D20 Offset: 0x1534320 VA: 0x181535D20
 	public void .ctor(SearchPattern2.OpCode code) { }
 
 }

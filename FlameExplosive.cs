@@ -11,7 +11,7 @@ public class FlameExplosive : TimedExplosive // TypeDefIndex: 9540
 
 	// Methods
 
-	// RVA: 0x78DF00 Offset: 0x78C500 VA: 0x18078DF00
+	// RVA: 0x78DE10 Offset: 0x78C410 VA: 0x18078DE10
 	public void .ctor() { }
 
 }

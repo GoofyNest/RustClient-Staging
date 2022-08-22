@@ -9,16 +9,16 @@ public class HotOverlay : MonoBehaviour // TypeDefIndex: 9130
 
 	// Methods
 
-	// RVA: 0x7450D0 Offset: 0x7436D0 VA: 0x1807450D0
+	// RVA: 0x745020 Offset: 0x743620 VA: 0x180745020
 	public void Awake() { }
 
-	// RVA: 0x7452D0 Offset: 0x7438D0 VA: 0x1807452D0
+	// RVA: 0x745220 Offset: 0x743820 VA: 0x180745220
 	protected void Update() { }
 
-	// RVA: 0x745150 Offset: 0x743750 VA: 0x180745150
+	// RVA: 0x7450A0 Offset: 0x7436A0 VA: 0x1807450A0
 	private float GetIntensity() { }
 
-	// RVA: 0x57BC30 Offset: 0x57A230 VA: 0x18057BC30
+	// RVA: 0x57BBC0 Offset: 0x57A1C0 VA: 0x18057BBC0
 	public void .ctor() { }
 
 }

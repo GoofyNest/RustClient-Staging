@@ -23,34 +23,34 @@ public class Explosion_Bloom : MonoBehaviour // TypeDefIndex: 11490
 
 	// Methods
 
-	// RVA: 0x8D15D0 Offset: 0x8CFBD0 VA: 0x1808D15D0
+	// RVA: 0x8D1AE0 Offset: 0x8D00E0 VA: 0x1808D1AE0
 	public Shader get_shader() { }
 
-	// RVA: 0x8D14A0 Offset: 0x8CFAA0 VA: 0x1808D14A0
+	// RVA: 0x8D19B0 Offset: 0x8CFFB0 VA: 0x1808D19B0
 	public Material get_material() { }
 
-	// RVA: 0x8D0640 Offset: 0x8CEC40 VA: 0x1808D0640
+	// RVA: 0x8D0B50 Offset: 0x8CF150 VA: 0x1808D0B50
 	public static bool IsSupported(Shader s, bool needDepth, bool needHdr, MonoBehaviour effect) { }
 
-	// RVA: 0x8D0580 Offset: 0x8CEB80 VA: 0x1808D0580
+	// RVA: 0x8D0A90 Offset: 0x8CF090 VA: 0x1808D0A90
 	public static Material CheckShaderAndCreateMaterial(Shader s) { }
 
-	// RVA: 0x8D1660 Offset: 0x8CFC60 VA: 0x1808D1660
+	// RVA: 0x8D1B70 Offset: 0x8D0170 VA: 0x1808D1B70
 	public static bool get_supportsDX11() { }
 
-	// RVA: 0x8D04F0 Offset: 0x8CEAF0 VA: 0x1808D04F0
+	// RVA: 0x8D0A00 Offset: 0x8CF000 VA: 0x1808D0A00
 	private void Awake() { }
 
-	// RVA: 0x8D0A70 Offset: 0x8CF070 VA: 0x1808D0A70
+	// RVA: 0x8D0F80 Offset: 0x8CF580 VA: 0x1808D0F80
 	private void OnEnable() { }
 
-	// RVA: 0x8D09C0 Offset: 0x8CEFC0 VA: 0x1808D09C0
+	// RVA: 0x8D0ED0 Offset: 0x8CF4D0 VA: 0x1808D0ED0
 	private void OnDisable() { }
 
-	// RVA: 0x8D0AC0 Offset: 0x8CF0C0 VA: 0x1808D0AC0
+	// RVA: 0x8D0FD0 Offset: 0x8CF5D0 VA: 0x1808D0FD0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x8D1410 Offset: 0x8CFA10 VA: 0x1808D1410
+	// RVA: 0x8D1920 Offset: 0x8CFF20 VA: 0x1808D1920
 	public void .ctor() { }
 
 }
@@ -97,7 +97,7 @@ public struct Explosion_Bloom.Settings // TypeDefIndex: 11491
 	// RVA: 0xFA010 Offset: 0xF9410 VA: 0x1800FA010
 	public float get_thresholdLinear() { }
 
-	// RVA: 0x8D6F40 Offset: 0x8D5540 VA: 0x1808D6F40
+	// RVA: 0x8D7450 Offset: 0x8D5A50 VA: 0x1808D7450
 	public static Explosion_Bloom.Settings get_defaultSettings() { }
 
 }
@@ -115,16 +115,16 @@ public class ExplosionDemoGUI : MonoBehaviour // TypeDefIndex: 11492
 
 	// Methods
 
-	// RVA: 0x8CFFA0 Offset: 0x8CE5A0 VA: 0x1808CFFA0
+	// RVA: 0x8D04B0 Offset: 0x8CEAB0 VA: 0x1808D04B0
 	private void Start() { }
 
-	// RVA: 0x8CFC50 Offset: 0x8CE250 VA: 0x1808CFC50
+	// RVA: 0x8D0160 Offset: 0x8CE760 VA: 0x1808D0160
 	private void OnGUI() { }
 
-	// RVA: 0x8CFA80 Offset: 0x8CE080 VA: 0x1808CFA80
+	// RVA: 0x8CFF90 Offset: 0x8CE590 VA: 0x1808CFF90
 	private void ChangeCurrent(int delta) { }
 
-	// RVA: 0x8D01C0 Offset: 0x8CE7C0 VA: 0x1808D01C0
+	// RVA: 0x8D06D0 Offset: 0x8CECD0 VA: 0x1808D06D0
 	public void .ctor() { }
 
 }
@@ -135,13 +135,13 @@ public class ExplosionDemoReactivator : MonoBehaviour // TypeDefIndex: 11493
 
 	// Methods
 
-	// RVA: 0x8D0300 Offset: 0x8CE900 VA: 0x1808D0300
+	// RVA: 0x8D0810 Offset: 0x8CEE10 VA: 0x1808D0810
 	private void Start() { }
 
-	// RVA: 0x8D0230 Offset: 0x8CE830 VA: 0x1808D0230
+	// RVA: 0x8D0740 Offset: 0x8CED40 VA: 0x1808D0740
 	private void Reactivate() { }
 
-	// RVA: 0x8D0350 Offset: 0x8CE950 VA: 0x1808D0350
+	// RVA: 0x8D0860 Offset: 0x8CEE60 VA: 0x1808D0860
 	public void .ctor() { }
 
 }
@@ -158,22 +158,22 @@ public class ExplosionPlatformActivator : MonoBehaviour // TypeDefIndex: 11494
 
 	// Methods
 
-	// RVA: 0x8D03B0 Offset: 0x8CE9B0 VA: 0x1808D03B0
+	// RVA: 0x8D08C0 Offset: 0x8CEEC0 VA: 0x1808D08C0
 	private void Start() { }
 
-	// RVA: 0x8D0360 Offset: 0x8CE960 VA: 0x1808D0360
+	// RVA: 0x8D0870 Offset: 0x8CEE70 VA: 0x1808D0870
 	private void Init() { }
 
-	// RVA: 0x8D0400 Offset: 0x8CEA00 VA: 0x1808D0400
+	// RVA: 0x8D0910 Offset: 0x8CEF10 VA: 0x1808D0910
 	private void Update() { }
 
-	// RVA: 0x8D0390 Offset: 0x8CE990 VA: 0x1808D0390
+	// RVA: 0x8D08A0 Offset: 0x8CEEA0 VA: 0x1808D08A0
 	private void OnTriggerEnter(Collider coll) { }
 
-	// RVA: 0x8D03A0 Offset: 0x8CE9A0 VA: 0x1808D03A0
+	// RVA: 0x8D08B0 Offset: 0x8CEEB0 VA: 0x1808D08B0
 	private void OnTriggerExit(Collider other) { }
 
-	// RVA: 0x8D04D0 Offset: 0x8CEAD0 VA: 0x1808D04D0
+	// RVA: 0x8D09E0 Offset: 0x8CEFE0 VA: 0x1808D09E0
 	public void .ctor() { }
 
 }
@@ -187,16 +187,16 @@ public class ExplosionsFPS : MonoBehaviour // TypeDefIndex: 11495
 
 	// Methods
 
-	// RVA: 0x8D1C10 Offset: 0x8D0210 VA: 0x1808D1C10
+	// RVA: 0x8D2120 Offset: 0x8D0720 VA: 0x1808D2120
 	private void Awake() { }
 
-	// RVA: 0x8D1CA0 Offset: 0x8D02A0 VA: 0x1808D1CA0
+	// RVA: 0x8D21B0 Offset: 0x8D07B0 VA: 0x1808D21B0
 	private void OnGUI() { }
 
-	// RVA: 0x8D1D80 Offset: 0x8D0380 VA: 0x1808D1D80
+	// RVA: 0x8D2290 Offset: 0x8D0890 VA: 0x1808D2290
 	private void Update() { }
 
-	// RVA: 0x8D1DE0 Offset: 0x8D03E0 VA: 0x1808D1DE0
+	// RVA: 0x8D22F0 Offset: 0x8D08F0 VA: 0x1808D22F0
 	public void .ctor() { }
 
 }
@@ -213,13 +213,13 @@ public class ExplosionsBillboard : MonoBehaviour // TypeDefIndex: 11496
 
 	// Methods
 
-	// RVA: 0x8D1690 Offset: 0x8CFC90 VA: 0x1808D1690
+	// RVA: 0x8D1BA0 Offset: 0x8D01A0 VA: 0x1808D1BA0
 	private void Awake() { }
 
-	// RVA: 0x8D1920 Offset: 0x8CFF20 VA: 0x1808D1920
+	// RVA: 0x8D1E30 Offset: 0x8D0430 VA: 0x1808D1E30
 	private void Update() { }
 
-	// RVA: 0x8D1B20 Offset: 0x8D0120 VA: 0x1808D1B20
+	// RVA: 0x8D2030 Offset: 0x8D0630 VA: 0x1808D2030
 	public void .ctor() { }
 
 }
@@ -231,16 +231,16 @@ public class ExplosionsDeactivateRendererByTime : MonoBehaviour // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x8D1B30 Offset: 0x8D0130 VA: 0x1808D1B30
+	// RVA: 0x8D2040 Offset: 0x8D0640 VA: 0x1808D2040
 	private void Awake() { }
 
-	// RVA: 0x8D1B80 Offset: 0x8D0180 VA: 0x1808D1B80
+	// RVA: 0x8D2090 Offset: 0x8D0690 VA: 0x1808D2090
 	private void DeactivateRenderer() { }
 
-	// RVA: 0x8D1BB0 Offset: 0x8D01B0 VA: 0x1808D1BB0
+	// RVA: 0x8D20C0 Offset: 0x8D06C0 VA: 0x1808D20C0
 	private void OnEnable() { }
 
-	// RVA: 0x571960 Offset: 0x56FF60 VA: 0x180571960
+	// RVA: 0x5718F0 Offset: 0x56FEF0 VA: 0x1805718F0
 	public void .ctor() { }
 
 }
@@ -256,16 +256,16 @@ public class ExplosionsLightCurves : MonoBehaviour // TypeDefIndex: 11498
 
 	// Methods
 
-	// RVA: 0x8D1E50 Offset: 0x8D0450 VA: 0x1808D1E50
+	// RVA: 0x8D2360 Offset: 0x8D0960 VA: 0x1808D2360
 	private void Awake() { }
 
-	// RVA: 0x8D1EE0 Offset: 0x8D04E0 VA: 0x1808D1EE0
+	// RVA: 0x8D23F0 Offset: 0x8D09F0 VA: 0x1808D23F0
 	private void OnEnable() { }
 
-	// RVA: 0x8D1F00 Offset: 0x8D0500 VA: 0x1808D1F00
+	// RVA: 0x8D2410 Offset: 0x8D0A10 VA: 0x1808D2410
 	private void Update() { }
 
-	// RVA: 0x8D1F70 Offset: 0x8D0570 VA: 0x1808D1F70
+	// RVA: 0x8D2480 Offset: 0x8D0A80 VA: 0x1808D2480
 	public void .ctor() { }
 
 }
@@ -282,7 +282,7 @@ public class ExplosionsParticleSystemScaler : MonoBehaviour // TypeDefIndex: 114
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void Update() { }
 
-	// RVA: 0x571960 Offset: 0x56FF60 VA: 0x180571960
+	// RVA: 0x5718F0 Offset: 0x56FEF0 VA: 0x1805718F0
 	public void .ctor() { }
 
 }
@@ -302,16 +302,16 @@ public class ExplosionsScaleCurves : MonoBehaviour // TypeDefIndex: 11500
 
 	// Methods
 
-	// RVA: 0x8D1FD0 Offset: 0x8D05D0 VA: 0x1808D1FD0
+	// RVA: 0x8D24E0 Offset: 0x8D0AE0 VA: 0x1808D24E0
 	private void Awake() { }
 
-	// RVA: 0x8D2000 Offset: 0x8D0600 VA: 0x1808D2000
+	// RVA: 0x8D2510 Offset: 0x8D0B10 VA: 0x1808D2510
 	private void OnEnable() { }
 
-	// RVA: 0x8D2030 Offset: 0x8D0630 VA: 0x1808D2030
+	// RVA: 0x8D2540 Offset: 0x8D0B40 VA: 0x1808D2540
 	private void Update() { }
 
-	// RVA: 0x8D2160 Offset: 0x8D0760 VA: 0x1808D2160
+	// RVA: 0x8D2670 Offset: 0x8D0C70 VA: 0x1808D2670
 	public void .ctor() { }
 
 }
@@ -330,16 +330,16 @@ public class ExplosionsShaderColorGradient : MonoBehaviour // TypeDefIndex: 1150
 
 	// Methods
 
-	// RVA: 0x8D22A0 Offset: 0x8D08A0 VA: 0x1808D22A0
+	// RVA: 0x8D27B0 Offset: 0x8D0DB0 VA: 0x1808D27B0
 	private void Start() { }
 
-	// RVA: 0x8D2280 Offset: 0x8D0880 VA: 0x1808D2280
+	// RVA: 0x8D2790 Offset: 0x8D0D90 VA: 0x1808D2790
 	private void OnEnable() { }
 
-	// RVA: 0x8D2410 Offset: 0x8D0A10 VA: 0x1808D2410
+	// RVA: 0x8D2920 Offset: 0x8D0F20 VA: 0x1808D2920
 	private void Update() { }
 
-	// RVA: 0x8D24E0 Offset: 0x8D0AE0 VA: 0x1808D24E0
+	// RVA: 0x8D29F0 Offset: 0x8D0FF0 VA: 0x1808D29F0
 	public void .ctor() { }
 
 }
@@ -358,16 +358,16 @@ public class ExplosionsShaderFloatCurves : MonoBehaviour // TypeDefIndex: 11502
 
 	// Methods
 
-	// RVA: 0x8D2580 Offset: 0x8D0B80 VA: 0x1808D2580
+	// RVA: 0x8D2A90 Offset: 0x8D1090 VA: 0x1808D2A90
 	private void Start() { }
 
-	// RVA: 0x8D2560 Offset: 0x8D0B60 VA: 0x1808D2560
+	// RVA: 0x8D2A70 Offset: 0x8D1070 VA: 0x1808D2A70
 	private void OnEnable() { }
 
-	// RVA: 0x8D26C0 Offset: 0x8D0CC0 VA: 0x1808D26C0
+	// RVA: 0x8D2BD0 Offset: 0x8D11D0 VA: 0x1808D2BD0
 	private void Update() { }
 
-	// RVA: 0x8D2740 Offset: 0x8D0D40 VA: 0x1808D2740
+	// RVA: 0x8D2C50 Offset: 0x8D1250 VA: 0x1808D2C50
 	public void .ctor() { }
 
 }
@@ -379,16 +379,16 @@ public class ExplosionsShaderQueue : MonoBehaviour // TypeDefIndex: 11503
 
 	// Methods
 
-	// RVA: 0x8D28E0 Offset: 0x8D0EE0 VA: 0x1808D28E0
+	// RVA: 0x8D2DF0 Offset: 0x8D13F0 VA: 0x1808D2DF0
 	private void Start() { }
 
-	// RVA: 0x8D2860 Offset: 0x8D0E60 VA: 0x1808D2860
+	// RVA: 0x8D2D70 Offset: 0x8D1370 VA: 0x1808D2D70
 	private void SetProjectorQueue() { }
 
-	// RVA: 0x8D27D0 Offset: 0x8D0DD0 VA: 0x1808D27D0
+	// RVA: 0x8D2CE0 Offset: 0x8D12E0 VA: 0x1808D2CE0
 	private void OnDisable() { }
 
-	// RVA: 0x8D29D0 Offset: 0x8D0FD0 VA: 0x1808D29D0
+	// RVA: 0x8D2EE0 Offset: 0x8D14E0 VA: 0x1808D2EE0
 	public void .ctor() { }
 
 }
@@ -418,38 +418,38 @@ internal class ExplosionsSpriteSheetAnimation : MonoBehaviour // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0x8D2E80 Offset: 0x8D1480 VA: 0x1808D2E80
+	// RVA: 0x8D3390 Offset: 0x8D1990 VA: 0x1808D3390
 	private void Start() { }
 
-	// RVA: 0x8D29E0 Offset: 0x8D0FE0 VA: 0x1808D29E0
+	// RVA: 0x8D2EF0 Offset: 0x8D14F0 VA: 0x1808D2EF0
 	private void InitDefaultVariables() { }
 
-	// RVA: 0x8D2E00 Offset: 0x8D1400 VA: 0x1808D2E00
+	// RVA: 0x8D3310 Offset: 0x8D1910 VA: 0x1808D3310
 	private void Play() { }
 
-	// RVA: 0x8D2D90 Offset: 0x8D1390 VA: 0x1808D2D90
+	// RVA: 0x8D32A0 Offset: 0x8D18A0 VA: 0x1808D32A0
 	private void PlayDelay() { }
 
-	// RVA: 0x8D2D60 Offset: 0x8D1360 VA: 0x1808D2D60
+	// RVA: 0x8D3270 Offset: 0x8D1870 VA: 0x1808D3270
 	private void OnEnable() { }
 
-	// RVA: 0x8D2D10 Offset: 0x8D1310 VA: 0x1808D2D10
+	// RVA: 0x8D3220 Offset: 0x8D1820 VA: 0x1808D3220
 	private void OnDisable() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xB8830 Offset: 0xB7C30 VA: 0x1800B8830
-	// RVA: 0x8D2EF0 Offset: 0x8D14F0 VA: 0x1808D2EF0
+	// RVA: 0x8D3400 Offset: 0x8D1A00 VA: 0x1808D3400
 	private IEnumerator UpdateCorutine() { }
 
-	// RVA: 0x8D2F60 Offset: 0x8D1560 VA: 0x1808D2F60
+	// RVA: 0x8D3470 Offset: 0x8D1A70 VA: 0x1808D3470
 	private void UpdateFrame() { }
 
-	// RVA: 0x8D3090 Offset: 0x8D1690 VA: 0x1808D3090
+	// RVA: 0x8D35A0 Offset: 0x8D1BA0 VA: 0x1808D35A0
 	private void Update() { }
 
-	// RVA: 0x8D2C60 Offset: 0x8D1260 VA: 0x1808D2C60
+	// RVA: 0x8D3170 Offset: 0x8D1770 VA: 0x1808D3170
 	private void OnDestroy() { }
 
-	// RVA: 0x8D3260 Offset: 0x8D1860 VA: 0x1808D3260
+	// RVA: 0x8D3770 Offset: 0x8D1D70 VA: 0x1808D3770
 	public void .ctor() { }
 
 }
@@ -474,7 +474,7 @@ private sealed class ExplosionsSpriteSheetAnimation.<UpdateCorutine>d__26 : IEnu
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x8D9B00 Offset: 0x8D8100 VA: 0x1808D9B00 Slot: 6
+	// RVA: 0x8DA010 Offset: 0x8D8610 VA: 0x1808DA010 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -482,7 +482,7 @@ private sealed class ExplosionsSpriteSheetAnimation.<UpdateCorutine>d__26 : IEnu
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8D9DB0 Offset: 0x8D83B0 VA: 0x1808D9DB0 Slot: 8
+	// RVA: 0x8DA2C0 Offset: 0x8D88C0 VA: 0x1808DA2C0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

@@ -6,25 +6,25 @@ public class SwapArrows : MonoBehaviour, IClientComponent // TypeDefIndex: 11445
 
 	// Methods
 
-	// RVA: 0x7A6900 Offset: 0x7A4F00 VA: 0x1807A6900
+	// RVA: 0x7C4D00 Offset: 0x7C3300 VA: 0x1807C4D00
 	public void SelectArrowType(int iType) { }
 
-	// RVA: 0x7A6820 Offset: 0x7A4E20 VA: 0x1807A6820
+	// RVA: 0x7C4C20 Offset: 0x7C3220 VA: 0x1807C4C20
 	public void HideAllArrowHeads() { }
 
-	// RVA: 0x7A69C0 Offset: 0x7A4FC0 VA: 0x1807A69C0
+	// RVA: 0x7C4DC0 Offset: 0x7C33C0 VA: 0x1807C4DC0
 	public void UpdateAmmoType(ItemDefinition ammoType, bool hidden = False) { }
 
-	// RVA: 0x7A6780 Offset: 0x7A4D80 VA: 0x1807A6780
+	// RVA: 0x7C4B80 Offset: 0x7C3180 VA: 0x1807C4B80
 	private void Cleanup() { }
 
-	// RVA: 0x7A6880 Offset: 0x7A4E80 VA: 0x1807A6880
+	// RVA: 0x7C4C80 Offset: 0x7C3280 VA: 0x1807C4C80
 	public void OnDisable() { }
 
-	// RVA: 0x7A68F0 Offset: 0x7A4EF0 VA: 0x1807A68F0
+	// RVA: 0x7C4CF0 Offset: 0x7C32F0 VA: 0x1807C4CF0
 	public void OnEnable() { }
 
-	// RVA: 0x7A6B70 Offset: 0x7A5170 VA: 0x1807A6B70
+	// RVA: 0x7C4F70 Offset: 0x7C3570 VA: 0x1807C4F70
 	public void .ctor() { }
 
 }

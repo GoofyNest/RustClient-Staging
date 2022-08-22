@@ -9,10 +9,10 @@ public class PlaceRiverObjects : ProceduralComponent // TypeDefIndex: 10559
 
 	// Methods
 
-	// RVA: 0x9194B0 Offset: 0x917AB0 VA: 0x1809194B0 Slot: 5
+	// RVA: 0x9199C0 Offset: 0x917FC0 VA: 0x1809199C0 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40
+	// RVA: 0x57BBD0 Offset: 0x57A1D0 VA: 0x18057BBD0
 	public void .ctor() { }
 
 }

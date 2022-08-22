@@ -7,25 +7,25 @@ internal class PropertyNameTable // TypeDefIndex: 5919
 
 	// Methods
 
-	// RVA: 0x180B9F0 Offset: 0x1809FF0 VA: 0x18180B9F0
+	// RVA: 0x17F8E30 Offset: 0x17F7430 VA: 0x1817F8E30
 	private static void .cctor() { }
 
-	// RVA: 0x180BA30 Offset: 0x180A030 VA: 0x18180BA30
+	// RVA: 0x17F8E70 Offset: 0x17F7470 VA: 0x1817F8E70
 	public void .ctor() { }
 
-	// RVA: 0x180B660 Offset: 0x1809C60 VA: 0x18180B660
+	// RVA: 0x17F8AA0 Offset: 0x17F70A0 VA: 0x1817F8AA0
 	public string Get(char[] key, int start, int length) { }
 
-	// RVA: 0x180B4C0 Offset: 0x1809AC0 VA: 0x18180B4C0
+	// RVA: 0x17F8900 Offset: 0x17F6F00 VA: 0x1817F8900
 	public string Add(string key) { }
 
-	// RVA: 0x180B240 Offset: 0x1809840 VA: 0x18180B240
+	// RVA: 0x17F8680 Offset: 0x17F6C80 VA: 0x1817F8680
 	private string AddEntry(string str, int hashCode) { }
 
-	// RVA: 0x180B890 Offset: 0x1809E90 VA: 0x18180B890
+	// RVA: 0x17F8CD0 Offset: 0x17F72D0 VA: 0x1817F8CD0
 	private void Grow() { }
 
-	// RVA: 0xF5FDD0 Offset: 0xF5E3D0 VA: 0x180F5FDD0
+	// RVA: 0xF60870 Offset: 0xF5EE70 VA: 0x180F60870
 	private static bool TextEquals(string str1, char[] str2, int str2Start, int str2Length) { }
 
 }
@@ -38,7 +38,7 @@ private class PropertyNameTable.Entry // TypeDefIndex: 5920
 
 	// Methods
 
-	// RVA: 0xF5EED0 Offset: 0xF5D4D0 VA: 0x180F5EED0
+	// RVA: 0xF5F970 Offset: 0xF5DF70 VA: 0x180F5F970
 	internal void .ctor(string value, int hashCode, PropertyNameTable.Entry next) { }
 
 }

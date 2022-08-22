@@ -1,7 +1,7 @@
 public class SimpleBuildingBlock : StabilityEntity // TypeDefIndex: 9485
 {	// Methods
 
-	// RVA: 0x59D5A0 Offset: 0x59BBA0 VA: 0x18059D5A0
+	// RVA: 0x59D530 Offset: 0x59BB30 VA: 0x18059D530
 	public void .ctor() { }
 
 }

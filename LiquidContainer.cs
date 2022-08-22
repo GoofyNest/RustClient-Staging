@@ -16,38 +16,38 @@ public class LiquidContainer : ContainerIOEntity // TypeDefIndex: 8404
 
 	// Methods
 
-	// RVA: 0x4F38E0 Offset: 0x4F1EE0 VA: 0x1804F38E0 Slot: 49
+	// RVA: 0x4F3870 Offset: 0x4F1E70 VA: 0x1804F3870 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x4F3E20 Offset: 0x4F2420 VA: 0x1804F3E20 Slot: 50
+	// RVA: 0x4F3DB0 Offset: 0x4F23B0 VA: 0x1804F3DB0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x4F3CC0 Offset: 0x4F22C0 VA: 0x1804F3CC0 Slot: 35
+	// RVA: 0x4F3C50 Offset: 0x4F2250 VA: 0x1804F3C50 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 146
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 146
 	public override bool get_IsGravitySource() { }
 
-	// RVA: 0x4F3DE0 Offset: 0x4F23E0 VA: 0x1804F3DE0 Slot: 157
+	// RVA: 0x4F3D70 Offset: 0x4F2370 VA: 0x1804F3D70 Slot: 157
 	protected override bool get_DisregardGravityRestrictionsOnLiquid() { }
 
 	[BaseEntity.Menu] // RVA: 0xEA3E0 Offset: 0xE97E0 VA: 0x1800EA3E0
 	[BaseEntity.Menu.Description] // RVA: 0xEA3E0 Offset: 0xE97E0 VA: 0x1800EA3E0
 	[BaseEntity.Menu.Icon] // RVA: 0xEA3E0 Offset: 0xE97E0 VA: 0x1800EA3E0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xEA3E0 Offset: 0xE97E0 VA: 0x1800EA3E0
-	// RVA: 0x4F3C80 Offset: 0x4F2280 VA: 0x1804F3C80
+	// RVA: 0x4F3C10 Offset: 0x4F2210 VA: 0x1804F3C10
 	public void MenuDrink(BasePlayer player) { }
 
-	// RVA: 0x4F3C00 Offset: 0x4F2200 VA: 0x1804F3C00 Slot: 167
+	// RVA: 0x4F3B90 Offset: 0x4F2190 VA: 0x1804F3B90 Slot: 167
 	public virtual bool MenuDrink_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 168
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 168
 	public virtual bool DrinkEligable(BasePlayer player) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 169
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 169
 	public virtual bool CanDrainIntoVessel(BasePlayer player) { }
 
-	// RVA: 0x4F3DB0 Offset: 0x4F23B0 VA: 0x1804F3DB0
+	// RVA: 0x4F3D40 Offset: 0x4F2340 VA: 0x1804F3D40
 	public void .ctor() { }
 
 }

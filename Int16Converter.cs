@@ -7,19 +7,19 @@ public class Int16Converter : BaseNumberConverter // TypeDefIndex: 2720
 
 	// Methods
 
-	// RVA: 0x15C8140 Offset: 0x15C6740 VA: 0x1815C8140 Slot: 17
+	// RVA: 0x15C7210 Offset: 0x15C5810 VA: 0x1815C7210 Slot: 17
 	internal override Type get_TargetType() { }
 
-	// RVA: 0x15C7FD0 Offset: 0x15C65D0 VA: 0x1815C7FD0 Slot: 18
+	// RVA: 0x15C70A0 Offset: 0x15C56A0 VA: 0x1815C70A0 Slot: 18
 	internal override object FromString(string value, int radix) { }
 
-	// RVA: 0x15C8050 Offset: 0x15C6650 VA: 0x1815C8050 Slot: 19
+	// RVA: 0x15C7120 Offset: 0x15C5720 VA: 0x1815C7120 Slot: 19
 	internal override object FromString(string value, NumberFormatInfo formatInfo) { }
 
-	// RVA: 0x15C80B0 Offset: 0x15C66B0 VA: 0x1815C80B0 Slot: 21
+	// RVA: 0x15C7180 Offset: 0x15C5780 VA: 0x1815C7180 Slot: 21
 	internal override string ToString(object value, NumberFormatInfo formatInfo) { }
 
-	// RVA: 0x15BE850 Offset: 0x15BCE50 VA: 0x1815BE850
+	// RVA: 0x15BD920 Offset: 0x15BBF20 VA: 0x1815BD920
 	public void .ctor() { }
 
 }

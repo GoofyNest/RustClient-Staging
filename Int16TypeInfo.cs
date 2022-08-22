@@ -1,13 +1,13 @@
 internal sealed class Int16TypeInfo : TraceLoggingTypeInfo<short> // TypeDefIndex: 1535
 {	// Methods
 
-	// RVA: 0x10DEB40 Offset: 0x10DD140 VA: 0x1810DEB40 Slot: 4
+	// RVA: 0x10DF5B0 Offset: 0x10DDBB0 VA: 0x1810DF5B0 Slot: 4
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 
-	// RVA: 0x10DEAE0 Offset: 0x10DD0E0 VA: 0x1810DEAE0 Slot: 7
+	// RVA: 0x10DF550 Offset: 0x10DDB50 VA: 0x1810DF550 Slot: 7
 	public override void WriteData(TraceLoggingDataCollector collector, ref short value) { }
 
-	// RVA: 0x10DEBD0 Offset: 0x10DD1D0 VA: 0x1810DEBD0
+	// RVA: 0x10DF640 Offset: 0x10DDC40 VA: 0x1810DF640
 	public void .ctor() { }
 
 }

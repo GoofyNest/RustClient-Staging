@@ -30,40 +30,40 @@ public class MusicTheme : ScriptableObject // TypeDefIndex: 9007
 
 	// Methods
 
-	// RVA: 0x7C2C20 Offset: 0x7C1220 VA: 0x1807C2C20
+	// RVA: 0x7E1010 Offset: 0x7DF610 VA: 0x1807E1010
 	public int get_layerCount() { }
 
-	// RVA: 0x7C2C60 Offset: 0x7C1260 VA: 0x1807C2C60
+	// RVA: 0x7E1050 Offset: 0x7DF650 VA: 0x1807E1050
 	public int get_samplesPerBar() { }
 
-	// RVA: 0x7C23E0 Offset: 0x7C09E0 VA: 0x1807C23E0
+	// RVA: 0x7E07D0 Offset: 0x7DEDD0 VA: 0x1807E07D0
 	private void OnValidate() { }
 
-	// RVA: 0x7C2290 Offset: 0x7C0890 VA: 0x1807C2290
+	// RVA: 0x7E0680 Offset: 0x7DEC80 VA: 0x1807E0680
 	public List<MusicTheme.PositionedClip> GetActiveClipsForBar(int bar) { }
 
-	// RVA: 0x7C1E50 Offset: 0x7C0450 VA: 0x1807C1E50
+	// RVA: 0x7E0240 Offset: 0x7DE840 VA: 0x1807E0240
 	private int ActiveClipCollectionID(int bar) { }
 
-	// RVA: 0x7C2370 Offset: 0x7C0970 VA: 0x1807C2370
+	// RVA: 0x7E0760 Offset: 0x7DED60 VA: 0x1807E0760
 	public MusicTheme.Layer LayerById(int id) { }
 
-	// RVA: 0x7C1EC0 Offset: 0x7C04C0 VA: 0x1807C1EC0
+	// RVA: 0x7E02B0 Offset: 0x7DE8B0 VA: 0x1807E02B0
 	public void AddLayer() { }
 
-	// RVA: 0x7C2910 Offset: 0x7C0F10 VA: 0x1807C2910
+	// RVA: 0x7E0D00 Offset: 0x7DF300 VA: 0x1807E0D00
 	private void UpdateLengthInBars() { }
 
-	// RVA: 0x7C1FB0 Offset: 0x7C05B0 VA: 0x1807C1FB0
+	// RVA: 0x7E03A0 Offset: 0x7DE9A0 VA: 0x1807E03A0
 	public bool CanPlayInEnvironment(int currentBiome, int currentTopology, float currentRain, float currentSnow, float currentWind) { }
 
-	// RVA: 0x7C21E0 Offset: 0x7C07E0 VA: 0x1807C21E0
+	// RVA: 0x7E05D0 Offset: 0x7DEBD0 VA: 0x1807E05D0
 	public bool FirstClipsLoaded() { }
 
-	// RVA: 0x7C2180 Offset: 0x7C0780 VA: 0x1807C2180
+	// RVA: 0x7E0570 Offset: 0x7DEB70 VA: 0x1807E0570
 	public bool ContainsAudioClip(AudioClip clip) { }
 
-	// RVA: 0x7C2A10 Offset: 0x7C1010 VA: 0x1807C2A10
+	// RVA: 0x7E0E00 Offset: 0x7DF400 VA: 0x1807E0E00
 	public void .ctor() { }
 
 }
@@ -74,7 +74,7 @@ public class MusicTheme.Layer // TypeDefIndex: 9008
 
 	// Methods
 
-	// RVA: 0x7B5830 Offset: 0x7B3E30 VA: 0x1807B5830
+	// RVA: 0x7D3C20 Offset: 0x7D2220 VA: 0x1807D3C20
 	public void .ctor() { }
 
 }
@@ -102,19 +102,19 @@ public class MusicTheme.PositionedClip // TypeDefIndex: 9009
 
 	// Methods
 
-	// RVA: 0x7CED60 Offset: 0x7CD360 VA: 0x1807CED60
+	// RVA: 0x7ED150 Offset: 0x7EB750 VA: 0x1807ED150
 	public int get_endingBar() { }
 
-	// RVA: 0x7CEBF0 Offset: 0x7CD1F0 VA: 0x1807CEBF0
+	// RVA: 0x7ECFE0 Offset: 0x7EB5E0 VA: 0x1807ECFE0
 	public bool CanPlay(float intensity) { }
 
-	// RVA: 0x7CEDF0 Offset: 0x7CD3F0 VA: 0x1807CEDF0
+	// RVA: 0x7ED1E0 Offset: 0x7EB7E0 VA: 0x1807ED1E0
 	public bool get_isControlClip() { }
 
-	// RVA: 0x7CEC20 Offset: 0x7CD220 VA: 0x1807CEC20
+	// RVA: 0x7ED010 Offset: 0x7EB610 VA: 0x1807ED010
 	public void CopySettingsFrom(MusicTheme.PositionedClip otherClip) { }
 
-	// RVA: 0x7CED30 Offset: 0x7CD330 VA: 0x1807CED30
+	// RVA: 0x7ED120 Offset: 0x7EB720 VA: 0x1807ED120
 	public void .ctor() { }
 
 }
@@ -126,7 +126,7 @@ public class MusicTheme.ValueRange // TypeDefIndex: 9010
 
 	// Methods
 
-	// RVA: 0x7D0260 Offset: 0x7CE860 VA: 0x1807D0260
+	// RVA: 0x7EE650 Offset: 0x7ECC50 VA: 0x1807EE650
 	public void .ctor(float min, float max) { }
 
 }

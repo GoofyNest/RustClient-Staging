@@ -6,19 +6,19 @@ public class FoliageGridMeshData // TypeDefIndex: 11372
 
 	// Methods
 
-	// RVA: 0x74C680 Offset: 0x74AC80 VA: 0x18074C680
+	// RVA: 0x74C5D0 Offset: 0x74ABD0 VA: 0x18074C5D0
 	public void Alloc() { }
 
-	// RVA: 0x74CFC0 Offset: 0x74B5C0 VA: 0x18074CFC0
+	// RVA: 0x74CF10 Offset: 0x74B510 VA: 0x18074CF10
 	public void Free() { }
 
-	// RVA: 0x74C860 Offset: 0x74AE60 VA: 0x18074C860
+	// RVA: 0x74C7B0 Offset: 0x74ADB0 VA: 0x18074C7B0
 	public void Clear() { }
 
-	// RVA: 0x74C8C0 Offset: 0x74AEC0 VA: 0x18074C8C0
+	// RVA: 0x74C810 Offset: 0x74AE10 VA: 0x18074C810
 	public void Combine(MeshGroup meshGroup) { }
 
-	// RVA: 0x74C740 Offset: 0x74AD40 VA: 0x18074C740
+	// RVA: 0x74C690 Offset: 0x74AC90 VA: 0x18074C690
 	public void Apply(Mesh mesh) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -38,7 +38,7 @@ public struct FoliageGridMeshData.FoliageVertex // TypeDefIndex: 11373
 
 	// Methods
 
-	// RVA: 0x7504B0 Offset: 0x74EAB0 VA: 0x1807504B0
+	// RVA: 0x750400 Offset: 0x74EA00 VA: 0x180750400
 	private static void .cctor() { }
 
 }

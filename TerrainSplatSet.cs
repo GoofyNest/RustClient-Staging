@@ -4,10 +4,10 @@ public class TerrainSplatSet : TerrainModifier // TypeDefIndex: 10581
 
 	// Methods
 
-	// RVA: 0x87CBF0 Offset: 0x87B1F0 VA: 0x18087CBF0 Slot: 8
+	// RVA: 0x85FF30 Offset: 0x85E530 VA: 0x18085FF30 Slot: 8
 	protected override void Apply(Vector3 position, float opacity, float radius, float fade) { }
 
-	// RVA: 0x87CD30 Offset: 0x87B330 VA: 0x18087CD30
+	// RVA: 0x860070 Offset: 0x85E670 VA: 0x180860070
 	public void .ctor() { }
 
 }

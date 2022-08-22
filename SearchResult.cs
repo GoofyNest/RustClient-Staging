@@ -10,7 +10,7 @@ internal sealed class SearchResult // TypeDefIndex: 631
 
 	// Methods
 
-	// RVA: 0x1473FD0 Offset: 0x14725D0 VA: 0x181473FD0
+	// RVA: 0x14730A0 Offset: 0x14716A0 VA: 0x1814730A0
 	internal void .ctor(string fullPath, string userPath, Win32Native.WIN32_FIND_DATA findData) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880

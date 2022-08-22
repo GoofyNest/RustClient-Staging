@@ -6,13 +6,13 @@ public class GreyScaleRenderer : PostProcessEffectRenderer<GreyScale> // TypeDef
 
 	// Methods
 
-	// RVA: 0xCA57B0 Offset: 0xCA3DB0 VA: 0x180CA57B0 Slot: 4
+	// RVA: 0xCA5C50 Offset: 0xCA4250 VA: 0x180CA5C50 Slot: 4
 	public override void Init() { }
 
-	// RVA: 0xCA5800 Offset: 0xCA3E00 VA: 0x180CA5800 Slot: 8
+	// RVA: 0xCA5CA0 Offset: 0xCA42A0 VA: 0x180CA5CA0 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0xCA5B10 Offset: 0xCA4110 VA: 0x180CA5B10
+	// RVA: 0xCA5FB0 Offset: 0xCA45B0 VA: 0x180CA5FB0
 	public void .ctor() { }
 
 }

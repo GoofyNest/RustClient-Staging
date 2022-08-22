@@ -76,74 +76,74 @@ public class CardTableUI : UIDialog // TypeDefIndex: 10875
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x701920 Offset: 0x6FFF20 VA: 0x180701920
+	// RVA: 0x701870 Offset: 0x6FFE70 VA: 0x180701870
 	public CardTableUI.ICardGameSubUI get_curGameTypeUI() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7019B0 Offset: 0x6FFFB0 VA: 0x1807019B0
+	// RVA: 0x701900 Offset: 0x6FFF00 VA: 0x180701900
 	private void set_curGameTypeUI(CardTableUI.ICardGameSubUI value) { }
 
-	// RVA: 0x701930 Offset: 0x6FFF30 VA: 0x180701930
+	// RVA: 0x701880 Offset: 0x6FFE80 VA: 0x180701880
 	private float get_dismountNormalisedProgress() { }
 
-	// RVA: 0x6FF1A0 Offset: 0x6FD7A0 VA: 0x1806FF1A0
+	// RVA: 0x6FF0F0 Offset: 0x6FD6F0 VA: 0x1806FF0F0
 	protected void Awake() { }
 
-	// RVA: 0x7010A0 Offset: 0x6FF6A0 VA: 0x1807010A0
+	// RVA: 0x700FF0 Offset: 0x6FF5F0 VA: 0x180700FF0
 	protected void Update() { }
 
-	// RVA: 0x6FFB20 Offset: 0x6FE120 VA: 0x1806FFB20
+	// RVA: 0x6FFA70 Offset: 0x6FE070 VA: 0x1806FFA70
 	public void OnPlayerPressedEscape() { }
 
-	// RVA: 0x6FF660 Offset: 0x6FDC60 VA: 0x1806FF660 Slot: 9
+	// RVA: 0x6FF5B0 Offset: 0x6FDBB0 VA: 0x1806FF5B0 Slot: 9
 	public override void CloseDialog() { }
 
-	// RVA: 0x6FF9D0 Offset: 0x6FDFD0 VA: 0x1806FF9D0 Slot: 7
+	// RVA: 0x6FF920 Offset: 0x6FDF20 VA: 0x1806FF920 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x700660 Offset: 0x6FEC60 VA: 0x180700660
+	// RVA: 0x7005B0 Offset: 0x6FEBB0 VA: 0x1807005B0
 	public void SetOwner(CardTable owner) { }
 
-	// RVA: 0x6FFC70 Offset: 0x6FE270 VA: 0x1806FFC70 Slot: 8
+	// RVA: 0x6FFBC0 Offset: 0x6FE1C0 VA: 0x1806FFBC0 Slot: 8
 	public override void OpenDialog() { }
 
-	// RVA: 0x6FF820 Offset: 0x6FDE20 VA: 0x1806FF820
+	// RVA: 0x6FF770 Offset: 0x6FDD70 VA: 0x1806FF770
 	public static Sprite GetImage(int cardIndex, CardTableUI.CardType type) { }
 
-	// RVA: 0x7002D0 Offset: 0x6FE8D0 VA: 0x1807002D0
+	// RVA: 0x700220 Offset: 0x6FE820 VA: 0x180700220
 	public void SetImage(Image image, int cardIndex, CardTableUI.CardType size) { }
 
-	// RVA: 0x700190 Offset: 0x6FE790 VA: 0x180700190
+	// RVA: 0x7000E0 Offset: 0x6FE6E0 VA: 0x1807000E0
 	public void SetImage(Image image, Sprite sprite) { }
 
-	// RVA: 0x700A30 Offset: 0x6FF030 VA: 0x180700A30
+	// RVA: 0x700980 Offset: 0x6FEF80 VA: 0x180700980
 	public void ShowTimer() { }
 
-	// RVA: 0x6FF9A0 Offset: 0x6FDFA0 VA: 0x1806FF9A0
+	// RVA: 0x6FF8F0 Offset: 0x6FDEF0 VA: 0x1806FF8F0
 	public void HideTimer() { }
 
-	// RVA: 0x7000D0 Offset: 0x6FE6D0 VA: 0x1807000D0
+	// RVA: 0x700020 Offset: 0x6FE620 VA: 0x180700020
 	private void RefreshUIState(CardPlayerData localPlayerData, bool forced = False) { }
 
-	// RVA: 0x7006E0 Offset: 0x6FECE0 VA: 0x1807006E0
+	// RVA: 0x700630 Offset: 0x6FEC30 VA: 0x180700630
 	private void SetUIState(CardTableUI.UIState newState, bool forced = False) { }
 
-	// RVA: 0x700B20 Offset: 0x6FF120 VA: 0x180700B20
+	// RVA: 0x700A70 Offset: 0x6FF070 VA: 0x180700A70
 	private void UpdateVitals() { }
 
-	// RVA: 0x700590 Offset: 0x6FEB90 VA: 0x180700590
+	// RVA: 0x7004E0 Offset: 0x6FEAE0 VA: 0x1807004E0
 	private void SetInfoUI(CardTableUI.InfoTextUI infoTextUI, string text, CardTableUI.InfoTextUI.Attitude attitude) { }
 
-	// RVA: 0x6FFD40 Offset: 0x6FE340 VA: 0x1806FFD40
+	// RVA: 0x6FFC90 Offset: 0x6FE290 VA: 0x1806FFC90
 	private void RefreshAvailableInputs(CardPlayerData localPlayerData) { }
 
-	// RVA: 0x6FFB20 Offset: 0x6FE120 VA: 0x1806FFB20
+	// RVA: 0x6FFA70 Offset: 0x6FE070 VA: 0x1806FFA70
 	private void StartDismountTime() { }
 
-	// RVA: 0x6FF5B0 Offset: 0x6FDBB0 VA: 0x1806FF5B0
+	// RVA: 0x6FF500 Offset: 0x6FDB00 VA: 0x1806FF500
 	private void CheckDismount() { }
 
-	// RVA: 0x7018B0 Offset: 0x6FFEB0 VA: 0x1807018B0
+	// RVA: 0x701800 Offset: 0x6FFE00 VA: 0x180701800
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

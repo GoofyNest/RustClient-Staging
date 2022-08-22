@@ -31,47 +31,47 @@ public struct Query // TypeDefIndex: 5279
 
 	// Methods
 
-	// RVA: 0x224A70 Offset: 0x223E70 VA: 0x180224A70
+	// RVA: 0x21FFF0 Offset: 0x21F3F0 VA: 0x18021FFF0
 	public void .ctor(UgcType type) { }
 
-	// RVA: 0x19D7080 Offset: 0x19D5680 VA: 0x1819D7080
+	// RVA: 0x19C4480 Offset: 0x19C2A80 VA: 0x1819C4480
 	public static Query get_All() { }
 
-	// RVA: 0x224740 Offset: 0x223B40 VA: 0x180224740
+	// RVA: 0x21FCC0 Offset: 0x21F0C0 VA: 0x18021FCC0
 	public Query RankedByPublicationDate() { }
 
-	// RVA: 0x2246E0 Offset: 0x223AE0 VA: 0x1802246E0
+	// RVA: 0x21FC60 Offset: 0x21F060 VA: 0x18021FC60
 	public Query RankedByAcceptanceDate() { }
 
-	// RVA: 0x2247A0 Offset: 0x223BA0 VA: 0x1802247A0
+	// RVA: 0x21FD20 Offset: 0x21F120 VA: 0x18021FD20
 	public Query RankedByTrend() { }
 
-	// RVA: 0x224610 Offset: 0x223A10 VA: 0x180224610
+	// RVA: 0x21FB90 Offset: 0x21EF90 VA: 0x18021FB90
 	internal Query LimitUser(SteamId steamid) { }
 
-	// RVA: 0x224800 Offset: 0x223C00 VA: 0x180224800
+	// RVA: 0x21FD80 Offset: 0x21F180 VA: 0x18021FD80
 	public Query WhereUserPublished(SteamId user) { }
 
-	// RVA: 0x224890 Offset: 0x223C90 VA: 0x180224890
+	// RVA: 0x21FE10 Offset: 0x21F210 VA: 0x18021FE10
 	public Query WithFileId(PublishedFileId[] files) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x9F740 Offset: 0x9EB40 VA: 0x18009F740
-	// RVA: 0x224600 Offset: 0x223A00 VA: 0x180224600
+	// RVA: 0x21FB80 Offset: 0x21EF80 VA: 0x18021FB80
 	public Task<Nullable<ResultPage>> GetPageAsync(int page) { }
 
-	// RVA: 0x2249B0 Offset: 0x223DB0 VA: 0x1802249B0
+	// RVA: 0x21FF30 Offset: 0x21F330 VA: 0x18021FF30
 	public Query WithTrendDays(int days) { }
 
-	// RVA: 0x224630 Offset: 0x223A30 VA: 0x180224630
+	// RVA: 0x21FBB0 Offset: 0x21EFB0 VA: 0x18021FBB0
 	public Query MatchAllTags() { }
 
-	// RVA: 0x2248B0 Offset: 0x223CB0 VA: 0x1802248B0
+	// RVA: 0x21FE30 Offset: 0x21F230 VA: 0x18021FE30
 	public Query WithTag(string tag) { }
 
-	// RVA: 0x2245E0 Offset: 0x2239E0 VA: 0x1802245E0
+	// RVA: 0x21FB60 Offset: 0x21EF60 VA: 0x18021FB60
 	private void ApplyConstraints(UGCQueryHandle_t handle) { }
 
-	// RVA: 0x2245F0 Offset: 0x2239F0 VA: 0x1802245F0
+	// RVA: 0x21FB70 Offset: 0x21EF70 VA: 0x18021FB70
 	private void ApplyReturns(UGCQueryHandle_t handle) { }
 
 }
@@ -86,11 +86,11 @@ private struct Query.<GetPageAsync>d__76 : IAsyncStateMachine // TypeDefIndex: 5
 
 	// Methods
 
-	// RVA: 0x224E10 Offset: 0x224210 VA: 0x180224E10 Slot: 4
+	// RVA: 0x220390 Offset: 0x21F790 VA: 0x180220390 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x224E20 Offset: 0x224220 VA: 0x180224E20 Slot: 5
+	// RVA: 0x2203A0 Offset: 0x21F7A0 VA: 0x1802203A0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

@@ -26,35 +26,35 @@ public class BaseCombatEntity : BaseEntity // TypeDefIndex: 8319
 
 	// Methods
 
-	// RVA: 0x7D7500 Offset: 0x7D5B00 VA: 0x1807D7500 Slot: 49
+	// RVA: 0x7A2E20 Offset: 0x7A1420 VA: 0x1807A2E20 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x7D8700 Offset: 0x7D6D00 VA: 0x1807D8700 Slot: 50
+	// RVA: 0x7A4020 Offset: 0x7A2620 VA: 0x1807A4020 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x7D7C50 Offset: 0x7D6250 VA: 0x1807D7C50 Slot: 35
+	// RVA: 0x7A3570 Offset: 0x7A1B70 VA: 0x1807A3570 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D7860 Offset: 0x7D5E60 VA: 0x1807D7860
+	// RVA: 0x7A3180 Offset: 0x7A1780 VA: 0x1807A3180
 	public void HitNotify(BaseEntity.RPCMessage rpc) { }
 
-	// RVA: 0x7D6F10 Offset: 0x7D5510 VA: 0x1807D6F10 Slot: 14
+	// RVA: 0x7A2830 Offset: 0x7A0E30 VA: 0x1807A2830 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x5064F0 Offset: 0x504AF0 VA: 0x1805064F0 Slot: 131
+	// RVA: 0x506480 Offset: 0x504A80 VA: 0x180506480 Slot: 131
 	public virtual bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0x7D73E0 Offset: 0x7D59E0 VA: 0x1807D73E0 Slot: 71
+	// RVA: 0x7A2D00 Offset: 0x7A1300 VA: 0x1807A2D00 Slot: 71
 	internal override Transform GetEyeTransform() { }
 
-	// RVA: 0x7D7C20 Offset: 0x7D6220 VA: 0x1807D7C20 Slot: 132
+	// RVA: 0x7A3540 Offset: 0x7A1B40 VA: 0x1807A3540 Slot: 132
 	protected virtual void OnLifeStateChanged() { }
 
-	// RVA: 0x7D7840 Offset: 0x7D5E40 VA: 0x1807D7840 Slot: 133
+	// RVA: 0x7A3160 Offset: 0x7A1760 VA: 0x1807A3160 Slot: 133
 	protected virtual int GetPickupCount() { }
 
-	// RVA: 0x7D6E70 Offset: 0x7D5470 VA: 0x1807D6E70 Slot: 134
+	// RVA: 0x7A2790 Offset: 0x7A0D90 VA: 0x1807A2790 Slot: 134
 	public virtual bool CanPickup(BasePlayer player) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 135
@@ -67,85 +67,85 @@ public class BaseCombatEntity : BaseEntity // TypeDefIndex: 8319
 	[BaseEntity.Menu.Description] // RVA: 0xB63B0 Offset: 0xB57B0 VA: 0x1800B63B0
 	[BaseEntity.Menu.Icon] // RVA: 0xB63B0 Offset: 0xB57B0 VA: 0x1800B63B0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xB63B0 Offset: 0xB57B0 VA: 0x1800B63B0
-	// RVA: 0x7D7AF0 Offset: 0x7D60F0 VA: 0x1807D7AF0
+	// RVA: 0x7A3410 Offset: 0x7A1A10 VA: 0x1807A3410
 	public void Menu_Pickup(BasePlayer player) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void Menu_Pickup_TimeStart() { }
 
-	// RVA: 0x7D7AD0 Offset: 0x7D60D0 VA: 0x1807D7AD0
+	// RVA: 0x7A33F0 Offset: 0x7A19F0 VA: 0x1807A33F0
 	public bool Menu_Pickup_If(BasePlayer player) { }
 
-	// RVA: 0x7D6DA0 Offset: 0x7D53A0 VA: 0x1807D6DA0 Slot: 137
+	// RVA: 0x7A26C0 Offset: 0x7A0CC0 VA: 0x1807A26C0 Slot: 137
 	public virtual List<ItemAmount> BuildCost() { }
 
-	// RVA: 0x7D7A10 Offset: 0x7D6010 VA: 0x1807D7A10 Slot: 138
+	// RVA: 0x7A3330 Offset: 0x7A1930 VA: 0x1807A3330 Slot: 138
 	public virtual bool IsDead() { }
 
-	// RVA: 0x7D7A00 Offset: 0x7D6000 VA: 0x1807D7A00 Slot: 139
+	// RVA: 0x7A3320 Offset: 0x7A1920 VA: 0x1807A3320 Slot: 139
 	public virtual bool IsAlive() { }
 
-	// RVA: 0x7D74F0 Offset: 0x7D5AF0 VA: 0x1807D74F0
+	// RVA: 0x7A2E10 Offset: 0x7A1410 VA: 0x1807A2E10
 	public BaseCombatEntity.Faction GetFaction() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 140
 	public virtual bool IsFriendly(BaseCombatEntity other) { }
 
-	// RVA: 0x7D87C0 Offset: 0x7D6DC0 VA: 0x1807D87C0
+	// RVA: 0x7A40E0 Offset: 0x7A26E0 VA: 0x1807A40E0
 	public float get_SecondsSinceDeath() { }
 
-	// RVA: 0x7D87E0 Offset: 0x7D6DE0 VA: 0x1807D87E0
+	// RVA: 0x7A4100 Offset: 0x7A2700 VA: 0x1807A4100
 	public float get_healthFraction() { }
 
-	// RVA: 0x7D8290 Offset: 0x7D6890 VA: 0x1807D8290 Slot: 27
+	// RVA: 0x7A3BB0 Offset: 0x7A21B0 VA: 0x1807A3BB0 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0x7D6FF0 Offset: 0x7D55F0 VA: 0x1807D6FF0 Slot: 31
+	// RVA: 0x7A2910 Offset: 0x7A0F10 VA: 0x1807A2910 Slot: 31
 	public override void DestroyShared() { }
 
-	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 141
+	// RVA: 0x568670 Offset: 0x566C70 VA: 0x180568670 Slot: 141
 	public virtual float GetThreatLevel() { }
 
-	// RVA: 0x7D8200 Offset: 0x7D6800 VA: 0x1807D8200 Slot: 114
+	// RVA: 0x7A3B20 Offset: 0x7A2120 VA: 0x1807A3B20 Slot: 114
 	public override float PenetrationResistance(HitInfo info) { }
 
-	// RVA: 0x7D8390 Offset: 0x7D6990 VA: 0x1807D8390 Slot: 142
+	// RVA: 0x7A3CB0 Offset: 0x7A22B0 VA: 0x1807A3CB0 Slot: 142
 	public virtual void ScaleDamage(HitInfo info) { }
 
-	// RVA: 0x7D84D0 Offset: 0x7D6AD0 VA: 0x1807D84D0
+	// RVA: 0x7A3DF0 Offset: 0x7A23F0 VA: 0x1807A3DF0
 	public HitArea SkeletonLookup(uint boneID) { }
 
-	// RVA: 0x7D7A20 Offset: 0x7D6020 VA: 0x1807D7A20 Slot: 34
+	// RVA: 0x7A3340 Offset: 0x7A1940 VA: 0x1807A3340 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x7D7850 Offset: 0x7D5E50 VA: 0x1807D7850
+	// RVA: 0x7A3170 Offset: 0x7A1770 VA: 0x1807A3170
 	public float get_health() { }
 
-	// RVA: 0x7D8830 Offset: 0x7D6E30 VA: 0x1807D8830
+	// RVA: 0x7A4150 Offset: 0x7A2750 VA: 0x1807A4150
 	public void set_health(float value) { }
 
-	// RVA: 0x7D7850 Offset: 0x7D5E50 VA: 0x1807D7850 Slot: 110
+	// RVA: 0x7A3170 Offset: 0x7A1770 VA: 0x1807A3170 Slot: 110
 	public override float Health() { }
 
-	// RVA: 0x7D7AC0 Offset: 0x7D60C0 VA: 0x1807D7AC0 Slot: 111
+	// RVA: 0x7A33E0 Offset: 0x7A19E0 VA: 0x1807A33E0 Slot: 111
 	public override float MaxHealth() { }
 
-	// RVA: 0x745C80 Offset: 0x744280 VA: 0x180745C80 Slot: 143
+	// RVA: 0x745BD0 Offset: 0x7441D0 VA: 0x180745BD0 Slot: 143
 	public virtual float StartHealth() { }
 
-	// RVA: 0x7D8580 Offset: 0x7D6B80 VA: 0x1807D8580 Slot: 144
+	// RVA: 0x7A3EA0 Offset: 0x7A24A0 VA: 0x1807A3EA0 Slot: 144
 	public virtual float StartMaxHealth() { }
 
-	// RVA: 0x7D8440 Offset: 0x7D6A40 VA: 0x1807D8440
+	// RVA: 0x7A3D60 Offset: 0x7A2360 VA: 0x1807A3D60
 	public void SetMaxHealth(float newMax) { }
 
-	// RVA: 0x7D7010 Offset: 0x7D5610 VA: 0x1807D7010
+	// RVA: 0x7A2930 Offset: 0x7A0F30 VA: 0x1807A2930
 	public void DoHitNotify(HitInfo info) { }
 
-	// RVA: 0x7D7B30 Offset: 0x7D6130 VA: 0x1807D7B30 Slot: 116
+	// RVA: 0x7A3450 Offset: 0x7A1A50 VA: 0x1807A3450 Slot: 116
 	public override void OnAttacked(HitInfo info) { }
 
-	// RVA: 0x7D85A0 Offset: 0x7D6BA0 VA: 0x1807D85A0
+	// RVA: 0x7A3EC0 Offset: 0x7A24C0 VA: 0x1807A3EC0
 	public void .ctor() { }
 
 }

@@ -13,7 +13,7 @@ public class GreyScale : PostProcessEffectSettings // TypeDefIndex: 10262
 
 	// Methods
 
-	// RVA: 0xCA5B70 Offset: 0xCA4170 VA: 0x180CA5B70
+	// RVA: 0xCA6010 Offset: 0xCA4610 VA: 0x180CA6010
 	public void .ctor() { }
 
 }

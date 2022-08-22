@@ -6,10 +6,10 @@ public class GeigerCounter : AttackEntity // TypeDefIndex: 9465
 
 	// Methods
 
-	// RVA: 0xC49DB0 Offset: 0xC483B0 VA: 0x180C49DB0
+	// RVA: 0xC4A280 Offset: 0xC48880 VA: 0x180C4A280
 	private void LateUpdate() { }
 
-	// RVA: 0xC4A020 Offset: 0xC48620 VA: 0x180C4A020
+	// RVA: 0xC4A4F0 Offset: 0xC48AF0 VA: 0x180C4A4F0
 	public void .ctor() { }
 
 }

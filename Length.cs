@@ -9,31 +9,31 @@ public struct Length : IEquatable<Length> // TypeDefIndex: 4709
 
 	// Methods
 
-	// RVA: 0x13A310 Offset: 0x139710 VA: 0x18013A310
+	// RVA: 0x13A130 Offset: 0x139530 VA: 0x18013A130
 	public float get_value() { }
 
-	// RVA: 0x13A300 Offset: 0x139700 VA: 0x18013A300
+	// RVA: 0x13A120 Offset: 0x139520 VA: 0x18013A120
 	public LengthUnit get_unit() { }
 
-	// RVA: 0x13A2E0 Offset: 0x1396E0 VA: 0x18013A2E0
+	// RVA: 0x13A100 Offset: 0x139500 VA: 0x18013A100
 	public void .ctor(float value) { }
 
-	// RVA: 0x13A2F0 Offset: 0x1396F0 VA: 0x18013A2F0
+	// RVA: 0x13A110 Offset: 0x139510 VA: 0x18013A110
 	public void .ctor(float value, LengthUnit unit) { }
 
-	// RVA: 0xEB2FD0 Offset: 0xEB15D0 VA: 0x180EB2FD0
+	// RVA: 0xEB3A80 Offset: 0xEB2080 VA: 0x180EB3A80
 	public static bool op_Equality(Length lhs, Length rhs) { }
 
-	// RVA: 0x13A0A0 Offset: 0x1394A0 VA: 0x18013A0A0 Slot: 4
+	// RVA: 0x139EC0 Offset: 0x1392C0 VA: 0x180139EC0 Slot: 4
 	public bool Equals(Length other) { }
 
-	// RVA: 0x13A0D0 Offset: 0x1394D0 VA: 0x18013A0D0 Slot: 0
+	// RVA: 0x139EF0 Offset: 0x1392F0 VA: 0x180139EF0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x13A190 Offset: 0x139590 VA: 0x18013A190 Slot: 2
+	// RVA: 0x139FB0 Offset: 0x1393B0 VA: 0x180139FB0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13A1D0 Offset: 0x1395D0 VA: 0x18013A1D0 Slot: 3
+	// RVA: 0x139FF0 Offset: 0x1393F0 VA: 0x180139FF0 Slot: 3
 	public override string ToString() { }
 
 }

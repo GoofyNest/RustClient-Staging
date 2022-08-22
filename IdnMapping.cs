@@ -6,46 +6,46 @@ public sealed class IdnMapping // TypeDefIndex: 743
 
 	// Methods
 
-	// RVA: 0x13838E0 Offset: 0x1381EE0 VA: 0x1813838E0
+	// RVA: 0x13829E0 Offset: 0x1380FE0 VA: 0x1813829E0
 	public void .ctor() { }
 
-	// RVA: 0x1382920 Offset: 0x1380F20 VA: 0x181382920 Slot: 0
+	// RVA: 0x1381A20 Offset: 0x1380020 VA: 0x181381A20 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1382BB0 Offset: 0x13811B0 VA: 0x181382BB0 Slot: 2
+	// RVA: 0x1381CB0 Offset: 0x13802B0 VA: 0x181381CB0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1382AC0 Offset: 0x13810C0 VA: 0x181382AC0
+	// RVA: 0x1381BC0 Offset: 0x13801C0 VA: 0x181381BC0
 	public string GetAscii(string unicode) { }
 
-	// RVA: 0x13829A0 Offset: 0x1380FA0 VA: 0x1813829A0
+	// RVA: 0x1381AA0 Offset: 0x13800A0 VA: 0x181381AA0
 	public string GetAscii(string unicode, int index, int count) { }
 
-	// RVA: 0x13826D0 Offset: 0x1380CD0 VA: 0x1813826D0
+	// RVA: 0x13817D0 Offset: 0x137FDD0 VA: 0x1813817D0
 	private string Convert(string input, int index, int count, bool toAscii) { }
 
-	// RVA: 0x1382F10 Offset: 0x1381510 VA: 0x181382F10
+	// RVA: 0x1382010 Offset: 0x1380610 VA: 0x181382010
 	private string ToAscii(string s, int offset) { }
 
-	// RVA: 0x13833C0 Offset: 0x13819C0 VA: 0x1813833C0
+	// RVA: 0x13824C0 Offset: 0x1380AC0 VA: 0x1813824C0
 	private void VerifyLength(string s, int offset) { }
 
-	// RVA: 0x1382DE0 Offset: 0x13813E0 VA: 0x181382DE0
+	// RVA: 0x1381EE0 Offset: 0x13804E0 VA: 0x181381EE0
 	private string NamePrep(string s, int offset) { }
 
-	// RVA: 0x13834C0 Offset: 0x1381AC0 VA: 0x1813834C0
+	// RVA: 0x13825C0 Offset: 0x1380BC0 VA: 0x1813825C0
 	private void VerifyProhibitedCharacters(string s, int offset) { }
 
-	// RVA: 0x13836C0 Offset: 0x1381CC0 VA: 0x1813836C0
+	// RVA: 0x13827C0 Offset: 0x1380DC0 VA: 0x1813827C0
 	private void VerifyStd3AsciiRules(string s, int offset) { }
 
-	// RVA: 0x1382CF0 Offset: 0x13812F0 VA: 0x181382CF0
+	// RVA: 0x1381DF0 Offset: 0x13803F0 VA: 0x181381DF0
 	public string GetUnicode(string ascii) { }
 
-	// RVA: 0x1382BD0 Offset: 0x13811D0 VA: 0x181382BD0
+	// RVA: 0x1381CD0 Offset: 0x13802D0 VA: 0x181381CD0
 	public string GetUnicode(string ascii, int index, int count) { }
 
-	// RVA: 0x1383220 Offset: 0x1381820 VA: 0x181383220
+	// RVA: 0x1382320 Offset: 0x1380920 VA: 0x181382320
 	private string ToUnicode(string s, int offset) { }
 
 }

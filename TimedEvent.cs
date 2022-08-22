@@ -10,17 +10,17 @@ public class TimedEvent : ITimedObject // TypeDefIndex: 7458
 
 	// Methods
 
-	// RVA: 0x2203390 Offset: 0x2201990 VA: 0x182203390
+	// RVA: 0x2203BB0 Offset: 0x22021B0 VA: 0x182203BB0
 	public void .ctor(MidiEvent midiEvent) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public MidiEvent get_Event() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 4
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 4
 	public long get_Time() { }
 
-	// RVA: 0x2203330 Offset: 0x2201930 VA: 0x182203330 Slot: 3
+	// RVA: 0x2203B50 Offset: 0x2202150 VA: 0x182203B50 Slot: 3
 	public override string ToString() { }
 
 }

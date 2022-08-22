@@ -12,13 +12,13 @@ internal struct LobbyGameCreated_t : ICallbackData // TypeDefIndex: 5341
 
 	// Methods
 
-	// RVA: 0x1EB600 Offset: 0x1EAA00 VA: 0x1801EB600 Slot: 5
+	// RVA: 0x1EBA20 Offset: 0x1EAE20 VA: 0x1801EBA20 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EB5F0 Offset: 0x1EA9F0 VA: 0x1801EB5F0 Slot: 4
+	// RVA: 0x1EBA10 Offset: 0x1EAE10 VA: 0x1801EBA10 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1373D90 Offset: 0x1372390 VA: 0x181373D90
+	// RVA: 0x1372E90 Offset: 0x1371490 VA: 0x181372E90
 	private static void .cctor() { }
 
 }

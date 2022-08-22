@@ -8,11 +8,11 @@ public abstract class PhraseRecognizer // TypeDefIndex: 3594
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21796D0 Offset: 0x2177CD0 VA: 0x1821796D0
+	// RVA: 0x2179EF0 Offset: 0x21784F0 VA: 0x182179EF0
 	private void InvokePhraseRecognizedEvent(string text, ConfidenceLevel confidence, SemanticMeaning[] semanticMeanings, long phraseStartFileTime, long phraseDurationTicks) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2179830 Offset: 0x2177E30 VA: 0x182179830
+	// RVA: 0x217A050 Offset: 0x2178650 VA: 0x18217A050
 	private static SemanticMeaning[] MarshalSemanticMeaning(IntPtr keys, IntPtr values, IntPtr valueSizes, int valueCount) { }
 
 }
@@ -23,10 +23,10 @@ public sealed class PhraseRecognizer.PhraseRecognizedDelegate : MulticastDelegat
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1A45370 Offset: 0x1A43970 VA: 0x181A45370 Slot: 12
+	// RVA: 0x1A9E170 Offset: 0x1A9C770 VA: 0x181A9E170 Slot: 12
 	public virtual void Invoke(PhraseRecognizedEventArgs args) { }
 
-	// RVA: 0x2179650 Offset: 0x2177C50 VA: 0x182179650 Slot: 13
+	// RVA: 0x2179E70 Offset: 0x2178470 VA: 0x182179E70 Slot: 13
 	public virtual IAsyncResult BeginInvoke(PhraseRecognizedEventArgs args, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

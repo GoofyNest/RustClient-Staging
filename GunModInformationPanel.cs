@@ -10,13 +10,13 @@ public class GunModInformationPanel : ItemInformationPanel // TypeDefIndex: 1100
 
 	// Methods
 
-	// RVA: 0x7313A0 Offset: 0x72F9A0 VA: 0x1807313A0 Slot: 4
+	// RVA: 0x7312F0 Offset: 0x72F8F0 VA: 0x1807312F0 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x731490 Offset: 0x72FA90 VA: 0x180731490 Slot: 5
+	// RVA: 0x7313E0 Offset: 0x72F9E0 VA: 0x1807313E0 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

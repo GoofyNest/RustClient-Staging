@@ -1,13 +1,13 @@
 internal class ListFacetsChecker : FacetsChecker // TypeDefIndex: 2256
 {	// Methods
 
-	// RVA: 0xB11500 Offset: 0xB0FB00 VA: 0x180B11500 Slot: 5
+	// RVA: 0xB119D0 Offset: 0xB0FFD0 VA: 0x180B119D0 Slot: 5
 	internal override Exception CheckValueFacets(object value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB11730 Offset: 0xB0FD30 VA: 0x180B11730 Slot: 17
+	// RVA: 0xB11C00 Offset: 0xB10200 VA: 0x180B11C00 Slot: 17
 	internal override bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 }

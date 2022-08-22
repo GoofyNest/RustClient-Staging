@@ -9,19 +9,19 @@ internal sealed class DefaultProxySectionInternal // TypeDefIndex: 3085
 
 	// Methods
 
-	// RVA: 0x1529270 Offset: 0x1527870 VA: 0x181529270
+	// RVA: 0x1528340 Offset: 0x1526940 VA: 0x181528340
 	private static IWebProxy GetDefaultProxy_UsingOldMonoCode() { }
 
-	// RVA: 0x1529270 Offset: 0x1527870 VA: 0x181529270
+	// RVA: 0x1528340 Offset: 0x1526940 VA: 0x181528340
 	private static IWebProxy GetSystemWebProxy() { }
 
-	// RVA: 0x1529400 Offset: 0x1527A00 VA: 0x181529400
+	// RVA: 0x15284D0 Offset: 0x1526AD0 VA: 0x1815284D0
 	internal static object get_ClassSyncObject() { }
 
-	// RVA: 0x1529280 Offset: 0x1527880 VA: 0x181529280
+	// RVA: 0x1528350 Offset: 0x1526950 VA: 0x181528350
 	internal static DefaultProxySectionInternal GetSection() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	internal IWebProxy get_WebProxy() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

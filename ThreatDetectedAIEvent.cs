@@ -9,14 +9,14 @@ public class ThreatDetectedAIEvent : BaseAIEvent // TypeDefIndex: 9414
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x533E60 Offset: 0x532460 VA: 0x180533E60
+	// RVA: 0x533DF0 Offset: 0x5323F0 VA: 0x180533DF0
 	public float get_Range() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x533E70 Offset: 0x532470 VA: 0x180533E70
+	// RVA: 0x533E00 Offset: 0x532400 VA: 0x180533E00
 	public void set_Range(float value) { }
 
-	// RVA: 0x889480 Offset: 0x887A80 VA: 0x180889480
+	// RVA: 0x86C7C0 Offset: 0x86ADC0 VA: 0x18086C7C0
 	public void .ctor() { }
 
 }

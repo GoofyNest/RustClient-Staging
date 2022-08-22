@@ -6,13 +6,13 @@ internal class TimedBlock : IComparable<TimedBlock> // TypeDefIndex: 5634
 
 	// Methods
 
-	// RVA: 0x13CC580 Offset: 0x13CAB80 VA: 0x1813CC580
+	// RVA: 0x13CB680 Offset: 0x13C9C80 VA: 0x1813CB680
 	public void .ctor(DateTime deadline, Action block, string blockName) { }
 
-	// RVA: 0x13CC2D0 Offset: 0x13CA8D0 VA: 0x1813CC2D0 Slot: 4
+	// RVA: 0x13CB3D0 Offset: 0x13C99D0 VA: 0x1813CB3D0 Slot: 4
 	public int CompareTo(TimedBlock other) { }
 
-	// RVA: 0x13CC300 Offset: 0x13CA900 VA: 0x1813CC300 Slot: 3
+	// RVA: 0x13CB400 Offset: 0x13C9A00 VA: 0x1813CB400 Slot: 3
 	public override string ToString() { }
 
 }

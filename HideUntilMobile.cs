@@ -5,19 +5,19 @@ public class HideUntilMobile : EntityComponent<BaseEntity> // TypeDefIndex: 9897
 
 	// Methods
 
-	// RVA: 0x73AD80 Offset: 0x739380 VA: 0x18073AD80
+	// RVA: 0x73ACD0 Offset: 0x7392D0 VA: 0x18073ACD0
 	protected void Awake() { }
 
-	// RVA: 0x73AF90 Offset: 0x739590 VA: 0x18073AF90
+	// RVA: 0x73AEE0 Offset: 0x7394E0 VA: 0x18073AEE0
 	private void Update() { }
 
-	// RVA: 0x73AEC0 Offset: 0x7394C0 VA: 0x18073AEC0
+	// RVA: 0x73AE10 Offset: 0x739410 VA: 0x18073AE10
 	public void ForceVisible() { }
 
-	// RVA: 0x73AF20 Offset: 0x739520 VA: 0x18073AF20
+	// RVA: 0x73AE70 Offset: 0x739470 VA: 0x18073AE70
 	public void SetVis(bool isVisible) { }
 
-	// RVA: 0x73B0F0 Offset: 0x7396F0 VA: 0x18073B0F0
+	// RVA: 0x73B040 Offset: 0x739640 VA: 0x18073B040
 	public void .ctor() { }
 
 }

@@ -4,13 +4,13 @@ internal class ExpandString // TypeDefIndex: 106
 
 	// Methods
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	public void .ctor(string s) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 3
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x163D240 Offset: 0x163B840 VA: 0x18163D240
+	// RVA: 0x162A560 Offset: 0x1628B60 VA: 0x18162A560
 	public string Expand() { }
 
 }

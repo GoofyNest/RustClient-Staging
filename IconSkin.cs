@@ -14,26 +14,26 @@ public class IconSkin : MonoBehaviour, IItemIconChanged, IClientComponent // Typ
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	public string get_searchString() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
+	// RVA: 0x4BC5A0 Offset: 0x4BABA0 VA: 0x1804BC5A0
 	private void set_searchString(string value) { }
 
-	// RVA: 0x80B150 Offset: 0x809750 VA: 0x18080B150
+	// RVA: 0x80B6E0 Offset: 0x809CE0 VA: 0x18080B6E0
 	protected void OnEnable() { }
 
-	// RVA: 0x80B0A0 Offset: 0x8096A0 VA: 0x18080B0A0
+	// RVA: 0x80B630 Offset: 0x809C30 VA: 0x18080B630
 	protected void OnDisable() { }
 
-	// RVA: 0x80B1E0 Offset: 0x8097E0 VA: 0x18080B1E0 Slot: 4
+	// RVA: 0x80B770 Offset: 0x809D70 VA: 0x18080B770 Slot: 4
 	public void OnItemIconChanged() { }
 
-	// RVA: 0x80B490 Offset: 0x809A90 VA: 0x18080B490
+	// RVA: 0x80BA20 Offset: 0x80A020 VA: 0x18080BA20
 	internal void Setup(ItemDefinition item, int skinid, string text, bool canUse) { }
 
-	// RVA: 0x80B2D0 Offset: 0x8098D0 VA: 0x18080B2D0
+	// RVA: 0x80B860 Offset: 0x809E60 VA: 0x18080B860
 	public void Select() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

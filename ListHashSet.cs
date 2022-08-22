@@ -13,7 +13,7 @@ public struct ListHashSet.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposab
 	public void .ctor(ListHashSet<T> set) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x211070 Offset: 0x210470 VA: 0x180211070
+	|-RVA: 0x1F6470 Offset: 0x1F5870 VA: 0x1801F6470
 	|-ListHashSet.Enumerator<InvokeAction>..ctor
 	|-ListHashSet.Enumerator<SpecialPurposeCamera.RenderEntry>..ctor
 	|-ListHashSet.Enumerator<object>..ctor
@@ -24,7 +24,7 @@ public struct ListHashSet.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposab
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x210FB0 Offset: 0x2103B0 VA: 0x180210FB0
+	|-RVA: 0x1F62B0 Offset: 0x1F56B0 VA: 0x1801F62B0
 	|-ListHashSet.Enumerator<DecayEntity>.MoveNext
 	|-ListHashSet.Enumerator<Gib>.MoveNext
 	|-ListHashSet.Enumerator<NeedsKeyboard>.MoveNext
@@ -38,7 +38,7 @@ public struct ListHashSet.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposab
 	|-ListHashSet.Enumerator<UIEscapeCapture>.MoveNext
 	|-ListHashSet.Enumerator<UI_LocalVoice>.MoveNext
 	|
-	|-RVA: 0x1F4F10 Offset: 0x1F4310 VA: 0x1801F4F10
+	|-RVA: 0x1F6210 Offset: 0x1F5610 VA: 0x1801F6210
 	|-ListHashSet.Enumerator<InvokeAction>.MoveNext
 	|-ListHashSet.Enumerator<SpecialPurposeCamera.RenderEntry>.MoveNext
 	|-ListHashSet.Enumerator<ViewModelDrawEvent>.MoveNext
@@ -48,7 +48,7 @@ public struct ListHashSet.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposab
 	public void Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F4FB0 Offset: 0x1F43B0 VA: 0x1801F4FB0
+	|-RVA: 0x1F62C0 Offset: 0x1F56C0 VA: 0x1801F62C0
 	|-ListHashSet.Enumerator<InvokeAction>.Reset
 	|-ListHashSet.Enumerator<SpecialPurposeCamera.RenderEntry>.Reset
 	|-ListHashSet.Enumerator<object>.Reset
@@ -59,7 +59,7 @@ public struct ListHashSet.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposab
 	public T get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F5530 Offset: 0x1F4930 VA: 0x1801F5530
+	|-RVA: 0x1F64D0 Offset: 0x1F58D0 VA: 0x1801F64D0
 	|-ListHashSet.Enumerator<DecayEntity>.get_Current
 	|-ListHashSet.Enumerator<Gib>.get_Current
 	|-ListHashSet.Enumerator<NeedsKeyboard>.get_Current
@@ -73,10 +73,10 @@ public struct ListHashSet.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposab
 	|-ListHashSet.Enumerator<UI_LocalVoice>.get_Current
 	|-ListHashSet.Enumerator<object>.get_Current
 	|
-	|-RVA: 0x2110B0 Offset: 0x2104B0 VA: 0x1802110B0
+	|-RVA: 0x1F64E0 Offset: 0x1F58E0 VA: 0x1801F64E0
 	|-ListHashSet.Enumerator<ViewModelDrawEvent>.get_Current
 	|
-	|-RVA: 0x1F5540 Offset: 0x1F4940 VA: 0x1801F5540
+	|-RVA: 0x1F64B0 Offset: 0x1F58B0 VA: 0x1801F64B0
 	|-ListHashSet.Enumerator<InvokeAction>.get_Current
 	|-ListHashSet.Enumerator<SpecialPurposeCamera.RenderEntry>.get_Current
 	*/
@@ -85,14 +85,14 @@ public struct ListHashSet.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposab
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F5060 Offset: 0x1F4460 VA: 0x1801F5060
+	|-RVA: 0x1F63C0 Offset: 0x1F57C0 VA: 0x1801F63C0
 	|-ListHashSet.Enumerator<InvokeAction>.System.Collections.IEnumerator.get_Current
 	|-ListHashSet.Enumerator<SpecialPurposeCamera.RenderEntry>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x1F5360 Offset: 0x1F4760 VA: 0x1801F5360
+	|-RVA: 0x1F6380 Offset: 0x1F5780 VA: 0x1801F6380
 	|-ListHashSet.Enumerator<object>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x210FC0 Offset: 0x2103C0 VA: 0x180210FC0
+	|-RVA: 0x1F62D0 Offset: 0x1F56D0 VA: 0x1801F62D0
 	|-ListHashSet.Enumerator<ViewModelDrawEvent>.System.Collections.IEnumerator.get_Current
 	*/
 

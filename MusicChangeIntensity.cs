@@ -7,16 +7,16 @@ public class MusicChangeIntensity : MonoBehaviour // TypeDefIndex: 8999
 
 	// Methods
 
-	// RVA: 0x7BD5F0 Offset: 0x7BBBF0 VA: 0x1807BD5F0
+	// RVA: 0x7DB9E0 Offset: 0x7D9FE0 VA: 0x1807DB9E0
 	private void OnEnable() { }
 
-	// RVA: 0x7BD960 Offset: 0x7BBF60 VA: 0x1807BD960
+	// RVA: 0x7DBD50 Offset: 0x7DA350 VA: 0x1807DBD50
 	private void Update() { }
 
-	// RVA: 0x7BD620 Offset: 0x7BBC20 VA: 0x1807BD620
+	// RVA: 0x7DBA10 Offset: 0x7DA010 VA: 0x1807DBA10
 	private void Tick() { }
 
-	// RVA: 0x7BD9B0 Offset: 0x7BBFB0 VA: 0x1807BD9B0
+	// RVA: 0x7DBDA0 Offset: 0x7DA3A0 VA: 0x1807DBDA0
 	public void .ctor() { }
 
 }
@@ -29,7 +29,7 @@ public class MusicChangeIntensity.DistanceIntensity // TypeDefIndex: 9000
 
 	// Methods
 
-	// RVA: 0x7B5800 Offset: 0x7B3E00 VA: 0x1807B5800
+	// RVA: 0x7D3BF0 Offset: 0x7D21F0 VA: 0x1807D3BF0
 	public void .ctor() { }
 
 }

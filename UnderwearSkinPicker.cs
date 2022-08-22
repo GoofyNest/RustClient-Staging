@@ -9,10 +9,10 @@ public class UnderwearSkinPicker : MonoBehaviour // TypeDefIndex: 9249
 
 	// Methods
 
-	// RVA: 0xA07910 Offset: 0xA05F10 VA: 0x180A07910
+	// RVA: 0xA07E00 Offset: 0xA06400 VA: 0x180A07E00
 	public void RefreshUnderwear() { }
 
-	// RVA: 0xA07620 Offset: 0xA05C20 VA: 0x180A07620
+	// RVA: 0xA07B10 Offset: 0xA06110 VA: 0x180A07B10
 	protected void AddOption(string underwearShortName, string text, bool canUse, Sprite icon) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4

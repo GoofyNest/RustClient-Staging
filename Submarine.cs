@@ -13,82 +13,82 @@ public class Submarine : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6418
 
 	// Methods
 
-	// RVA: 0x1DC4B10 Offset: 0x1DC3110 VA: 0x181DC4B10
+	// RVA: 0x1DC5300 Offset: 0x1DC3900 VA: 0x181DC5300
 	public static void ResetToPool(Submarine instance) { }
 
-	// RVA: 0x1DC4BF0 Offset: 0x1DC31F0 VA: 0x181DC4BF0
+	// RVA: 0x1DC53E0 Offset: 0x1DC39E0 VA: 0x181DC53E0
 	public void ResetToPool() { }
 
-	// RVA: 0x1DC4650 Offset: 0x1DC2C50 VA: 0x181DC4650 Slot: 9
+	// RVA: 0x1DC4E40 Offset: 0x1DC3440 VA: 0x181DC4E40 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DC2D70 Offset: 0x1DC1370 VA: 0x181DC2D70
+	// RVA: 0x1DC3560 Offset: 0x1DC1B60 VA: 0x181DC3560
 	public void CopyTo(Submarine instance) { }
 
-	// RVA: 0x1DC2DC0 Offset: 0x1DC13C0 VA: 0x181DC2DC0
+	// RVA: 0x1DC35B0 Offset: 0x1DC1BB0 VA: 0x181DC35B0
 	public Submarine Copy() { }
 
-	// RVA: 0x1DC3EC0 Offset: 0x1DC24C0 VA: 0x181DC3EC0
+	// RVA: 0x1DC46B0 Offset: 0x1DC2CB0 VA: 0x181DC46B0
 	public static Submarine Deserialize(Stream stream) { }
 
-	// RVA: 0x1DC3260 Offset: 0x1DC1860 VA: 0x181DC3260
+	// RVA: 0x1DC3A50 Offset: 0x1DC2050 VA: 0x181DC3A50
 	public static Submarine DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DC32E0 Offset: 0x1DC18E0 VA: 0x181DC32E0
+	// RVA: 0x1DC3AD0 Offset: 0x1DC20D0 VA: 0x181DC3AD0
 	public static Submarine DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DC3A80 Offset: 0x1DC2080 VA: 0x181DC3A80
+	// RVA: 0x1DC4270 Offset: 0x1DC2870 VA: 0x181DC4270
 	public static Submarine Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DC47C0 Offset: 0x1DC2DC0 VA: 0x181DC47C0
+	// RVA: 0x1DC4FB0 Offset: 0x1DC35B0 VA: 0x181DC4FB0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DC5410 Offset: 0x1DC3A10 VA: 0x181DC5410 Slot: 12
+	// RVA: 0x1DC5C00 Offset: 0x1DC4200 VA: 0x181DC5C00 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DC5430 Offset: 0x1DC3A30 VA: 0x181DC5430 Slot: 13
+	// RVA: 0x1DC5C20 Offset: 0x1DC4220 VA: 0x181DC5C20 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Submarine previous) { }
 
-	// RVA: 0x1DC4AF0 Offset: 0x1DC30F0 VA: 0x181DC4AF0 Slot: 14
+	// RVA: 0x1DC52E0 Offset: 0x1DC38E0 VA: 0x181DC52E0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DC4230 Offset: 0x1DC2830 VA: 0x181DC4230
+	// RVA: 0x1DC4A20 Offset: 0x1DC3020 VA: 0x181DC4A20
 	public static Submarine Deserialize(byte[] buffer, Submarine instance, bool isDelta = False) { }
 
-	// RVA: 0x1DC3750 Offset: 0x1DC1D50 VA: 0x181DC3750
+	// RVA: 0x1DC3F40 Offset: 0x1DC2540 VA: 0x181DC3F40
 	public static Submarine Deserialize(Stream stream, Submarine instance, bool isDelta) { }
 
-	// RVA: 0x1DC2E60 Offset: 0x1DC1460 VA: 0x181DC2E60
+	// RVA: 0x1DC3650 Offset: 0x1DC1C50 VA: 0x181DC3650
 	public static Submarine DeserializeLengthDelimited(Stream stream, Submarine instance, bool isDelta) { }
 
-	// RVA: 0x1DC3370 Offset: 0x1DC1970 VA: 0x181DC3370
+	// RVA: 0x1DC3B60 Offset: 0x1DC2160 VA: 0x181DC3B60
 	public static Submarine DeserializeLength(Stream stream, int length, Submarine instance, bool isDelta) { }
 
-	// RVA: 0x1DC4CD0 Offset: 0x1DC32D0 VA: 0x181DC4CD0
+	// RVA: 0x1DC54C0 Offset: 0x1DC3AC0 VA: 0x181DC54C0
 	public static void SerializeDelta(Stream stream, Submarine instance, Submarine previous) { }
 
-	// RVA: 0x1DC5220 Offset: 0x1DC3820 VA: 0x181DC5220
+	// RVA: 0x1DC5A10 Offset: 0x1DC4010 VA: 0x181DC5A10
 	public static void Serialize(Stream stream, Submarine instance) { }
 
-	// RVA: 0x1DC5400 Offset: 0x1DC3A00 VA: 0x181DC5400
+	// RVA: 0x1DC5BF0 Offset: 0x1DC41F0 VA: 0x181DC5BF0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DC5410 Offset: 0x1DC3A10 VA: 0x181DC5410
+	// RVA: 0x1DC5C00 Offset: 0x1DC4200 VA: 0x181DC5C00
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DC5110 Offset: 0x1DC3710 VA: 0x181DC5110
+	// RVA: 0x1DC5900 Offset: 0x1DC3F00 VA: 0x181DC5900
 	public static byte[] SerializeToBytes(Submarine instance) { }
 
-	// RVA: 0x1DC5060 Offset: 0x1DC3660 VA: 0x181DC5060
+	// RVA: 0x1DC5850 Offset: 0x1DC3E50 VA: 0x181DC5850
 	public static void SerializeLengthDelimited(Stream stream, Submarine instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }

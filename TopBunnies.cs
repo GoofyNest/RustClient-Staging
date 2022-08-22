@@ -9,13 +9,13 @@ public class TopBunnies : MonoBehaviour // TypeDefIndex: 8789
 
 	// Methods
 
-	// RVA: 0xA0A650 Offset: 0xA08C50 VA: 0x180A0A650
+	// RVA: 0xA0AB40 Offset: 0xA09140 VA: 0x180A0AB40
 	public void Update() { }
 
-	// RVA: 0xA0A370 Offset: 0xA08970 VA: 0x180A0A370
+	// RVA: 0xA0A860 Offset: 0xA08E60 VA: 0x180A0A860
 	public void DoListUpdate() { }
 
-	// RVA: 0x768FD0 Offset: 0x7675D0 VA: 0x180768FD0
+	// RVA: 0x768F20 Offset: 0x767520 VA: 0x180768F20
 	public void .ctor() { }
 
 }

@@ -10,25 +10,25 @@ public struct StyleFont : IStyleValue<Font>, IEquatable<StyleFont> // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x13A9C0 Offset: 0x139DC0 VA: 0x18013A9C0 Slot: 4
+	// RVA: 0x13A7E0 Offset: 0x139BE0 VA: 0x18013A7E0 Slot: 4
 	public Font get_value() { }
 
-	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0 Slot: 5
+	// RVA: 0x13A3C0 Offset: 0x1397C0 VA: 0x18013A3C0 Slot: 5
 	public StyleKeyword get_keyword() { }
 
-	// RVA: 0xEB9EB0 Offset: 0xEB84B0 VA: 0x180EB9EB0
+	// RVA: 0xEBA960 Offset: 0xEB8F60 VA: 0x180EBA960
 	public static bool op_Equality(StyleFont lhs, StyleFont rhs) { }
 
-	// RVA: 0x13A8D0 Offset: 0x139CD0 VA: 0x18013A8D0 Slot: 6
+	// RVA: 0x13A6F0 Offset: 0x139AF0 VA: 0x18013A6F0 Slot: 6
 	public bool Equals(StyleFont other) { }
 
-	// RVA: 0x13A7E0 Offset: 0x139BE0 VA: 0x18013A7E0 Slot: 0
+	// RVA: 0x13A600 Offset: 0x139A00 VA: 0x18013A600 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x13A950 Offset: 0x139D50 VA: 0x18013A950 Slot: 2
+	// RVA: 0x13A770 Offset: 0x139B70 VA: 0x18013A770 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13A960 Offset: 0x139D60 VA: 0x18013A960 Slot: 3
+	// RVA: 0x13A780 Offset: 0x139B80 VA: 0x18013A780 Slot: 3
 	public override string ToString() { }
 
 }

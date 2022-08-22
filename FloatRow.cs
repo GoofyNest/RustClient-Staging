@@ -9,19 +9,19 @@ public class FloatRow : MaterialRow // TypeDefIndex: 7757
 
 	// Methods
 
-	// RVA: 0xE73710 Offset: 0xE71D10 VA: 0x180E73710
+	// RVA: 0xE741C0 Offset: 0xE727C0 VA: 0x180E741C0
 	public void Update() { }
 
-	// RVA: 0xE73790 Offset: 0xE71D90 VA: 0x180E73790
+	// RVA: 0xE74240 Offset: 0xE72840 VA: 0x180E74240
 	public bool get_IsDefault() { }
 
-	// RVA: 0xE735D0 Offset: 0xE71BD0 VA: 0x180E735D0 Slot: 4
+	// RVA: 0xE74080 Offset: 0xE72680 VA: 0x180E74080 Slot: 4
 	public override void Read(Material source, Material def) { }
 
-	// RVA: 0xE73690 Offset: 0xE71C90 VA: 0x180E73690
+	// RVA: 0xE74140 Offset: 0xE72740 VA: 0x180E74140
 	public void ResetToDefault() { }
 
-	// RVA: 0xE73540 Offset: 0xE71B40 VA: 0x180E73540
+	// RVA: 0xE73FF0 Offset: 0xE725F0 VA: 0x180E73FF0
 	public void OnChanged() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

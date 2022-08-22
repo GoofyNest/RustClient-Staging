@@ -16,13 +16,13 @@ public static class PointerType // TypeDefIndex: 4687
 
 	// Methods
 
-	// RVA: 0xEB90C0 Offset: 0xEB76C0 VA: 0x180EB90C0
+	// RVA: 0xEB9B70 Offset: 0xEB8170 VA: 0x180EB9B70
 	internal static string GetPointerType(int pointerId) { }
 
-	// RVA: 0xEB9190 Offset: 0xEB7790 VA: 0x180EB9190
+	// RVA: 0xEB9C40 Offset: 0xEB8240 VA: 0x180EB9C40
 	internal static bool IsDirectManipulationDevice(string pointerType) { }
 
-	// RVA: 0xEB91F0 Offset: 0xEB77F0 VA: 0x180EB91F0
+	// RVA: 0xEB9CA0 Offset: 0xEB82A0 VA: 0x180EB9CA0
 	private static void .cctor() { }
 
 }

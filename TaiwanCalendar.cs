@@ -16,58 +16,58 @@ public class TaiwanCalendar : Calendar // TypeDefIndex: 717
 
 	// Methods
 
-	// RVA: 0x13872E0 Offset: 0x13858E0 VA: 0x1813872E0
+	// RVA: 0x13863E0 Offset: 0x13849E0 VA: 0x1813863E0
 	internal static Calendar GetDefaultInstance() { }
 
-	// RVA: 0x1387860 Offset: 0x1385E60 VA: 0x181387860 Slot: 5
+	// RVA: 0x1386960 Offset: 0x1384F60 VA: 0x181386960 Slot: 5
 	public override DateTime get_MinSupportedDateTime() { }
 
-	// RVA: 0x1387800 Offset: 0x1385E00 VA: 0x181387800 Slot: 6
+	// RVA: 0x1386900 Offset: 0x1384F00 VA: 0x181386900 Slot: 6
 	public override DateTime get_MaxSupportedDateTime() { }
 
-	// RVA: 0x13876D0 Offset: 0x1385CD0 VA: 0x1813876D0
+	// RVA: 0x13867D0 Offset: 0x1384DD0 VA: 0x1813867D0
 	public void .ctor() { }
 
-	// RVA: 0xE38110 Offset: 0xE36710 VA: 0x180E38110 Slot: 7
+	// RVA: 0xE38BC0 Offset: 0xE371C0 VA: 0x180E38BC0 Slot: 7
 	internal override int get_ID() { }
 
-	// RVA: 0x1383D50 Offset: 0x1382350 VA: 0x181383D50 Slot: 13
+	// RVA: 0x1382E50 Offset: 0x1381450 VA: 0x181382E50 Slot: 13
 	public override int GetDaysInMonth(int year, int month, int era) { }
 
-	// RVA: 0x1383D10 Offset: 0x1382310 VA: 0x181383D10 Slot: 11
+	// RVA: 0x1382E10 Offset: 0x1381410 VA: 0x181382E10 Slot: 11
 	public override int GetDayOfMonth(DateTime time) { }
 
-	// RVA: 0x1383D30 Offset: 0x1382330 VA: 0x181383D30 Slot: 12
+	// RVA: 0x1382E30 Offset: 0x1381430 VA: 0x181382E30 Slot: 12
 	public override DayOfWeek GetDayOfWeek(DateTime time) { }
 
-	// RVA: 0x1384350 Offset: 0x1382950 VA: 0x181384350 Slot: 17
+	// RVA: 0x1383450 Offset: 0x1381A50 VA: 0x181383450 Slot: 17
 	public override int GetMonthsInYear(int year, int era) { }
 
-	// RVA: 0x1384310 Offset: 0x1382910 VA: 0x181384310 Slot: 14
+	// RVA: 0x1383410 Offset: 0x1381A10 VA: 0x181383410 Slot: 14
 	public override int GetEra(DateTime time) { }
 
-	// RVA: 0x1384330 Offset: 0x1382930 VA: 0x181384330 Slot: 16
+	// RVA: 0x1383430 Offset: 0x1381A30 VA: 0x181383430 Slot: 16
 	public override int GetMonth(DateTime time) { }
 
-	// RVA: 0x1384370 Offset: 0x1382970 VA: 0x181384370 Slot: 18
+	// RVA: 0x1383470 Offset: 0x1381A70 VA: 0x181383470 Slot: 18
 	public override int GetYear(DateTime time) { }
 
-	// RVA: 0x1384390 Offset: 0x1382990 VA: 0x181384390 Slot: 20
+	// RVA: 0x1383490 Offset: 0x1381A90 VA: 0x181383490 Slot: 20
 	public override bool IsLeapYear(int year, int era) { }
 
-	// RVA: 0x13843D0 Offset: 0x13829D0 VA: 0x1813843D0 Slot: 21
+	// RVA: 0x13834D0 Offset: 0x1381AD0 VA: 0x1813834D0 Slot: 21
 	public override DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era) { }
 
-	// RVA: 0x1384720 Offset: 0x1382D20 VA: 0x181384720 Slot: 15
+	// RVA: 0x1383820 Offset: 0x1381E20 VA: 0x181383820 Slot: 15
 	public override int[] get_Eras() { }
 
-	// RVA: 0x1384800 Offset: 0x1382E00 VA: 0x181384800 Slot: 26
+	// RVA: 0x1383900 Offset: 0x1381F00 VA: 0x181383900 Slot: 26
 	public override int get_TwoDigitYearMax() { }
 
-	// RVA: 0x13873E0 Offset: 0x13859E0 VA: 0x1813873E0 Slot: 27
+	// RVA: 0x13864E0 Offset: 0x1384AE0 VA: 0x1813864E0 Slot: 27
 	public override int ToFourDigitYear(int year) { }
 
-	// RVA: 0x1387570 Offset: 0x1385B70 VA: 0x181387570
+	// RVA: 0x1386670 Offset: 0x1384C70 VA: 0x181386670
 	private static void .cctor() { }
 
 }

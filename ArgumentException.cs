@@ -7,28 +7,28 @@ public class ArgumentException : SystemException, ISerializable // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1553F70 Offset: 0x1552570 VA: 0x181553F70
+	// RVA: 0x1553040 Offset: 0x1551640 VA: 0x181553040
 	public void .ctor() { }
 
-	// RVA: 0x1554020 Offset: 0x1552620 VA: 0x181554020
+	// RVA: 0x15530F0 Offset: 0x15516F0 VA: 0x1815530F0
 	public void .ctor(string message) { }
 
-	// RVA: 0x1553E60 Offset: 0x1552460 VA: 0x181553E60
+	// RVA: 0x1552F30 Offset: 0x1551530 VA: 0x181552F30
 	public void .ctor(string message, Exception innerException) { }
 
-	// RVA: 0x1553FD0 Offset: 0x15525D0 VA: 0x181553FD0
+	// RVA: 0x15530A0 Offset: 0x15516A0 VA: 0x1815530A0
 	public void .ctor(string message, string paramName, Exception innerException) { }
 
-	// RVA: 0x1553E90 Offset: 0x1552490 VA: 0x181553E90
+	// RVA: 0x1552F60 Offset: 0x1551560 VA: 0x181552F60
 	public void .ctor(string message, string paramName) { }
 
-	// RVA: 0x1553EE0 Offset: 0x15524E0 VA: 0x181553EE0
+	// RVA: 0x1552FB0 Offset: 0x15515B0 VA: 0x181552FB0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1554050 Offset: 0x1552650 VA: 0x181554050 Slot: 5
+	// RVA: 0x1553120 Offset: 0x1551720 VA: 0x181553120 Slot: 5
 	public override string get_Message() { }
 
-	// RVA: 0x1553D70 Offset: 0x1552370 VA: 0x181553D70 Slot: 10
+	// RVA: 0x1552E40 Offset: 0x1551440 VA: 0x181552E40 Slot: 10
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 }
@@ -36,16 +36,16 @@ public class ArgumentException : SystemException, ISerializable // TypeDefIndex:
 public class ArgumentNullException : ArgumentException // TypeDefIndex: 167
 {	// Methods
 
-	// RVA: 0x1554160 Offset: 0x1552760 VA: 0x181554160
+	// RVA: 0x1553230 Offset: 0x1551830 VA: 0x181553230
 	public void .ctor() { }
 
-	// RVA: 0x1554230 Offset: 0x1552830 VA: 0x181554230
+	// RVA: 0x1553300 Offset: 0x1551900 VA: 0x181553300
 	public void .ctor(string paramName) { }
 
-	// RVA: 0x15541D0 Offset: 0x15527D0 VA: 0x1815541D0
+	// RVA: 0x15532A0 Offset: 0x15518A0 VA: 0x1815532A0
 	public void .ctor(string paramName, string message) { }
 
-	// RVA: 0x1553EE0 Offset: 0x15524E0 VA: 0x181553EE0
+	// RVA: 0x1552FB0 Offset: 0x15515B0 VA: 0x181552FB0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }
@@ -61,28 +61,28 @@ public class ArgumentOutOfRangeException : ArgumentException, ISerializable // T
 
 	// Methods
 
-	// RVA: 0x15548F0 Offset: 0x1552EF0 VA: 0x1815548F0
+	// RVA: 0x15539C0 Offset: 0x1551FC0 VA: 0x1815539C0
 	private static string get_RangeMessage() { }
 
-	// RVA: 0x1554430 Offset: 0x1552A30 VA: 0x181554430
+	// RVA: 0x1553500 Offset: 0x1551B00 VA: 0x181553500
 	public void .ctor() { }
 
-	// RVA: 0x15544E0 Offset: 0x1552AE0 VA: 0x1815544E0
+	// RVA: 0x15535B0 Offset: 0x1551BB0 VA: 0x1815535B0
 	public void .ctor(string paramName) { }
 
-	// RVA: 0x1554480 Offset: 0x1552A80 VA: 0x181554480
+	// RVA: 0x1553550 Offset: 0x1551B50 VA: 0x181553550
 	public void .ctor(string paramName, string message) { }
 
-	// RVA: 0x1554660 Offset: 0x1552C60 VA: 0x181554660
+	// RVA: 0x1553730 Offset: 0x1551D30 VA: 0x181553730
 	public void .ctor(string paramName, object actualValue, string message) { }
 
-	// RVA: 0x15546E0 Offset: 0x1552CE0 VA: 0x1815546E0 Slot: 5
+	// RVA: 0x15537B0 Offset: 0x1551DB0 VA: 0x1815537B0 Slot: 5
 	public override string get_Message() { }
 
-	// RVA: 0x15542C0 Offset: 0x15528C0 VA: 0x1815542C0 Slot: 10
+	// RVA: 0x1553390 Offset: 0x1551990 VA: 0x181553390 Slot: 10
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x1554550 Offset: 0x1552B50 VA: 0x181554550
+	// RVA: 0x1553620 Offset: 0x1551C20 VA: 0x181553620
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }
@@ -96,10 +96,10 @@ public struct ArgIterator // TypeDefIndex: 347
 
 	// Methods
 
-	// RVA: 0x1F1F10 Offset: 0x1F1310 VA: 0x1801F1F10 Slot: 0
+	// RVA: 0x1F2330 Offset: 0x1F1730 VA: 0x1801F2330 Slot: 0
 	public override bool Equals(object o) { }
 
-	// RVA: 0x14C4D0 Offset: 0x14B8D0 VA: 0x18014C4D0 Slot: 2
+	// RVA: 0x14C2F0 Offset: 0x14B6F0 VA: 0x18014C2F0 Slot: 2
 	public override int GetHashCode() { }
 
 }
@@ -120,10 +120,10 @@ internal class ArgInfo // TypeDefIndex: 1222
 
 	// Methods
 
-	// RVA: 0x146E820 Offset: 0x146CE20 VA: 0x18146E820
+	// RVA: 0x146D8F0 Offset: 0x146BEF0 VA: 0x18146D8F0
 	public void .ctor(MethodBase method, ArgInfoType type) { }
 
-	// RVA: 0x146E700 Offset: 0x146CD00 VA: 0x18146E700
+	// RVA: 0x146D7D0 Offset: 0x146BDD0 VA: 0x18146D7D0
 	public object[] GetInOutArgs(object[] args) { }
 
 }
@@ -158,31 +158,31 @@ internal class ArgumentCache : ISerializationCallbackReceiver // TypeDefIndex: 3
 
 	// Methods
 
-	// RVA: 0x181DCB0 Offset: 0x181C2B0 VA: 0x18181DCB0
+	// RVA: 0x180B0F0 Offset: 0x18096F0 VA: 0x18180B0F0
 	public Object get_unityObjectArgument() { }
 
-	// RVA: 0x181DCA0 Offset: 0x181C2A0 VA: 0x18181DCA0
+	// RVA: 0x180B0E0 Offset: 0x18096E0 VA: 0x18180B0E0
 	public string get_unityObjectArgumentAssemblyTypeName() { }
 
-	// RVA: 0x181DC80 Offset: 0x181C280 VA: 0x18181DC80
+	// RVA: 0x180B0C0 Offset: 0x18096C0 VA: 0x18180B0C0
 	public int get_intArgument() { }
 
-	// RVA: 0x181DC70 Offset: 0x181C270 VA: 0x18181DC70
+	// RVA: 0x180B0B0 Offset: 0x18096B0 VA: 0x18180B0B0
 	public float get_floatArgument() { }
 
-	// RVA: 0x181DC90 Offset: 0x181C290 VA: 0x18181DC90
+	// RVA: 0x180B0D0 Offset: 0x18096D0 VA: 0x18180B0D0
 	public string get_stringArgument() { }
 
-	// RVA: 0x181DC60 Offset: 0x181C260 VA: 0x18181DC60
+	// RVA: 0x180B0A0 Offset: 0x18096A0 VA: 0x18180B0A0
 	public bool get_boolArgument() { }
 
-	// RVA: 0x181DA70 Offset: 0x181C070 VA: 0x18181DA70
+	// RVA: 0x180AEB0 Offset: 0x18094B0 VA: 0x18180AEB0
 	private void TidyAssemblyTypeName() { }
 
-	// RVA: 0x181DA60 Offset: 0x181C060 VA: 0x18181DA60 Slot: 4
+	// RVA: 0x180AEA0 Offset: 0x18094A0 VA: 0x18180AEA0 Slot: 4
 	public void OnBeforeSerialize() { }
 
-	// RVA: 0x181DA60 Offset: 0x181C060 VA: 0x18181DA60 Slot: 5
+	// RVA: 0x180AEA0 Offset: 0x18094A0 VA: 0x18180AEA0 Slot: 5
 	public void OnAfterDeserialize() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -194,7 +194,7 @@ public static class ArgEx // TypeDefIndex: 11695
 {	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9ECDE0 Offset: 0x9EB3E0 VA: 0x1809ECDE0
+	// RVA: 0x9ED2D0 Offset: 0x9EB8D0 VA: 0x1809ED2D0
 	public static BasePlayer GetPlayer_Clientside(ConsoleSystem.Arg arg, int iArgNum) { }
 
 }

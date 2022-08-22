@@ -7,7 +7,7 @@ public struct LoadSceneParameters // TypeDefIndex: 3659
 
 	// Methods
 
-	// RVA: 0x221BF0 Offset: 0x220FF0 VA: 0x180221BF0
+	// RVA: 0x21D170 Offset: 0x21C570 VA: 0x18021D170
 	public void .ctor(LoadSceneMode mode) { }
 
 }

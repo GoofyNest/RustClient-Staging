@@ -9,13 +9,13 @@ public sealed class NeutralResourcesLanguageAttribute : Attribute // TypeDefInde
 
 	// Methods
 
-	// RVA: 0xFEB4C0 Offset: 0xFE9AC0 VA: 0x180FEB4C0
+	// RVA: 0xFEBF60 Offset: 0xFEA560 VA: 0x180FEBF60
 	public void .ctor(string cultureName) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_CultureName() { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public UltimateResourceFallbackLocation get_Location() { }
 
 }

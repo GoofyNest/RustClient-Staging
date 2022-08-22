@@ -10,19 +10,19 @@ internal sealed class SerializationHeaderRecord // TypeDefIndex: 1071
 
 	// Methods
 
-	// RVA: 0x1076DA0 Offset: 0x10753A0 VA: 0x181076DA0
+	// RVA: 0x1077810 Offset: 0x1075E10 VA: 0x181077810
 	internal void .ctor() { }
 
-	// RVA: 0x12031C0 Offset: 0x12017C0 VA: 0x1812031C0
+	// RVA: 0x1203860 Offset: 0x1201E60 VA: 0x181203860
 	internal void .ctor(BinaryHeaderEnum binaryHeaderEnum, int topId, int headerId, int majorVersion, int minorVersion) { }
 
-	// RVA: 0x1203140 Offset: 0x1201740 VA: 0x181203140 Slot: 4
+	// RVA: 0x12037E0 Offset: 0x1201DE0 VA: 0x1812037E0 Slot: 4
 	public void Write(__BinaryWriter sout) { }
 
-	// RVA: 0x1202D10 Offset: 0x1201310 VA: 0x181202D10
+	// RVA: 0x12033B0 Offset: 0x12019B0 VA: 0x1812033B0
 	private static int GetInt32(byte[] buffer, int index) { }
 
-	// RVA: 0x1202DC0 Offset: 0x12013C0 VA: 0x181202DC0 Slot: 5
+	// RVA: 0x1203460 Offset: 0x1201A60 VA: 0x181203460 Slot: 5
 	public void Read(__BinaryParser input) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

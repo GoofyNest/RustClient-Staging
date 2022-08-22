@@ -2,10 +2,10 @@ internal class ImportVersion1 : SingletonComponent<ImportVersion1> // TypeDefInd
 {	// Methods
 
 	[IteratorStateMachineAttribute] // RVA: 0xD8DA0 Offset: 0xD81A0 VA: 0x1800D8DA0
-	// RVA: 0xE73900 Offset: 0xE71F00 VA: 0x180E73900
+	// RVA: 0xE743B0 Offset: 0xE729B0 VA: 0x180E743B0
 	internal IEnumerator DoImport(IWorkshopContent item, Skin skin) { }
 
-	// RVA: 0xE73970 Offset: 0xE71F70 VA: 0x180E73970
+	// RVA: 0xE74420 Offset: 0xE72A20 VA: 0x180E74420
 	public void .ctor() { }
 
 }
@@ -30,7 +30,7 @@ private sealed class ImportVersion1.<DoImport>d__0 : IEnumerator<object>, IEnume
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xE78230 Offset: 0xE76830 VA: 0x180E78230 Slot: 6
+	// RVA: 0xE78CE0 Offset: 0xE772E0 VA: 0x180E78CE0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -38,7 +38,7 @@ private sealed class ImportVersion1.<DoImport>d__0 : IEnumerator<object>, IEnume
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE784F0 Offset: 0xE76AF0 VA: 0x180E784F0 Slot: 8
+	// RVA: 0xE78FA0 Offset: 0xE775A0 VA: 0x180E78FA0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

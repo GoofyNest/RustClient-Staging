@@ -62,38 +62,38 @@ public sealed class Note : IComparable<Note> // TypeDefIndex: 7433
 
 	// Methods
 
-	// RVA: 0x22000B0 Offset: 0x21FE6B0 VA: 0x1822000B0
+	// RVA: 0x22008D0 Offset: 0x21FEED0 VA: 0x1822008D0
 	private void .ctor(SevenBitNumber noteNumber) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public SevenBitNumber get_NoteNumber() { }
 
-	// RVA: 0x2200180 Offset: 0x21FE780 VA: 0x182200180
+	// RVA: 0x22009A0 Offset: 0x21FEFA0 VA: 0x1822009A0
 	public NoteName get_NoteName() { }
 
-	// RVA: 0x22002D0 Offset: 0x21FE8D0 VA: 0x1822002D0
+	// RVA: 0x2200AF0 Offset: 0x21FF0F0 VA: 0x182200AF0
 	public int get_Octave() { }
 
-	// RVA: 0x21FF7E0 Offset: 0x21FDDE0 VA: 0x1821FF7E0
+	// RVA: 0x2200000 Offset: 0x21FE600 VA: 0x182200000
 	public static Note Get(SevenBitNumber noteNumber) { }
 
-	// RVA: 0x2200560 Offset: 0x21FEB60 VA: 0x182200560
+	// RVA: 0x2200D80 Offset: 0x21FF380 VA: 0x182200D80
 	public static bool op_Equality(Note note1, Note note2) { }
 
-	// RVA: 0x21FF6A0 Offset: 0x21FDCA0 VA: 0x1821FF6A0 Slot: 4
+	// RVA: 0x21FFEC0 Offset: 0x21FE4C0 VA: 0x1821FFEC0 Slot: 4
 	public int CompareTo(Note other) { }
 
-	// RVA: 0x21FFAC0 Offset: 0x21FE0C0 VA: 0x1821FFAC0 Slot: 3
+	// RVA: 0x22002E0 Offset: 0x21FE8E0 VA: 0x1822002E0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x21FF6D0 Offset: 0x21FDCD0 VA: 0x1821FF6D0 Slot: 0
+	// RVA: 0x21FFEF0 Offset: 0x21FE4F0 VA: 0x1821FFEF0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x21FF7C0 Offset: 0x21FDDC0 VA: 0x1821FF7C0 Slot: 2
+	// RVA: 0x21FFFE0 Offset: 0x21FE5E0 VA: 0x1821FFFE0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x21FFCA0 Offset: 0x21FE2A0 VA: 0x1821FFCA0
+	// RVA: 0x22004C0 Offset: 0x21FEAC0 VA: 0x1822004C0
 	private static void .cctor() { }
 
 }
@@ -121,51 +121,51 @@ public class Note : ILengthedObject, ITimedObject // TypeDefIndex: 7438
 
 	// Methods
 
-	// RVA: 0x21FFD00 Offset: 0x21FE300 VA: 0x1821FFD00
+	// RVA: 0x2200520 Offset: 0x21FEB20 VA: 0x182200520
 	internal void .ctor(TimedEvent timedNoteOnEvent, TimedEvent timedNoteOffEvent) { }
 
-	// RVA: 0xB28DF0 Offset: 0xB273F0 VA: 0x180B28DF0 Slot: 5
+	// RVA: 0xB292C0 Offset: 0xB278C0 VA: 0x180B292C0 Slot: 5
 	public long get_Time() { }
 
-	// RVA: 0x22000E0 Offset: 0x21FE6E0 VA: 0x1822000E0 Slot: 4
+	// RVA: 0x2200900 Offset: 0x21FEF00 VA: 0x182200900 Slot: 4
 	public long get_Length() { }
 
-	// RVA: 0x22001F0 Offset: 0x21FE7F0 VA: 0x1822001F0
+	// RVA: 0x2200A10 Offset: 0x21FF010 VA: 0x182200A10
 	public SevenBitNumber get_NoteNumber() { }
 
-	// RVA: 0x22004F0 Offset: 0x21FEAF0 VA: 0x1822004F0
+	// RVA: 0x2200D10 Offset: 0x21FF310 VA: 0x182200D10
 	public SevenBitNumber get_Velocity() { }
 
-	// RVA: 0x2200710 Offset: 0x21FED10 VA: 0x182200710
+	// RVA: 0x2200F30 Offset: 0x21FF530 VA: 0x182200F30
 	public void set_Velocity(SevenBitNumber value) { }
 
-	// RVA: 0x2200690 Offset: 0x21FEC90 VA: 0x182200690
+	// RVA: 0x2200EB0 Offset: 0x21FF4B0 VA: 0x182200EB0
 	public void set_OffVelocity(SevenBitNumber value) { }
 
-	// RVA: 0x22005F0 Offset: 0x21FEBF0 VA: 0x1822005F0
+	// RVA: 0x2200E10 Offset: 0x21FF410 VA: 0x182200E10
 	public void set_Channel(FourBitNumber value) { }
 
-	// RVA: 0x2200110 Offset: 0x21FE710 VA: 0x182200110
+	// RVA: 0x2200930 Offset: 0x21FEF30 VA: 0x182200930
 	public NoteName get_NoteName() { }
 
-	// RVA: 0x2200260 Offset: 0x21FE860 VA: 0x182200260
+	// RVA: 0x2200A80 Offset: 0x21FF080 VA: 0x182200A80
 	public int get_Octave() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	internal TimedEvent get_TimedNoteOnEvent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	internal TimedEvent get_TimedNoteOffEvent() { }
 
-	// RVA: 0x2200330 Offset: 0x21FE930 VA: 0x182200330
+	// RVA: 0x2200B50 Offset: 0x21FF150 VA: 0x182200B50
 	internal Note get_UnderlyingNote() { }
 
-	// RVA: 0x21FF8F0 Offset: 0x21FDEF0 VA: 0x1821FF8F0 Slot: 3
+	// RVA: 0x2200110 Offset: 0x21FE710 VA: 0x182200110 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x21FFC40 Offset: 0x21FE240 VA: 0x1821FFC40
+	// RVA: 0x2200460 Offset: 0x21FEA60 VA: 0x182200460
 	private static void .cctor() { }
 
 }

@@ -6,16 +6,16 @@ public class PathSpeedZone : MonoBehaviour // TypeDefIndex: 8863
 
 	// Methods
 
-	// RVA: 0x86A630 Offset: 0x868C30 VA: 0x18086A630
+	// RVA: 0x885D90 Offset: 0x884390 VA: 0x180885D90
 	public OBB WorldSpaceBounds() { }
 
-	// RVA: 0x5C33A0 Offset: 0x5C19A0 VA: 0x1805C33A0
+	// RVA: 0x5C3330 Offset: 0x5C1930 VA: 0x1805C3330
 	public float GetMaxSpeed() { }
 
-	// RVA: 0x86A440 Offset: 0x868A40 VA: 0x18086A440 Slot: 4
+	// RVA: 0x885BA0 Offset: 0x8841A0 VA: 0x180885BA0 Slot: 4
 	public virtual void OnDrawGizmosSelected() { }
 
-	// RVA: 0x86A770 Offset: 0x868D70 VA: 0x18086A770
+	// RVA: 0x885ED0 Offset: 0x8844D0 VA: 0x180885ED0
 	public void .ctor() { }
 
 }

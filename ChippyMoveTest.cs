@@ -6,10 +6,10 @@ public class ChippyMoveTest : MonoBehaviour // TypeDefIndex: 8770
 
 	// Methods
 
-	// RVA: 0x53AFF0 Offset: 0x5395F0 VA: 0x18053AFF0
+	// RVA: 0x53AF80 Offset: 0x539580 VA: 0x18053AF80
 	private void FixedUpdate() { }
 
-	// RVA: 0x53B440 Offset: 0x539A40 VA: 0x18053B440
+	// RVA: 0x53B3D0 Offset: 0x5399D0 VA: 0x18053B3D0
 	public void .ctor() { }
 
 }

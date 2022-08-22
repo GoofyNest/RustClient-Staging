@@ -7,16 +7,16 @@ internal class WorkshopPlayerPreview : MonoBehaviour // TypeDefIndex: 7768
 
 	// Methods
 
-	// RVA: 0xE85050 Offset: 0xE83650 VA: 0x180E85050
+	// RVA: 0xE85B00 Offset: 0xE84100 VA: 0x180E85B00
 	protected WorkshopInterface get_Interface() { }
 
-	// RVA: 0xE84BD0 Offset: 0xE831D0 VA: 0x180E84BD0
+	// RVA: 0xE85680 Offset: 0xE83C80 VA: 0x180E85680
 	public void Setup(GameObject ClothingPrefab, ulong id, bool focus, bool IsClothing) { }
 
-	// RVA: 0xE84AB0 Offset: 0xE830B0 VA: 0x180E84AB0
+	// RVA: 0xE85560 Offset: 0xE83B60 VA: 0x180E85560
 	public void Cleanup() { }
 
-	// RVA: 0xE84B60 Offset: 0xE83160 VA: 0x180E84B60
+	// RVA: 0xE85610 Offset: 0xE83C10 VA: 0x180E85610
 	private void OnDisable() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

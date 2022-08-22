@@ -29,37 +29,37 @@ public struct BoneWeight : IEquatable<BoneWeight> // TypeDefIndex: 3443
 
 	// Methods
 
-	// RVA: 0x13A310 Offset: 0x139710 VA: 0x18013A310
+	// RVA: 0x13A130 Offset: 0x139530 VA: 0x18013A130
 	public float get_weight0() { }
 
-	// RVA: 0x212330 Offset: 0x211730 VA: 0x180212330
+	// RVA: 0x211760 Offset: 0x210B60 VA: 0x180211760
 	public float get_weight1() { }
 
-	// RVA: 0x212340 Offset: 0x211740 VA: 0x180212340
+	// RVA: 0x211770 Offset: 0x210B70 VA: 0x180211770
 	public float get_weight2() { }
 
-	// RVA: 0x212350 Offset: 0x211750 VA: 0x180212350
+	// RVA: 0x211780 Offset: 0x210B80 VA: 0x180211780
 	public float get_weight3() { }
 
-	// RVA: 0x2122F0 Offset: 0x2116F0 VA: 0x1802122F0
+	// RVA: 0x211720 Offset: 0x210B20 VA: 0x180211720
 	public int get_boneIndex0() { }
 
-	// RVA: 0x212300 Offset: 0x211700 VA: 0x180212300
+	// RVA: 0x211730 Offset: 0x210B30 VA: 0x180211730
 	public int get_boneIndex1() { }
 
-	// RVA: 0x212310 Offset: 0x211710 VA: 0x180212310
+	// RVA: 0x211740 Offset: 0x210B40 VA: 0x180211740
 	public int get_boneIndex2() { }
 
-	// RVA: 0x212320 Offset: 0x211720 VA: 0x180212320
+	// RVA: 0x211750 Offset: 0x210B50 VA: 0x180211750
 	public int get_boneIndex3() { }
 
-	// RVA: 0x2121E0 Offset: 0x2115E0 VA: 0x1802121E0 Slot: 2
+	// RVA: 0x211610 Offset: 0x210A10 VA: 0x180211610 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x212110 Offset: 0x211510 VA: 0x180212110 Slot: 0
+	// RVA: 0x211540 Offset: 0x210940 VA: 0x180211540 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0x2121B0 Offset: 0x2115B0 VA: 0x1802121B0 Slot: 4
+	// RVA: 0x2115E0 Offset: 0x2109E0 VA: 0x1802115E0 Slot: 4
 	public bool Equals(BoneWeight other) { }
 
 }

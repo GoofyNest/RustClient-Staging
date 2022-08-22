@@ -11,25 +11,25 @@ public class StatusLightRenderer : MonoBehaviour, IClientComponent // TypeDefInd
 
 	// Methods
 
-	// RVA: 0xA8D620 Offset: 0xA8BC20 VA: 0x180A8D620
+	// RVA: 0xA8DAF0 Offset: 0xA8C0F0 VA: 0x180A8DAF0
 	protected void Awake() { }
 
-	// RVA: 0xA8D930 Offset: 0xA8BF30 VA: 0x180A8D930
+	// RVA: 0xA8DE00 Offset: 0xA8C400 VA: 0x180A8DE00
 	public void SetOff() { }
 
-	// RVA: 0xA8DA30 Offset: 0xA8C030 VA: 0x180A8DA30
+	// RVA: 0xA8DF00 Offset: 0xA8C500 VA: 0x180A8DF00
 	public void SetOn() { }
 
-	// RVA: 0xA8DB20 Offset: 0xA8C120 VA: 0x180A8DB20
+	// RVA: 0xA8DFF0 Offset: 0xA8C5F0 VA: 0x180A8DFF0
 	public void SetRed() { }
 
-	// RVA: 0xA8D7D0 Offset: 0xA8BDD0 VA: 0x180A8D7D0
+	// RVA: 0xA8DCA0 Offset: 0xA8C2A0 VA: 0x180A8DCA0
 	public void SetGreen() { }
 
-	// RVA: 0xA8D6E0 Offset: 0xA8BCE0 VA: 0x180A8D6E0
+	// RVA: 0xA8DBB0 Offset: 0xA8C1B0 VA: 0x180A8DBB0
 	private Color GetColor(byte r, byte g, byte b, byte a) { }
 
-	// RVA: 0xA8D740 Offset: 0xA8BD40 VA: 0x180A8D740
+	// RVA: 0xA8DC10 Offset: 0xA8C210 VA: 0x180A8DC10
 	private Color GetColor(byte r, byte g, byte b, byte a, float intensity) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

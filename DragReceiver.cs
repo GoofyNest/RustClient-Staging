@@ -4,7 +4,7 @@ public class DragReceiver : MonoBehaviour, IDropHandler, IEventSystemHandler // 
 
 	// Methods
 
-	// RVA: 0xAB0A70 Offset: 0xAAF070 VA: 0x180AB0A70 Slot: 4
+	// RVA: 0xAB0F40 Offset: 0xAAF540 VA: 0x180AB0F40 Slot: 4
 	public void OnDrop(PointerEventData eventData) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -15,7 +15,7 @@ public class DragReceiver : MonoBehaviour, IDropHandler, IEventSystemHandler // 
 public class DragReceiver.TriggerEvent : UnityEvent<BaseEventData> // TypeDefIndex: 11001
 {	// Methods
 
-	// RVA: 0xAC5950 Offset: 0xAC3F50 VA: 0x180AC5950
+	// RVA: 0xAC5E20 Offset: 0xAC4420 VA: 0x180AC5E20
 	public void .ctor() { }
 
 }

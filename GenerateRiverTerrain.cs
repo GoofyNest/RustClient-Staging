@@ -7,10 +7,10 @@ public class GenerateRiverTerrain : ProceduralComponent // TypeDefIndex: 10502
 
 	// Methods
 
-	// RVA: 0xC92800 Offset: 0xC90E00 VA: 0x180C92800 Slot: 5
+	// RVA: 0xC92CA0 Offset: 0xC912A0 VA: 0x180C92CA0 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40
+	// RVA: 0x57BBD0 Offset: 0x57A1D0 VA: 0x18057BBD0
 	public void .ctor() { }
 
 }

@@ -1,7 +1,7 @@
 public class DragPerformEvent : DragAndDropEventBase<DragPerformEvent> // TypeDefIndex: 4638
 {	// Methods
 
-	// RVA: 0xEAA360 Offset: 0xEA8960 VA: 0x180EAA360
+	// RVA: 0xEAAE10 Offset: 0xEA9410 VA: 0x180EAAE10
 	public void .ctor() { }
 
 }

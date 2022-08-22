@@ -16,55 +16,55 @@ internal sealed class SerializationFieldInfo : FieldInfo // TypeDefIndex: 1057
 
 	// Methods
 
-	// RVA: 0xBC8EB0 Offset: 0xBC74B0 VA: 0x180BC8EB0 Slot: 16
+	// RVA: 0xBC9380 Offset: 0xBC7980 VA: 0x180BC9380 Slot: 16
 	public override Module get_Module() { }
 
-	// RVA: 0xBC8C90 Offset: 0xBC7290 VA: 0x180BC8C90 Slot: 15
+	// RVA: 0xBC9160 Offset: 0xBC7760 VA: 0x180BC9160 Slot: 15
 	public override int get_MetadataToken() { }
 
-	// RVA: 0x12A7270 Offset: 0x12A5870 VA: 0x1812A7270
+	// RVA: 0x12A7910 Offset: 0x12A5F10 VA: 0x1812A7910
 	internal void .ctor(RuntimeFieldInfo field, string namePrefix) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 8
 	public override string get_Name() { }
 
-	// RVA: 0xBC8E10 Offset: 0xBC7410 VA: 0x180BC8E10 Slot: 9
+	// RVA: 0xBC92E0 Offset: 0xBC78E0 VA: 0x180BC92E0 Slot: 9
 	public override Type get_DeclaringType() { }
 
-	// RVA: 0xBC8E80 Offset: 0xBC7480 VA: 0x180BC8E80 Slot: 10
+	// RVA: 0xBC9350 Offset: 0xBC7950 VA: 0x180BC9350 Slot: 10
 	public override Type get_ReflectedType() { }
 
-	// RVA: 0x12A6FB0 Offset: 0x12A55B0 VA: 0x1812A6FB0 Slot: 11
+	// RVA: 0x12A7650 Offset: 0x12A5C50 VA: 0x1812A7650 Slot: 11
 	public override object[] GetCustomAttributes(bool inherit) { }
 
-	// RVA: 0x12A6F80 Offset: 0x12A5580 VA: 0x1812A6F80 Slot: 12
+	// RVA: 0x12A7620 Offset: 0x12A5C20 VA: 0x1812A7620 Slot: 12
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit) { }
 
-	// RVA: 0x12A7210 Offset: 0x12A5810 VA: 0x1812A7210 Slot: 13
+	// RVA: 0x12A78B0 Offset: 0x12A5EB0 VA: 0x1812A78B0 Slot: 13
 	public override bool IsDefined(Type attributeType, bool inherit) { }
 
-	// RVA: 0x12A7320 Offset: 0x12A5920 VA: 0x1812A7320 Slot: 19
+	// RVA: 0x12A79C0 Offset: 0x12A5FC0 VA: 0x1812A79C0 Slot: 19
 	public override Type get_FieldType() { }
 
-	// RVA: 0xD65850 Offset: 0xD63E50 VA: 0x180D65850 Slot: 20
+	// RVA: 0xD66200 Offset: 0xD64800 VA: 0x180D66200 Slot: 20
 	public override object GetValue(object obj) { }
 
-	// RVA: 0x12A6FE0 Offset: 0x12A55E0 VA: 0x1812A6FE0
+	// RVA: 0x12A7680 Offset: 0x12A5C80 VA: 0x1812A7680
 	internal object InternalGetValue(object obj) { }
 
-	// RVA: 0x12A7240 Offset: 0x12A5840 VA: 0x1812A7240 Slot: 27
+	// RVA: 0x12A78E0 Offset: 0x12A5EE0 VA: 0x1812A78E0 Slot: 27
 	public override void SetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture) { }
 
-	// RVA: 0x12A70D0 Offset: 0x12A56D0 VA: 0x1812A70D0
+	// RVA: 0x12A7770 Offset: 0x12A5D70 VA: 0x1812A7770
 	internal void InternalSetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	internal RuntimeFieldInfo get_FieldInfo() { }
 
-	// RVA: 0xBC8F10 Offset: 0xBC7510 VA: 0x180BC8F10 Slot: 18
+	// RVA: 0xBC93E0 Offset: 0xBC79E0 VA: 0x180BC93E0 Slot: 18
 	public override RuntimeFieldHandle get_FieldHandle() { }
 
-	// RVA: 0xBC8F40 Offset: 0xBC7540 VA: 0x180BC8F40 Slot: 17
+	// RVA: 0xBC9410 Offset: 0xBC7A10 VA: 0x180BC9410 Slot: 17
 	public override FieldAttributes get_Attributes() { }
 
 }

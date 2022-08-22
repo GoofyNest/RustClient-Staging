@@ -8,16 +8,16 @@ public class IOEntityInformationPanel : ItemInformationPanel // TypeDefIndex: 11
 
 	// Methods
 
-	// RVA: 0x808700 Offset: 0x806D00 VA: 0x180808700
+	// RVA: 0x808C90 Offset: 0x807290 VA: 0x180808C90
 	public IOEntity GetIOEntityToUse(ItemDefinition info) { }
 
-	// RVA: 0x808680 Offset: 0x806C80 VA: 0x180808680 Slot: 4
+	// RVA: 0x808C10 Offset: 0x807210 VA: 0x180808C10 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x808810 Offset: 0x806E10 VA: 0x180808810 Slot: 5
+	// RVA: 0x808DA0 Offset: 0x8073A0 VA: 0x180808DA0 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

@@ -4,16 +4,16 @@ public sealed class RuntimeWrappedException : Exception // TypeDefIndex: 1288
 
 	// Methods
 
-	// RVA: 0xFF5540 Offset: 0xFF3B40 VA: 0x180FF5540
+	// RVA: 0xFF5FE0 Offset: 0xFF45E0 VA: 0x180FF5FE0
 	private void .ctor(object thrownObject) { }
 
-	// RVA: 0xFF5450 Offset: 0xFF3A50 VA: 0x180FF5450 Slot: 10
+	// RVA: 0xFF5EF0 Offset: 0xFF44F0 VA: 0x180FF5EF0 Slot: 10
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xFF5610 Offset: 0xFF3C10 VA: 0x180FF5610
+	// RVA: 0xFF60B0 Offset: 0xFF46B0 VA: 0x180FF60B0
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xFF55E0 Offset: 0xFF3BE0 VA: 0x180FF55E0
+	// RVA: 0xFF6080 Offset: 0xFF4680 VA: 0x180FF6080
 	internal void .ctor() { }
 
 }

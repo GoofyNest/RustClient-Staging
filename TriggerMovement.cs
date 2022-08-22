@@ -7,16 +7,16 @@ public class TriggerMovement : TriggerBase, IClientComponent // TypeDefIndex: 92
 
 	// Methods
 
-	// RVA: 0x522390 Offset: 0x520990 VA: 0x180522390
+	// RVA: 0x522320 Offset: 0x520920 VA: 0x180522320
 	public void SetMovementScale(float newScale) { }
 
-	// RVA: 0xA21B80 Offset: 0xA20180 VA: 0x180A21B80
+	// RVA: 0xA22070 Offset: 0xA20670 VA: 0x180A22070
 	public float GetMovementScale() { }
 
-	// RVA: 0xA21B90 Offset: 0xA20190 VA: 0x180A21B90 Slot: 6
+	// RVA: 0xA22080 Offset: 0xA20680 VA: 0x180A22080 Slot: 6
 	internal override GameObject InterestedInObject(GameObject obj) { }
 
-	// RVA: 0xA21DA0 Offset: 0xA203A0 VA: 0x180A21DA0
+	// RVA: 0xA22290 Offset: 0xA20890 VA: 0x180A22290
 	public void .ctor() { }
 
 }

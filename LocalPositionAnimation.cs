@@ -15,10 +15,10 @@ public class LocalPositionAnimation : MonoBehaviour, IClientComponent // TypeDef
 
 	// Methods
 
-	// RVA: 0x4FE2E0 Offset: 0x4FC8E0 VA: 0x1804FE2E0
+	// RVA: 0x4FE270 Offset: 0x4FC870 VA: 0x1804FE270
 	protected void Update() { }
 
-	// RVA: 0x4FE6D0 Offset: 0x4FCCD0 VA: 0x1804FE6D0
+	// RVA: 0x4FE660 Offset: 0x4FCC60 VA: 0x1804FE660
 	public void .ctor() { }
 
 }

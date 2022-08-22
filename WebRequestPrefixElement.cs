@@ -9,13 +9,13 @@ internal class WebRequestPrefixElement // TypeDefIndex: 2890
 
 	// Methods
 
-	// RVA: 0x118D900 Offset: 0x118BF00 VA: 0x18118D900
+	// RVA: 0x1192220 Offset: 0x1190820 VA: 0x181192220
 	public IWebRequestCreate get_Creator() { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_Creator(IWebRequestCreate value) { }
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	public void .ctor(string P, IWebRequestCreate C) { }
 
 }

@@ -12,63 +12,63 @@ public class UdpClient : IDisposable // TypeDefIndex: 3060
 
 	// Methods
 
-	// RVA: 0x100FD30 Offset: 0x100E330 VA: 0x18100FD30
+	// RVA: 0x10107D0 Offset: 0x100EDD0 VA: 0x1810107D0
 	public void .ctor() { }
 
-	// RVA: 0x100FBD0 Offset: 0x100E1D0 VA: 0x18100FBD0
+	// RVA: 0x1010670 Offset: 0x100EC70 VA: 0x181010670
 	public void .ctor(AddressFamily family) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Socket get_Client() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_Client(Socket value) { }
 
-	// RVA: 0x100F6A0 Offset: 0x100DCA0 VA: 0x18100F6A0
+	// RVA: 0x1010140 Offset: 0x100E740 VA: 0x181010140
 	private void FreeResources() { }
 
-	// RVA: 0x100F370 Offset: 0x100D970 VA: 0x18100F370 Slot: 4
+	// RVA: 0x100FE10 Offset: 0x100E410 VA: 0x18100FE10 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x100F2C0 Offset: 0x100D8C0 VA: 0x18100F2C0 Slot: 5
+	// RVA: 0x100FD60 Offset: 0x100E360 VA: 0x18100FD60 Slot: 5
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x100F180 Offset: 0x100D780 VA: 0x18100F180
+	// RVA: 0x100FC20 Offset: 0x100E220 VA: 0x18100FC20
 	public void Connect(IPEndPoint endPoint) { }
 
-	// RVA: 0x100F110 Offset: 0x100D710 VA: 0x18100F110
+	// RVA: 0x100FBB0 Offset: 0x100E1B0 VA: 0x18100FBB0
 	private void CheckForBroadcast(IPAddress ipAddress) { }
 
-	// RVA: 0x100EEA0 Offset: 0x100D4A0 VA: 0x18100EEA0
+	// RVA: 0x100F940 Offset: 0x100DF40 VA: 0x18100F940
 	public IAsyncResult BeginSend(byte[] datagram, int bytes, IPEndPoint endPoint, AsyncCallback requestCallback, object state) { }
 
-	// RVA: 0x100EE70 Offset: 0x100D470 VA: 0x18100EE70
+	// RVA: 0x100F910 Offset: 0x100DF10 VA: 0x18100F910
 	public IAsyncResult BeginSend(byte[] datagram, int bytes, AsyncCallback requestCallback, object state) { }
 
-	// RVA: 0x100F5D0 Offset: 0x100DBD0 VA: 0x18100F5D0
+	// RVA: 0x1010070 Offset: 0x100E670 VA: 0x181010070
 	public int EndSend(IAsyncResult asyncResult) { }
 
-	// RVA: 0x100ED20 Offset: 0x100D320 VA: 0x18100ED20
+	// RVA: 0x100F7C0 Offset: 0x100DDC0 VA: 0x18100F7C0
 	public IAsyncResult BeginReceive(AsyncCallback requestCallback, object state) { }
 
-	// RVA: 0x100F390 Offset: 0x100D990 VA: 0x18100F390
+	// RVA: 0x100FE30 Offset: 0x100E430 VA: 0x18100FE30
 	public byte[] EndReceive(IAsyncResult asyncResult, ref IPEndPoint remoteEP) { }
 
-	// RVA: 0x100F8E0 Offset: 0x100DEE0 VA: 0x18100F8E0
+	// RVA: 0x1010380 Offset: 0x100E980 VA: 0x181010380
 	public Task<int> SendAsync(byte[] datagram, int bytes) { }
 
-	// RVA: 0x100F710 Offset: 0x100DD10 VA: 0x18100F710
+	// RVA: 0x10101B0 Offset: 0x100E7B0 VA: 0x1810101B0
 	public Task<UdpReceiveResult> ReceiveAsync() { }
 
-	// RVA: 0x100FE10 Offset: 0x100E410 VA: 0x18100FE10
+	// RVA: 0x10108B0 Offset: 0x100EEB0 VA: 0x1810108B0
 	private void createClientSocket() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x100ED20 Offset: 0x100D320 VA: 0x18100ED20
+	// RVA: 0x100F7C0 Offset: 0x100DDC0 VA: 0x18100F7C0
 	private IAsyncResult <ReceiveAsync>b__64_0(AsyncCallback callback, object state) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x100FAD0 Offset: 0x100E0D0 VA: 0x18100FAD0
+	// RVA: 0x1010570 Offset: 0x100EB70 VA: 0x181010570
 	private UdpReceiveResult <ReceiveAsync>b__64_1(IAsyncResult ar) { }
 
 }

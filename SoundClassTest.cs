@@ -6,10 +6,10 @@ public class SoundClassTest : MonoBehaviour // TypeDefIndex: 9025
 
 	// Methods
 
-	// RVA: 0xA74C80 Offset: 0xA73280 VA: 0x180A74C80
+	// RVA: 0xA75150 Offset: 0xA73750 VA: 0x180A75150
 	private void Update() { }
 
-	// RVA: 0xA74DB0 Offset: 0xA733B0 VA: 0x180A74DB0
+	// RVA: 0xA75280 Offset: 0xA73880 VA: 0x180A75280
 	public void .ctor() { }
 
 }

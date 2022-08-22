@@ -31,25 +31,25 @@ public class ERSideWalk // TypeDefIndex: 7197
 
 	// Methods
 
-	// RVA: 0xA65EA0 Offset: 0xA644A0 VA: 0x180A65EA0
+	// RVA: 0xA66370 Offset: 0xA64970 VA: 0x180A66370
 	public static ERSideWalk CreateInstance(int count) { }
 
-	// RVA: 0xA66690 Offset: 0xA64C90 VA: 0x180A66690
+	// RVA: 0xA66B60 Offset: 0xA65160 VA: 0x180A66B60
 	public void UpdateTimestamp() { }
 
-	// RVA: 0xA66550 Offset: 0xA64B50 VA: 0x180A66550
+	// RVA: 0xA66A20 Offset: 0xA65020 VA: 0x180A66A20
 	public static string[] SidewalkNames(List<ERSideWalk> sidewalks) { }
 
-	// RVA: 0xA65CB0 Offset: 0xA642B0 VA: 0x180A65CB0
+	// RVA: 0xA66180 Offset: 0xA64780 VA: 0x180A66180
 	public static void CopySidewalk(ERSideWalk source, ERSideWalk target) { }
 
-	// RVA: 0xA662E0 Offset: 0xA648E0 VA: 0x180A662E0
+	// RVA: 0xA667B0 Offset: 0xA64DB0 VA: 0x180A667B0
 	public static void RefreshSidewalks(List<ERSideWalk> sidewalks) { }
 
-	// RVA: 0xA66110 Offset: 0xA64710 VA: 0x180A66110
+	// RVA: 0xA665E0 Offset: 0xA64BE0 VA: 0x180A665E0
 	public void OOQQDCCDQO() { }
 
-	// RVA: 0xA66730 Offset: 0xA64D30 VA: 0x180A66730
+	// RVA: 0xA66C00 Offset: 0xA65200 VA: 0x180A66C00
 	public void .ctor() { }
 
 }

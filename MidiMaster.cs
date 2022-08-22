@@ -6,55 +6,55 @@ public static class MidiMaster // TypeDefIndex: 7647
 
 	// Methods
 
-	// RVA: 0x2317840 Offset: 0x2315E40 VA: 0x182317840
+	// RVA: 0x2318060 Offset: 0x2316660 VA: 0x182318060
 	public static MidiDriver.NoteOnDelegate get_noteOnDelegate() { }
 
-	// RVA: 0x23178C0 Offset: 0x2315EC0 VA: 0x1823178C0
+	// RVA: 0x23180E0 Offset: 0x23166E0 VA: 0x1823180E0
 	public static void set_noteOnDelegate(MidiDriver.NoteOnDelegate value) { }
 
-	// RVA: 0x2317820 Offset: 0x2315E20 VA: 0x182317820
+	// RVA: 0x2318040 Offset: 0x2316640 VA: 0x182318040
 	public static MidiDriver.NoteOffDelegate get_noteOffDelegate() { }
 
-	// RVA: 0x2317890 Offset: 0x2315E90 VA: 0x182317890
+	// RVA: 0x23180B0 Offset: 0x23166B0 VA: 0x1823180B0
 	public static void set_noteOffDelegate(MidiDriver.NoteOffDelegate value) { }
 
-	// RVA: 0x2317800 Offset: 0x2315E00 VA: 0x182317800
+	// RVA: 0x2318020 Offset: 0x2316620 VA: 0x182318020
 	public static MidiDriver.KnobDelegate get_knobDelegate() { }
 
-	// RVA: 0x2317860 Offset: 0x2315E60 VA: 0x182317860
+	// RVA: 0x2318080 Offset: 0x2316680 VA: 0x182318080
 	public static void set_knobDelegate(MidiDriver.KnobDelegate value) { }
 
-	// RVA: 0x2317680 Offset: 0x2315C80 VA: 0x182317680
+	// RVA: 0x2317EA0 Offset: 0x23164A0 VA: 0x182317EA0
 	public static float GetKey(MidiChannel channel, int noteNumber) { }
 
-	// RVA: 0x2317640 Offset: 0x2315C40 VA: 0x182317640
+	// RVA: 0x2317E60 Offset: 0x2316460 VA: 0x182317E60
 	public static float GetKey(int noteNumber) { }
 
-	// RVA: 0x2317540 Offset: 0x2315B40 VA: 0x182317540
+	// RVA: 0x2317D60 Offset: 0x2316360 VA: 0x182317D60
 	public static bool GetKeyDown(MidiChannel channel, int noteNumber) { }
 
-	// RVA: 0x2317580 Offset: 0x2315B80 VA: 0x182317580
+	// RVA: 0x2317DA0 Offset: 0x23163A0 VA: 0x182317DA0
 	public static bool GetKeyDown(int noteNumber) { }
 
-	// RVA: 0x23175C0 Offset: 0x2315BC0 VA: 0x1823175C0
+	// RVA: 0x2317DE0 Offset: 0x23163E0 VA: 0x182317DE0
 	public static bool GetKeyUp(MidiChannel channel, int noteNumber) { }
 
-	// RVA: 0x2317600 Offset: 0x2315C00 VA: 0x182317600
+	// RVA: 0x2317E20 Offset: 0x2316420 VA: 0x182317E20
 	public static bool GetKeyUp(int noteNumber) { }
 
-	// RVA: 0x23176C0 Offset: 0x2315CC0 VA: 0x1823176C0
+	// RVA: 0x2317EE0 Offset: 0x23164E0 VA: 0x182317EE0
 	public static int[] GetKnobNumbers(MidiChannel channel) { }
 
-	// RVA: 0x23176F0 Offset: 0x2315CF0 VA: 0x1823176F0
+	// RVA: 0x2317F10 Offset: 0x2316510 VA: 0x182317F10
 	public static int[] GetKnobNumbers() { }
 
-	// RVA: 0x2317770 Offset: 0x2315D70 VA: 0x182317770
+	// RVA: 0x2317F90 Offset: 0x2316590 VA: 0x182317F90
 	public static float GetKnob(MidiChannel channel, int knobNumber, float defaultValue = 0) { }
 
-	// RVA: 0x2317720 Offset: 0x2315D20 VA: 0x182317720
+	// RVA: 0x2317F40 Offset: 0x2316540 VA: 0x182317F40
 	public static float GetKnob(int knobNumber, float defaultValue = 0) { }
 
-	// RVA: 0x23177D0 Offset: 0x2315DD0 VA: 0x1823177D0
+	// RVA: 0x2317FF0 Offset: 0x23165F0 VA: 0x182317FF0
 	public static void ToggleEnabled(bool state) { }
 
 }

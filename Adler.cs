@@ -5,10 +5,10 @@ public sealed class Adler // TypeDefIndex: 6962
 
 	// Methods
 
-	// RVA: 0x21C6F90 Offset: 0x21C5590 VA: 0x1821C6F90
+	// RVA: 0x21C77B0 Offset: 0x21C5DB0 VA: 0x1821C77B0
 	public static uint Adler32(uint adler, byte[] buf, int index, int len) { }
 
-	// RVA: 0x21C7400 Offset: 0x21C5A00 VA: 0x1821C7400
+	// RVA: 0x21C7C20 Offset: 0x21C6220 VA: 0x1821C7C20
 	private static void .cctor() { }
 
 }

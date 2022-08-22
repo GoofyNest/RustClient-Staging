@@ -12,32 +12,32 @@ public class Toolgun : Hammer // TypeDefIndex: 8655
 
 	// Methods
 
-	// RVA: 0x88F000 Offset: 0x88D600 VA: 0x18088F000 Slot: 35
+	// RVA: 0x872340 Offset: 0x870940 VA: 0x180872340 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x88E930 Offset: 0x88CF30 VA: 0x18088E930 Slot: 138
+	// RVA: 0x871C70 Offset: 0x870270 VA: 0x180871C70 Slot: 138
 	public override void OnInput() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 166
 	public override void DoViewmodelImpact(HitTest test) { }
 
-	// RVA: 0x88E100 Offset: 0x88C700 VA: 0x18088E100
+	// RVA: 0x871440 Offset: 0x86FA40 VA: 0x180871440
 	public void DoTGEffect(Vector3 endPos, Vector3 endNormal) { }
 
-	// RVA: 0x88DE80 Offset: 0x88C480 VA: 0x18088DE80
+	// RVA: 0x8711C0 Offset: 0x86F7C0 VA: 0x1808711C0
 	public void DoAttackEffect(Vector3 endPos, Vector3 normal) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x88E5D0 Offset: 0x88CBD0 VA: 0x18088E5D0
+	// RVA: 0x871910 Offset: 0x86FF10 VA: 0x180871910
 	public void EffectSpawn(BaseEntity.RPCMessage msg) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0 Slot: 163
 	public override void ClientAttack() { }
 
-	// RVA: 0x88DF40 Offset: 0x88C540 VA: 0x18088DF40 Slot: 160
+	// RVA: 0x871280 Offset: 0x86F880 VA: 0x180871280 Slot: 160
 	public override void DoAttackShared(HitInfo info) { }
 
-	// RVA: 0x88F450 Offset: 0x88DA50 VA: 0x18088F450
+	// RVA: 0x872790 Offset: 0x870D90 VA: 0x180872790
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

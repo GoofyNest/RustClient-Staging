@@ -33,10 +33,10 @@ public class ERDecalClass // TypeDefIndex: 7215
 
 	// Methods
 
-	// RVA: 0x9A9710 Offset: 0x9A7D10 VA: 0x1809A9710
+	// RVA: 0x9A9C00 Offset: 0x9A8200 VA: 0x1809A9C00
 	public static void CopyDecal(ERDecal source, ERDecalClass target) { }
 
-	// RVA: 0x9A9980 Offset: 0x9A7F80 VA: 0x1809A9980
+	// RVA: 0x9A9E70 Offset: 0x9A8470 VA: 0x1809A9E70
 	public void .ctor() { }
 
 }

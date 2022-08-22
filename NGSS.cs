@@ -17,13 +17,13 @@ public class NGSS_Directional : MonoBehaviour // TypeDefIndex: 11506
 
 	// Methods
 
-	// RVA: 0x7C3C40 Offset: 0x7C2240 VA: 0x1807C3C40
+	// RVA: 0x7E2030 Offset: 0x7E0630 VA: 0x1807E2030
 	private void Update() { }
 
-	// RVA: 0x7C3B90 Offset: 0x7C2190 VA: 0x1807C3B90
+	// RVA: 0x7E1F80 Offset: 0x7E0580 VA: 0x1807E1F80
 	private void SetGlobalSettings(bool enabled) { }
 
-	// RVA: 0x7C3D80 Offset: 0x7C2380 VA: 0x1807C3D80
+	// RVA: 0x7E2170 Offset: 0x7E0770 VA: 0x1807E2170
 	public void .ctor() { }
 
 }

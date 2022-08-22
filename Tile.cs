@@ -23,46 +23,46 @@ public class Tile : TileBase // TypeDefIndex: 4566
 
 	// Methods
 
-	// RVA: 0x181DCA0 Offset: 0x181C2A0 VA: 0x18181DCA0
+	// RVA: 0x180B0E0 Offset: 0x18096E0 VA: 0x18180B0E0
 	public Sprite get_sprite() { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_sprite(Sprite value) { }
 
-	// RVA: 0x231F5D0 Offset: 0x231DBD0 VA: 0x18231F5D0
+	// RVA: 0x231FDF0 Offset: 0x231E3F0 VA: 0x18231FDF0
 	public Color get_color() { }
 
-	// RVA: 0x1096870 Offset: 0x1094E70 VA: 0x181096870
+	// RVA: 0x10972E0 Offset: 0x10958E0 VA: 0x1810972E0
 	public void set_color(Color value) { }
 
-	// RVA: 0x231F5F0 Offset: 0x231DBF0 VA: 0x18231F5F0
+	// RVA: 0x231FE10 Offset: 0x231E410 VA: 0x18231FE10
 	public Matrix4x4 get_transform() { }
 
-	// RVA: 0x231F620 Offset: 0x231DC20 VA: 0x18231F620
+	// RVA: 0x231FE40 Offset: 0x231E440 VA: 0x18231FE40
 	public void set_transform(Matrix4x4 value) { }
 
-	// RVA: 0x1A78840 Offset: 0x1A76E40 VA: 0x181A78840
+	// RVA: 0x1A64D70 Offset: 0x1A63370 VA: 0x181A64D70
 	public GameObject get_gameObject() { }
 
-	// RVA: 0x574460 Offset: 0x572A60 VA: 0x180574460
+	// RVA: 0x5743F0 Offset: 0x5729F0 VA: 0x1805743F0
 	public void set_gameObject(GameObject value) { }
 
-	// RVA: 0x231F5E0 Offset: 0x231DBE0 VA: 0x18231F5E0
+	// RVA: 0x231FE00 Offset: 0x231E400 VA: 0x18231FE00
 	public TileFlags get_flags() { }
 
-	// RVA: 0xB28F90 Offset: 0xB27590 VA: 0x180B28F90
+	// RVA: 0xB29460 Offset: 0xB27A60 VA: 0x180B29460
 	public void set_flags(TileFlags value) { }
 
-	// RVA: 0x231F5C0 Offset: 0x231DBC0 VA: 0x18231F5C0
+	// RVA: 0x231FDE0 Offset: 0x231E3E0 VA: 0x18231FDE0
 	public Tile.ColliderType get_colliderType() { }
 
-	// RVA: 0x144A790 Offset: 0x1448D90 VA: 0x18144A790
+	// RVA: 0x1449860 Offset: 0x1447E60 VA: 0x181449860
 	public void set_colliderType(Tile.ColliderType value) { }
 
-	// RVA: 0x231F4B0 Offset: 0x231DAB0 VA: 0x18231F4B0 Slot: 5
+	// RVA: 0x231FCD0 Offset: 0x231E2D0 VA: 0x18231FCD0 Slot: 5
 	public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData) { }
 
-	// RVA: 0x231F520 Offset: 0x231DB20 VA: 0x18231F520
+	// RVA: 0x231FD40 Offset: 0x231E340 VA: 0x18231FD40
 	public void .ctor() { }
 
 }

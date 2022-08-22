@@ -10,16 +10,16 @@ protected internal struct EventSource.EventData // TypeDefIndex: 1581
 
 	// Methods
 
-	// RVA: 0x19F530 Offset: 0x19E930 VA: 0x18019F530
+	// RVA: 0x1AD3C0 Offset: 0x1AC7C0 VA: 0x1801AD3C0
 	public IntPtr get_DataPointer() { }
 
-	// RVA: 0x19F540 Offset: 0x19E940 VA: 0x18019F540
+	// RVA: 0x1AD3D0 Offset: 0x1AC7D0 VA: 0x1801AD3D0
 	public void set_DataPointer(IntPtr value) { }
 
-	// RVA: 0x19DF50 Offset: 0x19D350 VA: 0x18019DF50
+	// RVA: 0x19DC40 Offset: 0x19D040 VA: 0x18019DC40
 	public void set_Size(int value) { }
 
-	// RVA: 0x19F4A0 Offset: 0x19E8A0 VA: 0x18019F4A0
+	// RVA: 0x1AD330 Offset: 0x1AC730 VA: 0x1801AD330
 	internal void SetMetadata(byte* pointer, int size, int reserved) { }
 
 }
@@ -39,16 +39,16 @@ protected class XmlSerializationReader.CollectionFixup // TypeDefIndex: 2098
 
 	// Methods
 
-	// RVA: 0x16880F0 Offset: 0x16866F0 VA: 0x1816880F0
+	// RVA: 0x1685CE0 Offset: 0x16842E0 VA: 0x181685CE0
 	internal void .ctor(object collection, XmlSerializationCollectionFixupCallback callback, string id) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public XmlSerializationCollectionFixupCallback get_Callback() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public object get_Collection() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	internal object get_Id() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -72,7 +72,7 @@ protected class XmlSerializationReader.Fixup // TypeDefIndex: 2099
 
 	// Methods
 
-	// RVA: 0x16881A0 Offset: 0x16867A0 VA: 0x1816881A0
+	// RVA: 0x1685D90 Offset: 0x1684390 VA: 0x181685D90
 	public void .ctor(object o, XmlSerializationFixupCallback callback, int count) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -81,7 +81,7 @@ protected class XmlSerializationReader.Fixup // TypeDefIndex: 2099
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string[] get_Ids() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public object get_Source() { }
 
 }
@@ -98,16 +98,16 @@ protected abstract class TypeConverter.SimplePropertyDescriptor : PropertyDescri
 
 	// Methods
 
-	// RVA: 0x1734190 Offset: 0x1732790 VA: 0x181734190
+	// RVA: 0x1731D50 Offset: 0x1730350 VA: 0x181731D50
 	protected void .ctor(Type componentType, string name, Type propertyType, Attribute[] attributes) { }
 
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370 Slot: 13
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300 Slot: 13
 	public override Type get_ComponentType() { }
 
-	// RVA: 0x17341F0 Offset: 0x17327F0 VA: 0x1817341F0 Slot: 15
+	// RVA: 0x1731DB0 Offset: 0x17303B0 VA: 0x181731DB0 Slot: 15
 	public override bool get_IsReadOnly() { }
 
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050 Slot: 16
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0 Slot: 16
 	public override Type get_PropertyType() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 20
@@ -137,7 +137,7 @@ protected internal class Dropdown.DropdownItem : MonoBehaviour, IPointerEnterHan
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public Text get_text() { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_text(Text value) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -146,22 +146,22 @@ protected internal class Dropdown.DropdownItem : MonoBehaviour, IPointerEnterHan
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_image(Image value) { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public RectTransform get_rectTransform() { }
 
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	public void set_rectTransform(RectTransform value) { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public Toggle get_toggle() { }
 
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	public void set_toggle(Toggle value) { }
 
-	// RVA: 0x15EA9A0 Offset: 0x15E8FA0 VA: 0x1815EA9A0 Slot: 6
+	// RVA: 0x15D7CC0 Offset: 0x15D62C0 VA: 0x1815D7CC0 Slot: 6
 	public virtual void OnPointerEnter(PointerEventData eventData) { }
 
-	// RVA: 0x15EA910 Offset: 0x15E8F10 VA: 0x1815EA910 Slot: 7
+	// RVA: 0x15D7C30 Offset: 0x15D6230 VA: 0x1815D7C30 Slot: 7
 	public virtual void OnCancel(BaseEventData eventData) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -202,13 +202,13 @@ protected class PointerInputModule.ButtonState // TypeDefIndex: 5082
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public PointerInputModule.MouseButtonEventData get_eventData() { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_eventData(PointerInputModule.MouseButtonEventData value) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public PointerEventData.InputButton get_button() { }
 
-	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
+	// RVA: 0x57C970 Offset: 0x57AF70 VA: 0x18057C970
 	public void set_button(PointerEventData.InputButton value) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -222,19 +222,19 @@ protected class PointerInputModule.MouseState // TypeDefIndex: 5083
 
 	// Methods
 
-	// RVA: 0x10C6530 Offset: 0x10C4B30 VA: 0x1810C6530
+	// RVA: 0x10C6FA0 Offset: 0x10C55A0 VA: 0x1810C6FA0
 	public bool AnyPressesThisFrame() { }
 
-	// RVA: 0x10C65F0 Offset: 0x10C4BF0 VA: 0x1810C65F0
+	// RVA: 0x10C7060 Offset: 0x10C5660 VA: 0x1810C7060
 	public bool AnyReleasesThisFrame() { }
 
-	// RVA: 0x10C66B0 Offset: 0x10C4CB0 VA: 0x1810C66B0
+	// RVA: 0x10C7120 Offset: 0x10C5720 VA: 0x1810C7120
 	public PointerInputModule.ButtonState GetButtonState(PointerEventData.InputButton button) { }
 
-	// RVA: 0x10C6800 Offset: 0x10C4E00 VA: 0x1810C6800
+	// RVA: 0x10C7270 Offset: 0x10C5870 VA: 0x1810C7270
 	public void SetButtonState(PointerEventData.InputButton button, PointerEventData.FramePressState stateForMouseButton, PointerEventData data) { }
 
-	// RVA: 0x10C6860 Offset: 0x10C4E60 VA: 0x1810C6860
+	// RVA: 0x10C72D0 Offset: 0x10C58D0 VA: 0x1810C72D0
 	public void .ctor() { }
 
 }
@@ -281,7 +281,7 @@ protected static class AnimalAnimation.Params // TypeDefIndex: 9114
 
 	// Methods
 
-	// RVA: 0x83C910 Offset: 0x83AF10 VA: 0x18083C910
+	// RVA: 0x83CE60 Offset: 0x83B460 VA: 0x18083CE60
 	private static void .cctor() { }
 
 }

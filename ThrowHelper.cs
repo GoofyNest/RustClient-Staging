@@ -1,62 +1,62 @@
 internal static class ThrowHelper // TypeDefIndex: 124
 {	// Methods
 
-	// RVA: 0x160EA40 Offset: 0x160D040 VA: 0x18160EA40
+	// RVA: 0x15FBD60 Offset: 0x15FA360 VA: 0x1815FBD60
 	internal static void ThrowArgumentNullException(ExceptionArgument argument) { }
 
-	// RVA: 0x160E230 Offset: 0x160C830 VA: 0x18160E230
+	// RVA: 0x15FB550 Offset: 0x15F9B50 VA: 0x1815FB550
 	private static Exception CreateArgumentNullException(ExceptionArgument argument) { }
 
-	// RVA: 0x160EBD0 Offset: 0x160D1D0 VA: 0x18160EBD0
+	// RVA: 0x15FBEF0 Offset: 0x15FA4F0 VA: 0x1815FBEF0
 	internal static void ThrowArrayTypeMismatchException_ArrayTypeMustBeExactMatch(Type type) { }
 
-	// RVA: 0x160E370 Offset: 0x160C970 VA: 0x18160E370
+	// RVA: 0x15FB690 Offset: 0x15F9C90 VA: 0x1815FB690
 	private static Exception CreateArrayTypeMismatchException_ArrayTypeMustBeExactMatch(Type type) { }
 
-	// RVA: 0x160E990 Offset: 0x160CF90 VA: 0x18160E990
+	// RVA: 0x15FBCB0 Offset: 0x15FA2B0 VA: 0x1815FBCB0
 	internal static void ThrowArgumentException_InvalidTypeWithPointersNotSupported(Type type) { }
 
-	// RVA: 0x160E1C0 Offset: 0x160C7C0 VA: 0x18160E1C0
+	// RVA: 0x15FB4E0 Offset: 0x15F9AE0 VA: 0x1815FB4E0
 	private static Exception CreateArgumentException_InvalidTypeWithPointersNotSupported(Type type) { }
 
-	// RVA: 0x160EC10 Offset: 0x160D210 VA: 0x18160EC10
+	// RVA: 0x15FBF30 Offset: 0x15FA530 VA: 0x1815FBF30
 	internal static void ThrowIndexOutOfRangeException() { }
 
-	// RVA: 0x160E3E0 Offset: 0x160C9E0 VA: 0x18160E3E0
+	// RVA: 0x15FB700 Offset: 0x15F9D00 VA: 0x1815FB700
 	private static Exception CreateIndexOutOfRangeException() { }
 
-	// RVA: 0x160EB70 Offset: 0x160D170 VA: 0x18160EB70
+	// RVA: 0x15FBE90 Offset: 0x15FA490 VA: 0x1815FBE90
 	internal static void ThrowArgumentOutOfRangeException(ExceptionArgument argument) { }
 
-	// RVA: 0x160E2D0 Offset: 0x160C8D0 VA: 0x18160E2D0
+	// RVA: 0x15FB5F0 Offset: 0x15F9BF0 VA: 0x1815FB5F0
 	private static Exception CreateArgumentOutOfRangeException(ExceptionArgument argument) { }
 
-	// RVA: 0x160EBB0 Offset: 0x160D1B0 VA: 0x18160EBB0
+	// RVA: 0x15FBED0 Offset: 0x15FA4D0 VA: 0x1815FBED0
 	internal static void ThrowArgumentOutOfRangeException() { }
 
-	// RVA: 0x160ED80 Offset: 0x160D380 VA: 0x18160ED80
+	// RVA: 0x15FC0A0 Offset: 0x15FA6A0 VA: 0x1815FC0A0
 	internal static void ThrowWrongValueTypeArgumentException(object value, Type targetType) { }
 
-	// RVA: 0x160ECC0 Offset: 0x160D2C0 VA: 0x18160ECC0
+	// RVA: 0x15FBFE0 Offset: 0x15FA5E0 VA: 0x1815FBFE0
 	internal static void ThrowKeyNotFoundException() { }
 
-	// RVA: 0x160E9D0 Offset: 0x160CFD0 VA: 0x18160E9D0
+	// RVA: 0x15FBCF0 Offset: 0x15FA2F0 VA: 0x1815FBCF0
 	internal static void ThrowArgumentException(ExceptionResource resource) { }
 
-	// RVA: 0x160EA80 Offset: 0x160D080 VA: 0x18160EA80
+	// RVA: 0x15FBDA0 Offset: 0x15FA3A0 VA: 0x1815FBDA0
 	internal static void ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource) { }
 
-	// RVA: 0x160EC50 Offset: 0x160D250 VA: 0x18160EC50
+	// RVA: 0x15FBF70 Offset: 0x15FA570 VA: 0x1815FBF70
 	internal static void ThrowInvalidOperationException(ExceptionResource resource) { }
 
-	// RVA: 0x160ED10 Offset: 0x160D310 VA: 0x18160ED10
+	// RVA: 0x15FC030 Offset: 0x15FA630 VA: 0x1815FC030
 	internal static void ThrowNotSupportedException(ExceptionResource resource) { }
 
 	// RVA: -1 Offset: -1
 	internal static void IfNullAndNullsAreIllegalThenThrow<T>(object value, ExceptionArgument argName) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D4470 Offset: 0x5D2A70 VA: 0x1805D4470
+	|-RVA: 0x5D4400 Offset: 0x5D2A00 VA: 0x1805D4400
 	|-ThrowHelper.IfNullAndNullsAreIllegalThenThrow<AdvancedChristmasLights.pointEntry>
 	|-ThrowHelper.IfNullAndNullsAreIllegalThenThrow<AlignedLineDrawer.LinePoint>
 	|-ThrowHelper.IfNullAndNullsAreIllegalThenThrow<AtmosphereVolumeRenderer.CurrentVolumeEntry>
@@ -223,10 +223,10 @@ internal static class ThrowHelper // TypeDefIndex: 124
 	|-ThrowHelper.IfNullAndNullsAreIllegalThenThrow<object>
 	*/
 
-	// RVA: 0x160E430 Offset: 0x160CA30 VA: 0x18160E430
+	// RVA: 0x15FB750 Offset: 0x15F9D50 VA: 0x1815FB750
 	internal static string GetArgumentName(ExceptionArgument argument) { }
 
-	// RVA: 0x160E620 Offset: 0x160CC20 VA: 0x18160E620
+	// RVA: 0x15FB940 Offset: 0x15F9F40 VA: 0x1815FB940
 	internal static string GetResourceName(ExceptionResource resource) { }
 
 }
@@ -237,34 +237,34 @@ internal static class ThrowHelper // TypeDefIndex: 6726
 internal static class ThrowHelper // TypeDefIndex: 6726
 	// Methods
 
-	// RVA: 0x231BAD0 Offset: 0x231A0D0 VA: 0x18231BAD0
+	// RVA: 0x231C2F0 Offset: 0x231A8F0 VA: 0x18231C2F0
 	internal static void ThrowArrayTypeMismatchException() { }
 
-	// RVA: 0x231B970 Offset: 0x2319F70 VA: 0x18231B970
+	// RVA: 0x231C190 Offset: 0x231A790 VA: 0x18231C190
 	private static Exception CreateArrayTypeMismatchException() { }
 
-	// RVA: 0x231BA50 Offset: 0x231A050 VA: 0x18231BA50
+	// RVA: 0x231C270 Offset: 0x231A870 VA: 0x18231C270
 	internal static void ThrowArgumentException_InvalidTypeWithPointersNotSupported(Type type) { }
 
-	// RVA: 0x231B6C0 Offset: 0x2319CC0 VA: 0x18231B6C0
+	// RVA: 0x231BEE0 Offset: 0x231A4E0 VA: 0x18231BEE0
 	private static Exception CreateArgumentException_InvalidTypeWithPointersNotSupported(Type type) { }
 
-	// RVA: 0x231BA10 Offset: 0x231A010 VA: 0x18231BA10
+	// RVA: 0x231C230 Offset: 0x231A830 VA: 0x18231C230
 	internal static void ThrowArgumentException_DestinationTooShort() { }
 
-	// RVA: 0x231B5F0 Offset: 0x2319BF0 VA: 0x18231B5F0
+	// RVA: 0x231BE10 Offset: 0x231A410 VA: 0x18231BE10
 	private static Exception CreateArgumentException_DestinationTooShort() { }
 
-	// RVA: 0x231BB10 Offset: 0x231A110 VA: 0x18231BB10
+	// RVA: 0x231C330 Offset: 0x231A930 VA: 0x18231C330
 	internal static void ThrowIndexOutOfRangeException() { }
 
-	// RVA: 0x231B9C0 Offset: 0x2319FC0 VA: 0x18231B9C0
+	// RVA: 0x231C1E0 Offset: 0x231A7E0 VA: 0x18231C1E0
 	private static Exception CreateIndexOutOfRangeException() { }
 
-	// RVA: 0x231BA90 Offset: 0x231A090 VA: 0x18231BA90
+	// RVA: 0x231C2B0 Offset: 0x231A8B0 VA: 0x18231C2B0
 	internal static void ThrowArgumentOutOfRangeException(ExceptionArgument argument) { }
 
-	// RVA: 0x231B8D0 Offset: 0x2319ED0 VA: 0x18231B8D0
+	// RVA: 0x231C0F0 Offset: 0x231A6F0 VA: 0x18231C0F0
 	private static Exception CreateArgumentOutOfRangeException(ExceptionArgument argument) { }
 
 }
@@ -272,19 +272,19 @@ internal static class ThrowHelper // TypeDefIndex: 6726
 internal static class ThrowHelper // TypeDefIndex: 7083
 {	// Methods
 
-	// RVA: 0x23132B0 Offset: 0x23118B0 VA: 0x1823132B0
+	// RVA: 0x2313AD0 Offset: 0x23120D0 VA: 0x182313AD0
 	internal static void ThrowArgumentNullException(ExceptionArgument argument) { }
 
-	// RVA: 0x23132F0 Offset: 0x23118F0 VA: 0x1823132F0
+	// RVA: 0x2313B10 Offset: 0x2312110 VA: 0x182313B10
 	internal static void ThrowArgumentOutOfRangeException(ExceptionArgument argument) { }
 
-	// RVA: 0x23131F0 Offset: 0x23117F0 VA: 0x1823131F0
+	// RVA: 0x2313A10 Offset: 0x2312010 VA: 0x182313A10
 	private static ArgumentNullException GetArgumentNullException(ExceptionArgument argument) { }
 
-	// RVA: 0x2313250 Offset: 0x2311850 VA: 0x182313250
+	// RVA: 0x2313A70 Offset: 0x2312070 VA: 0x182313A70
 	private static ArgumentOutOfRangeException GetArgumentOutOfRangeException(ExceptionArgument argument) { }
 
-	// RVA: 0x2313170 Offset: 0x2311770 VA: 0x182313170
+	// RVA: 0x2313990 Offset: 0x2311F90 VA: 0x182313990
 	private static string GetArgumentName(ExceptionArgument argument) { }
 
 }

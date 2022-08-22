@@ -74,7 +74,7 @@ public class QDOODOQQDQODD // TypeDefIndex: 7181
 
 	// Methods
 
-	// RVA: 0xB5C5E0 Offset: 0xB5ABE0 VA: 0x180B5C5E0
+	// RVA: 0xB5CAB0 Offset: 0xB5B0B0 VA: 0x180B5CAB0
 	public void .ctor() { }
 
 }

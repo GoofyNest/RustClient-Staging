@@ -1,13 +1,13 @@
 public class MethodAccessException : MemberAccessException // TypeDefIndex: 268
 {	// Methods
 
-	// RVA: 0x1675E60 Offset: 0x1674460 VA: 0x181675E60
+	// RVA: 0x1673A50 Offset: 0x1672050 VA: 0x181673A50
 	public void .ctor() { }
 
-	// RVA: 0x1675ED0 Offset: 0x16744D0 VA: 0x181675ED0
+	// RVA: 0x1673AC0 Offset: 0x16720C0 VA: 0x181673AC0
 	public void .ctor(string message) { }
 
-	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
+	// RVA: 0xFDDEB0 Offset: 0xFDC4B0 VA: 0x180FDDEB0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

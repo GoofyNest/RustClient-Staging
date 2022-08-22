@@ -9,16 +9,16 @@ public class ColdOverlay : MonoBehaviour // TypeDefIndex: 9128
 
 	// Methods
 
-	// RVA: 0x57B800 Offset: 0x579E00 VA: 0x18057B800
+	// RVA: 0x57B790 Offset: 0x579D90 VA: 0x18057B790
 	public void Awake() { }
 
-	// RVA: 0x57B9F0 Offset: 0x579FF0 VA: 0x18057B9F0
+	// RVA: 0x57B980 Offset: 0x579F80 VA: 0x18057B980
 	protected void Update() { }
 
-	// RVA: 0x57B880 Offset: 0x579E80 VA: 0x18057B880
+	// RVA: 0x57B810 Offset: 0x579E10 VA: 0x18057B810
 	private float GetIntensity() { }
 
-	// RVA: 0x57BC30 Offset: 0x57A230 VA: 0x18057BC30
+	// RVA: 0x57BBC0 Offset: 0x57A1C0 VA: 0x18057BBC0
 	public void .ctor() { }
 
 }

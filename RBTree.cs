@@ -55,10 +55,10 @@ private sealed class RBTree.TreePage<K> // TypeDefIndex: 4290
 	internal void .ctor(int size) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178CC00 Offset: 0x178B200 VA: 0x18178CC00
+	|-RVA: 0x178A750 Offset: 0x1788D50 VA: 0x18178A750
 	|-RBTree.TreePage<int>..ctor
 	|
-	|-RVA: 0x178CB20 Offset: 0x178B120 VA: 0x18178CB20
+	|-RVA: 0x178A670 Offset: 0x1788C70 VA: 0x18178A670
 	|-RBTree.TreePage<object>..ctor
 	*/
 
@@ -66,7 +66,7 @@ private sealed class RBTree.TreePage<K> // TypeDefIndex: 4290
 	internal int AllocSlot(RBTree<K> tree) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178C9D0 Offset: 0x178AFD0 VA: 0x18178C9D0
+	|-RVA: 0x178A520 Offset: 0x1788B20 VA: 0x18178A520
 	|-RBTree.TreePage<int>.AllocSlot
 	|-RBTree.TreePage<object>.AllocSlot
 	*/
@@ -75,7 +75,7 @@ private sealed class RBTree.TreePage<K> // TypeDefIndex: 4290
 	internal int get_InUseCount() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
+	|-RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760
 	|-RBTree.TreePage<int>.get_InUseCount
 	|-RBTree.TreePage<object>.get_InUseCount
 	*/
@@ -84,7 +84,7 @@ private sealed class RBTree.TreePage<K> // TypeDefIndex: 4290
 	internal void set_InUseCount(int value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730
+	|-RVA: 0x69D6C0 Offset: 0x69BCC0 VA: 0x18069D6C0
 	|-RBTree.TreePage<int>.set_InUseCount
 	|-RBTree.TreePage<object>.set_InUseCount
 	*/
@@ -93,7 +93,7 @@ private sealed class RBTree.TreePage<K> // TypeDefIndex: 4290
 	internal int get_PageId() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
+	|-RVA: 0x79C630 Offset: 0x79AC30 VA: 0x18079C630
 	|-RBTree.TreePage<int>.get_PageId
 	|-RBTree.TreePage<object>.get_PageId
 	*/
@@ -102,7 +102,7 @@ private sealed class RBTree.TreePage<K> // TypeDefIndex: 4290
 	internal void set_PageId(int value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x7D0D70 Offset: 0x7CF370 VA: 0x1807D0D70
+	|-RVA: 0x79C690 Offset: 0x79AC90 VA: 0x18079C690
 	|-RBTree.TreePage<int>.set_PageId
 	|-RBTree.TreePage<object>.set_PageId
 	*/
@@ -127,10 +127,10 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	internal void .ctor(RBTree<K> tree) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20ADB0 Offset: 0x20A1B0 VA: 0x18020ADB0
+	|-RVA: 0x20A9E0 Offset: 0x209DE0 VA: 0x18020A9E0
 	|-RBTree.RBTreeEnumerator<int>..ctor
 	|
-	|-RVA: 0x20AC50 Offset: 0x20A050 VA: 0x18020AC50
+	|-RVA: 0x20A880 Offset: 0x209C80 VA: 0x18020A880
 	|-RBTree.RBTreeEnumerator<object>..ctor
 	*/
 
@@ -138,10 +138,10 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	internal void .ctor(RBTree<K> tree, int position) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20ACA0 Offset: 0x20A0A0 VA: 0x18020ACA0
+	|-RVA: 0x20A8D0 Offset: 0x209CD0 VA: 0x18020A8D0
 	|-RBTree.RBTreeEnumerator<int>..ctor
 	|
-	|-RVA: 0x20AE00 Offset: 0x20A200 VA: 0x18020AE00
+	|-RVA: 0x20AA30 Offset: 0x209E30 VA: 0x18020AA30
 	|-RBTree.RBTreeEnumerator<object>..ctor
 	*/
 
@@ -158,10 +158,10 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20A810 Offset: 0x209C10 VA: 0x18020A810
+	|-RVA: 0x20A440 Offset: 0x209840 VA: 0x18020A440
 	|-RBTree.RBTreeEnumerator<int>.MoveNext
 	|
-	|-RVA: 0x20A960 Offset: 0x209D60 VA: 0x18020A960
+	|-RVA: 0x20A590 Offset: 0x209990 VA: 0x18020A590
 	|-RBTree.RBTreeEnumerator<object>.MoveNext
 	*/
 
@@ -169,7 +169,7 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	public K get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1AE460 Offset: 0x1AD860 VA: 0x1801AE460
+	|-RVA: 0x1AE160 Offset: 0x1AD560 VA: 0x1801AE160
 	|-RBTree.RBTreeEnumerator<int>.get_Current
 	|
 	|-RVA: 0xF3EF0 Offset: 0xF32F0 VA: 0x1800F3EF0
@@ -180,10 +180,10 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20ABA0 Offset: 0x209FA0 VA: 0x18020ABA0
+	|-RVA: 0x20A7D0 Offset: 0x209BD0 VA: 0x18020A7D0
 	|-RBTree.RBTreeEnumerator<int>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x20AC20 Offset: 0x20A020 VA: 0x18020AC20
+	|-RVA: 0x20A850 Offset: 0x209C50 VA: 0x18020A850
 	|-RBTree.RBTreeEnumerator<object>.System.Collections.IEnumerator.get_Current
 	*/
 
@@ -191,10 +191,10 @@ internal struct RBTree.RBTreeEnumerator<K> : IEnumerator<K>, IDisposable, IEnume
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20AB30 Offset: 0x209F30 VA: 0x18020AB30
+	|-RVA: 0x20A760 Offset: 0x209B60 VA: 0x18020A760
 	|-RBTree.RBTreeEnumerator<int>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x20AAC0 Offset: 0x209EC0 VA: 0x18020AAC0
+	|-RVA: 0x20A6F0 Offset: 0x209AF0 VA: 0x18020A6F0
 	|-RBTree.RBTreeEnumerator<object>.System.Collections.IEnumerator.Reset
 	*/
 

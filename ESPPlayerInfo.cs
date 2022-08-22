@@ -27,59 +27,59 @@ public class ESPPlayerInfo : MonoBehaviour // TypeDefIndex: 12006
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
+	// RVA: 0x574300 Offset: 0x572900 VA: 0x180574300
 	public BasePlayer get_Entity() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574400 Offset: 0x572A00 VA: 0x180574400
+	// RVA: 0x574390 Offset: 0x572990 VA: 0x180574390
 	public void set_Entity(BasePlayer value) { }
 
-	// RVA: 0x783DA0 Offset: 0x7823A0 VA: 0x180783DA0
+	// RVA: 0x783CF0 Offset: 0x7822F0 VA: 0x180783CF0
 	public void Clear() { }
 
-	// RVA: 0x784080 Offset: 0x782680 VA: 0x180784080
+	// RVA: 0x783FD0 Offset: 0x7825D0 VA: 0x180783FD0
 	internal void Init(BasePlayer entity) { }
 
-	// RVA: 0x785D30 Offset: 0x784330 VA: 0x180785D30
+	// RVA: 0x785C80 Offset: 0x784280 VA: 0x180785C80
 	private void UpdateText(BasePlayer entity) { }
 
-	// RVA: 0x784B50 Offset: 0x783150 VA: 0x180784B50
+	// RVA: 0x784AA0 Offset: 0x7830A0 VA: 0x180784AA0
 	private void SetColor(Color color) { }
 
-	// RVA: 0x785F20 Offset: 0x784520 VA: 0x180785F20
+	// RVA: 0x785E70 Offset: 0x784470 VA: 0x180785E70
 	private void Update() { }
 
-	// RVA: 0x784610 Offset: 0x782C10 VA: 0x180784610
+	// RVA: 0x784560 Offset: 0x782B60 VA: 0x180784560
 	private void LateQueuedUpdate() { }
 
-	// RVA: 0x783EB0 Offset: 0x7824B0 VA: 0x180783EB0
+	// RVA: 0x783E00 Offset: 0x782400 VA: 0x180783E00
 	public Vector3 GetVisCheckPosition() { }
 
-	// RVA: 0x785FF0 Offset: 0x7845F0 VA: 0x180785FF0
+	// RVA: 0x785F40 Offset: 0x784540 VA: 0x180785F40
 	public void VisCheckPosition() { }
 
-	// RVA: 0x7843E0 Offset: 0x7829E0 VA: 0x1807843E0
+	// RVA: 0x784330 Offset: 0x782930 VA: 0x180784330
 	public bool IsTeamMember() { }
 
-	// RVA: 0x784C60 Offset: 0x783260 VA: 0x180784C60
+	// RVA: 0x784BB0 Offset: 0x7831B0 VA: 0x180784BB0
 	public void SetTextEnabled(bool wantsOn) { }
 
-	// RVA: 0x7841C0 Offset: 0x7827C0 VA: 0x1807841C0
+	// RVA: 0x784110 Offset: 0x782710 VA: 0x180784110
 	private bool IsAlly() { }
 
-	// RVA: 0x7842C0 Offset: 0x7828C0 VA: 0x1807842C0
+	// RVA: 0x784210 Offset: 0x782810 VA: 0x180784210
 	private bool IsEnemy() { }
 
-	// RVA: 0x784C80 Offset: 0x783280 VA: 0x180784C80
+	// RVA: 0x784BD0 Offset: 0x7831D0 VA: 0x180784BD0
 	private void UpdateColor() { }
 
-	// RVA: 0x784700 Offset: 0x782D00 VA: 0x180784700
+	// RVA: 0x784650 Offset: 0x782C50 VA: 0x180784650
 	private void Position() { }
 
-	// RVA: 0x786140 Offset: 0x784740 VA: 0x180786140
+	// RVA: 0x786090 Offset: 0x784690 VA: 0x180786090
 	public void .ctor() { }
 
-	// RVA: 0x7860B0 Offset: 0x7846B0 VA: 0x1807860B0
+	// RVA: 0x786000 Offset: 0x784600 VA: 0x180786000
 	private static void .cctor() { }
 
 }
@@ -87,13 +87,13 @@ public class ESPPlayerInfo : MonoBehaviour // TypeDefIndex: 12006
 public class ESPPlayerInfo.ESPWorkQueue : ObjectWorkQueue<ESPPlayerInfo> // TypeDefIndex: 12007
 {	// Methods
 
-	// RVA: 0x786180 Offset: 0x784780 VA: 0x180786180 Slot: 6
+	// RVA: 0x7860D0 Offset: 0x7846D0 VA: 0x1807860D0 Slot: 6
 	protected override void RunJob(ESPPlayerInfo entity) { }
 
-	// RVA: 0x786290 Offset: 0x784890 VA: 0x180786290 Slot: 5
+	// RVA: 0x7861E0 Offset: 0x7847E0 VA: 0x1807861E0 Slot: 5
 	protected override bool ShouldAdd(ESPPlayerInfo entity) { }
 
-	// RVA: 0x786330 Offset: 0x784930 VA: 0x180786330
+	// RVA: 0x786280 Offset: 0x784880 VA: 0x180786280
 	public void .ctor() { }
 
 }

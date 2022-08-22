@@ -6,68 +6,68 @@ internal static class Statics // TypeDefIndex: 1577
 
 	// Methods
 
-	// RVA: 0x10E6A30 Offset: 0x10E5030 VA: 0x1810E6A30
+	// RVA: 0x10E74A0 Offset: 0x10E5AA0 VA: 0x1810E74A0
 	public static byte[] MetadataForString(string name, int prefixSize, int suffixSize, int additionalSize) { }
 
-	// RVA: 0x10E5E10 Offset: 0x10E4410 VA: 0x1810E5E10
+	// RVA: 0x10E6880 Offset: 0x10E4E80 VA: 0x1810E6880
 	public static void EncodeTags(int tags, ref int pos, byte[] metadata) { }
 
-	// RVA: 0x10E5DE0 Offset: 0x10E43E0 VA: 0x1810E5DE0
+	// RVA: 0x10E6850 Offset: 0x10E4E50 VA: 0x1810E6850
 	public static byte Combine(int settingValue, byte defaultValue) { }
 
-	// RVA: 0x10E5DD0 Offset: 0x10E43D0 VA: 0x1810E5DD0
+	// RVA: 0x10E6840 Offset: 0x10E4E40 VA: 0x1810E6840
 	public static int Combine(int settingValue1, int settingValue2) { }
 
-	// RVA: 0x10E5D50 Offset: 0x10E4350 VA: 0x1810E5D50
+	// RVA: 0x10E67C0 Offset: 0x10E4DC0 VA: 0x1810E67C0
 	public static void CheckName(string name) { }
 
-	// RVA: 0x10E6C40 Offset: 0x10E5240 VA: 0x1810E6C40
+	// RVA: 0x10E76B0 Offset: 0x10E5CB0 VA: 0x1810E76B0
 	public static bool ShouldOverrideFieldName(string fieldName) { }
 
-	// RVA: 0x10E6A20 Offset: 0x10E5020 VA: 0x1810E6A20
+	// RVA: 0x10E7490 Offset: 0x10E5A90 VA: 0x1810E7490
 	public static TraceLoggingDataType MakeDataType(TraceLoggingDataType baseType, EventFieldFormat format) { }
 
-	// RVA: 0x10E6360 Offset: 0x10E4960 VA: 0x1810E6360
+	// RVA: 0x10E6DD0 Offset: 0x10E53D0 VA: 0x1810E6DD0
 	public static TraceLoggingDataType Format8(EventFieldFormat format, TraceLoggingDataType native) { }
 
-	// RVA: 0x10E6190 Offset: 0x10E4790 VA: 0x1810E6190
+	// RVA: 0x10E6C00 Offset: 0x10E5200 VA: 0x1810E6C00
 	public static TraceLoggingDataType Format16(EventFieldFormat format, TraceLoggingDataType native) { }
 
-	// RVA: 0x10E6230 Offset: 0x10E4830 VA: 0x1810E6230
+	// RVA: 0x10E6CA0 Offset: 0x10E52A0 VA: 0x1810E6CA0
 	public static TraceLoggingDataType Format32(EventFieldFormat format, TraceLoggingDataType native) { }
 
-	// RVA: 0x10E62E0 Offset: 0x10E48E0 VA: 0x1810E62E0
+	// RVA: 0x10E6D50 Offset: 0x10E5350 VA: 0x1810E6D50
 	public static TraceLoggingDataType Format64(EventFieldFormat format, TraceLoggingDataType native) { }
 
-	// RVA: 0x10E6410 Offset: 0x10E4A10 VA: 0x1810E6410
+	// RVA: 0x10E6E80 Offset: 0x10E5480 VA: 0x1810E6E80
 	public static TraceLoggingDataType FormatPtr(EventFieldFormat format, TraceLoggingDataType native) { }
 
-	// RVA: 0x10E5E00 Offset: 0x10E4400 VA: 0x1810E5E00
+	// RVA: 0x10E6870 Offset: 0x10E4E70 VA: 0x1810E6870
 	public static object CreateInstance(Type type, object[] parameters) { }
 
-	// RVA: 0x10E6A00 Offset: 0x10E5000 VA: 0x1810E6A00
+	// RVA: 0x10E7470 Offset: 0x10E5A70 VA: 0x1810E7470
 	public static bool IsValueType(Type type) { }
 
-	// RVA: 0x10E68C0 Offset: 0x10E4EC0 VA: 0x1810E68C0
+	// RVA: 0x10E7330 Offset: 0x10E5930 VA: 0x1810E7330
 	public static bool IsEnum(Type type) { }
 
-	// RVA: 0x10E6530 Offset: 0x10E4B30 VA: 0x1810E6530
+	// RVA: 0x10E6FA0 Offset: 0x10E55A0 VA: 0x1810E6FA0
 	public static IEnumerable<PropertyInfo> GetProperties(Type type) { }
 
-	// RVA: 0x10E6510 Offset: 0x10E4B10 VA: 0x1810E6510
+	// RVA: 0x10E6F80 Offset: 0x10E5580 VA: 0x1810E6F80
 	public static MethodInfo GetGetMethod(PropertyInfo propInfo) { }
 
-	// RVA: 0x10E64C0 Offset: 0x10E4AC0 VA: 0x1810E64C0
+	// RVA: 0x10E6F30 Offset: 0x10E5530 VA: 0x1810E6F30
 	public static MethodInfo GetDeclaredStaticMethod(Type declaringType, string name) { }
 
-	// RVA: 0x10E6880 Offset: 0x10E4E80 VA: 0x1810E6880
+	// RVA: 0x10E72F0 Offset: 0x10E58F0 VA: 0x1810E72F0
 	public static bool HasCustomAttribute(PropertyInfo propInfo, Type attributeType) { }
 
 	// RVA: -1 Offset: -1
 	public static AttributeType GetCustomAttribute<AttributeType>(PropertyInfo propInfo) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125F310 Offset: 0x125D910 VA: 0x18125F310
+	|-RVA: 0x125F9B0 Offset: 0x125DFB0 VA: 0x18125F9B0
 	|-Statics.GetCustomAttribute<EventFieldAttribute>
 	|-Statics.GetCustomAttribute<object>
 	*/
@@ -76,99 +76,99 @@ internal static class Statics // TypeDefIndex: 1577
 	public static AttributeType GetCustomAttribute<AttributeType>(Type type) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125F200 Offset: 0x125D800 VA: 0x18125F200
+	|-RVA: 0x125F8A0 Offset: 0x125DEA0 VA: 0x18125F8A0
 	|-Statics.GetCustomAttribute<EventDataAttribute>
 	|-Statics.GetCustomAttribute<object>
 	|-Statics.GetCustomAttribute<CompilerGeneratedAttribute>
 	*/
 
-	// RVA: 0x10E64E0 Offset: 0x10E4AE0 VA: 0x1810E64E0
+	// RVA: 0x10E6F50 Offset: 0x10E5550 VA: 0x1810E6F50
 	public static Type[] GetGenericArguments(Type type) { }
 
-	// RVA: 0x10E5E80 Offset: 0x10E4480 VA: 0x1810E5E80
+	// RVA: 0x10E68F0 Offset: 0x10E4EF0 VA: 0x1810E68F0
 	public static Type FindEnumerableElementType(Type type) { }
 
-	// RVA: 0x10E68F0 Offset: 0x10E4EF0 VA: 0x1810E68F0
+	// RVA: 0x10E7360 Offset: 0x10E5960 VA: 0x1810E7360
 	public static bool IsGenericMatch(Type type, object openType) { }
 
-	// RVA: 0x10E5DF0 Offset: 0x10E43F0 VA: 0x1810E5DF0
+	// RVA: 0x10E6860 Offset: 0x10E4E60 VA: 0x1810E6860
 	public static Delegate CreateDelegate(Type delegateType, MethodInfo methodInfo) { }
 
-	// RVA: 0x10E6550 Offset: 0x10E4B50 VA: 0x1810E6550
+	// RVA: 0x10E6FC0 Offset: 0x10E55C0 VA: 0x1810E6FC0
 	public static TraceLoggingTypeInfo GetTypeInfoInstance(Type dataType, List<Type> recursionCheck) { }
 
 	// RVA: -1 Offset: -1
 	public static TraceLoggingTypeInfo<DataType> CreateDefaultTypeInfo<DataType>(List<Type> recursionCheck) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x12AF9C0 Offset: 0x12ADFC0 VA: 0x1812AF9C0
+	|-RVA: 0x12B0060 Offset: 0x12AE660 VA: 0x1812B0060
 	|-Statics.CreateDefaultTypeInfo<bool>
 	|
-	|-RVA: 0x12B18F0 Offset: 0x12AFEF0 VA: 0x1812B18F0
+	|-RVA: 0x12B1F90 Offset: 0x12B0590 VA: 0x1812B1F90
 	|-Statics.CreateDefaultTypeInfo<byte>
 	|
-	|-RVA: 0x12B3820 Offset: 0x12B1E20 VA: 0x1812B3820
+	|-RVA: 0x12B3EC0 Offset: 0x12B24C0 VA: 0x1812B3EC0
 	|-Statics.CreateDefaultTypeInfo<char>
 	|
-	|-RVA: 0x12C1270 Offset: 0x12BF870 VA: 0x1812C1270
+	|-RVA: 0x12C1910 Offset: 0x12BFF10 VA: 0x1812C1910
 	|-Statics.CreateDefaultTypeInfo<KeyValuePair<object, object>>
 	|
-	|-RVA: 0x12B7680 Offset: 0x12B5C80 VA: 0x1812B7680
+	|-RVA: 0x12B7D20 Offset: 0x12B6320 VA: 0x1812B7D20
 	|-Statics.CreateDefaultTypeInfo<DateTime>
 	|
-	|-RVA: 0x12B5750 Offset: 0x12B3D50 VA: 0x1812B5750
+	|-RVA: 0x12B5DF0 Offset: 0x12B43F0 VA: 0x1812B5DF0
 	|-Statics.CreateDefaultTypeInfo<DateTimeOffset>
 	|
-	|-RVA: 0x12B95B0 Offset: 0x12B7BB0 VA: 0x1812B95B0
+	|-RVA: 0x12B9C50 Offset: 0x12B8250 VA: 0x1812B9C50
 	|-Statics.CreateDefaultTypeInfo<Decimal>
 	|
-	|-RVA: 0x12BD410 Offset: 0x12BBA10 VA: 0x1812BD410
+	|-RVA: 0x12BDAB0 Offset: 0x12BC0B0 VA: 0x1812BDAB0
 	|-Statics.CreateDefaultTypeInfo<EmptyStruct>
 	|
-	|-RVA: 0x12BB4E0 Offset: 0x12B9AE0 VA: 0x1812BB4E0
+	|-RVA: 0x12BBB80 Offset: 0x12BA180 VA: 0x1812BBB80
 	|-Statics.CreateDefaultTypeInfo<double>
 	|
-	|-RVA: 0x12BF340 Offset: 0x12BD940 VA: 0x1812BF340
+	|-RVA: 0x12BF9E0 Offset: 0x12BDFE0 VA: 0x1812BF9E0
 	|-Statics.CreateDefaultTypeInfo<Guid>
 	|
-	|-RVA: 0x1B1A840 Offset: 0x1B18E40 VA: 0x181B1A840
+	|-RVA: 0x1B1B030 Offset: 0x1B19630 VA: 0x181B1B030
 	|-Statics.CreateDefaultTypeInfo<short>
 	|
-	|-RVA: 0x1B1C770 Offset: 0x1B1AD70 VA: 0x181B1C770
+	|-RVA: 0x1B1CF60 Offset: 0x1B1B560 VA: 0x181B1CF60
 	|-Statics.CreateDefaultTypeInfo<int>
 	|
-	|-RVA: 0x1B1E6A0 Offset: 0x1B1CCA0 VA: 0x181B1E6A0
+	|-RVA: 0x1B1EE90 Offset: 0x1B1D490 VA: 0x181B1EE90
 	|-Statics.CreateDefaultTypeInfo<long>
 	|
-	|-RVA: 0x1B205D0 Offset: 0x1B1EBD0 VA: 0x181B205D0
+	|-RVA: 0x1B20DC0 Offset: 0x1B1F3C0 VA: 0x181B20DC0
 	|-Statics.CreateDefaultTypeInfo<IntPtr>
 	|
-	|-RVA: 0x1B22500 Offset: 0x1B20B00 VA: 0x181B22500
+	|-RVA: 0x1B22CF0 Offset: 0x1B212F0 VA: 0x181B22CF0
 	|-Statics.CreateDefaultTypeInfo<object>
 	|
-	|-RVA: 0x1B24430 Offset: 0x1B22A30 VA: 0x181B24430
+	|-RVA: 0x1B24C20 Offset: 0x1B23220 VA: 0x181B24C20
 	|-Statics.CreateDefaultTypeInfo<sbyte>
 	|
-	|-RVA: 0x1B26360 Offset: 0x1B24960 VA: 0x181B26360
+	|-RVA: 0x1B26B50 Offset: 0x1B25150 VA: 0x181B26B50
 	|-Statics.CreateDefaultTypeInfo<float>
 	|
-	|-RVA: 0x1B28290 Offset: 0x1B26890 VA: 0x181B28290
+	|-RVA: 0x1B28A80 Offset: 0x1B27080 VA: 0x181B28A80
 	|-Statics.CreateDefaultTypeInfo<TimeSpan>
 	|
-	|-RVA: 0x1B2A1C0 Offset: 0x1B287C0 VA: 0x181B2A1C0
+	|-RVA: 0x1B2A9B0 Offset: 0x1B28FB0 VA: 0x181B2A9B0
 	|-Statics.CreateDefaultTypeInfo<ushort>
 	|
-	|-RVA: 0x1B2C0F0 Offset: 0x1B2A6F0 VA: 0x181B2C0F0
+	|-RVA: 0x1B2C8E0 Offset: 0x1B2AEE0 VA: 0x181B2C8E0
 	|-Statics.CreateDefaultTypeInfo<uint>
 	|
-	|-RVA: 0x1B2E020 Offset: 0x1B2C620 VA: 0x181B2E020
+	|-RVA: 0x1B2E810 Offset: 0x1B2CE10 VA: 0x181B2E810
 	|-Statics.CreateDefaultTypeInfo<ulong>
 	|
-	|-RVA: 0x1B2FF50 Offset: 0x1B2E550 VA: 0x181B2FF50
+	|-RVA: 0x1B30740 Offset: 0x1B2ED40 VA: 0x181B30740
 	|-Statics.CreateDefaultTypeInfo<UIntPtr>
 	*/
 
-	// RVA: 0x10E6C80 Offset: 0x10E5280 VA: 0x1810E6C80
+	// RVA: 0x10E76F0 Offset: 0x10E5CF0 VA: 0x1810E76F0
 	private static void .cctor() { }
 
 }

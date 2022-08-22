@@ -12,28 +12,28 @@ public class RemoteControlEntity : BaseCombatEntity, IRemoteControllable // Type
 
 	// Methods
 
-	// RVA: 0x94C660 Offset: 0x94AC60 VA: 0x18094C660 Slot: 49
+	// RVA: 0x94CB70 Offset: 0x94B170 VA: 0x18094CB70 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x94CE60 Offset: 0x94B460 VA: 0x18094CE60 Slot: 50
+	// RVA: 0x94D370 Offset: 0x94B970 VA: 0x18094D370 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x94CC30 Offset: 0x94B230 VA: 0x18094CC30 Slot: 35
+	// RVA: 0x94D140 Offset: 0x94B740 VA: 0x18094D140 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x94C640 Offset: 0x94AC40 VA: 0x18094C640 Slot: 145
+	// RVA: 0x94CB50 Offset: 0x94B150 VA: 0x18094CB50 Slot: 145
 	public Transform GetEyes() { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0 Slot: 146
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80 Slot: 146
 	public BaseEntity GetEnt() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 147
 	public bool Occupied() { }
 
-	// RVA: 0x94C650 Offset: 0x94AC50 VA: 0x18094C650 Slot: 149
+	// RVA: 0x94CB60 Offset: 0x94B160 VA: 0x18094CB60 Slot: 149
 	public string GetIdentifier() { }
 
-	// RVA: 0x94CD20 Offset: 0x94B320 VA: 0x18094CD20 Slot: 148
+	// RVA: 0x94D230 Offset: 0x94B830 VA: 0x18094D230 Slot: 148
 	public void UpdateIdentifier(string newID, bool clientSend = False) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 154
@@ -42,32 +42,32 @@ public class RemoteControlEntity : BaseCombatEntity, IRemoteControllable // Type
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 155
 	public virtual void RCShutdown() { }
 
-	// RVA: 0x94C9E0 Offset: 0x94AFE0 VA: 0x18094C9E0 Slot: 28
+	// RVA: 0x94CEF0 Offset: 0x94B4F0 VA: 0x18094CEF0 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0x94C610 Offset: 0x94AC10 VA: 0x18094C610 Slot: 31
+	// RVA: 0x94CB20 Offset: 0x94B120 VA: 0x18094CB20 Slot: 31
 	public override void DestroyShared() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 156
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 156
 	public virtual bool CanControl() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 157
 	public virtual bool get_RequiresMouse() { }
 
-	// RVA: 0x94CA10 Offset: 0x94B010 VA: 0x18094CA10 Slot: 34
+	// RVA: 0x94CF20 Offset: 0x94B520 VA: 0x18094CF20 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	[BaseEntity.Menu] // RVA: 0x7D320 Offset: 0x7C720 VA: 0x18007D320
 	[BaseEntity.Menu.Description] // RVA: 0x7D320 Offset: 0x7C720 VA: 0x18007D320
 	[BaseEntity.Menu.Icon] // RVA: 0x7D320 Offset: 0x7C720 VA: 0x18007D320
 	[BaseEntity.Menu.ShowIf] // RVA: 0x7D320 Offset: 0x7C720 VA: 0x18007D320
-	// RVA: 0x94CB50 Offset: 0x94B150 VA: 0x18094CB50
+	// RVA: 0x94D060 Offset: 0x94B660 VA: 0x18094D060
 	public void Menu_SetID(BasePlayer player) { }
 
-	// RVA: 0x94CAB0 Offset: 0x94B0B0 VA: 0x18094CAB0
+	// RVA: 0x94CFC0 Offset: 0x94B5C0 VA: 0x18094CFC0
 	public bool Menu_SetID_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x94CE10 Offset: 0x94B410 VA: 0x18094CE10
+	// RVA: 0x94D320 Offset: 0x94B920 VA: 0x18094D320
 	public void .ctor() { }
 
 }

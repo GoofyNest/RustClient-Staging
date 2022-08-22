@@ -14,17 +14,17 @@ internal sealed class NativeClassAttribute : Attribute // TypeDefIndex: 3267
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	private void set_QualifiedNativeName(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	private void set_Declaration(string value) { }
 
-	// RVA: 0x2311760 Offset: 0x230FD60 VA: 0x182311760
+	// RVA: 0x2311F80 Offset: 0x2310580 VA: 0x182311F80
 	public void .ctor(string qualifiedCppName) { }
 
-	// RVA: 0x7ED390 Offset: 0x7EB990 VA: 0x1807ED390
+	// RVA: 0x7B8CB0 Offset: 0x7B72B0 VA: 0x1807B8CB0
 	public void .ctor(string qualifiedCppName, string declaration) { }
 
 }

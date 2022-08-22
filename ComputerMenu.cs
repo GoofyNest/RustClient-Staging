@@ -7,16 +7,16 @@ public class ComputerMenu : UIDialog // TypeDefIndex: 8685
 
 	// Methods
 
-	// RVA: 0x6D2EC0 Offset: 0x6D14C0 VA: 0x1806D2EC0 Slot: 10
+	// RVA: 0x6D2E50 Offset: 0x6D1450 VA: 0x1806D2E50 Slot: 10
 	public virtual void InitMenu(BaseEntity computer) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 11
 	public virtual bool WantsEyeOverride() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 12
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 12
 	public virtual Transform GetCameraOverrideTransform() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 13
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 13
 	public virtual BasePlayer.CameraMode GetCameraMode() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 14
@@ -31,13 +31,13 @@ public class ComputerMenu : UIDialog // TypeDefIndex: 8685
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 17
 	public virtual bool IsControlling(string identifier) { }
 
-	// RVA: 0x6D2D50 Offset: 0x6D1350 VA: 0x1806D2D50
+	// RVA: 0x6D2CE0 Offset: 0x6D12E0 VA: 0x1806D2CE0
 	public void ClearBookmarkEntries() { }
 
-	// RVA: 0x6D2EF0 Offset: 0x6D14F0 VA: 0x1806D2EF0
+	// RVA: 0x6D2E80 Offset: 0x6D1480 VA: 0x1806D2E80
 	public void UpdateBookmarks() { }
 
-	// RVA: 0x6D3240 Offset: 0x6D1840 VA: 0x1806D3240
+	// RVA: 0x6D31D0 Offset: 0x6D17D0 VA: 0x1806D31D0
 	public void .ctor() { }
 
 }

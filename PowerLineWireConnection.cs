@@ -8,7 +8,7 @@ public class PowerLineWireConnection // TypeDefIndex: 10370
 
 	// Methods
 
-	// RVA: 0x99E070 Offset: 0x99C670 VA: 0x18099E070
+	// RVA: 0x99E560 Offset: 0x99CB60 VA: 0x18099E560
 	public void .ctor() { }
 
 }

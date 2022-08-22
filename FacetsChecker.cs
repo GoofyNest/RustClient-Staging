@@ -1,58 +1,58 @@
 internal abstract class FacetsChecker // TypeDefIndex: 2245
 {	// Methods
 
-	// RVA: 0x151A480 Offset: 0x1518A80 VA: 0x18151A480 Slot: 4
+	// RVA: 0x1519550 Offset: 0x1517B50 VA: 0x181519550 Slot: 4
 	internal virtual Exception CheckLexicalFacets(ref string parseString, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 5
 	internal virtual Exception CheckValueFacets(object value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 6
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 6
 	internal virtual Exception CheckValueFacets(Decimal value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 7
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 7
 	internal virtual Exception CheckValueFacets(long value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 8
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 8
 	internal virtual Exception CheckValueFacets(int value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 9
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 9
 	internal virtual Exception CheckValueFacets(short value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 10
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 10
 	internal virtual Exception CheckValueFacets(DateTime value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 11
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 11
 	internal virtual Exception CheckValueFacets(double value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 12
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 12
 	internal virtual Exception CheckValueFacets(float value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 13
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 13
 	internal virtual Exception CheckValueFacets(string value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 14
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 14
 	internal virtual Exception CheckValueFacets(byte[] value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 15
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 15
 	internal virtual Exception CheckValueFacets(TimeSpan value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 16
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 16
 	internal virtual Exception CheckValueFacets(XmlQualifiedName value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x151A680 Offset: 0x1518C80 VA: 0x18151A680
+	// RVA: 0x1519750 Offset: 0x1517D50 VA: 0x181519750
 	internal void CheckWhitespaceFacets(ref string s, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x151A4E0 Offset: 0x1518AE0 VA: 0x18151A4E0
+	// RVA: 0x15195B0 Offset: 0x1517BB0 VA: 0x1815195B0
 	internal Exception CheckPatternFacets(RestrictionFacets restriction, string value) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 17
 	internal virtual bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0x151A770 Offset: 0x1518D70 VA: 0x18151A770 Slot: 18
+	// RVA: 0x1519840 Offset: 0x1517E40 VA: 0x181519840 Slot: 18
 	internal virtual RestrictionFacets ConstructRestriction(DatatypeImplementation datatype, XmlSchemaObjectCollection facets, XmlNameTable nameTable) { }
 
-	// RVA: 0x151AF00 Offset: 0x1519500 VA: 0x18151AF00
+	// RVA: 0x1519FD0 Offset: 0x15185D0 VA: 0x181519FD0
 	internal static Decimal Power(int x, int y) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -77,76 +77,76 @@ private struct FacetsChecker.FacetsCompiler // TypeDefIndex: 2246
 
 	// Methods
 
-	// RVA: 0x1F1C90 Offset: 0x1F1090 VA: 0x1801F1C90
+	// RVA: 0x1F20B0 Offset: 0x1F14B0 VA: 0x1801F20B0
 	public void .ctor(DatatypeImplementation baseDatatype, RestrictionFacets restriction) { }
 
-	// RVA: 0x1F1B30 Offset: 0x1F0F30 VA: 0x1801F1B30
+	// RVA: 0x1F1F50 Offset: 0x1F1350 VA: 0x1801F1F50
 	internal void CompileLengthFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1B90 Offset: 0x1F0F90 VA: 0x1801F1B90
+	// RVA: 0x1F1FB0 Offset: 0x1F13B0 VA: 0x1801F1FB0
 	internal void CompileMinLengthFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1B60 Offset: 0x1F0F60 VA: 0x1801F1B60
+	// RVA: 0x1F1F80 Offset: 0x1F1380 VA: 0x1801F1F80
 	internal void CompileMaxLengthFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1BA0 Offset: 0x1F0FA0 VA: 0x1801F1BA0
+	// RVA: 0x1F1FC0 Offset: 0x1F13C0 VA: 0x1801F1FC0
 	internal void CompilePatternFacet(XmlSchemaPatternFacet facet) { }
 
-	// RVA: 0x1F1B00 Offset: 0x1F0F00 VA: 0x1801F1B00
+	// RVA: 0x1F1F20 Offset: 0x1F1320 VA: 0x1801F1F20
 	internal void CompileEnumerationFacet(XmlSchemaFacet facet, IXmlNamespaceResolver nsmgr, XmlNameTable nameTable) { }
 
-	// RVA: 0x1F1BC0 Offset: 0x1F0FC0 VA: 0x1801F1BC0
+	// RVA: 0x1F1FE0 Offset: 0x1F13E0 VA: 0x1801F1FE0
 	internal void CompileWhitespaceFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1B50 Offset: 0x1F0F50 VA: 0x1801F1B50
+	// RVA: 0x1F1F70 Offset: 0x1F1370 VA: 0x1801F1F70
 	internal void CompileMaxInclusiveFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1B40 Offset: 0x1F0F40 VA: 0x1801F1B40
+	// RVA: 0x1F1F60 Offset: 0x1F1360 VA: 0x1801F1F60
 	internal void CompileMaxExclusiveFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1B80 Offset: 0x1F0F80 VA: 0x1801F1B80
+	// RVA: 0x1F1FA0 Offset: 0x1F13A0 VA: 0x1801F1FA0
 	internal void CompileMinInclusiveFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1B70 Offset: 0x1F0F70 VA: 0x1801F1B70
+	// RVA: 0x1F1F90 Offset: 0x1F1390 VA: 0x1801F1F90
 	internal void CompileMinExclusiveFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1BB0 Offset: 0x1F0FB0 VA: 0x1801F1BB0
+	// RVA: 0x1F1FD0 Offset: 0x1F13D0 VA: 0x1801F1FD0
 	internal void CompileTotalDigitsFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1B20 Offset: 0x1F0F20 VA: 0x1801F1B20
+	// RVA: 0x1F1F40 Offset: 0x1F1340 VA: 0x1801F1F40
 	internal void CompileFractionDigitsFacet(XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1BE0 Offset: 0x1F0FE0 VA: 0x1801F1BE0
+	// RVA: 0x1F2000 Offset: 0x1F1400 VA: 0x1801F2000
 	internal void FinishFacetCompile() { }
 
-	// RVA: 0x1F1AF0 Offset: 0x1F0EF0 VA: 0x1801F1AF0
+	// RVA: 0x1F1F10 Offset: 0x1F1310 VA: 0x1801F1F10
 	private void CheckValue(object value, XmlSchemaFacet facet) { }
 
-	// RVA: 0x1F1B10 Offset: 0x1F0F10 VA: 0x1801F1B10
+	// RVA: 0x1F1F30 Offset: 0x1F1330 VA: 0x1801F1F30
 	internal void CompileFacetCombinations() { }
 
-	// RVA: 0x1F1BD0 Offset: 0x1F0FD0 VA: 0x1801F1BD0
+	// RVA: 0x1F1FF0 Offset: 0x1F13F0 VA: 0x1801F1FF0
 	private void CopyFacetsFromBaseType() { }
 
-	// RVA: 0x1F1BF0 Offset: 0x1F0FF0 VA: 0x1801F1BF0
+	// RVA: 0x1F2010 Offset: 0x1F1410 VA: 0x1801F2010
 	private object ParseFacetValue(XmlSchemaDatatype datatype, XmlSchemaFacet facet, string code, IXmlNamespaceResolver nsmgr, XmlNameTable nameTable) { }
 
-	// RVA: 0x151E170 Offset: 0x151C770 VA: 0x18151E170
+	// RVA: 0x151D240 Offset: 0x151B840 VA: 0x18151D240
 	private static string Preprocess(string pattern) { }
 
-	// RVA: 0x1F1AE0 Offset: 0x1F0EE0 VA: 0x1801F1AE0
+	// RVA: 0x1F1F00 Offset: 0x1F1300 VA: 0x1801F1F00
 	private void CheckProhibitedFlag(XmlSchemaFacet facet, RestrictionFlags flag, string errorCode) { }
 
-	// RVA: 0x1F1AD0 Offset: 0x1F0ED0 VA: 0x1801F1AD0
+	// RVA: 0x1F1EF0 Offset: 0x1F12F0 VA: 0x1801F1EF0
 	private void CheckDupFlag(XmlSchemaFacet facet, RestrictionFlags flag, string errorCode) { }
 
-	// RVA: 0x1F1C00 Offset: 0x1F1000 VA: 0x1801F1C00
+	// RVA: 0x1F2020 Offset: 0x1F1420 VA: 0x1801F2020
 	private void SetFlag(XmlSchemaFacet facet, RestrictionFlags flag) { }
 
-	// RVA: 0x1F1C60 Offset: 0x1F1060 VA: 0x1801F1C60
+	// RVA: 0x1F2080 Offset: 0x1F1480 VA: 0x1801F2080
 	private void SetFlag(RestrictionFlags flag) { }
 
-	// RVA: 0x151E440 Offset: 0x151CA40 VA: 0x18151E440
+	// RVA: 0x151D510 Offset: 0x151BB10 VA: 0x18151D510
 	private static void .cctor() { }
 
 }

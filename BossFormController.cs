@@ -12,34 +12,34 @@ public class BossFormController : ArcadeEntityController // TypeDefIndex: 8763
 
 	// Methods
 
-	// RVA: 0x51C1C0 Offset: 0x51A7C0 VA: 0x18051C1C0 Slot: 6
+	// RVA: 0x51C150 Offset: 0x51A750 VA: 0x18051C150 Slot: 6
 	public override void Initialize() { }
 
-	// RVA: 0x51C240 Offset: 0x51A840 VA: 0x18051C240
+	// RVA: 0x51C1D0 Offset: 0x51A7D0 VA: 0x18051C1D0
 	public bool MainCoreVulnerable() { }
 
-	// RVA: 0x51BE20 Offset: 0x51A420 VA: 0x18051BE20
+	// RVA: 0x51BDB0 Offset: 0x51A3B0 VA: 0x18051BDB0
 	public BossFormController.BossDamagePoint GetDamagePointFromCollider(Collider collider) { }
 
-	// RVA: 0x51BF00 Offset: 0x51A500 VA: 0x18051BF00
+	// RVA: 0x51BE90 Offset: 0x51A490 VA: 0x18051BE90
 	public void Hurt(float damage, Vector3 hitPos, Collider collider) { }
 
-	// RVA: 0x51C2B0 Offset: 0x51A8B0 VA: 0x18051C2B0
+	// RVA: 0x51C240 Offset: 0x51A840 VA: 0x18051C240
 	public void RemoveMe() { }
 
-	// RVA: 0x51BA70 Offset: 0x51A070 VA: 0x18051BA70
+	// RVA: 0x51BA00 Offset: 0x51A000 VA: 0x18051BA00
 	public void Animate() { }
 
-	// RVA: 0x51C430 Offset: 0x51AA30 VA: 0x18051C430
+	// RVA: 0x51C3C0 Offset: 0x51A9C0 VA: 0x18051C3C0
 	public void UpdateDamagePositions() { }
 
-	// RVA: 0x51C310 Offset: 0x51A910 VA: 0x18051C310 Slot: 7
+	// RVA: 0x51C2A0 Offset: 0x51A8A0 VA: 0x18051C2A0 Slot: 7
 	public override void Shutdown() { }
 
-	// RVA: 0x51BB00 Offset: 0x51A100 VA: 0x18051BB00
+	// RVA: 0x51BA90 Offset: 0x51A090 VA: 0x18051BA90
 	public void FixedUpdate() { }
 
-	// RVA: 0x51C5A0 Offset: 0x51ABA0 VA: 0x18051C5A0
+	// RVA: 0x51C530 Offset: 0x51AB30 VA: 0x18051C530
 	public void .ctor() { }
 
 }

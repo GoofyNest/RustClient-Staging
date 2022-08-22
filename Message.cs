@@ -10,13 +10,13 @@ public class Message // TypeDefIndex: 6693
 
 	// Methods
 
-	// RVA: 0xE57390 Offset: 0xE55990 VA: 0x180E57390
+	// RVA: 0xE57E40 Offset: 0xE56440 VA: 0x180E57E40
 	public NetRead get_read() { }
 
-	// RVA: 0x855290 Offset: 0x853890 VA: 0x180855290
+	// RVA: 0x8557E0 Offset: 0x853DE0 VA: 0x1808557E0
 	public NetWrite get_write() { }
 
-	// RVA: 0x220FD20 Offset: 0x220E320 VA: 0x18220FD20 Slot: 4
+	// RVA: 0x2210540 Offset: 0x220EB40 VA: 0x182210540 Slot: 4
 	public virtual void Clear() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

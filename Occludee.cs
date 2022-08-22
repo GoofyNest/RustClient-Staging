@@ -13,25 +13,25 @@ public class Occludee : MonoBehaviour // TypeDefIndex: 11511
 
 	// Methods
 
-	// RVA: 0x9D7F90 Offset: 0x9D6590 VA: 0x1809D7F90 Slot: 4
+	// RVA: 0x9D8480 Offset: 0x9D6A80 VA: 0x1809D8480 Slot: 4
 	protected virtual void Awake() { }
 
-	// RVA: 0x9D8130 Offset: 0x9D6730 VA: 0x1809D8130
+	// RVA: 0x9D8620 Offset: 0x9D6C20 VA: 0x1809D8620
 	public void OnEnable() { }
 
-	// RVA: 0x9D8000 Offset: 0x9D6600 VA: 0x1809D8000
+	// RVA: 0x9D84F0 Offset: 0x9D6AF0 VA: 0x1809D84F0
 	public void OnDisable() { }
 
-	// RVA: 0x9D8240 Offset: 0x9D6840 VA: 0x1809D8240
+	// RVA: 0x9D8730 Offset: 0x9D6D30 VA: 0x1809D8730
 	public void Register() { }
 
-	// RVA: 0x9D86E0 Offset: 0x9D6CE0 VA: 0x1809D86E0
+	// RVA: 0x9D8BD0 Offset: 0x9D71D0 VA: 0x1809D8BD0
 	public void Unregister() { }
 
-	// RVA: 0x9D81B0 Offset: 0x9D67B0 VA: 0x1809D81B0 Slot: 5
+	// RVA: 0x9D86A0 Offset: 0x9D6CA0 VA: 0x1809D86A0 Slot: 5
 	protected virtual void OnVisibilityChanged(bool visible) { }
 
-	// RVA: 0x9D8800 Offset: 0x9D6E00 VA: 0x1809D8800
+	// RVA: 0x9D8CF0 Offset: 0x9D72F0 VA: 0x1809D8CF0
 	public void .ctor() { }
 
 }

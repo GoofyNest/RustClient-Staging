@@ -7,7 +7,7 @@ public abstract class LambdaExpression : Expression // TypeDefIndex: 3245
 
 	// Methods
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Expression get_Body() { }
 
 }

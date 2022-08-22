@@ -1,22 +1,22 @@
 internal class Numeric2FacetsChecker : FacetsChecker // TypeDefIndex: 2249
 {	// Methods
 
-	// RVA: 0xB14960 Offset: 0xB12F60 VA: 0x180B14960 Slot: 5
+	// RVA: 0xB14E30 Offset: 0xB13430 VA: 0x180B14E30 Slot: 5
 	internal override Exception CheckValueFacets(object value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB149E0 Offset: 0xB12FE0 VA: 0x180B149E0 Slot: 11
+	// RVA: 0xB14EB0 Offset: 0xB134B0 VA: 0x180B14EB0 Slot: 11
 	internal override Exception CheckValueFacets(double value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB14940 Offset: 0xB12F40 VA: 0x180B14940 Slot: 12
+	// RVA: 0xB14E10 Offset: 0xB13410 VA: 0x180B14E10 Slot: 12
 	internal override Exception CheckValueFacets(float value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB14D90 Offset: 0xB13390 VA: 0x180B14D90 Slot: 17
+	// RVA: 0xB15260 Offset: 0xB13860 VA: 0x180B15260 Slot: 17
 	internal override bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB14CE0 Offset: 0xB132E0 VA: 0x180B14CE0
+	// RVA: 0xB151B0 Offset: 0xB137B0 VA: 0x180B151B0
 	private bool MatchEnumeration(double value, ArrayList enumeration, XmlValueConverter valueConverter) { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 }

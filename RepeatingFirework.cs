@@ -7,16 +7,16 @@ public class RepeatingFirework : BaseFirework // TypeDefIndex: 8279
 	// Methods
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x954270 Offset: 0x952870 VA: 0x180954270
+	// RVA: 0x954770 Offset: 0x952D70 VA: 0x180954770
 	public void RPCFire(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x953E00 Offset: 0x952400 VA: 0x180953E00 Slot: 145
+	// RVA: 0x954300 Offset: 0x952900 VA: 0x180954300 Slot: 145
 	public virtual void Fire() { }
 
-	// RVA: 0x953E30 Offset: 0x952430 VA: 0x180953E30 Slot: 35
+	// RVA: 0x954330 Offset: 0x952930 VA: 0x180954330 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x954290 Offset: 0x952890 VA: 0x180954290
+	// RVA: 0x954790 Offset: 0x952D90 VA: 0x180954790
 	public void .ctor() { }
 
 }

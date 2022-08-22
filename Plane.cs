@@ -10,34 +10,34 @@ public struct Plane // TypeDefIndex: 3374
 
 	// Methods
 
-	// RVA: 0x212B90 Offset: 0x211F90 VA: 0x180212B90
+	// RVA: 0x211FC0 Offset: 0x2113C0 VA: 0x180211FC0
 	public Vector3 get_normal() { }
 
-	// RVA: 0x204F30 Offset: 0x204330 VA: 0x180204F30
+	// RVA: 0x204B60 Offset: 0x203F60 VA: 0x180204B60
 	public void set_normal(Vector3 value) { }
 
-	// RVA: 0x212350 Offset: 0x211750 VA: 0x180212350
+	// RVA: 0x211780 Offset: 0x210B80 VA: 0x180211780
 	public float get_distance() { }
 
 	// RVA: 0x117150 Offset: 0x116550 VA: 0x180117150
 	public void set_distance(float value) { }
 
-	// RVA: 0x216FE0 Offset: 0x2163E0 VA: 0x180216FE0
+	// RVA: 0x2176B0 Offset: 0x216AB0 VA: 0x1802176B0
 	public void .ctor(Vector3 inNormal, Vector3 inPoint) { }
 
-	// RVA: 0x216EF0 Offset: 0x2162F0 VA: 0x180216EF0
+	// RVA: 0x2175C0 Offset: 0x2169C0 VA: 0x1802175C0
 	public void SetNormalAndPosition(Vector3 inNormal, Vector3 inPoint) { }
 
-	// RVA: 0x216B30 Offset: 0x215F30 VA: 0x180216B30
+	// RVA: 0x217200 Offset: 0x216600 VA: 0x180217200
 	public Vector3 ClosestPointOnPlane(Vector3 point) { }
 
-	// RVA: 0x216C60 Offset: 0x216060 VA: 0x180216C60
+	// RVA: 0x217330 Offset: 0x216730 VA: 0x180217330
 	public bool GetSide(Vector3 point) { }
 
-	// RVA: 0x216D10 Offset: 0x216110 VA: 0x180216D10
+	// RVA: 0x2173E0 Offset: 0x2167E0 VA: 0x1802173E0
 	public bool Raycast(Ray ray, out float enter) { }
 
-	// RVA: 0x216FD0 Offset: 0x2163D0 VA: 0x180216FD0 Slot: 3
+	// RVA: 0x2176A0 Offset: 0x216AA0 VA: 0x1802176A0 Slot: 3
 	public override string ToString() { }
 
 }

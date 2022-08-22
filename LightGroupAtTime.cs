@@ -34,31 +34,31 @@ public class LightGroupAtTime : FacepunchBehaviour // TypeDefIndex: 9197
 
 	// Methods
 
-	// RVA: 0x4EFDD0 Offset: 0x4EE3D0 VA: 0x1804EFDD0
+	// RVA: 0x4EFD60 Offset: 0x4EE360 VA: 0x1804EFD60
 	private void Clear() { }
 
-	// RVA: 0x4EFD60 Offset: 0x4EE360 VA: 0x1804EFD60
+	// RVA: 0x4EFCF0 Offset: 0x4EE2F0 VA: 0x1804EFCF0
 	private void Awake() { }
 
-	// RVA: 0x4F02E0 Offset: 0x4EE8E0 VA: 0x1804F02E0
+	// RVA: 0x4F0270 Offset: 0x4EE870 VA: 0x1804F0270
 	private void OnEnable() { }
 
-	// RVA: 0x4F0260 Offset: 0x4EE860 VA: 0x1804F0260
+	// RVA: 0x4F01F0 Offset: 0x4EE7F0 VA: 0x1804F01F0
 	private void OnDisable() { }
 
-	// RVA: 0x4EFE80 Offset: 0x4EE480 VA: 0x1804EFE80 Slot: 4
+	// RVA: 0x4EFE10 Offset: 0x4EE410 VA: 0x1804EFE10 Slot: 4
 	public virtual float GetIntensity() { }
 
-	// RVA: 0x4EFFA0 Offset: 0x4EE5A0 VA: 0x1804EFFA0 Slot: 5
+	// RVA: 0x4EFF30 Offset: 0x4EE530 VA: 0x1804EFF30 Slot: 5
 	public virtual float GetPowerScale() { }
 
-	// RVA: 0x4F07C0 Offset: 0x4EEDC0 VA: 0x1804F07C0
+	// RVA: 0x4F0750 Offset: 0x4EED50 VA: 0x1804F0750
 	private void UpdateLights() { }
 
-	// RVA: 0x4F10B0 Offset: 0x4EF6B0 VA: 0x1804F10B0
+	// RVA: 0x4F1040 Offset: 0x4EF640 VA: 0x1804F1040
 	public void .ctor() { }
 
-	// RVA: 0x4F1030 Offset: 0x4EF630 VA: 0x1804F1030
+	// RVA: 0x4F0FC0 Offset: 0x4EF5C0 VA: 0x1804F0FC0
 	private static void .cctor() { }
 
 }
@@ -66,10 +66,10 @@ public class LightGroupAtTime : FacepunchBehaviour // TypeDefIndex: 9197
 public class LightGroupAtTime.LightGroupWorkQueue : PersistentObjectWorkQueue<LightGroupAtTime> // TypeDefIndex: 9198
 {	// Methods
 
-	// RVA: 0x4F14C0 Offset: 0x4EFAC0 VA: 0x1804F14C0 Slot: 5
+	// RVA: 0x4F1450 Offset: 0x4EFA50 VA: 0x1804F1450 Slot: 5
 	protected override void RunJob(LightGroupAtTime entity) { }
 
-	// RVA: 0x4F14E0 Offset: 0x4EFAE0 VA: 0x1804F14E0
+	// RVA: 0x4F1470 Offset: 0x4EFA70 VA: 0x1804F1470
 	public void .ctor() { }
 
 }

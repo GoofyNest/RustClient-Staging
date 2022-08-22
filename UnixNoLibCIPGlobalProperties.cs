@@ -4,7 +4,7 @@ internal sealed class UnixNoLibCIPGlobalProperties : UnixIPGlobalProperties // T
 
 	// Methods
 
-	// RVA: 0x1349920 Offset: 0x1347F20 VA: 0x181349920 Slot: 4
+	// RVA: 0x1348A20 Offset: 0x1347020 VA: 0x181348A20 Slot: 4
 	public override string get_DomainName() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

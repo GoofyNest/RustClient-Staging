@@ -42,43 +42,43 @@ internal class CultureData // TypeDefIndex: 734
 
 	// Methods
 
-	// RVA: 0x16D9130 Offset: 0x16D7730 VA: 0x1816D9130
+	// RVA: 0x16D6D20 Offset: 0x16D5320 VA: 0x1816D6D20
 	private void .ctor(string name) { }
 
-	// RVA: 0x16D9310 Offset: 0x16D7910 VA: 0x1816D9310
+	// RVA: 0x16D6F00 Offset: 0x16D5500 VA: 0x1816D6F00
 	public static CultureData get_Invariant() { }
 
-	// RVA: 0x16D8950 Offset: 0x16D6F50 VA: 0x1816D8950
+	// RVA: 0x16D6540 Offset: 0x16D4B40 VA: 0x1816D6540
 	public static CultureData GetCultureData(string cultureName, bool useUserOverride) { }
 
-	// RVA: 0x16D89F0 Offset: 0x16D6FF0 VA: 0x1816D89F0
+	// RVA: 0x16D65E0 Offset: 0x16D4BE0 VA: 0x1816D65E0
 	public static CultureData GetCultureData(string cultureName, bool useUserOverride, int datetimeIndex, int calendarId, int numberIndex, string iso2lang, int ansiCodePage, int oemCodePage, int macCodePage, int ebcdicCodePage, bool rightToLeft, string listSeparator) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0
 	internal static CultureData GetCultureData(int culture, bool bUseUserOverride) { }
 
-	// RVA: 0x16D9160 Offset: 0x16D7760 VA: 0x1816D9160
+	// RVA: 0x16D6D50 Offset: 0x16D5350 VA: 0x1816D6D50
 	private void fill_culture_data(int datetimeIndex) { }
 
-	// RVA: 0x16D8800 Offset: 0x16D6E00 VA: 0x1816D8800
+	// RVA: 0x16D63F0 Offset: 0x16D49F0 VA: 0x1816D63F0
 	public CalendarData GetCalendar(int calendarId) { }
 
-	// RVA: 0x1368D00 Offset: 0x1367300 VA: 0x181368D00
+	// RVA: 0x1367E00 Offset: 0x1366400 VA: 0x181367E00
 	internal string[] get_LongTimes() { }
 
-	// RVA: 0x16D97F0 Offset: 0x16D7DF0 VA: 0x1816D97F0
+	// RVA: 0x16D73E0 Offset: 0x16D59E0 VA: 0x1816D73E0
 	internal string[] get_ShortTimes() { }
 
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	internal string get_SISO639LANGNAME() { }
 
-	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50
+	// RVA: 0x6BB9E0 Offset: 0x6B9FE0 VA: 0x1806BB9E0
 	internal int get_IFIRSTDAYOFWEEK() { }
 
-	// RVA: 0x5E2F50 Offset: 0x5E1550 VA: 0x1805E2F50
+	// RVA: 0x5E2EE0 Offset: 0x5E14E0 VA: 0x1805E2EE0
 	internal int get_IFIRSTWEEKOFYEAR() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	internal string get_SAM1159() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
@@ -87,94 +87,94 @@ internal class CultureData // TypeDefIndex: 734
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	internal string get_TimeSeparator() { }
 
-	// RVA: 0x16D9180 Offset: 0x16D7780 VA: 0x1816D9180
+	// RVA: 0x16D6D70 Offset: 0x16D5370 VA: 0x1816D6D70
 	internal int[] get_CalendarIds() { }
 
-	// RVA: 0x16D97B0 Offset: 0x16D7DB0 VA: 0x1816D97B0
+	// RVA: 0x16D73A0 Offset: 0x16D59A0 VA: 0x1816D73A0
 	internal bool get_IsInvariantCulture() { }
 
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0
 	internal string get_CultureName() { }
 
-	// RVA: 0x16D97C0 Offset: 0x16D7DC0 VA: 0x1816D97C0
+	// RVA: 0x16D73B0 Offset: 0x16D59B0 VA: 0x1816D73B0
 	internal string get_SCOMPAREINFO() { }
 
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0
 	internal string get_STEXTINFO() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0
 	internal int get_ILANGUAGE() { }
 
-	// RVA: 0xA4F2B0 Offset: 0xA4D8B0 VA: 0x180A4F2B0
+	// RVA: 0xA4F780 Offset: 0xA4DD80 VA: 0x180A4F780
 	internal bool get_UseUserOverride() { }
 
-	// RVA: 0x16D87C0 Offset: 0x16D6DC0 VA: 0x1816D87C0
+	// RVA: 0x16D63B0 Offset: 0x16D49B0 VA: 0x1816D63B0
 	internal string[] EraNames(int calendarId) { }
 
-	// RVA: 0x16D8670 Offset: 0x16D6C70 VA: 0x1816D8670
+	// RVA: 0x16D6260 Offset: 0x16D4860 VA: 0x1816D6260
 	internal string[] AbbrevEraNames(int calendarId) { }
 
-	// RVA: 0x16D86B0 Offset: 0x16D6CB0 VA: 0x1816D86B0
+	// RVA: 0x16D62A0 Offset: 0x16D48A0 VA: 0x1816D62A0
 	internal string[] AbbreviatedEnglishEraNames(int calendarId) { }
 
-	// RVA: 0x16D8F60 Offset: 0x16D7560 VA: 0x1816D8F60
+	// RVA: 0x16D6B50 Offset: 0x16D5150 VA: 0x1816D6B50
 	internal string[] ShortDates(int calendarId) { }
 
-	// RVA: 0x16D8F00 Offset: 0x16D7500 VA: 0x1816D8F00
+	// RVA: 0x16D6AF0 Offset: 0x16D50F0 VA: 0x1816D6AF0
 	internal string[] LongDates(int calendarId) { }
 
-	// RVA: 0x16D9110 Offset: 0x16D7710 VA: 0x1816D9110
+	// RVA: 0x16D6D00 Offset: 0x16D5300 VA: 0x1816D6D00
 	internal string[] YearMonths(int calendarId) { }
 
-	// RVA: 0x16D87A0 Offset: 0x16D6DA0 VA: 0x1816D87A0
+	// RVA: 0x16D6390 Offset: 0x16D4990 VA: 0x1816D6390
 	internal string[] DayNames(int calendarId) { }
 
-	// RVA: 0x16D8690 Offset: 0x16D6C90 VA: 0x1816D8690
+	// RVA: 0x16D6280 Offset: 0x16D4880 VA: 0x1816D6280
 	internal string[] AbbreviatedDayNames(int calendarId) { }
 
-	// RVA: 0x16D8F40 Offset: 0x16D7540 VA: 0x1816D8F40
+	// RVA: 0x16D6B30 Offset: 0x16D5130 VA: 0x1816D6B30
 	internal string[] MonthNames(int calendarId) { }
 
-	// RVA: 0x16D87E0 Offset: 0x16D6DE0 VA: 0x1816D87E0
+	// RVA: 0x16D63D0 Offset: 0x16D49D0 VA: 0x1816D63D0
 	internal string[] GenitiveMonthNames(int calendarId) { }
 
-	// RVA: 0x16D8700 Offset: 0x16D6D00 VA: 0x1816D8700
+	// RVA: 0x16D62F0 Offset: 0x16D48F0 VA: 0x1816D62F0
 	internal string[] AbbreviatedMonthNames(int calendarId) { }
 
-	// RVA: 0x16D86D0 Offset: 0x16D6CD0 VA: 0x1816D86D0
+	// RVA: 0x16D62C0 Offset: 0x16D48C0 VA: 0x1816D62C0
 	internal string[] AbbreviatedGenitiveMonthNames(int calendarId) { }
 
-	// RVA: 0x16D8ED0 Offset: 0x16D74D0 VA: 0x1816D8ED0
+	// RVA: 0x16D6AC0 Offset: 0x16D50C0 VA: 0x1816D6AC0
 	internal string[] LeapYearMonthNames(int calendarId) { }
 
-	// RVA: 0x16D8F20 Offset: 0x16D7520 VA: 0x1816D8F20
+	// RVA: 0x16D6B10 Offset: 0x16D5110 VA: 0x1816D6B10
 	internal string MonthDay(int calendarId) { }
 
-	// RVA: 0x16D8720 Offset: 0x16D6D20 VA: 0x1816D8720
+	// RVA: 0x16D6310 Offset: 0x16D4910 VA: 0x1816D6310
 	internal string DateSeparator(int calendarId) { }
 
-	// RVA: 0x16D8B00 Offset: 0x16D7100 VA: 0x1816D8B00
+	// RVA: 0x16D66F0 Offset: 0x16D4CF0 VA: 0x1816D66F0
 	private static string GetDateSeparator(string format) { }
 
-	// RVA: 0x16D8BD0 Offset: 0x16D71D0 VA: 0x1816D8BD0
+	// RVA: 0x16D67C0 Offset: 0x16D4DC0 VA: 0x1816D67C0
 	private static string GetSeparator(string format, string timeParts) { }
 
-	// RVA: 0x16D8DE0 Offset: 0x16D73E0 VA: 0x1816D8DE0
+	// RVA: 0x16D69D0 Offset: 0x16D4FD0 VA: 0x1816D69D0
 	private static int IndexOfTimePart(string format, int startIndex, string timeParts) { }
 
-	// RVA: 0x16D8F80 Offset: 0x16D7580 VA: 0x1816D8F80
+	// RVA: 0x16D6B70 Offset: 0x16D5170 VA: 0x1816D6B70
 	private static string UnescapeNlsString(string str, int start, int end) { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80
 	internal static string[] ReescapeWin32Strings(string[] array) { }
 
-	// RVA: 0x4B3FF0 Offset: 0x4B25F0 VA: 0x1804B3FF0
+	// RVA: 0x4B3F80 Offset: 0x4B2580 VA: 0x1804B3F80
 	internal static string ReescapeWin32String(string str) { }
 
-	// RVA: 0x16D8B40 Offset: 0x16D7140 VA: 0x1816D8B40
+	// RVA: 0x16D6730 Offset: 0x16D4D30 VA: 0x1816D6730
 	internal void GetNFIValues(NumberFormatInfo nfi) { }
 
-	// RVA: 0x16D9170 Offset: 0x16D7770 VA: 0x1816D9170
+	// RVA: 0x16D6D60 Offset: 0x16D5360 VA: 0x1816D6D60
 	private static void fill_number_data(NumberFormatInfo nfi, int numberIndex) { }
 
 }

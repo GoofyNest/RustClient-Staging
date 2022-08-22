@@ -17,10 +17,10 @@ private sealed class ConcurrentQueue.Segment<T> // TypeDefIndex: 1437
 	public void .ctor(int boundedLength) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FAD4D0 Offset: 0x1FABAD0 VA: 0x181FAD4D0
+	|-RVA: 0x1FADCF0 Offset: 0x1FAC2F0 VA: 0x181FADCF0
 	|-ConcurrentQueue.Segment<SteamNetworkingUtils.DebugMessage>..ctor
 	|
-	|-RVA: 0x1FAD400 Offset: 0x1FABA00 VA: 0x181FAD400
+	|-RVA: 0x1FADC20 Offset: 0x1FAC220 VA: 0x181FADC20
 	|-ConcurrentQueue.Segment<object>..ctor
 	*/
 
@@ -28,7 +28,7 @@ private sealed class ConcurrentQueue.Segment<T> // TypeDefIndex: 1437
 	internal int get_Capacity() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x9EB840 Offset: 0x9E9E40 VA: 0x1809EB840
+	|-RVA: 0x9EBD30 Offset: 0x9EA330 VA: 0x1809EBD30
 	|-ConcurrentQueue.Segment<SteamNetworkingUtils.DebugMessage>.get_Capacity
 	|-ConcurrentQueue.Segment<object>.get_Capacity
 	*/
@@ -37,7 +37,7 @@ private sealed class ConcurrentQueue.Segment<T> // TypeDefIndex: 1437
 	internal int get_FreezeOffset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FAD5A0 Offset: 0x1FABBA0 VA: 0x181FAD5A0
+	|-RVA: 0x1FADDC0 Offset: 0x1FAC3C0 VA: 0x181FADDC0
 	|-ConcurrentQueue.Segment<SteamNetworkingUtils.DebugMessage>.get_FreezeOffset
 	|-ConcurrentQueue.Segment<object>.get_FreezeOffset
 	*/
@@ -46,7 +46,7 @@ private sealed class ConcurrentQueue.Segment<T> // TypeDefIndex: 1437
 	internal void EnsureFrozenForEnqueues() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FACA30 Offset: 0x1FAB030 VA: 0x181FACA30
+	|-RVA: 0x1FAD250 Offset: 0x1FAB850 VA: 0x181FAD250
 	|-ConcurrentQueue.Segment<SteamNetworkingUtils.DebugMessage>.EnsureFrozenForEnqueues
 	|-ConcurrentQueue.Segment<object>.EnsureFrozenForEnqueues
 	*/
@@ -55,10 +55,10 @@ private sealed class ConcurrentQueue.Segment<T> // TypeDefIndex: 1437
 	public bool TryDequeue(out T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FACCA0 Offset: 0x1FAB2A0 VA: 0x181FACCA0
+	|-RVA: 0x1FAD4C0 Offset: 0x1FABAC0 VA: 0x181FAD4C0
 	|-ConcurrentQueue.Segment<SteamNetworkingUtils.DebugMessage>.TryDequeue
 	|
-	|-RVA: 0x1FACAD0 Offset: 0x1FAB0D0 VA: 0x181FACAD0
+	|-RVA: 0x1FAD2F0 Offset: 0x1FAB8F0 VA: 0x181FAD2F0
 	|-ConcurrentQueue.Segment<object>.TryDequeue
 	*/
 
@@ -66,10 +66,10 @@ private sealed class ConcurrentQueue.Segment<T> // TypeDefIndex: 1437
 	public bool TryPeek(out T result, bool resultUsed) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FAD120 Offset: 0x1FAB720 VA: 0x181FAD120
+	|-RVA: 0x1FAD940 Offset: 0x1FABF40 VA: 0x181FAD940
 	|-ConcurrentQueue.Segment<SteamNetworkingUtils.DebugMessage>.TryPeek
 	|
-	|-RVA: 0x1FAD290 Offset: 0x1FAB890 VA: 0x181FAD290
+	|-RVA: 0x1FADAB0 Offset: 0x1FAC0B0 VA: 0x181FADAB0
 	|-ConcurrentQueue.Segment<object>.TryPeek
 	*/
 
@@ -77,10 +77,10 @@ private sealed class ConcurrentQueue.Segment<T> // TypeDefIndex: 1437
 	public bool TryEnqueue(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FACE90 Offset: 0x1FAB490 VA: 0x181FACE90
+	|-RVA: 0x1FAD6B0 Offset: 0x1FABCB0 VA: 0x181FAD6B0
 	|-ConcurrentQueue.Segment<SteamNetworkingUtils.DebugMessage>.TryEnqueue
 	|
-	|-RVA: 0x1FACFE0 Offset: 0x1FAB5E0 VA: 0x181FACFE0
+	|-RVA: 0x1FAD800 Offset: 0x1FABE00 VA: 0x181FAD800
 	|-ConcurrentQueue.Segment<object>.TryEnqueue
 	*/
 
@@ -122,7 +122,7 @@ private sealed class ConcurrentQueue.<Enumerate>d__27<T> : IEnumerator<T>, IDisp
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E9140 Offset: 0x15E7740 VA: 0x1815E9140
+	|-RVA: 0x164FEF0 Offset: 0x164E4F0 VA: 0x18164FEF0
 	|-ConcurrentQueue.<Enumerate>d__27<SteamNetworkingUtils.DebugMessage>..ctor
 	|-ConcurrentQueue.<Enumerate>d__27<object>..ctor
 	*/
@@ -141,10 +141,10 @@ private sealed class ConcurrentQueue.<Enumerate>d__27<T> : IEnumerator<T>, IDisp
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FAD5C0 Offset: 0x1FABBC0 VA: 0x181FAD5C0
+	|-RVA: 0x1FADDE0 Offset: 0x1FAC3E0 VA: 0x181FADDE0
 	|-ConcurrentQueue.<Enumerate>d__27<SteamNetworkingUtils.DebugMessage>.MoveNext
 	|
-	|-RVA: 0x1FAD980 Offset: 0x1FABF80 VA: 0x181FAD980
+	|-RVA: 0x1FAE1A0 Offset: 0x1FAC7A0 VA: 0x181FAE1A0
 	|-ConcurrentQueue.<Enumerate>d__27<object>.MoveNext
 	*/
 
@@ -153,7 +153,7 @@ private sealed class ConcurrentQueue.<Enumerate>d__27<T> : IEnumerator<T>, IDisp
 	private T System.Collections.Generic.IEnumerator<T>.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xB114F0 Offset: 0xB0FAF0 VA: 0x180B114F0
+	|-RVA: 0xB119C0 Offset: 0xB0FFC0 VA: 0x180B119C0
 	|-ConcurrentQueue.<Enumerate>d__27<SteamNetworkingUtils.DebugMessage>.System.Collections.Generic.IEnumerator<T>.get_Current
 	|
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
@@ -165,10 +165,10 @@ private sealed class ConcurrentQueue.<Enumerate>d__27<T> : IEnumerator<T>, IDisp
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FADD10 Offset: 0x1FAC310 VA: 0x181FADD10
+	|-RVA: 0x1FAE530 Offset: 0x1FACB30 VA: 0x181FAE530
 	|-ConcurrentQueue.<Enumerate>d__27<SteamNetworkingUtils.DebugMessage>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x1FADD60 Offset: 0x1FAC360 VA: 0x181FADD60
+	|-RVA: 0x1FAE580 Offset: 0x1FACB80 VA: 0x181FAE580
 	|-ConcurrentQueue.<Enumerate>d__27<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -177,7 +177,7 @@ private sealed class ConcurrentQueue.<Enumerate>d__27<T> : IEnumerator<T>, IDisp
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17FC650 Offset: 0x17FAC50 VA: 0x1817FC650
+	|-RVA: 0x16504F0 Offset: 0x164EAF0 VA: 0x1816504F0
 	|-ConcurrentQueue.<Enumerate>d__27<SteamNetworkingUtils.DebugMessage>.System.Collections.IEnumerator.get_Current
 	|
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880

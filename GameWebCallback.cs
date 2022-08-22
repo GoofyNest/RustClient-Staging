@@ -9,16 +9,16 @@ internal struct GameWebCallback_t : ICallbackData // TypeDefIndex: 5303
 
 	// Methods
 
-	// RVA: 0x1E8A40 Offset: 0x1E7E40 VA: 0x1801E8A40
+	// RVA: 0x1E8E60 Offset: 0x1E8260 VA: 0x1801E8E60
 	internal string URLUTF8() { }
 
-	// RVA: 0x1E8AD0 Offset: 0x1E7ED0 VA: 0x1801E8AD0 Slot: 5
+	// RVA: 0x1E8EF0 Offset: 0x1E82F0 VA: 0x1801E8EF0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E8AC0 Offset: 0x1E7EC0 VA: 0x1801E8AC0 Slot: 4
+	// RVA: 0x1E8EE0 Offset: 0x1E82E0 VA: 0x1801E8EE0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371850 Offset: 0x136FE50 VA: 0x181371850
+	// RVA: 0x1370950 Offset: 0x136EF50 VA: 0x181370950
 	private static void .cctor() { }
 
 }

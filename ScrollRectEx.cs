@@ -89,226 +89,226 @@ public class ScrollRectEx : UIBehaviour, IInitializePotentialDragHandler, IEvent
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	public void set_content(RectTransform value) { }
 
-	// RVA: 0x9975F0 Offset: 0x995BF0 VA: 0x1809975F0
+	// RVA: 0x997AE0 Offset: 0x9960E0 VA: 0x180997AE0
 	public bool get_horizontal() { }
 
-	// RVA: 0x997600 Offset: 0x995C00 VA: 0x180997600
+	// RVA: 0x997AF0 Offset: 0x9960F0 VA: 0x180997AF0
 	public void set_horizontal(bool value) { }
 
-	// RVA: 0x73AD00 Offset: 0x739300 VA: 0x18073AD00
+	// RVA: 0x73AC50 Offset: 0x739250 VA: 0x18073AC50
 	public bool get_vertical() { }
 
-	// RVA: 0x1124780 Offset: 0x1122D80 VA: 0x181124780
+	// RVA: 0x11251F0 Offset: 0x11237F0 VA: 0x1811251F0
 	public void set_vertical(bool value) { }
 
-	// RVA: 0x5DE3B0 Offset: 0x5DC9B0 VA: 0x1805DE3B0
+	// RVA: 0x5DE340 Offset: 0x5DC940 VA: 0x1805DE340
 	public ScrollRectEx.MovementType get_movementType() { }
 
-	// RVA: 0x10B82E0 Offset: 0x10B68E0 VA: 0x1810B82E0
+	// RVA: 0x10B8D50 Offset: 0x10B7350 VA: 0x1810B8D50
 	public void set_movementType(ScrollRectEx.MovementType value) { }
 
-	// RVA: 0x6BBA40 Offset: 0x6BA040 VA: 0x1806BBA40
+	// RVA: 0x6BB9D0 Offset: 0x6B9FD0 VA: 0x1806BB9D0
 	public float get_elasticity() { }
 
-	// RVA: 0x4E63E0 Offset: 0x4E49E0 VA: 0x1804E63E0
+	// RVA: 0x4E6370 Offset: 0x4E4970 VA: 0x1804E6370
 	public void set_elasticity(float value) { }
 
-	// RVA: 0xBA1D40 Offset: 0xBA0340 VA: 0x180BA1D40
+	// RVA: 0xBA2210 Offset: 0xBA0810 VA: 0x180BA2210
 	public bool get_inertia() { }
 
-	// RVA: 0xE72F70 Offset: 0xE71570 VA: 0x180E72F70
+	// RVA: 0xE73A20 Offset: 0xE72020 VA: 0x180E73A20
 	public void set_inertia(bool value) { }
 
-	// RVA: 0x10B80E0 Offset: 0x10B66E0 VA: 0x1810B80E0
+	// RVA: 0x10B8B50 Offset: 0x10B7150 VA: 0x1810B8B50
 	public float get_decelerationRate() { }
 
-	// RVA: 0x10B8180 Offset: 0x10B6780 VA: 0x1810B8180
+	// RVA: 0x10B8BF0 Offset: 0x10B71F0 VA: 0x1810B8BF0
 	public void set_decelerationRate(float value) { }
 
-	// RVA: 0xA21B80 Offset: 0xA20180 VA: 0x180A21B80
+	// RVA: 0xA22070 Offset: 0xA20670 VA: 0x180A22070
 	public float get_scrollSensitivity() { }
 
-	// RVA: 0x522390 Offset: 0x520990 VA: 0x180522390
+	// RVA: 0x522320 Offset: 0x520920 VA: 0x180522320
 	public void set_scrollSensitivity(float value) { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	public RectTransform get_viewport() { }
 
-	// RVA: 0x1124790 Offset: 0x1122D90 VA: 0x181124790
+	// RVA: 0x1125200 Offset: 0x1123800 VA: 0x181125200
 	public void set_viewport(RectTransform value) { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	public Scrollbar get_horizontalScrollbar() { }
 
-	// RVA: 0x1124410 Offset: 0x1122A10 VA: 0x181124410
+	// RVA: 0x1124E80 Offset: 0x1123480 VA: 0x181124E80
 	public void set_horizontalScrollbar(Scrollbar value) { }
 
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	public Scrollbar get_verticalScrollbar() { }
 
-	// RVA: 0x1124600 Offset: 0x1122C00 VA: 0x181124600
+	// RVA: 0x1125070 Offset: 0x1123670 VA: 0x181125070
 	public void set_verticalScrollbar(Scrollbar value) { }
 
-	// RVA: 0xAE9AA0 Offset: 0xAE80A0 VA: 0x180AE9AA0
+	// RVA: 0xAE9F70 Offset: 0xAE8570 VA: 0x180AE9F70
 	public ScrollRectEx.ScrollbarVisibility get_horizontalScrollbarVisibility() { }
 
-	// RVA: 0x1124400 Offset: 0x1122A00 VA: 0x181124400
+	// RVA: 0x1124E70 Offset: 0x1123470 VA: 0x181124E70
 	public void set_horizontalScrollbarVisibility(ScrollRectEx.ScrollbarVisibility value) { }
 
-	// RVA: 0x5743A0 Offset: 0x5729A0 VA: 0x1805743A0
+	// RVA: 0x574330 Offset: 0x572930 VA: 0x180574330
 	public ScrollRectEx.ScrollbarVisibility get_verticalScrollbarVisibility() { }
 
-	// RVA: 0x11245F0 Offset: 0x1122BF0 VA: 0x1811245F0
+	// RVA: 0x1125060 Offset: 0x1123660 VA: 0x181125060
 	public void set_verticalScrollbarVisibility(ScrollRectEx.ScrollbarVisibility value) { }
 
-	// RVA: 0x6C0B50 Offset: 0x6BF150 VA: 0x1806C0B50
+	// RVA: 0x6C0AE0 Offset: 0x6BF0E0 VA: 0x1806C0AE0
 	public float get_horizontalScrollbarSpacing() { }
 
-	// RVA: 0x11243F0 Offset: 0x11229F0 VA: 0x1811243F0
+	// RVA: 0x1124E60 Offset: 0x1123460 VA: 0x181124E60
 	public void set_horizontalScrollbarSpacing(float value) { }
 
-	// RVA: 0x11242E0 Offset: 0x11228E0 VA: 0x1811242E0
+	// RVA: 0x1124D50 Offset: 0x1123350 VA: 0x181124D50
 	public float get_verticalScrollbarSpacing() { }
 
-	// RVA: 0x11245E0 Offset: 0x1122BE0 VA: 0x1811245E0
+	// RVA: 0x1125050 Offset: 0x1123650 VA: 0x181125050
 	public void set_verticalScrollbarSpacing(float value) { }
 
-	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
+	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0
 	public ScrollRectEx.ScrollRectEvent get_onValueChanged() { }
 
-	// RVA: 0x519E50 Offset: 0x518450 VA: 0x180519E50
+	// RVA: 0x519DE0 Offset: 0x5183E0 VA: 0x180519DE0
 	public void set_onValueChanged(ScrollRectEx.ScrollRectEvent value) { }
 
-	// RVA: 0x11242F0 Offset: 0x11228F0 VA: 0x1811242F0
+	// RVA: 0x1124D60 Offset: 0x1123360 VA: 0x181124D60
 	protected RectTransform get_viewRect() { }
 
-	// RVA: 0x1124150 Offset: 0x1122750 VA: 0x181124150
+	// RVA: 0x1124BC0 Offset: 0x11231C0 VA: 0x181124BC0
 	public Vector2 get_velocity() { }
 
-	// RVA: 0x11245D0 Offset: 0x1122BD0 VA: 0x1811245D0
+	// RVA: 0x1125040 Offset: 0x1123640 VA: 0x181125040
 	public void set_velocity(Vector2 value) { }
 
-	// RVA: 0x1124030 Offset: 0x1122630 VA: 0x181124030
+	// RVA: 0x1124AA0 Offset: 0x11230A0 VA: 0x181124AA0
 	private RectTransform get_rectTransform() { }
 
-	// RVA: 0x1123CF0 Offset: 0x11222F0 VA: 0x181123CF0
+	// RVA: 0x1124760 Offset: 0x1122D60 VA: 0x181124760
 	protected void .ctor() { }
 
-	// RVA: 0x1121BE0 Offset: 0x11201E0 VA: 0x181121BE0 Slot: 29
+	// RVA: 0x1122650 Offset: 0x1120C50 VA: 0x181122650 Slot: 29
 	public virtual void Rebuild(CanvasUpdate executing) { }
 
-	// RVA: 0x1122FE0 Offset: 0x11215E0 VA: 0x181122FE0
+	// RVA: 0x1123A50 Offset: 0x1122050 VA: 0x181123A50
 	private void UpdateCachedData() { }
 
-	// RVA: 0x1121730 Offset: 0x111FD30 VA: 0x181121730 Slot: 5
+	// RVA: 0x11221A0 Offset: 0x11207A0 VA: 0x1811221A0 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x1121250 Offset: 0x111F850 VA: 0x181121250 Slot: 7
+	// RVA: 0x1121CC0 Offset: 0x11202C0 VA: 0x181121CC0 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x1120850 Offset: 0x111EE50 VA: 0x181120850 Slot: 9
+	// RVA: 0x11212C0 Offset: 0x111F8C0 VA: 0x1811212C0 Slot: 9
 	public override bool IsActive() { }
 
-	// RVA: 0x1120480 Offset: 0x111EA80 VA: 0x181120480
+	// RVA: 0x1120EF0 Offset: 0x111F4F0 VA: 0x181120EF0
 	private void EnsureLayoutHasRebuilt() { }
 
-	// RVA: 0x1122B80 Offset: 0x1121180 VA: 0x181122B80 Slot: 30
+	// RVA: 0x11235F0 Offset: 0x1121BF0 VA: 0x1811235F0 Slot: 30
 	public virtual void StopMovement() { }
 
-	// RVA: 0x1121990 Offset: 0x111FF90 VA: 0x181121990 Slot: 31
+	// RVA: 0x1122400 Offset: 0x1120A00 VA: 0x181122400 Slot: 31
 	public virtual void OnScroll(PointerEventData data) { }
 
-	// RVA: 0x11218E0 Offset: 0x111FEE0 VA: 0x1811218E0 Slot: 32
+	// RVA: 0x1122350 Offset: 0x1120950 VA: 0x181122350 Slot: 32
 	public virtual void OnInitializePotentialDrag(PointerEventData eventData) { }
 
-	// RVA: 0x11210D0 Offset: 0x111F6D0 VA: 0x1811210D0 Slot: 33
+	// RVA: 0x1121B40 Offset: 0x1120140 VA: 0x181121B40 Slot: 33
 	public virtual void OnBeginDrag(PointerEventData eventData) { }
 
-	// RVA: 0x11218B0 Offset: 0x111FEB0 VA: 0x1811218B0 Slot: 34
+	// RVA: 0x1122320 Offset: 0x1120920 VA: 0x181122320 Slot: 34
 	public virtual void OnEndDrag(PointerEventData eventData) { }
 
-	// RVA: 0x1121460 Offset: 0x111FA60 VA: 0x181121460 Slot: 35
+	// RVA: 0x1121ED0 Offset: 0x11204D0 VA: 0x181121ED0 Slot: 35
 	public virtual void OnDrag(PointerEventData eventData) { }
 
-	// RVA: 0x1121D20 Offset: 0x1120320 VA: 0x181121D20 Slot: 36
+	// RVA: 0x1122790 Offset: 0x1120D90 VA: 0x181122790 Slot: 36
 	protected virtual void SetContentAnchoredPosition(Vector2 position) { }
 
-	// RVA: 0x11208C0 Offset: 0x111EEC0 VA: 0x1811208C0 Slot: 37
+	// RVA: 0x1121330 Offset: 0x111F930 VA: 0x181121330 Slot: 37
 	protected virtual void LateUpdate() { }
 
-	// RVA: 0x11233F0 Offset: 0x11219F0 VA: 0x1811233F0
+	// RVA: 0x1123E60 Offset: 0x1122460 VA: 0x181123E60
 	private void UpdatePrevData() { }
 
-	// RVA: 0x1123A50 Offset: 0x1122050 VA: 0x181123A50
+	// RVA: 0x11244C0 Offset: 0x1122AC0 VA: 0x1811244C0
 	private void UpdateScrollbars(Vector2 offset) { }
 
-	// RVA: 0x1123FE0 Offset: 0x11225E0 VA: 0x181123FE0
+	// RVA: 0x1124A50 Offset: 0x1123050 VA: 0x181124A50
 	public Vector2 get_normalizedPosition() { }
 
-	// RVA: 0x1124590 Offset: 0x1122B90 VA: 0x181124590
+	// RVA: 0x1125000 Offset: 0x1123600 VA: 0x181125000
 	public void set_normalizedPosition(Vector2 value) { }
 
-	// RVA: 0x1123EC0 Offset: 0x11224C0 VA: 0x181123EC0
+	// RVA: 0x1124930 Offset: 0x1122F30 VA: 0x181124930
 	public float get_horizontalNormalizedPosition() { }
 
-	// RVA: 0x1121F80 Offset: 0x1120580 VA: 0x181121F80
+	// RVA: 0x11229F0 Offset: 0x1120FF0 VA: 0x1811229F0
 	public void set_horizontalNormalizedPosition(float value) { }
 
-	// RVA: 0x1124170 Offset: 0x1122770 VA: 0x181124170
+	// RVA: 0x1124BE0 Offset: 0x11231E0 VA: 0x181124BE0
 	public float get_verticalNormalizedPosition() { }
 
-	// RVA: 0x1122B70 Offset: 0x1121170 VA: 0x181122B70
+	// RVA: 0x11235E0 Offset: 0x1121BE0 VA: 0x1811235E0
 	public void set_verticalNormalizedPosition(float value) { }
 
-	// RVA: 0x1121F80 Offset: 0x1120580 VA: 0x181121F80
+	// RVA: 0x11229F0 Offset: 0x1120FF0 VA: 0x1811229F0
 	private void SetHorizontalNormalizedPosition(float value) { }
 
-	// RVA: 0x1122B70 Offset: 0x1121170 VA: 0x181122B70
+	// RVA: 0x11235E0 Offset: 0x1121BE0 VA: 0x1811235E0
 	private void SetVerticalNormalizedPosition(float value) { }
 
-	// RVA: 0x1122890 Offset: 0x1120E90 VA: 0x181122890
+	// RVA: 0x1123300 Offset: 0x1121900 VA: 0x181123300
 	private void SetNormalizedPosition(float value, int axis) { }
 
-	// RVA: 0x1121C80 Offset: 0x1120280 VA: 0x181121C80
+	// RVA: 0x11226F0 Offset: 0x1120CF0 VA: 0x1811226F0
 	private static float RubberDelta(float overStretching, float viewSize) { }
 
-	// RVA: 0x1121980 Offset: 0x111FF80 VA: 0x181121980 Slot: 10
+	// RVA: 0x11223F0 Offset: 0x11209F0 VA: 0x1811223F0 Slot: 10
 	protected override void OnRectTransformDimensionsChange() { }
 
-	// RVA: 0x1123E50 Offset: 0x1122450 VA: 0x181123E50
+	// RVA: 0x11248C0 Offset: 0x1122EC0 VA: 0x1811248C0
 	private bool get_hScrollingNeeded() { }
 
-	// RVA: 0x11240D0 Offset: 0x11226D0 VA: 0x1811240D0
+	// RVA: 0x1124B40 Offset: 0x1123140 VA: 0x181124B40
 	private bool get_vScrollingNeeded() { }
 
-	// RVA: 0x1121F90 Offset: 0x1120590 VA: 0x181121F90 Slot: 38
+	// RVA: 0x1122A00 Offset: 0x1121000 VA: 0x181122A00 Slot: 38
 	public virtual void SetLayoutHorizontal() { }
 
-	// RVA: 0x11226F0 Offset: 0x1120CF0 VA: 0x1811226F0 Slot: 39
+	// RVA: 0x1123160 Offset: 0x1121760 VA: 0x181123160 Slot: 39
 	public virtual void SetLayoutVertical() { }
 
-	// RVA: 0x11238D0 Offset: 0x1121ED0 VA: 0x1811238D0
+	// RVA: 0x1124340 Offset: 0x1122940 VA: 0x181124340
 	private void UpdateScrollbarVisibility() { }
 
-	// RVA: 0x11234E0 Offset: 0x1121AE0 VA: 0x1811234E0
+	// RVA: 0x1123F50 Offset: 0x1122550 VA: 0x181123F50
 	private void UpdateScrollbarLayout() { }
 
-	// RVA: 0x1122BF0 Offset: 0x11211F0 VA: 0x181122BF0
+	// RVA: 0x1123660 Offset: 0x1121C60 VA: 0x181123660
 	private void UpdateBounds() { }
 
-	// RVA: 0x11204F0 Offset: 0x111EAF0 VA: 0x1811204F0
+	// RVA: 0x1120F60 Offset: 0x111F560 VA: 0x181120F60
 	private Bounds GetBounds() { }
 
-	// RVA: 0x111FF00 Offset: 0x111E500 VA: 0x18111FF00
+	// RVA: 0x1120970 Offset: 0x111EF70 VA: 0x181120970
 	private Vector2 CalculateOffset(Vector2 delta) { }
 
-	// RVA: 0x1121F00 Offset: 0x1120500 VA: 0x181121F00
+	// RVA: 0x1122970 Offset: 0x1120F70 VA: 0x181122970
 	protected void SetDirty() { }
 
-	// RVA: 0x1121E50 Offset: 0x1120450 VA: 0x181121E50
+	// RVA: 0x11228C0 Offset: 0x1120EC0 VA: 0x1811228C0
 	protected void SetDirtyCaching() { }
 
-	// RVA: 0x1120170 Offset: 0x111E770 VA: 0x181120170
+	// RVA: 0x1120BE0 Offset: 0x111F1E0 VA: 0x181120BE0
 	public void CenterOnPosition(Vector2 pos) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 24
@@ -317,7 +317,7 @@ public class ScrollRectEx : UIBehaviour, IInitializePotentialDragHandler, IEvent
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 25
 	public void GraphicUpdateComplete() { }
 
-	// RVA: 0xABD5D0 Offset: 0xABBBD0 VA: 0x180ABD5D0 Slot: 23
+	// RVA: 0xABDAA0 Offset: 0xABC0A0 VA: 0x180ABDAA0 Slot: 23
 	private Transform UnityEngine.UI.ICanvasElement.get_transform() { }
 
 }
@@ -343,7 +343,7 @@ public enum ScrollRectEx.ScrollbarVisibility // TypeDefIndex: 11713
 public class ScrollRectEx.ScrollRectEvent : UnityEvent<Vector2> // TypeDefIndex: 11714
 {	// Methods
 
-	// RVA: 0x111FEC0 Offset: 0x111E4C0 VA: 0x18111FEC0
+	// RVA: 0x1120930 Offset: 0x111EF30 VA: 0x181120930
 	public void .ctor() { }
 
 }

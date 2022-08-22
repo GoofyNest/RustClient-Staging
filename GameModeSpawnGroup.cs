@@ -4,7 +4,7 @@ public class GameModeSpawnGroup : SpawnGroup // TypeDefIndex: 9998
 
 	// Methods
 
-	// RVA: 0x59DA30 Offset: 0x59C030 VA: 0x18059DA30
+	// RVA: 0x59D9C0 Offset: 0x59BFC0 VA: 0x18059D9C0
 	public void .ctor() { }
 
 }

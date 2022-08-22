@@ -12,10 +12,10 @@ public class ScreenRotate : BaseScreenShake // TypeDefIndex: 9369
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4
 	public override void Setup() { }
 
-	// RVA: 0x4A4AD0 Offset: 0x4A30D0 VA: 0x1804A4AD0 Slot: 5
+	// RVA: 0x4A4A60 Offset: 0x4A3060 VA: 0x1804A4A60 Slot: 5
 	public override void Run(float delta, ref CachedTransform<Camera> cam, ref CachedTransform<BaseViewModel> vm) { }
 
-	// RVA: 0x4A4E40 Offset: 0x4A3440 VA: 0x1804A4E40
+	// RVA: 0x4A4DD0 Offset: 0x4A33D0 VA: 0x1804A4DD0
 	public void .ctor() { }
 
 }

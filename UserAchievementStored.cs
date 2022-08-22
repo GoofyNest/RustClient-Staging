@@ -13,16 +13,16 @@ internal struct UserAchievementStored_t : ICallbackData // TypeDefIndex: 5388
 
 	// Methods
 
-	// RVA: 0x1DBDB0 Offset: 0x1DB1B0 VA: 0x1801DBDB0
+	// RVA: 0x1DC420 Offset: 0x1DB820 VA: 0x1801DC420
 	internal string AchievementNameUTF8() { }
 
-	// RVA: 0x1DBE40 Offset: 0x1DB240 VA: 0x1801DBE40 Slot: 5
+	// RVA: 0x1DC4B0 Offset: 0x1DB8B0 VA: 0x1801DC4B0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DBE30 Offset: 0x1DB230 VA: 0x1801DBE30 Slot: 4
+	// RVA: 0x1DC4A0 Offset: 0x1DB8A0 VA: 0x1801DC4A0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1291EB0 Offset: 0x12904B0 VA: 0x181291EB0
+	// RVA: 0x1292550 Offset: 0x1290B50 VA: 0x181292550
 	private static void .cctor() { }
 
 }

@@ -4,7 +4,7 @@ public class PropertyChangedEventArgs : EventArgs // TypeDefIndex: 2732
 
 	// Methods
 
-	// RVA: 0x15D0290 Offset: 0x15CE890 VA: 0x1815D0290
+	// RVA: 0x15CF360 Offset: 0x15CD960 VA: 0x1815CF360
 	public void .ctor(string propertyName) { }
 
 }

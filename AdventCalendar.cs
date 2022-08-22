@@ -17,35 +17,35 @@ public class AdventCalendar : BaseCombatEntity // TypeDefIndex: 8304
 
 	// Methods
 
-	// RVA: 0xAA2330 Offset: 0xAA0930 VA: 0x180AA2330 Slot: 49
+	// RVA: 0xAA2800 Offset: 0xAA0E00 VA: 0x180AA2800 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xAA2870 Offset: 0xAA0E70 VA: 0x180AA2870 Slot: 50
+	// RVA: 0xAA2D40 Offset: 0xAA1340 VA: 0x180AA2D40 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xAA2650 Offset: 0xAA0C50 VA: 0x180AA2650 Slot: 35
+	// RVA: 0xAA2B20 Offset: 0xAA1120 VA: 0x180AA2B20 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.Menu] // RVA: 0xB0320 Offset: 0xAF720 VA: 0x1800B0320
 	[BaseEntity.Menu.Description] // RVA: 0xB0320 Offset: 0xAF720 VA: 0x1800B0320
 	[BaseEntity.Menu.Icon] // RVA: 0xB0320 Offset: 0xAF720 VA: 0x1800B0320
 	[BaseEntity.Menu.ShowIf] // RVA: 0xB0320 Offset: 0xAF720 VA: 0x1800B0320
-	// RVA: 0xAA2610 Offset: 0xAA0C10 VA: 0x180AA2610
+	// RVA: 0xAA2AE0 Offset: 0xAA10E0 VA: 0x180AA2AE0
 	public void Menu_OpenCalendar(BasePlayer player) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0
 	public bool Menu_OpenCalendar_ShowIf(BasePlayer player) { }
 
-	// RVA: 0xAA22A0 Offset: 0xAA08A0 VA: 0x180AA22A0 Slot: 14
+	// RVA: 0xAA2770 Offset: 0xAA0D70 VA: 0x180AA2770 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xAA2190 Offset: 0xAA0790 VA: 0x180AA2190
+	// RVA: 0xAA2660 Offset: 0xAA0C60 VA: 0x180AA2660
 	public void CheckCrosses() { }
 
 	// RVA: 0x49C290 Offset: 0x49A890 VA: 0x18049C290
 	public void .ctor() { }
 
-	// RVA: 0xAA2740 Offset: 0xAA0D40 VA: 0x180AA2740
+	// RVA: 0xAA2C10 Offset: 0xAA1210 VA: 0x180AA2C10
 	private static void .cctor() { }
 
 }

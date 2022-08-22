@@ -7,19 +7,19 @@ public class TriggerRadiation : TriggerBase // TypeDefIndex: 10043
 
 	// Methods
 
-	// RVA: 0xA22590 Offset: 0xA20B90 VA: 0x180A22590
+	// RVA: 0xA22A80 Offset: 0xA21080 VA: 0x180A22A80
 	public void Awake() { }
 
-	// RVA: 0xA22650 Offset: 0xA20C50 VA: 0x180A22650
+	// RVA: 0xA22B40 Offset: 0xA21140 VA: 0x180A22B40
 	private float GetRadiationSize() { }
 
-	// RVA: 0xA225F0 Offset: 0xA20BF0 VA: 0x180A225F0
+	// RVA: 0xA22AE0 Offset: 0xA210E0 VA: 0x180A22AE0
 	public float GetRadiationAmount() { }
 
-	// RVA: 0xA22740 Offset: 0xA20D40 VA: 0x180A22740
+	// RVA: 0xA22C30 Offset: 0xA21230 VA: 0x180A22C30
 	public void OnDrawGizmosSelected() { }
 
-	// RVA: 0xA22920 Offset: 0xA20F20 VA: 0x180A22920
+	// RVA: 0xA22E10 Offset: 0xA21410 VA: 0x180A22E10
 	public void .ctor() { }
 
 }

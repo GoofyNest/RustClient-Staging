@@ -36,16 +36,16 @@ internal sealed class Huffman // TypeDefIndex: 7393
 
 	// Methods
 
-	// RVA: 0x5E6310 Offset: 0x5E4910 VA: 0x1805E6310
+	// RVA: 0x5E62A0 Offset: 0x5E48A0 VA: 0x1805E62A0
 	private static void .cctor() { }
 
-	// RVA: 0x660B40 Offset: 0x65F140 VA: 0x180660B40
+	// RVA: 0x660AD0 Offset: 0x65F0D0 VA: 0x180660AD0
 	private void .ctor(string s, int xlen, int ylen, int linbits, int linmax, int ref, int[] table, int[] hlen, int[][] val, int treelen) { }
 
-	// RVA: 0x5E3360 Offset: 0x5E1960 VA: 0x1805E3360
+	// RVA: 0x5E32F0 Offset: 0x5E18F0 VA: 0x1805E32F0
 	internal static int Decode(Huffman h, int[] x, int[] y, int[] v, int[] w, BitReserve br) { }
 
-	// RVA: 0x5E3BE0 Offset: 0x5E21E0 VA: 0x1805E3BE0
+	// RVA: 0x5E3B70 Offset: 0x5E2170 VA: 0x1805E3B70
 	internal static void Initialize() { }
 
 }

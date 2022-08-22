@@ -7,16 +7,16 @@ public class SkeletonProperties : ScriptableObject // TypeDefIndex: 9982
 
 	// Methods
 
-	// RVA: 0x59E1D0 Offset: 0x59C7D0 VA: 0x18059E1D0
+	// RVA: 0x59E160 Offset: 0x59C760 VA: 0x18059E160
 	public void OnValidate() { }
 
-	// RVA: 0x59DC30 Offset: 0x59C230 VA: 0x18059DC30
+	// RVA: 0x59DBC0 Offset: 0x59C1C0 VA: 0x18059DBC0
 	private void BuildDictionary() { }
 
-	// RVA: 0x59E150 Offset: 0x59C750 VA: 0x18059E150
+	// RVA: 0x59E0E0 Offset: 0x59C6E0 VA: 0x18059E0E0
 	public SkeletonProperties.BoneProperty FindBone(uint id) { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -43,7 +43,7 @@ private sealed class SkeletonProperties.<>c__DisplayClass3_0 // TypeDefIndex: 99
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x5A4930 Offset: 0x5A2F30 VA: 0x1805A4930
+	// RVA: 0x5A48C0 Offset: 0x5A2EC0 VA: 0x1805A48C0
 	internal bool <OnValidate>b__0(SkeletonProperties.BoneProperty x) { }
 
 }

@@ -54,7 +54,7 @@ internal abstract class X509Certificate2Impl : X509CertificateImpl // TypeDefInd
 	// RVA: -1 Offset: -1 Slot: 30
 	public abstract void Reset();
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	protected void .ctor() { }
 
 }

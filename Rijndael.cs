@@ -5,10 +5,10 @@ public abstract class Rijndael : SymmetricAlgorithm // TypeDefIndex: 975
 
 	// Methods
 
-	// RVA: 0x17BBA30 Offset: 0x17BA030 VA: 0x1817BBA30
+	// RVA: 0x17B9580 Offset: 0x17B7B80 VA: 0x1817B9580
 	protected void .ctor() { }
 
-	// RVA: 0x17BB880 Offset: 0x17B9E80 VA: 0x1817BB880
+	// RVA: 0x17B93D0 Offset: 0x17B79D0 VA: 0x1817B93D0
 	private static void .cctor() { }
 
 }

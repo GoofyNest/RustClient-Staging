@@ -22,29 +22,29 @@ public class HttpClientHandler : HttpMessageHandler // TypeDefIndex: 5740
 
 	// Methods
 
-	// RVA: 0x10899D0 Offset: 0x1087FD0 VA: 0x1810899D0
+	// RVA: 0x108A440 Offset: 0x1088A40 VA: 0x18108A440
 	public void .ctor() { }
 
-	// RVA: 0x1089A70 Offset: 0x1088070 VA: 0x181089A70
+	// RVA: 0x108A4E0 Offset: 0x1088AE0 VA: 0x18108A4E0
 	public CookieContainer get_CookieContainer() { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public long get_MaxRequestContentBufferSize() { }
 
-	// RVA: 0x1089760 Offset: 0x1087D60 VA: 0x181089760 Slot: 5
+	// RVA: 0x108A1D0 Offset: 0x10887D0 VA: 0x18108A1D0 Slot: 5
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x1088CF0 Offset: 0x10872F0 VA: 0x181088CF0 Slot: 7
+	// RVA: 0x1089760 Offset: 0x1087D60 VA: 0x181089760 Slot: 7
 	internal virtual HttpWebRequest CreateWebRequest(HttpRequestMessage request) { }
 
-	// RVA: 0x1088A80 Offset: 0x1087080 VA: 0x181088A80
+	// RVA: 0x10894F0 Offset: 0x1087AF0 VA: 0x1810894F0
 	private HttpResponseMessage CreateResponseMessage(HttpWebResponse wr, HttpRequestMessage requestMessage, CancellationToken cancellationToken) { }
 
-	// RVA: 0x10897E0 Offset: 0x1087DE0 VA: 0x1810897E0
+	// RVA: 0x108A250 Offset: 0x1088850 VA: 0x18108A250
 	private static bool MethodHasBody(HttpMethod method) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xD17D0 Offset: 0xD0BD0 VA: 0x1800D17D0
-	// RVA: 0x10898A0 Offset: 0x1087EA0 VA: 0x1810898A0 Slot: 6
+	// RVA: 0x108A310 Offset: 0x1088910 VA: 0x18108A310 Slot: 6
 	protected internal override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) { }
 
 }
@@ -57,16 +57,16 @@ private sealed class HttpClientHandler.<>c // TypeDefIndex: 5741
 
 	// Methods
 
-	// RVA: 0x109B1A0 Offset: 0x10997A0 VA: 0x18109B1A0
+	// RVA: 0x109BC10 Offset: 0x109A210 VA: 0x18109BC10
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x109AD30 Offset: 0x1099330 VA: 0x18109AD30
+	// RVA: 0x109B7A0 Offset: 0x1099DA0 VA: 0x18109B7A0
 	internal bool <CreateWebRequest>b__61_0(string l) { }
 
-	// RVA: 0x109AD70 Offset: 0x1099370 VA: 0x18109AD70
+	// RVA: 0x109B7E0 Offset: 0x1099DE0 VA: 0x18109B7E0
 	internal void <SendAsync>b__64_0(object l) { }
 
 }
@@ -90,11 +90,11 @@ private struct HttpClientHandler.<SendAsync>d__64 : IAsyncStateMachine // TypeDe
 
 	// Methods
 
-	// RVA: 0x19E100 Offset: 0x19D500 VA: 0x18019E100 Slot: 4
+	// RVA: 0x19DDF0 Offset: 0x19D1F0 VA: 0x18019DDF0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19E110 Offset: 0x19D510 VA: 0x18019E110 Slot: 5
+	// RVA: 0x19DE00 Offset: 0x19D200 VA: 0x18019DE00 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

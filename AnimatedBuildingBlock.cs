@@ -6,28 +6,28 @@ public class AnimatedBuildingBlock : StabilityEntity // TypeDefIndex: 9482
 
 	// Methods
 
-	// RVA: 0x829910 Offset: 0x827F10 VA: 0x180829910 Slot: 13
+	// RVA: 0x829E60 Offset: 0x828460 VA: 0x180829E60 Slot: 13
 	public override void ClientOnEnable() { }
 
-	// RVA: 0x829B60 Offset: 0x828160 VA: 0x180829B60
+	// RVA: 0x82A0B0 Offset: 0x8286B0 VA: 0x18082A0B0
 	private void SetBatching(bool state) { }
 
-	// RVA: 0x829980 Offset: 0x827F80 VA: 0x180829980 Slot: 80
+	// RVA: 0x829ED0 Offset: 0x8284D0 VA: 0x180829ED0 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x829BA0 Offset: 0x8281A0 VA: 0x180829BA0
+	// RVA: 0x82A0F0 Offset: 0x8286F0 VA: 0x18082A0F0
 	protected void UpdateAnimationParameters(bool init) { }
 
-	// RVA: 0x829940 Offset: 0x827F40 VA: 0x180829940
+	// RVA: 0x829E90 Offset: 0x828490 VA: 0x180829E90
 	protected void OnAnimatorFinished() { }
 
-	// RVA: 0x8299B0 Offset: 0x827FB0 VA: 0x1808299B0
+	// RVA: 0x829F00 Offset: 0x828500 VA: 0x180829F00
 	private void PutAnimatorToSleep() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 145
 	protected virtual void OnAnimatorDisabled() { }
 
-	// RVA: 0x829E50 Offset: 0x828450 VA: 0x180829E50
+	// RVA: 0x82A3A0 Offset: 0x8289A0 VA: 0x18082A3A0
 	public void .ctor() { }
 
 }

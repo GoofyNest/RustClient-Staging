@@ -56,53 +56,53 @@ public class BaseHelicopter : BaseCombatEntity // TypeDefIndex: 8519
 
 	// Methods
 
-	// RVA: 0xA40B90 Offset: 0xA3F190 VA: 0x180A40B90 Slot: 35
+	// RVA: 0xA41080 Offset: 0xA3F680 VA: 0x180A41080 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA405F0 Offset: 0xA3EBF0 VA: 0x180A405F0
+	// RVA: 0xA40AE0 Offset: 0xA3F0E0 VA: 0x180A40AE0
 	public void InitalizeWeakspots() { }
 
-	// RVA: 0x723230 Offset: 0x721830 VA: 0x180723230 Slot: 112
+	// RVA: 0x723180 Offset: 0x721780 VA: 0x180723180 Slot: 112
 	public override float MaxVelocity() { }
 
-	// RVA: 0xA40560 Offset: 0xA3EB60 VA: 0x180A40560 Slot: 28
+	// RVA: 0xA40A50 Offset: 0xA3F050 VA: 0x180A40A50 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0xA408D0 Offset: 0xA3EED0 VA: 0x180A408D0 Slot: 34
+	// RVA: 0xA40DC0 Offset: 0xA3F3C0 VA: 0x180A40DC0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xA3FF80 Offset: 0xA3E580 VA: 0x180A3FF80 Slot: 14
+	// RVA: 0xA40470 Offset: 0xA3EA70 VA: 0x180A40470 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xA40670 Offset: 0xA3EC70 VA: 0x180A40670
+	// RVA: 0xA40B60 Offset: 0xA3F160 VA: 0x180A40B60
 	public void InitializeClientsideEffects() { }
 
-	// RVA: 0xA3FFA0 Offset: 0xA3E5A0 VA: 0x180A3FFA0 Slot: 19
+	// RVA: 0xA40490 Offset: 0xA3EA90 VA: 0x180A40490 Slot: 19
 	protected override void DoClientDestroy() { }
 
-	// RVA: 0xA40FE0 Offset: 0xA3F5E0 VA: 0x180A40FE0
+	// RVA: 0xA414D0 Offset: 0xA3FAD0 VA: 0x180A414D0
 	public void SetLights(bool areOn) { }
 
-	// RVA: 0xA41A50 Offset: 0xA40050 VA: 0x180A41A50
+	// RVA: 0xA41F40 Offset: 0xA40540 VA: 0x180A41F40
 	public void Update() { }
 
-	// RVA: 0xA41100 Offset: 0xA3F700 VA: 0x180A41100
+	// RVA: 0xA415F0 Offset: 0xA3FBF0 VA: 0x180A415F0
 	public void UpdateEffects() { }
 
-	// RVA: 0xA41910 Offset: 0xA3FF10 VA: 0x180A41910
+	// RVA: 0xA41E00 Offset: 0xA40400 VA: 0x180A41E00
 	public void UpdateRotorWashPosition(Vector3 pos, Vector3 normal) { }
 
-	// RVA: 0xA41080 Offset: 0xA3F680 VA: 0x180A41080
+	// RVA: 0xA41570 Offset: 0xA3FB70 VA: 0x180A41570
 	public void ToggleRotorWash(bool enabled) { }
 
-	// RVA: 0xA41880 Offset: 0xA3FE80 VA: 0x180A41880
+	// RVA: 0xA41D70 Offset: 0xA40370 VA: 0x180A41D70
 	public void UpdateRotorVisibility() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA40080 Offset: 0xA3E680 VA: 0x180A40080
+	// RVA: 0xA40570 Offset: 0xA3EB70 VA: 0x180A40570
 	public void FireGun(BaseEntity.RPCMessage rpc) { }
 
-	// RVA: 0xA421B0 Offset: 0xA407B0 VA: 0x180A421B0
+	// RVA: 0xA426A0 Offset: 0xA40CA0 VA: 0x180A426A0
 	public void .ctor() { }
 
 }
@@ -122,13 +122,13 @@ public class BaseHelicopter.weakspot // TypeDefIndex: 8520
 
 	// Methods
 
-	// RVA: 0xA54A70 Offset: 0xA53070 VA: 0x180A54A70
+	// RVA: 0xA54F40 Offset: 0xA53540 VA: 0x180A54F40
 	public float HealthFraction() { }
 
-	// RVA: 0xA54950 Offset: 0xA52F50 VA: 0x180A54950
+	// RVA: 0xA54E20 Offset: 0xA53420 VA: 0x180A54E20
 	public void ClientHealthUpdate(float newHealth) { }
 
-	// RVA: 0xA54A80 Offset: 0xA53080 VA: 0x180A54A80
+	// RVA: 0xA54F50 Offset: 0xA53550 VA: 0x180A54F50
 	public void .ctor() { }
 
 }

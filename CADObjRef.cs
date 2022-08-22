@@ -6,7 +6,7 @@ internal class CADObjRef // TypeDefIndex: 1225
 
 	// Methods
 
-	// RVA: 0x1471F40 Offset: 0x1470540 VA: 0x181471F40
+	// RVA: 0x1471010 Offset: 0x146F610 VA: 0x181471010
 	public void .ctor(ObjRef o, int sourceDomain) { }
 
 }

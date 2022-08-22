@@ -4,7 +4,7 @@ public class DSASignatureFormatter : AsymmetricSignatureFormatter // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x1700230 Offset: 0x16FE830 VA: 0x181700230
+	// RVA: 0x16FDE20 Offset: 0x16FC420 VA: 0x1816FDE20
 	public void .ctor() { }
 
 }

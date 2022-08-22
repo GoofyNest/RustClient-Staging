@@ -12,37 +12,37 @@ public class SocketAddress // TypeDefIndex: 2895
 
 	// Methods
 
-	// RVA: 0x1001450 Offset: 0xFFFA50 VA: 0x181001450
+	// RVA: 0x1001EF0 Offset: 0x10004F0 VA: 0x181001EF0
 	public AddressFamily get_Family() { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public int get_Size() { }
 
-	// RVA: 0x10014B0 Offset: 0xFFFAB0 VA: 0x1810014B0
+	// RVA: 0x1001F50 Offset: 0x1000550 VA: 0x181001F50
 	public byte get_Item(int offset) { }
 
-	// RVA: 0x1000EF0 Offset: 0xFFF4F0 VA: 0x181000EF0
+	// RVA: 0x1001990 Offset: 0xFFFF90 VA: 0x181001990
 	public void .ctor(AddressFamily family, int size) { }
 
-	// RVA: 0x1001010 Offset: 0xFFF610 VA: 0x181001010
+	// RVA: 0x1001AB0 Offset: 0x10000B0 VA: 0x181001AB0
 	internal void .ctor(IPAddress ipAddress) { }
 
-	// RVA: 0x1000E70 Offset: 0xFFF470 VA: 0x181000E70
+	// RVA: 0x1001910 Offset: 0xFFFF10 VA: 0x181001910
 	internal void .ctor(IPAddress ipaddress, int port) { }
 
-	// RVA: 0x1000710 Offset: 0xFFED10 VA: 0x181000710
+	// RVA: 0x10011B0 Offset: 0xFFF7B0 VA: 0x1810011B0
 	internal IPAddress GetIPAddress() { }
 
-	// RVA: 0x10009A0 Offset: 0xFFEFA0 VA: 0x1810009A0
+	// RVA: 0x1001440 Offset: 0xFFFA40 VA: 0x181001440
 	internal IPEndPoint GetIPEndPoint() { }
 
-	// RVA: 0x1000470 Offset: 0xFFEA70 VA: 0x181000470 Slot: 0
+	// RVA: 0x1000F10 Offset: 0xFFF510 VA: 0x181000F10 Slot: 0
 	public override bool Equals(object comparand) { }
 
-	// RVA: 0x10005A0 Offset: 0xFFEBA0 VA: 0x1810005A0 Slot: 2
+	// RVA: 0x1001040 Offset: 0xFFF640 VA: 0x181001040 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1000A60 Offset: 0xFFF060 VA: 0x181000A60 Slot: 3
+	// RVA: 0x1001500 Offset: 0xFFFB00 VA: 0x181001500 Slot: 3
 	public override string ToString() { }
 
 }
@@ -57,28 +57,28 @@ public class SocketException : Win32Exception // TypeDefIndex: 3038
 
 	// Methods
 
-	// RVA: 0x1001AC0 Offset: 0x10000C0 VA: 0x181001AC0
+	// RVA: 0x1002560 Offset: 0x1000B60 VA: 0x181002560
 	private static int WSAGetLastError_internal() { }
 
-	// RVA: 0x1001C80 Offset: 0x1000280 VA: 0x181001C80
+	// RVA: 0x1002720 Offset: 0x1000D20 VA: 0x181002720
 	public void .ctor() { }
 
-	// RVA: 0x1001C10 Offset: 0x1000210 VA: 0x181001C10
+	// RVA: 0x10026B0 Offset: 0x1000CB0 VA: 0x1810026B0
 	internal void .ctor(int error, string message) { }
 
-	// RVA: 0x1001AD0 Offset: 0x10000D0 VA: 0x181001AD0
+	// RVA: 0x1002570 Offset: 0x1000B70 VA: 0x181002570
 	public void .ctor(int errorCode) { }
 
-	// RVA: 0x1001B30 Offset: 0x1000130 VA: 0x181001B30
+	// RVA: 0x10025D0 Offset: 0x1000BD0 VA: 0x1810025D0
 	internal void .ctor(SocketError socketError) { }
 
-	// RVA: 0x1001B90 Offset: 0x1000190 VA: 0x181001B90
+	// RVA: 0x1002630 Offset: 0x1000C30 VA: 0x181002630
 	protected void .ctor(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
-	// RVA: 0x1001CF0 Offset: 0x10002F0 VA: 0x181001CF0 Slot: 5
+	// RVA: 0x1002790 Offset: 0x1000D90 VA: 0x181002790 Slot: 5
 	public override string get_Message() { }
 
-	// RVA: 0x58AC70 Offset: 0x589270 VA: 0x18058AC70
+	// RVA: 0x58AC00 Offset: 0x589200 VA: 0x18058AC00
 	public SocketError get_SocketErrorCode() { }
 
 }
@@ -153,414 +153,414 @@ public class Socket : IDisposable // TypeDefIndex: 3047
 
 	// Methods
 
-	// RVA: 0x1009740 Offset: 0x1007D40 VA: 0x181009740
+	// RVA: 0x100A1E0 Offset: 0x10087E0 VA: 0x18100A1E0
 	public void .ctor(AddressFamily addressFamily, SocketType socketType, ProtocolType protocolType) { }
 
-	// RVA: 0x100A1E0 Offset: 0x10087E0 VA: 0x18100A1E0
+	// RVA: 0x100AC80 Offset: 0x1009280 VA: 0x18100AC80
 	public static bool get_SupportsIPv4() { }
 
-	// RVA: 0x100A000 Offset: 0x1008600 VA: 0x18100A000
+	// RVA: 0x100AAA0 Offset: 0x10090A0 VA: 0x18100AAA0
 	public static bool get_OSSupportsIPv4() { }
 
-	// RVA: 0x100A250 Offset: 0x1008850 VA: 0x18100A250
+	// RVA: 0x100ACF0 Offset: 0x10092F0 VA: 0x18100ACF0
 	public static bool get_SupportsIPv6() { }
 
-	// RVA: 0x100A070 Offset: 0x1008670 VA: 0x18100A070
+	// RVA: 0x100AB10 Offset: 0x1009110 VA: 0x18100AB10
 	public static bool get_OSSupportsIPv6() { }
 
-	// RVA: 0x962BC0 Offset: 0x9611C0 VA: 0x180962BC0
+	// RVA: 0x9630C0 Offset: 0x9616C0 VA: 0x1809630C0
 	public IntPtr get_Handle() { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public AddressFamily get_AddressFamily() { }
 
-	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
+	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0
 	public SocketType get_SocketType() { }
 
-	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
+	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760
 	public ProtocolType get_ProtocolType() { }
 
-	// RVA: 0x100A4C0 Offset: 0x1008AC0 VA: 0x18100A4C0
+	// RVA: 0x100AF60 Offset: 0x1009560 VA: 0x18100AF60
 	public void set_ExclusiveAddressUse(bool value) { }
 
-	// RVA: 0x100A5F0 Offset: 0x1008BF0 VA: 0x18100A5F0
+	// RVA: 0x100B090 Offset: 0x1009690 VA: 0x18100B090
 	public void set_ReceiveTimeout(int value) { }
 
-	// RVA: 0x100A690 Offset: 0x1008C90 VA: 0x18100A690
+	// RVA: 0x100B130 Offset: 0x1009730 VA: 0x18100B130
 	public void set_SendTimeout(int value) { }
 
-	// RVA: 0x100A380 Offset: 0x1008980 VA: 0x18100A380
+	// RVA: 0x100AE20 Offset: 0x1009420 VA: 0x18100AE20
 	public void set_DontFragment(bool value) { }
 
-	// RVA: 0x1009B20 Offset: 0x1008120 VA: 0x181009B20
+	// RVA: 0x100A5C0 Offset: 0x1008BC0 VA: 0x18100A5C0
 	public bool get_DualMode() { }
 
-	// RVA: 0x100A420 Offset: 0x1008A20 VA: 0x18100A420
+	// RVA: 0x100AEC0 Offset: 0x10094C0 VA: 0x18100AEC0
 	public void set_DualMode(bool value) { }
 
-	// RVA: 0x1009E40 Offset: 0x1008440 VA: 0x181009E40
+	// RVA: 0x100A8E0 Offset: 0x1008EE0 VA: 0x18100A8E0
 	private bool get_IsDualMode() { }
 
-	// RVA: 0x1007DC0 Offset: 0x10063C0 VA: 0x181007DC0
+	// RVA: 0x1008860 Offset: 0x1006E60 VA: 0x181008860
 	public int Send(byte[] buffer, int size, SocketFlags socketFlags) { }
 
-	// RVA: 0x1007D20 Offset: 0x1006320 VA: 0x181007D20
+	// RVA: 0x10087C0 Offset: 0x1006DC0 VA: 0x1810087C0
 	public int Send(IList<ArraySegment<byte>> buffers, SocketFlags socketFlags) { }
 
-	// RVA: 0x1007FA0 Offset: 0x10065A0 VA: 0x181007FA0
+	// RVA: 0x1008A40 Offset: 0x1007040 VA: 0x181008A40
 	public int Send(byte[] buffer, int offset, int size, SocketFlags socketFlags) { }
 
-	// RVA: 0x1007360 Offset: 0x1005960 VA: 0x181007360
+	// RVA: 0x1007E00 Offset: 0x1006400 VA: 0x181007E00
 	public int Receive(byte[] buffer) { }
 
-	// RVA: 0x10073A0 Offset: 0x10059A0 VA: 0x1810073A0
+	// RVA: 0x1007E40 Offset: 0x1006440 VA: 0x181007E40
 	public int Receive(byte[] buffer, int offset, int size, SocketFlags socketFlags) { }
 
-	// RVA: 0x1006C90 Offset: 0x1005290 VA: 0x181006C90
+	// RVA: 0x1007730 Offset: 0x1005D30 VA: 0x181007730
 	public int Receive(IList<ArraySegment<byte>> buffers, SocketFlags socketFlags) { }
 
-	// RVA: 0x1005660 Offset: 0x1003C60 VA: 0x181005660
+	// RVA: 0x1006100 Offset: 0x1004700 VA: 0x181006100
 	public int IOControl(IOControlCode ioControlCode, byte[] optionInValue, byte[] optionOutValue) { }
 
-	// RVA: 0x1008680 Offset: 0x1006C80 VA: 0x181008680
+	// RVA: 0x1009120 Offset: 0x1007720 VA: 0x181009120
 	public void SetIPProtectionLevel(IPProtectionLevel level) { }
 
-	// RVA: 0x1003770 Offset: 0x1001D70 VA: 0x181003770
+	// RVA: 0x1004210 Offset: 0x1002810 VA: 0x181004210
 	public IAsyncResult BeginSend(byte[] buffer, int offset, int size, SocketFlags socketFlags, AsyncCallback callback, object state) { }
 
-	// RVA: 0x10050A0 Offset: 0x10036A0 VA: 0x1810050A0
+	// RVA: 0x1005B40 Offset: 0x1004140 VA: 0x181005B40
 	public int EndSend(IAsyncResult asyncResult) { }
 
-	// RVA: 0x10029B0 Offset: 0x1000FB0 VA: 0x1810029B0
+	// RVA: 0x1003450 Offset: 0x1001A50 VA: 0x181003450
 	public IAsyncResult BeginReceive(byte[] buffer, int offset, int size, SocketFlags socketFlags, AsyncCallback callback, object state) { }
 
-	// RVA: 0x1004DF0 Offset: 0x10033F0 VA: 0x181004DF0
+	// RVA: 0x1005890 Offset: 0x1003E90 VA: 0x181005890
 	public int EndReceive(IAsyncResult asyncResult) { }
 
-	// RVA: 0x1009D40 Offset: 0x1008340 VA: 0x181009D40
+	// RVA: 0x100A7E0 Offset: 0x1008DE0 VA: 0x18100A7E0
 	private static object get_InternalSyncObject() { }
 
-	// RVA: 0x1009B10 Offset: 0x1008110 VA: 0x181009B10
+	// RVA: 0x100A5B0 Offset: 0x1008BB0 VA: 0x18100A5B0
 	internal bool get_CleanedUp() { }
 
-	// RVA: 0x1005940 Offset: 0x1003F40 VA: 0x181005940
+	// RVA: 0x10063E0 Offset: 0x10049E0 VA: 0x1810063E0
 	internal static void InitializeSockets() { }
 
-	// RVA: 0x1004890 Offset: 0x1002E90 VA: 0x181004890 Slot: 4
+	// RVA: 0x1005330 Offset: 0x1003930 VA: 0x181005330 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x9E4810 Offset: 0x9E2E10 VA: 0x1809E4810 Slot: 1
+	// RVA: 0x9E4D00 Offset: 0x9E3300 VA: 0x1809E4D00 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1005D50 Offset: 0x1004350 VA: 0x181005D50
+	// RVA: 0x10067F0 Offset: 0x1004DF0 VA: 0x1810067F0
 	internal void InternalShutdown(SocketShutdown how) { }
 
-	// RVA: 0x1009630 Offset: 0x1007C30 VA: 0x181009630
+	// RVA: 0x100A0D0 Offset: 0x10086D0 VA: 0x18100A0D0
 	internal void .ctor(AddressFamily family, SocketType type, ProtocolType proto, SafeSocketHandle safe_handle) { }
 
-	// RVA: 0x1008B50 Offset: 0x1007150 VA: 0x181008B50
+	// RVA: 0x10095F0 Offset: 0x1007BF0 VA: 0x1810095F0
 	private void SocketDefaults() { }
 
-	// RVA: 0x1008D20 Offset: 0x1007320 VA: 0x181008D20
+	// RVA: 0x10097C0 Offset: 0x1007DC0 VA: 0x1810097C0
 	private IntPtr Socket_internal(AddressFamily family, SocketType type, ProtocolType proto, out int error) { }
 
-	// RVA: 0x1009A60 Offset: 0x1008060 VA: 0x181009A60
+	// RVA: 0x100A500 Offset: 0x1008B00 VA: 0x18100A500
 	public int get_Available() { }
 
-	// RVA: 0x1002160 Offset: 0x1000760 VA: 0x181002160
+	// RVA: 0x1002C00 Offset: 0x1001200 VA: 0x181002C00
 	private static int Available_internal(SafeSocketHandle safeHandle, out int error) { }
 
-	// RVA: 0x1002280 Offset: 0x1000880 VA: 0x181002280
+	// RVA: 0x1002D20 Offset: 0x1001320 VA: 0x181002D20
 	private static int Available_internal(IntPtr socket, out int error) { }
 
-	// RVA: 0xBA1D60 Offset: 0xBA0360 VA: 0x180BA1D60
+	// RVA: 0xBA2230 Offset: 0xBA0830 VA: 0x180BA2230
 	public bool get_IsBound() { }
 
-	// RVA: 0x1009F10 Offset: 0x1008510 VA: 0x181009F10
+	// RVA: 0x100A9B0 Offset: 0x1008FB0 VA: 0x18100A9B0
 	public EndPoint get_LocalEndPoint() { }
 
-	// RVA: 0x10061C0 Offset: 0x10047C0 VA: 0x1810061C0
+	// RVA: 0x1006C60 Offset: 0x1005260 VA: 0x181006C60
 	private static SocketAddress LocalEndPoint_internal(SafeSocketHandle safeHandle, int family, out int error) { }
 
-	// RVA: 0x10062F0 Offset: 0x10048F0 VA: 0x1810062F0
+	// RVA: 0x1006D90 Offset: 0x1005390 VA: 0x181006D90
 	private static SocketAddress LocalEndPoint_internal(IntPtr socket, int family, out int error) { }
 
-	// RVA: 0x4BC3E0 Offset: 0x4BA9E0 VA: 0x1804BC3E0
+	// RVA: 0x4BC370 Offset: 0x4BA970 VA: 0x1804BC370
 	public bool get_Blocking() { }
 
-	// RVA: 0x100A2C0 Offset: 0x10088C0 VA: 0x18100A2C0
+	// RVA: 0x100AD60 Offset: 0x1009360 VA: 0x18100AD60
 	public void set_Blocking(bool value) { }
 
-	// RVA: 0x1003D90 Offset: 0x1002390 VA: 0x181003D90
+	// RVA: 0x1004830 Offset: 0x1002E30 VA: 0x181004830
 	private static void Blocking_internal(SafeSocketHandle safeHandle, bool block, out int error) { }
 
-	// RVA: 0x1003EB0 Offset: 0x10024B0 VA: 0x181003EB0
+	// RVA: 0x1004950 Offset: 0x1002F50 VA: 0x181004950
 	internal static void Blocking_internal(IntPtr socket, bool block, out int error) { }
 
-	// RVA: 0xBA1D50 Offset: 0xBA0350 VA: 0x180BA1D50
+	// RVA: 0xBA2220 Offset: 0xBA0820 VA: 0x180BA2220
 	public bool get_Connected() { }
 
-	// RVA: 0x100A560 Offset: 0x1008B60 VA: 0x18100A560
+	// RVA: 0x100B000 Offset: 0x1009600 VA: 0x18100B000
 	public void set_NoDelay(bool value) { }
 
-	// RVA: 0x100A0E0 Offset: 0x10086E0 VA: 0x18100A0E0
+	// RVA: 0x100AB80 Offset: 0x1009180 VA: 0x18100AB80
 	public EndPoint get_RemoteEndPoint() { }
 
-	// RVA: 0x10075E0 Offset: 0x1005BE0 VA: 0x1810075E0
+	// RVA: 0x1008080 Offset: 0x1006680 VA: 0x181008080
 	private static SocketAddress RemoteEndPoint_internal(SafeSocketHandle safeHandle, int family, out int error) { }
 
-	// RVA: 0x10075D0 Offset: 0x1005BD0 VA: 0x1810075D0
+	// RVA: 0x1008070 Offset: 0x1006670 VA: 0x181008070
 	private static SocketAddress RemoteEndPoint_internal(IntPtr socket, int family, out int error) { }
 
-	// RVA: 0x1006450 Offset: 0x1004A50 VA: 0x181006450
+	// RVA: 0x1006EF0 Offset: 0x10054F0 VA: 0x181006EF0
 	public bool Poll(int microSeconds, SelectMode mode) { }
 
-	// RVA: 0x1006310 Offset: 0x1004910 VA: 0x181006310
+	// RVA: 0x1006DB0 Offset: 0x10053B0 VA: 0x181006DB0
 	private static bool Poll_internal(SafeSocketHandle safeHandle, SelectMode mode, int timeout, out int error) { }
 
-	// RVA: 0x1006300 Offset: 0x1004900 VA: 0x181006300
+	// RVA: 0x1006DA0 Offset: 0x10053A0 VA: 0x181006DA0
 	private static bool Poll_internal(IntPtr socket, SelectMode mode, int timeout, out int error) { }
 
-	// RVA: 0x1002010 Offset: 0x1000610 VA: 0x181002010
+	// RVA: 0x1002AB0 Offset: 0x10010B0 VA: 0x181002AB0
 	public Socket Accept() { }
 
-	// RVA: 0x1001ED0 Offset: 0x10004D0 VA: 0x181001ED0
+	// RVA: 0x1002970 Offset: 0x1000F70 VA: 0x181002970
 	internal void Accept(Socket acceptSocket) { }
 
-	// RVA: 0x1002290 Offset: 0x1000890 VA: 0x181002290
+	// RVA: 0x1002D30 Offset: 0x1001330 VA: 0x181002D30
 	public IAsyncResult BeginAccept(AsyncCallback callback, object state) { }
 
-	// RVA: 0x10049E0 Offset: 0x1002FE0 VA: 0x1810049E0
+	// RVA: 0x1005480 Offset: 0x1003A80 VA: 0x181005480
 	public Socket EndAccept(IAsyncResult asyncResult) { }
 
-	// RVA: 0x1004900 Offset: 0x1002F00 VA: 0x181004900
+	// RVA: 0x10053A0 Offset: 0x10039A0 VA: 0x1810053A0
 	public Socket EndAccept(out byte[] buffer, out int bytesTransferred, IAsyncResult asyncResult) { }
 
-	// RVA: 0x1001D90 Offset: 0x1000390 VA: 0x181001D90
+	// RVA: 0x1002830 Offset: 0x1000E30 VA: 0x181002830
 	private static SafeSocketHandle Accept_internal(SafeSocketHandle safeHandle, out int error, bool blocking) { }
 
-	// RVA: 0x1001D80 Offset: 0x1000380 VA: 0x181001D80
+	// RVA: 0x1002820 Offset: 0x1000E20 VA: 0x181002820
 	private static IntPtr Accept_internal(IntPtr sock, out int error, bool blocking) { }
 
-	// RVA: 0x1003C10 Offset: 0x1002210 VA: 0x181003C10
+	// RVA: 0x10046B0 Offset: 0x1002CB0 VA: 0x1810046B0
 	public void Bind(EndPoint localEP) { }
 
-	// RVA: 0x1003AE0 Offset: 0x10020E0 VA: 0x181003AE0
+	// RVA: 0x1004580 Offset: 0x1002B80 VA: 0x181004580
 	private static void Bind_internal(SafeSocketHandle safeHandle, SocketAddress sa, out int error) { }
 
-	// RVA: 0x1003C00 Offset: 0x1002200 VA: 0x181003C00
+	// RVA: 0x10046A0 Offset: 0x1002CA0 VA: 0x1810046A0
 	private static void Bind_internal(IntPtr sock, SocketAddress sa, out int error) { }
 
-	// RVA: 0x10060C0 Offset: 0x10046C0 VA: 0x1810060C0
+	// RVA: 0x1006B60 Offset: 0x1005160 VA: 0x181006B60
 	public void Listen(int backlog) { }
 
-	// RVA: 0x1005FA0 Offset: 0x10045A0 VA: 0x181005FA0
+	// RVA: 0x1006A40 Offset: 0x1005040 VA: 0x181006A40
 	private static void Listen_internal(SafeSocketHandle safeHandle, int backlog, out int error) { }
 
-	// RVA: 0x1005F90 Offset: 0x1004590 VA: 0x181005F90
+	// RVA: 0x1006A30 Offset: 0x1005030 VA: 0x181006A30
 	private static void Listen_internal(IntPtr sock, int backlog, out int error) { }
 
-	// RVA: 0x10040E0 Offset: 0x10026E0 VA: 0x1810040E0
+	// RVA: 0x1004B80 Offset: 0x1003180 VA: 0x181004B80
 	public void Connect(EndPoint remoteEP) { }
 
-	// RVA: 0x1002420 Offset: 0x1000A20 VA: 0x181002420
+	// RVA: 0x1002EC0 Offset: 0x10014C0 VA: 0x181002EC0
 	private static void BeginMConnect(SocketAsyncResult sockares) { }
 
-	// RVA: 0x1002BC0 Offset: 0x10011C0 VA: 0x181002BC0
+	// RVA: 0x1003660 Offset: 0x1001C60 VA: 0x181003660
 	private static void BeginSConnect(SocketAsyncResult sockares) { }
 
-	// RVA: 0x1004AA0 Offset: 0x10030A0 VA: 0x181004AA0
+	// RVA: 0x1005540 Offset: 0x1003B40 VA: 0x181005540
 	public void EndConnect(IAsyncResult asyncResult) { }
 
-	// RVA: 0x1003FC0 Offset: 0x10025C0 VA: 0x181003FC0
+	// RVA: 0x1004A60 Offset: 0x1003060 VA: 0x181004A60
 	private static void Connect_internal(SafeSocketHandle safeHandle, SocketAddress sa, out int error, bool blocking) { }
 
-	// RVA: 0x1003FB0 Offset: 0x10025B0 VA: 0x181003FB0
+	// RVA: 0x1004A50 Offset: 0x1003050 VA: 0x181004A50
 	private static void Connect_internal(IntPtr sock, SocketAddress sa, out int error, bool blocking) { }
 
-	// RVA: 0x10045E0 Offset: 0x1002BE0 VA: 0x1810045E0
+	// RVA: 0x1005080 Offset: 0x1003680 VA: 0x181005080
 	public void Disconnect(bool reuseSocket) { }
 
-	// RVA: 0x1004B50 Offset: 0x1003150 VA: 0x181004B50
+	// RVA: 0x10055F0 Offset: 0x1003BF0 VA: 0x1810055F0
 	public void EndDisconnect(IAsyncResult asyncResult) { }
 
-	// RVA: 0x10044B0 Offset: 0x1002AB0 VA: 0x1810044B0
+	// RVA: 0x1004F50 Offset: 0x1003550 VA: 0x181004F50
 	private static void Disconnect_internal(SafeSocketHandle safeHandle, bool reuse, out int error) { }
 
-	// RVA: 0x10045D0 Offset: 0x1002BD0 VA: 0x1810045D0
+	// RVA: 0x1005070 Offset: 0x1003670 VA: 0x181005070
 	private static void Disconnect_internal(IntPtr sock, bool reuse, out int error) { }
 
-	// RVA: 0x10071F0 Offset: 0x10057F0 VA: 0x1810071F0
+	// RVA: 0x1007C90 Offset: 0x1006290 VA: 0x181007C90
 	public int Receive(byte[] buffer, int offset, int size, SocketFlags socketFlags, out SocketError errorCode) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1006D30 Offset: 0x1005330 VA: 0x181006D30
+	// RVA: 0x10077D0 Offset: 0x1005DD0 VA: 0x1810077D0
 	public int Receive(IList<ArraySegment<byte>> buffers, SocketFlags socketFlags, out SocketError errorCode) { }
 
-	// RVA: 0x10027B0 Offset: 0x1000DB0 VA: 0x1810027B0
+	// RVA: 0x1003250 Offset: 0x1001850 VA: 0x181003250
 	public IAsyncResult BeginReceive(byte[] buffer, int offset, int size, SocketFlags socketFlags, out SocketError errorCode, AsyncCallback callback, object state) { }
 
-	// RVA: 0x1004D10 Offset: 0x1003310 VA: 0x181004D10
+	// RVA: 0x10057B0 Offset: 0x1003DB0 VA: 0x1810057B0
 	public int EndReceive(IAsyncResult asyncResult, out SocketError errorCode) { }
 
-	// RVA: 0x1006B30 Offset: 0x1005130 VA: 0x181006B30
+	// RVA: 0x10075D0 Offset: 0x1005BD0 VA: 0x1810075D0
 	private static int Receive_internal(SafeSocketHandle safeHandle, Socket.WSABUF* bufarray, int count, SocketFlags flags, out int error, bool blocking) { }
 
-	// RVA: 0x1006C70 Offset: 0x1005270 VA: 0x181006C70
+	// RVA: 0x1007710 Offset: 0x1005D10 VA: 0x181007710
 	private static int Receive_internal(IntPtr sock, Socket.WSABUF* bufarray, int count, SocketFlags flags, out int error, bool blocking) { }
 
-	// RVA: 0x10069F0 Offset: 0x1004FF0 VA: 0x1810069F0
+	// RVA: 0x1007490 Offset: 0x1005A90 VA: 0x181007490
 	private static int Receive_internal(SafeSocketHandle safeHandle, byte* buffer, int count, SocketFlags flags, out int error, bool blocking) { }
 
-	// RVA: 0x1006C80 Offset: 0x1005280 VA: 0x181006C80
+	// RVA: 0x1007720 Offset: 0x1005D20 VA: 0x181007720
 	private static int Receive_internal(IntPtr sock, byte* buffer, int count, SocketFlags flags, out int error, bool blocking) { }
 
-	// RVA: 0x1006850 Offset: 0x1004E50 VA: 0x181006850
+	// RVA: 0x10072F0 Offset: 0x10058F0 VA: 0x1810072F0
 	internal int ReceiveFrom(byte[] buffer, int offset, int size, SocketFlags socketFlags, ref EndPoint remoteEP, out SocketError errorCode) { }
 
-	// RVA: 0x1002560 Offset: 0x1000B60 VA: 0x181002560
+	// RVA: 0x1003000 Offset: 0x1001600 VA: 0x181003000
 	public IAsyncResult BeginReceiveFrom(byte[] buffer, int offset, int size, SocketFlags socketFlags, ref EndPoint remoteEP, AsyncCallback callback, object state) { }
 
-	// RVA: 0x1004C00 Offset: 0x1003200 VA: 0x181004C00
+	// RVA: 0x10056A0 Offset: 0x1003CA0 VA: 0x1810056A0
 	public int EndReceiveFrom(IAsyncResult asyncResult, ref EndPoint endPoint) { }
 
-	// RVA: 0x1006700 Offset: 0x1004D00 VA: 0x181006700
+	// RVA: 0x10071A0 Offset: 0x10057A0 VA: 0x1810071A0
 	private static int ReceiveFrom_internal(SafeSocketHandle safeHandle, byte* buffer, int count, SocketFlags flags, ref SocketAddress sockaddr, out int error, bool blocking) { }
 
-	// RVA: 0x10066F0 Offset: 0x1004CF0 VA: 0x1810066F0
+	// RVA: 0x1007190 Offset: 0x1005790 VA: 0x181007190
 	private static int ReceiveFrom_internal(IntPtr sock, byte* buffer, int count, SocketFlags flags, ref SocketAddress sockaddr, out int error, bool blocking) { }
 
-	// RVA: 0x1007DF0 Offset: 0x10063F0 VA: 0x181007DF0
+	// RVA: 0x1008890 Offset: 0x1006E90 VA: 0x181008890
 	public int Send(byte[] buffer, int offset, int size, SocketFlags socketFlags, out SocketError errorCode) { }
 
 	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
-	// RVA: 0x1008190 Offset: 0x1006790 VA: 0x181008190
+	// RVA: 0x1008C30 Offset: 0x1007230 VA: 0x181008C30
 	public int Send(IList<ArraySegment<byte>> buffers, SocketFlags socketFlags, out SocketError errorCode) { }
 
-	// RVA: 0x1003850 Offset: 0x1001E50 VA: 0x181003850
+	// RVA: 0x10042F0 Offset: 0x10028F0 VA: 0x1810042F0
 	public IAsyncResult BeginSend(byte[] buffer, int offset, int size, SocketFlags socketFlags, out SocketError errorCode, AsyncCallback callback, object state) { }
 
-	// RVA: 0x10030F0 Offset: 0x10016F0 VA: 0x1810030F0
+	// RVA: 0x1003B90 Offset: 0x1002190 VA: 0x181003B90
 	private static void BeginSendCallback(SocketAsyncResult sockares, int sent_so_far) { }
 
-	// RVA: 0x1004FC0 Offset: 0x10035C0 VA: 0x181004FC0
+	// RVA: 0x1005A60 Offset: 0x1004060 VA: 0x181005A60
 	public int EndSend(IAsyncResult asyncResult, out SocketError errorCode) { }
 
-	// RVA: 0x1007BC0 Offset: 0x10061C0 VA: 0x181007BC0
+	// RVA: 0x1008660 Offset: 0x1006C60 VA: 0x181008660
 	private static int Send_internal(SafeSocketHandle safeHandle, Socket.WSABUF* bufarray, int count, SocketFlags flags, out int error, bool blocking) { }
 
-	// RVA: 0x1007D10 Offset: 0x1006310 VA: 0x181007D10
+	// RVA: 0x10087B0 Offset: 0x1006DB0 VA: 0x1810087B0
 	private static int Send_internal(IntPtr sock, Socket.WSABUF* bufarray, int count, SocketFlags flags, out int error, bool blocking) { }
 
-	// RVA: 0x1007A80 Offset: 0x1006080 VA: 0x181007A80
+	// RVA: 0x1008520 Offset: 0x1006B20 VA: 0x181008520
 	private static int Send_internal(SafeSocketHandle safeHandle, byte* buffer, int count, SocketFlags flags, out int error, bool blocking) { }
 
-	// RVA: 0x1007D00 Offset: 0x1006300 VA: 0x181007D00
+	// RVA: 0x10087A0 Offset: 0x1006DA0 VA: 0x1810087A0
 	private static int Send_internal(IntPtr sock, byte* buffer, int count, SocketFlags flags, out int error, bool blocking) { }
 
-	// RVA: 0x1007870 Offset: 0x1005E70 VA: 0x181007870
+	// RVA: 0x1008310 Offset: 0x1006910 VA: 0x181008310
 	public int SendTo(byte[] buffer, int offset, int size, SocketFlags socketFlags, EndPoint remoteEP) { }
 
-	// RVA: 0x1003500 Offset: 0x1001B00 VA: 0x181003500
+	// RVA: 0x1003FA0 Offset: 0x10025A0 VA: 0x181003FA0
 	public IAsyncResult BeginSendTo(byte[] buffer, int offset, int size, SocketFlags socketFlags, EndPoint remoteEP, AsyncCallback callback, object state) { }
 
-	// RVA: 0x1003340 Offset: 0x1001940 VA: 0x181003340
+	// RVA: 0x1003DE0 Offset: 0x10023E0 VA: 0x181003DE0
 	private static void BeginSendToCallback(SocketAsyncResult sockares, int sent_so_far) { }
 
-	// RVA: 0x1004F10 Offset: 0x1003510 VA: 0x181004F10
+	// RVA: 0x10059B0 Offset: 0x1003FB0 VA: 0x1810059B0
 	public int EndSendTo(IAsyncResult asyncResult) { }
 
-	// RVA: 0x1007710 Offset: 0x1005D10 VA: 0x181007710
+	// RVA: 0x10081B0 Offset: 0x10067B0 VA: 0x1810081B0
 	private static int SendTo_internal(SafeSocketHandle safeHandle, byte* buffer, int count, SocketFlags flags, SocketAddress sa, out int error, bool blocking) { }
 
-	// RVA: 0x1007860 Offset: 0x1005E60 VA: 0x181007860
+	// RVA: 0x1008300 Offset: 0x1006900 VA: 0x181008300
 	private static int SendTo_internal(IntPtr sock, byte* buffer, int count, SocketFlags flags, SocketAddress sa, out int error, bool blocking) { }
 
-	// RVA: 0x10051C0 Offset: 0x10037C0 VA: 0x1810051C0
+	// RVA: 0x1005C60 Offset: 0x1004260 VA: 0x181005C60
 	public object GetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName) { }
 
-	// RVA: 0x10053C0 Offset: 0x10039C0 VA: 0x1810053C0
+	// RVA: 0x1005E60 Offset: 0x1004460 VA: 0x181005E60
 	private static void GetSocketOption_obj_internal(SafeSocketHandle safeHandle, SocketOptionLevel level, SocketOptionName name, out object obj_val, out int error) { }
 
-	// RVA: 0x10053B0 Offset: 0x10039B0 VA: 0x1810053B0
+	// RVA: 0x1005E50 Offset: 0x1004450 VA: 0x181005E50
 	private static void GetSocketOption_obj_internal(IntPtr socket, SocketOptionLevel level, SocketOptionName name, out object obj_val, out int error) { }
 
-	// RVA: 0x10088E0 Offset: 0x1006EE0 VA: 0x1810088E0
+	// RVA: 0x1009380 Offset: 0x1007980 VA: 0x181009380
 	public void SetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName, bool optionValue) { }
 
-	// RVA: 0x1008900 Offset: 0x1006F00 VA: 0x181008900
+	// RVA: 0x10093A0 Offset: 0x10079A0 VA: 0x1810093A0
 	public void SetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName, int optionValue) { }
 
-	// RVA: 0x1008780 Offset: 0x1006D80 VA: 0x181008780
+	// RVA: 0x1009220 Offset: 0x1007820 VA: 0x181009220
 	private static void SetSocketOption_internal(SafeSocketHandle safeHandle, SocketOptionLevel level, SocketOptionName name, object obj_val, byte[] byte_val, int int_val, out int error) { }
 
-	// RVA: 0x10088D0 Offset: 0x1006ED0 VA: 0x1810088D0
+	// RVA: 0x1009370 Offset: 0x1007970 VA: 0x181009370
 	private static void SetSocketOption_internal(IntPtr socket, SocketOptionLevel level, SocketOptionName name, object obj_val, byte[] byte_val, int int_val, out int error) { }
 
-	// RVA: 0x10057D0 Offset: 0x1003DD0 VA: 0x1810057D0
+	// RVA: 0x1006270 Offset: 0x1004870 VA: 0x181006270
 	public int IOControl(int ioControlCode, byte[] optionInValue, byte[] optionOutValue) { }
 
-	// RVA: 0x1005500 Offset: 0x1003B00 VA: 0x181005500
+	// RVA: 0x1005FA0 Offset: 0x10045A0 VA: 0x181005FA0
 	private static int IOControl_internal(SafeSocketHandle safeHandle, int ioctl_code, byte[] input, byte[] output, out int error) { }
 
-	// RVA: 0x1005650 Offset: 0x1003C50 VA: 0x181005650
+	// RVA: 0x10060F0 Offset: 0x10046F0 VA: 0x1810060F0
 	private static int IOControl_internal(IntPtr sock, int ioctl_code, byte[] input, byte[] output, out int error) { }
 
-	// RVA: 0x1003F40 Offset: 0x1002540 VA: 0x181003F40
+	// RVA: 0x10049E0 Offset: 0x1002FE0 VA: 0x1810049E0
 	public void Close() { }
 
-	// RVA: 0x1003ED0 Offset: 0x10024D0 VA: 0x181003ED0
+	// RVA: 0x1004970 Offset: 0x1002F70 VA: 0x181004970
 	public void Close(int timeout) { }
 
-	// RVA: 0x1003EC0 Offset: 0x10024C0 VA: 0x181003EC0
+	// RVA: 0x1004960 Offset: 0x1002F60 VA: 0x181004960
 	internal static void Close_internal(IntPtr socket, out int error) { }
 
-	// RVA: 0x1008A20 Offset: 0x1007020 VA: 0x181008A20
+	// RVA: 0x10094C0 Offset: 0x1007AC0 VA: 0x1810094C0
 	private static void Shutdown_internal(SafeSocketHandle safeHandle, SocketShutdown how, out int error) { }
 
-	// RVA: 0x1008B40 Offset: 0x1007140 VA: 0x181008B40
+	// RVA: 0x10095E0 Offset: 0x1007BE0 VA: 0x1810095E0
 	internal static void Shutdown_internal(IntPtr socket, SocketShutdown how, out int error) { }
 
-	// RVA: 0x10046D0 Offset: 0x1002CD0 VA: 0x1810046D0 Slot: 5
+	// RVA: 0x1005170 Offset: 0x1003770 VA: 0x181005170 Slot: 5
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x1005E20 Offset: 0x1004420 VA: 0x181005E20
+	// RVA: 0x10068C0 Offset: 0x1004EC0 VA: 0x1810068C0
 	private void Linger(IntPtr handle) { }
 
-	// RVA: 0x1008EE0 Offset: 0x10074E0 VA: 0x181008EE0
+	// RVA: 0x1009980 Offset: 0x1007F80 VA: 0x181009980
 	private void ThrowIfDisposedAndClosed() { }
 
-	// RVA: 0x1008D30 Offset: 0x1007330 VA: 0x181008D30
+	// RVA: 0x10097D0 Offset: 0x1007DD0 VA: 0x1810097D0
 	private void ThrowIfBufferNull(byte[] buffer) { }
 
-	// RVA: 0x1008D90 Offset: 0x1007390 VA: 0x181008D90
+	// RVA: 0x1009830 Offset: 0x1007E30 VA: 0x181009830
 	private void ThrowIfBufferOutOfRange(byte[] buffer, int offset, int size) { }
 
-	// RVA: 0x1008F80 Offset: 0x1007580 VA: 0x181008F80
+	// RVA: 0x1009A20 Offset: 0x1008020 VA: 0x181009A20
 	private void ThrowIfUdp() { }
 
-	// RVA: 0x1008FE0 Offset: 0x10075E0 VA: 0x181008FE0
+	// RVA: 0x1009A80 Offset: 0x1008080 VA: 0x181009A80
 	private SocketAsyncResult ValidateEndIAsyncResult(IAsyncResult ares, string methodName, string argName) { }
 
-	// RVA: 0x10065C0 Offset: 0x1004BC0 VA: 0x1810065C0
+	// RVA: 0x1007060 Offset: 0x1005660 VA: 0x181007060
 	private void QueueIOSelectorJob(SemaphoreSlim sem, IntPtr handle, IOSelectorJob job) { }
 
-	// RVA: 0x1007460 Offset: 0x1005A60 VA: 0x181007460
+	// RVA: 0x1007F00 Offset: 0x1006500 VA: 0x181007F00
 	private IPEndPoint RemapIPEndPoint(IPEndPoint input) { }
 
-	// RVA: 0x1009A50 Offset: 0x1008050 VA: 0x181009A50
+	// RVA: 0x100A4F0 Offset: 0x1008AF0 VA: 0x18100A4F0
 	internal static void cancel_blocking_socket_operation(Thread thread) { }
 
-	// RVA: 0x1009BE0 Offset: 0x10081E0 VA: 0x181009BE0
+	// RVA: 0x100A680 Offset: 0x1008C80 VA: 0x18100A680
 	internal static int get_FamilyHint() { }
 
-	// RVA: 0xFE7960 Offset: 0xFE5F60 VA: 0x180FE7960
+	// RVA: 0xFE8400 Offset: 0xFE6A00 VA: 0x180FE8400
 	private static bool IsProtocolSupported_internal(NetworkInterfaceComponent networkInterface) { }
 
-	// RVA: 0x1005DD0 Offset: 0x10043D0 VA: 0x181005DD0
+	// RVA: 0x1006870 Offset: 0x1004E70 VA: 0x181006870
 	private static bool IsProtocolSupported(NetworkInterfaceComponent networkInterface) { }
 
-	// RVA: 0x1009110 Offset: 0x1007710 VA: 0x181009110
+	// RVA: 0x1009BB0 Offset: 0x10081B0 VA: 0x181009BB0
 	private static void .cctor() { }
 
 }
@@ -580,61 +580,61 @@ private sealed class Socket.<>c // TypeDefIndex: 3049
 
 	// Methods
 
-	// RVA: 0x100ECC0 Offset: 0x100D2C0 VA: 0x18100ECC0
+	// RVA: 0x100F760 Offset: 0x100DD60 VA: 0x18100F760
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x100CA10 Offset: 0x100B010 VA: 0x18100CA10
+	// RVA: 0x100D4B0 Offset: 0x100BAB0 VA: 0x18100D4B0
 	internal void <BeginSend>b__241_0(IOAsyncResult s) { }
 
-	// RVA: 0x100C990 Offset: 0x100AF90 VA: 0x18100C990
+	// RVA: 0x100D430 Offset: 0x100BA30 VA: 0x18100D430
 	internal void <BeginSendTo>b__253_0(IOAsyncResult s) { }
 
-	// RVA: 0x100CB00 Offset: 0x100B100 VA: 0x18100CB00
+	// RVA: 0x100D5A0 Offset: 0x100BBA0 VA: 0x18100D5A0
 	internal void <.cctor>b__309_0(IAsyncResult ares) { }
 
-	// RVA: 0x100D860 Offset: 0x100BE60 VA: 0x18100D860
+	// RVA: 0x100E300 Offset: 0x100C900 VA: 0x18100E300
 	internal void <.cctor>b__309_1(IOAsyncResult ares) { }
 
-	// RVA: 0x100D950 Offset: 0x100BF50 VA: 0x18100D950
+	// RVA: 0x100E3F0 Offset: 0x100C9F0 VA: 0x18100E3F0
 	internal void <.cctor>b__309_2(IOAsyncResult ares) { }
 
-	// RVA: 0x100DAF0 Offset: 0x100C0F0 VA: 0x18100DAF0
+	// RVA: 0x100E590 Offset: 0x100CB90 VA: 0x18100E590
 	internal void <.cctor>b__309_3(IAsyncResult ares) { }
 
-	// RVA: 0x100DD80 Offset: 0x100C380 VA: 0x18100DD80
+	// RVA: 0x100E820 Offset: 0x100CE20 VA: 0x18100E820
 	internal void <.cctor>b__309_4(IOAsyncResult ares) { }
 
-	// RVA: 0x100E050 Offset: 0x100C650 VA: 0x18100E050
+	// RVA: 0x100EAF0 Offset: 0x100D0F0 VA: 0x18100EAF0
 	internal void <.cctor>b__309_5(IAsyncResult ares) { }
 
-	// RVA: 0x100E2E0 Offset: 0x100C8E0 VA: 0x18100E2E0
+	// RVA: 0x100ED80 Offset: 0x100D380 VA: 0x18100ED80
 	internal void <.cctor>b__309_6(IOAsyncResult ares) { }
 
-	// RVA: 0x100E480 Offset: 0x100CA80 VA: 0x18100E480
+	// RVA: 0x100EF20 Offset: 0x100D520 VA: 0x18100EF20
 	internal void <.cctor>b__309_7(IAsyncResult ares) { }
 
-	// RVA: 0x100E690 Offset: 0x100CC90 VA: 0x18100E690
+	// RVA: 0x100F130 Offset: 0x100D730 VA: 0x18100F130
 	internal void <.cctor>b__309_8(IOAsyncResult ares) { }
 
-	// RVA: 0x100E810 Offset: 0x100CE10 VA: 0x18100E810
+	// RVA: 0x100F2B0 Offset: 0x100D8B0 VA: 0x18100F2B0
 	internal void <.cctor>b__309_9(IOAsyncResult ares) { }
 
-	// RVA: 0x100CE40 Offset: 0x100B440 VA: 0x18100CE40
+	// RVA: 0x100D8E0 Offset: 0x100BEE0 VA: 0x18100D8E0
 	internal void <.cctor>b__309_10(IAsyncResult ares) { }
 
-	// RVA: 0x100D050 Offset: 0x100B650 VA: 0x18100D050
+	// RVA: 0x100DAF0 Offset: 0x100C0F0 VA: 0x18100DAF0
 	internal void <.cctor>b__309_11(IOAsyncResult ares) { }
 
-	// RVA: 0x100D2F0 Offset: 0x100B8F0 VA: 0x18100D2F0
+	// RVA: 0x100DD90 Offset: 0x100C390 VA: 0x18100DD90
 	internal void <.cctor>b__309_12(IAsyncResult ares) { }
 
-	// RVA: 0x100D500 Offset: 0x100BB00 VA: 0x18100D500
+	// RVA: 0x100DFA0 Offset: 0x100C5A0 VA: 0x18100DFA0
 	internal void <.cctor>b__309_13(IOAsyncResult ares) { }
 
-	// RVA: 0x100D650 Offset: 0x100BC50 VA: 0x18100D650
+	// RVA: 0x100E0F0 Offset: 0x100C6F0 VA: 0x18100E0F0
 	internal void <.cctor>b__309_14(IAsyncResult ares) { }
 
 }
@@ -648,7 +648,7 @@ private sealed class Socket.<>c__DisplayClass242_0 // TypeDefIndex: 3050
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x100EAD0 Offset: 0x100D0D0 VA: 0x18100EAD0
+	// RVA: 0x100F570 Offset: 0x100DB70 VA: 0x18100F570
 	internal void <BeginSendCallback>b__0(IOAsyncResult s) { }
 
 }
@@ -662,7 +662,7 @@ private sealed class Socket.<>c__DisplayClass254_0 // TypeDefIndex: 3051
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x100EB60 Offset: 0x100D160 VA: 0x18100EB60
+	// RVA: 0x100F600 Offset: 0x100DC00 VA: 0x18100F600
 	internal void <BeginSendToCallback>b__0(IOAsyncResult s) { }
 
 }
@@ -678,7 +678,7 @@ private sealed class Socket.<>c__DisplayClass298_0 // TypeDefIndex: 3052
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x100EBF0 Offset: 0x100D1F0 VA: 0x18100EBF0
+	// RVA: 0x100F690 Offset: 0x100DC90 VA: 0x18100F690
 	internal void <QueueIOSelectorJob>b__0(Task t) { }
 
 }
@@ -858,25 +858,25 @@ public class SocketAsyncEventArgs : EventArgs // TypeDefIndex: 3063
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public Socket get_AcceptSocket() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	public void set_AcceptSocket(Socket value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA39560 Offset: 0xA37B60 VA: 0x180A39560
+	// RVA: 0xA39A50 Offset: 0xA38050 VA: 0x180A39A50
 	internal void set_BytesTransferred(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xD73FD0 Offset: 0xD725D0 VA: 0x180D73FD0
+	// RVA: 0xD74A80 Offset: 0xD73080 VA: 0x180D74A80
 	public void set_SocketError(SocketError value) { }
 
-	// RVA: 0x1001550 Offset: 0xFFFB50 VA: 0x181001550
+	// RVA: 0x1001FF0 Offset: 0x10005F0 VA: 0x181001FF0
 	internal void Complete() { }
 
-	// RVA: 0x1001570 Offset: 0xFFFB70 VA: 0x181001570 Slot: 4
+	// RVA: 0x1002010 Offset: 0x1000610 VA: 0x181002010 Slot: 4
 	protected virtual void OnCompleted(SocketAsyncEventArgs e) { }
 
 }
@@ -908,40 +908,40 @@ internal sealed class SocketAsyncResult : IOAsyncResult // TypeDefIndex: 3064
 
 	// Methods
 
-	// RVA: 0x1001A70 Offset: 0x1000070 VA: 0x181001A70
+	// RVA: 0x1002510 Offset: 0x1000B10 VA: 0x181002510
 	public IntPtr get_Handle() { }
 
-	// RVA: 0x10019A0 Offset: 0xFFFFA0 VA: 0x1810019A0
+	// RVA: 0x1002440 Offset: 0x1000A40 VA: 0x181002440
 	public void .ctor(Socket socket, AsyncCallback callback, object state, SocketOperation operation) { }
 
-	// RVA: 0x10019F0 Offset: 0xFFFFF0 VA: 0x1810019F0
+	// RVA: 0x1002490 Offset: 0x1000A90 VA: 0x181002490
 	public SocketError get_ErrorCode() { }
 
-	// RVA: 0x10015C0 Offset: 0xFFFBC0 VA: 0x1810015C0
+	// RVA: 0x1002060 Offset: 0x1000660 VA: 0x181002060
 	public void CheckIfThrowDelayedException() { }
 
-	// RVA: 0x1001690 Offset: 0xFFFC90 VA: 0x181001690 Slot: 8
+	// RVA: 0x1002130 Offset: 0x1000730 VA: 0x181002130 Slot: 8
 	internal override void CompleteDisposed() { }
 
-	// RVA: 0x1001750 Offset: 0xFFFD50 VA: 0x181001750
+	// RVA: 0x10021F0 Offset: 0x10007F0 VA: 0x1810021F0
 	public void Complete() { }
 
-	// RVA: 0x1001740 Offset: 0xFFFD40 VA: 0x181001740
+	// RVA: 0x10021E0 Offset: 0x10007E0 VA: 0x1810021E0
 	public void Complete(bool synch) { }
 
-	// RVA: 0x1001990 Offset: 0xFFFF90 VA: 0x181001990
+	// RVA: 0x1002430 Offset: 0x1000A30 VA: 0x181002430
 	public void Complete(int total) { }
 
-	// RVA: 0x10016A0 Offset: 0xFFFCA0 VA: 0x1810016A0
+	// RVA: 0x1002140 Offset: 0x1000740 VA: 0x181002140
 	public void Complete(Exception e, bool synch) { }
 
-	// RVA: 0x10016E0 Offset: 0xFFFCE0 VA: 0x1810016E0
+	// RVA: 0x1002180 Offset: 0x1000780 VA: 0x181002180
 	public void Complete(Exception e) { }
 
-	// RVA: 0x1001710 Offset: 0xFFFD10 VA: 0x181001710
+	// RVA: 0x10021B0 Offset: 0x10007B0 VA: 0x1810021B0
 	public void Complete(Socket s) { }
 
-	// RVA: 0x1001950 Offset: 0xFFFF50 VA: 0x181001950
+	// RVA: 0x10023F0 Offset: 0x10009F0 VA: 0x1810023F0
 	public void Complete(Socket s, int total) { }
 
 }
@@ -953,13 +953,13 @@ private sealed class SocketAsyncResult.<>c // TypeDefIndex: 3065
 
 	// Methods
 
-	// RVA: 0x100EC60 Offset: 0x100D260 VA: 0x18100EC60
+	// RVA: 0x100F700 Offset: 0x100DD00 VA: 0x18100F700
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x100CA90 Offset: 0x100B090 VA: 0x18100CA90
+	// RVA: 0x100D530 Offset: 0x100BB30 VA: 0x18100D530
 	internal void <Complete>b__27_0(object state) { }
 
 }
@@ -988,10 +988,10 @@ public sealed class SocketElement : ConfigurationElement // TypeDefIndex: 3180
 
 	// Methods
 
-	// RVA: 0x1537770 Offset: 0x1535D70 VA: 0x181537770
+	// RVA: 0x1536840 Offset: 0x1534E40 VA: 0x181536840
 	public void .ctor() { }
 
-	// RVA: 0x15377A0 Offset: 0x1535DA0 VA: 0x1815377A0 Slot: 4
+	// RVA: 0x1536870 Offset: 0x1534E70 VA: 0x181536870 Slot: 4
 	protected override ConfigurationPropertyCollection get_Properties() { }
 
 }
@@ -1013,52 +1013,52 @@ public class SocketManager // TypeDefIndex: 5182
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public ISocketManager get_Interface() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_Interface(ISocketManager value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
+	// RVA: 0x4BE590 Offset: 0x4BCB90 VA: 0x1804BE590
 	public Socket get_Socket() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D60 Offset: 0x7CF360 VA: 0x1807D0D60
+	// RVA: 0x79C680 Offset: 0x79AC80 VA: 0x18079C680
 	internal void set_Socket(Socket value) { }
 
-	// RVA: 0xDE3C30 Offset: 0xDE2230 VA: 0x180DE3C30 Slot: 3
+	// RVA: 0xDE46E0 Offset: 0xDE2CE0 VA: 0x180DE46E0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xDE2F50 Offset: 0xDE1550 VA: 0x180DE2F50
+	// RVA: 0xDE3A00 Offset: 0xDE2000 VA: 0x180DE3A00
 	internal void Initialize() { }
 
-	// RVA: 0xDE2E40 Offset: 0xDE1440 VA: 0x180DE2E40
+	// RVA: 0xDE38F0 Offset: 0xDE1EF0 VA: 0x180DE38F0
 	public bool Close() { }
 
-	// RVA: 0xDE3210 Offset: 0xDE1810 VA: 0x180DE3210 Slot: 4
+	// RVA: 0xDE3CC0 Offset: 0xDE22C0 VA: 0x180DE3CC0 Slot: 4
 	public virtual void OnConnectionChanged(Connection connection, ConnectionInfo info) { }
 
-	// RVA: 0xDE3100 Offset: 0xDE1700 VA: 0x180DE3100 Slot: 5
+	// RVA: 0xDE3BB0 Offset: 0xDE21B0 VA: 0x180DE3BB0 Slot: 5
 	public virtual void OnConnecting(Connection connection, ConnectionInfo info) { }
 
-	// RVA: 0xDE2FC0 Offset: 0xDE15C0 VA: 0x180DE2FC0 Slot: 6
+	// RVA: 0xDE3A70 Offset: 0xDE2070 VA: 0x180DE3A70 Slot: 6
 	public virtual void OnConnected(Connection connection, ConnectionInfo info) { }
 
-	// RVA: 0xDE35C0 Offset: 0xDE1BC0 VA: 0x180DE35C0 Slot: 7
+	// RVA: 0xDE4070 Offset: 0xDE2670 VA: 0x180DE4070 Slot: 7
 	public virtual void OnDisconnected(Connection connection, ConnectionInfo info) { }
 
-	// RVA: 0xDE3A30 Offset: 0xDE2030 VA: 0x180DE3A30
+	// RVA: 0xDE44E0 Offset: 0xDE2AE0 VA: 0x180DE44E0
 	public int Receive(int bufferSize = 32, bool receiveToEnd = True) { }
 
-	// RVA: 0xDE3870 Offset: 0xDE1E70 VA: 0x180DE3870
+	// RVA: 0xDE4320 Offset: 0xDE2920 VA: 0x180DE4320
 	internal void ReceiveMessage(IntPtr msgPtr) { }
 
-	// RVA: 0xDE36E0 Offset: 0xDE1CE0 VA: 0x180DE36E0 Slot: 8
+	// RVA: 0xDE4190 Offset: 0xDE2790 VA: 0x180DE4190 Slot: 8
 	public virtual void OnMessage(Connection connection, NetIdentity identity, IntPtr data, int size, long messageNum, long recvTime, int channel) { }
 
-	// RVA: 0xDE3C50 Offset: 0xDE2250 VA: 0x180DE3C50
+	// RVA: 0xDE4700 Offset: 0xDE2D00 VA: 0x180DE4700
 	public void .ctor() { }
 
 }
@@ -1069,13 +1069,13 @@ public struct Socket // TypeDefIndex: 5547
 
 	// Methods
 
-	// RVA: 0x1D7CC0 Offset: 0x1D70C0 VA: 0x1801D7CC0 Slot: 3
+	// RVA: 0x1D8330 Offset: 0x1D7730 VA: 0x1801D8330 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x68A6C0 Offset: 0x688CC0 VA: 0x18068A6C0
+	// RVA: 0x68A650 Offset: 0x688C50 VA: 0x18068A650
 	public static Socket op_Implicit(uint value) { }
 
-	// RVA: 0x1D8800 Offset: 0x1D7C00 VA: 0x1801D8800
+	// RVA: 0x1D8E70 Offset: 0x1D8270 VA: 0x1801D8E70
 	public bool Close() { }
 
 }
@@ -1099,51 +1099,51 @@ public class SocketWrapper : ISocket // TypeDefIndex: 6921
 
 	// Methods
 
-	// RVA: 0x2208D20 Offset: 0x2207320 VA: 0x182208D20 Slot: 5
+	// RVA: 0x2209540 Offset: 0x2207B40 VA: 0x182209540 Slot: 5
 	public IPAddress get_RemoteIpAddress() { }
 
-	// RVA: 0x2208DB0 Offset: 0x22073B0 VA: 0x182208DB0 Slot: 6
+	// RVA: 0x22095D0 Offset: 0x2207BD0 VA: 0x1822095D0 Slot: 6
 	public int get_RemotePort() { }
 
-	// RVA: 0x2208A60 Offset: 0x2207060 VA: 0x182208A60
+	// RVA: 0x2209280 Offset: 0x2207880 VA: 0x182209280
 	private static void .cctor() { }
 
-	// RVA: 0x2208B60 Offset: 0x2207160 VA: 0x182208B60
+	// RVA: 0x2209380 Offset: 0x2207980 VA: 0x182209380
 	public void .ctor(Socket socket) { }
 
-	// RVA: 0x2208620 Offset: 0x2206C20 VA: 0x182208620 Slot: 11
+	// RVA: 0x2208E40 Offset: 0x2207440 VA: 0x182208E40 Slot: 11
 	public Task Authenticate(X509Certificate2 certificate, SslProtocols enabledSslProtocols, Action callback, Action<Exception> error) { }
 
-	// RVA: 0x2208A40 Offset: 0x2207040 VA: 0x182208A40 Slot: 15
+	// RVA: 0x2209260 Offset: 0x2207860 VA: 0x182209260 Slot: 15
 	public void Listen(int backlog) { }
 
-	// RVA: 0x2208970 Offset: 0x2206F70 VA: 0x182208970 Slot: 14
+	// RVA: 0x2209190 Offset: 0x2207790 VA: 0x182209190 Slot: 14
 	public void Bind(EndPoint endPoint) { }
 
-	// RVA: 0x2208CE0 Offset: 0x22072E0 VA: 0x182208CE0 Slot: 4
+	// RVA: 0x2209500 Offset: 0x2207B00 VA: 0x182209500 Slot: 4
 	public bool get_Connected() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 7
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0 Slot: 7
 	public Stream get_Stream() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	private void set_Stream(Stream value) { }
 
-	// RVA: 0x2208E40 Offset: 0x2207440 VA: 0x182208E40 Slot: 8
+	// RVA: 0x2209660 Offset: 0x2207C60 VA: 0x182209660 Slot: 8
 	public void set_NoDelay(bool value) { }
 
-	// RVA: 0x2208D00 Offset: 0x2207300 VA: 0x182208D00 Slot: 9
+	// RVA: 0x2209520 Offset: 0x2207B20 VA: 0x182209520 Slot: 9
 	public EndPoint get_LocalEndPoint() { }
 
-	// RVA: 0x2208420 Offset: 0x2206A20 VA: 0x182208420 Slot: 10
+	// RVA: 0x2208C40 Offset: 0x2207240 VA: 0x182208C40 Slot: 10
 	public Task<ISocket> Accept(Action<ISocket> callback, Action<Exception> error) { }
 
-	// RVA: 0x22089F0 Offset: 0x2206FF0 VA: 0x1822089F0 Slot: 12
+	// RVA: 0x2209210 Offset: 0x2207810 VA: 0x182209210 Slot: 12
 	public void Dispose() { }
 
-	// RVA: 0x2208990 Offset: 0x2206F90 VA: 0x182208990 Slot: 13
+	// RVA: 0x22091B0 Offset: 0x22077B0 VA: 0x1822091B0 Slot: 13
 	public void Close() { }
 
 }
@@ -1161,16 +1161,16 @@ private sealed class SocketWrapper.<>c__DisplayClass12_0 // TypeDefIndex: 6922
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x22091C0 Offset: 0x22077C0 VA: 0x1822091C0
+	// RVA: 0x22099E0 Offset: 0x2207FE0 VA: 0x1822099E0
 	internal IAsyncResult <Authenticate>b__0(AsyncCallback cb, object s) { }
 
-	// RVA: 0x2209210 Offset: 0x2207810 VA: 0x182209210
+	// RVA: 0x2209A30 Offset: 0x2208030 VA: 0x182209A30
 	internal void <Authenticate>b__1(Task t) { }
 
-	// RVA: 0x2209230 Offset: 0x2207830 VA: 0x182209230
+	// RVA: 0x2209A50 Offset: 0x2208050 VA: 0x182209A50
 	internal void <Authenticate>b__2(Task t) { }
 
-	// RVA: 0x22092A0 Offset: 0x22078A0 VA: 0x1822092A0
+	// RVA: 0x2209AC0 Offset: 0x22080C0 VA: 0x182209AC0
 	internal void <Authenticate>b__3(Task t) { }
 
 }
@@ -1186,16 +1186,16 @@ private sealed class SocketWrapper.<>c__DisplayClass26_0 // TypeDefIndex: 6923
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2209310 Offset: 0x2207910 VA: 0x182209310
+	// RVA: 0x2209B30 Offset: 0x2208130 VA: 0x182209B30
 	internal ISocket <Accept>b__0(IAsyncResult r) { }
 
-	// RVA: 0x22093D0 Offset: 0x22079D0 VA: 0x1822093D0
+	// RVA: 0x2209BF0 Offset: 0x22081F0 VA: 0x182209BF0
 	internal void <Accept>b__1(Task<ISocket> t) { }
 
-	// RVA: 0x2209440 Offset: 0x2207A40 VA: 0x182209440
+	// RVA: 0x2209C60 Offset: 0x2208260 VA: 0x182209C60
 	internal void <Accept>b__2(Task t) { }
 
-	// RVA: 0x22094B0 Offset: 0x2207AB0 VA: 0x1822094B0
+	// RVA: 0x2209CD0 Offset: 0x22082D0 VA: 0x182209CD0
 	internal void <Accept>b__3(Task<ISocket> t) { }
 
 }
@@ -1203,13 +1203,13 @@ private sealed class SocketWrapper.<>c__DisplayClass26_0 // TypeDefIndex: 6923
 public class SocketHandle : PrefabAttribute // TypeDefIndex: 9088
 {	// Methods
 
-	// RVA: 0x5B74E0 Offset: 0x5B5AE0 VA: 0x1805B74E0 Slot: 7
+	// RVA: 0x5B7470 Offset: 0x5B5A70 VA: 0x1805B7470 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x5B7300 Offset: 0x5B5900 VA: 0x1805B7300
+	// RVA: 0x5B7290 Offset: 0x5B5890 VA: 0x1805B7290
 	internal void AdjustTarget(ref Construction.Target target, float maxplaceDistance) { }
 
-	// RVA: 0x5B7540 Offset: 0x5B5B40 VA: 0x1805B7540
+	// RVA: 0x5B74D0 Offset: 0x5B5AD0 VA: 0x1805B74D0
 	public void .ctor() { }
 
 }
@@ -1227,10 +1227,10 @@ public class SocketMod : PrefabAttribute // TypeDefIndex: 9089
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 9
 	public virtual void ModifyPlacement(Construction.Placement place) { }
 
-	// RVA: 0x5BA7C0 Offset: 0x5B8DC0 VA: 0x1805BA7C0 Slot: 7
+	// RVA: 0x5BA750 Offset: 0x5B8D50 VA: 0x1805BA750 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x5BB3D0 Offset: 0x5B99D0 VA: 0x1805BB3D0
+	// RVA: 0x5BB360 Offset: 0x5B9960 VA: 0x1805BB360
 	public void .ctor() { }
 
 }
@@ -1244,16 +1244,16 @@ public class SocketMod_AngleCheck : SocketMod // TypeDefIndex: 9090
 
 	// Methods
 
-	// RVA: 0x5B78D0 Offset: 0x5B5ED0 VA: 0x1805B78D0
+	// RVA: 0x5B7860 Offset: 0x5B5E60 VA: 0x1805B7860
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0x5B75A0 Offset: 0x5B5BA0 VA: 0x1805B75A0 Slot: 8
+	// RVA: 0x5B7530 Offset: 0x5B5B30 VA: 0x1805B7530 Slot: 8
 	public override bool DoCheck(Construction.Placement place) { }
 
-	// RVA: 0x5B7A70 Offset: 0x5B6070 VA: 0x1805B7A70
+	// RVA: 0x5B7A00 Offset: 0x5B6000 VA: 0x1805B7A00
 	public void .ctor() { }
 
-	// RVA: 0x5B7A00 Offset: 0x5B6000 VA: 0x1805B7A00
+	// RVA: 0x5B7990 Offset: 0x5B5F90 VA: 0x1805B7990
 	private static void .cctor() { }
 
 }
@@ -1266,19 +1266,19 @@ public class SocketMod_AreaCheck : SocketMod // TypeDefIndex: 9091
 
 	// Methods
 
-	// RVA: 0x5B8320 Offset: 0x5B6920 VA: 0x1805B8320
+	// RVA: 0x5B82B0 Offset: 0x5B68B0 VA: 0x1805B82B0
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0x5B81F0 Offset: 0x5B67F0 VA: 0x1805B81F0
+	// RVA: 0x5B8180 Offset: 0x5B6780 VA: 0x1805B8180
 	public static bool IsInArea(Vector3 position, Quaternion rotation, Bounds bounds, LayerMask layerMask, BaseEntity entity) { }
 
-	// RVA: 0x5B7F90 Offset: 0x5B6590 VA: 0x1805B7F90
+	// RVA: 0x5B7F20 Offset: 0x5B6520 VA: 0x1805B7F20
 	public bool DoCheck(Vector3 position, Quaternion rotation, BaseEntity entity) { }
 
-	// RVA: 0x5B7B30 Offset: 0x5B6130 VA: 0x1805B7B30 Slot: 8
+	// RVA: 0x5B7AC0 Offset: 0x5B60C0 VA: 0x1805B7AC0 Slot: 8
 	public override bool DoCheck(Construction.Placement place) { }
 
-	// RVA: 0x5B8440 Offset: 0x5B6A40 VA: 0x1805B8440
+	// RVA: 0x5B83D0 Offset: 0x5B69D0 VA: 0x1805B83D0
 	public void .ctor() { }
 
 }
@@ -1294,16 +1294,16 @@ public class SocketMod_Attraction : SocketMod // TypeDefIndex: 9092
 
 	// Methods
 
-	// RVA: 0x5B9600 Offset: 0x5B7C00 VA: 0x1805B9600
+	// RVA: 0x5B9590 Offset: 0x5B7B90 VA: 0x1805B9590
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 8
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 8
 	public override bool DoCheck(Construction.Placement place) { }
 
-	// RVA: 0x5B8590 Offset: 0x5B6B90 VA: 0x1805B8590 Slot: 9
+	// RVA: 0x5B8520 Offset: 0x5B6B20 VA: 0x1805B8520 Slot: 9
 	public override void ModifyPlacement(Construction.Placement place) { }
 
-	// RVA: 0x5B97C0 Offset: 0x5B7DC0 VA: 0x1805B97C0
+	// RVA: 0x5B9750 Offset: 0x5B7D50 VA: 0x1805B9750
 	public void .ctor() { }
 
 }
@@ -1317,13 +1317,13 @@ public class SocketMod_BuildingBlock : SocketMod // TypeDefIndex: 9093
 
 	// Methods
 
-	// RVA: 0x5B9B20 Offset: 0x5B8120 VA: 0x1805B9B20
+	// RVA: 0x5B9AB0 Offset: 0x5B80B0 VA: 0x1805B9AB0
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0x5B9860 Offset: 0x5B7E60 VA: 0x1805B9860 Slot: 8
+	// RVA: 0x5B97F0 Offset: 0x5B7DF0 VA: 0x1805B97F0 Slot: 8
 	public override bool DoCheck(Construction.Placement place) { }
 
-	// RVA: 0x5B9C80 Offset: 0x5B8280 VA: 0x1805B9C80
+	// RVA: 0x5B9C10 Offset: 0x5B8210 VA: 0x1805B9C10
 	public void .ctor() { }
 
 }
@@ -1338,13 +1338,13 @@ public class SocketMod_EntityCheck : SocketMod // TypeDefIndex: 9094
 
 	// Methods
 
-	// RVA: 0x5BA100 Offset: 0x5B8700 VA: 0x1805BA100
+	// RVA: 0x5BA090 Offset: 0x5B8690 VA: 0x1805BA090
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0x5B9CE0 Offset: 0x5B82E0 VA: 0x1805B9CE0 Slot: 8
+	// RVA: 0x5B9C70 Offset: 0x5B8270 VA: 0x1805B9C70 Slot: 8
 	public override bool DoCheck(Construction.Placement place) { }
 
-	// RVA: 0x5B9C80 Offset: 0x5B8280 VA: 0x1805B9C80
+	// RVA: 0x5B9C10 Offset: 0x5B8210 VA: 0x1805B9C10
 	public void .ctor() { }
 
 }
@@ -1358,7 +1358,7 @@ private sealed class SocketMod_EntityCheck.<>c__DisplayClass6_0 // TypeDefIndex:
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x5C4760 Offset: 0x5C2D60 VA: 0x1805C4760
+	// RVA: 0x5C46F0 Offset: 0x5C2CF0 VA: 0x1805C46F0
 	internal bool <DoCheck>b__0(BaseEntity x) { }
 
 }
@@ -1373,13 +1373,13 @@ public class SocketMod_EntityType : SocketMod // TypeDefIndex: 9096
 
 	// Methods
 
-	// RVA: 0x5BA660 Offset: 0x5B8C60 VA: 0x1805BA660
+	// RVA: 0x5BA5F0 Offset: 0x5B8BF0 VA: 0x1805BA5F0
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0x5BA260 Offset: 0x5B8860 VA: 0x1805BA260 Slot: 8
+	// RVA: 0x5BA1F0 Offset: 0x5B87F0 VA: 0x1805BA1F0 Slot: 8
 	public override bool DoCheck(Construction.Placement place) { }
 
-	// RVA: 0x5B9C80 Offset: 0x5B8280 VA: 0x1805B9C80
+	// RVA: 0x5B9C10 Offset: 0x5B8210 VA: 0x1805B9C10
 	public void .ctor() { }
 
 }
@@ -1390,13 +1390,13 @@ public class SocketMod_HotSpot : SocketMod // TypeDefIndex: 9097
 
 	// Methods
 
-	// RVA: 0x5BA960 Offset: 0x5B8F60 VA: 0x1805BA960
+	// RVA: 0x5BA8F0 Offset: 0x5B8EF0 VA: 0x1805BA8F0
 	private void OnDrawGizmos() { }
 
-	// RVA: 0x5BA820 Offset: 0x5B8E20 VA: 0x1805BA820 Slot: 9
+	// RVA: 0x5BA7B0 Offset: 0x5B8DB0 VA: 0x1805BA7B0 Slot: 9
 	public override void ModifyPlacement(Construction.Placement place) { }
 
-	// RVA: 0x5BAAB0 Offset: 0x5B90B0 VA: 0x1805BAAB0
+	// RVA: 0x5BAA40 Offset: 0x5B9040 VA: 0x1805BAA40
 	public void .ctor() { }
 
 }
@@ -1409,16 +1409,16 @@ public class SocketMod_InWater : SocketMod // TypeDefIndex: 9098
 
 	// Methods
 
-	// RVA: 0x5BAF00 Offset: 0x5B9500 VA: 0x1805BAF00
+	// RVA: 0x5BAE90 Offset: 0x5B9490 VA: 0x1805BAE90
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0x5BAB10 Offset: 0x5B9110 VA: 0x1805BAB10 Slot: 8
+	// RVA: 0x5BAAA0 Offset: 0x5B90A0 VA: 0x1805BAAA0 Slot: 8
 	public override bool DoCheck(Construction.Placement place) { }
 
-	// RVA: 0x5BB0B0 Offset: 0x5B96B0 VA: 0x1805BB0B0
+	// RVA: 0x5BB040 Offset: 0x5B9640 VA: 0x1805BB040
 	public void .ctor() { }
 
-	// RVA: 0x5BB000 Offset: 0x5B9600 VA: 0x1805BB000
+	// RVA: 0x5BAF90 Offset: 0x5B9590 VA: 0x1805BAF90
 	private static void .cctor() { }
 
 }
@@ -1430,10 +1430,10 @@ public class SocketMod_PhysicMaterial : SocketMod // TypeDefIndex: 9099
 
 	// Methods
 
-	// RVA: 0x5BB110 Offset: 0x5B9710 VA: 0x1805BB110 Slot: 8
+	// RVA: 0x5BB0A0 Offset: 0x5B96A0 VA: 0x1805BB0A0 Slot: 8
 	public override bool DoCheck(Construction.Placement place) { }
 
-	// RVA: 0x5BB3D0 Offset: 0x5B99D0 VA: 0x1805BB3D0
+	// RVA: 0x5BB360 Offset: 0x5B9960 VA: 0x1805BB360
 	public void .ctor() { }
 
 }
@@ -1447,13 +1447,13 @@ public class SocketMod_PlantCheck : SocketMod // TypeDefIndex: 9100
 
 	// Methods
 
-	// RVA: 0x5BB860 Offset: 0x5B9E60 VA: 0x1805BB860
+	// RVA: 0x5BB7F0 Offset: 0x5B9DF0 VA: 0x1805BB7F0
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0x5BB430 Offset: 0x5B9A30 VA: 0x1805BB430 Slot: 8
+	// RVA: 0x5BB3C0 Offset: 0x5B99C0 VA: 0x1805BB3C0 Slot: 8
 	public override bool DoCheck(Construction.Placement place) { }
 
-	// RVA: 0x5B9C80 Offset: 0x5B8280 VA: 0x1805B9C80
+	// RVA: 0x5B9C10 Offset: 0x5B8210 VA: 0x1805B9C10
 	public void .ctor() { }
 
 }
@@ -1468,16 +1468,16 @@ public class SocketMod_SphereCheck : SocketMod // TypeDefIndex: 9101
 
 	// Methods
 
-	// RVA: 0x5BC210 Offset: 0x5BA810 VA: 0x1805BC210
+	// RVA: 0x5BC1A0 Offset: 0x5BA7A0 VA: 0x1805BC1A0
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0x5BB9C0 Offset: 0x5B9FC0 VA: 0x1805BB9C0 Slot: 8
+	// RVA: 0x5BB950 Offset: 0x5B9F50 VA: 0x1805BB950 Slot: 8
 	public override bool DoCheck(Construction.Placement place) { }
 
-	// RVA: 0x5B9C80 Offset: 0x5B8280 VA: 0x1805B9C80
+	// RVA: 0x5B9C10 Offset: 0x5B8210 VA: 0x1805B9C10
 	public void .ctor() { }
 
-	// RVA: 0x5BC370 Offset: 0x5BA970 VA: 0x1805BC370
+	// RVA: 0x5BC300 Offset: 0x5BA900 VA: 0x1805BC300
 	private static void .cctor() { }
 
 }
@@ -1488,16 +1488,16 @@ public class SocketMod_TerrainCheck : SocketMod // TypeDefIndex: 9102
 
 	// Methods
 
-	// RVA: 0x5BC9B0 Offset: 0x5BAFB0 VA: 0x1805BC9B0
+	// RVA: 0x5BC940 Offset: 0x5BAF40 VA: 0x1805BC940
 	private void OnDrawGizmos() { }
 
-	// RVA: 0x5BC660 Offset: 0x5BAC60 VA: 0x1805BC660
+	// RVA: 0x5BC5F0 Offset: 0x5BABF0 VA: 0x1805BC5F0
 	public static bool IsInTerrain(Vector3 vPoint) { }
 
-	// RVA: 0x5BC420 Offset: 0x5BAA20 VA: 0x1805BC420 Slot: 8
+	// RVA: 0x5BC3B0 Offset: 0x5BA9B0 VA: 0x1805BC3B0 Slot: 8
 	public override bool DoCheck(Construction.Placement place) { }
 
-	// RVA: 0x5BB0B0 Offset: 0x5B96B0 VA: 0x1805BB0B0
+	// RVA: 0x5BB040 Offset: 0x5B9640 VA: 0x1805BB040
 	public void .ctor() { }
 
 }
@@ -1512,13 +1512,13 @@ public class SocketMod_WaterDepth : SocketMod // TypeDefIndex: 9103
 
 	// Methods
 
-	// RVA: 0x5BCB10 Offset: 0x5BB110 VA: 0x1805BCB10 Slot: 8
+	// RVA: 0x5BCAA0 Offset: 0x5BB0A0 VA: 0x1805BCAA0 Slot: 8
 	public override bool DoCheck(Construction.Placement place) { }
 
-	// RVA: 0x5BD080 Offset: 0x5BB680 VA: 0x1805BD080
+	// RVA: 0x5BD010 Offset: 0x5BB610 VA: 0x1805BD010
 	public void .ctor() { }
 
-	// RVA: 0x5BCFD0 Offset: 0x5BB5D0 VA: 0x1805BCFD0
+	// RVA: 0x5BCF60 Offset: 0x5BB560 VA: 0x1805BCF60
 	private static void .cctor() { }
 
 }
@@ -1540,34 +1540,34 @@ public class Socket_Base : PrefabAttribute // TypeDefIndex: 9104
 
 	// Methods
 
-	// RVA: 0x5BD8B0 Offset: 0x5BBEB0 VA: 0x1805BD8B0
+	// RVA: 0x5BD840 Offset: 0x5BBE40 VA: 0x1805BD840
 	public Vector3 GetSelectPivot(Vector3 position, Quaternion rotation) { }
 
-	// RVA: 0x5BD690 Offset: 0x5BBC90 VA: 0x1805BD690
+	// RVA: 0x5BD620 Offset: 0x5BBC20 VA: 0x1805BD620
 	public OBB GetSelectBounds(Vector3 position, Quaternion rotation) { }
 
-	// RVA: 0x5BD630 Offset: 0x5BBC30 VA: 0x1805BD630 Slot: 7
+	// RVA: 0x5BD5C0 Offset: 0x5BBBC0 VA: 0x1805BD5C0 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x5BD0F0 Offset: 0x5BB6F0 VA: 0x1805BD0F0 Slot: 6
+	// RVA: 0x5BD080 Offset: 0x5BB680 VA: 0x1805BD080 Slot: 6
 	protected override void AttributeSetup(GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x5BDAC0 Offset: 0x5BC0C0 VA: 0x1805BDAC0 Slot: 8
+	// RVA: 0x5BDA50 Offset: 0x5BC050 VA: 0x1805BDA50 Slot: 8
 	public virtual bool TestTarget(Construction.Target target) { }
 
-	// RVA: 0x5BD9D0 Offset: 0x5BBFD0 VA: 0x1805BD9D0 Slot: 9
+	// RVA: 0x5BD960 Offset: 0x5BBF60 VA: 0x1805BD960 Slot: 9
 	public virtual bool IsCompatible(Socket_Base socket) { }
 
-	// RVA: 0x5BD270 Offset: 0x5BB870 VA: 0x1805BD270 Slot: 10
+	// RVA: 0x5BD200 Offset: 0x5BB800 VA: 0x1805BD200 Slot: 10
 	public virtual bool CanConnect(Vector3 position, Quaternion rotation, Socket_Base socket, Vector3 socketPosition, Quaternion socketRotation) { }
 
-	// RVA: 0x5BD420 Offset: 0x5BBA20 VA: 0x1805BD420 Slot: 11
+	// RVA: 0x5BD3B0 Offset: 0x5BB9B0 VA: 0x1805BD3B0 Slot: 11
 	public virtual Construction.Placement DoPlacement(Construction.Target target) { }
 
-	// RVA: 0x5BD290 Offset: 0x5BB890 VA: 0x1805BD290 Slot: 12
+	// RVA: 0x5BD220 Offset: 0x5BB820 VA: 0x1805BD220 Slot: 12
 	public virtual bool CheckSocketMods(Construction.Placement placement) { }
 
-	// RVA: 0x5BDB30 Offset: 0x5BC130 VA: 0x1805BDB30
+	// RVA: 0x5BDAC0 Offset: 0x5BC0C0 VA: 0x1805BDAC0
 	public void .ctor() { }
 
 }
@@ -1580,16 +1580,16 @@ public class Socket_Free : Socket_Base // TypeDefIndex: 9105
 
 	// Methods
 
-	// RVA: 0x5BE1A0 Offset: 0x5BC7A0 VA: 0x1805BE1A0
+	// RVA: 0x5BE130 Offset: 0x5BC730 VA: 0x1805BE130
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0x5BE390 Offset: 0x5BC990 VA: 0x1805BE390 Slot: 8
+	// RVA: 0x5BE320 Offset: 0x5BC920 VA: 0x1805BE320 Slot: 8
 	public override bool TestTarget(Construction.Target target) { }
 
-	// RVA: 0x5BDC10 Offset: 0x5BC210 VA: 0x1805BDC10 Slot: 11
+	// RVA: 0x5BDBA0 Offset: 0x5BC1A0 VA: 0x1805BDBA0 Slot: 11
 	public override Construction.Placement DoPlacement(Construction.Target target) { }
 
-	// RVA: 0x5BE3A0 Offset: 0x5BC9A0 VA: 0x1805BE3A0
+	// RVA: 0x5BE330 Offset: 0x5BC930 VA: 0x1805BE330
 	public void .ctor() { }
 
 }
@@ -1601,16 +1601,16 @@ public class Socket_Specific : Socket_Base // TypeDefIndex: 9106
 
 	// Methods
 
-	// RVA: 0x5BEE90 Offset: 0x5BD490 VA: 0x1805BEE90
+	// RVA: 0x5BEE20 Offset: 0x5BD420 VA: 0x1805BEE20
 	private void OnDrawGizmos() { }
 
-	// RVA: 0x5BF140 Offset: 0x5BD740 VA: 0x1805BF140 Slot: 8
+	// RVA: 0x5BF0D0 Offset: 0x5BD6D0 VA: 0x1805BF0D0 Slot: 8
 	public override bool TestTarget(Construction.Target target) { }
 
-	// RVA: 0x5BE420 Offset: 0x5BCA20 VA: 0x1805BE420 Slot: 11
+	// RVA: 0x5BE3B0 Offset: 0x5BC9B0 VA: 0x1805BE3B0 Slot: 11
 	public override Construction.Placement DoPlacement(Construction.Target target) { }
 
-	// RVA: 0x5BF2D0 Offset: 0x5BD8D0 VA: 0x1805BF2D0
+	// RVA: 0x5BF260 Offset: 0x5BD860 VA: 0x1805BF260
 	public void .ctor() { }
 
 }
@@ -1623,16 +1623,16 @@ public class Socket_Specific_Female : Socket_Base // TypeDefIndex: 9107
 
 	// Methods
 
-	// RVA: 0x5BEBD0 Offset: 0x5BD1D0 VA: 0x1805BEBD0
+	// RVA: 0x5BEB60 Offset: 0x5BD160 VA: 0x1805BEB60
 	private void OnDrawGizmos() { }
 
-	// RVA: 0x5BEB20 Offset: 0x5BD120 VA: 0x1805BEB20
+	// RVA: 0x5BEAB0 Offset: 0x5BD0B0 VA: 0x1805BEAB0
 	private void OnDrawGizmosSelected() { }
 
-	// RVA: 0x5BEA90 Offset: 0x5BD090 VA: 0x1805BEA90
+	// RVA: 0x5BEA20 Offset: 0x5BD020 VA: 0x1805BEA20
 	public bool CanAccept(Socket_Specific socket) { }
 
-	// RVA: 0x5BEE80 Offset: 0x5BD480 VA: 0x1805BEE80
+	// RVA: 0x5BEE10 Offset: 0x5BD410 VA: 0x1805BEE10
 	public void .ctor() { }
 
 }
@@ -1644,16 +1644,16 @@ public class Socket_Terrain : Socket_Base // TypeDefIndex: 9108
 
 	// Methods
 
-	// RVA: 0x5BF5E0 Offset: 0x5BDBE0 VA: 0x1805BF5E0
+	// RVA: 0x5BF570 Offset: 0x5BDB70 VA: 0x1805BF570
 	private void OnDrawGizmos() { }
 
-	// RVA: 0x5BE390 Offset: 0x5BC990 VA: 0x1805BE390 Slot: 8
+	// RVA: 0x5BE320 Offset: 0x5BC920 VA: 0x1805BE320 Slot: 8
 	public override bool TestTarget(Construction.Target target) { }
 
-	// RVA: 0x5BF2E0 Offset: 0x5BD8E0 VA: 0x1805BF2E0 Slot: 11
+	// RVA: 0x5BF270 Offset: 0x5BD870 VA: 0x1805BF270 Slot: 11
 	public override Construction.Placement DoPlacement(Construction.Target target) { }
 
-	// RVA: 0x5BEE80 Offset: 0x5BD480 VA: 0x1805BEE80
+	// RVA: 0x5BEE10 Offset: 0x5BD410 VA: 0x1805BEE10
 	public void .ctor() { }
 
 }

@@ -8,7 +8,7 @@ public class ERBlendVecs // TypeDefIndex: 7180
 
 	// Methods
 
-	// RVA: 0xB7B8D0 Offset: 0xB79ED0 VA: 0x180B7B8D0
+	// RVA: 0xB7BDA0 Offset: 0xB7A3A0 VA: 0x180B7BDA0
 	public void .ctor(int index, int mIndex, float weight, int conn, int type) { }
 
 }

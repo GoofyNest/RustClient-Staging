@@ -75,16 +75,16 @@ public class ERCrossingMainRoad : MonoBehaviour // TypeDefIndex: 7251
 
 	// Methods
 
-	// RVA: 0xB811D0 Offset: 0xB7F7D0 VA: 0x180B811D0
+	// RVA: 0xB816A0 Offset: 0xB7FCA0 VA: 0x180B816A0
 	public void OCQOQCDCQC() { }
 
-	// RVA: 0xB81060 Offset: 0xB7F660 VA: 0x180B81060
+	// RVA: 0xB81530 Offset: 0xB7FB30 VA: 0x180B81530
 	public void Clear() { }
 
-	// RVA: 0xB834C0 Offset: 0xB81AC0 VA: 0x180B834C0
+	// RVA: 0xB83990 Offset: 0xB81F90 VA: 0x180B83990
 	private List<int> Triangulate(List<Vector3> vecs, List<Vector3> edges) { }
 
-	// RVA: 0xB83C00 Offset: 0xB82200 VA: 0x180B83C00
+	// RVA: 0xB840D0 Offset: 0xB826D0 VA: 0x180B840D0
 	public void .ctor() { }
 
 }

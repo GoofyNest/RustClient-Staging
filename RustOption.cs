@@ -12,31 +12,31 @@ public class RustOption : RustControl // TypeDefIndex: 7025
 
 	// Methods
 
-	// RVA: 0xFBF0C0 Offset: 0xFBD6C0 VA: 0x180FBF0C0
+	// RVA: 0xFBFB60 Offset: 0xFBE160 VA: 0x180FBFB60
 	public Option get_Value() { }
 
-	// RVA: 0xFCEAD0 Offset: 0xFCD0D0 VA: 0x180FCEAD0 Slot: 4
+	// RVA: 0xFCF570 Offset: 0xFCDB70 VA: 0x180FCF570 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0xFCEE40 Offset: 0xFCD440 VA: 0x180FCEE40
+	// RVA: 0xFCF8E0 Offset: 0xFCDEE0 VA: 0x180FCF8E0
 	public void SetOptions(Option[] options) { }
 
-	// RVA: 0xFCEDC0 Offset: 0xFCD3C0 VA: 0x180FCEDC0
+	// RVA: 0xFCF860 Offset: 0xFCDE60 VA: 0x180FCF860
 	public void SetOption(int i) { }
 
-	// RVA: 0xFCED60 Offset: 0xFCD360 VA: 0x180FCED60
+	// RVA: 0xFCF800 Offset: 0xFCDE00 VA: 0x180FCF800
 	public void SetOptionDefault() { }
 
-	// RVA: 0xFCEBB0 Offset: 0xFCD1B0 VA: 0x180FCEBB0
+	// RVA: 0xFCF650 Offset: 0xFCDC50 VA: 0x180FCF650
 	public void OnLeft() { }
 
-	// RVA: 0xFCEC50 Offset: 0xFCD250 VA: 0x180FCEC50
+	// RVA: 0xFCF6F0 Offset: 0xFCDCF0 VA: 0x180FCF6F0
 	public void OnRight() { }
 
-	// RVA: 0xFCE9B0 Offset: 0xFCCFB0 VA: 0x180FCE9B0 Slot: 30
+	// RVA: 0xFCF450 Offset: 0xFCDA50 VA: 0x180FCF450 Slot: 30
 	protected override void ApplyStyle(StyleAsset.Group s) { }
 
-	// RVA: 0xFCEEC0 Offset: 0xFCD4C0 VA: 0x180FCEEC0
+	// RVA: 0xFCF960 Offset: 0xFCDF60 VA: 0x180FCF960
 	public void .ctor() { }
 
 }
@@ -44,7 +44,7 @@ public class RustOption : RustControl // TypeDefIndex: 7025
 public class RustOption.ChangedEvent : UnityEvent<Option> // TypeDefIndex: 7026
 {	// Methods
 
-	// RVA: 0xFBE200 Offset: 0xFBC800 VA: 0x180FBE200
+	// RVA: 0xFBECA0 Offset: 0xFBD2A0 VA: 0x180FBECA0
 	public void .ctor() { }
 
 }

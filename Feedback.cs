@@ -2,7 +2,7 @@ public static class Feedback // TypeDefIndex: 6194
 {	// Methods
 
 	[AsyncStateMachineAttribute] // RVA: 0xA49D0 Offset: 0xA3DD0 VA: 0x1800A49D0
-	// RVA: 0x14B44D0 Offset: 0x14B2AD0 VA: 0x1814B44D0
+	// RVA: 0x14B35A0 Offset: 0x14B1BA0 VA: 0x1814B35A0
 	public static Task<string> Report(Feedback feedback) { }
 
 }
@@ -18,11 +18,11 @@ private struct Feedback.<Report>d__0 : IAsyncStateMachine // TypeDefIndex: 6195
 
 	// Methods
 
-	// RVA: 0x1F1980 Offset: 0x1F0D80 VA: 0x1801F1980 Slot: 4
+	// RVA: 0x1F1DA0 Offset: 0x1F11A0 VA: 0x1801F1DA0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1F1990 Offset: 0x1F0D90 VA: 0x1801F1990 Slot: 5
+	// RVA: 0x1F1DB0 Offset: 0x1F11B0 VA: 0x1801F1DB0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

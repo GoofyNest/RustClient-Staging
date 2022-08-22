@@ -56,196 +56,196 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 
 	// Methods
 
-	// RVA: 0x1724250 Offset: 0x1722850 VA: 0x181724250
+	// RVA: 0x171D690 Offset: 0x171BC90 VA: 0x18171D690
 	public static Selectable[] get_allSelectablesArray() { }
 
-	// RVA: 0x17241F0 Offset: 0x17227F0 VA: 0x1817241F0
+	// RVA: 0x171D630 Offset: 0x171BC30 VA: 0x18171D630
 	public static int get_allSelectableCount() { }
 
-	// RVA: 0x1724330 Offset: 0x1722930 VA: 0x181724330
+	// RVA: 0x171D770 Offset: 0x171BD70 VA: 0x18171D770
 	public static List<Selectable> get_allSelectables() { }
 
-	// RVA: 0x1721AF0 Offset: 0x17200F0 VA: 0x181721AF0
+	// RVA: 0x171AF30 Offset: 0x1719530 VA: 0x18171AF30
 	public static int AllSelectablesNoAlloc(Selectable[] selectables) { }
 
-	// RVA: 0x1724610 Offset: 0x1722C10 VA: 0x181724610
+	// RVA: 0x1650250 Offset: 0x164E850 VA: 0x181650250
 	public Navigation get_navigation() { }
 
-	// RVA: 0x1724900 Offset: 0x1722F00 VA: 0x181724900
+	// RVA: 0x171DD20 Offset: 0x171C320 VA: 0x18171DD20
 	public void set_navigation(Navigation value) { }
 
-	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
+	// RVA: 0x5DE3D0 Offset: 0x5DC9D0 VA: 0x1805DE3D0
 	public Selectable.Transition get_transition() { }
 
-	// RVA: 0x1724A50 Offset: 0x1723050 VA: 0x181724A50
+	// RVA: 0x171DE70 Offset: 0x171C470 VA: 0x18171DE70
 	public void set_transition(Selectable.Transition value) { }
 
-	// RVA: 0x17244C0 Offset: 0x1722AC0 VA: 0x1817244C0
+	// RVA: 0x171D900 Offset: 0x171BF00 VA: 0x18171D900
 	public ColorBlock get_colors() { }
 
-	// RVA: 0x17246B0 Offset: 0x1722CB0 VA: 0x1817246B0
+	// RVA: 0x171DAD0 Offset: 0x171C0D0 VA: 0x18171DAD0
 	public void set_colors(ColorBlock value) { }
 
-	// RVA: 0x1724630 Offset: 0x1722C30 VA: 0x181724630
+	// RVA: 0x171DA50 Offset: 0x171C050 VA: 0x18171DA50
 	public SpriteState get_spriteState() { }
 
-	// RVA: 0x1724980 Offset: 0x1722F80 VA: 0x181724980
+	// RVA: 0x171DDA0 Offset: 0x171C3A0 VA: 0x18171DDA0
 	public void set_spriteState(SpriteState value) { }
 
-	// RVA: 0x104F470 Offset: 0x104DA70 VA: 0x18104F470
+	// RVA: 0x79BE20 Offset: 0x79A420 VA: 0x18079BE20
 	public AnimationTriggers get_animationTriggers() { }
 
-	// RVA: 0x1724650 Offset: 0x1722C50 VA: 0x181724650
+	// RVA: 0x171DA70 Offset: 0x171C070 VA: 0x18171DA70
 	public void set_animationTriggers(AnimationTriggers value) { }
 
-	// RVA: 0xC73D40 Offset: 0xC72340 VA: 0x180C73D40
+	// RVA: 0x79BDF0 Offset: 0x79A3F0 VA: 0x18079BDF0
 	public Graphic get_targetGraphic() { }
 
-	// RVA: 0x17249F0 Offset: 0x1722FF0 VA: 0x1817249F0
+	// RVA: 0x171DE10 Offset: 0x171C410 VA: 0x18171DE10
 	public void set_targetGraphic(Graphic value) { }
 
-	// RVA: 0x13F1C20 Offset: 0x13F0220 VA: 0x1813F1C20
+	// RVA: 0x79BE00 Offset: 0x79A400 VA: 0x18079BE00
 	public bool get_interactable() { }
 
-	// RVA: 0x1724760 Offset: 0x1722D60 VA: 0x181724760
+	// RVA: 0x171DB80 Offset: 0x171C180 VA: 0x18171DB80
 	public void set_interactable(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1724600 Offset: 0x1722C00 VA: 0x181724600
+	// RVA: 0x171DA40 Offset: 0x171C040 VA: 0x18171DA40
 	private bool get_isPointerInside() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x17248F0 Offset: 0x1722EF0 VA: 0x1817248F0
+	// RVA: 0x171DD10 Offset: 0x171C310 VA: 0x18171DD10
 	private void set_isPointerInside(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x17245F0 Offset: 0x1722BF0 VA: 0x1817245F0
+	// RVA: 0x171DA30 Offset: 0x171C030 VA: 0x18171DA30
 	private bool get_isPointerDown() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x17248E0 Offset: 0x1722EE0 VA: 0x1817248E0
+	// RVA: 0x171DD00 Offset: 0x171C300 VA: 0x18171DD00
 	private void set_isPointerDown(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x15F9D10 Offset: 0x15F8310 VA: 0x1815F9D10
+	// RVA: 0x15E7030 Offset: 0x15E5630 VA: 0x1815E7030
 	private bool get_hasSelection() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1724750 Offset: 0x1722D50 VA: 0x181724750
+	// RVA: 0x171DB70 Offset: 0x171C170 VA: 0x18171DB70
 	private void set_hasSelection(bool value) { }
 
-	// RVA: 0x17240B0 Offset: 0x17226B0 VA: 0x1817240B0
+	// RVA: 0x171D4F0 Offset: 0x171BAF0 VA: 0x18171D4F0
 	protected void .ctor() { }
 
-	// RVA: 0x1724570 Offset: 0x1722B70 VA: 0x181724570
+	// RVA: 0x171D9B0 Offset: 0x171BFB0 VA: 0x18171D9B0
 	public Image get_image() { }
 
-	// RVA: 0xC73E90 Offset: 0xC72490 VA: 0x180C73E90
+	// RVA: 0x79BE70 Offset: 0x79A470 VA: 0x18079BE70
 	public void set_image(Image value) { }
 
-	// RVA: 0x1724480 Offset: 0x1722A80 VA: 0x181724480
+	// RVA: 0x171D8C0 Offset: 0x171BEC0 VA: 0x18171D8C0
 	public Animator get_animator() { }
 
-	// RVA: 0x1721C20 Offset: 0x1720220 VA: 0x181721C20 Slot: 4
+	// RVA: 0x171B060 Offset: 0x1719660 VA: 0x18171B060 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0x1722F90 Offset: 0x1721590 VA: 0x181722F90 Slot: 14
+	// RVA: 0x171C3D0 Offset: 0x171A9D0 VA: 0x18171C3D0 Slot: 14
 	protected override void OnCanvasGroupChanged() { }
 
-	// RVA: 0x1722E70 Offset: 0x1721470 VA: 0x181722E70 Slot: 24
+	// RVA: 0x171C2B0 Offset: 0x171A8B0 VA: 0x18171C2B0 Slot: 24
 	public virtual bool IsInteractable() { }
 
-	// RVA: 0x1723180 Offset: 0x1721780 VA: 0x181723180 Slot: 13
+	// RVA: 0x171C5C0 Offset: 0x171ABC0 VA: 0x18171C5C0 Slot: 13
 	protected override void OnDidApplyAnimationProperties() { }
 
-	// RVA: 0x1723270 Offset: 0x1721870 VA: 0x181723270 Slot: 5
+	// RVA: 0x171C6B0 Offset: 0x171ACB0 VA: 0x18171C6B0 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x1723960 Offset: 0x1721F60 VA: 0x181723960 Slot: 12
+	// RVA: 0x171CDA0 Offset: 0x171B3A0 VA: 0x18171CDA0 Slot: 12
 	protected override void OnTransformParentChanged() { }
 
-	// RVA: 0x1723180 Offset: 0x1721780 VA: 0x181723180
+	// RVA: 0x171C5C0 Offset: 0x171ABC0 VA: 0x18171C5C0
 	private void OnSetProperty() { }
 
-	// RVA: 0x17231F0 Offset: 0x17217F0 VA: 0x1817231F0 Slot: 7
+	// RVA: 0x171C630 Offset: 0x171AC30 VA: 0x18171C630 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x1723990 Offset: 0x1721F90 VA: 0x181723990
+	// RVA: 0x171CDD0 Offset: 0x171B3D0 VA: 0x18171CDD0
 	private static void RemoveInvalidSelectables() { }
 
-	// RVA: 0x1724500 Offset: 0x1722B00 VA: 0x181724500
+	// RVA: 0x171D940 Offset: 0x171BF40 VA: 0x18171D940
 	protected Selectable.SelectionState get_currentSelectionState() { }
 
-	// RVA: 0x1722CE0 Offset: 0x17212E0 VA: 0x181722CE0 Slot: 25
+	// RVA: 0x171C120 Offset: 0x171A720 VA: 0x18171C120 Slot: 25
 	protected virtual void InstantClearState() { }
 
-	// RVA: 0x1721D60 Offset: 0x1720360 VA: 0x181721D60 Slot: 26
+	// RVA: 0x171B1A0 Offset: 0x17197A0 VA: 0x18171B1A0 Slot: 26
 	protected virtual void DoStateTransition(Selectable.SelectionState state, bool instant) { }
 
-	// RVA: 0x17224B0 Offset: 0x1720AB0 VA: 0x1817224B0
+	// RVA: 0x171B8F0 Offset: 0x1719EF0 VA: 0x18171B8F0
 	public Selectable FindSelectable(Vector3 dir) { }
 
-	// RVA: 0x1722A30 Offset: 0x1721030 VA: 0x181722A30
+	// RVA: 0x171BE70 Offset: 0x171A470 VA: 0x18171BE70
 	private static Vector3 GetPointOnRectEdge(RectTransform rect, Vector2 dir) { }
 
-	// RVA: 0x1722EE0 Offset: 0x17214E0 VA: 0x181722EE0
+	// RVA: 0x171C320 Offset: 0x171A920 VA: 0x18171C320
 	private void Navigate(AxisEventData eventData, Selectable sel) { }
 
-	// RVA: 0x17220F0 Offset: 0x17206F0 VA: 0x1817220F0 Slot: 27
+	// RVA: 0x171B530 Offset: 0x1719B30 VA: 0x18171B530 Slot: 27
 	public virtual Selectable FindSelectableOnLeft() { }
 
-	// RVA: 0x1722230 Offset: 0x1720830 VA: 0x181722230 Slot: 28
+	// RVA: 0x171B670 Offset: 0x1719C70 VA: 0x18171B670 Slot: 28
 	public virtual Selectable FindSelectableOnRight() { }
 
-	// RVA: 0x1722370 Offset: 0x1720970 VA: 0x181722370 Slot: 29
+	// RVA: 0x171B7B0 Offset: 0x1719DB0 VA: 0x18171B7B0 Slot: 29
 	public virtual Selectable FindSelectableOnUp() { }
 
-	// RVA: 0x1721FB0 Offset: 0x17205B0 VA: 0x181721FB0 Slot: 30
+	// RVA: 0x171B3F0 Offset: 0x17199F0 VA: 0x18171B3F0 Slot: 30
 	public virtual Selectable FindSelectableOnDown() { }
 
-	// RVA: 0x17234E0 Offset: 0x1721AE0 VA: 0x1817234E0 Slot: 31
+	// RVA: 0x171C920 Offset: 0x171AF20 VA: 0x18171C920 Slot: 31
 	public virtual void OnMove(AxisEventData eventData) { }
 
-	// RVA: 0x1723CF0 Offset: 0x17222F0 VA: 0x181723CF0
+	// RVA: 0x171D130 Offset: 0x171B730 VA: 0x18171D130
 	private void StartColorTween(Color targetColor, bool instant) { }
 
-	// RVA: 0x1721CC0 Offset: 0x17202C0 VA: 0x181721CC0
+	// RVA: 0x171B100 Offset: 0x1719700 VA: 0x18171B100
 	private void DoSpriteSwap(Sprite newSprite) { }
 
-	// RVA: 0x1723DD0 Offset: 0x17223D0 VA: 0x181723DD0
+	// RVA: 0x171D210 Offset: 0x171B810 VA: 0x18171D210
 	private void TriggerAnimation(string triggername) { }
 
-	// RVA: 0x1722E10 Offset: 0x1721410 VA: 0x181722E10
+	// RVA: 0x171C250 Offset: 0x171A850 VA: 0x18171C250
 	protected bool IsHighlighted() { }
 
-	// RVA: 0x1722E90 Offset: 0x1721490 VA: 0x181722E90
+	// RVA: 0x171C2D0 Offset: 0x171A8D0 VA: 0x18171C2D0
 	protected bool IsPressed() { }
 
-	// RVA: 0x1721F40 Offset: 0x1720540 VA: 0x181721F40
+	// RVA: 0x171B380 Offset: 0x1719980 VA: 0x18171B380
 	private void EvaluateAndTransitionToSelectionState() { }
 
-	// RVA: 0x1723610 Offset: 0x1721C10 VA: 0x181723610 Slot: 32
+	// RVA: 0x171CA50 Offset: 0x171B050 VA: 0x18171CA50 Slot: 32
 	public virtual void OnPointerDown(PointerEventData eventData) { }
 
-	// RVA: 0x1723870 Offset: 0x1721E70 VA: 0x181723870 Slot: 33
+	// RVA: 0x171CCB0 Offset: 0x171B2B0 VA: 0x18171CCB0 Slot: 33
 	public virtual void OnPointerUp(PointerEventData eventData) { }
 
-	// RVA: 0x1723790 Offset: 0x1721D90 VA: 0x181723790 Slot: 34
+	// RVA: 0x171CBD0 Offset: 0x171B1D0 VA: 0x18171CBD0 Slot: 34
 	public virtual void OnPointerEnter(PointerEventData eventData) { }
 
-	// RVA: 0x1723800 Offset: 0x1721E00 VA: 0x181723800 Slot: 35
+	// RVA: 0x171CC40 Offset: 0x171B240 VA: 0x18171CC40 Slot: 35
 	public virtual void OnPointerExit(PointerEventData eventData) { }
 
-	// RVA: 0x17238F0 Offset: 0x1721EF0 VA: 0x1817238F0 Slot: 36
+	// RVA: 0x171CD30 Offset: 0x171B330 VA: 0x18171CD30 Slot: 36
 	public virtual void OnSelect(BaseEventData eventData) { }
 
-	// RVA: 0x1723110 Offset: 0x1721710 VA: 0x181723110 Slot: 37
+	// RVA: 0x171C550 Offset: 0x171AB50 VA: 0x18171C550 Slot: 37
 	public virtual void OnDeselect(BaseEventData eventData) { }
 
-	// RVA: 0x1723BE0 Offset: 0x17221E0 VA: 0x181723BE0 Slot: 38
+	// RVA: 0x171D020 Offset: 0x171B620 VA: 0x18171D020 Slot: 38
 	public virtual void Select() { }
 
-	// RVA: 0x1724030 Offset: 0x1722630 VA: 0x181724030
+	// RVA: 0x171D470 Offset: 0x171BA70 VA: 0x18171D470
 	private static void .cctor() { }
 
 }

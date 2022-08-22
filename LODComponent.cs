@@ -25,52 +25,52 @@ public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD /
 
 	// Methods
 
-	// RVA: 0x684AD0 Offset: 0x6830D0 VA: 0x180684AD0
+	// RVA: 0x684A60 Offset: 0x683060 VA: 0x180684A60
 	public static HashSet<LODComponent> get_OccludeeSet() { }
 
-	// RVA: 0x684AC0 Offset: 0x6830C0 VA: 0x180684AC0
+	// RVA: 0x684A50 Offset: 0x683050 VA: 0x180684A50
 	public float get_CurrentDistance() { }
 
-	// RVA: 0x6835D0 Offset: 0x681BD0 VA: 0x1806835D0
+	// RVA: 0x683560 Offset: 0x681B60 VA: 0x180683560
 	private float GetDistance() { }
 
-	// RVA: 0x682E30 Offset: 0x681430 VA: 0x180682E30
+	// RVA: 0x682DC0 Offset: 0x6813C0 VA: 0x180682DC0
 	protected void Awake() { }
 
-	// RVA: 0x684160 Offset: 0x682760 VA: 0x180684160
+	// RVA: 0x6840F0 Offset: 0x6826F0 VA: 0x1806840F0
 	public void SetEnvironmentMode(LODEnvironmentMode mode) { }
 
-	// RVA: 0x683980 Offset: 0x681F80 VA: 0x180683980
+	// RVA: 0x683910 Offset: 0x681F10 VA: 0x180683910
 	protected void OnEnable() { }
 
-	// RVA: 0x683720 Offset: 0x681D20 VA: 0x180683720
+	// RVA: 0x6836B0 Offset: 0x681CB0 VA: 0x1806836B0
 	protected void OnDisable() { }
 
-	// RVA: 0x683540 Offset: 0x681B40 VA: 0x180683540
+	// RVA: 0x6834D0 Offset: 0x681AD0 VA: 0x1806834D0
 	private void EnableCulling() { }
 
-	// RVA: 0x6834B0 Offset: 0x681AB0 VA: 0x1806834B0
+	// RVA: 0x683440 Offset: 0x681A40 VA: 0x180683440
 	private void DisableCulling() { }
 
-	// RVA: 0x683CC0 Offset: 0x6822C0 VA: 0x180683CC0 Slot: 7
+	// RVA: 0x683C50 Offset: 0x682250 VA: 0x180683C50 Slot: 7
 	public void RefreshLOD() { }
 
-	// RVA: 0x683380 Offset: 0x681980 VA: 0x180683380 Slot: 6
+	// RVA: 0x683310 Offset: 0x681910 VA: 0x180683310 Slot: 6
 	public void ChangeLOD() { }
 
-	// RVA: 0x6831D0 Offset: 0x6817D0 VA: 0x1806831D0
+	// RVA: 0x683160 Offset: 0x681760 VA: 0x180683160
 	private void ChangeCulling(float distance) { }
 
-	// RVA: 0x683370 Offset: 0x681970 VA: 0x180683370
+	// RVA: 0x683300 Offset: 0x681900 VA: 0x180683300
 	private void ChangeCulling() { }
 
-	// RVA: 0x682F10 Offset: 0x681510 VA: 0x180682F10
+	// RVA: 0x682EA0 Offset: 0x6814A0 VA: 0x180682EA0
 	public static void ChangeCullingAll() { }
 
-	// RVA: 0x684880 Offset: 0x682E80 VA: 0x180684880
+	// RVA: 0x684810 Offset: 0x682E10 VA: 0x180684810
 	private void UpdateVisibility() { }
 
-	// RVA: 0x684170 Offset: 0x682770 VA: 0x180684170
+	// RVA: 0x684100 Offset: 0x682700 VA: 0x180684100
 	public void SetVisible(bool state) { }
 
 	// RVA: -1 Offset: -1 Slot: 8
@@ -94,46 +94,46 @@ public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD /
 	// RVA: -1 Offset: -1 Slot: 14
 	protected abstract void Hide();
 
-	// RVA: 0x683700 Offset: 0x681D00 VA: 0x180683700 Slot: 15
+	// RVA: 0x683690 Offset: 0x681C90 VA: 0x180683690 Slot: 15
 	protected virtual void Hide(bool shadowsVisible) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 16
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 16
 	protected virtual bool IsLODHiding() { }
 
-	// RVA: 0x684910 Offset: 0x682F10 VA: 0x180684910
+	// RVA: 0x6848A0 Offset: 0x682EA0 VA: 0x1806848A0
 	public void WorkshopMode() { }
 
-	// RVA: 0x6834A0 Offset: 0x681AA0 VA: 0x1806834A0 Slot: 17
+	// RVA: 0x683430 Offset: 0x681A30 VA: 0x180683430 Slot: 17
 	protected virtual bool ComputeCullingSphereBounds(out OcclusionCulling.Sphere sphereBounds) { }
 
-	// RVA: 0x684860 Offset: 0x682E60 VA: 0x180684860
+	// RVA: 0x6847F0 Offset: 0x682DF0 VA: 0x1806847F0
 	private void UpdateShadowRange() { }
 
-	// RVA: 0x6833F0 Offset: 0x6819F0 VA: 0x1806833F0
+	// RVA: 0x683380 Offset: 0x681980 VA: 0x180683380
 	public static void ClearOccludees() { }
 
-	// RVA: 0x684270 Offset: 0x682870 VA: 0x180684270
+	// RVA: 0x684200 Offset: 0x682800 VA: 0x180684200
 	private static void UpdateDynamicOccludeeBounds(LODComponent lodcomp) { }
 
-	// RVA: 0x6843C0 Offset: 0x6829C0 VA: 0x1806843C0
+	// RVA: 0x684350 Offset: 0x682950 VA: 0x180684350
 	public static void UpdateDynamicOccludees() { }
 
-	// RVA: 0x684100 Offset: 0x682700 VA: 0x180684100
+	// RVA: 0x684090 Offset: 0x682690 VA: 0x180684090
 	public void ResetCulling() { }
 
-	// RVA: 0x683EA0 Offset: 0x6824A0 VA: 0x180683EA0 Slot: 18
+	// RVA: 0x683E30 Offset: 0x682430 VA: 0x180683E30 Slot: 18
 	protected virtual void RegisterToCulling(bool isVisible = True) { }
 
-	// RVA: 0x684180 Offset: 0x682780 VA: 0x180684180 Slot: 19
+	// RVA: 0x684110 Offset: 0x682710 VA: 0x180684110 Slot: 19
 	protected virtual void UnregisterFromCulling() { }
 
-	// RVA: 0x683B80 Offset: 0x682180 VA: 0x180683B80 Slot: 20
+	// RVA: 0x683B10 Offset: 0x682110 VA: 0x180683B10 Slot: 20
 	protected virtual void OnVisibilityChanged(bool visible) { }
 
-	// RVA: 0x684A20 Offset: 0x683020 VA: 0x180684A20
+	// RVA: 0x6849B0 Offset: 0x682FB0 VA: 0x1806849B0
 	protected void .ctor() { }
 
-	// RVA: 0x684940 Offset: 0x682F40 VA: 0x180684940
+	// RVA: 0x6848D0 Offset: 0x682ED0 VA: 0x1806848D0
 	private static void .cctor() { }
 
 }
@@ -158,13 +158,13 @@ private sealed class LODComponent.<>c // TypeDefIndex: 9932
 
 	// Methods
 
-	// RVA: 0x6910B0 Offset: 0x68F6B0 VA: 0x1806910B0
+	// RVA: 0x691040 Offset: 0x68F640 VA: 0x180691040
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x690D40 Offset: 0x68F340 VA: 0x180690D40
+	// RVA: 0x690CD0 Offset: 0x68F2D0 VA: 0x180690CD0
 	internal bool <ChangeCullingAll>b__34_0(LODComponent i) { }
 
 }

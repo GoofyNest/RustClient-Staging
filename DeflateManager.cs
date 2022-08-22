@@ -80,112 +80,112 @@ internal sealed class DeflateManager // TypeDefIndex: 6942
 
 	// Methods
 
-	// RVA: 0x21CAE20 Offset: 0x21C9420 VA: 0x1821CAE20
+	// RVA: 0x21CB640 Offset: 0x21C9C40 VA: 0x1821CB640
 	internal void .ctor() { }
 
-	// RVA: 0x21CA3C0 Offset: 0x21C89C0 VA: 0x1821CA3C0
+	// RVA: 0x21CABE0 Offset: 0x21C91E0 VA: 0x1821CABE0
 	private void _InitializeLazyMatch() { }
 
-	// RVA: 0x21CA5D0 Offset: 0x21C8BD0 VA: 0x1821CA5D0
+	// RVA: 0x21CADF0 Offset: 0x21C93F0 VA: 0x1821CADF0
 	private void _InitializeTreeData() { }
 
-	// RVA: 0x21CA1A0 Offset: 0x21C87A0 VA: 0x1821CA1A0
+	// RVA: 0x21CA9C0 Offset: 0x21C8FC0 VA: 0x1821CA9C0
 	internal void _InitializeBlocks() { }
 
-	// RVA: 0x21CCCC0 Offset: 0x21CB2C0 VA: 0x1821CCCC0
+	// RVA: 0x21CD4E0 Offset: 0x21CBAE0 VA: 0x1821CD4E0
 	internal void pqdownheap(short[] tree, int k) { }
 
-	// RVA: 0x21CA740 Offset: 0x21C8D40 VA: 0x1821CA740
+	// RVA: 0x21CAF60 Offset: 0x21C9560 VA: 0x1821CAF60
 	internal static bool _IsSmaller(short[] tree, int n, int m, sbyte[] depth) { }
 
-	// RVA: 0x21CCF60 Offset: 0x21CB560 VA: 0x1821CCF60
+	// RVA: 0x21CD780 Offset: 0x21CBD80 VA: 0x1821CD780
 	internal void scan_tree(short[] tree, int max_code) { }
 
-	// RVA: 0x21CC2C0 Offset: 0x21CA8C0 VA: 0x1821CC2C0
+	// RVA: 0x21CCAE0 Offset: 0x21CB0E0 VA: 0x1821CCAE0
 	internal int build_bl_tree() { }
 
-	// RVA: 0x21CD2A0 Offset: 0x21CB8A0 VA: 0x1821CD2A0
+	// RVA: 0x21CDAC0 Offset: 0x21CC0C0 VA: 0x1821CDAC0
 	internal void send_all_trees(int lcodes, int dcodes, int blcodes) { }
 
-	// RVA: 0x21CDB50 Offset: 0x21CC150 VA: 0x1821CDB50
+	// RVA: 0x21CE370 Offset: 0x21CC970 VA: 0x1821CE370
 	internal void send_tree(short[] tree, int max_code) { }
 
-	// RVA: 0x21CCF10 Offset: 0x21CB510 VA: 0x1821CCF10
+	// RVA: 0x21CD730 Offset: 0x21CBD30 VA: 0x1821CD730
 	private void put_bytes(byte[] p, int start, int len) { }
 
-	// RVA: 0x21CD5C0 Offset: 0x21CBBC0 VA: 0x1821CD5C0
+	// RVA: 0x21CDDE0 Offset: 0x21CC3E0 VA: 0x1821CDDE0
 	internal void send_code(int c, short[] tree) { }
 
-	// RVA: 0x21CD420 Offset: 0x21CBA20 VA: 0x1821CD420
+	// RVA: 0x21CDC40 Offset: 0x21CC240 VA: 0x1821CDC40
 	internal void send_bits(int value, int length) { }
 
-	// RVA: 0x21CB420 Offset: 0x21C9A20 VA: 0x1821CB420
+	// RVA: 0x21CBC40 Offset: 0x21CA240 VA: 0x1821CBC40
 	internal void _tr_align() { }
 
-	// RVA: 0x21CBD10 Offset: 0x21CA310 VA: 0x1821CBD10
+	// RVA: 0x21CC530 Offset: 0x21CAB30 VA: 0x1821CC530
 	internal bool _tr_tally(int dist, int lc) { }
 
-	// RVA: 0x21CD630 Offset: 0x21CBC30 VA: 0x1821CD630
+	// RVA: 0x21CDE50 Offset: 0x21CC450 VA: 0x1821CDE50
 	internal void send_compressed_block(short[] ltree, short[] dtree) { }
 
-	// RVA: 0x21CDFD0 Offset: 0x21CC5D0 VA: 0x1821CDFD0
+	// RVA: 0x21CE7F0 Offset: 0x21CCDF0 VA: 0x1821CE7F0
 	internal void set_data_type() { }
 
-	// RVA: 0x21CC0C0 Offset: 0x21CA6C0 VA: 0x1821CC0C0
+	// RVA: 0x21CC8E0 Offset: 0x21CAEE0 VA: 0x1821CC8E0
 	internal void bi_flush() { }
 
-	// RVA: 0x21CC1C0 Offset: 0x21CA7C0 VA: 0x1821CC1C0
+	// RVA: 0x21CC9E0 Offset: 0x21CAFE0 VA: 0x1821CC9E0
 	internal void bi_windup() { }
 
-	// RVA: 0x21CC450 Offset: 0x21CAA50 VA: 0x1821CC450
+	// RVA: 0x21CCC70 Offset: 0x21CB270 VA: 0x1821CCC70
 	internal void copy_block(int buf, int len, bool header) { }
 
-	// RVA: 0x21CC5B0 Offset: 0x21CABB0 VA: 0x1821CC5B0
+	// RVA: 0x21CCDD0 Offset: 0x21CB3D0 VA: 0x1821CCDD0
 	internal void flush_block_only(bool eof) { }
 
-	// RVA: 0x21C8720 Offset: 0x21C6D20 VA: 0x1821C8720
+	// RVA: 0x21C8F40 Offset: 0x21C7540 VA: 0x1821C8F40
 	internal BlockState DeflateNone(FlushType flush) { }
 
-	// RVA: 0x21CBB50 Offset: 0x21CA150 VA: 0x1821CBB50
+	// RVA: 0x21CC370 Offset: 0x21CA970 VA: 0x1821CC370
 	internal void _tr_stored_block(int buf, int stored_len, bool eof) { }
 
-	// RVA: 0x21CB650 Offset: 0x21C9C50 VA: 0x1821CB650
+	// RVA: 0x21CBE70 Offset: 0x21CA470 VA: 0x1821CBE70
 	internal void _tr_flush_block(int buf, int stored_len, bool eof) { }
 
-	// RVA: 0x21CB060 Offset: 0x21C9660 VA: 0x1821CB060
+	// RVA: 0x21CB880 Offset: 0x21C9E80 VA: 0x1821CB880
 	private void _fillWindow() { }
 
-	// RVA: 0x21C8070 Offset: 0x21C6670 VA: 0x1821C8070
+	// RVA: 0x21C8890 Offset: 0x21C6E90 VA: 0x1821C8890
 	internal BlockState DeflateFast(FlushType flush) { }
 
-	// RVA: 0x21C8950 Offset: 0x21C6F50 VA: 0x1821C8950
+	// RVA: 0x21C9170 Offset: 0x21C7770 VA: 0x1821C9170
 	internal BlockState DeflateSlow(FlushType flush) { }
 
-	// RVA: 0x21CC620 Offset: 0x21CAC20 VA: 0x1821CC620
+	// RVA: 0x21CCE40 Offset: 0x21CB440 VA: 0x1821CCE40
 	internal int longest_match(int cur_match) { }
 
-	// RVA: 0x21CC610 Offset: 0x21CAC10 VA: 0x1821CC610
+	// RVA: 0x21CCE30 Offset: 0x21CB430 VA: 0x1821CCE30
 	internal bool get_WantRfc1950HeaderBytes() { }
 
-	// RVA: 0x21CDFC0 Offset: 0x21CC5C0 VA: 0x1821CDFC0
+	// RVA: 0x21CE7E0 Offset: 0x21CCDE0 VA: 0x1821CE7E0
 	internal void set_WantRfc1950HeaderBytes(bool value) { }
 
-	// RVA: 0x21C9D90 Offset: 0x21C8390 VA: 0x1821C9D90
+	// RVA: 0x21CA5B0 Offset: 0x21C8BB0 VA: 0x1821CA5B0
 	internal int Initialize(ZlibCodec codec, CompressionLevel level, int bits, CompressionStrategy compressionStrategy) { }
 
-	// RVA: 0x21C9AB0 Offset: 0x21C80B0 VA: 0x1821C9AB0
+	// RVA: 0x21CA2D0 Offset: 0x21C88D0 VA: 0x1821CA2D0
 	internal int Initialize(ZlibCodec codec, CompressionLevel level, int windowBits, int memLevel, CompressionStrategy strategy) { }
 
-	// RVA: 0x21C9E40 Offset: 0x21C8440 VA: 0x1821C9E40
+	// RVA: 0x21CA660 Offset: 0x21C8C60 VA: 0x1821CA660
 	internal void Reset() { }
 
-	// RVA: 0x21CA0D0 Offset: 0x21C86D0 VA: 0x1821CA0D0
+	// RVA: 0x21CA8F0 Offset: 0x21C8EF0 VA: 0x1821CA8F0
 	private void SetDeflater() { }
 
-	// RVA: 0x21C9150 Offset: 0x21C7750 VA: 0x1821C9150
+	// RVA: 0x21C9970 Offset: 0x21C7F70 VA: 0x1821C9970
 	internal int Deflate(FlushType flush) { }
 
-	// RVA: 0x21CA800 Offset: 0x21C8E00 VA: 0x1821CA800
+	// RVA: 0x21CB020 Offset: 0x21C9620 VA: 0x1821CB020
 	private static void .cctor() { }
 
 }
@@ -196,13 +196,13 @@ internal sealed class DeflateManager.CompressFunc : MulticastDelegate // TypeDef
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x19FAA40 Offset: 0x19F9040 VA: 0x1819FAA40 Slot: 12
+	// RVA: 0x19E7E40 Offset: 0x19E6440 VA: 0x1819E7E40 Slot: 12
 	public virtual BlockState Invoke(FlushType flush) { }
 
-	// RVA: 0x21C7920 Offset: 0x21C5F20 VA: 0x1821C7920 Slot: 13
+	// RVA: 0x21C8140 Offset: 0x21C6740 VA: 0x1821C8140 Slot: 13
 	public virtual IAsyncResult BeginInvoke(FlushType flush, AsyncCallback callback, object object) { }
 
-	// RVA: 0xB9A9D0 Offset: 0xB98FD0 VA: 0x180B9A9D0 Slot: 14
+	// RVA: 0xB9AEA0 Offset: 0xB994A0 VA: 0x180B9AEA0 Slot: 14
 	public virtual BlockState EndInvoke(IAsyncResult result) { }
 
 }
@@ -218,13 +218,13 @@ internal class DeflateManager.Config // TypeDefIndex: 6944
 
 	// Methods
 
-	// RVA: 0x21C8010 Offset: 0x21C6610 VA: 0x1821C8010
+	// RVA: 0x21C8830 Offset: 0x21C6E30 VA: 0x1821C8830
 	private void .ctor(int goodLength, int maxLazy, int niceLength, int maxChainLength, DeflateFlavor flavor) { }
 
-	// RVA: 0x21C79A0 Offset: 0x21C5FA0 VA: 0x1821C79A0
+	// RVA: 0x21C81C0 Offset: 0x21C67C0 VA: 0x1821C81C0
 	public static DeflateManager.Config Lookup(CompressionLevel level) { }
 
-	// RVA: 0x21C7A30 Offset: 0x21C6030 VA: 0x1821C7A30
+	// RVA: 0x21C8250 Offset: 0x21C6850 VA: 0x1821C8250
 	private static void .cctor() { }
 
 }

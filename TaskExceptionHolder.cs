@@ -13,49 +13,49 @@ internal class TaskExceptionHolder // TypeDefIndex: 883
 
 	// Methods
 
-	// RVA: 0x1608AC0 Offset: 0x16070C0 VA: 0x181608AC0
+	// RVA: 0x15F5DE0 Offset: 0x15F43E0 VA: 0x1815F5DE0
 	internal void .ctor(Task task) { }
 
-	// RVA: 0x1608A70 Offset: 0x1607070 VA: 0x181608A70
+	// RVA: 0x15F5D90 Offset: 0x15F4390 VA: 0x1815F5D90
 	private static bool ShouldFailFastOnUnobservedException() { }
 
-	// RVA: 0x1608120 Offset: 0x1606720 VA: 0x181608120
+	// RVA: 0x15F5440 Offset: 0x15F3A40 VA: 0x1815F5440
 	private static void EnsureADUnloadCallbackRegistered() { }
 
-	// RVA: 0x1607ED0 Offset: 0x16064D0 VA: 0x181607ED0
+	// RVA: 0x15F51F0 Offset: 0x15F37F0 VA: 0x1815F51F0
 	private static void AppDomainUnloadCallback(object sender, EventArgs e) { }
 
-	// RVA: 0x1608250 Offset: 0x1606850 VA: 0x181608250 Slot: 1
+	// RVA: 0x15F5570 Offset: 0x15F3B70 VA: 0x1815F5570 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1608C50 Offset: 0x1607250 VA: 0x181608C50
+	// RVA: 0x15F5F70 Offset: 0x15F4570 VA: 0x1815F5F70
 	internal bool get_ContainsFaultList() { }
 
-	// RVA: 0x1607DB0 Offset: 0x16063B0 VA: 0x181607DB0
+	// RVA: 0x15F50D0 Offset: 0x15F36D0 VA: 0x1815F50D0
 	internal void Add(object exceptionObject, bool representsCancellation) { }
 
-	// RVA: 0x1608970 Offset: 0x1606F70 VA: 0x181608970
+	// RVA: 0x15F5C90 Offset: 0x15F4290 VA: 0x1815F5C90
 	private void SetCancellationException(object exceptionObject) { }
 
-	// RVA: 0x1607960 Offset: 0x1605F60 VA: 0x181607960
+	// RVA: 0x15F4C80 Offset: 0x15F3280 VA: 0x1815F4C80
 	private void AddFaultException(object exceptionObject) { }
 
-	// RVA: 0x16088F0 Offset: 0x1606EF0 VA: 0x1816088F0
+	// RVA: 0x15F5C10 Offset: 0x15F4210 VA: 0x1815F5C10
 	private void MarkAsUnhandled() { }
 
-	// RVA: 0x1608860 Offset: 0x1606E60 VA: 0x181608860
+	// RVA: 0x15F5B80 Offset: 0x15F4180 VA: 0x1815F5B80
 	internal void MarkAsHandled(bool calledFromFinalizer) { }
 
-	// RVA: 0x1607F30 Offset: 0x1606530 VA: 0x181607F30
+	// RVA: 0x15F5250 Offset: 0x15F3850 VA: 0x1815F5250
 	internal AggregateException CreateExceptionObject(bool calledFromFinalizer, Exception includeThisException) { }
 
-	// RVA: 0x1608790 Offset: 0x1606D90 VA: 0x181608790
+	// RVA: 0x15F5AB0 Offset: 0x15F40B0 VA: 0x1815F5AB0
 	internal ReadOnlyCollection<ExceptionDispatchInfo> GetExceptionDispatchInfos() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	internal ExceptionDispatchInfo GetCancellationExceptionDispatchInfo() { }
 
-	// RVA: 0x1608A80 Offset: 0x1607080 VA: 0x181608A80
+	// RVA: 0x15F5DA0 Offset: 0x15F43A0 VA: 0x1815F5DA0
 	private static void .cctor() { }
 
 }

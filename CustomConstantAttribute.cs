@@ -7,7 +7,7 @@ public abstract class CustomConstantAttribute : Attribute // TypeDefIndex: 1302
 	// RVA: -1 Offset: -1 Slot: 7
 	public abstract object get_Value();
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	protected void .ctor() { }
 
 }

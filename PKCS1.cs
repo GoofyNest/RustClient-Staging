@@ -7,31 +7,31 @@ internal sealed class PKCS1 // TypeDefIndex: 70
 
 	// Methods
 
-	// RVA: 0x1752E80 Offset: 0x1751480 VA: 0x181752E80
+	// RVA: 0x1750A40 Offset: 0x174F040 VA: 0x181750A40
 	private static bool Compare(byte[] array1, byte[] array2) { }
 
-	// RVA: 0x17536E0 Offset: 0x1751CE0 VA: 0x1817536E0
+	// RVA: 0x17512A0 Offset: 0x174F8A0 VA: 0x1817512A0
 	public static byte[] I2OSP(byte[] x, int size) { }
 
-	// RVA: 0x1753760 Offset: 0x1751D60 VA: 0x181753760
+	// RVA: 0x1751320 Offset: 0x174F920 VA: 0x181751320
 	public static byte[] OS2IP(byte[] x) { }
 
-	// RVA: 0x1753830 Offset: 0x1751E30 VA: 0x181753830
+	// RVA: 0x17513F0 Offset: 0x174F9F0 VA: 0x1817513F0
 	public static byte[] RSAVP1(RSA rsa, byte[] s) { }
 
-	// RVA: 0x1753C30 Offset: 0x1752230 VA: 0x181753C30
+	// RVA: 0x17517F0 Offset: 0x174FDF0 VA: 0x1817517F0
 	internal static bool Verify_v15(RSA rsa, string hashName, byte[] hashValue, byte[] signature) { }
 
-	// RVA: 0x1753860 Offset: 0x1751E60 VA: 0x181753860
+	// RVA: 0x1751420 Offset: 0x174FA20 VA: 0x181751420
 	public static bool Verify_v15(RSA rsa, HashAlgorithm hash, byte[] hashValue, byte[] signature, bool tryNonStandardEncoding) { }
 
-	// RVA: 0x17533F0 Offset: 0x17519F0 VA: 0x1817533F0
+	// RVA: 0x1750FB0 Offset: 0x174F5B0 VA: 0x181750FB0
 	public static byte[] Encode_v15(HashAlgorithm hash, byte[] hashValue, int emLength) { }
 
-	// RVA: 0x1752F20 Offset: 0x1751520 VA: 0x181752F20
+	// RVA: 0x1750AE0 Offset: 0x174F0E0 VA: 0x181750AE0
 	internal static HashAlgorithm CreateFromName(string name) { }
 
-	// RVA: 0x1753D70 Offset: 0x1752370 VA: 0x181753D70
+	// RVA: 0x1751930 Offset: 0x174FF30 VA: 0x181751930
 	private static void .cctor() { }
 
 }
@@ -45,16 +45,16 @@ public sealed class PKCS1 // TypeDefIndex: 1757
 
 	// Methods
 
-	// RVA: 0x1AC1120 Offset: 0x1ABF720 VA: 0x181AC1120
+	// RVA: 0x1AC1910 Offset: 0x1ABFF10 VA: 0x181AC1910
 	internal static string HashNameFromOid(string oid, bool throwOnError = True) { }
 
-	// RVA: 0x1AC10C0 Offset: 0x1ABF6C0 VA: 0x181AC10C0
+	// RVA: 0x1AC18B0 Offset: 0x1ABFEB0 VA: 0x181AC18B0
 	internal static HashAlgorithm CreateFromOid(string oid) { }
 
-	// RVA: 0x1AC0C70 Offset: 0x1ABF270 VA: 0x181AC0C70
+	// RVA: 0x1AC1460 Offset: 0x1ABFA60 VA: 0x181AC1460
 	internal static HashAlgorithm CreateFromName(string name) { }
 
-	// RVA: 0x1AC1410 Offset: 0x1ABFA10 VA: 0x181AC1410
+	// RVA: 0x1AC1C00 Offset: 0x1AC0200 VA: 0x181AC1C00
 	private static void .cctor() { }
 
 }

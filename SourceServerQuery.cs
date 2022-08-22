@@ -5,33 +5,33 @@ internal static class SourceServerQuery // TypeDefIndex: 5258
 
 	// Methods
 
-	// RVA: 0xDE4010 Offset: 0xDE2610 VA: 0x180DE4010
+	// RVA: 0xDE4AC0 Offset: 0xDE30C0 VA: 0x180DE4AC0
 	internal static Task<Dictionary<string, string>> GetRules(ServerInfo server) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x99800 Offset: 0x98C00 VA: 0x180099800
-	// RVA: 0xDE3F40 Offset: 0xDE2540 VA: 0x180DE3F40
+	// RVA: 0xDE49F0 Offset: 0xDE2FF0 VA: 0x180DE49F0
 	private static Task<Dictionary<string, string>> GetRulesImpl(IPEndPoint endpoint) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x99C70 Offset: 0x99070 VA: 0x180099C70
-	// RVA: 0xDE4390 Offset: 0xDE2990 VA: 0x180DE4390
+	// RVA: 0xDE4E40 Offset: 0xDE3440 VA: 0x180DE4E40
 	private static Task<Dictionary<string, string>> GetRules(UdpClient client) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x99E60 Offset: 0x99260 VA: 0x180099E60
-	// RVA: 0xDE4460 Offset: 0xDE2A60 VA: 0x180DE4460
+	// RVA: 0xDE4F10 Offset: 0xDE3510 VA: 0x180DE4F10
 	private static Task<byte[]> Receive(UdpClient client) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x99F80 Offset: 0x99380 VA: 0x180099F80
-	// RVA: 0xDE3E70 Offset: 0xDE2470 VA: 0x180DE3E70
+	// RVA: 0xDE4920 Offset: 0xDE2F20 VA: 0x180DE4920
 	private static Task<byte[]> GetChallengeData(UdpClient client) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x9A250 Offset: 0x99650 VA: 0x18009A250
-	// RVA: 0xDE4530 Offset: 0xDE2B30 VA: 0x180DE4530
+	// RVA: 0xDE4FE0 Offset: 0xDE35E0 VA: 0x180DE4FE0
 	private static Task Send(UdpClient client, byte[] message) { }
 
-	// RVA: 0xDE3CF0 Offset: 0xDE22F0 VA: 0x180DE3CF0
+	// RVA: 0xDE47A0 Offset: 0xDE2DA0 VA: 0x180DE47A0
 	private static byte[] Combine(byte[][] arrays) { }
 
-	// RVA: 0xDE4620 Offset: 0xDE2C20 VA: 0x180DE4620
+	// RVA: 0xDE50D0 Offset: 0xDE36D0 VA: 0x180DE50D0
 	private static void .cctor() { }
 
 }
@@ -45,7 +45,7 @@ private sealed class SourceServerQuery.<>c__DisplayClass3_0 // TypeDefIndex: 525
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xDF03D0 Offset: 0xDEE9D0 VA: 0x180DF03D0
+	// RVA: 0xDF0E80 Offset: 0xDEF480 VA: 0x180DF0E80
 	internal Task<Dictionary<string, string>> <GetRules>b__0(Task<Dictionary<string, string>> t) { }
 
 }
@@ -60,11 +60,11 @@ private struct SourceServerQuery.<GetRulesImpl>d__4 : IAsyncStateMachine // Type
 
 	// Methods
 
-	// RVA: 0x123540 Offset: 0x122940 VA: 0x180123540 Slot: 4
+	// RVA: 0x123360 Offset: 0x122760 VA: 0x180123360 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x123550 Offset: 0x122950 VA: 0x180123550 Slot: 5
+	// RVA: 0x123370 Offset: 0x122770 VA: 0x180123370 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -79,11 +79,11 @@ private struct SourceServerQuery.<GetRules>d__5 : IAsyncStateMachine // TypeDefI
 
 	// Methods
 
-	// RVA: 0x1235A0 Offset: 0x1229A0 VA: 0x1801235A0 Slot: 4
+	// RVA: 0x1233C0 Offset: 0x1227C0 VA: 0x1801233C0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1235B0 Offset: 0x1229B0 VA: 0x1801235B0 Slot: 5
+	// RVA: 0x1233D0 Offset: 0x1227D0 VA: 0x1801233D0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -96,16 +96,16 @@ private sealed class SourceServerQuery.<>c // TypeDefIndex: 5262
 
 	// Methods
 
-	// RVA: 0xDF0600 Offset: 0xDEEC00 VA: 0x180DF0600
+	// RVA: 0xDF10B0 Offset: 0xDEF6B0 VA: 0x180DF10B0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xDF02D0 Offset: 0xDEE8D0 VA: 0x180DF02D0
+	// RVA: 0xDF0D80 Offset: 0xDEF380 VA: 0x180DF0D80
 	internal bool <Receive>b__6_0(byte[] p) { }
 
-	// RVA: 0xDEF510 Offset: 0xDEDB10 VA: 0x180DEF510
+	// RVA: 0xDEFFC0 Offset: 0xDEE5C0 VA: 0x180DEFFC0
 	internal int <Combine>b__9_0(byte[] a) { }
 
 }
@@ -120,11 +120,11 @@ private struct SourceServerQuery.<Receive>d__6 : IAsyncStateMachine // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x123660 Offset: 0x122A60 VA: 0x180123660 Slot: 4
+	// RVA: 0x123480 Offset: 0x122880 VA: 0x180123480 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x123670 Offset: 0x122A70 VA: 0x180123670 Slot: 5
+	// RVA: 0x123490 Offset: 0x122890 VA: 0x180123490 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -139,11 +139,11 @@ private struct SourceServerQuery.<GetChallengeData>d__7 : IAsyncStateMachine // 
 
 	// Methods
 
-	// RVA: 0x123420 Offset: 0x122820 VA: 0x180123420 Slot: 4
+	// RVA: 0x123240 Offset: 0x122640 VA: 0x180123240 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x123430 Offset: 0x122830 VA: 0x180123430 Slot: 5
+	// RVA: 0x123250 Offset: 0x122650 VA: 0x180123250 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -158,7 +158,7 @@ private struct SourceServerQuery.<Send>d__8 : IAsyncStateMachine // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x123780 Offset: 0x122B80 VA: 0x180123780 Slot: 4
+	// RVA: 0x1235A0 Offset: 0x1229A0 VA: 0x1801235A0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

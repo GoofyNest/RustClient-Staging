@@ -23,61 +23,61 @@ internal class GregorianCalendarHelper // TypeDefIndex: 704
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	internal int get_MaxYear() { }
 
-	// RVA: 0x16F3590 Offset: 0x16F1B90 VA: 0x1816F3590
+	// RVA: 0x16F1180 Offset: 0x16EF780 VA: 0x1816F1180
 	internal void .ctor(Calendar cal, EraInfo[] eraInfo) { }
 
-	// RVA: 0x16F2B70 Offset: 0x16F1170 VA: 0x1816F2B70
+	// RVA: 0x16F0760 Offset: 0x16EED60 VA: 0x1816F0760
 	internal int GetGregorianYear(int year, int era) { }
 
-	// RVA: 0x16F2FD0 Offset: 0x16F15D0 VA: 0x1816F2FD0
+	// RVA: 0x16F0BC0 Offset: 0x16EF1C0 VA: 0x1816F0BC0
 	internal bool IsValidYear(int year, int era) { }
 
-	// RVA: 0x16F2600 Offset: 0x16F0C00 VA: 0x1816F2600 Slot: 4
+	// RVA: 0x16F01F0 Offset: 0x16EE7F0 VA: 0x1816F01F0 Slot: 4
 	internal virtual int GetDatePart(long ticks, int part) { }
 
-	// RVA: 0x16F23F0 Offset: 0x16F09F0 VA: 0x1816F23F0
+	// RVA: 0x16EFFE0 Offset: 0x16EE5E0 VA: 0x1816EFFE0
 	internal static long GetAbsoluteDate(int year, int month, int day) { }
 
-	// RVA: 0x16F2370 Offset: 0x16F0970 VA: 0x1816F2370
+	// RVA: 0x16EFF60 Offset: 0x16EE560 VA: 0x1816EFF60
 	internal static long DateToTicks(int year, int month, int day) { }
 
-	// RVA: 0x16F3080 Offset: 0x16F1680 VA: 0x1816F3080
+	// RVA: 0x16F0C70 Offset: 0x16EF270 VA: 0x1816F0C70
 	internal static long TimeToTicks(int hour, int minute, int second, int millisecond) { }
 
-	// RVA: 0x16F21B0 Offset: 0x16F07B0 VA: 0x1816F21B0
+	// RVA: 0x16EFDA0 Offset: 0x16EE3A0 VA: 0x1816EFDA0
 	internal void CheckTicksRange(long ticks) { }
 
-	// RVA: 0x16F2820 Offset: 0x16F0E20 VA: 0x1816F2820
+	// RVA: 0x16F0410 Offset: 0x16EEA10 VA: 0x1816F0410
 	public int GetDayOfMonth(DateTime time) { }
 
-	// RVA: 0x16F2860 Offset: 0x16F0E60 VA: 0x1816F2860
+	// RVA: 0x16F0450 Offset: 0x16EEA50 VA: 0x1816F0450
 	public DayOfWeek GetDayOfWeek(DateTime time) { }
 
-	// RVA: 0x16F28D0 Offset: 0x16F0ED0 VA: 0x1816F28D0
+	// RVA: 0x16F04C0 Offset: 0x16EEAC0 VA: 0x1816F04C0
 	public int GetDaysInMonth(int year, int month, int era) { }
 
-	// RVA: 0x16F2A90 Offset: 0x16F1090 VA: 0x1816F2A90
+	// RVA: 0x16F0680 Offset: 0x16EEC80 VA: 0x1816F0680
 	public int GetEra(DateTime time) { }
 
-	// RVA: 0x16F3670 Offset: 0x16F1C70 VA: 0x1816F3670
+	// RVA: 0x16F1260 Offset: 0x16EF860 VA: 0x1816F1260
 	public int[] get_Eras() { }
 
-	// RVA: 0x16F2E00 Offset: 0x16F1400 VA: 0x1816F2E00
+	// RVA: 0x16F09F0 Offset: 0x16EEFF0 VA: 0x1816F09F0
 	public int GetMonth(DateTime time) { }
 
-	// RVA: 0x16F2E40 Offset: 0x16F1440 VA: 0x1816F2E40
+	// RVA: 0x16F0A30 Offset: 0x16EF030 VA: 0x1816F0A30
 	public int GetMonthsInYear(int year, int era) { }
 
-	// RVA: 0x16F2E60 Offset: 0x16F1460 VA: 0x1816F2E60
+	// RVA: 0x16F0A50 Offset: 0x16EF050 VA: 0x1816F0A50
 	public int GetYear(DateTime time) { }
 
-	// RVA: 0x16F2F60 Offset: 0x16F1560 VA: 0x1816F2F60
+	// RVA: 0x16F0B50 Offset: 0x16EF150 VA: 0x1816F0B50
 	public bool IsLeapYear(int year, int era) { }
 
-	// RVA: 0x16F3220 Offset: 0x16F1820 VA: 0x1816F3220
+	// RVA: 0x16F0E10 Offset: 0x16EF410 VA: 0x1816F0E10
 	public DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era) { }
 
-	// RVA: 0x16F34E0 Offset: 0x16F1AE0 VA: 0x1816F34E0
+	// RVA: 0x16F10D0 Offset: 0x16EF6D0 VA: 0x1816F10D0
 	private static void .cctor() { }
 
 }

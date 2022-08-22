@@ -20,40 +20,40 @@ public sealed class X509ChainPolicy // TypeDefIndex: 2828
 
 	// Methods
 
-	// RVA: 0x14D91C0 Offset: 0x14D77C0 VA: 0x1814D91C0
+	// RVA: 0x14D8290 Offset: 0x14D6890 VA: 0x1814D8290
 	public void .ctor() { }
 
-	// RVA: 0x14D9180 Offset: 0x14D7780 VA: 0x1814D9180
+	// RVA: 0x14D8250 Offset: 0x14D6850 VA: 0x1814D8250
 	internal void .ctor(X509CertificateCollection store) { }
 
-	// RVA: 0x14D91E0 Offset: 0x14D77E0 VA: 0x1814D91E0
+	// RVA: 0x14D82B0 Offset: 0x14D68B0 VA: 0x1814D82B0
 	public X509Certificate2Collection get_ExtraStore() { }
 
-	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
+	// RVA: 0xA39490 Offset: 0xA37A90 VA: 0x180A39490
 	public X509RevocationFlag get_RevocationFlag() { }
 
-	// RVA: 0x14D94A0 Offset: 0x14D7AA0 VA: 0x1814D94A0
+	// RVA: 0x14D8570 Offset: 0x14D6B70 VA: 0x1814D8570
 	public void set_RevocationFlag(X509RevocationFlag value) { }
 
-	// RVA: 0x5E2F40 Offset: 0x5E1540 VA: 0x1805E2F40
+	// RVA: 0x5E2ED0 Offset: 0x5E14D0 VA: 0x1805E2ED0
 	public X509RevocationMode get_RevocationMode() { }
 
-	// RVA: 0x14D9510 Offset: 0x14D7B10 VA: 0x1814D9510
+	// RVA: 0x14D85E0 Offset: 0x14D6BE0 VA: 0x1814D85E0
 	public void set_RevocationMode(X509RevocationMode value) { }
 
-	// RVA: 0xC15300 Offset: 0xC13900 VA: 0x180C15300
+	// RVA: 0xC157D0 Offset: 0xC13DD0 VA: 0x180C157D0
 	public void set_UrlRetrievalTimeout(TimeSpan value) { }
 
-	// RVA: 0x5DE440 Offset: 0x5DCA40 VA: 0x1805DE440
+	// RVA: 0x5DE3D0 Offset: 0x5DC9D0 VA: 0x1805DE3D0
 	public X509VerificationFlags get_VerificationFlags() { }
 
-	// RVA: 0x14D9580 Offset: 0x14D7B80 VA: 0x1814D9580
+	// RVA: 0x14D8650 Offset: 0x14D6C50 VA: 0x1814D8650
 	public void set_VerificationFlags(X509VerificationFlags value) { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	public DateTime get_VerificationTime() { }
 
-	// RVA: 0x14D9070 Offset: 0x14D7670 VA: 0x1814D9070
+	// RVA: 0x14D8140 Offset: 0x14D6740 VA: 0x1814D8140
 	public void Reset() { }
 
 }

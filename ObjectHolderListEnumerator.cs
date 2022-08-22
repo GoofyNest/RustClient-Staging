@@ -10,13 +10,13 @@ internal class ObjectHolderListEnumerator // TypeDefIndex: 1043
 
 	// Methods
 
-	// RVA: 0x1293620 Offset: 0x1291C20 VA: 0x181293620
+	// RVA: 0x1293CC0 Offset: 0x12922C0 VA: 0x181293CC0
 	internal void .ctor(ObjectHolderList list, bool isFixupEnumerator) { }
 
-	// RVA: 0x1293570 Offset: 0x1291B70 VA: 0x181293570
+	// RVA: 0x1293C10 Offset: 0x1292210 VA: 0x181293C10
 	internal bool MoveNext() { }
 
-	// RVA: 0x1293690 Offset: 0x1291C90 VA: 0x181293690
+	// RVA: 0x1293D30 Offset: 0x1292330 VA: 0x181293D30
 	internal ObjectHolder get_Current() { }
 
 }

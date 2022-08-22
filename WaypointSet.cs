@@ -14,16 +14,16 @@ public class WaypointSet : MonoBehaviour, IServerComponent // TypeDefIndex: 1214
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public List<WaypointSet.Waypoint> get_Points() { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_Points(List<WaypointSet.Waypoint> value) { }
 
-	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
+	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760
 	public WaypointSet.NavModes get_NavMode() { }
 
-	// RVA: 0x4D3270 Offset: 0x4D1870 VA: 0x1804D3270
+	// RVA: 0x4D3200 Offset: 0x4D1800 VA: 0x1804D3200
 	private void OnDrawGizmos() { }
 
-	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760
+	// RVA: 0x4D36F0 Offset: 0x4D1CF0 VA: 0x1804D36F0
 	public void .ctor() { }
 
 }

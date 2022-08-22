@@ -19,40 +19,40 @@ public class X509Crl // TypeDefIndex: 1714
 
 	// Methods
 
-	// RVA: 0x22812B0 Offset: 0x227F8B0 VA: 0x1822812B0
+	// RVA: 0x2281AD0 Offset: 0x22800D0 VA: 0x182281AD0
 	public void .ctor(byte[] crl) { }
 
-	// RVA: 0x2280660 Offset: 0x227EC60 VA: 0x182280660
+	// RVA: 0x2280E80 Offset: 0x227F480 VA: 0x182280E80
 	private void Parse(byte[] crl) { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	public X509ExtensionCollection get_Extensions() { }
 
-	// RVA: 0x2281390 Offset: 0x227F990 VA: 0x182281390
+	// RVA: 0x2281BB0 Offset: 0x22801B0 VA: 0x182281BB0
 	public byte[] get_Hash() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_IssuerName() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public DateTime get_NextUpdate() { }
 
-	// RVA: 0x2280340 Offset: 0x227E940 VA: 0x182280340
+	// RVA: 0x2280B60 Offset: 0x227F160 VA: 0x182280B60
 	private bool Compare(byte[] array1, byte[] array2) { }
 
-	// RVA: 0x22803C0 Offset: 0x227E9C0 VA: 0x1822803C0
+	// RVA: 0x2280BE0 Offset: 0x227F1E0 VA: 0x182280BE0
 	public X509Crl.X509CrlEntry GetCrlEntry(X509Certificate x509) { }
 
-	// RVA: 0x2280450 Offset: 0x227EA50 VA: 0x182280450
+	// RVA: 0x2280C70 Offset: 0x227F270 VA: 0x182280C70
 	public X509Crl.X509CrlEntry GetCrlEntry(byte[] serialNumber) { }
 
-	// RVA: 0x2280CC0 Offset: 0x227F2C0 VA: 0x182280CC0
+	// RVA: 0x22814E0 Offset: 0x227FAE0 VA: 0x1822814E0
 	internal bool VerifySignature(DSA dsa) { }
 
-	// RVA: 0x2280F60 Offset: 0x227F560 VA: 0x182280F60
+	// RVA: 0x2281780 Offset: 0x227FD80 VA: 0x182281780
 	internal bool VerifySignature(RSA rsa) { }
 
-	// RVA: 0x2281040 Offset: 0x227F640 VA: 0x182281040
+	// RVA: 0x2281860 Offset: 0x227FE60 VA: 0x182281860
 	public bool VerifySignature(AsymmetricAlgorithm aa) { }
 
 }
@@ -70,10 +70,10 @@ public class X509Crl.X509CrlEntry // TypeDefIndex: 1715
 
 	// Methods
 
-	// RVA: 0x22801C0 Offset: 0x227E7C0 VA: 0x1822801C0
+	// RVA: 0x22809E0 Offset: 0x227EFE0 VA: 0x1822809E0
 	internal void .ctor(ASN1 entry) { }
 
-	// RVA: 0x22802C0 Offset: 0x227E8C0 VA: 0x1822802C0
+	// RVA: 0x2280AE0 Offset: 0x227F0E0 VA: 0x182280AE0
 	public byte[] get_SerialNumber() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880

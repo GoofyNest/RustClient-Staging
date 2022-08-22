@@ -7,31 +7,31 @@ public class SoundModulation : MonoBehaviour, IClientComponent // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0xA79AB0 Offset: 0xA780B0 VA: 0x180A79AB0
+	// RVA: 0xA79F80 Offset: 0xA78580 VA: 0x180A79F80
 	protected void Awake() { }
 
-	// RVA: 0xA79E90 Offset: 0xA78490 VA: 0x180A79E90
+	// RVA: 0xA7A360 Offset: 0xA78960 VA: 0x180A7A360
 	public void Init() { }
 
-	// RVA: 0xA79B90 Offset: 0xA78190 VA: 0x180A79B90
+	// RVA: 0xA7A060 Offset: 0xA78660 VA: 0x180A7A060
 	public void CalculateValues() { }
 
-	// RVA: 0xA798B0 Offset: 0xA77EB0 VA: 0x180A798B0
+	// RVA: 0xA79D80 Offset: 0xA78380 VA: 0x180A79D80
 	public void ApplyModulations(AudioSource source) { }
 
-	// RVA: 0xA79D90 Offset: 0xA78390 VA: 0x180A79D90
+	// RVA: 0xA7A260 Offset: 0xA78860 VA: 0x180A7A260
 	public SoundModulation.Modulator CreateModulator(SoundModulation.Parameter param) { }
 
-	// RVA: 0xA797E0 Offset: 0xA77DE0 VA: 0x180A797E0
+	// RVA: 0xA79CB0 Offset: 0xA782B0 VA: 0x180A79CB0
 	public void AddModulator(SoundModulation.Modulator mod) { }
 
-	// RVA: 0xA7A010 Offset: 0xA78610 VA: 0x180A7A010
+	// RVA: 0xA7A4E0 Offset: 0xA78AE0 VA: 0x180A7A4E0
 	public void RemoveModulator(SoundModulation.Modulator mod) { }
 
-	// RVA: 0xA79F50 Offset: 0xA78550 VA: 0x180A79F50
+	// RVA: 0xA7A420 Offset: 0xA78A20 VA: 0x180A7A420
 	public float ModulationValue(SoundModulation.Parameter param) { }
 
-	// RVA: 0xA7A0C0 Offset: 0xA786C0 VA: 0x180A7A0C0
+	// RVA: 0xA7A590 Offset: 0xA78B90 VA: 0x180A7A590
 	public void .ctor() { }
 
 }
@@ -53,7 +53,7 @@ public class SoundModulation.Modulator // TypeDefIndex: 9037
 
 	// Methods
 
-	// RVA: 0xA74780 Offset: 0xA72D80 VA: 0x180A74780
+	// RVA: 0xA74C50 Offset: 0xA73250 VA: 0x180A74C50
 	public void .ctor() { }
 
 }

@@ -1,6 +1,6 @@
 public static class MemoryExtensions // TypeDefIndex: 6728
 {	// Fields
-	internal static readonly IntPtr StringAdjustment; // 0x3740
+	internal static readonly IntPtr StringAdjustment; // 0x2B10370
 
 	// Methods
 
@@ -9,17 +9,17 @@ public static class MemoryExtensions // TypeDefIndex: 6728
 	public static void Reverse<T>(Span<T> span) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE02A30 Offset: 0xE01030 VA: 0x180E02A30
+	|-RVA: 0xE034E0 Offset: 0xE01AE0 VA: 0x180E034E0
 	|-MemoryExtensions.Reverse<byte>
 	|
-	|-RVA: 0xE02B00 Offset: 0xE01100 VA: 0x180E02B00
+	|-RVA: 0xE035B0 Offset: 0xE01BB0 VA: 0x180E035B0
 	|-MemoryExtensions.Reverse<object>
 	*/
 
-	// RVA: 0x231AA70 Offset: 0x2319070 VA: 0x18231AA70
+	// RVA: 0x231B290 Offset: 0x2319890 VA: 0x18231B290
 	private static IntPtr MeasureStringAdjustment() { }
 
-	// RVA: 0x231AAC0 Offset: 0x23190C0 VA: 0x18231AAC0
+	// RVA: 0x231B2E0 Offset: 0x23198E0 VA: 0x18231B2E0
 	private static void .cctor() { }
 
 }

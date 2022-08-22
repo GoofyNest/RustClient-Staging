@@ -6,10 +6,10 @@ public class DrawArrow : MonoBehaviour // TypeDefIndex: 9279
 
 	// Methods
 
-	// RVA: 0xAB0AC0 Offset: 0xAAF0C0 VA: 0x180AB0AC0
+	// RVA: 0xAB0F90 Offset: 0xAAF590 VA: 0x180AB0F90
 	private void OnDrawGizmos() { }
 
-	// RVA: 0xAB1000 Offset: 0xAAF600 VA: 0x180AB1000
+	// RVA: 0xAB14D0 Offset: 0xAAFAD0 VA: 0x180AB14D0
 	public void .ctor() { }
 
 }

@@ -18,34 +18,34 @@ public class BradleyMoveTest : MonoBehaviour // TypeDefIndex: 8860
 
 	// Methods
 
-	// RVA: 0x520D80 Offset: 0x51F380 VA: 0x180520D80
+	// RVA: 0x520D10 Offset: 0x51F310 VA: 0x180520D10
 	public void Awake() { }
 
-	// RVA: 0x520D80 Offset: 0x51F380 VA: 0x180520D80
+	// RVA: 0x520D10 Offset: 0x51F310 VA: 0x180520D10
 	public void Initialize() { }
 
-	// RVA: 0x521580 Offset: 0x51FB80 VA: 0x180521580
+	// RVA: 0x521510 Offset: 0x51FB10 VA: 0x180521510
 	public void SetDestination(Vector3 dest) { }
 
-	// RVA: 0x520E10 Offset: 0x51F410 VA: 0x180520E10
+	// RVA: 0x520DA0 Offset: 0x51F3A0 VA: 0x180520DA0
 	public void FixedUpdate() { }
 
-	// RVA: 0x520CA0 Offset: 0x51F2A0 VA: 0x180520CA0
+	// RVA: 0x520C30 Offset: 0x51F230 VA: 0x180520C30
 	public void ApplyBrakes(float amount) { }
 
-	// RVA: 0x5214E0 Offset: 0x51FAE0 VA: 0x1805214E0
+	// RVA: 0x521470 Offset: 0x51FA70 VA: 0x180521470
 	public float GetMotorTorque(bool rightSide) { }
 
-	// RVA: 0x521590 Offset: 0x51FB90 VA: 0x180521590
+	// RVA: 0x521520 Offset: 0x51FB20 VA: 0x180521520
 	public void SetMotorTorque(float newThrottle, bool rightSide, float torqueAmount) { }
 
-	// RVA: 0x520C10 Offset: 0x51F210 VA: 0x180520C10
+	// RVA: 0x520BA0 Offset: 0x51F1A0 VA: 0x180520BA0
 	public void ApplyBrakeTorque(float amount, bool rightSide) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void AdjustFriction() { }
 
-	// RVA: 0x521680 Offset: 0x51FC80 VA: 0x180521680
+	// RVA: 0x521610 Offset: 0x51FC10 VA: 0x180521610
 	public void .ctor() { }
 
 }

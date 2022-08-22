@@ -23,7 +23,7 @@ internal class CookieTokenizer // TypeDefIndex: 2936
 
 	// Methods
 
-	// RVA: 0x1526890 Offset: 0x1524E90 VA: 0x181526890
+	// RVA: 0x1525960 Offset: 0x1523F60 VA: 0x181525960
 	internal void .ctor(string tokenStream) { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
@@ -32,7 +32,7 @@ internal class CookieTokenizer // TypeDefIndex: 2936
 	// RVA: 0x49AFC0 Offset: 0x4995C0 VA: 0x18049AFC0
 	internal void set_EndOfCookie(bool value) { }
 
-	// RVA: 0x15268E0 Offset: 0x1524EE0 VA: 0x1815268E0
+	// RVA: 0x15259B0 Offset: 0x1523FB0 VA: 0x1815259B0
 	internal bool get_Eof() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -41,40 +41,40 @@ internal class CookieTokenizer // TypeDefIndex: 2936
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	internal void set_Name(string value) { }
 
-	// RVA: 0x9975F0 Offset: 0x995BF0 VA: 0x1809975F0
+	// RVA: 0x997AE0 Offset: 0x9960E0 VA: 0x180997AE0
 	internal bool get_Quoted() { }
 
-	// RVA: 0x997600 Offset: 0x995C00 VA: 0x180997600
+	// RVA: 0x997AF0 Offset: 0x9960F0 VA: 0x180997AF0
 	internal void set_Quoted(bool value) { }
 
-	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
+	// RVA: 0xA39490 Offset: 0xA37A90 VA: 0x180A39490
 	internal CookieToken get_Token() { }
 
-	// RVA: 0xA39560 Offset: 0xA37B60 VA: 0x180A39560
+	// RVA: 0xA39A50 Offset: 0xA38050 VA: 0x180A39A50
 	internal void set_Token(CookieToken value) { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	internal string get_Value() { }
 
-	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
+	// RVA: 0x4BC5A0 Offset: 0x4BABA0 VA: 0x1804BC5A0
 	internal void set_Value(string value) { }
 
-	// RVA: 0x1525B40 Offset: 0x1524140 VA: 0x181525B40
+	// RVA: 0x1524C10 Offset: 0x1523210 VA: 0x181524C10
 	internal string Extract() { }
 
-	// RVA: 0x1525BC0 Offset: 0x15241C0 VA: 0x181525BC0
+	// RVA: 0x1524C90 Offset: 0x1523290 VA: 0x181524C90
 	internal CookieToken FindNext(bool ignoreComma, bool ignoreEquals) { }
 
-	// RVA: 0x1525E30 Offset: 0x1524430 VA: 0x181525E30
+	// RVA: 0x1524F00 Offset: 0x1523500 VA: 0x181524F00
 	internal CookieToken Next(bool first, bool parseResponseCookies) { }
 
-	// RVA: 0x1525FE0 Offset: 0x15245E0 VA: 0x181525FE0
+	// RVA: 0x15250B0 Offset: 0x15236B0 VA: 0x1815250B0
 	internal void Reset() { }
 
-	// RVA: 0x1526060 Offset: 0x1524660 VA: 0x181526060
+	// RVA: 0x1525130 Offset: 0x1523730 VA: 0x181525130
 	internal CookieToken TokenFromName(bool parseResponseCookies) { }
 
-	// RVA: 0x15262F0 Offset: 0x15248F0 VA: 0x1815262F0
+	// RVA: 0x15253C0 Offset: 0x15239C0 VA: 0x1815253C0
 	private static void .cctor() { }
 
 }
@@ -92,10 +92,10 @@ private struct CookieTokenizer.RecognizedAttribute // TypeDefIndex: 2937
 	// RVA: 0xF9160 Offset: 0xF8560 VA: 0x1800F9160
 	internal void .ctor(string name, CookieToken token) { }
 
-	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
+	// RVA: 0x122C30 Offset: 0x122030 VA: 0x180122C30
 	internal CookieToken get_Token() { }
 
-	// RVA: 0x1F1D70 Offset: 0x1F1170 VA: 0x1801F1D70
+	// RVA: 0x1F2190 Offset: 0x1F1590 VA: 0x1801F2190
 	internal bool IsEqualTo(string value) { }
 
 }

@@ -6,19 +6,19 @@ public class DynamicZNear : MonoBehaviour // TypeDefIndex: 9185
 
 	// Methods
 
-	// RVA: 0xAB61F0 Offset: 0xAB47F0 VA: 0x180AB61F0
+	// RVA: 0xAB66C0 Offset: 0xAB4CC0 VA: 0x180AB66C0
 	protected void Awake() { }
 
-	// RVA: 0xAB6240 Offset: 0xAB4840 VA: 0x180AB6240
+	// RVA: 0xAB6710 Offset: 0xAB4D10 VA: 0x180AB6710
 	protected void LateUpdate() { }
 
-	// RVA: 0xAB64F0 Offset: 0xAB4AF0 VA: 0x180AB64F0
+	// RVA: 0xAB69C0 Offset: 0xAB4FC0 VA: 0x180AB69C0
 	private float WorkoutZNear() { }
 
-	// RVA: 0xAB6370 Offset: 0xAB4970 VA: 0x180AB6370
+	// RVA: 0xAB6840 Offset: 0xAB4E40 VA: 0x180AB6840
 	private float ScreenTest(float x, float y) { }
 
-	// RVA: 0xAB66D0 Offset: 0xAB4CD0 VA: 0x180AB66D0
+	// RVA: 0xAB6BA0 Offset: 0xAB51A0 VA: 0x180AB6BA0
 	public void .ctor() { }
 
 }

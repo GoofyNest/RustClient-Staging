@@ -1,17 +1,17 @@
 public class PrefabPoolWarmup // TypeDefIndex: 11426
 {	// Methods
 
-	// RVA: 0x9A2090 Offset: 0x9A0690 VA: 0x1809A2090
+	// RVA: 0x9A2580 Offset: 0x9A0B80 VA: 0x1809A2580
 	public static void Run() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xB0150 Offset: 0xAF550 VA: 0x1800B0150
-	// RVA: 0x9A1FF0 Offset: 0x9A05F0 VA: 0x1809A1FF0
+	// RVA: 0x9A24E0 Offset: 0x9A0AE0 VA: 0x1809A24E0
 	public static IEnumerator Run(float deltaTime, Action<string> statusFunction, string format) { }
 
-	// RVA: 0x9A1B60 Offset: 0x9A0160 VA: 0x1809A1B60
+	// RVA: 0x9A2050 Offset: 0x9A0650 VA: 0x1809A2050
 	public static string[] GetAssetList() { }
 
-	// RVA: 0x9A1D60 Offset: 0x9A0360 VA: 0x1809A1D60
+	// RVA: 0x9A2250 Offset: 0x9A0850 VA: 0x1809A2250
 	private static void PrefabWarmup(string path) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -44,7 +44,7 @@ private sealed class PrefabPoolWarmup.<Run>d__1 : IEnumerator<object>, IEnumerat
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x9A91F0 Offset: 0x9A77F0 VA: 0x1809A91F0 Slot: 6
+	// RVA: 0x9A96E0 Offset: 0x9A7CE0 VA: 0x1809A96E0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -52,7 +52,7 @@ private sealed class PrefabPoolWarmup.<Run>d__1 : IEnumerator<object>, IEnumerat
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9A9550 Offset: 0x9A7B50 VA: 0x1809A9550 Slot: 8
+	// RVA: 0x9A9A40 Offset: 0x9A8040 VA: 0x1809A9A40 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -69,16 +69,16 @@ private sealed class PrefabPoolWarmup.<>c // TypeDefIndex: 11428
 
 	// Methods
 
-	// RVA: 0x9A9610 Offset: 0x9A7C10 VA: 0x1809A9610
+	// RVA: 0x9A9B00 Offset: 0x9A8100 VA: 0x1809A9B00
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x9A95A0 Offset: 0x9A7BA0 VA: 0x1809A95A0
+	// RVA: 0x9A9A90 Offset: 0x9A8090 VA: 0x1809A9A90
 	internal bool <GetAssetList>b__2_0(GameManifest.PrefabProperties x) { }
 
-	// RVA: 0x690DA0 Offset: 0x68F3A0 VA: 0x180690DA0
+	// RVA: 0x690D30 Offset: 0x68F330 VA: 0x180690D30
 	internal string <GetAssetList>b__2_1(GameManifest.PrefabProperties x) { }
 
 }

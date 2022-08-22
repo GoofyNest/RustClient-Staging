@@ -1,19 +1,19 @@
 public class HorizontalLayoutGroup : HorizontalOrVerticalLayoutGroup // TypeDefIndex: 4969
 {	// Methods
 
-	// RVA: 0x15F1350 Offset: 0x15EF950 VA: 0x1815F1350
+	// RVA: 0x15DE670 Offset: 0x15DCC70 VA: 0x1815DE670
 	protected void .ctor() { }
 
-	// RVA: 0x15F12F0 Offset: 0x15EF8F0 VA: 0x1815F12F0 Slot: 28
+	// RVA: 0x15DE610 Offset: 0x15DCC10 VA: 0x1815DE610 Slot: 28
 	public override void CalculateLayoutInputHorizontal() { }
 
-	// RVA: 0x15F1320 Offset: 0x15EF920 VA: 0x1815F1320 Slot: 29
+	// RVA: 0x15DE640 Offset: 0x15DCC40 VA: 0x1815DE640 Slot: 29
 	public override void CalculateLayoutInputVertical() { }
 
-	// RVA: 0x15F1330 Offset: 0x15EF930 VA: 0x1815F1330 Slot: 37
+	// RVA: 0x15DE650 Offset: 0x15DCC50 VA: 0x1815DE650 Slot: 37
 	public override void SetLayoutHorizontal() { }
 
-	// RVA: 0x15F1340 Offset: 0x15EF940 VA: 0x1815F1340 Slot: 38
+	// RVA: 0x15DE660 Offset: 0x15DCC60 VA: 0x1815DE660 Slot: 38
 	public override void SetLayoutVertical() { }
 
 }

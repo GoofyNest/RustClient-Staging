@@ -10,22 +10,22 @@ public class Locker : StorageContainer // TypeDefIndex: 8598
 
 	// Methods
 
-	// RVA: 0x4FF7B0 Offset: 0x4FDDB0 VA: 0x1804FF7B0 Slot: 35
+	// RVA: 0x4FF740 Offset: 0x4FDD40 VA: 0x1804FF740 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	// RVA: 0x49BB60 Offset: 0x49A160 VA: 0x18049BB60
 	public bool IsEquipping() { }
 
-	// RVA: 0x4FF780 Offset: 0x4FDD80 VA: 0x1804FF780
+	// RVA: 0x4FF710 Offset: 0x4FDD10 VA: 0x1804FF710
 	private Locker.RowType GetRowType(int slot) { }
 
-	// RVA: 0x4FF5F0 Offset: 0x4FDBF0 VA: 0x1804FF5F0 Slot: 152
+	// RVA: 0x4FF580 Offset: 0x4FDB80 VA: 0x1804FF580 Slot: 152
 	public override int GetMoveToSlotIndex(BasePlayer player, Item item) { }
 
-	// RVA: 0x4FF590 Offset: 0x4FDB90 VA: 0x1804FF590
+	// RVA: 0x4FF520 Offset: 0x4FDB20 VA: 0x1804FF520
 	public void EquipFromIndex(int index) { }
 
-	// RVA: 0x4FF8A0 Offset: 0x4FDEA0 VA: 0x1804FF8A0
+	// RVA: 0x4FF830 Offset: 0x4FDE30 VA: 0x1804FF830
 	public void .ctor() { }
 
 }

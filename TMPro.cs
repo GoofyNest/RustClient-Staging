@@ -16,46 +16,46 @@ public static class TMPro_EventManager // TypeDefIndex: 6851
 
 	// Methods
 
-	// RVA: 0x115E860 Offset: 0x115CE60 VA: 0x18115E860
+	// RVA: 0x115F2D0 Offset: 0x115D8D0 VA: 0x18115F2D0
 	public static void ON_PRE_RENDER_OBJECT_CHANGED() { }
 
-	// RVA: 0x115E7D0 Offset: 0x115CDD0 VA: 0x18115E7D0
+	// RVA: 0x115F240 Offset: 0x115D840 VA: 0x18115F240
 	public static void ON_MATERIAL_PROPERTY_CHANGED(bool isChanged, Material mat) { }
 
-	// RVA: 0x115E740 Offset: 0x115CD40 VA: 0x18115E740
+	// RVA: 0x115F1B0 Offset: 0x115D7B0 VA: 0x18115F1B0
 	public static void ON_FONT_PROPERTY_CHANGED(bool isChanged, TMP_FontAsset font) { }
 
-	// RVA: 0x115E940 Offset: 0x115CF40 VA: 0x18115E940
+	// RVA: 0x115F3B0 Offset: 0x115D9B0 VA: 0x18115F3B0
 	public static void ON_SPRITE_ASSET_PROPERTY_CHANGED(bool isChanged, Object obj) { }
 
-	// RVA: 0x115E9D0 Offset: 0x115CFD0 VA: 0x18115E9D0
+	// RVA: 0x115F440 Offset: 0x115DA40 VA: 0x18115F440
 	public static void ON_TEXTMESHPRO_PROPERTY_CHANGED(bool isChanged, TextMeshPro obj) { }
 
-	// RVA: 0x115E6A0 Offset: 0x115CCA0 VA: 0x18115E6A0
+	// RVA: 0x115F110 Offset: 0x115D710 VA: 0x18115F110
 	public static void ON_DRAG_AND_DROP_MATERIAL_CHANGED(GameObject sender, Material currentMaterial, Material newMaterial) { }
 
-	// RVA: 0x115EB70 Offset: 0x115D170 VA: 0x18115EB70
+	// RVA: 0x115F5E0 Offset: 0x115DBE0 VA: 0x18115F5E0
 	public static void ON_TEXT_STYLE_PROPERTY_CHANGED(bool isChanged) { }
 
-	// RVA: 0x115E590 Offset: 0x115CB90 VA: 0x18115E590
+	// RVA: 0x115F000 Offset: 0x115D600 VA: 0x18115F000
 	public static void ON_COLOR_GRAIDENT_PROPERTY_CHANGED(TMP_ColorGradient gradient) { }
 
-	// RVA: 0x115EAF0 Offset: 0x115D0F0 VA: 0x18115EAF0
+	// RVA: 0x115F560 Offset: 0x115DB60 VA: 0x18115F560
 	public static void ON_TEXT_CHANGED(Object obj) { }
 
-	// RVA: 0x115EBF0 Offset: 0x115D1F0 VA: 0x18115EBF0
+	// RVA: 0x115F660 Offset: 0x115DC60 VA: 0x18115F660
 	public static void ON_TMP_SETTINGS_CHANGED() { }
 
-	// RVA: 0x115E8D0 Offset: 0x115CED0 VA: 0x18115E8D0
+	// RVA: 0x115F340 Offset: 0x115D940 VA: 0x18115F340
 	public static void ON_RESOURCES_LOADED() { }
 
-	// RVA: 0x115EA60 Offset: 0x115D060 VA: 0x18115EA60
+	// RVA: 0x115F4D0 Offset: 0x115DAD0 VA: 0x18115F4D0
 	public static void ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED(bool isChanged, TextMeshProUGUI obj) { }
 
-	// RVA: 0x115E610 Offset: 0x115CC10 VA: 0x18115E610
+	// RVA: 0x115F080 Offset: 0x115D680 VA: 0x18115F080
 	public static void ON_COMPUTE_DT_EVENT(object Sender, Compute_DT_EventArgs e) { }
 
-	// RVA: 0x115EC60 Offset: 0x115D260 VA: 0x18115EC60
+	// RVA: 0x115F6D0 Offset: 0x115DCD0 VA: 0x18115F6D0
 	private static void .cctor() { }
 
 }
@@ -64,15 +64,15 @@ public static class TMPro_ExtensionMethods // TypeDefIndex: 6853
 {	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x115EF80 Offset: 0x115D580 VA: 0x18115EF80
+	// RVA: 0x115F9F0 Offset: 0x115DFF0 VA: 0x18115F9F0
 	public static string ArrayToString(char[] chars) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x115F250 Offset: 0x115D850 VA: 0x18115F250
+	// RVA: 0x115FCC0 Offset: 0x115E2C0 VA: 0x18115FCC0
 	public static string IntToString(int[] unicodes) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x115F2F0 Offset: 0x115D8F0 VA: 0x18115F2F0
+	// RVA: 0x115FD60 Offset: 0x115E360 VA: 0x18115FD60
 	public static string IntToString(int[] unicodes, int start, int length) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -80,44 +80,44 @@ public static class TMPro_ExtensionMethods // TypeDefIndex: 6853
 	public static int FindInstanceID<T>(List<T> list, T target) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED9190 Offset: 0xED7790 VA: 0x180ED9190
+	|-RVA: 0xED9C40 Offset: 0xED8240 VA: 0x180ED9C40
 	|-TMPro_ExtensionMethods.FindInstanceID<object>
 	*/
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x115F210 Offset: 0x115D810 VA: 0x18115F210
+	// RVA: 0x115FC80 Offset: 0x115E280 VA: 0x18115FC80
 	public static bool Compare(Color32 a, Color32 b) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x115F060 Offset: 0x115D660 VA: 0x18115F060
+	// RVA: 0x115FAD0 Offset: 0x115E0D0 VA: 0x18115FAD0
 	public static bool CompareRGB(Color32 a, Color32 b) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x115F120 Offset: 0x115D720 VA: 0x18115F120
+	// RVA: 0x115FB90 Offset: 0x115E190 VA: 0x18115FB90
 	public static bool Compare(Color a, Color b) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x115F030 Offset: 0x115D630 VA: 0x18115F030
+	// RVA: 0x115FAA0 Offset: 0x115E0A0 VA: 0x18115FAA0
 	public static bool CompareRGB(Color a, Color b) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x115F410 Offset: 0x115DA10 VA: 0x18115F410
+	// RVA: 0x115FE80 Offset: 0x115E480 VA: 0x18115FE80
 	public static Color32 Multiply(Color32 c1, Color32 c2) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x115F410 Offset: 0x115DA10 VA: 0x18115F410
+	// RVA: 0x115FE80 Offset: 0x115E480 VA: 0x18115FE80
 	public static Color32 Tint(Color32 c1, Color32 c2) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x115F500 Offset: 0x115DB00 VA: 0x18115F500
+	// RVA: 0x115FF70 Offset: 0x115E570 VA: 0x18115FF70
 	public static Color32 Tint(Color32 c1, float tint) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x115F090 Offset: 0x115D690 VA: 0x18115F090
+	// RVA: 0x115FB00 Offset: 0x115E100 VA: 0x18115FB00
 	public static bool Compare(Vector3 v1, Vector3 v2, int accuracy) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x115F160 Offset: 0x115D760 VA: 0x18115F160
+	// RVA: 0x115FBD0 Offset: 0x115E1D0 VA: 0x18115FBD0
 	public static bool Compare(Quaternion q1, Quaternion q2, int accuracy) { }
 
 }

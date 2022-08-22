@@ -4,7 +4,7 @@ public sealed class ExtensionDataGetter : MulticastDelegate // TypeDefIndex: 601
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x13F01A0 Offset: 0x13EE7A0 VA: 0x1813F01A0 Slot: 12
+	// RVA: 0x13EF2A0 Offset: 0x13ED8A0 VA: 0x1813EF2A0 Slot: 12
 	public virtual IEnumerable<KeyValuePair<object, object>> Invoke(object o) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13

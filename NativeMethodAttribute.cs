@@ -26,35 +26,35 @@ internal class NativeMethodAttribute : Attribute // TypeDefIndex: 3274
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630 Slot: 7
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0 Slot: 7
 	public void set_Name(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10 Slot: 8
+	// RVA: 0x960010 Offset: 0x95E610 VA: 0x180960010 Slot: 8
 	public void set_IsThreadSafe(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2311B00 Offset: 0x2310100 VA: 0x182311B00 Slot: 9
+	// RVA: 0x2312320 Offset: 0x2310920 VA: 0x182312320 Slot: 9
 	public void set_IsFreeFunction(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2311B10 Offset: 0x2310110 VA: 0x182311B10 Slot: 10
+	// RVA: 0x2312330 Offset: 0x2310930 VA: 0x182312330 Slot: 10
 	public void set_ThrowsException(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2311AF0 Offset: 0x23100F0 VA: 0x182311AF0 Slot: 11
+	// RVA: 0x2312310 Offset: 0x2310910 VA: 0x182312310 Slot: 11
 	public void set_HasExplicitThis(bool value) { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
-	// RVA: 0x23118F0 Offset: 0x230FEF0 VA: 0x1823118F0
+	// RVA: 0x2312110 Offset: 0x2310710 VA: 0x182312110
 	public void .ctor(string name) { }
 
-	// RVA: 0x23119D0 Offset: 0x230FFD0 VA: 0x1823119D0
+	// RVA: 0x23121F0 Offset: 0x23107F0 VA: 0x1823121F0
 	public void .ctor(string name, bool isFreeFunction) { }
 
-	// RVA: 0x2311AC0 Offset: 0x23100C0 VA: 0x182311AC0
+	// RVA: 0x23122E0 Offset: 0x23108E0 VA: 0x1823122E0
 	public void .ctor(string name, bool isFreeFunction, bool isThreadSafe) { }
 
 }

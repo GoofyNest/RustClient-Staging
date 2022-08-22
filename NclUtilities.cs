@@ -10,16 +10,16 @@ internal static class NclUtilities // TypeDefIndex: 2887
 
 	// Methods
 
-	// RVA: 0x1347E20 Offset: 0x1346420 VA: 0x181347E20
+	// RVA: 0x1346F20 Offset: 0x1345520 VA: 0x181346F20
 	internal static bool IsAddressLocal(IPAddress ipAddress) { }
 
-	// RVA: 0x1347E00 Offset: 0x1346400 VA: 0x181347E00
+	// RVA: 0x1346F00 Offset: 0x1345500 VA: 0x181346F00
 	private static IPHostEntry GetLocalHost() { }
 
-	// RVA: 0x1347F40 Offset: 0x1346540 VA: 0x181347F40
+	// RVA: 0x1347040 Offset: 0x1345640 VA: 0x181347040
 	internal static IPAddress[] get_LocalAddresses() { }
 
-	// RVA: 0x1347EB0 Offset: 0x13464B0 VA: 0x181347EB0
+	// RVA: 0x1346FB0 Offset: 0x13455B0 VA: 0x181346FB0
 	private static object get_LocalAddressesLock() { }
 
 }

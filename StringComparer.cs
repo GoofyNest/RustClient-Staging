@@ -13,28 +13,28 @@ public abstract class StringComparer : IComparer, IEqualityComparer, IComparer<s
 
 	// Methods
 
-	// RVA: 0x18B0810 Offset: 0x18AEE10 VA: 0x1818B0810
+	// RVA: 0x18AFF30 Offset: 0x18AE530 VA: 0x1818AFF30
 	public static StringComparer get_InvariantCultureIgnoreCase() { }
 
-	// RVA: 0x18B0790 Offset: 0x18AED90 VA: 0x1818B0790
+	// RVA: 0x18AFEB0 Offset: 0x18AE4B0 VA: 0x1818AFEB0
 	public static StringComparer get_CurrentCultureIgnoreCase() { }
 
-	// RVA: 0x18B08D0 Offset: 0x18AEED0 VA: 0x1818B08D0
+	// RVA: 0x18AFFF0 Offset: 0x18AE5F0 VA: 0x1818AFFF0
 	public static StringComparer get_Ordinal() { }
 
-	// RVA: 0x18B0870 Offset: 0x18AEE70 VA: 0x1818B0870
+	// RVA: 0x18AFF90 Offset: 0x18AE590 VA: 0x1818AFF90
 	public static StringComparer get_OrdinalIgnoreCase() { }
 
-	// RVA: 0x18B0410 Offset: 0x18AEA10 VA: 0x1818B0410
+	// RVA: 0x18AFB30 Offset: 0x18AE130 VA: 0x1818AFB30
 	public static StringComparer Create(CultureInfo culture, bool ignoreCase) { }
 
-	// RVA: 0x18B0250 Offset: 0x18AE850 VA: 0x1818B0250 Slot: 4
+	// RVA: 0x18AF970 Offset: 0x18ADF70 VA: 0x1818AF970 Slot: 4
 	public int Compare(object x, object y) { }
 
-	// RVA: 0x18B04B0 Offset: 0x18AEAB0 VA: 0x1818B04B0 Slot: 5
+	// RVA: 0x18AFBD0 Offset: 0x18AE1D0 VA: 0x1818AFBD0 Slot: 5
 	public bool Equals(object x, object y) { }
 
-	// RVA: 0x18B0590 Offset: 0x18AEB90 VA: 0x1818B0590 Slot: 6
+	// RVA: 0x18AFCB0 Offset: 0x18AE2B0 VA: 0x1818AFCB0 Slot: 6
 	public int GetHashCode(object obj) { }
 
 	// RVA: -1 Offset: -1 Slot: 10
@@ -49,7 +49,7 @@ public abstract class StringComparer : IComparer, IEqualityComparer, IComparer<s
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	protected void .ctor() { }
 
-	// RVA: 0x18B0640 Offset: 0x18AEC40 VA: 0x1818B0640
+	// RVA: 0x18AFD60 Offset: 0x18AE360 VA: 0x1818AFD60
 	private static void .cctor() { }
 
 }

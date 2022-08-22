@@ -17,52 +17,52 @@ public class CraftingQueueIcon : MonoBehaviour, IPointerUpHandler, IEventSystemH
 
 	// Methods
 
-	// RVA: 0x6C0E60 Offset: 0x6BF460 VA: 0x1806C0E60
+	// RVA: 0x6C0DF0 Offset: 0x6BF3F0 VA: 0x1806C0DF0
 	private void Awake() { }
 
-	// RVA: 0x6C1780 Offset: 0x6BFD80 VA: 0x1806C1780
+	// RVA: 0x6C1710 Offset: 0x6BFD10 VA: 0x1806C1710
 	private void Update() { }
 
-	// RVA: 0x6C1810 Offset: 0x6BFE10 VA: 0x1806C1810
+	// RVA: 0x6C17A0 Offset: 0x6BFDA0 VA: 0x1806C17A0
 	public string get_timeLeftString() { }
 
-	// RVA: 0x6C16E0 Offset: 0x6BFCE0 VA: 0x1806C16E0
+	// RVA: 0x6C1670 Offset: 0x6BFC70 VA: 0x1806C1670
 	internal void OnTaskStart(float endTime) { }
 
-	// RVA: 0x6C1720 Offset: 0x6BFD20 VA: 0x1806C1720
+	// RVA: 0x6C16B0 Offset: 0x6BFCB0 VA: 0x1806C16B0
 	internal void ResetEndTime() { }
 
-	// RVA: 0x6C10D0 Offset: 0x6BF6D0 VA: 0x1806C10D0
+	// RVA: 0x6C1060 Offset: 0x6BF660 VA: 0x1806C1060
 	internal void Finished(bool success, int amountleft) { }
 
-	// RVA: 0x6C11F0 Offset: 0x6BF7F0 VA: 0x1806C11F0
+	// RVA: 0x6C1180 Offset: 0x6BF780 VA: 0x1806C1180
 	internal void Init(int taskid, int itemid, int amount, int skinid, ScrollRect scrollRect) { }
 
-	// RVA: 0x6C0EB0 Offset: 0x6BF4B0 VA: 0x1806C0EB0
+	// RVA: 0x6C0E40 Offset: 0x6BF440 VA: 0x1806C0E40
 	private void Cancel() { }
 
-	// RVA: 0x6C0FC0 Offset: 0x6BF5C0 VA: 0x1806C0FC0
+	// RVA: 0x6C0F50 Offset: 0x6BF550 VA: 0x1806C0F50
 	private void FastTrack() { }
 
-	// RVA: 0x6C1360 Offset: 0x6BF960 VA: 0x1806C1360
+	// RVA: 0x6C12F0 Offset: 0x6BF8F0 VA: 0x1806C12F0
 	public void MoveIconToFront() { }
 
-	// RVA: 0x6C1440 Offset: 0x6BFA40 VA: 0x1806C1440 Slot: 8
+	// RVA: 0x6C13D0 Offset: 0x6BF9D0 VA: 0x1806C13D0 Slot: 8
 	public void OnPointerEnter(PointerEventData eventData) { }
 
-	// RVA: 0x6C1470 Offset: 0x6BFA70 VA: 0x1806C1470 Slot: 9
+	// RVA: 0x6C1400 Offset: 0x6BFA00 VA: 0x1806C1400 Slot: 9
 	public void OnPointerExit(PointerEventData eventData) { }
 
-	// RVA: 0x6C14A0 Offset: 0x6BFAA0 VA: 0x1806C14A0 Slot: 4
+	// RVA: 0x6C1430 Offset: 0x6BFA30 VA: 0x1806C1430 Slot: 4
 	public void OnPointerUp(PointerEventData eventData) { }
 
-	// RVA: 0x6C13E0 Offset: 0x6BF9E0 VA: 0x1806C13E0 Slot: 5
+	// RVA: 0x6C1370 Offset: 0x6BF970 VA: 0x1806C1370 Slot: 5
 	public void OnDrag(PointerEventData eventData) { }
 
-	// RVA: 0x6C13B0 Offset: 0x6BF9B0 VA: 0x1806C13B0 Slot: 6
+	// RVA: 0x6C1340 Offset: 0x6BF940 VA: 0x1806C1340 Slot: 6
 	public void OnBeginDrag(PointerEventData eventData) { }
 
-	// RVA: 0x6C1410 Offset: 0x6BFA10 VA: 0x1806C1410 Slot: 7
+	// RVA: 0x6C13A0 Offset: 0x6BF9A0 VA: 0x1806C13A0 Slot: 7
 	public void OnEndDrag(PointerEventData eventData) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

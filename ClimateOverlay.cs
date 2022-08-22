@@ -11,16 +11,16 @@ public class ClimateOverlay : MonoBehaviour // TypeDefIndex: 9127
 
 	// Methods
 
-	// RVA: 0x571000 Offset: 0x56F600 VA: 0x180571000
+	// RVA: 0x570F90 Offset: 0x56F590 VA: 0x180570F90
 	private void Awake() { }
 
-	// RVA: 0x5712C0 Offset: 0x56F8C0 VA: 0x1805712C0
+	// RVA: 0x571250 Offset: 0x56F850 VA: 0x180571250
 	private void UpdateBlendTargets() { }
 
-	// RVA: 0x5716D0 Offset: 0x56FCD0 VA: 0x1805716D0
+	// RVA: 0x571660 Offset: 0x56FC60 VA: 0x180571660
 	private void Update() { }
 
-	// RVA: 0x571960 Offset: 0x56FF60 VA: 0x180571960
+	// RVA: 0x5718F0 Offset: 0x56FEF0 VA: 0x1805718F0
 	public void .ctor() { }
 
 }

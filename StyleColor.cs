@@ -10,34 +10,34 @@ public struct StyleColor : IStyleValue<Color>, IEquatable<StyleColor> // TypeDef
 
 	// Methods
 
-	// RVA: 0x13A5B0 Offset: 0x1399B0 VA: 0x18013A5B0 Slot: 4
+	// RVA: 0x13A3D0 Offset: 0x1397D0 VA: 0x18013A3D0 Slot: 4
 	public Color get_value() { }
 
-	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0 Slot: 5
+	// RVA: 0x13A3C0 Offset: 0x1397C0 VA: 0x18013A3C0 Slot: 5
 	public StyleKeyword get_keyword() { }
 
-	// RVA: 0x13A570 Offset: 0x139970 VA: 0x18013A570
+	// RVA: 0x13A390 Offset: 0x139790 VA: 0x18013A390
 	public void .ctor(Color v) { }
 
-	// RVA: 0x13A580 Offset: 0x139980 VA: 0x18013A580
+	// RVA: 0x13A3A0 Offset: 0x1397A0 VA: 0x18013A3A0
 	internal void .ctor(Color v, StyleKeyword keyword) { }
 
-	// RVA: 0xEB9D20 Offset: 0xEB8320 VA: 0x180EB9D20
+	// RVA: 0xEBA7D0 Offset: 0xEB8DD0 VA: 0x180EBA7D0
 	public static bool op_Equality(StyleColor lhs, StyleColor rhs) { }
 
-	// RVA: 0xEB9DA0 Offset: 0xEB83A0 VA: 0x180EB9DA0
+	// RVA: 0xEBA850 Offset: 0xEB8E50 VA: 0x180EBA850
 	public static StyleColor op_Implicit(Color v) { }
 
-	// RVA: 0x13A420 Offset: 0x139820 VA: 0x18013A420 Slot: 6
+	// RVA: 0x13A240 Offset: 0x139640 VA: 0x18013A240 Slot: 6
 	public bool Equals(StyleColor other) { }
 
-	// RVA: 0x13A320 Offset: 0x139720 VA: 0x18013A320 Slot: 0
+	// RVA: 0x13A140 Offset: 0x139540 VA: 0x18013A140 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x13A4B0 Offset: 0x1398B0 VA: 0x18013A4B0 Slot: 2
+	// RVA: 0x13A2D0 Offset: 0x1396D0 VA: 0x18013A2D0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13A510 Offset: 0x139910 VA: 0x18013A510 Slot: 3
+	// RVA: 0x13A330 Offset: 0x139730 VA: 0x18013A330 Slot: 3
 	public override string ToString() { }
 
 }

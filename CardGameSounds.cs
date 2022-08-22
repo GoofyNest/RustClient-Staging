@@ -10,13 +10,13 @@ public class CardGameSounds : PrefabAttribute // TypeDefIndex: 9580
 
 	// Methods
 
-	// RVA: 0x6FE370 Offset: 0x6FC970 VA: 0x1806FE370 Slot: 7
+	// RVA: 0x6FE2C0 Offset: 0x6FC8C0 VA: 0x1806FE2C0 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x6FE3D0 Offset: 0x6FC9D0 VA: 0x1806FE3D0
+	// RVA: 0x6FE320 Offset: 0x6FC920 VA: 0x1806FE320
 	public void PlaySound(CardGameSounds.SoundType sound, GameObject forGameObject) { }
 
-	// RVA: 0x6FE500 Offset: 0x6FCB00 VA: 0x1806FE500
+	// RVA: 0x6FE450 Offset: 0x6FCA50 VA: 0x1806FE450
 	public void .ctor() { }
 
 }

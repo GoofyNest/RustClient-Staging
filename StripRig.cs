@@ -6,10 +6,10 @@ public class StripRig : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 10013
 
 	// Methods
 
-	// RVA: 0x79EF00 Offset: 0x79D500 VA: 0x18079EF00 Slot: 4
+	// RVA: 0x7BD300 Offset: 0x7BB900 VA: 0x1807BD300 Slot: 4
 	public void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x79F190 Offset: 0x79D790 VA: 0x18079F190
+	// RVA: 0x7BD590 Offset: 0x7BBB90 VA: 0x1807BD590
 	public void Strip(IPrefabProcessor preProcess, SkinnedMeshRenderer skinnedMeshRenderer) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

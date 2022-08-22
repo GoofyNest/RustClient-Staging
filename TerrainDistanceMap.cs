@@ -4,28 +4,28 @@ public class TerrainDistanceMap : TerrainMap<byte> // TypeDefIndex: 10398
 
 	// Methods
 
-	// RVA: 0x113F9F0 Offset: 0x113DFF0 VA: 0x18113F9F0 Slot: 4
+	// RVA: 0x1140460 Offset: 0x113EA60 VA: 0x181140460 Slot: 4
 	public override void Setup() { }
 
-	// RVA: 0x113F270 Offset: 0x113D870 VA: 0x18113F270
+	// RVA: 0x113FCE0 Offset: 0x113E2E0 VA: 0x18113FCE0
 	public void GenerateTextures() { }
 
-	// RVA: 0x883200 Offset: 0x881800 VA: 0x180883200
+	// RVA: 0x866540 Offset: 0x864B40 VA: 0x180866540
 	public void ApplyTextures() { }
 
-	// RVA: 0x113F4F0 Offset: 0x113DAF0 VA: 0x18113F4F0
+	// RVA: 0x113FF60 Offset: 0x113E560 VA: 0x18113FF60
 	public Vector2i GetDistance(Vector3 worldPos) { }
 
-	// RVA: 0x113F410 Offset: 0x113DA10 VA: 0x18113F410
+	// RVA: 0x113FE80 Offset: 0x113E480 VA: 0x18113FE80
 	public Vector2i GetDistance(float normX, float normZ) { }
 
-	// RVA: 0x113F6E0 Offset: 0x113DCE0 VA: 0x18113F6E0
+	// RVA: 0x1140150 Offset: 0x113E750 VA: 0x181140150
 	public Vector2i GetDistance(int x, int z) { }
 
-	// RVA: 0x113F830 Offset: 0x113DE30 VA: 0x18113F830
+	// RVA: 0x11402A0 Offset: 0x113E8A0 VA: 0x1811402A0
 	public void SetDistance(int x, int z, Vector2i v) { }
 
-	// RVA: 0x113FC40 Offset: 0x113E240 VA: 0x18113FC40
+	// RVA: 0x11406B0 Offset: 0x113ECB0 VA: 0x1811406B0
 	public void .ctor() { }
 
 }
@@ -40,7 +40,7 @@ private sealed class TerrainDistanceMap.<>c__DisplayClass2_0 // TypeDefIndex: 10
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1155420 Offset: 0x1153A20 VA: 0x181155420
+	// RVA: 0x1155E90 Offset: 0x1154490 VA: 0x181155E90
 	internal void <GenerateTextures>b__0(int z) { }
 
 }

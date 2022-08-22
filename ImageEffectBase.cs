@@ -8,13 +8,13 @@ public class ImageEffectBase : MonoBehaviour // TypeDefIndex: 8191
 
 	// Methods
 
-	// RVA: 0x21E0EC0 Offset: 0x21DF4C0 VA: 0x1821E0EC0 Slot: 4
+	// RVA: 0x21E16E0 Offset: 0x21DFCE0 VA: 0x1821E16E0 Slot: 4
 	protected virtual void Start() { }
 
-	// RVA: 0x21E0F60 Offset: 0x21DF560 VA: 0x1821E0F60
+	// RVA: 0x21E1780 Offset: 0x21DFD80 VA: 0x1821E1780
 	protected Material get_material() { }
 
-	// RVA: 0x21E0E30 Offset: 0x21DF430 VA: 0x1821E0E30 Slot: 5
+	// RVA: 0x21E1650 Offset: 0x21DFC50 VA: 0x1821E1650 Slot: 5
 	protected virtual void OnDisable() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

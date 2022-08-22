@@ -6,16 +6,16 @@ internal sealed class GrainRenderer : PostProcessEffectRenderer<Grain> // TypeDe
 
 	// Methods
 
-	// RVA: 0x1016140 Offset: 0x1014740 VA: 0x181016140 Slot: 8
+	// RVA: 0x1016BE0 Offset: 0x10151E0 VA: 0x181016BE0 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x1016060 Offset: 0x1014660 VA: 0x181016060
+	// RVA: 0x1016B00 Offset: 0x1015100 VA: 0x181016B00
 	private RenderTextureFormat GetLookupFormat() { }
 
-	// RVA: 0x10160C0 Offset: 0x10146C0 VA: 0x1810160C0 Slot: 7
+	// RVA: 0x1016B60 Offset: 0x1015160 VA: 0x181016B60 Slot: 7
 	public override void Release() { }
 
-	// RVA: 0x1016960 Offset: 0x1014F60 VA: 0x181016960
+	// RVA: 0x1017400 Offset: 0x1015A00 VA: 0x181017400
 	public void .ctor() { }
 
 }

@@ -4,7 +4,7 @@ public sealed class TimeWarning : IDisposable // TypeDefIndex: 5595
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0
 	public static TimeWarning New(string name, int maxmilliseconds = 0) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 4

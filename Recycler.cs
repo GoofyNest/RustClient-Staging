@@ -15,54 +15,54 @@ public class Recycler : StorageContainer // TypeDefIndex: 8434
 
 	// Methods
 
-	// RVA: 0x93ECE0 Offset: 0x93D2E0 VA: 0x18093ECE0 Slot: 49
+	// RVA: 0x93F1F0 Offset: 0x93D7F0 VA: 0x18093F1F0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x93F820 Offset: 0x93DE20 VA: 0x18093F820 Slot: 50
+	// RVA: 0x93FD30 Offset: 0x93E330 VA: 0x18093FD30 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x93F580 Offset: 0x93DB80 VA: 0x18093F580 Slot: 35
+	// RVA: 0x93FA90 Offset: 0x93E090 VA: 0x18093FA90 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x93F670 Offset: 0x93DC70 VA: 0x18093F670 Slot: 27
+	// RVA: 0x93FB80 Offset: 0x93E180 VA: 0x18093FB80 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0x93EA60 Offset: 0x93D060 VA: 0x18093EA60
+	// RVA: 0x93EF70 Offset: 0x93D570 VA: 0x18093EF70
 	private bool CanBeRecycled(Item item) { }
 
 	[BaseEntity.Menu] // RVA: 0x7F900 Offset: 0x7ED00 VA: 0x18007F900
 	[BaseEntity.Menu.Description] // RVA: 0x7F900 Offset: 0x7ED00 VA: 0x18007F900
 	[BaseEntity.Menu.Icon] // RVA: 0x7F900 Offset: 0x7ED00 VA: 0x18007F900
 	[BaseEntity.Menu.ShowIf] // RVA: 0x7F900 Offset: 0x7ED00 VA: 0x18007F900
-	// RVA: 0x93F530 Offset: 0x93DB30 VA: 0x18093F530
+	// RVA: 0x93FA40 Offset: 0x93E040 VA: 0x18093FA40
 	public void Menu_TurnOn(BasePlayer player) { }
 
-	// RVA: 0x93F470 Offset: 0x93DA70 VA: 0x18093F470
+	// RVA: 0x93F980 Offset: 0x93DF80 VA: 0x18093F980
 	public bool Menu_TurnOn_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x7FB00 Offset: 0x7EF00 VA: 0x18007FB00
 	[BaseEntity.Menu.Description] // RVA: 0x7FB00 Offset: 0x7EF00 VA: 0x18007FB00
 	[BaseEntity.Menu.Icon] // RVA: 0x7FB00 Offset: 0x7EF00 VA: 0x18007FB00
 	[BaseEntity.Menu.ShowIf] // RVA: 0x7FB00 Offset: 0x7EF00 VA: 0x18007FB00
-	// RVA: 0x93F420 Offset: 0x93DA20 VA: 0x18093F420
+	// RVA: 0x93F930 Offset: 0x93DF30 VA: 0x18093F930
 	public void Menu_TurnOff(BasePlayer player) { }
 
-	// RVA: 0x93F360 Offset: 0x93D960 VA: 0x18093F360
+	// RVA: 0x93F870 Offset: 0x93DE70 VA: 0x18093F870
 	public bool Menu_TurnOff_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x93EAE0 Offset: 0x93D0E0 VA: 0x18093EAE0 Slot: 14
+	// RVA: 0x93EFF0 Offset: 0x93D5F0 VA: 0x18093EFF0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x93F230 Offset: 0x93D830 VA: 0x18093F230
+	// RVA: 0x93F740 Offset: 0x93DD40 VA: 0x18093F740
 	public void InitializeClientsideEffects() { }
 
-	// RVA: 0x93EC20 Offset: 0x93D220 VA: 0x18093EC20 Slot: 19
+	// RVA: 0x93F130 Offset: 0x93D730 VA: 0x18093F130 Slot: 19
 	protected override void DoClientDestroy() { }
 
-	// RVA: 0x93F6A0 Offset: 0x93DCA0 VA: 0x18093F6A0
+	// RVA: 0x93FBB0 Offset: 0x93E1B0 VA: 0x18093FBB0
 	public void Update() { }
 
-	// RVA: 0x93F7C0 Offset: 0x93DDC0 VA: 0x18093F7C0
+	// RVA: 0x93FCD0 Offset: 0x93E2D0 VA: 0x18093FCD0
 	public void .ctor() { }
 
 }

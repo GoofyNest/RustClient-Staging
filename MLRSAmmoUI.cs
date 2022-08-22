@@ -8,13 +8,13 @@ public class MLRSAmmoUI : MonoBehaviour // TypeDefIndex: 9722
 
 	// Methods
 
-	// RVA: 0x5525C0 Offset: 0x550BC0 VA: 0x1805525C0
+	// RVA: 0x552550 Offset: 0x550B50 VA: 0x180552550
 	protected void OnEnable() { }
 
-	// RVA: 0x5525D0 Offset: 0x550BD0 VA: 0x1805525D0
+	// RVA: 0x552560 Offset: 0x550B60 VA: 0x180552560
 	public void SetAmmo(int ammoCount) { }
 
-	// RVA: 0x552710 Offset: 0x550D10 VA: 0x180552710
+	// RVA: 0x5526A0 Offset: 0x550CA0 VA: 0x1805526A0
 	public void .ctor() { }
 
 }

@@ -17,43 +17,43 @@ public class DiscoFloor : AudioVisualisationEntity // TypeDefIndex: 9439
 
 	// Methods
 
-	// RVA: 0x988E30 Offset: 0x987430 VA: 0x180988E30
+	// RVA: 0x989330 Offset: 0x987930 VA: 0x180989330
 	private Gradient get_ColourGradient() { }
 
-	// RVA: 0x9883A0 Offset: 0x9869A0 VA: 0x1809883A0 Slot: 14
+	// RVA: 0x9888A0 Offset: 0x986EA0 VA: 0x1809888A0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x988490 Offset: 0x986A90 VA: 0x180988490 Slot: 13
+	// RVA: 0x988990 Offset: 0x986F90 VA: 0x180988990 Slot: 13
 	public override void ClientOnEnable() { }
 
-	// RVA: 0x988870 Offset: 0x986E70 VA: 0x180988870 Slot: 159
+	// RVA: 0x988D70 Offset: 0x987370 VA: 0x180988D70 Slot: 159
 	protected override void UpdateVisualisation(float volume, bool force = False) { }
 
-	// RVA: 0x988570 Offset: 0x986B70 VA: 0x180988570 Slot: 80
+	// RVA: 0x988A70 Offset: 0x987070 VA: 0x180988A70 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 163
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 163
 	public override bool get_ShowPatternOption() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 162
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 162
 	public override bool get_ShowSpeedOption() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 161
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 161
 	public override bool get_ShowVolumeOption() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 164
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 164
 	public override bool get_ShowGradientOption() { }
 
-	// RVA: 0x988810 Offset: 0x986E10 VA: 0x180988810 Slot: 165
+	// RVA: 0x988D10 Offset: 0x987310 VA: 0x180988D10 Slot: 165
 	protected override void UpdateVisualSettings() { }
 
-	// RVA: 0x988530 Offset: 0x986B30 VA: 0x180988530
+	// RVA: 0x988A30 Offset: 0x987030 VA: 0x180988A30
 	private float GetCurrentVolumeSensitivity() { }
 
-	// RVA: 0x988500 Offset: 0x986B00 VA: 0x180988500
+	// RVA: 0x988A00 Offset: 0x987000 VA: 0x180988A00
 	private float GetCurrentSpeed() { }
 
-	// RVA: 0x988DC0 Offset: 0x9873C0 VA: 0x180988DC0
+	// RVA: 0x9892C0 Offset: 0x9878C0 VA: 0x1809892C0
 	public void .ctor() { }
 
 }

@@ -13,37 +13,37 @@ public class MeshDataBatch : MeshBatch // TypeDefIndex: 11389
 
 	// Methods
 
-	// RVA: 0x9618A0 Offset: 0x95FEA0 VA: 0x1809618A0 Slot: 10
+	// RVA: 0x961DA0 Offset: 0x9603A0 VA: 0x180961DA0 Slot: 10
 	public override int get_VertexCapacity() { }
 
-	// RVA: 0x961900 Offset: 0x95FF00 VA: 0x180961900 Slot: 11
+	// RVA: 0x961E00 Offset: 0x960400 VA: 0x180961E00 Slot: 11
 	public override int get_VertexCutoff() { }
 
-	// RVA: 0x9613E0 Offset: 0x95F9E0 VA: 0x1809613E0
+	// RVA: 0x9618E0 Offset: 0x95FEE0 VA: 0x1809618E0
 	protected void Awake() { }
 
-	// RVA: 0x74BC30 Offset: 0x74A230 VA: 0x18074BC30
+	// RVA: 0x74BB80 Offset: 0x74A180 VA: 0x18074BB80
 	public void Setup(Vector3 position, Material material, ShadowCastingMode shadows, int layer) { }
 
-	// RVA: 0x961170 Offset: 0x95F770 VA: 0x180961170
+	// RVA: 0x961670 Offset: 0x95FC70 VA: 0x180961670
 	public void Add(MeshInstance instance) { }
 
-	// RVA: 0x9612A0 Offset: 0x95F8A0 VA: 0x1809612A0 Slot: 4
+	// RVA: 0x9617A0 Offset: 0x95FDA0 VA: 0x1809617A0 Slot: 4
 	protected override void AllocMemory() { }
 
-	// RVA: 0x9614C0 Offset: 0x95FAC0 VA: 0x1809614C0 Slot: 5
+	// RVA: 0x9619C0 Offset: 0x95FFC0 VA: 0x1809619C0 Slot: 5
 	protected override void FreeMemory() { }
 
-	// RVA: 0x961630 Offset: 0x95FC30 VA: 0x180961630 Slot: 6
+	// RVA: 0x961B30 Offset: 0x960130 VA: 0x180961B30 Slot: 6
 	protected override void RefreshMesh() { }
 
-	// RVA: 0x961300 Offset: 0x95F900 VA: 0x180961300 Slot: 7
+	// RVA: 0x961800 Offset: 0x95FE00 VA: 0x180961800 Slot: 7
 	protected override void ApplyMesh() { }
 
-	// RVA: 0x961740 Offset: 0x95FD40 VA: 0x180961740 Slot: 8
+	// RVA: 0x961C40 Offset: 0x960240 VA: 0x180961C40 Slot: 8
 	protected override void ToggleMesh(bool state) { }
 
-	// RVA: 0x961520 Offset: 0x95FB20 VA: 0x180961520 Slot: 9
+	// RVA: 0x961A20 Offset: 0x960020 VA: 0x180961A20 Slot: 9
 	protected override void OnPooled() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

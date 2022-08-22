@@ -4,16 +4,16 @@ public class GraveyardFence : SimpleBuildingBlock // TypeDefIndex: 8790
 
 	// Methods
 
-	// RVA: 0xCA4D30 Offset: 0xCA3330 VA: 0x180CA4D30 Slot: 14
+	// RVA: 0xCA51D0 Offset: 0xCA37D0 VA: 0x180CA51D0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0xCA4D60 Offset: 0xCA3360 VA: 0x180CA4D60 Slot: 31
+	// RVA: 0xCA5200 Offset: 0xCA3800 VA: 0x180CA5200 Slot: 31
 	public override void DestroyShared() { }
 
-	// RVA: 0xCA4F90 Offset: 0xCA3590 VA: 0x180CA4F90 Slot: 145
+	// RVA: 0xCA5430 Offset: 0xCA3A30 VA: 0x180CA5430 Slot: 145
 	public virtual void UpdatePillars() { }
 
-	// RVA: 0xCA5310 Offset: 0xCA3910 VA: 0x180CA5310
+	// RVA: 0xCA57B0 Offset: 0xCA3DB0 VA: 0x180CA57B0
 	public void .ctor() { }
 
 }

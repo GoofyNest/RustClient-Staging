@@ -23,34 +23,34 @@ internal class GUILayoutEntry // TypeDefIndex: 4053
 
 	// Methods
 
-	// RVA: 0x1A6DC50 Offset: 0x1A6C250 VA: 0x181A6DC50
+	// RVA: 0x1A5A180 Offset: 0x1A58780 VA: 0x181A5A180
 	public GUIStyle get_style() { }
 
-	// RVA: 0x1A6DC60 Offset: 0x1A6C260 VA: 0x181A6DC60
+	// RVA: 0x1A5A190 Offset: 0x1A58790 VA: 0x181A5A190
 	public void set_style(GUIStyle value) { }
 
-	// RVA: 0x1A6DB80 Offset: 0x1A6C180 VA: 0x181A6DB80 Slot: 4
+	// RVA: 0x1A5A0B0 Offset: 0x1A586B0 VA: 0x181A5A0B0 Slot: 4
 	public virtual int get_marginLeft() { }
 
-	// RVA: 0x1A6DBB0 Offset: 0x1A6C1B0 VA: 0x181A6DBB0 Slot: 5
+	// RVA: 0x1A5A0E0 Offset: 0x1A586E0 VA: 0x181A5A0E0 Slot: 5
 	public virtual int get_marginRight() { }
 
-	// RVA: 0x1A6DBE0 Offset: 0x1A6C1E0 VA: 0x181A6DBE0 Slot: 6
+	// RVA: 0x1A5A110 Offset: 0x1A58710 VA: 0x181A5A110 Slot: 6
 	public virtual int get_marginTop() { }
 
-	// RVA: 0x1A6DB10 Offset: 0x1A6C110 VA: 0x181A6DB10 Slot: 7
+	// RVA: 0x1A5A040 Offset: 0x1A58640 VA: 0x181A5A040 Slot: 7
 	public virtual int get_marginBottom() { }
 
-	// RVA: 0x1A6DB40 Offset: 0x1A6C140 VA: 0x181A6DB40
+	// RVA: 0x1A5A070 Offset: 0x1A58670 VA: 0x181A5A070
 	public int get_marginHorizontal() { }
 
-	// RVA: 0x1A6DC10 Offset: 0x1A6C210 VA: 0x181A6DC10
+	// RVA: 0x1A5A140 Offset: 0x1A58740 VA: 0x181A5A140
 	public int get_marginVertical() { }
 
-	// RVA: 0x1A6D9B0 Offset: 0x1A6BFB0 VA: 0x181A6D9B0
+	// RVA: 0x1A59EE0 Offset: 0x1A584E0 VA: 0x181A59EE0
 	public void .ctor(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, GUIStyle _style) { }
 
-	// RVA: 0x1A6D860 Offset: 0x1A6BE60 VA: 0x181A6D860
+	// RVA: 0x1A59D90 Offset: 0x1A58390 VA: 0x181A59D90
 	public void .ctor(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, GUIStyle _style, GUILayoutOption[] options) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 8
@@ -59,22 +59,22 @@ internal class GUILayoutEntry // TypeDefIndex: 4053
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 9
 	public virtual void CalcHeight() { }
 
-	// RVA: 0x1A6CE60 Offset: 0x1A6B460 VA: 0x181A6CE60 Slot: 10
+	// RVA: 0x1A59390 Offset: 0x1A57990 VA: 0x181A59390 Slot: 10
 	public virtual void SetHorizontal(float x, float width) { }
 
-	// RVA: 0x1A6CEA0 Offset: 0x1A6B4A0 VA: 0x181A6CEA0 Slot: 11
+	// RVA: 0x1A593D0 Offset: 0x1A579D0 VA: 0x181A593D0 Slot: 11
 	public virtual void SetVertical(float y, float height) { }
 
-	// RVA: 0x1A6CD50 Offset: 0x1A6B350 VA: 0x181A6CD50 Slot: 12
+	// RVA: 0x1A59280 Offset: 0x1A57880 VA: 0x181A59280 Slot: 12
 	protected virtual void ApplyStyleSettings(GUIStyle style) { }
 
-	// RVA: 0x1A6C9B0 Offset: 0x1A6AFB0 VA: 0x181A6C9B0 Slot: 13
+	// RVA: 0x1A58EE0 Offset: 0x1A574E0 VA: 0x181A58EE0 Slot: 13
 	public virtual void ApplyOptions(GUILayoutOption[] options) { }
 
-	// RVA: 0x1A6CEE0 Offset: 0x1A6B4E0 VA: 0x181A6CEE0 Slot: 3
+	// RVA: 0x1A59410 Offset: 0x1A57A10 VA: 0x181A59410 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1A6D7E0 Offset: 0x1A6BDE0 VA: 0x181A6D7E0
+	// RVA: 0x1A59D10 Offset: 0x1A58310 VA: 0x181A59D10
 	private static void .cctor() { }
 
 }

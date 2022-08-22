@@ -34,67 +34,67 @@ internal class ClassMap : ObjectMap // TypeDefIndex: 2128
 
 	// Methods
 
-	// RVA: 0x10FE0C0 Offset: 0x10FC6C0 VA: 0x1810FE0C0
+	// RVA: 0x10FEB30 Offset: 0x10FD130 VA: 0x1810FEB30
 	public void AddMember(XmlTypeMapMember member) { }
 
-	// RVA: 0x10FF350 Offset: 0x10FD950 VA: 0x1810FF350
+	// RVA: 0x10FFDC0 Offset: 0x10FE3C0 VA: 0x1810FFDC0
 	private void RegisterFlatList(XmlTypeMapMemberExpandable member) { }
 
-	// RVA: 0x10FEDB0 Offset: 0x10FD3B0 VA: 0x1810FEDB0
+	// RVA: 0x10FF820 Offset: 0x10FDE20 VA: 0x1810FF820
 	public XmlTypeMapMemberAttribute GetAttribute(string name, string ns) { }
 
-	// RVA: 0x10FF0D0 Offset: 0x10FD6D0 VA: 0x1810FF0D0
+	// RVA: 0x10FFB40 Offset: 0x10FE140 VA: 0x1810FFB40
 	public XmlTypeMapElementInfo GetElement(string name, string ns, int minimalOrder) { }
 
-	// RVA: 0x10FEEC0 Offset: 0x10FD4C0 VA: 0x1810FEEC0
+	// RVA: 0x10FF930 Offset: 0x10FDF30 VA: 0x1810FF930
 	public XmlTypeMapElementInfo GetElement(string name, string ns) { }
 
-	// RVA: 0x10FED00 Offset: 0x10FD300 VA: 0x1810FED00
+	// RVA: 0x10FF770 Offset: 0x10FDD70 VA: 0x1810FF770
 	private string BuildKey(string name, string ns, int explicitOrder) { }
 
-	// RVA: 0x10FF800 Offset: 0x10FDE00 VA: 0x1810FF800
+	// RVA: 0x1100270 Offset: 0x10FE870 VA: 0x181100270
 	public bool get_IsOrderDependentMap() { }
 
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	public XmlTypeMapMemberAnyElement get_DefaultAnyElementMember() { }
 
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0
 	public XmlTypeMapMemberAnyAttribute get_DefaultAnyAttributeMember() { }
 
-	// RVA: 0x536320 Offset: 0x534920 VA: 0x180536320
+	// RVA: 0x5362B0 Offset: 0x5348B0 VA: 0x1805362B0
 	public XmlTypeMapMemberNamespaces get_NamespaceDeclarations() { }
 
-	// RVA: 0x10FF4B0 Offset: 0x10FDAB0 VA: 0x1810FF4B0
+	// RVA: 0x10FFF20 Offset: 0x10FE520 VA: 0x1810FFF20
 	public ICollection get_AttributeMembers() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public ICollection get_ElementMembers() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public ArrayList get_AllMembers() { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public ArrayList get_FlatLists() { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	public ArrayList get_ListMembers() { }
 
-	// RVA: 0x519C50 Offset: 0x518250 VA: 0x180519C50
+	// RVA: 0x519BE0 Offset: 0x5181E0 VA: 0x180519BE0
 	public XmlTypeMapMember get_XmlTextCollector() { }
 
-	// RVA: 0x5743D0 Offset: 0x5729D0 VA: 0x1805743D0
+	// RVA: 0x574360 Offset: 0x572960 VA: 0x180574360
 	public XmlTypeMapMember get_ReturnMember() { }
 
-	// RVA: 0x10FFA60 Offset: 0x10FE060 VA: 0x1810FFA60
+	// RVA: 0x11004D0 Offset: 0x10FEAD0 VA: 0x1811004D0
 	public XmlQualifiedName get_SimpleContentBaseType() { }
 
-	// RVA: 0x10FF410 Offset: 0x10FDA10 VA: 0x1810FF410
+	// RVA: 0x10FFE80 Offset: 0x10FE480 VA: 0x1810FFE80
 	public void SetCanBeSimpleType(bool can) { }
 
-	// RVA: 0x10FF790 Offset: 0x10FDD90 VA: 0x1810FF790
+	// RVA: 0x1100200 Offset: 0x10FE800 VA: 0x181100200
 	public bool get_HasSimpleContent() { }
 
-	// RVA: 0x10FF420 Offset: 0x10FDA20 VA: 0x1810FF420
+	// RVA: 0x10FFE90 Offset: 0x10FE490 VA: 0x1810FFE90
 	public void .ctor() { }
 
 }

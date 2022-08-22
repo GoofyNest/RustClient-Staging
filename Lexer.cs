@@ -11,67 +11,67 @@ internal class Lexer // TypeDefIndex: 5783
 
 	// Methods
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	public void .ctor(string stream) { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public int get_Position() { }
 
-	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
+	// RVA: 0x79C6B0 Offset: 0x79ACB0 VA: 0x18079C6B0
 	public void set_Position(int value) { }
 
-	// RVA: 0x1090DA0 Offset: 0x108F3A0 VA: 0x181090DA0
+	// RVA: 0x1091810 Offset: 0x108FE10 VA: 0x181091810
 	public string GetStringValue(Token token) { }
 
-	// RVA: 0x1090D70 Offset: 0x108F370 VA: 0x181090D70
+	// RVA: 0x10917E0 Offset: 0x108FDE0 VA: 0x1810917E0
 	public string GetStringValue(Token start, Token end) { }
 
-	// RVA: 0x1090D00 Offset: 0x108F300 VA: 0x181090D00
+	// RVA: 0x1091770 Offset: 0x108FD70 VA: 0x181091770
 	public string GetQuotedStringValue(Token start) { }
 
-	// RVA: 0x1090D40 Offset: 0x108F340 VA: 0x181090D40
+	// RVA: 0x10917B0 Offset: 0x108FDB0 VA: 0x1810917B0
 	public string GetRemainingStringValue(int position) { }
 
-	// RVA: 0x1090DD0 Offset: 0x108F3D0 VA: 0x181090DD0
+	// RVA: 0x1091840 Offset: 0x108FE40 VA: 0x181091840
 	public bool IsStarStringValue(Token token) { }
 
-	// RVA: 0x10917F0 Offset: 0x108FDF0 VA: 0x1810917F0
+	// RVA: 0x1092260 Offset: 0x1090860 VA: 0x181092260
 	public bool TryGetNumericValue(Token token, out int value) { }
 
-	// RVA: 0x1091730 Offset: 0x108FD30 VA: 0x181091730
+	// RVA: 0x10921A0 Offset: 0x10907A0 VA: 0x1810921A0
 	public bool TryGetNumericValue(Token token, out long value) { }
 
-	// RVA: 0x10918B0 Offset: 0x108FEB0 VA: 0x1810918B0
+	// RVA: 0x1092320 Offset: 0x1090920 VA: 0x181092320
 	public Nullable<TimeSpan> TryGetTimeSpanValue(Token token) { }
 
-	// RVA: 0x1091560 Offset: 0x108FB60 VA: 0x181091560
+	// RVA: 0x1091FD0 Offset: 0x10905D0 VA: 0x181091FD0
 	public bool TryGetDateValue(Token token, out DateTimeOffset value) { }
 
-	// RVA: 0x1091470 Offset: 0x108FA70 VA: 0x181091470
+	// RVA: 0x1091EE0 Offset: 0x10904E0 VA: 0x181091EE0
 	public static bool TryGetDateValue(string text, out DateTimeOffset value) { }
 
-	// RVA: 0x1091650 Offset: 0x108FC50 VA: 0x181091650
+	// RVA: 0x10920C0 Offset: 0x10906C0 VA: 0x1810920C0
 	public bool TryGetDoubleValue(Token token, out double value) { }
 
-	// RVA: 0x1090ED0 Offset: 0x108F4D0 VA: 0x181090ED0
+	// RVA: 0x1091940 Offset: 0x108FF40 VA: 0x181091940
 	public static bool IsValidToken(string input) { }
 
-	// RVA: 0x1090E10 Offset: 0x108F410 VA: 0x181090E10
+	// RVA: 0x1091880 Offset: 0x108FE80 VA: 0x181091880
 	public static bool IsValidCharacter(char input) { }
 
-	// RVA: 0x1090CF0 Offset: 0x108F2F0 VA: 0x181090CF0
+	// RVA: 0x1091760 Offset: 0x108FD60 VA: 0x181091760
 	public void EatChar() { }
 
-	// RVA: 0x1090F80 Offset: 0x108F580 VA: 0x181090F80
+	// RVA: 0x10919F0 Offset: 0x108FFF0 VA: 0x1810919F0
 	public int PeekChar() { }
 
-	// RVA: 0x1090FC0 Offset: 0x108F5C0 VA: 0x181090FC0
+	// RVA: 0x1091A30 Offset: 0x1090030 VA: 0x181091A30
 	public bool ScanCommentOptional(out string value, out Token readToken) { }
 
-	// RVA: 0x1091120 Offset: 0x108F720 VA: 0x181091120
+	// RVA: 0x1091B90 Offset: 0x1090190 VA: 0x181091B90
 	public Token Scan(bool recognizeDash = False) { }
 
-	// RVA: 0x1091A00 Offset: 0x1090000 VA: 0x181091A00
+	// RVA: 0x1092470 Offset: 0x1090A70 VA: 0x181092470
 	private static void .cctor() { }
 
 }

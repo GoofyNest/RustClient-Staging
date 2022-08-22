@@ -14,23 +14,23 @@ public class EdgeDetection : PostEffectsBase // TypeDefIndex: 8186
 
 	// Methods
 
-	// RVA: 0x21DF810 Offset: 0x21DDE10 VA: 0x1821DF810 Slot: 4
+	// RVA: 0x21E0030 Offset: 0x21DE630 VA: 0x1821E0030 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x21DFB90 Offset: 0x21DE190 VA: 0x1821DFB90
+	// RVA: 0x21E03B0 Offset: 0x21DE9B0 VA: 0x1821E03B0
 	private void Start() { }
 
-	// RVA: 0x21DFAE0 Offset: 0x21DE0E0 VA: 0x1821DFAE0
+	// RVA: 0x21E0300 Offset: 0x21DE900 VA: 0x1821E0300
 	private void SetCameraFlag() { }
 
-	// RVA: 0x21DF890 Offset: 0x21DDE90 VA: 0x1821DF890
+	// RVA: 0x21E00B0 Offset: 0x21DE6B0 VA: 0x1821E00B0
 	private void OnEnable() { }
 
 	[ImageEffectOpaque] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x21DF8A0 Offset: 0x21DDEA0 VA: 0x1821DF8A0
+	// RVA: 0x21E00C0 Offset: 0x21DE6C0 VA: 0x1821E00C0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21DFBA0 Offset: 0x21DE1A0 VA: 0x1821DFBA0
+	// RVA: 0x21E03C0 Offset: 0x21DE9C0 VA: 0x1821E03C0
 	public void .ctor() { }
 
 }

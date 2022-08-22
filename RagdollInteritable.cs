@@ -1,7 +1,7 @@
 public static class RagdollInteritable // TypeDefIndex: 9228
 {	// Methods
 
-	// RVA: 0x6A45D0 Offset: 0x6A2BD0 VA: 0x1806A45D0
+	// RVA: 0x6A4560 Offset: 0x6A2B60 VA: 0x1806A4560
 	public static void Inherit(Model from, Model to) { }
 
 }

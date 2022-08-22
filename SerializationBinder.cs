@@ -1,7 +1,7 @@
 public abstract class SerializationBinder // TypeDefIndex: 1053
 {	// Methods
 
-	// RVA: 0x12A57A0 Offset: 0x12A3DA0 VA: 0x1812A57A0 Slot: 4
+	// RVA: 0x12A5E40 Offset: 0x12A4440 VA: 0x1812A5E40 Slot: 4
 	public virtual void BindToName(Type serializedType, out string assemblyName, out string typeName) { }
 
 	// RVA: -1 Offset: -1 Slot: 5

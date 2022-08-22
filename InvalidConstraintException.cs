@@ -1,13 +1,13 @@
 public class InvalidConstraintException : DataException // TypeDefIndex: 4196
 {	// Methods
 
-	// RVA: 0xE8C690 Offset: 0xE8AC90 VA: 0x180E8C690
+	// RVA: 0xE8D140 Offset: 0xE8B740 VA: 0x180E8D140
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xE8C710 Offset: 0xE8AD10 VA: 0x180E8C710
+	// RVA: 0xE8D1C0 Offset: 0xE8B7C0 VA: 0x180E8D1C0
 	public void .ctor() { }
 
-	// RVA: 0xE8C670 Offset: 0xE8AC70 VA: 0x180E8C670
+	// RVA: 0xE8D120 Offset: 0xE8B720 VA: 0x180E8D120
 	public void .ctor(string s) { }
 
 }

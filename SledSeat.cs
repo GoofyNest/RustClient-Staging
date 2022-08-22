@@ -7,10 +7,10 @@ public class SledSeat : BaseVehicleSeat // TypeDefIndex: 8837
 
 	// Methods
 
-	// RVA: 0x5A6230 Offset: 0x5A4830 VA: 0x1805A6230 Slot: 173
+	// RVA: 0x5A61C0 Offset: 0x5A47C0 VA: 0x1805A61C0 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0x5A6580 Offset: 0x5A4B80 VA: 0x1805A6580
+	// RVA: 0x5A6510 Offset: 0x5A4B10 VA: 0x1805A6510
 	public void .ctor() { }
 
 }

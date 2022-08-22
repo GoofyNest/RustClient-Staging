@@ -9,31 +9,31 @@ public class PlayingCard // TypeDefIndex: 12016
 	// RVA: 0x45E8C0 Offset: 0x45CEC0 VA: 0x18045E8C0
 	private void .ctor(Suit suit, Rank rank) { }
 
-	// RVA: 0x8D6BD0 Offset: 0x8D51D0 VA: 0x1808D6BD0
+	// RVA: 0x8D70E0 Offset: 0x8D56E0 VA: 0x1808D70E0
 	public static PlayingCard GetCard(Suit suit, Rank rank) { }
 
-	// RVA: 0x8D6AA0 Offset: 0x8D50A0 VA: 0x1808D6AA0
+	// RVA: 0x8D6FB0 Offset: 0x8D55B0 VA: 0x1808D6FB0
 	public static PlayingCard GetCard(int suit, int rank) { }
 
-	// RVA: 0x8D6B40 Offset: 0x8D5140 VA: 0x1808D6B40
+	// RVA: 0x8D7050 Offset: 0x8D5650 VA: 0x1808D7050
 	public static PlayingCard GetCard(int index) { }
 
-	// RVA: 0x8D6D80 Offset: 0x8D5380 VA: 0x1808D6D80
+	// RVA: 0x8D7290 Offset: 0x8D5890 VA: 0x1808D7290
 	public int GetIndex() { }
 
-	// RVA: 0x8D6DE0 Offset: 0x8D53E0 VA: 0x1808D6DE0
+	// RVA: 0x8D72F0 Offset: 0x8D58F0 VA: 0x1808D72F0
 	public static int GetIndex(Suit suit, Rank rank) { }
 
-	// RVA: 0x8D6CB0 Offset: 0x8D52B0 VA: 0x1808D6CB0
+	// RVA: 0x8D71C0 Offset: 0x8D57C0 VA: 0x1808D71C0
 	public int GetEvaluationValue() { }
 
-	// RVA: 0x8D6DF0 Offset: 0x8D53F0 VA: 0x1808D6DF0
+	// RVA: 0x8D7300 Offset: 0x8D5900 VA: 0x1808D7300
 	private int GetSuitCode() { }
 
-	// RVA: 0x8D69B0 Offset: 0x8D4FB0 VA: 0x1808D69B0
+	// RVA: 0x8D6EC0 Offset: 0x8D54C0 VA: 0x1808D6EC0
 	private static PlayingCard[] GenerateAllCards() { }
 
-	// RVA: 0x8D6E20 Offset: 0x8D5420 VA: 0x1808D6E20
+	// RVA: 0x8D7330 Offset: 0x8D5930 VA: 0x1808D7330
 	private static void .cctor() { }
 
 }

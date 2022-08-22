@@ -31,37 +31,37 @@ public class DepthOfField : PostEffectsBase // TypeDefIndex: 8178
 
 	// Methods
 
-	// RVA: 0x592630 Offset: 0x590C30 VA: 0x180592630
+	// RVA: 0x5925C0 Offset: 0x590BC0 VA: 0x1805925C0
 	public bool get_ForceOnlyFarBlur() { }
 
-	// RVA: 0x592640 Offset: 0x590C40 VA: 0x180592640
+	// RVA: 0x5925D0 Offset: 0x590BD0 VA: 0x1805925D0
 	public void set_ForceOnlyFarBlur(bool value) { }
 
-	// RVA: 0x21DD130 Offset: 0x21DB730 VA: 0x1821DD130 Slot: 4
+	// RVA: 0x21DD950 Offset: 0x21DBF50 VA: 0x1821DD950 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x21DD870 Offset: 0x21DBE70 VA: 0x1821DD870
+	// RVA: 0x21DE090 Offset: 0x21DC690 VA: 0x1821DE090
 	private void OnEnable() { }
 
-	// RVA: 0x21DD700 Offset: 0x21DBD00 VA: 0x1821DD700
+	// RVA: 0x21DDF20 Offset: 0x21DC520 VA: 0x1821DDF20
 	private void OnDisable() { }
 
-	// RVA: 0x21DF3C0 Offset: 0x21DD9C0 VA: 0x1821DF3C0
+	// RVA: 0x21DFBE0 Offset: 0x21DE1E0 VA: 0x1821DFBE0
 	private void ReleaseComputeResources() { }
 
-	// RVA: 0x21DD340 Offset: 0x21DB940 VA: 0x1821DD340
+	// RVA: 0x21DDB60 Offset: 0x21DC160 VA: 0x1821DDB60
 	private void CreateComputeResources() { }
 
-	// RVA: 0x21DD4D0 Offset: 0x21DBAD0 VA: 0x1821DD4D0
+	// RVA: 0x21DDCF0 Offset: 0x21DC2F0 VA: 0x1821DDCF0
 	private float FocalDistance01(float worldDist) { }
 
-	// RVA: 0x21DF430 Offset: 0x21DDA30 VA: 0x1821DF430
+	// RVA: 0x21DFC50 Offset: 0x21DE250 VA: 0x1821DFC50
 	private void WriteCoc(RenderTexture fromTo, bool fgDilate) { }
 
-	// RVA: 0x21DD8D0 Offset: 0x21DBED0 VA: 0x1821DD8D0
+	// RVA: 0x21DE0F0 Offset: 0x21DC6F0 VA: 0x1821DE0F0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21DF790 Offset: 0x21DDD90 VA: 0x1821DF790
+	// RVA: 0x21DFFB0 Offset: 0x21DE5B0 VA: 0x1821DFFB0
 	public void .ctor() { }
 
 }
@@ -100,10 +100,10 @@ public sealed class DepthOfField : PostProcessEffectSettings // TypeDefIndex: 11
 
 	// Methods
 
-	// RVA: 0x9FD2D0 Offset: 0x9FB8D0 VA: 0x1809FD2D0 Slot: 4
+	// RVA: 0x9FD7C0 Offset: 0x9FBDC0 VA: 0x1809FD7C0 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x9FD310 Offset: 0x9FB910 VA: 0x1809FD310
+	// RVA: 0x9FD800 Offset: 0x9FBE00 VA: 0x1809FD800
 	public void .ctor() { }
 
 }

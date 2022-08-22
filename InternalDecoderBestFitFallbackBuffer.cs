@@ -12,28 +12,28 @@ internal sealed class InternalDecoderBestFitFallbackBuffer : DecoderFallbackBuff
 
 	// Methods
 
-	// RVA: 0x191BE20 Offset: 0x191A420 VA: 0x18191BE20
+	// RVA: 0x191B540 Offset: 0x1919B40 VA: 0x18191B540
 	private static object get_InternalSyncObject() { }
 
-	// RVA: 0x191BC70 Offset: 0x191A270 VA: 0x18191BC70
+	// RVA: 0x191B390 Offset: 0x1919990 VA: 0x18191B390
 	public void .ctor(InternalDecoderBestFitFallback fallback) { }
 
-	// RVA: 0x191B9F0 Offset: 0x1919FF0 VA: 0x18191B9F0 Slot: 4
+	// RVA: 0x191B110 Offset: 0x1919710 VA: 0x18191B110 Slot: 4
 	public override bool Fallback(byte[] bytesUnknown, int index) { }
 
-	// RVA: 0x191BA40 Offset: 0x191A040 VA: 0x18191BA40 Slot: 5
+	// RVA: 0x191B160 Offset: 0x1919760 VA: 0x18191B160 Slot: 5
 	public override char GetNextChar() { }
 
-	// RVA: 0x1912840 Offset: 0x1910E40 VA: 0x181912840 Slot: 6
+	// RVA: 0x1911F60 Offset: 0x1910560 VA: 0x181911F60 Slot: 6
 	public override int get_Remaining() { }
 
-	// RVA: 0x1912820 Offset: 0x1910E20 VA: 0x181912820 Slot: 7
+	// RVA: 0x1911F40 Offset: 0x1910540 VA: 0x181911F40 Slot: 7
 	public override void Reset() { }
 
-	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 9
+	// RVA: 0x5B1870 Offset: 0x5AFE70 VA: 0x1805B1870 Slot: 9
 	internal override int InternalFallback(byte[] bytes, byte* pBytes) { }
 
-	// RVA: 0x191BA60 Offset: 0x191A060 VA: 0x18191BA60
+	// RVA: 0x191B180 Offset: 0x1919780 VA: 0x18191B180
 	private char TryBestFit(byte[] bytesCheck) { }
 
 }

@@ -9,82 +9,82 @@ public class ModuleMessage : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1F89DA0 Offset: 0x1F883A0 VA: 0x181F89DA0
+	// RVA: 0x1F8A5C0 Offset: 0x1F88BC0 VA: 0x181F8A5C0
 	public static void ResetToPool(ModuleMessage instance) { }
 
-	// RVA: 0x1F89CF0 Offset: 0x1F882F0 VA: 0x181F89CF0
+	// RVA: 0x1F8A510 Offset: 0x1F88B10 VA: 0x181F8A510
 	public void ResetToPool() { }
 
-	// RVA: 0x1F89980 Offset: 0x1F87F80 VA: 0x181F89980 Slot: 9
+	// RVA: 0x1F8A1A0 Offset: 0x1F887A0 VA: 0x181F8A1A0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F88650 Offset: 0x1F86C50 VA: 0x181F88650
+	// RVA: 0x1F88E70 Offset: 0x1F87470 VA: 0x181F88E70
 	public void CopyTo(ModuleMessage instance) { }
 
-	// RVA: 0x1F88700 Offset: 0x1F86D00 VA: 0x181F88700
+	// RVA: 0x1F88F20 Offset: 0x1F87520 VA: 0x181F88F20
 	public ModuleMessage Copy() { }
 
-	// RVA: 0x1F89400 Offset: 0x1F87A00 VA: 0x181F89400
+	// RVA: 0x1F89C20 Offset: 0x1F88220 VA: 0x181F89C20
 	public static ModuleMessage Deserialize(Stream stream) { }
 
-	// RVA: 0x1F88810 Offset: 0x1F86E10 VA: 0x181F88810
+	// RVA: 0x1F89030 Offset: 0x1F87630 VA: 0x181F89030
 	public static ModuleMessage DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F88B80 Offset: 0x1F87180 VA: 0x181F88B80
+	// RVA: 0x1F893A0 Offset: 0x1F879A0 VA: 0x181F893A0
 	public static ModuleMessage DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F89660 Offset: 0x1F87C60 VA: 0x181F89660
+	// RVA: 0x1F89E80 Offset: 0x1F88480 VA: 0x181F89E80
 	public static ModuleMessage Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F89AB0 Offset: 0x1F880B0 VA: 0x181F89AB0
+	// RVA: 0x1F8A2D0 Offset: 0x1F888D0 VA: 0x181F8A2D0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F8A3D0 Offset: 0x1F889D0 VA: 0x181F8A3D0 Slot: 12
+	// RVA: 0x1F8ABF0 Offset: 0x1F891F0 VA: 0x181F8ABF0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F8A3F0 Offset: 0x1F889F0 VA: 0x181F8A3F0 Slot: 13
+	// RVA: 0x1F8AC10 Offset: 0x1F89210 VA: 0x181F8AC10 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ModuleMessage previous) { }
 
-	// RVA: 0x1F89CD0 Offset: 0x1F882D0 VA: 0x181F89CD0 Slot: 14
+	// RVA: 0x1F8A4F0 Offset: 0x1F88AF0 VA: 0x181F8A4F0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F89100 Offset: 0x1F87700 VA: 0x181F89100
+	// RVA: 0x1F89920 Offset: 0x1F87F20 VA: 0x181F89920
 	public static ModuleMessage Deserialize(byte[] buffer, ModuleMessage instance, bool isDelta = False) { }
 
-	// RVA: 0x1F88EE0 Offset: 0x1F874E0 VA: 0x181F88EE0
+	// RVA: 0x1F89700 Offset: 0x1F87D00 VA: 0x181F89700
 	public static ModuleMessage Deserialize(Stream stream, ModuleMessage instance, bool isDelta) { }
 
-	// RVA: 0x1F88890 Offset: 0x1F86E90 VA: 0x181F88890
+	// RVA: 0x1F890B0 Offset: 0x1F876B0 VA: 0x181F890B0
 	public static ModuleMessage DeserializeLengthDelimited(Stream stream, ModuleMessage instance, bool isDelta) { }
 
-	// RVA: 0x1F88C10 Offset: 0x1F87210 VA: 0x181F88C10
+	// RVA: 0x1F89430 Offset: 0x1F87A30 VA: 0x181F89430
 	public static ModuleMessage DeserializeLength(Stream stream, int length, ModuleMessage instance, bool isDelta) { }
 
-	// RVA: 0x1F89E50 Offset: 0x1F88450 VA: 0x181F89E50
+	// RVA: 0x1F8A670 Offset: 0x1F88C70 VA: 0x181F8A670
 	public static void SerializeDelta(Stream stream, ModuleMessage instance, ModuleMessage previous) { }
 
-	// RVA: 0x1F8A230 Offset: 0x1F88830 VA: 0x181F8A230
+	// RVA: 0x1F8AA50 Offset: 0x1F89050 VA: 0x181F8AA50
 	public static void Serialize(Stream stream, ModuleMessage instance) { }
 
-	// RVA: 0x1F8A3C0 Offset: 0x1F889C0 VA: 0x181F8A3C0
+	// RVA: 0x1F8ABE0 Offset: 0x1F891E0 VA: 0x181F8ABE0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F8A3D0 Offset: 0x1F889D0 VA: 0x181F8A3D0
+	// RVA: 0x1F8ABF0 Offset: 0x1F891F0 VA: 0x181F8ABF0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F8A120 Offset: 0x1F88720 VA: 0x181F8A120
+	// RVA: 0x1F8A940 Offset: 0x1F88F40 VA: 0x181F8A940
 	public static byte[] SerializeToBytes(ModuleMessage instance) { }
 
-	// RVA: 0x1F8A070 Offset: 0x1F88670 VA: 0x181F8A070
+	// RVA: 0x1F8A890 Offset: 0x1F88E90 VA: 0x181F8A890
 	public static void SerializeLengthDelimited(Stream stream, ModuleMessage instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }

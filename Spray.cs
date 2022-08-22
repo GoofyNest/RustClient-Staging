@@ -7,82 +7,82 @@ public class Spray : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6430
 
 	// Methods
 
-	// RVA: 0x1DBE540 Offset: 0x1DBCB40 VA: 0x181DBE540
+	// RVA: 0x1DBED30 Offset: 0x1DBD330 VA: 0x181DBED30
 	public static void ResetToPool(Spray instance) { }
 
-	// RVA: 0x1DBE4B0 Offset: 0x1DBCAB0 VA: 0x181DBE4B0
+	// RVA: 0x1DBECA0 Offset: 0x1DBD2A0 VA: 0x181DBECA0
 	public void ResetToPool() { }
 
-	// RVA: 0x1DBE210 Offset: 0x1DBC810 VA: 0x181DBE210 Slot: 9
+	// RVA: 0x1DBEA00 Offset: 0x1DBD000 VA: 0x181DBEA00 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DBD3E0 Offset: 0x1DBB9E0 VA: 0x181DBD3E0
+	// RVA: 0x1DBDBD0 Offset: 0x1DBC1D0 VA: 0x181DBDBD0
 	public void CopyTo(Spray instance) { }
 
-	// RVA: 0x1DBD410 Offset: 0x1DBBA10 VA: 0x181DBD410
+	// RVA: 0x1DBDC00 Offset: 0x1DBC200 VA: 0x181DBDC00
 	public Spray Copy() { }
 
-	// RVA: 0x1DBDDE0 Offset: 0x1DBC3E0 VA: 0x181DBDDE0
+	// RVA: 0x1DBE5D0 Offset: 0x1DBCBD0 VA: 0x181DBE5D0
 	public static Spray Deserialize(Stream stream) { }
 
-	// RVA: 0x1DBD6D0 Offset: 0x1DBBCD0 VA: 0x181DBD6D0
+	// RVA: 0x1DBDEC0 Offset: 0x1DBC4C0 VA: 0x181DBDEC0
 	public static Spray DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DBD980 Offset: 0x1DBBF80 VA: 0x181DBD980
+	// RVA: 0x1DBE170 Offset: 0x1DBC770 VA: 0x181DBE170
 	public static Spray DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DBDFA0 Offset: 0x1DBC5A0 VA: 0x181DBDFA0
+	// RVA: 0x1DBE790 Offset: 0x1DBCD90 VA: 0x181DBE790
 	public static Spray Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DBE310 Offset: 0x1DBC910 VA: 0x181DBE310
+	// RVA: 0x1DBEB00 Offset: 0x1DBD100 VA: 0x181DBEB00
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DBEA00 Offset: 0x1DBD000 VA: 0x181DBEA00 Slot: 12
+	// RVA: 0x1DBF1F0 Offset: 0x1DBD7F0 VA: 0x181DBF1F0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DBEA20 Offset: 0x1DBD020 VA: 0x181DBEA20 Slot: 13
+	// RVA: 0x1DBF210 Offset: 0x1DBD810 VA: 0x181DBF210 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Spray previous) { }
 
-	// RVA: 0x1DBE490 Offset: 0x1DBCA90 VA: 0x181DBE490 Slot: 14
+	// RVA: 0x1DBEC80 Offset: 0x1DBD280 VA: 0x181DBEC80 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DBDB90 Offset: 0x1DBC190 VA: 0x181DBDB90
+	// RVA: 0x1DBE380 Offset: 0x1DBC980 VA: 0x181DBE380
 	public static Spray Deserialize(byte[] buffer, Spray instance, bool isDelta = False) { }
 
-	// RVA: 0x1DBDA10 Offset: 0x1DBC010 VA: 0x181DBDA10
+	// RVA: 0x1DBE200 Offset: 0x1DBC800 VA: 0x181DBE200
 	public static Spray Deserialize(Stream stream, Spray instance, bool isDelta) { }
 
-	// RVA: 0x1DBD480 Offset: 0x1DBBA80 VA: 0x181DBD480
+	// RVA: 0x1DBDC70 Offset: 0x1DBC270 VA: 0x181DBDC70
 	public static Spray DeserializeLengthDelimited(Stream stream, Spray instance, bool isDelta) { }
 
-	// RVA: 0x1DBD750 Offset: 0x1DBBD50 VA: 0x181DBD750
+	// RVA: 0x1DBDF40 Offset: 0x1DBC540 VA: 0x181DBDF40
 	public static Spray DeserializeLength(Stream stream, int length, Spray instance, bool isDelta) { }
 
-	// RVA: 0x1DBE5D0 Offset: 0x1DBCBD0 VA: 0x181DBE5D0
+	// RVA: 0x1DBEDC0 Offset: 0x1DBD3C0 VA: 0x181DBEDC0
 	public static void SerializeDelta(Stream stream, Spray instance, Spray previous) { }
 
-	// RVA: 0x1DBE8F0 Offset: 0x1DBCEF0 VA: 0x181DBE8F0
+	// RVA: 0x1DBF0E0 Offset: 0x1DBD6E0 VA: 0x181DBF0E0
 	public static void Serialize(Stream stream, Spray instance) { }
 
-	// RVA: 0x1DBE9F0 Offset: 0x1DBCFF0 VA: 0x181DBE9F0
+	// RVA: 0x1DBF1E0 Offset: 0x1DBD7E0 VA: 0x181DBF1E0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DBEA00 Offset: 0x1DBD000 VA: 0x181DBEA00
+	// RVA: 0x1DBF1F0 Offset: 0x1DBD7F0 VA: 0x181DBF1F0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DBE7E0 Offset: 0x1DBCDE0 VA: 0x181DBE7E0
+	// RVA: 0x1DBEFD0 Offset: 0x1DBD5D0 VA: 0x181DBEFD0
 	public static byte[] SerializeToBytes(Spray instance) { }
 
-	// RVA: 0x1DBE730 Offset: 0x1DBCD30 VA: 0x181DBE730
+	// RVA: 0x1DBEF20 Offset: 0x1DBD520 VA: 0x181DBEF20
 	public static void SerializeLengthDelimited(Stream stream, Spray instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }

@@ -6,82 +6,82 @@ public class SpinnerWheel : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x1DB8F10 Offset: 0x1DB7510 VA: 0x181DB8F10
+	// RVA: 0x1DB9700 Offset: 0x1DB7D00 VA: 0x181DB9700
 	public static void ResetToPool(SpinnerWheel instance) { }
 
-	// RVA: 0x1DB8F90 Offset: 0x1DB7590 VA: 0x181DB8F90
+	// RVA: 0x1DB9780 Offset: 0x1DB7D80 VA: 0x181DB9780
 	public void ResetToPool() { }
 
-	// RVA: 0x1DB8DE0 Offset: 0x1DB73E0 VA: 0x181DB8DE0 Slot: 9
+	// RVA: 0x1DB95D0 Offset: 0x1DB7BD0 VA: 0x181DB95D0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DB8430 Offset: 0x1DB6A30 VA: 0x181DB8430
+	// RVA: 0x1DB8C20 Offset: 0x1DB7220 VA: 0x181DB8C20
 	public void CopyTo(SpinnerWheel instance) { }
 
-	// RVA: 0x1DB8460 Offset: 0x1DB6A60 VA: 0x181DB8460
+	// RVA: 0x1DB8C50 Offset: 0x1DB7250 VA: 0x181DB8C50
 	public SpinnerWheel Copy() { }
 
-	// RVA: 0x1DB8D60 Offset: 0x1DB7360 VA: 0x181DB8D60
+	// RVA: 0x1DB9550 Offset: 0x1DB7B50 VA: 0x181DB9550
 	public static SpinnerWheel Deserialize(Stream stream) { }
 
-	// RVA: 0x1DB86F0 Offset: 0x1DB6CF0 VA: 0x181DB86F0
+	// RVA: 0x1DB8EE0 Offset: 0x1DB74E0 VA: 0x181DB8EE0
 	public static SpinnerWheel DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DB8960 Offset: 0x1DB6F60 VA: 0x181DB8960
+	// RVA: 0x1DB9150 Offset: 0x1DB7750 VA: 0x181DB9150
 	public static SpinnerWheel DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DB8C40 Offset: 0x1DB7240 VA: 0x181DB8C40
+	// RVA: 0x1DB9430 Offset: 0x1DB7A30 VA: 0x181DB9430
 	public static SpinnerWheel Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DB8ED0 Offset: 0x1DB74D0 VA: 0x181DB8ED0
+	// RVA: 0x1DB96C0 Offset: 0x1DB7CC0 VA: 0x181DB96C0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DB9590 Offset: 0x1DB7B90 VA: 0x181DB9590 Slot: 12
+	// RVA: 0x1DB9D80 Offset: 0x1DB8380 VA: 0x181DB9D80 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DB95B0 Offset: 0x1DB7BB0 VA: 0x181DB95B0 Slot: 13
+	// RVA: 0x1DB9DA0 Offset: 0x1DB83A0 VA: 0x181DB9DA0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SpinnerWheel previous) { }
 
-	// RVA: 0x1DB8EF0 Offset: 0x1DB74F0 VA: 0x181DB8EF0 Slot: 14
+	// RVA: 0x1DB96E0 Offset: 0x1DB7CE0 VA: 0x181DB96E0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DB89F0 Offset: 0x1DB6FF0 VA: 0x181DB89F0
+	// RVA: 0x1DB91E0 Offset: 0x1DB77E0 VA: 0x181DB91E0
 	public static SpinnerWheel Deserialize(byte[] buffer, SpinnerWheel instance, bool isDelta = False) { }
 
-	// RVA: 0x1DB8AF0 Offset: 0x1DB70F0 VA: 0x181DB8AF0
+	// RVA: 0x1DB92E0 Offset: 0x1DB78E0 VA: 0x181DB92E0
 	public static SpinnerWheel Deserialize(Stream stream, SpinnerWheel instance, bool isDelta) { }
 
-	// RVA: 0x1DB84D0 Offset: 0x1DB6AD0 VA: 0x181DB84D0
+	// RVA: 0x1DB8CC0 Offset: 0x1DB72C0 VA: 0x181DB8CC0
 	public static SpinnerWheel DeserializeLengthDelimited(Stream stream, SpinnerWheel instance, bool isDelta) { }
 
-	// RVA: 0x1DB8770 Offset: 0x1DB6D70 VA: 0x181DB8770
+	// RVA: 0x1DB8F60 Offset: 0x1DB7560 VA: 0x181DB8F60
 	public static SpinnerWheel DeserializeLength(Stream stream, int length, SpinnerWheel instance, bool isDelta) { }
 
-	// RVA: 0x1DB9010 Offset: 0x1DB7610 VA: 0x181DB9010
+	// RVA: 0x1DB9800 Offset: 0x1DB7E00 VA: 0x181DB9800
 	public static void SerializeDelta(Stream stream, SpinnerWheel instance, SpinnerWheel previous) { }
 
-	// RVA: 0x1DB9410 Offset: 0x1DB7A10 VA: 0x181DB9410
+	// RVA: 0x1DB9C00 Offset: 0x1DB8200 VA: 0x181DB9C00
 	public static void Serialize(Stream stream, SpinnerWheel instance) { }
 
-	// RVA: 0x1DB9580 Offset: 0x1DB7B80 VA: 0x181DB9580
+	// RVA: 0x1DB9D70 Offset: 0x1DB8370 VA: 0x181DB9D70
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DB9590 Offset: 0x1DB7B90 VA: 0x181DB9590
+	// RVA: 0x1DB9D80 Offset: 0x1DB8380 VA: 0x181DB9D80
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DB9300 Offset: 0x1DB7900 VA: 0x181DB9300
+	// RVA: 0x1DB9AF0 Offset: 0x1DB80F0 VA: 0x181DB9AF0
 	public static byte[] SerializeToBytes(SpinnerWheel instance) { }
 
-	// RVA: 0x1DB9250 Offset: 0x1DB7850 VA: 0x181DB9250
+	// RVA: 0x1DB9A40 Offset: 0x1DB8040 VA: 0x181DB9A40
 	public static void SerializeLengthDelimited(Stream stream, SpinnerWheel instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -112,70 +112,70 @@ public class SpinnerWheel : Signage // TypeDefIndex: 8452
 
 	// Methods
 
-	// RVA: 0xA7F580 Offset: 0xA7DB80 VA: 0x180A7F580 Slot: 49
+	// RVA: 0xA7FA50 Offset: 0xA7E050 VA: 0x180A7FA50 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xA80A60 Offset: 0xA7F060 VA: 0x180A80A60 Slot: 50
+	// RVA: 0xA80F30 Offset: 0xA7F530 VA: 0x180A80F30 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xA800C0 Offset: 0xA7E6C0 VA: 0x180A800C0 Slot: 35
+	// RVA: 0xA80590 Offset: 0xA7EB90 VA: 0x180A80590 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 173
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 173
 	public virtual bool AllowPlayerSpins() { }
 
-	// RVA: 0xA7FDD0 Offset: 0xA7E3D0 VA: 0x180A7FDD0 Slot: 34
+	// RVA: 0xA802A0 Offset: 0xA7E8A0 VA: 0x180A802A0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xA7F570 Offset: 0xA7DB70 VA: 0x180A7F570 Slot: 174
+	// RVA: 0xA7FA40 Offset: 0xA7E040 VA: 0x180A7FA40 Slot: 174
 	public virtual float GetMaxSpinSpeed() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 175
 	public virtual void Update_Server() { }
 
-	// RVA: 0xA80690 Offset: 0xA7EC90 VA: 0x180A80690
+	// RVA: 0xA80B60 Offset: 0xA7F160 VA: 0x180A80B60
 	public void Update_Client() { }
 
-	// RVA: 0xA801B0 Offset: 0xA7E7B0 VA: 0x180A801B0
+	// RVA: 0xA80680 Offset: 0xA7EC80 VA: 0x180A80680
 	private void UpdateSound() { }
 
-	// RVA: 0xA80970 Offset: 0xA7EF70 VA: 0x180A80970
+	// RVA: 0xA80E40 Offset: 0xA7F440 VA: 0x180A80E40
 	public void Update() { }
 
-	// RVA: 0x50CC40 Offset: 0x50B240 VA: 0x18050CC40
+	// RVA: 0x50CBD0 Offset: 0x50B1D0 VA: 0x18050CBD0
 	public bool AnyoneSpin() { }
 
 	[BaseEntity.Menu] // RVA: 0x8CD30 Offset: 0x8C130 VA: 0x18008CD30
 	[BaseEntity.Menu.Description] // RVA: 0x8CD30 Offset: 0x8C130 VA: 0x18008CD30
 	[BaseEntity.Menu.Icon] // RVA: 0x8CD30 Offset: 0x8C130 VA: 0x18008CD30
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8CD30 Offset: 0x8C130 VA: 0x18008CD30
-	// RVA: 0xA7FFD0 Offset: 0xA7E5D0 VA: 0x180A7FFD0
+	// RVA: 0xA804A0 Offset: 0xA7EAA0 VA: 0x180A804A0
 	public void Menu_Spin(BasePlayer player) { }
 
-	// RVA: 0xA7FF60 Offset: 0xA7E560 VA: 0x180A7FF60
+	// RVA: 0xA80430 Offset: 0xA7EA30 VA: 0x180A80430
 	public bool Menu_Spin_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x8CF50 Offset: 0x8C350 VA: 0x18008CF50
 	[BaseEntity.Menu.Description] // RVA: 0x8CF50 Offset: 0x8C350 VA: 0x18008CF50
 	[BaseEntity.Menu.Icon] // RVA: 0x8CF50 Offset: 0x8C350 VA: 0x18008CF50
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8CF50 Offset: 0x8C350 VA: 0x18008CF50
-	// RVA: 0xA80070 Offset: 0xA7E670 VA: 0x180A80070
+	// RVA: 0xA80540 Offset: 0xA7EB40 VA: 0x180A80540
 	public void Menu_UnlockSpin(BasePlayer player) { }
 
-	// RVA: 0xA80010 Offset: 0xA7E610 VA: 0x180A80010
+	// RVA: 0xA804E0 Offset: 0xA7EAE0 VA: 0x180A804E0
 	public bool Menu_UnlockSpin_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x8D180 Offset: 0x8C580 VA: 0x18008D180
 	[BaseEntity.Menu.Description] // RVA: 0x8D180 Offset: 0x8C580 VA: 0x18008D180
 	[BaseEntity.Menu.Icon] // RVA: 0x8D180 Offset: 0x8C580 VA: 0x18008D180
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8D180 Offset: 0x8C580 VA: 0x18008D180
-	// RVA: 0xA7FF10 Offset: 0xA7E510 VA: 0x180A7FF10
+	// RVA: 0xA803E0 Offset: 0xA7E9E0 VA: 0x180A803E0
 	public void Menu_LockSpin(BasePlayer player) { }
 
-	// RVA: 0xA7FEB0 Offset: 0xA7E4B0 VA: 0x180A7FEB0
+	// RVA: 0xA80380 Offset: 0xA7E980 VA: 0x180A80380
 	public bool Menu_LockSpin_ShowIf(BasePlayer player) { }
 
-	// RVA: 0xA809C0 Offset: 0xA7EFC0 VA: 0x180A809C0
+	// RVA: 0xA80E90 Offset: 0xA7F490 VA: 0x180A80E90
 	public void .ctor() { }
 
 }

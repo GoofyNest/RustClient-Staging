@@ -6,10 +6,10 @@ public class MusicZone : MonoBehaviour, IClientComponent // TypeDefIndex: 9012
 
 	// Methods
 
-	// RVA: 0x7C3050 Offset: 0x7C1650 VA: 0x1807C3050
+	// RVA: 0x7E1440 Offset: 0x7DFA40 VA: 0x1807E1440
 	private void OnTriggerEnter(Collider other) { }
 
-	// RVA: 0x7C3320 Offset: 0x7C1920 VA: 0x1807C3320
+	// RVA: 0x7E1710 Offset: 0x7DFD10 VA: 0x1807E1710
 	private void OnTriggerExit(Collider other) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

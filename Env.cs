@@ -11,31 +11,31 @@ public class Env : ConsoleSystem // TypeDefIndex: 11921
 
 	// Methods
 
-	// RVA: 0x6DFBB0 Offset: 0x6DE1B0 VA: 0x1806DFBB0
+	// RVA: 0x6DFB40 Offset: 0x6DE140 VA: 0x1806DFB40
 	public static bool get_cloudmovement() { }
 
-	// RVA: 0x6DFEF0 Offset: 0x6DE4F0 VA: 0x1806DFEF0
+	// RVA: 0x6DFE80 Offset: 0x6DE480 VA: 0x1806DFE80
 	public static void set_cloudmovement(bool value) { }
 
-	// RVA: 0x6DFC90 Offset: 0x6DE290 VA: 0x1806DFC90
+	// RVA: 0x6DFC20 Offset: 0x6DE220 VA: 0x1806DFC20
 	public static float get_cloudrotation() { }
 
-	// RVA: 0x6DFFD0 Offset: 0x6DE5D0 VA: 0x1806DFFD0
+	// RVA: 0x6DFF60 Offset: 0x6DE560 VA: 0x1806DFF60
 	public static void set_cloudrotation(float value) { }
 
-	// RVA: 0x6DFE10 Offset: 0x6DE410 VA: 0x1806DFE10
+	// RVA: 0x6DFDA0 Offset: 0x6DE3A0 VA: 0x1806DFDA0
 	public static float get_skyrotation() { }
 
-	// RVA: 0x6E0190 Offset: 0x6DE790 VA: 0x1806E0190
+	// RVA: 0x6E0120 Offset: 0x6DE720 VA: 0x1806E0120
 	public static void set_skyrotation(float value) { }
 
-	// RVA: 0x6DFD70 Offset: 0x6DE370 VA: 0x1806DFD70
+	// RVA: 0x6DFD00 Offset: 0x6DE300 VA: 0x1806DFD00
 	public static float get_oceanlevel() { }
 
-	// RVA: 0x6E0130 Offset: 0x6DE730 VA: 0x1806E0130
+	// RVA: 0x6E00C0 Offset: 0x6DE6C0 VA: 0x1806E00C0
 	public static void set_oceanlevel(float value) { }
 
-	// RVA: 0x6DFB50 Offset: 0x6DE150 VA: 0x1806DFB50
+	// RVA: 0x6DFAE0 Offset: 0x6DE0E0 VA: 0x1806DFAE0
 	public void .ctor() { }
 
 }

@@ -16,7 +16,7 @@ public struct StringConcat // TypeDefIndex: 2430
 	// RVA: 0x237FC0 Offset: 0x2373C0 VA: 0x180237FC0
 	public void Clear() { }
 
-	// RVA: 0x1D1040 Offset: 0x1D0440 VA: 0x1801D1040
+	// RVA: 0x1D16B0 Offset: 0x1D0AB0 VA: 0x1801D16B0
 	internal int get_Count() { }
 
 	// RVA: 0x238160 Offset: 0x237560 VA: 0x180238160

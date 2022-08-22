@@ -5,14 +5,14 @@ public class IpList : Internet // TypeDefIndex: 5289
 
 	// Methods
 
-	// RVA: 0xDE2830 Offset: 0xDE0E30 VA: 0x180DE2830
+	// RVA: 0xDE32E0 Offset: 0xDE18E0 VA: 0x180DE32E0
 	public void .ctor(IEnumerable<string> list) { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA27D0 Offset: 0xA1BD0 VA: 0x1800A27D0
-	// RVA: 0xDE2720 Offset: 0xDE0D20 VA: 0x180DE2720 Slot: 5
+	// RVA: 0xDE31D0 Offset: 0xDE17D0 VA: 0x180DE31D0 Slot: 5
 	public override Task<bool> RunQueryAsync(float timeoutSeconds = 10) { }
 
-	// RVA: 0xDE2710 Offset: 0xDE0D10 VA: 0x180DE2710 Slot: 6
+	// RVA: 0xDE31C0 Offset: 0xDE17C0 VA: 0x180DE31C0 Slot: 6
 	public override void Cancel() { }
 
 }
@@ -32,11 +32,11 @@ private struct IpList.<RunQueryAsync>d__4 : IAsyncStateMachine // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x123720 Offset: 0x122B20 VA: 0x180123720 Slot: 4
+	// RVA: 0x123540 Offset: 0x122940 VA: 0x180123540 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x123730 Offset: 0x122B30 VA: 0x180123730 Slot: 5
+	// RVA: 0x123550 Offset: 0x122950 VA: 0x180123550 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

@@ -18,103 +18,103 @@ public class SceneManager // TypeDefIndex: 3656
 	[NativeHeaderAttribute] // RVA: 0xE5E10 Offset: 0xE5210 VA: 0x1800E5E10
 	[NativeMethodAttribute] // RVA: 0xE5E10 Offset: 0xE5210 VA: 0x1800E5E10
 	[StaticAccessorAttribute] // RVA: 0xE5E10 Offset: 0xE5210 VA: 0x1800E5E10
-	// RVA: 0x19B4720 Offset: 0x19B2D20 VA: 0x1819B4720
+	// RVA: 0x19A1B20 Offset: 0x19A0120 VA: 0x1819A1B20
 	public static int get_sceneCount() { }
 
 	[StaticAccessorAttribute] // RVA: 0xE5F70 Offset: 0xE5370 VA: 0x1800E5F70
-	// RVA: 0x19B3F70 Offset: 0x19B2570 VA: 0x1819B3F70
+	// RVA: 0x19A1370 Offset: 0x199F970 VA: 0x1819A1370
 	public static Scene GetActiveScene() { }
 
 	[StaticAccessorAttribute] // RVA: 0xE5F70 Offset: 0xE5370 VA: 0x1800E5F70
-	// RVA: 0x19B4090 Offset: 0x19B2690 VA: 0x1819B4090
+	// RVA: 0x19A1490 Offset: 0x199FA90 VA: 0x1819A1490
 	public static Scene GetSceneByName(string name) { }
 
 	[NativeThrowsAttribute] // RVA: 0xE6260 Offset: 0xE5660 VA: 0x1800E6260
 	[StaticAccessorAttribute] // RVA: 0xE6260 Offset: 0xE5660 VA: 0x1800E6260
-	// RVA: 0x19B3FF0 Offset: 0x19B25F0 VA: 0x1819B3FF0
+	// RVA: 0x19A13F0 Offset: 0x199F9F0 VA: 0x1819A13F0
 	public static Scene GetSceneAt(int index) { }
 
 	[NativeThrowsAttribute] // RVA: 0xE6260 Offset: 0xE5660 VA: 0x1800E6260
 	[StaticAccessorAttribute] // RVA: 0xE6260 Offset: 0xE5660 VA: 0x1800E6260
-	// RVA: 0x19B3EE0 Offset: 0x19B24E0 VA: 0x1819B3EE0
+	// RVA: 0x19A12E0 Offset: 0x199F8E0 VA: 0x1819A12E0
 	public static Scene CreateScene(string sceneName, CreateSceneParameters parameters) { }
 
 	[NativeThrowsAttribute] // RVA: 0xE6260 Offset: 0xE5660 VA: 0x1800E6260
 	[StaticAccessorAttribute] // RVA: 0xE6260 Offset: 0xE5660 VA: 0x1800E6260
-	// RVA: 0x19B45F0 Offset: 0x19B2BF0 VA: 0x1819B45F0
+	// RVA: 0x19A19F0 Offset: 0x199FFF0 VA: 0x1819A19F0
 	private static AsyncOperation UnloadSceneAsyncInternal(Scene scene, UnloadSceneOptions options) { }
 
 	[StaticAccessorAttribute] // RVA: 0xE6610 Offset: 0xE5A10 VA: 0x1800E6610
 	[NativeThrowsAttribute] // RVA: 0xE6610 Offset: 0xE5A10 VA: 0x1800E6610
-	// RVA: 0x19B4270 Offset: 0x19B2870 VA: 0x1819B4270
+	// RVA: 0x19A1670 Offset: 0x199FC70 VA: 0x1819A1670
 	private static AsyncOperation LoadSceneAsyncNameIndexInternal(string sceneName, int sceneBuildIndex, LoadSceneParameters parameters, bool mustCompleteNextFrame) { }
 
 	[NativeThrowsAttribute] // RVA: 0xE6260 Offset: 0xE5660 VA: 0x1800E6260
 	[StaticAccessorAttribute] // RVA: 0xE6260 Offset: 0xE5660 VA: 0x1800E6260
-	// RVA: 0x19B4570 Offset: 0x19B2B70 VA: 0x1819B4570
+	// RVA: 0x19A1970 Offset: 0x199FF70 VA: 0x1819A1970
 	public static void MoveGameObjectToScene(GameObject go, Scene scene) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B4670 Offset: 0x19B2C70 VA: 0x1819B4670
+	// RVA: 0x19A1A70 Offset: 0x19A0070 VA: 0x1819A1A70
 	public static void add_sceneLoaded(UnityAction<Scene, LoadSceneMode> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B4750 Offset: 0x19B2D50 VA: 0x1819B4750
+	// RVA: 0x19A1B50 Offset: 0x19A0150 VA: 0x1819A1B50
 	public static void remove_sceneLoaded(UnityAction<Scene, LoadSceneMode> value) { }
 
-	// RVA: 0x19B3E90 Offset: 0x19B2490 VA: 0x1819B3E90
+	// RVA: 0x19A1290 Offset: 0x199F890 VA: 0x1819A1290
 	public static Scene CreateScene(string sceneName) { }
 
-	// RVA: 0x19B4470 Offset: 0x19B2A70 VA: 0x1819B4470
+	// RVA: 0x19A1870 Offset: 0x199FE70 VA: 0x1819A1870
 	public static void LoadScene(string sceneName, LoadSceneMode mode) { }
 
-	// RVA: 0x19B43D0 Offset: 0x19B29D0 VA: 0x1819B43D0
+	// RVA: 0x19A17D0 Offset: 0x199FDD0 VA: 0x1819A17D0
 	public static Scene LoadScene(string sceneName, LoadSceneParameters parameters) { }
 
-	// RVA: 0x19B4370 Offset: 0x19B2970 VA: 0x1819B4370
+	// RVA: 0x19A1770 Offset: 0x199FD70 VA: 0x1819A1770
 	public static AsyncOperation LoadSceneAsync(string sceneName, LoadSceneMode mode) { }
 
 	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B42D0 Offset: 0x19B28D0 VA: 0x1819B42D0
+	// RVA: 0x19A16D0 Offset: 0x199FCD0 VA: 0x1819A16D0
 	public static AsyncOperation LoadSceneAsync(string sceneName) { }
 
-	// RVA: 0x19B4320 Offset: 0x19B2920 VA: 0x1819B4320
+	// RVA: 0x19A1720 Offset: 0x199FD20 VA: 0x1819A1720
 	public static AsyncOperation LoadSceneAsync(string sceneName, LoadSceneParameters parameters) { }
 
-	// RVA: 0x19B4630 Offset: 0x19B2C30 VA: 0x1819B4630
+	// RVA: 0x19A1A30 Offset: 0x19A0030 VA: 0x1819A1A30
 	public static AsyncOperation UnloadSceneAsync(Scene scene) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B4140 Offset: 0x19B2740 VA: 0x1819B4140
+	// RVA: 0x19A1540 Offset: 0x199FB40 VA: 0x1819A1540
 	private static void Internal_SceneLoaded(Scene scene, LoadSceneMode mode) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B41A0 Offset: 0x19B27A0 VA: 0x1819B41A0
+	// RVA: 0x19A15A0 Offset: 0x199FBA0 VA: 0x1819A15A0
 	private static void Internal_SceneUnloaded(Scene scene) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19B40E0 Offset: 0x19B26E0 VA: 0x1819B40E0
+	// RVA: 0x19A14E0 Offset: 0x199FAE0 VA: 0x1819A14E0
 	private static void Internal_ActiveSceneChanged(Scene previousActiveScene, Scene newActiveScene) { }
 
-	// RVA: 0x19B3F30 Offset: 0x19B2530 VA: 0x1819B3F30
+	// RVA: 0x19A1330 Offset: 0x199F930 VA: 0x1819A1330
 	private static void GetActiveScene_Injected(out Scene ret) { }
 
-	// RVA: 0x19B4040 Offset: 0x19B2640 VA: 0x1819B4040
+	// RVA: 0x19A1440 Offset: 0x199FA40 VA: 0x1819A1440
 	private static void GetSceneByName_Injected(string name, out Scene ret) { }
 
-	// RVA: 0x19B3FB0 Offset: 0x19B25B0 VA: 0x1819B3FB0
+	// RVA: 0x19A13B0 Offset: 0x199F9B0 VA: 0x1819A13B0
 	private static void GetSceneAt_Injected(int index, out Scene ret) { }
 
-	// RVA: 0x19B3E30 Offset: 0x19B2430 VA: 0x1819B3E30
+	// RVA: 0x19A1230 Offset: 0x199F830 VA: 0x1819A1230
 	private static void CreateScene_Injected(string sceneName, ref CreateSceneParameters parameters, out Scene ret) { }
 
-	// RVA: 0x19B45B0 Offset: 0x19B2BB0 VA: 0x1819B45B0
+	// RVA: 0x19A19B0 Offset: 0x199FFB0 VA: 0x1819A19B0
 	private static AsyncOperation UnloadSceneAsyncInternal_Injected(ref Scene scene, UnloadSceneOptions options) { }
 
-	// RVA: 0x19B4200 Offset: 0x19B2800 VA: 0x1819B4200
+	// RVA: 0x19A1600 Offset: 0x199FC00 VA: 0x1819A1600
 	private static AsyncOperation LoadSceneAsyncNameIndexInternal_Injected(string sceneName, int sceneBuildIndex, ref LoadSceneParameters parameters, bool mustCompleteNextFrame) { }
 
-	// RVA: 0x19B4520 Offset: 0x19B2B20 VA: 0x1819B4520
+	// RVA: 0x19A1920 Offset: 0x199FF20 VA: 0x1819A1920
 	private static void MoveGameObjectToScene_Injected(GameObject go, ref Scene scene) { }
 
 }

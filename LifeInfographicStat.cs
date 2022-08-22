@@ -12,16 +12,16 @@ public class LifeInfographicStat : MonoBehaviour // TypeDefIndex: 11073
 
 	// Methods
 
-	// RVA: 0x68C270 Offset: 0x68A870 VA: 0x18068C270
+	// RVA: 0x68C200 Offset: 0x68A800 VA: 0x18068C200
 	private string GetText() { }
 
-	// RVA: 0x4D3FB0 Offset: 0x4D25B0 VA: 0x1804D3FB0
+	// RVA: 0x4D3F40 Offset: 0x4D2540 VA: 0x1804D3F40
 	private void OnEnable() { }
 
-	// RVA: 0x68CC40 Offset: 0x68B240 VA: 0x18068CC40 Slot: 4
+	// RVA: 0x68CBD0 Offset: 0x68B1D0 VA: 0x18068CBD0 Slot: 4
 	public virtual void InfographicUpdated() { }
 
-	// RVA: 0x68CE10 Offset: 0x68B410 VA: 0x18068CE10
+	// RVA: 0x68CDA0 Offset: 0x68B3A0 VA: 0x18068CDA0
 	public void SetStatImage(Sprite sprite) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

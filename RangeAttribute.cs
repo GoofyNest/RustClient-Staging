@@ -5,7 +5,7 @@ public sealed class RangeAttribute : PropertyAttribute // TypeDefIndex: 3482
 
 	// Methods
 
-	// RVA: 0x1019750 Offset: 0x1017D50 VA: 0x181019750
+	// RVA: 0x101A1F0 Offset: 0x10187F0 VA: 0x18101A1F0
 	public void .ctor(float min, float max) { }
 
 }

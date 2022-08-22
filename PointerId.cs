@@ -10,7 +10,7 @@ public static class PointerId // TypeDefIndex: 4688
 
 	// Methods
 
-	// RVA: 0xEB8A50 Offset: 0xEB7050 VA: 0x180EB8A50
+	// RVA: 0xEB9500 Offset: 0xEB7B00 VA: 0x180EB9500
 	private static void .cctor() { }
 
 }

@@ -26,52 +26,52 @@ public class StreamReader : TextReader // TypeDefIndex: 646
 
 	// Methods
 
-	// RVA: 0x1630700 Offset: 0x162ED00 VA: 0x181630700
+	// RVA: 0x161DA20 Offset: 0x161C020 VA: 0x18161DA20
 	internal static int get_DefaultBufferSize() { }
 
-	// RVA: 0x162EC30 Offset: 0x162D230 VA: 0x18162EC30
+	// RVA: 0x161BF50 Offset: 0x161A550 VA: 0x18161BF50
 	private void CheckAsyncTaskInProgress() { }
 
-	// RVA: 0x16306A0 Offset: 0x162ECA0 VA: 0x1816306A0
+	// RVA: 0x161D9C0 Offset: 0x161BFC0 VA: 0x18161D9C0
 	internal void .ctor() { }
 
-	// RVA: 0x16300B0 Offset: 0x162E6B0 VA: 0x1816300B0
+	// RVA: 0x161D3D0 Offset: 0x161B9D0 VA: 0x18161D3D0
 	public void .ctor(Stream stream) { }
 
-	// RVA: 0x1630140 Offset: 0x162E740 VA: 0x181630140
+	// RVA: 0x161D460 Offset: 0x161BA60 VA: 0x18161D460
 	public void .ctor(Stream stream, bool detectEncodingFromByteOrderMarks) { }
 
-	// RVA: 0x1630400 Offset: 0x162EA00 VA: 0x181630400
+	// RVA: 0x161D720 Offset: 0x161BD20 VA: 0x18161D720
 	public void .ctor(Stream stream, Encoding encoding) { }
 
-	// RVA: 0x16301E0 Offset: 0x162E7E0 VA: 0x1816301E0
+	// RVA: 0x161D500 Offset: 0x161BB00 VA: 0x18161D500
 	public void .ctor(Stream stream, Encoding encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool leaveOpen) { }
 
-	// RVA: 0x1630370 Offset: 0x162E970 VA: 0x181630370
+	// RVA: 0x161D690 Offset: 0x161BC90 VA: 0x18161D690
 	public void .ctor(string path) { }
 
-	// RVA: 0x162FF50 Offset: 0x162E550 VA: 0x18162FF50
+	// RVA: 0x161D270 Offset: 0x161B870 VA: 0x18161D270
 	public void .ctor(string path, bool detectEncodingFromByteOrderMarks) { }
 
-	// RVA: 0x1630020 Offset: 0x162E620 VA: 0x181630020
+	// RVA: 0x161D340 Offset: 0x161B940 VA: 0x18161D340
 	public void .ctor(string path, Encoding encoding) { }
 
-	// RVA: 0x162FFF0 Offset: 0x162E5F0 VA: 0x18162FFF0
+	// RVA: 0x161D310 Offset: 0x161B910 VA: 0x18161D310
 	public void .ctor(string path, Encoding encoding, bool detectEncodingFromByteOrderMarks, int bufferSize) { }
 
-	// RVA: 0x1630490 Offset: 0x162EA90 VA: 0x181630490
+	// RVA: 0x161D7B0 Offset: 0x161BDB0 VA: 0x18161D7B0
 	internal void .ctor(string path, Encoding encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool checkHost) { }
 
-	// RVA: 0x162F1A0 Offset: 0x162D7A0 VA: 0x18162F1A0
+	// RVA: 0x161C4C0 Offset: 0x161AAC0 VA: 0x18161C4C0
 	private void Init(Stream stream, Encoding encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool leaveOpen) { }
 
-	// RVA: 0x162F2F0 Offset: 0x162D8F0 VA: 0x18162F2F0
+	// RVA: 0x161C610 Offset: 0x161AC10 VA: 0x18161C610
 	internal void Init(Stream stream) { }
 
-	// RVA: 0x162ECC0 Offset: 0x162D2C0 VA: 0x18162ECC0 Slot: 7
+	// RVA: 0x161BFE0 Offset: 0x161A5E0 VA: 0x18161BFE0 Slot: 7
 	public override void Close() { }
 
-	// RVA: 0x162F090 Offset: 0x162D690 VA: 0x18162F090 Slot: 8
+	// RVA: 0x161C3B0 Offset: 0x161A9B0 VA: 0x18161C3B0 Slot: 8
 	protected override void Dispose(bool disposing) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70 Slot: 14
@@ -80,43 +80,43 @@ public class StreamReader : TextReader // TypeDefIndex: 646
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880 Slot: 15
 	public virtual Stream get_BaseStream() { }
 
-	// RVA: 0x1630710 Offset: 0x162ED10 VA: 0x181630710
+	// RVA: 0x161DA30 Offset: 0x161C030 VA: 0x18161DA30
 	internal bool get_LeaveOpen() { }
 
-	// RVA: 0x162F410 Offset: 0x162DA10 VA: 0x18162F410 Slot: 9
+	// RVA: 0x161C730 Offset: 0x161AD30 VA: 0x18161C730 Slot: 9
 	public override int Peek() { }
 
-	// RVA: 0x162ED20 Offset: 0x162D320 VA: 0x18162ED20
+	// RVA: 0x161C040 Offset: 0x161A640 VA: 0x18161C040
 	internal bool DataAvailable() { }
 
-	// RVA: 0x162FB90 Offset: 0x162E190 VA: 0x18162FB90 Slot: 10
+	// RVA: 0x161CEB0 Offset: 0x161B4B0 VA: 0x18161CEB0 Slot: 10
 	public override int Read() { }
 
-	// RVA: 0x162FC20 Offset: 0x162E220 VA: 0x18162FC20 Slot: 11
+	// RVA: 0x161CF40 Offset: 0x161B540 VA: 0x18161CF40 Slot: 11
 	public override int Read([In] [Out] char[] buffer, int index, int count) { }
 
-	// RVA: 0x162FAB0 Offset: 0x162E0B0 VA: 0x18162FAB0 Slot: 12
+	// RVA: 0x161CDD0 Offset: 0x161B3D0 VA: 0x18161CDD0 Slot: 12
 	public override string ReadToEnd() { }
 
-	// RVA: 0x162ECE0 Offset: 0x162D2E0 VA: 0x18162ECE0
+	// RVA: 0x161C000 Offset: 0x161A600 VA: 0x18161C000
 	private void CompressBuffer(int n) { }
 
-	// RVA: 0x162ED30 Offset: 0x162D330 VA: 0x18162ED30
+	// RVA: 0x161C050 Offset: 0x161A650 VA: 0x18161C050
 	private void DetectEncoding() { }
 
-	// RVA: 0x162F310 Offset: 0x162D910 VA: 0x18162F310
+	// RVA: 0x161C630 Offset: 0x161AC30 VA: 0x18161C630
 	private bool IsPreamble() { }
 
-	// RVA: 0x162F6F0 Offset: 0x162DCF0 VA: 0x18162F6F0 Slot: 16
+	// RVA: 0x161CA10 Offset: 0x161B010 VA: 0x18161CA10 Slot: 16
 	internal virtual int ReadBuffer() { }
 
-	// RVA: 0x162F4A0 Offset: 0x162DAA0 VA: 0x18162F4A0
+	// RVA: 0x161C7C0 Offset: 0x161ADC0 VA: 0x18161C7C0
 	private int ReadBuffer(char[] userBuffer, int userOffset, int desiredChars, out bool readToUserBuffer) { }
 
-	// RVA: 0x162F8A0 Offset: 0x162DEA0 VA: 0x18162F8A0 Slot: 13
+	// RVA: 0x161CBC0 Offset: 0x161B1C0 VA: 0x18161CBC0 Slot: 13
 	public override string ReadLine() { }
 
-	// RVA: 0x162FE40 Offset: 0x162E440 VA: 0x18162FE40
+	// RVA: 0x161D160 Offset: 0x161B760 VA: 0x18161D160
 	private static void .cctor() { }
 
 }
@@ -128,34 +128,34 @@ private class StreamReader.NullStreamReader : StreamReader // TypeDefIndex: 647
 
 	// Methods
 
-	// RVA: 0x16291E0 Offset: 0x16277E0 VA: 0x1816291E0
+	// RVA: 0x1616500 Offset: 0x1614B00 VA: 0x181616500
 	internal void .ctor() { }
 
-	// RVA: 0x16292B0 Offset: 0x16278B0 VA: 0x1816292B0 Slot: 15
+	// RVA: 0x16165D0 Offset: 0x1614BD0 VA: 0x1816165D0 Slot: 15
 	public override Stream get_BaseStream() { }
 
-	// RVA: 0x1629310 Offset: 0x1627910 VA: 0x181629310 Slot: 14
+	// RVA: 0x1616630 Offset: 0x1614C30 VA: 0x181616630 Slot: 14
 	public override Encoding get_CurrentEncoding() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 8
 	protected override void Dispose(bool disposing) { }
 
-	// RVA: 0x686A10 Offset: 0x685010 VA: 0x180686A10 Slot: 9
+	// RVA: 0x6869A0 Offset: 0x684FA0 VA: 0x1806869A0 Slot: 9
 	public override int Peek() { }
 
-	// RVA: 0x686A10 Offset: 0x685010 VA: 0x180686A10 Slot: 10
+	// RVA: 0x6869A0 Offset: 0x684FA0 VA: 0x1806869A0 Slot: 10
 	public override int Read() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 11
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 11
 	public override int Read(char[] buffer, int index, int count) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 13
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 13
 	public override string ReadLine() { }
 
-	// RVA: 0x16291A0 Offset: 0x16277A0 VA: 0x1816291A0 Slot: 12
+	// RVA: 0x16164C0 Offset: 0x1614AC0 VA: 0x1816164C0 Slot: 12
 	public override string ReadToEnd() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 16
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 16
 	internal override int ReadBuffer() { }
 
 }

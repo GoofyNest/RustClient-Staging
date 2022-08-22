@@ -21,19 +21,19 @@ public class SimpleShark : BaseCombatEntity // TypeDefIndex: 8925
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 98
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 98
 	public override bool get_IsNpc() { }
 
-	// RVA: 0x59D7C0 Offset: 0x59BDC0 VA: 0x18059D7C0
+	// RVA: 0x59D750 Offset: 0x59BD50 VA: 0x18059D750
 	public void Update() { }
 
-	// RVA: 0x59D610 Offset: 0x59BC10 VA: 0x18059D610
+	// RVA: 0x59D5A0 Offset: 0x59BBA0 VA: 0x18059D5A0
 	public void UpdateAnimations() { }
 
-	// RVA: 0x59D9F0 Offset: 0x59BFF0 VA: 0x18059D9F0
+	// RVA: 0x59D980 Offset: 0x59BF80 VA: 0x18059D980
 	public void .ctor() { }
 
-	// RVA: 0x59D980 Offset: 0x59BF80 VA: 0x18059D980
+	// RVA: 0x59D910 Offset: 0x59BF10 VA: 0x18059D910
 	private static void .cctor() { }
 
 }

@@ -75,74 +75,74 @@ public class MagnetCrane : GroundVehicle, IGenericLerpTarget<MagnetCrane.MagnetC
 
 	// Methods
 
-	// RVA: 0x55A390 Offset: 0x558990 VA: 0x18055A390 Slot: 49
+	// RVA: 0x55A320 Offset: 0x558920 VA: 0x18055A320 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x55B500 Offset: 0x559B00 VA: 0x18055B500 Slot: 50
+	// RVA: 0x55B490 Offset: 0x559A90 VA: 0x18055B490 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x55AE50 Offset: 0x559450 VA: 0x18055AE50 Slot: 35
+	// RVA: 0x55ADE0 Offset: 0x5593E0 VA: 0x18055ADE0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x5595E0 Offset: 0x557BE0 VA: 0x1805595E0 Slot: 14
+	// RVA: 0x559570 Offset: 0x557B70 VA: 0x180559570 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x55B1A0 Offset: 0x5597A0 VA: 0x18055B1A0 Slot: 173
+	// RVA: 0x55B130 Offset: 0x559730 VA: 0x18055B130 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0x55AF40 Offset: 0x559540 VA: 0x18055AF40 Slot: 203
+	// RVA: 0x55AED0 Offset: 0x5594D0 VA: 0x18055AED0 Slot: 203
 	public void SetFrom(MagnetCrane.MagnetCraneSnapshot snapshot) { }
 
-	// RVA: 0x55A270 Offset: 0x558870 VA: 0x18055A270 Slot: 204
+	// RVA: 0x55A200 Offset: 0x558800 VA: 0x18055A200 Slot: 204
 	public MagnetCrane.MagnetCraneSnapshot GetCurrentState() { }
 
-	// RVA: 0x559640 Offset: 0x557C40 VA: 0x180559640 Slot: 205
+	// RVA: 0x5595D0 Offset: 0x557BD0 VA: 0x1805595D0 Slot: 205
 	public void DebugInterpolationState(Interpolator.Segment<MagnetCrane.MagnetCraneSnapshot> segment, List<MagnetCrane.MagnetCraneSnapshot> entries) { }
 
-	// RVA: 0x55A700 Offset: 0x558D00 VA: 0x18055A700 Slot: 202
+	// RVA: 0x55A690 Offset: 0x558C90 VA: 0x18055A690 Slot: 202
 	protected override void GroundVehicleClientTick() { }
 
-	// RVA: 0x55AE10 Offset: 0x559410 VA: 0x18055AE10 Slot: 201
+	// RVA: 0x55ADA0 Offset: 0x5593A0 VA: 0x18055ADA0 Slot: 201
 	protected override void OnClientTickStopped() { }
 
-	// RVA: 0x55B050 Offset: 0x559650 VA: 0x18055B050
+	// RVA: 0x55AFE0 Offset: 0x5595E0 VA: 0x18055AFE0
 	private void UpdateExhaust() { }
 
-	// RVA: 0x55AAC0 Offset: 0x5590C0 VA: 0x18055AAC0
+	// RVA: 0x55AA50 Offset: 0x559050 VA: 0x18055AA50
 	private void InitAnimInterpolator() { }
 
 	[BaseEntity.Menu] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	[BaseEntity.Menu.Description] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	[BaseEntity.Menu.Icon] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
-	// RVA: 0x55ADD0 Offset: 0x5593D0 VA: 0x18055ADD0
+	// RVA: 0x55AD60 Offset: 0x559360 VA: 0x18055AD60
 	public void Menu_FuelStorage(BasePlayer player) { }
 
-	// RVA: 0x55AD20 Offset: 0x559320 VA: 0x18055AD20
+	// RVA: 0x55ACB0 Offset: 0x5592B0 VA: 0x18055ACB0
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x55B4F0 Offset: 0x559AF0 VA: 0x18055B4F0 Slot: 196
+	// RVA: 0x55B480 Offset: 0x559A80 VA: 0x18055B480 Slot: 196
 	public override float get_DriveWheelVelocity() { }
 
-	// RVA: 0x55A6A0 Offset: 0x558CA0 VA: 0x18055A6A0 Slot: 198
+	// RVA: 0x55A630 Offset: 0x558C30 VA: 0x18055A630 Slot: 198
 	public override float GetThrottleInput() { }
 
-	// RVA: 0x55A210 Offset: 0x558810 VA: 0x18055A210 Slot: 199
+	// RVA: 0x55A1A0 Offset: 0x5587A0 VA: 0x18055A1A0 Slot: 199
 	public override float GetBrakeInput() { }
 
-	// RVA: 0x55AB50 Offset: 0x559150 VA: 0x18055AB50 Slot: 34
+	// RVA: 0x55AAE0 Offset: 0x5590E0 VA: 0x18055AAE0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x55A380 Offset: 0x558980 VA: 0x18055A380 Slot: 197
+	// RVA: 0x55A310 Offset: 0x558910 VA: 0x18055A310 Slot: 197
 	public override float GetMaxForwardSpeed() { }
 
-	// RVA: 0x559570 Offset: 0x557B70 VA: 0x180559570 Slot: 120
+	// RVA: 0x559500 Offset: 0x557B00 VA: 0x180559500 Slot: 120
 	public override bool CanBeLooted(BasePlayer player) { }
 
-	// RVA: 0x55B4C0 Offset: 0x559AC0 VA: 0x18055B4C0
+	// RVA: 0x55B450 Offset: 0x559A50 VA: 0x18055B450
 	public void .ctor() { }
 
-	// RVA: 0x55B3B0 Offset: 0x5599B0 VA: 0x18055B3B0
+	// RVA: 0x55B340 Offset: 0x559940 VA: 0x18055B340
 	private static void .cctor() { }
 
 }

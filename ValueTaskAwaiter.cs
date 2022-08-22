@@ -8,7 +8,7 @@ public struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion //
 
 	// Methods
 
-	// RVA: 0x1E3D30 Offset: 0x1E3130 VA: 0x1801E3D30
+	// RVA: 0x1E4150 Offset: 0x1E3550 VA: 0x1801E4150
 	internal void .ctor(ValueTask value) { }
 
 	// RVA: 0x240910 Offset: 0x23FD10 VA: 0x180240910
@@ -24,24 +24,24 @@ public struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion //
 	// RVA: 0x2407C0 Offset: 0x23FBC0 VA: 0x1802407C0 Slot: 4
 	public void UnsafeOnCompleted(Action continuation) { }
 
-	// RVA: 0x2313540 Offset: 0x2311B40 VA: 0x182313540
+	// RVA: 0x2313D60 Offset: 0x2312360 VA: 0x182313D60
 	private static void .cctor() { }
 
 }
 
 private sealed class ValueTaskAwaiter.<>c // TypeDefIndex: 7095
 {	// Fields
-	public static readonly ValueTaskAwaiter.<>c <>9; // 0x12810
+	public static readonly ValueTaskAwaiter.<>c <>9; // 0x2B104DC
 
 	// Methods
 
-	// RVA: 0x2313390 Offset: 0x2311990 VA: 0x182313390
+	// RVA: 0x2313BB0 Offset: 0x23121B0 VA: 0x182313BB0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2313330 Offset: 0x2311930 VA: 0x182313330
+	// RVA: 0x2313B50 Offset: 0x2312150 VA: 0x182313B50
 	internal void <.cctor>b__9_0(object state) { }
 
 }

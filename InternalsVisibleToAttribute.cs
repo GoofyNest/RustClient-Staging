@@ -9,16 +9,16 @@ public sealed class InternalsVisibleToAttribute : Attribute // TypeDefIndex: 130
 
 	// Methods
 
-	// RVA: 0xFE7CC0 Offset: 0xFE62C0 VA: 0x180FE7CC0
+	// RVA: 0xFE8760 Offset: 0xFE6D60 VA: 0x180FE8760
 	public void .ctor(string assemblyName) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_AssemblyName() { }
 
-	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
+	// RVA: 0x95FFF0 Offset: 0x95E5F0 VA: 0x18095FFF0
 	public bool get_AllInternalsVisible() { }
 
-	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
+	// RVA: 0x960010 Offset: 0x95E610 VA: 0x180960010
 	public void set_AllInternalsVisible(bool value) { }
 
 }

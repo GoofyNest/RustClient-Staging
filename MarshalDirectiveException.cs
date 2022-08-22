@@ -1,13 +1,13 @@
 public class MarshalDirectiveException : SystemException // TypeDefIndex: 1350
 {	// Methods
 
-	// RVA: 0xFEA1C0 Offset: 0xFE87C0 VA: 0x180FEA1C0
+	// RVA: 0xFEAC60 Offset: 0xFE9260 VA: 0x180FEAC60
 	public void .ctor() { }
 
-	// RVA: 0xFEA220 Offset: 0xFE8820 VA: 0x180FEA220
+	// RVA: 0xFEACC0 Offset: 0xFE92C0 VA: 0x180FEACC0
 	public void .ctor(string message) { }
 
-	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
+	// RVA: 0xFDDEB0 Offset: 0xFDC4B0 VA: 0x180FDDEB0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

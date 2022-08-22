@@ -7,13 +7,13 @@ public struct Option // TypeDefIndex: 7027
 
 	// Methods
 
-	// RVA: 0x14B820 Offset: 0x14AC20 VA: 0x18014B820
+	// RVA: 0x14B640 Offset: 0x14AA40 VA: 0x18014B640
 	public void .ctor(string token, string english, string value, bool isdefault = False, Icons icon = 0) { }
 
-	// RVA: 0x14B8F0 Offset: 0x14ACF0 VA: 0x18014B8F0
+	// RVA: 0x14B710 Offset: 0x14AB10 VA: 0x18014B710
 	public void .ctor(Translate.Phrase phrase, string value, bool isdefault = False, Icons icon = 0) { }
 
-	// RVA: 0x14B8E0 Offset: 0x14ACE0 VA: 0x18014B8E0
+	// RVA: 0x14B700 Offset: 0x14AB00 VA: 0x18014B700
 	public void .ctor(Icons icon, string value, bool isdefault = False) { }
 
 }

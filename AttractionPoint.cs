@@ -4,10 +4,10 @@ public class AttractionPoint : PrefabAttribute // TypeDefIndex: 9048
 
 	// Methods
 
-	// RVA: 0x835780 Offset: 0x833D80 VA: 0x180835780 Slot: 7
+	// RVA: 0x835CD0 Offset: 0x8342D0 VA: 0x180835CD0 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x8357E0 Offset: 0x833DE0 VA: 0x1808357E0
+	// RVA: 0x835D30 Offset: 0x834330 VA: 0x180835D30
 	public void .ctor() { }
 
 }

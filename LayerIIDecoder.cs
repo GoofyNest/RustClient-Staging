@@ -1,13 +1,13 @@
 public class LayerIIDecoder : LayerIDecoder // TypeDefIndex: 7401
 {	// Methods
 
-	// RVA: 0x6615B0 Offset: 0x65FBB0 VA: 0x1806615B0 Slot: 7
+	// RVA: 0x661540 Offset: 0x65FB40 VA: 0x180661540 Slot: 7
 	protected override void CreateSubbands() { }
 
-	// RVA: 0x6618D0 Offset: 0x65FED0 VA: 0x1806618D0 Slot: 9
+	// RVA: 0x661860 Offset: 0x65FE60 VA: 0x180661860 Slot: 9
 	protected override void ReadScaleFactorSelection() { }
 
-	// RVA: 0x661A10 Offset: 0x660010 VA: 0x180661A10
+	// RVA: 0x6619A0 Offset: 0x65FFA0 VA: 0x1806619A0
 	public void .ctor() { }
 
 }

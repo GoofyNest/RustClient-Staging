@@ -57,10 +57,10 @@ public class ERMarker // TypeDefIndex: 7286
 
 	// Methods
 
-	// RVA: 0x9BC3C0 Offset: 0x9BA9C0 VA: 0x1809BC3C0
+	// RVA: 0x9BC8B0 Offset: 0x9BAEB0 VA: 0x1809BC8B0
 	public void .ctor(Vector3 pos, ERModularRoad scr, int element) { }
 
-	// RVA: 0x9BC370 Offset: 0x9BA970 VA: 0x1809BC370
+	// RVA: 0x9BC860 Offset: 0x9BAE60 VA: 0x1809BC860
 	public void SetControlType(ERMarkerControlType type) { }
 
 }

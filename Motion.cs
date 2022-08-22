@@ -1,7 +1,7 @@
 public class Motion : Object // TypeDefIndex: 4494
 {	// Methods
 
-	// RVA: 0x22DD540 Offset: 0x22DBB40 VA: 0x1822DD540
+	// RVA: 0x22DDD60 Offset: 0x22DC360 VA: 0x1822DDD60
 	protected void .ctor() { }
 
 }
@@ -43,61 +43,61 @@ public class Motion : MonoBehaviour // TypeDefIndex: 8133
 
 	// Methods
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public Motion.ExposureMode get_exposureMode() { }
 
-	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
+	// RVA: 0x79C6B0 Offset: 0x79ACB0 VA: 0x18079C6B0
 	public void set_exposureMode(Motion.ExposureMode value) { }
 
-	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
+	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0
 	public int get_shutterSpeed() { }
 
-	// RVA: 0x95FB00 Offset: 0x95E100 VA: 0x18095FB00
+	// RVA: 0x960000 Offset: 0x95E600 VA: 0x180960000
 	public void set_shutterSpeed(int value) { }
 
-	// RVA: 0x7747B0 Offset: 0x772DB0 VA: 0x1807747B0
+	// RVA: 0x774700 Offset: 0x772D00 VA: 0x180774700
 	public float get_exposureTimeScale() { }
 
-	// RVA: 0x7747F0 Offset: 0x772DF0 VA: 0x1807747F0
+	// RVA: 0x774740 Offset: 0x772D40 VA: 0x180774740
 	public void set_exposureTimeScale(float value) { }
 
-	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
+	// RVA: 0x79C630 Offset: 0x79AC30 VA: 0x18079C630
 	public Motion.SampleCount get_sampleCount() { }
 
-	// RVA: 0x7D0D70 Offset: 0x7CF370 VA: 0x1807D0D70
+	// RVA: 0x79C690 Offset: 0x79AC90 VA: 0x18079C690
 	public void set_sampleCount(Motion.SampleCount value) { }
 
-	// RVA: 0x10706E0 Offset: 0x106ECE0 VA: 0x1810706E0
+	// RVA: 0x1071150 Offset: 0x106F750 VA: 0x181071150
 	public int get_sampleCountValue() { }
 
-	// RVA: 0x7D0D60 Offset: 0x7CF360 VA: 0x1807D0D60
+	// RVA: 0x79C680 Offset: 0x79AC80 VA: 0x18079C680
 	public void set_sampleCountValue(int value) { }
 
-	// RVA: 0x1070660 Offset: 0x106EC60 VA: 0x181070660
+	// RVA: 0x10710D0 Offset: 0x106F6D0 VA: 0x1810710D0
 	public float get_maxBlurRadius() { }
 
-	// RVA: 0x862BB0 Offset: 0x8611B0 VA: 0x180862BB0
+	// RVA: 0x87E310 Offset: 0x87C910 VA: 0x18087E310
 	public void set_maxBlurRadius(float value) { }
 
-	// RVA: 0x1070610 Offset: 0x106EC10 VA: 0x181070610
+	// RVA: 0x1071080 Offset: 0x106F680 VA: 0x181071080
 	private float get_VelocityScale() { }
 
-	// RVA: 0x106FDA0 Offset: 0x106E3A0 VA: 0x18106FDA0
+	// RVA: 0x1070810 Offset: 0x106EE10 VA: 0x181070810
 	private RenderTexture GetTemporaryRT(Texture source, int divider, RenderTextureFormat format, RenderTextureReadWrite rw) { }
 
-	// RVA: 0x691F10 Offset: 0x690510 VA: 0x180691F10
+	// RVA: 0x691EA0 Offset: 0x6904A0 VA: 0x180691EA0
 	private void ReleaseTemporaryRT(RenderTexture rt) { }
 
-	// RVA: 0x106FF50 Offset: 0x106E550 VA: 0x18106FF50
+	// RVA: 0x10709C0 Offset: 0x106EFC0 VA: 0x1810709C0
 	private void OnEnable() { }
 
-	// RVA: 0x106FEB0 Offset: 0x106E4B0 VA: 0x18106FEB0
+	// RVA: 0x1070920 Offset: 0x106EF20 VA: 0x181070920
 	private void OnDisable() { }
 
-	// RVA: 0x1070070 Offset: 0x106E670 VA: 0x181070070
+	// RVA: 0x1070AE0 Offset: 0x106F0E0 VA: 0x181070AE0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x10705D0 Offset: 0x106EBD0 VA: 0x1810705D0
+	// RVA: 0x1071040 Offset: 0x106F640 VA: 0x181071040
 	public void .ctor() { }
 
 }

@@ -17,22 +17,22 @@ public abstract class DecoderFallbackBuffer // TypeDefIndex: 440
 	// RVA: -1 Offset: -1 Slot: 6
 	public abstract int get_Remaining();
 
-	// RVA: 0x18ABCB0 Offset: 0x18AA2B0 VA: 0x1818ABCB0 Slot: 7
+	// RVA: 0x18AB3D0 Offset: 0x18A99D0 VA: 0x1818AB3D0 Slot: 7
 	public virtual void Reset() { }
 
-	// RVA: 0x18ABC90 Offset: 0x18AA290 VA: 0x1818ABC90
+	// RVA: 0x18AB3B0 Offset: 0x18A99B0 VA: 0x1818AB3B0
 	internal void InternalReset() { }
 
-	// RVA: 0x18ABC80 Offset: 0x18AA280 VA: 0x1818ABC80
+	// RVA: 0x18AB3A0 Offset: 0x18A99A0 VA: 0x1818AB3A0
 	internal void InternalInitialize(byte* byteStart, char* charEnd) { }
 
-	// RVA: 0x18AB840 Offset: 0x18A9E40 VA: 0x1818AB840 Slot: 8
+	// RVA: 0x18AAF60 Offset: 0x18A9560 VA: 0x1818AAF60 Slot: 8
 	internal virtual bool InternalFallback(byte[] bytes, byte* pBytes, ref char* chars) { }
 
-	// RVA: 0x18ABA70 Offset: 0x18AA070 VA: 0x1818ABA70 Slot: 9
+	// RVA: 0x18AB190 Offset: 0x18A9790 VA: 0x1818AB190 Slot: 9
 	internal virtual int InternalFallback(byte[] bytes, byte* pBytes) { }
 
-	// RVA: 0x18ABCE0 Offset: 0x18AA2E0 VA: 0x1818ABCE0
+	// RVA: 0x18AB400 Offset: 0x18A9A00 VA: 0x1818AB400
 	internal void ThrowLastBytesRecursive(byte[] bytesUnknown) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

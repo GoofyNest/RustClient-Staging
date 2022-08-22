@@ -7,13 +7,13 @@ public class RecordingBars : MonoBehaviour // TypeDefIndex: 11211
 
 	// Methods
 
-	// RVA: 0x93E7F0 Offset: 0x93CDF0 VA: 0x18093E7F0
+	// RVA: 0x93ED00 Offset: 0x93D300 VA: 0x18093ED00
 	public void set_Tint(Color value) { }
 
-	// RVA: 0x93E780 Offset: 0x93CD80 VA: 0x18093E780
+	// RVA: 0x93EC90 Offset: 0x93D290 VA: 0x18093EC90
 	public void SetRed() { }
 
-	// RVA: 0x93E710 Offset: 0x93CD10 VA: 0x18093E710
+	// RVA: 0x93EC20 Offset: 0x93D220 VA: 0x18093EC20
 	public void SetGreen() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

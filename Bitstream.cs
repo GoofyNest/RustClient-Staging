@@ -18,58 +18,58 @@ public sealed class Bitstream // TypeDefIndex: 7384
 
 	// Methods
 
-	// RVA: 0x5DBBC0 Offset: 0x5DA1C0 VA: 0x1805DBBC0
+	// RVA: 0x5DBB50 Offset: 0x5DA150 VA: 0x1805DBB50
 	internal void .ctor(PushbackStream stream) { }
 
-	// RVA: 0x5DAFC0 Offset: 0x5D95C0 VA: 0x1805DAFC0
+	// RVA: 0x5DAF50 Offset: 0x5D9550 VA: 0x1805DAF50
 	private void InitBlock() { }
 
-	// RVA: 0x5DAD80 Offset: 0x5D9380 VA: 0x1805DAD80
+	// RVA: 0x5DAD10 Offset: 0x5D9310 VA: 0x1805DAD10
 	internal void Close() { }
 
-	// RVA: 0x5DB6E0 Offset: 0x5D9CE0 VA: 0x1805DB6E0
+	// RVA: 0x5DB670 Offset: 0x5D9C70 VA: 0x1805DB670
 	internal Header ReadFrame() { }
 
-	// RVA: 0x5DB8C0 Offset: 0x5D9EC0 VA: 0x1805DB8C0
+	// RVA: 0x5DB850 Offset: 0x5D9E50 VA: 0x1805DB850
 	private Header ReadNextFrame() { }
 
-	// RVA: 0x5DBB20 Offset: 0x5DA120 VA: 0x1805DBB20
+	// RVA: 0x5DBAB0 Offset: 0x5DA0B0 VA: 0x1805DBAB0
 	internal void UnreadFrame() { }
 
-	// RVA: 0x5DAD60 Offset: 0x5D9360 VA: 0x1805DAD60
+	// RVA: 0x5DACF0 Offset: 0x5D92F0 VA: 0x1805DACF0
 	internal void CloseFrame() { }
 
-	// RVA: 0x5DB0B0 Offset: 0x5D96B0 VA: 0x1805DB0B0
+	// RVA: 0x5DB040 Offset: 0x5D9640 VA: 0x1805DB040
 	internal bool IsSyncCurrentPosition(int syncmode) { }
 
-	// RVA: 0x5DB390 Offset: 0x5D9990 VA: 0x1805DB390
+	// RVA: 0x5DB320 Offset: 0x5D9920 VA: 0x1805DB320
 	internal BitstreamException NewBitstreamException(int errorcode) { }
 
-	// RVA: 0x5DB3F0 Offset: 0x5D99F0 VA: 0x1805DB3F0
+	// RVA: 0x5DB380 Offset: 0x5D9980 VA: 0x1805DB380
 	internal BitstreamException NewBitstreamException(int errorcode, Exception throwable) { }
 
-	// RVA: 0x5DB970 Offset: 0x5D9F70 VA: 0x1805DB970
+	// RVA: 0x5DB900 Offset: 0x5D9F00 VA: 0x1805DB900
 	internal int SyncHeader(sbyte syncmode) { }
 
-	// RVA: 0x5DB270 Offset: 0x5D9870 VA: 0x1805DB270
+	// RVA: 0x5DB200 Offset: 0x5D9800 VA: 0x1805DB200
 	internal bool IsSyncMark(int headerstring, int syncmode, int word) { }
 
-	// RVA: 0x5DB900 Offset: 0x5D9F00 VA: 0x1805DB900
+	// RVA: 0x5DB890 Offset: 0x5D9E90 VA: 0x1805DB890
 	internal void Read_frame_data(int bytesize) { }
 
-	// RVA: 0x5DB460 Offset: 0x5D9A60 VA: 0x1805DB460
+	// RVA: 0x5DB3F0 Offset: 0x5D99F0 VA: 0x1805DB3F0
 	internal void ParseFrame() { }
 
-	// RVA: 0x5DAE10 Offset: 0x5D9410 VA: 0x1805DAE10
+	// RVA: 0x5DADA0 Offset: 0x5D93A0 VA: 0x1805DADA0
 	internal int GetBitsFromBuffer(int countBits) { }
 
-	// RVA: 0x5DB950 Offset: 0x5D9F50 VA: 0x1805DB950
+	// RVA: 0x5DB8E0 Offset: 0x5D9EE0 VA: 0x1805DB8E0
 	internal void SetSyncWord(int syncword0) { }
 
-	// RVA: 0x5DB7C0 Offset: 0x5D9DC0 VA: 0x1805DB7C0
+	// RVA: 0x5DB750 Offset: 0x5D9D50 VA: 0x1805DB750
 	private void ReadFully(sbyte[] b, int offs, int len) { }
 
-	// RVA: 0x5DB610 Offset: 0x5D9C10 VA: 0x1805DB610
+	// RVA: 0x5DB5A0 Offset: 0x5D9BA0 VA: 0x1805DB5A0
 	private int ReadBytes(sbyte[] b, int offs, int len) { }
 
 }

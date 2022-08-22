@@ -30,42 +30,42 @@ public struct VertexAttributeDescriptor : IEquatable<VertexAttributeDescriptor> 
 	public void set_attribute(VertexAttribute value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B7E0 Offset: 0x14ABE0 VA: 0x18014B7E0
+	// RVA: 0x14B600 Offset: 0x14AA00 VA: 0x18014B600
 	public VertexAttributeFormat get_format() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19DF60 Offset: 0x19D360 VA: 0x18019DF60
+	// RVA: 0x19DC50 Offset: 0x19D050 VA: 0x18019DC50
 	public void set_format(VertexAttributeFormat value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
+	// RVA: 0x122C30 Offset: 0x122030 VA: 0x180122C30
 	public int get_dimension() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19DF50 Offset: 0x19D350 VA: 0x18019DF50
+	// RVA: 0x19DC40 Offset: 0x19D040 VA: 0x18019DC40
 	public void set_dimension(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1AE430 Offset: 0x1AD830 VA: 0x1801AE430
+	// RVA: 0x1AE130 Offset: 0x1AD530 VA: 0x1801AE130
 	public int get_stream() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x222870 Offset: 0x221C70 VA: 0x180222870
+	// RVA: 0x21DDF0 Offset: 0x21D1F0 VA: 0x18021DDF0
 	public void set_stream(int value) { }
 
-	// RVA: 0x2235B0 Offset: 0x2229B0 VA: 0x1802235B0
+	// RVA: 0x21EB30 Offset: 0x21DF30 VA: 0x18021EB30
 	public void .ctor(VertexAttribute attribute = 0, VertexAttributeFormat format = 0, int dimension = 3, int stream = 0) { }
 
-	// RVA: 0x2235A0 Offset: 0x2229A0 VA: 0x1802235A0 Slot: 3
+	// RVA: 0x21EB20 Offset: 0x21DF20 VA: 0x18021EB20 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x223580 Offset: 0x222980 VA: 0x180223580 Slot: 2
+	// RVA: 0x21EB00 Offset: 0x21DF00 VA: 0x18021EB00 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x2234C0 Offset: 0x2228C0 VA: 0x1802234C0 Slot: 0
+	// RVA: 0x21EA40 Offset: 0x21DE40 VA: 0x18021EA40 Slot: 0
 	public override bool Equals(object other) { }
 
-	// RVA: 0x223470 Offset: 0x222870 VA: 0x180223470 Slot: 4
+	// RVA: 0x21E9F0 Offset: 0x21DDF0 VA: 0x18021E9F0 Slot: 4
 	public bool Equals(VertexAttributeDescriptor other) { }
 
 }

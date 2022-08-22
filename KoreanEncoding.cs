@@ -4,25 +4,25 @@ internal class KoreanEncoding : DbcsEncoding // TypeDefIndex: 7817
 
 	// Methods
 
-	// RVA: 0x2253BA0 Offset: 0x22521A0 VA: 0x182253BA0
+	// RVA: 0x22543C0 Offset: 0x22529C0 VA: 0x1822543C0
 	public void .ctor(int codepage, bool useUHC) { }
 
-	// RVA: 0x2253AB0 Offset: 0x22520B0 VA: 0x182253AB0 Slot: 48
+	// RVA: 0x22542D0 Offset: 0x22528D0 VA: 0x1822542D0 Slot: 48
 	internal override DbcsConvert GetConvert() { }
 
-	// RVA: 0x22537E0 Offset: 0x2251DE0 VA: 0x1822537E0 Slot: 46
+	// RVA: 0x2254000 Offset: 0x2252600 VA: 0x182254000 Slot: 46
 	public override int GetByteCountImpl(char* chars, int count) { }
 
-	// RVA: 0x22538E0 Offset: 0x2251EE0 VA: 0x1822538E0 Slot: 47
+	// RVA: 0x2254100 Offset: 0x2252700 VA: 0x182254100 Slot: 47
 	public override int GetBytesImpl(char* chars, int charCount, byte* bytes, int byteCount) { }
 
-	// RVA: 0x224CFE0 Offset: 0x224B5E0 VA: 0x18224CFE0 Slot: 29
+	// RVA: 0x224D800 Offset: 0x224BE00 VA: 0x18224D800 Slot: 29
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x224D050 Offset: 0x224B650 VA: 0x18224D050 Slot: 33
+	// RVA: 0x224D870 Offset: 0x224BE70 VA: 0x18224D870 Slot: 33
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x2253B10 Offset: 0x2252110 VA: 0x182253B10 Slot: 38
+	// RVA: 0x2254330 Offset: 0x2252930 VA: 0x182254330 Slot: 38
 	public override Decoder GetDecoder() { }
 
 }
@@ -35,19 +35,19 @@ private sealed class KoreanEncoding.KoreanDecoder : DbcsEncoding.DbcsDecoder // 
 
 	// Methods
 
-	// RVA: 0x2253790 Offset: 0x2251D90 VA: 0x182253790
+	// RVA: 0x2253FB0 Offset: 0x22525B0 VA: 0x182253FB0
 	public void .ctor(DbcsConvert convert, bool useUHC) { }
 
-	// RVA: 0x2253340 Offset: 0x2251940 VA: 0x182253340 Slot: 5
+	// RVA: 0x2253B60 Offset: 0x2252160 VA: 0x182253B60 Slot: 5
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x2253080 Offset: 0x2251680 VA: 0x182253080 Slot: 6
+	// RVA: 0x22538A0 Offset: 0x2251EA0 VA: 0x1822538A0 Slot: 6
 	public override int GetCharCount(byte[] bytes, int index, int count, bool refresh) { }
 
-	// RVA: 0x2253360 Offset: 0x2251960 VA: 0x182253360 Slot: 8
+	// RVA: 0x2253B80 Offset: 0x2252180 VA: 0x182253B80 Slot: 8
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x2253390 Offset: 0x2251990 VA: 0x182253390 Slot: 9
+	// RVA: 0x2253BB0 Offset: 0x22521B0 VA: 0x182253BB0 Slot: 9
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex, bool refresh) { }
 
 }

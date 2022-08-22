@@ -6,13 +6,13 @@ public class AtmosphereVolume : MonoBehaviour // TypeDefIndex: 10639
 
 	// Methods
 
-	// RVA: 0x834240 Offset: 0x832840 VA: 0x180834240
+	// RVA: 0x834790 Offset: 0x832D90 VA: 0x180834790
 	private void OnEnable() { }
 
-	// RVA: 0x834110 Offset: 0x832710 VA: 0x180834110
+	// RVA: 0x834660 Offset: 0x832C60 VA: 0x180834660
 	private void OnDisable() { }
 
-	// RVA: 0x834340 Offset: 0x832940 VA: 0x180834340
+	// RVA: 0x834890 Offset: 0x832E90 VA: 0x180834890
 	public void .ctor() { }
 
 }

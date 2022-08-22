@@ -12,11 +12,11 @@ public class KeyValue // TypeDefIndex: 6284
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Key get_Key() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1190 Offset: 0x8BF790 VA: 0x1808C1190
+	// RVA: 0x8C16A0 Offset: 0x8BFCA0 VA: 0x1808C16A0
 	public void set_Key(Key value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -24,13 +24,13 @@ public class KeyValue // TypeDefIndex: 6284
 	public byte[] get_Value() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_Value(byte[] value) { }
 
-	// RVA: 0x1E46BF0 Offset: 0x1E451F0 VA: 0x181E46BF0
+	// RVA: 0x1E47410 Offset: 0x1E45A10 VA: 0x181E47410
 	public void .ctor(Key key, byte[] value) { }
 
-	// RVA: 0x1E46B40 Offset: 0x1E45140 VA: 0x181E46B40 Slot: 3
+	// RVA: 0x1E47360 Offset: 0x1E45960 VA: 0x181E47360 Slot: 3
 	public override string ToString() { }
 
 }

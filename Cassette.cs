@@ -9,82 +9,82 @@ public class Cassette : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6389
 
 	// Methods
 
-	// RVA: 0x20A8400 Offset: 0x20A6A00 VA: 0x1820A8400
+	// RVA: 0x20A8C20 Offset: 0x20A7220 VA: 0x1820A8C20
 	public static void ResetToPool(Cassette instance) { }
 
-	// RVA: 0x20A8360 Offset: 0x20A6960 VA: 0x1820A8360
+	// RVA: 0x20A8B80 Offset: 0x20A7180 VA: 0x1820A8B80
 	public void ResetToPool() { }
 
-	// RVA: 0x20A8010 Offset: 0x20A6610 VA: 0x1820A8010 Slot: 9
+	// RVA: 0x20A8830 Offset: 0x20A6E30 VA: 0x1820A8830 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x20A6E50 Offset: 0x20A5450 VA: 0x1820A6E50
+	// RVA: 0x20A7670 Offset: 0x20A5C70 VA: 0x1820A7670
 	public void CopyTo(Cassette instance) { }
 
-	// RVA: 0x20A6E80 Offset: 0x20A5480 VA: 0x1820A6E80
+	// RVA: 0x20A76A0 Offset: 0x20A5CA0 VA: 0x1820A76A0
 	public Cassette Copy() { }
 
-	// RVA: 0x20A78C0 Offset: 0x20A5EC0 VA: 0x1820A78C0
+	// RVA: 0x20A80E0 Offset: 0x20A66E0 VA: 0x1820A80E0
 	public static Cassette Deserialize(Stream stream) { }
 
-	// RVA: 0x20A71E0 Offset: 0x20A57E0 VA: 0x1820A71E0
+	// RVA: 0x20A7A00 Offset: 0x20A6000 VA: 0x1820A7A00
 	public static Cassette DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x20A7260 Offset: 0x20A5860 VA: 0x1820A7260
+	// RVA: 0x20A7A80 Offset: 0x20A6080 VA: 0x1820A7A80
 	public static Cassette DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x20A75B0 Offset: 0x20A5BB0 VA: 0x1820A75B0
+	// RVA: 0x20A7DD0 Offset: 0x20A63D0 VA: 0x1820A7DD0
 	public static Cassette Deserialize(byte[] buffer) { }
 
-	// RVA: 0x20A8130 Offset: 0x20A6730 VA: 0x1820A8130
+	// RVA: 0x20A8950 Offset: 0x20A6F50 VA: 0x1820A8950
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x20A89E0 Offset: 0x20A6FE0 VA: 0x1820A89E0 Slot: 12
+	// RVA: 0x20A9200 Offset: 0x20A7800 VA: 0x1820A9200 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x20A8A00 Offset: 0x20A7000 VA: 0x1820A8A00 Slot: 13
+	// RVA: 0x20A9220 Offset: 0x20A7820 VA: 0x1820A9220 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Cassette previous) { }
 
-	// RVA: 0x20A8340 Offset: 0x20A6940 VA: 0x1820A8340 Slot: 14
+	// RVA: 0x20A8B60 Offset: 0x20A7160 VA: 0x1820A8B60 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x20A7B10 Offset: 0x20A6110 VA: 0x1820A7B10
+	// RVA: 0x20A8330 Offset: 0x20A6930 VA: 0x1820A8330
 	public static Cassette Deserialize(byte[] buffer, Cassette instance, bool isDelta = False) { }
 
-	// RVA: 0x20A7E00 Offset: 0x20A6400 VA: 0x1820A7E00
+	// RVA: 0x20A8620 Offset: 0x20A6C20 VA: 0x1820A8620
 	public static Cassette Deserialize(Stream stream, Cassette instance, bool isDelta) { }
 
-	// RVA: 0x20A6F00 Offset: 0x20A5500 VA: 0x1820A6F00
+	// RVA: 0x20A7720 Offset: 0x20A5D20 VA: 0x1820A7720
 	public static Cassette DeserializeLengthDelimited(Stream stream, Cassette instance, bool isDelta) { }
 
-	// RVA: 0x20A72F0 Offset: 0x20A58F0 VA: 0x1820A72F0
+	// RVA: 0x20A7B10 Offset: 0x20A6110 VA: 0x1820A7B10
 	public static Cassette DeserializeLength(Stream stream, int length, Cassette instance, bool isDelta) { }
 
-	// RVA: 0x20A84A0 Offset: 0x20A6AA0 VA: 0x1820A84A0
+	// RVA: 0x20A8CC0 Offset: 0x20A72C0 VA: 0x1820A8CC0
 	public static void SerializeDelta(Stream stream, Cassette instance, Cassette previous) { }
 
-	// RVA: 0x20A8880 Offset: 0x20A6E80 VA: 0x1820A8880
+	// RVA: 0x20A90A0 Offset: 0x20A76A0 VA: 0x1820A90A0
 	public static void Serialize(Stream stream, Cassette instance) { }
 
-	// RVA: 0x20A89D0 Offset: 0x20A6FD0 VA: 0x1820A89D0
+	// RVA: 0x20A91F0 Offset: 0x20A77F0 VA: 0x1820A91F0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x20A89E0 Offset: 0x20A6FE0 VA: 0x1820A89E0
+	// RVA: 0x20A9200 Offset: 0x20A7800 VA: 0x1820A9200
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x20A8770 Offset: 0x20A6D70 VA: 0x1820A8770
+	// RVA: 0x20A8F90 Offset: 0x20A7590 VA: 0x1820A8F90
 	public static byte[] SerializeToBytes(Cassette instance) { }
 
-	// RVA: 0x20A86C0 Offset: 0x20A6CC0 VA: 0x1820A86C0
+	// RVA: 0x20A8EE0 Offset: 0x20A74E0 VA: 0x1820A8EE0
 	public static void SerializeLengthDelimited(Stream stream, Cassette instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -117,72 +117,72 @@ public class Cassette : BaseEntity, IUGCBrowserEntity // TypeDefIndex: 8544
 
 	// Methods
 
-	// RVA: 0x530540 Offset: 0x52EB40 VA: 0x180530540 Slot: 35
+	// RVA: 0x5304D0 Offset: 0x52EAD0 VA: 0x1805304D0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x530D10 Offset: 0x52F310 VA: 0x180530D10
+	// RVA: 0x530CA0 Offset: 0x52F2A0 VA: 0x180530CA0
 	public static void RequestAudioLoad(byte[] data, Action<AudioClip, bool> onComplete, BaseEntity targetEntity) { }
 
-	// RVA: 0x531180 Offset: 0x52F780 VA: 0x180531180
+	// RVA: 0x531110 Offset: 0x52F710 VA: 0x180531110
 	public static void RunCassetteQueue() { }
 
-	// RVA: 0x52FF20 Offset: 0x52E520 VA: 0x18052FF20
+	// RVA: 0x52FEB0 Offset: 0x52E4B0 VA: 0x18052FEB0
 	public static void LoadAudio(byte[] data, Action<AudioClip, bool> onComplete) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x531730 Offset: 0x52FD30 VA: 0x180531730
+	// RVA: 0x5316C0 Offset: 0x52FCC0 VA: 0x1805316C0
 	public uint get_AudioId() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x531780 Offset: 0x52FD80 VA: 0x180531780
+	// RVA: 0x531710 Offset: 0x52FD10 VA: 0x180531710
 	private void set_AudioId(uint value) { }
 
-	// RVA: 0x531740 Offset: 0x52FD40 VA: 0x180531740
+	// RVA: 0x5316D0 Offset: 0x52FCD0 VA: 0x1805316D0
 	public SoundDefinition get_PreloadedAudio() { }
 
-	// RVA: 0x530220 Offset: 0x52E820 VA: 0x180530220 Slot: 34
+	// RVA: 0x5301B0 Offset: 0x52E7B0 VA: 0x1805301B0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x530420 Offset: 0x52EA20 VA: 0x180530420 Slot: 81
+	// RVA: 0x5303B0 Offset: 0x52E9B0 VA: 0x1805303B0 Slot: 81
 	public override void OnParentChangingClient(Transform oldParent, Transform newParent) { }
 
-	// RVA: 0x52F4F0 Offset: 0x52DAF0 VA: 0x18052F4F0
+	// RVA: 0x52F480 Offset: 0x52DA80 VA: 0x18052F480
 	private void ForceLoadNotify() { }
 
-	// RVA: 0x5313B0 Offset: 0x52F9B0 VA: 0x1805313B0
+	// RVA: 0x531340 Offset: 0x52F940 VA: 0x180531340
 	public void WriteNewAudio(byte[] data, Action<AudioClip> onAudioReady, ulong userSteamId) { }
 
-	// RVA: 0x530EB0 Offset: 0x52F4B0 VA: 0x180530EB0
+	// RVA: 0x530E40 Offset: 0x52F440 VA: 0x180530E40
 	public void RequestFileUpdate(Action<AudioClip> onAudioReady) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x52F1B0 Offset: 0x52D7B0 VA: 0x18052F1B0
+	// RVA: 0x52F140 Offset: 0x52D740 VA: 0x18052F140
 	public void Client_ReceiveAudio(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x52F460 Offset: 0x52DA60 VA: 0x18052F460
+	// RVA: 0x52F3F0 Offset: 0x52D9F0 VA: 0x18052F3F0
 	private void FailedNetworkFileRequest(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x52FBE0 Offset: 0x52E1E0 VA: 0x18052FBE0
+	// RVA: 0x52FB70 Offset: 0x52E170 VA: 0x18052FB70
 	public static bool IsOggValid(byte[] data, Cassette c) { }
 
-	// RVA: 0x52FDB0 Offset: 0x52E3B0 VA: 0x18052FDB0
+	// RVA: 0x52FD40 Offset: 0x52E340 VA: 0x18052FD40
 	private static bool IsOggValid(byte[] data, float maxLength) { }
 
-	// RVA: 0x52F190 Offset: 0x52D790 VA: 0x18052F190
+	// RVA: 0x52F120 Offset: 0x52D720 VA: 0x18052F120
 	private static float ByteToMegabyte(int byteSize) { }
 
-	// RVA: 0x52F5A0 Offset: 0x52DBA0 VA: 0x18052F5A0
+	// RVA: 0x52F530 Offset: 0x52DB30 VA: 0x18052F530
 	private static double GetOggLength(byte[] t) { }
 
-	// RVA: 0x5316C0 Offset: 0x52FCC0 VA: 0x1805316C0
+	// RVA: 0x531650 Offset: 0x52FC50 VA: 0x180531650
 	public void .ctor() { }
 
-	// RVA: 0x531630 Offset: 0x52FC30 VA: 0x180531630
+	// RVA: 0x5315C0 Offset: 0x52FBC0 VA: 0x1805315C0
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5312E0 Offset: 0x52F8E0 VA: 0x1805312E0
+	// RVA: 0x531270 Offset: 0x52F870 VA: 0x180531270
 	private void <Client_ReceiveAudio>b__32_0(AudioClip clip, bool success) { }
 
 }
@@ -205,7 +205,7 @@ private sealed class Cassette.<>c__DisplayClass29_0 // TypeDefIndex: 8546
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x547130 Offset: 0x545730 VA: 0x180547130
+	// RVA: 0x5470C0 Offset: 0x5456C0 VA: 0x1805470C0
 	internal void <WriteNewAudio>b__0(AudioClip clip, bool success) { }
 
 }
@@ -221,7 +221,7 @@ private sealed class Cassette.<>c__DisplayClass31_0 // TypeDefIndex: 8547
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x547220 Offset: 0x545820 VA: 0x180547220
+	// RVA: 0x5471B0 Offset: 0x5457B0 VA: 0x1805471B0
 	internal void <RequestFileUpdate>b__0(AudioClip clip, bool success) { }
 
 }

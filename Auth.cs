@@ -7,7 +7,7 @@ public class Auth // TypeDefIndex: 6241
 
 	// Methods
 
-	// RVA: 0x14A9AE0 Offset: 0x14A80E0 VA: 0x1814A9AE0
+	// RVA: 0x14A8BB0 Offset: 0x14A71B0 VA: 0x1814A8BB0
 	public static Auth Steam(string ticket, ulong steamId, string username) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

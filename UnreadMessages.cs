@@ -13,22 +13,22 @@ public class UnreadMessages : SingletonComponent<UnreadMessages> // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x1133630 Offset: 0x1131C30 VA: 0x181133630 Slot: 6
+	// RVA: 0x11340A0 Offset: 0x11326A0 VA: 0x1811340A0 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x11336B0 Offset: 0x1131CB0 VA: 0x1811336B0
+	// RVA: 0x1134120 Offset: 0x1132720 VA: 0x181134120
 	public void Frame() { }
 
-	// RVA: 0x1134360 Offset: 0x1132960 VA: 0x181134360
+	// RVA: 0x1134DD0 Offset: 0x11333D0 VA: 0x181134DD0
 	private void UpdateForAmount(int count) { }
 
-	// RVA: 0x1133870 Offset: 0x1131E70 VA: 0x181133870
+	// RVA: 0x11342E0 Offset: 0x11328E0 VA: 0x1811342E0
 	public void OpenList() { }
 
-	// RVA: 0x1133680 Offset: 0x1131C80 VA: 0x181133680
+	// RVA: 0x11340F0 Offset: 0x11326F0 VA: 0x1811340F0
 	public void CloseList() { }
 
-	// RVA: 0x11344A0 Offset: 0x1132AA0 VA: 0x1811344A0
+	// RVA: 0x1134F10 Offset: 0x1133510 VA: 0x181134F10
 	public void .ctor() { }
 
 }
@@ -42,7 +42,7 @@ private sealed class UnreadMessages.<>c__DisplayClass13_0 // TypeDefIndex: 11176
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1128170 Offset: 0x1126770 VA: 0x181128170
+	// RVA: 0x1128BE0 Offset: 0x11271E0 VA: 0x181128BE0
 	internal void <OpenList>b__2() { }
 
 }
@@ -55,16 +55,16 @@ private sealed class UnreadMessages.<>c // TypeDefIndex: 11177
 
 	// Methods
 
-	// RVA: 0x11281C0 Offset: 0x11267C0 VA: 0x1811281C0
+	// RVA: 0x1128C30 Offset: 0x1127230 VA: 0x181128C30
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1128150 Offset: 0x1126750 VA: 0x181128150
+	// RVA: 0x1128BC0 Offset: 0x11271C0 VA: 0x181128BC0
 	internal bool <OpenList>b__13_0(AccountNotice x) { }
 
-	// RVA: 0x956EC0 Offset: 0x9554C0 VA: 0x180956EC0
+	// RVA: 0x9573C0 Offset: 0x9559C0 VA: 0x1809573C0
 	internal DateTime <OpenList>b__13_1(AccountNotice x) { }
 
 }

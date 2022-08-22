@@ -5,7 +5,7 @@ internal class DefaultContractResolverState // TypeDefIndex: 5990
 
 	// Methods
 
-	// RVA: 0x13EF290 Offset: 0x13ED890 VA: 0x1813EF290
+	// RVA: 0x13EE390 Offset: 0x13EC990 VA: 0x1813EE390
 	public void .ctor() { }
 
 }

@@ -5,16 +5,16 @@ internal struct ResolverContractKey // TypeDefIndex: 5989
 
 	// Methods
 
-	// RVA: 0xF5A50 Offset: 0xF4E50 VA: 0x1800F5A50
+	// RVA: 0xF5DB0 Offset: 0xF51B0 VA: 0x1800F5DB0
 	public void .ctor(Type resolverType, Type contractType) { }
 
-	// RVA: 0xF59F0 Offset: 0xF4DF0 VA: 0x1800F59F0 Slot: 2
+	// RVA: 0xF5D50 Offset: 0xF5150 VA: 0x1800F5D50 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x211580 Offset: 0x210980 VA: 0x180211580 Slot: 0
+	// RVA: 0x2108E0 Offset: 0x20FCE0 VA: 0x1802108E0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x211620 Offset: 0x210A20 VA: 0x180211620
+	// RVA: 0x210980 Offset: 0x20FD80 VA: 0x180210980
 	public bool Equals(ResolverContractKey other) { }
 
 }

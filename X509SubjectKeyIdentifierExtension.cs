@@ -11,46 +11,46 @@ public sealed class X509SubjectKeyIdentifierExtension : X509Extension // TypeDef
 
 	// Methods
 
-	// RVA: 0x14DD670 Offset: 0x14DBC70 VA: 0x1814DD670
+	// RVA: 0x14DC740 Offset: 0x14DAD40 VA: 0x1814DC740
 	public void .ctor() { }
 
-	// RVA: 0x14DD310 Offset: 0x14DB910 VA: 0x1814DD310
+	// RVA: 0x14DC3E0 Offset: 0x14DA9E0 VA: 0x1814DC3E0
 	public void .ctor(AsnEncodedData encodedSubjectKeyIdentifier, bool critical) { }
 
-	// RVA: 0x14DD1A0 Offset: 0x14DB7A0 VA: 0x1814DD1A0
+	// RVA: 0x14DC270 Offset: 0x14DA870 VA: 0x1814DC270
 	public void .ctor(byte[] subjectKeyIdentifier, bool critical) { }
 
-	// RVA: 0x14DD3E0 Offset: 0x14DB9E0 VA: 0x1814DD3E0
+	// RVA: 0x14DC4B0 Offset: 0x14DAAB0 VA: 0x1814DC4B0
 	public void .ctor(string subjectKeyIdentifier, bool critical) { }
 
-	// RVA: 0x14DD650 Offset: 0x14DBC50 VA: 0x1814DD650
+	// RVA: 0x14DC720 Offset: 0x14DAD20 VA: 0x1814DC720
 	public void .ctor(PublicKey key, bool critical) { }
 
-	// RVA: 0x14DD6F0 Offset: 0x14DBCF0 VA: 0x1814DD6F0
+	// RVA: 0x14DC7C0 Offset: 0x14DADC0 VA: 0x1814DC7C0
 	public void .ctor(PublicKey key, X509SubjectKeyIdentifierHashAlgorithm algorithm, bool critical) { }
 
-	// RVA: 0x14DDA90 Offset: 0x14DC090 VA: 0x1814DDA90
+	// RVA: 0x14DCB60 Offset: 0x14DB160 VA: 0x1814DCB60
 	public string get_SubjectKeyIdentifier() { }
 
-	// RVA: 0x14DC9F0 Offset: 0x14DAFF0 VA: 0x1814DC9F0 Slot: 4
+	// RVA: 0x14DBAC0 Offset: 0x14DA0C0 VA: 0x1814DBAC0 Slot: 4
 	public override void CopyFrom(AsnEncodedData asnEncodedData) { }
 
-	// RVA: 0x14DCD50 Offset: 0x14DB350 VA: 0x1814DCD50
+	// RVA: 0x14DBE20 Offset: 0x14DA420 VA: 0x1814DBE20
 	internal static byte FromHexChar(char c) { }
 
-	// RVA: 0x14DCD80 Offset: 0x14DB380 VA: 0x1814DCD80
+	// RVA: 0x14DBE50 Offset: 0x14DA450 VA: 0x1814DBE50
 	internal static byte FromHexChars(char c1, char c2) { }
 
-	// RVA: 0x14DCE00 Offset: 0x14DB400 VA: 0x1814DCE00
+	// RVA: 0x14DBED0 Offset: 0x14DA4D0 VA: 0x1814DBED0
 	internal static byte[] FromHex(string hex) { }
 
-	// RVA: 0x14DCB70 Offset: 0x14DB170 VA: 0x1814DCB70
+	// RVA: 0x14DBC40 Offset: 0x14DA240 VA: 0x1814DBC40
 	internal AsnDecodeStatus Decode(byte[] extension) { }
 
-	// RVA: 0x14DCCD0 Offset: 0x14DB2D0 VA: 0x1814DCCD0
+	// RVA: 0x14DBDA0 Offset: 0x14DA3A0 VA: 0x1814DBDA0
 	internal byte[] Encode() { }
 
-	// RVA: 0x14DCF80 Offset: 0x14DB580 VA: 0x1814DCF80 Slot: 6
+	// RVA: 0x14DC050 Offset: 0x14DA650 VA: 0x1814DC050 Slot: 6
 	internal override string ToString(bool multiLine) { }
 
 }

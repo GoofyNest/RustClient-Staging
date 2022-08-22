@@ -5,10 +5,10 @@ public class RandomDestroy : MonoBehaviour // TypeDefIndex: 10353
 
 	// Methods
 
-	// RVA: 0x6A6D40 Offset: 0x6A5340 VA: 0x1806A6D40
+	// RVA: 0x6A6CD0 Offset: 0x6A52D0 VA: 0x1806A6CD0
 	protected void Start() { }
 
-	// RVA: 0x6A6E80 Offset: 0x6A5480 VA: 0x1806A6E80
+	// RVA: 0x6A6E10 Offset: 0x6A5410 VA: 0x1806A6E10
 	public void .ctor() { }
 
 }

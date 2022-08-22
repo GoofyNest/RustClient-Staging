@@ -14,46 +14,46 @@ public class WebException : InvalidOperationException, ISerializable // TypeDefI
 
 	// Methods
 
-	// RVA: 0x1188C40 Offset: 0x1187240 VA: 0x181188C40
+	// RVA: 0x118D560 Offset: 0x118BB60 VA: 0x18118D560
 	public void .ctor() { }
 
-	// RVA: 0x1188D70 Offset: 0x1187370 VA: 0x181188D70
+	// RVA: 0x118D690 Offset: 0x118BC90 VA: 0x18118D690
 	public void .ctor(string message) { }
 
-	// RVA: 0x1188D50 Offset: 0x1187350 VA: 0x181188D50
+	// RVA: 0x118D670 Offset: 0x118BC70 VA: 0x18118D670
 	public void .ctor(string message, Exception innerException) { }
 
-	// RVA: 0x1188D90 Offset: 0x1187390 VA: 0x181188D90
+	// RVA: 0x118D6B0 Offset: 0x118BCB0 VA: 0x18118D6B0
 	public void .ctor(string message, WebExceptionStatus status) { }
 
-	// RVA: 0x1188F20 Offset: 0x1187520 VA: 0x181188F20
+	// RVA: 0x118D840 Offset: 0x118BE40 VA: 0x18118D840
 	internal void .ctor(string message, WebExceptionStatus status, WebExceptionInternalStatus internalStatus, Exception innerException) { }
 
-	// RVA: 0x1188DB0 Offset: 0x11873B0 VA: 0x181188DB0
+	// RVA: 0x118D6D0 Offset: 0x118BCD0 VA: 0x18118D6D0
 	public void .ctor(string message, Exception innerException, WebExceptionStatus status, WebResponse response) { }
 
-	// RVA: 0x1188C90 Offset: 0x1187290 VA: 0x181188C90
+	// RVA: 0x118D5B0 Offset: 0x118BBB0 VA: 0x18118D5B0
 	internal void .ctor(string message, string data, Exception innerException, WebExceptionStatus status, WebResponse response) { }
 
-	// RVA: 0x1188B90 Offset: 0x1187190 VA: 0x181188B90
+	// RVA: 0x118D4B0 Offset: 0x118BAB0 VA: 0x18118D4B0
 	internal void .ctor(string message, Exception innerException, WebExceptionStatus status, WebResponse response, WebExceptionInternalStatus internalStatus) { }
 
-	// RVA: 0x1188E50 Offset: 0x1187450 VA: 0x181188E50
+	// RVA: 0x118D770 Offset: 0x118BD70 VA: 0x18118D770
 	internal void .ctor(string message, string data, Exception innerException, WebExceptionStatus status, WebResponse response, WebExceptionInternalStatus internalStatus) { }
 
-	// RVA: 0x1188C60 Offset: 0x1187260 VA: 0x181188C60
+	// RVA: 0x118D580 Offset: 0x118BB80 VA: 0x18118D580
 	protected void .ctor(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
-	// RVA: 0x1188B60 Offset: 0x1187160 VA: 0x181188B60 Slot: 4
+	// RVA: 0x118D480 Offset: 0x118BA80 VA: 0x18118D480 Slot: 4
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
-	// RVA: 0xFFB7F0 Offset: 0xFF9DF0 VA: 0x180FFB7F0 Slot: 10
+	// RVA: 0xFFC290 Offset: 0xFFA890 VA: 0x180FFC290 Slot: 10
 	public override void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
-	// RVA: 0x58AC70 Offset: 0x589270 VA: 0x18058AC70
+	// RVA: 0x58AC00 Offset: 0x589200 VA: 0x18058AC00
 	public WebExceptionStatus get_Status() { }
 
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0
 	public WebResponse get_Response() { }
 
 }

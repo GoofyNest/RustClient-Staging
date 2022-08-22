@@ -13,52 +13,52 @@ public class SoapServices // TypeDefIndex: 1150
 
 	// Methods
 
-	// RVA: 0x1205900 Offset: 0x1203F00 VA: 0x181205900
+	// RVA: 0x1205FA0 Offset: 0x12045A0 VA: 0x181205FA0
 	public static string get_XmlNsForClrTypeWithAssembly() { }
 
-	// RVA: 0x1205960 Offset: 0x1203F60 VA: 0x181205960
+	// RVA: 0x1206000 Offset: 0x1204600 VA: 0x181206000
 	public static string get_XmlNsForClrTypeWithNs() { }
 
-	// RVA: 0x1205930 Offset: 0x1203F30 VA: 0x181205930
+	// RVA: 0x1205FD0 Offset: 0x12045D0 VA: 0x181205FD0
 	public static string get_XmlNsForClrTypeWithNsAndAssembly() { }
 
-	// RVA: 0x12045A0 Offset: 0x1202BA0 VA: 0x1812045A0
+	// RVA: 0x1204C40 Offset: 0x1203240 VA: 0x181204C40
 	public static string CodeXmlNamespaceForClrTypeNamespace(string typeNamespace, string assemblyName) { }
 
-	// RVA: 0x1204980 Offset: 0x1202F80 VA: 0x181204980
+	// RVA: 0x1205020 Offset: 0x1203620 VA: 0x181205020
 	private static string GetNameKey(string name, string namspace) { }
 
-	// RVA: 0x1204830 Offset: 0x1202E30 VA: 0x181204830
+	// RVA: 0x1204ED0 Offset: 0x12034D0 VA: 0x181204ED0
 	private static string GetAssemblyName(MethodBase mb) { }
 
-	// RVA: 0x12049E0 Offset: 0x1202FE0 VA: 0x1812049E0
+	// RVA: 0x1205080 Offset: 0x1203680 VA: 0x181205080
 	public static bool GetXmlElementForInteropType(Type type, out string xmlElement, out string xmlNamespace) { }
 
-	// RVA: 0x1204AF0 Offset: 0x12030F0 VA: 0x181204AF0
+	// RVA: 0x1205190 Offset: 0x1203790 VA: 0x181205190
 	public static string GetXmlNamespaceForMethodCall(MethodBase mb) { }
 
-	// RVA: 0x1204BA0 Offset: 0x12031A0 VA: 0x181204BA0
+	// RVA: 0x1205240 Offset: 0x1203840 VA: 0x181205240
 	public static string GetXmlNamespaceForMethodResponse(MethodBase mb) { }
 
-	// RVA: 0x1204C50 Offset: 0x1203250 VA: 0x181204C50
+	// RVA: 0x12052F0 Offset: 0x12038F0 VA: 0x1812052F0
 	public static bool GetXmlTypeForInteropType(Type type, out string xmlType, out string xmlTypeNamespace) { }
 
-	// RVA: 0x1204D40 Offset: 0x1203340 VA: 0x181204D40
+	// RVA: 0x12053E0 Offset: 0x12039E0 VA: 0x1812053E0
 	public static void PreLoad(Assembly assembly) { }
 
-	// RVA: 0x1204E00 Offset: 0x1203400 VA: 0x181204E00
+	// RVA: 0x12054A0 Offset: 0x1203AA0 VA: 0x1812054A0
 	public static void PreLoad(Type type) { }
 
-	// RVA: 0x1205490 Offset: 0x1203A90 VA: 0x181205490
+	// RVA: 0x1205B30 Offset: 0x1204130 VA: 0x181205B30
 	public static void RegisterInteropXmlElement(string xmlElement, string xmlNamespace, Type type) { }
 
-	// RVA: 0x1205630 Offset: 0x1203C30 VA: 0x181205630
+	// RVA: 0x1205CD0 Offset: 0x12042D0 VA: 0x181205CD0
 	public static void RegisterInteropXmlType(string xmlType, string xmlTypeNamespace, Type type) { }
 
-	// RVA: 0x12047A0 Offset: 0x1202DA0 VA: 0x1812047A0
+	// RVA: 0x1204E40 Offset: 0x1203440 VA: 0x181204E40
 	private static string EncodeNs(string ns) { }
 
-	// RVA: 0x12057D0 Offset: 0x1203DD0 VA: 0x1812057D0
+	// RVA: 0x1205E70 Offset: 0x1204470 VA: 0x181205E70
 	private static void .cctor() { }
 
 }

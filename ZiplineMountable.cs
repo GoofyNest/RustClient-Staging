@@ -6,82 +6,82 @@ public class ZiplineMountable : IDisposable, Pool.IPooled, IProto // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x1E5D090 Offset: 0x1E5B690 VA: 0x181E5D090
+	// RVA: 0x1E5D8B0 Offset: 0x1E5BEB0 VA: 0x181E5D8B0
 	public static void ResetToPool(ZiplineMountable instance) { }
 
-	// RVA: 0x1E5CFB0 Offset: 0x1E5B5B0 VA: 0x181E5CFB0
+	// RVA: 0x1E5D7D0 Offset: 0x1E5BDD0 VA: 0x181E5D7D0
 	public void ResetToPool() { }
 
-	// RVA: 0x1E5CE20 Offset: 0x1E5B420 VA: 0x181E5CE20 Slot: 9
+	// RVA: 0x1E5D640 Offset: 0x1E5BC40 VA: 0x181E5D640 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1E5C0B0 Offset: 0x1E5A6B0 VA: 0x181E5C0B0
+	// RVA: 0x1E5C8D0 Offset: 0x1E5AED0 VA: 0x181E5C8D0
 	public void CopyTo(ZiplineMountable instance) { }
 
-	// RVA: 0x1E5C210 Offset: 0x1E5A810 VA: 0x181E5C210
+	// RVA: 0x1E5CA30 Offset: 0x1E5B030 VA: 0x181E5CA30
 	public ZiplineMountable Copy() { }
 
-	// RVA: 0x1E5CBF0 Offset: 0x1E5B1F0 VA: 0x181E5CBF0
+	// RVA: 0x1E5D410 Offset: 0x1E5BA10 VA: 0x181E5D410
 	public static ZiplineMountable Deserialize(Stream stream) { }
 
-	// RVA: 0x1E5C3D0 Offset: 0x1E5A9D0 VA: 0x181E5C3D0
+	// RVA: 0x1E5CBF0 Offset: 0x1E5B1F0 VA: 0x181E5CBF0
 	public static ZiplineMountable DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1E5C940 Offset: 0x1E5AF40 VA: 0x181E5C940
+	// RVA: 0x1E5D160 Offset: 0x1E5B760 VA: 0x181E5D160
 	public static ZiplineMountable DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1E5C9D0 Offset: 0x1E5AFD0 VA: 0x181E5C9D0
+	// RVA: 0x1E5D1F0 Offset: 0x1E5B7F0 VA: 0x181E5D1F0
 	public static ZiplineMountable Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1E5CF70 Offset: 0x1E5B570 VA: 0x181E5CF70
+	// RVA: 0x1E5D790 Offset: 0x1E5BD90 VA: 0x181E5D790
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1E5D850 Offset: 0x1E5BE50 VA: 0x181E5D850 Slot: 12
+	// RVA: 0x1E5E070 Offset: 0x1E5C670 VA: 0x181E5E070 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1E5D870 Offset: 0x1E5BE70 VA: 0x181E5D870 Slot: 13
+	// RVA: 0x1E5E090 Offset: 0x1E5C690 VA: 0x181E5E090 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, ZiplineMountable previous) { }
 
-	// RVA: 0x1E5CF90 Offset: 0x1E5B590 VA: 0x181E5CF90 Slot: 14
+	// RVA: 0x1E5D7B0 Offset: 0x1E5BDB0 VA: 0x181E5D7B0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1E5CAF0 Offset: 0x1E5B0F0 VA: 0x181E5CAF0
+	// RVA: 0x1E5D310 Offset: 0x1E5B910 VA: 0x181E5D310
 	public static ZiplineMountable Deserialize(byte[] buffer, ZiplineMountable instance, bool isDelta = False) { }
 
-	// RVA: 0x1E5CC70 Offset: 0x1E5B270 VA: 0x181E5CC70
+	// RVA: 0x1E5D490 Offset: 0x1E5BA90 VA: 0x181E5D490
 	public static ZiplineMountable Deserialize(Stream stream, ZiplineMountable instance, bool isDelta) { }
 
-	// RVA: 0x1E5C450 Offset: 0x1E5AA50 VA: 0x181E5C450
+	// RVA: 0x1E5CC70 Offset: 0x1E5B270 VA: 0x181E5CC70
 	public static ZiplineMountable DeserializeLengthDelimited(Stream stream, ZiplineMountable instance, bool isDelta) { }
 
-	// RVA: 0x1E5C6D0 Offset: 0x1E5ACD0 VA: 0x181E5C6D0
+	// RVA: 0x1E5CEF0 Offset: 0x1E5B4F0 VA: 0x181E5CEF0
 	public static ZiplineMountable DeserializeLength(Stream stream, int length, ZiplineMountable instance, bool isDelta) { }
 
-	// RVA: 0x1E5D170 Offset: 0x1E5B770 VA: 0x181E5D170
+	// RVA: 0x1E5D990 Offset: 0x1E5BF90 VA: 0x181E5D990
 	public static void SerializeDelta(Stream stream, ZiplineMountable instance, ZiplineMountable previous) { }
 
-	// RVA: 0x1E5D5F0 Offset: 0x1E5BBF0 VA: 0x181E5D5F0
+	// RVA: 0x1E5DE10 Offset: 0x1E5C410 VA: 0x181E5DE10
 	public static void Serialize(Stream stream, ZiplineMountable instance) { }
 
-	// RVA: 0x1E5D840 Offset: 0x1E5BE40 VA: 0x181E5D840
+	// RVA: 0x1E5E060 Offset: 0x1E5C660 VA: 0x181E5E060
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1E5D850 Offset: 0x1E5BE50 VA: 0x181E5D850
+	// RVA: 0x1E5E070 Offset: 0x1E5C670 VA: 0x181E5E070
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1E5D4E0 Offset: 0x1E5BAE0 VA: 0x181E5D4E0
+	// RVA: 0x1E5DD00 Offset: 0x1E5C300 VA: 0x181E5DD00
 	public static byte[] SerializeToBytes(ZiplineMountable instance) { }
 
-	// RVA: 0x1E5D3F0 Offset: 0x1E5B9F0 VA: 0x181E5D3F0
+	// RVA: 0x1E5DC10 Offset: 0x1E5C210 VA: 0x181E5DC10
 	public static void SerializeLengthDelimited(Stream stream, ZiplineMountable instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -111,49 +111,49 @@ public class ZiplineMountable : BaseMountable // TypeDefIndex: 8671
 
 	// Methods
 
-	// RVA: 0x1A8F5E0 Offset: 0x1A8DBE0 VA: 0x181A8F5E0
+	// RVA: 0x1A7BDF0 Offset: 0x1A7A3F0 VA: 0x181A7BDF0
 	private Vector3 ProcessBezierMovement(float distanceToTravel) { }
 
-	// RVA: 0x1A8EDE0 Offset: 0x1A8D3E0 VA: 0x181A8EDE0
+	// RVA: 0x1A7B5F0 Offset: 0x1A79BF0 VA: 0x181A7B5F0
 	private Vector3 GetLineEndPoint() { }
 
-	// RVA: 0x1A8EE90 Offset: 0x1A8D490 VA: 0x181A8EE90
+	// RVA: 0x1A7B6A0 Offset: 0x1A79CA0 VA: 0x181A7B6A0
 	private Vector3 GetNextLinePoint(Transform forTransform) { }
 
-	// RVA: 0x1A8F950 Offset: 0x1A8DF50 VA: 0x181A8F950 Slot: 173
+	// RVA: 0x1A7C160 Offset: 0x1A7A760 VA: 0x181A7C160 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0x4C3900 Offset: 0x4C1F00 VA: 0x1804C3900 Slot: 164
+	// RVA: 0x4C3890 Offset: 0x4C1E90 VA: 0x1804C3890 Slot: 164
 	public override float GetMountedAnimationSpeed() { }
 
-	// RVA: 0x1A8F280 Offset: 0x1A8D880 VA: 0x181A8F280 Slot: 34
+	// RVA: 0x1A7BA90 Offset: 0x1A7A090 VA: 0x181A7BA90 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x1A8EC70 Offset: 0x1A8D270 VA: 0x181A8EC70 Slot: 179
+	// RVA: 0x1A7B480 Offset: 0x1A79A80 VA: 0x181A7B480 Slot: 179
 	protected override void ClientOnPlayerMounted(BasePlayer player) { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 165
 	public override bool get_DisableLegsMeshAtExtremeViewAnglesInFirstPersonWithEyes() { }
 
-	// RVA: 0x5686E0 Offset: 0x566CE0 VA: 0x1805686E0 Slot: 166
+	// RVA: 0x568670 Offset: 0x566C70 VA: 0x180568670 Slot: 166
 	public override float get_FirstPersonWithArmsEyesLerp() { }
 
-	// RVA: 0x1A8FEE0 Offset: 0x1A8E4E0 VA: 0x181A8FEE0
+	// RVA: 0x1A7C6F0 Offset: 0x1A7ACF0 VA: 0x181A7C6F0
 	public static bool get_HasPushedForward() { }
 
-	// RVA: 0x1A8FF20 Offset: 0x1A8E520 VA: 0x181A8FF20
+	// RVA: 0x1A7C730 Offset: 0x1A7AD30 VA: 0x181A7C730
 	public static void set_HasPushedForward(bool value) { }
 
-	// RVA: 0x1A8F920 Offset: 0x1A8DF20 VA: 0x181A8F920 Slot: 27
+	// RVA: 0x1A7C130 Offset: 0x1A7A730 VA: 0x181A7C130 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0x1A8F480 Offset: 0x1A8DA80 VA: 0x181A8F480 Slot: 112
+	// RVA: 0x1A7BC90 Offset: 0x1A7A290 VA: 0x181A7BC90 Slot: 112
 	public override float MaxVelocity() { }
 
-	// RVA: 0x1A8F4A0 Offset: 0x1A8DAA0 VA: 0x181A8F4A0 Slot: 80
+	// RVA: 0x1A7BCB0 Offset: 0x1A7A2B0 VA: 0x181A7BCB0 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x1A8FDF0 Offset: 0x1A8E3F0 VA: 0x181A8FDF0
+	// RVA: 0x1A7C600 Offset: 0x1A7AC00 VA: 0x181A7C600
 	public void .ctor() { }
 
 }

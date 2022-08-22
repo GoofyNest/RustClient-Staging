@@ -6,7 +6,7 @@ public class WaterCheckGenerator : MonoBehaviour, IEditorComponent // TypeDefInd
 
 	// Methods
 
-	// RVA: 0x8040D0 Offset: 0x8026D0 VA: 0x1808040D0
+	// RVA: 0x804660 Offset: 0x802C60 VA: 0x180804660
 	public void .ctor() { }
 
 }

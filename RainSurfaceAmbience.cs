@@ -7,22 +7,22 @@ public class RainSurfaceAmbience : SingletonComponent<RainSurfaceAmbience>, ICli
 
 	// Methods
 
-	// RVA: 0x6A62C0 Offset: 0x6A48C0 VA: 0x1806A62C0 Slot: 6
+	// RVA: 0x6A6250 Offset: 0x6A4850 VA: 0x1806A6250 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x6A66D0 Offset: 0x6A4CD0 VA: 0x1806A66D0
+	// RVA: 0x6A6660 Offset: 0x6A4C60 VA: 0x1806A6660
 	public void ReadParticlePatchRaycastHit(bool didHit, RaycastHit raycastHit, ParticlePatch particlePatch) { }
 
-	// RVA: 0x6A66C0 Offset: 0x6A4CC0 VA: 0x1806A66C0
+	// RVA: 0x6A6650 Offset: 0x6A4C50 VA: 0x1806A6650
 	public void ParticlePatchDestroyingInstances(ParticlePatch particlePatch) { }
 
-	// RVA: 0x6A64F0 Offset: 0x6A4AF0 VA: 0x1806A64F0
+	// RVA: 0x6A6480 Offset: 0x6A4A80 VA: 0x1806A6480
 	private void DespawnEmitter(ParticlePatch particlePatch) { }
 
-	// RVA: 0x6A6610 Offset: 0x6A4C10 VA: 0x1806A6610
+	// RVA: 0x6A65A0 Offset: 0x6A4BA0 VA: 0x1806A65A0
 	private RainSurfaceAmbience.SurfaceSound FindSurfaceSound(PhysicMaterial physicMaterial) { }
 
-	// RVA: 0x6A6AE0 Offset: 0x6A50E0 VA: 0x1806A6AE0
+	// RVA: 0x6A6A70 Offset: 0x6A5070 VA: 0x1806A6A70
 	public void .ctor() { }
 
 }
@@ -34,7 +34,7 @@ public class RainSurfaceAmbience.SurfaceSound // TypeDefIndex: 8980
 
 	// Methods
 
-	// RVA: 0x6ACE60 Offset: 0x6AB460 VA: 0x1806ACE60
+	// RVA: 0x6ACDF0 Offset: 0x6AB3F0 VA: 0x1806ACDF0
 	public void .ctor() { }
 
 }

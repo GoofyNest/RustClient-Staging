@@ -23,22 +23,22 @@ public struct SqlGuid : INullable, IComparable, IXmlSerializable // TypeDefIndex
 	// RVA: 0x118830 Offset: 0x117C30 VA: 0x180118830
 	public Guid get_Value() { }
 
-	// RVA: 0xCC20A0 Offset: 0xCC06A0 VA: 0x180CC20A0
+	// RVA: 0xCC2540 Offset: 0xCC0B40 VA: 0x180CC2540
 	public static SqlGuid op_Implicit(Guid x) { }
 
 	// RVA: 0x118780 Offset: 0x117B80 VA: 0x180118780 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xCC1A50 Offset: 0xCC0050 VA: 0x180CC1A50
+	// RVA: 0xCC1EF0 Offset: 0xCC04F0 VA: 0x180CC1EF0
 	private static EComparison Compare(SqlGuid x, SqlGuid y) { }
 
-	// RVA: 0xCC1F00 Offset: 0xCC0500 VA: 0x180CC1F00
+	// RVA: 0xCC23A0 Offset: 0xCC09A0 VA: 0x180CC23A0
 	public static SqlBoolean op_Equality(SqlGuid x, SqlGuid y) { }
 
-	// RVA: 0xCC20E0 Offset: 0xCC06E0 VA: 0x180CC20E0
+	// RVA: 0xCC2580 Offset: 0xCC0B80 VA: 0x180CC2580
 	public static SqlBoolean op_LessThan(SqlGuid x, SqlGuid y) { }
 
-	// RVA: 0xCC1FD0 Offset: 0xCC05D0 VA: 0x180CC1FD0
+	// RVA: 0xCC2470 Offset: 0xCC0A70 VA: 0x180CC2470
 	public static SqlBoolean op_GreaterThan(SqlGuid x, SqlGuid y) { }
 
 	// RVA: 0x118200 Offset: 0x117600 VA: 0x180118200 Slot: 5
@@ -62,10 +62,10 @@ public struct SqlGuid : INullable, IComparable, IXmlSerializable // TypeDefIndex
 	// RVA: 0x118680 Offset: 0x117A80 VA: 0x180118680 Slot: 8
 	private void System.Xml.Serialization.IXmlSerializable.WriteXml(XmlWriter writer) { }
 
-	// RVA: 0xCC1D20 Offset: 0xCC0320 VA: 0x180CC1D20
+	// RVA: 0xCC21C0 Offset: 0xCC07C0 VA: 0x180CC21C0
 	public static XmlQualifiedName GetXsdType(XmlSchemaSet schemaSet) { }
 
-	// RVA: 0xCC1D80 Offset: 0xCC0380 VA: 0x180CC1D80
+	// RVA: 0xCC2220 Offset: 0xCC0820 VA: 0x180CC2220
 	private static void .cctor() { }
 
 }

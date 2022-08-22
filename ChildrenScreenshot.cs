@@ -10,13 +10,13 @@ public class ChildrenScreenshot : MonoBehaviour // TypeDefIndex: 11300
 	// Methods
 
 	[ContextMenu] // RVA: 0xA3E30 Offset: 0xA3230 VA: 0x1800A3E30
-	// RVA: 0x536950 Offset: 0x534F50 VA: 0x180536950
+	// RVA: 0x5368E0 Offset: 0x534EE0 VA: 0x1805368E0
 	public void CreateScreenshots() { }
 
-	// RVA: 0x536FA0 Offset: 0x5355A0 VA: 0x180536FA0
+	// RVA: 0x536F30 Offset: 0x535530 VA: 0x180536F30
 	public void PositionCamera(Camera cam, GameObject obj) { }
 
-	// RVA: 0x5373A0 Offset: 0x5359A0 VA: 0x1805373A0
+	// RVA: 0x537330 Offset: 0x535930 VA: 0x180537330
 	public void .ctor() { }
 
 }

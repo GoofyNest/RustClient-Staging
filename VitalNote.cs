@@ -12,28 +12,28 @@ public class VitalNote : MonoBehaviour, IClientComponent, IVitalNotice // TypeDe
 
 	// Methods
 
-	// RVA: 0x7FFCF0 Offset: 0x7FE2F0 VA: 0x1807FFCF0
+	// RVA: 0x800280 Offset: 0x7FE880 VA: 0x180800280
 	private void Awake() { }
 
-	// RVA: 0x800FB0 Offset: 0x7FF5B0 VA: 0x180800FB0 Slot: 4
+	// RVA: 0x801540 Offset: 0x7FFB40 VA: 0x180801540 Slot: 4
 	public void Refresh() { }
 
-	// RVA: 0x801300 Offset: 0x7FF900 VA: 0x180801300
+	// RVA: 0x801890 Offset: 0x7FFE90 VA: 0x180801890
 	private void UpdateShow(float value, string format) { }
 
-	// RVA: 0x7FFD20 Offset: 0x7FE320 VA: 0x1807FFD20
+	// RVA: 0x8002B0 Offset: 0x7FE8B0 VA: 0x1808002B0
 	private void Hide() { }
 
-	// RVA: 0x8008D0 Offset: 0x7FEED0 VA: 0x1808008D0 Slot: 6
+	// RVA: 0x800E60 Offset: 0x7FF460 VA: 0x180800E60 Slot: 6
 	protected virtual void Show() { }
 
-	// RVA: 0x800F60 Offset: 0x7FF560 VA: 0x180800F60
+	// RVA: 0x8014F0 Offset: 0x7FFAF0 VA: 0x1808014F0
 	private void ClientConnected() { }
 
-	// RVA: 0x768B70 Offset: 0x767170 VA: 0x180768B70 Slot: 5
+	// RVA: 0x768AC0 Offset: 0x7670C0 VA: 0x180768AC0 Slot: 5
 	public bool get_IsActive() { }
 
-	// RVA: 0x8014E0 Offset: 0x7FFAE0 VA: 0x1808014E0
+	// RVA: 0x801A70 Offset: 0x800070 VA: 0x180801A70
 	public void .ctor() { }
 
 }

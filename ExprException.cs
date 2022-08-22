@@ -1,163 +1,163 @@
 internal sealed class ExprException // TypeDefIndex: 4258
 {	// Methods
 
-	// RVA: 0x13E2070 Offset: 0x13E0670 VA: 0x1813E2070
+	// RVA: 0x13E1170 Offset: 0x13DF770 VA: 0x1813E1170
 	private static OverflowException _Overflow(string error) { }
 
-	// RVA: 0x13E2010 Offset: 0x13E0610 VA: 0x1813E2010
+	// RVA: 0x13E1110 Offset: 0x13DF710 VA: 0x1813E1110
 	private static InvalidExpressionException _Expr(string error) { }
 
-	// RVA: 0x13E20D0 Offset: 0x13E06D0 VA: 0x1813E20D0
+	// RVA: 0x13E11D0 Offset: 0x13DF7D0 VA: 0x1813E11D0
 	private static SyntaxErrorException _Syntax(string error) { }
 
-	// RVA: 0x13E1FB0 Offset: 0x13E05B0 VA: 0x1813E1FB0
+	// RVA: 0x13E10B0 Offset: 0x13DF6B0 VA: 0x1813E10B0
 	private static EvaluateException _Eval(string error) { }
 
-	// RVA: 0x13E1F50 Offset: 0x13E0550 VA: 0x1813E1F50
+	// RVA: 0x13E1050 Offset: 0x13DF650 VA: 0x1813E1050
 	private static EvaluateException _Eval(string error, Exception innerException) { }
 
-	// RVA: 0x13E1180 Offset: 0x13DF780 VA: 0x1813E1180
+	// RVA: 0x13E0280 Offset: 0x13DE880 VA: 0x1813E0280
 	public static Exception InvokeArgument() { }
 
-	// RVA: 0x13E1570 Offset: 0x13DFB70 VA: 0x1813E1570
+	// RVA: 0x13E0670 Offset: 0x13DEC70 VA: 0x1813E0670
 	public static Exception NYI(string moreinfo) { }
 
-	// RVA: 0x13E1390 Offset: 0x13DF990 VA: 0x1813E1390
+	// RVA: 0x13E0490 Offset: 0x13DEA90 VA: 0x1813E0490
 	public static Exception MissingOperand(OperatorInfo before) { }
 
-	// RVA: 0x13E1460 Offset: 0x13DFA60 VA: 0x1813E1460
+	// RVA: 0x13E0560 Offset: 0x13DEB60 VA: 0x1813E0560
 	public static Exception MissingOperator(string token) { }
 
-	// RVA: 0x13E1950 Offset: 0x13DFF50 VA: 0x1813E1950
+	// RVA: 0x13E0A50 Offset: 0x13DF050 VA: 0x1813E0A50
 	public static Exception TypeMismatch(string expr) { }
 
-	// RVA: 0x13E0A80 Offset: 0x13DF080 VA: 0x1813E0A80
+	// RVA: 0x13DFB80 Offset: 0x13DE180 VA: 0x1813DFB80
 	public static Exception FunctionArgumentOutOfRange(string arg, string func) { }
 
-	// RVA: 0x13E0850 Offset: 0x13DEE50 VA: 0x1813E0850
+	// RVA: 0x13DF950 Offset: 0x13DDF50 VA: 0x1813DF950
 	public static Exception ExpressionTooComplex() { }
 
-	// RVA: 0x13E19E0 Offset: 0x13DFFE0 VA: 0x1813E19E0
+	// RVA: 0x13E0AE0 Offset: 0x13DF0E0 VA: 0x1813E0AE0
 	public static Exception UnboundName(string name) { }
 
-	// RVA: 0x13E0FE0 Offset: 0x13DF5E0 VA: 0x1813E0FE0
+	// RVA: 0x13E00E0 Offset: 0x13DE6E0 VA: 0x1813E00E0
 	public static Exception InvalidString(string str) { }
 
-	// RVA: 0x13E1A70 Offset: 0x13E0070 VA: 0x1813E1A70
+	// RVA: 0x13E0B70 Offset: 0x13DF170 VA: 0x1813E0B70
 	public static Exception UndefinedFunction(string name) { }
 
-	// RVA: 0x13E1730 Offset: 0x13DFD30 VA: 0x1813E1730
+	// RVA: 0x13E0830 Offset: 0x13DEE30 VA: 0x1813E0830
 	public static Exception SyntaxError() { }
 
-	// RVA: 0x13E09F0 Offset: 0x13DEFF0 VA: 0x1813E09F0
+	// RVA: 0x13DFAF0 Offset: 0x13DE0F0 VA: 0x1813DFAF0
 	public static Exception FunctionArgumentCount(string name) { }
 
-	// RVA: 0x13E14F0 Offset: 0x13DFAF0 VA: 0x1813E14F0
+	// RVA: 0x13E05F0 Offset: 0x13DEBF0 VA: 0x1813E05F0
 	public static Exception MissingRightParen() { }
 
-	// RVA: 0x13E1B00 Offset: 0x13E0100 VA: 0x1813E1B00
+	// RVA: 0x13E0C00 Offset: 0x13DF200 VA: 0x1813E0C00
 	public static Exception UnknownToken(string token, int position) { }
 
-	// RVA: 0x13E1BD0 Offset: 0x13E01D0 VA: 0x1813E1BD0
+	// RVA: 0x13E0CD0 Offset: 0x13DF2D0 VA: 0x1813E0CD0
 	public static Exception UnknownToken(Tokens tokExpected, Tokens tokCurr, int position) { }
 
-	// RVA: 0x13E0610 Offset: 0x13DEC10 VA: 0x1813E0610
+	// RVA: 0x13DF710 Offset: 0x13DDD10 VA: 0x1813DF710
 	public static Exception DatatypeConvertion(Type type1, Type type2) { }
 
-	// RVA: 0x13E06F0 Offset: 0x13DECF0 VA: 0x1813E06F0
+	// RVA: 0x13DF7F0 Offset: 0x13DDDF0 VA: 0x1813DF7F0
 	public static Exception DatavalueConvertion(object value, Type type, Exception innerException) { }
 
-	// RVA: 0x13E0EC0 Offset: 0x13DF4C0 VA: 0x1813E0EC0
+	// RVA: 0x13DFFC0 Offset: 0x13DE5C0 VA: 0x1813DFFC0
 	public static Exception InvalidName(string name) { }
 
-	// RVA: 0x13E0C20 Offset: 0x13DF220 VA: 0x1813E0C20
+	// RVA: 0x13DFD20 Offset: 0x13DE320 VA: 0x1813DFD20
 	public static Exception InvalidDate(string date) { }
 
-	// RVA: 0x13E1600 Offset: 0x13DFC00 VA: 0x1813E1600
+	// RVA: 0x13E0700 Offset: 0x13DED00 VA: 0x1813E0700
 	public static Exception NonConstantArgument() { }
 
-	// RVA: 0x13E0F50 Offset: 0x13DF550 VA: 0x1813E0F50
+	// RVA: 0x13E0050 Offset: 0x13DE650 VA: 0x1813E0050
 	public static Exception InvalidPattern(string pat) { }
 
-	// RVA: 0x13E0BA0 Offset: 0x13DF1A0 VA: 0x1813E0BA0
+	// RVA: 0x13DFCA0 Offset: 0x13DE2A0 VA: 0x1813DFCA0
 	public static Exception InWithoutParentheses() { }
 
-	// RVA: 0x13E0B20 Offset: 0x13DF120 VA: 0x1813E0B20
+	// RVA: 0x13DFC20 Offset: 0x13DE220 VA: 0x1813DFC20
 	public static Exception InWithoutList() { }
 
-	// RVA: 0x13E0D30 Offset: 0x13DF330 VA: 0x1813E0D30
+	// RVA: 0x13DFE30 Offset: 0x13DE430 VA: 0x1813DFE30
 	public static Exception InvalidIsSyntax() { }
 
-	// RVA: 0x13E1680 Offset: 0x13DFC80 VA: 0x1813E1680
+	// RVA: 0x13E0780 Offset: 0x13DED80 VA: 0x1813E0780
 	public static Exception Overflow(Type type) { }
 
-	// RVA: 0x13E03E0 Offset: 0x13DE9E0 VA: 0x1813E03E0
+	// RVA: 0x13DF4E0 Offset: 0x13DDAE0 VA: 0x1813DF4E0
 	public static Exception ArgumentType(string function, int arg, Type type) { }
 
-	// RVA: 0x13E0310 Offset: 0x13DE910 VA: 0x1813E0310
+	// RVA: 0x13DF410 Offset: 0x13DDA10 VA: 0x1813DF410
 	public static Exception ArgumentTypeInteger(string function, int arg) { }
 
-	// RVA: 0x13E1830 Offset: 0x13DFE30 VA: 0x1813E1830
+	// RVA: 0x13E0930 Offset: 0x13DEF30 VA: 0x1813E0930
 	public static Exception TypeMismatchInBinop(int op, Type type1, Type type2) { }
 
-	// RVA: 0x13E01F0 Offset: 0x13DE7F0 VA: 0x1813E01F0
+	// RVA: 0x13DF2F0 Offset: 0x13DD8F0 VA: 0x1813DF2F0
 	public static Exception AmbiguousBinop(int op, Type type1, Type type2) { }
 
-	// RVA: 0x13E1E90 Offset: 0x13E0490 VA: 0x1813E1E90
+	// RVA: 0x13E0F90 Offset: 0x13DF590 VA: 0x1813E0F90
 	public static Exception UnsupportedOperator(int op) { }
 
-	// RVA: 0x13E0E30 Offset: 0x13DF430 VA: 0x1813E0E30
+	// RVA: 0x13DFF30 Offset: 0x13DE530 VA: 0x1813DFF30
 	public static Exception InvalidNameBracketing(string name) { }
 
-	// RVA: 0x13E1300 Offset: 0x13DF900 VA: 0x1813E1300
+	// RVA: 0x13E0400 Offset: 0x13DEA00 VA: 0x1813E0400
 	public static Exception MissingOperandBefore(string op) { }
 
-	// RVA: 0x13E17B0 Offset: 0x13DFDB0 VA: 0x1813E17B0
+	// RVA: 0x13E08B0 Offset: 0x13DEEB0 VA: 0x1813E08B0
 	public static Exception TooManyRightParentheses() { }
 
-	// RVA: 0x13E1D40 Offset: 0x13E0340 VA: 0x1813E1D40
+	// RVA: 0x13E0E40 Offset: 0x13DF440 VA: 0x1813E0E40
 	public static Exception UnresolvedRelation(string name, string expr) { }
 
-	// RVA: 0x13E04F0 Offset: 0x13DEAF0 VA: 0x1813E04F0
+	// RVA: 0x13DF5F0 Offset: 0x13DDBF0 VA: 0x1813DF5F0
 	internal static EvaluateException BindFailure(string relationName) { }
 
-	// RVA: 0x13E00E0 Offset: 0x13DE6E0 VA: 0x1813E00E0
+	// RVA: 0x13DF1E0 Offset: 0x13DD7E0 VA: 0x1813DF1E0
 	public static Exception AggregateArgument() { }
 
-	// RVA: 0x13E0160 Offset: 0x13DE760 VA: 0x1813E0160
+	// RVA: 0x13DF260 Offset: 0x13DD860 VA: 0x1813DF260
 	public static Exception AggregateUnbound(string expr) { }
 
-	// RVA: 0x13E07D0 Offset: 0x13DEDD0 VA: 0x1813E07D0
+	// RVA: 0x13DF8D0 Offset: 0x13DDED0 VA: 0x1813DF8D0
 	public static Exception EvalNoContext() { }
 
-	// RVA: 0x13E08D0 Offset: 0x13DEED0 VA: 0x1813E08D0
+	// RVA: 0x13DF9D0 Offset: 0x13DDFD0 VA: 0x1813DF9D0
 	public static Exception ExpressionUnbound(string expr) { }
 
-	// RVA: 0x13E0580 Offset: 0x13DEB80 VA: 0x1813E0580
+	// RVA: 0x13DF680 Offset: 0x13DDC80 VA: 0x1813DF680
 	public static Exception ComputeNotAggregate(string expr) { }
 
-	// RVA: 0x13E0960 Offset: 0x13DEF60 VA: 0x1813E0960
+	// RVA: 0x13DFA60 Offset: 0x13DE060 VA: 0x1813DFA60
 	public static Exception FilterConvertion(string expr) { }
 
-	// RVA: 0x13E1200 Offset: 0x13DF800 VA: 0x1813E1200
+	// RVA: 0x13E0300 Offset: 0x13DE900 VA: 0x1813E0300
 	public static Exception LookupArgument() { }
 
-	// RVA: 0x13E10F0 Offset: 0x13DF6F0 VA: 0x1813E10F0
+	// RVA: 0x13E01F0 Offset: 0x13DE7F0 VA: 0x1813E01F0
 	public static Exception InvalidType(string typeName) { }
 
-	// RVA: 0x13E0CB0 Offset: 0x13DF2B0 VA: 0x1813E0CB0
+	// RVA: 0x13DFDB0 Offset: 0x13DE3B0 VA: 0x1813DFDB0
 	public static Exception InvalidHoursArgument() { }
 
-	// RVA: 0x13E0DB0 Offset: 0x13DF3B0 VA: 0x1813E0DB0
+	// RVA: 0x13DFEB0 Offset: 0x13DE4B0 VA: 0x1813DFEB0
 	public static Exception InvalidMinutesArgument() { }
 
-	// RVA: 0x13E1070 Offset: 0x13DF670 VA: 0x1813E1070
+	// RVA: 0x13E0170 Offset: 0x13DE770 VA: 0x1813E0170
 	public static Exception InvalidTimeZoneRange() { }
 
-	// RVA: 0x13E1280 Offset: 0x13DF880 VA: 0x1813E1280
+	// RVA: 0x13E0380 Offset: 0x13DE980 VA: 0x1813E0380
 	public static Exception MismatchKindandTimeSpan() { }
 
-	// RVA: 0x13E1DE0 Offset: 0x13E03E0 VA: 0x1813E1DE0
+	// RVA: 0x13E0EE0 Offset: 0x13DF4E0 VA: 0x1813E0EE0
 	public static Exception UnsupportedDataType(Type type) { }
 
 }

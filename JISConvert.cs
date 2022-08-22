@@ -18,13 +18,13 @@ internal sealed class JISConvert // TypeDefIndex: 7835
 
 	// Methods
 
-	// RVA: 0x2252C80 Offset: 0x2251280 VA: 0x182252C80
+	// RVA: 0x22534A0 Offset: 0x2251AA0 VA: 0x1822534A0
 	private void .ctor() { }
 
-	// RVA: 0x2252C20 Offset: 0x2251220 VA: 0x182252C20
+	// RVA: 0x2253440 Offset: 0x2251A40 VA: 0x182253440
 	private static void .cctor() { }
 
-	// RVA: 0x2252DB0 Offset: 0x22513B0 VA: 0x182252DB0
+	// RVA: 0x22535D0 Offset: 0x2251BD0 VA: 0x1822535D0
 	public static JISConvert get_Convert() { }
 
 }

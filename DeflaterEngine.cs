@@ -32,61 +32,61 @@ internal class DeflaterEngine : DeflaterConstants // TypeDefIndex: 5659
 
 	// Methods
 
-	// RVA: 0x13ADAE0 Offset: 0x13AC0E0 VA: 0x1813ADAE0
+	// RVA: 0x13ACBE0 Offset: 0x13AB1E0 VA: 0x1813ACBE0
 	public void .ctor(DeflaterPending pending) { }
 
-	// RVA: 0x13AD3A0 Offset: 0x13AB9A0 VA: 0x1813AD3A0
+	// RVA: 0x13AC4A0 Offset: 0x13AAAA0 VA: 0x1813AC4A0
 	public void Reset() { }
 
-	// RVA: 0x13AD370 Offset: 0x13AB970 VA: 0x1813AD370
+	// RVA: 0x13AC470 Offset: 0x13AAA70 VA: 0x1813AC470
 	public void ResetAdler() { }
 
-	// RVA: 0x13ADDD0 Offset: 0x13AC3D0 VA: 0x1813ADDD0
+	// RVA: 0x13ACED0 Offset: 0x13AB4D0 VA: 0x1813ACED0
 	public int get_Adler() { }
 
-	// RVA: 0x803B90 Offset: 0x802190 VA: 0x180803B90
+	// RVA: 0x804120 Offset: 0x802720 VA: 0x180804120
 	public int get_TotalIn() { }
 
-	// RVA: 0x598430 Offset: 0x596A30 VA: 0x180598430
+	// RVA: 0x5983C0 Offset: 0x5969C0 VA: 0x1805983C0
 	public void set_Strategy(DeflateStrategy value) { }
 
-	// RVA: 0x13AD5B0 Offset: 0x13ABBB0 VA: 0x1813AD5B0
+	// RVA: 0x13AC6B0 Offset: 0x13AACB0 VA: 0x1813AC6B0
 	public void SetLevel(int lvl) { }
 
-	// RVA: 0x13ADA30 Offset: 0x13AC030 VA: 0x1813ADA30
+	// RVA: 0x13ACB30 Offset: 0x13AB130 VA: 0x1813ACB30
 	private void UpdateHash() { }
 
-	// RVA: 0x13AD290 Offset: 0x13AB890 VA: 0x1813AD290
+	// RVA: 0x13AC390 Offset: 0x13AA990 VA: 0x1813AC390
 	private int InsertString() { }
 
-	// RVA: 0x13AD940 Offset: 0x13ABF40 VA: 0x1813AD940
+	// RVA: 0x13ACA40 Offset: 0x13AB040 VA: 0x1813ACA40
 	private void SlideWindow() { }
 
-	// RVA: 0x13ACC00 Offset: 0x13AB200 VA: 0x1813ACC00
+	// RVA: 0x13ABD00 Offset: 0x13AA300 VA: 0x1813ABD00
 	public void FillWindow() { }
 
-	// RVA: 0x13ACD20 Offset: 0x13AB320 VA: 0x1813ACD20
+	// RVA: 0x13ABE20 Offset: 0x13AA420 VA: 0x1813ABE20
 	private bool FindLongestMatch(int curMatch) { }
 
-	// RVA: 0x13AC850 Offset: 0x13AAE50 VA: 0x1813AC850
+	// RVA: 0x13AB950 Offset: 0x13A9F50 VA: 0x1813AB950
 	private bool DeflateStored(bool flush, bool finish) { }
 
-	// RVA: 0x13AC1F0 Offset: 0x13AA7F0 VA: 0x1813AC1F0
+	// RVA: 0x13AB2F0 Offset: 0x13A98F0 VA: 0x1813AB2F0
 	private bool DeflateFast(bool flush, bool finish) { }
 
-	// RVA: 0x13AC500 Offset: 0x13AAB00 VA: 0x1813AC500
+	// RVA: 0x13AB600 Offset: 0x13A9C00 VA: 0x1813AB600
 	private bool DeflateSlow(bool flush, bool finish) { }
 
-	// RVA: 0x13AC9C0 Offset: 0x13AAFC0 VA: 0x1813AC9C0
+	// RVA: 0x13ABAC0 Offset: 0x13AA0C0 VA: 0x1813ABAC0
 	public bool Deflate(bool flush, bool finish) { }
 
-	// RVA: 0x13AD4C0 Offset: 0x13ABAC0 VA: 0x1813AD4C0
+	// RVA: 0x13AC5C0 Offset: 0x13AABC0 VA: 0x1813AC5C0
 	public void SetInput(byte[] buf, int off, int len) { }
 
-	// RVA: 0x13AD360 Offset: 0x13AB960 VA: 0x1813AD360
+	// RVA: 0x13AC460 Offset: 0x13AAA60 VA: 0x1813AC460
 	public bool NeedsInput() { }
 
-	// RVA: 0x13ADAA0 Offset: 0x13AC0A0 VA: 0x1813ADAA0
+	// RVA: 0x13ACBA0 Offset: 0x13AB1A0 VA: 0x1813ACBA0
 	private static void .cctor() { }
 
 }

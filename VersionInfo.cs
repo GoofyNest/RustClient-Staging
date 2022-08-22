@@ -16,28 +16,28 @@ public class VersionInfo // TypeDefIndex: 11567
 
 	// Methods
 
-	// RVA: 0x83CF10 Offset: 0x83B510 VA: 0x18083CF10
+	// RVA: 0x83D460 Offset: 0x83BA60 VA: 0x18083D460
 	public static string StaticToString() { }
 
-	// RVA: 0x83CFF0 Offset: 0x83B5F0 VA: 0x18083CFF0 Slot: 3
+	// RVA: 0x83D540 Offset: 0x83BB40 VA: 0x18083D540 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x83D190 Offset: 0x83B790 VA: 0x18083D190
+	// RVA: 0x83D6E0 Offset: 0x83BCE0 VA: 0x18083D6E0
 	public int get_Number() { }
 
-	// RVA: 0x83D160 Offset: 0x83B760 VA: 0x18083D160
+	// RVA: 0x83D6B0 Offset: 0x83BCB0 VA: 0x18083D6B0
 	private void .ctor() { }
 
-	// RVA: 0x83D110 Offset: 0x83B710 VA: 0x18083D110
+	// RVA: 0x83D660 Offset: 0x83BC60 VA: 0x18083D660
 	private void .ctor(byte major, byte minor, byte release) { }
 
-	// RVA: 0x83CE90 Offset: 0x83B490 VA: 0x18083CE90
+	// RVA: 0x83D3E0 Offset: 0x83B9E0 VA: 0x18083D3E0
 	public static VersionInfo Current() { }
 
-	// RVA: 0x83CEE0 Offset: 0x83B4E0 VA: 0x18083CEE0
+	// RVA: 0x83D430 Offset: 0x83BA30 VA: 0x18083D430
 	public static bool Matches(VersionInfo version) { }
 
-	// RVA: 0x83D0D0 Offset: 0x83B6D0 VA: 0x18083D0D0
+	// RVA: 0x83D620 Offset: 0x83BC20 VA: 0x18083D620
 	private static void .cctor() { }
 
 }

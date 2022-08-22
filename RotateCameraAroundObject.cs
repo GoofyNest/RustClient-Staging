@@ -5,10 +5,10 @@ public class RotateCameraAroundObject : MonoBehaviour // TypeDefIndex: 11334
 
 	// Methods
 
-	// RVA: 0x4C7D20 Offset: 0x4C6320 VA: 0x1804C7D20
+	// RVA: 0x4C7CB0 Offset: 0x4C62B0 VA: 0x1804C7CB0
 	private void FixedUpdate() { }
 
-	// RVA: 0x4C7F30 Offset: 0x4C6530 VA: 0x1804C7F30
+	// RVA: 0x4C7EC0 Offset: 0x4C64C0 VA: 0x1804C7EC0
 	public void .ctor() { }
 
 }

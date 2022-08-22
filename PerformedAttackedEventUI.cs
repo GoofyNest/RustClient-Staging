@@ -1,7 +1,7 @@
 public class PerformedAttackedEventUI : BaseEventUI // TypeDefIndex: 10806
 {	// Methods
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

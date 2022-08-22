@@ -7,13 +7,13 @@ public class ZiplineTarget : MonoBehaviour // TypeDefIndex: 8672
 
 	// Methods
 
-	// RVA: 0x1A90230 Offset: 0x1A8E830 VA: 0x181A90230
+	// RVA: 0x1A7CA40 Offset: 0x1A7B040 VA: 0x181A7CA40
 	public bool IsValidPosition(Vector3 position) { }
 
-	// RVA: 0x1A8FF60 Offset: 0x1A8E560 VA: 0x181A8FF60
+	// RVA: 0x1A7C770 Offset: 0x1A7AD70 VA: 0x181A7C770
 	public bool IsValidChainPoint(Vector3 from, Vector3 to) { }
 
-	// RVA: 0x1A903B0 Offset: 0x1A8E9B0 VA: 0x181A903B0
+	// RVA: 0x1A7CBC0 Offset: 0x1A7B1C0 VA: 0x181A7CBC0
 	public void .ctor() { }
 
 }

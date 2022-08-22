@@ -8,19 +8,19 @@ public class FlintStrikeWeapon : BaseProjectile // TypeDefIndex: 9464
 
 	// Methods
 
-	// RVA: 0x792EE0 Offset: 0x7914E0 VA: 0x180792EE0 Slot: 163
+	// RVA: 0x792DF0 Offset: 0x7913F0 VA: 0x180792DF0 Slot: 163
 	public override RecoilProperties GetRecoil() { }
 
-	// RVA: 0x792BE0 Offset: 0x7911E0 VA: 0x180792BE0 Slot: 171
+	// RVA: 0x792AF0 Offset: 0x7910F0 VA: 0x180792AF0 Slot: 171
 	public override void DoAttack() { }
 
-	// RVA: 0x792EF0 Offset: 0x7914F0 VA: 0x180792EF0 Slot: 137
+	// RVA: 0x792E00 Offset: 0x791400 VA: 0x180792E00 Slot: 137
 	public override void OnFrame() { }
 
-	// RVA: 0x793080 Offset: 0x791680 VA: 0x180793080 Slot: 144
+	// RVA: 0x792F90 Offset: 0x791590 VA: 0x180792F90 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
-	// RVA: 0x793230 Offset: 0x791830 VA: 0x180793230
+	// RVA: 0x793140 Offset: 0x791740 VA: 0x180793140
 	public void .ctor() { }
 
 }

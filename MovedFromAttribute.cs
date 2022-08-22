@@ -4,7 +4,7 @@ public class MovedFromAttribute : Attribute // TypeDefIndex: 3654
 
 	// Methods
 
-	// RVA: 0x19AA620 Offset: 0x19A8C20 VA: 0x1819AA620
+	// RVA: 0x1997A20 Offset: 0x1996020 VA: 0x181997A20
 	public void .ctor(string sourceNamespace) { }
 
 }

@@ -15,13 +15,13 @@ public class Toggle : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 
 	// Methods
 
-	// RVA: 0xB0F080 Offset: 0xB0D680 VA: 0x180B0F080
+	// RVA: 0xB0F550 Offset: 0xB0DB50 VA: 0x180B0F550
 	public ToggleGroup get_group() { }
 
-	// RVA: 0x2248250 Offset: 0x2246850 VA: 0x182248250
+	// RVA: 0x2248A70 Offset: 0x2247070 VA: 0x182248A70
 	public void set_group(ToggleGroup value) { }
 
-	// RVA: 0x22481A0 Offset: 0x22467A0 VA: 0x1822481A0
+	// RVA: 0x22489C0 Offset: 0x2246FC0 VA: 0x1822489C0
 	protected void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 46
@@ -33,49 +33,49 @@ public class Toggle : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 48
 	public virtual void GraphicUpdateComplete() { }
 
-	// RVA: 0x2247AA0 Offset: 0x22460A0 VA: 0x182247AA0 Slot: 8
+	// RVA: 0x22482C0 Offset: 0x22468C0 VA: 0x1822482C0 Slot: 8
 	protected override void OnDestroy() { }
 
-	// RVA: 0x2247C70 Offset: 0x2246270 VA: 0x182247C70 Slot: 5
+	// RVA: 0x2248490 Offset: 0x2246A90 VA: 0x182248490 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x2247C40 Offset: 0x2246240 VA: 0x182247C40 Slot: 7
+	// RVA: 0x2248460 Offset: 0x2246A60 VA: 0x182248460 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x2247B30 Offset: 0x2246130 VA: 0x182247B30 Slot: 13
+	// RVA: 0x2248350 Offset: 0x2246950 VA: 0x182248350 Slot: 13
 	protected override void OnDidApplyAnimationProperties() { }
 
-	// RVA: 0x2247E00 Offset: 0x2246400 VA: 0x182247E00
+	// RVA: 0x2248620 Offset: 0x2246C20 VA: 0x182248620
 	private void SetToggleGroup(ToggleGroup newGroup, bool setMemberValue) { }
 
-	// RVA: 0xA2AC50 Offset: 0xA29250 VA: 0x180A2AC50
+	// RVA: 0xA2B140 Offset: 0xA29740 VA: 0x180A2B140
 	public bool get_isOn() { }
 
-	// RVA: 0x22482A0 Offset: 0x22468A0 VA: 0x1822482A0
+	// RVA: 0x2248AC0 Offset: 0x22470C0 VA: 0x182248AC0
 	public void set_isOn(bool value) { }
 
-	// RVA: 0x2247DF0 Offset: 0x22463F0 VA: 0x182247DF0
+	// RVA: 0x2248610 Offset: 0x2246C10 VA: 0x182248610
 	public void SetIsOnWithoutNotify(bool value) { }
 
-	// RVA: 0x2248030 Offset: 0x2246630 VA: 0x182248030
+	// RVA: 0x2248850 Offset: 0x2246E50 VA: 0x182248850
 	private void Set(bool value, bool sendCallback = True) { }
 
-	// RVA: 0x2247D20 Offset: 0x2246320 VA: 0x182247D20
+	// RVA: 0x2248540 Offset: 0x2246B40 VA: 0x182248540
 	private void PlayEffect(bool instant) { }
 
-	// RVA: 0x2248190 Offset: 0x2246790 VA: 0x182248190 Slot: 6
+	// RVA: 0x22489B0 Offset: 0x2246FB0 VA: 0x1822489B0 Slot: 6
 	protected override void Start() { }
 
-	// RVA: 0x2247A40 Offset: 0x2246040 VA: 0x182247A40
+	// RVA: 0x2248260 Offset: 0x2246860 VA: 0x182248260
 	private void InternalToggle() { }
 
-	// RVA: 0x2247CB0 Offset: 0x22462B0 VA: 0x182247CB0 Slot: 49
+	// RVA: 0x22484D0 Offset: 0x2246AD0 VA: 0x1822484D0 Slot: 49
 	public virtual void OnPointerClick(PointerEventData eventData) { }
 
-	// RVA: 0x2247A40 Offset: 0x2246040 VA: 0x182247A40 Slot: 50
+	// RVA: 0x2248260 Offset: 0x2246860 VA: 0x182248260 Slot: 50
 	public virtual void OnSubmit(BaseEventData eventData) { }
 
-	// RVA: 0xABD5D0 Offset: 0xABBBD0 VA: 0x180ABD5D0 Slot: 42
+	// RVA: 0xABDAA0 Offset: 0xABC0A0 VA: 0x180ABDAA0 Slot: 42
 	private Transform UnityEngine.UI.ICanvasElement.get_transform() { }
 
 }
@@ -91,7 +91,7 @@ public enum Toggle.ToggleTransition // TypeDefIndex: 5016
 public class Toggle.ToggleEvent : UnityEvent<bool> // TypeDefIndex: 5017
 {	// Methods
 
-	// RVA: 0x2247110 Offset: 0x2245710 VA: 0x182247110
+	// RVA: 0x2247930 Offset: 0x2245F30 VA: 0x182247930
 	public void .ctor() { }
 
 }

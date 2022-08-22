@@ -4,19 +4,19 @@ public class MissingFieldException : MissingMemberException, ISerializable // Ty
 
 	// Methods
 
-	// RVA: 0x1675F10 Offset: 0x1674510 VA: 0x181675F10
+	// RVA: 0x1673B00 Offset: 0x1672100 VA: 0x181673B00
 	public void .ctor() { }
 
-	// RVA: 0x1675FB0 Offset: 0x16745B0 VA: 0x181675FB0
+	// RVA: 0x1673BA0 Offset: 0x16721A0 VA: 0x181673BA0
 	public void .ctor(string message) { }
 
-	// RVA: 0x1675F90 Offset: 0x1674590 VA: 0x181675F90
+	// RVA: 0x1673B80 Offset: 0x1672180 VA: 0x181673B80
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x16760B0 Offset: 0x16746B0 VA: 0x1816760B0 Slot: 5
+	// RVA: 0x1673CA0 Offset: 0x16722A0 VA: 0x181673CA0 Slot: 5
 	public override string get_Message() { }
 
-	// RVA: 0x1676000 Offset: 0x1674600 VA: 0x181676000
+	// RVA: 0x1673BF0 Offset: 0x16721F0 VA: 0x181673BF0
 	public void .ctor(string className, string fieldName) { }
 
 }

@@ -21,7 +21,7 @@ public class SpawnHandler : SingletonComponent<SpawnHandler> // TypeDefIndex: 10
 
 	// Methods
 
-	// RVA: 0xA7DD90 Offset: 0xA7C390 VA: 0x180A7DD90
+	// RVA: 0xA7E260 Offset: 0xA7C860 VA: 0x180A7E260
 	public void .ctor() { }
 
 }

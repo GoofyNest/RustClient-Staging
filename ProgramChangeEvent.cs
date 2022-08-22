@@ -4,19 +4,19 @@ public sealed class ProgramChangeEvent : ChannelEvent // TypeDefIndex: 7529
 
 	// Methods
 
-	// RVA: 0x13A53C0 Offset: 0x13A39C0 VA: 0x1813A53C0
+	// RVA: 0x13A44C0 Offset: 0x13A2AC0 VA: 0x1813A44C0
 	public void .ctor() { }
 
-	// RVA: 0x13A53E0 Offset: 0x13A39E0 VA: 0x1813A53E0
+	// RVA: 0x13A44E0 Offset: 0x13A2AE0 VA: 0x1813A44E0
 	public SevenBitNumber get_ProgramNumber() { }
 
-	// RVA: 0x1396470 Offset: 0x1394A70 VA: 0x181396470 Slot: 4
+	// RVA: 0x1395570 Offset: 0x1393B70 VA: 0x181395570 Slot: 4
 	internal override void Read(MidiReader reader, ReadingSettings settings, int size) { }
 
-	// RVA: 0x13A5250 Offset: 0x13A3850 VA: 0x1813A5250 Slot: 5
+	// RVA: 0x13A4350 Offset: 0x13A2950 VA: 0x1813A4350 Slot: 5
 	protected override MidiEvent CloneEvent() { }
 
-	// RVA: 0x13A52C0 Offset: 0x13A38C0 VA: 0x1813A52C0 Slot: 3
+	// RVA: 0x13A43C0 Offset: 0x13A29C0 VA: 0x1813A43C0 Slot: 3
 	public override string ToString() { }
 
 }

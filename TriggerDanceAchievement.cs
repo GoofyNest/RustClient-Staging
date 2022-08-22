@@ -5,7 +5,7 @@ public class TriggerDanceAchievement : TriggerBase // TypeDefIndex: 10022
 
 	// Methods
 
-	// RVA: 0xA21690 Offset: 0xA1FC90 VA: 0x180A21690
+	// RVA: 0xA21B80 Offset: 0xA20180 VA: 0x180A21B80
 	public void .ctor() { }
 
 }

@@ -14,25 +14,25 @@ public class FoliageGridBenchmarkScene : BenchmarkScene // TypeDefIndex: 8254
 
 	// Methods
 
-	// RVA: 0x74BFC0 Offset: 0x74A5C0 VA: 0x18074BFC0
+	// RVA: 0x74BF10 Offset: 0x74A510 VA: 0x18074BF10
 	private void Awake() { }
 
-	// RVA: 0x74C340 Offset: 0x74A940 VA: 0x18074C340 Slot: 7
+	// RVA: 0x74C290 Offset: 0x74A890 VA: 0x18074C290 Slot: 7
 	public override void StartBenchmark() { }
 
-	// RVA: 0x74C0F0 Offset: 0x74A6F0 VA: 0x18074C0F0 Slot: 8
+	// RVA: 0x74C040 Offset: 0x74A640 VA: 0x18074C040 Slot: 8
 	public override void BenchmarkUpdate() { }
 
-	// RVA: 0x74C5A0 Offset: 0x74ABA0 VA: 0x18074C5A0 Slot: 9
+	// RVA: 0x74C4F0 Offset: 0x74AAF0 VA: 0x18074C4F0 Slot: 9
 	public override void StopBenchmark() { }
 
-	// RVA: 0x74C270 Offset: 0x74A870 VA: 0x18074C270
+	// RVA: 0x74C1C0 Offset: 0x74A7C0 VA: 0x18074C1C0
 	private void OnDestroy() { }
 
-	// RVA: 0x74C2B0 Offset: 0x74A8B0 VA: 0x18074C2B0
+	// RVA: 0x74C200 Offset: 0x74A800 VA: 0x18074C200
 	private void OnDrawGizmos() { }
 
-	// RVA: 0x74C620 Offset: 0x74AC20 VA: 0x18074C620
+	// RVA: 0x74C570 Offset: 0x74AB70 VA: 0x18074C570
 	public void .ctor() { }
 
 }

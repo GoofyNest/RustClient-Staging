@@ -17,19 +17,19 @@ public sealed class DictationRecognizer // TypeDefIndex: 3596
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2178040 Offset: 0x2176640 VA: 0x182178040
+	// RVA: 0x2178860 Offset: 0x2176E60 VA: 0x182178860
 	private void DictationRecognizer_InvokeHypothesisGeneratedEvent(string keyword) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2178060 Offset: 0x2176660 VA: 0x182178060
+	// RVA: 0x2178880 Offset: 0x2176E80 VA: 0x182178880
 	private void DictationRecognizer_InvokeResultGeneratedEvent(string keyword, ConfidenceLevel minimumConfidence) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2178000 Offset: 0x2176600 VA: 0x182178000
+	// RVA: 0x2178820 Offset: 0x2176E20 VA: 0x182178820
 	private void DictationRecognizer_InvokeCompletedEvent(DictationCompletionCause cause) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2178020 Offset: 0x2176620 VA: 0x182178020
+	// RVA: 0x2178840 Offset: 0x2176E40 VA: 0x182178840
 	private void DictationRecognizer_InvokeErrorEvent(string error, int hresult) { }
 
 }
@@ -57,10 +57,10 @@ public sealed class DictationRecognizer.DictationResultDelegate : MulticastDeleg
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1A481C0 Offset: 0x1A467C0 VA: 0x181A481C0 Slot: 12
+	// RVA: 0x1AA0CE0 Offset: 0x1A9F2E0 VA: 0x181AA0CE0 Slot: 12
 	public virtual void Invoke(string text, ConfidenceLevel confidence) { }
 
-	// RVA: 0x2178080 Offset: 0x2176680 VA: 0x182178080 Slot: 13
+	// RVA: 0x21788A0 Offset: 0x2176EA0 VA: 0x1821788A0 Slot: 13
 	public virtual IAsyncResult BeginInvoke(string text, ConfidenceLevel confidence, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -74,10 +74,10 @@ public sealed class DictationRecognizer.DictationCompletedDelegate : MulticastDe
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x19C83A0 Offset: 0x19C69A0 VA: 0x1819C83A0 Slot: 12
+	// RVA: 0x19B57A0 Offset: 0x19B3DA0 VA: 0x1819B57A0 Slot: 12
 	public virtual void Invoke(DictationCompletionCause cause) { }
 
-	// RVA: 0x2177EF0 Offset: 0x21764F0 VA: 0x182177EF0 Slot: 13
+	// RVA: 0x2178710 Offset: 0x2176D10 VA: 0x182178710 Slot: 13
 	public virtual IAsyncResult BeginInvoke(DictationCompletionCause cause, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14
@@ -91,10 +91,10 @@ public sealed class DictationRecognizer.DictationErrorHandler : MulticastDelegat
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x1A481C0 Offset: 0x1A467C0 VA: 0x181A481C0 Slot: 12
+	// RVA: 0x1AA0CE0 Offset: 0x1A9F2E0 VA: 0x181AA0CE0 Slot: 12
 	public virtual void Invoke(string error, int hresult) { }
 
-	// RVA: 0x2177F70 Offset: 0x2176570 VA: 0x182177F70 Slot: 13
+	// RVA: 0x2178790 Offset: 0x2176D90 VA: 0x182178790 Slot: 13
 	public virtual IAsyncResult BeginInvoke(string error, int hresult, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

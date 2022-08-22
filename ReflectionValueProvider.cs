@@ -4,13 +4,13 @@ public class ReflectionValueProvider : IValueProvider // TypeDefIndex: 6033
 
 	// Methods
 
-	// RVA: 0x1810E10 Offset: 0x180F410 VA: 0x181810E10
+	// RVA: 0x17FE250 Offset: 0x17FC850 VA: 0x1817FE250
 	public void .ctor(MemberInfo memberInfo) { }
 
-	// RVA: 0x1810CD0 Offset: 0x180F2D0 VA: 0x181810CD0 Slot: 4
+	// RVA: 0x17FE110 Offset: 0x17FC710 VA: 0x1817FE110 Slot: 4
 	public void SetValue(object target, object value) { }
 
-	// RVA: 0x1810B90 Offset: 0x180F190 VA: 0x181810B90 Slot: 5
+	// RVA: 0x17FDFD0 Offset: 0x17FC5D0 VA: 0x1817FDFD0 Slot: 5
 	public object GetValue(object target) { }
 
 }

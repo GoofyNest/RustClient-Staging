@@ -9,13 +9,13 @@ internal struct VolumeHasChanged_t : ICallbackData // TypeDefIndex: 5409
 
 	// Methods
 
-	// RVA: 0x1DC980 Offset: 0x1DBD80 VA: 0x1801DC980 Slot: 5
+	// RVA: 0x1DCFF0 Offset: 0x1DC3F0 VA: 0x1801DCFF0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DC970 Offset: 0x1DBD70 VA: 0x1801DC970 Slot: 4
+	// RVA: 0x1DCFE0 Offset: 0x1DC3E0 VA: 0x1801DCFE0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1292360 Offset: 0x1290960 VA: 0x181292360
+	// RVA: 0x1292A00 Offset: 0x1291000 VA: 0x181292A00
 	private static void .cctor() { }
 
 }

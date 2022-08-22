@@ -28,43 +28,43 @@ public class MapInterface : SingletonComponent<MapInterface> // TypeDefIndex: 10
 
 	// Methods
 
-	// RVA: 0x565490 Offset: 0x563A90 VA: 0x180565490
+	// RVA: 0x565420 Offset: 0x563A20 VA: 0x180565420
 	private static BasePlayer get_LocalPlayerEntity() { }
 
-	// RVA: 0x564F50 Offset: 0x563550 VA: 0x180564F50
+	// RVA: 0x564EE0 Offset: 0x5634E0 VA: 0x180564EE0
 	public static void SetOpen(bool open) { }
 
-	// RVA: 0x564020 Offset: 0x562620 VA: 0x180564020 Slot: 6
+	// RVA: 0x563FB0 Offset: 0x5625B0 VA: 0x180563FB0 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x564DE0 Offset: 0x5633E0 VA: 0x180564DE0
+	// RVA: 0x564D70 Offset: 0x563370 VA: 0x180564D70
 	private void OnEnable() { }
 
-	// RVA: 0x5640C0 Offset: 0x5626C0 VA: 0x1805640C0
+	// RVA: 0x564050 Offset: 0x562650 VA: 0x180564050
 	public void FollowPlayer() { }
 
-	// RVA: 0x564D00 Offset: 0x563300 VA: 0x180564D00
+	// RVA: 0x564C90 Offset: 0x563290 VA: 0x180564C90
 	private void OnDisable() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public static void ResetMap() { }
 
-	// RVA: 0x565030 Offset: 0x563630 VA: 0x180565030
+	// RVA: 0x564FC0 Offset: 0x5635C0 VA: 0x180564FC0
 	private void Update() { }
 
-	// RVA: 0x564710 Offset: 0x562D10 VA: 0x180564710
+	// RVA: 0x5646A0 Offset: 0x562CA0 VA: 0x1805646A0
 	private void MarkerInput() { }
 
-	// RVA: 0x565580 Offset: 0x563B80 VA: 0x180565580
+	// RVA: 0x565510 Offset: 0x563B10 VA: 0x180565510
 	public static MapEntity get_localPlayerMap() { }
 
-	// RVA: 0x564100 Offset: 0x562700 VA: 0x180564100
+	// RVA: 0x564090 Offset: 0x562690 VA: 0x180564090
 	private void ForceOpen(bool open) { }
 
-	// RVA: 0x564670 Offset: 0x562C70 VA: 0x180564670
+	// RVA: 0x564600 Offset: 0x562C00 VA: 0x180564600
 	public void GetPointOfInterestSettings(int index, out Sprite resultSprite, out Color resultColour) { }
 
-	// RVA: 0x565400 Offset: 0x563A00 VA: 0x180565400
+	// RVA: 0x565390 Offset: 0x563990 VA: 0x180565390
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

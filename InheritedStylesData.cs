@@ -11,19 +11,19 @@ internal class InheritedStylesData : IEquatable<InheritedStylesData> // TypeDefI
 
 	// Methods
 
-	// RVA: 0xEB2BB0 Offset: 0xEB11B0 VA: 0x180EB2BB0
+	// RVA: 0xEB3660 Offset: 0xEB1C60 VA: 0x180EB3660
 	public void .ctor() { }
 
-	// RVA: 0xEB2510 Offset: 0xEB0B10 VA: 0x180EB2510 Slot: 4
+	// RVA: 0xEB2FC0 Offset: 0xEB15C0 VA: 0x180EB2FC0 Slot: 4
 	public bool Equals(InheritedStylesData other) { }
 
-	// RVA: 0xEB21C0 Offset: 0xEB07C0 VA: 0x180EB21C0 Slot: 0
+	// RVA: 0xEB2C70 Offset: 0xEB1270 VA: 0x180EB2C70 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0xEB27B0 Offset: 0xEB0DB0 VA: 0x180EB27B0 Slot: 2
+	// RVA: 0xEB3260 Offset: 0xEB1860 VA: 0x180EB3260 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xEB2A40 Offset: 0xEB1040 VA: 0x180EB2A40
+	// RVA: 0xEB34F0 Offset: 0xEB1AF0 VA: 0x180EB34F0
 	private static void .cctor() { }
 
 }

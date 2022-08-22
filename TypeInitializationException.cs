@@ -7,19 +7,19 @@ public sealed class TypeInitializationException : SystemException // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x213D8D0 Offset: 0x213BED0 VA: 0x18213D8D0
+	// RVA: 0x213E0F0 Offset: 0x213C6F0 VA: 0x18213E0F0
 	private void .ctor() { }
 
-	// RVA: 0x213D7C0 Offset: 0x213BDC0 VA: 0x18213D7C0
+	// RVA: 0x213DFE0 Offset: 0x213C5E0 VA: 0x18213DFE0
 	public void .ctor(string fullTypeName, Exception innerException) { }
 
-	// RVA: 0x213D930 Offset: 0x213BF30 VA: 0x18213D930
+	// RVA: 0x213E150 Offset: 0x213C750 VA: 0x18213E150
 	internal void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x213D9C0 Offset: 0x213BFC0 VA: 0x18213D9C0
+	// RVA: 0x213E1E0 Offset: 0x213C7E0 VA: 0x18213E1E0
 	public string get_TypeName() { }
 
-	// RVA: 0x213D680 Offset: 0x213BC80 VA: 0x18213D680 Slot: 10
+	// RVA: 0x213DEA0 Offset: 0x213C4A0 VA: 0x18213DEA0 Slot: 10
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 }

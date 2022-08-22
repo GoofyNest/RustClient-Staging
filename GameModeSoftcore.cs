@@ -7,13 +7,13 @@ public class GameModeSoftcore : GameModeVanilla // TypeDefIndex: 9886
 
 	// Methods
 
-	// RVA: 0x759220 Offset: 0x757820 VA: 0x180759220 Slot: 140
+	// RVA: 0x759170 Offset: 0x757770 VA: 0x180759170 Slot: 140
 	protected override void OnCreated() { }
 
-	// RVA: 0x7592A0 Offset: 0x7578A0 VA: 0x1807592A0
+	// RVA: 0x7591F0 Offset: 0x7577F0 VA: 0x1807591F0
 	public void .ctor() { }
 
-	// RVA: 0x759230 Offset: 0x757830 VA: 0x180759230
+	// RVA: 0x759180 Offset: 0x757780 VA: 0x180759180
 	private static void .cctor() { }
 
 }

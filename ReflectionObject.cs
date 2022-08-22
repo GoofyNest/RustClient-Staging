@@ -12,11 +12,11 @@ internal class ReflectionObject // TypeDefIndex: 5932
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public ObjectConstructor<object> get_Creator() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	private void set_Creator(ObjectConstructor<object> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -24,22 +24,22 @@ internal class ReflectionObject // TypeDefIndex: 5932
 	public IDictionary<string, ReflectionMember> get_Members() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	private void set_Members(IDictionary<string, ReflectionMember> value) { }
 
-	// RVA: 0x180C490 Offset: 0x180AA90 VA: 0x18180C490
+	// RVA: 0x17F98D0 Offset: 0x17F7ED0 VA: 0x1817F98D0
 	public void .ctor() { }
 
-	// RVA: 0x180C410 Offset: 0x180AA10 VA: 0x18180C410
+	// RVA: 0x17F9850 Offset: 0x17F7E50 VA: 0x1817F9850
 	public object GetValue(object target, string member) { }
 
-	// RVA: 0x180C3B0 Offset: 0x180A9B0 VA: 0x18180C3B0
+	// RVA: 0x17F97F0 Offset: 0x17F7DF0 VA: 0x1817F97F0
 	public Type GetType(string member) { }
 
-	// RVA: 0x180C3A0 Offset: 0x180A9A0 VA: 0x18180C3A0
+	// RVA: 0x17F97E0 Offset: 0x17F7DE0 VA: 0x1817F97E0
 	public static ReflectionObject Create(Type t, string[] memberNames) { }
 
-	// RVA: 0x180BB40 Offset: 0x180A140 VA: 0x18180BB40
+	// RVA: 0x17F8F80 Offset: 0x17F7580 VA: 0x1817F8F80
 	public static ReflectionObject Create(Type t, MethodBase creator, string[] memberNames) { }
 
 }
@@ -53,7 +53,7 @@ private sealed class ReflectionObject.<>c__DisplayClass13_0 // TypeDefIndex: 593
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1814F00 Offset: 0x1813500 VA: 0x181814F00
+	// RVA: 0x1802340 Offset: 0x1800940 VA: 0x181802340
 	internal object <Create>b__0(object[] args) { }
 
 }
@@ -67,7 +67,7 @@ private sealed class ReflectionObject.<>c__DisplayClass13_1 // TypeDefIndex: 593
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1814F50 Offset: 0x1813550 VA: 0x181814F50
+	// RVA: 0x1802390 Offset: 0x1800990 VA: 0x181802390
 	internal object <Create>b__1(object target) { }
 
 }
@@ -81,7 +81,7 @@ private sealed class ReflectionObject.<>c__DisplayClass13_2 // TypeDefIndex: 593
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1814FC0 Offset: 0x18135C0 VA: 0x181814FC0
+	// RVA: 0x1802400 Offset: 0x1800A00 VA: 0x181802400
 	internal void <Create>b__2(object target, object arg) { }
 
 }

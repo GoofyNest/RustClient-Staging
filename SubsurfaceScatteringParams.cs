@@ -8,7 +8,7 @@ public struct SubsurfaceScatteringParams // TypeDefIndex: 10654
 
 	// Methods
 
-	// RVA: 0x7A5A80 Offset: 0x7A4080 VA: 0x1807A5A80
+	// RVA: 0x7C3E80 Offset: 0x7C2480 VA: 0x1807C3E80
 	private static void .cctor() { }
 
 }

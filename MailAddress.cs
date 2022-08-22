@@ -12,35 +12,35 @@ public class MailAddress // TypeDefIndex: 3037
 
 	// Methods
 
-	// RVA: 0x1346960 Offset: 0x1344F60 VA: 0x181346960
+	// RVA: 0x1345A60 Offset: 0x1344060 VA: 0x181345A60
 	public void .ctor(string address) { }
 
-	// RVA: 0x1346870 Offset: 0x1344E70 VA: 0x181346870
+	// RVA: 0x1345970 Offset: 0x1343F70 VA: 0x181345970
 	public void .ctor(string address, string displayName) { }
 
 	[MonoTODOAttribute] // RVA: 0xB98C0 Offset: 0xB8CC0 VA: 0x1800B98C0
-	// RVA: 0x1346780 Offset: 0x1344D80 VA: 0x181346780
+	// RVA: 0x1345880 Offset: 0x1343E80 VA: 0x181345880
 	public void .ctor(string address, string displayName, Encoding displayNameEncoding) { }
 
-	// RVA: 0x1346370 Offset: 0x1344970 VA: 0x181346370
+	// RVA: 0x1345470 Offset: 0x1343A70 VA: 0x181345470
 	private void ParseAddress(string address) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_Address() { }
 
-	// RVA: 0x1346A30 Offset: 0x1345030 VA: 0x181346A30
+	// RVA: 0x1345B30 Offset: 0x1344130 VA: 0x181345B30
 	public string get_DisplayName() { }
 
-	// RVA: 0x13462C0 Offset: 0x13448C0 VA: 0x1813462C0 Slot: 0
+	// RVA: 0x13453C0 Offset: 0x13439C0 VA: 0x1813453C0 Slot: 0
 	public override bool Equals(object value) { }
 
-	// RVA: 0x1346330 Offset: 0x1344930 VA: 0x181346330 Slot: 2
+	// RVA: 0x1345430 Offset: 0x1343A30 VA: 0x181345430 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x13466D0 Offset: 0x1344CD0 VA: 0x1813466D0 Slot: 3
+	// RVA: 0x13457D0 Offset: 0x1343DD0 VA: 0x1813457D0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x1346270 Offset: 0x1344870 VA: 0x181346270
+	// RVA: 0x1345370 Offset: 0x1343970 VA: 0x181345370
 	private static FormatException CreateFormatException() { }
 
 }

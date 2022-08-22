@@ -16,19 +16,19 @@ public class TrainCoupling // TypeDefIndex: 9770
 
 	// Methods
 
-	// RVA: 0xA11500 Offset: 0xA0FB00 VA: 0x180A11500
+	// RVA: 0xA119F0 Offset: 0xA0FFF0 VA: 0x180A119F0
 	public bool get_IsCoupled() { }
 
-	// RVA: 0xA11530 Offset: 0xA0FB30 VA: 0x180A11530
+	// RVA: 0xA11A20 Offset: 0xA10020 VA: 0x180A11A20
 	public bool get_IsUncoupled() { }
 
-	// RVA: 0xA113F0 Offset: 0xA0F9F0 VA: 0x180A113F0
+	// RVA: 0xA118E0 Offset: 0xA0FEE0 VA: 0x180A118E0
 	public void .ctor(TrainCar owner, bool isFrontCoupling, TrainCouplingController controller) { }
 
-	// RVA: 0xA11420 Offset: 0xA0FA20 VA: 0x180A11420
+	// RVA: 0xA11910 Offset: 0xA0FF10 VA: 0x180A11910
 	public void .ctor(TrainCar owner, bool isFrontCoupling, TrainCouplingController controller, Transform couplingPoint, Transform couplingPivot, BaseEntity.Flags flag) { }
 
-	// RVA: 0xA11100 Offset: 0xA0F700 VA: 0x180A11100
+	// RVA: 0xA115F0 Offset: 0xA0FBF0 VA: 0x180A115F0
 	public void VisualTick() { }
 
 }

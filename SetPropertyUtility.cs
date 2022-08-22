@@ -1,20 +1,20 @@
 internal static class SetPropertyUtility // TypeDefIndex: 5006
 {	// Methods
 
-	// RVA: 0xC676D0 Offset: 0xC65CD0 VA: 0x180C676D0
+	// RVA: 0xC67BA0 Offset: 0xC661A0 VA: 0x180C67BA0
 	public static bool SetColor(ref Color currentValue, Color newValue) { }
 
 	// RVA: -1 Offset: -1
 	public static bool SetStruct<T>(ref T currentValue, T newValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF3EA0 Offset: 0xBF24A0 VA: 0x180BF3EA0
+	|-RVA: 0xBF4370 Offset: 0xBF2970 VA: 0x180BF4370
 	|-SetPropertyUtility.SetStruct<bool>
 	|
-	|-RVA: 0xBF3F90 Offset: 0xBF2590 VA: 0x180BF3F90
+	|-RVA: 0xBF4460 Offset: 0xBF2A60 VA: 0x180BF4460
 	|-SetPropertyUtility.SetStruct<char>
 	|
-	|-RVA: 0xBF4260 Offset: 0xBF2860 VA: 0x180BF4260
+	|-RVA: 0xBF4730 Offset: 0xBF2D30 VA: 0x180BF4730
 	|-SetPropertyUtility.SetStruct<int>
 	|-SetPropertyUtility.SetStruct<Int32Enum>
 	|-SetPropertyUtility.SetStruct<TouchScreenKeyboardType>
@@ -30,16 +30,16 @@ internal static class SetPropertyUtility // TypeDefIndex: 5006
 	|-SetPropertyUtility.SetStruct<Selectable.Transition>
 	|-SetPropertyUtility.SetStruct<Slider.Direction>
 	|
-	|-RVA: 0xBF4420 Offset: 0xBF2A20 VA: 0x180BF4420
+	|-RVA: 0xBF48F0 Offset: 0xBF2EF0 VA: 0x180BF48F0
 	|-SetPropertyUtility.SetStruct<float>
 	|
-	|-RVA: 0xBF4080 Offset: 0xBF2680 VA: 0x180BF4080
+	|-RVA: 0xBF4550 Offset: 0xBF2B50 VA: 0x180BF4550
 	|-SetPropertyUtility.SetStruct<ColorBlock>
 	|
-	|-RVA: 0xBF4340 Offset: 0xBF2940 VA: 0x180BF4340
+	|-RVA: 0xBF4810 Offset: 0xBF2E10 VA: 0x180BF4810
 	|-SetPropertyUtility.SetStruct<Navigation>
 	|
-	|-RVA: 0xBF4510 Offset: 0xBF2B10 VA: 0x180BF4510
+	|-RVA: 0xBF49E0 Offset: 0xBF2FE0 VA: 0x180BF49E0
 	|-SetPropertyUtility.SetStruct<SpriteState>
 	*/
 
@@ -47,7 +47,7 @@ internal static class SetPropertyUtility // TypeDefIndex: 5006
 	public static bool SetClass<T>(ref T currentValue, T newValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF3DC0 Offset: 0xBF23C0 VA: 0x180BF3DC0
+	|-RVA: 0xBF4290 Offset: 0xBF2890 VA: 0x180BF4290
 	|-SetPropertyUtility.SetClass<object>
 	|-SetPropertyUtility.SetClass<RectTransform>
 	|-SetPropertyUtility.SetClass<Sprite>
@@ -64,14 +64,14 @@ internal static class SetPropertyUtility // TypeDefIndex: 5006
 internal static class SetPropertyUtility // TypeDefIndex: 6797
 {	// Methods
 
-	// RVA: 0xC676D0 Offset: 0xC65CD0 VA: 0x180C676D0
+	// RVA: 0xC67BA0 Offset: 0xC661A0 VA: 0x180C67BA0
 	public static bool SetColor(ref Color currentValue, Color newValue) { }
 
 	// RVA: -1 Offset: -1
 	public static bool SetEquatableStruct<T>(ref T currentValue, T newValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF3E20 Offset: 0xBF2420 VA: 0x180BF3E20
+	|-RVA: 0xBF42F0 Offset: 0xBF28F0 VA: 0x180BF42F0
 	|-SetPropertyUtility.SetEquatableStruct<object>
 	*/
 
@@ -79,16 +79,16 @@ internal static class SetPropertyUtility // TypeDefIndex: 6797
 	public static bool SetStruct<T>(ref T currentValue, T newValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF3F10 Offset: 0xBF2510 VA: 0x180BF3F10
+	|-RVA: 0xBF43E0 Offset: 0xBF29E0 VA: 0x180BF43E0
 	|-SetPropertyUtility.SetStruct<bool>
 	|
-	|-RVA: 0xBF4000 Offset: 0xBF2600 VA: 0x180BF4000
+	|-RVA: 0xBF44D0 Offset: 0xBF2AD0 VA: 0x180BF44D0
 	|-SetPropertyUtility.SetStruct<char>
 	|
-	|-RVA: 0xBF42C0 Offset: 0xBF28C0 VA: 0x180BF42C0
+	|-RVA: 0xBF4790 Offset: 0xBF2D90 VA: 0x180BF4790
 	|-SetPropertyUtility.SetStruct<int>
 	|
-	|-RVA: 0xBF41B0 Offset: 0xBF27B0 VA: 0x180BF41B0
+	|-RVA: 0xBF4680 Offset: 0xBF2C80 VA: 0x180BF4680
 	|-SetPropertyUtility.SetStruct<Int32Enum>
 	|-SetPropertyUtility.SetStruct<TMP_InputField.CharacterValidation>
 	|-SetPropertyUtility.SetStruct<TMP_InputField.ContentType>
@@ -96,7 +96,7 @@ internal static class SetPropertyUtility // TypeDefIndex: 6797
 	|-SetPropertyUtility.SetStruct<TMP_InputField.LineType>
 	|-SetPropertyUtility.SetStruct<TouchScreenKeyboardType>
 	|
-	|-RVA: 0xBF4490 Offset: 0xBF2A90 VA: 0x180BF4490
+	|-RVA: 0xBF4960 Offset: 0xBF2F60 VA: 0x180BF4960
 	|-SetPropertyUtility.SetStruct<float>
 	*/
 
@@ -104,7 +104,7 @@ internal static class SetPropertyUtility // TypeDefIndex: 6797
 	public static bool SetClass<T>(ref T currentValue, T newValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF3DC0 Offset: 0xBF23C0 VA: 0x180BF3DC0
+	|-RVA: 0xBF4290 Offset: 0xBF2890 VA: 0x180BF4290
 	|-SetPropertyUtility.SetClass<object>
 	|-SetPropertyUtility.SetClass<TMP_FontAsset>
 	|-SetPropertyUtility.SetClass<TMP_InputField.OnChangeEvent>
@@ -125,14 +125,14 @@ internal static class SetPropertyUtility // TypeDefIndex: 6797
 internal static class SetPropertyUtility // TypeDefIndex: 11733
 {	// Methods
 
-	// RVA: 0xC676D0 Offset: 0xC65CD0 VA: 0x180C676D0
+	// RVA: 0xC67BA0 Offset: 0xC661A0 VA: 0x180C67BA0
 	public static bool SetColor(ref Color currentValue, Color newValue) { }
 
 	// RVA: -1 Offset: -1
 	public static bool SetEquatableStruct<T>(ref T currentValue, T newValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF3E20 Offset: 0xBF2420 VA: 0x180BF3E20
+	|-RVA: 0xBF42F0 Offset: 0xBF28F0 VA: 0x180BF42F0
 	|-SetPropertyUtility.SetEquatableStruct<object>
 	*/
 
@@ -143,7 +143,7 @@ internal static class SetPropertyUtility // TypeDefIndex: 11733
 	public static bool SetClass<T>(ref T currentValue, T newValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF3DC0 Offset: 0xBF23C0 VA: 0x180BF3DC0
+	|-RVA: 0xBF4290 Offset: 0xBF2890 VA: 0x180BF4290
 	|-SetPropertyUtility.SetClass<object>
 	|-SetPropertyUtility.SetClass<Sprite>
 	*/

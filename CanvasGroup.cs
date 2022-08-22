@@ -11,28 +11,28 @@ public sealed class CanvasGroup : Behaviour, ICanvasRaycastFilter // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x2308090 Offset: 0x2306690 VA: 0x182308090
+	// RVA: 0x23088B0 Offset: 0x2306EB0 VA: 0x1823088B0
 	public float get_alpha() { }
 
-	// RVA: 0x2308150 Offset: 0x2306750 VA: 0x182308150
+	// RVA: 0x2308970 Offset: 0x2306F70 VA: 0x182308970
 	public void set_alpha(float value) { }
 
-	// RVA: 0x2308110 Offset: 0x2306710 VA: 0x182308110
+	// RVA: 0x2308930 Offset: 0x2306F30 VA: 0x182308930
 	public bool get_interactable() { }
 
-	// RVA: 0x23081F0 Offset: 0x23067F0 VA: 0x1823081F0
+	// RVA: 0x2308A10 Offset: 0x2307010 VA: 0x182308A10
 	public void set_interactable(bool value) { }
 
-	// RVA: 0x2308050 Offset: 0x2306650 VA: 0x182308050
+	// RVA: 0x2308870 Offset: 0x2306E70 VA: 0x182308870
 	public bool get_blocksRaycasts() { }
 
-	// RVA: 0x23081A0 Offset: 0x23067A0 VA: 0x1823081A0
+	// RVA: 0x23089C0 Offset: 0x2306FC0 VA: 0x1823089C0
 	public void set_blocksRaycasts(bool value) { }
 
-	// RVA: 0x23080D0 Offset: 0x23066D0 VA: 0x1823080D0
+	// RVA: 0x23088F0 Offset: 0x2306EF0 VA: 0x1823088F0
 	public bool get_ignoreParentGroups() { }
 
-	// RVA: 0x2308050 Offset: 0x2306650 VA: 0x182308050 Slot: 4
+	// RVA: 0x2308870 Offset: 0x2306E70 VA: 0x182308870 Slot: 4
 	public bool IsRaycastLocationValid(Vector2 sp, Camera eventCamera) { }
 
 }

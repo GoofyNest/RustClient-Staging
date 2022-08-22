@@ -18,13 +18,13 @@ public abstract class LoadAssetsResult : CustomYieldInstruction // TypeDefIndex:
 	public virtual int get_CompletedCount() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0 Slot: 10
+	// RVA: 0x57C970 Offset: 0x57AF70 VA: 0x18057C970 Slot: 10
 	protected virtual void set_CompletedCount(int value) { }
 
 	// RVA: -1 Offset: -1 Slot: 11
 	public abstract Dictionary<string, Object> GetResult();
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	protected void .ctor() { }
 
 }
@@ -35,10 +35,10 @@ public sealed class LoadAssetsResult.AssetLoaded : MulticastDelegate // TypeDefI
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0xAE4880 Offset: 0xAE2E80 VA: 0x180AE4880 Slot: 12
+	// RVA: 0xAE4D50 Offset: 0xAE3350 VA: 0x180AE4D50 Slot: 12
 	public virtual void Invoke(string path, Object obj) { }
 
-	// RVA: 0xAE4840 Offset: 0xAE2E40 VA: 0x180AE4840 Slot: 13
+	// RVA: 0xAE4D10 Offset: 0xAE3310 VA: 0x180AE4D10 Slot: 13
 	public virtual IAsyncResult BeginInvoke(string path, Object obj, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

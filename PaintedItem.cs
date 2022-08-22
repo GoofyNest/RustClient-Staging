@@ -7,82 +7,82 @@ public class PaintedItem : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 64
 
 	// Methods
 
-	// RVA: 0x1F93190 Offset: 0x1F91790 VA: 0x181F93190
+	// RVA: 0x1F939B0 Offset: 0x1F91FB0 VA: 0x181F939B0
 	public static void ResetToPool(PaintedItem instance) { }
 
-	// RVA: 0x1F93210 Offset: 0x1F91810 VA: 0x181F93210
+	// RVA: 0x1F93A30 Offset: 0x1F92030 VA: 0x181F93A30
 	public void ResetToPool() { }
 
-	// RVA: 0x1F92EF0 Offset: 0x1F914F0 VA: 0x181F92EF0 Slot: 9
+	// RVA: 0x1F93710 Offset: 0x1F91D10 VA: 0x181F93710 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1F920C0 Offset: 0x1F906C0 VA: 0x181F920C0
+	// RVA: 0x1F928E0 Offset: 0x1F90EE0 VA: 0x181F928E0
 	public void CopyTo(PaintedItem instance) { }
 
-	// RVA: 0x1F920F0 Offset: 0x1F906F0 VA: 0x181F920F0
+	// RVA: 0x1F92910 Offset: 0x1F90F10 VA: 0x181F92910
 	public PaintedItem Copy() { }
 
-	// RVA: 0x1F92D30 Offset: 0x1F91330 VA: 0x181F92D30
+	// RVA: 0x1F93550 Offset: 0x1F91B50 VA: 0x181F93550
 	public static PaintedItem Deserialize(Stream stream) { }
 
-	// RVA: 0x1F923B0 Offset: 0x1F909B0 VA: 0x181F923B0
+	// RVA: 0x1F92BD0 Offset: 0x1F911D0 VA: 0x181F92BD0
 	public static PaintedItem DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1F92430 Offset: 0x1F90A30 VA: 0x181F92430
+	// RVA: 0x1F92C50 Offset: 0x1F91250 VA: 0x181F92C50
 	public static PaintedItem DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1F92AC0 Offset: 0x1F910C0 VA: 0x181F92AC0
+	// RVA: 0x1F932E0 Offset: 0x1F918E0 VA: 0x181F932E0
 	public static PaintedItem Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1F92FF0 Offset: 0x1F915F0 VA: 0x181F92FF0
+	// RVA: 0x1F93810 Offset: 0x1F91E10 VA: 0x181F93810
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1F936D0 Offset: 0x1F91CD0 VA: 0x181F936D0 Slot: 12
+	// RVA: 0x1F93EF0 Offset: 0x1F924F0 VA: 0x181F93EF0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1F936F0 Offset: 0x1F91CF0 VA: 0x181F936F0 Slot: 13
+	// RVA: 0x1F93F10 Offset: 0x1F92510 VA: 0x181F93F10 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, PaintedItem previous) { }
 
-	// RVA: 0x1F93170 Offset: 0x1F91770 VA: 0x181F93170 Slot: 14
+	// RVA: 0x1F93990 Offset: 0x1F91F90 VA: 0x181F93990 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1F926F0 Offset: 0x1F90CF0 VA: 0x181F926F0
+	// RVA: 0x1F92F10 Offset: 0x1F91510 VA: 0x181F92F10
 	public static PaintedItem Deserialize(byte[] buffer, PaintedItem instance, bool isDelta = False) { }
 
-	// RVA: 0x1F92940 Offset: 0x1F90F40 VA: 0x181F92940
+	// RVA: 0x1F93160 Offset: 0x1F91760 VA: 0x181F93160
 	public static PaintedItem Deserialize(Stream stream, PaintedItem instance, bool isDelta) { }
 
-	// RVA: 0x1F92160 Offset: 0x1F90760 VA: 0x181F92160
+	// RVA: 0x1F92980 Offset: 0x1F90F80 VA: 0x181F92980
 	public static PaintedItem DeserializeLengthDelimited(Stream stream, PaintedItem instance, bool isDelta) { }
 
-	// RVA: 0x1F924C0 Offset: 0x1F90AC0 VA: 0x181F924C0
+	// RVA: 0x1F92CE0 Offset: 0x1F912E0 VA: 0x181F92CE0
 	public static PaintedItem DeserializeLength(Stream stream, int length, PaintedItem instance, bool isDelta) { }
 
-	// RVA: 0x1F93290 Offset: 0x1F91890 VA: 0x181F93290
+	// RVA: 0x1F93AB0 Offset: 0x1F920B0 VA: 0x181F93AB0
 	public static void SerializeDelta(Stream stream, PaintedItem instance, PaintedItem previous) { }
 
-	// RVA: 0x1F935C0 Offset: 0x1F91BC0 VA: 0x181F935C0
+	// RVA: 0x1F93DE0 Offset: 0x1F923E0 VA: 0x181F93DE0
 	public static void Serialize(Stream stream, PaintedItem instance) { }
 
-	// RVA: 0x1F936C0 Offset: 0x1F91CC0 VA: 0x181F936C0
+	// RVA: 0x1F93EE0 Offset: 0x1F924E0 VA: 0x181F93EE0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1F936D0 Offset: 0x1F91CD0 VA: 0x181F936D0
+	// RVA: 0x1F93EF0 Offset: 0x1F924F0 VA: 0x181F93EF0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1F934B0 Offset: 0x1F91AB0 VA: 0x181F934B0
+	// RVA: 0x1F93CD0 Offset: 0x1F922D0 VA: 0x181F93CD0
 	public static byte[] SerializeToBytes(PaintedItem instance) { }
 
-	// RVA: 0x1F93400 Offset: 0x1F91A00 VA: 0x181F93400
+	// RVA: 0x1F93C20 Offset: 0x1F92220 VA: 0x181F93C20
 	public static void SerializeLengthDelimited(Stream stream, PaintedItem instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }

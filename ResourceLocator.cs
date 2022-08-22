@@ -9,10 +9,10 @@ internal struct ResourceLocator // TypeDefIndex: 494
 
 	// Methods
 
-	// RVA: 0x14C890 Offset: 0x14BC90 VA: 0x18014C890
+	// RVA: 0x14C6B0 Offset: 0x14BAB0 VA: 0x18014C6B0
 	internal void .ctor(int dataPos, object value) { }
 
-	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
+	// RVA: 0x122C30 Offset: 0x122030 VA: 0x180122C30
 	internal int get_DataPosition() { }
 
 	// RVA: 0xFC840 Offset: 0xFBC40 VA: 0x1800FC840
@@ -21,7 +21,7 @@ internal struct ResourceLocator // TypeDefIndex: 494
 	// RVA: 0xF1490 Offset: 0xF0890 VA: 0x1800F1490
 	internal void set_Value(object value) { }
 
-	// RVA: 0xFEC8D0 Offset: 0xFEAED0 VA: 0x180FEC8D0
+	// RVA: 0xFED370 Offset: 0xFEB970 VA: 0x180FED370
 	internal static bool CanCache(ResourceTypeCode value) { }
 
 }

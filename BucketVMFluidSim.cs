@@ -18,37 +18,37 @@ public class BucketVMFluidSim : MonoBehaviour // TypeDefIndex: 9329
 
 	// Methods
 
-	// RVA: 0x522310 Offset: 0x520910 VA: 0x180522310
+	// RVA: 0x5222A0 Offset: 0x5208A0 VA: 0x1805222A0
 	private void Start() { }
 
-	// RVA: 0x5222F0 Offset: 0x5208F0 VA: 0x1805222F0
+	// RVA: 0x522280 Offset: 0x520880 VA: 0x180522280
 	private void SetFillingFromWorld(bool isFilling) { }
 
-	// RVA: 0x522390 Offset: 0x520990 VA: 0x180522390
+	// RVA: 0x522320 Offset: 0x520920 VA: 0x180522320
 	private void UpdateWaterLevel(float newLevel) { }
 
-	// RVA: 0x522630 Offset: 0x520C30 VA: 0x180522630
+	// RVA: 0x5225C0 Offset: 0x520BC0 VA: 0x1805225C0
 	private void Update() { }
 
-	// RVA: 0x521C90 Offset: 0x520290 VA: 0x180521C90
+	// RVA: 0x521C20 Offset: 0x520220 VA: 0x180521C20
 	private void CalculateTurbulence() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void DoWaterTipping() { }
 
-	// RVA: 0x521C00 Offset: 0x520200 VA: 0x180521C00
+	// RVA: 0x521B90 Offset: 0x520190 VA: 0x180521B90
 	public void AddWater(float waterAmount) { }
 
-	// RVA: 0x5220F0 Offset: 0x5206F0 VA: 0x1805220F0
+	// RVA: 0x522080 Offset: 0x520680 VA: 0x180522080
 	private void DisableWaterSpillEffects() { }
 
-	// RVA: 0x5223A0 Offset: 0x5209A0 VA: 0x1805223A0
+	// RVA: 0x522330 Offset: 0x520930 VA: 0x180522330
 	private void UpdateWaterLine() { }
 
-	// RVA: 0x5226A0 Offset: 0x520CA0 VA: 0x1805226A0
+	// RVA: 0x522630 Offset: 0x520C30 VA: 0x180522630
 	private float fsel(float c, float x, float y) { }
 
-	// RVA: 0x522210 Offset: 0x520810 VA: 0x180522210
+	// RVA: 0x5221A0 Offset: 0x5207A0 VA: 0x1805221A0
 	private float RemapValClamped(float val, float A, float B, float C, float D) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

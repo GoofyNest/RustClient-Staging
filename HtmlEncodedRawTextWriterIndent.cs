@@ -7,34 +7,34 @@ internal class HtmlEncodedRawTextWriterIndent : HtmlEncodedRawTextWriter // Type
 
 	// Methods
 
-	// RVA: 0x12F15A0 Offset: 0x12EFBA0 VA: 0x1812F15A0
+	// RVA: 0x12F7A50 Offset: 0x12F6050 VA: 0x1812F7A50
 	public void .ctor(TextWriter writer, XmlWriterSettings settings) { }
 
-	// RVA: 0x12F1530 Offset: 0x12EFB30 VA: 0x1812F1530
+	// RVA: 0x12F79E0 Offset: 0x12F5FE0 VA: 0x1812F79E0
 	public void .ctor(Stream stream, XmlWriterSettings settings) { }
 
-	// RVA: 0x12F10F0 Offset: 0x12EF6F0 VA: 0x1812F10F0 Slot: 8
+	// RVA: 0x12F75A0 Offset: 0x12F5BA0 VA: 0x1812F75A0 Slot: 8
 	public override void WriteDocType(string name, string pubid, string sysid, string subset) { }
 
-	// RVA: 0x12F1300 Offset: 0x12EF900 VA: 0x1812F1300 Slot: 9
+	// RVA: 0x12F77B0 Offset: 0x12F5DB0 VA: 0x1812F77B0 Slot: 9
 	public override void WriteStartElement(string prefix, string localName, string ns) { }
 
-	// RVA: 0x12F1020 Offset: 0x12EF620 VA: 0x1812F1020 Slot: 38
+	// RVA: 0x12F74D0 Offset: 0x12F5AD0 VA: 0x1812F74D0 Slot: 38
 	internal override void StartElementContent() { }
 
-	// RVA: 0x12F1120 Offset: 0x12EF720 VA: 0x1812F1120 Slot: 40
+	// RVA: 0x12F75D0 Offset: 0x12F5BD0 VA: 0x1812F75D0 Slot: 40
 	internal override void WriteEndElement(string prefix, string localName, string ns) { }
 
-	// RVA: 0x12F1240 Offset: 0x12EF840 VA: 0x1812F1240 Slot: 12
+	// RVA: 0x12F76F0 Offset: 0x12F5CF0 VA: 0x1812F76F0 Slot: 12
 	public override void WriteStartAttribute(string prefix, string localName, string ns) { }
 
-	// RVA: 0x12F0FB0 Offset: 0x12EF5B0 VA: 0x1812F0FB0 Slot: 48
+	// RVA: 0x12F7460 Offset: 0x12F5A60 VA: 0x1812F7460 Slot: 48
 	protected override void FlushBuffer() { }
 
-	// RVA: 0x12F0FD0 Offset: 0x12EF5D0 VA: 0x1812F0FD0
+	// RVA: 0x12F7480 Offset: 0x12F5A80 VA: 0x1812F7480
 	private void Init(XmlWriterSettings settings) { }
 
-	// RVA: 0x12F11E0 Offset: 0x12EF7E0 VA: 0x1812F11E0
+	// RVA: 0x12F7690 Offset: 0x12F5C90 VA: 0x1812F7690
 	private void WriteIndent() { }
 
 }

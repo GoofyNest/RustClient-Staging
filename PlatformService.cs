@@ -1,13 +1,13 @@
 public static class PlatformService // TypeDefIndex: 6155
 {	// Fields
-	public static readonly IPlatformService Instance; // 0x2B1159C
+	public static readonly IPlatformService Instance; // 0x343F
 
 	// Methods
 
-	// RVA: 0x2315DC0 Offset: 0x23143C0 VA: 0x182315DC0
+	// RVA: 0x23165E0 Offset: 0x2314BE0 VA: 0x1823165E0
 	public static bool Initialize(IPlatformHooks hooks) { }
 
-	// RVA: 0x2315EF0 Offset: 0x23144F0 VA: 0x182315EF0
+	// RVA: 0x2316710 Offset: 0x2314D10 VA: 0x182316710
 	private static void .cctor() { }
 
 }

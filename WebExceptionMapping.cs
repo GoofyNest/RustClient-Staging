@@ -1,13 +1,13 @@
 internal static class WebExceptionMapping // TypeDefIndex: 2900
 {	// Fields
-	private static readonly string[] s_Mapping; // 0x1459F
+	private static readonly string[] s_Mapping; // 0x14320
 
 	// Methods
 
-	// RVA: 0x1188920 Offset: 0x1186F20 VA: 0x181188920
+	// RVA: 0x118D240 Offset: 0x118B840 VA: 0x18118D240
 	internal static string GetWebStatusString(WebExceptionStatus status) { }
 
-	// RVA: 0x1188B10 Offset: 0x1187110 VA: 0x181188B10
+	// RVA: 0x118D430 Offset: 0x118BA30 VA: 0x18118D430
 	private static void .cctor() { }
 
 }

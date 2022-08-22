@@ -39,43 +39,43 @@ public class SnowmobileAudio : GroundVehicleAudio // TypeDefIndex: 9757
 
 	// Methods
 
-	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380 Slot: 4
+	// RVA: 0x574310 Offset: 0x572910 VA: 0x180574310 Slot: 4
 	protected override EngineAudioSet get_EngineAudioSet() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	protected override void set_EngineAudioSet(EngineAudioSet value) { }
 
-	// RVA: 0x5B1630 Offset: 0x5AFC30 VA: 0x1805B1630 Slot: 6
+	// RVA: 0x5B15C0 Offset: 0x5AFBC0 VA: 0x1805B15C0 Slot: 6
 	protected override void Awake() { }
 
-	// RVA: 0x5B16D0 Offset: 0x5AFCD0 VA: 0x1805B16D0 Slot: 7
+	// RVA: 0x5B1660 Offset: 0x5AFC60 VA: 0x1805B1660 Slot: 7
 	public override void ClientTick() { }
 
-	// RVA: 0x5B1B80 Offset: 0x5B0180 VA: 0x1805B1B80
+	// RVA: 0x5B1B10 Offset: 0x5B0110 VA: 0x1805B1B10
 	private void UpdateMovementLoop(float speedRatio) { }
 
-	// RVA: 0x5B1910 Offset: 0x5AFF10 VA: 0x1805B1910
+	// RVA: 0x5B18A0 Offset: 0x5AFEA0 VA: 0x1805B18A0
 	private void StopMovementLoop() { }
 
-	// RVA: 0x5B1DA0 Offset: 0x5B03A0 VA: 0x1805B1DA0
+	// RVA: 0x5B1D30 Offset: 0x5B0330 VA: 0x1805B1D30
 	private void UpdateSkiSound(VehicleChassisVisuals.ClientWheelData<Snowmobile> wheelData, float speedRatio) { }
 
-	// RVA: 0x5B1AA0 Offset: 0x5B00A0 VA: 0x1805B1AA0
+	// RVA: 0x5B1A30 Offset: 0x5B0030 VA: 0x1805B1A30
 	public void StopSkiAudio() { }
 
-	// RVA: 0x5B19D0 Offset: 0x5AFFD0 VA: 0x1805B19D0
+	// RVA: 0x5B1960 Offset: 0x5AFF60 VA: 0x1805B1960
 	public void StopSkiAudio(VehicleChassisVisuals.ClientWheelData<Snowmobile> wheelData) { }
 
-	// RVA: 0x5B2190 Offset: 0x5B0790 VA: 0x1805B2190
+	// RVA: 0x5B2120 Offset: 0x5B0720 VA: 0x1805B2120
 	private void UpdateSuspensionSounds() { }
 
-	// RVA: 0x5B18F0 Offset: 0x5AFEF0 VA: 0x1805B18F0 Slot: 8
+	// RVA: 0x5B1880 Offset: 0x5AFE80 VA: 0x1805B1880 Slot: 8
 	public override void OnClientTickStopped() { }
 
-	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 9
+	// RVA: 0x5B1870 Offset: 0x5AFE70 VA: 0x1805B1870 Slot: 9
 	protected override int GetNumEngines() { }
 
-	// RVA: 0x5B24E0 Offset: 0x5B0AE0 VA: 0x1805B24E0
+	// RVA: 0x5B2470 Offset: 0x5B0A70 VA: 0x1805B2470
 	public void .ctor() { }
 
 }

@@ -9,22 +9,22 @@ public class QueryVis : BaseMonoBehaviour, IClientComponent, IOnParentDestroying
 
 	// Methods
 
-	// RVA: 0x69AED0 Offset: 0x6994D0 VA: 0x18069AED0
+	// RVA: 0x69AE60 Offset: 0x699460 VA: 0x18069AE60
 	public void OnEnable() { }
 
-	// RVA: 0x69AEB0 Offset: 0x6994B0 VA: 0x18069AEB0
+	// RVA: 0x69AE40 Offset: 0x699440 VA: 0x18069AE40
 	public void OnDisable() { }
 
-	// RVA: 0x69B390 Offset: 0x699990 VA: 0x18069B390
+	// RVA: 0x69B320 Offset: 0x699920 VA: 0x18069B320
 	public float SampleVisibility() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 6
 	public void OnParentDestroying() { }
 
-	// RVA: 0x69B020 Offset: 0x699620 VA: 0x18069B020
+	// RVA: 0x69AFB0 Offset: 0x6995B0 VA: 0x18069AFB0
 	public float SampleVisibilityCPU() { }
 
-	// RVA: 0x69B4A0 Offset: 0x699AA0 VA: 0x18069B4A0
+	// RVA: 0x69B430 Offset: 0x699A30 VA: 0x18069B430
 	public void .ctor() { }
 
 }

@@ -7,13 +7,13 @@ public class ClothWindModify : FacepunchBehaviour // TypeDefIndex: 10699
 
 	// Methods
 
-	// RVA: 0x574760 Offset: 0x572D60 VA: 0x180574760
+	// RVA: 0x5746F0 Offset: 0x572CF0 VA: 0x1805746F0
 	public void Awake() { }
 
-	// RVA: 0x574810 Offset: 0x572E10 VA: 0x180574810
+	// RVA: 0x5747A0 Offset: 0x572DA0 VA: 0x1805747A0
 	public void DoWind() { }
 
-	// RVA: 0x574B50 Offset: 0x573150 VA: 0x180574B50
+	// RVA: 0x574AE0 Offset: 0x5730E0 VA: 0x180574AE0
 	public void .ctor() { }
 
 }

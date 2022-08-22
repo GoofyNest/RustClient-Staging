@@ -5,13 +5,13 @@ public class ParticleSystemLOD : LODComponentParticleSystem // TypeDefIndex: 995
 
 	// Methods
 
-	// RVA: 0x85F3A0 Offset: 0x85D9A0 VA: 0x18085F3A0 Slot: 12
+	// RVA: 0x87AB00 Offset: 0x879100 VA: 0x18087AB00 Slot: 12
 	protected override void SetLOD(int newlod) { }
 
-	// RVA: 0x85F240 Offset: 0x85D840 VA: 0x18085F240 Slot: 11
+	// RVA: 0x87A9A0 Offset: 0x878FA0 VA: 0x18087A9A0 Slot: 11
 	protected override int GetLOD(float distance) { }
 
-	// RVA: 0x85C400 Offset: 0x85AA00 VA: 0x18085C400
+	// RVA: 0x877B60 Offset: 0x876160 VA: 0x180877B60
 	public void .ctor() { }
 
 }

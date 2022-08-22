@@ -14,7 +14,7 @@ public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 	public static NativeArray<T> ConvertExistingDataToNativeArray<T>(void* dataPointer, int length, Allocator allocator) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B820 Offset: 0x1A39E20 VA: 0x181A3B820
+	|-RVA: 0x1A3AF40 Offset: 0x1A39540 VA: 0x181A3AF40
 	|-NativeArrayUnsafeUtility.ConvertExistingDataToNativeArray<BoneData>
 	|-NativeArrayUnsafeUtility.ConvertExistingDataToNativeArray<BoneState>
 	|-NativeArrayUnsafeUtility.ConvertExistingDataToNativeArray<ColliderData>
@@ -40,7 +40,7 @@ public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 	public static void* GetUnsafePtr<T>(NativeArray<T> nativeArray) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D28F0 Offset: 0x5D0EF0 VA: 0x1805D28F0
+	|-RVA: 0x5D2880 Offset: 0x5D0E80 VA: 0x1805D2880
 	|-NativeArrayUnsafeUtility.GetUnsafePtr<BoneState>
 	|-NativeArrayUnsafeUtility.GetUnsafePtr<ColliderState>
 	|-NativeArrayUnsafeUtility.GetUnsafePtr<float3>
@@ -51,7 +51,7 @@ public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 	public static void* GetUnsafeReadOnlyPtr<T>(NativeArray<T> nativeArray) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D28F0 Offset: 0x5D0EF0 VA: 0x1805D28F0
+	|-RVA: 0x5D2880 Offset: 0x5D0E80 VA: 0x1805D2880
 	|-NativeArrayUnsafeUtility.GetUnsafeReadOnlyPtr<BoneData>
 	|-NativeArrayUnsafeUtility.GetUnsafeReadOnlyPtr<BoneState>
 	|-NativeArrayUnsafeUtility.GetUnsafeReadOnlyPtr<ColliderData>
@@ -65,7 +65,7 @@ public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 	public static void* GetUnsafeBufferPointerWithoutChecks<T>(NativeArray<T> nativeArray) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D28F0 Offset: 0x5D0EF0 VA: 0x1805D28F0
+	|-RVA: 0x5D2880 Offset: 0x5D0E80 VA: 0x1805D2880
 	|-NativeArrayUnsafeUtility.GetUnsafeBufferPointerWithoutChecks<RaycastCommand>
 	|-NativeArrayUnsafeUtility.GetUnsafeBufferPointerWithoutChecks<RaycastHit>
 	*/

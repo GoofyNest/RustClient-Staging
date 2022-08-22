@@ -31,70 +31,70 @@ internal class TypeData // TypeDefIndex: 2062
 
 	// Methods
 
-	// RVA: 0x1106FA0 Offset: 0x11055A0 VA: 0x181106FA0
+	// RVA: 0x1107A10 Offset: 0x1106010 VA: 0x181107A10
 	public void .ctor(Type type, string elementName, bool isPrimitive) { }
 
-	// RVA: 0x1106AB0 Offset: 0x11050B0 VA: 0x181106AB0
+	// RVA: 0x1107520 Offset: 0x1105B20 VA: 0x181107520
 	public void .ctor(Type type, string elementName, bool isPrimitive, TypeData mappedType, XmlSchemaPatternFacet facet) { }
 
-	// RVA: 0x1104990 Offset: 0x1102F90 VA: 0x181104990
+	// RVA: 0x1105400 Offset: 0x1103A00 VA: 0x181105400
 	private void LookupTypeConvertor() { }
 
-	// RVA: 0x1104430 Offset: 0x1102A30 VA: 0x181104430
+	// RVA: 0x1104EA0 Offset: 0x11034A0 VA: 0x181104EA0
 	internal void ConvertForAssignment(ref object value) { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public string get_TypeName() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public string get_XmlType() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Type get_Type() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public string get_FullTypeName() { }
 
-	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
+	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760
 	public SchemaTypes get_SchemaType() { }
 
-	// RVA: 0x8C1110 Offset: 0x8BF710 VA: 0x1808C1110
+	// RVA: 0x8C1620 Offset: 0x8BFC20 VA: 0x1808C1620
 	public bool get_IsListType() { }
 
-	// RVA: 0x1106FC0 Offset: 0x11055C0 VA: 0x181106FC0
+	// RVA: 0x1107A30 Offset: 0x1106030 VA: 0x181107A30
 	public bool get_IsComplexType() { }
 
-	// RVA: 0x1107170 Offset: 0x1105770 VA: 0x181107170
+	// RVA: 0x1107BE0 Offset: 0x11061E0 VA: 0x181107BE0
 	public bool get_IsValueType() { }
 
-	// RVA: 0x1106FE0 Offset: 0x11055E0 VA: 0x181106FE0
+	// RVA: 0x1107A50 Offset: 0x1106050 VA: 0x181107A50
 	public bool get_IsNullable() { }
 
-	// RVA: 0x10868B0 Offset: 0x1084EB0 VA: 0x1810868B0
+	// RVA: 0x1087320 Offset: 0x1085920 VA: 0x181087320
 	public void set_IsNullable(bool value) { }
 
-	// RVA: 0x1107210 Offset: 0x1105810 VA: 0x181107210
+	// RVA: 0x1107C80 Offset: 0x1106280 VA: 0x181107C80
 	public TypeData get_ListItemTypeData() { }
 
-	// RVA: 0x11072E0 Offset: 0x11058E0 VA: 0x1811072E0
+	// RVA: 0x1107D50 Offset: 0x1106350 VA: 0x181107D50
 	public Type get_ListItemType() { }
 
-	// RVA: 0x831A30 Offset: 0x830030 VA: 0x180831A30
+	// RVA: 0x831F80 Offset: 0x830580 VA: 0x180831F80
 	public bool get_IsXsdType() { }
 
-	// RVA: 0xA4F2B0 Offset: 0xA4D8B0 VA: 0x180A4F2B0
+	// RVA: 0xA4F780 Offset: 0xA4DD80 VA: 0x180A4F780
 	public bool get_HasPublicConstructor() { }
 
-	// RVA: 0x1104840 Offset: 0x1102E40 VA: 0x181104840
+	// RVA: 0x11052B0 Offset: 0x11038B0 VA: 0x1811052B0
 	public static PropertyInfo GetIndexerProperty(Type collectionType) { }
 
-	// RVA: 0x1104530 Offset: 0x1102B30 VA: 0x181104530
+	// RVA: 0x1104FA0 Offset: 0x11035A0 VA: 0x181104FA0
 	private static InvalidOperationException CreateMissingAddMethodException(Type type, string inheritFrom, Type argumentType) { }
 
-	// RVA: 0x1104630 Offset: 0x1102C30 VA: 0x181104630
+	// RVA: 0x11050A0 Offset: 0x11036A0 VA: 0x1811050A0
 	internal static Type GetGenericListItemType(Type type) { }
 
-	// RVA: 0x1104A40 Offset: 0x1103040 VA: 0x181104A40
+	// RVA: 0x11054B0 Offset: 0x1103AB0 VA: 0x1811054B0
 	private static void .cctor() { }
 
 }

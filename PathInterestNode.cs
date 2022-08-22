@@ -9,14 +9,14 @@ public class PathInterestNode : MonoBehaviour // TypeDefIndex: 8862
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7747C0 Offset: 0x772DC0 VA: 0x1807747C0
+	// RVA: 0x774710 Offset: 0x772D10 VA: 0x180774710
 	public float get_NextVisitTime() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x774800 Offset: 0x772E00 VA: 0x180774800
+	// RVA: 0x774750 Offset: 0x772D50 VA: 0x180774750
 	public void set_NextVisitTime(float value) { }
 
-	// RVA: 0x860CF0 Offset: 0x85F2F0 VA: 0x180860CF0
+	// RVA: 0x87C450 Offset: 0x87AA50 VA: 0x18087C450
 	public void OnDrawGizmos() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

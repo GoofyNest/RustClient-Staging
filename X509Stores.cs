@@ -5,10 +5,10 @@ public class X509Stores // TypeDefIndex: 1723
 
 	// Methods
 
-	// RVA: 0x1466C70 Offset: 0x1465270 VA: 0x181466C70
+	// RVA: 0x1465D40 Offset: 0x1464340 VA: 0x181465D40
 	internal void .ctor(string path, bool newFormat) { }
 
-	// RVA: 0x2282DB0 Offset: 0x22813B0 VA: 0x182282DB0
+	// RVA: 0x22835D0 Offset: 0x2281BD0 VA: 0x1822835D0
 	public X509Store Open(string storeName, bool create) { }
 
 }

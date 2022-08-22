@@ -21,35 +21,35 @@ public abstract class MeshBatch : MonoBehaviour // TypeDefIndex: 11388
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
+	// RVA: 0x95FFF0 Offset: 0x95E5F0 VA: 0x18095FFF0
 	public bool get_NeedsRefresh() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
+	// RVA: 0x960010 Offset: 0x95E610 VA: 0x180960010
 	private void set_NeedsRefresh(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460
+	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0
 	public int get_Count() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FB00 Offset: 0x95E100 VA: 0x18095FB00
+	// RVA: 0x960000 Offset: 0x95E600 VA: 0x180960000
 	private void set_Count(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
+	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760
 	public int get_BatchedCount() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730
+	// RVA: 0x69D6C0 Offset: 0x69BCC0 VA: 0x18069D6C0
 	private void set_BatchedCount(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
+	// RVA: 0x79C630 Offset: 0x79AC30 VA: 0x18079C630
 	public int get_VertexCount() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D70 Offset: 0x7CF370 VA: 0x1807D0D70
+	// RVA: 0x79C690 Offset: 0x79AC90 VA: 0x18079C690
 	private void set_VertexCount(int value) { }
 
 	// RVA: -1 Offset: -1 Slot: 4
@@ -76,34 +76,34 @@ public abstract class MeshBatch : MonoBehaviour // TypeDefIndex: 11388
 	// RVA: -1 Offset: -1 Slot: 11
 	public abstract int get_VertexCutoff();
 
-	// RVA: 0x95FA50 Offset: 0x95E050 VA: 0x18095FA50
+	// RVA: 0x95FF50 Offset: 0x95E550 VA: 0x18095FF50
 	public int get_AvailableVertices() { }
 
-	// RVA: 0x4D3FB0 Offset: 0x4D25B0 VA: 0x1804D3FB0
+	// RVA: 0x4D3F40 Offset: 0x4D2540 VA: 0x1804D3F40
 	public void Alloc() { }
 
-	// RVA: 0x95F940 Offset: 0x95DF40 VA: 0x18095F940
+	// RVA: 0x95FE40 Offset: 0x95E440 VA: 0x18095FE40
 	public void Free() { }
 
-	// RVA: 0x95FA30 Offset: 0x95E030 VA: 0x18095FA30
+	// RVA: 0x95FF30 Offset: 0x95E530 VA: 0x18095FF30
 	public void Refresh() { }
 
-	// RVA: 0x95F8F0 Offset: 0x95DEF0 VA: 0x18095F8F0
+	// RVA: 0x95FDF0 Offset: 0x95E3F0 VA: 0x18095FDF0
 	public void Apply() { }
 
-	// RVA: 0x95F910 Offset: 0x95DF10 VA: 0x18095F910
+	// RVA: 0x95FE10 Offset: 0x95E410 VA: 0x18095FE10
 	public void Display() { }
 
-	// RVA: 0x95F960 Offset: 0x95DF60 VA: 0x18095F960
+	// RVA: 0x95FE60 Offset: 0x95E460 VA: 0x18095FE60
 	public void Invalidate() { }
 
-	// RVA: 0x95F8E0 Offset: 0x95DEE0 VA: 0x18095F8E0
+	// RVA: 0x95FDE0 Offset: 0x95E3E0 VA: 0x18095FDE0
 	protected void AddVertices(int vertices) { }
 
-	// RVA: 0x95FA20 Offset: 0x95E020 VA: 0x18095FA20
+	// RVA: 0x95FF20 Offset: 0x95E520 VA: 0x18095FF20
 	protected void OnEnable() { }
 
-	// RVA: 0x95F990 Offset: 0x95DF90 VA: 0x18095F990
+	// RVA: 0x95FE90 Offset: 0x95E490 VA: 0x18095FE90
 	protected void OnDisable() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

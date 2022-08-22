@@ -13,28 +13,28 @@ public class PhotoEntity : ImageStorageEntity, IUGCBrowserEntity // TypeDefIndex
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x900120 Offset: 0x8FE720 VA: 0x180900120
+	// RVA: 0x900630 Offset: 0x8FEC30 VA: 0x180900630
 	public ulong get_PhotographerSteamId() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x907160 Offset: 0x905760 VA: 0x180907160
+	// RVA: 0x907670 Offset: 0x905C70 VA: 0x180907670
 	private void set_PhotographerSteamId(ulong value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x907140 Offset: 0x905740 VA: 0x180907140
+	// RVA: 0x907650 Offset: 0x905C50 VA: 0x180907650
 	public uint get_ImageCrc() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x907150 Offset: 0x905750 VA: 0x180907150
+	// RVA: 0x907660 Offset: 0x905C60 VA: 0x180907660
 	private void set_ImageCrc(uint value) { }
 
-	// RVA: 0x907140 Offset: 0x905740 VA: 0x180907140 Slot: 132
+	// RVA: 0x907650 Offset: 0x905C50 VA: 0x180907650 Slot: 132
 	protected override uint get_CrcToLoad() { }
 
-	// RVA: 0x9070C0 Offset: 0x9056C0 VA: 0x1809070C0 Slot: 34
+	// RVA: 0x9075D0 Offset: 0x905BD0 VA: 0x1809075D0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x907130 Offset: 0x905730 VA: 0x180907130
+	// RVA: 0x907640 Offset: 0x905C40 VA: 0x180907640
 	public void .ctor() { }
 
 }

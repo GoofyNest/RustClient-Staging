@@ -23,59 +23,59 @@ public class MP3Stream : Stream // TypeDefIndex: 7379
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xABF100 Offset: 0xABD700 VA: 0x180ABF100
+	// RVA: 0xABF5D0 Offset: 0xABDBD0 VA: 0x180ABF5D0
 	public bool get_IsEOF() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2262980 Offset: 0x2260F80 VA: 0x182262980
+	// RVA: 0x22631A0 Offset: 0x22617A0 VA: 0x1822631A0
 	protected void set_IsEOF(bool value) { }
 
-	// RVA: 0x22625D0 Offset: 0x2260BD0 VA: 0x1822625D0
+	// RVA: 0x2262DF0 Offset: 0x22613F0 VA: 0x182262DF0
 	public void .ctor(Stream sourceStream) { }
 
-	// RVA: 0x22625E0 Offset: 0x2260BE0 VA: 0x1822625E0
+	// RVA: 0x2262E00 Offset: 0x2261400 VA: 0x182262E00
 	public void .ctor(Stream sourceStream, int chunkSize) { }
 
-	// RVA: 0x2262890 Offset: 0x2260E90 VA: 0x182262890 Slot: 7
+	// RVA: 0x22630B0 Offset: 0x22616B0 VA: 0x1822630B0 Slot: 7
 	public override bool get_CanRead() { }
 
-	// RVA: 0x22628C0 Offset: 0x2260EC0 VA: 0x1822628C0 Slot: 8
+	// RVA: 0x22630E0 Offset: 0x22616E0 VA: 0x1822630E0 Slot: 8
 	public override bool get_CanSeek() { }
 
-	// RVA: 0x22628F0 Offset: 0x2260EF0 VA: 0x1822628F0 Slot: 9
+	// RVA: 0x2263110 Offset: 0x2261710 VA: 0x182263110 Slot: 9
 	public override bool get_CanWrite() { }
 
-	// RVA: 0x2262920 Offset: 0x2260F20 VA: 0x182262920 Slot: 10
+	// RVA: 0x2263140 Offset: 0x2261740 VA: 0x182263140 Slot: 10
 	public override long get_Length() { }
 
-	// RVA: 0x2262950 Offset: 0x2260F50 VA: 0x182262950 Slot: 11
+	// RVA: 0x2263170 Offset: 0x2261770 VA: 0x182263170 Slot: 11
 	public override long get_Position() { }
 
-	// RVA: 0x2262990 Offset: 0x2260F90 VA: 0x182262990 Slot: 12
+	// RVA: 0x22631B0 Offset: 0x22617B0 VA: 0x1822631B0 Slot: 12
 	public override void set_Position(long value) { }
 
-	// RVA: 0x8D9010 Offset: 0x8D7610 VA: 0x1808D9010
+	// RVA: 0x8D9520 Offset: 0x8D7B20 VA: 0x1808D9520
 	public int get_Frequency() { }
 
-	// RVA: 0x22622A0 Offset: 0x22608A0 VA: 0x1822622A0 Slot: 18
+	// RVA: 0x2262AC0 Offset: 0x22610C0 VA: 0x182262AC0 Slot: 18
 	public override void Flush() { }
 
-	// RVA: 0x2262500 Offset: 0x2260B00 VA: 0x182262500 Slot: 25
+	// RVA: 0x2262D20 Offset: 0x2261320 VA: 0x182262D20 Slot: 25
 	public override long Seek(long offset, SeekOrigin origin) { }
 
-	// RVA: 0x2262530 Offset: 0x2260B30 VA: 0x182262530 Slot: 26
+	// RVA: 0x2262D50 Offset: 0x2261350 VA: 0x182262D50 Slot: 26
 	public override void SetLength(long value) { }
 
-	// RVA: 0x2262580 Offset: 0x2260B80 VA: 0x182262580 Slot: 29
+	// RVA: 0x2262DA0 Offset: 0x22613A0 VA: 0x182262DA0 Slot: 29
 	public override void Write(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x2262430 Offset: 0x2260A30 VA: 0x182262430 Slot: 27
+	// RVA: 0x2262C50 Offset: 0x2261250 VA: 0x182262C50 Slot: 27
 	public override int Read(byte[] buffer, int offset, int count) { }
 
-	// RVA: 0x2262280 Offset: 0x2260880 VA: 0x182262280 Slot: 16
+	// RVA: 0x2262AA0 Offset: 0x22610A0 VA: 0x182262AA0 Slot: 16
 	public override void Close() { }
 
-	// RVA: 0x22622D0 Offset: 0x22608D0 VA: 0x1822622D0
+	// RVA: 0x2262AF0 Offset: 0x22610F0 VA: 0x182262AF0
 	private bool ReadFrame() { }
 
 }

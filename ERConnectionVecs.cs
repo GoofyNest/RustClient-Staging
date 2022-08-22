@@ -5,7 +5,7 @@ public class ERConnectionVecs // TypeDefIndex: 7254
 
 	// Methods
 
-	// RVA: 0xB7E630 Offset: 0xB7CC30 VA: 0x180B7E630
+	// RVA: 0xB7EB00 Offset: 0xB7D100 VA: 0x180B7EB00
 	public void .ctor() { }
 
 }

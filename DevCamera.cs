@@ -7,16 +7,16 @@ public class DevCamera : MonoBehaviour // TypeDefIndex: 9295
 
 	// Methods
 
-	// RVA: 0x97E370 Offset: 0x97C970 VA: 0x18097E370
+	// RVA: 0x97E870 Offset: 0x97CE70 VA: 0x18097E870
 	private void Start() { }
 
-	// RVA: 0x97E440 Offset: 0x97CA40 VA: 0x18097E440
+	// RVA: 0x97E940 Offset: 0x97CF40 VA: 0x18097E940
 	private void Update() { }
 
-	// RVA: 0x97DAA0 Offset: 0x97C0A0 VA: 0x18097DAA0
+	// RVA: 0x97DFA0 Offset: 0x97C5A0 VA: 0x18097DFA0
 	private void DoFreeMovement() { }
 
-	// RVA: 0x97E4F0 Offset: 0x97CAF0 VA: 0x18097E4F0
+	// RVA: 0x97E9F0 Offset: 0x97CFF0 VA: 0x18097E9F0
 	public void .ctor() { }
 
 }

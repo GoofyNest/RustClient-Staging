@@ -6,7 +6,7 @@ public static class IParticleSystemJobExtensions // TypeDefIndex: 4547
 	public static JobHandle Schedule<T>(T jobData, ParticleSystem ps, JobHandle dependsOn) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A396E0 Offset: 0x1A37CE0 VA: 0x181A396E0
+	|-RVA: 0x1A38E00 Offset: 0x1A37400 VA: 0x181A38E00
 	|-IParticleSystemJobExtensions.Schedule<ParticleSystemIK.ParticleSystemIKJob>
 	*/
 
@@ -14,7 +14,7 @@ public static class IParticleSystemJobExtensions // TypeDefIndex: 4547
 	private static JobsUtility.JobScheduleParameters CreateScheduleParams<T>(ref T jobData, ParticleSystem ps, JobHandle dependsOn, IntPtr jobReflectionData) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A395D0 Offset: 0x1A37BD0 VA: 0x181A395D0
+	|-RVA: 0x1A38CF0 Offset: 0x1A372F0 VA: 0x181A38CF0
 	|-IParticleSystemJobExtensions.CreateScheduleParams<ParticleSystemIK.ParticleSystemIKJob>
 	*/
 

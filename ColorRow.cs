@@ -11,19 +11,19 @@ public class ColorRow : MaterialRow // TypeDefIndex: 7756
 
 	// Methods
 
-	// RVA: 0xE733E0 Offset: 0xE719E0 VA: 0x180E733E0
+	// RVA: 0xE73E90 Offset: 0xE72490 VA: 0x180E73E90
 	public void Update() { }
 
-	// RVA: 0xE734A0 Offset: 0xE71AA0 VA: 0x180E734A0
+	// RVA: 0xE73F50 Offset: 0xE72550 VA: 0x180E73F50
 	public bool get_IsDefault() { }
 
-	// RVA: 0xE73140 Offset: 0xE71740 VA: 0x180E73140 Slot: 4
+	// RVA: 0xE73BF0 Offset: 0xE721F0 VA: 0x180E73BF0 Slot: 4
 	public override void Read(Material source, Material def) { }
 
-	// RVA: 0xE732E0 Offset: 0xE718E0 VA: 0x180E732E0
+	// RVA: 0xE73D90 Offset: 0xE72390 VA: 0x180E73D90
 	public void ResetToDefault() { }
 
-	// RVA: 0xE72FF0 Offset: 0xE715F0 VA: 0x180E72FF0
+	// RVA: 0xE73AA0 Offset: 0xE720A0 VA: 0x180E73AA0
 	public void OnChanged() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

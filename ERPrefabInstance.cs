@@ -12,10 +12,10 @@ public class ERPrefabInstance : MonoBehaviour // TypeDefIndex: 7289
 
 	// Methods
 
-	// RVA: 0xB3BB90 Offset: 0xB3A190 VA: 0x180B3BB90
+	// RVA: 0xB3C060 Offset: 0xB3A660 VA: 0x180B3C060
 	public void Copy(ERPrefabInstance source) { }
 
-	// RVA: 0xB3BC60 Offset: 0xB3A260 VA: 0x180B3BC60
+	// RVA: 0xB3C130 Offset: 0xB3A730 VA: 0x180B3C130
 	public void .ctor() { }
 
 }

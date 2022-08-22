@@ -2,27 +2,27 @@ internal static class Native // TypeDefIndex: 4578
 {	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22F6A30 Offset: 0x22F5030 VA: 0x1822F6A30
+	// RVA: 0x22F7250 Offset: 0x22F5850 VA: 0x1822F7250
 	public static void YGNodeMeasureInvoke(YogaNode node, float width, YogaMeasureMode widthMode, float height, YogaMeasureMode heightMode, IntPtr returnValueAddress) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x22F6870 Offset: 0x22F4E70 VA: 0x1822F6870
+	// RVA: 0x22F7090 Offset: 0x22F5690 VA: 0x1822F7090
 	public static void YGNodeBaselineInvoke(YogaNode node, float width, float height, IntPtr returnValueAddress) { }
 
 	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
-	// RVA: 0x22F6970 Offset: 0x22F4F70 VA: 0x1822F6970
+	// RVA: 0x22F7190 Offset: 0x22F5790 VA: 0x1822F7190
 	public static float YGNodeLayoutGetLeft(IntPtr node) { }
 
 	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
-	// RVA: 0x22F69B0 Offset: 0x22F4FB0 VA: 0x1822F69B0
+	// RVA: 0x22F71D0 Offset: 0x22F57D0 VA: 0x1822F71D0
 	public static float YGNodeLayoutGetTop(IntPtr node) { }
 
 	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
-	// RVA: 0x22F69F0 Offset: 0x22F4FF0 VA: 0x1822F69F0
+	// RVA: 0x22F7210 Offset: 0x22F5810 VA: 0x1822F7210
 	public static float YGNodeLayoutGetWidth(IntPtr node) { }
 
 	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
-	// RVA: 0x22F6930 Offset: 0x22F4F30 VA: 0x1822F6930
+	// RVA: 0x22F7150 Offset: 0x22F5750 VA: 0x1822F7150
 	public static float YGNodeLayoutGetHeight(IntPtr node) { }
 
 }
@@ -34,91 +34,91 @@ public class Native // TypeDefIndex: 7323
 public class Native // TypeDefIndex: 7323
 	// Methods
 
-	// RVA: 0x22CD380 Offset: 0x22CB980 VA: 0x1822CD380
+	// RVA: 0x22CDBA0 Offset: 0x22CC1A0 VA: 0x1822CDBA0
 	public static extern IntPtr NET_Create() { }
 
-	// RVA: 0x22CD300 Offset: 0x22CB900 VA: 0x1822CD300
+	// RVA: 0x22CDB20 Offset: 0x22CC120 VA: 0x1822CDB20
 	public static extern void NET_Close(IntPtr nw) { }
 
-	// RVA: 0x22CD9B0 Offset: 0x22CBFB0 VA: 0x1822CD9B0
+	// RVA: 0x22CE1D0 Offset: 0x22CC7D0 VA: 0x1822CE1D0
 	public static extern int NET_StartClient(IntPtr nw, string hostName, int port, int retries, int retryDelay, int timeout) { }
 
-	// RVA: 0x22CDA90 Offset: 0x22CC090 VA: 0x1822CDA90
+	// RVA: 0x22CE2B0 Offset: 0x22CC8B0 VA: 0x1822CE2B0
 	public static extern int NET_StartServer(IntPtr nw, string ip, int port, int maxConnections) { }
 
-	// RVA: 0x22CD7F0 Offset: 0x22CBDF0 VA: 0x1822CD7F0
+	// RVA: 0x22CE010 Offset: 0x22CC610 VA: 0x1822CE010
 	public static extern IntPtr NET_LastStartupError(IntPtr nw) { }
 
-	// RVA: 0x22CD630 Offset: 0x22CBC30 VA: 0x1822CD630
+	// RVA: 0x22CDE50 Offset: 0x22CC450 VA: 0x1822CDE50
 	public static extern uint NET_GetReceiveBufferSize(IntPtr nw) { }
 
-	// RVA: 0x22CD870 Offset: 0x22CBE70 VA: 0x1822CD870
+	// RVA: 0x22CE090 Offset: 0x22CC690 VA: 0x1822CE090
 	public static extern bool NET_Receive(IntPtr nw) { }
 
-	// RVA: 0x22CCB50 Offset: 0x22CB150 VA: 0x1822CCB50
+	// RVA: 0x22CD370 Offset: 0x22CB970 VA: 0x1822CD370
 	public static extern ulong NETRCV_GUID(IntPtr nw) { }
 
-	// RVA: 0x22CCAD0 Offset: 0x22CB0D0 VA: 0x1822CCAD0
+	// RVA: 0x22CD2F0 Offset: 0x22CB8F0 VA: 0x1822CD2F0
 	public static extern uint NETRCV_Address(IntPtr nw) { }
 
-	// RVA: 0x22CCC50 Offset: 0x22CB250 VA: 0x1822CCC50
+	// RVA: 0x22CD470 Offset: 0x22CBA70 VA: 0x1822CD470
 	public static extern uint NETRCV_Port(IntPtr nw) { }
 
-	// RVA: 0x22CCCD0 Offset: 0x22CB2D0 VA: 0x1822CCCD0
+	// RVA: 0x22CD4F0 Offset: 0x22CBAF0 VA: 0x1822CD4F0
 	public static extern IntPtr NETRCV_RawData(IntPtr nw) { }
 
-	// RVA: 0x22CCBD0 Offset: 0x22CB1D0 VA: 0x1822CCBD0
+	// RVA: 0x22CD3F0 Offset: 0x22CB9F0 VA: 0x1822CD3F0
 	public static extern int NETRCV_LengthBits(IntPtr nw) { }
 
-	// RVA: 0x22CCE80 Offset: 0x22CB480 VA: 0x1822CCE80
+	// RVA: 0x22CD6A0 Offset: 0x22CBCA0 VA: 0x1822CD6A0
 	public static extern int NETRCV_UnreadBits(IntPtr nw) { }
 
-	// RVA: 0x22CCD50 Offset: 0x22CB350 VA: 0x1822CCD50
+	// RVA: 0x22CD570 Offset: 0x22CBB70 VA: 0x1822CD570
 	public static extern bool NETRCV_ReadBytes(IntPtr nw, byte* data, int length) { }
 
-	// RVA: 0x22CCDF0 Offset: 0x22CB3F0 VA: 0x1822CCDF0
+	// RVA: 0x22CD610 Offset: 0x22CBC10 VA: 0x1822CD610
 	public static extern void NETRCV_SetReadPointer(IntPtr nw, int bitsOffset) { }
 
-	// RVA: 0x22CD150 Offset: 0x22CB750 VA: 0x1822CD150
+	// RVA: 0x22CD970 Offset: 0x22CBF70 VA: 0x1822CD970
 	public static extern void NETSND_Start(IntPtr nw) { }
 
-	// RVA: 0x22CD1D0 Offset: 0x22CB7D0 VA: 0x1822CD1D0
+	// RVA: 0x22CD9F0 Offset: 0x22CBFF0 VA: 0x1822CD9F0
 	public static extern void NETSND_WriteBytes(IntPtr nw, byte* data, int length) { }
 
-	// RVA: 0x22CD0D0 Offset: 0x22CB6D0 VA: 0x1822CD0D0
+	// RVA: 0x22CD8F0 Offset: 0x22CBEF0 VA: 0x1822CD8F0
 	public static extern uint NETSND_Size(IntPtr nw) { }
 
-	// RVA: 0x22CCF00 Offset: 0x22CB500 VA: 0x1822CCF00
+	// RVA: 0x22CD720 Offset: 0x22CBD20 VA: 0x1822CD720
 	public static extern uint NETSND_Broadcast(IntPtr nw, int priority, int reliability, int channel) { }
 
-	// RVA: 0x22CD020 Offset: 0x22CB620 VA: 0x1822CD020
+	// RVA: 0x22CD840 Offset: 0x22CBE40 VA: 0x1822CD840
 	public static extern uint NETSND_Send(IntPtr nw, ulong connectionID, int priority, int reliability, int channel) { }
 
-	// RVA: 0x22CD270 Offset: 0x22CB870 VA: 0x1822CD270
+	// RVA: 0x22CDA90 Offset: 0x22CC090 VA: 0x1822CDA90
 	public static extern void NET_CloseConnection(IntPtr nw, ulong connectionID) { }
 
-	// RVA: 0x22CD3F0 Offset: 0x22CB9F0 VA: 0x1822CD3F0
+	// RVA: 0x22CDC10 Offset: 0x22CC210 VA: 0x1822CDC10
 	public static extern IntPtr NET_GetAddress(IntPtr nw, ulong connectionID) { }
 
-	// RVA: 0x22CD6B0 Offset: 0x22CBCB0 VA: 0x1822CD6B0
+	// RVA: 0x22CDED0 Offset: 0x22CC4D0 VA: 0x1822CDED0
 	public static extern IntPtr NET_GetStatisticsString(IntPtr nw, ulong connectionID) { }
 
-	// RVA: 0x22CD740 Offset: 0x22CBD40 VA: 0x1822CD740
+	// RVA: 0x22CDF60 Offset: 0x22CC560 VA: 0x1822CDF60
 	public static extern bool NET_GetStatistics(IntPtr nw, ulong connectionID, ref Native.RaknetStats data, int dataLength) { }
 
-	// RVA: 0x22CD480 Offset: 0x22CBA80 VA: 0x1822CD480
+	// RVA: 0x22CDCA0 Offset: 0x22CC2A0 VA: 0x1822CDCA0
 	public static extern int NET_GetAveragePing(IntPtr nw, ulong connectionID) { }
 
-	// RVA: 0x22CD510 Offset: 0x22CBB10 VA: 0x1822CD510
+	// RVA: 0x22CDD30 Offset: 0x22CC330 VA: 0x1822CDD30
 	public static extern int NET_GetLastPing(IntPtr nw, ulong connectionID) { }
 
-	// RVA: 0x22CD5A0 Offset: 0x22CBBA0 VA: 0x1822CD5A0
+	// RVA: 0x22CDDC0 Offset: 0x22CC3C0 VA: 0x1822CDDC0
 	public static extern int NET_GetLowestPing(IntPtr nw, ulong connectionID) { }
 
-	// RVA: 0x22CD8F0 Offset: 0x22CBEF0 VA: 0x1822CD8F0
+	// RVA: 0x22CE110 Offset: 0x22CC710 VA: 0x1822CE110
 	public static extern void NET_SendMessage(IntPtr nw, byte* data, int length, uint adr, ushort port) { }
 
-	// RVA: 0x22CCFA0 Offset: 0x22CB5A0 VA: 0x1822CCFA0
+	// RVA: 0x22CD7C0 Offset: 0x22CBDC0 VA: 0x1822CD7C0
 	public static extern float NETSND_ReadCompressedFloat(IntPtr nw) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

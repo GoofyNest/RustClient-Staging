@@ -6,13 +6,13 @@ public class DecayPoint : PrefabAttribute // TypeDefIndex: 9064
 
 	// Methods
 
-	// RVA: 0x840A20 Offset: 0x83F020 VA: 0x180840A20
+	// RVA: 0x840F70 Offset: 0x83F570 VA: 0x180840F70
 	public bool IsOccupied(BaseEntity entity) { }
 
-	// RVA: 0x8409C0 Offset: 0x83EFC0 VA: 0x1808409C0 Slot: 7
+	// RVA: 0x840F10 Offset: 0x83F510 VA: 0x180840F10 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x840A50 Offset: 0x83F050 VA: 0x180840A50
+	// RVA: 0x840FA0 Offset: 0x83F5A0 VA: 0x180840FA0
 	public void .ctor() { }
 
 }

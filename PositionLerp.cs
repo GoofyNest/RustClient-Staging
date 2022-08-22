@@ -31,67 +31,67 @@ public class PositionLerp : IDisposable // TypeDefIndex: 9222
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public bool get_Enabled() { }
 
-	// RVA: 0x99B440 Offset: 0x999A40 VA: 0x18099B440
+	// RVA: 0x99B930 Offset: 0x999F30 VA: 0x18099B930
 	public void set_Enabled(bool value) { }
 
-	// RVA: 0x99B3A0 Offset: 0x9999A0 VA: 0x18099B3A0
+	// RVA: 0x99B890 Offset: 0x999E90 VA: 0x18099B890
 	public static float get_LerpTime() { }
 
-	// RVA: 0x999EA0 Offset: 0x9984A0 VA: 0x180999EA0
+	// RVA: 0x99A390 Offset: 0x998990 VA: 0x18099A390
 	private void OnEnable() { }
 
-	// RVA: 0x999E20 Offset: 0x998420 VA: 0x180999E20
+	// RVA: 0x99A310 Offset: 0x998910 VA: 0x18099A310
 	private void OnDisable() { }
 
-	// RVA: 0x999D80 Offset: 0x998380 VA: 0x180999D80
+	// RVA: 0x99A270 Offset: 0x998870 VA: 0x18099A270
 	public void Initialize(IPosLerpTarget target) { }
 
-	// RVA: 0x99A5A0 Offset: 0x998BA0 VA: 0x18099A5A0
+	// RVA: 0x99AA90 Offset: 0x999090 VA: 0x18099AA90
 	public void Snapshot(Vector3 position, Quaternion rotation, float serverTime) { }
 
-	// RVA: 0x99A4E0 Offset: 0x998AE0 VA: 0x18099A4E0
+	// RVA: 0x99A9D0 Offset: 0x998FD0 VA: 0x18099A9D0
 	public void Snapshot(Vector3 position, Quaternion rotation) { }
 
-	// RVA: 0x99A2F0 Offset: 0x9988F0 VA: 0x18099A2F0
+	// RVA: 0x99A7E0 Offset: 0x998DE0 VA: 0x18099A7E0
 	public void SnapTo(Vector3 position, Quaternion rotation, float serverTime) { }
 
-	// RVA: 0x99A1C0 Offset: 0x9987C0 VA: 0x18099A1C0
+	// RVA: 0x99A6B0 Offset: 0x998CB0 VA: 0x18099A6B0
 	public void SnapTo(Vector3 position, Quaternion rotation) { }
 
-	// RVA: 0x999F30 Offset: 0x998530 VA: 0x180999F30
+	// RVA: 0x99A420 Offset: 0x998A20 VA: 0x18099A420
 	public void SnapToEnd() { }
 
-	// RVA: 0x99B1D0 Offset: 0x9997D0 VA: 0x18099B1D0
+	// RVA: 0x99B6C0 Offset: 0x999CC0 VA: 0x18099B6C0
 	public void Wipe() { }
 
-	// RVA: 0x99B040 Offset: 0x999640 VA: 0x18099B040
+	// RVA: 0x99B530 Offset: 0x999B30 VA: 0x18099B530
 	public static void WipeAll() { }
 
-	// RVA: 0x998F10 Offset: 0x997510 VA: 0x180998F10
+	// RVA: 0x999400 Offset: 0x997A00 VA: 0x180999400
 	protected void DoCycle() { }
 
-	// RVA: 0x99ADE0 Offset: 0x9993E0 VA: 0x18099ADE0
+	// RVA: 0x99B2D0 Offset: 0x9998D0 VA: 0x18099B2D0
 	public void TransformEntries(Matrix4x4 matrix) { }
 
-	// RVA: 0x999800 Offset: 0x997E00 VA: 0x180999800
+	// RVA: 0x999CF0 Offset: 0x9982F0 VA: 0x180999CF0
 	public Quaternion GetEstimatedAngularVelocity() { }
 
-	// RVA: 0x999AF0 Offset: 0x9980F0 VA: 0x180999AF0
+	// RVA: 0x999FE0 Offset: 0x9985E0 VA: 0x180999FE0
 	public Vector3 GetEstimatedVelocity() { }
 
-	// RVA: 0x998E10 Offset: 0x997410 VA: 0x180998E10 Slot: 4
+	// RVA: 0x999300 Offset: 0x997900 VA: 0x180999300 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x998CC0 Offset: 0x9972C0 VA: 0x180998CC0
+	// RVA: 0x9991B0 Offset: 0x9977B0 VA: 0x1809991B0
 	public static void Clear() { }
 
-	// RVA: 0x998D30 Offset: 0x997330 VA: 0x180998D30
+	// RVA: 0x999220 Offset: 0x997820 VA: 0x180999220
 	public static void Cycle() { }
 
-	// RVA: 0x99B310 Offset: 0x999910 VA: 0x18099B310
+	// RVA: 0x99B800 Offset: 0x999E00 VA: 0x18099B800
 	public void .ctor() { }
 
-	// RVA: 0x99B240 Offset: 0x999840 VA: 0x18099B240
+	// RVA: 0x99B730 Offset: 0x999D30 VA: 0x18099B730
 	private static void .cctor() { }
 
 }

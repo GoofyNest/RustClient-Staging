@@ -13,10 +13,10 @@ public class GenerateRailRing : ProceduralComponent // TypeDefIndex: 10491
 
 	// Methods
 
-	// RVA: 0xC8D690 Offset: 0xC8BC90 VA: 0x180C8D690 Slot: 5
+	// RVA: 0xC8DB30 Offset: 0xC8C130 VA: 0x180C8DB30 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40
+	// RVA: 0x57BBD0 Offset: 0x57A1D0 VA: 0x18057BBD0
 	public void .ctor() { }
 
 }
@@ -32,7 +32,7 @@ private class GenerateRailRing.RingNode // TypeDefIndex: 10492
 
 	// Methods
 
-	// RVA: 0xCA75D0 Offset: 0xCA5BD0 VA: 0x180CA75D0
+	// RVA: 0xCA7A70 Offset: 0xCA6070 VA: 0x180CA7A70
 	public void .ctor(int pos_x, int pos_y, int dir_x, int dir_y, int stepcount) { }
 
 }

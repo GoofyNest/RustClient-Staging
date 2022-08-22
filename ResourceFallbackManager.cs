@@ -6,14 +6,14 @@ internal class ResourceFallbackManager : IEnumerable<CultureInfo>, IEnumerable /
 
 	// Methods
 
-	// RVA: 0xFEC820 Offset: 0xFEAE20 VA: 0x180FEC820
+	// RVA: 0xFED2C0 Offset: 0xFEB8C0 VA: 0x180FED2C0
 	internal void .ctor(CultureInfo startingCulture, CultureInfo neutralResourcesCulture, bool useParents) { }
 
-	// RVA: 0xFEC7B0 Offset: 0xFEADB0 VA: 0x180FEC7B0 Slot: 5
+	// RVA: 0xFED250 Offset: 0xFEB850 VA: 0x180FED250 Slot: 5
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x95ED0 Offset: 0x952D0 VA: 0x180095ED0
-	// RVA: 0xFEC7B0 Offset: 0xFEADB0 VA: 0x180FEC7B0 Slot: 4
+	// RVA: 0xFED250 Offset: 0xFEB850 VA: 0x180FED250 Slot: 4
 	public IEnumerator<CultureInfo> GetEnumerator() { }
 
 }
@@ -40,7 +40,7 @@ private sealed class ResourceFallbackManager.<GetEnumerator>d__5 : IEnumerator<C
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xFF6AD0 Offset: 0xFF50D0 VA: 0x180FF6AD0 Slot: 6
+	// RVA: 0xFF7570 Offset: 0xFF5B70 VA: 0x180FF7570 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -48,7 +48,7 @@ private sealed class ResourceFallbackManager.<GetEnumerator>d__5 : IEnumerator<C
 	private CultureInfo System.Collections.Generic.IEnumerator<System.Globalization.CultureInfo>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xFF6D10 Offset: 0xFF5310 VA: 0x180FF6D10 Slot: 8
+	// RVA: 0xFF77B0 Offset: 0xFF5DB0 VA: 0x180FF77B0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

@@ -34,64 +34,64 @@ public struct ColorBlock : IEquatable<ColorBlock> // TypeDefIndex: 4911
 
 	// Methods
 
-	// RVA: 0x14B770 Offset: 0x14AB70 VA: 0x18014B770
+	// RVA: 0x14B590 Offset: 0x14A990 VA: 0x18014B590
 	public Color get_normalColor() { }
 
-	// RVA: 0x19E410 Offset: 0x19D810 VA: 0x18019E410
+	// RVA: 0x19E100 Offset: 0x19D500 VA: 0x18019E100
 	public void set_normalColor(Color value) { }
 
 	// RVA: 0x10AB30 Offset: 0x109F30 VA: 0x18010AB30
 	public Color get_highlightedColor() { }
 
-	// RVA: 0x19E400 Offset: 0x19D800 VA: 0x18019E400
+	// RVA: 0x19E0F0 Offset: 0x19D4F0 VA: 0x18019E0F0
 	public void set_highlightedColor(Color value) { }
 
-	// RVA: 0x19E3B0 Offset: 0x19D7B0 VA: 0x18019E3B0
+	// RVA: 0x19E0A0 Offset: 0x19D4A0 VA: 0x18019E0A0
 	public Color get_pressedColor() { }
 
-	// RVA: 0x19E420 Offset: 0x19D820 VA: 0x18019E420
+	// RVA: 0x19E110 Offset: 0x19D510 VA: 0x18019E110
 	public void set_pressedColor(Color value) { }
 
-	// RVA: 0x19E3C0 Offset: 0x19D7C0 VA: 0x18019E3C0
+	// RVA: 0x19E0B0 Offset: 0x19D4B0 VA: 0x18019E0B0
 	public Color get_selectedColor() { }
 
-	// RVA: 0x19E430 Offset: 0x19D830 VA: 0x18019E430
+	// RVA: 0x19E120 Offset: 0x19D520 VA: 0x18019E120
 	public void set_selectedColor(Color value) { }
 
-	// RVA: 0x19E390 Offset: 0x19D790 VA: 0x18019E390
+	// RVA: 0x19E080 Offset: 0x19D480 VA: 0x18019E080
 	public Color get_disabledColor() { }
 
-	// RVA: 0x19E3E0 Offset: 0x19D7E0 VA: 0x18019E3E0
+	// RVA: 0x19E0D0 Offset: 0x19D4D0 VA: 0x18019E0D0
 	public void set_disabledColor(Color value) { }
 
-	// RVA: 0x19E380 Offset: 0x19D780 VA: 0x18019E380
+	// RVA: 0x19E070 Offset: 0x19D470 VA: 0x18019E070
 	public float get_colorMultiplier() { }
 
-	// RVA: 0x19E3D0 Offset: 0x19D7D0 VA: 0x18019E3D0
+	// RVA: 0x19E0C0 Offset: 0x19D4C0 VA: 0x18019E0C0
 	public void set_colorMultiplier(float value) { }
 
-	// RVA: 0x19E3A0 Offset: 0x19D7A0 VA: 0x18019E3A0
+	// RVA: 0x19E090 Offset: 0x19D490 VA: 0x18019E090
 	public float get_fadeDuration() { }
 
-	// RVA: 0x19E3F0 Offset: 0x19D7F0 VA: 0x18019E3F0
+	// RVA: 0x19E0E0 Offset: 0x19D4E0 VA: 0x18019E0E0
 	public void set_fadeDuration(float value) { }
 
-	// RVA: 0x10BA0A0 Offset: 0x10B86A0 VA: 0x1810BA0A0
+	// RVA: 0x10BAB10 Offset: 0x10B9110 VA: 0x1810BAB10
 	public static ColorBlock get_defaultColorBlock() { }
 
-	// RVA: 0x19E1C0 Offset: 0x19D5C0 VA: 0x18019E1C0 Slot: 0
+	// RVA: 0x19DEB0 Offset: 0x19D2B0 VA: 0x18019DEB0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x19E2A0 Offset: 0x19D6A0 VA: 0x18019E2A0 Slot: 4
+	// RVA: 0x19DF90 Offset: 0x19D390 VA: 0x18019DF90 Slot: 4
 	public bool Equals(ColorBlock other) { }
 
-	// RVA: 0x10BA210 Offset: 0x10B8810 VA: 0x1810BA210
+	// RVA: 0x10BAC80 Offset: 0x10B9280 VA: 0x1810BAC80
 	public static bool op_Equality(ColorBlock point1, ColorBlock point2) { }
 
-	// RVA: 0x10BA260 Offset: 0x10B8860 VA: 0x1810BA260
+	// RVA: 0x10BACD0 Offset: 0x10B92D0 VA: 0x1810BACD0
 	public static bool op_Inequality(ColorBlock point1, ColorBlock point2) { }
 
-	// RVA: 0x19E2F0 Offset: 0x19D6F0 VA: 0x18019E2F0 Slot: 2
+	// RVA: 0x19DFE0 Offset: 0x19D3E0 VA: 0x18019DFE0 Slot: 2
 	public override int GetHashCode() { }
 
 }

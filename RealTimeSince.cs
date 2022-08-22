@@ -4,10 +4,10 @@ public struct RealTimeSince // TypeDefIndex: 6166
 
 	// Methods
 
-	// RVA: 0x14B7F10 Offset: 0x14B6510 VA: 0x1814B7F10
+	// RVA: 0x14B6FE0 Offset: 0x14B55E0 VA: 0x1814B6FE0
 	public static float op_Implicit(RealTimeSince ts) { }
 
-	// RVA: 0x14B7F40 Offset: 0x14B6540 VA: 0x1814B7F40
+	// RVA: 0x14B7010 Offset: 0x14B5610 VA: 0x1814B7010
 	public static RealTimeSince op_Implicit(float ts) { }
 
 }

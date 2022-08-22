@@ -14,13 +14,13 @@ internal struct SearchForGameProgressCallback_t : ICallbackData // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1D7DC0 Offset: 0x1D71C0 VA: 0x1801D7DC0 Slot: 5
+	// RVA: 0x1D8430 Offset: 0x1D7830 VA: 0x1801D8430 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7DB0 Offset: 0x1D71B0 VA: 0x1801D7DB0 Slot: 4
+	// RVA: 0x1D8420 Offset: 0x1D7820 VA: 0x1801D8420 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128F010 Offset: 0x128D610 VA: 0x18128F010
+	// RVA: 0x128F6B0 Offset: 0x128DCB0 VA: 0x18128F6B0
 	private static void .cctor() { }
 
 }

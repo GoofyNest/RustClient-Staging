@@ -22,7 +22,7 @@ public struct DebugScreenCapture // TypeDefIndex: 3581
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19E410 Offset: 0x19D810 VA: 0x18019E410
+	// RVA: 0x19E100 Offset: 0x19D500 VA: 0x18019E100
 	public void set_rawImageDataReference(NativeArray<byte> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -30,7 +30,7 @@ public struct DebugScreenCapture // TypeDefIndex: 3581
 	public void set_imageFormat(TextureFormat value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x215A00 Offset: 0x214E00 VA: 0x180215A00
+	// RVA: 0x2160D0 Offset: 0x2154D0 VA: 0x1802160D0
 	public void set_width(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

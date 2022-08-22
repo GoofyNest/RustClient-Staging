@@ -5,10 +5,10 @@ public class InvisibleVendingMachine : NPCVendingMachine // TypeDefIndex: 8721
 
 	// Methods
 
-	// RVA: 0xA23E20 Offset: 0xA22420 VA: 0x180A23E20 Slot: 34
+	// RVA: 0xA24310 Offset: 0xA22910 VA: 0x180A24310 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xA23E40 Offset: 0xA22440 VA: 0x180A23E40
+	// RVA: 0xA24330 Offset: 0xA22930 VA: 0x180A24330
 	public void .ctor() { }
 
 }

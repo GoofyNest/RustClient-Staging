@@ -4,28 +4,28 @@ internal class ImportVersion2 : SingletonComponent<ImportVersion2> // TypeDefInd
 
 	// Methods
 
-	// RVA: 0xE73EF0 Offset: 0xE724F0 VA: 0x180E73EF0
+	// RVA: 0xE749A0 Offset: 0xE72FA0 VA: 0x180E749A0
 	public void OnDisable() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xD9560 Offset: 0xD8960 VA: 0x1800D9560
-	// RVA: 0xE73BB0 Offset: 0xE721B0 VA: 0x180E73BB0
+	// RVA: 0xE74660 Offset: 0xE72C60 VA: 0x180E74660
 	internal IEnumerator DoImport(IWorkshopContent item, Skin skin) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xD9730 Offset: 0xD8B30 VA: 0x1800D9730
-	// RVA: 0xE73E30 Offset: 0xE72430 VA: 0x180E73E30
+	// RVA: 0xE748E0 Offset: 0xE72EE0 VA: 0x180E748E0
 	public IEnumerator LoadItem(string Folder, string BundleName, Skin skin) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xD9820 Offset: 0xD8C20 VA: 0x1800D9820
-	// RVA: 0xE73FF0 Offset: 0xE725F0 VA: 0x180E73FF0
+	// RVA: 0xE74AA0 Offset: 0xE730A0 VA: 0x180E74AA0
 	private IEnumerator ProcessMaterial(int v, Material inputMaterial, Skin skin) { }
 
-	// RVA: 0xE73C50 Offset: 0xE72250 VA: 0x180E73C50
+	// RVA: 0xE74700 Offset: 0xE72D00 VA: 0x180E74700
 	private Texture2D ImportTexture(string name, Material inputMaterial, Material outputMaterial, bool normal, Skin skin, int group, string targetName) { }
 
-	// RVA: 0xE739D0 Offset: 0xE71FD0 VA: 0x180E739D0
+	// RVA: 0xE74480 Offset: 0xE72A80 VA: 0x180E74480
 	private Texture2D ConvertMetalToSpec(Texture2D tex, Material outputMaterial) { }
 
-	// RVA: 0xE740A0 Offset: 0xE726A0 VA: 0x180E740A0
+	// RVA: 0xE74B50 Offset: 0xE73150 VA: 0x180E74B50
 	public void .ctor() { }
 
 }
@@ -52,7 +52,7 @@ private sealed class ImportVersion2.<DoImport>d__2 : IEnumerator<object>, IEnume
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xE78540 Offset: 0xE76B40 VA: 0x180E78540 Slot: 6
+	// RVA: 0xE78FF0 Offset: 0xE775F0 VA: 0x180E78FF0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -60,7 +60,7 @@ private sealed class ImportVersion2.<DoImport>d__2 : IEnumerator<object>, IEnume
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE788F0 Offset: 0xE76EF0 VA: 0x180E788F0 Slot: 8
+	// RVA: 0xE793A0 Offset: 0xE779A0 VA: 0x180E793A0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -78,7 +78,7 @@ private sealed class ImportVersion2.<>c__DisplayClass3_0 // TypeDefIndex: 7774
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xE80AC0 Offset: 0xE7F0C0 VA: 0x180E80AC0
+	// RVA: 0xE81570 Offset: 0xE7FB70 VA: 0x180E81570
 	internal bool <LoadItem>b__0() { }
 
 }
@@ -108,7 +108,7 @@ private sealed class ImportVersion2.<LoadItem>d__3 : IEnumerator<object>, IEnume
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xE7D5F0 Offset: 0xE7BBF0 VA: 0x180E7D5F0 Slot: 6
+	// RVA: 0xE7E0A0 Offset: 0xE7C6A0 VA: 0x180E7E0A0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -116,7 +116,7 @@ private sealed class ImportVersion2.<LoadItem>d__3 : IEnumerator<object>, IEnume
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE7DB90 Offset: 0xE7C190 VA: 0x180E7DB90 Slot: 8
+	// RVA: 0xE7E640 Offset: 0xE7CC40 VA: 0x180E7E640 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -148,7 +148,7 @@ private sealed class ImportVersion2.<ProcessMaterial>d__4 : IEnumerator<object>,
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xE7E7E0 Offset: 0xE7CDE0 VA: 0x180E7E7E0 Slot: 6
+	// RVA: 0xE7F290 Offset: 0xE7D890 VA: 0x180E7F290 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -156,7 +156,7 @@ private sealed class ImportVersion2.<ProcessMaterial>d__4 : IEnumerator<object>,
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xE7ED60 Offset: 0xE7D360 VA: 0x180E7ED60 Slot: 8
+	// RVA: 0xE7F810 Offset: 0xE7DE10 VA: 0x180E7F810 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

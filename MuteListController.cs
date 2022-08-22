@@ -6,19 +6,19 @@ public class MuteListController : UIDialog // TypeDefIndex: 12040
 
 	// Methods
 
-	// RVA: 0x4C15B0 Offset: 0x4BFBB0 VA: 0x1804C15B0 Slot: 6
+	// RVA: 0x4C1540 Offset: 0x4BFB40 VA: 0x1804C1540 Slot: 6
 	protected override void OnEnable() { }
 
-	// RVA: 0x4C16C0 Offset: 0x4BFCC0 VA: 0x1804C16C0
+	// RVA: 0x4C1650 Offset: 0x4BFC50 VA: 0x1804C1650
 	private void PopulateMuteList() { }
 
-	// RVA: 0x4C1A40 Offset: 0x4C0040 VA: 0x1804C1A40
+	// RVA: 0x4C19D0 Offset: 0x4BFFD0 VA: 0x1804C19D0
 	public void RemoveFromMuteList(ulong id) { }
 
-	// RVA: 0x4C1500 Offset: 0x4BFB00 VA: 0x1804C1500
+	// RVA: 0x4C1490 Offset: 0x4BFA90 VA: 0x1804C1490
 	public void MutePlayer(ulong id, string playerName) { }
 
-	// RVA: 0x4C1AB0 Offset: 0x4C00B0 VA: 0x1804C1AB0
+	// RVA: 0x4C1A40 Offset: 0x4C0040 VA: 0x1804C1A40
 	public void .ctor() { }
 
 }
@@ -30,13 +30,13 @@ private sealed class MuteListController.<>c // TypeDefIndex: 12041
 
 	// Methods
 
-	// RVA: 0x4D26E0 Offset: 0x4D0CE0 VA: 0x1804D26E0
+	// RVA: 0x4D2670 Offset: 0x4D0C70 VA: 0x1804D2670
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x4D1C40 Offset: 0x4D0240 VA: 0x1804D1C40
+	// RVA: 0x4D1BD0 Offset: 0x4D01D0 VA: 0x1804D1BD0
 	internal bool <OnEnable>b__3_0(ulong arg) { }
 
 }
@@ -51,7 +51,7 @@ private sealed class MuteListController.<>c__DisplayClass4_0 // TypeDefIndex: 12
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x4D24E0 Offset: 0x4D0AE0 VA: 0x1804D24E0
+	// RVA: 0x4D2470 Offset: 0x4D0A70 VA: 0x1804D2470
 	internal void <PopulateMuteList>b__0() { }
 
 }

@@ -18,64 +18,64 @@ public class RectOffset // TypeDefIndex: 3378
 
 	// Methods
 
-	// RVA: 0x19ABDC0 Offset: 0x19AA3C0 VA: 0x1819ABDC0
+	// RVA: 0x19991C0 Offset: 0x19977C0 VA: 0x1819991C0
 	public void .ctor() { }
 
 	[VisibleToOtherModulesAttribute] // RVA: 0x7FEE0 Offset: 0x7F2E0 VA: 0x18007FEE0
-	// RVA: 0x19ABD70 Offset: 0x19AA370 VA: 0x1819ABD70
+	// RVA: 0x1999170 Offset: 0x1997770 VA: 0x181999170
 	internal void .ctor(object sourceStyle, IntPtr source) { }
 
-	// RVA: 0x19AB890 Offset: 0x19A9E90 VA: 0x1819AB890 Slot: 1
+	// RVA: 0x1998C90 Offset: 0x1997290 VA: 0x181998C90 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x19ABAB0 Offset: 0x19AA0B0 VA: 0x1819ABAB0 Slot: 3
+	// RVA: 0x1998EB0 Offset: 0x19974B0 VA: 0x181998EB0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x19AB810 Offset: 0x19A9E10 VA: 0x1819AB810
+	// RVA: 0x1998C10 Offset: 0x1997210 VA: 0x181998C10
 	private void Destroy() { }
 
 	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19AB980 Offset: 0x19A9F80 VA: 0x1819AB980
+	// RVA: 0x1998D80 Offset: 0x1997380 VA: 0x181998D80
 	private static IntPtr InternalCreate() { }
 
 	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19AB9B0 Offset: 0x19A9FB0 VA: 0x1819AB9B0
+	// RVA: 0x1998DB0 Offset: 0x19973B0 VA: 0x181998DB0
 	private static void InternalDestroy(IntPtr ptr) { }
 
-	// RVA: 0x19ABE80 Offset: 0x19AA480 VA: 0x1819ABE80
+	// RVA: 0x1999280 Offset: 0x1997880 VA: 0x181999280
 	public int get_left() { }
 
-	// RVA: 0x19ABF80 Offset: 0x19AA580 VA: 0x1819ABF80
+	// RVA: 0x1999380 Offset: 0x1997980 VA: 0x181999380
 	public void set_left(int value) { }
 
-	// RVA: 0x19ABEC0 Offset: 0x19AA4C0 VA: 0x1819ABEC0
+	// RVA: 0x19992C0 Offset: 0x19978C0 VA: 0x1819992C0
 	public int get_right() { }
 
-	// RVA: 0x19ABFC0 Offset: 0x19AA5C0 VA: 0x1819ABFC0
+	// RVA: 0x19993C0 Offset: 0x19979C0 VA: 0x1819993C0
 	public void set_right(int value) { }
 
-	// RVA: 0x19ABF00 Offset: 0x19AA500 VA: 0x1819ABF00
+	// RVA: 0x1999300 Offset: 0x1997900 VA: 0x181999300
 	public int get_top() { }
 
-	// RVA: 0x19ABE00 Offset: 0x19AA400 VA: 0x1819ABE00
+	// RVA: 0x1999200 Offset: 0x1997800 VA: 0x181999200
 	public int get_bottom() { }
 
-	// RVA: 0x19ABE40 Offset: 0x19AA440 VA: 0x1819ABE40
+	// RVA: 0x1999240 Offset: 0x1997840 VA: 0x181999240
 	public int get_horizontal() { }
 
-	// RVA: 0x19ABF40 Offset: 0x19AA540 VA: 0x1819ABF40
+	// RVA: 0x1999340 Offset: 0x1997940 VA: 0x181999340
 	public int get_vertical() { }
 
-	// RVA: 0x19AB7B0 Offset: 0x19A9DB0 VA: 0x1819AB7B0
+	// RVA: 0x1998BB0 Offset: 0x19971B0 VA: 0x181998BB0
 	public Rect Add(Rect rect) { }
 
-	// RVA: 0x19ABA50 Offset: 0x19AA050 VA: 0x1819ABA50
+	// RVA: 0x1998E50 Offset: 0x1997450 VA: 0x181998E50
 	public Rect Remove(Rect rect) { }
 
-	// RVA: 0x19AB750 Offset: 0x19A9D50 VA: 0x1819AB750
+	// RVA: 0x1998B50 Offset: 0x1997150 VA: 0x181998B50
 	private void Add_Injected(ref Rect rect, out Rect ret) { }
 
-	// RVA: 0x19AB9F0 Offset: 0x19A9FF0 VA: 0x1819AB9F0
+	// RVA: 0x1998DF0 Offset: 0x19973F0 VA: 0x181998DF0
 	private void Remove_Injected(ref Rect rect, out Rect ret) { }
 
 }

@@ -22,40 +22,40 @@ public class Ragdoll : BaseMonoBehaviour, IPrefabPreProcess // TypeDefIndex: 922
 
 	// Methods
 
-	// RVA: 0x6A5F20 Offset: 0x6A4520 VA: 0x1806A5F20
+	// RVA: 0x6A5EB0 Offset: 0x6A44B0 VA: 0x1806A5EB0
 	public LODGroup get_lodGroup() { }
 
-	// RVA: 0x6A4CE0 Offset: 0x6A32E0 VA: 0x1806A4CE0
+	// RVA: 0x6A4C70 Offset: 0x6A3270 VA: 0x1806A4C70
 	public void Awake() { }
 
-	// RVA: 0x6A5700 Offset: 0x6A3D00 VA: 0x1806A5700
+	// RVA: 0x6A5690 Offset: 0x6A3C90 VA: 0x1806A5690
 	private void RagdollSetup() { }
 
-	// RVA: 0x6A4E80 Offset: 0x6A3480 VA: 0x1806A4E80
+	// RVA: 0x6A4E10 Offset: 0x6A3410 VA: 0x1806A4E10
 	public void CopyBonesFrom(Model otherModel) { }
 
-	// RVA: 0x6A53F0 Offset: 0x6A39F0 VA: 0x1806A53F0
+	// RVA: 0x6A5380 Offset: 0x6A3980 VA: 0x1806A5380
 	public void MoveRigidbodiesToRoot() { }
 
-	// RVA: 0x6A51F0 Offset: 0x6A37F0 VA: 0x1806A51F0
+	// RVA: 0x6A5180 Offset: 0x6A3780 VA: 0x1806A5180
 	public void CreatePinJoint() { }
 
-	// RVA: 0x6A5D20 Offset: 0x6A4320 VA: 0x1806A5D20
+	// RVA: 0x6A5CB0 Offset: 0x6A42B0 VA: 0x1806A5CB0
 	private void UpdateLODBounds() { }
 
-	// RVA: 0x6A5C90 Offset: 0x6A4290 VA: 0x1806A5C90
+	// RVA: 0x6A5C20 Offset: 0x6A4220 VA: 0x1806A5C20
 	public void SetRagdollSkin(int iSkin) { }
 
-	// RVA: 0x6A54C0 Offset: 0x6A3AC0 VA: 0x1806A54C0
+	// RVA: 0x6A5450 Offset: 0x6A3A50 VA: 0x1806A5450
 	public void OnGibbed() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	public virtual void Init() { }
 
-	// RVA: 0x6A5600 Offset: 0x6A3C00 VA: 0x1806A5600 Slot: 6
+	// RVA: 0x6A5590 Offset: 0x6A3B90 VA: 0x1806A5590 Slot: 6
 	public void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x6A5E30 Offset: 0x6A4430 VA: 0x1806A5E30
+	// RVA: 0x6A5DC0 Offset: 0x6A43C0 VA: 0x1806A5DC0
 	public void .ctor() { }
 
 }

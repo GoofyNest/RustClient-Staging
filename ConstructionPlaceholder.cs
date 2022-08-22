@@ -7,13 +7,13 @@ public class ConstructionPlaceholder : PrefabAttribute, IPrefabPreProcess // Typ
 
 	// Methods
 
-	// RVA: 0x6B0A80 Offset: 0x6AF080 VA: 0x1806B0A80 Slot: 6
+	// RVA: 0x6B0A10 Offset: 0x6AF010 VA: 0x1806B0A10 Slot: 6
 	protected override void AttributeSetup(GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x6B0C80 Offset: 0x6AF280 VA: 0x1806B0C80 Slot: 7
+	// RVA: 0x6B0C10 Offset: 0x6AF210 VA: 0x1806B0C10 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x6B0CE0 Offset: 0x6AF2E0 VA: 0x1806B0CE0
+	// RVA: 0x6B0C70 Offset: 0x6AF270 VA: 0x1806B0C70
 	public void .ctor() { }
 
 }

@@ -12,13 +12,13 @@ internal struct GSGameplayStats_t : ICallbackData // TypeDefIndex: 5495
 
 	// Methods
 
-	// RVA: 0x1E7660 Offset: 0x1E6A60 VA: 0x1801E7660 Slot: 5
+	// RVA: 0x1E7A80 Offset: 0x1E6E80 VA: 0x1801E7A80 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E7650 Offset: 0x1E6A50 VA: 0x1801E7650 Slot: 4
+	// RVA: 0x1E7A70 Offset: 0x1E6E70 VA: 0x1801E7A70 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1370DD0 Offset: 0x136F3D0 VA: 0x181370DD0
+	// RVA: 0x136FED0 Offset: 0x136E4D0 VA: 0x18136FED0
 	private static void .cctor() { }
 
 }

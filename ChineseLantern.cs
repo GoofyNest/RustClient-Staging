@@ -8,13 +8,13 @@ public class ChineseLantern : BaseFuelLightSource // TypeDefIndex: 8754
 
 	// Methods
 
-	// RVA: 0x537440 Offset: 0x535A40 VA: 0x180537440 Slot: 14
+	// RVA: 0x5373D0 Offset: 0x5359D0 VA: 0x1805373D0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x537480 Offset: 0x535A80 VA: 0x180537480
+	// RVA: 0x537410 Offset: 0x535A10 VA: 0x180537410
 	public void Update() { }
 
-	// RVA: 0x537850 Offset: 0x535E50 VA: 0x180537850
+	// RVA: 0x5377E0 Offset: 0x535DE0 VA: 0x1805377E0
 	public void .ctor() { }
 
 }

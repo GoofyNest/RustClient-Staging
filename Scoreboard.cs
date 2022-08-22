@@ -16,31 +16,31 @@ public class Scoreboard : MonoBehaviour, IClientComponent // TypeDefIndex: 11216
 
 	// Methods
 
-	// RVA: 0x4A1130 Offset: 0x49F730 VA: 0x1804A1130
+	// RVA: 0x4A10C0 Offset: 0x49F6C0 VA: 0x1804A10C0
 	private void Awake() { }
 
-	// RVA: 0x4A13D0 Offset: 0x49F9D0 VA: 0x1804A13D0
+	// RVA: 0x4A1360 Offset: 0x49F960 VA: 0x1804A1360
 	public static void ForceScoreboardUpdate() { }
 
-	// RVA: 0x4A1FE0 Offset: 0x4A05E0 VA: 0x1804A1FE0
+	// RVA: 0x4A1F70 Offset: 0x4A0570 VA: 0x1804A1F70
 	public static void UpdateScoreboard() { }
 
-	// RVA: 0x4A15A0 Offset: 0x49FBA0 VA: 0x1804A15A0
+	// RVA: 0x4A1530 Offset: 0x49FB30 VA: 0x1804A1530
 	public void OnToggle(bool isShowing) { }
 
-	// RVA: 0x4A14C0 Offset: 0x49FAC0 VA: 0x1804A14C0
+	// RVA: 0x4A1450 Offset: 0x49FA50 VA: 0x1804A1450
 	private static void OnDisconnected() { }
 
-	// RVA: 0x4A12C0 Offset: 0x49F8C0 VA: 0x1804A12C0
+	// RVA: 0x4A1250 Offset: 0x49F850 VA: 0x1804A1250
 	public void ClearTeamContents() { }
 
-	// RVA: 0x4A1620 Offset: 0x49FC20 VA: 0x1804A1620
+	// RVA: 0x4A15B0 Offset: 0x49FBB0 VA: 0x1804A15B0
 	public void RebuildScoreboard() { }
 
-	// RVA: 0x4A2150 Offset: 0x4A0750 VA: 0x1804A2150
+	// RVA: 0x4A20E0 Offset: 0x4A06E0 VA: 0x1804A20E0
 	public void UpdateScoreboard(bool rebuild = False) { }
 
-	// RVA: 0x4A29A0 Offset: 0x4A0FA0 VA: 0x1804A29A0
+	// RVA: 0x4A2930 Offset: 0x4A0F30 VA: 0x1804A2930
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

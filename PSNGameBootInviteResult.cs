@@ -10,13 +10,13 @@ internal struct PSNGameBootInviteResult_t : ICallbackData // TypeDefIndex: 5345
 
 	// Methods
 
-	// RVA: 0x1EC4A0 Offset: 0x1EB8A0 VA: 0x1801EC4A0 Slot: 5
+	// RVA: 0x1EC8C0 Offset: 0x1EBCC0 VA: 0x1801EC8C0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EC490 Offset: 0x1EB890 VA: 0x1801EC490 Slot: 4
+	// RVA: 0x1EC8B0 Offset: 0x1EBCB0 VA: 0x1801EC8B0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1375840 Offset: 0x1373E40 VA: 0x181375840
+	// RVA: 0x1374940 Offset: 0x1372F40 VA: 0x181374940
 	private static void .cctor() { }
 
 }

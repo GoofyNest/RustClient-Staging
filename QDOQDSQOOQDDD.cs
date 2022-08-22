@@ -30,13 +30,13 @@ public class QDOQDSQOOQDDD // TypeDefIndex: 7171
 
 	// Methods
 
-	// RVA: 0xB5CD90 Offset: 0xB5B390 VA: 0x180B5CD90
+	// RVA: 0xB5D260 Offset: 0xB5B860 VA: 0x180B5D260
 	public void .ctor(ERModularBase scr) { }
 
-	// RVA: 0xB5CC40 Offset: 0xB5B240 VA: 0x180B5CC40
+	// RVA: 0xB5D110 Offset: 0xB5B710 VA: 0x180B5D110
 	public void CopyFromSidewalk(ERSideWalk sw) { }
 
-	// RVA: 0xB5CD20 Offset: 0xB5B320 VA: 0x180B5CD20
+	// RVA: 0xB5D1F0 Offset: 0xB5B7F0 VA: 0x180B5D1F0
 	public static bool ERSidewalkMatch(QDOQDSQOOQDDD sw1, QDOQDSQOOQDDD sw2) { }
 
 }

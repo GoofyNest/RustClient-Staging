@@ -4,13 +4,13 @@ public class AddToHeightMap : ProceduralObject // TypeDefIndex: 10567
 
 	// Methods
 
-	// RVA: 0xA9F030 Offset: 0xA9D630 VA: 0x180A9F030
+	// RVA: 0xA9F500 Offset: 0xA9DB00 VA: 0x180A9F500
 	public void Apply() { }
 
-	// RVA: 0xA9F500 Offset: 0xA9DB00 VA: 0x180A9F500 Slot: 4
+	// RVA: 0xA9F9D0 Offset: 0xA9DFD0 VA: 0x180A9F9D0 Slot: 4
 	public override void Process() { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

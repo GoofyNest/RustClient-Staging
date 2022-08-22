@@ -11,38 +11,38 @@ public class PlanterBox : StorageContainer, ISplashable // TypeDefIndex: 8619
 
 	// Methods
 
-	// RVA: 0x91D960 Offset: 0x91BF60 VA: 0x18091D960 Slot: 35
+	// RVA: 0x91DE70 Offset: 0x91C470 VA: 0x18091DE70 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x91D880 Offset: 0x91BE80 VA: 0x18091D880 Slot: 34
+	// RVA: 0x91DD90 Offset: 0x91C390 VA: 0x18091DD90 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x91E420 Offset: 0x91CA20 VA: 0x18091E420
+	// RVA: 0x91E930 Offset: 0x91CF30 VA: 0x18091E930
 	public float get_soilSaturationFraction() { }
 
-	// RVA: 0x67E0A0 Offset: 0x67C6A0 VA: 0x18067E0A0 Slot: 131
+	// RVA: 0x67E030 Offset: 0x67C630 VA: 0x18067E030 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0x91DDF0 Offset: 0x91C3F0 VA: 0x18091DDF0
+	// RVA: 0x91E300 Offset: 0x91C900 VA: 0x18091E300
 	public void SetupMaterialBlock() { }
 
-	// RVA: 0x91E1F0 Offset: 0x91C7F0 VA: 0x18091E1F0
+	// RVA: 0x91E700 Offset: 0x91CD00 VA: 0x18091E700
 	public void UpdateMaterialSettings() { }
 
-	// RVA: 0x91DE60 Offset: 0x91C460 VA: 0x18091DE60 Slot: 153
+	// RVA: 0x91E370 Offset: 0x91C970 VA: 0x18091E370 Slot: 153
 	public override bool ShouldShowLootMenus() { }
 
-	// RVA: 0x91D8F0 Offset: 0x91BEF0 VA: 0x18091D8F0 Slot: 75
+	// RVA: 0x91DE00 Offset: 0x91C400 VA: 0x18091DE00 Slot: 75
 	public override void LookingAtTick() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x91DDB0 Offset: 0x91C3B0 VA: 0x18091DDB0
+	// RVA: 0x91E2C0 Offset: 0x91C8C0 VA: 0x18091E2C0
 	private void RPC_ReceiveSaturationUpdate(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 129
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 129
 	public override bool SupportsChildDeployables() { }
 
-	// RVA: 0x91E3C0 Offset: 0x91C9C0 VA: 0x18091E3C0
+	// RVA: 0x91E8D0 Offset: 0x91CED0 VA: 0x18091E8D0
 	public void .ctor() { }
 
 }

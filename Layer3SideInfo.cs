@@ -6,7 +6,7 @@ public class Layer3SideInfo // TypeDefIndex: 7411
 
 	// Methods
 
-	// RVA: 0x660C20 Offset: 0x65F220 VA: 0x180660C20
+	// RVA: 0x660BB0 Offset: 0x65F1B0 VA: 0x180660BB0
 	internal void .ctor() { }
 
 }

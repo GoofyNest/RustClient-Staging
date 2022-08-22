@@ -9,34 +9,34 @@ public class BadImageFormatException : SystemException // TypeDefIndex: 177
 
 	// Methods
 
-	// RVA: 0x155EB90 Offset: 0x155D190 VA: 0x18155EB90
+	// RVA: 0x155DC60 Offset: 0x155C260 VA: 0x18155DC60
 	public void .ctor() { }
 
-	// RVA: 0x155ECE0 Offset: 0x155D2E0 VA: 0x18155ECE0
+	// RVA: 0x155DDB0 Offset: 0x155C3B0 VA: 0x18155DDB0
 	public void .ctor(string message) { }
 
-	// RVA: 0x155EB60 Offset: 0x155D160 VA: 0x18155EB60
+	// RVA: 0x155DC30 Offset: 0x155C230 VA: 0x18155DC30
 	public void .ctor(string message, Exception inner) { }
 
-	// RVA: 0x155EB10 Offset: 0x155D110 VA: 0x18155EB10
+	// RVA: 0x155DBE0 Offset: 0x155C1E0 VA: 0x18155DBE0
 	public void .ctor(string message, string fileName) { }
 
-	// RVA: 0x155ED10 Offset: 0x155D310 VA: 0x18155ED10 Slot: 5
+	// RVA: 0x155DDE0 Offset: 0x155C3E0 VA: 0x18155DDE0 Slot: 5
 	public override string get_Message() { }
 
-	// RVA: 0x155E810 Offset: 0x155CE10 VA: 0x18155E810
+	// RVA: 0x155D8E0 Offset: 0x155BEE0 VA: 0x18155D8E0
 	private void SetMessageField() { }
 
-	// RVA: 0x155E890 Offset: 0x155CE90 VA: 0x18155E890 Slot: 3
+	// RVA: 0x155D960 Offset: 0x155BF60 VA: 0x18155D960 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x155EBF0 Offset: 0x155D1F0 VA: 0x18155EBF0
+	// RVA: 0x155DCC0 Offset: 0x155C2C0 VA: 0x18155DCC0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0
 	public string get_FusionLog() { }
 
-	// RVA: 0x155E6D0 Offset: 0x155CCD0 VA: 0x18155E6D0 Slot: 10
+	// RVA: 0x155D7A0 Offset: 0x155BDA0 VA: 0x18155D7A0 Slot: 10
 	public override void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 }

@@ -24,76 +24,76 @@ public class ManualResetEventSlim : IDisposable // TypeDefIndex: 758
 
 	// Methods
 
-	// RVA: 0x1496EE0 Offset: 0x14954E0 VA: 0x181496EE0
+	// RVA: 0x1495FB0 Offset: 0x14945B0 VA: 0x181495FB0
 	public WaitHandle get_WaitHandle() { }
 
-	// RVA: 0x1496E20 Offset: 0x1495420 VA: 0x181496E20
+	// RVA: 0x1495EF0 Offset: 0x14944F0 VA: 0x181495EF0
 	public bool get_IsSet() { }
 
-	// RVA: 0x1496F90 Offset: 0x1495590 VA: 0x181496F90
+	// RVA: 0x1496060 Offset: 0x1494660 VA: 0x181496060
 	private void set_IsSet(bool value) { }
 
-	// RVA: 0x1496E80 Offset: 0x1495480 VA: 0x181496E80
+	// RVA: 0x1495F50 Offset: 0x1494550 VA: 0x181495F50
 	public int get_SpinCount() { }
 
-	// RVA: 0x1496FC0 Offset: 0x14955C0 VA: 0x181496FC0
+	// RVA: 0x1496090 Offset: 0x1494690 VA: 0x181496090
 	private void set_SpinCount(int value) { }
 
-	// RVA: 0x1496F30 Offset: 0x1495530 VA: 0x181496F30
+	// RVA: 0x1496000 Offset: 0x1494600 VA: 0x181496000
 	private int get_Waiters() { }
 
-	// RVA: 0x1497000 Offset: 0x1495600 VA: 0x181497000
+	// RVA: 0x14960D0 Offset: 0x14946D0 VA: 0x1814960D0
 	private void set_Waiters(int value) { }
 
-	// RVA: 0x1496C50 Offset: 0x1495250 VA: 0x181496C50
+	// RVA: 0x1495D20 Offset: 0x1494320 VA: 0x181495D20
 	public void .ctor(bool initialState) { }
 
-	// RVA: 0x1496CD0 Offset: 0x14952D0 VA: 0x181496CD0
+	// RVA: 0x1495DA0 Offset: 0x14943A0 VA: 0x181495DA0
 	public void .ctor(bool initialState, int spinCount) { }
 
-	// RVA: 0x1495CB0 Offset: 0x14942B0 VA: 0x181495CB0
+	// RVA: 0x1494D80 Offset: 0x1493380 VA: 0x181494D80
 	private void Initialize(bool initialState, int spinCount) { }
 
-	// RVA: 0x1495C20 Offset: 0x1494220 VA: 0x181495C20
+	// RVA: 0x1494CF0 Offset: 0x14932F0 VA: 0x181494CF0
 	private void EnsureLockObjectCreated() { }
 
-	// RVA: 0x1495D30 Offset: 0x1494330 VA: 0x181495D30
+	// RVA: 0x1494E00 Offset: 0x1493400 VA: 0x181494E00
 	private bool LazyInitializeEvent() { }
 
-	// RVA: 0x1495F80 Offset: 0x1494580 VA: 0x181495F80
+	// RVA: 0x1495050 Offset: 0x1493650 VA: 0x181495050
 	public void Set() { }
 
-	// RVA: 0x1495F90 Offset: 0x1494590 VA: 0x181495F90
+	// RVA: 0x1495060 Offset: 0x1493660 VA: 0x181495060
 	private void Set(bool duringCancellation) { }
 
-	// RVA: 0x1496B50 Offset: 0x1495150 VA: 0x181496B50
+	// RVA: 0x1495C20 Offset: 0x1494220 VA: 0x181495C20
 	public bool Wait(TimeSpan timeout) { }
 
-	// RVA: 0x14964C0 Offset: 0x1494AC0 VA: 0x1814964C0
+	// RVA: 0x1495590 Offset: 0x1493B90 VA: 0x181495590
 	public bool Wait(int millisecondsTimeout, CancellationToken cancellationToken) { }
 
-	// RVA: 0x1495BB0 Offset: 0x14941B0 VA: 0x181495BB0 Slot: 4
+	// RVA: 0x1494C80 Offset: 0x1493280 VA: 0x181494C80 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x1495A70 Offset: 0x1494070 VA: 0x181495A70 Slot: 5
+	// RVA: 0x1494B40 Offset: 0x1493140 VA: 0x181494B40 Slot: 5
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x1496310 Offset: 0x1494910 VA: 0x181496310
+	// RVA: 0x14953E0 Offset: 0x14939E0 VA: 0x1814953E0
 	private void ThrowIfDisposed() { }
 
-	// RVA: 0x1495830 Offset: 0x1493E30 VA: 0x181495830
+	// RVA: 0x1494900 Offset: 0x1492F00 VA: 0x181494900
 	private static void CancellationTokenCallback(object obj) { }
 
-	// RVA: 0x1496390 Offset: 0x1494990 VA: 0x181496390
+	// RVA: 0x1495460 Offset: 0x1493A60 VA: 0x181495460
 	private void UpdateStateAtomically(int newBits, int updateBitsMask) { }
 
-	// RVA: 0x1495C90 Offset: 0x1494290 VA: 0x181495C90
+	// RVA: 0x1494D60 Offset: 0x1493360 VA: 0x181494D60
 	private static int ExtractStatePortionAndShiftRight(int state, int mask, int rightBitShiftCount) { }
 
-	// RVA: 0x1495CA0 Offset: 0x14942A0 VA: 0x181495CA0
+	// RVA: 0x1494D70 Offset: 0x1493370 VA: 0x181494D70
 	private static int ExtractStatePortion(int state, int mask) { }
 
-	// RVA: 0x1496BE0 Offset: 0x14951E0 VA: 0x181496BE0
+	// RVA: 0x1495CB0 Offset: 0x14942B0 VA: 0x181495CB0
 	private static void .cctor() { }
 
 }

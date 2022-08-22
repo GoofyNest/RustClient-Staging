@@ -21,11 +21,11 @@ public struct MemoryBuffer // TypeDefIndex: 6915
 	private void set_Data(byte[] value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x122E10 Offset: 0x122210 VA: 0x180122E10
+	// RVA: 0x122C30 Offset: 0x122030 VA: 0x180122C30
 	public int get_Length() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19DF50 Offset: 0x19D350 VA: 0x18019DF50
+	// RVA: 0x19DC40 Offset: 0x19D040 VA: 0x18019DC40
 	private void set_Length(int value) { }
 
 	// RVA: 0x2372B0 Offset: 0x2366B0 VA: 0x1802372B0
@@ -34,7 +34,7 @@ public struct MemoryBuffer // TypeDefIndex: 6915
 	// RVA: 0x2372A0 Offset: 0x2366A0 VA: 0x1802372A0
 	public void Dispose() { }
 
-	// RVA: 0x2207820 Offset: 0x2205E20 VA: 0x182207820
+	// RVA: 0x2208040 Offset: 0x2206640 VA: 0x182208040
 	public static Span<byte> op_Implicit(MemoryBuffer buffer) { }
 
 }

@@ -64,83 +64,83 @@ public class EZSoftBone : MonoBehaviour, IClientComponent, IPrefabPreProcess // 
 
 	// Methods
 
-	// RVA: 0x2296710 Offset: 0x2294D10 VA: 0x182296710
+	// RVA: 0x2296F30 Offset: 0x2295530 VA: 0x182296F30
 	public EZSoftBoneMaterial get_sharedMaterial() { }
 
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	public void set_sharedMaterial(EZSoftBoneMaterial value) { }
 
-	// RVA: 0x5743E0 Offset: 0x5729E0 VA: 0x1805743E0
+	// RVA: 0x574370 Offset: 0x572970 VA: 0x180574370
 	public Transform get_simulateSpace() { }
 
-	// RVA: 0x2296850 Offset: 0x2294E50 VA: 0x182296850
+	// RVA: 0x2297070 Offset: 0x2295670 VA: 0x182297070
 	public void set_simulateSpace(Transform value) { }
 
-	// RVA: 0x2292E70 Offset: 0x2291470 VA: 0x182292E70
+	// RVA: 0x2293690 Offset: 0x2291C90 VA: 0x182293690
 	private void Awake() { }
 
-	// RVA: 0x2294100 Offset: 0x2292700 VA: 0x182294100
+	// RVA: 0x2294920 Offset: 0x2292F20 VA: 0x182294920
 	private void OnEnable() { }
 
-	// RVA: 0x22940F0 Offset: 0x22926F0 VA: 0x1822940F0
+	// RVA: 0x2294910 Offset: 0x2292F10 VA: 0x182294910
 	private void OnDisable() { }
 
-	// RVA: 0x2293B40 Offset: 0x2292140 VA: 0x182293B40
+	// RVA: 0x2294360 Offset: 0x2292960 VA: 0x182294360
 	private void LateUpdate() { }
 
-	// RVA: 0x22940F0 Offset: 0x22926F0 VA: 0x1822940F0
+	// RVA: 0x2294910 Offset: 0x2292F10 VA: 0x182294910
 	public void RevertTransforms() { }
 
-	// RVA: 0x22948C0 Offset: 0x2292EC0 VA: 0x1822948C0
+	// RVA: 0x22950E0 Offset: 0x22936E0 VA: 0x1822950E0
 	public void RevertTransforms(int startDepth) { }
 
-	// RVA: 0x2293340 Offset: 0x2291940 VA: 0x182293340
+	// RVA: 0x2293B60 Offset: 0x2292160 VA: 0x182293B60
 	public void InitStructures(bool force = False) { }
 
-	// RVA: 0x2294A70 Offset: 0x2293070 VA: 0x182294A70
+	// RVA: 0x2295290 Offset: 0x2293890 VA: 0x182295290
 	public void SetRestState() { }
 
-	// RVA: 0x2293050 Offset: 0x2291650 VA: 0x182293050
+	// RVA: 0x2293870 Offset: 0x2291E70 VA: 0x182293870
 	private void CreateBones() { }
 
-	// RVA: 0x2294980 Offset: 0x2292F80 VA: 0x182294980
+	// RVA: 0x22951A0 Offset: 0x22937A0 VA: 0x1822951A0
 	private void SetParentBones() { }
 
-	// RVA: 0x2294B20 Offset: 0x2293120 VA: 0x182294B20
+	// RVA: 0x2295340 Offset: 0x2293940 VA: 0x182295340
 	private void SetSiblings() { }
 
-	// RVA: 0x2294F50 Offset: 0x2293550 VA: 0x182294F50
+	// RVA: 0x2295770 Offset: 0x2293D70 VA: 0x182295770
 	private void SetTreeLength() { }
 
-	// RVA: 0x22946B0 Offset: 0x2292CB0 VA: 0x1822946B0
+	// RVA: 0x2294ED0 Offset: 0x22934D0 VA: 0x182294ED0
 	public void RefreshRadius() { }
 
-	// RVA: 0x22960F0 Offset: 0x22946F0 VA: 0x1822960F0
+	// RVA: 0x2296910 Offset: 0x2294F10 VA: 0x182296910
 	private void UpdateStructures(float deltaTime) { }
 
-	// RVA: 0x2295290 Offset: 0x2293890 VA: 0x182295290
+	// RVA: 0x2295AB0 Offset: 0x22940B0 VA: 0x182295AB0
 	private void UpdateBones(EZSoftBone.Bone bone, float deltaTime) { }
 
-	// RVA: 0x22965A0 Offset: 0x2294BA0 VA: 0x1822965A0
+	// RVA: 0x2296DC0 Offset: 0x22953C0 VA: 0x182296DC0
 	private void UpdateTransforms() { }
 
-	// RVA: 0x2295FA0 Offset: 0x22945A0 VA: 0x182295FA0
+	// RVA: 0x22967C0 Offset: 0x2294DC0 VA: 0x1822967C0
 	private void UpdateSimulationSpace(Transform transform) { }
 
-	// RVA: 0x22942A0 Offset: 0x22928A0 VA: 0x1822942A0
+	// RVA: 0x2294AC0 Offset: 0x22930C0 VA: 0x182294AC0
 	public void PushBonesOutOfDeadZone() { }
 
-	// RVA: 0x2294280 Offset: 0x2292880 VA: 0x182294280
+	// RVA: 0x2294AA0 Offset: 0x22930A0 VA: 0x182294AA0
 	public void PlayerPreviewVisibility(bool isVisible) { }
 
-	// RVA: 0x2294290 Offset: 0x2292890 VA: 0x182294290 Slot: 4
+	// RVA: 0x2294AB0 Offset: 0x22930B0 VA: 0x182294AB0 Slot: 4
 	public void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x2296680 Offset: 0x2294C80 VA: 0x182296680
+	// RVA: 0x2296EA0 Offset: 0x22954A0 VA: 0x182296EA0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2295260 Offset: 0x2293860 VA: 0x182295260
+	// RVA: 0x2295A80 Offset: 0x2294080 VA: 0x182295A80
 	internal static bool <SetSiblings>g__HasBoneAtDepth|55_1(EZSoftBone.BoneChain chain, int depth) { }
 
 }
@@ -170,10 +170,10 @@ private class EZSoftBone.BoneChain // TypeDefIndex: 7131
 
 	// Methods
 
-	// RVA: 0x228DD20 Offset: 0x228C320 VA: 0x18228DD20
+	// RVA: 0x228E540 Offset: 0x228CB40 VA: 0x18228E540
 	public void .ctor(Transform origin, Transform systemSpace, Transform transform, List<Transform> endBones, int startDepth) { }
 
-	// RVA: 0x228DC80 Offset: 0x228C280 VA: 0x18228DC80
+	// RVA: 0x228E4A0 Offset: 0x228CAA0 VA: 0x18228E4A0
 	public void InitializeParents() { }
 
 }
@@ -208,37 +208,37 @@ private class EZSoftBone.Bone // TypeDefIndex: 7132
 
 	// Methods
 
-	// RVA: 0x228EDB0 Offset: 0x228D3B0 VA: 0x18228EDB0
+	// RVA: 0x228F5D0 Offset: 0x228DBD0 VA: 0x18228F5D0
 	public void .ctor(Transform systemSpace, Transform transform, int depth, float boneLength) { }
 
-	// RVA: 0x228E710 Offset: 0x228CD10 VA: 0x18228E710
+	// RVA: 0x228EF30 Offset: 0x228D530 VA: 0x18228EF30
 	public void SetTreeLength() { }
 
-	// RVA: 0x228E740 Offset: 0x228CD40 VA: 0x18228E740
+	// RVA: 0x228EF60 Offset: 0x228D560 VA: 0x18228EF60
 	public void SetTreeLength(float treeLength) { }
 
-	// RVA: 0x228E350 Offset: 0x228C950 VA: 0x18228E350
+	// RVA: 0x228EB70 Offset: 0x228D170 VA: 0x18228EB70
 	public void SetLeftSibling(EZSoftBone.Bone left) { }
 
-	// RVA: 0x228E5D0 Offset: 0x228CBD0 VA: 0x18228E5D0
+	// RVA: 0x228EDF0 Offset: 0x228D3F0 VA: 0x18228EDF0
 	public void SetRightSibling(EZSoftBone.Bone right) { }
 
-	// RVA: 0x228E290 Offset: 0x228C890 VA: 0x18228E290
+	// RVA: 0x228EAB0 Offset: 0x228D0B0 VA: 0x18228EAB0
 	public void Inflate(float baseRadius, AnimationCurve radiusCurve) { }
 
-	// RVA: 0x228E170 Offset: 0x228C770 VA: 0x18228E170
+	// RVA: 0x228E990 Offset: 0x228CF90 VA: 0x18228E990
 	public void Inflate(float baseRadius, AnimationCurve radiusCurve, EZSoftBoneMaterial material) { }
 
-	// RVA: 0x228E2E0 Offset: 0x228C8E0 VA: 0x18228E2E0
+	// RVA: 0x228EB00 Offset: 0x228D100 VA: 0x18228EB00
 	public void RevertTransforms(int startDepth) { }
 
-	// RVA: 0x228E7D0 Offset: 0x228CDD0 VA: 0x18228E7D0
+	// RVA: 0x228EFF0 Offset: 0x228D5F0 VA: 0x18228EFF0
 	public void UpdateTransform(bool siblingRotationConstraints, int startDepth) { }
 
-	// RVA: 0x228E490 Offset: 0x228CA90 VA: 0x18228E490
+	// RVA: 0x228ECB0 Offset: 0x228D2B0 VA: 0x18228ECB0
 	public void SetRestState() { }
 
-	// RVA: 0x228E770 Offset: 0x228CD70 VA: 0x18228E770
+	// RVA: 0x228EF90 Offset: 0x228D590 VA: 0x18228EF90
 	public void UpdateSpace() { }
 
 }
@@ -250,13 +250,13 @@ private sealed class EZSoftBone.<>c // TypeDefIndex: 7133
 
 	// Methods
 
-	// RVA: 0x2296920 Offset: 0x2294F20 VA: 0x182296920
+	// RVA: 0x2297140 Offset: 0x2295740 VA: 0x182297140
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x2296900 Offset: 0x2294F00 VA: 0x182296900
+	// RVA: 0x2297120 Offset: 0x2295720 VA: 0x182297120
 	internal int <SetSiblings>b__55_0(EZSoftBone.BoneChain c) { }
 
 }

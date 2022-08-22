@@ -1,13 +1,13 @@
 public class OutOfMemoryException : SystemException // TypeDefIndex: 283
 {	// Methods
 
-	// RVA: 0x16844D0 Offset: 0x1682AD0 VA: 0x1816844D0
+	// RVA: 0x16820C0 Offset: 0x16806C0 VA: 0x1816820C0
 	public void .ctor() { }
 
-	// RVA: 0x1684540 Offset: 0x1682B40 VA: 0x181684540
+	// RVA: 0x1682130 Offset: 0x1680730 VA: 0x181682130
 	public void .ctor(string message) { }
 
-	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
+	// RVA: 0xFDDEB0 Offset: 0xFDC4B0 VA: 0x180FDDEB0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

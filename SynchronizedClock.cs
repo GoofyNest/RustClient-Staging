@@ -7,16 +7,16 @@ public class SynchronizedClock // TypeDefIndex: 11403
 
 	// Methods
 
-	// RVA: 0x7A7340 Offset: 0x7A5940 VA: 0x1807A7340
+	// RVA: 0x7C5740 Offset: 0x7C3D40 VA: 0x1807C5740
 	private static float get_CurrentTime() { }
 
-	// RVA: 0x7A6F10 Offset: 0x7A5510 VA: 0x1807A6F10
+	// RVA: 0x7C5310 Offset: 0x7C3910 VA: 0x1807C5310
 	public void Add(float delta, float variance, Action<uint> action) { }
 
-	// RVA: 0x7A7010 Offset: 0x7A5610 VA: 0x1807A7010
+	// RVA: 0x7C5410 Offset: 0x7C3A10 VA: 0x1807C5410
 	public void Tick() { }
 
-	// RVA: 0x7A72D0 Offset: 0x7A58D0 VA: 0x1807A72D0
+	// RVA: 0x7C56D0 Offset: 0x7C3CD0 VA: 0x1807C56D0
 	public void .ctor() { }
 
 }

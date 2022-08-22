@@ -144,19 +144,19 @@ internal sealed class SchemaNames // TypeDefIndex: 2281
 
 	// Methods
 
-	// RVA: 0xEEC0D0 Offset: 0xEEA6D0 VA: 0x180EEC0D0
+	// RVA: 0xEECB80 Offset: 0xEEB180 VA: 0x180EECB80
 	public void .ctor(XmlNameTable nameTable) { }
 
-	// RVA: 0xEE8950 Offset: 0xEE6F50 VA: 0x180EE8950
+	// RVA: 0xEE9400 Offset: 0xEE7A00 VA: 0x180EE9400
 	public void CreateTokenToQNameTable() { }
 
-	// RVA: 0xEEC010 Offset: 0xEEA610 VA: 0x180EEC010
+	// RVA: 0xEECAC0 Offset: 0xEEB0C0 VA: 0x180EECAC0
 	public SchemaType SchemaTypeFromRoot(string localName, string ns) { }
 
-	// RVA: 0xEEBFC0 Offset: 0xEEA5C0 VA: 0x180EEBFC0
+	// RVA: 0xEECA70 Offset: 0xEEB070 VA: 0x180EECA70
 	public bool IsXSDRoot(string localName, string ns) { }
 
-	// RVA: 0xEEBF70 Offset: 0xEEA570 VA: 0x180EEBF70
+	// RVA: 0xEECA20 Offset: 0xEEB020 VA: 0x180EECA20
 	public bool IsXDRRoot(string localName, string ns) { }
 
 }

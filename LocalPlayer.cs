@@ -25,125 +25,125 @@ public static class LocalPlayer // TypeDefIndex: 9665
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4FD780 Offset: 0x4FBD80 VA: 0x1804FD780
+	// RVA: 0x4FD710 Offset: 0x4FBD10 VA: 0x1804FD710
 	public static BasePlayer get_Entity() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4FE1B0 Offset: 0x4FC7B0 VA: 0x1804FE1B0
+	// RVA: 0x4FE140 Offset: 0x4FC740 VA: 0x1804FE140
 	public static void set_Entity(BasePlayer value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4FD840 Offset: 0x4FBE40 VA: 0x1804FD840
+	// RVA: 0x4FD7D0 Offset: 0x4FBDD0 VA: 0x1804FD7D0
 	public static ulong get_LastAttackerSteamID() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4FE280 Offset: 0x4FC880 VA: 0x1804FE280
+	// RVA: 0x4FE210 Offset: 0x4FC810 VA: 0x1804FE210
 	public static void set_LastAttackerSteamID(ulong value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4FD7E0 Offset: 0x4FBDE0 VA: 0x1804FD7E0
+	// RVA: 0x4FD770 Offset: 0x4FBD70 VA: 0x1804FD770
 	public static string get_LastAttackerName() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4FE210 Offset: 0x4FC810 VA: 0x1804FE210
+	// RVA: 0x4FE1A0 Offset: 0x4FC7A0 VA: 0x1804FE1A0
 	public static void set_LastAttackerName(string value) { }
 
-	// RVA: 0x4FDD80 Offset: 0x4FC380 VA: 0x1804FDD80
+	// RVA: 0x4FDD10 Offset: 0x4FC310 VA: 0x1804FDD10
 	public static float get_TimeSinceLastDeath() { }
 
-	// RVA: 0x4FB9B0 Offset: 0x4F9FB0 VA: 0x1804FB9B0
+	// RVA: 0x4FB940 Offset: 0x4F9F40 VA: 0x1804FB940
 	public static void EndLooting() { }
 
-	// RVA: 0x4FBD40 Offset: 0x4FA340 VA: 0x1804FBD40
+	// RVA: 0x4FBCD0 Offset: 0x4FA2D0 VA: 0x1804FBCD0
 	internal static ItemContainer GetContainer(PlayerInventory.Type type) { }
 
-	// RVA: 0x4FC3E0 Offset: 0x4FA9E0 VA: 0x1804FC3E0
+	// RVA: 0x4FC370 Offset: 0x4FA970 VA: 0x1804FC370
 	internal static ItemContainer GetLootContainer(int i) { }
 
-	// RVA: 0x4FD370 Offset: 0x4FB970 VA: 0x1804FD370
+	// RVA: 0x4FD300 Offset: 0x4FB900 VA: 0x1804FD300
 	public static void OnInventoryChanged() { }
 
-	// RVA: 0x4FD510 Offset: 0x4FBB10 VA: 0x1804FD510
+	// RVA: 0x4FD4A0 Offset: 0x4FBAA0 VA: 0x1804FD4A0
 	public static void OnItemAmountChanged() { }
 
-	// RVA: 0x4FCBF0 Offset: 0x4FB1F0 VA: 0x1804FCBF0
+	// RVA: 0x4FCB80 Offset: 0x4FB180 VA: 0x1804FCB80
 	internal static bool HasUnlocked(ItemDefinition targetItem) { }
 
-	// RVA: 0x4FBF50 Offset: 0x4FA550 VA: 0x1804FBF50
+	// RVA: 0x4FBEE0 Offset: 0x4FA4E0 VA: 0x1804FBEE0
 	internal static float GetCraftLevel() { }
 
-	// RVA: 0x4FC610 Offset: 0x4FAC10 VA: 0x1804FC610
+	// RVA: 0x4FC5A0 Offset: 0x4FABA0 VA: 0x1804FC5A0
 	internal static bool HasCraftLevel(int levelReq) { }
 
-	// RVA: 0x4FD1F0 Offset: 0x4FB7F0 VA: 0x1804FD1F0
+	// RVA: 0x4FD180 Offset: 0x4FB780 VA: 0x1804FD180
 	public static void MoveItem(uint itemid, uint targetContainer, int targetSlot, int amount) { }
 
-	// RVA: 0x4FB760 Offset: 0x4F9D60 VA: 0x1804FB760
+	// RVA: 0x4FB6F0 Offset: 0x4F9CF0 VA: 0x1804FB6F0
 	public static void DropItemStack(uint itemid) { }
 
-	// RVA: 0x4FB940 Offset: 0x4F9F40 VA: 0x1804FB940
+	// RVA: 0x4FB8D0 Offset: 0x4F9ED0 VA: 0x1804FB8D0
 	public static void DropItem(uint itemid, int count) { }
 
-	// RVA: 0x4FCD40 Offset: 0x4FB340 VA: 0x1804FCD40
+	// RVA: 0x4FCCD0 Offset: 0x4FB2D0 VA: 0x1804FCCD0
 	public static void ItemCommand(uint itemid, string command) { }
 
 	// RVA: -1 Offset: -1
 	public static void ItemCommandEx<T1>(uint itemid, string command, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1574E80 Offset: 0x1573480 VA: 0x181574E80
+	|-RVA: 0x1573F50 Offset: 0x1572550 VA: 0x181573F50
 	|-LocalPlayer.ItemCommandEx<int>
 	|
-	|-RVA: 0x1575030 Offset: 0x1573630 VA: 0x181575030
+	|-RVA: 0x1574100 Offset: 0x1572700 VA: 0x181574100
 	|-LocalPlayer.ItemCommandEx<object>
 	*/
 
-	// RVA: 0x4FE070 Offset: 0x4FC670 VA: 0x1804FE070
+	// RVA: 0x4FE000 Offset: 0x4FC600 VA: 0x1804FE000
 	public static bool get_isSleeping() { }
 
-	// RVA: 0x4FDDF0 Offset: 0x4FC3F0 VA: 0x1804FDDF0
+	// RVA: 0x4FDD80 Offset: 0x4FC380 VA: 0x1804FDD80
 	public static bool get_isAdmin() { }
 
-	// RVA: 0x4FDF30 Offset: 0x4FC530 VA: 0x1804FDF30
+	// RVA: 0x4FDEC0 Offset: 0x4FC4C0 VA: 0x1804FDEC0
 	public static bool get_isDeveloper() { }
 
-	// RVA: 0x4FBBC0 Offset: 0x4FA1C0 VA: 0x1804FBBC0
+	// RVA: 0x4FBB50 Offset: 0x4FA150 VA: 0x1804FBB50
 	public static void FindAmmo(List<Item> list, AmmoTypes ammo) { }
 
-	// RVA: 0x4FD080 Offset: 0x4FB680 VA: 0x1804FD080
+	// RVA: 0x4FD010 Offset: 0x4FB610 VA: 0x1804FD010
 	public static void ModifyCamera() { }
 
-	// RVA: 0x4FC9A0 Offset: 0x4FAFA0 VA: 0x1804FC9A0
+	// RVA: 0x4FC930 Offset: 0x4FAF30 VA: 0x1804FC930
 	public static bool HasItems(List<ItemAmount> list, int amount = 1) { }
 
-	// RVA: 0x4FC1C0 Offset: 0x4FA7C0 VA: 0x1804FC1C0
+	// RVA: 0x4FC150 Offset: 0x4FA750 VA: 0x1804FC150
 	public static int GetItemAmount(ItemDefinition item) { }
 
-	// RVA: 0x4FB0A0 Offset: 0x4F96A0 VA: 0x1804FB0A0
+	// RVA: 0x4FB030 Offset: 0x4F9630 VA: 0x1804FB030
 	public static string BuildItemRequiredString(List<ItemAmount> list) { }
 
-	// RVA: 0x4FC670 Offset: 0x4FAC70 VA: 0x1804FC670
+	// RVA: 0x4FC600 Offset: 0x4FAC00 VA: 0x1804FC600
 	public static bool HasInventoryItem(int id) { }
 
-	// RVA: 0x4FD560 Offset: 0x4FBB60 VA: 0x1804FD560
+	// RVA: 0x4FD4F0 Offset: 0x4FBAF0 VA: 0x1804FD4F0
 	public static void ResetCraftCounts() { }
 
-	// RVA: 0x4FCEE0 Offset: 0x4FB4E0 VA: 0x1804FCEE0
+	// RVA: 0x4FCE70 Offset: 0x4FB470 VA: 0x1804FCE70
 	public static void ListCraftCounts() { }
 
-	// RVA: 0x4FBDF0 Offset: 0x4FA3F0 VA: 0x1804FBDF0
+	// RVA: 0x4FBD80 Offset: 0x4FA380 VA: 0x1804FBD80
 	public static int GetCraftCount(ItemBlueprint x) { }
 
-	// RVA: 0x4FAFC0 Offset: 0x4F95C0 VA: 0x1804FAFC0
+	// RVA: 0x4FAF50 Offset: 0x4F9550 VA: 0x1804FAF50
 	public static void AddCraftCount(ItemBlueprint x) { }
 
-	// RVA: 0x4FD8A0 Offset: 0x4FBEA0 VA: 0x1804FD8A0
+	// RVA: 0x4FD830 Offset: 0x4FBE30 VA: 0x1804FD830
 	public static BasePlayer get_LocalOrSpectatePlayer() { }
 
-	// RVA: 0x4FD9C0 Offset: 0x4FBFC0 VA: 0x1804FD9C0
+	// RVA: 0x4FD950 Offset: 0x4FBF50 VA: 0x1804FD950
 	public static BasePlayer get_SpectatePlayer() { }
 
-	// RVA: 0x4FD6D0 Offset: 0x4FBCD0 VA: 0x1804FD6D0
+	// RVA: 0x4FD660 Offset: 0x4FBC60 VA: 0x1804FD660
 	private static void .cctor() { }
 
 }
@@ -151,7 +151,7 @@ public static class LocalPlayer // TypeDefIndex: 9665
 public class LocalPlayer.ItemBlueprintComparer : IComparer<ItemBlueprint> // TypeDefIndex: 9666
 {	// Methods
 
-	// RVA: 0x4EF3C0 Offset: 0x4ED9C0 VA: 0x1804EF3C0 Slot: 4
+	// RVA: 0x4EF350 Offset: 0x4ED950 VA: 0x1804EF350 Slot: 4
 	public int Compare(ItemBlueprint a, ItemBlueprint b) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -168,7 +168,7 @@ private sealed class LocalPlayer.<>c__DisplayClass40_0 // TypeDefIndex: 9667
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x50BF70 Offset: 0x50A570 VA: 0x18050BF70
+	// RVA: 0x50BF00 Offset: 0x50A500 VA: 0x18050BF00
 	internal bool <HasInventoryItem>b__0(IPlayerItem x) { }
 
 }

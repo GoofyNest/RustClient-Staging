@@ -4,10 +4,10 @@ public class PFXRepeatingFirework : RepeatingFirework // TypeDefIndex: 8274
 
 	// Methods
 
-	// RVA: 0x9EAA80 Offset: 0x9E9080 VA: 0x1809EAA80 Slot: 145
+	// RVA: 0x9EAF70 Offset: 0x9E9570 VA: 0x1809EAF70 Slot: 145
 	public override void Fire() { }
 
-	// RVA: 0x7B6E90 Offset: 0x7B5490 VA: 0x1807B6E90
+	// RVA: 0x7D5280 Offset: 0x7D3880 VA: 0x1807D5280
 	public void .ctor() { }
 
 }

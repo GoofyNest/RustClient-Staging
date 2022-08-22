@@ -7,7 +7,7 @@ internal static class LocalAppContextSwitches // TypeDefIndex: 1811
 
 internal static class LocalAppContextSwitches // TypeDefIndex: 2591
 {	// Fields
-	public static readonly bool MemberDescriptorEqualsReturnsFalseIfEquivalent; // 0x143ED
+	public static readonly bool MemberDescriptorEqualsReturnsFalseIfEquivalent; // 0x14140
 
 }
 

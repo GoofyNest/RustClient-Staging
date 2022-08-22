@@ -7,13 +7,13 @@ public class HolosightReticlePositioning : MonoBehaviour // TypeDefIndex: 8890
 
 	// Methods
 
-	// RVA: 0x741F30 Offset: 0x740530 VA: 0x180741F30
+	// RVA: 0x741E80 Offset: 0x740480 VA: 0x180741E80
 	public RectTransform get_rectTransform() { }
 
-	// RVA: 0x741E90 Offset: 0x740490 VA: 0x180741E90
+	// RVA: 0x741DE0 Offset: 0x7403E0 VA: 0x180741DE0
 	private void Update() { }
 
-	// RVA: 0x741BA0 Offset: 0x7401A0 VA: 0x180741BA0
+	// RVA: 0x741AF0 Offset: 0x7400F0 VA: 0x180741AF0
 	private void UpdatePosition(Camera cam) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

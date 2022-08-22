@@ -1,26 +1,26 @@
 public static class LevelManager // TypeDefIndex: 9963
 {	// Fields
-	public static string CurrentLevelName; // 0x2B111C0
+	public static string CurrentLevelName; // 0x2B4F
 
 	// Properties
 	public static bool isLoaded { get; }
 
 	// Methods
 
-	// RVA: 0x68BFF0 Offset: 0x68A5F0 VA: 0x18068BFF0
+	// RVA: 0x68BF80 Offset: 0x68A580 VA: 0x18068BF80
 	public static bool get_isLoaded() { }
 
-	// RVA: 0x68BDD0 Offset: 0x68A3D0 VA: 0x18068BDD0
+	// RVA: 0x68BD60 Offset: 0x68A360 VA: 0x18068BD60
 	public static bool IsValid(string strName) { }
 
-	// RVA: 0x68BE60 Offset: 0x68A460 VA: 0x18068BE60
+	// RVA: 0x68BDF0 Offset: 0x68A3F0 VA: 0x18068BDF0
 	public static void LoadLevel(string strName, bool keepLoadingScreenOpen = True) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xAAB80 Offset: 0xA9F80 VA: 0x1800AAB80
-	// RVA: 0x68BDE0 Offset: 0x68A3E0 VA: 0x18068BDE0
+	// RVA: 0x68BD70 Offset: 0x68A370 VA: 0x18068BD70
 	public static IEnumerator LoadLevelAsync(string strName, bool keepLoadingScreenOpen = True) { }
 
-	// RVA: 0x68BEF0 Offset: 0x68A4F0 VA: 0x18068BEF0
+	// RVA: 0x68BE80 Offset: 0x68A480 VA: 0x18068BE80
 	public static void UnloadLevel(bool loadingScreen = True) { }
 
 }
@@ -46,7 +46,7 @@ private sealed class LevelManager.<LoadLevelAsync>d__5 : IEnumerator<object>, IE
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x690450 Offset: 0x68EA50 VA: 0x180690450 Slot: 6
+	// RVA: 0x6903E0 Offset: 0x68E9E0 VA: 0x1806903E0 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -54,7 +54,7 @@ private sealed class LevelManager.<LoadLevelAsync>d__5 : IEnumerator<object>, IE
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6905C0 Offset: 0x68EBC0 VA: 0x1806905C0 Slot: 8
+	// RVA: 0x690550 Offset: 0x68EB50 VA: 0x180690550 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

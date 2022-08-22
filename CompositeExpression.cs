@@ -9,10 +9,10 @@ internal class CompositeExpression : QueryExpression // TypeDefIndex: 6093
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_Expressions(List<QueryExpression> value) { }
 
-	// RVA: 0xE29F20 Offset: 0xE28520 VA: 0x180E29F20
+	// RVA: 0xE2A9D0 Offset: 0xE28FD0 VA: 0x180E2A9D0
 	public void .ctor() { }
 
 }

@@ -23,49 +23,49 @@ public class SelectedItem : SingletonComponent<SelectedItem>, IInventoryChanged 
 
 	// Methods
 
-	// RVA: 0x4ACC70 Offset: 0x4AB270 VA: 0x1804ACC70
+	// RVA: 0x4ACC00 Offset: 0x4AB200 VA: 0x1804ACC00
 	public static void UpdateItem() { }
 
-	// RVA: 0x4ACF50 Offset: 0x4AB550 VA: 0x1804ACF50
+	// RVA: 0x4ACEE0 Offset: 0x4AB4E0 VA: 0x1804ACEE0
 	public static Item get_item() { }
 
-	// RVA: 0x4ACA40 Offset: 0x4AB040 VA: 0x1804ACA40
+	// RVA: 0x4AC9D0 Offset: 0x4AAFD0 VA: 0x1804AC9D0
 	private void Start() { }
 
-	// RVA: 0x4AC170 Offset: 0x4AA770 VA: 0x1804AC170
+	// RVA: 0x4AC100 Offset: 0x4AA700 VA: 0x1804AC100
 	private void OnEnable() { }
 
-	// RVA: 0x4AC0C0 Offset: 0x4AA6C0 VA: 0x1804AC0C0
+	// RVA: 0x4AC050 Offset: 0x4AA650 VA: 0x1804AC050
 	private void OnDisable() { }
 
-	// RVA: 0x4ABDB0 Offset: 0x4AA3B0 VA: 0x1804ABDB0
+	// RVA: 0x4ABD40 Offset: 0x4AA340 VA: 0x1804ABD40
 	public bool NeedsOptionsUpdate(List<Option> oldOpts, List<Option> newOpts, Item item) { }
 
-	// RVA: 0x4AC260 Offset: 0x4AA860 VA: 0x1804AC260 Slot: 8
+	// RVA: 0x4AC1F0 Offset: 0x4AA7F0 VA: 0x1804AC1F0 Slot: 8
 	public void OnInventoryChanged() { }
 
-	// RVA: 0x4AC290 Offset: 0x4AA890 VA: 0x1804AC290
+	// RVA: 0x4AC220 Offset: 0x4AA820 VA: 0x1804AC220
 	private void RefreshItem(Item item) { }
 
-	// RVA: 0x4ABB20 Offset: 0x4AA120 VA: 0x1804ABB20
+	// RVA: 0x4ABAB0 Offset: 0x4AA0B0 VA: 0x1804ABAB0
 	public static List<Option> ItemMenuOptions(Item item) { }
 
-	// RVA: 0x4ACD50 Offset: 0x4AB350 VA: 0x1804ACD50
+	// RVA: 0x4ACCE0 Offset: 0x4AB2E0 VA: 0x1804ACCE0
 	public void Update() { }
 
-	// RVA: 0x4ACB40 Offset: 0x4AB140 VA: 0x1804ACB40
+	// RVA: 0x4ACAD0 Offset: 0x4AB0D0 VA: 0x1804ACAD0
 	public static void TrySelect(ItemIcon newSelect, bool silent = False) { }
 
-	// RVA: 0x4AB9E0 Offset: 0x4A9FE0 VA: 0x1804AB9E0
+	// RVA: 0x4AB970 Offset: 0x4A9F70 VA: 0x1804AB970
 	public static void ClearIfSelected(ItemIcon newSelect) { }
 
-	// RVA: 0x4ABA60 Offset: 0x4AA060 VA: 0x1804ABA60
+	// RVA: 0x4AB9F0 Offset: 0x4A9FF0 VA: 0x1804AB9F0
 	public static void ClearSelection() { }
 
-	// RVA: 0x4AC940 Offset: 0x4AAF40 VA: 0x1804AC940
+	// RVA: 0x4AC8D0 Offset: 0x4AAED0 VA: 0x1804AC8D0
 	internal static void SetHovered(ItemIcon item) { }
 
-	// RVA: 0x4ACEF0 Offset: 0x4AB4F0 VA: 0x1804ACEF0
+	// RVA: 0x4ACE80 Offset: 0x4AB480 VA: 0x1804ACE80
 	public void .ctor() { }
 
 }

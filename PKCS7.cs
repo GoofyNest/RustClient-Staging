@@ -13,34 +13,34 @@ public class PKCS7.ContentInfo // TypeDefIndex: 49
 
 	// Methods
 
-	// RVA: 0x1745BB0 Offset: 0x17441B0 VA: 0x181745BB0
+	// RVA: 0x1743770 Offset: 0x1741D70 VA: 0x181743770
 	public void .ctor() { }
 
-	// RVA: 0x1745980 Offset: 0x1743F80 VA: 0x181745980
+	// RVA: 0x1743540 Offset: 0x1741B40 VA: 0x181743540
 	public void .ctor(string oid) { }
 
-	// RVA: 0x1745C20 Offset: 0x1744220 VA: 0x181745C20
+	// RVA: 0x17437E0 Offset: 0x1741DE0 VA: 0x1817437E0
 	public void .ctor(byte[] data) { }
 
-	// RVA: 0x1745A10 Offset: 0x1744010 VA: 0x181745A10
+	// RVA: 0x17435D0 Offset: 0x1741BD0 VA: 0x1817435D0
 	public void .ctor(ASN1 asn1) { }
 
-	// RVA: 0x1745850 Offset: 0x1743E50 VA: 0x181745850
+	// RVA: 0x1743410 Offset: 0x1741A10 VA: 0x181743410
 	public ASN1 get_ASN1() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public ASN1 get_Content() { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_Content(ASN1 value) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_ContentType() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_ContentType(string value) { }
 
-	// RVA: 0x1745850 Offset: 0x1743E50 VA: 0x181745850
+	// RVA: 0x1743410 Offset: 0x1741A10 VA: 0x181743410
 	internal ASN1 GetASN1() { }
 
 }
@@ -58,16 +58,16 @@ public class PKCS7.EncryptedData // TypeDefIndex: 50
 
 	// Methods
 
-	// RVA: 0x1748500 Offset: 0x1746B00 VA: 0x181748500
+	// RVA: 0x17460C0 Offset: 0x17446C0 VA: 0x1817460C0
 	public void .ctor() { }
 
-	// RVA: 0x1748520 Offset: 0x1746B20 VA: 0x181748520
+	// RVA: 0x17460E0 Offset: 0x17446E0 VA: 0x1817460E0
 	public void .ctor(ASN1 asn1) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public PKCS7.ContentInfo get_EncryptionAlgorithm() { }
 
-	// RVA: 0x1748890 Offset: 0x1746E90 VA: 0x181748890
+	// RVA: 0x1746450 Offset: 0x1744A50 VA: 0x181746450
 	public byte[] get_EncryptedContent() { }
 
 }
@@ -87,34 +87,34 @@ public class PKCS7.ContentInfo // TypeDefIndex: 1708
 
 	// Methods
 
-	// RVA: 0x1AB4230 Offset: 0x1AB2830 VA: 0x181AB4230
+	// RVA: 0x1AB4A20 Offset: 0x1AB3020 VA: 0x181AB4A20
 	public void .ctor() { }
 
-	// RVA: 0x1AB42B0 Offset: 0x1AB28B0 VA: 0x181AB42B0
+	// RVA: 0x1AB4AA0 Offset: 0x1AB30A0 VA: 0x181AB4AA0
 	public void .ctor(string oid) { }
 
-	// RVA: 0x1AB42E0 Offset: 0x1AB28E0 VA: 0x181AB42E0
+	// RVA: 0x1AB4AD0 Offset: 0x1AB30D0 VA: 0x181AB4AD0
 	public void .ctor(byte[] data) { }
 
-	// RVA: 0x1AB4060 Offset: 0x1AB2660 VA: 0x181AB4060
+	// RVA: 0x1AB4850 Offset: 0x1AB2E50 VA: 0x181AB4850
 	public void .ctor(ASN1 asn1) { }
 
-	// RVA: 0x1AB4350 Offset: 0x1AB2950 VA: 0x181AB4350
+	// RVA: 0x1AB4B40 Offset: 0x1AB3140 VA: 0x181AB4B40
 	public ASN1 get_ASN1() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public ASN1 get_Content() { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_Content(ASN1 value) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_ContentType() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_ContentType(string value) { }
 
-	// RVA: 0x1AB3EA0 Offset: 0x1AB24A0 VA: 0x181AB3EA0
+	// RVA: 0x1AB4690 Offset: 0x1AB2C90 VA: 0x181AB4690
 	internal ASN1 GetASN1() { }
 
 }
@@ -132,16 +132,16 @@ public class PKCS7.EncryptedData // TypeDefIndex: 1709
 
 	// Methods
 
-	// RVA: 0x1748500 Offset: 0x1746B00 VA: 0x181748500
+	// RVA: 0x17460C0 Offset: 0x17446C0 VA: 0x1817460C0
 	public void .ctor() { }
 
-	// RVA: 0x1AB4D00 Offset: 0x1AB3300 VA: 0x181AB4D00
+	// RVA: 0x1AB54F0 Offset: 0x1AB3AF0 VA: 0x181AB54F0
 	public void .ctor(ASN1 asn1) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public PKCS7.ContentInfo get_EncryptionAlgorithm() { }
 
-	// RVA: 0x1AB5090 Offset: 0x1AB3690 VA: 0x181AB5090
+	// RVA: 0x1AB5880 Offset: 0x1AB3E80 VA: 0x181AB5880
 	public byte[] get_EncryptedContent() { }
 
 }

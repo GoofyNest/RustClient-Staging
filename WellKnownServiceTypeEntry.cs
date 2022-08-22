@@ -11,19 +11,19 @@ public class WellKnownServiceTypeEntry : TypeEntry // TypeDefIndex: 1156
 
 	// Methods
 
-	// RVA: 0x1207380 Offset: 0x1205980 VA: 0x181207380
+	// RVA: 0x1207A20 Offset: 0x1206020 VA: 0x181207A20
 	public void .ctor(string typeName, string assemblyName, string objectUri, WellKnownObjectMode mode) { }
 
-	// RVA: 0xA38FA0 Offset: 0xA375A0 VA: 0x180A38FA0
+	// RVA: 0xA39490 Offset: 0xA37A90 VA: 0x180A39490
 	public WellKnownObjectMode get_Mode() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public Type get_ObjectType() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public string get_ObjectUri() { }
 
-	// RVA: 0x1207140 Offset: 0x1205740 VA: 0x181207140 Slot: 3
+	// RVA: 0x12077E0 Offset: 0x1205DE0 VA: 0x1812077E0 Slot: 3
 	public override string ToString() { }
 
 }

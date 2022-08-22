@@ -22,34 +22,34 @@ public class ContrastStretch : MonoBehaviour // TypeDefIndex: 8175
 
 	// Methods
 
-	// RVA: 0x21DA210 Offset: 0x21D8810 VA: 0x1821DA210
+	// RVA: 0x21DAA30 Offset: 0x21D9030 VA: 0x1821DAA30
 	protected Material get_materialLum() { }
 
-	// RVA: 0x21DA2D0 Offset: 0x21D88D0 VA: 0x1821DA2D0
+	// RVA: 0x21DAAF0 Offset: 0x21D90F0 VA: 0x1821DAAF0
 	protected Material get_materialReduce() { }
 
-	// RVA: 0x21DA090 Offset: 0x21D8690 VA: 0x1821DA090
+	// RVA: 0x21DA8B0 Offset: 0x21D8EB0 VA: 0x1821DA8B0
 	protected Material get_materialAdapt() { }
 
-	// RVA: 0x21DA150 Offset: 0x21D8750 VA: 0x1821DA150
+	// RVA: 0x21DA970 Offset: 0x21D8F70 VA: 0x1821DA970
 	protected Material get_materialApply() { }
 
-	// RVA: 0x21D9F90 Offset: 0x21D8590 VA: 0x1821D9F90
+	// RVA: 0x21DA7B0 Offset: 0x21D8DB0 VA: 0x1821DA7B0
 	private void Start() { }
 
-	// RVA: 0x21D9B20 Offset: 0x21D8120 VA: 0x1821D9B20
+	// RVA: 0x21DA340 Offset: 0x21D8940 VA: 0x1821DA340
 	private void OnEnable() { }
 
-	// RVA: 0x21D98B0 Offset: 0x21D7EB0 VA: 0x1821D98B0
+	// RVA: 0x21DA0D0 Offset: 0x21D86D0 VA: 0x1821DA0D0
 	private void OnDisable() { }
 
-	// RVA: 0x21D9C80 Offset: 0x21D8280 VA: 0x1821D9C80
+	// RVA: 0x21DA4A0 Offset: 0x21D8AA0 VA: 0x1821DA4A0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x21D9650 Offset: 0x21D7C50 VA: 0x1821D9650
+	// RVA: 0x21D9E70 Offset: 0x21D8470 VA: 0x1821D9E70
 	private void CalculateAdaptation(Texture curTexture) { }
 
-	// RVA: 0x21DA020 Offset: 0x21D8620 VA: 0x1821DA020
+	// RVA: 0x21DA840 Offset: 0x21D8E40 VA: 0x1821DA840
 	public void .ctor() { }
 
 }

@@ -8,34 +8,34 @@ internal sealed class LocalDataStoreMgr // TypeDefIndex: 148
 
 	// Methods
 
-	// RVA: 0x1673BF0 Offset: 0x16721F0 VA: 0x181673BF0
+	// RVA: 0x16717E0 Offset: 0x166FDE0 VA: 0x1816717E0
 	public LocalDataStoreHolder CreateLocalDataStore() { }
 
-	// RVA: 0x1673D70 Offset: 0x1672370 VA: 0x181673D70
+	// RVA: 0x1671960 Offset: 0x166FF60 VA: 0x181671960
 	public void DeleteLocalDataStore(LocalDataStore store) { }
 
-	// RVA: 0x16738C0 Offset: 0x1671EC0 VA: 0x1816738C0
+	// RVA: 0x16714B0 Offset: 0x166FAB0 VA: 0x1816714B0
 	public LocalDataStoreSlot AllocateDataSlot() { }
 
-	// RVA: 0x1673AE0 Offset: 0x16720E0 VA: 0x181673AE0
+	// RVA: 0x16716D0 Offset: 0x166FCD0 VA: 0x1816716D0
 	public LocalDataStoreSlot AllocateNamedDataSlot(string name) { }
 
-	// RVA: 0x1674110 Offset: 0x1672710 VA: 0x181674110
+	// RVA: 0x1671D00 Offset: 0x1670300 VA: 0x181671D00
 	public LocalDataStoreSlot GetNamedDataSlot(string name) { }
 
-	// RVA: 0x1674020 Offset: 0x1672620 VA: 0x181674020
+	// RVA: 0x1671C10 Offset: 0x1670210 VA: 0x181671C10
 	public void FreeNamedDataSlot(string name) { }
 
-	// RVA: 0x1673E60 Offset: 0x1672460 VA: 0x181673E60
+	// RVA: 0x1671A50 Offset: 0x1670050 VA: 0x181671A50
 	internal void FreeDataSlot(int slot, long cookie) { }
 
-	// RVA: 0x1674230 Offset: 0x1672830 VA: 0x181674230
+	// RVA: 0x1671E20 Offset: 0x1670420 VA: 0x181671E20
 	public void ValidateSlot(LocalDataStoreSlot slot) { }
 
-	// RVA: 0x9EB840 Offset: 0x9E9E40 VA: 0x1809EB840
+	// RVA: 0x9EBD30 Offset: 0x9EA330 VA: 0x1809EBD30
 	internal int GetSlotTableLength() { }
 
-	// RVA: 0x16742B0 Offset: 0x16728B0 VA: 0x1816742B0
+	// RVA: 0x1671EA0 Offset: 0x16704A0 VA: 0x181671EA0
 	public void .ctor() { }
 
 }

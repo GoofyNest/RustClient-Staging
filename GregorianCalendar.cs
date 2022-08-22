@@ -17,70 +17,70 @@ public class GregorianCalendar : Calendar // TypeDefIndex: 702
 	// Methods
 
 	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x16F4190 Offset: 0x16F2790 VA: 0x1816F4190
+	// RVA: 0x16F1D80 Offset: 0x16F0380 VA: 0x1816F1D80
 	private void OnDeserialized(StreamingContext ctx) { }
 
-	// RVA: 0x16F4870 Offset: 0x16F2E70 VA: 0x1816F4870 Slot: 5
+	// RVA: 0x16F2460 Offset: 0x16F0A60 VA: 0x1816F2460 Slot: 5
 	public override DateTime get_MinSupportedDateTime() { }
 
-	// RVA: 0x16F4810 Offset: 0x16F2E10 VA: 0x1816F4810 Slot: 6
+	// RVA: 0x16F2400 Offset: 0x16F0A00 VA: 0x1816F2400 Slot: 6
 	public override DateTime get_MaxSupportedDateTime() { }
 
-	// RVA: 0x16F3D10 Offset: 0x16F2310 VA: 0x1816F3D10
+	// RVA: 0x16F1900 Offset: 0x16EFF00 VA: 0x1816F1900
 	internal static Calendar GetDefaultInstance() { }
 
-	// RVA: 0x16F47A0 Offset: 0x16F2DA0 VA: 0x1816F47A0
+	// RVA: 0x16F2390 Offset: 0x16F0990 VA: 0x1816F2390
 	public void .ctor() { }
 
-	// RVA: 0x16F4670 Offset: 0x16F2C70 VA: 0x1816F4670
+	// RVA: 0x16F2260 Offset: 0x16F0860 VA: 0x1816F2260
 	public void .ctor(GregorianCalendarTypes type) { }
 
-	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0 Slot: 7
+	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760 Slot: 7
 	internal override int get_ID() { }
 
-	// RVA: 0x16F37C0 Offset: 0x16F1DC0 VA: 0x1816F37C0 Slot: 28
+	// RVA: 0x16F13B0 Offset: 0x16EF9B0 VA: 0x1816F13B0 Slot: 28
 	internal virtual int GetDatePart(long ticks, int part) { }
 
-	// RVA: 0x16F39B0 Offset: 0x16F1FB0 VA: 0x1816F39B0 Slot: 11
+	// RVA: 0x16F15A0 Offset: 0x16EFBA0 VA: 0x1816F15A0 Slot: 11
 	public override int GetDayOfMonth(DateTime time) { }
 
-	// RVA: 0x16F39F0 Offset: 0x16F1FF0 VA: 0x1816F39F0 Slot: 12
+	// RVA: 0x16F15E0 Offset: 0x16EFBE0 VA: 0x1816F15E0 Slot: 12
 	public override DayOfWeek GetDayOfWeek(DateTime time) { }
 
-	// RVA: 0x16F3A40 Offset: 0x16F2040 VA: 0x1816F3A40 Slot: 13
+	// RVA: 0x16F1630 Offset: 0x16EFC30 VA: 0x1816F1630 Slot: 13
 	public override int GetDaysInMonth(int year, int month, int era) { }
 
-	// RVA: 0x5B18E0 Offset: 0x5AFEE0 VA: 0x1805B18E0 Slot: 14
+	// RVA: 0x5B1870 Offset: 0x5AFE70 VA: 0x1805B1870 Slot: 14
 	public override int GetEra(DateTime time) { }
 
-	// RVA: 0x16F47B0 Offset: 0x16F2DB0 VA: 0x1816F47B0 Slot: 15
+	// RVA: 0x16F23A0 Offset: 0x16F09A0 VA: 0x1816F23A0 Slot: 15
 	public override int[] get_Eras() { }
 
-	// RVA: 0x16F3E10 Offset: 0x16F2410 VA: 0x1816F3E10 Slot: 16
+	// RVA: 0x16F1A00 Offset: 0x16F0000 VA: 0x1816F1A00 Slot: 16
 	public override int GetMonth(DateTime time) { }
 
-	// RVA: 0x16F3E50 Offset: 0x16F2450 VA: 0x1816F3E50 Slot: 17
+	// RVA: 0x16F1A40 Offset: 0x16F0040 VA: 0x1816F1A40 Slot: 17
 	public override int GetMonthsInYear(int year, int era) { }
 
-	// RVA: 0x16F3FB0 Offset: 0x16F25B0 VA: 0x1816F3FB0 Slot: 18
+	// RVA: 0x16F1BA0 Offset: 0x16F01A0 VA: 0x1816F1BA0 Slot: 18
 	public override int GetYear(DateTime time) { }
 
-	// RVA: 0x16F3FF0 Offset: 0x16F25F0 VA: 0x1816F3FF0 Slot: 20
+	// RVA: 0x16F1BE0 Offset: 0x16F01E0 VA: 0x1816F1BE0 Slot: 20
 	public override bool IsLeapYear(int year, int era) { }
 
-	// RVA: 0x16F4260 Offset: 0x16F2860 VA: 0x1816F4260 Slot: 21
+	// RVA: 0x16F1E50 Offset: 0x16F0450 VA: 0x1816F1E50 Slot: 21
 	public override DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era) { }
 
-	// RVA: 0x16F44B0 Offset: 0x16F2AB0 VA: 0x1816F44B0 Slot: 22
+	// RVA: 0x16F20A0 Offset: 0x16F06A0 VA: 0x1816F20A0 Slot: 22
 	internal override bool TryToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era, out DateTime result) { }
 
-	// RVA: 0x16F48D0 Offset: 0x16F2ED0 VA: 0x1816F48D0 Slot: 26
+	// RVA: 0x16F24C0 Offset: 0x16F0AC0 VA: 0x1816F24C0 Slot: 26
 	public override int get_TwoDigitYearMax() { }
 
-	// RVA: 0x16F4350 Offset: 0x16F2950 VA: 0x1816F4350 Slot: 27
+	// RVA: 0x16F1F40 Offset: 0x16F0540 VA: 0x1816F1F40 Slot: 27
 	public override int ToFourDigitYear(int year) { }
 
-	// RVA: 0x16F45C0 Offset: 0x16F2BC0 VA: 0x1816F45C0
+	// RVA: 0x16F21B0 Offset: 0x16F07B0 VA: 0x1816F21B0
 	private static void .cctor() { }
 
 }

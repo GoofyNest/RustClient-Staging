@@ -25,43 +25,43 @@ public class Glyph // TypeDefIndex: 4112
 
 	// Methods
 
-	// RVA: 0x1829960 Offset: 0x1827F60 VA: 0x181829960
+	// RVA: 0x1816DA0 Offset: 0x18153A0 VA: 0x181816DA0
 	public uint get_index() { }
 
-	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
+	// RVA: 0x57C970 Offset: 0x57AF70 VA: 0x18057C970
 	public void set_index(uint value) { }
 
-	// RVA: 0x22F0D00 Offset: 0x22EF300 VA: 0x1822F0D00
+	// RVA: 0x22F1520 Offset: 0x22EFB20 VA: 0x1822F1520
 	public GlyphMetrics get_metrics() { }
 
-	// RVA: 0x22F1090 Offset: 0x22EF690 VA: 0x1822F1090
+	// RVA: 0x22F18B0 Offset: 0x22EFEB0 VA: 0x1822F18B0
 	public void set_metrics(GlyphMetrics value) { }
 
-	// RVA: 0x1A76C30 Offset: 0x1A75230 VA: 0x181A76C30
+	// RVA: 0x1A63160 Offset: 0x1A61760 VA: 0x181A63160
 	public GlyphRect get_glyphRect() { }
 
-	// RVA: 0x1086880 Offset: 0x1084E80 VA: 0x181086880
+	// RVA: 0x10872F0 Offset: 0x10858F0 VA: 0x1810872F0
 	public void set_glyphRect(GlyphRect value) { }
 
-	// RVA: 0x22EE840 Offset: 0x22ECE40 VA: 0x1822EE840
+	// RVA: 0x22EF060 Offset: 0x22ED660 VA: 0x1822EF060
 	public float get_scale() { }
 
-	// RVA: 0x10B8180 Offset: 0x10B6780 VA: 0x1810B8180
+	// RVA: 0x10B8BF0 Offset: 0x10B71F0 VA: 0x1810B8BF0
 	public void set_scale(float value) { }
 
-	// RVA: 0x22F1080 Offset: 0x22EF680 VA: 0x1822F1080
+	// RVA: 0x22F18A0 Offset: 0x22EFEA0 VA: 0x1822F18A0
 	public int get_atlasIndex() { }
 
-	// RVA: 0x8C1180 Offset: 0x8BF780 VA: 0x1808C1180
+	// RVA: 0x8C1690 Offset: 0x8BFC90 VA: 0x1808C1690
 	public void set_atlasIndex(int value) { }
 
-	// RVA: 0x22F0FB0 Offset: 0x22EF5B0 VA: 0x1822F0FB0
+	// RVA: 0x22F17D0 Offset: 0x22EFDD0 VA: 0x1822F17D0
 	public void .ctor() { }
 
-	// RVA: 0x22F0FF0 Offset: 0x22EF5F0 VA: 0x1822F0FF0
+	// RVA: 0x22F1810 Offset: 0x22EFE10 VA: 0x1822F1810
 	internal void .ctor(GlyphMarshallingStruct glyphStruct) { }
 
-	// RVA: 0x22F0F40 Offset: 0x22EF540 VA: 0x1822F0F40
+	// RVA: 0x22F1760 Offset: 0x22EFD60 VA: 0x1822F1760
 	public void .ctor(uint index, GlyphMetrics metrics, GlyphRect glyphRect, float scale, int atlasIndex) { }
 
 }

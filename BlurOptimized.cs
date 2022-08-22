@@ -13,19 +13,19 @@ public class BlurOptimized : PostEffectsBase, IImageEffect // TypeDefIndex: 8166
 
 	// Methods
 
-	// RVA: 0x10740E0 Offset: 0x10726E0 VA: 0x1810740E0 Slot: 4
+	// RVA: 0x1074B50 Offset: 0x1073150 VA: 0x181074B50 Slot: 4
 	public override bool CheckResources() { }
 
-	// RVA: 0x12C71C0 Offset: 0x12C57C0 VA: 0x1812C71C0
+	// RVA: 0x12CD670 Offset: 0x12CBC70 VA: 0x1812CD670
 	public void OnDisable() { }
 
-	// RVA: 0x1074140 Offset: 0x1072740 VA: 0x181074140 Slot: 5
+	// RVA: 0x1074BB0 Offset: 0x10731B0 VA: 0x181074BB0 Slot: 5
 	public bool IsActive() { }
 
-	// RVA: 0x12C7250 Offset: 0x12C5850 VA: 0x1812C7250 Slot: 6
+	// RVA: 0x12CD700 Offset: 0x12CBD00 VA: 0x1812CD700 Slot: 6
 	public void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x12C7780 Offset: 0x12C5D80 VA: 0x1812C7780
+	// RVA: 0x12CDC30 Offset: 0x12CC230 VA: 0x1812CDC30
 	public void .ctor() { }
 
 }
@@ -51,7 +51,7 @@ public class BlurOptimized : PostProcessEffectSettings // TypeDefIndex: 10243
 
 	// Methods
 
-	// RVA: 0x516940 Offset: 0x514F40 VA: 0x180516940
+	// RVA: 0x5168D0 Offset: 0x514ED0 VA: 0x1805168D0
 	public void .ctor() { }
 
 }

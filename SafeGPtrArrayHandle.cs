@@ -8,16 +8,16 @@ internal struct SafeGPtrArrayHandle : IDisposable // TypeDefIndex: 21
 
 	// Methods
 
-	// RVA: 0x1F6820 Offset: 0x1F5C20 VA: 0x1801F6820
+	// RVA: 0x1F5670 Offset: 0x1F4A70 VA: 0x1801F5670
 	internal void .ctor(IntPtr ptr) { }
 
-	// RVA: 0x1F6B20 Offset: 0x1F5F20 VA: 0x1801F6B20 Slot: 4
+	// RVA: 0x1F5970 Offset: 0x1F4D70 VA: 0x1801F5970 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x1F6970 Offset: 0x1F5D70 VA: 0x1801F6970
+	// RVA: 0x1F57C0 Offset: 0x1F4BC0 VA: 0x1801F57C0
 	internal int get_Length() { }
 
-	// RVA: 0x1F6960 Offset: 0x1F5D60 VA: 0x1801F6960
+	// RVA: 0x1F57B0 Offset: 0x1F4BB0 VA: 0x1801F57B0
 	internal IntPtr get_Item(int i) { }
 
 }

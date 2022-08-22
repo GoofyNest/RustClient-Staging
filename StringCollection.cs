@@ -12,13 +12,13 @@ public class StringCollection : IList, ICollection, IEnumerable // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x15D7800 Offset: 0x15D5E00 VA: 0x1815D7800
+	// RVA: 0x15D68D0 Offset: 0x15D4ED0 VA: 0x1815D68D0
 	public string get_Item(int index) { }
 
-	// RVA: 0x15D7980 Offset: 0x15D5F80 VA: 0x1815D7980
+	// RVA: 0x15D6A50 Offset: 0x15D5050 VA: 0x1815D6A50
 	public void set_Item(int index, string value) { }
 
-	// RVA: 0xB19300 Offset: 0xB17900 VA: 0x180B19300 Slot: 16
+	// RVA: 0xB197D0 Offset: 0xB17DD0 VA: 0x180B197D0 Slot: 16
 	public int get_Count() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 9
@@ -27,61 +27,61 @@ public class StringCollection : IList, ICollection, IEnumerable // TypeDefIndex:
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 10
 	private bool System.Collections.IList.get_IsFixedSize() { }
 
-	// RVA: 0x117C280 Offset: 0x117A880 VA: 0x18117C280
+	// RVA: 0x1180BA0 Offset: 0x117F1A0 VA: 0x181180BA0
 	public int Add(string value) { }
 
-	// RVA: 0xBC8580 Offset: 0xBC6B80 VA: 0x180BC8580 Slot: 8
+	// RVA: 0xBC8A50 Offset: 0xBC7050 VA: 0x180BC8A50 Slot: 8
 	public void Clear() { }
 
-	// RVA: 0x146DC50 Offset: 0x146C250 VA: 0x18146DC50
+	// RVA: 0x146CD20 Offset: 0x146B320 VA: 0x18146CD20
 	public bool Contains(string value) { }
 
-	// RVA: 0x14D2DE0 Offset: 0x14D13E0 VA: 0x1814D2DE0
+	// RVA: 0x14D1EB0 Offset: 0x14D04B0 VA: 0x1814D1EB0
 	public void CopyTo(string[] array, int index) { }
 
-	// RVA: 0x15D74B0 Offset: 0x15D5AB0 VA: 0x1815D74B0
+	// RVA: 0x15D6580 Offset: 0x15D4B80 VA: 0x1815D6580
 	public int IndexOf(string value) { }
 
-	// RVA: 0x15D74E0 Offset: 0x15D5AE0 VA: 0x1815D74E0
+	// RVA: 0x15D65B0 Offset: 0x15D4BB0 VA: 0x1815D65B0
 	public void Insert(int index, string value) { }
 
-	// RVA: 0x15D7540 Offset: 0x15D5B40 VA: 0x1815D7540
+	// RVA: 0x15D6610 Offset: 0x15D4C10 VA: 0x1815D6610
 	public void Remove(string value) { }
 
-	// RVA: 0x15D7510 Offset: 0x15D5B10 VA: 0x1815D7510 Slot: 14
+	// RVA: 0x15D65E0 Offset: 0x15D4BE0 VA: 0x1815D65E0 Slot: 14
 	public void RemoveAt(int index) { }
 
-	// RVA: 0x1348FD0 Offset: 0x13475D0 VA: 0x181348FD0 Slot: 17
+	// RVA: 0x13480D0 Offset: 0x13466D0 VA: 0x1813480D0 Slot: 17
 	public object get_SyncRoot() { }
 
-	// RVA: 0x15D7800 Offset: 0x15D5E00 VA: 0x1815D7800 Slot: 4
+	// RVA: 0x15D68D0 Offset: 0x15D4ED0 VA: 0x1815D68D0 Slot: 4
 	private object System.Collections.IList.get_Item(int index) { }
 
-	// RVA: 0x15D7880 Offset: 0x15D5E80 VA: 0x1815D7880 Slot: 5
+	// RVA: 0x15D6950 Offset: 0x15D4F50 VA: 0x1815D6950 Slot: 5
 	private void System.Collections.IList.set_Item(int index, object value) { }
 
-	// RVA: 0x15D7570 Offset: 0x15D5B70 VA: 0x1815D7570 Slot: 6
+	// RVA: 0x15D6640 Offset: 0x15D4C40 VA: 0x1815D6640 Slot: 6
 	private int System.Collections.IList.Add(object value) { }
 
-	// RVA: 0x15D75F0 Offset: 0x15D5BF0 VA: 0x1815D75F0 Slot: 7
+	// RVA: 0x15D66C0 Offset: 0x15D4CC0 VA: 0x1815D66C0 Slot: 7
 	private bool System.Collections.IList.Contains(object value) { }
 
-	// RVA: 0x15D7670 Offset: 0x15D5C70 VA: 0x1815D7670 Slot: 11
+	// RVA: 0x15D6740 Offset: 0x15D4D40 VA: 0x1815D6740 Slot: 11
 	private int System.Collections.IList.IndexOf(object value) { }
 
-	// RVA: 0x15D76F0 Offset: 0x15D5CF0 VA: 0x1815D76F0 Slot: 12
+	// RVA: 0x15D67C0 Offset: 0x15D4DC0 VA: 0x1815D67C0 Slot: 12
 	private void System.Collections.IList.Insert(int index, object value) { }
 
-	// RVA: 0x15D7780 Offset: 0x15D5D80 VA: 0x1815D7780 Slot: 13
+	// RVA: 0x15D6850 Offset: 0x15D4E50 VA: 0x1815D6850 Slot: 13
 	private void System.Collections.IList.Remove(object value) { }
 
-	// RVA: 0x14D2DE0 Offset: 0x14D13E0 VA: 0x1814D2DE0 Slot: 15
+	// RVA: 0x14D1EB0 Offset: 0x14D04B0 VA: 0x1814D1EB0 Slot: 15
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 
-	// RVA: 0xBC86D0 Offset: 0xBC6CD0 VA: 0x180BC86D0 Slot: 18
+	// RVA: 0xBC8BA0 Offset: 0xBC71A0 VA: 0x180BC8BA0 Slot: 18
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	// RVA: 0x15D7910 Offset: 0x15D5F10 VA: 0x1815D7910
+	// RVA: 0x15D69E0 Offset: 0x15D4FE0 VA: 0x1815D69E0
 	public void .ctor() { }
 
 }

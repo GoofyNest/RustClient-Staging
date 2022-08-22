@@ -16,48 +16,48 @@ public class HttpImage : MonoBehaviour // TypeDefIndex: 7044
 
 	// Methods
 
-	// RVA: 0xFC1D70 Offset: 0xFC0370 VA: 0x180FC1D70
+	// RVA: 0xFC2810 Offset: 0xFC0E10 VA: 0x180FC2810
 	private void Init() { }
 
-	// RVA: 0xFC2590 Offset: 0xFC0B90 VA: 0x180FC2590
+	// RVA: 0xFC3030 Offset: 0xFC1630 VA: 0x180FC3030
 	private void Start() { }
 
-	// RVA: 0xFC2220 Offset: 0xFC0820 VA: 0x180FC2220
+	// RVA: 0xFC2CC0 Offset: 0xFC12C0 VA: 0x180FC2CC0
 	private void OnDestroy() { }
 
-	// RVA: 0xFC1ED0 Offset: 0xFC04D0 VA: 0x180FC1ED0
+	// RVA: 0xFC2970 Offset: 0xFC0F70 VA: 0x180FC2970
 	public bool Load(string url) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x75CA0 Offset: 0x750A0 VA: 0x180075CA0
-	// RVA: 0xFC2840 Offset: 0xFC0E40 VA: 0x180FC2840
+	// RVA: 0xFC32E0 Offset: 0xFC18E0 VA: 0x180FC32E0
 	private IEnumerator WaitForLoad(string url) { }
 
-	// RVA: 0xFC2630 Offset: 0xFC0C30 VA: 0x180FC2630
+	// RVA: 0xFC30D0 Offset: 0xFC16D0 VA: 0x180FC30D0
 	private void UpdateImageTexture(ValueTuple<Texture2D, Sprite> tex) { }
 
-	// RVA: 0xFC2480 Offset: 0xFC0A80 VA: 0x180FC2480
+	// RVA: 0xFC2F20 Offset: 0xFC1520 VA: 0x180FC2F20
 	public void SetMissingImage() { }
 
-	// RVA: 0xFC2400 Offset: 0xFC0A00 VA: 0x180FC2400
+	// RVA: 0xFC2EA0 Offset: 0xFC14A0 VA: 0x180FC2EA0
 	public void SetLoadingImage() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x75E90 Offset: 0x75290 VA: 0x180075E90
-	// RVA: 0xFC2500 Offset: 0xFC0B00 VA: 0x180FC2500
+	// RVA: 0xFC2FA0 Offset: 0xFC15A0 VA: 0x180FC2FA0
 	private IEnumerator StartAndWaitForLoad(string url) { }
 
-	// RVA: 0xFC19D0 Offset: 0xFBFFD0 VA: 0x180FC19D0
+	// RVA: 0xFC2470 Offset: 0xFC0A70 VA: 0x180FC2470
 	private void AutosizeForTexture(Texture2D texture) { }
 
-	// RVA: 0xFC2320 Offset: 0xFC0920 VA: 0x180FC2320
+	// RVA: 0xFC2DC0 Offset: 0xFC13C0 VA: 0x180FC2DC0
 	private void SetImageEnabled(bool enabled) { }
 
-	// RVA: 0xFC1C40 Offset: 0xFC0240 VA: 0x180FC1C40
+	// RVA: 0xFC26E0 Offset: 0xFC0CE0 VA: 0x180FC26E0
 	private static Sprite CreateSprite(Texture2D texture) { }
 
-	// RVA: 0xFC2970 Offset: 0xFC0F70 VA: 0x180FC2970
+	// RVA: 0xFC3410 Offset: 0xFC1A10 VA: 0x180FC3410
 	public void .ctor() { }
 
-	// RVA: 0xFC28D0 Offset: 0xFC0ED0 VA: 0x180FC28D0
+	// RVA: 0xFC3370 Offset: 0xFC1970 VA: 0x180FC3370
 	private static void .cctor() { }
 
 }
@@ -83,7 +83,7 @@ private sealed class HttpImage.<WaitForLoad>d__17 : IEnumerator<object>, IEnumer
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xFD9390 Offset: 0xFD7990 VA: 0x180FD9390 Slot: 6
+	// RVA: 0xFD9E30 Offset: 0xFD8430 VA: 0x180FD9E30 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -91,7 +91,7 @@ private sealed class HttpImage.<WaitForLoad>d__17 : IEnumerator<object>, IEnumer
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xFD9570 Offset: 0xFD7B70 VA: 0x180FD9570 Slot: 8
+	// RVA: 0xFDA010 Offset: 0xFD8610 VA: 0x180FDA010 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -122,7 +122,7 @@ private sealed class HttpImage.<StartAndWaitForLoad>d__21 : IEnumerator<object>,
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xFD7AE0 Offset: 0xFD60E0 VA: 0x180FD7AE0 Slot: 6
+	// RVA: 0xFD8580 Offset: 0xFD6B80 VA: 0x180FD8580 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -130,7 +130,7 @@ private sealed class HttpImage.<StartAndWaitForLoad>d__21 : IEnumerator<object>,
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xFD8010 Offset: 0xFD6610 VA: 0x180FD8010 Slot: 8
+	// RVA: 0xFD8AB0 Offset: 0xFD70B0 VA: 0x180FD8AB0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

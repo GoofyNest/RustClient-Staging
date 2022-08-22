@@ -7,16 +7,16 @@ public class HurtOverlay : MonoBehaviour // TypeDefIndex: 9131
 
 	// Methods
 
-	// RVA: 0x515E30 Offset: 0x514430 VA: 0x180515E30
+	// RVA: 0x515DC0 Offset: 0x5143C0 VA: 0x180515DC0
 	public void Awake() { }
 
-	// RVA: 0x746200 Offset: 0x744800 VA: 0x180746200
+	// RVA: 0x746150 Offset: 0x744750 VA: 0x180746150
 	protected void Update() { }
 
-	// RVA: 0x746010 Offset: 0x744610 VA: 0x180746010
+	// RVA: 0x745F60 Offset: 0x744560 VA: 0x180745F60
 	private float GetIntensity() { }
 
-	// RVA: 0x57BC30 Offset: 0x57A230 VA: 0x18057BC30
+	// RVA: 0x57BBC0 Offset: 0x57A1C0 VA: 0x18057BBC0
 	public void .ctor() { }
 
 }

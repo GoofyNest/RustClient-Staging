@@ -13,19 +13,19 @@ internal sealed class RegexBoyerMoore // TypeDefIndex: 2604
 
 	// Methods
 
-	// RVA: 0x14C2110 Offset: 0x14C0710 VA: 0x1814C2110
+	// RVA: 0x14C11E0 Offset: 0x14BF7E0 VA: 0x1814C11E0
 	internal void .ctor(string pattern, bool caseInsensitive, bool rightToLeft, CultureInfo culture) { }
 
-	// RVA: 0x14C1C40 Offset: 0x14C0240 VA: 0x1814C1C40
+	// RVA: 0x14C0D10 Offset: 0x14BF310 VA: 0x1814C0D10
 	private bool MatchPattern(string text, int index) { }
 
-	// RVA: 0x14C1BC0 Offset: 0x14C01C0 VA: 0x1814C1BC0
+	// RVA: 0x14C0C90 Offset: 0x14BF290 VA: 0x1814C0C90
 	internal bool IsMatch(string text, int index, int beglimit, int endlimit) { }
 
-	// RVA: 0x14C1D70 Offset: 0x14C0370 VA: 0x1814C1D70
+	// RVA: 0x14C0E40 Offset: 0x14BF440 VA: 0x1814C0E40
 	internal int Scan(string text, int index, int beglimit, int endlimit) { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440 Slot: 3
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0 Slot: 3
 	public override string ToString() { }
 
 }

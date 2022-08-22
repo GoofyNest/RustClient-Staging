@@ -12,19 +12,19 @@ public class ReliableEventSender : StateMachineBehaviour // TypeDefIndex: 9120
 
 	// Methods
 
-	// RVA: 0x94C380 Offset: 0x94A980 VA: 0x18094C380 Slot: 4
+	// RVA: 0x94C890 Offset: 0x94AE90 VA: 0x18094C890 Slot: 4
 	public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) { }
 
-	// RVA: 0x94C420 Offset: 0x94AA20 VA: 0x18094C420 Slot: 7
+	// RVA: 0x94C930 Offset: 0x94AF30 VA: 0x18094C930 Slot: 7
 	public override void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) { }
 
-	// RVA: 0x94C4E0 Offset: 0x94AAE0 VA: 0x18094C4E0
+	// RVA: 0x94C9F0 Offset: 0x94AFF0 VA: 0x18094C9F0
 	private void SendEvent(Animator animator, string eventName) { }
 
-	// RVA: 0x94C3D0 Offset: 0x94A9D0 VA: 0x18094C3D0 Slot: 6
+	// RVA: 0x94C8E0 Offset: 0x94AEE0 VA: 0x18094C8E0 Slot: 6
 	public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) { }
 
-	// RVA: 0x6A7B40 Offset: 0x6A6140 VA: 0x1806A7B40
+	// RVA: 0x6A7AD0 Offset: 0x6A60D0 VA: 0x1806A7AD0
 	public void .ctor() { }
 
 }

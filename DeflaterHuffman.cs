@@ -25,43 +25,43 @@ internal class DeflaterHuffman // TypeDefIndex: 5660
 
 	// Methods
 
-	// RVA: 0x13ADDF0 Offset: 0x13AC3F0 VA: 0x1813ADDF0
+	// RVA: 0x13ACEF0 Offset: 0x13AB4F0 VA: 0x1813ACEF0
 	public static short BitReverse(int toReverse) { }
 
-	// RVA: 0x13AF2A0 Offset: 0x13AD8A0 VA: 0x1813AF2A0
+	// RVA: 0x13AE3A0 Offset: 0x13AC9A0 VA: 0x1813AE3A0
 	private static void .cctor() { }
 
-	// RVA: 0x13AF820 Offset: 0x13ADE20 VA: 0x1813AF820
+	// RVA: 0x13AE920 Offset: 0x13ACF20 VA: 0x1813AE920
 	public void .ctor(DeflaterPending pending) { }
 
-	// RVA: 0x13AE880 Offset: 0x13ACE80 VA: 0x1813AE880
+	// RVA: 0x13AD980 Offset: 0x13ABF80 VA: 0x1813AD980
 	public void Reset() { }
 
-	// RVA: 0x13AE850 Offset: 0x13ACE50 VA: 0x1813AE850
+	// RVA: 0x13AD950 Offset: 0x13ABF50 VA: 0x1813AD950
 	private int Lcode(int len) { }
 
-	// RVA: 0x13AE190 Offset: 0x13AC790 VA: 0x1813AE190
+	// RVA: 0x13AD290 Offset: 0x13AB890 VA: 0x1813AD290
 	private int Dcode(int distance) { }
 
-	// RVA: 0x13AE8D0 Offset: 0x13ACED0 VA: 0x1813AE8D0
+	// RVA: 0x13AD9D0 Offset: 0x13ABFD0 VA: 0x1813AD9D0
 	public void SendAllTrees(int blTreeCodes) { }
 
-	// RVA: 0x13ADF10 Offset: 0x13AC510 VA: 0x1813ADF10
+	// RVA: 0x13AD010 Offset: 0x13AB610 VA: 0x1813AD010
 	public void CompressBlock() { }
 
-	// RVA: 0x13AE6F0 Offset: 0x13ACCF0 VA: 0x1813AE6F0
+	// RVA: 0x13AD7F0 Offset: 0x13ABDF0 VA: 0x1813AD7F0
 	public void FlushStoredBlock(byte[] stored, int storedOffset, int storedLength, bool lastBlock) { }
 
-	// RVA: 0x13AE1B0 Offset: 0x13AC7B0 VA: 0x1813AE1B0
+	// RVA: 0x13AD2B0 Offset: 0x13AB8B0 VA: 0x1813AD2B0
 	public void FlushBlock(byte[] stored, int storedOffset, int storedLength, bool lastBlock) { }
 
-	// RVA: 0x13AE7E0 Offset: 0x13ACDE0 VA: 0x1813AE7E0
+	// RVA: 0x13AD8E0 Offset: 0x13ABEE0 VA: 0x1813AD8E0
 	public bool IsFull() { }
 
-	// RVA: 0x13AF190 Offset: 0x13AD790 VA: 0x1813AF190
+	// RVA: 0x13AE290 Offset: 0x13AC890 VA: 0x1813AE290
 	public bool TallyLit(int lit) { }
 
-	// RVA: 0x13AEFD0 Offset: 0x13AD5D0 VA: 0x1813AEFD0
+	// RVA: 0x13AE0D0 Offset: 0x13AC6D0 VA: 0x1813AE0D0
 	public bool TallyDist(int dist, int len) { }
 
 }
@@ -79,34 +79,34 @@ internal class DeflaterHuffman.Tree // TypeDefIndex: 5661
 
 	// Methods
 
-	// RVA: 0x13CDE30 Offset: 0x13CC430 VA: 0x1813CDE30
+	// RVA: 0x13CCF30 Offset: 0x13CB530 VA: 0x1813CCF30
 	public void .ctor(DeflaterHuffman dh, int elems, int minCodes, int maxLength) { }
 
-	// RVA: 0x13CDA30 Offset: 0x13CC030 VA: 0x1813CDA30
+	// RVA: 0x13CCB30 Offset: 0x13CB130 VA: 0x1813CCB30
 	public void Reset() { }
 
-	// RVA: 0x13CDB00 Offset: 0x13CC100 VA: 0x1813CDB00
+	// RVA: 0x13CCC00 Offset: 0x13CB200 VA: 0x1813CCC00
 	public void WriteSymbol(int code) { }
 
-	// RVA: 0x13CDAC0 Offset: 0x13CC0C0 VA: 0x1813CDAC0
+	// RVA: 0x13CCBC0 Offset: 0x13CB1C0 VA: 0x1813CCBC0
 	public void SetStaticCodes(short[] stCodes, byte[] stLength) { }
 
-	// RVA: 0x13CC5E0 Offset: 0x13CABE0 VA: 0x1813CC5E0
+	// RVA: 0x13CB6E0 Offset: 0x13C9CE0 VA: 0x1813CB6E0
 	public void BuildCodes() { }
 
-	// RVA: 0x13CC880 Offset: 0x13CAE80 VA: 0x1813CC880
+	// RVA: 0x13CB980 Offset: 0x13C9F80 VA: 0x1813CB980
 	private void BuildLength(int[] childs) { }
 
-	// RVA: 0x13CCDB0 Offset: 0x13CB3B0 VA: 0x1813CCDB0
+	// RVA: 0x13CBEB0 Offset: 0x13CA4B0 VA: 0x1813CBEB0
 	public void BuildTree() { }
 
-	// RVA: 0x13CD9A0 Offset: 0x13CBFA0 VA: 0x1813CD9A0
+	// RVA: 0x13CCAA0 Offset: 0x13CB0A0 VA: 0x1813CCAA0
 	public int GetEncodedLength() { }
 
-	// RVA: 0x13CD6E0 Offset: 0x13CBCE0 VA: 0x1813CD6E0
+	// RVA: 0x13CC7E0 Offset: 0x13CADE0 VA: 0x1813CC7E0
 	public void CalcBLFreq(DeflaterHuffman.Tree blTree) { }
 
-	// RVA: 0x13CDB80 Offset: 0x13CC180 VA: 0x1813CDB80
+	// RVA: 0x13CCC80 Offset: 0x13CB280 VA: 0x1813CCC80
 	public void WriteTree(DeflaterHuffman.Tree blTree) { }
 
 }

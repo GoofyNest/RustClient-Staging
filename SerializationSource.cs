@@ -6,10 +6,10 @@ internal abstract class SerializationSource // TypeDefIndex: 2059
 
 	// Methods
 
-	// RVA: 0x11043E0 Offset: 0x11029E0 VA: 0x1811043E0
+	// RVA: 0x1104E50 Offset: 0x1103450 VA: 0x181104E50
 	public void .ctor(string namspace, Type[] includedTypes) { }
 
-	// RVA: 0x11042B0 Offset: 0x11028B0 VA: 0x1811042B0
+	// RVA: 0x1104D20 Offset: 0x1103320 VA: 0x181104D20
 	protected bool BaseEquals(SerializationSource other) { }
 
 }

@@ -10,7 +10,7 @@ public class ConditionalSocketSettings // TypeDefIndex: 12099
 
 	// Methods
 
-	// RVA: 0x4BB4A0 Offset: 0x4B9AA0 VA: 0x1804BB4A0
+	// RVA: 0x4BB430 Offset: 0x4B9A30 VA: 0x1804BB430
 	public bool get_HasSocketRestrictions() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

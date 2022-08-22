@@ -8,13 +8,13 @@ public sealed class Pointer : ISerializable // TypeDefIndex: 546
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	private void .ctor() { }
 
-	// RVA: 0x18D42D0 Offset: 0x18D28D0 VA: 0x1818D42D0
+	// RVA: 0x18D39F0 Offset: 0x18D1FF0 VA: 0x1818D39F0
 	private void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0x18D4050 Offset: 0x18D2650 VA: 0x1818D4050
+	// RVA: 0x18D3770 Offset: 0x18D1D70 VA: 0x1818D3770
 	public static object Box(void* ptr, Type type) { }
 
-	// RVA: 0x18D4240 Offset: 0x18D2840 VA: 0x1818D4240 Slot: 4
+	// RVA: 0x18D3960 Offset: 0x18D1F60 VA: 0x1818D3960 Slot: 4
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 }
@@ -27,16 +27,16 @@ public class PointER // TypeDefIndex: 6874
 
 	// Methods
 
-	// RVA: 0x2317F40 Offset: 0x2316540 VA: 0x182317F40
+	// RVA: 0x2318760 Offset: 0x2316D60 VA: 0x182318760
 	public void .ctor(float x, float y, float z) { }
 
-	// RVA: 0x2317EA0 Offset: 0x23164A0 VA: 0x182317EA0 Slot: 2
+	// RVA: 0x23186C0 Offset: 0x2316CC0 VA: 0x1823186C0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x2317DE0 Offset: 0x23163E0 VA: 0x182317DE0 Slot: 0
+	// RVA: 0x2318600 Offset: 0x2316C00 VA: 0x182318600 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x2317F90 Offset: 0x2316590 VA: 0x182317F90
+	// RVA: 0x23187B0 Offset: 0x2316DB0 VA: 0x1823187B0
 	public static bool op_Equality(PointER left, PointER right) { }
 
 }

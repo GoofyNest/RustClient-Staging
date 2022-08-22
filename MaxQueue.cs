@@ -8,16 +8,16 @@ public class MaxQueue // TypeDefIndex: 4811
 
 	// Methods
 
-	// RVA: 0x226E7D0 Offset: 0x226CDD0 VA: 0x18226E7D0
+	// RVA: 0x226EFF0 Offset: 0x226D5F0 VA: 0x18226EFF0
 	public void .ctor(int capacity = 8) { }
 
-	// RVA: 0x226E700 Offset: 0x226CD00 VA: 0x18226E700
+	// RVA: 0x226EF20 Offset: 0x226D520 VA: 0x18226EF20
 	public void Push(int value) { }
 
-	// RVA: 0x226E660 Offset: 0x226CC60 VA: 0x18226E660
+	// RVA: 0x226EE80 Offset: 0x226D480 VA: 0x18226EE80
 	public int Pop() { }
 
-	// RVA: 0x226E880 Offset: 0x226CE80 VA: 0x18226E880
+	// RVA: 0x226F0A0 Offset: 0x226D6A0 VA: 0x18226F0A0
 	public int get_Max() { }
 
 }

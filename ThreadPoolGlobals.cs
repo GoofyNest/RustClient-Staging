@@ -9,7 +9,7 @@ internal static class ThreadPoolGlobals // TypeDefIndex: 808
 
 	// Methods
 
-	// RVA: 0x160AA10 Offset: 0x1609010 VA: 0x18160AA10
+	// RVA: 0x15F7D30 Offset: 0x15F6330 VA: 0x1815F7D30
 	private static void .cctor() { }
 
 }

@@ -12,13 +12,13 @@ internal struct TimedTrialStatus_t : ICallbackData // TypeDefIndex: 5403
 
 	// Methods
 
-	// RVA: 0x1DB140 Offset: 0x1DA540 VA: 0x1801DB140 Slot: 5
+	// RVA: 0x1DB7B0 Offset: 0x1DABB0 VA: 0x1801DB7B0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DB130 Offset: 0x1DA530 VA: 0x1801DB130 Slot: 4
+	// RVA: 0x1DB7A0 Offset: 0x1DABA0 VA: 0x1801DB7A0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1291480 Offset: 0x128FA80 VA: 0x181291480
+	// RVA: 0x1291B20 Offset: 0x1290120 VA: 0x181291B20
 	private static void .cctor() { }
 
 }

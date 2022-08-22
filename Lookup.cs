@@ -19,22 +19,22 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	internal void Add(TElement element) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1761790 Offset: 0x175FD90 VA: 0x181761790
+	|-RVA: 0x175F320 Offset: 0x175D920 VA: 0x18175F320
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.Add
 	|
-	|-RVA: 0x1761890 Offset: 0x175FE90 VA: 0x181761890
+	|-RVA: 0x175F420 Offset: 0x175DA20 VA: 0x18175F420
 	|-Lookup.Grouping<InventoryDefId, object>.Add
 	|
-	|-RVA: 0x1761C20 Offset: 0x1760220 VA: 0x181761C20
+	|-RVA: 0x175F7B0 Offset: 0x175DDB0 VA: 0x18175F7B0
 	|-Lookup.Grouping<Int32Enum, object>.Add
 	|
-	|-RVA: 0x1761970 Offset: 0x175FF70 VA: 0x181761970
+	|-RVA: 0x175F500 Offset: 0x175DB00 VA: 0x18175F500
 	|-Lookup.Grouping<object, object>.Add
 	|
-	|-RVA: 0x1761B40 Offset: 0x1760140 VA: 0x181761B40
+	|-RVA: 0x175F6D0 Offset: 0x175DCD0 VA: 0x18175F6D0
 	|-Lookup.Grouping<uint, object>.Add
 	|
-	|-RVA: 0x1761A50 Offset: 0x1760050 VA: 0x181761A50
+	|-RVA: 0x175F5E0 Offset: 0x175DBE0 VA: 0x18175F5E0
 	|-Lookup.Grouping<Vector2Int, Resolution>.Add
 	*/
 
@@ -43,10 +43,10 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	public IEnumerator<TElement> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1761D90 Offset: 0x1760390 VA: 0x181761D90
+	|-RVA: 0x175F920 Offset: 0x175DF20 VA: 0x18175F920
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.GetEnumerator
 	|
-	|-RVA: 0x1761D00 Offset: 0x1760300 VA: 0x181761D00
+	|-RVA: 0x175F890 Offset: 0x175DE90 VA: 0x18175F890
 	|-Lookup.Grouping<InventoryDefId, object>.GetEnumerator
 	|-Lookup.Grouping<Int32Enum, object>.GetEnumerator
 	|-Lookup.Grouping<object, object>.GetEnumerator
@@ -58,7 +58,7 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1761100 Offset: 0x175F700 VA: 0x181761100
+	|-RVA: 0x16508D0 Offset: 0x164EED0 VA: 0x1816508D0
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.IEnumerable.GetEnumerator
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.IEnumerable.GetEnumerator
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.IEnumerable.GetEnumerator
@@ -77,7 +77,7 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	|-Lookup.Grouping<Int32Enum, object>.get_Key
 	|-Lookup.Grouping<uint, object>.get_Key
 	|
-	|-RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	|-RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	|-Lookup.Grouping<object, object>.get_Key
 	|-Lookup.Grouping<Vector2Int, Resolution>.get_Key
 	*/
@@ -86,13 +86,13 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private int System.Collections.Generic.ICollection<TElement>.get_Count() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
+	|-RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.Generic.ICollection<TElement>.get_Count
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.Generic.ICollection<TElement>.get_Count
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.Generic.ICollection<TElement>.get_Count
 	|-Lookup.Grouping<uint, object>.System.Collections.Generic.ICollection<TElement>.get_Count
 	|
-	|-RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
+	|-RVA: 0x4BE590 Offset: 0x4BCB90 VA: 0x1804BE590
 	|-Lookup.Grouping<object, object>.System.Collections.Generic.ICollection<TElement>.get_Count
 	|-Lookup.Grouping<Vector2Int, Resolution>.System.Collections.Generic.ICollection<TElement>.get_Count
 	*/
@@ -101,7 +101,7 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private bool System.Collections.Generic.ICollection<TElement>.get_IsReadOnly() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250
+	|-RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.Generic.ICollection<TElement>.get_IsReadOnly
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.Generic.ICollection<TElement>.get_IsReadOnly
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.Generic.ICollection<TElement>.get_IsReadOnly
@@ -114,22 +114,22 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private void System.Collections.Generic.ICollection<TElement>.Add(TElement item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1761E20 Offset: 0x1760420 VA: 0x181761E20
+	|-RVA: 0x175F9B0 Offset: 0x175DFB0 VA: 0x18175F9B0
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.Generic.ICollection<TElement>.Add
 	|
-	|-RVA: 0x1761EE0 Offset: 0x17604E0 VA: 0x181761EE0
+	|-RVA: 0x175FA70 Offset: 0x175E070 VA: 0x18175FA70
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.Generic.ICollection<TElement>.Add
 	|
-	|-RVA: 0x1761F60 Offset: 0x1760560 VA: 0x181761F60
+	|-RVA: 0x175FAF0 Offset: 0x175E0F0 VA: 0x18175FAF0
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.Generic.ICollection<TElement>.Add
 	|
-	|-RVA: 0x1761EA0 Offset: 0x17604A0 VA: 0x181761EA0
+	|-RVA: 0x175FA30 Offset: 0x175E030 VA: 0x18175FA30
 	|-Lookup.Grouping<object, object>.System.Collections.Generic.ICollection<TElement>.Add
 	|
-	|-RVA: 0x1761F20 Offset: 0x1760520 VA: 0x181761F20
+	|-RVA: 0x175FAB0 Offset: 0x175E0B0 VA: 0x18175FAB0
 	|-Lookup.Grouping<uint, object>.System.Collections.Generic.ICollection<TElement>.Add
 	|
-	|-RVA: 0x1761E60 Offset: 0x1760460 VA: 0x181761E60
+	|-RVA: 0x175F9F0 Offset: 0x175DFF0 VA: 0x18175F9F0
 	|-Lookup.Grouping<Vector2Int, Resolution>.System.Collections.Generic.ICollection<TElement>.Add
 	*/
 
@@ -137,22 +137,22 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private void System.Collections.Generic.ICollection<TElement>.Clear() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1762060 Offset: 0x1760660 VA: 0x181762060
+	|-RVA: 0x175FBF0 Offset: 0x175E1F0 VA: 0x18175FBF0
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.Generic.ICollection<TElement>.Clear
 	|
-	|-RVA: 0x1761FA0 Offset: 0x17605A0 VA: 0x181761FA0
+	|-RVA: 0x175FB30 Offset: 0x175E130 VA: 0x18175FB30
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.Generic.ICollection<TElement>.Clear
 	|
-	|-RVA: 0x1762020 Offset: 0x1760620 VA: 0x181762020
+	|-RVA: 0x175FBB0 Offset: 0x175E1B0 VA: 0x18175FBB0
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.Generic.ICollection<TElement>.Clear
 	|
-	|-RVA: 0x17620A0 Offset: 0x17606A0 VA: 0x1817620A0
+	|-RVA: 0x175FC30 Offset: 0x175E230 VA: 0x18175FC30
 	|-Lookup.Grouping<object, object>.System.Collections.Generic.ICollection<TElement>.Clear
 	|
-	|-RVA: 0x1761FE0 Offset: 0x17605E0 VA: 0x181761FE0
+	|-RVA: 0x175FB70 Offset: 0x175E170 VA: 0x18175FB70
 	|-Lookup.Grouping<uint, object>.System.Collections.Generic.ICollection<TElement>.Clear
 	|
-	|-RVA: 0x17620E0 Offset: 0x17606E0 VA: 0x1817620E0
+	|-RVA: 0x175FC70 Offset: 0x175E270 VA: 0x18175FC70
 	|-Lookup.Grouping<Vector2Int, Resolution>.System.Collections.Generic.ICollection<TElement>.Clear
 	*/
 
@@ -160,18 +160,18 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private bool System.Collections.Generic.ICollection<TElement>.Contains(TElement item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17621D0 Offset: 0x17607D0 VA: 0x1817621D0
+	|-RVA: 0x175FD60 Offset: 0x175E360 VA: 0x18175FD60
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.Generic.ICollection<TElement>.Contains
 	|
-	|-RVA: 0x1762120 Offset: 0x1760720 VA: 0x181762120
+	|-RVA: 0x175FCB0 Offset: 0x175E2B0 VA: 0x18175FCB0
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.Generic.ICollection<TElement>.Contains
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.Generic.ICollection<TElement>.Contains
 	|-Lookup.Grouping<uint, object>.System.Collections.Generic.ICollection<TElement>.Contains
 	|
-	|-RVA: 0x17621A0 Offset: 0x17607A0 VA: 0x1817621A0
+	|-RVA: 0x175FD30 Offset: 0x175E330 VA: 0x18175FD30
 	|-Lookup.Grouping<object, object>.System.Collections.Generic.ICollection<TElement>.Contains
 	|
-	|-RVA: 0x1762150 Offset: 0x1760750 VA: 0x181762150
+	|-RVA: 0x175FCE0 Offset: 0x175E2E0 VA: 0x18175FCE0
 	|-Lookup.Grouping<Vector2Int, Resolution>.System.Collections.Generic.ICollection<TElement>.Contains
 	*/
 
@@ -179,13 +179,13 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private void System.Collections.Generic.ICollection<TElement>.CopyTo(TElement[] array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1762220 Offset: 0x1760820 VA: 0x181762220
+	|-RVA: 0x175FDB0 Offset: 0x175E3B0 VA: 0x18175FDB0
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.Generic.ICollection<TElement>.CopyTo
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.Generic.ICollection<TElement>.CopyTo
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.Generic.ICollection<TElement>.CopyTo
 	|-Lookup.Grouping<uint, object>.System.Collections.Generic.ICollection<TElement>.CopyTo
 	|
-	|-RVA: 0x1762250 Offset: 0x1760850 VA: 0x181762250
+	|-RVA: 0x175FDE0 Offset: 0x175E3E0 VA: 0x18175FDE0
 	|-Lookup.Grouping<object, object>.System.Collections.Generic.ICollection<TElement>.CopyTo
 	|-Lookup.Grouping<Vector2Int, Resolution>.System.Collections.Generic.ICollection<TElement>.CopyTo
 	*/
@@ -194,22 +194,22 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private bool System.Collections.Generic.ICollection<TElement>.Remove(TElement item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17623C0 Offset: 0x17609C0 VA: 0x1817623C0
+	|-RVA: 0x175FF50 Offset: 0x175E550 VA: 0x18175FF50
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.Generic.ICollection<TElement>.Remove
 	|
-	|-RVA: 0x1762380 Offset: 0x1760980 VA: 0x181762380
+	|-RVA: 0x175FF10 Offset: 0x175E510 VA: 0x18175FF10
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.Generic.ICollection<TElement>.Remove
 	|
-	|-RVA: 0x1762340 Offset: 0x1760940 VA: 0x181762340
+	|-RVA: 0x175FED0 Offset: 0x175E4D0 VA: 0x18175FED0
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.Generic.ICollection<TElement>.Remove
 	|
-	|-RVA: 0x17622C0 Offset: 0x17608C0 VA: 0x1817622C0
+	|-RVA: 0x175FE50 Offset: 0x175E450 VA: 0x18175FE50
 	|-Lookup.Grouping<object, object>.System.Collections.Generic.ICollection<TElement>.Remove
 	|
-	|-RVA: 0x1762300 Offset: 0x1760900 VA: 0x181762300
+	|-RVA: 0x175FE90 Offset: 0x175E490 VA: 0x18175FE90
 	|-Lookup.Grouping<uint, object>.System.Collections.Generic.ICollection<TElement>.Remove
 	|
-	|-RVA: 0x1762280 Offset: 0x1760880 VA: 0x181762280
+	|-RVA: 0x175FE10 Offset: 0x175E410 VA: 0x18175FE10
 	|-Lookup.Grouping<Vector2Int, Resolution>.System.Collections.Generic.ICollection<TElement>.Remove
 	*/
 
@@ -217,18 +217,18 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private int System.Collections.Generic.IList<TElement>.IndexOf(TElement item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1762400 Offset: 0x1760A00 VA: 0x181762400
+	|-RVA: 0x175FF90 Offset: 0x175E590 VA: 0x18175FF90
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.Generic.IList<TElement>.IndexOf
 	|
-	|-RVA: 0x1762440 Offset: 0x1760A40 VA: 0x181762440
+	|-RVA: 0x175FFD0 Offset: 0x175E5D0 VA: 0x18175FFD0
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.Generic.IList<TElement>.IndexOf
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.Generic.IList<TElement>.IndexOf
 	|-Lookup.Grouping<uint, object>.System.Collections.Generic.IList<TElement>.IndexOf
 	|
-	|-RVA: 0x17624B0 Offset: 0x1760AB0 VA: 0x1817624B0
+	|-RVA: 0x1760040 Offset: 0x175E640 VA: 0x181760040
 	|-Lookup.Grouping<object, object>.System.Collections.Generic.IList<TElement>.IndexOf
 	|
-	|-RVA: 0x1762470 Offset: 0x1760A70 VA: 0x181762470
+	|-RVA: 0x1760000 Offset: 0x175E600 VA: 0x181760000
 	|-Lookup.Grouping<Vector2Int, Resolution>.System.Collections.Generic.IList<TElement>.IndexOf
 	*/
 
@@ -236,22 +236,22 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private void System.Collections.Generic.IList<TElement>.Insert(int index, TElement item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1762520 Offset: 0x1760B20 VA: 0x181762520
+	|-RVA: 0x17600B0 Offset: 0x175E6B0 VA: 0x1817600B0
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.Generic.IList<TElement>.Insert
 	|
-	|-RVA: 0x1762560 Offset: 0x1760B60 VA: 0x181762560
+	|-RVA: 0x17600F0 Offset: 0x175E6F0 VA: 0x1817600F0
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.Generic.IList<TElement>.Insert
 	|
-	|-RVA: 0x17625E0 Offset: 0x1760BE0 VA: 0x1817625E0
+	|-RVA: 0x1760170 Offset: 0x175E770 VA: 0x181760170
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.Generic.IList<TElement>.Insert
 	|
-	|-RVA: 0x1762620 Offset: 0x1760C20 VA: 0x181762620
+	|-RVA: 0x17601B0 Offset: 0x175E7B0 VA: 0x1817601B0
 	|-Lookup.Grouping<object, object>.System.Collections.Generic.IList<TElement>.Insert
 	|
-	|-RVA: 0x17624E0 Offset: 0x1760AE0 VA: 0x1817624E0
+	|-RVA: 0x1760070 Offset: 0x175E670 VA: 0x181760070
 	|-Lookup.Grouping<uint, object>.System.Collections.Generic.IList<TElement>.Insert
 	|
-	|-RVA: 0x17625A0 Offset: 0x1760BA0 VA: 0x1817625A0
+	|-RVA: 0x1760130 Offset: 0x175E730 VA: 0x181760130
 	|-Lookup.Grouping<Vector2Int, Resolution>.System.Collections.Generic.IList<TElement>.Insert
 	*/
 
@@ -259,22 +259,22 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private void System.Collections.Generic.IList<TElement>.RemoveAt(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17627A0 Offset: 0x1760DA0 VA: 0x1817627A0
+	|-RVA: 0x1760330 Offset: 0x175E930 VA: 0x181760330
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.Generic.IList<TElement>.RemoveAt
 	|
-	|-RVA: 0x17626E0 Offset: 0x1760CE0 VA: 0x1817626E0
+	|-RVA: 0x1760270 Offset: 0x175E870 VA: 0x181760270
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.Generic.IList<TElement>.RemoveAt
 	|
-	|-RVA: 0x1762720 Offset: 0x1760D20 VA: 0x181762720
+	|-RVA: 0x17602B0 Offset: 0x175E8B0 VA: 0x1817602B0
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.Generic.IList<TElement>.RemoveAt
 	|
-	|-RVA: 0x1762760 Offset: 0x1760D60 VA: 0x181762760
+	|-RVA: 0x17602F0 Offset: 0x175E8F0 VA: 0x1817602F0
 	|-Lookup.Grouping<object, object>.System.Collections.Generic.IList<TElement>.RemoveAt
 	|
-	|-RVA: 0x17626A0 Offset: 0x1760CA0 VA: 0x1817626A0
+	|-RVA: 0x1760230 Offset: 0x175E830 VA: 0x181760230
 	|-Lookup.Grouping<uint, object>.System.Collections.Generic.IList<TElement>.RemoveAt
 	|
-	|-RVA: 0x1762660 Offset: 0x1760C60 VA: 0x181762660
+	|-RVA: 0x17601F0 Offset: 0x175E7F0 VA: 0x1817601F0
 	|-Lookup.Grouping<Vector2Int, Resolution>.System.Collections.Generic.IList<TElement>.RemoveAt
 	*/
 
@@ -282,22 +282,22 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private TElement System.Collections.Generic.IList<TElement>.get_Item(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17629B0 Offset: 0x1760FB0 VA: 0x1817629B0
+	|-RVA: 0x1760540 Offset: 0x175EB40 VA: 0x181760540
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.Generic.IList<TElement>.get_Item
 	|
-	|-RVA: 0x1762AF0 Offset: 0x17610F0 VA: 0x181762AF0
+	|-RVA: 0x1760680 Offset: 0x175EC80 VA: 0x181760680
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.Generic.IList<TElement>.get_Item
 	|
-	|-RVA: 0x1762870 Offset: 0x1760E70 VA: 0x181762870
+	|-RVA: 0x1760400 Offset: 0x175EA00 VA: 0x181760400
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.Generic.IList<TElement>.get_Item
 	|
-	|-RVA: 0x1762A60 Offset: 0x1761060 VA: 0x181762A60
+	|-RVA: 0x17605F0 Offset: 0x175EBF0 VA: 0x1817605F0
 	|-Lookup.Grouping<object, object>.System.Collections.Generic.IList<TElement>.get_Item
 	|
-	|-RVA: 0x17627E0 Offset: 0x1760DE0 VA: 0x1817627E0
+	|-RVA: 0x1760370 Offset: 0x175E970 VA: 0x181760370
 	|-Lookup.Grouping<uint, object>.System.Collections.Generic.IList<TElement>.get_Item
 	|
-	|-RVA: 0x1762900 Offset: 0x1760F00 VA: 0x181762900
+	|-RVA: 0x1760490 Offset: 0x175EA90 VA: 0x181760490
 	|-Lookup.Grouping<Vector2Int, Resolution>.System.Collections.Generic.IList<TElement>.get_Item
 	*/
 
@@ -305,22 +305,22 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	private void System.Collections.Generic.IList<TElement>.set_Item(int index, TElement value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1762BC0 Offset: 0x17611C0 VA: 0x181762BC0
+	|-RVA: 0x1760750 Offset: 0x175ED50 VA: 0x181760750
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>.System.Collections.Generic.IList<TElement>.set_Item
 	|
-	|-RVA: 0x1762C00 Offset: 0x1761200 VA: 0x181762C00
+	|-RVA: 0x1760790 Offset: 0x175ED90 VA: 0x181760790
 	|-Lookup.Grouping<InventoryDefId, object>.System.Collections.Generic.IList<TElement>.set_Item
 	|
-	|-RVA: 0x1762B80 Offset: 0x1761180 VA: 0x181762B80
+	|-RVA: 0x1760710 Offset: 0x175ED10 VA: 0x181760710
 	|-Lookup.Grouping<Int32Enum, object>.System.Collections.Generic.IList<TElement>.set_Item
 	|
-	|-RVA: 0x1762C80 Offset: 0x1761280 VA: 0x181762C80
+	|-RVA: 0x1760810 Offset: 0x175EE10 VA: 0x181760810
 	|-Lookup.Grouping<object, object>.System.Collections.Generic.IList<TElement>.set_Item
 	|
-	|-RVA: 0x1762CC0 Offset: 0x17612C0 VA: 0x181762CC0
+	|-RVA: 0x1760850 Offset: 0x175EE50 VA: 0x181760850
 	|-Lookup.Grouping<uint, object>.System.Collections.Generic.IList<TElement>.set_Item
 	|
-	|-RVA: 0x1762C40 Offset: 0x1761240 VA: 0x181762C40
+	|-RVA: 0x17607D0 Offset: 0x175EDD0 VA: 0x1817607D0
 	|-Lookup.Grouping<Vector2Int, Resolution>.System.Collections.Generic.IList<TElement>.set_Item
 	*/
 
@@ -328,7 +328,7 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5B020 Offset: 0xD59620 VA: 0x180D5B020
+	|-RVA: 0xD5BAD0 Offset: 0xD5A0D0 VA: 0x180D5BAD0
 	|-Lookup.Grouping<InventoryDefId, InventoryItem>..ctor
 	|-Lookup.Grouping<InventoryDefId, object>..ctor
 	|-Lookup.Grouping<Int32Enum, object>..ctor
@@ -357,7 +357,7 @@ private sealed class Lookup.Grouping.<GetEnumerator>d__7<TKey, TElement> : IEnum
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E9140 Offset: 0x15E7740 VA: 0x1815E9140
+	|-RVA: 0x164FEF0 Offset: 0x164E4F0 VA: 0x18164FEF0
 	|-Lookup.Grouping.<GetEnumerator>d__7<InventoryDefId, InventoryItem>..ctor
 	|-Lookup.Grouping.<GetEnumerator>d__7<InventoryDefId, object>..ctor
 	|-Lookup.Grouping.<GetEnumerator>d__7<Int32Enum, object>..ctor
@@ -384,18 +384,18 @@ private sealed class Lookup.Grouping.<GetEnumerator>d__7<TKey, TElement> : IEnum
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x176DD10 Offset: 0x176C310 VA: 0x18176DD10
+	|-RVA: 0x176B860 Offset: 0x1769E60 VA: 0x18176B860
 	|-Lookup.Grouping.<GetEnumerator>d__7<InventoryDefId, InventoryItem>.MoveNext
 	|
-	|-RVA: 0x176DE40 Offset: 0x176C440 VA: 0x18176DE40
+	|-RVA: 0x176B990 Offset: 0x1769F90 VA: 0x18176B990
 	|-Lookup.Grouping.<GetEnumerator>d__7<InventoryDefId, object>.MoveNext
 	|-Lookup.Grouping.<GetEnumerator>d__7<Int32Enum, object>.MoveNext
 	|-Lookup.Grouping.<GetEnumerator>d__7<uint, object>.MoveNext
 	|
-	|-RVA: 0x176DED0 Offset: 0x176C4D0 VA: 0x18176DED0
+	|-RVA: 0x176BA20 Offset: 0x176A020 VA: 0x18176BA20
 	|-Lookup.Grouping.<GetEnumerator>d__7<object, object>.MoveNext
 	|
-	|-RVA: 0x176DDB0 Offset: 0x176C3B0 VA: 0x18176DDB0
+	|-RVA: 0x176B900 Offset: 0x1769F00 VA: 0x18176B900
 	|-Lookup.Grouping.<GetEnumerator>d__7<Vector2Int, Resolution>.MoveNext
 	*/
 
@@ -404,7 +404,7 @@ private sealed class Lookup.Grouping.<GetEnumerator>d__7<TKey, TElement> : IEnum
 	private TElement System.Collections.Generic.IEnumerator<TElement>.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x176D780 Offset: 0x176BD80 VA: 0x18176D780
+	|-RVA: 0x176B2D0 Offset: 0x17698D0 VA: 0x18176B2D0
 	|-Lookup.Grouping.<GetEnumerator>d__7<InventoryDefId, InventoryItem>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	|
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
@@ -413,7 +413,7 @@ private sealed class Lookup.Grouping.<GetEnumerator>d__7<TKey, TElement> : IEnum
 	|-Lookup.Grouping.<GetEnumerator>d__7<object, object>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	|-Lookup.Grouping.<GetEnumerator>d__7<uint, object>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	|
-	|-RVA: 0x176D6D0 Offset: 0x176BCD0 VA: 0x18176D6D0
+	|-RVA: 0x176B220 Offset: 0x1769820 VA: 0x18176B220
 	|-Lookup.Grouping.<GetEnumerator>d__7<Vector2Int, Resolution>.System.Collections.Generic.IEnumerator<TElement>.get_Current
 	*/
 
@@ -422,22 +422,22 @@ private sealed class Lookup.Grouping.<GetEnumerator>d__7<TKey, TElement> : IEnum
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x176E050 Offset: 0x176C650 VA: 0x18176E050
+	|-RVA: 0x176BBA0 Offset: 0x176A1A0 VA: 0x18176BBA0
 	|-Lookup.Grouping.<GetEnumerator>d__7<InventoryDefId, InventoryItem>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176E0A0 Offset: 0x176C6A0 VA: 0x18176E0A0
+	|-RVA: 0x176BBF0 Offset: 0x176A1F0 VA: 0x18176BBF0
 	|-Lookup.Grouping.<GetEnumerator>d__7<InventoryDefId, object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176E000 Offset: 0x176C600 VA: 0x18176E000
+	|-RVA: 0x176BB50 Offset: 0x176A150 VA: 0x18176BB50
 	|-Lookup.Grouping.<GetEnumerator>d__7<Int32Enum, object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176DFB0 Offset: 0x176C5B0 VA: 0x18176DFB0
+	|-RVA: 0x176BB00 Offset: 0x176A100 VA: 0x18176BB00
 	|-Lookup.Grouping.<GetEnumerator>d__7<object, object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176DF60 Offset: 0x176C560 VA: 0x18176DF60
+	|-RVA: 0x176BAB0 Offset: 0x176A0B0 VA: 0x18176BAB0
 	|-Lookup.Grouping.<GetEnumerator>d__7<uint, object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176E0F0 Offset: 0x176C6F0 VA: 0x18176E0F0
+	|-RVA: 0x176BC40 Offset: 0x176A240 VA: 0x18176BC40
 	|-Lookup.Grouping.<GetEnumerator>d__7<Vector2Int, Resolution>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -446,7 +446,7 @@ private sealed class Lookup.Grouping.<GetEnumerator>d__7<TKey, TElement> : IEnum
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x176E140 Offset: 0x176C740 VA: 0x18176E140
+	|-RVA: 0x176BC90 Offset: 0x176A290 VA: 0x18176BC90
 	|-Lookup.Grouping.<GetEnumerator>d__7<InventoryDefId, InventoryItem>.System.Collections.IEnumerator.get_Current
 	|
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
@@ -455,7 +455,7 @@ private sealed class Lookup.Grouping.<GetEnumerator>d__7<TKey, TElement> : IEnum
 	|-Lookup.Grouping.<GetEnumerator>d__7<object, object>.System.Collections.IEnumerator.get_Current
 	|-Lookup.Grouping.<GetEnumerator>d__7<uint, object>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x176E190 Offset: 0x176C790 VA: 0x18176E190
+	|-RVA: 0x176BCE0 Offset: 0x176A2E0 VA: 0x18176BCE0
 	|-Lookup.Grouping.<GetEnumerator>d__7<Vector2Int, Resolution>.System.Collections.IEnumerator.get_Current
 	*/
 
@@ -479,7 +479,7 @@ private sealed class Lookup.<GetEnumerator>d__12<TKey, TElement> : IEnumerator<I
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15E9140 Offset: 0x15E7740 VA: 0x1815E9140
+	|-RVA: 0x164FEF0 Offset: 0x164E4F0 VA: 0x18164FEF0
 	|-Lookup.<GetEnumerator>d__12<InventoryDefId, InventoryItem>..ctor
 	|-Lookup.<GetEnumerator>d__12<InventoryDefId, object>..ctor
 	|-Lookup.<GetEnumerator>d__12<Int32Enum, object>..ctor
@@ -506,13 +506,13 @@ private sealed class Lookup.<GetEnumerator>d__12<TKey, TElement> : IEnumerator<I
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x176C440 Offset: 0x176AA40 VA: 0x18176C440
+	|-RVA: 0x1769F90 Offset: 0x1768590 VA: 0x181769F90
 	|-Lookup.<GetEnumerator>d__12<InventoryDefId, InventoryItem>.MoveNext
 	|-Lookup.<GetEnumerator>d__12<InventoryDefId, object>.MoveNext
 	|-Lookup.<GetEnumerator>d__12<Int32Enum, object>.MoveNext
 	|-Lookup.<GetEnumerator>d__12<uint, object>.MoveNext
 	|
-	|-RVA: 0x176C4F0 Offset: 0x176AAF0 VA: 0x18176C4F0
+	|-RVA: 0x176A040 Offset: 0x1768640 VA: 0x18176A040
 	|-Lookup.<GetEnumerator>d__12<object, object>.MoveNext
 	|-Lookup.<GetEnumerator>d__12<Vector2Int, Resolution>.MoveNext
 	*/
@@ -536,22 +536,22 @@ private sealed class Lookup.<GetEnumerator>d__12<TKey, TElement> : IEnumerator<I
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x176C730 Offset: 0x176AD30 VA: 0x18176C730
+	|-RVA: 0x176A280 Offset: 0x1768880 VA: 0x18176A280
 	|-Lookup.<GetEnumerator>d__12<InventoryDefId, InventoryItem>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176C640 Offset: 0x176AC40 VA: 0x18176C640
+	|-RVA: 0x176A190 Offset: 0x1768790 VA: 0x18176A190
 	|-Lookup.<GetEnumerator>d__12<InventoryDefId, object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176C690 Offset: 0x176AC90 VA: 0x18176C690
+	|-RVA: 0x176A1E0 Offset: 0x17687E0 VA: 0x18176A1E0
 	|-Lookup.<GetEnumerator>d__12<Int32Enum, object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176C5A0 Offset: 0x176ABA0 VA: 0x18176C5A0
+	|-RVA: 0x176A0F0 Offset: 0x17686F0 VA: 0x18176A0F0
 	|-Lookup.<GetEnumerator>d__12<object, object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176C6E0 Offset: 0x176ACE0 VA: 0x18176C6E0
+	|-RVA: 0x176A230 Offset: 0x1768830 VA: 0x18176A230
 	|-Lookup.<GetEnumerator>d__12<uint, object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x176C5F0 Offset: 0x176ABF0 VA: 0x18176C5F0
+	|-RVA: 0x176A140 Offset: 0x1768740 VA: 0x18176A140
 	|-Lookup.<GetEnumerator>d__12<Vector2Int, Resolution>.System.Collections.IEnumerator.Reset
 	*/
 

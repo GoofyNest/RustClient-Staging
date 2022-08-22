@@ -14,13 +14,13 @@ internal struct LeaderboardScoreUploaded_t : ICallbackData // TypeDefIndex: 5391
 
 	// Methods
 
-	// RVA: 0x1EB210 Offset: 0x1EA610 VA: 0x1801EB210 Slot: 5
+	// RVA: 0x1EB630 Offset: 0x1EAA30 VA: 0x1801EB630 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EB200 Offset: 0x1EA600 VA: 0x1801EB200 Slot: 4
+	// RVA: 0x1EB620 Offset: 0x1EAA20 VA: 0x1801EB620 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1373790 Offset: 0x1371D90 VA: 0x181373790
+	// RVA: 0x1372890 Offset: 0x1370E90 VA: 0x181372890
 	private static void .cctor() { }
 
 }

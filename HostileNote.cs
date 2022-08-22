@@ -19,10 +19,10 @@ public class HostileNote : MonoBehaviour, IClientComponent // TypeDefIndex: 1093
 
 	// Methods
 
-	// RVA: 0x742990 Offset: 0x740F90 VA: 0x180742990
+	// RVA: 0x7428E0 Offset: 0x740EE0 VA: 0x1807428E0
 	public void Update() { }
 
-	// RVA: 0x743620 Offset: 0x741C20 VA: 0x180743620
+	// RVA: 0x743570 Offset: 0x741B70 VA: 0x180743570
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

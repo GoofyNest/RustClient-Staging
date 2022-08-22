@@ -6,10 +6,10 @@ public class SlotMachinePayoutWidget : MonoBehaviour // TypeDefIndex: 8753
 
 	// Methods
 
-	// RVA: 0x5ABCB0 Offset: 0x5AA2B0 VA: 0x1805ABCB0
+	// RVA: 0x5ABC40 Offset: 0x5AA240 VA: 0x1805ABC40
 	public void Populate(SlotMachinePayoutSettings.PayoutInfo payout, Sprite[] faceSprites, int multiplier) { }
 
-	// RVA: 0x5ABA10 Offset: 0x5AA010 VA: 0x1805ABA10
+	// RVA: 0x5AB9A0 Offset: 0x5A9FA0 VA: 0x1805AB9A0
 	public void Populate(SlotMachinePayoutSettings.IndividualPayouts payout, Sprite[] faceSprites, int multiplier) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

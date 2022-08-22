@@ -1,7 +1,7 @@
 public class MissionObjective : ScriptableObject // TypeDefIndex: 10219
 {	// Methods
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -13,7 +13,7 @@ public class MissionObjective_AcquireItem : MissionObjective // TypeDefIndex: 10
 
 	// Methods
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -24,7 +24,7 @@ public class MissionObjective_FreeCrate : MissionObjective // TypeDefIndex: 1022
 
 	// Methods
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -36,7 +36,7 @@ public class MissionObjective_Harvest : MissionObjective // TypeDefIndex: 10222
 
 	// Methods
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -49,7 +49,7 @@ public class MissionObjective_KillEntity : MissionObjective // TypeDefIndex: 102
 
 	// Methods
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -62,7 +62,7 @@ public class MissionObjective_Move : MissionObjective // TypeDefIndex: 10224
 
 	// Methods
 
-	// RVA: 0x7682F0 Offset: 0x7668F0 VA: 0x1807682F0
+	// RVA: 0x768240 Offset: 0x766840 VA: 0x180768240
 	public void .ctor() { }
 
 }
@@ -74,7 +74,7 @@ public class MissionObjective_SpeakWith : MissionObjective // TypeDefIndex: 1022
 
 	// Methods
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }

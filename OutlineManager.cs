@@ -10,41 +10,41 @@ public class OutlineManager : MonoBehaviour, IClientComponent // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0x9E8A10 Offset: 0x9E7010 VA: 0x1809E8A10
+	// RVA: 0x9E8F00 Offset: 0x9E7500 VA: 0x1809E8F00
 	private void BlurCreate() { }
 
-	// RVA: 0x9E8B30 Offset: 0x9E7130 VA: 0x1809E8B30
+	// RVA: 0x9E9020 Offset: 0x9E7620 VA: 0x1809E9020
 	private void BlurDestroy() { }
 
-	// RVA: 0x9E8BD0 Offset: 0x9E71D0 VA: 0x1809E8BD0
+	// RVA: 0x9E90C0 Offset: 0x9E76C0 VA: 0x1809E90C0
 	public static void BlurRT(RenderTexture myRT, float radius, int passNum) { }
 
-	// RVA: 0x9E8A10 Offset: 0x9E7010 VA: 0x1809E8A10
+	// RVA: 0x9E8F00 Offset: 0x9E7500 VA: 0x1809E8F00
 	public void OnEnable() { }
 
-	// RVA: 0x9E8FD0 Offset: 0x9E75D0 VA: 0x1809E8FD0
+	// RVA: 0x9E94C0 Offset: 0x9E7AC0 VA: 0x1809E94C0
 	public void OnDestroy() { }
 
-	// RVA: 0x9E9E60 Offset: 0x9E8460 VA: 0x1809E9E60
+	// RVA: 0x9EA350 Offset: 0x9E8950 VA: 0x1809EA350
 	public void Update() { }
 
-	// RVA: 0x9E99C0 Offset: 0x9E7FC0 VA: 0x1809E99C0
+	// RVA: 0x9E9EB0 Offset: 0x9E84B0 VA: 0x1809E9EB0
 	public void UpdateOutlines() { }
 
-	// RVA: 0x9E8F80 Offset: 0x9E7580 VA: 0x1809E8F80
+	// RVA: 0x9E9470 Offset: 0x9E7A70 VA: 0x1809E9470
 	public void ClearOutlines() { }
 
-	// RVA: 0x9E8E50 Offset: 0x9E7450 VA: 0x1809E8E50
+	// RVA: 0x9E9340 Offset: 0x9E7940 VA: 0x1809E9340
 	public void CleanupOutlines() { }
 
 	[ImageEffectOpaque] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9E90D0 Offset: 0x9E76D0 VA: 0x1809E90D0
+	// RVA: 0x9E95C0 Offset: 0x9E7BC0 VA: 0x1809E95C0
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x9E9EB0 Offset: 0x9E84B0 VA: 0x1809E9EB0
+	// RVA: 0x9EA3A0 Offset: 0x9E89A0 VA: 0x1809EA3A0
 	public void .ctor() { }
 
-	// RVA: 0x9E9E70 Offset: 0x9E8470 VA: 0x1809E9E70
+	// RVA: 0x9EA360 Offset: 0x9E8960 VA: 0x1809EA360
 	private static void .cctor() { }
 
 }

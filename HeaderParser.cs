@@ -4,7 +4,7 @@ internal sealed class HeaderParser : MulticastDelegate // TypeDefIndex: 2914
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x133B8A0 Offset: 0x1339EA0 VA: 0x18133B8A0 Slot: 12
+	// RVA: 0x133A9A0 Offset: 0x1338FA0 VA: 0x18133A9A0 Slot: 12
 	public virtual string[] Invoke(string value) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13

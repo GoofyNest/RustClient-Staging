@@ -9,10 +9,10 @@ public class PlaceRoadObjects : ProceduralComponent // TypeDefIndex: 10560
 
 	// Methods
 
-	// RVA: 0x919980 Offset: 0x917F80 VA: 0x180919980 Slot: 5
+	// RVA: 0x919E90 Offset: 0x918490 VA: 0x180919E90 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40
+	// RVA: 0x57BBD0 Offset: 0x57A1D0 VA: 0x18057BBD0
 	public void .ctor() { }
 
 }

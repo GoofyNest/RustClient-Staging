@@ -78,74 +78,74 @@ public class BaseNavigator : BaseMonoBehaviour // TypeDefIndex: 8945
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E4050 Offset: 0x4E2650 VA: 0x1804E4050
+	// RVA: 0x4E3FE0 Offset: 0x4E25E0 VA: 0x1804E3FE0
 	public AIMovePointPath get_Path() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4E4060 Offset: 0x4E2660 VA: 0x1804E4060
+	// RVA: 0x4E3FF0 Offset: 0x4E25F0 VA: 0x1804E3FF0
 	public void set_Path(AIMovePointPath value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574380 Offset: 0x572980 VA: 0x180574380
+	// RVA: 0x574310 Offset: 0x572910 VA: 0x180574310
 	public BasePath get_AStarGraph() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x574410 Offset: 0x572A10 VA: 0x180574410
+	// RVA: 0x5743A0 Offset: 0x5729A0 VA: 0x1805743A0
 	public void set_AStarGraph(BasePath value) { }
 
-	// RVA: 0xA4D2E0 Offset: 0xA4B8E0 VA: 0x180A4D2E0
+	// RVA: 0xA4D7D0 Offset: 0xA4BDD0 VA: 0x180A4D7D0
 	public int TopologyPreference() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9922B0 Offset: 0x9908B0 VA: 0x1809922B0
+	// RVA: 0x79BDB0 Offset: 0x79A3B0 VA: 0x18079BDB0
 	public NavMeshAgent get_Agent() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D4E0 Offset: 0xA4BAE0 VA: 0x180A4D4E0
+	// RVA: 0x79BE40 Offset: 0x79A440 VA: 0x18079BE40
 	private void set_Agent(NavMeshAgent value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7AD080 Offset: 0x7AB680 VA: 0x1807AD080
+	// RVA: 0x79BDD0 Offset: 0x79A3D0 VA: 0x18079BDD0
 	public BaseCombatEntity get_BaseEntity() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D4F0 Offset: 0xA4BAF0 VA: 0x180A4D4F0
+	// RVA: 0x79BE50 Offset: 0x79A450 VA: 0x18079BE50
 	private void set_BaseEntity(BaseCombatEntity value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D460 Offset: 0xA4BA60 VA: 0x180A4D460
+	// RVA: 0xA4D950 Offset: 0xA4BF50 VA: 0x180A4D950
 	public Vector3 get_Destination() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D510 Offset: 0xA4BB10 VA: 0x180A4D510
+	// RVA: 0xA4D9E0 Offset: 0xA4BFE0 VA: 0x180A4D9E0
 	protected void set_Destination(Vector3 value) { }
 
-	// RVA: 0xA4D480 Offset: 0xA4BA80 VA: 0x180A4D480 Slot: 6
+	// RVA: 0xA4D970 Offset: 0xA4BF70 VA: 0x180A4D970 Slot: 6
 	public virtual bool get_IsOnNavMeshLink() { }
 
-	// RVA: 0xA4D4D0 Offset: 0xA4BAD0 VA: 0x180A4D4D0
+	// RVA: 0xA4D9C0 Offset: 0xA4BFC0 VA: 0x180A4D9C0
 	public bool get_Moving() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D450 Offset: 0xA4BA50 VA: 0x180A4D450
+	// RVA: 0xA4D940 Offset: 0xA4BF40 VA: 0x180A4D940
 	public BaseNavigator.NavigationType get_CurrentNavigationType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA4D500 Offset: 0xA4BB00 VA: 0x180A4D500
+	// RVA: 0xA4D9D0 Offset: 0xA4BFD0 VA: 0x180A4D9D0
 	private void set_CurrentNavigationType(BaseNavigator.NavigationType value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x887A60 Offset: 0x886060 VA: 0x180887A60
+	// RVA: 0x86ADA0 Offset: 0x8693A0 VA: 0x18086ADA0
 	public BaseNavigator.NavigationType get_LastUsedNavigationType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7426F0 Offset: 0x740CF0 VA: 0x1807426F0
+	// RVA: 0x742640 Offset: 0x740C40 VA: 0x180742640
 	private void set_LastUsedNavigationType(BaseNavigator.NavigationType value) { }
 
-	// RVA: 0xA4D380 Offset: 0xA4B980 VA: 0x180A4D380
+	// RVA: 0xA4D870 Offset: 0xA4BE70 VA: 0x180A4D870
 	public void .ctor() { }
 
-	// RVA: 0xA4D2F0 Offset: 0xA4B8F0 VA: 0x180A4D2F0
+	// RVA: 0xA4D7E0 Offset: 0xA4BDE0 VA: 0x180A4D7E0
 	private static void .cctor() { }
 
 }

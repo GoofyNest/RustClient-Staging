@@ -1,19 +1,19 @@
 public class ExternalException : SystemException // TypeDefIndex: 1347
 {	// Methods
 
-	// RVA: 0xFE6930 Offset: 0xFE4F30 VA: 0x180FE6930
+	// RVA: 0xFE73D0 Offset: 0xFE59D0 VA: 0x180FE73D0
 	public void .ctor() { }
 
-	// RVA: 0xFE6990 Offset: 0xFE4F90 VA: 0x180FE6990
+	// RVA: 0xFE7430 Offset: 0xFE5A30 VA: 0x180FE7430
 	public void .ctor(string message) { }
 
-	// RVA: 0xFE6900 Offset: 0xFE4F00 VA: 0x180FE6900
+	// RVA: 0xFE73A0 Offset: 0xFE59A0 VA: 0x180FE73A0
 	public void .ctor(string message, int errorCode) { }
 
-	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
+	// RVA: 0xFDDEB0 Offset: 0xFDC4B0 VA: 0x180FDDEB0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	// RVA: 0xFE6770 Offset: 0xFE4D70 VA: 0x180FE6770 Slot: 3
+	// RVA: 0xFE7210 Offset: 0xFE5810 VA: 0x180FE7210 Slot: 3
 	public override string ToString() { }
 
 }

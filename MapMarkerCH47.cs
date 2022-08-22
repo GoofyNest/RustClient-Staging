@@ -4,16 +4,16 @@ public class MapMarkerCH47 : MapMarker // TypeDefIndex: 8871
 
 	// Methods
 
-	// RVA: 0x5667F0 Offset: 0x564DF0 VA: 0x1805667F0 Slot: 131
+	// RVA: 0x566780 Offset: 0x564D80 VA: 0x180566780 Slot: 131
 	public override void SetupUIMarker(GameObject marker) { }
 
-	// RVA: 0x566820 Offset: 0x564E20 VA: 0x180566820
+	// RVA: 0x5667B0 Offset: 0x564DB0 VA: 0x1805667B0
 	public void Update() { }
 
-	// RVA: 0x5666B0 Offset: 0x564CB0 VA: 0x1805666B0
+	// RVA: 0x566640 Offset: 0x564C40 VA: 0x180566640
 	private float GetRotation() { }
 
-	// RVA: 0x566B70 Offset: 0x565170 VA: 0x180566B70
+	// RVA: 0x566B00 Offset: 0x565100 VA: 0x180566B00
 	public void .ctor() { }
 
 }

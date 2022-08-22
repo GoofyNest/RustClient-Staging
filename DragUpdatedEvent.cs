@@ -1,13 +1,13 @@
 public class DragUpdatedEvent : DragAndDropEventBase<DragUpdatedEvent> // TypeDefIndex: 4637
 {	// Methods
 
-	// RVA: 0xEAA3A0 Offset: 0xEA89A0 VA: 0x180EAA3A0
+	// RVA: 0xEAAE50 Offset: 0xEA9450 VA: 0x180EAAE50
 	public static DragUpdatedEvent GetPooled(Event systemEvent) { }
 
-	// RVA: 0xEAA480 Offset: 0xEA8A80 VA: 0x180EAA480 Slot: 9
+	// RVA: 0xEAAF30 Offset: 0xEA9530 VA: 0x180EAAF30 Slot: 9
 	protected internal override void PostDispatch(IPanel panel) { }
 
-	// RVA: 0xEAA5A0 Offset: 0xEA8BA0 VA: 0x180EAA5A0
+	// RVA: 0xEAB050 Offset: 0xEA9650 VA: 0x180EAB050
 	public void .ctor() { }
 
 }

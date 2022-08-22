@@ -7,26 +7,26 @@ public class SprayCanSpray : DecayEntity, ISplashable // TypeDefIndex: 8454
 
 	// Methods
 
-	// RVA: 0xA83610 Offset: 0xA81C10 VA: 0x180A83610 Slot: 49
+	// RVA: 0xA83AE0 Offset: 0xA820E0 VA: 0x180A83AE0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0xA83B30 Offset: 0xA82130 VA: 0x180A83B30 Slot: 50
+	// RVA: 0xA84000 Offset: 0xA82600 VA: 0x180A84000 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0xA83A40 Offset: 0xA82040 VA: 0x180A83A40 Slot: 35
+	// RVA: 0xA83F10 Offset: 0xA82510 VA: 0x180A83F10 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
 	[BaseEntity.Menu] // RVA: 0x8DA10 Offset: 0x8CE10 VA: 0x18008DA10
 	[BaseEntity.Menu.Description] // RVA: 0x8DA10 Offset: 0x8CE10 VA: 0x18008DA10
 	[BaseEntity.Menu.Icon] // RVA: 0x8DA10 Offset: 0x8CE10 VA: 0x18008DA10
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8DA10 Offset: 0x8CE10 VA: 0x18008DA10
-	// RVA: 0xA83A00 Offset: 0xA82000 VA: 0x180A83A00
+	// RVA: 0xA83ED0 Offset: 0xA824D0 VA: 0x180A83ED0
 	private void Menu_WaterClear(BasePlayer player) { }
 
-	// RVA: 0xA83920 Offset: 0xA81F20 VA: 0x180A83920
+	// RVA: 0xA83DF0 Offset: 0xA823F0 VA: 0x180A83DF0
 	private bool Menu_WaterClear_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x932030 Offset: 0x930630 VA: 0x180932030
+	// RVA: 0x932540 Offset: 0x930B40 VA: 0x180932540
 	public void .ctor() { }
 
 }
@@ -52,43 +52,43 @@ public class SprayCanSpray_Freehand : SprayCanSpray // TypeDefIndex: 8649
 
 	// Methods
 
-	// RVA: 0xA82CE0 Offset: 0xA812E0 VA: 0x180A82CE0 Slot: 35
+	// RVA: 0xA831B0 Offset: 0xA817B0 VA: 0x180A831B0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA82DD0 Offset: 0xA813D0 VA: 0x180A82DD0
+	// RVA: 0xA832A0 Offset: 0xA818A0 VA: 0x180A832A0
 	public static void RebuildAll() { }
 
-	// RVA: 0xA82650 Offset: 0xA80C50 VA: 0x180A82650
+	// RVA: 0xA82B20 Offset: 0xA81120 VA: 0x180A82B20
 	public void FinishEditing(bool allowNewSprayImmediately, List<AlignedLineDrawer.LinePoint> points) { }
 
-	// RVA: 0xA83080 Offset: 0xA81680 VA: 0x180A83080
+	// RVA: 0xA83550 Offset: 0xA81B50 VA: 0x180A83550
 	private void UpdateMeshCollider() { }
 
-	// RVA: 0xA830C0 Offset: 0xA816C0 VA: 0x180A830C0
+	// RVA: 0xA83590 Offset: 0xA81B90 VA: 0x180A83590
 	public void UpdatePointsMidSpray(List<AlignedLineDrawer.LinePoint> points) { }
 
-	// RVA: 0xA83410 Offset: 0xA81A10 VA: 0x180A83410
+	// RVA: 0xA838E0 Offset: 0xA81EE0 VA: 0x180A838E0
 	private bool get_CanDrawSpray() { }
 
-	// RVA: 0xA82960 Offset: 0xA80F60 VA: 0x180A82960 Slot: 34
+	// RVA: 0xA82E30 Offset: 0xA81430 VA: 0x180A82E30 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xA82020 Offset: 0xA80620 VA: 0x180A82020
+	// RVA: 0xA824F0 Offset: 0xA80AF0 VA: 0x180A824F0
 	private void CopyPoints(List<AlignedLineDrawer.LinePoint> from, List<LinePoint> to) { }
 
-	// RVA: 0xA824C0 Offset: 0xA80AC0 VA: 0x180A824C0
+	// RVA: 0xA82990 Offset: 0xA80F90 VA: 0x180A82990
 	private void CopyPoints(List<AlignedLineDrawer.LinePoint> from, List<Vector3> to) { }
 
-	// RVA: 0xA82330 Offset: 0xA80930 VA: 0x180A82330
+	// RVA: 0xA82800 Offset: 0xA80E00 VA: 0x180A82800
 	private void CopyPoints(List<LinePoint> from, List<AlignedLineDrawer.LinePoint> to) { }
 
-	// RVA: 0xA821D0 Offset: 0xA807D0 VA: 0x180A821D0
+	// RVA: 0xA826A0 Offset: 0xA80CA0 VA: 0x180A826A0
 	public static void CopyPoints(List<AlignedLineDrawer.LinePoint> from, List<AlignedLineDrawer.LinePoint> to) { }
 
-	// RVA: 0xA83030 Offset: 0xA81630 VA: 0x180A83030 Slot: 27
+	// RVA: 0xA83500 Offset: 0xA81B00 VA: 0x180A83500 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0xA83380 Offset: 0xA81980 VA: 0x180A83380
+	// RVA: 0xA83850 Offset: 0xA81E50 VA: 0x180A83850
 	public void .ctor() { }
 
 }
@@ -101,28 +101,28 @@ public class SprayCanSpray_Decal : SprayCanSpray, ICustomMaterialReplacer, IProp
 
 	// Methods
 
-	// RVA: 0xA81F00 Offset: 0xA80500 VA: 0x180A81F00
+	// RVA: 0xA823D0 Offset: 0xA809D0 VA: 0x180A823D0
 	public void WorkshopMode() { }
 
-	// RVA: 0xA81E00 Offset: 0xA80400 VA: 0x180A81E00 Slot: 27
+	// RVA: 0xA822D0 Offset: 0xA808D0 VA: 0x180A822D0 Slot: 27
 	public override void ResetState() { }
 
-	// RVA: 0xA81D40 Offset: 0xA80340 VA: 0x180A81D40 Slot: 145
+	// RVA: 0xA82210 Offset: 0xA80810 VA: 0x180A82210 Slot: 145
 	public void Replace(Material[] find, Material[] replace) { }
 
-	// RVA: 0xA81D00 Offset: 0xA80300 VA: 0x180A81D00 Slot: 146
+	// RVA: 0xA821D0 Offset: 0xA807D0 VA: 0x180A821D0 Slot: 146
 	public void PreRender() { }
 
-	// RVA: 0xA81CC0 Offset: 0xA802C0 VA: 0x180A81CC0 Slot: 147
+	// RVA: 0xA82190 Offset: 0xA80790 VA: 0x180A82190 Slot: 147
 	public void PostRender() { }
 
-	// RVA: 0xA81ED0 Offset: 0xA804D0 VA: 0x180A81ED0 Slot: 148
+	// RVA: 0xA823A0 Offset: 0xA809A0 VA: 0x180A823A0 Slot: 148
 	public void Show() { }
 
-	// RVA: 0xA81C90 Offset: 0xA80290 VA: 0x180A81C90 Slot: 149
+	// RVA: 0xA82160 Offset: 0xA80760 VA: 0x180A82160 Slot: 149
 	public void Hide() { }
 
-	// RVA: 0x932030 Offset: 0x930630 VA: 0x180932030
+	// RVA: 0x932540 Offset: 0x930B40 VA: 0x180932540
 	public void .ctor() { }
 
 }

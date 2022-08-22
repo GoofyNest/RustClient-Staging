@@ -11,16 +11,16 @@ public class ConstructionGrade : PrefabAttribute // TypeDefIndex: 9057
 
 	// Methods
 
-	// RVA: 0x6B09A0 Offset: 0x6AEFA0 VA: 0x1806B09A0
+	// RVA: 0x6B0930 Offset: 0x6AEF30 VA: 0x1806B0930
 	public float get_maxHealth() { }
 
-	// RVA: 0x6B0750 Offset: 0x6AED50 VA: 0x1806B0750
+	// RVA: 0x6B06E0 Offset: 0x6AECE0 VA: 0x1806B06E0
 	public List<ItemAmount> get_costToBuild() { }
 
-	// RVA: 0x6B0690 Offset: 0x6AEC90 VA: 0x1806B0690 Slot: 7
+	// RVA: 0x6B0620 Offset: 0x6AEC20 VA: 0x1806B0620 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x6B06F0 Offset: 0x6AECF0 VA: 0x1806B06F0
+	// RVA: 0x6B0680 Offset: 0x6AEC80 VA: 0x1806B0680
 	public void .ctor() { }
 
 }

@@ -4,10 +4,10 @@ public static class UnityWebRequestTexture // TypeDefIndex: 4752
 public static class UnityWebRequestTexture // TypeDefIndex: 4752
 	// Methods
 
-	// RVA: 0x2322670 Offset: 0x2320C70 VA: 0x182322670
+	// RVA: 0x2322E90 Offset: 0x2321490 VA: 0x182322E90
 	public static UnityWebRequest GetTexture(string uri) { }
 
-	// RVA: 0x2322730 Offset: 0x2320D30 VA: 0x182322730
+	// RVA: 0x2322F50 Offset: 0x2321550 VA: 0x182322F50
 	public static UnityWebRequest GetTexture(string uri, bool nonReadable) { }
 
 }

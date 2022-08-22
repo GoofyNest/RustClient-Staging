@@ -7,25 +7,25 @@ internal class InvokableCallList // TypeDefIndex: 3637
 
 	// Methods
 
-	// RVA: 0x1830110 Offset: 0x182E710 VA: 0x181830110
+	// RVA: 0x181D550 Offset: 0x181BB50 VA: 0x18181D550
 	public void AddPersistentInvokableCall(BaseInvokableCall call) { }
 
-	// RVA: 0x18300B0 Offset: 0x182E6B0 VA: 0x1818300B0
+	// RVA: 0x181D4F0 Offset: 0x181BAF0 VA: 0x18181D4F0
 	public void AddListener(BaseInvokableCall call) { }
 
-	// RVA: 0x18302A0 Offset: 0x182E8A0 VA: 0x1818302A0
+	// RVA: 0x181D6E0 Offset: 0x181BCE0 VA: 0x18181D6E0
 	public void RemoveListener(object targetObj, MethodInfo method) { }
 
-	// RVA: 0x18301C0 Offset: 0x182E7C0 VA: 0x1818301C0
+	// RVA: 0x181D600 Offset: 0x181BC00 VA: 0x18181D600
 	public void Clear() { }
 
-	// RVA: 0x1830170 Offset: 0x182E770 VA: 0x181830170
+	// RVA: 0x181D5B0 Offset: 0x181BBB0 VA: 0x18181D5B0
 	public void ClearPersistent() { }
 
-	// RVA: 0x1830210 Offset: 0x182E810 VA: 0x181830210
+	// RVA: 0x181D650 Offset: 0x181BC50 VA: 0x18181D650
 	public List<BaseInvokableCall> PrepareInvoke() { }
 
-	// RVA: 0x1830420 Offset: 0x182EA20 VA: 0x181830420
+	// RVA: 0x181D860 Offset: 0x181BE60 VA: 0x18181D860
 	public void .ctor() { }
 
 }

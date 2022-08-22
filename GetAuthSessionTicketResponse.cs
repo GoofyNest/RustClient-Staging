@@ -10,13 +10,13 @@ internal struct GetAuthSessionTicketResponse_t : ICallbackData // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1E9110 Offset: 0x1E8510 VA: 0x1801E9110 Slot: 5
+	// RVA: 0x1E9530 Offset: 0x1E8930 VA: 0x1801E9530 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E9100 Offset: 0x1E8500 VA: 0x1801E9100 Slot: 4
+	// RVA: 0x1E9520 Offset: 0x1E8920 VA: 0x1801E9520 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1371A50 Offset: 0x1370050 VA: 0x181371A50
+	// RVA: 0x1370B50 Offset: 0x136F150 VA: 0x181370B50
 	private static void .cctor() { }
 
 }

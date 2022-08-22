@@ -24,55 +24,55 @@ public class CableCurve // TypeDefIndex: 11737
 
 	// Methods
 
-	// RVA: 0x9975F0 Offset: 0x995BF0 VA: 0x1809975F0
+	// RVA: 0x997AE0 Offset: 0x9960E0 VA: 0x180997AE0
 	public bool get_regenPoints() { }
 
-	// RVA: 0x997600 Offset: 0x995C00 VA: 0x180997600
+	// RVA: 0x997AF0 Offset: 0x9960F0 VA: 0x180997AF0
 	public void set_regenPoints(bool value) { }
 
-	// RVA: 0x11D5450 Offset: 0x11D3A50 VA: 0x1811D5450
+	// RVA: 0x11D5AF0 Offset: 0x11D40F0 VA: 0x1811D5AF0
 	public Vector2 get_start() { }
 
-	// RVA: 0x11D5580 Offset: 0x11D3B80 VA: 0x1811D5580
+	// RVA: 0x11D5C20 Offset: 0x11D4220 VA: 0x1811D5C20
 	public void set_start(Vector2 value) { }
 
-	// RVA: 0x11D51D0 Offset: 0x11D37D0 VA: 0x1811D51D0
+	// RVA: 0x11D5870 Offset: 0x11D3E70 VA: 0x1811D5870
 	public Vector2 get_end() { }
 
-	// RVA: 0x11D5470 Offset: 0x11D3A70 VA: 0x1811D5470
+	// RVA: 0x11D5B10 Offset: 0x11D4110 VA: 0x1811D5B10
 	public void set_end(Vector2 value) { }
 
-	// RVA: 0x7747B0 Offset: 0x772DB0 VA: 0x1807747B0
+	// RVA: 0x774700 Offset: 0x772D00 VA: 0x180774700
 	public float get_slack() { }
 
-	// RVA: 0x11D5500 Offset: 0x11D3B00 VA: 0x1811D5500
+	// RVA: 0x11D5BA0 Offset: 0x11D41A0 VA: 0x1811D5BA0
 	public void set_slack(float value) { }
 
-	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
+	// RVA: 0x79C630 Offset: 0x79AC30 VA: 0x18079C630
 	public int get_steps() { }
 
-	// RVA: 0x11D5610 Offset: 0x11D3C10 VA: 0x1811D5610
+	// RVA: 0x11D5CB0 Offset: 0x11D42B0 VA: 0x1811D5CB0
 	public void set_steps(int value) { }
 
-	// RVA: 0x11D51F0 Offset: 0x11D37F0 VA: 0x1811D51F0
+	// RVA: 0x11D5890 Offset: 0x11D3E90 VA: 0x1811D5890
 	public Vector2 get_midPoint() { }
 
-	// RVA: 0x11D5010 Offset: 0x11D3610 VA: 0x1811D5010
+	// RVA: 0x11D56B0 Offset: 0x11D3CB0 VA: 0x1811D56B0
 	public void .ctor() { }
 
-	// RVA: 0x11D5120 Offset: 0x11D3720 VA: 0x1811D5120
+	// RVA: 0x11D57C0 Offset: 0x11D3DC0 VA: 0x1811D57C0
 	public void .ctor(Vector2[] inputPoints) { }
 
-	// RVA: 0x11D4EB0 Offset: 0x11D34B0 VA: 0x1811D4EB0
+	// RVA: 0x11D5550 Offset: 0x11D3B50 VA: 0x1811D5550
 	public void .ctor(List<Vector2> inputPoints) { }
 
-	// RVA: 0x11D4F80 Offset: 0x11D3580 VA: 0x1811D4F80
+	// RVA: 0x11D5620 Offset: 0x11D3C20 VA: 0x1811D5620
 	public void .ctor(CableCurve v) { }
 
-	// RVA: 0x11D47E0 Offset: 0x11D2DE0 VA: 0x1811D47E0
+	// RVA: 0x11D4E80 Offset: 0x11D3480 VA: 0x1811D4E80
 	public Vector2[] Points() { }
 
-	// RVA: 0x11D4DC0 Offset: 0x11D33C0 VA: 0x1811D4DC0
+	// RVA: 0x11D5460 Offset: 0x11D3A60 VA: 0x1811D5460
 	private static void .cctor() { }
 
 }

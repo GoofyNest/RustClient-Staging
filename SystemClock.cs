@@ -1,16 +1,16 @@
 internal class SystemClock // TypeDefIndex: 3557
 {	// Fields
-	private static readonly DateTime s_Epoch; // 0x147C6
+	private static readonly DateTime s_Epoch; // 0x14510
 
 	// Properties
 	public static DateTime now { get; }
 
 	// Methods
 
-	// RVA: 0x19B9FF0 Offset: 0x19B85F0 VA: 0x1819B9FF0
+	// RVA: 0x19A73F0 Offset: 0x19A59F0 VA: 0x1819A73F0
 	public static DateTime get_now() { }
 
-	// RVA: 0x19B9F70 Offset: 0x19B8570 VA: 0x1819B9F70
+	// RVA: 0x19A7370 Offset: 0x19A5970 VA: 0x1819A7370
 	private static void .cctor() { }
 
 }

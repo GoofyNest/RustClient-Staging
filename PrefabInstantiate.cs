@@ -4,7 +4,7 @@ public class PrefabInstantiate : MonoBehaviour, IClientComponent // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x9A15E0 Offset: 0x99FBE0 VA: 0x1809A15E0
+	// RVA: 0x9A1AD0 Offset: 0x9A00D0 VA: 0x1809A1AD0
 	protected void Awake() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

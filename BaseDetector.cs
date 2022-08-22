@@ -5,10 +5,10 @@ public class BaseDetector : IOEntity // TypeDefIndex: 8701
 
 	// Methods
 
-	// RVA: 0x7DA000 Offset: 0x7D8600 VA: 0x1807DA000 Slot: 150
+	// RVA: 0x7A5920 Offset: 0x7A3F20 VA: 0x1807A5920 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0x7DA010 Offset: 0x7D8610 VA: 0x1807DA010
+	// RVA: 0x7A5930 Offset: 0x7A3F30 VA: 0x1807A5930
 	public void .ctor() { }
 
 }

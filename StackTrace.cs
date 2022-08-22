@@ -12,50 +12,50 @@ public class StackTrace // TypeDefIndex: 1503
 
 	// Methods
 
-	// RVA: 0xD870E0 Offset: 0xD856E0 VA: 0x180D870E0
+	// RVA: 0xD87B90 Offset: 0xD86190 VA: 0x180D87B90
 	public void .ctor() { }
 
-	// RVA: 0xD87150 Offset: 0xD85750 VA: 0x180D87150
+	// RVA: 0xD87C00 Offset: 0xD86200 VA: 0x180D87C00
 	public void .ctor(bool fNeedFileInfo) { }
 
-	// RVA: 0xD87110 Offset: 0xD85710 VA: 0x180D87110
+	// RVA: 0xD87BC0 Offset: 0xD861C0 VA: 0x180D87BC0
 	public void .ctor(int skipFrames, bool fNeedFileInfo) { }
 
-	// RVA: 0xD871B0 Offset: 0xD857B0 VA: 0x180D871B0
+	// RVA: 0xD87C60 Offset: 0xD86260 VA: 0x180D87C60
 	private void init_frames(int skipFrames, bool fNeedFileInfo) { }
 
-	// RVA: 0xD871A0 Offset: 0xD857A0 VA: 0x180D871A0
+	// RVA: 0xD87C50 Offset: 0xD86250 VA: 0x180D87C50
 	private static StackFrame[] get_trace(Exception e, int skipFrames, bool fNeedFileInfo) { }
 
-	// RVA: 0xD86F30 Offset: 0xD85530 VA: 0x180D86F30
+	// RVA: 0xD879E0 Offset: 0xD85FE0 VA: 0x180D879E0
 	public void .ctor(Exception e, bool fNeedFileInfo) { }
 
-	// RVA: 0xD86FE0 Offset: 0xD855E0 VA: 0x180D86FE0
+	// RVA: 0xD87A90 Offset: 0xD86090 VA: 0x180D87A90
 	public void .ctor(Exception e, int skipFrames, bool fNeedFileInfo) { }
 
-	// RVA: 0xD87190 Offset: 0xD85790 VA: 0x180D87190 Slot: 4
+	// RVA: 0xD87C40 Offset: 0xD86240 VA: 0x180D87C40 Slot: 4
 	public virtual int get_FrameCount() { }
 
-	// RVA: 0xD86900 Offset: 0xD84F00 VA: 0x180D86900 Slot: 5
+	// RVA: 0xD873B0 Offset: 0xD859B0 VA: 0x180D873B0 Slot: 5
 	public virtual StackFrame GetFrame(int index) { }
 
 	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 6
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 6
 	public virtual StackFrame[] GetFrames() { }
 
-	// RVA: 0xD86800 Offset: 0xD84E00 VA: 0x180D86800
+	// RVA: 0xD872B0 Offset: 0xD858B0 VA: 0x180D872B0
 	private static string GetAotId() { }
 
-	// RVA: 0xD86380 Offset: 0xD84980 VA: 0x180D86380
+	// RVA: 0xD86E30 Offset: 0xD85430 VA: 0x180D86E30
 	private bool AddFrames(StringBuilder sb) { }
 
-	// RVA: 0xD86970 Offset: 0xD84F70 VA: 0x180D86970
+	// RVA: 0xD87420 Offset: 0xD85A20 VA: 0x180D87420
 	internal void GetFullNameForStackTrace(StringBuilder sb, MethodBase mi) { }
 
-	// RVA: 0xD86E10 Offset: 0xD85410 VA: 0x180D86E10 Slot: 3
+	// RVA: 0xD878C0 Offset: 0xD85EC0 VA: 0x180D878C0 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0xD86DF0 Offset: 0xD853F0 VA: 0x180D86DF0
+	// RVA: 0xD878A0 Offset: 0xD85EA0 VA: 0x180D878A0
 	internal string ToString(StackTrace.TraceFormat traceFormat) { }
 
 }

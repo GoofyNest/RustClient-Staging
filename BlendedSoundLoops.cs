@@ -15,10 +15,10 @@ public class BlendedSoundLoops : MonoBehaviour, IClientComponent // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x513420 Offset: 0x511A20 VA: 0x180513420
+	// RVA: 0x5133B0 Offset: 0x5119B0 VA: 0x1805133B0
 	private void Update() { }
 
-	// RVA: 0x513B80 Offset: 0x512180 VA: 0x180513B80
+	// RVA: 0x513B10 Offset: 0x512110 VA: 0x180513B10
 	public void .ctor() { }
 
 }

@@ -6,10 +6,10 @@ public class ToggleHUDLayer : MonoBehaviour, IClientComponent // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0x88C520 Offset: 0x88AB20 VA: 0x18088C520
+	// RVA: 0x86F860 Offset: 0x86DE60 VA: 0x18086F860
 	protected void OnEnable() { }
 
-	// RVA: 0x88C720 Offset: 0x88AD20 VA: 0x18088C720
+	// RVA: 0x86FA60 Offset: 0x86E060 VA: 0x18086FA60
 	public void OnToggleChanged() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

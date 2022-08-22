@@ -5,22 +5,22 @@ public class MeshToggle : MonoBehaviour // TypeDefIndex: 11320
 
 	// Methods
 
-	// RVA: 0x96A080 Offset: 0x968680 VA: 0x18096A080
+	// RVA: 0x96A580 Offset: 0x968B80 VA: 0x18096A580
 	public void SwitchRenderer(int index) { }
 
-	// RVA: 0x96A190 Offset: 0x968790 VA: 0x18096A190
+	// RVA: 0x96A690 Offset: 0x968C90 VA: 0x18096A690
 	public void SwitchRenderer(float factor) { }
 
-	// RVA: 0x969F70 Offset: 0x968570 VA: 0x180969F70
+	// RVA: 0x96A470 Offset: 0x968A70 VA: 0x18096A470
 	public void SwitchCollider(int index) { }
 
-	// RVA: 0x969EE0 Offset: 0x9684E0 VA: 0x180969EE0
+	// RVA: 0x96A3E0 Offset: 0x9689E0 VA: 0x18096A3E0
 	public void SwitchCollider(float factor) { }
 
-	// RVA: 0x969DB0 Offset: 0x9683B0 VA: 0x180969DB0
+	// RVA: 0x96A2B0 Offset: 0x9688B0 VA: 0x18096A2B0
 	public void SwitchAll(int index) { }
 
-	// RVA: 0x969DE0 Offset: 0x9683E0 VA: 0x180969DE0
+	// RVA: 0x96A2E0 Offset: 0x9688E0 VA: 0x18096A2E0
 	public void SwitchAll(float factor) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

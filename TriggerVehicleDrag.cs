@@ -6,10 +6,10 @@ public class TriggerVehicleDrag : TriggerBase, IServerComponent // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x4D3B90 Offset: 0x4D2190 VA: 0x1804D3B90 Slot: 6
+	// RVA: 0x4D3B20 Offset: 0x4D2120 VA: 0x1804D3B20 Slot: 6
 	internal override GameObject InterestedInObject(GameObject obj) { }
 
-	// RVA: 0x4D38B0 Offset: 0x4D1EB0 VA: 0x1804D38B0
+	// RVA: 0x4D3840 Offset: 0x4D1E40 VA: 0x1804D3840
 	public void .ctor() { }
 
 }

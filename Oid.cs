@@ -13,25 +13,25 @@ public sealed class Oid // TypeDefIndex: 2792
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x117C750 Offset: 0x117AD50 VA: 0x18117C750
+	// RVA: 0x1181070 Offset: 0x117F670 VA: 0x181181070
 	public void .ctor(string oid) { }
 
-	// RVA: 0x117C7B0 Offset: 0x117ADB0 VA: 0x18117C7B0
+	// RVA: 0x11810D0 Offset: 0x117F6D0 VA: 0x1811810D0
 	internal void .ctor(string oid, OidGroup group, bool lookupFriendlyName) { }
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	public void .ctor(string value, string friendlyName) { }
 
-	// RVA: 0x117C820 Offset: 0x117AE20 VA: 0x18117C820
+	// RVA: 0x1181140 Offset: 0x117F740 VA: 0x181181140
 	public void .ctor(Oid oid) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_Value() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_Value(string value) { }
 
-	// RVA: 0x117C8C0 Offset: 0x117AEC0 VA: 0x18117C8C0
+	// RVA: 0x11811E0 Offset: 0x117F7E0 VA: 0x1811811E0
 	public string get_FriendlyName() { }
 
 }

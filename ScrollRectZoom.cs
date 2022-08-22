@@ -12,19 +12,19 @@ public class ScrollRectZoom : MonoBehaviour, IScrollHandler, IEventSystemHandler
 
 	// Methods
 
-	// RVA: 0x4A5CE0 Offset: 0x4A42E0 VA: 0x1804A5CE0
+	// RVA: 0x4A5C70 Offset: 0x4A4270 VA: 0x1804A5C70
 	public RectTransform get_rectTransform() { }
 
-	// RVA: 0x4A5A50 Offset: 0x4A4050 VA: 0x1804A5A50
+	// RVA: 0x4A59E0 Offset: 0x4A3FE0 VA: 0x1804A59E0
 	private void OnEnable() { }
 
-	// RVA: 0x4A5A60 Offset: 0x4A4060 VA: 0x1804A5A60 Slot: 4
+	// RVA: 0x4A59F0 Offset: 0x4A3FF0 VA: 0x1804A59F0 Slot: 4
 	public void OnScroll(PointerEventData data) { }
 
-	// RVA: 0x4A5AA0 Offset: 0x4A40A0 VA: 0x1804A5AA0
+	// RVA: 0x4A5A30 Offset: 0x4A4030 VA: 0x1804A5A30
 	public void SetZoom(float z, bool expZoom = True) { }
 
-	// RVA: 0x4A5CB0 Offset: 0x4A42B0 VA: 0x1804A5CB0
+	// RVA: 0x4A5C40 Offset: 0x4A4240 VA: 0x1804A5C40
 	public void .ctor() { }
 
 }

@@ -14,37 +14,37 @@ public class MetabolismAttribute // TypeDefIndex: 9565
 
 	// Methods
 
-	// RVA: 0x96AD50 Offset: 0x969350 VA: 0x18096AD50
+	// RVA: 0x96B250 Offset: 0x969850 VA: 0x18096B250
 	public float get_greatFraction() { }
 
-	// RVA: 0x96ABF0 Offset: 0x9691F0 VA: 0x18096ABF0
+	// RVA: 0x96B0F0 Offset: 0x9696F0 VA: 0x18096B0F0
 	public void Reset() { }
 
-	// RVA: 0x96A930 Offset: 0x968F30 VA: 0x18096A930
+	// RVA: 0x96AE30 Offset: 0x969430 VA: 0x18096AE30
 	public float Fraction() { }
 
-	// RVA: 0x96AB20 Offset: 0x969120 VA: 0x18096AB20
+	// RVA: 0x96B020 Offset: 0x969620 VA: 0x18096B020
 	public float InverseFraction() { }
 
-	// RVA: 0x96A880 Offset: 0x968E80 VA: 0x18096A880
+	// RVA: 0x96AD80 Offset: 0x969380 VA: 0x18096AD80
 	public void Add(float val) { }
 
-	// RVA: 0x96ACA0 Offset: 0x9692A0 VA: 0x18096ACA0
+	// RVA: 0x96B1A0 Offset: 0x9697A0 VA: 0x18096B1A0
 	public void Subtract(float val) { }
 
-	// RVA: 0x96AA80 Offset: 0x969080 VA: 0x18096AA80
+	// RVA: 0x96AF80 Offset: 0x969580 VA: 0x18096AF80
 	public void Increase(float fTarget) { }
 
-	// RVA: 0x96AB40 Offset: 0x969140 VA: 0x18096AB40
+	// RVA: 0x96B040 Offset: 0x969640 VA: 0x18096B040
 	public void MoveTowards(float fTarget, float fRate) { }
 
-	// RVA: 0x96A9C0 Offset: 0x968FC0 VA: 0x18096A9C0
+	// RVA: 0x96AEC0 Offset: 0x9694C0 VA: 0x18096AEC0
 	public bool HasChanged() { }
 
-	// RVA: 0x96A9E0 Offset: 0x968FE0 VA: 0x18096A9E0
+	// RVA: 0x96AEE0 Offset: 0x9694E0 VA: 0x18096AEE0
 	public bool HasGreatlyChanged() { }
 
-	// RVA: 0x96AC90 Offset: 0x969290 VA: 0x18096AC90
+	// RVA: 0x96B190 Offset: 0x969790 VA: 0x18096B190
 	public void SetValue(float newValue) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

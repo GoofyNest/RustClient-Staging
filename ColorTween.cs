@@ -46,10 +46,10 @@ internal struct ColorTween : ITweenValue // TypeDefIndex: 5039
 	// RVA: 0xF1500 Offset: 0xF0900 VA: 0x1800F1500
 	public void set_ignoreTimeScale(bool value) { }
 
-	// RVA: 0x19E4F0 Offset: 0x19D8F0 VA: 0x18019E4F0 Slot: 4
+	// RVA: 0x19E1E0 Offset: 0x19D5E0 VA: 0x18019E1E0 Slot: 4
 	public void TweenValue(float floatPercentage) { }
 
-	// RVA: 0x19E440 Offset: 0x19D840 VA: 0x18019E440
+	// RVA: 0x19E130 Offset: 0x19D530 VA: 0x18019E130
 	public void AddOnChangedCallback(UnityAction<Color> callback) { }
 
 	// RVA: 0x116DF0 Offset: 0x1161F0 VA: 0x180116DF0
@@ -75,7 +75,7 @@ public enum ColorTween.ColorTweenMode // TypeDefIndex: 5040
 public class ColorTween.ColorTweenCallback : UnityEvent<Color> // TypeDefIndex: 5041
 {	// Methods
 
-	// RVA: 0x10BA2C0 Offset: 0x10B88C0 VA: 0x1810BA2C0
+	// RVA: 0x10BAD30 Offset: 0x10B9330 VA: 0x1810BAD30
 	public void .ctor() { }
 
 }
@@ -157,7 +157,7 @@ public enum ColorTween.ColorTweenMode // TypeDefIndex: 6751
 public class ColorTween.ColorTweenCallback : UnityEvent<Color> // TypeDefIndex: 6752
 {	// Methods
 
-	// RVA: 0xC65340 Offset: 0xC63940 VA: 0x180C65340
+	// RVA: 0xC65810 Offset: 0xC63E10 VA: 0x180C65810
 	public void .ctor() { }
 
 }

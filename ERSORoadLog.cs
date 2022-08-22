@@ -5,7 +5,7 @@ public class ERSORoadLog // TypeDefIndex: 7230
 
 	// Methods
 
-	// RVA: 0xA5A6C0 Offset: 0xA58CC0 VA: 0x180A5A6C0
+	// RVA: 0xA5AB90 Offset: 0xA59190 VA: 0x180A5AB90
 	public void .ctor(double so) { }
 
 }

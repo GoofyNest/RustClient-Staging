@@ -17,85 +17,85 @@ public class UniqueConstraint : Constraint // TypeDefIndex: 4311
 
 	// Methods
 
-	// RVA: 0xCCEB30 Offset: 0xCCD130 VA: 0x180CCEB30
+	// RVA: 0xCCEFD0 Offset: 0xCCD5D0 VA: 0x180CCEFD0
 	public void .ctor(DataColumn column) { }
 
-	// RVA: 0xCCEAF0 Offset: 0xCCD0F0 VA: 0x180CCEAF0
+	// RVA: 0xCCEF90 Offset: 0xCCD590 VA: 0x180CCEF90
 	public void .ctor(string name, DataColumn[] columns) { }
 
-	// RVA: 0xCCEC00 Offset: 0xCCD200 VA: 0x180CCEC00
+	// RVA: 0xCCF0A0 Offset: 0xCCD6A0 VA: 0x180CCF0A0
 	public void .ctor(DataColumn[] columns) { }
 
-	// RVA: 0xCCEC40 Offset: 0xCCD240 VA: 0x180CCEC40
+	// RVA: 0xCCF0E0 Offset: 0xCCD6E0 VA: 0x180CCF0E0
 	public void .ctor(string name, DataColumn[] columns, bool isPrimaryKey) { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	internal Index get_ConstraintIndex() { }
 
-	// RVA: 0xCCE540 Offset: 0xCCCB40 VA: 0x180CCE540
+	// RVA: 0xCCE9E0 Offset: 0xCCCFE0 VA: 0x180CCE9E0
 	internal void ConstraintIndexClear() { }
 
-	// RVA: 0xCCE580 Offset: 0xCCCB80 VA: 0x180CCE580
+	// RVA: 0xCCEA20 Offset: 0xCCD020 VA: 0x180CCEA20
 	internal void ConstraintIndexInitialize() { }
 
-	// RVA: 0xCCDCF0 Offset: 0xCCC2F0 VA: 0x180CCDCF0 Slot: 16
+	// RVA: 0xCCE190 Offset: 0xCCC790 VA: 0x180CCE190 Slot: 16
 	internal override void CheckState() { }
 
-	// RVA: 0xCCDCF0 Offset: 0xCCC2F0 VA: 0x180CCDCF0
+	// RVA: 0xCCE190 Offset: 0xCCC790 VA: 0x180CCE190
 	private void NonVirtualCheckState() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 13
 	internal override void CheckCanAddToCollection(ConstraintCollection constraints) { }
 
-	// RVA: 0xCCD9F0 Offset: 0xCCBFF0 VA: 0x180CCD9F0 Slot: 14
+	// RVA: 0xCCDE90 Offset: 0xCCC490 VA: 0x180CCDE90 Slot: 14
 	internal override bool CanBeRemovedFromCollection(ConstraintCollection constraints, bool fThrowException) { }
 
-	// RVA: 0xCCDB80 Offset: 0xCCC180 VA: 0x180CCDB80 Slot: 10
+	// RVA: 0xCCE020 Offset: 0xCCC620 VA: 0x180CCE020 Slot: 10
 	internal override bool CanEnableConstraint() { }
 
-	// RVA: 0xCCE830 Offset: 0xCCCE30 VA: 0x180CCE830 Slot: 18
+	// RVA: 0xCCECD0 Offset: 0xCCD2D0 VA: 0x180CCECD0 Slot: 18
 	internal override bool IsConstraintViolated() { }
 
-	// RVA: 0xCCDBD0 Offset: 0xCCC1D0 VA: 0x180CCDBD0 Slot: 15
+	// RVA: 0xCCE070 Offset: 0xCCC670 VA: 0x180CCE070 Slot: 15
 	internal override void CheckConstraint(DataRow row, DataRowAction action) { }
 
-	// RVA: 0xCCE5D0 Offset: 0xCCCBD0 VA: 0x180CCE5D0 Slot: 9
+	// RVA: 0xCCEA70 Offset: 0xCCD070 VA: 0x180CCEA70 Slot: 9
 	internal override bool ContainsColumn(DataColumn column) { }
 
-	// RVA: 0xCCDD00 Offset: 0xCCC300 VA: 0x180CCDD00 Slot: 11
+	// RVA: 0xCCE1A0 Offset: 0xCCC7A0 VA: 0x180CCE1A0 Slot: 11
 	internal override Constraint Clone(DataSet destination) { }
 
-	// RVA: 0xCCDD20 Offset: 0xCCC320 VA: 0x180CCDD20 Slot: 12
+	// RVA: 0xCCE1C0 Offset: 0xCCC7C0 VA: 0x180CCE1C0 Slot: 12
 	internal override Constraint Clone(DataSet destination, bool ignorNSforTableLookup) { }
 
-	// RVA: 0xCCE190 Offset: 0xCCC790 VA: 0x180CCE190
+	// RVA: 0xCCE630 Offset: 0xCCCC30 VA: 0x180CCE630
 	internal UniqueConstraint Clone(DataTable table) { }
 
-	// RVA: 0xCCEC90 Offset: 0xCCD290 VA: 0x180CCEC90 Slot: 19
+	// RVA: 0xCCF130 Offset: 0xCCD730 VA: 0x180CCF130 Slot: 19
 	public virtual DataColumn[] get_Columns() { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	internal DataColumn[] get_ColumnsReference() { }
 
-	// RVA: 0xCCECA0 Offset: 0xCCD2A0 VA: 0x180CCECA0
+	// RVA: 0xCCF140 Offset: 0xCCD740 VA: 0x180CCF140
 	public bool get_IsPrimaryKey() { }
 
-	// RVA: 0xCCE5E0 Offset: 0xCCCBE0 VA: 0x180CCE5E0
+	// RVA: 0xCCEA80 Offset: 0xCCD080 VA: 0x180CCEA80
 	private void Create(string constraintName, DataColumn[] columns) { }
 
-	// RVA: 0xCCE700 Offset: 0xCCCD00 VA: 0x180CCE700 Slot: 0
+	// RVA: 0xCCEBA0 Offset: 0xCCD1A0 VA: 0x180CCEBA0 Slot: 0
 	public override bool Equals(object key2) { }
 
-	// RVA: 0xCCE820 Offset: 0xCCCE20 VA: 0x180CCE820 Slot: 2
+	// RVA: 0xCCECC0 Offset: 0xCCD2C0 VA: 0x180CCECC0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0xCCED30 Offset: 0xCCD330 VA: 0x180CCED30 Slot: 7
+	// RVA: 0xCCF1D0 Offset: 0xCCD7D0 VA: 0x180CCF1D0 Slot: 7
 	internal override void set_InCollection(bool value) { }
 
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	internal DataKey get_Key() { }
 
-	// RVA: 0xCCED00 Offset: 0xCCD300 VA: 0x180CCED00 Slot: 8
+	// RVA: 0xCCF1A0 Offset: 0xCCD7A0 VA: 0x180CCF1A0 Slot: 8
 	public override DataTable get_Table() { }
 
 }

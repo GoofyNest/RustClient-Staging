@@ -4,10 +4,10 @@ public sealed class TlsException : Exception // TypeDefIndex: 1750
 
 	// Methods
 
-	// RVA: 0x1AC49D0 Offset: 0x1AC2FD0 VA: 0x181AC49D0
+	// RVA: 0x1AC51C0 Offset: 0x1AC37C0 VA: 0x181AC51C0
 	public void .ctor(Alert alert, string message) { }
 
-	// RVA: 0x1AC4A50 Offset: 0x1AC3050 VA: 0x181AC4A50
+	// RVA: 0x1AC5240 Offset: 0x1AC3840 VA: 0x181AC5240
 	public void .ctor(AlertDescription description, string message) { }
 
 }

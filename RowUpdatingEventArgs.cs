@@ -18,31 +18,31 @@ public class RowUpdatingEventArgs : EventArgs // TypeDefIndex: 4409
 
 	// Methods
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 4
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 4
 	protected virtual IDbCommand get_BaseCommand() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630 Slot: 5
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0 Slot: 5
 	protected virtual void set_BaseCommand(IDbCommand value) { }
 
-	// RVA: 0x4D3FB0 Offset: 0x4D25B0 VA: 0x1804D3FB0
+	// RVA: 0x4D3F40 Offset: 0x4D2540 VA: 0x1804D3F40
 	public IDbCommand get_Command() { }
 
-	// RVA: 0x17D6C30 Offset: 0x17D5230 VA: 0x1817D6C30
+	// RVA: 0x17D4780 Offset: 0x17D2D80 VA: 0x1817D4780
 	public void set_Command(IDbCommand value) { }
 
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	public void set_Errors(Exception value) { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public DataRow get_Row() { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public StatementType get_StatementType() { }
 
-	// RVA: 0x6BBA50 Offset: 0x6BA050 VA: 0x1806BBA50
+	// RVA: 0x6BB9E0 Offset: 0x6B9FE0 VA: 0x1806BB9E0
 	public UpdateStatus get_Status() { }
 
-	// RVA: 0x17D6C50 Offset: 0x17D5250 VA: 0x1817D6C50
+	// RVA: 0x17D47A0 Offset: 0x17D2DA0 VA: 0x1817D47A0
 	public void set_Status(UpdateStatus value) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70

@@ -5,7 +5,7 @@ public class UnityAPICompatibilityVersionAttribute : Attribute // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x7ED390 Offset: 0x7EB990 VA: 0x1807ED390
+	// RVA: 0x7B8CB0 Offset: 0x7B72B0 VA: 0x1807B8CB0
 	public void .ctor(string version, string[] configurationAssembliesHashes) { }
 
 }

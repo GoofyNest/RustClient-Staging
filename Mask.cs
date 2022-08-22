@@ -14,38 +14,38 @@ public class Mask : UIBehaviour, ICanvasRaycastFilter, IMaterialModifier // Type
 
 	// Methods
 
-	// RVA: 0x1715F00 Offset: 0x1714500 VA: 0x181715F00
+	// RVA: 0x170F350 Offset: 0x170D950 VA: 0x18170F350
 	public RectTransform get_rectTransform() { }
 
-	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
+	// RVA: 0xB10B80 Offset: 0xB0F180 VA: 0x180B10B80
 	public bool get_showMaskGraphic() { }
 
-	// RVA: 0x1715F70 Offset: 0x1714570 VA: 0x181715F70
+	// RVA: 0x170F3C0 Offset: 0x170D9C0 VA: 0x18170F3C0
 	public void set_showMaskGraphic(bool value) { }
 
-	// RVA: 0x1715E90 Offset: 0x1714490 VA: 0x181715E90
+	// RVA: 0x170F2E0 Offset: 0x170D8E0 VA: 0x18170F2E0
 	public Graphic get_graphic() { }
 
-	// RVA: 0x574750 Offset: 0x572D50 VA: 0x180574750
+	// RVA: 0x5746E0 Offset: 0x572CE0 VA: 0x1805746E0
 	protected void .ctor() { }
 
-	// RVA: 0x17159B0 Offset: 0x1713FB0 VA: 0x1817159B0 Slot: 19
+	// RVA: 0x170EE00 Offset: 0x170D400 VA: 0x18170EE00 Slot: 19
 	public virtual bool MaskEnabled() { }
 
 	[ObsoleteAttribute] // RVA: 0x75DD0 Offset: 0x751D0 VA: 0x180075DD0
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 20
 	public virtual void OnSiblingGraphicEnabledDisabled() { }
 
-	// RVA: 0x1715CF0 Offset: 0x17142F0 VA: 0x181715CF0 Slot: 5
+	// RVA: 0x170F140 Offset: 0x170D740 VA: 0x18170F140 Slot: 5
 	protected override void OnEnable() { }
 
-	// RVA: 0x1715A80 Offset: 0x1714080 VA: 0x181715A80 Slot: 7
+	// RVA: 0x170EED0 Offset: 0x170D4D0 VA: 0x18170EED0 Slot: 7
 	protected override void OnDisable() { }
 
-	// RVA: 0x17158B0 Offset: 0x1713EB0 VA: 0x1817158B0 Slot: 21
+	// RVA: 0x170ED00 Offset: 0x170D300 VA: 0x18170ED00 Slot: 21
 	public virtual bool IsRaycastLocationValid(Vector2 sp, Camera eventCamera) { }
 
-	// RVA: 0x17155A0 Offset: 0x1713BA0 VA: 0x1817155A0 Slot: 22
+	// RVA: 0x170E9F0 Offset: 0x170CFF0 VA: 0x18170E9F0 Slot: 22
 	public virtual Material GetModifiedMaterial(Material baseMaterial) { }
 
 }

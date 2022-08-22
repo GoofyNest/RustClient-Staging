@@ -9,25 +9,25 @@ internal class ElementUnderPointer // TypeDefIndex: 4639
 
 	// Methods
 
-	// RVA: 0xEAB900 Offset: 0xEA9F00 VA: 0x180EAB900
+	// RVA: 0xEAC3B0 Offset: 0xEAA9B0 VA: 0x180EAC3B0
 	internal VisualElement GetTopElementUnderPointer(int pointerId, out Vector2 pickPosition, out bool isTemporary) { }
 
-	// RVA: 0x9EB8A0 Offset: 0x9E9EA0 VA: 0x1809EB8A0
+	// RVA: 0x9EBD90 Offset: 0x9EA390 VA: 0x1809EBD90
 	internal VisualElement GetTopElementUnderPointer(int pointerId) { }
 
-	// RVA: 0xEAB740 Offset: 0xEA9D40 VA: 0x180EAB740
+	// RVA: 0xEAC1F0 Offset: 0xEAA7F0 VA: 0x180EAC1F0
 	private Vector2 GetEventPointerPosition(EventBase triggerEvent) { }
 
-	// RVA: 0xEABDC0 Offset: 0xEAA3C0 VA: 0x180EABDC0
+	// RVA: 0xEAC870 Offset: 0xEAAE70 VA: 0x180EAC870
 	internal void SetTemporaryElementUnderPointer(VisualElement newElementUnderPointer, EventBase triggerEvent) { }
 
-	// RVA: 0xEAB9A0 Offset: 0xEA9FA0 VA: 0x180EAB9A0
+	// RVA: 0xEAC450 Offset: 0xEAAA50 VA: 0x180EAC450
 	internal void SetElementUnderPointer(VisualElement newElementUnderPointer, EventBase triggerEvent) { }
 
-	// RVA: 0xEAB9C0 Offset: 0xEA9FC0 VA: 0x180EAB9C0
+	// RVA: 0xEAC470 Offset: 0xEAAA70 VA: 0x180EAC470
 	private void SetElementUnderPointer(VisualElement newElementUnderPointer, EventBase triggerEvent, bool temporary) { }
 
-	// RVA: 0xEAA5E0 Offset: 0xEA8BE0 VA: 0x180EAA5E0
+	// RVA: 0xEAB090 Offset: 0xEA9690 VA: 0x180EAB090
 	internal void CommitElementUnderPointers(EventDispatcher dispatcher) { }
 
 }

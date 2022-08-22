@@ -16,49 +16,49 @@ internal class ContentValidator // TypeDefIndex: 2167
 
 	// Methods
 
-	// RVA: 0x15027B0 Offset: 0x1500DB0 VA: 0x1815027B0
+	// RVA: 0x1501880 Offset: 0x14FFE80 VA: 0x181501880
 	public void .ctor(XmlSchemaContentType contentType) { }
 
-	// RVA: 0x15027E0 Offset: 0x1500DE0 VA: 0x1815027E0
+	// RVA: 0x15018B0 Offset: 0x14FFEB0 VA: 0x1815018B0
 	protected void .ctor(XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public XmlSchemaContentType get_ContentType() { }
 
-	// RVA: 0x1502840 Offset: 0x1500E40 VA: 0x181502840
+	// RVA: 0x1501910 Offset: 0x14FFF10 VA: 0x181501910
 	public bool get_PreserveWhitespace() { }
 
-	// RVA: 0x13A5690 Offset: 0x13A3C90 VA: 0x1813A5690 Slot: 4
+	// RVA: 0x13A4790 Offset: 0x13A2D90 VA: 0x1813A4790 Slot: 4
 	public virtual bool get_IsEmptiable() { }
 
-	// RVA: 0x1502830 Offset: 0x1500E30 VA: 0x181502830
+	// RVA: 0x1501900 Offset: 0x14FFF00 VA: 0x181501900
 	public bool get_IsOpen() { }
 
-	// RVA: 0xA110E0 Offset: 0xA0F6E0 VA: 0x180A110E0
+	// RVA: 0xA115D0 Offset: 0xA0FBD0 VA: 0x180A115D0
 	public void set_IsOpen(bool value) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	public virtual void InitValidation(ValidationState context) { }
 
-	// RVA: 0x1502650 Offset: 0x1500C50 VA: 0x181502650 Slot: 6
+	// RVA: 0x1501720 Offset: 0x14FFD20 VA: 0x181501720 Slot: 6
 	public virtual object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 7
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 7
 	public virtual bool CompleteValidation(ValidationState context) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 8
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 8
 	public virtual ArrayList ExpectedElements(ValidationState context, bool isRequiredOnly) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 9
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 9
 	public virtual ArrayList ExpectedParticles(ValidationState context, bool isRequiredOnly, XmlSchemaSet schemaSet) { }
 
-	// RVA: 0x15025D0 Offset: 0x1500BD0 VA: 0x1815025D0
+	// RVA: 0x15016A0 Offset: 0x14FFCA0 VA: 0x1815016A0
 	public static void AddParticleToExpected(XmlSchemaParticle p, XmlSchemaSet schemaSet, ArrayList particles) { }
 
-	// RVA: 0x1502340 Offset: 0x1500940 VA: 0x181502340
+	// RVA: 0x1501410 Offset: 0x14FFA10 VA: 0x181501410
 	public static void AddParticleToExpected(XmlSchemaParticle p, XmlSchemaSet schemaSet, ArrayList particles, bool global) { }
 
-	// RVA: 0x1502680 Offset: 0x1500C80 VA: 0x181502680
+	// RVA: 0x1501750 Offset: 0x14FFD50 VA: 0x181501750
 	private static void .cctor() { }
 
 }

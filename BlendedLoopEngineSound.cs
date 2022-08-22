@@ -12,22 +12,22 @@ public class BlendedLoopEngineSound : MonoBehaviour, IClientComponent // TypeDef
 
 	// Methods
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public BlendedLoopEngineSound.EngineLoop[] GetEngineLoops() { }
 
-	// RVA: 0x512ED0 Offset: 0x5114D0 VA: 0x180512ED0
+	// RVA: 0x512E60 Offset: 0x511460 VA: 0x180512E60
 	public float GetLoopGain(int idx) { }
 
-	// RVA: 0x512F20 Offset: 0x511520 VA: 0x180512F20
+	// RVA: 0x512EB0 Offset: 0x5114B0 VA: 0x180512EB0
 	public float GetLoopPitch(int idx) { }
 
-	// RVA: 0x5133D0 Offset: 0x5119D0 VA: 0x1805133D0
+	// RVA: 0x513360 Offset: 0x511960 VA: 0x180513360
 	public float get_maxDistance() { }
 
-	// RVA: 0x512F70 Offset: 0x511570 VA: 0x180512F70
+	// RVA: 0x512F00 Offset: 0x511500 VA: 0x180512F00
 	public void Init(BlendedEngineLoopDefinition definition) { }
 
-	// RVA: 0x5131B0 Offset: 0x5117B0 VA: 0x1805131B0
+	// RVA: 0x513140 Offset: 0x511740 VA: 0x180513140
 	private void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -45,16 +45,16 @@ public class BlendedLoopEngineSound.EngineLoop // TypeDefIndex: 8984
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	public void .ctor(BlendedEngineLoopDefinition.EngineLoopDefinition definition, BlendedLoopEngineSound parent) { }
 
-	// RVA: 0x5228F0 Offset: 0x520EF0 VA: 0x1805228F0
+	// RVA: 0x522880 Offset: 0x520E80 VA: 0x180522880
 	public void Update(float RPM, float cameraDistance) { }
 
-	// RVA: 0x5226C0 Offset: 0x520CC0 VA: 0x1805226C0
+	// RVA: 0x522650 Offset: 0x520C50 VA: 0x180522650
 	public void CreateSound() { }
 
-	// RVA: 0x522810 Offset: 0x520E10 VA: 0x180522810
+	// RVA: 0x5227A0 Offset: 0x520DA0 VA: 0x1805227A0
 	public void RecycleSound() { }
 
 }

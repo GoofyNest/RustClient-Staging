@@ -8,21 +8,21 @@ public class GenerateRailLayout : ProceduralComponent // TypeDefIndex: 10486
 	public const float RandomScale = 1;
 	public const float MeshOffset = 0;
 	public const float TerrainOffset = -0,125;
-	private static Quaternion rot90; // 0x3120
+	private static Quaternion rot90; // 0x2B10440
 	private const int MaxDepth = 250000;
 
 	// Methods
 
-	// RVA: 0xC599F0 Offset: 0xC57FF0 VA: 0x180C599F0
+	// RVA: 0xC59EC0 Offset: 0xC584C0 VA: 0x180C59EC0
 	private PathList CreateSegment(int number, Vector3[] points) { }
 
-	// RVA: 0xC59AE0 Offset: 0xC580E0 VA: 0x180C59AE0 Slot: 5
+	// RVA: 0xC59FB0 Offset: 0xC585B0 VA: 0x180C59FB0 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40
+	// RVA: 0x57BBD0 Offset: 0x57A1D0 VA: 0x18057BBD0
 	public void .ctor() { }
 
-	// RVA: 0xC5B660 Offset: 0xC59C60 VA: 0x180C5B660
+	// RVA: 0xC5BB30 Offset: 0xC5A130 VA: 0x180C5BB30
 	private static void .cctor() { }
 
 }
@@ -63,7 +63,7 @@ private sealed class GenerateRailLayout.<>c__DisplayClass13_0 // TypeDefIndex: 1
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xCA7770 Offset: 0xCA5D70 VA: 0x180CA7770
+	// RVA: 0xCA7C10 Offset: 0xCA6210 VA: 0x180CA7C10
 	internal float <Process>b__0(int i) { }
 
 }

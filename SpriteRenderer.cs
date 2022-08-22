@@ -5,22 +5,22 @@ public sealed class SpriteRenderer : Renderer // TypeDefIndex: 3571
 
 	// Methods
 
-	// RVA: 0x19B7600 Offset: 0x19B5C00 VA: 0x1819B7600
+	// RVA: 0x19A4A00 Offset: 0x19A3000 VA: 0x1819A4A00
 	public Sprite get_sprite() { }
 
-	// RVA: 0x19B76E0 Offset: 0x19B5CE0 VA: 0x1819B76E0
+	// RVA: 0x19A4AE0 Offset: 0x19A30E0 VA: 0x1819A4AE0
 	public void set_sprite(Sprite value) { }
 
-	// RVA: 0x19B75B0 Offset: 0x19B5BB0 VA: 0x1819B75B0
+	// RVA: 0x19A49B0 Offset: 0x19A2FB0 VA: 0x1819A49B0
 	public Color get_color() { }
 
-	// RVA: 0x19B7690 Offset: 0x19B5C90 VA: 0x1819B7690
+	// RVA: 0x19A4A90 Offset: 0x19A3090 VA: 0x1819A4A90
 	public void set_color(Color value) { }
 
-	// RVA: 0x19B7560 Offset: 0x19B5B60 VA: 0x1819B7560
+	// RVA: 0x19A4960 Offset: 0x19A2F60 VA: 0x1819A4960
 	private void get_color_Injected(out Color ret) { }
 
-	// RVA: 0x19B7640 Offset: 0x19B5C40 VA: 0x1819B7640
+	// RVA: 0x19A4A40 Offset: 0x19A3040 VA: 0x1819A4A40
 	private void set_color_Injected(ref Color value) { }
 
 }

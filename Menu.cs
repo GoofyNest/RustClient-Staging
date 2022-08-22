@@ -13,32 +13,32 @@ public class Menu : RustControl // TypeDefIndex: 7008
 
 	// Methods
 
-	// RVA: 0xFC46E0 Offset: 0xFC2CE0 VA: 0x180FC46E0 Slot: 4
+	// RVA: 0xFC5180 Offset: 0xFC3780 VA: 0x180FC5180 Slot: 4
 	protected override void Awake() { }
 
-	// RVA: 0xFC4780 Offset: 0xFC2D80 VA: 0x180FC4780
+	// RVA: 0xFC5220 Offset: 0xFC3820 VA: 0x180FC5220
 	public void Build() { }
 
-	// RVA: 0xFC4E30 Offset: 0xFC3430 VA: 0x180FC4E30
+	// RVA: 0xFC58D0 Offset: 0xFC3ED0 VA: 0x180FC58D0
 	private void OnOptionSelected(Option option) { }
 
-	// RVA: 0xFC4C70 Offset: 0xFC3270 VA: 0x180FC4C70
+	// RVA: 0xFC5710 Offset: 0xFC3D10 VA: 0x180FC5710
 	private IEnumerable<Option> GetOptions() { }
 
-	// RVA: 0xFC4F30 Offset: 0xFC3530 VA: 0x180FC4F30
+	// RVA: 0xFC59D0 Offset: 0xFC3FD0 VA: 0x180FC59D0
 	internal void Popup(RectTransform source) { }
 
-	// RVA: 0xFC5BC0 Offset: 0xFC41C0 VA: 0x180FC5BC0
+	// RVA: 0xFC6660 Offset: 0xFC4C60 VA: 0x180FC6660
 	private void RestrainToScreen() { }
 
-	// RVA: 0xFC45D0 Offset: 0xFC2BD0 VA: 0x180FC45D0 Slot: 30
+	// RVA: 0xFC5070 Offset: 0xFC3670 VA: 0x180FC5070 Slot: 30
 	protected override void ApplyStyle(StyleAsset.Group s) { }
 
-	// RVA: 0xFC5F10 Offset: 0xFC4510 VA: 0x180FC5F10
+	// RVA: 0xFC69B0 Offset: 0xFC4FB0 VA: 0x180FC69B0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xFC5F00 Offset: 0xFC4500 VA: 0x180FC5F00
+	// RVA: 0xFC69A0 Offset: 0xFC4FA0 VA: 0x180FC69A0
 	private void <Awake>b__11_0(string x) { }
 
 }
@@ -46,7 +46,7 @@ public class Menu : RustControl // TypeDefIndex: 7008
 public class Menu.ChangedEvent : UnityEvent<Option> // TypeDefIndex: 7009
 {	// Methods
 
-	// RVA: 0xFBE280 Offset: 0xFBC880 VA: 0x180FBE280
+	// RVA: 0xFBED20 Offset: 0xFBD320 VA: 0x180FBED20
 	public void .ctor() { }
 
 }
@@ -61,7 +61,7 @@ private sealed class Menu.<>c__DisplayClass12_0 // TypeDefIndex: 7010
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD8A70 Offset: 0xFD7070 VA: 0x180FD8A70
+	// RVA: 0xFD9510 Offset: 0xFD7B10 VA: 0x180FD9510
 	internal void <Build>b__0() { }
 
 }
@@ -75,7 +75,7 @@ private sealed class Menu.<>c__DisplayClass14_0 // TypeDefIndex: 7011
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD8E30 Offset: 0xFD7430 VA: 0x180FD8E30
+	// RVA: 0xFD98D0 Offset: 0xFD7ED0 VA: 0x180FD98D0
 	internal bool <GetOptions>b__1(Option x) { }
 
 }
@@ -87,13 +87,13 @@ private sealed class Menu.<>c // TypeDefIndex: 7012
 
 	// Methods
 
-	// RVA: 0xFD9330 Offset: 0xFD7930 VA: 0x180FD9330
+	// RVA: 0xFD9DD0 Offset: 0xFD83D0 VA: 0x180FD9DD0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xFD8710 Offset: 0xFD6D10 VA: 0x180FD8710
+	// RVA: 0xFD91B0 Offset: 0xFD77B0 VA: 0x180FD91B0
 	internal Option <GetOptions>b__14_0(Option x) { }
 
 }

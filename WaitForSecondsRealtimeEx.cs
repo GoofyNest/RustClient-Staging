@@ -12,23 +12,23 @@ public class WaitForSecondsRealtimeEx : CustomYieldInstruction, Pool.IPooled // 
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7747C0 Offset: 0x772DC0 VA: 0x1807747C0
+	// RVA: 0x774710 Offset: 0x772D10 VA: 0x180774710
 	public float get_WaitTime() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x774800 Offset: 0x772E00 VA: 0x180774800
+	// RVA: 0x774750 Offset: 0x772D50 VA: 0x180774750
 	public void set_WaitTime(float value) { }
 
-	// RVA: 0x14BDC70 Offset: 0x14BC270 VA: 0x1814BDC70 Slot: 7
+	// RVA: 0x14BCD40 Offset: 0x14BB340 VA: 0x1814BCD40 Slot: 7
 	public override bool get_keepWaiting() { }
 
-	// RVA: 0x14BDC40 Offset: 0x14BC240 VA: 0x1814BDC40 Slot: 8
+	// RVA: 0x14BCD10 Offset: 0x14BB310 VA: 0x1814BCD10 Slot: 8
 	public void EnterPool() { }
 
-	// RVA: 0x14BDC50 Offset: 0x14BC250 VA: 0x1814BDC50 Slot: 9
+	// RVA: 0x14BCD20 Offset: 0x14BB320 VA: 0x1814BCD20 Slot: 9
 	public void LeavePool() { }
 
-	// RVA: 0x14BDC60 Offset: 0x14BC260 VA: 0x1814BDC60
+	// RVA: 0x14BCD30 Offset: 0x14BB330 VA: 0x1814BCD30
 	public void .ctor() { }
 
 }

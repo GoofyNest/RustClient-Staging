@@ -14,10 +14,10 @@ public class DungeonNavmesh : FacepunchBehaviour, IServerComponent // TypeDefInd
 
 	// Methods
 
-	// RVA: 0xAB55B0 Offset: 0xAB3BB0 VA: 0x180AB55B0
+	// RVA: 0xAB5A80 Offset: 0xAB4080 VA: 0x180AB5A80
 	public void .ctor() { }
 
-	// RVA: 0xAB5550 Offset: 0xAB3B50 VA: 0x180AB5550
+	// RVA: 0xAB5A20 Offset: 0xAB4020 VA: 0x180AB5A20
 	private static void .cctor() { }
 
 }
@@ -29,26 +29,26 @@ public class DungeonBaseInfo : LandmarkInfo // TypeDefIndex: 10336
 
 	// Methods
 
-	// RVA: 0xAB4010 Offset: 0xAB2610 VA: 0x180AB4010
+	// RVA: 0xAB44E0 Offset: 0xAB2AE0 VA: 0x180AB44E0
 	public float Distance(Vector3 position) { }
 
-	// RVA: 0xAB40F0 Offset: 0xAB26F0 VA: 0x180AB40F0
+	// RVA: 0xAB45C0 Offset: 0xAB2BC0 VA: 0x180AB45C0
 	public float SqrDistance(Vector3 position) { }
 
-	// RVA: 0xAB3BE0 Offset: 0xAB21E0 VA: 0x180AB3BE0
+	// RVA: 0xAB40B0 Offset: 0xAB26B0 VA: 0x180AB40B0
 	public void Add(DungeonBaseLink link) { }
 
-	// RVA: 0xAB3F20 Offset: 0xAB2520 VA: 0x180AB3F20 Slot: 5
+	// RVA: 0xAB43F0 Offset: 0xAB29F0 VA: 0x180AB43F0 Slot: 5
 	protected override void Awake() { }
 
-	// RVA: 0xAB41D0 Offset: 0xAB27D0 VA: 0x180AB41D0
+	// RVA: 0xAB46A0 Offset: 0xAB2CA0 VA: 0x180AB46A0
 	protected void Start() { }
 
-	// RVA: 0xAB43D0 Offset: 0xAB29D0 VA: 0x180AB43D0
+	// RVA: 0xAB48A0 Offset: 0xAB2EA0 VA: 0x180AB48A0
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAB4230 Offset: 0xAB2830 VA: 0x180AB4230
+	// RVA: 0xAB4700 Offset: 0xAB2D00 VA: 0x180AB4700
 	private int <Add>b__4_0(DungeonBaseFloor l, DungeonBaseFloor r) { }
 
 }
@@ -59,13 +59,13 @@ public class DungeonBaseFloor // TypeDefIndex: 10337
 
 	// Methods
 
-	// RVA: 0xAB3A10 Offset: 0xAB2010 VA: 0x180AB3A10
+	// RVA: 0xAB3EE0 Offset: 0xAB24E0 VA: 0x180AB3EE0
 	public float Distance(Vector3 position) { }
 
-	// RVA: 0xAB3AE0 Offset: 0xAB20E0 VA: 0x180AB3AE0
+	// RVA: 0xAB3FB0 Offset: 0xAB25B0 VA: 0x180AB3FB0
 	public float SignedDistance(Vector3 position) { }
 
-	// RVA: 0xAB3B70 Offset: 0xAB2170 VA: 0x180AB3B70
+	// RVA: 0xAB4040 Offset: 0xAB2640 VA: 0x180AB4040
 	public void .ctor() { }
 
 }
@@ -80,13 +80,13 @@ public class DungeonBaseLandmarkInfo : LandmarkInfo // TypeDefIndex: 10338
 
 	// Methods
 
-	// RVA: 0xAB4470 Offset: 0xAB2A70 VA: 0x180AB4470 Slot: 5
+	// RVA: 0xAB4940 Offset: 0xAB2F40 VA: 0x180AB4940 Slot: 5
 	protected override void Awake() { }
 
-	// RVA: 0xAB44D0 Offset: 0xAB2AD0 VA: 0x180AB44D0 Slot: 4
+	// RVA: 0xAB49A0 Offset: 0xAB2FA0 VA: 0x180AB49A0 Slot: 4
 	public override MapLayer get_MapLayer() { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }
@@ -111,16 +111,16 @@ public class DungeonBaseLink : MonoBehaviour // TypeDefIndex: 10339
 
 	// Methods
 
-	// RVA: 0xAB4980 Offset: 0xAB2F80 VA: 0x180AB4980
+	// RVA: 0xAB4E50 Offset: 0xAB3450 VA: 0x180AB4E50
 	internal List<DungeonBaseSocket> get_Sockets() { }
 
-	// RVA: 0xAB4A10 Offset: 0xAB3010 VA: 0x180AB4A10
+	// RVA: 0xAB4EE0 Offset: 0xAB34E0 VA: 0x180AB4EE0
 	internal List<DungeonVolume> get_Volumes() { }
 
-	// RVA: 0xAB47A0 Offset: 0xAB2DA0 VA: 0x180AB47A0
+	// RVA: 0xAB4C70 Offset: 0xAB3270 VA: 0x180AB4C70
 	protected void Start() { }
 
-	// RVA: 0xAB4960 Offset: 0xAB2F60 VA: 0x180AB4960
+	// RVA: 0xAB4E30 Offset: 0xAB3430 VA: 0x180AB4E30
 	public void .ctor() { }
 
 }
@@ -142,7 +142,7 @@ public class DungeonBaseSocket : MonoBehaviour // TypeDefIndex: 10341
 
 	// Methods
 
-	// RVA: 0xAB4AA0 Offset: 0xAB30A0 VA: 0x180AB4AA0
+	// RVA: 0xAB4F70 Offset: 0xAB3570 VA: 0x180AB4F70
 	public void .ctor() { }
 
 }
@@ -184,10 +184,10 @@ public class DungeonGridCell : MonoBehaviour // TypeDefIndex: 10344
 
 	// Methods
 
-	// RVA: 0xAB4BA0 Offset: 0xAB31A0 VA: 0x180AB4BA0
+	// RVA: 0xAB5070 Offset: 0xAB3670 VA: 0x180AB5070
 	public bool ShouldAvoid(uint id) { }
 
-	// RVA: 0xAB4AB0 Offset: 0xAB30B0 VA: 0x180AB4AB0
+	// RVA: 0xAB4F80 Offset: 0xAB3580 VA: 0x180AB4F80
 	protected void Awake() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -238,25 +238,25 @@ public class DungeonGridInfo : LandmarkInfo // TypeDefIndex: 10348
 
 	// Methods
 
-	// RVA: 0xAB4D80 Offset: 0xAB3380 VA: 0x180AB4D80
+	// RVA: 0xAB5250 Offset: 0xAB3850 VA: 0x180AB5250
 	public float Distance(Vector3 position) { }
 
-	// RVA: 0xAB51C0 Offset: 0xAB37C0 VA: 0x180AB51C0
+	// RVA: 0xAB5690 Offset: 0xAB3C90 VA: 0x180AB5690
 	public float SqrDistance(Vector3 position) { }
 
-	// RVA: 0xAB4E60 Offset: 0xAB3460 VA: 0x180AB4E60
+	// RVA: 0xAB5330 Offset: 0xAB3930 VA: 0x180AB5330
 	public bool IsValidSpawnPosition(Vector3 position) { }
 
-	// RVA: 0xAB50A0 Offset: 0xAB36A0 VA: 0x180AB50A0
+	// RVA: 0xAB5570 Offset: 0xAB3B70 VA: 0x180AB5570
 	public Vector3 SnapPosition(Vector3 pos) { }
 
-	// RVA: 0xAB4C90 Offset: 0xAB3290 VA: 0x180AB4C90 Slot: 5
+	// RVA: 0xAB5160 Offset: 0xAB3760 VA: 0x180AB5160 Slot: 5
 	protected override void Awake() { }
 
-	// RVA: 0xAB52A0 Offset: 0xAB38A0 VA: 0x180AB52A0
+	// RVA: 0xAB5770 Offset: 0xAB3D70 VA: 0x180AB5770
 	protected void Start() { }
 
-	// RVA: 0xAB5300 Offset: 0xAB3900 VA: 0x180AB5300
+	// RVA: 0xAB57D0 Offset: 0xAB3DD0 VA: 0x180AB57D0
 	public void .ctor() { }
 
 }
@@ -272,7 +272,7 @@ public class DungeonGridLink : MonoBehaviour // TypeDefIndex: 10349
 
 	// Methods
 
-	// RVA: 0xAB5380 Offset: 0xAB3980 VA: 0x180AB5380
+	// RVA: 0xAB5850 Offset: 0xAB3E50 VA: 0x180AB5850
 	protected void Start() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -295,13 +295,13 @@ public class DungeonVolume : MonoBehaviour // TypeDefIndex: 10351
 
 	// Methods
 
-	// RVA: 0xAB5600 Offset: 0xAB3C00 VA: 0x180AB5600
+	// RVA: 0xAB5AD0 Offset: 0xAB40D0 VA: 0x180AB5AD0
 	public OBB GetBounds(Vector3 position, Quaternion rotation) { }
 
-	// RVA: 0xAB58A0 Offset: 0xAB3EA0 VA: 0x180AB58A0
+	// RVA: 0xAB5D70 Offset: 0xAB4370 VA: 0x180AB5D70
 	public OBB GetBounds(Vector3 position, Quaternion rotation, Vector3 extrude) { }
 
-	// RVA: 0xAB5B70 Offset: 0xAB4170 VA: 0x180AB5B70
+	// RVA: 0xAB6040 Offset: 0xAB4640 VA: 0x180AB6040
 	public void .ctor() { }
 
 }

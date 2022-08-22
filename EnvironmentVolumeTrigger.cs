@@ -17,13 +17,13 @@ public class EnvironmentVolumeTrigger : MonoBehaviour // TypeDefIndex: 9867
 	public EnvironmentVolume get_volume() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	private void set_volume(EnvironmentVolume value) { }
 
-	// RVA: 0x8CB450 Offset: 0x8C9A50 VA: 0x1808CB450
+	// RVA: 0x8CB960 Offset: 0x8C9F60 VA: 0x1808CB960
 	protected void Awake() { }
 
-	// RVA: 0x8CB570 Offset: 0x8C9B70 VA: 0x1808CB570
+	// RVA: 0x8CBA80 Offset: 0x8CA080 VA: 0x1808CBA80
 	public void .ctor() { }
 
 }

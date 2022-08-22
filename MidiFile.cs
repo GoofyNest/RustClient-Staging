@@ -12,7 +12,7 @@ public sealed class MidiFile // TypeDefIndex: 7585
 
 	// Methods
 
-	// RVA: 0x13A1C90 Offset: 0x13A0290 VA: 0x1813A1C90
+	// RVA: 0x13A0D90 Offset: 0x139F390 VA: 0x1813A0D90
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -20,32 +20,32 @@ public sealed class MidiFile // TypeDefIndex: 7585
 	public TimeDivision get_TimeDivision() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_TimeDivision(TimeDivision value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public ChunksCollection get_Chunks() { }
 
-	// RVA: 0x13A1980 Offset: 0x139FF80 VA: 0x1813A1980
+	// RVA: 0x13A0A80 Offset: 0x139F080 VA: 0x1813A0A80
 	public static MidiFile Read(string filePath, ReadingSettings settings) { }
 
-	// RVA: 0x13A1170 Offset: 0x139F770 VA: 0x1813A1170
+	// RVA: 0x13A0270 Offset: 0x139E870 VA: 0x1813A0270
 	public static MidiFile Read(Stream stream, ReadingSettings settings) { }
 
-	// RVA: 0x13A0D50 Offset: 0x139F350 VA: 0x1813A0D50
+	// RVA: 0x139FE50 Offset: 0x139E450 VA: 0x18139FE50
 	private static MidiChunk ReadChunk(MidiReader reader, ReadingSettings settings, int actualTrackChunksCount, Nullable<int> expectedTrackChunksCount) { }
 
-	// RVA: 0x13A0CD0 Offset: 0x139F2D0 VA: 0x1813A0CD0
+	// RVA: 0x139FDD0 Offset: 0x139E3D0 VA: 0x18139FDD0
 	private static void ReactOnUnexpectedTrackChunksCount(UnexpectedTrackChunksCountPolicy policy, int actualTrackChunksCount, int expectedTrackChunksCount) { }
 
-	// RVA: 0x13A0C60 Offset: 0x139F260 VA: 0x1813A0C60
+	// RVA: 0x139FD60 Offset: 0x139E360 VA: 0x18139FD60
 	private static void ReactOnNotEnoughBytes(NotEnoughBytesPolicy policy, Exception exception) { }
 
-	// RVA: 0x13A1A70 Offset: 0x13A0070 VA: 0x1813A1A70
+	// RVA: 0x13A0B70 Offset: 0x139F170 VA: 0x1813A0B70
 	private static MidiChunk TryCreateChunk(string chunkId, ChunkTypesCollection chunksTypes) { }
 
-	// RVA: 0x13A0B20 Offset: 0x139F120 VA: 0x1813A0B20
+	// RVA: 0x139FC20 Offset: 0x139E220 VA: 0x18139FC20
 	private static bool IsChunkType(Type type) { }
 
 }

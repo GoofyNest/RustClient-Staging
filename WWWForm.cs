@@ -14,22 +14,22 @@ public class WWWForm // TypeDefIndex: 4125
 
 	// Methods
 
-	// RVA: 0x22A2460 Offset: 0x22A0A60 VA: 0x1822A2460
+	// RVA: 0x22A2C80 Offset: 0x22A1280 VA: 0x1822A2C80
 	internal static Encoding get_DefaultEncoding() { }
 
-	// RVA: 0x22A22F0 Offset: 0x22A08F0 VA: 0x1822A22F0
+	// RVA: 0x22A2B10 Offset: 0x22A1110 VA: 0x1822A2B10
 	public void .ctor() { }
 
-	// RVA: 0x22A21D0 Offset: 0x22A07D0 VA: 0x1822A21D0
+	// RVA: 0x22A29F0 Offset: 0x22A0FF0 VA: 0x1822A29F0
 	public void AddField(string fieldName, string value) { }
 
-	// RVA: 0x22A20C0 Offset: 0x22A06C0 VA: 0x1822A20C0
+	// RVA: 0x22A28E0 Offset: 0x22A0EE0 VA: 0x1822A28E0
 	public void AddField(string fieldName, string value, Encoding e) { }
 
-	// RVA: 0x22A34D0 Offset: 0x22A1AD0 VA: 0x1822A34D0
+	// RVA: 0x22A3CF0 Offset: 0x22A22F0 VA: 0x1822A3CF0
 	public Dictionary<string, string> get_headers() { }
 
-	// RVA: 0x22A2470 Offset: 0x22A0A70 VA: 0x1822A2470
+	// RVA: 0x22A2C90 Offset: 0x22A1290 VA: 0x1822A2C90
 	public byte[] get_data() { }
 
 }

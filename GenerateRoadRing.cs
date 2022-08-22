@@ -13,10 +13,10 @@ public class GenerateRoadRing : ProceduralComponent // TypeDefIndex: 10516
 
 	// Methods
 
-	// RVA: 0xC955C0 Offset: 0xC93BC0 VA: 0x180C955C0 Slot: 5
+	// RVA: 0xC95A60 Offset: 0xC94060 VA: 0x180C95A60 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x57BC40 Offset: 0x57A240 VA: 0x18057BC40
+	// RVA: 0x57BBD0 Offset: 0x57A1D0 VA: 0x18057BBD0
 	public void .ctor() { }
 
 }
@@ -32,7 +32,7 @@ private class GenerateRoadRing.RingNode // TypeDefIndex: 10517
 
 	// Methods
 
-	// RVA: 0xCA75D0 Offset: 0xCA5BD0 VA: 0x180CA75D0
+	// RVA: 0xCA7A70 Offset: 0xCA6070 VA: 0x180CA7A70
 	public void .ctor(int pos_x, int pos_y, int dir_x, int dir_y, int stepcount) { }
 
 }

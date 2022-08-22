@@ -59,32 +59,32 @@ public class TexasHoldEmUI : MonoBehaviour, CardTableUI.ICardGameSubUI // TypeDe
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x887A60 Offset: 0x886060 VA: 0x180887A60 Slot: 4
+	// RVA: 0x86ADA0 Offset: 0x8693A0 VA: 0x18086ADA0 Slot: 4
 	public int get_DynamicBetAmount() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7426F0 Offset: 0x740CF0 VA: 0x1807426F0
+	// RVA: 0x742640 Offset: 0x740C40 VA: 0x180742640
 	private void set_DynamicBetAmount(int value) { }
 
-	// RVA: 0x886E40 Offset: 0x885440 VA: 0x180886E40 Slot: 5
+	// RVA: 0x86A180 Offset: 0x868780 VA: 0x18086A180 Slot: 5
 	public void UpdateInGameUI(CardTableUI ui, CardGameController game) { }
 
-	// RVA: 0x8860A0 Offset: 0x8846A0 VA: 0x1808860A0 Slot: 6
+	// RVA: 0x8693E0 Offset: 0x8679E0 VA: 0x1808693E0 Slot: 6
 	public string GetSecondaryInfo(CardTableUI ui, CardGameController game, out CardTableUI.InfoTextUI.Attitude attitude) { }
 
-	// RVA: 0x886E00 Offset: 0x885400 VA: 0x180886E00 Slot: 7
+	// RVA: 0x86A140 Offset: 0x868740 VA: 0x18086A140 Slot: 7
 	public void UpdateInGameUI_NoPlayer(CardTableUI ui) { }
 
-	// RVA: 0x886B50 Offset: 0x885150 VA: 0x180886B50
+	// RVA: 0x869E90 Offset: 0x868490 VA: 0x180869E90
 	private string GetWinnerNameFromID(ulong playerID) { }
 
-	// RVA: 0x886CD0 Offset: 0x8852D0 VA: 0x180886CD0
+	// RVA: 0x86A010 Offset: 0x868610 VA: 0x18086A010
 	private void PopulateCards(List<PlayingCard> cards, Image[] slots, CardTableUI ui) { }
 
-	// RVA: 0x886C30 Offset: 0x885230 VA: 0x180886C30
+	// RVA: 0x869F70 Offset: 0x868570 VA: 0x180869F70
 	public Translate.Phrase PokerResultToPhrase(PokerLib.PokerResult result) { }
 
-	// RVA: 0x8879F0 Offset: 0x885FF0 VA: 0x1808879F0
+	// RVA: 0x86AD30 Offset: 0x869330 VA: 0x18086AD30
 	public void .ctor() { }
 
 }
@@ -96,13 +96,13 @@ private sealed class TexasHoldEmUI.<>c // TypeDefIndex: 10887
 
 	// Methods
 
-	// RVA: 0x8905D0 Offset: 0x88EBD0 VA: 0x1808905D0
+	// RVA: 0x873910 Offset: 0x871F10 VA: 0x180873910
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x88F460 Offset: 0x88DA60 VA: 0x18088F460
+	// RVA: 0x8727A0 Offset: 0x870DA0 VA: 0x1808727A0
 	internal bool <UpdateInGameUI>b__30_0(CardTableUI.KeycodeWithAction p) { }
 
 }

@@ -9,10 +9,10 @@ public struct Hand : IEquatable<Hand> // TypeDefIndex: 4146
 
 	// Methods
 
-	// RVA: 0x1FBAB0 Offset: 0x1FAEB0 VA: 0x1801FBAB0
+	// RVA: 0x1FB6E0 Offset: 0x1FAAE0 VA: 0x1801FB6E0
 	internal ulong get_deviceId() { }
 
-	// RVA: 0x13AC20 Offset: 0x13A020 VA: 0x18013AC20
+	// RVA: 0x13AA40 Offset: 0x139E40 VA: 0x18013AA40
 	internal uint get_featureIndex() { }
 
 	// RVA: 0x23E4A0 Offset: 0x23D8A0 VA: 0x18023E4A0 Slot: 0

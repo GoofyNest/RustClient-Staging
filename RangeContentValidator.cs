@@ -10,22 +10,22 @@ internal sealed class RangeContentValidator : ContentValidator // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0xB28A20 Offset: 0xB27020 VA: 0x180B28A20
+	// RVA: 0xB28EF0 Offset: 0xB274F0 VA: 0x180B28EF0
 	internal void .ctor(BitSet firstpos, BitSet[] followpos, SymbolsDictionary symbols, Positions positions, int endMarkerPos, XmlSchemaContentType contentType, bool isEmptiable, BitSet positionsWithRangeTerminals, int minmaxNodesCount) { }
 
-	// RVA: 0xB27EA0 Offset: 0xB264A0 VA: 0x180B27EA0 Slot: 5
+	// RVA: 0xB28370 Offset: 0xB26970 VA: 0x180B28370 Slot: 5
 	public override void InitValidation(ValidationState context) { }
 
-	// RVA: 0xB28000 Offset: 0xB26600 VA: 0x180B28000 Slot: 6
+	// RVA: 0xB284D0 Offset: 0xB26AD0 VA: 0x180B284D0 Slot: 6
 	public override object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode) { }
 
-	// RVA: 0xB27940 Offset: 0xB25F40 VA: 0x180B27940 Slot: 7
+	// RVA: 0xB27E10 Offset: 0xB26410 VA: 0x180B27E10 Slot: 7
 	public override bool CompleteValidation(ValidationState context) { }
 
-	// RVA: 0xB27960 Offset: 0xB25F60 VA: 0x180B27960 Slot: 8
+	// RVA: 0xB27E30 Offset: 0xB26430 VA: 0x180B27E30 Slot: 8
 	public override ArrayList ExpectedElements(ValidationState context, bool isRequiredOnly) { }
 
-	// RVA: 0xB27C10 Offset: 0xB26210 VA: 0x180B27C10 Slot: 9
+	// RVA: 0xB280E0 Offset: 0xB266E0 VA: 0x180B280E0 Slot: 9
 	public override ArrayList ExpectedParticles(ValidationState context, bool isRequiredOnly, XmlSchemaSet schemaSet) { }
 
 }

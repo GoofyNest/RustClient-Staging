@@ -7,10 +7,10 @@ public class ImpostorAsset : ScriptableObject // TypeDefIndex: 10678
 
 	// Methods
 
-	// RVA: 0x80F7C0 Offset: 0x80DDC0 VA: 0x18080F7C0
+	// RVA: 0x80FD50 Offset: 0x80E350 VA: 0x18080FD50
 	public Texture2D FindTexture(string name) { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -22,7 +22,7 @@ public class ImpostorAsset.TextureEntry // TypeDefIndex: 10679
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	public void .ctor(string name, Texture2D texture) { }
 
 }

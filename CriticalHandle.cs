@@ -10,26 +10,26 @@ public abstract class CriticalHandle : CriticalFinalizerObject, IDisposable // T
 	// Methods
 
 	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
-	// RVA: 0xFE4F90 Offset: 0xFE3590 VA: 0x180FE4F90
+	// RVA: 0xFE5A30 Offset: 0xFE4030 VA: 0x180FE5A30
 	protected void .ctor(IntPtr invalidHandleValue) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0xFE4EF0 Offset: 0xFE34F0 VA: 0x180FE4EF0 Slot: 1
+	// RVA: 0xFE5990 Offset: 0xFE3F90 VA: 0x180FE5990 Slot: 1
 	protected override void Finalize() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0xFE4DF0 Offset: 0xFE33F0 VA: 0x180FE4DF0
+	// RVA: 0xFE5890 Offset: 0xFE3E90 VA: 0x180FE5890
 	private void Cleanup() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private static void FireCustomerDebugProbe() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x8C1190 Offset: 0x8BF790 VA: 0x1808C1190
+	// RVA: 0x8C16A0 Offset: 0x8BFCA0 VA: 0x1808C16A0
 	protected void SetHandle(IntPtr handle) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0x95FAF0 Offset: 0x95E0F0 VA: 0x18095FAF0
+	// RVA: 0x95FFF0 Offset: 0x95E5F0 VA: 0x18095FFF0
 	public bool get_IsClosed() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
@@ -37,15 +37,15 @@ public abstract class CriticalHandle : CriticalFinalizerObject, IDisposable // T
 	public abstract bool get_IsInvalid();
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0xFE4ED0 Offset: 0xFE34D0 VA: 0x180FE4ED0
+	// RVA: 0xFE5970 Offset: 0xFE3F70 VA: 0x180FE5970
 	public void Close() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0xFE4ED0 Offset: 0xFE34D0 VA: 0x180FE4ED0 Slot: 4
+	// RVA: 0xFE5970 Offset: 0xFE3F70 VA: 0x180FE5970 Slot: 4
 	public void Dispose() { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
-	// RVA: 0xFE4DF0 Offset: 0xFE33F0 VA: 0x180FE4DF0 Slot: 6
+	// RVA: 0xFE5890 Offset: 0xFE3E90 VA: 0x180FE5890 Slot: 6
 	protected virtual void Dispose(bool disposing) { }
 
 	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0

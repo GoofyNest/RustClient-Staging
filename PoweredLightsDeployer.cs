@@ -13,28 +13,28 @@ public class PoweredLightsDeployer : HeldEntity // TypeDefIndex: 8625
 
 	// Methods
 
-	// RVA: 0x99FEA0 Offset: 0x99E4A0 VA: 0x18099FEA0 Slot: 35
+	// RVA: 0x9A0390 Offset: 0x99E990 VA: 0x1809A0390 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x99F3E0 Offset: 0x99D9E0 VA: 0x18099F3E0 Slot: 138
+	// RVA: 0x99F8D0 Offset: 0x99DED0 VA: 0x18099F8D0 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 72
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 72
 	public override bool NeedsCrosshair() { }
 
-	// RVA: 0x99F2A0 Offset: 0x99D8A0 VA: 0x18099F2A0
+	// RVA: 0x99F790 Offset: 0x99DD90 VA: 0x18099F790
 	public static bool CanPlayerUse(BasePlayer player) { }
 
-	// RVA: 0x9A0000 Offset: 0x99E600 VA: 0x1809A0000
+	// RVA: 0x9A04F0 Offset: 0x99EAF0 VA: 0x1809A04F0
 	public AdvancedChristmasLights get_active() { }
 
-	// RVA: 0x9A00A0 Offset: 0x99E6A0 VA: 0x1809A00A0
+	// RVA: 0x9A0590 Offset: 0x99EB90 VA: 0x1809A0590
 	public void set_active(AdvancedChristmasLights value) { }
 
-	// RVA: 0x99F370 Offset: 0x99D970 VA: 0x18099F370 Slot: 34
+	// RVA: 0x99F860 Offset: 0x99DE60 VA: 0x18099F860 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x99FF90 Offset: 0x99E590 VA: 0x18099FF90
+	// RVA: 0x9A0480 Offset: 0x99EA80 VA: 0x1809A0480
 	public void .ctor() { }
 
 }

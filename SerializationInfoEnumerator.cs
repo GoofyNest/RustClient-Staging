@@ -16,28 +16,28 @@ public sealed class SerializationInfoEnumerator : IEnumerator // TypeDefIndex: 1
 
 	// Methods
 
-	// RVA: 0x12A74F0 Offset: 0x12A5AF0 VA: 0x1812A74F0
+	// RVA: 0x12A7B90 Offset: 0x12A6190 VA: 0x1812A7B90
 	internal void .ctor(string[] members, object[] info, Type[] types, int numItems) { }
 
-	// RVA: 0x12A7350 Offset: 0x12A5950 VA: 0x1812A7350 Slot: 4
+	// RVA: 0x12A79F0 Offset: 0x12A5FF0 VA: 0x1812A79F0 Slot: 4
 	public bool MoveNext() { }
 
-	// RVA: 0x12A7380 Offset: 0x12A5980 VA: 0x1812A7380 Slot: 5
+	// RVA: 0x12A7A20 Offset: 0x12A6020 VA: 0x1812A7A20 Slot: 5
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	// RVA: 0x12A7570 Offset: 0x12A5B70 VA: 0x1812A7570
+	// RVA: 0x12A7C10 Offset: 0x12A6210 VA: 0x1812A7C10
 	public SerializationEntry get_Current() { }
 
-	// RVA: 0x12A7370 Offset: 0x12A5970 VA: 0x1812A7370 Slot: 6
+	// RVA: 0x12A7A10 Offset: 0x12A6010 VA: 0x1812A7A10 Slot: 6
 	public void Reset() { }
 
-	// RVA: 0x12A76C0 Offset: 0x12A5CC0 VA: 0x1812A76C0
+	// RVA: 0x12A7D60 Offset: 0x12A6360 VA: 0x1812A7D60
 	public string get_Name() { }
 
-	// RVA: 0x12A7820 Offset: 0x12A5E20 VA: 0x1812A7820
+	// RVA: 0x12A7EC0 Offset: 0x12A64C0 VA: 0x1812A7EC0
 	public object get_Value() { }
 
-	// RVA: 0x12A7770 Offset: 0x12A5D70 VA: 0x1812A7770
+	// RVA: 0x12A7E10 Offset: 0x12A6410 VA: 0x1812A7E10
 	public Type get_ObjectType() { }
 
 }

@@ -5,13 +5,13 @@ internal static class StringBuilderCache // TypeDefIndex: 464
 
 	// Methods
 
-	// RVA: 0x191FA90 Offset: 0x191E090 VA: 0x18191FA90
+	// RVA: 0x191F1B0 Offset: 0x191D7B0 VA: 0x18191F1B0
 	public static StringBuilder Acquire(int capacity = 16) { }
 
-	// RVA: 0x191FC30 Offset: 0x191E230 VA: 0x18191FC30
+	// RVA: 0x191F350 Offset: 0x191D950 VA: 0x18191F350
 	public static void Release(StringBuilder sb) { }
 
-	// RVA: 0x191FBA0 Offset: 0x191E1A0 VA: 0x18191FBA0
+	// RVA: 0x191F2C0 Offset: 0x191D8C0 VA: 0x18191F2C0
 	public static string GetStringAndRelease(StringBuilder sb) { }
 
 }

@@ -5,7 +5,7 @@ public class HttpVersion // TypeDefIndex: 2878
 
 	// Methods
 
-	// RVA: 0x133C220 Offset: 0x133A820 VA: 0x18133C220
+	// RVA: 0x133B320 Offset: 0x1339920 VA: 0x18133B320
 	private static void .cctor() { }
 
 }

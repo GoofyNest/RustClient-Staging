@@ -4,10 +4,10 @@ public class GlobalProxySelection // TypeDefIndex: 2875
 
 	// Methods
 
-	// RVA: 0x1338E00 Offset: 0x1337400 VA: 0x181338E00
+	// RVA: 0x1337F00 Offset: 0x1336500 VA: 0x181337F00
 	public static IWebProxy get_Select() { }
 
-	// RVA: 0x1338DB0 Offset: 0x13373B0 VA: 0x181338DB0
+	// RVA: 0x1337EB0 Offset: 0x13364B0 VA: 0x181337EB0
 	public static IWebProxy GetEmptyWebProxy() { }
 
 }

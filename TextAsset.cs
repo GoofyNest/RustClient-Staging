@@ -5,13 +5,13 @@ public class TextAsset : Object // TypeDefIndex: 3529
 
 	// Methods
 
-	// RVA: 0x19BAA30 Offset: 0x19B9030 VA: 0x1819BAA30
+	// RVA: 0x19A7E30 Offset: 0x19A6430 VA: 0x1819A7E30
 	public string get_text() { }
 
-	// RVA: 0x19BAA70 Offset: 0x19B9070 VA: 0x1819BAA70
+	// RVA: 0x19A7E70 Offset: 0x19A6470 VA: 0x1819A7E70
 	public byte[] get_bytes() { }
 
-	// RVA: 0x19BAA30 Offset: 0x19B9030 VA: 0x1819BAA30 Slot: 3
+	// RVA: 0x19A7E30 Offset: 0x19A6430 VA: 0x1819A7E30 Slot: 3
 	public override string ToString() { }
 
 }

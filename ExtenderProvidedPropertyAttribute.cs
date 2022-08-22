@@ -10,10 +10,10 @@ public sealed class ExtenderProvidedPropertyAttribute : Attribute // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x15C5FD0 Offset: 0x15C45D0 VA: 0x1815C5FD0
+	// RVA: 0x15C50A0 Offset: 0x15C36A0 VA: 0x1815C50A0
 	internal static ExtenderProvidedPropertyAttribute Create(PropertyDescriptor extenderProperty, Type receiverType, IExtenderProvider provider) { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
@@ -22,13 +22,13 @@ public sealed class ExtenderProvidedPropertyAttribute : Attribute // TypeDefInde
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public Type get_ReceiverType() { }
 
-	// RVA: 0x15C6080 Offset: 0x15C4680 VA: 0x1815C6080 Slot: 0
+	// RVA: 0x15C5150 Offset: 0x15C3750 VA: 0x1815C5150 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x15C0830 Offset: 0x15BEE30 VA: 0x1815C0830 Slot: 2
+	// RVA: 0x15BF900 Offset: 0x15BDF00 VA: 0x1815BF900 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x15C6170 Offset: 0x15C4770 VA: 0x1815C6170 Slot: 6
+	// RVA: 0x15C5240 Offset: 0x15C3840 VA: 0x1815C5240 Slot: 6
 	public override bool IsDefaultAttribute() { }
 
 }

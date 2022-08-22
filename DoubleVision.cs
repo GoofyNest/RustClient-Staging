@@ -7,7 +7,7 @@ public class DoubleVision : PostProcessEffectSettings // TypeDefIndex: 10250
 
 	// Methods
 
-	// RVA: 0xAAF980 Offset: 0xAADF80 VA: 0x180AAF980
+	// RVA: 0xAAFE50 Offset: 0xAAE450 VA: 0x180AAFE50
 	public void .ctor() { }
 
 }

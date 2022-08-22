@@ -10,13 +10,13 @@ internal struct NumberOfCurrentPlayers_t : ICallbackData // TypeDefIndex: 5392
 
 	// Methods
 
-	// RVA: 0x1EC130 Offset: 0x1EB530 VA: 0x1801EC130 Slot: 5
+	// RVA: 0x1EC550 Offset: 0x1EB950 VA: 0x1801EC550 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EC120 Offset: 0x1EB520 VA: 0x1801EC120 Slot: 4
+	// RVA: 0x1EC540 Offset: 0x1EB940 VA: 0x1801EC540 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1375510 Offset: 0x1373B10 VA: 0x181375510
+	// RVA: 0x1374610 Offset: 0x1372C10 VA: 0x181374610
 	private static void .cctor() { }
 
 }

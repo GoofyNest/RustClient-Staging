@@ -6,7 +6,7 @@ public class ScaleFactorTable // TypeDefIndex: 7414
 
 	// Methods
 
-	// RVA: 0x6731B0 Offset: 0x6717B0 VA: 0x1806731B0
+	// RVA: 0x673140 Offset: 0x671740 VA: 0x180673140
 	internal void .ctor(LayerIIIDecoder enclosingInstance, int[] thel, int[] thes) { }
 
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0

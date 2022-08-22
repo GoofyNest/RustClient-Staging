@@ -5,43 +5,43 @@ public class TerrainAlphaMap : TerrainMap<byte> // TypeDefIndex: 10390
 
 	// Methods
 
-	// RVA: 0x1137660 Offset: 0x1135C60 VA: 0x181137660 Slot: 4
+	// RVA: 0x11380D0 Offset: 0x11366D0 VA: 0x1811380D0 Slot: 4
 	public override void Setup() { }
 
-	// RVA: 0x1136970 Offset: 0x1134F70 VA: 0x181136970
+	// RVA: 0x11373E0 Offset: 0x11359E0 VA: 0x1811373E0
 	public void GenerateTextures() { }
 
-	// RVA: 0x1136910 Offset: 0x1134F10 VA: 0x181136910
+	// RVA: 0x1137380 Offset: 0x1135980 VA: 0x181137380
 	public void ApplyTextures() { }
 
-	// RVA: 0x1136B60 Offset: 0x1135160 VA: 0x181136B60
+	// RVA: 0x11375D0 Offset: 0x1135BD0 VA: 0x1811375D0
 	public float GetAlpha(Vector3 worldPos) { }
 
-	// RVA: 0x1136CA0 Offset: 0x11352A0 VA: 0x181136CA0
+	// RVA: 0x1137710 Offset: 0x1135D10 VA: 0x181137710
 	public float GetAlpha(float normX, float normZ) { }
 
-	// RVA: 0x1136B10 Offset: 0x1135110 VA: 0x181136B10
+	// RVA: 0x1137580 Offset: 0x1135B80 VA: 0x181137580
 	public float GetAlpha(int x, int z) { }
 
-	// RVA: 0x11371A0 Offset: 0x11357A0 VA: 0x1811371A0
+	// RVA: 0x1137C10 Offset: 0x1136210 VA: 0x181137C10
 	public void SetAlpha(Vector3 worldPos, float a) { }
 
-	// RVA: 0x11375B0 Offset: 0x1135BB0 VA: 0x1811375B0
+	// RVA: 0x1138020 Offset: 0x1136620 VA: 0x181138020
 	public void SetAlpha(float normX, float normZ, float a) { }
 
-	// RVA: 0x1137120 Offset: 0x1135720 VA: 0x181137120
+	// RVA: 0x1137B90 Offset: 0x1136190 VA: 0x181137B90
 	public void SetAlpha(int x, int z, float a) { }
 
-	// RVA: 0x1137490 Offset: 0x1135A90 VA: 0x181137490
+	// RVA: 0x1137F00 Offset: 0x1136500 VA: 0x181137F00
 	public void SetAlpha(int x, int z, float a, float opacity) { }
 
-	// RVA: 0x1136EF0 Offset: 0x11354F0 VA: 0x181136EF0
+	// RVA: 0x1137960 Offset: 0x1135F60 VA: 0x181137960
 	public void SetAlpha(Vector3 worldPos, float a, float opacity, float radius, float fade = 0) { }
 
-	// RVA: 0x1137370 Offset: 0x1135970 VA: 0x181137370
+	// RVA: 0x1137DE0 Offset: 0x11363E0 VA: 0x181137DE0
 	public void SetAlpha(float normX, float normZ, float a, float opacity, float radius, float fade = 0) { }
 
-	// RVA: 0x1137940 Offset: 0x1135F40 VA: 0x181137940
+	// RVA: 0x11383B0 Offset: 0x11369B0 VA: 0x1811383B0
 	public void .ctor() { }
 
 }
@@ -56,7 +56,7 @@ private sealed class TerrainAlphaMap.<>c__DisplayClass2_0 // TypeDefIndex: 10391
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1155320 Offset: 0x1153920 VA: 0x181155320
+	// RVA: 0x1155D90 Offset: 0x1154390 VA: 0x181155D90
 	internal void <GenerateTextures>b__0(int z) { }
 
 }
@@ -72,7 +72,7 @@ private sealed class TerrainAlphaMap.<>c__DisplayClass12_0 // TypeDefIndex: 1039
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x11550A0 Offset: 0x11536A0 VA: 0x1811550A0
+	// RVA: 0x1155B10 Offset: 0x1154110 VA: 0x181155B10
 	internal void <SetAlpha>b__0(int x, int z, float lerp) { }
 
 }

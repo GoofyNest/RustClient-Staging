@@ -9,16 +9,16 @@ public class ValidationEventArgs : EventArgs // TypeDefIndex: 2287
 
 	// Methods
 
-	// RVA: 0xEF2130 Offset: 0xEF0730 VA: 0x180EF2130
+	// RVA: 0xEF2BE0 Offset: 0xEF11E0 VA: 0x180EF2BE0
 	internal void .ctor(XmlSchemaException ex) { }
 
-	// RVA: 0xEF20B0 Offset: 0xEF06B0 VA: 0x180EF20B0
+	// RVA: 0xEF2B60 Offset: 0xEF1160 VA: 0x180EF2B60
 	internal void .ctor(XmlSchemaException ex, XmlSeverityType severity) { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public XmlSeverityType get_Severity() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public XmlSchemaException get_Exception() { }
 
 }

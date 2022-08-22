@@ -6,34 +6,34 @@ internal class Numeric10FacetsChecker : FacetsChecker // TypeDefIndex: 2248
 
 	// Methods
 
-	// RVA: 0xB14900 Offset: 0xB12F00 VA: 0x180B14900
+	// RVA: 0xB14DD0 Offset: 0xB133D0 VA: 0x180B14DD0
 	internal void .ctor(Decimal minVal, Decimal maxVal) { }
 
-	// RVA: 0xB14530 Offset: 0xB12B30 VA: 0x180B14530 Slot: 5
+	// RVA: 0xB14A00 Offset: 0xB13000 VA: 0x180B14A00 Slot: 5
 	internal override Exception CheckValueFacets(object value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB13DD0 Offset: 0xB123D0 VA: 0x180B13DD0 Slot: 6
+	// RVA: 0xB142A0 Offset: 0xB128A0 VA: 0x180B142A0 Slot: 6
 	internal override Exception CheckValueFacets(Decimal value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB13D30 Offset: 0xB12330 VA: 0x180B13D30 Slot: 7
+	// RVA: 0xB14200 Offset: 0xB12800 VA: 0x180B14200 Slot: 7
 	internal override Exception CheckValueFacets(long value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB14490 Offset: 0xB12A90 VA: 0x180B14490 Slot: 8
+	// RVA: 0xB14960 Offset: 0xB12F60 VA: 0x180B14960 Slot: 8
 	internal override Exception CheckValueFacets(int value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB143F0 Offset: 0xB129F0 VA: 0x180B143F0 Slot: 9
+	// RVA: 0xB148C0 Offset: 0xB12EC0 VA: 0x180B148C0 Slot: 9
 	internal override Exception CheckValueFacets(short value, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB146E0 Offset: 0xB12CE0 VA: 0x180B146E0 Slot: 17
+	// RVA: 0xB14BB0 Offset: 0xB131B0 VA: 0x180B14BB0 Slot: 17
 	internal override bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype) { }
 
-	// RVA: 0xB145C0 Offset: 0xB12BC0 VA: 0x180B145C0
+	// RVA: 0xB14A90 Offset: 0xB13090 VA: 0x180B14A90
 	internal bool MatchEnumeration(Decimal value, ArrayList enumeration, XmlValueConverter valueConverter) { }
 
-	// RVA: 0xB13A70 Offset: 0xB12070 VA: 0x180B13A70
+	// RVA: 0xB13F40 Offset: 0xB12540 VA: 0x180B13F40
 	internal Exception CheckTotalAndFractionDigits(Decimal value, int totalDigits, int fractionDigits, bool checkTotal, bool checkFraction) { }
 
-	// RVA: 0xB14860 Offset: 0xB12E60 VA: 0x180B14860
+	// RVA: 0xB14D30 Offset: 0xB13330 VA: 0x180B14D30
 	private static void .cctor() { }
 
 }

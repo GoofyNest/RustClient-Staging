@@ -4,10 +4,10 @@ public abstract class ModelConditionTest : PrefabAttribute // TypeDefIndex: 9066
 	// RVA: -1 Offset: -1 Slot: 8
 	public abstract bool DoTest(BaseEntity ent);
 
-	// RVA: 0x76FA30 Offset: 0x76E030 VA: 0x18076FA30 Slot: 7
+	// RVA: 0x76F980 Offset: 0x76DF80 VA: 0x18076F980 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	protected void .ctor() { }
 
 }
@@ -18,10 +18,10 @@ public class ModelConditionTest_False : ModelConditionTest // TypeDefIndex: 9067
 
 	// Methods
 
-	// RVA: 0x76F480 Offset: 0x76DA80 VA: 0x18076F480 Slot: 8
+	// RVA: 0x76F3D0 Offset: 0x76D9D0 VA: 0x18076F3D0 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
 }
@@ -39,16 +39,16 @@ public class ModelConditionTest_FoundationSide : ModelConditionTest // TypeDefIn
 
 	// Methods
 
-	// RVA: 0x76F8A0 Offset: 0x76DEA0 VA: 0x18076F8A0
+	// RVA: 0x76F7F0 Offset: 0x76DDF0 VA: 0x18076F7F0
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x76F510 Offset: 0x76DB10 VA: 0x18076F510 Slot: 6
+	// RVA: 0x76F460 Offset: 0x76DA60 VA: 0x18076F460 Slot: 6
 	protected override void AttributeSetup(GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x76F720 Offset: 0x76DD20 VA: 0x18076F720 Slot: 8
+	// RVA: 0x76F670 Offset: 0x76DC70 VA: 0x18076F670 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F9A0 Offset: 0x76DFA0 VA: 0x18076F9A0
+	// RVA: 0x76F8F0 Offset: 0x76DEF0 VA: 0x18076F8F0
 	public void .ctor() { }
 
 }
@@ -59,13 +59,13 @@ public class ModelConditionTest_RampHigh : ModelConditionTest // TypeDefIndex: 9
 
 	// Methods
 
-	// RVA: 0x76FAF0 Offset: 0x76E0F0 VA: 0x18076FAF0
+	// RVA: 0x76FA40 Offset: 0x76E040 VA: 0x18076FA40
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x76FA90 Offset: 0x76E090 VA: 0x18076FA90 Slot: 8
+	// RVA: 0x76F9E0 Offset: 0x76DFE0 VA: 0x18076F9E0 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
 }
@@ -76,13 +76,13 @@ public class ModelConditionTest_RampLow : ModelConditionTest // TypeDefIndex: 90
 
 	// Methods
 
-	// RVA: 0x76FC70 Offset: 0x76E270 VA: 0x18076FC70
+	// RVA: 0x76FBC0 Offset: 0x76E1C0 VA: 0x18076FBC0
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x76FC00 Offset: 0x76E200 VA: 0x18076FC00 Slot: 8
+	// RVA: 0x76FB50 Offset: 0x76E150 VA: 0x18076FB50 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
 }
@@ -100,16 +100,16 @@ public class ModelConditionTest_RoofBottom : ModelConditionTest // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x76FF70 Offset: 0x76E570 VA: 0x18076FF70
+	// RVA: 0x76FEC0 Offset: 0x76E4C0 VA: 0x18076FEC0
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x76FD80 Offset: 0x76E380 VA: 0x18076FD80 Slot: 8
+	// RVA: 0x76FCD0 Offset: 0x76E2D0 VA: 0x18076FCD0 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
-	// RVA: 0x770080 Offset: 0x76E680 VA: 0x180770080
+	// RVA: 0x76FFD0 Offset: 0x76E5D0 VA: 0x18076FFD0
 	private static void .cctor() { }
 
 }
@@ -130,22 +130,22 @@ public class ModelConditionTest_RoofLeft : ModelConditionTest // TypeDefIndex: 9
 
 	// Methods
 
-	// RVA: 0x770A10 Offset: 0x76F010 VA: 0x180770A10
+	// RVA: 0x770960 Offset: 0x76EF60 VA: 0x180770960
 	private bool get_IsConvex() { }
 
-	// RVA: 0x770A00 Offset: 0x76F000 VA: 0x180770A00
+	// RVA: 0x770950 Offset: 0x76EF50 VA: 0x180770950
 	private bool get_IsConcave() { }
 
-	// RVA: 0x770770 Offset: 0x76ED70 VA: 0x180770770
+	// RVA: 0x7706C0 Offset: 0x76ECC0 VA: 0x1807706C0
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x7702B0 Offset: 0x76E8B0 VA: 0x1807702B0 Slot: 8
+	// RVA: 0x770200 Offset: 0x76E800 VA: 0x180770200 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x7709A0 Offset: 0x76EFA0 VA: 0x1807709A0
+	// RVA: 0x7708F0 Offset: 0x76EEF0 VA: 0x1807708F0
 	public void .ctor() { }
 
-	// RVA: 0x770880 Offset: 0x76EE80 VA: 0x180770880
+	// RVA: 0x7707D0 Offset: 0x76EDD0 VA: 0x1807707D0
 	private static void .cctor() { }
 
 }
@@ -190,22 +190,22 @@ public class ModelConditionTest_RoofRight : ModelConditionTest // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x770A10 Offset: 0x76F010 VA: 0x180770A10
+	// RVA: 0x770960 Offset: 0x76EF60 VA: 0x180770960
 	private bool get_IsConvex() { }
 
-	// RVA: 0x770A00 Offset: 0x76F000 VA: 0x180770A00
+	// RVA: 0x770950 Offset: 0x76EF50 VA: 0x180770950
 	private bool get_IsConcave() { }
 
-	// RVA: 0x770F00 Offset: 0x76F500 VA: 0x180770F00
+	// RVA: 0x770E50 Offset: 0x76F450 VA: 0x180770E50
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x770A20 Offset: 0x76F020 VA: 0x180770A20 Slot: 8
+	// RVA: 0x770970 Offset: 0x76EF70 VA: 0x180770970 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x7709A0 Offset: 0x76EFA0 VA: 0x1807709A0
+	// RVA: 0x7708F0 Offset: 0x76EEF0 VA: 0x1807708F0
 	public void .ctor() { }
 
-	// RVA: 0x771010 Offset: 0x76F610 VA: 0x180771010
+	// RVA: 0x770F60 Offset: 0x76F560 VA: 0x180770F60
 	private static void .cctor() { }
 
 }
@@ -247,16 +247,16 @@ public class ModelConditionTest_RoofTop : ModelConditionTest // TypeDefIndex: 90
 
 	// Methods
 
-	// RVA: 0x76FF70 Offset: 0x76E570 VA: 0x18076FF70
+	// RVA: 0x76FEC0 Offset: 0x76E4C0 VA: 0x18076FEC0
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x771130 Offset: 0x76F730 VA: 0x180771130 Slot: 8
+	// RVA: 0x771080 Offset: 0x76F680 VA: 0x180771080 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
-	// RVA: 0x771320 Offset: 0x76F920 VA: 0x180771320
+	// RVA: 0x771270 Offset: 0x76F870 VA: 0x180771270
 	private static void .cctor() { }
 
 }
@@ -267,10 +267,10 @@ public class ModelConditionTest_RoofTriangle : ModelConditionTest // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x771550 Offset: 0x76FB50 VA: 0x180771550 Slot: 8
+	// RVA: 0x7714A0 Offset: 0x76FAA0 VA: 0x1807714A0 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
 }
@@ -284,16 +284,16 @@ public class ModelConditionTest_SpiralStairs : ModelConditionTest // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x771820 Offset: 0x76FE20 VA: 0x180771820
+	// RVA: 0x771770 Offset: 0x76FD70 VA: 0x180771770
 	protected void OnDrawGizmosSelected() { }
 
-	// RVA: 0x7715C0 Offset: 0x76FBC0 VA: 0x1807715C0 Slot: 8
+	// RVA: 0x771510 Offset: 0x76FB10 VA: 0x180771510 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
-	// RVA: 0x771930 Offset: 0x76FF30 VA: 0x180771930
+	// RVA: 0x771880 Offset: 0x76FE80 VA: 0x180771880
 	private static void .cctor() { }
 
 }
@@ -304,10 +304,10 @@ public class ModelConditionTest_True : ModelConditionTest // TypeDefIndex: 9081
 
 	// Methods
 
-	// RVA: 0x771B60 Offset: 0x770160 VA: 0x180771B60 Slot: 8
+	// RVA: 0x771AB0 Offset: 0x7700B0 VA: 0x180771AB0 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
 }
@@ -315,10 +315,10 @@ public class ModelConditionTest_True : ModelConditionTest // TypeDefIndex: 9081
 public class ModelConditionTest_Wall : ModelConditionTest // TypeDefIndex: 9082
 {	// Methods
 
-	// RVA: 0x7732C0 Offset: 0x7718C0 VA: 0x1807732C0 Slot: 8
+	// RVA: 0x773210 Offset: 0x771810 VA: 0x180773210 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
 }
@@ -326,17 +326,17 @@ public class ModelConditionTest_Wall : ModelConditionTest // TypeDefIndex: 9082
 public class ModelConditionTest_WallCornerLeft : ModelConditionTest // TypeDefIndex: 9083
 {	// Fields
 	private const string socket = "sockets/stability/2";
-	private static string[] sockets; // 0x1C85
+	private static string[] sockets; // 0x1B90
 
 	// Methods
 
-	// RVA: 0x771B90 Offset: 0x770190 VA: 0x180771B90 Slot: 8
+	// RVA: 0x771AE0 Offset: 0x7700E0 VA: 0x180771AE0 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
-	// RVA: 0x771FB0 Offset: 0x7705B0 VA: 0x180771FB0
+	// RVA: 0x771F00 Offset: 0x770500 VA: 0x180771F00
 	private static void .cctor() { }
 
 }
@@ -344,17 +344,17 @@ public class ModelConditionTest_WallCornerLeft : ModelConditionTest // TypeDefIn
 public class ModelConditionTest_WallCornerRight : ModelConditionTest // TypeDefIndex: 9084
 {	// Fields
 	private const string socket = "sockets/stability/1";
-	private static string[] sockets; // 0x1C90
+	private static string[] sockets; // 0x2B10368
 
 	// Methods
 
-	// RVA: 0x772210 Offset: 0x770810 VA: 0x180772210 Slot: 8
+	// RVA: 0x772160 Offset: 0x770760 VA: 0x180772160 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
-	// RVA: 0x772630 Offset: 0x770C30 VA: 0x180772630
+	// RVA: 0x772580 Offset: 0x770B80 VA: 0x180772580
 	private static void .cctor() { }
 
 }
@@ -371,16 +371,16 @@ public class ModelConditionTest_WallTriangleLeft : ModelConditionTest // TypeDef
 
 	// Methods
 
-	// RVA: 0x772890 Offset: 0x770E90 VA: 0x180772890
+	// RVA: 0x7727E0 Offset: 0x770DE0 VA: 0x1807727E0
 	public static bool CheckCondition(BaseEntity ent) { }
 
-	// RVA: 0x772D50 Offset: 0x771350 VA: 0x180772D50
+	// RVA: 0x772CA0 Offset: 0x7712A0 VA: 0x180772CA0
 	private static bool CheckSocketOccupied(BaseEntity ent, string socket) { }
 
-	// RVA: 0x772D90 Offset: 0x771390 VA: 0x180772D90 Slot: 8
+	// RVA: 0x772CE0 Offset: 0x7712E0 VA: 0x180772CE0 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
 }
@@ -397,16 +397,16 @@ public class ModelConditionTest_WallTriangleRight : ModelConditionTest // TypeDe
 
 	// Methods
 
-	// RVA: 0x772DA0 Offset: 0x7713A0 VA: 0x180772DA0
+	// RVA: 0x772CF0 Offset: 0x7712F0 VA: 0x180772CF0
 	public static bool CheckCondition(BaseEntity ent) { }
 
-	// RVA: 0x772D50 Offset: 0x771350 VA: 0x180772D50
+	// RVA: 0x772CA0 Offset: 0x7712A0 VA: 0x180772CA0
 	private static bool CheckSocketOccupied(BaseEntity ent, string socket) { }
 
-	// RVA: 0x7732B0 Offset: 0x7718B0 VA: 0x1807732B0 Slot: 8
+	// RVA: 0x773200 Offset: 0x771800 VA: 0x180773200 Slot: 8
 	public override bool DoTest(BaseEntity ent) { }
 
-	// RVA: 0x76F4B0 Offset: 0x76DAB0 VA: 0x18076F4B0
+	// RVA: 0x76F400 Offset: 0x76DA00 VA: 0x18076F400
 	public void .ctor() { }
 
 }

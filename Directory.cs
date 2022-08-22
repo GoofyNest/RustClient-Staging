@@ -1,97 +1,97 @@
 public static class Directory // TypeDefIndex: 618
 {	// Methods
 
-	// RVA: 0x137B540 Offset: 0x1379B40 VA: 0x18137B540
+	// RVA: 0x137A640 Offset: 0x1378C40 VA: 0x18137A640
 	public static string[] GetFiles(string path) { }
 
-	// RVA: 0x137B340 Offset: 0x1379940 VA: 0x18137B340
+	// RVA: 0x137A440 Offset: 0x1378A40 VA: 0x18137A440
 	public static string[] GetFiles(string path, string searchPattern) { }
 
-	// RVA: 0x137B410 Offset: 0x1379A10 VA: 0x18137B410
+	// RVA: 0x137A510 Offset: 0x1378B10 VA: 0x18137A510
 	public static string[] GetFiles(string path, string searchPattern, SearchOption searchOption) { }
 
-	// RVA: 0x137B7E0 Offset: 0x1379DE0 VA: 0x18137B7E0
+	// RVA: 0x137A8E0 Offset: 0x1378EE0 VA: 0x18137A8E0
 	private static string[] InternalGetFiles(string path, string searchPattern, SearchOption searchOption) { }
 
-	// RVA: 0x137B1E0 Offset: 0x13797E0 VA: 0x18137B1E0
+	// RVA: 0x137A2E0 Offset: 0x13788E0 VA: 0x18137A2E0
 	public static string[] GetDirectories(string path) { }
 
-	// RVA: 0x137B110 Offset: 0x1379710 VA: 0x18137B110
+	// RVA: 0x137A210 Offset: 0x1378810 VA: 0x18137A210
 	public static string[] GetDirectories(string path, string searchPattern) { }
 
-	// RVA: 0x137B6B0 Offset: 0x1379CB0 VA: 0x18137B6B0
+	// RVA: 0x137A7B0 Offset: 0x1378DB0 VA: 0x18137A7B0
 	private static string[] InternalGetDirectories(string path, string searchPattern, SearchOption searchOption) { }
 
-	// RVA: 0x137B270 Offset: 0x1379870 VA: 0x18137B270
+	// RVA: 0x137A370 Offset: 0x1378970 VA: 0x18137A370
 	public static string[] GetFileSystemEntries(string path, string searchPattern) { }
 
-	// RVA: 0x137B7B0 Offset: 0x1379DB0 VA: 0x18137B7B0
+	// RVA: 0x137A8B0 Offset: 0x1378EB0 VA: 0x18137A8B0
 	private static string[] InternalGetFileSystemEntries(string path, string searchPattern, SearchOption searchOption) { }
 
-	// RVA: 0x137B6E0 Offset: 0x1379CE0 VA: 0x18137B6E0
+	// RVA: 0x137A7E0 Offset: 0x1378DE0 VA: 0x18137A7E0
 	internal static string[] InternalGetFileDirectoryNames(string path, string userPathOriginal, string searchPattern, bool includeFiles, bool includeDirs, SearchOption searchOption, bool checkHost) { }
 
-	// RVA: 0x137AD20 Offset: 0x1379320 VA: 0x18137AD20
+	// RVA: 0x1379E20 Offset: 0x1378420 VA: 0x181379E20
 	public static IEnumerable<string> EnumerateFiles(string path) { }
 
-	// RVA: 0x137ABF0 Offset: 0x13791F0 VA: 0x18137ABF0
+	// RVA: 0x1379CF0 Offset: 0x13782F0 VA: 0x181379CF0
 	public static IEnumerable<string> EnumerateFiles(string path, string searchPattern, SearchOption searchOption) { }
 
-	// RVA: 0x137B680 Offset: 0x1379C80 VA: 0x18137B680
+	// RVA: 0x137A780 Offset: 0x1378D80 VA: 0x18137A780
 	private static IEnumerable<string> InternalEnumerateFiles(string path, string searchPattern, SearchOption searchOption) { }
 
-	// RVA: 0x137ABC0 Offset: 0x13791C0 VA: 0x18137ABC0
+	// RVA: 0x1379CC0 Offset: 0x13782C0 VA: 0x181379CC0
 	private static IEnumerable<string> EnumerateFileSystemNames(string path, string searchPattern, SearchOption searchOption, bool includeFiles, bool includeDirs) { }
 
-	// RVA: 0x137A6F0 Offset: 0x1378CF0 VA: 0x18137A6F0
+	// RVA: 0x13797F0 Offset: 0x1377DF0 VA: 0x1813797F0
 	public static DirectoryInfo CreateDirectory(string path) { }
 
-	// RVA: 0x137A540 Offset: 0x1378B40 VA: 0x18137A540
+	// RVA: 0x1379640 Offset: 0x1377C40 VA: 0x181379640
 	private static DirectoryInfo CreateDirectoriesInternal(string path) { }
 
-	// RVA: 0x137A920 Offset: 0x1378F20 VA: 0x18137A920
+	// RVA: 0x1379A20 Offset: 0x1378020 VA: 0x181379A20
 	public static void Delete(string path) { }
 
-	// RVA: 0x137BB90 Offset: 0x137A190 VA: 0x18137BB90
+	// RVA: 0x137AC90 Offset: 0x1379290 VA: 0x18137AC90
 	private static void RecursiveDelete(string path) { }
 
-	// RVA: 0x137AB30 Offset: 0x1379130 VA: 0x18137AB30
+	// RVA: 0x1379C30 Offset: 0x1378230 VA: 0x181379C30
 	public static void Delete(string path, bool recursive) { }
 
-	// RVA: 0x137ADB0 Offset: 0x13793B0 VA: 0x18137ADB0
+	// RVA: 0x1379EB0 Offset: 0x13784B0 VA: 0x181379EB0
 	public static bool Exists(string path) { }
 
-	// RVA: 0x137AE70 Offset: 0x1379470 VA: 0x18137AE70
+	// RVA: 0x1379F70 Offset: 0x1378570 VA: 0x181379F70
 	public static string GetCurrentDirectory() { }
 
-	// RVA: 0x137B5E0 Offset: 0x1379BE0 VA: 0x18137B5E0
+	// RVA: 0x137A6E0 Offset: 0x1378CE0 VA: 0x18137A6E0
 	internal static string InsecureGetCurrentDirectory() { }
 
-	// RVA: 0x137B5D0 Offset: 0x1379BD0 VA: 0x18137B5D0
+	// RVA: 0x137A6D0 Offset: 0x1378CD0 VA: 0x18137A6D0
 	public static string[] GetLogicalDrives() { }
 
-	// RVA: 0x137B810 Offset: 0x1379E10 VA: 0x18137B810
+	// RVA: 0x137A910 Offset: 0x1378F10 VA: 0x18137A910
 	public static void Move(string sourceDirName, string destDirName) { }
 
-	// RVA: 0x137BDE0 Offset: 0x137A3E0 VA: 0x18137BDE0
+	// RVA: 0x137AEE0 Offset: 0x13794E0 VA: 0x18137AEE0
 	public static void SetCreationTime(string path, DateTime creationTime) { }
 
-	// RVA: 0x137BDB0 Offset: 0x137A3B0 VA: 0x18137BDB0
+	// RVA: 0x137AEB0 Offset: 0x13794B0 VA: 0x18137AEB0
 	public static void SetCreationTimeUtc(string path, DateTime creationTimeUtc) { }
 
-	// RVA: 0x137BE20 Offset: 0x137A420 VA: 0x18137BE20
+	// RVA: 0x137AF20 Offset: 0x1379520 VA: 0x18137AF20
 	public static void SetLastAccessTime(string path, DateTime lastAccessTime) { }
 
-	// RVA: 0x137BDF0 Offset: 0x137A3F0 VA: 0x18137BDF0
+	// RVA: 0x137AEF0 Offset: 0x13794F0 VA: 0x18137AEF0
 	public static void SetLastAccessTimeUtc(string path, DateTime lastAccessTimeUtc) { }
 
-	// RVA: 0x137BE60 Offset: 0x137A460 VA: 0x18137BE60
+	// RVA: 0x137AF60 Offset: 0x1379560 VA: 0x18137AF60
 	public static void SetLastWriteTime(string path, DateTime lastWriteTime) { }
 
-	// RVA: 0x137BE30 Offset: 0x137A430 VA: 0x18137BE30
+	// RVA: 0x137AF30 Offset: 0x1379530 VA: 0x18137AF30
 	public static void SetLastWriteTimeUtc(string path, DateTime lastWriteTimeUtc) { }
 
-	// RVA: 0x137AF10 Offset: 0x1379510 VA: 0x18137AF10
+	// RVA: 0x137A010 Offset: 0x1378610 VA: 0x18137A010
 	internal static string GetDemandDir(string fullPath, bool thisDirOnly) { }
 
 }
@@ -104,7 +104,7 @@ internal sealed class Directory.SearchData // TypeDefIndex: 619
 
 	// Methods
 
-	// RVA: 0x13862C0 Offset: 0x13848C0 VA: 0x1813862C0
+	// RVA: 0x13853C0 Offset: 0x13839C0 VA: 0x1813853C0
 	public void .ctor(string fullPath, string userPath, SearchOption searchOption) { }
 
 }

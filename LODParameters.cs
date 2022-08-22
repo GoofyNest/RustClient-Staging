@@ -8,13 +8,13 @@ public struct LODParameters : IEquatable<LODParameters> // TypeDefIndex: 3848
 
 	// Methods
 
-	// RVA: 0x221AE0 Offset: 0x220EE0 VA: 0x180221AE0 Slot: 4
+	// RVA: 0x21D060 Offset: 0x21C460 VA: 0x18021D060 Slot: 4
 	public bool Equals(LODParameters other) { }
 
-	// RVA: 0x2219C0 Offset: 0x220DC0 VA: 0x1802219C0 Slot: 0
+	// RVA: 0x21CF40 Offset: 0x21C340 VA: 0x18021CF40 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x221B80 Offset: 0x220F80 VA: 0x180221B80 Slot: 2
+	// RVA: 0x21D100 Offset: 0x21C500 VA: 0x18021D100 Slot: 2
 	public override int GetHashCode() { }
 
 }

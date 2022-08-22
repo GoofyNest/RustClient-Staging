@@ -12,20 +12,20 @@ internal sealed class LogHistogram // TypeDefIndex: 11863
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public ComputeBuffer get_data() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	private void set_data(ComputeBuffer value) { }
 
-	// RVA: 0x1018C50 Offset: 0x1017250 VA: 0x181018C50
+	// RVA: 0x10196F0 Offset: 0x1017CF0 VA: 0x1810196F0
 	public void Generate(PostProcessRenderContext context) { }
 
-	// RVA: 0x1019000 Offset: 0x1017600 VA: 0x181019000
+	// RVA: 0x1019AA0 Offset: 0x10180A0 VA: 0x181019AA0
 	public Vector4 GetHistogramScaleOffsetRes(PostProcessRenderContext context) { }
 
-	// RVA: 0x1019070 Offset: 0x1017670 VA: 0x181019070
+	// RVA: 0x1019B10 Offset: 0x1018110 VA: 0x181019B10
 	public void Release() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

@@ -19,7 +19,7 @@ internal abstract class Identity // TypeDefIndex: 1133
 
 	// Methods
 
-	// RVA: 0x68A910 Offset: 0x688F10 VA: 0x18068A910
+	// RVA: 0x68A8A0 Offset: 0x688EA0 VA: 0x18068A8A0
 	public void .ctor(string objectUri) { }
 
 	// RVA: -1 Offset: -1 Slot: 4
@@ -28,37 +28,37 @@ internal abstract class Identity // TypeDefIndex: 1133
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	public IMessageSink get_ChannelSink() { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	public void set_ChannelSink(IMessageSink value) { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public IMessageSink get_EnvoySink() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_ObjectUri() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_ObjectUri(string value) { }
 
-	// RVA: 0x795CF0 Offset: 0x7942F0 VA: 0x180795CF0
+	// RVA: 0x795C00 Offset: 0x794200 VA: 0x180795C00
 	public bool get_IsConnected() { }
 
-	// RVA: 0x805600 Offset: 0x803C00 VA: 0x180805600
+	// RVA: 0x805B90 Offset: 0x804190 VA: 0x180805B90
 	public bool get_Disposed() { }
 
-	// RVA: 0x810000 Offset: 0x80E600 VA: 0x180810000
+	// RVA: 0x810590 Offset: 0x80EB90 VA: 0x180810590
 	public void set_Disposed(bool value) { }
 
-	// RVA: 0x1478260 Offset: 0x1476860 VA: 0x181478260
+	// RVA: 0x1477330 Offset: 0x1475930 VA: 0x181477330
 	public DynamicPropertyCollection get_ClientDynamicProperties() { }
 
-	// RVA: 0x1478320 Offset: 0x1476920 VA: 0x181478320
+	// RVA: 0x14773F0 Offset: 0x14759F0 VA: 0x1814773F0
 	public bool get_HasServerDynamicSinks() { }
 
-	// RVA: 0x1478140 Offset: 0x1476740 VA: 0x181478140
+	// RVA: 0x1477210 Offset: 0x1475810 VA: 0x181477210
 	public void NotifyClientDynamicSinks(bool start, IMessage req_msg, bool client_site, bool async) { }
 
-	// RVA: 0x14781D0 Offset: 0x14767D0 VA: 0x1814781D0
+	// RVA: 0x14772A0 Offset: 0x14758A0 VA: 0x1814772A0
 	public void NotifyServerDynamicSinks(bool start, IMessage req_msg, bool client_site, bool async) { }
 
 }

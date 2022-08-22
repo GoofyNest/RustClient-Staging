@@ -10,7 +10,7 @@ public class LensDirtinessEffect : PostProcessEffectSettings // TypeDefIndex: 10
 
 	// Methods
 
-	// RVA: 0x68AAF0 Offset: 0x6890F0 VA: 0x18068AAF0
+	// RVA: 0x68AA80 Offset: 0x689080 VA: 0x18068AA80
 	public void .ctor() { }
 
 }

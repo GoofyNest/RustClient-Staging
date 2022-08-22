@@ -4,19 +4,19 @@ public class UpdateHandler : SingletonComponent<UpdateHandler> // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x1134B60 Offset: 0x1133160 VA: 0x181134B60
+	// RVA: 0x11355D0 Offset: 0x1133BD0 VA: 0x1811355D0
 	protected void Update() { }
 
-	// RVA: 0x1134860 Offset: 0x1132E60 VA: 0x181134860
+	// RVA: 0x11352D0 Offset: 0x11338D0 VA: 0x1811352D0
 	public static void Add(UpdateBehaviour behaviour) { }
 
-	// RVA: 0x1134A70 Offset: 0x1133070 VA: 0x181134A70
+	// RVA: 0x11354E0 Offset: 0x1133AE0 VA: 0x1811354E0
 	public static void Remove(UpdateBehaviour behaviour) { }
 
-	// RVA: 0x11349D0 Offset: 0x1132FD0 VA: 0x1811349D0
+	// RVA: 0x1135440 Offset: 0x1133A40 VA: 0x181135440
 	private static void CreateInstance() { }
 
-	// RVA: 0x1134C50 Offset: 0x1133250 VA: 0x181134C50
+	// RVA: 0x11356C0 Offset: 0x1133CC0 VA: 0x1811356C0
 	public void .ctor() { }
 
 }

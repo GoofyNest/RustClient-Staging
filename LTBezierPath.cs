@@ -17,37 +17,37 @@ public class LTBezierPath // TypeDefIndex: 5583
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x198C750 Offset: 0x198AD50 VA: 0x18198C750
+	// RVA: 0x1979B50 Offset: 0x1978150 VA: 0x181979B50
 	public void .ctor(Vector3[] pts_) { }
 
-	// RVA: 0x198D290 Offset: 0x198B890 VA: 0x18198D290
+	// RVA: 0x197A690 Offset: 0x1978C90 VA: 0x18197A690
 	public void setPoints(Vector3[] pts_) { }
 
-	// RVA: 0x7747C0 Offset: 0x772DC0 VA: 0x1807747C0
+	// RVA: 0x774710 Offset: 0x772D10 VA: 0x180774710
 	public float get_distance() { }
 
-	// RVA: 0x198D180 Offset: 0x198B780 VA: 0x18198D180
+	// RVA: 0x197A580 Offset: 0x1978B80 VA: 0x18197A580
 	public Vector3 point(float ratio) { }
 
-	// RVA: 0x198C890 Offset: 0x198AE90 VA: 0x18198C890
+	// RVA: 0x1979C90 Offset: 0x1978290 VA: 0x181979C90
 	public void place2d(Transform transform, float ratio) { }
 
-	// RVA: 0x198CA60 Offset: 0x198B060 VA: 0x18198CA60
+	// RVA: 0x1979E60 Offset: 0x1978460 VA: 0x181979E60
 	public void placeLocal2d(Transform transform, float ratio) { }
 
-	// RVA: 0x198CF70 Offset: 0x198B570 VA: 0x18198CF70
+	// RVA: 0x197A370 Offset: 0x1978970 VA: 0x18197A370
 	public void place(Transform transform, float ratio) { }
 
-	// RVA: 0x198D0A0 Offset: 0x198B6A0 VA: 0x18198D0A0
+	// RVA: 0x197A4A0 Offset: 0x1978AA0 VA: 0x18197A4A0
 	public void place(Transform transform, float ratio, Vector3 worldUp) { }
 
-	// RVA: 0x198CDB0 Offset: 0x198B3B0 VA: 0x18198CDB0
+	// RVA: 0x197A1B0 Offset: 0x19787B0 VA: 0x18197A1B0
 	public void placeLocal(Transform transform, float ratio) { }
 
-	// RVA: 0x198CC30 Offset: 0x198B230 VA: 0x18198CC30
+	// RVA: 0x197A030 Offset: 0x1978630 VA: 0x18197A030
 	public void placeLocal(Transform transform, float ratio, Vector3 worldUp) { }
 
-	// RVA: 0x198C780 Offset: 0x198AD80 VA: 0x18198C780
+	// RVA: 0x1979B80 Offset: 0x1978180 VA: 0x181979B80
 	public void gizmoDraw(float t = -1) { }
 
 }

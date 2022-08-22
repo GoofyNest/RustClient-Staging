@@ -5,13 +5,13 @@ public class LensDirtinessRenderer : PostProcessEffectRenderer<LensDirtinessEffe
 
 	// Methods
 
-	// RVA: 0x68ACB0 Offset: 0x6892B0 VA: 0x18068ACB0 Slot: 4
+	// RVA: 0x68AC40 Offset: 0x689240 VA: 0x18068AC40 Slot: 4
 	public override void Init() { }
 
-	// RVA: 0x68AD00 Offset: 0x689300 VA: 0x18068AD00 Slot: 8
+	// RVA: 0x68AC90 Offset: 0x689290 VA: 0x18068AC90 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x68B9F0 Offset: 0x689FF0 VA: 0x18068B9F0
+	// RVA: 0x68B980 Offset: 0x689F80 VA: 0x18068B980
 	public void .ctor() { }
 
 }

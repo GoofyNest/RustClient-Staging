@@ -8,10 +8,10 @@ public class MonumentMarker : MonoBehaviour // TypeDefIndex: 10958
 
 	// Methods
 
-	// RVA: 0x7B5A00 Offset: 0x7B4000 VA: 0x1807B5A00
+	// RVA: 0x7D3DF0 Offset: 0x7D23F0 VA: 0x1807D3DF0
 	public void Setup(LandmarkInfo info) { }
 
-	// RVA: 0x7B5880 Offset: 0x7B3E80 VA: 0x1807B5880
+	// RVA: 0x7D3C70 Offset: 0x7D2270 VA: 0x1807D3C70
 	public void SetNightMode(bool nightMode) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

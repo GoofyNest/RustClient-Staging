@@ -10,22 +10,22 @@ public sealed class DesignTimeVisibleAttribute : Attribute // TypeDefIndex: 2691
 
 	// Methods
 
-	// RVA: 0xFDCE40 Offset: 0xFDB440 VA: 0x180FDCE40
+	// RVA: 0xFDD8E0 Offset: 0xFDBEE0 VA: 0x180FDD8E0
 	public void .ctor(bool visible) { }
 
 	// RVA: 0x49AF90 Offset: 0x499590 VA: 0x18049AF90
 	public bool get_Visible() { }
 
-	// RVA: 0x15C1490 Offset: 0x15BFA90 VA: 0x1815C1490 Slot: 0
+	// RVA: 0x15C0560 Offset: 0x15BEB60 VA: 0x1815C0560 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x15C1510 Offset: 0x15BFB10 VA: 0x1815C1510 Slot: 2
+	// RVA: 0x15C05E0 Offset: 0x15BEBE0 VA: 0x1815C05E0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x15C15A0 Offset: 0x15BFBA0 VA: 0x1815C15A0 Slot: 6
+	// RVA: 0x15C0670 Offset: 0x15BEC70 VA: 0x1815C0670 Slot: 6
 	public override bool IsDefaultAttribute() { }
 
-	// RVA: 0x15C1620 Offset: 0x15BFC20 VA: 0x1815C1620
+	// RVA: 0x15C06F0 Offset: 0x15BECF0 VA: 0x1815C06F0
 	private static void .cctor() { }
 
 }

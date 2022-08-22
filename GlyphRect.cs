@@ -23,22 +23,22 @@ public struct GlyphRect : IEquatable<GlyphRect> // TypeDefIndex: 4110
 
 	// Methods
 
-	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
+	// RVA: 0x13A3C0 Offset: 0x1397C0 VA: 0x18013A3C0
 	public int get_x() { }
 
-	// RVA: 0x13A300 Offset: 0x139700 VA: 0x18013A300
+	// RVA: 0x13A120 Offset: 0x139520 VA: 0x18013A120
 	public int get_y() { }
 
-	// RVA: 0x13AC20 Offset: 0x13A020 VA: 0x18013AC20
+	// RVA: 0x13AA40 Offset: 0x139E40 VA: 0x18013AA40
 	public int get_width() { }
 
-	// RVA: 0x221D60 Offset: 0x221160 VA: 0x180221D60
+	// RVA: 0x21D2E0 Offset: 0x21C6E0 VA: 0x18021D2E0
 	public int get_height() { }
 
-	// RVA: 0x22F0ED0 Offset: 0x22EF4D0 VA: 0x1822F0ED0
+	// RVA: 0x22F16F0 Offset: 0x22EFCF0 VA: 0x1822F16F0
 	public static GlyphRect get_zero() { }
 
-	// RVA: 0x2235B0 Offset: 0x2229B0 VA: 0x1802235B0
+	// RVA: 0x21EB30 Offset: 0x21DF30 VA: 0x18021EB30
 	public void .ctor(int x, int y, int width, int height) { }
 
 	// RVA: 0x23DE30 Offset: 0x23D230 VA: 0x18023DE30 Slot: 2
@@ -50,7 +50,7 @@ public struct GlyphRect : IEquatable<GlyphRect> // TypeDefIndex: 4110
 	// RVA: 0x23DDA0 Offset: 0x23D1A0 VA: 0x18023DDA0 Slot: 4
 	public bool Equals(GlyphRect other) { }
 
-	// RVA: 0x22F0E80 Offset: 0x22EF480 VA: 0x1822F0E80
+	// RVA: 0x22F16A0 Offset: 0x22EFCA0 VA: 0x1822F16A0
 	private static void .cctor() { }
 
 }

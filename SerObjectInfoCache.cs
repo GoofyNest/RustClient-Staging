@@ -9,10 +9,10 @@ internal sealed class SerObjectInfoCache // TypeDefIndex: 1110
 
 	// Methods
 
-	// RVA: 0xFFC010 Offset: 0xFFA610 VA: 0x180FFC010
+	// RVA: 0xFFCAB0 Offset: 0xFFB0B0 VA: 0x180FFCAB0
 	internal void .ctor(string typeName, string assemblyName, bool hasTypeForwardedFrom) { }
 
-	// RVA: 0x1202840 Offset: 0x1200E40 VA: 0x181202840
+	// RVA: 0x1202EE0 Offset: 0x12014E0 VA: 0x181202EE0
 	internal void .ctor(Type type) { }
 
 }

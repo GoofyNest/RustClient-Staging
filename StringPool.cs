@@ -7,16 +7,16 @@ public class StringPool // TypeDefIndex: 10773
 
 	// Methods
 
-	// RVA: 0x79EA60 Offset: 0x79D060 VA: 0x18079EA60
+	// RVA: 0x7BCE60 Offset: 0x7BB460 VA: 0x1807BCE60
 	private static void Init() { }
 
-	// RVA: 0x79E850 Offset: 0x79CE50 VA: 0x18079E850
+	// RVA: 0x7BCC50 Offset: 0x7BB250 VA: 0x1807BCC50
 	public static string Get(uint i) { }
 
-	// RVA: 0x79E970 Offset: 0x79CF70 VA: 0x18079E970
+	// RVA: 0x7BCD70 Offset: 0x7BB370 VA: 0x1807BCD70
 	public static uint Get(string str) { }
 
-	// RVA: 0x79E710 Offset: 0x79CD10 VA: 0x18079E710
+	// RVA: 0x7BCB10 Offset: 0x7BB110 VA: 0x1807BCB10
 	public static uint Add(string str) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

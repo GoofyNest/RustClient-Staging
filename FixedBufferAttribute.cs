@@ -9,13 +9,13 @@ public sealed class FixedBufferAttribute : Attribute // TypeDefIndex: 1306
 
 	// Methods
 
-	// RVA: 0xFE7800 Offset: 0xFE5E00 VA: 0x180FE7800
+	// RVA: 0xFE82A0 Offset: 0xFE68A0 VA: 0x180FE82A0
 	public void .ctor(Type elementType, int length) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Type get_ElementType() { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public int get_Length() { }
 
 }

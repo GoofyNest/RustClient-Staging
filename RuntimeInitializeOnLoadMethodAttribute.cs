@@ -7,13 +7,13 @@ public class RuntimeInitializeOnLoadMethodAttribute : PreserveAttribute // TypeD
 
 	// Methods
 
-	// RVA: 0x19B3E10 Offset: 0x19B2410 VA: 0x1819B3E10
+	// RVA: 0x19A1210 Offset: 0x199F810 VA: 0x1819A1210
 	public void .ctor() { }
 
-	// RVA: 0xB113D0 Offset: 0xB0F9D0 VA: 0x180B113D0
+	// RVA: 0xB118A0 Offset: 0xB0FEA0 VA: 0x180B118A0
 	public void .ctor(RuntimeInitializeLoadType loadType) { }
 
-	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
+	// RVA: 0x57C970 Offset: 0x57AF70 VA: 0x18057C970
 	private void set_loadType(RuntimeInitializeLoadType value) { }
 
 }

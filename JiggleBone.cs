@@ -20,16 +20,16 @@ public class JiggleBone : BaseMonoBehaviour // TypeDefIndex: 8784
 
 	// Methods
 
-	// RVA: 0x67C790 Offset: 0x67AD90 VA: 0x18067C790
+	// RVA: 0x67C720 Offset: 0x67AD20 VA: 0x18067C720
 	public void LODCheck() { }
 
-	// RVA: 0x67C5E0 Offset: 0x67ABE0 VA: 0x18067C5E0
+	// RVA: 0x67C570 Offset: 0x67AB70 VA: 0x18067C570
 	private void Awake() { }
 
-	// RVA: 0x67C840 Offset: 0x67AE40 VA: 0x18067C840
+	// RVA: 0x67C7D0 Offset: 0x67ADD0 VA: 0x18067C7D0
 	private void LateUpdate() { }
 
-	// RVA: 0x67D060 Offset: 0x67B660 VA: 0x18067D060
+	// RVA: 0x67CFF0 Offset: 0x67B5F0 VA: 0x18067CFF0
 	public void .ctor() { }
 
 }

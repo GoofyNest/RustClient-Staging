@@ -31,35 +31,35 @@ public class TreadAnimator : MonoBehaviour, IClientComponent // TypeDefIndex: 88
 
 	// Methods
 
-	// RVA: 0xA17F80 Offset: 0xA16580 VA: 0x180A17F80
+	// RVA: 0xA18470 Offset: 0xA16A70 VA: 0x180A18470
 	public void Awake() { }
 
-	// RVA: 0xA192A0 Offset: 0xA178A0 VA: 0x180A192A0
+	// RVA: 0xA19790 Offset: 0xA17D90 VA: 0x180A19790
 	public void Update() { }
 
-	// RVA: 0xA18340 Offset: 0xA16940 VA: 0x180A18340
+	// RVA: 0xA18830 Offset: 0xA16E30 VA: 0x180A18830
 	public void CalculateVelocity() { }
 
-	// RVA: 0xA186A0 Offset: 0xA16CA0 VA: 0x180A186A0
+	// RVA: 0xA18B90 Offset: 0xA17190 VA: 0x180A18B90
 	public Vector3 GetCurrentVelocity() { }
 
-	// RVA: 0xA18690 Offset: 0xA16C90 VA: 0x180A18690
+	// RVA: 0xA18B80 Offset: 0xA17180 VA: 0x180A18B80
 	public float GetAngularSpeed() { }
 
-	// RVA: 0x4C3900 Offset: 0x4C1F00 VA: 0x1804C3900
+	// RVA: 0x4C3890 Offset: 0x4C1E90 VA: 0x1804C3890
 	public float GetSpeed(bool rightSide) { }
 
-	// RVA: 0xA17D50 Offset: 0xA16350 VA: 0x180A17D50
+	// RVA: 0xA18240 Offset: 0xA16840 VA: 0x180A18240
 	private void AnimateWheelsTreads() { }
 
-	// RVA: 0xA188A0 Offset: 0xA16EA0 VA: 0x180A188A0
+	// RVA: 0xA18D90 Offset: 0xA17390 VA: 0x180A18D90
 	public void UpdateHeights() { }
 
-	// RVA: 0xA19370 Offset: 0xA17970 VA: 0x180A19370
+	// RVA: 0xA19860 Offset: 0xA17E60 VA: 0x180A19860
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xA186C0 Offset: 0xA16CC0 VA: 0x180A186C0
+	// RVA: 0xA18BB0 Offset: 0xA171B0 VA: 0x180A18BB0
 	private void <AnimateWheelsTreads>g__AnimateTreadWheel|30_0(ref float treadMovement, ref Material treadMat, bool left, ref TreadAnimator.<>c__DisplayClass30_0 ) { }
 
 }

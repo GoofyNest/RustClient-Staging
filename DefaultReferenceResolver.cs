@@ -4,19 +4,19 @@ internal class DefaultReferenceResolver : IReferenceResolver // TypeDefIndex: 59
 
 	// Methods
 
-	// RVA: 0x13EF380 Offset: 0x13ED980 VA: 0x1813EF380
+	// RVA: 0x13EE480 Offset: 0x13ECA80 VA: 0x1813EE480
 	private BidirectionalDictionary<string, object> GetMappings(object context) { }
 
-	// RVA: 0x13EF750 Offset: 0x13EDD50 VA: 0x1813EF750 Slot: 4
+	// RVA: 0x13EE850 Offset: 0x13ECE50 VA: 0x1813EE850 Slot: 4
 	public object ResolveReference(object context, string reference) { }
 
-	// RVA: 0x13EF5F0 Offset: 0x13EDBF0 VA: 0x1813EF5F0 Slot: 5
+	// RVA: 0x13EE6F0 Offset: 0x13ECCF0 VA: 0x1813EE6F0 Slot: 5
 	public string GetReference(object context, object value) { }
 
-	// RVA: 0x13EF300 Offset: 0x13ED900 VA: 0x1813EF300 Slot: 7
+	// RVA: 0x13EE400 Offset: 0x13ECA00 VA: 0x1813EE400 Slot: 7
 	public void AddReference(object context, string reference, object value) { }
 
-	// RVA: 0x13EF6D0 Offset: 0x13EDCD0 VA: 0x1813EF6D0 Slot: 6
+	// RVA: 0x13EE7D0 Offset: 0x13ECDD0 VA: 0x1813EE7D0 Slot: 6
 	public bool IsReferenced(object context, object value) { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

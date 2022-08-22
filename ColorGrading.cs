@@ -130,10 +130,10 @@ public sealed class ColorGrading : PostProcessEffectSettings // TypeDefIndex: 11
 
 	// Methods
 
-	// RVA: 0x9F6430 Offset: 0x9F4A30 VA: 0x1809F6430 Slot: 4
+	// RVA: 0x9F6920 Offset: 0x9F4F20 VA: 0x1809F6920 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x9F6480 Offset: 0x9F4A80 VA: 0x1809F6480
+	// RVA: 0x9F6970 Offset: 0x9F4F70 VA: 0x1809F6970
 	public void .ctor() { }
 
 }

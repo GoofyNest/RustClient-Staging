@@ -57,25 +57,25 @@ public class Wearable : MonoBehaviour, IItemSetup, IPrefabPreProcess // TypeDefI
 
 	// Methods
 
-	// RVA: 0x8F1D10 Offset: 0x8F0310 VA: 0x1808F1D10 Slot: 4
+	// RVA: 0x8F2220 Offset: 0x8F0820 VA: 0x1808F2220 Slot: 4
 	public void OnItemSetup(Item item) { }
 
-	// RVA: 0x8F1DD0 Offset: 0x8F03D0 VA: 0x1808F1DD0 Slot: 6
+	// RVA: 0x8F22E0 Offset: 0x8F08E0 VA: 0x1808F22E0 Slot: 6
 	public virtual void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x8F1750 Offset: 0x8EFD50 VA: 0x1808F1750
+	// RVA: 0x8F1C60 Offset: 0x8F0260 VA: 0x1808F1C60
 	public void CacheComponents() { }
 
-	// RVA: 0x8F21C0 Offset: 0x8F07C0 VA: 0x1808F21C0
+	// RVA: 0x8F26D0 Offset: 0x8F0CD0 VA: 0x1808F26D0
 	public void StripRig(IPrefabProcessor preProcess, SkinnedMeshRenderer skinnedMeshRenderer) { }
 
-	// RVA: 0x8F1F00 Offset: 0x8F0500 VA: 0x1808F1F00
+	// RVA: 0x8F2410 Offset: 0x8F0A10 VA: 0x1808F2410
 	public void SetupRendererCache(IPrefabProcessor preProcess) { }
 
-	// RVA: 0x8F23E0 Offset: 0x8F09E0 VA: 0x1808F23E0
+	// RVA: 0x8F28F0 Offset: 0x8F0EF0 VA: 0x1808F28F0
 	public void .ctor() { }
 
-	// RVA: 0x8F2390 Offset: 0x8F0990 VA: 0x1808F2390
+	// RVA: 0x8F28A0 Offset: 0x8F0EA0 VA: 0x1808F28A0
 	private static void .cctor() { }
 
 }
@@ -151,22 +151,22 @@ private sealed class Wearable.<>c // TypeDefIndex: 10064
 
 	// Methods
 
-	// RVA: 0x8EE470 Offset: 0x8ECA70 VA: 0x1808EE470
+	// RVA: 0x8EE980 Offset: 0x8ECF80 VA: 0x1808EE980
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8EDCC0 Offset: 0x8EC2C0 VA: 0x1808EDCC0
+	// RVA: 0x8EE1D0 Offset: 0x8EC7D0 VA: 0x1808EE1D0
 	internal bool <CacheComponents>b__39_0(Renderer x) { }
 
-	// RVA: 0x8EDD30 Offset: 0x8EC330 VA: 0x1808EDD30
+	// RVA: 0x8EE240 Offset: 0x8EC840 VA: 0x1808EE240
 	internal bool <CacheComponents>b__39_1(Renderer x) { }
 
-	// RVA: 0x8EDDA0 Offset: 0x8EC3A0 VA: 0x1808EDDA0
+	// RVA: 0x8EE2B0 Offset: 0x8EC8B0 VA: 0x1808EE2B0
 	internal bool <CacheComponents>b__39_2(Renderer x) { }
 
-	// RVA: 0x8EDE10 Offset: 0x8EC410 VA: 0x1808EDE10
+	// RVA: 0x8EE320 Offset: 0x8EC920 VA: 0x1808EE320
 	internal bool <CacheComponents>b__39_3(Renderer x) { }
 
 }

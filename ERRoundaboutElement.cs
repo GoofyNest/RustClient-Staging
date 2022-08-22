@@ -69,7 +69,7 @@ public class ERRoundaboutElement // TypeDefIndex: 7174
 
 	// Methods
 
-	// RVA: 0xB4BE70 Offset: 0xB4A470 VA: 0x180B4BE70
+	// RVA: 0xB4C340 Offset: 0xB4A940 VA: 0x180B4C340
 	public void .ctor() { }
 
 }

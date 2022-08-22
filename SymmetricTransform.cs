@@ -21,70 +21,70 @@ internal abstract class SymmetricTransform : ICryptoTransform, IDisposable // Ty
 
 	// Methods
 
-	// RVA: 0x17583F0 Offset: 0x17569F0 VA: 0x1817583F0
+	// RVA: 0x1755FB0 Offset: 0x17545B0 VA: 0x181755FB0
 	public void .ctor(SymmetricAlgorithm symmAlgo, bool encryption, byte[] rgbIV) { }
 
-	// RVA: 0x15BFA80 Offset: 0x15BE080 VA: 0x1815BFA80 Slot: 1
+	// RVA: 0x15BEB50 Offset: 0x15BD150 VA: 0x1815BEB50 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x1757CF0 Offset: 0x17562F0 VA: 0x181757CF0 Slot: 9
+	// RVA: 0x17558B0 Offset: 0x1753EB0 VA: 0x1817558B0 Slot: 9
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x17572A0 Offset: 0x17558A0 VA: 0x1817572A0 Slot: 10
+	// RVA: 0x1754E60 Offset: 0x1753460 VA: 0x181754E60 Slot: 10
 	protected virtual void Dispose(bool disposing) { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 11
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 11
 	public virtual bool get_CanTransformMultipleBlocks() { }
 
-	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460 Slot: 12
+	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0 Slot: 12
 	public virtual int get_InputBlockSize() { }
 
-	// RVA: 0x4C1460 Offset: 0x4BFA60 VA: 0x1804C1460 Slot: 13
+	// RVA: 0x4C13F0 Offset: 0x4BF9F0 VA: 0x1804C13F0 Slot: 13
 	public virtual int get_OutputBlockSize() { }
 
-	// RVA: 0x1758200 Offset: 0x1756800 VA: 0x181758200 Slot: 14
+	// RVA: 0x1755DC0 Offset: 0x17543C0 VA: 0x181755DC0 Slot: 14
 	protected virtual void Transform(byte[] input, byte[] output) { }
 
 	// RVA: -1 Offset: -1 Slot: 15
 	protected abstract void ECB(byte[] input, byte[] output);
 
-	// RVA: 0x1756D30 Offset: 0x1755330 VA: 0x181756D30 Slot: 16
+	// RVA: 0x17548F0 Offset: 0x1752EF0 VA: 0x1817548F0 Slot: 16
 	protected virtual void CBC(byte[] input, byte[] output) { }
 
-	// RVA: 0x1756EB0 Offset: 0x17554B0 VA: 0x181756EB0 Slot: 17
+	// RVA: 0x1754A70 Offset: 0x1753070 VA: 0x181754A70 Slot: 17
 	protected virtual void CFB(byte[] input, byte[] output) { }
 
-	// RVA: 0x1757BC0 Offset: 0x17561C0 VA: 0x181757BC0 Slot: 18
+	// RVA: 0x1755780 Offset: 0x1753D80 VA: 0x181755780 Slot: 18
 	protected virtual void OFB(byte[] input, byte[] output) { }
 
-	// RVA: 0x17570F0 Offset: 0x17556F0 VA: 0x1817570F0 Slot: 19
+	// RVA: 0x1754CB0 Offset: 0x17532B0 VA: 0x181754CB0 Slot: 19
 	protected virtual void CTS(byte[] input, byte[] output) { }
 
-	// RVA: 0x1757150 Offset: 0x1755750 VA: 0x181757150
+	// RVA: 0x1754D10 Offset: 0x1753310 VA: 0x181754D10
 	private void CheckInput(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
-	// RVA: 0x1757E90 Offset: 0x1756490 VA: 0x181757E90 Slot: 20
+	// RVA: 0x1755A50 Offset: 0x1754050 VA: 0x181755A50 Slot: 20
 	public virtual int TransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset) { }
 
-	// RVA: 0x1758720 Offset: 0x1756D20 VA: 0x181758720
+	// RVA: 0x17562E0 Offset: 0x17548E0 VA: 0x1817562E0
 	private bool get_KeepLastBlock() { }
 
-	// RVA: 0x17579E0 Offset: 0x1755FE0 VA: 0x1817579E0
+	// RVA: 0x17555A0 Offset: 0x1753BA0 VA: 0x1817555A0
 	private int InternalTransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset) { }
 
-	// RVA: 0x1757C20 Offset: 0x1756220 VA: 0x181757C20
+	// RVA: 0x17557E0 Offset: 0x1753DE0 VA: 0x1817557E0
 	private void Random(byte[] buffer, int start, int length) { }
 
-	// RVA: 0x1757D60 Offset: 0x1756360 VA: 0x181757D60
+	// RVA: 0x1755920 Offset: 0x1753F20 VA: 0x181755920
 	private void ThrowBadPaddingException(PaddingMode padding, int length, int position) { }
 
-	// RVA: 0x1757670 Offset: 0x1755C70 VA: 0x181757670 Slot: 21
+	// RVA: 0x1755230 Offset: 0x1753830 VA: 0x181755230 Slot: 21
 	protected virtual byte[] FinalEncrypt(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
-	// RVA: 0x1757320 Offset: 0x1755920 VA: 0x181757320 Slot: 22
+	// RVA: 0x1754EE0 Offset: 0x17534E0 VA: 0x181754EE0 Slot: 22
 	protected virtual byte[] FinalDecrypt(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
-	// RVA: 0x1758120 Offset: 0x1756720 VA: 0x181758120 Slot: 23
+	// RVA: 0x1755CE0 Offset: 0x17542E0 VA: 0x181755CE0 Slot: 23
 	public virtual byte[] TransformFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount) { }
 
 }

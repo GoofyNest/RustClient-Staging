@@ -7,7 +7,7 @@ public static class PlaybackStats // TypeDefIndex: 6648
 
 	// Methods
 
-	// RVA: 0x22CA6B0 Offset: 0x22C8CB0 VA: 0x1822CA6B0
+	// RVA: 0x22CAED0 Offset: 0x22C94D0 VA: 0x1822CAED0
 	public static void Reset() { }
 
 }

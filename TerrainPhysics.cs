@@ -5,10 +5,10 @@ public class TerrainPhysics : TerrainExtension // TypeDefIndex: 10430
 
 	// Methods
 
-	// RVA: 0x114FFA0 Offset: 0x114E5A0 VA: 0x18114FFA0 Slot: 4
+	// RVA: 0x1150A10 Offset: 0x114F010 VA: 0x181150A10 Slot: 4
 	public override void Setup() { }
 
-	// RVA: 0x114FF30 Offset: 0x114E530 VA: 0x18114FF30
+	// RVA: 0x11509A0 Offset: 0x114EFA0 VA: 0x1811509A0
 	public PhysicMaterial GetMaterial(Vector3 worldPos) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

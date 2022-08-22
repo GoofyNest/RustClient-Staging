@@ -1,10 +1,10 @@
 public class AndAIEvent : BaseAIEvent // TypeDefIndex: 9390
 {	// Methods
 
-	// RVA: 0x828410 Offset: 0x826A10 VA: 0x180828410
+	// RVA: 0x8289A0 Offset: 0x826FA0 VA: 0x1808289A0
 	public void .ctor() { }
 
-	// RVA: 0x828400 Offset: 0x826A00 VA: 0x180828400 Slot: 8
+	// RVA: 0x828990 Offset: 0x826F90 VA: 0x180828990 Slot: 8
 	public override void Execute(AIMemory memory, AIBrainSenses senses, StateStatus stateStatus) { }
 
 }

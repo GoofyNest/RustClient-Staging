@@ -16,13 +16,13 @@ public class TrainBarricade : BaseCombatEntity, ITrainCollidable // TypeDefIndex
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 145
 	public bool CustomCollision(TrainCar train, TriggerTrainCollisions trainTrigger) { }
 
-	// RVA: 0xA0B460 Offset: 0xA09A60 VA: 0x180A0B460 Slot: 131
+	// RVA: 0xA0B950 Offset: 0xA09F50 VA: 0x180A0B950 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0xA0B490 Offset: 0xA09A90 VA: 0x180A0B490 Slot: 34
+	// RVA: 0xA0B980 Offset: 0xA09F80 VA: 0x180A0B980 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xA0B6C0 Offset: 0xA09CC0 VA: 0x180A0B6C0
+	// RVA: 0xA0BBB0 Offset: 0xA0A1B0 VA: 0x180A0BBB0
 	public void .ctor() { }
 
 }

@@ -1,25 +1,25 @@
 internal class NtlmClient : IAuthenticationModule // TypeDefIndex: 2560
 {	// Fields
-	private static readonly ConditionalWeakTable<HttpWebRequest, NtlmSession> cache; // 0x1437D
+	private static readonly ConditionalWeakTable<HttpWebRequest, NtlmSession> cache; // 0x140B0
 
 	// Properties
 	public string AuthenticationType { get; }
 
 	// Methods
 
-	// RVA: 0x121B500 Offset: 0x1219B00 VA: 0x18121B500 Slot: 4
+	// RVA: 0x121BBA0 Offset: 0x121A1A0 VA: 0x18121BBA0 Slot: 4
 	public Authorization Authenticate(string challenge, WebRequest webRequest, ICredentials credentials) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 5
 	public Authorization PreAuthenticate(WebRequest webRequest, ICredentials credentials) { }
 
-	// RVA: 0x121B900 Offset: 0x1219F00 VA: 0x18121B900 Slot: 6
+	// RVA: 0x121BFA0 Offset: 0x121A5A0 VA: 0x18121BFA0 Slot: 6
 	public string get_AuthenticationType() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x121B8A0 Offset: 0x1219EA0 VA: 0x18121B8A0
+	// RVA: 0x121BF40 Offset: 0x121A540 VA: 0x18121BF40
 	private static void .cctor() { }
 
 }
@@ -31,13 +31,13 @@ private sealed class NtlmClient.<>c // TypeDefIndex: 2561
 
 	// Methods
 
-	// RVA: 0x121E410 Offset: 0x121CA10 VA: 0x18121E410
+	// RVA: 0x121EAB0 Offset: 0x121D0B0 VA: 0x18121EAB0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x121DFC0 Offset: 0x121C5C0 VA: 0x18121DFC0
+	// RVA: 0x121E660 Offset: 0x121CC60 VA: 0x18121E660
 	internal NtlmSession <Authenticate>b__1_0(HttpWebRequest x) { }
 
 }
@@ -51,16 +51,16 @@ internal class NtlmClient : IAuthenticationModule // TypeDefIndex: 3017
 
 	// Methods
 
-	// RVA: 0x1348940 Offset: 0x1346F40 VA: 0x181348940
+	// RVA: 0x1347A40 Offset: 0x1346040 VA: 0x181347A40
 	public void .ctor() { }
 
-	// RVA: 0x1348860 Offset: 0x1346E60 VA: 0x181348860 Slot: 4
+	// RVA: 0x1347960 Offset: 0x1345F60 VA: 0x181347960 Slot: 4
 	public Authorization Authenticate(string challenge, WebRequest webRequest, ICredentials credentials) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 5
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 5
 	public Authorization PreAuthenticate(WebRequest webRequest, ICredentials credentials) { }
 
-	// RVA: 0x13489B0 Offset: 0x1346FB0 VA: 0x1813489B0 Slot: 6
+	// RVA: 0x1347AB0 Offset: 0x13460B0 VA: 0x181347AB0 Slot: 6
 	public string get_AuthenticationType() { }
 
 }

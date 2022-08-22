@@ -11,19 +11,19 @@ public class ConsumableInformationPanel : ItemInformationPanel // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x6B6860 Offset: 0x6B4E60 VA: 0x1806B6860 Slot: 4
+	// RVA: 0x6B67F0 Offset: 0x6B4DF0 VA: 0x1806B67F0 Slot: 4
 	public override bool EligableForDisplay(ItemDefinition info) { }
 
-	// RVA: 0x6B6A10 Offset: 0x6B5010 VA: 0x1806B6A10
+	// RVA: 0x6B69A0 Offset: 0x6B4FA0 VA: 0x1806B69A0
 	private void GetValues() { }
 
-	// RVA: 0x6B6A80 Offset: 0x6B5080 VA: 0x1806B6A80 Slot: 5
+	// RVA: 0x6B6A10 Offset: 0x6B5010 VA: 0x1806B6A10 Slot: 5
 	public override void SetupForItem(ItemDefinition info, Item item) { }
 
-	// RVA: 0x6B73E0 Offset: 0x6B59E0 VA: 0x1806B73E0
+	// RVA: 0x6B7370 Offset: 0x6B5970 VA: 0x1806B7370
 	private void SetupGenes(Item item) { }
 
-	// RVA: 0x6B7460 Offset: 0x6B5A60 VA: 0x1806B7460
+	// RVA: 0x6B73F0 Offset: 0x6B59F0 VA: 0x1806B73F0
 	public void .ctor() { }
 
 }

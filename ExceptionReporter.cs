@@ -24,64 +24,64 @@ public class ExceptionReporter : MonoBehaviour // TypeDefIndex: 6193
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B3BB0 Offset: 0x14B21B0 VA: 0x1814B3BB0
+	// RVA: 0x14B2C80 Offset: 0x14B1280 VA: 0x1814B2C80
 	public static bool get_Disabled() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B42B0 Offset: 0x14B28B0 VA: 0x1814B42B0
+	// RVA: 0x14B3380 Offset: 0x14B1980 VA: 0x1814B3380
 	public static void set_Disabled(bool value) { }
 
-	// RVA: 0x14B2C40 Offset: 0x14B1240 VA: 0x1814B2C40
+	// RVA: 0x14B1D10 Offset: 0x14B0310 VA: 0x1814B1D10
 	internal static void InstallHooks() { }
 
-	// RVA: 0x14B2CA0 Offset: 0x14B12A0 VA: 0x1814B2CA0
+	// RVA: 0x14B1D70 Offset: 0x14B0370 VA: 0x1814B1D70
 	private static void OnLogMessage(string message, string stackTrace, LogType type) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B41F0 Offset: 0x14B27F0 VA: 0x1814B41F0
+	// RVA: 0x14B32C0 Offset: 0x14B18C0 VA: 0x1814B32C0
 	public static string get_PublicKey() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B43F0 Offset: 0x14B29F0 VA: 0x1814B43F0
+	// RVA: 0x14B34C0 Offset: 0x14B1AC0 VA: 0x1814B34C0
 	private static void set_PublicKey(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B4250 Offset: 0x14B2850 VA: 0x1814B4250
+	// RVA: 0x14B3320 Offset: 0x14B1920 VA: 0x1814B3320
 	public static string get_SecretKey() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B4460 Offset: 0x14B2A60 VA: 0x1814B4460
+	// RVA: 0x14B3530 Offset: 0x14B1B30 VA: 0x1814B3530
 	private static void set_SecretKey(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B4070 Offset: 0x14B2670 VA: 0x1814B4070
+	// RVA: 0x14B3140 Offset: 0x14B1740 VA: 0x1814B3140
 	public static string get_Host() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B4310 Offset: 0x14B2910 VA: 0x1814B4310
+	// RVA: 0x14B33E0 Offset: 0x14B19E0 VA: 0x1814B33E0
 	private static void set_Host(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B4130 Offset: 0x14B2730 VA: 0x1814B4130
+	// RVA: 0x14B3200 Offset: 0x14B1800 VA: 0x1814B3200
 	public static string get_ProjectId() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x14B4380 Offset: 0x14B2980 VA: 0x1814B4380
+	// RVA: 0x14B3450 Offset: 0x14B1A50 VA: 0x1814B3450
 	private static void set_ProjectId(string value) { }
 
-	// RVA: 0x14B2990 Offset: 0x14B0F90 VA: 0x1814B2990
+	// RVA: 0x14B1A60 Offset: 0x14B0060 VA: 0x1814B1A60
 	public static void InitializeFromUrl(string url) { }
 
-	// RVA: 0x14B3170 Offset: 0x14B1770 VA: 0x1814B3170
+	// RVA: 0x14B2240 Offset: 0x14B0840 VA: 0x1814B2240
 	public static void SendReport(string exception, string stacktrace) { }
 
-	// RVA: 0x14B3C10 Offset: 0x14B2210 VA: 0x1814B3C10
+	// RVA: 0x14B2CE0 Offset: 0x14B12E0 VA: 0x1814B2CE0
 	private static Dictionary<string, string> get_Headers() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
 	public void .ctor() { }
 
-	// RVA: 0x14B3B40 Offset: 0x14B2140 VA: 0x1814B3B40
+	// RVA: 0x14B2C10 Offset: 0x14B1210 VA: 0x1814B2C10
 	private static void .cctor() { }
 
 }

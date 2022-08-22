@@ -9,61 +9,61 @@ public class LayoutRebuilder : ICanvasElement // TypeDefIndex: 4979
 
 	// Methods
 
-	// RVA: 0x1712270 Offset: 0x1710870 VA: 0x181712270
+	// RVA: 0x170B6C0 Offset: 0x1709CC0 VA: 0x18170B6C0
 	private void Initialize(RectTransform controller) { }
 
-	// RVA: 0x17120F0 Offset: 0x17106F0 VA: 0x1817120F0
+	// RVA: 0x170B540 Offset: 0x1709B40 VA: 0x18170B540
 	private void Clear() { }
 
-	// RVA: 0x17136B0 Offset: 0x1711CB0 VA: 0x1817136B0
+	// RVA: 0x170CB00 Offset: 0x170B100 VA: 0x18170CB00
 	private static void .cctor() { }
 
-	// RVA: 0x1712F80 Offset: 0x1711580 VA: 0x181712F80
+	// RVA: 0x170C3D0 Offset: 0x170A9D0 VA: 0x18170C3D0
 	private static void ReapplyDrivenProperties(RectTransform driven) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 5
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 5
 	public Transform get_transform() { }
 
-	// RVA: 0x17122C0 Offset: 0x17108C0 VA: 0x1817122C0 Slot: 8
+	// RVA: 0x170B710 Offset: 0x1709D10 VA: 0x18170B710 Slot: 8
 	public bool IsDestroyed() { }
 
-	// RVA: 0x1713310 Offset: 0x1711910 VA: 0x181713310
+	// RVA: 0x170C760 Offset: 0x170AD60 VA: 0x18170C760
 	private static void StripDisabledBehavioursFromList(List<Component> components) { }
 
-	// RVA: 0x1712180 Offset: 0x1710780 VA: 0x181712180
+	// RVA: 0x170B5D0 Offset: 0x1709BD0 VA: 0x18170B5D0
 	public static void ForceRebuildLayoutImmediate(RectTransform layoutRoot) { }
 
-	// RVA: 0x1712FE0 Offset: 0x17115E0 VA: 0x181712FE0 Slot: 4
+	// RVA: 0x170C430 Offset: 0x170AA30 VA: 0x18170C430 Slot: 4
 	public void Rebuild(CanvasUpdate executing) { }
 
-	// RVA: 0x1712CE0 Offset: 0x17112E0 VA: 0x181712CE0
+	// RVA: 0x170C130 Offset: 0x170A730 VA: 0x18170C130
 	private void PerformLayoutControl(RectTransform rect, UnityAction<Component> action) { }
 
-	// RVA: 0x1712A60 Offset: 0x1711060 VA: 0x181712A60
+	// RVA: 0x170BEB0 Offset: 0x170A4B0 VA: 0x18170BEB0
 	private void PerformLayoutCalculation(RectTransform rect, UnityAction<Component> action) { }
 
-	// RVA: 0x17123A0 Offset: 0x17109A0 VA: 0x1817123A0
+	// RVA: 0x170B7F0 Offset: 0x1709DF0 VA: 0x18170B7F0
 	public static void MarkLayoutForRebuild(RectTransform rect) { }
 
-	// RVA: 0x1713450 Offset: 0x1711A50 VA: 0x181713450
+	// RVA: 0x170C8A0 Offset: 0x170AEA0 VA: 0x18170C8A0
 	private static bool ValidController(RectTransform layoutRoot, List<Component> comps) { }
 
-	// RVA: 0x17128F0 Offset: 0x1710EF0 VA: 0x1817128F0
+	// RVA: 0x170BD40 Offset: 0x170A340 VA: 0x18170BD40
 	private static void MarkLayoutRootForRebuild(RectTransform controller) { }
 
-	// RVA: 0x1712320 Offset: 0x1710920 VA: 0x181712320 Slot: 6
+	// RVA: 0x170B770 Offset: 0x1709D70 VA: 0x18170B770 Slot: 6
 	public void LayoutComplete() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 7
 	public void GraphicUpdateComplete() { }
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470 Slot: 2
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1712120 Offset: 0x1710720 VA: 0x181712120 Slot: 0
+	// RVA: 0x170B570 Offset: 0x1709B70 VA: 0x18170B570 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1713410 Offset: 0x1711A10 VA: 0x181713410 Slot: 3
+	// RVA: 0x170C860 Offset: 0x170AE60 VA: 0x18170C860 Slot: 3
 	public override string ToString() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -82,28 +82,28 @@ private sealed class LayoutRebuilder.<>c // TypeDefIndex: 4980
 
 	// Methods
 
-	// RVA: 0x1727C10 Offset: 0x1726210 VA: 0x181727C10
+	// RVA: 0x1721030 Offset: 0x171F630 VA: 0x181721030
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x1727BD0 Offset: 0x17261D0 VA: 0x181727BD0
+	// RVA: 0x1720FF0 Offset: 0x171F5F0 VA: 0x181720FF0
 	internal void <.cctor>b__5_0(LayoutRebuilder x) { }
 
-	// RVA: 0x1727AC0 Offset: 0x17260C0 VA: 0x181727AC0
+	// RVA: 0x1720EE0 Offset: 0x171F4E0 VA: 0x181720EE0
 	internal bool <StripDisabledBehavioursFromList>b__10_0(Component e) { }
 
-	// RVA: 0x1727900 Offset: 0x1725F00 VA: 0x181727900
+	// RVA: 0x1720D20 Offset: 0x171F320 VA: 0x181720D20
 	internal void <Rebuild>b__12_0(Component e) { }
 
-	// RVA: 0x1727970 Offset: 0x1725F70 VA: 0x181727970
+	// RVA: 0x1720D90 Offset: 0x171F390 VA: 0x181720D90
 	internal void <Rebuild>b__12_1(Component e) { }
 
-	// RVA: 0x17279E0 Offset: 0x1725FE0 VA: 0x1817279E0
+	// RVA: 0x1720E00 Offset: 0x171F400 VA: 0x181720E00
 	internal void <Rebuild>b__12_2(Component e) { }
 
-	// RVA: 0x1727A50 Offset: 0x1726050 VA: 0x181727A50
+	// RVA: 0x1720E70 Offset: 0x171F470 VA: 0x181720E70
 	internal void <Rebuild>b__12_3(Component e) { }
 
 }

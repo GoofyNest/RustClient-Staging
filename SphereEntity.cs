@@ -6,82 +6,82 @@ public class SphereEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 	// Methods
 
-	// RVA: 0x1DB7E80 Offset: 0x1DB6480 VA: 0x181DB7E80
+	// RVA: 0x1DB8670 Offset: 0x1DB6C70 VA: 0x181DB8670
 	public static void ResetToPool(SphereEntity instance) { }
 
-	// RVA: 0x1DB7E00 Offset: 0x1DB6400 VA: 0x181DB7E00
+	// RVA: 0x1DB85F0 Offset: 0x1DB6BF0 VA: 0x181DB85F0
 	public void ResetToPool() { }
 
-	// RVA: 0x1DB7CD0 Offset: 0x1DB62D0 VA: 0x181DB7CD0 Slot: 9
+	// RVA: 0x1DB84C0 Offset: 0x1DB6AC0 VA: 0x181DB84C0 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1BFE790 Offset: 0x1BFCD90 VA: 0x181BFE790
+	// RVA: 0x1BFEF80 Offset: 0x1BFD580 VA: 0x181BFEF80
 	public void CopyTo(SphereEntity instance) { }
 
-	// RVA: 0x1DB7340 Offset: 0x1DB5940 VA: 0x181DB7340
+	// RVA: 0x1DB7B30 Offset: 0x1DB6130 VA: 0x181DB7B30
 	public SphereEntity Copy() { }
 
-	// RVA: 0x1DB7C50 Offset: 0x1DB6250 VA: 0x181DB7C50
+	// RVA: 0x1DB8440 Offset: 0x1DB6A40 VA: 0x181DB8440
 	public static SphereEntity Deserialize(Stream stream) { }
 
-	// RVA: 0x1DB73B0 Offset: 0x1DB59B0 VA: 0x181DB73B0
+	// RVA: 0x1DB7BA0 Offset: 0x1DB61A0 VA: 0x181DB7BA0
 	public static SphereEntity DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DB7850 Offset: 0x1DB5E50 VA: 0x181DB7850
+	// RVA: 0x1DB8040 Offset: 0x1DB6640 VA: 0x181DB8040
 	public static SphereEntity DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DB79E0 Offset: 0x1DB5FE0 VA: 0x181DB79E0
+	// RVA: 0x1DB81D0 Offset: 0x1DB67D0 VA: 0x181DB81D0
 	public static SphereEntity Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DB7DC0 Offset: 0x1DB63C0 VA: 0x181DB7DC0
+	// RVA: 0x1DB85B0 Offset: 0x1DB6BB0 VA: 0x181DB85B0
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DB82D0 Offset: 0x1DB68D0 VA: 0x181DB82D0 Slot: 12
+	// RVA: 0x1DB8AC0 Offset: 0x1DB70C0 VA: 0x181DB8AC0 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DB82F0 Offset: 0x1DB68F0 VA: 0x181DB82F0 Slot: 13
+	// RVA: 0x1DB8AE0 Offset: 0x1DB70E0 VA: 0x181DB8AE0 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, SphereEntity previous) { }
 
-	// RVA: 0x1DB7DE0 Offset: 0x1DB63E0 VA: 0x181DB7DE0 Slot: 14
+	// RVA: 0x1DB85D0 Offset: 0x1DB6BD0 VA: 0x181DB85D0 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DB78E0 Offset: 0x1DB5EE0 VA: 0x181DB78E0
+	// RVA: 0x1DB80D0 Offset: 0x1DB66D0 VA: 0x181DB80D0
 	public static SphereEntity Deserialize(byte[] buffer, SphereEntity instance, bool isDelta = False) { }
 
-	// RVA: 0x1DB7B00 Offset: 0x1DB6100 VA: 0x181DB7B00
+	// RVA: 0x1DB82F0 Offset: 0x1DB68F0 VA: 0x181DB82F0
 	public static SphereEntity Deserialize(Stream stream, SphereEntity instance, bool isDelta) { }
 
-	// RVA: 0x1DB7430 Offset: 0x1DB5A30 VA: 0x181DB7430
+	// RVA: 0x1DB7C20 Offset: 0x1DB6220 VA: 0x181DB7C20
 	public static SphereEntity DeserializeLengthDelimited(Stream stream, SphereEntity instance, bool isDelta) { }
 
-	// RVA: 0x1DB7650 Offset: 0x1DB5C50 VA: 0x181DB7650
+	// RVA: 0x1DB7E40 Offset: 0x1DB6440 VA: 0x181DB7E40
 	public static SphereEntity DeserializeLength(Stream stream, int length, SphereEntity instance, bool isDelta) { }
 
-	// RVA: 0x1DB7F00 Offset: 0x1DB6500 VA: 0x181DB7F00
+	// RVA: 0x1DB86F0 Offset: 0x1DB6CF0 VA: 0x181DB86F0
 	public static void SerializeDelta(Stream stream, SphereEntity instance, SphereEntity previous) { }
 
-	// RVA: 0x1DB81E0 Offset: 0x1DB67E0 VA: 0x181DB81E0
+	// RVA: 0x1DB89D0 Offset: 0x1DB6FD0 VA: 0x181DB89D0
 	public static void Serialize(Stream stream, SphereEntity instance) { }
 
-	// RVA: 0x1DB82C0 Offset: 0x1DB68C0 VA: 0x181DB82C0
+	// RVA: 0x1DB8AB0 Offset: 0x1DB70B0 VA: 0x181DB8AB0
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DB82D0 Offset: 0x1DB68D0 VA: 0x181DB82D0
+	// RVA: 0x1DB8AC0 Offset: 0x1DB70C0 VA: 0x181DB8AC0
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DB80D0 Offset: 0x1DB66D0 VA: 0x181DB80D0
+	// RVA: 0x1DB88C0 Offset: 0x1DB6EC0 VA: 0x181DB88C0
 	public static byte[] SerializeToBytes(SphereEntity instance) { }
 
-	// RVA: 0x1DB8020 Offset: 0x1DB6620 VA: 0x181DB8020
+	// RVA: 0x1DB8810 Offset: 0x1DB6E10 VA: 0x181DB8810
 	public static void SerializeLengthDelimited(Stream stream, SphereEntity instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -94,16 +94,16 @@ public class SphereEntity : BaseEntity // TypeDefIndex: 9609
 
 	// Methods
 
-	// RVA: 0xA7F280 Offset: 0xA7D880 VA: 0x180A7F280 Slot: 34
+	// RVA: 0xA7F750 Offset: 0xA7DD50 VA: 0x180A7F750 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0xA7F2F0 Offset: 0xA7D8F0 VA: 0x180A7F2F0
+	// RVA: 0xA7F7C0 Offset: 0xA7DDC0 VA: 0x180A7F7C0
 	protected void UpdateScale() { }
 
-	// RVA: 0xA7F370 Offset: 0xA7D970 VA: 0x180A7F370
+	// RVA: 0xA7F840 Offset: 0xA7DE40 VA: 0x180A7F840
 	protected void Update() { }
 
-	// RVA: 0xA7F500 Offset: 0xA7DB00 VA: 0x180A7F500
+	// RVA: 0xA7F9D0 Offset: 0xA7DFD0 VA: 0x180A7F9D0
 	public void .ctor() { }
 
 }

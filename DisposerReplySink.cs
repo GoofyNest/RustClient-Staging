@@ -5,13 +5,13 @@ internal class DisposerReplySink : IMessageSink // TypeDefIndex: 1149
 
 	// Methods
 
-	// RVA: 0x522CB0 Offset: 0x5212B0 VA: 0x180522CB0
+	// RVA: 0x522C40 Offset: 0x521240 VA: 0x180522C40
 	public void .ctor(IMessageSink next, IDisposable disposable) { }
 
-	// RVA: 0x1477010 Offset: 0x1475610 VA: 0x181477010 Slot: 4
+	// RVA: 0x14760E0 Offset: 0x14746E0 VA: 0x1814760E0 Slot: 4
 	public IMessage SyncProcessMessage(IMessage msg) { }
 
-	// RVA: 0x1476FC0 Offset: 0x14755C0 VA: 0x181476FC0 Slot: 5
+	// RVA: 0x1476090 Offset: 0x1474690 VA: 0x181476090 Slot: 5
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink) { }
 
 }

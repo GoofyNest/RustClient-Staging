@@ -9,13 +9,13 @@ public class PieOption : MonoBehaviour // TypeDefIndex: 11200
 
 	// Methods
 
-	// RVA: 0x90D690 Offset: 0x90BC90 VA: 0x18090D690
+	// RVA: 0x90DBA0 Offset: 0x90C1A0 VA: 0x18090DBA0
 	internal float get_midRadius() { }
 
-	// RVA: 0x90D6C0 Offset: 0x90BCC0 VA: 0x18090D6C0
+	// RVA: 0x90DBD0 Offset: 0x90C1D0 VA: 0x18090DBD0
 	internal float get_sliceSize() { }
 
-	// RVA: 0x90D2E0 Offset: 0x90B8E0 VA: 0x18090D2E0
+	// RVA: 0x90D7F0 Offset: 0x90BDF0 VA: 0x18090D7F0
 	public void UpdateOption(float startSlice, float sliceSize, float border, string optionTitle, float outerSize, float innerSize, float imageSize, Sprite sprite) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

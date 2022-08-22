@@ -12,7 +12,7 @@ public sealed class NoteDetectionSettings // TypeDefIndex: 7439
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00
 	public NoteStartDetectionPolicy get_NoteStartDetectionPolicy() { }
 
-	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0
+	// RVA: 0x57C960 Offset: 0x57AF60 VA: 0x18057C960
 	public NoteSearchContext get_NoteSearchContext() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

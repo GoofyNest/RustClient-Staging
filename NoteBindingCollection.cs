@@ -31,13 +31,13 @@ public class NoteBindingCollection : ScriptableObject // TypeDefIndex: 9561
 
 	// Methods
 
-	// RVA: 0x9D2F30 Offset: 0x9D1530 VA: 0x1809D2F30
+	// RVA: 0x9D3420 Offset: 0x9D1A20 VA: 0x1809D3420
 	public bool FindNoteData(Notes note, int octave, InstrumentKeyController.NoteType type, out NoteBindingCollection.NoteData data, out int noteIndex) { }
 
-	// RVA: 0x9D2E80 Offset: 0x9D1480 VA: 0x1809D2E80
+	// RVA: 0x9D3370 Offset: 0x9D1970 VA: 0x1809D3370
 	public bool FindNoteDataIndex(Notes note, int octave, InstrumentKeyController.NoteType type, out int noteIndex) { }
 
-	// RVA: 0x9D3020 Offset: 0x9D1620 VA: 0x1809D3020
+	// RVA: 0x9D3510 Offset: 0x9D1B10 VA: 0x1809D3510
 	public void .ctor() { }
 
 }

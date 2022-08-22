@@ -15,37 +15,37 @@ public class GameManifest : ScriptableObject // TypeDefIndex: 10724
 
 	// Methods
 
-	// RVA: 0x7589D0 Offset: 0x756FD0 VA: 0x1807589D0
+	// RVA: 0x758920 Offset: 0x756F20 VA: 0x180758920
 	public static GameManifest get_Current() { }
 
-	// RVA: 0x7584D0 Offset: 0x756AD0 VA: 0x1807584D0
+	// RVA: 0x758420 Offset: 0x756A20 VA: 0x180758420
 	public static void Load() { }
 
-	// RVA: 0x758120 Offset: 0x756720 VA: 0x180758120
+	// RVA: 0x758070 Offset: 0x756670 VA: 0x180758070
 	public static void LoadAssets() { }
 
-	// RVA: 0x7583B0 Offset: 0x7569B0 VA: 0x1807583B0
+	// RVA: 0x758300 Offset: 0x756900 VA: 0x180758300
 	internal static Dictionary<string, string[]> LoadEffectDictionary() { }
 
-	// RVA: 0x7579F0 Offset: 0x755FF0 VA: 0x1807579F0
+	// RVA: 0x757940 Offset: 0x755F40 VA: 0x180757940
 	internal static string GUIDToPath(string guid) { }
 
-	// RVA: 0x7576F0 Offset: 0x755CF0 VA: 0x1807576F0
+	// RVA: 0x757640 Offset: 0x755C40 VA: 0x180757640
 	internal static Object GUIDToObject(string guid) { }
 
-	// RVA: 0x757F80 Offset: 0x756580 VA: 0x180757F80
+	// RVA: 0x757ED0 Offset: 0x7564D0 VA: 0x180757ED0
 	internal static void Invalidate(string path) { }
 
-	// RVA: 0x757C80 Offset: 0x756280 VA: 0x180757C80
+	// RVA: 0x757BD0 Offset: 0x7561D0 VA: 0x180757BD0
 	private static string GetMetadataStatus() { }
 
-	// RVA: 0x757B20 Offset: 0x756120 VA: 0x180757B20
+	// RVA: 0x757A70 Offset: 0x756070 VA: 0x180757A70
 	private static string GetAssetStatus() { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
-	// RVA: 0x758870 Offset: 0x756E70 VA: 0x180758870
+	// RVA: 0x7587C0 Offset: 0x756DC0 VA: 0x1807587C0
 	private static void .cctor() { }
 
 }

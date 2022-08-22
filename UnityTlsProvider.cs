@@ -10,37 +10,37 @@ internal class UnityTlsProvider : MonoTlsProvider // TypeDefIndex: 2511
 
 	// Methods
 
-	// RVA: 0x15D8990 Offset: 0x15D6F90 VA: 0x1815D8990 Slot: 5
+	// RVA: 0x15D7A60 Offset: 0x15D6060 VA: 0x1815D7A60 Slot: 5
 	public override string get_Name() { }
 
-	// RVA: 0x15D8920 Offset: 0x15D6F20 VA: 0x1815D8920 Slot: 4
+	// RVA: 0x15D79F0 Offset: 0x15D5FF0 VA: 0x1815D79F0 Slot: 4
 	public override Guid get_ID() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 6
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 6
 	public override bool get_SupportsSslStream() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 8
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 8
 	public override bool get_SupportsMonoExtensions() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 7
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 7
 	public override bool get_SupportsConnectionInfo() { }
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 13
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 13
 	internal override bool get_SupportsCleanShutdown() { }
 
-	// RVA: 0x15D89C0 Offset: 0x15D6FC0 VA: 0x1815D89C0 Slot: 9
+	// RVA: 0x15D7A90 Offset: 0x15D6090 VA: 0x1815D7A90 Slot: 9
 	public override SslProtocols get_SupportedProtocols() { }
 
-	// RVA: 0x15D82E0 Offset: 0x15D68E0 VA: 0x1815D82E0 Slot: 10
+	// RVA: 0x15D73B0 Offset: 0x15D59B0 VA: 0x1815D73B0 Slot: 10
 	public override IMonoSslStream CreateSslStream(Stream innerStream, bool leaveInnerStreamOpen, MonoTlsSettings settings) { }
 
-	// RVA: 0x15D8200 Offset: 0x15D6800 VA: 0x1815D8200 Slot: 11
+	// RVA: 0x15D72D0 Offset: 0x15D58D0 VA: 0x1815D72D0 Slot: 11
 	internal override IMonoSslStream CreateSslStreamInternal(SslStream sslStream, Stream innerStream, bool leaveInnerStreamOpen, MonoTlsSettings settings) { }
 
-	// RVA: 0x15D8300 Offset: 0x15D6900 VA: 0x1815D8300 Slot: 12
+	// RVA: 0x15D73D0 Offset: 0x15D59D0 VA: 0x1815D73D0 Slot: 12
 	internal override bool ValidateCertificate(ICertificateValidator2 validator, string targetHost, bool serverMode, X509CertificateCollection certificates, bool wantsChain, ref X509Chain chain, ref MonoSslPolicyErrors errors, ref int status11) { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 }

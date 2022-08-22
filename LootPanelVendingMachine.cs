@@ -8,34 +8,34 @@ public class LootPanelVendingMachine : LootPanel, IVendingMachineInterface // Ty
 
 	// Methods
 
-	// RVA: 0x550610 Offset: 0x54EC10 VA: 0x180550610
+	// RVA: 0x5505A0 Offset: 0x54EBA0 VA: 0x1805505A0
 	public void OnEnable() { }
 
-	// RVA: 0x550510 Offset: 0x54EB10 VA: 0x180550510 Slot: 6
+	// RVA: 0x5504A0 Offset: 0x54EAA0 VA: 0x1805504A0 Slot: 6
 	protected override void OnDisable() { }
 
-	// RVA: 0x550500 Offset: 0x54EB00 VA: 0x180550500
+	// RVA: 0x550490 Offset: 0x54EA90 VA: 0x180550490
 	public void Initialize() { }
 
-	// RVA: 0x550470 Offset: 0x54EA70 VA: 0x180550470
+	// RVA: 0x550400 Offset: 0x54EA00 VA: 0x180550400
 	public VendingMachine GetVendingMachine() { }
 
-	// RVA: 0x550840 Offset: 0x54EE40 VA: 0x180550840
+	// RVA: 0x5507D0 Offset: 0x54EDD0 VA: 0x1805507D0
 	public void UpdateSellOrders() { }
 
-	// RVA: 0x550440 Offset: 0x54EA40 VA: 0x180550440
+	// RVA: 0x5503D0 Offset: 0x54E9D0 VA: 0x1805503D0
 	public void ClearSellOrders() { }
 
-	// RVA: 0x550680 Offset: 0x54EC80 VA: 0x180550680
+	// RVA: 0x550610 Offset: 0x54EC10 VA: 0x180550610
 	public void SetBusyOverlay(bool on) { }
 
-	// RVA: 0x550A90 Offset: 0x54F090 VA: 0x180550A90 Slot: 5
+	// RVA: 0x550A20 Offset: 0x54F020 VA: 0x180550A20 Slot: 5
 	public override void Update() { }
 
-	// RVA: 0x550380 Offset: 0x54E980 VA: 0x180550380 Slot: 7
+	// RVA: 0x550310 Offset: 0x54E910 VA: 0x180550310 Slot: 7
 	public void BuyButtonClicked(int index, int multiplier = 1) { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

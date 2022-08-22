@@ -33,15 +33,15 @@ public class WaterRuntime // TypeDefIndex: 10622
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	private void set_WaterCamera(WaterCamera value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public WaterCamera get_WaterCamera() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	private void set_Camera(Camera value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -57,75 +57,75 @@ public class WaterRuntime // TypeDefIndex: 10622
 	public PostOpaqueDepth get_PostOpaqueDepth() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	private void set_CommandBufferManager(CommandBufferManager value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public CommandBufferManager get_CommandBufferManager() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x82BDD0 Offset: 0x82A3D0 VA: 0x18082BDD0
+	// RVA: 0x82C320 Offset: 0x82A920 VA: 0x18082C320
 	private void set_SimulateNextFrame(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x82BDA0 Offset: 0x82A3A0 VA: 0x18082BDA0
+	// RVA: 0x82C2F0 Offset: 0x82A8F0 VA: 0x18082C2F0
 	public bool get_SimulateNextFrame() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
+	// RVA: 0x6AD650 Offset: 0x6ABC50 VA: 0x1806AD650
 	private void set_Simulation(WaterSimulation value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	// RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	public WaterSimulation get_Simulation() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
+	// RVA: 0x4BC5A0 Offset: 0x4BABA0 VA: 0x1804BC5A0
 	private void set_Rendering(WaterRendering value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	public WaterRendering get_Rendering() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x598430 Offset: 0x596A30 VA: 0x180598430
+	// RVA: 0x5983C0 Offset: 0x5969C0 VA: 0x1805983C0
 	private void set_VisibilityMask(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x598420 Offset: 0x596A20 VA: 0x180598420
+	// RVA: 0x5983B0 Offset: 0x5969B0 VA: 0x1805983B0
 	public int get_VisibilityMask() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC20D40 Offset: 0xC1F340 VA: 0x180C20D40
+	// RVA: 0xC21210 Offset: 0xC1F810 VA: 0x180C21210
 	private void set_IsInitialized(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xC20D30 Offset: 0xC1F330 VA: 0x180C20D30
+	// RVA: 0xC21200 Offset: 0xC1F800 VA: 0x180C21200
 	public bool get_IsInitialized() { }
 
-	// RVA: 0xC20BF0 Offset: 0xC1F1F0 VA: 0x180C20BF0
+	// RVA: 0xC210C0 Offset: 0xC1F6C0 VA: 0x180C210C0
 	public void .ctor(WaterCamera camera) { }
 
-	// RVA: 0xC20430 Offset: 0xC1EA30 VA: 0x180C20430
+	// RVA: 0xC20900 Offset: 0xC1EF00 VA: 0x180C20900
 	public void Initialize(WaterSystem water) { }
 
-	// RVA: 0xC20750 Offset: 0xC1ED50 VA: 0x180C20750
+	// RVA: 0xC20C20 Offset: 0xC1F220 VA: 0x180C20C20
 	public void Shutdown() { }
 
-	// RVA: 0x598430 Offset: 0x596A30 VA: 0x180598430
+	// RVA: 0x5983C0 Offset: 0x5969C0 VA: 0x1805983C0
 	public void SetVisibilityMask(int mask) { }
 
-	// RVA: 0xC209B0 Offset: 0xC1EFB0 VA: 0x180C209B0
+	// RVA: 0xC20E80 Offset: 0xC1F480 VA: 0x180C20E80
 	private void Simulate() { }
 
-	// RVA: 0xC206D0 Offset: 0xC1ECD0 VA: 0x180C206D0
+	// RVA: 0xC20BA0 Offset: 0xC1F1A0 VA: 0x180C20BA0
 	private void PrepareRender() { }
 
-	// RVA: 0xC20A90 Offset: 0xC1F090 VA: 0x180C20A90
+	// RVA: 0xC20F60 Offset: 0xC1F560 VA: 0x180C20F60
 	public void Update() { }
 
-	// RVA: 0xC20690 Offset: 0xC1EC90 VA: 0x180C20690
+	// RVA: 0xC20B60 Offset: 0xC1F160 VA: 0x180C20B60
 	public void IssueRender() { }
 
 }

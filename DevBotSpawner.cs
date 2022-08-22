@@ -8,7 +8,7 @@ public class DevBotSpawner : FacepunchBehaviour // TypeDefIndex: 9294
 
 	// Methods
 
-	// RVA: 0x97DA80 Offset: 0x97C080 VA: 0x18097DA80
+	// RVA: 0x97DF80 Offset: 0x97C580 VA: 0x18097DF80
 	public void .ctor() { }
 
 }

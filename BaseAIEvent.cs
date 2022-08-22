@@ -45,118 +45,118 @@ public class BaseAIEvent // TypeDefIndex: 9393
 	public AIEventType get_EventType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
+	// RVA: 0x57C970 Offset: 0x57AF70 VA: 0x18057C970
 	private void set_EventType(AIEventType value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57C9D0 Offset: 0x57AFD0 VA: 0x18057C9D0
+	// RVA: 0x57C960 Offset: 0x57AF60 VA: 0x18057C960
 	public int get_TriggerStateContainerID() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57C9F0 Offset: 0x57AFF0 VA: 0x18057C9F0
+	// RVA: 0x57C980 Offset: 0x57AF80 VA: 0x18057C980
 	private void set_TriggerStateContainerID(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public BaseAIEvent.ExecuteRate get_Rate() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
+	// RVA: 0x79C6B0 Offset: 0x79ACB0 VA: 0x18079C6B0
 	protected void set_Rate(BaseAIEvent.ExecuteRate value) { }
 
-	// RVA: 0x7D0CC0 Offset: 0x7CF2C0 VA: 0x1807D0CC0
+	// RVA: 0x79C5E0 Offset: 0x79ABE0 VA: 0x18079C5E0
 	public float get_ExecutionRate() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D40 Offset: 0x7CF340 VA: 0x1807D0D40
+	// RVA: 0x79C660 Offset: 0x79AC60 VA: 0x18079C660
 	public bool get_ShouldExecute() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0DB0 Offset: 0x7CF3B0 VA: 0x1807D0DB0
+	// RVA: 0x79C6D0 Offset: 0x79ACD0 VA: 0x18079C6D0
 	protected void set_ShouldExecute(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D30 Offset: 0x7CF330 VA: 0x1807D0D30
+	// RVA: 0x79C650 Offset: 0x79AC50 VA: 0x18079C650
 	public bool get_Result() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0DA0 Offset: 0x7CF3A0 VA: 0x1807D0DA0
+	// RVA: 0x79C6C0 Offset: 0x79ACC0 VA: 0x18079C6C0
 	protected void set_Result(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D20 Offset: 0x7CF320 VA: 0x1807D0D20
+	// RVA: 0x79C640 Offset: 0x79AC40 VA: 0x18079C640
 	public bool get_Inverted() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D80 Offset: 0x7CF380 VA: 0x1807D0D80
+	// RVA: 0x79C6A0 Offset: 0x79ACA0 VA: 0x18079C6A0
 	private void set_Inverted(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4D37D0 Offset: 0x4D1DD0 VA: 0x1804D37D0
+	// RVA: 0x4D3760 Offset: 0x4D1D60 VA: 0x1804D3760
 	public int get_OutputEntityMemorySlot() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x69D730 Offset: 0x69BD30 VA: 0x18069D730
+	// RVA: 0x69D6C0 Offset: 0x69BCC0 VA: 0x18069D6C0
 	protected void set_OutputEntityMemorySlot(int value) { }
 
-	// RVA: 0x7D0D50 Offset: 0x7CF350 VA: 0x1807D0D50
+	// RVA: 0x79C670 Offset: 0x79AC70 VA: 0x18079C670
 	public bool get_ShouldSetOutputEntityMemory() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
+	// RVA: 0x79C630 Offset: 0x79AC30 VA: 0x18079C630
 	public int get_InputEntityMemorySlot() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D70 Offset: 0x7CF370 VA: 0x1807D0D70
+	// RVA: 0x79C690 Offset: 0x79AC90 VA: 0x18079C690
 	protected void set_InputEntityMemorySlot(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BE600 Offset: 0x4BCC00 VA: 0x1804BE600
+	// RVA: 0x4BE590 Offset: 0x4BCB90 VA: 0x1804BE590
 	public int get_ID() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D60 Offset: 0x7CF360 VA: 0x1807D0D60
+	// RVA: 0x79C680 Offset: 0x79AC80 VA: 0x18079C680
 	protected void set_ID(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	public BaseEntity get_Owner() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	private void set_Owner(BaseEntity value) { }
 
-	// RVA: 0x7D0D00 Offset: 0x7CF300 VA: 0x1807D0D00
+	// RVA: 0x79C620 Offset: 0x79AC20 VA: 0x18079C620
 	public bool get_HasValidTriggerState() { }
 
-	// RVA: 0x7D0C80 Offset: 0x7CF280 VA: 0x1807D0C80
+	// RVA: 0x79C5A0 Offset: 0x79ABA0 VA: 0x18079C5A0
 	public void .ctor(AIEventType type) { }
 
-	// RVA: 0x7D0A20 Offset: 0x7CF020 VA: 0x1807D0A20 Slot: 4
+	// RVA: 0x79C340 Offset: 0x79A940 VA: 0x18079C340 Slot: 4
 	public virtual void Init(AIEventData data, BaseEntity owner) { }
 
-	// RVA: 0x7D0A70 Offset: 0x7CF070 VA: 0x1807D0A70 Slot: 5
+	// RVA: 0x79C390 Offset: 0x79A990 VA: 0x18079C390 Slot: 5
 	public virtual void Init(int triggerStateContainer, int id, BaseEntity owner, int inputMemorySlot, int outputMemorySlot, bool inverted) { }
 
-	// RVA: 0x7D0B40 Offset: 0x7CF140 VA: 0x1807D0B40 Slot: 6
+	// RVA: 0x79C460 Offset: 0x79AA60 VA: 0x18079C460 Slot: 6
 	public virtual AIEventData ToProto() { }
 
-	// RVA: 0x7D0AC0 Offset: 0x7CF0C0 VA: 0x1807D0AC0 Slot: 7
+	// RVA: 0x79C3E0 Offset: 0x79A9E0 VA: 0x18079C3E0 Slot: 7
 	public virtual void Reset() { }
 
-	// RVA: 0x7D0AD0 Offset: 0x7CF0D0 VA: 0x1807D0AD0
+	// RVA: 0x79C3F0 Offset: 0x79A9F0 VA: 0x18079C3F0
 	public void Tick(float deltaTime, IAIEventListener listener) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 8
 	public virtual void Execute(AIMemory memory, AIBrainSenses senses, StateStatus stateStatus) { }
 
-	// RVA: 0x7D0AB0 Offset: 0x7CF0B0 VA: 0x1807D0AB0 Slot: 9
+	// RVA: 0x79C3D0 Offset: 0x79A9D0 VA: 0x18079C3D0 Slot: 9
 	public virtual void PostExecute() { }
 
-	// RVA: 0x7D0BC0 Offset: 0x7CF1C0 VA: 0x1807D0BC0
+	// RVA: 0x79C4E0 Offset: 0x79AAE0 VA: 0x18079C4E0
 	public void TriggerStateChange(IAIEventListener listener, int sourceEventID) { }
 
-	// RVA: 0x7D05A0 Offset: 0x7CEBA0 VA: 0x1807D05A0
+	// RVA: 0x79BEC0 Offset: 0x79A4C0 VA: 0x18079BEC0
 	public static BaseAIEvent CreateEvent(AIEventType eventType) { }
 
 }

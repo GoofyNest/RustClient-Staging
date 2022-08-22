@@ -17,28 +17,28 @@ public class ProgressBar : UIBehaviour // TypeDefIndex: 11208
 
 	// Methods
 
-	// RVA: 0x692D80 Offset: 0x691380 VA: 0x180692D80 Slot: 6
+	// RVA: 0x692D10 Offset: 0x691310 VA: 0x180692D10 Slot: 6
 	protected override void Start() { }
 
-	// RVA: 0x692A10 Offset: 0x691010 VA: 0x180692A10
+	// RVA: 0x6929A0 Offset: 0x690FA0 VA: 0x1806929A0
 	public void Open(string name, Sprite sprite, Action<BasePlayer> action, float time) { }
 
-	// RVA: 0x692E60 Offset: 0x691460 VA: 0x180692E60
+	// RVA: 0x692DF0 Offset: 0x6913F0 VA: 0x180692DF0
 	public void UpdateProgressBar() { }
 
-	// RVA: 0x692D40 Offset: 0x691340 VA: 0x180692D40
+	// RVA: 0x692CD0 Offset: 0x6912D0 VA: 0x180692CD0
 	public void PlayOpenSound() { }
 
-	// RVA: 0x692D00 Offset: 0x691300 VA: 0x180692D00
+	// RVA: 0x692C90 Offset: 0x691290 VA: 0x180692C90
 	public void PlayCancelSound() { }
 
-	// RVA: 0x692810 Offset: 0x690E10 VA: 0x180692810
+	// RVA: 0x6927A0 Offset: 0x690DA0 VA: 0x1806927A0
 	public void Close(bool success = False) { }
 
-	// RVA: 0x692F60 Offset: 0x691560 VA: 0x180692F60
+	// RVA: 0x692EF0 Offset: 0x6914F0 VA: 0x180692EF0
 	private void Update() { }
 
-	// RVA: 0x4BAEB0 Offset: 0x4B94B0 VA: 0x1804BAEB0
+	// RVA: 0x4BAE40 Offset: 0x4B9440 VA: 0x1804BAE40
 	public void .ctor() { }
 
 }

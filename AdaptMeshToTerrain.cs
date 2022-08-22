@@ -19,37 +19,37 @@ public class AdaptMeshToTerrain : MonoBehaviour // TypeDefIndex: 10638
 
 	// Methods
 
-	// RVA: 0xA9C1F0 Offset: 0xA9A7F0 VA: 0x180A9C1F0
+	// RVA: 0xA9C6C0 Offset: 0xA9ACC0 VA: 0x180A9C6C0
 	private void CheckInitialize() { }
 
-	// RVA: 0xA9C1D0 Offset: 0xA9A7D0 VA: 0x180A9C1D0
+	// RVA: 0xA9C6A0 Offset: 0xA9ACA0 VA: 0x180A9C6A0
 	private void Awake() { }
 
-	// RVA: 0xA9D100 Offset: 0xA9B700 VA: 0x180A9D100
+	// RVA: 0xA9D5D0 Offset: 0xA9BBD0 VA: 0x180A9D5D0
 	private void OnEnable() { }
 
-	// RVA: 0xA9CFC0 Offset: 0xA9B5C0 VA: 0x180A9CFC0
+	// RVA: 0xA9D490 Offset: 0xA9BA90 VA: 0x180A9D490
 	private void OnDisable() { }
 
-	// RVA: 0xA9D240 Offset: 0xA9B840 VA: 0x180A9D240
+	// RVA: 0xA9D710 Offset: 0xA9BD10 VA: 0x180A9D710
 	private void SetMaterialPropertyBlock() { }
 
-	// RVA: 0xA9CDF0 Offset: 0xA9B3F0 VA: 0x180A9CDF0
+	// RVA: 0xA9D2C0 Offset: 0xA9B8C0 VA: 0x180A9D2C0
 	private void DestroyMeshes() { }
 
-	// RVA: 0xA9C280 Offset: 0xA9A880 VA: 0x180A9C280
+	// RVA: 0xA9C750 Offset: 0xA9AD50 VA: 0x180A9C750
 	private void CheckReferenceMeshes() { }
 
-	// RVA: 0xA9A930 Offset: 0xA98F30 VA: 0x180A9A930
+	// RVA: 0xA9AE00 Offset: 0xA99400 VA: 0x180A9AE00
 	public void Adapt() { }
 
-	// RVA: 0xA9C840 Offset: 0xA9AE40 VA: 0x180A9C840
+	// RVA: 0xA9CD10 Offset: 0xA9B310 VA: 0x180A9CD10
 	private Mesh CreatePlaneMesh(int resolution) { }
 
-	// RVA: 0xA9D3D0 Offset: 0xA9B9D0 VA: 0x180A9D3D0
+	// RVA: 0xA9D8A0 Offset: 0xA9BEA0 VA: 0x180A9D8A0
 	public void .ctor() { }
 
-	// RVA: 0xA9D370 Offset: 0xA9B970 VA: 0x180A9D370
+	// RVA: 0xA9D840 Offset: 0xA9BE40 VA: 0x180A9D840
 	private static void .cctor() { }
 
 }

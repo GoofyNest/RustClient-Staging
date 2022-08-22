@@ -26,22 +26,22 @@ public class LootContainer : StorageContainer // TypeDefIndex: 9590
 
 	// Methods
 
-	// RVA: 0x506720 Offset: 0x504D20 VA: 0x180506720
+	// RVA: 0x5066B0 Offset: 0x504CB0 VA: 0x1805066B0
 	public bool get_shouldRefreshContents() { }
 
-	// RVA: 0x5064F0 Offset: 0x504AF0 VA: 0x1805064F0 Slot: 131
+	// RVA: 0x506480 Offset: 0x504A80 VA: 0x180506480 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0x506500 Offset: 0x504B00 VA: 0x180506500 Slot: 61
+	// RVA: 0x506490 Offset: 0x504A90 VA: 0x180506490 Slot: 61
 	public override void DoDestroyEffects(BaseNetworkable.DestroyMode mode, Message msg) { }
 
-	// RVA: 0x5065E0 Offset: 0x504BE0 VA: 0x1805065E0 Slot: 116
+	// RVA: 0x506570 Offset: 0x504B70 VA: 0x180506570 Slot: 116
 	public override void OnAttacked(HitInfo info) { }
 
-	// RVA: 0x5065C0 Offset: 0x504BC0 VA: 0x1805065C0 Slot: 28
+	// RVA: 0x506550 Offset: 0x504B50 VA: 0x180506550 Slot: 28
 	public override void InitShared() { }
 
-	// RVA: 0x4FF4F0 Offset: 0x4FDAF0 VA: 0x1804FF4F0
+	// RVA: 0x4FF480 Offset: 0x4FDA80 VA: 0x1804FF480
 	public void .ctor() { }
 
 }

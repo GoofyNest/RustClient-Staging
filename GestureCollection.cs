@@ -9,13 +9,13 @@ public class GestureCollection : ScriptableObject // TypeDefIndex: 10086
 
 	// Methods
 
-	// RVA: 0xC98CD0 Offset: 0xC972D0 VA: 0x180C98CD0
+	// RVA: 0xC99170 Offset: 0xC97770 VA: 0x180C99170
 	public GestureConfig IdToGesture(uint id) { }
 
-	// RVA: 0xC98D30 Offset: 0xC97330 VA: 0x180C98D30
+	// RVA: 0xC991D0 Offset: 0xC977D0 VA: 0x180C991D0
 	public GestureConfig StringToGesture(string gestureName) { }
 
-	// RVA: 0xC98DC0 Offset: 0xC973C0 VA: 0x180C98DC0
+	// RVA: 0xC99260 Offset: 0xC97860 VA: 0x180C99260
 	public void .ctor() { }
 
 }

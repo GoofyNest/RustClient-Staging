@@ -35,91 +35,91 @@ public class LTRect // TypeDefIndex: 5585
 
 	// Methods
 
-	// RVA: 0x21A9BD0 Offset: 0x21A81D0 VA: 0x1821A9BD0
+	// RVA: 0x21AA3F0 Offset: 0x21A89F0 VA: 0x1821AA3F0
 	public void .ctor() { }
 
-	// RVA: 0x21A9B30 Offset: 0x21A8130 VA: 0x1821A9B30
+	// RVA: 0x21AA350 Offset: 0x21A8950 VA: 0x1821AA350
 	public void .ctor(Rect rect) { }
 
-	// RVA: 0x21A9A40 Offset: 0x21A8040 VA: 0x1821A9A40
+	// RVA: 0x21AA260 Offset: 0x21A8860 VA: 0x1821AA260
 	public void .ctor(float x, float y, float width, float height) { }
 
-	// RVA: 0x21A9810 Offset: 0x21A7E10 VA: 0x1821A9810
+	// RVA: 0x21AA030 Offset: 0x21A8630 VA: 0x1821AA030
 	public void .ctor(float x, float y, float width, float height, float alpha) { }
 
-	// RVA: 0x21A9910 Offset: 0x21A7F10 VA: 0x1821A9910
+	// RVA: 0x21AA130 Offset: 0x21A8730 VA: 0x1821AA130
 	public void .ctor(float x, float y, float width, float height, float alpha, float rotation) { }
 
-	// RVA: 0x21A9C90 Offset: 0x21A8290 VA: 0x1821A9C90
+	// RVA: 0x21AA4B0 Offset: 0x21A8AB0 VA: 0x1821AA4B0
 	public bool get_hasInitiliazed() { }
 
-	// RVA: 0x21A9CB0 Offset: 0x21A82B0 VA: 0x1821A9CB0
+	// RVA: 0x21AA4D0 Offset: 0x21A8AD0 VA: 0x1821AA4D0
 	public int get_id() { }
 
-	// RVA: 0x21AA3A0 Offset: 0x21A89A0 VA: 0x1821AA3A0
+	// RVA: 0x21AABC0 Offset: 0x21A91C0 VA: 0x1821AABC0
 	public void setId(int id, int counter) { }
 
-	// RVA: 0x21AA2F0 Offset: 0x21A88F0 VA: 0x1821AA2F0
+	// RVA: 0x21AAB10 Offset: 0x21A9110 VA: 0x1821AAB10
 	public void reset() { }
 
-	// RVA: 0x21A9F80 Offset: 0x21A8580 VA: 0x1821A9F80
+	// RVA: 0x21AA7A0 Offset: 0x21A8DA0 VA: 0x1821AA7A0
 	public void resetForRotation() { }
 
-	// RVA: 0x21A9F60 Offset: 0x21A8560 VA: 0x1821A9F60
+	// RVA: 0x21AA780 Offset: 0x21A8D80 VA: 0x1821AA780
 	public float get_x() { }
 
-	// RVA: 0x21AA4A0 Offset: 0x21A8AA0 VA: 0x1821AA4A0
+	// RVA: 0x21AACC0 Offset: 0x21A92C0 VA: 0x1821AACC0
 	public void set_x(float value) { }
 
-	// RVA: 0x21A9F70 Offset: 0x21A8570 VA: 0x1821A9F70
+	// RVA: 0x21AA790 Offset: 0x21A8D90 VA: 0x1821AA790
 	public float get_y() { }
 
-	// RVA: 0x21AA4B0 Offset: 0x21A8AB0 VA: 0x1821AA4B0
+	// RVA: 0x21AACD0 Offset: 0x21A92D0 VA: 0x1821AACD0
 	public void set_y(float value) { }
 
-	// RVA: 0x21A9F50 Offset: 0x21A8550 VA: 0x1821A9F50
+	// RVA: 0x21AA770 Offset: 0x21A8D70 VA: 0x1821AA770
 	public float get_width() { }
 
-	// RVA: 0x21AA490 Offset: 0x21A8A90 VA: 0x1821AA490
+	// RVA: 0x21AACB0 Offset: 0x21A92B0 VA: 0x1821AACB0
 	public void set_width(float value) { }
 
-	// RVA: 0x21A9CA0 Offset: 0x21A82A0 VA: 0x1821A9CA0
+	// RVA: 0x21AA4C0 Offset: 0x21A8AC0 VA: 0x1821AA4C0
 	public float get_height() { }
 
-	// RVA: 0x21AA480 Offset: 0x21A8A80 VA: 0x1821AA480
+	// RVA: 0x21AACA0 Offset: 0x21A92A0 VA: 0x1821AACA0
 	public void set_height(float value) { }
 
-	// RVA: 0x21A9CC0 Offset: 0x21A82C0 VA: 0x1821A9CC0
+	// RVA: 0x21AA4E0 Offset: 0x21A8AE0 VA: 0x1821AA4E0
 	public Rect get_rect() { }
 
-	// RVA: 0x1096860 Offset: 0x1094E60 VA: 0x181096860
+	// RVA: 0x10972D0 Offset: 0x10958D0 VA: 0x1810972D0
 	public void set_rect(Rect value) { }
 
-	// RVA: 0x21AA3E0 Offset: 0x21A89E0 VA: 0x1821AA3E0
+	// RVA: 0x21AAC00 Offset: 0x21A9200 VA: 0x1821AAC00
 	public LTRect setStyle(GUIStyle style) { }
 
-	// RVA: 0x21AA390 Offset: 0x21A8990 VA: 0x1821AA390
+	// RVA: 0x21AABB0 Offset: 0x21A91B0 VA: 0x1821AABB0
 	public LTRect setFontScaleToFit(bool fontScaleToFit) { }
 
-	// RVA: 0x21AA380 Offset: 0x21A8980 VA: 0x1821AA380
+	// RVA: 0x21AABA0 Offset: 0x21A91A0 VA: 0x1821AABA0
 	public LTRect setColor(Color color) { }
 
-	// RVA: 0x199E0D0 Offset: 0x199C6D0 VA: 0x18199E0D0
+	// RVA: 0x198B4D0 Offset: 0x1989AD0 VA: 0x18198B4D0
 	public LTRect setAlpha(float alpha) { }
 
-	// RVA: 0x21AA3B0 Offset: 0x21A89B0 VA: 0x1821AA3B0
+	// RVA: 0x21AABD0 Offset: 0x21A91D0 VA: 0x1821AABD0
 	public LTRect setLabel(string str) { }
 
-	// RVA: 0x21AA470 Offset: 0x21A8A70 VA: 0x1821AA470
+	// RVA: 0x21AAC90 Offset: 0x21A9290 VA: 0x1821AAC90
 	public LTRect setUseSimpleScale(bool useSimpleScale, Rect relativeRect) { }
 
-	// RVA: 0x21AA400 Offset: 0x21A8A00 VA: 0x1821AA400
+	// RVA: 0x21AAC20 Offset: 0x21A9220 VA: 0x1821AAC20
 	public LTRect setUseSimpleScale(bool useSimpleScale) { }
 
-	// RVA: 0x21AA3D0 Offset: 0x21A89D0 VA: 0x1821AA3D0
+	// RVA: 0x21AABF0 Offset: 0x21A91F0 VA: 0x1821AABF0
 	public LTRect setSizeByHeight(bool sizeByHeight) { }
 
-	// RVA: 0x21A9420 Offset: 0x21A7A20 VA: 0x1821A9420 Slot: 3
+	// RVA: 0x21A9C40 Offset: 0x21A8240 VA: 0x1821A9C40 Slot: 3
 	public override string ToString() { }
 
 }

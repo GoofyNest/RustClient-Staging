@@ -10,7 +10,7 @@ public class GodRays : PostProcessEffectSettings // TypeDefIndex: 10260
 
 	// Methods
 
-	// RVA: 0xCA3790 Offset: 0xCA1D90 VA: 0x180CA3790
+	// RVA: 0xCA3C30 Offset: 0xCA2230 VA: 0x180CA3C30
 	public void .ctor() { }
 
 }

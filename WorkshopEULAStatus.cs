@@ -14,13 +14,13 @@ internal struct WorkshopEULAStatus_t : ICallbackData // TypeDefIndex: 5448
 
 	// Methods
 
-	// RVA: 0x1DC9F0 Offset: 0x1DBDF0 VA: 0x1801DC9F0 Slot: 5
+	// RVA: 0x1DD060 Offset: 0x1DC460 VA: 0x1801DD060 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DC9E0 Offset: 0x1DBDE0 VA: 0x1801DC9E0 Slot: 4
+	// RVA: 0x1DD050 Offset: 0x1DC450 VA: 0x1801DD050 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1292410 Offset: 0x1290A10 VA: 0x181292410
+	// RVA: 0x1292AB0 Offset: 0x12910B0 VA: 0x181292AB0
 	private static void .cctor() { }
 
 }

@@ -8,19 +8,19 @@ public class ReclaimBackpack : StorageContainer // TypeDefIndex: 8741
 
 	// Methods
 
-	// RVA: 0x6AC570 Offset: 0x6AAB70 VA: 0x1806AC570 Slot: 34
+	// RVA: 0x6AC500 Offset: 0x6AAB00 VA: 0x1806AC500 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x6AC390 Offset: 0x6AA990 VA: 0x1806AC390
+	// RVA: 0x6AC320 Offset: 0x6AA920 VA: 0x1806AC320
 	private bool BelongsToLocalPlayer() { }
 
-	// RVA: 0x6AC5E0 Offset: 0x6AABE0 VA: 0x1806AC5E0 Slot: 153
+	// RVA: 0x6AC570 Offset: 0x6AAB70 VA: 0x1806AC570 Slot: 153
 	public override bool ShouldShowLootMenus() { }
 
-	// RVA: 0x6AC510 Offset: 0x6AAB10 VA: 0x1806AC510 Slot: 14
+	// RVA: 0x6AC4A0 Offset: 0x6AAAA0 VA: 0x1806AC4A0 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x6AC610 Offset: 0x6AAC10 VA: 0x1806AC610
+	// RVA: 0x6AC5A0 Offset: 0x6AABA0 VA: 0x1806AC5A0
 	public void .ctor() { }
 
 }

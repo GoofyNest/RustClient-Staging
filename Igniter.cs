@@ -9,10 +9,10 @@ public class Igniter : IOEntity // TypeDefIndex: 8713
 
 	// Methods
 
-	// RVA: 0x80BA50 Offset: 0x80A050 VA: 0x18080BA50 Slot: 150
+	// RVA: 0x80BFE0 Offset: 0x80A5E0 VA: 0x18080BFE0 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0x80BA60 Offset: 0x80A060 VA: 0x18080BA60
+	// RVA: 0x80BFF0 Offset: 0x80A5F0 VA: 0x18080BFF0
 	public void .ctor() { }
 
 }

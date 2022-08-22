@@ -1,7 +1,7 @@
 public sealed class PointerOverEvent : PointerEventBase<PointerOverEvent> // TypeDefIndex: 4698
 {	// Methods
 
-	// RVA: 0xEB9080 Offset: 0xEB7680 VA: 0x180EB9080
+	// RVA: 0xEB9B30 Offset: 0xEB8130 VA: 0x180EB9B30
 	public void .ctor() { }
 
 }

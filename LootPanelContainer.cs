@@ -11,22 +11,22 @@ public class LootPanelContainer : MonoBehaviour // TypeDefIndex: 11029
 
 	// Methods
 
-	// RVA: 0x507040 Offset: 0x505640 VA: 0x180507040
+	// RVA: 0x506FD0 Offset: 0x5055D0 VA: 0x180506FD0
 	private void Update() { }
 
-	// RVA: 0x506DE0 Offset: 0x5053E0 VA: 0x180506DE0
+	// RVA: 0x506D70 Offset: 0x505370 VA: 0x180506D70
 	private void CreateLootPanel() { }
 
-	// RVA: 0x506F70 Offset: 0x505570 VA: 0x180506F70
+	// RVA: 0x506F00 Offset: 0x505500 VA: 0x180506F00
 	private void DestroyLootPanel() { }
 
-	// RVA: 0x507430 Offset: 0x505A30 VA: 0x180507430
+	// RVA: 0x5073C0 Offset: 0x5059C0 VA: 0x1805073C0
 	private bool get_shouldShowPanel() { }
 
-	// RVA: 0x5073E0 Offset: 0x5059E0 VA: 0x1805073E0
+	// RVA: 0x507370 Offset: 0x505970 VA: 0x180507370
 	public void .ctor() { }
 
-	// RVA: 0x5073A0 Offset: 0x5059A0 VA: 0x1805073A0
+	// RVA: 0x507330 Offset: 0x505930 VA: 0x180507330
 	private static void .cctor() { }
 
 }

@@ -30,13 +30,13 @@ public class ERRoadType // TypeDefIndex: 7227
 
 	// Methods
 
-	// RVA: 0xB42BC0 Offset: 0xB411C0 VA: 0x180B42BC0
+	// RVA: 0xB43090 Offset: 0xB41690 VA: 0x180B43090
 	public void .ctor() { }
 
-	// RVA: 0xB42600 Offset: 0xB40C00 VA: 0x180B42600
+	// RVA: 0xB42AD0 Offset: 0xB410D0 VA: 0x180B42AD0
 	public void Update() { }
 
-	// RVA: 0xB42490 Offset: 0xB40A90 VA: 0x180B42490
+	// RVA: 0xB42960 Offset: 0xB40F60 VA: 0x180B42960
 	public static QDQDOOQQDQODD GetRoadType(ERRoadType t, ERModularBase baseScript) { }
 
 }

@@ -1,19 +1,19 @@
 internal static class ASN1Convert // TypeDefIndex: 46
 {	// Methods
 
-	// RVA: 0x1744420 Offset: 0x1742A20 VA: 0x181744420
+	// RVA: 0x1741FE0 Offset: 0x17405E0 VA: 0x181741FE0
 	public static ASN1 FromInt32(int value) { }
 
-	// RVA: 0x1744560 Offset: 0x1742B60 VA: 0x181744560
+	// RVA: 0x1742120 Offset: 0x1740720 VA: 0x181742120
 	public static ASN1 FromOid(string oid) { }
 
-	// RVA: 0x1744C10 Offset: 0x1743210 VA: 0x181744C10
+	// RVA: 0x17427D0 Offset: 0x1740DD0 VA: 0x1817427D0
 	public static int ToInt32(ASN1 asn1) { }
 
-	// RVA: 0x1744D40 Offset: 0x1743340 VA: 0x181744D40
+	// RVA: 0x1742900 Offset: 0x1740F00 VA: 0x181742900
 	public static string ToOid(ASN1 asn1) { }
 
-	// RVA: 0x1744600 Offset: 0x1742C00 VA: 0x181744600
+	// RVA: 0x17421C0 Offset: 0x17407C0 VA: 0x1817421C0
 	public static DateTime ToDateTime(ASN1 time) { }
 
 }
@@ -21,22 +21,22 @@ internal static class ASN1Convert // TypeDefIndex: 46
 public static class ASN1Convert // TypeDefIndex: 1705
 {	// Methods
 
-	// RVA: 0x1AAC8C0 Offset: 0x1AAAEC0 VA: 0x181AAC8C0
+	// RVA: 0x1AAD0B0 Offset: 0x1AAB6B0 VA: 0x181AAD0B0
 	public static ASN1 FromInt32(int value) { }
 
-	// RVA: 0x1AACB20 Offset: 0x1AAB120 VA: 0x181AACB20
+	// RVA: 0x1AAD310 Offset: 0x1AAB910 VA: 0x181AAD310
 	public static ASN1 FromOid(string oid) { }
 
-	// RVA: 0x1AACBC0 Offset: 0x1AAB1C0 VA: 0x181AACBC0
+	// RVA: 0x1AAD3B0 Offset: 0x1AAB9B0 VA: 0x181AAD3B0
 	public static ASN1 FromUnsignedBigInteger(byte[] big) { }
 
-	// RVA: 0x1AAD2D0 Offset: 0x1AAB8D0 VA: 0x181AAD2D0
+	// RVA: 0x1AADAC0 Offset: 0x1AAC0C0 VA: 0x181AADAC0
 	public static int ToInt32(ASN1 asn1) { }
 
-	// RVA: 0x1AAD470 Offset: 0x1AABA70 VA: 0x181AAD470
+	// RVA: 0x1AADC60 Offset: 0x1AAC260 VA: 0x181AADC60
 	public static string ToOid(ASN1 asn1) { }
 
-	// RVA: 0x1AACCC0 Offset: 0x1AAB2C0 VA: 0x181AACCC0
+	// RVA: 0x1AAD4B0 Offset: 0x1AABAB0 VA: 0x181AAD4B0
 	public static DateTime ToDateTime(ASN1 time) { }
 
 }

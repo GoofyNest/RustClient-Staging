@@ -7,7 +7,7 @@ public class TriggerParentEnclosed : TriggerParent // TypeDefIndex: 10038
 
 	// Methods
 
-	// RVA: 0xA22550 Offset: 0xA20B50 VA: 0x180A22550
+	// RVA: 0xA22A40 Offset: 0xA21040 VA: 0x180A22A40
 	public void .ctor() { }
 
 }

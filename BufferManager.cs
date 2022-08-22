@@ -8,32 +8,32 @@ internal static class BufferManager // TypeDefIndex: 5175
 
 	// Methods
 
-	// RVA: 0x136C180 Offset: 0x136A780 VA: 0x18136C180
+	// RVA: 0x136B280 Offset: 0x1369880 VA: 0x18136B280
 	public static IntPtr Get(int size, int referenceCount) { }
 
 	[MonoPInvokeCallbackAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x136BDE0 Offset: 0x136A3E0 VA: 0x18136BDE0
+	// RVA: 0x136AEE0 Offset: 0x13694E0 VA: 0x18136AEE0
 	private static void Free(NetMsg* msg) { }
 
-	// RVA: 0x136B600 Offset: 0x1369C00 VA: 0x18136B600
+	// RVA: 0x136A700 Offset: 0x1368D00 VA: 0x18136A700
 	private static BufferManager.ReferenceCounter AllocateReferenceCounter(IntPtr ptr, int size, int referenceCount) { }
 
-	// RVA: 0x136BC20 Offset: 0x136A220 VA: 0x18136BC20
+	// RVA: 0x136AD20 Offset: 0x1369320 VA: 0x18136AD20
 	private static void FreeReferenceCounter(BufferManager.ReferenceCounter counter) { }
 
-	// RVA: 0x136B3A0 Offset: 0x13699A0 VA: 0x18136B3A0
+	// RVA: 0x136A4A0 Offset: 0x1368AA0 VA: 0x18136A4A0
 	private static void AllocateBuffer(int minimumSize, out IntPtr ptr, out int size) { }
 
-	// RVA: 0x136B8C0 Offset: 0x1369EC0 VA: 0x18136B8C0
+	// RVA: 0x136A9C0 Offset: 0x1368FC0 VA: 0x18136A9C0
 	private static void FreeBuffer(IntPtr ptr, int size) { }
 
-	// RVA: 0x136C120 Offset: 0x136A720 VA: 0x18136C120
+	// RVA: 0x136B220 Offset: 0x1369820 VA: 0x18136B220
 	private static int GetBucketSize(int size) { }
 
-	// RVA: 0x136C0C0 Offset: 0x136A6C0 VA: 0x18136C0C0
+	// RVA: 0x136B1C0 Offset: 0x13697C0 VA: 0x18136B1C0
 	private static int GetBucketLimit(int size) { }
 
-	// RVA: 0x136C380 Offset: 0x136A980 VA: 0x18136C380
+	// RVA: 0x136B480 Offset: 0x1369A80 VA: 0x18136B480
 	private static void .cctor() { }
 
 }
@@ -53,21 +53,21 @@ private sealed class BufferManager.ReferenceCounter // TypeDefIndex: 5176
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8C1190 Offset: 0x8BF790 VA: 0x1808C1190
+	// RVA: 0x8C16A0 Offset: 0x8BFCA0 VA: 0x1808C16A0
 	private void set_Pointer(IntPtr value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public int get_Size() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x7D0D90 Offset: 0x7CF390 VA: 0x1807D0D90
+	// RVA: 0x79C6B0 Offset: 0x79ACB0 VA: 0x18079C6B0
 	private void set_Size(int value) { }
 
-	// RVA: 0x1375B30 Offset: 0x1374130 VA: 0x181375B30
+	// RVA: 0x1374C30 Offset: 0x1373230 VA: 0x181374C30
 	public void Set(IntPtr ptr, int size, int referenceCount) { }
 
-	// RVA: 0x1375AB0 Offset: 0x13740B0 VA: 0x181375AB0
+	// RVA: 0x1374BB0 Offset: 0x13731B0 VA: 0x181374BB0
 	public bool Decrement() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
@@ -81,7 +81,7 @@ private sealed class BufferManager.FreeFn : MulticastDelegate // TypeDefIndex: 5
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x12213D0 Offset: 0x121F9D0 VA: 0x1812213D0 Slot: 12
+	// RVA: 0x1221A70 Offset: 0x1220070 VA: 0x181221A70 Slot: 12
 	public virtual void Invoke(NetMsg* msg) { }
 
 	// RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380 Slot: 13

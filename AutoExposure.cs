@@ -28,10 +28,10 @@ public sealed class AutoExposure : PostProcessEffectSettings // TypeDefIndex: 11
 
 	// Methods
 
-	// RVA: 0x9EDE30 Offset: 0x9EC430 VA: 0x1809EDE30 Slot: 4
+	// RVA: 0x9EE320 Offset: 0x9EC920 VA: 0x1809EE320 Slot: 4
 	public override bool IsEnabledAndSupported(PostProcessRenderContext context) { }
 
-	// RVA: 0x9EDFA0 Offset: 0x9EC5A0 VA: 0x1809EDFA0
+	// RVA: 0x9EE490 Offset: 0x9ECA90 VA: 0x1809EE490
 	public void .ctor() { }
 
 }

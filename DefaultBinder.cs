@@ -1,67 +1,67 @@
 internal class DefaultBinder : Binder // TypeDefIndex: 203
 {	// Methods
 
-	// RVA: 0xD6A3E0 Offset: 0xD689E0 VA: 0x180D6A3E0 Slot: 4
+	// RVA: 0xD6AE90 Offset: 0xD69490 VA: 0x180D6AE90 Slot: 4
 	public override MethodBase BindToMethod(BindingFlags bindingAttr, MethodBase[] match, ref object[] args, ParameterModifier[] modifiers, CultureInfo cultureInfo, string[] names, out object state) { }
 
-	// RVA: 0xD69BD0 Offset: 0xD681D0 VA: 0x180D69BD0 Slot: 5
+	// RVA: 0xD6A680 Offset: 0xD68C80 VA: 0x180D6A680 Slot: 5
 	public override FieldInfo BindToField(BindingFlags bindingAttr, FieldInfo[] match, object value, CultureInfo cultureInfo) { }
 
-	// RVA: 0xD6F160 Offset: 0xD6D760 VA: 0x180D6F160 Slot: 6
+	// RVA: 0xD6FC10 Offset: 0xD6E210 VA: 0x180D6FC10 Slot: 6
 	public override MethodBase SelectMethod(BindingFlags bindingAttr, MethodBase[] match, Type[] types, ParameterModifier[] modifiers) { }
 
-	// RVA: 0xD6F9B0 Offset: 0xD6DFB0 VA: 0x180D6F9B0 Slot: 7
+	// RVA: 0xD70460 Offset: 0xD6EA60 VA: 0x180D70460 Slot: 7
 	public override PropertyInfo SelectProperty(BindingFlags bindingAttr, PropertyInfo[] match, Type returnType, Type[] indexes, ParameterModifier[] modifiers) { }
 
-	// RVA: 0xD6D3B0 Offset: 0xD6B9B0 VA: 0x180D6D3B0 Slot: 8
+	// RVA: 0xD6DE60 Offset: 0xD6C460 VA: 0x180D6DE60 Slot: 8
 	public override object ChangeType(object value, Type type, CultureInfo cultureInfo) { }
 
-	// RVA: 0xD6EC20 Offset: 0xD6D220 VA: 0x180D6EC20 Slot: 9
+	// RVA: 0xD6F6D0 Offset: 0xD6DCD0 VA: 0x180D6F6D0 Slot: 9
 	public override void ReorderArgumentArray(ref object[] args, object state) { }
 
-	// RVA: 0xD6D810 Offset: 0xD6BE10 VA: 0x180D6D810
+	// RVA: 0xD6E2C0 Offset: 0xD6C8C0 VA: 0x180D6E2C0
 	public static MethodBase ExactBinding(MethodBase[] match, Type[] types, ParameterModifier[] modifiers) { }
 
-	// RVA: 0xD6DBA0 Offset: 0xD6C1A0 VA: 0x180D6DBA0
+	// RVA: 0xD6E650 Offset: 0xD6CC50 VA: 0x180D6E650
 	public static PropertyInfo ExactPropertyBinding(PropertyInfo[] match, Type returnType, Type[] types, ParameterModifier[] modifiers) { }
 
-	// RVA: 0xD6E710 Offset: 0xD6CD10 VA: 0x180D6E710
+	// RVA: 0xD6F1C0 Offset: 0xD6D7C0 VA: 0x180D6F1C0
 	private static int FindMostSpecific(ParameterInfo[] p1, int[] paramOrder1, Type paramArrayType1, ParameterInfo[] p2, int[] paramOrder2, Type paramArrayType2, Type[] types, object[] args) { }
 
-	// RVA: 0xD6E320 Offset: 0xD6C920 VA: 0x180D6E320
+	// RVA: 0xD6EDD0 Offset: 0xD6D3D0 VA: 0x180D6EDD0
 	private static int FindMostSpecificType(Type c1, Type c2, Type t) { }
 
-	// RVA: 0xD6E0C0 Offset: 0xD6C6C0 VA: 0x180D6E0C0
+	// RVA: 0xD6EB70 Offset: 0xD6D170 VA: 0x180D6EB70
 	private static int FindMostSpecificMethod(MethodBase m1, int[] paramOrder1, Type paramArrayType1, MethodBase m2, int[] paramOrder2, Type paramArrayType2, Type[] types, object[] args) { }
 
-	// RVA: 0xD6DFE0 Offset: 0xD6C5E0 VA: 0x180D6DFE0
+	// RVA: 0xD6EA90 Offset: 0xD6D090 VA: 0x180D6EA90
 	private static int FindMostSpecificField(FieldInfo cur1, FieldInfo cur2) { }
 
-	// RVA: 0xD6DFE0 Offset: 0xD6C5E0 VA: 0x180D6DFE0
+	// RVA: 0xD6EA90 Offset: 0xD6D090 VA: 0x180D6EA90
 	private static int FindMostSpecificProperty(PropertyInfo cur1, PropertyInfo cur2) { }
 
-	// RVA: 0xD6D420 Offset: 0xD6BA20 VA: 0x180D6D420
+	// RVA: 0xD6DED0 Offset: 0xD6C4D0 VA: 0x180D6DED0
 	internal static bool CompareMethodSigAndName(MethodBase m1, MethodBase m2) { }
 
-	// RVA: 0xD6EB90 Offset: 0xD6D190 VA: 0x180D6EB90
+	// RVA: 0xD6F640 Offset: 0xD6DC40 VA: 0x180D6F640
 	internal static int GetHierarchyDepth(Type t) { }
 
-	// RVA: 0xD6DEC0 Offset: 0xD6C4C0 VA: 0x180D6DEC0
+	// RVA: 0xD6E970 Offset: 0xD6CF70 VA: 0x180D6E970
 	internal static MethodBase FindMostDerivedNewSlotMeth(MethodBase[] match, int cMatches) { }
 
-	// RVA: 0xD6EF90 Offset: 0xD6D590 VA: 0x180D6EF90
+	// RVA: 0xD6FA40 Offset: 0xD6E040 VA: 0x180D6FA40
 	private static void ReorderParams(int[] paramOrder, object[] vars) { }
 
-	// RVA: 0xD6D5A0 Offset: 0xD6BBA0 VA: 0x180D6D5A0
+	// RVA: 0xD6E050 Offset: 0xD6C650 VA: 0x180D6E050
 	private static bool CreateParamOrder(int[] paramOrder, ParameterInfo[] pars, string[] names) { }
 
-	// RVA: 0xD6D150 Offset: 0xD6B750 VA: 0x180D6D150
+	// RVA: 0xD6DC00 Offset: 0xD6C200 VA: 0x180D6DC00
 	private static bool CanConvertPrimitive(RuntimeType source, RuntimeType target) { }
 
-	// RVA: 0xD6D050 Offset: 0xD6B650 VA: 0x180D6D050
+	// RVA: 0xD6DB00 Offset: 0xD6C100 VA: 0x180D6DB00
 	private static bool CanConvertPrimitiveObjectToType(object source, RuntimeType type) { }
 
-	// RVA: 0x79B660 Offset: 0x799C60 VA: 0x18079B660
+	// RVA: 0x7B9740 Offset: 0x7B7D40 VA: 0x1807B9740
 	public void .ctor() { }
 
 }
@@ -74,7 +74,7 @@ internal class DefaultBinder.BinderState // TypeDefIndex: 204
 
 	// Methods
 
-	// RVA: 0xD682D0 Offset: 0xD668D0 VA: 0x180D682D0
+	// RVA: 0xD68D80 Offset: 0xD67380 VA: 0x180D68D80
 	internal void .ctor(int[] argsMap, int originalSize, bool isParamArray) { }
 
 }
@@ -86,13 +86,13 @@ private sealed class DefaultBinder.<>c // TypeDefIndex: 205
 
 	// Methods
 
-	// RVA: 0xD87A50 Offset: 0xD86050 VA: 0x180D87A50
+	// RVA: 0xD88500 Offset: 0xD86B00 VA: 0x180D88500
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xD87780 Offset: 0xD85D80 VA: 0x180D87780
+	// RVA: 0xD88230 Offset: 0xD86830 VA: 0x180D88230
 	internal bool <SelectProperty>b__3_0(Type t) { }
 
 }

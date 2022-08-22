@@ -5,17 +5,17 @@ public static class Vis // TypeDefIndex: 10054
 
 	// Methods
 
-	// RVA: 0x7FD870 Offset: 0x7FBE70 VA: 0x1807FD870
+	// RVA: 0x7FDE00 Offset: 0x7FC400 VA: 0x1807FDE00
 	private static void Buffer(Vector3 position, float radius, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 
-	// RVA: 0x7FD2D0 Offset: 0x7FB8D0 VA: 0x1807FD2D0
+	// RVA: 0x7FD860 Offset: 0x7FBE60 VA: 0x1807FD860
 	public static bool AnyColliders(Vector3 position, float radius, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 1) { }
 
 	// RVA: -1 Offset: -1
 	public static void Colliders<T>(Vector3 position, float radius, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D90D0 Offset: 0x5D76D0 VA: 0x1805D90D0
+	|-RVA: 0x5D9060 Offset: 0x5D7660 VA: 0x1805D9060
 	|-Vis.Colliders<object>
 	|-Vis.Colliders<Collider>
 	*/
@@ -24,7 +24,7 @@ public static class Vis // TypeDefIndex: 10054
 	public static void Components<T>(Vector3 position, float radius, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D9510 Offset: 0x5D7B10 VA: 0x1805D9510
+	|-RVA: 0x5D94A0 Offset: 0x5D7AA0 VA: 0x1805D94A0
 	|-Vis.Components<object>
 	|-Vis.Components<Rigidbody>
 	|-Vis.Components<WaterVolume>
@@ -34,7 +34,7 @@ public static class Vis // TypeDefIndex: 10054
 	public static void Entities<T>(Vector3 position, float radius, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D9C20 Offset: 0x5D8220 VA: 0x1805D9C20
+	|-RVA: 0x5D9BB0 Offset: 0x5D81B0 VA: 0x1805D9BB0
 	|-Vis.Entities<BaseEntity>
 	|-Vis.Entities<BasePlayer>
 	|-Vis.Entities<BaseVehicle>
@@ -51,18 +51,18 @@ public static class Vis // TypeDefIndex: 10054
 	public static void EntityComponents<T>(Vector3 position, float radius, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D9E50 Offset: 0x5D8450 VA: 0x1805D9E50
+	|-RVA: 0x5D9DE0 Offset: 0x5D83E0 VA: 0x1805D9DE0
 	|-Vis.EntityComponents<object>
 	*/
 
-	// RVA: 0x7FD5D0 Offset: 0x7FBBD0 VA: 0x1807FD5D0
+	// RVA: 0x7FDB60 Offset: 0x7FC160 VA: 0x1807FDB60
 	private static void Buffer(OBB bounds, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 
 	// RVA: -1 Offset: -1
 	public static void Colliders<T>(OBB bounds, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D8EA0 Offset: 0x5D74A0 VA: 0x1805D8EA0
+	|-RVA: 0x5D8E30 Offset: 0x5D7430 VA: 0x1805D8E30
 	|-Vis.Colliders<object>
 	*/
 
@@ -70,7 +70,7 @@ public static class Vis // TypeDefIndex: 10054
 	public static void Components<T>(OBB bounds, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D9300 Offset: 0x5D7900 VA: 0x1805D9300
+	|-RVA: 0x5D9290 Offset: 0x5D7890 VA: 0x1805D9290
 	|-Vis.Components<object>
 	*/
 
@@ -78,7 +78,7 @@ public static class Vis // TypeDefIndex: 10054
 	public static void Entities<T>(OBB bounds, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D9700 Offset: 0x5D7D00 VA: 0x1805D9700
+	|-RVA: 0x5D9690 Offset: 0x5D7C90 VA: 0x1805D9690
 	|-Vis.Entities<object>
 	*/
 
@@ -86,22 +86,22 @@ public static class Vis // TypeDefIndex: 10054
 	public static void EntityComponents<T>(OBB bounds, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5DA090 Offset: 0x5D8690 VA: 0x1805DA090
+	|-RVA: 0x5DA020 Offset: 0x5D8620 VA: 0x1805DA020
 	|-Vis.EntityComponents<object>
 	*/
 
-	// RVA: 0x7FD380 Offset: 0x7FB980 VA: 0x1807FD380
+	// RVA: 0x7FD910 Offset: 0x7FBF10 VA: 0x1807FD910
 	private static void Buffer(Vector3 startPosition, Vector3 endPosition, float radius, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 
 	// RVA: -1 Offset: -1
 	public static void Entities<T>(Vector3 startPosition, Vector3 endPosition, float radius, List<T> list, int layerMask = -1, QueryTriggerInteraction triggerInteraction = 2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D9980 Offset: 0x5D7F80 VA: 0x1805D9980
+	|-RVA: 0x5D9910 Offset: 0x5D7F10 VA: 0x1805D9910
 	|-Vis.Entities<object>
 	*/
 
-	// RVA: 0x7FDAC0 Offset: 0x7FC0C0 VA: 0x1807FDAC0
+	// RVA: 0x7FE050 Offset: 0x7FC650 VA: 0x1807FE050
 	private static void .cctor() { }
 
 }

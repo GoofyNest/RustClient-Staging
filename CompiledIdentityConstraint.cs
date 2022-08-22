@@ -14,22 +14,22 @@ internal class CompiledIdentityConstraint // TypeDefIndex: 2143
 
 	// Methods
 
-	// RVA: 0x4C1470 Offset: 0x4BFA70 VA: 0x1804C1470
+	// RVA: 0x4C1400 Offset: 0x4BFA00 VA: 0x1804C1400
 	public CompiledIdentityConstraint.ConstraintRole get_Role() { }
 
 	// RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
 	public Asttree get_Selector() { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	public Asttree[] get_Fields() { }
 
-	// RVA: 0xF47DF0 Offset: 0xF463F0 VA: 0x180F47DF0
+	// RVA: 0xF48890 Offset: 0xF46E90 VA: 0x180F48890
 	private void .ctor() { }
 
-	// RVA: 0xF47E80 Offset: 0xF46480 VA: 0x180F47E80
+	// RVA: 0xF48920 Offset: 0xF46F20 VA: 0x180F48920
 	public void .ctor(XmlSchemaIdentityConstraint constraint, XmlNamespaceManager nsmgr) { }
 
-	// RVA: 0xF47D20 Offset: 0xF46320 VA: 0x180F47D20
+	// RVA: 0xF487C0 Offset: 0xF46DC0 VA: 0x180F487C0
 	private static void .cctor() { }
 
 }

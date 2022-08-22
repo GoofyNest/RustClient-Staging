@@ -13,7 +13,7 @@ public class BaseMagnet : MonoBehaviour // TypeDefIndex: 9730
 
 	// Methods
 
-	// RVA: 0xA45290 Offset: 0xA43890 VA: 0x180A45290
+	// RVA: 0xA45780 Offset: 0xA43D80 VA: 0x180A45780
 	public void .ctor() { }
 
 }

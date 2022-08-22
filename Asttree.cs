@@ -10,28 +10,28 @@ internal class Asttree // TypeDefIndex: 2137
 
 	// Methods
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	internal ArrayList get_SubtreeArray() { }
 
-	// RVA: 0xF42B90 Offset: 0xF41190 VA: 0x180F42B90
+	// RVA: 0xF43630 Offset: 0xF41C30 VA: 0x180F43630
 	public void .ctor(string xPath, bool isField, XmlNamespaceManager nsmgr) { }
 
-	// RVA: 0xF42A20 Offset: 0xF41020 VA: 0x180F42A20
+	// RVA: 0xF434C0 Offset: 0xF41AC0 VA: 0x180F434C0
 	private static bool IsNameTest(Axis ast) { }
 
-	// RVA: 0xF429C0 Offset: 0xF40FC0 VA: 0x180F429C0
+	// RVA: 0xF43460 Offset: 0xF41A60 VA: 0x180F43460
 	internal static bool IsAttribute(Axis ast) { }
 
-	// RVA: 0xF429F0 Offset: 0xF40FF0 VA: 0x180F429F0
+	// RVA: 0xF43490 Offset: 0xF41A90 VA: 0x180F43490
 	private static bool IsDescendantOrSelf(Axis ast) { }
 
-	// RVA: 0xF42A50 Offset: 0xF41050 VA: 0x180F42A50
+	// RVA: 0xF434F0 Offset: 0xF41AF0 VA: 0x180F434F0
 	internal static bool IsSelf(Axis ast) { }
 
-	// RVA: 0xF42120 Offset: 0xF40720 VA: 0x180F42120
+	// RVA: 0xF42BC0 Offset: 0xF411C0 VA: 0x180F42BC0
 	public void CompileXPath(string xPath, bool isField, XmlNamespaceManager nsmgr) { }
 
-	// RVA: 0xF42A80 Offset: 0xF41080 VA: 0x180F42A80
+	// RVA: 0xF43520 Offset: 0xF41B20 VA: 0x180F43520
 	private void SetURN(Axis axis, XmlNamespaceManager nsmgr) { }
 
 }

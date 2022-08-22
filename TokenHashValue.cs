@@ -6,7 +6,7 @@ internal class TokenHashValue // TypeDefIndex: 696
 
 	// Methods
 
-	// RVA: 0xB7B950 Offset: 0xB79F50 VA: 0x180B7B950
+	// RVA: 0xB7BE20 Offset: 0xB7A420 VA: 0x180B7BE20
 	internal void .ctor(string tokenString, TokenType tokenType, int tokenValue) { }
 
 }

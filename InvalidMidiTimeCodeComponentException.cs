@@ -5,7 +5,7 @@ public sealed class InvalidMidiTimeCodeComponentException : MidiException // Typ
 
 	// Methods
 
-	// RVA: 0x13997D0 Offset: 0x1397DD0 VA: 0x1813997D0
+	// RVA: 0x13988D0 Offset: 0x1396ED0 VA: 0x1813988D0
 	internal void .ctor(byte midiTimeCodeComponent) { }
 
 }

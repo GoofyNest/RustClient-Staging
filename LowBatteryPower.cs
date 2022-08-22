@@ -9,13 +9,13 @@ internal struct LowBatteryPower_t : ICallbackData // TypeDefIndex: 5328
 
 	// Methods
 
-	// RVA: 0x1EB7C0 Offset: 0x1EABC0 VA: 0x1801EB7C0 Slot: 5
+	// RVA: 0x1EBBE0 Offset: 0x1EAFE0 VA: 0x1801EBBE0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1EB7B0 Offset: 0x1EABB0 VA: 0x1801EB7B0 Slot: 4
+	// RVA: 0x1EBBD0 Offset: 0x1EAFD0 VA: 0x1801EBBD0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1374040 Offset: 0x1372640 VA: 0x181374040
+	// RVA: 0x1373140 Offset: 0x1371740 VA: 0x181373140
 	private static void .cctor() { }
 
 }

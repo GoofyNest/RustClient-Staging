@@ -9,7 +9,7 @@ internal class RequestCacheBinding // TypeDefIndex: 3091
 
 	// Methods
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	internal RequestCache get_Cache() { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880

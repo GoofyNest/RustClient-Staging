@@ -7,13 +7,13 @@ public class BiomeVisuals : MonoBehaviour // TypeDefIndex: 10352
 
 	// Methods
 
-	// RVA: 0x512870 Offset: 0x510E70 VA: 0x180512870
+	// RVA: 0x512800 Offset: 0x510E00 VA: 0x180512800
 	protected void Start() { }
 
-	// RVA: 0x512730 Offset: 0x510D30 VA: 0x180512730
+	// RVA: 0x5126C0 Offset: 0x510CC0 VA: 0x1805126C0
 	private void SetChoice(GameObject selection) { }
 
-	// RVA: 0x512630 Offset: 0x510C30 VA: 0x180512630
+	// RVA: 0x5125C0 Offset: 0x510BC0 VA: 0x1805125C0
 	private void ApplyChoice(GameObject selection, GameObject target, bool shouldDestroy) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

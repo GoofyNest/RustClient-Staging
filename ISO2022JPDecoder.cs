@@ -8,22 +8,22 @@ internal class ISO2022JPDecoder : Decoder // TypeDefIndex: 7806
 
 	// Methods
 
-	// RVA: 0x2251B20 Offset: 0x2250120 VA: 0x182251B20
+	// RVA: 0x2252340 Offset: 0x2250940 VA: 0x182252340
 	public void .ctor(bool allow1ByteKana, bool allowShiftIO) { }
 
-	// RVA: 0x2251AB0 Offset: 0x22500B0 VA: 0x182251AB0
+	// RVA: 0x22522D0 Offset: 0x22508D0 VA: 0x1822522D0
 	private static void .cctor() { }
 
-	// RVA: 0x22513B0 Offset: 0x224F9B0 VA: 0x1822513B0 Slot: 5
+	// RVA: 0x2251BD0 Offset: 0x22501D0 VA: 0x182251BD0 Slot: 5
 	public override int GetCharCount(byte[] bytes, int index, int count) { }
 
-	// RVA: 0x22519A0 Offset: 0x224FFA0 VA: 0x1822519A0
+	// RVA: 0x22521C0 Offset: 0x22507C0 VA: 0x1822521C0
 	private int ToChar(int value) { }
 
-	// RVA: 0x2251530 Offset: 0x224FB30 VA: 0x182251530 Slot: 8
+	// RVA: 0x2251D50 Offset: 0x2250350 VA: 0x182251D50 Slot: 8
 	public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex) { }
 
-	// RVA: 0x2251990 Offset: 0x224FF90 VA: 0x182251990 Slot: 4
+	// RVA: 0x22521B0 Offset: 0x22507B0 VA: 0x1822521B0 Slot: 4
 	public override void Reset() { }
 
 }

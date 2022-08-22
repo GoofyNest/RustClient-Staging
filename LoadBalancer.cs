@@ -10,22 +10,22 @@ public class LoadBalancer : SingletonComponent<LoadBalancer> // TypeDefIndex: 11
 
 	// Methods
 
-	// RVA: 0x4F7E10 Offset: 0x4F6410 VA: 0x1804F7E10
+	// RVA: 0x4F7DA0 Offset: 0x4F63A0 VA: 0x1804F7DA0
 	protected void LateUpdate() { }
 
-	// RVA: 0x4F7B10 Offset: 0x4F6110 VA: 0x1804F7B10
+	// RVA: 0x4F7AA0 Offset: 0x4F60A0 VA: 0x1804F7AA0
 	public static int Count() { }
 
-	// RVA: 0x4F8150 Offset: 0x4F6750 VA: 0x1804F8150
+	// RVA: 0x4F80E0 Offset: 0x4F66E0 VA: 0x1804F80E0
 	public static void ProcessAll() { }
 
-	// RVA: 0x4F7CD0 Offset: 0x4F62D0 VA: 0x1804F7CD0
+	// RVA: 0x4F7C60 Offset: 0x4F6260 VA: 0x1804F7C60
 	public static void Enqueue(DeferredAction action) { }
 
-	// RVA: 0x4F7C30 Offset: 0x4F6230 VA: 0x1804F7C30
+	// RVA: 0x4F7BC0 Offset: 0x4F61C0 VA: 0x1804F7BC0
 	private static void CreateInstance() { }
 
-	// RVA: 0x4F82B0 Offset: 0x4F68B0 VA: 0x1804F82B0
+	// RVA: 0x4F8240 Offset: 0x4F6840 VA: 0x1804F8240
 	public void .ctor() { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40

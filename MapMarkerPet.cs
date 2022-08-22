@@ -4,13 +4,13 @@ public class MapMarkerPet : MapMarker // TypeDefIndex: 8940
 
 	// Methods
 
-	// RVA: 0x567DD0 Offset: 0x5663D0 VA: 0x180567DD0 Slot: 131
+	// RVA: 0x567D60 Offset: 0x566360 VA: 0x180567D60 Slot: 131
 	public override void SetupUIMarker(GameObject marker) { }
 
-	// RVA: 0x567FE0 Offset: 0x5665E0 VA: 0x180567FE0
+	// RVA: 0x567F70 Offset: 0x566570 VA: 0x180567F70
 	public void Update() { }
 
-	// RVA: 0x568160 Offset: 0x566760 VA: 0x180568160
+	// RVA: 0x5680F0 Offset: 0x5666F0 VA: 0x1805680F0
 	public void .ctor() { }
 
 }

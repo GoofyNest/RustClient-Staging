@@ -8,7 +8,7 @@ internal class HeaderInfo // TypeDefIndex: 2915
 
 	// Methods
 
-	// RVA: 0x133B830 Offset: 0x1339E30 VA: 0x18133B830
+	// RVA: 0x133A930 Offset: 0x1338F30 VA: 0x18133A930
 	internal void .ctor(string name, bool requestRestricted, bool responseRestricted, bool multi, HeaderParser p) { }
 
 }
@@ -27,14 +27,14 @@ internal abstract class HeaderInfo // TypeDefIndex: 5769
 
 	// Methods
 
-	// RVA: 0x1088940 Offset: 0x1086F40 VA: 0x181088940
+	// RVA: 0x10893B0 Offset: 0x10879B0 VA: 0x1810893B0
 	protected void .ctor(string name, HttpHeaderKind headerKind) { }
 
 	// RVA: -1 Offset: -1
 	public static HeaderInfo CreateSingle<T>(string name, TryParseDelegate<T> parser, HttpHeaderKind headerKind, Func<object, string> toString) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED4790 Offset: 0xED2D90 VA: 0x180ED4790
+	|-RVA: 0xED5240 Offset: 0xED3840 VA: 0x180ED5240
 	|-HeaderInfo.CreateSingle<byte[]>
 	|-HeaderInfo.CreateSingle<DateTimeOffset>
 	|-HeaderInfo.CreateSingle<int>
@@ -58,7 +58,7 @@ internal abstract class HeaderInfo // TypeDefIndex: 5769
 	public static HeaderInfo CreateMulti<T>(string name, TryParseListDelegate<T> elementParser, HttpHeaderKind headerKind, int minimalCount = 1, string separator = ", ") { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED46F0 Offset: 0xED2CF0 VA: 0x180ED46F0
+	|-RVA: 0xED51A0 Offset: 0xED37A0 VA: 0x180ED51A0
 	|-HeaderInfo.CreateMulti<AuthenticationHeaderValue>
 	|-HeaderInfo.CreateMulti<EntityTagHeaderValue>
 	|-HeaderInfo.CreateMulti<MediaTypeWithQualityHeaderValue>
@@ -75,7 +75,7 @@ internal abstract class HeaderInfo // TypeDefIndex: 5769
 	|-HeaderInfo.CreateMulti<string>
 	*/
 
-	// RVA: 0x1088920 Offset: 0x1086F20 VA: 0x181088920
+	// RVA: 0x1089390 Offset: 0x1087990 VA: 0x181089390
 	public object CreateCollection(HttpHeaders headers) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -86,7 +86,7 @@ internal abstract class HeaderInfo // TypeDefIndex: 5769
 	// RVA: 0x49AFA0 Offset: 0x4995A0 VA: 0x18049AFA0
 	private void set_CustomToString(Func<object, string> value) { }
 
-	// RVA: 0x1088990 Offset: 0x1086F90 VA: 0x181088990 Slot: 4
+	// RVA: 0x1089400 Offset: 0x1087A00 VA: 0x181089400 Slot: 4
 	public virtual string get_Separator() { }
 
 	// RVA: -1 Offset: -1 Slot: 5
@@ -113,7 +113,7 @@ private class HeaderInfo.HeaderTypeInfo<T, U> : HeaderInfo // TypeDefIndex: 5770
 	public void .ctor(string name, TryParseDelegate<T> parser, HttpHeaderKind headerKind) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1764150 Offset: 0x1762750 VA: 0x181764150
+	|-RVA: 0x1761CE0 Offset: 0x17602E0 VA: 0x181761CE0
 	|-HeaderInfo.HeaderTypeInfo<DateTimeOffset, object>..ctor
 	|-HeaderInfo.HeaderTypeInfo<int, object>..ctor
 	|-HeaderInfo.HeaderTypeInfo<long, object>..ctor
@@ -125,7 +125,7 @@ private class HeaderInfo.HeaderTypeInfo<T, U> : HeaderInfo // TypeDefIndex: 5770
 	public override void AddToCollection(object collection, object value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1762D00 Offset: 0x1761300 VA: 0x181762D00
+	|-RVA: 0x1760890 Offset: 0x175EE90 VA: 0x181760890
 	|-HeaderInfo.HeaderTypeInfo<DateTimeOffset, object>.AddToCollection
 	|-HeaderInfo.HeaderTypeInfo<int, object>.AddToCollection
 	|-HeaderInfo.HeaderTypeInfo<long, object>.AddToCollection
@@ -137,7 +137,7 @@ private class HeaderInfo.HeaderTypeInfo<T, U> : HeaderInfo // TypeDefIndex: 5770
 	protected override object CreateCollection(HttpHeaders headers, HeaderInfo headerInfo) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1762E30 Offset: 0x1761430 VA: 0x181762E30
+	|-RVA: 0x17609C0 Offset: 0x175EFC0 VA: 0x1817609C0
 	|-HeaderInfo.HeaderTypeInfo<DateTimeOffset, object>.CreateCollection
 	|-HeaderInfo.HeaderTypeInfo<int, object>.CreateCollection
 	|-HeaderInfo.HeaderTypeInfo<long, object>.CreateCollection
@@ -149,19 +149,19 @@ private class HeaderInfo.HeaderTypeInfo<T, U> : HeaderInfo // TypeDefIndex: 5770
 	public override List<string> ToStringCollection(object collection) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1763BB0 Offset: 0x17621B0 VA: 0x181763BB0
+	|-RVA: 0x1761740 Offset: 0x175FD40 VA: 0x181761740
 	|-HeaderInfo.HeaderTypeInfo<DateTimeOffset, object>.ToStringCollection
 	|
-	|-RVA: 0x1763530 Offset: 0x1761B30 VA: 0x181763530
+	|-RVA: 0x17610C0 Offset: 0x175F6C0 VA: 0x1817610C0
 	|-HeaderInfo.HeaderTypeInfo<int, object>.ToStringCollection
 	|
-	|-RVA: 0x1763870 Offset: 0x1761E70 VA: 0x181763870
+	|-RVA: 0x1761400 Offset: 0x175FA00 VA: 0x181761400
 	|-HeaderInfo.HeaderTypeInfo<long, object>.ToStringCollection
 	|
-	|-RVA: 0x17631F0 Offset: 0x17617F0 VA: 0x1817631F0
+	|-RVA: 0x1760D80 Offset: 0x175F380 VA: 0x181760D80
 	|-HeaderInfo.HeaderTypeInfo<object, object>.ToStringCollection
 	|
-	|-RVA: 0x1762EB0 Offset: 0x17614B0 VA: 0x181762EB0
+	|-RVA: 0x1760A40 Offset: 0x175F040 VA: 0x181760A40
 	|-HeaderInfo.HeaderTypeInfo<TimeSpan, object>.ToStringCollection
 	*/
 
@@ -169,17 +169,17 @@ private class HeaderInfo.HeaderTypeInfo<T, U> : HeaderInfo // TypeDefIndex: 5770
 	public override bool TryParse(string value, out object result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1763F90 Offset: 0x1762590 VA: 0x181763F90
+	|-RVA: 0x1761B20 Offset: 0x1760120 VA: 0x181761B20
 	|-HeaderInfo.HeaderTypeInfo<DateTimeOffset, object>.TryParse
 	|
-	|-RVA: 0x1763EF0 Offset: 0x17624F0 VA: 0x181763EF0
+	|-RVA: 0x1761A80 Offset: 0x1760080 VA: 0x181761A80
 	|-HeaderInfo.HeaderTypeInfo<int, object>.TryParse
 	|
-	|-RVA: 0x1764040 Offset: 0x1762640 VA: 0x181764040
+	|-RVA: 0x1761BD0 Offset: 0x17601D0 VA: 0x181761BD0
 	|-HeaderInfo.HeaderTypeInfo<long, object>.TryParse
 	|-HeaderInfo.HeaderTypeInfo<TimeSpan, object>.TryParse
 	|
-	|-RVA: 0x17640F0 Offset: 0x17626F0 VA: 0x1817640F0
+	|-RVA: 0x1761C80 Offset: 0x1760280 VA: 0x181761C80
 	|-HeaderInfo.HeaderTypeInfo<object, object>.TryParse
 	*/
 
@@ -200,7 +200,7 @@ private class HeaderInfo.CollectionHeaderTypeInfo<T, U> : HeaderInfo.HeaderTypeI
 	public void .ctor(string name, TryParseListDelegate<T> parser, HttpHeaderKind headerKind, int minimalCount, string separator) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x175F1C0 Offset: 0x175D7C0 VA: 0x18175F1C0
+	|-RVA: 0x175CD80 Offset: 0x175B380 VA: 0x18175CD80
 	|-HeaderInfo.CollectionHeaderTypeInfo<object, object>..ctor
 	*/
 
@@ -208,7 +208,7 @@ private class HeaderInfo.CollectionHeaderTypeInfo<T, U> : HeaderInfo.HeaderTypeI
 	public override string get_Separator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5C33B0 Offset: 0x5C19B0 VA: 0x1805C33B0
+	|-RVA: 0x5C3340 Offset: 0x5C1940 VA: 0x1805C3340
 	|-HeaderInfo.CollectionHeaderTypeInfo<object, object>.get_Separator
 	*/
 
@@ -216,7 +216,7 @@ private class HeaderInfo.CollectionHeaderTypeInfo<T, U> : HeaderInfo.HeaderTypeI
 	public override bool TryParse(string value, out object result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x175F140 Offset: 0x175D740 VA: 0x18175F140
+	|-RVA: 0x175CD00 Offset: 0x175B300 VA: 0x18175CD00
 	|-HeaderInfo.CollectionHeaderTypeInfo<object, object>.TryParse
 	*/
 

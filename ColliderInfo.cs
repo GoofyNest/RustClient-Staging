@@ -8,16 +8,16 @@ public class ColliderInfo : MonoBehaviour // TypeDefIndex: 9837
 
 	// Methods
 
-	// RVA: 0x57C8B0 Offset: 0x57AEB0 VA: 0x18057C8B0
+	// RVA: 0x57C840 Offset: 0x57AE40 VA: 0x18057C840
 	public bool HasFlag(ColliderInfo.Flags f) { }
 
-	// RVA: 0x57C8C0 Offset: 0x57AEC0 VA: 0x18057C8C0
+	// RVA: 0x57C850 Offset: 0x57AE50 VA: 0x18057C850
 	public void SetFlag(ColliderInfo.Flags f, bool b) { }
 
-	// RVA: 0x57C860 Offset: 0x57AE60 VA: 0x18057C860
+	// RVA: 0x57C7F0 Offset: 0x57ADF0 VA: 0x18057C7F0
 	public bool Filter(HitTest info) { }
 
-	// RVA: 0x57C8E0 Offset: 0x57AEE0 VA: 0x18057C8E0
+	// RVA: 0x57C870 Offset: 0x57AE70 VA: 0x18057C870
 	public void .ctor() { }
 
 }

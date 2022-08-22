@@ -14,14 +14,14 @@ internal class NativeConditionalAttribute : Attribute // TypeDefIndex: 3270
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void set_Condition(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x95FB10 Offset: 0x95E110 VA: 0x18095FB10
+	// RVA: 0x960010 Offset: 0x95E610 VA: 0x180960010
 	public void set_Enabled(bool value) { }
 
-	// RVA: 0x23117D0 Offset: 0x230FDD0 VA: 0x1823117D0
+	// RVA: 0x2311FF0 Offset: 0x23105F0 VA: 0x182311FF0
 	public void .ctor(string condition) { }
 
 }

@@ -21,40 +21,40 @@ public class UriBuilder // TypeDefIndex: 2564
 
 	// Methods
 
-	// RVA: 0x22B6E50 Offset: 0x22B5450 VA: 0x1822B6E50
+	// RVA: 0x22B7670 Offset: 0x22B5C70 VA: 0x1822B7670
 	public void .ctor() { }
 
-	// RVA: 0x22B6CD0 Offset: 0x22B52D0 VA: 0x1822B6CD0
+	// RVA: 0x22B74F0 Offset: 0x22B5AF0 VA: 0x1822B74F0
 	public void .ctor(Uri uri) { }
 
-	// RVA: 0x22B6210 Offset: 0x22B4810 VA: 0x1822B6210
+	// RVA: 0x22B6A30 Offset: 0x22B5030 VA: 0x1822B6A30
 	private void Init(Uri uri) { }
 
-	// RVA: 0x22B7020 Offset: 0x22B5620 VA: 0x1822B7020
+	// RVA: 0x22B7840 Offset: 0x22B5E40 VA: 0x1822B7840
 	public void set_Host(string value) { }
 
-	// RVA: 0x22B70F0 Offset: 0x22B56F0 VA: 0x1822B70F0
+	// RVA: 0x22B7910 Offset: 0x22B5F10 VA: 0x1822B7910
 	public void set_Path(string value) { }
 
-	// RVA: 0x22B71A0 Offset: 0x22B57A0 VA: 0x1822B71A0
+	// RVA: 0x22B79C0 Offset: 0x22B5FC0 VA: 0x1822B79C0
 	public void set_Query(string value) { }
 
-	// RVA: 0x22B7240 Offset: 0x22B5840 VA: 0x1822B7240
+	// RVA: 0x22B7A60 Offset: 0x22B6060 VA: 0x1822B7A60
 	public void set_Scheme(string value) { }
 
-	// RVA: 0x22B6F80 Offset: 0x22B5580 VA: 0x1822B6F80
+	// RVA: 0x22B77A0 Offset: 0x22B5DA0 VA: 0x1822B77A0
 	public Uri get_Uri() { }
 
-	// RVA: 0x22B6170 Offset: 0x22B4770 VA: 0x1822B6170 Slot: 0
+	// RVA: 0x22B6990 Offset: 0x22B4F90 VA: 0x1822B6990 Slot: 0
 	public override bool Equals(object rparam) { }
 
-	// RVA: 0x22B61E0 Offset: 0x22B47E0 VA: 0x1822B61E0 Slot: 2
+	// RVA: 0x22B6A00 Offset: 0x22B5000 VA: 0x1822B6A00 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x22B63F0 Offset: 0x22B49F0 VA: 0x1822B63F0
+	// RVA: 0x22B6C10 Offset: 0x22B5210 VA: 0x1822B6C10
 	private void SetFieldsFromUri(Uri uri) { }
 
-	// RVA: 0x22B65B0 Offset: 0x22B4BB0 VA: 0x1822B65B0 Slot: 3
+	// RVA: 0x22B6DD0 Offset: 0x22B53D0 VA: 0x1822B6DD0 Slot: 3
 	public override string ToString() { }
 
 }

@@ -9,19 +9,19 @@ public class TriggerAchievement : TriggerBase // TypeDefIndex: 10017
 
 	// Methods
 
-	// RVA: 0xA1F980 Offset: 0xA1DF80 VA: 0x180A1F980
+	// RVA: 0xA1FE70 Offset: 0xA1E470 VA: 0x180A1FE70
 	public void OnPuzzleReset() { }
 
-	// RVA: 0xA1F980 Offset: 0xA1DF80 VA: 0x180A1F980
+	// RVA: 0xA1FE70 Offset: 0xA1E470 VA: 0x180A1FE70
 	public void Reset() { }
 
-	// RVA: 0xA1F690 Offset: 0xA1DC90 VA: 0x180A1F690 Slot: 6
+	// RVA: 0xA1FB80 Offset: 0xA1E180 VA: 0x180A1FB80 Slot: 6
 	internal override GameObject InterestedInObject(GameObject obj) { }
 
-	// RVA: 0xA1F7D0 Offset: 0xA1DDD0 VA: 0x180A1F7D0 Slot: 8
+	// RVA: 0xA1FCC0 Offset: 0xA1E2C0 VA: 0x180A1FCC0 Slot: 8
 	internal override void OnEntityEnter(BaseEntity ent) { }
 
-	// RVA: 0xA1F9D0 Offset: 0xA1DFD0 VA: 0x180A1F9D0
+	// RVA: 0xA1FEC0 Offset: 0xA1E4C0 VA: 0x180A1FEC0
 	public void .ctor() { }
 
 }

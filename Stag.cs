@@ -1,7 +1,7 @@
 public class Stag : BaseAnimalNPC // TypeDefIndex: 8942
 {	// Fields
 	[ServerVar] // RVA: 0xB4310 Offset: 0xB3710 VA: 0x1800B4310
-	public static float Population; // 0x1C00
+	public static float Population; // 0x2B10368
 
 	// Properties
 	public override float RealisticMass { get; }
@@ -9,19 +9,19 @@ public class Stag : BaseAnimalNPC // TypeDefIndex: 8942
 
 	// Methods
 
-	// RVA: 0xA8A740 Offset: 0xA88D40 VA: 0x180A8A740 Slot: 76
+	// RVA: 0xA8AC10 Offset: 0xA89210 VA: 0x180A8AC10 Slot: 76
 	public override float get_RealisticMass() { }
 
-	// RVA: 0x50E1B0 Offset: 0x50C7B0 VA: 0x18050E1B0 Slot: 86
+	// RVA: 0x50E140 Offset: 0x50C740 VA: 0x18050E140 Slot: 86
 	public override BaseEntity.TraitFlag get_Traits() { }
 
-	// RVA: 0xA8A6D0 Offset: 0xA88CD0 VA: 0x180A8A6D0 Slot: 122
+	// RVA: 0xA8ABA0 Offset: 0xA891A0 VA: 0x180A8ABA0 Slot: 122
 	public override string Categorize() { }
 
-	// RVA: 0x50E190 Offset: 0x50C790 VA: 0x18050E190
+	// RVA: 0x50E120 Offset: 0x50C720 VA: 0x18050E120
 	public void .ctor() { }
 
-	// RVA: 0xA8A700 Offset: 0xA88D00 VA: 0x180A8A700
+	// RVA: 0xA8ABD0 Offset: 0xA891D0 VA: 0x180A8ABD0
 	private static void .cctor() { }
 
 }

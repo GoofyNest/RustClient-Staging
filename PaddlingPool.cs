@@ -14,28 +14,28 @@ public class PaddlingPool : LiquidContainer, ISplashable // TypeDefIndex: 8818
 
 	// Methods
 
-	// RVA: 0x859930 Offset: 0x857F30 VA: 0x180859930 Slot: 34
+	// RVA: 0x875090 Offset: 0x873690 VA: 0x180875090 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x859B20 Offset: 0x858120 VA: 0x180859B20 Slot: 164
+	// RVA: 0x875280 Offset: 0x873880 VA: 0x180875280 Slot: 164
 	public override bool ShouldShowLootMenus() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40 Slot: 167
 	public override bool MenuDrink_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x859610 Offset: 0x857C10 VA: 0x180859610 Slot: 169
+	// RVA: 0x874D70 Offset: 0x873370 VA: 0x180874D70 Slot: 169
 	public override bool CanDrainIntoVessel(BasePlayer player) { }
 
-	// RVA: 0x859C70 Offset: 0x858270 VA: 0x180859C70
+	// RVA: 0x8753D0 Offset: 0x8739D0 VA: 0x1808753D0
 	private void UpdatePoolFillAmount(float normalisedAmount) { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 150
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0x859720 Offset: 0x857D20 VA: 0x180859720 Slot: 31
+	// RVA: 0x874E80 Offset: 0x873480 VA: 0x180874E80 Slot: 31
 	public override void DestroyShared() { }
 
-	// RVA: 0x859E30 Offset: 0x858430 VA: 0x180859E30
+	// RVA: 0x875590 Offset: 0x873B90 VA: 0x180875590
 	public void .ctor() { }
 
 }

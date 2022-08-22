@@ -14,23 +14,23 @@ public class RustToggle : RustControl, IPointerDownHandler, IEventSystemHandler 
 
 	// Methods
 
-	// RVA: 0xFD0D40 Offset: 0xFCF340 VA: 0x180FD0D40 Slot: 19
+	// RVA: 0xFD17E0 Offset: 0xFCFDE0 VA: 0x180FD17E0 Slot: 19
 	public override StyleAsset get_Styles() { }
 
-	// RVA: 0xFD0CC0 Offset: 0xFCF2C0 VA: 0x180FD0CC0
+	// RVA: 0xFD1760 Offset: 0xFCFD60 VA: 0x180FD1760
 	public void SetValue(bool value) { }
 
-	// RVA: 0xFD0BE0 Offset: 0xFCF1E0 VA: 0x180FD0BE0 Slot: 31
+	// RVA: 0xFD1680 Offset: 0xFCFC80 VA: 0x180FD1680 Slot: 31
 	public void OnPointerDown(PointerEventData eventData) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x72560 Offset: 0x71960 VA: 0x180072560
-	// RVA: 0xFD07C0 Offset: 0xFCEDC0 VA: 0x180FD07C0
+	// RVA: 0xFD1260 Offset: 0xFCF860 VA: 0x180FD1260
 	private IEnumerator AnimateTo() { }
 
-	// RVA: 0xFD0830 Offset: 0xFCEE30 VA: 0x180FD0830 Slot: 29
+	// RVA: 0xFD12D0 Offset: 0xFCF8D0 VA: 0x180FD12D0 Slot: 29
 	public override void ApplyStyles() { }
 
-	// RVA: 0xFD0CE0 Offset: 0xFCF2E0 VA: 0x180FD0CE0
+	// RVA: 0xFD1780 Offset: 0xFCFD80 VA: 0x180FD1780
 	public void .ctor() { }
 
 }
@@ -38,7 +38,7 @@ public class RustToggle : RustControl, IPointerDownHandler, IEventSystemHandler 
 public class RustToggle.ChangedEvent : UnityEvent<bool> // TypeDefIndex: 7035
 {	// Methods
 
-	// RVA: 0xFBE2C0 Offset: 0xFBC8C0 VA: 0x180FBE2C0
+	// RVA: 0xFBED60 Offset: 0xFBD360 VA: 0x180FBED60
 	public void .ctor() { }
 
 }
@@ -68,7 +68,7 @@ private sealed class RustToggle.<AnimateTo>d__13 : IEnumerator<object>, IEnumera
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xFD6960 Offset: 0xFD4F60 VA: 0x180FD6960 Slot: 6
+	// RVA: 0xFD7400 Offset: 0xFD5A00 VA: 0x180FD7400 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -76,7 +76,7 @@ private sealed class RustToggle.<AnimateTo>d__13 : IEnumerator<object>, IEnumera
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xFD6EF0 Offset: 0xFD54F0 VA: 0x180FD6EF0 Slot: 8
+	// RVA: 0xFD7990 Offset: 0xFD5F90 VA: 0x180FD7990 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

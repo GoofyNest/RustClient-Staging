@@ -21,31 +21,31 @@ public class SMAA : MonoBehaviour // TypeDefIndex: 11566
 
 	// Methods
 
-	// RVA: 0x5A5AE0 Offset: 0x5A40E0 VA: 0x1805A5AE0
+	// RVA: 0x5A5A70 Offset: 0x5A4070 VA: 0x1805A5A70
 	public Material get_Material() { }
 
-	// RVA: 0x5A52D0 Offset: 0x5A38D0 VA: 0x1805A52D0
+	// RVA: 0x5A5260 Offset: 0x5A3860 VA: 0x1805A5260
 	private void OnEnable() { }
 
-	// RVA: 0x5A59D0 Offset: 0x5A3FD0 VA: 0x1805A59D0
+	// RVA: 0x5A5960 Offset: 0x5A3F60 VA: 0x1805A5960
 	private void Start() { }
 
-	// RVA: 0x5A5230 Offset: 0x5A3830 VA: 0x1805A5230
+	// RVA: 0x5A51C0 Offset: 0x5A37C0 VA: 0x1805A51C0
 	private void OnDisable() { }
 
-	// RVA: 0x5A53E0 Offset: 0x5A39E0 VA: 0x1805A53E0
+	// RVA: 0x5A5370 Offset: 0x5A3970 VA: 0x1805A5370
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x5A4F70 Offset: 0x5A3570 VA: 0x1805A4F70
+	// RVA: 0x5A4F00 Offset: 0x5A3500 VA: 0x1805A4F00
 	private void Clear(RenderTexture rt) { }
 
-	// RVA: 0x5A5A90 Offset: 0x5A4090 VA: 0x1805A5A90
+	// RVA: 0x5A5A20 Offset: 0x5A4020 VA: 0x1805A5A20
 	private RenderTexture TempRT(int width, int height) { }
 
-	// RVA: 0x5A4FF0 Offset: 0x5A35F0 VA: 0x1805A4FF0
+	// RVA: 0x5A4F80 Offset: 0x5A3580 VA: 0x1805A4F80
 	private void CreatePresets() { }
 
-	// RVA: 0x5A5AC0 Offset: 0x5A40C0 VA: 0x1805A5AC0
+	// RVA: 0x5A5A50 Offset: 0x5A4050 VA: 0x1805A5A50
 	public void .ctor() { }
 
 }

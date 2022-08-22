@@ -11,22 +11,22 @@ public class EZSoftBoneColliderCylinder : EZSoftBoneColliderBase // TypeDefIndex
 
 	// Methods
 
-	// RVA: 0x7747C0 Offset: 0x772DC0 VA: 0x1807747C0
+	// RVA: 0x774710 Offset: 0x772D10 VA: 0x180774710
 	public float get_margin() { }
 
-	// RVA: 0x774800 Offset: 0x772E00 VA: 0x180774800
+	// RVA: 0x774750 Offset: 0x772D50 VA: 0x180774750
 	public void set_margin(float value) { }
 
-	// RVA: 0x7D0D40 Offset: 0x7CF340 VA: 0x1807D0D40
+	// RVA: 0x79C660 Offset: 0x79AC60 VA: 0x18079C660
 	public bool get_insideMode() { }
 
-	// RVA: 0x7D0DB0 Offset: 0x7CF3B0 VA: 0x1807D0DB0
+	// RVA: 0x79C6D0 Offset: 0x79ACD0 VA: 0x18079C6D0
 	public void set_insideMode(bool value) { }
 
-	// RVA: 0x228F550 Offset: 0x228DB50 VA: 0x18228F550 Slot: 6
+	// RVA: 0x228FD70 Offset: 0x228E370 VA: 0x18228FD70 Slot: 6
 	public override void Collide(ref Vector3 position, float spacing) { }
 
-	// RVA: 0x228F890 Offset: 0x228DE90 VA: 0x18228F890
+	// RVA: 0x22900B0 Offset: 0x228E6B0 VA: 0x1822900B0
 	public void .ctor() { }
 
 }

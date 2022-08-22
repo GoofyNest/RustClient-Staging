@@ -18,15 +18,15 @@ public static class RemoteSettings // TypeDefIndex: 4741
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2321270 Offset: 0x231F870 VA: 0x182321270
+	// RVA: 0x2321A90 Offset: 0x2320090 VA: 0x182321A90
 	internal static void RemoteSettingsUpdated(bool wasLastUpdatedFromServer) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x23211A0 Offset: 0x231F7A0 VA: 0x1823211A0
+	// RVA: 0x23219C0 Offset: 0x231FFC0 VA: 0x1823219C0
 	internal static void RemoteSettingsBeforeFetchFromServer() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x23211F0 Offset: 0x231F7F0 VA: 0x1823211F0
+	// RVA: 0x2321A10 Offset: 0x2320010 VA: 0x182321A10
 	internal static void RemoteSettingsUpdateCompleted(bool wasLastUpdatedFromServer, bool settingsChanged, int response) { }
 
 }

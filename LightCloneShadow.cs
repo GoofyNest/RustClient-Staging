@@ -18,25 +18,25 @@ public class LightCloneShadow : MonoBehaviour // TypeDefIndex: 10684
 
 	// Methods
 
-	// RVA: 0x68F820 Offset: 0x68DE20 VA: 0x18068F820
+	// RVA: 0x68F7B0 Offset: 0x68DDB0 VA: 0x18068F7B0
 	private void OnEnable() { }
 
-	// RVA: 0x68F7B0 Offset: 0x68DDB0 VA: 0x18068F7B0
+	// RVA: 0x68F740 Offset: 0x68DD40 VA: 0x18068F740
 	private void OnDestroy() { }
 
-	// RVA: 0x68F9C0 Offset: 0x68DFC0 VA: 0x18068F9C0
+	// RVA: 0x68F950 Offset: 0x68DF50 VA: 0x18068F950
 	private void Update() { }
 
-	// RVA: 0x68EEE0 Offset: 0x68D4E0 VA: 0x18068EEE0
+	// RVA: 0x68EE70 Offset: 0x68D470 VA: 0x18068EE70
 	private void AllocateShadowClone() { }
 
-	// RVA: 0x68F5C0 Offset: 0x68DBC0 VA: 0x18068F5C0
+	// RVA: 0x68F550 Offset: 0x68DB50 VA: 0x18068F550
 	private void DestroyShadowClone() { }
 
-	// RVA: 0x68F8D0 Offset: 0x68DED0 VA: 0x18068F8D0
+	// RVA: 0x68F860 Offset: 0x68DE60 VA: 0x18068F860
 	private void UpdateShadowMask() { }
 
-	// RVA: 0x68FB80 Offset: 0x68E180 VA: 0x18068FB80
+	// RVA: 0x68FB10 Offset: 0x68E110 VA: 0x18068FB10
 	public void .ctor() { }
 
 }

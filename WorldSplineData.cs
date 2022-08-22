@@ -10,46 +10,46 @@ public class WorldSplineData // TypeDefIndex: 11412
 
 	// Methods
 
-	// RVA: 0x1A89300 Offset: 0x1A87900 VA: 0x181A89300
+	// RVA: 0x1A75B10 Offset: 0x1A74110 VA: 0x181A75B10
 	public void .ctor(WorldSpline worldSpline) { }
 
-	// RVA: 0x1A891D0 Offset: 0x1A877D0 VA: 0x181A891D0
+	// RVA: 0x1A759E0 Offset: 0x1A73FE0 VA: 0x181A759E0
 	public bool IsSameAs(WorldSpline worldSpline) { }
 
-	// RVA: 0x1A89140 Offset: 0x1A87740 VA: 0x181A89140
+	// RVA: 0x1A75950 Offset: 0x1A73F50 VA: 0x181A75950
 	public bool IsDifferentTo(WorldSpline worldSpline) { }
 
-	// RVA: 0x1A89090 Offset: 0x1A87690 VA: 0x181A89090
+	// RVA: 0x1A758A0 Offset: 0x1A73EA0 VA: 0x181A758A0
 	public Vector3 GetStartPoint() { }
 
-	// RVA: 0x1A88950 Offset: 0x1A86F50 VA: 0x181A88950
+	// RVA: 0x1A75160 Offset: 0x1A73760 VA: 0x181A75160
 	public Vector3 GetEndPoint() { }
 
-	// RVA: 0x1A890D0 Offset: 0x1A876D0 VA: 0x181A890D0
+	// RVA: 0x1A758E0 Offset: 0x1A73EE0 VA: 0x181A758E0
 	public Vector3 GetStartTangent() { }
 
-	// RVA: 0x1A889B0 Offset: 0x1A86FB0 VA: 0x181A889B0
+	// RVA: 0x1A751C0 Offset: 0x1A737C0 VA: 0x181A751C0
 	public Vector3 GetEndTangent() { }
 
-	// RVA: 0x1A89050 Offset: 0x1A87650 VA: 0x181A89050
+	// RVA: 0x1A75860 Offset: 0x1A73E60 VA: 0x181A75860
 	public Vector3 GetPointCubicHermite(float distance) { }
 
-	// RVA: 0x1A89110 Offset: 0x1A87710 VA: 0x181A89110
+	// RVA: 0x1A75920 Offset: 0x1A73F20 VA: 0x181A75920
 	public Vector3 GetTangentCubicHermite(float distance) { }
 
-	// RVA: 0x1A88A10 Offset: 0x1A87010 VA: 0x181A88A10
+	// RVA: 0x1A75220 Offset: 0x1A73820 VA: 0x181A75220
 	public Vector3 GetPointAndTangentCubicHermite(float distance, out Vector3 tangent) { }
 
-	// RVA: 0x1A89260 Offset: 0x1A87860 VA: 0x181A89260
+	// RVA: 0x1A75A70 Offset: 0x1A74070 VA: 0x181A75A70
 	public void SetDefaultTangents(WorldSpline worldSpline) { }
 
-	// RVA: 0x1A88590 Offset: 0x1A86B90 VA: 0x181A88590
+	// RVA: 0x1A74DA0 Offset: 0x1A733A0 VA: 0x181A74DA0
 	public bool DetectSplineProblems(WorldSpline worldSpline) { }
 
-	// RVA: 0x1A88280 Offset: 0x1A86880 VA: 0x181A88280
+	// RVA: 0x1A74A90 Offset: 0x1A73090 VA: 0x181A74A90
 	private void CreateLookupTable(WorldSpline worldSpline) { }
 
-	// RVA: 0x1A88090 Offset: 0x1A86690 VA: 0x181A88090
+	// RVA: 0x1A748A0 Offset: 0x1A72EA0 VA: 0x181A748A0
 	private void AddEntry(float distance, Vector3 pos) { }
 
 }
@@ -60,7 +60,7 @@ public class WorldSplineData.LUTEntry // TypeDefIndex: 11413
 
 	// Methods
 
-	// RVA: 0x1A88020 Offset: 0x1A86620 VA: 0x181A88020
+	// RVA: 0x1A74830 Offset: 0x1A72E30 VA: 0x181A74830
 	public void .ctor() { }
 
 }
@@ -72,7 +72,7 @@ public struct WorldSplineData.LUTEntry.LUTPoint // TypeDefIndex: 11414
 
 	// Methods
 
-	// RVA: 0x22A500 Offset: 0x229900 VA: 0x18022A500
+	// RVA: 0x2294E0 Offset: 0x2288E0 VA: 0x1802294E0
 	public void .ctor(float distance, Vector3 pos) { }
 
 }

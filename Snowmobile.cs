@@ -12,82 +12,82 @@ public class Snowmobile : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 642
 
 	// Methods
 
-	// RVA: 0x1DB58E0 Offset: 0x1DB3EE0 VA: 0x181DB58E0
+	// RVA: 0x1DB60D0 Offset: 0x1DB46D0 VA: 0x181DB60D0
 	public static void ResetToPool(Snowmobile instance) { }
 
-	// RVA: 0x1DB5810 Offset: 0x1DB3E10 VA: 0x181DB5810
+	// RVA: 0x1DB6000 Offset: 0x1DB4600 VA: 0x181DB6000
 	public void ResetToPool() { }
 
-	// RVA: 0x1DB5050 Offset: 0x1DB3650 VA: 0x181DB5050 Slot: 9
+	// RVA: 0x1DB5840 Offset: 0x1DB3E40 VA: 0x181DB5840 Slot: 9
 	public virtual void Dispose() { }
 
-	// RVA: 0x10A5DC0 Offset: 0x10A43C0 VA: 0x1810A5DC0 Slot: 10
+	// RVA: 0x10A6830 Offset: 0x10A4E30 VA: 0x1810A6830 Slot: 10
 	public virtual void EnterPool() { }
 
-	// RVA: 0x10A5DF0 Offset: 0x10A43F0 VA: 0x1810A5DF0 Slot: 11
+	// RVA: 0x10A6860 Offset: 0x10A4E60 VA: 0x1810A6860 Slot: 11
 	public virtual void LeavePool() { }
 
-	// RVA: 0x1DB3600 Offset: 0x1DB1C00 VA: 0x181DB3600
+	// RVA: 0x1DB3DF0 Offset: 0x1DB23F0 VA: 0x181DB3DF0
 	public void CopyTo(Snowmobile instance) { }
 
-	// RVA: 0x1DB3640 Offset: 0x1DB1C40 VA: 0x181DB3640
+	// RVA: 0x1DB3E30 Offset: 0x1DB2430 VA: 0x181DB3E30
 	public Snowmobile Copy() { }
 
-	// RVA: 0x1DB4D30 Offset: 0x1DB3330 VA: 0x181DB4D30
+	// RVA: 0x1DB5520 Offset: 0x1DB3B20 VA: 0x181DB5520
 	public static Snowmobile Deserialize(Stream stream) { }
 
-	// RVA: 0x1DB36D0 Offset: 0x1DB1CD0 VA: 0x181DB36D0
+	// RVA: 0x1DB3EC0 Offset: 0x1DB24C0 VA: 0x181DB3EC0
 	public static Snowmobile DeserializeLengthDelimited(Stream stream) { }
 
-	// RVA: 0x1DB3B10 Offset: 0x1DB2110 VA: 0x181DB3B10
+	// RVA: 0x1DB4300 Offset: 0x1DB2900 VA: 0x181DB4300
 	public static Snowmobile DeserializeLength(Stream stream, int length) { }
 
-	// RVA: 0x1DB4940 Offset: 0x1DB2F40 VA: 0x181DB4940
+	// RVA: 0x1DB5130 Offset: 0x1DB3730 VA: 0x181DB5130
 	public static Snowmobile Deserialize(byte[] buffer) { }
 
-	// RVA: 0x1DB51A0 Offset: 0x1DB37A0 VA: 0x181DB51A0
+	// RVA: 0x1DB5990 Offset: 0x1DB3F90 VA: 0x181DB5990
 	public void FromProto(Stream stream, bool isDelta = False) { }
 
-	// RVA: 0x1DB6080 Offset: 0x1DB4680 VA: 0x181DB6080 Slot: 12
+	// RVA: 0x1DB6870 Offset: 0x1DB4E70 VA: 0x181DB6870 Slot: 12
 	public virtual void WriteToStream(Stream stream) { }
 
-	// RVA: 0x1DB60A0 Offset: 0x1DB46A0 VA: 0x181DB60A0 Slot: 13
+	// RVA: 0x1DB6890 Offset: 0x1DB4E90 VA: 0x181DB6890 Slot: 13
 	public virtual void WriteToStreamDelta(Stream stream, Snowmobile previous) { }
 
-	// RVA: 0x1DB5480 Offset: 0x1DB3A80 VA: 0x181DB5480 Slot: 14
+	// RVA: 0x1DB5C70 Offset: 0x1DB4270 VA: 0x181DB5C70 Slot: 14
 	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
 
-	// RVA: 0x1DB4570 Offset: 0x1DB2B70 VA: 0x181DB4570
+	// RVA: 0x1DB4D60 Offset: 0x1DB3360 VA: 0x181DB4D60
 	public static Snowmobile Deserialize(byte[] buffer, Snowmobile instance, bool isDelta = False) { }
 
-	// RVA: 0x1DB4290 Offset: 0x1DB2890 VA: 0x181DB4290
+	// RVA: 0x1DB4A80 Offset: 0x1DB3080 VA: 0x181DB4A80
 	public static Snowmobile Deserialize(Stream stream, Snowmobile instance, bool isDelta) { }
 
-	// RVA: 0x1DB3750 Offset: 0x1DB1D50 VA: 0x181DB3750
+	// RVA: 0x1DB3F40 Offset: 0x1DB2540 VA: 0x181DB3F40
 	public static Snowmobile DeserializeLengthDelimited(Stream stream, Snowmobile instance, bool isDelta) { }
 
-	// RVA: 0x1DB3EF0 Offset: 0x1DB24F0 VA: 0x181DB3EF0
+	// RVA: 0x1DB46E0 Offset: 0x1DB2CE0 VA: 0x181DB46E0
 	public static Snowmobile DeserializeLength(Stream stream, int length, Snowmobile instance, bool isDelta) { }
 
-	// RVA: 0x1DB59B0 Offset: 0x1DB3FB0 VA: 0x181DB59B0
+	// RVA: 0x1DB61A0 Offset: 0x1DB47A0 VA: 0x181DB61A0
 	public static void SerializeDelta(Stream stream, Snowmobile instance, Snowmobile previous) { }
 
-	// RVA: 0x1DB5EB0 Offset: 0x1DB44B0 VA: 0x181DB5EB0
+	// RVA: 0x1DB66A0 Offset: 0x1DB4CA0 VA: 0x181DB66A0
 	public static void Serialize(Stream stream, Snowmobile instance) { }
 
-	// RVA: 0x1DB6070 Offset: 0x1DB4670 VA: 0x181DB6070
+	// RVA: 0x1DB6860 Offset: 0x1DB4E60 VA: 0x181DB6860
 	public byte[] ToProtoBytes() { }
 
-	// RVA: 0x1DB6080 Offset: 0x1DB4680 VA: 0x181DB6080
+	// RVA: 0x1DB6870 Offset: 0x1DB4E70 VA: 0x181DB6870
 	public void ToProto(Stream stream) { }
 
-	// RVA: 0x1DB5DA0 Offset: 0x1DB43A0 VA: 0x181DB5DA0
+	// RVA: 0x1DB6590 Offset: 0x1DB4B90 VA: 0x181DB6590
 	public static byte[] SerializeToBytes(Snowmobile instance) { }
 
-	// RVA: 0x1DB5CF0 Offset: 0x1DB42F0 VA: 0x181DB5CF0
+	// RVA: 0x1DB64E0 Offset: 0x1DB4AE0 VA: 0x181DB64E0
 	public static void SerializeLengthDelimited(Stream stream, Snowmobile instance) { }
 
-	// RVA: 0x1020D40 Offset: 0x101F340 VA: 0x181020D40
+	// RVA: 0x10217E0 Offset: 0x101FDE0 VA: 0x1810217E0
 	public void .ctor() { }
 
 }
@@ -202,150 +202,150 @@ public class Snowmobile : GroundVehicle, VehicleChassisVisuals.IClientWheelUser<
 
 	// Methods
 
-	// RVA: 0x5B4950 Offset: 0x5B2F50 VA: 0x1805B4950 Slot: 49
+	// RVA: 0x5B48E0 Offset: 0x5B2EE0 VA: 0x1805B48E0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x5B6E50 Offset: 0x5B5450 VA: 0x1805B6E50 Slot: 50
+	// RVA: 0x5B6DE0 Offset: 0x5B53E0 VA: 0x1805B6DE0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x5B5980 Offset: 0x5B3F80 VA: 0x1805B5980 Slot: 35
+	// RVA: 0x5B5910 Offset: 0x5B3F10 VA: 0x1805B5910 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x5B4070 Offset: 0x5B2670 VA: 0x1805B4070 Slot: 14
+	// RVA: 0x5B4000 Offset: 0x5B2600 VA: 0x1805B4000 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x5B3F00 Offset: 0x5B2500 VA: 0x1805B3F00 Slot: 200
+	// RVA: 0x5B3E90 Offset: 0x5B2490 VA: 0x1805B3E90 Slot: 200
 	protected override void ClientFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x5B62E0 Offset: 0x5B48E0 VA: 0x1805B62E0 Slot: 173
+	// RVA: 0x5B6270 Offset: 0x5B4870 VA: 0x1805B6270 Slot: 173
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	// RVA: 0x5B53F0 Offset: 0x5B39F0 VA: 0x1805B53F0
+	// RVA: 0x5B5380 Offset: 0x5B3980 VA: 0x1805B5380
 	public bool IsATreadWheel(VehicleChassisVisuals.ClientWheelData<Snowmobile> wheelData) { }
 
-	// RVA: 0x5B53D0 Offset: 0x5B39D0 VA: 0x1805B53D0
+	// RVA: 0x5B5360 Offset: 0x5B3960 VA: 0x1805B5360
 	public bool IsASkiWheel(VehicleChassisVisuals.ClientWheelData<Snowmobile> wheelData) { }
 
-	// RVA: 0x5B4660 Offset: 0x5B2C60 VA: 0x1805B4660 Slot: 131
+	// RVA: 0x5B45F0 Offset: 0x5B2BF0 VA: 0x1805B45F0 Slot: 131
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	// RVA: 0x5B5210 Offset: 0x5B3810 VA: 0x1805B5210 Slot: 202
+	// RVA: 0x5B51A0 Offset: 0x5B37A0 VA: 0x1805B51A0 Slot: 202
 	protected override void GroundVehicleClientTick() { }
 
-	// RVA: 0x5B58C0 Offset: 0x5B3EC0 VA: 0x1805B58C0 Slot: 201
+	// RVA: 0x5B5850 Offset: 0x5B3E50 VA: 0x1805B5850 Slot: 201
 	protected override void OnClientTickStopped() { }
 
 	[BaseEntity.Menu] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	[BaseEntity.Menu.Description] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	[BaseEntity.Menu.Icon] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
 	[BaseEntity.Menu.ShowIf] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
-	// RVA: 0x5B5730 Offset: 0x5B3D30 VA: 0x1805B5730
+	// RVA: 0x5B56C0 Offset: 0x5B3CC0 VA: 0x1805B56C0
 	public void Menu_FuelStorage(BasePlayer player) { }
 
-	// RVA: 0x5B5550 Offset: 0x5B3B50 VA: 0x1805B5550
+	// RVA: 0x5B54E0 Offset: 0x5B3AE0 VA: 0x1805B54E0
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x8C900 Offset: 0x8BD00 VA: 0x18008C900
 	[BaseEntity.Menu.Description] // RVA: 0x8C900 Offset: 0x8BD00 VA: 0x18008C900
 	[BaseEntity.Menu.Icon] // RVA: 0x8C900 Offset: 0x8BD00 VA: 0x18008C900
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8C900 Offset: 0x8BD00 VA: 0x18008C900
-	// RVA: 0x5B5840 Offset: 0x5B3E40 VA: 0x1805B5840
+	// RVA: 0x5B57D0 Offset: 0x5B3DD0 VA: 0x1805B57D0
 	public void Menu_ItemStorage(BasePlayer player) { }
 
-	// RVA: 0x5B5770 Offset: 0x5B3D70 VA: 0x1805B5770
+	// RVA: 0x5B5700 Offset: 0x5B3D00 VA: 0x1805B5700
 	public bool Menu_ItemStorage_ShowIf(BasePlayer player) { }
 
 	[BaseEntity.Menu] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
 	[BaseEntity.Menu.Description] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
 	[BaseEntity.Menu.Icon] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
 	[BaseEntity.Menu.ShowIf] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
-	// RVA: 0x5B5880 Offset: 0x5B3E80 VA: 0x1805B5880
+	// RVA: 0x5B5810 Offset: 0x5B3E10 VA: 0x1805B5810
 	public void Menu_Push(BasePlayer player) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5B61C0 Offset: 0x5B47C0 VA: 0x1805B61C0
+	// RVA: 0x5B6150 Offset: 0x5B4750 VA: 0x1805B6150
 	private void SnowmobileUpdate(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x5B46B0 Offset: 0x5B2CB0 VA: 0x1805B46B0
+	// RVA: 0x5B4640 Offset: 0x5B2C40 VA: 0x1805B4640
 	private void EngineStartFailed(BaseEntity.RPCMessage msg) { }
 
-	// RVA: 0x5B51B0 Offset: 0x5B37B0 VA: 0x1805B51B0
+	// RVA: 0x5B5140 Offset: 0x5B3740 VA: 0x1805B5140
 	public float get_ThrottleInput() { }
 
-	// RVA: 0x5B7250 Offset: 0x5B5850 VA: 0x1805B7250
+	// RVA: 0x5B71E0 Offset: 0x5B57E0 VA: 0x1805B71E0
 	protected void set_ThrottleInput(float value) { }
 
-	// RVA: 0x5B4710 Offset: 0x5B2D10 VA: 0x1805B4710
+	// RVA: 0x5B46A0 Offset: 0x5B2CA0 VA: 0x1805B46A0
 	public float get_BrakeInput() { }
 
-	// RVA: 0x5B7150 Offset: 0x5B5750 VA: 0x1805B7150
+	// RVA: 0x5B70E0 Offset: 0x5B56E0 VA: 0x1805B70E0
 	protected void set_BrakeInput(float value) { }
 
-	// RVA: 0x5B7030 Offset: 0x5B5630 VA: 0x1805B7030
+	// RVA: 0x5B6FC0 Offset: 0x5B55C0 VA: 0x1805B6FC0
 	public bool get_IsBraking() { }
 
-	// RVA: 0x5B51A0 Offset: 0x5B37A0 VA: 0x1805B51A0
+	// RVA: 0x5B5130 Offset: 0x5B3730 VA: 0x1805B5130
 	public float get_SteerInput() { }
 
-	// RVA: 0x5B71D0 Offset: 0x5B57D0 VA: 0x1805B71D0
+	// RVA: 0x5B7160 Offset: 0x5B5760 VA: 0x1805B7160
 	protected void set_SteerInput(float value) { }
 
-	// RVA: 0x5B7120 Offset: 0x5B5720 VA: 0x1805B7120 Slot: 205
+	// RVA: 0x5B70B0 Offset: 0x5B56B0 VA: 0x1805B70B0 Slot: 205
 	public float get_SteerAngle() { }
 
-	// RVA: 0x5B6D50 Offset: 0x5B5350 VA: 0x1805B6D50 Slot: 196
+	// RVA: 0x5B6CE0 Offset: 0x5B52E0 VA: 0x1805B6CE0 Slot: 196
 	public override float get_DriveWheelVelocity() { }
 
-	// RVA: 0x5B6D40 Offset: 0x5B5340 VA: 0x1805B6D40
+	// RVA: 0x5B6CD0 Offset: 0x5B52D0 VA: 0x1805B6CD0
 	public float get_DriveWheelSlip() { }
 
-	// RVA: 0x5B7100 Offset: 0x5B5700 VA: 0x1805B7100 Slot: 206
+	// RVA: 0x5B7090 Offset: 0x5B5690 VA: 0x1805B7090 Slot: 206
 	public float get_MaxSteerAngle() { }
 
-	// RVA: 0x557C60 Offset: 0x556260 VA: 0x180557C60
+	// RVA: 0x557BF0 Offset: 0x5561F0 VA: 0x180557BF0
 	public bool get_InSlowMode() { }
 
-	// RVA: 0x5B7050 Offset: 0x5B5650 VA: 0x1805B7050
+	// RVA: 0x5B6FE0 Offset: 0x5B55E0 VA: 0x1805B6FE0
 	private float get_Mass() { }
 
-	// RVA: 0x5B5410 Offset: 0x5B3A10 VA: 0x1805B5410 Slot: 34
+	// RVA: 0x5B53A0 Offset: 0x5B39A0 VA: 0x1805B53A0 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x5B4730 Offset: 0x5B2D30 VA: 0x1805B4730
+	// RVA: 0x5B46C0 Offset: 0x5B2CC0 VA: 0x1805B46C0
 	public float GetMaxDriveForce() { }
 
-	// RVA: 0x5B47F0 Offset: 0x5B2DF0 VA: 0x1805B47F0 Slot: 197
+	// RVA: 0x5B4780 Offset: 0x5B2D80 VA: 0x1805B4780 Slot: 197
 	public override float GetMaxForwardSpeed() { }
 
-	// RVA: 0x5B51B0 Offset: 0x5B37B0 VA: 0x1805B51B0 Slot: 198
+	// RVA: 0x5B5140 Offset: 0x5B3740 VA: 0x1805B5140 Slot: 198
 	public override float GetThrottleInput() { }
 
-	// RVA: 0x5B4710 Offset: 0x5B2D10 VA: 0x1805B4710 Slot: 199
+	// RVA: 0x5B46A0 Offset: 0x5B2CA0 VA: 0x1805B46A0 Slot: 199
 	public override float GetBrakeInput() { }
 
-	// RVA: 0x5B51A0 Offset: 0x5B37A0 VA: 0x1805B51A0
+	// RVA: 0x5B5130 Offset: 0x5B3730 VA: 0x1805B5130
 	public float GetSteerInput() { }
 
 	// RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	public bool GetSteerModInput() { }
 
-	// RVA: 0x5B5100 Offset: 0x5B3700 VA: 0x1805B5100
+	// RVA: 0x5B5090 Offset: 0x5B3690 VA: 0x1805B5090
 	public float GetPerformanceFraction() { }
 
-	// RVA: 0x5B4720 Offset: 0x5B2D20 VA: 0x1805B4720
+	// RVA: 0x5B46B0 Offset: 0x5B2CB0 VA: 0x1805B46B0
 	public float GetFuelFraction() { }
 
-	// RVA: 0x559570 Offset: 0x557B70 VA: 0x180559570 Slot: 120
+	// RVA: 0x559500 Offset: 0x557B00 VA: 0x180559500 Slot: 120
 	public override bool CanBeLooted(BasePlayer player) { }
 
-	// RVA: 0x5B5970 Offset: 0x5B3F70 VA: 0x1805B5970 Slot: 80
+	// RVA: 0x5B5900 Offset: 0x5B3F00 VA: 0x1805B5900 Slot: 80
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
-	// RVA: 0x5B6C90 Offset: 0x5B5290 VA: 0x1805B6C90
+	// RVA: 0x5B6C20 Offset: 0x5B5220 VA: 0x1805B6C20
 	public void .ctor() { }
 
-	// RVA: 0x5B6C30 Offset: 0x5B5230 VA: 0x1805B6C30
+	// RVA: 0x5B6BC0 Offset: 0x5B51C0 VA: 0x1805B6BC0
 	private static void .cctor() { }
 
 }

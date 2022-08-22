@@ -1,10 +1,10 @@
 public abstract class MidiException : Exception // TypeDefIndex: 7628
 {	// Methods
 
-	// RVA: 0x13A0A30 Offset: 0x139F030 VA: 0x1813A0A30
+	// RVA: 0x139FB30 Offset: 0x139E130 VA: 0x18139FB30
 	internal void .ctor(string message) { }
 
-	// RVA: 0x13A0AA0 Offset: 0x139F0A0 VA: 0x1813A0AA0
+	// RVA: 0x139FBA0 Offset: 0x139E1A0 VA: 0x18139FBA0
 	internal void .ctor(string message, Exception innerException) { }
 
 }

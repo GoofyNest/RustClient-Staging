@@ -4,10 +4,10 @@ public sealed class TextureParameter : ParameterOverride<Texture> // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x11E57C0 Offset: 0x11E3DC0 VA: 0x1811E57C0 Slot: 9
+	// RVA: 0x11E5E60 Offset: 0x11E4460 VA: 0x1811E5E60 Slot: 9
 	public override void Interp(Texture from, Texture to, float t) { }
 
-	// RVA: 0x11E5CA0 Offset: 0x11E42A0 VA: 0x1811E5CA0
+	// RVA: 0x11E6340 Offset: 0x11E4940 VA: 0x1811E6340
 	public void .ctor() { }
 
 }

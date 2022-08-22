@@ -17,7 +17,7 @@ public class Preset // TypeDefIndex: 11562
 
 	// Methods
 
-	// RVA: 0x5A4F30 Offset: 0x5A3530 VA: 0x1805A4F30
+	// RVA: 0x5A4EC0 Offset: 0x5A34C0 VA: 0x1805A4EC0
 	public void .ctor() { }
 
 }

@@ -45,185 +45,185 @@ public static class World // TypeDefIndex: 10316
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9053C0 Offset: 0x9039C0 VA: 0x1809053C0
+	// RVA: 0x9058D0 Offset: 0x903ED0 VA: 0x1809058D0
 	public static uint get_Seed() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905750 Offset: 0x903D50 VA: 0x180905750
+	// RVA: 0x905C60 Offset: 0x904260 VA: 0x180905C60
 	public static void set_Seed(uint value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905480 Offset: 0x903A80 VA: 0x180905480
+	// RVA: 0x905990 Offset: 0x903F90 VA: 0x180905990
 	public static uint get_Size() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9057E0 Offset: 0x903DE0 VA: 0x1809057E0
+	// RVA: 0x905CF0 Offset: 0x9042F0 VA: 0x180905CF0
 	public static void set_Size(uint value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x904CE0 Offset: 0x9032E0 VA: 0x180904CE0
+	// RVA: 0x9051F0 Offset: 0x9037F0 VA: 0x1809051F0
 	public static string get_Checksum() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905600 Offset: 0x903C00 VA: 0x180905600
+	// RVA: 0x905B10 Offset: 0x904110 VA: 0x180905B10
 	public static void set_Checksum(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905580 Offset: 0x903B80 VA: 0x180905580
+	// RVA: 0x905A90 Offset: 0x904090 VA: 0x180905A90
 	public static string get_Url() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9058E0 Offset: 0x903EE0 VA: 0x1809058E0
+	// RVA: 0x905DF0 Offset: 0x9043F0 VA: 0x180905DF0
 	public static void set_Url(string value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905300 Offset: 0x903900 VA: 0x180905300
+	// RVA: 0x905810 Offset: 0x903E10 VA: 0x180905810
 	public static bool get_Procedural() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9056D0 Offset: 0x903CD0 VA: 0x1809056D0
+	// RVA: 0x905BE0 Offset: 0x9041E0 VA: 0x180905BE0
 	public static void set_Procedural(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x904CA0 Offset: 0x9032A0 VA: 0x180904CA0
+	// RVA: 0x9051B0 Offset: 0x9037B0 VA: 0x1809051B0
 	public static bool get_Cached() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9055C0 Offset: 0x903BC0 VA: 0x1809055C0
+	// RVA: 0x905AD0 Offset: 0x9040D0 VA: 0x180905AD0
 	public static void set_Cached(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9052C0 Offset: 0x9038C0 VA: 0x1809052C0
+	// RVA: 0x9057D0 Offset: 0x903DD0 VA: 0x1809057D0
 	public static bool get_Networked() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905690 Offset: 0x903C90 VA: 0x180905690
+	// RVA: 0x905BA0 Offset: 0x9041A0 VA: 0x180905BA0
 	public static void set_Networked(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905380 Offset: 0x903980 VA: 0x180905380
+	// RVA: 0x905890 Offset: 0x903E90 VA: 0x180905890
 	public static bool get_Receiving() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905710 Offset: 0x903D10 VA: 0x180905710
+	// RVA: 0x905C20 Offset: 0x904220 VA: 0x180905C20
 	public static void set_Receiving(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905540 Offset: 0x903B40 VA: 0x180905540
+	// RVA: 0x905A50 Offset: 0x904050 VA: 0x180905A50
 	public static bool get_Transfer() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9058A0 Offset: 0x903EA0 VA: 0x1809058A0
+	// RVA: 0x905DB0 Offset: 0x9043B0 VA: 0x180905DB0
 	public static void set_Transfer(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x904D20 Offset: 0x903320 VA: 0x180904D20
+	// RVA: 0x905230 Offset: 0x903830 VA: 0x180905230
 	public static bool get_LoadedFromSave() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905650 Offset: 0x903C50 VA: 0x180905650
+	// RVA: 0x905B60 Offset: 0x904160 VA: 0x180905B60
 	public static void set_LoadedFromSave(bool value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x9054C0 Offset: 0x903AC0 VA: 0x1809054C0
+	// RVA: 0x9059D0 Offset: 0x903FD0 VA: 0x1809059D0
 	public static int get_SpawnIndex() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905820 Offset: 0x903E20 VA: 0x180905820
+	// RVA: 0x905D30 Offset: 0x904330 VA: 0x180905D30
 	public static void set_SpawnIndex(int value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905400 Offset: 0x903A00 VA: 0x180905400
+	// RVA: 0x905910 Offset: 0x903F10 VA: 0x180905910
 	public static WorldSerialization get_Serialization() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x905790 Offset: 0x903D90 VA: 0x180905790
+	// RVA: 0x905CA0 Offset: 0x9042A0 VA: 0x180905CA0
 	public static void set_Serialization(WorldSerialization value) { }
 
-	// RVA: 0x905210 Offset: 0x903810 VA: 0x180905210
+	// RVA: 0x905720 Offset: 0x903D20 VA: 0x180905720
 	public static string get_Name() { }
 
-	// RVA: 0x903A30 Offset: 0x902030 VA: 0x180903A30
+	// RVA: 0x903F40 Offset: 0x902540 VA: 0x180903F40
 	public static string GetServerBrowserMapName() { }
 
-	// RVA: 0x9035B0 Offset: 0x901BB0 VA: 0x1809035B0
+	// RVA: 0x903AC0 Offset: 0x9020C0 VA: 0x180903AC0
 	public static bool CanLoadFromUrl() { }
 
-	// RVA: 0x903550 Offset: 0x901B50 VA: 0x180903550
+	// RVA: 0x903A60 Offset: 0x902060 VA: 0x180903A60
 	public static bool CanLoadFromDisk() { }
 
-	// RVA: 0x903600 Offset: 0x901C00 VA: 0x180903600
+	// RVA: 0x903B10 Offset: 0x902110 VA: 0x180903B10
 	public static void CleanupOldFiles() { }
 
-	// RVA: 0x904D60 Offset: 0x903360 VA: 0x180904D60
+	// RVA: 0x905270 Offset: 0x903870 VA: 0x180905270
 	public static string get_MapFileName() { }
 
-	// RVA: 0x9051C0 Offset: 0x9037C0 VA: 0x1809051C0
+	// RVA: 0x9056D0 Offset: 0x903CD0 VA: 0x1809056D0
 	public static string get_MapFolderName() { }
 
-	// RVA: 0x903880 Offset: 0x901E80 VA: 0x180903880
+	// RVA: 0x903D90 Offset: 0x902390 VA: 0x180903D90
 	public static byte[] GetMap(string name) { }
 
-	// RVA: 0x902F60 Offset: 0x901560 VA: 0x180902F60
+	// RVA: 0x903470 Offset: 0x901A70 VA: 0x180903470
 	public static void AddMap(string name, byte[] data) { }
 
-	// RVA: 0x903350 Offset: 0x901950 VA: 0x180903350
+	// RVA: 0x903860 Offset: 0x901E60 VA: 0x180903860
 	public static void AddPrefab(string category, Prefab prefab, Vector3 position, Quaternion rotation, Vector3 scale) { }
 
-	// RVA: 0x903C80 Offset: 0x902280 VA: 0x180903C80
+	// RVA: 0x904190 Offset: 0x902790 VA: 0x180904190
 	public static PathData PathListToPathData(PathList src) { }
 
-	// RVA: 0x903AA0 Offset: 0x9020A0 VA: 0x180903AA0
+	// RVA: 0x903FB0 Offset: 0x9025B0 VA: 0x180903FB0
 	public static PathList PathDataToPathList(PathData src) { }
 
-	// RVA: 0x904BA0 Offset: 0x9031A0 VA: 0x180904BA0
+	// RVA: 0x9050B0 Offset: 0x9036B0 VA: 0x1809050B0
 	public static Vector3[] VectorListToArray(List<VectorData> src) { }
 
-	// RVA: 0x904AA0 Offset: 0x9030A0 VA: 0x180904AA0
+	// RVA: 0x904FB0 Offset: 0x9035B0 VA: 0x180904FB0
 	public static List<VectorData> VectorArrayToList(Vector3[] src) { }
 
-	// RVA: 0x9038F0 Offset: 0x901EF0 VA: 0x1809038F0
+	// RVA: 0x903E00 Offset: 0x902400 VA: 0x180903E00
 	public static IEnumerable<PathList> GetPaths(string name) { }
 
-	// RVA: 0x9031E0 Offset: 0x9017E0 VA: 0x1809031E0
+	// RVA: 0x9036F0 Offset: 0x901CF0 VA: 0x1809036F0
 	public static void AddPaths(IEnumerable<PathList> paths) { }
 
-	// RVA: 0x902FC0 Offset: 0x9015C0 VA: 0x180902FC0
+	// RVA: 0x9034D0 Offset: 0x901AD0 VA: 0x1809034D0
 	public static void AddPath(PathList path) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xCA520 Offset: 0xC9920 VA: 0x1800CA520
-	// RVA: 0x903E60 Offset: 0x902460 VA: 0x180903E60
+	// RVA: 0x904370 Offset: 0x902970 VA: 0x180904370
 	public static IEnumerator SpawnAsync(float deltaTime, Action<string> statusFunction) { }
 
 	[IteratorStateMachineAttribute] // RVA: 0xCA6F0 Offset: 0xC9AF0 VA: 0x1800CA6F0
-	// RVA: 0x904500 Offset: 0x902B00 VA: 0x180904500
+	// RVA: 0x904A10 Offset: 0x903010 VA: 0x180904A10
 	public static IEnumerator Spawn(float deltaTime, Action<string> statusFunction) { }
 
-	// RVA: 0x903EE0 Offset: 0x9024E0 VA: 0x180903EE0
+	// RVA: 0x9043F0 Offset: 0x9029F0 VA: 0x1809043F0
 	public static void Spawn() { }
 
-	// RVA: 0x904120 Offset: 0x902720 VA: 0x180904120
+	// RVA: 0x904630 Offset: 0x902C30 VA: 0x180904630
 	public static void Spawn(string category, string folder) { }
 
-	// RVA: 0x904300 Offset: 0x902900 VA: 0x180904300
+	// RVA: 0x904810 Offset: 0x902E10 VA: 0x180904810
 	public static void Spawn(string category, string[] folders) { }
 
-	// RVA: 0x903FE0 Offset: 0x9025E0 VA: 0x180903FE0
+	// RVA: 0x9044F0 Offset: 0x902AF0 VA: 0x1809044F0
 	private static void Spawn(PrefabData prefab) { }
 
-	// RVA: 0x904580 Offset: 0x902B80 VA: 0x180904580
+	// RVA: 0x904A90 Offset: 0x903090 VA: 0x180904A90
 	private static void Spawn(string category, Prefab prefab, Vector3 position, Quaternion rotation, Vector3 scale) { }
 
-	// RVA: 0x9049C0 Offset: 0x902FC0 VA: 0x1809049C0
+	// RVA: 0x904ED0 Offset: 0x9034D0 VA: 0x180904ED0
 	private static void Status(Action<string> statusFunction, string status, object obj1) { }
 
-	// RVA: 0x904940 Offset: 0x902F40 VA: 0x180904940
+	// RVA: 0x904E50 Offset: 0x903450 VA: 0x180904E50
 	private static void Status(Action<string> statusFunction, string status, object obj1, object obj2) { }
 
-	// RVA: 0x9048B0 Offset: 0x902EB0 VA: 0x1809048B0
+	// RVA: 0x904DC0 Offset: 0x9033C0 VA: 0x180904DC0
 	private static void Status(Action<string> statusFunction, string status, object obj1, object obj2, object obj3) { }
 
-	// RVA: 0x904A30 Offset: 0x903030 VA: 0x180904A30
+	// RVA: 0x904F40 Offset: 0x903540 VA: 0x180904F40
 	private static void Status(Action<string> statusFunction, string status, object[] objs) { }
 
 }
@@ -238,7 +238,7 @@ private sealed class World.<>c__DisplayClass53_0 // TypeDefIndex: 10317
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8EE230 Offset: 0x8EC830 VA: 0x1808EE230
+	// RVA: 0x8EE740 Offset: 0x8ECD40 VA: 0x1808EE740
 	internal bool <CleanupOldFiles>b__0(string path) { }
 
 }
@@ -253,22 +253,22 @@ private sealed class World.<>c // TypeDefIndex: 10318
 
 	// Methods
 
-	// RVA: 0x8EE2F0 Offset: 0x8EC8F0 VA: 0x1808EE2F0
+	// RVA: 0x8EE800 Offset: 0x8ECE00 VA: 0x1808EE800
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x8EDEE0 Offset: 0x8EC4E0 VA: 0x1808EDEE0
+	// RVA: 0x8EE3F0 Offset: 0x8EC9F0 VA: 0x1808EE3F0
 	internal PathList <GetPaths>b__65_0(PathData p) { }
 
-	// RVA: 0x8EE110 Offset: 0x8EC710 VA: 0x1808EE110
+	// RVA: 0x8EE620 Offset: 0x8ECC20 VA: 0x1808EE620
 	internal string <SpawnAsync>b__68_0(PrefabData p) { }
 
-	// RVA: 0x8EE170 Offset: 0x8EC770 VA: 0x1808EE170
+	// RVA: 0x8EE680 Offset: 0x8ECC80 VA: 0x1808EE680
 	internal string <SpawnAsync>b__68_1(IGrouping<string, PrefabData> g) { }
 
-	// RVA: 0x8EE1C0 Offset: 0x8EC7C0 VA: 0x1808EE1C0
+	// RVA: 0x8EE6D0 Offset: 0x8ECCD0 VA: 0x1808EE6D0
 	internal List<PrefabData> <SpawnAsync>b__68_2(IGrouping<string, PrefabData> g) { }
 
 }
@@ -300,7 +300,7 @@ private sealed class World.<SpawnAsync>d__68 : IEnumerator<object>, IEnumerator,
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x8ECD60 Offset: 0x8EB360 VA: 0x1808ECD60 Slot: 6
+	// RVA: 0x8ED270 Offset: 0x8EB870 VA: 0x1808ED270 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -308,7 +308,7 @@ private sealed class World.<SpawnAsync>d__68 : IEnumerator<object>, IEnumerator,
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8ED4C0 Offset: 0x8EBAC0 VA: 0x1808ED4C0 Slot: 8
+	// RVA: 0x8ED9D0 Offset: 0x8EBFD0 VA: 0x1808ED9D0 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -340,7 +340,7 @@ private sealed class World.<Spawn>d__69 : IEnumerator<object>, IEnumerator, IDis
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0x8ED510 Offset: 0x8EBB10 VA: 0x1808ED510 Slot: 6
+	// RVA: 0x8EDA20 Offset: 0x8EC020 VA: 0x1808EDA20 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -348,7 +348,7 @@ private sealed class World.<Spawn>d__69 : IEnumerator<object>, IEnumerator, IDis
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x8ED810 Offset: 0x8EBE10 VA: 0x1808ED810 Slot: 8
+	// RVA: 0x8EDD20 Offset: 0x8EC320 VA: 0x1808EDD20 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

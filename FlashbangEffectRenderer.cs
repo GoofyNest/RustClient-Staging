@@ -6,22 +6,22 @@ public class FlashbangEffectRenderer : PostProcessEffectRenderer<FlashbangEffect
 
 	// Methods
 
-	// RVA: 0x790900 Offset: 0x78EF00 VA: 0x180790900 Slot: 4
+	// RVA: 0x790810 Offset: 0x78EE10 VA: 0x180790810 Slot: 4
 	public override void Init() { }
 
-	// RVA: 0x790970 Offset: 0x78EF70 VA: 0x180790970 Slot: 8
+	// RVA: 0x790880 Offset: 0x78EE80 VA: 0x180790880 Slot: 8
 	public override void Render(PostProcessRenderContext context) { }
 
-	// RVA: 0x790950 Offset: 0x78EF50 VA: 0x180790950 Slot: 7
+	// RVA: 0x790860 Offset: 0x78EE60 VA: 0x180790860 Slot: 7
 	public override void Release() { }
 
-	// RVA: 0x790790 Offset: 0x78ED90 VA: 0x180790790
+	// RVA: 0x7906A0 Offset: 0x78ECA0 VA: 0x1807906A0
 	private static void CheckCreateRenderTexture(ref RenderTexture rt, string name, int width, int height, RenderTextureFormat format) { }
 
-	// RVA: 0x790E70 Offset: 0x78F470 VA: 0x180790E70
+	// RVA: 0x790D80 Offset: 0x78F380 VA: 0x180790D80
 	private static void SafeDestroyRenderTexture(ref RenderTexture rt) { }
 
-	// RVA: 0x790F30 Offset: 0x78F530 VA: 0x180790F30
+	// RVA: 0x790E40 Offset: 0x78F440 VA: 0x180790E40
 	public void .ctor() { }
 
 }

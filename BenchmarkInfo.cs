@@ -9,13 +9,13 @@ public class BenchmarkInfo : SingletonComponent<BenchmarkInfo> // TypeDefIndex: 
 
 	// Methods
 
-	// RVA: 0x50E2B0 Offset: 0x50C8B0 VA: 0x18050E2B0
+	// RVA: 0x50E240 Offset: 0x50C840 VA: 0x18050E240
 	private void Start() { }
 
-	// RVA: 0x50EBA0 Offset: 0x50D1A0 VA: 0x18050EBA0
+	// RVA: 0x50EB30 Offset: 0x50D130 VA: 0x18050EB30
 	private void Update() { }
 
-	// RVA: 0x50F050 Offset: 0x50D650 VA: 0x18050F050
+	// RVA: 0x50EFE0 Offset: 0x50D5E0 VA: 0x18050EFE0
 	public void .ctor() { }
 
 }

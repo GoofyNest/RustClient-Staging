@@ -9,34 +9,34 @@ public class LeanTest // TypeDefIndex: 5577
 
 	// Methods
 
-	// RVA: 0x21AD380 Offset: 0x21AB980 VA: 0x1821AD380
+	// RVA: 0x21ADBA0 Offset: 0x21AC1A0 VA: 0x1821ADBA0
 	public static void debug(string name, bool didPass, string failExplaination) { }
 
-	// RVA: 0x21AD400 Offset: 0x21ABA00 VA: 0x1821AD400
+	// RVA: 0x21ADC20 Offset: 0x21AC220 VA: 0x1821ADC20
 	public static void expect(bool didPass, string definition, string failExplaination) { }
 
-	// RVA: 0x21AE3B0 Offset: 0x21AC9B0 VA: 0x1821AE3B0
+	// RVA: 0x21AEBD0 Offset: 0x21AD1D0 VA: 0x1821AEBD0
 	public static string padRight(int len) { }
 
-	// RVA: 0x21AE400 Offset: 0x21ACA00 VA: 0x1821AE400
+	// RVA: 0x21AEC20 Offset: 0x21AD220 VA: 0x1821AEC20
 	public static float printOutLength(string str) { }
 
-	// RVA: 0x21ADC50 Offset: 0x21AC250 VA: 0x1821ADC50
+	// RVA: 0x21AE470 Offset: 0x21ACA70 VA: 0x1821AE470
 	public static string formatBC(string str, string color) { }
 
-	// RVA: 0x21ADCF0 Offset: 0x21AC2F0 VA: 0x1821ADCF0
+	// RVA: 0x21AE510 Offset: 0x21ACB10 VA: 0x1821AE510
 	public static string formatB(string str) { }
 
-	// RVA: 0x21ADD40 Offset: 0x21AC340 VA: 0x1821ADD40
+	// RVA: 0x21AE560 Offset: 0x21ACB60 VA: 0x1821AE560
 	public static string formatC(string str, string color) { }
 
-	// RVA: 0x21ADF90 Offset: 0x21AC590 VA: 0x1821ADF90
+	// RVA: 0x21AE7B0 Offset: 0x21ACDB0 VA: 0x1821AE7B0
 	public static void overview() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x21AD2F0 Offset: 0x21AB8F0 VA: 0x1821AD2F0
+	// RVA: 0x21ADB10 Offset: 0x21AC110 VA: 0x1821ADB10
 	private static void .cctor() { }
 
 }

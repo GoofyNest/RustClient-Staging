@@ -14,28 +14,28 @@ public class CH47FlightTest : MonoBehaviour // TypeDefIndex: 8854
 
 	// Methods
 
-	// RVA: 0x6F4510 Offset: 0x6F2B10 VA: 0x1806F4510
+	// RVA: 0x6F4460 Offset: 0x6F2A60 VA: 0x1806F4460
 	public void Awake() { }
 
-	// RVA: 0x6F5410 Offset: 0x6F3A10 VA: 0x1806F5410
+	// RVA: 0x6F5360 Offset: 0x6F3960 VA: 0x1806F5360
 	public CH47FlightTest.HelicopterInputState_t GetHelicopterInputState() { }
 
-	// RVA: 0x6F4DB0 Offset: 0x6F33B0 VA: 0x1806F4DB0
+	// RVA: 0x6F4D00 Offset: 0x6F3300 VA: 0x1806F4D00
 	public CH47FlightTest.HelicopterInputState_t GetAIInputState() { }
 
-	// RVA: 0x6F5550 Offset: 0x6F3B50 VA: 0x1806F5550
+	// RVA: 0x6F54A0 Offset: 0x6F3AA0 VA: 0x1806F54A0
 	public float GetIdealAltitude() { }
 
-	// RVA: 0x6F4570 Offset: 0x6F2B70 VA: 0x1806F4570
+	// RVA: 0x6F44C0 Offset: 0x6F2AC0 VA: 0x1806F44C0
 	public void FixedUpdate() { }
 
-	// RVA: 0x6F5590 Offset: 0x6F3B90 VA: 0x1806F5590
+	// RVA: 0x6F54E0 Offset: 0x6F3AE0 VA: 0x1806F54E0
 	public void OnDrawGizmos() { }
 
-	// RVA: 0x6F5980 Offset: 0x6F3F80 VA: 0x1806F5980
+	// RVA: 0x6F58D0 Offset: 0x6F3ED0 VA: 0x1806F58D0
 	public void .ctor() { }
 
-	// RVA: 0x6F5940 Offset: 0x6F3F40 VA: 0x1806F5940
+	// RVA: 0x6F5890 Offset: 0x6F3E90 VA: 0x1806F5890
 	private static void .cctor() { }
 
 }

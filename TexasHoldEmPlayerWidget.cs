@@ -56,16 +56,16 @@ public class TexasHoldEmPlayerWidget : MonoBehaviour // TypeDefIndex: 10883
 
 	// Methods
 
-	// RVA: 0x8858C0 Offset: 0x883EC0 VA: 0x1808858C0
+	// RVA: 0x868C00 Offset: 0x867200 VA: 0x180868C00
 	public void PopulateWidget(CardPlayerData pData, CardTableUI ui, TexasHoldEmPlayerWidget.PlayerUIState uiState, TexasHoldEmPlayerWidget.PlayerChipState chipState, bool isLocalPlayer, bool roundInProgress) { }
 
-	// RVA: 0x885710 Offset: 0x883D10 VA: 0x180885710
+	// RVA: 0x868A50 Offset: 0x867050 VA: 0x180868A50
 	public void DisplayInputAction(TexasHoldEmController.PokerInputOption input, int value) { }
 
-	// RVA: 0x885650 Offset: 0x883C50 VA: 0x180885650
+	// RVA: 0x868990 Offset: 0x866F90 VA: 0x180868990
 	public void DisplayHandResult(PokerLib.PokerResult result, TexasHoldEmUI ui) { }
 
-	// RVA: 0x886020 Offset: 0x884620 VA: 0x180886020
+	// RVA: 0x869360 Offset: 0x867960 VA: 0x180869360
 	public void .ctor() { }
 
 }

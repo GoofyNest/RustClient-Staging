@@ -9,13 +9,13 @@ internal struct StoreAuthURLResponse_t : ICallbackData // TypeDefIndex: 5304
 
 	// Methods
 
-	// RVA: 0x1DAEC0 Offset: 0x1DA2C0 VA: 0x1801DAEC0 Slot: 5
+	// RVA: 0x1DB530 Offset: 0x1DA930 VA: 0x1801DB530 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1DAEB0 Offset: 0x1DA2B0 VA: 0x1801DAEB0 Slot: 4
+	// RVA: 0x1DB520 Offset: 0x1DA920 VA: 0x1801DB520 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x1291290 Offset: 0x128F890 VA: 0x181291290
+	// RVA: 0x1291930 Offset: 0x128FF30 VA: 0x181291930
 	private static void .cctor() { }
 
 }

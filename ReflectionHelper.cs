@@ -6,25 +6,25 @@ internal class ReflectionHelper // TypeDefIndex: 2057
 
 	// Methods
 
-	// RVA: 0x1103D50 Offset: 0x1102350 VA: 0x181103D50
+	// RVA: 0x11047C0 Offset: 0x1102DC0 VA: 0x1811047C0
 	public void RegisterSchemaType(XmlTypeMapping map, string xmlType, string ns) { }
 
-	// RVA: 0x1103B40 Offset: 0x1102140 VA: 0x181103B40
+	// RVA: 0x11045B0 Offset: 0x1102BB0 VA: 0x1811045B0
 	public XmlTypeMapping GetRegisteredSchemaType(string xmlType, string ns) { }
 
-	// RVA: 0x1103C30 Offset: 0x1102230 VA: 0x181103C30
+	// RVA: 0x11046A0 Offset: 0x1102CA0 VA: 0x1811046A0
 	public void RegisterClrType(XmlTypeMapping map, Type type, string ns) { }
 
-	// RVA: 0x1103A10 Offset: 0x1102010 VA: 0x181103A10
+	// RVA: 0x1104480 Offset: 0x1102A80 VA: 0x181104480
 	public XmlTypeMapping GetRegisteredClrType(Type type, string ns) { }
 
-	// RVA: 0x1103690 Offset: 0x1101C90 VA: 0x181103690
+	// RVA: 0x1104100 Offset: 0x1102700 VA: 0x181104100
 	public static void CheckSerializableType(Type type, bool allowPrivateConstructors) { }
 
-	// RVA: 0x1103E50 Offset: 0x1102450 VA: 0x181103E50
+	// RVA: 0x11048C0 Offset: 0x1102EC0 VA: 0x1811048C0
 	public void .ctor() { }
 
-	// RVA: 0x1103E00 Offset: 0x1102400 VA: 0x181103E00
+	// RVA: 0x1104870 Offset: 0x1102E70 VA: 0x181104870
 	private static void .cctor() { }
 
 }

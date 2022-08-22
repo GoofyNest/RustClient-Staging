@@ -10,7 +10,7 @@ public class SinkProviderData // TypeDefIndex: 1201
 
 	// Methods
 
-	// RVA: 0xFF5E20 Offset: 0xFF4420 VA: 0x180FF5E20
+	// RVA: 0xFF68C0 Offset: 0xFF4EC0 VA: 0x180FF68C0
 	public void .ctor(string name) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880

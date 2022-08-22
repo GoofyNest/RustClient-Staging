@@ -9,10 +9,10 @@ public class LinearFog : MonoBehaviour // TypeDefIndex: 10096
 
 	// Methods
 
-	// RVA: 0x4F36A0 Offset: 0x4F1CA0 VA: 0x1804F36A0
+	// RVA: 0x4F3630 Offset: 0x4F1C30 VA: 0x1804F3630
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
-	// RVA: 0x4F38A0 Offset: 0x4F1EA0 VA: 0x1804F38A0
+	// RVA: 0x4F3830 Offset: 0x4F1E30 VA: 0x1804F3830
 	public void .ctor() { }
 
 }

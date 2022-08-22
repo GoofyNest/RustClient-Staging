@@ -4,13 +4,13 @@ public class TriggerWorkbench : TriggerBase // TypeDefIndex: 10052
 
 	// Methods
 
-	// RVA: 0x4D3E80 Offset: 0x4D2480 VA: 0x1804D3E80 Slot: 6
+	// RVA: 0x4D3E10 Offset: 0x4D2410 VA: 0x1804D3E10 Slot: 6
 	internal override GameObject InterestedInObject(GameObject obj) { }
 
-	// RVA: 0x4D3F70 Offset: 0x4D2570 VA: 0x1804D3F70
+	// RVA: 0x4D3F00 Offset: 0x4D2500 VA: 0x1804D3F00
 	public float WorkbenchLevel() { }
 
-	// RVA: 0x4D38B0 Offset: 0x4D1EB0 VA: 0x1804D38B0
+	// RVA: 0x4D3840 Offset: 0x4D1E40 VA: 0x1804D3840
 	public void .ctor() { }
 
 }

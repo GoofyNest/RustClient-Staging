@@ -6,13 +6,13 @@ public class DamageProperties : ScriptableObject // TypeDefIndex: 9979
 
 	// Methods
 
-	// RVA: 0x6C8050 Offset: 0x6C6650 VA: 0x1806C8050
+	// RVA: 0x6C7FE0 Offset: 0x6C65E0 VA: 0x1806C7FE0
 	public float GetMultiplier(HitArea area) { }
 
-	// RVA: 0x6C8150 Offset: 0x6C6750 VA: 0x1806C8150
+	// RVA: 0x6C80E0 Offset: 0x6C66E0 VA: 0x1806C80E0
 	public void ScaleDamage(HitInfo info) { }
 
-	// RVA: 0x4C3AE0 Offset: 0x4C20E0 VA: 0x1804C3AE0
+	// RVA: 0x4C3A70 Offset: 0x4C2070 VA: 0x1804C3A70
 	public void .ctor() { }
 
 }
@@ -24,7 +24,7 @@ public class DamageProperties.HitAreaProperty // TypeDefIndex: 9980
 
 	// Methods
 
-	// RVA: 0x858720 Offset: 0x856D20 VA: 0x180858720
+	// RVA: 0x858C70 Offset: 0x857270 VA: 0x180858C70
 	public void .ctor() { }
 
 }

@@ -19,41 +19,41 @@ public class CCTV_RC : PoweredRemoteControlEntity // TypeDefIndex: 8372
 
 	// Methods
 
-	// RVA: 0x6F3620 Offset: 0x6F1C20 VA: 0x1806F3620 Slot: 49
+	// RVA: 0x6F35B0 Offset: 0x6F1BB0 VA: 0x1806F35B0 Slot: 49
 	public override void GetMenuOptions(List<Option> list) { }
 
-	// RVA: 0x6F3F10 Offset: 0x6F2510 VA: 0x1806F3F10 Slot: 50
+	// RVA: 0x6F3EA0 Offset: 0x6F24A0 VA: 0x1806F3EA0 Slot: 50
 	public override bool get_HasMenuOptions() { }
 
-	// RVA: 0x6F3AE0 Offset: 0x6F20E0 VA: 0x1806F3AE0 Slot: 35
+	// RVA: 0x6F3A70 Offset: 0x6F2070 VA: 0x1806F3A70 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x6F3610 Offset: 0x6F1C10 VA: 0x1806F3610 Slot: 150
+	// RVA: 0x6F35A0 Offset: 0x6F1BA0 VA: 0x1806F35A0 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0x6F3BD0 Offset: 0x6F21D0 VA: 0x1806F3BD0
+	// RVA: 0x6F3B60 Offset: 0x6F2160 VA: 0x1806F3B60
 	public void UpdateRotation(float delta) { }
 
-	// RVA: 0x6F39A0 Offset: 0x6F1FA0 VA: 0x1806F39A0 Slot: 34
+	// RVA: 0x6F3930 Offset: 0x6F1F30 VA: 0x1806F3930 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x6F35E0 Offset: 0x6F1BE0 VA: 0x1806F35E0 Slot: 14
+	// RVA: 0x6F3570 Offset: 0x6F1B70 VA: 0x1806F3570 Slot: 14
 	protected override void ClientInit(Entity info) { }
 
-	// RVA: 0x6F3E20 Offset: 0x6F2420 VA: 0x1806F3E20
+	// RVA: 0x6F3DB0 Offset: 0x6F23B0 VA: 0x1806F3DB0
 	public void Update() { }
 
 	[BaseEntity.Menu] // RVA: 0xD28A0 Offset: 0xD1CA0 VA: 0x1800D28A0
 	[BaseEntity.Menu.Description] // RVA: 0xD28A0 Offset: 0xD1CA0 VA: 0x1800D28A0
 	[BaseEntity.Menu.Icon] // RVA: 0xD28A0 Offset: 0xD1CA0 VA: 0x1800D28A0
 	[BaseEntity.Menu.ShowIf] // RVA: 0xD28A0 Offset: 0xD1CA0 VA: 0x1800D28A0
-	// RVA: 0x6F3AA0 Offset: 0x6F20A0 VA: 0x1806F3AA0
+	// RVA: 0x6F3A30 Offset: 0x6F2030 VA: 0x1806F3A30
 	public void Menu_SetDir(BasePlayer player) { }
 
-	// RVA: 0x6F3A10 Offset: 0x6F2010 VA: 0x1806F3A10
+	// RVA: 0x6F39A0 Offset: 0x6F1FA0 VA: 0x1806F39A0
 	public bool Menu_SetDir_ShowIf(BasePlayer player) { }
 
-	// RVA: 0x6F3E60 Offset: 0x6F2460 VA: 0x1806F3E60
+	// RVA: 0x6F3DF0 Offset: 0x6F23F0 VA: 0x1806F3DF0
 	public void .ctor() { }
 
 }

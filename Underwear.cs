@@ -14,25 +14,25 @@ public class Underwear : ScriptableObject // TypeDefIndex: 10774
 
 	// Methods
 
-	// RVA: 0xA07DF0 Offset: 0xA063F0 VA: 0x180A07DF0
+	// RVA: 0xA082E0 Offset: 0xA068E0 VA: 0x180A082E0
 	public uint GetID() { }
 
-	// RVA: 0xA07E70 Offset: 0xA06470 VA: 0x180A07E70
+	// RVA: 0xA08360 Offset: 0xA06960 VA: 0x180A08360
 	public bool HasMaleParts() { }
 
-	// RVA: 0xA07E50 Offset: 0xA06450 VA: 0x180A07E50
+	// RVA: 0xA08340 Offset: 0xA06940 VA: 0x180A08340
 	public bool HasFemaleParts() { }
 
-	// RVA: 0xA07FE0 Offset: 0xA065E0 VA: 0x180A07FE0
+	// RVA: 0xA084D0 Offset: 0xA06AD0 VA: 0x180A084D0
 	public bool ValidForPlayer(BasePlayer player) { }
 
-	// RVA: 0xA07E90 Offset: 0xA06490 VA: 0x180A07E90
+	// RVA: 0xA08380 Offset: 0xA06980 VA: 0x180A08380
 	public static bool IsFemale(BasePlayer player) { }
 
-	// RVA: 0xA08190 Offset: 0xA06790 VA: 0x180A08190
+	// RVA: 0xA08680 Offset: 0xA06C80 VA: 0x180A08680
 	public static bool Validate(Underwear underwear, BasePlayer player) { }
 
-	// RVA: 0xA084D0 Offset: 0xA06AD0 VA: 0x180A084D0
+	// RVA: 0xA089C0 Offset: 0xA06FC0 VA: 0x180A089C0
 	public void .ctor() { }
 
 }

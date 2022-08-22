@@ -6,13 +6,13 @@ public class PingPongRotate : MonoBehaviour // TypeDefIndex: 9288
 
 	// Methods
 
-	// RVA: 0x90E110 Offset: 0x90C710 VA: 0x18090E110
+	// RVA: 0x90E620 Offset: 0x90CC20 VA: 0x18090E620
 	private void Update() { }
 
-	// RVA: 0x90DF00 Offset: 0x90C500 VA: 0x18090DF00
+	// RVA: 0x90E410 Offset: 0x90CA10 VA: 0x18090E410
 	public Quaternion GetRotation(int index) { }
 
-	// RVA: 0x90E230 Offset: 0x90C830 VA: 0x18090E230
+	// RVA: 0x90E740 Offset: 0x90CD40 VA: 0x18090E740
 	public void .ctor() { }
 
 }

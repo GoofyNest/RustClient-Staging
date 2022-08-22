@@ -11,13 +11,13 @@ internal struct DownloadItemResult_t : ICallbackData // TypeDefIndex: 5435
 
 	// Methods
 
-	// RVA: 0x1E5480 Offset: 0x1E4880 VA: 0x1801E5480 Slot: 5
+	// RVA: 0x1E58A0 Offset: 0x1E4CA0 VA: 0x1801E58A0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1E5470 Offset: 0x1E4870 VA: 0x1801E5470 Slot: 4
+	// RVA: 0x1E5890 Offset: 0x1E4C90 VA: 0x1801E5890 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x13702E0 Offset: 0x136E8E0 VA: 0x1813702E0
+	// RVA: 0x136F3E0 Offset: 0x136D9E0 VA: 0x18136F3E0
 	private static void .cctor() { }
 
 }

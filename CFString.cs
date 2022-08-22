@@ -4,28 +4,28 @@ internal class CFString : CFObject // TypeDefIndex: 2518
 
 	// Methods
 
-	// RVA: 0x1210750 Offset: 0x120ED50 VA: 0x181210750
+	// RVA: 0x1210DF0 Offset: 0x120F3F0 VA: 0x181210DF0
 	public void .ctor(IntPtr handle, bool own) { }
 
-	// RVA: 0x1214730 Offset: 0x1212D30 VA: 0x181214730
+	// RVA: 0x1214DD0 Offset: 0x12133D0 VA: 0x181214DD0
 	private static extern IntPtr CFStringCreateWithCharacters(IntPtr alloc, IntPtr chars, IntPtr length) { }
 
-	// RVA: 0x1214970 Offset: 0x1212F70 VA: 0x181214970
+	// RVA: 0x1215010 Offset: 0x1213610 VA: 0x181215010
 	public static CFString Create(string value) { }
 
-	// RVA: 0x12148F0 Offset: 0x1212EF0 VA: 0x1812148F0
+	// RVA: 0x1214F90 Offset: 0x1213590 VA: 0x181214F90
 	private static extern IntPtr CFStringGetLength(IntPtr handle) { }
 
-	// RVA: 0x12147D0 Offset: 0x1212DD0 VA: 0x1812147D0
+	// RVA: 0x1214E70 Offset: 0x1213470 VA: 0x181214E70
 	private static extern IntPtr CFStringGetCharactersPtr(IntPtr handle) { }
 
-	// RVA: 0x1214850 Offset: 0x1212E50 VA: 0x181214850
+	// RVA: 0x1214EF0 Offset: 0x12134F0 VA: 0x181214EF0
 	private static extern IntPtr CFStringGetCharacters(IntPtr handle, CFRange range, IntPtr buffer) { }
 
-	// RVA: 0x1214490 Offset: 0x1212A90 VA: 0x181214490
+	// RVA: 0x1214B30 Offset: 0x1213130 VA: 0x181214B30
 	public static string AsString(IntPtr handle) { }
 
-	// RVA: 0x1214A90 Offset: 0x1213090 VA: 0x181214A90 Slot: 3
+	// RVA: 0x1215130 Offset: 0x1213730 VA: 0x181215130 Slot: 3
 	public override string ToString() { }
 
 }

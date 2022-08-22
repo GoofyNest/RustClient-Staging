@@ -4,10 +4,10 @@ public class AddToAlphaMap : ProceduralObject // TypeDefIndex: 10565
 
 	// Methods
 
-	// RVA: 0xA9EC60 Offset: 0xA9D260 VA: 0x180A9EC60 Slot: 4
+	// RVA: 0xA9F130 Offset: 0xA9D730 VA: 0x180A9F130 Slot: 4
 	public override void Process() { }
 
-	// RVA: 0xA9EF50 Offset: 0xA9D550 VA: 0x180A9EF50
+	// RVA: 0xA9F420 Offset: 0xA9DA20 VA: 0x180A9F420
 	public void .ctor() { }
 
 }
@@ -19,13 +19,13 @@ private sealed class AddToAlphaMap.<>c // TypeDefIndex: 10566
 
 	// Methods
 
-	// RVA: 0xAABA30 Offset: 0xAAA030 VA: 0x180AABA30
+	// RVA: 0xAABF00 Offset: 0xAAA500 VA: 0x180AABF00
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0xAAB6C0 Offset: 0xAA9CC0 VA: 0x180AAB6C0
+	// RVA: 0xAABB90 Offset: 0xAAA190 VA: 0x180AABB90
 	internal void <Process>b__1_0(int x, int z) { }
 
 }

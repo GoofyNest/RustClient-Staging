@@ -5,13 +5,13 @@ public class DevControls : MonoBehaviour // TypeDefIndex: 9296
 
 	// Methods
 
-	// RVA: 0x97E6E0 Offset: 0x97CCE0 VA: 0x18097E6E0
+	// RVA: 0x97EBE0 Offset: 0x97D1E0 VA: 0x18097EBE0
 	private void OnEnable() { }
 
-	// RVA: 0x97E6F0 Offset: 0x97CCF0 VA: 0x18097E6F0
+	// RVA: 0x97EBF0 Offset: 0x97D1F0 VA: 0x18097EBF0
 	private void OnGUI() { }
 
-	// RVA: 0x97E540 Offset: 0x97CB40 VA: 0x18097E540
+	// RVA: 0x97EA40 Offset: 0x97D040 VA: 0x18097EA40
 	private void Init() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

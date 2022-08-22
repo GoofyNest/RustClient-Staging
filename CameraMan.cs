@@ -36,114 +36,114 @@ public class CameraMan : SingletonComponent<CameraMan> // TypeDefIndex: 9140
 
 	// Methods
 
-	// RVA: 0x6FC2C0 Offset: 0x6FA8C0 VA: 0x1806FC2C0
+	// RVA: 0x6FC210 Offset: 0x6FA810 VA: 0x1806FC210
 	public Color get_GuideColor() { }
 
-	// RVA: 0x6FC540 Offset: 0x6FAB40 VA: 0x1806FC540
+	// RVA: 0x6FC490 Offset: 0x6FAA90 VA: 0x1806FC490
 	public void set_GuideColor(Color value) { }
 
-	// RVA: 0x598420 Offset: 0x596A20 VA: 0x180598420
+	// RVA: 0x5983B0 Offset: 0x5969B0 VA: 0x1805983B0
 	public int get_Guide() { }
 
-	// RVA: 0x6FC5B0 Offset: 0x6FABB0 VA: 0x1806FC5B0
+	// RVA: 0x6FC500 Offset: 0x6FAB00 VA: 0x1806FC500
 	public void set_Guide(int value) { }
 
-	// RVA: 0x6FA970 Offset: 0x6F8F70 VA: 0x1806FA970
+	// RVA: 0x6FA8C0 Offset: 0x6F8EC0 VA: 0x1806FA8C0
 	private void Start() { }
 
-	// RVA: 0x6F95D0 Offset: 0x6F7BD0 VA: 0x1806F95D0
+	// RVA: 0x6F9520 Offset: 0x6F7B20 VA: 0x1806F9520
 	private void OnEnable() { }
 
-	// RVA: 0x6F9270 Offset: 0x6F7870 VA: 0x1806F9270
+	// RVA: 0x6F91C0 Offset: 0x6F77C0 VA: 0x1806F91C0
 	private void OnDisable() { }
 
-	// RVA: 0x6FAB10 Offset: 0x6F9110 VA: 0x1806FAB10
+	// RVA: 0x6FAA60 Offset: 0x6F9060 VA: 0x1806FAA60
 	public void TogglePlayerFreeze() { }
 
-	// RVA: 0x6F8D80 Offset: 0x6F7380 VA: 0x1806F8D80
+	// RVA: 0x6F8CD0 Offset: 0x6F72D0 VA: 0x1806F8CD0
 	private bool IsPlayerUnfrozen() { }
 
-	// RVA: 0x6F8940 Offset: 0x6F6F40 VA: 0x1806F8940
+	// RVA: 0x6F8890 Offset: 0x6F6E90 VA: 0x1806F8890
 	public float FovToZoom(float fov) { }
 
-	// RVA: 0x6FBF80 Offset: 0x6FA580 VA: 0x1806FBF80
+	// RVA: 0x6FBED0 Offset: 0x6FA4D0 VA: 0x1806FBED0
 	public float ZoomToFov(float zoom) { }
 
-	// RVA: 0x6FA840 Offset: 0x6F8E40 VA: 0x1806FA840
+	// RVA: 0x6FA790 Offset: 0x6F8D90 VA: 0x1806FA790
 	public void Save(string name) { }
 
-	// RVA: 0x6FA630 Offset: 0x6F8C30 VA: 0x1806FA630
+	// RVA: 0x6FA580 Offset: 0x6F8B80 VA: 0x1806FA580
 	public void SaveToFile(string name) { }
 
-	// RVA: 0x6F89B0 Offset: 0x6F6FB0 VA: 0x1806F89B0
+	// RVA: 0x6F8900 Offset: 0x6F6F00 VA: 0x1806F8900
 	public CameraMan.CameraState GetCurrentCameraSettings() { }
 
-	// RVA: 0x6F90D0 Offset: 0x6F76D0 VA: 0x1806F90D0
+	// RVA: 0x6F9020 Offset: 0x6F7620 VA: 0x1806F9020
 	public bool Load(string name) { }
 
-	// RVA: 0x6F6E30 Offset: 0x6F5430 VA: 0x1806F6E30
+	// RVA: 0x6F6D80 Offset: 0x6F5380 VA: 0x1806F6D80
 	public void ApplyState(CameraMan.CameraState savedState) { }
 
-	// RVA: 0x6F9C00 Offset: 0x6F8200 VA: 0x1806F9C00
+	// RVA: 0x6F9B50 Offset: 0x6F8150 VA: 0x1806F9B50
 	public string PrintSaved() { }
 
-	// RVA: 0x6F7100 Offset: 0x6F5700 VA: 0x1806F7100
+	// RVA: 0x6F7050 Offset: 0x6F5650 VA: 0x1806F7050
 	public void Clear() { }
 
-	// RVA: 0x6FA750 Offset: 0x6F8D50 VA: 0x1806FA750
+	// RVA: 0x6FA6A0 Offset: 0x6F8CA0 VA: 0x1806FA6A0
 	private void SaveToPlayerPrefs() { }
 
-	// RVA: 0x6F8EE0 Offset: 0x6F74E0 VA: 0x1806F8EE0
+	// RVA: 0x6F8E30 Offset: 0x6F7430 VA: 0x1806F8E30
 	private void LoadFromPlayerPrefs() { }
 
-	// RVA: 0x6FC2E0 Offset: 0x6FA8E0 VA: 0x1806FC2E0
+	// RVA: 0x6FC230 Offset: 0x6FA830 VA: 0x1806FC230
 	private CameraMan.MovementType get_currentMovementType() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6FC2D0 Offset: 0x6FA8D0 VA: 0x1806FC2D0
+	// RVA: 0x6FC220 Offset: 0x6FA820 VA: 0x1806FC220
 	public float get_Zoom() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6FC6C0 Offset: 0x6FACC0 VA: 0x1806FC6C0
+	// RVA: 0x6FC610 Offset: 0x6FAC10 VA: 0x1806FC610
 	private void set_Zoom(float value) { }
 
-	// RVA: 0x6FC250 Offset: 0x6FA850 VA: 0x1806FC250
+	// RVA: 0x6FC1A0 Offset: 0x6FA7A0 VA: 0x1806FC1A0
 	public float get_Fov() { }
 
-	// RVA: 0x6FC4C0 Offset: 0x6FAAC0 VA: 0x1806FC4C0
+	// RVA: 0x6FC410 Offset: 0x6FAA10 VA: 0x1806FC410
 	public void set_Fov(float value) { }
 
-	// RVA: 0x6FC180 Offset: 0x6FA780 VA: 0x1806FC180
+	// RVA: 0x6FC0D0 Offset: 0x6FA6D0 VA: 0x1806FC0D0
 	public static bool get_Active() { }
 
-	// RVA: 0x6FA940 Offset: 0x6F8F40 VA: 0x1806FA940
+	// RVA: 0x6FA890 Offset: 0x6F8E90 VA: 0x1806FA890
 	public void ShakeView(float amplitude, float frequency, float duration) { }
 
-	// RVA: 0x6FAA30 Offset: 0x6F9030 VA: 0x1806FAA30
+	// RVA: 0x6FA980 Offset: 0x6F8F80 VA: 0x1806FA980
 	public void StopViewShake() { }
 
-	// RVA: 0x6FBD20 Offset: 0x6FA320 VA: 0x1806FBD20
+	// RVA: 0x6FBC70 Offset: 0x6FA270 VA: 0x1806FBC70
 	private void Update() { }
 
-	// RVA: 0x6FAA50 Offset: 0x6F9050 VA: 0x1806FAA50
+	// RVA: 0x6FA9A0 Offset: 0x6F8FA0 VA: 0x1806FA9A0
 	public void ToggleControl(bool state) { }
 
-	// RVA: 0x6FACC0 Offset: 0x6F92C0 VA: 0x1806FACC0
+	// RVA: 0x6FAC10 Offset: 0x6F9210 VA: 0x1806FAC10
 	private void UpdateMovement() { }
 
-	// RVA: 0x6F7180 Offset: 0x6F5780 VA: 0x1806F7180
+	// RVA: 0x6F70D0 Offset: 0x6F56D0 VA: 0x1806F70D0
 	private void DoControls() { }
 
-	// RVA: 0x6F8B80 Offset: 0x6F7180 VA: 0x1806F8B80
+	// RVA: 0x6F8AD0 Offset: 0x6F70D0 VA: 0x1806F8AD0
 	public float GetDofDistance(BaseEntity target) { }
 
-	// RVA: 0x6F8700 Offset: 0x6F6D00 VA: 0x1806F8700
+	// RVA: 0x6F8650 Offset: 0x6F6C50 VA: 0x1806F8650
 	public void FocusOnTarget() { }
 
-	// RVA: 0x6FC090 Offset: 0x6FA690 VA: 0x1806FC090
+	// RVA: 0x6FBFE0 Offset: 0x6FA5E0 VA: 0x1806FBFE0
 	public void .ctor() { }
 
-	// RVA: 0x6FBFF0 Offset: 0x6FA5F0 VA: 0x1806FBFF0
+	// RVA: 0x6FBF40 Offset: 0x6FA540 VA: 0x1806FBF40
 	private static void .cctor() { }
 
 }

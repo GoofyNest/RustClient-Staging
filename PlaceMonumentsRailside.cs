@@ -20,16 +20,16 @@ public class PlaceMonumentsRailside : ProceduralComponent // TypeDefIndex: 10545
 
 	// Methods
 
-	// RVA: 0x912A30 Offset: 0x911030 VA: 0x180912A30 Slot: 5
+	// RVA: 0x912F40 Offset: 0x911540 VA: 0x180912F40 Slot: 5
 	public override void Process(uint seed) { }
 
-	// RVA: 0x911FC0 Offset: 0x9105C0 VA: 0x180911FC0
+	// RVA: 0x9124D0 Offset: 0x910AD0 VA: 0x1809124D0
 	private PlaceMonumentsRailside.DistanceInfo GetDistanceInfo(List<PlaceMonumentsRailside.SpawnInfo> spawns, Prefab<MonumentInfo> prefab, Vector3 monumentPos, Quaternion monumentRot, Vector3 monumentScale) { }
 
-	// RVA: 0x914620 Offset: 0x912C20 VA: 0x180914620
+	// RVA: 0x914B30 Offset: 0x913130 VA: 0x180914B30
 	public void .ctor() { }
 
-	// RVA: 0x9145A0 Offset: 0x912BA0 VA: 0x1809145A0
+	// RVA: 0x914AB0 Offset: 0x9130B0 VA: 0x180914AB0
 	private static void .cctor() { }
 
 }
@@ -81,13 +81,13 @@ private sealed class PlaceMonumentsRailside.<>c // TypeDefIndex: 10550
 
 	// Methods
 
-	// RVA: 0x920CC0 Offset: 0x91F2C0 VA: 0x180920CC0
+	// RVA: 0x9211D0 Offset: 0x91F7D0 VA: 0x1809211D0
 	private static void .cctor() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0
 	public void .ctor() { }
 
-	// RVA: 0x920860 Offset: 0x91EE60 VA: 0x180920860
+	// RVA: 0x920D70 Offset: 0x91F370 VA: 0x180920D70
 	internal string <Process>b__17_0(string folder) { }
 
 }

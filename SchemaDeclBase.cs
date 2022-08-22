@@ -27,85 +27,85 @@ internal abstract class SchemaDeclBase // TypeDefIndex: 2275
 
 	// Methods
 
-	// RVA: 0xEE64F0 Offset: 0xEE4AF0 VA: 0x180EE64F0
+	// RVA: 0xEE6FA0 Offset: 0xEE55A0 VA: 0x180EE6FA0
 	protected void .ctor(XmlQualifiedName name, string prefix) { }
 
-	// RVA: 0xEE65C0 Offset: 0xEE4BC0 VA: 0x180EE65C0
+	// RVA: 0xEE7070 Offset: 0xEE5670 VA: 0x180EE7070
 	protected void .ctor() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	internal XmlQualifiedName get_Name() { }
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	internal void set_Name(XmlQualifiedName value) { }
 
-	// RVA: 0xEE6690 Offset: 0xEE4C90 VA: 0x180EE6690
+	// RVA: 0xEE7140 Offset: 0xEE5740 VA: 0x180EE7140
 	internal string get_Prefix() { }
 
-	// RVA: 0x4D37E0 Offset: 0x4D1DE0 VA: 0x1804D37E0
+	// RVA: 0x4D3770 Offset: 0x4D1D70 VA: 0x1804D3770
 	internal void set_Prefix(string value) { }
 
-	// RVA: 0xB106B0 Offset: 0xB0ECB0 VA: 0x180B106B0
+	// RVA: 0xB10B80 Offset: 0xB0F180 VA: 0x180B10B80
 	internal bool get_IsDeclaredInExternal() { }
 
-	// RVA: 0x7F9BF0 Offset: 0x7F81F0 VA: 0x1807F9BF0
+	// RVA: 0x7FA180 Offset: 0x7F8780 VA: 0x1807FA180
 	internal void set_IsDeclaredInExternal(bool value) { }
 
-	// RVA: 0x7D0D10 Offset: 0x7CF310 VA: 0x1807D0D10
+	// RVA: 0x79C630 Offset: 0x79AC30 VA: 0x18079C630
 	internal SchemaDeclBase.Use get_Presence() { }
 
-	// RVA: 0x7D0D70 Offset: 0x7CF370 VA: 0x1807D0D70
+	// RVA: 0x79C690 Offset: 0x79AC90 VA: 0x18079C690
 	internal void set_Presence(SchemaDeclBase.Use value) { }
 
-	// RVA: 0x5C3450 Offset: 0x5C1A50 VA: 0x1805C3450
+	// RVA: 0x5C33E0 Offset: 0x5C19E0 VA: 0x1805C33E0
 	internal long get_MaxLength() { }
 
-	// RVA: 0xEE66E0 Offset: 0xEE4CE0 VA: 0x180EE66E0
+	// RVA: 0xEE7190 Offset: 0xEE5790 VA: 0x180EE7190
 	internal void set_MaxLength(long value) { }
 
-	// RVA: 0x4CF870 Offset: 0x4CDE70 VA: 0x1804CF870
+	// RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
 	internal long get_MinLength() { }
 
-	// RVA: 0xEE66F0 Offset: 0xEE4CF0 VA: 0x180EE66F0
+	// RVA: 0xEE71A0 Offset: 0xEE57A0 VA: 0x180EE71A0
 	internal void set_MinLength(long value) { }
 
-	// RVA: 0x7EE440 Offset: 0x7ECA40 VA: 0x1807EE440
+	// RVA: 0x7EE9D0 Offset: 0x7ECFD0 VA: 0x1807EE9D0
 	internal XmlSchemaType get_SchemaType() { }
 
-	// RVA: 0x7EE450 Offset: 0x7ECA50 VA: 0x1807EE450
+	// RVA: 0x7EE9E0 Offset: 0x7ECFE0 VA: 0x1807EE9E0
 	internal void set_SchemaType(XmlSchemaType value) { }
 
-	// RVA: 0x4A6050 Offset: 0x4A4650 VA: 0x1804A6050
+	// RVA: 0x4A5FE0 Offset: 0x4A45E0 VA: 0x1804A5FE0
 	internal XmlSchemaDatatype get_Datatype() { }
 
-	// RVA: 0x4A6080 Offset: 0x4A4680 VA: 0x1804A6080
+	// RVA: 0x4A6010 Offset: 0x4A4610 VA: 0x1804A6010
 	internal void set_Datatype(XmlSchemaDatatype value) { }
 
-	// RVA: 0xEE6340 Offset: 0xEE4940 VA: 0x180EE6340
+	// RVA: 0xEE6DF0 Offset: 0xEE53F0 VA: 0x180EE6DF0
 	internal void AddValue(string value) { }
 
-	// RVA: 0x4CF860 Offset: 0x4CDE60 VA: 0x1804CF860
+	// RVA: 0x4CF7F0 Offset: 0x4CDDF0 VA: 0x1804CF7F0
 	internal List<string> get_Values() { }
 
-	// RVA: 0x4CF880 Offset: 0x4CDE80 VA: 0x1804CF880
+	// RVA: 0x4CF810 Offset: 0x4CDE10 VA: 0x1804CF810
 	internal void set_Values(List<string> value) { }
 
-	// RVA: 0xEE6640 Offset: 0xEE4C40 VA: 0x180EE6640
+	// RVA: 0xEE70F0 Offset: 0xEE56F0 VA: 0x180EE70F0
 	internal string get_DefaultValueRaw() { }
 
-	// RVA: 0x6AD6C0 Offset: 0x6ABCC0 VA: 0x1806AD6C0
+	// RVA: 0x6AD650 Offset: 0x6ABC50 VA: 0x1806AD650
 	internal void set_DefaultValueRaw(string value) { }
 
-	// RVA: 0x4BC5B0 Offset: 0x4BABB0 VA: 0x1804BC5B0
+	// RVA: 0x4BC540 Offset: 0x4BAB40 VA: 0x1804BC540
 	internal object get_DefaultValueTyped() { }
 
-	// RVA: 0x4BC610 Offset: 0x4BAC10 VA: 0x1804BC610
+	// RVA: 0x4BC5A0 Offset: 0x4BABA0 VA: 0x1804BC5A0
 	internal void set_DefaultValueTyped(object value) { }
 
-	// RVA: 0xEE63E0 Offset: 0xEE49E0 VA: 0x180EE63E0
+	// RVA: 0xEE6E90 Offset: 0xEE5490 VA: 0x180EE6E90
 	internal bool CheckEnumeration(object pVal) { }
 
-	// RVA: 0xEE64A0 Offset: 0xEE4AA0 VA: 0x180EE64A0
+	// RVA: 0xEE6F50 Offset: 0xEE5550 VA: 0x180EE6F50
 	internal bool CheckValue(object pVal) { }
 
 }

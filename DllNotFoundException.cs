@@ -1,13 +1,13 @@
 public class DllNotFoundException : TypeLoadException // TypeDefIndex: 207
 {	// Methods
 
-	// RVA: 0x10D41E0 Offset: 0x10D27E0 VA: 0x1810D41E0
+	// RVA: 0x10D4C50 Offset: 0x10D3250 VA: 0x1810D4C50
 	public void .ctor() { }
 
-	// RVA: 0x10D41A0 Offset: 0x10D27A0 VA: 0x1810D41A0
+	// RVA: 0x10D4C10 Offset: 0x10D3210 VA: 0x1810D4C10
 	public void .ctor(string message) { }
 
-	// RVA: 0x10D41C0 Offset: 0x10D27C0 VA: 0x1810D41C0
+	// RVA: 0x10D4C30 Offset: 0x10D3230 VA: 0x1810D4C30
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

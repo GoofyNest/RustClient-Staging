@@ -91,88 +91,88 @@ public class QDQDOOQQDQODD // TypeDefIndex: 7194
 
 	// Methods
 
-	// RVA: 0xB623F0 Offset: 0xB609F0 VA: 0x180B623F0
+	// RVA: 0xB628C0 Offset: 0xB60EC0 VA: 0x180B628C0
 	public void RoadTypeUpgrade() { }
 
-	// RVA: 0xB5DEF0 Offset: 0xB5C4F0 VA: 0x180B5DEF0
+	// RVA: 0xB5E3C0 Offset: 0xB5C9C0 VA: 0x180B5E3C0
 	public int GetTagIndex(string[] tags) { }
 
-	// RVA: 0xB5DF70 Offset: 0xB5C570 VA: 0x180B5DF70
+	// RVA: 0xB5E440 Offset: 0xB5CA40 VA: 0x180B5E440
 	public static int GetTagIndex(string[] tags, string tag) { }
 
-	// RVA: 0xB62110 Offset: 0xB60710 VA: 0x180B62110
+	// RVA: 0xB625E0 Offset: 0xB60BE0 VA: 0x180B625E0
 	public void OQQOCCODOD() { }
 
-	// RVA: 0xB62C00 Offset: 0xB61200 VA: 0x180B62C00
+	// RVA: 0xB630D0 Offset: 0xB616D0 VA: 0x180B630D0
 	public void .ctor(int count) { }
 
-	// RVA: 0xB627B0 Offset: 0xB60DB0 VA: 0x180B627B0
+	// RVA: 0xB62C80 Offset: 0xB61280 VA: 0x180B62C80
 	public void UpdateTimestamp() { }
 
-	// RVA: 0xB5F910 Offset: 0xB5DF10 VA: 0x180B5F910
+	// RVA: 0xB5FDE0 Offset: 0xB5E3E0 VA: 0x180B5FDE0
 	public static bool ODQDDOCDDC(ERModularBase scr) { }
 
-	// RVA: 0xB622B0 Offset: 0xB608B0 VA: 0x180B622B0
+	// RVA: 0xB62780 Offset: 0xB60D80 VA: 0x180B62780
 	public static string[] RoadNames(List<QDQDOOQQDQODD> roadTypes) { }
 
-	// RVA: 0xB5E8B0 Offset: 0xB5CEB0 VA: 0x180B5E8B0
+	// RVA: 0xB5ED80 Offset: 0xB5D380 VA: 0x180B5ED80
 	public static string[] Nodes(ERRoadShape data) { }
 
-	// RVA: 0xB5E780 Offset: 0xB5CD80 VA: 0x180B5E780
+	// RVA: 0xB5EC50 Offset: 0xB5D250 VA: 0x180B5EC50
 	public static string[] LaneNodes(ERRoadShape data) { }
 
-	// RVA: 0xB5E5F0 Offset: 0xB5CBF0 VA: 0x180B5E5F0
+	// RVA: 0xB5EAC0 Offset: 0xB5D0C0 VA: 0x180B5EAC0
 	public static GUIContent[] LaneNodesContents(ERRoadShape data) { }
 
-	// RVA: 0xB60040 Offset: 0xB5E640 VA: 0x180B60040
+	// RVA: 0xB60510 Offset: 0xB5EB10 VA: 0x180B60510
 	public void ODQQQODOQD() { }
 
-	// RVA: 0xB62610 Offset: 0xB60C10 VA: 0x180B62610
+	// RVA: 0xB62AE0 Offset: 0xB610E0 VA: 0x180B62AE0
 	public static int SetRoadType(List<QDQDOOQQDQODD> roadTypes, double roadType) { }
 
-	// RVA: 0xB62AF0 Offset: 0xB610F0 VA: 0x180B62AF0
+	// RVA: 0xB62FC0 Offset: 0xB615C0 VA: 0x180B62FC0
 	public void UpdateUVs() { }
 
-	// RVA: 0xB5DE30 Offset: 0xB5C430 VA: 0x180B5DE30
+	// RVA: 0xB5E300 Offset: 0xB5C900 VA: 0x180B5E300
 	public static QDQDOOQQDQODD GetRoadTypeElByID(List<QDQDOOQQDQODD> roadTypes, double id) { }
 
-	// RVA: 0xB5F560 Offset: 0xB5DB60 VA: 0x180B5F560
+	// RVA: 0xB5FA30 Offset: 0xB5E030 VA: 0x180B5FA30
 	public static int ODDQDCOODD(List<QDQDOOQQDQODD> roadTypes, double id, ref string[] ramps, ref QDQDOOQQDQODD[] rampTypes) { }
 
-	// RVA: 0xB5DD60 Offset: 0xB5C360 VA: 0x180B5DD60
+	// RVA: 0xB5E230 Offset: 0xB5C830 VA: 0x180B5E230
 	public static int GetRoadTypeByID(List<QDQDOOQQDQODD> roadTypes, double id) { }
 
-	// RVA: 0xB62060 Offset: 0xB60660 VA: 0x180B62060
+	// RVA: 0xB62530 Offset: 0xB60B30 VA: 0x180B62530
 	public static bool OOQDCODDCO(List<QDQDOOQQDQODD> roadTypes, double id, ref QDQDOOQQDQODD motorwayLink) { }
 
-	// RVA: 0xB5F7B0 Offset: 0xB5DDB0 VA: 0x180B5F7B0
+	// RVA: 0xB5FC80 Offset: 0xB5E280 VA: 0x180B5FC80
 	public static string[] ODODCOQODO(List<QDQDOOQQDQODD> roadTypes) { }
 
-	// RVA: 0xB5DFF0 Offset: 0xB5C5F0 VA: 0x180B5DFF0
+	// RVA: 0xB5E4C0 Offset: 0xB5CAC0 VA: 0x180B5E4C0
 	public static bool GetTerrainDeformationByID(List<QDQDOOQQDQODD> roadTypes, double id, ref int element) { }
 
-	// RVA: 0xB62A00 Offset: 0xB61000 VA: 0x180B62A00
+	// RVA: 0xB62ED0 Offset: 0xB614D0 VA: 0x180B62ED0
 	public static void UpdateUVTiling(List<QDQDOOQQDQODD> roadTypes, double id, float tiling) { }
 
-	// RVA: 0xB626C0 Offset: 0xB60CC0 VA: 0x180B626C0
+	// RVA: 0xB62B90 Offset: 0xB61190 VA: 0x180B62B90
 	public static void UpdateResolution(List<QDQDOOQQDQODD> roadTypes, double id, ref float resolution, ref float threshold) { }
 
-	// RVA: 0xB5E9E0 Offset: 0xB5CFE0 VA: 0x180B5E9E0
+	// RVA: 0xB5EEB0 Offset: 0xB5D4B0 VA: 0x180B5EEB0
 	public void OCDOCDQQQO(QDQDOOQQDQODD sourcePreset, List<SideObject> sceneSideObjects, List<SideObjectLog> projectSideObjects, bool copyShapeData) { }
 
-	// RVA: 0xB60280 Offset: 0xB5E880 VA: 0x180B60280
+	// RVA: 0xB60750 Offset: 0xB5ED50 VA: 0x180B60750
 	public static void OOOCDCQQCO(QDQDOOQQDQODD sourcePreset, ERModularRoad road, bool update, int customShapeHandling, bool checkRoadWidth) { }
 
-	// RVA: 0xB5CEF0 Offset: 0xB5B4F0 VA: 0x180B5CEF0
+	// RVA: 0xB5D3C0 Offset: 0xB5B9C0 VA: 0x180B5D3C0
 	public static void AssignSideObjects(ERModularBase scr, int roadTypeInt, ERModularRoad OCCQOOOQQO) { }
 
-	// RVA: 0xB5E0C0 Offset: 0xB5C6C0 VA: 0x180B5E0C0
+	// RVA: 0xB5E590 Offset: 0xB5CB90 VA: 0x180B5E590
 	public static void HasActiveSideObjects(List<ERSORoadExt> sos1, List<ERSORoadExt> sos2, ref bool flag1, ref bool flag2) { }
 
-	// RVA: 0xB61EE0 Offset: 0xB604E0 VA: 0x180B61EE0
+	// RVA: 0xB623B0 Offset: 0xB609B0 VA: 0x180B623B0
 	public int OOOOCQCDDC(int index, ERLaneDirection direction) { }
 
-	// RVA: 0xB5F540 Offset: 0xB5DB40 VA: 0x180B5F540
+	// RVA: 0xB5FA10 Offset: 0xB5E010 VA: 0x180B5FA10
 	public static bool ODCDDDQCQQ(QDQDOOQQDQODD rt1, QDQDOOQQDQODD rt2) { }
 
 }

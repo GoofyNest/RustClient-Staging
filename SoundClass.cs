@@ -16,7 +16,7 @@ public class SoundClass : ScriptableObject // TypeDefIndex: 9024
 
 	// Methods
 
-	// RVA: 0xA74DC0 Offset: 0xA733C0 VA: 0x180A74DC0
+	// RVA: 0xA75290 Offset: 0xA73890 VA: 0x180A75290
 	public void .ctor() { }
 
 }

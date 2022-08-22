@@ -8,7 +8,7 @@ public class PlatformEntity : BaseEntity // TypeDefIndex: 9644
 
 	// Methods
 
-	// RVA: 0x91E440 Offset: 0x91CA40 VA: 0x18091E440
+	// RVA: 0x91E950 Offset: 0x91CF50 VA: 0x18091E950
 	public void .ctor() { }
 
 }

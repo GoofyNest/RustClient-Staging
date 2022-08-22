@@ -8,16 +8,16 @@ public class SolarPanel : IOEntity // TypeDefIndex: 8712
 
 	// Methods
 
-	// RVA: 0x4D5250 Offset: 0x4D3850 VA: 0x1804D5250 Slot: 145
+	// RVA: 0x4D51E0 Offset: 0x4D37E0 VA: 0x1804D51E0 Slot: 145
 	public override bool IsRootEntity() { }
 
-	// RVA: 0x5BFA60 Offset: 0x5BE060 VA: 0x1805BFA60 Slot: 151
+	// RVA: 0x5BF9F0 Offset: 0x5BDFF0 VA: 0x1805BF9F0 Slot: 151
 	public override int MaximalPowerOutput() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10 Slot: 150
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0x5BFA70 Offset: 0x5BE070 VA: 0x1805BFA70
+	// RVA: 0x5BFA00 Offset: 0x5BE000 VA: 0x1805BFA00
 	public void .ctor() { }
 
 }

@@ -15,7 +15,7 @@ public class ERCamNodes : ScriptableObject // TypeDefIndex: 7217
 
 	// Methods
 
-	// RVA: 0xB7B930 Offset: 0xB79F30 VA: 0x180B7B930
+	// RVA: 0xB7BE00 Offset: 0xB7A400 VA: 0x180B7BE00
 	public void .ctor() { }
 
 }

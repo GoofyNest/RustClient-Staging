@@ -13,13 +13,13 @@ public class TeslaCoil : IOEntity // TypeDefIndex: 8717
 
 	// Methods
 
-	// RVA: 0x8854E0 Offset: 0x883AE0 VA: 0x1808854E0 Slot: 150
+	// RVA: 0x868820 Offset: 0x866E20 VA: 0x180868820 Slot: 150
 	public override int ConsumptionAmount() { }
 
-	// RVA: 0x885560 Offset: 0x883B60 VA: 0x180885560 Slot: 16
+	// RVA: 0x8688A0 Offset: 0x866EA0 VA: 0x1808688A0 Slot: 16
 	public override void PostNetworkUpdate() { }
 
-	// RVA: 0x8855C0 Offset: 0x883BC0 VA: 0x1808855C0
+	// RVA: 0x868900 Offset: 0x866F00 VA: 0x180868900
 	public void .ctor() { }
 
 }

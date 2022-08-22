@@ -5,7 +5,7 @@ public class TriggerWakeAIZ : TriggerBase, IServerComponent // TypeDefIndex: 100
 
 	// Methods
 
-	// RVA: 0x4D3E00 Offset: 0x4D2400 VA: 0x1804D3E00
+	// RVA: 0x4D3D90 Offset: 0x4D2390 VA: 0x1804D3D90
 	public void .ctor() { }
 
 }

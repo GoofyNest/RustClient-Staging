@@ -14,16 +14,16 @@ public abstract class PropertyDescriptor : MemberDescriptor // TypeDefIndex: 273
 
 	// Methods
 
-	// RVA: 0x15D3400 Offset: 0x15D1A00 VA: 0x1815D3400
+	// RVA: 0x15D24D0 Offset: 0x15D0AD0 VA: 0x1815D24D0
 	protected void .ctor(string name, Attribute[] attrs) { }
 
-	// RVA: 0x15D33F0 Offset: 0x15D19F0 VA: 0x1815D33F0
+	// RVA: 0x15D24C0 Offset: 0x15D0AC0 VA: 0x1815D24C0
 	protected void .ctor(MemberDescriptor descr, Attribute[] attrs) { }
 
 	// RVA: -1 Offset: -1 Slot: 13
 	public abstract Type get_ComponentType();
 
-	// RVA: 0x15D3410 Offset: 0x15D1A10 VA: 0x1815D3410 Slot: 14
+	// RVA: 0x15D24E0 Offset: 0x15D0AE0 VA: 0x1815D24E0 Slot: 14
 	public virtual TypeConverter get_Converter() { }
 
 	// RVA: -1 Offset: -1 Slot: 15
@@ -32,28 +32,28 @@ public abstract class PropertyDescriptor : MemberDescriptor // TypeDefIndex: 273
 	// RVA: -1 Offset: -1 Slot: 16
 	public abstract Type get_PropertyType();
 
-	// RVA: 0x15D2C50 Offset: 0x15D1250 VA: 0x1815D2C50 Slot: 0
+	// RVA: 0x15D1D20 Offset: 0x15D0320 VA: 0x1815D1D20 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x15D2A20 Offset: 0x15D1020 VA: 0x1815D2A20
+	// RVA: 0x15D1AF0 Offset: 0x15D00F0 VA: 0x1815D1AF0
 	protected object CreateInstance(Type type) { }
 
-	// RVA: 0x15D2DE0 Offset: 0x15D13E0 VA: 0x1815D2DE0 Slot: 11
+	// RVA: 0x15D1EB0 Offset: 0x15D04B0 VA: 0x1815D1EB0 Slot: 11
 	protected override void FillAttributes(IList attributeList) { }
 
-	// RVA: 0x15D2F40 Offset: 0x15D1540 VA: 0x1815D2F40 Slot: 2
+	// RVA: 0x15D2010 Offset: 0x15D0610 VA: 0x1815D2010 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x15D2FA0 Offset: 0x15D15A0 VA: 0x1815D2FA0 Slot: 12
+	// RVA: 0x15D2070 Offset: 0x15D0670 VA: 0x1815D2070 Slot: 12
 	protected override object GetInvocationTarget(Type type, object instance) { }
 
-	// RVA: 0x15D3100 Offset: 0x15D1700 VA: 0x1815D3100
+	// RVA: 0x15D21D0 Offset: 0x15D07D0 VA: 0x1815D21D0
 	protected Type GetTypeFromName(string typeName) { }
 
 	// RVA: -1 Offset: -1 Slot: 17
 	public abstract object GetValue(object component);
 
-	// RVA: 0x15D3350 Offset: 0x15D1950 VA: 0x1815D3350 Slot: 18
+	// RVA: 0x15D2420 Offset: 0x15D0A20 VA: 0x1815D2420 Slot: 18
 	protected virtual void OnValueChanged(object component, EventArgs e) { }
 
 	// RVA: -1 Offset: -1 Slot: 19

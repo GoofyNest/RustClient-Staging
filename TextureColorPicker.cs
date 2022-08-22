@@ -5,13 +5,13 @@ public class TextureColorPicker : MonoBehaviour, IPointerDownHandler, IEventSyst
 
 	// Methods
 
-	// RVA: 0x888230 Offset: 0x886830 VA: 0x180888230 Slot: 6
+	// RVA: 0x86B570 Offset: 0x869B70 VA: 0x18086B570 Slot: 6
 	public virtual void OnPointerDown(PointerEventData eventData) { }
 
-	// RVA: 0x887FC0 Offset: 0x8865C0 VA: 0x180887FC0 Slot: 7
+	// RVA: 0x86B300 Offset: 0x869900 VA: 0x18086B300 Slot: 7
 	public virtual void OnDrag(PointerEventData eventData) { }
 
-	// RVA: 0x888250 Offset: 0x886850 VA: 0x180888250
+	// RVA: 0x86B590 Offset: 0x869B90 VA: 0x18086B590
 	public void .ctor() { }
 
 }
@@ -19,7 +19,7 @@ public class TextureColorPicker : MonoBehaviour, IPointerDownHandler, IEventSyst
 public class TextureColorPicker.onColorSelectedEvent : UnityEvent<Color> // TypeDefIndex: 9243
 {	// Methods
 
-	// RVA: 0x8917E0 Offset: 0x88FDE0 VA: 0x1808917E0
+	// RVA: 0x874B20 Offset: 0x873120 VA: 0x180874B20
 	public void .ctor() { }
 
 }

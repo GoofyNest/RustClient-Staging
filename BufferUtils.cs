@@ -5,13 +5,13 @@ internal static class BufferUtils // TypeDefIndex: 5958
 internal static class BufferUtils // TypeDefIndex: 5958
 	// Methods
 
-	// RVA: 0x17FE620 Offset: 0x17FCC20 VA: 0x1817FE620
+	// RVA: 0x17EBA60 Offset: 0x17EA060 VA: 0x1817EBA60
 	public static char[] RentBuffer(IArrayPool<char> bufferPool, int minSize) { }
 
-	// RVA: 0x17FE690 Offset: 0x17FCC90 VA: 0x1817FE690
+	// RVA: 0x17EBAD0 Offset: 0x17EA0D0 VA: 0x1817EBAD0
 	public static void ReturnBuffer(IArrayPool<char> bufferPool, char[] buffer) { }
 
-	// RVA: 0x17FE580 Offset: 0x17FCB80 VA: 0x1817FE580
+	// RVA: 0x17EB9C0 Offset: 0x17E9FC0 VA: 0x1817EB9C0
 	public static char[] EnsureBufferSize(IArrayPool<char> bufferPool, int size, char[] buffer) { }
 
 }

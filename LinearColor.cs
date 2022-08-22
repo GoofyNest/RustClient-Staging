@@ -7,10 +7,10 @@ public struct LinearColor // TypeDefIndex: 3880
 
 	// Methods
 
-	// RVA: 0x1831D00 Offset: 0x1830300 VA: 0x181831D00
+	// RVA: 0x181F140 Offset: 0x181D740 VA: 0x18181F140
 	public static LinearColor Convert(Color color, float intensity) { }
 
-	// RVA: 0x18249F0 Offset: 0x1822FF0 VA: 0x1818249F0
+	// RVA: 0x1811E30 Offset: 0x1810430 VA: 0x181811E30
 	public static LinearColor Black() { }
 
 }

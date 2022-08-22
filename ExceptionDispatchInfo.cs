@@ -12,19 +12,19 @@ public sealed class ExceptionDispatchInfo // TypeDefIndex: 1265
 
 	// Methods
 
-	// RVA: 0xFE6610 Offset: 0xFE4C10 VA: 0x180FE6610
+	// RVA: 0xFE70B0 Offset: 0xFE56B0 VA: 0x180FE70B0
 	private void .ctor(Exception exception) { }
 
 	// RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	internal object get_BinaryStackTraceArray() { }
 
-	// RVA: 0xFE63D0 Offset: 0xFE49D0 VA: 0x180FE63D0
+	// RVA: 0xFE6E70 Offset: 0xFE5470 VA: 0x180FE6E70
 	public static ExceptionDispatchInfo Capture(Exception source) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public Exception get_SourceException() { }
 
-	// RVA: 0xFE65A0 Offset: 0xFE4BA0 VA: 0x180FE65A0
+	// RVA: 0xFE7040 Offset: 0xFE5640 VA: 0x180FE7040
 	public void Throw() { }
 
 }

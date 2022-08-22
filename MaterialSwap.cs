@@ -8,7 +8,7 @@ public class MaterialSwap : MonoBehaviour, IClientComponent // TypeDefIndex: 935
 
 	// Methods
 
-	// RVA: 0x95BBD0 Offset: 0x95A1D0 VA: 0x18095BBD0
+	// RVA: 0x95C0D0 Offset: 0x95A6D0 VA: 0x18095C0D0
 	public void SetOverrideEnabled(bool on) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

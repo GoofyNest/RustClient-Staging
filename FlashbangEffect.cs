@@ -7,7 +7,7 @@ public class FlashbangEffect : PostProcessEffectSettings // TypeDefIndex: 10252
 
 	// Methods
 
-	// RVA: 0x790F70 Offset: 0x78F570 VA: 0x180790F70
+	// RVA: 0x790E80 Offset: 0x78F480 VA: 0x180790E80
 	public void .ctor() { }
 
 }

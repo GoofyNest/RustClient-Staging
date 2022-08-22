@@ -21,7 +21,7 @@ public abstract class Base : IDisposable // TypeDefIndex: 5283
 
 	// Methods
 
-	// RVA: 0xDD7980 Offset: 0xDD5F80 VA: 0x180DD7980
+	// RVA: 0xDD8430 Offset: 0xDD6A30 VA: 0x180DD8430
 	internal static ISteamMatchmakingServers get_Internal() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -29,72 +29,72 @@ public abstract class Base : IDisposable // TypeDefIndex: 5283
 	public AppId get_AppId() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x57C9E0 Offset: 0x57AFE0 VA: 0x18057C9E0
+	// RVA: 0x57C970 Offset: 0x57AF70 VA: 0x18057C970
 	public void set_AppId(AppId value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDD78B0 Offset: 0xDD5EB0 VA: 0x180DD78B0
+	// RVA: 0xDD8360 Offset: 0xDD6960 VA: 0x180DD8360
 	public void add_OnChanges(Action value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDD7A80 Offset: 0xDD6080 VA: 0x180DD7A80
+	// RVA: 0xDD8530 Offset: 0xDD6B30 VA: 0x180DD8530
 	public void remove_OnChanges(Action value) { }
 
-	// RVA: 0xDD7740 Offset: 0xDD5D40 VA: 0x180DD7740
+	// RVA: 0xDD81F0 Offset: 0xDD67F0 VA: 0x180DD81F0
 	public void .ctor() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0xA25E0 Offset: 0xA19E0 VA: 0x1800A25E0
-	// RVA: 0xDD7250 Offset: 0xDD5850 VA: 0x180DD7250 Slot: 5
+	// RVA: 0xDD7D00 Offset: 0xDD6300 VA: 0x180DD7D00 Slot: 5
 	public virtual Task<bool> RunQueryAsync(float timeoutSeconds = 10) { }
 
-	// RVA: 0xDD6EB0 Offset: 0xDD54B0 VA: 0x180DD6EB0 Slot: 6
+	// RVA: 0xDD7960 Offset: 0xDD5F60 VA: 0x180DD7960 Slot: 6
 	public virtual void Cancel() { }
 
 	// RVA: -1 Offset: -1 Slot: 7
 	internal abstract void LaunchQuery();
 
-	// RVA: 0xDD6EF0 Offset: 0xDD54F0 VA: 0x180DD6EF0 Slot: 8
+	// RVA: 0xDD79A0 Offset: 0xDD5FA0 VA: 0x180DD79A0 Slot: 8
 	internal virtual MatchMakingKeyValuePair[] GetFilters() { }
 
-	// RVA: 0xDD6E10 Offset: 0xDD5410 VA: 0x180DD6E10
+	// RVA: 0xDD78C0 Offset: 0xDD5EC0 VA: 0x180DD78C0
 	public void AddFilter(string key, string value) { }
 
-	// RVA: 0xDD7950 Offset: 0xDD5F50 VA: 0x180DD7950
+	// RVA: 0xDD8400 Offset: 0xDD6A00 VA: 0x180DD8400
 	internal int get_Count() { }
 
-	// RVA: 0xDD7A10 Offset: 0xDD6010 VA: 0x180DD7A10
+	// RVA: 0xDD84C0 Offset: 0xDD6AC0 VA: 0x180DD84C0
 	internal bool get_IsRefreshing() { }
 
-	// RVA: 0xDD71F0 Offset: 0xDD57F0 VA: 0x180DD71F0
+	// RVA: 0xDD7CA0 Offset: 0xDD62A0 VA: 0x180DD7CA0
 	private void Reset() { }
 
-	// RVA: 0xDD7170 Offset: 0xDD5770 VA: 0x180DD7170
+	// RVA: 0xDD7C20 Offset: 0xDD6220 VA: 0x180DD7C20
 	private void ReleaseQuery() { }
 
-	// RVA: 0xDD6EE0 Offset: 0xDD54E0 VA: 0x180DD6EE0 Slot: 4
+	// RVA: 0xDD7990 Offset: 0xDD5F90 VA: 0x180DD7990 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0xDD6F40 Offset: 0xDD5540 VA: 0x180DD6F40
+	// RVA: 0xDD79F0 Offset: 0xDD5FF0 VA: 0x180DD79F0
 	internal void InvokeChanges() { }
 
-	// RVA: 0xDD7620 Offset: 0xDD5C20 VA: 0x180DD7620
+	// RVA: 0xDD80D0 Offset: 0xDD66D0 VA: 0x180DD80D0
 	private void UpdatePending() { }
 
-	// RVA: 0xDD76B0 Offset: 0xDD5CB0 VA: 0x180DD76B0
+	// RVA: 0xDD8160 Offset: 0xDD6760 VA: 0x180DD8160
 	public void UpdateResponsive() { }
 
-	// RVA: 0xDD6F60 Offset: 0xDD5560 VA: 0x180DD6F60
+	// RVA: 0xDD7A10 Offset: 0xDD6010 VA: 0x180DD7A10
 	private void MovePendingToUnresponsive() { }
 
-	// RVA: 0xDD6FF0 Offset: 0xDD55F0 VA: 0x180DD6FF0
+	// RVA: 0xDD7AA0 Offset: 0xDD60A0 VA: 0x180DD7AA0
 	private void OnServer(ServerInfo serverInfo, bool responded) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDD74C0 Offset: 0xDD5AC0 VA: 0x180DD74C0
+	// RVA: 0xDD7F70 Offset: 0xDD6570 VA: 0x180DD7F70
 	private bool <UpdateResponsive>b__33_0(int x) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xDD7350 Offset: 0xDD5950 VA: 0x180DD7350
+	// RVA: 0xDD7E00 Offset: 0xDD6400 VA: 0x180DD7E00
 	private bool <MovePendingToUnresponsive>b__34_0(int x) { }
 
 }
@@ -111,11 +111,11 @@ private struct Base.<RunQueryAsync>d__15 : IAsyncStateMachine // TypeDefIndex: 5
 
 	// Methods
 
-	// RVA: 0x1236C0 Offset: 0x122AC0 VA: 0x1801236C0 Slot: 4
+	// RVA: 0x1234E0 Offset: 0x1228E0 VA: 0x1801234E0 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1236D0 Offset: 0x122AD0 VA: 0x1801236D0 Slot: 5
+	// RVA: 0x1234F0 Offset: 0x1228F0 VA: 0x1801234F0 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -130,7 +130,7 @@ public class Base // TypeDefIndex: 6254
 
 	// Methods
 
-	// RVA: 0x531A90 Offset: 0x530090 VA: 0x180531A90
+	// RVA: 0x531A20 Offset: 0x530020 VA: 0x180531A20
 	public int get_Version() { }
 
 	// RVA: 0x2FC0E0 Offset: 0x2FA6E0 VA: 0x1802FC0E0

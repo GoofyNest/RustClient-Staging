@@ -14,13 +14,13 @@ public struct float2 : IEquatable<float2>, IFormattable // TypeDefIndex: 7101
 	// RVA: 0x239C90 Offset: 0x239090 VA: 0x180239C90
 	public void .ctor(half2 v) { }
 
-	// RVA: 0x22ADD60 Offset: 0x22AC360 VA: 0x1822ADD60
+	// RVA: 0x22AE580 Offset: 0x22ACB80 VA: 0x1822AE580
 	public static float2 op_Implicit(int2 v) { }
 
-	// RVA: 0x970D50 Offset: 0x96F350 VA: 0x180970D50
+	// RVA: 0x971250 Offset: 0x96F850 VA: 0x180971250
 	public static float2 op_Implicit(half2 v) { }
 
-	// RVA: 0x2182840 Offset: 0x2180E40 VA: 0x182182840
+	// RVA: 0x2183060 Offset: 0x2181660 VA: 0x182183060
 	public static float2 op_Subtraction(float2 lhs, float2 rhs) { }
 
 	// RVA: 0x235B10 Offset: 0x234F10 VA: 0x180235B10 Slot: 4

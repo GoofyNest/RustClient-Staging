@@ -13,47 +13,47 @@ public class Achievements : SingletonComponent<Achievements> // TypeDefIndex: 10
 
 	// Methods
 
-	// RVA: 0x76AE90 Offset: 0x769490 VA: 0x18076AE90
+	// RVA: 0x76ADE0 Offset: 0x7693E0 VA: 0x18076ADE0
 	public bool get_IsOpen() { }
 
-	// RVA: 0xA9A120 Offset: 0xA98720 VA: 0x180A9A120
+	// RVA: 0xA9A5F0 Offset: 0xA98BF0 VA: 0x180A9A5F0
 	public void OnEnable() { }
 
-	// RVA: 0xA99D60 Offset: 0xA98360 VA: 0x180A99D60
+	// RVA: 0xA9A230 Offset: 0xA98830 VA: 0x180A9A230
 	private void ClientConnected() { }
 
-	// RVA: 0xA9A220 Offset: 0xA98820 VA: 0x180A9A220
+	// RVA: 0xA9A6F0 Offset: 0xA98CF0 VA: 0x180A9A6F0
 	public void Reset() { }
 
 	[IteratorStateMachineAttribute] // RVA: 0x7D250 Offset: 0x7C650 VA: 0x18007D250
-	// RVA: 0xA9A860 Offset: 0xA98E60 VA: 0x180A9A860
+	// RVA: 0xA9AD30 Offset: 0xA99330 VA: 0x180A9AD30
 	private IEnumerator Think() { }
 
-	// RVA: 0xA9A2A0 Offset: 0xA988A0 VA: 0x180A9A2A0
+	// RVA: 0xA9A770 Offset: 0xA98D70 VA: 0x180A9A770
 	public bool ShouldShow() { }
 
-	// RVA: 0xA99D70 Offset: 0xA98370 VA: 0x180A99D70
+	// RVA: 0xA9A240 Offset: 0xA98840 VA: 0x180A9A240
 	public void Hide() { }
 
-	// RVA: 0xA9A4E0 Offset: 0xA98AE0 VA: 0x180A9A4E0
+	// RVA: 0xA9A9B0 Offset: 0xA98FB0 VA: 0x180A9A9B0
 	private void Show() { }
 
-	// RVA: 0xA99EF0 Offset: 0xA984F0 VA: 0x180A99EF0
+	// RVA: 0xA9A3C0 Offset: 0xA989C0 VA: 0x180A9A3C0
 	public void Initialize() { }
 
-	// RVA: 0xA9A6B0 Offset: 0xA98CB0 VA: 0x180A9A6B0
+	// RVA: 0xA9AB80 Offset: 0xA99180 VA: 0x180A9AB80
 	private void SwitchToGroup(AchievementGroup group) { }
 
-	// RVA: 0xA9A180 Offset: 0xA98780 VA: 0x180A9A180
+	// RVA: 0xA9A650 Offset: 0xA98C50 VA: 0x180A9A650
 	public void OnItemComplete() { }
 
-	// RVA: 0xA99A00 Offset: 0xA98000 VA: 0x180A99A00
+	// RVA: 0xA99ED0 Offset: 0xA984D0 VA: 0x180A99ED0
 	public void CheckForListComplete() { }
 
-	// RVA: 0xA999F0 Offset: 0xA97FF0 VA: 0x180A999F0
+	// RVA: 0xA99EC0 Offset: 0xA984C0 VA: 0x180A99EC0
 	public void BlockNextOpenSound() { }
 
-	// RVA: 0xA9A8D0 Offset: 0xA98ED0 VA: 0x180A9A8D0
+	// RVA: 0xA9ADA0 Offset: 0xA993A0 VA: 0x180A9ADA0
 	public void .ctor() { }
 
 }
@@ -78,7 +78,7 @@ private sealed class Achievements.<Think>d__12 : IEnumerator<object>, IEnumerato
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40 Slot: 5
 	private void System.IDisposable.Dispose() { }
 
-	// RVA: 0xAAB560 Offset: 0xAA9B60 VA: 0x180AAB560 Slot: 6
+	// RVA: 0xAABA30 Offset: 0xAAA030 VA: 0x180AABA30 Slot: 6
 	private bool MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
@@ -86,7 +86,7 @@ private sealed class Achievements.<Think>d__12 : IEnumerator<object>, IEnumerato
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xAAB640 Offset: 0xAA9C40 VA: 0x180AAB640 Slot: 8
+	// RVA: 0xAABB10 Offset: 0xAAA110 VA: 0x180AABB10 Slot: 8
 	private void System.Collections.IEnumerator.Reset() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0

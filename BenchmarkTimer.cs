@@ -6,16 +6,16 @@ public class BenchmarkTimer : IDisposable // TypeDefIndex: 6180
 
 	// Methods
 
-	// RVA: 0x14AA8E0 Offset: 0x14A8EE0 VA: 0x1814AA8E0
+	// RVA: 0x14A99B0 Offset: 0x14A7FB0 VA: 0x1814A99B0
 	public static BenchmarkTimer New(string name) { }
 
-	// RVA: 0x14AAAA0 Offset: 0x14A90A0 VA: 0x1814AAAA0
+	// RVA: 0x14A9B70 Offset: 0x14A8170 VA: 0x1814A9B70
 	public void .ctor(string name) { }
 
-	// RVA: 0x14AA8C0 Offset: 0x14A8EC0 VA: 0x1814AA8C0 Slot: 4
+	// RVA: 0x14A9990 Offset: 0x14A7F90 VA: 0x1814A9990 Slot: 4
 	public void Dispose() { }
 
-	// RVA: 0x14AAA20 Offset: 0x14A9020 VA: 0x1814AAA20
+	// RVA: 0x14A9AF0 Offset: 0x14A80F0 VA: 0x1814A9AF0
 	private static void .cctor() { }
 
 }

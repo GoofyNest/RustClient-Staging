@@ -9,19 +9,19 @@ public sealed class DesignerAttribute : Attribute // TypeDefIndex: 2692
 
 	// Methods
 
-	// RVA: 0x15C18B0 Offset: 0x15BFEB0 VA: 0x1815C18B0
+	// RVA: 0x15C0980 Offset: 0x15BEF80 VA: 0x1815C0980
 	public void .ctor(string designerTypeName) { }
 
-	// RVA: 0x15C17F0 Offset: 0x15BFDF0 VA: 0x1815C17F0
+	// RVA: 0x15C08C0 Offset: 0x15BEEC0 VA: 0x1815C08C0
 	public void .ctor(string designerTypeName, Type designerBaseType) { }
 
-	// RVA: 0x15C19A0 Offset: 0x15BFFA0 VA: 0x1815C19A0 Slot: 4
+	// RVA: 0x15C0A70 Offset: 0x15BF070 VA: 0x1815C0A70 Slot: 4
 	public override object get_TypeId() { }
 
-	// RVA: 0x15C16E0 Offset: 0x15BFCE0 VA: 0x1815C16E0 Slot: 0
+	// RVA: 0x15C07B0 Offset: 0x15BEDB0 VA: 0x1815C07B0 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x15C1790 Offset: 0x15BFD90 VA: 0x1815C1790 Slot: 2
+	// RVA: 0x15C0860 Offset: 0x15BEE60 VA: 0x1815C0860 Slot: 2
 	public override int GetHashCode() { }
 
 }

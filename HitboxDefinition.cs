@@ -14,25 +14,25 @@ public class HitboxDefinition : MonoBehaviour // TypeDefIndex: 9266
 
 	// Methods
 
-	// RVA: 0x73F470 Offset: 0x73DA70 VA: 0x18073F470
+	// RVA: 0x73F3C0 Offset: 0x73D9C0 VA: 0x18073F3C0
 	public Vector3 get_Scale() { }
 
-	// RVA: 0x73F490 Offset: 0x73DA90 VA: 0x18073F490
+	// RVA: 0x73F3E0 Offset: 0x73D9E0 VA: 0x18073F3E0
 	public void set_Scale(Vector3 value) { }
 
-	// RVA: 0x73F330 Offset: 0x73D930 VA: 0x18073F330
+	// RVA: 0x73F280 Offset: 0x73D880 VA: 0x18073F280
 	public Matrix4x4 get_LocalMatrix() { }
 
-	// RVA: 0x73F210 Offset: 0x73D810 VA: 0x18073F210
+	// RVA: 0x73F160 Offset: 0x73D760 VA: 0x18073F160
 	private void OnValidate() { }
 
-	// RVA: 0x73E560 Offset: 0x73CB60 VA: 0x18073E560 Slot: 4
+	// RVA: 0x73E4B0 Offset: 0x73CAB0 VA: 0x18073E4B0 Slot: 4
 	protected virtual void OnDrawGizmosSelected() { }
 
-	// RVA: 0x73EB80 Offset: 0x73D180 VA: 0x18073EB80 Slot: 5
+	// RVA: 0x73EAD0 Offset: 0x73D0D0 VA: 0x18073EAD0 Slot: 5
 	protected virtual void OnDrawGizmos() { }
 
-	// RVA: 0x73F2C0 Offset: 0x73D8C0 VA: 0x18073F2C0
+	// RVA: 0x73F210 Offset: 0x73D810 VA: 0x18073F210
 	public void .ctor() { }
 
 }

@@ -6,25 +6,25 @@ public class RepairBench : StorageContainer // TypeDefIndex: 8633
 
 	// Methods
 
-	// RVA: 0x9532A0 Offset: 0x9518A0 VA: 0x1809532A0 Slot: 35
+	// RVA: 0x9537A0 Offset: 0x951DA0 VA: 0x1809537A0 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x9533D0 Offset: 0x9519D0 VA: 0x1809533D0
+	// RVA: 0x9538D0 Offset: 0x951ED0 VA: 0x1809538D0
 	public void TryRepair() { }
 
-	// RVA: 0x952CB0 Offset: 0x9512B0 VA: 0x180952CB0
+	// RVA: 0x9531B0 Offset: 0x9517B0 VA: 0x1809531B0
 	public void ChangeSkinTo(int id) { }
 
-	// RVA: 0x953270 Offset: 0x951870 VA: 0x180953270
+	// RVA: 0x953770 Offset: 0x951D70 VA: 0x180953770
 	public static float GetRepairFraction(Item itemToRepair) { }
 
-	// RVA: 0x953390 Offset: 0x951990 VA: 0x180953390
+	// RVA: 0x953890 Offset: 0x951E90 VA: 0x180953890
 	public static float RepairCostFraction(Item itemToRepair) { }
 
-	// RVA: 0x952D00 Offset: 0x951300 VA: 0x180952D00
+	// RVA: 0x953200 Offset: 0x951800 VA: 0x180953200
 	public static void GetRepairCostList(ItemBlueprint bp, List<ItemAmount> allIngredients) { }
 
-	// RVA: 0x953410 Offset: 0x951A10 VA: 0x180953410
+	// RVA: 0x953910 Offset: 0x951F10 VA: 0x180953910
 	public void .ctor() { }
 
 }

@@ -7,22 +7,22 @@ public class CameraTool : HeldEntity // TypeDefIndex: 8542
 
 	// Methods
 
-	// RVA: 0x6FCCC0 Offset: 0x6FB2C0 VA: 0x1806FCCC0 Slot: 35
+	// RVA: 0x6FCC10 Offset: 0x6FB210 VA: 0x1806FCC10 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0x6FC7E0 Offset: 0x6FADE0 VA: 0x1806FC7E0 Slot: 135
+	// RVA: 0x6FC730 Offset: 0x6FAD30 VA: 0x1806FC730 Slot: 135
 	public override void EditViewAngles() { }
 
-	// RVA: 0x6FCA70 Offset: 0x6FB070 VA: 0x1806FCA70 Slot: 137
+	// RVA: 0x6FC9C0 Offset: 0x6FAFC0 VA: 0x1806FC9C0 Slot: 137
 	public override void OnFrame() { }
 
-	// RVA: 0x6FCC10 Offset: 0x6FB210 VA: 0x1806FCC10 Slot: 138
+	// RVA: 0x6FCB60 Offset: 0x6FB160 VA: 0x1806FCB60 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0x6FC960 Offset: 0x6FAF60 VA: 0x1806FC960 Slot: 146
+	// RVA: 0x6FC8B0 Offset: 0x6FAEB0 VA: 0x1806FC8B0 Slot: 146
 	public override void ModifyCamera() { }
 
-	// RVA: 0x6FCDB0 Offset: 0x6FB3B0 VA: 0x1806FCDB0
+	// RVA: 0x6FCD00 Offset: 0x6FB300 VA: 0x1806FCD00
 	public void .ctor() { }
 
 }

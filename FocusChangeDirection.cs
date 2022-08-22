@@ -19,24 +19,24 @@ public class FocusChangeDirection // TypeDefIndex: 4587
 	// Methods
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEAF0E0 Offset: 0xEAD6E0 VA: 0x180EAF0E0
+	// RVA: 0xEAFB90 Offset: 0xEAE190 VA: 0x180EAFB90
 	public static FocusChangeDirection get_unspecified() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEAF020 Offset: 0xEAD620 VA: 0x180EAF020
+	// RVA: 0xEAFAD0 Offset: 0xEAE0D0 VA: 0x180EAFAD0
 	public static FocusChangeDirection get_none() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xEAEFC0 Offset: 0xEAD5C0 VA: 0x180EAEFC0
+	// RVA: 0xEAFA70 Offset: 0xEAE070 VA: 0x180EAFA70
 	protected static FocusChangeDirection get_lastValue() { }
 
 	// RVA: 0x49A8E0 Offset: 0x498EE0 VA: 0x18049A8E0
 	protected void .ctor(int value) { }
 
-	// RVA: 0xEAF1A0 Offset: 0xEAD7A0 VA: 0x180EAF1A0
+	// RVA: 0xEAFC50 Offset: 0xEAE250 VA: 0x180EAFC50
 	public static int op_Implicit(FocusChangeDirection fcd) { }
 
-	// RVA: 0xEAEEC0 Offset: 0xEAD4C0 VA: 0x180EAEEC0
+	// RVA: 0xEAF970 Offset: 0xEADF70 VA: 0x180EAF970
 	private static void .cctor() { }
 
 }

@@ -7,13 +7,13 @@ internal class ChannelInfo : IChannelInfo // TypeDefIndex: 1126
 
 	// Methods
 
-	// RVA: 0xFDDE60 Offset: 0xFDC460 VA: 0x180FDDE60
+	// RVA: 0xFDE900 Offset: 0xFDCF00 VA: 0x180FDE900
 	public void .ctor() { }
 
-	// RVA: 0xFDDED0 Offset: 0xFDC4D0 VA: 0x180FDDED0
+	// RVA: 0xFDE970 Offset: 0xFDCF70 VA: 0x180FDE970
 	public void .ctor(object remoteChannelData) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0 Slot: 4
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560 Slot: 4
 	public object[] get_ChannelData() { }
 
 }

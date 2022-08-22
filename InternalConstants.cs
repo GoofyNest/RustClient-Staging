@@ -13,7 +13,7 @@ internal static class InternalConstants // TypeDefIndex: 6960
 
 	// Methods
 
-	// RVA: 0x21D4D60 Offset: 0x21D3360 VA: 0x1821D4D60
+	// RVA: 0x21D5580 Offset: 0x21D3B80 VA: 0x1821D5580
 	private static void .cctor() { }
 
 }

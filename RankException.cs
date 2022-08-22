@@ -1,13 +1,13 @@
 public class RankException : SystemException // TypeDefIndex: 289
 {	// Methods
 
-	// RVA: 0x18D51C0 Offset: 0x18D37C0 VA: 0x1818D51C0
+	// RVA: 0x18D48E0 Offset: 0x18D2EE0 VA: 0x1818D48E0
 	public void .ctor() { }
 
-	// RVA: 0x18D5190 Offset: 0x18D3790 VA: 0x1818D5190
+	// RVA: 0x18D48B0 Offset: 0x18D2EB0 VA: 0x1818D48B0
 	public void .ctor(string message) { }
 
-	// RVA: 0xFDD410 Offset: 0xFDBA10 VA: 0x180FDD410
+	// RVA: 0xFDDEB0 Offset: 0xFDC4B0 VA: 0x180FDDEB0
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }
 
 }

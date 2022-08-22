@@ -9,10 +9,10 @@ public class LootPanelHorse : LootPanel // TypeDefIndex: 11032
 
 	// Methods
 
-	// RVA: 0x508300 Offset: 0x506900 VA: 0x180508300
+	// RVA: 0x508290 Offset: 0x506890 VA: 0x180508290
 	public RidableHorse GetHorse() { }
 
-	// RVA: 0x508390 Offset: 0x506990 VA: 0x180508390 Slot: 5
+	// RVA: 0x508320 Offset: 0x506920 VA: 0x180508320 Slot: 5
 	public override void Update() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

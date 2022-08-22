@@ -31,28 +31,28 @@ public class Poolable : MonoBehaviour, IClientComponent, IPrefabPostProcess // T
 
 	// Methods
 
-	// RVA: 0x998A90 Offset: 0x997090 VA: 0x180998A90
+	// RVA: 0x998F80 Offset: 0x997580 VA: 0x180998F80
 	public int get_ClientCount() { }
 
-	// RVA: 0x52ED10 Offset: 0x52D310 VA: 0x18052ED10
+	// RVA: 0x52ECA0 Offset: 0x52D2A0 VA: 0x18052ECA0
 	public int get_ServerCount() { }
 
-	// RVA: 0x997DF0 Offset: 0x9963F0 VA: 0x180997DF0 Slot: 4
+	// RVA: 0x9982E0 Offset: 0x9968E0 VA: 0x1809982E0 Slot: 4
 	public void PostProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x9979A0 Offset: 0x995FA0 VA: 0x1809979A0
+	// RVA: 0x997E90 Offset: 0x996490 VA: 0x180997E90
 	public void Initialize(uint id) { }
 
-	// RVA: 0x997820 Offset: 0x995E20 VA: 0x180997820
+	// RVA: 0x997D10 Offset: 0x996310 VA: 0x180997D10
 	public void EnterPool() { }
 
-	// RVA: 0x997D80 Offset: 0x996380 VA: 0x180997D80
+	// RVA: 0x998270 Offset: 0x996870 VA: 0x180998270
 	public void LeavePool() { }
 
-	// RVA: 0x997E70 Offset: 0x996470 VA: 0x180997E70
+	// RVA: 0x998360 Offset: 0x996960 VA: 0x180998360
 	public void SetBehaviourEnabled(bool state) { }
 
-	// RVA: 0x998330 Offset: 0x996930 VA: 0x180998330
+	// RVA: 0x998820 Offset: 0x996E20 VA: 0x180998820
 	public void SetComponentEnabled(bool state) { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

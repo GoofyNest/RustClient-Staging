@@ -13,28 +13,28 @@ public class WorkshopView : MonoBehaviour // TypeDefIndex: 7769
 
 	// Methods
 
-	// RVA: 0xE88240 Offset: 0xE86840 VA: 0x180E88240
+	// RVA: 0xE88CF0 Offset: 0xE872F0 VA: 0x180E88CF0
 	protected WorkshopInterface get_Interface() { }
 
-	// RVA: 0xE881A0 Offset: 0xE867A0 VA: 0x180E881A0
+	// RVA: 0xE88C50 Offset: 0xE87250 VA: 0x180E88C50
 	protected WorkshopItemEditor get_Editor() { }
 
-	// RVA: 0xE880A0 Offset: 0xE866A0 VA: 0x180E880A0
+	// RVA: 0xE88B50 Offset: 0xE87150 VA: 0x180E88B50
 	public void Update() { }
 
-	// RVA: 0xE87F20 Offset: 0xE86520 VA: 0x180E87F20
+	// RVA: 0xE889D0 Offset: 0xE86FD0 VA: 0x180E889D0
 	public void UpdateFrom(IWorkshopContent item) { }
 
-	// RVA: 0xE87D90 Offset: 0xE86390 VA: 0x180E87D90
+	// RVA: 0xE88840 Offset: 0xE86E40 VA: 0x180E88840
 	public void OnVoteUp() { }
 
-	// RVA: 0xE87C60 Offset: 0xE86260 VA: 0x180E87C60
+	// RVA: 0xE88710 Offset: 0xE86D10 VA: 0x180E88710
 	public void OnVoteDown() { }
 
-	// RVA: 0xE87EC0 Offset: 0xE864C0 VA: 0x180E87EC0
+	// RVA: 0xE88970 Offset: 0xE86F70 VA: 0x180E88970
 	public void OpenWeb() { }
 
-	// RVA: 0xE87BE0 Offset: 0xE861E0 VA: 0x180E87BE0
+	// RVA: 0xE88690 Offset: 0xE86C90 VA: 0x180E88690
 	internal void Clear() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

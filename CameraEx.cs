@@ -2,11 +2,11 @@ public static class CameraEx // TypeDefIndex: 5612
 {	// Methods
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x19899E0 Offset: 0x1987FE0 VA: 0x1819899E0
+	// RVA: 0x1976DE0 Offset: 0x19753E0 VA: 0x181976DE0
 	public static void FocusOnRenderer(Camera cam, GameObject obj, Vector3 lookDirection, Vector3 Up, int layerMask = -1) { }
 
 	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x198A370 Offset: 0x1988970 VA: 0x18198A370
+	// RVA: 0x1977770 Offset: 0x1975D70 VA: 0x181977770
 	public static void SaveScreenshot(Camera cam, string name, int width, int height, bool transparent, int SuperSampleSize, Nullable<Color> background) { }
 
 }
@@ -29,10 +29,10 @@ public class CameraEx : MonoBehaviour // TypeDefIndex: 11202
 
 	// Methods
 
-	// RVA: 0x6F6BC0 Offset: 0x6F51C0 VA: 0x1806F6BC0
+	// RVA: 0x6F6B10 Offset: 0x6F5110 VA: 0x1806F6B10
 	private void OnPreRender() { }
 
-	// RVA: 0x6F6B20 Offset: 0x6F5120 VA: 0x1806F6B20
+	// RVA: 0x6F6A70 Offset: 0x6F5070 VA: 0x1806F6A70
 	private void OnPostRender() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

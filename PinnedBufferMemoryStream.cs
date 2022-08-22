@@ -5,13 +5,13 @@ internal sealed class PinnedBufferMemoryStream : UnmanagedMemoryStream // TypeDe
 
 	// Methods
 
-	// RVA: 0x162E6E0 Offset: 0x162CCE0 VA: 0x18162E6E0
+	// RVA: 0x161BA00 Offset: 0x161A000 VA: 0x18161BA00
 	internal void .ctor(byte[] array) { }
 
-	// RVA: 0xFFA990 Offset: 0xFF8F90 VA: 0x180FFA990 Slot: 1
+	// RVA: 0xFFB430 Offset: 0xFF9A30 VA: 0x180FFB430 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x162E6A0 Offset: 0x162CCA0 VA: 0x18162E6A0 Slot: 17
+	// RVA: 0x161B9C0 Offset: 0x1619FC0 VA: 0x18161B9C0 Slot: 17
 	protected override void Dispose(bool disposing) { }
 
 }

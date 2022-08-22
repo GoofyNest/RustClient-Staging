@@ -4,10 +4,10 @@ public class LargeShredderTrigger : TriggerBase // TypeDefIndex: 9635
 
 	// Methods
 
-	// RVA: 0x6875D0 Offset: 0x685BD0 VA: 0x1806875D0 Slot: 6
+	// RVA: 0x687560 Offset: 0x685B60 VA: 0x180687560 Slot: 6
 	internal override GameObject InterestedInObject(GameObject obj) { }
 
-	// RVA: 0x4D38B0 Offset: 0x4D1EB0 VA: 0x1804D38B0
+	// RVA: 0x4D3840 Offset: 0x4D1E40 VA: 0x1804D3840
 	public void .ctor() { }
 
 }

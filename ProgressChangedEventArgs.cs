@@ -8,7 +8,7 @@ public class ProgressChangedEventArgs : EventArgs // TypeDefIndex: 2731
 
 	// Methods
 
-	// RVA: 0x15D0210 Offset: 0x15CE810 VA: 0x1815D0210
+	// RVA: 0x15CF2E0 Offset: 0x15CD8E0 VA: 0x1815CF2E0
 	public void .ctor(int progressPercentage, object userState) { }
 
 }

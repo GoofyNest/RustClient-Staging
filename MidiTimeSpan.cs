@@ -8,50 +8,50 @@ public sealed class MidiTimeSpan : ITimeSpan, IComparable, IComparable<MidiTimeS
 
 	// Methods
 
-	// RVA: 0x21FCBE0 Offset: 0x21FB1E0 VA: 0x1821FCBE0
+	// RVA: 0x21FD400 Offset: 0x21FBA00 VA: 0x1821FD400
 	public void .ctor() { }
 
-	// RVA: 0x21FCB50 Offset: 0x21FB150 VA: 0x1821FCB50
+	// RVA: 0x21FD370 Offset: 0x21FB970 VA: 0x1821FD370
 	public void .ctor(long timeSpan) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public long get_TimeSpan() { }
 
-	// RVA: 0x21FCC20 Offset: 0x21FB220 VA: 0x1821FCC20
+	// RVA: 0x21FD440 Offset: 0x21FBA40 VA: 0x1821FD440
 	public static MidiTimeSpan op_Explicit(long timeSpan) { }
 
-	// RVA: 0x21FCBF0 Offset: 0x21FB1F0 VA: 0x1821FCBF0
+	// RVA: 0x21FD410 Offset: 0x21FBA10 VA: 0x1821FD410
 	public static bool op_Equality(MidiTimeSpan timeSpan1, MidiTimeSpan timeSpan2) { }
 
-	// RVA: 0x21FCC80 Offset: 0x21FB280 VA: 0x1821FCC80
+	// RVA: 0x21FD4A0 Offset: 0x21FBAA0 VA: 0x1821FD4A0
 	public static bool op_Inequality(MidiTimeSpan timeSpan1, MidiTimeSpan timeSpan2) { }
 
-	// RVA: 0x21FCCB0 Offset: 0x21FB2B0 VA: 0x1821FCCB0
+	// RVA: 0x21FD4D0 Offset: 0x21FBAD0 VA: 0x1821FD4D0
 	public static MidiTimeSpan op_Subtraction(MidiTimeSpan timeSpan1, MidiTimeSpan timeSpan2) { }
 
-	// RVA: 0x21FCB30 Offset: 0x21FB130 VA: 0x1821FCB30 Slot: 3
+	// RVA: 0x21FD350 Offset: 0x21FB950 VA: 0x1821FD350 Slot: 3
 	public override string ToString() { }
 
-	// RVA: 0x21FC910 Offset: 0x21FAF10 VA: 0x1821FC910 Slot: 0
+	// RVA: 0x21FD130 Offset: 0x21FB730 VA: 0x1821FD130 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x21FC990 Offset: 0x21FAF90 VA: 0x1821FC990 Slot: 2
+	// RVA: 0x21FD1B0 Offset: 0x21FB7B0 VA: 0x1821FD1B0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x21FC9B0 Offset: 0x21FAFB0 VA: 0x1821FC9B0 Slot: 4
+	// RVA: 0x21FD1D0 Offset: 0x21FB7D0 VA: 0x1821FD1D0 Slot: 4
 	public ITimeSpan Subtract(ITimeSpan timeSpan, TimeSpanMode mode) { }
 
-	// RVA: 0x21FC720 Offset: 0x21FAD20 VA: 0x1821FC720 Slot: 5
+	// RVA: 0x21FCF40 Offset: 0x21FB540 VA: 0x1821FCF40 Slot: 5
 	public ITimeSpan Clone() { }
 
-	// RVA: 0x21FC800 Offset: 0x21FAE00 VA: 0x1821FC800 Slot: 6
+	// RVA: 0x21FD020 Offset: 0x21FB620 VA: 0x1821FD020 Slot: 6
 	public int CompareTo(object other) { }
 
-	// RVA: 0x21FC780 Offset: 0x21FAD80 VA: 0x1821FC780 Slot: 7
+	// RVA: 0x21FCFA0 Offset: 0x21FB5A0 VA: 0x1821FCFA0 Slot: 7
 	public int CompareTo(MidiTimeSpan other) { }
 
-	// RVA: 0x21FC8F0 Offset: 0x21FAEF0 VA: 0x1821FC8F0 Slot: 8
+	// RVA: 0x21FD110 Offset: 0x21FB710 VA: 0x1821FD110 Slot: 8
 	public bool Equals(MidiTimeSpan other) { }
 
 }

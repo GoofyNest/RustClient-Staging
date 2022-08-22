@@ -8,28 +8,28 @@ public class TorchWeapon : BaseMelee // TypeDefIndex: 8656
 
 	// Methods
 
-	// RVA: 0xA0AD60 Offset: 0xA09360 VA: 0x180A0AD60 Slot: 35
+	// RVA: 0xA0B250 Offset: 0xA09850 VA: 0x180A0B250 Slot: 35
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	// RVA: 0xA0AAE0 Offset: 0xA090E0 VA: 0x180A0AAE0 Slot: 158
+	// RVA: 0xA0AFD0 Offset: 0xA095D0 VA: 0x180A0AFD0 Slot: 158
 	public override void GetAttackStats(HitInfo info) { }
 
-	// RVA: 0xA0AB80 Offset: 0xA09180 VA: 0x180A0AB80 Slot: 138
+	// RVA: 0xA0B070 Offset: 0xA09670 VA: 0x180A0B070 Slot: 138
 	public override void OnInput() { }
 
-	// RVA: 0xA0B050 Offset: 0xA09650 VA: 0x180A0B050
+	// RVA: 0xA0B540 Offset: 0xA09B40 VA: 0x180A0B540
 	private void ToggleOn() { }
 
-	// RVA: 0xA0AE50 Offset: 0xA09450 VA: 0x180A0AE50 Slot: 144
+	// RVA: 0xA0B340 Offset: 0xA09940 VA: 0x180A0B340 Slot: 144
 	public override void OnViewmodelEvent(string name) { }
 
-	// RVA: 0xA0AB50 Offset: 0xA09150 VA: 0x180A0AB50 Slot: 148
+	// RVA: 0xA0B040 Offset: 0xA09640 VA: 0x180A0B040 Slot: 148
 	public override AnimatorOverrideController GetHoldAnimations() { }
 
-	// RVA: 0xA0AF10 Offset: 0xA09510 VA: 0x180A0AF10 Slot: 152
+	// RVA: 0xA0B400 Offset: 0xA09A00 VA: 0x180A0B400 Slot: 152
 	public override void ProcessSpectatorViewmodel(ViewModel vm) { }
 
-	// RVA: 0xA0B0F0 Offset: 0xA096F0 VA: 0x180A0B0F0
+	// RVA: 0xA0B5E0 Offset: 0xA09BE0 VA: 0x180A0B5E0
 	public void .ctor() { }
 
 }

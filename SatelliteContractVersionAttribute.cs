@@ -7,10 +7,10 @@ public sealed class SatelliteContractVersionAttribute : Attribute // TypeDefInde
 
 	// Methods
 
-	// RVA: 0xFF5D90 Offset: 0xFF4390 VA: 0x180FF5D90
+	// RVA: 0xFF6830 Offset: 0xFF4E30 VA: 0x180FF6830
 	public void .ctor(string version) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_Version() { }
 
 }

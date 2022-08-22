@@ -4,13 +4,13 @@ internal class CurrentSystemTimeZone : TimeZone // TypeDefIndex: 402
 
 	// Methods
 
-	// RVA: 0x17924E0 Offset: 0x1790AE0 VA: 0x1817924E0
+	// RVA: 0x17948F0 Offset: 0x1792EF0 VA: 0x1817948F0
 	internal void .ctor() { }
 
-	// RVA: 0x1792430 Offset: 0x1790A30 VA: 0x181792430 Slot: 4
+	// RVA: 0x1794840 Offset: 0x1792E40 VA: 0x181794840 Slot: 4
 	public override TimeSpan GetUtcOffset(DateTime dateTime) { }
 
-	// RVA: 0x1792420 Offset: 0x1790A20 VA: 0x181792420
+	// RVA: 0x1794830 Offset: 0x1792E30 VA: 0x181794830
 	public static bool GetTimeZoneData(int year, out long[] data, out string[] names, out bool daylight_inverted) { }
 
 }

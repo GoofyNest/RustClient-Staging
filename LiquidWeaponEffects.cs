@@ -46,58 +46,58 @@ public class LiquidWeaponEffects : MonoBehaviour // TypeDefIndex: 9470
 
 	// Methods
 
-	// RVA: 0x4F4F10 Offset: 0x4F3510 VA: 0x1804F4F10
+	// RVA: 0x4F4EA0 Offset: 0x4F34A0 VA: 0x1804F4EA0
 	public void Init(BasePlayer player, float currentRange, float maxRange) { }
 
-	// RVA: 0x4F52D0 Offset: 0x4F38D0 VA: 0x1804F52D0
+	// RVA: 0x4F5260 Offset: 0x4F3860 VA: 0x1804F5260
 	public void SetWaterLevel(float fraction, bool instant) { }
 
-	// RVA: 0x4F52C0 Offset: 0x4F38C0 VA: 0x1804F52C0
+	// RVA: 0x4F5250 Offset: 0x4F3850 VA: 0x1804F5250
 	public void SetPressureFraction(float pressure) { }
 
-	// RVA: 0x4F5D50 Offset: 0x4F4350 VA: 0x1804F5D50
+	// RVA: 0x4F5CE0 Offset: 0x4F42E0 VA: 0x1804F5CE0
 	private void Update() { }
 
-	// RVA: 0x4F4F60 Offset: 0x4F3560 VA: 0x1804F4F60
+	// RVA: 0x4F4EF0 Offset: 0x4F34F0 VA: 0x1804F4EF0
 	public void OnDisable() { }
 
-	// RVA: 0x4F5380 Offset: 0x4F3980 VA: 0x1804F5380
+	// RVA: 0x4F5310 Offset: 0x4F3910 VA: 0x1804F5310
 	public void StartEmission() { }
 
-	// RVA: 0x4F5A60 Offset: 0x4F4060 VA: 0x1804F5A60
+	// RVA: 0x4F59F0 Offset: 0x4F3FF0 VA: 0x1804F59F0
 	public void StopEmission(float delay) { }
 
-	// RVA: 0x4F59D0 Offset: 0x4F3FD0 VA: 0x1804F59D0
+	// RVA: 0x4F5960 Offset: 0x4F3F60 VA: 0x1804F5960
 	private void StopEmissionCo() { }
 
-	// RVA: 0x4F4940 Offset: 0x4F2F40 VA: 0x1804F4940
+	// RVA: 0x4F48D0 Offset: 0x4F2ED0 VA: 0x1804F48D0
 	private void FixedUpdate() { }
 
-	// RVA: 0x4F4860 Offset: 0x4F2E60 VA: 0x1804F4860
+	// RVA: 0x4F47F0 Offset: 0x4F2DF0 VA: 0x1804F47F0
 	private void DoSplash(Vector3 point, Vector3 direction) { }
 
-	// RVA: 0x4F5000 Offset: 0x4F3600 VA: 0x1804F5000
+	// RVA: 0x4F4F90 Offset: 0x4F3590 VA: 0x1804F4F90
 	private void OnDrawGizmos() { }
 
-	// RVA: 0x4F5610 Offset: 0x4F3C10 VA: 0x1804F5610
+	// RVA: 0x4F55A0 Offset: 0x4F3BA0 VA: 0x1804F55A0
 	public void StartShootSounds() { }
 
-	// RVA: 0x4F5BB0 Offset: 0x4F41B0 VA: 0x1804F5BB0
+	// RVA: 0x4F5B40 Offset: 0x4F4140 VA: 0x1804F5B40
 	public void StopShootSounds() { }
 
-	// RVA: 0x4F5D00 Offset: 0x4F4300 VA: 0x1804F5D00
+	// RVA: 0x4F5C90 Offset: 0x4F4290 VA: 0x1804F5C90
 	private void UpdateShootSounds() { }
 
-	// RVA: 0x4F5430 Offset: 0x4F3A30 VA: 0x1804F5430
+	// RVA: 0x4F53C0 Offset: 0x4F39C0 VA: 0x1804F53C0
 	private void StartImpactSounds(Vector3 position) { }
 
-	// RVA: 0x4F5AF0 Offset: 0x4F40F0 VA: 0x1804F5AF0
+	// RVA: 0x4F5A80 Offset: 0x4F4080 VA: 0x1804F5A80
 	private void StopImpactSounds() { }
 
-	// RVA: 0x4F5200 Offset: 0x4F3800 VA: 0x1804F5200
+	// RVA: 0x4F5190 Offset: 0x4F3790 VA: 0x1804F5190
 	private void RepositionImpactSounds(Vector3 position) { }
 
-	// RVA: 0x4F5FA0 Offset: 0x4F45A0 VA: 0x1804F5FA0
+	// RVA: 0x4F5F30 Offset: 0x4F4530 VA: 0x1804F5F30
 	public void .ctor() { }
 
 }

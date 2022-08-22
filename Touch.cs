@@ -23,7 +23,7 @@ public struct Touch // TypeDefIndex: 4073
 
 	// Methods
 
-	// RVA: 0x13A5A0 Offset: 0x1399A0 VA: 0x18013A5A0
+	// RVA: 0x13A3C0 Offset: 0x1397C0 VA: 0x18013A3C0
 	public int get_fingerId() { }
 
 	// RVA: 0x240AD0 Offset: 0x23FED0 VA: 0x180240AD0

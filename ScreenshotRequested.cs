@@ -1,6 +1,6 @@
 internal struct ScreenshotRequested_t : ICallbackData // TypeDefIndex: 5407
 {	// Fields
-	public static int _datasize; // 0x139B0
+	public static int _datasize; // 0x2B10360
 
 	// Properties
 	public int DataSize { get; }
@@ -8,13 +8,13 @@ internal struct ScreenshotRequested_t : ICallbackData // TypeDefIndex: 5407
 
 	// Methods
 
-	// RVA: 0x1D7D50 Offset: 0x1D7150 VA: 0x1801D7D50 Slot: 5
+	// RVA: 0x1D83C0 Offset: 0x1D77C0 VA: 0x1801D83C0 Slot: 5
 	public int get_DataSize() { }
 
-	// RVA: 0x1D7D40 Offset: 0x1D7140 VA: 0x1801D7D40 Slot: 4
+	// RVA: 0x1D83B0 Offset: 0x1D77B0 VA: 0x1801D83B0 Slot: 4
 	public CallbackType get_CallbackType() { }
 
-	// RVA: 0x128EF60 Offset: 0x128D560 VA: 0x18128EF60
+	// RVA: 0x128F600 Offset: 0x128DC00 VA: 0x18128F600
 	private static void .cctor() { }
 
 }

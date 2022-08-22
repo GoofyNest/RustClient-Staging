@@ -6,7 +6,7 @@ public class CH47ReinforcementListener : BaseEntity // TypeDefIndex: 9719
 
 	// Methods
 
-	// RVA: 0x6F6A60 Offset: 0x6F5060 VA: 0x1806F6A60
+	// RVA: 0x6F69B0 Offset: 0x6F4FB0 VA: 0x1806F69B0
 	public void .ctor() { }
 
 }

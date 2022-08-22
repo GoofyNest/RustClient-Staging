@@ -23,35 +23,35 @@ public class BenchmarkData // TypeDefIndex: 6178
 
 	// Methods
 
-	// RVA: 0x14AA160 Offset: 0x14A8760 VA: 0x1814AA160
+	// RVA: 0x14A9230 Offset: 0x14A7830 VA: 0x1814A9230
 	public static BenchmarkData New() { }
 
-	// RVA: 0x14AA640 Offset: 0x14A8C40 VA: 0x1814AA640
+	// RVA: 0x14A9710 Offset: 0x14A7D10 VA: 0x1814A9710
 	public void WriteTimersToResults() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x9F940 Offset: 0x9ED40 VA: 0x18009F940
-	// RVA: 0x14AA310 Offset: 0x14A8910 VA: 0x1814AA310
+	// RVA: 0x14A93E0 Offset: 0x14A79E0 VA: 0x1814A93E0
 	public Task<string> Upload() { }
 
-	// RVA: 0x14AA410 Offset: 0x14A8A10 VA: 0x1814AA410
+	// RVA: 0x14A94E0 Offset: 0x14A7AE0 VA: 0x1814A94E0
 	public string WriteJSON() { }
 
-	// RVA: 0x14AA870 Offset: 0x14A8E70 VA: 0x1814AA870
+	// RVA: 0x14A9940 Offset: 0x14A7F40 VA: 0x1814A9940
 	private float get_AvgMilliseconds() { }
 
-	// RVA: 0x14AA890 Offset: 0x14A8E90 VA: 0x1814AA890
+	// RVA: 0x14A9960 Offset: 0x14A7F60 VA: 0x1814A9960
 	private float get_avgFrameRate() { }
 
-	// RVA: 0x14AA300 Offset: 0x14A8900 VA: 0x1814AA300
+	// RVA: 0x14A93D0 Offset: 0x14A79D0 VA: 0x1814A93D0
 	public void ResetCounters() { }
 
-	// RVA: 0x14AA100 Offset: 0x14A8700 VA: 0x1814AA100
+	// RVA: 0x14A91D0 Offset: 0x14A77D0 VA: 0x1814A91D0
 	public void Frame() { }
 
-	// RVA: 0x14A9E70 Offset: 0x14A8470 VA: 0x1814A9E70
+	// RVA: 0x14A8F40 Offset: 0x14A7540 VA: 0x1814A8F40
 	public void CompleteDemoBenchmark(string benchmarkLabel = "") { }
 
-	// RVA: 0x14AA800 Offset: 0x14A8E00 VA: 0x1814AA800
+	// RVA: 0x14A98D0 Offset: 0x14A7ED0 VA: 0x1814A98D0
 	public void .ctor() { }
 
 }
@@ -65,11 +65,11 @@ private struct BenchmarkData.<Upload>d__13 : IAsyncStateMachine // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x1F19E0 Offset: 0x1F0DE0 VA: 0x1801F19E0 Slot: 4
+	// RVA: 0x1F1E00 Offset: 0x1F1200 VA: 0x1801F1E00 Slot: 4
 	private void MoveNext() { }
 
 	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1F19F0 Offset: 0x1F0DF0 VA: 0x1801F19F0 Slot: 5
+	// RVA: 0x1F1E10 Offset: 0x1F1210 VA: 0x1801F1E10 Slot: 5
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

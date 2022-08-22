@@ -9,7 +9,7 @@ public class CollectionChangeEventArgs : EventArgs // TypeDefIndex: 2674
 
 	// Methods
 
-	// RVA: 0x15BF310 Offset: 0x15BD910 VA: 0x1815BF310
+	// RVA: 0x15BE3E0 Offset: 0x15BC9E0 VA: 0x1815BE3E0
 	public void .ctor(CollectionChangeAction action, object element) { }
 
 	// RVA: 0x36BA00 Offset: 0x36A000 VA: 0x18036BA00 Slot: 4

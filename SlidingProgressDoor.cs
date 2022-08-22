@@ -8,16 +8,16 @@ public class SlidingProgressDoor : ProgressDoor // TypeDefIndex: 9810
 
 	// Methods
 
-	// RVA: 0x5AAE50 Offset: 0x5A9450 VA: 0x1805AAE50 Slot: 159
+	// RVA: 0x5AADE0 Offset: 0x5A93E0 VA: 0x1805AADE0 Slot: 159
 	public override void UpdateProgress() { }
 
-	// RVA: 0x5AAFC0 Offset: 0x5A95C0 VA: 0x1805AAFC0
+	// RVA: 0x5AAF50 Offset: 0x5A9550 VA: 0x1805AAF50
 	public void Update() { }
 
-	// RVA: 0x5AADF0 Offset: 0x5A93F0 VA: 0x1805AADF0 Slot: 34
+	// RVA: 0x5AAD80 Offset: 0x5A9380 VA: 0x1805AAD80 Slot: 34
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	// RVA: 0x5AB090 Offset: 0x5A9690 VA: 0x1805AB090
+	// RVA: 0x5AB020 Offset: 0x5A9620 VA: 0x1805AB020
 	public void .ctor() { }
 
 }

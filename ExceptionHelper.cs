@@ -7,16 +7,16 @@ internal static class ExceptionHelper // TypeDefIndex: 2889
 
 	// Methods
 
-	// RVA: 0x152FB80 Offset: 0x152E180 VA: 0x18152FB80
+	// RVA: 0x152EC50 Offset: 0x152D250 VA: 0x18152EC50
 	internal static NotImplementedException get_MethodNotImplementedException() { }
 
-	// RVA: 0x152FBF0 Offset: 0x152E1F0 VA: 0x18152FBF0
+	// RVA: 0x152ECC0 Offset: 0x152D2C0 VA: 0x18152ECC0
 	internal static NotImplementedException get_PropertyNotImplementedException() { }
 
-	// RVA: 0x152FC60 Offset: 0x152E260 VA: 0x18152FC60
+	// RVA: 0x152ED30 Offset: 0x152D330 VA: 0x18152ED30
 	internal static NotSupportedException get_PropertyNotSupportedException() { }
 
-	// RVA: 0x152FCD0 Offset: 0x152E2D0 VA: 0x18152FCD0
+	// RVA: 0x152EDA0 Offset: 0x152D3A0 VA: 0x18152EDA0
 	internal static WebException get_RequestAbortedException() { }
 
 }

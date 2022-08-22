@@ -10,11 +10,11 @@ public static class AnalyticsSessionInfo // TypeDefIndex: 4748
 	// Methods
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x23210C0 Offset: 0x231F6C0 VA: 0x1823210C0
+	// RVA: 0x23218E0 Offset: 0x231FEE0 VA: 0x1823218E0
 	internal static void CallSessionStateChanged(AnalyticsSessionState sessionState, long sessionId, long sessionElapsedTime, bool sessionChanged) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x2321060 Offset: 0x231F660 VA: 0x182321060
+	// RVA: 0x2321880 Offset: 0x231FE80 VA: 0x182321880
 	internal static void CallIdentityTokenChanged(string token) { }
 
 }
@@ -25,10 +25,10 @@ public sealed class AnalyticsSessionInfo.SessionStateChanged : MulticastDelegate
 	// RVA: 0x49A360 Offset: 0x498960 VA: 0x18049A360
 	public void .ctor(object object, IntPtr method) { }
 
-	// RVA: 0x2321510 Offset: 0x231FB10 VA: 0x182321510 Slot: 12
+	// RVA: 0x2321D30 Offset: 0x2320330 VA: 0x182321D30 Slot: 12
 	public virtual void Invoke(AnalyticsSessionState sessionState, long sessionId, long sessionElapsedTime, bool sessionChanged) { }
 
-	// RVA: 0x2321450 Offset: 0x231FA50 VA: 0x182321450 Slot: 13
+	// RVA: 0x2321C70 Offset: 0x2320270 VA: 0x182321C70 Slot: 13
 	public virtual IAsyncResult BeginInvoke(AnalyticsSessionState sessionState, long sessionId, long sessionElapsedTime, bool sessionChanged, AsyncCallback callback, object object) { }
 
 	// RVA: 0x49A1C0 Offset: 0x4987C0 VA: 0x18049A1C0 Slot: 14

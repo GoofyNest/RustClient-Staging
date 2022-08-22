@@ -7,13 +7,13 @@ public class EZSoftBoneHitboxSystemCollider : EZSoftBoneColliderBase, IClientCom
 
 	// Methods
 
-	// RVA: 0xAB7770 Offset: 0xAB5D70 VA: 0x180AB7770
+	// RVA: 0xAB7C40 Offset: 0xAB6240 VA: 0x180AB7C40
 	public void Awake() { }
 
-	// RVA: 0xAB77C0 Offset: 0xAB5DC0 VA: 0x180AB77C0 Slot: 6
+	// RVA: 0xAB7C90 Offset: 0xAB6290 VA: 0x180AB7C90 Slot: 6
 	public override void Collide(ref Vector3 position, float spacing) { }
 
-	// RVA: 0xAB7D20 Offset: 0xAB6320 VA: 0x180AB7D20
+	// RVA: 0xAB81F0 Offset: 0xAB67F0 VA: 0x180AB81F0
 	public void .ctor() { }
 
 }

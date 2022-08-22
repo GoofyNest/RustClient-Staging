@@ -5,13 +5,13 @@ public class ParticleSystemIK : MonoBehaviour, IClientComponent // TypeDefIndex:
 
 	// Methods
 
-	// RVA: 0x85EF90 Offset: 0x85D590 VA: 0x18085EF90
+	// RVA: 0x87A6F0 Offset: 0x878CF0 VA: 0x18087A6F0
 	private void Awake() { }
 
-	// RVA: 0x85F0F0 Offset: 0x85D6F0 VA: 0x18085F0F0
+	// RVA: 0x87A850 Offset: 0x878E50 VA: 0x18087A850
 	private void Update() { }
 
-	// RVA: 0x85EFE0 Offset: 0x85D5E0 VA: 0x18085EFE0
+	// RVA: 0x87A740 Offset: 0x878D40 VA: 0x18087A740
 	private void OnParticleUpdateJobScheduled() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0
@@ -30,7 +30,7 @@ public struct ParticleSystemIK.ParticleSystemIKJob : IJobParticleSystem // TypeD
 
 	// Methods
 
-	// RVA: 0xF9340 Offset: 0xF8740 VA: 0x1800F9340 Slot: 4
+	// RVA: 0xF9B90 Offset: 0xF8F90 VA: 0x1800F9B90 Slot: 4
 	public void Execute(ParticleSystemJobData particles) { }
 
 }

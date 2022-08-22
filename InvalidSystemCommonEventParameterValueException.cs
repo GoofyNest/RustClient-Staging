@@ -9,7 +9,7 @@ public sealed class InvalidSystemCommonEventParameterValueException : MidiExcept
 
 	// Methods
 
-	// RVA: 0x1399890 Offset: 0x1397E90 VA: 0x181399890
+	// RVA: 0x1398990 Offset: 0x1396F90 VA: 0x181398990
 	internal void .ctor(MidiEventType eventType, string componentName, int componentValue) { }
 
 }

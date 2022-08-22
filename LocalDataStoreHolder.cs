@@ -7,13 +7,13 @@ internal sealed class LocalDataStoreHolder // TypeDefIndex: 144
 
 	// Methods
 
-	// RVA: 0x4BC630 Offset: 0x4BAC30 VA: 0x1804BC630
+	// RVA: 0x4BC5C0 Offset: 0x4BABC0 VA: 0x1804BC5C0
 	public void .ctor(LocalDataStore store) { }
 
-	// RVA: 0x1673820 Offset: 0x1671E20 VA: 0x181673820 Slot: 1
+	// RVA: 0x1671410 Offset: 0x166FA10 VA: 0x181671410 Slot: 1
 	protected override void Finalize() { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public LocalDataStore get_Store() { }
 
 }

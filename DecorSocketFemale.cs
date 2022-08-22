@@ -1,13 +1,13 @@
 public class DecorSocketFemale : PrefabAttribute // TypeDefIndex: 10329
 {	// Methods
 
-	// RVA: 0x8430E0 Offset: 0x8416E0 VA: 0x1808430E0 Slot: 7
+	// RVA: 0x843630 Offset: 0x841C30 VA: 0x180843630 Slot: 7
 	protected override Type GetIndexedType() { }
 
-	// RVA: 0x843140 Offset: 0x841740 VA: 0x180843140
+	// RVA: 0x843690 Offset: 0x841C90 VA: 0x180843690
 	protected void OnDrawGizmos() { }
 
-	// RVA: 0x8431F0 Offset: 0x8417F0 VA: 0x1808431F0
+	// RVA: 0x843740 Offset: 0x841D40 VA: 0x180843740
 	public void .ctor() { }
 
 }

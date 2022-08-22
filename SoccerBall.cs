@@ -16,7 +16,7 @@ public class SoccerBall : BaseCombatEntity // TypeDefIndex: 9760
 
 	// Methods
 
-	// RVA: 0x5B72D0 Offset: 0x5B58D0 VA: 0x1805B72D0
+	// RVA: 0x5B7260 Offset: 0x5B5860 VA: 0x1805B7260
 	public void .ctor() { }
 
 }

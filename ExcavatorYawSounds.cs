@@ -4,7 +4,7 @@ public class ExcavatorYawSounds : MonoBehaviour, IClientComponent // TypeDefInde
 
 	// Methods
 
-	// RVA: 0x8CEB50 Offset: 0x8CD150 VA: 0x1808CEB50
+	// RVA: 0x8CF060 Offset: 0x8CD660 VA: 0x1808CF060
 	public void PlayStartClunks() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

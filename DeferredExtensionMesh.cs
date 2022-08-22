@@ -12,37 +12,37 @@ public class DeferredExtensionMesh : MonoBehaviour // TypeDefIndex: 10659
 
 	// Methods
 
-	// RVA: 0x847D60 Offset: 0x846360 VA: 0x180847D60
+	// RVA: 0x8482B0 Offset: 0x8468B0 VA: 0x1808482B0
 	private MaterialPropertyBlock get_block() { }
 
-	// RVA: 0x847DD0 Offset: 0x8463D0 VA: 0x180847DD0
+	// RVA: 0x848320 Offset: 0x846920 VA: 0x180848320
 	private Renderer get_renderer() { }
 
-	// RVA: 0x847810 Offset: 0x845E10 VA: 0x180847810
+	// RVA: 0x847D60 Offset: 0x846360 VA: 0x180847D60
 	private void OnEnable() { }
 
-	// RVA: 0x8476E0 Offset: 0x845CE0 VA: 0x1808476E0
+	// RVA: 0x847C30 Offset: 0x846230 VA: 0x180847C30
 	private void OnDisable() { }
 
-	// RVA: 0x847BD0 Offset: 0x8461D0 VA: 0x180847BD0
+	// RVA: 0x848120 Offset: 0x846720 VA: 0x180848120
 	public void UpdatePropertyBlock() { }
 
-	// RVA: 0x847600 Offset: 0x845C00 VA: 0x180847600
+	// RVA: 0x847B50 Offset: 0x846150 VA: 0x180847B50
 	private void OnBecameVisible() { }
 
-	// RVA: 0x847530 Offset: 0x845B30 VA: 0x180847530
+	// RVA: 0x847A80 Offset: 0x846080 VA: 0x180847A80
 	private void OnBecameInvisible() { }
 
-	// RVA: 0x8474E0 Offset: 0x845AE0 VA: 0x1808474E0
+	// RVA: 0x847A30 Offset: 0x846030 VA: 0x180847A30
 	private void CleanupMaterials() { }
 
-	// RVA: 0x847A10 Offset: 0x846010 VA: 0x180847A10
+	// RVA: 0x847F60 Offset: 0x846560 VA: 0x180847F60
 	private void PrepareMaterials(Material[] mats) { }
 
-	// RVA: 0x847370 Offset: 0x845970 VA: 0x180847370
+	// RVA: 0x8478C0 Offset: 0x845EC0 VA: 0x1808478C0
 	public void AddToCommandBuffer(CommandBuffer cb) { }
 
-	// RVA: 0x847CF0 Offset: 0x8462F0 VA: 0x180847CF0
+	// RVA: 0x848240 Offset: 0x846840 VA: 0x180848240
 	public void .ctor() { }
 
 }

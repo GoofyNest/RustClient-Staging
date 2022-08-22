@@ -5,13 +5,13 @@ public class ToggleTerrainTrees : MonoBehaviour // TypeDefIndex: 11141
 
 	// Methods
 
-	// RVA: 0x88D020 Offset: 0x88B620 VA: 0x18088D020
+	// RVA: 0x870360 Offset: 0x86E960 VA: 0x180870360
 	protected void OnEnable() { }
 
-	// RVA: 0x88D0C0 Offset: 0x88B6C0 VA: 0x18088D0C0
+	// RVA: 0x870400 Offset: 0x86EA00 VA: 0x180870400
 	public void OnToggleChanged() { }
 
-	// RVA: 0x88D160 Offset: 0x88B760 VA: 0x18088D160
+	// RVA: 0x8704A0 Offset: 0x86EAA0 VA: 0x1808704A0
 	protected void OnValidate() { }
 
 	// RVA: 0x2FA1F0 Offset: 0x2F87F0 VA: 0x1802FA1F0

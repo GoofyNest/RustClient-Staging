@@ -87,55 +87,55 @@ public class TrainEngineAudio : MonoBehaviour // TypeDefIndex: 9772
 
 	// Methods
 
-	// RVA: 0xA12490 Offset: 0xA10A90 VA: 0x180A12490
+	// RVA: 0xA12980 Offset: 0xA10F80 VA: 0x180A12980
 	public void UpdateTick() { }
 
-	// RVA: 0xA11E80 Offset: 0xA10480 VA: 0x180A11E80
+	// RVA: 0xA12370 Offset: 0xA10970 VA: 0x180A12370
 	public void StopAll() { }
 
-	// RVA: 0xA115C0 Offset: 0xA0FBC0 VA: 0x180A115C0
+	// RVA: 0xA11AB0 Offset: 0xA100B0 VA: 0x180A11AB0
 	public void PlayDamageSounds() { }
 
-	// RVA: 0xA11F80 Offset: 0xA10580 VA: 0x180A11F80
+	// RVA: 0xA12470 Offset: 0xA10A70 VA: 0x180A12470
 	public void StopDamageSounds() { }
 
-	// RVA: 0xA117B0 Offset: 0xA0FDB0 VA: 0x180A117B0
+	// RVA: 0xA11CA0 Offset: 0xA102A0 VA: 0x180A11CA0
 	public void PlayThrottleSwitchSound() { }
 
-	// RVA: 0xA11560 Offset: 0xA0FB60 VA: 0x180A11560
+	// RVA: 0xA11A50 Offset: 0xA10050 VA: 0x180A11A50
 	public void PlayCouplingChangedBeep() { }
 
-	// RVA: 0xA11750 Offset: 0xA0FD50 VA: 0x180A11750
+	// RVA: 0xA11C40 Offset: 0xA10240 VA: 0x180A11C40
 	public void PlayLinedUpToUnloadBeep() { }
 
-	// RVA: 0xA11810 Offset: 0xA0FE10 VA: 0x180A11810
+	// RVA: 0xA11D00 Offset: 0xA10300 VA: 0x180A11D00
 	public void PlayUnLinedUpToUnloadBeep() { }
 
-	// RVA: 0xA118E0 Offset: 0xA0FEE0 VA: 0x180A118E0
+	// RVA: 0xA11DD0 Offset: 0xA103D0 VA: 0x180A11DD0
 	public void SetForEngineState(VehicleEngineController.EngineState<TrainEngine> newState) { }
 
-	// RVA: 0xA116F0 Offset: 0xA0FCF0 VA: 0x180A116F0
+	// RVA: 0xA11BE0 Offset: 0xA101E0 VA: 0x180A11BE0
 	public void PlayLightsToggleSound() { }
 
-	// RVA: 0xA11870 Offset: 0xA0FE70 VA: 0x180A11870
+	// RVA: 0xA11D60 Offset: 0xA10360 VA: 0x180A11D60
 	public void SetBrakeSound(bool braking) { }
 
-	// RVA: 0xA11A80 Offset: 0xA10080 VA: 0x180A11A80
+	// RVA: 0xA11F70 Offset: 0xA10570 VA: 0x180A11F70
 	public void SetHornState(bool on) { }
 
-	// RVA: 0xA121D0 Offset: 0xA107D0 VA: 0x180A121D0
+	// RVA: 0xA126C0 Offset: 0xA10CC0 VA: 0x180A126C0
 	private void StopMovementLoops() { }
 
-	// RVA: 0xA123E0 Offset: 0xA109E0 VA: 0x180A123E0
+	// RVA: 0xA128D0 Offset: 0xA10ED0 VA: 0x180A128D0
 	private void StopTurnLoops() { }
 
-	// RVA: 0xA12030 Offset: 0xA10630 VA: 0x180A12030
+	// RVA: 0xA12520 Offset: 0xA10B20 VA: 0x180A12520
 	private void StopEngineSounds(bool withinEngineSoundDist) { }
 
-	// RVA: 0xA11CD0 Offset: 0xA102D0 VA: 0x180A11CD0
+	// RVA: 0xA121C0 Offset: 0xA107C0 VA: 0x180A121C0
 	private void StartEngineSounds(bool withinEngineSoundDist) { }
 
-	// RVA: 0xA13570 Offset: 0xA11B70 VA: 0x180A13570
+	// RVA: 0xA13A60 Offset: 0xA12060 VA: 0x180A13A60
 	public void .ctor() { }
 
 }
@@ -152,7 +152,7 @@ public class TrainEngineAudio.EngineReflection // TypeDefIndex: 9773
 
 	// Methods
 
-	// RVA: 0xA08540 Offset: 0xA06B40 VA: 0x180A08540
+	// RVA: 0xA08A30 Offset: 0xA07030 VA: 0x180A08A30
 	public void .ctor() { }
 
 }

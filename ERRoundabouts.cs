@@ -115,88 +115,88 @@ public class ERRoundabouts : MonoBehaviour // TypeDefIndex: 7175
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	private void Start() { }
 
-	// RVA: 0xB5B520 Offset: 0xB59B20 VA: 0x180B5B520
+	// RVA: 0xB5B9F0 Offset: 0xB59FF0 VA: 0x180B5B9F0
 	public bool UpdateToRoadType(QDQDOOQQDQODD sourcePreset) { }
 
-	// RVA: 0xB5AFE0 Offset: 0xB595E0 VA: 0x180B5AFE0
+	// RVA: 0xB5B4B0 Offset: 0xB59AB0 VA: 0x180B5B4B0
 	public void ResetData() { }
 
-	// RVA: 0xB53910 Offset: 0xB51F10 VA: 0x180B53910
+	// RVA: 0xB53DE0 Offset: 0xB523E0 VA: 0x180B53DE0
 	public void ODQDCCOQOD() { }
 
-	// RVA: 0xB563B0 Offset: 0xB549B0 VA: 0x180B563B0
+	// RVA: 0xB56880 Offset: 0xB54E80 VA: 0x180B56880
 	public void OOQQDCCCCC() { }
 
-	// RVA: 0xB4C7C0 Offset: 0xB4ADC0 VA: 0x180B4C7C0
+	// RVA: 0xB4CC90 Offset: 0xB4B290 VA: 0x180B4CC90
 	public void GetConnectionData() { }
 
-	// RVA: 0xB5B360 Offset: 0xB59960 VA: 0x180B5B360
+	// RVA: 0xB5B830 Offset: 0xB59E30 VA: 0x180B5B830
 	public void UpdateMinMaxInts() { }
 
-	// RVA: 0xB4C660 Offset: 0xB4AC60 VA: 0x180B4C660
+	// RVA: 0xB4CB30 Offset: 0xB4B130 VA: 0x180B4CB30
 	public void ChecknewSegmentInt() { }
 
-	// RVA: 0xB4CED0 Offset: 0xB4B4D0 VA: 0x180B4CED0
+	// RVA: 0xB4D3A0 Offset: 0xB4B9A0 VA: 0x180B4D3A0
 	public int GetRoadPresetInt(double id) { }
 
-	// RVA: 0xB4D8A0 Offset: 0xB4BEA0 VA: 0x180B4D8A0
+	// RVA: 0xB4DD70 Offset: 0xB4C370 VA: 0x180B4DD70
 	public void OCQCQODOQC(ERRoundabouts source, bool refreshFlag) { }
 
-	// RVA: 0xB4D080 Offset: 0xB4B680 VA: 0x180B4D080
+	// RVA: 0xB4D550 Offset: 0xB4BB50 VA: 0x180B4D550
 	public void OCDCOQOOQO() { }
 
-	// RVA: 0xB513D0 Offset: 0xB4F9D0 VA: 0x180B513D0
+	// RVA: 0xB518A0 Offset: 0xB4FEA0 VA: 0x180B518A0
 	public void ODCDCDDOCC(List<SidewalkPresetClass> sidewalkPresets, int el) { }
 
-	// RVA: 0xB55300 Offset: 0xB53900 VA: 0x180B55300
+	// RVA: 0xB557D0 Offset: 0xB53DD0 VA: 0x180B557D0
 	public void OOCDDOQDDO() { }
 
-	// RVA: 0xB59150 Offset: 0xB57750 VA: 0x180B59150
+	// RVA: 0xB59620 Offset: 0xB57C20 VA: 0x180B59620
 	public void OQQCDOQOOQ() { }
 
-	// RVA: 0xB56820 Offset: 0xB54E20 VA: 0x180B56820
+	// RVA: 0xB56CF0 Offset: 0xB552F0 VA: 0x180B56CF0
 	public void OQCQDQDCOD(int currentIndex) { }
 
-	// RVA: 0xB597E0 Offset: 0xB57DE0 VA: 0x180B597E0
+	// RVA: 0xB59CB0 Offset: 0xB582B0 VA: 0x180B59CB0
 	public void OQQOCQQDOQ(ref List<Vector3> OCCDQOCCDQ, ref List<Vector3> innerSegmentPoints, int leftRight, int startElement, Vector3 leftPoint, Vector3 rightPoint, Vector3 forward, int currentIndex) { }
 
-	// RVA: 0xB54430 Offset: 0xB52A30 VA: 0x180B54430
+	// RVA: 0xB54900 Offset: 0xB52F00 VA: 0x180B54900
 	public void OOCCDCDOQC(int currentIndex) { }
 
-	// RVA: 0xB51B50 Offset: 0xB50150 VA: 0x180B51B50
+	// RVA: 0xB52020 Offset: 0xB50620 VA: 0x180B52020
 	public void ODDDOCDCQO() { }
 
-	// RVA: 0xB58A50 Offset: 0xB57050 VA: 0x180B58A50
+	// RVA: 0xB58F20 Offset: 0xB57520 VA: 0x180B58F20
 	public void OQCQQCQDCQ(int el, List<int> trIntArray, List<float> uvArray, List<List<int>> leftSidewalkIntArray, List<List<int>> rightSidewalkIntArray, int startend) { }
 
-	// RVA: 0xB4D130 Offset: 0xB4B730 VA: 0x180B4D130
+	// RVA: 0xB4D600 Offset: 0xB4BC00 VA: 0x180B4D600
 	public void OCDDOCDDOQ(List<Vector3> meshVecs, List<int> connectionVecInts, ref List<Vector2> roadShapeVecs, List<Vector2> vecArrays, List<List<Vector3>> leftSidewalkArray, List<List<Vector3>> rightSidewalkArray, int connectionElement, int startend) { }
 
-	// RVA: 0xB53410 Offset: 0xB51A10 VA: 0x180B53410
+	// RVA: 0xB538E0 Offset: 0xB51EE0 VA: 0x180B538E0
 	public void ODQCODQDDQ(int el, Material roadMaterial, int leftVecCount, int rightVecCount) { }
 
 	// RVA: 0x363E40 Offset: 0x362440 VA: 0x180363E40
 	public void ODCQOCOOQO() { }
 
-	// RVA: 0xB4F880 Offset: 0xB4DE80 VA: 0x180B4F880
+	// RVA: 0xB4FD50 Offset: 0xB4E350 VA: 0x180B4FD50
 	public void OCQOCDQQQD(int el) { }
 
-	// RVA: 0xB59550 Offset: 0xB57B50 VA: 0x180B59550
+	// RVA: 0xB59A20 Offset: 0xB58020 VA: 0x180B59A20
 	public static bool OQQCODDOOQ(int el, float roundaboutIndent, Vector3 prevVec, bool boolCheck, ref Vector3 vec, ref int indentBorderInt) { }
 
-	// RVA: 0xB540E0 Offset: 0xB526E0 VA: 0x180B540E0
+	// RVA: 0xB545B0 Offset: 0xB52BB0 VA: 0x180B545B0
 	public void ODQOOCQDDD(float minSurrounding, Vector3 middleVec, Vector3 origVec, bool boolCheck, ref Vector3 vec) { }
 
-	// RVA: 0xB4C5D0 Offset: 0xB4ABD0 VA: 0x180B4C5D0
+	// RVA: 0xB4CAA0 Offset: 0xB4B0A0 VA: 0x180B4CAA0
 	public void CheckAgainstFirstSurroundingVec(Vector3 firstIndent, Vector3 firstSurrounding, bool boolCheck, ref Vector3 vec) { }
 
-	// RVA: 0xB561E0 Offset: 0xB547E0 VA: 0x180B561E0
+	// RVA: 0xB566B0 Offset: 0xB54CB0 VA: 0x180B566B0
 	public static Vector3 OODOQDOODO(Vector3 p1, Vector3 p2, Vector3 p3, Vector3 p4) { }
 
-	// RVA: 0xB58FF0 Offset: 0xB575F0 VA: 0x180B58FF0
+	// RVA: 0xB594C0 Offset: 0xB57AC0 VA: 0x180B594C0
 	public static Vector3 OQDDDODCOC(Vector3 point, Vector3 pivot, Quaternion angle) { }
 
-	// RVA: 0xB5BE80 Offset: 0xB5A480 VA: 0x180B5BE80
+	// RVA: 0xB5C350 Offset: 0xB5A950 VA: 0x180B5C350
 	public void .ctor() { }
 
 }

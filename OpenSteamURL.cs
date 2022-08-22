@@ -4,13 +4,13 @@ public class OpenSteamURL : MonoBehaviour // TypeDefIndex: 10776
 
 	// Methods
 
-	// RVA: 0x9E6D80 Offset: 0x9E5380 VA: 0x1809E6D80
+	// RVA: 0x9E7270 Offset: 0x9E5870 VA: 0x1809E7270
 	public void OpenURL(string url) { }
 
-	// RVA: 0x9E6C10 Offset: 0x9E5210 VA: 0x1809E6C10
+	// RVA: 0x9E7100 Offset: 0x9E5700 VA: 0x1809E7100
 	public void ActivateGameOverlay(string url) { }
 
-	// RVA: 0x7684C0 Offset: 0x766AC0 VA: 0x1807684C0
+	// RVA: 0x768410 Offset: 0x766A10 VA: 0x180768410
 	public void .ctor() { }
 
 }

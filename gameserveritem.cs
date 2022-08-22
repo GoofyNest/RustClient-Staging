@@ -21,19 +21,19 @@ internal struct gameserveritem_t // TypeDefIndex: 5504
 
 	// Methods
 
-	// RVA: 0x1DCA60 Offset: 0x1DBE60 VA: 0x1801DCA60
+	// RVA: 0x1DD0D0 Offset: 0x1DC4D0 VA: 0x1801DD0D0
 	internal string GameDirUTF8() { }
 
-	// RVA: 0x1DCA80 Offset: 0x1DBE80 VA: 0x1801DCA80
+	// RVA: 0x1DD0F0 Offset: 0x1DC4F0 VA: 0x1801DD0F0
 	internal string MapUTF8() { }
 
-	// RVA: 0x1DCA50 Offset: 0x1DBE50 VA: 0x1801DCA50
+	// RVA: 0x1DD0C0 Offset: 0x1DC4C0 VA: 0x1801DD0C0
 	internal string GameDescriptionUTF8() { }
 
-	// RVA: 0x1DCA90 Offset: 0x1DBE90 VA: 0x1801DCA90
+	// RVA: 0x1DD100 Offset: 0x1DC500 VA: 0x1801DD100
 	internal string ServerNameUTF8() { }
 
-	// RVA: 0x1DCA70 Offset: 0x1DBE70 VA: 0x1801DCA70
+	// RVA: 0x1DD0E0 Offset: 0x1DC4E0 VA: 0x1801DD0E0
 	internal string GameTagsUTF8() { }
 
 }

@@ -16,49 +16,49 @@ public class ContentRangeHeaderValue : ICloneable // TypeDefIndex: 5764
 
 	// Methods
 
-	// RVA: 0x1087DE0 Offset: 0x10863E0 VA: 0x181087DE0
+	// RVA: 0x1088850 Offset: 0x1086E50 VA: 0x181088850
 	private void .ctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB114F0 Offset: 0xB0FAF0 VA: 0x180B114F0
+	// RVA: 0xB119C0 Offset: 0xB0FFC0 VA: 0x180B119C0
 	public Nullable<long> get_From() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1087E30 Offset: 0x1086430 VA: 0x181087E30
+	// RVA: 0x10888A0 Offset: 0x1086EA0 VA: 0x1810888A0
 	private void set_From(Nullable<long> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0xB114E0 Offset: 0xB0FAE0 VA: 0x180B114E0
+	// RVA: 0xB119B0 Offset: 0xB0FFB0 VA: 0x180B119B0
 	public Nullable<long> get_Length() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1086880 Offset: 0x1084E80 VA: 0x181086880
+	// RVA: 0x10872F0 Offset: 0x10858F0 VA: 0x1810872F0
 	private void set_Length(Nullable<long> value) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x6FC2C0 Offset: 0x6FA8C0 VA: 0x1806FC2C0
+	// RVA: 0x6FC210 Offset: 0x6FA810 VA: 0x1806FC210
 	public Nullable<long> get_To() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x1087E40 Offset: 0x1086440 VA: 0x181087E40
+	// RVA: 0x10888B0 Offset: 0x1086EB0 VA: 0x1810888B0
 	private void set_To(Nullable<long> value) { }
 
-	// RVA: 0x4BC5D0 Offset: 0x4BABD0 VA: 0x1804BC5D0
+	// RVA: 0x4BC560 Offset: 0x4BAB60 VA: 0x1804BC560
 	public string get_Unit() { }
 
-	// RVA: 0xD712E0 Offset: 0xD6F8E0 VA: 0x180D712E0 Slot: 4
+	// RVA: 0xD71D90 Offset: 0xD70390 VA: 0x180D71D90 Slot: 4
 	private object System.ICloneable.Clone() { }
 
-	// RVA: 0x1087310 Offset: 0x1085910 VA: 0x181087310 Slot: 0
+	// RVA: 0x1087D80 Offset: 0x1086380 VA: 0x181087D80 Slot: 0
 	public override bool Equals(object obj) { }
 
-	// RVA: 0x1087460 Offset: 0x1085A60 VA: 0x181087460 Slot: 2
+	// RVA: 0x1087ED0 Offset: 0x10864D0 VA: 0x181087ED0 Slot: 2
 	public override int GetHashCode() { }
 
-	// RVA: 0x1087770 Offset: 0x1085D70 VA: 0x181087770
+	// RVA: 0x10881E0 Offset: 0x10867E0 VA: 0x1810881E0
 	public static bool TryParse(string input, out ContentRangeHeaderValue parsedValue) { }
 
-	// RVA: 0x1087560 Offset: 0x1085B60 VA: 0x181087560 Slot: 3
+	// RVA: 0x1087FD0 Offset: 0x10865D0 VA: 0x181087FD0 Slot: 3
 	public override string ToString() { }
 
 }

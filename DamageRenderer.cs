@@ -20,35 +20,35 @@ public class DamageRenderer : MonoBehaviour, IClientComponent, IPrefabPreProcess
 
 	// Methods
 
-	// RVA: 0x83D9B0 Offset: 0x83BFB0 VA: 0x18083D9B0 Slot: 4
+	// RVA: 0x83DF00 Offset: 0x83C500 VA: 0x18083DF00 Slot: 4
 	public void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-	// RVA: 0x83E930 Offset: 0x83CF30 VA: 0x18083E930
+	// RVA: 0x83EE80 Offset: 0x83D480 VA: 0x18083EE80
 	public void UpdateDamage(BaseCombatEntity bce) { }
 
-	// RVA: 0x83E870 Offset: 0x83CE70 VA: 0x18083E870
+	// RVA: 0x83EDC0 Offset: 0x83D3C0 VA: 0x18083EDC0
 	public void UpdateDamage(float curHealth, bool isDead, float healthFraction) { }
 
-	// RVA: 0x83E1B0 Offset: 0x83C7B0 VA: 0x18083E1B0
+	// RVA: 0x83E700 Offset: 0x83CD00 VA: 0x18083E700
 	private void RefreshDamageTex(float healthPercent, bool isDead) { }
 
-	// RVA: 0x83E5B0 Offset: 0x83CBB0 VA: 0x18083E5B0
+	// RVA: 0x83EB00 Offset: 0x83D100 VA: 0x18083EB00
 	private void SetDamageTex(DamageRenderer.DamageShowingRenderer dsr) { }
 
-	// RVA: 0x83D1B0 Offset: 0x83B7B0 VA: 0x18083D1B0
+	// RVA: 0x83D700 Offset: 0x83BD00 VA: 0x18083D700
 	public void DrawHighlight() { }
 
-	// RVA: 0x83D3D0 Offset: 0x83B9D0 VA: 0x18083D3D0
+	// RVA: 0x83D920 Offset: 0x83BF20 VA: 0x18083D920
 	private void Highlight(Renderer renderer) { }
 
-	// RVA: 0x83EA70 Offset: 0x83D070 VA: 0x18083EA70
+	// RVA: 0x83EFC0 Offset: 0x83D5C0 VA: 0x18083EFC0
 	public void .ctor() { }
 
-	// RVA: 0x83EA20 Offset: 0x83D020 VA: 0x18083EA20
+	// RVA: 0x83EF70 Offset: 0x83D570 VA: 0x18083EF70
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	// RVA: 0x83E730 Offset: 0x83CD30 VA: 0x18083E730
+	// RVA: 0x83EC80 Offset: 0x83D280 VA: 0x18083EC80
 	private int[] <PreProcess>g__GetValidMatIndices|12_0(Renderer renderer, ref DamageRenderer.<>c__DisplayClass12_0 ) { }
 
 }
@@ -60,7 +60,7 @@ private struct DamageRenderer.DamageShowingRenderer // TypeDefIndex: 9709
 
 	// Methods
 
-	// RVA: 0xF5A50 Offset: 0xF4E50 VA: 0x1800F5A50
+	// RVA: 0xF5DB0 Offset: 0xF51B0 VA: 0x1800F5DB0
 	public void .ctor(Renderer renderer, int[] indices) { }
 
 }

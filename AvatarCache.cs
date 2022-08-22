@@ -5,10 +5,10 @@ public class AvatarCache // TypeDefIndex: 5684
 
 	// Methods
 
-	// RVA: 0x22FFFC0 Offset: 0x22FE5C0 VA: 0x1822FFFC0
+	// RVA: 0x23007E0 Offset: 0x22FEDE0 VA: 0x1823007E0
 	public void .ctor(Action<ulong, Texture2D> loadAvatar) { }
 
-	// RVA: 0x22FFD50 Offset: 0x22FE350 VA: 0x1822FFD50
+	// RVA: 0x2300570 Offset: 0x22FEB70 VA: 0x182300570
 	public Texture2D Get(ulong userId) { }
 
 }
@@ -20,7 +20,7 @@ private struct AvatarCache.Entry // TypeDefIndex: 5685
 
 	// Methods
 
-	// RVA: 0x14B610 Offset: 0x14AA10 VA: 0x18014B610
+	// RVA: 0x14B430 Offset: 0x14A830 VA: 0x18014B430
 	public void .ctor(ulong userId, Texture2D texture) { }
 
 }
