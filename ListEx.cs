@@ -29,7 +29,7 @@ public static class ListEx // TypeDefIndex: 6569
 	public static void Shuffle<T>(List<T> list, uint seed) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1568B90 Offset: 0x1567190 VA: 0x181568B90
+	|-RVA: 0x1568A90 Offset: 0x1567090 VA: 0x181568A90
 	|-ListEx.Shuffle<int>
 	|-ListEx.Shuffle<object>
 	*/
@@ -38,14 +38,14 @@ public static class ListEx // TypeDefIndex: 6569
 	public static void Shuffle<T>(List<T> list, ref uint seed) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1572B50 Offset: 0x1571150 VA: 0x181572B50
+	|-RVA: 0x1572A50 Offset: 0x1571050 VA: 0x181572A50
 	|-ListEx.Shuffle<PlaceMonumentsRailside.SpawnInfo>
 	|-ListEx.Shuffle<PlaceMonumentsRoadside.SpawnInfo>
 	|
-	|-RVA: 0x1572900 Offset: 0x1570F00 VA: 0x181572900
+	|-RVA: 0x1572800 Offset: 0x1570E00 VA: 0x181572800
 	|-ListEx.Shuffle<int>
 	|
-	|-RVA: 0x1572A20 Offset: 0x1571020 VA: 0x181572A20
+	|-RVA: 0x1572920 Offset: 0x1570F20 VA: 0x181572920
 	|-ListEx.Shuffle<object>
 	*/
 
@@ -53,7 +53,7 @@ public static class ListEx // TypeDefIndex: 6569
 	public static void BubbleSort<T>(List<T> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1572740 Offset: 0x1570D40 VA: 0x181572740
+	|-RVA: 0x1572640 Offset: 0x1570C40 VA: 0x181572640
 	|-ListEx.BubbleSort<object>
 	*/
 
@@ -61,7 +61,7 @@ public static class ListEx // TypeDefIndex: 6569
 	public static void RemoveUnordered<T>(List<T> list, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1572870 Offset: 0x1570E70 VA: 0x181572870
+	|-RVA: 0x1572770 Offset: 0x1570D70 VA: 0x181572770
 	|-ListEx.RemoveUnordered<CullingVolume>
 	|-ListEx.RemoveUnordered<FoliageCell>
 	|-ListEx.RemoveUnordered<PathList>

@@ -2077,7 +2077,7 @@ internal static class EventHandlerExtensions // TypeDefIndex: 7141
 	public static void Raise<T>(EventHandler<T> eventHandler, object sender, T eventArgs) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1571E60 Offset: 0x1570460 VA: 0x181571E60
+	|-RVA: 0x1571D60 Offset: 0x1570360 VA: 0x181571D60
 	|-EventHandlerExtensions.Raise<LoadCompletedEventArgs>
 	|-EventHandlerExtensions.Raise<LoadProgressEventArgs>
 	|-EventHandlerExtensions.Raise<StateChangedEventArgs>

@@ -55,7 +55,7 @@ public class AssetBundle : Object // TypeDefIndex: 3992
 	public T LoadAsset<T>(string name) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159D8A0 Offset: 0x159BEA0 VA: 0x18159D8A0
+	|-RVA: 0x159D7A0 Offset: 0x159BDA0 VA: 0x18159D7A0
 	|-AssetBundle.LoadAsset<WorkshopSkinBase>
 	|-AssetBundle.LoadAsset<object>
 	*/
@@ -73,7 +73,7 @@ public class AssetBundle : Object // TypeDefIndex: 3992
 	public AssetBundleRequest LoadAssetAsync<T>(string name) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A36800 Offset: 0x1A34E00 VA: 0x181A36800
+	|-RVA: 0x1A36700 Offset: 0x1A34D00 VA: 0x181A36700
 	|-AssetBundle.LoadAssetAsync<object>
 	|-AssetBundle.LoadAssetAsync<Sprite>
 	|-AssetBundle.LoadAssetAsync<TextAsset>
@@ -85,14 +85,14 @@ public class AssetBundle : Object // TypeDefIndex: 3992
 	internal static T[] ConvertObjects<T>(Object[] rawObjects) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A36630 Offset: 0x1A34C30 VA: 0x181A36630
+	|-RVA: 0x1A36530 Offset: 0x1A34B30 VA: 0x181A36530
 	|-AssetBundle.ConvertObjects<object>
 	*/
 
 	public T[] LoadAllAssets<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A36760 Offset: 0x1A34D60 VA: 0x181A36760
+	|-RVA: 0x1A36660 Offset: 0x1A34C60 VA: 0x181A36660
 	|-AssetBundle.LoadAllAssets<AssetBundleManifest>
 	|-AssetBundle.LoadAllAssets<object>
 	*/
@@ -165,7 +165,7 @@ public static class AssetPool // TypeDefIndex: 6562
 	private static AssetPool.Pool GetPool<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125D060 Offset: 0x125B660 VA: 0x18125D060
+	|-RVA: 0x125CF60 Offset: 0x125B560 VA: 0x18125CF60
 	|-AssetPool.GetPool<object>
 	|-AssetPool.GetPool<Mesh>
 	*/
@@ -195,7 +195,7 @@ public class AssetPool.Pool // TypeDefIndex: 6563
 	public void Push<T>(ref T instance) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1579C10 Offset: 0x1578210 VA: 0x181579C10
+	|-RVA: 0x1579B10 Offset: 0x1578110 VA: 0x181579B10
 	|-AssetPool.Pool.Push<object>
 	|-AssetPool.Pool.Push<Mesh>
 	*/
@@ -251,7 +251,7 @@ public class AssetBundleBackend : FileSystemBackend, IDisposable // TypeDefIndex
 	public override T[] LoadAllFromBundle<T>(string bundleName, string editorSearch) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A363A0 Offset: 0x1A349A0 VA: 0x181A363A0
+	|-RVA: 0x1A362A0 Offset: 0x1A348A0 VA: 0x181A362A0
 	|-AssetBundleBackend.LoadAllFromBundle<object>
 	*/
 
@@ -391,7 +391,7 @@ public static class AssetStorage // TypeDefIndex: 11366
 	public static void Save<T>(ref T asset, string path) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1568D50 Offset: 0x1567350 VA: 0x181568D50
+	|-RVA: 0x1568C50 Offset: 0x1567250 VA: 0x181568C50
 	|-AssetStorage.Save<object>
 	*/
 
@@ -409,7 +409,7 @@ public static class AssetStorage // TypeDefIndex: 11366
 	public static void Delete<T>(ref T asset) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1568CB0 Offset: 0x15672B0 VA: 0x181568CB0
+	|-RVA: 0x1568BB0 Offset: 0x15671B0 VA: 0x181568BB0
 	|-AssetStorage.Delete<object>
 	*/
 

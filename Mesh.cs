@@ -122,7 +122,7 @@ public sealed class Mesh : Object // TypeDefIndex: 3442
 	private T[] GetAllocArrayFromChannel<T>(VertexAttribute channel, VertexAttributeFormat format, int dim) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3AF20 Offset: 0x1A39520 VA: 0x181A3AF20
+	|-RVA: 0x1A3AE20 Offset: 0x1A39420 VA: 0x181A3AE20
 	|-Mesh.GetAllocArrayFromChannel<object>
 	|-Mesh.GetAllocArrayFromChannel<Color32>
 	|-Mesh.GetAllocArrayFromChannel<Color>
@@ -134,7 +134,7 @@ public sealed class Mesh : Object // TypeDefIndex: 3442
 	private T[] GetAllocArrayFromChannel<T>(VertexAttribute channel) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B020 Offset: 0x1A39620 VA: 0x181A3B020
+	|-RVA: 0x1A3AF20 Offset: 0x1A39520 VA: 0x181A3AF20
 	|-Mesh.GetAllocArrayFromChannel<object>
 	|-Mesh.GetAllocArrayFromChannel<Color>
 	|-Mesh.GetAllocArrayFromChannel<Vector2>

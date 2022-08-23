@@ -374,172 +374,172 @@ private sealed class Dispatch.<>c__DisplayClass29_0<T> // TypeDefIndex: 5110
 	internal void <Install>b__0(IntPtr x) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1AAADE0 Offset: 0x1AA93E0 VA: 0x181AAADE0
+	|-RVA: 0x1AAACE0 Offset: 0x1AA92E0 VA: 0x181AAACE0
 	|-Dispatch.<>c__DisplayClass29_0<ActiveBeaconsUpdated_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC720 Offset: 0x1AAAD20 VA: 0x181AAC720
+	|-RVA: 0x1AAC620 Offset: 0x1AAAC20 VA: 0x181AAC620
 	|-Dispatch.<>c__DisplayClass29_0<AvailableBeaconLocationsUpdated_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB4D0 Offset: 0x1AA9AD0 VA: 0x181AAB4D0
+	|-RVA: 0x1AAB3D0 Offset: 0x1AA99D0 VA: 0x181AAB3D0
 	|-Dispatch.<>c__DisplayClass29_0<ClientGameServerDeny_t>.<Install>b__0
 	|
-	|-RVA: 0x1AACE70 Offset: 0x1AAB470 VA: 0x181AACE70
+	|-RVA: 0x1AACD70 Offset: 0x1AAB370 VA: 0x181AACD70
 	|-Dispatch.<>c__DisplayClass29_0<DownloadItemResult_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAAB10 Offset: 0x1AA9110 VA: 0x181AAAB10
+	|-RVA: 0x1AAAA10 Offset: 0x1AA9010 VA: 0x181AAAA10
 	|-Dispatch.<>c__DisplayClass29_0<DurationControl_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB010 Offset: 0x1AA9610 VA: 0x181AAB010
+	|-RVA: 0x1AAAF10 Offset: 0x1AA9510 VA: 0x181AAAF10
 	|-Dispatch.<>c__DisplayClass29_0<FriendRichPresenceUpdate_t>.<Install>b__0
 	|
-	|-RVA: 0x1AACA70 Offset: 0x1AAB070 VA: 0x181AACA70
+	|-RVA: 0x1AAC970 Offset: 0x1AAAF70 VA: 0x181AAC970
 	|-Dispatch.<>c__DisplayClass29_0<GameConnectedClanChatMsg_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB640 Offset: 0x1AA9C40 VA: 0x181AAB640
+	|-RVA: 0x1AAB540 Offset: 0x1AA9B40 VA: 0x181AAB540
 	|-Dispatch.<>c__DisplayClass29_0<GameConnectedFriendChatMsg_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAABD0 Offset: 0x1AA91D0 VA: 0x181AAABD0
+	|-RVA: 0x1AAAAD0 Offset: 0x1AA90D0 VA: 0x181AAAAD0
 	|-Dispatch.<>c__DisplayClass29_0<GameLobbyJoinRequested_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC870 Offset: 0x1AAAE70 VA: 0x181AAC870
+	|-RVA: 0x1AAC770 Offset: 0x1AAAD70 VA: 0x181AAC770
 	|-Dispatch.<>c__DisplayClass29_0<GameOverlayActivated_t>.<Install>b__0
 	|
-	|-RVA: 0x1AACFF0 Offset: 0x1AAB5F0 VA: 0x181AACFF0
+	|-RVA: 0x1AACEF0 Offset: 0x1AAB4F0 VA: 0x181AACEF0
 	|-Dispatch.<>c__DisplayClass29_0<GameRichPresenceJoinRequested_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB170 Offset: 0x1AA9770 VA: 0x181AAB170
+	|-RVA: 0x1AAB070 Offset: 0x1AA9670 VA: 0x181AAB070
 	|-Dispatch.<>c__DisplayClass29_0<GameServerChangeRequested_t>.<Install>b__0
 	|
-	|-RVA: 0x1AACDD0 Offset: 0x1AAB3D0 VA: 0x181AACDD0
+	|-RVA: 0x1AACCD0 Offset: 0x1AAB2D0 VA: 0x181AACCD0
 	|-Dispatch.<>c__DisplayClass29_0<GameWebCallback_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC910 Offset: 0x1AAAF10 VA: 0x181AAC910
+	|-RVA: 0x1AAC810 Offset: 0x1AAAE10 VA: 0x181AAC810
 	|-Dispatch.<>c__DisplayClass29_0<GamepadTextInputDismissed_t>.<Install>b__0
 	|
-	|-RVA: 0x1AACB30 Offset: 0x1AAB130 VA: 0x181AACB30
+	|-RVA: 0x1AACA30 Offset: 0x1AAB030 VA: 0x181AACA30
 	|-Dispatch.<>c__DisplayClass29_0<GetAuthSessionTicketResponse_t>.<Install>b__0
 	|
-	|-RVA: 0x1AABF10 Offset: 0x1AAA510 VA: 0x181AABF10
+	|-RVA: 0x1AABE10 Offset: 0x1AAA410 VA: 0x181AABE10
 	|-Dispatch.<>c__DisplayClass29_0<IPCountry_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC300 Offset: 0x1AAA900 VA: 0x181AAC300
+	|-RVA: 0x1AAC200 Offset: 0x1AAA800 VA: 0x181AAC200
 	|-Dispatch.<>c__DisplayClass29_0<ItemInstalled_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAD140 Offset: 0x1AAB740 VA: 0x181AAD140
+	|-RVA: 0x1AAD040 Offset: 0x1AAB640 VA: 0x181AAD040
 	|-Dispatch.<>c__DisplayClass29_0<LicensesUpdated_t>.<Install>b__0
 	|
-	|-RVA: 0x1AABDB0 Offset: 0x1AAA3B0 VA: 0x181AABDB0
+	|-RVA: 0x1AABCB0 Offset: 0x1AAA2B0 VA: 0x181AABCB0
 	|-Dispatch.<>c__DisplayClass29_0<LobbyChatMsg_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC240 Offset: 0x1AAA840 VA: 0x181AAC240
+	|-RVA: 0x1AAC140 Offset: 0x1AAA740 VA: 0x181AAC140
 	|-Dispatch.<>c__DisplayClass29_0<LobbyChatUpdate_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB8F0 Offset: 0x1AA9EF0 VA: 0x181AAB8F0
+	|-RVA: 0x1AAB7F0 Offset: 0x1AA9DF0 VA: 0x181AAB7F0
 	|-Dispatch.<>c__DisplayClass29_0<LobbyCreated_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAAF50 Offset: 0x1AA9550 VA: 0x181AAAF50
+	|-RVA: 0x1AAAE50 Offset: 0x1AA9450 VA: 0x181AAAE50
 	|-Dispatch.<>c__DisplayClass29_0<LobbyDataUpdate_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC660 Offset: 0x1AAAC60 VA: 0x181AAC660
+	|-RVA: 0x1AAC560 Offset: 0x1AAAB60 VA: 0x181AAC560
 	|-Dispatch.<>c__DisplayClass29_0<LobbyEnter_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB580 Offset: 0x1AA9B80 VA: 0x181AAB580
+	|-RVA: 0x1AAB480 Offset: 0x1AA9A80 VA: 0x181AAB480
 	|-Dispatch.<>c__DisplayClass29_0<LobbyGameCreated_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAAE90 Offset: 0x1AA9490 VA: 0x181AAAE90
+	|-RVA: 0x1AAAD90 Offset: 0x1AA9390 VA: 0x181AAAD90
 	|-Dispatch.<>c__DisplayClass29_0<LobbyInvite_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC7D0 Offset: 0x1AAADD0 VA: 0x181AAC7D0
+	|-RVA: 0x1AAC6D0 Offset: 0x1AAACD0 VA: 0x181AAC6D0
 	|-Dispatch.<>c__DisplayClass29_0<LowBatteryPower_t>.<Install>b__0
 	|
-	|-RVA: 0x1AABCF0 Offset: 0x1AAA2F0 VA: 0x181AABCF0
+	|-RVA: 0x1AABBF0 Offset: 0x1AAA1F0 VA: 0x181AABBF0
 	|-Dispatch.<>c__DisplayClass29_0<MicroTxnAuthorizationResponse_t>.<Install>b__0
 	|
-	|-RVA: 0x1AACBD0 Offset: 0x1AAB1D0 VA: 0x181AACBD0
+	|-RVA: 0x1AACAD0 Offset: 0x1AAB0D0 VA: 0x181AACAD0
 	|-Dispatch.<>c__DisplayClass29_0<OverlayBrowserProtocolNavigation_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB840 Offset: 0x1AA9E40 VA: 0x181AAB840
+	|-RVA: 0x1AAB740 Offset: 0x1AA9D40 VA: 0x181AAB740
 	|-Dispatch.<>c__DisplayClass29_0<P2PSessionConnectFail_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC0F0 Offset: 0x1AAA6F0 VA: 0x181AAC0F0
+	|-RVA: 0x1AABFF0 Offset: 0x1AAA5F0 VA: 0x181AABFF0
 	|-Dispatch.<>c__DisplayClass29_0<P2PSessionRequest_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC450 Offset: 0x1AAAA50 VA: 0x181AAC450
+	|-RVA: 0x1AAC350 Offset: 0x1AAA950 VA: 0x181AAC350
 	|-Dispatch.<>c__DisplayClass29_0<PersonaStateChange_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC190 Offset: 0x1AAA790 VA: 0x181AAC190
+	|-RVA: 0x1AAC090 Offset: 0x1AAA690 VA: 0x181AAC090
 	|-Dispatch.<>c__DisplayClass29_0<PlaybackStatusHasChanged_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB220 Offset: 0x1AA9820 VA: 0x181AAB220
+	|-RVA: 0x1AAB120 Offset: 0x1AA9720 VA: 0x181AAB120
 	|-Dispatch.<>c__DisplayClass29_0<RemoteStoragePublishedFileSubscribed_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB9A0 Offset: 0x1AA9FA0 VA: 0x181AAB9A0
+	|-RVA: 0x1AAB8A0 Offset: 0x1AA9EA0 VA: 0x181AAB8A0
 	|-Dispatch.<>c__DisplayClass29_0<RemoteStoragePublishedFileUnsubscribed_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC3B0 Offset: 0x1AAA9B0 VA: 0x181AAC3B0
+	|-RVA: 0x1AAC2B0 Offset: 0x1AAA8B0 VA: 0x181AAC2B0
 	|-Dispatch.<>c__DisplayClass29_0<ScreenshotReady_t>.<Install>b__0
 	|
-	|-RVA: 0x1AABA50 Offset: 0x1AAA050 VA: 0x181AABA50
+	|-RVA: 0x1AAB950 Offset: 0x1AA9F50 VA: 0x181AAB950
 	|-Dispatch.<>c__DisplayClass29_0<ScreenshotRequested_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC5B0 Offset: 0x1AAABB0 VA: 0x181AAC5B0
+	|-RVA: 0x1AAC4B0 Offset: 0x1AAAAB0 VA: 0x181AAC4B0
 	|-Dispatch.<>c__DisplayClass29_0<SteamInventoryDefinitionUpdate_t>.<Install>b__0
 	|
-	|-RVA: 0x1AABB00 Offset: 0x1AAA100 VA: 0x181AABB00
+	|-RVA: 0x1AABA00 Offset: 0x1AAA000 VA: 0x181AABA00
 	|-Dispatch.<>c__DisplayClass29_0<SteamInventoryFullUpdate_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB390 Offset: 0x1AA9990 VA: 0x181AAB390
+	|-RVA: 0x1AAB290 Offset: 0x1AA9890 VA: 0x181AAB290
 	|-Dispatch.<>c__DisplayClass29_0<SteamNetConnectionStatusChangedCallback_t>.<Install>b__0
 	|
-	|-RVA: 0x1AABFC0 Offset: 0x1AAA5C0 VA: 0x181AABFC0
+	|-RVA: 0x1AABEC0 Offset: 0x1AAA4C0 VA: 0x181AABEC0
 	|-Dispatch.<>c__DisplayClass29_0<SteamNetworkingFakeIPResult_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAAA60 Offset: 0x1AA9060 VA: 0x181AAAA60
+	|-RVA: 0x1AAA960 Offset: 0x1AA8F60 VA: 0x181AAA960
 	|-Dispatch.<>c__DisplayClass29_0<SteamParentalSettingsChanged_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAAC80 Offset: 0x1AA9280 VA: 0x181AAAC80
+	|-RVA: 0x1AAAB80 Offset: 0x1AA9180 VA: 0x181AAAB80
 	|-Dispatch.<>c__DisplayClass29_0<SteamRelayNetworkStatus_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAD0A0 Offset: 0x1AAB6A0 VA: 0x181AAD0A0
+	|-RVA: 0x1AACFA0 Offset: 0x1AAB5A0 VA: 0x181AACFA0
 	|-Dispatch.<>c__DisplayClass29_0<SteamRemotePlaySessionConnected_t>.<Install>b__0
 	|
-	|-RVA: 0x1AABC50 Offset: 0x1AAA250 VA: 0x181AABC50
+	|-RVA: 0x1AABB50 Offset: 0x1AAA150 VA: 0x181AABB50
 	|-Dispatch.<>c__DisplayClass29_0<SteamRemotePlaySessionDisconnected_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAAD40 Offset: 0x1AA9340 VA: 0x181AAAD40
+	|-RVA: 0x1AAAC40 Offset: 0x1AA9240 VA: 0x181AAAC40
 	|-Dispatch.<>c__DisplayClass29_0<SteamServerConnectFailure_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC500 Offset: 0x1AAAB00 VA: 0x181AAC500
+	|-RVA: 0x1AAC400 Offset: 0x1AAAA00 VA: 0x181AAC400
 	|-Dispatch.<>c__DisplayClass29_0<SteamServersConnected_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB6F0 Offset: 0x1AA9CF0 VA: 0x181AAB6F0
+	|-RVA: 0x1AAB5F0 Offset: 0x1AA9BF0 VA: 0x181AAB5F0
 	|-Dispatch.<>c__DisplayClass29_0<SteamServersDisconnected_t>.<Install>b__0
 	|
-	|-RVA: 0x1AABBA0 Offset: 0x1AAA1A0 VA: 0x181AABBA0
+	|-RVA: 0x1AABAA0 Offset: 0x1AAA0A0 VA: 0x181AABAA0
 	|-Dispatch.<>c__DisplayClass29_0<SteamShutdown_t>.<Install>b__0
 	|
-	|-RVA: 0x1AACC70 Offset: 0x1AAB270 VA: 0x181AACC70
+	|-RVA: 0x1AACB70 Offset: 0x1AAB170 VA: 0x181AACB70
 	|-Dispatch.<>c__DisplayClass29_0<UserAchievementIconFetched_t>.<Install>b__0
 	|
-	|-RVA: 0x1AACF30 Offset: 0x1AAB530 VA: 0x181AACF30
+	|-RVA: 0x1AACE30 Offset: 0x1AAB430 VA: 0x181AACE30
 	|-Dispatch.<>c__DisplayClass29_0<UserAchievementStored_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB2D0 Offset: 0x1AA98D0 VA: 0x181AAB2D0
+	|-RVA: 0x1AAB1D0 Offset: 0x1AA97D0 VA: 0x181AAB1D0
 	|-Dispatch.<>c__DisplayClass29_0<UserStatsReceived_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB790 Offset: 0x1AA9D90 VA: 0x181AAB790
+	|-RVA: 0x1AAB690 Offset: 0x1AA9C90 VA: 0x181AAB690
 	|-Dispatch.<>c__DisplayClass29_0<UserStatsStored_t>.<Install>b__0
 	|
-	|-RVA: 0x1AACD30 Offset: 0x1AAB330 VA: 0x181AACD30
+	|-RVA: 0x1AACC30 Offset: 0x1AAB230 VA: 0x181AACC30
 	|-Dispatch.<>c__DisplayClass29_0<UserStatsUnloaded_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAC9B0 Offset: 0x1AAAFB0 VA: 0x181AAC9B0
+	|-RVA: 0x1AAC8B0 Offset: 0x1AAAEB0 VA: 0x181AAC8B0
 	|-Dispatch.<>c__DisplayClass29_0<ValidateAuthTicketResponse_t>.<Install>b__0
 	|
-	|-RVA: 0x1AAB0C0 Offset: 0x1AA96C0 VA: 0x181AAB0C0
+	|-RVA: 0x1AAAFC0 Offset: 0x1AA95C0 VA: 0x181AAAFC0
 	|-Dispatch.<>c__DisplayClass29_0<VolumeHasChanged_t>.<Install>b__0
 	|
-	|-RVA: 0x1AABE70 Offset: 0x1AAA470 VA: 0x181AABE70
+	|-RVA: 0x1AABD70 Offset: 0x1AAA370 VA: 0x181AABD70
 	|-Dispatch.<>c__DisplayClass29_0<object>.<Install>b__0
 	*/
 

@@ -46,17 +46,17 @@ private sealed class RBTree.TreePage<K> // TypeDefIndex: 4290
 	internal void .ctor(int size) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A890 Offset: 0x1788E90 VA: 0x18178A890
+	|-RVA: 0x178A790 Offset: 0x1788D90 VA: 0x18178A790
 	|-RBTree.TreePage<int>..ctor
 	|
-	|-RVA: 0x178A7B0 Offset: 0x1788DB0 VA: 0x18178A7B0
+	|-RVA: 0x178A6B0 Offset: 0x1788CB0 VA: 0x18178A6B0
 	|-RBTree.TreePage<object>..ctor
 	*/
 
 	internal int AllocSlot(RBTree<K> tree) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A660 Offset: 0x1788C60 VA: 0x18178A660
+	|-RVA: 0x178A560 Offset: 0x1788B60 VA: 0x18178A560
 	|-RBTree.TreePage<int>.AllocSlot
 	|-RBTree.TreePage<object>.AllocSlot
 	*/

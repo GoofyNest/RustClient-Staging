@@ -1397,7 +1397,7 @@ internal static class TMP_ListPool<T> // TypeDefIndex: 6800
 	public static List<T> Get() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B0300 Offset: 0x17AE900 VA: 0x1817B0300
+	|-RVA: 0x17B0200 Offset: 0x17AE800 VA: 0x1817B0200
 	|-TMP_ListPool<object>.Get
 	|-TMP_ListPool<Canvas>.Get
 	|-TMP_ListPool<IMaterialModifier>.Get
@@ -1407,7 +1407,7 @@ internal static class TMP_ListPool<T> // TypeDefIndex: 6800
 	public static void Release(List<T> toRelease) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B0470 Offset: 0x17AEA70 VA: 0x1817B0470
+	|-RVA: 0x17B0370 Offset: 0x17AE970 VA: 0x1817B0370
 	|-TMP_ListPool<object>.Release
 	|-TMP_ListPool<Canvas>.Release
 	|-TMP_ListPool<IMaterialModifier>.Release
@@ -1417,7 +1417,7 @@ internal static class TMP_ListPool<T> // TypeDefIndex: 6800
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B05F0 Offset: 0x17AEBF0 VA: 0x1817B05F0
+	|-RVA: 0x17B04F0 Offset: 0x17AEAF0 VA: 0x1817B04F0
 	|-TMP_ListPool<object>..cctor
 	*/
 
@@ -1430,7 +1430,7 @@ private sealed class TMP_ListPool.<>c<T> // TypeDefIndex: 6801
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD663D0 Offset: 0xD649D0 VA: 0x180D663D0
+	|-RVA: 0xD662D0 Offset: 0xD648D0 VA: 0x180D662D0
 	|-TMP_ListPool.<>c<object>..cctor
 	*/
 
@@ -1444,7 +1444,7 @@ private sealed class TMP_ListPool.<>c<T> // TypeDefIndex: 6801
 	internal void <.cctor>b__3_0(List<T> l) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1650B20 Offset: 0x164F120 VA: 0x181650B20
+	|-RVA: 0x1650A20 Offset: 0x164F020 VA: 0x181650A20
 	|-TMP_ListPool.<>c<object>.<.cctor>b__3_0
 	*/
 
@@ -1638,35 +1638,35 @@ internal class TMP_ObjectPool<T> // TypeDefIndex: 6811
 	public int get_countActive() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B0B40 Offset: 0x17AF140 VA: 0x1817B0B40
+	|-RVA: 0x17B0A40 Offset: 0x17AF040 VA: 0x1817B0A40
 	|-TMP_ObjectPool<object>.get_countActive
 	*/
 
 	public int get_countInactive() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE089C0 Offset: 0xE06FC0 VA: 0x180E089C0
+	|-RVA: 0xE088C0 Offset: 0xE06EC0 VA: 0x180E088C0
 	|-TMP_ObjectPool<object>.get_countInactive
 	*/
 
 	public void .ctor(UnityAction<T> actionOnGet, UnityAction<T> actionOnRelease) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B0A80 Offset: 0x17AF080 VA: 0x1817B0A80
+	|-RVA: 0x17B0980 Offset: 0x17AEF80 VA: 0x1817B0980
 	|-TMP_ObjectPool<object>..ctor
 	*/
 
 	public T Get() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B0890 Offset: 0x17AEE90 VA: 0x1817B0890
+	|-RVA: 0x17B0790 Offset: 0x17AED90 VA: 0x1817B0790
 	|-TMP_ObjectPool<object>.Get
 	*/
 
 	public void Release(T element) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B0980 Offset: 0x17AEF80 VA: 0x1817B0980
+	|-RVA: 0x17B0880 Offset: 0x17AEE80 VA: 0x1817B0880
 	|-TMP_ObjectPool<object>.Release
 	*/
 

@@ -24,7 +24,7 @@ public static class Volatile // TypeDefIndex: 836
 	public static void Write<T>(ref T location, T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF0A890 Offset: 0xF08E90 VA: 0x180F0A890
+	|-RVA: 0xF0A790 Offset: 0xF08D90 VA: 0x180F0A790
 	|-Volatile.Write<object>
 	*/
 

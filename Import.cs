@@ -7,7 +7,7 @@ public static class Import // TypeDefIndex: 7791
 	public static T[] FromUrl<T>(string sheetId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A39040 Offset: 0x1A37640 VA: 0x181A39040
+	|-RVA: 0x1A38F40 Offset: 0x1A37540 VA: 0x181A38F40
 	|-Import.FromUrl<object>
 	*/
 
@@ -48,7 +48,7 @@ private sealed class Import.<>c__DisplayClass0_1<T> // TypeDefIndex: 7793
 	internal bool <FromUrl>b__0(PropertyInfo x) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1895A70 Offset: 0x1894070 VA: 0x181895A70
+	|-RVA: 0x1895970 Offset: 0x1893F70 VA: 0x181895970
 	|-Import.<>c__DisplayClass0_1<object>.<FromUrl>b__0
 	*/
 

@@ -4,13 +4,13 @@ public static class NumberExtensions // TypeDefIndex: 4844
 	public static string FormatBytes<T>(T input, bool shortFormat = False) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED76F0 Offset: 0xED5CF0 VA: 0x180ED76F0
+	|-RVA: 0xED75F0 Offset: 0xED5BF0 VA: 0x180ED75F0
 	|-NumberExtensions.FormatBytes<int>
 	|
-	|-RVA: 0xED7930 Offset: 0xED5F30 VA: 0x180ED7930
+	|-RVA: 0xED7830 Offset: 0xED5E30 VA: 0x180ED7830
 	|-NumberExtensions.FormatBytes<long>
 	|
-	|-RVA: 0xED7B70 Offset: 0xED6170 VA: 0x180ED7B70
+	|-RVA: 0xED7A70 Offset: 0xED6070 VA: 0x180ED7A70
 	|-NumberExtensions.FormatBytes<ulong>
 	*/
 

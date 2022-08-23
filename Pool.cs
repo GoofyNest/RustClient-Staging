@@ -5,10 +5,10 @@ public static class Pool // TypeDefIndex: 4835
 	public static void FreeList<T>(ref List<T> obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1578F30 Offset: 0x1577530 VA: 0x181578F30
+	|-RVA: 0x1578E30 Offset: 0x1577430 VA: 0x181578E30
 	|-Pool.FreeList<BaseEntity.ServerFileRequest>
 	|
-	|-RVA: 0x1578E50 Offset: 0x1577450 VA: 0x181578E50
+	|-RVA: 0x1578D50 Offset: 0x1577350 VA: 0x181578D50
 	|-Pool.FreeList<BaseEntity>
 	|-Pool.FreeList<BaseNetworkable>
 	|-Pool.FreeList<BasePlayer>
@@ -143,96 +143,96 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.FreeList<Wearable>
 	|-Pool.FreeList<WearableHairCap>
 	|
-	|-RVA: 0x15784B0 Offset: 0x1576AB0 VA: 0x1815784B0
+	|-RVA: 0x15783B0 Offset: 0x15769B0 VA: 0x1815783B0
 	|-Pool.FreeList<FoliageGridMeshData.FoliageVertex>
 	|
-	|-RVA: 0x1578C90 Offset: 0x1577290 VA: 0x181578C90
+	|-RVA: 0x1578B90 Offset: 0x1577190 VA: 0x181578B90
 	|-Pool.FreeList<Option>
 	|
-	|-RVA: 0x15790F0 Offset: 0x15776F0 VA: 0x1815790F0
+	|-RVA: 0x1578FF0 Offset: 0x15775F0 VA: 0x181578FF0
 	|-Pool.FreeList<IconSkinPicker.SkinButtonSetup>
 	|
-	|-RVA: 0x1578590 Offset: 0x1576B90 VA: 0x181578590
+	|-RVA: 0x1578490 Offset: 0x1576A90 VA: 0x181578490
 	|-Pool.FreeList<ImageStorageEntity.ImageRequest>
 	|
-	|-RVA: 0x1578750 Offset: 0x1576D50 VA: 0x181578750
+	|-RVA: 0x1578650 Offset: 0x1576C50 VA: 0x181578650
 	|-Pool.FreeList<InvokeAction>
 	|
-	|-RVA: 0x1578910 Offset: 0x1576F10 VA: 0x181578910
+	|-RVA: 0x1578810 Offset: 0x1576E10 VA: 0x181578810
 	|-Pool.FreeList<MapView.MapMarkerCluster>
 	|
-	|-RVA: 0x15791D0 Offset: 0x15777D0 VA: 0x1815791D0
+	|-RVA: 0x15790D0 Offset: 0x15776D0 VA: 0x1815790D0
 	|-Pool.FreeList<MapView.SleepingBagCluster>
 	|
-	|-RVA: 0x15789F0 Offset: 0x1576FF0 VA: 0x1815789F0
+	|-RVA: 0x15788F0 Offset: 0x1576EF0 VA: 0x1815788F0
 	|-Pool.FreeList<MeshColliderInstance>
 	|
-	|-RVA: 0x1578AD0 Offset: 0x15770D0 VA: 0x181578AD0
+	|-RVA: 0x15789D0 Offset: 0x1576FD0 VA: 0x1815789D0
 	|-Pool.FreeList<MeshInstance>
 	|
-	|-RVA: 0x1578BB0 Offset: 0x15771B0 VA: 0x181578BB0
+	|-RVA: 0x1578AB0 Offset: 0x15770B0 VA: 0x181578AB0
 	|-Pool.FreeList<MeshRendererInstance>
 	|
-	|-RVA: 0x1578130 Offset: 0x1576730 VA: 0x181578130
+	|-RVA: 0x1578030 Offset: 0x1576630 VA: 0x181578030
 	|-Pool.FreeList<DemoShotFloatKeyframe>
 	|
-	|-RVA: 0x1578210 Offset: 0x1576810 VA: 0x181578210
+	|-RVA: 0x1578110 Offset: 0x1576710 VA: 0x181578110
 	|-Pool.FreeList<DemoShotParentKeyframe>
 	|
-	|-RVA: 0x15782F0 Offset: 0x15768F0 VA: 0x1815782F0
+	|-RVA: 0x15781F0 Offset: 0x15767F0 VA: 0x1815781F0
 	|-Pool.FreeList<DemoShotQuaternionKeyframe>
 	|
-	|-RVA: 0x15783D0 Offset: 0x15769D0 VA: 0x1815783D0
+	|-RVA: 0x15782D0 Offset: 0x15768D0 VA: 0x1815782D0
 	|-Pool.FreeList<DemoShotVectorKeyframe>
 	|
-	|-RVA: 0x1579A90 Offset: 0x1578090 VA: 0x181579A90
+	|-RVA: 0x1579990 Offset: 0x1577F90 VA: 0x181579990
 	|-Pool.FreeList<VectorData>
 	|
-	|-RVA: 0x15792B0 Offset: 0x15778B0 VA: 0x1815792B0
+	|-RVA: 0x15791B0 Offset: 0x15777B0 VA: 0x1815791B0
 	|-Pool.FreeList<SubmarineSonar.SonarBlip>
 	|
-	|-RVA: 0x1577F70 Offset: 0x1576570 VA: 0x181577F70
+	|-RVA: 0x1577E70 Offset: 0x1576470 VA: 0x181577E70
 	|-Pool.FreeList<bool>
 	|
-	|-RVA: 0x1578830 Offset: 0x1576E30 VA: 0x181578830
+	|-RVA: 0x1578730 Offset: 0x1576D30 VA: 0x181578730
 	|-Pool.FreeList<KeyValuePair<HairCapMask, Renderer>>
 	|-Pool.FreeList<KeyValuePair<Int32Enum, object>>
 	|
-	|-RVA: 0x1578670 Offset: 0x1576C70 VA: 0x181578670
+	|-RVA: 0x1578570 Offset: 0x1576B70 VA: 0x181578570
 	|-Pool.FreeList<int>
 	|
-	|-RVA: 0x1579010 Offset: 0x1577610 VA: 0x181579010
+	|-RVA: 0x1578F10 Offset: 0x1577510 VA: 0x181578F10
 	|-Pool.FreeList<float>
 	|
-	|-RVA: 0x1579470 Offset: 0x1577A70 VA: 0x181579470
+	|-RVA: 0x1579370 Offset: 0x1577970 VA: 0x181579370
 	|-Pool.FreeList<uint>
 	|
-	|-RVA: 0x1579550 Offset: 0x1577B50 VA: 0x181579550
+	|-RVA: 0x1579450 Offset: 0x1577A50 VA: 0x181579450
 	|-Pool.FreeList<ulong>
 	|
-	|-RVA: 0x1579630 Offset: 0x1577C30 VA: 0x181579630
+	|-RVA: 0x1579530 Offset: 0x1577B30 VA: 0x181579530
 	|-Pool.FreeList<ValueTuple<object, object>>
 	|-Pool.FreeList<ValueTuple<string, AssetBundleRequest>>
 	|
-	|-RVA: 0x1579390 Offset: 0x1577990 VA: 0x181579390
+	|-RVA: 0x1579290 Offset: 0x1577890 VA: 0x181579290
 	|-Pool.FreeList<TraceInfo>
 	|
-	|-RVA: 0x1578050 Offset: 0x1576650 VA: 0x181578050
+	|-RVA: 0x1577F50 Offset: 0x1576550 VA: 0x181577F50
 	|-Pool.FreeList<Color32>
 	|
-	|-RVA: 0x1578D70 Offset: 0x1577370 VA: 0x181578D70
+	|-RVA: 0x1578C70 Offset: 0x1577270 VA: 0x181578C70
 	|-Pool.FreeList<RaycastHit>
 	|
-	|-RVA: 0x1579710 Offset: 0x1577D10 VA: 0x181579710
+	|-RVA: 0x1579610 Offset: 0x1577C10 VA: 0x181579610
 	|-Pool.FreeList<Vector2>
 	|
-	|-RVA: 0x15798D0 Offset: 0x1577ED0 VA: 0x1815798D0
+	|-RVA: 0x15797D0 Offset: 0x1577DD0 VA: 0x1815797D0
 	|-Pool.FreeList<Vector3>
 	|
-	|-RVA: 0x15799B0 Offset: 0x1577FB0 VA: 0x1815799B0
+	|-RVA: 0x15798B0 Offset: 0x1577EB0 VA: 0x1815798B0
 	|-Pool.FreeList<Vector4>
 	|
-	|-RVA: 0x15797F0 Offset: 0x1577DF0 VA: 0x1815797F0
+	|-RVA: 0x15796F0 Offset: 0x1577CF0 VA: 0x1815796F0
 	|-Pool.FreeList<Vector2i>
 	*/
 
@@ -241,7 +241,7 @@ public static class Pool // TypeDefIndex: 4835
 	public static void Free<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1579B70 Offset: 0x1578170 VA: 0x181579B70
+	|-RVA: 0x1579A70 Offset: 0x1578070 VA: 0x181579A70
 	|-Pool.Free<BaseMission.MissionInstance>
 	|-Pool.Free<BaseVehicle.Enumerator.Box>
 	|-Pool.Free<BuildingManager.Building>
@@ -545,14 +545,14 @@ public static class Pool // TypeDefIndex: 4835
 	public static void FreeDynamic<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1577D10 Offset: 0x1576310 VA: 0x181577D10
+	|-RVA: 0x1577C10 Offset: 0x1576210 VA: 0x181577C10
 	|-Pool.FreeDynamic<object>
 	*/
 
 	private static void FreeInternal<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1577EE0 Offset: 0x15764E0 VA: 0x181577EE0
+	|-RVA: 0x1577DE0 Offset: 0x15763E0 VA: 0x181577DE0
 	|-Pool.FreeInternal<MemoryStream>
 	|-Pool.FreeInternal<object>
 	*/
@@ -934,10 +934,10 @@ public static class Pool // TypeDefIndex: 4835
 	public static List<T> GetList<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x12AFBD0 Offset: 0x12AE1D0 VA: 0x1812AFBD0
+	|-RVA: 0x12AFAD0 Offset: 0x12AE0D0 VA: 0x1812AFAD0
 	|-Pool.GetList<BaseEntity.ServerFileRequest>
 	|
-	|-RVA: 0x12AFB70 Offset: 0x12AE170 VA: 0x1812AFB70
+	|-RVA: 0x12AFA70 Offset: 0x12AE070 VA: 0x1812AFA70
 	|-Pool.GetList<BaseEntity>
 	|-Pool.GetList<BaseNetworkable>
 	|-Pool.GetList<BasePlayer>
@@ -1072,103 +1072,103 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.GetList<WearableHairCap>
 	|-Pool.GetList<object>
 	|
-	|-RVA: 0x12AF750 Offset: 0x12ADD50 VA: 0x1812AF750
+	|-RVA: 0x12AF650 Offset: 0x12ADC50 VA: 0x1812AF650
 	|-Pool.GetList<FoliageGridMeshData.FoliageVertex>
 	|
-	|-RVA: 0x12AFAB0 Offset: 0x12AE0B0 VA: 0x1812AFAB0
+	|-RVA: 0x12AF9B0 Offset: 0x12ADFB0 VA: 0x1812AF9B0
 	|-Pool.GetList<Option>
 	|
-	|-RVA: 0x12AFC90 Offset: 0x12AE290 VA: 0x1812AFC90
+	|-RVA: 0x12AFB90 Offset: 0x12AE190 VA: 0x1812AFB90
 	|-Pool.GetList<IconSkinPicker.SkinButtonSetup>
 	|
-	|-RVA: 0x12AF7B0 Offset: 0x12ADDB0 VA: 0x1812AF7B0
+	|-RVA: 0x12AF6B0 Offset: 0x12ADCB0 VA: 0x1812AF6B0
 	|-Pool.GetList<ImageStorageEntity.ImageRequest>
 	|
-	|-RVA: 0x12AF870 Offset: 0x12ADE70 VA: 0x1812AF870
+	|-RVA: 0x12AF770 Offset: 0x12ADD70 VA: 0x1812AF770
 	|-Pool.GetList<InvokeAction>
 	|
-	|-RVA: 0x12AF930 Offset: 0x12ADF30 VA: 0x1812AF930
+	|-RVA: 0x12AF830 Offset: 0x12ADE30 VA: 0x1812AF830
 	|-Pool.GetList<MapView.MapMarkerCluster>
 	|
-	|-RVA: 0x12AFCF0 Offset: 0x12AE2F0 VA: 0x1812AFCF0
+	|-RVA: 0x12AFBF0 Offset: 0x12AE1F0 VA: 0x1812AFBF0
 	|-Pool.GetList<MapView.SleepingBagCluster>
 	|
-	|-RVA: 0x12AF5D0 Offset: 0x12ADBD0 VA: 0x1812AF5D0
+	|-RVA: 0x12AF4D0 Offset: 0x12ADAD0 VA: 0x1812AF4D0
 	|-Pool.GetList<DemoShotFloatKeyframe>
 	|
-	|-RVA: 0x12AF630 Offset: 0x12ADC30 VA: 0x1812AF630
+	|-RVA: 0x12AF530 Offset: 0x12ADB30 VA: 0x1812AF530
 	|-Pool.GetList<DemoShotParentKeyframe>
 	|
-	|-RVA: 0x12AF690 Offset: 0x12ADC90 VA: 0x1812AF690
+	|-RVA: 0x12AF590 Offset: 0x12ADB90 VA: 0x1812AF590
 	|-Pool.GetList<DemoShotQuaternionKeyframe>
 	|
-	|-RVA: 0x12AF6F0 Offset: 0x12ADCF0 VA: 0x1812AF6F0
+	|-RVA: 0x12AF5F0 Offset: 0x12ADBF0 VA: 0x1812AF5F0
 	|-Pool.GetList<DemoShotVectorKeyframe>
 	|
-	|-RVA: 0x12B00B0 Offset: 0x12AE6B0 VA: 0x1812B00B0
+	|-RVA: 0x12AFFB0 Offset: 0x12AE5B0 VA: 0x1812AFFB0
 	|-Pool.GetList<VectorData>
 	|
-	|-RVA: 0x12AFD50 Offset: 0x12AE350 VA: 0x1812AFD50
+	|-RVA: 0x12AFC50 Offset: 0x12AE250 VA: 0x1812AFC50
 	|-Pool.GetList<SubmarineSonar.SonarBlip>
 	|
-	|-RVA: 0x12AF510 Offset: 0x12ADB10 VA: 0x1812AF510
+	|-RVA: 0x12AF410 Offset: 0x12ADA10 VA: 0x1812AF410
 	|-Pool.GetList<bool>
 	|
-	|-RVA: 0x12AF8D0 Offset: 0x12ADED0 VA: 0x1812AF8D0
+	|-RVA: 0x12AF7D0 Offset: 0x12ADDD0 VA: 0x1812AF7D0
 	|-Pool.GetList<KeyValuePair<HairCapMask, Renderer>>
 	|-Pool.GetList<KeyValuePair<Int32Enum, object>>
 	|
-	|-RVA: 0x12AF810 Offset: 0x12ADE10 VA: 0x1812AF810
+	|-RVA: 0x12AF710 Offset: 0x12ADD10 VA: 0x1812AF710
 	|-Pool.GetList<int>
 	|
-	|-RVA: 0x12AFC30 Offset: 0x12AE230 VA: 0x1812AFC30
+	|-RVA: 0x12AFB30 Offset: 0x12AE130 VA: 0x1812AFB30
 	|-Pool.GetList<float>
 	|
-	|-RVA: 0x12AFE10 Offset: 0x12AE410 VA: 0x1812AFE10
+	|-RVA: 0x12AFD10 Offset: 0x12AE310 VA: 0x1812AFD10
 	|-Pool.GetList<uint>
 	|
-	|-RVA: 0x12AFE70 Offset: 0x12AE470 VA: 0x1812AFE70
+	|-RVA: 0x12AFD70 Offset: 0x12AE370 VA: 0x1812AFD70
 	|-Pool.GetList<ulong>
 	|
-	|-RVA: 0x12AFED0 Offset: 0x12AE4D0 VA: 0x1812AFED0
+	|-RVA: 0x12AFDD0 Offset: 0x12AE3D0 VA: 0x1812AFDD0
 	|-Pool.GetList<ValueTuple<string, AssetBundleRequest>>
 	|-Pool.GetList<ValueTuple<object, object>>
 	|
-	|-RVA: 0x12AFDB0 Offset: 0x12AE3B0 VA: 0x1812AFDB0
+	|-RVA: 0x12AFCB0 Offset: 0x12AE2B0 VA: 0x1812AFCB0
 	|-Pool.GetList<TraceInfo>
 	|
-	|-RVA: 0x12AF570 Offset: 0x12ADB70 VA: 0x1812AF570
+	|-RVA: 0x12AF470 Offset: 0x12ADA70 VA: 0x1812AF470
 	|-Pool.GetList<Color32>
 	|
-	|-RVA: 0x12AFB10 Offset: 0x12AE110 VA: 0x1812AFB10
+	|-RVA: 0x12AFA10 Offset: 0x12AE010 VA: 0x1812AFA10
 	|-Pool.GetList<RaycastHit>
 	|
-	|-RVA: 0x12AFF30 Offset: 0x12AE530 VA: 0x1812AFF30
+	|-RVA: 0x12AFE30 Offset: 0x12AE430 VA: 0x1812AFE30
 	|-Pool.GetList<Vector2>
 	|
-	|-RVA: 0x12AFFF0 Offset: 0x12AE5F0 VA: 0x1812AFFF0
+	|-RVA: 0x12AFEF0 Offset: 0x12AE4F0 VA: 0x1812AFEF0
 	|-Pool.GetList<Vector3>
 	|
-	|-RVA: 0x12B0050 Offset: 0x12AE650 VA: 0x1812B0050
+	|-RVA: 0x12AFF50 Offset: 0x12AE550 VA: 0x1812AFF50
 	|-Pool.GetList<Vector4>
 	|
-	|-RVA: 0x12AFF90 Offset: 0x12AE590 VA: 0x1812AFF90
+	|-RVA: 0x12AFE90 Offset: 0x12AE490 VA: 0x1812AFE90
 	|-Pool.GetList<Vector2i>
 	|
-	|-RVA: 0x12AF990 Offset: 0x12ADF90 VA: 0x1812AF990
+	|-RVA: 0x12AF890 Offset: 0x12ADE90 VA: 0x1812AF890
 	|-Pool.GetList<MeshColliderInstance>
 	|
-	|-RVA: 0x12AF9F0 Offset: 0x12ADFF0 VA: 0x1812AF9F0
+	|-RVA: 0x12AF8F0 Offset: 0x12ADEF0 VA: 0x1812AF8F0
 	|-Pool.GetList<MeshInstance>
 	|
-	|-RVA: 0x12AFA50 Offset: 0x12AE050 VA: 0x1812AFA50
+	|-RVA: 0x12AF950 Offset: 0x12ADF50 VA: 0x1812AF950
 	|-Pool.GetList<MeshRendererInstance>
 	*/
 
 	public static void ResizeBuffer<T>(int size) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1579C70 Offset: 0x1578270 VA: 0x181579C70
+	|-RVA: 0x1579B70 Offset: 0x1578170 VA: 0x181579B70
 	|-Pool.ResizeBuffer<EntityLink>
 	|-Pool.ResizeBuffer<LODCell>
 	|-Pool.ResizeBuffer<Networkable>
@@ -1180,7 +1180,7 @@ public static class Pool // TypeDefIndex: 4835
 	public static void FillBuffer<T>(int count = 2147483647) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1577BE0 Offset: 0x15761E0 VA: 0x181577BE0
+	|-RVA: 0x1577AE0 Offset: 0x15760E0 VA: 0x181577AE0
 	|-Pool.FillBuffer<EntityLink>
 	|-Pool.FillBuffer<LODCell>
 	|-Pool.FillBuffer<Networkable>
@@ -1192,7 +1192,7 @@ public static class Pool // TypeDefIndex: 4835
 	public static Pool.PoolCollection<T> FindCollection<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125EC00 Offset: 0x125D200 VA: 0x18125EC00
+	|-RVA: 0x125EB00 Offset: 0x125D100 VA: 0x18125EB00
 	|-Pool.FindCollection<object>
 	*/
 
@@ -1250,7 +1250,7 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	public void set_ItemsInUse(long value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE74E80 Offset: 0xE73480 VA: 0x180E74E80
+	|-RVA: 0xE74D80 Offset: 0xE73380 VA: 0x180E74D80
 	|-Pool.PoolCollection<object>.set_ItemsInUse
 	*/
 
@@ -1266,7 +1266,7 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	public void set_ItemsCreated(long value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE73B70 Offset: 0xE72170 VA: 0x180E73B70
+	|-RVA: 0xE73A70 Offset: 0xE72070 VA: 0x180E73A70
 	|-Pool.PoolCollection<object>.set_ItemsCreated
 	*/
 
@@ -1305,28 +1305,28 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1894C90 Offset: 0x1893290 VA: 0x181894C90
+	|-RVA: 0x1894B90 Offset: 0x1893190 VA: 0x181894B90
 	|-Pool.PoolCollection<object>..ctor
 	*/
 
 	public void Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1894BB0 Offset: 0x18931B0 VA: 0x181894BB0
+	|-RVA: 0x1894AB0 Offset: 0x18930B0 VA: 0x181894AB0
 	|-Pool.PoolCollection<object>.Reset
 	*/
 
 	public void Add(T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1894950 Offset: 0x1892F50 VA: 0x181894950
+	|-RVA: 0x1894850 Offset: 0x1892E50 VA: 0x181894850
 	|-Pool.PoolCollection<object>.Add
 	*/
 
 	private void Facepunch.Pool.ICollection.Add(object obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1894B10 Offset: 0x1893110 VA: 0x181894B10
+	|-RVA: 0x1894A10 Offset: 0x1893010 VA: 0x181894A10
 	|-Pool.PoolCollection<object>.Facepunch.Pool.ICollection.Add
 	*/
 

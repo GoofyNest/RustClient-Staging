@@ -96,10 +96,10 @@ public static class Marshal // TypeDefIndex: 1355
 	public static int SizeOf<T>(T structure) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED72A0 Offset: 0xED58A0 VA: 0x180ED72A0
+	|-RVA: 0xED71A0 Offset: 0xED57A0 VA: 0x180ED71A0
 	|-Marshal.SizeOf<Os.SECURITY_ATTRIBUTES>
 	|
-	|-RVA: 0xED7230 Offset: 0xED5830 VA: 0x180ED7230
+	|-RVA: 0xED7130 Offset: 0xED5730 VA: 0x180ED7130
 	|-Marshal.SizeOf<object>
 	*/
 
@@ -116,7 +116,7 @@ public static class Marshal // TypeDefIndex: 1355
 	public static void StructureToPtr<T>(T structure, IntPtr ptr, bool fDeleteOld) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF09790 Offset: 0xF07D90 VA: 0x180F09790
+	|-RVA: 0xF09690 Offset: 0xF07C90 VA: 0x180F09690
 	|-Marshal.StructureToPtr<object>
 	*/
 
@@ -125,10 +125,10 @@ public static class Marshal // TypeDefIndex: 1355
 	public static IntPtr UnsafeAddrOfPinnedArrayElement<T>(T[] arr, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED7360 Offset: 0xED5960 VA: 0x180ED7360
+	|-RVA: 0xED7260 Offset: 0xED5860 VA: 0x180ED7260
 	|-Marshal.UnsafeAddrOfPinnedArrayElement<byte>
 	|
-	|-RVA: 0xED73C0 Offset: 0xED59C0 VA: 0x180ED73C0
+	|-RVA: 0xED72C0 Offset: 0xED58C0 VA: 0x180ED72C0
 	|-Marshal.UnsafeAddrOfPinnedArrayElement<object>
 	*/
 
@@ -139,7 +139,7 @@ public static class Marshal // TypeDefIndex: 1355
 	public static IntPtr GetFunctionPointerForDelegate<TDelegate>(TDelegate d) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED7170 Offset: 0xED5770 VA: 0x180ED7170
+	|-RVA: 0xED7070 Offset: 0xED5670 VA: 0x180ED7070
 	|-Marshal.GetFunctionPointerForDelegate<BufferManager.FreeFn>
 	|-Marshal.GetFunctionPointerForDelegate<object>
 	|-Marshal.GetFunctionPointerForDelegate<OSSpecificSynchronizationContext.InvocationEntryDelegate>

@@ -46,7 +46,7 @@ private sealed class Parallel.<>c__DisplayClass2_0<T> // TypeDefIndex: 5600
 	internal void <ForEach>b__0(int i) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B4B00 Offset: 0x19B3100 VA: 0x1819B4B00
+	|-RVA: 0x19B4A00 Offset: 0x19B3000 VA: 0x1819B4A00
 	|-Parallel.<>c__DisplayClass2_0<object>.<ForEach>b__0
 	*/
 

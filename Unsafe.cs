@@ -3,20 +3,20 @@ internal static class Unsafe // TypeDefIndex: 1318
 	public static ref T Add<T>(ref T source, int elementOffset) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BAD60 Offset: 0x15B9360 VA: 0x1815BAD60
+	|-RVA: 0x15BAC60 Offset: 0x15B9260 VA: 0x1815BAC60
 	|-Unsafe.Add<byte>
 	|
-	|-RVA: 0x15BAD70 Offset: 0x15B9370 VA: 0x1815BAD70
+	|-RVA: 0x15BAC70 Offset: 0x15B9270 VA: 0x1815BAC70
 	|-Unsafe.Add<char>
 	|
-	|-RVA: 0x15BAD80 Offset: 0x15B9380 VA: 0x1815BAD80
+	|-RVA: 0x15BAC80 Offset: 0x15B9280 VA: 0x1815BAC80
 	|-Unsafe.Add<object>
 	*/
 
 	public static ref T AddByteOffset<T>(ref T source, IntPtr byteOffset) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BAD50 Offset: 0x15B9350 VA: 0x1815BAD50
+	|-RVA: 0x15BAC50 Offset: 0x15B9250 VA: 0x1815BAC50
 	|-Unsafe.AddByteOffset<byte>
 	|-Unsafe.AddByteOffset<char>
 	|-Unsafe.AddByteOffset<object>
@@ -41,7 +41,7 @@ internal static class Unsafe // TypeDefIndex: 1318
 	public static IntPtr ByteOffset<T>(ref T origin, ref T target) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xEDA660 Offset: 0xED8C60 VA: 0x180EDA660
+	|-RVA: 0xEDA560 Offset: 0xED8B60 VA: 0x180EDA560
 	|-Unsafe.ByteOffset<byte>
 	|-Unsafe.ByteOffset<char>
 	|-Unsafe.ByteOffset<object>
@@ -109,13 +109,13 @@ public static class Unsafe // TypeDefIndex: 6664
 	public static ref T Add<T>(ref T source, int elementOffset) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BAD60 Offset: 0x15B9360 VA: 0x1815BAD60
+	|-RVA: 0x15BAC60 Offset: 0x15B9260 VA: 0x1815BAC60
 	|-Unsafe.Add<byte>
 	|
-	|-RVA: 0x15BAD70 Offset: 0x15B9370 VA: 0x1815BAD70
+	|-RVA: 0x15BAC70 Offset: 0x15B9270 VA: 0x1815BAC70
 	|-Unsafe.Add<short>
 	|
-	|-RVA: 0x15BAD80 Offset: 0x15B9380 VA: 0x1815BAD80
+	|-RVA: 0x15BAC80 Offset: 0x15B9280 VA: 0x1815BAC80
 	|-Unsafe.Add<object>
 	*/
 
@@ -123,10 +123,10 @@ public static class Unsafe // TypeDefIndex: 6664
 	public static ref T Add<T>(ref T source, IntPtr elementOffset) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BAD50 Offset: 0x15B9350 VA: 0x1815BAD50
+	|-RVA: 0x15BAC50 Offset: 0x15B9250 VA: 0x1815BAC50
 	|-Unsafe.Add<byte>
 	|
-	|-RVA: 0x15BAD90 Offset: 0x15B9390 VA: 0x1815BAD90
+	|-RVA: 0x15BAC90 Offset: 0x15B9290 VA: 0x1815BAC90
 	|-Unsafe.Add<object>
 	*/
 
@@ -134,7 +134,7 @@ public static class Unsafe // TypeDefIndex: 6664
 	public static ref T AddByteOffset<T>(ref T source, IntPtr byteOffset) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BAD50 Offset: 0x15B9350 VA: 0x1815BAD50
+	|-RVA: 0x15BAC50 Offset: 0x15B9250 VA: 0x1815BAC50
 	|-Unsafe.AddByteOffset<byte>
 	|-Unsafe.AddByteOffset<short>
 	|-Unsafe.AddByteOffset<object>
@@ -144,7 +144,7 @@ public static class Unsafe // TypeDefIndex: 6664
 	public static IntPtr ByteOffset<T>(ref T origin, ref T target) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xEDA660 Offset: 0xED8C60 VA: 0x180EDA660
+	|-RVA: 0xEDA560 Offset: 0xED8B60 VA: 0x180EDA560
 	|-Unsafe.ByteOffset<byte>
 	|-Unsafe.ByteOffset<char>
 	|-Unsafe.ByteOffset<short>

@@ -19,7 +19,7 @@ public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 	public void .ctor(Action<AsyncLocalValueChangedArgs<T>> valueChangedHandler) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1359410 Offset: 0x1357A10 VA: 0x181359410
+	|-RVA: 0x1359310 Offset: 0x1357910 VA: 0x181359310
 	|-AsyncLocal<ActivityTracker.ActivityInfo>..ctor
 	|-AsyncLocal<CultureInfo>..ctor
 	|-AsyncLocal<object>..ctor
@@ -28,7 +28,7 @@ public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 	public T get_Value() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1359450 Offset: 0x1357A50 VA: 0x181359450
+	|-RVA: 0x1359350 Offset: 0x1357950 VA: 0x181359350
 	|-AsyncLocal<ActivityTracker.ActivityInfo>.get_Value
 	|-AsyncLocal<object>.get_Value
 	*/
@@ -36,7 +36,7 @@ public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 	public void set_Value(T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1359500 Offset: 0x1357B00 VA: 0x181359500
+	|-RVA: 0x1359400 Offset: 0x1357A00 VA: 0x181359400
 	|-AsyncLocal<ActivityTracker.ActivityInfo>.set_Value
 	|-AsyncLocal<CultureInfo>.set_Value
 	|-AsyncLocal<object>.set_Value
@@ -45,7 +45,7 @@ public sealed class AsyncLocal<T> : IAsyncLocal // TypeDefIndex: 774
 	private void System.Threading.IAsyncLocal.OnValueChanged(object previousValueObj, object currentValueObj, bool contextChanged) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1359270 Offset: 0x1357870 VA: 0x181359270
+	|-RVA: 0x1359170 Offset: 0x1357770 VA: 0x181359170
 	|-AsyncLocal<object>.System.Threading.IAsyncLocal.OnValueChanged
 	*/
 
@@ -808,7 +808,7 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	public static AsyncTaskMethodBuilder<TResult> Create() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDA9240 Offset: 0xDA7840 VA: 0x180DA9240
+	|-RVA: 0xDA9140 Offset: 0xDA7740 VA: 0x180DA9140
 	|-AsyncTaskMethodBuilder<CompanionSubscription.Status>.Create
 	|-AsyncTaskMethodBuilder<IAuthTicket>.Create
 	|-AsyncTaskMethodBuilder<IPlayerInfo>.Create
@@ -1829,43 +1829,43 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x189ED50 Offset: 0x189D350 VA: 0x18189ED50
+	|-RVA: 0x189EC50 Offset: 0x189D250 VA: 0x18189EC50
 	|-AsyncTaskMethodBuilder<PublishResult>..cctor
 	|
-	|-RVA: 0x189EF60 Offset: 0x189D560 VA: 0x18189EF60
+	|-RVA: 0x189EE60 Offset: 0x189D460 VA: 0x18189EE60
 	|-AsyncTaskMethodBuilder<bool>..cctor
 	|
-	|-RVA: 0x189F160 Offset: 0x189D760 VA: 0x18189F160
+	|-RVA: 0x189F060 Offset: 0x189D660 VA: 0x18189F060
 	|-AsyncTaskMethodBuilder<int>..cctor
 	|
-	|-RVA: 0x189F250 Offset: 0x189D850 VA: 0x18189F250
+	|-RVA: 0x189F150 Offset: 0x189D750 VA: 0x18189F150
 	|-AsyncTaskMethodBuilder<Nullable<ServerInfo>>..cctor
 	|
-	|-RVA: 0x189F050 Offset: 0x189D650 VA: 0x18189F050
+	|-RVA: 0x189EF50 Offset: 0x189D550 VA: 0x18189EF50
 	|-AsyncTaskMethodBuilder<Nullable<Image>>..cctor
 	|
-	|-RVA: 0x189EE60 Offset: 0x189D460 VA: 0x18189EE60
+	|-RVA: 0x189ED60 Offset: 0x189D360 VA: 0x18189ED60
 	|-AsyncTaskMethodBuilder<Nullable<InventoryPurchaseResult>>..cctor
 	|
-	|-RVA: 0x13622F0 Offset: 0x13608F0 VA: 0x1813622F0
+	|-RVA: 0x13621F0 Offset: 0x13607F0 VA: 0x1813621F0
 	|-AsyncTaskMethodBuilder<Nullable<InventoryResult>>..cctor
 	|
-	|-RVA: 0x1361F80 Offset: 0x1360580 VA: 0x181361F80
+	|-RVA: 0x1361E80 Offset: 0x1360480 VA: 0x181361E80
 	|-AsyncTaskMethodBuilder<Nullable<Item>>..cctor
 	|
-	|-RVA: 0x1361CA0 Offset: 0x13602A0 VA: 0x181361CA0
+	|-RVA: 0x1361BA0 Offset: 0x13601A0 VA: 0x181361BA0
 	|-AsyncTaskMethodBuilder<Nullable<ResultPage>>..cctor
 	|
-	|-RVA: 0x1361DA0 Offset: 0x13603A0 VA: 0x181361DA0
+	|-RVA: 0x1361CA0 Offset: 0x13602A0 VA: 0x181361CA0
 	|-AsyncTaskMethodBuilder<Nullable<int>>..cctor
 	|
-	|-RVA: 0x1362200 Offset: 0x1360800 VA: 0x181362200
+	|-RVA: 0x1362100 Offset: 0x1360700 VA: 0x181362100
 	|-AsyncTaskMethodBuilder<Nullable<Int32Enum>>..cctor
 	|
-	|-RVA: 0x1361E90 Offset: 0x1360490 VA: 0x181361E90
+	|-RVA: 0x1361D90 Offset: 0x1360390 VA: 0x181361D90
 	|-AsyncTaskMethodBuilder<object>..cctor
 	|
-	|-RVA: 0x1362110 Offset: 0x1360710 VA: 0x181362110
+	|-RVA: 0x1362010 Offset: 0x1360610 VA: 0x181362010
 	|-AsyncTaskMethodBuilder<VoidTaskResult>..cctor
 	*/
 
@@ -1882,37 +1882,37 @@ internal static class AsyncTaskCache // TypeDefIndex: 1276
 	internal static Task<TResult> CreateCacheableTask<TResult>(TResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED2120 Offset: 0xED0720 VA: 0x180ED2120
+	|-RVA: 0xED2020 Offset: 0xED0620 VA: 0x180ED2020
 	|-AsyncTaskCache.CreateCacheableTask<PublishResult>
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<Image>>
 	|
-	|-RVA: 0xED1D80 Offset: 0xED0380 VA: 0x180ED1D80
+	|-RVA: 0xED1C80 Offset: 0xED0280 VA: 0x180ED1C80
 	|-AsyncTaskCache.CreateCacheableTask<bool>
 	|
-	|-RVA: 0xED1E00 Offset: 0xED0400 VA: 0x180ED1E00
+	|-RVA: 0xED1D00 Offset: 0xED0300 VA: 0x180ED1D00
 	|-AsyncTaskCache.CreateCacheableTask<int>
 	|
-	|-RVA: 0xED21B0 Offset: 0xED07B0 VA: 0x180ED21B0
+	|-RVA: 0xED20B0 Offset: 0xED06B0 VA: 0x180ED20B0
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<ServerInfo>>
 	|
-	|-RVA: 0xED1F90 Offset: 0xED0590 VA: 0x180ED1F90
+	|-RVA: 0xED1E90 Offset: 0xED0490 VA: 0x180ED1E90
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<InventoryPurchaseResult>>
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<ResultPage>>
 	|
-	|-RVA: 0xED1F00 Offset: 0xED0500 VA: 0x180ED1F00
+	|-RVA: 0xED1E00 Offset: 0xED0400 VA: 0x180ED1E00
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<InventoryResult>>
 	|
-	|-RVA: 0xED2020 Offset: 0xED0620 VA: 0x180ED2020
+	|-RVA: 0xED1F20 Offset: 0xED0520 VA: 0x180ED1F20
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<Item>>
 	|
-	|-RVA: 0xED1E80 Offset: 0xED0480 VA: 0x180ED1E80
+	|-RVA: 0xED1D80 Offset: 0xED0380 VA: 0x180ED1D80
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<int>>
 	|-AsyncTaskCache.CreateCacheableTask<Nullable<Int32Enum>>
 	|
-	|-RVA: 0xED2280 Offset: 0xED0880 VA: 0x180ED2280
+	|-RVA: 0xED2180 Offset: 0xED0780 VA: 0x180ED2180
 	|-AsyncTaskCache.CreateCacheableTask<object>
 	|
-	|-RVA: 0xED2300 Offset: 0xED0900 VA: 0x180ED2300
+	|-RVA: 0xED2200 Offset: 0xED0800 VA: 0x180ED2200
 	|-AsyncTaskCache.CreateCacheableTask<VoidTaskResult>
 	*/
 
@@ -2539,7 +2539,7 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7093
 	|-RVA: 0x4CF830 Offset: 0x4CDE30 VA: 0x1804CF830
 	|-AsyncValueTaskMethodBuilder<bool>.Create
 	|
-	|-RVA: 0x13624E0 Offset: 0x1360AE0 VA: 0x1813624E0
+	|-RVA: 0x13623E0 Offset: 0x13609E0 VA: 0x1813623E0
 	|-AsyncValueTaskMethodBuilder<object>.Create
 	*/
 

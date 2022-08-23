@@ -6,7 +6,7 @@ private sealed class UnwrapPromise.<>c<TResult> // TypeDefIndex: 869
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD663D0 Offset: 0xD649D0 VA: 0x180D663D0
+	|-RVA: 0xD662D0 Offset: 0xD648D0 VA: 0x180D662D0
 	|-UnwrapPromise.<>c<object>..cctor
 	*/
 
@@ -20,7 +20,7 @@ private sealed class UnwrapPromise.<>c<TResult> // TypeDefIndex: 869
 	internal void <InvokeCoreAsync>b__8_0(object state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A4C970 Offset: 0x1A4AF70 VA: 0x181A4C970
+	|-RVA: 0x1A4C870 Offset: 0x1A4AE70 VA: 0x181A4C870
 	|-UnwrapPromise.<>c<object>.<InvokeCoreAsync>b__8_0
 	*/
 

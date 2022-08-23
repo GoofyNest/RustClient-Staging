@@ -4,7 +4,7 @@ public static class LinqEx // TypeDefIndex: 11347
 	public static int MaxIndex<T>(IEnumerable<T> sequence) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1179DA0 Offset: 0x11783A0 VA: 0x181179DA0
+	|-RVA: 0x1179CA0 Offset: 0x11782A0 VA: 0x181179CA0
 	|-LinqEx.MaxIndex<object>
 	*/
 

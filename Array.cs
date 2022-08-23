@@ -16,133 +16,133 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public static ReadOnlyCollection<T> AsReadOnly<T>(T[] array) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x12AD960 Offset: 0x12ABF60 VA: 0x1812AD960
+	|-RVA: 0x12AD860 Offset: 0x12ABE60 VA: 0x1812AD860
 	|-Array.AsReadOnly<object>
 	|-Array.AsReadOnly<CustomAttributeData>
 	|
-	|-RVA: 0x12AD800 Offset: 0x12ABE00 VA: 0x1812AD800
+	|-RVA: 0x12AD700 Offset: 0x12ABD00 VA: 0x1812AD700
 	|-Array.AsReadOnly<CustomAttributeNamedArgument>
 	|
-	|-RVA: 0x12AD8B0 Offset: 0x12ABEB0 VA: 0x1812AD8B0
+	|-RVA: 0x12AD7B0 Offset: 0x12ABDB0 VA: 0x1812AD7B0
 	|-Array.AsReadOnly<CustomAttributeTypedArgument>
 	*/
 
 	public static void Resize<T>(ref T[] array, int newSize) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1302690 Offset: 0x1300C90 VA: 0x181302690
+	|-RVA: 0x1302590 Offset: 0x1300B90 VA: 0x181302590
 	|-Array.Resize<FoliageKey>
 	|
-	|-RVA: 0x13028D0 Offset: 0x1300ED0 VA: 0x1813028D0
+	|-RVA: 0x13027D0 Offset: 0x1300DD0 VA: 0x1813027D0
 	|-Array.Resize<InstancingKey>
 	|
-	|-RVA: 0x1302E70 Offset: 0x1301470 VA: 0x181302E70
+	|-RVA: 0x1302D70 Offset: 0x1301370 VA: 0x181302D70
 	|-Array.Resize<InvokeAction>
 	|
-	|-RVA: 0x13032F0 Offset: 0x13018F0 VA: 0x1813032F0
+	|-RVA: 0x13031F0 Offset: 0x13017F0 VA: 0x1813031F0
 	|-Array.Resize<RealTimeSince>
 	|
-	|-RVA: 0x1303530 Offset: 0x1301B30 VA: 0x181303530
+	|-RVA: 0x1303430 Offset: 0x1301A30 VA: 0x181303430
 	|-Array.Resize<RendererKey>
 	|
-	|-RVA: 0x1303410 Offset: 0x1301A10 VA: 0x181303410
+	|-RVA: 0x1303310 Offset: 0x1301910 VA: 0x181303310
 	|-Array.Resize<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0x1302D50 Offset: 0x1301350 VA: 0x181302D50
+	|-RVA: 0x1302C50 Offset: 0x1301250 VA: 0x181302C50
 	|-Array.Resize<InventoryItem>
 	|
-	|-RVA: 0x1301EB0 Offset: 0x13004B0 VA: 0x181301EB0
+	|-RVA: 0x1301DB0 Offset: 0x13003B0 VA: 0x181301DB0
 	|-Array.Resize<bool>
 	|
-	|-RVA: 0x13020F0 Offset: 0x13006F0 VA: 0x1813020F0
+	|-RVA: 0x1301FF0 Offset: 0x13005F0 VA: 0x181301FF0
 	|-Array.Resize<byte>
 	|
-	|-RVA: 0x1302210 Offset: 0x1300810 VA: 0x181302210
+	|-RVA: 0x1302110 Offset: 0x1300710 VA: 0x181302110
 	|-Array.Resize<char>
 	|
-	|-RVA: 0x1302F90 Offset: 0x1301590 VA: 0x181302F90
+	|-RVA: 0x1302E90 Offset: 0x1301490 VA: 0x181302E90
 	|-Array.Resize<KeyValuePair<int, int>>
 	|
-	|-RVA: 0x1302B10 Offset: 0x1301110 VA: 0x181302B10
+	|-RVA: 0x1302A10 Offset: 0x1301010 VA: 0x181302A10
 	|-Array.Resize<int>
 	|
-	|-RVA: 0x13029F0 Offset: 0x1300FF0 VA: 0x1813029F0
+	|-RVA: 0x13028F0 Offset: 0x1300EF0 VA: 0x1813028F0
 	|-Array.Resize<Int32Enum>
 	|
-	|-RVA: 0x1302C30 Offset: 0x1301230 VA: 0x181302C30
+	|-RVA: 0x1302B30 Offset: 0x1301130 VA: 0x181302B30
 	|-Array.Resize<IntPtr>
 	|
-	|-RVA: 0x1303770 Offset: 0x1301D70 VA: 0x181303770
+	|-RVA: 0x1303670 Offset: 0x1301C70 VA: 0x181303670
 	|-Array.Resize<object>
 	|-Array.Resize<string>
 	|-Array.Resize<TerrainAtlasSet.SourceMapSet>
 	|-Array.Resize<Camera>
 	|-Array.Resize<Texture2D>
 	|
-	|-RVA: 0x13039B0 Offset: 0x1301FB0 VA: 0x1813039B0
+	|-RVA: 0x13038B0 Offset: 0x1301EB0 VA: 0x1813038B0
 	|-Array.Resize<float>
 	|
-	|-RVA: 0x1304070 Offset: 0x1302670 VA: 0x181304070
+	|-RVA: 0x1303F70 Offset: 0x1302570 VA: 0x181303F70
 	|-Array.Resize<uint>
 	|
-	|-RVA: 0x1304190 Offset: 0x1302790 VA: 0x181304190
+	|-RVA: 0x1304090 Offset: 0x1302690 VA: 0x181304090
 	|-Array.Resize<ulong>
 	|
-	|-RVA: 0x1303890 Offset: 0x1301E90 VA: 0x181303890
+	|-RVA: 0x1303790 Offset: 0x1301D90 VA: 0x181303790
 	|-Array.Resize<SequenceNode.SequenceConstructPosContext>
 	|
-	|-RVA: 0x13030B0 Offset: 0x13016B0 VA: 0x1813030B0
+	|-RVA: 0x1302FB0 Offset: 0x13015B0 VA: 0x181302FB0
 	|-Array.Resize<MaterialReference>
 	|
-	|-RVA: 0x1303AD0 Offset: 0x13020D0 VA: 0x181303AD0
+	|-RVA: 0x13039D0 Offset: 0x1301FD0 VA: 0x1813039D0
 	|-Array.Resize<TMP_CharacterInfo>
 	|
-	|-RVA: 0x1303BF0 Offset: 0x13021F0 VA: 0x181303BF0
+	|-RVA: 0x1303AF0 Offset: 0x13020F0 VA: 0x181303AF0
 	|-Array.Resize<TMP_LinkInfo>
 	|
-	|-RVA: 0x1303D10 Offset: 0x1302310 VA: 0x181303D10
+	|-RVA: 0x1303C10 Offset: 0x1302210 VA: 0x181303C10
 	|-Array.Resize<TMP_MeshInfo>
 	|
-	|-RVA: 0x1303E30 Offset: 0x1302430 VA: 0x181303E30
+	|-RVA: 0x1303D30 Offset: 0x1302330 VA: 0x181303D30
 	|-Array.Resize<TMP_PageInfo>
 	|
-	|-RVA: 0x13042B0 Offset: 0x13028B0 VA: 0x1813042B0
+	|-RVA: 0x13041B0 Offset: 0x13027B0 VA: 0x1813041B0
 	|-Array.Resize<TMP_Text.UnicodeChar>
 	|
-	|-RVA: 0x1303F50 Offset: 0x1302550 VA: 0x181303F50
+	|-RVA: 0x1303E50 Offset: 0x1302450 VA: 0x181303E50
 	|-Array.Resize<TMP_WordInfo>
 	|
-	|-RVA: 0x1301FD0 Offset: 0x13005D0 VA: 0x181301FD0
+	|-RVA: 0x1301ED0 Offset: 0x13004D0 VA: 0x181301ED0
 	|-Array.Resize<BoundingSphere>
 	|
-	|-RVA: 0x1302330 Offset: 0x1300930 VA: 0x181302330
+	|-RVA: 0x1302230 Offset: 0x1300830 VA: 0x181302230
 	|-Array.Resize<Color32>
 	|
-	|-RVA: 0x1302450 Offset: 0x1300A50 VA: 0x181302450
+	|-RVA: 0x1302350 Offset: 0x1300950 VA: 0x181302350
 	|-Array.Resize<Color>
 	|
-	|-RVA: 0x13031D0 Offset: 0x13017D0 VA: 0x1813031D0
+	|-RVA: 0x13030D0 Offset: 0x13016D0 VA: 0x1813030D0
 	|-Array.Resize<Matrix4x4>
 	|
-	|-RVA: 0x1303650 Offset: 0x1301C50 VA: 0x181303650
+	|-RVA: 0x1303550 Offset: 0x1301B50 VA: 0x181303550
 	|-Array.Resize<Resolution>
 	|
-	|-RVA: 0x13027B0 Offset: 0x1300DB0 VA: 0x1813027B0
+	|-RVA: 0x13026B0 Offset: 0x1300CB0 VA: 0x1813026B0
 	|-Array.Resize<GlyphPairAdjustmentRecord>
 	|
-	|-RVA: 0x1302570 Offset: 0x1300B70 VA: 0x181302570
+	|-RVA: 0x1302470 Offset: 0x1300A70 VA: 0x181302470
 	|-Array.Resize<EventDispatcher.DispatchContext>
 	|
-	|-RVA: 0x13043D0 Offset: 0x13029D0 VA: 0x1813043D0
+	|-RVA: 0x13042D0 Offset: 0x13028D0 VA: 0x1813042D0
 	|-Array.Resize<Vector2>
 	|
-	|-RVA: 0x13044F0 Offset: 0x1302AF0 VA: 0x1813044F0
+	|-RVA: 0x13043F0 Offset: 0x13029F0 VA: 0x1813043F0
 	|-Array.Resize<Vector3>
 	|
-	|-RVA: 0x1304610 Offset: 0x1302C10 VA: 0x181304610
+	|-RVA: 0x1304510 Offset: 0x1302B10 VA: 0x181304510
 	|-Array.Resize<Vector4>
 	|
-	|-RVA: 0x1304730 Offset: 0x1302D30 VA: 0x181304730
+	|-RVA: 0x1304630 Offset: 0x1302C30 VA: 0x181304630
 	|-Array.Resize<ViewModelDrawEvent>
 	*/
 
@@ -185,7 +185,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public static TOutput[] ConvertAll<TInput, TOutput>(TInput[] array, Converter<TInput, TOutput> converter) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159D730 Offset: 0x159BD30 VA: 0x18159D730
+	|-RVA: 0x159D630 Offset: 0x159BC30 VA: 0x18159D630
 	|-Array.ConvertAll<object, object>
 	*/
 
@@ -233,38 +233,38 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public static int BinarySearch<T>(T[] array, T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1174970 Offset: 0x1172F70 VA: 0x181174970
+	|-RVA: 0x1174870 Offset: 0x1172E70 VA: 0x181174870
 	|-Array.BinarySearch<object>
 	|-Array.BinarySearch<string>
 	|
-	|-RVA: 0x1174C00 Offset: 0x1173200 VA: 0x181174C00
+	|-RVA: 0x1174B00 Offset: 0x1173100 VA: 0x181174B00
 	|-Array.BinarySearch<ulong>
 	*/
 
 	public static int BinarySearch<T>(T[] array, T value, IComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1174A10 Offset: 0x1173010 VA: 0x181174A10
+	|-RVA: 0x1174910 Offset: 0x1172F10 VA: 0x181174910
 	|-Array.BinarySearch<object>
 	*/
 
 	public static int BinarySearch<T>(T[] array, int index, int length, T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDFBB80 Offset: 0xDFA180 VA: 0x180DFBB80
+	|-RVA: 0xDFBA80 Offset: 0xDFA080 VA: 0x180DFBA80
 	|-Array.BinarySearch<object>
 	*/
 
 	public static int BinarySearch<T>(T[] array, int index, int length, T value, IComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x11746F0 Offset: 0x1172CF0 VA: 0x1811746F0
+	|-RVA: 0x11745F0 Offset: 0x1172BF0 VA: 0x1811745F0
 	|-Array.BinarySearch<long>
 	|
-	|-RVA: 0x1174830 Offset: 0x1172E30 VA: 0x181174830
+	|-RVA: 0x1174730 Offset: 0x1172D30 VA: 0x181174730
 	|-Array.BinarySearch<object>
 	|
-	|-RVA: 0x1174AC0 Offset: 0x11730C0 VA: 0x181174AC0
+	|-RVA: 0x11749C0 Offset: 0x1172FC0 VA: 0x1811749C0
 	|-Array.BinarySearch<ulong>
 	*/
 
@@ -277,545 +277,545 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public static int IndexOf<T>(T[] array, T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1177050 Offset: 0x1175650 VA: 0x181177050
+	|-RVA: 0x1176F50 Offset: 0x1175550 VA: 0x181176F50
 	|-Array.IndexOf<FoliageKey>
 	|
-	|-RVA: 0x1177500 Offset: 0x1175B00 VA: 0x181177500
+	|-RVA: 0x1177400 Offset: 0x1175A00 VA: 0x181177400
 	|-Array.IndexOf<InstancingKey>
 	|
-	|-RVA: 0x11775B0 Offset: 0x1175BB0 VA: 0x1811775B0
+	|-RVA: 0x11774B0 Offset: 0x1175AB0 VA: 0x1811774B0
 	|-Array.IndexOf<InvokeAction>
 	|
-	|-RVA: 0x10EF090 Offset: 0x10ED690 VA: 0x1810EF090
+	|-RVA: 0x10EEF90 Offset: 0x10ED590 VA: 0x1810EEF90
 	|-Array.IndexOf<JTokenType>
 	|-Array.IndexOf<Int32Enum>
 	|
-	|-RVA: 0x10F2A70 Offset: 0x10F1070 VA: 0x1810F2A70
+	|-RVA: 0x10F2970 Offset: 0x10F0F70 VA: 0x1810F2970
 	|-Array.IndexOf<RendererKey>
 	|
-	|-RVA: 0x10F25D0 Offset: 0x10F0BD0 VA: 0x1810F25D0
+	|-RVA: 0x10F24D0 Offset: 0x10F0AD0 VA: 0x1810F24D0
 	|-Array.IndexOf<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0x10ED1D0 Offset: 0x10EB7D0 VA: 0x1810ED1D0
+	|-RVA: 0x10ED0D0 Offset: 0x10EB6D0 VA: 0x1810ED0D0
 	|-Array.IndexOf<byte>
 	|
-	|-RVA: 0x10F2D10 Offset: 0x10F1310 VA: 0x1810F2D10
+	|-RVA: 0x10F2C10 Offset: 0x10F1210 VA: 0x1810F2C10
 	|-Array.IndexOf<object>
 	|-Array.IndexOf<string>
 	|-Array.IndexOf<GameObject>
 	|
-	|-RVA: 0x10F3730 Offset: 0x10F1D30 VA: 0x1810F3730
+	|-RVA: 0x10F3630 Offset: 0x10F1C30 VA: 0x1810F3630
 	|-Array.IndexOf<float>
 	|
-	|-RVA: 0x10F5680 Offset: 0x10F3C80 VA: 0x1810F5680
+	|-RVA: 0x10F5580 Offset: 0x10F3B80 VA: 0x1810F5580
 	|-Array.IndexOf<uint>
 	|
-	|-RVA: 0x10F5860 Offset: 0x10F3E60 VA: 0x1810F5860
+	|-RVA: 0x10F5760 Offset: 0x10F3D60 VA: 0x1810F5760
 	|-Array.IndexOf<ulong>
 	|
-	|-RVA: 0x10F0B00 Offset: 0x10EF100 VA: 0x1810F0B00
+	|-RVA: 0x10F0A00 Offset: 0x10EF000 VA: 0x1810F0A00
 	|-Array.IndexOf<Matrix4x4>
 	|
-	|-RVA: 0x10F6200 Offset: 0x10F4800 VA: 0x1810F6200
+	|-RVA: 0x10F6100 Offset: 0x10F4700 VA: 0x1810F6100
 	|-Array.IndexOf<ViewModelDrawEvent>
 	*/
 
 	public static int IndexOf<T>(T[] array, T value, int startIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x10F2C60 Offset: 0x10F1260 VA: 0x1810F2C60
+	|-RVA: 0x10F2B60 Offset: 0x10F1160 VA: 0x1810F2B60
 	|-Array.IndexOf<object>
 	*/
 
 	public static int IndexOf<T>(T[] array, T value, int startIndex, int count) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x11797C0 Offset: 0x1177DC0 VA: 0x1811797C0
+	|-RVA: 0x11796C0 Offset: 0x1177CC0 VA: 0x1811796C0
 	|-Array.IndexOf<AdvancedChristmasLights.pointEntry>
 	|
-	|-RVA: 0x1177900 Offset: 0x1175F00 VA: 0x181177900
+	|-RVA: 0x1177800 Offset: 0x1175E00 VA: 0x181177800
 	|-Array.IndexOf<AlignedLineDrawer.LinePoint>
 	|
-	|-RVA: 0x1175D90 Offset: 0x1174390 VA: 0x181175D90
+	|-RVA: 0x1175C90 Offset: 0x1174290 VA: 0x181175C90
 	|-Array.IndexOf<AtmosphereVolumeRenderer.CurrentVolumeEntry>
 	|
-	|-RVA: 0x1178D50 Offset: 0x1177350 VA: 0x181178D50
+	|-RVA: 0x1178C50 Offset: 0x1177250 VA: 0x181178C50
 	|-Array.IndexOf<BaseEntity.ServerFileRequest>
 	|
-	|-RVA: 0x11777B0 Offset: 0x1175DB0 VA: 0x1811777B0
+	|-RVA: 0x11776B0 Offset: 0x1175CB0 VA: 0x1811776B0
 	|-Array.IndexOf<CardTableUI.KeycodeWithAction>
 	|
-	|-RVA: 0x1177A50 Offset: 0x1176050 VA: 0x181177A50
+	|-RVA: 0x1177950 Offset: 0x1175F50 VA: 0x181177950
 	|-Array.IndexOf<Cassette.LoadRequest>
 	|
-	|-RVA: 0x11787C0 Offset: 0x1176DC0 VA: 0x1811787C0
+	|-RVA: 0x11786C0 Offset: 0x1176CC0 VA: 0x1811786C0
 	|-Array.IndexOf<Admin.PlayerInfo>
 	|
-	|-RVA: 0x1178C00 Offset: 0x1177200 VA: 0x181178C00
+	|-RVA: 0x1178B00 Offset: 0x1177100 VA: 0x181178B00
 	|-Array.IndexOf<Admin.ServerConvarInfo>
 	|
-	|-RVA: 0x1178EA0 Offset: 0x11774A0 VA: 0x181178EA0
+	|-RVA: 0x1178DA0 Offset: 0x11773A0 VA: 0x181178DA0
 	|-Array.IndexOf<Admin.ServerUGCInfo>
 	|
-	|-RVA: 0x1178240 Offset: 0x1176840 VA: 0x181178240
+	|-RVA: 0x1178140 Offset: 0x1176740 VA: 0x181178140
 	|-Array.IndexOf<Chat.MuteEntry>
 	|
-	|-RVA: 0x1175ED0 Offset: 0x11744D0 VA: 0x181175ED0
+	|-RVA: 0x1175DD0 Offset: 0x11743D0 VA: 0x181175DD0
 	|-Array.IndexOf<DamageRenderer.DamageShowingRenderer>
 	|
-	|-RVA: 0x1177E30 Offset: 0x1176430 VA: 0x181177E30
+	|-RVA: 0x1177D30 Offset: 0x1176330 VA: 0x181177D30
 	|-Array.IndexOf<DeferredExtensionMesh.MaterialLink>
 	|
-	|-RVA: 0x1177F70 Offset: 0x1176570 VA: 0x181177F70
+	|-RVA: 0x1177E70 Offset: 0x1176470 VA: 0x181177E70
 	|-Array.IndexOf<DeferredMeshDecal.MaterialLink>
 	|
-	|-RVA: 0x1176010 Offset: 0x1174610 VA: 0x181176010
+	|-RVA: 0x1175F10 Offset: 0x1174510 VA: 0x181175F10
 	|-Array.IndexOf<Demos.DemoInfo>
 	|
-	|-RVA: 0x1175720 Offset: 0x1173D20 VA: 0x181175720
+	|-RVA: 0x1175620 Offset: 0x1173C20 VA: 0x181175620
 	|-Array.IndexOf<CRedge>
 	|
-	|-RVA: 0x1175B10 Offset: 0x1174110 VA: 0x181175B10
+	|-RVA: 0x1175A10 Offset: 0x1174010 VA: 0x181175A10
 	|-Array.IndexOf<CombineClass>
 	|
-	|-RVA: 0x1176160 Offset: 0x1174760 VA: 0x181176160
+	|-RVA: 0x1176060 Offset: 0x1174660 VA: 0x181176060
 	|-Array.IndexOf<ERCell>
 	|
-	|-RVA: 0x11762A0 Offset: 0x11748A0 VA: 0x1811762A0
+	|-RVA: 0x11761A0 Offset: 0x11747A0 VA: 0x1811761A0
 	|-Array.IndexOf<ERChildsSO>
 	|
-	|-RVA: 0x11763F0 Offset: 0x11749F0 VA: 0x1811763F0
+	|-RVA: 0x11762F0 Offset: 0x11748F0 VA: 0x1811762F0
 	|-Array.IndexOf<ERConnectionGUIStatus>
 	|
-	|-RVA: 0x1176530 Offset: 0x1174B30 VA: 0x181176530
+	|-RVA: 0x1176430 Offset: 0x1174A30 VA: 0x181176430
 	|-Array.IndexOf<ERLane>
 	|
-	|-RVA: 0x11780B0 Offset: 0x11766B0 VA: 0x1811780B0
+	|-RVA: 0x1177FB0 Offset: 0x11765B0 VA: 0x181177FB0
 	|-Array.IndexOf<ERMeshCombineUtility.MeshInstance>
 	|
-	|-RVA: 0x1176670 Offset: 0x1174C70 VA: 0x181176670
+	|-RVA: 0x1176570 Offset: 0x1174B70 VA: 0x181176570
 	|-Array.IndexOf<ERSOSection>
 	|
-	|-RVA: 0x1176830 Offset: 0x1174E30 VA: 0x181176830
+	|-RVA: 0x1176730 Offset: 0x1174D30 VA: 0x181176730
 	|-Array.IndexOf<ERSplatmap>
 	|
-	|-RVA: 0x11769B0 Offset: 0x1174FB0 VA: 0x1811769B0
+	|-RVA: 0x11768B0 Offset: 0x1174EB0 VA: 0x1811768B0
 	|-Array.IndexOf<ERTerrainChange>
 	|
-	|-RVA: 0x1176AF0 Offset: 0x11750F0 VA: 0x181176AF0
+	|-RVA: 0x11769F0 Offset: 0x1174FF0 VA: 0x1811769F0
 	|-Array.IndexOf<ERVSData>
 	|
-	|-RVA: 0x1178390 Offset: 0x1176990 VA: 0x181178390
+	|-RVA: 0x1178290 Offset: 0x1176890 VA: 0x181178290
 	|-Array.IndexOf<NormalPairs>
 	|
-	|-RVA: 0x1178930 Offset: 0x1176F30 VA: 0x181178930
+	|-RVA: 0x1178830 Offset: 0x1176E30 VA: 0x181178830
 	|-Array.IndexOf<EngineDamageOverTime.RecentDamage>
 	|
-	|-RVA: 0x1176C60 Offset: 0x1175260 VA: 0x181176C60
+	|-RVA: 0x1176B60 Offset: 0x1175160 VA: 0x181176B60
 	|-Array.IndexOf<EntityRef<object>>
 	|
-	|-RVA: 0x1177270 Offset: 0x1175870 VA: 0x181177270
+	|-RVA: 0x1177170 Offset: 0x1175770 VA: 0x181177170
 	|-Array.IndexOf<ExpandedLifeStats.GenericStatDisplay>
 	|
-	|-RVA: 0x11759D0 Offset: 0x1173FD0 VA: 0x1811759D0
+	|-RVA: 0x11758D0 Offset: 0x1173ED0 VA: 0x1811758D0
 	|-Array.IndexOf<BurstCloth.Chain>
 	|
-	|-RVA: 0x1175870 Offset: 0x1173E70 VA: 0x181175870
+	|-RVA: 0x1175770 Offset: 0x1173D70 VA: 0x181175770
 	|-Array.IndexOf<CapsuleParams>
 	|
-	|-RVA: 0x1175420 Offset: 0x1173A20 VA: 0x181175420
+	|-RVA: 0x1175320 Offset: 0x1173920 VA: 0x181175320
 	|-Array.IndexOf<BoneData>
 	|
-	|-RVA: 0x11793E0 Offset: 0x11779E0 VA: 0x1811793E0
+	|-RVA: 0x11792E0 Offset: 0x11778E0 VA: 0x1811792E0
 	|-Array.IndexOf<TabbedPanel.Tab>
 	|
-	|-RVA: 0x1176F00 Offset: 0x1175500 VA: 0x181176F00
+	|-RVA: 0x1176E00 Offset: 0x1175400 VA: 0x181176E00
 	|-Array.IndexOf<Output.Entry>
 	|
-	|-RVA: 0x11752E0 Offset: 0x11738E0 VA: 0x1811752E0
+	|-RVA: 0x11751E0 Offset: 0x11737E0 VA: 0x1811751E0
 	|-Array.IndexOf<RCon.BannedAddresses>
 	|
-	|-RVA: 0x11755C0 Offset: 0x1173BC0 VA: 0x1811755C0
+	|-RVA: 0x11754C0 Offset: 0x1173AC0 VA: 0x1811754C0
 	|-Array.IndexOf<SkeletonDefinition.Bone>
 	|
-	|-RVA: 0x1176DA0 Offset: 0x11753A0 VA: 0x181176DA0
+	|-RVA: 0x1176CA0 Offset: 0x11752A0 VA: 0x181176CA0
 	|-Array.IndexOf<Tick.Entry>
 	|
-	|-RVA: 0x1178A70 Offset: 0x1177070 VA: 0x181178A70
+	|-RVA: 0x1178970 Offset: 0x1176F70 VA: 0x181178970
 	|-Array.IndexOf<RenderInfo.RendererInstance>
 	|
-	|-RVA: 0x1175C50 Offset: 0x1174250 VA: 0x181175C50
+	|-RVA: 0x1175B50 Offset: 0x1174150 VA: 0x181175B50
 	|-Array.IndexOf<WeightedStringList.Container>
 	|
-	|-RVA: 0x11770F0 Offset: 0x11756F0 VA: 0x1811770F0
+	|-RVA: 0x1176FF0 Offset: 0x11755F0 VA: 0x181176FF0
 	|-Array.IndexOf<FoliageGridMeshData.FoliageVertex>
 	|
-	|-RVA: 0x11784D0 Offset: 0x1176AD0 VA: 0x1811784D0
+	|-RVA: 0x11783D0 Offset: 0x11769D0 VA: 0x1811783D0
 	|-Array.IndexOf<Option>
 	|
-	|-RVA: 0x11792A0 Offset: 0x11778A0 VA: 0x1811792A0
+	|-RVA: 0x11791A0 Offset: 0x11777A0 VA: 0x1811791A0
 	|-Array.IndexOf<GameStat.Stat>
 	|
-	|-RVA: 0x1178660 Offset: 0x1176C60 VA: 0x181178660
+	|-RVA: 0x1178560 Offset: 0x1176B60 VA: 0x181178560
 	|-Array.IndexOf<Gibbable.OverrideMesh>
 	|
-	|-RVA: 0x1179000 Offset: 0x1177600 VA: 0x181179000
+	|-RVA: 0x1178F00 Offset: 0x1177500 VA: 0x181178F00
 	|-Array.IndexOf<IconSkinPicker.SkinButtonSetup>
 	|
-	|-RVA: 0x11773C0 Offset: 0x11759C0 VA: 0x1811773C0
+	|-RVA: 0x11772C0 Offset: 0x11758C0 VA: 0x1811772C0
 	|-Array.IndexOf<ImageStorageEntity.ImageRequest>
 	|
-	|-RVA: 0x1177660 Offset: 0x1175C60 VA: 0x181177660
+	|-RVA: 0x1177560 Offset: 0x1175B60 VA: 0x181177560
 	|-Array.IndexOf<InvokeAction>
 	|
-	|-RVA: 0x1179150 Offset: 0x1177750 VA: 0x181179150
+	|-RVA: 0x1179050 Offset: 0x1177650 VA: 0x181179050
 	|-Array.IndexOf<ItemSkinDirectory.Skin>
 	|
-	|-RVA: 0x1179670 Offset: 0x1177C70 VA: 0x181179670
+	|-RVA: 0x1179570 Offset: 0x1177B70 VA: 0x181179570
 	|-Array.IndexOf<KeyframeView.UIKeyframeValue>
 	|
-	|-RVA: 0x1179520 Offset: 0x1177B20 VA: 0x181179520
+	|-RVA: 0x1179420 Offset: 0x1177A20 VA: 0x181179420
 	|-Array.IndexOf<LocalClock.TimedEvent>
 	|
-	|-RVA: 0x1177BA0 Offset: 0x11761A0 VA: 0x181177BA0
+	|-RVA: 0x1177AA0 Offset: 0x11760A0 VA: 0x181177AA0
 	|-Array.IndexOf<MagnetCrane.MagnetCraneSnapshot>
 	|
-	|-RVA: 0x1177CE0 Offset: 0x11762E0 VA: 0x181177CE0
+	|-RVA: 0x1177BE0 Offset: 0x11761E0 VA: 0x181177BE0
 	|-Array.IndexOf<MapView.MapMarkerCluster>
 	|
-	|-RVA: 0x10F3910 Offset: 0x10F1F10 VA: 0x1810F3910
+	|-RVA: 0x10F3810 Offset: 0x10F1E10 VA: 0x1810F3810
 	|-Array.IndexOf<MapView.SleepingBagCluster>
 	|
-	|-RVA: 0x10F35F0 Offset: 0x10F1BF0 VA: 0x1810F35F0
+	|-RVA: 0x10F34F0 Offset: 0x10F1AF0 VA: 0x1810F34F0
 	|-Array.IndexOf<SevenBitNumber>
 	|
-	|-RVA: 0x10F0BC0 Offset: 0x10EF1C0 VA: 0x1810F0BC0
+	|-RVA: 0x10F0AC0 Offset: 0x10EF0C0 VA: 0x1810F0AC0
 	|-Array.IndexOf<MeshColliderInstance>
 	|
-	|-RVA: 0x10F0820 Offset: 0x10EEE20 VA: 0x1810F0820
+	|-RVA: 0x10F0720 Offset: 0x10EED20 VA: 0x1810F0720
 	|-Array.IndexOf<MeshColliderLookup.LookupEntry>
 	|
-	|-RVA: 0x10F0D80 Offset: 0x10EF380 VA: 0x1810F0D80
+	|-RVA: 0x10F0C80 Offset: 0x10EF280 VA: 0x1810F0C80
 	|-Array.IndexOf<MeshInstance>
 	|
-	|-RVA: 0x10F0EE0 Offset: 0x10EF4E0 VA: 0x1810F0EE0
+	|-RVA: 0x10F0DE0 Offset: 0x10EF3E0 VA: 0x1810F0DE0
 	|-Array.IndexOf<MeshRendererInstance>
 	|
-	|-RVA: 0x10F06E0 Offset: 0x10EECE0 VA: 0x1810F06E0
+	|-RVA: 0x10F05E0 Offset: 0x10EEBE0 VA: 0x1810F05E0
 	|-Array.IndexOf<MeshRendererLookup.LookupEntry>
 	|
-	|-RVA: 0x10F0450 Offset: 0x10EEA50 VA: 0x1810F0450
+	|-RVA: 0x10F0350 Offset: 0x10EE950 VA: 0x1810F0350
 	|-Array.IndexOf<MidiConvar.KnobBinding>
 	|
-	|-RVA: 0x10F14B0 Offset: 0x10EFAB0 VA: 0x1810F14B0
+	|-RVA: 0x10F13B0 Offset: 0x10EF9B0 VA: 0x1810F13B0
 	|-Array.IndexOf<MidiConvar.NoteBinding>
 	|
-	|-RVA: 0x10EF8C0 Offset: 0x10EDEC0 VA: 0x1810EF8C0
+	|-RVA: 0x10EF7C0 Offset: 0x10EDDC0 VA: 0x1810EF7C0
 	|-Array.IndexOf<SqliteKeyReader.KeyInfo>
 	|
-	|-RVA: 0x10EF770 Offset: 0x10EDD70 VA: 0x1810EF770
+	|-RVA: 0x10EF670 Offset: 0x10EDC70 VA: 0x1810EF670
 	|-Array.IndexOf<JsonPosition>
 	|
-	|-RVA: 0x10F19E0 Offset: 0x10EFFE0 VA: 0x1810F19E0
+	|-RVA: 0x10F18E0 Offset: 0x10EFEE0 VA: 0x1810F18E0
 	|-Array.IndexOf<ParticleSystemContainer.ParticleSystemGroup>
 	|
-	|-RVA: 0x10F1DC0 Offset: 0x10F03C0 VA: 0x1810F1DC0
+	|-RVA: 0x10F1CC0 Offset: 0x10F02C0 VA: 0x1810F1CC0
 	|-Array.IndexOf<PathFinder.Point>
 	|
-	|-RVA: 0x10F1B20 Offset: 0x10F0120 VA: 0x1810F1B20
+	|-RVA: 0x10F1A20 Offset: 0x10F0020 VA: 0x1810F1A20
 	|-Array.IndexOf<PetCommandList.PetCommandDesc>
 	|
-	|-RVA: 0x10F3D00 Offset: 0x10F2300 VA: 0x1810F3D00
+	|-RVA: 0x10F3C00 Offset: 0x10F2200 VA: 0x1810F3C00
 	|-Array.IndexOf<PlaceMonuments.SpawnInfo>
 	|
-	|-RVA: 0x10F3FD0 Offset: 0x10F25D0 VA: 0x1810F3FD0
+	|-RVA: 0x10F3ED0 Offset: 0x10F24D0 VA: 0x1810F3ED0
 	|-Array.IndexOf<PlaceMonumentsOffshore.SpawnInfo>
 	|
-	|-RVA: 0x10F3E70 Offset: 0x10F2470 VA: 0x1810F3E70
+	|-RVA: 0x10F3D70 Offset: 0x10F2370 VA: 0x1810F3D70
 	|-Array.IndexOf<PlaceMonumentsRailside.SpawnInfo>
 	|
-	|-RVA: 0x10F4130 Offset: 0x10F2730 VA: 0x1810F4130
+	|-RVA: 0x10F4030 Offset: 0x10F2630 VA: 0x1810F4030
 	|-Array.IndexOf<PlaceMonumentsRoadside.SpawnInfo>
 	|
-	|-RVA: 0x10EEB90 Offset: 0x10ED190 VA: 0x1810EEB90
+	|-RVA: 0x10EEA90 Offset: 0x10ED090 VA: 0x1810EEA90
 	|-Array.IndexOf<PlayerItemRecipe.Ingredient>
 	|
-	|-RVA: 0x10F1C80 Offset: 0x10F0280 VA: 0x1810F1C80
+	|-RVA: 0x10F1B80 Offset: 0x10F0180 VA: 0x1810F1B80
 	|-Array.IndexOf<PlayerItemRecipe>
 	|
-	|-RVA: 0x10F1090 Offset: 0x10EF690 VA: 0x1810F1090
+	|-RVA: 0x10F0F90 Offset: 0x10EF590 VA: 0x1810F0F90
 	|-Array.IndexOf<ProjectileWeaponMod.Modifier>
 	|
-	|-RVA: 0x10EDF00 Offset: 0x10EC500 VA: 0x1810EDF00
+	|-RVA: 0x10EDE00 Offset: 0x10EC400 VA: 0x1810EDE00
 	|-Array.IndexOf<DemoShotFloatKeyframe>
 	|
-	|-RVA: 0x10EE040 Offset: 0x10EC640 VA: 0x1810EE040
+	|-RVA: 0x10EDF40 Offset: 0x10EC540 VA: 0x1810EDF40
 	|-Array.IndexOf<DemoShotParentKeyframe>
 	|
-	|-RVA: 0x10EE180 Offset: 0x10EC780 VA: 0x1810EE180
+	|-RVA: 0x10EE080 Offset: 0x10EC680 VA: 0x1810EE080
 	|-Array.IndexOf<DemoShotQuaternionKeyframe>
 	|
-	|-RVA: 0x10EE2D0 Offset: 0x10EC8D0 VA: 0x1810EE2D0
+	|-RVA: 0x10EE1D0 Offset: 0x10EC7D0 VA: 0x1810EE1D0
 	|-Array.IndexOf<DemoShotVectorKeyframe>
 	|
-	|-RVA: 0x10F5F50 Offset: 0x10F4550 VA: 0x1810F5F50
+	|-RVA: 0x10F5E50 Offset: 0x10F4450 VA: 0x1810F5E50
 	|-Array.IndexOf<VectorData>
 	|
-	|-RVA: 0x10ED8A0 Offset: 0x10EBEA0 VA: 0x1810ED8A0
+	|-RVA: 0x10ED7A0 Offset: 0x10EBDA0 VA: 0x1810ED7A0
 	|-Array.IndexOf<ReflectionProbeEx.CubemapSkyboxVertex>
 	|
-	|-RVA: 0x10F27D0 Offset: 0x10F0DD0 VA: 0x1810F27D0
+	|-RVA: 0x10F26D0 Offset: 0x10F0CD0 VA: 0x1810F26D0
 	|-Array.IndexOf<ReflectionProbeEx.RenderListEntry>
 	|
-	|-RVA: 0x10F62C0 Offset: 0x10F48C0 VA: 0x1810F62C0
+	|-RVA: 0x10F61C0 Offset: 0x10F47C0 VA: 0x1810F61C0
 	|-Array.IndexOf<WaypointSet.Waypoint>
 	|
-	|-RVA: 0x10F4D50 Offset: 0x10F3350 VA: 0x1810F4D50
+	|-RVA: 0x10F4C50 Offset: 0x10F3250 VA: 0x1810F4C50
 	|-Array.IndexOf<TransformSnapshot>
 	|
-	|-RVA: 0x10F4930 Offset: 0x10F2F30 VA: 0x1810F4930
+	|-RVA: 0x10F4830 Offset: 0x10F2E30 VA: 0x1810F4830
 	|-Array.IndexOf<TimelineEvent>
 	|
-	|-RVA: 0x10F1600 Offset: 0x10EFC00 VA: 0x1810F1600
+	|-RVA: 0x10F1500 Offset: 0x10EFB00 VA: 0x1810F1500
 	|-Array.IndexOf<Option>
 	|
-	|-RVA: 0x10F4550 Offset: 0x10F2B50 VA: 0x1810F4550
+	|-RVA: 0x10F4450 Offset: 0x10F2A50 VA: 0x1810F4450
 	|-Array.IndexOf<TickRenderer.Tick>
 	|
-	|-RVA: 0x10F3170 Offset: 0x10F1770 VA: 0x1810F3170
+	|-RVA: 0x10F3070 Offset: 0x10F1670 VA: 0x1810F3070
 	|-Array.IndexOf<ServerInfo>
 	|
-	|-RVA: 0x10F1890 Offset: 0x10EFE90 VA: 0x1810F1890
+	|-RVA: 0x10F1790 Offset: 0x10EFD90 VA: 0x1810F1790
 	|-Array.IndexOf<SkinnedMultiMesh.Part>
 	|
-	|-RVA: 0x10F3A60 Offset: 0x10F2060 VA: 0x1810F3A60
+	|-RVA: 0x10F3960 Offset: 0x10F1F60 VA: 0x1810F3960
 	|-Array.IndexOf<SubmarineSonar.SonarBlip>
 	|
-	|-RVA: 0x10F3BB0 Offset: 0x10F21B0 VA: 0x1810F3BB0
+	|-RVA: 0x10F3AB0 Offset: 0x10F20B0 VA: 0x1810F3AB0
 	|-Array.IndexOf<SpawnIndividual>
 	|
-	|-RVA: 0x10F2680 Offset: 0x10F0C80 VA: 0x1810F2680
+	|-RVA: 0x10F2580 Offset: 0x10F0B80 VA: 0x1810F2580
 	|-Array.IndexOf<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0x10F4290 Offset: 0x10F2890 VA: 0x1810F4290
+	|-RVA: 0x10F4190 Offset: 0x10F2790 VA: 0x1810F4190
 	|-Array.IndexOf<SteamNewsSource.Story>
 	|
-	|-RVA: 0x10ECDF0 Offset: 0x10EB3F0 VA: 0x1810ECDF0
+	|-RVA: 0x10ECCF0 Offset: 0x10EB2F0 VA: 0x1810ECCF0
 	|-Array.IndexOf<Achievement>
 	|
-	|-RVA: 0x10EF3A0 Offset: 0x10ED9A0 VA: 0x1810EF3A0
+	|-RVA: 0x10EF2A0 Offset: 0x10ED8A0 VA: 0x1810EF2A0
 	|-Array.IndexOf<InventoryDefId>
 	|
-	|-RVA: 0x10F09C0 Offset: 0x10EEFC0 VA: 0x1810F09C0
+	|-RVA: 0x10F08C0 Offset: 0x10EEEC0 VA: 0x1810F08C0
 	|-Array.IndexOf<MatchMakingKeyValuePair>
 	|
-	|-RVA: 0x10F3310 Offset: 0x10F1910 VA: 0x1810F3310
+	|-RVA: 0x10F3210 Offset: 0x10F1810 VA: 0x1810F3210
 	|-Array.IndexOf<ServerInfo>
 	|
-	|-RVA: 0x10ED3B0 Offset: 0x10EB9B0 VA: 0x1810ED3B0
+	|-RVA: 0x10ED2B0 Offset: 0x10EB8B0 VA: 0x1810ED2B0
 	|-Array.IndexOf<Dispatch.Callback>
 	|
-	|-RVA: 0x10EE7D0 Offset: 0x10ECDD0 VA: 0x1810EE7D0
+	|-RVA: 0x10EE6D0 Offset: 0x10ECCD0 VA: 0x1810EE6D0
 	|-Array.IndexOf<Friend>
 	|
-	|-RVA: 0x10ECF30 Offset: 0x10EB530 VA: 0x1810ECF30
+	|-RVA: 0x10ECE30 Offset: 0x10EB430 VA: 0x1810ECE30
 	|-Array.IndexOf<InventoryItem.Amount>
 	|
-	|-RVA: 0x10EF4D0 Offset: 0x10EDAD0 VA: 0x1810EF4D0
+	|-RVA: 0x10EF3D0 Offset: 0x10ED9D0 VA: 0x1810EF3D0
 	|-Array.IndexOf<InventoryItem>
 	|
-	|-RVA: 0x10EECD0 Offset: 0x10ED2D0 VA: 0x1810EECD0
+	|-RVA: 0x10EEBD0 Offset: 0x10ED1D0 VA: 0x1810EEBD0
 	|-Array.IndexOf<InventoryRecipe.Ingredient>
 	|
-	|-RVA: 0x10EF620 Offset: 0x10EDC20 VA: 0x1810EF620
+	|-RVA: 0x10EF520 Offset: 0x10EDB20 VA: 0x1810EF520
 	|-Array.IndexOf<InventoryRecipe>
 	|
-	|-RVA: 0x10F43F0 Offset: 0x10F29F0 VA: 0x1810F43F0
+	|-RVA: 0x10F42F0 Offset: 0x10F28F0 VA: 0x1810F42F0
 	|-Array.IndexOf<SubsurfaceProfileTexture.SubsurfaceProfileEntry>
 	|
-	|-RVA: 0x10F47E0 Offset: 0x10F2DE0 VA: 0x1810F47E0
+	|-RVA: 0x10F46E0 Offset: 0x10F2CE0 VA: 0x1810F46E0
 	|-Array.IndexOf<SynchronizedClock.TimedEvent>
 	|
-	|-RVA: 0x10ED090 Offset: 0x10EB690 VA: 0x1810ED090
+	|-RVA: 0x10ECF90 Offset: 0x10EB590 VA: 0x1810ECF90
 	|-Array.IndexOf<bool>
 	|
-	|-RVA: 0x10ED270 Offset: 0x10EB870 VA: 0x1810ED270
+	|-RVA: 0x10ED170 Offset: 0x10EB770 VA: 0x1810ED170
 	|-Array.IndexOf<byte>
 	|
-	|-RVA: 0x10ED4F0 Offset: 0x10EBAF0 VA: 0x1810ED4F0
+	|-RVA: 0x10ED3F0 Offset: 0x10EB9F0 VA: 0x1810ED3F0
 	|-Array.IndexOf<char>
 	|
-	|-RVA: 0x10EE410 Offset: 0x10ECA10 VA: 0x1810EE410
+	|-RVA: 0x10EE310 Offset: 0x10EC910 VA: 0x1810EE310
 	|-Array.IndexOf<DictionaryEntry>
 	|
-	|-RVA: 0x10EFCB0 Offset: 0x10EE2B0 VA: 0x1810EFCB0
+	|-RVA: 0x10EFBB0 Offset: 0x10EE1B0 VA: 0x1810EFBB0
 	|-Array.IndexOf<KeyValuePair<DateTime, object>>
 	|
-	|-RVA: 0x10F01C0 Offset: 0x10EE7C0 VA: 0x1810F01C0
+	|-RVA: 0x10F00C0 Offset: 0x10EE6C0 VA: 0x1810F00C0
 	|-Array.IndexOf<KeyValuePair<int, object>>
 	|
-	|-RVA: 0x10EFDF0 Offset: 0x10EE3F0 VA: 0x1810EFDF0
+	|-RVA: 0x10EFCF0 Offset: 0x10EE2F0 VA: 0x1810EFCF0
 	|-Array.IndexOf<KeyValuePair<Int32Enum, object>>
 	|
-	|-RVA: 0x10EFA30 Offset: 0x10EE030 VA: 0x1810EFA30
+	|-RVA: 0x10EF930 Offset: 0x10EDF30 VA: 0x1810EF930
 	|-Array.IndexOf<KeyValuePair<object, object>>
 	|
-	|-RVA: 0x10EFF30 Offset: 0x10EE530 VA: 0x1810EFF30
+	|-RVA: 0x10EFE30 Offset: 0x10EE430 VA: 0x1810EFE30
 	|-Array.IndexOf<KeyValuePair<object, float>>
 	|
-	|-RVA: 0x10F0070 Offset: 0x10EE670 VA: 0x1810F0070
+	|-RVA: 0x10EFF70 Offset: 0x10EE570 VA: 0x1810EFF70
 	|-Array.IndexOf<KeyValuePair<object, Color>>
 	|
-	|-RVA: 0x10EFB70 Offset: 0x10EE170 VA: 0x1810EFB70
+	|-RVA: 0x10EFA70 Offset: 0x10EE070 VA: 0x1810EFA70
 	|-Array.IndexOf<KeyValuePair<uint, object>>
 	|
-	|-RVA: 0x10F0300 Offset: 0x10EE900 VA: 0x1810F0300
+	|-RVA: 0x10F0200 Offset: 0x10EE800 VA: 0x1810F0200
 	|-Array.IndexOf<KeyValuePair<ulong, Dispatch.ResultCallback>>
 	|
-	|-RVA: 0x10F2DB0 Offset: 0x10F13B0 VA: 0x1810F2DB0
+	|-RVA: 0x10F2CB0 Offset: 0x10F12B0 VA: 0x1810F2CB0
 	|-Array.IndexOf<EventDescriptor>
 	|-Array.IndexOf<PropertyDescriptor>
 	|-Array.IndexOf<object>
 	|
-	|-RVA: 0x10EDC80 Offset: 0x10EC280 VA: 0x1810EDC80
+	|-RVA: 0x10EDB80 Offset: 0x10EC180 VA: 0x1810EDB80
 	|-Array.IndexOf<DateTime>
 	|
-	|-RVA: 0x10EDB40 Offset: 0x10EC140 VA: 0x1810EDB40
+	|-RVA: 0x10EDA40 Offset: 0x10EC040 VA: 0x1810EDA40
 	|-Array.IndexOf<DateTimeOffset>
 	|
-	|-RVA: 0x10EDDC0 Offset: 0x10EC3C0 VA: 0x1810EDDC0
+	|-RVA: 0x10EDCC0 Offset: 0x10EC2C0 VA: 0x1810EDCC0
 	|-Array.IndexOf<Decimal>
 	|
-	|-RVA: 0x10F34B0 Offset: 0x10F1AB0 VA: 0x1810F34B0
+	|-RVA: 0x10F33B0 Offset: 0x10F19B0 VA: 0x1810F33B0
 	|-Array.IndexOf<EventProvider.SessionInfo>
 	|
-	|-RVA: 0x10EE550 Offset: 0x10ECB50 VA: 0x1810EE550
+	|-RVA: 0x10EE450 Offset: 0x10ECA50 VA: 0x1810EE450
 	|-Array.IndexOf<double>
 	|
-	|-RVA: 0x10EEA50 Offset: 0x10ED050 VA: 0x1810EEA50
+	|-RVA: 0x10EE950 Offset: 0x10ECF50 VA: 0x1810EE950
 	|-Array.IndexOf<Guid>
 	|
-	|-RVA: 0x10EEE20 Offset: 0x10ED420 VA: 0x1810EEE20
+	|-RVA: 0x10EED20 Offset: 0x10ED320 VA: 0x1810EED20
 	|-Array.IndexOf<short>
 	|
-	|-RVA: 0x10EF130 Offset: 0x10ED730 VA: 0x1810EF130
+	|-RVA: 0x10EF030 Offset: 0x10ED630 VA: 0x1810EF030
 	|-Array.IndexOf<int>
 	|
-	|-RVA: 0x10EEF60 Offset: 0x10ED560 VA: 0x1810EEF60
+	|-RVA: 0x10EEE60 Offset: 0x10ED460 VA: 0x1810EEE60
 	|-Array.IndexOf<Int32Enum>
 	|
-	|-RVA: 0x10EF260 Offset: 0x10ED860 VA: 0x1810EF260
+	|-RVA: 0x10EF160 Offset: 0x10ED760 VA: 0x1810EF160
 	|-Array.IndexOf<long>
 	|
-	|-RVA: 0x10F2EF0 Offset: 0x10F14F0 VA: 0x1810F2EF0
+	|-RVA: 0x10F2DF0 Offset: 0x10F13F0 VA: 0x1810F2DF0
 	|-Array.IndexOf<sbyte>
 	|
-	|-RVA: 0x10F37D0 Offset: 0x10F1DD0 VA: 0x1810F37D0
+	|-RVA: 0x10F36D0 Offset: 0x10F1CD0 VA: 0x1810F36D0
 	|-Array.IndexOf<float>
 	|
-	|-RVA: 0x10F46A0 Offset: 0x10F2CA0 VA: 0x1810F46A0
+	|-RVA: 0x10F45A0 Offset: 0x10F2BA0 VA: 0x1810F45A0
 	|-Array.IndexOf<TimeSpan>
 	|
-	|-RVA: 0x10F5410 Offset: 0x10F3A10 VA: 0x1810F5410
+	|-RVA: 0x10F5310 Offset: 0x10F3910 VA: 0x1810F5310
 	|-Array.IndexOf<ushort>
 	|
-	|-RVA: 0x10F5550 Offset: 0x10F3B50 VA: 0x1810F5550
+	|-RVA: 0x10F5450 Offset: 0x10F3A50 VA: 0x1810F5450
 	|-Array.IndexOf<uint>
 	|
-	|-RVA: 0x10F5720 Offset: 0x10F3D20 VA: 0x1810F5720
+	|-RVA: 0x10F5620 Offset: 0x10F3C20 VA: 0x1810F5620
 	|-Array.IndexOf<ulong>
 	|
-	|-RVA: 0x10F5900 Offset: 0x10F3F00 VA: 0x1810F5900
+	|-RVA: 0x10F5800 Offset: 0x10F3E00 VA: 0x1810F5800
 	|-Array.IndexOf<ValueTuple<object, object>>
 	|
-	|-RVA: 0x10F1F00 Offset: 0x10F0500 VA: 0x1810F1F00
+	|-RVA: 0x10F1E00 Offset: 0x10F0400 VA: 0x1810F1E00
 	|-Array.IndexOf<RangePositionInfo>
 	|
-	|-RVA: 0x10F6560 Offset: 0x10F4B60 VA: 0x1810F6560
+	|-RVA: 0x10F6460 Offset: 0x10F4A60 VA: 0x1810F6460
 	|-Array.IndexOf<XmlSchemaObjectTable.XmlSchemaObjectEntry>
 	|
-	|-RVA: 0x10F3030 Offset: 0x10F1630 VA: 0x1810F3030
+	|-RVA: 0x10F2F30 Offset: 0x10F1530 VA: 0x1810F2F30
 	|-Array.IndexOf<TickInterpolator.Segment>
 	|
-	|-RVA: 0x10F4A80 Offset: 0x10F3080 VA: 0x1810F4A80
+	|-RVA: 0x10F4980 Offset: 0x10F2F80 VA: 0x1810F4980
 	|-Array.IndexOf<TraceInfo>
 	|
-	|-RVA: 0x10F4C00 Offset: 0x10F3200 VA: 0x1810F4C00
+	|-RVA: 0x10F4B00 Offset: 0x10F3100 VA: 0x1810F4B00
 	|-Array.IndexOf<TrainCar.TrainCarSnapshot>
 	|
-	|-RVA: 0x10F11E0 Offset: 0x10EF7E0 VA: 0x1810F11E0
+	|-RVA: 0x10F10E0 Offset: 0x10EF6E0 VA: 0x1810F10E0
 	|-Array.IndexOf<NavMeshBuildMarkup>
 	|
-	|-RVA: 0x10F1320 Offset: 0x10EF920 VA: 0x1810F1320
+	|-RVA: 0x10F1220 Offset: 0x10EF820 VA: 0x1810F1220
 	|-Array.IndexOf<NavMeshBuildSource>
 	|
-	|-RVA: 0x10F1750 Offset: 0x10EFD50 VA: 0x1810F1750
+	|-RVA: 0x10F1650 Offset: 0x10EFC50 VA: 0x1810F1650
 	|-Array.IndexOf<BeforeRenderHelper.OrderBlock>
 	|
-	|-RVA: 0x10ED630 Offset: 0x10EBC30 VA: 0x1810ED630
+	|-RVA: 0x10ED530 Offset: 0x10EBB30 VA: 0x1810ED530
 	|-Array.IndexOf<Color32>
 	|
-	|-RVA: 0x10ED760 Offset: 0x10EBD60 VA: 0x1810ED760
+	|-RVA: 0x10ED660 Offset: 0x10EBC60 VA: 0x1810ED660
 	|-Array.IndexOf<Color>
 	|
-	|-RVA: 0x10F2310 Offset: 0x10F0910 VA: 0x1810F2310
+	|-RVA: 0x10F2210 Offset: 0x10F0810 VA: 0x1810F2210
 	|-Array.IndexOf<RaycastResult>
 	|
-	|-RVA: 0x10F2040 Offset: 0x10F0640 VA: 0x1810F2040
+	|-RVA: 0x10F1F40 Offset: 0x10F0540 VA: 0x1810F1F40
 	|-Array.IndexOf<RaycastHit2D>
 	|
-	|-RVA: 0x10F21A0 Offset: 0x10F07A0 VA: 0x1810F21A0
+	|-RVA: 0x10F20A0 Offset: 0x10F06A0 VA: 0x1810F20A0
 	|-Array.IndexOf<RaycastHit>
 	|
-	|-RVA: 0x10F2490 Offset: 0x10F0A90 VA: 0x1810F2490
+	|-RVA: 0x10F2390 Offset: 0x10F0990 VA: 0x1810F2390
 	|-Array.IndexOf<Rect>
 	|
-	|-RVA: 0x10F2910 Offset: 0x10F0F10 VA: 0x1810F2910
+	|-RVA: 0x10F2810 Offset: 0x10F0E10 VA: 0x1810F2810
 	|-Array.IndexOf<RenderTargetIdentifier>
 	|
-	|-RVA: 0x10F2B10 Offset: 0x10F1110 VA: 0x1810F2B10
+	|-RVA: 0x10F2A10 Offset: 0x10F1010 VA: 0x1810F2A10
 	|-Array.IndexOf<Resolution>
 	|
-	|-RVA: 0x10EE910 Offset: 0x10ECF10 VA: 0x1810EE910
+	|-RVA: 0x10EE810 Offset: 0x10ECE10 VA: 0x1810EE810
 	|-Array.IndexOf<GlyphRect>
 	|
-	|-RVA: 0x10F4EA0 Offset: 0x10F34A0 VA: 0x1810F4EA0
+	|-RVA: 0x10F4DA0 Offset: 0x10F33A0 VA: 0x1810F4DA0
 	|-Array.IndexOf<TreeInstance>
 	|
-	|-RVA: 0x10F5000 Offset: 0x10F3600 VA: 0x1810F5000
+	|-RVA: 0x10F4F00 Offset: 0x10F3500 VA: 0x1810F4F00
 	|-Array.IndexOf<UICharInfo>
 	|
-	|-RVA: 0x10EE690 Offset: 0x10ECC90 VA: 0x1810EE690
+	|-RVA: 0x10EE590 Offset: 0x10ECB90 VA: 0x1810EE590
 	|-Array.IndexOf<FocusController.FocusedElement>
 	|
-	|-RVA: 0x10F5150 Offset: 0x10F3750 VA: 0x1810F5150
+	|-RVA: 0x10F5050 Offset: 0x10F3650 VA: 0x1810F5050
 	|-Array.IndexOf<UILineInfo>
 	|
-	|-RVA: 0x10F5290 Offset: 0x10F3890 VA: 0x1810F5290
+	|-RVA: 0x10F5190 Offset: 0x10F3790 VA: 0x1810F5190
 	|-Array.IndexOf<UIVertex>
 	|
-	|-RVA: 0x10F6410 Offset: 0x10F4A10 VA: 0x1810F6410
+	|-RVA: 0x10F6310 Offset: 0x10F4910 VA: 0x1810F6310
 	|-Array.IndexOf<UnitySynchronizationContext.WorkRequest>
 	|
-	|-RVA: 0x10F5A40 Offset: 0x10F4040 VA: 0x1810F5A40
+	|-RVA: 0x10F5940 Offset: 0x10F3F40 VA: 0x1810F5940
 	|-Array.IndexOf<Vector2>
 	|
-	|-RVA: 0x10F5CC0 Offset: 0x10F42C0 VA: 0x1810F5CC0
+	|-RVA: 0x10F5BC0 Offset: 0x10F41C0 VA: 0x1810F5BC0
 	|-Array.IndexOf<Vector3>
 	|
-	|-RVA: 0x10F5E10 Offset: 0x10F4410 VA: 0x1810F5E10
+	|-RVA: 0x10F5D10 Offset: 0x10F4310 VA: 0x1810F5D10
 	|-Array.IndexOf<Vector4>
 	|
-	|-RVA: 0x10F5B80 Offset: 0x10F4180 VA: 0x1810F5B80
+	|-RVA: 0x10F5A80 Offset: 0x10F4080 VA: 0x1810F5A80
 	|-Array.IndexOf<Vector2i>
 	|
-	|-RVA: 0x10F60A0 Offset: 0x10F46A0 VA: 0x1810F60A0
+	|-RVA: 0x10F5FA0 Offset: 0x10F45A0 VA: 0x1810F5FA0
 	|-Array.IndexOf<ViewModelDrawEvent>
 	|
-	|-RVA: 0x10EDA00 Offset: 0x10EC000 VA: 0x1810EDA00
+	|-RVA: 0x10ED900 Offset: 0x10EBF00 VA: 0x1810ED900
 	|-Array.IndexOf<WindZoneExManager.CurrentZoneEntry>
 	|
-	|-RVA: 0x10F05A0 Offset: 0x10EEBA0 VA: 0x1810F05A0
+	|-RVA: 0x10F04A0 Offset: 0x10EEAA0 VA: 0x1810F04A0
 	|-Array.IndexOf<WorldSplineData.LUTEntry.LUTPoint>
 	*/
 
@@ -828,82 +828,82 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public static int LastIndexOf<T>(T[] array, T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED00C0 Offset: 0xECE6C0 VA: 0x180ED00C0
+	|-RVA: 0xECFFC0 Offset: 0xECE5C0 VA: 0x180ECFFC0
 	|-Array.LastIndexOf<FoliageKey>
 	|
-	|-RVA: 0xED0330 Offset: 0xECE930 VA: 0x180ED0330
+	|-RVA: 0xED0230 Offset: 0xECE830 VA: 0x180ED0230
 	|-Array.LastIndexOf<InstancingKey>
 	|
-	|-RVA: 0xED05D0 Offset: 0xECEBD0 VA: 0x180ED05D0
+	|-RVA: 0xED04D0 Offset: 0xECEAD0 VA: 0x180ED04D0
 	|-Array.LastIndexOf<InvokeAction>
 	|
-	|-RVA: 0xED0FB0 Offset: 0xECF5B0 VA: 0x180ED0FB0
+	|-RVA: 0xED0EB0 Offset: 0xECF4B0 VA: 0x180ED0EB0
 	|-Array.LastIndexOf<RendererKey>
 	|
-	|-RVA: 0xED0B30 Offset: 0xECF130 VA: 0x180ED0B30
+	|-RVA: 0xED0A30 Offset: 0xECF030 VA: 0x180ED0A30
 	|-Array.LastIndexOf<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0xED12D0 Offset: 0xECF8D0 VA: 0x180ED12D0
+	|-RVA: 0xED11D0 Offset: 0xECF7D0 VA: 0x180ED11D0
 	|-Array.LastIndexOf<Delegate>
 	|-Array.LastIndexOf<object>
 	|
-	|-RVA: 0xED1370 Offset: 0xECF970 VA: 0x180ED1370
+	|-RVA: 0xED1270 Offset: 0xECF870 VA: 0x180ED1270
 	|-Array.LastIndexOf<float>
 	|
-	|-RVA: 0xED17B0 Offset: 0xECFDB0 VA: 0x180ED17B0
+	|-RVA: 0xED16B0 Offset: 0xECFCB0 VA: 0x180ED16B0
 	|-Array.LastIndexOf<uint>
 	|
-	|-RVA: 0xED1850 Offset: 0xECFE50 VA: 0x180ED1850
+	|-RVA: 0xED1750 Offset: 0xECFD50 VA: 0x180ED1750
 	|-Array.LastIndexOf<ulong>
 	|
-	|-RVA: 0xED0870 Offset: 0xECEE70 VA: 0x180ED0870
+	|-RVA: 0xED0770 Offset: 0xECED70 VA: 0x180ED0770
 	|-Array.LastIndexOf<Matrix4x4>
 	|
-	|-RVA: 0xED1AC0 Offset: 0xED00C0 VA: 0x180ED1AC0
+	|-RVA: 0xED19C0 Offset: 0xECFFC0 VA: 0x180ED19C0
 	|-Array.LastIndexOf<ViewModelDrawEvent>
 	*/
 
 	public static int LastIndexOf<T>(T[] array, T value, int startIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED1050 Offset: 0xECF650 VA: 0x180ED1050
+	|-RVA: 0xED0F50 Offset: 0xECF550 VA: 0x180ED0F50
 	|-Array.LastIndexOf<object>
 	*/
 
 	public static int LastIndexOf<T>(T[] array, T value, int startIndex, int count) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED0160 Offset: 0xECE760 VA: 0x180ED0160
+	|-RVA: 0xED0060 Offset: 0xECE660 VA: 0x180ED0060
 	|-Array.LastIndexOf<FoliageKey>
 	|
-	|-RVA: 0xED03E0 Offset: 0xECE9E0 VA: 0x180ED03E0
+	|-RVA: 0xED02E0 Offset: 0xECE8E0 VA: 0x180ED02E0
 	|-Array.LastIndexOf<InstancingKey>
 	|
-	|-RVA: 0xED0680 Offset: 0xECEC80 VA: 0x180ED0680
+	|-RVA: 0xED0580 Offset: 0xECEB80 VA: 0x180ED0580
 	|-Array.LastIndexOf<InvokeAction>
 	|
-	|-RVA: 0xED0DD0 Offset: 0xECF3D0 VA: 0x180ED0DD0
+	|-RVA: 0xED0CD0 Offset: 0xECF2D0 VA: 0x180ED0CD0
 	|-Array.LastIndexOf<RendererKey>
 	|
-	|-RVA: 0xED0BE0 Offset: 0xECF1E0 VA: 0x180ED0BE0
+	|-RVA: 0xED0AE0 Offset: 0xECF0E0 VA: 0x180ED0AE0
 	|-Array.LastIndexOf<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0xED1100 Offset: 0xECF700 VA: 0x180ED1100
+	|-RVA: 0xED1000 Offset: 0xECF600 VA: 0x180ED1000
 	|-Array.LastIndexOf<object>
 	|
-	|-RVA: 0xED1410 Offset: 0xECFA10 VA: 0x180ED1410
+	|-RVA: 0xED1310 Offset: 0xECF910 VA: 0x180ED1310
 	|-Array.LastIndexOf<float>
 	|
-	|-RVA: 0xED15E0 Offset: 0xECFBE0 VA: 0x180ED15E0
+	|-RVA: 0xED14E0 Offset: 0xECFAE0 VA: 0x180ED14E0
 	|-Array.LastIndexOf<uint>
 	|
-	|-RVA: 0xED18F0 Offset: 0xECFEF0 VA: 0x180ED18F0
+	|-RVA: 0xED17F0 Offset: 0xECFDF0 VA: 0x180ED17F0
 	|-Array.LastIndexOf<ulong>
 	|
-	|-RVA: 0xED0930 Offset: 0xECEF30 VA: 0x180ED0930
+	|-RVA: 0xED0830 Offset: 0xECEE30 VA: 0x180ED0830
 	|-Array.LastIndexOf<Matrix4x4>
 	|
-	|-RVA: 0xED1B80 Offset: 0xED0180 VA: 0x180ED1B80
+	|-RVA: 0xED1A80 Offset: 0xED0080 VA: 0x180ED1A80
 	|-Array.LastIndexOf<ViewModelDrawEvent>
 	*/
 
@@ -914,500 +914,500 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public static void Reverse<T>(T[] array) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x13053D0 Offset: 0x13039D0 VA: 0x1813053D0
+	|-RVA: 0x13052D0 Offset: 0x13038D0 VA: 0x1813052D0
 	|-Array.Reverse<byte>
 	|
-	|-RVA: 0x1310FF0 Offset: 0x130F5F0 VA: 0x181310FF0
+	|-RVA: 0x1310EF0 Offset: 0x130F4F0 VA: 0x181310EF0
 	|-Array.Reverse<object>
 	*/
 
 	public static void Reverse<T>(T[] array, int index, int length) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1315DC0 Offset: 0x13143C0 VA: 0x181315DC0
+	|-RVA: 0x1315CC0 Offset: 0x13142C0 VA: 0x181315CC0
 	|-Array.Reverse<AdvancedChristmasLights.pointEntry>
 	|
-	|-RVA: 0x130C320 Offset: 0x130A920 VA: 0x18130C320
+	|-RVA: 0x130C220 Offset: 0x130A820 VA: 0x18130C220
 	|-Array.Reverse<AlignedLineDrawer.LinePoint>
 	|
-	|-RVA: 0x1306710 Offset: 0x1304D10 VA: 0x181306710
+	|-RVA: 0x1306610 Offset: 0x1304C10 VA: 0x181306610
 	|-Array.Reverse<AtmosphereVolumeRenderer.CurrentVolumeEntry>
 	|
-	|-RVA: 0x1311740 Offset: 0x130FD40 VA: 0x181311740
+	|-RVA: 0x1311640 Offset: 0x130FC40 VA: 0x181311640
 	|-Array.Reverse<BaseEntity.ServerFileRequest>
 	|
-	|-RVA: 0x130BF40 Offset: 0x130A540 VA: 0x18130BF40
+	|-RVA: 0x130BE40 Offset: 0x130A440 VA: 0x18130BE40
 	|-Array.Reverse<CardTableUI.KeycodeWithAction>
 	|
-	|-RVA: 0x130C4D0 Offset: 0x130AAD0 VA: 0x18130C4D0
+	|-RVA: 0x130C3D0 Offset: 0x130A9D0 VA: 0x18130C3D0
 	|-Array.Reverse<Cassette.LoadRequest>
 	|
-	|-RVA: 0x130F640 Offset: 0x130DC40 VA: 0x18130F640
+	|-RVA: 0x130F540 Offset: 0x130DB40 VA: 0x18130F540
 	|-Array.Reverse<Admin.PlayerInfo>
 	|
-	|-RVA: 0x1311550 Offset: 0x130FB50 VA: 0x181311550
+	|-RVA: 0x1311450 Offset: 0x130FA50 VA: 0x181311450
 	|-Array.Reverse<Admin.ServerConvarInfo>
 	|
-	|-RVA: 0x1311EB0 Offset: 0x13104B0 VA: 0x181311EB0
+	|-RVA: 0x1311DB0 Offset: 0x13103B0 VA: 0x181311DB0
 	|-Array.Reverse<Admin.ServerUGCInfo>
 	|
-	|-RVA: 0x130DFB0 Offset: 0x130C5B0 VA: 0x18130DFB0
+	|-RVA: 0x130DEB0 Offset: 0x130C4B0 VA: 0x18130DEB0
 	|-Array.Reverse<Chat.MuteEntry>
 	|
-	|-RVA: 0x13068D0 Offset: 0x1304ED0 VA: 0x1813068D0
+	|-RVA: 0x13067D0 Offset: 0x1304DD0 VA: 0x1813067D0
 	|-Array.Reverse<DamageRenderer.DamageShowingRenderer>
 	|
-	|-RVA: 0x130D040 Offset: 0x130B640 VA: 0x18130D040
+	|-RVA: 0x130CF40 Offset: 0x130B540 VA: 0x18130CF40
 	|-Array.Reverse<DeferredExtensionMesh.MaterialLink>
 	|
-	|-RVA: 0x130D200 Offset: 0x130B800 VA: 0x18130D200
+	|-RVA: 0x130D100 Offset: 0x130B700 VA: 0x18130D100
 	|-Array.Reverse<DeferredMeshDecal.MaterialLink>
 	|
-	|-RVA: 0x1306F30 Offset: 0x1305530 VA: 0x181306F30
+	|-RVA: 0x1306E30 Offset: 0x1305430 VA: 0x181306E30
 	|-Array.Reverse<Demos.DemoInfo>
 	|
-	|-RVA: 0x13055E0 Offset: 0x1303BE0 VA: 0x1813055E0
+	|-RVA: 0x13054E0 Offset: 0x1303AE0 VA: 0x1813054E0
 	|-Array.Reverse<CRedge>
 	|
-	|-RVA: 0x13061B0 Offset: 0x13047B0 VA: 0x1813061B0
+	|-RVA: 0x13060B0 Offset: 0x13046B0 VA: 0x1813060B0
 	|-Array.Reverse<CombineClass>
 	|
-	|-RVA: 0x1307B10 Offset: 0x1306110 VA: 0x181307B10
+	|-RVA: 0x1307A10 Offset: 0x1306010 VA: 0x181307A10
 	|-Array.Reverse<ERCell>
 	|
-	|-RVA: 0x1307C90 Offset: 0x1306290 VA: 0x181307C90
+	|-RVA: 0x1307B90 Offset: 0x1306190 VA: 0x181307B90
 	|-Array.Reverse<ERChildsSO>
 	|
-	|-RVA: 0x1307E40 Offset: 0x1306440 VA: 0x181307E40
+	|-RVA: 0x1307D40 Offset: 0x1306340 VA: 0x181307D40
 	|-Array.Reverse<ERConnectionGUIStatus>
 	|
-	|-RVA: 0x1307FC0 Offset: 0x13065C0 VA: 0x181307FC0
+	|-RVA: 0x1307EC0 Offset: 0x13064C0 VA: 0x181307EC0
 	|-Array.Reverse<ERLane>
 	|
-	|-RVA: 0x130D8C0 Offset: 0x130BEC0 VA: 0x18130D8C0
+	|-RVA: 0x130D7C0 Offset: 0x130BDC0 VA: 0x18130D7C0
 	|-Array.Reverse<ERMeshCombineUtility.MeshInstance>
 	|
-	|-RVA: 0x1308150 Offset: 0x1306750 VA: 0x181308150
+	|-RVA: 0x1308050 Offset: 0x1306650 VA: 0x181308050
 	|-Array.Reverse<ERSOSection>
 	|
-	|-RVA: 0x1308460 Offset: 0x1306A60 VA: 0x181308460
+	|-RVA: 0x1308360 Offset: 0x1306960 VA: 0x181308360
 	|-Array.Reverse<ERSplatmap>
 	|
-	|-RVA: 0x13086A0 Offset: 0x1306CA0 VA: 0x1813086A0
+	|-RVA: 0x13085A0 Offset: 0x1306BA0 VA: 0x1813085A0
 	|-Array.Reverse<ERTerrainChange>
 	|
-	|-RVA: 0x1308820 Offset: 0x1306E20 VA: 0x181308820
+	|-RVA: 0x1308720 Offset: 0x1306D20 VA: 0x181308720
 	|-Array.Reverse<ERVSData>
 	|
-	|-RVA: 0x130E540 Offset: 0x130CB40 VA: 0x18130E540
+	|-RVA: 0x130E440 Offset: 0x130CA40 VA: 0x18130E440
 	|-Array.Reverse<NormalPairs>
 	|
-	|-RVA: 0x1310340 Offset: 0x130E940 VA: 0x181310340
+	|-RVA: 0x1310240 Offset: 0x130E840 VA: 0x181310240
 	|-Array.Reverse<EngineDamageOverTime.RecentDamage>
 	|
-	|-RVA: 0x1308A00 Offset: 0x1307000 VA: 0x181308A00
+	|-RVA: 0x1308900 Offset: 0x1306F00 VA: 0x181308900
 	|-Array.Reverse<EntityRef<object>>
 	|
-	|-RVA: 0x13094D0 Offset: 0x1307AD0 VA: 0x1813094D0
+	|-RVA: 0x13093D0 Offset: 0x13079D0 VA: 0x1813093D0
 	|-Array.Reverse<ExpandedLifeStats.GenericStatDisplay>
 	|
-	|-RVA: 0x1305B60 Offset: 0x1304160 VA: 0x181305B60
+	|-RVA: 0x1305A60 Offset: 0x1304060 VA: 0x181305A60
 	|-Array.Reverse<BurstCloth.Chain>
 	|
-	|-RVA: 0x1305950 Offset: 0x1303F50 VA: 0x181305950
+	|-RVA: 0x1305850 Offset: 0x1303E50 VA: 0x181305850
 	|-Array.Reverse<CapsuleParams>
 	|
-	|-RVA: 0x1304DE0 Offset: 0x13033E0 VA: 0x181304DE0
+	|-RVA: 0x1304CE0 Offset: 0x13032E0 VA: 0x181304CE0
 	|-Array.Reverse<BoneData>
 	|
-	|-RVA: 0x1313C50 Offset: 0x1312250 VA: 0x181313C50
+	|-RVA: 0x1313B50 Offset: 0x1312150 VA: 0x181313B50
 	|-Array.Reverse<TabbedPanel.Tab>
 	|
-	|-RVA: 0x1308DC0 Offset: 0x13073C0 VA: 0x181308DC0
+	|-RVA: 0x1308CC0 Offset: 0x13072C0 VA: 0x181308CC0
 	|-Array.Reverse<Output.Entry>
 	|
-	|-RVA: 0x1304C20 Offset: 0x1303220 VA: 0x181304C20
+	|-RVA: 0x1304B20 Offset: 0x1303120 VA: 0x181304B20
 	|-Array.Reverse<RCon.BannedAddresses>
 	|
-	|-RVA: 0x1305040 Offset: 0x1303640 VA: 0x181305040
+	|-RVA: 0x1304F40 Offset: 0x1303540 VA: 0x181304F40
 	|-Array.Reverse<SkeletonDefinition.Bone>
 	|
-	|-RVA: 0x1308BC0 Offset: 0x13071C0 VA: 0x181308BC0
+	|-RVA: 0x1308AC0 Offset: 0x13070C0 VA: 0x181308AC0
 	|-Array.Reverse<Tick.Entry>
 	|
-	|-RVA: 0x1310BE0 Offset: 0x130F1E0 VA: 0x181310BE0
+	|-RVA: 0x1310AE0 Offset: 0x130F0E0 VA: 0x181310AE0
 	|-Array.Reverse<RenderInfo.RendererInstance>
 	|
-	|-RVA: 0x1306370 Offset: 0x1304970 VA: 0x181306370
+	|-RVA: 0x1306270 Offset: 0x1304870 VA: 0x181306270
 	|-Array.Reverse<WeightedStringList.Container>
 	|
-	|-RVA: 0x1309160 Offset: 0x1307760 VA: 0x181309160
+	|-RVA: 0x1309060 Offset: 0x1307660 VA: 0x181309060
 	|-Array.Reverse<FoliageGridMeshData.FoliageVertex>
 	|
-	|-RVA: 0x130E8B0 Offset: 0x130CEB0 VA: 0x18130E8B0
+	|-RVA: 0x130E7B0 Offset: 0x130CDB0 VA: 0x18130E7B0
 	|-Array.Reverse<Option>
 	|
-	|-RVA: 0x1313680 Offset: 0x1311C80 VA: 0x181313680
+	|-RVA: 0x1313580 Offset: 0x1311B80 VA: 0x181313580
 	|-Array.Reverse<GameStat.Stat>
 	|
-	|-RVA: 0x130EEE0 Offset: 0x130D4E0 VA: 0x18130EEE0
+	|-RVA: 0x130EDE0 Offset: 0x130D3E0 VA: 0x18130EDE0
 	|-Array.Reverse<Gibbable.OverrideMesh>
 	|
-	|-RVA: 0x1312540 Offset: 0x1310B40 VA: 0x181312540
+	|-RVA: 0x1312440 Offset: 0x1310A40 VA: 0x181312440
 	|-Array.Reverse<IconSkinPicker.SkinButtonSetup>
 	|
-	|-RVA: 0x13099E0 Offset: 0x1307FE0 VA: 0x1813099E0
+	|-RVA: 0x13098E0 Offset: 0x1307EE0 VA: 0x1813098E0
 	|-Array.Reverse<ImageStorageEntity.ImageRequest>
 	|
-	|-RVA: 0x130AA70 Offset: 0x1309070 VA: 0x18130AA70
+	|-RVA: 0x130A970 Offset: 0x1308F70 VA: 0x18130A970
 	|-Array.Reverse<InvokeAction>
 	|
-	|-RVA: 0x1312720 Offset: 0x1310D20 VA: 0x181312720
+	|-RVA: 0x1312620 Offset: 0x1310C20 VA: 0x181312620
 	|-Array.Reverse<ItemSkinDirectory.Skin>
 	|
-	|-RVA: 0x1315040 Offset: 0x1313640 VA: 0x181315040
+	|-RVA: 0x1314F40 Offset: 0x1313540 VA: 0x181314F40
 	|-Array.Reverse<KeyframeView.UIKeyframeValue>
 	|
-	|-RVA: 0x1314140 Offset: 0x1312740 VA: 0x181314140
+	|-RVA: 0x1314040 Offset: 0x1312640 VA: 0x181314040
 	|-Array.Reverse<LocalClock.TimedEvent>
 	|
-	|-RVA: 0x130CB00 Offset: 0x130B100 VA: 0x18130CB00
+	|-RVA: 0x130CA00 Offset: 0x130B000 VA: 0x18130CA00
 	|-Array.Reverse<MagnetCrane.MagnetCraneSnapshot>
 	|
-	|-RVA: 0x130CC90 Offset: 0x130B290 VA: 0x18130CC90
+	|-RVA: 0x130CB90 Offset: 0x130B190 VA: 0x18130CB90
 	|-Array.Reverse<MapView.MapMarkerCluster>
 	|
-	|-RVA: 0x1312910 Offset: 0x1310F10 VA: 0x181312910
+	|-RVA: 0x1312810 Offset: 0x1310E10 VA: 0x181312810
 	|-Array.Reverse<MapView.SleepingBagCluster>
 	|
-	|-RVA: 0x1312240 Offset: 0x1310840 VA: 0x181312240
+	|-RVA: 0x1312140 Offset: 0x1310740 VA: 0x181312140
 	|-Array.Reverse<SevenBitNumber>
 	|
-	|-RVA: 0x130D3C0 Offset: 0x130B9C0 VA: 0x18130D3C0
+	|-RVA: 0x130D2C0 Offset: 0x130B8C0 VA: 0x18130D2C0
 	|-Array.Reverse<MeshColliderInstance>
 	|
-	|-RVA: 0x130C880 Offset: 0x130AE80 VA: 0x18130C880
+	|-RVA: 0x130C780 Offset: 0x130AD80 VA: 0x18130C780
 	|-Array.Reverse<MeshColliderLookup.LookupEntry>
 	|
-	|-RVA: 0x130D6C0 Offset: 0x130BCC0 VA: 0x18130D6C0
+	|-RVA: 0x130D5C0 Offset: 0x130BBC0 VA: 0x18130D5C0
 	|-Array.Reverse<MeshInstance>
 	|
-	|-RVA: 0x130DB20 Offset: 0x130C120 VA: 0x18130DB20
+	|-RVA: 0x130DA20 Offset: 0x130C020 VA: 0x18130DA20
 	|-Array.Reverse<MeshRendererInstance>
 	|
-	|-RVA: 0x130C6C0 Offset: 0x130ACC0 VA: 0x18130C6C0
+	|-RVA: 0x130C5C0 Offset: 0x130ABC0 VA: 0x18130C5C0
 	|-Array.Reverse<MeshRendererLookup.LookupEntry>
 	|
-	|-RVA: 0x130C130 Offset: 0x130A730 VA: 0x18130C130
+	|-RVA: 0x130C030 Offset: 0x130A630 VA: 0x18130C030
 	|-Array.Reverse<MidiConvar.KnobBinding>
 	|
-	|-RVA: 0x130E6C0 Offset: 0x130CCC0 VA: 0x18130E6C0
+	|-RVA: 0x130E5C0 Offset: 0x130CBC0 VA: 0x18130E5C0
 	|-Array.Reverse<MidiConvar.NoteBinding>
 	|
-	|-RVA: 0x130AE40 Offset: 0x1309440 VA: 0x18130AE40
+	|-RVA: 0x130AD40 Offset: 0x1309340 VA: 0x18130AD40
 	|-Array.Reverse<SqliteKeyReader.KeyInfo>
 	|
-	|-RVA: 0x130AC50 Offset: 0x1309250 VA: 0x18130AC50
+	|-RVA: 0x130AB50 Offset: 0x1309150 VA: 0x18130AB50
 	|-Array.Reverse<JsonPosition>
 	|
-	|-RVA: 0x130F280 Offset: 0x130D880 VA: 0x18130F280
+	|-RVA: 0x130F180 Offset: 0x130D780 VA: 0x18130F180
 	|-Array.Reverse<ParticleSystemContainer.ParticleSystemGroup>
 	|
-	|-RVA: 0x130FA20 Offset: 0x130E020 VA: 0x18130FA20
+	|-RVA: 0x130F920 Offset: 0x130DF20 VA: 0x18130F920
 	|-Array.Reverse<PathFinder.Point>
 	|
-	|-RVA: 0x130F440 Offset: 0x130DA40 VA: 0x18130F440
+	|-RVA: 0x130F340 Offset: 0x130D940 VA: 0x18130F340
 	|-Array.Reverse<PetCommandList.PetCommandDesc>
 	|
-	|-RVA: 0x1312E60 Offset: 0x1311460 VA: 0x181312E60
+	|-RVA: 0x1312D60 Offset: 0x1311360 VA: 0x181312D60
 	|-Array.Reverse<PlaceMonuments.SpawnInfo>
 	|
-	|-RVA: 0x1313280 Offset: 0x1311880 VA: 0x181313280
+	|-RVA: 0x1313180 Offset: 0x1311780 VA: 0x181313180
 	|-Array.Reverse<PlaceMonumentsOffshore.SpawnInfo>
 	|
-	|-RVA: 0x1313080 Offset: 0x1311680 VA: 0x181313080
+	|-RVA: 0x1312F80 Offset: 0x1311580 VA: 0x181312F80
 	|-Array.Reverse<PlaceMonumentsRailside.SpawnInfo>
 	|
-	|-RVA: 0x1313480 Offset: 0x1311A80 VA: 0x181313480
+	|-RVA: 0x1313380 Offset: 0x1311980 VA: 0x181313380
 	|-Array.Reverse<PlaceMonumentsRoadside.SpawnInfo>
 	|
-	|-RVA: 0x1309BA0 Offset: 0x13081A0 VA: 0x181309BA0
+	|-RVA: 0x1309AA0 Offset: 0x13080A0 VA: 0x181309AA0
 	|-Array.Reverse<PlayerItemRecipe.Ingredient>
 	|
-	|-RVA: 0x130F860 Offset: 0x130DE60 VA: 0x18130F860
+	|-RVA: 0x130F760 Offset: 0x130DD60 VA: 0x18130F760
 	|-Array.Reverse<PlayerItemRecipe>
 	|
-	|-RVA: 0x130DE00 Offset: 0x130C400 VA: 0x18130DE00
+	|-RVA: 0x130DD00 Offset: 0x130C300 VA: 0x18130DD00
 	|-Array.Reverse<ProjectileWeaponMod.Modifier>
 	|
-	|-RVA: 0x1307110 Offset: 0x1305710 VA: 0x181307110
+	|-RVA: 0x1307010 Offset: 0x1305610 VA: 0x181307010
 	|-Array.Reverse<DemoShotFloatKeyframe>
 	|
-	|-RVA: 0x13072C0 Offset: 0x13058C0 VA: 0x1813072C0
+	|-RVA: 0x13071C0 Offset: 0x13057C0 VA: 0x1813071C0
 	|-Array.Reverse<DemoShotParentKeyframe>
 	|
-	|-RVA: 0x13074A0 Offset: 0x1305AA0 VA: 0x1813074A0
+	|-RVA: 0x13073A0 Offset: 0x13059A0 VA: 0x1813073A0
 	|-Array.Reverse<DemoShotQuaternionKeyframe>
 	|
-	|-RVA: 0x1307640 Offset: 0x1305C40 VA: 0x181307640
+	|-RVA: 0x1307540 Offset: 0x1305B40 VA: 0x181307540
 	|-Array.Reverse<DemoShotVectorKeyframe>
 	|
-	|-RVA: 0x1315870 Offset: 0x1313E70 VA: 0x181315870
+	|-RVA: 0x1315770 Offset: 0x1313D70 VA: 0x181315770
 	|-Array.Reverse<VectorData>
 	|
-	|-RVA: 0x1306550 Offset: 0x1304B50 VA: 0x181306550
+	|-RVA: 0x1306450 Offset: 0x1304A50 VA: 0x181306450
 	|-Array.Reverse<ReflectionProbeEx.CubemapSkyboxVertex>
 	|
-	|-RVA: 0x1310860 Offset: 0x130EE60 VA: 0x181310860
+	|-RVA: 0x1310760 Offset: 0x130ED60 VA: 0x181310760
 	|-Array.Reverse<ReflectionProbeEx.RenderListEntry>
 	|
-	|-RVA: 0x1315A20 Offset: 0x1314020 VA: 0x181315A20
+	|-RVA: 0x1315920 Offset: 0x1313F20 VA: 0x181315920
 	|-Array.Reverse<WaypointSet.Waypoint>
 	|
-	|-RVA: 0x1314B20 Offset: 0x1313120 VA: 0x181314B20
+	|-RVA: 0x1314A20 Offset: 0x1313020 VA: 0x181314A20
 	|-Array.Reverse<TransformSnapshot>
 	|
-	|-RVA: 0x1314540 Offset: 0x1312B40 VA: 0x181314540
+	|-RVA: 0x1314440 Offset: 0x1312A40 VA: 0x181314440
 	|-Array.Reverse<TimelineEvent>
 	|
-	|-RVA: 0x130EB10 Offset: 0x130D110 VA: 0x18130EB10
+	|-RVA: 0x130EA10 Offset: 0x130D010 VA: 0x18130EA10
 	|-Array.Reverse<Option>
 	|
-	|-RVA: 0x1313E10 Offset: 0x1312410 VA: 0x181313E10
+	|-RVA: 0x1313D10 Offset: 0x1312310 VA: 0x181313D10
 	|-Array.Reverse<TickRenderer.Tick>
 	|
-	|-RVA: 0x1311930 Offset: 0x130FF30 VA: 0x181311930
+	|-RVA: 0x1311830 Offset: 0x130FE30 VA: 0x181311830
 	|-Array.Reverse<ServerInfo>
 	|
-	|-RVA: 0x130F0A0 Offset: 0x130D6A0 VA: 0x18130F0A0
+	|-RVA: 0x130EFA0 Offset: 0x130D5A0 VA: 0x18130EFA0
 	|-Array.Reverse<SkinnedMultiMesh.Part>
 	|
-	|-RVA: 0x1312B00 Offset: 0x1311100 VA: 0x181312B00
+	|-RVA: 0x1312A00 Offset: 0x1311000 VA: 0x181312A00
 	|-Array.Reverse<SubmarineSonar.SonarBlip>
 	|
-	|-RVA: 0x1312CB0 Offset: 0x13112B0 VA: 0x181312CB0
+	|-RVA: 0x1312BB0 Offset: 0x13111B0 VA: 0x181312BB0
 	|-Array.Reverse<SpawnIndividual>
 	|
-	|-RVA: 0x1310680 Offset: 0x130EC80 VA: 0x181310680
+	|-RVA: 0x1310580 Offset: 0x130EB80 VA: 0x181310580
 	|-Array.Reverse<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0x1313840 Offset: 0x1311E40 VA: 0x181313840
+	|-RVA: 0x1313740 Offset: 0x1311D40 VA: 0x181313740
 	|-Array.Reverse<SteamNewsSource.Story>
 	|
-	|-RVA: 0x1304850 Offset: 0x1302E50 VA: 0x181304850
+	|-RVA: 0x1304750 Offset: 0x1302D50 VA: 0x181304750
 	|-Array.Reverse<Achievement>
 	|
-	|-RVA: 0x130A510 Offset: 0x1308B10 VA: 0x18130A510
+	|-RVA: 0x130A410 Offset: 0x1308A10 VA: 0x18130A410
 	|-Array.Reverse<InventoryDefId>
 	|
-	|-RVA: 0x130CE80 Offset: 0x130B480 VA: 0x18130CE80
+	|-RVA: 0x130CD80 Offset: 0x130B380 VA: 0x18130CD80
 	|-Array.Reverse<MatchMakingKeyValuePair>
 	|
-	|-RVA: 0x1311C00 Offset: 0x1310200 VA: 0x181311C00
+	|-RVA: 0x1311B00 Offset: 0x1310100 VA: 0x181311B00
 	|-Array.Reverse<ServerInfo>
 	|
-	|-RVA: 0x1305790 Offset: 0x1303D90 VA: 0x181305790
+	|-RVA: 0x1305690 Offset: 0x1303C90 VA: 0x181305690
 	|-Array.Reverse<Dispatch.Callback>
 	|
-	|-RVA: 0x1309350 Offset: 0x1307950 VA: 0x181309350
+	|-RVA: 0x1309250 Offset: 0x1307850 VA: 0x181309250
 	|-Array.Reverse<Friend>
 	|
-	|-RVA: 0x1304A10 Offset: 0x1303010 VA: 0x181304A10
+	|-RVA: 0x1304910 Offset: 0x1302F10 VA: 0x181304910
 	|-Array.Reverse<InventoryItem.Amount>
 	|
-	|-RVA: 0x130A690 Offset: 0x1308C90 VA: 0x18130A690
+	|-RVA: 0x130A590 Offset: 0x1308B90 VA: 0x18130A590
 	|-Array.Reverse<InventoryItem>
 	|
-	|-RVA: 0x1309D20 Offset: 0x1308320 VA: 0x181309D20
+	|-RVA: 0x1309C20 Offset: 0x1308220 VA: 0x181309C20
 	|-Array.Reverse<InventoryRecipe.Ingredient>
 	|
-	|-RVA: 0x130A880 Offset: 0x1308E80 VA: 0x18130A880
+	|-RVA: 0x130A780 Offset: 0x1308D80 VA: 0x18130A780
 	|-Array.Reverse<InventoryRecipe>
 	|
-	|-RVA: 0x1313A50 Offset: 0x1312050 VA: 0x181313A50
+	|-RVA: 0x1313950 Offset: 0x1311F50 VA: 0x181313950
 	|-Array.Reverse<SubsurfaceProfileTexture.SubsurfaceProfileEntry>
 	|
-	|-RVA: 0x1314340 Offset: 0x1312940 VA: 0x181314340
+	|-RVA: 0x1314240 Offset: 0x1312840 VA: 0x181314240
 	|-Array.Reverse<SynchronizedClock.TimedEvent>
 	|
-	|-RVA: 0x1305250 Offset: 0x1303850 VA: 0x181305250
+	|-RVA: 0x1305150 Offset: 0x1303750 VA: 0x181305150
 	|-Array.Reverse<bool>
 	|
-	|-RVA: 0x1305460 Offset: 0x1303A60 VA: 0x181305460
+	|-RVA: 0x1305360 Offset: 0x1303960 VA: 0x181305360
 	|-Array.Reverse<byte>
 	|
-	|-RVA: 0x1305D20 Offset: 0x1304320 VA: 0x181305D20
+	|-RVA: 0x1305C20 Offset: 0x1304220 VA: 0x181305C20
 	|-Array.Reverse<char>
 	|
-	|-RVA: 0x13077D0 Offset: 0x1305DD0 VA: 0x1813077D0
+	|-RVA: 0x13076D0 Offset: 0x1305CD0 VA: 0x1813076D0
 	|-Array.Reverse<DictionaryEntry>
 	|
-	|-RVA: 0x130B400 Offset: 0x1309A00 VA: 0x18130B400
+	|-RVA: 0x130B300 Offset: 0x1309900 VA: 0x18130B300
 	|-Array.Reverse<KeyValuePair<DateTime, object>>
 	|
-	|-RVA: 0x130BB70 Offset: 0x130A170 VA: 0x18130BB70
+	|-RVA: 0x130BA70 Offset: 0x130A070 VA: 0x18130BA70
 	|-Array.Reverse<KeyValuePair<int, object>>
 	|
-	|-RVA: 0x130B5E0 Offset: 0x1309BE0 VA: 0x18130B5E0
+	|-RVA: 0x130B4E0 Offset: 0x1309AE0 VA: 0x18130B4E0
 	|-Array.Reverse<KeyValuePair<Int32Enum, object>>
 	|
-	|-RVA: 0x130B060 Offset: 0x1309660 VA: 0x18130B060
+	|-RVA: 0x130AF60 Offset: 0x1309560 VA: 0x18130AF60
 	|-Array.Reverse<KeyValuePair<object, object>>
 	|
-	|-RVA: 0x130B7C0 Offset: 0x1309DC0 VA: 0x18130B7C0
+	|-RVA: 0x130B6C0 Offset: 0x1309CC0 VA: 0x18130B6C0
 	|-Array.Reverse<KeyValuePair<object, float>>
 	|
-	|-RVA: 0x130B980 Offset: 0x1309F80 VA: 0x18130B980
+	|-RVA: 0x130B880 Offset: 0x1309E80 VA: 0x18130B880
 	|-Array.Reverse<KeyValuePair<object, Color>>
 	|
-	|-RVA: 0x130B220 Offset: 0x1309820 VA: 0x18130B220
+	|-RVA: 0x130B120 Offset: 0x1309720 VA: 0x18130B120
 	|-Array.Reverse<KeyValuePair<uint, object>>
 	|
-	|-RVA: 0x130BD50 Offset: 0x130A350 VA: 0x18130BD50
+	|-RVA: 0x130BC50 Offset: 0x130A250 VA: 0x18130BC50
 	|-Array.Reverse<KeyValuePair<ulong, Dispatch.ResultCallback>>
 	|
-	|-RVA: 0x1306C20 Offset: 0x1305220 VA: 0x181306C20
+	|-RVA: 0x1306B20 Offset: 0x1305120 VA: 0x181306B20
 	|-Array.Reverse<DateTime>
 	|
-	|-RVA: 0x1306A90 Offset: 0x1305090 VA: 0x181306A90
+	|-RVA: 0x1306990 Offset: 0x1304F90 VA: 0x181306990
 	|-Array.Reverse<DateTimeOffset>
 	|
-	|-RVA: 0x1306DA0 Offset: 0x13053A0 VA: 0x181306DA0
+	|-RVA: 0x1306CA0 Offset: 0x13052A0 VA: 0x181306CA0
 	|-Array.Reverse<Decimal>
 	|
-	|-RVA: 0x13120C0 Offset: 0x13106C0 VA: 0x1813120C0
+	|-RVA: 0x1311FC0 Offset: 0x13105C0 VA: 0x181311FC0
 	|-Array.Reverse<EventProvider.SessionInfo>
 	|
-	|-RVA: 0x1307990 Offset: 0x1305F90 VA: 0x181307990
+	|-RVA: 0x1307890 Offset: 0x1305E90 VA: 0x181307890
 	|-Array.Reverse<double>
 	|
-	|-RVA: 0x1309850 Offset: 0x1307E50 VA: 0x181309850
+	|-RVA: 0x1309750 Offset: 0x1307D50 VA: 0x181309750
 	|-Array.Reverse<Guid>
 	|
-	|-RVA: 0x1309F10 Offset: 0x1308510 VA: 0x181309F10
+	|-RVA: 0x1309E10 Offset: 0x1308410 VA: 0x181309E10
 	|-Array.Reverse<short>
 	|
-	|-RVA: 0x130A210 Offset: 0x1308810 VA: 0x18130A210
+	|-RVA: 0x130A110 Offset: 0x1308710 VA: 0x18130A110
 	|-Array.Reverse<int>
 	|
-	|-RVA: 0x130A090 Offset: 0x1308690 VA: 0x18130A090
+	|-RVA: 0x1309F90 Offset: 0x1308590 VA: 0x181309F90
 	|-Array.Reverse<Int32Enum>
 	|
-	|-RVA: 0x130A390 Offset: 0x1308990 VA: 0x18130A390
+	|-RVA: 0x130A290 Offset: 0x1308890 VA: 0x18130A290
 	|-Array.Reverse<long>
 	|
-	|-RVA: 0x1311080 Offset: 0x130F680 VA: 0x181311080
+	|-RVA: 0x1310F80 Offset: 0x130F580 VA: 0x181310F80
 	|-Array.Reverse<object>
 	|
-	|-RVA: 0x1311240 Offset: 0x130F840 VA: 0x181311240
+	|-RVA: 0x1311140 Offset: 0x130F740 VA: 0x181311140
 	|-Array.Reverse<sbyte>
 	|
-	|-RVA: 0x13123C0 Offset: 0x13109C0 VA: 0x1813123C0
+	|-RVA: 0x13122C0 Offset: 0x13108C0 VA: 0x1813122C0
 	|-Array.Reverse<float>
 	|
-	|-RVA: 0x1313FC0 Offset: 0x13125C0 VA: 0x181313FC0
+	|-RVA: 0x1313EC0 Offset: 0x13124C0 VA: 0x181313EC0
 	|-Array.Reverse<TimeSpan>
 	|
-	|-RVA: 0x1315230 Offset: 0x1313830 VA: 0x181315230
+	|-RVA: 0x1315130 Offset: 0x1313730 VA: 0x181315130
 	|-Array.Reverse<ushort>
 	|
-	|-RVA: 0x13153B0 Offset: 0x13139B0 VA: 0x1813153B0
+	|-RVA: 0x13152B0 Offset: 0x13138B0 VA: 0x1813152B0
 	|-Array.Reverse<uint>
 	|
-	|-RVA: 0x1315530 Offset: 0x1313B30 VA: 0x181315530
+	|-RVA: 0x1315430 Offset: 0x1313A30 VA: 0x181315430
 	|-Array.Reverse<ulong>
 	|
-	|-RVA: 0x13156B0 Offset: 0x1313CB0 VA: 0x1813156B0
+	|-RVA: 0x13155B0 Offset: 0x1313BB0 VA: 0x1813155B0
 	|-Array.Reverse<ValueTuple<object, object>>
 	|
-	|-RVA: 0x130FBA0 Offset: 0x130E1A0 VA: 0x18130FBA0
+	|-RVA: 0x130FAA0 Offset: 0x130E0A0 VA: 0x18130FAA0
 	|-Array.Reverse<RangePositionInfo>
 	|
-	|-RVA: 0x1315C00 Offset: 0x1314200 VA: 0x181315C00
+	|-RVA: 0x1315B00 Offset: 0x1314100 VA: 0x181315B00
 	|-Array.Reverse<XmlSchemaObjectTable.XmlSchemaObjectEntry>
 	|
-	|-RVA: 0x13113C0 Offset: 0x130F9C0 VA: 0x1813113C0
+	|-RVA: 0x13112C0 Offset: 0x130F8C0 VA: 0x1813112C0
 	|-Array.Reverse<TickInterpolator.Segment>
 	|
-	|-RVA: 0x1314730 Offset: 0x1312D30 VA: 0x181314730
+	|-RVA: 0x1314630 Offset: 0x1312C30 VA: 0x181314630
 	|-Array.Reverse<TraceInfo>
 	|
-	|-RVA: 0x1314970 Offset: 0x1312F70 VA: 0x181314970
+	|-RVA: 0x1314870 Offset: 0x1312E70 VA: 0x181314870
 	|-Array.Reverse<TrainCar.TrainCarSnapshot>
 	|
-	|-RVA: 0x130E1A0 Offset: 0x130C7A0 VA: 0x18130E1A0
+	|-RVA: 0x130E0A0 Offset: 0x130C6A0 VA: 0x18130E0A0
 	|-Array.Reverse<NavMeshBuildMarkup>
 	|
-	|-RVA: 0x130E330 Offset: 0x130C930 VA: 0x18130E330
+	|-RVA: 0x130E230 Offset: 0x130C830 VA: 0x18130E230
 	|-Array.Reverse<NavMeshBuildSource>
 	|
-	|-RVA: 0x130ED00 Offset: 0x130D300 VA: 0x18130ED00
+	|-RVA: 0x130EC00 Offset: 0x130D200 VA: 0x18130EC00
 	|-Array.Reverse<BeforeRenderHelper.OrderBlock>
 	|
-	|-RVA: 0x1305EA0 Offset: 0x13044A0 VA: 0x181305EA0
+	|-RVA: 0x1305DA0 Offset: 0x13043A0 VA: 0x181305DA0
 	|-Array.Reverse<Color32>
 	|
-	|-RVA: 0x1306020 Offset: 0x1304620 VA: 0x181306020
+	|-RVA: 0x1305F20 Offset: 0x1304520 VA: 0x181305F20
 	|-Array.Reverse<Color>
 	|
-	|-RVA: 0x13100F0 Offset: 0x130E6F0 VA: 0x1813100F0
+	|-RVA: 0x130FFF0 Offset: 0x130E5F0 VA: 0x18130FFF0
 	|-Array.Reverse<RaycastResult>
 	|
-	|-RVA: 0x130FD60 Offset: 0x130E360 VA: 0x18130FD60
+	|-RVA: 0x130FC60 Offset: 0x130E260 VA: 0x18130FC60
 	|-Array.Reverse<RaycastHit2D>
 	|
-	|-RVA: 0x130FF20 Offset: 0x130E520 VA: 0x18130FF20
+	|-RVA: 0x130FE20 Offset: 0x130E420 VA: 0x18130FE20
 	|-Array.Reverse<RaycastHit>
 	|
-	|-RVA: 0x13104F0 Offset: 0x130EAF0 VA: 0x1813104F0
+	|-RVA: 0x13103F0 Offset: 0x130E9F0 VA: 0x1813103F0
 	|-Array.Reverse<Rect>
 	|
-	|-RVA: 0x1310A20 Offset: 0x130F020 VA: 0x181310A20
+	|-RVA: 0x1310920 Offset: 0x130EF20 VA: 0x181310920
 	|-Array.Reverse<RenderTargetIdentifier>
 	|
-	|-RVA: 0x1310E40 Offset: 0x130F440 VA: 0x181310E40
+	|-RVA: 0x1310D40 Offset: 0x130F340 VA: 0x181310D40
 	|-Array.Reverse<Resolution>
 	|
-	|-RVA: 0x13096C0 Offset: 0x1307CC0 VA: 0x1813096C0
+	|-RVA: 0x13095C0 Offset: 0x1307BC0 VA: 0x1813095C0
 	|-Array.Reverse<GlyphRect>
 	|
-	|-RVA: 0x1314CD0 Offset: 0x13132D0 VA: 0x181314CD0
+	|-RVA: 0x1314BD0 Offset: 0x13131D0 VA: 0x181314BD0
 	|-Array.Reverse<TreeInstance>
 	|
-	|-RVA: 0x1314E90 Offset: 0x1313490 VA: 0x181314E90
+	|-RVA: 0x1314D90 Offset: 0x1313390 VA: 0x181314D90
 	|-Array.Reverse<UICharInfo>
 	|
-	|-RVA: 0x1308FA0 Offset: 0x13075A0 VA: 0x181308FA0
+	|-RVA: 0x1308EA0 Offset: 0x13074A0 VA: 0x181308EA0
 	|-Array.Reverse<FocusController.FocusedElement>
 	|
-	|-RVA: 0xDF1780 Offset: 0xDEFD80 VA: 0x180DF1780
+	|-RVA: 0xDF1680 Offset: 0xDEFC80 VA: 0x180DF1680
 	|-Array.Reverse<UILineInfo>
 	|
-	|-RVA: 0xDF1910 Offset: 0xDEFF10 VA: 0x180DF1910
+	|-RVA: 0xDF1810 Offset: 0xDEFE10 VA: 0x180DF1810
 	|-Array.Reverse<UIVertex>
 	|
-	|-RVA: 0xDF2390 Offset: 0xDF0990 VA: 0x180DF2390
+	|-RVA: 0xDF2290 Offset: 0xDF0890 VA: 0x180DF2290
 	|-Array.Reverse<UnitySynchronizationContext.WorkRequest>
 	|
-	|-RVA: 0xDF1B10 Offset: 0xDF0110 VA: 0x180DF1B10
+	|-RVA: 0xDF1A10 Offset: 0xDF0010 VA: 0x180DF1A10
 	|-Array.Reverse<Vector2>
 	|
-	|-RVA: 0xDF1E40 Offset: 0xDF0440 VA: 0x180DF1E40
+	|-RVA: 0xDF1D40 Offset: 0xDF0340 VA: 0x180DF1D40
 	|-Array.Reverse<Vector3>
 	|
-	|-RVA: 0xDF1FF0 Offset: 0xDF05F0 VA: 0x180DF1FF0
+	|-RVA: 0xDF1EF0 Offset: 0xDF04F0 VA: 0x180DF1EF0
 	|-Array.Reverse<Vector4>
 	|
-	|-RVA: 0xDF1CC0 Offset: 0xDF02C0 VA: 0x180DF1CC0
+	|-RVA: 0xDF1BC0 Offset: 0xDF01C0 VA: 0x180DF1BC0
 	|-Array.Reverse<Vector2i>
 	|
-	|-RVA: 0xDF2180 Offset: 0xDF0780 VA: 0x180DF2180
+	|-RVA: 0xDF2080 Offset: 0xDF0680 VA: 0x180DF2080
 	|-Array.Reverse<ViewModelDrawEvent>
 	|
-	|-RVA: 0xDF1430 Offset: 0xDEFA30 VA: 0x180DF1430
+	|-RVA: 0xDF1330 Offset: 0xDEF930 VA: 0x180DF1330
 	|-Array.Reverse<WindZoneExManager.CurrentZoneEntry>
 	|
-	|-RVA: 0xDF15F0 Offset: 0xDEFBF0 VA: 0x180DF15F0
+	|-RVA: 0xDF14F0 Offset: 0xDEFAF0 VA: 0x180DF14F0
 	|-Array.Reverse<WorldSplineData.LUTEntry.LUTPoint>
 	*/
 
@@ -1438,45 +1438,45 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public static void Sort<T>(T[] array) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDFC0E0 Offset: 0xDFA6E0 VA: 0x180DFC0E0
+	|-RVA: 0xDFBFE0 Offset: 0xDFA5E0 VA: 0x180DFBFE0
 	|-Array.Sort<CardTable.ChipStack>
 	|-Array.Sort<object>
 	|
-	|-RVA: 0xDF5B40 Offset: 0xDF4140 VA: 0x180DF5B40
+	|-RVA: 0xDF5A40 Offset: 0xDF4040 VA: 0x180DF5A40
 	|-Array.Sort<FoliageKey>
 	|
-	|-RVA: 0xDF6710 Offset: 0xDF4D10 VA: 0x180DF6710
+	|-RVA: 0xDF6610 Offset: 0xDF4C10 VA: 0x180DF6610
 	|-Array.Sort<InstancingKey>
 	|
-	|-RVA: 0xDF7240 Offset: 0xDF5840 VA: 0x180DF7240
+	|-RVA: 0xDF7140 Offset: 0xDF5740 VA: 0x180DF7140
 	|-Array.Sort<InvokeAction>
 	|
-	|-RVA: 0xDFB910 Offset: 0xDF9F10 VA: 0x180DFB910
+	|-RVA: 0xDFB810 Offset: 0xDF9E10 VA: 0x180DFB810
 	|-Array.Sort<RendererKey>
 	|
-	|-RVA: 0xDFB380 Offset: 0xDF9980 VA: 0x180DFB380
+	|-RVA: 0xDFB280 Offset: 0xDF9880 VA: 0x180DFB280
 	|-Array.Sort<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0xDFCCB0 Offset: 0xDFB2B0 VA: 0x180DFCCB0
+	|-RVA: 0xDFCBB0 Offset: 0xDFB1B0 VA: 0x180DFCBB0
 	|-Array.Sort<float>
 	|
-	|-RVA: 0xDFF040 Offset: 0xDFD640 VA: 0x180DFF040
+	|-RVA: 0xDFEF40 Offset: 0xDFD540 VA: 0x180DFEF40
 	|-Array.Sort<uint>
 	|
-	|-RVA: 0xDFF470 Offset: 0xDFDA70 VA: 0x180DFF470
+	|-RVA: 0xDFF370 Offset: 0xDFD970 VA: 0x180DFF370
 	|-Array.Sort<ulong>
 	|
-	|-RVA: 0xDF8F20 Offset: 0xDF7520 VA: 0x180DF8F20
+	|-RVA: 0xDF8E20 Offset: 0xDF7420 VA: 0x180DF8E20
 	|-Array.Sort<Matrix4x4>
 	|
-	|-RVA: 0xDFFDC0 Offset: 0xDFE3C0 VA: 0x180DFFDC0
+	|-RVA: 0xDFFCC0 Offset: 0xDFE2C0 VA: 0x180DFFCC0
 	|-Array.Sort<ViewModelDrawEvent>
 	*/
 
 	public static void Sort<T>(T[] array, int index, int length) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDFBE10 Offset: 0xDFA410 VA: 0x180DFBE10
+	|-RVA: 0xDFBD10 Offset: 0xDFA310 VA: 0x180DFBD10
 	|-Array.Sort<object>
 	|-Array.Sort<XmlTextReaderImpl.NodeData>
 	*/
@@ -1484,549 +1484,549 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public static void Sort<T>(T[] array, IComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDF6B60 Offset: 0xDF5160 VA: 0x180DF6B60
+	|-RVA: 0xDF6A60 Offset: 0xDF5060 VA: 0x180DF6A60
 	|-Array.Sort<int>
 	|
-	|-RVA: 0xDFBF00 Offset: 0xDFA500 VA: 0x180DFBF00
+	|-RVA: 0xDFBE00 Offset: 0xDFA400 VA: 0x180DFBE00
 	|-Array.Sort<object>
 	*/
 
 	public static void Sort<T>(T[] array, int index, int length, IComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE00350 Offset: 0xDFE950 VA: 0x180E00350
+	|-RVA: 0xE00250 Offset: 0xDFE850 VA: 0x180E00250
 	|-Array.Sort<AdvancedChristmasLights.pointEntry>
 	|
-	|-RVA: 0xDF83E0 Offset: 0xDF69E0 VA: 0x180DF83E0
+	|-RVA: 0xDF82E0 Offset: 0xDF68E0 VA: 0x180DF82E0
 	|-Array.Sort<AlignedLineDrawer.LinePoint>
 	|
-	|-RVA: 0xDF3AC0 Offset: 0xDF20C0 VA: 0x180DF3AC0
+	|-RVA: 0xDF39C0 Offset: 0xDF1FC0 VA: 0x180DF39C0
 	|-Array.Sort<AtmosphereVolumeRenderer.CurrentVolumeEntry>
 	|
-	|-RVA: 0xDFC530 Offset: 0xDFAB30 VA: 0x180DFC530
+	|-RVA: 0xDFC430 Offset: 0xDFAA30 VA: 0x180DFC430
 	|-Array.Sort<BaseEntity.ServerFileRequest>
 	|
-	|-RVA: 0xDF8020 Offset: 0xDF6620 VA: 0x180DF8020
+	|-RVA: 0xDF7F20 Offset: 0xDF6520 VA: 0x180DF7F20
 	|-Array.Sort<CardTableUI.KeycodeWithAction>
 	|
-	|-RVA: 0xDF8520 Offset: 0xDF6B20 VA: 0x180DF8520
+	|-RVA: 0xDF8420 Offset: 0xDF6A20 VA: 0x180DF8420
 	|-Array.Sort<Cassette.LoadRequest>
 	|
-	|-RVA: 0xDFA630 Offset: 0xDF8C30 VA: 0x180DFA630
+	|-RVA: 0xDFA530 Offset: 0xDF8B30 VA: 0x180DFA530
 	|-Array.Sort<Admin.PlayerInfo>
 	|
-	|-RVA: 0xDFC3F0 Offset: 0xDFA9F0 VA: 0x180DFC3F0
+	|-RVA: 0xDFC2F0 Offset: 0xDFA8F0 VA: 0x180DFC2F0
 	|-Array.Sort<Admin.ServerConvarInfo>
 	|
-	|-RVA: 0xDFC8F0 Offset: 0xDFAEF0 VA: 0x180DFC8F0
+	|-RVA: 0xDFC7F0 Offset: 0xDFADF0 VA: 0x180DFC7F0
 	|-Array.Sort<Admin.ServerUGCInfo>
 	|
-	|-RVA: 0xDF9730 Offset: 0xDF7D30 VA: 0x180DF9730
+	|-RVA: 0xDF9630 Offset: 0xDF7C30 VA: 0x180DF9630
 	|-Array.Sort<Chat.MuteEntry>
 	|
-	|-RVA: 0xDF3D40 Offset: 0xDF2340 VA: 0x180DF3D40
+	|-RVA: 0xDF3C40 Offset: 0xDF2240 VA: 0x180DF3C40
 	|-Array.Sort<DamageRenderer.DamageShowingRenderer>
 	|
-	|-RVA: 0xDF8CA0 Offset: 0xDF72A0 VA: 0x180DF8CA0
+	|-RVA: 0xDF8BA0 Offset: 0xDF71A0 VA: 0x180DF8BA0
 	|-Array.Sort<DeferredExtensionMesh.MaterialLink>
 	|
-	|-RVA: 0xDF8DE0 Offset: 0xDF73E0 VA: 0x180DF8DE0
+	|-RVA: 0xDF8CE0 Offset: 0xDF72E0 VA: 0x180DF8CE0
 	|-Array.Sort<DeferredMeshDecal.MaterialLink>
 	|
-	|-RVA: 0xDF4240 Offset: 0xDF2840 VA: 0x180DF4240
+	|-RVA: 0xDF4140 Offset: 0xDF2740 VA: 0x180DF4140
 	|-Array.Sort<Demos.DemoInfo>
 	|
-	|-RVA: 0xDF2E40 Offset: 0xDF1440 VA: 0x180DF2E40
+	|-RVA: 0xDF2D40 Offset: 0xDF1340 VA: 0x180DF2D40
 	|-Array.Sort<CRedge>
 	|
-	|-RVA: 0xDF3700 Offset: 0xDF1D00 VA: 0x180DF3700
+	|-RVA: 0xDF3600 Offset: 0xDF1C00 VA: 0x180DF3600
 	|-Array.Sort<CombineClass>
 	|
-	|-RVA: 0xDF4B00 Offset: 0xDF3100 VA: 0x180DF4B00
+	|-RVA: 0xDF4A00 Offset: 0xDF3000 VA: 0x180DF4A00
 	|-Array.Sort<ERCell>
 	|
-	|-RVA: 0xDF4C40 Offset: 0xDF3240 VA: 0x180DF4C40
+	|-RVA: 0xDF4B40 Offset: 0xDF3140 VA: 0x180DF4B40
 	|-Array.Sort<ERChildsSO>
 	|
-	|-RVA: 0xDF4D80 Offset: 0xDF3380 VA: 0x180DF4D80
+	|-RVA: 0xDF4C80 Offset: 0xDF3280 VA: 0x180DF4C80
 	|-Array.Sort<ERConnectionGUIStatus>
 	|
-	|-RVA: 0xDF4EC0 Offset: 0xDF34C0 VA: 0x180DF4EC0
+	|-RVA: 0xDF4DC0 Offset: 0xDF33C0 VA: 0x180DF4DC0
 	|-Array.Sort<ERLane>
 	|
-	|-RVA: 0xDF9370 Offset: 0xDF7970 VA: 0x180DF9370
+	|-RVA: 0xDF9270 Offset: 0xDF7870 VA: 0x180DF9270
 	|-Array.Sort<ERMeshCombineUtility.MeshInstance>
 	|
-	|-RVA: 0xDF5000 Offset: 0xDF3600 VA: 0x180DF5000
+	|-RVA: 0xDF4F00 Offset: 0xDF3500 VA: 0x180DF4F00
 	|-Array.Sort<ERSOSection>
 	|
-	|-RVA: 0xDF5140 Offset: 0xDF3740 VA: 0x180DF5140
+	|-RVA: 0xDF5040 Offset: 0xDF3640 VA: 0x180DF5040
 	|-Array.Sort<ERSplatmap>
 	|
-	|-RVA: 0xDF5280 Offset: 0xDF3880 VA: 0x180DF5280
+	|-RVA: 0xDF5180 Offset: 0xDF3780 VA: 0x180DF5180
 	|-Array.Sort<ERTerrainChange>
 	|
-	|-RVA: 0xDF53C0 Offset: 0xDF39C0 VA: 0x180DF53C0
+	|-RVA: 0xDF52C0 Offset: 0xDF38C0 VA: 0x180DF52C0
 	|-Array.Sort<ERVSData>
 	|
-	|-RVA: 0xDF9AF0 Offset: 0xDF80F0 VA: 0x180DF9AF0
+	|-RVA: 0xDF99F0 Offset: 0xDF7FF0 VA: 0x180DF99F0
 	|-Array.Sort<NormalPairs>
 	|
-	|-RVA: 0xDFAFC0 Offset: 0xDF95C0 VA: 0x180DFAFC0
+	|-RVA: 0xDFAEC0 Offset: 0xDF94C0 VA: 0x180DFAEC0
 	|-Array.Sort<EngineDamageOverTime.RecentDamage>
 	|
-	|-RVA: 0xDF5500 Offset: 0xDF3B00 VA: 0x180DF5500
+	|-RVA: 0xDF5400 Offset: 0xDF3A00 VA: 0x180DF5400
 	|-Array.Sort<EntityRef<object>>
 	|
-	|-RVA: 0xDF5E50 Offset: 0xDF4450 VA: 0x180DF5E50
+	|-RVA: 0xDF5D50 Offset: 0xDF4350 VA: 0x180DF5D50
 	|-Array.Sort<ExpandedLifeStats.GenericStatDisplay>
 	|
-	|-RVA: 0xDF3200 Offset: 0xDF1800 VA: 0x180DF3200
+	|-RVA: 0xDF3100 Offset: 0xDF1700 VA: 0x180DF3100
 	|-Array.Sort<BurstCloth.Chain>
 	|
-	|-RVA: 0xDF30C0 Offset: 0xDF16C0 VA: 0x180DF30C0
+	|-RVA: 0xDF2FC0 Offset: 0xDF15C0 VA: 0x180DF2FC0
 	|-Array.Sort<CapsuleParams>
 	|
-	|-RVA: 0xDF2940 Offset: 0xDF0F40 VA: 0x180DF2940
+	|-RVA: 0xDF2840 Offset: 0xDF0E40 VA: 0x180DF2840
 	|-Array.Sort<BoneData>
 	|
-	|-RVA: 0xDFDD80 Offset: 0xDFC380 VA: 0x180DFDD80
+	|-RVA: 0xDFDC80 Offset: 0xDFC280 VA: 0x180DFDC80
 	|-Array.Sort<TabbedPanel.Tab>
 	|
-	|-RVA: 0xDF5780 Offset: 0xDF3D80 VA: 0x180DF5780
+	|-RVA: 0xDF5680 Offset: 0xDF3C80 VA: 0x180DF5680
 	|-Array.Sort<Output.Entry>
 	|
-	|-RVA: 0xDF2800 Offset: 0xDF0E00 VA: 0x180DF2800
+	|-RVA: 0xDF2700 Offset: 0xDF0D00 VA: 0x180DF2700
 	|-Array.Sort<RCon.BannedAddresses>
 	|
-	|-RVA: 0xDF2A80 Offset: 0xDF1080 VA: 0x180DF2A80
+	|-RVA: 0xDF2980 Offset: 0xDF0F80 VA: 0x180DF2980
 	|-Array.Sort<SkeletonDefinition.Bone>
 	|
-	|-RVA: 0xDF5640 Offset: 0xDF3C40 VA: 0x180DF5640
+	|-RVA: 0xDF5540 Offset: 0xDF3B40 VA: 0x180DF5540
 	|-Array.Sort<Tick.Entry>
 	|
-	|-RVA: 0xDFB690 Offset: 0xDF9C90 VA: 0x180DFB690
+	|-RVA: 0xDFB590 Offset: 0xDF9B90 VA: 0x180DFB590
 	|-Array.Sort<RenderInfo.RendererInstance>
 	|
-	|-RVA: 0xDF3840 Offset: 0xDF1E40 VA: 0x180DF3840
+	|-RVA: 0xDF3740 Offset: 0xDF1D40 VA: 0x180DF3740
 	|-Array.Sort<WeightedStringList.Container>
 	|
-	|-RVA: 0xDF5BD0 Offset: 0xDF41D0 VA: 0x180DF5BD0
+	|-RVA: 0xDF5AD0 Offset: 0xDF40D0 VA: 0x180DF5AD0
 	|-Array.Sort<FoliageGridMeshData.FoliageVertex>
 	|
-	|-RVA: 0xDF5A00 Offset: 0xDF4000 VA: 0x180DF5A00
+	|-RVA: 0xDF5900 Offset: 0xDF3F00 VA: 0x180DF5900
 	|-Array.Sort<FoliageKey>
 	|
-	|-RVA: 0xDF9D70 Offset: 0xDF8370 VA: 0x180DF9D70
+	|-RVA: 0xDF9C70 Offset: 0xDF8270 VA: 0x180DF9C70
 	|-Array.Sort<Option>
 	|
-	|-RVA: 0xDFD9C0 Offset: 0xDFBFC0 VA: 0x180DFD9C0
+	|-RVA: 0xDFD8C0 Offset: 0xDFBEC0 VA: 0x180DFD8C0
 	|-Array.Sort<GameStat.Stat>
 	|
-	|-RVA: 0xDFA130 Offset: 0xDF8730 VA: 0x180DFA130
+	|-RVA: 0xDFA030 Offset: 0xDF8630 VA: 0x180DFA030
 	|-Array.Sort<Gibbable.OverrideMesh>
 	|
-	|-RVA: 0xDFCE80 Offset: 0xDFB480 VA: 0x180DFCE80
+	|-RVA: 0xDFCD80 Offset: 0xDFB380 VA: 0x180DFCD80
 	|-Array.Sort<IconSkinPicker.SkinButtonSetup>
 	|
-	|-RVA: 0xDF6210 Offset: 0xDF4810 VA: 0x180DF6210
+	|-RVA: 0xDF6110 Offset: 0xDF4710 VA: 0x180DF6110
 	|-Array.Sort<ImageStorageEntity.ImageRequest>
 	|
-	|-RVA: 0xDF65D0 Offset: 0xDF4BD0 VA: 0x180DF65D0
+	|-RVA: 0xDF64D0 Offset: 0xDF4AD0 VA: 0x180DF64D0
 	|-Array.Sort<InstancingKey>
 	|
-	|-RVA: 0xDF7100 Offset: 0xDF5700 VA: 0x180DF7100
+	|-RVA: 0xDF7000 Offset: 0xDF5600 VA: 0x180DF7000
 	|-Array.Sort<InvokeAction>
 	|
-	|-RVA: 0xDFCFC0 Offset: 0xDFB5C0 VA: 0x180DFCFC0
+	|-RVA: 0xDFCEC0 Offset: 0xDFB4C0 VA: 0x180DFCEC0
 	|-Array.Sort<ItemSkinDirectory.Skin>
 	|
-	|-RVA: 0xDFEB40 Offset: 0xDFD140 VA: 0x180DFEB40
+	|-RVA: 0xDFEA40 Offset: 0xDFD040 VA: 0x180DFEA40
 	|-Array.Sort<KeyframeView.UIKeyframeValue>
 	|
-	|-RVA: 0xDFE140 Offset: 0xDFC740 VA: 0x180DFE140
+	|-RVA: 0xDFE040 Offset: 0xDFC640 VA: 0x180DFE040
 	|-Array.Sort<LocalClock.TimedEvent>
 	|
-	|-RVA: 0xDF88E0 Offset: 0xDF6EE0 VA: 0x180DF88E0
+	|-RVA: 0xDF87E0 Offset: 0xDF6DE0 VA: 0x180DF87E0
 	|-Array.Sort<MagnetCrane.MagnetCraneSnapshot>
 	|
-	|-RVA: 0xDF8A20 Offset: 0xDF7020 VA: 0x180DF8A20
+	|-RVA: 0xDF8920 Offset: 0xDF6F20 VA: 0x180DF8920
 	|-Array.Sort<MapView.MapMarkerCluster>
 	|
-	|-RVA: 0xDFD100 Offset: 0xDFB700 VA: 0x180DFD100
+	|-RVA: 0xDFD000 Offset: 0xDFB600 VA: 0x180DFD000
 	|-Array.Sort<MapView.SleepingBagCluster>
 	|
-	|-RVA: 0xDFCB70 Offset: 0xDFB170 VA: 0x180DFCB70
+	|-RVA: 0xDFCA70 Offset: 0xDFB070 VA: 0x180DFCA70
 	|-Array.Sort<SevenBitNumber>
 	|
-	|-RVA: 0xDF90F0 Offset: 0xDF76F0 VA: 0x180DF90F0
+	|-RVA: 0xDF8FF0 Offset: 0xDF75F0 VA: 0x180DF8FF0
 	|-Array.Sort<MeshColliderInstance>
 	|
-	|-RVA: 0xDF87A0 Offset: 0xDF6DA0 VA: 0x180DF87A0
+	|-RVA: 0xDF86A0 Offset: 0xDF6CA0 VA: 0x180DF86A0
 	|-Array.Sort<MeshColliderLookup.LookupEntry>
 	|
-	|-RVA: 0xDF9230 Offset: 0xDF7830 VA: 0x180DF9230
+	|-RVA: 0xDF9130 Offset: 0xDF7730 VA: 0x180DF9130
 	|-Array.Sort<MeshInstance>
 	|
-	|-RVA: 0xDF94B0 Offset: 0xDF7AB0 VA: 0x180DF94B0
+	|-RVA: 0xDF93B0 Offset: 0xDF79B0 VA: 0x180DF93B0
 	|-Array.Sort<MeshRendererInstance>
 	|
-	|-RVA: 0xDF8660 Offset: 0xDF6C60 VA: 0x180DF8660
+	|-RVA: 0xDF8560 Offset: 0xDF6B60 VA: 0x180DF8560
 	|-Array.Sort<MeshRendererLookup.LookupEntry>
 	|
-	|-RVA: 0xDF8160 Offset: 0xDF6760 VA: 0x180DF8160
+	|-RVA: 0xDF8060 Offset: 0xDF6660 VA: 0x180DF8060
 	|-Array.Sort<MidiConvar.KnobBinding>
 	|
-	|-RVA: 0xDF9C30 Offset: 0xDF8230 VA: 0x180DF9C30
+	|-RVA: 0xDF9B30 Offset: 0xDF8130 VA: 0x180DF9B30
 	|-Array.Sort<MidiConvar.NoteBinding>
 	|
-	|-RVA: 0xDF7410 Offset: 0xDF5A10 VA: 0x180DF7410
+	|-RVA: 0xDF7310 Offset: 0xDF5910 VA: 0x180DF7310
 	|-Array.Sort<SqliteKeyReader.KeyInfo>
 	|
-	|-RVA: 0xDF72D0 Offset: 0xDF58D0 VA: 0x180DF72D0
+	|-RVA: 0xDF71D0 Offset: 0xDF57D0 VA: 0x180DF71D0
 	|-Array.Sort<JsonPosition>
 	|
-	|-RVA: 0xDFA3B0 Offset: 0xDF89B0 VA: 0x180DFA3B0
+	|-RVA: 0xDFA2B0 Offset: 0xDF88B0 VA: 0x180DFA2B0
 	|-Array.Sort<ParticleSystemContainer.ParticleSystemGroup>
 	|
-	|-RVA: 0xDFA8B0 Offset: 0xDF8EB0 VA: 0x180DFA8B0
+	|-RVA: 0xDFA7B0 Offset: 0xDF8DB0 VA: 0x180DFA7B0
 	|-Array.Sort<PathFinder.Point>
 	|
-	|-RVA: 0xDFA4F0 Offset: 0xDF8AF0 VA: 0x180DFA4F0
+	|-RVA: 0xDFA3F0 Offset: 0xDF89F0 VA: 0x180DFA3F0
 	|-Array.Sort<PetCommandList.PetCommandDesc>
 	|
-	|-RVA: 0xDFD4C0 Offset: 0xDFBAC0 VA: 0x180DFD4C0
+	|-RVA: 0xDFD3C0 Offset: 0xDFB9C0 VA: 0x180DFD3C0
 	|-Array.Sort<PlaceMonuments.SpawnInfo>
 	|
-	|-RVA: 0xDFD740 Offset: 0xDFBD40 VA: 0x180DFD740
+	|-RVA: 0xDFD640 Offset: 0xDFBC40 VA: 0x180DFD640
 	|-Array.Sort<PlaceMonumentsOffshore.SpawnInfo>
 	|
-	|-RVA: 0xDFD600 Offset: 0xDFBC00 VA: 0x180DFD600
+	|-RVA: 0xDFD500 Offset: 0xDFBB00 VA: 0x180DFD500
 	|-Array.Sort<PlaceMonumentsRailside.SpawnInfo>
 	|
-	|-RVA: 0xDFD880 Offset: 0xDFBE80 VA: 0x180DFD880
+	|-RVA: 0xDFD780 Offset: 0xDFBD80 VA: 0x180DFD780
 	|-Array.Sort<PlaceMonumentsRoadside.SpawnInfo>
 	|
-	|-RVA: 0xDF6350 Offset: 0xDF4950 VA: 0x180DF6350
+	|-RVA: 0xDF6250 Offset: 0xDF4850 VA: 0x180DF6250
 	|-Array.Sort<PlayerItemRecipe.Ingredient>
 	|
-	|-RVA: 0xDFA770 Offset: 0xDF8D70 VA: 0x180DFA770
+	|-RVA: 0xDFA670 Offset: 0xDF8C70 VA: 0x180DFA670
 	|-Array.Sort<PlayerItemRecipe>
 	|
-	|-RVA: 0xDF95F0 Offset: 0xDF7BF0 VA: 0x180DF95F0
+	|-RVA: 0xDF94F0 Offset: 0xDF7AF0 VA: 0x180DF94F0
 	|-Array.Sort<ProjectileWeaponMod.Modifier>
 	|
-	|-RVA: 0xDF4380 Offset: 0xDF2980 VA: 0x180DF4380
+	|-RVA: 0xDF4280 Offset: 0xDF2880 VA: 0x180DF4280
 	|-Array.Sort<DemoShotFloatKeyframe>
 	|
-	|-RVA: 0xDF44C0 Offset: 0xDF2AC0 VA: 0x180DF44C0
+	|-RVA: 0xDF43C0 Offset: 0xDF29C0 VA: 0x180DF43C0
 	|-Array.Sort<DemoShotParentKeyframe>
 	|
-	|-RVA: 0xDF4600 Offset: 0xDF2C00 VA: 0x180DF4600
+	|-RVA: 0xDF4500 Offset: 0xDF2B00 VA: 0x180DF4500
 	|-Array.Sort<DemoShotQuaternionKeyframe>
 	|
-	|-RVA: 0xDF4740 Offset: 0xDF2D40 VA: 0x180DF4740
+	|-RVA: 0xDF4640 Offset: 0xDF2C40 VA: 0x180DF4640
 	|-Array.Sort<DemoShotVectorKeyframe>
 	|
-	|-RVA: 0xDFFC80 Offset: 0xDFE280 VA: 0x180DFFC80
+	|-RVA: 0xDFFB80 Offset: 0xDFE180 VA: 0x180DFFB80
 	|-Array.Sort<VectorData>
 	|
-	|-RVA: 0xDF3980 Offset: 0xDF1F80 VA: 0x180DF3980
+	|-RVA: 0xDF3880 Offset: 0xDF1E80 VA: 0x180DF3880
 	|-Array.Sort<ReflectionProbeEx.CubemapSkyboxVertex>
 	|
-	|-RVA: 0xDFB410 Offset: 0xDF9A10 VA: 0x180DFB410
+	|-RVA: 0xDFB310 Offset: 0xDF9910 VA: 0x180DFB310
 	|-Array.Sort<ReflectionProbeEx.RenderListEntry>
 	|
-	|-RVA: 0xDFB7D0 Offset: 0xDF9DD0 VA: 0x180DFB7D0
+	|-RVA: 0xDFB6D0 Offset: 0xDF9CD0 VA: 0x180DFB6D0
 	|-Array.Sort<RendererKey>
 	|
-	|-RVA: 0xDFFF90 Offset: 0xDFE590 VA: 0x180DFFF90
+	|-RVA: 0xDFFE90 Offset: 0xDFE490 VA: 0x180DFFE90
 	|-Array.Sort<WaypointSet.Waypoint>
 	|
-	|-RVA: 0xDFE780 Offset: 0xDFCD80 VA: 0x180DFE780
+	|-RVA: 0xDFE680 Offset: 0xDFCC80 VA: 0x180DFE680
 	|-Array.Sort<TransformSnapshot>
 	|
-	|-RVA: 0xDFE3C0 Offset: 0xDFC9C0 VA: 0x180DFE3C0
+	|-RVA: 0xDFE2C0 Offset: 0xDFC8C0 VA: 0x180DFE2C0
 	|-Array.Sort<TimelineEvent>
 	|
-	|-RVA: 0xDF9EB0 Offset: 0xDF84B0 VA: 0x180DF9EB0
+	|-RVA: 0xDF9DB0 Offset: 0xDF83B0 VA: 0x180DF9DB0
 	|-Array.Sort<Option>
 	|
-	|-RVA: 0xDFDEC0 Offset: 0xDFC4C0 VA: 0x180DFDEC0
+	|-RVA: 0xDFDDC0 Offset: 0xDFC3C0 VA: 0x180DFDDC0
 	|-Array.Sort<TickRenderer.Tick>
 	|
-	|-RVA: 0xDFC670 Offset: 0xDFAC70 VA: 0x180DFC670
+	|-RVA: 0xDFC570 Offset: 0xDFAB70 VA: 0x180DFC570
 	|-Array.Sort<ServerInfo>
 	|
-	|-RVA: 0xDFA270 Offset: 0xDF8870 VA: 0x180DFA270
+	|-RVA: 0xDFA170 Offset: 0xDF8770 VA: 0x180DFA170
 	|-Array.Sort<SkinnedMultiMesh.Part>
 	|
-	|-RVA: 0xDFD240 Offset: 0xDFB840 VA: 0x180DFD240
+	|-RVA: 0xDFD140 Offset: 0xDFB740 VA: 0x180DFD140
 	|-Array.Sort<SubmarineSonar.SonarBlip>
 	|
-	|-RVA: 0xDFD380 Offset: 0xDFB980 VA: 0x180DFD380
+	|-RVA: 0xDFD280 Offset: 0xDFB880 VA: 0x180DFD280
 	|-Array.Sort<SpawnIndividual>
 	|
-	|-RVA: 0xDFB240 Offset: 0xDF9840 VA: 0x180DFB240
+	|-RVA: 0xDFB140 Offset: 0xDF9740 VA: 0x180DFB140
 	|-Array.Sort<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0xDFDB00 Offset: 0xDFC100 VA: 0x180DFDB00
+	|-RVA: 0xDFDA00 Offset: 0xDFC000 VA: 0x180DFDA00
 	|-Array.Sort<SteamNewsSource.Story>
 	|
-	|-RVA: 0xDF2580 Offset: 0xDF0B80 VA: 0x180DF2580
+	|-RVA: 0xDF2480 Offset: 0xDF0A80 VA: 0x180DF2480
 	|-Array.Sort<Achievement>
 	|
-	|-RVA: 0xDF6D40 Offset: 0xDF5340 VA: 0x180DF6D40
+	|-RVA: 0xDF6C40 Offset: 0xDF5240 VA: 0x180DF6C40
 	|-Array.Sort<InventoryDefId>
 	|
-	|-RVA: 0xDF8B60 Offset: 0xDF7160 VA: 0x180DF8B60
+	|-RVA: 0xDF8A60 Offset: 0xDF7060 VA: 0x180DF8A60
 	|-Array.Sort<MatchMakingKeyValuePair>
 	|
-	|-RVA: 0xDFC7B0 Offset: 0xDFADB0 VA: 0x180DFC7B0
+	|-RVA: 0xDFC6B0 Offset: 0xDFACB0 VA: 0x180DFC6B0
 	|-Array.Sort<ServerInfo>
 	|
-	|-RVA: 0xDF2F80 Offset: 0xDF1580 VA: 0x180DF2F80
+	|-RVA: 0xDF2E80 Offset: 0xDF1480 VA: 0x180DF2E80
 	|-Array.Sort<Dispatch.Callback>
 	|
-	|-RVA: 0xDF5D10 Offset: 0xDF4310 VA: 0x180DF5D10
+	|-RVA: 0xDF5C10 Offset: 0xDF4210 VA: 0x180DF5C10
 	|-Array.Sort<Friend>
 	|
-	|-RVA: 0xDF26C0 Offset: 0xDF0CC0 VA: 0x180DF26C0
+	|-RVA: 0xDF25C0 Offset: 0xDF0BC0 VA: 0x180DF25C0
 	|-Array.Sort<InventoryItem.Amount>
 	|
-	|-RVA: 0xDF6E80 Offset: 0xDF5480 VA: 0x180DF6E80
+	|-RVA: 0xDF6D80 Offset: 0xDF5380 VA: 0x180DF6D80
 	|-Array.Sort<InventoryItem>
 	|
-	|-RVA: 0xDF6490 Offset: 0xDF4A90 VA: 0x180DF6490
+	|-RVA: 0xDF6390 Offset: 0xDF4990 VA: 0x180DF6390
 	|-Array.Sort<InventoryRecipe.Ingredient>
 	|
-	|-RVA: 0xDF6FC0 Offset: 0xDF55C0 VA: 0x180DF6FC0
+	|-RVA: 0xDF6EC0 Offset: 0xDF54C0 VA: 0x180DF6EC0
 	|-Array.Sort<InventoryRecipe>
 	|
-	|-RVA: 0xDFDC40 Offset: 0xDFC240 VA: 0x180DFDC40
+	|-RVA: 0xDFDB40 Offset: 0xDFC140 VA: 0x180DFDB40
 	|-Array.Sort<SubsurfaceProfileTexture.SubsurfaceProfileEntry>
 	|
-	|-RVA: 0xDFE280 Offset: 0xDFC880 VA: 0x180DFE280
+	|-RVA: 0xDFE180 Offset: 0xDFC780 VA: 0x180DFE180
 	|-Array.Sort<SynchronizedClock.TimedEvent>
 	|
-	|-RVA: 0xDF2BC0 Offset: 0xDF11C0 VA: 0x180DF2BC0
+	|-RVA: 0xDF2AC0 Offset: 0xDF10C0 VA: 0x180DF2AC0
 	|-Array.Sort<bool>
 	|
-	|-RVA: 0xDF2D00 Offset: 0xDF1300 VA: 0x180DF2D00
+	|-RVA: 0xDF2C00 Offset: 0xDF1200 VA: 0x180DF2C00
 	|-Array.Sort<byte>
 	|
-	|-RVA: 0xDF3340 Offset: 0xDF1940 VA: 0x180DF3340
+	|-RVA: 0xDF3240 Offset: 0xDF1840 VA: 0x180DF3240
 	|-Array.Sort<char>
 	|
-	|-RVA: 0xDF4880 Offset: 0xDF2E80 VA: 0x180DF4880
+	|-RVA: 0xDF4780 Offset: 0xDF2D80 VA: 0x180DF4780
 	|-Array.Sort<DictionaryEntry>
 	|
-	|-RVA: 0xDF78A0 Offset: 0xDF5EA0 VA: 0x180DF78A0
+	|-RVA: 0xDF77A0 Offset: 0xDF5DA0 VA: 0x180DF77A0
 	|-Array.Sort<KeyValuePair<DateTime, object>>
 	|
-	|-RVA: 0xDF7DA0 Offset: 0xDF63A0 VA: 0x180DF7DA0
+	|-RVA: 0xDF7CA0 Offset: 0xDF62A0 VA: 0x180DF7CA0
 	|-Array.Sort<KeyValuePair<int, object>>
 	|
-	|-RVA: 0xDF79E0 Offset: 0xDF5FE0 VA: 0x180DF79E0
+	|-RVA: 0xDF78E0 Offset: 0xDF5EE0 VA: 0x180DF78E0
 	|-Array.Sort<KeyValuePair<Int32Enum, object>>
 	|
-	|-RVA: 0xDF7620 Offset: 0xDF5C20 VA: 0x180DF7620
+	|-RVA: 0xDF7520 Offset: 0xDF5B20 VA: 0x180DF7520
 	|-Array.Sort<KeyValuePair<object, object>>
 	|
-	|-RVA: 0xDF7B20 Offset: 0xDF6120 VA: 0x180DF7B20
+	|-RVA: 0xDF7A20 Offset: 0xDF6020 VA: 0x180DF7A20
 	|-Array.Sort<KeyValuePair<object, float>>
 	|
-	|-RVA: 0xDF7C60 Offset: 0xDF6260 VA: 0x180DF7C60
+	|-RVA: 0xDF7B60 Offset: 0xDF6160 VA: 0x180DF7B60
 	|-Array.Sort<KeyValuePair<object, Color>>
 	|
-	|-RVA: 0xDF7760 Offset: 0xDF5D60 VA: 0x180DF7760
+	|-RVA: 0xDF7660 Offset: 0xDF5C60 VA: 0x180DF7660
 	|-Array.Sort<KeyValuePair<uint, object>>
 	|
-	|-RVA: 0xDF7EE0 Offset: 0xDF64E0 VA: 0x180DF7EE0
+	|-RVA: 0xDF7DE0 Offset: 0xDF63E0 VA: 0x180DF7DE0
 	|-Array.Sort<KeyValuePair<ulong, Dispatch.ResultCallback>>
 	|
-	|-RVA: 0xDF3FC0 Offset: 0xDF25C0 VA: 0x180DF3FC0
+	|-RVA: 0xDF3EC0 Offset: 0xDF24C0 VA: 0x180DF3EC0
 	|-Array.Sort<DateTime>
 	|
-	|-RVA: 0xDF3E80 Offset: 0xDF2480 VA: 0x180DF3E80
+	|-RVA: 0xDF3D80 Offset: 0xDF2380 VA: 0x180DF3D80
 	|-Array.Sort<DateTimeOffset>
 	|
-	|-RVA: 0xDF4100 Offset: 0xDF2700 VA: 0x180DF4100
+	|-RVA: 0xDF4000 Offset: 0xDF2600 VA: 0x180DF4000
 	|-Array.Sort<Decimal>
 	|
-	|-RVA: 0xDFCA30 Offset: 0xDFB030 VA: 0x180DFCA30
+	|-RVA: 0xDFC930 Offset: 0xDFAF30 VA: 0x180DFC930
 	|-Array.Sort<EventProvider.SessionInfo>
 	|
-	|-RVA: 0xDF49C0 Offset: 0xDF2FC0 VA: 0x180DF49C0
+	|-RVA: 0xDF48C0 Offset: 0xDF2EC0 VA: 0x180DF48C0
 	|-Array.Sort<double>
 	|
-	|-RVA: 0xDF60D0 Offset: 0xDF46D0 VA: 0x180DF60D0
+	|-RVA: 0xDF5FD0 Offset: 0xDF45D0 VA: 0x180DF5FD0
 	|-Array.Sort<Guid>
 	|
-	|-RVA: 0xDF67A0 Offset: 0xDF4DA0 VA: 0x180DF67A0
+	|-RVA: 0xDF66A0 Offset: 0xDF4CA0 VA: 0x180DF66A0
 	|-Array.Sort<short>
 	|
-	|-RVA: 0xDF6A20 Offset: 0xDF5020 VA: 0x180DF6A20
+	|-RVA: 0xDF6920 Offset: 0xDF4F20 VA: 0x180DF6920
 	|-Array.Sort<int>
 	|
-	|-RVA: 0xDF68E0 Offset: 0xDF4EE0 VA: 0x180DF68E0
+	|-RVA: 0xDF67E0 Offset: 0xDF4DE0 VA: 0x180DF67E0
 	|-Array.Sort<Int32Enum>
 	|
-	|-RVA: 0xDF6C00 Offset: 0xDF5200 VA: 0x180DF6C00
+	|-RVA: 0xDF6B00 Offset: 0xDF5100 VA: 0x180DF6B00
 	|-Array.Sort<long>
 	|
-	|-RVA: 0xDFBFA0 Offset: 0xDFA5A0 VA: 0x180DFBFA0
+	|-RVA: 0xDFBEA0 Offset: 0xDFA4A0 VA: 0x180DFBEA0
 	|-Array.Sort<object>
 	|
-	|-RVA: 0xDFC170 Offset: 0xDFA770 VA: 0x180DFC170
+	|-RVA: 0xDFC070 Offset: 0xDFA670 VA: 0x180DFC070
 	|-Array.Sort<sbyte>
 	|
-	|-RVA: 0xDFCD40 Offset: 0xDFB340 VA: 0x180DFCD40
+	|-RVA: 0xDFCC40 Offset: 0xDFB240 VA: 0x180DFCC40
 	|-Array.Sort<float>
 	|
-	|-RVA: 0xDFE000 Offset: 0xDFC600 VA: 0x180DFE000
+	|-RVA: 0xDFDF00 Offset: 0xDFC500 VA: 0x180DFDF00
 	|-Array.Sort<TimeSpan>
 	|
-	|-RVA: 0xDFEF00 Offset: 0xDFD500 VA: 0x180DFEF00
+	|-RVA: 0xDFEE00 Offset: 0xDFD400 VA: 0x180DFEE00
 	|-Array.Sort<ushort>
 	|
-	|-RVA: 0xDFF0D0 Offset: 0xDFD6D0 VA: 0x180DFF0D0
+	|-RVA: 0xDFEFD0 Offset: 0xDFD5D0 VA: 0x180DFEFD0
 	|-Array.Sort<uint>
 	|
-	|-RVA: 0xDFF500 Offset: 0xDFDB00 VA: 0x180DFF500
+	|-RVA: 0xDFF400 Offset: 0xDFDA00 VA: 0x180DFF400
 	|-Array.Sort<ulong>
 	|
-	|-RVA: 0xDFF640 Offset: 0xDFDC40 VA: 0x180DFF640
+	|-RVA: 0xDFF540 Offset: 0xDFDB40 VA: 0x180DFF540
 	|-Array.Sort<ValueTuple<object, object>>
 	|
-	|-RVA: 0xDFA9F0 Offset: 0xDF8FF0 VA: 0x180DFA9F0
+	|-RVA: 0xDFA8F0 Offset: 0xDF8EF0 VA: 0x180DFA8F0
 	|-Array.Sort<RangePositionInfo>
 	|
-	|-RVA: 0xE00210 Offset: 0xDFE810 VA: 0x180E00210
+	|-RVA: 0xE00110 Offset: 0xDFE710 VA: 0x180E00110
 	|-Array.Sort<XmlSchemaObjectTable.XmlSchemaObjectEntry>
 	|
-	|-RVA: 0xDFC2B0 Offset: 0xDFA8B0 VA: 0x180DFC2B0
+	|-RVA: 0xDFC1B0 Offset: 0xDFA7B0 VA: 0x180DFC1B0
 	|-Array.Sort<TickInterpolator.Segment>
 	|
-	|-RVA: 0xDFE500 Offset: 0xDFCB00 VA: 0x180DFE500
+	|-RVA: 0xDFE400 Offset: 0xDFCA00 VA: 0x180DFE400
 	|-Array.Sort<TraceInfo>
 	|
-	|-RVA: 0xDFE640 Offset: 0xDFCC40 VA: 0x180DFE640
+	|-RVA: 0xDFE540 Offset: 0xDFCB40 VA: 0x180DFE540
 	|-Array.Sort<TrainCar.TrainCarSnapshot>
 	|
-	|-RVA: 0xDF9870 Offset: 0xDF7E70 VA: 0x180DF9870
+	|-RVA: 0xDF9770 Offset: 0xDF7D70 VA: 0x180DF9770
 	|-Array.Sort<NavMeshBuildMarkup>
 	|
-	|-RVA: 0xDF99B0 Offset: 0xDF7FB0 VA: 0x180DF99B0
+	|-RVA: 0xDF98B0 Offset: 0xDF7EB0 VA: 0x180DF98B0
 	|-Array.Sort<NavMeshBuildSource>
 	|
-	|-RVA: 0xDF9FF0 Offset: 0xDF85F0 VA: 0x180DF9FF0
+	|-RVA: 0xDF9EF0 Offset: 0xDF84F0 VA: 0x180DF9EF0
 	|-Array.Sort<BeforeRenderHelper.OrderBlock>
 	|
-	|-RVA: 0xDF3480 Offset: 0xDF1A80 VA: 0x180DF3480
+	|-RVA: 0xDF3380 Offset: 0xDF1980 VA: 0x180DF3380
 	|-Array.Sort<Color32>
 	|
-	|-RVA: 0xDF35C0 Offset: 0xDF1BC0 VA: 0x180DF35C0
+	|-RVA: 0xDF34C0 Offset: 0xDF1AC0 VA: 0x180DF34C0
 	|-Array.Sort<Color>
 	|
-	|-RVA: 0xDFAE80 Offset: 0xDF9480 VA: 0x180DFAE80
+	|-RVA: 0xDFAD80 Offset: 0xDF9380 VA: 0x180DFAD80
 	|-Array.Sort<RaycastResult>
 	|
-	|-RVA: 0xDF8FB0 Offset: 0xDF75B0 VA: 0x180DF8FB0
+	|-RVA: 0xDF8EB0 Offset: 0xDF74B0 VA: 0x180DF8EB0
 	|-Array.Sort<Matrix4x4>
 	|
-	|-RVA: 0xDFAB30 Offset: 0xDF9130 VA: 0x180DFAB30
+	|-RVA: 0xDFAA30 Offset: 0xDF9030 VA: 0x180DFAA30
 	|-Array.Sort<RaycastHit2D>
 	|
-	|-RVA: 0xDFAC70 Offset: 0xDF9270 VA: 0x180DFAC70
+	|-RVA: 0xDFAB70 Offset: 0xDF9170 VA: 0x180DFAB70
 	|-Array.Sort<RaycastHit>
 	|
-	|-RVA: 0xDFB100 Offset: 0xDF9700 VA: 0x180DFB100
+	|-RVA: 0xDFB000 Offset: 0xDF9600 VA: 0x180DFB000
 	|-Array.Sort<Rect>
 	|
-	|-RVA: 0xDFB550 Offset: 0xDF9B50 VA: 0x180DFB550
+	|-RVA: 0xDFB450 Offset: 0xDF9A50 VA: 0x180DFB450
 	|-Array.Sort<RenderTargetIdentifier>
 	|
-	|-RVA: 0xDFB9A0 Offset: 0xDF9FA0 VA: 0x180DFB9A0
+	|-RVA: 0xDFB8A0 Offset: 0xDF9EA0 VA: 0x180DFB8A0
 	|-Array.Sort<Resolution>
 	|
-	|-RVA: 0xDF5F90 Offset: 0xDF4590 VA: 0x180DF5F90
+	|-RVA: 0xDF5E90 Offset: 0xDF4490 VA: 0x180DF5E90
 	|-Array.Sort<GlyphRect>
 	|
-	|-RVA: 0xDFE8C0 Offset: 0xDFCEC0 VA: 0x180DFE8C0
+	|-RVA: 0xDFE7C0 Offset: 0xDFCDC0 VA: 0x180DFE7C0
 	|-Array.Sort<TreeInstance>
 	|
-	|-RVA: 0xDFEA00 Offset: 0xDFD000 VA: 0x180DFEA00
+	|-RVA: 0xDFE900 Offset: 0xDFCF00 VA: 0x180DFE900
 	|-Array.Sort<UICharInfo>
 	|
-	|-RVA: 0xDF58C0 Offset: 0xDF3EC0 VA: 0x180DF58C0
+	|-RVA: 0xDF57C0 Offset: 0xDF3DC0 VA: 0x180DF57C0
 	|-Array.Sort<FocusController.FocusedElement>
 	|
-	|-RVA: 0xDFEC80 Offset: 0xDFD280 VA: 0x180DFEC80
+	|-RVA: 0xDFEB80 Offset: 0xDFD180 VA: 0x180DFEB80
 	|-Array.Sort<UILineInfo>
 	|
-	|-RVA: 0xDFEDC0 Offset: 0xDFD3C0 VA: 0x180DFEDC0
+	|-RVA: 0xDFECC0 Offset: 0xDFD2C0 VA: 0x180DFECC0
 	|-Array.Sort<UIVertex>
 	|
-	|-RVA: 0xE000D0 Offset: 0xDFE6D0 VA: 0x180E000D0
+	|-RVA: 0xDFFFD0 Offset: 0xDFE5D0 VA: 0x180DFFFD0
 	|-Array.Sort<UnitySynchronizationContext.WorkRequest>
 	|
-	|-RVA: 0xDFF780 Offset: 0xDFDD80 VA: 0x180DFF780
+	|-RVA: 0xDFF680 Offset: 0xDFDC80 VA: 0x180DFF680
 	|-Array.Sort<Vector2>
 	|
-	|-RVA: 0xDFFA00 Offset: 0xDFE000 VA: 0x180DFFA00
+	|-RVA: 0xDFF900 Offset: 0xDFDF00 VA: 0x180DFF900
 	|-Array.Sort<Vector3>
 	|
-	|-RVA: 0xDFFB40 Offset: 0xDFE140 VA: 0x180DFFB40
+	|-RVA: 0xDFFA40 Offset: 0xDFE040 VA: 0x180DFFA40
 	|-Array.Sort<Vector4>
 	|
-	|-RVA: 0xDFF8C0 Offset: 0xDFDEC0 VA: 0x180DFF8C0
+	|-RVA: 0xDFF7C0 Offset: 0xDFDDC0 VA: 0x180DFF7C0
 	|-Array.Sort<Vector2i>
 	|
-	|-RVA: 0xDFFE50 Offset: 0xDFE450 VA: 0x180DFFE50
+	|-RVA: 0xDFFD50 Offset: 0xDFE350 VA: 0x180DFFD50
 	|-Array.Sort<ViewModelDrawEvent>
 	|
-	|-RVA: 0xDF3C00 Offset: 0xDF2200 VA: 0x180DF3C00
+	|-RVA: 0xDF3B00 Offset: 0xDF2100 VA: 0x180DF3B00
 	|-Array.Sort<WindZoneExManager.CurrentZoneEntry>
 	|
-	|-RVA: 0xDF82A0 Offset: 0xDF68A0 VA: 0x180DF82A0
+	|-RVA: 0xDF81A0 Offset: 0xDF67A0 VA: 0x180DF81A0
 	|-Array.Sort<WorldSplineData.LUTEntry.LUTPoint>
 	*/
 
 	public static void Sort<T>(T[] array, Comparison<T> comparison) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDF7550 Offset: 0xDF5B50 VA: 0x180DF7550
+	|-RVA: 0xDF7450 Offset: 0xDF5A50 VA: 0x180DF7450
 	|-Array.Sort<KeyValuePair<Guid, int>>
 	|
-	|-RVA: 0xDFBE30 Offset: 0xDFA430 VA: 0x180DFBE30
+	|-RVA: 0xDFBD30 Offset: 0xDFA330 VA: 0x180DFBD30
 	|-Array.Sort<object>
 	|
-	|-RVA: 0xDFADB0 Offset: 0xDF93B0 VA: 0x180DFADB0
+	|-RVA: 0xDFACB0 Offset: 0xDF92B0 VA: 0x180DFACB0
 	|-Array.Sort<RaycastHit>
 	*/
 
 	public static void Sort<TKey, TValue>(TKey[] keys, TValue[] items) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDFBAE0 Offset: 0xDFA0E0 VA: 0x180DFBAE0
+	|-RVA: 0xDFB9E0 Offset: 0xDF9FE0 VA: 0x180DFB9E0
 	|-Array.Sort<object, object>
 	*/
 
 	public static void Sort<TKey, TValue>(TKey[] keys, TValue[] items, int index, int length) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDFBB80 Offset: 0xDFA180 VA: 0x180DFBB80
+	|-RVA: 0xDFBA80 Offset: 0xDFA080 VA: 0x180DFBA80
 	|-Array.Sort<object, object>
 	*/
 
 	public static void Sort<TKey, TValue>(TKey[] keys, TValue[] items, IComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDFBD60 Offset: 0xDFA360 VA: 0x180DFBD60
+	|-RVA: 0xDFBC60 Offset: 0xDFA260 VA: 0x180DFBC60
 	|-Array.Sort<object, object>
 	|
-	|-RVA: 0xDFF210 Offset: 0xDFD810 VA: 0x180DFF210
+	|-RVA: 0xDFF110 Offset: 0xDFD710 VA: 0x180DFF110
 	|-Array.Sort<ulong, object>
 	|-Array.Sort<ulong, string>
 	*/
@@ -2034,17 +2034,17 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public static void Sort<TKey, TValue>(TKey[] keys, TValue[] items, int index, int length, IComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDFBBB0 Offset: 0xDFA1B0 VA: 0x180DFBBB0
+	|-RVA: 0xDFBAB0 Offset: 0xDFA0B0 VA: 0x180DFBAB0
 	|-Array.Sort<object, object>
 	|
-	|-RVA: 0xDFF2C0 Offset: 0xDFD8C0 VA: 0x180DFF2C0
+	|-RVA: 0xDFF1C0 Offset: 0xDFD7C0 VA: 0x180DFF1C0
 	|-Array.Sort<ulong, object>
 	*/
 
 	public static bool Exists<T>(T[] array, Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x124F290 Offset: 0x124D890 VA: 0x18124F290
+	|-RVA: 0x124F190 Offset: 0x124D790 VA: 0x18124F190
 	|-Array.Exists<object>
 	*/
 
@@ -2073,28 +2073,28 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public static T[] FindAll<T>(T[] array, Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A36190 Offset: 0x1A34790 VA: 0x181A36190
+	|-RVA: 0x1A36090 Offset: 0x1A34690 VA: 0x181A36090
 	|-Array.FindAll<object>
 	*/
 
 	public static int FindIndex<T>(T[] array, Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1174D50 Offset: 0x1173350 VA: 0x181174D50
+	|-RVA: 0x1174C50 Offset: 0x1173250 VA: 0x181174C50
 	|-Array.FindIndex<object>
 	*/
 
 	public static int FindIndex<T>(T[] array, int startIndex, Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1174CA0 Offset: 0x11732A0 VA: 0x181174CA0
+	|-RVA: 0x1174BA0 Offset: 0x11731A0 VA: 0x181174BA0
 	|-Array.FindIndex<object>
 	*/
 
 	public static int FindIndex<T>(T[] array, int startIndex, int count, Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1174DF0 Offset: 0x11733F0 VA: 0x181174DF0
+	|-RVA: 0x1174CF0 Offset: 0x11732F0 VA: 0x181174CF0
 	|-Array.FindIndex<object>
 	*/
 
@@ -2108,21 +2108,21 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	public static int FindLastIndex<T>(T[] array, Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x11751A0 Offset: 0x11737A0 VA: 0x1811751A0
+	|-RVA: 0x11750A0 Offset: 0x11736A0 VA: 0x1811750A0
 	|-Array.FindLastIndex<object>
 	*/
 
 	public static int FindLastIndex<T>(T[] array, int startIndex, Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1175240 Offset: 0x1173840 VA: 0x181175240
+	|-RVA: 0x1175140 Offset: 0x1173740 VA: 0x181175140
 	|-Array.FindLastIndex<object>
 	*/
 
 	public static int FindLastIndex<T>(T[] array, int startIndex, int count, Predicate<T> match) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1174FA0 Offset: 0x11735A0 VA: 0x181174FA0
+	|-RVA: 0x1174EA0 Offset: 0x11734A0 VA: 0x181174EA0
 	|-Array.FindLastIndex<object>
 	*/
 
@@ -4988,373 +4988,373 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	internal bool InternalArray__ICollection_Remove<T>(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF418B0 Offset: 0xF3FEB0 VA: 0x180F418B0
+	|-RVA: 0xF417B0 Offset: 0xF3FDB0 VA: 0x180F417B0
 	|-Array.InternalArray__ICollection_Remove<AdvancedChristmasLights.pointEntry>
 	|
-	|-RVA: 0xF40050 Offset: 0xF3E650 VA: 0x180F40050
+	|-RVA: 0xF3FF50 Offset: 0xF3E550 VA: 0x180F3FF50
 	|-Array.InternalArray__ICollection_Remove<AlignedLineDrawer.LinePoint>
 	|
-	|-RVA: 0xF3F0F0 Offset: 0xF3D6F0 VA: 0x180F3F0F0
+	|-RVA: 0xF3EFF0 Offset: 0xF3D5F0 VA: 0x180F3EFF0
 	|-Array.InternalArray__ICollection_Remove<AtmosphereVolumeRenderer.CurrentVolumeEntry>
 	|
-	|-RVA: 0xF3F8D0 Offset: 0xF3DED0 VA: 0x180F3F8D0
+	|-RVA: 0xF3F7D0 Offset: 0xF3DDD0 VA: 0x180F3F7D0
 	|-Array.InternalArray__ICollection_Remove<AvatarCache.Entry>
 	|
-	|-RVA: 0xF40F50 Offset: 0xF3F550 VA: 0x180F40F50
+	|-RVA: 0xF40E50 Offset: 0xF3F450 VA: 0x180F40E50
 	|-Array.InternalArray__ICollection_Remove<BaseEntity.ServerFileRequest>
 	|
-	|-RVA: 0xF3ECD0 Offset: 0xF3D2D0 VA: 0x180F3ECD0
+	|-RVA: 0xF3EBD0 Offset: 0xF3D1D0 VA: 0x180F3EBD0
 	|-Array.InternalArray__ICollection_Remove<CameraMan.CameraState>
 	|
-	|-RVA: 0xF3FF90 Offset: 0xF3E590 VA: 0x180F3FF90
+	|-RVA: 0xF3FE90 Offset: 0xF3E490 VA: 0x180F3FE90
 	|-Array.InternalArray__ICollection_Remove<CardTableUI.KeycodeWithAction>
 	|
-	|-RVA: 0xF400B0 Offset: 0xF3E6B0 VA: 0x180F400B0
+	|-RVA: 0xF3FFB0 Offset: 0xF3E5B0 VA: 0x180F3FFB0
 	|-Array.InternalArray__ICollection_Remove<Cassette.LoadRequest>
 	|
-	|-RVA: 0xF3EF10 Offset: 0xF3D510 VA: 0x180F3EF10
+	|-RVA: 0xF3EE10 Offset: 0xF3D410 VA: 0x180F3EE10
 	|-Array.InternalArray__ICollection_Remove<CommandBufferManager.CommandBufferEntry>
 	|
-	|-RVA: 0xF40A10 Offset: 0xF3F010 VA: 0x180F40A10
+	|-RVA: 0xF40910 Offset: 0xF3EF10 VA: 0x180F40910
 	|-Array.InternalArray__ICollection_Remove<Admin.PlayerInfo>
 	|
-	|-RVA: 0xF40EF0 Offset: 0xF3F4F0 VA: 0x180F40EF0
+	|-RVA: 0xF40DF0 Offset: 0xF3F3F0 VA: 0x180F40DF0
 	|-Array.InternalArray__ICollection_Remove<Admin.ServerConvarInfo>
 	|
-	|-RVA: 0xF40FB0 Offset: 0xF3F5B0 VA: 0x180F40FB0
+	|-RVA: 0xF40EB0 Offset: 0xF3F4B0 VA: 0x180F40EB0
 	|-Array.InternalArray__ICollection_Remove<Admin.ServerUGCInfo>
 	|
-	|-RVA: 0xF405F0 Offset: 0xF3EBF0 VA: 0x180F405F0
+	|-RVA: 0xF404F0 Offset: 0xF3EAF0 VA: 0x180F404F0
 	|-Array.InternalArray__ICollection_Remove<Chat.MuteEntry>
 	|
-	|-RVA: 0xF3F750 Offset: 0xF3DD50 VA: 0x180F3F750
+	|-RVA: 0xF3F650 Offset: 0xF3DC50 VA: 0x180F3F650
 	|-Array.InternalArray__ICollection_Remove<Debugging.EntityInfo>
 	|
-	|-RVA: 0xF3F1B0 Offset: 0xF3D7B0 VA: 0x180F3F1B0
+	|-RVA: 0xF3F0B0 Offset: 0xF3D6B0 VA: 0x180F3F0B0
 	|-Array.InternalArray__ICollection_Remove<DamageRenderer.DamageShowingRenderer>
 	|
-	|-RVA: 0xF402F0 Offset: 0xF3E8F0 VA: 0x180F402F0
+	|-RVA: 0xF401F0 Offset: 0xF3E7F0 VA: 0x180F401F0
 	|-Array.InternalArray__ICollection_Remove<DeferredExtensionMesh.MaterialLink>
 	|
-	|-RVA: 0xF40350 Offset: 0xF3E950 VA: 0x180F40350
+	|-RVA: 0xF40250 Offset: 0xF3E850 VA: 0x180F40250
 	|-Array.InternalArray__ICollection_Remove<DeferredMeshDecal.MaterialLink>
 	|
-	|-RVA: 0xF3F210 Offset: 0xF3D810 VA: 0x180F3F210
+	|-RVA: 0xF3F110 Offset: 0xF3D710 VA: 0x180F3F110
 	|-Array.InternalArray__ICollection_Remove<Demos.DemoInfo>
 	|
-	|-RVA: 0xF3F3F0 Offset: 0xF3D9F0 VA: 0x180F3F3F0
+	|-RVA: 0xF3F2F0 Offset: 0xF3D8F0 VA: 0x180F3F2F0
 	|-Array.InternalArray__ICollection_Remove<DungeonGridConnectionHash>
 	|
-	|-RVA: 0xF3EC70 Offset: 0xF3D270 VA: 0x180F3EC70
+	|-RVA: 0xF3EB70 Offset: 0xF3D170 VA: 0x180F3EB70
 	|-Array.InternalArray__ICollection_Remove<CRedge>
 	|
-	|-RVA: 0xF3EEB0 Offset: 0xF3D4B0 VA: 0x180F3EEB0
+	|-RVA: 0xF3EDB0 Offset: 0xF3D3B0 VA: 0x180F3EDB0
 	|-Array.InternalArray__ICollection_Remove<CombineClass>
 	|
-	|-RVA: 0xF3F450 Offset: 0xF3DA50 VA: 0x180F3F450
+	|-RVA: 0xF3F350 Offset: 0xF3D950 VA: 0x180F3F350
 	|-Array.InternalArray__ICollection_Remove<ERCell>
 	|
-	|-RVA: 0xF3F4B0 Offset: 0xF3DAB0 VA: 0x180F3F4B0
+	|-RVA: 0xF3F3B0 Offset: 0xF3D9B0 VA: 0x180F3F3B0
 	|-Array.InternalArray__ICollection_Remove<ERChildsSO>
 	|
-	|-RVA: 0xF3F510 Offset: 0xF3DB10 VA: 0x180F3F510
+	|-RVA: 0xF3F410 Offset: 0xF3DA10 VA: 0x180F3F410
 	|-Array.InternalArray__ICollection_Remove<ERConnectionGUIStatus>
 	|
-	|-RVA: 0xF3F570 Offset: 0xF3DB70 VA: 0x180F3F570
+	|-RVA: 0xF3F470 Offset: 0xF3DA70 VA: 0x180F3F470
 	|-Array.InternalArray__ICollection_Remove<ERLane>
 	|
-	|-RVA: 0xF404D0 Offset: 0xF3EAD0 VA: 0x180F404D0
+	|-RVA: 0xF403D0 Offset: 0xF3E9D0 VA: 0x180F403D0
 	|-Array.InternalArray__ICollection_Remove<ERMeshCombineUtility.MeshInstance>
 	|
-	|-RVA: 0xF3F5D0 Offset: 0xF3DBD0 VA: 0x180F3F5D0
+	|-RVA: 0xF3F4D0 Offset: 0xF3DAD0 VA: 0x180F3F4D0
 	|-Array.InternalArray__ICollection_Remove<ERSOSection>
 	|
-	|-RVA: 0xF3F630 Offset: 0xF3DC30 VA: 0x180F3F630
+	|-RVA: 0xF3F530 Offset: 0xF3DB30 VA: 0x180F3F530
 	|-Array.InternalArray__ICollection_Remove<ERSplatmap>
 	|
-	|-RVA: 0xF3F690 Offset: 0xF3DC90 VA: 0x180F3F690
+	|-RVA: 0xF3F590 Offset: 0xF3DB90 VA: 0x180F3F590
 	|-Array.InternalArray__ICollection_Remove<ERTerrainChange>
 	|
-	|-RVA: 0xF3F6F0 Offset: 0xF3DCF0 VA: 0x180F3F6F0
+	|-RVA: 0xF3F5F0 Offset: 0xF3DBF0 VA: 0x180F3F5F0
 	|-Array.InternalArray__ICollection_Remove<ERVSData>
 	|
-	|-RVA: 0xF40650 Offset: 0xF3EC50 VA: 0x180F40650
+	|-RVA: 0xF40550 Offset: 0xF3EB50 VA: 0x180F40550
 	|-Array.InternalArray__ICollection_Remove<NormalPairs>
 	|
-	|-RVA: 0xF40CB0 Offset: 0xF3F2B0 VA: 0x180F40CB0
+	|-RVA: 0xF40BB0 Offset: 0xF3F1B0 VA: 0x180F40BB0
 	|-Array.InternalArray__ICollection_Remove<EngineDamageOverTime.RecentDamage>
 	|
-	|-RVA: 0xF3F810 Offset: 0xF3DE10 VA: 0x180F3F810
+	|-RVA: 0xF3F710 Offset: 0xF3DD10 VA: 0x180F3F710
 	|-Array.InternalArray__ICollection_Remove<EntityRef>
 	|
-	|-RVA: 0xF3F7B0 Offset: 0xF3DDB0 VA: 0x180F3F7B0
+	|-RVA: 0xF3F6B0 Offset: 0xF3DCB0 VA: 0x180F3F6B0
 	|-Array.InternalArray__ICollection_Remove<EntityRef<object>>
 	|
-	|-RVA: 0xF3FBD0 Offset: 0xF3E1D0 VA: 0x180F3FBD0
+	|-RVA: 0xF3FAD0 Offset: 0xF3E0D0 VA: 0x180F3FAD0
 	|-Array.InternalArray__ICollection_Remove<ExpandedLifeStats.GenericStatDisplay>
 	|
-	|-RVA: 0xF3ED90 Offset: 0xF3D390 VA: 0x180F3ED90
+	|-RVA: 0xF3EC90 Offset: 0xF3D290 VA: 0x180F3EC90
 	|-Array.InternalArray__ICollection_Remove<BurstCloth.Chain>
 	|
-	|-RVA: 0xF3ED30 Offset: 0xF3D330 VA: 0x180F3ED30
+	|-RVA: 0xF3EC30 Offset: 0xF3D230 VA: 0x180F3EC30
 	|-Array.InternalArray__ICollection_Remove<CapsuleParams>
 	|
-	|-RVA: 0xF3EB50 Offset: 0xF3D150 VA: 0x180F3EB50
+	|-RVA: 0xF3EA50 Offset: 0xF3D050 VA: 0x180F3EA50
 	|-Array.InternalArray__ICollection_Remove<BoneData>
 	|
-	|-RVA: 0xF3EBB0 Offset: 0xF3D1B0 VA: 0x180F3EBB0
+	|-RVA: 0xF3EAB0 Offset: 0xF3D0B0 VA: 0x180F3EAB0
 	|-Array.InternalArray__ICollection_Remove<BoneState>
 	|
-	|-RVA: 0xF3EDF0 Offset: 0xF3D3F0 VA: 0x180F3EDF0
+	|-RVA: 0xF3ECF0 Offset: 0xF3D2F0 VA: 0x180F3ECF0
 	|-Array.InternalArray__ICollection_Remove<ColliderData>
 	|
-	|-RVA: 0xF3EE50 Offset: 0xF3D450 VA: 0x180F3EE50
+	|-RVA: 0xF3ED50 Offset: 0xF3D350 VA: 0x180F3ED50
 	|-Array.InternalArray__ICollection_Remove<ColliderState>
 	|
-	|-RVA: 0xF41430 Offset: 0xF3FA30 VA: 0x180F41430
+	|-RVA: 0xF41330 Offset: 0xF3F930 VA: 0x180F41330
 	|-Array.InternalArray__ICollection_Remove<TabbedPanel.Tab>
 	|
-	|-RVA: 0xF3F990 Offset: 0xF3DF90 VA: 0x180F3F990
+	|-RVA: 0xF3F890 Offset: 0xF3DE90 VA: 0x180F3F890
 	|-Array.InternalArray__ICollection_Remove<Output.Entry>
 	|
-	|-RVA: 0xF3EAF0 Offset: 0xF3D0F0 VA: 0x180F3EAF0
+	|-RVA: 0xF3E9F0 Offset: 0xF3CFF0 VA: 0x180F3E9F0
 	|-Array.InternalArray__ICollection_Remove<RCon.BannedAddresses>
 	|
-	|-RVA: 0xF3EF70 Offset: 0xF3D570 VA: 0x180F3EF70
+	|-RVA: 0xF3EE70 Offset: 0xF3D470 VA: 0x180F3EE70
 	|-Array.InternalArray__ICollection_Remove<RCon.Command>
 	|
-	|-RVA: 0xF3EC10 Offset: 0xF3D210 VA: 0x180F3EC10
+	|-RVA: 0xF3EB10 Offset: 0xF3D110 VA: 0x180F3EB10
 	|-Array.InternalArray__ICollection_Remove<SkeletonDefinition.Bone>
 	|
-	|-RVA: 0xF3F870 Offset: 0xF3DE70 VA: 0x180F3F870
+	|-RVA: 0xF3F770 Offset: 0xF3DD70 VA: 0x180F3F770
 	|-Array.InternalArray__ICollection_Remove<Tick.Entry>
 	|
-	|-RVA: 0xF40D70 Offset: 0xF3F370 VA: 0x180F40D70
+	|-RVA: 0xF40C70 Offset: 0xF3F270 VA: 0x180F40C70
 	|-Array.InternalArray__ICollection_Remove<RenderInfo.RendererInstance>
 	|
-	|-RVA: 0xF3F030 Offset: 0xF3D630 VA: 0x180F3F030
+	|-RVA: 0xF3EF30 Offset: 0xF3D530 VA: 0x180F3EF30
 	|-Array.InternalArray__ICollection_Remove<WeightedStringList.Container>
 	|
-	|-RVA: 0xF3F9F0 Offset: 0xF3DFF0 VA: 0x180F3F9F0
+	|-RVA: 0xF3F8F0 Offset: 0xF3DEF0 VA: 0x180F3F8F0
 	|-Array.InternalArray__ICollection_Remove<FishingRodViewmodel.FishViewmodel>
 	|
-	|-RVA: 0xF3EFD0 Offset: 0xF3D5D0 VA: 0x180F3EFD0
+	|-RVA: 0xF3EED0 Offset: 0xF3D4D0 VA: 0x180F3EED0
 	|-Array.InternalArray__ICollection_Remove<FloatConditions.Condition>
 	|
-	|-RVA: 0xF3FAB0 Offset: 0xF3E0B0 VA: 0x180F3FAB0
+	|-RVA: 0xF3F9B0 Offset: 0xF3DFB0 VA: 0x180F3F9B0
 	|-Array.InternalArray__ICollection_Remove<FoliageGridMeshData.FoliageVertex>
 	|
-	|-RVA: 0xF3FA50 Offset: 0xF3E050 VA: 0x180F3FA50
+	|-RVA: 0xF3F950 Offset: 0xF3DF50 VA: 0x180F3F950
 	|-Array.InternalArray__ICollection_Remove<FoliageKey>
 	|
-	|-RVA: 0xF40B90 Offset: 0xF3F190 VA: 0x180F40B90
+	|-RVA: 0xF40A90 Offset: 0xF3F090 VA: 0x180F40A90
 	|-Array.InternalArray__ICollection_Remove<GameManifest.PooledString>
 	|
-	|-RVA: 0xF40830 Offset: 0xF3EE30 VA: 0x180F40830
+	|-RVA: 0xF40730 Offset: 0xF3ED30 VA: 0x180F40730
 	|-Array.InternalArray__ICollection_Remove<Option>
 	|
-	|-RVA: 0xF41370 Offset: 0xF3F970 VA: 0x180F41370
+	|-RVA: 0xF41270 Offset: 0xF3F870 VA: 0x180F41270
 	|-Array.InternalArray__ICollection_Remove<GameStat.Stat>
 	|
-	|-RVA: 0xF414F0 Offset: 0xF3FAF0 VA: 0x180F414F0
+	|-RVA: 0xF413F0 Offset: 0xF3F9F0 VA: 0x180F413F0
 	|-Array.InternalArray__ICollection_Remove<GameTip.Theme>
 	|
-	|-RVA: 0xF3FC30 Offset: 0xF3E230 VA: 0x180F3FC30
+	|-RVA: 0xF3FB30 Offset: 0xF3E130 VA: 0x180F3FB30
 	|-Array.InternalArray__ICollection_Remove<Gibbable.GibMesh>
 	|
-	|-RVA: 0xF40890 Offset: 0xF3EE90 VA: 0x180F40890
+	|-RVA: 0xF40790 Offset: 0xF3ED90 VA: 0x180F40790
 	|-Array.InternalArray__ICollection_Remove<Gibbable.OverrideMesh>
 	|
-	|-RVA: 0xF3FB70 Offset: 0xF3E170 VA: 0x180F3FB70
+	|-RVA: 0xF3FA70 Offset: 0xF3E070 VA: 0x180F3FA70
 	|-Array.InternalArray__ICollection_Remove<GrowableGeneProperties.GeneWeight>
 	|
-	|-RVA: 0xF3FC90 Offset: 0xF3E290 VA: 0x180F3FC90
+	|-RVA: 0xF3FB90 Offset: 0xF3E190 VA: 0x180F3FB90
 	|-Array.InternalArray__ICollection_Remove<HairSetCollection.HairSetEntry>
 	|
-	|-RVA: 0xF41070 Offset: 0xF3F670 VA: 0x180F41070
+	|-RVA: 0xF40F70 Offset: 0xF3F570 VA: 0x180F40F70
 	|-Array.InternalArray__ICollection_Remove<IconSkinPicker.SkinButtonSetup>
 	|
-	|-RVA: 0xF3FD50 Offset: 0xF3E350 VA: 0x180F3FD50
+	|-RVA: 0xF3FC50 Offset: 0xF3E250 VA: 0x180F3FC50
 	|-Array.InternalArray__ICollection_Remove<ImageStorageEntity.ImageRequest>
 	|
-	|-RVA: 0xF3FE10 Offset: 0xF3E410 VA: 0x180F3FE10
+	|-RVA: 0xF3FD10 Offset: 0xF3E310 VA: 0x180F3FD10
 	|-Array.InternalArray__ICollection_Remove<InstancingKey>
 	|
-	|-RVA: 0xF40710 Offset: 0xF3ED10 VA: 0x180F40710
+	|-RVA: 0xF40610 Offset: 0xF3EC10 VA: 0x180F40610
 	|-Array.InternalArray__ICollection_Remove<InstrumentKeyController.NoteBinding>
 	|
-	|-RVA: 0xF3FE70 Offset: 0xF3E470 VA: 0x180F3FE70
+	|-RVA: 0xF3FD70 Offset: 0xF3E370 VA: 0x180F3FD70
 	|-Array.InternalArray__ICollection_Remove<InvokeAction>
 	|
-	|-RVA: 0xF410D0 Offset: 0xF3F6D0 VA: 0x180F410D0
+	|-RVA: 0xF40FD0 Offset: 0xF3F5D0 VA: 0x180F40FD0
 	|-Array.InternalArray__ICollection_Remove<ItemSkinDirectory.Skin>
 	|
-	|-RVA: 0xF409B0 Offset: 0xF3EFB0 VA: 0x180F409B0
+	|-RVA: 0xF408B0 Offset: 0xF3EEB0 VA: 0x180F408B0
 	|-Array.InternalArray__ICollection_Remove<Kayak.PlayerAnimationState>
 	|
-	|-RVA: 0xF416D0 Offset: 0xF3FCD0 VA: 0x180F416D0
+	|-RVA: 0xF415D0 Offset: 0xF3FBD0 VA: 0x180F415D0
 	|-Array.InternalArray__ICollection_Remove<KeyframeView.UIKeyframeValue>
 	|
-	|-RVA: 0xF3F150 Offset: 0xF3D750 VA: 0x180F3F150
+	|-RVA: 0xF3F050 Offset: 0xF3D650 VA: 0x180F3F050
 	|-Array.InternalArray__ICollection_Remove<LifeInfographic.DamageSetting>
 	|
-	|-RVA: 0xF415B0 Offset: 0xF3FBB0 VA: 0x180F415B0
+	|-RVA: 0xF414B0 Offset: 0xF3FAB0 VA: 0x180F414B0
 	|-Array.InternalArray__ICollection_Remove<LocalClock.TimedEvent>
 	|
-	|-RVA: 0xF3FCF0 Offset: 0xF3E2F0 VA: 0x180F3FCF0
+	|-RVA: 0xF3FBF0 Offset: 0xF3E1F0 VA: 0x180F3FBF0
 	|-Array.InternalArray__ICollection_Remove<LookAtIOEnt.HandleSet>
 	|
-	|-RVA: 0xF401D0 Offset: 0xF3E7D0 VA: 0x180F401D0
+	|-RVA: 0xF400D0 Offset: 0xF3E6D0 VA: 0x180F400D0
 	|-Array.InternalArray__ICollection_Remove<LootContainer.LootSpawnSlot>
 	|
-	|-RVA: 0xF3F930 Offset: 0xF3DF30 VA: 0x180F3F930
+	|-RVA: 0xF3F830 Offset: 0xF3DE30 VA: 0x180F3F830
 	|-Array.InternalArray__ICollection_Remove<LootSpawn.Entry>
 	|
-	|-RVA: 0xF41850 Offset: 0xF3FE50 VA: 0x180F41850
+	|-RVA: 0xF41750 Offset: 0xF3FD50 VA: 0x180F41750
 	|-Array.InternalArray__ICollection_Remove<XPathNode>
 	|
-	|-RVA: 0xF417F0 Offset: 0xF3FDF0 VA: 0x180F417F0
+	|-RVA: 0xF416F0 Offset: 0xF3FCF0 VA: 0x180F416F0
 	|-Array.InternalArray__ICollection_Remove<XPathNodeRef>
 	|
-	|-RVA: 0xF40230 Offset: 0xF3E830 VA: 0x180F40230
+	|-RVA: 0xF40130 Offset: 0xF3E730 VA: 0x180F40130
 	|-Array.InternalArray__ICollection_Remove<MagnetCrane.MagnetCraneSnapshot>
 	|
-	|-RVA: 0xF40290 Offset: 0xF3E890 VA: 0x180F40290
+	|-RVA: 0xF40190 Offset: 0xF3E790 VA: 0x180F40190
 	|-Array.InternalArray__ICollection_Remove<MapView.MapMarkerCluster>
 	|
-	|-RVA: 0xF41130 Offset: 0xF3F730 VA: 0x180F41130
+	|-RVA: 0xF41030 Offset: 0xF3F630 VA: 0x180F41030
 	|-Array.InternalArray__ICollection_Remove<MapView.SleepingBagCluster>
 	|
-	|-RVA: 0xF403B0 Offset: 0xF3E9B0 VA: 0x180F403B0
+	|-RVA: 0xF402B0 Offset: 0xF3E8B0 VA: 0x180F402B0
 	|-Array.InternalArray__ICollection_Remove<MaterialPropertyDesc>
 	|
-	|-RVA: 0xF3FB10 Offset: 0xF3E110 VA: 0x180F3FB10
+	|-RVA: 0xF3FA10 Offset: 0xF3E010 VA: 0x180F3FA10
 	|-Array.InternalArray__ICollection_Remove<FourBitNumber>
 	|
-	|-RVA: 0xF41010 Offset: 0xF3F610 VA: 0x180F41010
+	|-RVA: 0xF40F10 Offset: 0xF3F510 VA: 0x180F40F10
 	|-Array.InternalArray__ICollection_Remove<SevenBitNumber>
 	|
-	|-RVA: 0xF40410 Offset: 0xF3EA10 VA: 0x180F40410
+	|-RVA: 0xF40310 Offset: 0xF3E910 VA: 0x180F40310
 	|-Array.InternalArray__ICollection_Remove<MeshColliderInstance>
 	|
-	|-RVA: 0xF40170 Offset: 0xF3E770 VA: 0x180F40170
+	|-RVA: 0xF40070 Offset: 0xF3E670 VA: 0x180F40070
 	|-Array.InternalArray__ICollection_Remove<MeshColliderLookup.LookupEntry>
 	|
-	|-RVA: 0xF40470 Offset: 0xF3EA70 VA: 0x180F40470
+	|-RVA: 0xF40370 Offset: 0xF3E970 VA: 0x180F40370
 	|-Array.InternalArray__ICollection_Remove<MeshInstance>
 	|
-	|-RVA: 0xF40530 Offset: 0xF3EB30 VA: 0x180F40530
+	|-RVA: 0xF40430 Offset: 0xF3EA30 VA: 0x180F40430
 	|-Array.InternalArray__ICollection_Remove<MeshRendererInstance>
 	|
-	|-RVA: 0xF40110 Offset: 0xF3E710 VA: 0x180F40110
+	|-RVA: 0xF40010 Offset: 0xF3E610 VA: 0x180F40010
 	|-Array.InternalArray__ICollection_Remove<MeshRendererLookup.LookupEntry>
 	|
-	|-RVA: 0xF3FFF0 Offset: 0xF3E5F0 VA: 0x180F3FFF0
+	|-RVA: 0xF3FEF0 Offset: 0xF3E4F0 VA: 0x180F3FEF0
 	|-Array.InternalArray__ICollection_Remove<MidiConvar.KnobBinding>
 	|
-	|-RVA: 0xF406B0 Offset: 0xF3ECB0 VA: 0x180F406B0
+	|-RVA: 0xF405B0 Offset: 0xF3EBB0 VA: 0x180F405B0
 	|-Array.InternalArray__ICollection_Remove<MidiConvar.NoteBinding>
 	|
-	|-RVA: 0xF40E90 Offset: 0xF3F490 VA: 0x180F40E90
+	|-RVA: 0xF40D90 Offset: 0xF3F390 VA: 0x180F40D90
 	|-Array.InternalArray__ICollection_Remove<SQLiteTypeNames>
 	|
-	|-RVA: 0xF3FF30 Offset: 0xF3E530 VA: 0x180F3FF30
+	|-RVA: 0xF3FE30 Offset: 0xF3E430 VA: 0x180F3FE30
 	|-Array.InternalArray__ICollection_Remove<SqliteKeyReader.KeyInfo>
 	|
-	|-RVA: 0xF41490 Offset: 0xF3FA90 VA: 0x180F41490
+	|-RVA: 0xF41390 Offset: 0xF3F990 VA: 0x180F41390
 	|-Array.InternalArray__ICollection_Remove<CodePointIndexer.TableRange>
 	|
-	|-RVA: 0xF41730 Offset: 0xF3FD30 VA: 0x180F41730
+	|-RVA: 0xF41630 Offset: 0xF3FC30 VA: 0x180F41630
 	|-Array.InternalArray__ICollection_Remove<Uri.UriScheme>
 	|
-	|-RVA: 0xF407D0 Offset: 0xF3EDD0 VA: 0x180F407D0
+	|-RVA: 0xF406D0 Offset: 0xF3ECD0 VA: 0x180F406D0
 	|-Array.InternalArray__ICollection_Remove<NVidiaReflex.NvReflex_FrameReport>
 	|
-	|-RVA: 0xF41550 Offset: 0xF3FB50 VA: 0x180F41550
+	|-RVA: 0xF41450 Offset: 0xF3FA50 VA: 0x180F41450
 	|-Array.InternalArray__ICollection_Remove<TimeAverageValueData>
 	|
-	|-RVA: 0xF3FED0 Offset: 0xF3E4D0 VA: 0x180F3FED0
+	|-RVA: 0xF3FDD0 Offset: 0xF3E3D0 VA: 0x180F3FDD0
 	|-Array.InternalArray__ICollection_Remove<JsonPosition>
 	|
-	|-RVA: 0xF41670 Offset: 0xF3FC70 VA: 0x180F41670
+	|-RVA: 0xF41570 Offset: 0xF3FB70 VA: 0x180F41570
 	|-Array.InternalArray__ICollection_Remove<DefaultSerializationBinder.TypeNameKey>
 	|
-	|-RVA: 0xF40E30 Offset: 0xF3F430 VA: 0x180F40E30
+	|-RVA: 0xF40D30 Offset: 0xF3F330 VA: 0x180F40D30
 	|-Array.InternalArray__ICollection_Remove<ResolverContractKey>
 	|
-	|-RVA: 0xF41610 Offset: 0xF3FC10 VA: 0x180F41610
+	|-RVA: 0xF41510 Offset: 0xF3FB10 VA: 0x180F41510
 	|-Array.InternalArray__ICollection_Remove<ConvertUtils.TypeConvertKey>
 	|
-	|-RVA: 0xF40770 Offset: 0xF3ED70 VA: 0x180F40770
+	|-RVA: 0xF40670 Offset: 0xF3EC70 VA: 0x180F40670
 	|-Array.InternalArray__ICollection_Remove<NoteBindingCollection.NoteData>
 	|
-	|-RVA: 0xF413D0 Offset: 0xF3F9D0 VA: 0x180F413D0
+	|-RVA: 0xF412D0 Offset: 0xF3F8D0 VA: 0x180F412D0
 	|-Array.InternalArray__ICollection_Remove<OccludeeState.State>
 	|
-	|-RVA: 0xF408F0 Offset: 0xF3EEF0 VA: 0x180F408F0
+	|-RVA: 0xF407F0 Offset: 0xF3EDF0 VA: 0x180F407F0
 	|-Array.InternalArray__ICollection_Remove<ParticleSystemContainer.ParticleSystemGroup>
 	|
-	|-RVA: 0xF40B30 Offset: 0xF3F130 VA: 0x180F40B30
+	|-RVA: 0xF40A30 Offset: 0xF3F030 VA: 0x180F40A30
 	|-Array.InternalArray__ICollection_Remove<PathFinder.Point>
 	|
-	|-RVA: 0xF40950 Offset: 0xF3EF50 VA: 0x180F40950
+	|-RVA: 0xF40850 Offset: 0xF3EE50 VA: 0x180F40850
 	|-Array.InternalArray__ICollection_Remove<PetCommandList.PetCommandDesc>
 	|
-	|-RVA: 0xF41190 Offset: 0xF3F790 VA: 0x180F41190
+	|-RVA: 0xF41090 Offset: 0xF3F690 VA: 0x180F41090
 	|-Array.InternalArray__ICollection_Remove<PlaceMonuments.SpawnInfo>
 	|
-	|-RVA: 0xF41250 Offset: 0xF3F850 VA: 0x180F41250
+	|-RVA: 0xF41150 Offset: 0xF3F750 VA: 0x180F41150
 	|-Array.InternalArray__ICollection_Remove<PlaceMonumentsOffshore.SpawnInfo>
 	|
-	|-RVA: 0xF411F0 Offset: 0xF3F7F0 VA: 0x180F411F0
+	|-RVA: 0xF410F0 Offset: 0xF3F6F0 VA: 0x180F410F0
 	|-Array.InternalArray__ICollection_Remove<PlaceMonumentsRailside.SpawnInfo>
 	|
-	|-RVA: 0xF412B0 Offset: 0xF3F8B0 VA: 0x180F412B0
+	|-RVA: 0xF411B0 Offset: 0xF3F7B0 VA: 0x180F411B0
 	|-Array.InternalArray__ICollection_Remove<PlaceMonumentsRoadside.SpawnInfo>
 	|
-	|-RVA: 0xF41310 Offset: 0xF3F910 VA: 0x180F41310
+	|-RVA: 0xF41210 Offset: 0xF3F810 VA: 0x180F41210
 	|-Array.InternalArray__ICollection_Remove<PlantProperties.Stage>
 	|
-	|-RVA: 0xF3FDB0 Offset: 0xF3E3B0 VA: 0x180F3FDB0
+	|-RVA: 0xF3FCB0 Offset: 0xF3E2B0 VA: 0x180F3FCB0
 	|-Array.InternalArray__ICollection_Remove<PlayerItemRecipe.Ingredient>
 	|
-	|-RVA: 0xF40A70 Offset: 0xF3F070 VA: 0x180F40A70
+	|-RVA: 0xF40970 Offset: 0xF3EF70 VA: 0x180F40970
 	|-Array.InternalArray__ICollection_Remove<PlayerItemRecipe>
 	|
-	|-RVA: 0xF40AD0 Offset: 0xF3F0D0 VA: 0x180F40AD0
+	|-RVA: 0xF409D0 Offset: 0xF3EFD0 VA: 0x180F409D0
 	|-Array.InternalArray__ICollection_Remove<PlayerModelCinematicList.PlayerModelCinematicAnimation>
 	|
-	|-RVA: 0xF40DD0 Offset: 0xF3F3D0 VA: 0x180F40DD0
+	|-RVA: 0xF40CD0 Offset: 0xF3F2D0 VA: 0x180F40CD0
 	|-Array.InternalArray__ICollection_Remove<PlayerModelHair.RendererMaterials>
 	|
-	|-RVA: 0xF40590 Offset: 0xF3EB90 VA: 0x180F40590
+	|-RVA: 0xF40490 Offset: 0xF3EA90 VA: 0x180F40490
 	|-Array.InternalArray__ICollection_Remove<ProjectileWeaponMod.Modifier>
 	|
-	|-RVA: 0xF3F270 Offset: 0xF3D870 VA: 0x180F3F270
+	|-RVA: 0xF3F170 Offset: 0xF3D770 VA: 0x180F3F170
 	|-Array.InternalArray__ICollection_Remove<DemoShotFloatKeyframe>
 	|
-	|-RVA: 0xF3F2D0 Offset: 0xF3D8D0 VA: 0x180F3F2D0
+	|-RVA: 0xF3F1D0 Offset: 0xF3D7D0 VA: 0x180F3F1D0
 	|-Array.InternalArray__ICollection_Remove<DemoShotParentKeyframe>
 	|
-	|-RVA: 0xF3F330 Offset: 0xF3D930 VA: 0x180F3F330
+	|-RVA: 0xF3F230 Offset: 0xF3D830 VA: 0x180F3F230
 	|-Array.InternalArray__ICollection_Remove<DemoShotQuaternionKeyframe>
 	|
-	|-RVA: 0xF3F390 Offset: 0xF3D990 VA: 0x180F3F390
+	|-RVA: 0xF3F290 Offset: 0xF3D890 VA: 0x180F3F290
 	|-Array.InternalArray__ICollection_Remove<DemoShotVectorKeyframe>
 	|
-	|-RVA: 0xF41790 Offset: 0xF3FD90 VA: 0x180F41790
+	|-RVA: 0xF41690 Offset: 0xF3FC90 VA: 0x180F41690
 	|-Array.InternalArray__ICollection_Remove<VectorData>
 	|
-	|-RVA: 0xF40BF0 Offset: 0xF3F1F0 VA: 0x180F40BF0
+	|-RVA: 0xF40AF0 Offset: 0xF3F0F0 VA: 0x180F40AF0
 	|-Array.InternalArray__ICollection_Remove<RandomItemDispenser.RandomItemChance>
 	|
-	|-RVA: 0xF40C50 Offset: 0xF3F250 VA: 0x180F40C50
+	|-RVA: 0xF40B50 Offset: 0xF3F150 VA: 0x180F40B50
 	|-Array.InternalArray__ICollection_Remove<RealTimeSince>
 	|
-	|-RVA: 0xF40D10 Offset: 0xF3F310 VA: 0x180F40D10
+	|-RVA: 0xF40C10 Offset: 0xF3F210 VA: 0x180F40C10
 	|-Array.InternalArray__ICollection_Remove<Recipe.RecipeIngredient>
 	|
-	|-RVA: 0xF3F090 Offset: 0xF3D690 VA: 0x180F3F090
+	|-RVA: 0xF3EF90 Offset: 0xF3D590 VA: 0x180F3EF90
 	|-Array.InternalArray__ICollection_Remove<ReflectionProbeEx.CubemapFaceMatrices>
 	|
 	|-RVA: 0xBE1D30 Offset: 0xBE0330 VA: 0x180BE1D30
@@ -7116,2128 +7116,2128 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	internal bool InternalArray__ICollection_Contains<T>(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125CE70 Offset: 0x125B470 VA: 0x18125CE70
+	|-RVA: 0x125CD70 Offset: 0x125B370 VA: 0x18125CD70
 	|-Array.InternalArray__ICollection_Contains<AdvancedChristmasLights.pointEntry>
 	|
-	|-RVA: 0x1255980 Offset: 0x1253F80 VA: 0x181255980
+	|-RVA: 0x1255880 Offset: 0x1253E80 VA: 0x181255880
 	|-Array.InternalArray__ICollection_Contains<AlignedLineDrawer.LinePoint>
 	|
-	|-RVA: 0x1250F10 Offset: 0x124F510 VA: 0x181250F10
+	|-RVA: 0x1250E10 Offset: 0x124F410 VA: 0x181250E10
 	|-Array.InternalArray__ICollection_Contains<AtmosphereVolumeRenderer.CurrentVolumeEntry>
 	|
-	|-RVA: 0x1253620 Offset: 0x1251C20 VA: 0x181253620
+	|-RVA: 0x1253520 Offset: 0x1251B20 VA: 0x181253520
 	|-Array.InternalArray__ICollection_Contains<AvatarCache.Entry>
 	|
-	|-RVA: 0x125A110 Offset: 0x1258710 VA: 0x18125A110
+	|-RVA: 0x125A010 Offset: 0x1258610 VA: 0x18125A010
 	|-Array.InternalArray__ICollection_Contains<BaseEntity.ServerFileRequest>
 	|
-	|-RVA: 0x124FCB0 Offset: 0x124E2B0 VA: 0x18124FCB0
+	|-RVA: 0x124FBB0 Offset: 0x124E1B0 VA: 0x18124FBB0
 	|-Array.InternalArray__ICollection_Contains<CameraMan.CameraState>
 	|
-	|-RVA: 0x12555C0 Offset: 0x1253BC0 VA: 0x1812555C0
+	|-RVA: 0x12554C0 Offset: 0x1253AC0 VA: 0x1812554C0
 	|-Array.InternalArray__ICollection_Contains<CardTableUI.KeycodeWithAction>
 	|
-	|-RVA: 0x1255B60 Offset: 0x1254160 VA: 0x181255B60
+	|-RVA: 0x1255A60 Offset: 0x1254060 VA: 0x181255A60
 	|-Array.InternalArray__ICollection_Contains<Cassette.LoadRequest>
 	|
-	|-RVA: 0x12507E0 Offset: 0x124EDE0 VA: 0x1812507E0
+	|-RVA: 0x12506E0 Offset: 0x124ECE0 VA: 0x1812506E0
 	|-Array.InternalArray__ICollection_Contains<CommandBufferManager.CommandBufferEntry>
 	|
-	|-RVA: 0x1258DC0 Offset: 0x12573C0 VA: 0x181258DC0
+	|-RVA: 0x1258CC0 Offset: 0x12572C0 VA: 0x181258CC0
 	|-Array.InternalArray__ICollection_Contains<Admin.PlayerInfo>
 	|
-	|-RVA: 0x1259F30 Offset: 0x1258530 VA: 0x181259F30
+	|-RVA: 0x1259E30 Offset: 0x1258430 VA: 0x181259E30
 	|-Array.InternalArray__ICollection_Contains<Admin.ServerConvarInfo>
 	|
-	|-RVA: 0x125A270 Offset: 0x1258870 VA: 0x18125A270
+	|-RVA: 0x125A170 Offset: 0x1258770 VA: 0x18125A170
 	|-Array.InternalArray__ICollection_Contains<Admin.ServerUGCInfo>
 	|
-	|-RVA: 0x12577B0 Offset: 0x1255DB0 VA: 0x1812577B0
+	|-RVA: 0x12576B0 Offset: 0x1255CB0 VA: 0x1812576B0
 	|-Array.InternalArray__ICollection_Contains<Chat.MuteEntry>
 	|
-	|-RVA: 0x1252ED0 Offset: 0x12514D0 VA: 0x181252ED0
+	|-RVA: 0x1252DD0 Offset: 0x12513D0 VA: 0x181252DD0
 	|-Array.InternalArray__ICollection_Contains<Debugging.EntityInfo>
 	|
-	|-RVA: 0x12512B0 Offset: 0x124F8B0 VA: 0x1812512B0
+	|-RVA: 0x12511B0 Offset: 0x124F7B0 VA: 0x1812511B0
 	|-Array.InternalArray__ICollection_Contains<DamageRenderer.DamageShowingRenderer>
 	|
-	|-RVA: 0x12566E0 Offset: 0x1254CE0 VA: 0x1812566E0
+	|-RVA: 0x12565E0 Offset: 0x1254BE0 VA: 0x1812565E0
 	|-Array.InternalArray__ICollection_Contains<DeferredExtensionMesh.MaterialLink>
 	|
-	|-RVA: 0x12568A0 Offset: 0x1254EA0 VA: 0x1812568A0
+	|-RVA: 0x12567A0 Offset: 0x1254DA0 VA: 0x1812567A0
 	|-Array.InternalArray__ICollection_Contains<DeferredMeshDecal.MaterialLink>
 	|
-	|-RVA: 0x1251470 Offset: 0x124FA70 VA: 0x181251470
+	|-RVA: 0x1251370 Offset: 0x124F970 VA: 0x181251370
 	|-Array.InternalArray__ICollection_Contains<Demos.DemoInfo>
 	|
-	|-RVA: 0x1251D50 Offset: 0x1250350 VA: 0x181251D50
+	|-RVA: 0x1251C50 Offset: 0x1250250 VA: 0x181251C50
 	|-Array.InternalArray__ICollection_Contains<DungeonGridConnectionHash>
 	|
-	|-RVA: 0x124FAE0 Offset: 0x124E0E0 VA: 0x18124FAE0
+	|-RVA: 0x124F9E0 Offset: 0x124DFE0 VA: 0x18124F9E0
 	|-Array.InternalArray__ICollection_Contains<CRedge>
 	|
-	|-RVA: 0x1250620 Offset: 0x124EC20 VA: 0x181250620
+	|-RVA: 0x1250520 Offset: 0x124EB20 VA: 0x181250520
 	|-Array.InternalArray__ICollection_Contains<CombineClass>
 	|
-	|-RVA: 0x1251F00 Offset: 0x1250500 VA: 0x181251F00
+	|-RVA: 0x1251E00 Offset: 0x1250400 VA: 0x181251E00
 	|-Array.InternalArray__ICollection_Contains<ERCell>
 	|
-	|-RVA: 0x12520B0 Offset: 0x12506B0 VA: 0x1812520B0
+	|-RVA: 0x1251FB0 Offset: 0x12505B0 VA: 0x181251FB0
 	|-Array.InternalArray__ICollection_Contains<ERChildsSO>
 	|
-	|-RVA: 0x1252290 Offset: 0x1250890 VA: 0x181252290
+	|-RVA: 0x1252190 Offset: 0x1250790 VA: 0x181252190
 	|-Array.InternalArray__ICollection_Contains<ERConnectionGUIStatus>
 	|
-	|-RVA: 0x1252440 Offset: 0x1250A40 VA: 0x181252440
+	|-RVA: 0x1252340 Offset: 0x1250940 VA: 0x181252340
 	|-Array.InternalArray__ICollection_Contains<ERLane>
 	|
-	|-RVA: 0x12570E0 Offset: 0x12556E0 VA: 0x1812570E0
+	|-RVA: 0x1256FE0 Offset: 0x12555E0 VA: 0x181256FE0
 	|-Array.InternalArray__ICollection_Contains<ERMeshCombineUtility.MeshInstance>
 	|
-	|-RVA: 0x1252600 Offset: 0x1250C00 VA: 0x181252600
+	|-RVA: 0x1252500 Offset: 0x1250B00 VA: 0x181252500
 	|-Array.InternalArray__ICollection_Contains<ERSOSection>
 	|
-	|-RVA: 0x12528A0 Offset: 0x1250EA0 VA: 0x1812528A0
+	|-RVA: 0x12527A0 Offset: 0x1250DA0 VA: 0x1812527A0
 	|-Array.InternalArray__ICollection_Contains<ERSplatmap>
 	|
-	|-RVA: 0x1252AF0 Offset: 0x12510F0 VA: 0x181252AF0
+	|-RVA: 0x12529F0 Offset: 0x1250FF0 VA: 0x1812529F0
 	|-Array.InternalArray__ICollection_Contains<ERTerrainChange>
 	|
-	|-RVA: 0x1252CA0 Offset: 0x12512A0 VA: 0x181252CA0
+	|-RVA: 0x1252BA0 Offset: 0x12511A0 VA: 0x181252BA0
 	|-Array.InternalArray__ICollection_Contains<ERVSData>
 	|
-	|-RVA: 0x1257990 Offset: 0x1255F90 VA: 0x181257990
+	|-RVA: 0x1257890 Offset: 0x1255E90 VA: 0x181257890
 	|-Array.InternalArray__ICollection_Contains<NormalPairs>
 	|
-	|-RVA: 0x1259620 Offset: 0x1257C20 VA: 0x181259620
+	|-RVA: 0x1259520 Offset: 0x1257B20 VA: 0x181259520
 	|-Array.InternalArray__ICollection_Contains<EngineDamageOverTime.RecentDamage>
 	|
-	|-RVA: 0x1253250 Offset: 0x1251850 VA: 0x181253250
+	|-RVA: 0x1253150 Offset: 0x1251750 VA: 0x181253150
 	|-Array.InternalArray__ICollection_Contains<EntityRef>
 	|
-	|-RVA: 0x1253090 Offset: 0x1251690 VA: 0x181253090
+	|-RVA: 0x1252F90 Offset: 0x1251590 VA: 0x181252F90
 	|-Array.InternalArray__ICollection_Contains<EntityRef<object>>
 	|
-	|-RVA: 0x1254400 Offset: 0x1252A00 VA: 0x181254400
+	|-RVA: 0x1254300 Offset: 0x1252900 VA: 0x181254300
 	|-Array.InternalArray__ICollection_Contains<ExpandedLifeStats.GenericStatDisplay>
 	|
-	|-RVA: 0x1250090 Offset: 0x124E690 VA: 0x181250090
+	|-RVA: 0x124FF90 Offset: 0x124E590 VA: 0x18124FF90
 	|-Array.InternalArray__ICollection_Contains<BurstCloth.Chain>
 	|
-	|-RVA: 0x124FE90 Offset: 0x124E490 VA: 0x18124FE90
+	|-RVA: 0x124FD90 Offset: 0x124E390 VA: 0x18124FD90
 	|-Array.InternalArray__ICollection_Contains<CapsuleParams>
 	|
-	|-RVA: 0x124F470 Offset: 0x124DA70 VA: 0x18124F470
+	|-RVA: 0x124F370 Offset: 0x124D970 VA: 0x18124F370
 	|-Array.InternalArray__ICollection_Contains<BoneData>
 	|
-	|-RVA: 0x124F6E0 Offset: 0x124DCE0 VA: 0x18124F6E0
+	|-RVA: 0x124F5E0 Offset: 0x124DBE0 VA: 0x18124F5E0
 	|-Array.InternalArray__ICollection_Contains<BoneState>
 	|
-	|-RVA: 0x1250240 Offset: 0x124E840 VA: 0x181250240
+	|-RVA: 0x1250140 Offset: 0x124E740 VA: 0x181250140
 	|-Array.InternalArray__ICollection_Contains<ColliderData>
 	|
-	|-RVA: 0x1250440 Offset: 0x124EA40 VA: 0x181250440
+	|-RVA: 0x1250340 Offset: 0x124E940 VA: 0x181250340
 	|-Array.InternalArray__ICollection_Contains<ColliderState>
 	|
-	|-RVA: 0x125B950 Offset: 0x1259F50 VA: 0x18125B950
+	|-RVA: 0x125B850 Offset: 0x1259E50 VA: 0x18125B850
 	|-Array.InternalArray__ICollection_Contains<TabbedPanel.Tab>
 	|
-	|-RVA: 0x12539C0 Offset: 0x1251FC0 VA: 0x1812539C0
+	|-RVA: 0x12538C0 Offset: 0x1251EC0 VA: 0x1812538C0
 	|-Array.InternalArray__ICollection_Contains<Output.Entry>
 	|
-	|-RVA: 0x124F2B0 Offset: 0x124D8B0 VA: 0x18124F2B0
+	|-RVA: 0x124F1B0 Offset: 0x124D7B0 VA: 0x18124F1B0
 	|-Array.InternalArray__ICollection_Contains<RCon.BannedAddresses>
 	|
-	|-RVA: 0x12509A0 Offset: 0x124EFA0 VA: 0x1812509A0
+	|-RVA: 0x12508A0 Offset: 0x124EEA0 VA: 0x1812508A0
 	|-Array.InternalArray__ICollection_Contains<RCon.Command>
 	|
-	|-RVA: 0x124F8E0 Offset: 0x124DEE0 VA: 0x18124F8E0
+	|-RVA: 0x124F7E0 Offset: 0x124DDE0 VA: 0x18124F7E0
 	|-Array.InternalArray__ICollection_Contains<SkeletonDefinition.Bone>
 	|
-	|-RVA: 0x1253410 Offset: 0x1251A10 VA: 0x181253410
+	|-RVA: 0x1253310 Offset: 0x1251910 VA: 0x181253310
 	|-Array.InternalArray__ICollection_Contains<Tick.Entry>
 	|
-	|-RVA: 0x12597D0 Offset: 0x1257DD0 VA: 0x1812597D0
+	|-RVA: 0x12596D0 Offset: 0x1257CD0 VA: 0x1812596D0
 	|-Array.InternalArray__ICollection_Contains<RenderInfo.RendererInstance>
 	|
-	|-RVA: 0x1250D50 Offset: 0x124F350 VA: 0x181250D50
+	|-RVA: 0x1250C50 Offset: 0x124F250 VA: 0x181250C50
 	|-Array.InternalArray__ICollection_Contains<WeightedStringList.Container>
 	|
-	|-RVA: 0x1253BA0 Offset: 0x12521A0 VA: 0x181253BA0
+	|-RVA: 0x1253AA0 Offset: 0x12520A0 VA: 0x181253AA0
 	|-Array.InternalArray__ICollection_Contains<FishingRodViewmodel.FishViewmodel>
 	|
-	|-RVA: 0x1250BA0 Offset: 0x124F1A0 VA: 0x181250BA0
+	|-RVA: 0x1250AA0 Offset: 0x124F0A0 VA: 0x181250AA0
 	|-Array.InternalArray__ICollection_Contains<FloatConditions.Condition>
 	|
-	|-RVA: 0x1253EA0 Offset: 0x12524A0 VA: 0x181253EA0
+	|-RVA: 0x1253DA0 Offset: 0x12523A0 VA: 0x181253DA0
 	|-Array.InternalArray__ICollection_Contains<FoliageGridMeshData.FoliageVertex>
 	|
-	|-RVA: 0x1253D60 Offset: 0x1252360 VA: 0x181253D60
+	|-RVA: 0x1253C60 Offset: 0x1252260 VA: 0x181253C60
 	|-Array.InternalArray__ICollection_Contains<FoliageKey>
 	|
-	|-RVA: 0x1259460 Offset: 0x1257A60 VA: 0x181259460
+	|-RVA: 0x1259360 Offset: 0x1257960 VA: 0x181259360
 	|-Array.InternalArray__ICollection_Contains<GameManifest.PooledString>
 	|
-	|-RVA: 0x12583A0 Offset: 0x12569A0 VA: 0x1812583A0
+	|-RVA: 0x12582A0 Offset: 0x12568A0 VA: 0x1812582A0
 	|-Array.InternalArray__ICollection_Contains<Option>
 	|
-	|-RVA: 0x125B5B0 Offset: 0x1259BB0 VA: 0x18125B5B0
+	|-RVA: 0x125B4B0 Offset: 0x1259AB0 VA: 0x18125B4B0
 	|-Array.InternalArray__ICollection_Contains<GameStat.Stat>
 	|
-	|-RVA: 0x125BCE0 Offset: 0x125A2E0 VA: 0x18125BCE0
+	|-RVA: 0x125BBE0 Offset: 0x125A1E0 VA: 0x18125BBE0
 	|-Array.InternalArray__ICollection_Contains<GameTip.Theme>
 	|
-	|-RVA: 0x12545E0 Offset: 0x1252BE0 VA: 0x1812545E0
+	|-RVA: 0x12544E0 Offset: 0x1252AE0 VA: 0x1812544E0
 	|-Array.InternalArray__ICollection_Contains<Gibbable.GibMesh>
 	|
-	|-RVA: 0x1258610 Offset: 0x1256C10 VA: 0x181258610
+	|-RVA: 0x1258510 Offset: 0x1256B10 VA: 0x181258510
 	|-Array.InternalArray__ICollection_Contains<Gibbable.OverrideMesh>
 	|
-	|-RVA: 0x1254220 Offset: 0x1252820 VA: 0x181254220
+	|-RVA: 0x1254120 Offset: 0x1252720 VA: 0x181254120
 	|-Array.InternalArray__ICollection_Contains<GrowableGeneProperties.GeneWeight>
 	|
-	|-RVA: 0x1254810 Offset: 0x1252E10 VA: 0x181254810
+	|-RVA: 0x1254710 Offset: 0x1252D10 VA: 0x181254710
 	|-Array.InternalArray__ICollection_Contains<HairSetCollection.HairSetEntry>
 	|
-	|-RVA: 0x125A5B0 Offset: 0x1258BB0 VA: 0x18125A5B0
+	|-RVA: 0x125A4B0 Offset: 0x1258AB0 VA: 0x18125A4B0
 	|-Array.InternalArray__ICollection_Contains<IconSkinPicker.SkinButtonSetup>
 	|
-	|-RVA: 0x1254BF0 Offset: 0x12531F0 VA: 0x181254BF0
+	|-RVA: 0x1254AF0 Offset: 0x12530F0 VA: 0x181254AF0
 	|-Array.InternalArray__ICollection_Contains<ImageStorageEntity.ImageRequest>
 	|
-	|-RVA: 0x1254EF0 Offset: 0x12534F0 VA: 0x181254EF0
+	|-RVA: 0x1254DF0 Offset: 0x12533F0 VA: 0x181254DF0
 	|-Array.InternalArray__ICollection_Contains<InstancingKey>
 	|
-	|-RVA: 0x1257D20 Offset: 0x1256320 VA: 0x181257D20
+	|-RVA: 0x1257C20 Offset: 0x1256220 VA: 0x181257C20
 	|-Array.InternalArray__ICollection_Contains<InstrumentKeyController.NoteBinding>
 	|
-	|-RVA: 0x1255050 Offset: 0x1253650 VA: 0x181255050
+	|-RVA: 0x1254F50 Offset: 0x1253550 VA: 0x181254F50
 	|-Array.InternalArray__ICollection_Contains<InvokeAction>
 	|
-	|-RVA: 0x125A790 Offset: 0x1258D90 VA: 0x18125A790
+	|-RVA: 0x125A690 Offset: 0x1258C90 VA: 0x18125A690
 	|-Array.InternalArray__ICollection_Contains<ItemSkinDirectory.Skin>
 	|
-	|-RVA: 0x1258BF0 Offset: 0x12571F0 VA: 0x181258BF0
+	|-RVA: 0x1258AF0 Offset: 0x12570F0 VA: 0x181258AF0
 	|-Array.InternalArray__ICollection_Contains<Kayak.PlayerAnimationState>
 	|
-	|-RVA: 0x125C540 Offset: 0x125AB40 VA: 0x18125C540
+	|-RVA: 0x125C440 Offset: 0x125AA40 VA: 0x18125C440
 	|-Array.InternalArray__ICollection_Contains<KeyframeView.UIKeyframeValue>
 	|
-	|-RVA: 0x12510D0 Offset: 0x124F6D0 VA: 0x1812510D0
+	|-RVA: 0x1250FD0 Offset: 0x124F5D0 VA: 0x181250FD0
 	|-Array.InternalArray__ICollection_Contains<LifeInfographic.DamageSetting>
 	|
-	|-RVA: 0x125C0C0 Offset: 0x125A6C0 VA: 0x18125C0C0
+	|-RVA: 0x125BFC0 Offset: 0x125A5C0 VA: 0x18125BFC0
 	|-Array.InternalArray__ICollection_Contains<LocalClock.TimedEvent>
 	|
-	|-RVA: 0x12549F0 Offset: 0x1252FF0 VA: 0x1812549F0
+	|-RVA: 0x12548F0 Offset: 0x1252EF0 VA: 0x1812548F0
 	|-Array.InternalArray__ICollection_Contains<LookAtIOEnt.HandleSet>
 	|
-	|-RVA: 0x1256180 Offset: 0x1254780 VA: 0x181256180
+	|-RVA: 0x1256080 Offset: 0x1254680 VA: 0x181256080
 	|-Array.InternalArray__ICollection_Contains<LootContainer.LootSpawnSlot>
 	|
-	|-RVA: 0x12537E0 Offset: 0x1251DE0 VA: 0x1812537E0
+	|-RVA: 0x12536E0 Offset: 0x1251CE0 VA: 0x1812536E0
 	|-Array.InternalArray__ICollection_Contains<LootSpawn.Entry>
 	|
-	|-RVA: 0x125CC90 Offset: 0x125B290 VA: 0x18125CC90
+	|-RVA: 0x125CB90 Offset: 0x125B190 VA: 0x18125CB90
 	|-Array.InternalArray__ICollection_Contains<XPathNode>
 	|
-	|-RVA: 0x125CAD0 Offset: 0x125B0D0 VA: 0x18125CAD0
+	|-RVA: 0x125C9D0 Offset: 0x125AFD0 VA: 0x18125C9D0
 	|-Array.InternalArray__ICollection_Contains<XPathNodeRef>
 	|
-	|-RVA: 0x1256340 Offset: 0x1254940 VA: 0x181256340
+	|-RVA: 0x1256240 Offset: 0x1254840 VA: 0x181256240
 	|-Array.InternalArray__ICollection_Contains<MagnetCrane.MagnetCraneSnapshot>
 	|
-	|-RVA: 0x1256500 Offset: 0x1254B00 VA: 0x181256500
+	|-RVA: 0x1256400 Offset: 0x1254A00 VA: 0x181256400
 	|-Array.InternalArray__ICollection_Contains<MapView.MapMarkerCluster>
 	|
-	|-RVA: 0x125A970 Offset: 0x1258F70 VA: 0x18125A970
+	|-RVA: 0x125A870 Offset: 0x1258E70 VA: 0x18125A870
 	|-Array.InternalArray__ICollection_Contains<MapView.SleepingBagCluster>
 	|
-	|-RVA: 0x1256A60 Offset: 0x1255060 VA: 0x181256A60
+	|-RVA: 0x1256960 Offset: 0x1254F60 VA: 0x181256960
 	|-Array.InternalArray__ICollection_Contains<MaterialPropertyDesc>
 	|
-	|-RVA: 0x12540E0 Offset: 0x12526E0 VA: 0x1812540E0
+	|-RVA: 0x1253FE0 Offset: 0x12525E0 VA: 0x181253FE0
 	|-Array.InternalArray__ICollection_Contains<FourBitNumber>
 	|
-	|-RVA: 0x125A470 Offset: 0x1258A70 VA: 0x18125A470
+	|-RVA: 0x125A370 Offset: 0x1258970 VA: 0x18125A370
 	|-Array.InternalArray__ICollection_Contains<SevenBitNumber>
 	|
-	|-RVA: 0x1256C20 Offset: 0x1255220 VA: 0x181256C20
+	|-RVA: 0x1256B20 Offset: 0x1255120 VA: 0x181256B20
 	|-Array.InternalArray__ICollection_Contains<MeshColliderInstance>
 	|
-	|-RVA: 0x1255EF0 Offset: 0x12544F0 VA: 0x181255EF0
+	|-RVA: 0x1255DF0 Offset: 0x12543F0 VA: 0x181255DF0
 	|-Array.InternalArray__ICollection_Contains<MeshColliderLookup.LookupEntry>
 	|
-	|-RVA: 0x1256ED0 Offset: 0x12554D0 VA: 0x181256ED0
+	|-RVA: 0x1256DD0 Offset: 0x12553D0 VA: 0x181256DD0
 	|-Array.InternalArray__ICollection_Contains<MeshInstance>
 	|
-	|-RVA: 0x1257350 Offset: 0x1255950 VA: 0x181257350
+	|-RVA: 0x1257250 Offset: 0x1255850 VA: 0x181257250
 	|-Array.InternalArray__ICollection_Contains<MeshRendererInstance>
 	|
-	|-RVA: 0x1255D40 Offset: 0x1254340 VA: 0x181255D40
+	|-RVA: 0x1255C40 Offset: 0x1254240 VA: 0x181255C40
 	|-Array.InternalArray__ICollection_Contains<MeshRendererLookup.LookupEntry>
 	|
-	|-RVA: 0x12557A0 Offset: 0x1253DA0 VA: 0x1812557A0
+	|-RVA: 0x12556A0 Offset: 0x1253CA0 VA: 0x1812556A0
 	|-Array.InternalArray__ICollection_Contains<MidiConvar.KnobBinding>
 	|
-	|-RVA: 0x1257B40 Offset: 0x1256140 VA: 0x181257B40
+	|-RVA: 0x1257A40 Offset: 0x1256040 VA: 0x181257A40
 	|-Array.InternalArray__ICollection_Contains<MidiConvar.NoteBinding>
 	|
-	|-RVA: 0x1259D70 Offset: 0x1258370 VA: 0x181259D70
+	|-RVA: 0x1259C70 Offset: 0x1258270 VA: 0x181259C70
 	|-Array.InternalArray__ICollection_Contains<SQLiteTypeNames>
 	|
-	|-RVA: 0x1255390 Offset: 0x1253990 VA: 0x181255390
+	|-RVA: 0x1255290 Offset: 0x1253890 VA: 0x181255290
 	|-Array.InternalArray__ICollection_Contains<SqliteKeyReader.KeyInfo>
 	|
-	|-RVA: 0x125BB10 Offset: 0x125A110 VA: 0x18125BB10
+	|-RVA: 0x125BA10 Offset: 0x125A010 VA: 0x18125BA10
 	|-Array.InternalArray__ICollection_Contains<CodePointIndexer.TableRange>
 	|
-	|-RVA: 0x125C720 Offset: 0x125AD20 VA: 0x18125C720
+	|-RVA: 0x125C620 Offset: 0x125AC20 VA: 0x18125C620
 	|-Array.InternalArray__ICollection_Contains<Uri.UriScheme>
 	|
-	|-RVA: 0x1258110 Offset: 0x1256710 VA: 0x181258110
+	|-RVA: 0x1258010 Offset: 0x1256610 VA: 0x181258010
 	|-Array.InternalArray__ICollection_Contains<NVidiaReflex.NvReflex_FrameReport>
 	|
-	|-RVA: 0x125BEE0 Offset: 0x125A4E0 VA: 0x18125BEE0
+	|-RVA: 0x125BDE0 Offset: 0x125A3E0 VA: 0x18125BDE0
 	|-Array.InternalArray__ICollection_Contains<TimeAverageValueData>
 	|
-	|-RVA: 0x12551B0 Offset: 0x12537B0 VA: 0x1812551B0
+	|-RVA: 0x12550B0 Offset: 0x12536B0 VA: 0x1812550B0
 	|-Array.InternalArray__ICollection_Contains<JsonPosition>
 	|
-	|-RVA: 0x125C3F0 Offset: 0x125A9F0 VA: 0x18125C3F0
+	|-RVA: 0x125C2F0 Offset: 0x125A8F0 VA: 0x18125C2F0
 	|-Array.InternalArray__ICollection_Contains<DefaultSerializationBinder.TypeNameKey>
 	|
-	|-RVA: 0x1259C20 Offset: 0x1258220 VA: 0x181259C20
+	|-RVA: 0x1259B20 Offset: 0x1258120 VA: 0x181259B20
 	|-Array.InternalArray__ICollection_Contains<ResolverContractKey>
 	|
-	|-RVA: 0x125C2A0 Offset: 0x125A8A0 VA: 0x18125C2A0
+	|-RVA: 0x125C1A0 Offset: 0x125A7A0 VA: 0x18125C1A0
 	|-Array.InternalArray__ICollection_Contains<ConvertUtils.TypeConvertKey>
 	|
-	|-RVA: 0x1257F00 Offset: 0x1256500 VA: 0x181257F00
+	|-RVA: 0x1257E00 Offset: 0x1256400 VA: 0x181257E00
 	|-Array.InternalArray__ICollection_Contains<NoteBindingCollection.NoteData>
 	|
-	|-RVA: 0x125B770 Offset: 0x1259D70 VA: 0x18125B770
+	|-RVA: 0x125B670 Offset: 0x1259C70 VA: 0x18125B670
 	|-Array.InternalArray__ICollection_Contains<OccludeeState.State>
 	|
-	|-RVA: 0x1258820 Offset: 0x1256E20 VA: 0x181258820
+	|-RVA: 0x1258720 Offset: 0x1256D20 VA: 0x181258720
 	|-Array.InternalArray__ICollection_Contains<ParticleSystemContainer.ParticleSystemGroup>
 	|
-	|-RVA: 0x1259320 Offset: 0x1257920 VA: 0x181259320
+	|-RVA: 0x1259220 Offset: 0x1257820 VA: 0x181259220
 	|-Array.InternalArray__ICollection_Contains<PathFinder.Point>
 	|
-	|-RVA: 0x12589E0 Offset: 0x1256FE0 VA: 0x1812589E0
+	|-RVA: 0x12588E0 Offset: 0x1256EE0 VA: 0x1812588E0
 	|-Array.InternalArray__ICollection_Contains<PetCommandList.PetCommandDesc>
 	|
-	|-RVA: 0x125AB50 Offset: 0x1259150 VA: 0x18125AB50
+	|-RVA: 0x125AA50 Offset: 0x1259050 VA: 0x18125AA50
 	|-Array.InternalArray__ICollection_Contains<PlaceMonuments.SpawnInfo>
 	|
-	|-RVA: 0x125AF90 Offset: 0x1259590 VA: 0x18125AF90
+	|-RVA: 0x125AE90 Offset: 0x1259490 VA: 0x18125AE90
 	|-Array.InternalArray__ICollection_Contains<PlaceMonumentsOffshore.SpawnInfo>
 	|
-	|-RVA: 0x125AD80 Offset: 0x1259380 VA: 0x18125AD80
+	|-RVA: 0x125AC80 Offset: 0x1259280 VA: 0x18125AC80
 	|-Array.InternalArray__ICollection_Contains<PlaceMonumentsRailside.SpawnInfo>
 	|
-	|-RVA: 0x125B1A0 Offset: 0x12597A0 VA: 0x18125B1A0
+	|-RVA: 0x125B0A0 Offset: 0x12596A0 VA: 0x18125B0A0
 	|-Array.InternalArray__ICollection_Contains<PlaceMonumentsRoadside.SpawnInfo>
 	|
-	|-RVA: 0x125B3B0 Offset: 0x12599B0 VA: 0x18125B3B0
+	|-RVA: 0x125B2B0 Offset: 0x12598B0 VA: 0x18125B2B0
 	|-Array.InternalArray__ICollection_Contains<PlantProperties.Stage>
 	|
-	|-RVA: 0x1254DB0 Offset: 0x12533B0 VA: 0x181254DB0
+	|-RVA: 0x1254CB0 Offset: 0x12532B0 VA: 0x181254CB0
 	|-Array.InternalArray__ICollection_Contains<PlayerItemRecipe.Ingredient>
 	|
-	|-RVA: 0x1258FF0 Offset: 0x12575F0 VA: 0x181258FF0
+	|-RVA: 0x1258EF0 Offset: 0x12574F0 VA: 0x181258EF0
 	|-Array.InternalArray__ICollection_Contains<PlayerItemRecipe>
 	|
-	|-RVA: 0x1259140 Offset: 0x1257740 VA: 0x181259140
+	|-RVA: 0x1259040 Offset: 0x1257640 VA: 0x181259040
 	|-Array.InternalArray__ICollection_Contains<PlayerModelCinematicList.PlayerModelCinematicAnimation>
 	|
-	|-RVA: 0x1259A40 Offset: 0x1258040 VA: 0x181259A40
+	|-RVA: 0x1259940 Offset: 0x1257F40 VA: 0x181259940
 	|-Array.InternalArray__ICollection_Contains<PlayerModelHair.RendererMaterials>
 	|
-	|-RVA: 0x12575E0 Offset: 0x1255BE0 VA: 0x1812575E0
+	|-RVA: 0x12574E0 Offset: 0x1255AE0 VA: 0x1812574E0
 	|-Array.InternalArray__ICollection_Contains<ProjectileWeaponMod.Modifier>
 	|
-	|-RVA: 0x1251650 Offset: 0x124FC50 VA: 0x181251650
+	|-RVA: 0x1251550 Offset: 0x124FB50 VA: 0x181251550
 	|-Array.InternalArray__ICollection_Contains<DemoShotFloatKeyframe>
 	|
-	|-RVA: 0x1251800 Offset: 0x124FE00 VA: 0x181251800
+	|-RVA: 0x1251700 Offset: 0x124FD00 VA: 0x181251700
 	|-Array.InternalArray__ICollection_Contains<DemoShotParentKeyframe>
 	|
-	|-RVA: 0x12519C0 Offset: 0x124FFC0 VA: 0x1812519C0
+	|-RVA: 0x12518C0 Offset: 0x124FEC0 VA: 0x1812518C0
 	|-Array.InternalArray__ICollection_Contains<DemoShotQuaternionKeyframe>
 	|
-	|-RVA: 0x1251B90 Offset: 0x1250190 VA: 0x181251B90
+	|-RVA: 0x1251A90 Offset: 0x1250090 VA: 0x181251A90
 	|-Array.InternalArray__ICollection_Contains<DemoShotVectorKeyframe>
 	|
-	|-RVA: 0x125C900 Offset: 0x125AF00 VA: 0x18125C900
+	|-RVA: 0x125C800 Offset: 0x125AE00 VA: 0x18125C800
 	|-Array.InternalArray__ICollection_Contains<VectorData>
 	|
-	|-RVA: 0x14FDD20 Offset: 0x14FC320 VA: 0x1814FDD20
+	|-RVA: 0x14FDC20 Offset: 0x14FC220 VA: 0x1814FDC20
 	|-Array.InternalArray__ICollection_Contains<RandomItemDispenser.RandomItemChance>
 	|
-	|-RVA: 0x14FDEE0 Offset: 0x14FC4E0 VA: 0x1814FDEE0
+	|-RVA: 0x14FDDE0 Offset: 0x14FC3E0 VA: 0x1814FDDE0
 	|-Array.InternalArray__ICollection_Contains<RealTimeSince>
 	|
-	|-RVA: 0x14FE090 Offset: 0x14FC690 VA: 0x1814FE090
+	|-RVA: 0x14FDF90 Offset: 0x14FC590 VA: 0x1814FDF90
 	|-Array.InternalArray__ICollection_Contains<Recipe.RecipeIngredient>
 	|
-	|-RVA: 0x14DE190 Offset: 0x14DC790 VA: 0x1814DE190
+	|-RVA: 0x14DE090 Offset: 0x14DC690 VA: 0x1814DE090
 	|-Array.InternalArray__ICollection_Contains<ReflectionProbeEx.CubemapFaceMatrices>
 	|
-	|-RVA: 0x14DE410 Offset: 0x14DCA10 VA: 0x1814DE410
+	|-RVA: 0x14DE310 Offset: 0x14DC910 VA: 0x1814DE310
 	|-Array.InternalArray__ICollection_Contains<ReflectionProbeEx.CubemapSkyboxVertex>
 	|
-	|-RVA: 0x14FE3B0 Offset: 0x14FC9B0 VA: 0x1814FE3B0
+	|-RVA: 0x14FE2B0 Offset: 0x14FC8B0 VA: 0x1814FE2B0
 	|-Array.InternalArray__ICollection_Contains<ReflectionProbeEx.RenderListEntry>
 	|
-	|-RVA: 0x14FE570 Offset: 0x14FCB70 VA: 0x1814FE570
+	|-RVA: 0x14FE470 Offset: 0x14FCA70 VA: 0x1814FE470
 	|-Array.InternalArray__ICollection_Contains<RendererKey>
 	|
-	|-RVA: 0x1501250 Offset: 0x14FF850 VA: 0x181501250
+	|-RVA: 0x1501150 Offset: 0x14FF750 VA: 0x181501150
 	|-Array.InternalArray__ICollection_Contains<WaypointSet.Waypoint>
 	|
-	|-RVA: 0x1500E90 Offset: 0x14FF490 VA: 0x181500E90
+	|-RVA: 0x1500D90 Offset: 0x14FF390 VA: 0x181500D90
 	|-Array.InternalArray__ICollection_Contains<TransformSnapshot>
 	|
-	|-RVA: 0x1500CB0 Offset: 0x14FF2B0 VA: 0x181500CB0
+	|-RVA: 0x1500BB0 Offset: 0x14FF1B0 VA: 0x181500BB0
 	|-Array.InternalArray__ICollection_Contains<TimelineEvent>
 	|
-	|-RVA: 0x14FD640 Offset: 0x14FBC40 VA: 0x1814FD640
+	|-RVA: 0x14FD540 Offset: 0x14FBB40 VA: 0x1814FD540
 	|-Array.InternalArray__ICollection_Contains<Option>
 	|
-	|-RVA: 0x15008F0 Offset: 0x14FEEF0 VA: 0x1815008F0
+	|-RVA: 0x15007F0 Offset: 0x14FEDF0 VA: 0x1815007F0
 	|-Array.InternalArray__ICollection_Contains<TickRenderer.Tick>
 	|
-	|-RVA: 0x14FE880 Offset: 0x14FCE80 VA: 0x1814FE880
+	|-RVA: 0x14FE780 Offset: 0x14FCD80 VA: 0x1814FE780
 	|-Array.InternalArray__ICollection_Contains<ServerBrowserList.Rules>
 	|
-	|-RVA: 0x14FEF40 Offset: 0x14FD540 VA: 0x1814FEF40
+	|-RVA: 0x14FEE40 Offset: 0x14FD440 VA: 0x1814FEE40
 	|-Array.InternalArray__ICollection_Contains<ServerBrowserList.ServerKeyvalues>
 	|
-	|-RVA: 0x14FEA40 Offset: 0x14FD040 VA: 0x1814FEA40
+	|-RVA: 0x14FE940 Offset: 0x14FCF40 VA: 0x1814FE940
 	|-Array.InternalArray__ICollection_Contains<ServerInfo>
 	|
-	|-RVA: 0x14FD820 Offset: 0x14FBE20 VA: 0x1814FD820
+	|-RVA: 0x14FD720 Offset: 0x14FBD20 VA: 0x1814FD720
 	|-Array.InternalArray__ICollection_Contains<SkinnedMultiMesh.Part>
 	|
-	|-RVA: 0x14F2DC0 Offset: 0x14F13C0 VA: 0x1814F2DC0
+	|-RVA: 0x14F2CC0 Offset: 0x14F12C0 VA: 0x1814F2CC0
 	|-Array.InternalArray__ICollection_Contains<SlotMachinePayoutSettings.IndividualPayouts>
 	|
-	|-RVA: 0x14FDA00 Offset: 0x14FC000 VA: 0x1814FDA00
+	|-RVA: 0x14FD900 Offset: 0x14FBF00 VA: 0x1814FD900
 	|-Array.InternalArray__ICollection_Contains<SlotMachinePayoutSettings.PayoutInfo>
 	|
-	|-RVA: 0x14FFF60 Offset: 0x14FE560 VA: 0x1814FFF60
+	|-RVA: 0x14FFE60 Offset: 0x14FE460 VA: 0x1814FFE60
 	|-Array.InternalArray__ICollection_Contains<SubmarineSonar.SonarBlip>
 	|
-	|-RVA: 0x1500140 Offset: 0x14FE740 VA: 0x181500140
+	|-RVA: 0x1500040 Offset: 0x14FE640 VA: 0x181500040
 	|-Array.InternalArray__ICollection_Contains<SpawnIndividual>
 	|
-	|-RVA: 0x14FE250 Offset: 0x14FC850 VA: 0x1814FE250
+	|-RVA: 0x14FE150 Offset: 0x14FC750 VA: 0x1814FE150
 	|-Array.InternalArray__ICollection_Contains<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0x15004E0 Offset: 0x14FEAE0 VA: 0x1815004E0
+	|-RVA: 0x15003E0 Offset: 0x14FE9E0 VA: 0x1815003E0
 	|-Array.InternalArray__ICollection_Contains<SteamNewsSource.Story>
 	|
-	|-RVA: 0x14DD230 Offset: 0x14DB830 VA: 0x1814DD230
+	|-RVA: 0x14DD130 Offset: 0x14DB730 VA: 0x1814DD130
 	|-Array.InternalArray__ICollection_Contains<AppId>
 	|
-	|-RVA: 0x14DCE80 Offset: 0x14DB480 VA: 0x1814DCE80
+	|-RVA: 0x14DCD80 Offset: 0x14DB380 VA: 0x1814DCD80
 	|-Array.InternalArray__ICollection_Contains<Achievement>
 	|
-	|-RVA: 0x14DE050 Offset: 0x14DC650 VA: 0x1814DE050
+	|-RVA: 0x14DDF50 Offset: 0x14DC550 VA: 0x1814DDF50
 	|-Array.InternalArray__ICollection_Contains<Connection>
 	|
-	|-RVA: 0x14DDE70 Offset: 0x14DC470 VA: 0x1814DDE70
+	|-RVA: 0x14DDD70 Offset: 0x14DC370 VA: 0x1814DDD70
 	|-Array.InternalArray__ICollection_Contains<ConnectionLaneStatus>
 	|
-	|-RVA: 0x14F3160 Offset: 0x14F1760 VA: 0x1814F3160
+	|-RVA: 0x14F3060 Offset: 0x14F1660 VA: 0x1814F3060
 	|-Array.InternalArray__ICollection_Contains<InputActionSetHandle_t>
 	|
-	|-RVA: 0x14F32A0 Offset: 0x14F18A0 VA: 0x1814F32A0
+	|-RVA: 0x14F31A0 Offset: 0x14F17A0 VA: 0x1814F31A0
 	|-Array.InternalArray__ICollection_Contains<InputAnalogActionHandle_t>
 	|
-	|-RVA: 0x14F33E0 Offset: 0x14F19E0 VA: 0x1814F33E0
+	|-RVA: 0x14F32E0 Offset: 0x14F18E0 VA: 0x1814F32E0
 	|-Array.InternalArray__ICollection_Contains<InputDigitalActionHandle_t>
 	|
-	|-RVA: 0x14F3520 Offset: 0x14F1B20 VA: 0x1814F3520
+	|-RVA: 0x14F3420 Offset: 0x14F1A20 VA: 0x1814F3420
 	|-Array.InternalArray__ICollection_Contains<InputHandle_t>
 	|
-	|-RVA: 0x14F3660 Offset: 0x14F1C60 VA: 0x1814F3660
+	|-RVA: 0x14F3560 Offset: 0x14F1B60 VA: 0x1814F3560
 	|-Array.InternalArray__ICollection_Contains<InventoryDefId>
 	|
-	|-RVA: 0x14F37A0 Offset: 0x14F1DA0 VA: 0x1814F37A0
+	|-RVA: 0x14F36A0 Offset: 0x14F1CA0 VA: 0x1814F36A0
 	|-Array.InternalArray__ICollection_Contains<InventoryItemId>
 	|
-	|-RVA: 0x14FD2C0 Offset: 0x14FB8C0 VA: 0x1814FD2C0
+	|-RVA: 0x14FD1C0 Offset: 0x14FB7C0 VA: 0x1814FD1C0
 	|-Array.InternalArray__ICollection_Contains<MatchMakingKeyValuePair>
 	|
-	|-RVA: 0x14FD480 Offset: 0x14FBA80 VA: 0x1814FD480
+	|-RVA: 0x14FD380 Offset: 0x14FB980 VA: 0x1814FD380
 	|-Array.InternalArray__ICollection_Contains<NetKeyValue>
 	|
-	|-RVA: 0x14FDBE0 Offset: 0x14FC1E0 VA: 0x1814FDBE0
+	|-RVA: 0x14FDAE0 Offset: 0x14FC0E0 VA: 0x1814FDAE0
 	|-Array.InternalArray__ICollection_Contains<PublishedFileId>
 	|
-	|-RVA: 0x14FECC0 Offset: 0x14FD2C0 VA: 0x1814FECC0
+	|-RVA: 0x14FEBC0 Offset: 0x14FD1C0 VA: 0x1814FEBC0
 	|-Array.InternalArray__ICollection_Contains<ServerInfo>
 	|
-	|-RVA: 0x1500320 Offset: 0x14FE920 VA: 0x181500320
+	|-RVA: 0x1500220 Offset: 0x14FE820 VA: 0x181500220
 	|-Array.InternalArray__ICollection_Contains<SteamItemDetails_t>
 	|
-	|-RVA: 0x1501070 Offset: 0x14FF670 VA: 0x181501070
+	|-RVA: 0x1500F70 Offset: 0x14FF570 VA: 0x181500F70
 	|-Array.InternalArray__ICollection_Contains<UgcAdditionalPreview>
 	|
-	|-RVA: 0x14DDB70 Offset: 0x14DC170 VA: 0x1814DDB70
+	|-RVA: 0x14DDA70 Offset: 0x14DC070 VA: 0x1814DDA70
 	|-Array.InternalArray__ICollection_Contains<Dispatch.Callback>
 	|
-	|-RVA: 0x14FE6C0 Offset: 0x14FCCC0 VA: 0x1814FE6C0
+	|-RVA: 0x14FE5C0 Offset: 0x14FCBC0 VA: 0x1814FE5C0
 	|-Array.InternalArray__ICollection_Contains<Dispatch.ResultCallback>
 	|
-	|-RVA: 0x14F2C10 Offset: 0x14F1210 VA: 0x1814F2C10
+	|-RVA: 0x14F2B10 Offset: 0x14F1110 VA: 0x1814F2B10
 	|-Array.InternalArray__ICollection_Contains<Friend>
 	|
-	|-RVA: 0x14DD030 Offset: 0x14DB630 VA: 0x1814DD030
+	|-RVA: 0x14DCF30 Offset: 0x14DB530 VA: 0x1814DCF30
 	|-Array.InternalArray__ICollection_Contains<InventoryItem.Amount>
 	|
-	|-RVA: 0x14F38E0 Offset: 0x14F1EE0 VA: 0x1814F38E0
+	|-RVA: 0x14F37E0 Offset: 0x14F1DE0 VA: 0x1814F37E0
 	|-Array.InternalArray__ICollection_Contains<InventoryItem>
 	|
-	|-RVA: 0x14F2F80 Offset: 0x14F1580 VA: 0x1814F2F80
+	|-RVA: 0x14F2E80 Offset: 0x14F1480 VA: 0x1814F2E80
 	|-Array.InternalArray__ICollection_Contains<InventoryRecipe.Ingredient>
 	|
-	|-RVA: 0x14F3A40 Offset: 0x14F2040 VA: 0x1814F3A40
+	|-RVA: 0x14F3940 Offset: 0x14F1F40 VA: 0x1814F3940
 	|-Array.InternalArray__ICollection_Contains<InventoryRecipe>
 	|
-	|-RVA: 0x14DE610 Offset: 0x14DCC10 VA: 0x1814DE610
+	|-RVA: 0x14DE510 Offset: 0x14DCB10 VA: 0x1814DE510
 	|-Array.InternalArray__ICollection_Contains<SteamNetworkingUtils.DebugMessage>
 	|
-	|-RVA: 0x14F3BA0 Offset: 0x14F21A0 VA: 0x1814F3BA0
+	|-RVA: 0x14F3AA0 Offset: 0x14F20A0 VA: 0x1814F3AA0
 	|-Array.InternalArray__ICollection_Contains<Item>
 	|
-	|-RVA: 0x14F3E80 Offset: 0x14F2480 VA: 0x1814F3E80
+	|-RVA: 0x14F3D80 Offset: 0x14F2380 VA: 0x1814F3D80
 	|-Array.InternalArray__ICollection_Contains<StringFormatCache.Key1>
 	|
-	|-RVA: 0x14F3FD0 Offset: 0x14F25D0 VA: 0x1814F3FD0
+	|-RVA: 0x14F3ED0 Offset: 0x14F24D0 VA: 0x1814F3ED0
 	|-Array.InternalArray__ICollection_Contains<StringFormatCache.Key2>
 	|
-	|-RVA: 0x14F4130 Offset: 0x14F2730 VA: 0x1814F4130
+	|-RVA: 0x14F4030 Offset: 0x14F2630 VA: 0x1814F4030
 	|-Array.InternalArray__ICollection_Contains<StringFormatCache.Key3>
 	|
-	|-RVA: 0x14F4290 Offset: 0x14F2890 VA: 0x1814F4290
+	|-RVA: 0x14F4190 Offset: 0x14F2790 VA: 0x1814F4190
 	|-Array.InternalArray__ICollection_Contains<StringFormatCache.Key4>
 	|
-	|-RVA: 0x15006E0 Offset: 0x14FECE0 VA: 0x1815006E0
+	|-RVA: 0x15005E0 Offset: 0x14FEBE0 VA: 0x1815005E0
 	|-Array.InternalArray__ICollection_Contains<SubsurfaceProfileTexture.SubsurfaceProfileEntry>
 	|
-	|-RVA: 0x1500AD0 Offset: 0x14FF0D0 VA: 0x181500AD0
+	|-RVA: 0x15009D0 Offset: 0x14FEFD0 VA: 0x1815009D0
 	|-Array.InternalArray__ICollection_Contains<SynchronizedClock.TimedEvent>
 	|
-	|-RVA: 0x14DD5A0 Offset: 0x14DBBA0 VA: 0x1814DD5A0
+	|-RVA: 0x14DD4A0 Offset: 0x14DBAA0 VA: 0x1814DD4A0
 	|-Array.InternalArray__ICollection_Contains<ArraySegment<byte>>
 	|
-	|-RVA: 0x14DD3E0 Offset: 0x14DB9E0 VA: 0x1814DD3E0
+	|-RVA: 0x14DD2E0 Offset: 0x14DB8E0 VA: 0x1814DD2E0
 	|-Array.InternalArray__ICollection_Contains<ArraySegment<object>>
 	|
-	|-RVA: 0x14DD760 Offset: 0x14DBD60 VA: 0x1814DD760
+	|-RVA: 0x14DD660 Offset: 0x14DBC60 VA: 0x1814DD660
 	|-Array.InternalArray__ICollection_Contains<bool>
 	|
-	|-RVA: 0x14DDA30 Offset: 0x14DC030 VA: 0x1814DDA30
+	|-RVA: 0x14DD930 Offset: 0x14DBF30 VA: 0x1814DD930
 	|-Array.InternalArray__ICollection_Contains<byte>
 	|
-	|-RVA: 0x14DD8A0 Offset: 0x14DBEA0 VA: 0x1814DD8A0
+	|-RVA: 0x14DD7A0 Offset: 0x14DBDA0 VA: 0x1814DD7A0
 	|-Array.InternalArray__ICollection_Contains<ByteEnum>
 	|
-	|-RVA: 0x14DDD30 Offset: 0x14DC330 VA: 0x1814DDD30
+	|-RVA: 0x14DDC30 Offset: 0x14DC230 VA: 0x1814DDC30
 	|-Array.InternalArray__ICollection_Contains<char>
 	|
-	|-RVA: 0x14FFD80 Offset: 0x14FE380 VA: 0x1814FFD80
+	|-RVA: 0x14FFC80 Offset: 0x14FE280 VA: 0x1814FFC80
 	|-Array.InternalArray__ICollection_Contains<ConcurrentQueue.Segment.Slot<SteamNetworkingUtils.DebugMessage>>
 	|
-	|-RVA: 0x14FFBC0 Offset: 0x14FE1C0 VA: 0x1814FFBC0
+	|-RVA: 0x14FFAC0 Offset: 0x14FE0C0 VA: 0x1814FFAC0
 	|-Array.InternalArray__ICollection_Contains<ConcurrentQueue.Segment.Slot<object>>
 	|
-	|-RVA: 0x14DE7D0 Offset: 0x14DCDD0 VA: 0x1814DE7D0
+	|-RVA: 0x14DE6D0 Offset: 0x14DCCD0 VA: 0x1814DE6D0
 	|-Array.InternalArray__ICollection_Contains<DictionaryEntry>
 	|
-	|-RVA: 0x14E2C80 Offset: 0x14E1280 VA: 0x1814E2C80
+	|-RVA: 0x14E2B80 Offset: 0x14E1180 VA: 0x1814E2B80
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<FoliageKey, int>>
 	|
-	|-RVA: 0x14EADD0 Offset: 0x14E93D0 VA: 0x1814EADD0
+	|-RVA: 0x14EACD0 Offset: 0x14E92D0 VA: 0x1814EACD0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<InstancingKey, int>>
 	|
-	|-RVA: 0x14EFA70 Offset: 0x14EE070 VA: 0x1814EFA70
+	|-RVA: 0x14EF970 Offset: 0x14EDF70 VA: 0x1814EF970
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<InvokeAction, int>>
 	|
-	|-RVA: 0x14EC030 Offset: 0x14EA630 VA: 0x1814EC030
+	|-RVA: 0x14EBF30 Offset: 0x14EA530 VA: 0x1814EBF30
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<XPathNodeRef, XPathNodeRef>>
 	|
-	|-RVA: 0x14EF0E0 Offset: 0x14ED6E0 VA: 0x1814EF0E0
+	|-RVA: 0x14EEFE0 Offset: 0x14ED5E0 VA: 0x1814EEFE0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<DefaultSerializationBinder.TypeNameKey, object>>
 	|
-	|-RVA: 0x14F09A0 Offset: 0x14EEFA0 VA: 0x1814F09A0
+	|-RVA: 0x14F08A0 Offset: 0x14EEEA0 VA: 0x1814F08A0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ResolverContractKey, object>>
 	|
-	|-RVA: 0x14DFE00 Offset: 0x14DE400 VA: 0x1814DFE00
+	|-RVA: 0x14DFD00 Offset: 0x14DE300 VA: 0x1814DFD00
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ConvertUtils.TypeConvertKey, object>>
 	|
-	|-RVA: 0x14F1B00 Offset: 0x14F0100 VA: 0x1814F1B00
+	|-RVA: 0x14F1A00 Offset: 0x14F0000 VA: 0x1814F1A00
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<RendererKey, int>>
 	|
-	|-RVA: 0x14E2890 Offset: 0x14E0E90 VA: 0x1814E2890
+	|-RVA: 0x14E2790 Offset: 0x14E0D90 VA: 0x1814E2790
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<SpecialPurposeCamera.RenderEntry, int>>
 	|
-	|-RVA: 0x14E0900 Offset: 0x14DEF00 VA: 0x1814E0900
+	|-RVA: 0x14E0800 Offset: 0x14DEE00 VA: 0x1814E0800
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<InventoryDefId, uint>>
 	|
-	|-RVA: 0x14EB380 Offset: 0x14E9980 VA: 0x1814EB380
+	|-RVA: 0x14EB280 Offset: 0x14E9880 VA: 0x1814EB280
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<StringFormatCache.Key1, object>>
 	|
-	|-RVA: 0x14ED310 Offset: 0x14EB910 VA: 0x1814ED310
+	|-RVA: 0x14ED210 Offset: 0x14EB810 VA: 0x1814ED210
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<StringFormatCache.Key2, object>>
 	|
-	|-RVA: 0x14F2820 Offset: 0x14F0E20 VA: 0x1814F2820
+	|-RVA: 0x14F2720 Offset: 0x14F0D20 VA: 0x1814F2720
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<StringFormatCache.Key3, object>>
 	|
-	|-RVA: 0x14E8E10 Offset: 0x14E7410 VA: 0x1814E8E10
+	|-RVA: 0x14E8D10 Offset: 0x14E7310 VA: 0x1814E8D10
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<StringFormatCache.Key4, object>>
 	|
-	|-RVA: 0x14EE400 Offset: 0x14ECA00 VA: 0x1814EE400
+	|-RVA: 0x14EE300 Offset: 0x14EC900 VA: 0x1814EE300
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<bool, bool>>
 	|
-	|-RVA: 0x14ECF50 Offset: 0x14EB550 VA: 0x1814ECF50
+	|-RVA: 0x14ECE50 Offset: 0x14EB450 VA: 0x1814ECE50
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<bool, Decimal>>
 	|
-	|-RVA: 0x14EBC90 Offset: 0x14EA290 VA: 0x1814EBC90
+	|-RVA: 0x14EBB90 Offset: 0x14EA190 VA: 0x1814EBB90
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<bool, double>>
 	|
-	|-RVA: 0x14F0060 Offset: 0x14EE660 VA: 0x1814F0060
+	|-RVA: 0x14EFF60 Offset: 0x14EE560 VA: 0x1814EFF60
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<bool, short>>
 	|
-	|-RVA: 0x14E9990 Offset: 0x14E7F90 VA: 0x1814E9990
+	|-RVA: 0x14E9890 Offset: 0x14E7E90 VA: 0x1814E9890
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<bool, int>>
 	|
-	|-RVA: 0x14EE060 Offset: 0x14EC660 VA: 0x1814EE060
+	|-RVA: 0x14EDF60 Offset: 0x14EC560 VA: 0x1814EDF60
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<bool, long>>
 	|
-	|-RVA: 0x14E37E0 Offset: 0x14E1DE0 VA: 0x1814E37E0
+	|-RVA: 0x14E36E0 Offset: 0x14E1CE0 VA: 0x1814E36E0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<bool, object>>
 	|
-	|-RVA: 0x14E9220 Offset: 0x14E7820 VA: 0x1814E9220
+	|-RVA: 0x14E9120 Offset: 0x14E7720 VA: 0x1814E9120
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<bool, float>>
 	|
-	|-RVA: 0x14EED30 Offset: 0x14ED330 VA: 0x1814EED30
+	|-RVA: 0x14EEC30 Offset: 0x14ED230 VA: 0x1814EEC30
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<bool, ushort>>
 	|
-	|-RVA: 0x14EC230 Offset: 0x14EA830 VA: 0x1814EC230
+	|-RVA: 0x14EC130 Offset: 0x14EA730 VA: 0x1814EC130
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<bool, uint>>
 	|
-	|-RVA: 0x14E5430 Offset: 0x14E3A30 VA: 0x1814E5430
+	|-RVA: 0x14E5330 Offset: 0x14E3930 VA: 0x1814E5330
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<bool, ulong>>
 	|
-	|-RVA: 0x14E3D80 Offset: 0x14E2380 VA: 0x1814E3D80
+	|-RVA: 0x14E3C80 Offset: 0x14E2280 VA: 0x1814E3C80
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<byte, object>>
 	|
-	|-RVA: 0x14ED8F0 Offset: 0x14EBEF0 VA: 0x1814ED8F0
+	|-RVA: 0x14ED7F0 Offset: 0x14EBDF0 VA: 0x1814ED7F0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ByteEnum, byte>>
 	|
-	|-RVA: 0x14DE990 Offset: 0x14DCF90 VA: 0x1814DE990
+	|-RVA: 0x14DE890 Offset: 0x14DCE90 VA: 0x1814DE890
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<KeyValuePair<object, object>, object>>
 	|
-	|-RVA: 0x14E2E60 Offset: 0x14E1460 VA: 0x1814E2E60
+	|-RVA: 0x14E2D60 Offset: 0x14E1360 VA: 0x1814E2D60
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Decimal, bool>>
 	|
-	|-RVA: 0x14E95C0 Offset: 0x14E7BC0 VA: 0x1814E95C0
+	|-RVA: 0x14E94C0 Offset: 0x14E7AC0 VA: 0x1814E94C0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Decimal, Decimal>>
 	|
-	|-RVA: 0x14E6AF0 Offset: 0x14E50F0 VA: 0x1814E6AF0
+	|-RVA: 0x14E69F0 Offset: 0x14E4FF0 VA: 0x1814E69F0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Decimal, double>>
 	|
-	|-RVA: 0x14ED6F0 Offset: 0x14EBCF0 VA: 0x1814ED6F0
+	|-RVA: 0x14ED5F0 Offset: 0x14EBBF0 VA: 0x1814ED5F0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Decimal, short>>
 	|
-	|-RVA: 0x14EA670 Offset: 0x14E8C70 VA: 0x1814EA670
+	|-RVA: 0x14EA570 Offset: 0x14E8B70 VA: 0x1814EA570
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Decimal, int>>
 	|
-	|-RVA: 0x14E4E60 Offset: 0x14E3460 VA: 0x1814E4E60
+	|-RVA: 0x14E4D60 Offset: 0x14E3360 VA: 0x1814E4D60
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Decimal, long>>
 	|
-	|-RVA: 0x14EF2C0 Offset: 0x14ED8C0 VA: 0x1814EF2C0
+	|-RVA: 0x14EF1C0 Offset: 0x14ED7C0 VA: 0x1814EF1C0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Decimal, object>>
 	|
-	|-RVA: 0x14E3220 Offset: 0x14E1820 VA: 0x1814E3220
+	|-RVA: 0x14E3120 Offset: 0x14E1720 VA: 0x1814E3120
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Decimal, float>>
 	|
-	|-RVA: 0x14E8A30 Offset: 0x14E7030 VA: 0x1814E8A30
+	|-RVA: 0x14E8930 Offset: 0x14E6F30 VA: 0x1814E8930
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Decimal, ushort>>
 	|
-	|-RVA: 0x14DF490 Offset: 0x14DDA90 VA: 0x1814DF490
+	|-RVA: 0x14DF390 Offset: 0x14DD990 VA: 0x1814DF390
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Decimal, uint>>
 	|
-	|-RVA: 0x14DFA40 Offset: 0x14DE040 VA: 0x1814DFA40
+	|-RVA: 0x14DF940 Offset: 0x14DDF40 VA: 0x1814DF940
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Decimal, ulong>>
 	|
-	|-RVA: 0x14EDE80 Offset: 0x14EC480 VA: 0x1814EDE80
+	|-RVA: 0x14EDD80 Offset: 0x14EC380 VA: 0x1814EDD80
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<double, bool>>
 	|
-	|-RVA: 0x14EE5D0 Offset: 0x14ECBD0 VA: 0x1814EE5D0
+	|-RVA: 0x14EE4D0 Offset: 0x14ECAD0 VA: 0x1814EE4D0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<double, Decimal>>
 	|
-	|-RVA: 0x14E39C0 Offset: 0x14E1FC0 VA: 0x1814E39C0
+	|-RVA: 0x14E38C0 Offset: 0x14E1EC0 VA: 0x1814E38C0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<double, double>>
 	|
-	|-RVA: 0x14E3BA0 Offset: 0x14E21A0 VA: 0x1814E3BA0
+	|-RVA: 0x14E3AA0 Offset: 0x14E20A0 VA: 0x1814E3AA0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<double, short>>
 	|
-	|-RVA: 0x14EC3F0 Offset: 0x14EA9F0 VA: 0x1814EC3F0
+	|-RVA: 0x14EC2F0 Offset: 0x14EA8F0 VA: 0x1814EC2F0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<double, int>>
 	|
-	|-RVA: 0x14E9F30 Offset: 0x14E8530 VA: 0x1814E9F30
+	|-RVA: 0x14E9E30 Offset: 0x14E8430 VA: 0x1814E9E30
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<double, long>>
 	|
-	|-RVA: 0x14E6910 Offset: 0x14E4F10 VA: 0x1814E6910
+	|-RVA: 0x14E6810 Offset: 0x14E4E10 VA: 0x1814E6810
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<double, object>>
 	|
-	|-RVA: 0x14EC7B0 Offset: 0x14EADB0 VA: 0x1814EC7B0
+	|-RVA: 0x14EC6B0 Offset: 0x14EACB0 VA: 0x1814EC6B0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<double, float>>
 	|
-	|-RVA: 0x14E4140 Offset: 0x14E2740 VA: 0x1814E4140
+	|-RVA: 0x14E4040 Offset: 0x14E2640 VA: 0x1814E4040
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<double, ushort>>
 	|
-	|-RVA: 0x14EEF00 Offset: 0x14ED500 VA: 0x1814EEF00
+	|-RVA: 0x14EEE00 Offset: 0x14ED400 VA: 0x1814EEE00
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<double, uint>>
 	|
-	|-RVA: 0x14E82D0 Offset: 0x14E68D0 VA: 0x1814E82D0
+	|-RVA: 0x14E81D0 Offset: 0x14E67D0 VA: 0x1814E81D0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<double, ulong>>
 	|
-	|-RVA: 0x14E7600 Offset: 0x14E5C00 VA: 0x1814E7600
+	|-RVA: 0x14E7500 Offset: 0x14E5B00 VA: 0x1814E7500
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Guid, object>>
 	|
-	|-RVA: 0x14E97C0 Offset: 0x14E7DC0 VA: 0x1814E97C0
+	|-RVA: 0x14E96C0 Offset: 0x14E7CC0 VA: 0x1814E96C0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<short, bool>>
 	|
-	|-RVA: 0x14F20A0 Offset: 0x14F06A0 VA: 0x1814F20A0
+	|-RVA: 0x14F1FA0 Offset: 0x14F05A0 VA: 0x1814F1FA0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<short, Decimal>>
 	|
-	|-RVA: 0x14E4320 Offset: 0x14E2920 VA: 0x1814E4320
+	|-RVA: 0x14E4220 Offset: 0x14E2820 VA: 0x1814E4220
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<short, double>>
 	|
-	|-RVA: 0x14EB900 Offset: 0x14E9F00 VA: 0x1814EB900
+	|-RVA: 0x14EB800 Offset: 0x14E9E00 VA: 0x1814EB800
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<short, short>>
 	|
-	|-RVA: 0x14E0E60 Offset: 0x14DF460 VA: 0x1814E0E60
+	|-RVA: 0x14E0D60 Offset: 0x14DF360 VA: 0x1814E0D60
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<short, int>>
 	|
-	|-RVA: 0x14E93E0 Offset: 0x14E79E0 VA: 0x1814E93E0
+	|-RVA: 0x14E92E0 Offset: 0x14E78E0 VA: 0x1814E92E0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<short, long>>
 	|
-	|-RVA: 0x14E6390 Offset: 0x14E4990 VA: 0x1814E6390
+	|-RVA: 0x14E6290 Offset: 0x14E4890 VA: 0x1814E6290
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<short, object>>
 	|
-	|-RVA: 0x14EAC10 Offset: 0x14E9210 VA: 0x1814EAC10
+	|-RVA: 0x14EAB10 Offset: 0x14E9110 VA: 0x1814EAB10
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<short, float>>
 	|
-	|-RVA: 0x14E15E0 Offset: 0x14DFBE0 VA: 0x1814E15E0
+	|-RVA: 0x14E14E0 Offset: 0x14DFAE0 VA: 0x1814E14E0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<short, ushort>>
 	|
-	|-RVA: 0x14E8110 Offset: 0x14E6710 VA: 0x1814E8110
+	|-RVA: 0x14E8010 Offset: 0x14E6610 VA: 0x1814E8010
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<short, uint>>
 	|
-	|-RVA: 0x14F0F70 Offset: 0x14EF570 VA: 0x1814F0F70
+	|-RVA: 0x14F0E70 Offset: 0x14EF470 VA: 0x1814F0E70
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<short, ulong>>
 	|
-	|-RVA: 0x14F1710 Offset: 0x14EFD10 VA: 0x1814F1710
+	|-RVA: 0x14F1610 Offset: 0x14EFC10 VA: 0x1814F1610
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, CommandBufferManager.CommandBufferEntry>>
 	|
-	|-RVA: 0x14F1EC0 Offset: 0x14F04C0 VA: 0x1814F1EC0
+	|-RVA: 0x14F1DC0 Offset: 0x14F03C0 VA: 0x1814F1DC0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, FoliageKey>>
 	|
-	|-RVA: 0x14E5FA0 Offset: 0x14E45A0 VA: 0x1814E5FA0
+	|-RVA: 0x14E5EA0 Offset: 0x14E44A0 VA: 0x1814E5EA0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, InstancingKey>>
 	|
-	|-RVA: 0x14F0B80 Offset: 0x14EF180 VA: 0x1814F0B80
+	|-RVA: 0x14F0A80 Offset: 0x14EF080 VA: 0x1814F0A80
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, InvokeAction>>
 	|
-	|-RVA: 0x14E7060 Offset: 0x14E5660 VA: 0x1814E7060
+	|-RVA: 0x14E6F60 Offset: 0x14E5560 VA: 0x1814E6F60
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, RendererKey>>
 	|
-	|-RVA: 0x14E5BB0 Offset: 0x14E41B0 VA: 0x1814E5BB0
+	|-RVA: 0x14E5AB0 Offset: 0x14E40B0 VA: 0x1814E5AB0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, SpecialPurposeCamera.RenderEntry>>
 	|
-	|-RVA: 0x14EB740 Offset: 0x14E9D40 VA: 0x1814EB740
+	|-RVA: 0x14EB640 Offset: 0x14E9C40 VA: 0x1814EB640
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, bool>>
 	|
-	|-RVA: 0x14E6EA0 Offset: 0x14E54A0 VA: 0x1814E6EA0
+	|-RVA: 0x14E6DA0 Offset: 0x14E53A0 VA: 0x1814E6DA0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, char>>
 	|
-	|-RVA: 0x14E9D30 Offset: 0x14E8330 VA: 0x1814E9D30
+	|-RVA: 0x14E9C30 Offset: 0x14E8230 VA: 0x1814E9C30
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, Decimal>>
 	|
-	|-RVA: 0x14E1F50 Offset: 0x14E0550 VA: 0x1814E1F50
+	|-RVA: 0x14E1E50 Offset: 0x14E0450 VA: 0x1814E1E50
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, double>>
 	|
-	|-RVA: 0x14F2480 Offset: 0x14F0A80 VA: 0x1814F2480
+	|-RVA: 0x14F2380 Offset: 0x14F0980 VA: 0x1814F2380
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, short>>
 	|
-	|-RVA: 0x14E3060 Offset: 0x14E1660 VA: 0x1814E3060
+	|-RVA: 0x14E2F60 Offset: 0x14E1560 VA: 0x1814E2F60
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, int>>
 	|
-	|-RVA: 0x14E24F0 Offset: 0x14E0AF0 VA: 0x1814E24F0
+	|-RVA: 0x14E23F0 Offset: 0x14E09F0 VA: 0x1814E23F0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, Int32Enum>>
 	|
-	|-RVA: 0x14F1150 Offset: 0x14EF750 VA: 0x1814F1150
+	|-RVA: 0x14F1050 Offset: 0x14EF650 VA: 0x1814F1050
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, long>>
 	|
-	|-RVA: 0x14E8C30 Offset: 0x14E7230 VA: 0x1814E8C30
+	|-RVA: 0x14E8B30 Offset: 0x14E7130 VA: 0x1814E8B30
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, object>>
 	|
-	|-RVA: 0x14DF2D0 Offset: 0x14DD8D0 VA: 0x1814DF2D0
+	|-RVA: 0x14DF1D0 Offset: 0x14DD7D0 VA: 0x1814DF1D0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, float>>
 	|
-	|-RVA: 0x14E0740 Offset: 0x14DED40 VA: 0x1814E0740
+	|-RVA: 0x14E0640 Offset: 0x14DEC40 VA: 0x1814E0640
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, ushort>>
 	|
-	|-RVA: 0x14EBE70 Offset: 0x14EA470 VA: 0x1814EBE70
+	|-RVA: 0x14EBD70 Offset: 0x14EA370 VA: 0x1814EBD70
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, uint>>
 	|
-	|-RVA: 0x14ED510 Offset: 0x14EBB10 VA: 0x1814ED510
+	|-RVA: 0x14ED410 Offset: 0x14EBA10 VA: 0x1814ED410
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, ulong>>
 	|
-	|-RVA: 0x14EF660 Offset: 0x14EDC60 VA: 0x1814EF660
+	|-RVA: 0x14EF560 Offset: 0x14EDB60 VA: 0x1814EF560
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<int, ViewModelDrawEvent>>
 	|
-	|-RVA: 0x14E4C80 Offset: 0x14E3280 VA: 0x1814E4C80
+	|-RVA: 0x14E4B80 Offset: 0x14E3180 VA: 0x1814E4B80
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Int32Enum, object>>
 	|
-	|-RVA: 0x14ED150 Offset: 0x14EB750 VA: 0x1814ED150
+	|-RVA: 0x14ED050 Offset: 0x14EB650 VA: 0x1814ED050
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Int32Enum, float>>
 	|
-	|-RVA: 0x14E9040 Offset: 0x14E7640 VA: 0x1814E9040
+	|-RVA: 0x14E8F40 Offset: 0x14E7540 VA: 0x1814E8F40
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, bool>>
 	|
-	|-RVA: 0x14E3F60 Offset: 0x14E2560 VA: 0x1814E3F60
+	|-RVA: 0x14E3E60 Offset: 0x14E2460 VA: 0x1814E3E60
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, Decimal>>
 	|
-	|-RVA: 0x14E7F30 Offset: 0x14E6530 VA: 0x1814E7F30
+	|-RVA: 0x14E7E30 Offset: 0x14E6430 VA: 0x1814E7E30
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, double>>
 	|
-	|-RVA: 0x14E0AC0 Offset: 0x14DF0C0 VA: 0x1814E0AC0
+	|-RVA: 0x14E09C0 Offset: 0x14DEFC0 VA: 0x1814E09C0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, short>>
 	|
-	|-RVA: 0x14EDAC0 Offset: 0x14EC0C0 VA: 0x1814EDAC0
+	|-RVA: 0x14ED9C0 Offset: 0x14EBFC0 VA: 0x1814ED9C0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, int>>
 	|
-	|-RVA: 0x14F07C0 Offset: 0x14EEDC0 VA: 0x1814F07C0
+	|-RVA: 0x14F06C0 Offset: 0x14EECC0 VA: 0x1814F06C0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, long>>
 	|
-	|-RVA: 0x14EE7B0 Offset: 0x14ECDB0 VA: 0x1814EE7B0
+	|-RVA: 0x14EE6B0 Offset: 0x14ECCB0 VA: 0x1814EE6B0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, object>>
 	|
-	|-RVA: 0x14E61B0 Offset: 0x14E47B0 VA: 0x1814E61B0
+	|-RVA: 0x14E60B0 Offset: 0x14E46B0 VA: 0x1814E60B0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, float>>
 	|
-	|-RVA: 0x14EF890 Offset: 0x14EDE90 VA: 0x1814EF890
+	|-RVA: 0x14EF790 Offset: 0x14EDD90 VA: 0x1814EF790
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, ushort>>
 	|
-	|-RVA: 0x14E57F0 Offset: 0x14E3DF0 VA: 0x1814E57F0
+	|-RVA: 0x14E56F0 Offset: 0x14E3CF0 VA: 0x1814E56F0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, uint>>
 	|
-	|-RVA: 0x14E17B0 Offset: 0x14DFDB0 VA: 0x1814E17B0
+	|-RVA: 0x14E16B0 Offset: 0x14DFCB0 VA: 0x1814E16B0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, ulong>>
 	|
-	|-RVA: 0x14E0560 Offset: 0x14DEB60 VA: 0x1814E0560
+	|-RVA: 0x14E0460 Offset: 0x14DEA60 VA: 0x1814E0460
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<IntPtr, object>>
 	|
-	|-RVA: 0x14F18F0 Offset: 0x14EFEF0 VA: 0x1814F18F0
+	|-RVA: 0x14F17F0 Offset: 0x14EFDF0 VA: 0x1814F17F0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, CameraMan.CameraState>>
 	|
-	|-RVA: 0x14EFC80 Offset: 0x14EE280 VA: 0x1814EFC80
+	|-RVA: 0x14EFB80 Offset: 0x14EE180 VA: 0x1814EFB80
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>
 	|
-	|-RVA: 0x14E5610 Offset: 0x14E3C10 VA: 0x1814E5610
+	|-RVA: 0x14E5510 Offset: 0x14E3B10 VA: 0x1814E5510
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, InputActionSetHandle_t>>
 	|
-	|-RVA: 0x14E26B0 Offset: 0x14E0CB0 VA: 0x1814E26B0
+	|-RVA: 0x14E25B0 Offset: 0x14E0BB0 VA: 0x1814E25B0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, InputAnalogActionHandle_t>>
 	|
-	|-RVA: 0x14EB1A0 Offset: 0x14E97A0 VA: 0x1814EB1A0
+	|-RVA: 0x14EB0A0 Offset: 0x14E96A0 VA: 0x1814EB0A0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, InputDigitalActionHandle_t>>
 	|
-	|-RVA: 0x14E4AA0 Offset: 0x14E30A0 VA: 0x1814E4AA0
+	|-RVA: 0x14E49A0 Offset: 0x14E2FA0 VA: 0x1814E49A0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, bool>>
 	|
-	|-RVA: 0x14E0380 Offset: 0x14DE980 VA: 0x1814E0380
+	|-RVA: 0x14E0280 Offset: 0x14DE880 VA: 0x1814E0280
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, byte>>
 	|
-	|-RVA: 0x14E1B70 Offset: 0x14E0170 VA: 0x1814E1B70
+	|-RVA: 0x14E1A70 Offset: 0x14E0070 VA: 0x1814E1A70
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, Decimal>>
 	|
-	|-RVA: 0x14F1CE0 Offset: 0x14F02E0 VA: 0x1814F1CE0
+	|-RVA: 0x14F1BE0 Offset: 0x14F01E0 VA: 0x1814F1BE0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, double>>
 	|
-	|-RVA: 0x14F0D90 Offset: 0x14EF390 VA: 0x1814F0D90
+	|-RVA: 0x14F0C90 Offset: 0x14EF290 VA: 0x1814F0C90
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, short>>
 	|
-	|-RVA: 0x14DF0F0 Offset: 0x14DD6F0 VA: 0x1814DF0F0
+	|-RVA: 0x14DEFF0 Offset: 0x14DD5F0 VA: 0x1814DEFF0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, int>>
 	|
-	|-RVA: 0x14E3600 Offset: 0x14E1C00 VA: 0x1814E3600
+	|-RVA: 0x14E3500 Offset: 0x14E1B00 VA: 0x1814E3500
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, Int32Enum>>
 	|
-	|-RVA: 0x14E7B80 Offset: 0x14E6180 VA: 0x1814E7B80
+	|-RVA: 0x14E7A80 Offset: 0x14E6080 VA: 0x1814E7A80
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, long>>
 	|
-	|-RVA: 0x14DEB70 Offset: 0x14DD170 VA: 0x1814DEB70
+	|-RVA: 0x14DEA70 Offset: 0x14DD070 VA: 0x1814DEA70
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, object>>
 	|
-	|-RVA: 0x14F22A0 Offset: 0x14F08A0 VA: 0x1814F22A0
+	|-RVA: 0x14F21A0 Offset: 0x14F07A0 VA: 0x1814F21A0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, ResourceLocator>>
 	|
-	|-RVA: 0x14E4500 Offset: 0x14E2B00 VA: 0x1814E4500
+	|-RVA: 0x14E4400 Offset: 0x14E2A00 VA: 0x1814E4400
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, float>>
 	|
-	|-RVA: 0x14F2640 Offset: 0x14F0C40 VA: 0x1814F2640
+	|-RVA: 0x14F2540 Offset: 0x14F0B40 VA: 0x1814F2540
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, ushort>>
 	|
-	|-RVA: 0x14DEF10 Offset: 0x14DD510 VA: 0x1814DEF10
+	|-RVA: 0x14DEE10 Offset: 0x14DD410 VA: 0x1814DEE10
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, uint>>
 	|
-	|-RVA: 0x14DF690 Offset: 0x14DDC90 VA: 0x1814DF690
+	|-RVA: 0x14DF590 Offset: 0x14DDB90 VA: 0x1814DF590
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, ulong>>
 	|
-	|-RVA: 0x14E8850 Offset: 0x14E6E50 VA: 0x1814E8850
+	|-RVA: 0x14E8750 Offset: 0x14E6D50 VA: 0x1814E8750
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, ValueTuple<object, object>>>
 	|
-	|-RVA: 0x14E9B50 Offset: 0x14E8150 VA: 0x1814E9B50
+	|-RVA: 0x14E9A50 Offset: 0x14E8050 VA: 0x1814E9A50
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<object, Vector3>>
 	|
-	|-RVA: 0x14EE240 Offset: 0x14EC840 VA: 0x1814EE240
+	|-RVA: 0x14EE140 Offset: 0x14EC740 VA: 0x1814EE140
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<float, bool>>
 	|
-	|-RVA: 0x14EC990 Offset: 0x14EAF90 VA: 0x1814EC990
+	|-RVA: 0x14EC890 Offset: 0x14EAE90 VA: 0x1814EC890
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<float, Decimal>>
 	|
-	|-RVA: 0x14EA870 Offset: 0x14E8E70 VA: 0x1814EA870
+	|-RVA: 0x14EA770 Offset: 0x14E8D70 VA: 0x1814EA770
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<float, double>>
 	|
-	|-RVA: 0x14DED50 Offset: 0x14DD350 VA: 0x1814DED50
+	|-RVA: 0x14DEC50 Offset: 0x14DD250 VA: 0x1814DEC50
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<float, short>>
 	|
-	|-RVA: 0x14E6750 Offset: 0x14E4D50 VA: 0x1814E6750
+	|-RVA: 0x14E6650 Offset: 0x14E4C50 VA: 0x1814E6650
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<float, int>>
 	|
-	|-RVA: 0x14F0410 Offset: 0x14EEA10 VA: 0x1814F0410
+	|-RVA: 0x14F0310 Offset: 0x14EE910 VA: 0x1814F0310
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<float, long>>
 	|
-	|-RVA: 0x14E59D0 Offset: 0x14E3FD0 VA: 0x1814E59D0
+	|-RVA: 0x14E58D0 Offset: 0x14E3ED0 VA: 0x1814E58D0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<float, object>>
 	|
-	|-RVA: 0x14EA4B0 Offset: 0x14E8AB0 VA: 0x1814EA4B0
+	|-RVA: 0x14EA3B0 Offset: 0x14E89B0 VA: 0x1814EA3B0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<float, float>>
 	|
-	|-RVA: 0x14E77E0 Offset: 0x14E5DE0 VA: 0x1814E77E0
+	|-RVA: 0x14E76E0 Offset: 0x14E5CE0 VA: 0x1814E76E0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<float, ushort>>
 	|
-	|-RVA: 0x14EBAD0 Offset: 0x14EA0D0 VA: 0x1814EBAD0
+	|-RVA: 0x14EB9D0 Offset: 0x14E9FD0 VA: 0x1814EB9D0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<float, uint>>
 	|
-	|-RVA: 0x14E2AA0 Offset: 0x14E10A0 VA: 0x1814E2AA0
+	|-RVA: 0x14E29A0 Offset: 0x14E0FA0 VA: 0x1814E29A0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<float, ulong>>
 	|
-	|-RVA: 0x14F05F0 Offset: 0x14EEBF0 VA: 0x1814F05F0
+	|-RVA: 0x14F04F0 Offset: 0x14EEAF0 VA: 0x1814F04F0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ushort, bool>>
 	|
-	|-RVA: 0x14F1330 Offset: 0x14EF930 VA: 0x1814F1330
+	|-RVA: 0x14F1230 Offset: 0x14EF830 VA: 0x1814F1230
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ushort, Decimal>>
 	|
-	|-RVA: 0x14E2310 Offset: 0x14E0910 VA: 0x1814E2310
+	|-RVA: 0x14E2210 Offset: 0x14E0810 VA: 0x1814E2210
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ushort, double>>
 	|
-	|-RVA: 0x14DF870 Offset: 0x14DDE70 VA: 0x1814DF870
+	|-RVA: 0x14DF770 Offset: 0x14DDD70 VA: 0x1814DF770
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ushort, short>>
 	|
-	|-RVA: 0x14E0CA0 Offset: 0x14DF2A0 VA: 0x1814E0CA0
+	|-RVA: 0x14E0BA0 Offset: 0x14DF1A0 VA: 0x1814E0BA0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ushort, int>>
 	|
-	|-RVA: 0x14E84B0 Offset: 0x14E6AB0 VA: 0x1814E84B0
+	|-RVA: 0x14E83B0 Offset: 0x14E69B0 VA: 0x1814E83B0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ushort, long>>
 	|
-	|-RVA: 0x14ECD70 Offset: 0x14EB370 VA: 0x1814ECD70
+	|-RVA: 0x14ECC70 Offset: 0x14EB270 VA: 0x1814ECC70
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ushort, object>>
 	|
-	|-RVA: 0x14E8690 Offset: 0x14E6C90 VA: 0x1814E8690
+	|-RVA: 0x14E8590 Offset: 0x14E6B90 VA: 0x1814E8590
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ushort, float>>
 	|
-	|-RVA: 0x14E7D60 Offset: 0x14E6360 VA: 0x1814E7D60
+	|-RVA: 0x14E7C60 Offset: 0x14E6260 VA: 0x1814E7C60
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ushort, ushort>>
 	|
-	|-RVA: 0x14EAA50 Offset: 0x14E9050 VA: 0x1814EAA50
+	|-RVA: 0x14EA950 Offset: 0x14E8F50 VA: 0x1814EA950
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ushort, uint>>
 	|
-	|-RVA: 0x14EA110 Offset: 0x14E8710 VA: 0x1814EA110
+	|-RVA: 0x14EA010 Offset: 0x14E8610 VA: 0x1814EA010
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ushort, ulong>>
 	|
-	|-RVA: 0x14DFFE0 Offset: 0x14DE5E0 VA: 0x1814DFFE0
+	|-RVA: 0x14DFEE0 Offset: 0x14DE4E0 VA: 0x1814DFEE0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<uint, bool>>
 	|
-	|-RVA: 0x14E1200 Offset: 0x14DF800 VA: 0x1814E1200
+	|-RVA: 0x14E1100 Offset: 0x14DF700 VA: 0x1814E1100
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<uint, Decimal>>
 	|
-	|-RVA: 0x14E5DC0 Offset: 0x14E43C0 VA: 0x1814E5DC0
+	|-RVA: 0x14E5CC0 Offset: 0x14E42C0 VA: 0x1814E5CC0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<uint, double>>
 	|
-	|-RVA: 0x14E5040 Offset: 0x14E3640 VA: 0x1814E5040
+	|-RVA: 0x14E4F40 Offset: 0x14E3540 VA: 0x1814E4F40
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<uint, short>>
 	|
-	|-RVA: 0x14EA2F0 Offset: 0x14E88F0 VA: 0x1814EA2F0
+	|-RVA: 0x14EA1F0 Offset: 0x14E87F0 VA: 0x1814EA1F0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<uint, int>>
 	|
-	|-RVA: 0x14E1990 Offset: 0x14DFF90 VA: 0x1814E1990
+	|-RVA: 0x14E1890 Offset: 0x14DFE90 VA: 0x1814E1890
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<uint, long>>
 	|
-	|-RVA: 0x14EDCA0 Offset: 0x14EC2A0 VA: 0x1814EDCA0
+	|-RVA: 0x14EDBA0 Offset: 0x14EC1A0 VA: 0x1814EDBA0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<uint, object>>
 	|
-	|-RVA: 0x14EEB70 Offset: 0x14ED170 VA: 0x1814EEB70
+	|-RVA: 0x14EEA70 Offset: 0x14ED070 VA: 0x1814EEA70
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<uint, float>>
 	|
-	|-RVA: 0x14EAFE0 Offset: 0x14E95E0 VA: 0x1814EAFE0
+	|-RVA: 0x14EAEE0 Offset: 0x14E94E0 VA: 0x1814EAEE0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<uint, ushort>>
 	|
-	|-RVA: 0x14EF4A0 Offset: 0x14EDAA0 VA: 0x1814EF4A0
+	|-RVA: 0x14EF3A0 Offset: 0x14ED9A0 VA: 0x1814EF3A0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<uint, uint>>
 	|
-	|-RVA: 0x14E6570 Offset: 0x14E4B70 VA: 0x1814E6570
+	|-RVA: 0x14E6470 Offset: 0x14E4A70 VA: 0x1814E6470
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<uint, ulong>>
 	|
-	|-RVA: 0x14E01A0 Offset: 0x14DE7A0 VA: 0x1814E01A0
+	|-RVA: 0x14E00A0 Offset: 0x14DE6A0 VA: 0x1814E00A0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, AvatarCache.Entry>>
 	|
-	|-RVA: 0x14E1D50 Offset: 0x14E0350 VA: 0x1814E1D50
+	|-RVA: 0x14E1C50 Offset: 0x14E0250 VA: 0x1814E1C50
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, Chat.MuteEntry>>
 	|
-	|-RVA: 0x14E79A0 Offset: 0x14E5FA0 VA: 0x1814E79A0
+	|-RVA: 0x14E78A0 Offset: 0x14E5EA0 VA: 0x1814E78A0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, Dispatch.ResultCallback>>
 	|
-	|-RVA: 0x14EFE80 Offset: 0x14EE480 VA: 0x1814EFE80
+	|-RVA: 0x14EFD80 Offset: 0x14EE380 VA: 0x1814EFD80
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, bool>>
 	|
-	|-RVA: 0x14E3420 Offset: 0x14E1A20 VA: 0x1814E3420
+	|-RVA: 0x14E3320 Offset: 0x14E1920 VA: 0x1814E3320
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, Decimal>>
 	|
-	|-RVA: 0x14E1400 Offset: 0x14DFA00 VA: 0x1814E1400
+	|-RVA: 0x14E1300 Offset: 0x14DF900 VA: 0x1814E1300
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, double>>
 	|
-	|-RVA: 0x14ECB90 Offset: 0x14EB190 VA: 0x1814ECB90
+	|-RVA: 0x14ECA90 Offset: 0x14EB090 VA: 0x1814ECA90
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, short>>
 	|
-	|-RVA: 0x14E46E0 Offset: 0x14E2CE0 VA: 0x1814E46E0
+	|-RVA: 0x14E45E0 Offset: 0x14E2BE0 VA: 0x1814E45E0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, int>>
 	|
-	|-RVA: 0x14E2130 Offset: 0x14E0730 VA: 0x1814E2130
+	|-RVA: 0x14E2030 Offset: 0x14E0630 VA: 0x1814E2030
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, long>>
 	|
-	|-RVA: 0x14F1530 Offset: 0x14EFB30 VA: 0x1814F1530
+	|-RVA: 0x14F1430 Offset: 0x14EFA30 VA: 0x1814F1430
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, object>>
 	|
-	|-RVA: 0x14E1020 Offset: 0x14DF620 VA: 0x1814E1020
+	|-RVA: 0x14E0F20 Offset: 0x14DF520 VA: 0x1814E0F20
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, float>>
 	|
-	|-RVA: 0x14E7420 Offset: 0x14E5A20 VA: 0x1814E7420
+	|-RVA: 0x14E7320 Offset: 0x14E5920 VA: 0x1814E7320
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, ushort>>
 	|
-	|-RVA: 0x14E48C0 Offset: 0x14E2EC0 VA: 0x1814E48C0
+	|-RVA: 0x14E47C0 Offset: 0x14E2DC0 VA: 0x1814E47C0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, uint>>
 	|
-	|-RVA: 0x14EC5D0 Offset: 0x14EABD0 VA: 0x1814EC5D0
+	|-RVA: 0x14EC4D0 Offset: 0x14EAAD0 VA: 0x1814EC4D0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, ulong>>
 	|
-	|-RVA: 0x14EB560 Offset: 0x14E9B60 VA: 0x1814EB560
+	|-RVA: 0x14EB460 Offset: 0x14E9A60 VA: 0x1814EB460
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ulong, TimeSince>>
 	|
-	|-RVA: 0x14F2A30 Offset: 0x14F1030 VA: 0x1814F2A30
+	|-RVA: 0x14F2930 Offset: 0x14F0F30 VA: 0x1814F2930
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ValueTuple<Int32Enum, int>, object>>
 	|
-	|-RVA: 0x14F0230 Offset: 0x14EE830 VA: 0x1814F0230
+	|-RVA: 0x14F0130 Offset: 0x14EE730 VA: 0x1814F0130
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Color, object>>
 	|
-	|-RVA: 0x14E7240 Offset: 0x14E5840 VA: 0x1814E7240
+	|-RVA: 0x14E7140 Offset: 0x14E5740 VA: 0x1814E7140
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<TerrainUtility.TerrainMap.TileCoord, object>>
 	|
-	|-RVA: 0x14E6CD0 Offset: 0x14E52D0 VA: 0x1814E6CD0
+	|-RVA: 0x14E6BD0 Offset: 0x14E51D0 VA: 0x1814E6BD0
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<StyleSheetCache.SheetHandleKey, int>>
 	|
-	|-RVA: 0x14DFC20 Offset: 0x14DE220 VA: 0x1814DFC20
+	|-RVA: 0x14DFB20 Offset: 0x14DE120 VA: 0x1814DFB20
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<StyleSheetCache.SheetHandleKey, object>>
 	|
-	|-RVA: 0x14EE990 Offset: 0x14ECF90 VA: 0x1814EE990
+	|-RVA: 0x14EE890 Offset: 0x14ECE90 VA: 0x1814EE890
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Vector2i, object>>
 	|
-	|-RVA: 0x14E5200 Offset: 0x14E3800 VA: 0x1814E5200
+	|-RVA: 0x14E5100 Offset: 0x14E3700 VA: 0x1814E5100
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<ViewModelDrawEvent, int>>
 	|
-	|-RVA: 0x14FF480 Offset: 0x14FDA80 VA: 0x1814FF480
+	|-RVA: 0x14FF380 Offset: 0x14FD980 VA: 0x1814FF380
 	|-Array.InternalArray__ICollection_Contains<HashSet.Slot<Connection>>
 	|
-	|-RVA: 0x14FF650 Offset: 0x14FDC50 VA: 0x1814FF650
+	|-RVA: 0x14FF550 Offset: 0x14FDB50 VA: 0x1814FF550
 	|-Array.InternalArray__ICollection_Contains<HashSet.Slot<int>>
 	|
-	|-RVA: 0x14FF100 Offset: 0x14FD700 VA: 0x1814FF100
+	|-RVA: 0x14FF000 Offset: 0x14FD600 VA: 0x1814FF000
 	|-Array.InternalArray__ICollection_Contains<HashSet.Slot<object>>
 	|
-	|-RVA: 0x14FF820 Offset: 0x14FDE20 VA: 0x1814FF820
+	|-RVA: 0x14FF720 Offset: 0x14FDD20 VA: 0x1814FF720
 	|-Array.InternalArray__ICollection_Contains<HashSet.Slot<uint>>
 	|
-	|-RVA: 0x14FF2C0 Offset: 0x14FD8C0 VA: 0x1814FF2C0
+	|-RVA: 0x14FF1C0 Offset: 0x14FD7C0 VA: 0x1814FF1C0
 	|-Array.InternalArray__ICollection_Contains<HashSet.Slot<ulong>>
 	|
-	|-RVA: 0x14FF9F0 Offset: 0x14FDFF0 VA: 0x1814FF9F0
+	|-RVA: 0x14FF8F0 Offset: 0x14FDEF0 VA: 0x1814FF8F0
 	|-Array.InternalArray__ICollection_Contains<HashSet.Slot<Vector3>>
 	|
-	|-RVA: 0x14F5820 Offset: 0x14F3E20 VA: 0x1814F5820
+	|-RVA: 0x14F5720 Offset: 0x14F3D20 VA: 0x1814F5720
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<FoliageKey, int>>
 	|
-	|-RVA: 0x14FBD30 Offset: 0x14FA330 VA: 0x1814FBD30
+	|-RVA: 0x14FBC30 Offset: 0x14FA230 VA: 0x1814FBC30
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<FoliageKey, object>>
 	|
-	|-RVA: 0x14F7830 Offset: 0x14F5E30 VA: 0x1814F7830
+	|-RVA: 0x14F7730 Offset: 0x14F5D30 VA: 0x1814F7730
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<InstancingKey, int>>
 	|
-	|-RVA: 0x14FA340 Offset: 0x14F8940 VA: 0x1814FA340
+	|-RVA: 0x14FA240 Offset: 0x14F8840 VA: 0x1814FA240
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<InstancingKey, object>>
 	|
-	|-RVA: 0x14FCB20 Offset: 0x14FB120 VA: 0x1814FCB20
+	|-RVA: 0x14FCA20 Offset: 0x14FB020 VA: 0x1814FCA20
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<InvokeAction, int>>
 	|
-	|-RVA: 0x14F8890 Offset: 0x14F6E90 VA: 0x1814F8890
+	|-RVA: 0x14F8790 Offset: 0x14F6D90 VA: 0x1814F8790
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<InvokeAction, float>>
 	|
-	|-RVA: 0x14F8A90 Offset: 0x14F7090 VA: 0x1814F8A90
+	|-RVA: 0x14F8990 Offset: 0x14F6F90 VA: 0x1814F8990
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<XPathNodeRef, XPathNodeRef>>
 	|
-	|-RVA: 0x14FB9B0 Offset: 0x14F9FB0 VA: 0x1814FB9B0
+	|-RVA: 0x14FB8B0 Offset: 0x14F9EB0 VA: 0x1814FB8B0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<SevenBitNumber, object>>
 	|
-	|-RVA: 0x14F4B80 Offset: 0x14F3180 VA: 0x1814F4B80
+	|-RVA: 0x14F4A80 Offset: 0x14F3080 VA: 0x1814F4A80
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<DefaultSerializationBinder.TypeNameKey, object>>
 	|
-	|-RVA: 0x14FA720 Offset: 0x14F8D20 VA: 0x1814FA720
+	|-RVA: 0x14FA620 Offset: 0x14F8C20 VA: 0x1814FA620
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ResolverContractKey, object>>
 	|
-	|-RVA: 0x14FA540 Offset: 0x14F8B40 VA: 0x1814FA540
+	|-RVA: 0x14FA440 Offset: 0x14F8A40 VA: 0x1814FA440
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ConvertUtils.TypeConvertKey, object>>
 	|
-	|-RVA: 0x14FA900 Offset: 0x14F8F00 VA: 0x1814FA900
+	|-RVA: 0x14FA800 Offset: 0x14F8E00 VA: 0x1814FA800
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<RendererKey, int>>
 	|
-	|-RVA: 0x14FB7D0 Offset: 0x14F9DD0 VA: 0x1814FB7D0
+	|-RVA: 0x14FB6D0 Offset: 0x14F9CD0 VA: 0x1814FB6D0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<RendererKey, object>>
 	|
-	|-RVA: 0x14F47A0 Offset: 0x14F2DA0 VA: 0x1814F47A0
+	|-RVA: 0x14F46A0 Offset: 0x14F2CA0 VA: 0x1814F46A0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<SpecialPurposeCamera.RenderEntry, int>>
 	|
-	|-RVA: 0x14F9550 Offset: 0x14F7B50 VA: 0x1814F9550
+	|-RVA: 0x14F9450 Offset: 0x14F7A50 VA: 0x1814F9450
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<InventoryDefId, uint>>
 	|
-	|-RVA: 0x14F8C70 Offset: 0x14F7270 VA: 0x1814F8C70
+	|-RVA: 0x14F8B70 Offset: 0x14F7170 VA: 0x1814F8B70
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<StringFormatCache.Key1, object>>
 	|
-	|-RVA: 0x14F49A0 Offset: 0x14F2FA0 VA: 0x1814F49A0
+	|-RVA: 0x14F48A0 Offset: 0x14F2EA0 VA: 0x1814F48A0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<StringFormatCache.Key2, object>>
 	|
-	|-RVA: 0x14F5620 Offset: 0x14F3C20 VA: 0x1814F5620
+	|-RVA: 0x14F5520 Offset: 0x14F3B20 VA: 0x1814F5520
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<StringFormatCache.Key3, object>>
 	|
-	|-RVA: 0x14FB210 Offset: 0x14F9810 VA: 0x1814FB210
+	|-RVA: 0x14FB110 Offset: 0x14F9710 VA: 0x1814FB110
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<StringFormatCache.Key4, object>>
 	|
-	|-RVA: 0x14F91C0 Offset: 0x14F77C0 VA: 0x1814F91C0
+	|-RVA: 0x14F90C0 Offset: 0x14F76C0 VA: 0x1814F90C0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<bool, bool>>
 	|
-	|-RVA: 0x14F7100 Offset: 0x14F5700 VA: 0x1814F7100
+	|-RVA: 0x14F7000 Offset: 0x14F5600 VA: 0x1814F7000
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<bool, Decimal>>
 	|
-	|-RVA: 0x14FAAE0 Offset: 0x14F90E0 VA: 0x1814FAAE0
+	|-RVA: 0x14FA9E0 Offset: 0x14F8FE0 VA: 0x1814FA9E0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<bool, double>>
 	|
-	|-RVA: 0x14FC260 Offset: 0x14FA860 VA: 0x1814FC260
+	|-RVA: 0x14FC160 Offset: 0x14FA760 VA: 0x1814FC160
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<bool, short>>
 	|
-	|-RVA: 0x14F9FE0 Offset: 0x14F85E0 VA: 0x1814F9FE0
+	|-RVA: 0x14F9EE0 Offset: 0x14F84E0 VA: 0x1814F9EE0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<bool, int>>
 	|
-	|-RVA: 0x14F6660 Offset: 0x14F4C60 VA: 0x1814F6660
+	|-RVA: 0x14F6560 Offset: 0x14F4B60 VA: 0x1814F6560
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<bool, long>>
 	|
-	|-RVA: 0x14F6F40 Offset: 0x14F5540 VA: 0x1814F6F40
+	|-RVA: 0x14F6E40 Offset: 0x14F5440 VA: 0x1814F6E40
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<bool, object>>
 	|
-	|-RVA: 0x14F9C30 Offset: 0x14F8230 VA: 0x1814F9C30
+	|-RVA: 0x14F9B30 Offset: 0x14F8130 VA: 0x1814F9B30
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<bool, float>>
 	|
-	|-RVA: 0x14F6D90 Offset: 0x14F5390 VA: 0x1814F6D90
+	|-RVA: 0x14F6C90 Offset: 0x14F5290 VA: 0x1814F6C90
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<bool, ushort>>
 	|
-	|-RVA: 0x14FC5E0 Offset: 0x14FABE0 VA: 0x1814FC5E0
+	|-RVA: 0x14FC4E0 Offset: 0x14FAAE0 VA: 0x1814FC4E0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<bool, uint>>
 	|
-	|-RVA: 0x14F5BC0 Offset: 0x14F41C0 VA: 0x1814F5BC0
+	|-RVA: 0x14F5AC0 Offset: 0x14F40C0 VA: 0x1814F5AC0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<bool, ulong>>
 	|
-	|-RVA: 0x14F52A0 Offset: 0x14F38A0 VA: 0x1814F52A0
+	|-RVA: 0x14F51A0 Offset: 0x14F37A0 VA: 0x1814F51A0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<byte, object>>
 	|
-	|-RVA: 0x14FC0B0 Offset: 0x14FA6B0 VA: 0x1814FC0B0
+	|-RVA: 0x14FBFB0 Offset: 0x14FA5B0 VA: 0x1814FBFB0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ByteEnum, byte>>
 	|
-	|-RVA: 0x14F9370 Offset: 0x14F7970 VA: 0x1814F9370
+	|-RVA: 0x14F9270 Offset: 0x14F7870 VA: 0x1814F9270
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<KeyValuePair<object, object>, object>>
 	|
-	|-RVA: 0x14F7C10 Offset: 0x14F6210 VA: 0x1814F7C10
+	|-RVA: 0x14F7B10 Offset: 0x14F6110 VA: 0x1814F7B10
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<DateTime, object>>
 	|
-	|-RVA: 0x14FCF20 Offset: 0x14FB520 VA: 0x1814FCF20
+	|-RVA: 0x14FCE20 Offset: 0x14FB420 VA: 0x1814FCE20
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Decimal, bool>>
 	|
-	|-RVA: 0x14F6820 Offset: 0x14F4E20 VA: 0x1814F6820
+	|-RVA: 0x14F6720 Offset: 0x14F4D20 VA: 0x1814F6720
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Decimal, Decimal>>
 	|
-	|-RVA: 0x14F5D80 Offset: 0x14F4380 VA: 0x1814F5D80
+	|-RVA: 0x14F5C80 Offset: 0x14F4280 VA: 0x1814F5C80
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Decimal, double>>
 	|
-	|-RVA: 0x14FD0F0 Offset: 0x14FB6F0 VA: 0x1814FD0F0
+	|-RVA: 0x14FCFF0 Offset: 0x14FB5F0 VA: 0x1814FCFF0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Decimal, short>>
 	|
-	|-RVA: 0x14FB420 Offset: 0x14F9A20 VA: 0x1814FB420
+	|-RVA: 0x14FB320 Offset: 0x14F9920 VA: 0x1814FB320
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Decimal, int>>
 	|
-	|-RVA: 0x14F8320 Offset: 0x14F6920 VA: 0x1814F8320
+	|-RVA: 0x14F8220 Offset: 0x14F6820 VA: 0x1814F8220
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Decimal, long>>
 	|
-	|-RVA: 0x14F7650 Offset: 0x14F5C50 VA: 0x1814F7650
+	|-RVA: 0x14F7550 Offset: 0x14F5B50 VA: 0x1814F7550
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Decimal, object>>
 	|
-	|-RVA: 0x14F6BC0 Offset: 0x14F51C0 VA: 0x1814F6BC0
+	|-RVA: 0x14F6AC0 Offset: 0x14F50C0 VA: 0x1814F6AC0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Decimal, float>>
 	|
-	|-RVA: 0x14F62E0 Offset: 0x14F48E0 VA: 0x1814F62E0
+	|-RVA: 0x14F61E0 Offset: 0x14F47E0 VA: 0x1814F61E0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Decimal, ushort>>
 	|
-	|-RVA: 0x14F45D0 Offset: 0x14F2BD0 VA: 0x1814F45D0
+	|-RVA: 0x14F44D0 Offset: 0x14F2AD0 VA: 0x1814F44D0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Decimal, uint>>
 	|
-	|-RVA: 0x14F8500 Offset: 0x14F6B00 VA: 0x1814F8500
+	|-RVA: 0x14F8400 Offset: 0x14F6A00 VA: 0x1814F8400
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Decimal, ulong>>
 	|
-	|-RVA: 0x14F4D60 Offset: 0x14F3360 VA: 0x1814F4D60
+	|-RVA: 0x14F4C60 Offset: 0x14F3260 VA: 0x1814F4C60
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<double, bool>>
 	|
-	|-RVA: 0x14F7A30 Offset: 0x14F6030 VA: 0x1814F7A30
+	|-RVA: 0x14F7930 Offset: 0x14F5F30 VA: 0x1814F7930
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<double, Decimal>>
 	|
-	|-RVA: 0x14FC790 Offset: 0x14FAD90 VA: 0x1814FC790
+	|-RVA: 0x14FC690 Offset: 0x14FAC90 VA: 0x1814FC690
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<double, double>>
 	|
-	|-RVA: 0x14F6A00 Offset: 0x14F5000 VA: 0x1814F6A00
+	|-RVA: 0x14F6900 Offset: 0x14F4F00 VA: 0x1814F6900
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<double, short>>
 	|
-	|-RVA: 0x14FACA0 Offset: 0x14F92A0 VA: 0x1814FACA0
+	|-RVA: 0x14FABA0 Offset: 0x14F91A0 VA: 0x1814FABA0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<double, int>>
 	|
-	|-RVA: 0x14F72D0 Offset: 0x14F58D0 VA: 0x1814F72D0
+	|-RVA: 0x14F71D0 Offset: 0x14F57D0 VA: 0x1814F71D0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<double, long>>
 	|
-	|-RVA: 0x14F4410 Offset: 0x14F2A10 VA: 0x1814F4410
+	|-RVA: 0x14F4310 Offset: 0x14F2910 VA: 0x1814F4310
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<double, object>>
 	|
-	|-RVA: 0x14F7F80 Offset: 0x14F6580 VA: 0x1814F7F80
+	|-RVA: 0x14F7E80 Offset: 0x14F6480 VA: 0x1814F7E80
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<double, float>>
 	|
-	|-RVA: 0x14FBEF0 Offset: 0x14FA4F0 VA: 0x1814FBEF0
+	|-RVA: 0x14FBDF0 Offset: 0x14FA3F0 VA: 0x1814FBDF0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<double, ushort>>
 	|
-	|-RVA: 0x14F5F60 Offset: 0x14F4560 VA: 0x1814F5F60
+	|-RVA: 0x14F5E60 Offset: 0x14F4460 VA: 0x1814F5E60
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<double, uint>>
 	|
-	|-RVA: 0x14F5460 Offset: 0x14F3A60 VA: 0x1814F5460
+	|-RVA: 0x14F5360 Offset: 0x14F3960 VA: 0x1814F5360
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<double, ulong>>
 	|
-	|-RVA: 0x14F4F20 Offset: 0x14F3520 VA: 0x1814F4F20
+	|-RVA: 0x14F4E20 Offset: 0x14F3420 VA: 0x1814F4E20
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Guid, int>>
 	|
-	|-RVA: 0x14FB5F0 Offset: 0x14F9BF0 VA: 0x1814FB5F0
+	|-RVA: 0x14FB4F0 Offset: 0x14F9AF0 VA: 0x1814FB4F0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Guid, object>>
 	|
-	|-RVA: 0x14F9700 Offset: 0x14F7D00 VA: 0x1814F9700
+	|-RVA: 0x14F9600 Offset: 0x14F7C00 VA: 0x1814F9600
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<short, bool>>
 	|
-	|-RVA: 0x14FC410 Offset: 0x14FAA10 VA: 0x1814FC410
+	|-RVA: 0x14FC310 Offset: 0x14FA910 VA: 0x1814FC310
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<short, Decimal>>
 	|
-	|-RVA: 0x14F8E50 Offset: 0x14F7450 VA: 0x1814F8E50
+	|-RVA: 0x14F8D50 Offset: 0x14F7350 VA: 0x1814F8D50
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<short, double>>
 	|
-	|-RVA: 0x14F7DD0 Offset: 0x14F63D0 VA: 0x1814F7DD0
+	|-RVA: 0x14F7CD0 Offset: 0x14F62D0 VA: 0x1814F7CD0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<short, short>>
 	|
-	|-RVA: 0x14F86E0 Offset: 0x14F6CE0 VA: 0x1814F86E0
+	|-RVA: 0x14F85E0 Offset: 0x14F6BE0 VA: 0x1814F85E0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<short, int>>
 	|
-	|-RVA: 0x14F98B0 Offset: 0x14F7EB0 VA: 0x1814F98B0
+	|-RVA: 0x14F97B0 Offset: 0x14F7DB0 VA: 0x1814F97B0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<short, long>>
 	|
-	|-RVA: 0x14F7490 Offset: 0x14F5A90 VA: 0x1814F7490
+	|-RVA: 0x14F7390 Offset: 0x14F5990 VA: 0x1814F7390
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<short, object>>
 	|
-	|-RVA: 0x14F9010 Offset: 0x14F7610 VA: 0x1814F9010
+	|-RVA: 0x14F8F10 Offset: 0x14F7510 VA: 0x1814F8F10
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<short, float>>
 	|
-	|-RVA: 0x14FA190 Offset: 0x14F8790 VA: 0x1814FA190
+	|-RVA: 0x14FA090 Offset: 0x14F8690 VA: 0x1814FA090
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<short, ushort>>
 	|
-	|-RVA: 0x14FAE60 Offset: 0x14F9460 VA: 0x1814FAE60
+	|-RVA: 0x14FAD60 Offset: 0x14F9360 VA: 0x1814FAD60
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<short, uint>>
 	|
-	|-RVA: 0x14F9A70 Offset: 0x14F8070 VA: 0x1814F9A70
+	|-RVA: 0x14F9970 Offset: 0x14F7F70 VA: 0x1814F9970
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<short, ulong>>
 	|
-	|-RVA: 0x14F8140 Offset: 0x14F6740 VA: 0x1814F8140
+	|-RVA: 0x14F8040 Offset: 0x14F6640 VA: 0x1814F8040
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, CommandBufferManager.CommandBufferEntry>>
 	|
-	|-RVA: 0x14F6120 Offset: 0x14F4720 VA: 0x1814F6120
+	|-RVA: 0x14F6020 Offset: 0x14F4620 VA: 0x1814F6020
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, FoliageKey>>
 	|
-	|-RVA: 0x14FCD20 Offset: 0x14FB320 VA: 0x1814FCD20
+	|-RVA: 0x14FCC20 Offset: 0x14FB220 VA: 0x1814FCC20
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, InstancingKey>>
 	|
-	|-RVA: 0x14FB010 Offset: 0x14F9610 VA: 0x1814FB010
+	|-RVA: 0x14FAF10 Offset: 0x14F9510 VA: 0x1814FAF10
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, InvokeAction>>
 	|
-	|-RVA: 0x14F59E0 Offset: 0x14F3FE0 VA: 0x1814F59E0
+	|-RVA: 0x14F58E0 Offset: 0x14F3EE0 VA: 0x1814F58E0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, RendererKey>>
 	|
-	|-RVA: 0x14F9DE0 Offset: 0x14F83E0 VA: 0x1814F9DE0
+	|-RVA: 0x14F9CE0 Offset: 0x14F82E0 VA: 0x1814F9CE0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, SpecialPurposeCamera.RenderEntry>>
 	|
-	|-RVA: 0x14F64B0 Offset: 0x14F4AB0 VA: 0x1814F64B0
+	|-RVA: 0x14F63B0 Offset: 0x14F49B0 VA: 0x1814F63B0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, bool>>
 	|
-	|-RVA: 0x14F50F0 Offset: 0x14F36F0 VA: 0x1814F50F0
+	|-RVA: 0x14F4FF0 Offset: 0x14F35F0 VA: 0x1814F4FF0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, char>>
 	|
-	|-RVA: 0x14FC950 Offset: 0x14FAF50 VA: 0x1814FC950
+	|-RVA: 0x14FC850 Offset: 0x14FAE50 VA: 0x1814FC850
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, Decimal>>
 	|
-	|-RVA: 0x14FBB70 Offset: 0x14FA170 VA: 0x1814FBB70
+	|-RVA: 0x14FBA70 Offset: 0x14FA070 VA: 0x1814FBA70
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, double>>
 	|
-	|-RVA: 0xF300A0 Offset: 0xF2E6A0 VA: 0x180F300A0
+	|-RVA: 0xF2FFA0 Offset: 0xF2E5A0 VA: 0x180F2FFA0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, short>>
 	|
-	|-RVA: 0xF2E150 Offset: 0xF2C750 VA: 0x180F2E150
+	|-RVA: 0xF2E050 Offset: 0xF2C650 VA: 0x180F2E050
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, int>>
 	|
-	|-RVA: 0xF2DC10 Offset: 0xF2C210 VA: 0x180F2DC10
+	|-RVA: 0xF2DB10 Offset: 0xF2C110 VA: 0x180F2DB10
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, Int32Enum>>
 	|
-	|-RVA: 0xF2B890 Offset: 0xF29E90 VA: 0x180F2B890
+	|-RVA: 0xF2B790 Offset: 0xF29D90 VA: 0x180F2B790
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, long>>
 	|
-	|-RVA: 0xF2EF00 Offset: 0xF2D500 VA: 0x180F2EF00
+	|-RVA: 0xF2EE00 Offset: 0xF2D400 VA: 0x180F2EE00
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, object>>
 	|
-	|-RVA: 0xF2E670 Offset: 0xF2CC70 VA: 0x180F2E670
+	|-RVA: 0xF2E570 Offset: 0xF2CB70 VA: 0x180F2E570
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, float>>
 	|
-	|-RVA: 0xF273C0 Offset: 0xF259C0 VA: 0x180F273C0
+	|-RVA: 0xF272C0 Offset: 0xF258C0 VA: 0x180F272C0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, ushort>>
 	|
-	|-RVA: 0xF31400 Offset: 0xF2FA00 VA: 0x180F31400
+	|-RVA: 0xF31300 Offset: 0xF2F900 VA: 0x180F31300
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, uint>>
 	|
-	|-RVA: 0xF2B510 Offset: 0xF29B10 VA: 0x180F2B510
+	|-RVA: 0xF2B410 Offset: 0xF29A10 VA: 0x180F2B410
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, ulong>>
 	|
-	|-RVA: 0xF27720 Offset: 0xF25D20 VA: 0x180F27720
+	|-RVA: 0xF27620 Offset: 0xF25C20 VA: 0x180F27620
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<int, ViewModelDrawEvent>>
 	|
-	|-RVA: 0xF2AC60 Offset: 0xF29260 VA: 0x180F2AC60
+	|-RVA: 0xF2AB60 Offset: 0xF29160 VA: 0x180F2AB60
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Int32Enum, object>>
 	|
-	|-RVA: 0xF28730 Offset: 0xF26D30 VA: 0x180F28730
+	|-RVA: 0xF28630 Offset: 0xF26C30 VA: 0x180F28630
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Int32Enum, float>>
 	|
-	|-RVA: 0xF2D330 Offset: 0xF2B930 VA: 0x180F2D330
+	|-RVA: 0xF2D230 Offset: 0xF2B830 VA: 0x180F2D230
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, bool>>
 	|
-	|-RVA: 0xF29C40 Offset: 0xF28240 VA: 0x180F29C40
+	|-RVA: 0xF29B40 Offset: 0xF28140 VA: 0x180F29B40
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, Decimal>>
 	|
-	|-RVA: 0xF28200 Offset: 0xF26800 VA: 0x180F28200
+	|-RVA: 0xF28100 Offset: 0xF26700 VA: 0x180F28100
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, double>>
 	|
-	|-RVA: 0xF31240 Offset: 0xF2F840 VA: 0x180F31240
+	|-RVA: 0xF31140 Offset: 0xF2F740 VA: 0x180F31140
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, short>>
 	|
-	|-RVA: 0xF2A3A0 Offset: 0xF289A0 VA: 0x180F2A3A0
+	|-RVA: 0xF2A2A0 Offset: 0xF288A0 VA: 0x180F2A2A0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, int>>
 	|
-	|-RVA: 0xF2F600 Offset: 0xF2DC00 VA: 0x180F2F600
+	|-RVA: 0xF2F500 Offset: 0xF2DB00 VA: 0x180F2F500
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, long>>
 	|
-	|-RVA: 0xF27200 Offset: 0xF25800 VA: 0x180F27200
+	|-RVA: 0xF27100 Offset: 0xF25700 VA: 0x180F27100
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, object>>
 	|
-	|-RVA: 0xF2A1E0 Offset: 0xF287E0 VA: 0x180F2A1E0
+	|-RVA: 0xF2A0E0 Offset: 0xF286E0 VA: 0x180F2A0E0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, float>>
 	|
-	|-RVA: 0xF28040 Offset: 0xF26640 VA: 0x180F28040
+	|-RVA: 0xF27F40 Offset: 0xF26540 VA: 0x180F27F40
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, ushort>>
 	|
-	|-RVA: 0xF2C310 Offset: 0xF2A910 VA: 0x180F2C310
+	|-RVA: 0xF2C210 Offset: 0xF2A810 VA: 0x180F2C210
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, uint>>
 	|
-	|-RVA: 0xF2D4F0 Offset: 0xF2BAF0 VA: 0x180F2D4F0
+	|-RVA: 0xF2D3F0 Offset: 0xF2B9F0 VA: 0x180F2D3F0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, ulong>>
 	|
-	|-RVA: 0xF2D170 Offset: 0xF2B770 VA: 0x180F2D170
+	|-RVA: 0xF2D070 Offset: 0xF2B670 VA: 0x180F2D070
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<IntPtr, object>>
 	|
-	|-RVA: 0xF2C4D0 Offset: 0xF2AAD0 VA: 0x180F2C4D0
+	|-RVA: 0xF2C3D0 Offset: 0xF2A9D0 VA: 0x180F2C3D0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, CameraMan.CameraState>>
 	|
-	|-RVA: 0xF30950 Offset: 0xF2EF50 VA: 0x180F30950
+	|-RVA: 0xF30850 Offset: 0xF2EE50 VA: 0x180F30850
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, PlayerModelHair.RendererMaterials>>
 	|
-	|-RVA: 0xF31080 Offset: 0xF2F680 VA: 0x180F31080
+	|-RVA: 0xF30F80 Offset: 0xF2F580 VA: 0x180F30F80
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, InputActionSetHandle_t>>
 	|
-	|-RVA: 0xF2DDC0 Offset: 0xF2C3C0 VA: 0x180F2DDC0
+	|-RVA: 0xF2DCC0 Offset: 0xF2C2C0 VA: 0x180F2DCC0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, InputAnalogActionHandle_t>>
 	|
-	|-RVA: 0xF2BC10 Offset: 0xF2A210 VA: 0x180F2BC10
+	|-RVA: 0xF2BB10 Offset: 0xF2A110 VA: 0x180F2BB10
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, InputDigitalActionHandle_t>>
 	|
-	|-RVA: 0xF31E70 Offset: 0xF30470 VA: 0x180F31E70
+	|-RVA: 0xF31D70 Offset: 0xF30370 VA: 0x180F31D70
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, bool>>
 	|
-	|-RVA: 0xF27B00 Offset: 0xF26100 VA: 0x180F27B00
+	|-RVA: 0xF27A00 Offset: 0xF26000 VA: 0x180F27A00
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, byte>>
 	|
-	|-RVA: 0xF2CDD0 Offset: 0xF2B3D0 VA: 0x180F2CDD0
+	|-RVA: 0xF2CCD0 Offset: 0xF2B2D0 VA: 0x180F2CCD0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, Decimal>>
 	|
-	|-RVA: 0xF29020 Offset: 0xF27620 VA: 0x180F29020
+	|-RVA: 0xF28F20 Offset: 0xF27520 VA: 0x180F28F20
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, double>>
 	|
-	|-RVA: 0xF31770 Offset: 0xF2FD70 VA: 0x180F31770
+	|-RVA: 0xF31670 Offset: 0xF2FC70 VA: 0x180F31670
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, short>>
 	|
-	|-RVA: 0xF29540 Offset: 0xF27B40 VA: 0x180F29540
+	|-RVA: 0xF29440 Offset: 0xF27A40 VA: 0x180F29440
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, int>>
 	|
-	|-RVA: 0xF31AF0 Offset: 0xF300F0 VA: 0x180F31AF0
+	|-RVA: 0xF319F0 Offset: 0xF2FFF0 VA: 0x180F319F0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, Int32Enum>>
 	|
-	|-RVA: 0xF27E80 Offset: 0xF26480 VA: 0x180F27E80
+	|-RVA: 0xF27D80 Offset: 0xF26380 VA: 0x180F27D80
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, long>>
 	|
-	|-RVA: 0xF288E0 Offset: 0xF26EE0 VA: 0x180F288E0
+	|-RVA: 0xF287E0 Offset: 0xF26DE0 VA: 0x180F287E0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, object>>
 	|
-	|-RVA: 0xF28E40 Offset: 0xF27440 VA: 0x180F28E40
+	|-RVA: 0xF28D40 Offset: 0xF27340 VA: 0x180F28D40
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, ResourceLocator>>
 	|
-	|-RVA: 0xF2D870 Offset: 0xF2BE70 VA: 0x180F2D870
+	|-RVA: 0xF2D770 Offset: 0xF2BD70 VA: 0x180F2D770
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, float>>
 	|
-	|-RVA: 0xF28AA0 Offset: 0xF270A0 VA: 0x180F28AA0
+	|-RVA: 0xF289A0 Offset: 0xF26FA0 VA: 0x180F289A0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, ushort>>
 	|
-	|-RVA: 0xF2AAA0 Offset: 0xF290A0 VA: 0x180F2AAA0
+	|-RVA: 0xF2A9A0 Offset: 0xF28FA0 VA: 0x180F2A9A0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, uint>>
 	|
-	|-RVA: 0xF2BDD0 Offset: 0xF2A3D0 VA: 0x180F2BDD0
+	|-RVA: 0xF2BCD0 Offset: 0xF2A2D0 VA: 0x180F2BCD0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, ulong>>
 	|
-	|-RVA: 0xF27020 Offset: 0xF25620 VA: 0x180F27020
+	|-RVA: 0xF26F20 Offset: 0xF25520 VA: 0x180F26F20
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, ValueTuple<object, object>>>
 	|
-	|-RVA: 0xF2DA30 Offset: 0xF2C030 VA: 0x180F2DA30
+	|-RVA: 0xF2D930 Offset: 0xF2BF30 VA: 0x180F2D930
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, Color>>
 	|
-	|-RVA: 0xF30B30 Offset: 0xF2F130 VA: 0x180F30B30
+	|-RVA: 0xF30A30 Offset: 0xF2F030 VA: 0x180F30A30
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<object, Vector3>>
 	|
-	|-RVA: 0xF2F450 Offset: 0xF2DA50 VA: 0x180F2F450
+	|-RVA: 0xF2F350 Offset: 0xF2D950 VA: 0x180F2F350
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<float, bool>>
 	|
-	|-RVA: 0xF2DF80 Offset: 0xF2C580 VA: 0x180F2DF80
+	|-RVA: 0xF2DE80 Offset: 0xF2C480 VA: 0x180F2DE80
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<float, Decimal>>
 	|
-	|-RVA: 0xF298C0 Offset: 0xF27EC0 VA: 0x180F298C0
+	|-RVA: 0xF297C0 Offset: 0xF27DC0 VA: 0x180F297C0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<float, double>>
 	|
-	|-RVA: 0xF2ED50 Offset: 0xF2D350 VA: 0x180F2ED50
+	|-RVA: 0xF2EC50 Offset: 0xF2D250 VA: 0x180F2EC50
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<float, short>>
 	|
-	|-RVA: 0xF2F0C0 Offset: 0xF2D6C0 VA: 0x180F2F0C0
+	|-RVA: 0xF2EFC0 Offset: 0xF2D5C0 VA: 0x180F2EFC0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<float, int>>
 	|
-	|-RVA: 0xF31930 Offset: 0xF2FF30 VA: 0x180F31930
+	|-RVA: 0xF31830 Offset: 0xF2FE30 VA: 0x180F31830
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<float, long>>
 	|
-	|-RVA: 0xF2AFD0 Offset: 0xF295D0 VA: 0x180F2AFD0
+	|-RVA: 0xF2AED0 Offset: 0xF294D0 VA: 0x180F2AED0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<float, object>>
 	|
-	|-RVA: 0xF30D10 Offset: 0xF2F310 VA: 0x180F30D10
+	|-RVA: 0xF30C10 Offset: 0xF2F210 VA: 0x180F30C10
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<float, float>>
 	|
-	|-RVA: 0xF2C8B0 Offset: 0xF2AEB0 VA: 0x180F2C8B0
+	|-RVA: 0xF2C7B0 Offset: 0xF2ADB0 VA: 0x180F2C7B0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<float, ushort>>
 	|
-	|-RVA: 0xF2C160 Offset: 0xF2A760 VA: 0x180F2C160
+	|-RVA: 0xF2C060 Offset: 0xF2A660 VA: 0x180F2C060
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<float, uint>>
 	|
-	|-RVA: 0xF32030 Offset: 0xF30630 VA: 0x180F32030
+	|-RVA: 0xF31F30 Offset: 0xF30530 VA: 0x180F31F30
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<float, ulong>>
 	|
-	|-RVA: 0xF2CA60 Offset: 0xF2B060 VA: 0x180F2CA60
+	|-RVA: 0xF2C960 Offset: 0xF2AF60 VA: 0x180F2C960
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ushort, bool>>
 	|
-	|-RVA: 0xF27930 Offset: 0xF25F30 VA: 0x180F27930
+	|-RVA: 0xF27830 Offset: 0xF25E30 VA: 0x180F27830
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ushort, Decimal>>
 	|
-	|-RVA: 0xF2A560 Offset: 0xF28B60 VA: 0x180F2A560
+	|-RVA: 0xF2A460 Offset: 0xF28A60 VA: 0x180F2A460
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ushort, double>>
 	|
-	|-RVA: 0xF30430 Offset: 0xF2EA30 VA: 0x180F30430
+	|-RVA: 0xF30330 Offset: 0xF2E930 VA: 0x180F30330
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ushort, short>>
 	|
-	|-RVA: 0xF28580 Offset: 0xF26B80 VA: 0x180F28580
+	|-RVA: 0xF28480 Offset: 0xF26A80 VA: 0x180F28480
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ushort, int>>
 	|
-	|-RVA: 0xF2CC10 Offset: 0xF2B210 VA: 0x180F2CC10
+	|-RVA: 0xF2CB10 Offset: 0xF2B110 VA: 0x180F2CB10
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ushort, long>>
 	|
-	|-RVA: 0xF2BA50 Offset: 0xF2A050 VA: 0x180F2BA50
+	|-RVA: 0xF2B950 Offset: 0xF29F50 VA: 0x180F2B950
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ushort, object>>
 	|
-	|-RVA: 0xF291E0 Offset: 0xF277E0 VA: 0x180F291E0
+	|-RVA: 0xF290E0 Offset: 0xF276E0 VA: 0x180F290E0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ushort, float>>
 	|
-	|-RVA: 0xF2B360 Offset: 0xF29960 VA: 0x180F2B360
+	|-RVA: 0xF2B260 Offset: 0xF29860 VA: 0x180F2B260
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ushort, ushort>>
 	|
-	|-RVA: 0xF2E820 Offset: 0xF2CE20 VA: 0x180F2E820
+	|-RVA: 0xF2E720 Offset: 0xF2CD20 VA: 0x180F2E720
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ushort, uint>>
 	|
-	|-RVA: 0xF2A8E0 Offset: 0xF28EE0 VA: 0x180F2A8E0
+	|-RVA: 0xF2A7E0 Offset: 0xF28DE0 VA: 0x180F2A7E0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ushort, ulong>>
 	|
-	|-RVA: 0xF29E20 Offset: 0xF28420 VA: 0x180F29E20
+	|-RVA: 0xF29D20 Offset: 0xF28320 VA: 0x180F29D20
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<uint, bool>>
 	|
-	|-RVA: 0xF2BF90 Offset: 0xF2A590 VA: 0x180F2BF90
+	|-RVA: 0xF2BE90 Offset: 0xF2A490 VA: 0x180F2BE90
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<uint, Decimal>>
 	|
-	|-RVA: 0xF2E4B0 Offset: 0xF2CAB0 VA: 0x180F2E4B0
+	|-RVA: 0xF2E3B0 Offset: 0xF2C9B0 VA: 0x180F2E3B0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<uint, double>>
 	|
-	|-RVA: 0xF27570 Offset: 0xF25B70 VA: 0x180F27570
+	|-RVA: 0xF27470 Offset: 0xF25A70 VA: 0x180F27470
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<uint, short>>
 	|
-	|-RVA: 0xF305E0 Offset: 0xF2EBE0 VA: 0x180F305E0
+	|-RVA: 0xF304E0 Offset: 0xF2EAE0 VA: 0x180F304E0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<uint, int>>
 	|
-	|-RVA: 0xF2CFB0 Offset: 0xF2B5B0 VA: 0x180F2CFB0
+	|-RVA: 0xF2CEB0 Offset: 0xF2B4B0 VA: 0x180F2CEB0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<uint, long>>
 	|
-	|-RVA: 0xF29A80 Offset: 0xF28080 VA: 0x180F29A80
+	|-RVA: 0xF29980 Offset: 0xF27F80 VA: 0x180F29980
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<uint, object>>
 	|
-	|-RVA: 0xF2AE20 Offset: 0xF29420 VA: 0x180F2AE20
+	|-RVA: 0xF2AD20 Offset: 0xF29320 VA: 0x180F2AD20
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<uint, float>>
 	|
-	|-RVA: 0xF29390 Offset: 0xF27990 VA: 0x180F29390
+	|-RVA: 0xF29290 Offset: 0xF27890 VA: 0x180F29290
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<uint, ushort>>
 	|
-	|-RVA: 0xF2E300 Offset: 0xF2C900 VA: 0x180F2E300
+	|-RVA: 0xF2E200 Offset: 0xF2C800 VA: 0x180F2E200
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<uint, uint>>
 	|
-	|-RVA: 0xF27CC0 Offset: 0xF262C0 VA: 0x180F27CC0
+	|-RVA: 0xF27BC0 Offset: 0xF261C0 VA: 0x180F27BC0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<uint, ulong>>
 	|
-	|-RVA: 0xF2C6D0 Offset: 0xF2ACD0 VA: 0x180F2C6D0
+	|-RVA: 0xF2C5D0 Offset: 0xF2ABD0 VA: 0x180F2C5D0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, AvatarCache.Entry>>
 	|
-	|-RVA: 0xF30250 Offset: 0xF2E850 VA: 0x180F30250
+	|-RVA: 0xF30150 Offset: 0xF2E750 VA: 0x180F30150
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, Chat.MuteEntry>>
 	|
-	|-RVA: 0xF2F980 Offset: 0xF2DF80 VA: 0x180F2F980
+	|-RVA: 0xF2F880 Offset: 0xF2DE80 VA: 0x180F2F880
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, Dispatch.ResultCallback>>
 	|
-	|-RVA: 0xF29700 Offset: 0xF27D00 VA: 0x180F29700
+	|-RVA: 0xF29600 Offset: 0xF27C00 VA: 0x180F29600
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, bool>>
 	|
-	|-RVA: 0xF2F270 Offset: 0xF2D870 VA: 0x180F2F270
+	|-RVA: 0xF2F170 Offset: 0xF2D770 VA: 0x180F2F170
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, Decimal>>
 	|
-	|-RVA: 0xF2A720 Offset: 0xF28D20 VA: 0x180F2A720
+	|-RVA: 0xF2A620 Offset: 0xF28C20 VA: 0x180F2A620
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, double>>
 	|
-	|-RVA: 0xF315B0 Offset: 0xF2FBB0 VA: 0x180F315B0
+	|-RVA: 0xF314B0 Offset: 0xF2FAB0 VA: 0x180F314B0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, short>>
 	|
-	|-RVA: 0xF2FD20 Offset: 0xF2E320 VA: 0x180F2FD20
+	|-RVA: 0xF2FC20 Offset: 0xF2E220 VA: 0x180F2FC20
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, int>>
 	|
-	|-RVA: 0xF2FEE0 Offset: 0xF2E4E0 VA: 0x180F2FEE0
+	|-RVA: 0xF2FDE0 Offset: 0xF2E3E0 VA: 0x180F2FDE0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, long>>
 	|
-	|-RVA: 0xF2E9D0 Offset: 0xF2CFD0 VA: 0x180F2E9D0
+	|-RVA: 0xF2E8D0 Offset: 0xF2CED0 VA: 0x180F2E8D0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, object>>
 	|
-	|-RVA: 0xF31CB0 Offset: 0xF302B0 VA: 0x180F31CB0
+	|-RVA: 0xF31BB0 Offset: 0xF301B0 VA: 0x180F31BB0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, float>>
 	|
-	|-RVA: 0xF30790 Offset: 0xF2ED90 VA: 0x180F30790
+	|-RVA: 0xF30690 Offset: 0xF2EC90 VA: 0x180F30690
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, ushort>>
 	|
-	|-RVA: 0xF30EC0 Offset: 0xF2F4C0 VA: 0x180F30EC0
+	|-RVA: 0xF30DC0 Offset: 0xF2F3C0 VA: 0x180F30DC0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, uint>>
 	|
-	|-RVA: 0xF2F7C0 Offset: 0xF2DDC0 VA: 0x180F2F7C0
+	|-RVA: 0xF2F6C0 Offset: 0xF2DCC0 VA: 0x180F2F6C0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, ulong>>
 	|
-	|-RVA: 0xF2D6B0 Offset: 0xF2BCB0 VA: 0x180F2D6B0
+	|-RVA: 0xF2D5B0 Offset: 0xF2BBB0 VA: 0x180F2D5B0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ulong, TimeSince>>
 	|
-	|-RVA: 0xF2FB60 Offset: 0xF2E160 VA: 0x180F2FB60
+	|-RVA: 0xF2FA60 Offset: 0xF2E060 VA: 0x180F2FA60
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ValueTuple<Int32Enum, int>, object>>
 	|
-	|-RVA: 0xF28C60 Offset: 0xF27260 VA: 0x180F28C60
+	|-RVA: 0xF28B60 Offset: 0xF27160 VA: 0x180F28B60
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Color, object>>
 	|
-	|-RVA: 0xF283C0 Offset: 0xF269C0 VA: 0x180F283C0
+	|-RVA: 0xF282C0 Offset: 0xF268C0 VA: 0x180F282C0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<TerrainUtility.TerrainMap.TileCoord, object>>
 	|
-	|-RVA: 0xF2B190 Offset: 0xF29790 VA: 0x180F2B190
+	|-RVA: 0xF2B090 Offset: 0xF29690 VA: 0x180F2B090
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<StyleSheetCache.SheetHandleKey, int>>
 	|
-	|-RVA: 0xF2EB90 Offset: 0xF2D190 VA: 0x180F2EB90
+	|-RVA: 0xF2EA90 Offset: 0xF2D090 VA: 0x180F2EA90
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<StyleSheetCache.SheetHandleKey, object>>
 	|
-	|-RVA: 0xF2B6D0 Offset: 0xF29CD0 VA: 0x180F2B6D0
+	|-RVA: 0xF2B5D0 Offset: 0xF29BD0 VA: 0x180F2B5D0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Vector2i, object>>
 	|
-	|-RVA: 0xF29FD0 Offset: 0xF285D0 VA: 0x180F29FD0
+	|-RVA: 0xF29ED0 Offset: 0xF284D0 VA: 0x180F29ED0
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<ViewModelDrawEvent, int>>
 	|
-	|-RVA: 0xF3E4C0 Offset: 0xF3CAC0 VA: 0x180F3E4C0
+	|-RVA: 0xF3E3C0 Offset: 0xF3C9C0 VA: 0x180F3E3C0
 	|-Array.InternalArray__ICollection_Contains<Hashtable.bucket>
 	|
-	|-RVA: 0xF22000 Offset: 0xF20600 VA: 0x180F22000
+	|-RVA: 0xF21F00 Offset: 0xF20500 VA: 0x180F21F00
 	|-Array.InternalArray__ICollection_Contains<AttributeCollection.AttributeEntry>
 	|
-	|-RVA: 0xF370D0 Offset: 0xF356D0 VA: 0x180F370D0
+	|-RVA: 0xF36FD0 Offset: 0xF355D0 VA: 0x180F36FD0
 	|-Array.InternalArray__ICollection_Contains<SchemaInfo>
 	|
-	|-RVA: 0xF22FF0 Offset: 0xF215F0 VA: 0x180F22FF0
+	|-RVA: 0xF22EF0 Offset: 0xF214F0 VA: 0x180F22EF0
 	|-Array.InternalArray__ICollection_Contains<DataError.ColumnError>
 	|
-	|-RVA: 0xF36530 Offset: 0xF34B30 VA: 0x180F36530
+	|-RVA: 0xF36430 Offset: 0xF34A30 VA: 0x180F36430
 	|-Array.InternalArray__ICollection_Contains<ExpressionParser.ReservedWords>
 	|
-	|-RVA: 0xF26120 Offset: 0xF24720 VA: 0x180F26120
+	|-RVA: 0xF26020 Offset: 0xF24620 VA: 0x180F26020
 	|-Array.InternalArray__ICollection_Contains<IndexField>
 	|
-	|-RVA: 0xF34440 Offset: 0xF32A40 VA: 0x180F34440
+	|-RVA: 0xF34340 Offset: 0xF32940 VA: 0x180F34340
 	|-Array.InternalArray__ICollection_Contains<RBTree.Node<int>>
 	|
-	|-RVA: 0xF34240 Offset: 0xF32840 VA: 0x180F34240
+	|-RVA: 0xF34140 Offset: 0xF32740 VA: 0x180F34140
 	|-Array.InternalArray__ICollection_Contains<RBTree.Node<object>>
 	|
-	|-RVA: 0xF38A60 Offset: 0xF37060 VA: 0x180F38A60
+	|-RVA: 0xF38960 Offset: 0xF36F60 VA: 0x180F38960
 	|-Array.InternalArray__ICollection_Contains<SqlBinary>
 	|
-	|-RVA: 0xF38BA0 Offset: 0xF371A0 VA: 0x180F38BA0
+	|-RVA: 0xF38AA0 Offset: 0xF370A0 VA: 0x180F38AA0
 	|-Array.InternalArray__ICollection_Contains<SqlBoolean>
 	|
-	|-RVA: 0xF38CE0 Offset: 0xF372E0 VA: 0x180F38CE0
+	|-RVA: 0xF38BE0 Offset: 0xF371E0 VA: 0x180F38BE0
 	|-Array.InternalArray__ICollection_Contains<SqlByte>
 	|
-	|-RVA: 0xF38E20 Offset: 0xF37420 VA: 0x180F38E20
+	|-RVA: 0xF38D20 Offset: 0xF37320 VA: 0x180F38D20
 	|-Array.InternalArray__ICollection_Contains<SqlDateTime>
 	|
-	|-RVA: 0xF38F80 Offset: 0xF37580 VA: 0x180F38F80
+	|-RVA: 0xF38E80 Offset: 0xF37480 VA: 0x180F38E80
 	|-Array.InternalArray__ICollection_Contains<SqlDecimal>
 	|
-	|-RVA: 0xF390E0 Offset: 0xF376E0 VA: 0x180F390E0
+	|-RVA: 0xF38FE0 Offset: 0xF375E0 VA: 0x180F38FE0
 	|-Array.InternalArray__ICollection_Contains<SqlDouble>
 	|
-	|-RVA: 0xF39230 Offset: 0xF37830 VA: 0x180F39230
+	|-RVA: 0xF39130 Offset: 0xF37730 VA: 0x180F39130
 	|-Array.InternalArray__ICollection_Contains<SqlGuid>
 	|
-	|-RVA: 0xF39370 Offset: 0xF37970 VA: 0x180F39370
+	|-RVA: 0xF39270 Offset: 0xF37870 VA: 0x180F39270
 	|-Array.InternalArray__ICollection_Contains<SqlInt16>
 	|
-	|-RVA: 0xF394B0 Offset: 0xF37AB0 VA: 0x180F394B0
+	|-RVA: 0xF393B0 Offset: 0xF379B0 VA: 0x180F393B0
 	|-Array.InternalArray__ICollection_Contains<SqlInt32>
 	|
-	|-RVA: 0xF395F0 Offset: 0xF37BF0 VA: 0x180F395F0
+	|-RVA: 0xF394F0 Offset: 0xF37AF0 VA: 0x180F394F0
 	|-Array.InternalArray__ICollection_Contains<SqlInt64>
 	|
-	|-RVA: 0xF39740 Offset: 0xF37D40 VA: 0x180F39740
+	|-RVA: 0xF39640 Offset: 0xF37C40 VA: 0x180F39640
 	|-Array.InternalArray__ICollection_Contains<SqlMoney>
 	|
-	|-RVA: 0xF39890 Offset: 0xF37E90 VA: 0x180F39890
+	|-RVA: 0xF39790 Offset: 0xF37D90 VA: 0x180F39790
 	|-Array.InternalArray__ICollection_Contains<SqlSingle>
 	|
-	|-RVA: 0xF399D0 Offset: 0xF37FD0 VA: 0x180F399D0
+	|-RVA: 0xF398D0 Offset: 0xF37ED0 VA: 0x180F398D0
 	|-Array.InternalArray__ICollection_Contains<SqlString>
 	|
-	|-RVA: 0xF23BA0 Offset: 0xF221A0 VA: 0x180F23BA0
+	|-RVA: 0xF23AA0 Offset: 0xF220A0 VA: 0x180F23AA0
 	|-Array.InternalArray__ICollection_Contains<DateTime>
 	|
-	|-RVA: 0xF23A50 Offset: 0xF22050 VA: 0x180F23A50
+	|-RVA: 0xF23950 Offset: 0xF21F50 VA: 0x180F23950
 	|-Array.InternalArray__ICollection_Contains<DateTimeOffset>
 	|
-	|-RVA: 0xF23CE0 Offset: 0xF222E0 VA: 0x180F23CE0
+	|-RVA: 0xF23BE0 Offset: 0xF221E0 VA: 0x180F23BE0
 	|-Array.InternalArray__ICollection_Contains<Decimal>
 	|
-	|-RVA: 0xF37830 Offset: 0xF35E30 VA: 0x180F37830
+	|-RVA: 0xF37730 Offset: 0xF35D30 VA: 0x180F37730
 	|-Array.InternalArray__ICollection_Contains<EventProvider.SessionInfo>
 	|
-	|-RVA: 0xF248E0 Offset: 0xF22EE0 VA: 0x180F248E0
+	|-RVA: 0xF247E0 Offset: 0xF22DE0 VA: 0x180F247E0
 	|-Array.InternalArray__ICollection_Contains<EventSource.EventMetadata>
 	|
-	|-RVA: 0xF23FF0 Offset: 0xF225F0 VA: 0x180F23FF0
+	|-RVA: 0xF23EF0 Offset: 0xF224F0 VA: 0x180F23EF0
 	|-Array.InternalArray__ICollection_Contains<double>
 	|
-	|-RVA: 0xF26AE0 Offset: 0xF250E0 VA: 0x180F26AE0
+	|-RVA: 0xF269E0 Offset: 0xF24FE0 VA: 0x180F269E0
 	|-Array.InternalArray__ICollection_Contains<InternalCodePageDataItem>
 	|
-	|-RVA: 0xF26CA0 Offset: 0xF252A0 VA: 0x180F26CA0
+	|-RVA: 0xF26BA0 Offset: 0xF251A0 VA: 0x180F26BA0
 	|-Array.InternalArray__ICollection_Contains<InternalEncodingDataItem>
 	|
-	|-RVA: 0xF3B1E0 Offset: 0xF397E0 VA: 0x180F3B1E0
+	|-RVA: 0xF3B0E0 Offset: 0xF396E0 VA: 0x180F3B0E0
 	|-Array.InternalArray__ICollection_Contains<TimeSpanParse.TimeSpanToken>
 	|
-	|-RVA: 0xF25C50 Offset: 0xF24250 VA: 0x180F25C50
+	|-RVA: 0xF25B50 Offset: 0xF24150 VA: 0x180F25B50
 	|-Array.InternalArray__ICollection_Contains<Guid>
 	|
-	|-RVA: 0xF26450 Offset: 0xF24A50 VA: 0x180F26450
+	|-RVA: 0xF26350 Offset: 0xF24950 VA: 0x180F26350
 	|-Array.InternalArray__ICollection_Contains<short>
 	|
-	|-RVA: 0xF26720 Offset: 0xF24D20 VA: 0x180F26720
+	|-RVA: 0xF26620 Offset: 0xF24C20 VA: 0x180F26620
 	|-Array.InternalArray__ICollection_Contains<int>
 	|
-	|-RVA: 0xF26590 Offset: 0xF24B90 VA: 0x180F26590
+	|-RVA: 0xF26490 Offset: 0xF24A90 VA: 0x180F26490
 	|-Array.InternalArray__ICollection_Contains<Int32Enum>
 	|
-	|-RVA: 0xF26860 Offset: 0xF24E60 VA: 0x180F26860
+	|-RVA: 0xF26760 Offset: 0xF24D60 VA: 0x180F26760
 	|-Array.InternalArray__ICollection_Contains<long>
 	|
-	|-RVA: 0xF269A0 Offset: 0xF24FA0 VA: 0x180F269A0
+	|-RVA: 0xF268A0 Offset: 0xF24EA0 VA: 0x180F268A0
 	|-Array.InternalArray__ICollection_Contains<IntPtr>
 	|
-	|-RVA: 0xF37EB0 Offset: 0xF364B0 VA: 0x180F37EB0
+	|-RVA: 0xF37DB0 Offset: 0xF363B0 VA: 0x180F37DB0
 	|-Array.InternalArray__ICollection_Contains<Set.Slot<ServerInfo>>
 	|
-	|-RVA: 0xF38140 Offset: 0xF36740 VA: 0x180F38140
+	|-RVA: 0xF38040 Offset: 0xF36640 VA: 0x180F38040
 	|-Array.InternalArray__ICollection_Contains<Set.Slot<char>>
 	|
-	|-RVA: 0xF384D0 Offset: 0xF36AD0 VA: 0x180F384D0
+	|-RVA: 0xF383D0 Offset: 0xF369D0 VA: 0x180F383D0
 	|-Array.InternalArray__ICollection_Contains<Set.Slot<object>>
 	|
-	|-RVA: 0xF37CE0 Offset: 0xF362E0 VA: 0x180F37CE0
+	|-RVA: 0xF37BE0 Offset: 0xF361E0 VA: 0x180F37BE0
 	|-Array.InternalArray__ICollection_Contains<Set.Slot<float>>
 	|
-	|-RVA: 0xF38310 Offset: 0xF36910 VA: 0x180F38310
+	|-RVA: 0xF38210 Offset: 0xF36810 VA: 0x180F38210
 	|-Array.InternalArray__ICollection_Contains<Set.Slot<Vector2>>
 	|
-	|-RVA: 0xF360A0 Offset: 0xF346A0 VA: 0x180F360A0
+	|-RVA: 0xF35FA0 Offset: 0xF345A0 VA: 0x180F35FA0
 	|-Array.InternalArray__ICollection_Contains<CookieTokenizer.RecognizedAttribute>
 	|
-	|-RVA: 0xF25DA0 Offset: 0xF243A0 VA: 0x180F25DA0
+	|-RVA: 0xF25CA0 Offset: 0xF242A0 VA: 0x180F25CA0
 	|-Array.InternalArray__ICollection_Contains<HeaderVariantInfo>
 	|
-	|-RVA: 0xF3DBA0 Offset: 0xF3C1A0 VA: 0x180F3DBA0
+	|-RVA: 0xF3DAA0 Offset: 0xF3C0A0 VA: 0x180F3DAA0
 	|-Array.InternalArray__ICollection_Contains<Socket.WSABUF>
 	|
-	|-RVA: 0xF22390 Offset: 0xF20990 VA: 0x180F22390
+	|-RVA: 0xF22290 Offset: 0xF20890 VA: 0x180F22290
 	|-Array.InternalArray__ICollection_Contains<BigInteger>
 	|
-	|-RVA: 0xF36E70 Offset: 0xF35470 VA: 0x180F36E70
+	|-RVA: 0xF36D70 Offset: 0xF35370 VA: 0x180F36D70
 	|-Array.InternalArray__ICollection_Contains<object>
 	|
-	|-RVA: 0xF24E90 Offset: 0xF23490 VA: 0x180F24E90
+	|-RVA: 0xF24D90 Offset: 0xF23390 VA: 0x180F24D90
 	|-Array.InternalArray__ICollection_Contains<ParameterizedStrings.FormatParam>
 	|
-	|-RVA: 0xF237A0 Offset: 0xF21DA0 VA: 0x180F237A0
+	|-RVA: 0xF236A0 Offset: 0xF21CA0 VA: 0x180F236A0
 	|-Array.InternalArray__ICollection_Contains<CustomAttributeNamedArgument>
 	|
-	|-RVA: 0xF23900 Offset: 0xF21F00 VA: 0x180F23900
+	|-RVA: 0xF23800 Offset: 0xF21E00 VA: 0x180F23800
 	|-Array.InternalArray__ICollection_Contains<CustomAttributeTypedArgument>
 	|
-	|-RVA: 0xF347E0 Offset: 0xF32DE0 VA: 0x180F347E0
+	|-RVA: 0xF346E0 Offset: 0xF32CE0 VA: 0x180F346E0
 	|-Array.InternalArray__ICollection_Contains<ParameterModifier>
 	|
-	|-RVA: 0xF368C0 Offset: 0xF34EC0 VA: 0x180F368C0
+	|-RVA: 0xF367C0 Offset: 0xF34DC0 VA: 0x180F367C0
 	|-Array.InternalArray__ICollection_Contains<ResourceLocator>
 	|
-	|-RVA: 0xF24720 Offset: 0xF22D20 VA: 0x180F24720
+	|-RVA: 0xF24620 Offset: 0xF22C20 VA: 0x180F24620
 	|-Array.InternalArray__ICollection_Contains<Ephemeron>
 	|
-	|-RVA: 0xF25050 Offset: 0xF23650 VA: 0x180F25050
+	|-RVA: 0xF24F50 Offset: 0xF23550 VA: 0x180F24F50
 	|-Array.InternalArray__ICollection_Contains<GCHandle>
 	|
-	|-RVA: 0xF36F90 Offset: 0xF35590 VA: 0x180F36F90
+	|-RVA: 0xF36E90 Offset: 0xF35490 VA: 0x180F36E90
 	|-Array.InternalArray__ICollection_Contains<sbyte>
 	|
-	|-RVA: 0xF3DF40 Offset: 0xF3C540 VA: 0x180F3DF40
+	|-RVA: 0xF3DE40 Offset: 0xF3C440 VA: 0x180F3DE40
 	|-Array.InternalArray__ICollection_Contains<X509ChainStatus>
 	|
-	|-RVA: 0xF37B90 Offset: 0xF36190 VA: 0x180F37B90
+	|-RVA: 0xF37A90 Offset: 0xF36090 VA: 0x180F37A90
 	|-Array.InternalArray__ICollection_Contains<float>
 	|
-	|-RVA: 0xF32D40 Offset: 0xF31340 VA: 0x180F32D40
+	|-RVA: 0xF32C40 Offset: 0xF31240 VA: 0x180F32C40
 	|-Array.InternalArray__ICollection_Contains<RegexCharClass.LowerCaseMapping>
 	|
-	|-RVA: 0xF229C0 Offset: 0xF20FC0 VA: 0x180F229C0
+	|-RVA: 0xF228C0 Offset: 0xF20EC0 VA: 0x180F228C0
 	|-Array.InternalArray__ICollection_Contains<CancellationTokenRegistration>
 	|
-	|-RVA: 0xF32B90 Offset: 0xF31190 VA: 0x180F32B90
+	|-RVA: 0xF32A90 Offset: 0xF31090 VA: 0x180F32A90
 	|-Array.InternalArray__ICollection_Contains<ThreadLocal.LinkedSlotVolatile<object>>
 	|
-	|-RVA: 0xF3B3C0 Offset: 0xF399C0 VA: 0x180F3B3C0
+	|-RVA: 0xF3B2C0 Offset: 0xF398C0 VA: 0x180F3B2C0
 	|-Array.InternalArray__ICollection_Contains<TimeSpan>
 	|
-	|-RVA: 0xF3C4E0 Offset: 0xF3AAE0 VA: 0x180F3C4E0
+	|-RVA: 0xF3C3E0 Offset: 0xF3A9E0 VA: 0x180F3C3E0
 	|-Array.InternalArray__ICollection_Contains<ushort>
 	|
-	|-RVA: 0xF3C350 Offset: 0xF3A950 VA: 0x180F3C350
+	|-RVA: 0xF3C250 Offset: 0xF3A850 VA: 0x180F3C250
 	|-Array.InternalArray__ICollection_Contains<UInt16Enum>
 	|
-	|-RVA: 0xF3C7B0 Offset: 0xF3ADB0 VA: 0x180F3C7B0
+	|-RVA: 0xF3C6B0 Offset: 0xF3ACB0 VA: 0x180F3C6B0
 	|-Array.InternalArray__ICollection_Contains<uint>
 	|
-	|-RVA: 0xF3C620 Offset: 0xF3AC20 VA: 0x180F3C620
+	|-RVA: 0xF3C520 Offset: 0xF3AB20 VA: 0x180F3C520
 	|-Array.InternalArray__ICollection_Contains<UInt32Enum>
 	|
-	|-RVA: 0xF3C8F0 Offset: 0xF3AEF0 VA: 0x180F3C8F0
+	|-RVA: 0xF3C7F0 Offset: 0xF3ADF0 VA: 0x180F3C7F0
 	|-Array.InternalArray__ICollection_Contains<ulong>
 	|
-	|-RVA: 0xF3CA30 Offset: 0xF3B030 VA: 0x180F3CA30
+	|-RVA: 0xF3C930 Offset: 0xF3AF30 VA: 0x180F3C930
 	|-Array.InternalArray__ICollection_Contains<UIntPtr>
 	|
-	|-RVA: 0xF3CD40 Offset: 0xF3B340 VA: 0x180F3CD40
+	|-RVA: 0xF3CC40 Offset: 0xF3B240 VA: 0x180F3CC40
 	|-Array.InternalArray__ICollection_Contains<ValueTuple<Int32Enum, int>>
 	|
-	|-RVA: 0xF3CEE0 Offset: 0xF3B4E0 VA: 0x180F3CEE0
+	|-RVA: 0xF3CDE0 Offset: 0xF3B3E0 VA: 0x180F3CDE0
 	|-Array.InternalArray__ICollection_Contains<ValueTuple<object, object>>
 	|
-	|-RVA: 0xF24560 Offset: 0xF22B60 VA: 0x180F24560
+	|-RVA: 0xF24460 Offset: 0xF22A60 VA: 0x180F24460
 	|-Array.InternalArray__ICollection_Contains<XHashtable.XHashtableState.Entry<object>>
 	|
-	|-RVA: 0xF32F10 Offset: 0xF31510 VA: 0x180F32F10
+	|-RVA: 0xF32E10 Offset: 0xF31410 VA: 0x180F32E10
 	|-Array.InternalArray__ICollection_Contains<FacetsChecker.FacetsCompiler.Map>
 	|
-	|-RVA: 0xF35660 Offset: 0xF33C60 VA: 0x180F35660
+	|-RVA: 0xF35560 Offset: 0xF33B60 VA: 0x180F35560
 	|-Array.InternalArray__ICollection_Contains<RangePositionInfo>
 	|
-	|-RVA: 0xF37630 Offset: 0xF35C30 VA: 0x180F37630
+	|-RVA: 0xF37530 Offset: 0xF35B30 VA: 0x180F37530
 	|-Array.InternalArray__ICollection_Contains<SequenceNode.SequenceConstructPosContext>
 	|
-	|-RVA: 0xF3E300 Offset: 0xF3C900 VA: 0x180F3E300
+	|-RVA: 0xF3E200 Offset: 0xF3C800 VA: 0x180F3E200
 	|-Array.InternalArray__ICollection_Contains<XmlSchemaObjectTable.XmlSchemaObjectEntry>
 	|
-	|-RVA: 0xF3E100 Offset: 0xF3C700 VA: 0x180F3E100
+	|-RVA: 0xF3E000 Offset: 0xF3C600 VA: 0x180F3E000
 	|-Array.InternalArray__ICollection_Contains<XmlEventCache.XmlEvent>
 	|
-	|-RVA: 0xF33650 Offset: 0xF31C50 VA: 0x180F33650
+	|-RVA: 0xF33550 Offset: 0xF31B50 VA: 0x180F33550
 	|-Array.InternalArray__ICollection_Contains<XmlNamespaceManager.NamespaceDeclaration>
 	|
-	|-RVA: 0xF3D9E0 Offset: 0xF3BFE0 VA: 0x180F3D9E0
+	|-RVA: 0xF3D8E0 Offset: 0xF3BEE0 VA: 0x180F3D8E0
 	|-Array.InternalArray__ICollection_Contains<XmlNodeReaderNavigator.VirtualAttribute>
 	|
-	|-RVA: 0xF21C10 Offset: 0xF20210 VA: 0x180F21C10
+	|-RVA: 0xF21B10 Offset: 0xF20110 VA: 0x180F21B10
 	|-Array.InternalArray__ICollection_Contains<XmlSqlBinaryReader.AttrInfo>
 	|
-	|-RVA: 0xF24140 Offset: 0xF22740 VA: 0x180F24140
+	|-RVA: 0xF24040 Offset: 0xF22640 VA: 0x180F24040
 	|-Array.InternalArray__ICollection_Contains<XmlSqlBinaryReader.ElemInfo>
 	|
-	|-RVA: 0xF353B0 Offset: 0xF339B0 VA: 0x180F353B0
+	|-RVA: 0xF352B0 Offset: 0xF338B0 VA: 0x180F352B0
 	|-Array.InternalArray__ICollection_Contains<XmlSqlBinaryReader.QName>
 	|
-	|-RVA: 0xF34990 Offset: 0xF32F90 VA: 0x180F34990
+	|-RVA: 0xF34890 Offset: 0xF32E90 VA: 0x180F34890
 	|-Array.InternalArray__ICollection_Contains<XmlTextReaderImpl.ParsingState>
 	|
-	|-RVA: 0xF33830 Offset: 0xF31E30 VA: 0x180F33830
+	|-RVA: 0xF33730 Offset: 0xF31D30 VA: 0x180F33730
 	|-Array.InternalArray__ICollection_Contains<XmlTextWriter.Namespace>
 	|
-	|-RVA: 0xF3AC50 Offset: 0xF39250 VA: 0x180F3AC50
+	|-RVA: 0xF3AB50 Offset: 0xF39150 VA: 0x180F3AB50
 	|-Array.InternalArray__ICollection_Contains<XmlTextWriter.TagInfo>
 	|
-	|-RVA: 0xF21E20 Offset: 0xF20420 VA: 0x180F21E20
+	|-RVA: 0xF21D20 Offset: 0xF20320 VA: 0x180F21D20
 	|-Array.InternalArray__ICollection_Contains<XmlWellFormedWriter.AttrName>
 	|
-	|-RVA: 0xF24350 Offset: 0xF22950 VA: 0x180F24350
+	|-RVA: 0xF24250 Offset: 0xF22850 VA: 0x180F24250
 	|-Array.InternalArray__ICollection_Contains<XmlWellFormedWriter.ElementScope>
 	|
-	|-RVA: 0xF33A10 Offset: 0xF32010 VA: 0x180F33A10
+	|-RVA: 0xF33910 Offset: 0xF31F10 VA: 0x180F33910
 	|-Array.InternalArray__ICollection_Contains<XmlWellFormedWriter.Namespace>
 	|
-	|-RVA: 0xF332B0 Offset: 0xF318B0 VA: 0x180F332B0
+	|-RVA: 0xF331B0 Offset: 0xF317B0 VA: 0x180F331B0
 	|-Array.InternalArray__ICollection_Contains<MaterialReference>
 	|
-	|-RVA: 0xF36C90 Offset: 0xF35290 VA: 0x180F36C90
+	|-RVA: 0xF36B90 Offset: 0xF35190 VA: 0x180F36B90
 	|-Array.InternalArray__ICollection_Contains<RichTextTagAttribute>
 	|
-	|-RVA: 0xF39D10 Offset: 0xF38310 VA: 0x180F39D10
+	|-RVA: 0xF39C10 Offset: 0xF38210 VA: 0x180F39C10
 	|-Array.InternalArray__ICollection_Contains<TMP_CharacterInfo>
 	|
-	|-RVA: 0xF3A000 Offset: 0xF38600 VA: 0x180F3A000
+	|-RVA: 0xF39F00 Offset: 0xF38500 VA: 0x180F39F00
 	|-Array.InternalArray__ICollection_Contains<TMP_FontWeightPair>
 	|
-	|-RVA: 0xF3A1C0 Offset: 0xF387C0 VA: 0x180F3A1C0
+	|-RVA: 0xF3A0C0 Offset: 0xF386C0 VA: 0x180F3A0C0
 	|-Array.InternalArray__ICollection_Contains<TMP_LineInfo>
 	|
-	|-RVA: 0xF3A450 Offset: 0xF38A50 VA: 0x180F3A450
+	|-RVA: 0xF3A350 Offset: 0xF38950 VA: 0x180F3A350
 	|-Array.InternalArray__ICollection_Contains<TMP_LinkInfo>
 	|
-	|-RVA: 0xF3A650 Offset: 0xF38C50 VA: 0x180F3A650
+	|-RVA: 0xF3A550 Offset: 0xF38B50 VA: 0x180F3A550
 	|-Array.InternalArray__ICollection_Contains<TMP_MeshInfo>
 	|
-	|-RVA: 0xF3A8A0 Offset: 0xF38EA0 VA: 0x180F3A8A0
+	|-RVA: 0xF3A7A0 Offset: 0xF38DA0 VA: 0x180F3A7A0
 	|-Array.InternalArray__ICollection_Contains<TMP_PageInfo>
 	|
-	|-RVA: 0xF3CB70 Offset: 0xF3B170 VA: 0x180F3CB70
+	|-RVA: 0xF3CA70 Offset: 0xF3B070 VA: 0x180F3CA70
 	|-Array.InternalArray__ICollection_Contains<TMP_Text.UnicodeChar>
 	|
-	|-RVA: 0xF3AA70 Offset: 0xF39070 VA: 0x180F3AA70
+	|-RVA: 0xF3A970 Offset: 0xF38F70 VA: 0x180F3A970
 	|-Array.InternalArray__ICollection_Contains<TMP_WordInfo>
 	|
-	|-RVA: 0xF372B0 Offset: 0xF358B0 VA: 0x180F372B0
+	|-RVA: 0xF371B0 Offset: 0xF357B0 VA: 0x180F371B0
 	|-Array.InternalArray__ICollection_Contains<TickInterpolator.Segment>
 	|
-	|-RVA: 0xF3B030 Offset: 0xF39630 VA: 0x180F3B030
+	|-RVA: 0xF3AF30 Offset: 0xF39530 VA: 0x180F3AF30
 	|-Array.InternalArray__ICollection_Contains<TimeSince>
 	|
-	|-RVA: 0xF3B740 Offset: 0xF39D40 VA: 0x180F3B740
+	|-RVA: 0xF3B640 Offset: 0xF39C40 VA: 0x180F3B640
 	|-Array.InternalArray__ICollection_Contains<TraceInfo>
 	|
-	|-RVA: 0xF3B990 Offset: 0xF39F90 VA: 0x180F3B990
+	|-RVA: 0xF3B890 Offset: 0xF39E90 VA: 0x180F3B890
 	|-Array.InternalArray__ICollection_Contains<TrainCar.TrainCarSnapshot>
 	|
-	|-RVA: 0xF25190 Offset: 0xF23790 VA: 0x180F25190
+	|-RVA: 0xF25090 Offset: 0xF23690 VA: 0x180F25090
 	|-Array.InternalArray__ICollection_Contains<TreeMarkerData.GenerationArc>
 	|
-	|-RVA: 0xF330D0 Offset: 0xF316D0 VA: 0x180F330D0
+	|-RVA: 0xF32FD0 Offset: 0xF315D0 VA: 0x180F32FD0
 	|-Array.InternalArray__ICollection_Contains<TreeMarkerData.MarkerLocation>
 	|
-	|-RVA: 0xF36A80 Offset: 0xF35080 VA: 0x180F36A80
+	|-RVA: 0xF36980 Offset: 0xF34F80 VA: 0x180F36980
 	|-Array.InternalArray__ICollection_Contains<UIDeathScreen.RespawnColourScheme>
 	|
-	|-RVA: 0xF26E60 Offset: 0xF25460 VA: 0x180F26E60
+	|-RVA: 0xF26D60 Offset: 0xF25360 VA: 0x180F26D60
 	|-Array.InternalArray__ICollection_Contains<JobHandle>
 	|
-	|-RVA: 0xF3E6A0 Offset: 0xF3CCA0 VA: 0x180F3E6A0
+	|-RVA: 0xF3E5A0 Offset: 0xF3CBA0 VA: 0x180F3E5A0
 	|-Array.InternalArray__ICollection_Contains<float3>
 	|
-	|-RVA: 0xF3E800 Offset: 0xF3CE00 VA: 0x180F3E800
+	|-RVA: 0xF3E700 Offset: 0xF3CD00 VA: 0x180F3E700
 	|-Array.InternalArray__ICollection_Contains<half2>
 	|
-	|-RVA: 0xF33BF0 Offset: 0xF321F0 VA: 0x180F33BF0
+	|-RVA: 0xF33AF0 Offset: 0xF320F0 VA: 0x180F33AF0
 	|-Array.InternalArray__ICollection_Contains<NavMeshBuildMarkup>
 	|
-	|-RVA: 0xF33DB0 Offset: 0xF323B0 VA: 0x180F33DB0
+	|-RVA: 0xF33CB0 Offset: 0xF322B0 VA: 0x180F33CB0
 	|-Array.InternalArray__ICollection_Contains<NavMeshBuildSource>
 	|
-	|-RVA: 0xF218A0 Offset: 0xF1FEA0 VA: 0x180F218A0
+	|-RVA: 0xF217A0 Offset: 0xF1FDA0 VA: 0x180F217A0
 	|-Array.InternalArray__ICollection_Contains<AnimatorClipInfo>
 	|
-	|-RVA: 0xF34620 Offset: 0xF32C20 VA: 0x180F34620
+	|-RVA: 0xF34520 Offset: 0xF32B20 VA: 0x180F34520
 	|-Array.InternalArray__ICollection_Contains<BeforeRenderHelper.OrderBlock>
 	|
-	|-RVA: 0xF224E0 Offset: 0xF20AE0 VA: 0x180F224E0
+	|-RVA: 0xF223E0 Offset: 0xF209E0 VA: 0x180F223E0
 	|-Array.InternalArray__ICollection_Contains<BoneWeight>
 	|
-	|-RVA: 0xF22640 Offset: 0xF20C40 VA: 0x180F22640
+	|-RVA: 0xF22540 Offset: 0xF20B40 VA: 0x180F22540
 	|-Array.InternalArray__ICollection_Contains<BoundingSphere>
 	|
-	|-RVA: 0xF22B20 Offset: 0xF21120 VA: 0x180F22B20
+	|-RVA: 0xF22A20 Offset: 0xF21020 VA: 0x180F22A20
 	|-Array.InternalArray__ICollection_Contains<Color32>
 	|
-	|-RVA: 0xF22EA0 Offset: 0xF214A0 VA: 0x180F22EA0
+	|-RVA: 0xF22DA0 Offset: 0xF213A0 VA: 0x180F22DA0
 	|-Array.InternalArray__ICollection_Contains<Color>
 	|
-	|-RVA: 0xF231B0 Offset: 0xF217B0 VA: 0x180F231B0
+	|-RVA: 0xF230B0 Offset: 0xF216B0 VA: 0x180F230B0
 	|-Array.InternalArray__ICollection_Contains<ContactPoint2D>
 	|
-	|-RVA: 0xF233E0 Offset: 0xF219E0 VA: 0x180F233E0
+	|-RVA: 0xF232E0 Offset: 0xF218E0 VA: 0x180F232E0
 	|-Array.InternalArray__ICollection_Contains<ContactPoint>
 	|
-	|-RVA: 0xF35E50 Offset: 0xF34450 VA: 0x180F35E50
+	|-RVA: 0xF35D50 Offset: 0xF34350 VA: 0x180F35D50
 	|-Array.InternalArray__ICollection_Contains<RaycastResult>
 	|
-	|-RVA: 0xF32920 Offset: 0xF30F20 VA: 0x180F32920
+	|-RVA: 0xF32820 Offset: 0xF30E20 VA: 0x180F32820
 	|-Array.InternalArray__ICollection_Contains<LightDataGI>
 	|
-	|-RVA: 0xF3AE80 Offset: 0xF39480 VA: 0x180F3AE80
+	|-RVA: 0xF3AD80 Offset: 0xF39380 VA: 0x180F3AD80
 	|-Array.InternalArray__ICollection_Contains<TerrainUtility.TerrainMap.TileCoord>
 	|
-	|-RVA: 0xF258D0 Offset: 0xF23ED0 VA: 0x180F258D0
+	|-RVA: 0xF257D0 Offset: 0xF23DD0 VA: 0x180F257D0
 	|-Array.InternalArray__ICollection_Contains<GradientAlphaKey>
 	|
-	|-RVA: 0xF25A80 Offset: 0xF24080 VA: 0x180F25A80
+	|-RVA: 0xF25980 Offset: 0xF23F80 VA: 0x180F25980
 	|-Array.InternalArray__ICollection_Contains<GradientColorKey>
 	|
-	|-RVA: 0xF321F0 Offset: 0xF307F0 VA: 0x180F321F0
+	|-RVA: 0xF320F0 Offset: 0xF306F0 VA: 0x180F320F0
 	|-Array.InternalArray__ICollection_Contains<Keyframe>
 	|
-	|-RVA: 0xF323F0 Offset: 0xF309F0 VA: 0x180F323F0
+	|-RVA: 0xF322F0 Offset: 0xF308F0 VA: 0x180F322F0
 	|-Array.InternalArray__ICollection_Contains<LOD>
 	|
-	|-RVA: 0xF34FB0 Offset: 0xF335B0 VA: 0x180F34FB0
+	|-RVA: 0xF34EB0 Offset: 0xF334B0 VA: 0x180F34EB0
 	|-Array.InternalArray__ICollection_Contains<PlayerLoopSystem>
 	|
-	|-RVA: 0xF334C0 Offset: 0xF31AC0 VA: 0x180F334C0
+	|-RVA: 0xF333C0 Offset: 0xF319C0 VA: 0x180F333C0
 	|-Array.InternalArray__ICollection_Contains<Matrix4x4>
 	|
-	|-RVA: 0xF34C10 Offset: 0xF33210 VA: 0x180F34C10
+	|-RVA: 0xF34B10 Offset: 0xF33110 VA: 0x180F34B10
 	|-Array.InternalArray__ICollection_Contains<Plane>
 	|
-	|-RVA: 0xF34DD0 Offset: 0xF333D0 VA: 0x180F34DD0
+	|-RVA: 0xF34CD0 Offset: 0xF332D0 VA: 0x180F34CD0
 	|-Array.InternalArray__ICollection_Contains<PlayableBinding>
 	|
-	|-RVA: 0xF35510 Offset: 0xF33B10 VA: 0x180F35510
+	|-RVA: 0xF35410 Offset: 0xF33A10 VA: 0x180F35410
 	|-Array.InternalArray__ICollection_Contains<Quaternion>
 	|
-	|-RVA: 0xF35820 Offset: 0xF33E20 VA: 0x180F35820
+	|-RVA: 0xF35720 Offset: 0xF33D20 VA: 0x180F35720
 	|-Array.InternalArray__ICollection_Contains<RaycastCommand>
 	|
-	|-RVA: 0xF35A20 Offset: 0xF34020 VA: 0x180F35A20
+	|-RVA: 0xF35920 Offset: 0xF33F20 VA: 0x180F35920
 	|-Array.InternalArray__ICollection_Contains<RaycastHit2D>
 	|
-	|-RVA: 0xF35C20 Offset: 0xF34220 VA: 0x180F35C20
+	|-RVA: 0xF35B20 Offset: 0xF34120 VA: 0x180F35B20
 	|-Array.InternalArray__ICollection_Contains<RaycastHit>
 	|
-	|-RVA: 0xF36260 Offset: 0xF34860 VA: 0x180F36260
+	|-RVA: 0xF36160 Offset: 0xF34760 VA: 0x180F36160
 	|-Array.InternalArray__ICollection_Contains<Rect>
 	|
-	|-RVA: 0xF21A50 Offset: 0xF20050 VA: 0x180F21A50
+	|-RVA: 0xF21950 Offset: 0xF1FF50 VA: 0x180F21950
 	|-Array.InternalArray__ICollection_Contains<AsyncGPUReadbackRequest>
 	|
-	|-RVA: 0xF221C0 Offset: 0xF207C0 VA: 0x180F221C0
+	|-RVA: 0xF220C0 Offset: 0xF206C0 VA: 0x180F220C0
 	|-Array.InternalArray__ICollection_Contains<BatchVisibility>
 	|
-	|-RVA: 0xF32770 Offset: 0xF30D70 VA: 0x180F32770
+	|-RVA: 0xF32670 Offset: 0xF30C70 VA: 0x180F32670
 	|-Array.InternalArray__ICollection_Contains<BloomRenderer.Level>
 	|
-	|-RVA: 0xF363B0 Offset: 0xF349B0 VA: 0x180F363B0
+	|-RVA: 0xF362B0 Offset: 0xF348B0 VA: 0x180F362B0
 	|-Array.InternalArray__ICollection_Contains<RenderTargetIdentifier>
 	|
-	|-RVA: 0xF386B0 Offset: 0xF36CB0 VA: 0x180F386B0
+	|-RVA: 0xF385B0 Offset: 0xF36BB0 VA: 0x180F385B0
 	|-Array.InternalArray__ICollection_Contains<SphericalHarmonicsL2>
 	|
-	|-RVA: 0xF3D710 Offset: 0xF3BD10 VA: 0x180F3D710
+	|-RVA: 0xF3D610 Offset: 0xF3BC10 VA: 0x180F3D610
 	|-Array.InternalArray__ICollection_Contains<VertexAttributeDescriptor>
 	|
-	|-RVA: 0xF366F0 Offset: 0xF34CF0 VA: 0x180F366F0
+	|-RVA: 0xF365F0 Offset: 0xF34BF0 VA: 0x180F365F0
 	|-Array.InternalArray__ICollection_Contains<Resolution>
 	|
-	|-RVA: 0xF25F60 Offset: 0xF24560 VA: 0x180F25F60
+	|-RVA: 0xF25E60 Offset: 0xF24460 VA: 0x180F25E60
 	|-Array.InternalArray__ICollection_Contains<SendMouseEvents.HitInfo>
 	|
-	|-RVA: 0xF25780 Offset: 0xF23D80 VA: 0x180F25780
+	|-RVA: 0xF25680 Offset: 0xF23C80 VA: 0x180F25680
 	|-Array.InternalArray__ICollection_Contains<GlyphRect>
 	|
-	|-RVA: 0xF25370 Offset: 0xF23970 VA: 0x180F25370
+	|-RVA: 0xF25270 Offset: 0xF23870 VA: 0x180F25270
 	|-Array.InternalArray__ICollection_Contains<GlyphMarshallingStruct>
 	|
-	|-RVA: 0xF25580 Offset: 0xF23B80 VA: 0x180F25580
+	|-RVA: 0xF25480 Offset: 0xF23A80 VA: 0x180F25480
 	|-Array.InternalArray__ICollection_Contains<GlyphPairAdjustmentRecord>
 	|
-	|-RVA: 0xF3B500 Offset: 0xF39B00 VA: 0x180F3B500
+	|-RVA: 0xF3B400 Offset: 0xF39A00 VA: 0x180F3B400
 	|-Array.InternalArray__ICollection_Contains<Touch>
 	|
-	|-RVA: 0xF3BB60 Offset: 0xF3A160 VA: 0x180F3BB60
+	|-RVA: 0xF3BA60 Offset: 0xF3A060 VA: 0x180F3BA60
 	|-Array.InternalArray__ICollection_Contains<TreeInstance>
 	|
-	|-RVA: 0xF22CD0 Offset: 0xF212D0 VA: 0x180F22CD0
+	|-RVA: 0xF22BD0 Offset: 0xF211D0 VA: 0x180F22BD0
 	|-Array.InternalArray__ICollection_Contains<ColorBlock>
 	|
-	|-RVA: 0xF34040 Offset: 0xF32640 VA: 0x180F34040
+	|-RVA: 0xF33F40 Offset: 0xF32540 VA: 0x180F33F40
 	|-Array.InternalArray__ICollection_Contains<Navigation>
 	|
-	|-RVA: 0xF38880 Offset: 0xF36E80 VA: 0x180F38880
+	|-RVA: 0xF38780 Offset: 0xF36D80 VA: 0x180F38780
 	|-Array.InternalArray__ICollection_Contains<SpriteState>
 	|
-	|-RVA: 0xF3BD60 Offset: 0xF3A360 VA: 0x180F3BD60
+	|-RVA: 0xF3BC60 Offset: 0xF3A260 VA: 0x180F3BC60
 	|-Array.InternalArray__ICollection_Contains<UICharInfo>
 	|
-	|-RVA: 0xF23E30 Offset: 0xF22430 VA: 0x180F23E30
+	|-RVA: 0xF23D30 Offset: 0xF22330 VA: 0x180F23D30
 	|-Array.InternalArray__ICollection_Contains<EventDispatcher.DispatchContext>
 	|
-	|-RVA: 0xF24B10 Offset: 0xF23110 VA: 0x180F24B10
+	|-RVA: 0xF24A10 Offset: 0xF23010 VA: 0x180F24A10
 	|-Array.InternalArray__ICollection_Contains<EventDispatcher.EventRecord>
 	|
-	|-RVA: 0xF24CD0 Offset: 0xF232D0 VA: 0x180F24CD0
+	|-RVA: 0xF24BD0 Offset: 0xF231D0 VA: 0x180F24BD0
 	|-Array.InternalArray__ICollection_Contains<FocusController.FocusedElement>
 	|
-	|-RVA: 0xF379E0 Offset: 0xF35FE0 VA: 0x180F379E0
+	|-RVA: 0xF378E0 Offset: 0xF35EE0 VA: 0x180F378E0
 	|-Array.InternalArray__ICollection_Contains<StyleSheetCache.SheetHandleKey>
 	|
-	|-RVA: 0xF39B30 Offset: 0xF38130 VA: 0x180F39B30
+	|-RVA: 0xF39A30 Offset: 0xF38030 VA: 0x180F39A30
 	|-Array.InternalArray__ICollection_Contains<StyleValue>
 	|
-	|-RVA: 0xF3BF30 Offset: 0xF3A530 VA: 0x180F3BF30
+	|-RVA: 0xF3BE30 Offset: 0xF3A430 VA: 0x180F3BE30
 	|-Array.InternalArray__ICollection_Contains<UILineInfo>
 	|
-	|-RVA: 0xF3C0F0 Offset: 0xF3A6F0 VA: 0x180F3C0F0
+	|-RVA: 0xF3BFF0 Offset: 0xF3A5F0 VA: 0x180F3BFF0
 	|-Array.InternalArray__ICollection_Contains<UIVertex>
 	|
-	|-RVA: 0xF3DD60 Offset: 0xF3C360 VA: 0x180F3DD60
+	|-RVA: 0xF3DC60 Offset: 0xF3C260 VA: 0x180F3DC60
 	|-Array.InternalArray__ICollection_Contains<UnitySynchronizationContext.WorkRequest>
 	|
-	|-RVA: 0xF3D1E0 Offset: 0xF3B7E0 VA: 0x180F3D1E0
+	|-RVA: 0xF3D0E0 Offset: 0xF3B6E0 VA: 0x180F3D0E0
 	|-Array.InternalArray__ICollection_Contains<Vector2>
 	|
-	|-RVA: 0xF3D0A0 Offset: 0xF3B6A0 VA: 0x180F3D0A0
+	|-RVA: 0xF3CFA0 Offset: 0xF3B5A0 VA: 0x180F3CFA0
 	|-Array.InternalArray__ICollection_Contains<Vector2Int>
 	|
-	|-RVA: 0xF3D460 Offset: 0xF3BA60 VA: 0x180F3D460
+	|-RVA: 0xF3D360 Offset: 0xF3B960 VA: 0x180F3D360
 	|-Array.InternalArray__ICollection_Contains<Vector3>
 	|
-	|-RVA: 0xF3D5C0 Offset: 0xF3BBC0 VA: 0x180F3D5C0
+	|-RVA: 0xF3D4C0 Offset: 0xF3BAC0 VA: 0x180F3D4C0
 	|-Array.InternalArray__ICollection_Contains<Vector4>
 	|
-	|-RVA: 0xF37470 Offset: 0xF35A70 VA: 0x180F37470
+	|-RVA: 0xF37370 Offset: 0xF35970 VA: 0x180F37370
 	|-Array.InternalArray__ICollection_Contains<SemanticMeaning>
 	|
-	|-RVA: 0xF3E940 Offset: 0xF3CF40 VA: 0x180F3E940
+	|-RVA: 0xF3E840 Offset: 0xF3CE40 VA: 0x180F3E840
 	|-Array.InternalArray__ICollection_Contains<jvalue>
 	|
-	|-RVA: 0xF3D320 Offset: 0xF3B920 VA: 0x180F3D320
+	|-RVA: 0xF3D220 Offset: 0xF3B820 VA: 0x180F3D220
 	|-Array.InternalArray__ICollection_Contains<Vector2i>
 	|
-	|-RVA: 0xF3D860 Offset: 0xF3BE60 VA: 0x180F3D860
+	|-RVA: 0xF3D760 Offset: 0xF3BD60 VA: 0x180F3D760
 	|-Array.InternalArray__ICollection_Contains<ViewModelDrawEvent>
 	|
-	|-RVA: 0xF26270 Offset: 0xF24870 VA: 0x180F26270
+	|-RVA: 0xF26170 Offset: 0xF24770 VA: 0x180F26170
 	|-Array.InternalArray__ICollection_Contains<WaterDynamics.InstanceData>
 	|
-	|-RVA: 0xF351B0 Offset: 0xF337B0 VA: 0x180F351B0
+	|-RVA: 0xF350B0 Offset: 0xF336B0 VA: 0x180F350B0
 	|-Array.InternalArray__ICollection_Contains<WaterGerstner.PrecomputedWave>
 	|
-	|-RVA: 0xF22800 Offset: 0xF20E00 VA: 0x180F22800
+	|-RVA: 0xF22700 Offset: 0xF20D00 VA: 0x180F22700
 	|-Array.InternalArray__ICollection_Contains<WaterSimulation.Butterfly>
 	|
-	|-RVA: 0xF235E0 Offset: 0xF21BE0 VA: 0x180F235E0
+	|-RVA: 0xF234E0 Offset: 0xF21AE0 VA: 0x180F234E0
 	|-Array.InternalArray__ICollection_Contains<WindZoneExManager.CurrentZoneEntry>
 	|
-	|-RVA: 0xF325B0 Offset: 0xF30BB0 VA: 0x180F325B0
+	|-RVA: 0xF324B0 Offset: 0xF30AB0 VA: 0x180F324B0
 	|-Array.InternalArray__ICollection_Contains<WorldSplineData.LUTEntry.LUTPoint>
 	*/
 
@@ -10174,1489 +10174,1489 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-RVA: 0x5C7BC0 Offset: 0x5C61C0 VA: 0x1805C7BC0
 	|-Array.InternalArray__IReadOnlyList_get_Item<LookAtIOEnt.HandleSet>
 	|
-	|-RVA: 0xF1D530 Offset: 0xF1BB30 VA: 0x180F1D530
+	|-RVA: 0xF1D430 Offset: 0xF1BA30 VA: 0x180F1D430
 	|-Array.InternalArray__IReadOnlyList_get_Item<LootContainer.LootSpawnSlot>
 	|
-	|-RVA: 0xF0F350 Offset: 0xF0D950 VA: 0x180F0F350
+	|-RVA: 0xF0F250 Offset: 0xF0D850 VA: 0x180F0F250
 	|-Array.InternalArray__IReadOnlyList_get_Item<LootSpawn.Entry>
 	|
-	|-RVA: 0xF21720 Offset: 0xF1FD20 VA: 0x180F21720
+	|-RVA: 0xF21620 Offset: 0xF1FC20 VA: 0x180F21620
 	|-Array.InternalArray__IReadOnlyList_get_Item<XPathNode>
 	|
-	|-RVA: 0xF21660 Offset: 0xF1FC60 VA: 0x180F21660
+	|-RVA: 0xF21560 Offset: 0xF1FB60 VA: 0x180F21560
 	|-Array.InternalArray__IReadOnlyList_get_Item<XPathNodeRef>
 	|
-	|-RVA: 0xF1D5F0 Offset: 0xF1BBF0 VA: 0x180F1D5F0
+	|-RVA: 0xF1D4F0 Offset: 0xF1BAF0 VA: 0x180F1D4F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<MagnetCrane.MagnetCraneSnapshot>
 	|
-	|-RVA: 0xF1D6B0 Offset: 0xF1BCB0 VA: 0x180F1D6B0
+	|-RVA: 0xF1D5B0 Offset: 0xF1BBB0 VA: 0x180F1D5B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<MapView.MapMarkerCluster>
 	|
-	|-RVA: 0xF1F500 Offset: 0xF1DB00 VA: 0x180F1F500
+	|-RVA: 0xF1F400 Offset: 0xF1DA00 VA: 0x180F1F400
 	|-Array.InternalArray__IReadOnlyList_get_Item<MapView.SleepingBagCluster>
 	|
-	|-RVA: 0xF1D830 Offset: 0xF1BE30 VA: 0x180F1D830
+	|-RVA: 0xF1D730 Offset: 0xF1BD30 VA: 0x180F1D730
 	|-Array.InternalArray__IReadOnlyList_get_Item<MaterialPropertyDesc>
 	|
-	|-RVA: 0xF13E80 Offset: 0xF12480 VA: 0x180F13E80
+	|-RVA: 0xF13D80 Offset: 0xF12380 VA: 0x180F13D80
 	|-Array.InternalArray__IReadOnlyList_get_Item<FourBitNumber>
 	|
-	|-RVA: 0xF1F450 Offset: 0xF1DA50 VA: 0x180F1F450
+	|-RVA: 0xF1F350 Offset: 0xF1D950 VA: 0x180F1F350
 	|-Array.InternalArray__IReadOnlyList_get_Item<SevenBitNumber>
 	|
-	|-RVA: 0xF1D8F0 Offset: 0xF1BEF0 VA: 0x180F1D8F0
+	|-RVA: 0xF1D7F0 Offset: 0xF1BDF0 VA: 0x180F1D7F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<MeshColliderInstance>
 	|
-	|-RVA: 0xF1D460 Offset: 0xF1BA60 VA: 0x180F1D460
+	|-RVA: 0xF1D360 Offset: 0xF1B960 VA: 0x180F1D360
 	|-Array.InternalArray__IReadOnlyList_get_Item<MeshColliderLookup.LookupEntry>
 	|
-	|-RVA: 0xF1D9E0 Offset: 0xF1BFE0 VA: 0x180F1D9E0
+	|-RVA: 0xF1D8E0 Offset: 0xF1BEE0 VA: 0x180F1D8E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<MeshInstance>
 	|
-	|-RVA: 0xF1DAA0 Offset: 0xF1C0A0 VA: 0x180F1DAA0
+	|-RVA: 0xF1D9A0 Offset: 0xF1BFA0 VA: 0x180F1D9A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<MeshRendererInstance>
 	|
-	|-RVA: 0xF1D3B0 Offset: 0xF1B9B0 VA: 0x180F1D3B0
+	|-RVA: 0xF1D2B0 Offset: 0xF1B8B0 VA: 0x180F1D2B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<MeshRendererLookup.LookupEntry>
 	|
-	|-RVA: 0xF1D2F0 Offset: 0xF1B8F0 VA: 0x180F1D2F0
+	|-RVA: 0xF1D1F0 Offset: 0xF1B7F0 VA: 0x180F1D1F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<MidiConvar.KnobBinding>
 	|
-	|-RVA: 0xF1DE80 Offset: 0xF1C480 VA: 0x180F1DE80
+	|-RVA: 0xF1DD80 Offset: 0xF1C380 VA: 0x180F1DD80
 	|-Array.InternalArray__IReadOnlyList_get_Item<MidiConvar.NoteBinding>
 	|
-	|-RVA: 0xF1EFA0 Offset: 0xF1D5A0 VA: 0x180F1EFA0
+	|-RVA: 0xF1EEA0 Offset: 0xF1D4A0 VA: 0x180F1EEA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SQLiteTypeNames>
 	|
-	|-RVA: 0xF14DB0 Offset: 0xF133B0 VA: 0x180F14DB0
+	|-RVA: 0xF14CB0 Offset: 0xF132B0 VA: 0x180F14CB0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqliteKeyReader.KeyInfo>
 	|
-	|-RVA: 0xF20D60 Offset: 0xF1F360 VA: 0x180F20D60
+	|-RVA: 0xF20C60 Offset: 0xF1F260 VA: 0x180F20C60
 	|-Array.InternalArray__IReadOnlyList_get_Item<CodePointIndexer.TableRange>
 	|
-	|-RVA: 0xF21420 Offset: 0xF1FA20 VA: 0x180F21420
+	|-RVA: 0xF21320 Offset: 0xF1F920 VA: 0x180F21320
 	|-Array.InternalArray__IReadOnlyList_get_Item<Uri.UriScheme>
 	|
-	|-RVA: 0xF1E000 Offset: 0xF1C600 VA: 0x180F1E000
+	|-RVA: 0xF1DF00 Offset: 0xF1C500 VA: 0x180F1DF00
 	|-Array.InternalArray__IReadOnlyList_get_Item<NVidiaReflex.NvReflex_FrameReport>
 	|
-	|-RVA: 0xF20EE0 Offset: 0xF1F4E0 VA: 0x180F20EE0
+	|-RVA: 0xF20DE0 Offset: 0xF1F3E0 VA: 0x180F20DE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<TimeAverageValueData>
 	|
-	|-RVA: 0xF149F0 Offset: 0xF12FF0 VA: 0x180F149F0
+	|-RVA: 0xF148F0 Offset: 0xF12EF0 VA: 0x180F148F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<JsonPosition>
 	|
-	|-RVA: 0xF212A0 Offset: 0xF1F8A0 VA: 0x180F212A0
+	|-RVA: 0xF211A0 Offset: 0xF1F7A0 VA: 0x180F211A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<DefaultSerializationBinder.TypeNameKey>
 	|
-	|-RVA: 0xF1ED60 Offset: 0xF1D360 VA: 0x180F1ED60
+	|-RVA: 0xF1EC60 Offset: 0xF1D260 VA: 0x180F1EC60
 	|-Array.InternalArray__IReadOnlyList_get_Item<ResolverContractKey>
 	|
-	|-RVA: 0xF211E0 Offset: 0xF1F7E0 VA: 0x180F211E0
+	|-RVA: 0xF210E0 Offset: 0xF1F6E0 VA: 0x180F210E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<ConvertUtils.TypeConvertKey>
 	|
-	|-RVA: 0xF1DF40 Offset: 0xF1C540 VA: 0x180F1DF40
+	|-RVA: 0xF1DE40 Offset: 0xF1C440 VA: 0x180F1DE40
 	|-Array.InternalArray__IReadOnlyList_get_Item<NoteBindingCollection.NoteData>
 	|
-	|-RVA: 0xF20A60 Offset: 0xF1F060 VA: 0x180F20A60
+	|-RVA: 0xF20960 Offset: 0xF1EF60 VA: 0x180F20960
 	|-Array.InternalArray__IReadOnlyList_get_Item<OccludeeState.State>
 	|
-	|-RVA: 0xF1E250 Offset: 0xF1C850 VA: 0x180F1E250
+	|-RVA: 0xF1E150 Offset: 0xF1C750 VA: 0x180F1E150
 	|-Array.InternalArray__IReadOnlyList_get_Item<ParticleSystemContainer.ParticleSystemGroup>
 	|
-	|-RVA: 0xF1E610 Offset: 0xF1CC10 VA: 0x180F1E610
+	|-RVA: 0xF1E510 Offset: 0xF1CB10 VA: 0x180F1E510
 	|-Array.InternalArray__IReadOnlyList_get_Item<PathFinder.Point>
 	|
-	|-RVA: 0xF1E3D0 Offset: 0xF1C9D0 VA: 0x180F1E3D0
+	|-RVA: 0xF1E2D0 Offset: 0xF1C8D0 VA: 0x180F1E2D0
 	|-Array.InternalArray__IReadOnlyList_get_Item<PetCommandList.PetCommandDesc>
 	|
-	|-RVA: 0xF1FD40 Offset: 0xF1E340 VA: 0x180F1FD40
+	|-RVA: 0xF1FC40 Offset: 0xF1E240 VA: 0x180F1FC40
 	|-Array.InternalArray__IReadOnlyList_get_Item<PlaceMonuments.SpawnInfo>
 	|
-	|-RVA: 0xF1FED0 Offset: 0xF1E4D0 VA: 0x180F1FED0
+	|-RVA: 0xF1FDD0 Offset: 0xF1E3D0 VA: 0x180F1FDD0
 	|-Array.InternalArray__IReadOnlyList_get_Item<PlaceMonumentsOffshore.SpawnInfo>
 	|
-	|-RVA: 0xF1FE10 Offset: 0xF1E410 VA: 0x180F1FE10
+	|-RVA: 0xF1FD10 Offset: 0xF1E310 VA: 0x180F1FD10
 	|-Array.InternalArray__IReadOnlyList_get_Item<PlaceMonumentsRailside.SpawnInfo>
 	|
-	|-RVA: 0xF1FF90 Offset: 0xF1E590 VA: 0x180F1FF90
+	|-RVA: 0xF1FE90 Offset: 0xF1E490 VA: 0x180F1FE90
 	|-Array.InternalArray__IReadOnlyList_get_Item<PlaceMonumentsRoadside.SpawnInfo>
 	|
-	|-RVA: 0xF209A0 Offset: 0xF1EFA0 VA: 0x180F209A0
+	|-RVA: 0xF208A0 Offset: 0xF1EEA0 VA: 0x180F208A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<PlantProperties.Stage>
 	|
-	|-RVA: 0xF14160 Offset: 0xF12760 VA: 0x180F14160
+	|-RVA: 0xF14060 Offset: 0xF12660 VA: 0x180F14060
 	|-Array.InternalArray__IReadOnlyList_get_Item<PlayerItemRecipe.Ingredient>
 	|
-	|-RVA: 0xF1E490 Offset: 0xF1CA90 VA: 0x180F1E490
+	|-RVA: 0xF1E390 Offset: 0xF1C990 VA: 0x180F1E390
 	|-Array.InternalArray__IReadOnlyList_get_Item<PlayerItemRecipe>
 	|
-	|-RVA: 0xF1E550 Offset: 0xF1CB50 VA: 0x180F1E550
+	|-RVA: 0xF1E450 Offset: 0xF1CA50 VA: 0x180F1E450
 	|-Array.InternalArray__IReadOnlyList_get_Item<PlayerModelCinematicList.PlayerModelCinematicAnimation>
 	|
-	|-RVA: 0xF1EBE0 Offset: 0xF1D1E0 VA: 0x180F1EBE0
+	|-RVA: 0xF1EAE0 Offset: 0xF1D0E0 VA: 0x180F1EAE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<PlayerModelHair.RendererMaterials>
 	|
-	|-RVA: 0xF1DB80 Offset: 0xF1C180 VA: 0x180F1DB80
+	|-RVA: 0xF1DA80 Offset: 0xF1C080 VA: 0x180F1DA80
 	|-Array.InternalArray__IReadOnlyList_get_Item<ProjectileWeaponMod.Modifier>
 	|
-	|-RVA: 0xF0B760 Offset: 0xF09D60 VA: 0x180F0B760
+	|-RVA: 0xF0B660 Offset: 0xF09C60 VA: 0x180F0B660
 	|-Array.InternalArray__IReadOnlyList_get_Item<DemoShotFloatKeyframe>
 	|
-	|-RVA: 0xF0B810 Offset: 0xF09E10 VA: 0x180F0B810
+	|-RVA: 0xF0B710 Offset: 0xF09D10 VA: 0x180F0B710
 	|-Array.InternalArray__IReadOnlyList_get_Item<DemoShotParentKeyframe>
 	|
-	|-RVA: 0xF0B8D0 Offset: 0xF09ED0 VA: 0x180F0B8D0
+	|-RVA: 0xF0B7D0 Offset: 0xF09DD0 VA: 0x180F0B7D0
 	|-Array.InternalArray__IReadOnlyList_get_Item<DemoShotQuaternionKeyframe>
 	|
-	|-RVA: 0xF0B990 Offset: 0xF09F90 VA: 0x180F0B990
+	|-RVA: 0xF0B890 Offset: 0xF09E90 VA: 0x180F0B890
 	|-Array.InternalArray__IReadOnlyList_get_Item<DemoShotVectorKeyframe>
 	|
-	|-RVA: 0xF214E0 Offset: 0xF1FAE0 VA: 0x180F214E0
+	|-RVA: 0xF213E0 Offset: 0xF1F9E0 VA: 0x180F213E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<VectorData>
 	|
-	|-RVA: 0xF1E770 Offset: 0xF1CD70 VA: 0x180F1E770
+	|-RVA: 0xF1E670 Offset: 0xF1CC70 VA: 0x180F1E670
 	|-Array.InternalArray__IReadOnlyList_get_Item<RandomItemDispenser.RandomItemChance>
 	|
-	|-RVA: 0xF1E830 Offset: 0xF1CE30 VA: 0x180F1E830
+	|-RVA: 0xF1E730 Offset: 0xF1CD30 VA: 0x180F1E730
 	|-Array.InternalArray__IReadOnlyList_get_Item<RealTimeSince>
 	|
-	|-RVA: 0xF1E8E0 Offset: 0xF1CEE0 VA: 0x180F1E8E0
+	|-RVA: 0xF1E7E0 Offset: 0xF1CDE0 VA: 0x180F1E7E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Recipe.RecipeIngredient>
 	|
-	|-RVA: 0xF0B2D0 Offset: 0xF098D0 VA: 0x180F0B2D0
+	|-RVA: 0xF0B1D0 Offset: 0xF097D0 VA: 0x180F0B1D0
 	|-Array.InternalArray__IReadOnlyList_get_Item<ReflectionProbeEx.CubemapFaceMatrices>
 	|
-	|-RVA: 0xF0B3B0 Offset: 0xF099B0 VA: 0x180F0B3B0
+	|-RVA: 0xF0B2B0 Offset: 0xF098B0 VA: 0x180F0B2B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<ReflectionProbeEx.CubemapSkyboxVertex>
 	|
-	|-RVA: 0xF1EA60 Offset: 0xF1D060 VA: 0x180F1EA60
+	|-RVA: 0xF1E960 Offset: 0xF1CF60 VA: 0x180F1E960
 	|-Array.InternalArray__IReadOnlyList_get_Item<ReflectionProbeEx.RenderListEntry>
 	|
-	|-RVA: 0xF1EB20 Offset: 0xF1D120 VA: 0x180F1EB20
+	|-RVA: 0xF1EA20 Offset: 0xF1D020 VA: 0x180F1EA20
 	|-Array.InternalArray__IReadOnlyList_get_Item<RendererKey>
 	|
-	|-RVA: 0xF215A0 Offset: 0xF1FBA0 VA: 0x180F215A0
+	|-RVA: 0xF214A0 Offset: 0xF1FAA0 VA: 0x180F214A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<WaypointSet.Waypoint>
 	|
-	|-RVA: 0xF21120 Offset: 0xF1F720 VA: 0x180F21120
+	|-RVA: 0xF21020 Offset: 0xF1F620 VA: 0x180F21020
 	|-Array.InternalArray__IReadOnlyList_get_Item<TransformSnapshot>
 	|
-	|-RVA: 0xF21060 Offset: 0xF1F660 VA: 0x180F21060
+	|-RVA: 0xF20F60 Offset: 0xF1F560 VA: 0x180F20F60
 	|-Array.InternalArray__IReadOnlyList_get_Item<TimelineEvent>
 	|
-	|-RVA: 0xF1E0D0 Offset: 0xF1C6D0 VA: 0x180F1E0D0
+	|-RVA: 0xF1DFD0 Offset: 0xF1C5D0 VA: 0x180F1DFD0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Option>
 	|
-	|-RVA: 0xF20E20 Offset: 0xF1F420 VA: 0x180F20E20
+	|-RVA: 0xF20D20 Offset: 0xF1F320 VA: 0x180F20D20
 	|-Array.InternalArray__IReadOnlyList_get_Item<TickRenderer.Tick>
 	|
-	|-RVA: 0xF1EEE0 Offset: 0xF1D4E0 VA: 0x180F1EEE0
+	|-RVA: 0xF1EDE0 Offset: 0xF1D3E0 VA: 0x180F1EDE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<ServerBrowserList.Rules>
 	|
-	|-RVA: 0xF1F2E0 Offset: 0xF1D8E0 VA: 0x180F1F2E0
+	|-RVA: 0xF1F1E0 Offset: 0xF1D7E0 VA: 0x180F1F1E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<ServerBrowserList.ServerKeyvalues>
 	|
-	|-RVA: 0xF1F120 Offset: 0xF1D720 VA: 0x180F1F120
+	|-RVA: 0xF1F020 Offset: 0xF1D620 VA: 0x180F1F020
 	|-Array.InternalArray__IReadOnlyList_get_Item<ServerInfo>
 	|
-	|-RVA: 0xF1E190 Offset: 0xF1C790 VA: 0x180F1E190
+	|-RVA: 0xF1E090 Offset: 0xF1C690 VA: 0x180F1E090
 	|-Array.InternalArray__IReadOnlyList_get_Item<SkinnedMultiMesh.Part>
 	|
-	|-RVA: 0xF140A0 Offset: 0xF126A0 VA: 0x180F140A0
+	|-RVA: 0xF13FA0 Offset: 0xF125A0 VA: 0x180F13FA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SlotMachinePayoutSettings.IndividualPayouts>
 	|
-	|-RVA: 0xF1E310 Offset: 0xF1C910 VA: 0x180F1E310
+	|-RVA: 0xF1E210 Offset: 0xF1C810 VA: 0x180F1E210
 	|-Array.InternalArray__IReadOnlyList_get_Item<SlotMachinePayoutSettings.PayoutInfo>
 	|
-	|-RVA: 0xF1FBC0 Offset: 0xF1E1C0 VA: 0x180F1FBC0
+	|-RVA: 0xF1FAC0 Offset: 0xF1E0C0 VA: 0x180F1FAC0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SubmarineSonar.SonarBlip>
 	|
-	|-RVA: 0xF1FC80 Offset: 0xF1E280 VA: 0x180F1FC80
+	|-RVA: 0xF1FB80 Offset: 0xF1E180 VA: 0x180F1FB80
 	|-Array.InternalArray__IReadOnlyList_get_Item<SpawnIndividual>
 	|
-	|-RVA: 0xF1E9A0 Offset: 0xF1CFA0 VA: 0x180F1E9A0
+	|-RVA: 0xF1E8A0 Offset: 0xF1CEA0 VA: 0x180F1E8A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0xF20BE0 Offset: 0xF1F1E0 VA: 0x180F20BE0
+	|-RVA: 0xF20AE0 Offset: 0xF1F0E0 VA: 0x180F20AE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SteamNewsSource.Story>
 	|
-	|-RVA: 0xF0AA30 Offset: 0xF09030 VA: 0x180F0AA30
+	|-RVA: 0xF0A930 Offset: 0xF08F30 VA: 0x180F0A930
 	|-Array.InternalArray__IReadOnlyList_get_Item<AppId>
 	|
-	|-RVA: 0xF0A8C0 Offset: 0xF08EC0 VA: 0x180F0A8C0
+	|-RVA: 0xF0A7C0 Offset: 0xF08DC0 VA: 0x180F0A7C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Achievement>
 	|
-	|-RVA: 0xF0B220 Offset: 0xF09820 VA: 0x180F0B220
+	|-RVA: 0xF0B120 Offset: 0xF09720 VA: 0x180F0B120
 	|-Array.InternalArray__IReadOnlyList_get_Item<Connection>
 	|
-	|-RVA: 0xF0B160 Offset: 0xF09760 VA: 0x180F0B160
+	|-RVA: 0xF0B060 Offset: 0xF09660 VA: 0x180F0B060
 	|-Array.InternalArray__IReadOnlyList_get_Item<ConnectionLaneStatus>
 	|
-	|-RVA: 0xF142D0 Offset: 0xF128D0 VA: 0x180F142D0
+	|-RVA: 0xF141D0 Offset: 0xF127D0 VA: 0x180F141D0
 	|-Array.InternalArray__IReadOnlyList_get_Item<InputActionSetHandle_t>
 	|
-	|-RVA: 0xF14380 Offset: 0xF12980 VA: 0x180F14380
+	|-RVA: 0xF14280 Offset: 0xF12880 VA: 0x180F14280
 	|-Array.InternalArray__IReadOnlyList_get_Item<InputAnalogActionHandle_t>
 	|
-	|-RVA: 0xF14430 Offset: 0xF12A30 VA: 0x180F14430
+	|-RVA: 0xF14330 Offset: 0xF12930 VA: 0x180F14330
 	|-Array.InternalArray__IReadOnlyList_get_Item<InputDigitalActionHandle_t>
 	|
-	|-RVA: 0xF144E0 Offset: 0xF12AE0 VA: 0x180F144E0
+	|-RVA: 0xF143E0 Offset: 0xF129E0 VA: 0x180F143E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<InputHandle_t>
 	|
-	|-RVA: 0xF14650 Offset: 0xF12C50 VA: 0x180F14650
+	|-RVA: 0xF14550 Offset: 0xF12B50 VA: 0x180F14550
 	|-Array.InternalArray__IReadOnlyList_get_Item<InventoryDefId>
 	|
-	|-RVA: 0xF14700 Offset: 0xF12D00 VA: 0x180F14700
+	|-RVA: 0xF14600 Offset: 0xF12C00 VA: 0x180F14600
 	|-Array.InternalArray__IReadOnlyList_get_Item<InventoryItemId>
 	|
-	|-RVA: 0xF1D770 Offset: 0xF1BD70 VA: 0x180F1D770
+	|-RVA: 0xF1D670 Offset: 0xF1BC70 VA: 0x180F1D670
 	|-Array.InternalArray__IReadOnlyList_get_Item<MatchMakingKeyValuePair>
 	|
-	|-RVA: 0xF1DC40 Offset: 0xF1C240 VA: 0x180F1DC40
+	|-RVA: 0xF1DB40 Offset: 0xF1C140 VA: 0x180F1DB40
 	|-Array.InternalArray__IReadOnlyList_get_Item<NetKeyValue>
 	|
-	|-RVA: 0xF1E6C0 Offset: 0xF1CCC0 VA: 0x180F1E6C0
+	|-RVA: 0xF1E5C0 Offset: 0xF1CBC0 VA: 0x180F1E5C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<PublishedFileId>
 	|
-	|-RVA: 0xF1F200 Offset: 0xF1D800 VA: 0x180F1F200
+	|-RVA: 0xF1F100 Offset: 0xF1D700 VA: 0x180F1F100
 	|-Array.InternalArray__IReadOnlyList_get_Item<ServerInfo>
 	|
-	|-RVA: 0xF20B20 Offset: 0xF1F120 VA: 0x180F20B20
+	|-RVA: 0xF20A20 Offset: 0xF1F020 VA: 0x180F20A20
 	|-Array.InternalArray__IReadOnlyList_get_Item<SteamItemDetails_t>
 	|
-	|-RVA: 0xF21360 Offset: 0xF1F960 VA: 0x180F21360
+	|-RVA: 0xF21260 Offset: 0xF1F860 VA: 0x180F21260
 	|-Array.InternalArray__IReadOnlyList_get_Item<UgcAdditionalPreview>
 	|
-	|-RVA: 0xF0AF30 Offset: 0xF09530 VA: 0x180F0AF30
+	|-RVA: 0xF0AE30 Offset: 0xF09430 VA: 0x180F0AE30
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dispatch.Callback>
 	|
-	|-RVA: 0xF1EE20 Offset: 0xF1D420 VA: 0x180F1EE20
+	|-RVA: 0xF1ED20 Offset: 0xF1D320 VA: 0x180F1ED20
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dispatch.ResultCallback>
 	|
-	|-RVA: 0xF13F30 Offset: 0xF12530 VA: 0x180F13F30
+	|-RVA: 0xF13E30 Offset: 0xF12430 VA: 0x180F13E30
 	|-Array.InternalArray__IReadOnlyList_get_Item<Friend>
 	|
-	|-RVA: 0xF0A970 Offset: 0xF08F70 VA: 0x180F0A970
+	|-RVA: 0xF0A870 Offset: 0xF08E70 VA: 0x180F0A870
 	|-Array.InternalArray__IReadOnlyList_get_Item<InventoryItem.Amount>
 	|
-	|-RVA: 0xF147B0 Offset: 0xF12DB0 VA: 0x180F147B0
+	|-RVA: 0xF146B0 Offset: 0xF12CB0 VA: 0x180F146B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<InventoryItem>
 	|
-	|-RVA: 0xF14210 Offset: 0xF12810 VA: 0x180F14210
+	|-RVA: 0xF14110 Offset: 0xF12710 VA: 0x180F14110
 	|-Array.InternalArray__IReadOnlyList_get_Item<InventoryRecipe.Ingredient>
 	|
-	|-RVA: 0xF14870 Offset: 0xF12E70 VA: 0x180F14870
+	|-RVA: 0xF14770 Offset: 0xF12D70 VA: 0x180F14770
 	|-Array.InternalArray__IReadOnlyList_get_Item<InventoryRecipe>
 	|
-	|-RVA: 0xF0B5E0 Offset: 0xF09BE0 VA: 0x180F0B5E0
+	|-RVA: 0xF0B4E0 Offset: 0xF09AE0 VA: 0x180F0B4E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SteamNetworkingUtils.DebugMessage>
 	|
-	|-RVA: 0xF14930 Offset: 0xF12F30 VA: 0x180F14930
+	|-RVA: 0xF14830 Offset: 0xF12E30 VA: 0x180F14830
 	|-Array.InternalArray__IReadOnlyList_get_Item<Item>
 	|
-	|-RVA: 0xF14AB0 Offset: 0xF130B0 VA: 0x180F14AB0
+	|-RVA: 0xF149B0 Offset: 0xF12FB0 VA: 0x180F149B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<StringFormatCache.Key1>
 	|
-	|-RVA: 0xF14B70 Offset: 0xF13170 VA: 0x180F14B70
+	|-RVA: 0xF14A70 Offset: 0xF13070 VA: 0x180F14A70
 	|-Array.InternalArray__IReadOnlyList_get_Item<StringFormatCache.Key2>
 	|
-	|-RVA: 0xF14C30 Offset: 0xF13230 VA: 0x180F14C30
+	|-RVA: 0xF14B30 Offset: 0xF13130 VA: 0x180F14B30
 	|-Array.InternalArray__IReadOnlyList_get_Item<StringFormatCache.Key3>
 	|
-	|-RVA: 0xF14CF0 Offset: 0xF132F0 VA: 0x180F14CF0
+	|-RVA: 0xF14BF0 Offset: 0xF131F0 VA: 0x180F14BF0
 	|-Array.InternalArray__IReadOnlyList_get_Item<StringFormatCache.Key4>
 	|
-	|-RVA: 0xF20CA0 Offset: 0xF1F2A0 VA: 0x180F20CA0
+	|-RVA: 0xF20BA0 Offset: 0xF1F1A0 VA: 0x180F20BA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SubsurfaceProfileTexture.SubsurfaceProfileEntry>
 	|
-	|-RVA: 0xF20FA0 Offset: 0xF1F5A0 VA: 0x180F20FA0
+	|-RVA: 0xF20EA0 Offset: 0xF1F4A0 VA: 0x180F20EA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SynchronizedClock.TimedEvent>
 	|
-	|-RVA: 0xF0ABA0 Offset: 0xF091A0 VA: 0x180F0ABA0
+	|-RVA: 0xF0AAA0 Offset: 0xF090A0 VA: 0x180F0AAA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<ArraySegment<byte>>
 	|
-	|-RVA: 0xF0AAE0 Offset: 0xF090E0 VA: 0x180F0AAE0
+	|-RVA: 0xF0A9E0 Offset: 0xF08FE0 VA: 0x180F0A9E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<ArraySegment<object>>
 	|
-	|-RVA: 0xF0AD20 Offset: 0xF09320 VA: 0x180F0AD20
+	|-RVA: 0xF0AC20 Offset: 0xF09220 VA: 0x180F0AC20
 	|-Array.InternalArray__IReadOnlyList_get_Item<bool>
 	|
-	|-RVA: 0xF0AE80 Offset: 0xF09480 VA: 0x180F0AE80
+	|-RVA: 0xF0AD80 Offset: 0xF09380 VA: 0x180F0AD80
 	|-Array.InternalArray__IReadOnlyList_get_Item<byte>
 	|
-	|-RVA: 0xF0ADD0 Offset: 0xF093D0 VA: 0x180F0ADD0
+	|-RVA: 0xF0ACD0 Offset: 0xF092D0 VA: 0x180F0ACD0
 	|-Array.InternalArray__IReadOnlyList_get_Item<ByteEnum>
 	|
-	|-RVA: 0xF0AFF0 Offset: 0xF095F0 VA: 0x180F0AFF0
+	|-RVA: 0xF0AEF0 Offset: 0xF094F0 VA: 0x180F0AEF0
 	|-Array.InternalArray__IReadOnlyList_get_Item<char>
 	|
-	|-RVA: 0xF1FB00 Offset: 0xF1E100 VA: 0x180F1FB00
+	|-RVA: 0xF1FA00 Offset: 0xF1E000 VA: 0x180F1FA00
 	|-Array.InternalArray__IReadOnlyList_get_Item<ConcurrentQueue.Segment.Slot<SteamNetworkingUtils.DebugMessage>>
 	|
-	|-RVA: 0xF1FA40 Offset: 0xF1E040 VA: 0x180F1FA40
+	|-RVA: 0xF1F940 Offset: 0xF1DF40 VA: 0x180F1F940
 	|-Array.InternalArray__IReadOnlyList_get_Item<ConcurrentQueue.Segment.Slot<object>>
 	|
-	|-RVA: 0xF0BA50 Offset: 0xF0A050 VA: 0x180F0BA50
+	|-RVA: 0xF0B950 Offset: 0xF09F50 VA: 0x180F0B950
 	|-Array.InternalArray__IReadOnlyList_get_Item<DictionaryEntry>
 	|
-	|-RVA: 0xF0D6C0 Offset: 0xF0BCC0 VA: 0x180F0D6C0
+	|-RVA: 0xF0D5C0 Offset: 0xF0BBC0 VA: 0x180F0D5C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<FoliageKey, int>>
 	|
-	|-RVA: 0xF10B60 Offset: 0xF0F160 VA: 0x180F10B60
+	|-RVA: 0xF10A60 Offset: 0xF0F060 VA: 0x180F10A60
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<InstancingKey, int>>
 	|
-	|-RVA: 0xF12A30 Offset: 0xF11030 VA: 0x180F12A30
+	|-RVA: 0xF12930 Offset: 0xF10F30 VA: 0x180F12930
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<InvokeAction, int>>
 	|
-	|-RVA: 0xF112E0 Offset: 0xF0F8E0 VA: 0x180F112E0
+	|-RVA: 0xF111E0 Offset: 0xF0F7E0 VA: 0x180F111E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<XPathNodeRef, XPathNodeRef>>
 	|
-	|-RVA: 0xF12660 Offset: 0xF10C60 VA: 0x180F12660
+	|-RVA: 0xF12560 Offset: 0xF10B60 VA: 0x180F12560
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<DefaultSerializationBinder.TypeNameKey, object>>
 	|
-	|-RVA: 0xF13030 Offset: 0xF11630 VA: 0x180F13030
+	|-RVA: 0xF12F30 Offset: 0xF11530 VA: 0x180F12F30
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ResolverContractKey, object>>
 	|
-	|-RVA: 0xF0C400 Offset: 0xF0AA00 VA: 0x180F0C400
+	|-RVA: 0xF0C300 Offset: 0xF0A900 VA: 0x180F0C300
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ConvertUtils.TypeConvertKey, object>>
 	|
-	|-RVA: 0xF136F0 Offset: 0xF11CF0 VA: 0x180F136F0
+	|-RVA: 0xF135F0 Offset: 0xF11BF0 VA: 0x180F135F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<RendererKey, int>>
 	|
-	|-RVA: 0xF0D540 Offset: 0xF0BB40 VA: 0x180F0D540
+	|-RVA: 0xF0D440 Offset: 0xF0BA40 VA: 0x180F0D440
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<SpecialPurposeCamera.RenderEntry, int>>
 	|
-	|-RVA: 0xF0C880 Offset: 0xF0AE80 VA: 0x180F0C880
+	|-RVA: 0xF0C780 Offset: 0xF0AD80 VA: 0x180F0C780
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<InventoryDefId, uint>>
 	|
-	|-RVA: 0xF10DA0 Offset: 0xF0F3A0 VA: 0x180F10DA0
+	|-RVA: 0xF10CA0 Offset: 0xF0F2A0 VA: 0x180F10CA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<StringFormatCache.Key1, object>>
 	|
-	|-RVA: 0xF11A60 Offset: 0xF10060 VA: 0x180F11A60
+	|-RVA: 0xF11960 Offset: 0xF0FF60 VA: 0x180F11960
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<StringFormatCache.Key2, object>>
 	|
-	|-RVA: 0xF13C30 Offset: 0xF12230 VA: 0x180F13C30
+	|-RVA: 0xF13B30 Offset: 0xF12130 VA: 0x180F13B30
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<StringFormatCache.Key3, object>>
 	|
-	|-RVA: 0xF0FE90 Offset: 0xF0E490 VA: 0x180F0FE90
+	|-RVA: 0xF0FD90 Offset: 0xF0E390 VA: 0x180F0FD90
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<StringFormatCache.Key4, object>>
 	|
-	|-RVA: 0xF12120 Offset: 0xF10720 VA: 0x180F12120
+	|-RVA: 0xF12020 Offset: 0xF10620 VA: 0x180F12020
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<bool, bool>>
 	|
-	|-RVA: 0xF118E0 Offset: 0xF0FEE0 VA: 0x180F118E0
+	|-RVA: 0xF117E0 Offset: 0xF0FDE0 VA: 0x180F117E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<bool, Decimal>>
 	|
-	|-RVA: 0xF11160 Offset: 0xF0F760 VA: 0x180F11160
+	|-RVA: 0xF11060 Offset: 0xF0F660 VA: 0x180F11060
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<bool, double>>
 	|
-	|-RVA: 0xF12C70 Offset: 0xF11270 VA: 0x180F12C70
+	|-RVA: 0xF12B70 Offset: 0xF11170 VA: 0x180F12B70
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<bool, short>>
 	|
-	|-RVA: 0xF10320 Offset: 0xF0E920 VA: 0x180F10320
+	|-RVA: 0xF10220 Offset: 0xF0E820 VA: 0x180F10220
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<bool, int>>
 	|
-	|-RVA: 0xF11FA0 Offset: 0xF105A0 VA: 0x180F11FA0
+	|-RVA: 0xF11EA0 Offset: 0xF104A0 VA: 0x180F11EA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<bool, long>>
 	|
-	|-RVA: 0xF0DB40 Offset: 0xF0C140 VA: 0x180F0DB40
+	|-RVA: 0xF0DA40 Offset: 0xF0C040 VA: 0x180F0DA40
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<bool, object>>
 	|
-	|-RVA: 0xF10020 Offset: 0xF0E620 VA: 0x180F10020
+	|-RVA: 0xF0FF20 Offset: 0xF0E520 VA: 0x180F0FF20
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<bool, float>>
 	|
-	|-RVA: 0xF124E0 Offset: 0xF10AE0 VA: 0x180F124E0
+	|-RVA: 0xF123E0 Offset: 0xF109E0 VA: 0x180F123E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<bool, ushort>>
 	|
-	|-RVA: 0xF113A0 Offset: 0xF0F9A0 VA: 0x180F113A0
+	|-RVA: 0xF112A0 Offset: 0xF0F8A0 VA: 0x180F112A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<bool, uint>>
 	|
-	|-RVA: 0xF0E690 Offset: 0xF0CC90 VA: 0x180F0E690
+	|-RVA: 0xF0E590 Offset: 0xF0CB90 VA: 0x180F0E590
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<bool, ulong>>
 	|
-	|-RVA: 0xF0DD80 Offset: 0xF0C380 VA: 0x180F0DD80
+	|-RVA: 0xF0DC80 Offset: 0xF0C280 VA: 0x180F0DC80
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<byte, object>>
 	|
-	|-RVA: 0xF11CA0 Offset: 0xF102A0 VA: 0x180F11CA0
+	|-RVA: 0xF11BA0 Offset: 0xF101A0 VA: 0x180F11BA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ByteEnum, byte>>
 	|
-	|-RVA: 0xF0BBC0 Offset: 0xF0A1C0 VA: 0x180F0BBC0
+	|-RVA: 0xF0BAC0 Offset: 0xF0A0C0 VA: 0x180F0BAC0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<KeyValuePair<object, object>, object>>
 	|
-	|-RVA: 0xF0D780 Offset: 0xF0BD80 VA: 0x180F0D780
+	|-RVA: 0xF0D680 Offset: 0xF0BC80 VA: 0x180F0D680
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Decimal, bool>>
 	|
-	|-RVA: 0xF101A0 Offset: 0xF0E7A0 VA: 0x180F101A0
+	|-RVA: 0xF100A0 Offset: 0xF0E6A0 VA: 0x180F100A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Decimal, Decimal>>
 	|
-	|-RVA: 0xF0EF90 Offset: 0xF0D590 VA: 0x180F0EF90
+	|-RVA: 0xF0EE90 Offset: 0xF0D490 VA: 0x180F0EE90
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Decimal, double>>
 	|
-	|-RVA: 0xF11BE0 Offset: 0xF101E0 VA: 0x180F11BE0
+	|-RVA: 0xF11AE0 Offset: 0xF100E0 VA: 0x180F11AE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Decimal, short>>
 	|
-	|-RVA: 0xF10860 Offset: 0xF0EE60 VA: 0x180F10860
+	|-RVA: 0xF10760 Offset: 0xF0ED60 VA: 0x180F10760
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Decimal, int>>
 	|
-	|-RVA: 0xF0E440 Offset: 0xF0CA40 VA: 0x180F0E440
+	|-RVA: 0xF0E340 Offset: 0xF0C940 VA: 0x180F0E340
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Decimal, long>>
 	|
-	|-RVA: 0xF12720 Offset: 0xF10D20 VA: 0x180F12720
+	|-RVA: 0xF12620 Offset: 0xF10C20 VA: 0x180F12620
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Decimal, object>>
 	|
-	|-RVA: 0xF0D900 Offset: 0xF0BF00 VA: 0x180F0D900
+	|-RVA: 0xF0D800 Offset: 0xF0BE00 VA: 0x180F0D800
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Decimal, float>>
 	|
-	|-RVA: 0xF0FD10 Offset: 0xF0E310 VA: 0x180F0FD10
+	|-RVA: 0xF0FC10 Offset: 0xF0E210 VA: 0x180F0FC10
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Decimal, ushort>>
 	|
-	|-RVA: 0xF0C040 Offset: 0xF0A640 VA: 0x180F0C040
+	|-RVA: 0xF0BF40 Offset: 0xF0A540 VA: 0x180F0BF40
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Decimal, uint>>
 	|
-	|-RVA: 0xF0C280 Offset: 0xF0A880 VA: 0x180F0C280
+	|-RVA: 0xF0C180 Offset: 0xF0A780 VA: 0x180F0C180
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Decimal, ulong>>
 	|
-	|-RVA: 0xF11EE0 Offset: 0xF104E0 VA: 0x180F11EE0
+	|-RVA: 0xF11DE0 Offset: 0xF103E0 VA: 0x180F11DE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<double, bool>>
 	|
-	|-RVA: 0xF121E0 Offset: 0xF107E0 VA: 0x180F121E0
+	|-RVA: 0xF120E0 Offset: 0xF106E0 VA: 0x180F120E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<double, Decimal>>
 	|
-	|-RVA: 0xF0DC00 Offset: 0xF0C200 VA: 0x180F0DC00
+	|-RVA: 0xF0DB00 Offset: 0xF0C100 VA: 0x180F0DB00
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<double, double>>
 	|
-	|-RVA: 0xF0DCC0 Offset: 0xF0C2C0 VA: 0x180F0DCC0
+	|-RVA: 0xF0DBC0 Offset: 0xF0C1C0 VA: 0x180F0DBC0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<double, short>>
 	|
-	|-RVA: 0xF11460 Offset: 0xF0FA60 VA: 0x180F11460
+	|-RVA: 0xF11360 Offset: 0xF0F960 VA: 0x180F11360
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<double, int>>
 	|
-	|-RVA: 0xF10560 Offset: 0xF0EB60 VA: 0x180F10560
+	|-RVA: 0xF10460 Offset: 0xF0EA60 VA: 0x180F10460
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<double, long>>
 	|
-	|-RVA: 0xF0EED0 Offset: 0xF0D4D0 VA: 0x180F0EED0
+	|-RVA: 0xF0EDD0 Offset: 0xF0D3D0 VA: 0x180F0EDD0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<double, object>>
 	|
-	|-RVA: 0xF115E0 Offset: 0xF0FBE0 VA: 0x180F115E0
+	|-RVA: 0xF114E0 Offset: 0xF0FAE0 VA: 0x180F114E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<double, float>>
 	|
-	|-RVA: 0xF0DF00 Offset: 0xF0C500 VA: 0x180F0DF00
+	|-RVA: 0xF0DE00 Offset: 0xF0C400 VA: 0x180F0DE00
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<double, ushort>>
 	|
-	|-RVA: 0xF125A0 Offset: 0xF10BA0 VA: 0x180F125A0
+	|-RVA: 0xF124A0 Offset: 0xF10AA0 VA: 0x180F124A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<double, uint>>
 	|
-	|-RVA: 0xF0FA10 Offset: 0xF0E010 VA: 0x180F0FA10
+	|-RVA: 0xF0F910 Offset: 0xF0DF10 VA: 0x180F0F910
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<double, ulong>>
 	|
-	|-RVA: 0xF0F4D0 Offset: 0xF0DAD0 VA: 0x180F0F4D0
+	|-RVA: 0xF0F3D0 Offset: 0xF0D9D0 VA: 0x180F0F3D0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Guid, object>>
 	|
-	|-RVA: 0xF10260 Offset: 0xF0E860 VA: 0x180F10260
+	|-RVA: 0xF10160 Offset: 0xF0E760 VA: 0x180F10160
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<short, bool>>
 	|
-	|-RVA: 0xF13930 Offset: 0xF11F30 VA: 0x180F13930
+	|-RVA: 0xF13830 Offset: 0xF11E30 VA: 0x180F13830
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<short, Decimal>>
 	|
-	|-RVA: 0xF0DFC0 Offset: 0xF0C5C0 VA: 0x180F0DFC0
+	|-RVA: 0xF0DEC0 Offset: 0xF0C4C0 VA: 0x180F0DEC0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<short, double>>
 	|
-	|-RVA: 0xF10FE0 Offset: 0xF0F5E0 VA: 0x180F10FE0
+	|-RVA: 0xF10EE0 Offset: 0xF0F4E0 VA: 0x180F10EE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<short, short>>
 	|
-	|-RVA: 0xF0CAC0 Offset: 0xF0B0C0 VA: 0x180F0CAC0
+	|-RVA: 0xF0C9C0 Offset: 0xF0AFC0 VA: 0x180F0C9C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<short, int>>
 	|
-	|-RVA: 0xF100E0 Offset: 0xF0E6E0 VA: 0x180F100E0
+	|-RVA: 0xF0FFE0 Offset: 0xF0E5E0 VA: 0x180F0FFE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<short, long>>
 	|
-	|-RVA: 0xF0EC90 Offset: 0xF0D290 VA: 0x180F0EC90
+	|-RVA: 0xF0EB90 Offset: 0xF0D190 VA: 0x180F0EB90
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<short, object>>
 	|
-	|-RVA: 0xF10AA0 Offset: 0xF0F0A0 VA: 0x180F10AA0
+	|-RVA: 0xF109A0 Offset: 0xF0EFA0 VA: 0x180F109A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<short, float>>
 	|
-	|-RVA: 0xF0CDC0 Offset: 0xF0B3C0 VA: 0x180F0CDC0
+	|-RVA: 0xF0CCC0 Offset: 0xF0B2C0 VA: 0x180F0CCC0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<short, ushort>>
 	|
-	|-RVA: 0xF0F950 Offset: 0xF0DF50 VA: 0x180F0F950
+	|-RVA: 0xF0F850 Offset: 0xF0DE50 VA: 0x180F0F850
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<short, uint>>
 	|
-	|-RVA: 0xF13270 Offset: 0xF11870 VA: 0x180F13270
+	|-RVA: 0xF13170 Offset: 0xF11770 VA: 0x180F13170
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<short, ulong>>
 	|
-	|-RVA: 0xF13570 Offset: 0xF11B70 VA: 0x180F13570
+	|-RVA: 0xF13470 Offset: 0xF11A70 VA: 0x180F13470
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, CommandBufferManager.CommandBufferEntry>>
 	|
-	|-RVA: 0xF13870 Offset: 0xF11E70 VA: 0x180F13870
+	|-RVA: 0xF13770 Offset: 0xF11D70 VA: 0x180F13770
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, FoliageKey>>
 	|
-	|-RVA: 0xF0EB10 Offset: 0xF0D110 VA: 0x180F0EB10
+	|-RVA: 0xF0EA10 Offset: 0xF0D010 VA: 0x180F0EA10
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, InstancingKey>>
 	|
-	|-RVA: 0xF130F0 Offset: 0xF116F0 VA: 0x180F130F0
+	|-RVA: 0xF12FF0 Offset: 0xF115F0 VA: 0x180F12FF0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, InvokeAction>>
 	|
-	|-RVA: 0xF0F1D0 Offset: 0xF0D7D0 VA: 0x180F0F1D0
+	|-RVA: 0xF0F0D0 Offset: 0xF0D6D0 VA: 0x180F0F0D0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, RendererKey>>
 	|
-	|-RVA: 0xF0E990 Offset: 0xF0CF90 VA: 0x180F0E990
+	|-RVA: 0xF0E890 Offset: 0xF0CE90 VA: 0x180F0E890
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, SpecialPurposeCamera.RenderEntry>>
 	|
-	|-RVA: 0xF10F20 Offset: 0xF0F520 VA: 0x180F10F20
+	|-RVA: 0xF10E20 Offset: 0xF0F420 VA: 0x180F10E20
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, bool>>
 	|
-	|-RVA: 0xF0F110 Offset: 0xF0D710 VA: 0x180F0F110
+	|-RVA: 0xF0F010 Offset: 0xF0D610 VA: 0x180F0F010
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, char>>
 	|
-	|-RVA: 0xF104A0 Offset: 0xF0EAA0 VA: 0x180F104A0
+	|-RVA: 0xF103A0 Offset: 0xF0E9A0 VA: 0x180F103A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, Decimal>>
 	|
-	|-RVA: 0xF0D180 Offset: 0xF0B780 VA: 0x180F0D180
+	|-RVA: 0xF0D080 Offset: 0xF0B680 VA: 0x180F0D080
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, double>>
 	|
-	|-RVA: 0xF13AB0 Offset: 0xF120B0 VA: 0x180F13AB0
+	|-RVA: 0xF139B0 Offset: 0xF11FB0 VA: 0x180F139B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, short>>
 	|
-	|-RVA: 0xF0D840 Offset: 0xF0BE40 VA: 0x180F0D840
+	|-RVA: 0xF0D740 Offset: 0xF0BD40 VA: 0x180F0D740
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, int>>
 	|
-	|-RVA: 0xF0D3C0 Offset: 0xF0B9C0 VA: 0x180F0D3C0
+	|-RVA: 0xF0D2C0 Offset: 0xF0B8C0 VA: 0x180F0D2C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, Int32Enum>>
 	|
-	|-RVA: 0xF13330 Offset: 0xF11930 VA: 0x180F13330
+	|-RVA: 0xF13230 Offset: 0xF11830 VA: 0x180F13230
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, long>>
 	|
-	|-RVA: 0xF0FDD0 Offset: 0xF0E3D0 VA: 0x180F0FDD0
+	|-RVA: 0xF0FCD0 Offset: 0xF0E2D0 VA: 0x180F0FCD0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, object>>
 	|
-	|-RVA: 0xF0BF80 Offset: 0xF0A580 VA: 0x180F0BF80
+	|-RVA: 0xF0BE80 Offset: 0xF0A480 VA: 0x180F0BE80
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, float>>
 	|
-	|-RVA: 0xF0C7C0 Offset: 0xF0ADC0 VA: 0x180F0C7C0
+	|-RVA: 0xF0C6C0 Offset: 0xF0ACC0 VA: 0x180F0C6C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, ushort>>
 	|
-	|-RVA: 0xF11220 Offset: 0xF0F820 VA: 0x180F11220
+	|-RVA: 0xF11120 Offset: 0xF0F720 VA: 0x180F11120
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, uint>>
 	|
-	|-RVA: 0xF11B20 Offset: 0xF10120 VA: 0x180F11B20
+	|-RVA: 0xF11A20 Offset: 0xF10020 VA: 0x180F11A20
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, ulong>>
 	|
-	|-RVA: 0xF128A0 Offset: 0xF10EA0 VA: 0x180F128A0
+	|-RVA: 0xF127A0 Offset: 0xF10DA0 VA: 0x180F127A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<int, ViewModelDrawEvent>>
 	|
-	|-RVA: 0xF0E380 Offset: 0xF0C980 VA: 0x180F0E380
+	|-RVA: 0xF0E280 Offset: 0xF0C880 VA: 0x180F0E280
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Int32Enum, object>>
 	|
-	|-RVA: 0xF119A0 Offset: 0xF0FFA0 VA: 0x180F119A0
+	|-RVA: 0xF118A0 Offset: 0xF0FEA0 VA: 0x180F118A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Int32Enum, float>>
 	|
-	|-RVA: 0xF0FF60 Offset: 0xF0E560 VA: 0x180F0FF60
+	|-RVA: 0xF0FE60 Offset: 0xF0E460 VA: 0x180F0FE60
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, bool>>
 	|
-	|-RVA: 0xF0DE40 Offset: 0xF0C440 VA: 0x180F0DE40
+	|-RVA: 0xF0DD40 Offset: 0xF0C340 VA: 0x180F0DD40
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, Decimal>>
 	|
-	|-RVA: 0xF0F890 Offset: 0xF0DE90 VA: 0x180F0F890
+	|-RVA: 0xF0F790 Offset: 0xF0DD90 VA: 0x180F0F790
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, double>>
 	|
-	|-RVA: 0xF0C940 Offset: 0xF0AF40 VA: 0x180F0C940
+	|-RVA: 0xF0C840 Offset: 0xF0AE40 VA: 0x180F0C840
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, short>>
 	|
-	|-RVA: 0xF11D60 Offset: 0xF10360 VA: 0x180F11D60
+	|-RVA: 0xF11C60 Offset: 0xF10260 VA: 0x180F11C60
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, int>>
 	|
-	|-RVA: 0xF12F70 Offset: 0xF11570 VA: 0x180F12F70
+	|-RVA: 0xF12E70 Offset: 0xF11470 VA: 0x180F12E70
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, long>>
 	|
-	|-RVA: 0xF122A0 Offset: 0xF108A0 VA: 0x180F122A0
+	|-RVA: 0xF121A0 Offset: 0xF107A0 VA: 0x180F121A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, object>>
 	|
-	|-RVA: 0xF0EBD0 Offset: 0xF0D1D0 VA: 0x180F0EBD0
+	|-RVA: 0xF0EAD0 Offset: 0xF0D0D0 VA: 0x180F0EAD0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, float>>
 	|
-	|-RVA: 0xF12970 Offset: 0xF10F70 VA: 0x180F12970
+	|-RVA: 0xF12870 Offset: 0xF10E70 VA: 0x180F12870
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, ushort>>
 	|
-	|-RVA: 0xF0E810 Offset: 0xF0CE10 VA: 0x180F0E810
+	|-RVA: 0xF0E710 Offset: 0xF0CD10 VA: 0x180F0E710
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, uint>>
 	|
-	|-RVA: 0xF0CE80 Offset: 0xF0B480 VA: 0x180F0CE80
+	|-RVA: 0xF0CD80 Offset: 0xF0B380 VA: 0x180F0CD80
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, ulong>>
 	|
-	|-RVA: 0xF0C700 Offset: 0xF0AD00 VA: 0x180F0C700
+	|-RVA: 0xF0C600 Offset: 0xF0AC00 VA: 0x180F0C600
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<IntPtr, object>>
 	|
-	|-RVA: 0xF13630 Offset: 0xF11C30 VA: 0x180F13630
+	|-RVA: 0xF13530 Offset: 0xF11B30 VA: 0x180F13530
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, CameraMan.CameraState>>
 	|
-	|-RVA: 0xF12AF0 Offset: 0xF110F0 VA: 0x180F12AF0
+	|-RVA: 0xF129F0 Offset: 0xF10FF0 VA: 0x180F129F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>
 	|
-	|-RVA: 0xF0E750 Offset: 0xF0CD50 VA: 0x180F0E750
+	|-RVA: 0xF0E650 Offset: 0xF0CC50 VA: 0x180F0E650
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, InputActionSetHandle_t>>
 	|
-	|-RVA: 0xF0D480 Offset: 0xF0BA80 VA: 0x180F0D480
+	|-RVA: 0xF0D380 Offset: 0xF0B980 VA: 0x180F0D380
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, InputAnalogActionHandle_t>>
 	|
-	|-RVA: 0xF10CE0 Offset: 0xF0F2E0 VA: 0x180F10CE0
+	|-RVA: 0xF10BE0 Offset: 0xF0F1E0 VA: 0x180F10BE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, InputDigitalActionHandle_t>>
 	|
-	|-RVA: 0xF0E2C0 Offset: 0xF0C8C0 VA: 0x180F0E2C0
+	|-RVA: 0xF0E1C0 Offset: 0xF0C7C0 VA: 0x180F0E1C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, bool>>
 	|
-	|-RVA: 0xF0C640 Offset: 0xF0AC40 VA: 0x180F0C640
+	|-RVA: 0xF0C540 Offset: 0xF0AB40 VA: 0x180F0C540
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, byte>>
 	|
-	|-RVA: 0xF0D000 Offset: 0xF0B600 VA: 0x180F0D000
+	|-RVA: 0xF0CF00 Offset: 0xF0B500 VA: 0x180F0CF00
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, Decimal>>
 	|
-	|-RVA: 0xF137B0 Offset: 0xF11DB0 VA: 0x180F137B0
+	|-RVA: 0xF136B0 Offset: 0xF11CB0 VA: 0x180F136B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, double>>
 	|
-	|-RVA: 0xF131B0 Offset: 0xF117B0 VA: 0x180F131B0
+	|-RVA: 0xF130B0 Offset: 0xF116B0 VA: 0x180F130B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, short>>
 	|
-	|-RVA: 0xF0BEC0 Offset: 0xF0A4C0 VA: 0x180F0BEC0
+	|-RVA: 0xF0BDC0 Offset: 0xF0A3C0 VA: 0x180F0BDC0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, int>>
 	|
-	|-RVA: 0xF0DA80 Offset: 0xF0C080 VA: 0x180F0DA80
+	|-RVA: 0xF0D980 Offset: 0xF0BF80 VA: 0x180F0D980
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, Int32Enum>>
 	|
-	|-RVA: 0xF0F710 Offset: 0xF0DD10 VA: 0x180F0F710
+	|-RVA: 0xF0F610 Offset: 0xF0DC10 VA: 0x180F0F610
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, long>>
 	|
-	|-RVA: 0xF0BC80 Offset: 0xF0A280 VA: 0x180F0BC80
+	|-RVA: 0xF0BB80 Offset: 0xF0A180 VA: 0x180F0BB80
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, object>>
 	|
-	|-RVA: 0xF139F0 Offset: 0xF11FF0 VA: 0x180F139F0
+	|-RVA: 0xF138F0 Offset: 0xF11EF0 VA: 0x180F138F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, ResourceLocator>>
 	|
-	|-RVA: 0xF0E080 Offset: 0xF0C680 VA: 0x180F0E080
+	|-RVA: 0xF0DF80 Offset: 0xF0C580 VA: 0x180F0DF80
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, float>>
 	|
-	|-RVA: 0xF13B70 Offset: 0xF12170 VA: 0x180F13B70
+	|-RVA: 0xF13A70 Offset: 0xF12070 VA: 0x180F13A70
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, ushort>>
 	|
-	|-RVA: 0xF0BE00 Offset: 0xF0A400 VA: 0x180F0BE00
+	|-RVA: 0xF0BD00 Offset: 0xF0A300 VA: 0x180F0BD00
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, uint>>
 	|
-	|-RVA: 0xF0C100 Offset: 0xF0A700 VA: 0x180F0C100
+	|-RVA: 0xF0C000 Offset: 0xF0A600 VA: 0x180F0C000
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, ulong>>
 	|
-	|-RVA: 0xF0FC50 Offset: 0xF0E250 VA: 0x180F0FC50
+	|-RVA: 0xF0FB50 Offset: 0xF0E150 VA: 0x180F0FB50
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, ValueTuple<object, object>>>
 	|
-	|-RVA: 0xF103E0 Offset: 0xF0E9E0 VA: 0x180F103E0
+	|-RVA: 0xF102E0 Offset: 0xF0E8E0 VA: 0x180F102E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<object, Vector3>>
 	|
-	|-RVA: 0xF12060 Offset: 0xF10660 VA: 0x180F12060
+	|-RVA: 0xF11F60 Offset: 0xF10560 VA: 0x180F11F60
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<float, bool>>
 	|
-	|-RVA: 0xF116A0 Offset: 0xF0FCA0 VA: 0x180F116A0
+	|-RVA: 0xF115A0 Offset: 0xF0FBA0 VA: 0x180F115A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<float, Decimal>>
 	|
-	|-RVA: 0xF10920 Offset: 0xF0EF20 VA: 0x180F10920
+	|-RVA: 0xF10820 Offset: 0xF0EE20 VA: 0x180F10820
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<float, double>>
 	|
-	|-RVA: 0xF0BD40 Offset: 0xF0A340 VA: 0x180F0BD40
+	|-RVA: 0xF0BC40 Offset: 0xF0A240 VA: 0x180F0BC40
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<float, short>>
 	|
-	|-RVA: 0xF0EE10 Offset: 0xF0D410 VA: 0x180F0EE10
+	|-RVA: 0xF0ED10 Offset: 0xF0D310 VA: 0x180F0ED10
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<float, int>>
 	|
-	|-RVA: 0xF12DF0 Offset: 0xF113F0 VA: 0x180F12DF0
+	|-RVA: 0xF12CF0 Offset: 0xF112F0 VA: 0x180F12CF0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<float, long>>
 	|
-	|-RVA: 0xF0E8D0 Offset: 0xF0CED0 VA: 0x180F0E8D0
+	|-RVA: 0xF0E7D0 Offset: 0xF0CDD0 VA: 0x180F0E7D0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<float, object>>
 	|
-	|-RVA: 0xF107A0 Offset: 0xF0EDA0 VA: 0x180F107A0
+	|-RVA: 0xF106A0 Offset: 0xF0ECA0 VA: 0x180F106A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<float, float>>
 	|
-	|-RVA: 0xF0F590 Offset: 0xF0DB90 VA: 0x180F0F590
+	|-RVA: 0xF0F490 Offset: 0xF0DA90 VA: 0x180F0F490
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<float, ushort>>
 	|
-	|-RVA: 0xF110A0 Offset: 0xF0F6A0 VA: 0x180F110A0
+	|-RVA: 0xF10FA0 Offset: 0xF0F5A0 VA: 0x180F10FA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<float, uint>>
 	|
-	|-RVA: 0xF0D600 Offset: 0xF0BC00 VA: 0x180F0D600
+	|-RVA: 0xF0D500 Offset: 0xF0BB00 VA: 0x180F0D500
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<float, ulong>>
 	|
-	|-RVA: 0xF12EB0 Offset: 0xF114B0 VA: 0x180F12EB0
+	|-RVA: 0xF12DB0 Offset: 0xF113B0 VA: 0x180F12DB0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ushort, bool>>
 	|
-	|-RVA: 0xF133F0 Offset: 0xF119F0 VA: 0x180F133F0
+	|-RVA: 0xF132F0 Offset: 0xF118F0 VA: 0x180F132F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ushort, Decimal>>
 	|
-	|-RVA: 0xF0D300 Offset: 0xF0B900 VA: 0x180F0D300
+	|-RVA: 0xF0D200 Offset: 0xF0B800 VA: 0x180F0D200
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ushort, double>>
 	|
-	|-RVA: 0xF0C1C0 Offset: 0xF0A7C0 VA: 0x180F0C1C0
+	|-RVA: 0xF0C0C0 Offset: 0xF0A6C0 VA: 0x180F0C0C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ushort, short>>
 	|
-	|-RVA: 0xF0CA00 Offset: 0xF0B000 VA: 0x180F0CA00
+	|-RVA: 0xF0C900 Offset: 0xF0AF00 VA: 0x180F0C900
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ushort, int>>
 	|
-	|-RVA: 0xF0FAD0 Offset: 0xF0E0D0 VA: 0x180F0FAD0
+	|-RVA: 0xF0F9D0 Offset: 0xF0DFD0 VA: 0x180F0F9D0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ushort, long>>
 	|
-	|-RVA: 0xF11820 Offset: 0xF0FE20 VA: 0x180F11820
+	|-RVA: 0xF11720 Offset: 0xF0FD20 VA: 0x180F11720
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ushort, object>>
 	|
-	|-RVA: 0xF0FB90 Offset: 0xF0E190 VA: 0x180F0FB90
+	|-RVA: 0xF0FA90 Offset: 0xF0E090 VA: 0x180F0FA90
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ushort, float>>
 	|
-	|-RVA: 0xF0F7D0 Offset: 0xF0DDD0 VA: 0x180F0F7D0
+	|-RVA: 0xF0F6D0 Offset: 0xF0DCD0 VA: 0x180F0F6D0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ushort, ushort>>
 	|
-	|-RVA: 0xF109E0 Offset: 0xF0EFE0 VA: 0x180F109E0
+	|-RVA: 0xF108E0 Offset: 0xF0EEE0 VA: 0x180F108E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ushort, uint>>
 	|
-	|-RVA: 0xF10620 Offset: 0xF0EC20 VA: 0x180F10620
+	|-RVA: 0xF10520 Offset: 0xF0EB20 VA: 0x180F10520
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ushort, ulong>>
 	|
-	|-RVA: 0xF0C4C0 Offset: 0xF0AAC0 VA: 0x180F0C4C0
+	|-RVA: 0xF0C3C0 Offset: 0xF0A9C0 VA: 0x180F0C3C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<uint, bool>>
 	|
-	|-RVA: 0xF0CC40 Offset: 0xF0B240 VA: 0x180F0CC40
+	|-RVA: 0xF0CB40 Offset: 0xF0B140 VA: 0x180F0CB40
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<uint, Decimal>>
 	|
-	|-RVA: 0xF0EA50 Offset: 0xF0D050 VA: 0x180F0EA50
+	|-RVA: 0xF0E950 Offset: 0xF0CF50 VA: 0x180F0E950
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<uint, double>>
 	|
-	|-RVA: 0xF0E500 Offset: 0xF0CB00 VA: 0x180F0E500
+	|-RVA: 0xF0E400 Offset: 0xF0CA00 VA: 0x180F0E400
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<uint, short>>
 	|
-	|-RVA: 0xF106E0 Offset: 0xF0ECE0 VA: 0x180F106E0
+	|-RVA: 0xF105E0 Offset: 0xF0EBE0 VA: 0x180F105E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<uint, int>>
 	|
-	|-RVA: 0xF0CF40 Offset: 0xF0B540 VA: 0x180F0CF40
+	|-RVA: 0xF0CE40 Offset: 0xF0B440 VA: 0x180F0CE40
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<uint, long>>
 	|
-	|-RVA: 0xF11E20 Offset: 0xF10420 VA: 0x180F11E20
+	|-RVA: 0xF11D20 Offset: 0xF10320 VA: 0x180F11D20
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<uint, object>>
 	|
-	|-RVA: 0xF12420 Offset: 0xF10A20 VA: 0x180F12420
+	|-RVA: 0xF12320 Offset: 0xF10920 VA: 0x180F12320
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<uint, float>>
 	|
-	|-RVA: 0xF10C20 Offset: 0xF0F220 VA: 0x180F10C20
+	|-RVA: 0xF10B20 Offset: 0xF0F120 VA: 0x180F10B20
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<uint, ushort>>
 	|
-	|-RVA: 0xF127E0 Offset: 0xF10DE0 VA: 0x180F127E0
+	|-RVA: 0xF126E0 Offset: 0xF10CE0 VA: 0x180F126E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<uint, uint>>
 	|
-	|-RVA: 0xF0ED50 Offset: 0xF0D350 VA: 0x180F0ED50
+	|-RVA: 0xF0EC50 Offset: 0xF0D250 VA: 0x180F0EC50
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<uint, ulong>>
 	|
-	|-RVA: 0xF0C580 Offset: 0xF0AB80 VA: 0x180F0C580
+	|-RVA: 0xF0C480 Offset: 0xF0AA80 VA: 0x180F0C480
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, AvatarCache.Entry>>
 	|
-	|-RVA: 0xF0D0C0 Offset: 0xF0B6C0 VA: 0x180F0D0C0
+	|-RVA: 0xF0CFC0 Offset: 0xF0B5C0 VA: 0x180F0CFC0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, Chat.MuteEntry>>
 	|
-	|-RVA: 0xF0F650 Offset: 0xF0DC50 VA: 0x180F0F650
+	|-RVA: 0xF0F550 Offset: 0xF0DB50 VA: 0x180F0F550
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, Dispatch.ResultCallback>>
 	|
-	|-RVA: 0xF12BB0 Offset: 0xF111B0 VA: 0x180F12BB0
+	|-RVA: 0xF12AB0 Offset: 0xF110B0 VA: 0x180F12AB0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, bool>>
 	|
-	|-RVA: 0xF0D9C0 Offset: 0xF0BFC0 VA: 0x180F0D9C0
+	|-RVA: 0xF0D8C0 Offset: 0xF0BEC0 VA: 0x180F0D8C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, Decimal>>
 	|
-	|-RVA: 0xF0CD00 Offset: 0xF0B300 VA: 0x180F0CD00
+	|-RVA: 0xF0CC00 Offset: 0xF0B200 VA: 0x180F0CC00
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, double>>
 	|
-	|-RVA: 0xF11760 Offset: 0xF0FD60 VA: 0x180F11760
+	|-RVA: 0xF11660 Offset: 0xF0FC60 VA: 0x180F11660
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, short>>
 	|
-	|-RVA: 0xF0E140 Offset: 0xF0C740 VA: 0x180F0E140
+	|-RVA: 0xF0E040 Offset: 0xF0C640 VA: 0x180F0E040
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, int>>
 	|
-	|-RVA: 0xF0D240 Offset: 0xF0B840 VA: 0x180F0D240
+	|-RVA: 0xF0D140 Offset: 0xF0B740 VA: 0x180F0D140
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, long>>
 	|
-	|-RVA: 0xF134B0 Offset: 0xF11AB0 VA: 0x180F134B0
+	|-RVA: 0xF133B0 Offset: 0xF119B0 VA: 0x180F133B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, object>>
 	|
-	|-RVA: 0xF0CB80 Offset: 0xF0B180 VA: 0x180F0CB80
+	|-RVA: 0xF0CA80 Offset: 0xF0B080 VA: 0x180F0CA80
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, float>>
 	|
-	|-RVA: 0xF0F410 Offset: 0xF0DA10 VA: 0x180F0F410
+	|-RVA: 0xF0F310 Offset: 0xF0D910 VA: 0x180F0F310
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, ushort>>
 	|
-	|-RVA: 0xF0E200 Offset: 0xF0C800 VA: 0x180F0E200
+	|-RVA: 0xF0E100 Offset: 0xF0C700 VA: 0x180F0E100
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, uint>>
 	|
-	|-RVA: 0xF11520 Offset: 0xF0FB20 VA: 0x180F11520
+	|-RVA: 0xF11420 Offset: 0xF0FA20 VA: 0x180F11420
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, ulong>>
 	|
-	|-RVA: 0xF10E60 Offset: 0xF0F460 VA: 0x180F10E60
+	|-RVA: 0xF10D60 Offset: 0xF0F360 VA: 0x180F10D60
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ulong, TimeSince>>
 	|
-	|-RVA: 0xF13CF0 Offset: 0xF122F0 VA: 0x180F13CF0
+	|-RVA: 0xF13BF0 Offset: 0xF121F0 VA: 0x180F13BF0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ValueTuple<Int32Enum, int>, object>>
 	|
-	|-RVA: 0xF12D30 Offset: 0xF11330 VA: 0x180F12D30
+	|-RVA: 0xF12C30 Offset: 0xF11230 VA: 0x180F12C30
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Color, object>>
 	|
-	|-RVA: 0xF0F290 Offset: 0xF0D890 VA: 0x180F0F290
+	|-RVA: 0xF0F190 Offset: 0xF0D790 VA: 0x180F0F190
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<TerrainUtility.TerrainMap.TileCoord, object>>
 	|
-	|-RVA: 0xF0F050 Offset: 0xF0D650 VA: 0x180F0F050
+	|-RVA: 0xF0EF50 Offset: 0xF0D550 VA: 0x180F0EF50
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<StyleSheetCache.SheetHandleKey, int>>
 	|
-	|-RVA: 0xF0C340 Offset: 0xF0A940 VA: 0x180F0C340
+	|-RVA: 0xF0C240 Offset: 0xF0A840 VA: 0x180F0C240
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<StyleSheetCache.SheetHandleKey, object>>
 	|
-	|-RVA: 0xF12360 Offset: 0xF10960 VA: 0x180F12360
+	|-RVA: 0xF12260 Offset: 0xF10860 VA: 0x180F12260
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Vector2i, object>>
 	|
-	|-RVA: 0xF0E5C0 Offset: 0xF0CBC0 VA: 0x180F0E5C0
+	|-RVA: 0xF0E4C0 Offset: 0xF0CAC0 VA: 0x180F0E4C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<ViewModelDrawEvent, int>>
 	|
-	|-RVA: 0xF1F740 Offset: 0xF1DD40 VA: 0x180F1F740
+	|-RVA: 0xF1F640 Offset: 0xF1DC40 VA: 0x180F1F640
 	|-Array.InternalArray__IReadOnlyList_get_Item<HashSet.Slot<Connection>>
 	|
-	|-RVA: 0xF1F800 Offset: 0xF1DE00 VA: 0x180F1F800
+	|-RVA: 0xF1F700 Offset: 0xF1DD00 VA: 0x180F1F700
 	|-Array.InternalArray__IReadOnlyList_get_Item<HashSet.Slot<int>>
 	|
-	|-RVA: 0xF1F5C0 Offset: 0xF1DBC0 VA: 0x180F1F5C0
+	|-RVA: 0xF1F4C0 Offset: 0xF1DAC0 VA: 0x180F1F4C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<HashSet.Slot<object>>
 	|
-	|-RVA: 0xF1F8C0 Offset: 0xF1DEC0 VA: 0x180F1F8C0
+	|-RVA: 0xF1F7C0 Offset: 0xF1DDC0 VA: 0x180F1F7C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<HashSet.Slot<uint>>
 	|
-	|-RVA: 0xF1F680 Offset: 0xF1DC80 VA: 0x180F1F680
+	|-RVA: 0xF1F580 Offset: 0xF1DB80 VA: 0x180F1F580
 	|-Array.InternalArray__IReadOnlyList_get_Item<HashSet.Slot<ulong>>
 	|
-	|-RVA: 0xF1F980 Offset: 0xF1DF80 VA: 0x180F1F980
+	|-RVA: 0xF1F880 Offset: 0xF1DE80 VA: 0x180F1F880
 	|-Array.InternalArray__IReadOnlyList_get_Item<HashSet.Slot<Vector3>>
 	|
-	|-RVA: 0xF16270 Offset: 0xF14870 VA: 0x180F16270
+	|-RVA: 0xF16170 Offset: 0xF14770 VA: 0x180F16170
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<FoliageKey, int>>
 	|
-	|-RVA: 0xF1B9F0 Offset: 0xF19FF0 VA: 0x180F1B9F0
+	|-RVA: 0xF1B8F0 Offset: 0xF19EF0 VA: 0x180F1B8F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<FoliageKey, object>>
 	|
-	|-RVA: 0xF17960 Offset: 0xF15F60 VA: 0x180F17960
+	|-RVA: 0xF17860 Offset: 0xF15E60 VA: 0x180F17860
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<InstancingKey, int>>
 	|
-	|-RVA: 0xF1A4B0 Offset: 0xF18AB0 VA: 0x180F1A4B0
+	|-RVA: 0xF1A3B0 Offset: 0xF189B0 VA: 0x180F1A3B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<InstancingKey, object>>
 	|
-	|-RVA: 0xF1CC30 Offset: 0xF1B230 VA: 0x180F1CC30
+	|-RVA: 0xF1CB30 Offset: 0xF1B130 VA: 0x180F1CB30
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<InvokeAction, int>>
 	|
-	|-RVA: 0xF183C0 Offset: 0xF169C0 VA: 0x180F183C0
+	|-RVA: 0xF182C0 Offset: 0xF168C0 VA: 0x180F182C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<InvokeAction, float>>
 	|
-	|-RVA: 0xF185F0 Offset: 0xF16BF0 VA: 0x180F185F0
+	|-RVA: 0xF184F0 Offset: 0xF16AF0 VA: 0x180F184F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<XPathNodeRef, XPathNodeRef>>
 	|
-	|-RVA: 0xF1B870 Offset: 0xF19E70 VA: 0x180F1B870
+	|-RVA: 0xF1B770 Offset: 0xF19D70 VA: 0x180F1B770
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<SevenBitNumber, object>>
 	|
-	|-RVA: 0xF15300 Offset: 0xF13900 VA: 0x180F15300
+	|-RVA: 0xF15200 Offset: 0xF13800 VA: 0x180F15200
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<DefaultSerializationBinder.TypeNameKey, object>>
 	|
-	|-RVA: 0xF1A790 Offset: 0xF18D90 VA: 0x180F1A790
+	|-RVA: 0xF1A690 Offset: 0xF18C90 VA: 0x180F1A690
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ResolverContractKey, object>>
 	|
-	|-RVA: 0xF1A620 Offset: 0xF18C20 VA: 0x180F1A620
+	|-RVA: 0xF1A520 Offset: 0xF18B20 VA: 0x180F1A520
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ConvertUtils.TypeConvertKey, object>>
 	|
-	|-RVA: 0xF1AA70 Offset: 0xF19070 VA: 0x180F1AA70
+	|-RVA: 0xF1A970 Offset: 0xF18F70 VA: 0x180F1A970
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<RendererKey, int>>
 	|
-	|-RVA: 0xF1B7B0 Offset: 0xF19DB0 VA: 0x180F1B7B0
+	|-RVA: 0xF1B6B0 Offset: 0xF19CB0 VA: 0x180F1B6B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<RendererKey, object>>
 	|
-	|-RVA: 0xF15180 Offset: 0xF13780 VA: 0x180F15180
+	|-RVA: 0xF15080 Offset: 0xF13680 VA: 0x180F15080
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<SpecialPurposeCamera.RenderEntry, int>>
 	|
-	|-RVA: 0xF19560 Offset: 0xF17B60 VA: 0x180F19560
+	|-RVA: 0xF19460 Offset: 0xF17A60 VA: 0x180F19460
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<InventoryDefId, uint>>
 	|
-	|-RVA: 0xF18770 Offset: 0xF16D70 VA: 0x180F18770
+	|-RVA: 0xF18670 Offset: 0xF16C70 VA: 0x180F18670
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<StringFormatCache.Key1, object>>
 	|
-	|-RVA: 0xF15240 Offset: 0xF13840 VA: 0x180F15240
+	|-RVA: 0xF15140 Offset: 0xF13740 VA: 0x180F15140
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<StringFormatCache.Key2, object>>
 	|
-	|-RVA: 0xF161B0 Offset: 0xF147B0 VA: 0x180F161B0
+	|-RVA: 0xF160B0 Offset: 0xF146B0 VA: 0x180F160B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<StringFormatCache.Key3, object>>
 	|
-	|-RVA: 0xF1B3F0 Offset: 0xF199F0 VA: 0x180F1B3F0
+	|-RVA: 0xF1B2F0 Offset: 0xF198F0 VA: 0x180F1B2F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<StringFormatCache.Key4, object>>
 	|
-	|-RVA: 0xF18D50 Offset: 0xF17350 VA: 0x180F18D50
+	|-RVA: 0xF18C50 Offset: 0xF17250 VA: 0x180F18C50
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<bool, bool>>
 	|
-	|-RVA: 0xF174E0 Offset: 0xF15AE0 VA: 0x180F174E0
+	|-RVA: 0xF173E0 Offset: 0xF159E0 VA: 0x180F173E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<bool, Decimal>>
 	|
-	|-RVA: 0xF1AB30 Offset: 0xF19130 VA: 0x180F1AB30
+	|-RVA: 0xF1AA30 Offset: 0xF19030 VA: 0x180F1AA30
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<bool, double>>
 	|
-	|-RVA: 0xF1C1F0 Offset: 0xF1A7F0 VA: 0x180F1C1F0
+	|-RVA: 0xF1C0F0 Offset: 0xF1A6F0 VA: 0x180F1C0F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<bool, short>>
 	|
-	|-RVA: 0xF1A060 Offset: 0xF18660 VA: 0x180F1A060
+	|-RVA: 0xF19F60 Offset: 0xF18560 VA: 0x180F19F60
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<bool, int>>
 	|
-	|-RVA: 0xF16D80 Offset: 0xF15380 VA: 0x180F16D80
+	|-RVA: 0xF16C80 Offset: 0xF15280 VA: 0x180F16C80
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<bool, long>>
 	|
-	|-RVA: 0xF17420 Offset: 0xF15A20 VA: 0x180F17420
+	|-RVA: 0xF17320 Offset: 0xF15920 VA: 0x180F17320
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<bool, object>>
 	|
-	|-RVA: 0xF19EF0 Offset: 0xF184F0 VA: 0x180F19EF0
+	|-RVA: 0xF19DF0 Offset: 0xF183F0 VA: 0x180F19DF0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<bool, float>>
 	|
-	|-RVA: 0xF17370 Offset: 0xF15970 VA: 0x180F17370
+	|-RVA: 0xF17270 Offset: 0xF15870 VA: 0x180F17270
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<bool, ushort>>
 	|
-	|-RVA: 0xF1C4E0 Offset: 0xF1AAE0 VA: 0x180F1C4E0
+	|-RVA: 0xF1C3E0 Offset: 0xF1A9E0 VA: 0x180F1C3E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<bool, uint>>
 	|
-	|-RVA: 0xF166E0 Offset: 0xF14CE0 VA: 0x180F166E0
+	|-RVA: 0xF165E0 Offset: 0xF14BE0 VA: 0x180F165E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<bool, ulong>>
 	|
-	|-RVA: 0xF15BD0 Offset: 0xF141D0 VA: 0x180F15BD0
+	|-RVA: 0xF15AD0 Offset: 0xF140D0 VA: 0x180F15AD0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<byte, object>>
 	|
-	|-RVA: 0xF1BC30 Offset: 0xF1A230 VA: 0x180F1BC30
+	|-RVA: 0xF1BB30 Offset: 0xF1A130 VA: 0x180F1BB30
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ByteEnum, byte>>
 	|
-	|-RVA: 0xF18EC0 Offset: 0xF174C0 VA: 0x180F18EC0
+	|-RVA: 0xF18DC0 Offset: 0xF173C0 VA: 0x180F18DC0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<KeyValuePair<object, object>, object>>
 	|
-	|-RVA: 0xF17C60 Offset: 0xF16260 VA: 0x180F17C60
+	|-RVA: 0xF17B60 Offset: 0xF16160 VA: 0x180F17B60
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<DateTime, object>>
 	|
-	|-RVA: 0xF1D0B0 Offset: 0xF1B6B0 VA: 0x180F1D0B0
+	|-RVA: 0xF1CFB0 Offset: 0xF1B5B0 VA: 0x180F1CFB0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Decimal, bool>>
 	|
-	|-RVA: 0xF16E40 Offset: 0xF15440 VA: 0x180F16E40
+	|-RVA: 0xF16D40 Offset: 0xF15340 VA: 0x180F16D40
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Decimal, Decimal>>
 	|
-	|-RVA: 0xF167A0 Offset: 0xF14DA0 VA: 0x180F167A0
+	|-RVA: 0xF166A0 Offset: 0xF14CA0 VA: 0x180F166A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Decimal, double>>
 	|
-	|-RVA: 0xF1D230 Offset: 0xF1B830 VA: 0x180F1D230
+	|-RVA: 0xF1D130 Offset: 0xF1B730 VA: 0x180F1D130
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Decimal, short>>
 	|
-	|-RVA: 0xF1B4B0 Offset: 0xF19AB0 VA: 0x180F1B4B0
+	|-RVA: 0xF1B3B0 Offset: 0xF199B0 VA: 0x180F1B3B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Decimal, int>>
 	|
-	|-RVA: 0xF180D0 Offset: 0xF166D0 VA: 0x180F180D0
+	|-RVA: 0xF17FD0 Offset: 0xF165D0 VA: 0x180F17FD0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Decimal, long>>
 	|
-	|-RVA: 0xF178A0 Offset: 0xF15EA0 VA: 0x180F178A0
+	|-RVA: 0xF177A0 Offset: 0xF15DA0 VA: 0x180F177A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Decimal, object>>
 	|
-	|-RVA: 0xF17200 Offset: 0xF15800 VA: 0x180F17200
+	|-RVA: 0xF17100 Offset: 0xF15700 VA: 0x180F17100
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Decimal, float>>
 	|
-	|-RVA: 0xF16B50 Offset: 0xF15150 VA: 0x180F16B50
+	|-RVA: 0xF16A50 Offset: 0xF15050 VA: 0x180F16A50
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Decimal, ushort>>
 	|
-	|-RVA: 0xF14F40 Offset: 0xF13540 VA: 0x180F14F40
+	|-RVA: 0xF14E40 Offset: 0xF13440 VA: 0x180F14E40
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Decimal, uint>>
 	|
-	|-RVA: 0xF18190 Offset: 0xF16790 VA: 0x180F18190
+	|-RVA: 0xF18090 Offset: 0xF16690 VA: 0x180F18090
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Decimal, ulong>>
 	|
-	|-RVA: 0xF15470 Offset: 0xF13A70 VA: 0x180F15470
+	|-RVA: 0xF15370 Offset: 0xF13970 VA: 0x180F15370
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<double, bool>>
 	|
-	|-RVA: 0xF17BA0 Offset: 0xF161A0 VA: 0x180F17BA0
+	|-RVA: 0xF17AA0 Offset: 0xF160A0 VA: 0x180F17AA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<double, Decimal>>
 	|
-	|-RVA: 0xF1C930 Offset: 0xF1AF30 VA: 0x180F1C930
+	|-RVA: 0xF1C830 Offset: 0xF1AE30 VA: 0x180F1C830
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<double, double>>
 	|
-	|-RVA: 0xF16FC0 Offset: 0xF155C0 VA: 0x180F16FC0
+	|-RVA: 0xF16EC0 Offset: 0xF154C0 VA: 0x180F16EC0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<double, short>>
 	|
-	|-RVA: 0xF1AEE0 Offset: 0xF194E0 VA: 0x180F1AEE0
+	|-RVA: 0xF1ADE0 Offset: 0xF193E0 VA: 0x180F1ADE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<double, int>>
 	|
-	|-RVA: 0xF17660 Offset: 0xF15C60 VA: 0x180F17660
+	|-RVA: 0xF17560 Offset: 0xF15B60 VA: 0x180F17560
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<double, long>>
 	|
-	|-RVA: 0xF14E80 Offset: 0xF13480 VA: 0x180F14E80
+	|-RVA: 0xF14D80 Offset: 0xF13380 VA: 0x180F14D80
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<double, object>>
 	|
-	|-RVA: 0xF17F50 Offset: 0xF16550 VA: 0x180F17F50
+	|-RVA: 0xF17E50 Offset: 0xF16450 VA: 0x180F17E50
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<double, float>>
 	|
-	|-RVA: 0xF1BAB0 Offset: 0xF1A0B0 VA: 0x180F1BAB0
+	|-RVA: 0xF1B9B0 Offset: 0xF19FB0 VA: 0x180F1B9B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<double, ushort>>
 	|
-	|-RVA: 0xF16910 Offset: 0xF14F10 VA: 0x180F16910
+	|-RVA: 0xF16810 Offset: 0xF14E10 VA: 0x180F16810
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<double, uint>>
 	|
-	|-RVA: 0xF15E10 Offset: 0xF14410 VA: 0x180F15E10
+	|-RVA: 0xF15D10 Offset: 0xF14310 VA: 0x180F15D10
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<double, ulong>>
 	|
-	|-RVA: 0xF158E0 Offset: 0xF13EE0 VA: 0x180F158E0
+	|-RVA: 0xF157E0 Offset: 0xF13DE0 VA: 0x180F157E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Guid, int>>
 	|
-	|-RVA: 0xF1B6F0 Offset: 0xF19CF0 VA: 0x180F1B6F0
+	|-RVA: 0xF1B5F0 Offset: 0xF19BF0 VA: 0x180F1B5F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Guid, object>>
 	|
-	|-RVA: 0xF19900 Offset: 0xF17F00 VA: 0x180F19900
+	|-RVA: 0xF19800 Offset: 0xF17E00 VA: 0x180F19800
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<short, bool>>
 	|
-	|-RVA: 0xF1C2A0 Offset: 0xF1A8A0 VA: 0x180F1C2A0
+	|-RVA: 0xF1C1A0 Offset: 0xF1A7A0 VA: 0x180F1C1A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<short, Decimal>>
 	|
-	|-RVA: 0xF18A60 Offset: 0xF17060 VA: 0x180F18A60
+	|-RVA: 0xF18960 Offset: 0xF16F60 VA: 0x180F18960
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<short, double>>
 	|
-	|-RVA: 0xF17DE0 Offset: 0xF163E0 VA: 0x180F17DE0
+	|-RVA: 0xF17CE0 Offset: 0xF162E0 VA: 0x180F17CE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<short, short>>
 	|
-	|-RVA: 0xF18250 Offset: 0xF16850 VA: 0x180F18250
+	|-RVA: 0xF18150 Offset: 0xF16750 VA: 0x180F18150
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<short, int>>
 	|
-	|-RVA: 0xF199B0 Offset: 0xF17FB0 VA: 0x180F199B0
+	|-RVA: 0xF198B0 Offset: 0xF17EB0 VA: 0x180F198B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<short, long>>
 	|
-	|-RVA: 0xF177E0 Offset: 0xF15DE0 VA: 0x180F177E0
+	|-RVA: 0xF176E0 Offset: 0xF15CE0 VA: 0x180F176E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<short, object>>
 	|
-	|-RVA: 0xF18CA0 Offset: 0xF172A0 VA: 0x180F18CA0
+	|-RVA: 0xF18BA0 Offset: 0xF171A0 VA: 0x180F18BA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<short, float>>
 	|
-	|-RVA: 0xF1A110 Offset: 0xF18710 VA: 0x180F1A110
+	|-RVA: 0xF1A010 Offset: 0xF18610 VA: 0x180F1A010
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<short, ushort>>
 	|
-	|-RVA: 0xF1B050 Offset: 0xF19650 VA: 0x180F1B050
+	|-RVA: 0xF1AF50 Offset: 0xF19550 VA: 0x180F1AF50
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<short, uint>>
 	|
-	|-RVA: 0xF19A70 Offset: 0xF18070 VA: 0x180F19A70
+	|-RVA: 0xF19970 Offset: 0xF17F70 VA: 0x180F19970
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<short, ulong>>
 	|
-	|-RVA: 0xF18010 Offset: 0xF16610 VA: 0x180F18010
+	|-RVA: 0xF17F10 Offset: 0xF16510 VA: 0x180F17F10
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, CommandBufferManager.CommandBufferEntry>>
 	|
-	|-RVA: 0xF16A90 Offset: 0xF15090 VA: 0x180F16A90
+	|-RVA: 0xF16990 Offset: 0xF14F90 VA: 0x180F16990
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, FoliageKey>>
 	|
-	|-RVA: 0xF1CCF0 Offset: 0xF1B2F0 VA: 0x180F1CCF0
+	|-RVA: 0xF1CBF0 Offset: 0xF1B1F0 VA: 0x180F1CBF0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, InstancingKey>>
 	|
-	|-RVA: 0xF1B100 Offset: 0xF19700 VA: 0x180F1B100
+	|-RVA: 0xF1B000 Offset: 0xF19600 VA: 0x180F1B000
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, InvokeAction>>
 	|
-	|-RVA: 0xF163F0 Offset: 0xF149F0 VA: 0x180F163F0
+	|-RVA: 0xF162F0 Offset: 0xF148F0 VA: 0x180F162F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, RendererKey>>
 	|
-	|-RVA: 0xF19FA0 Offset: 0xF185A0 VA: 0x180F19FA0
+	|-RVA: 0xF19EA0 Offset: 0xF184A0 VA: 0x180F19EA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, SpecialPurposeCamera.RenderEntry>>
 	|
-	|-RVA: 0xF16CD0 Offset: 0xF152D0 VA: 0x180F16CD0
+	|-RVA: 0xF16BD0 Offset: 0xF151D0 VA: 0x180F16BD0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, bool>>
 	|
-	|-RVA: 0xF159A0 Offset: 0xF13FA0 VA: 0x180F159A0
+	|-RVA: 0xF158A0 Offset: 0xF13EA0 VA: 0x180F158A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, char>>
 	|
-	|-RVA: 0xF1C9F0 Offset: 0xF1AFF0 VA: 0x180F1C9F0
+	|-RVA: 0xF1C8F0 Offset: 0xF1AEF0 VA: 0x180F1C8F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, Decimal>>
 	|
-	|-RVA: 0xF1B930 Offset: 0xF19F30 VA: 0x180F1B930
+	|-RVA: 0xF1B830 Offset: 0xF19E30 VA: 0x180F1B830
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, double>>
 	|
-	|-RVA: 0xF1BE60 Offset: 0xF1A460 VA: 0x180F1BE60
+	|-RVA: 0xF1BD60 Offset: 0xF1A360 VA: 0x180F1BD60
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, short>>
 	|
-	|-RVA: 0xF1A570 Offset: 0xF18B70 VA: 0x180F1A570
+	|-RVA: 0xF1A470 Offset: 0xF18A70 VA: 0x180F1A470
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, int>>
 	|
-	|-RVA: 0xF1A280 Offset: 0xF18880 VA: 0x180F1A280
+	|-RVA: 0xF1A180 Offset: 0xF18780 VA: 0x180F1A180
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, Int32Enum>>
 	|
-	|-RVA: 0xF18BE0 Offset: 0xF171E0 VA: 0x180F18BE0
+	|-RVA: 0xF18AE0 Offset: 0xF170E0 VA: 0x180F18AE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, long>>
 	|
-	|-RVA: 0xF1AE20 Offset: 0xF19420 VA: 0x180F1AE20
+	|-RVA: 0xF1AD20 Offset: 0xF19320 VA: 0x180F1AD20
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, object>>
 	|
-	|-RVA: 0xF1A910 Offset: 0xF18F10 VA: 0x180F1A910
+	|-RVA: 0xF1A810 Offset: 0xF18E10 VA: 0x180F1A810
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, float>>
 	|
-	|-RVA: 0xF153C0 Offset: 0xF139C0 VA: 0x180F153C0
+	|-RVA: 0xF152C0 Offset: 0xF138C0 VA: 0x180F152C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, ushort>>
 	|
-	|-RVA: 0xF1C880 Offset: 0xF1AE80 VA: 0x180F1C880
+	|-RVA: 0xF1C780 Offset: 0xF1AD80 VA: 0x180F1C780
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, uint>>
 	|
-	|-RVA: 0xF189A0 Offset: 0xF16FA0 VA: 0x180F189A0
+	|-RVA: 0xF188A0 Offset: 0xF16EA0 VA: 0x180F188A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, ulong>>
 	|
-	|-RVA: 0xF155E0 Offset: 0xF13BE0 VA: 0x180F155E0
+	|-RVA: 0xF154E0 Offset: 0xF13AE0 VA: 0x180F154E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<int, ViewModelDrawEvent>>
 	|
-	|-RVA: 0xF18480 Offset: 0xF16A80 VA: 0x180F18480
+	|-RVA: 0xF18380 Offset: 0xF16980 VA: 0x180F18380
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Int32Enum, object>>
 	|
-	|-RVA: 0xF15F80 Offset: 0xF14580 VA: 0x180F15F80
+	|-RVA: 0xF15E80 Offset: 0xF14480 VA: 0x180F15E80
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Int32Enum, float>>
 	|
-	|-RVA: 0xF19BF0 Offset: 0xF181F0 VA: 0x180F19BF0
+	|-RVA: 0xF19AF0 Offset: 0xF180F0 VA: 0x180F19AF0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, bool>>
 	|
-	|-RVA: 0xF17140 Offset: 0xF15740 VA: 0x180F17140
+	|-RVA: 0xF17040 Offset: 0xF15640 VA: 0x180F17040
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, Decimal>>
 	|
-	|-RVA: 0xF15C90 Offset: 0xF14290 VA: 0x180F15C90
+	|-RVA: 0xF15B90 Offset: 0xF14190 VA: 0x180F15B90
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, double>>
 	|
-	|-RVA: 0xF1C7C0 Offset: 0xF1ADC0 VA: 0x180F1C7C0
+	|-RVA: 0xF1C6C0 Offset: 0xF1ACC0 VA: 0x180F1C6C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, short>>
 	|
-	|-RVA: 0xF17A20 Offset: 0xF16020 VA: 0x180F17A20
+	|-RVA: 0xF17920 Offset: 0xF15F20 VA: 0x180F17920
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, int>>
 	|
-	|-RVA: 0xF1B330 Offset: 0xF19930 VA: 0x180F1B330
+	|-RVA: 0xF1B230 Offset: 0xF19830 VA: 0x180F1B230
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, long>>
 	|
-	|-RVA: 0xF150C0 Offset: 0xF136C0 VA: 0x180F150C0
+	|-RVA: 0xF14FC0 Offset: 0xF135C0 VA: 0x180F14FC0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, object>>
 	|
-	|-RVA: 0xF17720 Offset: 0xF15D20 VA: 0x180F17720
+	|-RVA: 0xF17620 Offset: 0xF15C20 VA: 0x180F17620
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, float>>
 	|
-	|-RVA: 0xF15B10 Offset: 0xF14110 VA: 0x180F15B10
+	|-RVA: 0xF15A10 Offset: 0xF14010 VA: 0x180F15A10
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, ushort>>
 	|
-	|-RVA: 0xF19270 Offset: 0xF17870 VA: 0x180F19270
+	|-RVA: 0xF19170 Offset: 0xF17770 VA: 0x180F19170
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, uint>>
 	|
-	|-RVA: 0xF19CB0 Offset: 0xF182B0 VA: 0x180F19CB0
+	|-RVA: 0xF19BB0 Offset: 0xF181B0 VA: 0x180F19BB0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, ulong>>
 	|
-	|-RVA: 0xF19B30 Offset: 0xF18130 VA: 0x180F19B30
+	|-RVA: 0xF19A30 Offset: 0xF18030 VA: 0x180F19A30
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<IntPtr, object>>
 	|
-	|-RVA: 0xF19330 Offset: 0xF17930 VA: 0x180F19330
+	|-RVA: 0xF19230 Offset: 0xF17830 VA: 0x180F19230
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, CameraMan.CameraState>>
 	|
-	|-RVA: 0xF1C360 Offset: 0xF1A960 VA: 0x180F1C360
+	|-RVA: 0xF1C260 Offset: 0xF1A860 VA: 0x180F1C260
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, PlayerModelHair.RendererMaterials>>
 	|
-	|-RVA: 0xF1C700 Offset: 0xF1AD00 VA: 0x180F1C700
+	|-RVA: 0xF1C600 Offset: 0xF1AC00 VA: 0x180F1C600
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, InputActionSetHandle_t>>
 	|
-	|-RVA: 0xF1A330 Offset: 0xF18930 VA: 0x180F1A330
+	|-RVA: 0xF1A230 Offset: 0xF18830 VA: 0x180F1A230
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, InputAnalogActionHandle_t>>
 	|
-	|-RVA: 0xF18F80 Offset: 0xF17580 VA: 0x180F18F80
+	|-RVA: 0xF18E80 Offset: 0xF17480 VA: 0x180F18E80
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, InputDigitalActionHandle_t>>
 	|
-	|-RVA: 0xF1CFF0 Offset: 0xF1B5F0 VA: 0x180F1CFF0
+	|-RVA: 0xF1CEF0 Offset: 0xF1B4F0 VA: 0x180F1CEF0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, bool>>
 	|
-	|-RVA: 0xF15760 Offset: 0xF13D60 VA: 0x180F15760
+	|-RVA: 0xF15660 Offset: 0xF13C60 VA: 0x180F15660
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, byte>>
 	|
-	|-RVA: 0xF19780 Offset: 0xF17D80 VA: 0x180F19780
+	|-RVA: 0xF19680 Offset: 0xF17C80 VA: 0x180F19680
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, Decimal>>
 	|
-	|-RVA: 0xF16570 Offset: 0xF14B70 VA: 0x180F16570
+	|-RVA: 0xF16470 Offset: 0xF14A70 VA: 0x180F16470
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, double>>
 	|
-	|-RVA: 0xF1CB70 Offset: 0xF1B170 VA: 0x180F1CB70
+	|-RVA: 0xF1CA70 Offset: 0xF1B070 VA: 0x180F1CA70
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, short>>
 	|
-	|-RVA: 0xF169D0 Offset: 0xF14FD0 VA: 0x180F169D0
+	|-RVA: 0xF168D0 Offset: 0xF14ED0 VA: 0x180F168D0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, int>>
 	|
-	|-RVA: 0xF1CE70 Offset: 0xF1B470 VA: 0x180F1CE70
+	|-RVA: 0xF1CD70 Offset: 0xF1B370 VA: 0x180F1CD70
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, Int32Enum>>
 	|
-	|-RVA: 0xF15A50 Offset: 0xF14050 VA: 0x180F15A50
+	|-RVA: 0xF15950 Offset: 0xF13F50 VA: 0x180F15950
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, long>>
 	|
-	|-RVA: 0xF16030 Offset: 0xF14630 VA: 0x180F16030
+	|-RVA: 0xF15F30 Offset: 0xF14530 VA: 0x180F15F30
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, object>>
 	|
-	|-RVA: 0xF164B0 Offset: 0xF14AB0 VA: 0x180F164B0
+	|-RVA: 0xF163B0 Offset: 0xF149B0 VA: 0x180F163B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, ResourceLocator>>
 	|
-	|-RVA: 0xF19E30 Offset: 0xF18430 VA: 0x180F19E30
+	|-RVA: 0xF19D30 Offset: 0xF18330 VA: 0x180F19D30
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, float>>
 	|
-	|-RVA: 0xF160F0 Offset: 0xF146F0 VA: 0x180F160F0
+	|-RVA: 0xF15FF0 Offset: 0xF145F0 VA: 0x180F15FF0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, ushort>>
 	|
-	|-RVA: 0xF18300 Offset: 0xF16900 VA: 0x180F18300
+	|-RVA: 0xF18200 Offset: 0xF16800 VA: 0x180F18200
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, uint>>
 	|
-	|-RVA: 0xF19040 Offset: 0xF17640 VA: 0x180F19040
+	|-RVA: 0xF18F40 Offset: 0xF17540 VA: 0x180F18F40
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, ulong>>
 	|
-	|-RVA: 0xF15000 Offset: 0xF13600 VA: 0x180F15000
+	|-RVA: 0xF14F00 Offset: 0xF13500 VA: 0x180F14F00
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, ValueTuple<object, object>>>
 	|
-	|-RVA: 0xF1A1C0 Offset: 0xF187C0 VA: 0x180F1A1C0
+	|-RVA: 0xF1A0C0 Offset: 0xF186C0 VA: 0x180F1A0C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, Color>>
 	|
-	|-RVA: 0xF1C420 Offset: 0xF1AA20 VA: 0x180F1C420
+	|-RVA: 0xF1C320 Offset: 0xF1A920 VA: 0x180F1C320
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<object, Vector3>>
 	|
-	|-RVA: 0xF1B280 Offset: 0xF19880 VA: 0x180F1B280
+	|-RVA: 0xF1B180 Offset: 0xF19780 VA: 0x180F1B180
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<float, bool>>
 	|
-	|-RVA: 0xF1A3F0 Offset: 0xF189F0 VA: 0x180F1A3F0
+	|-RVA: 0xF1A2F0 Offset: 0xF188F0 VA: 0x180F1A2F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<float, Decimal>>
 	|
-	|-RVA: 0xF16F00 Offset: 0xF15500 VA: 0x180F16F00
+	|-RVA: 0xF16E00 Offset: 0xF15400 VA: 0x180F16E00
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<float, double>>
 	|
-	|-RVA: 0xF1AD70 Offset: 0xF19370 VA: 0x180F1AD70
+	|-RVA: 0xF1AC70 Offset: 0xF19270 VA: 0x180F1AC70
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<float, short>>
 	|
-	|-RVA: 0xF1AFA0 Offset: 0xF195A0 VA: 0x180F1AFA0
+	|-RVA: 0xF1AEA0 Offset: 0xF194A0 VA: 0x180F1AEA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<float, int>>
 	|
-	|-RVA: 0xF1CDB0 Offset: 0xF1B3B0 VA: 0x180F1CDB0
+	|-RVA: 0xF1CCB0 Offset: 0xF1B2B0 VA: 0x180F1CCB0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<float, long>>
 	|
-	|-RVA: 0xF186B0 Offset: 0xF16CB0 VA: 0x180F186B0
+	|-RVA: 0xF185B0 Offset: 0xF16BB0 VA: 0x180F185B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<float, object>>
 	|
-	|-RVA: 0xF1C590 Offset: 0xF1AB90 VA: 0x180F1C590
+	|-RVA: 0xF1C490 Offset: 0xF1AA90 VA: 0x180F1C490
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<float, float>>
 	|
-	|-RVA: 0xF194B0 Offset: 0xF17AB0 VA: 0x180F194B0
+	|-RVA: 0xF193B0 Offset: 0xF179B0 VA: 0x180F193B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<float, ushort>>
 	|
-	|-RVA: 0xF191C0 Offset: 0xF177C0 VA: 0x180F191C0
+	|-RVA: 0xF190C0 Offset: 0xF176C0 VA: 0x180F190C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<float, uint>>
 	|
-	|-RVA: 0xF1D170 Offset: 0xF1B770 VA: 0x180F1D170
+	|-RVA: 0xF1D070 Offset: 0xF1B670 VA: 0x180F1D070
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<float, ulong>>
 	|
-	|-RVA: 0xF19610 Offset: 0xF17C10 VA: 0x180F19610
+	|-RVA: 0xF19510 Offset: 0xF17B10 VA: 0x180F19510
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ushort, bool>>
 	|
-	|-RVA: 0xF156A0 Offset: 0xF13CA0 VA: 0x180F156A0
+	|-RVA: 0xF155A0 Offset: 0xF13BA0 VA: 0x180F155A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ushort, Decimal>>
 	|
-	|-RVA: 0xF17AE0 Offset: 0xF160E0 VA: 0x180F17AE0
+	|-RVA: 0xF179E0 Offset: 0xF15FE0 VA: 0x180F179E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ushort, double>>
 	|
-	|-RVA: 0xF1BFD0 Offset: 0xF1A5D0 VA: 0x180F1BFD0
+	|-RVA: 0xF1BED0 Offset: 0xF1A4D0 VA: 0x180F1BED0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ushort, short>>
 	|
-	|-RVA: 0xF15ED0 Offset: 0xF144D0 VA: 0x180F15ED0
+	|-RVA: 0xF15DD0 Offset: 0xF143D0 VA: 0x180F15DD0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ushort, int>>
 	|
-	|-RVA: 0xF196C0 Offset: 0xF17CC0 VA: 0x180F196C0
+	|-RVA: 0xF195C0 Offset: 0xF17BC0 VA: 0x180F195C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ushort, long>>
 	|
-	|-RVA: 0xF18E00 Offset: 0xF17400 VA: 0x180F18E00
+	|-RVA: 0xF18D00 Offset: 0xF17300 VA: 0x180F18D00
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ushort, object>>
 	|
-	|-RVA: 0xF16630 Offset: 0xF14C30 VA: 0x180F16630
+	|-RVA: 0xF16530 Offset: 0xF14B30 VA: 0x180F16530
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ushort, float>>
 	|
-	|-RVA: 0xF188F0 Offset: 0xF16EF0 VA: 0x180F188F0
+	|-RVA: 0xF187F0 Offset: 0xF16DF0 VA: 0x180F187F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ushort, ushort>>
 	|
-	|-RVA: 0xF1A9C0 Offset: 0xF18FC0 VA: 0x180F1A9C0
+	|-RVA: 0xF1A8C0 Offset: 0xF18EC0 VA: 0x180F1A8C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ushort, uint>>
 	|
-	|-RVA: 0xF17E90 Offset: 0xF16490 VA: 0x180F17E90
+	|-RVA: 0xF17D90 Offset: 0xF16390 VA: 0x180F17D90
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ushort, ulong>>
 	|
-	|-RVA: 0xF172C0 Offset: 0xF158C0 VA: 0x180F172C0
+	|-RVA: 0xF171C0 Offset: 0xF157C0 VA: 0x180F171C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<uint, bool>>
 	|
-	|-RVA: 0xF19100 Offset: 0xF17700 VA: 0x180F19100
+	|-RVA: 0xF19000 Offset: 0xF17600 VA: 0x180F19000
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<uint, Decimal>>
 	|
-	|-RVA: 0xF1A850 Offset: 0xF18E50 VA: 0x180F1A850
+	|-RVA: 0xF1A750 Offset: 0xF18D50 VA: 0x180F1A750
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<uint, double>>
 	|
-	|-RVA: 0xF15530 Offset: 0xF13B30 VA: 0x180F15530
+	|-RVA: 0xF15430 Offset: 0xF13A30 VA: 0x180F15430
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<uint, short>>
 	|
-	|-RVA: 0xF1C080 Offset: 0xF1A680 VA: 0x180F1C080
+	|-RVA: 0xF1BF80 Offset: 0xF1A580 VA: 0x180F1BF80
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<uint, int>>
 	|
-	|-RVA: 0xF19840 Offset: 0xF17E40 VA: 0x180F19840
+	|-RVA: 0xF19740 Offset: 0xF17D40 VA: 0x180F19740
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<uint, long>>
 	|
-	|-RVA: 0xF17080 Offset: 0xF15680 VA: 0x180F17080
+	|-RVA: 0xF16F80 Offset: 0xF15580 VA: 0x180F16F80
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<uint, object>>
 	|
-	|-RVA: 0xF18540 Offset: 0xF16B40 VA: 0x180F18540
+	|-RVA: 0xF18440 Offset: 0xF16A40 VA: 0x180F18440
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<uint, float>>
 	|
-	|-RVA: 0xF16860 Offset: 0xF14E60 VA: 0x180F16860
+	|-RVA: 0xF16760 Offset: 0xF14D60 VA: 0x180F16760
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<uint, ushort>>
 	|
-	|-RVA: 0xF1A6E0 Offset: 0xF18CE0 VA: 0x180F1A6E0
+	|-RVA: 0xF1A5E0 Offset: 0xF18BE0 VA: 0x180F1A5E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<uint, uint>>
 	|
-	|-RVA: 0xF15820 Offset: 0xF13E20 VA: 0x180F15820
+	|-RVA: 0xF15720 Offset: 0xF13D20 VA: 0x180F15720
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<uint, ulong>>
 	|
-	|-RVA: 0xF193F0 Offset: 0xF179F0 VA: 0x180F193F0
+	|-RVA: 0xF192F0 Offset: 0xF178F0 VA: 0x180F192F0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, AvatarCache.Entry>>
 	|
-	|-RVA: 0xF1BF10 Offset: 0xF1A510 VA: 0x180F1BF10
+	|-RVA: 0xF1BE10 Offset: 0xF1A410 VA: 0x180F1BE10
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, Chat.MuteEntry>>
 	|
-	|-RVA: 0xF1B630 Offset: 0xF19C30 VA: 0x180F1B630
+	|-RVA: 0xF1B530 Offset: 0xF19B30 VA: 0x180F1B530
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, Dispatch.ResultCallback>>
 	|
-	|-RVA: 0xF16C10 Offset: 0xF15210 VA: 0x180F16C10
+	|-RVA: 0xF16B10 Offset: 0xF15110 VA: 0x180F16B10
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, bool>>
 	|
-	|-RVA: 0xF1B1C0 Offset: 0xF197C0 VA: 0x180F1B1C0
+	|-RVA: 0xF1B0C0 Offset: 0xF196C0 VA: 0x180F1B0C0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, Decimal>>
 	|
-	|-RVA: 0xF17D20 Offset: 0xF16320 VA: 0x180F17D20
+	|-RVA: 0xF17C20 Offset: 0xF16220 VA: 0x180F17C20
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, double>>
 	|
-	|-RVA: 0xF1CAB0 Offset: 0xF1B0B0 VA: 0x180F1CAB0
+	|-RVA: 0xF1C9B0 Offset: 0xF1AFB0 VA: 0x180F1C9B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, short>>
 	|
-	|-RVA: 0xF1BCE0 Offset: 0xF1A2E0 VA: 0x180F1BCE0
+	|-RVA: 0xF1BBE0 Offset: 0xF1A1E0 VA: 0x180F1BBE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, int>>
 	|
-	|-RVA: 0xF1BDA0 Offset: 0xF1A3A0 VA: 0x180F1BDA0
+	|-RVA: 0xF1BCA0 Offset: 0xF1A2A0 VA: 0x180F1BCA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, long>>
 	|
-	|-RVA: 0xF1ABF0 Offset: 0xF191F0 VA: 0x180F1ABF0
+	|-RVA: 0xF1AAF0 Offset: 0xF190F0 VA: 0x180F1AAF0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, object>>
 	|
-	|-RVA: 0xF1CF30 Offset: 0xF1B530 VA: 0x180F1CF30
+	|-RVA: 0xF1CE30 Offset: 0xF1B430 VA: 0x180F1CE30
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, float>>
 	|
-	|-RVA: 0xF1C130 Offset: 0xF1A730 VA: 0x180F1C130
+	|-RVA: 0xF1C030 Offset: 0xF1A630 VA: 0x180F1C030
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, ushort>>
 	|
-	|-RVA: 0xF1C640 Offset: 0xF1AC40 VA: 0x180F1C640
+	|-RVA: 0xF1C540 Offset: 0xF1AB40 VA: 0x180F1C540
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, uint>>
 	|
-	|-RVA: 0xF1B570 Offset: 0xF19B70 VA: 0x180F1B570
+	|-RVA: 0xF1B470 Offset: 0xF19A70 VA: 0x180F1B470
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, ulong>>
 	|
-	|-RVA: 0xF19D70 Offset: 0xF18370 VA: 0x180F19D70
+	|-RVA: 0xF19C70 Offset: 0xF18270 VA: 0x180F19C70
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ulong, TimeSince>>
 	|
-	|-RVA: 0xF1BB70 Offset: 0xF1A170 VA: 0x180F1BB70
+	|-RVA: 0xF1BA70 Offset: 0xF1A070 VA: 0x180F1BA70
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ValueTuple<Int32Enum, int>, object>>
 	|
-	|-RVA: 0xF16330 Offset: 0xF14930 VA: 0x180F16330
+	|-RVA: 0xF16230 Offset: 0xF14830 VA: 0x180F16230
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Color, object>>
 	|
-	|-RVA: 0xF15D50 Offset: 0xF14350 VA: 0x180F15D50
+	|-RVA: 0xF15C50 Offset: 0xF14250 VA: 0x180F15C50
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<TerrainUtility.TerrainMap.TileCoord, object>>
 	|
-	|-RVA: 0xF18830 Offset: 0xF16E30 VA: 0x180F18830
+	|-RVA: 0xF18730 Offset: 0xF16D30 VA: 0x180F18730
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<StyleSheetCache.SheetHandleKey, int>>
 	|
-	|-RVA: 0xF1ACB0 Offset: 0xF192B0 VA: 0x180F1ACB0
+	|-RVA: 0xF1ABB0 Offset: 0xF191B0 VA: 0x180F1ABB0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<StyleSheetCache.SheetHandleKey, object>>
 	|
-	|-RVA: 0xF18B20 Offset: 0xF17120 VA: 0x180F18B20
+	|-RVA: 0xF18A20 Offset: 0xF17020 VA: 0x180F18A20
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Vector2i, object>>
 	|
-	|-RVA: 0xF175A0 Offset: 0xF15BA0 VA: 0x180F175A0
+	|-RVA: 0xF174A0 Offset: 0xF15AA0 VA: 0x180F174A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<ViewModelDrawEvent, int>>
 	|
-	|-RVA: 0xF217E0 Offset: 0xF1FDE0 VA: 0x180F217E0
+	|-RVA: 0xF216E0 Offset: 0xF1FCE0 VA: 0x180F216E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Hashtable.bucket>
 	|
-	|-RVA: 0xF0AC60 Offset: 0xF09260 VA: 0x180F0AC60
+	|-RVA: 0xF0AB60 Offset: 0xF09160 VA: 0x180F0AB60
 	|-Array.InternalArray__IReadOnlyList_get_Item<AttributeCollection.AttributeEntry>
 	|
-	|-RVA: 0xF1F060 Offset: 0xF1D660 VA: 0x180F1F060
+	|-RVA: 0xF1EF60 Offset: 0xF1D560 VA: 0x180F1EF60
 	|-Array.InternalArray__IReadOnlyList_get_Item<SchemaInfo>
 	|
-	|-RVA: 0xF0B0A0 Offset: 0xF096A0 VA: 0x180F0B0A0
+	|-RVA: 0xF0AFA0 Offset: 0xF095A0 VA: 0x180F0AFA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<DataError.ColumnError>
 	|
-	|-RVA: 0xF1ECA0 Offset: 0xF1D2A0 VA: 0x180F1ECA0
+	|-RVA: 0xF1EBA0 Offset: 0xF1D1A0 VA: 0x180F1EBA0
 	|-Array.InternalArray__IReadOnlyList_get_Item<ExpressionParser.ReservedWords>
 	|
-	|-RVA: 0xF13FE0 Offset: 0xF125E0 VA: 0x180F13FE0
+	|-RVA: 0xF13EE0 Offset: 0xF124E0 VA: 0x180F13EE0
 	|-Array.InternalArray__IReadOnlyList_get_Item<IndexField>
 	|
-	|-RVA: 0xF1DDC0 Offset: 0xF1C3C0 VA: 0x180F1DDC0
+	|-RVA: 0xF1DCC0 Offset: 0xF1C2C0 VA: 0x180F1DCC0
 	|-Array.InternalArray__IReadOnlyList_get_Item<RBTree.Node<int>>
 	|
-	|-RVA: 0xF1DD00 Offset: 0xF1C300 VA: 0x180F1DD00
+	|-RVA: 0xF1DC00 Offset: 0xF1C200 VA: 0x180F1DC00
 	|-Array.InternalArray__IReadOnlyList_get_Item<RBTree.Node<object>>
 	|
-	|-RVA: 0xF20050 Offset: 0xF1E650 VA: 0x180F20050
+	|-RVA: 0xF1FF50 Offset: 0xF1E550 VA: 0x180F1FF50
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlBinary>
 	|
-	|-RVA: 0xF20100 Offset: 0xF1E700 VA: 0x180F20100
+	|-RVA: 0xF20000 Offset: 0xF1E600 VA: 0x180F20000
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlBoolean>
 	|
-	|-RVA: 0xF201B0 Offset: 0xF1E7B0 VA: 0x180F201B0
+	|-RVA: 0xF200B0 Offset: 0xF1E6B0 VA: 0x180F200B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlByte>
 	|
-	|-RVA: 0xF20260 Offset: 0xF1E860 VA: 0x180F20260
+	|-RVA: 0xF20160 Offset: 0xF1E760 VA: 0x180F20160
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlDateTime>
 	|
-	|-RVA: 0xF20320 Offset: 0xF1E920 VA: 0x180F20320
+	|-RVA: 0xF20220 Offset: 0xF1E820 VA: 0x180F20220
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlDecimal>
 	|
-	|-RVA: 0xF203E0 Offset: 0xF1E9E0 VA: 0x180F203E0
+	|-RVA: 0xF202E0 Offset: 0xF1E8E0 VA: 0x180F202E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlDouble>
 	|
-	|-RVA: 0xF204A0 Offset: 0xF1EAA0 VA: 0x180F204A0
+	|-RVA: 0xF203A0 Offset: 0xF1E9A0 VA: 0x180F203A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlGuid>
 	|
-	|-RVA: 0xF20550 Offset: 0xF1EB50 VA: 0x180F20550
+	|-RVA: 0xF20450 Offset: 0xF1EA50 VA: 0x180F20450
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlInt16>
 	|
-	|-RVA: 0xF20600 Offset: 0xF1EC00 VA: 0x180F20600
+	|-RVA: 0xF20500 Offset: 0xF1EB00 VA: 0x180F20500
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlInt32>
 	|
-	|-RVA: 0xF206B0 Offset: 0xF1ECB0 VA: 0x180F206B0
+	|-RVA: 0xF205B0 Offset: 0xF1EBB0 VA: 0x180F205B0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlInt64>
 	|
-	|-RVA: 0xF20770 Offset: 0xF1ED70 VA: 0x180F20770
+	|-RVA: 0xF20670 Offset: 0xF1EC70 VA: 0x180F20670
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlMoney>
 	|
-	|-RVA: 0xF20830 Offset: 0xF1EE30 VA: 0x180F20830
+	|-RVA: 0xF20730 Offset: 0xF1ED30 VA: 0x180F20730
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlSingle>
 	|
-	|-RVA: 0xF208E0 Offset: 0xF1EEE0 VA: 0x180F208E0
+	|-RVA: 0xF207E0 Offset: 0xF1EDE0 VA: 0x180F207E0
 	|-Array.InternalArray__IReadOnlyList_get_Item<SqlString>
 	|
-	|-RVA: 0xF0B530 Offset: 0xF09B30 VA: 0x180F0B530
+	|-RVA: 0xF0B430 Offset: 0xF09A30 VA: 0x180F0B430
 	|-Array.InternalArray__IReadOnlyList_get_Item<DateTime>
 	|
-	|-RVA: 0xF0B470 Offset: 0xF09A70 VA: 0x180F0B470
+	|-RVA: 0xF0B370 Offset: 0xF09970 VA: 0x180F0B370
 	|-Array.InternalArray__IReadOnlyList_get_Item<DateTimeOffset>
 	|
-	|-RVA: 0xF0B6A0 Offset: 0xF09CA0 VA: 0x180F0B6A0
+	|-RVA: 0xF0B5A0 Offset: 0xF09BA0 VA: 0x180F0B5A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<Decimal>
 	|
-	|-RVA: 0xF1F3A0 Offset: 0xF1D9A0 VA: 0x180F1F3A0
+	|-RVA: 0xF1F2A0 Offset: 0xF1D8A0 VA: 0x180F1F2A0
 	|-Array.InternalArray__IReadOnlyList_get_Item<EventProvider.SessionInfo>
 	|
-	|-RVA: 0xF13DB0 Offset: 0xF123B0 VA: 0x180F13DB0
+	|-RVA: 0xF13CB0 Offset: 0xF122B0 VA: 0x180F13CB0
 	|-Array.InternalArray__IReadOnlyList_get_Item<EventSource.EventMetadata>
 	|
-	|-RVA: 0xF0BB10 Offset: 0xF0A110 VA: 0x180F0BB10
+	|-RVA: 0xF0BA10 Offset: 0xF0A010 VA: 0x180F0BA10
 	|-Array.InternalArray__IReadOnlyList_get_Item<double>
 	|
-	|-RVA: 0xF14590 Offset: 0xF12B90 VA: 0x180F14590
+	|-RVA: 0xF14490 Offset: 0xF12A90 VA: 0x180F14490
 	|-Array.InternalArray__IReadOnlyList_get_Item<InternalCodePageDataItem>
 	|
 	|-RVA: 0xCAA640 Offset: 0xCA8C40 VA: 0x180CAA640
@@ -13885,331 +13885,331 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-RVA: 0x8E7FD0 Offset: 0x8E65D0 VA: 0x1808E7FD0
 	|-Array.InternalArray__Insert<TimeSpan>
 	|
-	|-RVA: 0xDB9000 Offset: 0xDB7600 VA: 0x180DB9000
+	|-RVA: 0xDB8F00 Offset: 0xDB7500 VA: 0x180DB8F00
 	|-Array.InternalArray__Insert<ushort>
 	|
-	|-RVA: 0xDB8FA0 Offset: 0xDB75A0 VA: 0x180DB8FA0
+	|-RVA: 0xDB8EA0 Offset: 0xDB74A0 VA: 0x180DB8EA0
 	|-Array.InternalArray__Insert<UInt16Enum>
 	|
-	|-RVA: 0xDB90C0 Offset: 0xDB76C0 VA: 0x180DB90C0
+	|-RVA: 0xDB8FC0 Offset: 0xDB75C0 VA: 0x180DB8FC0
 	|-Array.InternalArray__Insert<uint>
 	|
-	|-RVA: 0xDB9060 Offset: 0xDB7660 VA: 0x180DB9060
+	|-RVA: 0xDB8F60 Offset: 0xDB7560 VA: 0x180DB8F60
 	|-Array.InternalArray__Insert<UInt32Enum>
 	|
-	|-RVA: 0xDB9120 Offset: 0xDB7720 VA: 0x180DB9120
+	|-RVA: 0xDB9020 Offset: 0xDB7620 VA: 0x180DB9020
 	|-Array.InternalArray__Insert<ulong>
 	|
-	|-RVA: 0xDB9180 Offset: 0xDB7780 VA: 0x180DB9180
+	|-RVA: 0xDB9080 Offset: 0xDB7680 VA: 0x180DB9080
 	|-Array.InternalArray__Insert<UIntPtr>
 	|
-	|-RVA: 0xDB9240 Offset: 0xDB7840 VA: 0x180DB9240
+	|-RVA: 0xDB9140 Offset: 0xDB7740 VA: 0x180DB9140
 	|-Array.InternalArray__Insert<ValueTuple<Int32Enum, int>>
 	|
-	|-RVA: 0xDB92A0 Offset: 0xDB78A0 VA: 0x180DB92A0
+	|-RVA: 0xDB91A0 Offset: 0xDB77A0 VA: 0x180DB91A0
 	|-Array.InternalArray__Insert<ValueTuple<object, object>>
 	|
-	|-RVA: 0xDB75C0 Offset: 0xDB5BC0 VA: 0x180DB75C0
+	|-RVA: 0xDB74C0 Offset: 0xDB5AC0 VA: 0x180DB74C0
 	|-Array.InternalArray__Insert<XHashtable.XHashtableState.Entry<object>>
 	|
-	|-RVA: 0xDB7C20 Offset: 0xDB6220 VA: 0x180DB7C20
+	|-RVA: 0xDB7B20 Offset: 0xDB6120 VA: 0x180DB7B20
 	|-Array.InternalArray__Insert<FacetsChecker.FacetsCompiler.Map>
 	|
-	|-RVA: 0xDB82E0 Offset: 0xDB68E0 VA: 0x180DB82E0
+	|-RVA: 0xDB81E0 Offset: 0xDB67E0 VA: 0x180DB81E0
 	|-Array.InternalArray__Insert<RangePositionInfo>
 	|
-	|-RVA: 0xDB8760 Offset: 0xDB6D60 VA: 0x180DB8760
+	|-RVA: 0xDB8660 Offset: 0xDB6C60 VA: 0x180DB8660
 	|-Array.InternalArray__Insert<SequenceNode.SequenceConstructPosContext>
 	|
-	|-RVA: 0xDB96C0 Offset: 0xDB7CC0 VA: 0x180DB96C0
+	|-RVA: 0xDB95C0 Offset: 0xDB7BC0 VA: 0x180DB95C0
 	|-Array.InternalArray__Insert<XmlSchemaObjectTable.XmlSchemaObjectEntry>
 	|
-	|-RVA: 0xDB9660 Offset: 0xDB7C60 VA: 0x180DB9660
+	|-RVA: 0xDB9560 Offset: 0xDB7B60 VA: 0x180DB9560
 	|-Array.InternalArray__Insert<XmlEventCache.XmlEvent>
 	|
-	|-RVA: 0xDB7DA0 Offset: 0xDB63A0 VA: 0x180DB7DA0
+	|-RVA: 0xDB7CA0 Offset: 0xDB62A0 VA: 0x180DB7CA0
 	|-Array.InternalArray__Insert<XmlNamespaceManager.NamespaceDeclaration>
 	|
-	|-RVA: 0xDB95A0 Offset: 0xDB7BA0 VA: 0x180DB95A0
+	|-RVA: 0xDB94A0 Offset: 0xDB7AA0 VA: 0x180DB94A0
 	|-Array.InternalArray__Insert<XmlNodeReaderNavigator.VirtualAttribute>
 	|
-	|-RVA: 0xDB7020 Offset: 0xDB5620 VA: 0x180DB7020
+	|-RVA: 0xDB6F20 Offset: 0xDB5520 VA: 0x180DB6F20
 	|-Array.InternalArray__Insert<XmlSqlBinaryReader.AttrInfo>
 	|
-	|-RVA: 0xDB7500 Offset: 0xDB5B00 VA: 0x180DB7500
+	|-RVA: 0xDB7400 Offset: 0xDB5A00 VA: 0x180DB7400
 	|-Array.InternalArray__Insert<XmlSqlBinaryReader.ElemInfo>
 	|
-	|-RVA: 0xDB8220 Offset: 0xDB6820 VA: 0x180DB8220
+	|-RVA: 0xDB8120 Offset: 0xDB6720 VA: 0x180DB8120
 	|-Array.InternalArray__Insert<XmlSqlBinaryReader.QName>
 	|
-	|-RVA: 0xDB8040 Offset: 0xDB6640 VA: 0x180DB8040
+	|-RVA: 0xDB7F40 Offset: 0xDB6540 VA: 0x180DB7F40
 	|-Array.InternalArray__Insert<XmlTextReaderImpl.ParsingState>
 	|
-	|-RVA: 0xDB7E00 Offset: 0xDB6400 VA: 0x180DB7E00
+	|-RVA: 0xDB7D00 Offset: 0xDB6300 VA: 0x180DB7D00
 	|-Array.InternalArray__Insert<XmlTextWriter.Namespace>
 	|
-	|-RVA: 0xDB8BE0 Offset: 0xDB71E0 VA: 0x180DB8BE0
+	|-RVA: 0xDB8AE0 Offset: 0xDB70E0 VA: 0x180DB8AE0
 	|-Array.InternalArray__Insert<XmlTextWriter.TagInfo>
 	|
-	|-RVA: 0xDB7080 Offset: 0xDB5680 VA: 0x180DB7080
+	|-RVA: 0xDB6F80 Offset: 0xDB5580 VA: 0x180DB6F80
 	|-Array.InternalArray__Insert<XmlWellFormedWriter.AttrName>
 	|
-	|-RVA: 0xDB7560 Offset: 0xDB5B60 VA: 0x180DB7560
+	|-RVA: 0xDB7460 Offset: 0xDB5A60 VA: 0x180DB7460
 	|-Array.InternalArray__Insert<XmlWellFormedWriter.ElementScope>
 	|
-	|-RVA: 0xDB7E60 Offset: 0xDB6460 VA: 0x180DB7E60
+	|-RVA: 0xDB7D60 Offset: 0xDB6360 VA: 0x180DB7D60
 	|-Array.InternalArray__Insert<XmlWellFormedWriter.Namespace>
 	|
-	|-RVA: 0xDB7CE0 Offset: 0xDB62E0 VA: 0x180DB7CE0
+	|-RVA: 0xDB7BE0 Offset: 0xDB61E0 VA: 0x180DB7BE0
 	|-Array.InternalArray__Insert<MaterialReference>
 	|
-	|-RVA: 0xDB8640 Offset: 0xDB6C40 VA: 0x180DB8640
+	|-RVA: 0xDB8540 Offset: 0xDB6B40 VA: 0x180DB8540
 	|-Array.InternalArray__Insert<RichTextTagAttribute>
 	|
-	|-RVA: 0xDB8940 Offset: 0xDB6F40 VA: 0x180DB8940
+	|-RVA: 0xDB8840 Offset: 0xDB6E40 VA: 0x180DB8840
 	|-Array.InternalArray__Insert<TMP_CharacterInfo>
 	|
-	|-RVA: 0xDB89A0 Offset: 0xDB6FA0 VA: 0x180DB89A0
+	|-RVA: 0xDB88A0 Offset: 0xDB6EA0 VA: 0x180DB88A0
 	|-Array.InternalArray__Insert<TMP_FontWeightPair>
 	|
-	|-RVA: 0xDB8A00 Offset: 0xDB7000 VA: 0x180DB8A00
+	|-RVA: 0xDB8900 Offset: 0xDB6F00 VA: 0x180DB8900
 	|-Array.InternalArray__Insert<TMP_LineInfo>
 	|
-	|-RVA: 0xDB8A60 Offset: 0xDB7060 VA: 0x180DB8A60
+	|-RVA: 0xDB8960 Offset: 0xDB6F60 VA: 0x180DB8960
 	|-Array.InternalArray__Insert<TMP_LinkInfo>
 	|
-	|-RVA: 0xDB8AC0 Offset: 0xDB70C0 VA: 0x180DB8AC0
+	|-RVA: 0xDB89C0 Offset: 0xDB6FC0 VA: 0x180DB89C0
 	|-Array.InternalArray__Insert<TMP_MeshInfo>
 	|
-	|-RVA: 0xDB8B20 Offset: 0xDB7120 VA: 0x180DB8B20
+	|-RVA: 0xDB8A20 Offset: 0xDB7020 VA: 0x180DB8A20
 	|-Array.InternalArray__Insert<TMP_PageInfo>
 	|
-	|-RVA: 0xDB91E0 Offset: 0xDB77E0 VA: 0x180DB91E0
+	|-RVA: 0xDB90E0 Offset: 0xDB76E0 VA: 0x180DB90E0
 	|-Array.InternalArray__Insert<TMP_Text.UnicodeChar>
 	|
-	|-RVA: 0xDB8B80 Offset: 0xDB7180 VA: 0x180DB8B80
+	|-RVA: 0xDB8A80 Offset: 0xDB7080 VA: 0x180DB8A80
 	|-Array.InternalArray__Insert<TMP_WordInfo>
 	|
-	|-RVA: 0xDB86A0 Offset: 0xDB6CA0 VA: 0x180DB86A0
+	|-RVA: 0xDB85A0 Offset: 0xDB6BA0 VA: 0x180DB85A0
 	|-Array.InternalArray__Insert<TickInterpolator.Segment>
 	|
-	|-RVA: 0xDB8CA0 Offset: 0xDB72A0 VA: 0x180DB8CA0
+	|-RVA: 0xDB8BA0 Offset: 0xDB71A0 VA: 0x180DB8BA0
 	|-Array.InternalArray__Insert<TimeSince>
 	|
-	|-RVA: 0xDB8D60 Offset: 0xDB7360 VA: 0x180DB8D60
+	|-RVA: 0xDB8C60 Offset: 0xDB7260 VA: 0x180DB8C60
 	|-Array.InternalArray__Insert<TraceInfo>
 	|
-	|-RVA: 0xDB8DC0 Offset: 0xDB73C0 VA: 0x180DB8DC0
+	|-RVA: 0xDB8CC0 Offset: 0xDB72C0 VA: 0x180DB8CC0
 	|-Array.InternalArray__Insert<TrainCar.TrainCarSnapshot>
 	|
-	|-RVA: 0xDB76E0 Offset: 0xDB5CE0 VA: 0x180DB76E0
+	|-RVA: 0xDB75E0 Offset: 0xDB5BE0 VA: 0x180DB75E0
 	|-Array.InternalArray__Insert<TreeMarkerData.GenerationArc>
 	|
-	|-RVA: 0xDB7C80 Offset: 0xDB6280 VA: 0x180DB7C80
+	|-RVA: 0xDB7B80 Offset: 0xDB6180 VA: 0x180DB7B80
 	|-Array.InternalArray__Insert<TreeMarkerData.MarkerLocation>
 	|
-	|-RVA: 0xDB85E0 Offset: 0xDB6BE0 VA: 0x180DB85E0
+	|-RVA: 0xDB84E0 Offset: 0xDB6AE0 VA: 0x180DB84E0
 	|-Array.InternalArray__Insert<UIDeathScreen.RespawnColourScheme>
 	|
-	|-RVA: 0xDB79E0 Offset: 0xDB5FE0 VA: 0x180DB79E0
+	|-RVA: 0xDB78E0 Offset: 0xDB5EE0 VA: 0x180DB78E0
 	|-Array.InternalArray__Insert<JobHandle>
 	|
-	|-RVA: 0xDB9720 Offset: 0xDB7D20 VA: 0x180DB9720
+	|-RVA: 0xDB9620 Offset: 0xDB7C20 VA: 0x180DB9620
 	|-Array.InternalArray__Insert<float3>
 	|
-	|-RVA: 0xDB9780 Offset: 0xDB7D80 VA: 0x180DB9780
+	|-RVA: 0xDB9680 Offset: 0xDB7C80 VA: 0x180DB9680
 	|-Array.InternalArray__Insert<half2>
 	|
-	|-RVA: 0xDB7EC0 Offset: 0xDB64C0 VA: 0x180DB7EC0
+	|-RVA: 0xDB7DC0 Offset: 0xDB63C0 VA: 0x180DB7DC0
 	|-Array.InternalArray__Insert<NavMeshBuildMarkup>
 	|
-	|-RVA: 0xDB7F20 Offset: 0xDB6520 VA: 0x180DB7F20
+	|-RVA: 0xDB7E20 Offset: 0xDB6420 VA: 0x180DB7E20
 	|-Array.InternalArray__Insert<NavMeshBuildSource>
 	|
-	|-RVA: 0xDB6F60 Offset: 0xDB5560 VA: 0x180DB6F60
+	|-RVA: 0xDB6E60 Offset: 0xDB5460 VA: 0x180DB6E60
 	|-Array.InternalArray__Insert<AnimatorClipInfo>
 	|
-	|-RVA: 0xDB7FE0 Offset: 0xDB65E0 VA: 0x180DB7FE0
+	|-RVA: 0xDB7EE0 Offset: 0xDB64E0 VA: 0x180DB7EE0
 	|-Array.InternalArray__Insert<BeforeRenderHelper.OrderBlock>
 	|
-	|-RVA: 0xDB7140 Offset: 0xDB5740 VA: 0x180DB7140
+	|-RVA: 0xDB7040 Offset: 0xDB5640 VA: 0x180DB7040
 	|-Array.InternalArray__Insert<BoneWeight>
 	|
-	|-RVA: 0xDB71A0 Offset: 0xDB57A0 VA: 0x180DB71A0
+	|-RVA: 0xDB70A0 Offset: 0xDB56A0 VA: 0x180DB70A0
 	|-Array.InternalArray__Insert<BoundingSphere>
 	|
-	|-RVA: 0xDB7260 Offset: 0xDB5860 VA: 0x180DB7260
+	|-RVA: 0xDB7160 Offset: 0xDB5760 VA: 0x180DB7160
 	|-Array.InternalArray__Insert<Color32>
 	|
-	|-RVA: 0xDB7320 Offset: 0xDB5920 VA: 0x180DB7320
+	|-RVA: 0xDB7220 Offset: 0xDB5820 VA: 0x180DB7220
 	|-Array.InternalArray__Insert<Color>
 	|
-	|-RVA: 0xDB7380 Offset: 0xDB5980 VA: 0x180DB7380
+	|-RVA: 0xDB7280 Offset: 0xDB5880 VA: 0x180DB7280
 	|-Array.InternalArray__Insert<ContactPoint2D>
 	|
-	|-RVA: 0xDB73E0 Offset: 0xDB59E0 VA: 0x180DB73E0
+	|-RVA: 0xDB72E0 Offset: 0xDB58E0 VA: 0x180DB72E0
 	|-Array.InternalArray__Insert<ContactPoint>
 	|
-	|-RVA: 0xDB8460 Offset: 0xDB6A60 VA: 0x180DB8460
+	|-RVA: 0xDB8360 Offset: 0xDB6960 VA: 0x180DB8360
 	|-Array.InternalArray__Insert<RaycastResult>
 	|
-	|-RVA: 0xDB7BC0 Offset: 0xDB61C0 VA: 0x180DB7BC0
+	|-RVA: 0xDB7AC0 Offset: 0xDB60C0 VA: 0x180DB7AC0
 	|-Array.InternalArray__Insert<LightDataGI>
 	|
-	|-RVA: 0xDB8C40 Offset: 0xDB7240 VA: 0x180DB8C40
+	|-RVA: 0xDB8B40 Offset: 0xDB7140 VA: 0x180DB8B40
 	|-Array.InternalArray__Insert<TerrainUtility.TerrainMap.TileCoord>
 	|
-	|-RVA: 0xDB7860 Offset: 0xDB5E60 VA: 0x180DB7860
+	|-RVA: 0xDB7760 Offset: 0xDB5D60 VA: 0x180DB7760
 	|-Array.InternalArray__Insert<GradientAlphaKey>
 	|
-	|-RVA: 0xDB78C0 Offset: 0xDB5EC0 VA: 0x180DB78C0
+	|-RVA: 0xDB77C0 Offset: 0xDB5DC0 VA: 0x180DB77C0
 	|-Array.InternalArray__Insert<GradientColorKey>
 	|
-	|-RVA: 0xDB7A40 Offset: 0xDB6040 VA: 0x180DB7A40
+	|-RVA: 0xDB7940 Offset: 0xDB5F40 VA: 0x180DB7940
 	|-Array.InternalArray__Insert<Keyframe>
 	|
-	|-RVA: 0xDB7AA0 Offset: 0xDB60A0 VA: 0x180DB7AA0
+	|-RVA: 0xDB79A0 Offset: 0xDB5FA0 VA: 0x180DB79A0
 	|-Array.InternalArray__Insert<LOD>
 	|
-	|-RVA: 0xDB8160 Offset: 0xDB6760 VA: 0x180DB8160
+	|-RVA: 0xDB8060 Offset: 0xDB6660 VA: 0x180DB8060
 	|-Array.InternalArray__Insert<PlayerLoopSystem>
 	|
-	|-RVA: 0xDB7D40 Offset: 0xDB6340 VA: 0x180DB7D40
+	|-RVA: 0xDB7C40 Offset: 0xDB6240 VA: 0x180DB7C40
 	|-Array.InternalArray__Insert<Matrix4x4>
 	|
-	|-RVA: 0xDB80A0 Offset: 0xDB66A0 VA: 0x180DB80A0
+	|-RVA: 0xDB7FA0 Offset: 0xDB65A0 VA: 0x180DB7FA0
 	|-Array.InternalArray__Insert<Plane>
 	|
-	|-RVA: 0xDB8100 Offset: 0xDB6700 VA: 0x180DB8100
+	|-RVA: 0xDB8000 Offset: 0xDB6600 VA: 0x180DB8000
 	|-Array.InternalArray__Insert<PlayableBinding>
 	|
-	|-RVA: 0xDB8280 Offset: 0xDB6880 VA: 0x180DB8280
+	|-RVA: 0xDB8180 Offset: 0xDB6780 VA: 0x180DB8180
 	|-Array.InternalArray__Insert<Quaternion>
 	|
-	|-RVA: 0xDB8340 Offset: 0xDB6940 VA: 0x180DB8340
+	|-RVA: 0xDB8240 Offset: 0xDB6840 VA: 0x180DB8240
 	|-Array.InternalArray__Insert<RaycastCommand>
 	|
-	|-RVA: 0xDB83A0 Offset: 0xDB69A0 VA: 0x180DB83A0
+	|-RVA: 0xDB82A0 Offset: 0xDB68A0 VA: 0x180DB82A0
 	|-Array.InternalArray__Insert<RaycastHit2D>
 	|
-	|-RVA: 0xDB8400 Offset: 0xDB6A00 VA: 0x180DB8400
+	|-RVA: 0xDB8300 Offset: 0xDB6900 VA: 0x180DB8300
 	|-Array.InternalArray__Insert<RaycastHit>
 	|
-	|-RVA: 0xDB84C0 Offset: 0xDB6AC0 VA: 0x180DB84C0
+	|-RVA: 0xDB83C0 Offset: 0xDB69C0 VA: 0x180DB83C0
 	|-Array.InternalArray__Insert<Rect>
 	|
-	|-RVA: 0xDB6FC0 Offset: 0xDB55C0 VA: 0x180DB6FC0
+	|-RVA: 0xDB6EC0 Offset: 0xDB54C0 VA: 0x180DB6EC0
 	|-Array.InternalArray__Insert<AsyncGPUReadbackRequest>
 	|
-	|-RVA: 0xDB70E0 Offset: 0xDB56E0 VA: 0x180DB70E0
+	|-RVA: 0xDB6FE0 Offset: 0xDB55E0 VA: 0x180DB6FE0
 	|-Array.InternalArray__Insert<BatchVisibility>
 	|
-	|-RVA: 0xDB7B60 Offset: 0xDB6160 VA: 0x180DB7B60
+	|-RVA: 0xDB7A60 Offset: 0xDB6060 VA: 0x180DB7A60
 	|-Array.InternalArray__Insert<BloomRenderer.Level>
 	|
-	|-RVA: 0xDB8520 Offset: 0xDB6B20 VA: 0x180DB8520
+	|-RVA: 0xDB8420 Offset: 0xDB6A20 VA: 0x180DB8420
 	|-Array.InternalArray__Insert<RenderTargetIdentifier>
 	|
-	|-RVA: 0xDB8820 Offset: 0xDB6E20 VA: 0x180DB8820
+	|-RVA: 0xDB8720 Offset: 0xDB6D20 VA: 0x180DB8720
 	|-Array.InternalArray__Insert<SphericalHarmonicsL2>
 	|
-	|-RVA: 0xDB94E0 Offset: 0xDB7AE0 VA: 0x180DB94E0
+	|-RVA: 0xDB93E0 Offset: 0xDB79E0 VA: 0x180DB93E0
 	|-Array.InternalArray__Insert<VertexAttributeDescriptor>
 	|
-	|-RVA: 0xDB8580 Offset: 0xDB6B80 VA: 0x180DB8580
+	|-RVA: 0xDB8480 Offset: 0xDB6A80 VA: 0x180DB8480
 	|-Array.InternalArray__Insert<Resolution>
 	|
-	|-RVA: 0xDB7920 Offset: 0xDB5F20 VA: 0x180DB7920
+	|-RVA: 0xDB7820 Offset: 0xDB5E20 VA: 0x180DB7820
 	|-Array.InternalArray__Insert<SendMouseEvents.HitInfo>
 	|
-	|-RVA: 0xDB7800 Offset: 0xDB5E00 VA: 0x180DB7800
+	|-RVA: 0xDB7700 Offset: 0xDB5D00 VA: 0x180DB7700
 	|-Array.InternalArray__Insert<GlyphRect>
 	|
-	|-RVA: 0xDB7740 Offset: 0xDB5D40 VA: 0x180DB7740
+	|-RVA: 0xDB7640 Offset: 0xDB5C40 VA: 0x180DB7640
 	|-Array.InternalArray__Insert<GlyphMarshallingStruct>
 	|
-	|-RVA: 0xDB77A0 Offset: 0xDB5DA0 VA: 0x180DB77A0
+	|-RVA: 0xDB76A0 Offset: 0xDB5CA0 VA: 0x180DB76A0
 	|-Array.InternalArray__Insert<GlyphPairAdjustmentRecord>
 	|
-	|-RVA: 0xDB8D00 Offset: 0xDB7300 VA: 0x180DB8D00
+	|-RVA: 0xDB8C00 Offset: 0xDB7200 VA: 0x180DB8C00
 	|-Array.InternalArray__Insert<Touch>
 	|
-	|-RVA: 0xDB8E20 Offset: 0xDB7420 VA: 0x180DB8E20
+	|-RVA: 0xDB8D20 Offset: 0xDB7320 VA: 0x180DB8D20
 	|-Array.InternalArray__Insert<TreeInstance>
 	|
-	|-RVA: 0xDB72C0 Offset: 0xDB58C0 VA: 0x180DB72C0
+	|-RVA: 0xDB71C0 Offset: 0xDB57C0 VA: 0x180DB71C0
 	|-Array.InternalArray__Insert<ColorBlock>
 	|
-	|-RVA: 0xDB7F80 Offset: 0xDB6580 VA: 0x180DB7F80
+	|-RVA: 0xDB7E80 Offset: 0xDB6480 VA: 0x180DB7E80
 	|-Array.InternalArray__Insert<Navigation>
 	|
-	|-RVA: 0xDB8880 Offset: 0xDB6E80 VA: 0x180DB8880
+	|-RVA: 0xDB8780 Offset: 0xDB6D80 VA: 0x180DB8780
 	|-Array.InternalArray__Insert<SpriteState>
 	|
-	|-RVA: 0xDB8E80 Offset: 0xDB7480 VA: 0x180DB8E80
+	|-RVA: 0xDB8D80 Offset: 0xDB7380 VA: 0x180DB8D80
 	|-Array.InternalArray__Insert<UICharInfo>
 	|
-	|-RVA: 0xDB74A0 Offset: 0xDB5AA0 VA: 0x180DB74A0
+	|-RVA: 0xDB73A0 Offset: 0xDB59A0 VA: 0x180DB73A0
 	|-Array.InternalArray__Insert<EventDispatcher.DispatchContext>
 	|
-	|-RVA: 0xDB7620 Offset: 0xDB5C20 VA: 0x180DB7620
+	|-RVA: 0xDB7520 Offset: 0xDB5B20 VA: 0x180DB7520
 	|-Array.InternalArray__Insert<EventDispatcher.EventRecord>
 	|
-	|-RVA: 0xDB7680 Offset: 0xDB5C80 VA: 0x180DB7680
+	|-RVA: 0xDB7580 Offset: 0xDB5B80 VA: 0x180DB7580
 	|-Array.InternalArray__Insert<FocusController.FocusedElement>
 	|
-	|-RVA: 0xDB87C0 Offset: 0xDB6DC0 VA: 0x180DB87C0
+	|-RVA: 0xDB86C0 Offset: 0xDB6CC0 VA: 0x180DB86C0
 	|-Array.InternalArray__Insert<StyleSheetCache.SheetHandleKey>
 	|
-	|-RVA: 0xDB88E0 Offset: 0xDB6EE0 VA: 0x180DB88E0
+	|-RVA: 0xDB87E0 Offset: 0xDB6DE0 VA: 0x180DB87E0
 	|-Array.InternalArray__Insert<StyleValue>
 	|
-	|-RVA: 0xDB8EE0 Offset: 0xDB74E0 VA: 0x180DB8EE0
+	|-RVA: 0xDB8DE0 Offset: 0xDB73E0 VA: 0x180DB8DE0
 	|-Array.InternalArray__Insert<UILineInfo>
 	|
-	|-RVA: 0xDB8F40 Offset: 0xDB7540 VA: 0x180DB8F40
+	|-RVA: 0xDB8E40 Offset: 0xDB7440 VA: 0x180DB8E40
 	|-Array.InternalArray__Insert<UIVertex>
 	|
-	|-RVA: 0xDB9600 Offset: 0xDB7C00 VA: 0x180DB9600
+	|-RVA: 0xDB9500 Offset: 0xDB7B00 VA: 0x180DB9500
 	|-Array.InternalArray__Insert<UnitySynchronizationContext.WorkRequest>
 	|
-	|-RVA: 0xDB9360 Offset: 0xDB7960 VA: 0x180DB9360
+	|-RVA: 0xDB9260 Offset: 0xDB7860 VA: 0x180DB9260
 	|-Array.InternalArray__Insert<Vector2>
 	|
-	|-RVA: 0xDB9300 Offset: 0xDB7900 VA: 0x180DB9300
+	|-RVA: 0xDB9200 Offset: 0xDB7800 VA: 0x180DB9200
 	|-Array.InternalArray__Insert<Vector2Int>
 	|
-	|-RVA: 0xDB9420 Offset: 0xDB7A20 VA: 0x180DB9420
+	|-RVA: 0xDB9320 Offset: 0xDB7920 VA: 0x180DB9320
 	|-Array.InternalArray__Insert<Vector3>
 	|
-	|-RVA: 0xDB9480 Offset: 0xDB7A80 VA: 0x180DB9480
+	|-RVA: 0xDB9380 Offset: 0xDB7980 VA: 0x180DB9380
 	|-Array.InternalArray__Insert<Vector4>
 	|
-	|-RVA: 0xDB8700 Offset: 0xDB6D00 VA: 0x180DB8700
+	|-RVA: 0xDB8600 Offset: 0xDB6C00 VA: 0x180DB8600
 	|-Array.InternalArray__Insert<SemanticMeaning>
 	|
-	|-RVA: 0xDB97E0 Offset: 0xDB7DE0 VA: 0x180DB97E0
+	|-RVA: 0xDB96E0 Offset: 0xDB7CE0 VA: 0x180DB96E0
 	|-Array.InternalArray__Insert<jvalue>
 	|
-	|-RVA: 0xDB93C0 Offset: 0xDB79C0 VA: 0x180DB93C0
+	|-RVA: 0xDB92C0 Offset: 0xDB78C0 VA: 0x180DB92C0
 	|-Array.InternalArray__Insert<Vector2i>
 	|
-	|-RVA: 0xDB9540 Offset: 0xDB7B40 VA: 0x180DB9540
+	|-RVA: 0xDB9440 Offset: 0xDB7A40 VA: 0x180DB9440
 	|-Array.InternalArray__Insert<ViewModelDrawEvent>
 	|
-	|-RVA: 0xDB7980 Offset: 0xDB5F80 VA: 0x180DB7980
+	|-RVA: 0xDB7880 Offset: 0xDB5E80 VA: 0x180DB7880
 	|-Array.InternalArray__Insert<WaterDynamics.InstanceData>
 	|
-	|-RVA: 0xDB81C0 Offset: 0xDB67C0 VA: 0x180DB81C0
+	|-RVA: 0xDB80C0 Offset: 0xDB66C0 VA: 0x180DB80C0
 	|-Array.InternalArray__Insert<WaterGerstner.PrecomputedWave>
 	|
-	|-RVA: 0xDB7200 Offset: 0xDB5800 VA: 0x180DB7200
+	|-RVA: 0xDB7100 Offset: 0xDB5700 VA: 0x180DB7100
 	|-Array.InternalArray__Insert<WaterSimulation.Butterfly>
 	|
-	|-RVA: 0xDB7440 Offset: 0xDB5A40 VA: 0x180DB7440
+	|-RVA: 0xDB7340 Offset: 0xDB5940 VA: 0x180DB7340
 	|-Array.InternalArray__Insert<WindZoneExManager.CurrentZoneEntry>
 	|
-	|-RVA: 0xDB7B00 Offset: 0xDB6100 VA: 0x180DB7B00
+	|-RVA: 0xDB7A00 Offset: 0xDB6000 VA: 0x180DB7A00
 	|-Array.InternalArray__Insert<WorldSplineData.LUTEntry.LUTPoint>
 	*/
 
@@ -14218,2128 +14218,2128 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	internal int InternalArray__IndexOf<T>(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x10FE9C0 Offset: 0x10FCFC0 VA: 0x1810FE9C0
+	|-RVA: 0x10FE8C0 Offset: 0x10FCEC0 VA: 0x1810FE8C0
 	|-Array.InternalArray__IndexOf<AdvancedChristmasLights.pointEntry>
 	|
-	|-RVA: 0x10FBD20 Offset: 0x10FA320 VA: 0x1810FBD20
+	|-RVA: 0x10FBC20 Offset: 0x10FA220 VA: 0x1810FBC20
 	|-Array.InternalArray__IndexOf<AlignedLineDrawer.LinePoint>
 	|
-	|-RVA: 0x10F84C0 Offset: 0x10F6AC0 VA: 0x1810F84C0
+	|-RVA: 0x10F83C0 Offset: 0x10F69C0 VA: 0x1810F83C0
 	|-Array.InternalArray__IndexOf<AtmosphereVolumeRenderer.CurrentVolumeEntry>
 	|
-	|-RVA: 0x10FA490 Offset: 0x10F8A90 VA: 0x1810FA490
+	|-RVA: 0x10FA390 Offset: 0x10F8990 VA: 0x1810FA390
 	|-Array.InternalArray__IndexOf<AvatarCache.Entry>
 	|
-	|-RVA: 0x10FDC40 Offset: 0x10FC240 VA: 0x1810FDC40
+	|-RVA: 0x10FDB40 Offset: 0x10FC140 VA: 0x1810FDB40
 	|-Array.InternalArray__IndexOf<BaseEntity.ServerFileRequest>
 	|
-	|-RVA: 0x10F7140 Offset: 0x10F5740 VA: 0x1810F7140
+	|-RVA: 0x10F7040 Offset: 0x10F5640 VA: 0x1810F7040
 	|-Array.InternalArray__IndexOf<CameraMan.CameraState>
 	|
-	|-RVA: 0x10FBB20 Offset: 0x10FA120 VA: 0x1810FBB20
+	|-RVA: 0x10FBA20 Offset: 0x10FA020 VA: 0x1810FBA20
 	|-Array.InternalArray__IndexOf<CardTableUI.KeycodeWithAction>
 	|
-	|-RVA: 0x10FBF20 Offset: 0x10FA520 VA: 0x1810FBF20
+	|-RVA: 0x10FBE20 Offset: 0x10FA420 VA: 0x1810FBE20
 	|-Array.InternalArray__IndexOf<Cassette.LoadRequest>
 	|
-	|-RVA: 0x10F7D20 Offset: 0x10F6320 VA: 0x1810F7D20
+	|-RVA: 0x10F7C20 Offset: 0x10F6220 VA: 0x1810F7C20
 	|-Array.InternalArray__IndexOf<CommandBufferManager.CommandBufferEntry>
 	|
-	|-RVA: 0x10FD1D0 Offset: 0x10FB7D0 VA: 0x1810FD1D0
+	|-RVA: 0x10FD0D0 Offset: 0x10FB6D0 VA: 0x1810FD0D0
 	|-Array.InternalArray__IndexOf<Admin.PlayerInfo>
 	|
-	|-RVA: 0x10FDA40 Offset: 0x10FC040 VA: 0x1810FDA40
+	|-RVA: 0x10FD940 Offset: 0x10FBF40 VA: 0x1810FD940
 	|-Array.InternalArray__IndexOf<Admin.ServerConvarInfo>
 	|
-	|-RVA: 0x10FDDC0 Offset: 0x10FC3C0 VA: 0x1810FDDC0
+	|-RVA: 0x10FDCC0 Offset: 0x10FC2C0 VA: 0x1810FDCC0
 	|-Array.InternalArray__IndexOf<Admin.ServerUGCInfo>
 	|
-	|-RVA: 0x10FC760 Offset: 0x10FAD60 VA: 0x1810FC760
+	|-RVA: 0x10FC660 Offset: 0x10FAC60 VA: 0x1810FC660
 	|-Array.InternalArray__IndexOf<Chat.MuteEntry>
 	|
-	|-RVA: 0x10F9CC0 Offset: 0x10F82C0 VA: 0x1810F9CC0
+	|-RVA: 0x10F9BC0 Offset: 0x10F81C0 VA: 0x1810F9BC0
 	|-Array.InternalArray__IndexOf<Debugging.EntityInfo>
 	|
-	|-RVA: 0x10F86A0 Offset: 0x10F6CA0 VA: 0x1810F86A0
+	|-RVA: 0x10F85A0 Offset: 0x10F6BA0 VA: 0x1810F85A0
 	|-Array.InternalArray__IndexOf<DamageRenderer.DamageShowingRenderer>
 	|
-	|-RVA: 0x10FC120 Offset: 0x10FA720 VA: 0x1810FC120
+	|-RVA: 0x10FC020 Offset: 0x10FA620 VA: 0x1810FC020
 	|-Array.InternalArray__IndexOf<DeferredExtensionMesh.MaterialLink>
 	|
-	|-RVA: 0x10FC300 Offset: 0x10FA900 VA: 0x1810FC300
+	|-RVA: 0x10FC200 Offset: 0x10FA800 VA: 0x1810FC200
 	|-Array.InternalArray__IndexOf<DeferredMeshDecal.MaterialLink>
 	|
-	|-RVA: 0x10F8880 Offset: 0x10F6E80 VA: 0x1810F8880
+	|-RVA: 0x10F8780 Offset: 0x10F6D80 VA: 0x1810F8780
 	|-Array.InternalArray__IndexOf<Demos.DemoInfo>
 	|
-	|-RVA: 0x10F8A80 Offset: 0x10F7080 VA: 0x1810F8A80
+	|-RVA: 0x10F8980 Offset: 0x10F6F80 VA: 0x1810F8980
 	|-Array.InternalArray__IndexOf<DungeonGridConnectionHash>
 	|
-	|-RVA: 0x10F6F50 Offset: 0x10F5550 VA: 0x1810F6F50
+	|-RVA: 0x10F6E50 Offset: 0x10F5450 VA: 0x1810F6E50
 	|-Array.InternalArray__IndexOf<CRedge>
 	|
-	|-RVA: 0x10F7B40 Offset: 0x10F6140 VA: 0x1810F7B40
+	|-RVA: 0x10F7A40 Offset: 0x10F6040 VA: 0x1810F7A40
 	|-Array.InternalArray__IndexOf<CombineClass>
 	|
-	|-RVA: 0x10F8C40 Offset: 0x10F7240 VA: 0x1810F8C40
+	|-RVA: 0x10F8B40 Offset: 0x10F7140 VA: 0x1810F8B40
 	|-Array.InternalArray__IndexOf<ERCell>
 	|
-	|-RVA: 0x10F8E00 Offset: 0x10F7400 VA: 0x1810F8E00
+	|-RVA: 0x10F8D00 Offset: 0x10F7300 VA: 0x1810F8D00
 	|-Array.InternalArray__IndexOf<ERChildsSO>
 	|
-	|-RVA: 0x10F9000 Offset: 0x10F7600 VA: 0x1810F9000
+	|-RVA: 0x10F8F00 Offset: 0x10F7500 VA: 0x1810F8F00
 	|-Array.InternalArray__IndexOf<ERConnectionGUIStatus>
 	|
-	|-RVA: 0x10F91C0 Offset: 0x10F77C0 VA: 0x1810F91C0
+	|-RVA: 0x10F90C0 Offset: 0x10F76C0 VA: 0x1810F90C0
 	|-Array.InternalArray__IndexOf<ERLane>
 	|
-	|-RVA: 0x10FC4E0 Offset: 0x10FAAE0 VA: 0x1810FC4E0
+	|-RVA: 0x10FC3E0 Offset: 0x10FA9E0 VA: 0x1810FC3E0
 	|-Array.InternalArray__IndexOf<ERMeshCombineUtility.MeshInstance>
 	|
-	|-RVA: 0x10F93A0 Offset: 0x10F79A0 VA: 0x1810F93A0
+	|-RVA: 0x10F92A0 Offset: 0x10F78A0 VA: 0x1810F92A0
 	|-Array.InternalArray__IndexOf<ERSOSection>
 	|
-	|-RVA: 0x10F9650 Offset: 0x10F7C50 VA: 0x1810F9650
+	|-RVA: 0x10F9550 Offset: 0x10F7B50 VA: 0x1810F9550
 	|-Array.InternalArray__IndexOf<ERSplatmap>
 	|
-	|-RVA: 0x10F98B0 Offset: 0x10F7EB0 VA: 0x1810F98B0
+	|-RVA: 0x10F97B0 Offset: 0x10F7DB0 VA: 0x1810F97B0
 	|-Array.InternalArray__IndexOf<ERTerrainChange>
 	|
-	|-RVA: 0x10F9A70 Offset: 0x10F8070 VA: 0x1810F9A70
+	|-RVA: 0x10F9970 Offset: 0x10F7F70 VA: 0x1810F9970
 	|-Array.InternalArray__IndexOf<ERVSData>
 	|
-	|-RVA: 0x10FC960 Offset: 0x10FAF60 VA: 0x1810FC960
+	|-RVA: 0x10FC860 Offset: 0x10FAE60 VA: 0x1810FC860
 	|-Array.InternalArray__IndexOf<NormalPairs>
 	|
-	|-RVA: 0x10FD5F0 Offset: 0x10FBBF0 VA: 0x1810FD5F0
+	|-RVA: 0x10FD4F0 Offset: 0x10FBAF0 VA: 0x1810FD4F0
 	|-Array.InternalArray__IndexOf<EngineDamageOverTime.RecentDamage>
 	|
-	|-RVA: 0x10FA080 Offset: 0x10F8680 VA: 0x1810FA080
+	|-RVA: 0x10F9F80 Offset: 0x10F8580 VA: 0x1810F9F80
 	|-Array.InternalArray__IndexOf<EntityRef>
 	|
-	|-RVA: 0x10F9EA0 Offset: 0x10F84A0 VA: 0x1810F9EA0
+	|-RVA: 0x10F9DA0 Offset: 0x10F83A0 VA: 0x1810F9DA0
 	|-Array.InternalArray__IndexOf<EntityRef<object>>
 	|
-	|-RVA: 0x10FB000 Offset: 0x10F9600 VA: 0x1810FB000
+	|-RVA: 0x10FAF00 Offset: 0x10F9500 VA: 0x1810FAF00
 	|-Array.InternalArray__IndexOf<ExpandedLifeStats.GenericStatDisplay>
 	|
-	|-RVA: 0x10F7560 Offset: 0x10F5B60 VA: 0x1810F7560
+	|-RVA: 0x10F7460 Offset: 0x10F5A60 VA: 0x1810F7460
 	|-Array.InternalArray__IndexOf<BurstCloth.Chain>
 	|
-	|-RVA: 0x10F7340 Offset: 0x10F5940 VA: 0x1810F7340
+	|-RVA: 0x10F7240 Offset: 0x10F5840 VA: 0x1810F7240
 	|-Array.InternalArray__IndexOf<CapsuleParams>
 	|
-	|-RVA: 0x10F6880 Offset: 0x10F4E80 VA: 0x1810F6880
+	|-RVA: 0x10F6780 Offset: 0x10F4D80 VA: 0x1810F6780
 	|-Array.InternalArray__IndexOf<BoneData>
 	|
-	|-RVA: 0x10F6B10 Offset: 0x10F5110 VA: 0x1810F6B10
+	|-RVA: 0x10F6A10 Offset: 0x10F5010 VA: 0x1810F6A10
 	|-Array.InternalArray__IndexOf<BoneState>
 	|
-	|-RVA: 0x10F7720 Offset: 0x10F5D20 VA: 0x1810F7720
+	|-RVA: 0x10F7620 Offset: 0x10F5C20 VA: 0x1810F7620
 	|-Array.InternalArray__IndexOf<ColliderData>
 	|
-	|-RVA: 0x10F7940 Offset: 0x10F5F40 VA: 0x1810F7940
+	|-RVA: 0x10F7840 Offset: 0x10F5E40 VA: 0x1810F7840
 	|-Array.InternalArray__IndexOf<ColliderState>
 	|
-	|-RVA: 0x10FE5C0 Offset: 0x10FCBC0 VA: 0x1810FE5C0
+	|-RVA: 0x10FE4C0 Offset: 0x10FCAC0 VA: 0x1810FE4C0
 	|-Array.InternalArray__IndexOf<TabbedPanel.Tab>
 	|
-	|-RVA: 0x10FA670 Offset: 0x10F8C70 VA: 0x1810FA670
+	|-RVA: 0x10FA570 Offset: 0x10F8B70 VA: 0x1810FA570
 	|-Array.InternalArray__IndexOf<Output.Entry>
 	|
-	|-RVA: 0x10F66A0 Offset: 0x10F4CA0 VA: 0x1810F66A0
+	|-RVA: 0x10F65A0 Offset: 0x10F4BA0 VA: 0x1810F65A0
 	|-Array.InternalArray__IndexOf<RCon.BannedAddresses>
 	|
-	|-RVA: 0x10F7F00 Offset: 0x10F6500 VA: 0x1810F7F00
+	|-RVA: 0x10F7E00 Offset: 0x10F6400 VA: 0x1810F7E00
 	|-Array.InternalArray__IndexOf<RCon.Command>
 	|
-	|-RVA: 0x10F6D30 Offset: 0x10F5330 VA: 0x1810F6D30
+	|-RVA: 0x10F6C30 Offset: 0x10F5230 VA: 0x1810F6C30
 	|-Array.InternalArray__IndexOf<SkeletonDefinition.Bone>
 	|
-	|-RVA: 0x10FA260 Offset: 0x10F8860 VA: 0x1810FA260
+	|-RVA: 0x10FA160 Offset: 0x10F8760 VA: 0x1810FA160
 	|-Array.InternalArray__IndexOf<Tick.Entry>
 	|
-	|-RVA: 0x10FD7C0 Offset: 0x10FBDC0 VA: 0x1810FD7C0
+	|-RVA: 0x10FD6C0 Offset: 0x10FBCC0 VA: 0x1810FD6C0
 	|-Array.InternalArray__IndexOf<RenderInfo.RendererInstance>
 	|
-	|-RVA: 0x10F82E0 Offset: 0x10F68E0 VA: 0x1810F82E0
+	|-RVA: 0x10F81E0 Offset: 0x10F67E0 VA: 0x1810F81E0
 	|-Array.InternalArray__IndexOf<WeightedStringList.Container>
 	|
-	|-RVA: 0x10FA870 Offset: 0x10F8E70 VA: 0x1810FA870
+	|-RVA: 0x10FA770 Offset: 0x10F8D70 VA: 0x1810FA770
 	|-Array.InternalArray__IndexOf<FishingRodViewmodel.FishViewmodel>
 	|
-	|-RVA: 0x10F8120 Offset: 0x10F6720 VA: 0x1810F8120
+	|-RVA: 0x10F8020 Offset: 0x10F6620 VA: 0x1810F8020
 	|-Array.InternalArray__IndexOf<FloatConditions.Condition>
 	|
-	|-RVA: 0x10FABA0 Offset: 0x10F91A0 VA: 0x1810FABA0
+	|-RVA: 0x10FAAA0 Offset: 0x10F90A0 VA: 0x1810FAAA0
 	|-Array.InternalArray__IndexOf<FoliageGridMeshData.FoliageVertex>
 	|
-	|-RVA: 0x10FAA50 Offset: 0x10F9050 VA: 0x1810FAA50
+	|-RVA: 0x10FA950 Offset: 0x10F8F50 VA: 0x1810FA950
 	|-Array.InternalArray__IndexOf<FoliageKey>
 	|
-	|-RVA: 0x10FD410 Offset: 0x10FBA10 VA: 0x1810FD410
+	|-RVA: 0x10FD310 Offset: 0x10FB910 VA: 0x1810FD310
 	|-Array.InternalArray__IndexOf<GameManifest.PooledString>
 	|
-	|-RVA: 0x10FCD20 Offset: 0x10FB320 VA: 0x1810FCD20
+	|-RVA: 0x10FCC20 Offset: 0x10FB220 VA: 0x1810FCC20
 	|-Array.InternalArray__IndexOf<Option>
 	|
-	|-RVA: 0x10FE3E0 Offset: 0x10FC9E0 VA: 0x1810FE3E0
+	|-RVA: 0x10FE2E0 Offset: 0x10FC8E0 VA: 0x1810FE2E0
 	|-Array.InternalArray__IndexOf<GameStat.Stat>
 	|
-	|-RVA: 0x10FE7A0 Offset: 0x10FCDA0 VA: 0x1810FE7A0
+	|-RVA: 0x10FE6A0 Offset: 0x10FCCA0 VA: 0x1810FE6A0
 	|-Array.InternalArray__IndexOf<GameTip.Theme>
 	|
-	|-RVA: 0x10FB200 Offset: 0x10F9800 VA: 0x1810FB200
+	|-RVA: 0x10FB100 Offset: 0x10F9700 VA: 0x1810FB100
 	|-Array.InternalArray__IndexOf<Gibbable.GibMesh>
 	|
-	|-RVA: 0x10FCFA0 Offset: 0x10FB5A0 VA: 0x1810FCFA0
+	|-RVA: 0x10FCEA0 Offset: 0x10FB4A0 VA: 0x1810FCEA0
 	|-Array.InternalArray__IndexOf<Gibbable.OverrideMesh>
 	|
-	|-RVA: 0x10FAE00 Offset: 0x10F9400 VA: 0x1810FAE00
+	|-RVA: 0x10FAD00 Offset: 0x10F9300 VA: 0x1810FAD00
 	|-Array.InternalArray__IndexOf<GrowableGeneProperties.GeneWeight>
 	|
-	|-RVA: 0x10FB440 Offset: 0x10F9A40 VA: 0x1810FB440
+	|-RVA: 0x10FB340 Offset: 0x10F9940 VA: 0x1810FB340
 	|-Array.InternalArray__IndexOf<HairSetCollection.HairSetEntry>
 	|
-	|-RVA: 0x10FDFE0 Offset: 0x10FC5E0 VA: 0x1810FDFE0
+	|-RVA: 0x10FDEE0 Offset: 0x10FC4E0 VA: 0x1810FDEE0
 	|-Array.InternalArray__IndexOf<IconSkinPicker.SkinButtonSetup>
 	|
-	|-RVA: 0x10FB640 Offset: 0x10F9C40 VA: 0x1810FB640
+	|-RVA: 0x10FB540 Offset: 0x10F9B40 VA: 0x1810FB540
 	|-Array.InternalArray__IndexOf<ImageStorageEntity.ImageRequest>
 	|
-	|-RVA: 0x10FB820 Offset: 0x10F9E20 VA: 0x1810FB820
+	|-RVA: 0x10FB720 Offset: 0x10F9D20 VA: 0x1810FB720
 	|-Array.InternalArray__IndexOf<InstancingKey>
 	|
-	|-RVA: 0x10FCB20 Offset: 0x10FB120 VA: 0x1810FCB20
+	|-RVA: 0x10FCA20 Offset: 0x10FB020 VA: 0x1810FCA20
 	|-Array.InternalArray__IndexOf<InstrumentKeyController.NoteBinding>
 	|
-	|-RVA: 0x10FB9A0 Offset: 0x10F9FA0 VA: 0x1810FB9A0
+	|-RVA: 0x10FB8A0 Offset: 0x10F9EA0 VA: 0x1810FB8A0
 	|-Array.InternalArray__IndexOf<InvokeAction>
 	|
-	|-RVA: 0x10FE1E0 Offset: 0x10FC7E0 VA: 0x1810FE1E0
+	|-RVA: 0x10FE0E0 Offset: 0x10FC6E0 VA: 0x1810FE0E0
 	|-Array.InternalArray__IndexOf<ItemSkinDirectory.Skin>
 	|
-	|-RVA: 0x1597740 Offset: 0x1595D40 VA: 0x181597740
+	|-RVA: 0x1597640 Offset: 0x1595C40 VA: 0x181597640
 	|-Array.InternalArray__IndexOf<Kayak.PlayerAnimationState>
 	|
-	|-RVA: 0x159C910 Offset: 0x159AF10 VA: 0x18159C910
+	|-RVA: 0x159C810 Offset: 0x159AE10 VA: 0x18159C810
 	|-Array.InternalArray__IndexOf<KeyframeView.UIKeyframeValue>
 	|
-	|-RVA: 0x157E9C0 Offset: 0x157CFC0 VA: 0x18157E9C0
+	|-RVA: 0x157E8C0 Offset: 0x157CEC0 VA: 0x18157E8C0
 	|-Array.InternalArray__IndexOf<LifeInfographic.DamageSetting>
 	|
-	|-RVA: 0x159BE30 Offset: 0x159A430 VA: 0x18159BE30
+	|-RVA: 0x159BD30 Offset: 0x159A330 VA: 0x18159BD30
 	|-Array.InternalArray__IndexOf<LocalClock.TimedEvent>
 	|
-	|-RVA: 0x1592BE0 Offset: 0x15911E0 VA: 0x181592BE0
+	|-RVA: 0x1592AE0 Offset: 0x15910E0 VA: 0x181592AE0
 	|-Array.InternalArray__IndexOf<LookAtIOEnt.HandleSet>
 	|
-	|-RVA: 0x15951A0 Offset: 0x15937A0 VA: 0x1815951A0
+	|-RVA: 0x15950A0 Offset: 0x15936A0 VA: 0x1815950A0
 	|-Array.InternalArray__IndexOf<LootContainer.LootSpawnSlot>
 	|
-	|-RVA: 0x15876A0 Offset: 0x1585CA0 VA: 0x1815876A0
+	|-RVA: 0x15875A0 Offset: 0x1585BA0 VA: 0x1815875A0
 	|-Array.InternalArray__IndexOf<LootSpawn.Entry>
 	|
-	|-RVA: 0x159D4E0 Offset: 0x159BAE0 VA: 0x18159D4E0
+	|-RVA: 0x159D3E0 Offset: 0x159B9E0 VA: 0x18159D3E0
 	|-Array.InternalArray__IndexOf<XPathNode>
 	|
-	|-RVA: 0x159D300 Offset: 0x159B900 VA: 0x18159D300
+	|-RVA: 0x159D200 Offset: 0x159B800 VA: 0x18159D200
 	|-Array.InternalArray__IndexOf<XPathNodeRef>
 	|
-	|-RVA: 0x1595380 Offset: 0x1593980 VA: 0x181595380
+	|-RVA: 0x1595280 Offset: 0x1593880 VA: 0x181595280
 	|-Array.InternalArray__IndexOf<MagnetCrane.MagnetCraneSnapshot>
 	|
-	|-RVA: 0x1595560 Offset: 0x1593B60 VA: 0x181595560
+	|-RVA: 0x1595460 Offset: 0x1593A60 VA: 0x181595460
 	|-Array.InternalArray__IndexOf<MapView.MapMarkerCluster>
 	|
-	|-RVA: 0x1599B30 Offset: 0x1598130 VA: 0x181599B30
+	|-RVA: 0x1599A30 Offset: 0x1598030 VA: 0x181599A30
 	|-Array.InternalArray__IndexOf<MapView.SleepingBagCluster>
 	|
-	|-RVA: 0x1595940 Offset: 0x1593F40 VA: 0x181595940
+	|-RVA: 0x1595840 Offset: 0x1593E40 VA: 0x181595840
 	|-Array.InternalArray__IndexOf<MaterialPropertyDesc>
 	|
-	|-RVA: 0x15928D0 Offset: 0x1590ED0 VA: 0x1815928D0
+	|-RVA: 0x15927D0 Offset: 0x1590DD0 VA: 0x1815927D0
 	|-Array.InternalArray__IndexOf<FourBitNumber>
 	|
-	|-RVA: 0x15999E0 Offset: 0x1597FE0 VA: 0x1815999E0
+	|-RVA: 0x15998E0 Offset: 0x1597EE0 VA: 0x1815998E0
 	|-Array.InternalArray__IndexOf<SevenBitNumber>
 	|
-	|-RVA: 0x1595B20 Offset: 0x1594120 VA: 0x181595B20
+	|-RVA: 0x1595A20 Offset: 0x1594020 VA: 0x181595A20
 	|-Array.InternalArray__IndexOf<MeshColliderInstance>
 	|
-	|-RVA: 0x1594F20 Offset: 0x1593520 VA: 0x181594F20
+	|-RVA: 0x1594E20 Offset: 0x1593420 VA: 0x181594E20
 	|-Array.InternalArray__IndexOf<MeshColliderLookup.LookupEntry>
 	|
-	|-RVA: 0x1595DE0 Offset: 0x15943E0 VA: 0x181595DE0
+	|-RVA: 0x1595CE0 Offset: 0x15942E0 VA: 0x181595CE0
 	|-Array.InternalArray__IndexOf<MeshInstance>
 	|
-	|-RVA: 0x1596010 Offset: 0x1594610 VA: 0x181596010
+	|-RVA: 0x1595F10 Offset: 0x1594510 VA: 0x181595F10
 	|-Array.InternalArray__IndexOf<MeshRendererInstance>
 	|
-	|-RVA: 0x1594D60 Offset: 0x1593360 VA: 0x181594D60
+	|-RVA: 0x1594C60 Offset: 0x1593260 VA: 0x181594C60
 	|-Array.InternalArray__IndexOf<MeshRendererLookup.LookupEntry>
 	|
-	|-RVA: 0x1594B60 Offset: 0x1593160 VA: 0x181594B60
+	|-RVA: 0x1594A60 Offset: 0x1593060 VA: 0x181594A60
 	|-Array.InternalArray__IndexOf<MidiConvar.KnobBinding>
 	|
-	|-RVA: 0x1596690 Offset: 0x1594C90 VA: 0x181596690
+	|-RVA: 0x1596590 Offset: 0x1594B90 VA: 0x181596590
 	|-Array.InternalArray__IndexOf<MidiConvar.NoteBinding>
 	|
-	|-RVA: 0x15990E0 Offset: 0x15976E0 VA: 0x1815990E0
+	|-RVA: 0x1598FE0 Offset: 0x15975E0 VA: 0x181598FE0
 	|-Array.InternalArray__IndexOf<SQLiteTypeNames>
 	|
-	|-RVA: 0x1594910 Offset: 0x1592F10 VA: 0x181594910
+	|-RVA: 0x1594810 Offset: 0x1592E10 VA: 0x181594810
 	|-Array.InternalArray__IndexOf<SqliteKeyReader.KeyInfo>
 	|
-	|-RVA: 0x159B830 Offset: 0x1599E30 VA: 0x18159B830
+	|-RVA: 0x159B730 Offset: 0x1599D30 VA: 0x18159B730
 	|-Array.InternalArray__IndexOf<CodePointIndexer.TableRange>
 	|
-	|-RVA: 0x159CD10 Offset: 0x159B310 VA: 0x18159CD10
+	|-RVA: 0x159CC10 Offset: 0x159B210 VA: 0x18159CC10
 	|-Array.InternalArray__IndexOf<Uri.UriScheme>
 	|
-	|-RVA: 0x1596AC0 Offset: 0x15950C0 VA: 0x181596AC0
+	|-RVA: 0x15969C0 Offset: 0x1594FC0 VA: 0x1815969C0
 	|-Array.InternalArray__IndexOf<NVidiaReflex.NvReflex_FrameReport>
 	|
-	|-RVA: 0x159BC30 Offset: 0x159A230 VA: 0x18159BC30
+	|-RVA: 0x159BB30 Offset: 0x159A130 VA: 0x18159BB30
 	|-Array.InternalArray__IndexOf<TimeAverageValueData>
 	|
-	|-RVA: 0x1594100 Offset: 0x1592700 VA: 0x181594100
+	|-RVA: 0x1594000 Offset: 0x1592600 VA: 0x181594000
 	|-Array.InternalArray__IndexOf<JsonPosition>
 	|
-	|-RVA: 0x159C7A0 Offset: 0x159ADA0 VA: 0x18159C7A0
+	|-RVA: 0x159C6A0 Offset: 0x159ACA0 VA: 0x18159C6A0
 	|-Array.InternalArray__IndexOf<DefaultSerializationBinder.TypeNameKey>
 	|
-	|-RVA: 0x1598BB0 Offset: 0x15971B0 VA: 0x181598BB0
+	|-RVA: 0x1598AB0 Offset: 0x15970B0 VA: 0x181598AB0
 	|-Array.InternalArray__IndexOf<ResolverContractKey>
 	|
-	|-RVA: 0x159C630 Offset: 0x159AC30 VA: 0x18159C630
+	|-RVA: 0x159C530 Offset: 0x159AB30 VA: 0x18159C530
 	|-Array.InternalArray__IndexOf<ConvertUtils.TypeConvertKey>
 	|
-	|-RVA: 0x1596890 Offset: 0x1594E90 VA: 0x181596890
+	|-RVA: 0x1596790 Offset: 0x1594D90 VA: 0x181596790
 	|-Array.InternalArray__IndexOf<NoteBindingCollection.NoteData>
 	|
-	|-RVA: 0x159B000 Offset: 0x1599600 VA: 0x18159B000
+	|-RVA: 0x159AF00 Offset: 0x1599500 VA: 0x18159AF00
 	|-Array.InternalArray__IndexOf<OccludeeState.State>
 	|
-	|-RVA: 0x1597130 Offset: 0x1595730 VA: 0x181597130
+	|-RVA: 0x1597030 Offset: 0x1595630 VA: 0x181597030
 	|-Array.InternalArray__IndexOf<ParticleSystemContainer.ParticleSystemGroup>
 	|
-	|-RVA: 0x1597CB0 Offset: 0x15962B0 VA: 0x181597CB0
+	|-RVA: 0x1597BB0 Offset: 0x15961B0 VA: 0x181597BB0
 	|-Array.InternalArray__IndexOf<PathFinder.Point>
 	|
-	|-RVA: 0x1597510 Offset: 0x1595B10 VA: 0x181597510
+	|-RVA: 0x1597410 Offset: 0x1595A10 VA: 0x181597410
 	|-Array.InternalArray__IndexOf<PetCommandList.PetCommandDesc>
 	|
-	|-RVA: 0x159A510 Offset: 0x1598B10 VA: 0x18159A510
+	|-RVA: 0x159A410 Offset: 0x1598A10 VA: 0x18159A410
 	|-Array.InternalArray__IndexOf<PlaceMonuments.SpawnInfo>
 	|
-	|-RVA: 0x159A980 Offset: 0x1598F80 VA: 0x18159A980
+	|-RVA: 0x159A880 Offset: 0x1598E80 VA: 0x18159A880
 	|-Array.InternalArray__IndexOf<PlaceMonumentsOffshore.SpawnInfo>
 	|
-	|-RVA: 0x159A750 Offset: 0x1598D50 VA: 0x18159A750
+	|-RVA: 0x159A650 Offset: 0x1598C50 VA: 0x18159A650
 	|-Array.InternalArray__IndexOf<PlaceMonumentsRailside.SpawnInfo>
 	|
-	|-RVA: 0x159ABB0 Offset: 0x15991B0 VA: 0x18159ABB0
+	|-RVA: 0x159AAB0 Offset: 0x15990B0 VA: 0x18159AAB0
 	|-Array.InternalArray__IndexOf<PlaceMonumentsRoadside.SpawnInfo>
 	|
-	|-RVA: 0x159ADE0 Offset: 0x15993E0 VA: 0x18159ADE0
+	|-RVA: 0x159ACE0 Offset: 0x15992E0 VA: 0x18159ACE0
 	|-Array.InternalArray__IndexOf<PlantProperties.Stage>
 	|
-	|-RVA: 0x1592FE0 Offset: 0x15915E0 VA: 0x181592FE0
+	|-RVA: 0x1592EE0 Offset: 0x15914E0 VA: 0x181592EE0
 	|-Array.InternalArray__IndexOf<PlayerItemRecipe.Ingredient>
 	|
-	|-RVA: 0x1597940 Offset: 0x1595F40 VA: 0x181597940
+	|-RVA: 0x1597840 Offset: 0x1595E40 VA: 0x181597840
 	|-Array.InternalArray__IndexOf<PlayerItemRecipe>
 	|
-	|-RVA: 0x1597AB0 Offset: 0x15960B0 VA: 0x181597AB0
+	|-RVA: 0x15979B0 Offset: 0x1595FB0 VA: 0x1815979B0
 	|-Array.InternalArray__IndexOf<PlayerModelCinematicList.PlayerModelCinematicAnimation>
 	|
-	|-RVA: 0x15989B0 Offset: 0x1596FB0 VA: 0x1815989B0
+	|-RVA: 0x15988B0 Offset: 0x1596EB0 VA: 0x1815988B0
 	|-Array.InternalArray__IndexOf<PlayerModelHair.RendererMaterials>
 	|
-	|-RVA: 0x15962C0 Offset: 0x15948C0 VA: 0x1815962C0
+	|-RVA: 0x15961C0 Offset: 0x15947C0 VA: 0x1815961C0
 	|-Array.InternalArray__IndexOf<ProjectileWeaponMod.Modifier>
 	|
-	|-RVA: 0x157EDA0 Offset: 0x157D3A0 VA: 0x18157EDA0
+	|-RVA: 0x157ECA0 Offset: 0x157D2A0 VA: 0x18157ECA0
 	|-Array.InternalArray__IndexOf<DemoShotFloatKeyframe>
 	|
-	|-RVA: 0x157EF70 Offset: 0x157D570 VA: 0x18157EF70
+	|-RVA: 0x157EE70 Offset: 0x157D470 VA: 0x18157EE70
 	|-Array.InternalArray__IndexOf<DemoShotParentKeyframe>
 	|
-	|-RVA: 0x157F150 Offset: 0x157D750 VA: 0x18157F150
+	|-RVA: 0x157F050 Offset: 0x157D650 VA: 0x18157F050
 	|-Array.InternalArray__IndexOf<DemoShotQuaternionKeyframe>
 	|
-	|-RVA: 0x157F350 Offset: 0x157D950 VA: 0x18157F350
+	|-RVA: 0x157F250 Offset: 0x157D850 VA: 0x18157F250
 	|-Array.InternalArray__IndexOf<DemoShotVectorKeyframe>
 	|
-	|-RVA: 0x159CF10 Offset: 0x159B510 VA: 0x18159CF10
+	|-RVA: 0x159CE10 Offset: 0x159B410 VA: 0x18159CE10
 	|-Array.InternalArray__IndexOf<VectorData>
 	|
-	|-RVA: 0x1597F50 Offset: 0x1596550 VA: 0x181597F50
+	|-RVA: 0x1597E50 Offset: 0x1596450 VA: 0x181597E50
 	|-Array.InternalArray__IndexOf<RandomItemDispenser.RandomItemChance>
 	|
-	|-RVA: 0x1598130 Offset: 0x1596730 VA: 0x181598130
+	|-RVA: 0x1598030 Offset: 0x1596630 VA: 0x181598030
 	|-Array.InternalArray__IndexOf<RealTimeSince>
 	|
-	|-RVA: 0x1598300 Offset: 0x1596900 VA: 0x181598300
+	|-RVA: 0x1598200 Offset: 0x1596800 VA: 0x181598200
 	|-Array.InternalArray__IndexOf<Recipe.RecipeIngredient>
 	|
-	|-RVA: 0x157E510 Offset: 0x157CB10 VA: 0x18157E510
+	|-RVA: 0x157E410 Offset: 0x157CA10 VA: 0x18157E410
 	|-Array.InternalArray__IndexOf<ReflectionProbeEx.CubemapFaceMatrices>
 	|
-	|-RVA: 0x157E7A0 Offset: 0x157CDA0 VA: 0x18157E7A0
+	|-RVA: 0x157E6A0 Offset: 0x157CCA0 VA: 0x18157E6A0
 	|-Array.InternalArray__IndexOf<ReflectionProbeEx.CubemapSkyboxVertex>
 	|
-	|-RVA: 0x1598660 Offset: 0x1596C60 VA: 0x181598660
+	|-RVA: 0x1598560 Offset: 0x1596B60 VA: 0x181598560
 	|-Array.InternalArray__IndexOf<ReflectionProbeEx.RenderListEntry>
 	|
-	|-RVA: 0x1598840 Offset: 0x1596E40 VA: 0x181598840
+	|-RVA: 0x1598740 Offset: 0x1596D40 VA: 0x181598740
 	|-Array.InternalArray__IndexOf<RendererKey>
 	|
-	|-RVA: 0x159D100 Offset: 0x159B700 VA: 0x18159D100
+	|-RVA: 0x159D000 Offset: 0x159B600 VA: 0x18159D000
 	|-Array.InternalArray__IndexOf<WaypointSet.Waypoint>
 	|
-	|-RVA: 0x159C430 Offset: 0x159AA30 VA: 0x18159C430
+	|-RVA: 0x159C330 Offset: 0x159A930 VA: 0x18159C330
 	|-Array.InternalArray__IndexOf<TransformSnapshot>
 	|
-	|-RVA: 0x159C230 Offset: 0x159A830 VA: 0x18159C230
+	|-RVA: 0x159C130 Offset: 0x159A730 VA: 0x18159C130
 	|-Array.InternalArray__IndexOf<TimelineEvent>
 	|
-	|-RVA: 0x1596D30 Offset: 0x1595330 VA: 0x181596D30
+	|-RVA: 0x1596C30 Offset: 0x1595230 VA: 0x181596C30
 	|-Array.InternalArray__IndexOf<Option>
 	|
-	|-RVA: 0x159BA30 Offset: 0x159A030 VA: 0x18159BA30
+	|-RVA: 0x159B930 Offset: 0x1599F30 VA: 0x18159B930
 	|-Array.InternalArray__IndexOf<TickRenderer.Tick>
 	|
-	|-RVA: 0x1598F00 Offset: 0x1597500 VA: 0x181598F00
+	|-RVA: 0x1598E00 Offset: 0x1597400 VA: 0x181598E00
 	|-Array.InternalArray__IndexOf<ServerBrowserList.Rules>
 	|
-	|-RVA: 0x1599800 Offset: 0x1597E00 VA: 0x181599800
+	|-RVA: 0x1599700 Offset: 0x1597D00 VA: 0x181599700
 	|-Array.InternalArray__IndexOf<ServerBrowserList.ServerKeyvalues>
 	|
-	|-RVA: 0x15992C0 Offset: 0x15978C0 VA: 0x1815992C0
+	|-RVA: 0x15991C0 Offset: 0x15977C0 VA: 0x1815991C0
 	|-Array.InternalArray__IndexOf<ServerInfo>
 	|
-	|-RVA: 0x1596F30 Offset: 0x1595530 VA: 0x181596F30
+	|-RVA: 0x1596E30 Offset: 0x1595430 VA: 0x181596E30
 	|-Array.InternalArray__IndexOf<SkinnedMultiMesh.Part>
 	|
-	|-RVA: 0x1592E00 Offset: 0x1591400 VA: 0x181592E00
+	|-RVA: 0x1592D00 Offset: 0x1591300 VA: 0x181592D00
 	|-Array.InternalArray__IndexOf<SlotMachinePayoutSettings.IndividualPayouts>
 	|
-	|-RVA: 0x1597310 Offset: 0x1595910 VA: 0x181597310
+	|-RVA: 0x1597210 Offset: 0x1595810 VA: 0x181597210
 	|-Array.InternalArray__IndexOf<SlotMachinePayoutSettings.PayoutInfo>
 	|
-	|-RVA: 0x159A110 Offset: 0x1598710 VA: 0x18159A110
+	|-RVA: 0x159A010 Offset: 0x1598610 VA: 0x18159A010
 	|-Array.InternalArray__IndexOf<SubmarineSonar.SonarBlip>
 	|
-	|-RVA: 0x159A310 Offset: 0x1598910 VA: 0x18159A310
+	|-RVA: 0x159A210 Offset: 0x1598810 VA: 0x18159A210
 	|-Array.InternalArray__IndexOf<SpawnIndividual>
 	|
-	|-RVA: 0x15984E0 Offset: 0x1596AE0 VA: 0x1815984E0
+	|-RVA: 0x15983E0 Offset: 0x15969E0 VA: 0x1815983E0
 	|-Array.InternalArray__IndexOf<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0x159B3E0 Offset: 0x15999E0 VA: 0x18159B3E0
+	|-RVA: 0x159B2E0 Offset: 0x15998E0 VA: 0x18159B2E0
 	|-Array.InternalArray__IndexOf<SteamNewsSource.Story>
 	|
-	|-RVA: 0x157D4C0 Offset: 0x157BAC0 VA: 0x18157D4C0
+	|-RVA: 0x157D3C0 Offset: 0x157B9C0 VA: 0x18157D3C0
 	|-Array.InternalArray__IndexOf<AppId>
 	|
-	|-RVA: 0x157D0E0 Offset: 0x157B6E0 VA: 0x18157D0E0
+	|-RVA: 0x157CFE0 Offset: 0x157B5E0 VA: 0x18157CFE0
 	|-Array.InternalArray__IndexOf<Achievement>
 	|
-	|-RVA: 0x157E3C0 Offset: 0x157C9C0 VA: 0x18157E3C0
+	|-RVA: 0x157E2C0 Offset: 0x157C8C0 VA: 0x18157E2C0
 	|-Array.InternalArray__IndexOf<Connection>
 	|
-	|-RVA: 0x157E1C0 Offset: 0x157C7C0 VA: 0x18157E1C0
+	|-RVA: 0x157E0C0 Offset: 0x157C6C0 VA: 0x18157E0C0
 	|-Array.InternalArray__IndexOf<ConnectionLaneStatus>
 	|
-	|-RVA: 0x1593330 Offset: 0x1591930 VA: 0x181593330
+	|-RVA: 0x1593230 Offset: 0x1591830 VA: 0x181593230
 	|-Array.InternalArray__IndexOf<InputActionSetHandle_t>
 	|
-	|-RVA: 0x1593480 Offset: 0x1591A80 VA: 0x181593480
+	|-RVA: 0x1593380 Offset: 0x1591980 VA: 0x181593380
 	|-Array.InternalArray__IndexOf<InputAnalogActionHandle_t>
 	|
-	|-RVA: 0x15935D0 Offset: 0x1591BD0 VA: 0x1815935D0
+	|-RVA: 0x15934D0 Offset: 0x1591AD0 VA: 0x1815934D0
 	|-Array.InternalArray__IndexOf<InputDigitalActionHandle_t>
 	|
-	|-RVA: 0x1593720 Offset: 0x1591D20 VA: 0x181593720
+	|-RVA: 0x1593620 Offset: 0x1591C20 VA: 0x181593620
 	|-Array.InternalArray__IndexOf<InputHandle_t>
 	|
-	|-RVA: 0x1593870 Offset: 0x1591E70 VA: 0x181593870
+	|-RVA: 0x1593770 Offset: 0x1591D70 VA: 0x181593770
 	|-Array.InternalArray__IndexOf<InventoryDefId>
 	|
-	|-RVA: 0x15939C0 Offset: 0x1591FC0 VA: 0x1815939C0
+	|-RVA: 0x15938C0 Offset: 0x1591EC0 VA: 0x1815938C0
 	|-Array.InternalArray__IndexOf<InventoryItemId>
 	|
-	|-RVA: 0x1595760 Offset: 0x1593D60 VA: 0x181595760
+	|-RVA: 0x1595660 Offset: 0x1593C60 VA: 0x181595660
 	|-Array.InternalArray__IndexOf<MatchMakingKeyValuePair>
 	|
-	|-RVA: 0x15964B0 Offset: 0x1594AB0 VA: 0x1815964B0
+	|-RVA: 0x15963B0 Offset: 0x15949B0 VA: 0x1815963B0
 	|-Array.InternalArray__IndexOf<NetKeyValue>
 	|
-	|-RVA: 0x1597E00 Offset: 0x1596400 VA: 0x181597E00
+	|-RVA: 0x1597D00 Offset: 0x1596300 VA: 0x181597D00
 	|-Array.InternalArray__IndexOf<PublishedFileId>
 	|
-	|-RVA: 0x1599560 Offset: 0x1597B60 VA: 0x181599560
+	|-RVA: 0x1599460 Offset: 0x1597A60 VA: 0x181599460
 	|-Array.InternalArray__IndexOf<ServerInfo>
 	|
-	|-RVA: 0x159B200 Offset: 0x1599800 VA: 0x18159B200
+	|-RVA: 0x159B100 Offset: 0x1599700 VA: 0x18159B100
 	|-Array.InternalArray__IndexOf<SteamItemDetails_t>
 	|
-	|-RVA: 0x159CB10 Offset: 0x159B110 VA: 0x18159CB10
+	|-RVA: 0x159CA10 Offset: 0x159B010 VA: 0x18159CA10
 	|-Array.InternalArray__IndexOf<UgcAdditionalPreview>
 	|
-	|-RVA: 0x157DE90 Offset: 0x157C490 VA: 0x18157DE90
+	|-RVA: 0x157DD90 Offset: 0x157C390 VA: 0x18157DD90
 	|-Array.InternalArray__IndexOf<Dispatch.Callback>
 	|
-	|-RVA: 0x1598D20 Offset: 0x1597320 VA: 0x181598D20
+	|-RVA: 0x1598C20 Offset: 0x1597220 VA: 0x181598C20
 	|-Array.InternalArray__IndexOf<Dispatch.ResultCallback>
 	|
-	|-RVA: 0x1592A20 Offset: 0x1591020 VA: 0x181592A20
+	|-RVA: 0x1592920 Offset: 0x1590F20 VA: 0x181592920
 	|-Array.InternalArray__IndexOf<Friend>
 	|
-	|-RVA: 0x157D2A0 Offset: 0x157B8A0 VA: 0x18157D2A0
+	|-RVA: 0x157D1A0 Offset: 0x157B7A0 VA: 0x18157D1A0
 	|-Array.InternalArray__IndexOf<InventoryItem.Amount>
 	|
-	|-RVA: 0x1593B10 Offset: 0x1592110 VA: 0x181593B10
+	|-RVA: 0x1593A10 Offset: 0x1592010 VA: 0x181593A10
 	|-Array.InternalArray__IndexOf<InventoryItem>
 	|
-	|-RVA: 0x1593130 Offset: 0x1591730 VA: 0x181593130
+	|-RVA: 0x1593030 Offset: 0x1591630 VA: 0x181593030
 	|-Array.InternalArray__IndexOf<InventoryRecipe.Ingredient>
 	|
-	|-RVA: 0x1593C90 Offset: 0x1592290 VA: 0x181593C90
+	|-RVA: 0x1593B90 Offset: 0x1592190 VA: 0x181593B90
 	|-Array.InternalArray__IndexOf<InventoryRecipe>
 	|
-	|-RVA: 0x157EBC0 Offset: 0x157D1C0 VA: 0x18157EBC0
+	|-RVA: 0x157EAC0 Offset: 0x157D0C0 VA: 0x18157EAC0
 	|-Array.InternalArray__IndexOf<SteamNetworkingUtils.DebugMessage>
 	|
-	|-RVA: 0x1593E10 Offset: 0x1592410 VA: 0x181593E10
+	|-RVA: 0x1593D10 Offset: 0x1592310 VA: 0x181593D10
 	|-Array.InternalArray__IndexOf<Item>
 	|
-	|-RVA: 0x1594300 Offset: 0x1592900 VA: 0x181594300
+	|-RVA: 0x1594200 Offset: 0x1592800 VA: 0x181594200
 	|-Array.InternalArray__IndexOf<StringFormatCache.Key1>
 	|
-	|-RVA: 0x1594470 Offset: 0x1592A70 VA: 0x181594470
+	|-RVA: 0x1594370 Offset: 0x1592970 VA: 0x181594370
 	|-Array.InternalArray__IndexOf<StringFormatCache.Key2>
 	|
-	|-RVA: 0x15945F0 Offset: 0x1592BF0 VA: 0x1815945F0
+	|-RVA: 0x15944F0 Offset: 0x1592AF0 VA: 0x1815944F0
 	|-Array.InternalArray__IndexOf<StringFormatCache.Key3>
 	|
-	|-RVA: 0x1594770 Offset: 0x1592D70 VA: 0x181594770
+	|-RVA: 0x1594670 Offset: 0x1592C70 VA: 0x181594670
 	|-Array.InternalArray__IndexOf<StringFormatCache.Key4>
 	|
-	|-RVA: 0x159B600 Offset: 0x1599C00 VA: 0x18159B600
+	|-RVA: 0x159B500 Offset: 0x1599B00 VA: 0x18159B500
 	|-Array.InternalArray__IndexOf<SubsurfaceProfileTexture.SubsurfaceProfileEntry>
 	|
-	|-RVA: 0x159C030 Offset: 0x159A630 VA: 0x18159C030
+	|-RVA: 0x159BF30 Offset: 0x159A530 VA: 0x18159BF30
 	|-Array.InternalArray__IndexOf<SynchronizedClock.TimedEvent>
 	|
-	|-RVA: 0x157D850 Offset: 0x157BE50 VA: 0x18157D850
+	|-RVA: 0x157D750 Offset: 0x157BD50 VA: 0x18157D750
 	|-Array.InternalArray__IndexOf<ArraySegment<byte>>
 	|
-	|-RVA: 0x157D680 Offset: 0x157BC80 VA: 0x18157D680
+	|-RVA: 0x157D580 Offset: 0x157BB80 VA: 0x18157D580
 	|-Array.InternalArray__IndexOf<ArraySegment<object>>
 	|
-	|-RVA: 0x157DA20 Offset: 0x157C020 VA: 0x18157DA20
+	|-RVA: 0x157D920 Offset: 0x157BF20 VA: 0x18157D920
 	|-Array.InternalArray__IndexOf<bool>
 	|
-	|-RVA: 0x157DD30 Offset: 0x157C330 VA: 0x18157DD30
+	|-RVA: 0x157DC30 Offset: 0x157C230 VA: 0x18157DC30
 	|-Array.InternalArray__IndexOf<byte>
 	|
-	|-RVA: 0x157DB80 Offset: 0x157C180 VA: 0x18157DB80
+	|-RVA: 0x157DA80 Offset: 0x157C080 VA: 0x18157DA80
 	|-Array.InternalArray__IndexOf<ByteEnum>
 	|
-	|-RVA: 0x157E070 Offset: 0x157C670 VA: 0x18157E070
+	|-RVA: 0x157DF70 Offset: 0x157C570 VA: 0x18157DF70
 	|-Array.InternalArray__IndexOf<char>
 	|
-	|-RVA: 0x1599F10 Offset: 0x1598510 VA: 0x181599F10
+	|-RVA: 0x1599E10 Offset: 0x1598410 VA: 0x181599E10
 	|-Array.InternalArray__IndexOf<ConcurrentQueue.Segment.Slot<SteamNetworkingUtils.DebugMessage>>
 	|
-	|-RVA: 0x1599D30 Offset: 0x1598330 VA: 0x181599D30
+	|-RVA: 0x1599C30 Offset: 0x1598230 VA: 0x181599C30
 	|-Array.InternalArray__IndexOf<ConcurrentQueue.Segment.Slot<object>>
 	|
-	|-RVA: 0x157F530 Offset: 0x157DB30 VA: 0x18157F530
+	|-RVA: 0x157F430 Offset: 0x157DA30 VA: 0x18157F430
 	|-Array.InternalArray__IndexOf<DictionaryEntry>
 	|
-	|-RVA: 0x1583680 Offset: 0x1581C80 VA: 0x181583680
+	|-RVA: 0x1583580 Offset: 0x1581B80 VA: 0x181583580
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<FoliageKey, int>>
 	|
-	|-RVA: 0x158B230 Offset: 0x1589830 VA: 0x18158B230
+	|-RVA: 0x158B130 Offset: 0x1589730 VA: 0x18158B130
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<InstancingKey, int>>
 	|
-	|-RVA: 0x158FBF0 Offset: 0x158E1F0 VA: 0x18158FBF0
+	|-RVA: 0x158FAF0 Offset: 0x158E0F0 VA: 0x18158FAF0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<InvokeAction, int>>
 	|
-	|-RVA: 0x158C3D0 Offset: 0x158A9D0 VA: 0x18158C3D0
+	|-RVA: 0x158C2D0 Offset: 0x158A8D0 VA: 0x18158C2D0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<XPathNodeRef, XPathNodeRef>>
 	|
-	|-RVA: 0x158F1C0 Offset: 0x158D7C0 VA: 0x18158F1C0
+	|-RVA: 0x158F0C0 Offset: 0x158D6C0 VA: 0x18158F0C0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<DefaultSerializationBinder.TypeNameKey, object>>
 	|
-	|-RVA: 0x1590820 Offset: 0x158EE20 VA: 0x181590820
+	|-RVA: 0x1590720 Offset: 0x158ED20 VA: 0x181590720
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ResolverContractKey, object>>
 	|
-	|-RVA: 0x1580AE0 Offset: 0x157F0E0 VA: 0x181580AE0
+	|-RVA: 0x15809E0 Offset: 0x157EFE0 VA: 0x1815809E0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ConvertUtils.TypeConvertKey, object>>
 	|
-	|-RVA: 0x15918A0 Offset: 0x158FEA0 VA: 0x1815918A0
+	|-RVA: 0x15917A0 Offset: 0x158FDA0 VA: 0x1815917A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<RendererKey, int>>
 	|
-	|-RVA: 0x1583250 Offset: 0x1581850 VA: 0x181583250
+	|-RVA: 0x1583150 Offset: 0x1581750 VA: 0x181583150
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<SpecialPurposeCamera.RenderEntry, int>>
 	|
-	|-RVA: 0x15816A0 Offset: 0x157FCA0 VA: 0x1815816A0
+	|-RVA: 0x15815A0 Offset: 0x157FBA0 VA: 0x1815815A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<InventoryDefId, uint>>
 	|
-	|-RVA: 0x158B840 Offset: 0x1589E40 VA: 0x18158B840
+	|-RVA: 0x158B740 Offset: 0x1589D40 VA: 0x18158B740
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<StringFormatCache.Key1, object>>
 	|
-	|-RVA: 0x158D3F0 Offset: 0x158B9F0 VA: 0x18158D3F0
+	|-RVA: 0x158D2F0 Offset: 0x158B8F0 VA: 0x18158D2F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<StringFormatCache.Key2, object>>
 	|
-	|-RVA: 0x15926A0 Offset: 0x1590CA0 VA: 0x1815926A0
+	|-RVA: 0x15925A0 Offset: 0x1590BA0 VA: 0x1815925A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<StringFormatCache.Key3, object>>
 	|
-	|-RVA: 0x1589050 Offset: 0x1587650 VA: 0x181589050
+	|-RVA: 0x1588F50 Offset: 0x1587550 VA: 0x181588F50
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<StringFormatCache.Key4, object>>
 	|
-	|-RVA: 0x158E600 Offset: 0x158CC00 VA: 0x18158E600
+	|-RVA: 0x158E500 Offset: 0x158CB00 VA: 0x18158E500
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<bool, bool>>
 	|
-	|-RVA: 0x158CFF0 Offset: 0x158B5F0 VA: 0x18158CFF0
+	|-RVA: 0x158CEF0 Offset: 0x158B4F0 VA: 0x18158CEF0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<bool, Decimal>>
 	|
-	|-RVA: 0x158BFF0 Offset: 0x158A5F0 VA: 0x18158BFF0
+	|-RVA: 0x158BEF0 Offset: 0x158A4F0 VA: 0x18158BEF0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<bool, double>>
 	|
-	|-RVA: 0x1590040 Offset: 0x158E640 VA: 0x181590040
+	|-RVA: 0x158FF40 Offset: 0x158E540 VA: 0x18158FF40
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<bool, short>>
 	|
-	|-RVA: 0x1589C90 Offset: 0x1588290 VA: 0x181589C90
+	|-RVA: 0x1589B90 Offset: 0x1588190 VA: 0x181589B90
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<bool, int>>
 	|
-	|-RVA: 0x158E220 Offset: 0x158C820 VA: 0x18158E220
+	|-RVA: 0x158E120 Offset: 0x158C720 VA: 0x18158E120
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<bool, long>>
 	|
-	|-RVA: 0x15840A0 Offset: 0x15826A0 VA: 0x1815840A0
+	|-RVA: 0x1583FA0 Offset: 0x15825A0 VA: 0x181583FA0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<bool, object>>
 	|
-	|-RVA: 0x15894A0 Offset: 0x1587AA0 VA: 0x1815894A0
+	|-RVA: 0x15893A0 Offset: 0x15879A0 VA: 0x1815893A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<bool, float>>
 	|
-	|-RVA: 0x158EDD0 Offset: 0x158D3D0 VA: 0x18158EDD0
+	|-RVA: 0x158ECD0 Offset: 0x158D2D0 VA: 0x18158ECD0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<bool, ushort>>
 	|
-	|-RVA: 0x158C5F0 Offset: 0x158ABF0 VA: 0x18158C5F0
+	|-RVA: 0x158C4F0 Offset: 0x158AAF0 VA: 0x18158C4F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<bool, uint>>
 	|
-	|-RVA: 0x1585880 Offset: 0x1583E80 VA: 0x181585880
+	|-RVA: 0x1585780 Offset: 0x1583D80 VA: 0x181585780
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<bool, ulong>>
 	|
-	|-RVA: 0x15846A0 Offset: 0x1582CA0 VA: 0x1815846A0
+	|-RVA: 0x15845A0 Offset: 0x1582BA0 VA: 0x1815845A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<byte, object>>
 	|
-	|-RVA: 0x158DA30 Offset: 0x158C030 VA: 0x18158DA30
+	|-RVA: 0x158D930 Offset: 0x158BF30 VA: 0x18158D930
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ByteEnum, byte>>
 	|
-	|-RVA: 0x157F710 Offset: 0x157DD10 VA: 0x18157F710
+	|-RVA: 0x157F610 Offset: 0x157DC10 VA: 0x18157F610
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<KeyValuePair<object, object>, object>>
 	|
-	|-RVA: 0x1583880 Offset: 0x1581E80 VA: 0x181583880
+	|-RVA: 0x1583780 Offset: 0x1581D80 VA: 0x181583780
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Decimal, bool>>
 	|
-	|-RVA: 0x1589880 Offset: 0x1587E80 VA: 0x181589880
+	|-RVA: 0x1589780 Offset: 0x1587D80 VA: 0x181589780
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Decimal, Decimal>>
 	|
-	|-RVA: 0x15870C0 Offset: 0x15856C0 VA: 0x1815870C0
+	|-RVA: 0x1586FC0 Offset: 0x15855C0 VA: 0x181586FC0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Decimal, double>>
 	|
-	|-RVA: 0x158D810 Offset: 0x158BE10 VA: 0x18158D810
+	|-RVA: 0x158D710 Offset: 0x158BD10 VA: 0x18158D710
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Decimal, short>>
 	|
-	|-RVA: 0x158AA50 Offset: 0x1589050 VA: 0x18158AA50
+	|-RVA: 0x158A950 Offset: 0x1588F50 VA: 0x18158A950
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Decimal, int>>
 	|
-	|-RVA: 0x15854A0 Offset: 0x1583AA0 VA: 0x1815854A0
+	|-RVA: 0x15853A0 Offset: 0x15839A0 VA: 0x1815853A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Decimal, long>>
 	|
-	|-RVA: 0x158F3C0 Offset: 0x158D9C0 VA: 0x18158F3C0
+	|-RVA: 0x158F2C0 Offset: 0x158D8C0 VA: 0x18158F2C0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Decimal, object>>
 	|
-	|-RVA: 0x1583C80 Offset: 0x1582280 VA: 0x181583C80
+	|-RVA: 0x1583B80 Offset: 0x1582180 VA: 0x181583B80
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Decimal, float>>
 	|
-	|-RVA: 0x1588C30 Offset: 0x1587230 VA: 0x181588C30
+	|-RVA: 0x1588B30 Offset: 0x1587130 VA: 0x181588B30
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Decimal, ushort>>
 	|
-	|-RVA: 0x15802D0 Offset: 0x157E8D0 VA: 0x1815802D0
+	|-RVA: 0x15801D0 Offset: 0x157E7D0 VA: 0x1815801D0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Decimal, uint>>
 	|
-	|-RVA: 0x15808E0 Offset: 0x157EEE0 VA: 0x1815808E0
+	|-RVA: 0x15807E0 Offset: 0x157EDE0 VA: 0x1815807E0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Decimal, ulong>>
 	|
-	|-RVA: 0x158E020 Offset: 0x158C620 VA: 0x18158E020
+	|-RVA: 0x158DF20 Offset: 0x158C520 VA: 0x18158DF20
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<double, bool>>
 	|
-	|-RVA: 0x158E7F0 Offset: 0x158CDF0 VA: 0x18158E7F0
+	|-RVA: 0x158E6F0 Offset: 0x158CCF0 VA: 0x18158E6F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<double, Decimal>>
 	|
-	|-RVA: 0x15842A0 Offset: 0x15828A0 VA: 0x1815842A0
+	|-RVA: 0x15841A0 Offset: 0x15827A0 VA: 0x1815841A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<double, double>>
 	|
-	|-RVA: 0x15844A0 Offset: 0x1582AA0 VA: 0x1815844A0
+	|-RVA: 0x15843A0 Offset: 0x15829A0 VA: 0x1815843A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<double, short>>
 	|
-	|-RVA: 0x158C7D0 Offset: 0x158ADD0 VA: 0x18158C7D0
+	|-RVA: 0x158C6D0 Offset: 0x158ACD0 VA: 0x18158C6D0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<double, int>>
 	|
-	|-RVA: 0x158A290 Offset: 0x1588890 VA: 0x18158A290
+	|-RVA: 0x158A190 Offset: 0x1588790 VA: 0x18158A190
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<double, long>>
 	|
-	|-RVA: 0x1586EC0 Offset: 0x15854C0 VA: 0x181586EC0
+	|-RVA: 0x1586DC0 Offset: 0x15853C0 VA: 0x181586DC0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<double, object>>
 	|
-	|-RVA: 0x158C9D0 Offset: 0x158AFD0 VA: 0x18158C9D0
+	|-RVA: 0x158C8D0 Offset: 0x158AED0 VA: 0x18158C8D0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<double, float>>
 	|
-	|-RVA: 0x1584AA0 Offset: 0x15830A0 VA: 0x181584AA0
+	|-RVA: 0x15849A0 Offset: 0x1582FA0 VA: 0x1815849A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<double, ushort>>
 	|
-	|-RVA: 0x158EFC0 Offset: 0x158D5C0 VA: 0x18158EFC0
+	|-RVA: 0x158EEC0 Offset: 0x158D4C0 VA: 0x18158EEC0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<double, uint>>
 	|
-	|-RVA: 0x1588450 Offset: 0x1586A50 VA: 0x181588450
+	|-RVA: 0x1588350 Offset: 0x1586950 VA: 0x181588350
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<double, ulong>>
 	|
-	|-RVA: 0x15878A0 Offset: 0x1585EA0 VA: 0x1815878A0
+	|-RVA: 0x15877A0 Offset: 0x1585DA0 VA: 0x1815877A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Guid, object>>
 	|
-	|-RVA: 0x1589AA0 Offset: 0x15880A0 VA: 0x181589AA0
+	|-RVA: 0x15899A0 Offset: 0x1587FA0 VA: 0x1815899A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<short, bool>>
 	|
-	|-RVA: 0x1591EA0 Offset: 0x15904A0 VA: 0x181591EA0
+	|-RVA: 0x1591DA0 Offset: 0x15903A0 VA: 0x181591DA0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<short, Decimal>>
 	|
-	|-RVA: 0x1584CA0 Offset: 0x15832A0 VA: 0x181584CA0
+	|-RVA: 0x1584BA0 Offset: 0x15831A0 VA: 0x181584BA0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<short, double>>
 	|
-	|-RVA: 0x158BC20 Offset: 0x158A220 VA: 0x18158BC20
+	|-RVA: 0x158BB20 Offset: 0x158A120 VA: 0x18158BB20
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<short, short>>
 	|
-	|-RVA: 0x1581C60 Offset: 0x1580260 VA: 0x181581C60
+	|-RVA: 0x1581B60 Offset: 0x1580160 VA: 0x181581B60
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<short, int>>
 	|
-	|-RVA: 0x1589680 Offset: 0x1587C80 VA: 0x181589680
+	|-RVA: 0x1589580 Offset: 0x1587B80 VA: 0x181589580
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<short, long>>
 	|
-	|-RVA: 0x15868E0 Offset: 0x1584EE0 VA: 0x1815868E0
+	|-RVA: 0x15867E0 Offset: 0x1584DE0 VA: 0x1815867E0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<short, object>>
 	|
-	|-RVA: 0x158B050 Offset: 0x1589650 VA: 0x18158B050
+	|-RVA: 0x158AF50 Offset: 0x1589550 VA: 0x18158AF50
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<short, float>>
 	|
-	|-RVA: 0x1582060 Offset: 0x1580660 VA: 0x181582060
+	|-RVA: 0x1581F60 Offset: 0x1580560 VA: 0x181581F60
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<short, ushort>>
 	|
-	|-RVA: 0x1588270 Offset: 0x1586870 VA: 0x181588270
+	|-RVA: 0x1588170 Offset: 0x1586770 VA: 0x181588170
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<short, uint>>
 	|
-	|-RVA: 0x1590E50 Offset: 0x158F450 VA: 0x181590E50
+	|-RVA: 0x1590D50 Offset: 0x158F350 VA: 0x181590D50
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<short, ulong>>
 	|
-	|-RVA: 0x1591470 Offset: 0x158FA70 VA: 0x181591470
+	|-RVA: 0x1591370 Offset: 0x158F970 VA: 0x181591370
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, CommandBufferManager.CommandBufferEntry>>
 	|
-	|-RVA: 0x1591CA0 Offset: 0x15902A0 VA: 0x181591CA0
+	|-RVA: 0x1591BA0 Offset: 0x15901A0 VA: 0x181591BA0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, FoliageKey>>
 	|
-	|-RVA: 0x15864B0 Offset: 0x1584AB0 VA: 0x1815864B0
+	|-RVA: 0x15863B0 Offset: 0x15849B0 VA: 0x1815863B0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, InstancingKey>>
 	|
-	|-RVA: 0x1590A20 Offset: 0x158F020 VA: 0x181590A20
+	|-RVA: 0x1590920 Offset: 0x158EF20 VA: 0x181590920
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, InvokeAction>>
 	|
-	|-RVA: 0x15874A0 Offset: 0x1585AA0 VA: 0x1815874A0
+	|-RVA: 0x15873A0 Offset: 0x15859A0 VA: 0x1815873A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, RendererKey>>
 	|
-	|-RVA: 0x1586080 Offset: 0x1584680 VA: 0x181586080
+	|-RVA: 0x1585F80 Offset: 0x1584580 VA: 0x181585F80
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, SpecialPurposeCamera.RenderEntry>>
 	|
-	|-RVA: 0x158BA40 Offset: 0x158A040 VA: 0x18158BA40
+	|-RVA: 0x158B940 Offset: 0x1589F40 VA: 0x18158B940
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, bool>>
 	|
-	|-RVA: 0x15872C0 Offset: 0x15858C0 VA: 0x1815872C0
+	|-RVA: 0x15871C0 Offset: 0x15857C0 VA: 0x1815871C0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, char>>
 	|
-	|-RVA: 0x158A070 Offset: 0x1588670 VA: 0x18158A070
+	|-RVA: 0x1589F70 Offset: 0x1588570 VA: 0x181589F70
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, Decimal>>
 	|
-	|-RVA: 0x1582A70 Offset: 0x1581070 VA: 0x181582A70
+	|-RVA: 0x1582970 Offset: 0x1580F70 VA: 0x181582970
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, double>>
 	|
-	|-RVA: 0x15922C0 Offset: 0x15908C0 VA: 0x1815922C0
+	|-RVA: 0x15921C0 Offset: 0x15907C0 VA: 0x1815921C0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, short>>
 	|
-	|-RVA: 0x1583AA0 Offset: 0x15820A0 VA: 0x181583AA0
+	|-RVA: 0x15839A0 Offset: 0x1581FA0 VA: 0x1815839A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, int>>
 	|
-	|-RVA: 0x1582E70 Offset: 0x1581470 VA: 0x181582E70
+	|-RVA: 0x1582D70 Offset: 0x1581370 VA: 0x181582D70
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, Int32Enum>>
 	|
-	|-RVA: 0x1591050 Offset: 0x158F650 VA: 0x181591050
+	|-RVA: 0x1590F50 Offset: 0x158F550 VA: 0x181590F50
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, long>>
 	|
-	|-RVA: 0x1588E50 Offset: 0x1587450 VA: 0x181588E50
+	|-RVA: 0x1588D50 Offset: 0x1587350 VA: 0x181588D50
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, object>>
 	|
-	|-RVA: 0x15800F0 Offset: 0x157E6F0 VA: 0x1815800F0
+	|-RVA: 0x157FFF0 Offset: 0x157E5F0 VA: 0x18157FFF0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, float>>
 	|
-	|-RVA: 0x15814C0 Offset: 0x157FAC0 VA: 0x1815814C0
+	|-RVA: 0x15813C0 Offset: 0x157F9C0 VA: 0x1815813C0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, ushort>>
 	|
-	|-RVA: 0x158C1F0 Offset: 0x158A7F0 VA: 0x18158C1F0
+	|-RVA: 0x158C0F0 Offset: 0x158A6F0 VA: 0x18158C0F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, uint>>
 	|
-	|-RVA: 0x158D610 Offset: 0x158BC10 VA: 0x18158D610
+	|-RVA: 0x158D510 Offset: 0x158BB10 VA: 0x18158D510
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, ulong>>
 	|
-	|-RVA: 0x158F7A0 Offset: 0x158DDA0 VA: 0x18158F7A0
+	|-RVA: 0x158F6A0 Offset: 0x158DCA0 VA: 0x18158F6A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<int, ViewModelDrawEvent>>
 	|
-	|-RVA: 0x15852A0 Offset: 0x15838A0 VA: 0x1815852A0
+	|-RVA: 0x15851A0 Offset: 0x15837A0 VA: 0x1815851A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Int32Enum, object>>
 	|
-	|-RVA: 0x158D210 Offset: 0x158B810 VA: 0x18158D210
+	|-RVA: 0x158D110 Offset: 0x158B710 VA: 0x18158D110
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Int32Enum, float>>
 	|
-	|-RVA: 0x15892A0 Offset: 0x15878A0 VA: 0x1815892A0
+	|-RVA: 0x15891A0 Offset: 0x15877A0 VA: 0x1815891A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, bool>>
 	|
-	|-RVA: 0x15848A0 Offset: 0x1582EA0 VA: 0x1815848A0
+	|-RVA: 0x15847A0 Offset: 0x1582DA0 VA: 0x1815847A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, Decimal>>
 	|
-	|-RVA: 0x1588070 Offset: 0x1586670 VA: 0x181588070
+	|-RVA: 0x1587F70 Offset: 0x1586570 VA: 0x181587F70
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, double>>
 	|
-	|-RVA: 0x1581880 Offset: 0x157FE80 VA: 0x181581880
+	|-RVA: 0x1581780 Offset: 0x157FD80 VA: 0x181581780
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, short>>
 	|
-	|-RVA: 0x158DC20 Offset: 0x158C220 VA: 0x18158DC20
+	|-RVA: 0x158DB20 Offset: 0x158C120 VA: 0x18158DB20
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, int>>
 	|
-	|-RVA: 0x1590620 Offset: 0x158EC20 VA: 0x181590620
+	|-RVA: 0x1590520 Offset: 0x158EB20 VA: 0x181590520
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, long>>
 	|
-	|-RVA: 0x158E9F0 Offset: 0x158CFF0 VA: 0x18158E9F0
+	|-RVA: 0x158E8F0 Offset: 0x158CEF0 VA: 0x18158E8F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, object>>
 	|
-	|-RVA: 0x15866E0 Offset: 0x1584CE0 VA: 0x1815866E0
+	|-RVA: 0x15865E0 Offset: 0x1584BE0 VA: 0x1815865E0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, float>>
 	|
-	|-RVA: 0x158F9F0 Offset: 0x158DFF0 VA: 0x18158F9F0
+	|-RVA: 0x158F8F0 Offset: 0x158DEF0 VA: 0x18158F8F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, ushort>>
 	|
-	|-RVA: 0x1585C80 Offset: 0x1584280 VA: 0x181585C80
+	|-RVA: 0x1585B80 Offset: 0x1584180 VA: 0x181585B80
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, uint>>
 	|
-	|-RVA: 0x1582250 Offset: 0x1580850 VA: 0x181582250
+	|-RVA: 0x1582150 Offset: 0x1580750 VA: 0x181582150
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, ulong>>
 	|
-	|-RVA: 0x15812C0 Offset: 0x157F8C0 VA: 0x1815812C0
+	|-RVA: 0x15811C0 Offset: 0x157F7C0 VA: 0x1815811C0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<IntPtr, object>>
 	|
-	|-RVA: 0x1591670 Offset: 0x158FC70 VA: 0x181591670
+	|-RVA: 0x1591570 Offset: 0x158FB70 VA: 0x181591570
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, CameraMan.CameraState>>
 	|
-	|-RVA: 0x158FE20 Offset: 0x158E420 VA: 0x18158FE20
+	|-RVA: 0x158FD20 Offset: 0x158E320 VA: 0x18158FD20
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>
 	|
-	|-RVA: 0x1585A80 Offset: 0x1584080 VA: 0x181585A80
+	|-RVA: 0x1585980 Offset: 0x1583F80 VA: 0x181585980
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, InputActionSetHandle_t>>
 	|
-	|-RVA: 0x1583050 Offset: 0x1581650 VA: 0x181583050
+	|-RVA: 0x1582F50 Offset: 0x1581550 VA: 0x181582F50
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, InputAnalogActionHandle_t>>
 	|
-	|-RVA: 0x158B640 Offset: 0x1589C40 VA: 0x18158B640
+	|-RVA: 0x158B540 Offset: 0x1589B40 VA: 0x18158B540
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, InputDigitalActionHandle_t>>
 	|
-	|-RVA: 0x15850A0 Offset: 0x15836A0 VA: 0x1815850A0
+	|-RVA: 0x1584FA0 Offset: 0x15835A0 VA: 0x181584FA0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, bool>>
 	|
-	|-RVA: 0x15810C0 Offset: 0x157F6C0 VA: 0x1815810C0
+	|-RVA: 0x1580FC0 Offset: 0x157F5C0 VA: 0x181580FC0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, byte>>
 	|
-	|-RVA: 0x1582650 Offset: 0x1580C50 VA: 0x181582650
+	|-RVA: 0x1582550 Offset: 0x1580B50 VA: 0x181582550
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, Decimal>>
 	|
-	|-RVA: 0x1591AA0 Offset: 0x15900A0 VA: 0x181591AA0
+	|-RVA: 0x15919A0 Offset: 0x158FFA0 VA: 0x1815919A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, double>>
 	|
-	|-RVA: 0x1590C50 Offset: 0x158F250 VA: 0x181590C50
+	|-RVA: 0x1590B50 Offset: 0x158F150 VA: 0x181590B50
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, short>>
 	|
-	|-RVA: 0x157FEF0 Offset: 0x157E4F0 VA: 0x18157FEF0
+	|-RVA: 0x157FDF0 Offset: 0x157E3F0 VA: 0x18157FDF0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, int>>
 	|
-	|-RVA: 0x1583EA0 Offset: 0x15824A0 VA: 0x181583EA0
+	|-RVA: 0x1583DA0 Offset: 0x15823A0 VA: 0x181583DA0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, Int32Enum>>
 	|
-	|-RVA: 0x1587C80 Offset: 0x1586280 VA: 0x181587C80
+	|-RVA: 0x1587B80 Offset: 0x1586180 VA: 0x181587B80
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, long>>
 	|
-	|-RVA: 0x157F910 Offset: 0x157DF10 VA: 0x18157F910
+	|-RVA: 0x157F810 Offset: 0x157DE10 VA: 0x18157F810
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, object>>
 	|
-	|-RVA: 0x15920C0 Offset: 0x15906C0 VA: 0x1815920C0
+	|-RVA: 0x1591FC0 Offset: 0x15905C0 VA: 0x181591FC0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, ResourceLocator>>
 	|
-	|-RVA: 0x1584EA0 Offset: 0x15834A0 VA: 0x181584EA0
+	|-RVA: 0x1584DA0 Offset: 0x15833A0 VA: 0x181584DA0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, float>>
 	|
-	|-RVA: 0x15924A0 Offset: 0x1590AA0 VA: 0x1815924A0
+	|-RVA: 0x15923A0 Offset: 0x15909A0 VA: 0x1815923A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, ushort>>
 	|
-	|-RVA: 0x157FCF0 Offset: 0x157E2F0 VA: 0x18157FCF0
+	|-RVA: 0x157FBF0 Offset: 0x157E1F0 VA: 0x18157FBF0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, uint>>
 	|
-	|-RVA: 0x15804F0 Offset: 0x157EAF0 VA: 0x1815804F0
+	|-RVA: 0x15803F0 Offset: 0x157E9F0 VA: 0x1815803F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, ulong>>
 	|
-	|-RVA: 0x1588A30 Offset: 0x1587030 VA: 0x181588A30
+	|-RVA: 0x1588930 Offset: 0x1586F30 VA: 0x181588930
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, ValueTuple<object, object>>>
 	|
-	|-RVA: 0x1589E70 Offset: 0x1588470 VA: 0x181589E70
+	|-RVA: 0x1589D70 Offset: 0x1588370 VA: 0x181589D70
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<object, Vector3>>
 	|
-	|-RVA: 0x158E420 Offset: 0x158CA20 VA: 0x18158E420
+	|-RVA: 0x158E320 Offset: 0x158C920 VA: 0x18158E320
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<float, bool>>
 	|
-	|-RVA: 0x158CBD0 Offset: 0x158B1D0 VA: 0x18158CBD0
+	|-RVA: 0x158CAD0 Offset: 0x158B0D0 VA: 0x18158CAD0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<float, Decimal>>
 	|
-	|-RVA: 0x158AC70 Offset: 0x1589270 VA: 0x18158AC70
+	|-RVA: 0x158AB70 Offset: 0x1589170 VA: 0x18158AB70
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<float, double>>
 	|
-	|-RVA: 0x157FB10 Offset: 0x157E110 VA: 0x18157FB10
+	|-RVA: 0x157FA10 Offset: 0x157E010 VA: 0x18157FA10
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<float, short>>
 	|
-	|-RVA: 0x1586CE0 Offset: 0x15852E0 VA: 0x181586CE0
+	|-RVA: 0x1586BE0 Offset: 0x15851E0 VA: 0x181586BE0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<float, int>>
 	|
-	|-RVA: 0x1590230 Offset: 0x158E830 VA: 0x181590230
+	|-RVA: 0x1590130 Offset: 0x158E730 VA: 0x181590130
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<float, long>>
 	|
-	|-RVA: 0x1585E80 Offset: 0x1584480 VA: 0x181585E80
+	|-RVA: 0x1585D80 Offset: 0x1584380 VA: 0x181585D80
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<float, object>>
 	|
-	|-RVA: 0x158A870 Offset: 0x1588E70 VA: 0x18158A870
+	|-RVA: 0x158A770 Offset: 0x1588D70 VA: 0x18158A770
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<float, float>>
 	|
-	|-RVA: 0x1587AA0 Offset: 0x15860A0 VA: 0x181587AA0
+	|-RVA: 0x15879A0 Offset: 0x1585FA0 VA: 0x1815879A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<float, ushort>>
 	|
-	|-RVA: 0x158BE10 Offset: 0x158A410 VA: 0x18158BE10
+	|-RVA: 0x158BD10 Offset: 0x158A310 VA: 0x18158BD10
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<float, uint>>
 	|
-	|-RVA: 0x1583480 Offset: 0x1581A80 VA: 0x181583480
+	|-RVA: 0x1583380 Offset: 0x1581980 VA: 0x181583380
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<float, ulong>>
 	|
-	|-RVA: 0x1590430 Offset: 0x158EA30 VA: 0x181590430
+	|-RVA: 0x1590330 Offset: 0x158E930 VA: 0x181590330
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ushort, bool>>
 	|
-	|-RVA: 0x1591250 Offset: 0x158F850 VA: 0x181591250
+	|-RVA: 0x1591150 Offset: 0x158F750 VA: 0x181591150
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ushort, Decimal>>
 	|
-	|-RVA: 0x1582C70 Offset: 0x1581270 VA: 0x181582C70
+	|-RVA: 0x1582B70 Offset: 0x1581170 VA: 0x181582B70
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ushort, double>>
 	|
-	|-RVA: 0x15806F0 Offset: 0x157ECF0 VA: 0x1815806F0
+	|-RVA: 0x15805F0 Offset: 0x157EBF0 VA: 0x1815805F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ushort, short>>
 	|
-	|-RVA: 0x1581A80 Offset: 0x1580080 VA: 0x181581A80
+	|-RVA: 0x1581980 Offset: 0x157FF80 VA: 0x181581980
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ushort, int>>
 	|
-	|-RVA: 0x1588650 Offset: 0x1586C50 VA: 0x181588650
+	|-RVA: 0x1588550 Offset: 0x1586B50 VA: 0x181588550
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ushort, long>>
 	|
-	|-RVA: 0x158CDF0 Offset: 0x158B3F0 VA: 0x18158CDF0
+	|-RVA: 0x158CCF0 Offset: 0x158B2F0 VA: 0x18158CCF0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ushort, object>>
 	|
-	|-RVA: 0x1588850 Offset: 0x1586E50 VA: 0x181588850
+	|-RVA: 0x1588750 Offset: 0x1586D50 VA: 0x181588750
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ushort, float>>
 	|
-	|-RVA: 0x1587E80 Offset: 0x1586480 VA: 0x181587E80
+	|-RVA: 0x1587D80 Offset: 0x1586380 VA: 0x181587D80
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ushort, ushort>>
 	|
-	|-RVA: 0x158AE70 Offset: 0x1589470 VA: 0x18158AE70
+	|-RVA: 0x158AD70 Offset: 0x1589370 VA: 0x18158AD70
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ushort, uint>>
 	|
-	|-RVA: 0x158A490 Offset: 0x1588A90 VA: 0x18158A490
+	|-RVA: 0x158A390 Offset: 0x1588990 VA: 0x18158A390
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ushort, ulong>>
 	|
-	|-RVA: 0x1580CE0 Offset: 0x157F2E0 VA: 0x181580CE0
+	|-RVA: 0x1580BE0 Offset: 0x157F1E0 VA: 0x181580BE0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<uint, bool>>
 	|
-	|-RVA: 0x1581E40 Offset: 0x1580440 VA: 0x181581E40
+	|-RVA: 0x1581D40 Offset: 0x1580340 VA: 0x181581D40
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<uint, Decimal>>
 	|
-	|-RVA: 0x15862B0 Offset: 0x15848B0 VA: 0x1815862B0
+	|-RVA: 0x15861B0 Offset: 0x15847B0 VA: 0x1815861B0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<uint, double>>
 	|
-	|-RVA: 0x15856A0 Offset: 0x1583CA0 VA: 0x1815856A0
+	|-RVA: 0x15855A0 Offset: 0x1583BA0 VA: 0x1815855A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<uint, short>>
 	|
-	|-RVA: 0x158A690 Offset: 0x1588C90 VA: 0x18158A690
+	|-RVA: 0x158A590 Offset: 0x1588B90 VA: 0x18158A590
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<uint, int>>
 	|
-	|-RVA: 0x1582450 Offset: 0x1580A50 VA: 0x181582450
+	|-RVA: 0x1582350 Offset: 0x1580950 VA: 0x181582350
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<uint, long>>
 	|
-	|-RVA: 0x158DE20 Offset: 0x158C420 VA: 0x18158DE20
+	|-RVA: 0x158DD20 Offset: 0x158C320 VA: 0x18158DD20
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<uint, object>>
 	|
-	|-RVA: 0x158EBF0 Offset: 0x158D1F0 VA: 0x18158EBF0
+	|-RVA: 0x158EAF0 Offset: 0x158D0F0 VA: 0x18158EAF0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<uint, float>>
 	|
-	|-RVA: 0x158B460 Offset: 0x1589A60 VA: 0x18158B460
+	|-RVA: 0x158B360 Offset: 0x1589960 VA: 0x18158B360
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<uint, ushort>>
 	|
-	|-RVA: 0x158F5C0 Offset: 0x158DBC0 VA: 0x18158F5C0
+	|-RVA: 0x158F4C0 Offset: 0x158DAC0 VA: 0x18158F4C0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<uint, uint>>
 	|
-	|-RVA: 0x1586AE0 Offset: 0x15850E0 VA: 0x181586AE0
+	|-RVA: 0x15869E0 Offset: 0x1584FE0 VA: 0x1815869E0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<uint, ulong>>
 	|
-	|-RVA: 0x1580EC0 Offset: 0x157F4C0 VA: 0x181580EC0
+	|-RVA: 0x1580DC0 Offset: 0x157F3C0 VA: 0x181580DC0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, AvatarCache.Entry>>
 	|
-	|-RVA: 0x1582850 Offset: 0x1580E50 VA: 0x181582850
+	|-RVA: 0x1582750 Offset: 0x1580D50 VA: 0x181582750
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, Chat.MuteEntry>>
 	|
-	|-RVA: 0x1835BF0 Offset: 0x18341F0 VA: 0x181835BF0
+	|-RVA: 0x1835AF0 Offset: 0x18340F0 VA: 0x181835AF0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, Dispatch.ResultCallback>>
 	|
-	|-RVA: 0x18365F0 Offset: 0x1834BF0 VA: 0x1818365F0
+	|-RVA: 0x18364F0 Offset: 0x1834AF0 VA: 0x1818364F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, bool>>
 	|
-	|-RVA: 0x1834DA0 Offset: 0x18333A0 VA: 0x181834DA0
+	|-RVA: 0x1834CA0 Offset: 0x18332A0 VA: 0x181834CA0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, Decimal>>
 	|
-	|-RVA: 0x18349A0 Offset: 0x1832FA0 VA: 0x1818349A0
+	|-RVA: 0x18348A0 Offset: 0x1832EA0 VA: 0x1818348A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, double>>
 	|
-	|-RVA: 0x18361F0 Offset: 0x18347F0 VA: 0x1818361F0
+	|-RVA: 0x18360F0 Offset: 0x18346F0 VA: 0x1818360F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, short>>
 	|
-	|-RVA: 0x1834FA0 Offset: 0x18335A0 VA: 0x181834FA0
+	|-RVA: 0x1834EA0 Offset: 0x18334A0 VA: 0x181834EA0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, int>>
 	|
-	|-RVA: 0x1834BA0 Offset: 0x18331A0 VA: 0x181834BA0
+	|-RVA: 0x1834AA0 Offset: 0x18330A0 VA: 0x181834AA0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, long>>
 	|
-	|-RVA: 0x18369F0 Offset: 0x1834FF0 VA: 0x1818369F0
+	|-RVA: 0x18368F0 Offset: 0x1834EF0 VA: 0x1818368F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, object>>
 	|
-	|-RVA: 0x18347A0 Offset: 0x1832DA0 VA: 0x1818347A0
+	|-RVA: 0x18346A0 Offset: 0x1832CA0 VA: 0x1818346A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, float>>
 	|
-	|-RVA: 0x18359F0 Offset: 0x1833FF0 VA: 0x1818359F0
+	|-RVA: 0x18358F0 Offset: 0x1833EF0 VA: 0x1818358F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, ushort>>
 	|
-	|-RVA: 0x18351A0 Offset: 0x18337A0 VA: 0x1818351A0
+	|-RVA: 0x18350A0 Offset: 0x18336A0 VA: 0x1818350A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, uint>>
 	|
-	|-RVA: 0x1835FF0 Offset: 0x18345F0 VA: 0x181835FF0
+	|-RVA: 0x1835EF0 Offset: 0x18344F0 VA: 0x181835EF0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, ulong>>
 	|
-	|-RVA: 0x1835DF0 Offset: 0x18343F0 VA: 0x181835DF0
+	|-RVA: 0x1835CF0 Offset: 0x18342F0 VA: 0x181835CF0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ulong, TimeSince>>
 	|
-	|-RVA: 0x1836BF0 Offset: 0x18351F0 VA: 0x181836BF0
+	|-RVA: 0x1836AF0 Offset: 0x18350F0 VA: 0x181836AF0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ValueTuple<Int32Enum, int>, object>>
 	|
-	|-RVA: 0x18367F0 Offset: 0x1834DF0 VA: 0x1818367F0
+	|-RVA: 0x18366F0 Offset: 0x1834CF0 VA: 0x1818366F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Color, object>>
 	|
-	|-RVA: 0x18357F0 Offset: 0x1833DF0 VA: 0x1818357F0
+	|-RVA: 0x18356F0 Offset: 0x1833CF0 VA: 0x1818356F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<TerrainUtility.TerrainMap.TileCoord, object>>
 	|
-	|-RVA: 0x18355F0 Offset: 0x1833BF0 VA: 0x1818355F0
+	|-RVA: 0x18354F0 Offset: 0x1833AF0 VA: 0x1818354F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<StyleSheetCache.SheetHandleKey, int>>
 	|
-	|-RVA: 0x18345A0 Offset: 0x1832BA0 VA: 0x1818345A0
+	|-RVA: 0x18344A0 Offset: 0x1832AA0 VA: 0x1818344A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<StyleSheetCache.SheetHandleKey, object>>
 	|
-	|-RVA: 0x18363F0 Offset: 0x18349F0 VA: 0x1818363F0
+	|-RVA: 0x18362F0 Offset: 0x18348F0 VA: 0x1818362F0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Vector2i, object>>
 	|
-	|-RVA: 0x18353A0 Offset: 0x18339A0 VA: 0x1818353A0
+	|-RVA: 0x18352A0 Offset: 0x18338A0 VA: 0x1818352A0
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<ViewModelDrawEvent, int>>
 	|
-	|-RVA: 0x184F990 Offset: 0x184DF90 VA: 0x18184F990
+	|-RVA: 0x184F890 Offset: 0x184DE90 VA: 0x18184F890
 	|-Array.InternalArray__IndexOf<HashSet.Slot<Connection>>
 	|
-	|-RVA: 0x184FB80 Offset: 0x184E180 VA: 0x18184FB80
+	|-RVA: 0x184FA80 Offset: 0x184E080 VA: 0x18184FA80
 	|-Array.InternalArray__IndexOf<HashSet.Slot<int>>
 	|
-	|-RVA: 0x184F3E0 Offset: 0x184D9E0 VA: 0x18184F3E0
+	|-RVA: 0x184F2E0 Offset: 0x184D8E0 VA: 0x18184F2E0
 	|-Array.InternalArray__IndexOf<HashSet.Slot<object>>
 	|
-	|-RVA: 0x184FF50 Offset: 0x184E550 VA: 0x18184FF50
+	|-RVA: 0x184FE50 Offset: 0x184E450 VA: 0x18184FE50
 	|-Array.InternalArray__IndexOf<HashSet.Slot<uint>>
 	|
-	|-RVA: 0x184F5C0 Offset: 0x184DBC0 VA: 0x18184F5C0
+	|-RVA: 0x184F4C0 Offset: 0x184DAC0 VA: 0x18184F4C0
 	|-Array.InternalArray__IndexOf<HashSet.Slot<ulong>>
 	|
-	|-RVA: 0x1850340 Offset: 0x184E940 VA: 0x181850340
+	|-RVA: 0x1850240 Offset: 0x184E840 VA: 0x181850240
 	|-Array.InternalArray__IndexOf<HashSet.Slot<Vector3>>
 	|
-	|-RVA: 0x183B840 Offset: 0x1839E40 VA: 0x18183B840
+	|-RVA: 0x183B740 Offset: 0x1839D40 VA: 0x18183B740
 	|-Array.InternalArray__IndexOf<KeyValuePair<FoliageKey, int>>
 	|
-	|-RVA: 0x18499D0 Offset: 0x1847FD0 VA: 0x1818499D0
+	|-RVA: 0x18498D0 Offset: 0x1847ED0 VA: 0x1818498D0
 	|-Array.InternalArray__IndexOf<KeyValuePair<FoliageKey, object>>
 	|
-	|-RVA: 0x183F350 Offset: 0x183D950 VA: 0x18183F350
+	|-RVA: 0x183F250 Offset: 0x183D850 VA: 0x18183F250
 	|-Array.InternalArray__IndexOf<KeyValuePair<InstancingKey, int>>
 	|
-	|-RVA: 0x18462A0 Offset: 0x18448A0 VA: 0x1818462A0
+	|-RVA: 0x18461A0 Offset: 0x18447A0 VA: 0x1818461A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<InstancingKey, object>>
 	|
-	|-RVA: 0x184C860 Offset: 0x184AE60 VA: 0x18184C860
+	|-RVA: 0x184C760 Offset: 0x184AD60 VA: 0x18184C760
 	|-Array.InternalArray__IndexOf<KeyValuePair<InvokeAction, int>>
 	|
-	|-RVA: 0x1840E10 Offset: 0x183F410 VA: 0x181840E10
+	|-RVA: 0x1840D10 Offset: 0x183F310 VA: 0x181840D10
 	|-Array.InternalArray__IndexOf<KeyValuePair<InvokeAction, float>>
 	|
-	|-RVA: 0x18413D0 Offset: 0x183F9D0 VA: 0x1818413D0
+	|-RVA: 0x18412D0 Offset: 0x183F8D0 VA: 0x1818412D0
 	|-Array.InternalArray__IndexOf<KeyValuePair<XPathNodeRef, XPathNodeRef>>
 	|
-	|-RVA: 0x1849610 Offset: 0x1847C10 VA: 0x181849610
+	|-RVA: 0x1849510 Offset: 0x1847B10 VA: 0x181849510
 	|-Array.InternalArray__IndexOf<KeyValuePair<SevenBitNumber, object>>
 	|
-	|-RVA: 0x1839090 Offset: 0x1837690 VA: 0x181839090
+	|-RVA: 0x1838F90 Offset: 0x1837590 VA: 0x181838F90
 	|-Array.InternalArray__IndexOf<KeyValuePair<DefaultSerializationBinder.TypeNameKey, object>>
 	|
-	|-RVA: 0x1846A40 Offset: 0x1845040 VA: 0x181846A40
+	|-RVA: 0x1846940 Offset: 0x1844F40 VA: 0x181846940
 	|-Array.InternalArray__IndexOf<KeyValuePair<ResolverContractKey, object>>
 	|
-	|-RVA: 0x1846680 Offset: 0x1844C80 VA: 0x181846680
+	|-RVA: 0x1846580 Offset: 0x1844B80 VA: 0x181846580
 	|-Array.InternalArray__IndexOf<KeyValuePair<ConvertUtils.TypeConvertKey, object>>
 	|
-	|-RVA: 0x18471A0 Offset: 0x18457A0 VA: 0x1818471A0
+	|-RVA: 0x18470A0 Offset: 0x18456A0 VA: 0x1818470A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<RendererKey, int>>
 	|
-	|-RVA: 0x1849410 Offset: 0x1847A10 VA: 0x181849410
+	|-RVA: 0x1849310 Offset: 0x1847910 VA: 0x181849310
 	|-Array.InternalArray__IndexOf<KeyValuePair<RendererKey, object>>
 	|
-	|-RVA: 0x1838C70 Offset: 0x1837270 VA: 0x181838C70
+	|-RVA: 0x1838B70 Offset: 0x1837170 VA: 0x181838B70
 	|-Array.InternalArray__IndexOf<KeyValuePair<SpecialPurposeCamera.RenderEntry, int>>
 	|
-	|-RVA: 0x1843B80 Offset: 0x1842180 VA: 0x181843B80
+	|-RVA: 0x1843A80 Offset: 0x1842080 VA: 0x181843A80
 	|-Array.InternalArray__IndexOf<KeyValuePair<InventoryDefId, uint>>
 	|
-	|-RVA: 0x18417B0 Offset: 0x183FDB0 VA: 0x1818417B0
+	|-RVA: 0x18416B0 Offset: 0x183FCB0 VA: 0x1818416B0
 	|-Array.InternalArray__IndexOf<KeyValuePair<StringFormatCache.Key1, object>>
 	|
-	|-RVA: 0x1838E90 Offset: 0x1837490 VA: 0x181838E90
+	|-RVA: 0x1838D90 Offset: 0x1837390 VA: 0x181838D90
 	|-Array.InternalArray__IndexOf<KeyValuePair<StringFormatCache.Key2, object>>
 	|
-	|-RVA: 0x183B620 Offset: 0x1839C20 VA: 0x18183B620
+	|-RVA: 0x183B520 Offset: 0x1839B20 VA: 0x18183B520
 	|-Array.InternalArray__IndexOf<KeyValuePair<StringFormatCache.Key3, object>>
 	|
-	|-RVA: 0x1848A00 Offset: 0x1847000 VA: 0x181848A00
+	|-RVA: 0x1848900 Offset: 0x1846F00 VA: 0x181848900
 	|-Array.InternalArray__IndexOf<KeyValuePair<StringFormatCache.Key4, object>>
 	|
-	|-RVA: 0x18426A0 Offset: 0x1840CA0 VA: 0x1818426A0
+	|-RVA: 0x18425A0 Offset: 0x1840BA0 VA: 0x1818425A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<bool, bool>>
 	|
-	|-RVA: 0x183E780 Offset: 0x183CD80 VA: 0x18183E780
+	|-RVA: 0x183E680 Offset: 0x183CC80 VA: 0x18183E680
 	|-Array.InternalArray__IndexOf<KeyValuePair<bool, Decimal>>
 	|
-	|-RVA: 0x18473A0 Offset: 0x18459A0 VA: 0x1818473A0
+	|-RVA: 0x18472A0 Offset: 0x18458A0 VA: 0x1818472A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<bool, double>>
 	|
-	|-RVA: 0x184AE10 Offset: 0x1849410 VA: 0x18184AE10
+	|-RVA: 0x184AD10 Offset: 0x1849310 VA: 0x18184AD10
 	|-Array.InternalArray__IndexOf<KeyValuePair<bool, short>>
 	|
-	|-RVA: 0x1845780 Offset: 0x1843D80 VA: 0x181845780
+	|-RVA: 0x1845680 Offset: 0x1843C80 VA: 0x181845680
 	|-Array.InternalArray__IndexOf<KeyValuePair<bool, int>>
 	|
-	|-RVA: 0x183D4A0 Offset: 0x183BAA0 VA: 0x18183D4A0
+	|-RVA: 0x183D3A0 Offset: 0x183B9A0 VA: 0x18183D3A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<bool, long>>
 	|
-	|-RVA: 0x183E5A0 Offset: 0x183CBA0 VA: 0x18183E5A0
+	|-RVA: 0x183E4A0 Offset: 0x183CAA0 VA: 0x18183E4A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<bool, object>>
 	|
-	|-RVA: 0x18453A0 Offset: 0x18439A0 VA: 0x1818453A0
+	|-RVA: 0x18452A0 Offset: 0x18438A0 VA: 0x1818452A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<bool, float>>
 	|
-	|-RVA: 0x183E3E0 Offset: 0x183C9E0 VA: 0x18183E3E0
+	|-RVA: 0x183E2E0 Offset: 0x183C8E0 VA: 0x18183E2E0
 	|-Array.InternalArray__IndexOf<KeyValuePair<bool, ushort>>
 	|
-	|-RVA: 0x184B5D0 Offset: 0x1849BD0 VA: 0x18184B5D0
+	|-RVA: 0x184B4D0 Offset: 0x1849AD0 VA: 0x18184B4D0
 	|-Array.InternalArray__IndexOf<KeyValuePair<bool, uint>>
 	|
-	|-RVA: 0x183C3C0 Offset: 0x183A9C0 VA: 0x18183C3C0
+	|-RVA: 0x183C2C0 Offset: 0x183A8C0 VA: 0x18183C2C0
 	|-Array.InternalArray__IndexOf<KeyValuePair<bool, ulong>>
 	|
-	|-RVA: 0x183A760 Offset: 0x1838D60 VA: 0x18183A760
+	|-RVA: 0x183A660 Offset: 0x1838C60 VA: 0x18183A660
 	|-Array.InternalArray__IndexOf<KeyValuePair<byte, object>>
 	|
-	|-RVA: 0x1849F70 Offset: 0x1848570 VA: 0x181849F70
+	|-RVA: 0x1849E70 Offset: 0x1848470 VA: 0x181849E70
 	|-Array.InternalArray__IndexOf<KeyValuePair<ByteEnum, byte>>
 	|
-	|-RVA: 0x1842A40 Offset: 0x1841040 VA: 0x181842A40
+	|-RVA: 0x1842940 Offset: 0x1840F40 VA: 0x181842940
 	|-Array.InternalArray__IndexOf<KeyValuePair<KeyValuePair<object, object>, object>>
 	|
-	|-RVA: 0x183FB30 Offset: 0x183E130 VA: 0x18183FB30
+	|-RVA: 0x183FA30 Offset: 0x183E030 VA: 0x18183FA30
 	|-Array.InternalArray__IndexOf<KeyValuePair<DateTime, object>>
 	|
-	|-RVA: 0x184D420 Offset: 0x184BA20 VA: 0x18184D420
+	|-RVA: 0x184D320 Offset: 0x184B920 VA: 0x18184D320
 	|-Array.InternalArray__IndexOf<KeyValuePair<Decimal, bool>>
 	|
-	|-RVA: 0x183D680 Offset: 0x183BC80 VA: 0x18183D680
+	|-RVA: 0x183D580 Offset: 0x183BB80 VA: 0x18183D580
 	|-Array.InternalArray__IndexOf<KeyValuePair<Decimal, Decimal>>
 	|
-	|-RVA: 0x183C5A0 Offset: 0x183ABA0 VA: 0x18183C5A0
+	|-RVA: 0x183C4A0 Offset: 0x183AAA0 VA: 0x18183C4A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<Decimal, double>>
 	|
-	|-RVA: 0x184D800 Offset: 0x184BE00 VA: 0x18184D800
+	|-RVA: 0x184D700 Offset: 0x184BD00 VA: 0x18184D700
 	|-Array.InternalArray__IndexOf<KeyValuePair<Decimal, short>>
 	|
-	|-RVA: 0x1848C30 Offset: 0x1847230 VA: 0x181848C30
+	|-RVA: 0x1848B30 Offset: 0x1847130 VA: 0x181848B30
 	|-Array.InternalArray__IndexOf<KeyValuePair<Decimal, int>>
 	|
-	|-RVA: 0x1840670 Offset: 0x183EC70 VA: 0x181840670
+	|-RVA: 0x1840570 Offset: 0x183EB70 VA: 0x181840570
 	|-Array.InternalArray__IndexOf<KeyValuePair<Decimal, long>>
 	|
-	|-RVA: 0x183F150 Offset: 0x183D750 VA: 0x18183F150
+	|-RVA: 0x183F050 Offset: 0x183D650 VA: 0x18183F050
 	|-Array.InternalArray__IndexOf<KeyValuePair<Decimal, object>>
 	|
-	|-RVA: 0x183E020 Offset: 0x183C620 VA: 0x18183E020
+	|-RVA: 0x183DF20 Offset: 0x183C520 VA: 0x18183DF20
 	|-Array.InternalArray__IndexOf<KeyValuePair<Decimal, float>>
 	|
-	|-RVA: 0x183CF00 Offset: 0x183B500 VA: 0x18183CF00
+	|-RVA: 0x183CE00 Offset: 0x183B400 VA: 0x18183CE00
 	|-Array.InternalArray__IndexOf<KeyValuePair<Decimal, ushort>>
 	|
-	|-RVA: 0x1838690 Offset: 0x1836C90 VA: 0x181838690
+	|-RVA: 0x1838590 Offset: 0x1836B90 VA: 0x181838590
 	|-Array.InternalArray__IndexOf<KeyValuePair<Decimal, uint>>
 	|
-	|-RVA: 0x1840870 Offset: 0x183EE70 VA: 0x181840870
+	|-RVA: 0x1840770 Offset: 0x183ED70 VA: 0x181840770
 	|-Array.InternalArray__IndexOf<KeyValuePair<Decimal, ulong>>
 	|
-	|-RVA: 0x1839450 Offset: 0x1837A50 VA: 0x181839450
+	|-RVA: 0x1839350 Offset: 0x1837950 VA: 0x181839350
 	|-Array.InternalArray__IndexOf<KeyValuePair<double, bool>>
 	|
-	|-RVA: 0x183F930 Offset: 0x183DF30 VA: 0x18183F930
+	|-RVA: 0x183F830 Offset: 0x183DE30 VA: 0x18183F830
 	|-Array.InternalArray__IndexOf<KeyValuePair<double, Decimal>>
 	|
-	|-RVA: 0x184C0C0 Offset: 0x184A6C0 VA: 0x18184C0C0
+	|-RVA: 0x184BFC0 Offset: 0x184A5C0 VA: 0x18184BFC0
 	|-Array.InternalArray__IndexOf<KeyValuePair<double, double>>
 	|
-	|-RVA: 0x183DA60 Offset: 0x183C060 VA: 0x18183DA60
+	|-RVA: 0x183D960 Offset: 0x183BF60 VA: 0x18183D960
 	|-Array.InternalArray__IndexOf<KeyValuePair<double, short>>
 	|
-	|-RVA: 0x1847CE0 Offset: 0x18462E0 VA: 0x181847CE0
+	|-RVA: 0x1847BE0 Offset: 0x18461E0 VA: 0x181847BE0
 	|-Array.InternalArray__IndexOf<KeyValuePair<double, int>>
 	|
-	|-RVA: 0x183EBB0 Offset: 0x183D1B0 VA: 0x18183EBB0
+	|-RVA: 0x183EAB0 Offset: 0x183D0B0 VA: 0x18183EAB0
 	|-Array.InternalArray__IndexOf<KeyValuePair<double, long>>
 	|
-	|-RVA: 0x18384B0 Offset: 0x1836AB0 VA: 0x1818384B0
+	|-RVA: 0x18383B0 Offset: 0x18369B0 VA: 0x1818383B0
 	|-Array.InternalArray__IndexOf<KeyValuePair<double, object>>
 	|
-	|-RVA: 0x1840290 Offset: 0x183E890 VA: 0x181840290
+	|-RVA: 0x1840190 Offset: 0x183E790 VA: 0x181840190
 	|-Array.InternalArray__IndexOf<KeyValuePair<double, float>>
 	|
-	|-RVA: 0x1849BB0 Offset: 0x18481B0 VA: 0x181849BB0
+	|-RVA: 0x1849AB0 Offset: 0x18480B0 VA: 0x181849AB0
 	|-Array.InternalArray__IndexOf<KeyValuePair<double, ushort>>
 	|
-	|-RVA: 0x183C960 Offset: 0x183AF60 VA: 0x18183C960
+	|-RVA: 0x183C860 Offset: 0x183AE60 VA: 0x18183C860
 	|-Array.InternalArray__IndexOf<KeyValuePair<double, uint>>
 	|
-	|-RVA: 0x183AD00 Offset: 0x1839300 VA: 0x18183AD00
+	|-RVA: 0x183AC00 Offset: 0x1839200 VA: 0x18183AC00
 	|-Array.InternalArray__IndexOf<KeyValuePair<double, ulong>>
 	|
-	|-RVA: 0x1839FE0 Offset: 0x18385E0 VA: 0x181839FE0
+	|-RVA: 0x1839EE0 Offset: 0x18384E0 VA: 0x181839EE0
 	|-Array.InternalArray__IndexOf<KeyValuePair<Guid, int>>
 	|
-	|-RVA: 0x1849210 Offset: 0x1847810 VA: 0x181849210
+	|-RVA: 0x1849110 Offset: 0x1847710 VA: 0x181849110
 	|-Array.InternalArray__IndexOf<KeyValuePair<Guid, object>>
 	|
-	|-RVA: 0x18444C0 Offset: 0x1842AC0 VA: 0x1818444C0
+	|-RVA: 0x18443C0 Offset: 0x18429C0 VA: 0x1818443C0
 	|-Array.InternalArray__IndexOf<KeyValuePair<short, bool>>
 	|
-	|-RVA: 0x184AFD0 Offset: 0x18495D0 VA: 0x18184AFD0
+	|-RVA: 0x184AED0 Offset: 0x18494D0 VA: 0x18184AED0
 	|-Array.InternalArray__IndexOf<KeyValuePair<short, Decimal>>
 	|
-	|-RVA: 0x1841F40 Offset: 0x1840540 VA: 0x181841F40
+	|-RVA: 0x1841E40 Offset: 0x1840440 VA: 0x181841E40
 	|-Array.InternalArray__IndexOf<KeyValuePair<short, double>>
 	|
-	|-RVA: 0x183FEF0 Offset: 0x183E4F0 VA: 0x18183FEF0
+	|-RVA: 0x183FDF0 Offset: 0x183E3F0 VA: 0x18183FDF0
 	|-Array.InternalArray__IndexOf<KeyValuePair<short, short>>
 	|
-	|-RVA: 0x1840A70 Offset: 0x183F070 VA: 0x181840A70
+	|-RVA: 0x1840970 Offset: 0x183EF70 VA: 0x181840970
 	|-Array.InternalArray__IndexOf<KeyValuePair<short, int>>
 	|
-	|-RVA: 0x1844680 Offset: 0x1842C80 VA: 0x181844680
+	|-RVA: 0x1844580 Offset: 0x1842B80 VA: 0x181844580
 	|-Array.InternalArray__IndexOf<KeyValuePair<short, long>>
 	|
-	|-RVA: 0x183EF70 Offset: 0x183D570 VA: 0x18183EF70
+	|-RVA: 0x183EE70 Offset: 0x183D470 VA: 0x18183EE70
 	|-Array.InternalArray__IndexOf<KeyValuePair<short, object>>
 	|
-	|-RVA: 0x18424E0 Offset: 0x1840AE0 VA: 0x1818424E0
+	|-RVA: 0x18423E0 Offset: 0x18409E0 VA: 0x1818423E0
 	|-Array.InternalArray__IndexOf<KeyValuePair<short, float>>
 	|
-	|-RVA: 0x1845940 Offset: 0x1843F40 VA: 0x181845940
+	|-RVA: 0x1845840 Offset: 0x1843E40 VA: 0x181845840
 	|-Array.InternalArray__IndexOf<KeyValuePair<short, ushort>>
 	|
-	|-RVA: 0x1848080 Offset: 0x1846680 VA: 0x181848080
+	|-RVA: 0x1847F80 Offset: 0x1846580 VA: 0x181847F80
 	|-Array.InternalArray__IndexOf<KeyValuePair<short, uint>>
 	|
-	|-RVA: 0x1844860 Offset: 0x1842E60 VA: 0x181844860
+	|-RVA: 0x1844760 Offset: 0x1842D60 VA: 0x181844760
 	|-Array.InternalArray__IndexOf<KeyValuePair<short, ulong>>
 	|
-	|-RVA: 0x1840470 Offset: 0x183EA70 VA: 0x181840470
+	|-RVA: 0x1840370 Offset: 0x183E970 VA: 0x181840370
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, CommandBufferManager.CommandBufferEntry>>
 	|
-	|-RVA: 0x183CD20 Offset: 0x183B320 VA: 0x18183CD20
+	|-RVA: 0x183CC20 Offset: 0x183B220 VA: 0x18183CC20
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, FoliageKey>>
 	|
-	|-RVA: 0x184CA80 Offset: 0x184B080 VA: 0x18184CA80
+	|-RVA: 0x184C980 Offset: 0x184AF80 VA: 0x18184C980
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, InstancingKey>>
 	|
-	|-RVA: 0x1848240 Offset: 0x1846840 VA: 0x181848240
+	|-RVA: 0x1848140 Offset: 0x1846740 VA: 0x181848140
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, InvokeAction>>
 	|
-	|-RVA: 0x183BC20 Offset: 0x183A220 VA: 0x18183BC20
+	|-RVA: 0x183BB20 Offset: 0x183A120 VA: 0x18183BB20
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, RendererKey>>
 	|
-	|-RVA: 0x1845560 Offset: 0x1843B60 VA: 0x181845560
+	|-RVA: 0x1845460 Offset: 0x1843A60 VA: 0x181845460
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, SpecialPurposeCamera.RenderEntry>>
 	|
-	|-RVA: 0x183D2E0 Offset: 0x183B8E0 VA: 0x18183D2E0
+	|-RVA: 0x183D1E0 Offset: 0x183B7E0 VA: 0x18183D1E0
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, bool>>
 	|
-	|-RVA: 0x183A1E0 Offset: 0x18387E0 VA: 0x18183A1E0
+	|-RVA: 0x183A0E0 Offset: 0x18386E0 VA: 0x18183A0E0
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, char>>
 	|
-	|-RVA: 0x184C2A0 Offset: 0x184A8A0 VA: 0x18184C2A0
+	|-RVA: 0x184C1A0 Offset: 0x184A7A0 VA: 0x18184C1A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, Decimal>>
 	|
-	|-RVA: 0x18497F0 Offset: 0x1847DF0 VA: 0x1818497F0
+	|-RVA: 0x18496F0 Offset: 0x1847CF0 VA: 0x1818496F0
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, double>>
 	|
-	|-RVA: 0x184A4F0 Offset: 0x1848AF0 VA: 0x18184A4F0
+	|-RVA: 0x184A3F0 Offset: 0x18489F0 VA: 0x18184A3F0
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, short>>
 	|
-	|-RVA: 0x18464C0 Offset: 0x1844AC0 VA: 0x1818464C0
+	|-RVA: 0x18463C0 Offset: 0x18449C0 VA: 0x1818463C0
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, int>>
 	|
-	|-RVA: 0x1845D00 Offset: 0x1844300 VA: 0x181845D00
+	|-RVA: 0x1845C00 Offset: 0x1844200 VA: 0x181845C00
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, Int32Enum>>
 	|
-	|-RVA: 0x1842300 Offset: 0x1840900 VA: 0x181842300
+	|-RVA: 0x1842200 Offset: 0x1840800 VA: 0x181842200
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, long>>
 	|
-	|-RVA: 0x1847B00 Offset: 0x1846100 VA: 0x181847B00
+	|-RVA: 0x1847A00 Offset: 0x1846000 VA: 0x181847A00
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, object>>
 	|
-	|-RVA: 0x1846E20 Offset: 0x1845420 VA: 0x181846E20
+	|-RVA: 0x1846D20 Offset: 0x1845320 VA: 0x181846D20
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, float>>
 	|
-	|-RVA: 0x1839290 Offset: 0x1837890 VA: 0x181839290
+	|-RVA: 0x1839190 Offset: 0x1837790 VA: 0x181839190
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, ushort>>
 	|
-	|-RVA: 0x184BF00 Offset: 0x184A500 VA: 0x18184BF00
+	|-RVA: 0x184BE00 Offset: 0x184A400 VA: 0x18184BE00
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, uint>>
 	|
-	|-RVA: 0x1841D60 Offset: 0x1840360 VA: 0x181841D60
+	|-RVA: 0x1841C60 Offset: 0x1840260 VA: 0x181841C60
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, ulong>>
 	|
-	|-RVA: 0x18397F0 Offset: 0x1837DF0 VA: 0x1818397F0
+	|-RVA: 0x18396F0 Offset: 0x1837CF0 VA: 0x1818396F0
 	|-Array.InternalArray__IndexOf<KeyValuePair<int, ViewModelDrawEvent>>
 	|
-	|-RVA: 0x1841030 Offset: 0x183F630 VA: 0x181841030
+	|-RVA: 0x1840F30 Offset: 0x183F530 VA: 0x181840F30
 	|-Array.InternalArray__IndexOf<KeyValuePair<Int32Enum, object>>
 	|
-	|-RVA: 0x183B0A0 Offset: 0x18396A0 VA: 0x18183B0A0
+	|-RVA: 0x183AFA0 Offset: 0x18395A0 VA: 0x18183AFA0
 	|-Array.InternalArray__IndexOf<KeyValuePair<Int32Enum, float>>
 	|
-	|-RVA: 0x1844C20 Offset: 0x1843220 VA: 0x181844C20
+	|-RVA: 0x1844B20 Offset: 0x1843120 VA: 0x181844B20
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, bool>>
 	|
-	|-RVA: 0x183DE20 Offset: 0x183C420 VA: 0x18183DE20
+	|-RVA: 0x183DD20 Offset: 0x183C320 VA: 0x18183DD20
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, Decimal>>
 	|
-	|-RVA: 0x183A940 Offset: 0x1838F40 VA: 0x18183A940
+	|-RVA: 0x183A840 Offset: 0x1838E40 VA: 0x18183A840
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, double>>
 	|
-	|-RVA: 0x184BD20 Offset: 0x184A320 VA: 0x18184BD20
+	|-RVA: 0x184BC20 Offset: 0x184A220 VA: 0x18184BC20
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, short>>
 	|
-	|-RVA: 0x183F570 Offset: 0x183DB70 VA: 0x18183F570
+	|-RVA: 0x183F470 Offset: 0x183DA70 VA: 0x18183F470
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, int>>
 	|
-	|-RVA: 0x1848820 Offset: 0x1846E20 VA: 0x181848820
+	|-RVA: 0x1848720 Offset: 0x1846D20 VA: 0x181848720
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, long>>
 	|
-	|-RVA: 0x1838A90 Offset: 0x1837090 VA: 0x181838A90
+	|-RVA: 0x1838990 Offset: 0x1836F90 VA: 0x181838990
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, object>>
 	|
-	|-RVA: 0x183ED90 Offset: 0x183D390 VA: 0x18183ED90
+	|-RVA: 0x183EC90 Offset: 0x183D290 VA: 0x18183EC90
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, float>>
 	|
-	|-RVA: 0x183A580 Offset: 0x1838B80 VA: 0x18183A580
+	|-RVA: 0x183A480 Offset: 0x1838A80 VA: 0x18183A480
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, ushort>>
 	|
-	|-RVA: 0x18433C0 Offset: 0x18419C0 VA: 0x1818433C0
+	|-RVA: 0x18432C0 Offset: 0x18418C0 VA: 0x1818432C0
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, uint>>
 	|
-	|-RVA: 0x1844E00 Offset: 0x1843400 VA: 0x181844E00
+	|-RVA: 0x1844D00 Offset: 0x1843300 VA: 0x181844D00
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, ulong>>
 	|
-	|-RVA: 0x1844A40 Offset: 0x1843040 VA: 0x181844A40
+	|-RVA: 0x1844940 Offset: 0x1842F40 VA: 0x181844940
 	|-Array.InternalArray__IndexOf<KeyValuePair<IntPtr, object>>
 	|
-	|-RVA: 0x18435A0 Offset: 0x1841BA0 VA: 0x1818435A0
+	|-RVA: 0x18434A0 Offset: 0x1841AA0 VA: 0x1818434A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, CameraMan.CameraState>>
 	|
-	|-RVA: 0x184B1D0 Offset: 0x18497D0 VA: 0x18184B1D0
+	|-RVA: 0x184B0D0 Offset: 0x18496D0 VA: 0x18184B0D0
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, PlayerModelHair.RendererMaterials>>
 	|
-	|-RVA: 0x184BB40 Offset: 0x184A140 VA: 0x18184BB40
+	|-RVA: 0x184BA40 Offset: 0x184A040 VA: 0x18184BA40
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, InputActionSetHandle_t>>
 	|
-	|-RVA: 0x1845EC0 Offset: 0x18444C0 VA: 0x181845EC0
+	|-RVA: 0x1845DC0 Offset: 0x18443C0 VA: 0x181845DC0
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, InputAnalogActionHandle_t>>
 	|
-	|-RVA: 0x1842C40 Offset: 0x1841240 VA: 0x181842C40
+	|-RVA: 0x1842B40 Offset: 0x1841140 VA: 0x181842B40
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, InputDigitalActionHandle_t>>
 	|
-	|-RVA: 0x184D240 Offset: 0x184B840 VA: 0x18184D240
+	|-RVA: 0x184D140 Offset: 0x184B740 VA: 0x18184D140
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, bool>>
 	|
-	|-RVA: 0x1839C20 Offset: 0x1838220 VA: 0x181839C20
+	|-RVA: 0x1839B20 Offset: 0x1838120 VA: 0x181839B20
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, byte>>
 	|
-	|-RVA: 0x18440E0 Offset: 0x18426E0 VA: 0x1818440E0
+	|-RVA: 0x1843FE0 Offset: 0x18425E0 VA: 0x181843FE0
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, Decimal>>
 	|
-	|-RVA: 0x183C020 Offset: 0x183A620 VA: 0x18183C020
+	|-RVA: 0x183BF20 Offset: 0x183A520 VA: 0x18183BF20
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, double>>
 	|
-	|-RVA: 0x184C680 Offset: 0x184AC80 VA: 0x18184C680
+	|-RVA: 0x184C580 Offset: 0x184AB80 VA: 0x18184C580
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, short>>
 	|
-	|-RVA: 0x183CB40 Offset: 0x183B140 VA: 0x18183CB40
+	|-RVA: 0x183CA40 Offset: 0x183B040 VA: 0x18183CA40
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, int>>
 	|
-	|-RVA: 0x184CE80 Offset: 0x184B480 VA: 0x18184CE80
+	|-RVA: 0x184CD80 Offset: 0x184B380 VA: 0x18184CD80
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, Int32Enum>>
 	|
-	|-RVA: 0x183A3A0 Offset: 0x18389A0 VA: 0x18183A3A0
+	|-RVA: 0x183A2A0 Offset: 0x18388A0 VA: 0x18183A2A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, long>>
 	|
-	|-RVA: 0x183B260 Offset: 0x1839860 VA: 0x18183B260
+	|-RVA: 0x183B160 Offset: 0x1839760 VA: 0x18183B160
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, object>>
 	|
-	|-RVA: 0x183BE20 Offset: 0x183A420 VA: 0x18183BE20
+	|-RVA: 0x183BD20 Offset: 0x183A320 VA: 0x18183BD20
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, ResourceLocator>>
 	|
-	|-RVA: 0x18451C0 Offset: 0x18437C0 VA: 0x1818451C0
+	|-RVA: 0x18450C0 Offset: 0x18436C0 VA: 0x1818450C0
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, float>>
 	|
-	|-RVA: 0x183B440 Offset: 0x1839A40 VA: 0x18183B440
+	|-RVA: 0x183B340 Offset: 0x1839940 VA: 0x18183B340
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, ushort>>
 	|
-	|-RVA: 0x1840C30 Offset: 0x183F230 VA: 0x181840C30
+	|-RVA: 0x1840B30 Offset: 0x183F130 VA: 0x181840B30
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, uint>>
 	|
-	|-RVA: 0x1842E20 Offset: 0x1841420 VA: 0x181842E20
+	|-RVA: 0x1842D20 Offset: 0x1841320 VA: 0x181842D20
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, ulong>>
 	|
-	|-RVA: 0x1838890 Offset: 0x1836E90 VA: 0x181838890
+	|-RVA: 0x1838790 Offset: 0x1836D90 VA: 0x181838790
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, ValueTuple<object, object>>>
 	|
-	|-RVA: 0x1845B00 Offset: 0x1844100 VA: 0x181845B00
+	|-RVA: 0x1845A00 Offset: 0x1844000 VA: 0x181845A00
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, Color>>
 	|
-	|-RVA: 0x184B3D0 Offset: 0x18499D0 VA: 0x18184B3D0
+	|-RVA: 0x184B2D0 Offset: 0x18498D0 VA: 0x18184B2D0
 	|-Array.InternalArray__IndexOf<KeyValuePair<object, Vector3>>
 	|
-	|-RVA: 0x1848660 Offset: 0x1846C60 VA: 0x181848660
+	|-RVA: 0x1848560 Offset: 0x1846B60 VA: 0x181848560
 	|-Array.InternalArray__IndexOf<KeyValuePair<float, bool>>
 	|
-	|-RVA: 0x18460A0 Offset: 0x18446A0 VA: 0x1818460A0
+	|-RVA: 0x1845FA0 Offset: 0x18445A0 VA: 0x181845FA0
 	|-Array.InternalArray__IndexOf<KeyValuePair<float, Decimal>>
 	|
-	|-RVA: 0x183D880 Offset: 0x183BE80 VA: 0x18183D880
+	|-RVA: 0x183D780 Offset: 0x183BD80 VA: 0x18183D780
 	|-Array.InternalArray__IndexOf<KeyValuePair<float, double>>
 	|
-	|-RVA: 0x1847940 Offset: 0x1845F40 VA: 0x181847940
+	|-RVA: 0x1847840 Offset: 0x1845E40 VA: 0x181847840
 	|-Array.InternalArray__IndexOf<KeyValuePair<float, short>>
 	|
-	|-RVA: 0x1847EC0 Offset: 0x18464C0 VA: 0x181847EC0
+	|-RVA: 0x1847DC0 Offset: 0x18463C0 VA: 0x181847DC0
 	|-Array.InternalArray__IndexOf<KeyValuePair<float, int>>
 	|
-	|-RVA: 0x184CCA0 Offset: 0x184B2A0 VA: 0x18184CCA0
+	|-RVA: 0x184CBA0 Offset: 0x184B1A0 VA: 0x18184CBA0
 	|-Array.InternalArray__IndexOf<KeyValuePair<float, long>>
 	|
-	|-RVA: 0x18415D0 Offset: 0x183FBD0 VA: 0x1818415D0
+	|-RVA: 0x18414D0 Offset: 0x183FAD0 VA: 0x1818414D0
 	|-Array.InternalArray__IndexOf<KeyValuePair<float, object>>
 	|
-	|-RVA: 0x184B790 Offset: 0x1849D90 VA: 0x18184B790
+	|-RVA: 0x184B690 Offset: 0x1849C90 VA: 0x18184B690
 	|-Array.InternalArray__IndexOf<KeyValuePair<float, float>>
 	|
-	|-RVA: 0x18439C0 Offset: 0x1841FC0 VA: 0x1818439C0
+	|-RVA: 0x18438C0 Offset: 0x1841EC0 VA: 0x1818438C0
 	|-Array.InternalArray__IndexOf<KeyValuePair<float, ushort>>
 	|
-	|-RVA: 0x1843200 Offset: 0x1841800 VA: 0x181843200
+	|-RVA: 0x1843100 Offset: 0x1841700 VA: 0x181843100
 	|-Array.InternalArray__IndexOf<KeyValuePair<float, uint>>
 	|
-	|-RVA: 0x184D620 Offset: 0x184BC20 VA: 0x18184D620
+	|-RVA: 0x184D520 Offset: 0x184BB20 VA: 0x18184D520
 	|-Array.InternalArray__IndexOf<KeyValuePair<float, ulong>>
 	|
-	|-RVA: 0x1843D40 Offset: 0x1842340 VA: 0x181843D40
+	|-RVA: 0x1843C40 Offset: 0x1842240 VA: 0x181843C40
 	|-Array.InternalArray__IndexOf<KeyValuePair<ushort, bool>>
 	|
-	|-RVA: 0x1839A20 Offset: 0x1838020 VA: 0x181839A20
+	|-RVA: 0x1839920 Offset: 0x1837F20 VA: 0x181839920
 	|-Array.InternalArray__IndexOf<KeyValuePair<ushort, Decimal>>
 	|
-	|-RVA: 0x183F750 Offset: 0x183DD50 VA: 0x18183F750
+	|-RVA: 0x183F650 Offset: 0x183DC50 VA: 0x18183F650
 	|-Array.InternalArray__IndexOf<KeyValuePair<ushort, double>>
 	|
-	|-RVA: 0x184A8B0 Offset: 0x1848EB0 VA: 0x18184A8B0
+	|-RVA: 0x184A7B0 Offset: 0x1848DB0 VA: 0x18184A7B0
 	|-Array.InternalArray__IndexOf<KeyValuePair<ushort, short>>
 	|
-	|-RVA: 0x183AEE0 Offset: 0x18394E0 VA: 0x18183AEE0
+	|-RVA: 0x183ADE0 Offset: 0x18393E0 VA: 0x18183ADE0
 	|-Array.InternalArray__IndexOf<KeyValuePair<ushort, int>>
 	|
-	|-RVA: 0x1843F00 Offset: 0x1842500 VA: 0x181843F00
+	|-RVA: 0x1843E00 Offset: 0x1842400 VA: 0x181843E00
 	|-Array.InternalArray__IndexOf<KeyValuePair<ushort, long>>
 	|
-	|-RVA: 0x1842860 Offset: 0x1840E60 VA: 0x181842860
+	|-RVA: 0x1842760 Offset: 0x1840D60 VA: 0x181842760
 	|-Array.InternalArray__IndexOf<KeyValuePair<ushort, object>>
 	|
-	|-RVA: 0x183C200 Offset: 0x183A800 VA: 0x18183C200
+	|-RVA: 0x183C100 Offset: 0x183A700 VA: 0x18183C100
 	|-Array.InternalArray__IndexOf<KeyValuePair<ushort, float>>
 	|
-	|-RVA: 0x1841BA0 Offset: 0x18401A0 VA: 0x181841BA0
+	|-RVA: 0x1841AA0 Offset: 0x18400A0 VA: 0x181841AA0
 	|-Array.InternalArray__IndexOf<KeyValuePair<ushort, ushort>>
 	|
-	|-RVA: 0x1846FE0 Offset: 0x18455E0 VA: 0x181846FE0
+	|-RVA: 0x1846EE0 Offset: 0x18454E0 VA: 0x181846EE0
 	|-Array.InternalArray__IndexOf<KeyValuePair<ushort, uint>>
 	|
-	|-RVA: 0x18400B0 Offset: 0x183E6B0 VA: 0x1818400B0
+	|-RVA: 0x183FFB0 Offset: 0x183E5B0 VA: 0x18183FFB0
 	|-Array.InternalArray__IndexOf<KeyValuePair<ushort, ulong>>
 	|
-	|-RVA: 0x183E220 Offset: 0x183C820 VA: 0x18183E220
+	|-RVA: 0x183E120 Offset: 0x183C720 VA: 0x18183E120
 	|-Array.InternalArray__IndexOf<KeyValuePair<uint, bool>>
 	|
-	|-RVA: 0x1843000 Offset: 0x1841600 VA: 0x181843000
+	|-RVA: 0x1842F00 Offset: 0x1841500 VA: 0x181842F00
 	|-Array.InternalArray__IndexOf<KeyValuePair<uint, Decimal>>
 	|
-	|-RVA: 0x1846C40 Offset: 0x1845240 VA: 0x181846C40
+	|-RVA: 0x1846B40 Offset: 0x1845140 VA: 0x181846B40
 	|-Array.InternalArray__IndexOf<KeyValuePair<uint, double>>
 	|
-	|-RVA: 0x1839630 Offset: 0x1837C30 VA: 0x181839630
+	|-RVA: 0x1839530 Offset: 0x1837B30 VA: 0x181839530
 	|-Array.InternalArray__IndexOf<KeyValuePair<uint, short>>
 	|
-	|-RVA: 0x184AA70 Offset: 0x1849070 VA: 0x18184AA70
+	|-RVA: 0x184A970 Offset: 0x1848F70 VA: 0x18184A970
 	|-Array.InternalArray__IndexOf<KeyValuePair<uint, int>>
 	|
-	|-RVA: 0x18442E0 Offset: 0x18428E0 VA: 0x1818442E0
+	|-RVA: 0x18441E0 Offset: 0x18427E0 VA: 0x1818441E0
 	|-Array.InternalArray__IndexOf<KeyValuePair<uint, long>>
 	|
-	|-RVA: 0x183DC40 Offset: 0x183C240 VA: 0x18183DC40
+	|-RVA: 0x183DB40 Offset: 0x183C140 VA: 0x18183DB40
 	|-Array.InternalArray__IndexOf<KeyValuePair<uint, object>>
 	|
-	|-RVA: 0x1841210 Offset: 0x183F810 VA: 0x181841210
+	|-RVA: 0x1841110 Offset: 0x183F710 VA: 0x181841110
 	|-Array.InternalArray__IndexOf<KeyValuePair<uint, float>>
 	|
-	|-RVA: 0x183C7A0 Offset: 0x183ADA0 VA: 0x18183C7A0
+	|-RVA: 0x183C6A0 Offset: 0x183ACA0 VA: 0x18183C6A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<uint, ushort>>
 	|
-	|-RVA: 0x1846880 Offset: 0x1844E80 VA: 0x181846880
+	|-RVA: 0x1846780 Offset: 0x1844D80 VA: 0x181846780
 	|-Array.InternalArray__IndexOf<KeyValuePair<uint, uint>>
 	|
-	|-RVA: 0x1839E00 Offset: 0x1838400 VA: 0x181839E00
+	|-RVA: 0x1839D00 Offset: 0x1838300 VA: 0x181839D00
 	|-Array.InternalArray__IndexOf<KeyValuePair<uint, ulong>>
 	|
-	|-RVA: 0x18437C0 Offset: 0x1841DC0 VA: 0x1818437C0
+	|-RVA: 0x18436C0 Offset: 0x1841CC0 VA: 0x1818436C0
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, AvatarCache.Entry>>
 	|
-	|-RVA: 0x184A6B0 Offset: 0x1848CB0 VA: 0x18184A6B0
+	|-RVA: 0x184A5B0 Offset: 0x1848BB0 VA: 0x18184A5B0
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, Chat.MuteEntry>>
 	|
-	|-RVA: 0x1849010 Offset: 0x1847610 VA: 0x181849010
+	|-RVA: 0x1848F10 Offset: 0x1847510 VA: 0x181848F10
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, Dispatch.ResultCallback>>
 	|
-	|-RVA: 0x183D100 Offset: 0x183B700 VA: 0x18183D100
+	|-RVA: 0x183D000 Offset: 0x183B600 VA: 0x18183D000
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, bool>>
 	|
-	|-RVA: 0x1848460 Offset: 0x1846A60 VA: 0x181848460
+	|-RVA: 0x1848360 Offset: 0x1846960 VA: 0x181848360
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, Decimal>>
 	|
-	|-RVA: 0x183FD10 Offset: 0x183E310 VA: 0x18183FD10
+	|-RVA: 0x183FC10 Offset: 0x183E210 VA: 0x18183FC10
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, double>>
 	|
-	|-RVA: 0x184C4A0 Offset: 0x184AAA0 VA: 0x18184C4A0
+	|-RVA: 0x184C3A0 Offset: 0x184A9A0 VA: 0x18184C3A0
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, short>>
 	|
-	|-RVA: 0x184A130 Offset: 0x1848730 VA: 0x18184A130
+	|-RVA: 0x184A030 Offset: 0x1848630 VA: 0x18184A030
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, int>>
 	|
-	|-RVA: 0x184A310 Offset: 0x1848910 VA: 0x18184A310
+	|-RVA: 0x184A210 Offset: 0x1848810 VA: 0x18184A210
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, long>>
 	|
-	|-RVA: 0x1847580 Offset: 0x1845B80 VA: 0x181847580
+	|-RVA: 0x1847480 Offset: 0x1845A80 VA: 0x181847480
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, object>>
 	|
-	|-RVA: 0x184D060 Offset: 0x184B660 VA: 0x18184D060
+	|-RVA: 0x184CF60 Offset: 0x184B560 VA: 0x18184CF60
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, float>>
 	|
-	|-RVA: 0x184AC30 Offset: 0x1849230 VA: 0x18184AC30
+	|-RVA: 0x184AB30 Offset: 0x1849130 VA: 0x18184AB30
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, ushort>>
 	|
-	|-RVA: 0x184B960 Offset: 0x1849F60 VA: 0x18184B960
+	|-RVA: 0x184B860 Offset: 0x1849E60 VA: 0x18184B860
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, uint>>
 	|
-	|-RVA: 0x1848E30 Offset: 0x1847430 VA: 0x181848E30
+	|-RVA: 0x1848D30 Offset: 0x1847330 VA: 0x181848D30
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, ulong>>
 	|
-	|-RVA: 0x1844FE0 Offset: 0x18435E0 VA: 0x181844FE0
+	|-RVA: 0x1844EE0 Offset: 0x18434E0 VA: 0x181844EE0
 	|-Array.InternalArray__IndexOf<KeyValuePair<ulong, TimeSince>>
 	|
-	|-RVA: 0x1849D90 Offset: 0x1848390 VA: 0x181849D90
+	|-RVA: 0x1849C90 Offset: 0x1848290 VA: 0x181849C90
 	|-Array.InternalArray__IndexOf<KeyValuePair<ValueTuple<Int32Enum, int>, object>>
 	|
-	|-RVA: 0x183BA20 Offset: 0x183A020 VA: 0x18183BA20
+	|-RVA: 0x183B920 Offset: 0x1839F20 VA: 0x18183B920
 	|-Array.InternalArray__IndexOf<KeyValuePair<Color, object>>
 	|
-	|-RVA: 0x183AB20 Offset: 0x1839120 VA: 0x18183AB20
+	|-RVA: 0x183AA20 Offset: 0x1839020 VA: 0x18183AA20
 	|-Array.InternalArray__IndexOf<KeyValuePair<TerrainUtility.TerrainMap.TileCoord, object>>
 	|
-	|-RVA: 0x18419B0 Offset: 0x183FFB0 VA: 0x1818419B0
+	|-RVA: 0x18418B0 Offset: 0x183FEB0 VA: 0x1818418B0
 	|-Array.InternalArray__IndexOf<KeyValuePair<StyleSheetCache.SheetHandleKey, int>>
 	|
-	|-RVA: 0x1847760 Offset: 0x1845D60 VA: 0x181847760
+	|-RVA: 0x1847660 Offset: 0x1845C60 VA: 0x181847660
 	|-Array.InternalArray__IndexOf<KeyValuePair<StyleSheetCache.SheetHandleKey, object>>
 	|
-	|-RVA: 0x1842120 Offset: 0x1840720 VA: 0x181842120
+	|-RVA: 0x1842020 Offset: 0x1840620 VA: 0x181842020
 	|-Array.InternalArray__IndexOf<KeyValuePair<Vector2i, object>>
 	|
-	|-RVA: 0x183E980 Offset: 0x183CF80 VA: 0x18183E980
+	|-RVA: 0x183E880 Offset: 0x183CE80 VA: 0x18183E880
 	|-Array.InternalArray__IndexOf<KeyValuePair<ViewModelDrawEvent, int>>
 	|
-	|-RVA: 0x1851CE0 Offset: 0x18502E0 VA: 0x181851CE0
+	|-RVA: 0x1851BE0 Offset: 0x18501E0 VA: 0x181851BE0
 	|-Array.InternalArray__IndexOf<Hashtable.bucket>
 	|
-	|-RVA: 0x18337E0 Offset: 0x1831DE0 VA: 0x1818337E0
+	|-RVA: 0x18336E0 Offset: 0x1831CE0 VA: 0x1818336E0
 	|-Array.InternalArray__IndexOf<AttributeCollection.AttributeEntry>
 	|
-	|-RVA: 0x184EA10 Offset: 0x184D010 VA: 0x18184EA10
+	|-RVA: 0x184E910 Offset: 0x184CF10 VA: 0x18184E910
 	|-Array.InternalArray__IndexOf<SchemaInfo>
 	|
-	|-RVA: 0x1833B30 Offset: 0x1832130 VA: 0x181833B30
+	|-RVA: 0x1833A30 Offset: 0x1832030 VA: 0x181833A30
 	|-Array.InternalArray__IndexOf<DataError.ColumnError>
 	|
-	|-RVA: 0x184E3B0 Offset: 0x184C9B0 VA: 0x18184E3B0
+	|-RVA: 0x184E2B0 Offset: 0x184C8B0 VA: 0x18184E2B0
 	|-Array.InternalArray__IndexOf<ExpressionParser.ReservedWords>
 	|
-	|-RVA: 0x1837890 Offset: 0x1835E90 VA: 0x181837890
+	|-RVA: 0x1837790 Offset: 0x1835D90 VA: 0x181837790
 	|-Array.InternalArray__IndexOf<IndexField>
 	|
-	|-RVA: 0x184DE10 Offset: 0x184C410 VA: 0x18184DE10
+	|-RVA: 0x184DD10 Offset: 0x184C310 VA: 0x18184DD10
 	|-Array.InternalArray__IndexOf<RBTree.Node<int>>
 	|
-	|-RVA: 0x184DBF0 Offset: 0x184C1F0 VA: 0x18184DBF0
+	|-RVA: 0x184DAF0 Offset: 0x184C0F0 VA: 0x18184DAF0
 	|-Array.InternalArray__IndexOf<RBTree.Node<object>>
 	|
-	|-RVA: 0x1850540 Offset: 0x184EB40 VA: 0x181850540
+	|-RVA: 0x1850440 Offset: 0x184EA40 VA: 0x181850440
 	|-Array.InternalArray__IndexOf<SqlBinary>
 	|
-	|-RVA: 0x1850690 Offset: 0x184EC90 VA: 0x181850690
+	|-RVA: 0x1850590 Offset: 0x184EB90 VA: 0x181850590
 	|-Array.InternalArray__IndexOf<SqlBoolean>
 	|
-	|-RVA: 0x18507E0 Offset: 0x184EDE0 VA: 0x1818507E0
+	|-RVA: 0x18506E0 Offset: 0x184ECE0 VA: 0x1818506E0
 	|-Array.InternalArray__IndexOf<SqlByte>
 	|
-	|-RVA: 0x1850930 Offset: 0x184EF30 VA: 0x181850930
+	|-RVA: 0x1850830 Offset: 0x184EE30 VA: 0x181850830
 	|-Array.InternalArray__IndexOf<SqlDateTime>
 	|
-	|-RVA: 0x1850AA0 Offset: 0x184F0A0 VA: 0x181850AA0
+	|-RVA: 0x18509A0 Offset: 0x184EFA0 VA: 0x1818509A0
 	|-Array.InternalArray__IndexOf<SqlDecimal>
 	|
-	|-RVA: 0x1850C10 Offset: 0x184F210 VA: 0x181850C10
+	|-RVA: 0x1850B10 Offset: 0x184F110 VA: 0x181850B10
 	|-Array.InternalArray__IndexOf<SqlDouble>
 	|
-	|-RVA: 0x1850D80 Offset: 0x184F380 VA: 0x181850D80
+	|-RVA: 0x1850C80 Offset: 0x184F280 VA: 0x181850C80
 	|-Array.InternalArray__IndexOf<SqlGuid>
 	|
-	|-RVA: 0x1850ED0 Offset: 0x184F4D0 VA: 0x181850ED0
+	|-RVA: 0x1850DD0 Offset: 0x184F3D0 VA: 0x181850DD0
 	|-Array.InternalArray__IndexOf<SqlInt16>
 	|
-	|-RVA: 0x1851020 Offset: 0x184F620 VA: 0x181851020
+	|-RVA: 0x1850F20 Offset: 0x184F520 VA: 0x181850F20
 	|-Array.InternalArray__IndexOf<SqlInt32>
 	|
-	|-RVA: 0x1851170 Offset: 0x184F770 VA: 0x181851170
+	|-RVA: 0x1851070 Offset: 0x184F670 VA: 0x181851070
 	|-Array.InternalArray__IndexOf<SqlInt64>
 	|
-	|-RVA: 0x18512E0 Offset: 0x184F8E0 VA: 0x1818512E0
+	|-RVA: 0x18511E0 Offset: 0x184F7E0 VA: 0x1818511E0
 	|-Array.InternalArray__IndexOf<SqlMoney>
 	|
-	|-RVA: 0x1851450 Offset: 0x184FA50 VA: 0x181851450
+	|-RVA: 0x1851350 Offset: 0x184F950 VA: 0x181851350
 	|-Array.InternalArray__IndexOf<SqlSingle>
 	|
-	|-RVA: 0x18515A0 Offset: 0x184FBA0 VA: 0x1818515A0
+	|-RVA: 0x18514A0 Offset: 0x184FAA0 VA: 0x1818514A0
 	|-Array.InternalArray__IndexOf<SqlString>
 	|
-	|-RVA: 0x1834170 Offset: 0x1832770 VA: 0x181834170
+	|-RVA: 0x1834070 Offset: 0x1832670 VA: 0x181834070
 	|-Array.InternalArray__IndexOf<DateTime>
 	|
-	|-RVA: 0x1834000 Offset: 0x1832600 VA: 0x181834000
+	|-RVA: 0x1833F00 Offset: 0x1832500 VA: 0x181833F00
 	|-Array.InternalArray__IndexOf<DateTimeOffset>
 	|
-	|-RVA: 0x18342C0 Offset: 0x18328C0 VA: 0x1818342C0
+	|-RVA: 0x18341C0 Offset: 0x18327C0 VA: 0x1818341C0
 	|-Array.InternalArray__IndexOf<Decimal>
 	|
-	|-RVA: 0x184EC10 Offset: 0x184D210 VA: 0x18184EC10
+	|-RVA: 0x184EB10 Offset: 0x184D110 VA: 0x18184EB10
 	|-Array.InternalArray__IndexOf<EventProvider.SessionInfo>
 	|
-	|-RVA: 0x1836FD0 Offset: 0x18355D0 VA: 0x181836FD0
+	|-RVA: 0x1836ED0 Offset: 0x18354D0 VA: 0x181836ED0
 	|-Array.InternalArray__IndexOf<EventSource.EventMetadata>
 	|
-	|-RVA: 0x1834430 Offset: 0x1832A30 VA: 0x181834430
+	|-RVA: 0x1834330 Offset: 0x1832930 VA: 0x181834330
 	|-Array.InternalArray__IndexOf<double>
 	|
-	|-RVA: 0x18380F0 Offset: 0x18366F0 VA: 0x1818380F0
+	|-RVA: 0x1837FF0 Offset: 0x18365F0 VA: 0x181837FF0
 	|-Array.InternalArray__IndexOf<InternalCodePageDataItem>
 	|
-	|-RVA: 0x18382D0 Offset: 0x18368D0 VA: 0x1818382D0
+	|-RVA: 0x18381D0 Offset: 0x18367D0 VA: 0x1818381D0
 	|-Array.InternalArray__IndexOf<InternalEncodingDataItem>
 	|
-	|-RVA: 0x1851720 Offset: 0x184FD20 VA: 0x181851720
+	|-RVA: 0x1851620 Offset: 0x184FC20 VA: 0x181851620
 	|-Array.InternalArray__IndexOf<TimeSpanParse.TimeSpanToken>
 	|
-	|-RVA: 0x1837540 Offset: 0x1835B40 VA: 0x181837540
+	|-RVA: 0x1837440 Offset: 0x1835A40 VA: 0x181837440
 	|-Array.InternalArray__IndexOf<Guid>
 	|
-	|-RVA: 0x1837A00 Offset: 0x1836000 VA: 0x181837A00
+	|-RVA: 0x1837900 Offset: 0x1835F00 VA: 0x181837900
 	|-Array.InternalArray__IndexOf<short>
 	|
-	|-RVA: 0x1837D00 Offset: 0x1836300 VA: 0x181837D00
+	|-RVA: 0x1837C00 Offset: 0x1836200 VA: 0x181837C00
 	|-Array.InternalArray__IndexOf<int>
 	|
-	|-RVA: 0x1837B50 Offset: 0x1836150 VA: 0x181837B50
+	|-RVA: 0x1837A50 Offset: 0x1836050 VA: 0x181837A50
 	|-Array.InternalArray__IndexOf<Int32Enum>
 	|
-	|-RVA: 0x1837E50 Offset: 0x1836450 VA: 0x181837E50
+	|-RVA: 0x1837D50 Offset: 0x1836350 VA: 0x181837D50
 	|-Array.InternalArray__IndexOf<long>
 	|
-	|-RVA: 0x1837FA0 Offset: 0x18365A0 VA: 0x181837FA0
+	|-RVA: 0x1837EA0 Offset: 0x18364A0 VA: 0x181837EA0
 	|-Array.InternalArray__IndexOf<IntPtr>
 	|
-	|-RVA: 0x184F130 Offset: 0x184D730 VA: 0x18184F130
+	|-RVA: 0x184F030 Offset: 0x184D630 VA: 0x18184F030
 	|-Array.InternalArray__IndexOf<Set.Slot<ServerInfo>>
 	|
-	|-RVA: 0x184F7A0 Offset: 0x184DDA0 VA: 0x18184F7A0
+	|-RVA: 0x184F6A0 Offset: 0x184DCA0 VA: 0x18184F6A0
 	|-Array.InternalArray__IndexOf<Set.Slot<char>>
 	|
-	|-RVA: 0x1850140 Offset: 0x184E740 VA: 0x181850140
+	|-RVA: 0x1850040 Offset: 0x184E640 VA: 0x181850040
 	|-Array.InternalArray__IndexOf<Set.Slot<object>>
 	|
-	|-RVA: 0x184EF40 Offset: 0x184D540 VA: 0x18184EF40
+	|-RVA: 0x184EE40 Offset: 0x184D440 VA: 0x18184EE40
 	|-Array.InternalArray__IndexOf<Set.Slot<float>>
 	|
-	|-RVA: 0x184FD70 Offset: 0x184E370 VA: 0x18184FD70
+	|-RVA: 0x184FC70 Offset: 0x184E270 VA: 0x18184FC70
 	|-Array.InternalArray__IndexOf<Set.Slot<Vector2>>
 	|
-	|-RVA: 0x184E1D0 Offset: 0x184C7D0 VA: 0x18184E1D0
+	|-RVA: 0x184E0D0 Offset: 0x184C6D0 VA: 0x18184E0D0
 	|-Array.InternalArray__IndexOf<CookieTokenizer.RecognizedAttribute>
 	|
-	|-RVA: 0x18376B0 Offset: 0x1835CB0 VA: 0x1818376B0
+	|-RVA: 0x18375B0 Offset: 0x1835BB0 VA: 0x1818375B0
 	|-Array.InternalArray__IndexOf<HeaderVariantInfo>
 	|
-	|-RVA: 0x1851920 Offset: 0x184FF20 VA: 0x181851920
+	|-RVA: 0x1851820 Offset: 0x184FE20 VA: 0x181851820
 	|-Array.InternalArray__IndexOf<Socket.WSABUF>
 	|
-	|-RVA: 0x18339C0 Offset: 0x1831FC0 VA: 0x1818339C0
+	|-RVA: 0x18338C0 Offset: 0x1831EC0 VA: 0x1818338C0
 	|-Array.InternalArray__IndexOf<BigInteger>
 	|
-	|-RVA: 0x184E770 Offset: 0x184CD70 VA: 0x18184E770
+	|-RVA: 0x184E670 Offset: 0x184CC70 VA: 0x18184E670
 	|-Array.InternalArray__IndexOf<object>
 	|
-	|-RVA: 0x1837210 Offset: 0x1835810 VA: 0x181837210
+	|-RVA: 0x1837110 Offset: 0x1835710 VA: 0x181837110
 	|-Array.InternalArray__IndexOf<ParameterizedStrings.FormatParam>
 	|
-	|-RVA: 0x1833D10 Offset: 0x1832310 VA: 0x181833D10
+	|-RVA: 0x1833C10 Offset: 0x1832210 VA: 0x181833C10
 	|-Array.InternalArray__IndexOf<CustomAttributeNamedArgument>
 	|
-	|-RVA: 0x1833E90 Offset: 0x1832490 VA: 0x181833E90
+	|-RVA: 0x1833D90 Offset: 0x1832390 VA: 0x181833D90
 	|-Array.InternalArray__IndexOf<CustomAttributeTypedArgument>
 	|
-	|-RVA: 0x184E010 Offset: 0x184C610 VA: 0x18184E010
+	|-RVA: 0x184DF10 Offset: 0x184C510 VA: 0x18184DF10
 	|-Array.InternalArray__IndexOf<ParameterModifier>
 	|
-	|-RVA: 0x184E590 Offset: 0x184CB90 VA: 0x18184E590
+	|-RVA: 0x184E490 Offset: 0x184CA90 VA: 0x18184E490
 	|-Array.InternalArray__IndexOf<ResourceLocator>
 	|
-	|-RVA: 0x1836DF0 Offset: 0x18353F0 VA: 0x181836DF0
+	|-RVA: 0x1836CF0 Offset: 0x18352F0 VA: 0x181836CF0
 	|-Array.InternalArray__IndexOf<Ephemeron>
 	|
-	|-RVA: 0x18373F0 Offset: 0x18359F0 VA: 0x1818373F0
+	|-RVA: 0x18372F0 Offset: 0x18358F0 VA: 0x1818372F0
 	|-Array.InternalArray__IndexOf<GCHandle>
 	|
-	|-RVA: 0x184E8B0 Offset: 0x184CEB0 VA: 0x18184E8B0
+	|-RVA: 0x184E7B0 Offset: 0x184CDB0 VA: 0x18184E7B0
 	|-Array.InternalArray__IndexOf<sbyte>
 	|
-	|-RVA: 0x1851B00 Offset: 0x1850100 VA: 0x181851B00
+	|-RVA: 0x1851A00 Offset: 0x1850000 VA: 0x181851A00
 	|-Array.InternalArray__IndexOf<X509ChainStatus>
 	|
-	|-RVA: 0x184EDD0 Offset: 0x184D3D0 VA: 0x18184EDD0
+	|-RVA: 0x184ECD0 Offset: 0x184D2D0 VA: 0x18184ECD0
 	|-Array.InternalArray__IndexOf<float>
 	|
-	|-RVA: 0x184DA00 Offset: 0x184C000 VA: 0x18184DA00
+	|-RVA: 0x184D900 Offset: 0x184BF00 VA: 0x18184D900
 	|-Array.InternalArray__IndexOf<RegexCharClass.LowerCaseMapping>
 	|
-	|-RVA: 0xEC3650 Offset: 0xEC1C50 VA: 0x180EC3650
+	|-RVA: 0xEC3550 Offset: 0xEC1B50 VA: 0x180EC3550
 	|-Array.InternalArray__IndexOf<CancellationTokenRegistration>
 	|
-	|-RVA: 0xEC6A80 Offset: 0xEC5080 VA: 0x180EC6A80
+	|-RVA: 0xEC6980 Offset: 0xEC4F80 VA: 0x180EC6980
 	|-Array.InternalArray__IndexOf<ThreadLocal.LinkedSlotVolatile<object>>
 	|
-	|-RVA: 0xECC770 Offset: 0xECAD70 VA: 0x180ECC770
+	|-RVA: 0xECC670 Offset: 0xECAC70 VA: 0x180ECC670
 	|-Array.InternalArray__IndexOf<TimeSpan>
 	|
-	|-RVA: 0xECD9A0 Offset: 0xECBFA0 VA: 0x180ECD9A0
+	|-RVA: 0xECD8A0 Offset: 0xECBEA0 VA: 0x180ECD8A0
 	|-Array.InternalArray__IndexOf<ushort>
 	|
-	|-RVA: 0xECD7F0 Offset: 0xECBDF0 VA: 0x180ECD7F0
+	|-RVA: 0xECD6F0 Offset: 0xECBCF0 VA: 0x180ECD6F0
 	|-Array.InternalArray__IndexOf<UInt16Enum>
 	|
-	|-RVA: 0xECDCA0 Offset: 0xECC2A0 VA: 0x180ECDCA0
+	|-RVA: 0xECDBA0 Offset: 0xECC1A0 VA: 0x180ECDBA0
 	|-Array.InternalArray__IndexOf<uint>
 	|
-	|-RVA: 0xECDAF0 Offset: 0xECC0F0 VA: 0x180ECDAF0
+	|-RVA: 0xECD9F0 Offset: 0xECBFF0 VA: 0x180ECD9F0
 	|-Array.InternalArray__IndexOf<UInt32Enum>
 	|
-	|-RVA: 0xECDDF0 Offset: 0xECC3F0 VA: 0x180ECDDF0
+	|-RVA: 0xECDCF0 Offset: 0xECC2F0 VA: 0x180ECDCF0
 	|-Array.InternalArray__IndexOf<ulong>
 	|
-	|-RVA: 0xECDF40 Offset: 0xECC540 VA: 0x180ECDF40
+	|-RVA: 0xECDE40 Offset: 0xECC440 VA: 0x180ECDE40
 	|-Array.InternalArray__IndexOf<UIntPtr>
 	|
-	|-RVA: 0xECE280 Offset: 0xECC880 VA: 0x180ECE280
+	|-RVA: 0xECE180 Offset: 0xECC780 VA: 0x180ECE180
 	|-Array.InternalArray__IndexOf<ValueTuple<Int32Enum, int>>
 	|
-	|-RVA: 0xECE440 Offset: 0xECCA40 VA: 0x180ECE440
+	|-RVA: 0xECE340 Offset: 0xECC940 VA: 0x180ECE340
 	|-Array.InternalArray__IndexOf<ValueTuple<object, object>>
 	|
-	|-RVA: 0xEC4970 Offset: 0xEC2F70 VA: 0x180EC4970
+	|-RVA: 0xEC4870 Offset: 0xEC2E70 VA: 0x180EC4870
 	|-Array.InternalArray__IndexOf<XHashtable.XHashtableState.Entry<object>>
 	|
-	|-RVA: 0xEC6C40 Offset: 0xEC5240 VA: 0x180EC6C40
+	|-RVA: 0xEC6B40 Offset: 0xEC5140 VA: 0x180EC6B40
 	|-Array.InternalArray__IndexOf<FacetsChecker.FacetsCompiler.Map>
 	|
-	|-RVA: 0xEC9000 Offset: 0xEC7600 VA: 0x180EC9000
+	|-RVA: 0xEC8F00 Offset: 0xEC7500 VA: 0x180EC8F00
 	|-Array.InternalArray__IndexOf<RangePositionInfo>
 	|
-	|-RVA: 0xECA7D0 Offset: 0xEC8DD0 VA: 0x180ECA7D0
+	|-RVA: 0xECA6D0 Offset: 0xEC8CD0 VA: 0x180ECA6D0
 	|-Array.InternalArray__IndexOf<SequenceNode.SequenceConstructPosContext>
 	|
-	|-RVA: 0xECF600 Offset: 0xECDC00 VA: 0x180ECF600
+	|-RVA: 0xECF500 Offset: 0xECDB00 VA: 0x180ECF500
 	|-Array.InternalArray__IndexOf<XmlSchemaObjectTable.XmlSchemaObjectEntry>
 	|
-	|-RVA: 0xECF3E0 Offset: 0xECD9E0 VA: 0x180ECF3E0
+	|-RVA: 0xECF2E0 Offset: 0xECD8E0 VA: 0x180ECF2E0
 	|-Array.InternalArray__IndexOf<XmlEventCache.XmlEvent>
 	|
-	|-RVA: 0xEC7400 Offset: 0xEC5A00 VA: 0x180EC7400
+	|-RVA: 0xEC7300 Offset: 0xEC5900 VA: 0x180EC7300
 	|-Array.InternalArray__IndexOf<XmlNamespaceManager.NamespaceDeclaration>
 	|
-	|-RVA: 0xECF000 Offset: 0xECD600 VA: 0x180ECF000
+	|-RVA: 0xECEF00 Offset: 0xECD500 VA: 0x180ECEF00
 	|-Array.InternalArray__IndexOf<XmlNodeReaderNavigator.VirtualAttribute>
 	|
-	|-RVA: 0xEC2AF0 Offset: 0xEC10F0 VA: 0x180EC2AF0
+	|-RVA: 0xEC29F0 Offset: 0xEC0FF0 VA: 0x180EC29F0
 	|-Array.InternalArray__IndexOf<XmlSqlBinaryReader.AttrInfo>
 	|
-	|-RVA: 0xEC4510 Offset: 0xEC2B10 VA: 0x180EC4510
+	|-RVA: 0xEC4410 Offset: 0xEC2A10 VA: 0x180EC4410
 	|-Array.InternalArray__IndexOf<XmlSqlBinaryReader.ElemInfo>
 	|
-	|-RVA: 0xEC8D10 Offset: 0xEC7310 VA: 0x180EC8D10
+	|-RVA: 0xEC8C10 Offset: 0xEC7210 VA: 0x180EC8C10
 	|-Array.InternalArray__IndexOf<XmlSqlBinaryReader.QName>
 	|
-	|-RVA: 0xEC8250 Offset: 0xEC6850 VA: 0x180EC8250
+	|-RVA: 0xEC8150 Offset: 0xEC6750 VA: 0x180EC8150
 	|-Array.InternalArray__IndexOf<XmlTextReaderImpl.ParsingState>
 	|
-	|-RVA: 0xEC7600 Offset: 0xEC5C00 VA: 0x180EC7600
+	|-RVA: 0xEC7500 Offset: 0xEC5B00 VA: 0x180EC7500
 	|-Array.InternalArray__IndexOf<XmlTextWriter.Namespace>
 	|
-	|-RVA: 0xECC190 Offset: 0xECA790 VA: 0x180ECC190
+	|-RVA: 0xECC090 Offset: 0xECA690 VA: 0x180ECC090
 	|-Array.InternalArray__IndexOf<XmlTextWriter.TagInfo>
 	|
-	|-RVA: 0xEC2D20 Offset: 0xEC1320 VA: 0x180EC2D20
+	|-RVA: 0xEC2C20 Offset: 0xEC1220 VA: 0x180EC2C20
 	|-Array.InternalArray__IndexOf<XmlWellFormedWriter.AttrName>
 	|
-	|-RVA: 0xEC4740 Offset: 0xEC2D40 VA: 0x180EC4740
+	|-RVA: 0xEC4640 Offset: 0xEC2C40 VA: 0x180EC4640
 	|-Array.InternalArray__IndexOf<XmlWellFormedWriter.ElementScope>
 	|
-	|-RVA: 0xEC7800 Offset: 0xEC5E00 VA: 0x180EC7800
+	|-RVA: 0xEC7700 Offset: 0xEC5D00 VA: 0x180EC7700
 	|-Array.InternalArray__IndexOf<XmlWellFormedWriter.Namespace>
 	|
-	|-RVA: 0xEC7020 Offset: 0xEC5620 VA: 0x180EC7020
+	|-RVA: 0xEC6F20 Offset: 0xEC5520 VA: 0x180EC6F20
 	|-Array.InternalArray__IndexOf<MaterialReference>
 	|
-	|-RVA: 0xECA210 Offset: 0xEC8810 VA: 0x180ECA210
+	|-RVA: 0xECA110 Offset: 0xEC8710 VA: 0x180ECA110
 	|-Array.InternalArray__IndexOf<RichTextTagAttribute>
 	|
-	|-RVA: 0xECB1B0 Offset: 0xEC97B0 VA: 0x180ECB1B0
+	|-RVA: 0xECB0B0 Offset: 0xEC96B0 VA: 0x180ECB0B0
 	|-Array.InternalArray__IndexOf<TMP_CharacterInfo>
 	|
-	|-RVA: 0xECB4B0 Offset: 0xEC9AB0 VA: 0x180ECB4B0
+	|-RVA: 0xECB3B0 Offset: 0xEC99B0 VA: 0x180ECB3B0
 	|-Array.InternalArray__IndexOf<TMP_FontWeightPair>
 	|
-	|-RVA: 0xECB690 Offset: 0xEC9C90 VA: 0x180ECB690
+	|-RVA: 0xECB590 Offset: 0xEC9B90 VA: 0x180ECB590
 	|-Array.InternalArray__IndexOf<TMP_LineInfo>
 	|
-	|-RVA: 0xECB900 Offset: 0xEC9F00 VA: 0x180ECB900
+	|-RVA: 0xECB800 Offset: 0xEC9E00 VA: 0x180ECB800
 	|-Array.InternalArray__IndexOf<TMP_LinkInfo>
 	|
-	|-RVA: 0xECBB20 Offset: 0xECA120 VA: 0x180ECBB20
+	|-RVA: 0xECBA20 Offset: 0xECA020 VA: 0x180ECBA20
 	|-Array.InternalArray__IndexOf<TMP_MeshInfo>
 	|
-	|-RVA: 0xECBD90 Offset: 0xECA390 VA: 0x180ECBD90
+	|-RVA: 0xECBC90 Offset: 0xECA290 VA: 0x180ECBC90
 	|-Array.InternalArray__IndexOf<TMP_PageInfo>
 	|
-	|-RVA: 0xECE090 Offset: 0xECC690 VA: 0x180ECE090
+	|-RVA: 0xECDF90 Offset: 0xECC590 VA: 0x180ECDF90
 	|-Array.InternalArray__IndexOf<TMP_Text.UnicodeChar>
 	|
-	|-RVA: 0xECBF90 Offset: 0xECA590 VA: 0x180ECBF90
+	|-RVA: 0xECBE90 Offset: 0xECA490 VA: 0x180ECBE90
 	|-Array.InternalArray__IndexOf<TMP_WordInfo>
 	|
-	|-RVA: 0xECA410 Offset: 0xEC8A10 VA: 0x180ECA410
+	|-RVA: 0xECA310 Offset: 0xEC8910 VA: 0x180ECA310
 	|-Array.InternalArray__IndexOf<TickInterpolator.Segment>
 	|
-	|-RVA: 0xECC5A0 Offset: 0xECABA0 VA: 0x180ECC5A0
+	|-RVA: 0xECC4A0 Offset: 0xECAAA0 VA: 0x180ECC4A0
 	|-Array.InternalArray__IndexOf<TimeSince>
 	|
-	|-RVA: 0xECCB20 Offset: 0xECB120 VA: 0x180ECCB20
+	|-RVA: 0xECCA20 Offset: 0xECB020 VA: 0x180ECCA20
 	|-Array.InternalArray__IndexOf<TraceInfo>
 	|
-	|-RVA: 0xECCD90 Offset: 0xECB390 VA: 0x180ECCD90
+	|-RVA: 0xECCC90 Offset: 0xECB290 VA: 0x180ECCC90
 	|-Array.InternalArray__IndexOf<TrainCar.TrainCarSnapshot>
 	|
-	|-RVA: 0xEC4F10 Offset: 0xEC3510 VA: 0x180EC4F10
+	|-RVA: 0xEC4E10 Offset: 0xEC3410 VA: 0x180EC4E10
 	|-Array.InternalArray__IndexOf<TreeMarkerData.GenerationArc>
 	|
-	|-RVA: 0xEC6E20 Offset: 0xEC5420 VA: 0x180EC6E20
+	|-RVA: 0xEC6D20 Offset: 0xEC5320 VA: 0x180EC6D20
 	|-Array.InternalArray__IndexOf<TreeMarkerData.MarkerLocation>
 	|
-	|-RVA: 0xEC9FE0 Offset: 0xEC85E0 VA: 0x180EC9FE0
+	|-RVA: 0xEC9EE0 Offset: 0xEC84E0 VA: 0x180EC9EE0
 	|-Array.InternalArray__IndexOf<UIDeathScreen.RespawnColourScheme>
 	|
-	|-RVA: 0xEC5E80 Offset: 0xEC4480 VA: 0x180EC5E80
+	|-RVA: 0xEC5D80 Offset: 0xEC4380 VA: 0x180EC5D80
 	|-Array.InternalArray__IndexOf<JobHandle>
 	|
-	|-RVA: 0xECF7E0 Offset: 0xECDDE0 VA: 0x180ECF7E0
+	|-RVA: 0xECF6E0 Offset: 0xECDCE0 VA: 0x180ECF6E0
 	|-Array.InternalArray__IndexOf<float3>
 	|
-	|-RVA: 0xECF950 Offset: 0xECDF50 VA: 0x180ECF950
+	|-RVA: 0xECF850 Offset: 0xECDE50 VA: 0x180ECF850
 	|-Array.InternalArray__IndexOf<half2>
 	|
-	|-RVA: 0xEC7A00 Offset: 0xEC6000 VA: 0x180EC7A00
+	|-RVA: 0xEC7900 Offset: 0xEC5F00 VA: 0x180EC7900
 	|-Array.InternalArray__IndexOf<NavMeshBuildMarkup>
 	|
-	|-RVA: 0xEC7BE0 Offset: 0xEC61E0 VA: 0x180EC7BE0
+	|-RVA: 0xEC7AE0 Offset: 0xEC60E0 VA: 0x180EC7AE0
 	|-Array.InternalArray__IndexOf<NavMeshBuildSource>
 	|
-	|-RVA: 0xEC2750 Offset: 0xEC0D50 VA: 0x180EC2750
+	|-RVA: 0xEC2650 Offset: 0xEC0C50 VA: 0x180EC2650
 	|-Array.InternalArray__IndexOf<AnimatorClipInfo>
 	|
-	|-RVA: 0xEC8070 Offset: 0xEC6670 VA: 0x180EC8070
+	|-RVA: 0xEC7F70 Offset: 0xEC6570 VA: 0x180EC7F70
 	|-Array.InternalArray__IndexOf<BeforeRenderHelper.OrderBlock>
 	|
-	|-RVA: 0xEC3110 Offset: 0xEC1710 VA: 0x180EC3110
+	|-RVA: 0xEC3010 Offset: 0xEC1610 VA: 0x180EC3010
 	|-Array.InternalArray__IndexOf<BoneWeight>
 	|
-	|-RVA: 0xEC3290 Offset: 0xEC1890 VA: 0x180EC3290
+	|-RVA: 0xEC3190 Offset: 0xEC1790 VA: 0x180EC3190
 	|-Array.InternalArray__IndexOf<BoundingSphere>
 	|
-	|-RVA: 0xEC37D0 Offset: 0xEC1DD0 VA: 0x180EC37D0
+	|-RVA: 0xEC36D0 Offset: 0xEC1CD0 VA: 0x180EC36D0
 	|-Array.InternalArray__IndexOf<Color32>
 	|
-	|-RVA: 0xEC3B70 Offset: 0xEC2170 VA: 0x180EC3B70
+	|-RVA: 0xEC3A70 Offset: 0xEC2070 VA: 0x180EC3A70
 	|-Array.InternalArray__IndexOf<Color>
 	|
-	|-RVA: 0xEC3CE0 Offset: 0xEC22E0 VA: 0x180EC3CE0
+	|-RVA: 0xEC3BE0 Offset: 0xEC21E0 VA: 0x180EC3BE0
 	|-Array.InternalArray__IndexOf<ContactPoint2D>
 	|
-	|-RVA: 0xEC3F30 Offset: 0xEC2530 VA: 0x180EC3F30
+	|-RVA: 0xEC3E30 Offset: 0xEC2430 VA: 0x180EC3E30
 	|-Array.InternalArray__IndexOf<ContactPoint>
 	|
-	|-RVA: 0xEC9870 Offset: 0xEC7E70 VA: 0x180EC9870
+	|-RVA: 0xEC9770 Offset: 0xEC7D70 VA: 0x180EC9770
 	|-Array.InternalArray__IndexOf<RaycastResult>
 	|
-	|-RVA: 0xEC6800 Offset: 0xEC4E00 VA: 0x180EC6800
+	|-RVA: 0xEC6700 Offset: 0xEC4D00 VA: 0x180EC6700
 	|-Array.InternalArray__IndexOf<LightDataGI>
 	|
-	|-RVA: 0xECC3E0 Offset: 0xECA9E0 VA: 0x180ECC3E0
+	|-RVA: 0xECC2E0 Offset: 0xECA8E0 VA: 0x180ECC2E0
 	|-Array.InternalArray__IndexOf<TerrainUtility.TerrainMap.TileCoord>
 	|
-	|-RVA: 0xEC56D0 Offset: 0xEC3CD0 VA: 0x180EC56D0
+	|-RVA: 0xEC55D0 Offset: 0xEC3BD0 VA: 0x180EC55D0
 	|-Array.InternalArray__IndexOf<GradientAlphaKey>
 	|
-	|-RVA: 0xEC58A0 Offset: 0xEC3EA0 VA: 0x180EC58A0
+	|-RVA: 0xEC57A0 Offset: 0xEC3DA0 VA: 0x180EC57A0
 	|-Array.InternalArray__IndexOf<GradientColorKey>
 	|
-	|-RVA: 0xEC6060 Offset: 0xEC4660 VA: 0x180EC6060
+	|-RVA: 0xEC5F60 Offset: 0xEC4560 VA: 0x180EC5F60
 	|-Array.InternalArray__IndexOf<Keyframe>
 	|
-	|-RVA: 0xEC6280 Offset: 0xEC4880 VA: 0x180EC6280
+	|-RVA: 0xEC6180 Offset: 0xEC4780 VA: 0x180EC6180
 	|-Array.InternalArray__IndexOf<LOD>
 	|
-	|-RVA: 0xEC88D0 Offset: 0xEC6ED0 VA: 0x180EC88D0
+	|-RVA: 0xEC87D0 Offset: 0xEC6DD0 VA: 0x180EC87D0
 	|-Array.InternalArray__IndexOf<PlayerLoopSystem>
 	|
-	|-RVA: 0xEC7250 Offset: 0xEC5850 VA: 0x180EC7250
+	|-RVA: 0xEC7150 Offset: 0xEC5750 VA: 0x180EC7150
 	|-Array.InternalArray__IndexOf<Matrix4x4>
 	|
-	|-RVA: 0xEC84F0 Offset: 0xEC6AF0 VA: 0x180EC84F0
+	|-RVA: 0xEC83F0 Offset: 0xEC69F0 VA: 0x180EC83F0
 	|-Array.InternalArray__IndexOf<Plane>
 	|
-	|-RVA: 0xEC86D0 Offset: 0xEC6CD0 VA: 0x180EC86D0
+	|-RVA: 0xEC85D0 Offset: 0xEC6BD0 VA: 0x180EC85D0
 	|-Array.InternalArray__IndexOf<PlayableBinding>
 	|
-	|-RVA: 0xEC8E90 Offset: 0xEC7490 VA: 0x180EC8E90
+	|-RVA: 0xEC8D90 Offset: 0xEC7390 VA: 0x180EC8D90
 	|-Array.InternalArray__IndexOf<Quaternion>
 	|
-	|-RVA: 0xEC91E0 Offset: 0xEC77E0 VA: 0x180EC91E0
+	|-RVA: 0xEC90E0 Offset: 0xEC76E0 VA: 0x180EC90E0
 	|-Array.InternalArray__IndexOf<RaycastCommand>
 	|
-	|-RVA: 0xEC9400 Offset: 0xEC7A00 VA: 0x180EC9400
+	|-RVA: 0xEC9300 Offset: 0xEC7900 VA: 0x180EC9300
 	|-Array.InternalArray__IndexOf<RaycastHit2D>
 	|
-	|-RVA: 0xEC9620 Offset: 0xEC7C20 VA: 0x180EC9620
+	|-RVA: 0xEC9520 Offset: 0xEC7B20 VA: 0x180EC9520
 	|-Array.InternalArray__IndexOf<RaycastHit>
 	|
-	|-RVA: 0xEC9AE0 Offset: 0xEC80E0 VA: 0x180EC9AE0
+	|-RVA: 0xEC99E0 Offset: 0xEC7FE0 VA: 0x180EC99E0
 	|-Array.InternalArray__IndexOf<Rect>
 	|
-	|-RVA: 0xEC2910 Offset: 0xEC0F10 VA: 0x180EC2910
+	|-RVA: 0xEC2810 Offset: 0xEC0E10 VA: 0x180EC2810
 	|-Array.InternalArray__IndexOf<AsyncGPUReadbackRequest>
 	|
-	|-RVA: 0xEC2F20 Offset: 0xEC1520 VA: 0x180EC2F20
+	|-RVA: 0xEC2E20 Offset: 0xEC1420 VA: 0x180EC2E20
 	|-Array.InternalArray__IndexOf<BatchVisibility>
 	|
-	|-RVA: 0xEC6640 Offset: 0xEC4C40 VA: 0x180EC6640
+	|-RVA: 0xEC6540 Offset: 0xEC4B40 VA: 0x180EC6540
 	|-Array.InternalArray__IndexOf<BloomRenderer.Level>
 	|
-	|-RVA: 0xEC9C50 Offset: 0xEC8250 VA: 0x180EC9C50
+	|-RVA: 0xEC9B50 Offset: 0xEC8150 VA: 0x180EC9B50
 	|-Array.InternalArray__IndexOf<RenderTargetIdentifier>
 	|
-	|-RVA: 0xECABB0 Offset: 0xEC91B0 VA: 0x180ECABB0
+	|-RVA: 0xECAAB0 Offset: 0xEC90B0 VA: 0x180ECAAB0
 	|-Array.InternalArray__IndexOf<SphericalHarmonicsL2>
 	|
-	|-RVA: 0xECECF0 Offset: 0xECD2F0 VA: 0x180ECECF0
+	|-RVA: 0xECEBF0 Offset: 0xECD1F0 VA: 0x180ECEBF0
 	|-Array.InternalArray__IndexOf<VertexAttributeDescriptor>
 	|
-	|-RVA: 0xEC9DF0 Offset: 0xEC83F0 VA: 0x180EC9DF0
+	|-RVA: 0xEC9CF0 Offset: 0xEC82F0 VA: 0x180EC9CF0
 	|-Array.InternalArray__IndexOf<Resolution>
 	|
-	|-RVA: 0xEC5AA0 Offset: 0xEC40A0 VA: 0x180EC5AA0
+	|-RVA: 0xEC59A0 Offset: 0xEC3FA0 VA: 0x180EC59A0
 	|-Array.InternalArray__IndexOf<SendMouseEvents.HitInfo>
 	|
-	|-RVA: 0xEC5560 Offset: 0xEC3B60 VA: 0x180EC5560
+	|-RVA: 0xEC5460 Offset: 0xEC3A60 VA: 0x180EC5460
 	|-Array.InternalArray__IndexOf<GlyphRect>
 	|
-	|-RVA: 0xEC5110 Offset: 0xEC3710 VA: 0x180EC5110
+	|-RVA: 0xEC5010 Offset: 0xEC3610 VA: 0x180EC5010
 	|-Array.InternalArray__IndexOf<GlyphMarshallingStruct>
 	|
-	|-RVA: 0xEC5340 Offset: 0xEC3940 VA: 0x180EC5340
+	|-RVA: 0xEC5240 Offset: 0xEC3840 VA: 0x180EC5240
 	|-Array.InternalArray__IndexOf<GlyphPairAdjustmentRecord>
 	|
-	|-RVA: 0xECC8C0 Offset: 0xECAEC0 VA: 0x180ECC8C0
+	|-RVA: 0xECC7C0 Offset: 0xECADC0 VA: 0x180ECC7C0
 	|-Array.InternalArray__IndexOf<Touch>
 	|
-	|-RVA: 0xECCF80 Offset: 0xECB580 VA: 0x180ECCF80
+	|-RVA: 0xECCE80 Offset: 0xECB480 VA: 0x180ECCE80
 	|-Array.InternalArray__IndexOf<TreeInstance>
 	|
-	|-RVA: 0xEC3990 Offset: 0xEC1F90 VA: 0x180EC3990
+	|-RVA: 0xEC3890 Offset: 0xEC1E90 VA: 0x180EC3890
 	|-Array.InternalArray__IndexOf<ColorBlock>
 	|
-	|-RVA: 0xEC7E50 Offset: 0xEC6450 VA: 0x180EC7E50
+	|-RVA: 0xEC7D50 Offset: 0xEC6350 VA: 0x180EC7D50
 	|-Array.InternalArray__IndexOf<Navigation>
 	|
-	|-RVA: 0xECADB0 Offset: 0xEC93B0 VA: 0x180ECADB0
+	|-RVA: 0xECACB0 Offset: 0xEC92B0 VA: 0x180ECACB0
 	|-Array.InternalArray__IndexOf<SpriteState>
 	|
-	|-RVA: 0xECD1A0 Offset: 0xECB7A0 VA: 0x180ECD1A0
+	|-RVA: 0xECD0A0 Offset: 0xECB6A0 VA: 0x180ECD0A0
 	|-Array.InternalArray__IndexOf<UICharInfo>
 	|
-	|-RVA: 0xEC4330 Offset: 0xEC2930 VA: 0x180EC4330
+	|-RVA: 0xEC4230 Offset: 0xEC2830 VA: 0x180EC4230
 	|-Array.InternalArray__IndexOf<EventDispatcher.DispatchContext>
 	|
-	|-RVA: 0xEC4B50 Offset: 0xEC3150 VA: 0x180EC4B50
+	|-RVA: 0xEC4A50 Offset: 0xEC3050 VA: 0x180EC4A50
 	|-Array.InternalArray__IndexOf<EventDispatcher.EventRecord>
 	|
-	|-RVA: 0xEC4D30 Offset: 0xEC3330 VA: 0x180EC4D30
+	|-RVA: 0xEC4C30 Offset: 0xEC3230 VA: 0x180EC4C30
 	|-Array.InternalArray__IndexOf<FocusController.FocusedElement>
 	|
-	|-RVA: 0xECA9F0 Offset: 0xEC8FF0 VA: 0x180ECA9F0
+	|-RVA: 0xECA8F0 Offset: 0xEC8EF0 VA: 0x180ECA8F0
 	|-Array.InternalArray__IndexOf<StyleSheetCache.SheetHandleKey>
 	|
-	|-RVA: 0xECAFB0 Offset: 0xEC95B0 VA: 0x180ECAFB0
+	|-RVA: 0xECAEB0 Offset: 0xEC94B0 VA: 0x180ECAEB0
 	|-Array.InternalArray__IndexOf<StyleValue>
 	|
-	|-RVA: 0xECD390 Offset: 0xECB990 VA: 0x180ECD390
+	|-RVA: 0xECD290 Offset: 0xECB890 VA: 0x180ECD290
 	|-Array.InternalArray__IndexOf<UILineInfo>
 	|
-	|-RVA: 0xECD570 Offset: 0xECBB70 VA: 0x180ECD570
+	|-RVA: 0xECD470 Offset: 0xECBA70 VA: 0x180ECD470
 	|-Array.InternalArray__IndexOf<UIVertex>
 	|
-	|-RVA: 0xECF1E0 Offset: 0xECD7E0 VA: 0x180ECF1E0
+	|-RVA: 0xECF0E0 Offset: 0xECD6E0 VA: 0x180ECF0E0
 	|-Array.InternalArray__IndexOf<UnitySynchronizationContext.WorkRequest>
 	|
-	|-RVA: 0xECE760 Offset: 0xECCD60 VA: 0x180ECE760
+	|-RVA: 0xECE660 Offset: 0xECCC60 VA: 0x180ECE660
 	|-Array.InternalArray__IndexOf<Vector2>
 	|
-	|-RVA: 0xECE610 Offset: 0xECCC10 VA: 0x180ECE610
+	|-RVA: 0xECE510 Offset: 0xECCB10 VA: 0x180ECE510
 	|-Array.InternalArray__IndexOf<Vector2Int>
 	|
-	|-RVA: 0xECEA10 Offset: 0xECD010 VA: 0x180ECEA10
+	|-RVA: 0xECE910 Offset: 0xECCF10 VA: 0x180ECE910
 	|-Array.InternalArray__IndexOf<Vector3>
 	|
-	|-RVA: 0xECEB80 Offset: 0xECD180 VA: 0x180ECEB80
+	|-RVA: 0xECEA80 Offset: 0xECD080 VA: 0x180ECEA80
 	|-Array.InternalArray__IndexOf<Vector4>
 	|
-	|-RVA: 0xECA5F0 Offset: 0xEC8BF0 VA: 0x180ECA5F0
+	|-RVA: 0xECA4F0 Offset: 0xEC8AF0 VA: 0x180ECA4F0
 	|-Array.InternalArray__IndexOf<SemanticMeaning>
 	|
-	|-RVA: 0xECFAA0 Offset: 0xECE0A0 VA: 0x180ECFAA0
+	|-RVA: 0xECF9A0 Offset: 0xECDFA0 VA: 0x180ECF9A0
 	|-Array.InternalArray__IndexOf<jvalue>
 	|
-	|-RVA: 0xECE8C0 Offset: 0xECCEC0 VA: 0x180ECE8C0
+	|-RVA: 0xECE7C0 Offset: 0xECCDC0 VA: 0x180ECE7C0
 	|-Array.InternalArray__IndexOf<Vector2i>
 	|
-	|-RVA: 0xECEE60 Offset: 0xECD460 VA: 0x180ECEE60
+	|-RVA: 0xECED60 Offset: 0xECD360 VA: 0x180ECED60
 	|-Array.InternalArray__IndexOf<ViewModelDrawEvent>
 	|
-	|-RVA: 0xEC5C80 Offset: 0xEC4280 VA: 0x180EC5C80
+	|-RVA: 0xEC5B80 Offset: 0xEC4180 VA: 0x180EC5B80
 	|-Array.InternalArray__IndexOf<WaterDynamics.InstanceData>
 	|
-	|-RVA: 0xEC8AF0 Offset: 0xEC70F0 VA: 0x180EC8AF0
+	|-RVA: 0xEC89F0 Offset: 0xEC6FF0 VA: 0x180EC89F0
 	|-Array.InternalArray__IndexOf<WaterGerstner.PrecomputedWave>
 	|
-	|-RVA: 0xEC3470 Offset: 0xEC1A70 VA: 0x180EC3470
+	|-RVA: 0xEC3370 Offset: 0xEC1970 VA: 0x180EC3370
 	|-Array.InternalArray__IndexOf<WaterSimulation.Butterfly>
 	|
-	|-RVA: 0xEC4150 Offset: 0xEC2750 VA: 0x180EC4150
+	|-RVA: 0xEC4050 Offset: 0xEC2650 VA: 0x180EC4050
 	|-Array.InternalArray__IndexOf<WindZoneExManager.CurrentZoneEntry>
 	|
-	|-RVA: 0xEC6460 Offset: 0xEC4A60 VA: 0x180EC6460
+	|-RVA: 0xEC6360 Offset: 0xEC4960 VA: 0x180EC6360
 	|-Array.InternalArray__IndexOf<WorldSplineData.LUTEntry.LUTPoint>
 	*/
 
@@ -18474,2128 +18474,2128 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	internal void InternalArray__set_Item<T>(int index, T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xDD7880 Offset: 0xDD5E80 VA: 0x180DD7880
+	|-RVA: 0xDD7780 Offset: 0xDD5D80 VA: 0x180DD7780
 	|-Array.InternalArray__set_Item<AdvancedChristmasLights.pointEntry>
 	|
-	|-RVA: 0xDCEEA0 Offset: 0xDCD4A0 VA: 0x180DCEEA0
+	|-RVA: 0xDCEDA0 Offset: 0xDCD3A0 VA: 0x180DCEDA0
 	|-Array.InternalArray__set_Item<AlignedLineDrawer.LinePoint>
 	|
-	|-RVA: 0xDBC2B0 Offset: 0xDBA8B0 VA: 0x180DBC2B0
+	|-RVA: 0xDBC1B0 Offset: 0xDBA7B0 VA: 0x180DBC1B0
 	|-Array.InternalArray__set_Item<AtmosphereVolumeRenderer.CurrentVolumeEntry>
 	|
-	|-RVA: 0xDC2D60 Offset: 0xDC1360 VA: 0x180DC2D60
+	|-RVA: 0xDC2C60 Offset: 0xDC1260 VA: 0x180DC2C60
 	|-Array.InternalArray__set_Item<AvatarCache.Entry>
 	|
-	|-RVA: 0xDD3B10 Offset: 0xDD2110 VA: 0x180DD3B10
+	|-RVA: 0xDD3A10 Offset: 0xDD2010 VA: 0x180DD3A10
 	|-Array.InternalArray__set_Item<BaseEntity.ServerFileRequest>
 	|
-	|-RVA: 0xDBACA0 Offset: 0xDB92A0 VA: 0x180DBACA0
+	|-RVA: 0xDBABA0 Offset: 0xDB91A0 VA: 0x180DBABA0
 	|-Array.InternalArray__set_Item<CameraMan.CameraState>
 	|
-	|-RVA: 0xDCEBA0 Offset: 0xDCD1A0 VA: 0x180DCEBA0
+	|-RVA: 0xDCEAA0 Offset: 0xDCD0A0 VA: 0x180DCEAA0
 	|-Array.InternalArray__set_Item<CardTableUI.KeycodeWithAction>
 	|
-	|-RVA: 0xDCF020 Offset: 0xDCD620 VA: 0x180DCF020
+	|-RVA: 0xDCEF20 Offset: 0xDCD520 VA: 0x180DCEF20
 	|-Array.InternalArray__set_Item<Cassette.LoadRequest>
 	|
-	|-RVA: 0xDBB6D0 Offset: 0xDB9CD0 VA: 0x180DBB6D0
+	|-RVA: 0xDBB5D0 Offset: 0xDB9BD0 VA: 0x180DBB5D0
 	|-Array.InternalArray__set_Item<CommandBufferManager.CommandBufferEntry>
 	|
-	|-RVA: 0xDD1DF0 Offset: 0xDD03F0 VA: 0x180DD1DF0
+	|-RVA: 0xDD1CF0 Offset: 0xDD02F0 VA: 0x180DD1CF0
 	|-Array.InternalArray__set_Item<Admin.PlayerInfo>
 	|
-	|-RVA: 0xDD3990 Offset: 0xDD1F90 VA: 0x180DD3990
+	|-RVA: 0xDD3890 Offset: 0xDD1E90 VA: 0x180DD3890
 	|-Array.InternalArray__set_Item<Admin.ServerConvarInfo>
 	|
-	|-RVA: 0xDD4180 Offset: 0xDD2780 VA: 0x180DD4180
+	|-RVA: 0xDD4080 Offset: 0xDD2680 VA: 0x180DD4080
 	|-Array.InternalArray__set_Item<Admin.ServerUGCInfo>
 	|
-	|-RVA: 0xDD0740 Offset: 0xDCED40 VA: 0x180DD0740
+	|-RVA: 0xDD0640 Offset: 0xDCEC40 VA: 0x180DD0640
 	|-Array.InternalArray__set_Item<Chat.MuteEntry>
 	|
-	|-RVA: 0xDBDEB0 Offset: 0xDBC4B0 VA: 0x180DBDEB0
+	|-RVA: 0xDBDDB0 Offset: 0xDBC3B0 VA: 0x180DBDDB0
 	|-Array.InternalArray__set_Item<Debugging.EntityInfo>
 	|
-	|-RVA: 0xDBC5A0 Offset: 0xDBABA0 VA: 0x180DBC5A0
+	|-RVA: 0xDBC4A0 Offset: 0xDBAAA0 VA: 0x180DBC4A0
 	|-Array.InternalArray__set_Item<DamageRenderer.DamageShowingRenderer>
 	|
-	|-RVA: 0xDCFA90 Offset: 0xDCE090 VA: 0x180DCFA90
+	|-RVA: 0xDCF990 Offset: 0xDCDF90 VA: 0x180DCF990
 	|-Array.InternalArray__set_Item<DeferredExtensionMesh.MaterialLink>
 	|
-	|-RVA: 0xDCFC00 Offset: 0xDCE200 VA: 0x180DCFC00
+	|-RVA: 0xDCFB00 Offset: 0xDCE100 VA: 0x180DCFB00
 	|-Array.InternalArray__set_Item<DeferredMeshDecal.MaterialLink>
 	|
-	|-RVA: 0xDBC880 Offset: 0xDBAE80 VA: 0x180DBC880
+	|-RVA: 0xDBC780 Offset: 0xDBAD80 VA: 0x180DBC780
 	|-Array.InternalArray__set_Item<Demos.DemoInfo>
 	|
-	|-RVA: 0xDBD130 Offset: 0xDBB730 VA: 0x180DBD130
+	|-RVA: 0xDBD030 Offset: 0xDBB630 VA: 0x180DBD030
 	|-Array.InternalArray__set_Item<DungeonGridConnectionHash>
 	|
-	|-RVA: 0xDBA9B0 Offset: 0xDB8FB0 VA: 0x180DBA9B0
+	|-RVA: 0xDBA8B0 Offset: 0xDB8EB0 VA: 0x180DBA8B0
 	|-Array.InternalArray__set_Item<CRedge>
 	|
-	|-RVA: 0xDBB560 Offset: 0xDB9B60 VA: 0x180DBB560
+	|-RVA: 0xDBB460 Offset: 0xDB9A60 VA: 0x180DBB460
 	|-Array.InternalArray__set_Item<CombineClass>
 	|
-	|-RVA: 0xDBD290 Offset: 0xDBB890 VA: 0x180DBD290
+	|-RVA: 0xDBD190 Offset: 0xDBB790 VA: 0x180DBD190
 	|-Array.InternalArray__set_Item<ERCell>
 	|
-	|-RVA: 0xDBD3F0 Offset: 0xDBB9F0 VA: 0x180DBD3F0
+	|-RVA: 0xDBD2F0 Offset: 0xDBB8F0 VA: 0x180DBD2F0
 	|-Array.InternalArray__set_Item<ERChildsSO>
 	|
-	|-RVA: 0xDBD570 Offset: 0xDBBB70 VA: 0x180DBD570
+	|-RVA: 0xDBD470 Offset: 0xDBBA70 VA: 0x180DBD470
 	|-Array.InternalArray__set_Item<ERConnectionGUIStatus>
 	|
-	|-RVA: 0xDBD6D0 Offset: 0xDBBCD0 VA: 0x180DBD6D0
+	|-RVA: 0xDBD5D0 Offset: 0xDBBBD0 VA: 0x180DBD5D0
 	|-Array.InternalArray__set_Item<ERLane>
 	|
-	|-RVA: 0xDD0240 Offset: 0xDCE840 VA: 0x180DD0240
+	|-RVA: 0xDD0140 Offset: 0xDCE740 VA: 0x180DD0140
 	|-Array.InternalArray__set_Item<ERMeshCombineUtility.MeshInstance>
 	|
-	|-RVA: 0xDBD840 Offset: 0xDBBE40 VA: 0x180DBD840
+	|-RVA: 0xDBD740 Offset: 0xDBBD40 VA: 0x180DBD740
 	|-Array.InternalArray__set_Item<ERSOSection>
 	|
-	|-RVA: 0xDBDA20 Offset: 0xDBC020 VA: 0x180DBDA20
+	|-RVA: 0xDBD920 Offset: 0xDBBF20 VA: 0x180DBD920
 	|-Array.InternalArray__set_Item<ERSplatmap>
 	|
-	|-RVA: 0xDBDBC0 Offset: 0xDBC1C0 VA: 0x180DBDBC0
+	|-RVA: 0xDBDAC0 Offset: 0xDBC0C0 VA: 0x180DBDAC0
 	|-Array.InternalArray__set_Item<ERTerrainChange>
 	|
-	|-RVA: 0xDBDD20 Offset: 0xDBC320 VA: 0x180DBDD20
+	|-RVA: 0xDBDC20 Offset: 0xDBC220 VA: 0x180DBDC20
 	|-Array.InternalArray__set_Item<ERVSData>
 	|
-	|-RVA: 0xDD0A30 Offset: 0xDCF030 VA: 0x180DD0A30
+	|-RVA: 0xDD0930 Offset: 0xDCEF30 VA: 0x180DD0930
 	|-Array.InternalArray__set_Item<NormalPairs>
 	|
-	|-RVA: 0xDD2970 Offset: 0xDD0F70 VA: 0x180DD2970
+	|-RVA: 0xDD2870 Offset: 0xDD0E70 VA: 0x180DD2870
 	|-Array.InternalArray__set_Item<EngineDamageOverTime.RecentDamage>
 	|
-	|-RVA: 0xDBE190 Offset: 0xDBC790 VA: 0x180DBE190
+	|-RVA: 0xDBE090 Offset: 0xDBC690 VA: 0x180DBE090
 	|-Array.InternalArray__set_Item<EntityRef>
 	|
-	|-RVA: 0xDBE020 Offset: 0xDBC620 VA: 0x180DBE020
+	|-RVA: 0xDBDF20 Offset: 0xDBC520 VA: 0x180DBDF20
 	|-Array.InternalArray__set_Item<EntityRef<object>>
 	|
-	|-RVA: 0xDCC690 Offset: 0xDCAC90 VA: 0x180DCC690
+	|-RVA: 0xDCC590 Offset: 0xDCAB90 VA: 0x180DCC590
 	|-Array.InternalArray__set_Item<ExpandedLifeStats.GenericStatDisplay>
 	|
-	|-RVA: 0xDBAFA0 Offset: 0xDB95A0 VA: 0x180DBAFA0
+	|-RVA: 0xDBAEA0 Offset: 0xDB94A0 VA: 0x180DBAEA0
 	|-Array.InternalArray__set_Item<BurstCloth.Chain>
 	|
-	|-RVA: 0xDBAE20 Offset: 0xDB9420 VA: 0x180DBAE20
+	|-RVA: 0xDBAD20 Offset: 0xDB9320 VA: 0x180DBAD20
 	|-Array.InternalArray__set_Item<CapsuleParams>
 	|
-	|-RVA: 0xDBA0D0 Offset: 0xDB86D0 VA: 0x180DBA0D0
+	|-RVA: 0xDB9FD0 Offset: 0xDB85D0 VA: 0x180DB9FD0
 	|-Array.InternalArray__set_Item<BoneData>
 	|
-	|-RVA: 0xDBA290 Offset: 0xDB8890 VA: 0x180DBA290
+	|-RVA: 0xDBA190 Offset: 0xDB8790 VA: 0x180DBA190
 	|-Array.InternalArray__set_Item<BoneState>
 	|
-	|-RVA: 0xDBB260 Offset: 0xDB9860 VA: 0x180DBB260
+	|-RVA: 0xDBB160 Offset: 0xDB9760 VA: 0x180DBB160
 	|-Array.InternalArray__set_Item<ColliderData>
 	|
-	|-RVA: 0xDBB3E0 Offset: 0xDB99E0 VA: 0x180DBB3E0
+	|-RVA: 0xDBB2E0 Offset: 0xDB98E0 VA: 0x180DBB2E0
 	|-Array.InternalArray__set_Item<ColliderState>
 	|
-	|-RVA: 0xDD5DC0 Offset: 0xDD43C0 VA: 0x180DD5DC0
+	|-RVA: 0xDD5CC0 Offset: 0xDD42C0 VA: 0x180DD5CC0
 	|-Array.InternalArray__set_Item<TabbedPanel.Tab>
 	|
-	|-RVA: 0xDCB4F0 Offset: 0xDC9AF0 VA: 0x180DCB4F0
+	|-RVA: 0xDCB3F0 Offset: 0xDC99F0 VA: 0x180DCB3F0
 	|-Array.InternalArray__set_Item<Output.Entry>
 	|
-	|-RVA: 0xDB9F60 Offset: 0xDB8560 VA: 0x180DB9F60
+	|-RVA: 0xDB9E60 Offset: 0xDB8460 VA: 0x180DB9E60
 	|-Array.InternalArray__set_Item<RCon.BannedAddresses>
 	|
-	|-RVA: 0xDBB840 Offset: 0xDB9E40 VA: 0x180DBB840
+	|-RVA: 0xDBB740 Offset: 0xDB9D40 VA: 0x180DBB740
 	|-Array.InternalArray__set_Item<RCon.Command>
 	|
-	|-RVA: 0xDBA410 Offset: 0xDB8A10 VA: 0x180DBA410
+	|-RVA: 0xDBA310 Offset: 0xDB8910 VA: 0x180DBA310
 	|-Array.InternalArray__set_Item<SkeletonDefinition.Bone>
 	|
-	|-RVA: 0xDC2170 Offset: 0xDC0770 VA: 0x180DC2170
+	|-RVA: 0xDC2070 Offset: 0xDC0670 VA: 0x180DC2070
 	|-Array.InternalArray__set_Item<Tick.Entry>
 	|
-	|-RVA: 0xDD2F30 Offset: 0xDD1530 VA: 0x180DD2F30
+	|-RVA: 0xDD2E30 Offset: 0xDD1430 VA: 0x180DD2E30
 	|-Array.InternalArray__set_Item<RenderInfo.RendererInstance>
 	|
-	|-RVA: 0xDBBE00 Offset: 0xDBA400 VA: 0x180DBBE00
+	|-RVA: 0xDBBD00 Offset: 0xDBA300 VA: 0x180DBBD00
 	|-Array.InternalArray__set_Item<WeightedStringList.Container>
 	|
-	|-RVA: 0xDCBDE0 Offset: 0xDCA3E0 VA: 0x180DCBDE0
+	|-RVA: 0xDCBCE0 Offset: 0xDCA2E0 VA: 0x180DCBCE0
 	|-Array.InternalArray__set_Item<FishingRodViewmodel.FishViewmodel>
 	|
-	|-RVA: 0xDBB9C0 Offset: 0xDB9FC0 VA: 0x180DBB9C0
+	|-RVA: 0xDBB8C0 Offset: 0xDB9EC0 VA: 0x180DBB8C0
 	|-Array.InternalArray__set_Item<FloatConditions.Condition>
 	|
-	|-RVA: 0xDCC0B0 Offset: 0xDCA6B0 VA: 0x180DCC0B0
+	|-RVA: 0xDCBFB0 Offset: 0xDCA5B0 VA: 0x180DCBFB0
 	|-Array.InternalArray__set_Item<FoliageGridMeshData.FoliageVertex>
 	|
-	|-RVA: 0xDCBF50 Offset: 0xDCA550 VA: 0x180DCBF50
+	|-RVA: 0xDCBE50 Offset: 0xDCA450 VA: 0x180DCBE50
 	|-Array.InternalArray__set_Item<FoliageKey>
 	|
-	|-RVA: 0xDD23D0 Offset: 0xDD09D0 VA: 0x180DD23D0
+	|-RVA: 0xDD22D0 Offset: 0xDD08D0 VA: 0x180DD22D0
 	|-Array.InternalArray__set_Item<GameManifest.PooledString>
 	|
-	|-RVA: 0xDD11D0 Offset: 0xDCF7D0 VA: 0x180DD11D0
+	|-RVA: 0xDD10D0 Offset: 0xDCF6D0 VA: 0x180DD10D0
 	|-Array.InternalArray__set_Item<Option>
 	|
-	|-RVA: 0xDD5660 Offset: 0xDD3C60 VA: 0x180DD5660
+	|-RVA: 0xDD5560 Offset: 0xDD3B60 VA: 0x180DD5560
 	|-Array.InternalArray__set_Item<GameStat.Stat>
 	|
-	|-RVA: 0xDD60B0 Offset: 0xDD46B0 VA: 0x180DD60B0
+	|-RVA: 0xDD5FB0 Offset: 0xDD45B0 VA: 0x180DD5FB0
 	|-Array.InternalArray__set_Item<GameTip.Theme>
 	|
-	|-RVA: 0xDCC810 Offset: 0xDCAE10 VA: 0x180DCC810
+	|-RVA: 0xDCC710 Offset: 0xDCAD10 VA: 0x180DCC710
 	|-Array.InternalArray__set_Item<Gibbable.GibMesh>
 	|
-	|-RVA: 0xDD1500 Offset: 0xDCFB00 VA: 0x180DD1500
+	|-RVA: 0xDD1400 Offset: 0xDCFA00 VA: 0x180DD1400
 	|-Array.InternalArray__set_Item<Gibbable.OverrideMesh>
 	|
-	|-RVA: 0xDCC510 Offset: 0xDCAB10 VA: 0x180DCC510
+	|-RVA: 0xDCC410 Offset: 0xDCAA10 VA: 0x180DCC410
 	|-Array.InternalArray__set_Item<GrowableGeneProperties.GeneWeight>
 	|
-	|-RVA: 0xDCC9A0 Offset: 0xDCAFA0 VA: 0x180DCC9A0
+	|-RVA: 0xDCC8A0 Offset: 0xDCAEA0 VA: 0x180DCC8A0
 	|-Array.InternalArray__set_Item<HairSetCollection.HairSetEntry>
 	|
-	|-RVA: 0xDD4460 Offset: 0xDD2A60 VA: 0x180DD4460
+	|-RVA: 0xDD4360 Offset: 0xDD2960 VA: 0x180DD4360
 	|-Array.InternalArray__set_Item<IconSkinPicker.SkinButtonSetup>
 	|
-	|-RVA: 0xDCCCA0 Offset: 0xDCB2A0 VA: 0x180DCCCA0
+	|-RVA: 0xDCCBA0 Offset: 0xDCB1A0 VA: 0x180DCCBA0
 	|-Array.InternalArray__set_Item<ImageStorageEntity.ImageRequest>
 	|
-	|-RVA: 0xDCD7E0 Offset: 0xDCBDE0 VA: 0x180DCD7E0
+	|-RVA: 0xDCD6E0 Offset: 0xDCBCE0 VA: 0x180DCD6E0
 	|-Array.InternalArray__set_Item<InstancingKey>
 	|
-	|-RVA: 0xDD0D10 Offset: 0xDCF310 VA: 0x180DD0D10
+	|-RVA: 0xDD0C10 Offset: 0xDCF210 VA: 0x180DD0C10
 	|-Array.InternalArray__set_Item<InstrumentKeyController.NoteBinding>
 	|
-	|-RVA: 0xDCDF20 Offset: 0xDCC520 VA: 0x180DCDF20
+	|-RVA: 0xDCDE20 Offset: 0xDCC420 VA: 0x180DCDE20
 	|-Array.InternalArray__set_Item<InvokeAction>
 	|
-	|-RVA: 0xDD45E0 Offset: 0xDD2BE0 VA: 0x180DD45E0
+	|-RVA: 0xDD44E0 Offset: 0xDD2AE0 VA: 0x180DD44E0
 	|-Array.InternalArray__set_Item<ItemSkinDirectory.Skin>
 	|
-	|-RVA: 0xDD1C70 Offset: 0xDD0270 VA: 0x180DD1C70
+	|-RVA: 0xDD1B70 Offset: 0xDD0170 VA: 0x180DD1B70
 	|-Array.InternalArray__set_Item<Kayak.PlayerAnimationState>
 	|
-	|-RVA: 0xDD6E10 Offset: 0xDD5410 VA: 0x180DD6E10
+	|-RVA: 0xDD6D10 Offset: 0xDD5310 VA: 0x180DD6D10
 	|-Array.InternalArray__set_Item<KeyframeView.UIKeyframeValue>
 	|
-	|-RVA: 0xDBC420 Offset: 0xDBAA20 VA: 0x180DBC420
+	|-RVA: 0xDBC320 Offset: 0xDBA920 VA: 0x180DBC320
 	|-Array.InternalArray__set_Item<LifeInfographic.DamageSetting>
 	|
-	|-RVA: 0xDD6530 Offset: 0xDD4B30 VA: 0x180DD6530
+	|-RVA: 0xDD6430 Offset: 0xDD4A30 VA: 0x180DD6430
 	|-Array.InternalArray__set_Item<LocalClock.TimedEvent>
 	|
-	|-RVA: 0xDCCB20 Offset: 0xDCB120 VA: 0x180DCCB20
+	|-RVA: 0xDCCA20 Offset: 0xDCB020 VA: 0x180DCCA20
 	|-Array.InternalArray__set_Item<LookAtIOEnt.HandleSet>
 	|
-	|-RVA: 0xDCF4C0 Offset: 0xDCDAC0 VA: 0x180DCF4C0
+	|-RVA: 0xDCF3C0 Offset: 0xDCD9C0 VA: 0x180DCF3C0
 	|-Array.InternalArray__set_Item<LootContainer.LootSpawnSlot>
 	|
-	|-RVA: 0xDC3F30 Offset: 0xDC2530 VA: 0x180DC3F30
+	|-RVA: 0xDC3E30 Offset: 0xDC2430 VA: 0x180DC3E30
 	|-Array.InternalArray__set_Item<LootSpawn.Entry>
 	|
-	|-RVA: 0xDD7700 Offset: 0xDD5D00 VA: 0x180DD7700
+	|-RVA: 0xDD7600 Offset: 0xDD5C00 VA: 0x180DD7600
 	|-Array.InternalArray__set_Item<XPathNode>
 	|
-	|-RVA: 0xDD7590 Offset: 0xDD5B90 VA: 0x180DD7590
+	|-RVA: 0xDD7490 Offset: 0xDD5A90 VA: 0x180DD7490
 	|-Array.InternalArray__set_Item<XPathNodeRef>
 	|
-	|-RVA: 0xDCF630 Offset: 0xDCDC30 VA: 0x180DCF630
+	|-RVA: 0xDCF530 Offset: 0xDCDB30 VA: 0x180DCF530
 	|-Array.InternalArray__set_Item<MagnetCrane.MagnetCraneSnapshot>
 	|
-	|-RVA: 0xDCF7A0 Offset: 0xDCDDA0 VA: 0x180DCF7A0
+	|-RVA: 0xDCF6A0 Offset: 0xDCDCA0 VA: 0x180DCF6A0
 	|-Array.InternalArray__set_Item<MapView.MapMarkerCluster>
 	|
-	|-RVA: 0xDD4760 Offset: 0xDD2D60 VA: 0x180DD4760
+	|-RVA: 0xDD4660 Offset: 0xDD2C60 VA: 0x180DD4660
 	|-Array.InternalArray__set_Item<MapView.SleepingBagCluster>
 	|
-	|-RVA: 0xDCFD70 Offset: 0xDCE370 VA: 0x180DCFD70
+	|-RVA: 0xDCFC70 Offset: 0xDCE270 VA: 0x180DCFC70
 	|-Array.InternalArray__set_Item<MaterialPropertyDesc>
 	|
-	|-RVA: 0xDCC250 Offset: 0xDCA850 VA: 0x180DCC250
+	|-RVA: 0xDCC150 Offset: 0xDCA750 VA: 0x180DCC150
 	|-Array.InternalArray__set_Item<FourBitNumber>
 	|
-	|-RVA: 0xDD4300 Offset: 0xDD2900 VA: 0x180DD4300
+	|-RVA: 0xDD4200 Offset: 0xDD2800 VA: 0x180DD4200
 	|-Array.InternalArray__set_Item<SevenBitNumber>
 	|
-	|-RVA: 0xDCFEE0 Offset: 0xDCE4E0 VA: 0x180DCFEE0
+	|-RVA: 0xDCFDE0 Offset: 0xDCE3E0 VA: 0x180DCFDE0
 	|-Array.InternalArray__set_Item<MeshColliderInstance>
 	|
-	|-RVA: 0xDCF300 Offset: 0xDCD900 VA: 0x180DCF300
+	|-RVA: 0xDCF200 Offset: 0xDCD800 VA: 0x180DCF200
 	|-Array.InternalArray__set_Item<MeshColliderLookup.LookupEntry>
 	|
-	|-RVA: 0xDD00C0 Offset: 0xDCE6C0 VA: 0x180DD00C0
+	|-RVA: 0xDCFFC0 Offset: 0xDCE5C0 VA: 0x180DCFFC0
 	|-Array.InternalArray__set_Item<MeshInstance>
 	|
-	|-RVA: 0xDD03F0 Offset: 0xDCE9F0 VA: 0x180DD03F0
+	|-RVA: 0xDD02F0 Offset: 0xDCE8F0 VA: 0x180DD02F0
 	|-Array.InternalArray__set_Item<MeshRendererInstance>
 	|
-	|-RVA: 0xDCF1A0 Offset: 0xDCD7A0 VA: 0x180DCF1A0
+	|-RVA: 0xDCF0A0 Offset: 0xDCD6A0 VA: 0x180DCF0A0
 	|-Array.InternalArray__set_Item<MeshRendererLookup.LookupEntry>
 	|
-	|-RVA: 0xDCED20 Offset: 0xDCD320 VA: 0x180DCED20
+	|-RVA: 0xDCEC20 Offset: 0xDCD220 VA: 0x180DCEC20
 	|-Array.InternalArray__set_Item<MidiConvar.KnobBinding>
 	|
-	|-RVA: 0xDD0B90 Offset: 0xDCF190 VA: 0x180DD0B90
+	|-RVA: 0xDD0A90 Offset: 0xDCF090 VA: 0x180DD0A90
 	|-Array.InternalArray__set_Item<MidiConvar.NoteBinding>
 	|
-	|-RVA: 0xDD3820 Offset: 0xDD1E20 VA: 0x180DD3820
+	|-RVA: 0xDD3720 Offset: 0xDD1D20 VA: 0x180DD3720
 	|-Array.InternalArray__set_Item<SQLiteTypeNames>
 	|
-	|-RVA: 0xDCEA10 Offset: 0xDCD010 VA: 0x180DCEA10
+	|-RVA: 0xDCE910 Offset: 0xDCCF10 VA: 0x180DCE910
 	|-Array.InternalArray__set_Item<SqliteKeyReader.KeyInfo>
 	|
-	|-RVA: 0xDD5F30 Offset: 0xDD4530 VA: 0x180DD5F30
+	|-RVA: 0xDD5E30 Offset: 0xDD4430 VA: 0x180DD5E30
 	|-Array.InternalArray__set_Item<CodePointIndexer.TableRange>
 	|
-	|-RVA: 0xDD7110 Offset: 0xDD5710 VA: 0x180DD7110
+	|-RVA: 0xDD7010 Offset: 0xDD5610 VA: 0x180DD7010
 	|-Array.InternalArray__set_Item<Uri.UriScheme>
 	|
-	|-RVA: 0xDD1010 Offset: 0xDCF610 VA: 0x180DD1010
+	|-RVA: 0xDD0F10 Offset: 0xDCF510 VA: 0x180DD0F10
 	|-Array.InternalArray__set_Item<NVidiaReflex.NvReflex_FrameReport>
 	|
-	|-RVA: 0xDD63B0 Offset: 0xDD49B0 VA: 0x180DD63B0
+	|-RVA: 0xDD62B0 Offset: 0xDD48B0 VA: 0x180DD62B0
 	|-Array.InternalArray__set_Item<TimeAverageValueData>
 	|
-	|-RVA: 0xDCE2A0 Offset: 0xDCC8A0 VA: 0x180DCE2A0
+	|-RVA: 0xDCE1A0 Offset: 0xDCC7A0 VA: 0x180DCE1A0
 	|-Array.InternalArray__set_Item<JsonPosition>
 	|
-	|-RVA: 0xDD6CA0 Offset: 0xDD52A0 VA: 0x180DD6CA0
+	|-RVA: 0xDD6BA0 Offset: 0xDD51A0 VA: 0x180DD6BA0
 	|-Array.InternalArray__set_Item<DefaultSerializationBinder.TypeNameKey>
 	|
-	|-RVA: 0xDD33D0 Offset: 0xDD19D0 VA: 0x180DD33D0
+	|-RVA: 0xDD32D0 Offset: 0xDD18D0 VA: 0x180DD32D0
 	|-Array.InternalArray__set_Item<ResolverContractKey>
 	|
-	|-RVA: 0xDD6B30 Offset: 0xDD5130 VA: 0x180DD6B30
+	|-RVA: 0xDD6A30 Offset: 0xDD5030 VA: 0x180DD6A30
 	|-Array.InternalArray__set_Item<ConvertUtils.TypeConvertKey>
 	|
-	|-RVA: 0xDD0E90 Offset: 0xDCF490 VA: 0x180DD0E90
+	|-RVA: 0xDD0D90 Offset: 0xDCF390 VA: 0x180DD0D90
 	|-Array.InternalArray__set_Item<NoteBindingCollection.NoteData>
 	|
-	|-RVA: 0xDD57D0 Offset: 0xDD3DD0 VA: 0x180DD57D0
+	|-RVA: 0xDD56D0 Offset: 0xDD3CD0 VA: 0x180DD56D0
 	|-Array.InternalArray__set_Item<OccludeeState.State>
 	|
-	|-RVA: 0xDD1800 Offset: 0xDCFE00 VA: 0x180DD1800
+	|-RVA: 0xDD1700 Offset: 0xDCFD00 VA: 0x180DD1700
 	|-Array.InternalArray__set_Item<ParticleSystemContainer.ParticleSystemGroup>
 	|
-	|-RVA: 0xDD2270 Offset: 0xDD0870 VA: 0x180DD2270
+	|-RVA: 0xDD2170 Offset: 0xDD0770 VA: 0x180DD2170
 	|-Array.InternalArray__set_Item<PathFinder.Point>
 	|
-	|-RVA: 0xDD1AF0 Offset: 0xDD00F0 VA: 0x180DD1AF0
+	|-RVA: 0xDD19F0 Offset: 0xDCFFF0 VA: 0x180DD19F0
 	|-Array.InternalArray__set_Item<PetCommandList.PetCommandDesc>
 	|
-	|-RVA: 0xDD4ED0 Offset: 0xDD34D0 VA: 0x180DD4ED0
+	|-RVA: 0xDD4DD0 Offset: 0xDD33D0 VA: 0x180DD4DD0
 	|-Array.InternalArray__set_Item<PlaceMonuments.SpawnInfo>
 	|
-	|-RVA: 0xDD51E0 Offset: 0xDD37E0 VA: 0x180DD51E0
+	|-RVA: 0xDD50E0 Offset: 0xDD36E0 VA: 0x180DD50E0
 	|-Array.InternalArray__set_Item<PlaceMonumentsOffshore.SpawnInfo>
 	|
-	|-RVA: 0xDD5060 Offset: 0xDD3660 VA: 0x180DD5060
+	|-RVA: 0xDD4F60 Offset: 0xDD3560 VA: 0x180DD4F60
 	|-Array.InternalArray__set_Item<PlaceMonumentsRailside.SpawnInfo>
 	|
-	|-RVA: 0xDD5360 Offset: 0xDD3960 VA: 0x180DD5360
+	|-RVA: 0xDD5260 Offset: 0xDD3860 VA: 0x180DD5260
 	|-Array.InternalArray__set_Item<PlaceMonumentsRoadside.SpawnInfo>
 	|
-	|-RVA: 0xDD54E0 Offset: 0xDD3AE0 VA: 0x180DD54E0
+	|-RVA: 0xDD53E0 Offset: 0xDD39E0 VA: 0x180DD53E0
 	|-Array.InternalArray__set_Item<PlantProperties.Stage>
 	|
-	|-RVA: 0xDCCF80 Offset: 0xDCB580 VA: 0x180DCCF80
+	|-RVA: 0xDCCE80 Offset: 0xDCB480 VA: 0x180DCCE80
 	|-Array.InternalArray__set_Item<PlayerItemRecipe.Ingredient>
 	|
-	|-RVA: 0xDD1F80 Offset: 0xDD0580 VA: 0x180DD1F80
+	|-RVA: 0xDD1E80 Offset: 0xDD0480 VA: 0x180DD1E80
 	|-Array.InternalArray__set_Item<PlayerItemRecipe>
 	|
-	|-RVA: 0xDD20F0 Offset: 0xDD06F0 VA: 0x180DD20F0
+	|-RVA: 0xDD1FF0 Offset: 0xDD05F0 VA: 0x180DD1FF0
 	|-Array.InternalArray__set_Item<PlayerModelCinematicList.PlayerModelCinematicAnimation>
 	|
-	|-RVA: 0xDD3250 Offset: 0xDD1850 VA: 0x180DD3250
+	|-RVA: 0xDD3150 Offset: 0xDD1750 VA: 0x180DD3150
 	|-Array.InternalArray__set_Item<PlayerModelHair.RendererMaterials>
 	|
-	|-RVA: 0xDD05C0 Offset: 0xDCEBC0 VA: 0x180DD05C0
+	|-RVA: 0xDD04C0 Offset: 0xDCEAC0 VA: 0x180DD04C0
 	|-Array.InternalArray__set_Item<ProjectileWeaponMod.Modifier>
 	|
-	|-RVA: 0xDBCA00 Offset: 0xDBB000 VA: 0x180DBCA00
+	|-RVA: 0xDBC900 Offset: 0xDBAF00 VA: 0x180DBC900
 	|-Array.InternalArray__set_Item<DemoShotFloatKeyframe>
 	|
-	|-RVA: 0xDBCB60 Offset: 0xDBB160 VA: 0x180DBCB60
+	|-RVA: 0xDBCA60 Offset: 0xDBB060 VA: 0x180DBCA60
 	|-Array.InternalArray__set_Item<DemoShotParentKeyframe>
 	|
-	|-RVA: 0xDBCCD0 Offset: 0xDBB2D0 VA: 0x180DBCCD0
+	|-RVA: 0xDBCBD0 Offset: 0xDBB1D0 VA: 0x180DBCBD0
 	|-Array.InternalArray__set_Item<DemoShotQuaternionKeyframe>
 	|
-	|-RVA: 0xDBCE50 Offset: 0xDBB450 VA: 0x180DBCE50
+	|-RVA: 0xDBCD50 Offset: 0xDBB350 VA: 0x180DBCD50
 	|-Array.InternalArray__set_Item<DemoShotVectorKeyframe>
 	|
-	|-RVA: 0xDD7290 Offset: 0xDD5890 VA: 0x180DD7290
+	|-RVA: 0xDD7190 Offset: 0xDD5790 VA: 0x180DD7190
 	|-Array.InternalArray__set_Item<VectorData>
 	|
-	|-RVA: 0xDD26A0 Offset: 0xDD0CA0 VA: 0x180DD26A0
+	|-RVA: 0xDD25A0 Offset: 0xDD0BA0 VA: 0x180DD25A0
 	|-Array.InternalArray__set_Item<RandomItemDispenser.RandomItemChance>
 	|
-	|-RVA: 0xDD2810 Offset: 0xDD0E10 VA: 0x180DD2810
+	|-RVA: 0xDD2710 Offset: 0xDD0D10 VA: 0x180DD2710
 	|-Array.InternalArray__set_Item<RealTimeSince>
 	|
-	|-RVA: 0xDD2AD0 Offset: 0xDD10D0 VA: 0x180DD2AD0
+	|-RVA: 0xDD29D0 Offset: 0xDD0FD0 VA: 0x180DD29D0
 	|-Array.InternalArray__set_Item<Recipe.RecipeIngredient>
 	|
-	|-RVA: 0xDBBF70 Offset: 0xDBA570 VA: 0x180DBBF70
+	|-RVA: 0xDBBE70 Offset: 0xDBA470 VA: 0x180DBBE70
 	|-Array.InternalArray__set_Item<ReflectionProbeEx.CubemapFaceMatrices>
 	|
-	|-RVA: 0xDBC130 Offset: 0xDBA730 VA: 0x180DBC130
+	|-RVA: 0xDBC030 Offset: 0xDBA630 VA: 0x180DBC030
 	|-Array.InternalArray__set_Item<ReflectionProbeEx.CubemapSkyboxVertex>
 	|
-	|-RVA: 0xDD2DC0 Offset: 0xDD13C0 VA: 0x180DD2DC0
+	|-RVA: 0xDD2CC0 Offset: 0xDD12C0 VA: 0x180DD2CC0
 	|-Array.InternalArray__set_Item<ReflectionProbeEx.RenderListEntry>
 	|
-	|-RVA: 0xDD30E0 Offset: 0xDD16E0 VA: 0x180DD30E0
+	|-RVA: 0xDD2FE0 Offset: 0xDD15E0 VA: 0x180DD2FE0
 	|-Array.InternalArray__set_Item<RendererKey>
 	|
-	|-RVA: 0xDD7410 Offset: 0xDD5A10 VA: 0x180DD7410
+	|-RVA: 0xDD7310 Offset: 0xDD5910 VA: 0x180DD7310
 	|-Array.InternalArray__set_Item<WaypointSet.Waypoint>
 	|
-	|-RVA: 0xDD69B0 Offset: 0xDD4FB0 VA: 0x180DD69B0
+	|-RVA: 0xDD68B0 Offset: 0xDD4EB0 VA: 0x180DD68B0
 	|-Array.InternalArray__set_Item<TransformSnapshot>
 	|
-	|-RVA: 0xDD6830 Offset: 0xDD4E30 VA: 0x180DD6830
+	|-RVA: 0xDD6730 Offset: 0xDD4D30 VA: 0x180DD6730
 	|-Array.InternalArray__set_Item<TimelineEvent>
 	|
-	|-RVA: 0xDD1380 Offset: 0xDCF980 VA: 0x180DD1380
+	|-RVA: 0xDD1280 Offset: 0xDCF880 VA: 0x180DD1280
 	|-Array.InternalArray__set_Item<Option>
 	|
-	|-RVA: 0xDD6230 Offset: 0xDD4830 VA: 0x180DD6230
+	|-RVA: 0xDD6130 Offset: 0xDD4730 VA: 0x180DD6130
 	|-Array.InternalArray__set_Item<TickRenderer.Tick>
 	|
-	|-RVA: 0xDD36B0 Offset: 0xDD1CB0 VA: 0x180DD36B0
+	|-RVA: 0xDD35B0 Offset: 0xDD1BB0 VA: 0x180DD35B0
 	|-Array.InternalArray__set_Item<ServerBrowserList.Rules>
 	|
-	|-RVA: 0xDD4010 Offset: 0xDD2610 VA: 0x180DD4010
+	|-RVA: 0xDD3F10 Offset: 0xDD2510 VA: 0x180DD3F10
 	|-Array.InternalArray__set_Item<ServerBrowserList.ServerKeyvalues>
 	|
-	|-RVA: 0xDD3C90 Offset: 0xDD2290 VA: 0x180DD3C90
+	|-RVA: 0xDD3B90 Offset: 0xDD2190 VA: 0x180DD3B90
 	|-Array.InternalArray__set_Item<ServerInfo>
 	|
-	|-RVA: 0xDD1680 Offset: 0xDCFC80 VA: 0x180DD1680
+	|-RVA: 0xDD1580 Offset: 0xDCFB80 VA: 0x180DD1580
 	|-Array.InternalArray__set_Item<SkinnedMultiMesh.Part>
 	|
-	|-RVA: 0xDCCE10 Offset: 0xDCB410 VA: 0x180DCCE10
+	|-RVA: 0xDCCD10 Offset: 0xDCB310 VA: 0x180DCCD10
 	|-Array.InternalArray__set_Item<SlotMachinePayoutSettings.IndividualPayouts>
 	|
-	|-RVA: 0xDD1970 Offset: 0xDCFF70 VA: 0x180DD1970
+	|-RVA: 0xDD1870 Offset: 0xDCFE70 VA: 0x180DD1870
 	|-Array.InternalArray__set_Item<SlotMachinePayoutSettings.PayoutInfo>
 	|
-	|-RVA: 0xDD4BD0 Offset: 0xDD31D0 VA: 0x180DD4BD0
+	|-RVA: 0xDD4AD0 Offset: 0xDD30D0 VA: 0x180DD4AD0
 	|-Array.InternalArray__set_Item<SubmarineSonar.SonarBlip>
 	|
-	|-RVA: 0xDD4D50 Offset: 0xDD3350 VA: 0x180DD4D50
+	|-RVA: 0xDD4C50 Offset: 0xDD3250 VA: 0x180DD4C50
 	|-Array.InternalArray__set_Item<SpawnIndividual>
 	|
-	|-RVA: 0xDD2C40 Offset: 0xDD1240 VA: 0x180DD2C40
+	|-RVA: 0xDD2B40 Offset: 0xDD1140 VA: 0x180DD2B40
 	|-Array.InternalArray__set_Item<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0xDD5AC0 Offset: 0xDD40C0 VA: 0x180DD5AC0
+	|-RVA: 0xDD59C0 Offset: 0xDD3FC0 VA: 0x180DD59C0
 	|-Array.InternalArray__set_Item<SteamNewsSource.Story>
 	|
-	|-RVA: 0xDB9B20 Offset: 0xDB8120 VA: 0x180DB9B20
+	|-RVA: 0xDB9A20 Offset: 0xDB8020 VA: 0x180DB9A20
 	|-Array.InternalArray__set_Item<AppId>
 	|
-	|-RVA: 0xDB9840 Offset: 0xDB7E40 VA: 0x180DB9840
+	|-RVA: 0xDB9740 Offset: 0xDB7D40 VA: 0x180DB9740
 	|-Array.InternalArray__set_Item<Achievement>
 	|
-	|-RVA: 0xDBBCA0 Offset: 0xDBA2A0 VA: 0x180DBBCA0
+	|-RVA: 0xDBBBA0 Offset: 0xDBA1A0 VA: 0x180DBBBA0
 	|-Array.InternalArray__set_Item<Connection>
 	|
-	|-RVA: 0xDBBB20 Offset: 0xDBA120 VA: 0x180DBBB20
+	|-RVA: 0xDBBA20 Offset: 0xDBA020 VA: 0x180DBBA20
 	|-Array.InternalArray__set_Item<ConnectionLaneStatus>
 	|
-	|-RVA: 0xDCD260 Offset: 0xDCB860 VA: 0x180DCD260
+	|-RVA: 0xDCD160 Offset: 0xDCB760 VA: 0x180DCD160
 	|-Array.InternalArray__set_Item<InputActionSetHandle_t>
 	|
-	|-RVA: 0xDCD3C0 Offset: 0xDCB9C0 VA: 0x180DCD3C0
+	|-RVA: 0xDCD2C0 Offset: 0xDCB8C0 VA: 0x180DCD2C0
 	|-Array.InternalArray__set_Item<InputAnalogActionHandle_t>
 	|
-	|-RVA: 0xDCD520 Offset: 0xDCBB20 VA: 0x180DCD520
+	|-RVA: 0xDCD420 Offset: 0xDCBA20 VA: 0x180DCD420
 	|-Array.InternalArray__set_Item<InputDigitalActionHandle_t>
 	|
-	|-RVA: 0xDCD680 Offset: 0xDCBC80 VA: 0x180DCD680
+	|-RVA: 0xDCD580 Offset: 0xDCBB80 VA: 0x180DCD580
 	|-Array.InternalArray__set_Item<InputHandle_t>
 	|
-	|-RVA: 0xDCD960 Offset: 0xDCBF60 VA: 0x180DCD960
+	|-RVA: 0xDCD860 Offset: 0xDCBE60 VA: 0x180DCD860
 	|-Array.InternalArray__set_Item<InventoryDefId>
 	|
-	|-RVA: 0xDCDAC0 Offset: 0xDCC0C0 VA: 0x180DCDAC0
+	|-RVA: 0xDCD9C0 Offset: 0xDCBFC0 VA: 0x180DCD9C0
 	|-Array.InternalArray__set_Item<InventoryItemId>
 	|
-	|-RVA: 0xDCF920 Offset: 0xDCDF20 VA: 0x180DCF920
+	|-RVA: 0xDCF820 Offset: 0xDCDE20 VA: 0x180DCF820
 	|-Array.InternalArray__set_Item<MatchMakingKeyValuePair>
 	|
-	|-RVA: 0xDD08C0 Offset: 0xDCEEC0 VA: 0x180DD08C0
+	|-RVA: 0xDD07C0 Offset: 0xDCEDC0 VA: 0x180DD07C0
 	|-Array.InternalArray__set_Item<NetKeyValue>
 	|
-	|-RVA: 0xDD2540 Offset: 0xDD0B40 VA: 0x180DD2540
+	|-RVA: 0xDD2440 Offset: 0xDD0A40 VA: 0x180DD2440
 	|-Array.InternalArray__set_Item<PublishedFileId>
 	|
-	|-RVA: 0xDD3E50 Offset: 0xDD2450 VA: 0x180DD3E50
+	|-RVA: 0xDD3D50 Offset: 0xDD2350 VA: 0x180DD3D50
 	|-Array.InternalArray__set_Item<ServerInfo>
 	|
-	|-RVA: 0xDD5950 Offset: 0xDD3F50 VA: 0x180DD5950
+	|-RVA: 0xDD5850 Offset: 0xDD3E50 VA: 0x180DD5850
 	|-Array.InternalArray__set_Item<SteamItemDetails_t>
 	|
-	|-RVA: 0xDD6F90 Offset: 0xDD5590 VA: 0x180DD6F90
+	|-RVA: 0xDD6E90 Offset: 0xDD5490 VA: 0x180DD6E90
 	|-Array.InternalArray__set_Item<UgcAdditionalPreview>
 	|
-	|-RVA: 0xDBAB30 Offset: 0xDB9130 VA: 0x180DBAB30
+	|-RVA: 0xDBAA30 Offset: 0xDB9030 VA: 0x180DBAA30
 	|-Array.InternalArray__set_Item<Dispatch.Callback>
 	|
-	|-RVA: 0xDD3540 Offset: 0xDD1B40 VA: 0x180DD3540
+	|-RVA: 0xDD3440 Offset: 0xDD1A40 VA: 0x180DD3440
 	|-Array.InternalArray__set_Item<Dispatch.ResultCallback>
 	|
-	|-RVA: 0xDCC3B0 Offset: 0xDCA9B0 VA: 0x180DCC3B0
+	|-RVA: 0xDCC2B0 Offset: 0xDCA8B0 VA: 0x180DCC2B0
 	|-Array.InternalArray__set_Item<Friend>
 	|
-	|-RVA: 0xDB99A0 Offset: 0xDB7FA0 VA: 0x180DB99A0
+	|-RVA: 0xDB98A0 Offset: 0xDB7EA0 VA: 0x180DB98A0
 	|-Array.InternalArray__set_Item<InventoryItem.Amount>
 	|
-	|-RVA: 0xDCDC20 Offset: 0xDCC220 VA: 0x180DCDC20
+	|-RVA: 0xDCDB20 Offset: 0xDCC120 VA: 0x180DCDB20
 	|-Array.InternalArray__set_Item<InventoryItem>
 	|
-	|-RVA: 0xDCD0E0 Offset: 0xDCB6E0 VA: 0x180DCD0E0
+	|-RVA: 0xDCCFE0 Offset: 0xDCB5E0 VA: 0x180DCCFE0
 	|-Array.InternalArray__set_Item<InventoryRecipe.Ingredient>
 	|
-	|-RVA: 0xDCDDA0 Offset: 0xDCC3A0 VA: 0x180DCDDA0
+	|-RVA: 0xDCDCA0 Offset: 0xDCC2A0 VA: 0x180DCDCA0
 	|-Array.InternalArray__set_Item<InventoryRecipe>
 	|
-	|-RVA: 0xDBC710 Offset: 0xDBAD10 VA: 0x180DBC710
+	|-RVA: 0xDBC610 Offset: 0xDBAC10 VA: 0x180DBC610
 	|-Array.InternalArray__set_Item<SteamNetworkingUtils.DebugMessage>
 	|
-	|-RVA: 0xDCE0A0 Offset: 0xDCC6A0 VA: 0x180DCE0A0
+	|-RVA: 0xDCDFA0 Offset: 0xDCC5A0 VA: 0x180DCDFA0
 	|-Array.InternalArray__set_Item<Item>
 	|
-	|-RVA: 0xDCE420 Offset: 0xDCCA20 VA: 0x180DCE420
+	|-RVA: 0xDCE320 Offset: 0xDCC920 VA: 0x180DCE320
 	|-Array.InternalArray__set_Item<StringFormatCache.Key1>
 	|
-	|-RVA: 0xDCE590 Offset: 0xDCCB90 VA: 0x180DCE590
+	|-RVA: 0xDCE490 Offset: 0xDCCA90 VA: 0x180DCE490
 	|-Array.InternalArray__set_Item<StringFormatCache.Key2>
 	|
-	|-RVA: 0xDCE710 Offset: 0xDCCD10 VA: 0x180DCE710
+	|-RVA: 0xDCE610 Offset: 0xDCCC10 VA: 0x180DCE610
 	|-Array.InternalArray__set_Item<StringFormatCache.Key3>
 	|
-	|-RVA: 0xDCE890 Offset: 0xDCCE90 VA: 0x180DCE890
+	|-RVA: 0xDCE790 Offset: 0xDCCD90 VA: 0x180DCE790
 	|-Array.InternalArray__set_Item<StringFormatCache.Key4>
 	|
-	|-RVA: 0xDD5C40 Offset: 0xDD4240 VA: 0x180DD5C40
+	|-RVA: 0xDD5B40 Offset: 0xDD4140 VA: 0x180DD5B40
 	|-Array.InternalArray__set_Item<SubsurfaceProfileTexture.SubsurfaceProfileEntry>
 	|
-	|-RVA: 0xDD66B0 Offset: 0xDD4CB0 VA: 0x180DD66B0
+	|-RVA: 0xDD65B0 Offset: 0xDD4BB0 VA: 0x180DD65B0
 	|-Array.InternalArray__set_Item<SynchronizedClock.TimedEvent>
 	|
-	|-RVA: 0xDB9DF0 Offset: 0xDB83F0 VA: 0x180DB9DF0
+	|-RVA: 0xDB9CF0 Offset: 0xDB82F0 VA: 0x180DB9CF0
 	|-Array.InternalArray__set_Item<ArraySegment<byte>>
 	|
-	|-RVA: 0xDB9C80 Offset: 0xDB8280 VA: 0x180DB9C80
+	|-RVA: 0xDB9B80 Offset: 0xDB8180 VA: 0x180DB9B80
 	|-Array.InternalArray__set_Item<ArraySegment<object>>
 	|
-	|-RVA: 0xDBA590 Offset: 0xDB8B90 VA: 0x180DBA590
+	|-RVA: 0xDBA490 Offset: 0xDB8A90 VA: 0x180DBA490
 	|-Array.InternalArray__set_Item<bool>
 	|
-	|-RVA: 0xDBA850 Offset: 0xDB8E50 VA: 0x180DBA850
+	|-RVA: 0xDBA750 Offset: 0xDB8D50 VA: 0x180DBA750
 	|-Array.InternalArray__set_Item<byte>
 	|
-	|-RVA: 0xDBA6F0 Offset: 0xDB8CF0 VA: 0x180DBA6F0
+	|-RVA: 0xDBA5F0 Offset: 0xDB8BF0 VA: 0x180DBA5F0
 	|-Array.InternalArray__set_Item<ByteEnum>
 	|
-	|-RVA: 0xDBB100 Offset: 0xDB9700 VA: 0x180DBB100
+	|-RVA: 0xDBB000 Offset: 0xDB9600 VA: 0x180DBB000
 	|-Array.InternalArray__set_Item<char>
 	|
-	|-RVA: 0xDD4A50 Offset: 0xDD3050 VA: 0x180DD4A50
+	|-RVA: 0xDD4950 Offset: 0xDD2F50 VA: 0x180DD4950
 	|-Array.InternalArray__set_Item<ConcurrentQueue.Segment.Slot<SteamNetworkingUtils.DebugMessage>>
 	|
-	|-RVA: 0xDD48E0 Offset: 0xDD2EE0 VA: 0x180DD48E0
+	|-RVA: 0xDD47E0 Offset: 0xDD2DE0 VA: 0x180DD47E0
 	|-Array.InternalArray__set_Item<ConcurrentQueue.Segment.Slot<object>>
 	|
-	|-RVA: 0xDBCFC0 Offset: 0xDBB5C0 VA: 0x180DBCFC0
+	|-RVA: 0xDBCEC0 Offset: 0xDBB4C0 VA: 0x180DBCEC0
 	|-Array.InternalArray__set_Item<DictionaryEntry>
 	|
-	|-RVA: 0xDC0E00 Offset: 0xDBF400 VA: 0x180DC0E00
+	|-RVA: 0xDC0D00 Offset: 0xDBF300 VA: 0x180DC0D00
 	|-Array.InternalArray__set_Item<Dictionary.Entry<FoliageKey, int>>
 	|
-	|-RVA: 0xDC6A40 Offset: 0xDC5040 VA: 0x180DC6A40
+	|-RVA: 0xDC6940 Offset: 0xDC4F40 VA: 0x180DC6940
 	|-Array.InternalArray__set_Item<Dictionary.Entry<InstancingKey, int>>
 	|
-	|-RVA: 0xDC9B70 Offset: 0xDC8170 VA: 0x180DC9B70
+	|-RVA: 0xDC9A70 Offset: 0xDC8070 VA: 0x180DC9A70
 	|-Array.InternalArray__set_Item<Dictionary.Entry<InvokeAction, int>>
 	|
-	|-RVA: 0xDC7610 Offset: 0xDC5C10 VA: 0x180DC7610
+	|-RVA: 0xDC7510 Offset: 0xDC5B10 VA: 0x180DC7510
 	|-Array.InternalArray__set_Item<Dictionary.Entry<XPathNodeRef, XPathNodeRef>>
 	|
-	|-RVA: 0xDC9560 Offset: 0xDC7B60 VA: 0x180DC9560
+	|-RVA: 0xDC9460 Offset: 0xDC7A60 VA: 0x180DC9460
 	|-Array.InternalArray__set_Item<Dictionary.Entry<DefaultSerializationBinder.TypeNameKey, object>>
 	|
-	|-RVA: 0xDCA470 Offset: 0xDC8A70 VA: 0x180DCA470
+	|-RVA: 0xDCA370 Offset: 0xDC8970 VA: 0x180DCA370
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ResolverContractKey, object>>
 	|
-	|-RVA: 0xDBF1E0 Offset: 0xDBD7E0 VA: 0x180DBF1E0
+	|-RVA: 0xDBF0E0 Offset: 0xDBD6E0 VA: 0x180DBF0E0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ConvertUtils.TypeConvertKey, object>>
 	|
-	|-RVA: 0xDCB070 Offset: 0xDC9670 VA: 0x180DCB070
+	|-RVA: 0xDCAF70 Offset: 0xDC9570 VA: 0x180DCAF70
 	|-Array.InternalArray__set_Item<Dictionary.Entry<RendererKey, int>>
 	|
-	|-RVA: 0xDC0B00 Offset: 0xDBF100 VA: 0x180DC0B00
+	|-RVA: 0xDC0A00 Offset: 0xDBF000 VA: 0x180DC0A00
 	|-Array.InternalArray__set_Item<Dictionary.Entry<SpecialPurposeCamera.RenderEntry, int>>
 	|
-	|-RVA: 0xDBF940 Offset: 0xDBDF40 VA: 0x180DBF940
+	|-RVA: 0xDBF840 Offset: 0xDBDE40 VA: 0x180DBF840
 	|-Array.InternalArray__set_Item<Dictionary.Entry<InventoryDefId, uint>>
 	|
-	|-RVA: 0xDC6D40 Offset: 0xDC5340 VA: 0x180DC6D40
+	|-RVA: 0xDC6C40 Offset: 0xDC5240 VA: 0x180DC6C40
 	|-Array.InternalArray__set_Item<Dictionary.Entry<StringFormatCache.Key1, object>>
 	|
-	|-RVA: 0xDC81F0 Offset: 0xDC67F0 VA: 0x180DC81F0
+	|-RVA: 0xDC80F0 Offset: 0xDC66F0 VA: 0x180DC80F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<StringFormatCache.Key2, object>>
 	|
-	|-RVA: 0xDCBC60 Offset: 0xDCA260 VA: 0x180DCBC60
+	|-RVA: 0xDCBB60 Offset: 0xDCA160 VA: 0x180DCBB60
 	|-Array.InternalArray__set_Item<Dictionary.Entry<StringFormatCache.Key3, object>>
 	|
-	|-RVA: 0xDC5280 Offset: 0xDC3880 VA: 0x180DC5280
+	|-RVA: 0xDC5180 Offset: 0xDC3780 VA: 0x180DC5180
 	|-Array.InternalArray__set_Item<Dictionary.Entry<StringFormatCache.Key4, object>>
 	|
-	|-RVA: 0xDC8DE0 Offset: 0xDC73E0 VA: 0x180DC8DE0
+	|-RVA: 0xDC8CE0 Offset: 0xDC72E0 VA: 0x180DC8CE0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<bool, bool>>
 	|
-	|-RVA: 0xDC7F00 Offset: 0xDC6500 VA: 0x180DC7F00
+	|-RVA: 0xDC7E00 Offset: 0xDC6400 VA: 0x180DC7E00
 	|-Array.InternalArray__set_Item<Dictionary.Entry<bool, Decimal>>
 	|
-	|-RVA: 0xDC7320 Offset: 0xDC5920 VA: 0x180DC7320
+	|-RVA: 0xDC7220 Offset: 0xDC5820 VA: 0x180DC7220
 	|-Array.InternalArray__set_Item<Dictionary.Entry<bool, double>>
 	|
-	|-RVA: 0xDC9E70 Offset: 0xDC8470 VA: 0x180DC9E70
+	|-RVA: 0xDC9D70 Offset: 0xDC8370 VA: 0x180DC9D70
 	|-Array.InternalArray__set_Item<Dictionary.Entry<bool, short>>
 	|
-	|-RVA: 0xDC5B80 Offset: 0xDC4180 VA: 0x180DC5B80
+	|-RVA: 0xDC5A80 Offset: 0xDC4080 VA: 0x180DC5A80
 	|-Array.InternalArray__set_Item<Dictionary.Entry<bool, int>>
 	|
-	|-RVA: 0xDC8AF0 Offset: 0xDC70F0 VA: 0x180DC8AF0
+	|-RVA: 0xDC89F0 Offset: 0xDC6FF0 VA: 0x180DC89F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<bool, long>>
 	|
-	|-RVA: 0xDC1570 Offset: 0xDBFB70 VA: 0x180DC1570
+	|-RVA: 0xDC1470 Offset: 0xDBFA70 VA: 0x180DC1470
 	|-Array.InternalArray__set_Item<Dictionary.Entry<bool, object>>
 	|
-	|-RVA: 0xDC5590 Offset: 0xDC3B90 VA: 0x180DC5590
+	|-RVA: 0xDC5490 Offset: 0xDC3A90 VA: 0x180DC5490
 	|-Array.InternalArray__set_Item<Dictionary.Entry<bool, float>>
 	|
-	|-RVA: 0xDC9260 Offset: 0xDC7860 VA: 0x180DC9260
+	|-RVA: 0xDC9160 Offset: 0xDC7760 VA: 0x180DC9160
 	|-Array.InternalArray__set_Item<Dictionary.Entry<bool, ushort>>
 	|
-	|-RVA: 0xDC7790 Offset: 0xDC5D90 VA: 0x180DC7790
+	|-RVA: 0xDC7690 Offset: 0xDC5C90 VA: 0x180DC7690
 	|-Array.InternalArray__set_Item<Dictionary.Entry<bool, uint>>
 	|
-	|-RVA: 0xDC28E0 Offset: 0xDC0EE0 VA: 0x180DC28E0
+	|-RVA: 0xDC27E0 Offset: 0xDC0DE0 VA: 0x180DC27E0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<bool, ulong>>
 	|
-	|-RVA: 0xDC19F0 Offset: 0xDBFFF0 VA: 0x180DC19F0
+	|-RVA: 0xDC18F0 Offset: 0xDBFEF0 VA: 0x180DC18F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<byte, object>>
 	|
-	|-RVA: 0xDC8670 Offset: 0xDC6C70 VA: 0x180DC8670
+	|-RVA: 0xDC8570 Offset: 0xDC6B70 VA: 0x180DC8570
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ByteEnum, byte>>
 	|
-	|-RVA: 0xDBE300 Offset: 0xDBC900 VA: 0x180DBE300
+	|-RVA: 0xDBE200 Offset: 0xDBC800 VA: 0x180DBE200
 	|-Array.InternalArray__set_Item<Dictionary.Entry<KeyValuePair<object, object>, object>>
 	|
-	|-RVA: 0xDC0F80 Offset: 0xDBF580 VA: 0x180DC0F80
+	|-RVA: 0xDC0E80 Offset: 0xDBF480 VA: 0x180DC0E80
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Decimal, bool>>
 	|
-	|-RVA: 0xDC5880 Offset: 0xDC3E80 VA: 0x180DC5880
+	|-RVA: 0xDC5780 Offset: 0xDC3D80 VA: 0x180DC5780
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Decimal, Decimal>>
 	|
-	|-RVA: 0xDC3AC0 Offset: 0xDC20C0 VA: 0x180DC3AC0
+	|-RVA: 0xDC39C0 Offset: 0xDC1FC0 VA: 0x180DC39C0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Decimal, double>>
 	|
-	|-RVA: 0xDC84F0 Offset: 0xDC6AF0 VA: 0x180DC84F0
+	|-RVA: 0xDC83F0 Offset: 0xDC69F0 VA: 0x180DC83F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Decimal, short>>
 	|
-	|-RVA: 0xDC6460 Offset: 0xDC4A60 VA: 0x180DC6460
+	|-RVA: 0xDC6360 Offset: 0xDC4960 VA: 0x180DC6360
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Decimal, int>>
 	|
-	|-RVA: 0xDC25F0 Offset: 0xDC0BF0 VA: 0x180DC25F0
+	|-RVA: 0xDC24F0 Offset: 0xDC0AF0 VA: 0x180DC24F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Decimal, long>>
 	|
-	|-RVA: 0xDC96E0 Offset: 0xDC7CE0 VA: 0x180DC96E0
+	|-RVA: 0xDC95E0 Offset: 0xDC7BE0 VA: 0x180DC95E0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Decimal, object>>
 	|
-	|-RVA: 0xDC1270 Offset: 0xDBF870 VA: 0x180DC1270
+	|-RVA: 0xDC1170 Offset: 0xDBF770 VA: 0x180DC1170
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Decimal, float>>
 	|
-	|-RVA: 0xDC4F80 Offset: 0xDC3580 VA: 0x180DC4F80
+	|-RVA: 0xDC4E80 Offset: 0xDC3480 VA: 0x180DC4E80
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Decimal, ushort>>
 	|
-	|-RVA: 0xDBEBE0 Offset: 0xDBD1E0 VA: 0x180DBEBE0
+	|-RVA: 0xDBEAE0 Offset: 0xDBD0E0 VA: 0x180DBEAE0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Decimal, uint>>
 	|
-	|-RVA: 0xDBF060 Offset: 0xDBD660 VA: 0x180DBF060
+	|-RVA: 0xDBEF60 Offset: 0xDBD560 VA: 0x180DBEF60
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Decimal, ulong>>
 	|
-	|-RVA: 0xDC8970 Offset: 0xDC6F70 VA: 0x180DC8970
+	|-RVA: 0xDC8870 Offset: 0xDC6E70 VA: 0x180DC8870
 	|-Array.InternalArray__set_Item<Dictionary.Entry<double, bool>>
 	|
-	|-RVA: 0xDC8F60 Offset: 0xDC7560 VA: 0x180DC8F60
+	|-RVA: 0xDC8E60 Offset: 0xDC7460 VA: 0x180DC8E60
 	|-Array.InternalArray__set_Item<Dictionary.Entry<double, Decimal>>
 	|
-	|-RVA: 0xDC16F0 Offset: 0xDBFCF0 VA: 0x180DC16F0
+	|-RVA: 0xDC15F0 Offset: 0xDBFBF0 VA: 0x180DC15F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<double, double>>
 	|
-	|-RVA: 0xDC1870 Offset: 0xDBFE70 VA: 0x180DC1870
+	|-RVA: 0xDC1770 Offset: 0xDBFD70 VA: 0x180DC1770
 	|-Array.InternalArray__set_Item<Dictionary.Entry<double, short>>
 	|
-	|-RVA: 0xDC7900 Offset: 0xDC5F00 VA: 0x180DC7900
+	|-RVA: 0xDC7800 Offset: 0xDC5E00 VA: 0x180DC7800
 	|-Array.InternalArray__set_Item<Dictionary.Entry<double, int>>
 	|
-	|-RVA: 0xDC5FF0 Offset: 0xDC45F0 VA: 0x180DC5FF0
+	|-RVA: 0xDC5EF0 Offset: 0xDC44F0 VA: 0x180DC5EF0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<double, long>>
 	|
-	|-RVA: 0xDC3940 Offset: 0xDC1F40 VA: 0x180DC3940
+	|-RVA: 0xDC3840 Offset: 0xDC1E40 VA: 0x180DC3840
 	|-Array.InternalArray__set_Item<Dictionary.Entry<double, object>>
 	|
-	|-RVA: 0xDC7A80 Offset: 0xDC6080 VA: 0x180DC7A80
+	|-RVA: 0xDC7980 Offset: 0xDC5F80 VA: 0x180DC7980
 	|-Array.InternalArray__set_Item<Dictionary.Entry<double, float>>
 	|
-	|-RVA: 0xDC1CF0 Offset: 0xDC02F0 VA: 0x180DC1CF0
+	|-RVA: 0xDC1BF0 Offset: 0xDC01F0 VA: 0x180DC1BF0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<double, ushort>>
 	|
-	|-RVA: 0xDC93E0 Offset: 0xDC79E0 VA: 0x180DC93E0
+	|-RVA: 0xDC92E0 Offset: 0xDC78E0 VA: 0x180DC92E0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<double, uint>>
 	|
-	|-RVA: 0xDC4990 Offset: 0xDC2F90 VA: 0x180DC4990
+	|-RVA: 0xDC4890 Offset: 0xDC2E90 VA: 0x180DC4890
 	|-Array.InternalArray__set_Item<Dictionary.Entry<double, ulong>>
 	|
-	|-RVA: 0xDC40B0 Offset: 0xDC26B0 VA: 0x180DC40B0
+	|-RVA: 0xDC3FB0 Offset: 0xDC25B0 VA: 0x180DC3FB0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Guid, object>>
 	|
-	|-RVA: 0xDC5A00 Offset: 0xDC4000 VA: 0x180DC5A00
+	|-RVA: 0xDC5900 Offset: 0xDC3F00 VA: 0x180DC5900
 	|-Array.InternalArray__set_Item<Dictionary.Entry<short, bool>>
 	|
-	|-RVA: 0xDCB670 Offset: 0xDC9C70 VA: 0x180DCB670
+	|-RVA: 0xDCB570 Offset: 0xDC9B70 VA: 0x180DCB570
 	|-Array.InternalArray__set_Item<Dictionary.Entry<short, Decimal>>
 	|
-	|-RVA: 0xDC1E70 Offset: 0xDC0470 VA: 0x180DC1E70
+	|-RVA: 0xDC1D70 Offset: 0xDC0370 VA: 0x180DC1D70
 	|-Array.InternalArray__set_Item<Dictionary.Entry<short, double>>
 	|
-	|-RVA: 0xDC7030 Offset: 0xDC5630 VA: 0x180DC7030
+	|-RVA: 0xDC6F30 Offset: 0xDC5530 VA: 0x180DC6F30
 	|-Array.InternalArray__set_Item<Dictionary.Entry<short, short>>
 	|
-	|-RVA: 0xDBFDA0 Offset: 0xDBE3A0 VA: 0x180DBFDA0
+	|-RVA: 0xDBFCA0 Offset: 0xDBE2A0 VA: 0x180DBFCA0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<short, int>>
 	|
-	|-RVA: 0xDC5700 Offset: 0xDC3D00 VA: 0x180DC5700
+	|-RVA: 0xDC5600 Offset: 0xDC3C00 VA: 0x180DC5600
 	|-Array.InternalArray__set_Item<Dictionary.Entry<short, long>>
 	|
-	|-RVA: 0xDC3650 Offset: 0xDC1C50 VA: 0x180DC3650
+	|-RVA: 0xDC3550 Offset: 0xDC1B50 VA: 0x180DC3550
 	|-Array.InternalArray__set_Item<Dictionary.Entry<short, object>>
 	|
-	|-RVA: 0xDC68D0 Offset: 0xDC4ED0 VA: 0x180DC68D0
+	|-RVA: 0xDC67D0 Offset: 0xDC4DD0 VA: 0x180DC67D0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<short, float>>
 	|
-	|-RVA: 0xDC0090 Offset: 0xDBE690 VA: 0x180DC0090
+	|-RVA: 0xDBFF90 Offset: 0xDBE590 VA: 0x180DBFF90
 	|-Array.InternalArray__set_Item<Dictionary.Entry<short, ushort>>
 	|
-	|-RVA: 0xDC4820 Offset: 0xDC2E20 VA: 0x180DC4820
+	|-RVA: 0xDC4720 Offset: 0xDC2D20 VA: 0x180DC4720
 	|-Array.InternalArray__set_Item<Dictionary.Entry<short, uint>>
 	|
-	|-RVA: 0xDCA8F0 Offset: 0xDC8EF0 VA: 0x180DCA8F0
+	|-RVA: 0xDCA7F0 Offset: 0xDC8DF0 VA: 0x180DCA7F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<short, ulong>>
 	|
-	|-RVA: 0xDCAD70 Offset: 0xDC9370 VA: 0x180DCAD70
+	|-RVA: 0xDCAC70 Offset: 0xDC9270 VA: 0x180DCAC70
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, CommandBufferManager.CommandBufferEntry>>
 	|
-	|-RVA: 0xDCB370 Offset: 0xDC9970 VA: 0x180DCB370
+	|-RVA: 0xDCB270 Offset: 0xDC9870 VA: 0x180DCB270
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, FoliageKey>>
 	|
-	|-RVA: 0xDC3350 Offset: 0xDC1950 VA: 0x180DC3350
+	|-RVA: 0xDC3250 Offset: 0xDC1850 VA: 0x180DC3250
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, InstancingKey>>
 	|
-	|-RVA: 0xDCA5F0 Offset: 0xDC8BF0 VA: 0x180DCA5F0
+	|-RVA: 0xDCA4F0 Offset: 0xDC8AF0 VA: 0x180DCA4F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, InvokeAction>>
 	|
-	|-RVA: 0xDC3DB0 Offset: 0xDC23B0 VA: 0x180DC3DB0
+	|-RVA: 0xDC3CB0 Offset: 0xDC22B0 VA: 0x180DC3CB0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, RendererKey>>
 	|
-	|-RVA: 0xDC3050 Offset: 0xDC1650 VA: 0x180DC3050
+	|-RVA: 0xDC2F50 Offset: 0xDC1550 VA: 0x180DC2F50
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, SpecialPurposeCamera.RenderEntry>>
 	|
-	|-RVA: 0xDC6EC0 Offset: 0xDC54C0 VA: 0x180DC6EC0
+	|-RVA: 0xDC6DC0 Offset: 0xDC53C0 VA: 0x180DC6DC0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, bool>>
 	|
-	|-RVA: 0xDC3C40 Offset: 0xDC2240 VA: 0x180DC3C40
+	|-RVA: 0xDC3B40 Offset: 0xDC2140 VA: 0x180DC3B40
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, char>>
 	|
-	|-RVA: 0xDC5E70 Offset: 0xDC4470 VA: 0x180DC5E70
+	|-RVA: 0xDC5D70 Offset: 0xDC4370 VA: 0x180DC5D70
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, Decimal>>
 	|
-	|-RVA: 0xDC0510 Offset: 0xDBEB10 VA: 0x180DC0510
+	|-RVA: 0xDC0410 Offset: 0xDBEA10 VA: 0x180DC0410
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, double>>
 	|
-	|-RVA: 0xDCB970 Offset: 0xDC9F70 VA: 0x180DCB970
+	|-RVA: 0xDCB870 Offset: 0xDC9E70 VA: 0x180DCB870
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, short>>
 	|
-	|-RVA: 0xDC1100 Offset: 0xDBF700 VA: 0x180DC1100
+	|-RVA: 0xDC1000 Offset: 0xDBF600 VA: 0x180DC1000
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, int>>
 	|
-	|-RVA: 0xDC0810 Offset: 0xDBEE10 VA: 0x180DC0810
+	|-RVA: 0xDC0710 Offset: 0xDBED10 VA: 0x180DC0710
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, Int32Enum>>
 	|
-	|-RVA: 0xDCAA70 Offset: 0xDC9070 VA: 0x180DCAA70
+	|-RVA: 0xDCA970 Offset: 0xDC8F70 VA: 0x180DCA970
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, long>>
 	|
-	|-RVA: 0xDC5100 Offset: 0xDC3700 VA: 0x180DC5100
+	|-RVA: 0xDC5000 Offset: 0xDC3600 VA: 0x180DC5000
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, object>>
 	|
-	|-RVA: 0xDBEA70 Offset: 0xDBD070 VA: 0x180DBEA70
+	|-RVA: 0xDBE970 Offset: 0xDBCF70 VA: 0x180DBE970
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, float>>
 	|
-	|-RVA: 0xDBF7D0 Offset: 0xDBDDD0 VA: 0x180DBF7D0
+	|-RVA: 0xDBF6D0 Offset: 0xDBDCD0 VA: 0x180DBF6D0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, ushort>>
 	|
-	|-RVA: 0xDC74A0 Offset: 0xDC5AA0 VA: 0x180DC74A0
+	|-RVA: 0xDC73A0 Offset: 0xDC59A0 VA: 0x180DC73A0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, uint>>
 	|
-	|-RVA: 0xDC8370 Offset: 0xDC6970 VA: 0x180DC8370
+	|-RVA: 0xDC8270 Offset: 0xDC6870 VA: 0x180DC8270
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, ulong>>
 	|
-	|-RVA: 0xDC9860 Offset: 0xDC7E60 VA: 0x180DC9860
+	|-RVA: 0xDC9760 Offset: 0xDC7D60 VA: 0x180DC9760
 	|-Array.InternalArray__set_Item<Dictionary.Entry<int, ViewModelDrawEvent>>
 	|
-	|-RVA: 0xDC2470 Offset: 0xDC0A70 VA: 0x180DC2470
+	|-RVA: 0xDC2370 Offset: 0xDC0970 VA: 0x180DC2370
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Int32Enum, object>>
 	|
-	|-RVA: 0xDC8080 Offset: 0xDC6680 VA: 0x180DC8080
+	|-RVA: 0xDC7F80 Offset: 0xDC6580 VA: 0x180DC7F80
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Int32Enum, float>>
 	|
-	|-RVA: 0xDC5410 Offset: 0xDC3A10 VA: 0x180DC5410
+	|-RVA: 0xDC5310 Offset: 0xDC3910 VA: 0x180DC5310
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, bool>>
 	|
-	|-RVA: 0xDC1B70 Offset: 0xDC0170 VA: 0x180DC1B70
+	|-RVA: 0xDC1A70 Offset: 0xDC0070 VA: 0x180DC1A70
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, Decimal>>
 	|
-	|-RVA: 0xDC46A0 Offset: 0xDC2CA0 VA: 0x180DC46A0
+	|-RVA: 0xDC45A0 Offset: 0xDC2BA0 VA: 0x180DC45A0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, double>>
 	|
-	|-RVA: 0xDBFAB0 Offset: 0xDBE0B0 VA: 0x180DBFAB0
+	|-RVA: 0xDBF9B0 Offset: 0xDBDFB0 VA: 0x180DBF9B0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, short>>
 	|
-	|-RVA: 0xDC87F0 Offset: 0xDC6DF0 VA: 0x180DC87F0
+	|-RVA: 0xDC86F0 Offset: 0xDC6CF0 VA: 0x180DC86F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, int>>
 	|
-	|-RVA: 0xDCA2F0 Offset: 0xDC88F0 VA: 0x180DCA2F0
+	|-RVA: 0xDCA1F0 Offset: 0xDC87F0 VA: 0x180DCA1F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, long>>
 	|
-	|-RVA: 0xDC90E0 Offset: 0xDC76E0 VA: 0x180DC90E0
+	|-RVA: 0xDC8FE0 Offset: 0xDC75E0 VA: 0x180DC8FE0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, object>>
 	|
-	|-RVA: 0xDC34D0 Offset: 0xDC1AD0 VA: 0x180DC34D0
+	|-RVA: 0xDC33D0 Offset: 0xDC19D0 VA: 0x180DC33D0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, float>>
 	|
-	|-RVA: 0xDC99F0 Offset: 0xDC7FF0 VA: 0x180DC99F0
+	|-RVA: 0xDC98F0 Offset: 0xDC7EF0 VA: 0x180DC98F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, ushort>>
 	|
-	|-RVA: 0xDC2BE0 Offset: 0xDC11E0 VA: 0x180DC2BE0
+	|-RVA: 0xDC2AE0 Offset: 0xDC10E0 VA: 0x180DC2AE0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, uint>>
 	|
-	|-RVA: 0xDC0210 Offset: 0xDBE810 VA: 0x180DC0210
+	|-RVA: 0xDC0110 Offset: 0xDBE710 VA: 0x180DC0110
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, ulong>>
 	|
-	|-RVA: 0xDBF650 Offset: 0xDBDC50 VA: 0x180DBF650
+	|-RVA: 0xDBF550 Offset: 0xDBDB50 VA: 0x180DBF550
 	|-Array.InternalArray__set_Item<Dictionary.Entry<IntPtr, object>>
 	|
-	|-RVA: 0xDCAEF0 Offset: 0xDC94F0 VA: 0x180DCAEF0
+	|-RVA: 0xDCADF0 Offset: 0xDC93F0 VA: 0x180DCADF0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, CameraMan.CameraState>>
 	|
-	|-RVA: 0xDC9CF0 Offset: 0xDC82F0 VA: 0x180DC9CF0
+	|-RVA: 0xDC9BF0 Offset: 0xDC81F0 VA: 0x180DC9BF0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>
 	|
-	|-RVA: 0xDC2A60 Offset: 0xDC1060 VA: 0x180DC2A60
+	|-RVA: 0xDC2960 Offset: 0xDC0F60 VA: 0x180DC2960
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, InputActionSetHandle_t>>
 	|
-	|-RVA: 0xDC0980 Offset: 0xDBEF80 VA: 0x180DC0980
+	|-RVA: 0xDC0880 Offset: 0xDBEE80 VA: 0x180DC0880
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, InputAnalogActionHandle_t>>
 	|
-	|-RVA: 0xDC6BC0 Offset: 0xDC51C0 VA: 0x180DC6BC0
+	|-RVA: 0xDC6AC0 Offset: 0xDC50C0 VA: 0x180DC6AC0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, InputDigitalActionHandle_t>>
 	|
-	|-RVA: 0xDC22F0 Offset: 0xDC08F0 VA: 0x180DC22F0
+	|-RVA: 0xDC21F0 Offset: 0xDC07F0 VA: 0x180DC21F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, bool>>
 	|
-	|-RVA: 0xDBF4D0 Offset: 0xDBDAD0 VA: 0x180DBF4D0
+	|-RVA: 0xDBF3D0 Offset: 0xDBD9D0 VA: 0x180DBF3D0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, byte>>
 	|
-	|-RVA: 0xDC0390 Offset: 0xDBE990 VA: 0x180DC0390
+	|-RVA: 0xDC0290 Offset: 0xDBE890 VA: 0x180DC0290
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, Decimal>>
 	|
-	|-RVA: 0xDCB1F0 Offset: 0xDC97F0 VA: 0x180DCB1F0
+	|-RVA: 0xDCB0F0 Offset: 0xDC96F0 VA: 0x180DCB0F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, double>>
 	|
-	|-RVA: 0xDCA770 Offset: 0xDC8D70 VA: 0x180DCA770
+	|-RVA: 0xDCA670 Offset: 0xDC8C70 VA: 0x180DCA670
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, short>>
 	|
-	|-RVA: 0xDBE8F0 Offset: 0xDBCEF0 VA: 0x180DBE8F0
+	|-RVA: 0xDBE7F0 Offset: 0xDBCDF0 VA: 0x180DBE7F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, int>>
 	|
-	|-RVA: 0xDC13F0 Offset: 0xDBF9F0 VA: 0x180DC13F0
+	|-RVA: 0xDC12F0 Offset: 0xDBF8F0 VA: 0x180DC12F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, Int32Enum>>
 	|
-	|-RVA: 0xDC43A0 Offset: 0xDC29A0 VA: 0x180DC43A0
+	|-RVA: 0xDC42A0 Offset: 0xDC28A0 VA: 0x180DC42A0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, long>>
 	|
-	|-RVA: 0xDBE480 Offset: 0xDBCA80 VA: 0x180DBE480
+	|-RVA: 0xDBE380 Offset: 0xDBC980 VA: 0x180DBE380
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, object>>
 	|
-	|-RVA: 0xDCB7F0 Offset: 0xDC9DF0 VA: 0x180DCB7F0
+	|-RVA: 0xDCB6F0 Offset: 0xDC9CF0 VA: 0x180DCB6F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, ResourceLocator>>
 	|
-	|-RVA: 0xDC1FF0 Offset: 0xDC05F0 VA: 0x180DC1FF0
+	|-RVA: 0xDC1EF0 Offset: 0xDC04F0 VA: 0x180DC1EF0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, float>>
 	|
-	|-RVA: 0xDCBAE0 Offset: 0xDCA0E0 VA: 0x180DCBAE0
+	|-RVA: 0xDCB9E0 Offset: 0xDC9FE0 VA: 0x180DCB9E0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, ushort>>
 	|
-	|-RVA: 0xDBE770 Offset: 0xDBCD70 VA: 0x180DBE770
+	|-RVA: 0xDBE670 Offset: 0xDBCC70 VA: 0x180DBE670
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, uint>>
 	|
-	|-RVA: 0xDBED60 Offset: 0xDBD360 VA: 0x180DBED60
+	|-RVA: 0xDBEC60 Offset: 0xDBD260 VA: 0x180DBEC60
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, ulong>>
 	|
-	|-RVA: 0xDC4E00 Offset: 0xDC3400 VA: 0x180DC4E00
+	|-RVA: 0xDC4D00 Offset: 0xDC3300 VA: 0x180DC4D00
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, ValueTuple<object, object>>>
 	|
-	|-RVA: 0xDC5CF0 Offset: 0xDC42F0 VA: 0x180DC5CF0
+	|-RVA: 0xDC5BF0 Offset: 0xDC41F0 VA: 0x180DC5BF0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<object, Vector3>>
 	|
-	|-RVA: 0xDC8C70 Offset: 0xDC7270 VA: 0x180DC8C70
+	|-RVA: 0xDC8B70 Offset: 0xDC7170 VA: 0x180DC8B70
 	|-Array.InternalArray__set_Item<Dictionary.Entry<float, bool>>
 	|
-	|-RVA: 0xDC7C00 Offset: 0xDC6200 VA: 0x180DC7C00
+	|-RVA: 0xDC7B00 Offset: 0xDC6100 VA: 0x180DC7B00
 	|-Array.InternalArray__set_Item<Dictionary.Entry<float, Decimal>>
 	|
-	|-RVA: 0xDC65E0 Offset: 0xDC4BE0 VA: 0x180DC65E0
+	|-RVA: 0xDC64E0 Offset: 0xDC4AE0 VA: 0x180DC64E0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<float, double>>
 	|
-	|-RVA: 0xDBE600 Offset: 0xDBCC00 VA: 0x180DBE600
+	|-RVA: 0xDBE500 Offset: 0xDBCB00 VA: 0x180DBE500
 	|-Array.InternalArray__set_Item<Dictionary.Entry<float, short>>
 	|
-	|-RVA: 0xDC37D0 Offset: 0xDC1DD0 VA: 0x180DC37D0
+	|-RVA: 0xDC36D0 Offset: 0xDC1CD0 VA: 0x180DC36D0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<float, int>>
 	|
-	|-RVA: 0xDC9FF0 Offset: 0xDC85F0 VA: 0x180DC9FF0
+	|-RVA: 0xDC9EF0 Offset: 0xDC84F0 VA: 0x180DC9EF0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<float, long>>
 	|
-	|-RVA: 0xDC2ED0 Offset: 0xDC14D0 VA: 0x180DC2ED0
+	|-RVA: 0xDC2DD0 Offset: 0xDC13D0 VA: 0x180DC2DD0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<float, object>>
 	|
-	|-RVA: 0xDC62F0 Offset: 0xDC48F0 VA: 0x180DC62F0
+	|-RVA: 0xDC61F0 Offset: 0xDC47F0 VA: 0x180DC61F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<float, float>>
 	|
-	|-RVA: 0xDC4230 Offset: 0xDC2830 VA: 0x180DC4230
+	|-RVA: 0xDC4130 Offset: 0xDC2730 VA: 0x180DC4130
 	|-Array.InternalArray__set_Item<Dictionary.Entry<float, ushort>>
 	|
-	|-RVA: 0xDC71B0 Offset: 0xDC57B0 VA: 0x180DC71B0
+	|-RVA: 0xDC70B0 Offset: 0xDC56B0 VA: 0x180DC70B0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<float, uint>>
 	|
-	|-RVA: 0xDC0C80 Offset: 0xDBF280 VA: 0x180DC0C80
+	|-RVA: 0xDC0B80 Offset: 0xDBF180 VA: 0x180DC0B80
 	|-Array.InternalArray__set_Item<Dictionary.Entry<float, ulong>>
 	|
-	|-RVA: 0xDCA170 Offset: 0xDC8770 VA: 0x180DCA170
+	|-RVA: 0xDCA070 Offset: 0xDC8670 VA: 0x180DCA070
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ushort, bool>>
 	|
-	|-RVA: 0xDCABF0 Offset: 0xDC91F0 VA: 0x180DCABF0
+	|-RVA: 0xDCAAF0 Offset: 0xDC90F0 VA: 0x180DCAAF0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ushort, Decimal>>
 	|
-	|-RVA: 0xDC0690 Offset: 0xDBEC90 VA: 0x180DC0690
+	|-RVA: 0xDC0590 Offset: 0xDBEB90 VA: 0x180DC0590
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ushort, double>>
 	|
-	|-RVA: 0xDBEEE0 Offset: 0xDBD4E0 VA: 0x180DBEEE0
+	|-RVA: 0xDBEDE0 Offset: 0xDBD3E0 VA: 0x180DBEDE0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ushort, short>>
 	|
-	|-RVA: 0xDBFC30 Offset: 0xDBE230 VA: 0x180DBFC30
+	|-RVA: 0xDBFB30 Offset: 0xDBE130 VA: 0x180DBFB30
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ushort, int>>
 	|
-	|-RVA: 0xDC4B10 Offset: 0xDC3110 VA: 0x180DC4B10
+	|-RVA: 0xDC4A10 Offset: 0xDC3010 VA: 0x180DC4A10
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ushort, long>>
 	|
-	|-RVA: 0xDC7D80 Offset: 0xDC6380 VA: 0x180DC7D80
+	|-RVA: 0xDC7C80 Offset: 0xDC6280 VA: 0x180DC7C80
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ushort, object>>
 	|
-	|-RVA: 0xDC4C90 Offset: 0xDC3290 VA: 0x180DC4C90
+	|-RVA: 0xDC4B90 Offset: 0xDC3190 VA: 0x180DC4B90
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ushort, float>>
 	|
-	|-RVA: 0xDC4520 Offset: 0xDC2B20 VA: 0x180DC4520
+	|-RVA: 0xDC4420 Offset: 0xDC2A20 VA: 0x180DC4420
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ushort, ushort>>
 	|
-	|-RVA: 0xDC6760 Offset: 0xDC4D60 VA: 0x180DC6760
+	|-RVA: 0xDC6660 Offset: 0xDC4C60 VA: 0x180DC6660
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ushort, uint>>
 	|
-	|-RVA: 0xDC6170 Offset: 0xDC4770 VA: 0x180DC6170
+	|-RVA: 0xDC6070 Offset: 0xDC4670 VA: 0x180DC6070
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ushort, ulong>>
 	|
-	|-RVA: 0xDBF360 Offset: 0xDBD960 VA: 0x180DBF360
+	|-RVA: 0xDBF260 Offset: 0xDBD860 VA: 0x180DBF260
 	|-Array.InternalArray__set_Item<Dictionary.Entry<uint, bool>>
 	|
-	|-RVA: 0xDBFF10 Offset: 0xDBE510 VA: 0x180DBFF10
+	|-RVA: 0xDBFE10 Offset: 0xDBE410 VA: 0x180DBFE10
 	|-Array.InternalArray__set_Item<Dictionary.Entry<uint, Decimal>>
 	|
-	|-RVA: 0xDC31D0 Offset: 0xDC17D0 VA: 0x180DC31D0
+	|-RVA: 0xDC30D0 Offset: 0xDC16D0 VA: 0x180DC30D0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<uint, double>>
 	|
-	|-RVA: 0xDC2770 Offset: 0xDC0D70 VA: 0x180DC2770
+	|-RVA: 0xDC2670 Offset: 0xDC0C70 VA: 0x180DC2670
 	|-Array.InternalArray__set_Item<Dictionary.Entry<uint, short>>
 	|
-	|-RVA: 0x119C1A0 Offset: 0x119A7A0 VA: 0x18119C1A0
+	|-RVA: 0x119C0A0 Offset: 0x119A6A0 VA: 0x18119C0A0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<uint, int>>
 	|
-	|-RVA: 0x119AF90 Offset: 0x1199590 VA: 0x18119AF90
+	|-RVA: 0x119AE90 Offset: 0x1199490 VA: 0x18119AE90
 	|-Array.InternalArray__set_Item<Dictionary.Entry<uint, long>>
 	|
-	|-RVA: 0x119CA70 Offset: 0x119B070 VA: 0x18119CA70
+	|-RVA: 0x119C970 Offset: 0x119AF70 VA: 0x18119C970
 	|-Array.InternalArray__set_Item<Dictionary.Entry<uint, object>>
 	|
-	|-RVA: 0x119CD70 Offset: 0x119B370 VA: 0x18119CD70
+	|-RVA: 0x119CC70 Offset: 0x119B270 VA: 0x18119CC70
 	|-Array.InternalArray__set_Item<Dictionary.Entry<uint, float>>
 	|
-	|-RVA: 0x119C310 Offset: 0x119A910 VA: 0x18119C310
+	|-RVA: 0x119C210 Offset: 0x119A810 VA: 0x18119C210
 	|-Array.InternalArray__set_Item<Dictionary.Entry<uint, ushort>>
 	|
-	|-RVA: 0x119CEE0 Offset: 0x119B4E0 VA: 0x18119CEE0
+	|-RVA: 0x119CDE0 Offset: 0x119B3E0 VA: 0x18119CDE0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<uint, uint>>
 	|
-	|-RVA: 0x119BA20 Offset: 0x119A020 VA: 0x18119BA20
+	|-RVA: 0x119B920 Offset: 0x1199F20 VA: 0x18119B920
 	|-Array.InternalArray__set_Item<Dictionary.Entry<uint, ulong>>
 	|
-	|-RVA: 0x119AB10 Offset: 0x1199110 VA: 0x18119AB10
+	|-RVA: 0x119AA10 Offset: 0x1199010 VA: 0x18119AA10
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, AvatarCache.Entry>>
 	|
-	|-RVA: 0x119B110 Offset: 0x1199710 VA: 0x18119B110
+	|-RVA: 0x119B010 Offset: 0x1199610 VA: 0x18119B010
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, Chat.MuteEntry>>
 	|
-	|-RVA: 0x119C020 Offset: 0x119A620 VA: 0x18119C020
+	|-RVA: 0x119BF20 Offset: 0x119A520 VA: 0x18119BF20
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, Dispatch.ResultCallback>>
 	|
-	|-RVA: 0x119D050 Offset: 0x119B650 VA: 0x18119D050
+	|-RVA: 0x119CF50 Offset: 0x119B550 VA: 0x18119CF50
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, bool>>
 	|
-	|-RVA: 0x119B410 Offset: 0x1199A10 VA: 0x18119B410
+	|-RVA: 0x119B310 Offset: 0x1199910 VA: 0x18119B310
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, Decimal>>
 	|
-	|-RVA: 0x119AE10 Offset: 0x1199410 VA: 0x18119AE10
+	|-RVA: 0x119AD10 Offset: 0x1199310 VA: 0x18119AD10
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, double>>
 	|
-	|-RVA: 0x119C8F0 Offset: 0x119AEF0 VA: 0x18119C8F0
+	|-RVA: 0x119C7F0 Offset: 0x119ADF0 VA: 0x18119C7F0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, short>>
 	|
-	|-RVA: 0x119B590 Offset: 0x1199B90 VA: 0x18119B590
+	|-RVA: 0x119B490 Offset: 0x1199A90 VA: 0x18119B490
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, int>>
 	|
-	|-RVA: 0x119B290 Offset: 0x1199890 VA: 0x18119B290
+	|-RVA: 0x119B190 Offset: 0x1199790 VA: 0x18119B190
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, long>>
 	|
-	|-RVA: 0x119D350 Offset: 0x119B950 VA: 0x18119D350
+	|-RVA: 0x119D250 Offset: 0x119B850 VA: 0x18119D250
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, object>>
 	|
-	|-RVA: 0x119AC90 Offset: 0x1199290 VA: 0x18119AC90
+	|-RVA: 0x119AB90 Offset: 0x1199190 VA: 0x18119AB90
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, float>>
 	|
-	|-RVA: 0x119BEA0 Offset: 0x119A4A0 VA: 0x18119BEA0
+	|-RVA: 0x119BDA0 Offset: 0x119A3A0 VA: 0x18119BDA0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, ushort>>
 	|
-	|-RVA: 0x119B710 Offset: 0x1199D10 VA: 0x18119B710
+	|-RVA: 0x119B610 Offset: 0x1199C10 VA: 0x18119B610
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, uint>>
 	|
-	|-RVA: 0x119C770 Offset: 0x119AD70 VA: 0x18119C770
+	|-RVA: 0x119C670 Offset: 0x119AC70 VA: 0x18119C670
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, ulong>>
 	|
-	|-RVA: 0x119C480 Offset: 0x119AA80 VA: 0x18119C480
+	|-RVA: 0x119C380 Offset: 0x119A980 VA: 0x18119C380
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ulong, TimeSince>>
 	|
-	|-RVA: 0x119D4D0 Offset: 0x119BAD0 VA: 0x18119D4D0
+	|-RVA: 0x119D3D0 Offset: 0x119B9D0 VA: 0x18119D3D0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ValueTuple<Int32Enum, int>, object>>
 	|
-	|-RVA: 0x119D1D0 Offset: 0x119B7D0 VA: 0x18119D1D0
+	|-RVA: 0x119D0D0 Offset: 0x119B6D0 VA: 0x18119D0D0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Color, object>>
 	|
-	|-RVA: 0x119BD20 Offset: 0x119A320 VA: 0x18119BD20
+	|-RVA: 0x119BC20 Offset: 0x119A220 VA: 0x18119BC20
 	|-Array.InternalArray__set_Item<Dictionary.Entry<TerrainUtility.TerrainMap.TileCoord, object>>
 	|
-	|-RVA: 0x119BBA0 Offset: 0x119A1A0 VA: 0x18119BBA0
+	|-RVA: 0x119BAA0 Offset: 0x119A0A0 VA: 0x18119BAA0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<StyleSheetCache.SheetHandleKey, int>>
 	|
-	|-RVA: 0x119A990 Offset: 0x1198F90 VA: 0x18119A990
+	|-RVA: 0x119A890 Offset: 0x1198E90 VA: 0x18119A890
 	|-Array.InternalArray__set_Item<Dictionary.Entry<StyleSheetCache.SheetHandleKey, object>>
 	|
-	|-RVA: 0x119CBF0 Offset: 0x119B1F0 VA: 0x18119CBF0
+	|-RVA: 0x119CAF0 Offset: 0x119B0F0 VA: 0x18119CAF0
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Vector2i, object>>
 	|
-	|-RVA: 0x119B890 Offset: 0x1199E90 VA: 0x18119B890
+	|-RVA: 0x119B790 Offset: 0x1199D90 VA: 0x18119B790
 	|-Array.InternalArray__set_Item<Dictionary.Entry<ViewModelDrawEvent, int>>
 	|
-	|-RVA: 0x11B49A0 Offset: 0x11B2FA0 VA: 0x1811B49A0
+	|-RVA: 0x11B48A0 Offset: 0x11B2EA0 VA: 0x1811B48A0
 	|-Array.InternalArray__set_Item<HashSet.Slot<Connection>>
 	|
-	|-RVA: 0x11B4B20 Offset: 0x11B3120 VA: 0x1811B4B20
+	|-RVA: 0x11B4A20 Offset: 0x11B3020 VA: 0x1811B4A20
 	|-Array.InternalArray__set_Item<HashSet.Slot<int>>
 	|
-	|-RVA: 0x11B4540 Offset: 0x11B2B40 VA: 0x1811B4540
+	|-RVA: 0x11B4440 Offset: 0x11B2A40 VA: 0x1811B4440
 	|-Array.InternalArray__set_Item<HashSet.Slot<object>>
 	|
-	|-RVA: 0x11B4E10 Offset: 0x11B3410 VA: 0x1811B4E10
+	|-RVA: 0x11B4D10 Offset: 0x11B3310 VA: 0x1811B4D10
 	|-Array.InternalArray__set_Item<HashSet.Slot<uint>>
 	|
-	|-RVA: 0x11B46B0 Offset: 0x11B2CB0 VA: 0x1811B46B0
+	|-RVA: 0x11B45B0 Offset: 0x11B2BB0 VA: 0x1811B45B0
 	|-Array.InternalArray__set_Item<HashSet.Slot<ulong>>
 	|
-	|-RVA: 0x11B5110 Offset: 0x11B3710 VA: 0x1811B5110
+	|-RVA: 0x11B5010 Offset: 0x11B3610 VA: 0x1811B5010
 	|-Array.InternalArray__set_Item<HashSet.Slot<Vector3>>
 	|
-	|-RVA: 0x11A1FD0 Offset: 0x11A05D0 VA: 0x1811A1FD0
+	|-RVA: 0x11A1ED0 Offset: 0x11A04D0 VA: 0x1811A1ED0
 	|-Array.InternalArray__set_Item<KeyValuePair<FoliageKey, int>>
 	|
-	|-RVA: 0x11ACB90 Offset: 0x11AB190 VA: 0x1811ACB90
+	|-RVA: 0x11ACA90 Offset: 0x11AB090 VA: 0x1811ACA90
 	|-Array.InternalArray__set_Item<KeyValuePair<FoliageKey, object>>
 	|
-	|-RVA: 0x11A4CC0 Offset: 0x11A32C0 VA: 0x1811A4CC0
+	|-RVA: 0x11A4BC0 Offset: 0x11A31C0 VA: 0x1811A4BC0
 	|-Array.InternalArray__set_Item<KeyValuePair<InstancingKey, int>>
 	|
-	|-RVA: 0x11AA1B0 Offset: 0x11A87B0 VA: 0x1811AA1B0
+	|-RVA: 0x11AA0B0 Offset: 0x11A86B0 VA: 0x1811AA0B0
 	|-Array.InternalArray__set_Item<KeyValuePair<InstancingKey, object>>
 	|
-	|-RVA: 0x11AEF50 Offset: 0x11AD550 VA: 0x1811AEF50
+	|-RVA: 0x11AEE50 Offset: 0x11AD450 VA: 0x1811AEE50
 	|-Array.InternalArray__set_Item<KeyValuePair<InvokeAction, int>>
 	|
-	|-RVA: 0x11A6110 Offset: 0x11A4710 VA: 0x1811A6110
+	|-RVA: 0x11A6010 Offset: 0x11A4610 VA: 0x1811A6010
 	|-Array.InternalArray__set_Item<KeyValuePair<InvokeAction, float>>
 	|
-	|-RVA: 0x11A6560 Offset: 0x11A4B60 VA: 0x1811A6560
+	|-RVA: 0x11A6460 Offset: 0x11A4A60 VA: 0x1811A6460
 	|-Array.InternalArray__set_Item<KeyValuePair<XPathNodeRef, XPathNodeRef>>
 	|
-	|-RVA: 0x11AC8B0 Offset: 0x11AAEB0 VA: 0x1811AC8B0
+	|-RVA: 0x11AC7B0 Offset: 0x11AADB0 VA: 0x1811AC7B0
 	|-Array.InternalArray__set_Item<KeyValuePair<SevenBitNumber, object>>
 	|
-	|-RVA: 0x11A01A0 Offset: 0x119E7A0 VA: 0x1811A01A0
+	|-RVA: 0x11A00A0 Offset: 0x119E6A0 VA: 0x1811A00A0
 	|-Array.InternalArray__set_Item<KeyValuePair<DefaultSerializationBinder.TypeNameKey, object>>
 	|
-	|-RVA: 0x11AA770 Offset: 0x11A8D70 VA: 0x1811AA770
+	|-RVA: 0x11AA670 Offset: 0x11A8C70 VA: 0x1811AA670
 	|-Array.InternalArray__set_Item<KeyValuePair<ResolverContractKey, object>>
 	|
-	|-RVA: 0x11AA490 Offset: 0x11A8A90 VA: 0x1811AA490
+	|-RVA: 0x11AA390 Offset: 0x11A8990 VA: 0x1811AA390
 	|-Array.InternalArray__set_Item<KeyValuePair<ConvertUtils.TypeConvertKey, object>>
 	|
-	|-RVA: 0x11AAD20 Offset: 0x11A9320 VA: 0x1811AAD20
+	|-RVA: 0x11AAC20 Offset: 0x11A9220 VA: 0x1811AAC20
 	|-Array.InternalArray__set_Item<KeyValuePair<RendererKey, int>>
 	|
-	|-RVA: 0x11AC730 Offset: 0x11AAD30 VA: 0x1811AC730
+	|-RVA: 0x11AC630 Offset: 0x11AAC30 VA: 0x1811AC630
 	|-Array.InternalArray__set_Item<KeyValuePair<RendererKey, object>>
 	|
-	|-RVA: 0x119FEA0 Offset: 0x119E4A0 VA: 0x18119FEA0
+	|-RVA: 0x119FDA0 Offset: 0x119E3A0 VA: 0x18119FDA0
 	|-Array.InternalArray__set_Item<KeyValuePair<SpecialPurposeCamera.RenderEntry, int>>
 	|
-	|-RVA: 0x11A83B0 Offset: 0x11A69B0 VA: 0x1811A83B0
+	|-RVA: 0x11A82B0 Offset: 0x11A68B0 VA: 0x1811A82B0
 	|-Array.InternalArray__set_Item<KeyValuePair<InventoryDefId, uint>>
 	|
-	|-RVA: 0x11A6850 Offset: 0x11A4E50 VA: 0x1811A6850
+	|-RVA: 0x11A6750 Offset: 0x11A4D50 VA: 0x1811A6750
 	|-Array.InternalArray__set_Item<KeyValuePair<StringFormatCache.Key1, object>>
 	|
-	|-RVA: 0x11A0020 Offset: 0x119E620 VA: 0x1811A0020
+	|-RVA: 0x119FF20 Offset: 0x119E520 VA: 0x18119FF20
 	|-Array.InternalArray__set_Item<KeyValuePair<StringFormatCache.Key2, object>>
 	|
-	|-RVA: 0x11A1E50 Offset: 0x11A0450 VA: 0x1811A1E50
+	|-RVA: 0x11A1D50 Offset: 0x11A0350 VA: 0x1811A1D50
 	|-Array.InternalArray__set_Item<KeyValuePair<StringFormatCache.Key3, object>>
 	|
-	|-RVA: 0x11ABFC0 Offset: 0x11AA5C0 VA: 0x1811ABFC0
+	|-RVA: 0x11ABEC0 Offset: 0x11AA4C0 VA: 0x1811ABEC0
 	|-Array.InternalArray__set_Item<KeyValuePair<StringFormatCache.Key4, object>>
 	|
-	|-RVA: 0x11A73D0 Offset: 0x11A59D0 VA: 0x1811A73D0
+	|-RVA: 0x11A72D0 Offset: 0x11A58D0 VA: 0x1811A72D0
 	|-Array.InternalArray__set_Item<KeyValuePair<bool, bool>>
 	|
-	|-RVA: 0x11A43F0 Offset: 0x11A29F0 VA: 0x1811A43F0
+	|-RVA: 0x11A42F0 Offset: 0x11A28F0 VA: 0x1811A42F0
 	|-Array.InternalArray__set_Item<KeyValuePair<bool, Decimal>>
 	|
-	|-RVA: 0x11AAEA0 Offset: 0x11A94A0 VA: 0x1811AAEA0
+	|-RVA: 0x11AADA0 Offset: 0x11A93A0 VA: 0x1811AADA0
 	|-Array.InternalArray__set_Item<KeyValuePair<bool, double>>
 	|
-	|-RVA: 0x11ADB30 Offset: 0x11AC130 VA: 0x1811ADB30
+	|-RVA: 0x11ADA30 Offset: 0x11AC030 VA: 0x1811ADA30
 	|-Array.InternalArray__set_Item<KeyValuePair<bool, short>>
 	|
-	|-RVA: 0x11A9920 Offset: 0x11A7F20 VA: 0x1811A9920
+	|-RVA: 0x11A9820 Offset: 0x11A7E20 VA: 0x1811A9820
 	|-Array.InternalArray__set_Item<KeyValuePair<bool, int>>
 	|
-	|-RVA: 0x11A3580 Offset: 0x11A1B80 VA: 0x1811A3580
+	|-RVA: 0x11A3480 Offset: 0x11A1A80 VA: 0x1811A3480
 	|-Array.InternalArray__set_Item<KeyValuePair<bool, long>>
 	|
-	|-RVA: 0x11A4280 Offset: 0x11A2880 VA: 0x1811A4280
+	|-RVA: 0x11A4180 Offset: 0x11A2780 VA: 0x1811A4180
 	|-Array.InternalArray__set_Item<KeyValuePair<bool, object>>
 	|
-	|-RVA: 0x11A9640 Offset: 0x11A7C40 VA: 0x1811A9640
+	|-RVA: 0x11A9540 Offset: 0x11A7B40 VA: 0x1811A9540
 	|-Array.InternalArray__set_Item<KeyValuePair<bool, float>>
 	|
-	|-RVA: 0x11A4120 Offset: 0x11A2720 VA: 0x1811A4120
+	|-RVA: 0x11A4020 Offset: 0x11A2620 VA: 0x1811A4020
 	|-Array.InternalArray__set_Item<KeyValuePair<bool, ushort>>
 	|
-	|-RVA: 0x11AE110 Offset: 0x11AC710 VA: 0x1811AE110
+	|-RVA: 0x11AE010 Offset: 0x11AC610 VA: 0x1811AE010
 	|-Array.InternalArray__set_Item<KeyValuePair<bool, uint>>
 	|
-	|-RVA: 0x11A2890 Offset: 0x11A0E90 VA: 0x1811A2890
+	|-RVA: 0x11A2790 Offset: 0x11A0D90 VA: 0x1811A2790
 	|-Array.InternalArray__set_Item<KeyValuePair<bool, ulong>>
 	|
-	|-RVA: 0x11A12F0 Offset: 0x119F8F0 VA: 0x1811A12F0
+	|-RVA: 0x11A11F0 Offset: 0x119F7F0 VA: 0x1811A11F0
 	|-Array.InternalArray__set_Item<KeyValuePair<byte, object>>
 	|
-	|-RVA: 0x11ACFE0 Offset: 0x11AB5E0 VA: 0x1811ACFE0
+	|-RVA: 0x11ACEE0 Offset: 0x11AB4E0 VA: 0x1811ACEE0
 	|-Array.InternalArray__set_Item<KeyValuePair<ByteEnum, byte>>
 	|
-	|-RVA: 0x11A76A0 Offset: 0x11A5CA0 VA: 0x1811A76A0
+	|-RVA: 0x11A75A0 Offset: 0x11A5BA0 VA: 0x1811A75A0
 	|-Array.InternalArray__set_Item<KeyValuePair<KeyValuePair<object, object>, object>>
 	|
-	|-RVA: 0x11A52A0 Offset: 0x11A38A0 VA: 0x1811A52A0
+	|-RVA: 0x11A51A0 Offset: 0x11A37A0 VA: 0x1811A51A0
 	|-Array.InternalArray__set_Item<KeyValuePair<DateTime, object>>
 	|
-	|-RVA: 0x11AF810 Offset: 0x11ADE10 VA: 0x1811AF810
+	|-RVA: 0x11AF710 Offset: 0x11ADD10 VA: 0x1811AF710
 	|-Array.InternalArray__set_Item<KeyValuePair<Decimal, bool>>
 	|
-	|-RVA: 0x11A36F0 Offset: 0x11A1CF0 VA: 0x1811A36F0
+	|-RVA: 0x11A35F0 Offset: 0x11A1BF0 VA: 0x1811A35F0
 	|-Array.InternalArray__set_Item<KeyValuePair<Decimal, Decimal>>
 	|
-	|-RVA: 0x11A2A00 Offset: 0x11A1000 VA: 0x1811A2A00
+	|-RVA: 0x11A2900 Offset: 0x11A0F00 VA: 0x1811A2900
 	|-Array.InternalArray__set_Item<KeyValuePair<Decimal, double>>
 	|
-	|-RVA: 0x11AFB00 Offset: 0x11AE100 VA: 0x1811AFB00
+	|-RVA: 0x11AFA00 Offset: 0x11AE000 VA: 0x1811AFA00
 	|-Array.InternalArray__set_Item<KeyValuePair<Decimal, short>>
 	|
-	|-RVA: 0x11AC140 Offset: 0x11AA740 VA: 0x1811AC140
+	|-RVA: 0x11AC040 Offset: 0x11AA640 VA: 0x1811AC040
 	|-Array.InternalArray__set_Item<KeyValuePair<Decimal, int>>
 	|
-	|-RVA: 0x11A5B40 Offset: 0x11A4140 VA: 0x1811A5B40
+	|-RVA: 0x11A5A40 Offset: 0x11A4040 VA: 0x1811A5A40
 	|-Array.InternalArray__set_Item<KeyValuePair<Decimal, long>>
 	|
-	|-RVA: 0x11A4B40 Offset: 0x11A3140 VA: 0x1811A4B40
+	|-RVA: 0x11A4A40 Offset: 0x11A3040 VA: 0x1811A4A40
 	|-Array.InternalArray__set_Item<KeyValuePair<Decimal, object>>
 	|
-	|-RVA: 0x11A3E40 Offset: 0x11A2440 VA: 0x1811A3E40
+	|-RVA: 0x11A3D40 Offset: 0x11A2340 VA: 0x1811A3D40
 	|-Array.InternalArray__set_Item<KeyValuePair<Decimal, float>>
 	|
-	|-RVA: 0x11A3130 Offset: 0x11A1730 VA: 0x1811A3130
+	|-RVA: 0x11A3030 Offset: 0x11A1630 VA: 0x1811A3030
 	|-Array.InternalArray__set_Item<KeyValuePair<Decimal, ushort>>
 	|
-	|-RVA: 0x119FA30 Offset: 0x119E030 VA: 0x18119FA30
+	|-RVA: 0x119F930 Offset: 0x119DF30 VA: 0x18119F930
 	|-Array.InternalArray__set_Item<KeyValuePair<Decimal, uint>>
 	|
-	|-RVA: 0x11A5CC0 Offset: 0x11A42C0 VA: 0x1811A5CC0
+	|-RVA: 0x11A5BC0 Offset: 0x11A41C0 VA: 0x1811A5BC0
 	|-Array.InternalArray__set_Item<KeyValuePair<Decimal, ulong>>
 	|
-	|-RVA: 0x11A0480 Offset: 0x119EA80 VA: 0x1811A0480
+	|-RVA: 0x11A0380 Offset: 0x119E980 VA: 0x1811A0380
 	|-Array.InternalArray__set_Item<KeyValuePair<double, bool>>
 	|
-	|-RVA: 0x11A5120 Offset: 0x11A3720 VA: 0x1811A5120
+	|-RVA: 0x11A5020 Offset: 0x11A3620 VA: 0x1811A5020
 	|-Array.InternalArray__set_Item<KeyValuePair<double, Decimal>>
 	|
-	|-RVA: 0x11AE980 Offset: 0x11ACF80 VA: 0x1811AE980
+	|-RVA: 0x11AE880 Offset: 0x11ACE80 VA: 0x1811AE880
 	|-Array.InternalArray__set_Item<KeyValuePair<double, double>>
 	|
-	|-RVA: 0x11A39E0 Offset: 0x11A1FE0 VA: 0x1811A39E0
+	|-RVA: 0x11A38E0 Offset: 0x11A1EE0 VA: 0x1811A38E0
 	|-Array.InternalArray__set_Item<KeyValuePair<double, short>>
 	|
-	|-RVA: 0x11AB5C0 Offset: 0x11A9BC0 VA: 0x1811AB5C0
+	|-RVA: 0x11AB4C0 Offset: 0x11A9AC0 VA: 0x1811AB4C0
 	|-Array.InternalArray__set_Item<KeyValuePair<double, int>>
 	|
-	|-RVA: 0x11A46F0 Offset: 0x11A2CF0 VA: 0x1811A46F0
+	|-RVA: 0x11A45F0 Offset: 0x11A2BF0 VA: 0x1811A45F0
 	|-Array.InternalArray__set_Item<KeyValuePair<double, long>>
 	|
-	|-RVA: 0x119F8C0 Offset: 0x119DEC0 VA: 0x18119F8C0
+	|-RVA: 0x119F7C0 Offset: 0x119DDC0 VA: 0x18119F7C0
 	|-Array.InternalArray__set_Item<KeyValuePair<double, object>>
 	|
-	|-RVA: 0x11A5850 Offset: 0x11A3E50 VA: 0x1811A5850
+	|-RVA: 0x11A5750 Offset: 0x11A3D50 VA: 0x1811A5750
 	|-Array.InternalArray__set_Item<KeyValuePair<double, float>>
 	|
-	|-RVA: 0x11ACD00 Offset: 0x11AB300 VA: 0x1811ACD00
+	|-RVA: 0x11ACC00 Offset: 0x11AB200 VA: 0x1811ACC00
 	|-Array.InternalArray__set_Item<KeyValuePair<double, ushort>>
 	|
-	|-RVA: 0x11A2CE0 Offset: 0x11A12E0 VA: 0x1811A2CE0
+	|-RVA: 0x11A2BE0 Offset: 0x11A11E0 VA: 0x1811A2BE0
 	|-Array.InternalArray__set_Item<KeyValuePair<double, uint>>
 	|
-	|-RVA: 0x11A1740 Offset: 0x119FD40 VA: 0x1811A1740
+	|-RVA: 0x11A1640 Offset: 0x119FC40 VA: 0x1811A1640
 	|-Array.InternalArray__set_Item<KeyValuePair<double, ulong>>
 	|
-	|-RVA: 0x11A0D30 Offset: 0x119F330 VA: 0x1811A0D30
+	|-RVA: 0x11A0C30 Offset: 0x119F230 VA: 0x1811A0C30
 	|-Array.InternalArray__set_Item<KeyValuePair<Guid, int>>
 	|
-	|-RVA: 0x11AC5B0 Offset: 0x11AABB0 VA: 0x1811AC5B0
+	|-RVA: 0x11AC4B0 Offset: 0x11AAAB0 VA: 0x1811AC4B0
 	|-Array.InternalArray__set_Item<KeyValuePair<Guid, object>>
 	|
-	|-RVA: 0x11A8AD0 Offset: 0x11A70D0 VA: 0x1811A8AD0
+	|-RVA: 0x11A89D0 Offset: 0x11A6FD0 VA: 0x1811A89D0
 	|-Array.InternalArray__set_Item<KeyValuePair<short, bool>>
 	|
-	|-RVA: 0x11ADC90 Offset: 0x11AC290 VA: 0x1811ADC90
+	|-RVA: 0x11ADB90 Offset: 0x11AC190 VA: 0x1811ADB90
 	|-Array.InternalArray__set_Item<KeyValuePair<short, Decimal>>
 	|
-	|-RVA: 0x11A6E20 Offset: 0x11A5420 VA: 0x1811A6E20
+	|-RVA: 0x11A6D20 Offset: 0x11A5320 VA: 0x1811A6D20
 	|-Array.InternalArray__set_Item<KeyValuePair<short, double>>
 	|
-	|-RVA: 0x11A5580 Offset: 0x11A3B80 VA: 0x1811A5580
+	|-RVA: 0x11A5480 Offset: 0x11A3A80 VA: 0x1811A5480
 	|-Array.InternalArray__set_Item<KeyValuePair<short, short>>
 	|
-	|-RVA: 0x11A5E40 Offset: 0x11A4440 VA: 0x1811A5E40
+	|-RVA: 0x11A5D40 Offset: 0x11A4340 VA: 0x1811A5D40
 	|-Array.InternalArray__set_Item<KeyValuePair<short, int>>
 	|
-	|-RVA: 0x11A8C30 Offset: 0x11A7230 VA: 0x1811A8C30
+	|-RVA: 0x11A8B30 Offset: 0x11A7130 VA: 0x1811A8B30
 	|-Array.InternalArray__set_Item<KeyValuePair<short, long>>
 	|
-	|-RVA: 0x11A49D0 Offset: 0x11A2FD0 VA: 0x1811A49D0
+	|-RVA: 0x11A48D0 Offset: 0x11A2ED0 VA: 0x1811A48D0
 	|-Array.InternalArray__set_Item<KeyValuePair<short, object>>
 	|
-	|-RVA: 0x11A7270 Offset: 0x11A5870 VA: 0x1811A7270
+	|-RVA: 0x11A7170 Offset: 0x11A5770 VA: 0x1811A7170
 	|-Array.InternalArray__set_Item<KeyValuePair<short, float>>
 	|
-	|-RVA: 0x11A9A80 Offset: 0x11A8080 VA: 0x1811A9A80
+	|-RVA: 0x11A9980 Offset: 0x11A7F80 VA: 0x1811A9980
 	|-Array.InternalArray__set_Item<KeyValuePair<short, ushort>>
 	|
-	|-RVA: 0x11AB890 Offset: 0x11A9E90 VA: 0x1811AB890
+	|-RVA: 0x11AB790 Offset: 0x11A9D90 VA: 0x1811AB790
 	|-Array.InternalArray__set_Item<KeyValuePair<short, uint>>
 	|
-	|-RVA: 0x11A8DA0 Offset: 0x11A73A0 VA: 0x1811A8DA0
+	|-RVA: 0x11A8CA0 Offset: 0x11A72A0 VA: 0x1811A8CA0
 	|-Array.InternalArray__set_Item<KeyValuePair<short, ulong>>
 	|
-	|-RVA: 0x11A59C0 Offset: 0x11A3FC0 VA: 0x1811A59C0
+	|-RVA: 0x11A58C0 Offset: 0x11A3EC0 VA: 0x1811A58C0
 	|-Array.InternalArray__set_Item<KeyValuePair<int, CommandBufferManager.CommandBufferEntry>>
 	|
-	|-RVA: 0x11A2FC0 Offset: 0x11A15C0 VA: 0x1811A2FC0
+	|-RVA: 0x11A2EC0 Offset: 0x11A14C0 VA: 0x1811A2EC0
 	|-Array.InternalArray__set_Item<KeyValuePair<int, FoliageKey>>
 	|
-	|-RVA: 0x11AF0D0 Offset: 0x11AD6D0 VA: 0x1811AF0D0
+	|-RVA: 0x11AEFD0 Offset: 0x11AD5D0 VA: 0x1811AEFD0
 	|-Array.InternalArray__set_Item<KeyValuePair<int, InstancingKey>>
 	|
-	|-RVA: 0x11AB9F0 Offset: 0x11A9FF0 VA: 0x1811AB9F0
+	|-RVA: 0x11AB8F0 Offset: 0x11A9EF0 VA: 0x1811AB8F0
 	|-Array.InternalArray__set_Item<KeyValuePair<int, InvokeAction>>
 	|
-	|-RVA: 0x11A22C0 Offset: 0x11A08C0 VA: 0x1811A22C0
+	|-RVA: 0x11A21C0 Offset: 0x11A07C0 VA: 0x1811A21C0
 	|-Array.InternalArray__set_Item<KeyValuePair<int, RendererKey>>
 	|
-	|-RVA: 0x11A97A0 Offset: 0x11A7DA0 VA: 0x1811A97A0
+	|-RVA: 0x11A96A0 Offset: 0x11A7CA0 VA: 0x1811A96A0
 	|-Array.InternalArray__set_Item<KeyValuePair<int, SpecialPurposeCamera.RenderEntry>>
 	|
-	|-RVA: 0x11A3420 Offset: 0x11A1A20 VA: 0x1811A3420
+	|-RVA: 0x11A3320 Offset: 0x11A1920 VA: 0x1811A3320
 	|-Array.InternalArray__set_Item<KeyValuePair<int, bool>>
 	|
-	|-RVA: 0x11A0EB0 Offset: 0x119F4B0 VA: 0x1811A0EB0
+	|-RVA: 0x11A0DB0 Offset: 0x119F3B0 VA: 0x1811A0DB0
 	|-Array.InternalArray__set_Item<KeyValuePair<int, char>>
 	|
-	|-RVA: 0x11AEAF0 Offset: 0x11AD0F0 VA: 0x1811AEAF0
+	|-RVA: 0x11AE9F0 Offset: 0x11ACFF0 VA: 0x1811AE9F0
 	|-Array.InternalArray__set_Item<KeyValuePair<int, Decimal>>
 	|
-	|-RVA: 0x11ACA20 Offset: 0x11AB020 VA: 0x1811ACA20
+	|-RVA: 0x11AC920 Offset: 0x11AAF20 VA: 0x1811AC920
 	|-Array.InternalArray__set_Item<KeyValuePair<int, double>>
 	|
-	|-RVA: 0x11AD420 Offset: 0x11ABA20 VA: 0x1811AD420
+	|-RVA: 0x11AD320 Offset: 0x11AB920 VA: 0x1811AD320
 	|-Array.InternalArray__set_Item<KeyValuePair<int, short>>
 	|
-	|-RVA: 0x11AA330 Offset: 0x11A8930 VA: 0x1811AA330
+	|-RVA: 0x11AA230 Offset: 0x11A8830 VA: 0x1811AA230
 	|-Array.InternalArray__set_Item<KeyValuePair<int, int>>
 	|
-	|-RVA: 0x11A9D60 Offset: 0x11A8360 VA: 0x1811A9D60
+	|-RVA: 0x11A9C60 Offset: 0x11A8260 VA: 0x1811A9C60
 	|-Array.InternalArray__set_Item<KeyValuePair<int, Int32Enum>>
 	|
-	|-RVA: 0x11A7100 Offset: 0x11A5700 VA: 0x1811A7100
+	|-RVA: 0x11A7000 Offset: 0x11A5600 VA: 0x1811A7000
 	|-Array.InternalArray__set_Item<KeyValuePair<int, long>>
 	|
-	|-RVA: 0x11AB450 Offset: 0x11A9A50 VA: 0x1811AB450
+	|-RVA: 0x11AB350 Offset: 0x11A9950 VA: 0x1811AB350
 	|-Array.InternalArray__set_Item<KeyValuePair<int, object>>
 	|
-	|-RVA: 0x11AAA60 Offset: 0x11A9060 VA: 0x1811AAA60
+	|-RVA: 0x11AA960 Offset: 0x11A8F60 VA: 0x1811AA960
 	|-Array.InternalArray__set_Item<KeyValuePair<int, float>>
 	|
-	|-RVA: 0x11A0320 Offset: 0x119E920 VA: 0x1811A0320
+	|-RVA: 0x11A0220 Offset: 0x119E820 VA: 0x1811A0220
 	|-Array.InternalArray__set_Item<KeyValuePair<int, ushort>>
 	|
-	|-RVA: 0x11AE820 Offset: 0x11ACE20 VA: 0x1811AE820
+	|-RVA: 0x11AE720 Offset: 0x11ACD20 VA: 0x1811AE720
 	|-Array.InternalArray__set_Item<KeyValuePair<int, uint>>
 	|
-	|-RVA: 0x11A6CB0 Offset: 0x11A52B0 VA: 0x1811A6CB0
+	|-RVA: 0x11A6BB0 Offset: 0x11A51B0 VA: 0x1811A6BB0
 	|-Array.InternalArray__set_Item<KeyValuePair<int, ulong>>
 	|
-	|-RVA: 0x11A0750 Offset: 0x119ED50 VA: 0x1811A0750
+	|-RVA: 0x11A0650 Offset: 0x119EC50 VA: 0x1811A0650
 	|-Array.InternalArray__set_Item<KeyValuePair<int, ViewModelDrawEvent>>
 	|
-	|-RVA: 0x11A6290 Offset: 0x11A4890 VA: 0x1811A6290
+	|-RVA: 0x11A6190 Offset: 0x11A4790 VA: 0x1811A6190
 	|-Array.InternalArray__set_Item<KeyValuePair<Int32Enum, object>>
 	|
-	|-RVA: 0x11A1A10 Offset: 0x11A0010 VA: 0x1811A1A10
+	|-RVA: 0x11A1910 Offset: 0x119FF10 VA: 0x1811A1910
 	|-Array.InternalArray__set_Item<KeyValuePair<Int32Enum, float>>
 	|
-	|-RVA: 0x11A9080 Offset: 0x11A7680 VA: 0x1811A9080
+	|-RVA: 0x11A8F80 Offset: 0x11A7580 VA: 0x1811A8F80
 	|-Array.InternalArray__set_Item<KeyValuePair<long, bool>>
 	|
-	|-RVA: 0x11A3CC0 Offset: 0x11A22C0 VA: 0x1811A3CC0
+	|-RVA: 0x11A3BC0 Offset: 0x11A21C0 VA: 0x1811A3BC0
 	|-Array.InternalArray__set_Item<KeyValuePair<long, Decimal>>
 	|
-	|-RVA: 0x11A1460 Offset: 0x119FA60 VA: 0x1811A1460
+	|-RVA: 0x11A1360 Offset: 0x119F960 VA: 0x1811A1360
 	|-Array.InternalArray__set_Item<KeyValuePair<long, double>>
 	|
-	|-RVA: 0x11AE6B0 Offset: 0x11ACCB0 VA: 0x1811AE6B0
+	|-RVA: 0x11AE5B0 Offset: 0x11ACBB0 VA: 0x1811AE5B0
 	|-Array.InternalArray__set_Item<KeyValuePair<long, short>>
 	|
-	|-RVA: 0x11A4E40 Offset: 0x11A3440 VA: 0x1811A4E40
+	|-RVA: 0x11A4D40 Offset: 0x11A3340 VA: 0x1811A4D40
 	|-Array.InternalArray__set_Item<KeyValuePair<long, int>>
 	|
-	|-RVA: 0x11ABE50 Offset: 0x11AA450 VA: 0x1811ABE50
+	|-RVA: 0x11ABD50 Offset: 0x11AA350 VA: 0x1811ABD50
 	|-Array.InternalArray__set_Item<KeyValuePair<long, long>>
 	|
-	|-RVA: 0x119FD30 Offset: 0x119E330 VA: 0x18119FD30
+	|-RVA: 0x119FC30 Offset: 0x119E230 VA: 0x18119FC30
 	|-Array.InternalArray__set_Item<KeyValuePair<long, object>>
 	|
-	|-RVA: 0x11A4860 Offset: 0x11A2E60 VA: 0x1811A4860
+	|-RVA: 0x11A4760 Offset: 0x11A2D60 VA: 0x1811A4760
 	|-Array.InternalArray__set_Item<KeyValuePair<long, float>>
 	|
-	|-RVA: 0x11A1180 Offset: 0x119F780 VA: 0x1811A1180
+	|-RVA: 0x11A1080 Offset: 0x119F680 VA: 0x1811A1080
 	|-Array.InternalArray__set_Item<KeyValuePair<long, ushort>>
 	|
-	|-RVA: 0x11A7DE0 Offset: 0x11A63E0 VA: 0x1811A7DE0
+	|-RVA: 0x11A7CE0 Offset: 0x11A62E0 VA: 0x1811A7CE0
 	|-Array.InternalArray__set_Item<KeyValuePair<long, uint>>
 	|
-	|-RVA: 0x11A91F0 Offset: 0x11A77F0 VA: 0x1811A91F0
+	|-RVA: 0x11A90F0 Offset: 0x11A76F0 VA: 0x1811A90F0
 	|-Array.InternalArray__set_Item<KeyValuePair<long, ulong>>
 	|
-	|-RVA: 0x11A8F10 Offset: 0x11A7510 VA: 0x1811A8F10
+	|-RVA: 0x11A8E10 Offset: 0x11A7410 VA: 0x1811A8E10
 	|-Array.InternalArray__set_Item<KeyValuePair<IntPtr, object>>
 	|
-	|-RVA: 0x11A7F50 Offset: 0x11A6550 VA: 0x1811A7F50
+	|-RVA: 0x11A7E50 Offset: 0x11A6450 VA: 0x1811A7E50
 	|-Array.InternalArray__set_Item<KeyValuePair<object, CameraMan.CameraState>>
 	|
-	|-RVA: 0x11ADE10 Offset: 0x11AC410 VA: 0x1811ADE10
+	|-RVA: 0x11ADD10 Offset: 0x11AC310 VA: 0x1811ADD10
 	|-Array.InternalArray__set_Item<KeyValuePair<object, PlayerModelHair.RendererMaterials>>
 	|
-	|-RVA: 0x11AE540 Offset: 0x11ACB40 VA: 0x1811AE540
+	|-RVA: 0x11AE440 Offset: 0x11ACA40 VA: 0x1811AE440
 	|-Array.InternalArray__set_Item<KeyValuePair<object, InputActionSetHandle_t>>
 	|
-	|-RVA: 0x11A9EC0 Offset: 0x11A84C0 VA: 0x1811A9EC0
+	|-RVA: 0x11A9DC0 Offset: 0x11A83C0 VA: 0x1811A9DC0
 	|-Array.InternalArray__set_Item<KeyValuePair<object, InputAnalogActionHandle_t>>
 	|
-	|-RVA: 0x11A7820 Offset: 0x11A5E20 VA: 0x1811A7820
+	|-RVA: 0x11A7720 Offset: 0x11A5D20 VA: 0x1811A7720
 	|-Array.InternalArray__set_Item<KeyValuePair<object, InputDigitalActionHandle_t>>
 	|
-	|-RVA: 0x11AF6A0 Offset: 0x11ADCA0 VA: 0x1811AF6A0
+	|-RVA: 0x11AF5A0 Offset: 0x11ADBA0 VA: 0x1811AF5A0
 	|-Array.InternalArray__set_Item<KeyValuePair<object, bool>>
 	|
-	|-RVA: 0x11A0A50 Offset: 0x119F050 VA: 0x1811A0A50
+	|-RVA: 0x11A0950 Offset: 0x119EF50 VA: 0x1811A0950
 	|-Array.InternalArray__set_Item<KeyValuePair<object, byte>>
 	|
-	|-RVA: 0x11A87E0 Offset: 0x11A6DE0 VA: 0x1811A87E0
+	|-RVA: 0x11A86E0 Offset: 0x11A6CE0 VA: 0x1811A86E0
 	|-Array.InternalArray__set_Item<KeyValuePair<object, Decimal>>
 	|
-	|-RVA: 0x11A25C0 Offset: 0x11A0BC0 VA: 0x1811A25C0
+	|-RVA: 0x11A24C0 Offset: 0x11A0AC0 VA: 0x1811A24C0
 	|-Array.InternalArray__set_Item<KeyValuePair<object, double>>
 	|
-	|-RVA: 0x11AEDE0 Offset: 0x11AD3E0 VA: 0x1811AEDE0
+	|-RVA: 0x11AECE0 Offset: 0x11AD2E0 VA: 0x1811AECE0
 	|-Array.InternalArray__set_Item<KeyValuePair<object, short>>
 	|
-	|-RVA: 0x11A2E50 Offset: 0x11A1450 VA: 0x1811A2E50
+	|-RVA: 0x11A2D50 Offset: 0x11A1350 VA: 0x1811A2D50
 	|-Array.InternalArray__set_Item<KeyValuePair<object, int>>
 	|
-	|-RVA: 0x11AF3C0 Offset: 0x11AD9C0 VA: 0x1811AF3C0
+	|-RVA: 0x11AF2C0 Offset: 0x11AD8C0 VA: 0x1811AF2C0
 	|-Array.InternalArray__set_Item<KeyValuePair<object, Int32Enum>>
 	|
-	|-RVA: 0x11A1010 Offset: 0x119F610 VA: 0x1811A1010
+	|-RVA: 0x11A0F10 Offset: 0x119F510 VA: 0x1811A0F10
 	|-Array.InternalArray__set_Item<KeyValuePair<object, long>>
 	|
-	|-RVA: 0x11A1B70 Offset: 0x11A0170 VA: 0x1811A1B70
+	|-RVA: 0x11A1A70 Offset: 0x11A0070 VA: 0x1811A1A70
 	|-Array.InternalArray__set_Item<KeyValuePair<object, object>>
 	|
-	|-RVA: 0x11A2440 Offset: 0x11A0A40 VA: 0x1811A2440
+	|-RVA: 0x11A2340 Offset: 0x11A0940 VA: 0x1811A2340
 	|-Array.InternalArray__set_Item<KeyValuePair<object, ResourceLocator>>
 	|
-	|-RVA: 0x11A94D0 Offset: 0x11A7AD0 VA: 0x1811A94D0
+	|-RVA: 0x11A93D0 Offset: 0x11A79D0 VA: 0x1811A93D0
 	|-Array.InternalArray__set_Item<KeyValuePair<object, float>>
 	|
-	|-RVA: 0x11A1CE0 Offset: 0x11A02E0 VA: 0x1811A1CE0
+	|-RVA: 0x11A1BE0 Offset: 0x11A01E0 VA: 0x1811A1BE0
 	|-Array.InternalArray__set_Item<KeyValuePair<object, ushort>>
 	|
-	|-RVA: 0x11A5FA0 Offset: 0x11A45A0 VA: 0x1811A5FA0
+	|-RVA: 0x11A5EA0 Offset: 0x11A44A0 VA: 0x1811A5EA0
 	|-Array.InternalArray__set_Item<KeyValuePair<object, uint>>
 	|
-	|-RVA: 0x11A7990 Offset: 0x11A5F90 VA: 0x1811A7990
+	|-RVA: 0x11A7890 Offset: 0x11A5E90 VA: 0x1811A7890
 	|-Array.InternalArray__set_Item<KeyValuePair<object, ulong>>
 	|
-	|-RVA: 0x119FBB0 Offset: 0x119E1B0 VA: 0x18119FBB0
+	|-RVA: 0x119FAB0 Offset: 0x119E0B0 VA: 0x18119FAB0
 	|-Array.InternalArray__set_Item<KeyValuePair<object, ValueTuple<object, object>>>
 	|
-	|-RVA: 0x11A9BE0 Offset: 0x11A81E0 VA: 0x1811A9BE0
+	|-RVA: 0x11A9AE0 Offset: 0x11A80E0 VA: 0x1811A9AE0
 	|-Array.InternalArray__set_Item<KeyValuePair<object, Color>>
 	|
-	|-RVA: 0x11ADF90 Offset: 0x11AC590 VA: 0x1811ADF90
+	|-RVA: 0x11ADE90 Offset: 0x11AC490 VA: 0x1811ADE90
 	|-Array.InternalArray__set_Item<KeyValuePair<object, Vector3>>
 	|
-	|-RVA: 0x11ABCF0 Offset: 0x11AA2F0 VA: 0x1811ABCF0
+	|-RVA: 0x11ABBF0 Offset: 0x11AA1F0 VA: 0x1811ABBF0
 	|-Array.InternalArray__set_Item<KeyValuePair<float, bool>>
 	|
-	|-RVA: 0x11AA030 Offset: 0x11A8630 VA: 0x1811AA030
+	|-RVA: 0x11A9F30 Offset: 0x11A8530 VA: 0x1811A9F30
 	|-Array.InternalArray__set_Item<KeyValuePair<float, Decimal>>
 	|
-	|-RVA: 0x11A3870 Offset: 0x11A1E70 VA: 0x1811A3870
+	|-RVA: 0x11A3770 Offset: 0x11A1D70 VA: 0x1811A3770
 	|-Array.InternalArray__set_Item<KeyValuePair<float, double>>
 	|
-	|-RVA: 0x11AB2F0 Offset: 0x11A98F0 VA: 0x1811AB2F0
+	|-RVA: 0x11AB1F0 Offset: 0x11A97F0 VA: 0x1811AB1F0
 	|-Array.InternalArray__set_Item<KeyValuePair<float, short>>
 	|
-	|-RVA: 0x11AB730 Offset: 0x11A9D30 VA: 0x1811AB730
+	|-RVA: 0x11AB630 Offset: 0x11A9C30 VA: 0x1811AB630
 	|-Array.InternalArray__set_Item<KeyValuePair<float, int>>
 	|
-	|-RVA: 0x11AF250 Offset: 0x11AD850 VA: 0x1811AF250
+	|-RVA: 0x11AF150 Offset: 0x11AD750 VA: 0x1811AF150
 	|-Array.InternalArray__set_Item<KeyValuePair<float, long>>
 	|
-	|-RVA: 0x11A66E0 Offset: 0x11A4CE0 VA: 0x1811A66E0
+	|-RVA: 0x11A65E0 Offset: 0x11A4BE0 VA: 0x1811A65E0
 	|-Array.InternalArray__set_Item<KeyValuePair<float, object>>
 	|
-	|-RVA: 0x11AE270 Offset: 0x11AC870 VA: 0x1811AE270
+	|-RVA: 0x11AE170 Offset: 0x11AC770 VA: 0x1811AE170
 	|-Array.InternalArray__set_Item<KeyValuePair<float, float>>
 	|
-	|-RVA: 0x11A8250 Offset: 0x11A6850 VA: 0x1811A8250
+	|-RVA: 0x11A8150 Offset: 0x11A6750 VA: 0x1811A8150
 	|-Array.InternalArray__set_Item<KeyValuePair<float, ushort>>
 	|
-	|-RVA: 0x11A7C80 Offset: 0x11A6280 VA: 0x1811A7C80
+	|-RVA: 0x11A7B80 Offset: 0x11A6180 VA: 0x1811A7B80
 	|-Array.InternalArray__set_Item<KeyValuePair<float, uint>>
 	|
-	|-RVA: 0x11AF990 Offset: 0x11ADF90 VA: 0x1811AF990
+	|-RVA: 0x11AF890 Offset: 0x11ADE90 VA: 0x1811AF890
 	|-Array.InternalArray__set_Item<KeyValuePair<float, ulong>>
 	|
-	|-RVA: 0x11A8510 Offset: 0x11A6B10 VA: 0x1811A8510
+	|-RVA: 0x11A8410 Offset: 0x11A6A10 VA: 0x1811A8410
 	|-Array.InternalArray__set_Item<KeyValuePair<ushort, bool>>
 	|
-	|-RVA: 0x11A08D0 Offset: 0x119EED0 VA: 0x1811A08D0
+	|-RVA: 0x11A07D0 Offset: 0x119EDD0 VA: 0x1811A07D0
 	|-Array.InternalArray__set_Item<KeyValuePair<ushort, Decimal>>
 	|
-	|-RVA: 0x11A4FB0 Offset: 0x11A35B0 VA: 0x1811A4FB0
+	|-RVA: 0x11A4EB0 Offset: 0x11A34B0 VA: 0x1811A4EB0
 	|-Array.InternalArray__set_Item<KeyValuePair<ushort, double>>
 	|
-	|-RVA: 0x11AD700 Offset: 0x11ABD00 VA: 0x1811AD700
+	|-RVA: 0x11AD600 Offset: 0x11ABC00 VA: 0x1811AD600
 	|-Array.InternalArray__set_Item<KeyValuePair<ushort, short>>
 	|
-	|-RVA: 0x11A18B0 Offset: 0x119FEB0 VA: 0x1811A18B0
+	|-RVA: 0x11A17B0 Offset: 0x119FDB0 VA: 0x1811A17B0
 	|-Array.InternalArray__set_Item<KeyValuePair<ushort, int>>
 	|
-	|-RVA: 0x11A8670 Offset: 0x11A6C70 VA: 0x1811A8670
+	|-RVA: 0x11A8570 Offset: 0x11A6B70 VA: 0x1811A8570
 	|-Array.InternalArray__set_Item<KeyValuePair<ushort, long>>
 	|
-	|-RVA: 0x11A7530 Offset: 0x11A5B30 VA: 0x1811A7530
+	|-RVA: 0x11A7430 Offset: 0x11A5A30 VA: 0x1811A7430
 	|-Array.InternalArray__set_Item<KeyValuePair<ushort, object>>
 	|
-	|-RVA: 0x11A2730 Offset: 0x11A0D30 VA: 0x1811A2730
+	|-RVA: 0x11A2630 Offset: 0x11A0C30 VA: 0x1811A2630
 	|-Array.InternalArray__set_Item<KeyValuePair<ushort, float>>
 	|
-	|-RVA: 0x11A6B50 Offset: 0x11A5150 VA: 0x1811A6B50
+	|-RVA: 0x11A6A50 Offset: 0x11A5050 VA: 0x1811A6A50
 	|-Array.InternalArray__set_Item<KeyValuePair<ushort, ushort>>
 	|
-	|-RVA: 0x11AABC0 Offset: 0x11A91C0 VA: 0x1811AABC0
+	|-RVA: 0x11AAAC0 Offset: 0x11A90C0 VA: 0x1811AAAC0
 	|-Array.InternalArray__set_Item<KeyValuePair<ushort, uint>>
 	|
-	|-RVA: 0x11A56E0 Offset: 0x11A3CE0 VA: 0x1811A56E0
+	|-RVA: 0x11A55E0 Offset: 0x11A3BE0 VA: 0x1811A55E0
 	|-Array.InternalArray__set_Item<KeyValuePair<ushort, ulong>>
 	|
-	|-RVA: 0x11A3FC0 Offset: 0x11A25C0 VA: 0x1811A3FC0
+	|-RVA: 0x11A3EC0 Offset: 0x11A24C0 VA: 0x1811A3EC0
 	|-Array.InternalArray__set_Item<KeyValuePair<uint, bool>>
 	|
-	|-RVA: 0x11A7B00 Offset: 0x11A6100 VA: 0x1811A7B00
+	|-RVA: 0x11A7A00 Offset: 0x11A6000 VA: 0x1811A7A00
 	|-Array.InternalArray__set_Item<KeyValuePair<uint, Decimal>>
 	|
-	|-RVA: 0x11AA8F0 Offset: 0x11A8EF0 VA: 0x1811AA8F0
+	|-RVA: 0x11AA7F0 Offset: 0x11A8DF0 VA: 0x1811AA7F0
 	|-Array.InternalArray__set_Item<KeyValuePair<uint, double>>
 	|
-	|-RVA: 0x11A05F0 Offset: 0x119EBF0 VA: 0x1811A05F0
+	|-RVA: 0x11A04F0 Offset: 0x119EAF0 VA: 0x1811A04F0
 	|-Array.InternalArray__set_Item<KeyValuePair<uint, short>>
 	|
-	|-RVA: 0x11AD860 Offset: 0x11ABE60 VA: 0x1811AD860
+	|-RVA: 0x11AD760 Offset: 0x11ABD60 VA: 0x1811AD760
 	|-Array.InternalArray__set_Item<KeyValuePair<uint, int>>
 	|
-	|-RVA: 0x11A8960 Offset: 0x11A6F60 VA: 0x1811A8960
+	|-RVA: 0x11A8860 Offset: 0x11A6E60 VA: 0x1811A8860
 	|-Array.InternalArray__set_Item<KeyValuePair<uint, long>>
 	|
-	|-RVA: 0x11A3B50 Offset: 0x11A2150 VA: 0x1811A3B50
+	|-RVA: 0x11A3A50 Offset: 0x11A2050 VA: 0x1811A3A50
 	|-Array.InternalArray__set_Item<KeyValuePair<uint, object>>
 	|
-	|-RVA: 0x11A6400 Offset: 0x11A4A00 VA: 0x1811A6400
+	|-RVA: 0x11A6300 Offset: 0x11A4900 VA: 0x1811A6300
 	|-Array.InternalArray__set_Item<KeyValuePair<uint, float>>
 	|
-	|-RVA: 0x11A2B80 Offset: 0x11A1180 VA: 0x1811A2B80
+	|-RVA: 0x11A2A80 Offset: 0x11A1080 VA: 0x1811A2A80
 	|-Array.InternalArray__set_Item<KeyValuePair<uint, ushort>>
 	|
-	|-RVA: 0x11AA610 Offset: 0x11A8C10 VA: 0x1811AA610
+	|-RVA: 0x11AA510 Offset: 0x11A8B10 VA: 0x1811AA510
 	|-Array.InternalArray__set_Item<KeyValuePair<uint, uint>>
 	|
-	|-RVA: 0x11A0BC0 Offset: 0x119F1C0 VA: 0x1811A0BC0
+	|-RVA: 0x11A0AC0 Offset: 0x119F0C0 VA: 0x1811A0AC0
 	|-Array.InternalArray__set_Item<KeyValuePair<uint, ulong>>
 	|
-	|-RVA: 0x11A80D0 Offset: 0x11A66D0 VA: 0x1811A80D0
+	|-RVA: 0x11A7FD0 Offset: 0x11A65D0 VA: 0x1811A7FD0
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, AvatarCache.Entry>>
 	|
-	|-RVA: 0x11AD580 Offset: 0x11ABB80 VA: 0x1811AD580
+	|-RVA: 0x11AD480 Offset: 0x11ABA80 VA: 0x1811AD480
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, Chat.MuteEntry>>
 	|
-	|-RVA: 0x11AC430 Offset: 0x11AAA30 VA: 0x1811AC430
+	|-RVA: 0x11AC330 Offset: 0x11AA930 VA: 0x1811AC330
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, Dispatch.ResultCallback>>
 	|
-	|-RVA: 0x11A32B0 Offset: 0x11A18B0 VA: 0x1811A32B0
+	|-RVA: 0x11A31B0 Offset: 0x11A17B0 VA: 0x1811A31B0
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, bool>>
 	|
-	|-RVA: 0x11ABB70 Offset: 0x11AA170 VA: 0x1811ABB70
+	|-RVA: 0x11ABA70 Offset: 0x11AA070 VA: 0x1811ABA70
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, Decimal>>
 	|
-	|-RVA: 0x11A5410 Offset: 0x11A3A10 VA: 0x1811A5410
+	|-RVA: 0x11A5310 Offset: 0x11A3910 VA: 0x1811A5310
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, double>>
 	|
-	|-RVA: 0x11AEC70 Offset: 0x11AD270 VA: 0x1811AEC70
+	|-RVA: 0x11AEB70 Offset: 0x11AD170 VA: 0x1811AEB70
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, short>>
 	|
-	|-RVA: 0x11AD140 Offset: 0x11AB740 VA: 0x1811AD140
+	|-RVA: 0x11AD040 Offset: 0x11AB640 VA: 0x1811AD040
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, int>>
 	|
-	|-RVA: 0x11AD2B0 Offset: 0x11AB8B0 VA: 0x1811AD2B0
+	|-RVA: 0x11AD1B0 Offset: 0x11AB7B0 VA: 0x1811AD1B0
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, long>>
 	|
-	|-RVA: 0x11AB010 Offset: 0x11A9610 VA: 0x1811AB010
+	|-RVA: 0x11AAF10 Offset: 0x11A9510 VA: 0x1811AAF10
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, object>>
 	|
-	|-RVA: 0x11AF530 Offset: 0x11ADB30 VA: 0x1811AF530
+	|-RVA: 0x11AF430 Offset: 0x11ADA30 VA: 0x1811AF430
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, float>>
 	|
-	|-RVA: 0x11AD9C0 Offset: 0x11ABFC0 VA: 0x1811AD9C0
+	|-RVA: 0x11AD8C0 Offset: 0x11ABEC0 VA: 0x1811AD8C0
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, ushort>>
 	|
-	|-RVA: 0x11AE3D0 Offset: 0x11AC9D0 VA: 0x1811AE3D0
+	|-RVA: 0x11AE2D0 Offset: 0x11AC8D0 VA: 0x1811AE2D0
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, uint>>
 	|
-	|-RVA: 0x11AC2C0 Offset: 0x11AA8C0 VA: 0x1811AC2C0
+	|-RVA: 0x11AC1C0 Offset: 0x11AA7C0 VA: 0x1811AC1C0
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, ulong>>
 	|
-	|-RVA: 0x11A9360 Offset: 0x11A7960 VA: 0x1811A9360
+	|-RVA: 0x11A9260 Offset: 0x11A7860 VA: 0x1811A9260
 	|-Array.InternalArray__set_Item<KeyValuePair<ulong, TimeSince>>
 	|
-	|-RVA: 0x11ACE70 Offset: 0x11AB470 VA: 0x1811ACE70
+	|-RVA: 0x11ACD70 Offset: 0x11AB370 VA: 0x1811ACD70
 	|-Array.InternalArray__set_Item<KeyValuePair<ValueTuple<Int32Enum, int>, object>>
 	|
-	|-RVA: 0x11A2140 Offset: 0x11A0740 VA: 0x1811A2140
+	|-RVA: 0x11A2040 Offset: 0x11A0640 VA: 0x1811A2040
 	|-Array.InternalArray__set_Item<KeyValuePair<Color, object>>
 	|
-	|-RVA: 0x11A15D0 Offset: 0x119FBD0 VA: 0x1811A15D0
+	|-RVA: 0x11A14D0 Offset: 0x119FAD0 VA: 0x1811A14D0
 	|-Array.InternalArray__set_Item<KeyValuePair<TerrainUtility.TerrainMap.TileCoord, object>>
 	|
-	|-RVA: 0x11A69D0 Offset: 0x11A4FD0 VA: 0x1811A69D0
+	|-RVA: 0x11A68D0 Offset: 0x11A4ED0 VA: 0x1811A68D0
 	|-Array.InternalArray__set_Item<KeyValuePair<StyleSheetCache.SheetHandleKey, int>>
 	|
-	|-RVA: 0x11AB180 Offset: 0x11A9780 VA: 0x1811AB180
+	|-RVA: 0x11AB080 Offset: 0x11A9680 VA: 0x1811AB080
 	|-Array.InternalArray__set_Item<KeyValuePair<StyleSheetCache.SheetHandleKey, object>>
 	|
-	|-RVA: 0x11A6F90 Offset: 0x11A5590 VA: 0x1811A6F90
+	|-RVA: 0x11A6E90 Offset: 0x11A5490 VA: 0x1811A6E90
 	|-Array.InternalArray__set_Item<KeyValuePair<Vector2i, object>>
 	|
-	|-RVA: 0x11A4570 Offset: 0x11A2B70 VA: 0x1811A4570
+	|-RVA: 0x11A4470 Offset: 0x11A2A70 VA: 0x1811A4470
 	|-Array.InternalArray__set_Item<KeyValuePair<ViewModelDrawEvent, int>>
 	|
-	|-RVA: 0x11BA080 Offset: 0x11B8680 VA: 0x1811BA080
+	|-RVA: 0x11B9F80 Offset: 0x11B8580 VA: 0x1811B9F80
 	|-Array.InternalArray__set_Item<Hashtable.bucket>
 	|
-	|-RVA: 0x1198AC0 Offset: 0x11970C0 VA: 0x181198AC0
+	|-RVA: 0x11989C0 Offset: 0x1196FC0 VA: 0x1811989C0
 	|-Array.InternalArray__set_Item<AttributeCollection.AttributeEntry>
 	|
-	|-RVA: 0x11B3960 Offset: 0x11B1F60 VA: 0x1811B3960
+	|-RVA: 0x11B3860 Offset: 0x11B1E60 VA: 0x1811B3860
 	|-Array.InternalArray__set_Item<SchemaInfo>
 	|
-	|-RVA: 0x1199810 Offset: 0x1197E10 VA: 0x181199810
+	|-RVA: 0x1199710 Offset: 0x1197D10 VA: 0x181199710
 	|-Array.InternalArray__set_Item<DataError.ColumnError>
 	|
-	|-RVA: 0x11B2F70 Offset: 0x11B1570 VA: 0x1811B2F70
+	|-RVA: 0x11B2E70 Offset: 0x11B1470 VA: 0x1811B2E70
 	|-Array.InternalArray__set_Item<ExpressionParser.ReservedWords>
 	|
-	|-RVA: 0x119EC20 Offset: 0x119D220 VA: 0x18119EC20
+	|-RVA: 0x119EB20 Offset: 0x119D120 VA: 0x18119EB20
 	|-Array.InternalArray__set_Item<IndexField>
 	|
-	|-RVA: 0x11B1600 Offset: 0x11AFC00 VA: 0x1811B1600
+	|-RVA: 0x11B1500 Offset: 0x11AFB00 VA: 0x1811B1500
 	|-Array.InternalArray__set_Item<RBTree.Node<int>>
 	|
-	|-RVA: 0x11B1480 Offset: 0x11AFA80 VA: 0x1811B1480
+	|-RVA: 0x11B1380 Offset: 0x11AF980 VA: 0x1811B1380
 	|-Array.InternalArray__set_Item<RBTree.Node<object>>
 	|
-	|-RVA: 0x11B55D0 Offset: 0x11B3BD0 VA: 0x1811B55D0
+	|-RVA: 0x11B54D0 Offset: 0x11B3AD0 VA: 0x1811B54D0
 	|-Array.InternalArray__set_Item<SqlBinary>
 	|
-	|-RVA: 0x11B5730 Offset: 0x11B3D30 VA: 0x1811B5730
+	|-RVA: 0x11B5630 Offset: 0x11B3C30 VA: 0x1811B5630
 	|-Array.InternalArray__set_Item<SqlBoolean>
 	|
-	|-RVA: 0x11B5890 Offset: 0x11B3E90 VA: 0x1811B5890
+	|-RVA: 0x11B5790 Offset: 0x11B3D90 VA: 0x1811B5790
 	|-Array.InternalArray__set_Item<SqlByte>
 	|
-	|-RVA: 0x11B59F0 Offset: 0x11B3FF0 VA: 0x1811B59F0
+	|-RVA: 0x11B58F0 Offset: 0x11B3EF0 VA: 0x1811B58F0
 	|-Array.InternalArray__set_Item<SqlDateTime>
 	|
-	|-RVA: 0x11B5B70 Offset: 0x11B4170 VA: 0x1811B5B70
+	|-RVA: 0x11B5A70 Offset: 0x11B4070 VA: 0x1811B5A70
 	|-Array.InternalArray__set_Item<SqlDecimal>
 	|
-	|-RVA: 0x11B5CF0 Offset: 0x11B42F0 VA: 0x1811B5CF0
+	|-RVA: 0x11B5BF0 Offset: 0x11B41F0 VA: 0x1811B5BF0
 	|-Array.InternalArray__set_Item<SqlDouble>
 	|
-	|-RVA: 0x11B5E60 Offset: 0x11B4460 VA: 0x1811B5E60
+	|-RVA: 0x11B5D60 Offset: 0x11B4360 VA: 0x1811B5D60
 	|-Array.InternalArray__set_Item<SqlGuid>
 	|
-	|-RVA: 0x11B5FC0 Offset: 0x11B45C0 VA: 0x1811B5FC0
+	|-RVA: 0x11B5EC0 Offset: 0x11B44C0 VA: 0x1811B5EC0
 	|-Array.InternalArray__set_Item<SqlInt16>
 	|
-	|-RVA: 0x11B6120 Offset: 0x11B4720 VA: 0x1811B6120
+	|-RVA: 0x11B6020 Offset: 0x11B4620 VA: 0x1811B6020
 	|-Array.InternalArray__set_Item<SqlInt32>
 	|
-	|-RVA: 0x11B6280 Offset: 0x11B4880 VA: 0x1811B6280
+	|-RVA: 0x11B6180 Offset: 0x11B4780 VA: 0x1811B6180
 	|-Array.InternalArray__set_Item<SqlInt64>
 	|
-	|-RVA: 0x11B63F0 Offset: 0x11B49F0 VA: 0x1811B63F0
+	|-RVA: 0x11B62F0 Offset: 0x11B48F0 VA: 0x1811B62F0
 	|-Array.InternalArray__set_Item<SqlMoney>
 	|
-	|-RVA: 0x11B6560 Offset: 0x11B4B60 VA: 0x1811B6560
+	|-RVA: 0x11B6460 Offset: 0x11B4A60 VA: 0x1811B6460
 	|-Array.InternalArray__set_Item<SqlSingle>
 	|
-	|-RVA: 0x11B66C0 Offset: 0x11B4CC0 VA: 0x1811B66C0
+	|-RVA: 0x11B65C0 Offset: 0x11B4BC0 VA: 0x1811B65C0
 	|-Array.InternalArray__set_Item<SqlString>
 	|
-	|-RVA: 0x119A0F0 Offset: 0x11986F0 VA: 0x18119A0F0
+	|-RVA: 0x1199FF0 Offset: 0x11985F0 VA: 0x181199FF0
 	|-Array.InternalArray__set_Item<DateTime>
 	|
-	|-RVA: 0x1199F80 Offset: 0x1198580 VA: 0x181199F80
+	|-RVA: 0x1199E80 Offset: 0x1198480 VA: 0x181199E80
 	|-Array.InternalArray__set_Item<DateTimeOffset>
 	|
-	|-RVA: 0x119A250 Offset: 0x1198850 VA: 0x18119A250
+	|-RVA: 0x119A150 Offset: 0x1198750 VA: 0x18119A150
 	|-Array.InternalArray__set_Item<Decimal>
 	|
-	|-RVA: 0x11B3DD0 Offset: 0x11B23D0 VA: 0x1811B3DD0
+	|-RVA: 0x11B3CD0 Offset: 0x11B22D0 VA: 0x1811B3CD0
 	|-Array.InternalArray__set_Item<EventProvider.SessionInfo>
 	|
-	|-RVA: 0x119D7C0 Offset: 0x119BDC0 VA: 0x18119D7C0
+	|-RVA: 0x119D6C0 Offset: 0x119BCC0 VA: 0x18119D6C0
 	|-Array.InternalArray__set_Item<EventSource.EventMetadata>
 	|
-	|-RVA: 0x119A530 Offset: 0x1198B30 VA: 0x18119A530
+	|-RVA: 0x119A430 Offset: 0x1198A30 VA: 0x18119A430
 	|-Array.InternalArray__set_Item<double>
 	|
-	|-RVA: 0x119F470 Offset: 0x119DA70 VA: 0x18119F470
+	|-RVA: 0x119F370 Offset: 0x119D970 VA: 0x18119F370
 	|-Array.InternalArray__set_Item<InternalCodePageDataItem>
 	|
-	|-RVA: 0x119F5E0 Offset: 0x119DBE0 VA: 0x18119F5E0
+	|-RVA: 0x119F4E0 Offset: 0x119DAE0 VA: 0x18119F4E0
 	|-Array.InternalArray__set_Item<InternalEncodingDataItem>
 	|
-	|-RVA: 0x11B7950 Offset: 0x11B5F50 VA: 0x1811B7950
+	|-RVA: 0x11B7850 Offset: 0x11B5E50 VA: 0x1811B7850
 	|-Array.InternalArray__set_Item<TimeSpanParse.TimeSpanToken>
 	|
-	|-RVA: 0x119E7D0 Offset: 0x119CDD0 VA: 0x18119E7D0
+	|-RVA: 0x119E6D0 Offset: 0x119CCD0 VA: 0x18119E6D0
 	|-Array.InternalArray__set_Item<Guid>
 	|
-	|-RVA: 0x119ED90 Offset: 0x119D390 VA: 0x18119ED90
+	|-RVA: 0x119EC90 Offset: 0x119D290 VA: 0x18119EC90
 	|-Array.InternalArray__set_Item<short>
 	|
-	|-RVA: 0x119F050 Offset: 0x119D650 VA: 0x18119F050
+	|-RVA: 0x119EF50 Offset: 0x119D550 VA: 0x18119EF50
 	|-Array.InternalArray__set_Item<int>
 	|
-	|-RVA: 0x119EEF0 Offset: 0x119D4F0 VA: 0x18119EEF0
+	|-RVA: 0x119EDF0 Offset: 0x119D3F0 VA: 0x18119EDF0
 	|-Array.InternalArray__set_Item<Int32Enum>
 	|
-	|-RVA: 0x119F1B0 Offset: 0x119D7B0 VA: 0x18119F1B0
+	|-RVA: 0x119F0B0 Offset: 0x119D6B0 VA: 0x18119F0B0
 	|-Array.InternalArray__set_Item<long>
 	|
-	|-RVA: 0x119F310 Offset: 0x119D910 VA: 0x18119F310
+	|-RVA: 0x119F210 Offset: 0x119D810 VA: 0x18119F210
 	|-Array.InternalArray__set_Item<IntPtr>
 	|
-	|-RVA: 0x11B4370 Offset: 0x11B2970 VA: 0x1811B4370
+	|-RVA: 0x11B4270 Offset: 0x11B2870 VA: 0x1811B4270
 	|-Array.InternalArray__set_Item<Set.Slot<ServerInfo>>
 	|
-	|-RVA: 0x11B4820 Offset: 0x11B2E20 VA: 0x1811B4820
+	|-RVA: 0x11B4720 Offset: 0x11B2D20 VA: 0x1811B4720
 	|-Array.InternalArray__set_Item<Set.Slot<char>>
 	|
-	|-RVA: 0x11B4F90 Offset: 0x11B3590 VA: 0x1811B4F90
+	|-RVA: 0x11B4E90 Offset: 0x11B3490 VA: 0x1811B4E90
 	|-Array.InternalArray__set_Item<Set.Slot<object>>
 	|
-	|-RVA: 0x11B41F0 Offset: 0x11B27F0 VA: 0x1811B41F0
+	|-RVA: 0x11B40F0 Offset: 0x11B26F0 VA: 0x1811B40F0
 	|-Array.InternalArray__set_Item<Set.Slot<float>>
 	|
-	|-RVA: 0x11B4CA0 Offset: 0x11B32A0 VA: 0x1811B4CA0
+	|-RVA: 0x11B4BA0 Offset: 0x11B31A0 VA: 0x1811B4BA0
 	|-Array.InternalArray__set_Item<Set.Slot<Vector2>>
 	|
-	|-RVA: 0x11B2B10 Offset: 0x11B1110 VA: 0x1811B2B10
+	|-RVA: 0x11B2A10 Offset: 0x11B1010 VA: 0x1811B2A10
 	|-Array.InternalArray__set_Item<CookieTokenizer.RecognizedAttribute>
 	|
-	|-RVA: 0x119E940 Offset: 0x119CF40 VA: 0x18119E940
+	|-RVA: 0x119E840 Offset: 0x119CE40 VA: 0x18119E840
 	|-Array.InternalArray__set_Item<HeaderVariantInfo>
 	|
-	|-RVA: 0x11B9930 Offset: 0x11B7F30 VA: 0x1811B9930
+	|-RVA: 0x11B9830 Offset: 0x11B7E30 VA: 0x1811B9830
 	|-Array.InternalArray__set_Item<Socket.WSABUF>
 	|
-	|-RVA: 0x1198DB0 Offset: 0x11973B0 VA: 0x181198DB0
+	|-RVA: 0x1198CB0 Offset: 0x11972B0 VA: 0x181198CB0
 	|-Array.InternalArray__set_Item<BigInteger>
 	|
-	|-RVA: 0x11B36D0 Offset: 0x11B1CD0 VA: 0x1811B36D0
+	|-RVA: 0x11B35D0 Offset: 0x11B1BD0 VA: 0x1811B35D0
 	|-Array.InternalArray__set_Item<object>
 	|
-	|-RVA: 0x119DC30 Offset: 0x119C230 VA: 0x18119DC30
+	|-RVA: 0x119DB30 Offset: 0x119C130 VA: 0x18119DB30
 	|-Array.InternalArray__set_Item<ParameterizedStrings.FormatParam>
 	|
-	|-RVA: 0x1199C90 Offset: 0x1198290 VA: 0x181199C90
+	|-RVA: 0x1199B90 Offset: 0x1198190 VA: 0x181199B90
 	|-Array.InternalArray__set_Item<CustomAttributeNamedArgument>
 	|
-	|-RVA: 0x1199E10 Offset: 0x1198410 VA: 0x181199E10
+	|-RVA: 0x1199D10 Offset: 0x1198310 VA: 0x181199D10
 	|-Array.InternalArray__set_Item<CustomAttributeTypedArgument>
 	|
-	|-RVA: 0x11B18F0 Offset: 0x11AFEF0 VA: 0x1811B18F0
+	|-RVA: 0x11B17F0 Offset: 0x11AFDF0 VA: 0x1811B17F0
 	|-Array.InternalArray__set_Item<ParameterModifier>
 	|
-	|-RVA: 0x11B3260 Offset: 0x11B1860 VA: 0x1811B3260
+	|-RVA: 0x11B3160 Offset: 0x11B1760 VA: 0x1811B3160
 	|-Array.InternalArray__set_Item<ResourceLocator>
 	|
-	|-RVA: 0x119D650 Offset: 0x119BC50 VA: 0x18119D650
+	|-RVA: 0x119D550 Offset: 0x119BB50 VA: 0x18119D550
 	|-Array.InternalArray__set_Item<Ephemeron>
 	|
-	|-RVA: 0x119DDA0 Offset: 0x119C3A0 VA: 0x18119DDA0
+	|-RVA: 0x119DCA0 Offset: 0x119C2A0 VA: 0x18119DCA0
 	|-Array.InternalArray__set_Item<GCHandle>
 	|
-	|-RVA: 0x11B3800 Offset: 0x11B1E00 VA: 0x1811B3800
+	|-RVA: 0x11B3700 Offset: 0x11B1D00 VA: 0x1811B3700
 	|-Array.InternalArray__set_Item<sbyte>
 	|
-	|-RVA: 0x11B9C20 Offset: 0x11B8220 VA: 0x1811B9C20
+	|-RVA: 0x11B9B20 Offset: 0x11B8120 VA: 0x1811B9B20
 	|-Array.InternalArray__set_Item<X509ChainStatus>
 	|
-	|-RVA: 0x11B4090 Offset: 0x11B2690 VA: 0x1811B4090
+	|-RVA: 0x11B3F90 Offset: 0x11B2590 VA: 0x1811B3F90
 	|-Array.InternalArray__set_Item<float>
 	|
-	|-RVA: 0x11B03E0 Offset: 0x11AE9E0 VA: 0x1811B03E0
+	|-RVA: 0x11B02E0 Offset: 0x11AE8E0 VA: 0x1811B02E0
 	|-Array.InternalArray__set_Item<RegexCharClass.LowerCaseMapping>
 	|
-	|-RVA: 0x1199210 Offset: 0x1197810 VA: 0x181199210
+	|-RVA: 0x1199110 Offset: 0x1197710 VA: 0x181199110
 	|-Array.InternalArray__set_Item<CancellationTokenRegistration>
 	|
-	|-RVA: 0x11B0280 Offset: 0x11AE880 VA: 0x1811B0280
+	|-RVA: 0x11B0180 Offset: 0x11AE780 VA: 0x1811B0180
 	|-Array.InternalArray__set_Item<ThreadLocal.LinkedSlotVolatile<object>>
 	|
-	|-RVA: 0x11B7AD0 Offset: 0x11B60D0 VA: 0x1811B7AD0
+	|-RVA: 0x11B79D0 Offset: 0x11B5FD0 VA: 0x1811B79D0
 	|-Array.InternalArray__set_Item<TimeSpan>
 	|
-	|-RVA: 0x11B8860 Offset: 0x11B6E60 VA: 0x1811B8860
+	|-RVA: 0x11B8760 Offset: 0x11B6D60 VA: 0x1811B8760
 	|-Array.InternalArray__set_Item<ushort>
 	|
-	|-RVA: 0x11B8700 Offset: 0x11B6D00 VA: 0x1811B8700
+	|-RVA: 0x11B8600 Offset: 0x11B6C00 VA: 0x1811B8600
 	|-Array.InternalArray__set_Item<UInt16Enum>
 	|
-	|-RVA: 0x11B8B20 Offset: 0x11B7120 VA: 0x1811B8B20
+	|-RVA: 0x11B8A20 Offset: 0x11B7020 VA: 0x1811B8A20
 	|-Array.InternalArray__set_Item<uint>
 	|
-	|-RVA: 0x11B89C0 Offset: 0x11B6FC0 VA: 0x1811B89C0
+	|-RVA: 0x11B88C0 Offset: 0x11B6EC0 VA: 0x1811B88C0
 	|-Array.InternalArray__set_Item<UInt32Enum>
 	|
-	|-RVA: 0x11B8C80 Offset: 0x11B7280 VA: 0x1811B8C80
+	|-RVA: 0x11B8B80 Offset: 0x11B7180 VA: 0x1811B8B80
 	|-Array.InternalArray__set_Item<ulong>
 	|
-	|-RVA: 0x11B8DE0 Offset: 0x11B73E0 VA: 0x1811B8DE0
+	|-RVA: 0x11B8CE0 Offset: 0x11B72E0 VA: 0x1811B8CE0
 	|-Array.InternalArray__set_Item<UIntPtr>
 	|
-	|-RVA: 0x11B90C0 Offset: 0x11B76C0 VA: 0x1811B90C0
+	|-RVA: 0x11B8FC0 Offset: 0x11B75C0 VA: 0x1811B8FC0
 	|-Array.InternalArray__set_Item<ValueTuple<Int32Enum, int>>
 	|
-	|-RVA: 0x11B9220 Offset: 0x11B7820 VA: 0x1811B9220
+	|-RVA: 0x11B9120 Offset: 0x11B7720 VA: 0x1811B9120
 	|-Array.InternalArray__set_Item<ValueTuple<object, object>>
 	|
-	|-RVA: 0x119C600 Offset: 0x119AC00 VA: 0x18119C600
+	|-RVA: 0x119C500 Offset: 0x119AB00 VA: 0x18119C500
 	|-Array.InternalArray__set_Item<XHashtable.XHashtableState.Entry<object>>
 	|
-	|-RVA: 0x11B0560 Offset: 0x11AEB60 VA: 0x1811B0560
+	|-RVA: 0x11B0460 Offset: 0x11AEA60 VA: 0x1811B0460
 	|-Array.InternalArray__set_Item<FacetsChecker.FacetsCompiler.Map>
 	|
-	|-RVA: 0x11B2370 Offset: 0x11B0970 VA: 0x1811B2370
+	|-RVA: 0x11B2270 Offset: 0x11B0870 VA: 0x1811B2270
 	|-Array.InternalArray__set_Item<RangePositionInfo>
 	|
-	|-RVA: 0x11B3C50 Offset: 0x11B2250 VA: 0x1811B3C50
+	|-RVA: 0x11B3B50 Offset: 0x11B2150 VA: 0x1811B3B50
 	|-Array.InternalArray__set_Item<SequenceNode.SequenceConstructPosContext>
 	|
-	|-RVA: 0x11B9F10 Offset: 0x11B8510 VA: 0x1811B9F10
+	|-RVA: 0x11B9E10 Offset: 0x11B8410 VA: 0x1811B9E10
 	|-Array.InternalArray__set_Item<XmlSchemaObjectTable.XmlSchemaObjectEntry>
 	|
-	|-RVA: 0x11B9D90 Offset: 0x11B8390 VA: 0x1811B9D90
+	|-RVA: 0x11B9C90 Offset: 0x11B8290 VA: 0x1811B9C90
 	|-Array.InternalArray__set_Item<XmlEventCache.XmlEvent>
 	|
-	|-RVA: 0x11B0B60 Offset: 0x11AF160 VA: 0x1811B0B60
+	|-RVA: 0x11B0A60 Offset: 0x11AF060 VA: 0x1811B0A60
 	|-Array.InternalArray__set_Item<XmlNamespaceManager.NamespaceDeclaration>
 	|
-	|-RVA: 0x11B97C0 Offset: 0x11B7DC0 VA: 0x1811B97C0
+	|-RVA: 0x11B96C0 Offset: 0x11B7CC0 VA: 0x1811B96C0
 	|-Array.InternalArray__set_Item<XmlNodeReaderNavigator.VirtualAttribute>
 	|
-	|-RVA: 0x11987C0 Offset: 0x1196DC0 VA: 0x1811987C0
+	|-RVA: 0x11986C0 Offset: 0x1196CC0 VA: 0x1811986C0
 	|-Array.InternalArray__set_Item<XmlSqlBinaryReader.AttrInfo>
 	|
-	|-RVA: 0x119A690 Offset: 0x1198C90 VA: 0x18119A690
+	|-RVA: 0x119A590 Offset: 0x1198B90 VA: 0x18119A590
 	|-Array.InternalArray__set_Item<XmlSqlBinaryReader.ElemInfo>
 	|
-	|-RVA: 0x11B2080 Offset: 0x11B0680 VA: 0x1811B2080
+	|-RVA: 0x11B1F80 Offset: 0x11B0580 VA: 0x1811B1F80
 	|-Array.InternalArray__set_Item<XmlSqlBinaryReader.QName>
 	|
-	|-RVA: 0x11B1A50 Offset: 0x11B0050 VA: 0x1811B1A50
+	|-RVA: 0x11B1950 Offset: 0x11AFF50 VA: 0x1811B1950
 	|-Array.InternalArray__set_Item<XmlTextReaderImpl.ParsingState>
 	|
-	|-RVA: 0x11B0CE0 Offset: 0x11AF2E0 VA: 0x1811B0CE0
+	|-RVA: 0x11B0BE0 Offset: 0x11AF1E0 VA: 0x1811B0BE0
 	|-Array.InternalArray__set_Item<XmlTextWriter.Namespace>
 	|
-	|-RVA: 0x11B7500 Offset: 0x11B5B00 VA: 0x1811B7500
+	|-RVA: 0x11B7400 Offset: 0x11B5A00 VA: 0x1811B7400
 	|-Array.InternalArray__set_Item<XmlTextWriter.TagInfo>
 	|
-	|-RVA: 0x1198940 Offset: 0x1196F40 VA: 0x181198940
+	|-RVA: 0x1198840 Offset: 0x1196E40 VA: 0x181198840
 	|-Array.InternalArray__set_Item<XmlWellFormedWriter.AttrName>
 	|
-	|-RVA: 0x119A810 Offset: 0x1198E10 VA: 0x18119A810
+	|-RVA: 0x119A710 Offset: 0x1198D10 VA: 0x18119A710
 	|-Array.InternalArray__set_Item<XmlWellFormedWriter.ElementScope>
 	|
-	|-RVA: 0x11B0E60 Offset: 0x11AF460 VA: 0x1811B0E60
+	|-RVA: 0x11B0D60 Offset: 0x11AF360 VA: 0x1811B0D60
 	|-Array.InternalArray__set_Item<XmlWellFormedWriter.Namespace>
 	|
-	|-RVA: 0x11B0850 Offset: 0x11AEE50 VA: 0x1811B0850
+	|-RVA: 0x11B0750 Offset: 0x11AED50 VA: 0x1811B0750
 	|-Array.InternalArray__set_Item<MaterialReference>
 	|
-	|-RVA: 0x11B3550 Offset: 0x11B1B50 VA: 0x1811B3550
+	|-RVA: 0x11B3450 Offset: 0x11B1A50 VA: 0x1811B3450
 	|-Array.InternalArray__set_Item<RichTextTagAttribute>
 	|
-	|-RVA: 0x11B69C0 Offset: 0x11B4FC0 VA: 0x1811B69C0
+	|-RVA: 0x11B68C0 Offset: 0x11B4EC0 VA: 0x1811B68C0
 	|-Array.InternalArray__set_Item<TMP_CharacterInfo>
 	|
-	|-RVA: 0x11B6BC0 Offset: 0x11B51C0 VA: 0x1811B6BC0
+	|-RVA: 0x11B6AC0 Offset: 0x11B50C0 VA: 0x1811B6AC0
 	|-Array.InternalArray__set_Item<TMP_FontWeightPair>
 	|
-	|-RVA: 0x11B6D30 Offset: 0x11B5330 VA: 0x1811B6D30
+	|-RVA: 0x11B6C30 Offset: 0x11B5230 VA: 0x1811B6C30
 	|-Array.InternalArray__set_Item<TMP_LineInfo>
 	|
-	|-RVA: 0x11B6EE0 Offset: 0x11B54E0 VA: 0x1811B6EE0
+	|-RVA: 0x11B6DE0 Offset: 0x11B53E0 VA: 0x1811B6DE0
 	|-Array.InternalArray__set_Item<TMP_LinkInfo>
 	|
-	|-RVA: 0x11B7060 Offset: 0x11B5660 VA: 0x1811B7060
+	|-RVA: 0x11B6F60 Offset: 0x11B5560 VA: 0x1811B6F60
 	|-Array.InternalArray__set_Item<TMP_MeshInfo>
 	|
-	|-RVA: 0x11B7200 Offset: 0x11B5800 VA: 0x1811B7200
+	|-RVA: 0x11B7100 Offset: 0x11B5700 VA: 0x1811B7100
 	|-Array.InternalArray__set_Item<TMP_PageInfo>
 	|
-	|-RVA: 0x11B8F40 Offset: 0x11B7540 VA: 0x1811B8F40
+	|-RVA: 0x11B8E40 Offset: 0x11B7440 VA: 0x1811B8E40
 	|-Array.InternalArray__set_Item<TMP_Text.UnicodeChar>
 	|
-	|-RVA: 0x11B7380 Offset: 0x11B5980 VA: 0x1811B7380
+	|-RVA: 0x11B7280 Offset: 0x11B5880 VA: 0x1811B7280
 	|-Array.InternalArray__set_Item<TMP_WordInfo>
 	|
-	|-RVA: 0x11B3AE0 Offset: 0x11B20E0 VA: 0x1811B3AE0
+	|-RVA: 0x11B39E0 Offset: 0x11B1FE0 VA: 0x1811B39E0
 	|-Array.InternalArray__set_Item<TickInterpolator.Segment>
 	|
-	|-RVA: 0x11B77F0 Offset: 0x11B5DF0 VA: 0x1811B77F0
+	|-RVA: 0x11B76F0 Offset: 0x11B5CF0 VA: 0x1811B76F0
 	|-Array.InternalArray__set_Item<TimeSince>
 	|
-	|-RVA: 0x11B7DD0 Offset: 0x11B63D0 VA: 0x1811B7DD0
+	|-RVA: 0x11B7CD0 Offset: 0x11B62D0 VA: 0x1811B7CD0
 	|-Array.InternalArray__set_Item<TraceInfo>
 	|
-	|-RVA: 0x11B7F70 Offset: 0x11B6570 VA: 0x1811B7F70
+	|-RVA: 0x11B7E70 Offset: 0x11B6470 VA: 0x1811B7E70
 	|-Array.InternalArray__set_Item<TrainCar.TrainCarSnapshot>
 	|
-	|-RVA: 0x119DF00 Offset: 0x119C500 VA: 0x18119DF00
+	|-RVA: 0x119DE00 Offset: 0x119C400 VA: 0x18119DE00
 	|-Array.InternalArray__set_Item<TreeMarkerData.GenerationArc>
 	|
-	|-RVA: 0x11B06D0 Offset: 0x11AECD0 VA: 0x1811B06D0
+	|-RVA: 0x11B05D0 Offset: 0x11AEBD0 VA: 0x1811B05D0
 	|-Array.InternalArray__set_Item<TreeMarkerData.MarkerLocation>
 	|
-	|-RVA: 0x11B33D0 Offset: 0x11B19D0 VA: 0x1811B33D0
+	|-RVA: 0x11B32D0 Offset: 0x11B18D0 VA: 0x1811B32D0
 	|-Array.InternalArray__set_Item<UIDeathScreen.RespawnColourScheme>
 	|
-	|-RVA: 0x119F750 Offset: 0x119DD50 VA: 0x18119F750
+	|-RVA: 0x119F650 Offset: 0x119DC50 VA: 0x18119F650
 	|-Array.InternalArray__set_Item<JobHandle>
 	|
-	|-RVA: 0x11BA200 Offset: 0x11B8800 VA: 0x1811BA200
+	|-RVA: 0x11BA100 Offset: 0x11B8700 VA: 0x1811BA100
 	|-Array.InternalArray__set_Item<float3>
 	|
-	|-RVA: 0x11BA380 Offset: 0x11B8980 VA: 0x1811BA380
+	|-RVA: 0x11BA280 Offset: 0x11B8880 VA: 0x1811BA280
 	|-Array.InternalArray__set_Item<half2>
 	|
-	|-RVA: 0x11B0FE0 Offset: 0x11AF5E0 VA: 0x1811B0FE0
+	|-RVA: 0x11B0EE0 Offset: 0x11AF4E0 VA: 0x1811B0EE0
 	|-Array.InternalArray__set_Item<NavMeshBuildMarkup>
 	|
-	|-RVA: 0x11B1150 Offset: 0x11AF750 VA: 0x1811B1150
+	|-RVA: 0x11B1050 Offset: 0x11AF650 VA: 0x1811B1050
 	|-Array.InternalArray__set_Item<NavMeshBuildSource>
 	|
-	|-RVA: 0x11984F0 Offset: 0x1196AF0 VA: 0x1811984F0
+	|-RVA: 0x11983F0 Offset: 0x11969F0 VA: 0x1811983F0
 	|-Array.InternalArray__set_Item<AnimatorClipInfo>
 	|
-	|-RVA: 0x11B1780 Offset: 0x11AFD80 VA: 0x1811B1780
+	|-RVA: 0x11B1680 Offset: 0x11AFC80 VA: 0x1811B1680
 	|-Array.InternalArray__set_Item<BeforeRenderHelper.OrderBlock>
 	|
-	|-RVA: 0x1198F20 Offset: 0x1197520 VA: 0x181198F20
+	|-RVA: 0x1198E20 Offset: 0x1197420 VA: 0x181198E20
 	|-Array.InternalArray__set_Item<BoneWeight>
 	|
-	|-RVA: 0x11990A0 Offset: 0x11976A0 VA: 0x1811990A0
+	|-RVA: 0x1198FA0 Offset: 0x11975A0 VA: 0x181198FA0
 	|-Array.InternalArray__set_Item<BoundingSphere>
 	|
-	|-RVA: 0x1199390 Offset: 0x1197990 VA: 0x181199390
+	|-RVA: 0x1199290 Offset: 0x1197890 VA: 0x181199290
 	|-Array.InternalArray__set_Item<Color32>
 	|
-	|-RVA: 0x11996A0 Offset: 0x1197CA0 VA: 0x1811996A0
+	|-RVA: 0x11995A0 Offset: 0x1197BA0 VA: 0x1811995A0
 	|-Array.InternalArray__set_Item<Color>
 	|
-	|-RVA: 0x1199980 Offset: 0x1197F80 VA: 0x181199980
+	|-RVA: 0x1199880 Offset: 0x1197E80 VA: 0x181199880
 	|-Array.InternalArray__set_Item<ContactPoint2D>
 	|
-	|-RVA: 0x1199B10 Offset: 0x1198110 VA: 0x181199B10
+	|-RVA: 0x1199A10 Offset: 0x1198010 VA: 0x181199A10
 	|-Array.InternalArray__set_Item<ContactPoint>
 	|
-	|-RVA: 0x11B2970 Offset: 0x11B0F70 VA: 0x1811B2970
+	|-RVA: 0x11B2870 Offset: 0x11B0E70 VA: 0x1811B2870
 	|-Array.InternalArray__set_Item<RaycastResult>
 	|
-	|-RVA: 0x11B00D0 Offset: 0x11AE6D0 VA: 0x1811B00D0
+	|-RVA: 0x11AFFD0 Offset: 0x11AE5D0 VA: 0x1811AFFD0
 	|-Array.InternalArray__set_Item<LightDataGI>
 	|
-	|-RVA: 0x11B7690 Offset: 0x11B5C90 VA: 0x1811B7690
+	|-RVA: 0x11B7590 Offset: 0x11B5B90 VA: 0x1811B7590
 	|-Array.InternalArray__set_Item<TerrainUtility.TerrainMap.TileCoord>
 	|
-	|-RVA: 0x119E4F0 Offset: 0x119CAF0 VA: 0x18119E4F0
+	|-RVA: 0x119E3F0 Offset: 0x119C9F0 VA: 0x18119E3F0
 	|-Array.InternalArray__set_Item<GradientAlphaKey>
 	|
-	|-RVA: 0x119E650 Offset: 0x119CC50 VA: 0x18119E650
+	|-RVA: 0x119E550 Offset: 0x119CB50 VA: 0x18119E550
 	|-Array.InternalArray__set_Item<GradientColorKey>
 	|
-	|-RVA: 0x11AFC80 Offset: 0x11AE280 VA: 0x1811AFC80
+	|-RVA: 0x11AFB80 Offset: 0x11AE180 VA: 0x1811AFB80
 	|-Array.InternalArray__set_Item<Keyframe>
 	|
-	|-RVA: 0x11AFE00 Offset: 0x11AE400 VA: 0x1811AFE00
+	|-RVA: 0x11AFD00 Offset: 0x11AE300 VA: 0x1811AFD00
 	|-Array.InternalArray__set_Item<LOD>
 	|
-	|-RVA: 0x11B1F00 Offset: 0x11B0500 VA: 0x1811B1F00
+	|-RVA: 0x11B1E00 Offset: 0x11B0400 VA: 0x1811B1E00
 	|-Array.InternalArray__set_Item<PlayerLoopSystem>
 	|
-	|-RVA: 0x11B09D0 Offset: 0x11AEFD0 VA: 0x1811B09D0
+	|-RVA: 0x11B08D0 Offset: 0x11AEED0 VA: 0x1811B08D0
 	|-Array.InternalArray__set_Item<Matrix4x4>
 	|
-	|-RVA: 0x11B1C10 Offset: 0x11B0210 VA: 0x1811B1C10
+	|-RVA: 0x11B1B10 Offset: 0x11B0110 VA: 0x1811B1B10
 	|-Array.InternalArray__set_Item<Plane>
 	|
-	|-RVA: 0x11B1D80 Offset: 0x11B0380 VA: 0x1811B1D80
+	|-RVA: 0x11B1C80 Offset: 0x11B0280 VA: 0x1811B1C80
 	|-Array.InternalArray__set_Item<PlayableBinding>
 	|
-	|-RVA: 0x11B2200 Offset: 0x11B0800 VA: 0x1811B2200
+	|-RVA: 0x11B2100 Offset: 0x11B0700 VA: 0x1811B2100
 	|-Array.InternalArray__set_Item<Quaternion>
 	|
-	|-RVA: 0x11B24E0 Offset: 0x11B0AE0 VA: 0x1811B24E0
+	|-RVA: 0x11B23E0 Offset: 0x11B09E0 VA: 0x1811B23E0
 	|-Array.InternalArray__set_Item<RaycastCommand>
 	|
-	|-RVA: 0x11B2660 Offset: 0x11B0C60 VA: 0x1811B2660
+	|-RVA: 0x11B2560 Offset: 0x11B0B60 VA: 0x1811B2560
 	|-Array.InternalArray__set_Item<RaycastHit2D>
 	|
-	|-RVA: 0x11B27E0 Offset: 0x11B0DE0 VA: 0x1811B27E0
+	|-RVA: 0x11B26E0 Offset: 0x11B0CE0 VA: 0x1811B26E0
 	|-Array.InternalArray__set_Item<RaycastHit>
 	|
-	|-RVA: 0x11B2C80 Offset: 0x11B1280 VA: 0x1811B2C80
+	|-RVA: 0x11B2B80 Offset: 0x11B1180 VA: 0x1811B2B80
 	|-Array.InternalArray__set_Item<Rect>
 	|
-	|-RVA: 0x1198650 Offset: 0x1196C50 VA: 0x181198650
+	|-RVA: 0x1198550 Offset: 0x1196B50 VA: 0x181198550
 	|-Array.InternalArray__set_Item<AsyncGPUReadbackRequest>
 	|
-	|-RVA: 0x1198C30 Offset: 0x1197230 VA: 0x181198C30
+	|-RVA: 0x1198B30 Offset: 0x1197130 VA: 0x181198B30
 	|-Array.InternalArray__set_Item<BatchVisibility>
 	|
-	|-RVA: 0x11AFF70 Offset: 0x11AE570 VA: 0x1811AFF70
+	|-RVA: 0x11AFE70 Offset: 0x11AE470 VA: 0x1811AFE70
 	|-Array.InternalArray__set_Item<BloomRenderer.Level>
 	|
-	|-RVA: 0x11B2DF0 Offset: 0x11B13F0 VA: 0x1811B2DF0
+	|-RVA: 0x11B2CF0 Offset: 0x11B12F0 VA: 0x1811B2CF0
 	|-Array.InternalArray__set_Item<RenderTargetIdentifier>
 	|
-	|-RVA: 0x11B5290 Offset: 0x11B3890 VA: 0x1811B5290
+	|-RVA: 0x11B5190 Offset: 0x11B3790 VA: 0x1811B5190
 	|-Array.InternalArray__set_Item<SphericalHarmonicsL2>
 	|
-	|-RVA: 0x11B9650 Offset: 0x11B7C50 VA: 0x1811B9650
+	|-RVA: 0x11B9550 Offset: 0x11B7B50 VA: 0x1811B9550
 	|-Array.InternalArray__set_Item<VertexAttributeDescriptor>
 	|
-	|-RVA: 0x11B30E0 Offset: 0x11B16E0 VA: 0x1811B30E0
+	|-RVA: 0x11B2FE0 Offset: 0x11B15E0 VA: 0x1811B2FE0
 	|-Array.InternalArray__set_Item<Resolution>
 	|
-	|-RVA: 0x119EAB0 Offset: 0x119D0B0 VA: 0x18119EAB0
+	|-RVA: 0x119E9B0 Offset: 0x119CFB0 VA: 0x18119E9B0
 	|-Array.InternalArray__set_Item<SendMouseEvents.HitInfo>
 	|
-	|-RVA: 0x119E380 Offset: 0x119C980 VA: 0x18119E380
+	|-RVA: 0x119E280 Offset: 0x119C880 VA: 0x18119E280
 	|-Array.InternalArray__set_Item<GlyphRect>
 	|
-	|-RVA: 0x119E080 Offset: 0x119C680 VA: 0x18119E080
+	|-RVA: 0x119DF80 Offset: 0x119C580 VA: 0x18119DF80
 	|-Array.InternalArray__set_Item<GlyphMarshallingStruct>
 	|
-	|-RVA: 0x119E200 Offset: 0x119C800 VA: 0x18119E200
+	|-RVA: 0x119E100 Offset: 0x119C700 VA: 0x18119E100
 	|-Array.InternalArray__set_Item<GlyphPairAdjustmentRecord>
 	|
-	|-RVA: 0x11B7C30 Offset: 0x11B6230 VA: 0x1811B7C30
+	|-RVA: 0x11B7B30 Offset: 0x11B6130 VA: 0x1811B7B30
 	|-Array.InternalArray__set_Item<Touch>
 	|
-	|-RVA: 0x11B80F0 Offset: 0x11B66F0 VA: 0x1811B80F0
+	|-RVA: 0x11B7FF0 Offset: 0x11B65F0 VA: 0x1811B7FF0
 	|-Array.InternalArray__set_Item<TreeInstance>
 	|
-	|-RVA: 0x11994F0 Offset: 0x1197AF0 VA: 0x1811994F0
+	|-RVA: 0x11993F0 Offset: 0x11979F0 VA: 0x1811993F0
 	|-Array.InternalArray__set_Item<ColorBlock>
 	|
-	|-RVA: 0x11B1300 Offset: 0x11AF900 VA: 0x1811B1300
+	|-RVA: 0x11B1200 Offset: 0x11AF800 VA: 0x1811B1200
 	|-Array.InternalArray__set_Item<Navigation>
 	|
-	|-RVA: 0x11B5450 Offset: 0x11B3A50 VA: 0x1811B5450
+	|-RVA: 0x11B5350 Offset: 0x11B3950 VA: 0x1811B5350
 	|-Array.InternalArray__set_Item<SpriteState>
 	|
-	|-RVA: 0x11B8270 Offset: 0x11B6870 VA: 0x1811B8270
+	|-RVA: 0x11B8170 Offset: 0x11B6770 VA: 0x1811B8170
 	|-Array.InternalArray__set_Item<UICharInfo>
 	|
-	|-RVA: 0x119A3C0 Offset: 0x11989C0 VA: 0x18119A3C0
+	|-RVA: 0x119A2C0 Offset: 0x11988C0 VA: 0x18119A2C0
 	|-Array.InternalArray__set_Item<EventDispatcher.DispatchContext>
 	|
-	|-RVA: 0x119D950 Offset: 0x119BF50 VA: 0x18119D950
+	|-RVA: 0x119D850 Offset: 0x119BE50 VA: 0x18119D850
 	|-Array.InternalArray__set_Item<EventDispatcher.EventRecord>
 	|
-	|-RVA: 0x119DAC0 Offset: 0x119C0C0 VA: 0x18119DAC0
+	|-RVA: 0x119D9C0 Offset: 0x119BFC0 VA: 0x18119D9C0
 	|-Array.InternalArray__set_Item<FocusController.FocusedElement>
 	|
-	|-RVA: 0x11B3F30 Offset: 0x11B2530 VA: 0x1811B3F30
+	|-RVA: 0x11B3E30 Offset: 0x11B2430 VA: 0x1811B3E30
 	|-Array.InternalArray__set_Item<StyleSheetCache.SheetHandleKey>
 	|
-	|-RVA: 0x11B6840 Offset: 0x11B4E40 VA: 0x1811B6840
+	|-RVA: 0x11B6740 Offset: 0x11B4D40 VA: 0x1811B6740
 	|-Array.InternalArray__set_Item<StyleValue>
 	|
-	|-RVA: 0x11B83F0 Offset: 0x11B69F0 VA: 0x1811B83F0
+	|-RVA: 0x11B82F0 Offset: 0x11B68F0 VA: 0x1811B82F0
 	|-Array.InternalArray__set_Item<UILineInfo>
 	|
-	|-RVA: 0x11B8560 Offset: 0x11B6B60 VA: 0x1811B8560
+	|-RVA: 0x11B8460 Offset: 0x11B6A60 VA: 0x1811B8460
 	|-Array.InternalArray__set_Item<UIVertex>
 	|
-	|-RVA: 0x11B9AA0 Offset: 0x11B80A0 VA: 0x1811B9AA0
+	|-RVA: 0x11B99A0 Offset: 0x11B7FA0 VA: 0x1811B99A0
 	|-Array.InternalArray__set_Item<UnitySynchronizationContext.WorkRequest>
 	|
-	|-RVA: 0x11B94F0 Offset: 0x11B7AF0 VA: 0x1811B94F0
+	|-RVA: 0x11B93F0 Offset: 0x11B79F0 VA: 0x1811B93F0
 	|-Array.InternalArray__set_Item<Vector2>
 	|
-	|-RVA: 0x11B9390 Offset: 0x11B7990 VA: 0x1811B9390
+	|-RVA: 0x11B9290 Offset: 0x11B7890 VA: 0x1811B9290
 	|-Array.InternalArray__set_Item<Vector2Int>
 	|
-	|-RVA: 0x13018E0 Offset: 0x12FFEE0 VA: 0x1813018E0
+	|-RVA: 0x13017E0 Offset: 0x12FFDE0 VA: 0x1813017E0
 	|-Array.InternalArray__set_Item<Vector3>
 	|
-	|-RVA: 0x1301A60 Offset: 0x1300060 VA: 0x181301A60
+	|-RVA: 0x1301960 Offset: 0x12FFF60 VA: 0x181301960
 	|-Array.InternalArray__set_Item<Vector4>
 	|
-	|-RVA: 0x1301610 Offset: 0x12FFC10 VA: 0x181301610
+	|-RVA: 0x1301510 Offset: 0x12FFB10 VA: 0x181301510
 	|-Array.InternalArray__set_Item<SemanticMeaning>
 	|
-	|-RVA: 0x1301D50 Offset: 0x1300350 VA: 0x181301D50
+	|-RVA: 0x1301C50 Offset: 0x1300250 VA: 0x181301C50
 	|-Array.InternalArray__set_Item<jvalue>
 	|
-	|-RVA: 0x1301780 Offset: 0x12FFD80 VA: 0x181301780
+	|-RVA: 0x1301680 Offset: 0x12FFC80 VA: 0x181301680
 	|-Array.InternalArray__set_Item<Vector2i>
 	|
-	|-RVA: 0x1301BD0 Offset: 0x13001D0 VA: 0x181301BD0
+	|-RVA: 0x1301AD0 Offset: 0x13000D0 VA: 0x181301AD0
 	|-Array.InternalArray__set_Item<ViewModelDrawEvent>
 	|
-	|-RVA: 0x13011A0 Offset: 0x12FF7A0 VA: 0x1813011A0
+	|-RVA: 0x13010A0 Offset: 0x12FF6A0 VA: 0x1813010A0
 	|-Array.InternalArray__set_Item<WaterDynamics.InstanceData>
 	|
-	|-RVA: 0x1301490 Offset: 0x12FFA90 VA: 0x181301490
+	|-RVA: 0x1301390 Offset: 0x12FF990 VA: 0x181301390
 	|-Array.InternalArray__set_Item<WaterGerstner.PrecomputedWave>
 	|
-	|-RVA: 0x1300EC0 Offset: 0x12FF4C0 VA: 0x181300EC0
+	|-RVA: 0x1300DC0 Offset: 0x12FF3C0 VA: 0x181300DC0
 	|-Array.InternalArray__set_Item<WaterSimulation.Butterfly>
 	|
-	|-RVA: 0x1301030 Offset: 0x12FF630 VA: 0x181301030
+	|-RVA: 0x1300F30 Offset: 0x12FF530 VA: 0x181300F30
 	|-Array.InternalArray__set_Item<WindZoneExManager.CurrentZoneEntry>
 	|
-	|-RVA: 0x1301320 Offset: 0x12FF920 VA: 0x181301320
+	|-RVA: 0x1301220 Offset: 0x12FF820 VA: 0x181301220
 	|-Array.InternalArray__set_Item<WorldSplineData.LUTEntry.LUTPoint>
 	*/
 
@@ -20734,7 +20734,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	private static int IndexOfImpl<T>(T[] array, T value, int startIndex, int count) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x10EBFA0 Offset: 0x10EA5A0 VA: 0x1810EBFA0
+	|-RVA: 0x10EBEA0 Offset: 0x10EA4A0 VA: 0x1810EBEA0
 	|-Array.IndexOfImpl<AdvancedChristmasLights.pointEntry>
 	|-Array.IndexOfImpl<AlignedLineDrawer.LinePoint>
 	|-Array.IndexOfImpl<Cassette.LoadRequest>
@@ -20755,7 +20755,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.IndexOfImpl<KeyValuePair<ulong, Dispatch.ResultCallback>>
 	|-Array.IndexOfImpl<UnitySynchronizationContext.WorkRequest>
 	|
-	|-RVA: 0x10EBA00 Offset: 0x10EA000 VA: 0x1810EBA00
+	|-RVA: 0x10EB900 Offset: 0x10E9F00 VA: 0x1810EB900
 	|-Array.IndexOfImpl<AtmosphereVolumeRenderer.CurrentVolumeEntry>
 	|-Array.IndexOfImpl<DamageRenderer.DamageShowingRenderer>
 	|-Array.IndexOfImpl<DeferredExtensionMesh.MaterialLink>
@@ -20802,7 +20802,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.IndexOfImpl<WindZoneExManager.CurrentZoneEntry>
 	|-Array.IndexOfImpl<WorldSplineData.LUTEntry.LUTPoint>
 	|
-	|-RVA: 0x10EBD80 Offset: 0x10EA380 VA: 0x1810EBD80
+	|-RVA: 0x10EBC80 Offset: 0x10EA280 VA: 0x1810EBC80
 	|-Array.IndexOfImpl<BaseEntity.ServerFileRequest>
 	|-Array.IndexOfImpl<CardTableUI.KeycodeWithAction>
 	|-Array.IndexOfImpl<Demos.DemoInfo>
@@ -20823,12 +20823,12 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.IndexOfImpl<SpecialPurposeCamera.RenderEntry>
 	|-Array.IndexOfImpl<InventoryItem>
 	|
-	|-RVA: 0x10EC5A0 Offset: 0x10EABA0 VA: 0x1810EC5A0
+	|-RVA: 0x10EC4A0 Offset: 0x10EAAA0 VA: 0x1810EC4A0
 	|-Array.IndexOfImpl<Admin.PlayerInfo>
 	|-Array.IndexOfImpl<PlaceMonuments.SpawnInfo>
 	|-Array.IndexOfImpl<Matrix4x4>
 	|
-	|-RVA: 0x10EB960 Offset: 0x10E9F60 VA: 0x1810EB960
+	|-RVA: 0x10EB860 Offset: 0x10E9E60 VA: 0x1810EB860
 	|-Array.IndexOfImpl<Admin.ServerUGCInfo>
 	|-Array.IndexOfImpl<CapsuleParams>
 	|-Array.IndexOfImpl<SkeletonDefinition.Bone>
@@ -20839,7 +20839,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.IndexOfImpl<TreeInstance>
 	|-Array.IndexOfImpl<ViewModelDrawEvent>
 	|
-	|-RVA: 0x10EBBF0 Offset: 0x10EA1F0 VA: 0x1810EBBF0
+	|-RVA: 0x10EBAF0 Offset: 0x10EA0F0 VA: 0x1810EBAF0
 	|-Array.IndexOfImpl<CRedge>
 	|-Array.IndexOfImpl<ProjectileWeaponMod.Modifier>
 	|-Array.IndexOfImpl<VectorData>
@@ -20848,7 +20848,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.IndexOfImpl<UICharInfo>
 	|-Array.IndexOfImpl<Vector3>
 	|
-	|-RVA: 0x10EB8E0 Offset: 0x10E9EE0 VA: 0x1810EB8E0
+	|-RVA: 0x10EB7E0 Offset: 0x10E9DE0 VA: 0x1810EB7E0
 	|-Array.IndexOfImpl<ERCell>
 	|-Array.IndexOfImpl<ERConnectionGUIStatus>
 	|-Array.IndexOfImpl<ERTerrainChange>
@@ -20865,30 +20865,30 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.IndexOfImpl<TimeSpan>
 	|-Array.IndexOfImpl<Vector2i>
 	|
-	|-RVA: 0x10EC740 Offset: 0x10EAD40 VA: 0x1810EC740
+	|-RVA: 0x10EC640 Offset: 0x10EAC40 VA: 0x1810EC640
 	|-Array.IndexOfImpl<ERMeshCombineUtility.MeshInstance>
 	|-Array.IndexOfImpl<RenderInfo.RendererInstance>
 	|-Array.IndexOfImpl<Option>
 	|
-	|-RVA: 0x10EC030 Offset: 0x10EA630 VA: 0x1810EC030
+	|-RVA: 0x10EBF30 Offset: 0x10EA530 VA: 0x1810EBF30
 	|-Array.IndexOfImpl<ERSOSection>
 	|
-	|-RVA: 0x10EC120 Offset: 0x10EA720 VA: 0x1810EC120
+	|-RVA: 0x10EC020 Offset: 0x10EA620 VA: 0x1810EC020
 	|-Array.IndexOfImpl<ERSplatmap>
 	|
-	|-RVA: 0x10EC1D0 Offset: 0x10EA7D0 VA: 0x1810EC1D0
+	|-RVA: 0x10EC0D0 Offset: 0x10EA6D0 VA: 0x1810EC0D0
 	|-Array.IndexOfImpl<ERVSData>
 	|-Array.IndexOfImpl<SqliteKeyReader.KeyInfo>
 	|
-	|-RVA: 0x10EBE10 Offset: 0x10EA410 VA: 0x1810EBE10
+	|-RVA: 0x10EBD10 Offset: 0x10EA310 VA: 0x1810EBD10
 	|-Array.IndexOfImpl<EngineDamageOverTime.RecentDamage>
 	|-Array.IndexOfImpl<DemoShotFloatKeyframe>
 	|-Array.IndexOfImpl<Vector2>
 	|
-	|-RVA: 0x10EBA90 Offset: 0x10EA090 VA: 0x1810EBA90
+	|-RVA: 0x10EB990 Offset: 0x10E9F90 VA: 0x1810EB990
 	|-Array.IndexOfImpl<BoneData>
 	|
-	|-RVA: 0x10EC280 Offset: 0x10EA880 VA: 0x1810EC280
+	|-RVA: 0x10EC180 Offset: 0x10EA780 VA: 0x1810EC180
 	|-Array.IndexOfImpl<Tick.Entry>
 	|-Array.IndexOfImpl<Gibbable.OverrideMesh>
 	|-Array.IndexOfImpl<MeshInstance>
@@ -20898,101 +20898,101 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.IndexOfImpl<PlaceMonumentsRoadside.SpawnInfo>
 	|-Array.IndexOfImpl<SubsurfaceProfileTexture.SubsurfaceProfileEntry>
 	|
-	|-RVA: 0x10EC320 Offset: 0x10EA920 VA: 0x1810EC320
+	|-RVA: 0x10EC220 Offset: 0x10EA820 VA: 0x1810EC220
 	|-Array.IndexOfImpl<FoliageGridMeshData.FoliageVertex>
 	|
-	|-RVA: 0x10ECCB0 Offset: 0x10EB2B0 VA: 0x1810ECCB0
+	|-RVA: 0x10ECBB0 Offset: 0x10EB1B0 VA: 0x1810ECBB0
 	|-Array.IndexOfImpl<SevenBitNumber>
 	|
-	|-RVA: 0x10EC640 Offset: 0x10EAC40 VA: 0x1810EC640
+	|-RVA: 0x10EC540 Offset: 0x10EAB40 VA: 0x1810EC540
 	|-Array.IndexOfImpl<MeshColliderInstance>
 	|
-	|-RVA: 0x10EC4D0 Offset: 0x10EAAD0 VA: 0x1810EC4D0
+	|-RVA: 0x10EC3D0 Offset: 0x10EA9D0 VA: 0x1810EC3D0
 	|-Array.IndexOfImpl<MeshColliderLookup.LookupEntry>
 	|
-	|-RVA: 0x10EC800 Offset: 0x10EAE00 VA: 0x1810EC800
+	|-RVA: 0x10EC700 Offset: 0x10EAD00 VA: 0x1810EC700
 	|-Array.IndexOfImpl<MeshRendererInstance>
 	|
-	|-RVA: 0x10EBE90 Offset: 0x10EA490 VA: 0x1810EBE90
+	|-RVA: 0x10EBD90 Offset: 0x10EA390 VA: 0x1810EBD90
 	|-Array.IndexOfImpl<DemoShotQuaternionKeyframe>
 	|
-	|-RVA: 0x10ECBD0 Offset: 0x10EB1D0 VA: 0x1810ECBD0
+	|-RVA: 0x10ECAD0 Offset: 0x10EB0D0 VA: 0x1810ECAD0
 	|-Array.IndexOfImpl<ServerInfo>
 	|-Array.IndexOfImpl<ServerInfo>
 	|
-	|-RVA: 0x10EBD00 Offset: 0x10EA300 VA: 0x1810EBD00
+	|-RVA: 0x10EBC00 Offset: 0x10EA200 VA: 0x1810EBC00
 	|-Array.IndexOfImpl<InventoryDefId>
 	|-Array.IndexOfImpl<Color32>
 	|
-	|-RVA: 0x10EBB70 Offset: 0x10EA170 VA: 0x1810EBB70
+	|-RVA: 0x10EBA70 Offset: 0x10EA070 VA: 0x1810EBA70
 	|-Array.IndexOfImpl<bool>
 	|-Array.IndexOfImpl<byte>
 	|-Array.IndexOfImpl<sbyte>
 	|
-	|-RVA: 0x10EBC80 Offset: 0x10EA280 VA: 0x1810EBC80
+	|-RVA: 0x10EBB80 Offset: 0x10EA180 VA: 0x1810EBB80
 	|-Array.IndexOfImpl<char>
 	|-Array.IndexOfImpl<short>
 	|-Array.IndexOfImpl<ushort>
 	|
-	|-RVA: 0x10EBF20 Offset: 0x10EA520 VA: 0x1810EBF20
+	|-RVA: 0x10EBE20 Offset: 0x10EA420 VA: 0x1810EBE20
 	|-Array.IndexOfImpl<double>
 	|-Array.IndexOfImpl<float>
 	|
-	|-RVA: 0x10EC3D0 Offset: 0x10EA9D0 VA: 0x1810EC3D0
+	|-RVA: 0x10EC2D0 Offset: 0x10EA8D0 VA: 0x1810EC2D0
 	|-Array.IndexOfImpl<int>
 	|-Array.IndexOfImpl<Int32Enum>
 	|-Array.IndexOfImpl<uint>
 	|
-	|-RVA: 0x10EC450 Offset: 0x10EAA50 VA: 0x1810EC450
+	|-RVA: 0x10EC350 Offset: 0x10EA950 VA: 0x1810EC350
 	|-Array.IndexOfImpl<long>
 	|-Array.IndexOfImpl<object>
 	|-Array.IndexOfImpl<ulong>
 	|
-	|-RVA: 0x10ECB10 Offset: 0x10EB110 VA: 0x1810ECB10
+	|-RVA: 0x10ECA10 Offset: 0x10EB010 VA: 0x1810ECA10
 	|-Array.IndexOfImpl<TraceInfo>
 	|-Array.IndexOfImpl<RaycastResult>
 	|
-	|-RVA: 0x10EC8F0 Offset: 0x10EAEF0 VA: 0x1810EC8F0
+	|-RVA: 0x10EC7F0 Offset: 0x10EADF0 VA: 0x1810EC7F0
 	|-Array.IndexOfImpl<NavMeshBuildSource>
 	|
-	|-RVA: 0x10EC9C0 Offset: 0x10EAFC0 VA: 0x1810EC9C0
+	|-RVA: 0x10EC8C0 Offset: 0x10EAEC0 VA: 0x1810EC8C0
 	|-Array.IndexOfImpl<RaycastHit2D>
 	|
-	|-RVA: 0x10ECA60 Offset: 0x10EB060 VA: 0x1810ECA60
+	|-RVA: 0x10EC960 Offset: 0x10EAF60 VA: 0x1810EC960
 	|-Array.IndexOfImpl<RaycastHit>
 	|
-	|-RVA: 0x10ECD30 Offset: 0x10EB330 VA: 0x1810ECD30
+	|-RVA: 0x10ECC30 Offset: 0x10EB230 VA: 0x1810ECC30
 	|-Array.IndexOfImpl<UIVertex>
 	*/
 
 	private static int LastIndexOfImpl<T>(T[] array, T value, int startIndex, int count) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xECFC60 Offset: 0xECE260 VA: 0x180ECFC60
+	|-RVA: 0xECFB60 Offset: 0xECE160 VA: 0x180ECFB60
 	|-Array.LastIndexOfImpl<FoliageKey>
 	|
-	|-RVA: 0xECFCE0 Offset: 0xECE2E0 VA: 0x180ECFCE0
+	|-RVA: 0xECFBE0 Offset: 0xECE1E0 VA: 0x180ECFBE0
 	|-Array.LastIndexOfImpl<InstancingKey>
 	|-Array.LastIndexOfImpl<InvokeAction>
 	|-Array.LastIndexOfImpl<SpecialPurposeCamera.RenderEntry>
 	|
-	|-RVA: 0xECFE10 Offset: 0xECE410 VA: 0x180ECFE10
+	|-RVA: 0xECFD10 Offset: 0xECE310 VA: 0x180ECFD10
 	|-Array.LastIndexOfImpl<RendererKey>
 	|
-	|-RVA: 0xECFEA0 Offset: 0xECE4A0 VA: 0x180ECFEA0
+	|-RVA: 0xECFDA0 Offset: 0xECE3A0 VA: 0x180ECFDA0
 	|-Array.LastIndexOfImpl<object>
 	|-Array.LastIndexOfImpl<ulong>
 	|
-	|-RVA: 0xECFF20 Offset: 0xECE520 VA: 0x180ECFF20
+	|-RVA: 0xECFE20 Offset: 0xECE420 VA: 0x180ECFE20
 	|-Array.LastIndexOfImpl<float>
 	|
-	|-RVA: 0xECFFA0 Offset: 0xECE5A0 VA: 0x180ECFFA0
+	|-RVA: 0xECFEA0 Offset: 0xECE4A0 VA: 0x180ECFEA0
 	|-Array.LastIndexOfImpl<uint>
 	|
-	|-RVA: 0xECFD70 Offset: 0xECE370 VA: 0x180ECFD70
+	|-RVA: 0xECFC70 Offset: 0xECE270 VA: 0x180ECFC70
 	|-Array.LastIndexOfImpl<Matrix4x4>
 	|
-	|-RVA: 0xED0020 Offset: 0xECE620 VA: 0x180ED0020
+	|-RVA: 0xECFF20 Offset: 0xECE520 VA: 0x180ECFF20
 	|-Array.LastIndexOfImpl<ViewModelDrawEvent>
 	*/
 
@@ -21227,14 +21227,14 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	internal static void UnsafeStore<T>(T[] array, int index, T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE00490 Offset: 0xDFEA90 VA: 0x180E00490
+	|-RVA: 0xE00390 Offset: 0xDFE990 VA: 0x180E00390
 	|-Array.UnsafeStore<object>
 	*/
 
 	internal static R UnsafeMov<S, R>(S instance) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125D050 Offset: 0x125B650 VA: 0x18125D050
+	|-RVA: 0x125CF50 Offset: 0x125B550 VA: 0x18125CF50
 	|-Array.UnsafeMov<ByteEnum, int>
 	|
 	|-RVA: 0x68A720 Offset: 0x688D20 VA: 0x18068A720
@@ -29826,2135 +29826,2135 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	public T get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x12C96F0 Offset: 0x12C7CF0 VA: 0x1812C96F0
+	|-RVA: 0x12C95F0 Offset: 0x12C7BF0 VA: 0x1812C95F0
 	|-Array.EmptyInternalEnumerator<AdvancedChristmasLights.pointEntry>.get_Current
 	|
-	|-RVA: 0x12C67B0 Offset: 0x12C4DB0 VA: 0x1812C67B0
+	|-RVA: 0x12C66B0 Offset: 0x12C4CB0 VA: 0x1812C66B0
 	|-Array.EmptyInternalEnumerator<AlignedLineDrawer.LinePoint>.get_Current
 	|
-	|-RVA: 0x12C7A10 Offset: 0x12C6010 VA: 0x1812C7A10
+	|-RVA: 0x12C7910 Offset: 0x12C5F10 VA: 0x1812C7910
 	|-Array.EmptyInternalEnumerator<AtmosphereVolumeRenderer.CurrentVolumeEntry>.get_Current
 	|
-	|-RVA: 0x12C9270 Offset: 0x12C7870 VA: 0x1812C9270
+	|-RVA: 0x12C9170 Offset: 0x12C7770 VA: 0x1812C9170
 	|-Array.EmptyInternalEnumerator<AvatarCache.Entry>.get_Current
 	|
-	|-RVA: 0x12C8F10 Offset: 0x12C7510 VA: 0x1812C8F10
+	|-RVA: 0x12C8E10 Offset: 0x12C7410 VA: 0x1812C8E10
 	|-Array.EmptyInternalEnumerator<BaseEntity.ServerFileRequest>.get_Current
 	|
-	|-RVA: 0x12C71D0 Offset: 0x12C57D0 VA: 0x1812C71D0
+	|-RVA: 0x12C70D0 Offset: 0x12C56D0 VA: 0x1812C70D0
 	|-Array.EmptyInternalEnumerator<CameraMan.CameraState>.get_Current
 	|
-	|-RVA: 0x12C6AB0 Offset: 0x12C50B0 VA: 0x1812C6AB0
+	|-RVA: 0x12C69B0 Offset: 0x12C4FB0 VA: 0x1812C69B0
 	|-Array.EmptyInternalEnumerator<CardTableUI.KeycodeWithAction>.get_Current
 	|
-	|-RVA: 0x12C8970 Offset: 0x12C6F70 VA: 0x1812C8970
+	|-RVA: 0x12C8870 Offset: 0x12C6E70 VA: 0x1812C8870
 	|-Array.EmptyInternalEnumerator<Cassette.LoadRequest>.get_Current
 	|
-	|-RVA: 0x12C6BD0 Offset: 0x12C51D0 VA: 0x1812C6BD0
+	|-RVA: 0x12C6AD0 Offset: 0x12C50D0 VA: 0x1812C6AD0
 	|-Array.EmptyInternalEnumerator<CommandBufferManager.CommandBufferEntry>.get_Current
 	|
-	|-RVA: 0x12C9810 Offset: 0x12C7E10 VA: 0x1812C9810
+	|-RVA: 0x12C9710 Offset: 0x12C7D10 VA: 0x1812C9710
 	|-Array.EmptyInternalEnumerator<Admin.PlayerInfo>.get_Current
 	|
-	|-RVA: 0x12C8010 Offset: 0x12C6610 VA: 0x1812C8010
+	|-RVA: 0x12C7F10 Offset: 0x12C6510 VA: 0x1812C7F10
 	|-Array.EmptyInternalEnumerator<Admin.ServerConvarInfo>.get_Current
 	|
-	|-RVA: 0x12C9210 Offset: 0x12C7810 VA: 0x1812C9210
+	|-RVA: 0x12C9110 Offset: 0x12C7710 VA: 0x1812C9110
 	|-Array.EmptyInternalEnumerator<Admin.ServerUGCInfo>.get_Current
 	|
-	|-RVA: 0x12C7950 Offset: 0x12C5F50 VA: 0x1812C7950
+	|-RVA: 0x12C7850 Offset: 0x12C5E50 VA: 0x1812C7850
 	|-Array.EmptyInternalEnumerator<Chat.MuteEntry>.get_Current
 	|
-	|-RVA: 0x12C9150 Offset: 0x12C7750 VA: 0x1812C9150
+	|-RVA: 0x12C9050 Offset: 0x12C7650 VA: 0x1812C9050
 	|-Array.EmptyInternalEnumerator<Debugging.EntityInfo>.get_Current
 	|
-	|-RVA: 0x12C98D0 Offset: 0x12C7ED0 VA: 0x1812C98D0
+	|-RVA: 0x12C97D0 Offset: 0x12C7DD0 VA: 0x1812C97D0
 	|-Array.EmptyInternalEnumerator<DamageRenderer.DamageShowingRenderer>.get_Current
 	|
-	|-RVA: 0x12C8CD0 Offset: 0x12C72D0 VA: 0x1812C8CD0
+	|-RVA: 0x12C8BD0 Offset: 0x12C71D0 VA: 0x1812C8BD0
 	|-Array.EmptyInternalEnumerator<DeferredExtensionMesh.MaterialLink>.get_Current
 	|
-	|-RVA: 0x12C56D0 Offset: 0x12C3CD0 VA: 0x1812C56D0
+	|-RVA: 0x12C55D0 Offset: 0x12C3BD0 VA: 0x1812C55D0
 	|-Array.EmptyInternalEnumerator<DeferredMeshDecal.MaterialLink>.get_Current
 	|
-	|-RVA: 0x12C7050 Offset: 0x12C5650 VA: 0x1812C7050
+	|-RVA: 0x12C6F50 Offset: 0x12C5550 VA: 0x1812C6F50
 	|-Array.EmptyInternalEnumerator<Demos.DemoInfo>.get_Current
 	|
-	|-RVA: 0x12C7E30 Offset: 0x12C6430 VA: 0x1812C7E30
+	|-RVA: 0x12C7D30 Offset: 0x12C6330 VA: 0x1812C7D30
 	|-Array.EmptyInternalEnumerator<DungeonGridConnectionHash>.get_Current
 	|
-	|-RVA: 0x12C8850 Offset: 0x12C6E50 VA: 0x1812C8850
+	|-RVA: 0x12C8750 Offset: 0x12C6D50 VA: 0x1812C8750
 	|-Array.EmptyInternalEnumerator<CRedge>.get_Current
 	|
-	|-RVA: 0x12C6990 Offset: 0x12C4F90 VA: 0x1812C6990
+	|-RVA: 0x12C6890 Offset: 0x12C4E90 VA: 0x1812C6890
 	|-Array.EmptyInternalEnumerator<CombineClass>.get_Current
 	|
-	|-RVA: 0x12C6450 Offset: 0x12C4A50 VA: 0x1812C6450
+	|-RVA: 0x12C6350 Offset: 0x12C4950 VA: 0x1812C6350
 	|-Array.EmptyInternalEnumerator<ERCell>.get_Current
 	|
-	|-RVA: 0x12C6090 Offset: 0x12C4690 VA: 0x1812C6090
+	|-RVA: 0x12C5F90 Offset: 0x12C4590 VA: 0x1812C5F90
 	|-Array.EmptyInternalEnumerator<ERChildsSO>.get_Current
 	|
-	|-RVA: 0x12C88B0 Offset: 0x12C6EB0 VA: 0x1812C88B0
+	|-RVA: 0x12C87B0 Offset: 0x12C6DB0 VA: 0x1812C87B0
 	|-Array.EmptyInternalEnumerator<ERConnectionGUIStatus>.get_Current
 	|
-	|-RVA: 0x12C5B50 Offset: 0x12C4150 VA: 0x1812C5B50
+	|-RVA: 0x12C5A50 Offset: 0x12C4050 VA: 0x1812C5A50
 	|-Array.EmptyInternalEnumerator<ERLane>.get_Current
 	|
-	|-RVA: 0x12C97B0 Offset: 0x12C7DB0 VA: 0x1812C97B0
+	|-RVA: 0x12C96B0 Offset: 0x12C7CB0 VA: 0x1812C96B0
 	|-Array.EmptyInternalEnumerator<ERMeshCombineUtility.MeshInstance>.get_Current
 	|
-	|-RVA: 0x12C54F0 Offset: 0x12C3AF0 VA: 0x1812C54F0
+	|-RVA: 0x12C53F0 Offset: 0x12C39F0 VA: 0x1812C53F0
 	|-Array.EmptyInternalEnumerator<ERSOSection>.get_Current
 	|
-	|-RVA: 0x12C6630 Offset: 0x12C4C30 VA: 0x1812C6630
+	|-RVA: 0x12C6530 Offset: 0x12C4B30 VA: 0x1812C6530
 	|-Array.EmptyInternalEnumerator<ERSplatmap>.get_Current
 	|
-	|-RVA: 0x12C7EF0 Offset: 0x12C64F0 VA: 0x1812C7EF0
+	|-RVA: 0x12C7DF0 Offset: 0x12C63F0 VA: 0x1812C7DF0
 	|-Array.EmptyInternalEnumerator<ERTerrainChange>.get_Current
 	|
-	|-RVA: 0x12C5010 Offset: 0x12C3610 VA: 0x1812C5010
+	|-RVA: 0x12C4F10 Offset: 0x12C3510 VA: 0x1812C4F10
 	|-Array.EmptyInternalEnumerator<ERVSData>.get_Current
 	|
-	|-RVA: 0x12C5730 Offset: 0x12C3D30 VA: 0x1812C5730
+	|-RVA: 0x12C5630 Offset: 0x12C3C30 VA: 0x1812C5630
 	|-Array.EmptyInternalEnumerator<NormalPairs>.get_Current
 	|
-	|-RVA: 0x12C6B10 Offset: 0x12C5110 VA: 0x1812C6B10
+	|-RVA: 0x12C6A10 Offset: 0x12C5010 VA: 0x1812C6A10
 	|-Array.EmptyInternalEnumerator<EngineDamageOverTime.RecentDamage>.get_Current
 	|
-	|-RVA: 0x12C83D0 Offset: 0x12C69D0 VA: 0x1812C83D0
+	|-RVA: 0x12C82D0 Offset: 0x12C68D0 VA: 0x1812C82D0
 	|-Array.EmptyInternalEnumerator<EntityRef>.get_Current
 	|
-	|-RVA: 0x12C5D90 Offset: 0x12C4390 VA: 0x1812C5D90
+	|-RVA: 0x12C5C90 Offset: 0x12C4290 VA: 0x1812C5C90
 	|-Array.EmptyInternalEnumerator<EntityRef<object>>.get_Current
 	|
-	|-RVA: 0x12C5790 Offset: 0x12C3D90 VA: 0x1812C5790
+	|-RVA: 0x12C5690 Offset: 0x12C3C90 VA: 0x1812C5690
 	|-Array.EmptyInternalEnumerator<ExpandedLifeStats.GenericStatDisplay>.get_Current
 	|
-	|-RVA: 0x12C5250 Offset: 0x12C3850 VA: 0x1812C5250
+	|-RVA: 0x12C5150 Offset: 0x12C3750 VA: 0x1812C5150
 	|-Array.EmptyInternalEnumerator<BurstCloth.Chain>.get_Current
 	|
-	|-RVA: 0x12C8610 Offset: 0x12C6C10 VA: 0x1812C8610
+	|-RVA: 0x12C8510 Offset: 0x12C6B10 VA: 0x1812C8510
 	|-Array.EmptyInternalEnumerator<CapsuleParams>.get_Current
 	|
-	|-RVA: 0x12C7650 Offset: 0x12C5C50 VA: 0x1812C7650
+	|-RVA: 0x12C7550 Offset: 0x12C5B50 VA: 0x1812C7550
 	|-Array.EmptyInternalEnumerator<BoneData>.get_Current
 	|
-	|-RVA: 0x12C8C10 Offset: 0x12C7210 VA: 0x1812C8C10
+	|-RVA: 0x12C8B10 Offset: 0x12C7110 VA: 0x1812C8B10
 	|-Array.EmptyInternalEnumerator<BoneState>.get_Current
 	|
-	|-RVA: 0x12C8E50 Offset: 0x12C7450 VA: 0x1812C8E50
+	|-RVA: 0x12C8D50 Offset: 0x12C7350 VA: 0x1812C8D50
 	|-Array.EmptyInternalEnumerator<ColliderData>.get_Current
 	|
-	|-RVA: 0x12C9390 Offset: 0x12C7990 VA: 0x1812C9390
+	|-RVA: 0x12C9290 Offset: 0x12C7890 VA: 0x1812C9290
 	|-Array.EmptyInternalEnumerator<ColliderState>.get_Current
 	|
-	|-RVA: 0x12C63F0 Offset: 0x12C49F0 VA: 0x1812C63F0
+	|-RVA: 0x12C62F0 Offset: 0x12C48F0 VA: 0x1812C62F0
 	|-Array.EmptyInternalEnumerator<TabbedPanel.Tab>.get_Current
 	|
-	|-RVA: 0x12C9750 Offset: 0x12C7D50 VA: 0x1812C9750
+	|-RVA: 0x12C9650 Offset: 0x12C7C50 VA: 0x1812C9650
 	|-Array.EmptyInternalEnumerator<Output.Entry>.get_Current
 	|
-	|-RVA: 0x12C6B70 Offset: 0x12C5170 VA: 0x1812C6B70
+	|-RVA: 0x12C6A70 Offset: 0x12C5070 VA: 0x1812C6A70
 	|-Array.EmptyInternalEnumerator<RCon.BannedAddresses>.get_Current
 	|
-	|-RVA: 0x12C7F50 Offset: 0x12C6550 VA: 0x1812C7F50
+	|-RVA: 0x12C7E50 Offset: 0x12C6450 VA: 0x1812C7E50
 	|-Array.EmptyInternalEnumerator<RCon.Command>.get_Current
 	|
-	|-RVA: 0x12C8FD0 Offset: 0x12C75D0 VA: 0x1812C8FD0
+	|-RVA: 0x12C8ED0 Offset: 0x12C74D0 VA: 0x1812C8ED0
 	|-Array.EmptyInternalEnumerator<SkeletonDefinition.Bone>.get_Current
 	|
-	|-RVA: 0x12C5FD0 Offset: 0x12C45D0 VA: 0x1812C5FD0
+	|-RVA: 0x12C5ED0 Offset: 0x12C44D0 VA: 0x1812C5ED0
 	|-Array.EmptyInternalEnumerator<Tick.Entry>.get_Current
 	|
-	|-RVA: 0x12C7B30 Offset: 0x12C6130 VA: 0x1812C7B30
+	|-RVA: 0x12C7A30 Offset: 0x12C6030 VA: 0x1812C7A30
 	|-Array.EmptyInternalEnumerator<RenderInfo.RendererInstance>.get_Current
 	|
-	|-RVA: 0x12C8490 Offset: 0x12C6A90 VA: 0x1812C8490
+	|-RVA: 0x12C8390 Offset: 0x12C6990 VA: 0x1812C8390
 	|-Array.EmptyInternalEnumerator<WeightedStringList.Container>.get_Current
 	|
-	|-RVA: 0x12C93F0 Offset: 0x12C79F0 VA: 0x1812C93F0
+	|-RVA: 0x12C92F0 Offset: 0x12C78F0 VA: 0x1812C92F0
 	|-Array.EmptyInternalEnumerator<FishingRodViewmodel.FishViewmodel>.get_Current
 	|
-	|-RVA: 0x12C8550 Offset: 0x12C6B50 VA: 0x1812C8550
+	|-RVA: 0x12C8450 Offset: 0x12C6A50 VA: 0x1812C8450
 	|-Array.EmptyInternalEnumerator<FloatConditions.Condition>.get_Current
 	|
-	|-RVA: 0x12C6C30 Offset: 0x12C5230 VA: 0x1812C6C30
+	|-RVA: 0x12C6B30 Offset: 0x12C5130 VA: 0x1812C6B30
 	|-Array.EmptyInternalEnumerator<FoliageGridMeshData.FoliageVertex>.get_Current
 	|
-	|-RVA: 0x12C9450 Offset: 0x12C7A50 VA: 0x1812C9450
+	|-RVA: 0x12C9350 Offset: 0x12C7950 VA: 0x1812C9350
 	|-Array.EmptyInternalEnumerator<FoliageKey>.get_Current
 	|
-	|-RVA: 0x12C5CD0 Offset: 0x12C42D0 VA: 0x1812C5CD0
+	|-RVA: 0x12C5BD0 Offset: 0x12C41D0 VA: 0x1812C5BD0
 	|-Array.EmptyInternalEnumerator<GameManifest.PooledString>.get_Current
 	|
-	|-RVA: 0x12C8190 Offset: 0x12C6790 VA: 0x1812C8190
+	|-RVA: 0x12C8090 Offset: 0x12C6690 VA: 0x1812C8090
 	|-Array.EmptyInternalEnumerator<Option>.get_Current
 	|
-	|-RVA: 0x12C8C70 Offset: 0x12C7270 VA: 0x1812C8C70
+	|-RVA: 0x12C8B70 Offset: 0x12C7170 VA: 0x1812C8B70
 	|-Array.EmptyInternalEnumerator<GameStat.Stat>.get_Current
 	|
-	|-RVA: 0x12C58B0 Offset: 0x12C3EB0 VA: 0x1812C58B0
+	|-RVA: 0x12C57B0 Offset: 0x12C3DB0 VA: 0x1812C57B0
 	|-Array.EmptyInternalEnumerator<GameTip.Theme>.get_Current
 	|
-	|-RVA: 0x12C5E50 Offset: 0x12C4450 VA: 0x1812C5E50
+	|-RVA: 0x12C5D50 Offset: 0x12C4350 VA: 0x1812C5D50
 	|-Array.EmptyInternalEnumerator<Gibbable.GibMesh>.get_Current
 	|
-	|-RVA: 0x12C6570 Offset: 0x12C4B70 VA: 0x1812C6570
+	|-RVA: 0x12C6470 Offset: 0x12C4A70 VA: 0x1812C6470
 	|-Array.EmptyInternalEnumerator<Gibbable.OverrideMesh>.get_Current
 	|
-	|-RVA: 0x12C7A70 Offset: 0x12C6070 VA: 0x1812C7A70
+	|-RVA: 0x12C7970 Offset: 0x12C5F70 VA: 0x1812C7970
 	|-Array.EmptyInternalEnumerator<GrowableGeneProperties.GeneWeight>.get_Current
 	|
-	|-RVA: 0x12C8730 Offset: 0x12C6D30 VA: 0x1812C8730
+	|-RVA: 0x12C8630 Offset: 0x12C6C30 VA: 0x1812C8630
 	|-Array.EmptyInternalEnumerator<HairSetCollection.HairSetEntry>.get_Current
 	|
-	|-RVA: 0x12C6F90 Offset: 0x12C5590 VA: 0x1812C6F90
+	|-RVA: 0x12C6E90 Offset: 0x12C5490 VA: 0x1812C6E90
 	|-Array.EmptyInternalEnumerator<IconSkinPicker.SkinButtonSetup>.get_Current
 	|
-	|-RVA: 0x12C5670 Offset: 0x12C3C70 VA: 0x1812C5670
+	|-RVA: 0x12C5570 Offset: 0x12C3B70 VA: 0x1812C5570
 	|-Array.EmptyInternalEnumerator<ImageStorageEntity.ImageRequest>.get_Current
 	|
-	|-RVA: 0x12C6A50 Offset: 0x12C5050 VA: 0x1812C6A50
+	|-RVA: 0x12C6950 Offset: 0x12C4F50 VA: 0x1812C6950
 	|-Array.EmptyInternalEnumerator<InstancingKey>.get_Current
 	|
-	|-RVA: 0x12C8D30 Offset: 0x12C7330 VA: 0x1812C8D30
+	|-RVA: 0x12C8C30 Offset: 0x12C7230 VA: 0x1812C8C30
 	|-Array.EmptyInternalEnumerator<InstrumentKeyController.NoteBinding>.get_Current
 	|
-	|-RVA: 0x12C5DF0 Offset: 0x12C43F0 VA: 0x1812C5DF0
+	|-RVA: 0x12C5CF0 Offset: 0x12C42F0 VA: 0x1812C5CF0
 	|-Array.EmptyInternalEnumerator<InvokeAction>.get_Current
 	|
-	|-RVA: 0x12C60F0 Offset: 0x12C46F0 VA: 0x1812C60F0
+	|-RVA: 0x12C5FF0 Offset: 0x12C45F0 VA: 0x1812C5FF0
 	|-Array.EmptyInternalEnumerator<ItemSkinDirectory.Skin>.get_Current
 	|
-	|-RVA: 0x12C73B0 Offset: 0x12C59B0 VA: 0x1812C73B0
+	|-RVA: 0x12C72B0 Offset: 0x12C58B0 VA: 0x1812C72B0
 	|-Array.EmptyInternalEnumerator<Kayak.PlayerAnimationState>.get_Current
 	|
-	|-RVA: 0x12C7830 Offset: 0x12C5E30 VA: 0x1812C7830
+	|-RVA: 0x12C7730 Offset: 0x12C5D30 VA: 0x1812C7730
 	|-Array.EmptyInternalEnumerator<KeyframeView.UIKeyframeValue>.get_Current
 	|
-	|-RVA: 0x12C5AF0 Offset: 0x12C40F0 VA: 0x1812C5AF0
+	|-RVA: 0x12C59F0 Offset: 0x12C3FF0 VA: 0x1812C59F0
 	|-Array.EmptyInternalEnumerator<LifeInfographic.DamageSetting>.get_Current
 	|
-	|-RVA: 0x12C6030 Offset: 0x12C4630 VA: 0x1812C6030
+	|-RVA: 0x12C5F30 Offset: 0x12C4530 VA: 0x1812C5F30
 	|-Array.EmptyInternalEnumerator<LocalClock.TimedEvent>.get_Current
 	|
-	|-RVA: 0x12C7FB0 Offset: 0x12C65B0 VA: 0x1812C7FB0
+	|-RVA: 0x12C7EB0 Offset: 0x12C64B0 VA: 0x1812C7EB0
 	|-Array.EmptyInternalEnumerator<LookAtIOEnt.HandleSet>.get_Current
 	|
-	|-RVA: 0x12C91B0 Offset: 0x12C77B0 VA: 0x1812C91B0
+	|-RVA: 0x12C90B0 Offset: 0x12C76B0 VA: 0x1812C90B0
 	|-Array.EmptyInternalEnumerator<LootContainer.LootSpawnSlot>.get_Current
 	|
-	|-RVA: 0x12C92D0 Offset: 0x12C78D0 VA: 0x1812C92D0
+	|-RVA: 0x12C91D0 Offset: 0x12C77D0 VA: 0x1812C91D0
 	|-Array.EmptyInternalEnumerator<LootSpawn.Entry>.get_Current
 	|
-	|-RVA: 0x12C7890 Offset: 0x12C5E90 VA: 0x1812C7890
+	|-RVA: 0x12C7790 Offset: 0x12C5D90 VA: 0x1812C7790
 	|-Array.EmptyInternalEnumerator<XPathNode>.get_Current
 	|
-	|-RVA: 0x12C9870 Offset: 0x12C7E70 VA: 0x1812C9870
+	|-RVA: 0x12C9770 Offset: 0x12C7D70 VA: 0x1812C9770
 	|-Array.EmptyInternalEnumerator<XPathNodeRef>.get_Current
 	|
-	|-RVA: 0x12C5C10 Offset: 0x12C4210 VA: 0x1812C5C10
+	|-RVA: 0x12C5B10 Offset: 0x12C4110 VA: 0x1812C5B10
 	|-Array.EmptyInternalEnumerator<MagnetCrane.MagnetCraneSnapshot>.get_Current
 	|
-	|-RVA: 0x12C5F10 Offset: 0x12C4510 VA: 0x1812C5F10
+	|-RVA: 0x12C5E10 Offset: 0x12C4410 VA: 0x1812C5E10
 	|-Array.EmptyInternalEnumerator<MapView.MapMarkerCluster>.get_Current
 	|
-	|-RVA: 0x12C8A90 Offset: 0x12C7090 VA: 0x1812C8A90
+	|-RVA: 0x12C8990 Offset: 0x12C6F90 VA: 0x1812C8990
 	|-Array.EmptyInternalEnumerator<MapView.SleepingBagCluster>.get_Current
 	|
-	|-RVA: 0x12C9570 Offset: 0x12C7B70 VA: 0x1812C9570
+	|-RVA: 0x12C9470 Offset: 0x12C7A70 VA: 0x1812C9470
 	|-Array.EmptyInternalEnumerator<MaterialPropertyDesc>.get_Current
 	|
-	|-RVA: 0x12C69F0 Offset: 0x12C4FF0 VA: 0x1812C69F0
+	|-RVA: 0x12C68F0 Offset: 0x12C4EF0 VA: 0x1812C68F0
 	|-Array.EmptyInternalEnumerator<FourBitNumber>.get_Current
 	|
-	|-RVA: 0x12C5610 Offset: 0x12C3C10 VA: 0x1812C5610
+	|-RVA: 0x12C5510 Offset: 0x12C3B10 VA: 0x1812C5510
 	|-Array.EmptyInternalEnumerator<SevenBitNumber>.get_Current
 	|
-	|-RVA: 0x12C6270 Offset: 0x12C4870 VA: 0x1812C6270
+	|-RVA: 0x12C6170 Offset: 0x12C4770 VA: 0x1812C6170
 	|-Array.EmptyInternalEnumerator<MeshColliderInstance>.get_Current
 	|
-	|-RVA: 0x12C7470 Offset: 0x12C5A70 VA: 0x1812C7470
+	|-RVA: 0x12C7370 Offset: 0x12C5970 VA: 0x1812C7370
 	|-Array.EmptyInternalEnumerator<MeshColliderLookup.LookupEntry>.get_Current
 	|
-	|-RVA: 0x12C7D70 Offset: 0x12C6370 VA: 0x1812C7D70
+	|-RVA: 0x12C7C70 Offset: 0x12C6270 VA: 0x1812C7C70
 	|-Array.EmptyInternalEnumerator<MeshInstance>.get_Current
 	|
-	|-RVA: 0x12C89D0 Offset: 0x12C6FD0 VA: 0x1812C89D0
+	|-RVA: 0x12C88D0 Offset: 0x12C6ED0 VA: 0x1812C88D0
 	|-Array.EmptyInternalEnumerator<MeshRendererInstance>.get_Current
 	|
-	|-RVA: 0x12C8D90 Offset: 0x12C7390 VA: 0x1812C8D90
+	|-RVA: 0x12C8C90 Offset: 0x12C7290 VA: 0x1812C8C90
 	|-Array.EmptyInternalEnumerator<MeshRendererLookup.LookupEntry>.get_Current
 	|
-	|-RVA: 0x12C64B0 Offset: 0x12C4AB0 VA: 0x1812C64B0
+	|-RVA: 0x12C63B0 Offset: 0x12C49B0 VA: 0x1812C63B0
 	|-Array.EmptyInternalEnumerator<MidiConvar.KnobBinding>.get_Current
 	|
-	|-RVA: 0x12C9090 Offset: 0x12C7690 VA: 0x1812C9090
+	|-RVA: 0x12C8F90 Offset: 0x12C7590 VA: 0x1812C8F90
 	|-Array.EmptyInternalEnumerator<MidiConvar.NoteBinding>.get_Current
 	|
-	|-RVA: 0x12C8B50 Offset: 0x12C7150 VA: 0x1812C8B50
+	|-RVA: 0x12C8A50 Offset: 0x12C7050 VA: 0x1812C8A50
 	|-Array.EmptyInternalEnumerator<SQLiteTypeNames>.get_Current
 	|
-	|-RVA: 0x12C6E70 Offset: 0x12C5470 VA: 0x1812C6E70
+	|-RVA: 0x12C6D70 Offset: 0x12C5370 VA: 0x1812C6D70
 	|-Array.EmptyInternalEnumerator<SqliteKeyReader.KeyInfo>.get_Current
 	|
-	|-RVA: 0x12C59D0 Offset: 0x12C3FD0 VA: 0x1812C59D0
+	|-RVA: 0x12C58D0 Offset: 0x12C3ED0 VA: 0x1812C58D0
 	|-Array.EmptyInternalEnumerator<CodePointIndexer.TableRange>.get_Current
 	|
-	|-RVA: 0x12C6D50 Offset: 0x12C5350 VA: 0x1812C6D50
+	|-RVA: 0x12C6C50 Offset: 0x12C5250 VA: 0x1812C6C50
 	|-Array.EmptyInternalEnumerator<Uri.UriScheme>.get_Current
 	|
-	|-RVA: 0x12C7CB0 Offset: 0x12C62B0 VA: 0x1812C7CB0
+	|-RVA: 0x12C7BB0 Offset: 0x12C61B0 VA: 0x1812C7BB0
 	|-Array.EmptyInternalEnumerator<NVidiaReflex.NvReflex_FrameReport>.get_Current
 	|
-	|-RVA: 0x12C68D0 Offset: 0x12C4ED0 VA: 0x1812C68D0
+	|-RVA: 0x12C67D0 Offset: 0x12C4DD0 VA: 0x1812C67D0
 	|-Array.EmptyInternalEnumerator<TimeAverageValueData>.get_Current
 	|
-	|-RVA: 0x12C6FF0 Offset: 0x12C55F0 VA: 0x1812C6FF0
+	|-RVA: 0x12C6EF0 Offset: 0x12C54F0 VA: 0x1812C6EF0
 	|-Array.EmptyInternalEnumerator<JsonPosition>.get_Current
 	|
-	|-RVA: 0x12C50D0 Offset: 0x12C36D0 VA: 0x1812C50D0
+	|-RVA: 0x12C4FD0 Offset: 0x12C35D0 VA: 0x1812C4FD0
 	|-Array.EmptyInternalEnumerator<DefaultSerializationBinder.TypeNameKey>.get_Current
 	|
-	|-RVA: 0x12C6810 Offset: 0x12C4E10 VA: 0x1812C6810
+	|-RVA: 0x12C6710 Offset: 0x12C4D10 VA: 0x1812C6710
 	|-Array.EmptyInternalEnumerator<ResolverContractKey>.get_Current
 	|
-	|-RVA: 0x12C70B0 Offset: 0x12C56B0 VA: 0x1812C70B0
+	|-RVA: 0x12C6FB0 Offset: 0x12C55B0 VA: 0x1812C6FB0
 	|-Array.EmptyInternalEnumerator<ConvertUtils.TypeConvertKey>.get_Current
 	|
-	|-RVA: 0x12C4FB0 Offset: 0x12C35B0 VA: 0x1812C4FB0
+	|-RVA: 0x12C4EB0 Offset: 0x12C34B0 VA: 0x1812C4EB0
 	|-Array.EmptyInternalEnumerator<NoteBindingCollection.NoteData>.get_Current
 	|
-	|-RVA: 0x12C7E90 Offset: 0x12C6490 VA: 0x1812C7E90
+	|-RVA: 0x12C7D90 Offset: 0x12C6390 VA: 0x1812C7D90
 	|-Array.EmptyInternalEnumerator<OccludeeState.State>.get_Current
 	|
-	|-RVA: 0x12C9030 Offset: 0x12C7630 VA: 0x1812C9030
+	|-RVA: 0x12C8F30 Offset: 0x12C7530 VA: 0x1812C8F30
 	|-Array.EmptyInternalEnumerator<ParticleSystemContainer.ParticleSystemGroup>.get_Current
 	|
-	|-RVA: 0x12C5490 Offset: 0x12C3A90 VA: 0x1812C5490
+	|-RVA: 0x12C5390 Offset: 0x12C3990 VA: 0x1812C5390
 	|-Array.EmptyInternalEnumerator<PathFinder.Point>.get_Current
 	|
-	|-RVA: 0x12C6510 Offset: 0x12C4B10 VA: 0x1812C6510
+	|-RVA: 0x12C6410 Offset: 0x12C4A10 VA: 0x1812C6410
 	|-Array.EmptyInternalEnumerator<PetCommandList.PetCommandDesc>.get_Current
 	|
-	|-RVA: 0x12C8910 Offset: 0x12C6F10 VA: 0x1812C8910
+	|-RVA: 0x12C8810 Offset: 0x12C6E10 VA: 0x1812C8810
 	|-Array.EmptyInternalEnumerator<PlaceMonuments.SpawnInfo>.get_Current
 	|
-	|-RVA: 0x12C79B0 Offset: 0x12C5FB0 VA: 0x1812C79B0
+	|-RVA: 0x12C78B0 Offset: 0x12C5EB0 VA: 0x1812C78B0
 	|-Array.EmptyInternalEnumerator<PlaceMonumentsOffshore.SpawnInfo>.get_Current
 	|
-	|-RVA: 0x12C5970 Offset: 0x12C3F70 VA: 0x1812C5970
+	|-RVA: 0x12C5870 Offset: 0x12C3E70 VA: 0x1812C5870
 	|-Array.EmptyInternalEnumerator<PlaceMonumentsRailside.SpawnInfo>.get_Current
 	|
-	|-RVA: 0x12C86D0 Offset: 0x12C6CD0 VA: 0x1812C86D0
+	|-RVA: 0x12C85D0 Offset: 0x12C6BD0 VA: 0x1812C85D0
 	|-Array.EmptyInternalEnumerator<PlaceMonumentsRoadside.SpawnInfo>.get_Current
 	|
-	|-RVA: 0x12C95D0 Offset: 0x12C7BD0 VA: 0x1812C95D0
+	|-RVA: 0x12C94D0 Offset: 0x12C7AD0 VA: 0x1812C94D0
 	|-Array.EmptyInternalEnumerator<PlantProperties.Stage>.get_Current
 	|
-	|-RVA: 0x12C7DD0 Offset: 0x12C63D0 VA: 0x1812C7DD0
+	|-RVA: 0x12C7CD0 Offset: 0x12C62D0 VA: 0x1812C7CD0
 	|-Array.EmptyInternalEnumerator<PlayerItemRecipe.Ingredient>.get_Current
 	|
-	|-RVA: 0x12C5A30 Offset: 0x12C4030 VA: 0x1812C5A30
+	|-RVA: 0x12C5930 Offset: 0x12C3F30 VA: 0x1812C5930
 	|-Array.EmptyInternalEnumerator<PlayerItemRecipe>.get_Current
 	|
-	|-RVA: 0x12C7290 Offset: 0x12C5890 VA: 0x1812C7290
+	|-RVA: 0x12C7190 Offset: 0x12C5790 VA: 0x1812C7190
 	|-Array.EmptyInternalEnumerator<PlayerModelCinematicList.PlayerModelCinematicAnimation>.get_Current
 	|
-	|-RVA: 0x12C5190 Offset: 0x12C3790 VA: 0x1812C5190
+	|-RVA: 0x12C5090 Offset: 0x12C3690 VA: 0x1812C5090
 	|-Array.EmptyInternalEnumerator<PlayerModelHair.RendererMaterials>.get_Current
 	|
-	|-RVA: 0x12C52B0 Offset: 0x12C38B0 VA: 0x1812C52B0
+	|-RVA: 0x12C51B0 Offset: 0x12C37B0 VA: 0x1812C51B0
 	|-Array.EmptyInternalEnumerator<ProjectileWeaponMod.Modifier>.get_Current
 	|
-	|-RVA: 0x12C8BB0 Offset: 0x12C71B0 VA: 0x1812C8BB0
+	|-RVA: 0x12C8AB0 Offset: 0x12C70B0 VA: 0x1812C8AB0
 	|-Array.EmptyInternalEnumerator<DemoShotFloatKeyframe>.get_Current
 	|
-	|-RVA: 0x12C8250 Offset: 0x12C6850 VA: 0x1812C8250
+	|-RVA: 0x12C8150 Offset: 0x12C6750 VA: 0x1812C8150
 	|-Array.EmptyInternalEnumerator<DemoShotParentKeyframe>.get_Current
 	|
-	|-RVA: 0x12C5EB0 Offset: 0x12C44B0 VA: 0x1812C5EB0
+	|-RVA: 0x12C5DB0 Offset: 0x12C43B0 VA: 0x1812C5DB0
 	|-Array.EmptyInternalEnumerator<DemoShotQuaternionKeyframe>.get_Current
 	|
-	|-RVA: 0x12C6CF0 Offset: 0x12C52F0 VA: 0x1812C6CF0
+	|-RVA: 0x12C6BF0 Offset: 0x12C51F0 VA: 0x1812C6BF0
 	|-Array.EmptyInternalEnumerator<DemoShotVectorKeyframe>.get_Current
 	|
-	|-RVA: 0x12C8F70 Offset: 0x12C7570 VA: 0x1812C8F70
+	|-RVA: 0x12C8E70 Offset: 0x12C7470 VA: 0x1812C8E70
 	|-Array.EmptyInternalEnumerator<VectorData>.get_Current
 	|
-	|-RVA: 0x12C6690 Offset: 0x12C4C90 VA: 0x1812C6690
+	|-RVA: 0x12C6590 Offset: 0x12C4B90 VA: 0x1812C6590
 	|-Array.EmptyInternalEnumerator<RandomItemDispenser.RandomItemChance>.get_Current
 	|
-	|-RVA: 0x12C7710 Offset: 0x12C5D10 VA: 0x1812C7710
+	|-RVA: 0x12C7610 Offset: 0x12C5C10 VA: 0x1812C7610
 	|-Array.EmptyInternalEnumerator<RealTimeSince>.get_Current
 	|
-	|-RVA: 0x12C7C50 Offset: 0x12C6250 VA: 0x1812C7C50
+	|-RVA: 0x12C7B50 Offset: 0x12C6150 VA: 0x1812C7B50
 	|-Array.EmptyInternalEnumerator<Recipe.RecipeIngredient>.get_Current
 	|
-	|-RVA: 0x12C74D0 Offset: 0x12C5AD0 VA: 0x1812C74D0
+	|-RVA: 0x12C73D0 Offset: 0x12C59D0 VA: 0x1812C73D0
 	|-Array.EmptyInternalEnumerator<ReflectionProbeEx.CubemapFaceMatrices>.get_Current
 	|
-	|-RVA: 0x12C5A90 Offset: 0x12C4090 VA: 0x1812C5A90
+	|-RVA: 0x12C5990 Offset: 0x12C3F90 VA: 0x1812C5990
 	|-Array.EmptyInternalEnumerator<ReflectionProbeEx.CubemapSkyboxVertex>.get_Current
 	|
-	|-RVA: 0x12C5BB0 Offset: 0x12C41B0 VA: 0x1812C5BB0
+	|-RVA: 0x12C5AB0 Offset: 0x12C40B0 VA: 0x1812C5AB0
 	|-Array.EmptyInternalEnumerator<ReflectionProbeEx.RenderListEntry>.get_Current
 	|
-	|-RVA: 0x12C7410 Offset: 0x12C5A10 VA: 0x1812C7410
+	|-RVA: 0x12C7310 Offset: 0x12C5910 VA: 0x1812C7310
 	|-Array.EmptyInternalEnumerator<RendererKey>.get_Current
 	|
-	|-RVA: 0x12C8670 Offset: 0x12C6C70 VA: 0x1812C8670
+	|-RVA: 0x12C8570 Offset: 0x12C6B70 VA: 0x1812C8570
 	|-Array.EmptyInternalEnumerator<WaypointSet.Waypoint>.get_Current
 	|
-	|-RVA: 0x12C5070 Offset: 0x12C3670 VA: 0x1812C5070
+	|-RVA: 0x12C4F70 Offset: 0x12C3570 VA: 0x1812C4F70
 	|-Array.EmptyInternalEnumerator<TransformSnapshot>.get_Current
 	|
-	|-RVA: 0x12C7BF0 Offset: 0x12C61F0 VA: 0x1812C7BF0
+	|-RVA: 0x12C7AF0 Offset: 0x12C60F0 VA: 0x1812C7AF0
 	|-Array.EmptyInternalEnumerator<TimelineEvent>.get_Current
 	|
-	|-RVA: 0x12C7B90 Offset: 0x12C6190 VA: 0x1812C7B90
+	|-RVA: 0x12C7A90 Offset: 0x12C6090 VA: 0x1812C7A90
 	|-Array.EmptyInternalEnumerator<Option>.get_Current
 	|
-	|-RVA: 0x12C8AF0 Offset: 0x12C70F0 VA: 0x1812C8AF0
+	|-RVA: 0x12C89F0 Offset: 0x12C6FF0 VA: 0x1812C89F0
 	|-Array.EmptyInternalEnumerator<TickRenderer.Tick>.get_Current
 	|
-	|-RVA: 0x12C7170 Offset: 0x12C5770 VA: 0x1812C7170
+	|-RVA: 0x12C7070 Offset: 0x12C5670 VA: 0x1812C7070
 	|-Array.EmptyInternalEnumerator<ServerBrowserList.Rules>.get_Current
 	|
-	|-RVA: 0x12C6930 Offset: 0x12C4F30 VA: 0x1812C6930
+	|-RVA: 0x12C6830 Offset: 0x12C4E30 VA: 0x1812C6830
 	|-Array.EmptyInternalEnumerator<ServerBrowserList.ServerKeyvalues>.get_Current
 	|
-	|-RVA: 0x12C5850 Offset: 0x12C3E50 VA: 0x1812C5850
+	|-RVA: 0x12C5750 Offset: 0x12C3D50 VA: 0x1812C5750
 	|-Array.EmptyInternalEnumerator<ServerInfo>.get_Current
 	|
-	|-RVA: 0x12C5D30 Offset: 0x12C4330 VA: 0x1812C5D30
+	|-RVA: 0x12C5C30 Offset: 0x12C4230 VA: 0x1812C5C30
 	|-Array.EmptyInternalEnumerator<SkinnedMultiMesh.Part>.get_Current
 	|
-	|-RVA: 0x12C7530 Offset: 0x12C5B30 VA: 0x1812C7530
+	|-RVA: 0x12C7430 Offset: 0x12C5A30 VA: 0x1812C7430
 	|-Array.EmptyInternalEnumerator<SlotMachinePayoutSettings.IndividualPayouts>.get_Current
 	|
-	|-RVA: 0x12C5310 Offset: 0x12C3910 VA: 0x1812C5310
+	|-RVA: 0x12C5210 Offset: 0x12C3810 VA: 0x1812C5210
 	|-Array.EmptyInternalEnumerator<SlotMachinePayoutSettings.PayoutInfo>.get_Current
 	|
-	|-RVA: 0x12C6C90 Offset: 0x12C5290 VA: 0x1812C6C90
+	|-RVA: 0x12C6B90 Offset: 0x12C5190 VA: 0x1812C6B90
 	|-Array.EmptyInternalEnumerator<SubmarineSonar.SonarBlip>.get_Current
 	|
-	|-RVA: 0x12C55B0 Offset: 0x12C3BB0 VA: 0x1812C55B0
+	|-RVA: 0x12C54B0 Offset: 0x12C3AB0 VA: 0x1812C54B0
 	|-Array.EmptyInternalEnumerator<SpawnIndividual>.get_Current
 	|
-	|-RVA: 0x12C61B0 Offset: 0x12C47B0 VA: 0x1812C61B0
+	|-RVA: 0x12C60B0 Offset: 0x12C46B0 VA: 0x1812C60B0
 	|-Array.EmptyInternalEnumerator<SpecialPurposeCamera.RenderEntry>.get_Current
 	|
-	|-RVA: 0x12C6750 Offset: 0x12C4D50 VA: 0x1812C6750
+	|-RVA: 0x12C6650 Offset: 0x12C4C50 VA: 0x1812C6650
 	|-Array.EmptyInternalEnumerator<SteamNewsSource.Story>.get_Current
 	|
-	|-RVA: 0x12C53D0 Offset: 0x12C39D0 VA: 0x1812C53D0
+	|-RVA: 0x12C52D0 Offset: 0x12C38D0 VA: 0x1812C52D0
 	|-Array.EmptyInternalEnumerator<AppId>.get_Current
 	|
-	|-RVA: 0x12C8130 Offset: 0x12C6730 VA: 0x1812C8130
+	|-RVA: 0x12C8030 Offset: 0x12C6630 VA: 0x1812C8030
 	|-Array.EmptyInternalEnumerator<Achievement>.get_Current
 	|
-	|-RVA: 0x12C94B0 Offset: 0x12C7AB0 VA: 0x1812C94B0
+	|-RVA: 0x12C93B0 Offset: 0x12C79B0 VA: 0x1812C93B0
 	|-Array.EmptyInternalEnumerator<Connection>.get_Current
 	|
-	|-RVA: 0x12C5430 Offset: 0x12C3A30 VA: 0x1812C5430
+	|-RVA: 0x12C5330 Offset: 0x12C3930 VA: 0x1812C5330
 	|-Array.EmptyInternalEnumerator<ConnectionLaneStatus>.get_Current
 	|
-	|-RVA: 0x12C7590 Offset: 0x12C5B90 VA: 0x1812C7590
+	|-RVA: 0x12C7490 Offset: 0x12C5A90 VA: 0x1812C7490
 	|-Array.EmptyInternalEnumerator<InputActionSetHandle_t>.get_Current
 	|
-	|-RVA: 0x12C8310 Offset: 0x12C6910 VA: 0x1812C8310
+	|-RVA: 0x12C8210 Offset: 0x12C6810 VA: 0x1812C8210
 	|-Array.EmptyInternalEnumerator<InputAnalogActionHandle_t>.get_Current
 	|
-	|-RVA: 0x12C82B0 Offset: 0x12C68B0 VA: 0x1812C82B0
+	|-RVA: 0x12C81B0 Offset: 0x12C67B0 VA: 0x1812C81B0
 	|-Array.EmptyInternalEnumerator<InputDigitalActionHandle_t>.get_Current
 	|
-	|-RVA: 0x12C75F0 Offset: 0x12C5BF0 VA: 0x1812C75F0
+	|-RVA: 0x12C74F0 Offset: 0x12C5AF0 VA: 0x1812C74F0
 	|-Array.EmptyInternalEnumerator<InputHandle_t>.get_Current
 	|
-	|-RVA: 0x12C8370 Offset: 0x12C6970 VA: 0x1812C8370
+	|-RVA: 0x12C8270 Offset: 0x12C6870 VA: 0x1812C8270
 	|-Array.EmptyInternalEnumerator<InventoryDefId>.get_Current
 	|
-	|-RVA: 0x12C9510 Offset: 0x12C7B10 VA: 0x1812C9510
+	|-RVA: 0x12C9410 Offset: 0x12C7A10 VA: 0x1812C9410
 	|-Array.EmptyInternalEnumerator<InventoryItemId>.get_Current
 	|
-	|-RVA: 0x12C6ED0 Offset: 0x12C54D0 VA: 0x1812C6ED0
+	|-RVA: 0x12C6DD0 Offset: 0x12C53D0 VA: 0x1812C6DD0
 	|-Array.EmptyInternalEnumerator<MatchMakingKeyValuePair>.get_Current
 	|
-	|-RVA: 0x12C9630 Offset: 0x12C7C30 VA: 0x1812C9630
+	|-RVA: 0x12C9530 Offset: 0x12C7B30 VA: 0x1812C9530
 	|-Array.EmptyInternalEnumerator<NetKeyValue>.get_Current
 	|
-	|-RVA: 0x12C87F0 Offset: 0x12C6DF0 VA: 0x1812C87F0
+	|-RVA: 0x12C86F0 Offset: 0x12C6CF0 VA: 0x1812C86F0
 	|-Array.EmptyInternalEnumerator<PublishedFileId>.get_Current
 	|
-	|-RVA: 0x12C66F0 Offset: 0x12C4CF0 VA: 0x1812C66F0
+	|-RVA: 0x12C65F0 Offset: 0x12C4BF0 VA: 0x1812C65F0
 	|-Array.EmptyInternalEnumerator<ServerInfo>.get_Current
 	|
-	|-RVA: 0x12C6F30 Offset: 0x12C5530 VA: 0x1812C6F30
+	|-RVA: 0x12C6E30 Offset: 0x12C5430 VA: 0x1812C6E30
 	|-Array.EmptyInternalEnumerator<SteamItemDetails_t>.get_Current
 	|
-	|-RVA: 0x12C7AD0 Offset: 0x12C60D0 VA: 0x1812C7AD0
+	|-RVA: 0x12C79D0 Offset: 0x12C5FD0 VA: 0x1812C79D0
 	|-Array.EmptyInternalEnumerator<UgcAdditionalPreview>.get_Current
 	|
-	|-RVA: 0x12C8790 Offset: 0x12C6D90 VA: 0x1812C8790
+	|-RVA: 0x12C8690 Offset: 0x12C6C90 VA: 0x1812C8690
 	|-Array.EmptyInternalEnumerator<Dispatch.Callback>.get_Current
 	|
-	|-RVA: 0x12C76B0 Offset: 0x12C5CB0 VA: 0x1812C76B0
+	|-RVA: 0x12C75B0 Offset: 0x12C5BB0 VA: 0x1812C75B0
 	|-Array.EmptyInternalEnumerator<Dispatch.ResultCallback>.get_Current
 	|
-	|-RVA: 0x12C84F0 Offset: 0x12C6AF0 VA: 0x1812C84F0
+	|-RVA: 0x12C83F0 Offset: 0x12C69F0 VA: 0x1812C83F0
 	|-Array.EmptyInternalEnumerator<Friend>.get_Current
 	|
-	|-RVA: 0x12C81F0 Offset: 0x12C67F0 VA: 0x1812C81F0
+	|-RVA: 0x12C80F0 Offset: 0x12C66F0 VA: 0x1812C80F0
 	|-Array.EmptyInternalEnumerator<InventoryItem.Amount>.get_Current
 	|
-	|-RVA: 0x12C7110 Offset: 0x12C5710 VA: 0x1812C7110
+	|-RVA: 0x12C7010 Offset: 0x12C5610 VA: 0x1812C7010
 	|-Array.EmptyInternalEnumerator<InventoryItem>.get_Current
 	|
-	|-RVA: 0x12C7230 Offset: 0x12C5830 VA: 0x1812C7230
+	|-RVA: 0x12C7130 Offset: 0x12C5730 VA: 0x1812C7130
 	|-Array.EmptyInternalEnumerator<InventoryRecipe.Ingredient>.get_Current
 	|
-	|-RVA: 0x12C57F0 Offset: 0x12C3DF0 VA: 0x1812C57F0
+	|-RVA: 0x12C56F0 Offset: 0x12C3CF0 VA: 0x1812C56F0
 	|-Array.EmptyInternalEnumerator<InventoryRecipe>.get_Current
 	|
-	|-RVA: 0x12C9690 Offset: 0x12C7C90 VA: 0x1812C9690
+	|-RVA: 0x12C9590 Offset: 0x12C7B90 VA: 0x1812C9590
 	|-Array.EmptyInternalEnumerator<SteamNetworkingUtils.DebugMessage>.get_Current
 	|
-	|-RVA: 0x12C5C70 Offset: 0x12C4270 VA: 0x1812C5C70
+	|-RVA: 0x12C5B70 Offset: 0x12C4170 VA: 0x1812C5B70
 	|-Array.EmptyInternalEnumerator<Item>.get_Current
 	|
-	|-RVA: 0x12C6150 Offset: 0x12C4750 VA: 0x1812C6150
+	|-RVA: 0x12C6050 Offset: 0x12C4650 VA: 0x1812C6050
 	|-Array.EmptyInternalEnumerator<StringFormatCache.Key1>.get_Current
 	|
-	|-RVA: 0x12C80D0 Offset: 0x12C66D0 VA: 0x1812C80D0
+	|-RVA: 0x12C7FD0 Offset: 0x12C65D0 VA: 0x1812C7FD0
 	|-Array.EmptyInternalEnumerator<StringFormatCache.Key2>.get_Current
 	|
-	|-RVA: 0x12C8A30 Offset: 0x12C7030 VA: 0x1812C8A30
+	|-RVA: 0x12C8930 Offset: 0x12C6F30 VA: 0x1812C8930
 	|-Array.EmptyInternalEnumerator<StringFormatCache.Key3>.get_Current
 	|
-	|-RVA: 0x12C7770 Offset: 0x12C5D70 VA: 0x1812C7770
+	|-RVA: 0x12C7670 Offset: 0x12C5C70 VA: 0x1812C7670
 	|-Array.EmptyInternalEnumerator<StringFormatCache.Key4>.get_Current
 	|
-	|-RVA: 0x12C5910 Offset: 0x12C3F10 VA: 0x1812C5910
+	|-RVA: 0x12C5810 Offset: 0x12C3E10 VA: 0x1812C5810
 	|-Array.EmptyInternalEnumerator<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.get_Current
 	|
-	|-RVA: 0x12C5370 Offset: 0x12C3970 VA: 0x1812C5370
+	|-RVA: 0x12C5270 Offset: 0x12C3870 VA: 0x1812C5270
 	|-Array.EmptyInternalEnumerator<SynchronizedClock.TimedEvent>.get_Current
 	|
-	|-RVA: 0x12C6390 Offset: 0x12C4990 VA: 0x1812C6390
+	|-RVA: 0x12C6290 Offset: 0x12C4890 VA: 0x1812C6290
 	|-Array.EmptyInternalEnumerator<ArraySegment<byte>>.get_Current
 	|
-	|-RVA: 0x12C8430 Offset: 0x12C6A30 VA: 0x1812C8430
+	|-RVA: 0x12C8330 Offset: 0x12C6930 VA: 0x1812C8330
 	|-Array.EmptyInternalEnumerator<ArraySegment<object>>.get_Current
 	|
-	|-RVA: 0x12C6330 Offset: 0x12C4930 VA: 0x1812C6330
+	|-RVA: 0x12C6230 Offset: 0x12C4830 VA: 0x1812C6230
 	|-Array.EmptyInternalEnumerator<bool>.get_Current
 	|
-	|-RVA: 0x12C62D0 Offset: 0x12C48D0 VA: 0x1812C62D0
+	|-RVA: 0x12C61D0 Offset: 0x12C47D0 VA: 0x1812C61D0
 	|-Array.EmptyInternalEnumerator<byte>.get_Current
 	|
-	|-RVA: 0x12C4F50 Offset: 0x12C3550 VA: 0x1812C4F50
+	|-RVA: 0x12C4E50 Offset: 0x12C3450 VA: 0x1812C4E50
 	|-Array.EmptyInternalEnumerator<ByteEnum>.get_Current
 	|
-	|-RVA: 0x12C7350 Offset: 0x12C5950 VA: 0x1812C7350
+	|-RVA: 0x12C7250 Offset: 0x12C5850 VA: 0x1812C7250
 	|-Array.EmptyInternalEnumerator<char>.get_Current
 	|
-	|-RVA: 0x12C8DF0 Offset: 0x12C73F0 VA: 0x1812C8DF0
+	|-RVA: 0x12C8CF0 Offset: 0x12C72F0 VA: 0x1812C8CF0
 	|-Array.EmptyInternalEnumerator<ConcurrentQueue.Segment.Slot<SteamNetworkingUtils.DebugMessage>>.get_Current
 	|
-	|-RVA: 0x12C5F70 Offset: 0x12C4570 VA: 0x1812C5F70
+	|-RVA: 0x12C5E70 Offset: 0x12C4470 VA: 0x1812C5E70
 	|-Array.EmptyInternalEnumerator<ConcurrentQueue.Segment.Slot<object>>.get_Current
 	|
-	|-RVA: 0x12C77D0 Offset: 0x12C5DD0 VA: 0x1812C77D0
+	|-RVA: 0x12C76D0 Offset: 0x12C5CD0 VA: 0x1812C76D0
 	|-Array.EmptyInternalEnumerator<DictionaryEntry>.get_Current
 	|
-	|-RVA: 0x12C8070 Offset: 0x12C6670 VA: 0x1812C8070
+	|-RVA: 0x12C7F70 Offset: 0x12C6570 VA: 0x1812C7F70
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<FoliageKey, int>>.get_Current
 	|
-	|-RVA: 0x12C85B0 Offset: 0x12C6BB0 VA: 0x1812C85B0
+	|-RVA: 0x12C84B0 Offset: 0x12C6AB0 VA: 0x1812C84B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<InstancingKey, int>>.get_Current
 	|
-	|-RVA: 0x12C6E10 Offset: 0x12C5410 VA: 0x1812C6E10
+	|-RVA: 0x12C6D10 Offset: 0x12C5310 VA: 0x1812C6D10
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<InvokeAction, int>>.get_Current
 	|
-	|-RVA: 0x12C8EB0 Offset: 0x12C74B0 VA: 0x1812C8EB0
+	|-RVA: 0x12C8DB0 Offset: 0x12C73B0 VA: 0x1812C8DB0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<XPathNodeRef, XPathNodeRef>>.get_Current
 	|
-	|-RVA: 0x12C6DB0 Offset: 0x12C53B0 VA: 0x1812C6DB0
+	|-RVA: 0x12C6CB0 Offset: 0x12C52B0 VA: 0x1812C6CB0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<DefaultSerializationBinder.TypeNameKey, object>>.get_Current
 	|
-	|-RVA: 0x12C7D10 Offset: 0x12C6310 VA: 0x1812C7D10
+	|-RVA: 0x12C7C10 Offset: 0x12C6210 VA: 0x1812C7C10
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ResolverContractKey, object>>.get_Current
 	|
-	|-RVA: 0x12C6210 Offset: 0x12C4810 VA: 0x1812C6210
+	|-RVA: 0x12C6110 Offset: 0x12C4710 VA: 0x1812C6110
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ConvertUtils.TypeConvertKey, object>>.get_Current
 	|
-	|-RVA: 0x12C5130 Offset: 0x12C3730 VA: 0x1812C5130
+	|-RVA: 0x12C5030 Offset: 0x12C3630 VA: 0x1812C5030
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<RendererKey, int>>.get_Current
 	|
-	|-RVA: 0x12C9330 Offset: 0x12C7930 VA: 0x1812C9330
+	|-RVA: 0x12C9230 Offset: 0x12C7830 VA: 0x1812C9230
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<SpecialPurposeCamera.RenderEntry, int>>.get_Current
 	|
-	|-RVA: 0x12C51F0 Offset: 0x12C37F0 VA: 0x1812C51F0
+	|-RVA: 0x12C50F0 Offset: 0x12C36F0 VA: 0x1812C50F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<InventoryDefId, uint>>.get_Current
 	|
-	|-RVA: 0x12C6870 Offset: 0x12C4E70 VA: 0x1812C6870
+	|-RVA: 0x12C6770 Offset: 0x12C4D70 VA: 0x1812C6770
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<StringFormatCache.Key1, object>>.get_Current
 	|
-	|-RVA: 0x12C90F0 Offset: 0x12C76F0 VA: 0x1812C90F0
+	|-RVA: 0x12C8FF0 Offset: 0x12C75F0 VA: 0x1812C8FF0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<StringFormatCache.Key2, object>>.get_Current
 	|
-	|-RVA: 0x12C5550 Offset: 0x12C3B50 VA: 0x1812C5550
+	|-RVA: 0x12C5450 Offset: 0x12C3A50 VA: 0x1812C5450
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<StringFormatCache.Key3, object>>.get_Current
 	|
-	|-RVA: 0x12C72F0 Offset: 0x12C58F0 VA: 0x1812C72F0
+	|-RVA: 0x12C71F0 Offset: 0x12C57F0 VA: 0x1812C71F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<StringFormatCache.Key4, object>>.get_Current
 	|
-	|-RVA: 0x12C78F0 Offset: 0x12C5EF0 VA: 0x1812C78F0
+	|-RVA: 0x12C77F0 Offset: 0x12C5DF0 VA: 0x1812C77F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<bool, bool>>.get_Current
 	|
-	|-RVA: 0x12C65D0 Offset: 0x12C4BD0 VA: 0x1812C65D0
+	|-RVA: 0x12C64D0 Offset: 0x12C4AD0 VA: 0x1812C64D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<bool, Decimal>>.get_Current
 	|
-	|-RVA: 0x1724FB0 Offset: 0x17235B0 VA: 0x181724FB0
+	|-RVA: 0x1724EB0 Offset: 0x17234B0 VA: 0x181724EB0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<bool, double>>.get_Current
 	|
-	|-RVA: 0x17252B0 Offset: 0x17238B0 VA: 0x1817252B0
+	|-RVA: 0x17251B0 Offset: 0x17237B0 VA: 0x1817251B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<bool, short>>.get_Current
 	|
-	|-RVA: 0x1722DF0 Offset: 0x17213F0 VA: 0x181722DF0
+	|-RVA: 0x1722CF0 Offset: 0x17212F0 VA: 0x181722CF0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<bool, int>>.get_Current
 	|
-	|-RVA: 0x1723870 Offset: 0x1721E70 VA: 0x181723870
+	|-RVA: 0x1723770 Offset: 0x1721D70 VA: 0x181723770
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<bool, long>>.get_Current
 	|
-	|-RVA: 0x1724170 Offset: 0x1722770 VA: 0x181724170
+	|-RVA: 0x1724070 Offset: 0x1722670 VA: 0x181724070
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<bool, object>>.get_Current
 	|
-	|-RVA: 0x1724830 Offset: 0x1722E30 VA: 0x181724830
+	|-RVA: 0x1724730 Offset: 0x1722D30 VA: 0x181724730
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<bool, float>>.get_Current
 	|
-	|-RVA: 0x17243B0 Offset: 0x17229B0 VA: 0x1817243B0
+	|-RVA: 0x17242B0 Offset: 0x17228B0 VA: 0x1817242B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<bool, ushort>>.get_Current
 	|
-	|-RVA: 0x1723AB0 Offset: 0x17220B0 VA: 0x181723AB0
+	|-RVA: 0x17239B0 Offset: 0x1721FB0 VA: 0x1817239B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<bool, uint>>.get_Current
 	|
-	|-RVA: 0x1723DB0 Offset: 0x17223B0 VA: 0x181723DB0
+	|-RVA: 0x1723CB0 Offset: 0x17222B0 VA: 0x181723CB0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<bool, ulong>>.get_Current
 	|
-	|-RVA: 0x1725070 Offset: 0x1723670 VA: 0x181725070
+	|-RVA: 0x1724F70 Offset: 0x1723570 VA: 0x181724F70
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<byte, object>>.get_Current
 	|
-	|-RVA: 0x1723510 Offset: 0x1721B10 VA: 0x181723510
+	|-RVA: 0x1723410 Offset: 0x1721A10 VA: 0x181723410
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ByteEnum, byte>>.get_Current
 	|
-	|-RVA: 0x17224F0 Offset: 0x1720AF0 VA: 0x1817224F0
+	|-RVA: 0x17223F0 Offset: 0x17209F0 VA: 0x1817223F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<KeyValuePair<object, object>, object>>.get_Current
 	|
-	|-RVA: 0x1722A90 Offset: 0x1721090 VA: 0x181722A90
+	|-RVA: 0x1722990 Offset: 0x1720F90 VA: 0x181722990
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, bool>>.get_Current
 	|
-	|-RVA: 0x1722AF0 Offset: 0x17210F0 VA: 0x181722AF0
+	|-RVA: 0x17229F0 Offset: 0x1720FF0 VA: 0x1817229F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, Decimal>>.get_Current
 	|
-	|-RVA: 0x17215F0 Offset: 0x171FBF0 VA: 0x1817215F0
+	|-RVA: 0x17214F0 Offset: 0x171FAF0 VA: 0x1817214F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, double>>.get_Current
 	|
-	|-RVA: 0x17216B0 Offset: 0x171FCB0 VA: 0x1817216B0
+	|-RVA: 0x17215B0 Offset: 0x171FBB0 VA: 0x1817215B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, short>>.get_Current
 	|
-	|-RVA: 0x17250D0 Offset: 0x17236D0 VA: 0x1817250D0
+	|-RVA: 0x1724FD0 Offset: 0x17235D0 VA: 0x181724FD0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, int>>.get_Current
 	|
-	|-RVA: 0x1722550 Offset: 0x1720B50 VA: 0x181722550
+	|-RVA: 0x1722450 Offset: 0x1720A50 VA: 0x181722450
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, long>>.get_Current
 	|
-	|-RVA: 0x1722A30 Offset: 0x1721030 VA: 0x181722A30
+	|-RVA: 0x1722930 Offset: 0x1720F30 VA: 0x181722930
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, object>>.get_Current
 	|
-	|-RVA: 0x1724D10 Offset: 0x1723310 VA: 0x181724D10
+	|-RVA: 0x1724C10 Offset: 0x1723210 VA: 0x181724C10
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, float>>.get_Current
 	|
-	|-RVA: 0x1722190 Offset: 0x1720790 VA: 0x181722190
+	|-RVA: 0x1722090 Offset: 0x1720690 VA: 0x181722090
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, ushort>>.get_Current
 	|
-	|-RVA: 0x1722250 Offset: 0x1720850 VA: 0x181722250
+	|-RVA: 0x1722150 Offset: 0x1720750 VA: 0x181722150
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, uint>>.get_Current
 	|
-	|-RVA: 0x1725550 Offset: 0x1723B50 VA: 0x181725550
+	|-RVA: 0x1725450 Offset: 0x1723A50 VA: 0x181725450
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, ulong>>.get_Current
 	|
-	|-RVA: 0x17229D0 Offset: 0x1720FD0 VA: 0x1817229D0
+	|-RVA: 0x17228D0 Offset: 0x1720ED0 VA: 0x1817228D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<double, bool>>.get_Current
 	|
-	|-RVA: 0x1722850 Offset: 0x1720E50 VA: 0x181722850
+	|-RVA: 0x1722750 Offset: 0x1720D50 VA: 0x181722750
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<double, Decimal>>.get_Current
 	|
-	|-RVA: 0x1723D50 Offset: 0x1722350 VA: 0x181723D50
+	|-RVA: 0x1723C50 Offset: 0x1722250 VA: 0x181723C50
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<double, double>>.get_Current
 	|
-	|-RVA: 0x17247D0 Offset: 0x1722DD0 VA: 0x1817247D0
+	|-RVA: 0x17246D0 Offset: 0x1722CD0 VA: 0x1817246D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<double, short>>.get_Current
 	|
-	|-RVA: 0x1722FD0 Offset: 0x17215D0 VA: 0x181722FD0
+	|-RVA: 0x1722ED0 Offset: 0x17214D0 VA: 0x181722ED0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<double, int>>.get_Current
 	|
-	|-RVA: 0x1725610 Offset: 0x1723C10 VA: 0x181725610
+	|-RVA: 0x1725510 Offset: 0x1723B10 VA: 0x181725510
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<double, long>>.get_Current
 	|
-	|-RVA: 0x1723810 Offset: 0x1721E10 VA: 0x181723810
+	|-RVA: 0x1723710 Offset: 0x1721D10 VA: 0x181723710
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<double, object>>.get_Current
 	|
-	|-RVA: 0x1724AD0 Offset: 0x17230D0 VA: 0x181724AD0
+	|-RVA: 0x17249D0 Offset: 0x1722FD0 VA: 0x1817249D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<double, float>>.get_Current
 	|
-	|-RVA: 0x1724C50 Offset: 0x1723250 VA: 0x181724C50
+	|-RVA: 0x1724B50 Offset: 0x1723150 VA: 0x181724B50
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<double, ushort>>.get_Current
 	|
-	|-RVA: 0x1724B30 Offset: 0x1723130 VA: 0x181724B30
+	|-RVA: 0x1724A30 Offset: 0x1723030 VA: 0x181724A30
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<double, uint>>.get_Current
 	|
-	|-RVA: 0x1725250 Offset: 0x1723850 VA: 0x181725250
+	|-RVA: 0x1725150 Offset: 0x1723750 VA: 0x181725150
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<double, ulong>>.get_Current
 	|
-	|-RVA: 0x1724EF0 Offset: 0x17234F0 VA: 0x181724EF0
+	|-RVA: 0x1724DF0 Offset: 0x17233F0 VA: 0x181724DF0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Guid, object>>.get_Current
 	|
-	|-RVA: 0x17238D0 Offset: 0x1721ED0 VA: 0x1817238D0
+	|-RVA: 0x17237D0 Offset: 0x1721DD0 VA: 0x1817237D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<short, bool>>.get_Current
 	|
-	|-RVA: 0x1723A50 Offset: 0x1722050 VA: 0x181723A50
+	|-RVA: 0x1723950 Offset: 0x1721F50 VA: 0x181723950
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<short, Decimal>>.get_Current
 	|
-	|-RVA: 0x1724BF0 Offset: 0x17231F0 VA: 0x181724BF0
+	|-RVA: 0x1724AF0 Offset: 0x17230F0 VA: 0x181724AF0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<short, double>>.get_Current
 	|
-	|-RVA: 0x1724230 Offset: 0x1722830 VA: 0x181724230
+	|-RVA: 0x1724130 Offset: 0x1722730 VA: 0x181724130
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<short, short>>.get_Current
 	|
-	|-RVA: 0x1721A70 Offset: 0x1720070 VA: 0x181721A70
+	|-RVA: 0x1721970 Offset: 0x171FF70 VA: 0x181721970
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<short, int>>.get_Current
 	|
-	|-RVA: 0x1723990 Offset: 0x1721F90 VA: 0x181723990
+	|-RVA: 0x1723890 Offset: 0x1721E90 VA: 0x181723890
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<short, long>>.get_Current
 	|
-	|-RVA: 0x1721FB0 Offset: 0x17205B0 VA: 0x181721FB0
+	|-RVA: 0x1721EB0 Offset: 0x17204B0 VA: 0x181721EB0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<short, object>>.get_Current
 	|
-	|-RVA: 0x1722910 Offset: 0x1720F10 VA: 0x181722910
+	|-RVA: 0x1722810 Offset: 0x1720E10 VA: 0x181722810
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<short, float>>.get_Current
 	|
-	|-RVA: 0x1721DD0 Offset: 0x17203D0 VA: 0x181721DD0
+	|-RVA: 0x1721CD0 Offset: 0x17202D0 VA: 0x181721CD0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<short, ushort>>.get_Current
 	|
-	|-RVA: 0x1724410 Offset: 0x1722A10 VA: 0x181724410
+	|-RVA: 0x1724310 Offset: 0x1722910 VA: 0x181724310
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<short, uint>>.get_Current
 	|
-	|-RVA: 0x17234B0 Offset: 0x1721AB0 VA: 0x1817234B0
+	|-RVA: 0x17233B0 Offset: 0x17219B0 VA: 0x1817233B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<short, ulong>>.get_Current
 	|
-	|-RVA: 0x1725190 Offset: 0x1723790 VA: 0x181725190
+	|-RVA: 0x1725090 Offset: 0x1723690 VA: 0x181725090
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, CommandBufferManager.CommandBufferEntry>>.get_Current
 	|
-	|-RVA: 0x1722D90 Offset: 0x1721390 VA: 0x181722D90
+	|-RVA: 0x1722C90 Offset: 0x1721290 VA: 0x181722C90
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, FoliageKey>>.get_Current
 	|
-	|-RVA: 0x1724E30 Offset: 0x1723430 VA: 0x181724E30
+	|-RVA: 0x1724D30 Offset: 0x1723330 VA: 0x181724D30
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, InstancingKey>>.get_Current
 	|
-	|-RVA: 0x17244D0 Offset: 0x1722AD0 VA: 0x1817244D0
+	|-RVA: 0x17243D0 Offset: 0x17229D0 VA: 0x1817243D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, InvokeAction>>.get_Current
 	|
-	|-RVA: 0x1724650 Offset: 0x1722C50 VA: 0x181724650
+	|-RVA: 0x1724550 Offset: 0x1722B50 VA: 0x181724550
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, RendererKey>>.get_Current
 	|
-	|-RVA: 0x1723FF0 Offset: 0x17225F0 VA: 0x181723FF0
+	|-RVA: 0x1723EF0 Offset: 0x17224F0 VA: 0x181723EF0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, SpecialPurposeCamera.RenderEntry>>.get_Current
 	|
-	|-RVA: 0x1721650 Offset: 0x171FC50 VA: 0x181721650
+	|-RVA: 0x1721550 Offset: 0x171FB50 VA: 0x181721550
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, bool>>.get_Current
 	|
-	|-RVA: 0x1722730 Offset: 0x1720D30 VA: 0x181722730
+	|-RVA: 0x1722630 Offset: 0x1720C30 VA: 0x181722630
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, char>>.get_Current
 	|
-	|-RVA: 0x17217D0 Offset: 0x171FDD0 VA: 0x1817217D0
+	|-RVA: 0x17216D0 Offset: 0x171FCD0 VA: 0x1817216D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, Decimal>>.get_Current
 	|
-	|-RVA: 0x1721890 Offset: 0x171FE90 VA: 0x181721890
+	|-RVA: 0x1721790 Offset: 0x171FD90 VA: 0x181721790
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, double>>.get_Current
 	|
-	|-RVA: 0x1724950 Offset: 0x1722F50 VA: 0x181724950
+	|-RVA: 0x1724850 Offset: 0x1722E50 VA: 0x181724850
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, short>>.get_Current
 	|
-	|-RVA: 0x1724470 Offset: 0x1722A70 VA: 0x181724470
+	|-RVA: 0x1724370 Offset: 0x1722970 VA: 0x181724370
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, int>>.get_Current
 	|
-	|-RVA: 0x1722B50 Offset: 0x1721150 VA: 0x181722B50
+	|-RVA: 0x1722A50 Offset: 0x1721050 VA: 0x181722A50
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, Int32Enum>>.get_Current
 	|
-	|-RVA: 0x1723570 Offset: 0x1721B70 VA: 0x181723570
+	|-RVA: 0x1723470 Offset: 0x1721A70 VA: 0x181723470
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, long>>.get_Current
 	|
-	|-RVA: 0x1722E50 Offset: 0x1721450 VA: 0x181722E50
+	|-RVA: 0x1722D50 Offset: 0x1721350 VA: 0x181722D50
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, object>>.get_Current
 	|
-	|-RVA: 0x1722610 Offset: 0x1720C10 VA: 0x181722610
+	|-RVA: 0x1722510 Offset: 0x1720B10 VA: 0x181722510
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, float>>.get_Current
 	|
-	|-RVA: 0x17253D0 Offset: 0x17239D0 VA: 0x1817253D0
+	|-RVA: 0x17252D0 Offset: 0x17238D0 VA: 0x1817252D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, ushort>>.get_Current
 	|
-	|-RVA: 0x1721B30 Offset: 0x1720130 VA: 0x181721B30
+	|-RVA: 0x1721A30 Offset: 0x1720030 VA: 0x181721A30
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, uint>>.get_Current
 	|
-	|-RVA: 0x1722D30 Offset: 0x1721330 VA: 0x181722D30
+	|-RVA: 0x1722C30 Offset: 0x1721230 VA: 0x181722C30
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, ulong>>.get_Current
 	|
-	|-RVA: 0x1721D10 Offset: 0x1720310 VA: 0x181721D10
+	|-RVA: 0x1721C10 Offset: 0x1720210 VA: 0x181721C10
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, ViewModelDrawEvent>>.get_Current
 	|
-	|-RVA: 0x17236F0 Offset: 0x1721CF0 VA: 0x1817236F0
+	|-RVA: 0x17235F0 Offset: 0x1721BF0 VA: 0x1817235F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, object>>.get_Current
 	|
-	|-RVA: 0x17248F0 Offset: 0x1722EF0 VA: 0x1817248F0
+	|-RVA: 0x17247F0 Offset: 0x1722DF0 VA: 0x1817247F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, float>>.get_Current
 	|
-	|-RVA: 0x1721950 Offset: 0x171FF50 VA: 0x181721950
+	|-RVA: 0x1721850 Offset: 0x171FE50 VA: 0x181721850
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, bool>>.get_Current
 	|
-	|-RVA: 0x17233F0 Offset: 0x17219F0 VA: 0x1817233F0
+	|-RVA: 0x17232F0 Offset: 0x17218F0 VA: 0x1817232F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Decimal>>.get_Current
 	|
-	|-RVA: 0x1721410 Offset: 0x171FA10 VA: 0x181721410
+	|-RVA: 0x1721310 Offset: 0x171F910 VA: 0x181721310
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, double>>.get_Current
 	|
-	|-RVA: 0x1724890 Offset: 0x1722E90 VA: 0x181724890
+	|-RVA: 0x1724790 Offset: 0x1722D90 VA: 0x181724790
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, short>>.get_Current
 	|
-	|-RVA: 0x1722070 Offset: 0x1720670 VA: 0x181722070
+	|-RVA: 0x1721F70 Offset: 0x1720570 VA: 0x181721F70
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, int>>.get_Current
 	|
-	|-RVA: 0x1721EF0 Offset: 0x17204F0 VA: 0x181721EF0
+	|-RVA: 0x1721DF0 Offset: 0x17203F0 VA: 0x181721DF0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, long>>.get_Current
 	|
-	|-RVA: 0x1723B70 Offset: 0x1722170 VA: 0x181723B70
+	|-RVA: 0x1723A70 Offset: 0x1722070 VA: 0x181723A70
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, object>>.get_Current
 	|
-	|-RVA: 0x1722CD0 Offset: 0x17212D0 VA: 0x181722CD0
+	|-RVA: 0x1722BD0 Offset: 0x17211D0 VA: 0x181722BD0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, float>>.get_Current
 	|
-	|-RVA: 0x17237B0 Offset: 0x1721DB0 VA: 0x1817237B0
+	|-RVA: 0x17236B0 Offset: 0x1721CB0 VA: 0x1817236B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ushort>>.get_Current
 	|
-	|-RVA: 0x1722F10 Offset: 0x1721510 VA: 0x181722F10
+	|-RVA: 0x1722E10 Offset: 0x1721410 VA: 0x181722E10
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, uint>>.get_Current
 	|
-	|-RVA: 0x1724E90 Offset: 0x1723490 VA: 0x181724E90
+	|-RVA: 0x1724D90 Offset: 0x1723390 VA: 0x181724D90
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ulong>>.get_Current
 	|
-	|-RVA: 0x17221F0 Offset: 0x17207F0 VA: 0x1817221F0
+	|-RVA: 0x17220F0 Offset: 0x17206F0 VA: 0x1817220F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, object>>.get_Current
 	|
-	|-RVA: 0x17232D0 Offset: 0x17218D0 VA: 0x1817232D0
+	|-RVA: 0x17231D0 Offset: 0x17217D0 VA: 0x1817231D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, CameraMan.CameraState>>.get_Current
 	|
-	|-RVA: 0x1721530 Offset: 0x171FB30 VA: 0x181721530
+	|-RVA: 0x1721430 Offset: 0x171FA30 VA: 0x181721430
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>.get_Current
 	|
-	|-RVA: 0x1723F30 Offset: 0x1722530 VA: 0x181723F30
+	|-RVA: 0x1723E30 Offset: 0x1722430 VA: 0x181723E30
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, InputActionSetHandle_t>>.get_Current
 	|
-	|-RVA: 0x17255B0 Offset: 0x1723BB0 VA: 0x1817255B0
+	|-RVA: 0x17254B0 Offset: 0x1723AB0 VA: 0x1817254B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, InputAnalogActionHandle_t>>.get_Current
 	|
-	|-RVA: 0x1721290 Offset: 0x171F890 VA: 0x181721290
+	|-RVA: 0x1721190 Offset: 0x171F790 VA: 0x181721190
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, InputDigitalActionHandle_t>>.get_Current
 	|
-	|-RVA: 0x1722F70 Offset: 0x1721570 VA: 0x181722F70
+	|-RVA: 0x1722E70 Offset: 0x1721470 VA: 0x181722E70
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, bool>>.get_Current
 	|
-	|-RVA: 0x17235D0 Offset: 0x1721BD0 VA: 0x1817235D0
+	|-RVA: 0x17234D0 Offset: 0x1721AD0 VA: 0x1817234D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, byte>>.get_Current
 	|
-	|-RVA: 0x1724A10 Offset: 0x1723010 VA: 0x181724A10
+	|-RVA: 0x1724910 Offset: 0x1722F10 VA: 0x181724910
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, Decimal>>.get_Current
 	|
-	|-RVA: 0x1723690 Offset: 0x1721C90 VA: 0x181723690
+	|-RVA: 0x1723590 Offset: 0x1721B90 VA: 0x181723590
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, double>>.get_Current
 	|
-	|-RVA: 0x17230F0 Offset: 0x17216F0 VA: 0x1817230F0
+	|-RVA: 0x1722FF0 Offset: 0x17215F0 VA: 0x181722FF0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, short>>.get_Current
 	|
-	|-RVA: 0x1722670 Offset: 0x1720C70 VA: 0x181722670
+	|-RVA: 0x1722570 Offset: 0x1720B70 VA: 0x181722570
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, int>>.get_Current
 	|
-	|-RVA: 0x17222B0 Offset: 0x17208B0 VA: 0x1817222B0
+	|-RVA: 0x17221B0 Offset: 0x17207B0 VA: 0x1817221B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, Int32Enum>>.get_Current
 	|
-	|-RVA: 0x1725490 Offset: 0x1723A90 VA: 0x181725490
+	|-RVA: 0x1725390 Offset: 0x1723990 VA: 0x181725390
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, long>>.get_Current
 	|
-	|-RVA: 0x17213B0 Offset: 0x171F9B0 VA: 0x1817213B0
+	|-RVA: 0x17212B0 Offset: 0x171F8B0 VA: 0x1817212B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, object>>.get_Current
 	|
-	|-RVA: 0x1723150 Offset: 0x1721750 VA: 0x181723150
+	|-RVA: 0x1723050 Offset: 0x1721650 VA: 0x181723050
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, ResourceLocator>>.get_Current
 	|
-	|-RVA: 0x1724770 Offset: 0x1722D70 VA: 0x181724770
+	|-RVA: 0x1724670 Offset: 0x1722C70 VA: 0x181724670
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, float>>.get_Current
 	|
-	|-RVA: 0x1725970 Offset: 0x1723F70 VA: 0x181725970
+	|-RVA: 0x1725870 Offset: 0x1723E70 VA: 0x181725870
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, ushort>>.get_Current
 	|
-	|-RVA: 0x1723BD0 Offset: 0x17221D0 VA: 0x181723BD0
+	|-RVA: 0x1723AD0 Offset: 0x17220D0 VA: 0x181723AD0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, uint>>.get_Current
 	|
-	|-RVA: 0x17251F0 Offset: 0x17237F0 VA: 0x1817251F0
+	|-RVA: 0x17250F0 Offset: 0x17236F0 VA: 0x1817250F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, ulong>>.get_Current
 	|
-	|-RVA: 0x1722130 Offset: 0x1720730 VA: 0x181722130
+	|-RVA: 0x1722030 Offset: 0x1720630 VA: 0x181722030
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, ValueTuple<object, object>>>.get_Current
 	|
-	|-RVA: 0x1723390 Offset: 0x1721990 VA: 0x181723390
+	|-RVA: 0x1723290 Offset: 0x1721890 VA: 0x181723290
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, Vector3>>.get_Current
 	|
-	|-RVA: 0x1722370 Offset: 0x1720970 VA: 0x181722370
+	|-RVA: 0x1722270 Offset: 0x1720870 VA: 0x181722270
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<float, bool>>.get_Current
 	|
-	|-RVA: 0x1721B90 Offset: 0x1720190 VA: 0x181721B90
+	|-RVA: 0x1721A90 Offset: 0x1720090 VA: 0x181721A90
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<float, Decimal>>.get_Current
 	|
-	|-RVA: 0x17212F0 Offset: 0x171F8F0 VA: 0x1817212F0
+	|-RVA: 0x17211F0 Offset: 0x171F7F0 VA: 0x1817211F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<float, double>>.get_Current
 	|
-	|-RVA: 0x1722310 Offset: 0x1720910 VA: 0x181722310
+	|-RVA: 0x1722210 Offset: 0x1720810 VA: 0x181722210
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<float, short>>.get_Current
 	|
-	|-RVA: 0x17241D0 Offset: 0x17227D0 VA: 0x1817241D0
+	|-RVA: 0x17240D0 Offset: 0x17226D0 VA: 0x1817240D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<float, int>>.get_Current
 	|
-	|-RVA: 0x17214D0 Offset: 0x171FAD0 VA: 0x1817214D0
+	|-RVA: 0x17213D0 Offset: 0x171F9D0 VA: 0x1817213D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<float, long>>.get_Current
 	|
-	|-RVA: 0x1724CB0 Offset: 0x17232B0 VA: 0x181724CB0
+	|-RVA: 0x1724BB0 Offset: 0x17231B0 VA: 0x181724BB0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<float, object>>.get_Current
 	|
-	|-RVA: 0x1721710 Offset: 0x171FD10 VA: 0x181721710
+	|-RVA: 0x1721610 Offset: 0x171FC10 VA: 0x181721610
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<float, float>>.get_Current
 	|
-	|-RVA: 0x1725790 Offset: 0x1723D90 VA: 0x181725790
+	|-RVA: 0x1725690 Offset: 0x1723C90 VA: 0x181725690
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<float, ushort>>.get_Current
 	|
-	|-RVA: 0x17226D0 Offset: 0x1720CD0 VA: 0x1817226D0
+	|-RVA: 0x17225D0 Offset: 0x1720BD0 VA: 0x1817225D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<float, uint>>.get_Current
 	|
-	|-RVA: 0x17256D0 Offset: 0x1723CD0 VA: 0x1817256D0
+	|-RVA: 0x17255D0 Offset: 0x1723BD0 VA: 0x1817255D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<float, ulong>>.get_Current
 	|
-	|-RVA: 0x17219B0 Offset: 0x171FFB0 VA: 0x1817219B0
+	|-RVA: 0x17218B0 Offset: 0x171FEB0 VA: 0x1817218B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ushort, bool>>.get_Current
 	|
-	|-RVA: 0x1721E30 Offset: 0x1720430 VA: 0x181721E30
+	|-RVA: 0x1721D30 Offset: 0x1720330 VA: 0x181721D30
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ushort, Decimal>>.get_Current
 	|
-	|-RVA: 0x17245F0 Offset: 0x1722BF0 VA: 0x1817245F0
+	|-RVA: 0x17244F0 Offset: 0x1722AF0 VA: 0x1817244F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ushort, double>>.get_Current
 	|
-	|-RVA: 0x1723E10 Offset: 0x1722410 VA: 0x181723E10
+	|-RVA: 0x1723D10 Offset: 0x1722310 VA: 0x181723D10
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ushort, short>>.get_Current
 	|
-	|-RVA: 0x1723E70 Offset: 0x1722470 VA: 0x181723E70
+	|-RVA: 0x1723D70 Offset: 0x1722370 VA: 0x181723D70
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ushort, int>>.get_Current
 	|
-	|-RVA: 0x1722010 Offset: 0x1720610 VA: 0x181722010
+	|-RVA: 0x1721F10 Offset: 0x1720510 VA: 0x181721F10
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ushort, long>>.get_Current
 	|
-	|-RVA: 0x1723B10 Offset: 0x1722110 VA: 0x181723B10
+	|-RVA: 0x1723A10 Offset: 0x1722010 VA: 0x181723A10
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ushort, object>>.get_Current
 	|
-	|-RVA: 0x1721F50 Offset: 0x1720550 VA: 0x181721F50
+	|-RVA: 0x1721E50 Offset: 0x1720450 VA: 0x181721E50
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ushort, float>>.get_Current
 	|
-	|-RVA: 0x17239F0 Offset: 0x1721FF0 VA: 0x1817239F0
+	|-RVA: 0x17238F0 Offset: 0x1721EF0 VA: 0x1817238F0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ushort, ushort>>.get_Current
 	|
-	|-RVA: 0x1723330 Offset: 0x1721930 VA: 0x181723330
+	|-RVA: 0x1723230 Offset: 0x1721830 VA: 0x181723230
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ushort, uint>>.get_Current
 	|
-	|-RVA: 0x1723270 Offset: 0x1721870 VA: 0x181723270
+	|-RVA: 0x1723170 Offset: 0x1721770 VA: 0x181723170
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ushort, ulong>>.get_Current
 	|
-	|-RVA: 0x1721590 Offset: 0x171FB90 VA: 0x181721590
+	|-RVA: 0x1721490 Offset: 0x171FA90 VA: 0x181721490
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<uint, bool>>.get_Current
 	|
-	|-RVA: 0x1721770 Offset: 0x171FD70 VA: 0x181721770
+	|-RVA: 0x1721670 Offset: 0x171FC70 VA: 0x181721670
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<uint, Decimal>>.get_Current
 	|
-	|-RVA: 0x1724350 Offset: 0x1722950 VA: 0x181724350
+	|-RVA: 0x1724250 Offset: 0x1722850 VA: 0x181724250
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<uint, double>>.get_Current
 	|
-	|-RVA: 0x1723ED0 Offset: 0x17224D0 VA: 0x181723ED0
+	|-RVA: 0x1723DD0 Offset: 0x17223D0 VA: 0x181723DD0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<uint, short>>.get_Current
 	|
-	|-RVA: 0x1721230 Offset: 0x171F830 VA: 0x181721230
+	|-RVA: 0x1721130 Offset: 0x171F730 VA: 0x181721130
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<uint, int>>.get_Current
 	|
-	|-RVA: 0x1724F50 Offset: 0x1723550 VA: 0x181724F50
+	|-RVA: 0x1724E50 Offset: 0x1723450 VA: 0x181724E50
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<uint, long>>.get_Current
 	|
-	|-RVA: 0x1724590 Offset: 0x1722B90 VA: 0x181724590
+	|-RVA: 0x1724490 Offset: 0x1722A90 VA: 0x181724490
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<uint, object>>.get_Current
 	|
-	|-RVA: 0x1722BB0 Offset: 0x17211B0 VA: 0x181722BB0
+	|-RVA: 0x1722AB0 Offset: 0x17210B0 VA: 0x181722AB0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<uint, float>>.get_Current
 	|
-	|-RVA: 0x1723630 Offset: 0x1721C30 VA: 0x181723630
+	|-RVA: 0x1723530 Offset: 0x1721B30 VA: 0x181723530
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<uint, ushort>>.get_Current
 	|
-	|-RVA: 0x1721830 Offset: 0x171FE30 VA: 0x181721830
+	|-RVA: 0x1721730 Offset: 0x171FD30 VA: 0x181721730
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<uint, uint>>.get_Current
 	|
-	|-RVA: 0x1725910 Offset: 0x1723F10 VA: 0x181725910
+	|-RVA: 0x1725810 Offset: 0x1723E10 VA: 0x181725810
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<uint, ulong>>.get_Current
 	|
-	|-RVA: 0x1722C10 Offset: 0x1721210 VA: 0x181722C10
+	|-RVA: 0x1722B10 Offset: 0x1721110 VA: 0x181722B10
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, AvatarCache.Entry>>.get_Current
 	|
-	|-RVA: 0x17258B0 Offset: 0x1723EB0 VA: 0x1817258B0
+	|-RVA: 0x17257B0 Offset: 0x1723DB0 VA: 0x1817257B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, Chat.MuteEntry>>.get_Current
 	|
-	|-RVA: 0x1723F90 Offset: 0x1722590 VA: 0x181723F90
+	|-RVA: 0x1723E90 Offset: 0x1722490 VA: 0x181723E90
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, Dispatch.ResultCallback>>.get_Current
 	|
-	|-RVA: 0x17240B0 Offset: 0x17226B0 VA: 0x1817240B0
+	|-RVA: 0x1723FB0 Offset: 0x17225B0 VA: 0x181723FB0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, bool>>.get_Current
 	|
-	|-RVA: 0x17225B0 Offset: 0x1720BB0 VA: 0x1817225B0
+	|-RVA: 0x17224B0 Offset: 0x1720AB0 VA: 0x1817224B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, Decimal>>.get_Current
 	|
-	|-RVA: 0x1725670 Offset: 0x1723C70 VA: 0x181725670
+	|-RVA: 0x1725570 Offset: 0x1723B70 VA: 0x181725570
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, double>>.get_Current
 	|
-	|-RVA: 0x1722430 Offset: 0x1720A30 VA: 0x181722430
+	|-RVA: 0x1722330 Offset: 0x1720930 VA: 0x181722330
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, short>>.get_Current
 	|
-	|-RVA: 0x1723930 Offset: 0x1721F30 VA: 0x181723930
+	|-RVA: 0x1723830 Offset: 0x1721E30 VA: 0x181723830
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, int>>.get_Current
 	|
-	|-RVA: 0x1721D70 Offset: 0x1720370 VA: 0x181721D70
+	|-RVA: 0x1721C70 Offset: 0x1720270 VA: 0x181721C70
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, long>>.get_Current
 	|
-	|-RVA: 0x17228B0 Offset: 0x1720EB0 VA: 0x1817228B0
+	|-RVA: 0x17227B0 Offset: 0x1720DB0 VA: 0x1817227B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, object>>.get_Current
 	|
-	|-RVA: 0x1725130 Offset: 0x1723730 VA: 0x181725130
+	|-RVA: 0x1725030 Offset: 0x1723630 VA: 0x181725030
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, float>>.get_Current
 	|
-	|-RVA: 0x1721AD0 Offset: 0x17200D0 VA: 0x181721AD0
+	|-RVA: 0x17219D0 Offset: 0x171FFD0 VA: 0x1817219D0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, ushort>>.get_Current
 	|
-	|-RVA: 0x1722790 Offset: 0x1720D90 VA: 0x181722790
+	|-RVA: 0x1722690 Offset: 0x1720C90 VA: 0x181722690
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, uint>>.get_Current
 	|
-	|-RVA: 0x1723C90 Offset: 0x1722290 VA: 0x181723C90
+	|-RVA: 0x1723B90 Offset: 0x1722190 VA: 0x181723B90
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, ulong>>.get_Current
 	|
-	|-RVA: 0x1721A10 Offset: 0x1720010 VA: 0x181721A10
+	|-RVA: 0x1721910 Offset: 0x171FF10 VA: 0x181721910
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, TimeSince>>.get_Current
 	|
-	|-RVA: 0x1723C30 Offset: 0x1722230 VA: 0x181723C30
+	|-RVA: 0x1723B30 Offset: 0x1722130 VA: 0x181723B30
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ValueTuple<Int32Enum, int>, object>>.get_Current
 	|
-	|-RVA: 0x1724B90 Offset: 0x1723190 VA: 0x181724B90
+	|-RVA: 0x1724A90 Offset: 0x1723090 VA: 0x181724A90
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Color, object>>.get_Current
 	|
-	|-RVA: 0x1722C70 Offset: 0x1721270 VA: 0x181722C70
+	|-RVA: 0x1722B70 Offset: 0x1721170 VA: 0x181722B70
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<TerrainUtility.TerrainMap.TileCoord, object>>.get_Current
 	|
-	|-RVA: 0x17246B0 Offset: 0x1722CB0 VA: 0x1817246B0
+	|-RVA: 0x17245B0 Offset: 0x1722BB0 VA: 0x1817245B0
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<StyleSheetCache.SheetHandleKey, int>>.get_Current
 	|
-	|-RVA: 0x1725850 Offset: 0x1723E50 VA: 0x181725850
+	|-RVA: 0x1725750 Offset: 0x1723D50 VA: 0x181725750
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<StyleSheetCache.SheetHandleKey, object>>.get_Current
 	|
-	|-RVA: 0x1721470 Offset: 0x171FA70 VA: 0x181721470
+	|-RVA: 0x1721370 Offset: 0x171F970 VA: 0x181721370
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Vector2i, object>>.get_Current
 	|
-	|-RVA: 0x1725370 Offset: 0x1723970 VA: 0x181725370
+	|-RVA: 0x1725270 Offset: 0x1723870 VA: 0x181725270
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ViewModelDrawEvent, int>>.get_Current
 	|
-	|-RVA: 0x1724DD0 Offset: 0x17233D0 VA: 0x181724DD0
+	|-RVA: 0x1724CD0 Offset: 0x17232D0 VA: 0x181724CD0
 	|-Array.EmptyInternalEnumerator<HashSet.Slot<Connection>>.get_Current
 	|
-	|-RVA: 0x1724050 Offset: 0x1722650 VA: 0x181724050
+	|-RVA: 0x1723F50 Offset: 0x1722550 VA: 0x181723F50
 	|-Array.EmptyInternalEnumerator<HashSet.Slot<int>>.get_Current
 	|
-	|-RVA: 0x17254F0 Offset: 0x1723AF0 VA: 0x1817254F0
+	|-RVA: 0x17253F0 Offset: 0x17239F0 VA: 0x1817253F0
 	|-Array.EmptyInternalEnumerator<HashSet.Slot<object>>.get_Current
 	|
-	|-RVA: 0x17257F0 Offset: 0x1723DF0 VA: 0x1817257F0
+	|-RVA: 0x17256F0 Offset: 0x1723CF0 VA: 0x1817256F0
 	|-Array.EmptyInternalEnumerator<HashSet.Slot<uint>>.get_Current
 	|
-	|-RVA: 0x17218F0 Offset: 0x171FEF0 VA: 0x1817218F0
+	|-RVA: 0x17217F0 Offset: 0x171FDF0 VA: 0x1817217F0
 	|-Array.EmptyInternalEnumerator<HashSet.Slot<ulong>>.get_Current
 	|
-	|-RVA: 0x1722EB0 Offset: 0x17214B0 VA: 0x181722EB0
+	|-RVA: 0x1722DB0 Offset: 0x17213B0 VA: 0x181722DB0
 	|-Array.EmptyInternalEnumerator<HashSet.Slot<Vector3>>.get_Current
 	|
-	|-RVA: 0x1723090 Offset: 0x1721690 VA: 0x181723090
+	|-RVA: 0x1722F90 Offset: 0x1721590 VA: 0x181722F90
 	|-Array.EmptyInternalEnumerator<KeyValuePair<FoliageKey, int>>.get_Current
 	|
-	|-RVA: 0x1724A70 Offset: 0x1723070 VA: 0x181724A70
+	|-RVA: 0x1724970 Offset: 0x1722F70 VA: 0x181724970
 	|-Array.EmptyInternalEnumerator<KeyValuePair<FoliageKey, object>>.get_Current
 	|
-	|-RVA: 0x1721BF0 Offset: 0x17201F0 VA: 0x181721BF0
+	|-RVA: 0x1721AF0 Offset: 0x17200F0 VA: 0x181721AF0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<InstancingKey, int>>.get_Current
 	|
-	|-RVA: 0x1724110 Offset: 0x1722710 VA: 0x181724110
+	|-RVA: 0x1724010 Offset: 0x1722610 VA: 0x181724010
 	|-Array.EmptyInternalEnumerator<KeyValuePair<InstancingKey, object>>.get_Current
 	|
-	|-RVA: 0x1722490 Offset: 0x1720A90 VA: 0x181722490
+	|-RVA: 0x1722390 Offset: 0x1720990 VA: 0x181722390
 	|-Array.EmptyInternalEnumerator<KeyValuePair<InvokeAction, int>>.get_Current
 	|
-	|-RVA: 0x1721350 Offset: 0x171F950 VA: 0x181721350
+	|-RVA: 0x1721250 Offset: 0x171F850 VA: 0x181721250
 	|-Array.EmptyInternalEnumerator<KeyValuePair<InvokeAction, float>>.get_Current
 	|
-	|-RVA: 0x17242F0 Offset: 0x17228F0 VA: 0x1817242F0
+	|-RVA: 0x17241F0 Offset: 0x17227F0 VA: 0x1817241F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<XPathNodeRef, XPathNodeRef>>.get_Current
 	|
-	|-RVA: 0x1721CB0 Offset: 0x17202B0 VA: 0x181721CB0
+	|-RVA: 0x1721BB0 Offset: 0x17201B0 VA: 0x181721BB0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<SevenBitNumber, object>>.get_Current
 	|
-	|-RVA: 0x1725310 Offset: 0x1723910 VA: 0x181725310
+	|-RVA: 0x1725210 Offset: 0x1723810 VA: 0x181725210
 	|-Array.EmptyInternalEnumerator<KeyValuePair<DefaultSerializationBinder.TypeNameKey, object>>.get_Current
 	|
-	|-RVA: 0x1723450 Offset: 0x1721A50 VA: 0x181723450
+	|-RVA: 0x1723350 Offset: 0x1721950 VA: 0x181723350
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ResolverContractKey, object>>.get_Current
 	|
-	|-RVA: 0x1724530 Offset: 0x1722B30 VA: 0x181724530
+	|-RVA: 0x1724430 Offset: 0x1722A30 VA: 0x181724430
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ConvertUtils.TypeConvertKey, object>>.get_Current
 	|
-	|-RVA: 0x1724D70 Offset: 0x1723370 VA: 0x181724D70
+	|-RVA: 0x1724C70 Offset: 0x1723270 VA: 0x181724C70
 	|-Array.EmptyInternalEnumerator<KeyValuePair<RendererKey, int>>.get_Current
 	|
-	|-RVA: 0x17220D0 Offset: 0x17206D0 VA: 0x1817220D0
+	|-RVA: 0x1721FD0 Offset: 0x17205D0 VA: 0x181721FD0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<RendererKey, object>>.get_Current
 	|
-	|-RVA: 0x1723CF0 Offset: 0x17222F0 VA: 0x181723CF0
+	|-RVA: 0x1723BF0 Offset: 0x17221F0 VA: 0x181723BF0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<SpecialPurposeCamera.RenderEntry, int>>.get_Current
 	|
-	|-RVA: 0x17249B0 Offset: 0x1722FB0 VA: 0x1817249B0
+	|-RVA: 0x17248B0 Offset: 0x1722EB0 VA: 0x1817248B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<InventoryDefId, uint>>.get_Current
 	|
-	|-RVA: 0x1724290 Offset: 0x1722890 VA: 0x181724290
+	|-RVA: 0x1724190 Offset: 0x1722790 VA: 0x181724190
 	|-Array.EmptyInternalEnumerator<KeyValuePair<StringFormatCache.Key1, object>>.get_Current
 	|
-	|-RVA: 0x1723750 Offset: 0x1721D50 VA: 0x181723750
+	|-RVA: 0x1723650 Offset: 0x1721C50 VA: 0x181723650
 	|-Array.EmptyInternalEnumerator<KeyValuePair<StringFormatCache.Key2, object>>.get_Current
 	|
-	|-RVA: 0x1723210 Offset: 0x1721810 VA: 0x181723210
+	|-RVA: 0x1723110 Offset: 0x1721710 VA: 0x181723110
 	|-Array.EmptyInternalEnumerator<KeyValuePair<StringFormatCache.Key3, object>>.get_Current
 	|
-	|-RVA: 0x17231B0 Offset: 0x17217B0 VA: 0x1817231B0
+	|-RVA: 0x17230B0 Offset: 0x17216B0 VA: 0x1817230B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<StringFormatCache.Key4, object>>.get_Current
 	|
-	|-RVA: 0x1725730 Offset: 0x1723D30 VA: 0x181725730
+	|-RVA: 0x1725630 Offset: 0x1723C30 VA: 0x181725630
 	|-Array.EmptyInternalEnumerator<KeyValuePair<bool, bool>>.get_Current
 	|
-	|-RVA: 0x1722970 Offset: 0x1720F70 VA: 0x181722970
+	|-RVA: 0x1722870 Offset: 0x1720E70 VA: 0x181722870
 	|-Array.EmptyInternalEnumerator<KeyValuePair<bool, Decimal>>.get_Current
 	|
-	|-RVA: 0x1725430 Offset: 0x1723A30 VA: 0x181725430
+	|-RVA: 0x1725330 Offset: 0x1723930 VA: 0x181725330
 	|-Array.EmptyInternalEnumerator<KeyValuePair<bool, double>>.get_Current
 	|
-	|-RVA: 0x1723030 Offset: 0x1721630 VA: 0x181723030
+	|-RVA: 0x1722F30 Offset: 0x1721530 VA: 0x181722F30
 	|-Array.EmptyInternalEnumerator<KeyValuePair<bool, short>>.get_Current
 	|
-	|-RVA: 0x1721E90 Offset: 0x1720490 VA: 0x181721E90
+	|-RVA: 0x1721D90 Offset: 0x1720390 VA: 0x181721D90
 	|-Array.EmptyInternalEnumerator<KeyValuePair<bool, int>>.get_Current
 	|
-	|-RVA: 0x17227F0 Offset: 0x1720DF0 VA: 0x1817227F0
+	|-RVA: 0x17226F0 Offset: 0x1720CF0 VA: 0x1817226F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<bool, long>>.get_Current
 	|
-	|-RVA: 0x17223D0 Offset: 0x17209D0 VA: 0x1817223D0
+	|-RVA: 0x17222D0 Offset: 0x17208D0 VA: 0x1817222D0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<bool, object>>.get_Current
 	|
-	|-RVA: 0x1721C50 Offset: 0x1720250 VA: 0x181721C50
+	|-RVA: 0x1721B50 Offset: 0x1720150 VA: 0x181721B50
 	|-Array.EmptyInternalEnumerator<KeyValuePair<bool, float>>.get_Current
 	|
-	|-RVA: 0x1725010 Offset: 0x1723610 VA: 0x181725010
+	|-RVA: 0x1724F10 Offset: 0x1723510 VA: 0x181724F10
 	|-Array.EmptyInternalEnumerator<KeyValuePair<bool, ushort>>.get_Current
 	|
-	|-RVA: 0x1724710 Offset: 0x1722D10 VA: 0x181724710
+	|-RVA: 0x1724610 Offset: 0x1722C10 VA: 0x181724610
 	|-Array.EmptyInternalEnumerator<KeyValuePair<bool, uint>>.get_Current
 	|
-	|-RVA: 0x178AF10 Offset: 0x1789510 VA: 0x18178AF10
+	|-RVA: 0x178AE10 Offset: 0x1789410 VA: 0x18178AE10
 	|-Array.EmptyInternalEnumerator<KeyValuePair<bool, ulong>>.get_Current
 	|
-	|-RVA: 0x178D250 Offset: 0x178B850 VA: 0x18178D250
+	|-RVA: 0x178D150 Offset: 0x178B750 VA: 0x18178D150
 	|-Array.EmptyInternalEnumerator<KeyValuePair<byte, object>>.get_Current
 	|
-	|-RVA: 0x178BD50 Offset: 0x178A350 VA: 0x18178BD50
+	|-RVA: 0x178BC50 Offset: 0x178A250 VA: 0x18178BC50
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ByteEnum, byte>>.get_Current
 	|
-	|-RVA: 0x178DDF0 Offset: 0x178C3F0 VA: 0x18178DDF0
+	|-RVA: 0x178DCF0 Offset: 0x178C2F0 VA: 0x18178DCF0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<KeyValuePair<object, object>, object>>.get_Current
 	|
-	|-RVA: 0x178B510 Offset: 0x1789B10 VA: 0x18178B510
+	|-RVA: 0x178B410 Offset: 0x1789A10 VA: 0x18178B410
 	|-Array.EmptyInternalEnumerator<KeyValuePair<DateTime, object>>.get_Current
 	|
-	|-RVA: 0x178E4B0 Offset: 0x178CAB0 VA: 0x18178E4B0
+	|-RVA: 0x178E3B0 Offset: 0x178C9B0 VA: 0x18178E3B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Decimal, bool>>.get_Current
 	|
-	|-RVA: 0x178AF70 Offset: 0x1789570 VA: 0x18178AF70
+	|-RVA: 0x178AE70 Offset: 0x1789470 VA: 0x18178AE70
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Decimal, Decimal>>.get_Current
 	|
-	|-RVA: 0x178E5D0 Offset: 0x178CBD0 VA: 0x18178E5D0
+	|-RVA: 0x178E4D0 Offset: 0x178CAD0 VA: 0x18178E4D0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Decimal, double>>.get_Current
 	|
-	|-RVA: 0x178ECF0 Offset: 0x178D2F0 VA: 0x18178ECF0
+	|-RVA: 0x178EBF0 Offset: 0x178D1F0 VA: 0x18178EBF0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Decimal, short>>.get_Current
 	|
-	|-RVA: 0x178DA30 Offset: 0x178C030 VA: 0x18178DA30
+	|-RVA: 0x178D930 Offset: 0x178BF30 VA: 0x18178D930
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Decimal, int>>.get_Current
 	|
-	|-RVA: 0x178B870 Offset: 0x1789E70 VA: 0x18178B870
+	|-RVA: 0x178B770 Offset: 0x1789D70 VA: 0x18178B770
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Decimal, long>>.get_Current
 	|
-	|-RVA: 0x178B2D0 Offset: 0x17898D0 VA: 0x18178B2D0
+	|-RVA: 0x178B1D0 Offset: 0x17897D0 VA: 0x18178B1D0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Decimal, object>>.get_Current
 	|
-	|-RVA: 0x178AC70 Offset: 0x1789270 VA: 0x18178AC70
+	|-RVA: 0x178AB70 Offset: 0x1789170 VA: 0x18178AB70
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Decimal, float>>.get_Current
 	|
-	|-RVA: 0x178B5D0 Offset: 0x1789BD0 VA: 0x18178B5D0
+	|-RVA: 0x178B4D0 Offset: 0x1789AD0 VA: 0x18178B4D0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Decimal, ushort>>.get_Current
 	|
-	|-RVA: 0x178D370 Offset: 0x178B970 VA: 0x18178D370
+	|-RVA: 0x178D270 Offset: 0x178B870 VA: 0x18178D270
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Decimal, uint>>.get_Current
 	|
-	|-RVA: 0x178B030 Offset: 0x1789630 VA: 0x18178B030
+	|-RVA: 0x178AF30 Offset: 0x1789530 VA: 0x18178AF30
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Decimal, ulong>>.get_Current
 	|
-	|-RVA: 0x178A9D0 Offset: 0x1788FD0 VA: 0x18178A9D0
+	|-RVA: 0x178A8D0 Offset: 0x1788ED0 VA: 0x18178A8D0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<double, bool>>.get_Current
 	|
-	|-RVA: 0x178ACD0 Offset: 0x17892D0 VA: 0x18178ACD0
+	|-RVA: 0x178ABD0 Offset: 0x17891D0 VA: 0x18178ABD0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<double, Decimal>>.get_Current
 	|
-	|-RVA: 0x178D0D0 Offset: 0x178B6D0 VA: 0x18178D0D0
+	|-RVA: 0x178CFD0 Offset: 0x178B5D0 VA: 0x18178CFD0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<double, double>>.get_Current
 	|
-	|-RVA: 0x178B330 Offset: 0x1789930 VA: 0x18178B330
+	|-RVA: 0x178B230 Offset: 0x1789830 VA: 0x18178B230
 	|-Array.EmptyInternalEnumerator<KeyValuePair<double, short>>.get_Current
 	|
-	|-RVA: 0x178E030 Offset: 0x178C630 VA: 0x18178E030
+	|-RVA: 0x178DF30 Offset: 0x178C530 VA: 0x18178DF30
 	|-Array.EmptyInternalEnumerator<KeyValuePair<double, int>>.get_Current
 	|
-	|-RVA: 0x178ADF0 Offset: 0x17893F0 VA: 0x18178ADF0
+	|-RVA: 0x178ACF0 Offset: 0x17892F0 VA: 0x18178ACF0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<double, long>>.get_Current
 	|
-	|-RVA: 0x178B7B0 Offset: 0x1789DB0 VA: 0x18178B7B0
+	|-RVA: 0x178B6B0 Offset: 0x1789CB0 VA: 0x18178B6B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<double, object>>.get_Current
 	|
-	|-RVA: 0x178CBF0 Offset: 0x178B1F0 VA: 0x18178CBF0
+	|-RVA: 0x178CAF0 Offset: 0x178B0F0 VA: 0x18178CAF0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<double, float>>.get_Current
 	|
-	|-RVA: 0x178BF90 Offset: 0x178A590 VA: 0x18178BF90
+	|-RVA: 0x178BE90 Offset: 0x178A490 VA: 0x18178BE90
 	|-Array.EmptyInternalEnumerator<KeyValuePair<double, ushort>>.get_Current
 	|
-	|-RVA: 0x178BF30 Offset: 0x178A530 VA: 0x18178BF30
+	|-RVA: 0x178BE30 Offset: 0x178A430 VA: 0x18178BE30
 	|-Array.EmptyInternalEnumerator<KeyValuePair<double, uint>>.get_Current
 	|
-	|-RVA: 0x178E810 Offset: 0x178CE10 VA: 0x18178E810
+	|-RVA: 0x178E710 Offset: 0x178CD10 VA: 0x18178E710
 	|-Array.EmptyInternalEnumerator<KeyValuePair<double, ulong>>.get_Current
 	|
-	|-RVA: 0x178E9F0 Offset: 0x178CFF0 VA: 0x18178E9F0
+	|-RVA: 0x178E8F0 Offset: 0x178CEF0 VA: 0x18178E8F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Guid, int>>.get_Current
 	|
-	|-RVA: 0x178DCD0 Offset: 0x178C2D0 VA: 0x18178DCD0
+	|-RVA: 0x178DBD0 Offset: 0x178C1D0 VA: 0x18178DBD0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Guid, object>>.get_Current
 	|
-	|-RVA: 0x178C470 Offset: 0x178AA70 VA: 0x18178C470
+	|-RVA: 0x178C370 Offset: 0x178A970 VA: 0x18178C370
 	|-Array.EmptyInternalEnumerator<KeyValuePair<short, bool>>.get_Current
 	|
-	|-RVA: 0x178DB50 Offset: 0x178C150 VA: 0x18178DB50
+	|-RVA: 0x178DA50 Offset: 0x178C050 VA: 0x18178DA50
 	|-Array.EmptyInternalEnumerator<KeyValuePair<short, Decimal>>.get_Current
 	|
-	|-RVA: 0x178E330 Offset: 0x178C930 VA: 0x18178E330
+	|-RVA: 0x178E230 Offset: 0x178C830 VA: 0x18178E230
 	|-Array.EmptyInternalEnumerator<KeyValuePair<short, double>>.get_Current
 	|
-	|-RVA: 0x178EF30 Offset: 0x178D530 VA: 0x18178EF30
+	|-RVA: 0x178EE30 Offset: 0x178D430 VA: 0x18178EE30
 	|-Array.EmptyInternalEnumerator<KeyValuePair<short, short>>.get_Current
 	|
-	|-RVA: 0x178C170 Offset: 0x178A770 VA: 0x18178C170
+	|-RVA: 0x178C070 Offset: 0x178A670 VA: 0x18178C070
 	|-Array.EmptyInternalEnumerator<KeyValuePair<short, int>>.get_Current
 	|
-	|-RVA: 0x178AFD0 Offset: 0x17895D0 VA: 0x18178AFD0
+	|-RVA: 0x178AED0 Offset: 0x17894D0 VA: 0x18178AED0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<short, long>>.get_Current
 	|
-	|-RVA: 0x178CCB0 Offset: 0x178B2B0 VA: 0x18178CCB0
+	|-RVA: 0x178CBB0 Offset: 0x178B1B0 VA: 0x18178CBB0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<short, object>>.get_Current
 	|
-	|-RVA: 0x178E6F0 Offset: 0x178CCF0 VA: 0x18178E6F0
+	|-RVA: 0x178E5F0 Offset: 0x178CBF0 VA: 0x18178E5F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<short, float>>.get_Current
 	|
-	|-RVA: 0x178B810 Offset: 0x1789E10 VA: 0x18178B810
+	|-RVA: 0x178B710 Offset: 0x1789D10 VA: 0x18178B710
 	|-Array.EmptyInternalEnumerator<KeyValuePair<short, ushort>>.get_Current
 	|
-	|-RVA: 0x178EFF0 Offset: 0x178D5F0 VA: 0x18178EFF0
+	|-RVA: 0x178EEF0 Offset: 0x178D4F0 VA: 0x18178EEF0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<short, uint>>.get_Current
 	|
-	|-RVA: 0x178F0B0 Offset: 0x178D6B0 VA: 0x18178F0B0
+	|-RVA: 0x178EFB0 Offset: 0x178D5B0 VA: 0x18178EFB0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<short, ulong>>.get_Current
 	|
-	|-RVA: 0x178AAF0 Offset: 0x17890F0 VA: 0x18178AAF0
+	|-RVA: 0x178A9F0 Offset: 0x1788FF0 VA: 0x18178A9F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, CommandBufferManager.CommandBufferEntry>>.get_Current
 	|
-	|-RVA: 0x178E7B0 Offset: 0x178CDB0 VA: 0x18178E7B0
+	|-RVA: 0x178E6B0 Offset: 0x178CCB0 VA: 0x18178E6B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, FoliageKey>>.get_Current
 	|
-	|-RVA: 0x178DD90 Offset: 0x178C390 VA: 0x18178DD90
+	|-RVA: 0x178DC90 Offset: 0x178C290 VA: 0x18178DC90
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, InstancingKey>>.get_Current
 	|
-	|-RVA: 0x178B210 Offset: 0x1789810 VA: 0x18178B210
+	|-RVA: 0x178B110 Offset: 0x1789710 VA: 0x18178B110
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, InvokeAction>>.get_Current
 	|
-	|-RVA: 0x178D4F0 Offset: 0x178BAF0 VA: 0x18178D4F0
+	|-RVA: 0x178D3F0 Offset: 0x178B9F0 VA: 0x18178D3F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, RendererKey>>.get_Current
 	|
-	|-RVA: 0x178CEF0 Offset: 0x178B4F0 VA: 0x18178CEF0
+	|-RVA: 0x178CDF0 Offset: 0x178B3F0 VA: 0x18178CDF0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, SpecialPurposeCamera.RenderEntry>>.get_Current
 	|
-	|-RVA: 0x178F1D0 Offset: 0x178D7D0 VA: 0x18178F1D0
+	|-RVA: 0x178F0D0 Offset: 0x178D6D0 VA: 0x18178F0D0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, bool>>.get_Current
 	|
-	|-RVA: 0x178C410 Offset: 0x178AA10 VA: 0x18178C410
+	|-RVA: 0x178C310 Offset: 0x178A910 VA: 0x18178C310
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, char>>.get_Current
 	|
-	|-RVA: 0x178CFB0 Offset: 0x178B5B0 VA: 0x18178CFB0
+	|-RVA: 0x178CEB0 Offset: 0x178B4B0 VA: 0x18178CEB0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, Decimal>>.get_Current
 	|
-	|-RVA: 0x178C7D0 Offset: 0x178ADD0 VA: 0x18178C7D0
+	|-RVA: 0x178C6D0 Offset: 0x178ACD0 VA: 0x18178C6D0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, double>>.get_Current
 	|
-	|-RVA: 0x178CB30 Offset: 0x178B130 VA: 0x18178CB30
+	|-RVA: 0x178CA30 Offset: 0x178B030 VA: 0x18178CA30
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, short>>.get_Current
 	|
-	|-RVA: 0x178E210 Offset: 0x178C810 VA: 0x18178E210
+	|-RVA: 0x178E110 Offset: 0x178C710 VA: 0x18178E110
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, int>>.get_Current
 	|
-	|-RVA: 0x178D130 Offset: 0x178B730 VA: 0x18178D130
+	|-RVA: 0x178D030 Offset: 0x178B630 VA: 0x18178D030
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, Int32Enum>>.get_Current
 	|
-	|-RVA: 0x178D010 Offset: 0x178B610 VA: 0x18178D010
+	|-RVA: 0x178CF10 Offset: 0x178B510 VA: 0x18178CF10
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, long>>.get_Current
 	|
-	|-RVA: 0x178CF50 Offset: 0x178B550 VA: 0x18178CF50
+	|-RVA: 0x178CE50 Offset: 0x178B450 VA: 0x18178CE50
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, object>>.get_Current
 	|
-	|-RVA: 0x178CC50 Offset: 0x178B250 VA: 0x18178CC50
+	|-RVA: 0x178CB50 Offset: 0x178B150 VA: 0x18178CB50
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, float>>.get_Current
 	|
-	|-RVA: 0x178CA70 Offset: 0x178B070 VA: 0x18178CA70
+	|-RVA: 0x178C970 Offset: 0x178AF70 VA: 0x18178C970
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, ushort>>.get_Current
 	|
-	|-RVA: 0x178DC10 Offset: 0x178C210 VA: 0x18178DC10
+	|-RVA: 0x178DB10 Offset: 0x178C110 VA: 0x18178DB10
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, uint>>.get_Current
 	|
-	|-RVA: 0x178D490 Offset: 0x178BA90 VA: 0x18178D490
+	|-RVA: 0x178D390 Offset: 0x178B990 VA: 0x18178D390
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, ulong>>.get_Current
 	|
-	|-RVA: 0x178BCF0 Offset: 0x178A2F0 VA: 0x18178BCF0
+	|-RVA: 0x178BBF0 Offset: 0x178A1F0 VA: 0x18178BBF0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, ViewModelDrawEvent>>.get_Current
 	|
-	|-RVA: 0x178F110 Offset: 0x178D710 VA: 0x18178F110
+	|-RVA: 0x178F010 Offset: 0x178D610 VA: 0x18178F010
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, object>>.get_Current
 	|
-	|-RVA: 0x178DBB0 Offset: 0x178C1B0 VA: 0x18178DBB0
+	|-RVA: 0x178DAB0 Offset: 0x178C0B0 VA: 0x18178DAB0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, float>>.get_Current
 	|
-	|-RVA: 0x178C650 Offset: 0x178AC50 VA: 0x18178C650
+	|-RVA: 0x178C550 Offset: 0x178AB50 VA: 0x18178C550
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, bool>>.get_Current
 	|
-	|-RVA: 0x178E150 Offset: 0x178C750 VA: 0x18178E150
+	|-RVA: 0x178E050 Offset: 0x178C650 VA: 0x18178E050
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Decimal>>.get_Current
 	|
-	|-RVA: 0x178ABB0 Offset: 0x17891B0 VA: 0x18178ABB0
+	|-RVA: 0x178AAB0 Offset: 0x17890B0 VA: 0x18178AAB0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, double>>.get_Current
 	|
-	|-RVA: 0x178E510 Offset: 0x178CB10 VA: 0x18178E510
+	|-RVA: 0x178E410 Offset: 0x178CA10 VA: 0x18178E410
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, short>>.get_Current
 	|
-	|-RVA: 0x178D5B0 Offset: 0x178BBB0 VA: 0x18178D5B0
+	|-RVA: 0x178D4B0 Offset: 0x178BAB0 VA: 0x18178D4B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, int>>.get_Current
 	|
-	|-RVA: 0x178B150 Offset: 0x1789750 VA: 0x18178B150
+	|-RVA: 0x178B050 Offset: 0x1789650 VA: 0x18178B050
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, long>>.get_Current
 	|
-	|-RVA: 0x178C950 Offset: 0x178AF50 VA: 0x18178C950
+	|-RVA: 0x178C850 Offset: 0x178AE50 VA: 0x18178C850
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, object>>.get_Current
 	|
-	|-RVA: 0x178BC90 Offset: 0x178A290 VA: 0x18178BC90
+	|-RVA: 0x178BB90 Offset: 0x178A190 VA: 0x18178BB90
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, float>>.get_Current
 	|
-	|-RVA: 0x178D7F0 Offset: 0x178BDF0 VA: 0x18178D7F0
+	|-RVA: 0x178D6F0 Offset: 0x178BCF0 VA: 0x18178D6F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ushort>>.get_Current
 	|
-	|-RVA: 0x178BE10 Offset: 0x178A410 VA: 0x18178BE10
+	|-RVA: 0x178BD10 Offset: 0x178A310 VA: 0x18178BD10
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, uint>>.get_Current
 	|
-	|-RVA: 0x178CA10 Offset: 0x178B010 VA: 0x18178CA10
+	|-RVA: 0x178C910 Offset: 0x178AF10 VA: 0x18178C910
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ulong>>.get_Current
 	|
-	|-RVA: 0x178EC30 Offset: 0x178D230 VA: 0x18178EC30
+	|-RVA: 0x178EB30 Offset: 0x178D130 VA: 0x18178EB30
 	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, object>>.get_Current
 	|
-	|-RVA: 0x178F170 Offset: 0x178D770 VA: 0x18178F170
+	|-RVA: 0x178F070 Offset: 0x178D670 VA: 0x18178F070
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, CameraMan.CameraState>>.get_Current
 	|
-	|-RVA: 0x178B6F0 Offset: 0x1789CF0 VA: 0x18178B6F0
+	|-RVA: 0x178B5F0 Offset: 0x1789BF0 VA: 0x18178B5F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, PlayerModelHair.RendererMaterials>>.get_Current
 	|
-	|-RVA: 0x178ED50 Offset: 0x178D350 VA: 0x18178ED50
+	|-RVA: 0x178EC50 Offset: 0x178D250 VA: 0x18178EC50
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, InputActionSetHandle_t>>.get_Current
 	|
-	|-RVA: 0x178CAD0 Offset: 0x178B0D0 VA: 0x18178CAD0
+	|-RVA: 0x178C9D0 Offset: 0x178AFD0 VA: 0x18178C9D0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, InputAnalogActionHandle_t>>.get_Current
 	|
-	|-RVA: 0x178B990 Offset: 0x1789F90 VA: 0x18178B990
+	|-RVA: 0x178B890 Offset: 0x1789E90 VA: 0x18178B890
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, InputDigitalActionHandle_t>>.get_Current
 	|
-	|-RVA: 0x178D070 Offset: 0x178B670 VA: 0x18178D070
+	|-RVA: 0x178CF70 Offset: 0x178B570 VA: 0x18178CF70
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, bool>>.get_Current
 	|
-	|-RVA: 0x178B450 Offset: 0x1789A50 VA: 0x18178B450
+	|-RVA: 0x178B350 Offset: 0x1789950 VA: 0x18178B350
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, byte>>.get_Current
 	|
-	|-RVA: 0x178EF90 Offset: 0x178D590 VA: 0x18178EF90
+	|-RVA: 0x178EE90 Offset: 0x178D490 VA: 0x18178EE90
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, Decimal>>.get_Current
 	|
-	|-RVA: 0x178C4D0 Offset: 0x178AAD0 VA: 0x18178C4D0
+	|-RVA: 0x178C3D0 Offset: 0x178A9D0 VA: 0x18178C3D0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, double>>.get_Current
 	|
-	|-RVA: 0x178E2D0 Offset: 0x178C8D0 VA: 0x18178E2D0
+	|-RVA: 0x178E1D0 Offset: 0x178C7D0 VA: 0x18178E1D0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, short>>.get_Current
 	|
-	|-RVA: 0x178D2B0 Offset: 0x178B8B0 VA: 0x18178D2B0
+	|-RVA: 0x178D1B0 Offset: 0x178B7B0 VA: 0x18178D1B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, int>>.get_Current
 	|
-	|-RVA: 0x178C5F0 Offset: 0x178ABF0 VA: 0x18178C5F0
+	|-RVA: 0x178C4F0 Offset: 0x178AAF0 VA: 0x18178C4F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, Int32Enum>>.get_Current
 	|
-	|-RVA: 0x178E450 Offset: 0x178CA50 VA: 0x18178E450
+	|-RVA: 0x178E350 Offset: 0x178C950 VA: 0x18178E350
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, long>>.get_Current
 	|
-	|-RVA: 0x178B570 Offset: 0x1789B70 VA: 0x18178B570
+	|-RVA: 0x178B470 Offset: 0x1789A70 VA: 0x18178B470
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, object>>.get_Current
 	|
-	|-RVA: 0x178C6B0 Offset: 0x178ACB0 VA: 0x18178C6B0
+	|-RVA: 0x178C5B0 Offset: 0x178ABB0 VA: 0x18178C5B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, ResourceLocator>>.get_Current
 	|
-	|-RVA: 0x178CD70 Offset: 0x178B370 VA: 0x18178CD70
+	|-RVA: 0x178CC70 Offset: 0x178B270 VA: 0x18178CC70
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, float>>.get_Current
 	|
-	|-RVA: 0x178BAB0 Offset: 0x178A0B0 VA: 0x18178BAB0
+	|-RVA: 0x178B9B0 Offset: 0x1789FB0 VA: 0x18178B9B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, ushort>>.get_Current
 	|
-	|-RVA: 0x178AA90 Offset: 0x1789090 VA: 0x18178AA90
+	|-RVA: 0x178A990 Offset: 0x1788F90 VA: 0x18178A990
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, uint>>.get_Current
 	|
-	|-RVA: 0x178BED0 Offset: 0x178A4D0 VA: 0x18178BED0
+	|-RVA: 0x178BDD0 Offset: 0x178A3D0 VA: 0x18178BDD0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, ulong>>.get_Current
 	|
-	|-RVA: 0x178BBD0 Offset: 0x178A1D0 VA: 0x18178BBD0
+	|-RVA: 0x178BAD0 Offset: 0x178A0D0 VA: 0x18178BAD0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, ValueTuple<object, object>>>.get_Current
 	|
-	|-RVA: 0x178EB70 Offset: 0x178D170 VA: 0x18178EB70
+	|-RVA: 0x178EA70 Offset: 0x178D070 VA: 0x18178EA70
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, Color>>.get_Current
 	|
-	|-RVA: 0x178BB10 Offset: 0x178A110 VA: 0x18178BB10
+	|-RVA: 0x178BA10 Offset: 0x178A010 VA: 0x18178BA10
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, Vector3>>.get_Current
 	|
-	|-RVA: 0x178E570 Offset: 0x178CB70 VA: 0x18178E570
+	|-RVA: 0x178E470 Offset: 0x178CA70 VA: 0x18178E470
 	|-Array.EmptyInternalEnumerator<KeyValuePair<float, bool>>.get_Current
 	|
-	|-RVA: 0x178D910 Offset: 0x178BF10 VA: 0x18178D910
+	|-RVA: 0x178D810 Offset: 0x178BE10 VA: 0x18178D810
 	|-Array.EmptyInternalEnumerator<KeyValuePair<float, Decimal>>.get_Current
 	|
-	|-RVA: 0x178E090 Offset: 0x178C690 VA: 0x18178E090
+	|-RVA: 0x178DF90 Offset: 0x178C590 VA: 0x18178DF90
 	|-Array.EmptyInternalEnumerator<KeyValuePair<float, double>>.get_Current
 	|
-	|-RVA: 0x178C0B0 Offset: 0x178A6B0 VA: 0x18178C0B0
+	|-RVA: 0x178BFB0 Offset: 0x178A5B0 VA: 0x18178BFB0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<float, short>>.get_Current
 	|
-	|-RVA: 0x178B4B0 Offset: 0x1789AB0 VA: 0x18178B4B0
+	|-RVA: 0x178B3B0 Offset: 0x17899B0 VA: 0x18178B3B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<float, int>>.get_Current
 	|
-	|-RVA: 0x178CDD0 Offset: 0x178B3D0 VA: 0x18178CDD0
+	|-RVA: 0x178CCD0 Offset: 0x178B2D0 VA: 0x18178CCD0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<float, long>>.get_Current
 	|
-	|-RVA: 0x178AD90 Offset: 0x1789390 VA: 0x18178AD90
+	|-RVA: 0x178AC90 Offset: 0x1789290 VA: 0x18178AC90
 	|-Array.EmptyInternalEnumerator<KeyValuePair<float, object>>.get_Current
 	|
-	|-RVA: 0x178CE30 Offset: 0x178B430 VA: 0x18178CE30
+	|-RVA: 0x178CD30 Offset: 0x178B330 VA: 0x18178CD30
 	|-Array.EmptyInternalEnumerator<KeyValuePair<float, float>>.get_Current
 	|
-	|-RVA: 0x178B930 Offset: 0x1789F30 VA: 0x18178B930
+	|-RVA: 0x178B830 Offset: 0x1789E30 VA: 0x18178B830
 	|-Array.EmptyInternalEnumerator<KeyValuePair<float, ushort>>.get_Current
 	|
-	|-RVA: 0x178C2F0 Offset: 0x178A8F0 VA: 0x18178C2F0
+	|-RVA: 0x178C1F0 Offset: 0x178A7F0 VA: 0x18178C1F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<float, uint>>.get_Current
 	|
-	|-RVA: 0x178D430 Offset: 0x178BA30 VA: 0x18178D430
+	|-RVA: 0x178D330 Offset: 0x178B930 VA: 0x18178D330
 	|-Array.EmptyInternalEnumerator<KeyValuePair<float, ulong>>.get_Current
 	|
-	|-RVA: 0x178DC70 Offset: 0x178C270 VA: 0x18178DC70
+	|-RVA: 0x178DB70 Offset: 0x178C170 VA: 0x18178DB70
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ushort, bool>>.get_Current
 	|
-	|-RVA: 0x178B3F0 Offset: 0x17899F0 VA: 0x18178B3F0
+	|-RVA: 0x178B2F0 Offset: 0x17898F0 VA: 0x18178B2F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ushort, Decimal>>.get_Current
 	|
-	|-RVA: 0x178AC10 Offset: 0x1789210 VA: 0x18178AC10
+	|-RVA: 0x178AB10 Offset: 0x1789110 VA: 0x18178AB10
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ushort, double>>.get_Current
 	|
-	|-RVA: 0x178C9B0 Offset: 0x178AFB0 VA: 0x18178C9B0
+	|-RVA: 0x178C8B0 Offset: 0x178AEB0 VA: 0x18178C8B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ushort, short>>.get_Current
 	|
-	|-RVA: 0x178E3F0 Offset: 0x178C9F0 VA: 0x18178E3F0
+	|-RVA: 0x178E2F0 Offset: 0x178C8F0 VA: 0x18178E2F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ushort, int>>.get_Current
 	|
-	|-RVA: 0x178B0F0 Offset: 0x17896F0 VA: 0x18178B0F0
+	|-RVA: 0x178AFF0 Offset: 0x17895F0 VA: 0x18178AFF0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ushort, long>>.get_Current
 	|
-	|-RVA: 0x178F050 Offset: 0x178D650 VA: 0x18178F050
+	|-RVA: 0x178EF50 Offset: 0x178D550 VA: 0x18178EF50
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ushort, object>>.get_Current
 	|
-	|-RVA: 0x178D6D0 Offset: 0x178BCD0 VA: 0x18178D6D0
+	|-RVA: 0x178D5D0 Offset: 0x178BBD0 VA: 0x18178D5D0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ushort, float>>.get_Current
 	|
-	|-RVA: 0x178DAF0 Offset: 0x178C0F0 VA: 0x18178DAF0
+	|-RVA: 0x178D9F0 Offset: 0x178BFF0 VA: 0x18178D9F0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ushort, ushort>>.get_Current
 	|
-	|-RVA: 0x178EA50 Offset: 0x178D050 VA: 0x18178EA50
+	|-RVA: 0x178E950 Offset: 0x178CF50 VA: 0x18178E950
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ushort, uint>>.get_Current
 	|
-	|-RVA: 0x178B750 Offset: 0x1789D50 VA: 0x18178B750
+	|-RVA: 0x178B650 Offset: 0x1789C50 VA: 0x18178B650
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ushort, ulong>>.get_Current
 	|
-	|-RVA: 0x178BE70 Offset: 0x178A470 VA: 0x18178BE70
+	|-RVA: 0x178BD70 Offset: 0x178A370 VA: 0x18178BD70
 	|-Array.EmptyInternalEnumerator<KeyValuePair<uint, bool>>.get_Current
 	|
-	|-RVA: 0x178BB70 Offset: 0x178A170 VA: 0x18178BB70
+	|-RVA: 0x178BA70 Offset: 0x178A070 VA: 0x18178BA70
 	|-Array.EmptyInternalEnumerator<KeyValuePair<uint, Decimal>>.get_Current
 	|
-	|-RVA: 0x178C530 Offset: 0x178AB30 VA: 0x18178C530
+	|-RVA: 0x178C430 Offset: 0x178AA30 VA: 0x18178C430
 	|-Array.EmptyInternalEnumerator<KeyValuePair<uint, double>>.get_Current
 	|
-	|-RVA: 0x178DD30 Offset: 0x178C330 VA: 0x18178DD30
+	|-RVA: 0x178DC30 Offset: 0x178C230 VA: 0x18178DC30
 	|-Array.EmptyInternalEnumerator<KeyValuePair<uint, short>>.get_Current
 	|
-	|-RVA: 0x178D3D0 Offset: 0x178B9D0 VA: 0x18178D3D0
+	|-RVA: 0x178D2D0 Offset: 0x178B8D0 VA: 0x18178D2D0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<uint, int>>.get_Current
 	|
-	|-RVA: 0x178D790 Offset: 0x178BD90 VA: 0x18178D790
+	|-RVA: 0x178D690 Offset: 0x178BC90 VA: 0x18178D690
 	|-Array.EmptyInternalEnumerator<KeyValuePair<uint, long>>.get_Current
 	|
-	|-RVA: 0x178EC90 Offset: 0x178D290 VA: 0x18178EC90
+	|-RVA: 0x178EB90 Offset: 0x178D190 VA: 0x18178EB90
 	|-Array.EmptyInternalEnumerator<KeyValuePair<uint, object>>.get_Current
 	|
-	|-RVA: 0x178E630 Offset: 0x178CC30 VA: 0x18178E630
+	|-RVA: 0x178E530 Offset: 0x178CB30 VA: 0x18178E530
 	|-Array.EmptyInternalEnumerator<KeyValuePair<uint, float>>.get_Current
 	|
-	|-RVA: 0x178AD30 Offset: 0x1789330 VA: 0x18178AD30
+	|-RVA: 0x178AC30 Offset: 0x1789230 VA: 0x18178AC30
 	|-Array.EmptyInternalEnumerator<KeyValuePair<uint, ushort>>.get_Current
 	|
-	|-RVA: 0x178D8B0 Offset: 0x178BEB0 VA: 0x18178D8B0
+	|-RVA: 0x178D7B0 Offset: 0x178BDB0 VA: 0x18178D7B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<uint, uint>>.get_Current
 	|
-	|-RVA: 0x178D550 Offset: 0x178BB50 VA: 0x18178D550
+	|-RVA: 0x178D450 Offset: 0x178BA50 VA: 0x18178D450
 	|-Array.EmptyInternalEnumerator<KeyValuePair<uint, ulong>>.get_Current
 	|
-	|-RVA: 0x178EDB0 Offset: 0x178D3B0 VA: 0x18178EDB0
+	|-RVA: 0x178ECB0 Offset: 0x178D2B0 VA: 0x18178ECB0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, AvatarCache.Entry>>.get_Current
 	|
-	|-RVA: 0x178C050 Offset: 0x178A650 VA: 0x18178C050
+	|-RVA: 0x178BF50 Offset: 0x178A550 VA: 0x18178BF50
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, Chat.MuteEntry>>.get_Current
 	|
-	|-RVA: 0x178DE50 Offset: 0x178C450 VA: 0x18178DE50
+	|-RVA: 0x178DD50 Offset: 0x178C350 VA: 0x18178DD50
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, Dispatch.ResultCallback>>.get_Current
 	|
-	|-RVA: 0x178E0F0 Offset: 0x178C6F0 VA: 0x18178E0F0
+	|-RVA: 0x178DFF0 Offset: 0x178C5F0 VA: 0x18178DFF0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, bool>>.get_Current
 	|
-	|-RVA: 0x178B690 Offset: 0x1789C90 VA: 0x18178B690
+	|-RVA: 0x178B590 Offset: 0x1789B90 VA: 0x18178B590
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, Decimal>>.get_Current
 	|
-	|-RVA: 0x178D730 Offset: 0x178BD30 VA: 0x18178D730
+	|-RVA: 0x178D630 Offset: 0x178BC30 VA: 0x18178D630
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, double>>.get_Current
 	|
-	|-RVA: 0x178AEB0 Offset: 0x17894B0 VA: 0x18178AEB0
+	|-RVA: 0x178ADB0 Offset: 0x17893B0 VA: 0x18178ADB0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, short>>.get_Current
 	|
-	|-RVA: 0x178EBD0 Offset: 0x178D1D0 VA: 0x18178EBD0
+	|-RVA: 0x178EAD0 Offset: 0x178D0D0 VA: 0x18178EAD0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, int>>.get_Current
 	|
-	|-RVA: 0x178C770 Offset: 0x178AD70 VA: 0x18178C770
+	|-RVA: 0x178C670 Offset: 0x178AC70 VA: 0x18178C670
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, long>>.get_Current
 	|
-	|-RVA: 0x178DF10 Offset: 0x178C510 VA: 0x18178DF10
+	|-RVA: 0x178DE10 Offset: 0x178C410 VA: 0x18178DE10
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, object>>.get_Current
 	|
-	|-RVA: 0x178BDB0 Offset: 0x178A3B0 VA: 0x18178BDB0
+	|-RVA: 0x178BCB0 Offset: 0x178A2B0 VA: 0x18178BCB0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, float>>.get_Current
 	|
-	|-RVA: 0x178E930 Offset: 0x178CF30 VA: 0x18178E930
+	|-RVA: 0x178E830 Offset: 0x178CE30 VA: 0x18178E830
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, ushort>>.get_Current
 	|
-	|-RVA: 0x178E390 Offset: 0x178C990 VA: 0x18178E390
+	|-RVA: 0x178E290 Offset: 0x178C890 VA: 0x18178E290
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, uint>>.get_Current
 	|
-	|-RVA: 0x178CD10 Offset: 0x178B310 VA: 0x18178CD10
+	|-RVA: 0x178CC10 Offset: 0x178B210 VA: 0x18178CC10
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, ulong>>.get_Current
 	|
-	|-RVA: 0x178C230 Offset: 0x178A830 VA: 0x18178C230
+	|-RVA: 0x178C130 Offset: 0x178A730 VA: 0x18178C130
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, TimeSince>>.get_Current
 	|
-	|-RVA: 0x178B1B0 Offset: 0x17897B0 VA: 0x18178B1B0
+	|-RVA: 0x178B0B0 Offset: 0x17896B0 VA: 0x18178B0B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ValueTuple<Int32Enum, int>, object>>.get_Current
 	|
-	|-RVA: 0x178EED0 Offset: 0x178D4D0 VA: 0x18178EED0
+	|-RVA: 0x178EDD0 Offset: 0x178D3D0 VA: 0x18178EDD0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Color, object>>.get_Current
 	|
-	|-RVA: 0x178E1B0 Offset: 0x178C7B0 VA: 0x18178E1B0
+	|-RVA: 0x178E0B0 Offset: 0x178C6B0 VA: 0x18178E0B0
 	|-Array.EmptyInternalEnumerator<KeyValuePair<TerrainUtility.TerrainMap.TileCoord, object>>.get_Current
 	|
-	|-RVA: 0x178C350 Offset: 0x178A950 VA: 0x18178C350
+	|-RVA: 0x178C250 Offset: 0x178A850 VA: 0x18178C250
 	|-Array.EmptyInternalEnumerator<KeyValuePair<StyleSheetCache.SheetHandleKey, int>>.get_Current
 	|
-	|-RVA: 0x178EE10 Offset: 0x178D410 VA: 0x18178EE10
+	|-RVA: 0x178ED10 Offset: 0x178D310 VA: 0x18178ED10
 	|-Array.EmptyInternalEnumerator<KeyValuePair<StyleSheetCache.SheetHandleKey, object>>.get_Current
 	|
-	|-RVA: 0x178CB90 Offset: 0x178B190 VA: 0x18178CB90
+	|-RVA: 0x178CA90 Offset: 0x178B090 VA: 0x18178CA90
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Vector2i, object>>.get_Current
 	|
-	|-RVA: 0x178B270 Offset: 0x1789870 VA: 0x18178B270
+	|-RVA: 0x178B170 Offset: 0x1789770 VA: 0x18178B170
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ViewModelDrawEvent, int>>.get_Current
 	|
-	|-RVA: 0x178D610 Offset: 0x178BC10 VA: 0x18178D610
+	|-RVA: 0x178D510 Offset: 0x178BB10 VA: 0x18178D510
 	|-Array.EmptyInternalEnumerator<Hashtable.bucket>.get_Current
 	|
-	|-RVA: 0x178E750 Offset: 0x178CD50 VA: 0x18178E750
+	|-RVA: 0x178E650 Offset: 0x178CC50 VA: 0x18178E650
 	|-Array.EmptyInternalEnumerator<AttributeCollection.AttributeEntry>.get_Current
 	|
-	|-RVA: 0x178DF70 Offset: 0x178C570 VA: 0x18178DF70
+	|-RVA: 0x178DE70 Offset: 0x178C470 VA: 0x18178DE70
 	|-Array.EmptyInternalEnumerator<SchemaInfo>.get_Current
 	|
-	|-RVA: 0x178B630 Offset: 0x1789C30 VA: 0x18178B630
+	|-RVA: 0x178B530 Offset: 0x1789B30 VA: 0x18178B530
 	|-Array.EmptyInternalEnumerator<DataError.ColumnError>.get_Current
 	|
-	|-RVA: 0x178BFF0 Offset: 0x178A5F0 VA: 0x18178BFF0
+	|-RVA: 0x178BEF0 Offset: 0x178A4F0 VA: 0x18178BEF0
 	|-Array.EmptyInternalEnumerator<ExpressionParser.ReservedWords>.get_Current
 	|
-	|-RVA: 0x178E870 Offset: 0x178CE70 VA: 0x18178E870
+	|-RVA: 0x178E770 Offset: 0x178CD70 VA: 0x18178E770
 	|-Array.EmptyInternalEnumerator<IndexField>.get_Current
 	|
-	|-RVA: 0x178D190 Offset: 0x178B790 VA: 0x18178D190
+	|-RVA: 0x178D090 Offset: 0x178B690 VA: 0x18178D090
 	|-Array.EmptyInternalEnumerator<RBTree.Node<int>>.get_Current
 	|
-	|-RVA: 0x178EB10 Offset: 0x178D110 VA: 0x18178EB10
+	|-RVA: 0x178EA10 Offset: 0x178D010 VA: 0x18178EA10
 	|-Array.EmptyInternalEnumerator<RBTree.Node<object>>.get_Current
 	|
-	|-RVA: 0x178EAB0 Offset: 0x178D0B0 VA: 0x18178EAB0
+	|-RVA: 0x178E9B0 Offset: 0x178CFB0 VA: 0x18178E9B0
 	|-Array.EmptyInternalEnumerator<SqlBinary>.get_Current
 	|
-	|-RVA: 0x178D1F0 Offset: 0x178B7F0 VA: 0x18178D1F0
+	|-RVA: 0x178D0F0 Offset: 0x178B6F0 VA: 0x18178D0F0
 	|-Array.EmptyInternalEnumerator<SqlBoolean>.get_Current
 	|
-	|-RVA: 0x178B090 Offset: 0x1789690 VA: 0x18178B090
+	|-RVA: 0x178AF90 Offset: 0x1789590 VA: 0x18178AF90
 	|-Array.EmptyInternalEnumerator<SqlByte>.get_Current
 	|
-	|-RVA: 0x178D970 Offset: 0x178BF70 VA: 0x18178D970
+	|-RVA: 0x178D870 Offset: 0x178BE70 VA: 0x18178D870
 	|-Array.EmptyInternalEnumerator<SqlDateTime>.get_Current
 	|
-	|-RVA: 0x178D850 Offset: 0x178BE50 VA: 0x18178D850
+	|-RVA: 0x178D750 Offset: 0x178BD50 VA: 0x18178D750
 	|-Array.EmptyInternalEnumerator<SqlDecimal>.get_Current
 	|
-	|-RVA: 0x178CE90 Offset: 0x178B490 VA: 0x18178CE90
+	|-RVA: 0x178CD90 Offset: 0x178B390 VA: 0x18178CD90
 	|-Array.EmptyInternalEnumerator<SqlDouble>.get_Current
 	|
-	|-RVA: 0x178E270 Offset: 0x178C870 VA: 0x18178E270
+	|-RVA: 0x178E170 Offset: 0x178C770 VA: 0x18178E170
 	|-Array.EmptyInternalEnumerator<SqlGuid>.get_Current
 	|
-	|-RVA: 0x178B8D0 Offset: 0x1789ED0 VA: 0x18178B8D0
+	|-RVA: 0x178B7D0 Offset: 0x1789DD0 VA: 0x18178B7D0
 	|-Array.EmptyInternalEnumerator<SqlInt16>.get_Current
 	|
-	|-RVA: 0x178C1D0 Offset: 0x178A7D0 VA: 0x18178C1D0
+	|-RVA: 0x178C0D0 Offset: 0x178A6D0 VA: 0x18178C0D0
 	|-Array.EmptyInternalEnumerator<SqlInt32>.get_Current
 	|
-	|-RVA: 0x178C110 Offset: 0x178A710 VA: 0x18178C110
+	|-RVA: 0x178C010 Offset: 0x178A610 VA: 0x18178C010
 	|-Array.EmptyInternalEnumerator<SqlInt64>.get_Current
 	|
-	|-RVA: 0x178EE70 Offset: 0x178D470 VA: 0x18178EE70
+	|-RVA: 0x178ED70 Offset: 0x178D370 VA: 0x18178ED70
 	|-Array.EmptyInternalEnumerator<SqlMoney>.get_Current
 	|
-	|-RVA: 0x178C890 Offset: 0x178AE90 VA: 0x18178C890
+	|-RVA: 0x178C790 Offset: 0x178AD90 VA: 0x18178C790
 	|-Array.EmptyInternalEnumerator<SqlSingle>.get_Current
 	|
-	|-RVA: 0x178E990 Offset: 0x178CF90 VA: 0x18178E990
+	|-RVA: 0x178E890 Offset: 0x178CE90 VA: 0x18178E890
 	|-Array.EmptyInternalEnumerator<SqlString>.get_Current
 	|
-	|-RVA: 0x178D670 Offset: 0x178BC70 VA: 0x18178D670
+	|-RVA: 0x178D570 Offset: 0x178BB70 VA: 0x18178D570
 	|-Array.EmptyInternalEnumerator<DateTime>.get_Current
 	|
-	|-RVA: 0x178C290 Offset: 0x178A890 VA: 0x18178C290
+	|-RVA: 0x178C190 Offset: 0x178A790 VA: 0x18178C190
 	|-Array.EmptyInternalEnumerator<DateTimeOffset>.get_Current
 	|
-	|-RVA: 0x178AE50 Offset: 0x1789450 VA: 0x18178AE50
+	|-RVA: 0x178AD50 Offset: 0x1789350 VA: 0x18178AD50
 	|-Array.EmptyInternalEnumerator<Decimal>.get_Current
 	|
-	|-RVA: 0x178E8D0 Offset: 0x178CED0 VA: 0x18178E8D0
+	|-RVA: 0x178E7D0 Offset: 0x178CDD0 VA: 0x18178E7D0
 	|-Array.EmptyInternalEnumerator<EventProvider.SessionInfo>.get_Current
 	|
-	|-RVA: 0x178D9D0 Offset: 0x178BFD0 VA: 0x18178D9D0
+	|-RVA: 0x178D8D0 Offset: 0x178BED0 VA: 0x18178D8D0
 	|-Array.EmptyInternalEnumerator<EventSource.EventMetadata>.get_Current
 	|
-	|-RVA: 0x178AB50 Offset: 0x1789150 VA: 0x18178AB50
+	|-RVA: 0x178AA50 Offset: 0x1789050 VA: 0x18178AA50
 	|-Array.EmptyInternalEnumerator<double>.get_Current
 	|
-	|-RVA: 0x178AA30 Offset: 0x1789030 VA: 0x18178AA30
+	|-RVA: 0x178A930 Offset: 0x1788F30 VA: 0x18178A930
 	|-Array.EmptyInternalEnumerator<InternalCodePageDataItem>.get_Current
 	|
-	|-RVA: 0x178DEB0 Offset: 0x178C4B0 VA: 0x18178DEB0
+	|-RVA: 0x178DDB0 Offset: 0x178C3B0 VA: 0x18178DDB0
 	|-Array.EmptyInternalEnumerator<InternalEncodingDataItem>.get_Current
 	|
-	|-RVA: 0x178C8F0 Offset: 0x178AEF0 VA: 0x18178C8F0
+	|-RVA: 0x178C7F0 Offset: 0x178ADF0 VA: 0x18178C7F0
 	|-Array.EmptyInternalEnumerator<TimeSpanParse.TimeSpanToken>.get_Current
 	|
-	|-RVA: 0x178C710 Offset: 0x178AD10 VA: 0x18178C710
+	|-RVA: 0x178C610 Offset: 0x178AC10 VA: 0x18178C610
 	|-Array.EmptyInternalEnumerator<Guid>.get_Current
 	|
-	|-RVA: 0x178DA90 Offset: 0x178C090 VA: 0x18178DA90
+	|-RVA: 0x178D990 Offset: 0x178BF90 VA: 0x18178D990
 	|-Array.EmptyInternalEnumerator<short>.get_Current
 	|
-	|-RVA: 0x178C590 Offset: 0x178AB90 VA: 0x18178C590
+	|-RVA: 0x178C490 Offset: 0x178AA90 VA: 0x18178C490
 	|-Array.EmptyInternalEnumerator<int>.get_Current
 	|
-	|-RVA: 0x178C3B0 Offset: 0x178A9B0 VA: 0x18178C3B0
+	|-RVA: 0x178C2B0 Offset: 0x178A8B0 VA: 0x18178C2B0
 	|-Array.EmptyInternalEnumerator<Int32Enum>.get_Current
 	|
-	|-RVA: 0x178B9F0 Offset: 0x1789FF0 VA: 0x18178B9F0
+	|-RVA: 0x178B8F0 Offset: 0x1789EF0 VA: 0x18178B8F0
 	|-Array.EmptyInternalEnumerator<long>.get_Current
 	|
-	|-RVA: 0x178BC30 Offset: 0x178A230 VA: 0x18178BC30
+	|-RVA: 0x178BB30 Offset: 0x178A130 VA: 0x18178BB30
 	|-Array.EmptyInternalEnumerator<IntPtr>.get_Current
 	|
-	|-RVA: 0x178DFD0 Offset: 0x178C5D0 VA: 0x18178DFD0
+	|-RVA: 0x178DED0 Offset: 0x178C4D0 VA: 0x18178DED0
 	|-Array.EmptyInternalEnumerator<Set.Slot<ServerInfo>>.get_Current
 	|
-	|-RVA: 0x178D310 Offset: 0x178B910 VA: 0x18178D310
+	|-RVA: 0x178D210 Offset: 0x178B810 VA: 0x18178D210
 	|-Array.EmptyInternalEnumerator<Set.Slot<char>>.get_Current
 	|
-	|-RVA: 0x178E690 Offset: 0x178CC90 VA: 0x18178E690
+	|-RVA: 0x178E590 Offset: 0x178CB90 VA: 0x18178E590
 	|-Array.EmptyInternalEnumerator<Set.Slot<object>>.get_Current
 	|
-	|-RVA: 0x178C830 Offset: 0x178AE30 VA: 0x18178C830
+	|-RVA: 0x178C730 Offset: 0x178AD30 VA: 0x18178C730
 	|-Array.EmptyInternalEnumerator<Set.Slot<float>>.get_Current
 	|
-	|-RVA: 0x178BA50 Offset: 0x178A050 VA: 0x18178BA50
+	|-RVA: 0x178B950 Offset: 0x1789F50 VA: 0x18178B950
 	|-Array.EmptyInternalEnumerator<Set.Slot<Vector2>>.get_Current
 	|
-	|-RVA: 0x178B390 Offset: 0x1789990 VA: 0x18178B390
+	|-RVA: 0x178B290 Offset: 0x1789890 VA: 0x18178B290
 	|-Array.EmptyInternalEnumerator<CookieTokenizer.RecognizedAttribute>.get_Current
 	|
-	|-RVA: 0x117C070 Offset: 0x117A670 VA: 0x18117C070
+	|-RVA: 0x117BF70 Offset: 0x117A570 VA: 0x18117BF70
 	|-Array.EmptyInternalEnumerator<HeaderVariantInfo>.get_Current
 	|
-	|-RVA: 0x117DF90 Offset: 0x117C590 VA: 0x18117DF90
+	|-RVA: 0x117DE90 Offset: 0x117C490 VA: 0x18117DE90
 	|-Array.EmptyInternalEnumerator<Socket.WSABUF>.get_Current
 	|
-	|-RVA: 0x117BBF0 Offset: 0x117A1F0 VA: 0x18117BBF0
+	|-RVA: 0x117BAF0 Offset: 0x117A0F0 VA: 0x18117BAF0
 	|-Array.EmptyInternalEnumerator<BigInteger>.get_Current
 	|
-	|-RVA: 0x117B4D0 Offset: 0x1179AD0 VA: 0x18117B4D0
+	|-RVA: 0x117B3D0 Offset: 0x11799D0 VA: 0x18117B3D0
 	|-Array.EmptyInternalEnumerator<object>.get_Current
 	|
-	|-RVA: 0x117C250 Offset: 0x117A850 VA: 0x18117C250
+	|-RVA: 0x117C150 Offset: 0x117A750 VA: 0x18117C150
 	|-Array.EmptyInternalEnumerator<ParameterizedStrings.FormatParam>.get_Current
 	|
-	|-RVA: 0x117C970 Offset: 0x117AF70 VA: 0x18117C970
+	|-RVA: 0x117C870 Offset: 0x117AE70 VA: 0x18117C870
 	|-Array.EmptyInternalEnumerator<CustomAttributeNamedArgument>.get_Current
 	|
-	|-RVA: 0x117BE90 Offset: 0x117A490 VA: 0x18117BE90
+	|-RVA: 0x117BD90 Offset: 0x117A390 VA: 0x18117BD90
 	|-Array.EmptyInternalEnumerator<CustomAttributeTypedArgument>.get_Current
 	|
-	|-RVA: 0x117DE10 Offset: 0x117C410 VA: 0x18117DE10
+	|-RVA: 0x117DD10 Offset: 0x117C310 VA: 0x18117DD10
 	|-Array.EmptyInternalEnumerator<ParameterModifier>.get_Current
 	|
-	|-RVA: 0x117C9D0 Offset: 0x117AFD0 VA: 0x18117C9D0
+	|-RVA: 0x117C8D0 Offset: 0x117AED0 VA: 0x18117C8D0
 	|-Array.EmptyInternalEnumerator<ResourceLocator>.get_Current
 	|
-	|-RVA: 0x117C850 Offset: 0x117AE50 VA: 0x18117C850
+	|-RVA: 0x117C750 Offset: 0x117AD50 VA: 0x18117C750
 	|-Array.EmptyInternalEnumerator<Ephemeron>.get_Current
 	|
-	|-RVA: 0x117C6D0 Offset: 0x117ACD0 VA: 0x18117C6D0
+	|-RVA: 0x117C5D0 Offset: 0x117ABD0 VA: 0x18117C5D0
 	|-Array.EmptyInternalEnumerator<GCHandle>.get_Current
 	|
-	|-RVA: 0x117B470 Offset: 0x1179A70 VA: 0x18117B470
+	|-RVA: 0x117B370 Offset: 0x1179970 VA: 0x18117B370
 	|-Array.EmptyInternalEnumerator<sbyte>.get_Current
 	|
-	|-RVA: 0x117D990 Offset: 0x117BF90 VA: 0x18117D990
+	|-RVA: 0x117D890 Offset: 0x117BE90 VA: 0x18117D890
 	|-Array.EmptyInternalEnumerator<X509ChainStatus>.get_Current
 	|
-	|-RVA: 0x117B290 Offset: 0x1179890 VA: 0x18117B290
+	|-RVA: 0x117B190 Offset: 0x1179790 VA: 0x18117B190
 	|-Array.EmptyInternalEnumerator<float>.get_Current
 	|
-	|-RVA: 0x117B2F0 Offset: 0x11798F0 VA: 0x18117B2F0
+	|-RVA: 0x117B1F0 Offset: 0x11797F0 VA: 0x18117B1F0
 	|-Array.EmptyInternalEnumerator<RegexCharClass.LowerCaseMapping>.get_Current
 	|
-	|-RVA: 0x117D2D0 Offset: 0x117B8D0 VA: 0x18117D2D0
+	|-RVA: 0x117D1D0 Offset: 0x117B7D0 VA: 0x18117D1D0
 	|-Array.EmptyInternalEnumerator<CancellationTokenRegistration>.get_Current
 	|
-	|-RVA: 0x117D030 Offset: 0x117B630 VA: 0x18117D030
+	|-RVA: 0x117CF30 Offset: 0x117B530 VA: 0x18117CF30
 	|-Array.EmptyInternalEnumerator<ThreadLocal.LinkedSlotVolatile<object>>.get_Current
 	|
-	|-RVA: 0x117DCF0 Offset: 0x117C2F0 VA: 0x18117DCF0
+	|-RVA: 0x117DBF0 Offset: 0x117C1F0 VA: 0x18117DBF0
 	|-Array.EmptyInternalEnumerator<TimeSpan>.get_Current
 	|
-	|-RVA: 0x117D270 Offset: 0x117B870 VA: 0x18117D270
+	|-RVA: 0x117D170 Offset: 0x117B770 VA: 0x18117D170
 	|-Array.EmptyInternalEnumerator<ushort>.get_Current
 	|
-	|-RVA: 0x117D390 Offset: 0x117B990 VA: 0x18117D390
+	|-RVA: 0x117D290 Offset: 0x117B890 VA: 0x18117D290
 	|-Array.EmptyInternalEnumerator<UInt16Enum>.get_Current
 	|
-	|-RVA: 0x117D750 Offset: 0x117BD50 VA: 0x18117D750
+	|-RVA: 0x117D650 Offset: 0x117BC50 VA: 0x18117D650
 	|-Array.EmptyInternalEnumerator<uint>.get_Current
 	|
-	|-RVA: 0x117C5B0 Offset: 0x117ABB0 VA: 0x18117C5B0
+	|-RVA: 0x117C4B0 Offset: 0x117AAB0 VA: 0x18117C4B0
 	|-Array.EmptyInternalEnumerator<UInt32Enum>.get_Current
 	|
-	|-RVA: 0x117D4B0 Offset: 0x117BAB0 VA: 0x18117D4B0
+	|-RVA: 0x117D3B0 Offset: 0x117B9B0 VA: 0x18117D3B0
 	|-Array.EmptyInternalEnumerator<ulong>.get_Current
 	|
-	|-RVA: 0x117D930 Offset: 0x117BF30 VA: 0x18117D930
+	|-RVA: 0x117D830 Offset: 0x117BE30 VA: 0x18117D830
 	|-Array.EmptyInternalEnumerator<UIntPtr>.get_Current
 	|
-	|-RVA: 0x117D1B0 Offset: 0x117B7B0 VA: 0x18117D1B0
+	|-RVA: 0x117D0B0 Offset: 0x117B6B0 VA: 0x18117D0B0
 	|-Array.EmptyInternalEnumerator<ValueTuple<Int32Enum, int>>.get_Current
 	|
-	|-RVA: 0x117DC30 Offset: 0x117C230 VA: 0x18117DC30
+	|-RVA: 0x117DB30 Offset: 0x117C130 VA: 0x18117DB30
 	|-Array.EmptyInternalEnumerator<ValueTuple<object, object>>.get_Current
 	|
-	|-RVA: 0x117D150 Offset: 0x117B750 VA: 0x18117D150
+	|-RVA: 0x117D050 Offset: 0x117B650 VA: 0x18117D050
 	|-Array.EmptyInternalEnumerator<XHashtable.XHashtableState.Entry<object>>.get_Current
 	|
-	|-RVA: 0x117D6F0 Offset: 0x117BCF0 VA: 0x18117D6F0
+	|-RVA: 0x117D5F0 Offset: 0x117BBF0 VA: 0x18117D5F0
 	|-Array.EmptyInternalEnumerator<FacetsChecker.FacetsCompiler.Map>.get_Current
 	|
-	|-RVA: 0x117DBD0 Offset: 0x117C1D0 VA: 0x18117DBD0
+	|-RVA: 0x117DAD0 Offset: 0x117C0D0 VA: 0x18117DAD0
 	|-Array.EmptyInternalEnumerator<RangePositionInfo>.get_Current
 	|
-	|-RVA: 0x117D450 Offset: 0x117BA50 VA: 0x18117D450
+	|-RVA: 0x117D350 Offset: 0x117B950 VA: 0x18117D350
 	|-Array.EmptyInternalEnumerator<SequenceNode.SequenceConstructPosContext>.get_Current
 	|
-	|-RVA: 0x117C2B0 Offset: 0x117A8B0 VA: 0x18117C2B0
+	|-RVA: 0x117C1B0 Offset: 0x117A7B0 VA: 0x18117C1B0
 	|-Array.EmptyInternalEnumerator<XmlSchemaObjectTable.XmlSchemaObjectEntry>.get_Current
 	|
-	|-RVA: 0x117B650 Offset: 0x1179C50 VA: 0x18117B650
+	|-RVA: 0x117B550 Offset: 0x1179B50 VA: 0x18117B550
 	|-Array.EmptyInternalEnumerator<XmlEventCache.XmlEvent>.get_Current
 	|
-	|-RVA: 0x117CC70 Offset: 0x117B270 VA: 0x18117CC70
+	|-RVA: 0x117CB70 Offset: 0x117B170 VA: 0x18117CB70
 	|-Array.EmptyInternalEnumerator<XmlNamespaceManager.NamespaceDeclaration>.get_Current
 	|
-	|-RVA: 0x117D630 Offset: 0x117BC30 VA: 0x18117D630
+	|-RVA: 0x117D530 Offset: 0x117BB30 VA: 0x18117D530
 	|-Array.EmptyInternalEnumerator<XmlNodeReaderNavigator.VirtualAttribute>.get_Current
 	|
-	|-RVA: 0x117CA30 Offset: 0x117B030 VA: 0x18117CA30
+	|-RVA: 0x117C930 Offset: 0x117AF30 VA: 0x18117C930
 	|-Array.EmptyInternalEnumerator<XmlSqlBinaryReader.AttrInfo>.get_Current
 	|
-	|-RVA: 0x117DDB0 Offset: 0x117C3B0 VA: 0x18117DDB0
+	|-RVA: 0x117DCB0 Offset: 0x117C2B0 VA: 0x18117DCB0
 	|-Array.EmptyInternalEnumerator<XmlSqlBinaryReader.ElemInfo>.get_Current
 	|
-	|-RVA: 0x117C670 Offset: 0x117AC70 VA: 0x18117C670
+	|-RVA: 0x117C570 Offset: 0x117AB70 VA: 0x18117C570
 	|-Array.EmptyInternalEnumerator<XmlSqlBinaryReader.QName>.get_Current
 	|
-	|-RVA: 0x117BB30 Offset: 0x117A130 VA: 0x18117BB30
+	|-RVA: 0x117BA30 Offset: 0x117A030 VA: 0x18117BA30
 	|-Array.EmptyInternalEnumerator<XmlTextReaderImpl.ParsingState>.get_Current
 	|
-	|-RVA: 0x117BDD0 Offset: 0x117A3D0 VA: 0x18117BDD0
+	|-RVA: 0x117BCD0 Offset: 0x117A2D0 VA: 0x18117BCD0
 	|-Array.EmptyInternalEnumerator<XmlTextWriter.Namespace>.get_Current
 	|
-	|-RVA: 0x117B350 Offset: 0x1179950 VA: 0x18117B350
+	|-RVA: 0x117B250 Offset: 0x1179850 VA: 0x18117B250
 	|-Array.EmptyInternalEnumerator<XmlTextWriter.TagInfo>.get_Current
 	|
-	|-RVA: 0x117C130 Offset: 0x117A730 VA: 0x18117C130
+	|-RVA: 0x117C030 Offset: 0x117A630 VA: 0x18117C030
 	|-Array.EmptyInternalEnumerator<XmlWellFormedWriter.AttrName>.get_Current
 	|
-	|-RVA: 0x117BFB0 Offset: 0x117A5B0 VA: 0x18117BFB0
+	|-RVA: 0x117BEB0 Offset: 0x117A4B0 VA: 0x18117BEB0
 	|-Array.EmptyInternalEnumerator<XmlWellFormedWriter.ElementScope>.get_Current
 	|
-	|-RVA: 0x117BC50 Offset: 0x117A250 VA: 0x18117BC50
+	|-RVA: 0x117BB50 Offset: 0x117A150 VA: 0x18117BB50
 	|-Array.EmptyInternalEnumerator<XmlWellFormedWriter.Namespace>.get_Current
 	|
-	|-RVA: 0x117D690 Offset: 0x117BC90 VA: 0x18117D690
+	|-RVA: 0x117D590 Offset: 0x117BB90 VA: 0x18117D590
 	|-Array.EmptyInternalEnumerator<MaterialReference>.get_Current
 	|
-	|-RVA: 0x117B1D0 Offset: 0x11797D0 VA: 0x18117B1D0
+	|-RVA: 0x117B0D0 Offset: 0x11796D0 VA: 0x18117B0D0
 	|-Array.EmptyInternalEnumerator<RichTextTagAttribute>.get_Current
 	|
-	|-RVA: 0x117CD30 Offset: 0x117B330 VA: 0x18117CD30
+	|-RVA: 0x117CC30 Offset: 0x117B230 VA: 0x18117CC30
 	|-Array.EmptyInternalEnumerator<TMP_CharacterInfo>.get_Current
 	|
-	|-RVA: 0x117D5D0 Offset: 0x117BBD0 VA: 0x18117D5D0
+	|-RVA: 0x117D4D0 Offset: 0x117BAD0 VA: 0x18117D4D0
 	|-Array.EmptyInternalEnumerator<TMP_FontWeightPair>.get_Current
 	|
-	|-RVA: 0x117C190 Offset: 0x117A790 VA: 0x18117C190
+	|-RVA: 0x117C090 Offset: 0x117A690 VA: 0x18117C090
 	|-Array.EmptyInternalEnumerator<TMP_LineInfo>.get_Current
 	|
-	|-RVA: 0x117D0F0 Offset: 0x117B6F0 VA: 0x18117D0F0
+	|-RVA: 0x117CFF0 Offset: 0x117B5F0 VA: 0x18117CFF0
 	|-Array.EmptyInternalEnumerator<TMP_LinkInfo>.get_Current
 	|
-	|-RVA: 0x117BCB0 Offset: 0x117A2B0 VA: 0x18117BCB0
+	|-RVA: 0x117BBB0 Offset: 0x117A1B0 VA: 0x18117BBB0
 	|-Array.EmptyInternalEnumerator<TMP_MeshInfo>.get_Current
 	|
-	|-RVA: 0x117CDF0 Offset: 0x117B3F0 VA: 0x18117CDF0
+	|-RVA: 0x117CCF0 Offset: 0x117B2F0 VA: 0x18117CCF0
 	|-Array.EmptyInternalEnumerator<TMP_PageInfo>.get_Current
 	|
-	|-RVA: 0x117DAB0 Offset: 0x117C0B0 VA: 0x18117DAB0
+	|-RVA: 0x117D9B0 Offset: 0x117BFB0 VA: 0x18117D9B0
 	|-Array.EmptyInternalEnumerator<TMP_Text.UnicodeChar>.get_Current
 	|
-	|-RVA: 0x117CAF0 Offset: 0x117B0F0 VA: 0x18117CAF0
+	|-RVA: 0x117C9F0 Offset: 0x117AFF0 VA: 0x18117C9F0
 	|-Array.EmptyInternalEnumerator<TMP_WordInfo>.get_Current
 	|
-	|-RVA: 0x117CB50 Offset: 0x117B150 VA: 0x18117CB50
+	|-RVA: 0x117CA50 Offset: 0x117B050 VA: 0x18117CA50
 	|-Array.EmptyInternalEnumerator<TickInterpolator.Segment>.get_Current
 	|
-	|-RVA: 0x117C3D0 Offset: 0x117A9D0 VA: 0x18117C3D0
+	|-RVA: 0x117C2D0 Offset: 0x117A8D0 VA: 0x18117C2D0
 	|-Array.EmptyInternalEnumerator<TimeSince>.get_Current
 	|
-	|-RVA: 0x117D330 Offset: 0x117B930 VA: 0x18117D330
+	|-RVA: 0x117D230 Offset: 0x117B830 VA: 0x18117D230
 	|-Array.EmptyInternalEnumerator<TraceInfo>.get_Current
 	|
-	|-RVA: 0x117C490 Offset: 0x117AA90 VA: 0x18117C490
+	|-RVA: 0x117C390 Offset: 0x117A990 VA: 0x18117C390
 	|-Array.EmptyInternalEnumerator<TrainCar.TrainCarSnapshot>.get_Current
 	|
-	|-RVA: 0x117B6B0 Offset: 0x1179CB0 VA: 0x18117B6B0
+	|-RVA: 0x117B5B0 Offset: 0x1179BB0 VA: 0x18117B5B0
 	|-Array.EmptyInternalEnumerator<TreeMarkerData.GenerationArc>.get_Current
 	|
-	|-RVA: 0x117DF30 Offset: 0x117C530 VA: 0x18117DF30
+	|-RVA: 0x117DE30 Offset: 0x117C430 VA: 0x18117DE30
 	|-Array.EmptyInternalEnumerator<TreeMarkerData.MarkerLocation>.get_Current
 	|
-	|-RVA: 0x117CCD0 Offset: 0x117B2D0 VA: 0x18117CCD0
+	|-RVA: 0x117CBD0 Offset: 0x117B1D0 VA: 0x18117CBD0
 	|-Array.EmptyInternalEnumerator<UIDeathScreen.RespawnColourScheme>.get_Current
 	|
-	|-RVA: 0x117DB10 Offset: 0x117C110 VA: 0x18117DB10
+	|-RVA: 0x117DA10 Offset: 0x117C010 VA: 0x18117DA10
 	|-Array.EmptyInternalEnumerator<JobHandle>.get_Current
 	|
-	|-RVA: 0x117E0B0 Offset: 0x117C6B0 VA: 0x18117E0B0
+	|-RVA: 0x117DFB0 Offset: 0x117C5B0 VA: 0x18117DFB0
 	|-Array.EmptyInternalEnumerator<float3>.get_Current
 	|
-	|-RVA: 0x117B7D0 Offset: 0x1179DD0 VA: 0x18117B7D0
+	|-RVA: 0x117B6D0 Offset: 0x1179CD0 VA: 0x18117B6D0
 	|-Array.EmptyInternalEnumerator<half2>.get_Current
 	|
-	|-RVA: 0x117C7F0 Offset: 0x117ADF0 VA: 0x18117C7F0
+	|-RVA: 0x117C6F0 Offset: 0x117ACF0 VA: 0x18117C6F0
 	|-Array.EmptyInternalEnumerator<NavMeshBuildMarkup>.get_Current
 	|
-	|-RVA: 0x117BEF0 Offset: 0x117A4F0 VA: 0x18117BEF0
+	|-RVA: 0x117BDF0 Offset: 0x117A3F0 VA: 0x18117BDF0
 	|-Array.EmptyInternalEnumerator<NavMeshBuildSource>.get_Current
 	|
-	|-RVA: 0x117CD90 Offset: 0x117B390 VA: 0x18117CD90
+	|-RVA: 0x117CC90 Offset: 0x117B290 VA: 0x18117CC90
 	|-Array.EmptyInternalEnumerator<AnimatorClipInfo>.get_Current
 	|
-	|-RVA: 0x117B710 Offset: 0x1179D10 VA: 0x18117B710
+	|-RVA: 0x117B610 Offset: 0x1179C10 VA: 0x18117B610
 	|-Array.EmptyInternalEnumerator<BeforeRenderHelper.OrderBlock>.get_Current
 	|
-	|-RVA: 0x117DA50 Offset: 0x117C050 VA: 0x18117DA50
+	|-RVA: 0x117D950 Offset: 0x117BF50 VA: 0x18117D950
 	|-Array.EmptyInternalEnumerator<BoneWeight>.get_Current
 	|
-	|-RVA: 0x117BE30 Offset: 0x117A430 VA: 0x18117BE30
+	|-RVA: 0x117BD30 Offset: 0x117A330 VA: 0x18117BD30
 	|-Array.EmptyInternalEnumerator<BoundingSphere>.get_Current
 	|
-	|-RVA: 0x117D510 Offset: 0x117BB10 VA: 0x18117D510
+	|-RVA: 0x117D410 Offset: 0x117BA10 VA: 0x18117D410
 	|-Array.EmptyInternalEnumerator<Color32>.get_Current
 	|
-	|-RVA: 0x117C4F0 Offset: 0x117AAF0 VA: 0x18117C4F0
+	|-RVA: 0x117C3F0 Offset: 0x117A9F0 VA: 0x18117C3F0
 	|-Array.EmptyInternalEnumerator<Color>.get_Current
 	|
-	|-RVA: 0x117CF70 Offset: 0x117B570 VA: 0x18117CF70
+	|-RVA: 0x117CE70 Offset: 0x117B470 VA: 0x18117CE70
 	|-Array.EmptyInternalEnumerator<ContactPoint2D>.get_Current
 	|
-	|-RVA: 0x117E050 Offset: 0x117C650 VA: 0x18117E050
+	|-RVA: 0x117DF50 Offset: 0x117C550 VA: 0x18117DF50
 	|-Array.EmptyInternalEnumerator<ContactPoint>.get_Current
 	|
-	|-RVA: 0x117B410 Offset: 0x1179A10 VA: 0x18117B410
+	|-RVA: 0x117B310 Offset: 0x1179910 VA: 0x18117B310
 	|-Array.EmptyInternalEnumerator<RaycastResult>.get_Current
 	|
-	|-RVA: 0x117DD50 Offset: 0x117C350 VA: 0x18117DD50
+	|-RVA: 0x117DC50 Offset: 0x117C250 VA: 0x18117DC50
 	|-Array.EmptyInternalEnumerator<LightDataGI>.get_Current
 	|
-	|-RVA: 0x117BAD0 Offset: 0x117A0D0 VA: 0x18117BAD0
+	|-RVA: 0x117B9D0 Offset: 0x1179FD0 VA: 0x18117B9D0
 	|-Array.EmptyInternalEnumerator<TerrainUtility.TerrainMap.TileCoord>.get_Current
 	|
-	|-RVA: 0x117B590 Offset: 0x1179B90 VA: 0x18117B590
+	|-RVA: 0x117B490 Offset: 0x1179A90 VA: 0x18117B490
 	|-Array.EmptyInternalEnumerator<GradientAlphaKey>.get_Current
 	|
-	|-RVA: 0x117BB90 Offset: 0x117A190 VA: 0x18117BB90
+	|-RVA: 0x117BA90 Offset: 0x117A090 VA: 0x18117BA90
 	|-Array.EmptyInternalEnumerator<GradientColorKey>.get_Current
 	|
-	|-RVA: 0x117C010 Offset: 0x117A610 VA: 0x18117C010
+	|-RVA: 0x117BF10 Offset: 0x117A510 VA: 0x18117BF10
 	|-Array.EmptyInternalEnumerator<Keyframe>.get_Current
 	|
-	|-RVA: 0x117B170 Offset: 0x1179770 VA: 0x18117B170
+	|-RVA: 0x117B070 Offset: 0x1179670 VA: 0x18117B070
 	|-Array.EmptyInternalEnumerator<LOD>.get_Current
 	|
-	|-RVA: 0x117DFF0 Offset: 0x117C5F0 VA: 0x18117DFF0
+	|-RVA: 0x117DEF0 Offset: 0x117C4F0 VA: 0x18117DEF0
 	|-Array.EmptyInternalEnumerator<PlayerLoopSystem>.get_Current
 	|
-	|-RVA: 0x117D3F0 Offset: 0x117B9F0 VA: 0x18117D3F0
+	|-RVA: 0x117D2F0 Offset: 0x117B8F0 VA: 0x18117D2F0
 	|-Array.EmptyInternalEnumerator<Matrix4x4>.get_Current
 	|
-	|-RVA: 0x117B830 Offset: 0x1179E30 VA: 0x18117B830
+	|-RVA: 0x117B730 Offset: 0x1179D30 VA: 0x18117B730
 	|-Array.EmptyInternalEnumerator<Plane>.get_Current
 	|
-	|-RVA: 0x117DED0 Offset: 0x117C4D0 VA: 0x18117DED0
+	|-RVA: 0x117DDD0 Offset: 0x117C3D0 VA: 0x18117DDD0
 	|-Array.EmptyInternalEnumerator<PlayableBinding>.get_Current
 	|
-	|-RVA: 0x117B950 Offset: 0x1179F50 VA: 0x18117B950
+	|-RVA: 0x117B850 Offset: 0x1179E50 VA: 0x18117B850
 	|-Array.EmptyInternalEnumerator<Quaternion>.get_Current
 	|
-	|-RVA: 0x117CBB0 Offset: 0x117B1B0 VA: 0x18117CBB0
+	|-RVA: 0x117CAB0 Offset: 0x117B0B0 VA: 0x18117CAB0
 	|-Array.EmptyInternalEnumerator<RaycastCommand>.get_Current
 	|
-	|-RVA: 0x117C730 Offset: 0x117AD30 VA: 0x18117C730
+	|-RVA: 0x117C630 Offset: 0x117AC30 VA: 0x18117C630
 	|-Array.EmptyInternalEnumerator<RaycastHit2D>.get_Current
 	|
-	|-RVA: 0x117C550 Offset: 0x117AB50 VA: 0x18117C550
+	|-RVA: 0x117C450 Offset: 0x117AA50 VA: 0x18117C450
 	|-Array.EmptyInternalEnumerator<RaycastHit>.get_Current
 	|
-	|-RVA: 0x117B9B0 Offset: 0x1179FB0 VA: 0x18117B9B0
+	|-RVA: 0x117B8B0 Offset: 0x1179EB0 VA: 0x18117B8B0
 	|-Array.EmptyInternalEnumerator<Rect>.get_Current
 	|
-	|-RVA: 0x117C910 Offset: 0x117AF10 VA: 0x18117C910
+	|-RVA: 0x117C810 Offset: 0x117AE10 VA: 0x18117C810
 	|-Array.EmptyInternalEnumerator<AsyncGPUReadbackRequest>.get_Current
 	|
-	|-RVA: 0x117B770 Offset: 0x1179D70 VA: 0x18117B770
+	|-RVA: 0x117B670 Offset: 0x1179C70 VA: 0x18117B670
 	|-Array.EmptyInternalEnumerator<BatchVisibility>.get_Current
 	|
-	|-RVA: 0x117CC10 Offset: 0x117B210 VA: 0x18117CC10
+	|-RVA: 0x117CB10 Offset: 0x117B110 VA: 0x18117CB10
 	|-Array.EmptyInternalEnumerator<BloomRenderer.Level>.get_Current
 	|
-	|-RVA: 0x117C610 Offset: 0x117AC10 VA: 0x18117C610
+	|-RVA: 0x117C510 Offset: 0x117AB10 VA: 0x18117C510
 	|-Array.EmptyInternalEnumerator<RenderTargetIdentifier>.get_Current
 	|
-	|-RVA: 0x117B8F0 Offset: 0x1179EF0 VA: 0x18117B8F0
+	|-RVA: 0x117B7F0 Offset: 0x1179DF0 VA: 0x18117B7F0
 	|-Array.EmptyInternalEnumerator<SphericalHarmonicsL2>.get_Current
 	|
-	|-RVA: 0x117D210 Offset: 0x117B810 VA: 0x18117D210
+	|-RVA: 0x117D110 Offset: 0x117B710 VA: 0x18117D110
 	|-Array.EmptyInternalEnumerator<VertexAttributeDescriptor>.get_Current
 	|
-	|-RVA: 0x117DC90 Offset: 0x117C290 VA: 0x18117DC90
+	|-RVA: 0x117DB90 Offset: 0x117C190 VA: 0x18117DB90
 	|-Array.EmptyInternalEnumerator<Resolution>.get_Current
 	|
-	|-RVA: 0x117CA90 Offset: 0x117B090 VA: 0x18117CA90
+	|-RVA: 0x117C990 Offset: 0x117AF90 VA: 0x18117C990
 	|-Array.EmptyInternalEnumerator<SendMouseEvents.HitInfo>.get_Current
 	|
-	|-RVA: 0x117BD10 Offset: 0x117A310 VA: 0x18117BD10
+	|-RVA: 0x117BC10 Offset: 0x117A210 VA: 0x18117BC10
 	|-Array.EmptyInternalEnumerator<GlyphRect>.get_Current
 	|
-	|-RVA: 0x117B230 Offset: 0x1179830 VA: 0x18117B230
+	|-RVA: 0x117B130 Offset: 0x1179730 VA: 0x18117B130
 	|-Array.EmptyInternalEnumerator<GlyphMarshallingStruct>.get_Current
 	|
-	|-RVA: 0x117DB70 Offset: 0x117C170 VA: 0x18117DB70
+	|-RVA: 0x117DA70 Offset: 0x117C070 VA: 0x18117DA70
 	|-Array.EmptyInternalEnumerator<GlyphPairAdjustmentRecord>.get_Current
 	|
-	|-RVA: 0x117DE70 Offset: 0x117C470 VA: 0x18117DE70
+	|-RVA: 0x117DD70 Offset: 0x117C370 VA: 0x18117DD70
 	|-Array.EmptyInternalEnumerator<Touch>.get_Current
 	|
-	|-RVA: 0x117B5F0 Offset: 0x1179BF0 VA: 0x18117B5F0
+	|-RVA: 0x117B4F0 Offset: 0x1179AF0 VA: 0x18117B4F0
 	|-Array.EmptyInternalEnumerator<TreeInstance>.get_Current
 	|
-	|-RVA: 0x117D090 Offset: 0x117B690 VA: 0x18117D090
+	|-RVA: 0x117CF90 Offset: 0x117B590 VA: 0x18117CF90
 	|-Array.EmptyInternalEnumerator<ColorBlock>.get_Current
 	|
-	|-RVA: 0x117D7B0 Offset: 0x117BDB0 VA: 0x18117D7B0
+	|-RVA: 0x117D6B0 Offset: 0x117BCB0 VA: 0x18117D6B0
 	|-Array.EmptyInternalEnumerator<Navigation>.get_Current
 	|
-	|-RVA: 0x117BF50 Offset: 0x117A550 VA: 0x18117BF50
+	|-RVA: 0x117BE50 Offset: 0x117A450 VA: 0x18117BE50
 	|-Array.EmptyInternalEnumerator<SpriteState>.get_Current
 	|
-	|-RVA: 0x117C310 Offset: 0x117A910 VA: 0x18117C310
+	|-RVA: 0x117C210 Offset: 0x117A810 VA: 0x18117C210
 	|-Array.EmptyInternalEnumerator<UICharInfo>.get_Current
 	|
-	|-RVA: 0x117BA10 Offset: 0x117A010 VA: 0x18117BA10
+	|-RVA: 0x117B910 Offset: 0x1179F10 VA: 0x18117B910
 	|-Array.EmptyInternalEnumerator<EventDispatcher.DispatchContext>.get_Current
 	|
-	|-RVA: 0x117B890 Offset: 0x1179E90 VA: 0x18117B890
+	|-RVA: 0x117B790 Offset: 0x1179D90 VA: 0x18117B790
 	|-Array.EmptyInternalEnumerator<EventDispatcher.EventRecord>.get_Current
 	|
-	|-RVA: 0x117B530 Offset: 0x1179B30 VA: 0x18117B530
+	|-RVA: 0x117B430 Offset: 0x1179A30 VA: 0x18117B430
 	|-Array.EmptyInternalEnumerator<FocusController.FocusedElement>.get_Current
 	|
-	|-RVA: 0x117D9F0 Offset: 0x117BFF0 VA: 0x18117D9F0
+	|-RVA: 0x117D8F0 Offset: 0x117BEF0 VA: 0x18117D8F0
 	|-Array.EmptyInternalEnumerator<StyleSheetCache.SheetHandleKey>.get_Current
 	|
-	|-RVA: 0x117BA70 Offset: 0x117A070 VA: 0x18117BA70
+	|-RVA: 0x117B970 Offset: 0x1179F70 VA: 0x18117B970
 	|-Array.EmptyInternalEnumerator<StyleValue>.get_Current
 	|
-	|-RVA: 0x117D8D0 Offset: 0x117BED0 VA: 0x18117D8D0
+	|-RVA: 0x117D7D0 Offset: 0x117BDD0 VA: 0x18117D7D0
 	|-Array.EmptyInternalEnumerator<UILineInfo>.get_Current
 	|
-	|-RVA: 0x117C8B0 Offset: 0x117AEB0 VA: 0x18117C8B0
+	|-RVA: 0x117C7B0 Offset: 0x117ADB0 VA: 0x18117C7B0
 	|-Array.EmptyInternalEnumerator<UIVertex>.get_Current
 	|
-	|-RVA: 0x117CE50 Offset: 0x117B450 VA: 0x18117CE50
+	|-RVA: 0x117CD50 Offset: 0x117B350 VA: 0x18117CD50
 	|-Array.EmptyInternalEnumerator<UnitySynchronizationContext.WorkRequest>.get_Current
 	|
-	|-RVA: 0x117C430 Offset: 0x117AA30 VA: 0x18117C430
+	|-RVA: 0x117C330 Offset: 0x117A930 VA: 0x18117C330
 	|-Array.EmptyInternalEnumerator<Vector2>.get_Current
 	|
-	|-RVA: 0x117C1F0 Offset: 0x117A7F0 VA: 0x18117C1F0
+	|-RVA: 0x117C0F0 Offset: 0x117A6F0 VA: 0x18117C0F0
 	|-Array.EmptyInternalEnumerator<Vector2Int>.get_Current
 	|
-	|-RVA: 0x117CF10 Offset: 0x117B510 VA: 0x18117CF10
+	|-RVA: 0x117CE10 Offset: 0x117B410 VA: 0x18117CE10
 	|-Array.EmptyInternalEnumerator<Vector3>.get_Current
 	|
-	|-RVA: 0x117D570 Offset: 0x117BB70 VA: 0x18117D570
+	|-RVA: 0x117D470 Offset: 0x117BA70 VA: 0x18117D470
 	|-Array.EmptyInternalEnumerator<Vector4>.get_Current
 	|
-	|-RVA: 0x117D870 Offset: 0x117BE70 VA: 0x18117D870
+	|-RVA: 0x117D770 Offset: 0x117BD70 VA: 0x18117D770
 	|-Array.EmptyInternalEnumerator<SemanticMeaning>.get_Current
 	|
-	|-RVA: 0x117C790 Offset: 0x117AD90 VA: 0x18117C790
+	|-RVA: 0x117C690 Offset: 0x117AC90 VA: 0x18117C690
 	|-Array.EmptyInternalEnumerator<jvalue>.get_Current
 	|
-	|-RVA: 0x117C0D0 Offset: 0x117A6D0 VA: 0x18117C0D0
+	|-RVA: 0x117BFD0 Offset: 0x117A5D0 VA: 0x18117BFD0
 	|-Array.EmptyInternalEnumerator<Vector2i>.get_Current
 	|
-	|-RVA: 0x117CEB0 Offset: 0x117B4B0 VA: 0x18117CEB0
+	|-RVA: 0x117CDB0 Offset: 0x117B3B0 VA: 0x18117CDB0
 	|-Array.EmptyInternalEnumerator<ViewModelDrawEvent>.get_Current
 	|
-	|-RVA: 0x117B3B0 Offset: 0x11799B0 VA: 0x18117B3B0
+	|-RVA: 0x117B2B0 Offset: 0x11798B0 VA: 0x18117B2B0
 	|-Array.EmptyInternalEnumerator<WaterDynamics.InstanceData>.get_Current
 	|
-	|-RVA: 0x117CFD0 Offset: 0x117B5D0 VA: 0x18117CFD0
+	|-RVA: 0x117CED0 Offset: 0x117B4D0 VA: 0x18117CED0
 	|-Array.EmptyInternalEnumerator<WaterGerstner.PrecomputedWave>.get_Current
 	|
-	|-RVA: 0x117C370 Offset: 0x117A970 VA: 0x18117C370
+	|-RVA: 0x117C270 Offset: 0x117A870 VA: 0x18117C270
 	|-Array.EmptyInternalEnumerator<WaterSimulation.Butterfly>.get_Current
 	|
-	|-RVA: 0x117D810 Offset: 0x117BE10 VA: 0x18117D810
+	|-RVA: 0x117D710 Offset: 0x117BD10 VA: 0x18117D710
 	|-Array.EmptyInternalEnumerator<WindZoneExManager.CurrentZoneEntry>.get_Current
 	|
-	|-RVA: 0x117BD70 Offset: 0x117A370 VA: 0x18117BD70
+	|-RVA: 0x117BC70 Offset: 0x117A270 VA: 0x18117BC70
 	|-Array.EmptyInternalEnumerator<WorldSplineData.LUTEntry.LUTPoint>.get_Current
 	*/
 
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x117A390 Offset: 0x1178990 VA: 0x18117A390
+	|-RVA: 0x117A290 Offset: 0x1178890 VA: 0x18117A290
 	|-Array.EmptyInternalEnumerator<AdvancedChristmasLights.pointEntry>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<AlignedLineDrawer.LinePoint>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Cassette.LoadRequest>.System.Collections.IEnumerator.get_Current
@@ -32104,7 +32104,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<StyleValue>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<UnitySynchronizationContext.WorkRequest>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A410 Offset: 0x1178A10 VA: 0x18117A410
+	|-RVA: 0x117A310 Offset: 0x1178910 VA: 0x18117A310
 	|-Array.EmptyInternalEnumerator<AtmosphereVolumeRenderer.CurrentVolumeEntry>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<AvatarCache.Entry>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<CommandBufferManager.CommandBufferEntry>.System.Collections.IEnumerator.get_Current
@@ -32321,7 +32321,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<WindZoneExManager.CurrentZoneEntry>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117AA00 Offset: 0x1179000 VA: 0x18117AA00
+	|-RVA: 0x117A900 Offset: 0x1178F00 VA: 0x18117A900
 	|-Array.EmptyInternalEnumerator<BaseEntity.ServerFileRequest>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<CameraMan.CameraState>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<CardTableUI.KeycodeWithAction>.System.Collections.IEnumerator.get_Current
@@ -32384,14 +32384,14 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<SpriteState>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<WaterDynamics.InstanceData>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117AF20 Offset: 0x1179520 VA: 0x18117AF20
+	|-RVA: 0x117AE20 Offset: 0x1179420 VA: 0x18117AE20
 	|-Array.EmptyInternalEnumerator<Admin.PlayerInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Gibbable.GibMesh>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<PlaceMonuments.SpawnInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<EventSource.EventMetadata>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Matrix4x4>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117AAE0 Offset: 0x11790E0 VA: 0x18117AAE0
+	|-RVA: 0x117A9E0 Offset: 0x1178FE0 VA: 0x18117A9E0
 	|-Array.EmptyInternalEnumerator<Admin.ServerUGCInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<CapsuleParams>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<BoneState>.System.Collections.IEnumerator.get_Current
@@ -32430,7 +32430,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Navigation>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<ViewModelDrawEvent>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A920 Offset: 0x1178F20 VA: 0x18117A920
+	|-RVA: 0x117A820 Offset: 0x1178E20 VA: 0x18117A820
 	|-Array.EmptyInternalEnumerator<DungeonGridConnectionHash>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<RealTimeSince>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<AppId>.System.Collections.IEnumerator.get_Current
@@ -32454,7 +32454,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<half2>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Color32>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A4E0 Offset: 0x1178AE0 VA: 0x18117A4E0
+	|-RVA: 0x117A3E0 Offset: 0x11789E0 VA: 0x18117A3E0
 	|-Array.EmptyInternalEnumerator<CRedge>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<ProjectileWeaponMod.Modifier>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<VectorData>.System.Collections.IEnumerator.get_Current
@@ -32484,7 +32484,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<UICharInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Vector3>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117AA80 Offset: 0x1179080 VA: 0x18117AA80
+	|-RVA: 0x117A980 Offset: 0x1178F80 VA: 0x18117A980
 	|-Array.EmptyInternalEnumerator<ERCell>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<ERConnectionGUIStatus>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<ERTerrainChange>.System.Collections.IEnumerator.get_Current
@@ -32560,20 +32560,20 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<jvalue>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Vector2i>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A560 Offset: 0x1178B60 VA: 0x18117A560
+	|-RVA: 0x117A460 Offset: 0x1178A60 VA: 0x18117A460
 	|-Array.EmptyInternalEnumerator<ERMeshCombineUtility.MeshInstance>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<RenderInfo.RendererInstance>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Option>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<LightDataGI>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<ColorBlock>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x12C4CF0 Offset: 0x12C32F0 VA: 0x1812C4CF0
+	|-RVA: 0x12C4BF0 Offset: 0x12C31F0 VA: 0x1812C4BF0
 	|-Array.EmptyInternalEnumerator<ERSOSection>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x12C4B90 Offset: 0x12C3190 VA: 0x1812C4B90
+	|-RVA: 0x12C4A90 Offset: 0x12C3090 VA: 0x1812C4A90
 	|-Array.EmptyInternalEnumerator<ERSplatmap>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117AB60 Offset: 0x1179160 VA: 0x18117AB60
+	|-RVA: 0x117AA60 Offset: 0x1179060 VA: 0x18117AA60
 	|-Array.EmptyInternalEnumerator<ERVSData>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<SqliteKeyReader.KeyInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<StringFormatCache.Key4, object>>.System.Collections.IEnumerator.get_Current
@@ -32582,10 +32582,10 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<XmlTextWriter.TagInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<ContactPoint2D>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x12C4E90 Offset: 0x12C3490 VA: 0x1812C4E90
+	|-RVA: 0x12C4D90 Offset: 0x12C3390 VA: 0x1812C4D90
 	|-Array.EmptyInternalEnumerator<BoneData>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A710 Offset: 0x1178D10 VA: 0x18117A710
+	|-RVA: 0x117A610 Offset: 0x1178C10 VA: 0x18117A610
 	|-Array.EmptyInternalEnumerator<ColliderData>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<bool, Decimal>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, bool>>.System.Collections.IEnumerator.get_Current
@@ -32602,7 +32602,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Keyframe>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<WaterGerstner.PrecomputedWave>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A790 Offset: 0x1178D90 VA: 0x18117A790
+	|-RVA: 0x117A690 Offset: 0x1178C90 VA: 0x18117A690
 	|-Array.EmptyInternalEnumerator<Tick.Entry>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Gibbable.OverrideMesh>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<MeshInstance>.System.Collections.IEnumerator.get_Current
@@ -32630,11 +32630,11 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<UIDeathScreen.RespawnColourScheme>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<GlyphMarshallingStruct>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A670 Offset: 0x1178C70 VA: 0x18117A670
+	|-RVA: 0x117A570 Offset: 0x1178B70 VA: 0x18117A570
 	|-Array.EmptyInternalEnumerator<FoliageGridMeshData.FoliageVertex>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Touch>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A980 Offset: 0x1178F80 VA: 0x18117A980
+	|-RVA: 0x117A880 Offset: 0x1178E80 VA: 0x18117A880
 	|-Array.EmptyInternalEnumerator<Kayak.PlayerAnimationState>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<CodePointIndexer.TableRange>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<DemoShotQuaternionKeyframe>.System.Collections.IEnumerator.get_Current
@@ -32657,7 +32657,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<TMP_PageInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<GradientColorKey>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A480 Offset: 0x1178A80 VA: 0x18117A480
+	|-RVA: 0x117A380 Offset: 0x1178980 VA: 0x18117A380
 	|-Array.EmptyInternalEnumerator<FourBitNumber>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<SevenBitNumber>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<bool>.System.Collections.IEnumerator.get_Current
@@ -32666,31 +32666,31 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<SqlBoolean>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<sbyte>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x12C4850 Offset: 0x12C2E50 VA: 0x1812C4850
+	|-RVA: 0x12C4750 Offset: 0x12C2D50 VA: 0x1812C4750
 	|-Array.EmptyInternalEnumerator<MeshColliderInstance>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x12C4C30 Offset: 0x12C3230 VA: 0x1812C4C30
+	|-RVA: 0x12C4B30 Offset: 0x12C3130 VA: 0x1812C4B30
 	|-Array.EmptyInternalEnumerator<MeshColliderLookup.LookupEntry>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x12C4DC0 Offset: 0x12C33C0 VA: 0x1812C4DC0
+	|-RVA: 0x12C4CC0 Offset: 0x12C32C0 VA: 0x1812C4CC0
 	|-Array.EmptyInternalEnumerator<MeshRendererInstance>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Set.Slot<ServerInfo>>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x12C4930 Offset: 0x12C2F30 VA: 0x1812C4930
+	|-RVA: 0x12C4830 Offset: 0x12C2E30 VA: 0x1812C4830
 	|-Array.EmptyInternalEnumerator<NVidiaReflex.NvReflex_FrameReport>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x12C49E0 Offset: 0x12C2FE0 VA: 0x1812C49E0
+	|-RVA: 0x12C48E0 Offset: 0x12C2EE0 VA: 0x1812C48E0
 	|-Array.EmptyInternalEnumerator<ReflectionProbeEx.CubemapFaceMatrices>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117ADB0 Offset: 0x11793B0 VA: 0x18117ADB0
+	|-RVA: 0x117ACB0 Offset: 0x11792B0 VA: 0x18117ACB0
 	|-Array.EmptyInternalEnumerator<ServerInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<ServerInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<XmlTextReaderImpl.ParsingState>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x12C4AA0 Offset: 0x12C30A0 VA: 0x1812C4AA0
+	|-RVA: 0x12C49A0 Offset: 0x12C2FA0 VA: 0x1812C49A0
 	|-Array.EmptyInternalEnumerator<Item>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A610 Offset: 0x1178C10 VA: 0x18117A610
+	|-RVA: 0x117A510 Offset: 0x1178B10 VA: 0x18117A510
 	|-Array.EmptyInternalEnumerator<char>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<bool, bool>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ByteEnum, byte>>.System.Collections.IEnumerator.get_Current
@@ -32699,39 +32699,39 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<ushort>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<UInt16Enum>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x178A970 Offset: 0x1788F70 VA: 0x18178A970
+	|-RVA: 0x178A870 Offset: 0x1788E70 VA: 0x18178A870
 	|-Array.EmptyInternalEnumerator<double>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117B040 Offset: 0x1179640 VA: 0x18117B040
+	|-RVA: 0x117AF40 Offset: 0x1179540 VA: 0x18117AF40
 	|-Array.EmptyInternalEnumerator<object>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117ABF0 Offset: 0x11791F0 VA: 0x18117ABF0
+	|-RVA: 0x117AAF0 Offset: 0x11790F0 VA: 0x18117AAF0
 	|-Array.EmptyInternalEnumerator<float>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A820 Offset: 0x1178E20 VA: 0x18117A820
+	|-RVA: 0x117A720 Offset: 0x1178D20 VA: 0x18117A720
 	|-Array.EmptyInternalEnumerator<TMP_CharacterInfo>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117AE70 Offset: 0x1179470 VA: 0x18117AE70
+	|-RVA: 0x117AD70 Offset: 0x1179370 VA: 0x18117AD70
 	|-Array.EmptyInternalEnumerator<TMP_LineInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<NavMeshBuildSource>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117AC50 Offset: 0x1179250 VA: 0x18117AC50
+	|-RVA: 0x117AB50 Offset: 0x1179150 VA: 0x18117AB50
 	|-Array.EmptyInternalEnumerator<TMP_MeshInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<TraceInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<RaycastResult>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A310 Offset: 0x1178910 VA: 0x18117A310
+	|-RVA: 0x117A210 Offset: 0x1178810 VA: 0x18117A210
 	|-Array.EmptyInternalEnumerator<ContactPoint>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<RaycastCommand>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<RaycastHit2D>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117AFB0 Offset: 0x11795B0 VA: 0x18117AFB0
+	|-RVA: 0x117AEB0 Offset: 0x11794B0 VA: 0x18117AEB0
 	|-Array.EmptyInternalEnumerator<RaycastHit>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117ACF0 Offset: 0x11792F0 VA: 0x18117ACF0
+	|-RVA: 0x117ABF0 Offset: 0x11791F0 VA: 0x18117ABF0
 	|-Array.EmptyInternalEnumerator<SphericalHarmonicsL2>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A260 Offset: 0x1178860 VA: 0x18117A260
+	|-RVA: 0x117A160 Offset: 0x1178760 VA: 0x18117A160
 	|-Array.EmptyInternalEnumerator<UIVertex>.System.Collections.IEnumerator.get_Current
 	*/
 
@@ -34166,7 +34166,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x117B070 Offset: 0x1179670 VA: 0x18117B070
+	|-RVA: 0x117AF70 Offset: 0x1179570 VA: 0x18117AF70
 	|-Array.EmptyInternalEnumerator<AdvancedChristmasLights.pointEntry>..cctor
 	|-Array.EmptyInternalEnumerator<AlignedLineDrawer.LinePoint>..cctor
 	|-Array.EmptyInternalEnumerator<AtmosphereVolumeRenderer.CurrentVolumeEntry>..cctor
@@ -35221,7 +35221,7 @@ private sealed class ArraySegment.ArraySegmentEnumerator<T> : IEnumerator<T>, ID
 	internal void .ctor(ArraySegment<T> arraySegment) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A04390 Offset: 0x1A02990 VA: 0x181A04390
+	|-RVA: 0x1A04290 Offset: 0x1A02890 VA: 0x181A04290
 	|-ArraySegment.ArraySegmentEnumerator<byte>..ctor
 	|-ArraySegment.ArraySegmentEnumerator<short>..ctor
 	|-ArraySegment.ArraySegmentEnumerator<object>..ctor
@@ -35230,7 +35230,7 @@ private sealed class ArraySegment.ArraySegmentEnumerator<T> : IEnumerator<T>, ID
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A04360 Offset: 0x1A02960 VA: 0x181A04360
+	|-RVA: 0x1A04260 Offset: 0x1A02860 VA: 0x181A04260
 	|-ArraySegment.ArraySegmentEnumerator<byte>.MoveNext
 	|-ArraySegment.ArraySegmentEnumerator<short>.MoveNext
 	|-ArraySegment.ArraySegmentEnumerator<object>.MoveNext
@@ -35239,33 +35239,33 @@ private sealed class ArraySegment.ArraySegmentEnumerator<T> : IEnumerator<T>, ID
 	public T get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A04400 Offset: 0x1A02A00 VA: 0x181A04400
+	|-RVA: 0x1A04300 Offset: 0x1A02900 VA: 0x181A04300
 	|-ArraySegment.ArraySegmentEnumerator<byte>.get_Current
 	|
-	|-RVA: 0x1A045E0 Offset: 0x1A02BE0 VA: 0x181A045E0
+	|-RVA: 0x1A044E0 Offset: 0x1A02AE0 VA: 0x181A044E0
 	|-ArraySegment.ArraySegmentEnumerator<short>.get_Current
 	|
-	|-RVA: 0x1A044F0 Offset: 0x1A02AF0 VA: 0x181A044F0
+	|-RVA: 0x1A043F0 Offset: 0x1A029F0 VA: 0x181A043F0
 	|-ArraySegment.ArraySegmentEnumerator<object>.get_Current
 	*/
 
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x117A480 Offset: 0x1178A80 VA: 0x18117A480
+	|-RVA: 0x117A380 Offset: 0x1178980 VA: 0x18117A380
 	|-ArraySegment.ArraySegmentEnumerator<byte>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117A610 Offset: 0x1178C10 VA: 0x18117A610
+	|-RVA: 0x117A510 Offset: 0x1178B10 VA: 0x18117A510
 	|-ArraySegment.ArraySegmentEnumerator<short>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x117B040 Offset: 0x1179640 VA: 0x18117B040
+	|-RVA: 0x117AF40 Offset: 0x1179540 VA: 0x18117AF40
 	|-ArraySegment.ArraySegmentEnumerator<object>.System.Collections.IEnumerator.get_Current
 	*/
 
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A04380 Offset: 0x1A02980 VA: 0x181A04380
+	|-RVA: 0x1A04280 Offset: 0x1A02880 VA: 0x181A04280
 	|-ArraySegment.ArraySegmentEnumerator<byte>.System.Collections.IEnumerator.Reset
 	|-ArraySegment.ArraySegmentEnumerator<short>.System.Collections.IEnumerator.Reset
 	|-ArraySegment.ArraySegmentEnumerator<object>.System.Collections.IEnumerator.Reset
@@ -35618,1522 +35618,1522 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	public static void Sort(T[] keys, int index, int length, IComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FA4470 Offset: 0x1FA2A70 VA: 0x181FA4470
+	|-RVA: 0x1FA4370 Offset: 0x1FA2970 VA: 0x181FA4370
 	|-ArraySortHelper<AdvancedChristmasLights.pointEntry>.Sort
 	|
-	|-RVA: 0x1FA3F70 Offset: 0x1FA2570 VA: 0x181FA3F70
+	|-RVA: 0x1FA3E70 Offset: 0x1FA2470 VA: 0x181FA3E70
 	|-ArraySortHelper<AlignedLineDrawer.LinePoint>.Sort
 	|
-	|-RVA: 0x1FA32F0 Offset: 0x1FA18F0 VA: 0x181FA32F0
+	|-RVA: 0x1FA31F0 Offset: 0x1FA17F0 VA: 0x181FA31F0
 	|-ArraySortHelper<AtmosphereVolumeRenderer.CurrentVolumeEntry>.Sort
 	|
-	|-RVA: 0x1FA47F0 Offset: 0x1FA2DF0 VA: 0x181FA47F0
+	|-RVA: 0x1FA46F0 Offset: 0x1FA2CF0 VA: 0x181FA46F0
 	|-ArraySortHelper<BaseEntity.ServerFileRequest>.Sort
 	|
-	|-RVA: 0x1FA41F0 Offset: 0x1FA27F0 VA: 0x181FA41F0
+	|-RVA: 0x1FA40F0 Offset: 0x1FA26F0 VA: 0x181FA40F0
 	|-ArraySortHelper<CardTableUI.KeycodeWithAction>.Sort
 	|
-	|-RVA: 0x1FA25F0 Offset: 0x1FA0BF0 VA: 0x181FA25F0
+	|-RVA: 0x1FA24F0 Offset: 0x1FA0AF0 VA: 0x181FA24F0
 	|-ArraySortHelper<Cassette.LoadRequest>.Sort
 	|
-	|-RVA: 0x1FA2BF0 Offset: 0x1FA11F0 VA: 0x181FA2BF0
+	|-RVA: 0x1FA2AF0 Offset: 0x1FA10F0 VA: 0x181FA2AF0
 	|-ArraySortHelper<Admin.PlayerInfo>.Sort
 	|
-	|-RVA: 0x1FA3CF0 Offset: 0x1FA22F0 VA: 0x181FA3CF0
+	|-RVA: 0x1FA3BF0 Offset: 0x1FA21F0 VA: 0x181FA3BF0
 	|-ArraySortHelper<Admin.ServerConvarInfo>.Sort
 	|
-	|-RVA: 0x1FA2E70 Offset: 0x1FA1470 VA: 0x181FA2E70
+	|-RVA: 0x1FA2D70 Offset: 0x1FA1370 VA: 0x181FA2D70
 	|-ArraySortHelper<Admin.ServerUGCInfo>.Sort
 	|
-	|-RVA: 0x1FA4A70 Offset: 0x1FA3070 VA: 0x181FA4A70
+	|-RVA: 0x1FA4970 Offset: 0x1FA2F70 VA: 0x181FA4970
 	|-ArraySortHelper<Chat.MuteEntry>.Sort
 	|
-	|-RVA: 0x1FA2370 Offset: 0x1FA0970 VA: 0x181FA2370
+	|-RVA: 0x1FA2270 Offset: 0x1FA0870 VA: 0x181FA2270
 	|-ArraySortHelper<DamageRenderer.DamageShowingRenderer>.Sort
 	|
-	|-RVA: 0x1FA3970 Offset: 0x1FA1F70 VA: 0x181FA3970
+	|-RVA: 0x1FA3870 Offset: 0x1FA1E70 VA: 0x181FA3870
 	|-ArraySortHelper<DeferredExtensionMesh.MaterialLink>.Sort
 	|
-	|-RVA: 0x1FA2870 Offset: 0x1FA0E70 VA: 0x181FA2870
+	|-RVA: 0x1FA2770 Offset: 0x1FA0D70 VA: 0x181FA2770
 	|-ArraySortHelper<DeferredMeshDecal.MaterialLink>.Sort
 	|
-	|-RVA: 0x2100350 Offset: 0x20FE950 VA: 0x182100350
+	|-RVA: 0x2100250 Offset: 0x20FE850 VA: 0x182100250
 	|-ArraySortHelper<Demos.DemoInfo>.Sort
 	|
-	|-RVA: 0x20FF3D0 Offset: 0x20FD9D0 VA: 0x1820FF3D0
+	|-RVA: 0x20FF2D0 Offset: 0x20FD8D0 VA: 0x1820FF2D0
 	|-ArraySortHelper<CRedge>.Sort
 	|
-	|-RVA: 0x20FE1D0 Offset: 0x20FC7D0 VA: 0x1820FE1D0
+	|-RVA: 0x20FE0D0 Offset: 0x20FC6D0 VA: 0x1820FE0D0
 	|-ArraySortHelper<CombineClass>.Sort
 	|
-	|-RVA: 0x20FFB50 Offset: 0x20FE150 VA: 0x1820FFB50
+	|-RVA: 0x20FFA50 Offset: 0x20FE050 VA: 0x1820FFA50
 	|-ArraySortHelper<ERCell>.Sort
 	|
-	|-RVA: 0x2101050 Offset: 0x20FF650 VA: 0x182101050
+	|-RVA: 0x2100F50 Offset: 0x20FF550 VA: 0x182100F50
 	|-ArraySortHelper<ERChildsSO>.Sort
 	|
-	|-RVA: 0x20FE6D0 Offset: 0x20FCCD0 VA: 0x1820FE6D0
+	|-RVA: 0x20FE5D0 Offset: 0x20FCBD0 VA: 0x1820FE5D0
 	|-ArraySortHelper<ERConnectionGUIStatus>.Sort
 	|
-	|-RVA: 0x20FD0D0 Offset: 0x20FB6D0 VA: 0x1820FD0D0
+	|-RVA: 0x20FCFD0 Offset: 0x20FB5D0 VA: 0x1820FCFD0
 	|-ArraySortHelper<ERLane>.Sort
 	|
-	|-RVA: 0x2100850 Offset: 0x20FEE50 VA: 0x182100850
+	|-RVA: 0x2100750 Offset: 0x20FED50 VA: 0x182100750
 	|-ArraySortHelper<ERMeshCombineUtility.MeshInstance>.Sort
 	|
-	|-RVA: 0x20FCE50 Offset: 0x20FB450 VA: 0x1820FCE50
+	|-RVA: 0x20FCD50 Offset: 0x20FB350 VA: 0x1820FCD50
 	|-ArraySortHelper<ERSOSection>.Sort
 	|
-	|-RVA: 0x20FE450 Offset: 0x20FCA50 VA: 0x1820FE450
+	|-RVA: 0x20FE350 Offset: 0x20FC950 VA: 0x1820FE350
 	|-ArraySortHelper<ERSplatmap>.Sort
 	|
-	|-RVA: 0x20FD450 Offset: 0x20FBA50 VA: 0x1820FD450
+	|-RVA: 0x20FD350 Offset: 0x20FB950 VA: 0x1820FD350
 	|-ArraySortHelper<ERTerrainChange>.Sort
 	|
-	|-RVA: 0x20FFDD0 Offset: 0x20FE3D0 VA: 0x1820FFDD0
+	|-RVA: 0x20FFCD0 Offset: 0x20FE2D0 VA: 0x1820FFCD0
 	|-ArraySortHelper<ERVSData>.Sort
 	|
-	|-RVA: 0x20FEDD0 Offset: 0x20FD3D0 VA: 0x1820FEDD0
+	|-RVA: 0x20FECD0 Offset: 0x20FD2D0 VA: 0x1820FECD0
 	|-ArraySortHelper<NormalPairs>.Sort
 	|
-	|-RVA: 0x2100AD0 Offset: 0x20FF0D0 VA: 0x182100AD0
+	|-RVA: 0x21009D0 Offset: 0x20FEFD0 VA: 0x1821009D0
 	|-ArraySortHelper<EngineDamageOverTime.RecentDamage>.Sort
 	|
-	|-RVA: 0x20FD9D0 Offset: 0x20FBFD0 VA: 0x1820FD9D0
+	|-RVA: 0x20FD8D0 Offset: 0x20FBED0 VA: 0x1820FD8D0
 	|-ArraySortHelper<EntityRef<object>>.Sort
 	|
-	|-RVA: 0x20FF050 Offset: 0x20FD650 VA: 0x1820FF050
+	|-RVA: 0x20FEF50 Offset: 0x20FD550 VA: 0x1820FEF50
 	|-ArraySortHelper<ExpandedLifeStats.GenericStatDisplay>.Sort
 	|
-	|-RVA: 0x21005D0 Offset: 0x20FEBD0 VA: 0x1821005D0
+	|-RVA: 0x21004D0 Offset: 0x20FEAD0 VA: 0x1821004D0
 	|-ArraySortHelper<BurstCloth.Chain>.Sort
 	|
-	|-RVA: 0x20FF650 Offset: 0x20FDC50 VA: 0x1820FF650
+	|-RVA: 0x20FF550 Offset: 0x20FDB50 VA: 0x1820FF550
 	|-ArraySortHelper<CapsuleParams>.Sort
 	|
-	|-RVA: 0x20FDF50 Offset: 0x20FC550 VA: 0x1820FDF50
+	|-RVA: 0x20FDE50 Offset: 0x20FC450 VA: 0x1820FDE50
 	|-ArraySortHelper<BoneData>.Sort
 	|
-	|-RVA: 0x20FF8D0 Offset: 0x20FDED0 VA: 0x1820FF8D0
+	|-RVA: 0x20FF7D0 Offset: 0x20FDDD0 VA: 0x1820FF7D0
 	|-ArraySortHelper<TabbedPanel.Tab>.Sort
 	|
-	|-RVA: 0x20FEA50 Offset: 0x20FD050 VA: 0x1820FEA50
+	|-RVA: 0x20FE950 Offset: 0x20FCF50 VA: 0x1820FE950
 	|-ArraySortHelper<Output.Entry>.Sort
 	|
-	|-RVA: 0x210C7D0 Offset: 0x210ADD0 VA: 0x18210C7D0
+	|-RVA: 0x210C6D0 Offset: 0x210ACD0 VA: 0x18210C6D0
 	|-ArraySortHelper<RCon.BannedAddresses>.Sort
 	|
-	|-RVA: 0x210D0D0 Offset: 0x210B6D0 VA: 0x18210D0D0
+	|-RVA: 0x210CFD0 Offset: 0x210B5D0 VA: 0x18210CFD0
 	|-ArraySortHelper<SkeletonDefinition.Bone>.Sort
 	|
-	|-RVA: 0x210B250 Offset: 0x2109850 VA: 0x18210B250
+	|-RVA: 0x210B150 Offset: 0x2109750 VA: 0x18210B150
 	|-ArraySortHelper<Tick.Entry>.Sort
 	|
-	|-RVA: 0x210BD50 Offset: 0x210A350 VA: 0x18210BD50
+	|-RVA: 0x210BC50 Offset: 0x210A250 VA: 0x18210BC50
 	|-ArraySortHelper<RenderInfo.RendererInstance>.Sort
 	|
-	|-RVA: 0x210CE50 Offset: 0x210B450 VA: 0x18210CE50
+	|-RVA: 0x210CD50 Offset: 0x210B350 VA: 0x18210CD50
 	|-ArraySortHelper<WeightedStringList.Container>.Sort
 	|
-	|-RVA: 0x210B850 Offset: 0x2109E50 VA: 0x18210B850
+	|-RVA: 0x210B750 Offset: 0x2109D50 VA: 0x18210B750
 	|-ArraySortHelper<FoliageGridMeshData.FoliageVertex>.Sort
 	|
-	|-RVA: 0x210B5D0 Offset: 0x2109BD0 VA: 0x18210B5D0
+	|-RVA: 0x210B4D0 Offset: 0x2109AD0 VA: 0x18210B4D0
 	|-ArraySortHelper<FoliageKey>.Sort
 	|
-	|-RVA: 0x21095D0 Offset: 0x2107BD0 VA: 0x1821095D0
+	|-RVA: 0x21094D0 Offset: 0x2107AD0 VA: 0x1821094D0
 	|-ArraySortHelper<Option>.Sort
 	|
-	|-RVA: 0x210C450 Offset: 0x210AA50 VA: 0x18210C450
+	|-RVA: 0x210C350 Offset: 0x210A950 VA: 0x18210C350
 	|-ArraySortHelper<GameStat.Stat>.Sort
 	|
-	|-RVA: 0x2109BD0 Offset: 0x21081D0 VA: 0x182109BD0
+	|-RVA: 0x2109AD0 Offset: 0x21080D0 VA: 0x182109AD0
 	|-ArraySortHelper<Gibbable.OverrideMesh>.Sort
 	|
-	|-RVA: 0x210D350 Offset: 0x210B950 VA: 0x18210D350
+	|-RVA: 0x210D250 Offset: 0x210B850 VA: 0x18210D250
 	|-ArraySortHelper<IconSkinPicker.SkinButtonSetup>.Sort
 	|
-	|-RVA: 0x210BFD0 Offset: 0x210A5D0 VA: 0x18210BFD0
+	|-RVA: 0x210BED0 Offset: 0x210A4D0 VA: 0x18210BED0
 	|-ArraySortHelper<ImageStorageEntity.ImageRequest>.Sort
 	|
-	|-RVA: 0x210BAD0 Offset: 0x210A0D0 VA: 0x18210BAD0
+	|-RVA: 0x210B9D0 Offset: 0x2109FD0 VA: 0x18210B9D0
 	|-ArraySortHelper<InstancingKey>.Sort
 	|
-	|-RVA: 0x210AFD0 Offset: 0x21095D0 VA: 0x18210AFD0
+	|-RVA: 0x210AED0 Offset: 0x21094D0 VA: 0x18210AED0
 	|-ArraySortHelper<InvokeAction>.Sort
 	|
-	|-RVA: 0x2109950 Offset: 0x2107F50 VA: 0x182109950
+	|-RVA: 0x2109850 Offset: 0x2107E50 VA: 0x182109850
 	|-ArraySortHelper<ItemSkinDirectory.Skin>.Sort
 	|
-	|-RVA: 0x210A1D0 Offset: 0x21087D0 VA: 0x18210A1D0
+	|-RVA: 0x210A0D0 Offset: 0x21086D0 VA: 0x18210A0D0
 	|-ArraySortHelper<KeyframeView.UIKeyframeValue>.Sort
 	|
-	|-RVA: 0x2109E50 Offset: 0x2108450 VA: 0x182109E50
+	|-RVA: 0x2109D50 Offset: 0x2108350 VA: 0x182109D50
 	|-ArraySortHelper<LocalClock.TimedEvent>.Sort
 	|
-	|-RVA: 0x210A450 Offset: 0x2108A50 VA: 0x18210A450
+	|-RVA: 0x210A350 Offset: 0x2108950 VA: 0x18210A350
 	|-ArraySortHelper<MagnetCrane.MagnetCraneSnapshot>.Sort
 	|
-	|-RVA: 0x210D5D0 Offset: 0x210BBD0 VA: 0x18210D5D0
+	|-RVA: 0x210D4D0 Offset: 0x210BAD0 VA: 0x18210D4D0
 	|-ArraySortHelper<MapView.MapMarkerCluster>.Sort
 	|
-	|-RVA: 0x210AC50 Offset: 0x2109250 VA: 0x18210AC50
+	|-RVA: 0x210AB50 Offset: 0x2109150 VA: 0x18210AB50
 	|-ArraySortHelper<MapView.SleepingBagCluster>.Sort
 	|
-	|-RVA: 0x210A7D0 Offset: 0x2108DD0 VA: 0x18210A7D0
+	|-RVA: 0x210A6D0 Offset: 0x2108CD0 VA: 0x18210A6D0
 	|-ArraySortHelper<SevenBitNumber>.Sort
 	|
-	|-RVA: 0x2122780 Offset: 0x2120D80 VA: 0x182122780
+	|-RVA: 0x2122680 Offset: 0x2120C80 VA: 0x182122680
 	|-ArraySortHelper<MeshColliderInstance>.Sort
 	|
-	|-RVA: 0x2123A80 Offset: 0x2122080 VA: 0x182123A80
+	|-RVA: 0x2123980 Offset: 0x2121F80 VA: 0x182123980
 	|-ArraySortHelper<MeshColliderLookup.LookupEntry>.Sort
 	|
-	|-RVA: 0x2124780 Offset: 0x2122D80 VA: 0x182124780
+	|-RVA: 0x2124680 Offset: 0x2122C80 VA: 0x182124680
 	|-ArraySortHelper<MeshInstance>.Sort
 	|
-	|-RVA: 0x2124500 Offset: 0x2122B00 VA: 0x182124500
+	|-RVA: 0x2124400 Offset: 0x2122A00 VA: 0x182124400
 	|-ArraySortHelper<MeshRendererInstance>.Sort
 	|
-	|-RVA: 0x2123700 Offset: 0x2121D00 VA: 0x182123700
+	|-RVA: 0x2123600 Offset: 0x2121C00 VA: 0x182123600
 	|-ArraySortHelper<MeshRendererLookup.LookupEntry>.Sort
 	|
-	|-RVA: 0x2122500 Offset: 0x2120B00 VA: 0x182122500
+	|-RVA: 0x2122400 Offset: 0x2120A00 VA: 0x182122400
 	|-ArraySortHelper<MidiConvar.KnobBinding>.Sort
 	|
-	|-RVA: 0x2123480 Offset: 0x2121A80 VA: 0x182123480
+	|-RVA: 0x2123380 Offset: 0x2121980 VA: 0x182123380
 	|-ArraySortHelper<MidiConvar.NoteBinding>.Sort
 	|
-	|-RVA: 0x2124A00 Offset: 0x2123000 VA: 0x182124A00
+	|-RVA: 0x2124900 Offset: 0x2122F00 VA: 0x182124900
 	|-ArraySortHelper<SqliteKeyReader.KeyInfo>.Sort
 	|
-	|-RVA: 0x2124E80 Offset: 0x2123480 VA: 0x182124E80
+	|-RVA: 0x2124D80 Offset: 0x2123380 VA: 0x182124D80
 	|-ArraySortHelper<JsonPosition>.Sort
 	|
-	|-RVA: 0x2122B00 Offset: 0x2121100 VA: 0x182122B00
+	|-RVA: 0x2122A00 Offset: 0x2121000 VA: 0x182122A00
 	|-ArraySortHelper<ParticleSystemContainer.ParticleSystemGroup>.Sort
 	|
-	|-RVA: 0x2123100 Offset: 0x2121700 VA: 0x182123100
+	|-RVA: 0x2123000 Offset: 0x2121600 VA: 0x182123000
 	|-ArraySortHelper<PathFinder.Point>.Sort
 	|
-	|-RVA: 0x2123E00 Offset: 0x2122400 VA: 0x182123E00
+	|-RVA: 0x2123D00 Offset: 0x2122300 VA: 0x182123D00
 	|-ArraySortHelper<PetCommandList.PetCommandDesc>.Sort
 	|
-	|-RVA: 0x2125680 Offset: 0x2123C80 VA: 0x182125680
+	|-RVA: 0x2125580 Offset: 0x2123B80 VA: 0x182125580
 	|-ArraySortHelper<PlaceMonuments.SpawnInfo>.Sort
 	|
-	|-RVA: 0x2122E80 Offset: 0x2121480 VA: 0x182122E80
+	|-RVA: 0x2122D80 Offset: 0x2121380 VA: 0x182122D80
 	|-ArraySortHelper<PlaceMonumentsOffshore.SpawnInfo>.Sort
 	|
-	|-RVA: 0x2125100 Offset: 0x2123700 VA: 0x182125100
+	|-RVA: 0x2125000 Offset: 0x2123600 VA: 0x182125000
 	|-ArraySortHelper<PlaceMonumentsRailside.SpawnInfo>.Sort
 	|
-	|-RVA: 0x2122180 Offset: 0x2120780 VA: 0x182122180
+	|-RVA: 0x2122080 Offset: 0x2120680 VA: 0x182122080
 	|-ArraySortHelper<PlaceMonumentsRoadside.SpawnInfo>.Sort
 	|
-	|-RVA: 0x2121400 Offset: 0x211FA00 VA: 0x182121400
+	|-RVA: 0x2121300 Offset: 0x211F900 VA: 0x182121300
 	|-ArraySortHelper<PlayerItemRecipe.Ingredient>.Sort
 	|
-	|-RVA: 0x2121180 Offset: 0x211F780 VA: 0x182121180
+	|-RVA: 0x2121080 Offset: 0x211F680 VA: 0x182121080
 	|-ArraySortHelper<PlayerItemRecipe>.Sort
 	|
-	|-RVA: 0x2121680 Offset: 0x211FC80 VA: 0x182121680
+	|-RVA: 0x2121580 Offset: 0x211FB80 VA: 0x182121580
 	|-ArraySortHelper<ProjectileWeaponMod.Modifier>.Sort
 	|
-	|-RVA: 0x2124280 Offset: 0x2122880 VA: 0x182124280
+	|-RVA: 0x2124180 Offset: 0x2122780 VA: 0x182124180
 	|-ArraySortHelper<DemoShotFloatKeyframe>.Sort
 	|
-	|-RVA: 0x2121C00 Offset: 0x2120200 VA: 0x182121C00
+	|-RVA: 0x2121B00 Offset: 0x2120100 VA: 0x182121B00
 	|-ArraySortHelper<DemoShotParentKeyframe>.Sort
 	|
-	|-RVA: 0x2118580 Offset: 0x2116B80 VA: 0x182118580
+	|-RVA: 0x2118480 Offset: 0x2116A80 VA: 0x182118480
 	|-ArraySortHelper<DemoShotQuaternionKeyframe>.Sort
 	|
-	|-RVA: 0x2116C00 Offset: 0x2115200 VA: 0x182116C00
+	|-RVA: 0x2116B00 Offset: 0x2115100 VA: 0x182116B00
 	|-ArraySortHelper<DemoShotVectorKeyframe>.Sort
 	|
-	|-RVA: 0x2117580 Offset: 0x2115B80 VA: 0x182117580
+	|-RVA: 0x2117480 Offset: 0x2115A80 VA: 0x182117480
 	|-ArraySortHelper<VectorData>.Sort
 	|
-	|-RVA: 0x2117900 Offset: 0x2115F00 VA: 0x182117900
+	|-RVA: 0x2117800 Offset: 0x2115E00 VA: 0x182117800
 	|-ArraySortHelper<ReflectionProbeEx.CubemapSkyboxVertex>.Sort
 	|
-	|-RVA: 0x2117B80 Offset: 0x2116180 VA: 0x182117B80
+	|-RVA: 0x2117A80 Offset: 0x2116080 VA: 0x182117A80
 	|-ArraySortHelper<ReflectionProbeEx.RenderListEntry>.Sort
 	|
-	|-RVA: 0x2118B00 Offset: 0x2117100 VA: 0x182118B00
+	|-RVA: 0x2118A00 Offset: 0x2117000 VA: 0x182118A00
 	|-ArraySortHelper<RendererKey>.Sort
 	|
-	|-RVA: 0x2117E00 Offset: 0x2116400 VA: 0x182117E00
+	|-RVA: 0x2117D00 Offset: 0x2116300 VA: 0x182117D00
 	|-ArraySortHelper<WaypointSet.Waypoint>.Sort
 	|
-	|-RVA: 0x2118300 Offset: 0x2116900 VA: 0x182118300
+	|-RVA: 0x2118200 Offset: 0x2116800 VA: 0x182118200
 	|-ArraySortHelper<TransformSnapshot>.Sort
 	|
-	|-RVA: 0x2115D80 Offset: 0x2114380 VA: 0x182115D80
+	|-RVA: 0x2115C80 Offset: 0x2114280 VA: 0x182115C80
 	|-ArraySortHelper<TimelineEvent>.Sort
 	|
-	|-RVA: 0x2119300 Offset: 0x2117900 VA: 0x182119300
+	|-RVA: 0x2119200 Offset: 0x2117800 VA: 0x182119200
 	|-ArraySortHelper<Option>.Sort
 	|
-	|-RVA: 0x2115B00 Offset: 0x2114100 VA: 0x182115B00
+	|-RVA: 0x2115A00 Offset: 0x2114000 VA: 0x182115A00
 	|-ArraySortHelper<TickRenderer.Tick>.Sort
 	|
-	|-RVA: 0x2117080 Offset: 0x2115680 VA: 0x182117080
+	|-RVA: 0x2116F80 Offset: 0x2115580 VA: 0x182116F80
 	|-ArraySortHelper<ServerInfo>.Sort
 	|
-	|-RVA: 0x2115500 Offset: 0x2113B00 VA: 0x182115500
+	|-RVA: 0x2115400 Offset: 0x2113A00 VA: 0x182115400
 	|-ArraySortHelper<SkinnedMultiMesh.Part>.Sort
 	|
-	|-RVA: 0x2118080 Offset: 0x2116680 VA: 0x182118080
+	|-RVA: 0x2117F80 Offset: 0x2116580 VA: 0x182117F80
 	|-ArraySortHelper<SubmarineSonar.SonarBlip>.Sort
 	|
-	|-RVA: 0x2117300 Offset: 0x2115900 VA: 0x182117300
+	|-RVA: 0x2117200 Offset: 0x2115800 VA: 0x182117200
 	|-ArraySortHelper<SpawnIndividual>.Sort
 	|
-	|-RVA: 0x2116880 Offset: 0x2114E80 VA: 0x182116880
+	|-RVA: 0x2116780 Offset: 0x2114D80 VA: 0x182116780
 	|-ArraySortHelper<SpecialPurposeCamera.RenderEntry>.Sort
 	|
-	|-RVA: 0x2119080 Offset: 0x2117680 VA: 0x182119080
+	|-RVA: 0x2118F80 Offset: 0x2117580 VA: 0x182118F80
 	|-ArraySortHelper<SteamNewsSource.Story>.Sort
 	|
-	|-RVA: 0x2116200 Offset: 0x2114800 VA: 0x182116200
+	|-RVA: 0x2116100 Offset: 0x2114700 VA: 0x182116100
 	|-ArraySortHelper<Achievement>.Sort
 	|
-	|-RVA: 0x2114D00 Offset: 0x2113300 VA: 0x182114D00
+	|-RVA: 0x2114C00 Offset: 0x2113200 VA: 0x182114C00
 	|-ArraySortHelper<InventoryDefId>.Sort
 	|
-	|-RVA: 0x2115280 Offset: 0x2113880 VA: 0x182115280
+	|-RVA: 0x2115180 Offset: 0x2113780 VA: 0x182115180
 	|-ArraySortHelper<MatchMakingKeyValuePair>.Sort
 	|
-	|-RVA: 0x2115880 Offset: 0x2113E80 VA: 0x182115880
+	|-RVA: 0x2115780 Offset: 0x2113D80 VA: 0x182115780
 	|-ArraySortHelper<ServerInfo>.Sort
 	|
-	|-RVA: 0x2161090 Offset: 0x215F690 VA: 0x182161090
+	|-RVA: 0x2160F90 Offset: 0x215F590 VA: 0x182160F90
 	|-ArraySortHelper<Dispatch.Callback>.Sort
 	|
-	|-RVA: 0x215FA10 Offset: 0x215E010 VA: 0x18215FA10
+	|-RVA: 0x215F910 Offset: 0x215DF10 VA: 0x18215F910
 	|-ArraySortHelper<Friend>.Sort
 	|
-	|-RVA: 0x2160010 Offset: 0x215E610 VA: 0x182160010
+	|-RVA: 0x215FF10 Offset: 0x215E510 VA: 0x18215FF10
 	|-ArraySortHelper<InventoryItem.Amount>.Sort
 	|
-	|-RVA: 0x215E410 Offset: 0x215CA10 VA: 0x18215E410
+	|-RVA: 0x215E310 Offset: 0x215C910 VA: 0x18215E310
 	|-ArraySortHelper<InventoryItem>.Sort
 	|
-	|-RVA: 0x2160E10 Offset: 0x215F410 VA: 0x182160E10
+	|-RVA: 0x2160D10 Offset: 0x215F310 VA: 0x182160D10
 	|-ArraySortHelper<InventoryRecipe.Ingredient>.Sort
 	|
-	|-RVA: 0x215F510 Offset: 0x215DB10 VA: 0x18215F510
+	|-RVA: 0x215F410 Offset: 0x215DA10 VA: 0x18215F410
 	|-ArraySortHelper<InventoryRecipe>.Sort
 	|
-	|-RVA: 0x2160590 Offset: 0x215EB90 VA: 0x182160590
+	|-RVA: 0x2160490 Offset: 0x215EA90 VA: 0x182160490
 	|-ArraySortHelper<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.Sort
 	|
-	|-RVA: 0x215DB10 Offset: 0x215C110 VA: 0x18215DB10
+	|-RVA: 0x215DA10 Offset: 0x215C010 VA: 0x18215DA10
 	|-ArraySortHelper<SynchronizedClock.TimedEvent>.Sort
 	|
-	|-RVA: 0x2161D10 Offset: 0x2160310 VA: 0x182161D10
+	|-RVA: 0x2161C10 Offset: 0x2160210 VA: 0x182161C10
 	|-ArraySortHelper<bool>.Sort
 	|
-	|-RVA: 0x2161310 Offset: 0x215F910 VA: 0x182161310
+	|-RVA: 0x2161210 Offset: 0x215F810 VA: 0x182161210
 	|-ArraySortHelper<byte>.Sort
 	|
-	|-RVA: 0x2161F90 Offset: 0x2160590 VA: 0x182161F90
+	|-RVA: 0x2161E90 Offset: 0x2160490 VA: 0x182161E90
 	|-ArraySortHelper<char>.Sort
 	|
-	|-RVA: 0x215E910 Offset: 0x215CF10 VA: 0x18215E910
+	|-RVA: 0x215E810 Offset: 0x215CE10 VA: 0x18215E810
 	|-ArraySortHelper<DictionaryEntry>.Sort
 	|
-	|-RVA: 0x215FD90 Offset: 0x215E390 VA: 0x18215FD90
+	|-RVA: 0x215FC90 Offset: 0x215E290 VA: 0x18215FC90
 	|-ArraySortHelper<KeyValuePair<DateTime, object>>.Sort
 	|
-	|-RVA: 0x215EB90 Offset: 0x215D190 VA: 0x18215EB90
+	|-RVA: 0x215EA90 Offset: 0x215D090 VA: 0x18215EA90
 	|-ArraySortHelper<KeyValuePair<Guid, int>>.Sort
 	|
-	|-RVA: 0x215EE10 Offset: 0x215D410 VA: 0x18215EE10
+	|-RVA: 0x215ED10 Offset: 0x215D310 VA: 0x18215ED10
 	|-ArraySortHelper<KeyValuePair<int, object>>.Sort
 	|
-	|-RVA: 0x215F790 Offset: 0x215DD90 VA: 0x18215F790
+	|-RVA: 0x215F690 Offset: 0x215DC90 VA: 0x18215F690
 	|-ArraySortHelper<KeyValuePair<Int32Enum, object>>.Sort
 	|
-	|-RVA: 0x215F190 Offset: 0x215D790 VA: 0x18215F190
+	|-RVA: 0x215F090 Offset: 0x215D690 VA: 0x18215F090
 	|-ArraySortHelper<KeyValuePair<object, object>>.Sort
 	|
-	|-RVA: 0x215E190 Offset: 0x215C790 VA: 0x18215E190
+	|-RVA: 0x215E090 Offset: 0x215C690 VA: 0x18215E090
 	|-ArraySortHelper<KeyValuePair<object, float>>.Sort
 	|
-	|-RVA: 0x2162210 Offset: 0x2160810 VA: 0x182162210
+	|-RVA: 0x2162110 Offset: 0x2160710 VA: 0x182162110
 	|-ArraySortHelper<KeyValuePair<object, Color>>.Sort
 	|
-	|-RVA: 0x2161990 Offset: 0x215FF90 VA: 0x182161990
+	|-RVA: 0x2161890 Offset: 0x215FE90 VA: 0x182161890
 	|-ArraySortHelper<KeyValuePair<uint, object>>.Sort
 	|
-	|-RVA: 0x215E690 Offset: 0x215CC90 VA: 0x18215E690
+	|-RVA: 0x215E590 Offset: 0x215CB90 VA: 0x18215E590
 	|-ArraySortHelper<KeyValuePair<ulong, Dispatch.ResultCallback>>.Sort
 	|
-	|-RVA: 0x2175270 Offset: 0x2173870 VA: 0x182175270
+	|-RVA: 0x2175170 Offset: 0x2173770 VA: 0x182175170
 	|-ArraySortHelper<DateTime>.Sort
 	|
-	|-RVA: 0x2173C70 Offset: 0x2172270 VA: 0x182173C70
+	|-RVA: 0x2173B70 Offset: 0x2172170 VA: 0x182173B70
 	|-ArraySortHelper<DateTimeOffset>.Sort
 	|
-	|-RVA: 0x2174AF0 Offset: 0x21730F0 VA: 0x182174AF0
+	|-RVA: 0x21749F0 Offset: 0x2172FF0 VA: 0x1821749F0
 	|-ArraySortHelper<Decimal>.Sort
 	|
-	|-RVA: 0x2172D70 Offset: 0x2171370 VA: 0x182172D70
+	|-RVA: 0x2172C70 Offset: 0x2171270 VA: 0x182172C70
 	|-ArraySortHelper<EventProvider.SessionInfo>.Sort
 	|
-	|-RVA: 0x21745F0 Offset: 0x2172BF0 VA: 0x1821745F0
+	|-RVA: 0x21744F0 Offset: 0x2172AF0 VA: 0x1821744F0
 	|-ArraySortHelper<double>.Sort
 	|
-	|-RVA: 0x2177370 Offset: 0x2175970 VA: 0x182177370
+	|-RVA: 0x2177270 Offset: 0x2175870 VA: 0x182177270
 	|-ArraySortHelper<Guid>.Sort
 	|
-	|-RVA: 0x2174FF0 Offset: 0x21735F0 VA: 0x182174FF0
+	|-RVA: 0x2174EF0 Offset: 0x21734F0 VA: 0x182174EF0
 	|-ArraySortHelper<short>.Sort
 	|
-	|-RVA: 0x21756F0 Offset: 0x2173CF0 VA: 0x1821756F0
+	|-RVA: 0x21755F0 Offset: 0x2173BF0 VA: 0x1821755F0
 	|-ArraySortHelper<int>.Sort
 	|
-	|-RVA: 0x2176FF0 Offset: 0x21755F0 VA: 0x182176FF0
+	|-RVA: 0x2176EF0 Offset: 0x21754F0 VA: 0x182176EF0
 	|-ArraySortHelper<Int32Enum>.Sort
 	|
-	|-RVA: 0x21736F0 Offset: 0x2171CF0 VA: 0x1821736F0
+	|-RVA: 0x21735F0 Offset: 0x2171BF0 VA: 0x1821735F0
 	|-ArraySortHelper<long>.Sort
 	|
-	|-RVA: 0x2174270 Offset: 0x2172870 VA: 0x182174270
+	|-RVA: 0x2174170 Offset: 0x2172770 VA: 0x182174170
 	|-ArraySortHelper<object>.Sort
 	|
-	|-RVA: 0x2173470 Offset: 0x2171A70 VA: 0x182173470
+	|-RVA: 0x2173370 Offset: 0x2171970 VA: 0x182173370
 	|-ArraySortHelper<sbyte>.Sort
 	|
-	|-RVA: 0x21728F0 Offset: 0x2170EF0 VA: 0x1821728F0
+	|-RVA: 0x21727F0 Offset: 0x2170DF0 VA: 0x1821727F0
 	|-ArraySortHelper<float>.Sort
 	|
-	|-RVA: 0x2174D70 Offset: 0x2173370 VA: 0x182174D70
+	|-RVA: 0x2174C70 Offset: 0x2173270 VA: 0x182174C70
 	|-ArraySortHelper<TimeSpan>.Sort
 	|
-	|-RVA: 0x2174870 Offset: 0x2172E70 VA: 0x182174870
+	|-RVA: 0x2174770 Offset: 0x2172D70 VA: 0x182174770
 	|-ArraySortHelper<ushort>.Sort
 	|
-	|-RVA: 0x2175C70 Offset: 0x2174270 VA: 0x182175C70
+	|-RVA: 0x2175B70 Offset: 0x2174170 VA: 0x182175B70
 	|-ArraySortHelper<uint>.Sort
 	|
-	|-RVA: 0x2173FF0 Offset: 0x21725F0 VA: 0x182173FF0
+	|-RVA: 0x2173EF0 Offset: 0x21724F0 VA: 0x182173EF0
 	|-ArraySortHelper<ulong>.Sort
 	|
-	|-RVA: 0x2175EF0 Offset: 0x21744F0 VA: 0x182175EF0
+	|-RVA: 0x2175DF0 Offset: 0x21743F0 VA: 0x182175DF0
 	|-ArraySortHelper<ValueTuple<object, object>>.Sort
 	|
-	|-RVA: 0x2176370 Offset: 0x2174970 VA: 0x182176370
+	|-RVA: 0x2176270 Offset: 0x2174870 VA: 0x182176270
 	|-ArraySortHelper<RangePositionInfo>.Sort
 	|
-	|-RVA: 0x21769F0 Offset: 0x2174FF0 VA: 0x1821769F0
+	|-RVA: 0x21768F0 Offset: 0x2174EF0 VA: 0x1821768F0
 	|-ArraySortHelper<XmlSchemaObjectTable.XmlSchemaObjectEntry>.Sort
 	|
-	|-RVA: 0x2176C70 Offset: 0x2175270 VA: 0x182176C70
+	|-RVA: 0x2176B70 Offset: 0x2175170 VA: 0x182176B70
 	|-ArraySortHelper<TickInterpolator.Segment>.Sort
 	|
-	|-RVA: 0x21731F0 Offset: 0x21717F0 VA: 0x1821731F0
+	|-RVA: 0x21730F0 Offset: 0x21716F0 VA: 0x1821730F0
 	|-ArraySortHelper<TraceInfo>.Sort
 	|
-	|-RVA: 0x21558E0 Offset: 0x2153EE0 VA: 0x1821558E0
+	|-RVA: 0x21557E0 Offset: 0x2153DE0 VA: 0x1821557E0
 	|-ArraySortHelper<TrainCar.TrainCarSnapshot>.Sort
 	|
-	|-RVA: 0x2154C60 Offset: 0x2153260 VA: 0x182154C60
+	|-RVA: 0x2154B60 Offset: 0x2153160 VA: 0x182154B60
 	|-ArraySortHelper<NavMeshBuildMarkup>.Sort
 	|
-	|-RVA: 0x21565E0 Offset: 0x2154BE0 VA: 0x1821565E0
+	|-RVA: 0x21564E0 Offset: 0x2154AE0 VA: 0x1821564E0
 	|-ArraySortHelper<NavMeshBuildSource>.Sort
 	|
-	|-RVA: 0x2158860 Offset: 0x2156E60 VA: 0x182158860
+	|-RVA: 0x2158760 Offset: 0x2156D60 VA: 0x182158760
 	|-ArraySortHelper<BeforeRenderHelper.OrderBlock>.Sort
 	|
-	|-RVA: 0x2154260 Offset: 0x2152860 VA: 0x182154260
+	|-RVA: 0x2154160 Offset: 0x2152760 VA: 0x182154160
 	|-ArraySortHelper<Color32>.Sort
 	|
-	|-RVA: 0x2154760 Offset: 0x2152D60 VA: 0x182154760
+	|-RVA: 0x2154660 Offset: 0x2152C60 VA: 0x182154660
 	|-ArraySortHelper<Color>.Sort
 	|
-	|-RVA: 0x2155260 Offset: 0x2153860 VA: 0x182155260
+	|-RVA: 0x2155160 Offset: 0x2153760 VA: 0x182155160
 	|-ArraySortHelper<RaycastResult>.Sort
 	|
-	|-RVA: 0x2155DE0 Offset: 0x21543E0 VA: 0x182155DE0
+	|-RVA: 0x2155CE0 Offset: 0x21542E0 VA: 0x182155CE0
 	|-ArraySortHelper<Matrix4x4>.Sort
 	|
-	|-RVA: 0x2154EE0 Offset: 0x21534E0 VA: 0x182154EE0
+	|-RVA: 0x2154DE0 Offset: 0x21533E0 VA: 0x182154DE0
 	|-ArraySortHelper<RaycastHit2D>.Sort
 	|
-	|-RVA: 0x2156DE0 Offset: 0x21553E0 VA: 0x182156DE0
+	|-RVA: 0x2156CE0 Offset: 0x21552E0 VA: 0x182156CE0
 	|-ArraySortHelper<RaycastHit>.Sort
 	|
-	|-RVA: 0x2157960 Offset: 0x2155F60 VA: 0x182157960
+	|-RVA: 0x2157860 Offset: 0x2155E60 VA: 0x182157860
 	|-ArraySortHelper<Rect>.Sort
 	|
-	|-RVA: 0x2155B60 Offset: 0x2154160 VA: 0x182155B60
+	|-RVA: 0x2155A60 Offset: 0x2154060 VA: 0x182155A60
 	|-ArraySortHelper<RenderTargetIdentifier>.Sort
 	|
-	|-RVA: 0x21549E0 Offset: 0x2152FE0 VA: 0x1821549E0
+	|-RVA: 0x21548E0 Offset: 0x2152EE0 VA: 0x1821548E0
 	|-ArraySortHelper<Resolution>.Sort
 	|
-	|-RVA: 0x21544E0 Offset: 0x2152AE0 VA: 0x1821544E0
+	|-RVA: 0x21543E0 Offset: 0x21529E0 VA: 0x1821543E0
 	|-ArraySortHelper<GlyphRect>.Sort
 	|
-	|-RVA: 0x2157E60 Offset: 0x2156460 VA: 0x182157E60
+	|-RVA: 0x2157D60 Offset: 0x2156360 VA: 0x182157D60
 	|-ArraySortHelper<TreeInstance>.Sort
 	|
-	|-RVA: 0x21580E0 Offset: 0x21566E0 VA: 0x1821580E0
+	|-RVA: 0x2157FE0 Offset: 0x21565E0 VA: 0x182157FE0
 	|-ArraySortHelper<UICharInfo>.Sort
 	|
-	|-RVA: 0x2156860 Offset: 0x2154E60 VA: 0x182156860
+	|-RVA: 0x2156760 Offset: 0x2154D60 VA: 0x182156760
 	|-ArraySortHelper<FocusController.FocusedElement>.Sort
 	|
-	|-RVA: 0x2156260 Offset: 0x2154860 VA: 0x182156260
+	|-RVA: 0x2156160 Offset: 0x2154760 VA: 0x182156160
 	|-ArraySortHelper<UILineInfo>.Sort
 	|
-	|-RVA: 0x2157BE0 Offset: 0x21561E0 VA: 0x182157BE0
+	|-RVA: 0x2157AE0 Offset: 0x21560E0 VA: 0x182157AE0
 	|-ArraySortHelper<UIVertex>.Sort
 	|
-	|-RVA: 0x2157460 Offset: 0x2155A60 VA: 0x182157460
+	|-RVA: 0x2157360 Offset: 0x2155960 VA: 0x182157360
 	|-ArraySortHelper<UnitySynchronizationContext.WorkRequest>.Sort
 	|
-	|-RVA: 0x21576E0 Offset: 0x2155CE0 VA: 0x1821576E0
+	|-RVA: 0x21575E0 Offset: 0x2155BE0 VA: 0x1821575E0
 	|-ArraySortHelper<Vector2>.Sort
 	|
-	|-RVA: 0x1C56D60 Offset: 0x1C55360 VA: 0x181C56D60
+	|-RVA: 0x1C56C60 Offset: 0x1C55260 VA: 0x181C56C60
 	|-ArraySortHelper<Vector3>.Sort
 	|
-	|-RVA: 0x1C570E0 Offset: 0x1C556E0 VA: 0x181C570E0
+	|-RVA: 0x1C56FE0 Offset: 0x1C555E0 VA: 0x181C56FE0
 	|-ArraySortHelper<Vector4>.Sort
 	|
-	|-RVA: 0x1C57A60 Offset: 0x1C56060 VA: 0x181C57A60
+	|-RVA: 0x1C57960 Offset: 0x1C55F60 VA: 0x181C57960
 	|-ArraySortHelper<Vector2i>.Sort
 	|
-	|-RVA: 0x1C56AE0 Offset: 0x1C550E0 VA: 0x181C56AE0
+	|-RVA: 0x1C569E0 Offset: 0x1C54FE0 VA: 0x181C569E0
 	|-ArraySortHelper<ViewModelDrawEvent>.Sort
 	|
-	|-RVA: 0x1C57360 Offset: 0x1C55960 VA: 0x181C57360
+	|-RVA: 0x1C57260 Offset: 0x1C55860 VA: 0x181C57260
 	|-ArraySortHelper<WindZoneExManager.CurrentZoneEntry>.Sort
 	|
-	|-RVA: 0x1C577E0 Offset: 0x1C55DE0 VA: 0x181C577E0
+	|-RVA: 0x1C576E0 Offset: 0x1C55CE0 VA: 0x181C576E0
 	|-ArraySortHelper<WorldSplineData.LUTEntry.LUTPoint>.Sort
 	*/
 
 	public static int BinarySearch(T[] array, int index, int length, T value, IComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F9D3C0 Offset: 0x1F9B9C0 VA: 0x181F9D3C0
+	|-RVA: 0x1F9D2C0 Offset: 0x1F9B8C0 VA: 0x181F9D2C0
 	|-ArraySortHelper<AdvancedChristmasLights.pointEntry>.BinarySearch
 	|
-	|-RVA: 0x1F9E4F0 Offset: 0x1F9CAF0 VA: 0x181F9E4F0
+	|-RVA: 0x1F9E3F0 Offset: 0x1F9C9F0 VA: 0x181F9E3F0
 	|-ArraySortHelper<AlignedLineDrawer.LinePoint>.BinarySearch
 	|
-	|-RVA: 0x1F9D530 Offset: 0x1F9BB30 VA: 0x181F9D530
+	|-RVA: 0x1F9D430 Offset: 0x1F9BA30 VA: 0x181F9D430
 	|-ArraySortHelper<AtmosphereVolumeRenderer.CurrentVolumeEntry>.BinarySearch
 	|
-	|-RVA: 0x1F9E0A0 Offset: 0x1F9C6A0 VA: 0x181F9E0A0
+	|-RVA: 0x1F9DFA0 Offset: 0x1F9C5A0 VA: 0x181F9DFA0
 	|-ArraySortHelper<BaseEntity.ServerFileRequest>.BinarySearch
 	|
-	|-RVA: 0x1F9E210 Offset: 0x1F9C810 VA: 0x181F9E210
+	|-RVA: 0x1F9E110 Offset: 0x1F9C710 VA: 0x181F9E110
 	|-ArraySortHelper<CardTableUI.KeycodeWithAction>.BinarySearch
 	|
-	|-RVA: 0x1F9DAC0 Offset: 0x1F9C0C0 VA: 0x181F9DAC0
+	|-RVA: 0x1F9D9C0 Offset: 0x1F9BFC0 VA: 0x181F9D9C0
 	|-ArraySortHelper<Cassette.LoadRequest>.BinarySearch
 	|
-	|-RVA: 0x1F9DF10 Offset: 0x1F9C510 VA: 0x181F9DF10
+	|-RVA: 0x1F9DE10 Offset: 0x1F9C410 VA: 0x181F9DE10
 	|-ArraySortHelper<Admin.PlayerInfo>.BinarySearch
 	|
-	|-RVA: 0x1F9E380 Offset: 0x1F9C980 VA: 0x181F9E380
+	|-RVA: 0x1F9E280 Offset: 0x1F9C880 VA: 0x181F9E280
 	|-ArraySortHelper<Admin.ServerConvarInfo>.BinarySearch
 	|
-	|-RVA: 0x1F9DC30 Offset: 0x1F9C230 VA: 0x181F9DC30
+	|-RVA: 0x1F9DB30 Offset: 0x1F9C130 VA: 0x181F9DB30
 	|-ArraySortHelper<Admin.ServerUGCInfo>.BinarySearch
 	|
-	|-RVA: 0x1F9D950 Offset: 0x1F9BF50 VA: 0x181F9D950
+	|-RVA: 0x1F9D850 Offset: 0x1F9BE50 VA: 0x181F9D850
 	|-ArraySortHelper<Chat.MuteEntry>.BinarySearch
 	|
-	|-RVA: 0x1F9D690 Offset: 0x1F9BC90 VA: 0x181F9D690
+	|-RVA: 0x1F9D590 Offset: 0x1F9BB90 VA: 0x181F9D590
 	|-ArraySortHelper<DamageRenderer.DamageShowingRenderer>.BinarySearch
 	|
-	|-RVA: 0x1F9D7F0 Offset: 0x1F9BDF0 VA: 0x181F9D7F0
+	|-RVA: 0x1F9D6F0 Offset: 0x1F9BCF0 VA: 0x181F9D6F0
 	|-ArraySortHelper<DeferredExtensionMesh.MaterialLink>.BinarySearch
 	|
-	|-RVA: 0x1F9DDB0 Offset: 0x1F9C3B0 VA: 0x181F9DDB0
+	|-RVA: 0x1F9DCB0 Offset: 0x1F9C2B0 VA: 0x181F9DCB0
 	|-ArraySortHelper<DeferredMeshDecal.MaterialLink>.BinarySearch
 	|
-	|-RVA: 0x20F5E10 Offset: 0x20F4410 VA: 0x1820F5E10
+	|-RVA: 0x20F5D10 Offset: 0x20F4310 VA: 0x1820F5D10
 	|-ArraySortHelper<Demos.DemoInfo>.BinarySearch
 	|
-	|-RVA: 0x20F6230 Offset: 0x20F4830 VA: 0x1820F6230
+	|-RVA: 0x20F6130 Offset: 0x20F4730 VA: 0x1820F6130
 	|-ArraySortHelper<CRedge>.BinarySearch
 	|
-	|-RVA: 0x20F4CF0 Offset: 0x20F32F0 VA: 0x1820F4CF0
+	|-RVA: 0x20F4BF0 Offset: 0x20F31F0 VA: 0x1820F4BF0
 	|-ArraySortHelper<CombineClass>.BinarySearch
 	|
-	|-RVA: 0x20F5B40 Offset: 0x20F4140 VA: 0x1820F5B40
+	|-RVA: 0x20F5A40 Offset: 0x20F4040 VA: 0x1820F5A40
 	|-ArraySortHelper<ERCell>.BinarySearch
 	|
-	|-RVA: 0x20F5140 Offset: 0x20F3740 VA: 0x1820F5140
+	|-RVA: 0x20F5040 Offset: 0x20F3640 VA: 0x1820F5040
 	|-ArraySortHelper<ERChildsSO>.BinarySearch
 	|
-	|-RVA: 0x20F4E50 Offset: 0x20F3450 VA: 0x1820F4E50
+	|-RVA: 0x20F4D50 Offset: 0x20F3350 VA: 0x1820F4D50
 	|-ArraySortHelper<ERConnectionGUIStatus>.BinarySearch
 	|
-	|-RVA: 0x20F60D0 Offset: 0x20F46D0 VA: 0x1820F60D0
+	|-RVA: 0x20F5FD0 Offset: 0x20F45D0 VA: 0x1820F5FD0
 	|-ArraySortHelper<ERLane>.BinarySearch
 	|
-	|-RVA: 0x20F4FA0 Offset: 0x20F35A0 VA: 0x1820F4FA0
+	|-RVA: 0x20F4EA0 Offset: 0x20F34A0 VA: 0x1820F4EA0
 	|-ArraySortHelper<ERMeshCombineUtility.MeshInstance>.BinarySearch
 	|
-	|-RVA: 0x20F6390 Offset: 0x20F4990 VA: 0x1820F6390
+	|-RVA: 0x20F6290 Offset: 0x20F4890 VA: 0x1820F6290
 	|-ArraySortHelper<ERSOSection>.BinarySearch
 	|
-	|-RVA: 0x20F6560 Offset: 0x20F4B60 VA: 0x1820F6560
+	|-RVA: 0x20F6460 Offset: 0x20F4A60 VA: 0x1820F6460
 	|-ArraySortHelper<ERSplatmap>.BinarySearch
 	|
-	|-RVA: 0x20F5570 Offset: 0x20F3B70 VA: 0x1820F5570
+	|-RVA: 0x20F5470 Offset: 0x20F3A70 VA: 0x1820F5470
 	|-ArraySortHelper<ERTerrainChange>.BinarySearch
 	|
-	|-RVA: 0x20F6870 Offset: 0x20F4E70 VA: 0x1820F6870
+	|-RVA: 0x20F6770 Offset: 0x20F4D70 VA: 0x1820F6770
 	|-ArraySortHelper<ERVSData>.BinarySearch
 	|
-	|-RVA: 0x20F56C0 Offset: 0x20F3CC0 VA: 0x1820F56C0
+	|-RVA: 0x20F55C0 Offset: 0x20F3BC0 VA: 0x1820F55C0
 	|-ArraySortHelper<NormalPairs>.BinarySearch
 	|
-	|-RVA: 0x20F5410 Offset: 0x20F3A10 VA: 0x1820F5410
+	|-RVA: 0x20F5310 Offset: 0x20F3910 VA: 0x1820F5310
 	|-ArraySortHelper<EngineDamageOverTime.RecentDamage>.BinarySearch
 	|
-	|-RVA: 0x20F6A00 Offset: 0x20F5000 VA: 0x1820F6A00
+	|-RVA: 0x20F6900 Offset: 0x20F4F00 VA: 0x1820F6900
 	|-ArraySortHelper<EntityRef<object>>.BinarySearch
 	|
-	|-RVA: 0x20F6700 Offset: 0x20F4D00 VA: 0x1820F6700
+	|-RVA: 0x20F6600 Offset: 0x20F4C00 VA: 0x1820F6600
 	|-ArraySortHelper<ExpandedLifeStats.GenericStatDisplay>.BinarySearch
 	|
-	|-RVA: 0x20F5F80 Offset: 0x20F4580 VA: 0x1820F5F80
+	|-RVA: 0x20F5E80 Offset: 0x20F4480 VA: 0x1820F5E80
 	|-ArraySortHelper<BurstCloth.Chain>.BinarySearch
 	|
-	|-RVA: 0x20F5C90 Offset: 0x20F4290 VA: 0x1820F5C90
+	|-RVA: 0x20F5B90 Offset: 0x20F4190 VA: 0x1820F5B90
 	|-ArraySortHelper<CapsuleParams>.BinarySearch
 	|
-	|-RVA: 0x20F5810 Offset: 0x20F3E10 VA: 0x1820F5810
+	|-RVA: 0x20F5710 Offset: 0x20F3D10 VA: 0x1820F5710
 	|-ArraySortHelper<BoneData>.BinarySearch
 	|
-	|-RVA: 0x20F52B0 Offset: 0x20F38B0 VA: 0x1820F52B0
+	|-RVA: 0x20F51B0 Offset: 0x20F37B0 VA: 0x1820F51B0
 	|-ArraySortHelper<TabbedPanel.Tab>.BinarySearch
 	|
-	|-RVA: 0x20F59D0 Offset: 0x20F3FD0 VA: 0x1820F59D0
+	|-RVA: 0x20F58D0 Offset: 0x20F3ED0 VA: 0x1820F58D0
 	|-ArraySortHelper<Output.Entry>.BinarySearch
 	|
-	|-RVA: 0x2103CC0 Offset: 0x21022C0 VA: 0x182103CC0
+	|-RVA: 0x2103BC0 Offset: 0x21021C0 VA: 0x182103BC0
 	|-ArraySortHelper<RCon.BannedAddresses>.BinarySearch
 	|
-	|-RVA: 0x2104F60 Offset: 0x2103560 VA: 0x182104F60
+	|-RVA: 0x2104E60 Offset: 0x2103460 VA: 0x182104E60
 	|-ArraySortHelper<SkeletonDefinition.Bone>.BinarySearch
 	|
-	|-RVA: 0x21039A0 Offset: 0x2101FA0 VA: 0x1821039A0
+	|-RVA: 0x21038A0 Offset: 0x2101EA0 VA: 0x1821038A0
 	|-ArraySortHelper<Tick.Entry>.BinarySearch
 	|
-	|-RVA: 0x21043F0 Offset: 0x21029F0 VA: 0x1821043F0
+	|-RVA: 0x21042F0 Offset: 0x21028F0 VA: 0x1821042F0
 	|-ArraySortHelper<RenderInfo.RendererInstance>.BinarySearch
 	|
-	|-RVA: 0x2104590 Offset: 0x2102B90 VA: 0x182104590
+	|-RVA: 0x2104490 Offset: 0x2102A90 VA: 0x182104490
 	|-ArraySortHelper<WeightedStringList.Container>.BinarySearch
 	|
-	|-RVA: 0x2104250 Offset: 0x2102850 VA: 0x182104250
+	|-RVA: 0x2104150 Offset: 0x2102750 VA: 0x182104150
 	|-ArraySortHelper<FoliageGridMeshData.FoliageVertex>.BinarySearch
 	|
-	|-RVA: 0x21049B0 Offset: 0x2102FB0 VA: 0x1821049B0
+	|-RVA: 0x21048B0 Offset: 0x2102EB0 VA: 0x1821048B0
 	|-ArraySortHelper<FoliageKey>.BinarySearch
 	|
-	|-RVA: 0x2103B20 Offset: 0x2102120 VA: 0x182103B20
+	|-RVA: 0x2103A20 Offset: 0x2102020 VA: 0x182103A20
 	|-ArraySortHelper<Option>.BinarySearch
 	|
-	|-RVA: 0x2104850 Offset: 0x2102E50 VA: 0x182104850
+	|-RVA: 0x2104750 Offset: 0x2102D50 VA: 0x182104750
 	|-ArraySortHelper<GameStat.Stat>.BinarySearch
 	|
-	|-RVA: 0x2104C70 Offset: 0x2103270 VA: 0x182104C70
+	|-RVA: 0x2104B70 Offset: 0x2103170 VA: 0x182104B70
 	|-ArraySortHelper<Gibbable.OverrideMesh>.BinarySearch
 	|
-	|-RVA: 0x2104DF0 Offset: 0x21033F0 VA: 0x182104DF0
+	|-RVA: 0x2104CF0 Offset: 0x21032F0 VA: 0x182104CF0
 	|-ArraySortHelper<IconSkinPicker.SkinButtonSetup>.BinarySearch
 	|
-	|-RVA: 0x2103280 Offset: 0x2101880 VA: 0x182103280
+	|-RVA: 0x2103180 Offset: 0x2101780 VA: 0x182103180
 	|-ArraySortHelper<ImageStorageEntity.ImageRequest>.BinarySearch
 	|
-	|-RVA: 0x2103550 Offset: 0x2101B50 VA: 0x182103550
+	|-RVA: 0x2103450 Offset: 0x2101A50 VA: 0x182103450
 	|-ArraySortHelper<InstancingKey>.BinarySearch
 	|
-	|-RVA: 0x21036C0 Offset: 0x2101CC0 VA: 0x1821036C0
+	|-RVA: 0x21035C0 Offset: 0x2101BC0 VA: 0x1821035C0
 	|-ArraySortHelper<InvokeAction>.BinarySearch
 	|
-	|-RVA: 0x21040E0 Offset: 0x21026E0 VA: 0x1821040E0
+	|-RVA: 0x2103FE0 Offset: 0x21025E0 VA: 0x182103FE0
 	|-ArraySortHelper<ItemSkinDirectory.Skin>.BinarySearch
 	|
-	|-RVA: 0x2103830 Offset: 0x2101E30 VA: 0x182103830
+	|-RVA: 0x2103730 Offset: 0x2101D30 VA: 0x182103730
 	|-ArraySortHelper<KeyframeView.UIKeyframeValue>.BinarySearch
 	|
-	|-RVA: 0x2104B00 Offset: 0x2103100 VA: 0x182104B00
+	|-RVA: 0x2104A00 Offset: 0x2103000 VA: 0x182104A00
 	|-ArraySortHelper<LocalClock.TimedEvent>.BinarySearch
 	|
-	|-RVA: 0x21046F0 Offset: 0x2102CF0 VA: 0x1821046F0
+	|-RVA: 0x21045F0 Offset: 0x2102BF0 VA: 0x1821045F0
 	|-ArraySortHelper<MagnetCrane.MagnetCraneSnapshot>.BinarySearch
 	|
-	|-RVA: 0x2103F70 Offset: 0x2102570 VA: 0x182103F70
+	|-RVA: 0x2103E70 Offset: 0x2102470 VA: 0x182103E70
 	|-ArraySortHelper<MapView.MapMarkerCluster>.BinarySearch
 	|
-	|-RVA: 0x21033E0 Offset: 0x21019E0 VA: 0x1821033E0
+	|-RVA: 0x21032E0 Offset: 0x21018E0 VA: 0x1821032E0
 	|-ArraySortHelper<MapView.SleepingBagCluster>.BinarySearch
 	|
-	|-RVA: 0x2103E20 Offset: 0x2102420 VA: 0x182103E20
+	|-RVA: 0x2103D20 Offset: 0x2102320 VA: 0x182103D20
 	|-ArraySortHelper<SevenBitNumber>.BinarySearch
 	|
-	|-RVA: 0x211ACA0 Offset: 0x21192A0 VA: 0x18211ACA0
+	|-RVA: 0x211ABA0 Offset: 0x21191A0 VA: 0x18211ABA0
 	|-ArraySortHelper<MeshColliderInstance>.BinarySearch
 	|
-	|-RVA: 0x211C5A0 Offset: 0x211ABA0 VA: 0x18211C5A0
+	|-RVA: 0x211C4A0 Offset: 0x211AAA0 VA: 0x18211C4A0
 	|-ArraySortHelper<MeshColliderLookup.LookupEntry>.BinarySearch
 	|
-	|-RVA: 0x211AFF0 Offset: 0x21195F0 VA: 0x18211AFF0
+	|-RVA: 0x211AEF0 Offset: 0x21194F0 VA: 0x18211AEF0
 	|-ArraySortHelper<MeshInstance>.BinarySearch
 	|
-	|-RVA: 0x211B9C0 Offset: 0x2119FC0 VA: 0x18211B9C0
+	|-RVA: 0x211B8C0 Offset: 0x2119EC0 VA: 0x18211B8C0
 	|-ArraySortHelper<MeshRendererInstance>.BinarySearch
 	|
-	|-RVA: 0x211C2D0 Offset: 0x211A8D0 VA: 0x18211C2D0
+	|-RVA: 0x211C1D0 Offset: 0x211A7D0 VA: 0x18211C1D0
 	|-ArraySortHelper<MeshRendererLookup.LookupEntry>.BinarySearch
 	|
-	|-RVA: 0x211C000 Offset: 0x211A600 VA: 0x18211C000
+	|-RVA: 0x211BF00 Offset: 0x211A500 VA: 0x18211BF00
 	|-ArraySortHelper<MidiConvar.KnobBinding>.BinarySearch
 	|
-	|-RVA: 0x211B440 Offset: 0x2119A40 VA: 0x18211B440
+	|-RVA: 0x211B340 Offset: 0x2119940 VA: 0x18211B340
 	|-ArraySortHelper<MidiConvar.NoteBinding>.BinarySearch
 	|
-	|-RVA: 0x211AB10 Offset: 0x2119110 VA: 0x18211AB10
+	|-RVA: 0x211AA10 Offset: 0x2119010 VA: 0x18211AA10
 	|-ArraySortHelper<SqliteKeyReader.KeyInfo>.BinarySearch
 	|
-	|-RVA: 0x211AE80 Offset: 0x2119480 VA: 0x18211AE80
+	|-RVA: 0x211AD80 Offset: 0x2119380 VA: 0x18211AD80
 	|-ArraySortHelper<JsonPosition>.BinarySearch
 	|
-	|-RVA: 0x211BD10 Offset: 0x211A310 VA: 0x18211BD10
+	|-RVA: 0x211BC10 Offset: 0x211A210 VA: 0x18211BC10
 	|-ArraySortHelper<ParticleSystemContainer.ParticleSystemGroup>.BinarySearch
 	|
-	|-RVA: 0x211B2F0 Offset: 0x21198F0 VA: 0x18211B2F0
+	|-RVA: 0x211B1F0 Offset: 0x21197F0 VA: 0x18211B1F0
 	|-ArraySortHelper<PathFinder.Point>.BinarySearch
 	|
-	|-RVA: 0x211C420 Offset: 0x211AA20 VA: 0x18211C420
+	|-RVA: 0x211C320 Offset: 0x211A920 VA: 0x18211C320
 	|-ArraySortHelper<PetCommandList.PetCommandDesc>.BinarySearch
 	|
-	|-RVA: 0x211BE70 Offset: 0x211A470 VA: 0x18211BE70
+	|-RVA: 0x211BD70 Offset: 0x211A370 VA: 0x18211BD70
 	|-ArraySortHelper<PlaceMonuments.SpawnInfo>.BinarySearch
 	|
-	|-RVA: 0x211BB90 Offset: 0x211A190 VA: 0x18211BB90
+	|-RVA: 0x211BA90 Offset: 0x211A090 VA: 0x18211BA90
 	|-ArraySortHelper<PlaceMonumentsOffshore.SpawnInfo>.BinarySearch
 	|
-	|-RVA: 0x211B170 Offset: 0x2119770 VA: 0x18211B170
+	|-RVA: 0x211B070 Offset: 0x2119670 VA: 0x18211B070
 	|-ArraySortHelper<PlaceMonumentsRailside.SpawnInfo>.BinarySearch
 	|
-	|-RVA: 0x211C750 Offset: 0x211AD50 VA: 0x18211C750
+	|-RVA: 0x211C650 Offset: 0x211AC50 VA: 0x18211C650
 	|-ArraySortHelper<PlaceMonumentsRoadside.SpawnInfo>.BinarySearch
 	|
-	|-RVA: 0x211B710 Offset: 0x2119D10 VA: 0x18211B710
+	|-RVA: 0x211B610 Offset: 0x2119C10 VA: 0x18211B610
 	|-ArraySortHelper<PlayerItemRecipe.Ingredient>.BinarySearch
 	|
-	|-RVA: 0x211A9B0 Offset: 0x2118FB0 VA: 0x18211A9B0
+	|-RVA: 0x211A8B0 Offset: 0x2118EB0 VA: 0x18211A8B0
 	|-ArraySortHelper<PlayerItemRecipe>.BinarySearch
 	|
-	|-RVA: 0x211C170 Offset: 0x211A770 VA: 0x18211C170
+	|-RVA: 0x211C070 Offset: 0x211A670 VA: 0x18211C070
 	|-ArraySortHelper<ProjectileWeaponMod.Modifier>.BinarySearch
 	|
-	|-RVA: 0x211B860 Offset: 0x2119E60 VA: 0x18211B860
+	|-RVA: 0x211B760 Offset: 0x2119D60 VA: 0x18211B760
 	|-ArraySortHelper<DemoShotFloatKeyframe>.BinarySearch
 	|
-	|-RVA: 0x211B5B0 Offset: 0x2119BB0 VA: 0x18211B5B0
+	|-RVA: 0x211B4B0 Offset: 0x2119AB0 VA: 0x18211B4B0
 	|-ArraySortHelper<DemoShotParentKeyframe>.BinarySearch
 	|
-	|-RVA: 0x210F540 Offset: 0x210DB40 VA: 0x18210F540
+	|-RVA: 0x210F440 Offset: 0x210DA40 VA: 0x18210F440
 	|-ArraySortHelper<DemoShotQuaternionKeyframe>.BinarySearch
 	|
-	|-RVA: 0x2110F70 Offset: 0x210F570 VA: 0x182110F70
+	|-RVA: 0x2110E70 Offset: 0x210F470 VA: 0x182110E70
 	|-ArraySortHelper<DemoShotVectorKeyframe>.BinarySearch
 	|
-	|-RVA: 0x21109C0 Offset: 0x210EFC0 VA: 0x1821109C0
+	|-RVA: 0x21108C0 Offset: 0x210EEC0 VA: 0x1821108C0
 	|-ArraySortHelper<VectorData>.BinarySearch
 	|
-	|-RVA: 0x210FC90 Offset: 0x210E290 VA: 0x18210FC90
+	|-RVA: 0x210FB90 Offset: 0x210E190 VA: 0x18210FB90
 	|-ArraySortHelper<ReflectionProbeEx.CubemapSkyboxVertex>.BinarySearch
 	|
-	|-RVA: 0x210F9E0 Offset: 0x210DFE0 VA: 0x18210F9E0
+	|-RVA: 0x210F8E0 Offset: 0x210DEE0 VA: 0x18210F8E0
 	|-ArraySortHelper<ReflectionProbeEx.RenderListEntry>.BinarySearch
 	|
-	|-RVA: 0x21110D0 Offset: 0x210F6D0 VA: 0x1821110D0
+	|-RVA: 0x2110FD0 Offset: 0x210F5D0 VA: 0x182110FD0
 	|-ArraySortHelper<RendererKey>.BinarySearch
 	|
-	|-RVA: 0x2110290 Offset: 0x210E890 VA: 0x182110290
+	|-RVA: 0x2110190 Offset: 0x210E790 VA: 0x182110190
 	|-ArraySortHelper<WaypointSet.Waypoint>.BinarySearch
 	|
-	|-RVA: 0x2110400 Offset: 0x210EA00 VA: 0x182110400
+	|-RVA: 0x2110300 Offset: 0x210E900 VA: 0x182110300
 	|-ArraySortHelper<TransformSnapshot>.BinarySearch
 	|
-	|-RVA: 0x2110B20 Offset: 0x210F120 VA: 0x182110B20
+	|-RVA: 0x2110A20 Offset: 0x210F020 VA: 0x182110A20
 	|-ArraySortHelper<TimelineEvent>.BinarySearch
 	|
-	|-RVA: 0x210F870 Offset: 0x210DE70 VA: 0x18210F870
+	|-RVA: 0x210F770 Offset: 0x210DD70 VA: 0x18210F770
 	|-ArraySortHelper<Option>.BinarySearch
 	|
-	|-RVA: 0x21106D0 Offset: 0x210ECD0 VA: 0x1821106D0
+	|-RVA: 0x21105D0 Offset: 0x210EBD0 VA: 0x1821105D0
 	|-ArraySortHelper<TickRenderer.Tick>.BinarySearch
 	|
-	|-RVA: 0x210FF80 Offset: 0x210E580 VA: 0x18210FF80
+	|-RVA: 0x210FE80 Offset: 0x210E480 VA: 0x18210FE80
 	|-ArraySortHelper<ServerInfo>.BinarySearch
 	|
-	|-RVA: 0x2110C90 Offset: 0x210F290 VA: 0x182110C90
+	|-RVA: 0x2110B90 Offset: 0x210F190 VA: 0x182110B90
 	|-ArraySortHelper<SkinnedMultiMesh.Part>.BinarySearch
 	|
-	|-RVA: 0x2110E00 Offset: 0x210F400 VA: 0x182110E00
+	|-RVA: 0x2110D00 Offset: 0x210F300 VA: 0x182110D00
 	|-ArraySortHelper<SubmarineSonar.SonarBlip>.BinarySearch
 	|
-	|-RVA: 0x2111230 Offset: 0x210F830 VA: 0x182111230
+	|-RVA: 0x2111130 Offset: 0x210F730 VA: 0x182111130
 	|-ArraySortHelper<SpawnIndividual>.BinarySearch
 	|
-	|-RVA: 0x210FE10 Offset: 0x210E410 VA: 0x18210FE10
+	|-RVA: 0x210FD10 Offset: 0x210E310 VA: 0x18210FD10
 	|-ArraySortHelper<SpecialPurposeCamera.RenderEntry>.BinarySearch
 	|
-	|-RVA: 0x2110840 Offset: 0x210EE40 VA: 0x182110840
+	|-RVA: 0x2110740 Offset: 0x210ED40 VA: 0x182110740
 	|-ArraySortHelper<SteamNewsSource.Story>.BinarySearch
 	|
-	|-RVA: 0x210FB40 Offset: 0x210E140 VA: 0x18210FB40
+	|-RVA: 0x210FA40 Offset: 0x210E040 VA: 0x18210FA40
 	|-ArraySortHelper<Achievement>.BinarySearch
 	|
-	|-RVA: 0x2110140 Offset: 0x210E740 VA: 0x182110140
+	|-RVA: 0x2110040 Offset: 0x210E640 VA: 0x182110040
 	|-ArraySortHelper<InventoryDefId>.BinarySearch
 	|
-	|-RVA: 0x2110570 Offset: 0x210EB70 VA: 0x182110570
+	|-RVA: 0x2110470 Offset: 0x210EA70 VA: 0x182110470
 	|-ArraySortHelper<MatchMakingKeyValuePair>.BinarySearch
 	|
-	|-RVA: 0x210F6B0 Offset: 0x210DCB0 VA: 0x18210F6B0
+	|-RVA: 0x210F5B0 Offset: 0x210DBB0 VA: 0x18210F5B0
 	|-ArraySortHelper<ServerInfo>.BinarySearch
 	|
-	|-RVA: 0x215A490 Offset: 0x2158A90 VA: 0x18215A490
+	|-RVA: 0x215A390 Offset: 0x2158990 VA: 0x18215A390
 	|-ArraySortHelper<Dispatch.Callback>.BinarySearch
 	|
-	|-RVA: 0x215B260 Offset: 0x2159860 VA: 0x18215B260
+	|-RVA: 0x215B160 Offset: 0x2159760 VA: 0x18215B160
 	|-ArraySortHelper<Friend>.BinarySearch
 	|
-	|-RVA: 0x215B3B0 Offset: 0x21599B0 VA: 0x18215B3B0
+	|-RVA: 0x215B2B0 Offset: 0x21598B0 VA: 0x18215B2B0
 	|-ArraySortHelper<InventoryItem.Amount>.BinarySearch
 	|
-	|-RVA: 0x215B7F0 Offset: 0x2159DF0 VA: 0x18215B7F0
+	|-RVA: 0x215B6F0 Offset: 0x2159CF0 VA: 0x18215B6F0
 	|-ArraySortHelper<InventoryItem>.BinarySearch
 	|
-	|-RVA: 0x215B680 Offset: 0x2159C80 VA: 0x18215B680
+	|-RVA: 0x215B580 Offset: 0x2159B80 VA: 0x18215B580
 	|-ArraySortHelper<InventoryRecipe.Ingredient>.BinarySearch
 	|
-	|-RVA: 0x215A320 Offset: 0x2158920 VA: 0x18215A320
+	|-RVA: 0x215A220 Offset: 0x2158820 VA: 0x18215A220
 	|-ArraySortHelper<InventoryRecipe>.BinarySearch
 	|
-	|-RVA: 0x2159ED0 Offset: 0x21584D0 VA: 0x182159ED0
+	|-RVA: 0x2159DD0 Offset: 0x21583D0 VA: 0x182159DD0
 	|-ArraySortHelper<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.BinarySearch
 	|
-	|-RVA: 0x215AE20 Offset: 0x2159420 VA: 0x18215AE20
+	|-RVA: 0x215AD20 Offset: 0x2159320 VA: 0x18215AD20
 	|-ArraySortHelper<SynchronizedClock.TimedEvent>.BinarySearch
 	|
-	|-RVA: 0x215AB70 Offset: 0x2159170 VA: 0x18215AB70
+	|-RVA: 0x215AA70 Offset: 0x2159070 VA: 0x18215AA70
 	|-ArraySortHelper<bool>.BinarySearch
 	|
-	|-RVA: 0x215B530 Offset: 0x2159B30 VA: 0x18215B530
+	|-RVA: 0x215B430 Offset: 0x2159A30 VA: 0x18215B430
 	|-ArraySortHelper<byte>.BinarySearch
 	|
-	|-RVA: 0x215A5F0 Offset: 0x2158BF0 VA: 0x18215A5F0
+	|-RVA: 0x215A4F0 Offset: 0x2158AF0 VA: 0x18215A4F0
 	|-ArraySortHelper<char>.BinarySearch
 	|
-	|-RVA: 0x215A050 Offset: 0x2158650 VA: 0x18215A050
+	|-RVA: 0x2159F50 Offset: 0x2158550 VA: 0x182159F50
 	|-ArraySortHelper<DictionaryEntry>.BinarySearch
 	|
-	|-RVA: 0x215AA10 Offset: 0x2159010 VA: 0x18215AA10
+	|-RVA: 0x215A910 Offset: 0x2158F10 VA: 0x18215A910
 	|-ArraySortHelper<KeyValuePair<DateTime, object>>.BinarySearch
 	|
-	|-RVA: 0x215A740 Offset: 0x2158D40 VA: 0x18215A740
+	|-RVA: 0x215A640 Offset: 0x2158C40 VA: 0x18215A640
 	|-ArraySortHelper<KeyValuePair<Guid, int>>.BinarySearch
 	|
-	|-RVA: 0x215B960 Offset: 0x2159F60 VA: 0x18215B960
+	|-RVA: 0x215B860 Offset: 0x2159E60 VA: 0x18215B860
 	|-ArraySortHelper<KeyValuePair<int, object>>.BinarySearch
 	|
-	|-RVA: 0x215A8B0 Offset: 0x2158EB0 VA: 0x18215A8B0
+	|-RVA: 0x215A7B0 Offset: 0x2158DB0 VA: 0x18215A7B0
 	|-ArraySortHelper<KeyValuePair<Int32Enum, object>>.BinarySearch
 	|
-	|-RVA: 0x215B100 Offset: 0x2159700 VA: 0x18215B100
+	|-RVA: 0x215B000 Offset: 0x2159600 VA: 0x18215B000
 	|-ArraySortHelper<KeyValuePair<object, object>>.BinarySearch
 	|
-	|-RVA: 0x215ACC0 Offset: 0x21592C0 VA: 0x18215ACC0
+	|-RVA: 0x215ABC0 Offset: 0x21591C0 VA: 0x18215ABC0
 	|-ArraySortHelper<KeyValuePair<object, float>>.BinarySearch
 	|
-	|-RVA: 0x215AF90 Offset: 0x2159590 VA: 0x18215AF90
+	|-RVA: 0x215AE90 Offset: 0x2159490 VA: 0x18215AE90
 	|-ArraySortHelper<KeyValuePair<object, Color>>.BinarySearch
 	|
-	|-RVA: 0x215BAC0 Offset: 0x215A0C0 VA: 0x18215BAC0
+	|-RVA: 0x215B9C0 Offset: 0x2159FC0 VA: 0x18215B9C0
 	|-ArraySortHelper<KeyValuePair<uint, object>>.BinarySearch
 	|
-	|-RVA: 0x215A1B0 Offset: 0x21587B0 VA: 0x18215A1B0
+	|-RVA: 0x215A0B0 Offset: 0x21586B0 VA: 0x18215A0B0
 	|-ArraySortHelper<KeyValuePair<ulong, Dispatch.ResultCallback>>.BinarySearch
 	|
-	|-RVA: 0x216E790 Offset: 0x216CD90 VA: 0x18216E790
+	|-RVA: 0x216E690 Offset: 0x216CC90 VA: 0x18216E690
 	|-ArraySortHelper<DateTime>.BinarySearch
 	|
-	|-RVA: 0x216DF70 Offset: 0x216C570 VA: 0x18216DF70
+	|-RVA: 0x216DE70 Offset: 0x216C470 VA: 0x18216DE70
 	|-ArraySortHelper<DateTimeOffset>.BinarySearch
 	|
-	|-RVA: 0x216E8E0 Offset: 0x216CEE0 VA: 0x18216E8E0
+	|-RVA: 0x216E7E0 Offset: 0x216CDE0 VA: 0x18216E7E0
 	|-ArraySortHelper<Decimal>.BinarySearch
 	|
-	|-RVA: 0x216DE20 Offset: 0x216C420 VA: 0x18216DE20
+	|-RVA: 0x216DD20 Offset: 0x216C320 VA: 0x18216DD20
 	|-ArraySortHelper<EventProvider.SessionInfo>.BinarySearch
 	|
-	|-RVA: 0x216EB90 Offset: 0x216D190 VA: 0x18216EB90
+	|-RVA: 0x216EA90 Offset: 0x216D090 VA: 0x18216EA90
 	|-ArraySortHelper<double>.BinarySearch
 	|
-	|-RVA: 0x216DA20 Offset: 0x216C020 VA: 0x18216DA20
+	|-RVA: 0x216D920 Offset: 0x216BF20 VA: 0x18216D920
 	|-ArraySortHelper<Guid>.BinarySearch
 	|
-	|-RVA: 0x216EE40 Offset: 0x216D440 VA: 0x18216EE40
+	|-RVA: 0x216ED40 Offset: 0x216D340 VA: 0x18216ED40
 	|-ArraySortHelper<short>.BinarySearch
 	|
-	|-RVA: 0x216F390 Offset: 0x216D990 VA: 0x18216F390
+	|-RVA: 0x216F290 Offset: 0x216D890 VA: 0x18216F290
 	|-ArraySortHelper<int>.BinarySearch
 	|
-	|-RVA: 0x216F0E0 Offset: 0x216D6E0 VA: 0x18216F0E0
+	|-RVA: 0x216EFE0 Offset: 0x216D5E0 VA: 0x18216EFE0
 	|-ArraySortHelper<Int32Enum>.BinarySearch
 	|
-	|-RVA: 0x216E390 Offset: 0x216C990 VA: 0x18216E390
+	|-RVA: 0x216E290 Offset: 0x216C890 VA: 0x18216E290
 	|-ArraySortHelper<long>.BinarySearch
 	|
-	|-RVA: 0x216DB80 Offset: 0x216C180 VA: 0x18216DB80
+	|-RVA: 0x216DA80 Offset: 0x216C080 VA: 0x18216DA80
 	|-ArraySortHelper<object>.BinarySearch
 	|
-	|-RVA: 0x216ECF0 Offset: 0x216D2F0 VA: 0x18216ECF0
+	|-RVA: 0x216EBF0 Offset: 0x216D1F0 VA: 0x18216EBF0
 	|-ArraySortHelper<sbyte>.BinarySearch
 	|
-	|-RVA: 0x216E0D0 Offset: 0x216C6D0 VA: 0x18216E0D0
+	|-RVA: 0x216DFD0 Offset: 0x216C5D0 VA: 0x18216DFD0
 	|-ArraySortHelper<float>.BinarySearch
 	|
-	|-RVA: 0x216EF90 Offset: 0x216D590 VA: 0x18216EF90
+	|-RVA: 0x216EE90 Offset: 0x216D490 VA: 0x18216EE90
 	|-ArraySortHelper<TimeSpan>.BinarySearch
 	|
-	|-RVA: 0x216DCD0 Offset: 0x216C2D0 VA: 0x18216DCD0
+	|-RVA: 0x216DBD0 Offset: 0x216C1D0 VA: 0x18216DBD0
 	|-ArraySortHelper<ushort>.BinarySearch
 	|
-	|-RVA: 0x216EA40 Offset: 0x216D040 VA: 0x18216EA40
+	|-RVA: 0x216E940 Offset: 0x216CF40 VA: 0x18216E940
 	|-ArraySortHelper<uint>.BinarySearch
 	|
-	|-RVA: 0x216E640 Offset: 0x216CC40 VA: 0x18216E640
+	|-RVA: 0x216E540 Offset: 0x216CB40 VA: 0x18216E540
 	|-ArraySortHelper<ulong>.BinarySearch
 	|
-	|-RVA: 0x216F230 Offset: 0x216D830 VA: 0x18216F230
+	|-RVA: 0x216F130 Offset: 0x216D730 VA: 0x18216F130
 	|-ArraySortHelper<ValueTuple<object, object>>.BinarySearch
 	|
-	|-RVA: 0x216E230 Offset: 0x216C830 VA: 0x18216E230
+	|-RVA: 0x216E130 Offset: 0x216C730 VA: 0x18216E130
 	|-ArraySortHelper<RangePositionInfo>.BinarySearch
 	|
-	|-RVA: 0x216D8C0 Offset: 0x216BEC0 VA: 0x18216D8C0
+	|-RVA: 0x216D7C0 Offset: 0x216BDC0 VA: 0x18216D7C0
 	|-ArraySortHelper<XmlSchemaObjectTable.XmlSchemaObjectEntry>.BinarySearch
 	|
-	|-RVA: 0x216E4E0 Offset: 0x216CAE0 VA: 0x18216E4E0
+	|-RVA: 0x216E3E0 Offset: 0x216C9E0 VA: 0x18216E3E0
 	|-ArraySortHelper<TickInterpolator.Segment>.BinarySearch
 	|
-	|-RVA: 0x216F4E0 Offset: 0x216DAE0 VA: 0x18216F4E0
+	|-RVA: 0x216F3E0 Offset: 0x216D9E0 VA: 0x18216F3E0
 	|-ArraySortHelper<TraceInfo>.BinarySearch
 	|
-	|-RVA: 0x214E370 Offset: 0x214C970 VA: 0x18214E370
+	|-RVA: 0x214E270 Offset: 0x214C870 VA: 0x18214E270
 	|-ArraySortHelper<TrainCar.TrainCarSnapshot>.BinarySearch
 	|
-	|-RVA: 0x214E650 Offset: 0x214CC50 VA: 0x18214E650
+	|-RVA: 0x214E550 Offset: 0x214CB50 VA: 0x18214E550
 	|-ArraySortHelper<NavMeshBuildMarkup>.BinarySearch
 	|
-	|-RVA: 0x214F1C0 Offset: 0x214D7C0 VA: 0x18214F1C0
+	|-RVA: 0x214F0C0 Offset: 0x214D6C0 VA: 0x18214F0C0
 	|-ArraySortHelper<NavMeshBuildSource>.BinarySearch
 	|
-	|-RVA: 0x214D970 Offset: 0x214BF70 VA: 0x18214D970
+	|-RVA: 0x214D870 Offset: 0x214BE70 VA: 0x18214D870
 	|-ArraySortHelper<BeforeRenderHelper.OrderBlock>.BinarySearch
 	|
-	|-RVA: 0x214DC70 Offset: 0x214C270 VA: 0x18214DC70
+	|-RVA: 0x214DB70 Offset: 0x214C170 VA: 0x18214DB70
 	|-ArraySortHelper<Color32>.BinarySearch
 	|
-	|-RVA: 0x214EC00 Offset: 0x214D200 VA: 0x18214EC00
+	|-RVA: 0x214EB00 Offset: 0x214D100 VA: 0x18214EB00
 	|-ArraySortHelper<Color>.BinarySearch
 	|
-	|-RVA: 0x214DAD0 Offset: 0x214C0D0 VA: 0x18214DAD0
+	|-RVA: 0x214D9D0 Offset: 0x214BFD0 VA: 0x18214D9D0
 	|-ArraySortHelper<RaycastResult>.BinarySearch
 	|
-	|-RVA: 0x214DF20 Offset: 0x214C520 VA: 0x18214DF20
+	|-RVA: 0x214DE20 Offset: 0x214C420 VA: 0x18214DE20
 	|-ArraySortHelper<Matrix4x4>.BinarySearch
 	|
-	|-RVA: 0x214E4D0 Offset: 0x214CAD0 VA: 0x18214E4D0
+	|-RVA: 0x214E3D0 Offset: 0x214C9D0 VA: 0x18214E3D0
 	|-ArraySortHelper<RaycastHit2D>.BinarySearch
 	|
-	|-RVA: 0x214D690 Offset: 0x214BC90 VA: 0x18214D690
+	|-RVA: 0x214D590 Offset: 0x214BB90 VA: 0x18214D590
 	|-ArraySortHelper<RaycastHit>.BinarySearch
 	|
-	|-RVA: 0x214DDC0 Offset: 0x214C3C0 VA: 0x18214DDC0
+	|-RVA: 0x214DCC0 Offset: 0x214C2C0 VA: 0x18214DCC0
 	|-ArraySortHelper<Rect>.BinarySearch
 	|
-	|-RVA: 0x214F370 Offset: 0x214D970 VA: 0x18214F370
+	|-RVA: 0x214F270 Offset: 0x214D870 VA: 0x18214F270
 	|-ArraySortHelper<RenderTargetIdentifier>.BinarySearch
 	|
-	|-RVA: 0x214EAA0 Offset: 0x214D0A0 VA: 0x18214EAA0
+	|-RVA: 0x214E9A0 Offset: 0x214CFA0 VA: 0x18214E9A0
 	|-ArraySortHelper<Resolution>.BinarySearch
 	|
-	|-RVA: 0x214EF00 Offset: 0x214D500 VA: 0x18214EF00
+	|-RVA: 0x214EE00 Offset: 0x214D400 VA: 0x18214EE00
 	|-ArraySortHelper<GlyphRect>.BinarySearch
 	|
-	|-RVA: 0x214E920 Offset: 0x214CF20 VA: 0x18214E920
+	|-RVA: 0x214E820 Offset: 0x214CE20 VA: 0x18214E820
 	|-ArraySortHelper<TreeInstance>.BinarySearch
 	|
-	|-RVA: 0x214E0B0 Offset: 0x214C6B0 VA: 0x18214E0B0
+	|-RVA: 0x214DFB0 Offset: 0x214C5B0 VA: 0x18214DFB0
 	|-ArraySortHelper<UICharInfo>.BinarySearch
 	|
-	|-RVA: 0x214D810 Offset: 0x214BE10 VA: 0x18214D810
+	|-RVA: 0x214D710 Offset: 0x214BD10 VA: 0x18214D710
 	|-ArraySortHelper<FocusController.FocusedElement>.BinarySearch
 	|
-	|-RVA: 0x214F060 Offset: 0x214D660 VA: 0x18214F060
+	|-RVA: 0x214EF60 Offset: 0x214D560 VA: 0x18214EF60
 	|-ArraySortHelper<UILineInfo>.BinarySearch
 	|
-	|-RVA: 0x214ED60 Offset: 0x214D360 VA: 0x18214ED60
+	|-RVA: 0x214EC60 Offset: 0x214D260 VA: 0x18214EC60
 	|-ArraySortHelper<UIVertex>.BinarySearch
 	|
-	|-RVA: 0x214E7B0 Offset: 0x214CDB0 VA: 0x18214E7B0
+	|-RVA: 0x214E6B0 Offset: 0x214CCB0 VA: 0x18214E6B0
 	|-ArraySortHelper<UnitySynchronizationContext.WorkRequest>.BinarySearch
 	|
-	|-RVA: 0x214E210 Offset: 0x214C810 VA: 0x18214E210
+	|-RVA: 0x214E110 Offset: 0x214C710 VA: 0x18214E110
 	|-ArraySortHelper<Vector2>.BinarySearch
 	|
-	|-RVA: 0x1C531B0 Offset: 0x1C517B0 VA: 0x181C531B0
+	|-RVA: 0x1C530B0 Offset: 0x1C516B0 VA: 0x181C530B0
 	|-ArraySortHelper<Vector3>.BinarySearch
 	|
-	|-RVA: 0x1C52C10 Offset: 0x1C51210 VA: 0x181C52C10
+	|-RVA: 0x1C52B10 Offset: 0x1C51110 VA: 0x181C52B10
 	|-ArraySortHelper<Vector4>.BinarySearch
 	|
-	|-RVA: 0x1C53310 Offset: 0x1C51910 VA: 0x181C53310
+	|-RVA: 0x1C53210 Offset: 0x1C51810 VA: 0x181C53210
 	|-ArraySortHelper<Vector2i>.BinarySearch
 	|
-	|-RVA: 0x1C53030 Offset: 0x1C51630 VA: 0x181C53030
+	|-RVA: 0x1C52F30 Offset: 0x1C51530 VA: 0x181C52F30
 	|-ArraySortHelper<ViewModelDrawEvent>.BinarySearch
 	|
-	|-RVA: 0x1C52ED0 Offset: 0x1C514D0 VA: 0x181C52ED0
+	|-RVA: 0x1C52DD0 Offset: 0x1C513D0 VA: 0x181C52DD0
 	|-ArraySortHelper<WindZoneExManager.CurrentZoneEntry>.BinarySearch
 	|
-	|-RVA: 0x1C52D70 Offset: 0x1C51370 VA: 0x181C52D70
+	|-RVA: 0x1C52C70 Offset: 0x1C51270 VA: 0x181C52C70
 	|-ArraySortHelper<WorldSplineData.LUTEntry.LUTPoint>.BinarySearch
 	*/
 
 	internal static void Sort(T[] keys, int index, int length, Comparison<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FA46F0 Offset: 0x1FA2CF0 VA: 0x181FA46F0
+	|-RVA: 0x1FA45F0 Offset: 0x1FA2BF0 VA: 0x181FA45F0
 	|-ArraySortHelper<AdvancedChristmasLights.pointEntry>.Sort
 	|
-	|-RVA: 0x1FA3770 Offset: 0x1FA1D70 VA: 0x181FA3770
+	|-RVA: 0x1FA3670 Offset: 0x1FA1C70 VA: 0x181FA3670
 	|-ArraySortHelper<AlignedLineDrawer.LinePoint>.Sort
 	|
-	|-RVA: 0x1FA4EF0 Offset: 0x1FA34F0 VA: 0x181FA4EF0
+	|-RVA: 0x1FA4DF0 Offset: 0x1FA33F0 VA: 0x181FA4DF0
 	|-ArraySortHelper<AtmosphereVolumeRenderer.CurrentVolumeEntry>.Sort
 	|
-	|-RVA: 0x1FA3670 Offset: 0x1FA1C70 VA: 0x181FA3670
+	|-RVA: 0x1FA3570 Offset: 0x1FA1B70 VA: 0x181FA3570
 	|-ArraySortHelper<BaseEntity.ServerFileRequest>.Sort
 	|
-	|-RVA: 0x1FA2270 Offset: 0x1FA0870 VA: 0x181FA2270
+	|-RVA: 0x1FA2170 Offset: 0x1FA0770 VA: 0x181FA2170
 	|-ArraySortHelper<CardTableUI.KeycodeWithAction>.Sort
 	|
-	|-RVA: 0x1FA3870 Offset: 0x1FA1E70 VA: 0x181FA3870
+	|-RVA: 0x1FA3770 Offset: 0x1FA1D70 VA: 0x181FA3770
 	|-ArraySortHelper<Cassette.LoadRequest>.Sort
 	|
-	|-RVA: 0x1FA2AF0 Offset: 0x1FA10F0 VA: 0x181FA2AF0
+	|-RVA: 0x1FA29F0 Offset: 0x1FA0FF0 VA: 0x181FA29F0
 	|-ArraySortHelper<Admin.PlayerInfo>.Sort
 	|
-	|-RVA: 0x1FA4CF0 Offset: 0x1FA32F0 VA: 0x181FA4CF0
+	|-RVA: 0x1FA4BF0 Offset: 0x1FA31F0 VA: 0x181FA4BF0
 	|-ArraySortHelper<Admin.ServerConvarInfo>.Sort
 	|
-	|-RVA: 0x1FA3BF0 Offset: 0x1FA21F0 VA: 0x181FA3BF0
+	|-RVA: 0x1FA3AF0 Offset: 0x1FA20F0 VA: 0x181FA3AF0
 	|-ArraySortHelper<Admin.ServerUGCInfo>.Sort
 	|
-	|-RVA: 0x1FA3570 Offset: 0x1FA1B70 VA: 0x181FA3570
+	|-RVA: 0x1FA3470 Offset: 0x1FA1A70 VA: 0x181FA3470
 	|-ArraySortHelper<Chat.MuteEntry>.Sort
 	|
-	|-RVA: 0x1FA31F0 Offset: 0x1FA17F0 VA: 0x181FA31F0
+	|-RVA: 0x1FA30F0 Offset: 0x1FA16F0 VA: 0x181FA30F0
 	|-ArraySortHelper<DamageRenderer.DamageShowingRenderer>.Sort
 	|
-	|-RVA: 0x1FA30F0 Offset: 0x1FA16F0 VA: 0x181FA30F0
+	|-RVA: 0x1FA2FF0 Offset: 0x1FA15F0 VA: 0x181FA2FF0
 	|-ArraySortHelper<DeferredExtensionMesh.MaterialLink>.Sort
 	|
-	|-RVA: 0x1FA4DF0 Offset: 0x1FA33F0 VA: 0x181FA4DF0
+	|-RVA: 0x1FA4CF0 Offset: 0x1FA32F0 VA: 0x181FA4CF0
 	|-ArraySortHelper<DeferredMeshDecal.MaterialLink>.Sort
 	|
-	|-RVA: 0x2100D50 Offset: 0x20FF350 VA: 0x182100D50
+	|-RVA: 0x2100C50 Offset: 0x20FF250 VA: 0x182100C50
 	|-ArraySortHelper<Demos.DemoInfo>.Sort
 	|
-	|-RVA: 0x20FD350 Offset: 0x20FB950 VA: 0x1820FD350
+	|-RVA: 0x20FD250 Offset: 0x20FB850 VA: 0x1820FD250
 	|-ArraySortHelper<CRedge>.Sort
 	|
-	|-RVA: 0x20FDE50 Offset: 0x20FC450 VA: 0x1820FDE50
+	|-RVA: 0x20FDD50 Offset: 0x20FC350 VA: 0x1820FDD50
 	|-ArraySortHelper<CombineClass>.Sort
 	|
-	|-RVA: 0x20FD7D0 Offset: 0x20FBDD0 VA: 0x1820FD7D0
+	|-RVA: 0x20FD6D0 Offset: 0x20FBCD0 VA: 0x1820FD6D0
 	|-ArraySortHelper<ERCell>.Sort
 	|
-	|-RVA: 0x21013D0 Offset: 0x20FF9D0 VA: 0x1821013D0
+	|-RVA: 0x21012D0 Offset: 0x20FF8D0 VA: 0x1821012D0
 	|-ArraySortHelper<ERChildsSO>.Sort
 	|
-	|-RVA: 0x21015D0 Offset: 0x20FFBD0 VA: 0x1821015D0
+	|-RVA: 0x21014D0 Offset: 0x20FFAD0 VA: 0x1821014D0
 	|-ArraySortHelper<ERConnectionGUIStatus>.Sort
 	|
-	|-RVA: 0x20FD8D0 Offset: 0x20FBED0 VA: 0x1820FD8D0
+	|-RVA: 0x20FD7D0 Offset: 0x20FBDD0 VA: 0x1820FD7D0
 	|-ArraySortHelper<ERLane>.Sort
 	|
-	|-RVA: 0x2100250 Offset: 0x20FE850 VA: 0x182100250
+	|-RVA: 0x2100150 Offset: 0x20FE750 VA: 0x182100150
 	|-ArraySortHelper<ERMeshCombineUtility.MeshInstance>.Sort
 	|
-	|-RVA: 0x21014D0 Offset: 0x20FFAD0 VA: 0x1821014D0
+	|-RVA: 0x21013D0 Offset: 0x20FF9D0 VA: 0x1821013D0
 	|-ArraySortHelper<ERSOSection>.Sort
 	|
-	|-RVA: 0x20FDC50 Offset: 0x20FC250 VA: 0x1820FDC50
+	|-RVA: 0x20FDB50 Offset: 0x20FC150 VA: 0x1820FDB50
 	|-ArraySortHelper<ERSplatmap>.Sort
 	|
-	|-RVA: 0x2100050 Offset: 0x20FE650 VA: 0x182100050
+	|-RVA: 0x20FFF50 Offset: 0x20FE550 VA: 0x1820FFF50
 	|-ArraySortHelper<ERTerrainChange>.Sort
 	|
-	|-RVA: 0x20FD6D0 Offset: 0x20FBCD0 VA: 0x1820FD6D0
+	|-RVA: 0x20FD5D0 Offset: 0x20FBBD0 VA: 0x1820FD5D0
 	|-ArraySortHelper<ERVSData>.Sort
 	|
-	|-RVA: 0x20FDD50 Offset: 0x20FC350 VA: 0x1820FDD50
+	|-RVA: 0x20FDC50 Offset: 0x20FC250 VA: 0x1820FDC50
 	|-ArraySortHelper<NormalPairs>.Sort
 	|
-	|-RVA: 0x2100E50 Offset: 0x20FF450 VA: 0x182100E50
+	|-RVA: 0x2100D50 Offset: 0x20FF350 VA: 0x182100D50
 	|-ArraySortHelper<EngineDamageOverTime.RecentDamage>.Sort
 	|
-	|-RVA: 0x21012D0 Offset: 0x20FF8D0 VA: 0x1821012D0
+	|-RVA: 0x21011D0 Offset: 0x20FF7D0 VA: 0x1821011D0
 	|-ArraySortHelper<EntityRef<object>>.Sort
 	|
-	|-RVA: 0x20FF2D0 Offset: 0x20FD8D0 VA: 0x1820FF2D0
+	|-RVA: 0x20FF1D0 Offset: 0x20FD7D0 VA: 0x1820FF1D0
 	|-ArraySortHelper<ExpandedLifeStats.GenericStatDisplay>.Sort
 	|
-	|-RVA: 0x2100150 Offset: 0x20FE750 VA: 0x182100150
+	|-RVA: 0x2100050 Offset: 0x20FE650 VA: 0x182100050
 	|-ArraySortHelper<BurstCloth.Chain>.Sort
 	|
-	|-RVA: 0x20FCD50 Offset: 0x20FB350 VA: 0x1820FCD50
+	|-RVA: 0x20FCC50 Offset: 0x20FB250 VA: 0x1820FCC50
 	|-ArraySortHelper<CapsuleParams>.Sort
 	|
-	|-RVA: 0x20FE950 Offset: 0x20FCF50 VA: 0x1820FE950
+	|-RVA: 0x20FE850 Offset: 0x20FCE50 VA: 0x1820FE850
 	|-ArraySortHelper<BoneData>.Sort
 	|
-	|-RVA: 0x2100F50 Offset: 0x20FF550 VA: 0x182100F50
+	|-RVA: 0x2100E50 Offset: 0x20FF450 VA: 0x182100E50
 	|-ArraySortHelper<TabbedPanel.Tab>.Sort
 	|
-	|-RVA: 0x20FECD0 Offset: 0x20FD2D0 VA: 0x1820FECD0
+	|-RVA: 0x20FEBD0 Offset: 0x20FD1D0 VA: 0x1820FEBD0
 	|-ArraySortHelper<Output.Entry>.Sort
 	|
-	|-RVA: 0x210A6D0 Offset: 0x2108CD0 VA: 0x18210A6D0
+	|-RVA: 0x210A5D0 Offset: 0x2108BD0 VA: 0x18210A5D0
 	|-ArraySortHelper<RCon.BannedAddresses>.Sort
 	|
-	|-RVA: 0x210AA50 Offset: 0x2109050 VA: 0x18210AA50
+	|-RVA: 0x210A950 Offset: 0x2108F50 VA: 0x18210A950
 	|-ArraySortHelper<SkeletonDefinition.Bone>.Sort
 	|
-	|-RVA: 0x210A0D0 Offset: 0x21086D0 VA: 0x18210A0D0
+	|-RVA: 0x2109FD0 Offset: 0x21085D0 VA: 0x182109FD0
 	|-ArraySortHelper<Tick.Entry>.Sort
 	|
-	|-RVA: 0x210C6D0 Offset: 0x210ACD0 VA: 0x18210C6D0
+	|-RVA: 0x210C5D0 Offset: 0x210ABD0 VA: 0x18210C5D0
 	|-ArraySortHelper<RenderInfo.RendererInstance>.Sort
 	|
-	|-RVA: 0x210CA50 Offset: 0x210B050 VA: 0x18210CA50
+	|-RVA: 0x210C950 Offset: 0x210AF50 VA: 0x18210C950
 	|-ArraySortHelper<WeightedStringList.Container>.Sort
 	|
-	|-RVA: 0x210DC50 Offset: 0x210C250 VA: 0x18210DC50
+	|-RVA: 0x210DB50 Offset: 0x210C150 VA: 0x18210DB50
 	|-ArraySortHelper<FoliageGridMeshData.FoliageVertex>.Sort
 	|
-	|-RVA: 0x21094D0 Offset: 0x2107AD0 VA: 0x1821094D0
+	|-RVA: 0x21093D0 Offset: 0x21079D0 VA: 0x1821093D0
 	|-ArraySortHelper<FoliageKey>.Sort
 	|
-	|-RVA: 0x210AB50 Offset: 0x2109150 VA: 0x18210AB50
+	|-RVA: 0x210AA50 Offset: 0x2109050 VA: 0x18210AA50
 	|-ArraySortHelper<Option>.Sort
-	|
-	|-RVA: 0x210C350 Offset: 0x210A950 VA: 0x18210C350
-	|-ArraySortHelper<GameStat.Stat>.Sort
-	|
-	|-RVA: 0x210CD50 Offset: 0x210B350 VA: 0x18210CD50
-	|-ArraySortHelper<Gibbable.OverrideMesh>.Sort
 	|
 	|-RVA: 0x210C250 Offset: 0x210A850 VA: 0x18210C250
-	|-ArraySortHelper<IconSkinPicker.SkinButtonSetup>.Sort
-	|
-	|-RVA: 0x210AED0 Offset: 0x21094D0 VA: 0x18210AED0
-	|-ArraySortHelper<ImageStorageEntity.ImageRequest>.Sort
-	|
-	|-RVA: 0x21093D0 Offset: 0x21079D0 VA: 0x1821093D0
-	|-ArraySortHelper<InstancingKey>.Sort
-	|
-	|-RVA: 0x210D950 Offset: 0x210BF50 VA: 0x18210D950
-	|-ArraySortHelper<InvokeAction>.Sort
+	|-ArraySortHelper<GameStat.Stat>.Sort
 	|
 	|-RVA: 0x210CC50 Offset: 0x210B250 VA: 0x18210CC50
-	|-ArraySortHelper<ItemSkinDirectory.Skin>.Sort
+	|-ArraySortHelper<Gibbable.OverrideMesh>.Sort
 	|
-	|-RVA: 0x210B4D0 Offset: 0x2109AD0 VA: 0x18210B4D0
-	|-ArraySortHelper<KeyframeView.UIKeyframeValue>.Sort
+	|-RVA: 0x210C150 Offset: 0x210A750 VA: 0x18210C150
+	|-ArraySortHelper<IconSkinPicker.SkinButtonSetup>.Sort
 	|
-	|-RVA: 0x210CB50 Offset: 0x210B150 VA: 0x18210CB50
-	|-ArraySortHelper<LocalClock.TimedEvent>.Sort
+	|-RVA: 0x210ADD0 Offset: 0x21093D0 VA: 0x18210ADD0
+	|-ArraySortHelper<ImageStorageEntity.ImageRequest>.Sort
 	|
-	|-RVA: 0x210DB50 Offset: 0x210C150 VA: 0x18210DB50
-	|-ArraySortHelper<MagnetCrane.MagnetCraneSnapshot>.Sort
-	|
-	|-RVA: 0x210DA50 Offset: 0x210C050 VA: 0x18210DA50
-	|-ArraySortHelper<MapView.MapMarkerCluster>.Sort
+	|-RVA: 0x21092D0 Offset: 0x21078D0 VA: 0x1821092D0
+	|-ArraySortHelper<InstancingKey>.Sort
 	|
 	|-RVA: 0x210D850 Offset: 0x210BE50 VA: 0x18210D850
+	|-ArraySortHelper<InvokeAction>.Sort
+	|
+	|-RVA: 0x210CB50 Offset: 0x210B150 VA: 0x18210CB50
+	|-ArraySortHelper<ItemSkinDirectory.Skin>.Sort
+	|
+	|-RVA: 0x210B3D0 Offset: 0x21099D0 VA: 0x18210B3D0
+	|-ArraySortHelper<KeyframeView.UIKeyframeValue>.Sort
+	|
+	|-RVA: 0x210CA50 Offset: 0x210B050 VA: 0x18210CA50
+	|-ArraySortHelper<LocalClock.TimedEvent>.Sort
+	|
+	|-RVA: 0x210DA50 Offset: 0x210C050 VA: 0x18210DA50
+	|-ArraySortHelper<MagnetCrane.MagnetCraneSnapshot>.Sort
+	|
+	|-RVA: 0x210D950 Offset: 0x210BF50 VA: 0x18210D950
+	|-ArraySortHelper<MapView.MapMarkerCluster>.Sort
+	|
+	|-RVA: 0x210D750 Offset: 0x210BD50 VA: 0x18210D750
 	|-ArraySortHelper<MapView.SleepingBagCluster>.Sort
 	|
-	|-RVA: 0x2109850 Offset: 0x2107E50 VA: 0x182109850
+	|-RVA: 0x2109750 Offset: 0x2107D50 VA: 0x182109750
 	|-ArraySortHelper<SevenBitNumber>.Sort
 	|
-	|-RVA: 0x2122A00 Offset: 0x2121000 VA: 0x182122A00
+	|-RVA: 0x2122900 Offset: 0x2120F00 VA: 0x182122900
 	|-ArraySortHelper<MeshColliderInstance>.Sort
 	|
-	|-RVA: 0x2121E80 Offset: 0x2120480 VA: 0x182121E80
+	|-RVA: 0x2121D80 Offset: 0x2120380 VA: 0x182121D80
 	|-ArraySortHelper<MeshColliderLookup.LookupEntry>.Sort
 	|
-	|-RVA: 0x2121F80 Offset: 0x2120580 VA: 0x182121F80
+	|-RVA: 0x2121E80 Offset: 0x2120480 VA: 0x182121E80
 	|-ArraySortHelper<MeshInstance>.Sort
 	|
-	|-RVA: 0x2125480 Offset: 0x2123A80 VA: 0x182125480
+	|-RVA: 0x2125380 Offset: 0x2123980 VA: 0x182125380
 	|-ArraySortHelper<MeshRendererInstance>.Sort
 	|
-	|-RVA: 0x2123980 Offset: 0x2121F80 VA: 0x182123980
+	|-RVA: 0x2123880 Offset: 0x2121E80 VA: 0x182123880
 	|-ArraySortHelper<MeshRendererLookup.LookupEntry>.Sort
 	|
-	|-RVA: 0x2123380 Offset: 0x2121980 VA: 0x182123380
+	|-RVA: 0x2123280 Offset: 0x2121880 VA: 0x182123280
 	|-ArraySortHelper<MidiConvar.KnobBinding>.Sort
 	|
-	|-RVA: 0x2125A00 Offset: 0x2124000 VA: 0x182125A00
+	|-RVA: 0x2125900 Offset: 0x2123F00 VA: 0x182125900
 	|-ArraySortHelper<MidiConvar.NoteBinding>.Sort
 	|
-	|-RVA: 0x2124C80 Offset: 0x2123280 VA: 0x182124C80
+	|-RVA: 0x2124B80 Offset: 0x2123180 VA: 0x182124B80
 	|-ArraySortHelper<SqliteKeyReader.KeyInfo>.Sort
 	|
-	|-RVA: 0x2125580 Offset: 0x2123B80 VA: 0x182125580
+	|-RVA: 0x2125480 Offset: 0x2123A80 VA: 0x182125480
 	|-ArraySortHelper<JsonPosition>.Sort
 	|
-	|-RVA: 0x2122080 Offset: 0x2120680 VA: 0x182122080
+	|-RVA: 0x2121F80 Offset: 0x2120580 VA: 0x182121F80
 	|-ArraySortHelper<ParticleSystemContainer.ParticleSystemGroup>.Sort
 	|
-	|-RVA: 0x2124D80 Offset: 0x2123380 VA: 0x182124D80
+	|-RVA: 0x2124C80 Offset: 0x2123280 VA: 0x182124C80
 	|-ArraySortHelper<PathFinder.Point>.Sort
 	|
-	|-RVA: 0x2124180 Offset: 0x2122780 VA: 0x182124180
+	|-RVA: 0x2124080 Offset: 0x2122680 VA: 0x182124080
 	|-ArraySortHelper<PetCommandList.PetCommandDesc>.Sort
 	|
-	|-RVA: 0x2121900 Offset: 0x211FF00 VA: 0x182121900
+	|-RVA: 0x2121800 Offset: 0x211FE00 VA: 0x182121800
 	|-ArraySortHelper<PlaceMonuments.SpawnInfo>.Sort
 	|
-	|-RVA: 0x2123D00 Offset: 0x2122300 VA: 0x182123D00
+	|-RVA: 0x2123C00 Offset: 0x2122200 VA: 0x182123C00
 	|-ArraySortHelper<PlaceMonumentsOffshore.SpawnInfo>.Sort
 	|
-	|-RVA: 0x2125900 Offset: 0x2123F00 VA: 0x182125900
+	|-RVA: 0x2125800 Offset: 0x2123E00 VA: 0x182125800
 	|-ArraySortHelper<PlaceMonumentsRailside.SpawnInfo>.Sort
 	|
-	|-RVA: 0x2125380 Offset: 0x2123980 VA: 0x182125380
+	|-RVA: 0x2125280 Offset: 0x2123880 VA: 0x182125280
 	|-ArraySortHelper<PlaceMonumentsRoadside.SpawnInfo>.Sort
 	|
-	|-RVA: 0x2122400 Offset: 0x2120A00 VA: 0x182122400
+	|-RVA: 0x2122300 Offset: 0x2120900 VA: 0x182122300
 	|-ArraySortHelper<PlayerItemRecipe.Ingredient>.Sort
 	|
-	|-RVA: 0x2122D80 Offset: 0x2121380 VA: 0x182122D80
+	|-RVA: 0x2122C80 Offset: 0x2121280 VA: 0x182122C80
 	|-ArraySortHelper<PlayerItemRecipe>.Sort
 	|
-	|-RVA: 0x2121B00 Offset: 0x2120100 VA: 0x182121B00
+	|-RVA: 0x2121A00 Offset: 0x2120000 VA: 0x182121A00
 	|-ArraySortHelper<ProjectileWeaponMod.Modifier>.Sort
 	|
-	|-RVA: 0x2124080 Offset: 0x2122680 VA: 0x182124080
+	|-RVA: 0x2123F80 Offset: 0x2122580 VA: 0x182123F80
 	|-ArraySortHelper<DemoShotFloatKeyframe>.Sort
 	|
-	|-RVA: 0x2121A00 Offset: 0x2120000 VA: 0x182121A00
+	|-RVA: 0x2121900 Offset: 0x211FF00 VA: 0x182121900
 	|-ArraySortHelper<DemoShotParentKeyframe>.Sort
 	|
-	|-RVA: 0x2118E80 Offset: 0x2117480 VA: 0x182118E80
+	|-RVA: 0x2118D80 Offset: 0x2117380 VA: 0x182118D80
 	|-ArraySortHelper<DemoShotQuaternionKeyframe>.Sort
 	|
-	|-RVA: 0x2116580 Offset: 0x2114B80 VA: 0x182116580
+	|-RVA: 0x2116480 Offset: 0x2114A80 VA: 0x182116480
 	|-ArraySortHelper<DemoShotVectorKeyframe>.Sort
 	|
-	|-RVA: 0x2117800 Offset: 0x2115E00 VA: 0x182117800
+	|-RVA: 0x2117700 Offset: 0x2115D00 VA: 0x182117700
 	|-ArraySortHelper<VectorData>.Sort
 	|
-	|-RVA: 0x2119580 Offset: 0x2117B80 VA: 0x182119580
+	|-RVA: 0x2119480 Offset: 0x2117A80 VA: 0x182119480
 	|-ArraySortHelper<ReflectionProbeEx.CubemapSkyboxVertex>.Sort
 	|
-	|-RVA: 0x2118800 Offset: 0x2116E00 VA: 0x182118800
+	|-RVA: 0x2118700 Offset: 0x2116D00 VA: 0x182118700
 	|-ArraySortHelper<ReflectionProbeEx.RenderListEntry>.Sort
 	|
-	|-RVA: 0x2114F80 Offset: 0x2113580 VA: 0x182114F80
+	|-RVA: 0x2114E80 Offset: 0x2113480 VA: 0x182114E80
 	|-ArraySortHelper<RendererKey>.Sort
 	|
-	|-RVA: 0x2118A00 Offset: 0x2117000 VA: 0x182118A00
+	|-RVA: 0x2118900 Offset: 0x2116F00 VA: 0x182118900
 	|-ArraySortHelper<WaypointSet.Waypoint>.Sort
 	|
-	|-RVA: 0x2116F80 Offset: 0x2115580 VA: 0x182116F80
+	|-RVA: 0x2116E80 Offset: 0x2115480 VA: 0x182116E80
 	|-ArraySortHelper<TransformSnapshot>.Sort
 	|
-	|-RVA: 0x2115780 Offset: 0x2113D80 VA: 0x182115780
+	|-RVA: 0x2115680 Offset: 0x2113C80 VA: 0x182115680
 	|-ArraySortHelper<TimelineEvent>.Sort
 	|
-	|-RVA: 0x2118F80 Offset: 0x2117580 VA: 0x182118F80
+	|-RVA: 0x2118E80 Offset: 0x2117480 VA: 0x182118E80
 	|-ArraySortHelper<Option>.Sort
 	|
-	|-RVA: 0x2116780 Offset: 0x2114D80 VA: 0x182116780
+	|-RVA: 0x2116680 Offset: 0x2114C80 VA: 0x182116680
 	|-ArraySortHelper<TickRenderer.Tick>.Sort
 	|
-	|-RVA: 0x2116480 Offset: 0x2114A80 VA: 0x182116480
+	|-RVA: 0x2116380 Offset: 0x2114980 VA: 0x182116380
 	|-ArraySortHelper<ServerInfo>.Sort
 	|
-	|-RVA: 0x2115080 Offset: 0x2113680 VA: 0x182115080
+	|-RVA: 0x2114F80 Offset: 0x2113580 VA: 0x182114F80
 	|-ArraySortHelper<SkinnedMultiMesh.Part>.Sort
 	|
-	|-RVA: 0x2116B00 Offset: 0x2115100 VA: 0x182116B00
+	|-RVA: 0x2116A00 Offset: 0x2115000 VA: 0x182116A00
 	|-ArraySortHelper<SubmarineSonar.SonarBlip>.Sort
 	|
-	|-RVA: 0x2118D80 Offset: 0x2117380 VA: 0x182118D80
+	|-RVA: 0x2118C80 Offset: 0x2117280 VA: 0x182118C80
 	|-ArraySortHelper<SpawnIndividual>.Sort
 	|
-	|-RVA: 0x2116680 Offset: 0x2114C80 VA: 0x182116680
+	|-RVA: 0x2116580 Offset: 0x2114B80 VA: 0x182116580
 	|-ArraySortHelper<SpecialPurposeCamera.RenderEntry>.Sort
 	|
-	|-RVA: 0x2118900 Offset: 0x2116F00 VA: 0x182118900
+	|-RVA: 0x2118800 Offset: 0x2116E00 VA: 0x182118800
 	|-ArraySortHelper<SteamNewsSource.Story>.Sort
 	|
-	|-RVA: 0x2116000 Offset: 0x2114600 VA: 0x182116000
+	|-RVA: 0x2115F00 Offset: 0x2114500 VA: 0x182115F00
 	|-ArraySortHelper<Achievement>.Sort
 	|
-	|-RVA: 0x2116E80 Offset: 0x2115480 VA: 0x182116E80
+	|-RVA: 0x2116D80 Offset: 0x2115380 VA: 0x182116D80
 	|-ArraySortHelper<InventoryDefId>.Sort
 	|
-	|-RVA: 0x2115180 Offset: 0x2113780 VA: 0x182115180
+	|-RVA: 0x2115080 Offset: 0x2113680 VA: 0x182115080
 	|-ArraySortHelper<MatchMakingKeyValuePair>.Sort
 	|
-	|-RVA: 0x2116100 Offset: 0x2114700 VA: 0x182116100
+	|-RVA: 0x2116000 Offset: 0x2114600 VA: 0x182116000
 	|-ArraySortHelper<ServerInfo>.Sort
 	|
-	|-RVA: 0x2160390 Offset: 0x215E990 VA: 0x182160390
+	|-RVA: 0x2160290 Offset: 0x215E890 VA: 0x182160290
 	|-ArraySortHelper<Dispatch.Callback>.Sort
 	|
-	|-RVA: 0x2160C10 Offset: 0x215F210 VA: 0x182160C10
+	|-RVA: 0x2160B10 Offset: 0x215F110 VA: 0x182160B10
 	|-ArraySortHelper<Friend>.Sort
 	|
-	|-RVA: 0x2160290 Offset: 0x215E890 VA: 0x182160290
+	|-RVA: 0x2160190 Offset: 0x215E790 VA: 0x182160190
 	|-ArraySortHelper<InventoryItem.Amount>.Sort
 	|
-	|-RVA: 0x215DF90 Offset: 0x215C590 VA: 0x18215DF90
+	|-RVA: 0x215DE90 Offset: 0x215C490 VA: 0x18215DE90
 	|-ArraySortHelper<InventoryItem>.Sort
 	|
-	|-RVA: 0x2160810 Offset: 0x215EE10 VA: 0x182160810
+	|-RVA: 0x2160710 Offset: 0x215ED10 VA: 0x182160710
 	|-ArraySortHelper<InventoryRecipe.Ingredient>.Sort
 	|
-	|-RVA: 0x2160B10 Offset: 0x215F110 VA: 0x182160B10
+	|-RVA: 0x2160A10 Offset: 0x215F010 VA: 0x182160A10
 	|-ArraySortHelper<InventoryRecipe>.Sort
 	|
-	|-RVA: 0x2160D10 Offset: 0x215F310 VA: 0x182160D10
+	|-RVA: 0x2160C10 Offset: 0x215F210 VA: 0x182160C10
 	|-ArraySortHelper<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.Sort
 	|
-	|-RVA: 0x2160A10 Offset: 0x215F010 VA: 0x182160A10
+	|-RVA: 0x2160910 Offset: 0x215EF10 VA: 0x182160910
 	|-ArraySortHelper<SynchronizedClock.TimedEvent>.Sort
 	|
-	|-RVA: 0x215FC90 Offset: 0x215E290 VA: 0x18215FC90
+	|-RVA: 0x215FB90 Offset: 0x215E190 VA: 0x18215FB90
 	|-ArraySortHelper<bool>.Sort
 	|
-	|-RVA: 0x2161590 Offset: 0x215FB90 VA: 0x182161590
+	|-RVA: 0x2161490 Offset: 0x215FA90 VA: 0x182161490
 	|-ArraySortHelper<byte>.Sort
 	|
-	|-RVA: 0x2161790 Offset: 0x215FD90 VA: 0x182161790
+	|-RVA: 0x2161690 Offset: 0x215FC90 VA: 0x182161690
 	|-ArraySortHelper<char>.Sort
 	|
-	|-RVA: 0x215DE90 Offset: 0x215C490 VA: 0x18215DE90
+	|-RVA: 0x215DD90 Offset: 0x215C390 VA: 0x18215DD90
 	|-ArraySortHelper<DictionaryEntry>.Sort
 	|
-	|-RVA: 0x215DD90 Offset: 0x215C390 VA: 0x18215DD90
+	|-RVA: 0x215DC90 Offset: 0x215C290 VA: 0x18215DC90
 	|-ArraySortHelper<KeyValuePair<DateTime, object>>.Sort
 	|
-	|-RVA: 0x215F090 Offset: 0x215D690 VA: 0x18215F090
+	|-RVA: 0x215EF90 Offset: 0x215D590 VA: 0x18215EF90
 	|-ArraySortHelper<KeyValuePair<Guid, int>>.Sort
 	|
-	|-RVA: 0x2160490 Offset: 0x215EA90 VA: 0x182160490
+	|-RVA: 0x2160390 Offset: 0x215E990 VA: 0x182160390
 	|-ArraySortHelper<KeyValuePair<int, object>>.Sort
 	|
-	|-RVA: 0x2161890 Offset: 0x215FE90 VA: 0x182161890
+	|-RVA: 0x2161790 Offset: 0x215FD90 VA: 0x182161790
 	|-ArraySortHelper<KeyValuePair<Int32Enum, object>>.Sort
 	|
-	|-RVA: 0x2161690 Offset: 0x215FC90 VA: 0x182161690
+	|-RVA: 0x2161590 Offset: 0x215FB90 VA: 0x182161590
 	|-ArraySortHelper<KeyValuePair<object, object>>.Sort
 	|
-	|-RVA: 0x2160910 Offset: 0x215EF10 VA: 0x182160910
+	|-RVA: 0x2160810 Offset: 0x215EE10 VA: 0x182160810
 	|-ArraySortHelper<KeyValuePair<object, float>>.Sort
 	|
-	|-RVA: 0x215F410 Offset: 0x215DA10 VA: 0x18215F410
+	|-RVA: 0x215F310 Offset: 0x215D910 VA: 0x18215F310
 	|-ArraySortHelper<KeyValuePair<object, Color>>.Sort
 	|
-	|-RVA: 0x215E090 Offset: 0x215C690 VA: 0x18215E090
+	|-RVA: 0x215DF90 Offset: 0x215C590 VA: 0x18215DF90
 	|-ArraySortHelper<KeyValuePair<uint, object>>.Sort
 	|
-	|-RVA: 0x2161C10 Offset: 0x2160210 VA: 0x182161C10
+	|-RVA: 0x2161B10 Offset: 0x2160110 VA: 0x182161B10
 	|-ArraySortHelper<KeyValuePair<ulong, Dispatch.ResultCallback>>.Sort
 	|
-	|-RVA: 0x2173EF0 Offset: 0x21724F0 VA: 0x182173EF0
+	|-RVA: 0x2173DF0 Offset: 0x21723F0 VA: 0x182173DF0
 	|-ArraySortHelper<DateTime>.Sort
 	|
-	|-RVA: 0x21768F0 Offset: 0x2174EF0 VA: 0x1821768F0
+	|-RVA: 0x21767F0 Offset: 0x2174DF0 VA: 0x1821767F0
 	|-ArraySortHelper<DateTimeOffset>.Sort
 	|
-	|-RVA: 0x21766F0 Offset: 0x2174CF0 VA: 0x1821766F0
+	|-RVA: 0x21765F0 Offset: 0x2174BF0 VA: 0x1821765F0
 	|-ArraySortHelper<Decimal>.Sort
 	|
-	|-RVA: 0x2176270 Offset: 0x2174870 VA: 0x182176270
+	|-RVA: 0x2176170 Offset: 0x2174770 VA: 0x182176170
 	|-ArraySortHelper<EventProvider.SessionInfo>.Sort
 	|
-	|-RVA: 0x2173A70 Offset: 0x2172070 VA: 0x182173A70
+	|-RVA: 0x2173970 Offset: 0x2171F70 VA: 0x182173970
 	|-ArraySortHelper<double>.Sort
 	|
-	|-RVA: 0x21765F0 Offset: 0x2174BF0 VA: 0x1821765F0
+	|-RVA: 0x21764F0 Offset: 0x2174AF0 VA: 0x1821764F0
 	|-ArraySortHelper<Guid>.Sort
 	|
-	|-RVA: 0x2172C70 Offset: 0x2171270 VA: 0x182172C70
+	|-RVA: 0x2172B70 Offset: 0x2171170 VA: 0x182172B70
 	|-ArraySortHelper<short>.Sort
 	|
-	|-RVA: 0x2176170 Offset: 0x2174770 VA: 0x182176170
+	|-RVA: 0x2176070 Offset: 0x2174670 VA: 0x182176070
 	|-ArraySortHelper<int>.Sort
 	|
-	|-RVA: 0x2173970 Offset: 0x2171F70 VA: 0x182173970
+	|-RVA: 0x2173870 Offset: 0x2171E70 VA: 0x182173870
 	|-ArraySortHelper<Int32Enum>.Sort
 	|
-	|-RVA: 0x2172B70 Offset: 0x2171170 VA: 0x182172B70
+	|-RVA: 0x2172A70 Offset: 0x2171070 VA: 0x182172A70
 	|-ArraySortHelper<long>.Sort
 	|
-	|-RVA: 0x2175A70 Offset: 0x2174070 VA: 0x182175A70
+	|-RVA: 0x2175970 Offset: 0x2173F70 VA: 0x182175970
 	|-ArraySortHelper<object>.Sort
 	|
-	|-RVA: 0x21744F0 Offset: 0x2172AF0 VA: 0x1821744F0
+	|-RVA: 0x21743F0 Offset: 0x21729F0 VA: 0x1821743F0
 	|-ArraySortHelper<sbyte>.Sort
 	|
-	|-RVA: 0x2173B70 Offset: 0x2172170 VA: 0x182173B70
+	|-RVA: 0x2173A70 Offset: 0x2172070 VA: 0x182173A70
 	|-ArraySortHelper<float>.Sort
 	|
-	|-RVA: 0x21730F0 Offset: 0x21716F0 VA: 0x1821730F0
+	|-RVA: 0x2172FF0 Offset: 0x21715F0 VA: 0x182172FF0
 	|-ArraySortHelper<TimeSpan>.Sort
 	|
-	|-RVA: 0x21754F0 Offset: 0x2173AF0 VA: 0x1821754F0
+	|-RVA: 0x21753F0 Offset: 0x21739F0 VA: 0x1821753F0
 	|-ArraySortHelper<ushort>.Sort
 	|
-	|-RVA: 0x2177270 Offset: 0x2175870 VA: 0x182177270
+	|-RVA: 0x2177170 Offset: 0x2175770 VA: 0x182177170
 	|-ArraySortHelper<uint>.Sort
 	|
-	|-RVA: 0x21767F0 Offset: 0x2174DF0 VA: 0x1821767F0
+	|-RVA: 0x21766F0 Offset: 0x2174CF0 VA: 0x1821766F0
 	|-ArraySortHelper<ulong>.Sort
 	|
-	|-RVA: 0x2172FF0 Offset: 0x21715F0 VA: 0x182172FF0
+	|-RVA: 0x2172EF0 Offset: 0x21714F0 VA: 0x182172EF0
 	|-ArraySortHelper<ValueTuple<object, object>>.Sort
 	|
-	|-RVA: 0x2176EF0 Offset: 0x21754F0 VA: 0x182176EF0
+	|-RVA: 0x2176DF0 Offset: 0x21753F0 VA: 0x182176DF0
 	|-ArraySortHelper<RangePositionInfo>.Sort
 	|
-	|-RVA: 0x2175B70 Offset: 0x2174170 VA: 0x182175B70
+	|-RVA: 0x2175A70 Offset: 0x2174070 VA: 0x182175A70
 	|-ArraySortHelper<XmlSchemaObjectTable.XmlSchemaObjectEntry>.Sort
 	|
-	|-RVA: 0x21755F0 Offset: 0x2173BF0 VA: 0x1821755F0
+	|-RVA: 0x21754F0 Offset: 0x2173AF0 VA: 0x1821754F0
 	|-ArraySortHelper<TickInterpolator.Segment>.Sort
 	|
-	|-RVA: 0x2175970 Offset: 0x2173F70 VA: 0x182175970
+	|-RVA: 0x2175870 Offset: 0x2173E70 VA: 0x182175870
 	|-ArraySortHelper<TraceInfo>.Sort
 	|
-	|-RVA: 0x2158460 Offset: 0x2156A60 VA: 0x182158460
+	|-RVA: 0x2158360 Offset: 0x2156960 VA: 0x182158360
 	|-ArraySortHelper<TrainCar.TrainCarSnapshot>.Sort
 	|
-	|-RVA: 0x2158660 Offset: 0x2156C60 VA: 0x182158660
+	|-RVA: 0x2158560 Offset: 0x2156B60 VA: 0x182158560
 	|-ArraySortHelper<NavMeshBuildMarkup>.Sort
 	|
-	|-RVA: 0x2157060 Offset: 0x2155660 VA: 0x182157060
+	|-RVA: 0x2156F60 Offset: 0x2155560 VA: 0x182156F60
 	|-ArraySortHelper<NavMeshBuildSource>.Sort
 	|
-	|-RVA: 0x2158AE0 Offset: 0x21570E0 VA: 0x182158AE0
+	|-RVA: 0x21589E0 Offset: 0x2156FE0 VA: 0x1821589E0
 	|-ArraySortHelper<BeforeRenderHelper.OrderBlock>.Sort
 	|
-	|-RVA: 0x2156060 Offset: 0x2154660 VA: 0x182156060
+	|-RVA: 0x2155F60 Offset: 0x2154560 VA: 0x182155F60
 	|-ArraySortHelper<Color32>.Sort
 	|
-	|-RVA: 0x21555E0 Offset: 0x2153BE0 VA: 0x1821555E0
+	|-RVA: 0x21554E0 Offset: 0x2153AE0 VA: 0x1821554E0
 	|-ArraySortHelper<Color>.Sort
 	|
-	|-RVA: 0x2158360 Offset: 0x2156960 VA: 0x182158360
+	|-RVA: 0x2158260 Offset: 0x2156860 VA: 0x182158260
 	|-ArraySortHelper<RaycastResult>.Sort
 	|
-	|-RVA: 0x21554E0 Offset: 0x2153AE0 VA: 0x1821554E0
+	|-RVA: 0x21553E0 Offset: 0x21539E0 VA: 0x1821553E0
 	|-ArraySortHelper<Matrix4x4>.Sort
 	|
-	|-RVA: 0x21564E0 Offset: 0x2154AE0 VA: 0x1821564E0
+	|-RVA: 0x21563E0 Offset: 0x21549E0 VA: 0x1821563E0
 	|-ArraySortHelper<RaycastHit2D>.Sort
 	|
-	|-RVA: 0x2157360 Offset: 0x2155960 VA: 0x182157360
+	|-RVA: 0x2157260 Offset: 0x2155860 VA: 0x182157260
 	|-ArraySortHelper<RaycastHit>.Sort
 	|
-	|-RVA: 0x2158760 Offset: 0x2156D60 VA: 0x182158760
+	|-RVA: 0x2158660 Offset: 0x2156C60 VA: 0x182158660
 	|-ArraySortHelper<Rect>.Sort
 	|
-	|-RVA: 0x2158560 Offset: 0x2156B60 VA: 0x182158560
+	|-RVA: 0x2158460 Offset: 0x2156A60 VA: 0x182158460
 	|-ArraySortHelper<RenderTargetIdentifier>.Sort
 	|
-	|-RVA: 0x2157260 Offset: 0x2155860 VA: 0x182157260
+	|-RVA: 0x2157160 Offset: 0x2155760 VA: 0x182157160
 	|-ArraySortHelper<Resolution>.Sort
 	|
-	|-RVA: 0x2156BE0 Offset: 0x21551E0 VA: 0x182156BE0
+	|-RVA: 0x2156AE0 Offset: 0x21550E0 VA: 0x182156AE0
 	|-ArraySortHelper<GlyphRect>.Sort
 	|
-	|-RVA: 0x2156CE0 Offset: 0x21552E0 VA: 0x182156CE0
+	|-RVA: 0x2156BE0 Offset: 0x21551E0 VA: 0x182156BE0
 	|-ArraySortHelper<TreeInstance>.Sort
 	|
-	|-RVA: 0x2156AE0 Offset: 0x21550E0 VA: 0x182156AE0
+	|-RVA: 0x21569E0 Offset: 0x2154FE0 VA: 0x1821569E0
 	|-ArraySortHelper<UICharInfo>.Sort
 	|
-	|-RVA: 0x2157160 Offset: 0x2155760 VA: 0x182157160
+	|-RVA: 0x2157060 Offset: 0x2155660 VA: 0x182157060
 	|-ArraySortHelper<FocusController.FocusedElement>.Sort
 	|
-	|-RVA: 0x2156160 Offset: 0x2154760 VA: 0x182156160
+	|-RVA: 0x2156060 Offset: 0x2154660 VA: 0x182156060
 	|-ArraySortHelper<UILineInfo>.Sort
 	|
-	|-RVA: 0x21557E0 Offset: 0x2153DE0 VA: 0x1821557E0
+	|-RVA: 0x21556E0 Offset: 0x2153CE0 VA: 0x1821556E0
 	|-ArraySortHelper<UIVertex>.Sort
 	|
-	|-RVA: 0x21556E0 Offset: 0x2153CE0 VA: 0x1821556E0
+	|-RVA: 0x21555E0 Offset: 0x2153BE0 VA: 0x1821555E0
 	|-ArraySortHelper<UnitySynchronizationContext.WorkRequest>.Sort
 	|
-	|-RVA: 0x2155160 Offset: 0x2153760 VA: 0x182155160
+	|-RVA: 0x2155060 Offset: 0x2153660 VA: 0x182155060
 	|-ArraySortHelper<Vector2>.Sort
 	|
-	|-RVA: 0x1C576E0 Offset: 0x1C55CE0 VA: 0x181C576E0
+	|-RVA: 0x1C575E0 Offset: 0x1C55BE0 VA: 0x181C575E0
 	|-ArraySortHelper<Vector3>.Sort
 	|
-	|-RVA: 0x1C57DE0 Offset: 0x1C563E0 VA: 0x181C57DE0
+	|-RVA: 0x1C57CE0 Offset: 0x1C562E0 VA: 0x181C57CE0
 	|-ArraySortHelper<Vector4>.Sort
 	|
-	|-RVA: 0x1C57CE0 Offset: 0x1C562E0 VA: 0x181C57CE0
+	|-RVA: 0x1C57BE0 Offset: 0x1C561E0 VA: 0x181C57BE0
 	|-ArraySortHelper<Vector2i>.Sort
 	|
-	|-RVA: 0x1C575E0 Offset: 0x1C55BE0 VA: 0x181C575E0
+	|-RVA: 0x1C574E0 Offset: 0x1C55AE0 VA: 0x181C574E0
 	|-ArraySortHelper<ViewModelDrawEvent>.Sort
 	|
-	|-RVA: 0x1C56FE0 Offset: 0x1C555E0 VA: 0x181C56FE0
+	|-RVA: 0x1C56EE0 Offset: 0x1C554E0 VA: 0x181C56EE0
 	|-ArraySortHelper<WindZoneExManager.CurrentZoneEntry>.Sort
 	|
-	|-RVA: 0x1C57EE0 Offset: 0x1C564E0 VA: 0x181C57EE0
+	|-RVA: 0x1C57DE0 Offset: 0x1C563E0 VA: 0x181C57DE0
 	|-ArraySortHelper<WorldSplineData.LUTEntry.LUTPoint>.Sort
 	*/
 
 	internal static int InternalBinarySearch(T[] array, int index, int length, T value, IComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FA1150 Offset: 0x1F9F750 VA: 0x181FA1150
+	|-RVA: 0x1FA1050 Offset: 0x1F9F650 VA: 0x181FA1050
 	|-ArraySortHelper<AdvancedChristmasLights.pointEntry>.InternalBinarySearch
 	|-ArraySortHelper<AlignedLineDrawer.LinePoint>.InternalBinarySearch
 	|-ArraySortHelper<Cassette.LoadRequest>.InternalBinarySearch
@@ -37154,7 +37154,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<KeyValuePair<ulong, Dispatch.ResultCallback>>.InternalBinarySearch
 	|-ArraySortHelper<UnitySynchronizationContext.WorkRequest>.InternalBinarySearch
 	|
-	|-RVA: 0x1C55140 Offset: 0x1C53740 VA: 0x181C55140
+	|-RVA: 0x1C55040 Offset: 0x1C53640 VA: 0x181C55040
 	|-ArraySortHelper<AtmosphereVolumeRenderer.CurrentVolumeEntry>.InternalBinarySearch
 	|-ArraySortHelper<DamageRenderer.DamageShowingRenderer>.InternalBinarySearch
 	|-ArraySortHelper<DeferredExtensionMesh.MaterialLink>.InternalBinarySearch
@@ -37201,7 +37201,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<WindZoneExManager.CurrentZoneEntry>.InternalBinarySearch
 	|-ArraySortHelper<WorldSplineData.LUTEntry.LUTPoint>.InternalBinarySearch
 	|
-	|-RVA: 0x1FA0FA0 Offset: 0x1F9F5A0 VA: 0x181FA0FA0
+	|-RVA: 0x1FA0EA0 Offset: 0x1F9F4A0 VA: 0x181FA0EA0
 	|-ArraySortHelper<BaseEntity.ServerFileRequest>.InternalBinarySearch
 	|-ArraySortHelper<CardTableUI.KeycodeWithAction>.InternalBinarySearch
 	|-ArraySortHelper<Demos.DemoInfo>.InternalBinarySearch
@@ -37222,12 +37222,12 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<SpecialPurposeCamera.RenderEntry>.InternalBinarySearch
 	|-ArraySortHelper<InventoryItem>.InternalBinarySearch
 	|
-	|-RVA: 0x1FA1300 Offset: 0x1F9F900 VA: 0x181FA1300
+	|-RVA: 0x1FA1200 Offset: 0x1F9F800 VA: 0x181FA1200
 	|-ArraySortHelper<Admin.PlayerInfo>.InternalBinarySearch
 	|-ArraySortHelper<PlaceMonuments.SpawnInfo>.InternalBinarySearch
 	|-ArraySortHelper<Matrix4x4>.InternalBinarySearch
 	|
-	|-RVA: 0x1C55440 Offset: 0x1C53A40 VA: 0x181C55440
+	|-RVA: 0x1C55340 Offset: 0x1C53940 VA: 0x181C55340
 	|-ArraySortHelper<Admin.ServerUGCInfo>.InternalBinarySearch
 	|-ArraySortHelper<CapsuleParams>.InternalBinarySearch
 	|-ArraySortHelper<SkeletonDefinition.Bone>.InternalBinarySearch
@@ -37238,7 +37238,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<TreeInstance>.InternalBinarySearch
 	|-ArraySortHelper<ViewModelDrawEvent>.InternalBinarySearch
 	|
-	|-RVA: 0x1C54FA0 Offset: 0x1C535A0 VA: 0x181C54FA0
+	|-RVA: 0x1C54EA0 Offset: 0x1C534A0 VA: 0x181C54EA0
 	|-ArraySortHelper<CRedge>.InternalBinarySearch
 	|-ArraySortHelper<ProjectileWeaponMod.Modifier>.InternalBinarySearch
 	|-ArraySortHelper<VectorData>.InternalBinarySearch
@@ -37247,7 +37247,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<UICharInfo>.InternalBinarySearch
 	|-ArraySortHelper<Vector3>.InternalBinarySearch
 	|
-	|-RVA: 0x1C552D0 Offset: 0x1C538D0 VA: 0x181C552D0
+	|-RVA: 0x1C551D0 Offset: 0x1C537D0 VA: 0x181C551D0
 	|-ArraySortHelper<ERCell>.InternalBinarySearch
 	|-ArraySortHelper<ERConnectionGUIStatus>.InternalBinarySearch
 	|-ArraySortHelper<ERTerrainChange>.InternalBinarySearch
@@ -37264,30 +37264,30 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<TimeSpan>.InternalBinarySearch
 	|-ArraySortHelper<Vector2i>.InternalBinarySearch
 	|
-	|-RVA: 0x20FA690 Offset: 0x20F8C90 VA: 0x1820FA690
+	|-RVA: 0x20FA590 Offset: 0x20F8B90 VA: 0x1820FA590
 	|-ArraySortHelper<ERMeshCombineUtility.MeshInstance>.InternalBinarySearch
 	|-ArraySortHelper<RenderInfo.RendererInstance>.InternalBinarySearch
 	|-ArraySortHelper<Option>.InternalBinarySearch
 	|
-	|-RVA: 0x20FA140 Offset: 0x20F8740 VA: 0x1820FA140
+	|-RVA: 0x20FA040 Offset: 0x20F8640 VA: 0x1820FA040
 	|-ArraySortHelper<ERSOSection>.InternalBinarySearch
 	|
-	|-RVA: 0x20FA8F0 Offset: 0x20F8EF0 VA: 0x1820FA8F0
+	|-RVA: 0x20FA7F0 Offset: 0x20F8DF0 VA: 0x1820FA7F0
 	|-ArraySortHelper<ERSplatmap>.InternalBinarySearch
 	|
-	|-RVA: 0x20FAB20 Offset: 0x20F9120 VA: 0x1820FAB20
+	|-RVA: 0x20FAA20 Offset: 0x20F9020 VA: 0x1820FAA20
 	|-ArraySortHelper<ERVSData>.InternalBinarySearch
 	|-ArraySortHelper<SqliteKeyReader.KeyInfo>.InternalBinarySearch
 	|
-	|-RVA: 0x20FAD30 Offset: 0x20F9330 VA: 0x1820FAD30
+	|-RVA: 0x20FAC30 Offset: 0x20F9230 VA: 0x1820FAC30
 	|-ArraySortHelper<EngineDamageOverTime.RecentDamage>.InternalBinarySearch
 	|-ArraySortHelper<DemoShotFloatKeyframe>.InternalBinarySearch
 	|-ArraySortHelper<Vector2>.InternalBinarySearch
 	|
-	|-RVA: 0x20FA3F0 Offset: 0x20F89F0 VA: 0x1820FA3F0
+	|-RVA: 0x20FA2F0 Offset: 0x20F88F0 VA: 0x1820FA2F0
 	|-ArraySortHelper<BoneData>.InternalBinarySearch
 	|
-	|-RVA: 0x21082C0 Offset: 0x21068C0 VA: 0x1821082C0
+	|-RVA: 0x21081C0 Offset: 0x21067C0 VA: 0x1821081C0
 	|-ArraySortHelper<Tick.Entry>.InternalBinarySearch
 	|-ArraySortHelper<Gibbable.OverrideMesh>.InternalBinarySearch
 	|-ArraySortHelper<MeshInstance>.InternalBinarySearch
@@ -37297,88 +37297,88 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<PlaceMonumentsRoadside.SpawnInfo>.InternalBinarySearch
 	|-ArraySortHelper<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.InternalBinarySearch
 	|
-	|-RVA: 0x2108490 Offset: 0x2106A90 VA: 0x182108490
+	|-RVA: 0x2108390 Offset: 0x2106990 VA: 0x182108390
 	|-ArraySortHelper<FoliageGridMeshData.FoliageVertex>.InternalBinarySearch
 	|
-	|-RVA: 0x2108150 Offset: 0x2106750 VA: 0x182108150
+	|-RVA: 0x2108050 Offset: 0x2106650 VA: 0x182108050
 	|-ArraySortHelper<SevenBitNumber>.InternalBinarySearch
 	|
-	|-RVA: 0x211FA10 Offset: 0x211E010 VA: 0x18211FA10
+	|-RVA: 0x211F910 Offset: 0x211DF10 VA: 0x18211F910
 	|-ArraySortHelper<MeshColliderInstance>.InternalBinarySearch
 	|
-	|-RVA: 0x211FD40 Offset: 0x211E340 VA: 0x18211FD40
+	|-RVA: 0x211FC40 Offset: 0x211E240 VA: 0x18211FC40
 	|-ArraySortHelper<MeshColliderLookup.LookupEntry>.InternalBinarySearch
 	|
-	|-RVA: 0x211F710 Offset: 0x211DD10 VA: 0x18211F710
+	|-RVA: 0x211F610 Offset: 0x211DC10 VA: 0x18211F610
 	|-ArraySortHelper<MeshRendererInstance>.InternalBinarySearch
 	|
-	|-RVA: 0x2113C20 Offset: 0x2112220 VA: 0x182113C20
+	|-RVA: 0x2113B20 Offset: 0x2112120 VA: 0x182113B20
 	|-ArraySortHelper<DemoShotQuaternionKeyframe>.InternalBinarySearch
 	|-ArraySortHelper<KeyValuePair<Guid, int>>.InternalBinarySearch
 	|
-	|-RVA: 0x2113960 Offset: 0x2111F60 VA: 0x182113960
+	|-RVA: 0x2113860 Offset: 0x2111E60 VA: 0x182113860
 	|-ArraySortHelper<ServerInfo>.InternalBinarySearch
 	|-ArraySortHelper<ServerInfo>.InternalBinarySearch
 	|
-	|-RVA: 0x2113DC0 Offset: 0x21123C0 VA: 0x182113DC0
+	|-RVA: 0x2113CC0 Offset: 0x21122C0 VA: 0x182113CC0
 	|-ArraySortHelper<InventoryDefId>.InternalBinarySearch
 	|-ArraySortHelper<Color32>.InternalBinarySearch
 	|
-	|-RVA: 0x215D240 Offset: 0x215B840 VA: 0x18215D240
+	|-RVA: 0x215D140 Offset: 0x215B740 VA: 0x18215D140
 	|-ArraySortHelper<bool>.InternalBinarySearch
 	|-ArraySortHelper<byte>.InternalBinarySearch
 	|-ArraySortHelper<sbyte>.InternalBinarySearch
 	|
-	|-RVA: 0x215D0E0 Offset: 0x215B6E0 VA: 0x18215D0E0
+	|-RVA: 0x215CFE0 Offset: 0x215B5E0 VA: 0x18215CFE0
 	|-ArraySortHelper<char>.InternalBinarySearch
 	|-ArraySortHelper<short>.InternalBinarySearch
 	|-ArraySortHelper<ushort>.InternalBinarySearch
 	|
-	|-RVA: 0x2171580 Offset: 0x216FB80 VA: 0x182171580
+	|-RVA: 0x2171480 Offset: 0x216FA80 VA: 0x182171480
 	|-ArraySortHelper<double>.InternalBinarySearch
 	|
-	|-RVA: 0x2171310 Offset: 0x216F910 VA: 0x182171310
+	|-RVA: 0x2171210 Offset: 0x216F810 VA: 0x182171210
 	|-ArraySortHelper<int>.InternalBinarySearch
 	|-ArraySortHelper<Int32Enum>.InternalBinarySearch
 	|
-	|-RVA: 0x2171700 Offset: 0x216FD00 VA: 0x182171700
+	|-RVA: 0x2171600 Offset: 0x216FC00 VA: 0x182171600
 	|-ArraySortHelper<long>.InternalBinarySearch
 	|-ArraySortHelper<object>.InternalBinarySearch
 	|-ArraySortHelper<ulong>.InternalBinarySearch
 	|
-	|-RVA: 0x2171860 Offset: 0x216FE60 VA: 0x182171860
+	|-RVA: 0x2171760 Offset: 0x216FD60 VA: 0x182171760
 	|-ArraySortHelper<float>.InternalBinarySearch
 	|
-	|-RVA: 0x2171420 Offset: 0x216FA20 VA: 0x182171420
+	|-RVA: 0x2171320 Offset: 0x216F920 VA: 0x182171320
 	|-ArraySortHelper<uint>.InternalBinarySearch
 	|
-	|-RVA: 0x2152150 Offset: 0x2150750 VA: 0x182152150
+	|-RVA: 0x2152050 Offset: 0x2150650 VA: 0x182152050
 	|-ArraySortHelper<TraceInfo>.InternalBinarySearch
 	|-ArraySortHelper<RaycastResult>.InternalBinarySearch
 	|
-	|-RVA: 0x2152390 Offset: 0x2150990 VA: 0x182152390
+	|-RVA: 0x2152290 Offset: 0x2150890 VA: 0x182152290
 	|-ArraySortHelper<NavMeshBuildSource>.InternalBinarySearch
 	|
-	|-RVA: 0x2152810 Offset: 0x2150E10 VA: 0x182152810
+	|-RVA: 0x2152710 Offset: 0x2150D10 VA: 0x182152710
 	|-ArraySortHelper<RaycastHit2D>.InternalBinarySearch
 	|
-	|-RVA: 0x2152610 Offset: 0x2150C10 VA: 0x182152610
+	|-RVA: 0x2152510 Offset: 0x2150B10 VA: 0x182152510
 	|-ArraySortHelper<RaycastHit>.InternalBinarySearch
 	|
-	|-RVA: 0x2151F00 Offset: 0x2150500 VA: 0x182151F00
+	|-RVA: 0x2151E00 Offset: 0x2150400 VA: 0x182151E00
 	|-ArraySortHelper<UIVertex>.InternalBinarySearch
 	*/
 
 	private static void SwapIfGreater(T[] keys, Comparison<T> comparer, int a, int b) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FA5830 Offset: 0x1FA3E30 VA: 0x181FA5830
+	|-RVA: 0x1FA5730 Offset: 0x1FA3D30 VA: 0x181FA5730
 	|-ArraySortHelper<AdvancedChristmasLights.pointEntry>.SwapIfGreater
 	|-ArraySortHelper<AlignedLineDrawer.LinePoint>.SwapIfGreater
 	|-ArraySortHelper<ERChildsSO>.SwapIfGreater
 	|-ArraySortHelper<TickRenderer.Tick>.SwapIfGreater
 	|
-	|-RVA: 0x1C582E0 Offset: 0x1C568E0 VA: 0x181C582E0
+	|-RVA: 0x1C581E0 Offset: 0x1C567E0 VA: 0x181C581E0
 	|-ArraySortHelper<AtmosphereVolumeRenderer.CurrentVolumeEntry>.SwapIfGreater
 	|-ArraySortHelper<DamageRenderer.DamageShowingRenderer>.SwapIfGreater
 	|-ArraySortHelper<DeferredExtensionMesh.MaterialLink>.SwapIfGreater
@@ -37404,10 +37404,10 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<FocusController.FocusedElement>.SwapIfGreater
 	|-ArraySortHelper<WindZoneExManager.CurrentZoneEntry>.SwapIfGreater
 	|
-	|-RVA: 0x1FA4FF0 Offset: 0x1FA35F0 VA: 0x181FA4FF0
+	|-RVA: 0x1FA4EF0 Offset: 0x1FA34F0 VA: 0x181FA4EF0
 	|-ArraySortHelper<BaseEntity.ServerFileRequest>.SwapIfGreater
 	|
-	|-RVA: 0x1FA5400 Offset: 0x1FA3A00 VA: 0x181FA5400
+	|-RVA: 0x1FA5300 Offset: 0x1FA3900 VA: 0x181FA5300
 	|-ArraySortHelper<CardTableUI.KeycodeWithAction>.SwapIfGreater
 	|-ArraySortHelper<ItemSkinDirectory.Skin>.SwapIfGreater
 	|-ArraySortHelper<KeyframeView.UIKeyframeValue>.SwapIfGreater
@@ -37415,7 +37415,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<MidiConvar.NoteBinding>.SwapIfGreater
 	|-ArraySortHelper<Option>.SwapIfGreater
 	|
-	|-RVA: 0x1FA5BE0 Offset: 0x1FA41E0 VA: 0x181FA5BE0
+	|-RVA: 0x1FA5AE0 Offset: 0x1FA40E0 VA: 0x181FA5AE0
 	|-ArraySortHelper<Cassette.LoadRequest>.SwapIfGreater
 	|-ArraySortHelper<Admin.ServerConvarInfo>.SwapIfGreater
 	|-ArraySortHelper<ExpandedLifeStats.GenericStatDisplay>.SwapIfGreater
@@ -37426,20 +37426,20 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<KeyValuePair<object, Color>>.SwapIfGreater
 	|-ArraySortHelper<UnitySynchronizationContext.WorkRequest>.SwapIfGreater
 	|
-	|-RVA: 0x1FA55E0 Offset: 0x1FA3BE0 VA: 0x181FA55E0
+	|-RVA: 0x1FA54E0 Offset: 0x1FA3AE0 VA: 0x181FA54E0
 	|-ArraySortHelper<Admin.PlayerInfo>.SwapIfGreater
 	|-ArraySortHelper<PlaceMonuments.SpawnInfo>.SwapIfGreater
 	|
-	|-RVA: 0x1FA51D0 Offset: 0x1FA37D0 VA: 0x181FA51D0
+	|-RVA: 0x1FA50D0 Offset: 0x1FA36D0 VA: 0x181FA50D0
 	|-ArraySortHelper<Admin.ServerUGCInfo>.SwapIfGreater
 	|
-	|-RVA: 0x1FA59F0 Offset: 0x1FA3FF0 VA: 0x181FA59F0
+	|-RVA: 0x1FA58F0 Offset: 0x1FA3EF0 VA: 0x181FA58F0
 	|-ArraySortHelper<Chat.MuteEntry>.SwapIfGreater
 	|-ArraySortHelper<JsonPosition>.SwapIfGreater
 	|-ArraySortHelper<InventoryRecipe.Ingredient>.SwapIfGreater
 	|-ArraySortHelper<KeyValuePair<ulong, Dispatch.ResultCallback>>.SwapIfGreater
 	|
-	|-RVA: 0x2101960 Offset: 0x20FFF60 VA: 0x182101960
+	|-RVA: 0x2101860 Offset: 0x20FFE60 VA: 0x182101860
 	|-ArraySortHelper<Demos.DemoInfo>.SwapIfGreater
 	|-ArraySortHelper<Output.Entry>.SwapIfGreater
 	|-ArraySortHelper<IconSkinPicker.SkinButtonSetup>.SwapIfGreater
@@ -37449,7 +37449,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<SkinnedMultiMesh.Part>.SwapIfGreater
 	|-ArraySortHelper<SpecialPurposeCamera.RenderEntry>.SwapIfGreater
 	|
-	|-RVA: 0x1C58480 Offset: 0x1C56A80 VA: 0x181C58480
+	|-RVA: 0x1C58380 Offset: 0x1C56980 VA: 0x181C58380
 	|-ArraySortHelper<CRedge>.SwapIfGreater
 	|-ArraySortHelper<ProjectileWeaponMod.Modifier>.SwapIfGreater
 	|-ArraySortHelper<VectorData>.SwapIfGreater
@@ -37458,7 +37458,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<UICharInfo>.SwapIfGreater
 	|-ArraySortHelper<Vector3>.SwapIfGreater
 	|
-	|-RVA: 0x1C57FE0 Offset: 0x1C565E0 VA: 0x181C57FE0
+	|-RVA: 0x1C57EE0 Offset: 0x1C564E0 VA: 0x181C57EE0
 	|-ArraySortHelper<ERCell>.SwapIfGreater
 	|-ArraySortHelper<ERConnectionGUIStatus>.SwapIfGreater
 	|-ArraySortHelper<ERTerrainChange>.SwapIfGreater
@@ -37471,7 +37471,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<TimeSpan>.SwapIfGreater
 	|-ArraySortHelper<Vector2i>.SwapIfGreater
 	|
-	|-RVA: 0x1C58160 Offset: 0x1C56760 VA: 0x181C58160
+	|-RVA: 0x1C58060 Offset: 0x1C56660 VA: 0x181C58060
 	|-ArraySortHelper<ERLane>.SwapIfGreater
 	|-ArraySortHelper<MagnetCrane.MagnetCraneSnapshot>.SwapIfGreater
 	|-ArraySortHelper<DemoShotVectorKeyframe>.SwapIfGreater
@@ -37487,51 +37487,51 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<Vector4>.SwapIfGreater
 	|-ArraySortHelper<WorldSplineData.LUTEntry.LUTPoint>.SwapIfGreater
 	|
-	|-RVA: 0x2101B30 Offset: 0x2100130 VA: 0x182101B30
+	|-RVA: 0x2101A30 Offset: 0x2100030 VA: 0x182101A30
 	|-ArraySortHelper<ERMeshCombineUtility.MeshInstance>.SwapIfGreater
 	|-ArraySortHelper<Option>.SwapIfGreater
 	|
-	|-RVA: 0x2102640 Offset: 0x2100C40 VA: 0x182102640
+	|-RVA: 0x2102540 Offset: 0x2100B40 VA: 0x182102540
 	|-ArraySortHelper<ERSOSection>.SwapIfGreater
 	|
-	|-RVA: 0x21016D0 Offset: 0x20FFCD0 VA: 0x1821016D0
+	|-RVA: 0x21015D0 Offset: 0x20FFBD0 VA: 0x1821015D0
 	|-ArraySortHelper<ERSplatmap>.SwapIfGreater
 	|
-	|-RVA: 0x2101DF0 Offset: 0x21003F0 VA: 0x182101DF0
+	|-RVA: 0x2101CF0 Offset: 0x21002F0 VA: 0x182101CF0
 	|-ArraySortHelper<ERVSData>.SwapIfGreater
 	|
-	|-RVA: 0x21022F0 Offset: 0x21008F0 VA: 0x1821022F0
+	|-RVA: 0x21021F0 Offset: 0x21007F0 VA: 0x1821021F0
 	|-ArraySortHelper<EngineDamageOverTime.RecentDamage>.SwapIfGreater
 	|-ArraySortHelper<DemoShotFloatKeyframe>.SwapIfGreater
 	|-ArraySortHelper<Vector2>.SwapIfGreater
 	|
-	|-RVA: 0x21024A0 Offset: 0x2100AA0 VA: 0x1821024A0
+	|-RVA: 0x21023A0 Offset: 0x21009A0 VA: 0x1821023A0
 	|-ArraySortHelper<BurstCloth.Chain>.SwapIfGreater
 	|-ArraySortHelper<FoliageKey>.SwapIfGreater
 	|-ArraySortHelper<MeshRendererLookup.LookupEntry>.SwapIfGreater
 	|-ArraySortHelper<Achievement>.SwapIfGreater
 	|
-	|-RVA: 0x1C58630 Offset: 0x1C56C30 VA: 0x181C58630
+	|-RVA: 0x1C58530 Offset: 0x1C56B30 VA: 0x181C58530
 	|-ArraySortHelper<CapsuleParams>.SwapIfGreater
 	|-ArraySortHelper<SteamNewsSource.Story>.SwapIfGreater
 	|-ArraySortHelper<ViewModelDrawEvent>.SwapIfGreater
 	|
-	|-RVA: 0x2101FF0 Offset: 0x21005F0 VA: 0x182101FF0
+	|-RVA: 0x2101EF0 Offset: 0x21004F0 VA: 0x182101EF0
 	|-ArraySortHelper<BoneData>.SwapIfGreater
 	|
-	|-RVA: 0x210E9A0 Offset: 0x210CFA0 VA: 0x18210E9A0
+	|-RVA: 0x210E8A0 Offset: 0x210CEA0 VA: 0x18210E8A0
 	|-ArraySortHelper<SkeletonDefinition.Bone>.SwapIfGreater
 	|
-	|-RVA: 0x210E5A0 Offset: 0x210CBA0 VA: 0x18210E5A0
+	|-RVA: 0x210E4A0 Offset: 0x210CAA0 VA: 0x18210E4A0
 	|-ArraySortHelper<Tick.Entry>.SwapIfGreater
 	|-ArraySortHelper<PlaceMonumentsOffshore.SpawnInfo>.SwapIfGreater
 	|-ArraySortHelper<PlaceMonumentsRailside.SpawnInfo>.SwapIfGreater
 	|-ArraySortHelper<PlaceMonumentsRoadside.SpawnInfo>.SwapIfGreater
 	|
-	|-RVA: 0x210DD50 Offset: 0x210C350 VA: 0x18210DD50
+	|-RVA: 0x210DC50 Offset: 0x210C250 VA: 0x18210DC50
 	|-ArraySortHelper<RenderInfo.RendererInstance>.SwapIfGreater
 	|
-	|-RVA: 0x210E3B0 Offset: 0x210C9B0 VA: 0x18210E3B0
+	|-RVA: 0x210E2B0 Offset: 0x210C8B0 VA: 0x18210E2B0
 	|-ArraySortHelper<WeightedStringList.Container>.SwapIfGreater
 	|-ArraySortHelper<DemoShotParentKeyframe>.SwapIfGreater
 	|-ArraySortHelper<KeyValuePair<DateTime, object>>.SwapIfGreater
@@ -37540,128 +37540,128 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<KeyValuePair<uint, object>>.SwapIfGreater
 	|-ArraySortHelper<BeforeRenderHelper.OrderBlock>.SwapIfGreater
 	|
-	|-RVA: 0x210EBD0 Offset: 0x210D1D0 VA: 0x18210EBD0
+	|-RVA: 0x210EAD0 Offset: 0x210D0D0 VA: 0x18210EAD0
 	|-ArraySortHelper<FoliageGridMeshData.FoliageVertex>.SwapIfGreater
 	|
-	|-RVA: 0x210E7C0 Offset: 0x210CDC0 VA: 0x18210E7C0
+	|-RVA: 0x210E6C0 Offset: 0x210CCC0 VA: 0x18210E6C0
 	|-ArraySortHelper<Gibbable.OverrideMesh>.SwapIfGreater
 	|
-	|-RVA: 0x210E190 Offset: 0x210C790 VA: 0x18210E190
+	|-RVA: 0x210E090 Offset: 0x210C690 VA: 0x18210E090
 	|-ArraySortHelper<LocalClock.TimedEvent>.SwapIfGreater
 	|-ArraySortHelper<SynchronizedClock.TimedEvent>.SwapIfGreater
 	|
-	|-RVA: 0x210E010 Offset: 0x210C610 VA: 0x18210E010
+	|-RVA: 0x210DF10 Offset: 0x210C510 VA: 0x18210DF10
 	|-ArraySortHelper<SevenBitNumber>.SwapIfGreater
 	|
-	|-RVA: 0x2125D30 Offset: 0x2124330 VA: 0x182125D30
+	|-RVA: 0x2125C30 Offset: 0x2124230 VA: 0x182125C30
 	|-ArraySortHelper<MeshColliderInstance>.SwapIfGreater
 	|
-	|-RVA: 0x2126040 Offset: 0x2124640 VA: 0x182126040
+	|-RVA: 0x2125F40 Offset: 0x2124540 VA: 0x182125F40
 	|-ArraySortHelper<MeshColliderLookup.LookupEntry>.SwapIfGreater
 	|
-	|-RVA: 0x2125B00 Offset: 0x2124100 VA: 0x182125B00
+	|-RVA: 0x2125A00 Offset: 0x2124000 VA: 0x182125A00
 	|-ArraySortHelper<MeshInstance>.SwapIfGreater
 	|-ArraySortHelper<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.SwapIfGreater
 	|
-	|-RVA: 0x2126590 Offset: 0x2124B90 VA: 0x182126590
+	|-RVA: 0x2126490 Offset: 0x2124A90 VA: 0x182126490
 	|-ArraySortHelper<MeshRendererInstance>.SwapIfGreater
 	|
-	|-RVA: 0x2126340 Offset: 0x2124940 VA: 0x182126340
+	|-RVA: 0x2126240 Offset: 0x2124840 VA: 0x182126240
 	|-ArraySortHelper<SqliteKeyReader.KeyInfo>.SwapIfGreater
 	|
-	|-RVA: 0x2126920 Offset: 0x2124F20 VA: 0x182126920
+	|-RVA: 0x2126820 Offset: 0x2124E20 VA: 0x182126820
 	|-ArraySortHelper<PetCommandList.PetCommandDesc>.SwapIfGreater
 	|
-	|-RVA: 0x2119D60 Offset: 0x2118360 VA: 0x182119D60
+	|-RVA: 0x2119C60 Offset: 0x2118260 VA: 0x182119C60
 	|-ArraySortHelper<DemoShotQuaternionKeyframe>.SwapIfGreater
 	|-ArraySortHelper<KeyValuePair<Guid, int>>.SwapIfGreater
 	|
-	|-RVA: 0x2119830 Offset: 0x2117E30 VA: 0x182119830
+	|-RVA: 0x2119730 Offset: 0x2117D30 VA: 0x182119730
 	|-ArraySortHelper<ReflectionProbeEx.CubemapSkyboxVertex>.SwapIfGreater
 	|-ArraySortHelper<RenderTargetIdentifier>.SwapIfGreater
 	|-ArraySortHelper<TreeInstance>.SwapIfGreater
 	|
-	|-RVA: 0x2119680 Offset: 0x2117C80 VA: 0x182119680
+	|-RVA: 0x2119580 Offset: 0x2117B80 VA: 0x182119580
 	|-ArraySortHelper<TransformSnapshot>.SwapIfGreater
 	|-ArraySortHelper<SubmarineSonar.SonarBlip>.SwapIfGreater
 	|-ArraySortHelper<SpawnIndividual>.SwapIfGreater
 	|
-	|-RVA: 0x2119A20 Offset: 0x2118020 VA: 0x182119A20
+	|-RVA: 0x2119920 Offset: 0x2117F20 VA: 0x182119920
 	|-ArraySortHelper<ServerInfo>.SwapIfGreater
 	|
-	|-RVA: 0x211A250 Offset: 0x2118850 VA: 0x18211A250
+	|-RVA: 0x211A150 Offset: 0x2118750 VA: 0x18211A150
 	|-ArraySortHelper<InventoryDefId>.SwapIfGreater
 	|-ArraySortHelper<Color32>.SwapIfGreater
 	|
-	|-RVA: 0x2119F10 Offset: 0x2118510 VA: 0x182119F10
+	|-RVA: 0x2119E10 Offset: 0x2118410 VA: 0x182119E10
 	|-ArraySortHelper<ServerInfo>.SwapIfGreater
 	|
-	|-RVA: 0x2162960 Offset: 0x2160F60 VA: 0x182162960
+	|-RVA: 0x2162860 Offset: 0x2160E60 VA: 0x182162860
 	|-ArraySortHelper<InventoryItem.Amount>.SwapIfGreater
 	|
-	|-RVA: 0x2162490 Offset: 0x2160A90 VA: 0x182162490
+	|-RVA: 0x2162390 Offset: 0x2160990 VA: 0x182162390
 	|-ArraySortHelper<InventoryItem>.SwapIfGreater
 	|
-	|-RVA: 0x2162670 Offset: 0x2160C70 VA: 0x182162670
+	|-RVA: 0x2162570 Offset: 0x2160B70 VA: 0x182162570
 	|-ArraySortHelper<bool>.SwapIfGreater
 	|-ArraySortHelper<byte>.SwapIfGreater
 	|-ArraySortHelper<sbyte>.SwapIfGreater
 	|
-	|-RVA: 0x21627E0 Offset: 0x2160DE0 VA: 0x1821627E0
+	|-RVA: 0x21626E0 Offset: 0x2160CE0 VA: 0x1821626E0
 	|-ArraySortHelper<char>.SwapIfGreater
 	|-ArraySortHelper<short>.SwapIfGreater
 	|-ArraySortHelper<ushort>.SwapIfGreater
 	|
-	|-RVA: 0x21779F0 Offset: 0x2175FF0 VA: 0x1821779F0
+	|-RVA: 0x21778F0 Offset: 0x2175EF0 VA: 0x1821778F0
 	|-ArraySortHelper<double>.SwapIfGreater
 	|
-	|-RVA: 0x21775F0 Offset: 0x2175BF0 VA: 0x1821775F0
+	|-RVA: 0x21774F0 Offset: 0x2175AF0 VA: 0x1821774F0
 	|-ArraySortHelper<int>.SwapIfGreater
 	|-ArraySortHelper<Int32Enum>.SwapIfGreater
 	|-ArraySortHelper<uint>.SwapIfGreater
 	|
-	|-RVA: 0x2177CF0 Offset: 0x21762F0 VA: 0x182177CF0
+	|-RVA: 0x2177BF0 Offset: 0x21761F0 VA: 0x182177BF0
 	|-ArraySortHelper<long>.SwapIfGreater
 	|-ArraySortHelper<ulong>.SwapIfGreater
 	|
-	|-RVA: 0x2177E70 Offset: 0x2176470 VA: 0x182177E70
+	|-RVA: 0x2177D70 Offset: 0x2176370 VA: 0x182177D70
 	|-ArraySortHelper<object>.SwapIfGreater
 	|
-	|-RVA: 0x2177B70 Offset: 0x2176170 VA: 0x182177B70
+	|-RVA: 0x2177A70 Offset: 0x2176070 VA: 0x182177A70
 	|-ArraySortHelper<float>.SwapIfGreater
 	|
-	|-RVA: 0x2177760 Offset: 0x2175D60 VA: 0x182177760
+	|-RVA: 0x2177660 Offset: 0x2175C60 VA: 0x182177660
 	|-ArraySortHelper<TraceInfo>.SwapIfGreater
 	|
-	|-RVA: 0x2158DB0 Offset: 0x21573B0 VA: 0x182158DB0
+	|-RVA: 0x2158CB0 Offset: 0x21572B0 VA: 0x182158CB0
 	|-ArraySortHelper<NavMeshBuildSource>.SwapIfGreater
 	|
-	|-RVA: 0x21596B0 Offset: 0x2157CB0 VA: 0x1821596B0
+	|-RVA: 0x21595B0 Offset: 0x2157BB0 VA: 0x1821595B0
 	|-ArraySortHelper<RaycastResult>.SwapIfGreater
 	|
-	|-RVA: 0x2159050 Offset: 0x2157650 VA: 0x182159050
+	|-RVA: 0x2158F50 Offset: 0x2157550 VA: 0x182158F50
 	|-ArraySortHelper<Matrix4x4>.SwapIfGreater
 	|
-	|-RVA: 0x2158BE0 Offset: 0x21571E0 VA: 0x182158BE0
+	|-RVA: 0x2158AE0 Offset: 0x21570E0 VA: 0x182158AE0
 	|-ArraySortHelper<RaycastHit2D>.SwapIfGreater
 	|
-	|-RVA: 0x21594B0 Offset: 0x2157AB0 VA: 0x1821594B0
+	|-RVA: 0x21593B0 Offset: 0x21579B0 VA: 0x1821593B0
 	|-ArraySortHelper<RaycastHit>.SwapIfGreater
 	|
-	|-RVA: 0x2159250 Offset: 0x2157850 VA: 0x182159250
+	|-RVA: 0x2159150 Offset: 0x2157750 VA: 0x182159150
 	|-ArraySortHelper<UIVertex>.SwapIfGreater
 	*/
 
 	private static void Swap(T[] a, int i, int j) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FA5EC0 Offset: 0x1FA44C0 VA: 0x181FA5EC0
+	|-RVA: 0x1FA5DC0 Offset: 0x1FA43C0 VA: 0x181FA5DC0
 	|-ArraySortHelper<AdvancedChristmasLights.pointEntry>.Swap
 	|-ArraySortHelper<AlignedLineDrawer.LinePoint>.Swap
 	|-ArraySortHelper<ERChildsSO>.Swap
 	|-ArraySortHelper<TickRenderer.Tick>.Swap
 	|
-	|-RVA: 0x1C58B20 Offset: 0x1C57120 VA: 0x181C58B20
+	|-RVA: 0x1C58A20 Offset: 0x1C57020 VA: 0x181C58A20
 	|-ArraySortHelper<AtmosphereVolumeRenderer.CurrentVolumeEntry>.Swap
 	|-ArraySortHelper<DamageRenderer.DamageShowingRenderer>.Swap
 	|-ArraySortHelper<DeferredExtensionMesh.MaterialLink>.Swap
@@ -37687,10 +37687,10 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<FocusController.FocusedElement>.Swap
 	|-ArraySortHelper<WindZoneExManager.CurrentZoneEntry>.Swap
 	|
-	|-RVA: 0x1FA5DD0 Offset: 0x1FA43D0 VA: 0x181FA5DD0
+	|-RVA: 0x1FA5CD0 Offset: 0x1FA42D0 VA: 0x181FA5CD0
 	|-ArraySortHelper<BaseEntity.ServerFileRequest>.Swap
 	|
-	|-RVA: 0x1FA6050 Offset: 0x1FA4650 VA: 0x181FA6050
+	|-RVA: 0x1FA5F50 Offset: 0x1FA4550 VA: 0x181FA5F50
 	|-ArraySortHelper<CardTableUI.KeycodeWithAction>.Swap
 	|-ArraySortHelper<ItemSkinDirectory.Skin>.Swap
 	|-ArraySortHelper<KeyframeView.UIKeyframeValue>.Swap
@@ -37698,7 +37698,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<MidiConvar.NoteBinding>.Swap
 	|-ArraySortHelper<Option>.Swap
 	|
-	|-RVA: 0x1FA5F60 Offset: 0x1FA4560 VA: 0x181FA5F60
+	|-RVA: 0x1FA5E60 Offset: 0x1FA4460 VA: 0x181FA5E60
 	|-ArraySortHelper<Cassette.LoadRequest>.Swap
 	|-ArraySortHelper<Admin.ServerConvarInfo>.Swap
 	|-ArraySortHelper<ExpandedLifeStats.GenericStatDisplay>.Swap
@@ -37709,20 +37709,20 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<KeyValuePair<object, Color>>.Swap
 	|-ArraySortHelper<UnitySynchronizationContext.WorkRequest>.Swap
 	|
-	|-RVA: 0x1FA6340 Offset: 0x1FA4940 VA: 0x181FA6340
+	|-RVA: 0x1FA6240 Offset: 0x1FA4840 VA: 0x181FA6240
 	|-ArraySortHelper<Admin.PlayerInfo>.Swap
 	|-ArraySortHelper<PlaceMonuments.SpawnInfo>.Swap
 	|
-	|-RVA: 0x1FA6230 Offset: 0x1FA4830 VA: 0x181FA6230
+	|-RVA: 0x1FA6130 Offset: 0x1FA4730 VA: 0x181FA6130
 	|-ArraySortHelper<Admin.ServerUGCInfo>.Swap
 	|
-	|-RVA: 0x1FA6140 Offset: 0x1FA4740 VA: 0x181FA6140
+	|-RVA: 0x1FA6040 Offset: 0x1FA4640 VA: 0x181FA6040
 	|-ArraySortHelper<Chat.MuteEntry>.Swap
 	|-ArraySortHelper<JsonPosition>.Swap
 	|-ArraySortHelper<InventoryRecipe.Ingredient>.Swap
 	|-ArraySortHelper<KeyValuePair<ulong, Dispatch.ResultCallback>>.Swap
 	|
-	|-RVA: 0x2102E10 Offset: 0x2101410 VA: 0x182102E10
+	|-RVA: 0x2102D10 Offset: 0x2101310 VA: 0x182102D10
 	|-ArraySortHelper<Demos.DemoInfo>.Swap
 	|-ArraySortHelper<Output.Entry>.Swap
 	|-ArraySortHelper<IconSkinPicker.SkinButtonSetup>.Swap
@@ -37732,7 +37732,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<SkinnedMultiMesh.Part>.Swap
 	|-ArraySortHelper<SpecialPurposeCamera.RenderEntry>.Swap
 	|
-	|-RVA: 0x1C58A80 Offset: 0x1C57080 VA: 0x181C58A80
+	|-RVA: 0x1C58980 Offset: 0x1C56F80 VA: 0x181C58980
 	|-ArraySortHelper<CRedge>.Swap
 	|-ArraySortHelper<ProjectileWeaponMod.Modifier>.Swap
 	|-ArraySortHelper<VectorData>.Swap
@@ -37741,7 +37741,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<UICharInfo>.Swap
 	|-ArraySortHelper<Vector3>.Swap
 	|
-	|-RVA: 0x1C58860 Offset: 0x1C56E60 VA: 0x181C58860
+	|-RVA: 0x1C58760 Offset: 0x1C56D60 VA: 0x181C58760
 	|-ArraySortHelper<ERCell>.Swap
 	|-ArraySortHelper<ERConnectionGUIStatus>.Swap
 	|-ArraySortHelper<ERTerrainChange>.Swap
@@ -37754,7 +37754,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<TimeSpan>.Swap
 	|-ArraySortHelper<Vector2i>.Swap
 	|
-	|-RVA: 0x1C588E0 Offset: 0x1C56EE0 VA: 0x181C588E0
+	|-RVA: 0x1C587E0 Offset: 0x1C56DE0 VA: 0x181C587E0
 	|-ArraySortHelper<ERLane>.Swap
 	|-ArraySortHelper<MagnetCrane.MagnetCraneSnapshot>.Swap
 	|-ArraySortHelper<DemoShotVectorKeyframe>.Swap
@@ -37770,51 +37770,51 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<Vector4>.Swap
 	|-ArraySortHelper<WorldSplineData.LUTEntry.LUTPoint>.Swap
 	|
-	|-RVA: 0x2102C00 Offset: 0x2101200 VA: 0x182102C00
+	|-RVA: 0x2102B00 Offset: 0x2101100 VA: 0x182102B00
 	|-ArraySortHelper<ERMeshCombineUtility.MeshInstance>.Swap
 	|-ArraySortHelper<Option>.Swap
 	|
-	|-RVA: 0x2102F00 Offset: 0x2101500 VA: 0x182102F00
+	|-RVA: 0x2102E00 Offset: 0x2101400 VA: 0x182102E00
 	|-ArraySortHelper<ERSOSection>.Swap
 	|
-	|-RVA: 0x2102AB0 Offset: 0x21010B0 VA: 0x182102AB0
+	|-RVA: 0x21029B0 Offset: 0x2100FB0 VA: 0x1821029B0
 	|-ArraySortHelper<ERSplatmap>.Swap
 	|
-	|-RVA: 0x2103110 Offset: 0x2101710 VA: 0x182103110
+	|-RVA: 0x2103010 Offset: 0x2101610 VA: 0x182103010
 	|-ArraySortHelper<ERVSData>.Swap
 	|
-	|-RVA: 0x2102D70 Offset: 0x2101370 VA: 0x182102D70
+	|-RVA: 0x2102C70 Offset: 0x2101270 VA: 0x182102C70
 	|-ArraySortHelper<EngineDamageOverTime.RecentDamage>.Swap
 	|-ArraySortHelper<DemoShotFloatKeyframe>.Swap
 	|-ArraySortHelper<Vector2>.Swap
 	|
-	|-RVA: 0x21031D0 Offset: 0x21017D0 VA: 0x1821031D0
+	|-RVA: 0x21030D0 Offset: 0x21016D0 VA: 0x1821030D0
 	|-ArraySortHelper<BurstCloth.Chain>.Swap
 	|-ArraySortHelper<FoliageKey>.Swap
 	|-ArraySortHelper<MeshRendererLookup.LookupEntry>.Swap
 	|-ArraySortHelper<Achievement>.Swap
 	|
-	|-RVA: 0x1C58970 Offset: 0x1C56F70 VA: 0x181C58970
+	|-RVA: 0x1C58870 Offset: 0x1C56E70 VA: 0x181C58870
 	|-ArraySortHelper<CapsuleParams>.Swap
 	|-ArraySortHelper<SteamNewsSource.Story>.Swap
 	|-ArraySortHelper<ViewModelDrawEvent>.Swap
 	|
-	|-RVA: 0x2102970 Offset: 0x2100F70 VA: 0x182102970
+	|-RVA: 0x2102870 Offset: 0x2100E70 VA: 0x182102870
 	|-ArraySortHelper<BoneData>.Swap
 	|
-	|-RVA: 0x210EFD0 Offset: 0x210D5D0 VA: 0x18210EFD0
+	|-RVA: 0x210EED0 Offset: 0x210D4D0 VA: 0x18210EED0
 	|-ArraySortHelper<SkeletonDefinition.Bone>.Swap
 	|
-	|-RVA: 0x210F440 Offset: 0x210DA40 VA: 0x18210F440
+	|-RVA: 0x210F340 Offset: 0x210D940 VA: 0x18210F340
 	|-ArraySortHelper<Tick.Entry>.Swap
 	|-ArraySortHelper<PlaceMonumentsOffshore.SpawnInfo>.Swap
 	|-ArraySortHelper<PlaceMonumentsRailside.SpawnInfo>.Swap
 	|-ArraySortHelper<PlaceMonumentsRoadside.SpawnInfo>.Swap
 	|
-	|-RVA: 0x210F2D0 Offset: 0x210D8D0 VA: 0x18210F2D0
+	|-RVA: 0x210F1D0 Offset: 0x210D7D0 VA: 0x18210F1D0
 	|-ArraySortHelper<RenderInfo.RendererInstance>.Swap
 	|
-	|-RVA: 0x210EDF0 Offset: 0x210D3F0 VA: 0x18210EDF0
+	|-RVA: 0x210ECF0 Offset: 0x210D2F0 VA: 0x18210ECF0
 	|-ArraySortHelper<WeightedStringList.Container>.Swap
 	|-ArraySortHelper<DemoShotParentKeyframe>.Swap
 	|-ArraySortHelper<KeyValuePair<DateTime, object>>.Swap
@@ -37823,122 +37823,122 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<KeyValuePair<uint, object>>.Swap
 	|-ArraySortHelper<BeforeRenderHelper.OrderBlock>.Swap
 	|
-	|-RVA: 0x210F0E0 Offset: 0x210D6E0 VA: 0x18210F0E0
+	|-RVA: 0x210EFE0 Offset: 0x210D5E0 VA: 0x18210EFE0
 	|-ArraySortHelper<FoliageGridMeshData.FoliageVertex>.Swap
 	|
-	|-RVA: 0x210F220 Offset: 0x210D820 VA: 0x18210F220
+	|-RVA: 0x210F120 Offset: 0x210D720 VA: 0x18210F120
 	|-ArraySortHelper<Gibbable.OverrideMesh>.Swap
 	|
-	|-RVA: 0x210EED0 Offset: 0x210D4D0 VA: 0x18210EED0
+	|-RVA: 0x210EDD0 Offset: 0x210D3D0 VA: 0x18210EDD0
 	|-ArraySortHelper<LocalClock.TimedEvent>.Swap
 	|-ArraySortHelper<SynchronizedClock.TimedEvent>.Swap
 	|
-	|-RVA: 0x210F1A0 Offset: 0x210D7A0 VA: 0x18210F1A0
+	|-RVA: 0x210F0A0 Offset: 0x210D6A0 VA: 0x18210F0A0
 	|-ArraySortHelper<SevenBitNumber>.Swap
 	|
-	|-RVA: 0x2126F50 Offset: 0x2125550 VA: 0x182126F50
+	|-RVA: 0x2126E50 Offset: 0x2125450 VA: 0x182126E50
 	|-ArraySortHelper<MeshColliderInstance>.Swap
 	|
-	|-RVA: 0x2127150 Offset: 0x2125750 VA: 0x182127150
+	|-RVA: 0x2127050 Offset: 0x2125650 VA: 0x182127050
 	|-ArraySortHelper<MeshColliderLookup.LookupEntry>.Swap
 	|
-	|-RVA: 0x2126B50 Offset: 0x2125150 VA: 0x182126B50
+	|-RVA: 0x2126A50 Offset: 0x2125050 VA: 0x182126A50
 	|-ArraySortHelper<MeshInstance>.Swap
 	|-ArraySortHelper<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.Swap
 	|
-	|-RVA: 0x2126C60 Offset: 0x2125260 VA: 0x182126C60
+	|-RVA: 0x2126B60 Offset: 0x2125160 VA: 0x182126B60
 	|-ArraySortHelper<MeshRendererInstance>.Swap
 	|
-	|-RVA: 0x21272E0 Offset: 0x21258E0 VA: 0x1821272E0
+	|-RVA: 0x21271E0 Offset: 0x21257E0 VA: 0x1821271E0
 	|-ArraySortHelper<SqliteKeyReader.KeyInfo>.Swap
 	|
-	|-RVA: 0x2126E40 Offset: 0x2125440 VA: 0x182126E40
+	|-RVA: 0x2126D40 Offset: 0x2125340 VA: 0x182126D40
 	|-ArraySortHelper<PetCommandList.PetCommandDesc>.Swap
 	|
-	|-RVA: 0x211A580 Offset: 0x2118B80 VA: 0x18211A580
+	|-RVA: 0x211A480 Offset: 0x2118A80 VA: 0x18211A480
 	|-ArraySortHelper<DemoShotQuaternionKeyframe>.Swap
 	|-ArraySortHelper<KeyValuePair<Guid, int>>.Swap
 	|
-	|-RVA: 0x211A620 Offset: 0x2118C20 VA: 0x18211A620
+	|-RVA: 0x211A520 Offset: 0x2118B20 VA: 0x18211A520
 	|-ArraySortHelper<ReflectionProbeEx.CubemapSkyboxVertex>.Swap
 	|-ArraySortHelper<RenderTargetIdentifier>.Swap
 	|-ArraySortHelper<TreeInstance>.Swap
 	|
-	|-RVA: 0x211A910 Offset: 0x2118F10 VA: 0x18211A910
+	|-RVA: 0x211A810 Offset: 0x2118E10 VA: 0x18211A810
 	|-ArraySortHelper<TransformSnapshot>.Swap
 	|-ArraySortHelper<SubmarineSonar.SonarBlip>.Swap
 	|-ArraySortHelper<SpawnIndividual>.Swap
 	|
-	|-RVA: 0x211A6D0 Offset: 0x2118CD0 VA: 0x18211A6D0
+	|-RVA: 0x211A5D0 Offset: 0x2118BD0 VA: 0x18211A5D0
 	|-ArraySortHelper<ServerInfo>.Swap
 	|
-	|-RVA: 0x211A890 Offset: 0x2118E90 VA: 0x18211A890
+	|-RVA: 0x211A790 Offset: 0x2118D90 VA: 0x18211A790
 	|-ArraySortHelper<InventoryDefId>.Swap
 	|-ArraySortHelper<Color32>.Swap
 	|
-	|-RVA: 0x211A3D0 Offset: 0x21189D0 VA: 0x18211A3D0
+	|-RVA: 0x211A2D0 Offset: 0x21188D0 VA: 0x18211A2D0
 	|-ArraySortHelper<ServerInfo>.Swap
 	|
-	|-RVA: 0x2162D00 Offset: 0x2161300 VA: 0x182162D00
+	|-RVA: 0x2162C00 Offset: 0x2161200 VA: 0x182162C00
 	|-ArraySortHelper<InventoryItem.Amount>.Swap
 	|
-	|-RVA: 0x2162C10 Offset: 0x2161210 VA: 0x182162C10
+	|-RVA: 0x2162B10 Offset: 0x2161110 VA: 0x182162B10
 	|-ArraySortHelper<InventoryItem>.Swap
 	|
-	|-RVA: 0x2162B90 Offset: 0x2161190 VA: 0x182162B90
+	|-RVA: 0x2162A90 Offset: 0x2161090 VA: 0x182162A90
 	|-ArraySortHelper<bool>.Swap
 	|-ArraySortHelper<byte>.Swap
 	|-ArraySortHelper<sbyte>.Swap
 	|
-	|-RVA: 0x2162E10 Offset: 0x2161410 VA: 0x182162E10
+	|-RVA: 0x2162D10 Offset: 0x2161310 VA: 0x182162D10
 	|-ArraySortHelper<char>.Swap
 	|-ArraySortHelper<short>.Swap
 	|-ArraySortHelper<ushort>.Swap
 	|
-	|-RVA: 0x21782D0 Offset: 0x21768D0 VA: 0x1821782D0
+	|-RVA: 0x21781D0 Offset: 0x21767D0 VA: 0x1821781D0
 	|-ArraySortHelper<double>.Swap
 	|
-	|-RVA: 0x2178000 Offset: 0x2176600 VA: 0x182178000
+	|-RVA: 0x2177F00 Offset: 0x2176500 VA: 0x182177F00
 	|-ArraySortHelper<int>.Swap
 	|-ArraySortHelper<Int32Enum>.Swap
 	|-ArraySortHelper<uint>.Swap
 	|
-	|-RVA: 0x2178100 Offset: 0x2176700 VA: 0x182178100
+	|-RVA: 0x2178000 Offset: 0x2176600 VA: 0x182178000
 	|-ArraySortHelper<long>.Swap
 	|-ArraySortHelper<ulong>.Swap
 	|
-	|-RVA: 0x2178350 Offset: 0x2176950 VA: 0x182178350
+	|-RVA: 0x2178250 Offset: 0x2176850 VA: 0x182178250
 	|-ArraySortHelper<object>.Swap
 	|
-	|-RVA: 0x2178080 Offset: 0x2176680 VA: 0x182178080
+	|-RVA: 0x2177F80 Offset: 0x2176580 VA: 0x182177F80
 	|-ArraySortHelper<float>.Swap
 	|
-	|-RVA: 0x2178180 Offset: 0x2176780 VA: 0x182178180
+	|-RVA: 0x2178080 Offset: 0x2176680 VA: 0x182178080
 	|-ArraySortHelper<TraceInfo>.Swap
 	|
-	|-RVA: 0x2159A00 Offset: 0x2158000 VA: 0x182159A00
+	|-RVA: 0x2159900 Offset: 0x2157F00 VA: 0x182159900
 	|-ArraySortHelper<NavMeshBuildSource>.Swap
 	|
-	|-RVA: 0x2159D80 Offset: 0x2158380 VA: 0x182159D80
+	|-RVA: 0x2159C80 Offset: 0x2158280 VA: 0x182159C80
 	|-ArraySortHelper<RaycastResult>.Swap
 	|
-	|-RVA: 0x2159CB0 Offset: 0x21582B0 VA: 0x182159CB0
+	|-RVA: 0x2159BB0 Offset: 0x21581B0 VA: 0x182159BB0
 	|-ArraySortHelper<Matrix4x4>.Swap
 	|
-	|-RVA: 0x2159B10 Offset: 0x2158110 VA: 0x182159B10
+	|-RVA: 0x2159A10 Offset: 0x2158010 VA: 0x182159A10
 	|-ArraySortHelper<RaycastHit2D>.Swap
 	|
-	|-RVA: 0x2159940 Offset: 0x2157F40 VA: 0x182159940
+	|-RVA: 0x2159840 Offset: 0x2157E40 VA: 0x182159840
 	|-ArraySortHelper<RaycastHit>.Swap
 	|
-	|-RVA: 0x2159BC0 Offset: 0x21581C0 VA: 0x182159BC0
+	|-RVA: 0x2159AC0 Offset: 0x21580C0 VA: 0x182159AC0
 	|-ArraySortHelper<UIVertex>.Swap
 	*/
 
 	internal static void IntrospectiveSort(T[] keys, int left, int length, Comparison<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C55990 Offset: 0x1C53F90 VA: 0x181C55990
+	|-RVA: 0x1C55890 Offset: 0x1C53E90 VA: 0x181C55890
 	|-ArraySortHelper<AdvancedChristmasLights.pointEntry>.IntrospectiveSort
 	|-ArraySortHelper<AlignedLineDrawer.LinePoint>.IntrospectiveSort
 	|-ArraySortHelper<AtmosphereVolumeRenderer.CurrentVolumeEntry>.IntrospectiveSort
@@ -38112,7 +38112,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	private static void IntroSort(T[] keys, int lo, int hi, int depthLimit, Comparison<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C55620 Offset: 0x1C53C20 VA: 0x181C55620
+	|-RVA: 0x1C55520 Offset: 0x1C53B20 VA: 0x181C55520
 	|-ArraySortHelper<AdvancedChristmasLights.pointEntry>.IntroSort
 	|-ArraySortHelper<AlignedLineDrawer.LinePoint>.IntroSort
 	|-ArraySortHelper<AtmosphereVolumeRenderer.CurrentVolumeEntry>.IntroSort
@@ -38285,7 +38285,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	private static int PickPivotAndPartition(T[] keys, int lo, int hi, Comparison<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1FA1510 Offset: 0x1F9FB10 VA: 0x181FA1510
+	|-RVA: 0x1FA1410 Offset: 0x1F9FA10 VA: 0x181FA1410
 	|-ArraySortHelper<AdvancedChristmasLights.pointEntry>.PickPivotAndPartition
 	|-ArraySortHelper<AlignedLineDrawer.LinePoint>.PickPivotAndPartition
 	|-ArraySortHelper<Cassette.LoadRequest>.PickPivotAndPartition
@@ -38306,7 +38306,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<KeyValuePair<ulong, Dispatch.ResultCallback>>.PickPivotAndPartition
 	|-ArraySortHelper<UnitySynchronizationContext.WorkRequest>.PickPivotAndPartition
 	|
-	|-RVA: 0x1C56320 Offset: 0x1C54920 VA: 0x181C56320
+	|-RVA: 0x1C56220 Offset: 0x1C54820 VA: 0x181C56220
 	|-ArraySortHelper<AtmosphereVolumeRenderer.CurrentVolumeEntry>.PickPivotAndPartition
 	|-ArraySortHelper<DamageRenderer.DamageShowingRenderer>.PickPivotAndPartition
 	|-ArraySortHelper<DeferredExtensionMesh.MaterialLink>.PickPivotAndPartition
@@ -38353,7 +38353,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<WindZoneExManager.CurrentZoneEntry>.PickPivotAndPartition
 	|-ArraySortHelper<WorldSplineData.LUTEntry.LUTPoint>.PickPivotAndPartition
 	|
-	|-RVA: 0x1FA1960 Offset: 0x1F9FF60 VA: 0x181FA1960
+	|-RVA: 0x1FA1860 Offset: 0x1F9FE60 VA: 0x181FA1860
 	|-ArraySortHelper<BaseEntity.ServerFileRequest>.PickPivotAndPartition
 	|-ArraySortHelper<CardTableUI.KeycodeWithAction>.PickPivotAndPartition
 	|-ArraySortHelper<Demos.DemoInfo>.PickPivotAndPartition
@@ -38374,12 +38374,12 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<SpecialPurposeCamera.RenderEntry>.PickPivotAndPartition
 	|-ArraySortHelper<InventoryItem>.PickPivotAndPartition
 	|
-	|-RVA: 0x1FA1DA0 Offset: 0x1FA03A0 VA: 0x181FA1DA0
+	|-RVA: 0x1FA1CA0 Offset: 0x1FA02A0 VA: 0x181FA1CA0
 	|-ArraySortHelper<Admin.PlayerInfo>.PickPivotAndPartition
 	|-ArraySortHelper<PlaceMonuments.SpawnInfo>.PickPivotAndPartition
 	|-ArraySortHelper<Matrix4x4>.PickPivotAndPartition
 	|
-	|-RVA: 0x1C55E90 Offset: 0x1C54490 VA: 0x181C55E90
+	|-RVA: 0x1C55D90 Offset: 0x1C54390 VA: 0x181C55D90
 	|-ArraySortHelper<Admin.ServerUGCInfo>.PickPivotAndPartition
 	|-ArraySortHelper<CapsuleParams>.PickPivotAndPartition
 	|-ArraySortHelper<SkeletonDefinition.Bone>.PickPivotAndPartition
@@ -38390,7 +38390,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<TreeInstance>.PickPivotAndPartition
 	|-ArraySortHelper<ViewModelDrawEvent>.PickPivotAndPartition
 	|
-	|-RVA: 0x1C55A70 Offset: 0x1C54070 VA: 0x181C55A70
+	|-RVA: 0x1C55970 Offset: 0x1C53F70 VA: 0x181C55970
 	|-ArraySortHelper<CRedge>.PickPivotAndPartition
 	|-ArraySortHelper<ProjectileWeaponMod.Modifier>.PickPivotAndPartition
 	|-ArraySortHelper<VectorData>.PickPivotAndPartition
@@ -38399,7 +38399,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<UICharInfo>.PickPivotAndPartition
 	|-ArraySortHelper<Vector3>.PickPivotAndPartition
 	|
-	|-RVA: 0x1C56710 Offset: 0x1C54D10 VA: 0x181C56710
+	|-RVA: 0x1C56610 Offset: 0x1C54C10 VA: 0x181C56610
 	|-ArraySortHelper<ERCell>.PickPivotAndPartition
 	|-ArraySortHelper<ERConnectionGUIStatus>.PickPivotAndPartition
 	|-ArraySortHelper<ERTerrainChange>.PickPivotAndPartition
@@ -38416,30 +38416,30 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<TimeSpan>.PickPivotAndPartition
 	|-ArraySortHelper<Vector2i>.PickPivotAndPartition
 	|
-	|-RVA: 0x20FAEC0 Offset: 0x20F94C0 VA: 0x1820FAEC0
+	|-RVA: 0x20FADC0 Offset: 0x20F93C0 VA: 0x1820FADC0
 	|-ArraySortHelper<ERMeshCombineUtility.MeshInstance>.PickPivotAndPartition
 	|-ArraySortHelper<RenderInfo.RendererInstance>.PickPivotAndPartition
 	|-ArraySortHelper<Option>.PickPivotAndPartition
 	|
-	|-RVA: 0x20FB8E0 Offset: 0x20F9EE0 VA: 0x1820FB8E0
+	|-RVA: 0x20FB7E0 Offset: 0x20F9DE0 VA: 0x1820FB7E0
 	|-ArraySortHelper<ERSOSection>.PickPivotAndPartition
 	|
-	|-RVA: 0x20FB3F0 Offset: 0x20F99F0 VA: 0x1820FB3F0
+	|-RVA: 0x20FB2F0 Offset: 0x20F98F0 VA: 0x1820FB2F0
 	|-ArraySortHelper<ERSplatmap>.PickPivotAndPartition
 	|
-	|-RVA: 0x20FC880 Offset: 0x20FAE80 VA: 0x1820FC880
+	|-RVA: 0x20FC780 Offset: 0x20FAD80 VA: 0x1820FC780
 	|-ArraySortHelper<ERVSData>.PickPivotAndPartition
 	|-ArraySortHelper<SqliteKeyReader.KeyInfo>.PickPivotAndPartition
 	|
-	|-RVA: 0x20FBEB0 Offset: 0x20FA4B0 VA: 0x1820FBEB0
+	|-RVA: 0x20FBDB0 Offset: 0x20FA3B0 VA: 0x1820FBDB0
 	|-ArraySortHelper<EngineDamageOverTime.RecentDamage>.PickPivotAndPartition
 	|-ArraySortHelper<DemoShotFloatKeyframe>.PickPivotAndPartition
 	|-ArraySortHelper<Vector2>.PickPivotAndPartition
 	|
-	|-RVA: 0x20FC2D0 Offset: 0x20FA8D0 VA: 0x1820FC2D0
+	|-RVA: 0x20FC1D0 Offset: 0x20FA7D0 VA: 0x1820FC1D0
 	|-ArraySortHelper<BoneData>.PickPivotAndPartition
 	|
-	|-RVA: 0x2108F50 Offset: 0x2107550 VA: 0x182108F50
+	|-RVA: 0x2108E50 Offset: 0x2107450 VA: 0x182108E50
 	|-ArraySortHelper<Tick.Entry>.PickPivotAndPartition
 	|-ArraySortHelper<Gibbable.OverrideMesh>.PickPivotAndPartition
 	|-ArraySortHelper<MeshInstance>.PickPivotAndPartition
@@ -38449,80 +38449,80 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<PlaceMonumentsRoadside.SpawnInfo>.PickPivotAndPartition
 	|-ArraySortHelper<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.PickPivotAndPartition
 	|
-	|-RVA: 0x2108A80 Offset: 0x2107080 VA: 0x182108A80
+	|-RVA: 0x2108980 Offset: 0x2106F80 VA: 0x182108980
 	|-ArraySortHelper<FoliageGridMeshData.FoliageVertex>.PickPivotAndPartition
 	|
-	|-RVA: 0x21086B0 Offset: 0x2106CB0 VA: 0x1821086B0
+	|-RVA: 0x21085B0 Offset: 0x2106BB0 VA: 0x1821085B0
 	|-ArraySortHelper<SevenBitNumber>.PickPivotAndPartition
 	|
-	|-RVA: 0x211FFD0 Offset: 0x211E5D0 VA: 0x18211FFD0
+	|-RVA: 0x211FED0 Offset: 0x211E4D0 VA: 0x18211FED0
 	|-ArraySortHelper<MeshColliderInstance>.PickPivotAndPartition
 	|
-	|-RVA: 0x2120C30 Offset: 0x211F230 VA: 0x182120C30
+	|-RVA: 0x2120B30 Offset: 0x211F130 VA: 0x182120B30
 	|-ArraySortHelper<MeshColliderLookup.LookupEntry>.PickPivotAndPartition
 	|
-	|-RVA: 0x2120620 Offset: 0x211EC20 VA: 0x182120620
+	|-RVA: 0x2120520 Offset: 0x211EB20 VA: 0x182120520
 	|-ArraySortHelper<MeshRendererInstance>.PickPivotAndPartition
 	|
-	|-RVA: 0x2114500 Offset: 0x2112B00 VA: 0x182114500
+	|-RVA: 0x2114400 Offset: 0x2112A00 VA: 0x182114400
 	|-ArraySortHelper<DemoShotQuaternionKeyframe>.PickPivotAndPartition
 	|-ArraySortHelper<KeyValuePair<Guid, int>>.PickPivotAndPartition
 	|
-	|-RVA: 0x2113F30 Offset: 0x2112530 VA: 0x182113F30
+	|-RVA: 0x2113E30 Offset: 0x2112430 VA: 0x182113E30
 	|-ArraySortHelper<ServerInfo>.PickPivotAndPartition
 	|-ArraySortHelper<ServerInfo>.PickPivotAndPartition
 	|
-	|-RVA: 0x2114930 Offset: 0x2112F30 VA: 0x182114930
+	|-RVA: 0x2114830 Offset: 0x2112E30 VA: 0x182114830
 	|-ArraySortHelper<InventoryDefId>.PickPivotAndPartition
 	|-ArraySortHelper<Color32>.PickPivotAndPartition
 	|
-	|-RVA: 0x215D3A0 Offset: 0x215B9A0 VA: 0x18215D3A0
+	|-RVA: 0x215D2A0 Offset: 0x215B8A0 VA: 0x18215D2A0
 	|-ArraySortHelper<bool>.PickPivotAndPartition
 	|-ArraySortHelper<byte>.PickPivotAndPartition
 	|-ArraySortHelper<sbyte>.PickPivotAndPartition
 	|
-	|-RVA: 0x215D750 Offset: 0x215BD50 VA: 0x18215D750
+	|-RVA: 0x215D650 Offset: 0x215BC50 VA: 0x18215D650
 	|-ArraySortHelper<char>.PickPivotAndPartition
 	|-ArraySortHelper<short>.PickPivotAndPartition
 	|-ArraySortHelper<ushort>.PickPivotAndPartition
 	|
-	|-RVA: 0x2172520 Offset: 0x2170B20 VA: 0x182172520
+	|-RVA: 0x2172420 Offset: 0x2170A20 VA: 0x182172420
 	|-ArraySortHelper<double>.PickPivotAndPartition
 	|
-	|-RVA: 0x2172170 Offset: 0x2170770 VA: 0x182172170
+	|-RVA: 0x2172070 Offset: 0x2170670 VA: 0x182172070
 	|-ArraySortHelper<int>.PickPivotAndPartition
 	|-ArraySortHelper<Int32Enum>.PickPivotAndPartition
 	|-ArraySortHelper<uint>.PickPivotAndPartition
 	|
-	|-RVA: 0x21719E0 Offset: 0x216FFE0 VA: 0x1821719E0
+	|-RVA: 0x21718E0 Offset: 0x216FEE0 VA: 0x1821718E0
 	|-ArraySortHelper<long>.PickPivotAndPartition
 	|-ArraySortHelper<object>.PickPivotAndPartition
 	|-ArraySortHelper<ulong>.PickPivotAndPartition
 	|
-	|-RVA: 0x2171DA0 Offset: 0x21703A0 VA: 0x182171DA0
+	|-RVA: 0x2171CA0 Offset: 0x21702A0 VA: 0x182171CA0
 	|-ArraySortHelper<float>.PickPivotAndPartition
 	|
-	|-RVA: 0x2153D70 Offset: 0x2152370 VA: 0x182153D70
+	|-RVA: 0x2153C70 Offset: 0x2152270 VA: 0x182153C70
 	|-ArraySortHelper<TraceInfo>.PickPivotAndPartition
 	|-ArraySortHelper<RaycastResult>.PickPivotAndPartition
 	|
-	|-RVA: 0x2153350 Offset: 0x2151950 VA: 0x182153350
+	|-RVA: 0x2153250 Offset: 0x2151850 VA: 0x182153250
 	|-ArraySortHelper<NavMeshBuildSource>.PickPivotAndPartition
 	|
-	|-RVA: 0x2152EE0 Offset: 0x21514E0 VA: 0x182152EE0
+	|-RVA: 0x2152DE0 Offset: 0x21513E0 VA: 0x182152DE0
 	|-ArraySortHelper<RaycastHit2D>.PickPivotAndPartition
 	|
-	|-RVA: 0x21538A0 Offset: 0x2151EA0 VA: 0x1821538A0
+	|-RVA: 0x21537A0 Offset: 0x2151DA0 VA: 0x1821537A0
 	|-ArraySortHelper<RaycastHit>.PickPivotAndPartition
 	|
-	|-RVA: 0x21529E0 Offset: 0x2150FE0 VA: 0x1821529E0
+	|-RVA: 0x21528E0 Offset: 0x2150EE0 VA: 0x1821528E0
 	|-ArraySortHelper<UIVertex>.PickPivotAndPartition
 	*/
 
 	private static void Heapsort(T[] keys, int lo, int hi, Comparison<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C54380 Offset: 0x1C52980 VA: 0x181C54380
+	|-RVA: 0x1C54280 Offset: 0x1C52880 VA: 0x181C54280
 	|-ArraySortHelper<AdvancedChristmasLights.pointEntry>.Heapsort
 	|-ArraySortHelper<AlignedLineDrawer.LinePoint>.Heapsort
 	|-ArraySortHelper<AtmosphereVolumeRenderer.CurrentVolumeEntry>.Heapsort
@@ -38695,13 +38695,13 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	private static void DownHeap(T[] keys, int i, int n, int lo, Comparison<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F9E660 Offset: 0x1F9CC60 VA: 0x181F9E660
+	|-RVA: 0x1F9E560 Offset: 0x1F9CB60 VA: 0x181F9E560
 	|-ArraySortHelper<AdvancedChristmasLights.pointEntry>.DownHeap
 	|-ArraySortHelper<AlignedLineDrawer.LinePoint>.DownHeap
 	|-ArraySortHelper<ERChildsSO>.DownHeap
 	|-ArraySortHelper<TickRenderer.Tick>.DownHeap
 	|
-	|-RVA: 0x1C53E10 Offset: 0x1C52410 VA: 0x181C53E10
+	|-RVA: 0x1C53D10 Offset: 0x1C52310 VA: 0x181C53D10
 	|-ArraySortHelper<AtmosphereVolumeRenderer.CurrentVolumeEntry>.DownHeap
 	|-ArraySortHelper<DamageRenderer.DamageShowingRenderer>.DownHeap
 	|-ArraySortHelper<DeferredExtensionMesh.MaterialLink>.DownHeap
@@ -38727,10 +38727,10 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<FocusController.FocusedElement>.DownHeap
 	|-ArraySortHelper<WindZoneExManager.CurrentZoneEntry>.DownHeap
 	|
-	|-RVA: 0x1F9F810 Offset: 0x1F9DE10 VA: 0x181F9F810
+	|-RVA: 0x1F9F710 Offset: 0x1F9DD10 VA: 0x181F9F710
 	|-ArraySortHelper<BaseEntity.ServerFileRequest>.DownHeap
 	|
-	|-RVA: 0x1F9FB60 Offset: 0x1F9E160 VA: 0x181F9FB60
+	|-RVA: 0x1F9FA60 Offset: 0x1F9E060 VA: 0x181F9FA60
 	|-ArraySortHelper<CardTableUI.KeycodeWithAction>.DownHeap
 	|-ArraySortHelper<ItemSkinDirectory.Skin>.DownHeap
 	|-ArraySortHelper<KeyframeView.UIKeyframeValue>.DownHeap
@@ -38738,7 +38738,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<MidiConvar.NoteBinding>.DownHeap
 	|-ArraySortHelper<Option>.DownHeap
 	|
-	|-RVA: 0x1F9F4B0 Offset: 0x1F9DAB0 VA: 0x181F9F4B0
+	|-RVA: 0x1F9F3B0 Offset: 0x1F9D9B0 VA: 0x181F9F3B0
 	|-ArraySortHelper<Cassette.LoadRequest>.DownHeap
 	|-ArraySortHelper<Admin.ServerConvarInfo>.DownHeap
 	|-ArraySortHelper<ExpandedLifeStats.GenericStatDisplay>.DownHeap
@@ -38749,20 +38749,20 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<KeyValuePair<object, Color>>.DownHeap
 	|-ArraySortHelper<UnitySynchronizationContext.WorkRequest>.DownHeap
 	|
-	|-RVA: 0x1F9F0C0 Offset: 0x1F9D6C0 VA: 0x181F9F0C0
+	|-RVA: 0x1F9EFC0 Offset: 0x1F9D5C0 VA: 0x181F9EFC0
 	|-ArraySortHelper<Admin.PlayerInfo>.DownHeap
 	|-ArraySortHelper<PlaceMonuments.SpawnInfo>.DownHeap
 	|
-	|-RVA: 0x1F9ED00 Offset: 0x1F9D300 VA: 0x181F9ED00
+	|-RVA: 0x1F9EC00 Offset: 0x1F9D200 VA: 0x181F9EC00
 	|-ArraySortHelper<Admin.ServerUGCInfo>.DownHeap
 	|
-	|-RVA: 0x1F9E9A0 Offset: 0x1F9CFA0 VA: 0x181F9E9A0
+	|-RVA: 0x1F9E8A0 Offset: 0x1F9CEA0 VA: 0x181F9E8A0
 	|-ArraySortHelper<Chat.MuteEntry>.DownHeap
 	|-ArraySortHelper<JsonPosition>.DownHeap
 	|-ArraySortHelper<InventoryRecipe.Ingredient>.DownHeap
 	|-ArraySortHelper<KeyValuePair<ulong, Dispatch.ResultCallback>>.DownHeap
 	|
-	|-RVA: 0x20F7BF0 Offset: 0x20F61F0 VA: 0x1820F7BF0
+	|-RVA: 0x20F7AF0 Offset: 0x20F60F0 VA: 0x1820F7AF0
 	|-ArraySortHelper<Demos.DemoInfo>.DownHeap
 	|-ArraySortHelper<Output.Entry>.DownHeap
 	|-ArraySortHelper<IconSkinPicker.SkinButtonSetup>.DownHeap
@@ -38772,7 +38772,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<SkinnedMultiMesh.Part>.DownHeap
 	|-ArraySortHelper<SpecialPurposeCamera.RenderEntry>.DownHeap
 	|
-	|-RVA: 0x1C53820 Offset: 0x1C51E20 VA: 0x181C53820
+	|-RVA: 0x1C53720 Offset: 0x1C51D20 VA: 0x181C53720
 	|-ArraySortHelper<CRedge>.DownHeap
 	|-ArraySortHelper<ProjectileWeaponMod.Modifier>.DownHeap
 	|-ArraySortHelper<VectorData>.DownHeap
@@ -38781,7 +38781,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<UICharInfo>.DownHeap
 	|-ArraySortHelper<Vector3>.DownHeap
 	|
-	|-RVA: 0x1C540F0 Offset: 0x1C526F0 VA: 0x181C540F0
+	|-RVA: 0x1C53FF0 Offset: 0x1C525F0 VA: 0x181C53FF0
 	|-ArraySortHelper<ERCell>.DownHeap
 	|-ArraySortHelper<ERConnectionGUIStatus>.DownHeap
 	|-ArraySortHelper<ERTerrainChange>.DownHeap
@@ -38794,7 +38794,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<TimeSpan>.DownHeap
 	|-ArraySortHelper<Vector2i>.DownHeap
 	|
-	|-RVA: 0x1C53B50 Offset: 0x1C52150 VA: 0x181C53B50
+	|-RVA: 0x1C53A50 Offset: 0x1C52050 VA: 0x181C53A50
 	|-ArraySortHelper<ERLane>.DownHeap
 	|-ArraySortHelper<MagnetCrane.MagnetCraneSnapshot>.DownHeap
 	|-ArraySortHelper<DemoShotVectorKeyframe>.DownHeap
@@ -38810,51 +38810,51 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<Vector4>.DownHeap
 	|-ArraySortHelper<WorldSplineData.LUTEntry.LUTPoint>.DownHeap
 	|
-	|-RVA: 0x20F81C0 Offset: 0x20F67C0 VA: 0x1820F81C0
+	|-RVA: 0x20F80C0 Offset: 0x20F66C0 VA: 0x1820F80C0
 	|-ArraySortHelper<ERMeshCombineUtility.MeshInstance>.DownHeap
 	|-ArraySortHelper<Option>.DownHeap
 	|
-	|-RVA: 0x20F73A0 Offset: 0x20F59A0 VA: 0x1820F73A0
+	|-RVA: 0x20F72A0 Offset: 0x20F58A0 VA: 0x1820F72A0
 	|-ArraySortHelper<ERSOSection>.DownHeap
 	|
-	|-RVA: 0x20F6F60 Offset: 0x20F5560 VA: 0x1820F6F60
+	|-RVA: 0x20F6E60 Offset: 0x20F5460 VA: 0x1820F6E60
 	|-ArraySortHelper<ERSplatmap>.DownHeap
 	|
-	|-RVA: 0x20F6B60 Offset: 0x20F5160 VA: 0x1820F6B60
+	|-RVA: 0x20F6A60 Offset: 0x20F5060 VA: 0x1820F6A60
 	|-ArraySortHelper<ERVSData>.DownHeap
 	|
-	|-RVA: 0x20F78E0 Offset: 0x20F5EE0 VA: 0x1820F78E0
+	|-RVA: 0x20F77E0 Offset: 0x20F5DE0 VA: 0x1820F77E0
 	|-ArraySortHelper<EngineDamageOverTime.RecentDamage>.DownHeap
 	|-ArraySortHelper<DemoShotFloatKeyframe>.DownHeap
 	|-ArraySortHelper<Vector2>.DownHeap
 	|
-	|-RVA: 0x20F7F40 Offset: 0x20F6540 VA: 0x1820F7F40
+	|-RVA: 0x20F7E40 Offset: 0x20F6440 VA: 0x1820F7E40
 	|-ArraySortHelper<BurstCloth.Chain>.DownHeap
 	|-ArraySortHelper<FoliageKey>.DownHeap
 	|-ArraySortHelper<MeshRendererLookup.LookupEntry>.DownHeap
 	|-ArraySortHelper<Achievement>.DownHeap
 	|
-	|-RVA: 0x1C53460 Offset: 0x1C51A60 VA: 0x181C53460
+	|-RVA: 0x1C53360 Offset: 0x1C51960 VA: 0x181C53360
 	|-ArraySortHelper<CapsuleParams>.DownHeap
 	|-ArraySortHelper<SteamNewsSource.Story>.DownHeap
 	|-ArraySortHelper<ViewModelDrawEvent>.DownHeap
 	|
-	|-RVA: 0x20F8640 Offset: 0x20F6C40 VA: 0x1820F8640
+	|-RVA: 0x20F8540 Offset: 0x20F6B40 VA: 0x1820F8540
 	|-ArraySortHelper<BoneData>.DownHeap
 	|
-	|-RVA: 0x21065E0 Offset: 0x2104BE0 VA: 0x1821065E0
+	|-RVA: 0x21064E0 Offset: 0x2104AE0 VA: 0x1821064E0
 	|-ArraySortHelper<SkeletonDefinition.Bone>.DownHeap
 	|
-	|-RVA: 0x21069A0 Offset: 0x2104FA0 VA: 0x1821069A0
+	|-RVA: 0x21068A0 Offset: 0x2104EA0 VA: 0x1821068A0
 	|-ArraySortHelper<Tick.Entry>.DownHeap
 	|-ArraySortHelper<PlaceMonumentsOffshore.SpawnInfo>.DownHeap
 	|-ArraySortHelper<PlaceMonumentsRailside.SpawnInfo>.DownHeap
 	|-ArraySortHelper<PlaceMonumentsRoadside.SpawnInfo>.DownHeap
 	|
-	|-RVA: 0x2105A50 Offset: 0x2104050 VA: 0x182105A50
+	|-RVA: 0x2105950 Offset: 0x2103F50 VA: 0x182105950
 	|-ArraySortHelper<RenderInfo.RendererInstance>.DownHeap
 	|
-	|-RVA: 0x21054D0 Offset: 0x2103AD0 VA: 0x1821054D0
+	|-RVA: 0x21053D0 Offset: 0x21039D0 VA: 0x1821053D0
 	|-ArraySortHelper<WeightedStringList.Container>.DownHeap
 	|-ArraySortHelper<DemoShotParentKeyframe>.DownHeap
 	|-ArraySortHelper<KeyValuePair<DateTime, object>>.DownHeap
@@ -38863,128 +38863,128 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<KeyValuePair<uint, object>>.DownHeap
 	|-ArraySortHelper<BeforeRenderHelper.OrderBlock>.DownHeap
 	|
-	|-RVA: 0x21050E0 Offset: 0x21036E0 VA: 0x1821050E0
+	|-RVA: 0x2104FE0 Offset: 0x21035E0 VA: 0x182104FE0
 	|-ArraySortHelper<FoliageGridMeshData.FoliageVertex>.DownHeap
 	|
-	|-RVA: 0x2106240 Offset: 0x2104840 VA: 0x182106240
+	|-RVA: 0x2106140 Offset: 0x2104740 VA: 0x182106140
 	|-ArraySortHelper<Gibbable.OverrideMesh>.DownHeap
 	|
-	|-RVA: 0x2105EE0 Offset: 0x21044E0 VA: 0x182105EE0
+	|-RVA: 0x2105DE0 Offset: 0x21043E0 VA: 0x182105DE0
 	|-ArraySortHelper<LocalClock.TimedEvent>.DownHeap
 	|-ArraySortHelper<SynchronizedClock.TimedEvent>.DownHeap
 	|
-	|-RVA: 0x21057C0 Offset: 0x2103DC0 VA: 0x1821057C0
+	|-RVA: 0x21056C0 Offset: 0x2103CC0 VA: 0x1821056C0
 	|-ArraySortHelper<SevenBitNumber>.DownHeap
 	|
-	|-RVA: 0x211DEB0 Offset: 0x211C4B0 VA: 0x18211DEB0
+	|-RVA: 0x211DDB0 Offset: 0x211C3B0 VA: 0x18211DDB0
 	|-ArraySortHelper<MeshColliderInstance>.DownHeap
 	|
-	|-RVA: 0x211D9B0 Offset: 0x211BFB0 VA: 0x18211D9B0
+	|-RVA: 0x211D8B0 Offset: 0x211BEB0 VA: 0x18211D8B0
 	|-ArraySortHelper<MeshColliderLookup.LookupEntry>.DownHeap
 	|
-	|-RVA: 0x211D5F0 Offset: 0x211BBF0 VA: 0x18211D5F0
+	|-RVA: 0x211D4F0 Offset: 0x211BAF0 VA: 0x18211D4F0
 	|-ArraySortHelper<MeshInstance>.DownHeap
 	|-ArraySortHelper<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.DownHeap
 	|
-	|-RVA: 0x211C8D0 Offset: 0x211AED0 VA: 0x18211C8D0
+	|-RVA: 0x211C7D0 Offset: 0x211ADD0 VA: 0x18211C7D0
 	|-ArraySortHelper<MeshRendererInstance>.DownHeap
 	|
-	|-RVA: 0x211CE20 Offset: 0x211B420 VA: 0x18211CE20
+	|-RVA: 0x211CD20 Offset: 0x211B320 VA: 0x18211CD20
 	|-ArraySortHelper<SqliteKeyReader.KeyInfo>.DownHeap
 	|
-	|-RVA: 0x211D230 Offset: 0x211B830 VA: 0x18211D230
+	|-RVA: 0x211D130 Offset: 0x211B730 VA: 0x18211D130
 	|-ArraySortHelper<PetCommandList.PetCommandDesc>.DownHeap
 	|
-	|-RVA: 0x2111960 Offset: 0x210FF60 VA: 0x182111960
+	|-RVA: 0x2111860 Offset: 0x210FE60 VA: 0x182111860
 	|-ArraySortHelper<DemoShotQuaternionKeyframe>.DownHeap
 	|-ArraySortHelper<KeyValuePair<Guid, int>>.DownHeap
 	|
-	|-RVA: 0x2112170 Offset: 0x2110770 VA: 0x182112170
+	|-RVA: 0x2112070 Offset: 0x2110670 VA: 0x182112070
 	|-ArraySortHelper<ReflectionProbeEx.CubemapSkyboxVertex>.DownHeap
 	|-ArraySortHelper<RenderTargetIdentifier>.DownHeap
 	|-ArraySortHelper<TreeInstance>.DownHeap
 	|
-	|-RVA: 0x21113A0 Offset: 0x210F9A0 VA: 0x1821113A0
+	|-RVA: 0x21112A0 Offset: 0x210F8A0 VA: 0x1821112A0
 	|-ArraySortHelper<TransformSnapshot>.DownHeap
 	|-ArraySortHelper<SubmarineSonar.SonarBlip>.DownHeap
 	|-ArraySortHelper<SpawnIndividual>.DownHeap
 	|
-	|-RVA: 0x2112510 Offset: 0x2110B10 VA: 0x182112510
+	|-RVA: 0x2112410 Offset: 0x2110A10 VA: 0x182112410
 	|-ArraySortHelper<ServerInfo>.DownHeap
 	|
-	|-RVA: 0x21116E0 Offset: 0x210FCE0 VA: 0x1821116E0
+	|-RVA: 0x21115E0 Offset: 0x210FBE0 VA: 0x1821115E0
 	|-ArraySortHelper<InventoryDefId>.DownHeap
 	|-ArraySortHelper<Color32>.DownHeap
 	|
-	|-RVA: 0x2111C90 Offset: 0x2110290 VA: 0x182111C90
+	|-RVA: 0x2111B90 Offset: 0x2110190 VA: 0x182111B90
 	|-ArraySortHelper<ServerInfo>.DownHeap
 	|
-	|-RVA: 0x215C490 Offset: 0x215AA90 VA: 0x18215C490
+	|-RVA: 0x215C390 Offset: 0x215A990 VA: 0x18215C390
 	|-ArraySortHelper<InventoryItem.Amount>.DownHeap
 	|
-	|-RVA: 0x215BEB0 Offset: 0x215A4B0 VA: 0x18215BEB0
+	|-RVA: 0x215BDB0 Offset: 0x215A3B0 VA: 0x18215BDB0
 	|-ArraySortHelper<InventoryItem>.DownHeap
 	|
-	|-RVA: 0x215C200 Offset: 0x215A800 VA: 0x18215C200
+	|-RVA: 0x215C100 Offset: 0x215A700 VA: 0x18215C100
 	|-ArraySortHelper<bool>.DownHeap
 	|-ArraySortHelper<byte>.DownHeap
 	|-ArraySortHelper<sbyte>.DownHeap
 	|
-	|-RVA: 0x215BC20 Offset: 0x215A220 VA: 0x18215BC20
+	|-RVA: 0x215BB20 Offset: 0x215A120 VA: 0x18215BB20
 	|-ArraySortHelper<char>.DownHeap
 	|-ArraySortHelper<short>.DownHeap
 	|-ArraySortHelper<ushort>.DownHeap
 	|
-	|-RVA: 0x216FB80 Offset: 0x216E180 VA: 0x18216FB80
+	|-RVA: 0x216FA80 Offset: 0x216E080 VA: 0x18216FA80
 	|-ArraySortHelper<double>.DownHeap
 	|
-	|-RVA: 0x216F900 Offset: 0x216DF00 VA: 0x18216F900
+	|-RVA: 0x216F800 Offset: 0x216DE00 VA: 0x18216F800
 	|-ArraySortHelper<int>.DownHeap
 	|-ArraySortHelper<Int32Enum>.DownHeap
 	|-ArraySortHelper<uint>.DownHeap
 	|
-	|-RVA: 0x216FE10 Offset: 0x216E410 VA: 0x18216FE10
+	|-RVA: 0x216FD10 Offset: 0x216E310 VA: 0x18216FD10
 	|-ArraySortHelper<long>.DownHeap
 	|-ArraySortHelper<ulong>.DownHeap
 	|
-	|-RVA: 0x216F680 Offset: 0x216DC80 VA: 0x18216F680
+	|-RVA: 0x216F580 Offset: 0x216DB80 VA: 0x18216F580
 	|-ArraySortHelper<object>.DownHeap
 	|
-	|-RVA: 0x21700A0 Offset: 0x216E6A0 VA: 0x1821700A0
+	|-RVA: 0x216FFA0 Offset: 0x216E5A0 VA: 0x18216FFA0
 	|-ArraySortHelper<float>.DownHeap
 	|
-	|-RVA: 0x2170330 Offset: 0x216E930 VA: 0x182170330
+	|-RVA: 0x2170230 Offset: 0x216E830 VA: 0x182170230
 	|-ArraySortHelper<TraceInfo>.DownHeap
 	|
-	|-RVA: 0x2150500 Offset: 0x214EB00 VA: 0x182150500
+	|-RVA: 0x2150400 Offset: 0x214EA00 VA: 0x182150400
 	|-ArraySortHelper<NavMeshBuildSource>.DownHeap
 	|
-	|-RVA: 0x21500C0 Offset: 0x214E6C0 VA: 0x1821500C0
+	|-RVA: 0x214FFC0 Offset: 0x214E5C0 VA: 0x18214FFC0
 	|-ArraySortHelper<RaycastResult>.DownHeap
 	|
-	|-RVA: 0x21509C0 Offset: 0x214EFC0 VA: 0x1821509C0
+	|-RVA: 0x21508C0 Offset: 0x214EEC0 VA: 0x1821508C0
 	|-ArraySortHelper<Matrix4x4>.DownHeap
 	|
-	|-RVA: 0x214FD30 Offset: 0x214E330 VA: 0x18214FD30
+	|-RVA: 0x214FC30 Offset: 0x214E230 VA: 0x18214FC30
 	|-ArraySortHelper<RaycastHit2D>.DownHeap
 	|
-	|-RVA: 0x214F950 Offset: 0x214DF50 VA: 0x18214F950
+	|-RVA: 0x214F850 Offset: 0x214DE50 VA: 0x18214F850
 	|-ArraySortHelper<RaycastHit>.DownHeap
 	|
-	|-RVA: 0x214F4F0 Offset: 0x214DAF0 VA: 0x18214F4F0
+	|-RVA: 0x214F3F0 Offset: 0x214D9F0 VA: 0x18214F3F0
 	|-ArraySortHelper<UIVertex>.DownHeap
 	*/
 
 	private static void InsertionSort(T[] keys, int lo, int hi, Comparison<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F9FEB0 Offset: 0x1F9E4B0 VA: 0x181F9FEB0
+	|-RVA: 0x1F9FDB0 Offset: 0x1F9E3B0 VA: 0x181F9FDB0
 	|-ArraySortHelper<AdvancedChristmasLights.pointEntry>.InsertionSort
 	|-ArraySortHelper<AlignedLineDrawer.LinePoint>.InsertionSort
 	|-ArraySortHelper<ERChildsSO>.InsertionSort
 	|-ArraySortHelper<TickRenderer.Tick>.InsertionSort
 	|
-	|-RVA: 0x1C54750 Offset: 0x1C52D50 VA: 0x181C54750
+	|-RVA: 0x1C54650 Offset: 0x1C52C50 VA: 0x181C54650
 	|-ArraySortHelper<AtmosphereVolumeRenderer.CurrentVolumeEntry>.InsertionSort
 	|-ArraySortHelper<DamageRenderer.DamageShowingRenderer>.InsertionSort
 	|-ArraySortHelper<DeferredExtensionMesh.MaterialLink>.InsertionSort
@@ -39010,10 +39010,10 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<FocusController.FocusedElement>.InsertionSort
 	|-ArraySortHelper<WindZoneExManager.CurrentZoneEntry>.InsertionSort
 	|
-	|-RVA: 0x1FA0D50 Offset: 0x1F9F350 VA: 0x181FA0D50
+	|-RVA: 0x1FA0C50 Offset: 0x1F9F250 VA: 0x181FA0C50
 	|-ArraySortHelper<BaseEntity.ServerFileRequest>.InsertionSort
 	|
-	|-RVA: 0x1FA03B0 Offset: 0x1F9E9B0 VA: 0x181FA03B0
+	|-RVA: 0x1FA02B0 Offset: 0x1F9E8B0 VA: 0x181FA02B0
 	|-ArraySortHelper<CardTableUI.KeycodeWithAction>.InsertionSort
 	|-ArraySortHelper<ItemSkinDirectory.Skin>.InsertionSort
 	|-ArraySortHelper<KeyframeView.UIKeyframeValue>.InsertionSort
@@ -39021,7 +39021,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<MidiConvar.NoteBinding>.InsertionSort
 	|-ArraySortHelper<Option>.InsertionSort
 	|
-	|-RVA: 0x1FA0860 Offset: 0x1F9EE60 VA: 0x181FA0860
+	|-RVA: 0x1FA0760 Offset: 0x1F9ED60 VA: 0x181FA0760
 	|-ArraySortHelper<Cassette.LoadRequest>.InsertionSort
 	|-ArraySortHelper<Admin.ServerConvarInfo>.InsertionSort
 	|-ArraySortHelper<ExpandedLifeStats.GenericStatDisplay>.InsertionSort
@@ -39032,20 +39032,20 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<KeyValuePair<object, Color>>.InsertionSort
 	|-ArraySortHelper<UnitySynchronizationContext.WorkRequest>.InsertionSort
 	|
-	|-RVA: 0x1FA00F0 Offset: 0x1F9E6F0 VA: 0x181FA00F0
+	|-RVA: 0x1F9FFF0 Offset: 0x1F9E5F0 VA: 0x181F9FFF0
 	|-ArraySortHelper<Admin.PlayerInfo>.InsertionSort
 	|-ArraySortHelper<PlaceMonuments.SpawnInfo>.InsertionSort
 	|
-	|-RVA: 0x1FA0AB0 Offset: 0x1F9F0B0 VA: 0x181FA0AB0
+	|-RVA: 0x1FA09B0 Offset: 0x1F9EFB0 VA: 0x181FA09B0
 	|-ArraySortHelper<Admin.ServerUGCInfo>.InsertionSort
 	|
-	|-RVA: 0x1FA0600 Offset: 0x1F9EC00 VA: 0x181FA0600
+	|-RVA: 0x1FA0500 Offset: 0x1F9EB00 VA: 0x181FA0500
 	|-ArraySortHelper<Chat.MuteEntry>.InsertionSort
 	|-ArraySortHelper<JsonPosition>.InsertionSort
 	|-ArraySortHelper<InventoryRecipe.Ingredient>.InsertionSort
 	|-ArraySortHelper<KeyValuePair<ulong, Dispatch.ResultCallback>>.InsertionSort
 	|
-	|-RVA: 0x20F8B00 Offset: 0x20F7100 VA: 0x1820F8B00
+	|-RVA: 0x20F8A00 Offset: 0x20F7000 VA: 0x1820F8A00
 	|-ArraySortHelper<Demos.DemoInfo>.InsertionSort
 	|-ArraySortHelper<Output.Entry>.InsertionSort
 	|-ArraySortHelper<IconSkinPicker.SkinButtonSetup>.InsertionSort
@@ -39055,7 +39055,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<SkinnedMultiMesh.Part>.InsertionSort
 	|-ArraySortHelper<SpecialPurposeCamera.RenderEntry>.InsertionSort
 	|
-	|-RVA: 0x1C54530 Offset: 0x1C52B30 VA: 0x181C54530
+	|-RVA: 0x1C54430 Offset: 0x1C52A30 VA: 0x181C54430
 	|-ArraySortHelper<CRedge>.InsertionSort
 	|-ArraySortHelper<ProjectileWeaponMod.Modifier>.InsertionSort
 	|-ArraySortHelper<VectorData>.InsertionSort
@@ -39064,7 +39064,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<UICharInfo>.InsertionSort
 	|-ArraySortHelper<Vector3>.InsertionSort
 	|
-	|-RVA: 0x1C54DD0 Offset: 0x1C533D0 VA: 0x181C54DD0
+	|-RVA: 0x1C54CD0 Offset: 0x1C532D0 VA: 0x181C54CD0
 	|-ArraySortHelper<ERCell>.InsertionSort
 	|-ArraySortHelper<ERConnectionGUIStatus>.InsertionSort
 	|-ArraySortHelper<ERTerrainChange>.InsertionSort
@@ -39077,7 +39077,7 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<TimeSpan>.InsertionSort
 	|-ArraySortHelper<Vector2i>.InsertionSort
 	|
-	|-RVA: 0x1C54BE0 Offset: 0x1C531E0 VA: 0x181C54BE0
+	|-RVA: 0x1C54AE0 Offset: 0x1C530E0 VA: 0x181C54AE0
 	|-ArraySortHelper<ERLane>.InsertionSort
 	|-ArraySortHelper<MagnetCrane.MagnetCraneSnapshot>.InsertionSort
 	|-ArraySortHelper<DemoShotVectorKeyframe>.InsertionSort
@@ -39093,51 +39093,51 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<Vector4>.InsertionSort
 	|-ArraySortHelper<WorldSplineData.LUTEntry.LUTPoint>.InsertionSort
 	|
-	|-RVA: 0x20F91B0 Offset: 0x20F77B0 VA: 0x1820F91B0
+	|-RVA: 0x20F90B0 Offset: 0x20F76B0 VA: 0x1820F90B0
 	|-ArraySortHelper<ERMeshCombineUtility.MeshInstance>.InsertionSort
 	|-ArraySortHelper<Option>.InsertionSort
 	|
-	|-RVA: 0x20F9500 Offset: 0x20F7B00 VA: 0x1820F9500
+	|-RVA: 0x20F9400 Offset: 0x20F7A00 VA: 0x1820F9400
 	|-ArraySortHelper<ERSOSection>.InsertionSort
 	|
-	|-RVA: 0x20F9AE0 Offset: 0x20F80E0 VA: 0x1820F9AE0
+	|-RVA: 0x20F99E0 Offset: 0x20F7FE0 VA: 0x1820F99E0
 	|-ArraySortHelper<ERSplatmap>.InsertionSort
 	|
-	|-RVA: 0x20F8F00 Offset: 0x20F7500 VA: 0x1820F8F00
+	|-RVA: 0x20F8E00 Offset: 0x20F7400 VA: 0x1820F8E00
 	|-ArraySortHelper<ERVSData>.InsertionSort
 	|
-	|-RVA: 0x20F98D0 Offset: 0x20F7ED0 VA: 0x1820F98D0
+	|-RVA: 0x20F97D0 Offset: 0x20F7DD0 VA: 0x1820F97D0
 	|-ArraySortHelper<EngineDamageOverTime.RecentDamage>.InsertionSort
 	|-ArraySortHelper<DemoShotFloatKeyframe>.InsertionSort
 	|-ArraySortHelper<Vector2>.InsertionSort
 	|
-	|-RVA: 0x20F8D50 Offset: 0x20F7350 VA: 0x1820F8D50
+	|-RVA: 0x20F8C50 Offset: 0x20F7250 VA: 0x1820F8C50
 	|-ArraySortHelper<BurstCloth.Chain>.InsertionSort
 	|-ArraySortHelper<FoliageKey>.InsertionSort
 	|-ArraySortHelper<MeshRendererLookup.LookupEntry>.InsertionSort
 	|-ArraySortHelper<Achievement>.InsertionSort
 	|
-	|-RVA: 0x1C54950 Offset: 0x1C52F50 VA: 0x181C54950
+	|-RVA: 0x1C54850 Offset: 0x1C52E50 VA: 0x181C54850
 	|-ArraySortHelper<CapsuleParams>.InsertionSort
 	|-ArraySortHelper<SteamNewsSource.Story>.InsertionSort
 	|-ArraySortHelper<ViewModelDrawEvent>.InsertionSort
 	|
-	|-RVA: 0x20F9E00 Offset: 0x20F8400 VA: 0x1820F9E00
+	|-RVA: 0x20F9D00 Offset: 0x20F8300 VA: 0x1820F9D00
 	|-ArraySortHelper<BoneData>.InsertionSort
 	|
-	|-RVA: 0x2107550 Offset: 0x2105B50 VA: 0x182107550
+	|-RVA: 0x2107450 Offset: 0x2105A50 VA: 0x182107450
 	|-ArraySortHelper<SkeletonDefinition.Bone>.InsertionSort
 	|
-	|-RVA: 0x21077F0 Offset: 0x2105DF0 VA: 0x1821077F0
+	|-RVA: 0x21076F0 Offset: 0x2105CF0 VA: 0x1821076F0
 	|-ArraySortHelper<Tick.Entry>.InsertionSort
 	|-ArraySortHelper<PlaceMonumentsOffshore.SpawnInfo>.InsertionSort
 	|-ArraySortHelper<PlaceMonumentsRailside.SpawnInfo>.InsertionSort
 	|-ArraySortHelper<PlaceMonumentsRoadside.SpawnInfo>.InsertionSort
 	|
-	|-RVA: 0x2106D60 Offset: 0x2105360 VA: 0x182106D60
+	|-RVA: 0x2106C60 Offset: 0x2105260 VA: 0x182106C60
 	|-ArraySortHelper<RenderInfo.RendererInstance>.InsertionSort
 	|
-	|-RVA: 0x21070C0 Offset: 0x21056C0 VA: 0x1821070C0
+	|-RVA: 0x2106FC0 Offset: 0x21055C0 VA: 0x182106FC0
 	|-ArraySortHelper<WeightedStringList.Container>.InsertionSort
 	|-ArraySortHelper<DemoShotParentKeyframe>.InsertionSort
 	|-ArraySortHelper<KeyValuePair<DateTime, object>>.InsertionSort
@@ -39146,115 +39146,115 @@ internal class ArraySortHelper<T> // TypeDefIndex: 1446
 	|-ArraySortHelper<KeyValuePair<uint, object>>.InsertionSort
 	|-ArraySortHelper<BeforeRenderHelper.OrderBlock>.InsertionSort
 	|
-	|-RVA: 0x2107A80 Offset: 0x2106080 VA: 0x182107A80
+	|-RVA: 0x2107980 Offset: 0x2105F80 VA: 0x182107980
 	|-ArraySortHelper<FoliageGridMeshData.FoliageVertex>.InsertionSort
 	|
-	|-RVA: 0x21072D0 Offset: 0x21058D0 VA: 0x1821072D0
+	|-RVA: 0x21071D0 Offset: 0x21057D0 VA: 0x1821071D0
 	|-ArraySortHelper<Gibbable.OverrideMesh>.InsertionSort
 	|
-	|-RVA: 0x2107F00 Offset: 0x2106500 VA: 0x182107F00
+	|-RVA: 0x2107E00 Offset: 0x2106400 VA: 0x182107E00
 	|-ArraySortHelper<LocalClock.TimedEvent>.InsertionSort
 	|-ArraySortHelper<SynchronizedClock.TimedEvent>.InsertionSort
 	|
-	|-RVA: 0x2107D50 Offset: 0x2106350 VA: 0x182107D50
+	|-RVA: 0x2107C50 Offset: 0x2106250 VA: 0x182107C50
 	|-ArraySortHelper<SevenBitNumber>.InsertionSort
 	|
-	|-RVA: 0x211E9C0 Offset: 0x211CFC0 VA: 0x18211E9C0
+	|-RVA: 0x211E8C0 Offset: 0x211CEC0 VA: 0x18211E8C0
 	|-ArraySortHelper<MeshColliderInstance>.InsertionSort
 	|
-	|-RVA: 0x211F3C0 Offset: 0x211D9C0 VA: 0x18211F3C0
+	|-RVA: 0x211F2C0 Offset: 0x211D8C0 VA: 0x18211F2C0
 	|-ArraySortHelper<MeshColliderLookup.LookupEntry>.InsertionSort
 	|
-	|-RVA: 0x211E720 Offset: 0x211CD20 VA: 0x18211E720
+	|-RVA: 0x211E620 Offset: 0x211CC20 VA: 0x18211E620
 	|-ArraySortHelper<MeshInstance>.InsertionSort
 	|-ArraySortHelper<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.InsertionSort
 	|
-	|-RVA: 0x211ED90 Offset: 0x211D390 VA: 0x18211ED90
+	|-RVA: 0x211EC90 Offset: 0x211D290 VA: 0x18211EC90
 	|-ArraySortHelper<MeshRendererInstance>.InsertionSort
 	|
-	|-RVA: 0x211E460 Offset: 0x211CA60 VA: 0x18211E460
+	|-RVA: 0x211E360 Offset: 0x211C960 VA: 0x18211E360
 	|-ArraySortHelper<SqliteKeyReader.KeyInfo>.InsertionSort
 	|
-	|-RVA: 0x211F120 Offset: 0x211D720 VA: 0x18211F120
+	|-RVA: 0x211F020 Offset: 0x211D620 VA: 0x18211F020
 	|-ArraySortHelper<PetCommandList.PetCommandDesc>.InsertionSort
 	|
-	|-RVA: 0x2113210 Offset: 0x2111810 VA: 0x182113210
+	|-RVA: 0x2113110 Offset: 0x2111710 VA: 0x182113110
 	|-ArraySortHelper<DemoShotQuaternionKeyframe>.InsertionSort
 	|-ArraySortHelper<KeyValuePair<Guid, int>>.InsertionSort
 	|
-	|-RVA: 0x2112F90 Offset: 0x2111590 VA: 0x182112F90
+	|-RVA: 0x2112E90 Offset: 0x2111490 VA: 0x182112E90
 	|-ArraySortHelper<ReflectionProbeEx.CubemapSkyboxVertex>.InsertionSort
 	|-ArraySortHelper<RenderTargetIdentifier>.InsertionSort
 	|-ArraySortHelper<TreeInstance>.InsertionSort
 	|
-	|-RVA: 0x2112A00 Offset: 0x2111000 VA: 0x182112A00
+	|-RVA: 0x2112900 Offset: 0x2110F00 VA: 0x182112900
 	|-ArraySortHelper<TransformSnapshot>.InsertionSort
 	|-ArraySortHelper<SubmarineSonar.SonarBlip>.InsertionSort
 	|-ArraySortHelper<SpawnIndividual>.InsertionSort
 	|
-	|-RVA: 0x2112C40 Offset: 0x2111240 VA: 0x182112C40
+	|-RVA: 0x2112B40 Offset: 0x2111140 VA: 0x182112B40
 	|-ArraySortHelper<ServerInfo>.InsertionSort
 	|
-	|-RVA: 0x2113790 Offset: 0x2111D90 VA: 0x182113790
+	|-RVA: 0x2113690 Offset: 0x2111C90 VA: 0x182113690
 	|-ArraySortHelper<InventoryDefId>.InsertionSort
 	|-ArraySortHelper<Color32>.InsertionSort
 	|
-	|-RVA: 0x2113440 Offset: 0x2111A40 VA: 0x182113440
+	|-RVA: 0x2113340 Offset: 0x2111940 VA: 0x182113340
 	|-ArraySortHelper<ServerInfo>.InsertionSort
 	|
-	|-RVA: 0x215C850 Offset: 0x215AE50 VA: 0x18215C850
+	|-RVA: 0x215C750 Offset: 0x215AD50 VA: 0x18215C750
 	|-ArraySortHelper<InventoryItem.Amount>.InsertionSort
 	|
-	|-RVA: 0x215CCC0 Offset: 0x215B2C0 VA: 0x18215CCC0
+	|-RVA: 0x215CBC0 Offset: 0x215B1C0 VA: 0x18215CBC0
 	|-ArraySortHelper<InventoryItem>.InsertionSort
 	|
-	|-RVA: 0x215CAF0 Offset: 0x215B0F0 VA: 0x18215CAF0
+	|-RVA: 0x215C9F0 Offset: 0x215AFF0 VA: 0x18215C9F0
 	|-ArraySortHelper<bool>.InsertionSort
 	|-ArraySortHelper<byte>.InsertionSort
 	|-ArraySortHelper<sbyte>.InsertionSort
 	|
-	|-RVA: 0x215CF10 Offset: 0x215B510 VA: 0x18215CF10
+	|-RVA: 0x215CE10 Offset: 0x215B410 VA: 0x18215CE10
 	|-ArraySortHelper<char>.InsertionSort
 	|-ArraySortHelper<short>.InsertionSort
 	|-ArraySortHelper<ushort>.InsertionSort
 	|
-	|-RVA: 0x2171150 Offset: 0x216F750 VA: 0x182171150
+	|-RVA: 0x2171050 Offset: 0x216F650 VA: 0x182171050
 	|-ArraySortHelper<double>.InsertionSort
 	|
-	|-RVA: 0x2170770 Offset: 0x216ED70 VA: 0x182170770
+	|-RVA: 0x2170670 Offset: 0x216EC70 VA: 0x182170670
 	|-ArraySortHelper<int>.InsertionSort
 	|-ArraySortHelper<Int32Enum>.InsertionSort
 	|-ArraySortHelper<uint>.InsertionSort
 	|
-	|-RVA: 0x2170930 Offset: 0x216EF30 VA: 0x182170930
+	|-RVA: 0x2170830 Offset: 0x216EE30 VA: 0x182170830
 	|-ArraySortHelper<long>.InsertionSort
 	|-ArraySortHelper<ulong>.InsertionSort
 	|
-	|-RVA: 0x2170AF0 Offset: 0x216F0F0 VA: 0x182170AF0
+	|-RVA: 0x21709F0 Offset: 0x216EFF0 VA: 0x1821709F0
 	|-ArraySortHelper<object>.InsertionSort
 	|
-	|-RVA: 0x2170F90 Offset: 0x216F590 VA: 0x182170F90
+	|-RVA: 0x2170E90 Offset: 0x216F490 VA: 0x182170E90
 	|-ArraySortHelper<float>.InsertionSort
 	|
-	|-RVA: 0x2170C80 Offset: 0x216F280 VA: 0x182170C80
+	|-RVA: 0x2170B80 Offset: 0x216F180 VA: 0x182170B80
 	|-ArraySortHelper<TraceInfo>.InsertionSort
 	|
-	|-RVA: 0x2151B90 Offset: 0x2150190 VA: 0x182151B90
+	|-RVA: 0x2151A90 Offset: 0x2150090 VA: 0x182151A90
 	|-ArraySortHelper<NavMeshBuildSource>.InsertionSort
 	|
-	|-RVA: 0x2150DA0 Offset: 0x214F3A0 VA: 0x182150DA0
+	|-RVA: 0x2150CA0 Offset: 0x214F2A0 VA: 0x182150CA0
 	|-ArraySortHelper<RaycastResult>.InsertionSort
 	|
-	|-RVA: 0x2151350 Offset: 0x214F950 VA: 0x182151350
+	|-RVA: 0x2151250 Offset: 0x214F850 VA: 0x182151250
 	|-ArraySortHelper<Matrix4x4>.InsertionSort
 	|
-	|-RVA: 0x2151920 Offset: 0x214FF20 VA: 0x182151920
+	|-RVA: 0x2151820 Offset: 0x214FE20 VA: 0x182151820
 	|-ArraySortHelper<RaycastHit2D>.InsertionSort
 	|
-	|-RVA: 0x21510B0 Offset: 0x214F6B0 VA: 0x1821510B0
+	|-RVA: 0x2150FB0 Offset: 0x214F5B0 VA: 0x182150FB0
 	|-ArraySortHelper<RaycastHit>.InsertionSort
 	|
-	|-RVA: 0x21515F0 Offset: 0x214FBF0 VA: 0x1821515F0
+	|-RVA: 0x21514F0 Offset: 0x214FAF0 VA: 0x1821514F0
 	|-ArraySortHelper<UIVertex>.InsertionSort
 	*/
 
@@ -39269,7 +39269,7 @@ internal class ArraySortHelper<TKey, TValue> // TypeDefIndex: 1447
 	public static ArraySortHelper<TKey, TValue> get_Default() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C5AAE0 Offset: 0x1C590E0 VA: 0x181C5AAE0
+	|-RVA: 0x1C5A9E0 Offset: 0x1C58FE0 VA: 0x181C5A9E0
 	|-ArraySortHelper<object, object>.get_Default
 	|-ArraySortHelper<ulong, object>.get_Default
 	*/
@@ -39277,7 +39277,7 @@ internal class ArraySortHelper<TKey, TValue> // TypeDefIndex: 1447
 	private static ArraySortHelper<TKey, TValue> CreateArraySortHelper() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C58BE0 Offset: 0x1C571E0 VA: 0x181C58BE0
+	|-RVA: 0x1C58AE0 Offset: 0x1C570E0 VA: 0x181C58AE0
 	|-ArraySortHelper<object, object>.CreateArraySortHelper
 	|-ArraySortHelper<ulong, object>.CreateArraySortHelper
 	*/
@@ -39285,37 +39285,37 @@ internal class ArraySortHelper<TKey, TValue> // TypeDefIndex: 1447
 	public void Sort(TKey[] keys, TValue[] values, int index, int length, IComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C5A200 Offset: 0x1C58800 VA: 0x181C5A200
+	|-RVA: 0x1C5A100 Offset: 0x1C58700 VA: 0x181C5A100
 	|-ArraySortHelper<object, object>.Sort
 	|
-	|-RVA: 0x1C5A310 Offset: 0x1C58910 VA: 0x181C5A310
+	|-RVA: 0x1C5A210 Offset: 0x1C58810 VA: 0x181C5A210
 	|-ArraySortHelper<ulong, object>.Sort
 	*/
 
 	private static void SwapIfGreaterWithItems(TKey[] keys, TValue[] values, IComparer<TKey> comparer, int a, int b) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C5A420 Offset: 0x1C58A20 VA: 0x181C5A420
+	|-RVA: 0x1C5A320 Offset: 0x1C58920 VA: 0x181C5A320
 	|-ArraySortHelper<object, object>.SwapIfGreaterWithItems
 	|
-	|-RVA: 0x1C5A650 Offset: 0x1C58C50 VA: 0x181C5A650
+	|-RVA: 0x1C5A550 Offset: 0x1C58B50 VA: 0x181C5A550
 	|-ArraySortHelper<ulong, object>.SwapIfGreaterWithItems
 	*/
 
 	private static void Swap(TKey[] keys, TValue[] values, int i, int j) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C5A850 Offset: 0x1C58E50 VA: 0x181C5A850
+	|-RVA: 0x1C5A750 Offset: 0x1C58D50 VA: 0x181C5A750
 	|-ArraySortHelper<object, object>.Swap
 	|
-	|-RVA: 0x1C5A9B0 Offset: 0x1C58FB0 VA: 0x181C5A9B0
+	|-RVA: 0x1C5A8B0 Offset: 0x1C58EB0 VA: 0x181C5A8B0
 	|-ArraySortHelper<ulong, object>.Swap
 	*/
 
 	internal static void IntrospectiveSort(TKey[] keys, TValue[] values, int left, int length, IComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C59D20 Offset: 0x1C58320 VA: 0x181C59D20
+	|-RVA: 0x1C59C20 Offset: 0x1C58220 VA: 0x181C59C20
 	|-ArraySortHelper<object, object>.IntrospectiveSort
 	|-ArraySortHelper<ulong, object>.IntrospectiveSort
 	*/
@@ -39323,7 +39323,7 @@ internal class ArraySortHelper<TKey, TValue> // TypeDefIndex: 1447
 	private static void IntroSort(TKey[] keys, TValue[] values, int lo, int hi, int depthLimit, IComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C59970 Offset: 0x1C57F70 VA: 0x181C59970
+	|-RVA: 0x1C59870 Offset: 0x1C57E70 VA: 0x181C59870
 	|-ArraySortHelper<object, object>.IntroSort
 	|-ArraySortHelper<ulong, object>.IntroSort
 	*/
@@ -39331,7 +39331,7 @@ internal class ArraySortHelper<TKey, TValue> // TypeDefIndex: 1447
 	private static int PickPivotAndPartition(TKey[] keys, TValue[] values, int lo, int hi, IComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C59E10 Offset: 0x1C58410 VA: 0x181C59E10
+	|-RVA: 0x1C59D10 Offset: 0x1C58310 VA: 0x181C59D10
 	|-ArraySortHelper<object, object>.PickPivotAndPartition
 	|-ArraySortHelper<ulong, object>.PickPivotAndPartition
 	*/
@@ -39339,7 +39339,7 @@ internal class ArraySortHelper<TKey, TValue> // TypeDefIndex: 1447
 	private static void Heapsort(TKey[] keys, TValue[] values, int lo, int hi, IComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C59370 Offset: 0x1C57970 VA: 0x181C59370
+	|-RVA: 0x1C59270 Offset: 0x1C57870 VA: 0x181C59270
 	|-ArraySortHelper<object, object>.Heapsort
 	|-ArraySortHelper<ulong, object>.Heapsort
 	*/
@@ -39347,20 +39347,20 @@ internal class ArraySortHelper<TKey, TValue> // TypeDefIndex: 1447
 	private static void DownHeap(TKey[] keys, TValue[] values, int i, int n, int lo, IComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C59050 Offset: 0x1C57650 VA: 0x181C59050
+	|-RVA: 0x1C58F50 Offset: 0x1C57550 VA: 0x181C58F50
 	|-ArraySortHelper<object, object>.DownHeap
 	|
-	|-RVA: 0x1C58D20 Offset: 0x1C57320 VA: 0x181C58D20
+	|-RVA: 0x1C58C20 Offset: 0x1C57220 VA: 0x181C58C20
 	|-ArraySortHelper<ulong, object>.DownHeap
 	*/
 
 	private static void InsertionSort(TKey[] keys, TValue[] values, int lo, int hi, IComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1C59540 Offset: 0x1C57B40 VA: 0x181C59540
+	|-RVA: 0x1C59440 Offset: 0x1C57A40 VA: 0x181C59440
 	|-ArraySortHelper<object, object>.InsertionSort
 	|
-	|-RVA: 0x1C59750 Offset: 0x1C57D50 VA: 0x181C59750
+	|-RVA: 0x1C59650 Offset: 0x1C57C50 VA: 0x181C59650
 	|-ArraySortHelper<ulong, object>.InsertionSort
 	*/
 
@@ -39381,14 +39381,14 @@ internal sealed class ArrayTypeInfo<ElementType> : TraceLoggingTypeInfo<ElementT
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B4EAB0 Offset: 0x1B4D0B0 VA: 0x181B4EAB0
+	|-RVA: 0x1B4E9B0 Offset: 0x1B4CFB0 VA: 0x181B4E9B0
 	|-ArrayTypeInfo<object>.WriteMetadata
 	*/
 
 	public override void WriteData(TraceLoggingDataCollector collector, ref ElementType[] value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20C0EF0 Offset: 0x20BF4F0 VA: 0x1820C0EF0
+	|-RVA: 0x20C0DF0 Offset: 0x20BF3F0 VA: 0x1820C0DF0
 	|-ArrayTypeInfo<object>.WriteData
 	*/
 
@@ -39469,7 +39469,7 @@ public abstract class ArrayPool<T> // TypeDefIndex: 6267
 	public static ArrayPool<T> get_Shared() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A042A0 Offset: 0x1A028A0 VA: 0x181A042A0
+	|-RVA: 0x1A041A0 Offset: 0x1A027A0 VA: 0x181A041A0
 	|-ArrayPool<byte>.get_Shared
 	|-ArrayPool<object>.get_Shared
 	*/
@@ -39477,7 +39477,7 @@ public abstract class ArrayPool<T> // TypeDefIndex: 6267
 	private static ArrayPool<T> EnsureSharedCreated() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A041B0 Offset: 0x1A027B0 VA: 0x181A041B0
+	|-RVA: 0x1A040B0 Offset: 0x1A026B0 VA: 0x181A040B0
 	|-ArrayPool<byte>.EnsureSharedCreated
 	|-ArrayPool<object>.EnsureSharedCreated
 	*/
@@ -39485,7 +39485,7 @@ public abstract class ArrayPool<T> // TypeDefIndex: 6267
 	public static ArrayPool<T> Create() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A040F0 Offset: 0x1A026F0 VA: 0x181A040F0
+	|-RVA: 0x1A03FF0 Offset: 0x1A025F0 VA: 0x181A03FF0
 	|-ArrayPool<byte>.Create
 	|-ArrayPool<object>.Create
 	*/
@@ -39613,7 +39613,7 @@ public static class ArrayEx // TypeDefIndex: 11342
 	public static T[] New<T>(int length) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159D6E0 Offset: 0x159BCE0 VA: 0x18159D6E0
+	|-RVA: 0x159D5E0 Offset: 0x159BBE0 VA: 0x18159D5E0
 	|-ArrayEx.New<bool>
 	|-ArrayEx.New<object>
 	*/
@@ -39650,7 +39650,7 @@ public static class ArrayEx // TypeDefIndex: 11342
 	public static void Shuffle<T>(T[] array, uint seed) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1568B90 Offset: 0x1567190 VA: 0x181568B90
+	|-RVA: 0x1568A90 Offset: 0x1567090 VA: 0x181568A90
 	|-ArrayEx.Shuffle<object>
 	*/
 
@@ -39658,7 +39658,7 @@ public static class ArrayEx // TypeDefIndex: 11342
 	public static void Shuffle<T>(T[] array, ref uint seed) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1568BB0 Offset: 0x15671B0 VA: 0x181568BB0
+	|-RVA: 0x1568AB0 Offset: 0x15670B0 VA: 0x181568AB0
 	|-ArrayEx.Shuffle<PlaceMonumentsRailside.SpawnInfoGroup>
 	|-ArrayEx.Shuffle<PlaceMonumentsRoadside.SpawnInfoGroup>
 	|-ArrayEx.Shuffle<Prefab<DungeonBaseLink>>
@@ -39667,7 +39667,7 @@ public static class ArrayEx // TypeDefIndex: 11342
 	|-ArrayEx.Shuffle<Prefab<MonumentInfo>>
 	|-ArrayEx.Shuffle<object>
 	|
-	|-RVA: 0x1568AA0 Offset: 0x15670A0 VA: 0x181568AA0
+	|-RVA: 0x15689A0 Offset: 0x1566FA0 VA: 0x1815689A0
 	|-ArrayEx.Shuffle<Quaternion>
 	*/
 
@@ -39675,7 +39675,7 @@ public static class ArrayEx // TypeDefIndex: 11342
 	public static void BubbleSort<T>(T[] array) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1568960 Offset: 0x1566F60 VA: 0x181568960
+	|-RVA: 0x1568860 Offset: 0x1566E60 VA: 0x181568860
 	|-ArrayEx.BubbleSort<Prefab<MonumentInfo>>
 	|-ArrayEx.BubbleSort<object>
 	*/

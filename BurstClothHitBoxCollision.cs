@@ -40,7 +40,7 @@ public class BurstClothHitBoxCollision : BurstCloth, IClientComponent, IPrefabPr
 	|-RVA: 0x570F50 Offset: 0x56F550 VA: 0x180570F50
 	|-BurstClothHitBoxCollision.<GatherColliders>g__Swap|15_1<object>
 	|
-	|-RVA: 0x1570920 Offset: 0x156EF20 VA: 0x181570920
+	|-RVA: 0x1570820 Offset: 0x156EE20 VA: 0x181570820
 	|-BurstClothHitBoxCollision.<GatherColliders>g__Swap|15_1<ValueTuple<float, Vector3>>
 	*/
 

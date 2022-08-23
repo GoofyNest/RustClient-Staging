@@ -4,7 +4,7 @@ public static class ComponentEx // TypeDefIndex: 11698
 	public static T Instantiate<T>(T component) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159DCB0 Offset: 0x159C2B0 VA: 0x18159DCB0
+	|-RVA: 0x159DBB0 Offset: 0x159C1B0 VA: 0x18159DBB0
 	|-ComponentEx.Instantiate<object>
 	*/
 

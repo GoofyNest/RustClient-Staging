@@ -45,14 +45,14 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	internal static string GetReasonForGenericListNonBlittable<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xEDA500 Offset: 0xED8B00 VA: 0x180EDA500
+	|-RVA: 0xEDA400 Offset: 0xED8A00 VA: 0x180EDA400
 	|-UnsafeUtility.GetReasonForGenericListNonBlittable<FoliageGridMeshData.FoliageVertex>
 	*/
 
 	public static int AlignOf<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xEDA490 Offset: 0xED8A90 VA: 0x180EDA490
+	|-RVA: 0xEDA390 Offset: 0xED8990 VA: 0x180EDA390
 	|-UnsafeUtility.AlignOf<BoneData>
 	|-UnsafeUtility.AlignOf<BoneState>
 	|-UnsafeUtility.AlignOf<ColliderData>
@@ -90,49 +90,49 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	public static T ReadArrayElement<T>(void* source, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BAB50 Offset: 0x15B9150 VA: 0x1815BAB50
+	|-RVA: 0x15BAA50 Offset: 0x15B9050 VA: 0x1815BAA50
 	|-UnsafeUtility.ReadArrayElement<BoneData>
 	|
-	|-RVA: 0x15BABB0 Offset: 0x15B91B0 VA: 0x1815BABB0
+	|-RVA: 0x15BAAB0 Offset: 0x15B90B0 VA: 0x1815BAAB0
 	|-UnsafeUtility.ReadArrayElement<BoneState>
 	|
-	|-RVA: 0x15BABF0 Offset: 0x15B91F0 VA: 0x1815BABF0
+	|-RVA: 0x15BAAF0 Offset: 0x15B90F0 VA: 0x1815BAAF0
 	|-UnsafeUtility.ReadArrayElement<ColliderData>
 	|
-	|-RVA: 0x15BAC20 Offset: 0x15B9220 VA: 0x1815BAC20
+	|-RVA: 0x15BAB20 Offset: 0x15B9120 VA: 0x1815BAB20
 	|-UnsafeUtility.ReadArrayElement<ColliderState>
 	|
-	|-RVA: 0x15BABE0 Offset: 0x15B91E0 VA: 0x1815BABE0
+	|-RVA: 0x15BAAE0 Offset: 0x15B90E0 VA: 0x1815BAAE0
 	|-UnsafeUtility.ReadArrayElement<byte>
 	|
-	|-RVA: 0x15BAC40 Offset: 0x15B9240 VA: 0x1815BAC40
+	|-RVA: 0x15BAB40 Offset: 0x15B9140 VA: 0x1815BAB40
 	|-UnsafeUtility.ReadArrayElement<int>
 	|-UnsafeUtility.ReadArrayElement<uint>
 	|-UnsafeUtility.ReadArrayElement<half2>
 	|-UnsafeUtility.ReadArrayElement<Color32>
 	|
-	|-RVA: 0x15BAD30 Offset: 0x15B9330 VA: 0x1815BAD30
+	|-RVA: 0x15BAC30 Offset: 0x15B9230 VA: 0x1815BAC30
 	|-UnsafeUtility.ReadArrayElement<object>
 	|
-	|-RVA: 0x15BAD40 Offset: 0x15B9340 VA: 0x1815BAD40
+	|-RVA: 0x15BAC40 Offset: 0x15B9240 VA: 0x1815BAC40
 	|-UnsafeUtility.ReadArrayElement<float>
 	|
-	|-RVA: 0x15BAC50 Offset: 0x15B9250 VA: 0x1815BAC50
+	|-RVA: 0x15BAB50 Offset: 0x15B9150 VA: 0x1815BAB50
 	|-UnsafeUtility.ReadArrayElement<JobHandle>
 	|-UnsafeUtility.ReadArrayElement<Plane>
 	|-UnsafeUtility.ReadArrayElement<Vector4>
 	|
-	|-RVA: 0x15BAB30 Offset: 0x15B9130 VA: 0x1815BAB30
+	|-RVA: 0x15BAA30 Offset: 0x15B9030 VA: 0x1815BAA30
 	|-UnsafeUtility.ReadArrayElement<float3>
 	|-UnsafeUtility.ReadArrayElement<BatchVisibility>
 	|
-	|-RVA: 0x15BAC70 Offset: 0x15B9270 VA: 0x1815BAC70
+	|-RVA: 0x15BAB70 Offset: 0x15B9170 VA: 0x1815BAB70
 	|-UnsafeUtility.ReadArrayElement<LightDataGI>
 	|
-	|-RVA: 0x15BACC0 Offset: 0x15B92C0 VA: 0x1815BACC0
+	|-RVA: 0x15BABC0 Offset: 0x15B91C0 VA: 0x1815BABC0
 	|-UnsafeUtility.ReadArrayElement<RaycastCommand>
 	|
-	|-RVA: 0x15BACF0 Offset: 0x15B92F0 VA: 0x1815BACF0
+	|-RVA: 0x15BABF0 Offset: 0x15B91F0 VA: 0x1815BABF0
 	|-UnsafeUtility.ReadArrayElement<RaycastHit>
 	*/
 
@@ -201,42 +201,42 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	public static int SizeOf<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xEDA620 Offset: 0xED8C20 VA: 0x180EDA620
+	|-RVA: 0xEDA520 Offset: 0xED8B20 VA: 0x180EDA520
 	|-UnsafeUtility.SizeOf<BoneData>
 	|
-	|-RVA: 0xEDA610 Offset: 0xED8C10 VA: 0x180EDA610
+	|-RVA: 0xEDA510 Offset: 0xED8B10 VA: 0x180EDA510
 	|-UnsafeUtility.SizeOf<BoneState>
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<RaycastCommand>>
 	|
-	|-RVA: 0xEDA5B0 Offset: 0xED8BB0 VA: 0x180EDA5B0
+	|-RVA: 0xEDA4B0 Offset: 0xED8AB0 VA: 0x180EDA4B0
 	|-UnsafeUtility.SizeOf<ColliderData>
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<ColliderState>>
 	|
-	|-RVA: 0xEDA5D0 Offset: 0xED8BD0 VA: 0x180EDA5D0
+	|-RVA: 0xEDA4D0 Offset: 0xED8AD0 VA: 0x180EDA4D0
 	|-UnsafeUtility.SizeOf<ColliderState>
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<JobHandle>>
 	|
-	|-RVA: 0xEDA630 Offset: 0xED8C30 VA: 0x180EDA630
+	|-RVA: 0xEDA530 Offset: 0xED8B30 VA: 0x180EDA530
 	|-UnsafeUtility.SizeOf<FoliageGridMeshData.FoliageVertex>
 	|
 	|-RVA: 0x5B1940 Offset: 0x5AFF40 VA: 0x1805B1940
 	|-UnsafeUtility.SizeOf<byte>
 	|
-	|-RVA: 0xE38D00 Offset: 0xE37300 VA: 0x180E38D00
+	|-RVA: 0xE38C00 Offset: 0xE37200 VA: 0x180E38C00
 	|-UnsafeUtility.SizeOf<int>
 	|-UnsafeUtility.SizeOf<float>
 	|-UnsafeUtility.SizeOf<uint>
 	|-UnsafeUtility.SizeOf<half2>
 	|-UnsafeUtility.SizeOf<Color32>
 	|
-	|-RVA: 0xEDA600 Offset: 0xED8C00 VA: 0x180EDA600
+	|-RVA: 0xEDA500 Offset: 0xED8B00 VA: 0x180EDA500
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<BoneData>>
 	|
-	|-RVA: 0xEDA5A0 Offset: 0xED8BA0 VA: 0x180EDA5A0
+	|-RVA: 0xEDA4A0 Offset: 0xED8AA0 VA: 0x180EDA4A0
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<BoneState>>
 	|-UnsafeUtility.SizeOf<RaycastHit>
 	|
-	|-RVA: 0xEDA5C0 Offset: 0xED8BC0 VA: 0x180EDA5C0
+	|-RVA: 0xEDA4C0 Offset: 0xED8AC0 VA: 0x180EDA4C0
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<ColliderData>>
 	|
 	|-RVA: 0x514710 Offset: 0x512D10 VA: 0x180514710
@@ -248,7 +248,7 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<uint>>
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<Color32>>
 	|
-	|-RVA: 0xEDA5E0 Offset: 0xED8BE0 VA: 0x180EDA5E0
+	|-RVA: 0xEDA4E0 Offset: 0xED8AE0 VA: 0x180EDA4E0
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<float3>>
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<BatchVisibility>>
 	|-UnsafeUtility.SizeOf<JobHandle>
@@ -258,10 +258,10 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-RVA: 0x920330 Offset: 0x91E930 VA: 0x180920330
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<half2>>
 	|
-	|-RVA: 0xEDA5F0 Offset: 0xED8BF0 VA: 0x180EDA5F0
+	|-RVA: 0xEDA4F0 Offset: 0xED8AF0 VA: 0x180EDA4F0
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<LightDataGI>>
 	|
-	|-RVA: 0xEDA590 Offset: 0xED8B90 VA: 0x180EDA590
+	|-RVA: 0xEDA490 Offset: 0xED8A90 VA: 0x180EDA490
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<Plane>>
 	|-UnsafeUtility.SizeOf<UnsafeUtility.AlignOfHelper<Vector4>>
 	|
@@ -272,17 +272,17 @@ public static class UnsafeUtility // TypeDefIndex: 3340
 	|-UnsafeUtility.SizeOf<float3>
 	|-UnsafeUtility.SizeOf<BatchVisibility>
 	|
-	|-RVA: 0xEDA640 Offset: 0xED8C40 VA: 0x180EDA640
+	|-RVA: 0xEDA540 Offset: 0xED8B40 VA: 0x180EDA540
 	|-UnsafeUtility.SizeOf<LightDataGI>
 	|
-	|-RVA: 0xEDA650 Offset: 0xED8C50 VA: 0x180EDA650
+	|-RVA: 0xEDA550 Offset: 0xED8B50 VA: 0x180EDA550
 	|-UnsafeUtility.SizeOf<RaycastCommand>
 	*/
 
 	public static int EnumToInt<T>(T enumValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xEDA4D0 Offset: 0xED8AD0 VA: 0x180EDA4D0
+	|-RVA: 0xEDA3D0 Offset: 0xED89D0 VA: 0x180EDA3D0
 	|-UnsafeUtility.EnumToInt<Int32Enum>
 	*/
 

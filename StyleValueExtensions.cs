@@ -4,7 +4,7 @@ internal static class StyleValueExtensions // TypeDefIndex: 4718
 	internal static StyleEnum<T> ToStyleEnum<T>(StyleInt styleInt, T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B470 Offset: 0x1A39A70 VA: 0x181A3B470
+	|-RVA: 0x1A3B370 Offset: 0x1A39970 VA: 0x181A3B370
 	|-StyleValueExtensions.ToStyleEnum<Int32Enum>
 	|-StyleValueExtensions.ToStyleEnum<DisplayStyle>
 	|-StyleValueExtensions.ToStyleEnum<Overflow>
@@ -21,23 +21,23 @@ internal static class StyleValueExtensions // TypeDefIndex: 4718
 	internal static string DebugString<T>(IStyleValue<T> styleValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED98A0 Offset: 0xED7EA0 VA: 0x180ED98A0
+	|-RVA: 0xED97A0 Offset: 0xED7DA0 VA: 0x180ED97A0
 	|-StyleValueExtensions.DebugString<int>
 	|
-	|-RVA: 0xED9790 Offset: 0xED7D90 VA: 0x180ED9790
+	|-RVA: 0xED9690 Offset: 0xED7C90 VA: 0x180ED9690
 	|-StyleValueExtensions.DebugString<Int32Enum>
 	|
-	|-RVA: 0xED9B20 Offset: 0xED8120 VA: 0x180ED9B20
+	|-RVA: 0xED9A20 Offset: 0xED8020 VA: 0x180ED9A20
 	|-StyleValueExtensions.DebugString<object>
 	|-StyleValueExtensions.DebugString<Font>
 	|
-	|-RVA: 0xED9C10 Offset: 0xED8210 VA: 0x180ED9C10
+	|-RVA: 0xED9B10 Offset: 0xED8110 VA: 0x180ED9B10
 	|-StyleValueExtensions.DebugString<float>
 	|
-	|-RVA: 0xED9620 Offset: 0xED7C20 VA: 0x180ED9620
+	|-RVA: 0xED9520 Offset: 0xED7B20 VA: 0x180ED9520
 	|-StyleValueExtensions.DebugString<Color>
 	|
-	|-RVA: 0xED99B0 Offset: 0xED7FB0 VA: 0x180ED99B0
+	|-RVA: 0xED98B0 Offset: 0xED7EB0 VA: 0x180ED98B0
 	|-StyleValueExtensions.DebugString<Length>
 	*/
 

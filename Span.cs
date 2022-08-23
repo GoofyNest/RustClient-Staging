@@ -58,10 +58,10 @@ public struct Span<T> // TypeDefIndex: 120
 	public static Span<T> op_Implicit(T[] array) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1367A10 Offset: 0x1366010 VA: 0x181367A10
+	|-RVA: 0x1367910 Offset: 0x1365F10 VA: 0x181367910
 	|-Span<byte>.op_Implicit
 	|
-	|-RVA: 0x1367CE0 Offset: 0x13662E0 VA: 0x181367CE0
+	|-RVA: 0x1367BE0 Offset: 0x13661E0 VA: 0x181367BE0
 	|-Span<object>.op_Implicit
 	*/
 
@@ -94,7 +94,7 @@ public static class SpanHelpers.PerTypeValues<T> // TypeDefIndex: 123
 	private static IntPtr MeasureArrayAdjustment() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1364FA0 Offset: 0x13635A0 VA: 0x181364FA0
+	|-RVA: 0x1364EA0 Offset: 0x13634A0 VA: 0x181364EA0
 	|-SpanHelpers.PerTypeValues<byte>.MeasureArrayAdjustment
 	|-SpanHelpers.PerTypeValues<char>.MeasureArrayAdjustment
 	|-SpanHelpers.PerTypeValues<object>.MeasureArrayAdjustment
@@ -103,13 +103,13 @@ public static class SpanHelpers.PerTypeValues<T> // TypeDefIndex: 123
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x13652B0 Offset: 0x13638B0 VA: 0x1813652B0
+	|-RVA: 0x13651B0 Offset: 0x13637B0 VA: 0x1813651B0
 	|-SpanHelpers.PerTypeValues<byte>..cctor
 	|
-	|-RVA: 0x13650D0 Offset: 0x13636D0 VA: 0x1813650D0
+	|-RVA: 0x1364FD0 Offset: 0x13635D0 VA: 0x181364FD0
 	|-SpanHelpers.PerTypeValues<char>..cctor
 	|
-	|-RVA: 0x1365A30 Offset: 0x1364030 VA: 0x181365A30
+	|-RVA: 0x1365930 Offset: 0x1363F30 VA: 0x181365930
 	|-SpanHelpers.PerTypeValues<object>..cctor
 	*/
 
@@ -123,49 +123,49 @@ public class SpanningTree<T> // TypeDefIndex: 4813
 	public int AddNode() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD63BE0 Offset: 0xD621E0 VA: 0x180D63BE0
+	|-RVA: 0xD63AE0 Offset: 0xD620E0 VA: 0x180D63AE0
 	|-SpanningTree<object>.AddNode
 	*/
 
 	public void AddEdge(int a_idx, int b_idx, int cost, T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD63AC0 Offset: 0xD620C0 VA: 0x180D63AC0
+	|-RVA: 0xD639C0 Offset: 0xD61FC0 VA: 0x180D639C0
 	|-SpanningTree<object>.AddEdge
 	*/
 
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD64360 Offset: 0xD62960 VA: 0x180D64360
+	|-RVA: 0xD64260 Offset: 0xD62860 VA: 0x180D64260
 	|-SpanningTree<object>.Clear
 	*/
 
 	public void Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD645D0 Offset: 0xD62BD0 VA: 0x180D645D0
+	|-RVA: 0xD644D0 Offset: 0xD62AD0 VA: 0x180D644D0
 	|-SpanningTree<object>.Reset
 	*/
 
 	public void CalculateMin() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD63CA0 Offset: 0xD622A0 VA: 0x180D63CA0
+	|-RVA: 0xD63BA0 Offset: 0xD621A0 VA: 0x180D63BA0
 	|-SpanningTree<object>.CalculateMin
 	*/
 
 	public void ForEach(Action<T> action) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD643C0 Offset: 0xD629C0 VA: 0x180D643C0
+	|-RVA: 0xD642C0 Offset: 0xD628C0 VA: 0x180D642C0
 	|-SpanningTree<object>.ForEach
 	*/
 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD647F0 Offset: 0xD62DF0 VA: 0x180D647F0
+	|-RVA: 0xD646F0 Offset: 0xD62CF0 VA: 0x180D646F0
 	|-SpanningTree<object>..ctor
 	*/
 
@@ -292,26 +292,26 @@ public struct Span<T> // TypeDefIndex: 6729
 	public static Span<T> op_Implicit(T[] array) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x13679B0 Offset: 0x1365FB0 VA: 0x1813679B0
+	|-RVA: 0x13678B0 Offset: 0x1365EB0 VA: 0x1813678B0
 	|-Span<byte>.op_Implicit
 	|
-	|-RVA: 0x1367A70 Offset: 0x1366070 VA: 0x181367A70
+	|-RVA: 0x1367970 Offset: 0x1365F70 VA: 0x181367970
 	|-Span<short>.op_Implicit
 	|
-	|-RVA: 0x1367D40 Offset: 0x1366340 VA: 0x181367D40
+	|-RVA: 0x1367C40 Offset: 0x1366240 VA: 0x181367C40
 	|-Span<object>.op_Implicit
 	*/
 
 	public static Span<T> op_Implicit(ArraySegment<T> segment) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1367C30 Offset: 0x1366230 VA: 0x181367C30
+	|-RVA: 0x1367B30 Offset: 0x1366130 VA: 0x181367B30
 	|-Span<byte>.op_Implicit
 	|
-	|-RVA: 0x1367AD0 Offset: 0x13660D0 VA: 0x181367AD0
+	|-RVA: 0x13679D0 Offset: 0x1365FD0 VA: 0x1813679D0
 	|-Span<short>.op_Implicit
 	|
-	|-RVA: 0x1367B80 Offset: 0x1366180 VA: 0x181367B80
+	|-RVA: 0x1367A80 Offset: 0x1366080 VA: 0x181367A80
 	|-Span<object>.op_Implicit
 	*/
 
@@ -451,13 +451,13 @@ internal static class SpanHelpers // TypeDefIndex: 6731
 	public static void CopyTo<T>(ref T dst, int dstLength, ref T src, int srcLength) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF09810 Offset: 0xF07E10 VA: 0x180F09810
+	|-RVA: 0xF09710 Offset: 0xF07D10 VA: 0x180F09710
 	|-SpanHelpers.CopyTo<byte>
 	|
-	|-RVA: 0xF09D60 Offset: 0xF08360 VA: 0x180F09D60
+	|-RVA: 0xF09C60 Offset: 0xF08260 VA: 0x180F09C60
 	|-SpanHelpers.CopyTo<short>
 	|
-	|-RVA: 0xF0A2C0 Offset: 0xF088C0 VA: 0x180F0A2C0
+	|-RVA: 0xF0A1C0 Offset: 0xF087C0 VA: 0x180F0A1C0
 	|-SpanHelpers.CopyTo<object>
 	*/
 
@@ -465,7 +465,7 @@ internal static class SpanHelpers // TypeDefIndex: 6731
 	public static IntPtr Add<T>(IntPtr start, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED9260 Offset: 0xED7860 VA: 0x180ED9260
+	|-RVA: 0xED9160 Offset: 0xED7760 VA: 0x180ED9160
 	|-SpanHelpers.Add<byte>
 	|-SpanHelpers.Add<short>
 	|-SpanHelpers.Add<object>
@@ -493,7 +493,7 @@ public static class SpanHelpers.PerTypeValues<T> // TypeDefIndex: 6732
 	private static IntPtr MeasureArrayAdjustment() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1364FA0 Offset: 0x13635A0 VA: 0x181364FA0
+	|-RVA: 0x1364EA0 Offset: 0x13634A0 VA: 0x181364EA0
 	|-SpanHelpers.PerTypeValues<byte>.MeasureArrayAdjustment
 	|-SpanHelpers.PerTypeValues<short>.MeasureArrayAdjustment
 	|-SpanHelpers.PerTypeValues<object>.MeasureArrayAdjustment
@@ -502,13 +502,13 @@ public static class SpanHelpers.PerTypeValues<T> // TypeDefIndex: 6732
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1365670 Offset: 0x1363C70 VA: 0x181365670
+	|-RVA: 0x1365570 Offset: 0x1363B70 VA: 0x181365570
 	|-SpanHelpers.PerTypeValues<byte>..cctor
 	|
-	|-RVA: 0x1365490 Offset: 0x1363A90 VA: 0x181365490
+	|-RVA: 0x1365390 Offset: 0x1363990 VA: 0x181365390
 	|-SpanHelpers.PerTypeValues<short>..cctor
 	|
-	|-RVA: 0x1365850 Offset: 0x1363E50 VA: 0x181365850
+	|-RVA: 0x1365750 Offset: 0x1363D50 VA: 0x181365750
 	|-SpanHelpers.PerTypeValues<object>..cctor
 	*/
 
