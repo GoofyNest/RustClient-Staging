@@ -19,7 +19,6 @@ public class ViewmodelScope : MonoBehaviour // TypeDefIndex: 8894
 	public void ShowVMParts<T>(Transform root, bool shouldShow) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D8E50 Offset: 0x5D7450 VA: 0x1805D8E50
 	|-ViewmodelScope.ShowVMParts<object>
 	|-ViewmodelScope.ShowVMParts<MeshRenderer>
 	|-ViewmodelScope.ShowVMParts<SkinnedMeshRenderer>

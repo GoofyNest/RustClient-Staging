@@ -31,7 +31,6 @@ public class DownloadHandler : IDisposable // TypeDefIndex: 4132
 	protected static T GetCheckedDownloader<T>(UnityWebRequest www) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159E050 Offset: 0x159C650 VA: 0x18159E050
 	|-DownloadHandler.GetCheckedDownloader<DownloadHandlerTexture>
 	|-DownloadHandler.GetCheckedDownloader<object>
 	*/

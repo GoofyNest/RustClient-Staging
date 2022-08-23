@@ -37,10 +37,8 @@ public class BurstClothHitBoxCollision : BurstCloth, IClientComponent, IPrefabPr
 	internal static void <GatherColliders>g__Swap|15_1<T>(ref T a, ref T b) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x570F50 Offset: 0x56F550 VA: 0x180570F50
 	|-BurstClothHitBoxCollision.<GatherColliders>g__Swap|15_1<object>
 	|
-	|-RVA: 0x1570820 Offset: 0x156EE20 VA: 0x181570820
 	|-BurstClothHitBoxCollision.<GatherColliders>g__Swap|15_1<ValueTuple<float, Vector3>>
 	*/
 

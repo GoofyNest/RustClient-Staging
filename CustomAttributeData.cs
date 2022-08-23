@@ -43,13 +43,10 @@ public class CustomAttributeData // TypeDefIndex: 560
 	private static T[] UnboxValues<T>(object[] values) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A371C0 Offset: 0x1A357C0 VA: 0x181A371C0
 	|-CustomAttributeData.UnboxValues<object>
 	|
-	|-RVA: 0x1A36F60 Offset: 0x1A35560 VA: 0x181A36F60
 	|-CustomAttributeData.UnboxValues<CustomAttributeNamedArgument>
 	|
-	|-RVA: 0x1A370A0 Offset: 0x1A356A0 VA: 0x181A370A0
 	|-CustomAttributeData.UnboxValues<CustomAttributeTypedArgument>
 	*/
 

@@ -266,17 +266,14 @@ public static class LZ4Codec // TypeDefIndex: 6989
 	private static T Try<T>(Func<T> method, T defaultValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D12E0 Offset: 0x5CF8E0 VA: 0x1805D12E0
 	|-LZ4Codec.Try<bool>
 	|
-	|-RVA: 0x5D1360 Offset: 0x5CF960 VA: 0x1805D1360
 	|-LZ4Codec.Try<object>
 	*/
 
 	private static ILZ4Service TryService<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125DC70 Offset: 0x125C270 VA: 0x18125DC70
 	|-LZ4Codec.TryService<Safe32LZ4Service>
 	|-LZ4Codec.TryService<Safe64LZ4Service>
 	|-LZ4Codec.TryService<Unsafe32LZ4Service>

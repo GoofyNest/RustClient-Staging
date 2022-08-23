@@ -39,7 +39,6 @@ private struct MapImageRenderer.Array2D<T> // TypeDefIndex: 10746
 	public void .ctor(T[] items, int width, int height) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF9120 Offset: 0xF8520 VA: 0x1800F9120
 	|-MapImageRenderer.Array2D<object>..ctor
 	|-MapImageRenderer.Array2D<Color>..ctor
 	*/
@@ -47,10 +46,8 @@ private struct MapImageRenderer.Array2D<T> // TypeDefIndex: 10746
 	public ref T get_Item(int x, int y) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1F6140 Offset: 0x1F5540 VA: 0x1801F6140
 	|-MapImageRenderer.Array2D<object>.get_Item
 	|
-	|-RVA: 0x1F6070 Offset: 0x1F5470 VA: 0x1801F6070
 	|-MapImageRenderer.Array2D<Color>.get_Item
 	*/
 

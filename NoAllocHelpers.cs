@@ -3,14 +3,12 @@ internal sealed class NoAllocHelpers // TypeDefIndex: 3519
 	public static void ResizeList<T>(List<T> list, int size) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D2DC0 Offset: 0x5D13C0 VA: 0x1805D2DC0
 	|-NoAllocHelpers.ResizeList<object>
 	*/
 
 	public static void EnsureListElemCount<T>(List<T> list, int count) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D2D40 Offset: 0x5D1340 VA: 0x1805D2D40
 	|-NoAllocHelpers.EnsureListElemCount<object>
 	|-NoAllocHelpers.EnsureListElemCount<Material>
 	*/
@@ -20,7 +18,6 @@ internal sealed class NoAllocHelpers // TypeDefIndex: 3519
 	public static int SafeLength<T>(List<T> values) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED75C0 Offset: 0xED5BC0 VA: 0x180ED75C0
 	|-NoAllocHelpers.SafeLength<int>
 	|-NoAllocHelpers.SafeLength<object>
 	|-NoAllocHelpers.SafeLength<Color32>
@@ -33,7 +30,6 @@ internal sealed class NoAllocHelpers // TypeDefIndex: 3519
 	public static T[] ExtractArrayFromListT<T>(List<T> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3AF90 Offset: 0x1A39590 VA: 0x181A3AF90
 	|-NoAllocHelpers.ExtractArrayFromListT<object>
 	|-NoAllocHelpers.ExtractArrayFromListT<Material>
 	*/

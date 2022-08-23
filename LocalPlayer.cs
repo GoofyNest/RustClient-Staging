@@ -68,10 +68,8 @@ public static class LocalPlayer // TypeDefIndex: 9665
 	public static void ItemCommandEx<T1>(uint itemid, string command, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1573F90 Offset: 0x1572590 VA: 0x181573F90
 	|-LocalPlayer.ItemCommandEx<int>
 	|
-	|-RVA: 0x1574140 Offset: 0x1572740 VA: 0x181574140
 	|-LocalPlayer.ItemCommandEx<object>
 	*/
 

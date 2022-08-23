@@ -3,7 +3,6 @@ internal static class CollectionParser // TypeDefIndex: 5762
 	public static bool TryParse<T>(string input, int minimalCount, ElementTryParser<T> parser, out List<T> result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBEEF10 Offset: 0xBED510 VA: 0x180BEEF10
 	|-CollectionParser.TryParse<AuthenticationHeaderValue>
 	|-CollectionParser.TryParse<EntityTagHeaderValue>
 	|-CollectionParser.TryParse<MediaTypeWithQualityHeaderValue>

@@ -443,21 +443,18 @@ public class AIInformationCellContents<T> // TypeDefIndex: 8907
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5B1E0 Offset: 0xD597E0 VA: 0x180D5B1E0
 	|-AIInformationCellContents<object>.get_Count
 	*/
 
 	public bool get_Empty() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1885360 Offset: 0x1883960 VA: 0x181885360
 	|-AIInformationCellContents<object>.get_Empty
 	*/
 
 	public void Init(Bounds cellBounds, GameObject root) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1885160 Offset: 0x1883760 VA: 0x181885160
 	|-AIInformationCellContents<AICoverPoint>.Init
 	|-AIInformationCellContents<AIMovePoint>.Init
 	|-AIInformationCellContents<object>.Init
@@ -466,28 +463,24 @@ public class AIInformationCellContents<T> // TypeDefIndex: 8907
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1885130 Offset: 0x1883730 VA: 0x181885130
 	|-AIInformationCellContents<object>.Clear
 	*/
 
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1761E90 Offset: 0x1760490 VA: 0x181761E90
 	|-AIInformationCellContents<object>.Add
 	*/
 
 	public void Remove(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x18852B0 Offset: 0x18838B0 VA: 0x1818852B0
 	|-AIInformationCellContents<object>.Remove
 	*/
 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x18852E0 Offset: 0x18838E0 VA: 0x1818852E0
 	|-AIInformationCellContents<AICoverPoint>..ctor
 	|-AIInformationCellContents<AIMovePoint>..ctor
 	|-AIInformationCellContents<object>..ctor
@@ -1119,7 +1112,6 @@ public class AIMemoryBank<T> // TypeDefIndex: 9388
 	public void .ctor(MemoryBankType type, int slots) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1885820 Offset: 0x1883E20 VA: 0x181885820
 	|-AIMemoryBank<AIPoint>..ctor
 	|-AIMemoryBank<BaseEntity>..ctor
 	|-AIMemoryBank<object>..ctor
@@ -1129,39 +1121,32 @@ public class AIMemoryBank<T> // TypeDefIndex: 9388
 	public void Init(MemoryBankType type, int slots) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x18854D0 Offset: 0x1883AD0 VA: 0x1818854D0
 	|-AIMemoryBank<object>.Init
 	|
-	|-RVA: 0x1885580 Offset: 0x1883B80 VA: 0x181885580
 	|-AIMemoryBank<Vector3>.Init
 	*/
 
 	public void Set(T item, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x18856F0 Offset: 0x1883CF0 VA: 0x1818856F0
 	|-AIMemoryBank<BaseEntity>.Set
 	|-AIMemoryBank<object>.Set
 	|
-	|-RVA: 0x1885780 Offset: 0x1883D80 VA: 0x181885780
 	|-AIMemoryBank<Vector3>.Set
 	*/
 
 	public T Get(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1885400 Offset: 0x1883A00 VA: 0x181885400
 	|-AIMemoryBank<BaseEntity>.Get
 	|-AIMemoryBank<object>.Get
 	|
-	|-RVA: 0x1885450 Offset: 0x1883A50 VA: 0x181885450
 	|-AIMemoryBank<Vector3>.Get
 	*/
 
 	public float GetTimeSinceSet(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1885390 Offset: 0x1883990 VA: 0x181885390
 	|-AIMemoryBank<object>.GetTimeSinceSet
 	|-AIMemoryBank<Vector3>.GetTimeSinceSet
 	*/
@@ -1169,10 +1154,8 @@ public class AIMemoryBank<T> // TypeDefIndex: 9388
 	public void Remove(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1885630 Offset: 0x1883C30 VA: 0x181885630
 	|-AIMemoryBank<object>.Remove
 	|
-	|-RVA: 0x1885690 Offset: 0x1883C90 VA: 0x181885690
 	|-AIMemoryBank<Vector3>.Remove
 	*/
 

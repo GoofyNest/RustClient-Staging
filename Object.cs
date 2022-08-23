@@ -69,7 +69,6 @@ public class Object // TypeDefIndex: 3535
 	public static T Instantiate<T>(T original) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B8F50 Offset: 0x15B7550 VA: 0x1815B8F50
 	|-Object.Instantiate<ERMarkerExt>
 	|-Object.Instantiate<ERSOMarkerExt>
 	|-Object.Instantiate<ERSORoadExt>
@@ -92,7 +91,6 @@ public class Object // TypeDefIndex: 3535
 	public static T Instantiate<T>(T original, Vector3 position, Quaternion rotation) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9290 Offset: 0x15B7890 VA: 0x1815B9290
 	|-Object.Instantiate<ArcadeEntity>
 	|-Object.Instantiate<ArcadeEntityController>
 	|-Object.Instantiate<BaseArcadeGame>
@@ -103,7 +101,6 @@ public class Object // TypeDefIndex: 3535
 	public static T Instantiate<T>(T original, Vector3 position, Quaternion rotation, Transform parent) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B91A0 Offset: 0x15B77A0 VA: 0x1815B91A0
 	|-Object.Instantiate<GameObject>
 	|-Object.Instantiate<object>
 	*/
@@ -111,7 +108,6 @@ public class Object // TypeDefIndex: 3535
 	public static T Instantiate<T>(T original, Transform parent) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9060 Offset: 0x15B7660 VA: 0x1815B9060
 	|-Object.Instantiate<ContactsEntry>
 	|-Object.Instantiate<HttpImage>
 	|-Object.Instantiate<RustText>
@@ -126,7 +122,6 @@ public class Object // TypeDefIndex: 3535
 	public static T Instantiate<T>(T original, Transform parent, bool worldPositionStays) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B90E0 Offset: 0x15B76E0 VA: 0x1815B90E0
 	|-Object.Instantiate<object>
 	*/
 
@@ -156,7 +151,6 @@ public class Object // TypeDefIndex: 3535
 	public static T[] FindObjectsOfType<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3AFF0 Offset: 0x1A395F0 VA: 0x181A3AFF0
 	|-Object.FindObjectsOfType<BaseEntity>
 	|-Object.FindObjectsOfType<BenchmarkScene>
 	|-Object.FindObjectsOfType<BlendedLoopEngineSound>
@@ -186,7 +180,6 @@ public class Object // TypeDefIndex: 3535
 	public static T FindObjectOfType<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B8E70 Offset: 0x15B7470 VA: 0x1815B8E70
 	|-Object.FindObjectOfType<Client>
 	|-Object.FindObjectOfType<CursorManager>
 	|-Object.FindObjectOfType<MainCamera>

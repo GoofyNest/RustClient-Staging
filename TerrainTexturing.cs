@@ -143,7 +143,6 @@ public class TerrainTexturing : TerrainExtension // TypeDefIndex: 10432
 	private void SafeDestroy<T>(ref T mat) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D43E0 Offset: 0x5D29E0 VA: 0x1805D43E0
 	|-TerrainTexturing.SafeDestroy<object>
 	|-TerrainTexturing.SafeDestroy<Material>
 	|-TerrainTexturing.SafeDestroy<Texture2D>
@@ -152,7 +151,6 @@ public class TerrainTexturing : TerrainExtension // TypeDefIndex: 10432
 	private void SafeDispose<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D4480 Offset: 0x5D2A80 VA: 0x1805D4480
 	|-TerrainTexturing.SafeDispose<object>
 	*/
 

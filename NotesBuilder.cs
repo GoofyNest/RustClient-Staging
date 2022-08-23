@@ -53,7 +53,6 @@ private abstract class NotesBuilder.NoteOnsHolderBase<TDescriptor> // TypeDefInd
 	public void .ctor(NoteStartDetectionPolicy noteStartDetectionPolicy) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x164E640 Offset: 0x164CC40 VA: 0x18164E640
 	|-NotesBuilder.NoteOnsHolderBase<NotesBuilder.NoteDescriptor>..ctor
 	|-NotesBuilder.NoteOnsHolderBase<object>..ctor
 	*/
@@ -61,7 +60,6 @@ private abstract class NotesBuilder.NoteOnsHolderBase<TDescriptor> // TypeDefInd
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x164E740 Offset: 0x164CD40 VA: 0x18164E740
 	|-NotesBuilder.NoteOnsHolderBase<NotesBuilder.NoteDescriptor>.get_Count
 	|-NotesBuilder.NoteOnsHolderBase<object>.get_Count
 	*/
@@ -69,7 +67,6 @@ private abstract class NotesBuilder.NoteOnsHolderBase<TDescriptor> // TypeDefInd
 	public void Add(LinkedListNode<TDescriptor> noteOnNode) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x164E560 Offset: 0x164CB60 VA: 0x18164E560
 	|-NotesBuilder.NoteOnsHolderBase<NotesBuilder.NoteDescriptor>.Add
 	|-NotesBuilder.NoteOnsHolderBase<object>.Add
 	*/
@@ -77,7 +74,6 @@ private abstract class NotesBuilder.NoteOnsHolderBase<TDescriptor> // TypeDefInd
 	public LinkedListNode<TDescriptor> GetNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x164E5D0 Offset: 0x164CBD0 VA: 0x18164E5D0
 	|-NotesBuilder.NoteOnsHolderBase<NotesBuilder.NoteDescriptor>.GetNext
 	|-NotesBuilder.NoteOnsHolderBase<object>.GetNext
 	*/

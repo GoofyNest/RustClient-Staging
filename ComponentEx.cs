@@ -4,7 +4,6 @@ public static class ComponentEx // TypeDefIndex: 11698
 	public static T Instantiate<T>(T component) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159DBB0 Offset: 0x159C1B0 VA: 0x18159DBB0
 	|-ComponentEx.Instantiate<object>
 	*/
 
@@ -12,7 +11,6 @@ public static class ComponentEx // TypeDefIndex: 11698
 	public static bool HasComponent<T>(Component component) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBEF0E0 Offset: 0xBED6E0 VA: 0x180BEF0E0
 	|-ComponentEx.HasComponent<IndependentScale>
 	|-ComponentEx.HasComponent<object>
 	*/

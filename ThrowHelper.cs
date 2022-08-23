@@ -37,7 +37,6 @@ internal static class ThrowHelper // TypeDefIndex: 124
 	internal static void IfNullAndNullsAreIllegalThenThrow<T>(object value, ExceptionArgument argName) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D44D0 Offset: 0x5D2AD0 VA: 0x1805D44D0
 	|-ThrowHelper.IfNullAndNullsAreIllegalThenThrow<AdvancedChristmasLights.pointEntry>
 	|-ThrowHelper.IfNullAndNullsAreIllegalThenThrow<AlignedLineDrawer.LinePoint>
 	|-ThrowHelper.IfNullAndNullsAreIllegalThenThrow<AtmosphereVolumeRenderer.CurrentVolumeEntry>
@@ -200,7 +199,6 @@ internal static class ThrowHelper // TypeDefIndex: 124
 	|-ThrowHelper.IfNullAndNullsAreIllegalThenThrow<WindZoneExManager.CurrentZoneEntry>
 	|-ThrowHelper.IfNullAndNullsAreIllegalThenThrow<WorldSplineData.LUTEntry.LUTPoint>
 	|
-	|-RVA: 0x48BD30 Offset: 0x48A330 VA: 0x18048BD30
 	|-ThrowHelper.IfNullAndNullsAreIllegalThenThrow<object>
 	*/
 

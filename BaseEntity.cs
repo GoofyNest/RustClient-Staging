@@ -244,28 +244,24 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public T FindLinkedEntity<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CA050 Offset: 0x5C8650 VA: 0x1805CA050
 	|-BaseEntity.FindLinkedEntity<object>
 	*/
 
 	public void EntityLinkMessage<T>(Action<T> action) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1569610 Offset: 0x1567C10 VA: 0x181569610
 	|-BaseEntity.EntityLinkMessage<object>
 	*/
 
 	public void EntityLinkBroadcast<T, S>(Action<T> action, Func<S, bool> canTraverseSocket) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1568CB0 Offset: 0x15672B0 VA: 0x181568CB0
 	|-BaseEntity.EntityLinkBroadcast<object, object>
 	*/
 
 	public void EntityLinkBroadcast<T>(Action<T> action) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15691D0 Offset: 0x15677D0 VA: 0x1815691D0
 	|-BaseEntity.EntityLinkBroadcast<object>
 	*/
 
@@ -320,161 +316,114 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPC<T1, T2, T3, T4, T5>(SendMethod sendMethod, string funcName, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156AD70 Offset: 0x1569370 VA: 0x18156AD70
 	|-BaseEntity.ServerRPC<byte, byte, uint, uint, object>
 	|
-	|-RVA: 0x156B280 Offset: 0x1569880 VA: 0x18156B280
 	|-BaseEntity.ServerRPC<int, int, int, int, byte>
 	|
-	|-RVA: 0x156B000 Offset: 0x1569600 VA: 0x18156B000
 	|-BaseEntity.ServerRPC<int, Color, Color, Color, Color>
 	|
-	|-RVA: 0x156D010 Offset: 0x156B610 VA: 0x18156D010
 	|-BaseEntity.ServerRPC<object, object, object, object, object>
 	|
-	|-RVA: 0x156DC30 Offset: 0x156C230 VA: 0x18156DC30
 	|-BaseEntity.ServerRPC<uint, byte, uint, uint, bool>
 	|
-	|-RVA: 0x156E460 Offset: 0x156CA60 VA: 0x18156E460
 	|-BaseEntity.ServerRPC<uint, int, uint, int, int>
 	*/
 
 	public void ServerRPC<T1, T2, T3, T4>(SendMethod sendMethod, string funcName, T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156B4C0 Offset: 0x1569AC0 VA: 0x18156B4C0
 	|-BaseEntity.ServerRPC<int, int, int, int>
 	|
-	|-RVA: 0x156B6E0 Offset: 0x1569CE0 VA: 0x18156B6E0
 	|-BaseEntity.ServerRPC<int, int, int, float>
 	|
-	|-RVA: 0x156BCE0 Offset: 0x156A2E0 VA: 0x18156BCE0
 	|-BaseEntity.ServerRPC<int, int, object, bool>
 	|
-	|-RVA: 0x156C4C0 Offset: 0x156AAC0 VA: 0x18156C4C0
 	|-BaseEntity.ServerRPC<int, uint, object, bool>
 	|
-	|-RVA: 0x156CDF0 Offset: 0x156B3F0 VA: 0x18156CDF0
 	|-BaseEntity.ServerRPC<object, object, int, object>
 	|
-	|-RVA: 0x156D260 Offset: 0x156B860 VA: 0x18156D260
 	|-BaseEntity.ServerRPC<object, object, object, object>
 	|
-	|-RVA: 0x156DE20 Offset: 0x156C420 VA: 0x18156DE20
 	|-BaseEntity.ServerRPC<uint, byte, uint, uint>
 	|
-	|-RVA: 0x156EF60 Offset: 0x156D560 VA: 0x18156EF60
 	|-BaseEntity.ServerRPC<uint, uint, sbyte, int>
 	|
-	|-RVA: 0x156F630 Offset: 0x156DC30 VA: 0x18156F630
 	|-BaseEntity.ServerRPC<ulong, uint, uint, object>
 	|
-	|-RVA: 0x156FCD0 Offset: 0x156E2D0 VA: 0x18156FCD0
 	|-BaseEntity.ServerRPC<Vector3, Vector3, int, int>
 	|
-	|-RVA: 0x1570140 Offset: 0x156E740 VA: 0x181570140
 	|-BaseEntity.ServerRPC<Vector3, Vector3, Vector3, int>
 	*/
 
 	public void ServerRPC<T1, T2, T3>(SendMethod sendMethod, string funcName, T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156A980 Offset: 0x1568F80 VA: 0x18156A980
 	|-BaseEntity.ServerRPC<bool, Vector3, uint>
 	|
-	|-RVA: 0x156B8B0 Offset: 0x1569EB0 VA: 0x18156B8B0
 	|-BaseEntity.ServerRPC<int, int, int>
 	|
-	|-RVA: 0x156BB10 Offset: 0x156A110 VA: 0x18156BB10
 	|-BaseEntity.ServerRPC<int, int, Ray>
 	|
-	|-RVA: 0x156C120 Offset: 0x156A720 VA: 0x18156C120
 	|-BaseEntity.ServerRPC<int, object, int>
 	|
-	|-RVA: 0x156D490 Offset: 0x156BA90 VA: 0x18156D490
 	|-BaseEntity.ServerRPC<object, object, object>
 	|
-	|-RVA: 0x156E040 Offset: 0x156C640 VA: 0x18156E040
 	|-BaseEntity.ServerRPC<uint, int, bool>
 	|
-	|-RVA: 0x156E240 Offset: 0x156C840 VA: 0x18156E240
 	|-BaseEntity.ServerRPC<uint, int, int>
 	|
-	|-RVA: 0x156E7F0 Offset: 0x156CDF0 VA: 0x18156E7F0
 	|-BaseEntity.ServerRPC<uint, object, int>
 	|
-	|-RVA: 0x156E9F0 Offset: 0x156CFF0 VA: 0x18156E9F0
 	|-BaseEntity.ServerRPC<uint, object, object>
 	|
-	|-RVA: 0x156EBB0 Offset: 0x156D1B0 VA: 0x18156EBB0
 	|-BaseEntity.ServerRPC<uint, object, ulong>
 	|
-	|-RVA: 0x156FA50 Offset: 0x156E050 VA: 0x18156FA50
 	|-BaseEntity.ServerRPC<Vector3, Vector3, bool>
 	|
-	|-RVA: 0x156FF50 Offset: 0x156E550 VA: 0x18156FF50
 	|-BaseEntity.ServerRPC<Vector3, Vector3, float>
 	*/
 
 	public void ServerRPC<T1, T2>(SendMethod sendMethod, string funcName, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156BF40 Offset: 0x156A540 VA: 0x18156BF40
 	|-BaseEntity.ServerRPC<int, int>
 	|
-	|-RVA: 0x156C320 Offset: 0x156A920 VA: 0x18156C320
 	|-BaseEntity.ServerRPC<int, object>
 	|
-	|-RVA: 0x156CC10 Offset: 0x156B210 VA: 0x18156CC10
 	|-BaseEntity.ServerRPC<object, bool>
 	|
-	|-RVA: 0x156D690 Offset: 0x156BC90 VA: 0x18156D690
 	|-BaseEntity.ServerRPC<object, object>
 	|
-	|-RVA: 0x156E650 Offset: 0x156CC50 VA: 0x18156E650
 	|-BaseEntity.ServerRPC<uint, int>
 	|
-	|-RVA: 0x156ED70 Offset: 0x156D370 VA: 0x18156ED70
 	|-BaseEntity.ServerRPC<uint, object>
 	|
-	|-RVA: 0x156F2B0 Offset: 0x156D8B0 VA: 0x18156F2B0
 	|-BaseEntity.ServerRPC<ulong, int>
 	|
-	|-RVA: 0x156F490 Offset: 0x156DA90 VA: 0x18156F490
 	|-BaseEntity.ServerRPC<ulong, object>
 	|
-	|-RVA: 0x156C890 Offset: 0x156AE90 VA: 0x18156C890
 	|-BaseEntity.ServerRPC<Ray, int>
 	|
-	|-RVA: 0x156CA50 Offset: 0x156B050 VA: 0x18156CA50
 	|-BaseEntity.ServerRPC<Ray, uint>
 	|
-	|-RVA: 0x1570470 Offset: 0x156EA70 VA: 0x181570470
 	|-BaseEntity.ServerRPC<Vector3, Vector3>
 	*/
 
 	public void ServerRPC<T1>(SendMethod sendMethod, string funcName, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156AB60 Offset: 0x1569160 VA: 0x18156AB60
 	|-BaseEntity.ServerRPC<bool>
 	|
-	|-RVA: 0x156C690 Offset: 0x156AC90 VA: 0x18156C690
 	|-BaseEntity.ServerRPC<int>
 	|
-	|-RVA: 0x156D8A0 Offset: 0x156BEA0 VA: 0x18156D8A0
 	|-BaseEntity.ServerRPC<object>
 	|
-	|-RVA: 0x156DA20 Offset: 0x156C020 VA: 0x18156DA20
 	|-BaseEntity.ServerRPC<float>
 	|
-	|-RVA: 0x156F130 Offset: 0x156D730 VA: 0x18156F130
 	|-BaseEntity.ServerRPC<uint>
 	|
-	|-RVA: 0x156F850 Offset: 0x156DE50 VA: 0x18156F850
 	|-BaseEntity.ServerRPC<ulong>
 	|
-	|-RVA: 0x1570680 Offset: 0x156EC80 VA: 0x181570680
 	|-BaseEntity.ServerRPC<Vector3>
 	*/
 
@@ -483,106 +432,80 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPC<T1, T2, T3, T4, T5>(string funcName, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156AD10 Offset: 0x1569310 VA: 0x18156AD10
 	|-BaseEntity.ServerRPC<byte, byte, uint, uint, byte[]>
 	|-BaseEntity.ServerRPC<byte, byte, uint, uint, object>
 	|
-	|-RVA: 0x156B220 Offset: 0x1569820 VA: 0x18156B220
 	|-BaseEntity.ServerRPC<int, int, int, int, byte>
 	|
-	|-RVA: 0x156AF60 Offset: 0x1569560 VA: 0x18156AF60
 	|-BaseEntity.ServerRPC<int, Color, Color, Color, Color>
 	|
-	|-RVA: 0x156D200 Offset: 0x156B800 VA: 0x18156D200
 	|-BaseEntity.ServerRPC<object, object, object, object, object>
 	|-BaseEntity.ServerRPC<string, string, string, string, string>
 	|
-	|-RVA: 0x156DBD0 Offset: 0x156C1D0 VA: 0x18156DBD0
 	|-BaseEntity.ServerRPC<uint, byte, uint, uint, bool>
 	|
-	|-RVA: 0x156E400 Offset: 0x156CA00 VA: 0x18156E400
 	|-BaseEntity.ServerRPC<uint, int, uint, int, int>
 	*/
 
 	public void ServerRPC<T1, T2, T3, T4>(string funcName, T1 arg1, T2 arg2, T3 arg3, T4 arg4) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156BEB0 Offset: 0x156A4B0 VA: 0x18156BEB0
 	|-BaseEntity.ServerRPC<int, int, byte[], bool>
 	|-BaseEntity.ServerRPC<int, int, object, bool>
 	|-BaseEntity.ServerRPC<int, uint, byte[], bool>
 	|-BaseEntity.ServerRPC<int, uint, object, bool>
 	|
-	|-RVA: 0x156B470 Offset: 0x1569A70 VA: 0x18156B470
 	|-BaseEntity.ServerRPC<int, int, int, int>
 	|
-	|-RVA: 0x156B690 Offset: 0x1569C90 VA: 0x18156B690
 	|-BaseEntity.ServerRPC<int, int, int, float>
 	|
-	|-RVA: 0x156CFC0 Offset: 0x156B5C0 VA: 0x18156CFC0
 	|-BaseEntity.ServerRPC<object, object, int, object>
 	|-BaseEntity.ServerRPC<string, string, int, string>
 	|
-	|-RVA: 0x156D440 Offset: 0x156BA40 VA: 0x18156D440
 	|-BaseEntity.ServerRPC<object, object, object, object>
 	|
-	|-RVA: 0x156DFF0 Offset: 0x156C5F0 VA: 0x18156DFF0
 	|-BaseEntity.ServerRPC<uint, byte, uint, uint>
 	|
-	|-RVA: 0x156EF10 Offset: 0x156D510 VA: 0x18156EF10
 	|-BaseEntity.ServerRPC<uint, uint, sbyte, int>
 	|
-	|-RVA: 0x156F800 Offset: 0x156DE00 VA: 0x18156F800
 	|-BaseEntity.ServerRPC<ulong, uint, uint, byte[]>
 	|-BaseEntity.ServerRPC<ulong, uint, uint, object>
 	|
-	|-RVA: 0x156FC40 Offset: 0x156E240 VA: 0x18156FC40
 	|-BaseEntity.ServerRPC<Vector3, Vector3, int, int>
 	|
-	|-RVA: 0x1570360 Offset: 0x156E960 VA: 0x181570360
 	|-BaseEntity.ServerRPC<Vector3, Vector3, Vector3, int>
 	*/
 
 	public void ServerRPC<T1, T2, T3>(string funcName, T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156A920 Offset: 0x1568F20 VA: 0x18156A920
 	|-BaseEntity.ServerRPC<bool, Vector3, uint>
 	|
-	|-RVA: 0x156C0E0 Offset: 0x156A6E0 VA: 0x18156C0E0
 	|-BaseEntity.ServerRPC<int, byte[], int>
 	|-BaseEntity.ServerRPC<int, object, int>
 	|-BaseEntity.ServerRPC<uint, object, int>
 	|
-	|-RVA: 0x156BA70 Offset: 0x156A070 VA: 0x18156BA70
 	|-BaseEntity.ServerRPC<int, int, int>
 	|-BaseEntity.ServerRPC<uint, int, int>
 	|
-	|-RVA: 0x156BAB0 Offset: 0x156A0B0 VA: 0x18156BAB0
 	|-BaseEntity.ServerRPC<int, int, Ray>
 	|
-	|-RVA: 0x156D650 Offset: 0x156BC50 VA: 0x18156D650
 	|-BaseEntity.ServerRPC<object, object, object>
 	|
-	|-RVA: 0x156E9B0 Offset: 0x156CFB0 VA: 0x18156E9B0
 	|-BaseEntity.ServerRPC<uint, byte[], ulong>
 	|-BaseEntity.ServerRPC<uint, object, object>
 	|-BaseEntity.ServerRPC<uint, object, ulong>
 	|
-	|-RVA: 0x156E200 Offset: 0x156C800 VA: 0x18156E200
 	|-BaseEntity.ServerRPC<uint, int, bool>
 	|
-	|-RVA: 0x156F9D0 Offset: 0x156DFD0 VA: 0x18156F9D0
 	|-BaseEntity.ServerRPC<Vector3, Vector3, bool>
 	|
-	|-RVA: 0x156FED0 Offset: 0x156E4D0 VA: 0x18156FED0
 	|-BaseEntity.ServerRPC<Vector3, Vector3, float>
 	*/
 
 	public void ServerRPC<T1, T2>(string funcName, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156C2E0 Offset: 0x156A8E0 VA: 0x18156C2E0
 	|-BaseEntity.ServerRPC<int, SprayList>
 	|-BaseEntity.ServerRPC<int, byte[]>
 	|-BaseEntity.ServerRPC<int, object>
@@ -591,35 +514,28 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	|-BaseEntity.ServerRPC<uint, object>
 	|-BaseEntity.ServerRPC<uint, string>
 	|
-	|-RVA: 0x156BF00 Offset: 0x156A500 VA: 0x18156BF00
 	|-BaseEntity.ServerRPC<int, int>
 	|-BaseEntity.ServerRPC<uint, int>
 	|
-	|-RVA: 0x156CDB0 Offset: 0x156B3B0 VA: 0x18156CDB0
 	|-BaseEntity.ServerRPC<object, bool>
 	|-BaseEntity.ServerRPC<string, bool>
 	|
-	|-RVA: 0x156D830 Offset: 0x156BE30 VA: 0x18156D830
 	|-BaseEntity.ServerRPC<object, object>
 	|-BaseEntity.ServerRPC<string, string>
 	|-BaseEntity.ServerRPC<ulong, object>
 	|-BaseEntity.ServerRPC<ulong, string>
 	|
-	|-RVA: 0x156F450 Offset: 0x156DA50 VA: 0x18156F450
 	|-BaseEntity.ServerRPC<ulong, int>
 	|
-	|-RVA: 0x156C840 Offset: 0x156AE40 VA: 0x18156C840
 	|-BaseEntity.ServerRPC<Ray, int>
 	|-BaseEntity.ServerRPC<Ray, uint>
 	|
-	|-RVA: 0x1570400 Offset: 0x156EA00 VA: 0x181570400
 	|-BaseEntity.ServerRPC<Vector3, Vector3>
 	*/
 
 	public void ServerRPC<T1>(string funcName, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156D870 Offset: 0x156BE70 VA: 0x18156D870
 	|-BaseEntity.ServerRPC<AIDesign>
 	|-BaseEntity.ServerRPC<ArcadeGame>
 	|-BaseEntity.ServerRPC<CreateBuilding>
@@ -634,17 +550,13 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	|-BaseEntity.ServerRPC<string>
 	|-BaseEntity.ServerRPC<ulong>
 	|
-	|-RVA: 0x156ACE0 Offset: 0x15692E0 VA: 0x18156ACE0
 	|-BaseEntity.ServerRPC<bool>
 	|
-	|-RVA: 0x156C810 Offset: 0x156AE10 VA: 0x18156C810
 	|-BaseEntity.ServerRPC<int>
 	|-BaseEntity.ServerRPC<uint>
 	|
-	|-RVA: 0x156DBA0 Offset: 0x156C1A0 VA: 0x18156DBA0
 	|-BaseEntity.ServerRPC<float>
 	|
-	|-RVA: 0x1570640 Offset: 0x156EC40 VA: 0x181570640
 	|-BaseEntity.ServerRPC<Vector3>
 	*/
 
@@ -655,29 +567,22 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	private void ServerRPCWrite<T>(T arg) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x156A5F0 Offset: 0x1568BF0 VA: 0x18156A5F0
 	|-BaseEntity.ServerRPCWrite<bool>
 	|-BaseEntity.ServerRPCWrite<byte>
 	|-BaseEntity.ServerRPCWrite<sbyte>
 	|
-	|-RVA: 0x156A6D0 Offset: 0x1568CD0 VA: 0x18156A6D0
 	|-BaseEntity.ServerRPCWrite<int>
 	|-BaseEntity.ServerRPCWrite<uint>
 	|
-	|-RVA: 0x156A7C0 Offset: 0x1568DC0 VA: 0x18156A7C0
 	|-BaseEntity.ServerRPCWrite<object>
 	|-BaseEntity.ServerRPCWrite<ulong>
 	|
-	|-RVA: 0x156A830 Offset: 0x1568E30 VA: 0x18156A830
 	|-BaseEntity.ServerRPCWrite<float>
 	|
-	|-RVA: 0x156A660 Offset: 0x1568C60 VA: 0x18156A660
 	|-BaseEntity.ServerRPCWrite<Color>
 	|
-	|-RVA: 0x156A740 Offset: 0x1568D40 VA: 0x18156A740
 	|-BaseEntity.ServerRPCWrite<Ray>
 	|
-	|-RVA: 0x156A8A0 Offset: 0x1568EA0 VA: 0x18156A8A0
 	|-BaseEntity.ServerRPCWrite<Vector3>
 	*/
 
@@ -686,24 +591,20 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public void ServerRPCList<T1>(string funcName, List<T1> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1569F20 Offset: 0x1568520 VA: 0x181569F20
 	|-BaseEntity.ServerRPCList<object>
 	*/
 
 	public void ServerRPCList<T1, T2, T3, T4, T5>(string funcName, List<T1> list, T2 arg2, T3 arg3, T4 arg4, T5 arg5) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1569B90 Offset: 0x1568190 VA: 0x181569B90
 	|-BaseEntity.ServerRPCList<object, object, object, object, object>
 	*/
 
 	public void ServerRPCList<T1, T2, T3, T4, T5, T6>(string funcName, List<T1> list, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15697F0 Offset: 0x1567DF0 VA: 0x1815697F0
 	|-BaseEntity.ServerRPCList<object, object, object, object, object, object>
 	|
-	|-RVA: 0x156A240 Offset: 0x1568840 VA: 0x18156A240
 	|-BaseEntity.ServerRPCList<Vector3, uint, int, uint, int, int>
 	*/
 
@@ -752,7 +653,6 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public T FindTrigger<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CA210 Offset: 0x5C8810 VA: 0x1805CA210
 	|-BaseEntity.FindTrigger<object>
 	|-BaseEntity.FindTrigger<TriggerLadder>
 	|-BaseEntity.FindTrigger<TriggerNoSpray>
@@ -761,7 +661,6 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	public bool FindTrigger<T>(out T result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125D190 Offset: 0x125B790 VA: 0x18125D190
 	|-BaseEntity.FindTrigger<object>
 	*/
 

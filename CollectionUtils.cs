@@ -3,7 +3,6 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	public static bool IsNullOrEmpty<T>(ICollection<T> collection) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125D350 Offset: 0x125B950 VA: 0x18125D350
 	|-CollectionUtils.IsNullOrEmpty<IXmlNode>
 	|-CollectionUtils.IsNullOrEmpty<JsonConverter>
 	|-CollectionUtils.IsNullOrEmpty<object>
@@ -13,7 +12,6 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	public static void AddRange<T>(IList<T> initial, IEnumerable<T> collection) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCF3140 Offset: 0xCF1740 VA: 0x180CF3140
 	|-CollectionUtils.AddRange<JsonProperty>
 	|-CollectionUtils.AddRange<SerializationCallback>
 	|-CollectionUtils.AddRange<SerializationErrorCallback>
@@ -25,7 +23,6 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	public static void AddRange<T>(IList<T> initial, IEnumerable collection) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCF30C0 Offset: 0xCF16C0 VA: 0x180CF30C0
 	|-CollectionUtils.AddRange<object>
 	|-CollectionUtils.AddRange<MemberInfo>
 	*/
@@ -40,7 +37,6 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	public static int IndexOf<T>(IEnumerable<T> collection, Func<T, bool> predicate) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x11798A0 Offset: 0x1177EA0 VA: 0x1811798A0
 	|-CollectionUtils.IndexOf<object>
 	|-CollectionUtils.IndexOf<PropertyInfo>
 	*/
@@ -49,7 +45,6 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	public static bool Contains<T>(List<T> list, T value, IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125D3A0 Offset: 0x125B9A0 VA: 0x18125D3A0
 	|-CollectionUtils.Contains<object>
 	*/
 
@@ -57,7 +52,6 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	public static int IndexOfReference<T>(List<T> list, T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1179810 Offset: 0x1177E10 VA: 0x181179810
 	|-CollectionUtils.IndexOfReference<JToken>
 	|-CollectionUtils.IndexOfReference<object>
 	*/

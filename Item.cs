@@ -1693,7 +1693,6 @@ public abstract class ItemModAssociatedEntity<T> : ItemMod // TypeDefIndex: 1013
 	protected virtual bool get_AllowNullParenting() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	|-ItemModAssociatedEntity<PagerEntity>.get_AllowNullParenting
 	|-ItemModAssociatedEntity<object>.get_AllowNullParenting
 	*/
@@ -1701,7 +1700,6 @@ public abstract class ItemModAssociatedEntity<T> : ItemMod // TypeDefIndex: 1013
 	protected virtual bool get_AllowHeldEntityParenting() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x49BC40 Offset: 0x49A240 VA: 0x18049BC40
 	|-ItemModAssociatedEntity<MobileInventoryEntity>.get_AllowHeldEntityParenting
 	|-ItemModAssociatedEntity<PagerEntity>.get_AllowHeldEntityParenting
 	|-ItemModAssociatedEntity<PaintedItemStorageEntity>.get_AllowHeldEntityParenting
@@ -1713,7 +1711,6 @@ public abstract class ItemModAssociatedEntity<T> : ItemMod // TypeDefIndex: 1013
 	public static T GetAssociatedEntity(Item item, bool isServer = True) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1647260 Offset: 0x1645860 VA: 0x181647260
 	|-ItemModAssociatedEntity<MobileInventoryEntity>.GetAssociatedEntity
 	|-ItemModAssociatedEntity<PagerEntity>.GetAssociatedEntity
 	|-ItemModAssociatedEntity<PaintedItemStorageEntity>.GetAssociatedEntity
@@ -1724,7 +1721,6 @@ public abstract class ItemModAssociatedEntity<T> : ItemMod // TypeDefIndex: 1013
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16473C0 Offset: 0x16459C0 VA: 0x1816473C0
 	|-ItemModAssociatedEntity<Cassette>..ctor
 	|-ItemModAssociatedEntity<MobileInventoryEntity>..ctor
 	|-ItemModAssociatedEntity<PagerEntity>..ctor

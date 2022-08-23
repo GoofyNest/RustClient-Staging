@@ -10,7 +10,6 @@ public static class JsonUtility // TypeDefIndex: 4525
 	public static T FromJson<T>(string json) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B8480 Offset: 0x15B6A80 VA: 0x1815B8480
 	|-JsonUtility.FromJson<RandomUsernames.DataFile>
 	|-JsonUtility.FromJson<object>
 	*/
@@ -484,7 +483,6 @@ internal class JSONLazyCreator : JSONNode // TypeDefIndex: 5651
 	private T Set<T>(T aVal) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CE9A0 Offset: 0x5CCFA0 VA: 0x1805CE9A0
 	|-JSONLazyCreator.Set<JSONArray>
 	|-JSONLazyCreator.Set<JSONBool>
 	|-JSONLazyCreator.Set<JSONNumber>
@@ -1410,10 +1408,8 @@ public static class JsonConvert // TypeDefIndex: 5904
 	public static T DeserializeObject<T>(string value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CFCF0 Offset: 0x5CE2F0 VA: 0x1805CFCF0
 	|-JsonConvert.DeserializeObject<CameraMan.CameraState>
 	|
-	|-RVA: 0x5D0270 Offset: 0x5CE870 VA: 0x1805D0270
 	|-JsonConvert.DeserializeObject<ClientFrametimeRequest>
 	|-JsonConvert.DeserializeObject<CompanionSubscription.Status>
 	|-JsonConvert.DeserializeObject<Account.AccountJson>
@@ -1436,32 +1432,24 @@ public static class JsonConvert // TypeDefIndex: 5904
 	|-JsonConvert.DeserializeObject<Telephone.CensoredNumbers>
 	|-JsonConvert.DeserializeObject<object>
 	|
-	|-RVA: 0x5D00B0 Offset: 0x5CE6B0 VA: 0x1805D00B0
 	|-JsonConvert.DeserializeObject<NoticeData>
 	|
-	|-RVA: 0x5CFEA0 Offset: 0x5CE4A0 VA: 0x1805CFEA0
 	|-JsonConvert.DeserializeObject<RCon.Command>
 	|
-	|-RVA: 0x5CFF40 Offset: 0x5CE540 VA: 0x1805CFF40
 	|-JsonConvert.DeserializeObject<CorePropsFile>
 	*/
 
 	public static T DeserializeObject<T>(string value, JsonSerializerSettings settings) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CFBD0 Offset: 0x5CE1D0 VA: 0x1805CFBD0
 	|-JsonConvert.DeserializeObject<CameraMan.CameraState>
 	|
-	|-RVA: 0x5D0150 Offset: 0x5CE750 VA: 0x1805D0150
 	|-JsonConvert.DeserializeObject<NoticeData>
 	|
-	|-RVA: 0x5CFD80 Offset: 0x5CE380 VA: 0x1805CFD80
 	|-JsonConvert.DeserializeObject<RCon.Command>
 	|
-	|-RVA: 0x5CFFB0 Offset: 0x5CE5B0 VA: 0x1805CFFB0
 	|-JsonConvert.DeserializeObject<CorePropsFile>
 	|
-	|-RVA: 0x5D02E0 Offset: 0x5CE8E0 VA: 0x1805D02E0
 	|-JsonConvert.DeserializeObject<object>
 	*/
 
@@ -1621,11 +1609,9 @@ public class JsonSerializer // TypeDefIndex: 5906
 	public T Deserialize<T>(JsonReader reader) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D0BA0 Offset: 0x5CF1A0 VA: 0x1805D0BA0
 	|-JsonSerializer.Deserialize<Int32Enum>
 	|-JsonSerializer.Deserialize<RegexOptions>
 	|
-	|-RVA: 0x5D0C80 Offset: 0x5CF280 VA: 0x1805D0C80
 	|-JsonSerializer.Deserialize<object>
 	*/
 
@@ -2158,20 +2144,15 @@ internal class JsonFormatterConverter : IFormatterConverter // TypeDefIndex: 598
 	private T GetTokenValue<T>(object value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D03D0 Offset: 0x5CE9D0 VA: 0x1805D03D0
 	|-JsonFormatterConverter.GetTokenValue<bool>
 	|
-	|-RVA: 0x5D0560 Offset: 0x5CEB60 VA: 0x1805D0560
 	|-JsonFormatterConverter.GetTokenValue<int>
 	|
-	|-RVA: 0x5D06F0 Offset: 0x5CECF0 VA: 0x1805D06F0
 	|-JsonFormatterConverter.GetTokenValue<long>
 	|
-	|-RVA: 0x5D0880 Offset: 0x5CEE80 VA: 0x1805D0880
 	|-JsonFormatterConverter.GetTokenValue<object>
 	|-JsonFormatterConverter.GetTokenValue<string>
 	|
-	|-RVA: 0x5D0A10 Offset: 0x5CF010 VA: 0x1805D0A10
 	|-JsonFormatterConverter.GetTokenValue<float>
 	*/
 
@@ -3194,7 +3175,6 @@ internal static class JsonTypeReflector // TypeDefIndex: 6029
 	public static T GetCachedAttribute<T>(object attributeProvider) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D1240 Offset: 0x5CF840 VA: 0x1805D1240
 	|-JsonTypeReflector.GetCachedAttribute<JsonContainerAttribute>
 	|-JsonTypeReflector.GetCachedAttribute<JsonConverterAttribute>
 	|-JsonTypeReflector.GetCachedAttribute<JsonObjectAttribute>
@@ -3223,21 +3203,18 @@ internal static class JsonTypeReflector // TypeDefIndex: 6029
 	private static T GetAttribute<T>(Type type) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D10C0 Offset: 0x5CF6C0 VA: 0x1805D10C0
 	|-JsonTypeReflector.GetAttribute<object>
 	*/
 
 	private static T GetAttribute<T>(MemberInfo memberInfo) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D0D60 Offset: 0x5CF360 VA: 0x1805D0D60
 	|-JsonTypeReflector.GetAttribute<object>
 	*/
 
 	public static T GetAttribute<T>(object provider) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D0FB0 Offset: 0x5CF5B0 VA: 0x1805D0FB0
 	|-JsonTypeReflector.GetAttribute<JsonExtensionDataAttribute>
 	|-JsonTypeReflector.GetAttribute<JsonIgnoreAttribute>
 	|-JsonTypeReflector.GetAttribute<JsonPropertyAttribute>
@@ -4053,7 +4030,6 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public T ToObject<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CFB00 Offset: 0x5CE100 VA: 0x1805CFB00
 	|-JToken.ToObject<UITwitchTrophy.TrophyPage>
 	|-JToken.ToObject<object>
 	*/
@@ -4091,7 +4067,6 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public T Annotation<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CF960 Offset: 0x5CDF60 VA: 0x1805CF960
 	|-JToken.Annotation<JToken.LineInfoAnnotation>
 	|-JToken.Annotation<object>
 	*/
@@ -4388,7 +4363,6 @@ public static class JSON // TypeDefIndex: 11582
 	public static void MakeInto<T>(Variant data, out T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CEBD0 Offset: 0x5CD1D0 VA: 0x1805CEBD0
 	|-JSON.MakeInto<object>
 	*/
 
@@ -4398,37 +4372,26 @@ public static class JSON // TypeDefIndex: 11582
 	private static T DecodeType<T>(Variant data) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBDA7D0 Offset: 0xBD8DD0 VA: 0x180BDA7D0
 	|-JSON.DecodeType<bool>
 	|
-	|-RVA: 0xBDC7B0 Offset: 0xBDADB0 VA: 0x180BDC7B0
 	|-JSON.DecodeType<Decimal>
 	|
-	|-RVA: 0xBDE770 Offset: 0xBDCD70 VA: 0x180BDE770
 	|-JSON.DecodeType<double>
 	|
-	|-RVA: 0x15A8740 Offset: 0x15A6D40 VA: 0x1815A8740
 	|-JSON.DecodeType<short>
 	|
-	|-RVA: 0x15AA710 Offset: 0x15A8D10 VA: 0x1815AA710
 	|-JSON.DecodeType<int>
 	|
-	|-RVA: 0x15AC6B0 Offset: 0x15AACB0 VA: 0x1815AC6B0
 	|-JSON.DecodeType<long>
 	|
-	|-RVA: 0x15AE680 Offset: 0x15ACC80 VA: 0x1815AE680
 	|-JSON.DecodeType<object>
 	|
-	|-RVA: 0x15B05A0 Offset: 0x15AEBA0 VA: 0x1815B05A0
 	|-JSON.DecodeType<float>
 	|
-	|-RVA: 0x15B2540 Offset: 0x15B0B40 VA: 0x1815B2540
 	|-JSON.DecodeType<ushort>
 	|
-	|-RVA: 0x15B4510 Offset: 0x15B2B10 VA: 0x1815B4510
 	|-JSON.DecodeType<uint>
 	|
-	|-RVA: 0x15B64B0 Offset: 0x15B4AB0 VA: 0x1815B64B0
 	|-JSON.DecodeType<ulong>
 	*/
 
@@ -4436,37 +4399,26 @@ public static class JSON // TypeDefIndex: 11582
 	private static List<T> DecodeList<T>(Variant data) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x12ADEB0 Offset: 0x12AC4B0 VA: 0x1812ADEB0
 	|-JSON.DecodeList<bool>
 	|
-	|-RVA: 0x12AE0A0 Offset: 0x12AC6A0 VA: 0x1812AE0A0
 	|-JSON.DecodeList<Decimal>
 	|
-	|-RVA: 0x12AE2A0 Offset: 0x12AC8A0 VA: 0x1812AE2A0
 	|-JSON.DecodeList<double>
 	|
-	|-RVA: 0x12AE490 Offset: 0x12ACA90 VA: 0x1812AE490
 	|-JSON.DecodeList<short>
 	|
-	|-RVA: 0x12AE680 Offset: 0x12ACC80 VA: 0x1812AE680
 	|-JSON.DecodeList<int>
 	|
-	|-RVA: 0x12AE870 Offset: 0x12ACE70 VA: 0x1812AE870
 	|-JSON.DecodeList<long>
 	|
-	|-RVA: 0x12AEA60 Offset: 0x12AD060 VA: 0x1812AEA60
 	|-JSON.DecodeList<object>
 	|
-	|-RVA: 0x12AEC50 Offset: 0x12AD250 VA: 0x1812AEC50
 	|-JSON.DecodeList<float>
 	|
-	|-RVA: 0x12AEE40 Offset: 0x12AD440 VA: 0x1812AEE40
 	|-JSON.DecodeList<ushort>
 	|
-	|-RVA: 0x12AF030 Offset: 0x12AD630 VA: 0x1812AF030
 	|-JSON.DecodeList<uint>
 	|
-	|-RVA: 0x12AF220 Offset: 0x12AD820 VA: 0x1812AF220
 	|-JSON.DecodeList<ulong>
 	*/
 
@@ -4474,367 +4426,246 @@ public static class JSON // TypeDefIndex: 11582
 	private static Dictionary<TKey, TValue> DecodeDictionary<TKey, TValue>(Variant data) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15381B0 Offset: 0x15367B0 VA: 0x1815381B0
 	|-JSON.DecodeDictionary<bool, bool>
 	|
-	|-RVA: 0x1538540 Offset: 0x1536B40 VA: 0x181538540
 	|-JSON.DecodeDictionary<bool, Decimal>
 	|
-	|-RVA: 0x15388D0 Offset: 0x1536ED0 VA: 0x1815388D0
 	|-JSON.DecodeDictionary<bool, double>
 	|
-	|-RVA: 0x1538C60 Offset: 0x1537260 VA: 0x181538C60
 	|-JSON.DecodeDictionary<bool, short>
 	|
-	|-RVA: 0x1538FF0 Offset: 0x15375F0 VA: 0x181538FF0
 	|-JSON.DecodeDictionary<bool, int>
 	|
-	|-RVA: 0x1539380 Offset: 0x1537980 VA: 0x181539380
 	|-JSON.DecodeDictionary<bool, long>
 	|
-	|-RVA: 0x1539710 Offset: 0x1537D10 VA: 0x181539710
 	|-JSON.DecodeDictionary<bool, object>
 	|
-	|-RVA: 0x1539AA0 Offset: 0x15380A0 VA: 0x181539AA0
 	|-JSON.DecodeDictionary<bool, float>
 	|
-	|-RVA: 0x1539E30 Offset: 0x1538430 VA: 0x181539E30
 	|-JSON.DecodeDictionary<bool, ushort>
 	|
-	|-RVA: 0x153A1C0 Offset: 0x15387C0 VA: 0x18153A1C0
 	|-JSON.DecodeDictionary<bool, uint>
 	|
-	|-RVA: 0x153A550 Offset: 0x1538B50 VA: 0x18153A550
 	|-JSON.DecodeDictionary<bool, ulong>
 	|
-	|-RVA: 0x153A8E0 Offset: 0x1538EE0 VA: 0x18153A8E0
 	|-JSON.DecodeDictionary<Decimal, bool>
 	|
-	|-RVA: 0x153AC70 Offset: 0x1539270 VA: 0x18153AC70
 	|-JSON.DecodeDictionary<Decimal, Decimal>
 	|
-	|-RVA: 0x153B010 Offset: 0x1539610 VA: 0x18153B010
 	|-JSON.DecodeDictionary<Decimal, double>
 	|
-	|-RVA: 0x153B3A0 Offset: 0x15399A0 VA: 0x18153B3A0
 	|-JSON.DecodeDictionary<Decimal, short>
 	|
-	|-RVA: 0x153B730 Offset: 0x1539D30 VA: 0x18153B730
 	|-JSON.DecodeDictionary<Decimal, int>
 	|
-	|-RVA: 0x153BAC0 Offset: 0x153A0C0 VA: 0x18153BAC0
 	|-JSON.DecodeDictionary<Decimal, long>
 	|
-	|-RVA: 0x153BE50 Offset: 0x153A450 VA: 0x18153BE50
 	|-JSON.DecodeDictionary<Decimal, object>
 	|
-	|-RVA: 0x153C1E0 Offset: 0x153A7E0 VA: 0x18153C1E0
 	|-JSON.DecodeDictionary<Decimal, float>
 	|
-	|-RVA: 0x153C570 Offset: 0x153AB70 VA: 0x18153C570
 	|-JSON.DecodeDictionary<Decimal, ushort>
 	|
-	|-RVA: 0x153C900 Offset: 0x153AF00 VA: 0x18153C900
 	|-JSON.DecodeDictionary<Decimal, uint>
 	|
-	|-RVA: 0x153CC90 Offset: 0x153B290 VA: 0x18153CC90
 	|-JSON.DecodeDictionary<Decimal, ulong>
 	|
-	|-RVA: 0x153D020 Offset: 0x153B620 VA: 0x18153D020
 	|-JSON.DecodeDictionary<double, bool>
 	|
-	|-RVA: 0x153D3B0 Offset: 0x153B9B0 VA: 0x18153D3B0
 	|-JSON.DecodeDictionary<double, Decimal>
 	|
-	|-RVA: 0x153D750 Offset: 0x153BD50 VA: 0x18153D750
 	|-JSON.DecodeDictionary<double, double>
 	|
-	|-RVA: 0x153DAE0 Offset: 0x153C0E0 VA: 0x18153DAE0
 	|-JSON.DecodeDictionary<double, short>
 	|
-	|-RVA: 0x153DE70 Offset: 0x153C470 VA: 0x18153DE70
 	|-JSON.DecodeDictionary<double, int>
 	|
-	|-RVA: 0x153E200 Offset: 0x153C800 VA: 0x18153E200
 	|-JSON.DecodeDictionary<double, long>
 	|
-	|-RVA: 0x153E590 Offset: 0x153CB90 VA: 0x18153E590
 	|-JSON.DecodeDictionary<double, object>
 	|
-	|-RVA: 0x153E920 Offset: 0x153CF20 VA: 0x18153E920
 	|-JSON.DecodeDictionary<double, float>
 	|
-	|-RVA: 0x153ECB0 Offset: 0x153D2B0 VA: 0x18153ECB0
 	|-JSON.DecodeDictionary<double, ushort>
 	|
-	|-RVA: 0x153F040 Offset: 0x153D640 VA: 0x18153F040
 	|-JSON.DecodeDictionary<double, uint>
 	|
-	|-RVA: 0x153F3D0 Offset: 0x153D9D0 VA: 0x18153F3D0
 	|-JSON.DecodeDictionary<double, ulong>
 	|
-	|-RVA: 0x153F760 Offset: 0x153DD60 VA: 0x18153F760
 	|-JSON.DecodeDictionary<short, bool>
 	|
-	|-RVA: 0x153FAF0 Offset: 0x153E0F0 VA: 0x18153FAF0
 	|-JSON.DecodeDictionary<short, Decimal>
 	|
-	|-RVA: 0x153FE80 Offset: 0x153E480 VA: 0x18153FE80
 	|-JSON.DecodeDictionary<short, double>
 	|
-	|-RVA: 0x1540210 Offset: 0x153E810 VA: 0x181540210
 	|-JSON.DecodeDictionary<short, short>
 	|
-	|-RVA: 0x15405A0 Offset: 0x153EBA0 VA: 0x1815405A0
 	|-JSON.DecodeDictionary<short, int>
 	|
-	|-RVA: 0x1540930 Offset: 0x153EF30 VA: 0x181540930
 	|-JSON.DecodeDictionary<short, long>
 	|
-	|-RVA: 0x1540CC0 Offset: 0x153F2C0 VA: 0x181540CC0
 	|-JSON.DecodeDictionary<short, object>
 	|
-	|-RVA: 0x1541050 Offset: 0x153F650 VA: 0x181541050
 	|-JSON.DecodeDictionary<short, float>
 	|
-	|-RVA: 0x15413E0 Offset: 0x153F9E0 VA: 0x1815413E0
 	|-JSON.DecodeDictionary<short, ushort>
 	|
-	|-RVA: 0x1541770 Offset: 0x153FD70 VA: 0x181541770
 	|-JSON.DecodeDictionary<short, uint>
 	|
-	|-RVA: 0x1541B00 Offset: 0x1540100 VA: 0x181541B00
 	|-JSON.DecodeDictionary<short, ulong>
 	|
-	|-RVA: 0x1541E90 Offset: 0x1540490 VA: 0x181541E90
 	|-JSON.DecodeDictionary<int, bool>
 	|
-	|-RVA: 0x1542220 Offset: 0x1540820 VA: 0x181542220
 	|-JSON.DecodeDictionary<int, Decimal>
 	|
-	|-RVA: 0x15425B0 Offset: 0x1540BB0 VA: 0x1815425B0
 	|-JSON.DecodeDictionary<int, double>
 	|
-	|-RVA: 0x1542940 Offset: 0x1540F40 VA: 0x181542940
 	|-JSON.DecodeDictionary<int, short>
 	|
-	|-RVA: 0x1542CD0 Offset: 0x15412D0 VA: 0x181542CD0
 	|-JSON.DecodeDictionary<int, int>
 	|
-	|-RVA: 0x1543060 Offset: 0x1541660 VA: 0x181543060
 	|-JSON.DecodeDictionary<int, long>
 	|
-	|-RVA: 0x15433F0 Offset: 0x15419F0 VA: 0x1815433F0
 	|-JSON.DecodeDictionary<int, object>
 	|
-	|-RVA: 0x1543780 Offset: 0x1541D80 VA: 0x181543780
 	|-JSON.DecodeDictionary<int, float>
 	|
-	|-RVA: 0x1543B10 Offset: 0x1542110 VA: 0x181543B10
 	|-JSON.DecodeDictionary<int, ushort>
 	|
-	|-RVA: 0x1543EA0 Offset: 0x15424A0 VA: 0x181543EA0
 	|-JSON.DecodeDictionary<int, uint>
 	|
-	|-RVA: 0x1544230 Offset: 0x1542830 VA: 0x181544230
 	|-JSON.DecodeDictionary<int, ulong>
 	|
-	|-RVA: 0x15445C0 Offset: 0x1542BC0 VA: 0x1815445C0
 	|-JSON.DecodeDictionary<long, bool>
 	|
-	|-RVA: 0x1544950 Offset: 0x1542F50 VA: 0x181544950
 	|-JSON.DecodeDictionary<long, Decimal>
 	|
-	|-RVA: 0x1544CE0 Offset: 0x15432E0 VA: 0x181544CE0
 	|-JSON.DecodeDictionary<long, double>
 	|
-	|-RVA: 0x1545070 Offset: 0x1543670 VA: 0x181545070
 	|-JSON.DecodeDictionary<long, short>
 	|
-	|-RVA: 0x1545400 Offset: 0x1543A00 VA: 0x181545400
 	|-JSON.DecodeDictionary<long, int>
 	|
-	|-RVA: 0x1545790 Offset: 0x1543D90 VA: 0x181545790
 	|-JSON.DecodeDictionary<long, long>
 	|
-	|-RVA: 0x1545B20 Offset: 0x1544120 VA: 0x181545B20
 	|-JSON.DecodeDictionary<long, object>
 	|
-	|-RVA: 0x1545EB0 Offset: 0x15444B0 VA: 0x181545EB0
 	|-JSON.DecodeDictionary<long, float>
 	|
-	|-RVA: 0x1546240 Offset: 0x1544840 VA: 0x181546240
 	|-JSON.DecodeDictionary<long, ushort>
 	|
-	|-RVA: 0x15465D0 Offset: 0x1544BD0 VA: 0x1815465D0
 	|-JSON.DecodeDictionary<long, uint>
 	|
-	|-RVA: 0x1546960 Offset: 0x1544F60 VA: 0x181546960
 	|-JSON.DecodeDictionary<long, ulong>
 	|
-	|-RVA: 0x1546CF0 Offset: 0x15452F0 VA: 0x181546CF0
 	|-JSON.DecodeDictionary<object, bool>
 	|
-	|-RVA: 0x1547090 Offset: 0x1545690 VA: 0x181547090
 	|-JSON.DecodeDictionary<object, Decimal>
 	|
-	|-RVA: 0x1547430 Offset: 0x1545A30 VA: 0x181547430
 	|-JSON.DecodeDictionary<object, double>
 	|
-	|-RVA: 0x15477D0 Offset: 0x1545DD0 VA: 0x1815477D0
 	|-JSON.DecodeDictionary<object, short>
 	|
-	|-RVA: 0x1547B70 Offset: 0x1546170 VA: 0x181547B70
 	|-JSON.DecodeDictionary<object, int>
 	|
-	|-RVA: 0x1547F10 Offset: 0x1546510 VA: 0x181547F10
 	|-JSON.DecodeDictionary<object, long>
 	|
-	|-RVA: 0x15482B0 Offset: 0x15468B0 VA: 0x1815482B0
 	|-JSON.DecodeDictionary<object, object>
 	|
-	|-RVA: 0x1548650 Offset: 0x1546C50 VA: 0x181548650
 	|-JSON.DecodeDictionary<object, float>
 	|
-	|-RVA: 0x15489F0 Offset: 0x1546FF0 VA: 0x1815489F0
 	|-JSON.DecodeDictionary<object, ushort>
 	|
-	|-RVA: 0x1548D90 Offset: 0x1547390 VA: 0x181548D90
 	|-JSON.DecodeDictionary<object, uint>
 	|
-	|-RVA: 0x1549130 Offset: 0x1547730 VA: 0x181549130
 	|-JSON.DecodeDictionary<object, ulong>
 	|
-	|-RVA: 0x15494D0 Offset: 0x1547AD0 VA: 0x1815494D0
 	|-JSON.DecodeDictionary<float, bool>
 	|
-	|-RVA: 0x1549860 Offset: 0x1547E60 VA: 0x181549860
 	|-JSON.DecodeDictionary<float, Decimal>
 	|
-	|-RVA: 0x1549C00 Offset: 0x1548200 VA: 0x181549C00
 	|-JSON.DecodeDictionary<float, double>
 	|
-	|-RVA: 0x1549F90 Offset: 0x1548590 VA: 0x181549F90
 	|-JSON.DecodeDictionary<float, short>
 	|
-	|-RVA: 0x154A320 Offset: 0x1548920 VA: 0x18154A320
 	|-JSON.DecodeDictionary<float, int>
 	|
-	|-RVA: 0x154A6B0 Offset: 0x1548CB0 VA: 0x18154A6B0
 	|-JSON.DecodeDictionary<float, long>
 	|
-	|-RVA: 0x154AA40 Offset: 0x1549040 VA: 0x18154AA40
 	|-JSON.DecodeDictionary<float, object>
 	|
-	|-RVA: 0x154ADD0 Offset: 0x15493D0 VA: 0x18154ADD0
 	|-JSON.DecodeDictionary<float, float>
 	|
-	|-RVA: 0x154B160 Offset: 0x1549760 VA: 0x18154B160
 	|-JSON.DecodeDictionary<float, ushort>
 	|
-	|-RVA: 0x154B4F0 Offset: 0x1549AF0 VA: 0x18154B4F0
 	|-JSON.DecodeDictionary<float, uint>
 	|
-	|-RVA: 0x154B880 Offset: 0x1549E80 VA: 0x18154B880
 	|-JSON.DecodeDictionary<float, ulong>
 	|
-	|-RVA: 0x154BC10 Offset: 0x154A210 VA: 0x18154BC10
 	|-JSON.DecodeDictionary<ushort, bool>
 	|
-	|-RVA: 0x154BFA0 Offset: 0x154A5A0 VA: 0x18154BFA0
 	|-JSON.DecodeDictionary<ushort, Decimal>
 	|
-	|-RVA: 0x154C330 Offset: 0x154A930 VA: 0x18154C330
 	|-JSON.DecodeDictionary<ushort, double>
 	|
-	|-RVA: 0x154C6C0 Offset: 0x154ACC0 VA: 0x18154C6C0
 	|-JSON.DecodeDictionary<ushort, short>
 	|
-	|-RVA: 0x154CA50 Offset: 0x154B050 VA: 0x18154CA50
 	|-JSON.DecodeDictionary<ushort, int>
 	|
-	|-RVA: 0x154CDE0 Offset: 0x154B3E0 VA: 0x18154CDE0
 	|-JSON.DecodeDictionary<ushort, long>
 	|
-	|-RVA: 0x154D170 Offset: 0x154B770 VA: 0x18154D170
 	|-JSON.DecodeDictionary<ushort, object>
 	|
-	|-RVA: 0x154D500 Offset: 0x154BB00 VA: 0x18154D500
 	|-JSON.DecodeDictionary<ushort, float>
 	|
-	|-RVA: 0x154D890 Offset: 0x154BE90 VA: 0x18154D890
 	|-JSON.DecodeDictionary<ushort, ushort>
 	|
-	|-RVA: 0x154DC20 Offset: 0x154C220 VA: 0x18154DC20
 	|-JSON.DecodeDictionary<ushort, uint>
 	|
-	|-RVA: 0x154DFB0 Offset: 0x154C5B0 VA: 0x18154DFB0
 	|-JSON.DecodeDictionary<ushort, ulong>
 	|
-	|-RVA: 0x154E340 Offset: 0x154C940 VA: 0x18154E340
 	|-JSON.DecodeDictionary<uint, bool>
 	|
-	|-RVA: 0x154E6D0 Offset: 0x154CCD0 VA: 0x18154E6D0
 	|-JSON.DecodeDictionary<uint, Decimal>
 	|
-	|-RVA: 0x154EA60 Offset: 0x154D060 VA: 0x18154EA60
 	|-JSON.DecodeDictionary<uint, double>
 	|
-	|-RVA: 0x154EDF0 Offset: 0x154D3F0 VA: 0x18154EDF0
 	|-JSON.DecodeDictionary<uint, short>
 	|
-	|-RVA: 0x154F180 Offset: 0x154D780 VA: 0x18154F180
 	|-JSON.DecodeDictionary<uint, int>
 	|
-	|-RVA: 0x154F510 Offset: 0x154DB10 VA: 0x18154F510
 	|-JSON.DecodeDictionary<uint, long>
 	|
-	|-RVA: 0xD001D0 Offset: 0xCFE7D0 VA: 0x180D001D0
 	|-JSON.DecodeDictionary<uint, object>
 	|
-	|-RVA: 0xD00560 Offset: 0xCFEB60 VA: 0x180D00560
 	|-JSON.DecodeDictionary<uint, float>
 	|
-	|-RVA: 0xD008F0 Offset: 0xCFEEF0 VA: 0x180D008F0
 	|-JSON.DecodeDictionary<uint, ushort>
 	|
-	|-RVA: 0xD00C80 Offset: 0xCFF280 VA: 0x180D00C80
 	|-JSON.DecodeDictionary<uint, uint>
 	|
-	|-RVA: 0xD01010 Offset: 0xCFF610 VA: 0x180D01010
 	|-JSON.DecodeDictionary<uint, ulong>
 	|
-	|-RVA: 0xD013A0 Offset: 0xCFF9A0 VA: 0x180D013A0
 	|-JSON.DecodeDictionary<ulong, bool>
 	|
-	|-RVA: 0xD01730 Offset: 0xCFFD30 VA: 0x180D01730
 	|-JSON.DecodeDictionary<ulong, Decimal>
 	|
-	|-RVA: 0xD01AC0 Offset: 0xD000C0 VA: 0x180D01AC0
 	|-JSON.DecodeDictionary<ulong, double>
 	|
-	|-RVA: 0xD01E50 Offset: 0xD00450 VA: 0x180D01E50
 	|-JSON.DecodeDictionary<ulong, short>
 	|
-	|-RVA: 0xD021E0 Offset: 0xD007E0 VA: 0x180D021E0
 	|-JSON.DecodeDictionary<ulong, int>
 	|
-	|-RVA: 0xD02570 Offset: 0xD00B70 VA: 0x180D02570
 	|-JSON.DecodeDictionary<ulong, long>
 	|
-	|-RVA: 0xD02900 Offset: 0xD00F00 VA: 0x180D02900
 	|-JSON.DecodeDictionary<ulong, object>
 	|
-	|-RVA: 0xD02C90 Offset: 0xD01290 VA: 0x180D02C90
 	|-JSON.DecodeDictionary<ulong, float>
 	|
-	|-RVA: 0xD03020 Offset: 0xD01620 VA: 0x180D03020
 	|-JSON.DecodeDictionary<ulong, ushort>
 	|
-	|-RVA: 0xD033B0 Offset: 0xD019B0 VA: 0x180D033B0
 	|-JSON.DecodeDictionary<ulong, uint>
 	|
-	|-RVA: 0xD03740 Offset: 0xD01D40 VA: 0x180D03740
 	|-JSON.DecodeDictionary<ulong, ulong>
 	*/
 
@@ -4842,37 +4673,26 @@ public static class JSON // TypeDefIndex: 11582
 	private static T[] DecodeArray<T>(Variant data) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A39650 Offset: 0x1A37C50 VA: 0x181A39650
 	|-JSON.DecodeArray<bool>
 	|
-	|-RVA: 0x1A39870 Offset: 0x1A37E70 VA: 0x181A39870
 	|-JSON.DecodeArray<Decimal>
 	|
-	|-RVA: 0x1A39AB0 Offset: 0x1A380B0 VA: 0x181A39AB0
 	|-JSON.DecodeArray<double>
 	|
-	|-RVA: 0x1A39CE0 Offset: 0x1A382E0 VA: 0x181A39CE0
 	|-JSON.DecodeArray<short>
 	|
-	|-RVA: 0x1A39F00 Offset: 0x1A38500 VA: 0x181A39F00
 	|-JSON.DecodeArray<int>
 	|
-	|-RVA: 0x1A3A120 Offset: 0x1A38720 VA: 0x181A3A120
 	|-JSON.DecodeArray<long>
 	|
-	|-RVA: 0x1A3A340 Offset: 0x1A38940 VA: 0x181A3A340
 	|-JSON.DecodeArray<object>
 	|
-	|-RVA: 0x1A3A550 Offset: 0x1A38B50 VA: 0x181A3A550
 	|-JSON.DecodeArray<float>
 	|
-	|-RVA: 0x1A3A780 Offset: 0x1A38D80 VA: 0x181A3A780
 	|-JSON.DecodeArray<ushort>
 	|
-	|-RVA: 0x1A3A9A0 Offset: 0x1A38FA0 VA: 0x181A3A9A0
 	|-JSON.DecodeArray<uint>
 	|
-	|-RVA: 0x1A3ABC0 Offset: 0x1A391C0 VA: 0x181A3ABC0
 	|-JSON.DecodeArray<ulong>
 	*/
 
@@ -4880,7 +4700,6 @@ public static class JSON // TypeDefIndex: 11582
 	private static void DecodeMultiRankArray<T>(ProxyArray arrayData, Array array, int arrayRank, int[] indices) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CEA20 Offset: 0x5CD020 VA: 0x1805CEA20
 	|-JSON.DecodeMultiRankArray<object>
 	*/
 
@@ -4888,38 +4707,27 @@ public static class JSON // TypeDefIndex: 11582
 	public static void SupportTypeForAOT<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CEC50 Offset: 0x5CD250 VA: 0x1805CEC50
 	|-JSON.SupportTypeForAOT<bool>
 	|
-	|-RVA: 0x5CED80 Offset: 0x5CD380 VA: 0x1805CED80
 	|-JSON.SupportTypeForAOT<Decimal>
 	|
-	|-RVA: 0x5CEEB0 Offset: 0x5CD4B0 VA: 0x1805CEEB0
 	|-JSON.SupportTypeForAOT<double>
 	|
-	|-RVA: 0x5CEFE0 Offset: 0x5CD5E0 VA: 0x1805CEFE0
 	|-JSON.SupportTypeForAOT<short>
 	|
-	|-RVA: 0x5CF110 Offset: 0x5CD710 VA: 0x1805CF110
 	|-JSON.SupportTypeForAOT<int>
 	|
-	|-RVA: 0x5CF240 Offset: 0x5CD840 VA: 0x1805CF240
 	|-JSON.SupportTypeForAOT<long>
 	|
-	|-RVA: 0x5CF370 Offset: 0x5CD970 VA: 0x1805CF370
 	|-JSON.SupportTypeForAOT<object>
 	|-JSON.SupportTypeForAOT<string>
 	|
-	|-RVA: 0x5CF4A0 Offset: 0x5CDAA0 VA: 0x1805CF4A0
 	|-JSON.SupportTypeForAOT<float>
 	|
-	|-RVA: 0x5CF5D0 Offset: 0x5CDBD0 VA: 0x1805CF5D0
 	|-JSON.SupportTypeForAOT<ushort>
 	|
-	|-RVA: 0x5CF700 Offset: 0x5CDD00 VA: 0x1805CF700
 	|-JSON.SupportTypeForAOT<uint>
 	|
-	|-RVA: 0x5CF830 Offset: 0x5CDE30 VA: 0x1805CF830
 	|-JSON.SupportTypeForAOT<ulong>
 	*/
 

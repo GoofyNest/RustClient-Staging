@@ -7,7 +7,6 @@ public static class CollectionExtensions // TypeDefIndex: 1442
 	public static TValue GetValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue> dictionary, TKey key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF1920 Offset: 0xBEFF20 VA: 0x180BF1920
 	|-CollectionExtensions.GetValueOrDefault<object, object>
 	|-CollectionExtensions.GetValueOrDefault<string, LocalDataStoreSlot>
 	*/
@@ -16,7 +15,6 @@ public static class CollectionExtensions // TypeDefIndex: 1442
 	public static TValue GetValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue> dictionary, TKey key, TValue defaultValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159DA90 Offset: 0x159C090 VA: 0x18159DA90
 	|-CollectionExtensions.GetValueOrDefault<object, object>
 	*/
 
@@ -28,7 +26,6 @@ internal static class CollectionExtensions // TypeDefIndex: 5760
 	public static bool SequenceEqual<TSource>(List<TSource> first, List<TSource> second) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBEEEC0 Offset: 0xBED4C0 VA: 0x180BEEEC0
 	|-CollectionExtensions.SequenceEqual<NameValueHeaderValue>
 	|-CollectionExtensions.SequenceEqual<RangeItemHeaderValue>
 	|-CollectionExtensions.SequenceEqual<object>
@@ -42,7 +39,6 @@ internal static class CollectionExtensions // TypeDefIndex: 5760
 	public static string ToString<T>(List<T> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED2280 Offset: 0xED0880 VA: 0x180ED2280
 	|-CollectionExtensions.ToString<NameValueHeaderValue>
 	|-CollectionExtensions.ToString<object>
 	*/
@@ -51,7 +47,6 @@ internal static class CollectionExtensions // TypeDefIndex: 5760
 	public static void ToStringBuilder<T>(List<T> list, StringBuilder sb) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE006E0 Offset: 0xDFECE0 VA: 0x180E006E0
 	|-CollectionExtensions.ToStringBuilder<NameValueHeaderValue>
 	|-CollectionExtensions.ToStringBuilder<object>
 	|-CollectionExtensions.ToStringBuilder<string>

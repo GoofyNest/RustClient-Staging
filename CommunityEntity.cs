@@ -38,7 +38,6 @@ public class CommunityEntity : PointEntity // TypeDefIndex: 8551
 	private static T ParseEnum<T>(string value, T defaultValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CB410 Offset: 0x5C9A10 VA: 0x1805CB410
 	|-CommunityEntity.ParseEnum<Int32Enum>
 	|-CommunityEntity.ParseEnum<TextAnchor>
 	|-CommunityEntity.ParseEnum<Image.Type>

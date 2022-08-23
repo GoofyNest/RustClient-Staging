@@ -5,12 +5,10 @@ internal static class ThrowIfArgument // TypeDefIndex: 7637
 	internal static void IsInvalidEnumValue<TEnum>(string parameterName, TEnum argument) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157C8E0 Offset: 0x157AEE0 VA: 0x18157C8E0
 	|-ThrowIfArgument.IsInvalidEnumValue<SmpteFormat>
 	|-ThrowIfArgument.IsInvalidEnumValue<MidiTimeCodeComponent>
 	|-ThrowIfArgument.IsInvalidEnumValue<ByteEnum>
 	|
-	|-RVA: 0x157CA70 Offset: 0x157B070 VA: 0x18157CA70
 	|-ThrowIfArgument.IsInvalidEnumValue<TimeSpanMode>
 	|-ThrowIfArgument.IsInvalidEnumValue<Int32Enum>
 	*/
@@ -48,10 +46,8 @@ internal static class ThrowIfArgument // TypeDefIndex: 7637
 	internal static void StartsWithInvalidValue<T>(string parameterName, IEnumerable<T> collection, T invalidValue, string message) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157CC00 Offset: 0x157B200 VA: 0x18157CC00
 	|-ThrowIfArgument.StartsWithInvalidValue<byte>
 	|
-	|-RVA: 0x157CCE0 Offset: 0x157B2E0 VA: 0x18157CCE0
 	|-ThrowIfArgument.StartsWithInvalidValue<object>
 	*/
 

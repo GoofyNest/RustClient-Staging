@@ -25,7 +25,6 @@ internal static class StringUtils // TypeDefIndex: 5969
 	public static TSource ForgivingCaseSensitiveFind<TSource>(IEnumerable<TSource> source, Func<TSource, string> valueSelector, string testValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BA010 Offset: 0x15B8610 VA: 0x1815BA010
 	|-StringUtils.ForgivingCaseSensitiveFind<JsonProperty>
 	|-StringUtils.ForgivingCaseSensitiveFind<object>
 	*/
@@ -52,21 +51,18 @@ private sealed class StringUtils.<>c__DisplayClass15_0<TSource> // TypeDefIndex:
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BC10 Offset: 0xD5A210 VA: 0x180D5BC10
 	|-StringUtils.<>c__DisplayClass15_0<object>..ctor
 	*/
 
 	internal bool <ForgivingCaseSensitiveFind>b__0(TSource s) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD66030 Offset: 0xD64630 VA: 0x180D66030
 	|-StringUtils.<>c__DisplayClass15_0<object>.<ForgivingCaseSensitiveFind>b__0
 	*/
 
 	internal bool <ForgivingCaseSensitiveFind>b__1(TSource s) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD66080 Offset: 0xD64680 VA: 0x180D66080
 	|-StringUtils.<>c__DisplayClass15_0<object>.<ForgivingCaseSensitiveFind>b__1
 	*/
 

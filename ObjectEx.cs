@@ -4,7 +4,6 @@ public static class ObjectEx // TypeDefIndex: 11349
 	public static bool IsUnityNull<T>(T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125E020 Offset: 0x125C620 VA: 0x18125E020
 	|-ObjectEx.IsUnityNull<IImageReceiver>
 	|-ObjectEx.IsUnityNull<IServerFileReceiver>
 	|-ObjectEx.IsUnityNull<ISoundBudgetedUpdate>

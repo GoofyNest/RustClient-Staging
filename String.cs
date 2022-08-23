@@ -21,7 +21,6 @@ public sealed class String : IComparable, ICloneable, IConvertible, IEnumerable,
 	public static string Join<T>(string separator, IEnumerable<T> values) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED91B0 Offset: 0xED77B0 VA: 0x180ED91B0
 	|-String.Join<object>
 	*/
 

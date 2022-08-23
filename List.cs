@@ -11,7 +11,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	internal void .ctor(List<T> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x11F760 Offset: 0x11EB60 VA: 0x18011F760
 	|-List.Enumerator<AdvancedChristmasLights.pointEntry>..ctor
 	|-List.Enumerator<AlignedLineDrawer.LinePoint>..ctor
 	|-List.Enumerator<Cassette.LoadRequest>..ctor
@@ -32,7 +31,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<KeyValuePair<ulong, Dispatch.ResultCallback>>..ctor
 	|-List.Enumerator<UnitySynchronizationContext.WorkRequest>..ctor
 	|
-	|-RVA: 0x11F6C0 Offset: 0x11EAC0 VA: 0x18011F6C0
 	|-List.Enumerator<AtmosphereVolumeRenderer.CurrentVolumeEntry>..ctor
 	|-List.Enumerator<DamageRenderer.DamageShowingRenderer>..ctor
 	|-List.Enumerator<DeferredExtensionMesh.MaterialLink>..ctor
@@ -78,7 +76,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WindZoneExManager.CurrentZoneEntry>..ctor
 	|-List.Enumerator<WorldSplineData.LUTEntry.LUTPoint>..ctor
 	|
-	|-RVA: 0x11F620 Offset: 0x11EA20 VA: 0x18011F620
 	|-List.Enumerator<BaseEntity.ServerFileRequest>..ctor
 	|-List.Enumerator<CardTableUI.KeycodeWithAction>..ctor
 	|-List.Enumerator<Demos.DemoInfo>..ctor
@@ -98,11 +95,9 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<SpecialPurposeCamera.RenderEntry>..ctor
 	|-List.Enumerator<InventoryItem>..ctor
 	|
-	|-RVA: 0x11F7B0 Offset: 0x11EBB0 VA: 0x18011F7B0
 	|-List.Enumerator<Admin.PlayerInfo>..ctor
 	|-List.Enumerator<PlaceMonuments.SpawnInfo>..ctor
 	|
-	|-RVA: 0x11F8B0 Offset: 0x11ECB0 VA: 0x18011F8B0
 	|-List.Enumerator<Admin.ServerUGCInfo>..ctor
 	|-List.Enumerator<CapsuleParams>..ctor
 	|-List.Enumerator<SkeletonDefinition.Bone>..ctor
@@ -113,7 +108,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<TreeInstance>..ctor
 	|-List.Enumerator<ViewModelDrawEvent>..ctor
 	|
-	|-RVA: 0x11FA00 Offset: 0x11EE00 VA: 0x18011FA00
 	|-List.Enumerator<CRedge>..ctor
 	|-List.Enumerator<ProjectileWeaponMod.Modifier>..ctor
 	|-List.Enumerator<VectorData>..ctor
@@ -122,7 +116,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<UICharInfo>..ctor
 	|-List.Enumerator<Vector3>..ctor
 	|
-	|-RVA: 0x11F860 Offset: 0x11EC60 VA: 0x18011F860
 	|-List.Enumerator<ERCell>..ctor
 	|-List.Enumerator<ERConnectionGUIStatus>..ctor
 	|-List.Enumerator<ERTerrainChange>..ctor
@@ -145,25 +138,19 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<Vector2>..ctor
 	|-List.Enumerator<Vector2i>..ctor
 	|
-	|-RVA: 0x149980 Offset: 0x148D80 VA: 0x180149980
 	|-List.Enumerator<ERMeshCombineUtility.MeshInstance>..ctor
 	|-List.Enumerator<RenderInfo.RendererInstance>..ctor
 	|-List.Enumerator<Option>..ctor
 	|
-	|-RVA: 0x1498D0 Offset: 0x148CD0 VA: 0x1801498D0
 	|-List.Enumerator<ERSOSection>..ctor
 	|
-	|-RVA: 0x149920 Offset: 0x148D20 VA: 0x180149920
 	|-List.Enumerator<ERSplatmap>..ctor
 	|
-	|-RVA: 0x11FAD0 Offset: 0x11EED0 VA: 0x18011FAD0
 	|-List.Enumerator<ERVSData>..ctor
 	|-List.Enumerator<SqliteKeyReader.KeyInfo>..ctor
 	|
-	|-RVA: 0x149AA0 Offset: 0x148EA0 VA: 0x180149AA0
 	|-List.Enumerator<BoneData>..ctor
 	|
-	|-RVA: 0x11F670 Offset: 0x11EA70 VA: 0x18011F670
 	|-List.Enumerator<Tick.Entry>..ctor
 	|-List.Enumerator<Gibbable.OverrideMesh>..ctor
 	|-List.Enumerator<MeshInstance>..ctor
@@ -173,32 +160,24 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<PlaceMonumentsRoadside.SpawnInfo>..ctor
 	|-List.Enumerator<SubsurfaceProfileTexture.SubsurfaceProfileEntry>..ctor
 	|
-	|-RVA: 0x149B10 Offset: 0x148F10 VA: 0x180149B10
 	|-List.Enumerator<FoliageGridMeshData.FoliageVertex>..ctor
 	|
-	|-RVA: 0x11F810 Offset: 0x11EC10 VA: 0x18011F810
 	|-List.Enumerator<SevenBitNumber>..ctor
 	|-List.Enumerator<bool>..ctor
 	|-List.Enumerator<byte>..ctor
 	|-List.Enumerator<sbyte>..ctor
 	|
-	|-RVA: 0x11FA50 Offset: 0x11EE50 VA: 0x18011FA50
 	|-List.Enumerator<MeshColliderInstance>..ctor
 	|
-	|-RVA: 0x11FBA0 Offset: 0x11EFA0 VA: 0x18011FBA0
 	|-List.Enumerator<MeshColliderLookup.LookupEntry>..ctor
 	|
-	|-RVA: 0x11FC00 Offset: 0x11F000 VA: 0x18011FC00
 	|-List.Enumerator<MeshRendererInstance>..ctor
 	|
-	|-RVA: 0x11F900 Offset: 0x11ED00 VA: 0x18011F900
 	|-List.Enumerator<DemoShotQuaternionKeyframe>..ctor
 	|
-	|-RVA: 0x11FB30 Offset: 0x11EF30 VA: 0x18011FB30
 	|-List.Enumerator<ServerInfo>..ctor
 	|-List.Enumerator<ServerInfo>..ctor
 	|
-	|-RVA: 0x11F950 Offset: 0x11ED50 VA: 0x18011F950
 	|-List.Enumerator<InventoryDefId>..ctor
 	|-List.Enumerator<int>..ctor
 	|-List.Enumerator<Int32Enum>..ctor
@@ -206,32 +185,25 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<uint>..ctor
 	|-List.Enumerator<Color32>..ctor
 	|
-	|-RVA: 0x11F710 Offset: 0x11EB10 VA: 0x18011F710
 	|-List.Enumerator<char>..ctor
 	|-List.Enumerator<short>..ctor
 	|-List.Enumerator<ushort>..ctor
 	|
-	|-RVA: 0x11F5C0 Offset: 0x11E9C0 VA: 0x18011F5C0
 	|-List.Enumerator<TraceInfo>..ctor
 	|-List.Enumerator<RaycastResult>..ctor
 	|
-	|-RVA: 0x11F9A0 Offset: 0x11EDA0 VA: 0x18011F9A0
 	|-List.Enumerator<NavMeshBuildSource>..ctor
 	|
-	|-RVA: 0x21C850 Offset: 0x21BC50 VA: 0x18021C850
 	|-List.Enumerator<RaycastHit2D>..ctor
 	|
-	|-RVA: 0x21C8A0 Offset: 0x21BCA0 VA: 0x18021C8A0
 	|-List.Enumerator<RaycastHit>..ctor
 	|
-	|-RVA: 0x21C900 Offset: 0x21BD00 VA: 0x18021C900
 	|-List.Enumerator<UIVertex>..ctor
 	*/
 
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF1EB0 Offset: 0xF12B0 VA: 0x1800F1EB0
 	|-List.Enumerator<AIMovePoint>.Dispose
 	|-List.Enumerator<AIState>.Dispose
 	|-List.Enumerator<AdvancedChristmasLights.pointEntry>.Dispose
@@ -678,7 +650,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x11CB00 Offset: 0x11BF00 VA: 0x18011CB00
 	|-List.Enumerator<AIMovePoint>.MoveNext
 	|-List.Enumerator<BaseAIEvent>.MoveNext
 	|-List.Enumerator<BaseBulb>.MoveNext
@@ -954,7 +925,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WearableHairCap>.MoveNext
 	|-List.Enumerator<WeightedAudioClip>.MoveNext
 	|
-	|-RVA: 0x11C700 Offset: 0x11BB00 VA: 0x18011C700
 	|-List.Enumerator<AIState>.MoveNext
 	|-List.Enumerator<ItemSlot>.MoveNext
 	|-List.Enumerator<InventoryDefId>.MoveNext
@@ -965,13 +935,11 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<Color32>.MoveNext
 	|-List.Enumerator<KeyCode>.MoveNext
 	|
-	|-RVA: 0x11D4C0 Offset: 0x11C8C0 VA: 0x18011D4C0
 	|-List.Enumerator<AdvancedChristmasLights.pointEntry>.MoveNext
 	|-List.Enumerator<AlignedLineDrawer.LinePoint>.MoveNext
 	|-List.Enumerator<ERChildsSO>.MoveNext
 	|-List.Enumerator<TickRenderer.Tick>.MoveNext
 	|
-	|-RVA: 0x11C8A0 Offset: 0x11BCA0 VA: 0x18011C8A0
 	|-List.Enumerator<AtmosphereVolumeRenderer.CurrentVolumeEntry>.MoveNext
 	|-List.Enumerator<DamageRenderer.DamageShowingRenderer>.MoveNext
 	|-List.Enumerator<DeferredExtensionMesh.MaterialLink>.MoveNext
@@ -998,10 +966,8 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<FocusController.FocusedElement>.MoveNext
 	|-List.Enumerator<WindZoneExManager.CurrentZoneEntry>.MoveNext
 	|
-	|-RVA: 0x148150 Offset: 0x147550 VA: 0x180148150
 	|-List.Enumerator<BaseEntity.ServerFileRequest>.MoveNext
 	|
-	|-RVA: 0x11D2F0 Offset: 0x11C6F0 VA: 0x18011D2F0
 	|-List.Enumerator<CardTableUI.KeycodeWithAction>.MoveNext
 	|-List.Enumerator<ItemSkinDirectory.Skin>.MoveNext
 	|-List.Enumerator<KeyframeView.UIKeyframeValue>.MoveNext
@@ -1009,7 +975,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<MidiConvar.NoteBinding>.MoveNext
 	|-List.Enumerator<Option>.MoveNext
 	|
-	|-RVA: 0x11C420 Offset: 0x11B820 VA: 0x18011C420
 	|-List.Enumerator<Cassette.LoadRequest>.MoveNext
 	|-List.Enumerator<Admin.ServerConvarInfo>.MoveNext
 	|-List.Enumerator<ExpandedLifeStats.GenericStatDisplay>.MoveNext
@@ -1020,20 +985,16 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<KeyValuePair<object, Color>>.MoveNext
 	|-List.Enumerator<UnitySynchronizationContext.WorkRequest>.MoveNext
 	|
-	|-RVA: 0x11D990 Offset: 0x11CD90 VA: 0x18011D990
 	|-List.Enumerator<Admin.PlayerInfo>.MoveNext
 	|-List.Enumerator<PlaceMonuments.SpawnInfo>.MoveNext
 	|
-	|-RVA: 0x148670 Offset: 0x147A70 VA: 0x180148670
 	|-List.Enumerator<Admin.ServerUGCInfo>.MoveNext
 	|
-	|-RVA: 0x11C960 Offset: 0x11BD60 VA: 0x18011C960
 	|-List.Enumerator<Chat.MuteEntry>.MoveNext
 	|-List.Enumerator<JsonPosition>.MoveNext
 	|-List.Enumerator<InventoryRecipe.Ingredient>.MoveNext
 	|-List.Enumerator<KeyValuePair<ulong, Dispatch.ResultCallback>>.MoveNext
 	|
-	|-RVA: 0x11C340 Offset: 0x11B740 VA: 0x18011C340
 	|-List.Enumerator<Demos.DemoInfo>.MoveNext
 	|-List.Enumerator<Output.Entry>.MoveNext
 	|-List.Enumerator<IconSkinPicker.SkinButtonSetup>.MoveNext
@@ -1042,7 +1003,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<SkinnedMultiMesh.Part>.MoveNext
 	|-List.Enumerator<SpecialPurposeCamera.RenderEntry>.MoveNext
 	|
-	|-RVA: 0x11BF00 Offset: 0x11B300 VA: 0x18011BF00
 	|-List.Enumerator<CRedge>.MoveNext
 	|-List.Enumerator<ProjectileWeaponMod.Modifier>.MoveNext
 	|-List.Enumerator<VectorData>.MoveNext
@@ -1051,7 +1011,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<UICharInfo>.MoveNext
 	|-List.Enumerator<Vector3>.MoveNext
 	|
-	|-RVA: 0x11CA40 Offset: 0x11BE40 VA: 0x18011CA40
 	|-List.Enumerator<ERCell>.MoveNext
 	|-List.Enumerator<ERConnectionGUIStatus>.MoveNext
 	|-List.Enumerator<ERTerrainChange>.MoveNext
@@ -1067,7 +1026,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<ulong>.MoveNext
 	|-List.Enumerator<Vector2i>.MoveNext
 	|
-	|-RVA: 0x11BFD0 Offset: 0x11B3D0 VA: 0x18011BFD0
 	|-List.Enumerator<ERLane>.MoveNext
 	|-List.Enumerator<MagnetCrane.MagnetCraneSnapshot>.MoveNext
 	|-List.Enumerator<DemoShotVectorKeyframe>.MoveNext
@@ -1083,50 +1041,38 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<Vector4>.MoveNext
 	|-List.Enumerator<WorldSplineData.LUTEntry.LUTPoint>.MoveNext
 	|
-	|-RVA: 0x147E30 Offset: 0x147230 VA: 0x180147E30
 	|-List.Enumerator<ERMeshCombineUtility.MeshInstance>.MoveNext
 	|-List.Enumerator<Option>.MoveNext
 	|
-	|-RVA: 0x1489C0 Offset: 0x147DC0 VA: 0x1801489C0
 	|-List.Enumerator<ERSOSection>.MoveNext
 	|
-	|-RVA: 0x148570 Offset: 0x147970 VA: 0x180148570
 	|-List.Enumerator<ERSplatmap>.MoveNext
 	|
-	|-RVA: 0x148480 Offset: 0x147880 VA: 0x180148480
 	|-List.Enumerator<ERVSData>.MoveNext
 	|
-	|-RVA: 0x11DD50 Offset: 0x11D150 VA: 0x18011DD50
 	|-List.Enumerator<EngineDamageOverTime.RecentDamage>.MoveNext
 	|-List.Enumerator<DemoShotFloatKeyframe>.MoveNext
 	|-List.Enumerator<Vector2>.MoveNext
 	|
-	|-RVA: 0x11C150 Offset: 0x11B550 VA: 0x18011C150
 	|-List.Enumerator<BurstCloth.Chain>.MoveNext
 	|-List.Enumerator<MeshRendererLookup.LookupEntry>.MoveNext
 	|-List.Enumerator<Achievement>.MoveNext
 	|
-	|-RVA: 0x11DB50 Offset: 0x11CF50 VA: 0x18011DB50
 	|-List.Enumerator<CapsuleParams>.MoveNext
 	|-List.Enumerator<SteamNewsSource.Story>.MoveNext
 	|-List.Enumerator<ViewModelDrawEvent>.MoveNext
 	|
-	|-RVA: 0x148050 Offset: 0x147450 VA: 0x180148050
 	|-List.Enumerator<BoneData>.MoveNext
 	|
-	|-RVA: 0x148390 Offset: 0x147790 VA: 0x180148390
 	|-List.Enumerator<SkeletonDefinition.Bone>.MoveNext
 	|
-	|-RVA: 0x11C7B0 Offset: 0x11BBB0 VA: 0x18011C7B0
 	|-List.Enumerator<Tick.Entry>.MoveNext
 	|-List.Enumerator<PlaceMonumentsOffshore.SpawnInfo>.MoveNext
 	|-List.Enumerator<PlaceMonumentsRailside.SpawnInfo>.MoveNext
 	|-List.Enumerator<PlaceMonumentsRoadside.SpawnInfo>.MoveNext
 	|
-	|-RVA: 0x147F40 Offset: 0x147340 VA: 0x180147F40
 	|-List.Enumerator<RenderInfo.RendererInstance>.MoveNext
 	|
-	|-RVA: 0x11CF50 Offset: 0x11C350 VA: 0x18011CF50
 	|-List.Enumerator<WeightedStringList.Container>.MoveNext
 	|-List.Enumerator<DemoShotParentKeyframe>.MoveNext
 	|-List.Enumerator<KeyValuePair<HairCapMask, Renderer>>.MoveNext
@@ -1136,94 +1082,69 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<KeyValuePair<uint, object>>.MoveNext
 	|-List.Enumerator<BeforeRenderHelper.OrderBlock>.MoveNext
 	|
-	|-RVA: 0x1488C0 Offset: 0x147CC0 VA: 0x1801488C0
 	|-List.Enumerator<FoliageGridMeshData.FoliageVertex>.MoveNext
 	|
-	|-RVA: 0x148B00 Offset: 0x147F00 VA: 0x180148B00
 	|-List.Enumerator<Gibbable.OverrideMesh>.MoveNext
 	|
-	|-RVA: 0x11D590 Offset: 0x11C990 VA: 0x18011D590
 	|-List.Enumerator<LocalClock.TimedEvent>.MoveNext
 	|-List.Enumerator<SynchronizedClock.TimedEvent>.MoveNext
 	|
-	|-RVA: 0x11CCC0 Offset: 0x11C0C0 VA: 0x18011CCC0
 	|-List.Enumerator<SevenBitNumber>.MoveNext
 	|-List.Enumerator<bool>.MoveNext
 	|-List.Enumerator<byte>.MoveNext
 	|-List.Enumerator<sbyte>.MoveNext
 	|
-	|-RVA: 0x11C500 Offset: 0x11B900 VA: 0x18011C500
 	|-List.Enumerator<MeshColliderInstance>.MoveNext
 	|
-	|-RVA: 0x11C210 Offset: 0x11B610 VA: 0x18011C210
 	|-List.Enumerator<MeshColliderLookup.LookupEntry>.MoveNext
 	|
-	|-RVA: 0x11D3D0 Offset: 0x11C7D0 VA: 0x18011D3D0
 	|-List.Enumerator<MeshInstance>.MoveNext
 	|-List.Enumerator<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.MoveNext
 	|
-	|-RVA: 0x11D870 Offset: 0x11CC70 VA: 0x18011D870
 	|-List.Enumerator<MeshRendererInstance>.MoveNext
 	|
-	|-RVA: 0x11CBC0 Offset: 0x11BFC0 VA: 0x18011CBC0
 	|-List.Enumerator<SqliteKeyReader.KeyInfo>.MoveNext
 	|
-	|-RVA: 0x11CE60 Offset: 0x11C260 VA: 0x18011CE60
 	|-List.Enumerator<PetCommandList.PetCommandDesc>.MoveNext
 	|
-	|-RVA: 0x11DA80 Offset: 0x11CE80 VA: 0x18011DA80
 	|-List.Enumerator<DemoShotQuaternionKeyframe>.MoveNext
 	|
-	|-RVA: 0x11CD80 Offset: 0x11C180 VA: 0x18011CD80
 	|-List.Enumerator<ReflectionProbeEx.CubemapSkyboxVertex>.MoveNext
 	|-List.Enumerator<RenderTargetIdentifier>.MoveNext
 	|-List.Enumerator<TreeInstance>.MoveNext
 	|
-	|-RVA: 0x11C620 Offset: 0x11BA20 VA: 0x18011C620
 	|-List.Enumerator<TransformSnapshot>.MoveNext
 	|-List.Enumerator<SubmarineSonar.SonarBlip>.MoveNext
 	|-List.Enumerator<SpawnIndividual>.MoveNext
 	|
-	|-RVA: 0x11D020 Offset: 0x11C420 VA: 0x18011D020
 	|-List.Enumerator<ServerInfo>.MoveNext
 	|
-	|-RVA: 0x11D770 Offset: 0x11CB70 VA: 0x18011D770
 	|-List.Enumerator<ServerInfo>.MoveNext
 	|
-	|-RVA: 0x11D200 Offset: 0x11C600 VA: 0x18011D200
 	|-List.Enumerator<InventoryItem.Amount>.MoveNext
 	|
-	|-RVA: 0x11D120 Offset: 0x11C520 VA: 0x18011D120
 	|-List.Enumerator<InventoryItem>.MoveNext
 	|
-	|-RVA: 0x11C090 Offset: 0x11B490 VA: 0x18011C090
 	|-List.Enumerator<char>.MoveNext
 	|-List.Enumerator<short>.MoveNext
 	|-List.Enumerator<ushort>.MoveNext
 	|
-	|-RVA: 0x11D670 Offset: 0x11CA70 VA: 0x18011D670
 	|-List.Enumerator<TraceInfo>.MoveNext
 	|
-	|-RVA: 0x11DC40 Offset: 0x11D040 VA: 0x18011DC40
 	|-List.Enumerator<NavMeshBuildSource>.MoveNext
 	|
-	|-RVA: 0x21C1D0 Offset: 0x21B5D0 VA: 0x18021C1D0
 	|-List.Enumerator<RaycastResult>.MoveNext
 	|
-	|-RVA: 0x21C2E0 Offset: 0x21B6E0 VA: 0x18021C2E0
 	|-List.Enumerator<RaycastHit2D>.MoveNext
 	|
-	|-RVA: 0x21C0E0 Offset: 0x21B4E0 VA: 0x18021C0E0
 	|-List.Enumerator<RaycastHit>.MoveNext
 	|
-	|-RVA: 0x21C3C0 Offset: 0x21B7C0 VA: 0x18021C3C0
 	|-List.Enumerator<UIVertex>.MoveNext
 	*/
 
 	private bool MoveNextRare() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x11BA20 Offset: 0x11AE20 VA: 0x18011BA20
 	|-List.Enumerator<AdvancedChristmasLights.pointEntry>.MoveNextRare
 	|-List.Enumerator<AlignedLineDrawer.LinePoint>.MoveNextRare
 	|-List.Enumerator<Cassette.LoadRequest>.MoveNextRare
@@ -1244,7 +1165,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<KeyValuePair<ulong, Dispatch.ResultCallback>>.MoveNextRare
 	|-List.Enumerator<UnitySynchronizationContext.WorkRequest>.MoveNextRare
 	|
-	|-RVA: 0x11BA70 Offset: 0x11AE70 VA: 0x18011BA70
 	|-List.Enumerator<AtmosphereVolumeRenderer.CurrentVolumeEntry>.MoveNextRare
 	|-List.Enumerator<DamageRenderer.DamageShowingRenderer>.MoveNextRare
 	|-List.Enumerator<DeferredExtensionMesh.MaterialLink>.MoveNextRare
@@ -1290,7 +1210,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WindZoneExManager.CurrentZoneEntry>.MoveNextRare
 	|-List.Enumerator<WorldSplineData.LUTEntry.LUTPoint>.MoveNextRare
 	|
-	|-RVA: 0x11B930 Offset: 0x11AD30 VA: 0x18011B930
 	|-List.Enumerator<BaseEntity.ServerFileRequest>.MoveNextRare
 	|-List.Enumerator<CardTableUI.KeycodeWithAction>.MoveNextRare
 	|-List.Enumerator<Demos.DemoInfo>.MoveNextRare
@@ -1310,11 +1229,9 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<SpecialPurposeCamera.RenderEntry>.MoveNextRare
 	|-List.Enumerator<InventoryItem>.MoveNextRare
 	|
-	|-RVA: 0x11BE30 Offset: 0x11B230 VA: 0x18011BE30
 	|-List.Enumerator<Admin.PlayerInfo>.MoveNextRare
 	|-List.Enumerator<PlaceMonuments.SpawnInfo>.MoveNextRare
 	|
-	|-RVA: 0x11BAC0 Offset: 0x11AEC0 VA: 0x18011BAC0
 	|-List.Enumerator<Admin.ServerUGCInfo>.MoveNextRare
 	|-List.Enumerator<CapsuleParams>.MoveNextRare
 	|-List.Enumerator<SkeletonDefinition.Bone>.MoveNextRare
@@ -1325,7 +1242,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<TreeInstance>.MoveNextRare
 	|-List.Enumerator<ViewModelDrawEvent>.MoveNextRare
 	|
-	|-RVA: 0x11BBE0 Offset: 0x11AFE0 VA: 0x18011BBE0
 	|-List.Enumerator<CRedge>.MoveNextRare
 	|-List.Enumerator<ProjectileWeaponMod.Modifier>.MoveNextRare
 	|-List.Enumerator<VectorData>.MoveNextRare
@@ -1334,7 +1250,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<UICharInfo>.MoveNextRare
 	|-List.Enumerator<Vector3>.MoveNextRare
 	|
-	|-RVA: 0x11B9D0 Offset: 0x11ADD0 VA: 0x18011B9D0
 	|-List.Enumerator<ERCell>.MoveNextRare
 	|-List.Enumerator<ERConnectionGUIStatus>.MoveNextRare
 	|-List.Enumerator<ERTerrainChange>.MoveNextRare
@@ -1357,25 +1272,19 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<Vector2>.MoveNextRare
 	|-List.Enumerator<Vector2i>.MoveNextRare
 	|
-	|-RVA: 0x147AE0 Offset: 0x146EE0 VA: 0x180147AE0
 	|-List.Enumerator<ERMeshCombineUtility.MeshInstance>.MoveNextRare
 	|-List.Enumerator<RenderInfo.RendererInstance>.MoveNextRare
 	|-List.Enumerator<Option>.MoveNextRare
 	|
-	|-RVA: 0x147C70 Offset: 0x147070 VA: 0x180147C70
 	|-List.Enumerator<ERSOSection>.MoveNextRare
 	|
-	|-RVA: 0x147B40 Offset: 0x146F40 VA: 0x180147B40
 	|-List.Enumerator<ERSplatmap>.MoveNextRare
 	|
-	|-RVA: 0x11BD60 Offset: 0x11B160 VA: 0x18011BD60
 	|-List.Enumerator<ERVSData>.MoveNextRare
 	|-List.Enumerator<SqliteKeyReader.KeyInfo>.MoveNextRare
 	|
-	|-RVA: 0x147C00 Offset: 0x147000 VA: 0x180147C00
 	|-List.Enumerator<BoneData>.MoveNextRare
 	|
-	|-RVA: 0x11BB20 Offset: 0x11AF20 VA: 0x18011BB20
 	|-List.Enumerator<Tick.Entry>.MoveNextRare
 	|-List.Enumerator<Gibbable.OverrideMesh>.MoveNextRare
 	|-List.Enumerator<MeshInstance>.MoveNextRare
@@ -1385,32 +1294,24 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<PlaceMonumentsRoadside.SpawnInfo>.MoveNextRare
 	|-List.Enumerator<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.MoveNextRare
 	|
-	|-RVA: 0x147BA0 Offset: 0x146FA0 VA: 0x180147BA0
 	|-List.Enumerator<FoliageGridMeshData.FoliageVertex>.MoveNextRare
 	|
-	|-RVA: 0x11B8E0 Offset: 0x11ACE0 VA: 0x18011B8E0
 	|-List.Enumerator<SevenBitNumber>.MoveNextRare
 	|-List.Enumerator<bool>.MoveNextRare
 	|-List.Enumerator<byte>.MoveNextRare
 	|-List.Enumerator<sbyte>.MoveNextRare
 	|
-	|-RVA: 0x11BD50 Offset: 0x11B150 VA: 0x18011BD50
 	|-List.Enumerator<MeshColliderInstance>.MoveNextRare
 	|
-	|-RVA: 0x11BE90 Offset: 0x11B290 VA: 0x18011BE90
 	|-List.Enumerator<MeshColliderLookup.LookupEntry>.MoveNextRare
 	|
-	|-RVA: 0x11BCF0 Offset: 0x11B0F0 VA: 0x18011BCF0
 	|-List.Enumerator<MeshRendererInstance>.MoveNextRare
 	|
-	|-RVA: 0x11BD00 Offset: 0x11B100 VA: 0x18011BD00
 	|-List.Enumerator<DemoShotQuaternionKeyframe>.MoveNextRare
 	|
-	|-RVA: 0x11BC80 Offset: 0x11B080 VA: 0x18011BC80
 	|-List.Enumerator<ServerInfo>.MoveNextRare
 	|-List.Enumerator<ServerInfo>.MoveNextRare
 	|
-	|-RVA: 0x11B980 Offset: 0x11AD80 VA: 0x18011B980
 	|-List.Enumerator<InventoryDefId>.MoveNextRare
 	|-List.Enumerator<int>.MoveNextRare
 	|-List.Enumerator<Int32Enum>.MoveNextRare
@@ -1418,32 +1319,25 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<uint>.MoveNextRare
 	|-List.Enumerator<Color32>.MoveNextRare
 	|
-	|-RVA: 0x11BC30 Offset: 0x11B030 VA: 0x18011BC30
 	|-List.Enumerator<char>.MoveNextRare
 	|-List.Enumerator<short>.MoveNextRare
 	|-List.Enumerator<ushort>.MoveNextRare
 	|
-	|-RVA: 0x11BB80 Offset: 0x11AF80 VA: 0x18011BB80
 	|-List.Enumerator<TraceInfo>.MoveNextRare
 	|-List.Enumerator<RaycastResult>.MoveNextRare
 	|
-	|-RVA: 0x11BDC0 Offset: 0x11B1C0 VA: 0x18011BDC0
 	|-List.Enumerator<NavMeshBuildSource>.MoveNextRare
 	|
-	|-RVA: 0x21C080 Offset: 0x21B480 VA: 0x18021C080
 	|-List.Enumerator<RaycastHit2D>.MoveNextRare
 	|
-	|-RVA: 0x21C020 Offset: 0x21B420 VA: 0x18021C020
 	|-List.Enumerator<RaycastHit>.MoveNextRare
 	|
-	|-RVA: 0x21BFC0 Offset: 0x21B3C0 VA: 0x18021BFC0
 	|-List.Enumerator<UIVertex>.MoveNextRare
 	*/
 
 	public T get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF3EE0 Offset: 0xF32E0 VA: 0x1800F3EE0
 	|-List.Enumerator<AIMovePoint>.get_Current
 	|-List.Enumerator<BaseAIEvent>.get_Current
 	|-List.Enumerator<BaseBulb>.get_Current
@@ -1735,7 +1629,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WeakReference>.get_Current
 	|-List.Enumerator<WeakReference<EtwSession>>.get_Current
 	|
-	|-RVA: 0xF3EB0 Offset: 0xF32B0 VA: 0x1800F3EB0
 	|-List.Enumerator<AIState>.get_Current
 	|-List.Enumerator<ItemSlot>.get_Current
 	|-List.Enumerator<uint>.get_Current
@@ -1745,7 +1638,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<Int32Enum>.get_Current
 	|-List.Enumerator<Color32>.get_Current
 	|
-	|-RVA: 0x116AB0 Offset: 0x115EB0 VA: 0x180116AB0
 	|-List.Enumerator<AlignedLineDrawer.LinePoint>.get_Current
 	|-List.Enumerator<Chat.MuteEntry>.get_Current
 	|-List.Enumerator<ExpandedLifeStats.GenericStatDisplay>.get_Current
@@ -1766,7 +1658,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<KeyValuePair<ulong, Dispatch.ResultCallback>>.get_Current
 	|-List.Enumerator<UnitySynchronizationContext.WorkRequest>.get_Current
 	|
-	|-RVA: 0x116A70 Offset: 0x115E70 VA: 0x180116A70
 	|-List.Enumerator<CardTableUI.KeycodeWithAction>.get_Current
 	|-List.Enumerator<IconSkinPicker.SkinButtonSetup>.get_Current
 	|-List.Enumerator<InvokeAction>.get_Current
@@ -1786,7 +1677,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<SpecialPurposeCamera.RenderEntry>.get_Current
 	|-List.Enumerator<InventoryItem>.get_Current
 	|
-	|-RVA: 0x116AD0 Offset: 0x115ED0 VA: 0x180116AD0
 	|-List.Enumerator<Admin.ServerUGCInfo>.get_Current
 	|-List.Enumerator<CapsuleParams>.get_Current
 	|-List.Enumerator<ViewModelDrawEvent>.get_Current
@@ -1797,7 +1687,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<RenderTargetIdentifier>.get_Current
 	|-List.Enumerator<TreeInstance>.get_Current
 	|
-	|-RVA: 0x10AB30 Offset: 0x109F30 VA: 0x18010AB30
 	|-List.Enumerator<DamageRenderer.DamageShowingRenderer>.get_Current
 	|-List.Enumerator<DeferredMeshDecal.MaterialLink>.get_Current
 	|-List.Enumerator<CombineClass>.get_Current
@@ -1846,18 +1735,14 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WindZoneExManager.CurrentZoneEntry>.get_Current
 	|-List.Enumerator<WorldSplineData.LUTEntry.LUTPoint>.get_Current
 	|
-	|-RVA: 0x149C50 Offset: 0x149050 VA: 0x180149C50
 	|-List.Enumerator<ERSplatmap>.get_Current
 	|
-	|-RVA: 0x149C80 Offset: 0x149080 VA: 0x180149C80
 	|-List.Enumerator<BoneData>.get_Current
 	|
-	|-RVA: 0x149C10 Offset: 0x149010 VA: 0x180149C10
 	|-List.Enumerator<Option>.get_Current
 	|-List.Enumerator<ERMeshCombineUtility.MeshInstance>.get_Current
 	|-List.Enumerator<RenderInfo.RendererInstance>.get_Current
 	|
-	|-RVA: 0x11FCA0 Offset: 0x11F0A0 VA: 0x18011FCA0
 	|-List.Enumerator<PetCommandList.PetCommandDesc>.get_Current
 	|-List.Enumerator<PlaceMonumentsOffshore.SpawnInfo>.get_Current
 	|-List.Enumerator<PlaceMonumentsRailside.SpawnInfo>.get_Current
@@ -1867,19 +1752,15 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<MeshInstance>.get_Current
 	|-List.Enumerator<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.get_Current
 	|
-	|-RVA: 0x11FC70 Offset: 0x11F070 VA: 0x18011FC70
 	|-List.Enumerator<PlaceMonuments.SpawnInfo>.get_Current
 	|-List.Enumerator<Admin.PlayerInfo>.get_Current
 	|
-	|-RVA: 0x11FD50 Offset: 0x11F150 VA: 0x18011FD50
 	|-List.Enumerator<DemoShotFloatKeyframe>.get_Current
 	|-List.Enumerator<Vector2>.get_Current
 	|-List.Enumerator<EngineDamageOverTime.RecentDamage>.get_Current
 	|
-	|-RVA: 0x11FCF0 Offset: 0x11F0F0 VA: 0x18011FCF0
 	|-List.Enumerator<DemoShotQuaternionKeyframe>.get_Current
 	|
-	|-RVA: 0x116A90 Offset: 0x115E90 VA: 0x180116A90
 	|-List.Enumerator<VectorData>.get_Current
 	|-List.Enumerator<Resolution>.get_Current
 	|-List.Enumerator<Vector3>.get_Current
@@ -1888,67 +1769,50 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<TrainCar.TrainCarSnapshot>.get_Current
 	|-List.Enumerator<UICharInfo>.get_Current
 	|
-	|-RVA: 0x11FE40 Offset: 0x11F240 VA: 0x18011FE40
 	|-List.Enumerator<ServerInfo>.get_Current
 	|-List.Enumerator<ServerInfo>.get_Current
 	|
-	|-RVA: 0x10AB50 Offset: 0x109F50 VA: 0x18010AB50
 	|-List.Enumerator<bool>.get_Current
 	|-List.Enumerator<SevenBitNumber>.get_Current
 	|-List.Enumerator<byte>.get_Current
 	|-List.Enumerator<sbyte>.get_Current
 	|
-	|-RVA: 0x11FD10 Offset: 0x11F110 VA: 0x18011FD10
 	|-List.Enumerator<NavMeshBuildSource>.get_Current
 	|
-	|-RVA: 0x11FED0 Offset: 0x11F2D0 VA: 0x18011FED0
 	|-List.Enumerator<RaycastResult>.get_Current
 	|-List.Enumerator<TraceInfo>.get_Current
 	|
-	|-RVA: 0x21C9C0 Offset: 0x21BDC0 VA: 0x18021C9C0
 	|-List.Enumerator<RaycastHit>.get_Current
 	|
-	|-RVA: 0x149B70 Offset: 0x148F70 VA: 0x180149B70
 	|-List.Enumerator<ERSOSection>.get_Current
 	|
-	|-RVA: 0x11FCC0 Offset: 0x11F0C0 VA: 0x18011FCC0
 	|-List.Enumerator<ERVSData>.get_Current
 	|-List.Enumerator<SqliteKeyReader.KeyInfo>.get_Current
 	|
-	|-RVA: 0x149BE0 Offset: 0x148FE0 VA: 0x180149BE0
 	|-List.Enumerator<FoliageGridMeshData.FoliageVertex>.get_Current
 	|
-	|-RVA: 0x11FD70 Offset: 0x11F170 VA: 0x18011FD70
 	|-List.Enumerator<MeshColliderInstance>.get_Current
 	|
-	|-RVA: 0x11FE90 Offset: 0x11F290 VA: 0x18011FE90
 	|-List.Enumerator<MeshColliderLookup.LookupEntry>.get_Current
 	|
-	|-RVA: 0x11FDE0 Offset: 0x11F1E0 VA: 0x18011FDE0
 	|-List.Enumerator<MeshRendererInstance>.get_Current
 	|
-	|-RVA: 0x10AB20 Offset: 0x109F20 VA: 0x18010AB20
 	|-List.Enumerator<char>.get_Current
 	|-List.Enumerator<short>.get_Current
 	|-List.Enumerator<ushort>.get_Current
 	|
-	|-RVA: 0x10AB40 Offset: 0x109F40 VA: 0x18010AB40
 	|-List.Enumerator<double>.get_Current
 	|
-	|-RVA: 0x116A60 Offset: 0x115E60 VA: 0x180116A60
 	|-List.Enumerator<float>.get_Current
 	|
-	|-RVA: 0x21C9A0 Offset: 0x21BDA0 VA: 0x18021C9A0
 	|-List.Enumerator<RaycastHit2D>.get_Current
 	|
-	|-RVA: 0x21C960 Offset: 0x21BD60 VA: 0x18021C960
 	|-List.Enumerator<UIVertex>.get_Current
 	*/
 
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x11E700 Offset: 0x11DB00 VA: 0x18011E700
 	|-List.Enumerator<AdvancedChristmasLights.pointEntry>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<AlignedLineDrawer.LinePoint>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<Cassette.LoadRequest>.System.Collections.IEnumerator.get_Current
@@ -1969,7 +1833,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<KeyValuePair<ulong, Dispatch.ResultCallback>>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<UnitySynchronizationContext.WorkRequest>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11E650 Offset: 0x11DA50 VA: 0x18011E650
 	|-List.Enumerator<AtmosphereVolumeRenderer.CurrentVolumeEntry>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<DamageRenderer.DamageShowingRenderer>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<DeferredExtensionMesh.MaterialLink>.System.Collections.IEnumerator.get_Current
@@ -2015,7 +1878,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WindZoneExManager.CurrentZoneEntry>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11E420 Offset: 0x11D820 VA: 0x18011E420
 	|-List.Enumerator<BaseEntity.ServerFileRequest>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<CardTableUI.KeycodeWithAction>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<Demos.DemoInfo>.System.Collections.IEnumerator.get_Current
@@ -2035,11 +1897,9 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<SpecialPurposeCamera.RenderEntry>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<InventoryItem>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11EC60 Offset: 0x11E060 VA: 0x18011EC60
 	|-List.Enumerator<Admin.PlayerInfo>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<PlaceMonuments.SpawnInfo>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11EB90 Offset: 0x11DF90 VA: 0x18011EB90
 	|-List.Enumerator<Admin.ServerUGCInfo>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<CapsuleParams>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<SkeletonDefinition.Bone>.System.Collections.IEnumerator.get_Current
@@ -2050,7 +1910,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<TreeInstance>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<ViewModelDrawEvent>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11E4E0 Offset: 0x11D8E0 VA: 0x18011E4E0
 	|-List.Enumerator<CRedge>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<ProjectileWeaponMod.Modifier>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<VectorData>.System.Collections.IEnumerator.get_Current
@@ -2059,7 +1918,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<UICharInfo>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<Vector3>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11E870 Offset: 0x11DC70 VA: 0x18011E870
 	|-List.Enumerator<ERCell>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<ERConnectionGUIStatus>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<ERTerrainChange>.System.Collections.IEnumerator.get_Current
@@ -2077,31 +1935,24 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<ulong>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<Vector2i>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x149290 Offset: 0x148690 VA: 0x180149290
 	|-List.Enumerator<ERMeshCombineUtility.MeshInstance>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<RenderInfo.RendererInstance>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<Option>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x149170 Offset: 0x148570 VA: 0x180149170
 	|-List.Enumerator<ERSOSection>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x148F80 Offset: 0x148380 VA: 0x180148F80
 	|-List.Enumerator<ERSplatmap>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11F410 Offset: 0x11E810 VA: 0x18011F410
 	|-List.Enumerator<ERVSData>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<SqliteKeyReader.KeyInfo>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11E5A0 Offset: 0x11D9A0 VA: 0x18011E5A0
 	|-List.Enumerator<EngineDamageOverTime.RecentDamage>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<DemoShotFloatKeyframe>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<double>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<Vector2>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x149060 Offset: 0x148460 VA: 0x180149060
 	|-List.Enumerator<BoneData>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11E920 Offset: 0x11DD20 VA: 0x18011E920
 	|-List.Enumerator<Tick.Entry>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<Gibbable.OverrideMesh>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<MeshInstance>.System.Collections.IEnumerator.get_Current
@@ -2111,70 +1962,53 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<PlaceMonumentsRoadside.SpawnInfo>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x149380 Offset: 0x148780 VA: 0x180149380
 	|-List.Enumerator<FoliageGridMeshData.FoliageVertex>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11EF60 Offset: 0x11E360 VA: 0x18011EF60
 	|-List.Enumerator<SevenBitNumber>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<bool>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<byte>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<sbyte>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11F010 Offset: 0x11E410 VA: 0x18011F010
 	|-List.Enumerator<MeshColliderInstance>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11E9E0 Offset: 0x11DDE0 VA: 0x18011E9E0
 	|-List.Enumerator<MeshColliderLookup.LookupEntry>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11ED30 Offset: 0x11E130 VA: 0x18011ED30
 	|-List.Enumerator<MeshRendererInstance>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11F350 Offset: 0x11E750 VA: 0x18011F350
 	|-List.Enumerator<DemoShotQuaternionKeyframe>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11F140 Offset: 0x11E540 VA: 0x18011F140
 	|-List.Enumerator<ServerInfo>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<ServerInfo>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11E7C0 Offset: 0x11DBC0 VA: 0x18011E7C0
 	|-List.Enumerator<InventoryDefId>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<int>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<Int32Enum>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<uint>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<Color32>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11EAE0 Offset: 0x11DEE0 VA: 0x18011EAE0
 	|-List.Enumerator<char>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<short>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<ushort>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11EF00 Offset: 0x11E300 VA: 0x18011EF00
 	|-List.Enumerator<object>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11EE50 Offset: 0x11E250 VA: 0x18011EE50
 	|-List.Enumerator<float>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11F4E0 Offset: 0x11E8E0 VA: 0x18011F4E0
 	|-List.Enumerator<TraceInfo>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<RaycastResult>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x11F250 Offset: 0x11E650 VA: 0x18011F250
 	|-List.Enumerator<NavMeshBuildSource>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x21C790 Offset: 0x21BB90 VA: 0x18021C790
 	|-List.Enumerator<RaycastHit2D>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x21C6C0 Offset: 0x21BAC0 VA: 0x18021C6C0
 	|-List.Enumerator<RaycastHit>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x21C5D0 Offset: 0x21B9D0 VA: 0x18021C5D0
 	|-List.Enumerator<UIVertex>.System.Collections.IEnumerator.get_Current
 	*/
 
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x11DE60 Offset: 0x11D260 VA: 0x18011DE60
 	|-List.Enumerator<AdvancedChristmasLights.pointEntry>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<AlignedLineDrawer.LinePoint>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<Cassette.LoadRequest>.System.Collections.IEnumerator.Reset
@@ -2195,7 +2029,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<KeyValuePair<ulong, Dispatch.ResultCallback>>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<UnitySynchronizationContext.WorkRequest>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11DFA0 Offset: 0x11D3A0 VA: 0x18011DFA0
 	|-List.Enumerator<AtmosphereVolumeRenderer.CurrentVolumeEntry>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<DamageRenderer.DamageShowingRenderer>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<DeferredExtensionMesh.MaterialLink>.System.Collections.IEnumerator.Reset
@@ -2241,7 +2074,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WindZoneExManager.CurrentZoneEntry>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11E0B0 Offset: 0x11D4B0 VA: 0x18011E0B0
 	|-List.Enumerator<BaseEntity.ServerFileRequest>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<CardTableUI.KeycodeWithAction>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<Demos.DemoInfo>.System.Collections.IEnumerator.Reset
@@ -2261,11 +2093,9 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<SpecialPurposeCamera.RenderEntry>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<InventoryItem>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11DE10 Offset: 0x11D210 VA: 0x18011DE10
 	|-List.Enumerator<Admin.PlayerInfo>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<PlaceMonuments.SpawnInfo>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11DFE0 Offset: 0x11D3E0 VA: 0x18011DFE0
 	|-List.Enumerator<Admin.ServerUGCInfo>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<CapsuleParams>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<SkeletonDefinition.Bone>.System.Collections.IEnumerator.Reset
@@ -2276,7 +2106,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<TreeInstance>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<ViewModelDrawEvent>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11E100 Offset: 0x11D500 VA: 0x18011E100
 	|-List.Enumerator<CRedge>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<ProjectileWeaponMod.Modifier>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<VectorData>.System.Collections.IEnumerator.Reset
@@ -2285,7 +2114,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<UICharInfo>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<Vector3>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11DEF0 Offset: 0x11D2F0 VA: 0x18011DEF0
 	|-List.Enumerator<ERCell>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<ERConnectionGUIStatus>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<ERTerrainChange>.System.Collections.IEnumerator.Reset
@@ -2308,25 +2136,19 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<Vector2>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<Vector2i>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x148CF0 Offset: 0x1480F0 VA: 0x180148CF0
 	|-List.Enumerator<ERMeshCombineUtility.MeshInstance>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<RenderInfo.RendererInstance>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<Option>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x148D50 Offset: 0x148150 VA: 0x180148D50
 	|-List.Enumerator<ERSOSection>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x148DA0 Offset: 0x1481A0 VA: 0x180148DA0
 	|-List.Enumerator<ERSplatmap>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11E200 Offset: 0x11D600 VA: 0x18011E200
 	|-List.Enumerator<ERVSData>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<SqliteKeyReader.KeyInfo>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x148C80 Offset: 0x148080 VA: 0x180148C80
 	|-List.Enumerator<BoneData>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11E140 Offset: 0x11D540 VA: 0x18011E140
 	|-List.Enumerator<Tick.Entry>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<Gibbable.OverrideMesh>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<MeshInstance>.System.Collections.IEnumerator.Reset
@@ -2336,32 +2158,24 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<PlaceMonumentsRoadside.SpawnInfo>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<SubsurfaceProfileTexture.SubsurfaceProfileEntry>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x148DF0 Offset: 0x1481F0 VA: 0x180148DF0
 	|-List.Enumerator<FoliageGridMeshData.FoliageVertex>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11E030 Offset: 0x11D430 VA: 0x18011E030
 	|-List.Enumerator<SevenBitNumber>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<bool>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<byte>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<sbyte>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11E2A0 Offset: 0x11D6A0 VA: 0x18011E2A0
 	|-List.Enumerator<MeshColliderInstance>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11E360 Offset: 0x11D760 VA: 0x18011E360
 	|-List.Enumerator<MeshColliderLookup.LookupEntry>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11E190 Offset: 0x11D590 VA: 0x18011E190
 	|-List.Enumerator<MeshRendererInstance>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11E250 Offset: 0x11D650 VA: 0x18011E250
 	|-List.Enumerator<DemoShotQuaternionKeyframe>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11DF30 Offset: 0x11D330 VA: 0x18011DF30
 	|-List.Enumerator<ServerInfo>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<ServerInfo>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11DEB0 Offset: 0x11D2B0 VA: 0x18011DEB0
 	|-List.Enumerator<InventoryDefId>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<int>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<Int32Enum>.System.Collections.IEnumerator.Reset
@@ -2369,25 +2183,19 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<uint>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<Color32>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11E070 Offset: 0x11D470 VA: 0x18011E070
 	|-List.Enumerator<char>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<short>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<ushort>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11E310 Offset: 0x11D710 VA: 0x18011E310
 	|-List.Enumerator<TraceInfo>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<RaycastResult>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x11E3C0 Offset: 0x11D7C0 VA: 0x18011E3C0
 	|-List.Enumerator<NavMeshBuildSource>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x21C4D0 Offset: 0x21B8D0 VA: 0x18021C4D0
 	|-List.Enumerator<RaycastHit2D>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x21C580 Offset: 0x21B980 VA: 0x18021C580
 	|-List.Enumerator<RaycastHit>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x21C520 Offset: 0x21B920 VA: 0x18021C520
 	|-List.Enumerator<UIVertex>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -2399,7 +2207,6 @@ public static class List // TypeDefIndex: 4843
 	public static void Compare<T, TListA, TListB>(TListA a, TListB b, List<T> added, List<T> removed, List<T> remained) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15731F0 Offset: 0x15717F0 VA: 0x1815731F0
 	|-List.Compare<Connection, List<Connection>, List<Connection>>
 	|-List.Compare<Group, ListHashSet<Group>, List<Group>>
 	|-List.Compare<object, object, object>
@@ -2409,11 +2216,9 @@ public static class List // TypeDefIndex: 4843
 	public static void Compare<TListA, TListB, TItemA, TItemB, TKey>(TListA a, TListB b, HashSet<TKey> added, HashSet<TKey> removed, HashSet<TKey> remained, Func<TItemA, TKey> selectorA, Func<TItemB, TKey> selectorB) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1573550 Offset: 0x1571B50 VA: 0x181573550
 	|-List.Compare<Dictionary.KeyCollection<ulong, RelationshipManager.PlayerRelationshipInfo>, List<RelationshipManager.PlayerRelationshipInfo>, ulong, RelationshipManager.PlayerRelationshipInfo, ulong>
 	|-List.Compare<object, object, ulong, object, ulong>
 	|
-	|-RVA: 0x1572BF0 Offset: 0x15711F0 VA: 0x181572BF0
 	|-List.Compare<object, object, object, object, object>
 	*/
 
@@ -2421,15 +2226,12 @@ public static class List // TypeDefIndex: 4843
 	public static TItem FindWith<TItem, TKey>(IReadOnlyCollection<TItem> items, Func<TItem, TKey> selector, TKey search, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B86C0 Offset: 0x15B6CC0 VA: 0x1815B86C0
 	|-List.FindWith<Manifest.NewsInfo.BlogInfo, string>
 	|-List.FindWith<object, object>
 	|
-	|-RVA: 0x15B8940 Offset: 0x15B6F40 VA: 0x1815B8940
 	|-List.FindWith<MarketTerminal.PendingOrder, uint>
 	|-List.FindWith<object, uint>
 	|
-	|-RVA: 0x15B8BC0 Offset: 0x15B71C0 VA: 0x1815B8BC0
 	|-List.FindWith<PlayerTeam.TeamMember, ulong>
 	|-List.FindWith<object, ulong>
 	*/
@@ -2438,7 +2240,6 @@ public static class List // TypeDefIndex: 4843
 	public static Nullable<TItem> TryFindWith<TItem, TKey>(IReadOnlyCollection<TItem> items, Func<TItem, TKey> selector, TKey search, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED5740 Offset: 0xED3D40 VA: 0x180ED5740
 	|-List.TryFindWith<ImageStorageEntity.ImageRequest, IImageReceiver>
 	|-List.TryFindWith<ImageStorageEntity.ImageRequest, object>
 	*/
@@ -2447,7 +2248,6 @@ public static class List // TypeDefIndex: 4843
 	public static int FindIndexWith<TItem, TKey>(IReadOnlyList<TItem> items, Func<TItem, TKey> selector, TKey search) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1179F20 Offset: 0x1178520 VA: 0x181179F20
 	|-List.FindIndexWith<object, object>
 	*/
 
@@ -2455,10 +2255,8 @@ public static class List // TypeDefIndex: 4843
 	internal static void <Compare>g__InitializeWith|1_0<TListA, TListB, TItemA, TItemB, TKey>(HashSet<TKey> set, HashSet<TKey> values) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1573BB0 Offset: 0x15721B0 VA: 0x181573BB0
 	|-List.<Compare>g__InitializeWith|1_0<object, object, object, object, object>
 	|
-	|-RVA: 0x1573DA0 Offset: 0x15723A0 VA: 0x181573DA0
 	|-List.<Compare>g__InitializeWith|1_0<object, object, ulong, object, ulong>
 	*/
 

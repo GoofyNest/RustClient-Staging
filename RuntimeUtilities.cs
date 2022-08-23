@@ -142,14 +142,12 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 	public static IEnumerable<T> GetAllSceneObjects<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD03AD0 Offset: 0xD020D0 VA: 0x180D03AD0
 	|-RuntimeUtilities.GetAllSceneObjects<object>
 	*/
 
 	public static void CreateIfNull<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D3C10 Offset: 0x5D2210 VA: 0x1805D3C10
 	|-RuntimeUtilities.CreateIfNull<List<PostProcessLayer.SerializedBundleRef>>
 	|-RuntimeUtilities.CreateIfNull<object>
 	|-RuntimeUtilities.CreateIfNull<Dithering>
@@ -179,7 +177,6 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 	public static T GetAttribute<T>(Type type) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9E00 Offset: 0x15B8400 VA: 0x1815B9E00
 	|-RuntimeUtilities.GetAttribute<object>
 	|-RuntimeUtilities.GetAttribute<PostProcessAttribute>
 	*/
@@ -187,14 +184,12 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 	public static Attribute[] GetMemberAttributes<TType, TValue>(Expression<Func<TType, TValue>> expr) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125F710 Offset: 0x125DD10 VA: 0x18125F710
 	|-RuntimeUtilities.GetMemberAttributes<object, object>
 	*/
 
 	public static string GetFieldPath<TType, TValue>(Expression<Func<TType, TValue>> expr) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED8F90 Offset: 0xED7590 VA: 0x180ED8F90
 	|-RuntimeUtilities.GetFieldPath<object, object>
 	*/
 
@@ -219,7 +214,6 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x144AC10 Offset: 0x1449210 VA: 0x18144AC10
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>..ctor
 	*/
 
@@ -227,21 +221,18 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B4600 Offset: 0x19B2C00 VA: 0x1819B4600
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.IDisposable.Dispose
 	*/
 
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B4110 Offset: 0x19B2710 VA: 0x1819B4110
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.MoveNext
 	*/
 
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B4680 Offset: 0x19B2C80 VA: 0x1819B4680
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.<>m__Finally1
 	*/
 
@@ -249,7 +240,6 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private T System.Collections.Generic.IEnumerator<T>.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.Collections.Generic.IEnumerator<T>.get_Current
 	*/
 
@@ -257,7 +247,6 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B45B0 Offset: 0x19B2BB0 VA: 0x1819B45B0
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -265,7 +254,6 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.Collections.IEnumerator.get_Current
 	*/
 
@@ -273,7 +261,6 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B44E0 Offset: 0x19B2AE0 VA: 0x1819B44E0
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
@@ -281,7 +268,6 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B4580 Offset: 0x19B2B80 VA: 0x1819B4580
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 

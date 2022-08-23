@@ -10,7 +10,6 @@ public static class Volatile // TypeDefIndex: 836
 	public static T Read<T>(ref T location) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBE0FA0 Offset: 0xBDF5A0 VA: 0x180BE0FA0
 	|-Volatile.Read<object>
 	*/
 
@@ -24,7 +23,6 @@ public static class Volatile // TypeDefIndex: 836
 	public static void Write<T>(ref T location, T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF0A790 Offset: 0xF08D90 VA: 0x180F0A790
 	|-Volatile.Write<object>
 	*/
 

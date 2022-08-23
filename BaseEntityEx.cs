@@ -4,7 +4,6 @@ public static class BaseEntityEx // TypeDefIndex: 9459
 	public static bool IsValidEntityReference<T>(T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125D120 Offset: 0x125B720 VA: 0x18125D120
 	|-BaseEntityEx.IsValidEntityReference<object>
 	*/
 

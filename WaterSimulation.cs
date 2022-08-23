@@ -54,7 +54,6 @@ public class WaterSimulation // TypeDefIndex: 10623
 	private void SafeDestroy<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5DA430 Offset: 0x5D8A30 VA: 0x1805DA430
 	|-WaterSimulation.SafeDestroy<object>
 	|-WaterSimulation.SafeDestroy<Material>
 	|-WaterSimulation.SafeDestroy<RenderTexture>

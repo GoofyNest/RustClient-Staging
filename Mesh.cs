@@ -122,7 +122,6 @@ public sealed class Mesh : Object // TypeDefIndex: 3442
 	private T[] GetAllocArrayFromChannel<T>(VertexAttribute channel, VertexAttributeFormat format, int dim) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3AE20 Offset: 0x1A39420 VA: 0x181A3AE20
 	|-Mesh.GetAllocArrayFromChannel<object>
 	|-Mesh.GetAllocArrayFromChannel<Color32>
 	|-Mesh.GetAllocArrayFromChannel<Color>
@@ -134,7 +133,6 @@ public sealed class Mesh : Object // TypeDefIndex: 3442
 	private T[] GetAllocArrayFromChannel<T>(VertexAttribute channel) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3AF20 Offset: 0x1A39520 VA: 0x181A3AF20
 	|-Mesh.GetAllocArrayFromChannel<object>
 	|-Mesh.GetAllocArrayFromChannel<Color>
 	|-Mesh.GetAllocArrayFromChannel<Vector2>
@@ -147,7 +145,6 @@ public sealed class Mesh : Object // TypeDefIndex: 3442
 	private void SetArrayForChannel<T>(VertexAttribute channel, VertexAttributeFormat format, int dim, T[] values) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D1B90 Offset: 0x5D0190 VA: 0x1805D1B90
 	|-Mesh.SetArrayForChannel<object>
 	|-Mesh.SetArrayForChannel<Color32>
 	*/
@@ -155,7 +152,6 @@ public sealed class Mesh : Object // TypeDefIndex: 3442
 	private void SetArrayForChannel<T>(VertexAttribute channel, T[] values) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D1C20 Offset: 0x5D0220 VA: 0x1805D1C20
 	|-Mesh.SetArrayForChannel<object>
 	|-Mesh.SetArrayForChannel<Color>
 	|-Mesh.SetArrayForChannel<Vector2>
@@ -166,7 +162,6 @@ public sealed class Mesh : Object // TypeDefIndex: 3442
 	private void SetListForChannel<T>(VertexAttribute channel, VertexAttributeFormat format, int dim, List<T> values, int start, int length) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D1CA0 Offset: 0x5D02A0 VA: 0x1805D1CA0
 	|-Mesh.SetListForChannel<object>
 	|-Mesh.SetListForChannel<Color32>
 	|-Mesh.SetListForChannel<Vector2>
@@ -176,7 +171,6 @@ public sealed class Mesh : Object // TypeDefIndex: 3442
 	private void SetListForChannel<T>(VertexAttribute channel, List<T> values, int start, int length) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D1D60 Offset: 0x5D0360 VA: 0x1805D1D60
 	|-Mesh.SetListForChannel<object>
 	|-Mesh.SetListForChannel<Color>
 	|-Mesh.SetListForChannel<Vector3>
@@ -246,13 +240,10 @@ public sealed class Mesh : Object // TypeDefIndex: 3442
 	private void SetUvsImpl<T>(int uvIndex, int dim, List<T> uvs, int start, int length) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D1E10 Offset: 0x5D0410 VA: 0x1805D1E10
 	|-Mesh.SetUvsImpl<object>
 	|
-	|-RVA: 0x5D1EF0 Offset: 0x5D04F0 VA: 0x1805D1EF0
 	|-Mesh.SetUvsImpl<Vector2>
 	|
-	|-RVA: 0x5D1FD0 Offset: 0x5D05D0 VA: 0x1805D1FD0
 	|-Mesh.SetUvsImpl<Vector4>
 	*/
 
@@ -267,7 +258,6 @@ public sealed class Mesh : Object // TypeDefIndex: 3442
 	public void SetVertexBufferData<T>(List<T> data, int dataStart, int meshBufferStart, int count, int stream = 0, MeshUpdateFlags flags = 0) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D20B0 Offset: 0x5D06B0 VA: 0x1805D20B0
 	|-Mesh.SetVertexBufferData<FoliageGridMeshData.FoliageVertex>
 	*/
 
