@@ -139,7 +139,7 @@ public class WorkshopItemEditor : SingletonComponent<WorkshopItemEditor> // Type
 	private static void RemoveComponents<T>(GameObject prefab) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCFFEC0 Offset: 0xCFE4C0 VA: 0x180CFFEC0
+	|-RVA: 0xCFFF00 Offset: 0xCFE500 VA: 0x180CFFF00
 	|-WorkshopItemEditor.RemoveComponents<object>
 	|-WorkshopItemEditor.RemoveComponents<Rigidbody>
 	*/

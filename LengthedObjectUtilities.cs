@@ -4,7 +4,7 @@ public static class LengthedObjectUtilities // TypeDefIndex: 7437
 	public static TLength LengthAs<TLength>(ILengthedObject obj, TempoMap tempoMap) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B86C0 Offset: 0x15B6CC0 VA: 0x1815B86C0
+	|-RVA: 0x15B8700 Offset: 0x15B6D00 VA: 0x1815B8700
 	|-LengthedObjectUtilities.LengthAs<MetricTimeSpan>
 	|-LengthedObjectUtilities.LengthAs<object>
 	*/

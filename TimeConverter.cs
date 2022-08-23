@@ -3,7 +3,7 @@ public static class TimeConverter // TypeDefIndex: 7480
 	public static TTimeSpan ConvertTo<TTimeSpan>(long time, TempoMap tempoMap) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BA590 Offset: 0x15B8B90 VA: 0x1815BA590
+	|-RVA: 0x15BA5D0 Offset: 0x15B8BD0 VA: 0x1815BA5D0
 	|-TimeConverter.ConvertTo<object>
 	*/
 

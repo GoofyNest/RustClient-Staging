@@ -7,7 +7,7 @@ public static class Import // TypeDefIndex: 7791
 	public static T[] FromUrl<T>(string sheetId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A39000 Offset: 0x1A37600 VA: 0x181A39000
+	|-RVA: 0x1A39040 Offset: 0x1A37640 VA: 0x181A39040
 	|-Import.FromUrl<object>
 	*/
 
@@ -26,7 +26,7 @@ private sealed class Import.<>c__DisplayClass0_0<T> // TypeDefIndex: 7792
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
+	|-RVA: 0xD5BC10 Offset: 0xD5A210 VA: 0x180D5BC10
 	|-Import.<>c__DisplayClass0_0<object>..ctor
 	*/
 
@@ -41,14 +41,14 @@ private sealed class Import.<>c__DisplayClass0_1<T> // TypeDefIndex: 7793
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
+	|-RVA: 0xD5BC10 Offset: 0xD5A210 VA: 0x180D5BC10
 	|-Import.<>c__DisplayClass0_1<object>..ctor
 	*/
 
 	internal bool <FromUrl>b__0(PropertyInfo x) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1895A30 Offset: 0x1894030 VA: 0x181895A30
+	|-RVA: 0x1895A70 Offset: 0x1894070 VA: 0x181895A70
 	|-Import.<>c__DisplayClass0_1<object>.<FromUrl>b__0
 	*/
 

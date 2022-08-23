@@ -189,7 +189,7 @@ public class PostProcessLayer : MonoBehaviour // TypeDefIndex: 11738
 	public PostProcessBundle GetBundle<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B1A0 Offset: 0x1A397A0 VA: 0x181A3B1A0
+	|-RVA: 0x1A3B1E0 Offset: 0x1A397E0 VA: 0x181A3B1E0
 	|-PostProcessLayer.GetBundle<object>
 	|-PostProcessLayer.GetBundle<AmbientOcclusion>
 	|-PostProcessLayer.GetBundle<AutoExposure>
@@ -201,7 +201,7 @@ public class PostProcessLayer : MonoBehaviour // TypeDefIndex: 11738
 	public T GetSettings<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B99B0 Offset: 0x15B7FB0 VA: 0x1815B99B0
+	|-RVA: 0x15B99F0 Offset: 0x15B7FF0 VA: 0x1815B99F0
 	|-PostProcessLayer.GetSettings<object>
 	*/
 
@@ -240,7 +240,7 @@ public class PostProcessLayer : MonoBehaviour // TypeDefIndex: 11738
 	private int RenderEffect<T>(PostProcessRenderContext context, bool useTempTarget = False) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED7E30 Offset: 0xED6430 VA: 0x180ED7E30
+	|-RVA: 0xED7E70 Offset: 0xED6470 VA: 0x180ED7E70
 	|-PostProcessLayer.RenderEffect<DepthOfFieldEffect>
 	|-PostProcessLayer.RenderEffect<object>
 	|-PostProcessLayer.RenderEffect<AutoExposure>
@@ -639,7 +639,7 @@ public sealed class PostProcessBundle // TypeDefIndex: 11836
 	internal T CastSettings<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9940 Offset: 0x15B7F40 VA: 0x1815B9940
+	|-RVA: 0x15B9980 Offset: 0x15B7F80 VA: 0x1815B9980
 	|-PostProcessBundle.CastSettings<object>
 	|-PostProcessBundle.CastSettings<AmbientOcclusion>
 	*/
@@ -647,7 +647,7 @@ public sealed class PostProcessBundle // TypeDefIndex: 11836
 	internal T CastRenderer<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B98D0 Offset: 0x15B7ED0 VA: 0x1815B98D0
+	|-RVA: 0x15B9910 Offset: 0x15B7F10 VA: 0x1815B9910
 	|-PostProcessBundle.CastRenderer<object>
 	|-PostProcessBundle.CastRenderer<AmbientOcclusionRenderer>
 	*/
@@ -835,7 +835,7 @@ public abstract class PostProcessEffectRenderer<T> : PostProcessEffectRenderer /
 	internal override void SetSettings(PostProcessEffectSettings settings) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B3030 Offset: 0x19B1630 VA: 0x1819B3030
+	|-RVA: 0x19B3070 Offset: 0x19B1670 VA: 0x1819B3070
 	|-PostProcessEffectRenderer<BlurOptimized>.SetSettings
 	|-PostProcessEffectRenderer<DepthOfFieldEffect>.SetSettings
 	|-PostProcessEffectRenderer<DoubleVision>.SetSettings
@@ -865,7 +865,7 @@ public abstract class PostProcessEffectRenderer<T> : PostProcessEffectRenderer /
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B30D0 Offset: 0x19B16D0 VA: 0x1819B30D0
+	|-RVA: 0x19B3110 Offset: 0x19B1710 VA: 0x1819B3110
 	|-PostProcessEffectRenderer<BlurOptimized>..ctor
 	|-PostProcessEffectRenderer<DepthOfFieldEffect>..ctor
 	|-PostProcessEffectRenderer<DoubleVision>..ctor
@@ -1025,7 +1025,7 @@ public sealed class PostProcessProfile : ScriptableObject // TypeDefIndex: 11850
 	public T AddSettings<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B99F0 Offset: 0x15B7FF0 VA: 0x1815B99F0
+	|-RVA: 0x15B9A30 Offset: 0x15B8030 VA: 0x1815B9A30
 	|-PostProcessProfile.AddSettings<object>
 	*/
 
@@ -1045,7 +1045,7 @@ public sealed class PostProcessProfile : ScriptableObject // TypeDefIndex: 11850
 	public bool HasSettings<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF32F0 Offset: 0xBF18F0 VA: 0x180BF32F0
+	|-RVA: 0xBF3330 Offset: 0xBF1930 VA: 0x180BF3330
 	|-PostProcessProfile.HasSettings<object>
 	*/
 
@@ -1054,7 +1054,7 @@ public sealed class PostProcessProfile : ScriptableObject // TypeDefIndex: 11850
 	public T GetSetting<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9AC0 Offset: 0x15B80C0 VA: 0x1815B9AC0
+	|-RVA: 0x15B9B00 Offset: 0x15B8100 VA: 0x1815B9B00
 	|-PostProcessProfile.GetSetting<BlurOptimized>
 	|-PostProcessProfile.GetSetting<DepthOfFieldEffect>
 	|-PostProcessProfile.GetSetting<FlashbangEffect>
@@ -1070,7 +1070,7 @@ public sealed class PostProcessProfile : ScriptableObject // TypeDefIndex: 11850
 	public bool TryGetSettings<T>(out T outSetting) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF3370 Offset: 0xBF1970 VA: 0x180BF3370
+	|-RVA: 0xBF33B0 Offset: 0xBF19B0 VA: 0x180BF33B0
 	|-PostProcessProfile.TryGetSettings<object>
 	*/
 

@@ -4,7 +4,7 @@ public static class TaskExtensions // TypeDefIndex: 3193
 	public static Task<TResult> Unwrap<TResult>(Task<Task<TResult>> task) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157A220 Offset: 0x1578820 VA: 0x18157A220
+	|-RVA: 0x157A260 Offset: 0x1578860 VA: 0x18157A260
 	|-TaskExtensions.Unwrap<Dictionary<string, string>>
 	|-TaskExtensions.Unwrap<object>
 	*/

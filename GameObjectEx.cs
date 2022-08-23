@@ -26,7 +26,7 @@ public static class GameObjectEx // TypeDefIndex: 11701
 	public static bool HasComponent<T>(GameObject obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF2DB0 Offset: 0xBF13B0 VA: 0x180BF2DB0
+	|-RVA: 0xBF2DF0 Offset: 0xBF13F0 VA: 0x180BF2DF0
 	|-GameObjectEx.HasComponent<object>
 	*/
 

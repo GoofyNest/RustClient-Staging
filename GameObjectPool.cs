@@ -7,28 +7,28 @@ private sealed class GameObjectPool.<>c<T> // TypeDefIndex: 6602
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD66390 Offset: 0xD64990 VA: 0x180D66390
+	|-RVA: 0xD663D0 Offset: 0xD649D0 VA: 0x180D663D0
 	|-GameObjectPool.<>c<object>..cctor
 	*/
 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
+	|-RVA: 0xD5BC10 Offset: 0xD5A210 VA: 0x180D5BC10
 	|-GameObjectPool.<>c<object>..ctor
 	*/
 
 	internal T <AddChildrenToPool>b__2_0(Transform x) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1650AE0 Offset: 0x164F0E0 VA: 0x181650AE0
+	|-RVA: 0x1650B20 Offset: 0x164F120 VA: 0x181650B20
 	|-GameObjectPool.<>c<object>.<AddChildrenToPool>b__2_0
 	*/
 
 	internal bool <AddChildrenToPool>b__2_1(T x) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x18958A0 Offset: 0x1893EA0 VA: 0x1818958A0
+	|-RVA: 0x18958E0 Offset: 0x1893EE0 VA: 0x1818958E0
 	|-GameObjectPool.<>c<object>.<AddChildrenToPool>b__2_1
 	*/
 

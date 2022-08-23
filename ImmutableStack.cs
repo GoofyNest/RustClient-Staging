@@ -12,21 +12,21 @@ private sealed class ImmutableStack.EmptyStack<T> : IImmutableStack<T>, IEnumera
 	public IImmutableStack<T> Push(T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1645640 Offset: 0x1643C40 VA: 0x181645640
+	|-RVA: 0x1645680 Offset: 0x1643C80 VA: 0x181645680
 	|-ImmutableStack.EmptyStack<object>.Push
 	*/
 
 	public IImmutableStack<T> Pop() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16455E0 Offset: 0x1643BE0 VA: 0x1816455E0
+	|-RVA: 0x1645620 Offset: 0x1643C20 VA: 0x181645620
 	|-ImmutableStack.EmptyStack<object>.Pop
 	*/
 
 	public T Peek() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1645580 Offset: 0x1643B80 VA: 0x181645580
+	|-RVA: 0x16455C0 Offset: 0x1643BC0 VA: 0x1816455C0
 	|-ImmutableStack.EmptyStack<object>.Peek
 	*/
 
@@ -34,21 +34,21 @@ private sealed class ImmutableStack.EmptyStack<T> : IImmutableStack<T>, IEnumera
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1645520 Offset: 0x1643B20 VA: 0x181645520
+	|-RVA: 0x1645560 Offset: 0x1643B60 VA: 0x181645560
 	|-ImmutableStack.EmptyStack<object>.GetEnumerator
 	*/
 
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16456C0 Offset: 0x1643CC0 VA: 0x1816456C0
+	|-RVA: 0x1645700 Offset: 0x1643D00 VA: 0x181645700
 	|-ImmutableStack.EmptyStack<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
+	|-RVA: 0xD5BC10 Offset: 0xD5A210 VA: 0x180D5BC10
 	|-ImmutableStack.EmptyStack<object>..ctor
 	*/
 
@@ -66,7 +66,7 @@ private sealed class ImmutableStack.EmptyStack.<GetEnumerator>d__5<T> : IEnumera
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x164FFF0 Offset: 0x164E5F0 VA: 0x18164FFF0
+	|-RVA: 0x1650030 Offset: 0x164E630 VA: 0x181650030
 	|-ImmutableStack.EmptyStack.<GetEnumerator>d__5<object>..ctor
 	*/
 
@@ -81,7 +81,7 @@ private sealed class ImmutableStack.EmptyStack.<GetEnumerator>d__5<T> : IEnumera
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x13CEC40 Offset: 0x13CD240 VA: 0x1813CEC40
+	|-RVA: 0x13CEC80 Offset: 0x13CD280 VA: 0x1813CEC80
 	|-ImmutableStack.EmptyStack.<GetEnumerator>d__5<object>.MoveNext
 	*/
 
@@ -97,7 +97,7 @@ private sealed class ImmutableStack.EmptyStack.<GetEnumerator>d__5<T> : IEnumera
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16506F0 Offset: 0x164ECF0 VA: 0x1816506F0
+	|-RVA: 0x1650730 Offset: 0x164ED30 VA: 0x181650730
 	|-ImmutableStack.EmptyStack.<GetEnumerator>d__5<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -125,7 +125,7 @@ private sealed class ImmutableStack.<GetEnumerator>d__13<T> : IEnumerator<T>, IE
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x164FFF0 Offset: 0x164E5F0 VA: 0x18164FFF0
+	|-RVA: 0x1650030 Offset: 0x164E630 VA: 0x181650030
 	|-ImmutableStack.<GetEnumerator>d__13<object>..ctor
 	*/
 
@@ -140,7 +140,7 @@ private sealed class ImmutableStack.<GetEnumerator>d__13<T> : IEnumerator<T>, IE
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x164FE40 Offset: 0x164E440 VA: 0x18164FE40
+	|-RVA: 0x164FE80 Offset: 0x164E480 VA: 0x18164FE80
 	|-ImmutableStack.<GetEnumerator>d__13<object>.MoveNext
 	*/
 
@@ -156,7 +156,7 @@ private sealed class ImmutableStack.<GetEnumerator>d__13<T> : IEnumerator<T>, IE
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x164FFA0 Offset: 0x164E5A0 VA: 0x18164FFA0
+	|-RVA: 0x164FFE0 Offset: 0x164E5E0 VA: 0x18164FFE0
 	|-ImmutableStack.<GetEnumerator>d__13<object>.System.Collections.IEnumerator.Reset
 	*/
 

@@ -14,7 +14,7 @@ private sealed class CircularBuffer.<GetEnumerator>d__26<T> : IEnumerator<T>, IE
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x164FFF0 Offset: 0x164E5F0 VA: 0x18164FFF0
+	|-RVA: 0x1650030 Offset: 0x164E630 VA: 0x181650030
 	|-CircularBuffer.<GetEnumerator>d__26<object>..ctor
 	*/
 
@@ -22,21 +22,21 @@ private sealed class CircularBuffer.<GetEnumerator>d__26<T> : IEnumerator<T>, IE
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x144A990 Offset: 0x1448F90 VA: 0x18144A990
+	|-RVA: 0x144A9D0 Offset: 0x1448FD0 VA: 0x18144A9D0
 	|-CircularBuffer.<GetEnumerator>d__26<object>.System.IDisposable.Dispose
 	*/
 
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1895560 Offset: 0x1893B60 VA: 0x181895560
+	|-RVA: 0x18955A0 Offset: 0x1893BA0 VA: 0x1818955A0
 	|-CircularBuffer.<GetEnumerator>d__26<object>.MoveNext
 	*/
 
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1895850 Offset: 0x1893E50 VA: 0x181895850
+	|-RVA: 0x1895890 Offset: 0x1893E90 VA: 0x181895890
 	|-CircularBuffer.<GetEnumerator>d__26<object>.<>m__Finally1
 	*/
 
@@ -52,7 +52,7 @@ private sealed class CircularBuffer.<GetEnumerator>d__26<T> : IEnumerator<T>, IE
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1895800 Offset: 0x1893E00 VA: 0x181895800
+	|-RVA: 0x1895840 Offset: 0x1893E40 VA: 0x181895840
 	|-CircularBuffer.<GetEnumerator>d__26<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -85,10 +85,10 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x144AC50 Offset: 0x1449250 VA: 0x18144AC50
+	|-RVA: 0x144AC90 Offset: 0x1449290 VA: 0x18144AC90
 	|-CircularBuffer.<GetItems>d__15<byte>..ctor
 	|
-	|-RVA: 0x144ACD0 Offset: 0x14492D0 VA: 0x18144ACD0
+	|-RVA: 0x144AD10 Offset: 0x1449310 VA: 0x18144AD10
 	|-CircularBuffer.<GetItems>d__15<object>..ctor
 	*/
 
@@ -104,10 +104,10 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16507D0 Offset: 0x164EDD0 VA: 0x1816507D0
+	|-RVA: 0x1650810 Offset: 0x164EE10 VA: 0x181650810
 	|-CircularBuffer.<GetItems>d__15<byte>.MoveNext
 	|
-	|-RVA: 0x1650740 Offset: 0x164ED40 VA: 0x181650740
+	|-RVA: 0x1650780 Offset: 0x164ED80 VA: 0x181650780
 	|-CircularBuffer.<GetItems>d__15<object>.MoveNext
 	*/
 
@@ -115,7 +115,7 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	private T System.Collections.Generic.IEnumerator<T>.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xA116B0 Offset: 0xA0FCB0 VA: 0x180A116B0
+	|-RVA: 0xA116F0 Offset: 0xA0FCF0 VA: 0x180A116F0
 	|-CircularBuffer.<GetItems>d__15<byte>.System.Collections.Generic.IEnumerator<T>.get_Current
 	|
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
@@ -126,10 +126,10 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1650A50 Offset: 0x164F050 VA: 0x181650A50
+	|-RVA: 0x1650A90 Offset: 0x164F090 VA: 0x181650A90
 	|-CircularBuffer.<GetItems>d__15<byte>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x1650A00 Offset: 0x164F000 VA: 0x181650A00
+	|-RVA: 0x1650A40 Offset: 0x164F040 VA: 0x181650A40
 	|-CircularBuffer.<GetItems>d__15<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -137,7 +137,7 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1650AA0 Offset: 0x164F0A0 VA: 0x181650AA0
+	|-RVA: 0x1650AE0 Offset: 0x164F0E0 VA: 0x181650AE0
 	|-CircularBuffer.<GetItems>d__15<byte>.System.Collections.IEnumerator.get_Current
 	|
 	|-RVA: 0x49A880 Offset: 0x498E80 VA: 0x18049A880
@@ -148,10 +148,10 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1650910 Offset: 0x164EF10 VA: 0x181650910
+	|-RVA: 0x1650950 Offset: 0x164EF50 VA: 0x181650950
 	|-CircularBuffer.<GetItems>d__15<byte>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|
-	|-RVA: 0x1650850 Offset: 0x164EE50 VA: 0x181650850
+	|-RVA: 0x1650890 Offset: 0x164EE90 VA: 0x181650890
 	|-CircularBuffer.<GetItems>d__15<object>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
@@ -159,7 +159,7 @@ private sealed class CircularBuffer.<GetItems>d__15<T> : IEnumerable<T>, IEnumer
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16509D0 Offset: 0x164EFD0 VA: 0x1816509D0
+	|-RVA: 0x1650A10 Offset: 0x164F010 VA: 0x181650A10
 	|-CircularBuffer.<GetItems>d__15<byte>.System.Collections.IEnumerable.GetEnumerator
 	|-CircularBuffer.<GetItems>d__15<object>.System.Collections.IEnumerable.GetEnumerator
 	*/

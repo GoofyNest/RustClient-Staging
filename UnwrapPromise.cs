@@ -6,21 +6,21 @@ private sealed class UnwrapPromise.<>c<TResult> // TypeDefIndex: 869
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD66390 Offset: 0xD64990 VA: 0x180D66390
+	|-RVA: 0xD663D0 Offset: 0xD649D0 VA: 0x180D663D0
 	|-UnwrapPromise.<>c<object>..cctor
 	*/
 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
+	|-RVA: 0xD5BC10 Offset: 0xD5A210 VA: 0x180D5BC10
 	|-UnwrapPromise.<>c<object>..ctor
 	*/
 
 	internal void <InvokeCoreAsync>b__8_0(object state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A4C930 Offset: 0x1A4AF30 VA: 0x181A4C930
+	|-RVA: 0x1A4C970 Offset: 0x1A4AF70 VA: 0x181A4C970
 	|-UnwrapPromise.<>c<object>.<InvokeCoreAsync>b__8_0
 	*/
 

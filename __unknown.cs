@@ -10,7 +10,7 @@ internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 	public void .ctor(<message>j__TPar message) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x13593D0 Offset: 0x13579D0 VA: 0x1813593D0
+	|-RVA: 0x1359410 Offset: 0x1357A10 VA: 0x181359410
 	|-<>f__AnonymousType0<object>..ctor
 	|-<>f__AnonymousType0<string>..ctor
 	*/
@@ -19,7 +19,7 @@ internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 	public override bool Equals(object value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1895E80 Offset: 0x1894480 VA: 0x181895E80
+	|-RVA: 0x1895EC0 Offset: 0x18944C0 VA: 0x181895EC0
 	|-<>f__AnonymousType0<object>.Equals
 	*/
 
@@ -27,7 +27,7 @@ internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1895F30 Offset: 0x1894530 VA: 0x181895F30
+	|-RVA: 0x1895F70 Offset: 0x1894570 VA: 0x181895F70
 	|-<>f__AnonymousType0<object>.GetHashCode
 	*/
 
@@ -35,7 +35,7 @@ internal sealed class <>f__AnonymousType0<<message>j__TPar> // TypeDefIndex: 1
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1895F80 Offset: 0x1894580 VA: 0x181895F80
+	|-RVA: 0x1895FC0 Offset: 0x18945C0 VA: 0x181895FC0
 	|-<>f__AnonymousType0<object>.ToString
 	*/
 
@@ -93,41 +93,41 @@ public sealed class Func<TResult> : MulticastDelegate // TypeDefIndex: 155
 	public virtual TResult Invoke() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B895F0 Offset: 0x1B87BF0 VA: 0x181B895F0
+	|-RVA: 0x1B89630 Offset: 0x1B87C30 VA: 0x181B89630
 	|-Func<JsonSerializerSettings>.Invoke
 	|-Func<IReferenceResolver>.Invoke
 	|-Func<string>.Invoke
 	|-Func<object>.Invoke
 	|
-	|-RVA: 0x1B89FF0 Offset: 0x1B885F0 VA: 0x181B89FF0
+	|-RVA: 0x1B8A030 Offset: 0x1B88630 VA: 0x181B8A030
 	|-Func<bool>.Invoke
 	|-Func<byte>.Invoke
 	|-Func<VoidTaskResult>.Invoke
 	|
-	|-RVA: 0x1B89D80 Offset: 0x1B88380 VA: 0x181B89D80
+	|-RVA: 0x1B89DC0 Offset: 0x1B883C0 VA: 0x181B89DC0
 	|-Func<int>.Invoke
 	|
-	|-RVA: 0x1B89AD0 Offset: 0x1B880D0 VA: 0x181B89AD0
+	|-RVA: 0x1B89B10 Offset: 0x1B88110 VA: 0x181B89B10
 	|-Func<PublishResult>.Invoke
 	|-Func<Nullable<Image>>.Invoke
 	|
-	|-RVA: 0x1221520 Offset: 0x121FB20 VA: 0x181221520
+	|-RVA: 0x1221560 Offset: 0x121FB60 VA: 0x181221560
 	|-Func<UdpReceiveResult>.Invoke
 	|
-	|-RVA: 0x1B8A7F0 Offset: 0x1B88DF0 VA: 0x181B8A7F0
+	|-RVA: 0x1B8A830 Offset: 0x1B88E30 VA: 0x181B8A830
 	|-Func<Nullable<ServerInfo>>.Invoke
 	|
-	|-RVA: 0x1B89340 Offset: 0x1B87940 VA: 0x181B89340
+	|-RVA: 0x1B89380 Offset: 0x1B87980 VA: 0x181B89380
 	|-Func<Nullable<InventoryPurchaseResult>>.Invoke
 	|-Func<Nullable<ResultPage>>.Invoke
 	|
-	|-RVA: 0x1977F10 Offset: 0x1976510 VA: 0x181977F10
+	|-RVA: 0x1977F50 Offset: 0x1976550 VA: 0x181977F50
 	|-Func<Nullable<InventoryResult>>.Invoke
 	|
-	|-RVA: 0x1B8A260 Offset: 0x1B88860 VA: 0x181B8A260
+	|-RVA: 0x1B8A2A0 Offset: 0x1B888A0 VA: 0x181B8A2A0
 	|-Func<Nullable<Item>>.Invoke
 	|
-	|-RVA: 0x1B89860 Offset: 0x1B87E60 VA: 0x181B89860
+	|-RVA: 0x1B898A0 Offset: 0x1B87EA0 VA: 0x181B898A0
 	|-Func<Nullable<int>>.Invoke
 	|-Func<Nullable<Int32Enum>>.Invoke
 	*/
@@ -156,35 +156,35 @@ public sealed class Func<TResult> : MulticastDelegate // TypeDefIndex: 155
 	public virtual TResult EndInvoke(IAsyncResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E6920 Offset: 0x19E4F20 VA: 0x1819E6920
+	|-RVA: 0x19E6960 Offset: 0x19E4F60 VA: 0x1819E6960
 	|-Func<PublishResult>.EndInvoke
 	|-Func<Nullable<Image>>.EndInvoke
 	|
-	|-RVA: 0xFF70B0 Offset: 0xFF56B0 VA: 0x180FF70B0
+	|-RVA: 0xFF70F0 Offset: 0xFF56F0 VA: 0x180FF70F0
 	|-Func<bool>.EndInvoke
 	|-Func<byte>.EndInvoke
 	|-Func<VoidTaskResult>.EndInvoke
 	|
-	|-RVA: 0xB9AFA0 Offset: 0xB995A0 VA: 0x180B9AFA0
+	|-RVA: 0xB9AFE0 Offset: 0xB995E0 VA: 0x180B9AFE0
 	|-Func<int>.EndInvoke
 	|
-	|-RVA: 0x12214E0 Offset: 0x121FAE0 VA: 0x1812214E0
+	|-RVA: 0x1221520 Offset: 0x121FB20 VA: 0x181221520
 	|-Func<UdpReceiveResult>.EndInvoke
 	|
-	|-RVA: 0x19E6790 Offset: 0x19E4D90 VA: 0x1819E6790
+	|-RVA: 0x19E67D0 Offset: 0x19E4DD0 VA: 0x1819E67D0
 	|-Func<Nullable<ServerInfo>>.EndInvoke
 	|
-	|-RVA: 0x19E6800 Offset: 0x19E4E00 VA: 0x1819E6800
+	|-RVA: 0x19E6840 Offset: 0x19E4E40 VA: 0x1819E6840
 	|-Func<Nullable<InventoryPurchaseResult>>.EndInvoke
 	|-Func<Nullable<ResultPage>>.EndInvoke
 	|
-	|-RVA: 0x1977ED0 Offset: 0x19764D0 VA: 0x181977ED0
+	|-RVA: 0x1977F10 Offset: 0x1976510 VA: 0x181977F10
 	|-Func<Nullable<InventoryResult>>.EndInvoke
 	|
-	|-RVA: 0x19E6870 Offset: 0x19E4E70 VA: 0x1819E6870
+	|-RVA: 0x19E68B0 Offset: 0x19E4EB0 VA: 0x1819E68B0
 	|-Func<Nullable<Item>>.EndInvoke
 	|
-	|-RVA: 0x1221E30 Offset: 0x1220430 VA: 0x181221E30
+	|-RVA: 0x1221E70 Offset: 0x1220470 VA: 0x181221E70
 	|-Func<Nullable<int>>.EndInvoke
 	|-Func<Nullable<Int32Enum>>.EndInvoke
 	|
@@ -731,7 +731,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	public virtual TResult Invoke(T arg) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16D0AE0 Offset: 0x16CF0E0 VA: 0x1816D0AE0
+	|-RVA: 0x16D0B20 Offset: 0x16CF120 VA: 0x1816D0B20
 	|-Func<Entity.EntityInfo, bool>.Invoke
 	|-Func<ItemSkinDirectory.Skin, bool>.Invoke
 	|-Func<Option, bool>.Invoke
@@ -740,7 +740,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<InventoryItem, SevenBitNumber>.Invoke
 	|-Func<InventoryItem, bool>.Invoke
 	|
-	|-RVA: 0x1B16430 Offset: 0x1B14A30 VA: 0x181B16430
+	|-RVA: 0x1B16470 Offset: 0x1B14A70 VA: 0x181B16470
 	|-Func<ArraySegment<byte>, WebSocketHttpRequest>.Invoke
 	|-Func<ImageStorageEntity.ImageRequest, object>.Invoke
 	|-Func<DefaultSerializationBinder.TypeNameKey, object>.Invoke
@@ -756,22 +756,22 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<uint, object>, object>.Invoke
 	|-Func<Guid, object>.Invoke
 	|
-	|-RVA: 0x19EB690 Offset: 0x19E9C90 VA: 0x1819EB690
+	|-RVA: 0x19EB6D0 Offset: 0x19E9CD0 VA: 0x1819EB6D0
 	|-Func<Exception, bool>.Invoke
 	|-Func<SimpleAsyncResult, bool>.Invoke
 	|-Func<string, bool>.Invoke
 	|-Func<object, bool>.Invoke
 	|
-	|-RVA: 0x212C3E0 Offset: 0x212A9E0 VA: 0x18212C3E0
+	|-RVA: 0x212C420 Offset: 0x212AA20 VA: 0x18212C420
 	|-Func<int, int>.Invoke
 	|-Func<Int32Enum, int>.Invoke
 	|-Func<Int32Enum, Int32Enum>.Invoke
 	|
-	|-RVA: 0x2130900 Offset: 0x212EF00 VA: 0x182130900
+	|-RVA: 0x2130940 Offset: 0x212EF40 VA: 0x182130940
 	|-Func<int, float>.Invoke
 	|-Func<Int32Enum, float>.Invoke
 	|
-	|-RVA: 0x19E89C0 Offset: 0x19E6FC0 VA: 0x1819E89C0
+	|-RVA: 0x19E8A00 Offset: 0x19E7000 VA: 0x1819E8A00
 	|-Func<object, string>.Invoke
 	|-Func<object[], JsonConverter>.Invoke
 	|-Func<string, string>.Invoke
@@ -779,30 +779,30 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, object>.Invoke
 	|-Func<AssemblyName, Assembly>.Invoke
 	|
-	|-RVA: 0x18A45A0 Offset: 0x18A2BA0 VA: 0x1818A45A0
+	|-RVA: 0x18A45E0 Offset: 0x18A2BE0 VA: 0x1818A45E0
 	|-Func<ulong, bool>.Invoke
 	|-Func<long, bool>.Invoke
 	|
-	|-RVA: 0x19E9840 Offset: 0x19E7E40 VA: 0x1819E9840
+	|-RVA: 0x19E9880 Offset: 0x19E7E80 VA: 0x1819E9880
 	|-Func<ILayoutElement, float>.Invoke
 	|-Func<object, float>.Invoke
 	|
-	|-RVA: 0x18A40B0 Offset: 0x18A26B0 VA: 0x1818A40B0
+	|-RVA: 0x18A40F0 Offset: 0x18A26F0 VA: 0x1818A40F0
 	|-Func<NativeInputUpdateType, bool>.Invoke
 	|-Func<int, bool>.Invoke
 	|-Func<Int32Enum, bool>.Invoke
 	|
-	|-RVA: 0x1B969D0 Offset: 0x1B94FD0 VA: 0x181B969D0
+	|-RVA: 0x1B96A10 Offset: 0x1B95010 VA: 0x181B96A10
 	|-Func<Admin.PlayerInfo, object>.Invoke
 	|
-	|-RVA: 0x1B958B0 Offset: 0x1B93EB0 VA: 0x181B958B0
+	|-RVA: 0x1B958F0 Offset: 0x1B93EF0 VA: 0x181B958F0
 	|-Func<Admin.ServerConvarInfo, object>.Invoke
 	|-Func<InventoryRecipe, object>.Invoke
 	|-Func<InventoryRecipe.Ingredient, long>.Invoke
 	|-Func<InventoryRecipe.Ingredient, object>.Invoke
 	|-Func<KeyValuePair<ulong, Dispatch.ResultCallback>, ulong>.Invoke
 	|
-	|-RVA: 0x1B8E790 Offset: 0x1B8CD90 VA: 0x181B8E790
+	|-RVA: 0x1B8E7D0 Offset: 0x1B8CDD0 VA: 0x181B8E7D0
 	|-Func<Debugging.EntityInfo, Debugging.EntityInfo>.Invoke
 	|-Func<PlayerItemRecipe, Debugging.EntityInfo>.Invoke
 	|-Func<PlayerItemRecipe, PlayerItemRecipe>.Invoke
@@ -814,7 +814,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<uint, object>, Debugging.EntityInfo>.Invoke
 	|-Func<KeyValuePair<uint, object>, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x16D04A0 Offset: 0x16CEAA0 VA: 0x1816D04A0
+	|-RVA: 0x16D04E0 Offset: 0x16CEAE0 VA: 0x1816D04E0
 	|-Func<Debugging.EntityInfo, bool>.Invoke
 	|-Func<RCon.BannedAddresses, bool>.Invoke
 	|-Func<WeightedStringList.Container, bool>.Invoke
@@ -825,19 +825,19 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<object, object>, bool>.Invoke
 	|-Func<KeyValuePair<uint, object>, bool>.Invoke
 	|
-	|-RVA: 0x1B93240 Offset: 0x1B91840 VA: 0x181B93240
+	|-RVA: 0x1B93280 Offset: 0x1B91880 VA: 0x181B93280
 	|-Func<Demos.DemoInfo, DateTime>.Invoke
 	|-Func<Demos.DemoInfo, TimeSpan>.Invoke
 	|-Func<InventoryItem, PathFinder.Point>.Invoke
 	|-Func<InventoryItem, InventoryItemId>.Invoke
 	|
-	|-RVA: 0x1B8F650 Offset: 0x1B8DC50 VA: 0x181B8F650
+	|-RVA: 0x1B8F690 Offset: 0x1B8DC90 VA: 0x181B8F690
 	|-Func<Demos.DemoInfo, object>.Invoke
 	|-Func<SkinnedMultiMesh.Part, long>.Invoke
 	|-Func<InventoryItem, long>.Invoke
 	|-Func<InventoryItem, object>.Invoke
 	|
-	|-RVA: 0x16D07E0 Offset: 0x16CEDE0 VA: 0x1816D07E0
+	|-RVA: 0x16D0820 Offset: 0x16CEE20 VA: 0x1816D0820
 	|-Func<BurstCloth.Chain, FourBitNumber>.Invoke
 	|-Func<BurstCloth.Chain, SevenBitNumber>.Invoke
 	|-Func<BurstCloth.Chain, bool>.Invoke
@@ -849,76 +849,76 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<InventoryItemId, bool>.Invoke
 	|-Func<Friend, bool>.Invoke
 	|
-	|-RVA: 0x1B19500 Offset: 0x1B17B00 VA: 0x181B19500
+	|-RVA: 0x1B19540 Offset: 0x1B17B40 VA: 0x181B19540
 	|-Func<BurstCloth.Chain, int>.Invoke
 	|-Func<PlayerItemRecipe.Ingredient, int>.Invoke
 	|
-	|-RVA: 0x1B94740 Offset: 0x1B92D40 VA: 0x181B94740
+	|-RVA: 0x1B94780 Offset: 0x1B92D80 VA: 0x181B94780
 	|-Func<SkeletonDefinition.Bone, Debugging.EntityInfo>.Invoke
 	|-Func<SkeletonDefinition.Bone, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x1B97900 Offset: 0x1B95F00 VA: 0x181B97900
+	|-RVA: 0x1B97940 Offset: 0x1B95F40 VA: 0x181B97940
 	|-Func<SkeletonDefinition.Bone, PathFinder.Point>.Invoke
 	|-Func<InventoryItem.Amount, InventoryItemId>.Invoke
 	|
-	|-RVA: 0x1B94BE0 Offset: 0x1B931E0 VA: 0x181B94BE0
+	|-RVA: 0x1B94C20 Offset: 0x1B93220 VA: 0x181B94C20
 	|-Func<SkeletonDefinition.Bone, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<SkeletonDefinition.Bone, Resolution>.Invoke
 	|
-	|-RVA: 0x1B8DF00 Offset: 0x1B8C500 VA: 0x181B8DF00
+	|-RVA: 0x1B8DF40 Offset: 0x1B8C540 VA: 0x181B8DF40
 	|-Func<SkeletonDefinition.Bone, Option>.Invoke
 	|-Func<SkeletonDefinition.Bone, InventoryItem>.Invoke
 	|
-	|-RVA: 0x1B93F80 Offset: 0x1B92580 VA: 0x181B93F80
+	|-RVA: 0x1B93FC0 Offset: 0x1B925C0 VA: 0x181B93FC0
 	|-Func<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.Invoke
 	|-Func<SkeletonDefinition.Bone, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x16D1450 Offset: 0x16CFA50 VA: 0x1816D1450
+	|-RVA: 0x16D1490 Offset: 0x16CFA90 VA: 0x1816D1490
 	|-Func<SkeletonDefinition.Bone, bool>.Invoke
 	|-Func<InventoryItem.Amount, bool>.Invoke
 	|
-	|-RVA: 0x1B94410 Offset: 0x1B92A10 VA: 0x181B94410
+	|-RVA: 0x1B94450 Offset: 0x1B92A50 VA: 0x181B94450
 	|-Func<SkeletonDefinition.Bone, int>.Invoke
 	|-Func<SkeletonDefinition.Bone, Int32Enum>.Invoke
 	|
-	|-RVA: 0x1B8EB10 Offset: 0x1B8D110 VA: 0x181B8EB10
+	|-RVA: 0x1B8EB50 Offset: 0x1B8D150 VA: 0x181B8EB50
 	|-Func<SkeletonDefinition.Bone, long>.Invoke
 	|-Func<SkeletonDefinition.Bone, object>.Invoke
 	|
-	|-RVA: 0x1B8E380 Offset: 0x1B8C980 VA: 0x181B8E380
+	|-RVA: 0x1B8E3C0 Offset: 0x1B8C9C0 VA: 0x181B8E3C0
 	|-Func<SkeletonDefinition.Bone, float>.Invoke
 	|
-	|-RVA: 0x1B92800 Offset: 0x1B90E00 VA: 0x181B92800
+	|-RVA: 0x1B92840 Offset: 0x1B90E40 VA: 0x181B92840
 	|-Func<WeightedStringList.Container, float>.Invoke
 	|-Func<PlayerItemRecipe, float>.Invoke
 	|-Func<KeyValuePair<object, object>, float>.Invoke
 	|-Func<KeyValuePair<uint, object>, float>.Invoke
 	|
-	|-RVA: 0x18A7BB0 Offset: 0x18A61B0 VA: 0x1818A7BB0
+	|-RVA: 0x18A7BF0 Offset: 0x18A61F0 VA: 0x1818A7BF0
 	|-Func<FourBitNumber, FourBitNumber>.Invoke
 	|-Func<FourBitNumber, bool>.Invoke
 	|-Func<SevenBitNumber, SevenBitNumber>.Invoke
 	|-Func<SevenBitNumber, bool>.Invoke
 	|
-	|-RVA: 0x1B96360 Offset: 0x1B94960 VA: 0x181B96360
+	|-RVA: 0x1B963A0 Offset: 0x1B949A0 VA: 0x181B963A0
 	|-Func<SevenBitNumber, object>.Invoke
 	|
-	|-RVA: 0x1B955B0 Offset: 0x1B93BB0 VA: 0x181B955B0
+	|-RVA: 0x1B955F0 Offset: 0x1B93BF0 VA: 0x181B955F0
 	|-Func<PathFinder.Point, PathFinder.Point>.Invoke
 	|-Func<PlayerItemRecipe.Ingredient, PlayerItemRecipe.Ingredient>.Invoke
 	|-Func<Achievement, PathFinder.Point>.Invoke
 	|-Func<InventoryItemId, InventoryItemId>.Invoke
 	|-Func<Friend, PathFinder.Point>.Invoke
 	|
-	|-RVA: 0x16D2420 Offset: 0x16D0A20 VA: 0x1816D2420
+	|-RVA: 0x16D2460 Offset: 0x16D0A60 VA: 0x1816D2460
 	|-Func<PetCommandList.PetCommandDesc, bool>.Invoke
 	|
-	|-RVA: 0x1B902D0 Offset: 0x1B8E8D0 VA: 0x181B902D0
+	|-RVA: 0x1B90310 Offset: 0x1B8E910 VA: 0x181B90310
 	|-Func<PlayerItemRecipe, PathFinder.Point>.Invoke
 	|-Func<KeyValuePair<object, object>, PathFinder.Point>.Invoke
 	|-Func<KeyValuePair<uint, object>, PathFinder.Point>.Invoke
 	|
-	|-RVA: 0x1B916B0 Offset: 0x1B8FCB0 VA: 0x181B916B0
+	|-RVA: 0x1B916F0 Offset: 0x1B8FCF0 VA: 0x181B916F0
 	|-Func<PlayerItemRecipe, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<PlayerItemRecipe, Resolution>.Invoke
 	|-Func<KeyValuePair<object, object>, ProjectileWeaponMod.Modifier>.Invoke
@@ -926,7 +926,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<uint, object>, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<KeyValuePair<uint, object>, Resolution>.Invoke
 	|
-	|-RVA: 0x1B91030 Offset: 0x1B8F630 VA: 0x181B91030
+	|-RVA: 0x1B91070 Offset: 0x1B8F670 VA: 0x181B91070
 	|-Func<PlayerItemRecipe, Option>.Invoke
 	|-Func<PlayerItemRecipe, InventoryItem>.Invoke
 	|-Func<KeyValuePair<object, object>, Option>.Invoke
@@ -934,7 +934,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<uint, object>, Option>.Invoke
 	|-Func<KeyValuePair<uint, object>, InventoryItem>.Invoke
 	|
-	|-RVA: 0x1B91370 Offset: 0x1B8F970 VA: 0x181B91370
+	|-RVA: 0x1B913B0 Offset: 0x1B8F9B0 VA: 0x181B913B0
 	|-Func<PlayerItemRecipe, InventoryRecipe.Ingredient>.Invoke
 	|-Func<PlayerItemRecipe, InventoryRecipe>.Invoke
 	|-Func<KeyValuePair<object, object>, InventoryRecipe.Ingredient>.Invoke
@@ -942,7 +942,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<uint, object>, InventoryRecipe.Ingredient>.Invoke
 	|-Func<KeyValuePair<uint, object>, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x1B93CC0 Offset: 0x1B922C0 VA: 0x181B93CC0
+	|-RVA: 0x1B93D00 Offset: 0x1B92300 VA: 0x181B93D00
 	|-Func<PlayerItemRecipe, int>.Invoke
 	|-Func<PlayerItemRecipe, Int32Enum>.Invoke
 	|-Func<KeyValuePair<object, object>, int>.Invoke
@@ -950,255 +950,255 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<KeyValuePair<uint, object>, int>.Invoke
 	|-Func<KeyValuePair<uint, object>, Int32Enum>.Invoke
 	|
-	|-RVA: 0x19E9170 Offset: 0x19E7770 VA: 0x1819E9170
+	|-RVA: 0x19E91B0 Offset: 0x19E77B0 VA: 0x1819E91B0
 	|-Func<ProjectileWeaponMod.Modifier, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<Resolution, Resolution>.Invoke
 	|
-	|-RVA: 0x16D2D70 Offset: 0x16D1370 VA: 0x1816D2D70
+	|-RVA: 0x16D2DB0 Offset: 0x16D13B0 VA: 0x1816D2DB0
 	|-Func<ProjectileWeaponMod.Modifier, bool>.Invoke
 	|-Func<Resolution, bool>.Invoke
 	|
-	|-RVA: 0x1B95FB0 Offset: 0x1B945B0 VA: 0x181B95FB0
+	|-RVA: 0x1B95FF0 Offset: 0x1B945F0 VA: 0x181B95FF0
 	|-Func<ProjectileWeaponMod.Modifier, float>.Invoke
 	|
-	|-RVA: 0x1B96E80 Offset: 0x1B95480 VA: 0x181B96E80
+	|-RVA: 0x1B96EC0 Offset: 0x1B954C0 VA: 0x181B96EC0
 	|-Func<Option, Option>.Invoke
 	|-Func<InventoryItem, Option>.Invoke
 	|-Func<InventoryItem, InventoryItem>.Invoke
 	|
-	|-RVA: 0x1B92B40 Offset: 0x1B91140 VA: 0x181B92B40
+	|-RVA: 0x1B92B80 Offset: 0x1B91180 VA: 0x181B92B80
 	|-Func<ServerInfo, Debugging.EntityInfo>.Invoke
 	|-Func<ServerInfo, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x18A39F0 Offset: 0x18A1FF0 VA: 0x1818A39F0
+	|-RVA: 0x18A3A30 Offset: 0x18A2030 VA: 0x1818A3A30
 	|-Func<ServerInfo, FourBitNumber>.Invoke
 	|-Func<ServerInfo, SevenBitNumber>.Invoke
 	|-Func<ServerInfo, bool>.Invoke
 	|-Func<ServerInfo, bool>.Invoke
 	|
-	|-RVA: 0x1B93610 Offset: 0x1B91C10 VA: 0x181B93610
+	|-RVA: 0x1B93650 Offset: 0x1B91C50 VA: 0x181B93650
 	|-Func<ServerInfo, PathFinder.Point>.Invoke
 	|
-	|-RVA: 0x1B91A30 Offset: 0x1B90030 VA: 0x181B91A30
+	|-RVA: 0x1B91A70 Offset: 0x1B90070 VA: 0x181B91A70
 	|-Func<ServerInfo, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<ServerInfo, Resolution>.Invoke
 	|
-	|-RVA: 0x1B8EF60 Offset: 0x1B8D560 VA: 0x181B8EF60
+	|-RVA: 0x1B8EFA0 Offset: 0x1B8D5A0 VA: 0x181B8EFA0
 	|-Func<ServerInfo, Option>.Invoke
 	|-Func<ServerInfo, InventoryItem>.Invoke
 	|
-	|-RVA: 0x1B90940 Offset: 0x1B8EF40 VA: 0x181B90940
+	|-RVA: 0x1B90980 Offset: 0x1B8EF80 VA: 0x181B90980
 	|-Func<ServerInfo, InventoryRecipe.Ingredient>.Invoke
 	|-Func<ServerInfo, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x1B95080 Offset: 0x1B93680 VA: 0x181B95080
+	|-RVA: 0x1B950C0 Offset: 0x1B936C0 VA: 0x181B950C0
 	|-Func<ServerInfo, int>.Invoke
 	|-Func<ServerInfo, Int32Enum>.Invoke
 	|
-	|-RVA: 0x1B8FA10 Offset: 0x1B8E010 VA: 0x181B8FA10
+	|-RVA: 0x1B8FA50 Offset: 0x1B8E050 VA: 0x181B8FA50
 	|-Func<ServerInfo, long>.Invoke
 	|-Func<ServerInfo, object>.Invoke
 	|-Func<ServerInfo, object>.Invoke
 	|
-	|-RVA: 0x1B97D40 Offset: 0x1B96340 VA: 0x181B97D40
+	|-RVA: 0x1B97D80 Offset: 0x1B96380 VA: 0x181B97D80
 	|-Func<ServerInfo, float>.Invoke
 	|
-	|-RVA: 0x1B92140 Offset: 0x1B90740 VA: 0x181B92140
+	|-RVA: 0x1B92180 Offset: 0x1B90780 VA: 0x181B92180
 	|-Func<ServerInfo, uint>.Invoke
 	|-Func<ServerInfo, int>.Invoke
 	|
-	|-RVA: 0x1B97290 Offset: 0x1B95890 VA: 0x181B97290
+	|-RVA: 0x1B972D0 Offset: 0x1B958D0 VA: 0x181B972D0
 	|-Func<Achievement, Debugging.EntityInfo>.Invoke
 	|-Func<Achievement, KeyValuePair<object, int>>.Invoke
 	|-Func<Friend, Debugging.EntityInfo>.Invoke
 	|-Func<Friend, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x1B96660 Offset: 0x1B94C60 VA: 0x181B96660
+	|-RVA: 0x1B966A0 Offset: 0x1B94CA0 VA: 0x181B966A0
 	|-Func<Achievement, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<Achievement, Resolution>.Invoke
 	|-Func<Friend, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<Friend, Resolution>.Invoke
 	|
-	|-RVA: 0x1B90610 Offset: 0x1B8EC10 VA: 0x181B90610
+	|-RVA: 0x1B90650 Offset: 0x1B8EC50 VA: 0x181B90650
 	|-Func<Achievement, Option>.Invoke
 	|-Func<Achievement, InventoryItem>.Invoke
 	|-Func<Friend, Option>.Invoke
 	|-Func<Friend, InventoryItem>.Invoke
 	|
-	|-RVA: 0x1B95C80 Offset: 0x1B94280 VA: 0x181B95C80
+	|-RVA: 0x1B95CC0 Offset: 0x1B942C0 VA: 0x181B95CC0
 	|-Func<Achievement, InventoryRecipe.Ingredient>.Invoke
 	|-Func<Achievement, InventoryRecipe>.Invoke
 	|-Func<Friend, InventoryRecipe.Ingredient>.Invoke
 	|-Func<Friend, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x1B900D0 Offset: 0x1B8E6D0 VA: 0x181B900D0
+	|-RVA: 0x1B90110 Offset: 0x1B8E710 VA: 0x181B90110
 	|-Func<Achievement, int>.Invoke
 	|-Func<Achievement, Int32Enum>.Invoke
 	|-Func<Friend, int>.Invoke
 	|-Func<Friend, Int32Enum>.Invoke
 	|
-	|-RVA: 0x19EA910 Offset: 0x19E8F10 VA: 0x1819EA910
+	|-RVA: 0x19EA950 Offset: 0x19E8F50 VA: 0x1819EA950
 	|-Func<Achievement, long>.Invoke
 	|-Func<Achievement, object>.Invoke
 	|-Func<Friend, long>.Invoke
 	|-Func<Friend, object>.Invoke
 	|-Func<ValueTuple<Int32Enum, int>, object>.Invoke
 	|
-	|-RVA: 0x1B97600 Offset: 0x1B95C00 VA: 0x181B97600
+	|-RVA: 0x1B97640 Offset: 0x1B95C40 VA: 0x181B97640
 	|-Func<Achievement, float>.Invoke
 	|-Func<Friend, float>.Invoke
 	|
-	|-RVA: 0x212F070 Offset: 0x212D670 VA: 0x18212F070
+	|-RVA: 0x212F0B0 Offset: 0x212D6B0 VA: 0x18212F0B0
 	|-Func<InventoryDefId, Debugging.EntityInfo>.Invoke
 	|-Func<InventoryDefId, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x212D490 Offset: 0x212BA90 VA: 0x18212D490
+	|-RVA: 0x212D4D0 Offset: 0x212BAD0 VA: 0x18212D4D0
 	|-Func<InventoryDefId, PathFinder.Point>.Invoke
 	|
-	|-RVA: 0x212C5E0 Offset: 0x212ABE0 VA: 0x18212C5E0
+	|-RVA: 0x212C620 Offset: 0x212AC20 VA: 0x18212C620
 	|-Func<InventoryDefId, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<InventoryDefId, Resolution>.Invoke
 	|
-	|-RVA: 0x21305D0 Offset: 0x212EBD0 VA: 0x1821305D0
+	|-RVA: 0x2130610 Offset: 0x212EC10 VA: 0x182130610
 	|-Func<InventoryDefId, Option>.Invoke
 	|-Func<InventoryDefId, InventoryItem>.Invoke
 	|
-	|-RVA: 0x212DE30 Offset: 0x212C430 VA: 0x18212DE30
+	|-RVA: 0x212DE70 Offset: 0x212C470 VA: 0x18212DE70
 	|-Func<InventoryDefId, InventoryRecipe.Ingredient>.Invoke
 	|-Func<InventoryDefId, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x18A6480 Offset: 0x18A4A80 VA: 0x1818A6480
+	|-RVA: 0x18A64C0 Offset: 0x18A4AC0 VA: 0x1818A64C0
 	|-Func<InventoryDefId, bool>.Invoke
 	|
-	|-RVA: 0x2131220 Offset: 0x212F820 VA: 0x182131220
+	|-RVA: 0x2131260 Offset: 0x212F860 VA: 0x182131260
 	|-Func<InventoryDefId, int>.Invoke
 	|-Func<InventoryDefId, Int32Enum>.Invoke
 	|
-	|-RVA: 0x212FF20 Offset: 0x212E520 VA: 0x18212FF20
+	|-RVA: 0x212FF60 Offset: 0x212E560 VA: 0x18212FF60
 	|-Func<InventoryDefId, long>.Invoke
 	|-Func<InventoryDefId, object>.Invoke
 	|
-	|-RVA: 0x21334A0 Offset: 0x2131AA0 VA: 0x1821334A0
+	|-RVA: 0x21334E0 Offset: 0x2131AE0 VA: 0x1821334E0
 	|-Func<InventoryDefId, float>.Invoke
 	|
-	|-RVA: 0x212C950 Offset: 0x212AF50 VA: 0x18212C950
+	|-RVA: 0x212C990 Offset: 0x212AF90 VA: 0x18212C990
 	|-Func<ServerInfo, ServerInfo>.Invoke
 	|
-	|-RVA: 0x2132630 Offset: 0x2130C30 VA: 0x182132630
+	|-RVA: 0x2132670 Offset: 0x2130C70 VA: 0x182132670
 	|-Func<InventoryItem, Debugging.EntityInfo>.Invoke
 	|-Func<InventoryItem, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x212EC60 Offset: 0x212D260 VA: 0x18212EC60
+	|-RVA: 0x212ECA0 Offset: 0x212D2A0 VA: 0x18212ECA0
 	|-Func<InventoryItem, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<InventoryItem, Resolution>.Invoke
 	|
-	|-RVA: 0x2130210 Offset: 0x212E810 VA: 0x182130210
+	|-RVA: 0x2130250 Offset: 0x212E850 VA: 0x182130250
 	|-Func<InventoryItem, InventoryDefId>.Invoke
 	|-Func<InventoryItem, uint>.Invoke
 	|
-	|-RVA: 0x212E500 Offset: 0x212CB00 VA: 0x18212E500
+	|-RVA: 0x212E540 Offset: 0x212CB40 VA: 0x18212E540
 	|-Func<InventoryItem, InventoryRecipe.Ingredient>.Invoke
 	|-Func<InventoryItem, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x212DB00 Offset: 0x212C100 VA: 0x18212DB00
+	|-RVA: 0x212DB40 Offset: 0x212C140 VA: 0x18212DB40
 	|-Func<InventoryItem, int>.Invoke
 	|-Func<InventoryItem, Int32Enum>.Invoke
 	|
-	|-RVA: 0x212E160 Offset: 0x212C760 VA: 0x18212E160
+	|-RVA: 0x212E1A0 Offset: 0x212C7A0 VA: 0x18212E1A0
 	|-Func<InventoryItem, float>.Invoke
 	|
-	|-RVA: 0x2133050 Offset: 0x2131650 VA: 0x182133050
+	|-RVA: 0x2133090 Offset: 0x2131690 VA: 0x182133090
 	|-Func<InventoryItem.Amount, uint>.Invoke
 	|
-	|-RVA: 0x212BFE0 Offset: 0x212A5E0 VA: 0x18212BFE0
+	|-RVA: 0x212C020 Offset: 0x212A620 VA: 0x18212C020
 	|-Func<InventoryRecipe, PlayerItemRecipe>.Invoke
 	|-Func<InventoryRecipe.Ingredient, Debugging.EntityInfo>.Invoke
 	|-Func<InventoryRecipe.Ingredient, KeyValuePair<object, int>>.Invoke
 	|-Func<KeyValuePair<ulong, Dispatch.ResultCallback>, Dispatch.ResultCallback>.Invoke
 	|
-	|-RVA: 0x212D090 Offset: 0x212B690 VA: 0x18212D090
+	|-RVA: 0x212D0D0 Offset: 0x212B6D0 VA: 0x18212D0D0
 	|-Func<InventoryRecipe, InventoryRecipe>.Invoke
 	|-Func<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.Invoke
 	|-Func<InventoryRecipe.Ingredient, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x16D2060 Offset: 0x16D0660 VA: 0x1816D2060
+	|-RVA: 0x16D20A0 Offset: 0x16D06A0 VA: 0x1816D20A0
 	|-Func<InventoryRecipe, bool>.Invoke
 	|-Func<InventoryRecipe.Ingredient, bool>.Invoke
 	|-Func<KeyValuePair<ulong, Dispatch.ResultCallback>, bool>.Invoke
 	|
-	|-RVA: 0x2131620 Offset: 0x212FC20 VA: 0x182131620
+	|-RVA: 0x2131660 Offset: 0x212FC60 VA: 0x182131660
 	|-Func<InventoryRecipe.Ingredient, PathFinder.Point>.Invoke
 	|-Func<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>.Invoke
 	|
-	|-RVA: 0x212F710 Offset: 0x212DD10 VA: 0x18212F710
+	|-RVA: 0x212F750 Offset: 0x212DD50 VA: 0x18212F750
 	|-Func<InventoryRecipe.Ingredient, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<InventoryRecipe.Ingredient, Resolution>.Invoke
 	|
-	|-RVA: 0x212FB20 Offset: 0x212E120 VA: 0x18212FB20
+	|-RVA: 0x212FB60 Offset: 0x212E160 VA: 0x18212FB60
 	|-Func<InventoryRecipe.Ingredient, Option>.Invoke
 	|-Func<InventoryRecipe.Ingredient, InventoryItem>.Invoke
 	|
-	|-RVA: 0x212E910 Offset: 0x212CF10 VA: 0x18212E910
+	|-RVA: 0x212E950 Offset: 0x212CF50 VA: 0x18212E950
 	|-Func<InventoryRecipe.Ingredient, int>.Invoke
 	|-Func<InventoryRecipe.Ingredient, Int32Enum>.Invoke
 	|
-	|-RVA: 0x2130B00 Offset: 0x212F100 VA: 0x182130B00
+	|-RVA: 0x2130B40 Offset: 0x212F140 VA: 0x182130B40
 	|-Func<InventoryRecipe.Ingredient, float>.Invoke
 	|
-	|-RVA: 0x2131D20 Offset: 0x2130320 VA: 0x182131D20
+	|-RVA: 0x2131D60 Offset: 0x2130360 VA: 0x182131D60
 	|-Func<Item, DateTime>.Invoke
 	|
-	|-RVA: 0x18A32F0 Offset: 0x18A18F0 VA: 0x1818A32F0
+	|-RVA: 0x18A3330 Offset: 0x18A1930 VA: 0x1818A3330
 	|-Func<bool, bool>.Invoke
 	|
-	|-RVA: 0x18A5C30 Offset: 0x18A4230 VA: 0x1818A5C30
+	|-RVA: 0x18A5C70 Offset: 0x18A4270 VA: 0x1818A5C70
 	|-Func<char, bool>.Invoke
 	|
-	|-RVA: 0x1B17BF0 Offset: 0x1B161F0 VA: 0x181B17BF0
+	|-RVA: 0x1B17C30 Offset: 0x1B16230 VA: 0x181B17C30
 	|-Func<KeyValuePair<object, int>, int>.Invoke
 	|-Func<KeyValuePair<uint, object>, uint>.Invoke
 	|-Func<Guid, int>.Invoke
 	|
-	|-RVA: 0x2132A40 Offset: 0x2131040 VA: 0x182132A40
+	|-RVA: 0x2132A80 Offset: 0x2131080 VA: 0x182132A80
 	|-Func<double, double>.Invoke
 	|
-	|-RVA: 0x146D2D0 Offset: 0x146B8D0 VA: 0x18146D2D0
+	|-RVA: 0x146D310 Offset: 0x146B910 VA: 0x18146D310
 	|-Func<int, FourBitNumber>.Invoke
 	|-Func<int, SevenBitNumber>.Invoke
 	|-Func<uint, bool>.Invoke
 	|
-	|-RVA: 0x2131420 Offset: 0x212FA20 VA: 0x182131420
+	|-RVA: 0x2131460 Offset: 0x212FA60 VA: 0x182131460
 	|-Func<int, object>.Invoke
 	|-Func<Int32Enum, object>.Invoke
 	|
-	|-RVA: 0x2130EB0 Offset: 0x212F4B0 VA: 0x182130EB0
+	|-RVA: 0x2130EF0 Offset: 0x212F4F0 VA: 0x182130EF0
 	|-Func<Int32Enum, Debugging.EntityInfo>.Invoke
 	|-Func<Int32Enum, KeyValuePair<object, int>>.Invoke
 	|
-	|-RVA: 0x2132D50 Offset: 0x2131350 VA: 0x182132D50
+	|-RVA: 0x2132D90 Offset: 0x2131390 VA: 0x182132D90
 	|-Func<Int32Enum, PathFinder.Point>.Invoke
 	|
-	|-RVA: 0x212D790 Offset: 0x212BD90 VA: 0x18212D790
+	|-RVA: 0x212D7D0 Offset: 0x212BDD0 VA: 0x18212D7D0
 	|-Func<Int32Enum, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<Int32Enum, Resolution>.Invoke
 	|
-	|-RVA: 0x21319F0 Offset: 0x212FFF0 VA: 0x1821319F0
+	|-RVA: 0x2131A30 Offset: 0x2130030 VA: 0x182131A30
 	|-Func<Int32Enum, Option>.Invoke
 	|-Func<Int32Enum, InventoryItem>.Invoke
 	|
-	|-RVA: 0x212F3E0 Offset: 0x212D9E0 VA: 0x18212F3E0
+	|-RVA: 0x212F420 Offset: 0x212DA20 VA: 0x18212F420
 	|-Func<Int32Enum, InventoryRecipe.Ingredient>.Invoke
 	|-Func<Int32Enum, InventoryRecipe>.Invoke
 	|
-	|-RVA: 0x20C8260 Offset: 0x20C6860 VA: 0x1820C8260
+	|-RVA: 0x20C82A0 Offset: 0x20C68A0 VA: 0x1820C82A0
 	|-Func<Int32Enum, long>.Invoke
 	|
-	|-RVA: 0x19E8230 Offset: 0x19E6830 VA: 0x1819E8230
+	|-RVA: 0x19E8270 Offset: 0x19E6870 VA: 0x1819E8270
 	|-Func<long, long>.Invoke
 	|-Func<IntPtr, object>.Invoke
 	|-Func<ulong, ulong>.Invoke
 	|
-	|-RVA: 0x19E6DF0 Offset: 0x19E53F0 VA: 0x1819E6DF0
+	|-RVA: 0x19E6E30 Offset: 0x19E5430 VA: 0x1819E6E30
 	|-Func<object, Debugging.EntityInfo>.Invoke
 	|-Func<object, PlayerItemRecipe>.Invoke
 	|-Func<object, KeyValuePair<object, int>>.Invoke
@@ -1206,842 +1206,842 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, Guid>.Invoke
 	|-Func<object, UdpReceiveResult>.Invoke
 	|
-	|-RVA: 0x1783F60 Offset: 0x1782560 VA: 0x181783F60
+	|-RVA: 0x1783FA0 Offset: 0x17825A0 VA: 0x181783FA0
 	|-Func<object, FourBitNumber>.Invoke
 	|-Func<object, SevenBitNumber>.Invoke
 	|
-	|-RVA: 0x19E8CF0 Offset: 0x19E72F0 VA: 0x1819E8CF0
+	|-RVA: 0x19E8D30 Offset: 0x19E7330 VA: 0x1819E8D30
 	|-Func<object, PathFinder.Point>.Invoke
 	|-Func<object, PlayerItemRecipe.Ingredient>.Invoke
 	|-Func<object, DateTime>.Invoke
 	|-Func<object, Nullable<int>>.Invoke
 	|-Func<object, Nullable<Int32Enum>>.Invoke
 	|
-	|-RVA: 0x19E7330 Offset: 0x19E5930 VA: 0x1819E7330
+	|-RVA: 0x19E7370 Offset: 0x19E5970 VA: 0x1819E7370
 	|-Func<object, ProjectileWeaponMod.Modifier>.Invoke
 	|-Func<object, Nullable<InventoryResult>>.Invoke
 	|-Func<object, Resolution>.Invoke
 	|
-	|-RVA: 0x19E6960 Offset: 0x19E4F60 VA: 0x1819E6960
+	|-RVA: 0x19E69A0 Offset: 0x19E4FA0 VA: 0x1819E69A0
 	|-Func<object, Option>.Invoke
 	|-Func<object, InventoryItem>.Invoke
 	|-Func<object, Nullable<InventoryPurchaseResult>>.Invoke
 	|-Func<object, Nullable<ResultPage>>.Invoke
 	|
-	|-RVA: 0x19E7870 Offset: 0x19E5E70 VA: 0x1819E7870
+	|-RVA: 0x19E78B0 Offset: 0x19E5EB0 VA: 0x1819E78B0
 	|-Func<object, InventoryDefId>.Invoke
 	|-Func<object, uint>.Invoke
 	|
-	|-RVA: 0x148B7D0 Offset: 0x1489DD0 VA: 0x18148B7D0
+	|-RVA: 0x148B810 Offset: 0x1489E10 VA: 0x18148B810
 	|-Func<object, InventoryItemId>.Invoke
 	|
-	|-RVA: 0x19E8530 Offset: 0x19E6B30 VA: 0x1819E8530
+	|-RVA: 0x19E8570 Offset: 0x19E6B70 VA: 0x1819E8570
 	|-Func<object, InventoryRecipe.Ingredient>.Invoke
 	|-Func<object, InventoryRecipe>.Invoke
 	|-Func<object, PublishResult>.Invoke
 	|-Func<object, Nullable<Image>>.Invoke
 	|
-	|-RVA: 0x19E7C80 Offset: 0x19E6280 VA: 0x1819E7C80
+	|-RVA: 0x19E7CC0 Offset: 0x19E62C0 VA: 0x1819E7CC0
 	|-Func<object, int>.Invoke
 	|-Func<object, Int32Enum>.Invoke
 	|
-	|-RVA: 0x1476EF0 Offset: 0x14754F0 VA: 0x181476EF0
+	|-RVA: 0x1476F30 Offset: 0x1475530 VA: 0x181476F30
 	|-Func<object, long>.Invoke
 	|
-	|-RVA: 0x19E9CD0 Offset: 0x19E82D0 VA: 0x1819E9CD0
+	|-RVA: 0x19E9D10 Offset: 0x19E8310 VA: 0x1819E9D10
 	|-Func<object, Nullable<ServerInfo>>.Invoke
 	|
-	|-RVA: 0x19EAC10 Offset: 0x19E9210 VA: 0x1819EAC10
+	|-RVA: 0x19EAC50 Offset: 0x19E9250 VA: 0x1819EAC50
 	|-Func<object, Nullable<Item>>.Invoke
 	|
-	|-RVA: 0x19EBA90 Offset: 0x19EA090 VA: 0x1819EBA90
+	|-RVA: 0x19EBAD0 Offset: 0x19EA0D0 VA: 0x1819EBAD0
 	|-Func<object, VoidTaskResult>.Invoke
 	|
-	|-RVA: 0x133AAA0 Offset: 0x13390A0 VA: 0x18133AAA0
+	|-RVA: 0x133AAE0 Offset: 0x13390E0 VA: 0x18133AAE0
 	|-Func<object, ulong>.Invoke
 	|
-	|-RVA: 0x18A42B0 Offset: 0x18A28B0 VA: 0x1818A42B0
+	|-RVA: 0x18A42F0 Offset: 0x18A28F0 VA: 0x1818A42F0
 	|-Func<float, bool>.Invoke
 	|
-	|-RVA: 0x19E9550 Offset: 0x19E7B50 VA: 0x1819E9550
+	|-RVA: 0x19E9590 Offset: 0x19E7B90 VA: 0x1819E9590
 	|-Func<float, float>.Invoke
 	|
-	|-RVA: 0x19E7F40 Offset: 0x19E6540 VA: 0x1819E7F40
+	|-RVA: 0x19E7F80 Offset: 0x19E6580 VA: 0x1819E7F80
 	|-Func<uint, uint>.Invoke
 	|
-	|-RVA: 0x19EA570 Offset: 0x19E8B70 VA: 0x1819EA570
+	|-RVA: 0x19EA5B0 Offset: 0x19E8BB0 VA: 0x1819EA5B0
 	|-Func<Resolution, int>.Invoke
 	|
-	|-RVA: 0x19EA1D0 Offset: 0x19E87D0 VA: 0x1819EA1D0
+	|-RVA: 0x19EA210 Offset: 0x19E8810 VA: 0x1819EA210
 	|-Func<Resolution, Vector2Int>.Invoke
 	*/
 
 	public virtual IAsyncResult BeginInvoke(T arg, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B8D480 Offset: 0x1B8BA80 VA: 0x181B8D480
+	|-RVA: 0x1B8D4C0 Offset: 0x1B8BAC0 VA: 0x181B8D4C0
 	|-Func<Admin.PlayerInfo, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8BB00 Offset: 0x1B8A100 VA: 0x181B8BB00
+	|-RVA: 0x1B8BB40 Offset: 0x1B8A140 VA: 0x181B8BB40
 	|-Func<Admin.ServerConvarInfo, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8C200 Offset: 0x1B8A800 VA: 0x181B8C200
+	|-RVA: 0x1B8C240 Offset: 0x1B8A840 VA: 0x181B8C240
 	|-Func<Debugging.EntityInfo, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x1B8DA80 Offset: 0x1B8C080 VA: 0x181B8DA80
+	|-RVA: 0x1B8DAC0 Offset: 0x1B8C0C0 VA: 0x181B8DAC0
 	|-Func<Debugging.EntityInfo, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8CB80 Offset: 0x1B8B180 VA: 0x181B8CB80
+	|-RVA: 0x1B8CBC0 Offset: 0x1B8B1C0 VA: 0x181B8CBC0
 	|-Func<Entity.EntityInfo, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8CA80 Offset: 0x1B8B080 VA: 0x181B8CA80
+	|-RVA: 0x1B8CAC0 Offset: 0x1B8B0C0 VA: 0x181B8CAC0
 	|-Func<Demos.DemoInfo, DateTime>.BeginInvoke
 	|
-	|-RVA: 0x1B8C600 Offset: 0x1B8AC00 VA: 0x181B8C600
+	|-RVA: 0x1B8C640 Offset: 0x1B8AC40 VA: 0x181B8C640
 	|-Func<Demos.DemoInfo, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8CB00 Offset: 0x1B8B100 VA: 0x181B8CB00
+	|-RVA: 0x1B8CB40 Offset: 0x1B8B140 VA: 0x181B8CB40
 	|-Func<Demos.DemoInfo, TimeSpan>.BeginInvoke
 	|
-	|-RVA: 0x1B8C880 Offset: 0x1B8AE80 VA: 0x181B8C880
+	|-RVA: 0x1B8C8C0 Offset: 0x1B8AEC0 VA: 0x181B8C8C0
 	|-Func<BurstCloth.Chain, FourBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8DE80 Offset: 0x1B8C480 VA: 0x181B8DE80
+	|-RVA: 0x1B8DEC0 Offset: 0x1B8C4C0 VA: 0x181B8DEC0
 	|-Func<BurstCloth.Chain, SevenBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8B880 Offset: 0x1B89E80 VA: 0x181B8B880
+	|-RVA: 0x1B8B8C0 Offset: 0x1B89EC0 VA: 0x181B8B8C0
 	|-Func<BurstCloth.Chain, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8B680 Offset: 0x1B89C80 VA: 0x181B8B680
+	|-RVA: 0x1B8B6C0 Offset: 0x1B89CC0 VA: 0x181B8B6C0
 	|-Func<BurstCloth.Chain, int>.BeginInvoke
 	|
-	|-RVA: 0x1B8BC00 Offset: 0x1B8A200 VA: 0x181B8BC00
+	|-RVA: 0x1B8BC40 Offset: 0x1B8A240 VA: 0x181B8BC40
 	|-Func<RCon.BannedAddresses, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8C180 Offset: 0x1B8A780 VA: 0x181B8C180
+	|-RVA: 0x1B8C1C0 Offset: 0x1B8A7C0 VA: 0x181B8C1C0
 	|-Func<SkeletonDefinition.Bone, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x1B8C480 Offset: 0x1B8AA80 VA: 0x181B8C480
+	|-RVA: 0x1B8C4C0 Offset: 0x1B8AAC0 VA: 0x181B8C4C0
 	|-Func<SkeletonDefinition.Bone, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x1B8B600 Offset: 0x1B89C00 VA: 0x181B8B600
+	|-RVA: 0x1B8B640 Offset: 0x1B89C40 VA: 0x181B8B640
 	|-Func<SkeletonDefinition.Bone, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x1B8D200 Offset: 0x1B8B800 VA: 0x181B8D200
+	|-RVA: 0x1B8D240 Offset: 0x1B8B840 VA: 0x181B8D240
 	|-Func<SkeletonDefinition.Bone, Option>.BeginInvoke
 	|
-	|-RVA: 0x1B8D080 Offset: 0x1B8B680 VA: 0x181B8D080
+	|-RVA: 0x1B8D0C0 Offset: 0x1B8B6C0 VA: 0x181B8D0C0
 	|-Func<SkeletonDefinition.Bone, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x1B8D400 Offset: 0x1B8BA00 VA: 0x181B8D400
+	|-RVA: 0x1B8D440 Offset: 0x1B8BA40 VA: 0x181B8D440
 	|-Func<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x1B8B480 Offset: 0x1B89A80 VA: 0x181B8B480
+	|-RVA: 0x1B8B4C0 Offset: 0x1B89AC0 VA: 0x181B8B4C0
 	|-Func<SkeletonDefinition.Bone, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x1B8D300 Offset: 0x1B8B900 VA: 0x181B8D300
+	|-RVA: 0x1B8D340 Offset: 0x1B8B940 VA: 0x181B8D340
 	|-Func<SkeletonDefinition.Bone, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8C980 Offset: 0x1B8AF80 VA: 0x181B8C980
+	|-RVA: 0x1B8C9C0 Offset: 0x1B8AFC0 VA: 0x181B8C9C0
 	|-Func<SkeletonDefinition.Bone, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x1B8C280 Offset: 0x1B8A880 VA: 0x181B8C280
+	|-RVA: 0x1B8C2C0 Offset: 0x1B8A8C0 VA: 0x181B8C2C0
 	|-Func<SkeletonDefinition.Bone, int>.BeginInvoke
 	|
-	|-RVA: 0x1B8D000 Offset: 0x1B8B600 VA: 0x181B8D000
+	|-RVA: 0x1B8D040 Offset: 0x1B8B640 VA: 0x181B8D040
 	|-Func<SkeletonDefinition.Bone, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x1B8D900 Offset: 0x1B8BF00 VA: 0x181B8D900
+	|-RVA: 0x1B8D940 Offset: 0x1B8BF40 VA: 0x181B8D940
 	|-Func<SkeletonDefinition.Bone, long>.BeginInvoke
 	|
-	|-RVA: 0x1B8C680 Offset: 0x1B8AC80 VA: 0x181B8C680
+	|-RVA: 0x1B8C6C0 Offset: 0x1B8ACC0 VA: 0x181B8C6C0
 	|-Func<SkeletonDefinition.Bone, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8D700 Offset: 0x1B8BD00 VA: 0x181B8D700
+	|-RVA: 0x1B8D740 Offset: 0x1B8BD40 VA: 0x181B8D740
 	|-Func<SkeletonDefinition.Bone, float>.BeginInvoke
 	|
-	|-RVA: 0x1B8C780 Offset: 0x1B8AD80 VA: 0x181B8C780
+	|-RVA: 0x1B8C7C0 Offset: 0x1B8ADC0 VA: 0x181B8C7C0
 	|-Func<SkeletonDefinition.Bone, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x1B8B200 Offset: 0x1B89800 VA: 0x181B8B200
+	|-RVA: 0x1B8B240 Offset: 0x1B89840 VA: 0x181B8B240
 	|-Func<WeightedStringList.Container, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8DD00 Offset: 0x1B8C300 VA: 0x181B8DD00
+	|-RVA: 0x1B8DD40 Offset: 0x1B8C340 VA: 0x181B8DD40
 	|-Func<WeightedStringList.Container, float>.BeginInvoke
 	|
-	|-RVA: 0x1B8AC00 Offset: 0x1B89200 VA: 0x181B8AC00
+	|-RVA: 0x1B8AC40 Offset: 0x1B89240 VA: 0x181B8AC40
 	|-Func<GameStat.Stat, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8AB80 Offset: 0x1B89180 VA: 0x181B8AB80
+	|-RVA: 0x1B8ABC0 Offset: 0x1B891C0 VA: 0x181B8ABC0
 	|-Func<ImageStorageEntity.ImageRequest, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8DB00 Offset: 0x1B8C100 VA: 0x181B8DB00
+	|-RVA: 0x1B8DB40 Offset: 0x1B8C140 VA: 0x181B8DB40
 	|-Func<ItemSkinDirectory.Skin, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8BB80 Offset: 0x1B8A180 VA: 0x181B8BB80
+	|-RVA: 0x1B8BBC0 Offset: 0x1B8A1C0 VA: 0x181B8BBC0
 	|-Func<FourBitNumber, FourBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8B980 Offset: 0x1B89F80 VA: 0x181B8B980
+	|-RVA: 0x1B8B9C0 Offset: 0x1B89FC0 VA: 0x181B8B9C0
 	|-Func<FourBitNumber, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8D100 Offset: 0x1B8B700 VA: 0x181B8D100
+	|-RVA: 0x1B8D140 Offset: 0x1B8B740 VA: 0x181B8D140
 	|-Func<SevenBitNumber, SevenBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8CE80 Offset: 0x1B8B480 VA: 0x181B8CE80
+	|-RVA: 0x1B8CEC0 Offset: 0x1B8B4C0 VA: 0x181B8CEC0
 	|-Func<SevenBitNumber, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8B180 Offset: 0x1B89780 VA: 0x181B8B180
+	|-RVA: 0x1B8B1C0 Offset: 0x1B897C0 VA: 0x181B8B1C0
 	|-Func<SevenBitNumber, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8D780 Offset: 0x1B8BD80 VA: 0x181B8D780
+	|-RVA: 0x1B8D7C0 Offset: 0x1B8BDC0 VA: 0x181B8D7C0
 	|-Func<DefaultSerializationBinder.TypeNameKey, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8B380 Offset: 0x1B89980 VA: 0x181B8B380
+	|-RVA: 0x1B8B3C0 Offset: 0x1B899C0 VA: 0x181B8B3C0
 	|-Func<ConvertUtils.TypeConvertKey, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8D880 Offset: 0x1B8BE80 VA: 0x181B8D880
+	|-RVA: 0x1B8D8C0 Offset: 0x1B8BEC0 VA: 0x181B8D8C0
 	|-Func<PathFinder.Point, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x1B8BD00 Offset: 0x1B8A300 VA: 0x181B8BD00
+	|-RVA: 0x1B8BD40 Offset: 0x1B8A340 VA: 0x181B8BD40
 	|-Func<PathFinder.Point, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8BF80 Offset: 0x1B8A580 VA: 0x181B8BF80
+	|-RVA: 0x1B8BFC0 Offset: 0x1B8A5C0 VA: 0x181B8BFC0
 	|-Func<PetCommandList.PetCommandDesc, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8AE00 Offset: 0x1B89400 VA: 0x181B8AE00
+	|-RVA: 0x1B8AE40 Offset: 0x1B89440 VA: 0x181B8AE40
 	|-Func<PlayerItemRecipe, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x1B8B100 Offset: 0x1B89700 VA: 0x181B8B100
+	|-RVA: 0x1B8B140 Offset: 0x1B89740 VA: 0x181B8B140
 	|-Func<PlayerItemRecipe, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x1B8BC80 Offset: 0x1B8A280 VA: 0x181B8BC80
+	|-RVA: 0x1B8BCC0 Offset: 0x1B8A2C0 VA: 0x181B8BCC0
 	|-Func<PlayerItemRecipe, PlayerItemRecipe>.BeginInvoke
 	|
-	|-RVA: 0x1B8B000 Offset: 0x1B89600 VA: 0x181B8B000
+	|-RVA: 0x1B8B040 Offset: 0x1B89640 VA: 0x181B8B040
 	|-Func<PlayerItemRecipe, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x1B8C380 Offset: 0x1B8A980 VA: 0x181B8C380
+	|-RVA: 0x1B8C3C0 Offset: 0x1B8A9C0 VA: 0x181B8C3C0
 	|-Func<PlayerItemRecipe, Option>.BeginInvoke
 	|
-	|-RVA: 0x1B8D580 Offset: 0x1B8BB80 VA: 0x181B8D580
+	|-RVA: 0x1B8D5C0 Offset: 0x1B8BBC0 VA: 0x181B8D5C0
 	|-Func<PlayerItemRecipe, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x1B8B580 Offset: 0x1B89B80 VA: 0x181B8B580
+	|-RVA: 0x1B8B5C0 Offset: 0x1B89BC0 VA: 0x181B8B5C0
 	|-Func<PlayerItemRecipe, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x1B8B300 Offset: 0x1B89900 VA: 0x181B8B300
+	|-RVA: 0x1B8B340 Offset: 0x1B89940 VA: 0x181B8B340
 	|-Func<PlayerItemRecipe, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x1B8C080 Offset: 0x1B8A680 VA: 0x181B8C080
+	|-RVA: 0x1B8C0C0 Offset: 0x1B8A6C0 VA: 0x181B8C0C0
 	|-Func<PlayerItemRecipe, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8B400 Offset: 0x1B89A00 VA: 0x181B8B400
+	|-RVA: 0x1B8B440 Offset: 0x1B89A40 VA: 0x181B8B440
 	|-Func<PlayerItemRecipe, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x1B8CD00 Offset: 0x1B8B300 VA: 0x181B8CD00
+	|-RVA: 0x1B8CD40 Offset: 0x1B8B340 VA: 0x181B8CD40
 	|-Func<PlayerItemRecipe, int>.BeginInvoke
 	|
-	|-RVA: 0x1B8B080 Offset: 0x1B89680 VA: 0x181B8B080
+	|-RVA: 0x1B8B0C0 Offset: 0x1B896C0 VA: 0x181B8B0C0
 	|-Func<PlayerItemRecipe, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x1B8CA00 Offset: 0x1B8B000 VA: 0x181B8CA00
+	|-RVA: 0x1B8CA40 Offset: 0x1B8B040 VA: 0x181B8CA40
 	|-Func<PlayerItemRecipe, long>.BeginInvoke
 	|
-	|-RVA: 0x1B8BE00 Offset: 0x1B8A400 VA: 0x181B8BE00
+	|-RVA: 0x1B8BE40 Offset: 0x1B8A440 VA: 0x181B8BE40
 	|-Func<PlayerItemRecipe, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8CD80 Offset: 0x1B8B380 VA: 0x181B8CD80
+	|-RVA: 0x1B8CDC0 Offset: 0x1B8B3C0 VA: 0x181B8CDC0
 	|-Func<PlayerItemRecipe, float>.BeginInvoke
 	|
-	|-RVA: 0x1B8AD80 Offset: 0x1B89380 VA: 0x181B8AD80
+	|-RVA: 0x1B8ADC0 Offset: 0x1B893C0 VA: 0x181B8ADC0
 	|-Func<PlayerItemRecipe, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x1B8C580 Offset: 0x1B8AB80 VA: 0x181B8C580
+	|-RVA: 0x1B8C5C0 Offset: 0x1B8ABC0 VA: 0x181B8C5C0
 	|-Func<PlayerItemRecipe.Ingredient, FourBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8C300 Offset: 0x1B8A900 VA: 0x181B8C300
+	|-RVA: 0x1B8C340 Offset: 0x1B8A940 VA: 0x181B8C340
 	|-Func<PlayerItemRecipe.Ingredient, SevenBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8B500 Offset: 0x1B89B00 VA: 0x181B8B500
+	|-RVA: 0x1B8B540 Offset: 0x1B89B40 VA: 0x181B8B540
 	|-Func<PlayerItemRecipe.Ingredient, PlayerItemRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x1B8D680 Offset: 0x1B8BC80 VA: 0x181B8D680
+	|-RVA: 0x1B8D6C0 Offset: 0x1B8BCC0 VA: 0x181B8D6C0
 	|-Func<PlayerItemRecipe.Ingredient, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8BA80 Offset: 0x1B8A080 VA: 0x181B8BA80
+	|-RVA: 0x1B8BAC0 Offset: 0x1B8A0C0 VA: 0x181B8BAC0
 	|-Func<PlayerItemRecipe.Ingredient, int>.BeginInvoke
 	|
-	|-RVA: 0x1B8C700 Offset: 0x1B8AD00 VA: 0x181B8C700
+	|-RVA: 0x1B8C740 Offset: 0x1B8AD40 VA: 0x181B8C740
 	|-Func<ProjectileWeaponMod.Modifier, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x1B8AE80 Offset: 0x1B89480 VA: 0x181B8AE80
+	|-RVA: 0x1B8AEC0 Offset: 0x1B894C0 VA: 0x181B8AEC0
 	|-Func<ProjectileWeaponMod.Modifier, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8D980 Offset: 0x1B8BF80 VA: 0x181B8D980
+	|-RVA: 0x1B8D9C0 Offset: 0x1B8BFC0 VA: 0x181B8D9C0
 	|-Func<ProjectileWeaponMod.Modifier, float>.BeginInvoke
 	|
-	|-RVA: 0x1B8DA00 Offset: 0x1B8C000 VA: 0x181B8DA00
+	|-RVA: 0x1B8DA40 Offset: 0x1B8C040 VA: 0x181B8DA40
 	|-Func<Option, Option>.BeginInvoke
 	|
-	|-RVA: 0x1B8DE00 Offset: 0x1B8C400 VA: 0x181B8DE00
+	|-RVA: 0x1B8DE40 Offset: 0x1B8C440 VA: 0x181B8DE40
 	|-Func<Option, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8C000 Offset: 0x1B8A600 VA: 0x181B8C000
+	|-RVA: 0x1B8C040 Offset: 0x1B8A640 VA: 0x181B8C040
 	|-Func<ServerInfo, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x1B8B780 Offset: 0x1B89D80 VA: 0x181B8B780
+	|-RVA: 0x1B8B7C0 Offset: 0x1B89DC0 VA: 0x181B8B7C0
 	|-Func<ServerInfo, FourBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8C400 Offset: 0x1B8AA00 VA: 0x181B8C400
+	|-RVA: 0x1B8C440 Offset: 0x1B8AA40 VA: 0x181B8C440
 	|-Func<ServerInfo, SevenBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x1B8B900 Offset: 0x1B89F00 VA: 0x181B8B900
+	|-RVA: 0x1B8B940 Offset: 0x1B89F40 VA: 0x181B8B940
 	|-Func<ServerInfo, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x1B8B700 Offset: 0x1B89D00 VA: 0x181B8B700
+	|-RVA: 0x1B8B740 Offset: 0x1B89D40 VA: 0x181B8B740
 	|-Func<ServerInfo, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x1B8AD00 Offset: 0x1B89300 VA: 0x181B8AD00
+	|-RVA: 0x1B8AD40 Offset: 0x1B89340 VA: 0x181B8AD40
 	|-Func<ServerInfo, Option>.BeginInvoke
 	|
-	|-RVA: 0x1B8CF00 Offset: 0x1B8B500 VA: 0x181B8CF00
+	|-RVA: 0x1B8CF40 Offset: 0x1B8B540 VA: 0x181B8CF40
 	|-Func<ServerInfo, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x1B8BD80 Offset: 0x1B8A380 VA: 0x181B8BD80
+	|-RVA: 0x1B8BDC0 Offset: 0x1B8A3C0 VA: 0x181B8BDC0
 	|-Func<ServerInfo, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x1B8AC80 Offset: 0x1B89280 VA: 0x181B8AC80
+	|-RVA: 0x1B8ACC0 Offset: 0x1B892C0 VA: 0x181B8ACC0
 	|-Func<ServerInfo, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x1B8D800 Offset: 0x1B8BE00 VA: 0x181B8D800
+	|-RVA: 0x1B8D840 Offset: 0x1B8BE40 VA: 0x181B8D840
 	|-Func<ServerInfo, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8C900 Offset: 0x1B8AF00 VA: 0x181B8C900
+	|-RVA: 0x1B8C940 Offset: 0x1B8AF40 VA: 0x181B8C940
 	|-Func<ServerInfo, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x1B8D600 Offset: 0x1B8BC00 VA: 0x181B8D600
+	|-RVA: 0x1B8D640 Offset: 0x1B8BC40 VA: 0x181B8D640
 	|-Func<ServerInfo, int>.BeginInvoke
 	|
-	|-RVA: 0x1B8CF80 Offset: 0x1B8B580 VA: 0x181B8CF80
+	|-RVA: 0x1B8CFC0 Offset: 0x1B8B5C0 VA: 0x181B8CFC0
 	|-Func<ServerInfo, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x1B8C800 Offset: 0x1B8AE00 VA: 0x181B8C800
+	|-RVA: 0x1B8C840 Offset: 0x1B8AE40 VA: 0x181B8C840
 	|-Func<ServerInfo, long>.BeginInvoke
 	|
-	|-RVA: 0x1B8D180 Offset: 0x1B8B780 VA: 0x181B8D180
+	|-RVA: 0x1B8D1C0 Offset: 0x1B8B7C0 VA: 0x181B8D1C0
 	|-Func<ServerInfo, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8B800 Offset: 0x1B89E00 VA: 0x181B8B800
+	|-RVA: 0x1B8B840 Offset: 0x1B89E40 VA: 0x181B8B840
 	|-Func<ServerInfo, float>.BeginInvoke
 	|
-	|-RVA: 0x1B8C500 Offset: 0x1B8AB00 VA: 0x181B8C500
+	|-RVA: 0x1B8C540 Offset: 0x1B8AB40 VA: 0x181B8C540
 	|-Func<ServerInfo, uint>.BeginInvoke
 	|
-	|-RVA: 0x1B8AF80 Offset: 0x1B89580 VA: 0x181B8AF80
+	|-RVA: 0x1B8AFC0 Offset: 0x1B895C0 VA: 0x181B8AFC0
 	|-Func<ServerInfo, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x1B8D280 Offset: 0x1B8B880 VA: 0x181B8D280
+	|-RVA: 0x1B8D2C0 Offset: 0x1B8B8C0 VA: 0x181B8D2C0
 	|-Func<SkinnedMultiMesh.Part, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8CC80 Offset: 0x1B8B280 VA: 0x181B8CC80
+	|-RVA: 0x1B8CCC0 Offset: 0x1B8B2C0 VA: 0x181B8CCC0
 	|-Func<SkinnedMultiMesh.Part, long>.BeginInvoke
 	|
-	|-RVA: 0x1B8DD80 Offset: 0x1B8C380 VA: 0x181B8DD80
+	|-RVA: 0x1B8DDC0 Offset: 0x1B8C3C0 VA: 0x181B8DDC0
 	|-Func<Achievement, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x1B8D500 Offset: 0x1B8BB00 VA: 0x181B8D500
+	|-RVA: 0x1B8D540 Offset: 0x1B8BB40 VA: 0x181B8D540
 	|-Func<Achievement, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x1B8BE80 Offset: 0x1B8A480 VA: 0x181B8BE80
+	|-RVA: 0x1B8BEC0 Offset: 0x1B8A4C0 VA: 0x181B8BEC0
 	|-Func<Achievement, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x1B8B280 Offset: 0x1B89880 VA: 0x181B8B280
+	|-RVA: 0x1B8B2C0 Offset: 0x1B898C0 VA: 0x181B8B2C0
 	|-Func<Achievement, Option>.BeginInvoke
 	|
-	|-RVA: 0x1B8CE00 Offset: 0x1B8B400 VA: 0x181B8CE00
+	|-RVA: 0x1B8CE40 Offset: 0x1B8B440 VA: 0x181B8CE40
 	|-Func<Achievement, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x1B8BF00 Offset: 0x1B8A500 VA: 0x181B8BF00
+	|-RVA: 0x1B8BF40 Offset: 0x1B8A540 VA: 0x181B8BF40
 	|-Func<Achievement, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x1B8DB80 Offset: 0x1B8C180 VA: 0x181B8DB80
+	|-RVA: 0x1B8DBC0 Offset: 0x1B8C1C0 VA: 0x181B8DBC0
 	|-Func<Achievement, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x1B8AF00 Offset: 0x1B89500 VA: 0x181B8AF00
+	|-RVA: 0x1B8AF40 Offset: 0x1B89540 VA: 0x181B8AF40
 	|-Func<Achievement, bool>.BeginInvoke
 	|
-	|-RVA: 0x1B8DC00 Offset: 0x1B8C200 VA: 0x181B8DC00
+	|-RVA: 0x1B8DC40 Offset: 0x1B8C240 VA: 0x181B8DC40
 	|-Func<Achievement, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x1B8C100 Offset: 0x1B8A700 VA: 0x181B8C100
+	|-RVA: 0x1B8C140 Offset: 0x1B8A740 VA: 0x181B8C140
 	|-Func<Achievement, int>.BeginInvoke
 	|
-	|-RVA: 0x1B8CC00 Offset: 0x1B8B200 VA: 0x181B8CC00
+	|-RVA: 0x1B8CC40 Offset: 0x1B8B240 VA: 0x181B8CC40
 	|-Func<Achievement, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x1B8D380 Offset: 0x1B8B980 VA: 0x181B8D380
+	|-RVA: 0x1B8D3C0 Offset: 0x1B8B9C0 VA: 0x181B8D3C0
 	|-Func<Achievement, long>.BeginInvoke
 	|
-	|-RVA: 0x1B8AB00 Offset: 0x1B89100 VA: 0x181B8AB00
+	|-RVA: 0x1B8AB40 Offset: 0x1B89140 VA: 0x181B8AB40
 	|-Func<Achievement, object>.BeginInvoke
 	|
-	|-RVA: 0x1B8BA00 Offset: 0x1B8A000 VA: 0x181B8BA00
+	|-RVA: 0x1B8BA40 Offset: 0x1B8A040 VA: 0x181B8BA40
 	|-Func<Achievement, float>.BeginInvoke
 	|
-	|-RVA: 0x1B8DC80 Offset: 0x1B8C280 VA: 0x181B8DC80
+	|-RVA: 0x1B8DCC0 Offset: 0x1B8C2C0 VA: 0x181B8DCC0
 	|-Func<Achievement, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x21280C0 Offset: 0x21266C0 VA: 0x1821280C0
+	|-RVA: 0x2128100 Offset: 0x2126700 VA: 0x182128100
 	|-Func<InventoryDefId, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x2129C40 Offset: 0x2128240 VA: 0x182129C40
+	|-RVA: 0x2129C80 Offset: 0x2128280 VA: 0x182129C80
 	|-Func<InventoryDefId, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x21275C0 Offset: 0x2125BC0 VA: 0x1821275C0
+	|-RVA: 0x2127600 Offset: 0x2125C00 VA: 0x182127600
 	|-Func<InventoryDefId, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x21297C0 Offset: 0x2127DC0 VA: 0x1821297C0
+	|-RVA: 0x2129800 Offset: 0x2127E00 VA: 0x182129800
 	|-Func<InventoryDefId, Option>.BeginInvoke
 	|
-	|-RVA: 0x2129440 Offset: 0x2127A40 VA: 0x182129440
+	|-RVA: 0x2129480 Offset: 0x2127A80 VA: 0x182129480
 	|-Func<InventoryDefId, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x212B740 Offset: 0x2129D40 VA: 0x18212B740
+	|-RVA: 0x212B780 Offset: 0x2129D80 VA: 0x18212B780
 	|-Func<InventoryDefId, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x2127540 Offset: 0x2125B40 VA: 0x182127540
+	|-RVA: 0x2127580 Offset: 0x2125B80 VA: 0x182127580
 	|-Func<InventoryDefId, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x212A5C0 Offset: 0x2128BC0 VA: 0x18212A5C0
+	|-RVA: 0x212A600 Offset: 0x2128C00 VA: 0x18212A600
 	|-Func<InventoryDefId, bool>.BeginInvoke
 	|
-	|-RVA: 0x212AE40 Offset: 0x2129440 VA: 0x18212AE40
+	|-RVA: 0x212AE80 Offset: 0x2129480 VA: 0x18212AE80
 	|-Func<InventoryDefId, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x21273C0 Offset: 0x21259C0 VA: 0x1821273C0
+	|-RVA: 0x2127400 Offset: 0x2125A00 VA: 0x182127400
 	|-Func<InventoryDefId, int>.BeginInvoke
 	|
-	|-RVA: 0x212AA40 Offset: 0x2129040 VA: 0x18212AA40
+	|-RVA: 0x212AA80 Offset: 0x2129080 VA: 0x18212AA80
 	|-Func<InventoryDefId, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x2128D40 Offset: 0x2127340 VA: 0x182128D40
+	|-RVA: 0x2128D80 Offset: 0x2127380 VA: 0x182128D80
 	|-Func<InventoryDefId, long>.BeginInvoke
 	|
-	|-RVA: 0x212B640 Offset: 0x2129C40 VA: 0x18212B640
+	|-RVA: 0x212B680 Offset: 0x2129C80 VA: 0x18212B680
 	|-Func<InventoryDefId, object>.BeginInvoke
 	|
-	|-RVA: 0x2127DC0 Offset: 0x21263C0 VA: 0x182127DC0
+	|-RVA: 0x2127E00 Offset: 0x2126400 VA: 0x182127E00
 	|-Func<InventoryDefId, float>.BeginInvoke
 	|
-	|-RVA: 0x2129540 Offset: 0x2127B40 VA: 0x182129540
+	|-RVA: 0x2129580 Offset: 0x2127B80 VA: 0x182129580
 	|-Func<InventoryDefId, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x2128B40 Offset: 0x2127140 VA: 0x182128B40
+	|-RVA: 0x2128B80 Offset: 0x2127180 VA: 0x182128B80
 	|-Func<InventoryItemId, InventoryItemId>.BeginInvoke
 	|
-	|-RVA: 0x2128040 Offset: 0x2126640 VA: 0x182128040
+	|-RVA: 0x2128080 Offset: 0x2126680 VA: 0x182128080
 	|-Func<InventoryItemId, bool>.BeginInvoke
 	|
-	|-RVA: 0x212A9C0 Offset: 0x2128FC0 VA: 0x18212A9C0
+	|-RVA: 0x212AA00 Offset: 0x2129000 VA: 0x18212AA00
 	|-Func<ServerInfo, ServerInfo>.BeginInvoke
 	|
-	|-RVA: 0x212BCC0 Offset: 0x212A2C0 VA: 0x18212BCC0
+	|-RVA: 0x212BD00 Offset: 0x212A300 VA: 0x18212BD00
 	|-Func<ServerInfo, bool>.BeginInvoke
 	|
-	|-RVA: 0x21292C0 Offset: 0x21278C0 VA: 0x1821292C0
+	|-RVA: 0x2129300 Offset: 0x2127900 VA: 0x182129300
 	|-Func<ServerInfo, int>.BeginInvoke
 	|
-	|-RVA: 0x2127A40 Offset: 0x2126040 VA: 0x182127A40
+	|-RVA: 0x2127A80 Offset: 0x2126080 VA: 0x182127A80
 	|-Func<ServerInfo, object>.BeginInvoke
 	|
-	|-RVA: 0x212BE40 Offset: 0x212A440 VA: 0x18212BE40
+	|-RVA: 0x212BE80 Offset: 0x212A480 VA: 0x18212BE80
 	|-Func<Friend, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x21299C0 Offset: 0x2127FC0 VA: 0x1821299C0
+	|-RVA: 0x2129A00 Offset: 0x2128000 VA: 0x182129A00
 	|-Func<Friend, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x21289C0 Offset: 0x2126FC0 VA: 0x1821289C0
+	|-RVA: 0x2128A00 Offset: 0x2127000 VA: 0x182128A00
 	|-Func<Friend, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x212B440 Offset: 0x2129A40 VA: 0x18212B440
+	|-RVA: 0x212B480 Offset: 0x2129A80 VA: 0x18212B480
 	|-Func<Friend, Option>.BeginInvoke
 	|
-	|-RVA: 0x212AFC0 Offset: 0x21295C0 VA: 0x18212AFC0
+	|-RVA: 0x212B000 Offset: 0x2129600 VA: 0x18212B000
 	|-Func<Friend, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x21279C0 Offset: 0x2125FC0 VA: 0x1821279C0
+	|-RVA: 0x2127A00 Offset: 0x2126000 VA: 0x182127A00
 	|-Func<Friend, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x21281C0 Offset: 0x21267C0 VA: 0x1821281C0
+	|-RVA: 0x2128200 Offset: 0x2126800 VA: 0x182128200
 	|-Func<Friend, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x212B5C0 Offset: 0x2129BC0 VA: 0x18212B5C0
+	|-RVA: 0x212B600 Offset: 0x2129C00 VA: 0x18212B600
 	|-Func<Friend, bool>.BeginInvoke
 	|
-	|-RVA: 0x212AEC0 Offset: 0x21294C0 VA: 0x18212AEC0
+	|-RVA: 0x212AF00 Offset: 0x2129500 VA: 0x18212AF00
 	|-Func<Friend, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x212A240 Offset: 0x2128840 VA: 0x18212A240
+	|-RVA: 0x212A280 Offset: 0x2128880 VA: 0x18212A280
 	|-Func<Friend, int>.BeginInvoke
 	|
-	|-RVA: 0x212AB40 Offset: 0x2129140 VA: 0x18212AB40
+	|-RVA: 0x212AB80 Offset: 0x2129180 VA: 0x18212AB80
 	|-Func<Friend, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x212B4C0 Offset: 0x2129AC0 VA: 0x18212B4C0
+	|-RVA: 0x212B500 Offset: 0x2129B00 VA: 0x18212B500
 	|-Func<Friend, long>.BeginInvoke
 	|
-	|-RVA: 0x2129DC0 Offset: 0x21283C0 VA: 0x182129DC0
+	|-RVA: 0x2129E00 Offset: 0x2128400 VA: 0x182129E00
 	|-Func<Friend, object>.BeginInvoke
 	|
-	|-RVA: 0x2129B40 Offset: 0x2128140 VA: 0x182129B40
+	|-RVA: 0x2129B80 Offset: 0x2128180 VA: 0x182129B80
 	|-Func<Friend, float>.BeginInvoke
 	|
-	|-RVA: 0x21298C0 Offset: 0x2127EC0 VA: 0x1821298C0
+	|-RVA: 0x2129900 Offset: 0x2127F00 VA: 0x182129900
 	|-Func<Friend, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x21284C0 Offset: 0x2126AC0 VA: 0x1821284C0
+	|-RVA: 0x2128500 Offset: 0x2126B00 VA: 0x182128500
 	|-Func<InventoryItem, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x212B9C0 Offset: 0x2129FC0 VA: 0x18212B9C0
+	|-RVA: 0x212BA00 Offset: 0x212A000 VA: 0x18212BA00
 	|-Func<InventoryItem, FourBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x212B6C0 Offset: 0x2129CC0 VA: 0x18212B6C0
+	|-RVA: 0x212B700 Offset: 0x2129D00 VA: 0x18212B700
 	|-Func<InventoryItem, SevenBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x2128CC0 Offset: 0x21272C0 VA: 0x182128CC0
+	|-RVA: 0x2128D00 Offset: 0x2127300 VA: 0x182128D00
 	|-Func<InventoryItem, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x212A940 Offset: 0x2128F40 VA: 0x18212A940
+	|-RVA: 0x212A980 Offset: 0x2128F80 VA: 0x18212A980
 	|-Func<InventoryItem, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x2129A40 Offset: 0x2128040 VA: 0x182129A40
+	|-RVA: 0x2129A80 Offset: 0x2128080 VA: 0x182129A80
 	|-Func<InventoryItem, Option>.BeginInvoke
 	|
-	|-RVA: 0x212A4C0 Offset: 0x2128AC0 VA: 0x18212A4C0
+	|-RVA: 0x212A500 Offset: 0x2128B00 VA: 0x18212A500
 	|-Func<InventoryItem, InventoryDefId>.BeginInvoke
 	|
-	|-RVA: 0x2127940 Offset: 0x2125F40 VA: 0x182127940
+	|-RVA: 0x2127980 Offset: 0x2125F80 VA: 0x182127980
 	|-Func<InventoryItem, InventoryItemId>.BeginInvoke
 	|
-	|-RVA: 0x212B940 Offset: 0x2129F40 VA: 0x18212B940
+	|-RVA: 0x212B980 Offset: 0x2129F80 VA: 0x18212B980
 	|-Func<InventoryItem, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x212ACC0 Offset: 0x21292C0 VA: 0x18212ACC0
+	|-RVA: 0x212AD00 Offset: 0x2129300 VA: 0x18212AD00
 	|-Func<InventoryItem, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x2128140 Offset: 0x2126740 VA: 0x182128140
+	|-RVA: 0x2128180 Offset: 0x2126780 VA: 0x182128180
 	|-Func<InventoryItem, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x2129040 Offset: 0x2127640 VA: 0x182129040
+	|-RVA: 0x2129080 Offset: 0x2127680 VA: 0x182129080
 	|-Func<InventoryItem, bool>.BeginInvoke
 	|
-	|-RVA: 0x2128A40 Offset: 0x2127040 VA: 0x182128A40
+	|-RVA: 0x2128A80 Offset: 0x2127080 VA: 0x182128A80
 	|-Func<InventoryItem, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x2129BC0 Offset: 0x21281C0 VA: 0x182129BC0
+	|-RVA: 0x2129C00 Offset: 0x2128200 VA: 0x182129C00
 	|-Func<InventoryItem, int>.BeginInvoke
 	|
-	|-RVA: 0x212AAC0 Offset: 0x21290C0 VA: 0x18212AAC0
+	|-RVA: 0x212AB00 Offset: 0x2129100 VA: 0x18212AB00
 	|-Func<InventoryItem, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x21286C0 Offset: 0x2126CC0 VA: 0x1821286C0
+	|-RVA: 0x2128700 Offset: 0x2126D00 VA: 0x182128700
 	|-Func<InventoryItem, long>.BeginInvoke
 	|
-	|-RVA: 0x2129840 Offset: 0x2127E40 VA: 0x182129840
+	|-RVA: 0x2129880 Offset: 0x2127E80 VA: 0x182129880
 	|-Func<InventoryItem, object>.BeginInvoke
 	|
-	|-RVA: 0x2127E40 Offset: 0x2126440 VA: 0x182127E40
+	|-RVA: 0x2127E80 Offset: 0x2126480 VA: 0x182127E80
 	|-Func<InventoryItem, float>.BeginInvoke
 	|
-	|-RVA: 0x212B1C0 Offset: 0x21297C0 VA: 0x18212B1C0
+	|-RVA: 0x212B200 Offset: 0x2129800 VA: 0x18212B200
 	|-Func<InventoryItem, uint>.BeginInvoke
 	|
-	|-RVA: 0x212A0C0 Offset: 0x21286C0 VA: 0x18212A0C0
+	|-RVA: 0x212A100 Offset: 0x2128700 VA: 0x18212A100
 	|-Func<InventoryItem, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x212A840 Offset: 0x2128E40 VA: 0x18212A840
+	|-RVA: 0x212A880 Offset: 0x2128E80 VA: 0x18212A880
 	|-Func<InventoryItem.Amount, InventoryItemId>.BeginInvoke
 	|
-	|-RVA: 0x2128EC0 Offset: 0x21274C0 VA: 0x182128EC0
+	|-RVA: 0x2128F00 Offset: 0x2127500 VA: 0x182128F00
 	|-Func<InventoryItem.Amount, bool>.BeginInvoke
 	|
-	|-RVA: 0x212B3C0 Offset: 0x21299C0 VA: 0x18212B3C0
+	|-RVA: 0x212B400 Offset: 0x2129A00 VA: 0x18212B400
 	|-Func<InventoryItem.Amount, uint>.BeginInvoke
 	|
-	|-RVA: 0x2128C40 Offset: 0x2127240 VA: 0x182128C40
+	|-RVA: 0x2128C80 Offset: 0x2127280 VA: 0x182128C80
 	|-Func<InventoryRecipe, PlayerItemRecipe>.BeginInvoke
 	|
-	|-RVA: 0x21277C0 Offset: 0x2125DC0 VA: 0x1821277C0
+	|-RVA: 0x2127800 Offset: 0x2125E00 VA: 0x182127800
 	|-Func<InventoryRecipe, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x21285C0 Offset: 0x2126BC0 VA: 0x1821285C0
+	|-RVA: 0x2128600 Offset: 0x2126C00 VA: 0x182128600
 	|-Func<InventoryRecipe, bool>.BeginInvoke
 	|
-	|-RVA: 0x2128640 Offset: 0x2126C40 VA: 0x182128640
+	|-RVA: 0x2128680 Offset: 0x2126C80 VA: 0x182128680
 	|-Func<InventoryRecipe, object>.BeginInvoke
 	|
-	|-RVA: 0x2128F40 Offset: 0x2127540 VA: 0x182128F40
+	|-RVA: 0x2128F80 Offset: 0x2127580 VA: 0x182128F80
 	|-Func<InventoryRecipe.Ingredient, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x21282C0 Offset: 0x21268C0 VA: 0x1821282C0
+	|-RVA: 0x2128300 Offset: 0x2126900 VA: 0x182128300
 	|-Func<InventoryRecipe.Ingredient, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x2129640 Offset: 0x2127C40 VA: 0x182129640
+	|-RVA: 0x2129680 Offset: 0x2127C80 VA: 0x182129680
 	|-Func<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x2128840 Offset: 0x2126E40 VA: 0x182128840
+	|-RVA: 0x2128880 Offset: 0x2126E80 VA: 0x182128880
 	|-Func<InventoryRecipe.Ingredient, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x2127840 Offset: 0x2125E40 VA: 0x182127840
+	|-RVA: 0x2127880 Offset: 0x2125E80 VA: 0x182127880
 	|-Func<InventoryRecipe.Ingredient, Option>.BeginInvoke
 	|
-	|-RVA: 0x2129E40 Offset: 0x2128440 VA: 0x182129E40
+	|-RVA: 0x2129E80 Offset: 0x2128480 VA: 0x182129E80
 	|-Func<InventoryRecipe.Ingredient, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x212B0C0 Offset: 0x21296C0 VA: 0x18212B0C0
+	|-RVA: 0x212B100 Offset: 0x2129700 VA: 0x18212B100
 	|-Func<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x2127AC0 Offset: 0x21260C0 VA: 0x182127AC0
+	|-RVA: 0x2127B00 Offset: 0x2126100 VA: 0x182127B00
 	|-Func<InventoryRecipe.Ingredient, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x2127D40 Offset: 0x2126340 VA: 0x182127D40
+	|-RVA: 0x2127D80 Offset: 0x2126380 VA: 0x182127D80
 	|-Func<InventoryRecipe.Ingredient, bool>.BeginInvoke
 	|
-	|-RVA: 0x2129940 Offset: 0x2127F40 VA: 0x182129940
+	|-RVA: 0x2129980 Offset: 0x2127F80 VA: 0x182129980
 	|-Func<InventoryRecipe.Ingredient, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x21278C0 Offset: 0x2125EC0 VA: 0x1821278C0
+	|-RVA: 0x2127900 Offset: 0x2125F00 VA: 0x182127900
 	|-Func<InventoryRecipe.Ingredient, int>.BeginInvoke
 	|
-	|-RVA: 0x2129CC0 Offset: 0x21282C0 VA: 0x182129CC0
+	|-RVA: 0x2129D00 Offset: 0x2128300 VA: 0x182129D00
 	|-Func<InventoryRecipe.Ingredient, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x212A440 Offset: 0x2128A40 VA: 0x18212A440
+	|-RVA: 0x212A480 Offset: 0x2128A80 VA: 0x18212A480
 	|-Func<InventoryRecipe.Ingredient, long>.BeginInvoke
 	|
-	|-RVA: 0x212A640 Offset: 0x2128C40 VA: 0x18212A640
+	|-RVA: 0x212A680 Offset: 0x2128C80 VA: 0x18212A680
 	|-Func<InventoryRecipe.Ingredient, object>.BeginInvoke
 	|
-	|-RVA: 0x2129F40 Offset: 0x2128540 VA: 0x182129F40
+	|-RVA: 0x2129F80 Offset: 0x2128580 VA: 0x182129F80
 	|-Func<InventoryRecipe.Ingredient, float>.BeginInvoke
 	|
-	|-RVA: 0x21276C0 Offset: 0x2125CC0 VA: 0x1821276C0
+	|-RVA: 0x2127700 Offset: 0x2125D00 VA: 0x182127700
 	|-Func<InventoryRecipe.Ingredient, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x2128740 Offset: 0x2126D40 VA: 0x182128740
+	|-RVA: 0x2128780 Offset: 0x2126D80 VA: 0x182128780
 	|-Func<Item, DateTime>.BeginInvoke
 	|
-	|-RVA: 0x212B7C0 Offset: 0x2129DC0 VA: 0x18212B7C0
+	|-RVA: 0x212B800 Offset: 0x2129E00 VA: 0x18212B800
 	|-Func<ArraySegment<byte>, object>.BeginInvoke
 	|
-	|-RVA: 0x212A040 Offset: 0x2128640 VA: 0x18212A040
+	|-RVA: 0x212A080 Offset: 0x2128680 VA: 0x18212A080
 	|-Func<bool, bool>.BeginInvoke
 	|
-	|-RVA: 0x212A1C0 Offset: 0x21287C0 VA: 0x18212A1C0
+	|-RVA: 0x212A200 Offset: 0x2128800 VA: 0x18212A200
 	|-Func<char, bool>.BeginInvoke
 	|
-	|-RVA: 0x21290C0 Offset: 0x21276C0 VA: 0x1821290C0
+	|-RVA: 0x2129100 Offset: 0x2127700 VA: 0x182129100
 	|-Func<DictionaryEntry, bool>.BeginInvoke
 	|
-	|-RVA: 0x212ABC0 Offset: 0x21291C0 VA: 0x18212ABC0
+	|-RVA: 0x212AC00 Offset: 0x2129200 VA: 0x18212AC00
 	|-Func<DictionaryEntry, KeyValuePair<object, object>>.BeginInvoke
 	|
-	|-RVA: 0x212A140 Offset: 0x2128740 VA: 0x18212A140
+	|-RVA: 0x212A180 Offset: 0x2128780 VA: 0x18212A180
 	|-Func<DictionaryEntry, object>.BeginInvoke
 	|
-	|-RVA: 0x212BC40 Offset: 0x212A240 VA: 0x18212BC40
+	|-RVA: 0x212BC80 Offset: 0x212A280 VA: 0x18212BC80
 	|-Func<KeyValuePair<object, int>, bool>.BeginInvoke
 	|
-	|-RVA: 0x212A7C0 Offset: 0x2128DC0 VA: 0x18212A7C0
+	|-RVA: 0x212A800 Offset: 0x2128E00 VA: 0x18212A800
 	|-Func<KeyValuePair<object, int>, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x21293C0 Offset: 0x21279C0 VA: 0x1821293C0
+	|-RVA: 0x2129400 Offset: 0x2127A00 VA: 0x182129400
 	|-Func<KeyValuePair<object, int>, int>.BeginInvoke
 	|
-	|-RVA: 0x21295C0 Offset: 0x2127BC0 VA: 0x1821295C0
+	|-RVA: 0x2129600 Offset: 0x2127C00 VA: 0x182129600
 	|-Func<KeyValuePair<object, long>, long>.BeginInvoke
 	|
-	|-RVA: 0x2127640 Offset: 0x2125C40 VA: 0x182127640
+	|-RVA: 0x2127680 Offset: 0x2125C80 VA: 0x182127680
 	|-Func<KeyValuePair<object, object>, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x21294C0 Offset: 0x2127AC0 VA: 0x1821294C0
+	|-RVA: 0x2129500 Offset: 0x2127B00 VA: 0x182129500
 	|-Func<KeyValuePair<object, object>, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x2128BC0 Offset: 0x21271C0 VA: 0x182128BC0
+	|-RVA: 0x2128C00 Offset: 0x2127200 VA: 0x182128C00
 	|-Func<KeyValuePair<object, object>, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x2127EC0 Offset: 0x21264C0 VA: 0x182127EC0
+	|-RVA: 0x2127F00 Offset: 0x2126500 VA: 0x182127F00
 	|-Func<KeyValuePair<object, object>, Option>.BeginInvoke
 	|
-	|-RVA: 0x212B2C0 Offset: 0x21298C0 VA: 0x18212B2C0
+	|-RVA: 0x212B300 Offset: 0x2129900 VA: 0x18212B300
 	|-Func<KeyValuePair<object, object>, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x2129FC0 Offset: 0x21285C0 VA: 0x182129FC0
+	|-RVA: 0x212A000 Offset: 0x2128600 VA: 0x18212A000
 	|-Func<KeyValuePair<object, object>, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x212B140 Offset: 0x2129740 VA: 0x18212B140
+	|-RVA: 0x212B180 Offset: 0x2129780 VA: 0x18212B180
 	|-Func<KeyValuePair<object, object>, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x212A6C0 Offset: 0x2128CC0 VA: 0x18212A6C0
+	|-RVA: 0x212A700 Offset: 0x2128D00 VA: 0x18212A700
 	|-Func<KeyValuePair<object, object>, bool>.BeginInvoke
 	|
-	|-RVA: 0x2128E40 Offset: 0x2127440 VA: 0x182128E40
+	|-RVA: 0x2128E80 Offset: 0x2127480 VA: 0x182128E80
 	|-Func<KeyValuePair<object, object>, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x2127BC0 Offset: 0x21261C0 VA: 0x182127BC0
+	|-RVA: 0x2127C00 Offset: 0x2126200 VA: 0x182127C00
 	|-Func<KeyValuePair<object, object>, int>.BeginInvoke
 	|
-	|-RVA: 0x212BA40 Offset: 0x212A040 VA: 0x18212BA40
+	|-RVA: 0x212BA80 Offset: 0x212A080 VA: 0x18212BA80
 	|-Func<KeyValuePair<object, object>, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x2129140 Offset: 0x2127740 VA: 0x182129140
+	|-RVA: 0x2129180 Offset: 0x2127780 VA: 0x182129180
 	|-Func<KeyValuePair<object, object>, long>.BeginInvoke
 	|
-	|-RVA: 0x2127440 Offset: 0x2125A40 VA: 0x182127440
+	|-RVA: 0x2127480 Offset: 0x2125A80 VA: 0x182127480
 	|-Func<KeyValuePair<object, object>, object>.BeginInvoke
 	|
-	|-RVA: 0x212BB40 Offset: 0x212A140 VA: 0x18212BB40
+	|-RVA: 0x212BB80 Offset: 0x212A180 VA: 0x18212BB80
 	|-Func<KeyValuePair<object, object>, float>.BeginInvoke
 	|
-	|-RVA: 0x2127B40 Offset: 0x2126140 VA: 0x182127B40
+	|-RVA: 0x2127B80 Offset: 0x2126180 VA: 0x182127B80
 	|-Func<KeyValuePair<object, object>, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x212B040 Offset: 0x2129640 VA: 0x18212B040
+	|-RVA: 0x212B080 Offset: 0x2129680 VA: 0x18212B080
 	|-Func<KeyValuePair<uint, object>, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x21287C0 Offset: 0x2126DC0 VA: 0x1821287C0
+	|-RVA: 0x2128800 Offset: 0x2126E00 VA: 0x182128800
 	|-Func<KeyValuePair<uint, object>, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x212BAC0 Offset: 0x212A0C0 VA: 0x18212BAC0
+	|-RVA: 0x212BB00 Offset: 0x212A100 VA: 0x18212BB00
 	|-Func<KeyValuePair<uint, object>, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x212AC40 Offset: 0x2129240 VA: 0x18212AC40
+	|-RVA: 0x212AC80 Offset: 0x2129280 VA: 0x18212AC80
 	|-Func<KeyValuePair<uint, object>, Option>.BeginInvoke
 	|
-	|-RVA: 0x2129340 Offset: 0x2127940 VA: 0x182129340
+	|-RVA: 0x2129380 Offset: 0x2127980 VA: 0x182129380
 	|-Func<KeyValuePair<uint, object>, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x212BEC0 Offset: 0x212A4C0 VA: 0x18212BEC0
+	|-RVA: 0x212BF00 Offset: 0x212A500 VA: 0x18212BF00
 	|-Func<KeyValuePair<uint, object>, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x2129D40 Offset: 0x2128340 VA: 0x182129D40
+	|-RVA: 0x2129D80 Offset: 0x2128380 VA: 0x182129D80
 	|-Func<KeyValuePair<uint, object>, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x212BBC0 Offset: 0x212A1C0 VA: 0x18212BBC0
+	|-RVA: 0x212BC00 Offset: 0x212A200 VA: 0x18212BC00
 	|-Func<KeyValuePair<uint, object>, bool>.BeginInvoke
 	|
-	|-RVA: 0x212B8C0 Offset: 0x2129EC0 VA: 0x18212B8C0
+	|-RVA: 0x212B900 Offset: 0x2129F00 VA: 0x18212B900
 	|-Func<KeyValuePair<uint, object>, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x212AF40 Offset: 0x2129540 VA: 0x18212AF40
+	|-RVA: 0x212AF80 Offset: 0x2129580 VA: 0x18212AF80
 	|-Func<KeyValuePair<uint, object>, int>.BeginInvoke
 	|
-	|-RVA: 0x2127C40 Offset: 0x2126240 VA: 0x182127C40
+	|-RVA: 0x2127C80 Offset: 0x2126280 VA: 0x182127C80
 	|-Func<KeyValuePair<uint, object>, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x212A2C0 Offset: 0x21288C0 VA: 0x18212A2C0
+	|-RVA: 0x212A300 Offset: 0x2128900 VA: 0x18212A300
 	|-Func<KeyValuePair<uint, object>, long>.BeginInvoke
 	|
-	|-RVA: 0x212A340 Offset: 0x2128940 VA: 0x18212A340
+	|-RVA: 0x212A380 Offset: 0x2128980 VA: 0x18212A380
 	|-Func<KeyValuePair<uint, object>, object>.BeginInvoke
 	|
-	|-RVA: 0x2128340 Offset: 0x2126940 VA: 0x182128340
+	|-RVA: 0x2128380 Offset: 0x2126980 VA: 0x182128380
 	|-Func<KeyValuePair<uint, object>, float>.BeginInvoke
 	|
-	|-RVA: 0x2128AC0 Offset: 0x21270C0 VA: 0x182128AC0
+	|-RVA: 0x2128B00 Offset: 0x2127100 VA: 0x182128B00
 	|-Func<KeyValuePair<uint, object>, uint>.BeginInvoke
 	|
-	|-RVA: 0x212B540 Offset: 0x2129B40 VA: 0x18212B540
+	|-RVA: 0x212B580 Offset: 0x2129B80 VA: 0x18212B580
 	|-Func<KeyValuePair<uint, object>, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x21274C0 Offset: 0x2125AC0 VA: 0x1821274C0
+	|-RVA: 0x2127500 Offset: 0x2125B00 VA: 0x182127500
 	|-Func<KeyValuePair<ulong, Dispatch.ResultCallback>, Dispatch.ResultCallback>.BeginInvoke
 	|
-	|-RVA: 0x212B240 Offset: 0x2129840 VA: 0x18212B240
+	|-RVA: 0x212B280 Offset: 0x2129880 VA: 0x18212B280
 	|-Func<KeyValuePair<ulong, Dispatch.ResultCallback>, bool>.BeginInvoke
 	|
-	|-RVA: 0x2127740 Offset: 0x2125D40 VA: 0x182127740
+	|-RVA: 0x2127780 Offset: 0x2125D80 VA: 0x182127780
 	|-Func<KeyValuePair<ulong, Dispatch.ResultCallback>, ulong>.BeginInvoke
 	|
-	|-RVA: 0x2129740 Offset: 0x2127D40 VA: 0x182129740
+	|-RVA: 0x2129780 Offset: 0x2127D80 VA: 0x182129780
 	|-Func<double, double>.BeginInvoke
 	|
-	|-RVA: 0x2127F40 Offset: 0x2126540 VA: 0x182127F40
+	|-RVA: 0x2127F80 Offset: 0x2126580 VA: 0x182127F80
 	|-Func<Guid, int>.BeginInvoke
 	|
-	|-RVA: 0x21296C0 Offset: 0x2127CC0 VA: 0x1821296C0
+	|-RVA: 0x2129700 Offset: 0x2127D00 VA: 0x182129700
 	|-Func<Guid, object>.BeginInvoke
 	|
-	|-RVA: 0x2127CC0 Offset: 0x21262C0 VA: 0x182127CC0
+	|-RVA: 0x2127D00 Offset: 0x2126300 VA: 0x182127D00
 	|-Func<int, FourBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x21283C0 Offset: 0x21269C0 VA: 0x1821283C0
+	|-RVA: 0x2128400 Offset: 0x2126A00 VA: 0x182128400
 	|-Func<int, SevenBitNumber>.BeginInvoke
 	|
-	|-RVA: 0x2128240 Offset: 0x2126840 VA: 0x182128240
+	|-RVA: 0x2128280 Offset: 0x2126880 VA: 0x182128280
 	|-Func<int, bool>.BeginInvoke
 	|
-	|-RVA: 0x212A3C0 Offset: 0x21289C0 VA: 0x18212A3C0
+	|-RVA: 0x212A400 Offset: 0x2128A00 VA: 0x18212A400
 	|-Func<int, int>.BeginInvoke
 	|
-	|-RVA: 0x2128DC0 Offset: 0x21273C0 VA: 0x182128DC0
+	|-RVA: 0x2128E00 Offset: 0x2127400 VA: 0x182128E00
 	|-Func<int, object>.BeginInvoke
 	|
-	|-RVA: 0x212B840 Offset: 0x2129E40 VA: 0x18212B840
+	|-RVA: 0x212B880 Offset: 0x2129E80 VA: 0x18212B880
 	|-Func<int, float>.BeginInvoke
 	|
-	|-RVA: 0x2128540 Offset: 0x2126B40 VA: 0x182128540
+	|-RVA: 0x2128580 Offset: 0x2126B80 VA: 0x182128580
 	|-Func<Int32Enum, Debugging.EntityInfo>.BeginInvoke
 	|
-	|-RVA: 0x2128440 Offset: 0x2126A40 VA: 0x182128440
+	|-RVA: 0x2128480 Offset: 0x2126A80 VA: 0x182128480
 	|-Func<Int32Enum, PathFinder.Point>.BeginInvoke
 	|
-	|-RVA: 0x212AD40 Offset: 0x2129340 VA: 0x18212AD40
+	|-RVA: 0x212AD80 Offset: 0x2129380 VA: 0x18212AD80
 	|-Func<Int32Enum, ProjectileWeaponMod.Modifier>.BeginInvoke
 	|
-	|-RVA: 0x212B340 Offset: 0x2129940 VA: 0x18212B340
+	|-RVA: 0x212B380 Offset: 0x2129980 VA: 0x18212B380
 	|-Func<Int32Enum, Option>.BeginInvoke
 	|
-	|-RVA: 0x2129240 Offset: 0x2127840 VA: 0x182129240
+	|-RVA: 0x2129280 Offset: 0x2127880 VA: 0x182129280
 	|-Func<Int32Enum, InventoryItem>.BeginInvoke
 	|
-	|-RVA: 0x2127FC0 Offset: 0x21265C0 VA: 0x182127FC0
+	|-RVA: 0x2128000 Offset: 0x2126600 VA: 0x182128000
 	|-Func<Int32Enum, InventoryRecipe.Ingredient>.BeginInvoke
 	|
-	|-RVA: 0x2128FC0 Offset: 0x21275C0 VA: 0x182128FC0
+	|-RVA: 0x2129000 Offset: 0x2127600 VA: 0x182129000
 	|-Func<Int32Enum, InventoryRecipe>.BeginInvoke
 	|
-	|-RVA: 0x2129EC0 Offset: 0x21284C0 VA: 0x182129EC0
+	|-RVA: 0x2129F00 Offset: 0x2128500 VA: 0x182129F00
 	|-Func<Int32Enum, bool>.BeginInvoke
 	|
-	|-RVA: 0x21288C0 Offset: 0x2126EC0 VA: 0x1821288C0
+	|-RVA: 0x2128900 Offset: 0x2126F00 VA: 0x182128900
 	|-Func<Int32Enum, KeyValuePair<object, int>>.BeginInvoke
 	|
-	|-RVA: 0x212A540 Offset: 0x2128B40 VA: 0x18212A540
+	|-RVA: 0x212A580 Offset: 0x2128B80 VA: 0x18212A580
 	|-Func<Int32Enum, int>.BeginInvoke
 	|
-	|-RVA: 0x212A740 Offset: 0x2128D40 VA: 0x18212A740
+	|-RVA: 0x212A780 Offset: 0x2128D80 VA: 0x18212A780
 	|-Func<Int32Enum, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x212ADC0 Offset: 0x21293C0 VA: 0x18212ADC0
+	|-RVA: 0x212AE00 Offset: 0x2129400 VA: 0x18212AE00
 	|-Func<Int32Enum, long>.BeginInvoke
 	|
-	|-RVA: 0x2128940 Offset: 0x2126F40 VA: 0x182128940
+	|-RVA: 0x2128980 Offset: 0x2126F80 VA: 0x182128980
 	|-Func<Int32Enum, object>.BeginInvoke
 	|
-	|-RVA: 0x212BDC0 Offset: 0x212A3C0 VA: 0x18212BDC0
+	|-RVA: 0x212BE00 Offset: 0x212A400 VA: 0x18212BE00
 	|-Func<Int32Enum, float>.BeginInvoke
 	|
-	|-RVA: 0x2129AC0 Offset: 0x21280C0 VA: 0x182129AC0
+	|-RVA: 0x2129B00 Offset: 0x2128100 VA: 0x182129B00
 	|-Func<Int32Enum, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x212A8C0 Offset: 0x2128EC0 VA: 0x18212A8C0
+	|-RVA: 0x212A900 Offset: 0x2128F00 VA: 0x18212A900
 	|-Func<long, bool>.BeginInvoke
 	|
-	|-RVA: 0x21291C0 Offset: 0x21277C0 VA: 0x1821291C0
+	|-RVA: 0x2129200 Offset: 0x2127800 VA: 0x182129200
 	|-Func<long, long>.BeginInvoke
 	|
-	|-RVA: 0x212BD40 Offset: 0x212A340 VA: 0x18212BD40
+	|-RVA: 0x212BD80 Offset: 0x212A380 VA: 0x18212BD80
 	|-Func<IntPtr, object>.BeginInvoke
 	|
 	|-RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380
@@ -2083,37 +2083,37 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, ulong>.BeginInvoke
 	|-Func<object, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x19E6510 Offset: 0x19E4B10 VA: 0x1819E6510
+	|-RVA: 0x19E6550 Offset: 0x19E4B50 VA: 0x1819E6550
 	|-Func<float, bool>.BeginInvoke
 	|
-	|-RVA: 0x19E6410 Offset: 0x19E4A10 VA: 0x1819E6410
+	|-RVA: 0x19E6450 Offset: 0x19E4A50 VA: 0x1819E6450
 	|-Func<float, float>.BeginInvoke
 	|
-	|-RVA: 0x19E6210 Offset: 0x19E4810 VA: 0x1819E6210
+	|-RVA: 0x19E6250 Offset: 0x19E4850 VA: 0x1819E6250
 	|-Func<uint, bool>.BeginInvoke
 	|
-	|-RVA: 0x19E6290 Offset: 0x19E4890 VA: 0x1819E6290
+	|-RVA: 0x19E62D0 Offset: 0x19E48D0 VA: 0x1819E62D0
 	|-Func<uint, uint>.BeginInvoke
 	|
-	|-RVA: 0x19E6690 Offset: 0x19E4C90 VA: 0x1819E6690
+	|-RVA: 0x19E66D0 Offset: 0x19E4CD0 VA: 0x1819E66D0
 	|-Func<ulong, bool>.BeginInvoke
 	|
-	|-RVA: 0x19E6490 Offset: 0x19E4A90 VA: 0x1819E6490
+	|-RVA: 0x19E64D0 Offset: 0x19E4AD0 VA: 0x1819E64D0
 	|-Func<ulong, ulong>.BeginInvoke
 	|
-	|-RVA: 0x19E6310 Offset: 0x19E4910 VA: 0x1819E6310
+	|-RVA: 0x19E6350 Offset: 0x19E4950 VA: 0x1819E6350
 	|-Func<ValueTuple<Int32Enum, int>, object>.BeginInvoke
 	|
-	|-RVA: 0x19E6710 Offset: 0x19E4D10 VA: 0x1819E6710
+	|-RVA: 0x19E6750 Offset: 0x19E4D50 VA: 0x1819E6750
 	|-Func<Resolution, bool>.BeginInvoke
 	|
-	|-RVA: 0x19E6590 Offset: 0x19E4B90 VA: 0x1819E6590
+	|-RVA: 0x19E65D0 Offset: 0x19E4BD0 VA: 0x1819E65D0
 	|-Func<Resolution, int>.BeginInvoke
 	|
-	|-RVA: 0x19E6610 Offset: 0x19E4C10 VA: 0x1819E6610
+	|-RVA: 0x19E6650 Offset: 0x19E4C50 VA: 0x1819E6650
 	|-Func<Resolution, Resolution>.BeginInvoke
 	|
-	|-RVA: 0x19E6390 Offset: 0x19E4990 VA: 0x1819E6390
+	|-RVA: 0x19E63D0 Offset: 0x19E49D0 VA: 0x1819E63D0
 	|-Func<Resolution, Vector2Int>.BeginInvoke
 	*/
 
@@ -2149,7 +2149,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, object>.EndInvoke
 	|-Func<ValueTuple<Int32Enum, int>, object>.EndInvoke
 	|
-	|-RVA: 0x12214E0 Offset: 0x121FAE0 VA: 0x1812214E0
+	|-RVA: 0x1221520 Offset: 0x121FB20 VA: 0x181221520
 	|-Func<Debugging.EntityInfo, Debugging.EntityInfo>.EndInvoke
 	|-Func<SkeletonDefinition.Bone, Debugging.EntityInfo>.EndInvoke
 	|-Func<SkeletonDefinition.Bone, KeyValuePair<object, int>>.EndInvoke
@@ -2185,7 +2185,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, Guid>.EndInvoke
 	|-Func<object, UdpReceiveResult>.EndInvoke
 	|
-	|-RVA: 0xFF70B0 Offset: 0xFF56B0 VA: 0x180FF70B0
+	|-RVA: 0xFF70F0 Offset: 0xFF56F0 VA: 0x180FF70F0
 	|-Func<Debugging.EntityInfo, bool>.EndInvoke
 	|-Func<Entity.EntityInfo, bool>.EndInvoke
 	|-Func<BurstCloth.Chain, FourBitNumber>.EndInvoke
@@ -2244,7 +2244,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<ulong, bool>.EndInvoke
 	|-Func<Resolution, bool>.EndInvoke
 	|
-	|-RVA: 0x1221E30 Offset: 0x1220430 VA: 0x181221E30
+	|-RVA: 0x1221E70 Offset: 0x1220470 VA: 0x181221E70
 	|-Func<Demos.DemoInfo, DateTime>.EndInvoke
 	|-Func<Demos.DemoInfo, TimeSpan>.EndInvoke
 	|-Func<SkeletonDefinition.Bone, PathFinder.Point>.EndInvoke
@@ -2291,7 +2291,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<ulong, ulong>.EndInvoke
 	|-Func<Resolution, Vector2Int>.EndInvoke
 	|
-	|-RVA: 0xB9AFA0 Offset: 0xB995A0 VA: 0x180B9AFA0
+	|-RVA: 0xB9AFE0 Offset: 0xB995E0 VA: 0x180B9AFE0
 	|-Func<BurstCloth.Chain, int>.EndInvoke
 	|-Func<SkeletonDefinition.Bone, int>.EndInvoke
 	|-Func<SkeletonDefinition.Bone, Int32Enum>.EndInvoke
@@ -2332,7 +2332,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<uint, uint>.EndInvoke
 	|-Func<Resolution, int>.EndInvoke
 	|
-	|-RVA: 0x1977ED0 Offset: 0x19764D0 VA: 0x181977ED0
+	|-RVA: 0x1977F10 Offset: 0x1976510 VA: 0x181977F10
 	|-Func<SkeletonDefinition.Bone, ProjectileWeaponMod.Modifier>.EndInvoke
 	|-Func<SkeletonDefinition.Bone, Resolution>.EndInvoke
 	|-Func<PlayerItemRecipe, ProjectileWeaponMod.Modifier>.EndInvoke
@@ -2361,7 +2361,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, Resolution>.EndInvoke
 	|-Func<Resolution, Resolution>.EndInvoke
 	|
-	|-RVA: 0x19E6800 Offset: 0x19E4E00 VA: 0x1819E6800
+	|-RVA: 0x19E6840 Offset: 0x19E4E40 VA: 0x1819E6840
 	|-Func<SkeletonDefinition.Bone, Option>.EndInvoke
 	|-Func<SkeletonDefinition.Bone, InventoryItem>.EndInvoke
 	|-Func<PlayerItemRecipe, Option>.EndInvoke
@@ -2390,7 +2390,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, Nullable<InventoryPurchaseResult>>.EndInvoke
 	|-Func<object, Nullable<ResultPage>>.EndInvoke
 	|
-	|-RVA: 0x19E6920 Offset: 0x19E4F20 VA: 0x1819E6920
+	|-RVA: 0x19E6960 Offset: 0x19E4F60 VA: 0x1819E6960
 	|-Func<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.EndInvoke
 	|-Func<SkeletonDefinition.Bone, InventoryRecipe>.EndInvoke
 	|-Func<PlayerItemRecipe, InventoryRecipe.Ingredient>.EndInvoke
@@ -2419,7 +2419,7 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, PublishResult>.EndInvoke
 	|-Func<object, Nullable<Image>>.EndInvoke
 	|
-	|-RVA: 0x19E6840 Offset: 0x19E4E40 VA: 0x1819E6840
+	|-RVA: 0x19E6880 Offset: 0x19E4E80 VA: 0x1819E6880
 	|-Func<SkeletonDefinition.Bone, float>.EndInvoke
 	|-Func<WeightedStringList.Container, float>.EndInvoke
 	|-Func<PlayerItemRecipe, float>.EndInvoke
@@ -2437,16 +2437,16 @@ public sealed class Func<T, TResult> : MulticastDelegate // TypeDefIndex: 156
 	|-Func<object, float>.EndInvoke
 	|-Func<float, float>.EndInvoke
 	|
-	|-RVA: 0x212BF40 Offset: 0x212A540 VA: 0x18212BF40
+	|-RVA: 0x212BF80 Offset: 0x212A580 VA: 0x18212BF80
 	|-Func<ServerInfo, ServerInfo>.EndInvoke
 	|
-	|-RVA: 0x212BFB0 Offset: 0x212A5B0 VA: 0x18212BFB0
+	|-RVA: 0x212BFF0 Offset: 0x212A5F0 VA: 0x18212BFF0
 	|-Func<double, double>.EndInvoke
 	|
-	|-RVA: 0x19E6790 Offset: 0x19E4D90 VA: 0x1819E6790
+	|-RVA: 0x19E67D0 Offset: 0x19E4DD0 VA: 0x1819E67D0
 	|-Func<object, Nullable<ServerInfo>>.EndInvoke
 	|
-	|-RVA: 0x19E6870 Offset: 0x19E4E70 VA: 0x1819E6870
+	|-RVA: 0x19E68B0 Offset: 0x19E4EB0 VA: 0x1819E68B0
 	|-Func<object, Nullable<Item>>.EndInvoke
 	*/
 
@@ -2464,7 +2464,7 @@ public sealed class Converter<TInput, TOutput> : MulticastDelegate // TypeDefInd
 	public virtual TOutput Invoke(TInput input) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5A600 Offset: 0xD58C00 VA: 0x180D5A600
+	|-RVA: 0xD5A640 Offset: 0xD58C40 VA: 0x180D5A640
 	|-Converter<Type, string>.Invoke
 	|-Converter<object, object>.Invoke
 	*/
@@ -2599,7 +2599,7 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19D0BF0 Offset: 0x19CF1F0 VA: 0x1819D0BF0
+	|-RVA: 0x19D0C30 Offset: 0x19CF230 VA: 0x1819D0C30
 	|-Iterator<object>..ctor
 	*/
 
@@ -2620,21 +2620,21 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19EFDA0 Offset: 0x19EE3A0 VA: 0x1819EFDA0
+	|-RVA: 0x19EFDE0 Offset: 0x19EE3E0 VA: 0x1819EFDE0
 	|-Iterator<object>.Dispose
 	*/
 
 	protected virtual void Dispose(bool disposing) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CF9B0 Offset: 0x19CDFB0 VA: 0x1819CF9B0
+	|-RVA: 0x19CF9F0 Offset: 0x19CDFF0 VA: 0x1819CF9F0
 	|-Iterator<object>.Dispose
 	*/
 
 	public IEnumerator<TSource> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19CFA70 Offset: 0x19CE070 VA: 0x1819CFA70
+	|-RVA: 0x19CFAB0 Offset: 0x19CE0B0 VA: 0x1819CFAB0
 	|-Iterator<object>.GetEnumerator
 	*/
 
@@ -2648,21 +2648,21 @@ internal abstract class Iterator<TSource> : IEnumerable<TSource>, IEnumerable, I
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1355360 Offset: 0x1353960 VA: 0x181355360
+	|-RVA: 0x13553A0 Offset: 0x13539A0 VA: 0x1813553A0
 	|-Iterator<object>.System.Collections.IEnumerator.get_Current
 	*/
 
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16456C0 Offset: 0x1643CC0 VA: 0x1816456C0
+	|-RVA: 0x1645700 Offset: 0x1643D00 VA: 0x181645700
 	|-Iterator<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19EFE20 Offset: 0x19EE420 VA: 0x1819EFE20
+	|-RVA: 0x19EFE60 Offset: 0x19EE460 VA: 0x1819EFE60
 	|-Iterator<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -2687,7 +2687,7 @@ internal abstract class SearchResultHandler<TSource> // TypeDefIndex: 629
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
+	|-RVA: 0xD5BC10 Offset: 0xD5A210 VA: 0x180D5BC10
 	|-SearchResultHandler<object>..ctor
 	|-SearchResultHandler<string>..ctor
 	*/
@@ -2714,455 +2714,455 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A97F40 Offset: 0x1A96540 VA: 0x181A97F40
+	|-RVA: 0x1A97F80 Offset: 0x1A96580 VA: 0x181A97F80
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A96160 Offset: 0x1A94760 VA: 0x181A96160
+	|-RVA: 0x1A961A0 Offset: 0x1A947A0 VA: 0x181A961A0
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A968C0 Offset: 0x1A94EC0 VA: 0x181A968C0
+	|-RVA: 0x1A96900 Offset: 0x1A94F00 VA: 0x181A96900
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A96460 Offset: 0x1A94A60 VA: 0x181A96460
+	|-RVA: 0x1A964A0 Offset: 0x1A94AA0 VA: 0x181A964A0
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A96C40 Offset: 0x1A95240 VA: 0x181A96C40
+	|-RVA: 0x1A96C80 Offset: 0x1A95280 VA: 0x181A96C80
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A95DF0 Offset: 0x1A943F0 VA: 0x181A95DF0
+	|-RVA: 0x1A95E30 Offset: 0x1A94430 VA: 0x181A95E30
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A972D0 Offset: 0x1A958D0 VA: 0x181A972D0
+	|-RVA: 0x1A97310 Offset: 0x1A95910 VA: 0x181A97310
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A97C10 Offset: 0x1A96210 VA: 0x181A97C10
+	|-RVA: 0x1A97C50 Offset: 0x1A96250 VA: 0x181A97C50
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A961C0 Offset: 0x1A947C0 VA: 0x181A961C0
+	|-RVA: 0x1A96200 Offset: 0x1A94800 VA: 0x181A96200
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A96100 Offset: 0x1A94700 VA: 0x181A96100
+	|-RVA: 0x1A96140 Offset: 0x1A94740 VA: 0x181A96140
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A43B30 Offset: 0x1A42130 VA: 0x181A43B30
+	|-RVA: 0x1A43B70 Offset: 0x1A42170 VA: 0x181A43B70
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A43310 Offset: 0x1A41910 VA: 0x181A43310
+	|-RVA: 0x1A43350 Offset: 0x1A41950 VA: 0x181A43350
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A42E70 Offset: 0x1A41470 VA: 0x181A42E70
+	|-RVA: 0x1A42EB0 Offset: 0x1A414B0 VA: 0x181A42EB0
 	|-Task<object>..ctor
 	|-Task<Task>..ctor
 	|
-	|-RVA: 0x1A43370 Offset: 0x1A41970 VA: 0x181A43370
+	|-RVA: 0x1A433B0 Offset: 0x1A419B0 VA: 0x181A433B0
 	|-Task<VoidTaskResult>..ctor
 	*/
 
 	internal void .ctor(object state, TaskCreationOptions options) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A96CA0 Offset: 0x1A952A0 VA: 0x181A96CA0
+	|-RVA: 0x1A96CE0 Offset: 0x1A952E0 VA: 0x181A96CE0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A96E10 Offset: 0x1A95410 VA: 0x181A96E10
+	|-RVA: 0x1A96E50 Offset: 0x1A95450 VA: 0x181A96E50
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A97D00 Offset: 0x1A96300 VA: 0x181A97D00
+	|-RVA: 0x1A97D40 Offset: 0x1A96340 VA: 0x181A97D40
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A97EB0 Offset: 0x1A964B0 VA: 0x181A97EB0
+	|-RVA: 0x1A97EF0 Offset: 0x1A964F0 VA: 0x181A97EF0
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A95B10 Offset: 0x1A94110 VA: 0x181A95B10
+	|-RVA: 0x1A95B50 Offset: 0x1A94150 VA: 0x181A95B50
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A963D0 Offset: 0x1A949D0 VA: 0x181A963D0
+	|-RVA: 0x1A96410 Offset: 0x1A94A10 VA: 0x181A96410
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A95FE0 Offset: 0x1A945E0 VA: 0x181A95FE0
+	|-RVA: 0x1A96020 Offset: 0x1A94620 VA: 0x181A96020
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A96070 Offset: 0x1A94670 VA: 0x181A96070
+	|-RVA: 0x1A960B0 Offset: 0x1A946B0 VA: 0x181A960B0
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A94A50 Offset: 0x1A93050 VA: 0x181A94A50
+	|-RVA: 0x1A94A90 Offset: 0x1A93090 VA: 0x181A94A90
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A94F20 Offset: 0x1A93520 VA: 0x181A94F20
+	|-RVA: 0x1A94F60 Offset: 0x1A93560 VA: 0x181A94F60
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A43280 Offset: 0x1A41880 VA: 0x181A43280
+	|-RVA: 0x1A432C0 Offset: 0x1A418C0 VA: 0x181A432C0
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A434F0 Offset: 0x1A41AF0 VA: 0x181A434F0
+	|-RVA: 0x1A43530 Offset: 0x1A41B30 VA: 0x181A43530
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A43980 Offset: 0x1A41F80 VA: 0x181A43980
+	|-RVA: 0x1A439C0 Offset: 0x1A41FC0 VA: 0x181A439C0
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A43C30 Offset: 0x1A42230 VA: 0x181A43C30
+	|-RVA: 0x1A43C70 Offset: 0x1A42270 VA: 0x181A43C70
 	|-Task<VoidTaskResult>..ctor
 	*/
 
 	internal void .ctor(TResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A958B0 Offset: 0x1A93EB0 VA: 0x181A958B0
+	|-RVA: 0x1A958F0 Offset: 0x1A93EF0 VA: 0x181A958F0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A94330 Offset: 0x1A92930 VA: 0x181A94330
+	|-RVA: 0x1A94370 Offset: 0x1A92970 VA: 0x181A94370
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A94AE0 Offset: 0x1A930E0 VA: 0x181A94AE0
+	|-RVA: 0x1A94B20 Offset: 0x1A93120 VA: 0x181A94B20
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A97C70 Offset: 0x1A96270 VA: 0x181A97C70
+	|-RVA: 0x1A97CB0 Offset: 0x1A962B0 VA: 0x181A97CB0
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A97330 Offset: 0x1A95930 VA: 0x181A97330
+	|-RVA: 0x1A97370 Offset: 0x1A95970 VA: 0x181A97370
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A97230 Offset: 0x1A95830 VA: 0x181A97230
+	|-RVA: 0x1A97270 Offset: 0x1A95870 VA: 0x181A97270
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A96220 Offset: 0x1A94820 VA: 0x181A96220
+	|-RVA: 0x1A96260 Offset: 0x1A94860 VA: 0x181A96260
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A95D60 Offset: 0x1A94360 VA: 0x181A95D60
+	|-RVA: 0x1A95DA0 Offset: 0x1A943A0 VA: 0x181A95DA0
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A97410 Offset: 0x1A95A10 VA: 0x181A97410
+	|-RVA: 0x1A97450 Offset: 0x1A95A50 VA: 0x181A97450
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A94E90 Offset: 0x1A93490 VA: 0x181A94E90
+	|-RVA: 0x1A94ED0 Offset: 0x1A934D0 VA: 0x181A94ED0
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A436A0 Offset: 0x1A41CA0 VA: 0x181A436A0
+	|-RVA: 0x1A436E0 Offset: 0x1A41CE0 VA: 0x181A436E0
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A42580 Offset: 0x1A40B80 VA: 0x181A42580
+	|-RVA: 0x1A425C0 Offset: 0x1A40BC0 VA: 0x181A425C0
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A42FF0 Offset: 0x1A415F0 VA: 0x181A42FF0
+	|-RVA: 0x1A43030 Offset: 0x1A41630 VA: 0x181A43030
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A42DF0 Offset: 0x1A413F0 VA: 0x181A42DF0
+	|-RVA: 0x1A42E30 Offset: 0x1A41430 VA: 0x181A42E30
 	|-Task<VoidTaskResult>..ctor
 	*/
 
 	internal void .ctor(bool canceled, TResult result, TaskCreationOptions creationOptions, CancellationToken ct) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A97FA0 Offset: 0x1A965A0 VA: 0x181A97FA0
+	|-RVA: 0x1A97FE0 Offset: 0x1A965E0 VA: 0x181A97FE0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A94FB0 Offset: 0x1A935B0 VA: 0x181A94FB0
+	|-RVA: 0x1A94FF0 Offset: 0x1A935F0 VA: 0x181A94FF0
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A943B0 Offset: 0x1A929B0 VA: 0x181A943B0
+	|-RVA: 0x1A943F0 Offset: 0x1A929F0 VA: 0x181A943F0
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A97180 Offset: 0x1A95780 VA: 0x181A97180
+	|-RVA: 0x1A971C0 Offset: 0x1A957C0 VA: 0x181A971C0
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A95250 Offset: 0x1A93850 VA: 0x181A95250
+	|-RVA: 0x1A95290 Offset: 0x1A93890 VA: 0x181A95290
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A956D0 Offset: 0x1A93CD0 VA: 0x181A956D0
+	|-RVA: 0x1A95710 Offset: 0x1A93D10 VA: 0x181A95710
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A95F30 Offset: 0x1A94530 VA: 0x181A95F30
+	|-RVA: 0x1A95F70 Offset: 0x1A94570 VA: 0x181A95F70
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A97B60 Offset: 0x1A96160 VA: 0x181A97B60
+	|-RVA: 0x1A97BA0 Offset: 0x1A961A0 VA: 0x181A97BA0
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A94B60 Offset: 0x1A93160 VA: 0x181A94B60
+	|-RVA: 0x1A94BA0 Offset: 0x1A931A0 VA: 0x181A94BA0
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A95A60 Offset: 0x1A94060 VA: 0x181A95A60
+	|-RVA: 0x1A95AA0 Offset: 0x1A940A0 VA: 0x181A95AA0
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A43720 Offset: 0x1A41D20 VA: 0x181A43720
+	|-RVA: 0x1A43760 Offset: 0x1A41D60 VA: 0x181A43760
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A42600 Offset: 0x1A40C00 VA: 0x181A42600
+	|-RVA: 0x1A42640 Offset: 0x1A40C40 VA: 0x181A42640
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A42AA0 Offset: 0x1A410A0 VA: 0x181A42AA0
+	|-RVA: 0x1A42AE0 Offset: 0x1A410E0 VA: 0x181A42AE0
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A43B90 Offset: 0x1A42190 VA: 0x181A43B90
+	|-RVA: 0x1A43BD0 Offset: 0x1A421D0 VA: 0x181A43BD0
 	|-Task<VoidTaskResult>..ctor
 	*/
 
 	public void .ctor(Func<object, TResult> function, object state, CancellationToken cancellationToken, TaskCreationOptions creationOptions) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A96FC0 Offset: 0x1A955C0 VA: 0x181A96FC0
+	|-RVA: 0x1A97000 Offset: 0x1A95600 VA: 0x181A97000
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A970A0 Offset: 0x1A956A0 VA: 0x181A970A0
+	|-RVA: 0x1A970E0 Offset: 0x1A956E0 VA: 0x181A970E0
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A947B0 Offset: 0x1A92DB0 VA: 0x181A947B0
+	|-RVA: 0x1A947F0 Offset: 0x1A92DF0 VA: 0x181A947F0
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A94890 Offset: 0x1A92E90 VA: 0x181A94890
+	|-RVA: 0x1A948D0 Offset: 0x1A92ED0 VA: 0x181A948D0
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A94970 Offset: 0x1A92F70 VA: 0x181A94970
+	|-RVA: 0x1A949B0 Offset: 0x1A92FB0 VA: 0x181A949B0
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A95430 Offset: 0x1A93A30 VA: 0x181A95430
+	|-RVA: 0x1A95470 Offset: 0x1A93A70 VA: 0x181A95470
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A967E0 Offset: 0x1A94DE0 VA: 0x181A967E0
+	|-RVA: 0x1A96820 Offset: 0x1A94E20 VA: 0x181A96820
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A95050 Offset: 0x1A93650 VA: 0x181A95050
+	|-RVA: 0x1A95090 Offset: 0x1A93690 VA: 0x181A95090
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A94C90 Offset: 0x1A93290 VA: 0x181A94C90
+	|-RVA: 0x1A94CD0 Offset: 0x1A932D0 VA: 0x181A94CD0
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A96D30 Offset: 0x1A95330 VA: 0x181A96D30
+	|-RVA: 0x1A96D70 Offset: 0x1A95370 VA: 0x181A96D70
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A431A0 Offset: 0x1A417A0 VA: 0x181A431A0
+	|-RVA: 0x1A431E0 Offset: 0x1A417E0 VA: 0x181A431E0
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A427C0 Offset: 0x1A40DC0 VA: 0x181A427C0
+	|-RVA: 0x1A42800 Offset: 0x1A40E00 VA: 0x181A42800
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A42B50 Offset: 0x1A41150 VA: 0x181A42B50
+	|-RVA: 0x1A42B90 Offset: 0x1A41190 VA: 0x181A42B90
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A428A0 Offset: 0x1A40EA0 VA: 0x181A428A0
+	|-RVA: 0x1A428E0 Offset: 0x1A40EE0 VA: 0x181A428E0
 	|-Task<VoidTaskResult>..ctor
 	*/
 
 	internal void .ctor(Func<TResult> valueSelector, Task parent, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A95C80 Offset: 0x1A94280 VA: 0x181A95C80
+	|-RVA: 0x1A95CC0 Offset: 0x1A942C0 VA: 0x181A95CC0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A97A80 Offset: 0x1A96080 VA: 0x181A97A80
+	|-RVA: 0x1A97AC0 Offset: 0x1A960C0 VA: 0x181A97AC0
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A96A40 Offset: 0x1A95040 VA: 0x181A96A40
+	|-RVA: 0x1A96A80 Offset: 0x1A95080 VA: 0x181A96A80
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A965E0 Offset: 0x1A94BE0 VA: 0x181A965E0
+	|-RVA: 0x1A96620 Offset: 0x1A94C20 VA: 0x181A96620
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A95BA0 Offset: 0x1A941A0 VA: 0x181A95BA0
+	|-RVA: 0x1A95BE0 Offset: 0x1A941E0 VA: 0x181A95BE0
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A95E50 Offset: 0x1A94450 VA: 0x181A95E50
+	|-RVA: 0x1A95E90 Offset: 0x1A94490 VA: 0x181A95E90
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A95350 Offset: 0x1A93950 VA: 0x181A95350
+	|-RVA: 0x1A95390 Offset: 0x1A93990 VA: 0x181A95390
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A95510 Offset: 0x1A93B10 VA: 0x181A95510
+	|-RVA: 0x1A95550 Offset: 0x1A93B50 VA: 0x181A95550
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A979A0 Offset: 0x1A95FA0 VA: 0x181A979A0
+	|-RVA: 0x1A979E0 Offset: 0x1A95FE0 VA: 0x181A979E0
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A955F0 Offset: 0x1A93BF0 VA: 0x181A955F0
+	|-RVA: 0x1A95630 Offset: 0x1A93C30 VA: 0x181A95630
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A42D10 Offset: 0x1A41310 VA: 0x181A42D10
+	|-RVA: 0x1A42D50 Offset: 0x1A41350 VA: 0x181A42D50
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A437C0 Offset: 0x1A41DC0 VA: 0x181A437C0
+	|-RVA: 0x1A43800 Offset: 0x1A41E00 VA: 0x181A43800
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A438A0 Offset: 0x1A41EA0 VA: 0x181A438A0
+	|-RVA: 0x1A438E0 Offset: 0x1A41EE0 VA: 0x181A438E0
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A42C30 Offset: 0x1A41230 VA: 0x181A42C30
+	|-RVA: 0x1A42C70 Offset: 0x1A41270 VA: 0x181A42C70
 	|-Task<VoidTaskResult>..ctor
 	*/
 
 	internal void .ctor(Func<TResult> valueSelector, Task parent, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A97D90 Offset: 0x1A96390 VA: 0x181A97D90
+	|-RVA: 0x1A97DD0 Offset: 0x1A963D0 VA: 0x181A97DD0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A97520 Offset: 0x1A95B20 VA: 0x181A97520
+	|-RVA: 0x1A97560 Offset: 0x1A95B60 VA: 0x181A97560
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A94450 Offset: 0x1A92A50 VA: 0x181A94450
+	|-RVA: 0x1A94490 Offset: 0x1A92A90 VA: 0x181A94490
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A97880 Offset: 0x1A95E80 VA: 0x181A97880
+	|-RVA: 0x1A978C0 Offset: 0x1A95EC0 VA: 0x181A978C0
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A95130 Offset: 0x1A93730 VA: 0x181A95130
+	|-RVA: 0x1A95170 Offset: 0x1A93770 VA: 0x181A95170
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A94570 Offset: 0x1A92B70 VA: 0x181A94570
+	|-RVA: 0x1A945B0 Offset: 0x1A92BB0 VA: 0x181A945B0
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A966C0 Offset: 0x1A94CC0 VA: 0x181A966C0
+	|-RVA: 0x1A96700 Offset: 0x1A94D00 VA: 0x181A96700
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A94210 Offset: 0x1A92810 VA: 0x181A94210
+	|-RVA: 0x1A94250 Offset: 0x1A92850 VA: 0x181A94250
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A94690 Offset: 0x1A92C90 VA: 0x181A94690
+	|-RVA: 0x1A946D0 Offset: 0x1A92CD0 VA: 0x181A946D0
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A98050 Offset: 0x1A96650 VA: 0x181A98050
+	|-RVA: 0x1A98090 Offset: 0x1A96690 VA: 0x181A98090
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A43080 Offset: 0x1A41680 VA: 0x181A43080
+	|-RVA: 0x1A430C0 Offset: 0x1A416C0 VA: 0x181A430C0
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A43CC0 Offset: 0x1A422C0 VA: 0x181A43CC0
+	|-RVA: 0x1A43D00 Offset: 0x1A42300 VA: 0x181A43D00
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A43A10 Offset: 0x1A42010 VA: 0x181A43A10
+	|-RVA: 0x1A43A50 Offset: 0x1A42050 VA: 0x181A43A50
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A43580 Offset: 0x1A41B80 VA: 0x181A43580
+	|-RVA: 0x1A435C0 Offset: 0x1A41BC0 VA: 0x181A435C0
 	|-Task<VoidTaskResult>..ctor
 	*/
 
 	internal void .ctor(Delegate valueSelector, object state, Task parent, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A95790 Offset: 0x1A93D90 VA: 0x181A95790
+	|-RVA: 0x1A957D0 Offset: 0x1A93DD0 VA: 0x181A957D0
 	|-Task<PublishResult>..ctor
 	|
-	|-RVA: 0x1A962B0 Offset: 0x1A948B0 VA: 0x181A962B0
+	|-RVA: 0x1A962F0 Offset: 0x1A948F0 VA: 0x181A962F0
 	|-Task<bool>..ctor
 	|
-	|-RVA: 0x1A95940 Offset: 0x1A93F40 VA: 0x181A95940
+	|-RVA: 0x1A95980 Offset: 0x1A93F80 VA: 0x181A95980
 	|-Task<int>..ctor
 	|
-	|-RVA: 0x1A97640 Offset: 0x1A95C40 VA: 0x181A97640
+	|-RVA: 0x1A97680 Offset: 0x1A95C80 VA: 0x181A97680
 	|-Task<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x1A94D70 Offset: 0x1A93370 VA: 0x181A94D70
+	|-RVA: 0x1A94DB0 Offset: 0x1A933B0 VA: 0x181A94DB0
 	|-Task<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x1A97760 Offset: 0x1A95D60 VA: 0x181A97760
+	|-RVA: 0x1A977A0 Offset: 0x1A95DA0 VA: 0x181A977A0
 	|-Task<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1A96920 Offset: 0x1A94F20 VA: 0x181A96920
+	|-RVA: 0x1A96960 Offset: 0x1A94F60 VA: 0x181A96960
 	|-Task<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1A96B20 Offset: 0x1A95120 VA: 0x181A96B20
+	|-RVA: 0x1A96B60 Offset: 0x1A95160 VA: 0x181A96B60
 	|-Task<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1A96EA0 Offset: 0x1A954A0 VA: 0x181A96EA0
+	|-RVA: 0x1A96EE0 Offset: 0x1A954E0 VA: 0x181A96EE0
 	|-Task<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x1A964C0 Offset: 0x1A94AC0 VA: 0x181A964C0
+	|-RVA: 0x1A96500 Offset: 0x1A94B00 VA: 0x181A96500
 	|-Task<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1A426A0 Offset: 0x1A40CA0 VA: 0x181A426A0
+	|-RVA: 0x1A426E0 Offset: 0x1A40CE0 VA: 0x181A426E0
 	|-Task<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1A42ED0 Offset: 0x1A414D0 VA: 0x181A42ED0
+	|-RVA: 0x1A42F10 Offset: 0x1A41510 VA: 0x181A42F10
 	|-Task<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1A42980 Offset: 0x1A40F80 VA: 0x181A42980
+	|-RVA: 0x1A429C0 Offset: 0x1A40FC0 VA: 0x181A429C0
 	|-Task<object>..ctor
 	|
-	|-RVA: 0x1A433D0 Offset: 0x1A419D0 VA: 0x181A433D0
+	|-RVA: 0x1A43410 Offset: 0x1A41A10 VA: 0x181A43410
 	|-Task<VoidTaskResult>..ctor
 	*/
 
 	internal static Task<TResult> StartNew(Task parent, Func<TResult> function, CancellationToken cancellationToken, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, TaskScheduler scheduler, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A938F0 Offset: 0x1A91EF0 VA: 0x181A938F0
+	|-RVA: 0x1A93930 Offset: 0x1A91F30 VA: 0x181A93930
 	|-Task<PublishResult>.StartNew
 	|
-	|-RVA: 0x1A92B70 Offset: 0x1A91170 VA: 0x181A92B70
+	|-RVA: 0x1A92BB0 Offset: 0x1A911B0 VA: 0x181A92BB0
 	|-Task<bool>.StartNew
 	|
-	|-RVA: 0x1A92930 Offset: 0x1A90F30 VA: 0x181A92930
+	|-RVA: 0x1A92970 Offset: 0x1A90F70 VA: 0x181A92970
 	|-Task<int>.StartNew
 	|
-	|-RVA: 0x1A92FF0 Offset: 0x1A915F0 VA: 0x181A92FF0
+	|-RVA: 0x1A93030 Offset: 0x1A91630 VA: 0x181A93030
 	|-Task<UdpReceiveResult>.StartNew
 	|
-	|-RVA: 0x1A92DB0 Offset: 0x1A913B0 VA: 0x181A92DB0
+	|-RVA: 0x1A92DF0 Offset: 0x1A913F0 VA: 0x181A92DF0
 	|-Task<Nullable<ServerInfo>>.StartNew
 	|
-	|-RVA: 0x1A936B0 Offset: 0x1A91CB0 VA: 0x181A936B0
+	|-RVA: 0x1A936F0 Offset: 0x1A91CF0 VA: 0x181A936F0
 	|-Task<Nullable<Image>>.StartNew
 	|
-	|-RVA: 0x1A926F0 Offset: 0x1A90CF0 VA: 0x181A926F0
+	|-RVA: 0x1A92730 Offset: 0x1A90D30 VA: 0x181A92730
 	|-Task<Nullable<InventoryPurchaseResult>>.StartNew
 	|
-	|-RVA: 0x1A924B0 Offset: 0x1A90AB0 VA: 0x181A924B0
+	|-RVA: 0x1A924F0 Offset: 0x1A90AF0 VA: 0x181A924F0
 	|-Task<Nullable<InventoryResult>>.StartNew
 	|
-	|-RVA: 0x1A93470 Offset: 0x1A91A70 VA: 0x181A93470
+	|-RVA: 0x1A934B0 Offset: 0x1A91AB0 VA: 0x181A934B0
 	|-Task<Nullable<Item>>.StartNew
 	|
-	|-RVA: 0x1A93230 Offset: 0x1A91830 VA: 0x181A93230
+	|-RVA: 0x1A93270 Offset: 0x1A91870 VA: 0x181A93270
 	|-Task<Nullable<ResultPage>>.StartNew
 	|
-	|-RVA: 0x1A41CF0 Offset: 0x1A402F0 VA: 0x181A41CF0
+	|-RVA: 0x1A41D30 Offset: 0x1A40330 VA: 0x181A41D30
 	|-Task<Nullable<int>>.StartNew
 	|
-	|-RVA: 0x1A41630 Offset: 0x1A3FC30 VA: 0x181A41630
+	|-RVA: 0x1A41670 Offset: 0x1A3FC70 VA: 0x181A41670
 	|-Task<Nullable<Int32Enum>>.StartNew
 	|
-	|-RVA: 0x1A41870 Offset: 0x1A3FE70 VA: 0x181A41870
+	|-RVA: 0x1A418B0 Offset: 0x1A3FEB0 VA: 0x181A418B0
 	|-Task<object>.StartNew
 	|
-	|-RVA: 0x1A41AB0 Offset: 0x1A400B0 VA: 0x181A41AB0
+	|-RVA: 0x1A41AF0 Offset: 0x1A400F0 VA: 0x181A41AF0
 	|-Task<VoidTaskResult>.StartNew
 	*/
 
 	internal bool TrySetResult(TResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A94150 Offset: 0x1A92750 VA: 0x181A94150
+	|-RVA: 0x1A94190 Offset: 0x1A92790 VA: 0x181A94190
 	|-Task<PublishResult>.TrySetResult
 	|
-	|-RVA: 0x1A421D0 Offset: 0x1A407D0 VA: 0x181A421D0
+	|-RVA: 0x1A42210 Offset: 0x1A40810 VA: 0x181A42210
 	|-Task<bool>.TrySetResult
 	|-Task<VoidTaskResult>.TrySetResult
 	|
-	|-RVA: 0x1A93B30 Offset: 0x1A92130 VA: 0x181A93B30
+	|-RVA: 0x1A93B70 Offset: 0x1A92170 VA: 0x181A93B70
 	|-Task<int>.TrySetResult
 	|
-	|-RVA: 0x1A93CA0 Offset: 0x1A922A0 VA: 0x181A93CA0
+	|-RVA: 0x1A93CE0 Offset: 0x1A922E0 VA: 0x181A93CE0
 	|-Task<UdpReceiveResult>.TrySetResult
 	|
-	|-RVA: 0x1A93EB0 Offset: 0x1A924B0 VA: 0x181A93EB0
+	|-RVA: 0x1A93EF0 Offset: 0x1A924F0 VA: 0x181A93EF0
 	|-Task<Nullable<ServerInfo>>.TrySetResult
 	|
-	|-RVA: 0x1A93FC0 Offset: 0x1A925C0 VA: 0x181A93FC0
+	|-RVA: 0x1A94000 Offset: 0x1A92600 VA: 0x181A94000
 	|-Task<Nullable<Image>>.TrySetResult
 	|
-	|-RVA: 0x1A93BE0 Offset: 0x1A921E0 VA: 0x181A93BE0
+	|-RVA: 0x1A93C20 Offset: 0x1A92220 VA: 0x181A93C20
 	|-Task<Nullable<InventoryPurchaseResult>>.TrySetResult
 	|-Task<Nullable<ResultPage>>.TrySetResult
 	|
-	|-RVA: 0x1A94090 Offset: 0x1A92690 VA: 0x181A94090
+	|-RVA: 0x1A940D0 Offset: 0x1A926D0 VA: 0x181A940D0
 	|-Task<Nullable<InventoryResult>>.TrySetResult
 	|
-	|-RVA: 0x1A93D60 Offset: 0x1A92360 VA: 0x181A93D60
+	|-RVA: 0x1A93DA0 Offset: 0x1A923A0 VA: 0x181A93DA0
 	|-Task<Nullable<Item>>.TrySetResult
 	|
-	|-RVA: 0x1A42060 Offset: 0x1A40660 VA: 0x181A42060
+	|-RVA: 0x1A420A0 Offset: 0x1A406A0 VA: 0x181A420A0
 	|-Task<Nullable<int>>.TrySetResult
 	|-Task<Nullable<Int32Enum>>.TrySetResult
 	|
-	|-RVA: 0x1A42110 Offset: 0x1A40710 VA: 0x181A42110
+	|-RVA: 0x1A42150 Offset: 0x1A40750 VA: 0x181A42150
 	|-Task<object>.TrySetResult
 	|-Task<Task>.TrySetResult
 	*/
@@ -3170,47 +3170,47 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal void DangerousSetResult(TResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A91670 Offset: 0x1A8FC70 VA: 0x181A91670
+	|-RVA: 0x1A916B0 Offset: 0x1A8FCB0 VA: 0x181A916B0
 	|-Task<PublishResult>.DangerousSetResult
 	|
-	|-RVA: 0x1A41160 Offset: 0x1A3F760 VA: 0x181A41160
+	|-RVA: 0x1A411A0 Offset: 0x1A3F7A0 VA: 0x181A411A0
 	|-Task<bool>.DangerousSetResult
 	|-Task<VoidTaskResult>.DangerousSetResult
 	|
-	|-RVA: 0x1A91420 Offset: 0x1A8FA20 VA: 0x181A91420
+	|-RVA: 0x1A91460 Offset: 0x1A8FA60 VA: 0x181A91460
 	|-Task<int>.DangerousSetResult
 	|
-	|-RVA: 0x1A91480 Offset: 0x1A8FA80 VA: 0x181A91480
+	|-RVA: 0x1A914C0 Offset: 0x1A8FAC0 VA: 0x181A914C0
 	|-Task<UdpReceiveResult>.DangerousSetResult
 	|
-	|-RVA: 0x1A91560 Offset: 0x1A8FB60 VA: 0x181A91560
+	|-RVA: 0x1A915A0 Offset: 0x1A8FBA0 VA: 0x181A915A0
 	|-Task<Nullable<ServerInfo>>.DangerousSetResult
 	|
-	|-RVA: 0x1A916F0 Offset: 0x1A8FCF0 VA: 0x181A916F0
+	|-RVA: 0x1A91730 Offset: 0x1A8FD30 VA: 0x181A91730
 	|-Task<Nullable<Image>>.DangerousSetResult
 	|
-	|-RVA: 0x1A914F0 Offset: 0x1A8FAF0 VA: 0x181A914F0
+	|-RVA: 0x1A91530 Offset: 0x1A8FB30 VA: 0x181A91530
 	|-Task<Nullable<InventoryPurchaseResult>>.DangerousSetResult
 	|-Task<Nullable<ResultPage>>.DangerousSetResult
 	|
-	|-RVA: 0x1A913B0 Offset: 0x1A8F9B0 VA: 0x181A913B0
+	|-RVA: 0x1A913F0 Offset: 0x1A8F9F0 VA: 0x181A913F0
 	|-Task<Nullable<InventoryResult>>.DangerousSetResult
 	|
-	|-RVA: 0x1A91230 Offset: 0x1A8F830 VA: 0x181A91230
+	|-RVA: 0x1A91270 Offset: 0x1A8F870 VA: 0x181A91270
 	|-Task<Nullable<Item>>.DangerousSetResult
 	|
-	|-RVA: 0x1A411C0 Offset: 0x1A3F7C0 VA: 0x181A411C0
+	|-RVA: 0x1A41200 Offset: 0x1A3F800 VA: 0x181A41200
 	|-Task<Nullable<int>>.DangerousSetResult
 	|-Task<Nullable<Int32Enum>>.DangerousSetResult
 	|
-	|-RVA: 0x1A41220 Offset: 0x1A3F820 VA: 0x181A41220
+	|-RVA: 0x1A41260 Offset: 0x1A3F860 VA: 0x181A41260
 	|-Task<object>.DangerousSetResult
 	*/
 
 	public TResult get_Result() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A43DE0 Offset: 0x1A423E0 VA: 0x181A43DE0
+	|-RVA: 0x1A43E20 Offset: 0x1A42420 VA: 0x181A43E20
 	|-Task<ISocket>.get_Result
 	|-Task<SteamInventoryCrafting.MarketPrice>.get_Result
 	|-Task<Nullable<int>>.get_Result
@@ -3218,38 +3218,38 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-Task<object>.get_Result
 	|-Task<Task>.get_Result
 	|
-	|-RVA: 0x1A98670 Offset: 0x1A96C70 VA: 0x181A98670
+	|-RVA: 0x1A986B0 Offset: 0x1A96CB0 VA: 0x181A986B0
 	|-Task<PublishResult>.get_Result
 	|-Task<Nullable<Image>>.get_Result
 	|
-	|-RVA: 0x1A43E50 Offset: 0x1A42450 VA: 0x181A43E50
+	|-RVA: 0x1A43E90 Offset: 0x1A42490 VA: 0x181A43E90
 	|-Task<bool>.get_Result
 	|-Task<VoidTaskResult>.get_Result
 	|
-	|-RVA: 0x1A98600 Offset: 0x1A96C00 VA: 0x181A98600
+	|-RVA: 0x1A98640 Offset: 0x1A96C40 VA: 0x181A98640
 	|-Task<int>.get_Result
 	|
-	|-RVA: 0x1A984E0 Offset: 0x1A96AE0 VA: 0x181A984E0
+	|-RVA: 0x1A98520 Offset: 0x1A96B20 VA: 0x181A98520
 	|-Task<UdpReceiveResult>.get_Result
 	|
-	|-RVA: 0x1A98710 Offset: 0x1A96D10 VA: 0x181A98710
+	|-RVA: 0x1A98750 Offset: 0x1A96D50 VA: 0x181A98750
 	|-Task<Nullable<ServerInfo>>.get_Result
 	|
-	|-RVA: 0x1A98570 Offset: 0x1A96B70 VA: 0x181A98570
+	|-RVA: 0x1A985B0 Offset: 0x1A96BB0 VA: 0x181A985B0
 	|-Task<Nullable<InventoryPurchaseResult>>.get_Result
 	|-Task<Nullable<ResultPage>>.get_Result
 	|
-	|-RVA: 0x1A982D0 Offset: 0x1A968D0 VA: 0x181A982D0
+	|-RVA: 0x1A98310 Offset: 0x1A96910 VA: 0x181A98310
 	|-Task<Nullable<InventoryResult>>.get_Result
 	|
-	|-RVA: 0x1A98370 Offset: 0x1A96970 VA: 0x181A98370
+	|-RVA: 0x1A983B0 Offset: 0x1A969B0 VA: 0x181A983B0
 	|-Task<Nullable<Item>>.get_Result
 	*/
 
 	internal TResult get_ResultOnSuccess() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A98190 Offset: 0x1A96790 VA: 0x181A98190
+	|-RVA: 0x1A981D0 Offset: 0x1A967D0 VA: 0x181A981D0
 	|-Task<PublishResult>.get_ResultOnSuccess
 	|-Task<Nullable<Image>>.get_ResultOnSuccess
 	|
@@ -3260,20 +3260,20 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	|-RVA: 0x8D9600 Offset: 0x8D7C00 VA: 0x1808D9600
 	|-Task<int>.get_ResultOnSuccess
 	|
-	|-RVA: 0x105EBD0 Offset: 0x105D1D0 VA: 0x18105EBD0
+	|-RVA: 0x105EC10 Offset: 0x105D210 VA: 0x18105EC10
 	|-Task<UdpReceiveResult>.get_ResultOnSuccess
 	|
-	|-RVA: 0x1A98270 Offset: 0x1A96870 VA: 0x181A98270
+	|-RVA: 0x1A982B0 Offset: 0x1A968B0 VA: 0x181A982B0
 	|-Task<Nullable<ServerInfo>>.get_ResultOnSuccess
 	|
-	|-RVA: 0x1A98250 Offset: 0x1A96850 VA: 0x181A98250
+	|-RVA: 0x1A98290 Offset: 0x1A96890 VA: 0x181A98290
 	|-Task<Nullable<InventoryPurchaseResult>>.get_ResultOnSuccess
 	|-Task<Nullable<ResultPage>>.get_ResultOnSuccess
 	|
-	|-RVA: 0x1A98170 Offset: 0x1A96770 VA: 0x181A98170
+	|-RVA: 0x1A981B0 Offset: 0x1A967B0 VA: 0x181A981B0
 	|-Task<Nullable<InventoryResult>>.get_ResultOnSuccess
 	|
-	|-RVA: 0x1A981B0 Offset: 0x1A967B0 VA: 0x181A981B0
+	|-RVA: 0x1A981F0 Offset: 0x1A967F0 VA: 0x181A981F0
 	|-Task<Nullable<Item>>.get_ResultOnSuccess
 	|
 	|-RVA: 0x4CF800 Offset: 0x4CDE00 VA: 0x1804CF800
@@ -3285,34 +3285,34 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal TResult GetResultCore(bool waitCompletionNotification) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A91770 Offset: 0x1A8FD70 VA: 0x181A91770
+	|-RVA: 0x1A917B0 Offset: 0x1A8FDB0 VA: 0x181A917B0
 	|-Task<PublishResult>.GetResultCore
 	|-Task<Nullable<Image>>.GetResultCore
 	|
-	|-RVA: 0x1A412B0 Offset: 0x1A3F8B0 VA: 0x181A412B0
+	|-RVA: 0x1A412F0 Offset: 0x1A3F8F0 VA: 0x181A412F0
 	|-Task<bool>.GetResultCore
 	|-Task<VoidTaskResult>.GetResultCore
 	|
-	|-RVA: 0x1A91AA0 Offset: 0x1A900A0 VA: 0x181A91AA0
+	|-RVA: 0x1A91AE0 Offset: 0x1A900E0 VA: 0x181A91AE0
 	|-Task<int>.GetResultCore
 	|
-	|-RVA: 0x1A91A10 Offset: 0x1A90010 VA: 0x181A91A10
+	|-RVA: 0x1A91A50 Offset: 0x1A90050 VA: 0x181A91A50
 	|-Task<UdpReceiveResult>.GetResultCore
 	|
-	|-RVA: 0x1A91930 Offset: 0x1A8FF30 VA: 0x181A91930
+	|-RVA: 0x1A91970 Offset: 0x1A8FF70 VA: 0x181A91970
 	|-Task<Nullable<ServerInfo>>.GetResultCore
 	|
-	|-RVA: 0x1A91810 Offset: 0x1A8FE10 VA: 0x181A91810
+	|-RVA: 0x1A91850 Offset: 0x1A8FE50 VA: 0x181A91850
 	|-Task<Nullable<InventoryPurchaseResult>>.GetResultCore
 	|-Task<Nullable<ResultPage>>.GetResultCore
 	|
-	|-RVA: 0x1A918A0 Offset: 0x1A8FEA0 VA: 0x181A918A0
+	|-RVA: 0x1A918E0 Offset: 0x1A8FEE0 VA: 0x181A918E0
 	|-Task<Nullable<InventoryResult>>.GetResultCore
 	|
-	|-RVA: 0x1A91B10 Offset: 0x1A90110 VA: 0x181A91B10
+	|-RVA: 0x1A91B50 Offset: 0x1A90150 VA: 0x181A91B50
 	|-Task<Nullable<Item>>.GetResultCore
 	|
-	|-RVA: 0x1A41330 Offset: 0x1A3F930 VA: 0x181A41330
+	|-RVA: 0x1A41370 Offset: 0x1A3F970 VA: 0x181A41370
 	|-Task<Nullable<int>>.GetResultCore
 	|-Task<Nullable<Int32Enum>>.GetResultCore
 	|-Task<object>.GetResultCore
@@ -3321,7 +3321,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal bool TrySetException(object exceptionObject) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A41FE0 Offset: 0x1A405E0 VA: 0x181A41FE0
+	|-RVA: 0x1A42020 Offset: 0x1A40620 VA: 0x181A42020
 	|-Task<PublishResult>.TrySetException
 	|-Task<bool>.TrySetException
 	|-Task<int>.TrySetException
@@ -3341,7 +3341,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal bool TrySetCanceled(CancellationToken tokenToRecord) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A41F30 Offset: 0x1A40530 VA: 0x181A41F30
+	|-RVA: 0x1A41F70 Offset: 0x1A40570 VA: 0x181A41F70
 	|-Task<PublishResult>.TrySetCanceled
 	|-Task<bool>.TrySetCanceled
 	|-Task<int>.TrySetCanceled
@@ -3361,7 +3361,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal bool TrySetCanceled(CancellationToken tokenToRecord, object cancellationException) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A41F60 Offset: 0x1A40560 VA: 0x181A41F60
+	|-RVA: 0x1A41FA0 Offset: 0x1A405A0 VA: 0x181A41FA0
 	|-Task<PublishResult>.TrySetCanceled
 	|-Task<bool>.TrySetCanceled
 	|-Task<int>.TrySetCanceled
@@ -3381,7 +3381,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	public static TaskFactory<TResult> get_Factory() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1182790 Offset: 0x1180D90 VA: 0x181182790
+	|-RVA: 0x11827D0 Offset: 0x1180DD0 VA: 0x1811827D0
 	|-Task<Stream>.get_Factory
 	|-Task<int>.get_Factory
 	|-Task<UdpReceiveResult>.get_Factory
@@ -3403,40 +3403,40 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal override void InnerInvoke() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A923C0 Offset: 0x1A909C0 VA: 0x181A923C0
+	|-RVA: 0x1A92400 Offset: 0x1A90A00 VA: 0x181A92400
 	|-Task<PublishResult>.InnerInvoke
 	|
-	|-RVA: 0x1A41560 Offset: 0x1A3FB60 VA: 0x181A41560
+	|-RVA: 0x1A415A0 Offset: 0x1A3FBA0 VA: 0x181A415A0
 	|-Task<bool>.InnerInvoke
 	|-Task<VoidTaskResult>.InnerInvoke
 	|
-	|-RVA: 0x1A91EE0 Offset: 0x1A904E0 VA: 0x181A91EE0
+	|-RVA: 0x1A91F20 Offset: 0x1A90520 VA: 0x181A91F20
 	|-Task<int>.InnerInvoke
 	|
-	|-RVA: 0x1A922D0 Offset: 0x1A908D0 VA: 0x181A922D0
+	|-RVA: 0x1A92310 Offset: 0x1A90910 VA: 0x181A92310
 	|-Task<UdpReceiveResult>.InnerInvoke
 	|
-	|-RVA: 0x1A920A0 Offset: 0x1A906A0 VA: 0x181A920A0
+	|-RVA: 0x1A920E0 Offset: 0x1A906E0 VA: 0x181A920E0
 	|-Task<Nullable<ServerInfo>>.InnerInvoke
 	|
-	|-RVA: 0x1A91C20 Offset: 0x1A90220 VA: 0x181A91C20
+	|-RVA: 0x1A91C60 Offset: 0x1A90260 VA: 0x181A91C60
 	|-Task<Nullable<Image>>.InnerInvoke
 	|
-	|-RVA: 0x1A91FB0 Offset: 0x1A905B0 VA: 0x181A91FB0
+	|-RVA: 0x1A91FF0 Offset: 0x1A905F0 VA: 0x181A91FF0
 	|-Task<Nullable<InventoryPurchaseResult>>.InnerInvoke
 	|-Task<Nullable<ResultPage>>.InnerInvoke
 	|
-	|-RVA: 0x1A921E0 Offset: 0x1A907E0 VA: 0x181A921E0
+	|-RVA: 0x1A92220 Offset: 0x1A90820 VA: 0x181A92220
 	|-Task<Nullable<InventoryResult>>.InnerInvoke
 	|
-	|-RVA: 0x1A91D10 Offset: 0x1A90310 VA: 0x181A91D10
+	|-RVA: 0x1A91D50 Offset: 0x1A90350 VA: 0x181A91D50
 	|-Task<Nullable<Item>>.InnerInvoke
 	|
-	|-RVA: 0x1A413B0 Offset: 0x1A3F9B0 VA: 0x181A413B0
+	|-RVA: 0x1A413F0 Offset: 0x1A3F9F0 VA: 0x181A413F0
 	|-Task<Nullable<int>>.InnerInvoke
 	|-Task<Nullable<Int32Enum>>.InnerInvoke
 	|
-	|-RVA: 0x1A41480 Offset: 0x1A3FA80 VA: 0x181A41480
+	|-RVA: 0x1A414C0 Offset: 0x1A3FAC0 VA: 0x181A414C0
 	|-Task<object>.InnerInvoke
 	|-Task<Task>.InnerInvoke
 	*/
@@ -3444,7 +3444,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	public TaskAwaiter<TResult> GetAwaiter() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A41280 Offset: 0x1A3F880 VA: 0x181A41280
+	|-RVA: 0x1A412C0 Offset: 0x1A3F8C0 VA: 0x181A412C0
 	|-Task<CompanionSubscription.Status>.GetAwaiter
 	|-Task<IAuthTicket>.GetAwaiter
 	|-Task<IPlayerInfo>.GetAwaiter
@@ -3479,7 +3479,7 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	public ConfiguredTaskAwaitable<TResult> ConfigureAwait(bool continueOnCapturedContext) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A40670 Offset: 0x1A3EC70 VA: 0x181A40670
+	|-RVA: 0x1A406B0 Offset: 0x1A3ECB0 VA: 0x181A406B0
 	|-Task<AsyncProtocolResult>.ConfigureAwait
 	|-Task<Stream>.ConfigureAwait
 	|-Task<HttpResponseMessage>.ConfigureAwait
@@ -3505,100 +3505,100 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	public Task ContinueWith(Action<Task<TResult>> continuationAction, TaskContinuationOptions continuationOptions) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A40D30 Offset: 0x1A3F330 VA: 0x181A40D30
+	|-RVA: 0x1A40D70 Offset: 0x1A3F370 VA: 0x181A40D70
 	|-Task<ISocket>.ContinueWith
 	|-Task<object>.ContinueWith
 	|
-	|-RVA: 0x1A8FEA0 Offset: 0x1A8E4A0 VA: 0x181A8FEA0
+	|-RVA: 0x1A8FEE0 Offset: 0x1A8E4E0 VA: 0x181A8FEE0
 	|-Task<PublishResult>.ContinueWith
 	|
-	|-RVA: 0x1A90580 Offset: 0x1A8EB80 VA: 0x181A90580
+	|-RVA: 0x1A905C0 Offset: 0x1A8EBC0 VA: 0x181A905C0
 	|-Task<bool>.ContinueWith
 	|
-	|-RVA: 0x1A904C0 Offset: 0x1A8EAC0 VA: 0x181A904C0
+	|-RVA: 0x1A90500 Offset: 0x1A8EB00 VA: 0x181A90500
 	|-Task<int>.ContinueWith
 	|
-	|-RVA: 0x1A8FF60 Offset: 0x1A8E560 VA: 0x181A8FF60
+	|-RVA: 0x1A8FFA0 Offset: 0x1A8E5A0 VA: 0x181A8FFA0
 	|-Task<UdpReceiveResult>.ContinueWith
 	|
-	|-RVA: 0x1A90400 Offset: 0x1A8EA00 VA: 0x181A90400
+	|-RVA: 0x1A90440 Offset: 0x1A8EA40 VA: 0x181A90440
 	|-Task<Nullable<ServerInfo>>.ContinueWith
 	|
-	|-RVA: 0x1A8F810 Offset: 0x1A8DE10 VA: 0x181A8F810
+	|-RVA: 0x1A8F850 Offset: 0x1A8DE50 VA: 0x181A8F850
 	|-Task<Nullable<Image>>.ContinueWith
 	|
-	|-RVA: 0x1A90EC0 Offset: 0x1A8F4C0 VA: 0x181A90EC0
+	|-RVA: 0x1A90F00 Offset: 0x1A8F500 VA: 0x181A90F00
 	|-Task<Nullable<InventoryPurchaseResult>>.ContinueWith
 	|
-	|-RVA: 0x1A90C10 Offset: 0x1A8F210 VA: 0x181A90C10
+	|-RVA: 0x1A90C50 Offset: 0x1A8F250 VA: 0x181A90C50
 	|-Task<Nullable<InventoryResult>>.ContinueWith
 	|
-	|-RVA: 0x1A91170 Offset: 0x1A8F770 VA: 0x181A91170
+	|-RVA: 0x1A911B0 Offset: 0x1A8F7B0 VA: 0x181A911B0
 	|-Task<Nullable<Item>>.ContinueWith
 	|
-	|-RVA: 0x1A8F750 Offset: 0x1A8DD50 VA: 0x181A8F750
+	|-RVA: 0x1A8F790 Offset: 0x1A8DD90 VA: 0x181A8F790
 	|-Task<Nullable<ResultPage>>.ContinueWith
 	|
-	|-RVA: 0x1A40FE0 Offset: 0x1A3F5E0 VA: 0x181A40FE0
+	|-RVA: 0x1A41020 Offset: 0x1A3F620 VA: 0x181A41020
 	|-Task<Nullable<int>>.ContinueWith
 	|
-	|-RVA: 0x1A40A80 Offset: 0x1A3F080 VA: 0x181A40A80
+	|-RVA: 0x1A40AC0 Offset: 0x1A3F0C0 VA: 0x181A40AC0
 	|-Task<Nullable<Int32Enum>>.ContinueWith
 	|
-	|-RVA: 0x1A410A0 Offset: 0x1A3F6A0 VA: 0x181A410A0
+	|-RVA: 0x1A410E0 Offset: 0x1A3F6E0 VA: 0x181A410E0
 	|-Task<VoidTaskResult>.ContinueWith
 	*/
 
 	internal Task ContinueWith(Action<Task<TResult>> continuationAction, TaskScheduler scheduler, CancellationToken cancellationToken, TaskContinuationOptions continuationOptions, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A90640 Offset: 0x1A8EC40 VA: 0x181A90640
+	|-RVA: 0x1A90680 Offset: 0x1A8EC80 VA: 0x181A90680
 	|-Task<PublishResult>.ContinueWith
 	|
-	|-RVA: 0x1A90F80 Offset: 0x1A8F580 VA: 0x181A90F80
+	|-RVA: 0x1A90FC0 Offset: 0x1A8F5C0 VA: 0x181A90FC0
 	|-Task<bool>.ContinueWith
 	|
-	|-RVA: 0x1A8FCB0 Offset: 0x1A8E2B0 VA: 0x181A8FCB0
+	|-RVA: 0x1A8FCF0 Offset: 0x1A8E2F0 VA: 0x181A8FCF0
 	|-Task<int>.ContinueWith
 	|
-	|-RVA: 0x1A8FAC0 Offset: 0x1A8E0C0 VA: 0x181A8FAC0
+	|-RVA: 0x1A8FB00 Offset: 0x1A8E100 VA: 0x181A8FB00
 	|-Task<UdpReceiveResult>.ContinueWith
 	|
-	|-RVA: 0x1A90020 Offset: 0x1A8E620 VA: 0x181A90020
+	|-RVA: 0x1A90060 Offset: 0x1A8E660 VA: 0x181A90060
 	|-Task<Nullable<ServerInfo>>.ContinueWith
 	|
-	|-RVA: 0x1A8F8D0 Offset: 0x1A8DED0 VA: 0x181A8F8D0
+	|-RVA: 0x1A8F910 Offset: 0x1A8DF10 VA: 0x181A8F910
 	|-Task<Nullable<Image>>.ContinueWith
 	|
-	|-RVA: 0x1A90210 Offset: 0x1A8E810 VA: 0x181A90210
+	|-RVA: 0x1A90250 Offset: 0x1A8E850 VA: 0x181A90250
 	|-Task<Nullable<InventoryPurchaseResult>>.ContinueWith
 	|
-	|-RVA: 0x1A90A20 Offset: 0x1A8F020 VA: 0x181A90A20
+	|-RVA: 0x1A90A60 Offset: 0x1A8F060 VA: 0x181A90A60
 	|-Task<Nullable<InventoryResult>>.ContinueWith
 	|
-	|-RVA: 0x1A90CD0 Offset: 0x1A8F2D0 VA: 0x181A90CD0
+	|-RVA: 0x1A90D10 Offset: 0x1A8F310 VA: 0x181A90D10
 	|-Task<Nullable<Item>>.ContinueWith
 	|
-	|-RVA: 0x1A90830 Offset: 0x1A8EE30 VA: 0x181A90830
+	|-RVA: 0x1A90870 Offset: 0x1A8EE70 VA: 0x181A90870
 	|-Task<Nullable<ResultPage>>.ContinueWith
 	|
-	|-RVA: 0x1A40B40 Offset: 0x1A3F140 VA: 0x181A40B40
+	|-RVA: 0x1A40B80 Offset: 0x1A3F180 VA: 0x181A40B80
 	|-Task<Nullable<int>>.ContinueWith
 	|
-	|-RVA: 0x1A406A0 Offset: 0x1A3ECA0 VA: 0x181A406A0
+	|-RVA: 0x1A406E0 Offset: 0x1A3ECE0 VA: 0x181A406E0
 	|-Task<Nullable<Int32Enum>>.ContinueWith
 	|
-	|-RVA: 0x1A40890 Offset: 0x1A3EE90 VA: 0x181A40890
+	|-RVA: 0x1A408D0 Offset: 0x1A3EED0 VA: 0x181A408D0
 	|-Task<object>.ContinueWith
 	|
-	|-RVA: 0x1A40DF0 Offset: 0x1A3F3F0 VA: 0x181A40DF0
+	|-RVA: 0x1A40E30 Offset: 0x1A3F430 VA: 0x181A40E30
 	|-Task<VoidTaskResult>.ContinueWith
 	*/
 
 	public Task<TNewResult> ContinueWith<TNewResult>(Func<Task<TResult>, TNewResult> continuationFunction) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED9DF0 Offset: 0xED83F0 VA: 0x180ED9DF0
+	|-RVA: 0xED9E30 Offset: 0xED8430 VA: 0x180ED9E30
 	|-Task<Dictionary<string, string>>.ContinueWith<Task<Dictionary<string, string>>>
 	|-Task<object>.ContinueWith<object>
 	*/
@@ -3606,14 +3606,14 @@ public class Task<TResult> : Task // TypeDefIndex: 842
 	internal Task<TNewResult> ContinueWith<TNewResult>(Func<Task<TResult>, TNewResult> continuationFunction, TaskScheduler scheduler, CancellationToken cancellationToken, TaskContinuationOptions continuationOptions, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED9EA0 Offset: 0xED84A0 VA: 0x180ED9EA0
+	|-RVA: 0xED9EE0 Offset: 0xED84E0 VA: 0x180ED9EE0
 	|-Task<object>.ContinueWith<object>
 	*/
 
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A42280 Offset: 0x1A40880 VA: 0x181A42280
+	|-RVA: 0x1A422C0 Offset: 0x1A408C0 VA: 0x181A422C0
 	|-Task<PublishResult>..cctor
 	|-Task<bool>..cctor
 	|-Task<int>..cctor
@@ -3644,7 +3644,7 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A8F710 Offset: 0x1A8DD10 VA: 0x181A8F710
+	|-RVA: 0x1A8F750 Offset: 0x1A8DD50 VA: 0x181A8F750
 	|-TaskFactory<PublishResult>..ctor
 	|-TaskFactory<bool>..ctor
 	|-TaskFactory<int>..ctor
@@ -3664,7 +3664,7 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	public void .ctor(CancellationToken cancellationToken, TaskCreationOptions creationOptions, TaskContinuationOptions continuationOptions, TaskScheduler scheduler) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A8F690 Offset: 0x1A8DC90 VA: 0x181A8F690
+	|-RVA: 0x1A8F6D0 Offset: 0x1A8DCD0 VA: 0x181A8F6D0
 	|-TaskFactory<PublishResult>..ctor
 	|-TaskFactory<bool>..ctor
 	|-TaskFactory<int>..ctor
@@ -3684,99 +3684,99 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	public Task<TResult> StartNew(Func<TResult> function, CancellationToken cancellationToken, TaskCreationOptions creationOptions, TaskScheduler scheduler) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A8F150 Offset: 0x1A8D750 VA: 0x181A8F150
+	|-RVA: 0x1A8F190 Offset: 0x1A8D790 VA: 0x181A8F190
 	|-TaskFactory<PublishResult>.StartNew
 	|
-	|-RVA: 0x1A8EAC0 Offset: 0x1A8D0C0 VA: 0x181A8EAC0
+	|-RVA: 0x1A8EB00 Offset: 0x1A8D100 VA: 0x181A8EB00
 	|-TaskFactory<bool>.StartNew
 	|
-	|-RVA: 0x1A8E970 Offset: 0x1A8CF70 VA: 0x181A8E970
+	|-RVA: 0x1A8E9B0 Offset: 0x1A8CFB0 VA: 0x181A8E9B0
 	|-TaskFactory<int>.StartNew
 	|
-	|-RVA: 0x1A8E6D0 Offset: 0x1A8CCD0 VA: 0x181A8E6D0
+	|-RVA: 0x1A8E710 Offset: 0x1A8CD10 VA: 0x181A8E710
 	|-TaskFactory<UdpReceiveResult>.StartNew
 	|
-	|-RVA: 0x1A8F2A0 Offset: 0x1A8D8A0 VA: 0x181A8F2A0
+	|-RVA: 0x1A8F2E0 Offset: 0x1A8D8E0 VA: 0x181A8F2E0
 	|-TaskFactory<Nullable<ServerInfo>>.StartNew
 	|
-	|-RVA: 0x1A8F3F0 Offset: 0x1A8D9F0 VA: 0x181A8F3F0
+	|-RVA: 0x1A8F430 Offset: 0x1A8DA30 VA: 0x181A8F430
 	|-TaskFactory<Nullable<Image>>.StartNew
 	|
-	|-RVA: 0x1A8E580 Offset: 0x1A8CB80 VA: 0x181A8E580
+	|-RVA: 0x1A8E5C0 Offset: 0x1A8CBC0 VA: 0x181A8E5C0
 	|-TaskFactory<Nullable<InventoryPurchaseResult>>.StartNew
 	|
-	|-RVA: 0x1A8F000 Offset: 0x1A8D600 VA: 0x181A8F000
+	|-RVA: 0x1A8F040 Offset: 0x1A8D640 VA: 0x181A8F040
 	|-TaskFactory<Nullable<InventoryResult>>.StartNew
 	|
-	|-RVA: 0x1A8EEB0 Offset: 0x1A8D4B0 VA: 0x181A8EEB0
+	|-RVA: 0x1A8EEF0 Offset: 0x1A8D4F0 VA: 0x181A8EEF0
 	|-TaskFactory<Nullable<Item>>.StartNew
 	|
-	|-RVA: 0x1A8E820 Offset: 0x1A8CE20 VA: 0x181A8E820
+	|-RVA: 0x1A8E860 Offset: 0x1A8CE60 VA: 0x181A8E860
 	|-TaskFactory<Nullable<ResultPage>>.StartNew
 	|
-	|-RVA: 0x1A8ED60 Offset: 0x1A8D360 VA: 0x181A8ED60
+	|-RVA: 0x1A8EDA0 Offset: 0x1A8D3A0 VA: 0x181A8EDA0
 	|-TaskFactory<Nullable<int>>.StartNew
 	|
-	|-RVA: 0x1A8EC10 Offset: 0x1A8D210 VA: 0x181A8EC10
+	|-RVA: 0x1A8EC50 Offset: 0x1A8D250 VA: 0x181A8EC50
 	|-TaskFactory<Nullable<Int32Enum>>.StartNew
 	|
-	|-RVA: 0x1A8E430 Offset: 0x1A8CA30 VA: 0x181A8E430
+	|-RVA: 0x1A8E470 Offset: 0x1A8CA70 VA: 0x181A8E470
 	|-TaskFactory<object>.StartNew
 	|
-	|-RVA: 0x1A8F540 Offset: 0x1A8DB40 VA: 0x181A8F540
+	|-RVA: 0x1A8F580 Offset: 0x1A8DB80 VA: 0x181A8F580
 	|-TaskFactory<VoidTaskResult>.StartNew
 	*/
 
 	private static void FromAsyncCoreLogic(IAsyncResult iar, Func<IAsyncResult, TResult> endFunction, Action<IAsyncResult> endAction, Task<TResult> promise, bool requiresSynchronization) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A846C0 Offset: 0x1A82CC0 VA: 0x181A846C0
+	|-RVA: 0x1A84700 Offset: 0x1A82D00 VA: 0x181A84700
 	|-TaskFactory<PublishResult>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A85A30 Offset: 0x1A84030 VA: 0x181A85A30
+	|-RVA: 0x1A85A70 Offset: 0x1A84070 VA: 0x181A85A70
 	|-TaskFactory<bool>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A85040 Offset: 0x1A83640 VA: 0x181A85040
+	|-RVA: 0x1A85080 Offset: 0x1A83680 VA: 0x181A85080
 	|-TaskFactory<int>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A85EC0 Offset: 0x1A844C0 VA: 0x181A85EC0
+	|-RVA: 0x1A85F00 Offset: 0x1A84500 VA: 0x181A85F00
 	|-TaskFactory<UdpReceiveResult>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A854D0 Offset: 0x1A83AD0 VA: 0x181A854D0
+	|-RVA: 0x1A85510 Offset: 0x1A83B10 VA: 0x181A85510
 	|-TaskFactory<Nullable<ServerInfo>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A84B80 Offset: 0x1A83180 VA: 0x181A84B80
+	|-RVA: 0x1A84BC0 Offset: 0x1A831C0 VA: 0x181A84BC0
 	|-TaskFactory<Nullable<Image>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A87BA0 Offset: 0x1A861A0 VA: 0x181A87BA0
+	|-RVA: 0x1A87BE0 Offset: 0x1A861E0 VA: 0x181A87BE0
 	|-TaskFactory<Nullable<InventoryPurchaseResult>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A86C80 Offset: 0x1A85280 VA: 0x181A86C80
+	|-RVA: 0x1A86CC0 Offset: 0x1A852C0 VA: 0x181A86CC0
 	|-TaskFactory<Nullable<InventoryResult>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A87120 Offset: 0x1A85720 VA: 0x181A87120
+	|-RVA: 0x1A87160 Offset: 0x1A85760 VA: 0x181A87160
 	|-TaskFactory<Nullable<Item>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A86360 Offset: 0x1A84960 VA: 0x181A86360
+	|-RVA: 0x1A863A0 Offset: 0x1A849A0 VA: 0x181A863A0
 	|-TaskFactory<Nullable<ResultPage>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A87730 Offset: 0x1A85D30 VA: 0x181A87730
+	|-RVA: 0x1A87770 Offset: 0x1A85D70 VA: 0x181A87770
 	|-TaskFactory<Nullable<int>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A86810 Offset: 0x1A84E10 VA: 0x181A86810
+	|-RVA: 0x1A86850 Offset: 0x1A84E50 VA: 0x181A86850
 	|-TaskFactory<Nullable<Int32Enum>>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A83DC0 Offset: 0x1A823C0 VA: 0x181A83DC0
+	|-RVA: 0x1A83E00 Offset: 0x1A82400 VA: 0x181A83E00
 	|-TaskFactory<object>.FromAsyncCoreLogic
 	|
-	|-RVA: 0x1A84250 Offset: 0x1A82850 VA: 0x181A84250
+	|-RVA: 0x1A84290 Offset: 0x1A82890 VA: 0x181A84290
 	|-TaskFactory<VoidTaskResult>.FromAsyncCoreLogic
 	*/
 
 	public Task<TResult> FromAsync(Func<AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, TResult> endMethod, object state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A8E3E0 Offset: 0x1A8C9E0 VA: 0x181A8E3E0
+	|-RVA: 0x1A8E420 Offset: 0x1A8CA20 VA: 0x181A8E420
 	|-TaskFactory<Stream>.FromAsync
 	|-TaskFactory<UdpReceiveResult>.FromAsync
 	|-TaskFactory<WebResponse>.FromAsync
@@ -3798,81 +3798,81 @@ public class TaskFactory<TResult> // TypeDefIndex: 845
 	internal static Task<TResult> FromAsyncImpl(Func<AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, TResult> endFunction, Action<IAsyncResult> endAction, object state, TaskCreationOptions creationOptions) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A89590 Offset: 0x1A87B90 VA: 0x181A89590
+	|-RVA: 0x1A895D0 Offset: 0x1A87BD0 VA: 0x181A895D0
 	|-TaskFactory<PublishResult>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8DCF0 Offset: 0x1A8C2F0 VA: 0x181A8DCF0
+	|-RVA: 0x1A8DD30 Offset: 0x1A8C330 VA: 0x181A8DD30
 	|-TaskFactory<bool>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8B310 Offset: 0x1A89910 VA: 0x181A8B310
+	|-RVA: 0x1A8B350 Offset: 0x1A89950 VA: 0x181A8B350
 	|-TaskFactory<int>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8D5F0 Offset: 0x1A8BBF0 VA: 0x181A8D5F0
+	|-RVA: 0x1A8D630 Offset: 0x1A8BC30 VA: 0x181A8D630
 	|-TaskFactory<UdpReceiveResult>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8AB90 Offset: 0x1A89190 VA: 0x181A8AB90
+	|-RVA: 0x1A8ABD0 Offset: 0x1A891D0 VA: 0x181A8ABD0
 	|-TaskFactory<Nullable<ServerInfo>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A88050 Offset: 0x1A86650 VA: 0x181A88050
+	|-RVA: 0x1A88090 Offset: 0x1A86690 VA: 0x181A88090
 	|-TaskFactory<Nullable<Image>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8C0F0 Offset: 0x1A8A6F0 VA: 0x181A8C0F0
+	|-RVA: 0x1A8C130 Offset: 0x1A8A730 VA: 0x181A8C130
 	|-TaskFactory<Nullable<InventoryPurchaseResult>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A89CC0 Offset: 0x1A882C0 VA: 0x181A89CC0
+	|-RVA: 0x1A89D00 Offset: 0x1A88300 VA: 0x181A89D00
 	|-TaskFactory<Nullable<InventoryResult>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8A3E0 Offset: 0x1A889E0 VA: 0x181A8A3E0
+	|-RVA: 0x1A8A420 Offset: 0x1A88A20 VA: 0x181A8A420
 	|-TaskFactory<Nullable<Item>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A88E70 Offset: 0x1A87470 VA: 0x181A88E70
+	|-RVA: 0x1A88EB0 Offset: 0x1A874B0 VA: 0x181A88EB0
 	|-TaskFactory<Nullable<ResultPage>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8BA00 Offset: 0x1A8A000 VA: 0x181A8BA00
+	|-RVA: 0x1A8BA40 Offset: 0x1A8A040 VA: 0x181A8BA40
 	|-TaskFactory<Nullable<int>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8C810 Offset: 0x1A8AE10 VA: 0x181A8C810
+	|-RVA: 0x1A8C850 Offset: 0x1A8AE50 VA: 0x181A8C850
 	|-TaskFactory<Nullable<Int32Enum>>.FromAsyncImpl
 	|
-	|-RVA: 0x1A88780 Offset: 0x1A86D80 VA: 0x181A88780
+	|-RVA: 0x1A887C0 Offset: 0x1A86DC0 VA: 0x181A887C0
 	|-TaskFactory<object>.FromAsyncImpl
 	|
-	|-RVA: 0x1A8CF00 Offset: 0x1A8B500 VA: 0x181A8CF00
+	|-RVA: 0x1A8CF40 Offset: 0x1A8B540 VA: 0x181A8CF40
 	|-TaskFactory<VoidTaskResult>.FromAsyncImpl
 	*/
 
 	public Task<TResult> FromAsync<TArg1, TArg2>(Func<TArg1, TArg2, AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, TResult> endMethod, TArg1 arg1, TArg2 arg2, object state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157B450 Offset: 0x1579A50 VA: 0x18157B450
+	|-RVA: 0x157B490 Offset: 0x1579A90 VA: 0x18157B490
 	|-TaskFactory<int>.FromAsync<byte[], int>
 	|-TaskFactory<int>.FromAsync<object, int>
 	|
-	|-RVA: 0x157B4B0 Offset: 0x1579AB0 VA: 0x18157B4B0
+	|-RVA: 0x157B4F0 Offset: 0x1579AF0 VA: 0x18157B4F0
 	|-TaskFactory<object>.FromAsync<object, object>
 	*/
 
 	internal static Task<TResult> FromAsyncImpl<TArg1, TArg2>(Func<TArg1, TArg2, AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, TResult> endFunction, Action<IAsyncResult> endAction, TArg1 arg1, TArg2 arg2, object state, TaskCreationOptions creationOptions) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157A2C0 Offset: 0x15788C0 VA: 0x18157A2C0
+	|-RVA: 0x157A300 Offset: 0x1578900 VA: 0x18157A300
 	|-TaskFactory<int>.FromAsyncImpl<object, int>
 	|
-	|-RVA: 0x157A900 Offset: 0x1578F00 VA: 0x18157A900
+	|-RVA: 0x157A940 Offset: 0x1578F40 VA: 0x18157A940
 	|-TaskFactory<object>.FromAsyncImpl<object, object>
 	*/
 
 	internal static Task<TResult> FromAsyncTrim<TInstance, TArgs>(TInstance thisRef, TArgs args, Func<TInstance, TArgs, AsyncCallback, object, IAsyncResult> beginMethod, Func<TInstance, IAsyncResult, TResult> endMethod) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157AF40 Offset: 0x1579540 VA: 0x18157AF40
+	|-RVA: 0x157AF80 Offset: 0x1579580 VA: 0x18157AF80
 	|-TaskFactory<int>.FromAsyncTrim<Stream, Stream.ReadWriteParameters>
 	|-TaskFactory<int>.FromAsyncTrim<object, Stream.ReadWriteParameters>
 	|
-	|-RVA: 0x157B2A0 Offset: 0x15798A0 VA: 0x18157B2A0
+	|-RVA: 0x157B2E0 Offset: 0x15798E0 VA: 0x18157B2E0
 	|-TaskFactory<object>.FromAsyncTrim<object, object>
 	|
-	|-RVA: 0x157B0F0 Offset: 0x15796F0 VA: 0x18157B0F0
+	|-RVA: 0x157B130 Offset: 0x1579730 VA: 0x18157B130
 	|-TaskFactory<VoidTaskResult>.FromAsyncTrim<Stream, Stream.ReadWriteParameters>
 	|-TaskFactory<VoidTaskResult>.FromAsyncTrim<object, Stream.ReadWriteParameters>
 	*/
@@ -3887,49 +3887,49 @@ internal sealed class UnwrapPromise<TResult> : Task<TResult>, ITaskCompletionAct
 	public void .ctor(Task outerTask, bool lookForOce) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A4D340 Offset: 0x1A4B940 VA: 0x181A4D340
+	|-RVA: 0x1A4D380 Offset: 0x1A4B980 VA: 0x181A4D380
 	|-UnwrapPromise<object>..ctor
 	*/
 
 	public void Invoke(Task completingTask) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A4CCA0 Offset: 0x1A4B2A0 VA: 0x181A4CCA0
+	|-RVA: 0x1A4CCE0 Offset: 0x1A4B2E0 VA: 0x181A4CCE0
 	|-UnwrapPromise<object>.Invoke
 	*/
 
 	private void InvokeCore(Task completingTask) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A4CC40 Offset: 0x1A4B240 VA: 0x181A4CC40
+	|-RVA: 0x1A4CC80 Offset: 0x1A4B280 VA: 0x181A4CC80
 	|-UnwrapPromise<object>.InvokeCore
 	*/
 
 	private void InvokeCoreAsync(Task completingTask) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A4CA00 Offset: 0x1A4B000 VA: 0x181A4CA00
+	|-RVA: 0x1A4CA40 Offset: 0x1A4B040 VA: 0x181A4CA40
 	|-UnwrapPromise<object>.InvokeCoreAsync
 	*/
 
 	private void ProcessCompletedOuterTask(Task task) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A4CE10 Offset: 0x1A4B410 VA: 0x181A4CE10
+	|-RVA: 0x1A4CE50 Offset: 0x1A4B450 VA: 0x181A4CE50
 	|-UnwrapPromise<object>.ProcessCompletedOuterTask
 	*/
 
 	private bool TrySetFromTask(Task task, bool lookForOce) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A4D070 Offset: 0x1A4B670 VA: 0x181A4D070
+	|-RVA: 0x1A4D0B0 Offset: 0x1A4B6B0 VA: 0x181A4D0B0
 	|-UnwrapPromise<object>.TrySetFromTask
 	*/
 
 	private void ProcessInnerTask(Task task) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A4CFC0 Offset: 0x1A4B5C0 VA: 0x181A4CFC0
+	|-RVA: 0x1A4D000 Offset: 0x1A4B600 VA: 0x181A4D000
 	|-UnwrapPromise<object>.ProcessInnerTask
 	*/
 
@@ -3944,7 +3944,7 @@ public class TaskCompletionSource<TResult> // TypeDefIndex: 871
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1368930 Offset: 0x1366F30 VA: 0x181368930
+	|-RVA: 0x1368970 Offset: 0x1366F70 VA: 0x181368970
 	|-TaskCompletionSource<HttpResponseMessage>..ctor
 	|-TaskCompletionSource<object>..ctor
 	*/
@@ -3960,28 +3960,28 @@ public class TaskCompletionSource<TResult> // TypeDefIndex: 871
 	private void SpinUntilCompleted() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1368820 Offset: 0x1366E20 VA: 0x181368820
+	|-RVA: 0x1368860 Offset: 0x1366E60 VA: 0x181368860
 	|-TaskCompletionSource<object>.SpinUntilCompleted
 	*/
 
 	public bool TrySetCanceled() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1368900 Offset: 0x1366F00 VA: 0x181368900
+	|-RVA: 0x1368940 Offset: 0x1366F40 VA: 0x181368940
 	|-TaskCompletionSource<object>.TrySetCanceled
 	*/
 
 	public bool TrySetCanceled(CancellationToken cancellationToken) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1368880 Offset: 0x1366E80 VA: 0x181368880
+	|-RVA: 0x13688C0 Offset: 0x1366EC0 VA: 0x1813688C0
 	|-TaskCompletionSource<object>.TrySetCanceled
 	*/
 
 	public void SetCanceled() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1368780 Offset: 0x1366D80 VA: 0x181368780
+	|-RVA: 0x13687C0 Offset: 0x1366DC0 VA: 0x1813687C0
 	|-TaskCompletionSource<HttpResponseMessage>.SetCanceled
 	|-TaskCompletionSource<object>.SetCanceled
 	*/
@@ -3995,53 +3995,53 @@ internal sealed class ContinuationTaskFromResultTask<TAntecedentResult> : Task /
 	public void .ctor(Task<TAntecedentResult> antecedent, Delegate action, object state, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1364320 Offset: 0x1362920 VA: 0x181364320
+	|-RVA: 0x1364360 Offset: 0x1362960 VA: 0x181364360
 	|-ContinuationTaskFromResultTask<PublishResult>..ctor
 	|
-	|-RVA: 0x13648C0 Offset: 0x1362EC0 VA: 0x1813648C0
+	|-RVA: 0x1364900 Offset: 0x1362F00 VA: 0x181364900
 	|-ContinuationTaskFromResultTask<bool>..ctor
 	|
-	|-RVA: 0x13646E0 Offset: 0x1362CE0 VA: 0x1813646E0
+	|-RVA: 0x1364720 Offset: 0x1362D20 VA: 0x181364720
 	|-ContinuationTaskFromResultTask<int>..ctor
 	|
-	|-RVA: 0x1364410 Offset: 0x1362A10 VA: 0x181364410
+	|-RVA: 0x1364450 Offset: 0x1362A50 VA: 0x181364450
 	|-ContinuationTaskFromResultTask<UdpReceiveResult>..ctor
 	|
-	|-RVA: 0x13645F0 Offset: 0x1362BF0 VA: 0x1813645F0
+	|-RVA: 0x1364630 Offset: 0x1362C30 VA: 0x181364630
 	|-ContinuationTaskFromResultTask<Nullable<ServerInfo>>..ctor
 	|
-	|-RVA: 0x13647D0 Offset: 0x1362DD0 VA: 0x1813647D0
+	|-RVA: 0x1364810 Offset: 0x1362E10 VA: 0x181364810
 	|-ContinuationTaskFromResultTask<Nullable<Image>>..ctor
 	|
-	|-RVA: 0x1364230 Offset: 0x1362830 VA: 0x181364230
+	|-RVA: 0x1364270 Offset: 0x1362870 VA: 0x181364270
 	|-ContinuationTaskFromResultTask<Nullable<InventoryPurchaseResult>>..ctor
 	|
-	|-RVA: 0x1363F60 Offset: 0x1362560 VA: 0x181363F60
+	|-RVA: 0x1363FA0 Offset: 0x13625A0 VA: 0x181363FA0
 	|-ContinuationTaskFromResultTask<Nullable<InventoryResult>>..ctor
 	|
-	|-RVA: 0x1364050 Offset: 0x1362650 VA: 0x181364050
+	|-RVA: 0x1364090 Offset: 0x1362690 VA: 0x181364090
 	|-ContinuationTaskFromResultTask<Nullable<Item>>..ctor
 	|
-	|-RVA: 0x13649B0 Offset: 0x1362FB0 VA: 0x1813649B0
+	|-RVA: 0x13649F0 Offset: 0x1362FF0 VA: 0x1813649F0
 	|-ContinuationTaskFromResultTask<Nullable<ResultPage>>..ctor
 	|
-	|-RVA: 0x1364140 Offset: 0x1362740 VA: 0x181364140
+	|-RVA: 0x1364180 Offset: 0x1362780 VA: 0x181364180
 	|-ContinuationTaskFromResultTask<Nullable<int>>..ctor
 	|
-	|-RVA: 0x1363D80 Offset: 0x1362380 VA: 0x181363D80
+	|-RVA: 0x1363DC0 Offset: 0x13623C0 VA: 0x181363DC0
 	|-ContinuationTaskFromResultTask<Nullable<Int32Enum>>..ctor
 	|
-	|-RVA: 0x1363E70 Offset: 0x1362470 VA: 0x181363E70
+	|-RVA: 0x1363EB0 Offset: 0x13624B0 VA: 0x181363EB0
 	|-ContinuationTaskFromResultTask<object>..ctor
 	|
-	|-RVA: 0x1364500 Offset: 0x1362B00 VA: 0x181364500
+	|-RVA: 0x1364540 Offset: 0x1362B40 VA: 0x181364540
 	|-ContinuationTaskFromResultTask<VoidTaskResult>..ctor
 	*/
 
 	internal override void InnerInvoke() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1363C70 Offset: 0x1362270 VA: 0x181363C70
+	|-RVA: 0x1363CB0 Offset: 0x13622B0 VA: 0x181363CB0
 	|-ContinuationTaskFromResultTask<PublishResult>.InnerInvoke
 	|-ContinuationTaskFromResultTask<bool>.InnerInvoke
 	|-ContinuationTaskFromResultTask<int>.InnerInvoke
@@ -4067,14 +4067,14 @@ internal sealed class ContinuationResultTaskFromResultTask<TAntecedentResult, TR
 	public void .ctor(Task<TAntecedentResult> antecedent, Delegate function, object state, TaskCreationOptions creationOptions, InternalTaskOptions internalOptions, ref StackCrawlMark stackMark) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1363AE0 Offset: 0x13620E0 VA: 0x181363AE0
+	|-RVA: 0x1363B20 Offset: 0x1362120 VA: 0x181363B20
 	|-ContinuationResultTaskFromResultTask<object, object>..ctor
 	*/
 
 	internal override void InnerInvoke() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x13639C0 Offset: 0x1361FC0 VA: 0x1813639C0
+	|-RVA: 0x1363A00 Offset: 0x1362000 VA: 0x181363A00
 	|-ContinuationResultTaskFromResultTask<object, object>.InnerInvoke
 	*/
 
@@ -4580,7 +4580,7 @@ internal abstract class ConcurrentSetItem<KeyType, ItemType> // TypeDefIndex: 15
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
+	|-RVA: 0xD5BC10 Offset: 0xD5A210 VA: 0x180D5BC10
 	|-ConcurrentSetItem<KeyValuePair<object, Int32Enum>, object>..ctor
 	|-ConcurrentSetItem<KeyValuePair<string, EventTags>, NameInfo>..ctor
 	|-ConcurrentSetItem<object, object>..ctor
@@ -4596,7 +4596,7 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	public void .ctor(TypeAnalysis typeAnalysis) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B528C0 Offset: 0x1B50EC0 VA: 0x181B528C0
+	|-RVA: 0x1B52900 Offset: 0x1B50F00 VA: 0x181B52900
 	|-InvokeTypeInfo<bool>..ctor
 	|-InvokeTypeInfo<byte>..ctor
 	|-InvokeTypeInfo<char>..ctor
@@ -4624,7 +4624,7 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B52280 Offset: 0x1B50880 VA: 0x181B52280
+	|-RVA: 0x1B522C0 Offset: 0x1B508C0 VA: 0x181B522C0
 	|-InvokeTypeInfo<bool>.WriteMetadata
 	|-InvokeTypeInfo<byte>.WriteMetadata
 	|-InvokeTypeInfo<char>.WriteMetadata
@@ -4652,7 +4652,7 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	public override void WriteData(TraceLoggingDataCollector collector, ref ContainerType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B521F0 Offset: 0x1B507F0 VA: 0x181B521F0
+	|-RVA: 0x1B52230 Offset: 0x1B50830 VA: 0x181B52230
 	|-InvokeTypeInfo<bool>.WriteData
 	|-InvokeTypeInfo<byte>.WriteData
 	|-InvokeTypeInfo<char>.WriteData
@@ -4680,94 +4680,94 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	public override object GetData(object value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B503F0 Offset: 0x1B4E9F0 VA: 0x181B503F0
+	|-RVA: 0x1B50430 Offset: 0x1B4EA30 VA: 0x181B50430
 	|-InvokeTypeInfo<bool>.GetData
 	|
-	|-RVA: 0x1B51070 Offset: 0x1B4F670 VA: 0x181B51070
+	|-RVA: 0x1B510B0 Offset: 0x1B4F6B0 VA: 0x181B510B0
 	|-InvokeTypeInfo<byte>.GetData
 	|
-	|-RVA: 0x1B4F270 Offset: 0x1B4D870 VA: 0x181B4F270
+	|-RVA: 0x1B4F2B0 Offset: 0x1B4D8B0 VA: 0x181B4F2B0
 	|-InvokeTypeInfo<char>.GetData
 	|
-	|-RVA: 0x1B50DF0 Offset: 0x1B4F3F0 VA: 0x181B50DF0
+	|-RVA: 0x1B50E30 Offset: 0x1B4F430 VA: 0x181B50E30
 	|-InvokeTypeInfo<KeyValuePair<object, object>>.GetData
 	|
-	|-RVA: 0x1B4ED70 Offset: 0x1B4D370 VA: 0x181B4ED70
+	|-RVA: 0x1B4EDB0 Offset: 0x1B4D3B0 VA: 0x181B4EDB0
 	|-InvokeTypeInfo<DateTime>.GetData
 	|
-	|-RVA: 0x1B4FEF0 Offset: 0x1B4E4F0 VA: 0x181B4FEF0
+	|-RVA: 0x1B4FF30 Offset: 0x1B4E530 VA: 0x181B4FF30
 	|-InvokeTypeInfo<DateTimeOffset>.GetData
 	|
-	|-RVA: 0x1B4EFF0 Offset: 0x1B4D5F0 VA: 0x181B4EFF0
+	|-RVA: 0x1B4F030 Offset: 0x1B4D630 VA: 0x181B4F030
 	|-InvokeTypeInfo<Decimal>.GetData
 	|
-	|-RVA: 0x1B4F770 Offset: 0x1B4DD70 VA: 0x181B4F770
+	|-RVA: 0x1B4F7B0 Offset: 0x1B4DDB0 VA: 0x181B4F7B0
 	|-InvokeTypeInfo<EmptyStruct>.GetData
 	|
-	|-RVA: 0x1B512F0 Offset: 0x1B4F8F0 VA: 0x181B512F0
+	|-RVA: 0x1B51330 Offset: 0x1B4F930 VA: 0x181B51330
 	|-InvokeTypeInfo<double>.GetData
 	|
-	|-RVA: 0x1B4F9F0 Offset: 0x1B4DFF0 VA: 0x181B4F9F0
+	|-RVA: 0x1B4FA30 Offset: 0x1B4E030 VA: 0x181B4FA30
 	|-InvokeTypeInfo<Guid>.GetData
 	|
-	|-RVA: 0x1B517F0 Offset: 0x1B4FDF0 VA: 0x181B517F0
+	|-RVA: 0x1B51830 Offset: 0x1B4FE30 VA: 0x181B51830
 	|-InvokeTypeInfo<short>.GetData
 	|
-	|-RVA: 0x1B4F4F0 Offset: 0x1B4DAF0 VA: 0x181B4F4F0
+	|-RVA: 0x1B4F530 Offset: 0x1B4DB30 VA: 0x181B4F530
 	|-InvokeTypeInfo<int>.GetData
 	|
-	|-RVA: 0x1B4EAF0 Offset: 0x1B4D0F0 VA: 0x181B4EAF0
+	|-RVA: 0x1B4EB30 Offset: 0x1B4D130 VA: 0x181B4EB30
 	|-InvokeTypeInfo<long>.GetData
 	|
-	|-RVA: 0x1B50670 Offset: 0x1B4EC70 VA: 0x181B50670
+	|-RVA: 0x1B506B0 Offset: 0x1B4ECB0 VA: 0x181B506B0
 	|-InvokeTypeInfo<IntPtr>.GetData
 	|
-	|-RVA: 0x1B51A70 Offset: 0x1B50070 VA: 0x181B51A70
+	|-RVA: 0x1B51AB0 Offset: 0x1B500B0 VA: 0x181B51AB0
 	|-InvokeTypeInfo<object>.GetData
 	|
-	|-RVA: 0x1B4FC70 Offset: 0x1B4E270 VA: 0x181B4FC70
+	|-RVA: 0x1B4FCB0 Offset: 0x1B4E2B0 VA: 0x181B4FCB0
 	|-InvokeTypeInfo<sbyte>.GetData
 	|
-	|-RVA: 0x1B50B70 Offset: 0x1B4F170 VA: 0x181B50B70
+	|-RVA: 0x1B50BB0 Offset: 0x1B4F1B0 VA: 0x181B50BB0
 	|-InvokeTypeInfo<float>.GetData
 	|
-	|-RVA: 0x1B51F70 Offset: 0x1B50570 VA: 0x181B51F70
+	|-RVA: 0x1B51FB0 Offset: 0x1B505B0 VA: 0x181B51FB0
 	|-InvokeTypeInfo<TimeSpan>.GetData
 	|
-	|-RVA: 0x1B50170 Offset: 0x1B4E770 VA: 0x181B50170
+	|-RVA: 0x1B501B0 Offset: 0x1B4E7B0 VA: 0x181B501B0
 	|-InvokeTypeInfo<ushort>.GetData
 	|
-	|-RVA: 0x1B508F0 Offset: 0x1B4EEF0 VA: 0x181B508F0
+	|-RVA: 0x1B50930 Offset: 0x1B4EF30 VA: 0x181B50930
 	|-InvokeTypeInfo<uint>.GetData
 	|
-	|-RVA: 0x1B51570 Offset: 0x1B4FB70 VA: 0x181B51570
+	|-RVA: 0x1B515B0 Offset: 0x1B4FBB0 VA: 0x181B515B0
 	|-InvokeTypeInfo<ulong>.GetData
 	|
-	|-RVA: 0x1B51CF0 Offset: 0x1B502F0 VA: 0x181B51CF0
+	|-RVA: 0x1B51D30 Offset: 0x1B50330 VA: 0x181B51D30
 	|-InvokeTypeInfo<UIntPtr>.GetData
 	*/
 
 	public override void WriteObjectData(TraceLoggingDataCollector collector, object valueObj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B524B0 Offset: 0x1B50AB0 VA: 0x181B524B0
+	|-RVA: 0x1B524F0 Offset: 0x1B50AF0 VA: 0x181B524F0
 	|-InvokeTypeInfo<bool>.WriteObjectData
 	|-InvokeTypeInfo<byte>.WriteObjectData
 	|-InvokeTypeInfo<EmptyStruct>.WriteObjectData
 	|-InvokeTypeInfo<sbyte>.WriteObjectData
 	|
-	|-RVA: 0x1B526B0 Offset: 0x1B50CB0 VA: 0x181B526B0
+	|-RVA: 0x1B526F0 Offset: 0x1B50CF0 VA: 0x181B526F0
 	|-InvokeTypeInfo<char>.WriteObjectData
 	|-InvokeTypeInfo<short>.WriteObjectData
 	|-InvokeTypeInfo<ushort>.WriteObjectData
 	|
-	|-RVA: 0x1B52400 Offset: 0x1B50A00 VA: 0x181B52400
+	|-RVA: 0x1B52440 Offset: 0x1B50A40 VA: 0x181B52440
 	|-InvokeTypeInfo<KeyValuePair<object, object>>.WriteObjectData
 	|-InvokeTypeInfo<DateTimeOffset>.WriteObjectData
 	|-InvokeTypeInfo<Decimal>.WriteObjectData
 	|-InvokeTypeInfo<Guid>.WriteObjectData
 	|
-	|-RVA: 0x1B52600 Offset: 0x1B50C00 VA: 0x181B52600
+	|-RVA: 0x1B52640 Offset: 0x1B50C40 VA: 0x181B52640
 	|-InvokeTypeInfo<DateTime>.WriteObjectData
 	|-InvokeTypeInfo<long>.WriteObjectData
 	|-InvokeTypeInfo<IntPtr>.WriteObjectData
@@ -4775,17 +4775,17 @@ internal sealed class InvokeTypeInfo<ContainerType> : TraceLoggingTypeInfo<Conta
 	|-InvokeTypeInfo<ulong>.WriteObjectData
 	|-InvokeTypeInfo<UIntPtr>.WriteObjectData
 	|
-	|-RVA: 0x1B52350 Offset: 0x1B50950 VA: 0x181B52350
+	|-RVA: 0x1B52390 Offset: 0x1B50990 VA: 0x181B52390
 	|-InvokeTypeInfo<double>.WriteObjectData
 	|
-	|-RVA: 0x1B52810 Offset: 0x1B50E10 VA: 0x181B52810
+	|-RVA: 0x1B52850 Offset: 0x1B50E50 VA: 0x181B52850
 	|-InvokeTypeInfo<int>.WriteObjectData
 	|-InvokeTypeInfo<uint>.WriteObjectData
 	|
-	|-RVA: 0x1B52560 Offset: 0x1B50B60 VA: 0x181B52560
+	|-RVA: 0x1B525A0 Offset: 0x1B50BA0 VA: 0x181B525A0
 	|-InvokeTypeInfo<object>.WriteObjectData
 	|
-	|-RVA: 0x1B52760 Offset: 0x1B50D60 VA: 0x181B52760
+	|-RVA: 0x1B527A0 Offset: 0x1B50DA0 VA: 0x181B527A0
 	|-InvokeTypeInfo<float>.WriteObjectData
 	*/
 
@@ -4810,77 +4810,77 @@ internal abstract class PropertyAccessor<ContainerType> // TypeDefIndex: 1526
 	public static PropertyAccessor<ContainerType> Create(PropertyAnalysis property) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B56C00 Offset: 0x1B55200 VA: 0x181B56C00
+	|-RVA: 0x1B56C40 Offset: 0x1B55240 VA: 0x181B56C40
 	|-PropertyAccessor<bool>.Create
 	|
-	|-RVA: 0x1B54890 Offset: 0x1B52E90 VA: 0x181B54890
+	|-RVA: 0x1B548D0 Offset: 0x1B52ED0 VA: 0x181B548D0
 	|-PropertyAccessor<byte>.Create
 	|
-	|-RVA: 0x1B55850 Offset: 0x1B53E50 VA: 0x181B55850
+	|-RVA: 0x1B55890 Offset: 0x1B53E90 VA: 0x181B55890
 	|-PropertyAccessor<char>.Create
 	|
-	|-RVA: 0x1B56FF0 Offset: 0x1B555F0 VA: 0x181B56FF0
+	|-RVA: 0x1B57030 Offset: 0x1B55630 VA: 0x181B57030
 	|-PropertyAccessor<KeyValuePair<object, object>>.Create
 	|
-	|-RVA: 0x1B58790 Offset: 0x1B56D90 VA: 0x181B58790
+	|-RVA: 0x1B587D0 Offset: 0x1B56DD0 VA: 0x181B587D0
 	|-PropertyAccessor<DateTime>.Create
 	|
-	|-RVA: 0x1B55070 Offset: 0x1B53670 VA: 0x181B55070
+	|-RVA: 0x1B550B0 Offset: 0x1B536B0 VA: 0x181B550B0
 	|-PropertyAccessor<DateTimeOffset>.Create
 	|
-	|-RVA: 0x1B540B0 Offset: 0x1B526B0 VA: 0x181B540B0
+	|-RVA: 0x1B540F0 Offset: 0x1B526F0 VA: 0x181B540F0
 	|-PropertyAccessor<Decimal>.Create
 	|
-	|-RVA: 0x1B54C80 Offset: 0x1B53280 VA: 0x181B54C80
+	|-RVA: 0x1B54CC0 Offset: 0x1B532C0 VA: 0x181B54CC0
 	|-PropertyAccessor<EmptyStruct>.Create
 	|
-	|-RVA: 0x1B534E0 Offset: 0x1B51AE0 VA: 0x181B534E0
+	|-RVA: 0x1B53520 Offset: 0x1B51B20 VA: 0x181B53520
 	|-PropertyAccessor<double>.Create
 	|
-	|-RVA: 0x1B57FB0 Offset: 0x1B565B0 VA: 0x181B57FB0
+	|-RVA: 0x1B57FF0 Offset: 0x1B565F0 VA: 0x181B57FF0
 	|-PropertyAccessor<Guid>.Create
 	|
-	|-RVA: 0x1B57BC0 Offset: 0x1B561C0 VA: 0x181B57BC0
+	|-RVA: 0x1B57C00 Offset: 0x1B56200 VA: 0x181B57C00
 	|-PropertyAccessor<short>.Create
 	|
-	|-RVA: 0x1B55C40 Offset: 0x1B54240 VA: 0x181B55C40
+	|-RVA: 0x1B55C80 Offset: 0x1B54280 VA: 0x181B55C80
 	|-PropertyAccessor<int>.Create
 	|
-	|-RVA: 0x1B55460 Offset: 0x1B53A60 VA: 0x181B55460
+	|-RVA: 0x1B554A0 Offset: 0x1B53AA0 VA: 0x181B554A0
 	|-PropertyAccessor<long>.Create
 	|
-	|-RVA: 0x1B573E0 Offset: 0x1B559E0 VA: 0x181B573E0
+	|-RVA: 0x1B57420 Offset: 0x1B55A20 VA: 0x181B57420
 	|-PropertyAccessor<IntPtr>.Create
 	|
-	|-RVA: 0x1B583A0 Offset: 0x1B569A0 VA: 0x181B583A0
+	|-RVA: 0x1B583E0 Offset: 0x1B569E0 VA: 0x181B583E0
 	|-PropertyAccessor<object>.Create
 	|
-	|-RVA: 0x1B544A0 Offset: 0x1B52AA0 VA: 0x181B544A0
+	|-RVA: 0x1B544E0 Offset: 0x1B52AE0 VA: 0x181B544E0
 	|-PropertyAccessor<sbyte>.Create
 	|
-	|-RVA: 0x1B56030 Offset: 0x1B54630 VA: 0x181B56030
+	|-RVA: 0x1B56070 Offset: 0x1B54670 VA: 0x181B56070
 	|-PropertyAccessor<float>.Create
 	|
-	|-RVA: 0x1B56810 Offset: 0x1B54E10 VA: 0x181B56810
+	|-RVA: 0x1B56850 Offset: 0x1B54E50 VA: 0x181B56850
 	|-PropertyAccessor<TimeSpan>.Create
 	|
-	|-RVA: 0x1B56420 Offset: 0x1B54A20 VA: 0x181B56420
+	|-RVA: 0x1B56460 Offset: 0x1B54A60 VA: 0x181B56460
 	|-PropertyAccessor<ushort>.Create
 	|
-	|-RVA: 0x1B53CC0 Offset: 0x1B522C0 VA: 0x181B53CC0
+	|-RVA: 0x1B53D00 Offset: 0x1B52300 VA: 0x181B53D00
 	|-PropertyAccessor<uint>.Create
 	|
-	|-RVA: 0x1B538D0 Offset: 0x1B51ED0 VA: 0x181B538D0
+	|-RVA: 0x1B53910 Offset: 0x1B51F10 VA: 0x181B53910
 	|-PropertyAccessor<ulong>.Create
 	|
-	|-RVA: 0x1B577D0 Offset: 0x1B55DD0 VA: 0x181B577D0
+	|-RVA: 0x1B57810 Offset: 0x1B55E10 VA: 0x181B57810
 	|-PropertyAccessor<UIntPtr>.Create
 	*/
 
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
+	|-RVA: 0xD5BC10 Offset: 0xD5A210 VA: 0x180D5BC10
 	|-PropertyAccessor<bool>..ctor
 	|-PropertyAccessor<byte>..ctor
 	|-PropertyAccessor<char>..ctor
@@ -4915,7 +4915,7 @@ internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<Contai
 	public void .ctor(PropertyAnalysis property) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B53450 Offset: 0x1B51A50 VA: 0x181B53450
+	|-RVA: 0x1B53490 Offset: 0x1B51A90 VA: 0x181B53490
 	|-NonGenericProperytWriter<bool>..ctor
 	|-NonGenericProperytWriter<byte>..ctor
 	|-NonGenericProperytWriter<char>..ctor
@@ -4943,24 +4943,24 @@ internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<Contai
 	public override void Write(TraceLoggingDataCollector collector, ref ContainerType container) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B52FD0 Offset: 0x1B515D0 VA: 0x181B52FD0
+	|-RVA: 0x1B53010 Offset: 0x1B51610 VA: 0x181B53010
 	|-NonGenericProperytWriter<bool>.Write
 	|-NonGenericProperytWriter<byte>.Write
 	|-NonGenericProperytWriter<EmptyStruct>.Write
 	|-NonGenericProperytWriter<sbyte>.Write
 	|
-	|-RVA: 0x1B53080 Offset: 0x1B51680 VA: 0x181B53080
+	|-RVA: 0x1B530C0 Offset: 0x1B516C0 VA: 0x181B530C0
 	|-NonGenericProperytWriter<char>.Write
 	|-NonGenericProperytWriter<short>.Write
 	|-NonGenericProperytWriter<ushort>.Write
 	|
-	|-RVA: 0x1B531E0 Offset: 0x1B517E0 VA: 0x181B531E0
+	|-RVA: 0x1B53220 Offset: 0x1B51820 VA: 0x181B53220
 	|-NonGenericProperytWriter<KeyValuePair<object, object>>.Write
 	|-NonGenericProperytWriter<DateTimeOffset>.Write
 	|-NonGenericProperytWriter<Decimal>.Write
 	|-NonGenericProperytWriter<Guid>.Write
 	|
-	|-RVA: 0x1B52F20 Offset: 0x1B51520 VA: 0x181B52F20
+	|-RVA: 0x1B52F60 Offset: 0x1B51560 VA: 0x181B52F60
 	|-NonGenericProperytWriter<DateTime>.Write
 	|-NonGenericProperytWriter<long>.Write
 	|-NonGenericProperytWriter<IntPtr>.Write
@@ -4968,41 +4968,41 @@ internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<Contai
 	|-NonGenericProperytWriter<ulong>.Write
 	|-NonGenericProperytWriter<UIntPtr>.Write
 	|
-	|-RVA: 0x1B53130 Offset: 0x1B51730 VA: 0x181B53130
+	|-RVA: 0x1B53170 Offset: 0x1B51770 VA: 0x181B53170
 	|-NonGenericProperytWriter<double>.Write
 	|
-	|-RVA: 0x1B53290 Offset: 0x1B51890 VA: 0x181B53290
+	|-RVA: 0x1B532D0 Offset: 0x1B518D0 VA: 0x181B532D0
 	|-NonGenericProperytWriter<int>.Write
 	|-NonGenericProperytWriter<uint>.Write
 	|
-	|-RVA: 0x1B533F0 Offset: 0x1B519F0 VA: 0x181B533F0
+	|-RVA: 0x1B53430 Offset: 0x1B51A30 VA: 0x181B53430
 	|-NonGenericProperytWriter<object>.Write
 	|
-	|-RVA: 0x1B53340 Offset: 0x1B51940 VA: 0x181B53340
+	|-RVA: 0x1B53380 Offset: 0x1B51980 VA: 0x181B53380
 	|-NonGenericProperytWriter<float>.Write
 	*/
 
 	public override object GetData(ContainerType container) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B52DA0 Offset: 0x1B513A0 VA: 0x181B52DA0
+	|-RVA: 0x1B52DE0 Offset: 0x1B513E0 VA: 0x181B52DE0
 	|-NonGenericProperytWriter<bool>.GetData
 	|-NonGenericProperytWriter<byte>.GetData
 	|-NonGenericProperytWriter<EmptyStruct>.GetData
 	|-NonGenericProperytWriter<sbyte>.GetData
 	|
-	|-RVA: 0x1B52D30 Offset: 0x1B51330 VA: 0x181B52D30
+	|-RVA: 0x1B52D70 Offset: 0x1B51370 VA: 0x181B52D70
 	|-NonGenericProperytWriter<char>.GetData
 	|-NonGenericProperytWriter<short>.GetData
 	|-NonGenericProperytWriter<ushort>.GetData
 	|
-	|-RVA: 0x1B52C50 Offset: 0x1B51250 VA: 0x181B52C50
+	|-RVA: 0x1B52C90 Offset: 0x1B51290 VA: 0x181B52C90
 	|-NonGenericProperytWriter<KeyValuePair<object, object>>.GetData
 	|-NonGenericProperytWriter<DateTimeOffset>.GetData
 	|-NonGenericProperytWriter<Decimal>.GetData
 	|-NonGenericProperytWriter<Guid>.GetData
 	|
-	|-RVA: 0x1B52BE0 Offset: 0x1B511E0 VA: 0x181B52BE0
+	|-RVA: 0x1B52C20 Offset: 0x1B51220 VA: 0x181B52C20
 	|-NonGenericProperytWriter<DateTime>.GetData
 	|-NonGenericProperytWriter<long>.GetData
 	|-NonGenericProperytWriter<IntPtr>.GetData
@@ -5010,17 +5010,17 @@ internal class NonGenericProperytWriter<ContainerType> : PropertyAccessor<Contai
 	|-NonGenericProperytWriter<ulong>.GetData
 	|-NonGenericProperytWriter<UIntPtr>.GetData
 	|
-	|-RVA: 0x1B52CC0 Offset: 0x1B512C0 VA: 0x181B52CC0
+	|-RVA: 0x1B52D00 Offset: 0x1B51300 VA: 0x181B52D00
 	|-NonGenericProperytWriter<double>.GetData
 	|
-	|-RVA: 0x1B52EB0 Offset: 0x1B514B0 VA: 0x181B52EB0
+	|-RVA: 0x1B52EF0 Offset: 0x1B514F0 VA: 0x181B52EF0
 	|-NonGenericProperytWriter<int>.GetData
 	|-NonGenericProperytWriter<uint>.GetData
 	|
-	|-RVA: 0x1B52E80 Offset: 0x1B51480 VA: 0x181B52E80
+	|-RVA: 0x1B52EC0 Offset: 0x1B514C0 VA: 0x181B52EC0
 	|-NonGenericProperytWriter<object>.GetData
 	|
-	|-RVA: 0x1B52E10 Offset: 0x1B51410 VA: 0x181B52E10
+	|-RVA: 0x1B52E50 Offset: 0x1B51450 VA: 0x181B52E50
 	|-NonGenericProperytWriter<float>.GetData
 	*/
 
@@ -5034,214 +5034,214 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	public void .ctor(PropertyAnalysis property) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20C1820 Offset: 0x20BFE20 VA: 0x1820C1820
+	|-RVA: 0x20C1860 Offset: 0x20BFE60 VA: 0x1820C1860
 	|-ClassPropertyWriter<bool, int>..ctor
 	|
-	|-RVA: 0x20C4C20 Offset: 0x20C3220 VA: 0x1820C4C20
+	|-RVA: 0x20C4C60 Offset: 0x20C3260 VA: 0x1820C4C60
 	|-ClassPropertyWriter<bool, long>..ctor
 	|
-	|-RVA: 0x20C52A0 Offset: 0x20C38A0 VA: 0x1820C52A0
+	|-RVA: 0x20C52E0 Offset: 0x20C38E0 VA: 0x1820C52E0
 	|-ClassPropertyWriter<bool, object>..ctor
 	|
-	|-RVA: 0x20C1EA0 Offset: 0x20C04A0 VA: 0x1820C1EA0
+	|-RVA: 0x20C1EE0 Offset: 0x20C04E0 VA: 0x1820C1EE0
 	|-ClassPropertyWriter<byte, int>..ctor
 	|
-	|-RVA: 0x20C5E00 Offset: 0x20C4400 VA: 0x1820C5E00
+	|-RVA: 0x20C5E40 Offset: 0x20C4440 VA: 0x1820C5E40
 	|-ClassPropertyWriter<byte, long>..ctor
 	|
-	|-RVA: 0x20C5100 Offset: 0x20C3700 VA: 0x1820C5100
+	|-RVA: 0x20C5140 Offset: 0x20C3740 VA: 0x1820C5140
 	|-ClassPropertyWriter<byte, object>..ctor
 	|
-	|-RVA: 0x20C1B60 Offset: 0x20C0160 VA: 0x1820C1B60
+	|-RVA: 0x20C1BA0 Offset: 0x20C01A0 VA: 0x1820C1BA0
 	|-ClassPropertyWriter<char, int>..ctor
 	|
-	|-RVA: 0x20C45A0 Offset: 0x20C2BA0 VA: 0x1820C45A0
+	|-RVA: 0x20C45E0 Offset: 0x20C2BE0 VA: 0x1820C45E0
 	|-ClassPropertyWriter<char, long>..ctor
 	|
-	|-RVA: 0x20C2D40 Offset: 0x20C1340 VA: 0x1820C2D40
+	|-RVA: 0x20C2D80 Offset: 0x20C1380 VA: 0x1820C2D80
 	|-ClassPropertyWriter<char, object>..ctor
 	|
-	|-RVA: 0x20C4260 Offset: 0x20C2860 VA: 0x1820C4260
+	|-RVA: 0x20C42A0 Offset: 0x20C28A0 VA: 0x1820C42A0
 	|-ClassPropertyWriter<KeyValuePair<object, object>, int>..ctor
 	|
-	|-RVA: 0x20C2520 Offset: 0x20C0B20 VA: 0x1820C2520
+	|-RVA: 0x20C2560 Offset: 0x20C0B60 VA: 0x1820C2560
 	|-ClassPropertyWriter<KeyValuePair<object, object>, long>..ctor
 	|
-	|-RVA: 0x20C2040 Offset: 0x20C0640 VA: 0x1820C2040
+	|-RVA: 0x20C2080 Offset: 0x20C0680 VA: 0x1820C2080
 	|-ClassPropertyWriter<KeyValuePair<object, object>, object>..ctor
 	|
-	|-RVA: 0x20C21E0 Offset: 0x20C07E0 VA: 0x1820C21E0
+	|-RVA: 0x20C2220 Offset: 0x20C0820 VA: 0x1820C2220
 	|-ClassPropertyWriter<DateTime, int>..ctor
 	|
-	|-RVA: 0x20C55E0 Offset: 0x20C3BE0 VA: 0x1820C55E0
+	|-RVA: 0x20C5620 Offset: 0x20C3C20 VA: 0x1820C5620
 	|-ClassPropertyWriter<DateTime, long>..ctor
 	|
-	|-RVA: 0x20C19C0 Offset: 0x20BFFC0 VA: 0x1820C19C0
+	|-RVA: 0x20C1A00 Offset: 0x20C0000 VA: 0x1820C1A00
 	|-ClassPropertyWriter<DateTime, object>..ctor
 	|
-	|-RVA: 0x20C3700 Offset: 0x20C1D00 VA: 0x1820C3700
+	|-RVA: 0x20C3740 Offset: 0x20C1D40 VA: 0x1820C3740
 	|-ClassPropertyWriter<DateTimeOffset, int>..ctor
 	|
-	|-RVA: 0x20C2380 Offset: 0x20C0980 VA: 0x1820C2380
+	|-RVA: 0x20C23C0 Offset: 0x20C09C0 VA: 0x1820C23C0
 	|-ClassPropertyWriter<DateTimeOffset, long>..ctor
 	|
-	|-RVA: 0x20C4A80 Offset: 0x20C3080 VA: 0x1820C4A80
+	|-RVA: 0x20C4AC0 Offset: 0x20C30C0 VA: 0x1820C4AC0
 	|-ClassPropertyWriter<DateTimeOffset, object>..ctor
 	|
-	|-RVA: 0x20C3080 Offset: 0x20C1680 VA: 0x1820C3080
+	|-RVA: 0x20C30C0 Offset: 0x20C16C0 VA: 0x1820C30C0
 	|-ClassPropertyWriter<Decimal, int>..ctor
 	|
-	|-RVA: 0x20C5440 Offset: 0x20C3A40 VA: 0x1820C5440
+	|-RVA: 0x20C5480 Offset: 0x20C3A80 VA: 0x1820C5480
 	|-ClassPropertyWriter<Decimal, long>..ctor
 	|
-	|-RVA: 0x20C5AC0 Offset: 0x20C40C0 VA: 0x1820C5AC0
+	|-RVA: 0x20C5B00 Offset: 0x20C4100 VA: 0x1820C5B00
 	|-ClassPropertyWriter<Decimal, object>..ctor
 	|
-	|-RVA: 0x20C3560 Offset: 0x20C1B60 VA: 0x1820C3560
+	|-RVA: 0x20C35A0 Offset: 0x20C1BA0 VA: 0x1820C35A0
 	|-ClassPropertyWriter<EmptyStruct, int>..ctor
 	|
-	|-RVA: 0x20C38A0 Offset: 0x20C1EA0 VA: 0x1820C38A0
+	|-RVA: 0x20C38E0 Offset: 0x20C1EE0 VA: 0x1820C38E0
 	|-ClassPropertyWriter<EmptyStruct, long>..ctor
 	|
-	|-RVA: 0x20C33C0 Offset: 0x20C19C0 VA: 0x1820C33C0
+	|-RVA: 0x20C3400 Offset: 0x20C1A00 VA: 0x1820C3400
 	|-ClassPropertyWriter<EmptyStruct, object>..ctor
 	|
-	|-RVA: 0x20C3F20 Offset: 0x20C2520 VA: 0x1820C3F20
+	|-RVA: 0x20C3F60 Offset: 0x20C2560 VA: 0x1820C3F60
 	|-ClassPropertyWriter<double, int>..ctor
 	|
-	|-RVA: 0x20C48E0 Offset: 0x20C2EE0 VA: 0x1820C48E0
+	|-RVA: 0x20C4920 Offset: 0x20C2F20 VA: 0x1820C4920
 	|-ClassPropertyWriter<double, long>..ctor
 	|
-	|-RVA: 0x20C5780 Offset: 0x20C3D80 VA: 0x1820C5780
+	|-RVA: 0x20C57C0 Offset: 0x20C3DC0 VA: 0x1820C57C0
 	|-ClassPropertyWriter<double, object>..ctor
 	|
-	|-RVA: 0x20C40C0 Offset: 0x20C26C0 VA: 0x1820C40C0
+	|-RVA: 0x20C4100 Offset: 0x20C2700 VA: 0x1820C4100
 	|-ClassPropertyWriter<Guid, int>..ctor
 	|
-	|-RVA: 0x20C3A40 Offset: 0x20C2040 VA: 0x1820C3A40
+	|-RVA: 0x20C3A80 Offset: 0x20C2080 VA: 0x1820C3A80
 	|-ClassPropertyWriter<Guid, long>..ctor
 	|
-	|-RVA: 0x20C4F60 Offset: 0x20C3560 VA: 0x1820C4F60
+	|-RVA: 0x20C4FA0 Offset: 0x20C35A0 VA: 0x1820C4FA0
 	|-ClassPropertyWriter<Guid, object>..ctor
 	|
-	|-RVA: 0x20C2A00 Offset: 0x20C1000 VA: 0x1820C2A00
+	|-RVA: 0x20C2A40 Offset: 0x20C1040 VA: 0x1820C2A40
 	|-ClassPropertyWriter<short, int>..ctor
 	|
-	|-RVA: 0x20C2EE0 Offset: 0x20C14E0 VA: 0x1820C2EE0
+	|-RVA: 0x20C2F20 Offset: 0x20C1520 VA: 0x1820C2F20
 	|-ClassPropertyWriter<short, long>..ctor
 	|
-	|-RVA: 0x20C26C0 Offset: 0x20C0CC0 VA: 0x1820C26C0
+	|-RVA: 0x20C2700 Offset: 0x20C0D00 VA: 0x1820C2700
 	|-ClassPropertyWriter<short, object>..ctor
 	|
-	|-RVA: 0x20C1D00 Offset: 0x20C0300 VA: 0x1820C1D00
+	|-RVA: 0x20C1D40 Offset: 0x20C0340 VA: 0x1820C1D40
 	|-ClassPropertyWriter<int, int>..ctor
 	|
-	|-RVA: 0x20C5920 Offset: 0x20C3F20 VA: 0x1820C5920
+	|-RVA: 0x20C5960 Offset: 0x20C3F60 VA: 0x1820C5960
 	|-ClassPropertyWriter<int, long>..ctor
 	|
-	|-RVA: 0x20C4DC0 Offset: 0x20C33C0 VA: 0x1820C4DC0
+	|-RVA: 0x20C4E00 Offset: 0x20C3400 VA: 0x1820C4E00
 	|-ClassPropertyWriter<int, object>..ctor
 	|
-	|-RVA: 0x20C1680 Offset: 0x20BFC80 VA: 0x1820C1680
+	|-RVA: 0x20C16C0 Offset: 0x20BFCC0 VA: 0x1820C16C0
 	|-ClassPropertyWriter<long, int>..ctor
 	|
-	|-RVA: 0x20C3220 Offset: 0x20C1820 VA: 0x1820C3220
+	|-RVA: 0x20C3260 Offset: 0x20C1860 VA: 0x1820C3260
 	|-ClassPropertyWriter<long, long>..ctor
 	|
-	|-RVA: 0x20C3D80 Offset: 0x20C2380 VA: 0x1820C3D80
+	|-RVA: 0x20C3DC0 Offset: 0x20C23C0 VA: 0x1820C3DC0
 	|-ClassPropertyWriter<long, object>..ctor
 	|
-	|-RVA: 0x20C4740 Offset: 0x20C2D40 VA: 0x1820C4740
+	|-RVA: 0x20C4780 Offset: 0x20C2D80 VA: 0x1820C4780
 	|-ClassPropertyWriter<IntPtr, int>..ctor
 	|
-	|-RVA: 0x20C5FA0 Offset: 0x20C45A0 VA: 0x1820C5FA0
+	|-RVA: 0x20C5FE0 Offset: 0x20C45E0 VA: 0x1820C5FE0
 	|-ClassPropertyWriter<IntPtr, long>..ctor
 	|
-	|-RVA: 0x20C5C60 Offset: 0x20C4260 VA: 0x1820C5C60
+	|-RVA: 0x20C5CA0 Offset: 0x20C42A0 VA: 0x1820C5CA0
 	|-ClassPropertyWriter<IntPtr, object>..ctor
 	|
-	|-RVA: 0x20C2860 Offset: 0x20C0E60 VA: 0x1820C2860
+	|-RVA: 0x20C28A0 Offset: 0x20C0EA0 VA: 0x1820C28A0
 	|-ClassPropertyWriter<object, int>..ctor
 	|
-	|-RVA: 0x20C3BE0 Offset: 0x20C21E0 VA: 0x1820C3BE0
+	|-RVA: 0x20C3C20 Offset: 0x20C2220 VA: 0x1820C3C20
 	|-ClassPropertyWriter<object, long>..ctor
 	|
-	|-RVA: 0x20C2BA0 Offset: 0x20C11A0 VA: 0x1820C2BA0
+	|-RVA: 0x20C2BE0 Offset: 0x20C11E0 VA: 0x1820C2BE0
 	|-ClassPropertyWriter<object, object>..ctor
 	|
-	|-RVA: 0x20C4400 Offset: 0x20C2A00 VA: 0x1820C4400
+	|-RVA: 0x20C4440 Offset: 0x20C2A40 VA: 0x1820C4440
 	|-ClassPropertyWriter<sbyte, int>..ctor
 	|
-	|-RVA: 0x20C6140 Offset: 0x20C4740 VA: 0x1820C6140
+	|-RVA: 0x20C6180 Offset: 0x20C4780 VA: 0x1820C6180
 	|-ClassPropertyWriter<sbyte, long>..ctor
 	|
-	|-RVA: 0x1B10250 Offset: 0x1B0E850 VA: 0x181B10250
+	|-RVA: 0x1B10290 Offset: 0x1B0E890 VA: 0x181B10290
 	|-ClassPropertyWriter<sbyte, object>..ctor
 	|
-	|-RVA: 0x1B11F90 Offset: 0x1B10590 VA: 0x181B11F90
+	|-RVA: 0x1B11FD0 Offset: 0x1B105D0 VA: 0x181B11FD0
 	|-ClassPropertyWriter<float, int>..ctor
 	|
-	|-RVA: 0x1B11910 Offset: 0x1B0FF10 VA: 0x181B11910
+	|-RVA: 0x1B11950 Offset: 0x1B0FF50 VA: 0x181B11950
 	|-ClassPropertyWriter<float, long>..ctor
 	|
-	|-RVA: 0x1B103F0 Offset: 0x1B0E9F0 VA: 0x181B103F0
+	|-RVA: 0x1B10430 Offset: 0x1B0EA30 VA: 0x181B10430
 	|-ClassPropertyWriter<float, object>..ctor
 	|
-	|-RVA: 0x1B11430 Offset: 0x1B0FA30 VA: 0x181B11430
+	|-RVA: 0x1B11470 Offset: 0x1B0FA70 VA: 0x181B11470
 	|-ClassPropertyWriter<TimeSpan, int>..ctor
 	|
-	|-RVA: 0x1B11770 Offset: 0x1B0FD70 VA: 0x181B11770
+	|-RVA: 0x1B117B0 Offset: 0x1B0FDB0 VA: 0x181B117B0
 	|-ClassPropertyWriter<TimeSpan, long>..ctor
 	|
-	|-RVA: 0x1B10DB0 Offset: 0x1B0F3B0 VA: 0x181B10DB0
+	|-RVA: 0x1B10DF0 Offset: 0x1B0F3F0 VA: 0x181B10DF0
 	|-ClassPropertyWriter<TimeSpan, object>..ctor
 	|
-	|-RVA: 0x1B108D0 Offset: 0x1B0EED0 VA: 0x181B108D0
+	|-RVA: 0x1B10910 Offset: 0x1B0EF10 VA: 0x181B10910
 	|-ClassPropertyWriter<ushort, int>..ctor
 	|
-	|-RVA: 0x1B10A70 Offset: 0x1B0F070 VA: 0x181B10A70
+	|-RVA: 0x1B10AB0 Offset: 0x1B0F0B0 VA: 0x181B10AB0
 	|-ClassPropertyWriter<ushort, long>..ctor
 	|
-	|-RVA: 0x1B11DF0 Offset: 0x1B103F0 VA: 0x181B11DF0
+	|-RVA: 0x1B11E30 Offset: 0x1B10430 VA: 0x181B11E30
 	|-ClassPropertyWriter<ushort, object>..ctor
 	|
-	|-RVA: 0x1B11AB0 Offset: 0x1B100B0 VA: 0x181B11AB0
+	|-RVA: 0x1B11AF0 Offset: 0x1B100F0 VA: 0x181B11AF0
 	|-ClassPropertyWriter<uint, int>..ctor
 	|
-	|-RVA: 0x1B11C50 Offset: 0x1B10250 VA: 0x181B11C50
+	|-RVA: 0x1B11C90 Offset: 0x1B10290 VA: 0x181B11C90
 	|-ClassPropertyWriter<uint, long>..ctor
 	|
-	|-RVA: 0x1B10F50 Offset: 0x1B0F550 VA: 0x181B10F50
+	|-RVA: 0x1B10F90 Offset: 0x1B0F590 VA: 0x181B10F90
 	|-ClassPropertyWriter<uint, object>..ctor
 	|
-	|-RVA: 0x1B110F0 Offset: 0x1B0F6F0 VA: 0x181B110F0
+	|-RVA: 0x1B11130 Offset: 0x1B0F730 VA: 0x181B11130
 	|-ClassPropertyWriter<ulong, int>..ctor
 	|
-	|-RVA: 0x1B11290 Offset: 0x1B0F890 VA: 0x181B11290
+	|-RVA: 0x1B112D0 Offset: 0x1B0F8D0 VA: 0x181B112D0
 	|-ClassPropertyWriter<ulong, long>..ctor
 	|
-	|-RVA: 0x1B10730 Offset: 0x1B0ED30 VA: 0x181B10730
+	|-RVA: 0x1B10770 Offset: 0x1B0ED70 VA: 0x181B10770
 	|-ClassPropertyWriter<ulong, object>..ctor
 	|
-	|-RVA: 0x1B10590 Offset: 0x1B0EB90 VA: 0x181B10590
+	|-RVA: 0x1B105D0 Offset: 0x1B0EBD0 VA: 0x181B105D0
 	|-ClassPropertyWriter<UIntPtr, int>..ctor
 	|
-	|-RVA: 0x1B10C10 Offset: 0x1B0F210 VA: 0x181B10C10
+	|-RVA: 0x1B10C50 Offset: 0x1B0F250 VA: 0x181B10C50
 	|-ClassPropertyWriter<UIntPtr, long>..ctor
 	|
-	|-RVA: 0x1B115D0 Offset: 0x1B0FBD0 VA: 0x181B115D0
+	|-RVA: 0x1B11610 Offset: 0x1B0FC10 VA: 0x181B11610
 	|-ClassPropertyWriter<UIntPtr, object>..ctor
 	*/
 
 	public override void Write(TraceLoggingDataCollector collector, ref ContainerType container) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20C13E0 Offset: 0x20BF9E0 VA: 0x1820C13E0
+	|-RVA: 0x20C1420 Offset: 0x20BFA20 VA: 0x1820C1420
 	|-ClassPropertyWriter<bool, int>.Write
 	|-ClassPropertyWriter<byte, int>.Write
 	|-ClassPropertyWriter<sbyte, int>.Write
 	|
-	|-RVA: 0x1B0FDF0 Offset: 0x1B0E3F0 VA: 0x181B0FDF0
+	|-RVA: 0x1B0FE30 Offset: 0x1B0E430 VA: 0x181B0FE30
 	|-ClassPropertyWriter<bool, long>.Write
 	|-ClassPropertyWriter<bool, object>.Write
 	|-ClassPropertyWriter<byte, long>.Write
@@ -5249,12 +5249,12 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<sbyte, long>.Write
 	|-ClassPropertyWriter<sbyte, object>.Write
 	|
-	|-RVA: 0x1B10090 Offset: 0x1B0E690 VA: 0x181B10090
+	|-RVA: 0x1B100D0 Offset: 0x1B0E6D0 VA: 0x181B100D0
 	|-ClassPropertyWriter<char, int>.Write
 	|-ClassPropertyWriter<short, int>.Write
 	|-ClassPropertyWriter<ushort, int>.Write
 	|
-	|-RVA: 0x1B0FD80 Offset: 0x1B0E380 VA: 0x181B0FD80
+	|-RVA: 0x1B0FDC0 Offset: 0x1B0E3C0 VA: 0x181B0FDC0
 	|-ClassPropertyWriter<char, long>.Write
 	|-ClassPropertyWriter<char, object>.Write
 	|-ClassPropertyWriter<short, long>.Write
@@ -5262,13 +5262,13 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<ushort, long>.Write
 	|-ClassPropertyWriter<ushort, object>.Write
 	|
-	|-RVA: 0x20C1360 Offset: 0x20BF960 VA: 0x1820C1360
+	|-RVA: 0x20C13A0 Offset: 0x20BF9A0 VA: 0x1820C13A0
 	|-ClassPropertyWriter<KeyValuePair<object, object>, int>.Write
 	|-ClassPropertyWriter<DateTimeOffset, int>.Write
 	|-ClassPropertyWriter<Decimal, int>.Write
 	|-ClassPropertyWriter<Guid, int>.Write
 	|
-	|-RVA: 0x20C1270 Offset: 0x20BF870 VA: 0x1820C1270
+	|-RVA: 0x20C12B0 Offset: 0x20BF8B0 VA: 0x1820C12B0
 	|-ClassPropertyWriter<KeyValuePair<object, object>, long>.Write
 	|-ClassPropertyWriter<KeyValuePair<object, object>, object>.Write
 	|-ClassPropertyWriter<DateTimeOffset, long>.Write
@@ -5278,47 +5278,47 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<Guid, long>.Write
 	|-ClassPropertyWriter<Guid, object>.Write
 	|
-	|-RVA: 0x1B10100 Offset: 0x1B0E700 VA: 0x181B10100
+	|-RVA: 0x1B10140 Offset: 0x1B0E740 VA: 0x181B10140
 	|-ClassPropertyWriter<DateTime, int>.Write
 	|-ClassPropertyWriter<TimeSpan, int>.Write
 	|
-	|-RVA: 0x1B10170 Offset: 0x1B0E770 VA: 0x181B10170
+	|-RVA: 0x1B101B0 Offset: 0x1B0E7B0 VA: 0x181B101B0
 	|-ClassPropertyWriter<DateTime, long>.Write
 	|-ClassPropertyWriter<DateTime, object>.Write
 	|-ClassPropertyWriter<TimeSpan, long>.Write
 	|-ClassPropertyWriter<TimeSpan, object>.Write
 	|
-	|-RVA: 0x20C1610 Offset: 0x20BFC10 VA: 0x1820C1610
+	|-RVA: 0x20C1650 Offset: 0x20BFC50 VA: 0x1820C1650
 	|-ClassPropertyWriter<EmptyStruct, int>.Write
 	|
-	|-RVA: 0x20C12F0 Offset: 0x20BF8F0 VA: 0x1820C12F0
+	|-RVA: 0x20C1330 Offset: 0x20BF930 VA: 0x1820C1330
 	|-ClassPropertyWriter<EmptyStruct, long>.Write
 	|-ClassPropertyWriter<EmptyStruct, object>.Write
 	|
-	|-RVA: 0x20C15A0 Offset: 0x20BFBA0 VA: 0x1820C15A0
+	|-RVA: 0x20C15E0 Offset: 0x20BFBE0 VA: 0x1820C15E0
 	|-ClassPropertyWriter<double, int>.Write
 	|
-	|-RVA: 0x20C14C0 Offset: 0x20BFAC0 VA: 0x1820C14C0
+	|-RVA: 0x20C1500 Offset: 0x20BFB00 VA: 0x1820C1500
 	|-ClassPropertyWriter<double, long>.Write
 	|-ClassPropertyWriter<double, object>.Write
 	|
-	|-RVA: 0x1B101E0 Offset: 0x1B0E7E0 VA: 0x181B101E0
+	|-RVA: 0x1B10220 Offset: 0x1B0E820 VA: 0x181B10220
 	|-ClassPropertyWriter<int, int>.Write
 	|-ClassPropertyWriter<uint, int>.Write
 	|
-	|-RVA: 0x1B0FF40 Offset: 0x1B0E540 VA: 0x181B0FF40
+	|-RVA: 0x1B0FF80 Offset: 0x1B0E580 VA: 0x181B0FF80
 	|-ClassPropertyWriter<int, long>.Write
 	|-ClassPropertyWriter<int, object>.Write
 	|-ClassPropertyWriter<uint, long>.Write
 	|-ClassPropertyWriter<uint, object>.Write
 	|
-	|-RVA: 0x1B10020 Offset: 0x1B0E620 VA: 0x181B10020
+	|-RVA: 0x1B10060 Offset: 0x1B0E660 VA: 0x181B10060
 	|-ClassPropertyWriter<long, int>.Write
 	|-ClassPropertyWriter<IntPtr, int>.Write
 	|-ClassPropertyWriter<ulong, int>.Write
 	|-ClassPropertyWriter<UIntPtr, int>.Write
 	|
-	|-RVA: 0x1B0FED0 Offset: 0x1B0E4D0 VA: 0x181B0FED0
+	|-RVA: 0x1B0FF10 Offset: 0x1B0E510 VA: 0x181B0FF10
 	|-ClassPropertyWriter<long, long>.Write
 	|-ClassPropertyWriter<long, object>.Write
 	|-ClassPropertyWriter<IntPtr, long>.Write
@@ -5328,17 +5328,17 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<UIntPtr, long>.Write
 	|-ClassPropertyWriter<UIntPtr, object>.Write
 	|
-	|-RVA: 0x20C1530 Offset: 0x20BFB30 VA: 0x1820C1530
+	|-RVA: 0x20C1570 Offset: 0x20BFB70 VA: 0x1820C1570
 	|-ClassPropertyWriter<object, int>.Write
 	|
-	|-RVA: 0x20C1450 Offset: 0x20BFA50 VA: 0x1820C1450
+	|-RVA: 0x20C1490 Offset: 0x20BFA90 VA: 0x1820C1490
 	|-ClassPropertyWriter<object, long>.Write
 	|-ClassPropertyWriter<object, object>.Write
 	|
-	|-RVA: 0x1B0FFB0 Offset: 0x1B0E5B0 VA: 0x181B0FFB0
+	|-RVA: 0x1B0FFF0 Offset: 0x1B0E5F0 VA: 0x181B0FFF0
 	|-ClassPropertyWriter<float, int>.Write
 	|
-	|-RVA: 0x1B0FE60 Offset: 0x1B0E460 VA: 0x181B0FE60
+	|-RVA: 0x1B0FEA0 Offset: 0x1B0E4A0 VA: 0x181B0FEA0
 	|-ClassPropertyWriter<float, long>.Write
 	|-ClassPropertyWriter<float, object>.Write
 	*/
@@ -5346,7 +5346,7 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	public override object GetData(ContainerType container) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B0FB90 Offset: 0x1B0E190 VA: 0x181B0FB90
+	|-RVA: 0x1B0FBD0 Offset: 0x1B0E1D0 VA: 0x181B0FBD0
 	|-ClassPropertyWriter<bool, int>.GetData
 	|-ClassPropertyWriter<byte, int>.GetData
 	|-ClassPropertyWriter<char, int>.GetData
@@ -5357,7 +5357,7 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<ushort, int>.GetData
 	|-ClassPropertyWriter<uint, int>.GetData
 	|
-	|-RVA: 0x1B0FAF0 Offset: 0x1B0E0F0 VA: 0x181B0FAF0
+	|-RVA: 0x1B0FB30 Offset: 0x1B0E130 VA: 0x181B0FB30
 	|-ClassPropertyWriter<bool, long>.GetData
 	|-ClassPropertyWriter<byte, long>.GetData
 	|-ClassPropertyWriter<char, long>.GetData
@@ -5374,7 +5374,7 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<ulong, long>.GetData
 	|-ClassPropertyWriter<UIntPtr, long>.GetData
 	|
-	|-RVA: 0x1B0FB60 Offset: 0x1B0E160 VA: 0x181B0FB60
+	|-RVA: 0x1B0FBA0 Offset: 0x1B0E1A0 VA: 0x181B0FBA0
 	|-ClassPropertyWriter<bool, object>.GetData
 	|-ClassPropertyWriter<byte, object>.GetData
 	|-ClassPropertyWriter<char, object>.GetData
@@ -5391,25 +5391,25 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<ulong, object>.GetData
 	|-ClassPropertyWriter<UIntPtr, object>.GetData
 	|
-	|-RVA: 0x20C0F90 Offset: 0x20BF590 VA: 0x1820C0F90
+	|-RVA: 0x20C0FD0 Offset: 0x20BF5D0 VA: 0x1820C0FD0
 	|-ClassPropertyWriter<KeyValuePair<object, object>, int>.GetData
 	|-ClassPropertyWriter<DateTimeOffset, int>.GetData
 	|-ClassPropertyWriter<Decimal, int>.GetData
 	|-ClassPropertyWriter<Guid, int>.GetData
 	|
-	|-RVA: 0x20C1040 Offset: 0x20BF640 VA: 0x1820C1040
+	|-RVA: 0x20C1080 Offset: 0x20BF680 VA: 0x1820C1080
 	|-ClassPropertyWriter<KeyValuePair<object, object>, long>.GetData
 	|-ClassPropertyWriter<DateTimeOffset, long>.GetData
 	|-ClassPropertyWriter<Decimal, long>.GetData
 	|-ClassPropertyWriter<Guid, long>.GetData
 	|
-	|-RVA: 0x20C1000 Offset: 0x20BF600 VA: 0x1820C1000
+	|-RVA: 0x20C1040 Offset: 0x20BF640 VA: 0x1820C1040
 	|-ClassPropertyWriter<KeyValuePair<object, object>, object>.GetData
 	|-ClassPropertyWriter<DateTimeOffset, object>.GetData
 	|-ClassPropertyWriter<Decimal, object>.GetData
 	|-ClassPropertyWriter<Guid, object>.GetData
 	|
-	|-RVA: 0x1B0FC00 Offset: 0x1B0E200 VA: 0x181B0FC00
+	|-RVA: 0x1B0FC40 Offset: 0x1B0E240 VA: 0x181B0FC40
 	|-ClassPropertyWriter<DateTime, int>.GetData
 	|-ClassPropertyWriter<long, int>.GetData
 	|-ClassPropertyWriter<IntPtr, int>.GetData
@@ -5417,27 +5417,27 @@ internal class ClassPropertyWriter<ContainerType, ValueType> : PropertyAccessor<
 	|-ClassPropertyWriter<ulong, int>.GetData
 	|-ClassPropertyWriter<UIntPtr, int>.GetData
 	|
-	|-RVA: 0x20C1180 Offset: 0x20BF780 VA: 0x1820C1180
+	|-RVA: 0x20C11C0 Offset: 0x20BF7C0 VA: 0x1820C11C0
 	|-ClassPropertyWriter<double, int>.GetData
 	|
-	|-RVA: 0x1B0FCE0 Offset: 0x1B0E2E0 VA: 0x181B0FCE0
+	|-RVA: 0x1B0FD20 Offset: 0x1B0E320 VA: 0x181B0FD20
 	|-ClassPropertyWriter<double, long>.GetData
 	|-ClassPropertyWriter<float, long>.GetData
 	|
-	|-RVA: 0x1B0FD50 Offset: 0x1B0E350 VA: 0x181B0FD50
+	|-RVA: 0x1B0FD90 Offset: 0x1B0E390 VA: 0x181B0FD90
 	|-ClassPropertyWriter<double, object>.GetData
 	|-ClassPropertyWriter<float, object>.GetData
 	|
-	|-RVA: 0x20C11F0 Offset: 0x20BF7F0 VA: 0x1820C11F0
+	|-RVA: 0x20C1230 Offset: 0x20BF830 VA: 0x1820C1230
 	|-ClassPropertyWriter<object, int>.GetData
 	|
-	|-RVA: 0x20C1100 Offset: 0x20BF700 VA: 0x1820C1100
+	|-RVA: 0x20C1140 Offset: 0x20BF740 VA: 0x1820C1140
 	|-ClassPropertyWriter<object, long>.GetData
 	|
-	|-RVA: 0x20C10C0 Offset: 0x20BF6C0 VA: 0x1820C10C0
+	|-RVA: 0x20C1100 Offset: 0x20BF700 VA: 0x1820C1100
 	|-ClassPropertyWriter<object, object>.GetData
 	|
-	|-RVA: 0x1B0FC70 Offset: 0x1B0E270 VA: 0x181B0FC70
+	|-RVA: 0x1B0FCB0 Offset: 0x1B0E2B0 VA: 0x181B0FCB0
 	|-ClassPropertyWriter<float, int>.GetData
 	*/
 
@@ -5448,7 +5448,7 @@ internal sealed class NullTypeInfo<DataType> : TraceLoggingTypeInfo<DataType> //
 	public override void WriteMetadata(TraceLoggingMetadataCollector collector, string name, EventFieldFormat format) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B534B0 Offset: 0x1B51AB0 VA: 0x181B534B0
+	|-RVA: 0x1B534F0 Offset: 0x1B51AF0 VA: 0x181B534F0
 	|-NullTypeInfo<EmptyStruct>.WriteMetadata
 	|-NullTypeInfo<object>.WriteMetadata
 	*/
@@ -5472,7 +5472,7 @@ internal sealed class NullTypeInfo<DataType> : TraceLoggingTypeInfo<DataType> //
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x117B000 Offset: 0x1179600 VA: 0x18117B000
+	|-RVA: 0x117B040 Offset: 0x1179640 VA: 0x18117B040
 	|-NullTypeInfo<EmptyStruct>..ctor
 	|-NullTypeInfo<object>..ctor
 	*/
@@ -5488,10 +5488,10 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B58F70 Offset: 0x1B57570 VA: 0x181B58F70
+	|-RVA: 0x1B58FB0 Offset: 0x1B575B0 VA: 0x181B58FB0
 	|-TraceLoggingTypeInfo<bool>..ctor
 	|
-	|-RVA: 0x1B9D240 Offset: 0x1B9B840 VA: 0x181B9D240
+	|-RVA: 0x1B9D280 Offset: 0x1B9B880 VA: 0x181B9D280
 	|-TraceLoggingTypeInfo<bool[]>..ctor
 	|-TraceLoggingTypeInfo<byte[]>..ctor
 	|-TraceLoggingTypeInfo<char[]>..ctor
@@ -5510,141 +5510,141 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	|-TraceLoggingTypeInfo<ulong[]>..ctor
 	|-TraceLoggingTypeInfo<UIntPtr[]>..ctor
 	|
-	|-RVA: 0x1B9C190 Offset: 0x1B9A790 VA: 0x181B9C190
+	|-RVA: 0x1B9C1D0 Offset: 0x1B9A7D0 VA: 0x181B9C1D0
 	|-TraceLoggingTypeInfo<byte>..ctor
 	|
-	|-RVA: 0x1B9C020 Offset: 0x1B9A620 VA: 0x181B9C020
+	|-RVA: 0x1B9C060 Offset: 0x1B9A660 VA: 0x181B9C060
 	|-TraceLoggingTypeInfo<char>..ctor
 	|
-	|-RVA: 0x1B9D040 Offset: 0x1B9B640 VA: 0x181B9D040
+	|-RVA: 0x1B9D080 Offset: 0x1B9B680 VA: 0x181B9D080
 	|-TraceLoggingTypeInfo<KeyValuePair<object, object>>..ctor
 	|
-	|-RVA: 0x1B9CFB0 Offset: 0x1B9B5B0 VA: 0x181B9CFB0
+	|-RVA: 0x1B9CFF0 Offset: 0x1B9B5F0 VA: 0x181B9CFF0
 	|-TraceLoggingTypeInfo<DateTime>..ctor
 	|
-	|-RVA: 0x1B9CB60 Offset: 0x1B9B160 VA: 0x181B9CB60
+	|-RVA: 0x1B9CBA0 Offset: 0x1B9B1A0 VA: 0x181B9CBA0
 	|-TraceLoggingTypeInfo<DateTimeOffset>..ctor
 	|
-	|-RVA: 0x1B9CBF0 Offset: 0x1B9B1F0 VA: 0x181B9CBF0
+	|-RVA: 0x1B9CC30 Offset: 0x1B9B230 VA: 0x181B9CC30
 	|-TraceLoggingTypeInfo<Decimal>..ctor
 	|
-	|-RVA: 0x1B9BEB0 Offset: 0x1B9A4B0 VA: 0x181B9BEB0
+	|-RVA: 0x1B9BEF0 Offset: 0x1B9A4F0 VA: 0x181B9BEF0
 	|-TraceLoggingTypeInfo<EmptyStruct>..ctor
 	|
-	|-RVA: 0x1B9C3E0 Offset: 0x1B9A9E0 VA: 0x181B9C3E0
+	|-RVA: 0x1B9C420 Offset: 0x1B9AA20 VA: 0x181B9C420
 	|-TraceLoggingTypeInfo<double>..ctor
 	|
-	|-RVA: 0x1B9D690 Offset: 0x1B9BC90 VA: 0x181B9D690
+	|-RVA: 0x1B9D6D0 Offset: 0x1B9BCD0 VA: 0x181B9D6D0
 	|-TraceLoggingTypeInfo<Guid>..ctor
 	|
-	|-RVA: 0x1B9D520 Offset: 0x1B9BB20 VA: 0x181B9D520
+	|-RVA: 0x1B9D560 Offset: 0x1B9BB60 VA: 0x181B9D560
 	|-TraceLoggingTypeInfo<short>..ctor
 	|
-	|-RVA: 0x1B9C630 Offset: 0x1B9AC30 VA: 0x181B9C630
+	|-RVA: 0x1B9C670 Offset: 0x1B9AC70 VA: 0x181B9C670
 	|-TraceLoggingTypeInfo<int>..ctor
 	|
-	|-RVA: 0x1B9C960 Offset: 0x1B9AF60 VA: 0x181B9C960
+	|-RVA: 0x1B9C9A0 Offset: 0x1B9AFA0 VA: 0x181B9C9A0
 	|-TraceLoggingTypeInfo<long>..ctor
 	|
-	|-RVA: 0x1B9D0D0 Offset: 0x1B9B6D0 VA: 0x181B9D0D0
+	|-RVA: 0x1B9D110 Offset: 0x1B9B710 VA: 0x181B9D110
 	|-TraceLoggingTypeInfo<IntPtr>..ctor
 	|
-	|-RVA: 0x1B9CC80 Offset: 0x1B9B280 VA: 0x181B9CC80
+	|-RVA: 0x1B9CCC0 Offset: 0x1B9B2C0 VA: 0x181B9CCC0
 	|-TraceLoggingTypeInfo<sbyte>..ctor
 	|
-	|-RVA: 0x1B9D3B0 Offset: 0x1B9B9B0 VA: 0x181B9D3B0
+	|-RVA: 0x1B9D3F0 Offset: 0x1B9B9F0 VA: 0x181B9D3F0
 	|-TraceLoggingTypeInfo<float>..ctor
 	|
-	|-RVA: 0x1B9BA60 Offset: 0x1B9A060 VA: 0x181B9BA60
+	|-RVA: 0x1B9BAA0 Offset: 0x1B9A0A0 VA: 0x181B9BAA0
 	|-TraceLoggingTypeInfo<TimeSpan>..ctor
 	|
-	|-RVA: 0x1B9D800 Offset: 0x1B9BE00 VA: 0x181B9D800
+	|-RVA: 0x1B9D840 Offset: 0x1B9BE40 VA: 0x181B9D840
 	|-TraceLoggingTypeInfo<ushort>..ctor
 	|
-	|-RVA: 0x1B9C9F0 Offset: 0x1B9AFF0 VA: 0x181B9C9F0
+	|-RVA: 0x1B9CA30 Offset: 0x1B9B030 VA: 0x181B9CA30
 	|-TraceLoggingTypeInfo<uint>..ctor
 	|
-	|-RVA: 0x1B9BC60 Offset: 0x1B9A260 VA: 0x181B9BC60
+	|-RVA: 0x1B9BCA0 Offset: 0x1B9A2A0 VA: 0x181B9BCA0
 	|-TraceLoggingTypeInfo<ulong>..ctor
 	|
-	|-RVA: 0x1B9BAF0 Offset: 0x1B9A0F0 VA: 0x181B9BAF0
+	|-RVA: 0x1B9BB30 Offset: 0x1B9A130 VA: 0x181B9BB30
 	|-TraceLoggingTypeInfo<UIntPtr>..ctor
 	*/
 
 	protected void .ctor(string name, EventLevel level, EventOpcode opcode, EventKeywords keywords, EventTags tags) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B58E90 Offset: 0x1B57490 VA: 0x181B58E90
+	|-RVA: 0x1B58ED0 Offset: 0x1B574D0 VA: 0x181B58ED0
 	|-TraceLoggingTypeInfo<bool>..ctor
 	|
-	|-RVA: 0x1B9D5B0 Offset: 0x1B9BBB0 VA: 0x181B9D5B0
+	|-RVA: 0x1B9D5F0 Offset: 0x1B9BBF0 VA: 0x181B9D5F0
 	|-TraceLoggingTypeInfo<byte>..ctor
 	|
-	|-RVA: 0x1B9C6C0 Offset: 0x1B9ACC0 VA: 0x181B9C6C0
+	|-RVA: 0x1B9C700 Offset: 0x1B9AD00 VA: 0x181B9C700
 	|-TraceLoggingTypeInfo<char>..ctor
 	|
-	|-RVA: 0x1B9C470 Offset: 0x1B9AA70 VA: 0x181B9C470
+	|-RVA: 0x1B9C4B0 Offset: 0x1B9AAB0 VA: 0x181B9C4B0
 	|-TraceLoggingTypeInfo<KeyValuePair<object, object>>..ctor
 	|
-	|-RVA: 0x1B9C880 Offset: 0x1B9AE80 VA: 0x181B9C880
+	|-RVA: 0x1B9C8C0 Offset: 0x1B9AEC0 VA: 0x181B9C8C0
 	|-TraceLoggingTypeInfo<DateTime>..ctor
 	|
-	|-RVA: 0x1B9D160 Offset: 0x1B9B760 VA: 0x181B9D160
+	|-RVA: 0x1B9D1A0 Offset: 0x1B9B7A0 VA: 0x181B9D1A0
 	|-TraceLoggingTypeInfo<DateTimeOffset>..ctor
 	|
-	|-RVA: 0x1B9C300 Offset: 0x1B9A900 VA: 0x181B9C300
+	|-RVA: 0x1B9C340 Offset: 0x1B9A940 VA: 0x181B9C340
 	|-TraceLoggingTypeInfo<Decimal>..ctor
 	|
-	|-RVA: 0x1B9C550 Offset: 0x1B9AB50 VA: 0x181B9C550
+	|-RVA: 0x1B9C590 Offset: 0x1B9AB90 VA: 0x181B9C590
 	|-TraceLoggingTypeInfo<EmptyStruct>..ctor
 	|
-	|-RVA: 0x1B9C7A0 Offset: 0x1B9ADA0 VA: 0x181B9C7A0
+	|-RVA: 0x1B9C7E0 Offset: 0x1B9ADE0 VA: 0x181B9C7E0
 	|-TraceLoggingTypeInfo<double>..ctor
 	|
-	|-RVA: 0x1B9BDD0 Offset: 0x1B9A3D0 VA: 0x181B9BDD0
+	|-RVA: 0x1B9BE10 Offset: 0x1B9A410 VA: 0x181B9BE10
 	|-TraceLoggingTypeInfo<Guid>..ctor
 	|
-	|-RVA: 0x1B9D720 Offset: 0x1B9BD20 VA: 0x181B9D720
+	|-RVA: 0x1B9D760 Offset: 0x1B9BD60 VA: 0x181B9D760
 	|-TraceLoggingTypeInfo<short>..ctor
 	|
-	|-RVA: 0x1B9C0B0 Offset: 0x1B9A6B0 VA: 0x181B9C0B0
+	|-RVA: 0x1B9C0F0 Offset: 0x1B9A6F0 VA: 0x181B9C0F0
 	|-TraceLoggingTypeInfo<int>..ctor
 	|
-	|-RVA: 0x1B9BCF0 Offset: 0x1B9A2F0 VA: 0x181B9BCF0
+	|-RVA: 0x1B9BD30 Offset: 0x1B9A330 VA: 0x181B9BD30
 	|-TraceLoggingTypeInfo<long>..ctor
 	|
-	|-RVA: 0x1B9CD10 Offset: 0x1B9B310 VA: 0x181B9CD10
+	|-RVA: 0x1B9CD50 Offset: 0x1B9B350 VA: 0x181B9CD50
 	|-TraceLoggingTypeInfo<IntPtr>..ctor
 	|
-	|-RVA: 0x1B9BF40 Offset: 0x1B9A540 VA: 0x181B9BF40
+	|-RVA: 0x1B9BF80 Offset: 0x1B9A580 VA: 0x181B9BF80
 	|-TraceLoggingTypeInfo<object>..ctor
 	|
-	|-RVA: 0x1B9CDF0 Offset: 0x1B9B3F0 VA: 0x181B9CDF0
+	|-RVA: 0x1B9CE30 Offset: 0x1B9B430 VA: 0x181B9CE30
 	|-TraceLoggingTypeInfo<sbyte>..ctor
 	|
-	|-RVA: 0x1B9CA80 Offset: 0x1B9B080 VA: 0x181B9CA80
+	|-RVA: 0x1B9CAC0 Offset: 0x1B9B0C0 VA: 0x181B9CAC0
 	|-TraceLoggingTypeInfo<float>..ctor
 	|
-	|-RVA: 0x1B9CED0 Offset: 0x1B9B4D0 VA: 0x181B9CED0
+	|-RVA: 0x1B9CF10 Offset: 0x1B9B510 VA: 0x181B9CF10
 	|-TraceLoggingTypeInfo<TimeSpan>..ctor
 	|
-	|-RVA: 0x1B9BB80 Offset: 0x1B9A180 VA: 0x181B9BB80
+	|-RVA: 0x1B9BBC0 Offset: 0x1B9A1C0 VA: 0x181B9BBC0
 	|-TraceLoggingTypeInfo<ushort>..ctor
 	|
-	|-RVA: 0x1B9D440 Offset: 0x1B9BA40 VA: 0x181B9D440
+	|-RVA: 0x1B9D480 Offset: 0x1B9BA80 VA: 0x181B9D480
 	|-TraceLoggingTypeInfo<uint>..ctor
 	|
-	|-RVA: 0x1B9C220 Offset: 0x1B9A820 VA: 0x181B9C220
+	|-RVA: 0x1B9C260 Offset: 0x1B9A860 VA: 0x181B9C260
 	|-TraceLoggingTypeInfo<ulong>..ctor
 	|
-	|-RVA: 0x1B9D2D0 Offset: 0x1B9B8D0 VA: 0x181B9D2D0
+	|-RVA: 0x1B9D310 Offset: 0x1B9B910 VA: 0x181B9D310
 	|-TraceLoggingTypeInfo<UIntPtr>..ctor
 	*/
 
 	public static TraceLoggingTypeInfo<DataType> get_Instance() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B59000 Offset: 0x1B57600 VA: 0x181B59000
+	|-RVA: 0x1B59040 Offset: 0x1B57640 VA: 0x181B59040
 	|-TraceLoggingTypeInfo<bool>.get_Instance
 	|-TraceLoggingTypeInfo<byte>.get_Instance
 	|-TraceLoggingTypeInfo<char>.get_Instance
@@ -5680,13 +5680,13 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	public override void WriteObjectData(TraceLoggingDataCollector collector, object value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B58DE0 Offset: 0x1B573E0 VA: 0x181B58DE0
+	|-RVA: 0x1B58E20 Offset: 0x1B57420 VA: 0x181B58E20
 	|-TraceLoggingTypeInfo<bool>.WriteObjectData
 	|-TraceLoggingTypeInfo<byte>.WriteObjectData
 	|-TraceLoggingTypeInfo<EmptyStruct>.WriteObjectData
 	|-TraceLoggingTypeInfo<sbyte>.WriteObjectData
 	|
-	|-RVA: 0x1B9B850 Offset: 0x1B99E50 VA: 0x181B9B850
+	|-RVA: 0x1B9B890 Offset: 0x1B99E90 VA: 0x181B9B890
 	|-TraceLoggingTypeInfo<bool[]>.WriteObjectData
 	|-TraceLoggingTypeInfo<byte[]>.WriteObjectData
 	|-TraceLoggingTypeInfo<char[]>.WriteObjectData
@@ -5705,18 +5705,18 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	|-TraceLoggingTypeInfo<ulong[]>.WriteObjectData
 	|-TraceLoggingTypeInfo<UIntPtr[]>.WriteObjectData
 	|
-	|-RVA: 0x1B9B6F0 Offset: 0x1B99CF0 VA: 0x181B9B6F0
+	|-RVA: 0x1B9B730 Offset: 0x1B99D30 VA: 0x181B9B730
 	|-TraceLoggingTypeInfo<char>.WriteObjectData
 	|-TraceLoggingTypeInfo<short>.WriteObjectData
 	|-TraceLoggingTypeInfo<ushort>.WriteObjectData
 	|
-	|-RVA: 0x1B9B640 Offset: 0x1B99C40 VA: 0x181B9B640
+	|-RVA: 0x1B9B680 Offset: 0x1B99C80 VA: 0x181B9B680
 	|-TraceLoggingTypeInfo<KeyValuePair<object, object>>.WriteObjectData
 	|-TraceLoggingTypeInfo<DateTimeOffset>.WriteObjectData
 	|-TraceLoggingTypeInfo<Decimal>.WriteObjectData
 	|-TraceLoggingTypeInfo<Guid>.WriteObjectData
 	|
-	|-RVA: 0x1B9B590 Offset: 0x1B99B90 VA: 0x181B9B590
+	|-RVA: 0x1B9B5D0 Offset: 0x1B99BD0 VA: 0x181B9B5D0
 	|-TraceLoggingTypeInfo<DateTime>.WriteObjectData
 	|-TraceLoggingTypeInfo<long>.WriteObjectData
 	|-TraceLoggingTypeInfo<IntPtr>.WriteObjectData
@@ -5724,154 +5724,154 @@ internal abstract class TraceLoggingTypeInfo<DataType> : TraceLoggingTypeInfo //
 	|-TraceLoggingTypeInfo<ulong>.WriteObjectData
 	|-TraceLoggingTypeInfo<UIntPtr>.WriteObjectData
 	|
-	|-RVA: 0x1B9B9B0 Offset: 0x1B99FB0 VA: 0x181B9B9B0
+	|-RVA: 0x1B9B9F0 Offset: 0x1B99FF0 VA: 0x181B9B9F0
 	|-TraceLoggingTypeInfo<double>.WriteObjectData
 	|
-	|-RVA: 0x1B9B900 Offset: 0x1B99F00 VA: 0x181B9B900
+	|-RVA: 0x1B9B940 Offset: 0x1B99F40 VA: 0x181B9B940
 	|-TraceLoggingTypeInfo<int>.WriteObjectData
 	|-TraceLoggingTypeInfo<uint>.WriteObjectData
 	|
-	|-RVA: 0x1B9B7A0 Offset: 0x1B99DA0 VA: 0x181B9B7A0
+	|-RVA: 0x1B9B7E0 Offset: 0x1B99DE0 VA: 0x181B9B7E0
 	|-TraceLoggingTypeInfo<float>.WriteObjectData
 	*/
 
 	internal static TraceLoggingTypeInfo<DataType> GetInstance(List<Type> recursionCheck) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B58B80 Offset: 0x1B57180 VA: 0x181B58B80
+	|-RVA: 0x1B58BC0 Offset: 0x1B571C0 VA: 0x181B58BC0
 	|-TraceLoggingTypeInfo<bool>.GetInstance
 	|
-	|-RVA: 0x1B98A70 Offset: 0x1B97070 VA: 0x181B98A70
+	|-RVA: 0x1B98AB0 Offset: 0x1B970B0 VA: 0x181B98AB0
 	|-TraceLoggingTypeInfo<byte>.GetInstance
 	|
-	|-RVA: 0x1B9A210 Offset: 0x1B98810 VA: 0x181B9A210
+	|-RVA: 0x1B9A250 Offset: 0x1B98850 VA: 0x181B9A250
 	|-TraceLoggingTypeInfo<char>.GetInstance
 	|
-	|-RVA: 0x1B99D00 Offset: 0x1B98300 VA: 0x181B99D00
+	|-RVA: 0x1B99D40 Offset: 0x1B98340 VA: 0x181B99D40
 	|-TraceLoggingTypeInfo<KeyValuePair<object, object>>.GetInstance
 	|
-	|-RVA: 0x1B9A570 Offset: 0x1B98B70 VA: 0x181B9A570
+	|-RVA: 0x1B9A5B0 Offset: 0x1B98BB0 VA: 0x181B9A5B0
 	|-TraceLoggingTypeInfo<DateTime>.GetInstance
 	|
-	|-RVA: 0x1B992E0 Offset: 0x1B978E0 VA: 0x181B992E0
+	|-RVA: 0x1B99320 Offset: 0x1B97920 VA: 0x181B99320
 	|-TraceLoggingTypeInfo<DateTimeOffset>.GetInstance
 	|
-	|-RVA: 0x1B999A0 Offset: 0x1B97FA0 VA: 0x181B999A0
+	|-RVA: 0x1B999E0 Offset: 0x1B97FE0 VA: 0x181B999E0
 	|-TraceLoggingTypeInfo<Decimal>.GetInstance
 	|
-	|-RVA: 0x1B9A3C0 Offset: 0x1B989C0 VA: 0x181B9A3C0
+	|-RVA: 0x1B9A400 Offset: 0x1B98A00 VA: 0x181B9A400
 	|-TraceLoggingTypeInfo<EmptyStruct>.GetInstance
 	|
-	|-RVA: 0x1B99130 Offset: 0x1B97730 VA: 0x181B99130
+	|-RVA: 0x1B99170 Offset: 0x1B97770 VA: 0x181B99170
 	|-TraceLoggingTypeInfo<double>.GetInstance
 	|
-	|-RVA: 0x1B9A060 Offset: 0x1B98660 VA: 0x181B9A060
+	|-RVA: 0x1B9A0A0 Offset: 0x1B986A0 VA: 0x181B9A0A0
 	|-TraceLoggingTypeInfo<Guid>.GetInstance
 	|
-	|-RVA: 0x1B99490 Offset: 0x1B97A90 VA: 0x181B99490
+	|-RVA: 0x1B994D0 Offset: 0x1B97AD0 VA: 0x181B994D0
 	|-TraceLoggingTypeInfo<short>.GetInstance
 	|
-	|-RVA: 0x1B98C20 Offset: 0x1B97220 VA: 0x181B98C20
+	|-RVA: 0x1B98C60 Offset: 0x1B97260 VA: 0x181B98C60
 	|-TraceLoggingTypeInfo<int>.GetInstance
 	|
-	|-RVA: 0x1B99EB0 Offset: 0x1B984B0 VA: 0x181B99EB0
+	|-RVA: 0x1B99EF0 Offset: 0x1B984F0 VA: 0x181B99EF0
 	|-TraceLoggingTypeInfo<long>.GetInstance
 	|
-	|-RVA: 0x1B99B50 Offset: 0x1B98150 VA: 0x181B99B50
+	|-RVA: 0x1B99B90 Offset: 0x1B98190 VA: 0x181B99B90
 	|-TraceLoggingTypeInfo<IntPtr>.GetInstance
 	|
-	|-RVA: 0x1B98DD0 Offset: 0x1B973D0 VA: 0x181B98DD0
+	|-RVA: 0x1B98E10 Offset: 0x1B97410 VA: 0x181B98E10
 	|-TraceLoggingTypeInfo<object>.GetInstance
 	|
-	|-RVA: 0x1B983B0 Offset: 0x1B969B0 VA: 0x181B983B0
+	|-RVA: 0x1B983F0 Offset: 0x1B969F0 VA: 0x181B983F0
 	|-TraceLoggingTypeInfo<sbyte>.GetInstance
 	|
-	|-RVA: 0x1B997F0 Offset: 0x1B97DF0 VA: 0x181B997F0
+	|-RVA: 0x1B99830 Offset: 0x1B97E30 VA: 0x181B99830
 	|-TraceLoggingTypeInfo<float>.GetInstance
 	|
-	|-RVA: 0x1B988C0 Offset: 0x1B96EC0 VA: 0x181B988C0
+	|-RVA: 0x1B98900 Offset: 0x1B96F00 VA: 0x181B98900
 	|-TraceLoggingTypeInfo<TimeSpan>.GetInstance
 	|
-	|-RVA: 0x1B98710 Offset: 0x1B96D10 VA: 0x181B98710
+	|-RVA: 0x1B98750 Offset: 0x1B96D50 VA: 0x181B98750
 	|-TraceLoggingTypeInfo<ushort>.GetInstance
 	|
-	|-RVA: 0x1B98560 Offset: 0x1B96B60 VA: 0x181B98560
+	|-RVA: 0x1B985A0 Offset: 0x1B96BA0 VA: 0x181B985A0
 	|-TraceLoggingTypeInfo<uint>.GetInstance
 	|
-	|-RVA: 0x1B98F80 Offset: 0x1B97580 VA: 0x181B98F80
+	|-RVA: 0x1B98FC0 Offset: 0x1B975C0 VA: 0x181B98FC0
 	|-TraceLoggingTypeInfo<ulong>.GetInstance
 	|
-	|-RVA: 0x1B99640 Offset: 0x1B97C40 VA: 0x181B99640
+	|-RVA: 0x1B99680 Offset: 0x1B97C80 VA: 0x181B99680
 	|-TraceLoggingTypeInfo<UIntPtr>.GetInstance
 	*/
 
 	private static TraceLoggingTypeInfo<DataType> InitInstance() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B58D30 Offset: 0x1B57330 VA: 0x181B58D30
+	|-RVA: 0x1B58D70 Offset: 0x1B57370 VA: 0x181B58D70
 	|-TraceLoggingTypeInfo<bool>.InitInstance
 	|
-	|-RVA: 0x1B9ABF0 Offset: 0x1B991F0 VA: 0x181B9ABF0
+	|-RVA: 0x1B9AC30 Offset: 0x1B99230 VA: 0x181B9AC30
 	|-TraceLoggingTypeInfo<byte>.InitInstance
 	|
-	|-RVA: 0x1B9B380 Offset: 0x1B99980 VA: 0x181B9B380
+	|-RVA: 0x1B9B3C0 Offset: 0x1B999C0 VA: 0x181B9B3C0
 	|-TraceLoggingTypeInfo<char>.InitInstance
 	|
-	|-RVA: 0x1B9A9E0 Offset: 0x1B98FE0 VA: 0x181B9A9E0
+	|-RVA: 0x1B9AA20 Offset: 0x1B99020 VA: 0x181B9AA20
 	|-TraceLoggingTypeInfo<KeyValuePair<object, object>>.InitInstance
 	|
-	|-RVA: 0x1B9B0C0 Offset: 0x1B996C0 VA: 0x181B9B0C0
+	|-RVA: 0x1B9B100 Offset: 0x1B99700 VA: 0x181B9B100
 	|-TraceLoggingTypeInfo<DateTime>.InitInstance
 	|
-	|-RVA: 0x1B9A7D0 Offset: 0x1B98DD0 VA: 0x181B9A7D0
+	|-RVA: 0x1B9A810 Offset: 0x1B98E10 VA: 0x181B9A810
 	|-TraceLoggingTypeInfo<DateTimeOffset>.InitInstance
 	|
-	|-RVA: 0x1B9AE00 Offset: 0x1B99400 VA: 0x181B9AE00
+	|-RVA: 0x1B9AE40 Offset: 0x1B99440 VA: 0x181B9AE40
 	|-TraceLoggingTypeInfo<Decimal>.InitInstance
 	|
-	|-RVA: 0x1B9A880 Offset: 0x1B98E80 VA: 0x181B9A880
+	|-RVA: 0x1B9A8C0 Offset: 0x1B98EC0 VA: 0x181B9A8C0
 	|-TraceLoggingTypeInfo<EmptyStruct>.InitInstance
 	|
-	|-RVA: 0x1B9B010 Offset: 0x1B99610 VA: 0x181B9B010
+	|-RVA: 0x1B9B050 Offset: 0x1B99650 VA: 0x181B9B050
 	|-TraceLoggingTypeInfo<double>.InitInstance
 	|
-	|-RVA: 0x1B9A720 Offset: 0x1B98D20 VA: 0x181B9A720
+	|-RVA: 0x1B9A760 Offset: 0x1B98D60 VA: 0x181B9A760
 	|-TraceLoggingTypeInfo<Guid>.InitInstance
 	|
-	|-RVA: 0x1B9B4E0 Offset: 0x1B99AE0 VA: 0x181B9B4E0
+	|-RVA: 0x1B9B520 Offset: 0x1B99B20 VA: 0x181B9B520
 	|-TraceLoggingTypeInfo<short>.InitInstance
 	|
-	|-RVA: 0x1B9AF60 Offset: 0x1B99560 VA: 0x181B9AF60
+	|-RVA: 0x1B9AFA0 Offset: 0x1B995A0 VA: 0x181B9AFA0
 	|-TraceLoggingTypeInfo<int>.InitInstance
 	|
-	|-RVA: 0x1B9A930 Offset: 0x1B98F30 VA: 0x181B9A930
+	|-RVA: 0x1B9A970 Offset: 0x1B98F70 VA: 0x181B9A970
 	|-TraceLoggingTypeInfo<long>.InitInstance
 	|
-	|-RVA: 0x1B9AD50 Offset: 0x1B99350 VA: 0x181B9AD50
+	|-RVA: 0x1B9AD90 Offset: 0x1B99390 VA: 0x181B9AD90
 	|-TraceLoggingTypeInfo<IntPtr>.InitInstance
 	|
-	|-RVA: 0x1B9B220 Offset: 0x1B99820 VA: 0x181B9B220
+	|-RVA: 0x1B9B260 Offset: 0x1B99860 VA: 0x181B9B260
 	|-TraceLoggingTypeInfo<object>.InitInstance
 	|
-	|-RVA: 0x1B9AEB0 Offset: 0x1B994B0 VA: 0x181B9AEB0
+	|-RVA: 0x1B9AEF0 Offset: 0x1B994F0 VA: 0x181B9AEF0
 	|-TraceLoggingTypeInfo<sbyte>.InitInstance
 	|
-	|-RVA: 0x1B9B430 Offset: 0x1B99A30 VA: 0x181B9B430
+	|-RVA: 0x1B9B470 Offset: 0x1B99A70 VA: 0x181B9B470
 	|-TraceLoggingTypeInfo<float>.InitInstance
 	|
-	|-RVA: 0x1B9ACA0 Offset: 0x1B992A0 VA: 0x181B9ACA0
+	|-RVA: 0x1B9ACE0 Offset: 0x1B992E0 VA: 0x181B9ACE0
 	|-TraceLoggingTypeInfo<TimeSpan>.InitInstance
 	|
-	|-RVA: 0x1B9B170 Offset: 0x1B99770 VA: 0x181B9B170
+	|-RVA: 0x1B9B1B0 Offset: 0x1B997B0 VA: 0x181B9B1B0
 	|-TraceLoggingTypeInfo<ushort>.InitInstance
 	|
-	|-RVA: 0x1B9AA90 Offset: 0x1B99090 VA: 0x181B9AA90
+	|-RVA: 0x1B9AAD0 Offset: 0x1B990D0 VA: 0x181B9AAD0
 	|-TraceLoggingTypeInfo<uint>.InitInstance
 	|
-	|-RVA: 0x1B9B2D0 Offset: 0x1B998D0 VA: 0x181B9B2D0
+	|-RVA: 0x1B9B310 Offset: 0x1B99910 VA: 0x181B9B310
 	|-TraceLoggingTypeInfo<ulong>.InitInstance
 	|
-	|-RVA: 0x1B9AB40 Offset: 0x1B99140 VA: 0x181B9AB40
+	|-RVA: 0x1B9AB80 Offset: 0x1B99180 VA: 0x181B9AB80
 	|-TraceLoggingTypeInfo<UIntPtr>.InitInstance
 	*/
 
@@ -6156,7 +6156,7 @@ internal class EmptyEnumerable<TElement> // TypeDefIndex: 3221
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD62F70 Offset: 0xD61570 VA: 0x180D62F70
+	|-RVA: 0xD62FB0 Offset: 0xD615B0 VA: 0x180D62FB0
 	|-EmptyEnumerable<byte>..cctor
 	|-EmptyEnumerable<object>..cctor
 	*/
@@ -6170,7 +6170,7 @@ internal class IdentityFunction<TElement> // TypeDefIndex: 3222
 	public static Func<TElement, TElement> get_Instance() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1762200 Offset: 0x1760800 VA: 0x181762200
+	|-RVA: 0x1762240 Offset: 0x1760840 VA: 0x181762240
 	|-IdentityFunction<InventoryItem>.get_Instance
 	|-IdentityFunction<object>.get_Instance
 	|-IdentityFunction<Resolution>.get_Instance
@@ -6189,93 +6189,93 @@ internal class Set<TElement> // TypeDefIndex: 3230
 	public void .ctor(IEqualityComparer<TElement> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1769250 Offset: 0x1767850 VA: 0x181769250
+	|-RVA: 0x1769290 Offset: 0x1767890 VA: 0x181769290
 	|-Set<ServerInfo>..ctor
 	|
-	|-RVA: 0x1769070 Offset: 0x1767670 VA: 0x181769070
+	|-RVA: 0x17690B0 Offset: 0x17676B0 VA: 0x1817690B0
 	|-Set<char>..ctor
 	|
-	|-RVA: 0x1768F80 Offset: 0x1767580 VA: 0x181768F80
+	|-RVA: 0x1768FC0 Offset: 0x17675C0 VA: 0x181768FC0
 	|-Set<object>..ctor
 	|
-	|-RVA: 0x1768E90 Offset: 0x1767490 VA: 0x181768E90
+	|-RVA: 0x1768ED0 Offset: 0x17674D0 VA: 0x181768ED0
 	|-Set<float>..ctor
 	|
-	|-RVA: 0x1769160 Offset: 0x1767760 VA: 0x181769160
+	|-RVA: 0x17691A0 Offset: 0x17677A0 VA: 0x1817691A0
 	|-Set<Vector2>..ctor
 	*/
 
 	public bool Add(TElement value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1767030 Offset: 0x1765630 VA: 0x181767030
+	|-RVA: 0x1767070 Offset: 0x1765670 VA: 0x181767070
 	|-Set<ServerInfo>.Add
 	|
-	|-RVA: 0x1767000 Offset: 0x1765600 VA: 0x181767000
+	|-RVA: 0x1767040 Offset: 0x1765640 VA: 0x181767040
 	|-Set<char>.Add
 	|-Set<object>.Add
 	|
-	|-RVA: 0x1767100 Offset: 0x1765700 VA: 0x181767100
+	|-RVA: 0x1767140 Offset: 0x1765740 VA: 0x181767140
 	|-Set<float>.Add
 	|
-	|-RVA: 0x17670C0 Offset: 0x17656C0 VA: 0x1817670C0
+	|-RVA: 0x1767100 Offset: 0x1765700 VA: 0x181767100
 	|-Set<Vector2>.Add
 	*/
 
 	private bool Find(TElement value, bool add) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1767130 Offset: 0x1765730 VA: 0x181767130
+	|-RVA: 0x1767170 Offset: 0x1765770 VA: 0x181767170
 	|-Set<ServerInfo>.Find
 	|
-	|-RVA: 0x1767E60 Offset: 0x1766460 VA: 0x181767E60
+	|-RVA: 0x1767EA0 Offset: 0x17664A0 VA: 0x181767EA0
 	|-Set<char>.Find
 	|
-	|-RVA: 0x1767850 Offset: 0x1765E50 VA: 0x181767850
+	|-RVA: 0x1767890 Offset: 0x1765E90 VA: 0x181767890
 	|-Set<object>.Find
 	|
-	|-RVA: 0x1767560 Offset: 0x1765B60 VA: 0x181767560
+	|-RVA: 0x17675A0 Offset: 0x1765BA0 VA: 0x1817675A0
 	|-Set<float>.Find
 	|
-	|-RVA: 0x1767B40 Offset: 0x1766140 VA: 0x181767B40
+	|-RVA: 0x1767B80 Offset: 0x1766180 VA: 0x181767B80
 	|-Set<Vector2>.Find
 	*/
 
 	private void Resize() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1768920 Offset: 0x1766F20 VA: 0x181768920
+	|-RVA: 0x1768960 Offset: 0x1766F60 VA: 0x181768960
 	|-Set<ServerInfo>.Resize
 	|
-	|-RVA: 0x1768AF0 Offset: 0x17670F0 VA: 0x181768AF0
+	|-RVA: 0x1768B30 Offset: 0x1767130 VA: 0x181768B30
 	|-Set<char>.Resize
 	|
-	|-RVA: 0x1768CC0 Offset: 0x17672C0 VA: 0x181768CC0
+	|-RVA: 0x1768D00 Offset: 0x1767300 VA: 0x181768D00
 	|-Set<object>.Resize
 	|
-	|-RVA: 0x1768750 Offset: 0x1766D50 VA: 0x181768750
+	|-RVA: 0x1768790 Offset: 0x1766D90 VA: 0x181768790
 	|-Set<float>.Resize
 	|
-	|-RVA: 0x1768580 Offset: 0x1766B80 VA: 0x181768580
+	|-RVA: 0x17685C0 Offset: 0x1766BC0 VA: 0x1817685C0
 	|-Set<Vector2>.Resize
 	*/
 
 	internal int InternalGetHashCode(TElement value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1768450 Offset: 0x1766A50 VA: 0x181768450
+	|-RVA: 0x1768490 Offset: 0x1766A90 VA: 0x181768490
 	|-Set<ServerInfo>.InternalGetHashCode
 	|
-	|-RVA: 0x1768160 Offset: 0x1766760 VA: 0x181768160
+	|-RVA: 0x17681A0 Offset: 0x17667A0 VA: 0x1817681A0
 	|-Set<char>.InternalGetHashCode
 	|
-	|-RVA: 0x1768230 Offset: 0x1766830 VA: 0x181768230
+	|-RVA: 0x1768270 Offset: 0x1766870 VA: 0x181768270
 	|-Set<object>.InternalGetHashCode
 	|
-	|-RVA: 0x1768380 Offset: 0x1766980 VA: 0x181768380
+	|-RVA: 0x17683C0 Offset: 0x17669C0 VA: 0x1817683C0
 	|-Set<float>.InternalGetHashCode
 	|
-	|-RVA: 0x17682B0 Offset: 0x17668B0 VA: 0x1817682B0
+	|-RVA: 0x17682F0 Offset: 0x17668F0 VA: 0x1817682F0
 	|-Set<Vector2>.InternalGetHashCode
 	*/
 
@@ -6291,29 +6291,29 @@ internal class GroupedEnumerable<TSource, TKey, TElement> : IEnumerable<IGroupin
 	public void .ctor(IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x175EDC0 Offset: 0x175D3C0 VA: 0x18175EDC0
+	|-RVA: 0x175EE00 Offset: 0x175D400 VA: 0x18175EE00
 	|-GroupedEnumerable<InventoryItem, InventoryDefId, InventoryItem>..ctor
 	|
-	|-RVA: 0x175EED0 Offset: 0x175D4D0 VA: 0x18175EED0
+	|-RVA: 0x175EF10 Offset: 0x175D510 VA: 0x18175EF10
 	|-GroupedEnumerable<object, InventoryDefId, object>..ctor
 	|
-	|-RVA: 0x175EFE0 Offset: 0x175D5E0 VA: 0x18175EFE0
+	|-RVA: 0x175F020 Offset: 0x175D620 VA: 0x18175F020
 	|-GroupedEnumerable<object, Int32Enum, object>..ctor
 	|
-	|-RVA: 0x175F200 Offset: 0x175D800 VA: 0x18175F200
+	|-RVA: 0x175F240 Offset: 0x175D840 VA: 0x18175F240
 	|-GroupedEnumerable<object, object, object>..ctor
 	|
-	|-RVA: 0x175F0F0 Offset: 0x175D6F0 VA: 0x18175F0F0
+	|-RVA: 0x175F130 Offset: 0x175D730 VA: 0x18175F130
 	|-GroupedEnumerable<object, uint, object>..ctor
 	|
-	|-RVA: 0x175F310 Offset: 0x175D910 VA: 0x18175F310
+	|-RVA: 0x175F350 Offset: 0x175D950 VA: 0x18175F350
 	|-GroupedEnumerable<Resolution, Vector2Int, Resolution>..ctor
 	*/
 
 	public IEnumerator<IGrouping<TKey, TElement>> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x175ED60 Offset: 0x175D360 VA: 0x18175ED60
+	|-RVA: 0x175EDA0 Offset: 0x175D3A0 VA: 0x18175EDA0
 	|-GroupedEnumerable<InventoryItem, InventoryDefId, InventoryItem>.GetEnumerator
 	|-GroupedEnumerable<object, InventoryDefId, object>.GetEnumerator
 	|-GroupedEnumerable<object, Int32Enum, object>.GetEnumerator
@@ -6325,7 +6325,7 @@ internal class GroupedEnumerable<TSource, TKey, TElement> : IEnumerable<IGroupin
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16509D0 Offset: 0x164EFD0 VA: 0x1816509D0
+	|-RVA: 0x1650A10 Offset: 0x164F010 VA: 0x181650A10
 	|-GroupedEnumerable<InventoryItem, InventoryDefId, InventoryItem>.System.Collections.IEnumerable.GetEnumerator
 	|-GroupedEnumerable<object, InventoryDefId, object>.System.Collections.IEnumerable.GetEnumerator
 	|-GroupedEnumerable<object, Int32Enum, object>.System.Collections.IEnumerable.GetEnumerator
@@ -6344,21 +6344,21 @@ internal abstract class OrderedEnumerable<TElement> : IOrderedEnumerable<TElemen
 	public IEnumerator<TElement> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1765460 Offset: 0x1763A60 VA: 0x181765460
+	|-RVA: 0x17654A0 Offset: 0x1763AA0 VA: 0x1817654A0
 	|-OrderedEnumerable<Demos.DemoInfo>.GetEnumerator
 	|
-	|-RVA: 0x17653D0 Offset: 0x17639D0 VA: 0x1817653D0
+	|-RVA: 0x1765410 Offset: 0x1763A10 VA: 0x181765410
 	|-OrderedEnumerable<ServerInfo>.GetEnumerator
 	|
-	|-RVA: 0x1765220 Offset: 0x1763820 VA: 0x181765220
+	|-RVA: 0x1765260 Offset: 0x1763860 VA: 0x181765260
 	|-OrderedEnumerable<Item>.GetEnumerator
 	|
-	|-RVA: 0x17652B0 Offset: 0x17638B0 VA: 0x1817652B0
+	|-RVA: 0x17652F0 Offset: 0x17638F0 VA: 0x1817652F0
 	|-OrderedEnumerable<KeyValuePair<object, int>>.GetEnumerator
 	|-OrderedEnumerable<KeyValuePair<object, long>>.GetEnumerator
 	|-OrderedEnumerable<KeyValuePair<object, object>>.GetEnumerator
 	|
-	|-RVA: 0x1765340 Offset: 0x1763940 VA: 0x181765340
+	|-RVA: 0x1765380 Offset: 0x1763980 VA: 0x181765380
 	|-OrderedEnumerable<double>.GetEnumerator
 	|-OrderedEnumerable<object>.GetEnumerator
 	|-OrderedEnumerable<Resolution>.GetEnumerator
@@ -6374,7 +6374,7 @@ internal abstract class OrderedEnumerable<TElement> : IOrderedEnumerable<TElemen
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1355360 Offset: 0x1353960 VA: 0x181355360
+	|-RVA: 0x13553A0 Offset: 0x13539A0 VA: 0x1813553A0
 	|-OrderedEnumerable<Demos.DemoInfo>.System.Collections.IEnumerable.GetEnumerator
 	|-OrderedEnumerable<ServerInfo>.System.Collections.IEnumerable.GetEnumerator
 	|-OrderedEnumerable<Item>.System.Collections.IEnumerable.GetEnumerator
@@ -6389,7 +6389,7 @@ internal abstract class OrderedEnumerable<TElement> : IOrderedEnumerable<TElemen
 	private IOrderedEnumerable<TElement> System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable<TKey>(Func<TElement, TKey> keySelector, IComparer<TKey> comparer, bool descending) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED7D70 Offset: 0xED6370 VA: 0x180ED7D70
+	|-RVA: 0xED7DB0 Offset: 0xED63B0 VA: 0x180ED7DB0
 	|-OrderedEnumerable<object>.System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable<DateTime>
 	|-OrderedEnumerable<object>.System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable<int>
 	|-OrderedEnumerable<object>.System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable<Int32Enum>
@@ -6401,7 +6401,7 @@ internal abstract class OrderedEnumerable<TElement> : IOrderedEnumerable<TElemen
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
+	|-RVA: 0xD5BC10 Offset: 0xD5A210 VA: 0x180D5BC10
 	|-OrderedEnumerable<Demos.DemoInfo>..ctor
 	|-OrderedEnumerable<ServerInfo>..ctor
 	|-OrderedEnumerable<Item>..ctor
@@ -6425,74 +6425,74 @@ internal class OrderedEnumerable<TElement, TKey> : OrderedEnumerable<TElement> /
 	internal void .ctor(IEnumerable<TElement> source, Func<TElement, TKey> keySelector, IComparer<TKey> comparer, bool descending) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1765E80 Offset: 0x1764480 VA: 0x181765E80
+	|-RVA: 0x1765EC0 Offset: 0x17644C0 VA: 0x181765EC0
 	|-OrderedEnumerable<Demos.DemoInfo, DateTime>..ctor
 	|
-	|-RVA: 0x1766D80 Offset: 0x1765380 VA: 0x181766D80
+	|-RVA: 0x1766DC0 Offset: 0x17653C0 VA: 0x181766DC0
 	|-OrderedEnumerable<Demos.DemoInfo, object>..ctor
 	|
-	|-RVA: 0x1766600 Offset: 0x1764C00 VA: 0x181766600
+	|-RVA: 0x1766640 Offset: 0x1764C40 VA: 0x181766640
 	|-OrderedEnumerable<Demos.DemoInfo, TimeSpan>..ctor
 	|
-	|-RVA: 0x1766740 Offset: 0x1764D40 VA: 0x181766740
+	|-RVA: 0x1766780 Offset: 0x1764D80 VA: 0x181766780
 	|-OrderedEnumerable<ServerInfo, int>..ctor
 	|
-	|-RVA: 0x1765D40 Offset: 0x1764340 VA: 0x181765D40
+	|-RVA: 0x1765D80 Offset: 0x1764380 VA: 0x181765D80
 	|-OrderedEnumerable<ServerInfo, object>..ctor
 	|
-	|-RVA: 0x1765FC0 Offset: 0x17645C0 VA: 0x181765FC0
+	|-RVA: 0x1766000 Offset: 0x1764600 VA: 0x181766000
 	|-OrderedEnumerable<ServerInfo, uint>..ctor
 	|
-	|-RVA: 0x1765AC0 Offset: 0x17640C0 VA: 0x181765AC0
+	|-RVA: 0x1765B00 Offset: 0x1764100 VA: 0x181765B00
 	|-OrderedEnumerable<Item, DateTime>..ctor
 	|
-	|-RVA: 0x17664C0 Offset: 0x1764AC0 VA: 0x1817664C0
+	|-RVA: 0x1766500 Offset: 0x1764B00 VA: 0x181766500
 	|-OrderedEnumerable<KeyValuePair<object, int>, int>..ctor
 	|
-	|-RVA: 0x17669C0 Offset: 0x1764FC0 VA: 0x1817669C0
+	|-RVA: 0x1766A00 Offset: 0x1765000 VA: 0x181766A00
 	|-OrderedEnumerable<KeyValuePair<object, long>, long>..ctor
 	|
-	|-RVA: 0x1765C00 Offset: 0x1764200 VA: 0x181765C00
+	|-RVA: 0x1765C40 Offset: 0x1764240 VA: 0x181765C40
 	|-OrderedEnumerable<KeyValuePair<object, object>, long>..ctor
 	|
-	|-RVA: 0x1765700 Offset: 0x1763D00 VA: 0x181765700
+	|-RVA: 0x1765740 Offset: 0x1763D40 VA: 0x181765740
 	|-OrderedEnumerable<double, double>..ctor
 	|
-	|-RVA: 0x1766B00 Offset: 0x1765100 VA: 0x181766B00
+	|-RVA: 0x1766B40 Offset: 0x1765140 VA: 0x181766B40
 	|-OrderedEnumerable<object, bool>..ctor
 	|
-	|-RVA: 0x1766380 Offset: 0x1764980 VA: 0x181766380
+	|-RVA: 0x17663C0 Offset: 0x17649C0 VA: 0x1817663C0
 	|-OrderedEnumerable<object, DateTime>..ctor
 	|
-	|-RVA: 0x17655C0 Offset: 0x1763BC0 VA: 0x1817655C0
+	|-RVA: 0x1765600 Offset: 0x1763C00 VA: 0x181765600
 	|-OrderedEnumerable<object, DateTimeOffset>..ctor
 	|
-	|-RVA: 0x1766100 Offset: 0x1764700 VA: 0x181766100
+	|-RVA: 0x1766140 Offset: 0x1764740 VA: 0x181766140
 	|-OrderedEnumerable<object, Guid>..ctor
 	|
-	|-RVA: 0x1765980 Offset: 0x1763F80 VA: 0x181765980
+	|-RVA: 0x17659C0 Offset: 0x1763FC0 VA: 0x1817659C0
 	|-OrderedEnumerable<object, int>..ctor
 	|
-	|-RVA: 0x1766240 Offset: 0x1764840 VA: 0x181766240
+	|-RVA: 0x1766280 Offset: 0x1764880 VA: 0x181766280
 	|-OrderedEnumerable<object, Int32Enum>..ctor
 	|
-	|-RVA: 0x1766880 Offset: 0x1764E80 VA: 0x181766880
+	|-RVA: 0x17668C0 Offset: 0x1764EC0 VA: 0x1817668C0
 	|-OrderedEnumerable<object, object>..ctor
 	|
-	|-RVA: 0x1765840 Offset: 0x1763E40 VA: 0x181765840
+	|-RVA: 0x1765880 Offset: 0x1763E80 VA: 0x181765880
 	|-OrderedEnumerable<object, float>..ctor
 	|
-	|-RVA: 0x1766C40 Offset: 0x1765240 VA: 0x181766C40
+	|-RVA: 0x1766C80 Offset: 0x1765280 VA: 0x181766C80
 	|-OrderedEnumerable<object, uint>..ctor
 	|
-	|-RVA: 0x1766EC0 Offset: 0x17654C0 VA: 0x181766EC0
+	|-RVA: 0x1766F00 Offset: 0x1765500 VA: 0x181766F00
 	|-OrderedEnumerable<Resolution, int>..ctor
 	*/
 
 	internal override EnumerableSorter<TElement> GetEnumerableSorter(EnumerableSorter<TElement> next) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17654F0 Offset: 0x1763AF0 VA: 0x1817654F0
+	|-RVA: 0x1765530 Offset: 0x1763B30 VA: 0x181765530
 	|-OrderedEnumerable<Demos.DemoInfo, DateTime>.GetEnumerableSorter
 	|-OrderedEnumerable<Demos.DemoInfo, object>.GetEnumerableSorter
 	|-OrderedEnumerable<Demos.DemoInfo, TimeSpan>.GetEnumerableSorter
@@ -6686,7 +6686,7 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	protected void add_Delegate(UnityAction<T1> value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AF540 Offset: 0x17ADB40 VA: 0x1817AF540
+	|-RVA: 0x17AF580 Offset: 0x17ADB80 VA: 0x1817AF580
 	|-InvokableCall<Option>.add_Delegate
 	|-InvokableCall<bool>.add_Delegate
 	|-InvokableCall<int>.add_Delegate
@@ -6701,7 +6701,7 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	protected void remove_Delegate(UnityAction<T1> value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AF600 Offset: 0x17ADC00 VA: 0x1817AF600
+	|-RVA: 0x17AF640 Offset: 0x17ADC40 VA: 0x1817AF640
 	|-InvokableCall<Option>.remove_Delegate
 	|-InvokableCall<bool>.remove_Delegate
 	|-InvokableCall<int>.remove_Delegate
@@ -6715,35 +6715,35 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	public void .ctor(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AEDC0 Offset: 0x17AD3C0 VA: 0x1817AEDC0
+	|-RVA: 0x17AEE00 Offset: 0x17AD400 VA: 0x1817AEE00
 	|-InvokableCall<Option>..ctor
 	|
-	|-RVA: 0x17AF410 Offset: 0x17ADA10 VA: 0x1817AF410
+	|-RVA: 0x17AF450 Offset: 0x17ADA50 VA: 0x1817AF450
 	|-InvokableCall<bool>..ctor
 	|
-	|-RVA: 0x17AEEF0 Offset: 0x17AD4F0 VA: 0x1817AEEF0
+	|-RVA: 0x17AEF30 Offset: 0x17AD530 VA: 0x1817AEF30
 	|-InvokableCall<int>..ctor
 	|
-	|-RVA: 0x17AF1B0 Offset: 0x17AD7B0 VA: 0x1817AF1B0
+	|-RVA: 0x17AF1F0 Offset: 0x17AD7F0 VA: 0x1817AF1F0
 	|-InvokableCall<Int32Enum>..ctor
 	|
-	|-RVA: 0x17AF080 Offset: 0x17AD680 VA: 0x1817AF080
+	|-RVA: 0x17AF0C0 Offset: 0x17AD6C0 VA: 0x1817AF0C0
 	|-InvokableCall<object>..ctor
 	|
-	|-RVA: 0x17AF2E0 Offset: 0x17AD8E0 VA: 0x1817AF2E0
+	|-RVA: 0x17AF320 Offset: 0x17AD920 VA: 0x1817AF320
 	|-InvokableCall<float>..ctor
 	|
-	|-RVA: 0x19AB170 Offset: 0x19A9770 VA: 0x1819AB170
+	|-RVA: 0x19AB1B0 Offset: 0x19A97B0 VA: 0x1819AB1B0
 	|-InvokableCall<Color>..ctor
 	|
-	|-RVA: 0x19AB040 Offset: 0x19A9640 VA: 0x1819AB040
+	|-RVA: 0x19AB080 Offset: 0x19A9680 VA: 0x1819AB080
 	|-InvokableCall<Vector2>..ctor
 	*/
 
 	public void .ctor(UnityAction<T1> action) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AF020 Offset: 0x17AD620 VA: 0x1817AF020
+	|-RVA: 0x17AF060 Offset: 0x17AD660 VA: 0x1817AF060
 	|-InvokableCall<Option>..ctor
 	|-InvokableCall<bool>..ctor
 	|-InvokableCall<int>..ctor
@@ -6757,61 +6757,61 @@ internal class InvokableCall<T1> : BaseInvokableCall // TypeDefIndex: 3629
 	public override void Invoke(object[] args) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AE7D0 Offset: 0x17ACDD0 VA: 0x1817AE7D0
+	|-RVA: 0x17AE810 Offset: 0x17ACE10 VA: 0x1817AE810
 	|-InvokableCall<Option>.Invoke
 	|
-	|-RVA: 0x17AEB40 Offset: 0x17AD140 VA: 0x1817AEB40
+	|-RVA: 0x17AEB80 Offset: 0x17AD180 VA: 0x1817AEB80
 	|-InvokableCall<bool>.Invoke
 	|
-	|-RVA: 0x17AE5D0 Offset: 0x17ACBD0 VA: 0x1817AE5D0
+	|-RVA: 0x17AE610 Offset: 0x17ACC10 VA: 0x1817AE610
 	|-InvokableCall<int>.Invoke
 	|
-	|-RVA: 0x17AE9A0 Offset: 0x17ACFA0 VA: 0x1817AE9A0
+	|-RVA: 0x17AE9E0 Offset: 0x17ACFE0 VA: 0x1817AE9E0
 	|-InvokableCall<Int32Enum>.Invoke
 	|
-	|-RVA: 0x17AEC80 Offset: 0x17AD280 VA: 0x1817AEC80
+	|-RVA: 0x17AECC0 Offset: 0x17AD2C0 VA: 0x1817AECC0
 	|-InvokableCall<object>.Invoke
 	|
-	|-RVA: 0x17AE430 Offset: 0x17ACA30 VA: 0x1817AE430
+	|-RVA: 0x17AE470 Offset: 0x17ACA70 VA: 0x1817AE470
 	|-InvokableCall<float>.Invoke
 	|
-	|-RVA: 0x19AACC0 Offset: 0x19A92C0 VA: 0x1819AACC0
+	|-RVA: 0x19AAD00 Offset: 0x19A9300 VA: 0x1819AAD00
 	|-InvokableCall<Color>.Invoke
 	|
-	|-RVA: 0x19AAE10 Offset: 0x19A9410 VA: 0x1819AAE10
+	|-RVA: 0x19AAE50 Offset: 0x19A9450 VA: 0x1819AAE50
 	|-InvokableCall<Vector2>.Invoke
 	*/
 
 	public virtual void Invoke(T1 args0) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AE930 Offset: 0x17ACF30 VA: 0x1817AE930
+	|-RVA: 0x17AE970 Offset: 0x17ACF70 VA: 0x1817AE970
 	|-InvokableCall<Option>.Invoke
 	|
-	|-RVA: 0x17AE710 Offset: 0x17ACD10 VA: 0x1817AE710
+	|-RVA: 0x17AE750 Offset: 0x17ACD50 VA: 0x1817AE750
 	|-InvokableCall<bool>.Invoke
 	|
-	|-RVA: 0x17AE770 Offset: 0x17ACD70 VA: 0x1817AE770
+	|-RVA: 0x17AE7B0 Offset: 0x17ACDB0 VA: 0x1817AE7B0
 	|-InvokableCall<int>.Invoke
 	|-InvokableCall<Int32Enum>.Invoke
 	|
-	|-RVA: 0x17AEAE0 Offset: 0x17AD0E0 VA: 0x1817AEAE0
+	|-RVA: 0x17AEB20 Offset: 0x17AD120 VA: 0x1817AEB20
 	|-InvokableCall<object>.Invoke
 	|
-	|-RVA: 0x17AE570 Offset: 0x17ACB70 VA: 0x1817AE570
+	|-RVA: 0x17AE5B0 Offset: 0x17ACBB0 VA: 0x1817AE5B0
 	|-InvokableCall<float>.Invoke
 	|
-	|-RVA: 0x19AAF60 Offset: 0x19A9560 VA: 0x1819AAF60
+	|-RVA: 0x19AAFA0 Offset: 0x19A95A0 VA: 0x1819AAFA0
 	|-InvokableCall<Color>.Invoke
 	|
-	|-RVA: 0x19AAFD0 Offset: 0x19A95D0 VA: 0x1819AAFD0
+	|-RVA: 0x19AB010 Offset: 0x19A9610 VA: 0x1819AB010
 	|-InvokableCall<Vector2>.Invoke
 	*/
 
 	public override bool Find(object targetObj, MethodInfo method) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AE3D0 Offset: 0x17AC9D0 VA: 0x1817AE3D0
+	|-RVA: 0x17AE410 Offset: 0x17ACA10 VA: 0x1817AE410
 	|-InvokableCall<Option>.Find
 	|-InvokableCall<bool>.Find
 	|-InvokableCall<int>.Find
@@ -6849,61 +6849,61 @@ public sealed class UnityAction<T0> : MulticastDelegate // TypeDefIndex: 3641
 	public virtual void Invoke(T0 arg0) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B5FF0 Offset: 0x19B45F0 VA: 0x1819B5FF0
+	|-RVA: 0x19B6030 Offset: 0x19B4630 VA: 0x1819B6030
 	|-UnityAction<Option>.Invoke
 	|
-	|-RVA: 0x19B5A90 Offset: 0x19B4090 VA: 0x1819B5A90
+	|-RVA: 0x19B5AD0 Offset: 0x19B40D0 VA: 0x1819B5AD0
 	|-UnityAction<bool>.Invoke
 	|
-	|-RVA: 0x19B58A0 Offset: 0x19B3EA0 VA: 0x1819B58A0
+	|-RVA: 0x19B58E0 Offset: 0x19B3EE0 VA: 0x1819B58E0
 	|-UnityAction<int>.Invoke
 	|-UnityAction<Int32Enum>.Invoke
 	|
-	|-RVA: 0x19B5580 Offset: 0x19B3B80 VA: 0x1819B5580
+	|-RVA: 0x19B55C0 Offset: 0x19B3BC0 VA: 0x1819B55C0
 	|-UnityAction<object>.Invoke
 	|-UnityAction<Component>.Invoke
 	|
-	|-RVA: 0x19B4FC0 Offset: 0x19B35C0 VA: 0x1819B4FC0
+	|-RVA: 0x19B5000 Offset: 0x19B3600 VA: 0x1819B5000
 	|-UnityAction<float>.Invoke
 	|
-	|-RVA: 0x12A5FF0 Offset: 0x12A45F0 VA: 0x1812A5FF0
+	|-RVA: 0x12A6030 Offset: 0x12A4630 VA: 0x1812A6030
 	|-UnityAction<Color>.Invoke
 	|
-	|-RVA: 0x19B52A0 Offset: 0x19B38A0 VA: 0x1819B52A0
+	|-RVA: 0x19B52E0 Offset: 0x19B38E0 VA: 0x1819B52E0
 	|-UnityAction<Scene>.Invoke
 	|
-	|-RVA: 0x19B5D10 Offset: 0x19B4310 VA: 0x1819B5D10
+	|-RVA: 0x19B5D50 Offset: 0x19B4350 VA: 0x1819B5D50
 	|-UnityAction<Vector2>.Invoke
 	*/
 
 	public virtual IAsyncResult BeginInvoke(T0 arg0, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B4C40 Offset: 0x19B3240 VA: 0x1819B4C40
+	|-RVA: 0x19B4C80 Offset: 0x19B3280 VA: 0x1819B4C80
 	|-UnityAction<Option>.BeginInvoke
 	|
-	|-RVA: 0x19B4D40 Offset: 0x19B3340 VA: 0x1819B4D40
+	|-RVA: 0x19B4D80 Offset: 0x19B3380 VA: 0x1819B4D80
 	|-UnityAction<bool>.BeginInvoke
 	|
-	|-RVA: 0x19B4CC0 Offset: 0x19B32C0 VA: 0x1819B4CC0
+	|-RVA: 0x19B4D00 Offset: 0x19B3300 VA: 0x1819B4D00
 	|-UnityAction<int>.BeginInvoke
 	|
-	|-RVA: 0x19B4BC0 Offset: 0x19B31C0 VA: 0x1819B4BC0
+	|-RVA: 0x19B4C00 Offset: 0x19B3200 VA: 0x1819B4C00
 	|-UnityAction<Int32Enum>.BeginInvoke
 	|
 	|-RVA: 0x49A380 Offset: 0x498980 VA: 0x18049A380
 	|-UnityAction<object>.BeginInvoke
 	|
-	|-RVA: 0x19B4EC0 Offset: 0x19B34C0 VA: 0x1819B4EC0
+	|-RVA: 0x19B4F00 Offset: 0x19B3500 VA: 0x1819B4F00
 	|-UnityAction<float>.BeginInvoke
 	|
-	|-RVA: 0x19B4F40 Offset: 0x19B3540 VA: 0x1819B4F40
+	|-RVA: 0x19B4F80 Offset: 0x19B3580 VA: 0x1819B4F80
 	|-UnityAction<Color>.BeginInvoke
 	|
-	|-RVA: 0x19B4DC0 Offset: 0x19B33C0 VA: 0x1819B4DC0
+	|-RVA: 0x19B4E00 Offset: 0x19B3400 VA: 0x1819B4E00
 	|-UnityAction<Scene>.BeginInvoke
 	|
-	|-RVA: 0x19B4E40 Offset: 0x19B3440 VA: 0x1819B4E40
+	|-RVA: 0x19B4E80 Offset: 0x19B3480 VA: 0x1819B4E80
 	|-UnityAction<Vector2>.BeginInvoke
 	*/
 
@@ -6932,7 +6932,7 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B9490 Offset: 0x19B7A90 VA: 0x1819B9490
+	|-RVA: 0x19B94D0 Offset: 0x19B7AD0 VA: 0x1819B94D0
 	|-UnityEvent<Brush>..ctor
 	|-UnityEvent<Option>..ctor
 	|-UnityEvent<bool>..ctor
@@ -6951,7 +6951,7 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	public void AddListener(UnityAction<T0> call) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B7620 Offset: 0x19B5C20 VA: 0x1819B7620
+	|-RVA: 0x19B7660 Offset: 0x19B5C60 VA: 0x1819B7660
 	|-UnityEvent<Option>.AddListener
 	|-UnityEvent<bool>.AddListener
 	|-UnityEvent<int>.AddListener
@@ -6967,7 +6967,7 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	public void RemoveListener(UnityAction<T0> call) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B9440 Offset: 0x19B7A40 VA: 0x1819B9440
+	|-RVA: 0x19B9480 Offset: 0x19B7A80 VA: 0x1819B9480
 	|-UnityEvent<Option>.RemoveListener
 	|-UnityEvent<bool>.RemoveListener
 	|-UnityEvent<int>.RemoveListener
@@ -6982,40 +6982,40 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B7CC0 Offset: 0x19B62C0 VA: 0x1819B7CC0
+	|-RVA: 0x19B7D00 Offset: 0x19B6300 VA: 0x1819B7D00
 	|-UnityEvent<Brush>.FindMethod_Impl
 	|-UnityEvent<object>.FindMethod_Impl
 	|-UnityEvent<string>.FindMethod_Impl
 	|-UnityEvent<BaseEventData>.FindMethod_Impl
 	|-UnityEvent<MessageEventArgs>.FindMethod_Impl
 	|
-	|-RVA: 0x19B7660 Offset: 0x19B5C60 VA: 0x1819B7660
+	|-RVA: 0x19B76A0 Offset: 0x19B5CA0 VA: 0x1819B76A0
 	|-UnityEvent<Option>.FindMethod_Impl
 	|
-	|-RVA: 0x19B7990 Offset: 0x19B5F90 VA: 0x1819B7990
+	|-RVA: 0x19B79D0 Offset: 0x19B5FD0 VA: 0x1819B79D0
 	|-UnityEvent<bool>.FindMethod_Impl
 	|
-	|-RVA: 0x19B7880 Offset: 0x19B5E80 VA: 0x1819B7880
+	|-RVA: 0x19B78C0 Offset: 0x19B5EC0 VA: 0x1819B78C0
 	|-UnityEvent<int>.FindMethod_Impl
 	|
-	|-RVA: 0x19B7BB0 Offset: 0x19B61B0 VA: 0x1819B7BB0
+	|-RVA: 0x19B7BF0 Offset: 0x19B61F0 VA: 0x1819B7BF0
 	|-UnityEvent<Int32Enum>.FindMethod_Impl
 	|-UnityEvent<TouchScreenKeyboard.Status>.FindMethod_Impl
 	|
-	|-RVA: 0x19B7770 Offset: 0x19B5D70 VA: 0x1819B7770
+	|-RVA: 0x19B77B0 Offset: 0x19B5DB0 VA: 0x1819B77B0
 	|-UnityEvent<float>.FindMethod_Impl
 	|
-	|-RVA: 0x19B7AA0 Offset: 0x19B60A0 VA: 0x1819B7AA0
+	|-RVA: 0x19B7AE0 Offset: 0x19B60E0 VA: 0x1819B7AE0
 	|-UnityEvent<Color>.FindMethod_Impl
 	|
-	|-RVA: 0x19B7DD0 Offset: 0x19B63D0 VA: 0x1819B7DD0
+	|-RVA: 0x19B7E10 Offset: 0x19B6410 VA: 0x1819B7E10
 	|-UnityEvent<Vector2>.FindMethod_Impl
 	*/
 
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B7EE0 Offset: 0x19B64E0 VA: 0x1819B7EE0
+	|-RVA: 0x19B7F20 Offset: 0x19B6520 VA: 0x1819B7F20
 	|-UnityEvent<Brush>.GetDelegate
 	|-UnityEvent<Option>.GetDelegate
 	|-UnityEvent<bool>.GetDelegate
@@ -7034,7 +7034,7 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	private static BaseInvokableCall GetDelegate(UnityAction<T0> action) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B7F60 Offset: 0x19B6560 VA: 0x1819B7F60
+	|-RVA: 0x19B7FA0 Offset: 0x19B65A0 VA: 0x1819B7FA0
 	|-UnityEvent<Option>.GetDelegate
 	|-UnityEvent<bool>.GetDelegate
 	|-UnityEvent<int>.GetDelegate
@@ -7048,33 +7048,33 @@ public abstract class UnityEvent<T0> : UnityEventBase // TypeDefIndex: 3642
 	public void Invoke(T0 arg0) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B8030 Offset: 0x19B6630 VA: 0x1819B8030
+	|-RVA: 0x19B8070 Offset: 0x19B6670 VA: 0x1819B8070
 	|-UnityEvent<Brush>.Invoke
 	|-UnityEvent<object>.Invoke
 	|-UnityEvent<string>.Invoke
 	|-UnityEvent<BaseEventData>.Invoke
 	|-UnityEvent<MessageEventArgs>.Invoke
 	|
-	|-RVA: 0x19B8A00 Offset: 0x19B7000 VA: 0x1819B8A00
+	|-RVA: 0x19B8A40 Offset: 0x19B7040 VA: 0x1819B8A40
 	|-UnityEvent<Option>.Invoke
 	|
-	|-RVA: 0x19B8CC0 Offset: 0x19B72C0 VA: 0x1819B8CC0
+	|-RVA: 0x19B8D00 Offset: 0x19B7300 VA: 0x1819B8D00
 	|-UnityEvent<bool>.Invoke
 	|
-	|-RVA: 0x19B8F40 Offset: 0x19B7540 VA: 0x1819B8F40
+	|-RVA: 0x19B8F80 Offset: 0x19B7580 VA: 0x1819B8F80
 	|-UnityEvent<int>.Invoke
 	|
-	|-RVA: 0x19B8260 Offset: 0x19B6860 VA: 0x1819B8260
+	|-RVA: 0x19B82A0 Offset: 0x19B68A0 VA: 0x1819B82A0
 	|-UnityEvent<Int32Enum>.Invoke
 	|-UnityEvent<TouchScreenKeyboard.Status>.Invoke
 	|
-	|-RVA: 0x19B8780 Offset: 0x19B6D80 VA: 0x1819B8780
+	|-RVA: 0x19B87C0 Offset: 0x19B6DC0 VA: 0x1819B87C0
 	|-UnityEvent<float>.Invoke
 	|
-	|-RVA: 0x19B84E0 Offset: 0x19B6AE0 VA: 0x1819B84E0
+	|-RVA: 0x19B8520 Offset: 0x19B6B20 VA: 0x1819B8520
 	|-UnityEvent<Color>.Invoke
 	|
-	|-RVA: 0x19B91C0 Offset: 0x19B77C0 VA: 0x1819B91C0
+	|-RVA: 0x19B9200 Offset: 0x19B7800 VA: 0x1819B9200
 	|-UnityEvent<Vector2>.Invoke
 	*/
 
@@ -7097,39 +7097,39 @@ public sealed class UnityAction<T0, T1> : MulticastDelegate // TypeDefIndex: 364
 	public virtual void Invoke(T0 arg0, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1111F70 Offset: 0x1110570 VA: 0x181111F70
+	|-RVA: 0x1111FB0 Offset: 0x11105B0 VA: 0x181111FB0
 	|-UnityAction<object, object>.Invoke
 	|
-	|-RVA: 0x19B65D0 Offset: 0x19B4BD0 VA: 0x1819B65D0
+	|-RVA: 0x19B6610 Offset: 0x19B4C10 VA: 0x1819B6610
 	|-UnityAction<ulong, object>.Invoke
 	|
-	|-RVA: 0x19B6F10 Offset: 0x19B5510 VA: 0x1819B6F10
+	|-RVA: 0x19B6F50 Offset: 0x19B5550 VA: 0x1819B6F50
 	|-UnityAction<Scene, Int32Enum>.Invoke
 	|-UnityAction<Scene, LoadSceneMode>.Invoke
 	|
-	|-RVA: 0x19B6900 Offset: 0x19B4F00 VA: 0x1819B6900
+	|-RVA: 0x19B6940 Offset: 0x19B4F40 VA: 0x1819B6940
 	|-UnityAction<Scene, Scene>.Invoke
 	|
-	|-RVA: 0x19B6C10 Offset: 0x19B5210 VA: 0x1819B6C10
+	|-RVA: 0x19B6C50 Offset: 0x19B5250 VA: 0x1819B6C50
 	|-UnityAction<Vector2, object>.Invoke
 	*/
 
 	public virtual IAsyncResult BeginInvoke(T0 arg0, T1 arg1, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xAE4E10 Offset: 0xAE3410 VA: 0x180AE4E10
+	|-RVA: 0xAE4E50 Offset: 0xAE3450 VA: 0x180AE4E50
 	|-UnityAction<object, object>.BeginInvoke
 	|
-	|-RVA: 0x19B64B0 Offset: 0x19B4AB0 VA: 0x1819B64B0
+	|-RVA: 0x19B64F0 Offset: 0x19B4AF0 VA: 0x1819B64F0
 	|-UnityAction<ulong, object>.BeginInvoke
 	|
-	|-RVA: 0x19B6420 Offset: 0x19B4A20 VA: 0x1819B6420
+	|-RVA: 0x19B6460 Offset: 0x19B4A60 VA: 0x1819B6460
 	|-UnityAction<Scene, Int32Enum>.BeginInvoke
 	|
-	|-RVA: 0x19B6540 Offset: 0x19B4B40 VA: 0x1819B6540
+	|-RVA: 0x19B6580 Offset: 0x19B4B80 VA: 0x1819B6580
 	|-UnityAction<Scene, Scene>.BeginInvoke
 	|
-	|-RVA: 0x19B6390 Offset: 0x19B4990 VA: 0x1819B6390
+	|-RVA: 0x19B63D0 Offset: 0x19B49D0 VA: 0x1819B63D0
 	|-UnityAction<Vector2, object>.BeginInvoke
 	*/
 
@@ -7154,7 +7154,7 @@ public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B9490 Offset: 0x19B7A90 VA: 0x1819B9490
+	|-RVA: 0x19B94D0 Offset: 0x19B7AD0 VA: 0x1819B94D0
 	|-UnityEvent<object, object>..ctor
 	|-UnityEvent<ulong, object>..ctor
 	|-UnityEvent<ulong, string>..ctor
@@ -7165,14 +7165,14 @@ public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B94C0 Offset: 0x19B7AC0 VA: 0x1819B94C0
+	|-RVA: 0x19B9500 Offset: 0x19B7B00 VA: 0x1819B9500
 	|-UnityEvent<object, object>.FindMethod_Impl
 	|
-	|-RVA: 0x19B97E0 Offset: 0x19B7DE0 VA: 0x1819B97E0
+	|-RVA: 0x19B9820 Offset: 0x19B7E20 VA: 0x1819B9820
 	|-UnityEvent<ulong, object>.FindMethod_Impl
 	|-UnityEvent<ulong, string>.FindMethod_Impl
 	|
-	|-RVA: 0x19B9650 Offset: 0x19B7C50 VA: 0x1819B9650
+	|-RVA: 0x19B9690 Offset: 0x19B7C90 VA: 0x1819B9690
 	|-UnityEvent<Vector2, Brush>.FindMethod_Impl
 	|-UnityEvent<Vector2, object>.FindMethod_Impl
 	*/
@@ -7180,7 +7180,7 @@ public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B9970 Offset: 0x19B7F70 VA: 0x1819B9970
+	|-RVA: 0x19B99B0 Offset: 0x19B7FB0 VA: 0x1819B99B0
 	|-UnityEvent<object, object>.GetDelegate
 	|-UnityEvent<ulong, object>.GetDelegate
 	|-UnityEvent<ulong, string>.GetDelegate
@@ -7191,14 +7191,14 @@ public abstract class UnityEvent<T0, T1> : UnityEventBase // TypeDefIndex: 3644
 	public void Invoke(T0 arg0, T1 arg1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B9FF0 Offset: 0x19B85F0 VA: 0x1819B9FF0
+	|-RVA: 0x19BA030 Offset: 0x19B8630 VA: 0x1819BA030
 	|-UnityEvent<object, object>.Invoke
 	|
-	|-RVA: 0x19B99F0 Offset: 0x19B7FF0 VA: 0x1819B99F0
+	|-RVA: 0x19B9A30 Offset: 0x19B8030 VA: 0x1819B9A30
 	|-UnityEvent<ulong, object>.Invoke
 	|-UnityEvent<ulong, string>.Invoke
 	|
-	|-RVA: 0x19B9CF0 Offset: 0x19B82F0 VA: 0x1819B9CF0
+	|-RVA: 0x19B9D30 Offset: 0x19B8330 VA: 0x1819B9D30
 	|-UnityEvent<Vector2, Brush>.Invoke
 	|-UnityEvent<Vector2, object>.Invoke
 	*/
@@ -7218,20 +7218,20 @@ public sealed class UnityAction<T0, T1, T2> : MulticastDelegate // TypeDefIndex:
 	public virtual void Invoke(T0 arg0, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x13490B0 Offset: 0x13476B0 VA: 0x1813490B0
+	|-RVA: 0x13490F0 Offset: 0x13476F0 VA: 0x1813490F0
 	|-UnityAction<object, int, int>.Invoke
 	|
-	|-RVA: 0x19B72C0 Offset: 0x19B58C0 VA: 0x1819B72C0
+	|-RVA: 0x19B7300 Offset: 0x19B5900 VA: 0x1819B7300
 	|-UnityAction<object, object, object>.Invoke
 	*/
 
 	public virtual IAsyncResult BeginInvoke(T0 arg0, T1 arg1, T2 arg2, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B7220 Offset: 0x19B5820 VA: 0x1819B7220
+	|-RVA: 0x19B7260 Offset: 0x19B5860 VA: 0x1819B7260
 	|-UnityAction<object, int, int>.BeginInvoke
 	|
-	|-RVA: 0x12C3AE0 Offset: 0x12C20E0 VA: 0x1812C3AE0
+	|-RVA: 0x12C3B20 Offset: 0x12C2120 VA: 0x1812C3B20
 	|-UnityAction<object, object, object>.BeginInvoke
 	*/
 
@@ -7253,7 +7253,7 @@ public abstract class UnityEvent<T0, T1, T2> : UnityEventBase // TypeDefIndex: 3
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B9490 Offset: 0x19B7A90 VA: 0x1819B9490
+	|-RVA: 0x19B94D0 Offset: 0x19B7AD0 VA: 0x1819B94D0
 	|-UnityEvent<object, int, int>..ctor
 	|-UnityEvent<object, object, object>..ctor
 	|-UnityEvent<string, int, int>..ctor
@@ -7262,18 +7262,18 @@ public abstract class UnityEvent<T0, T1, T2> : UnityEventBase // TypeDefIndex: 3
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BA290 Offset: 0x19B8890 VA: 0x1819BA290
+	|-RVA: 0x19BA2D0 Offset: 0x19B88D0 VA: 0x1819BA2D0
 	|-UnityEvent<object, int, int>.FindMethod_Impl
 	|-UnityEvent<string, int, int>.FindMethod_Impl
 	|
-	|-RVA: 0x19BA490 Offset: 0x19B8A90 VA: 0x1819BA490
+	|-RVA: 0x19BA4D0 Offset: 0x19B8AD0 VA: 0x1819BA4D0
 	|-UnityEvent<object, object, object>.FindMethod_Impl
 	*/
 
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B7EE0 Offset: 0x19B64E0 VA: 0x1819B7EE0
+	|-RVA: 0x19B7F20 Offset: 0x19B6520 VA: 0x1819B7F20
 	|-UnityEvent<object, int, int>.GetDelegate
 	|-UnityEvent<object, object, object>.GetDelegate
 	|-UnityEvent<string, int, int>.GetDelegate
@@ -7282,11 +7282,11 @@ public abstract class UnityEvent<T0, T1, T2> : UnityEventBase // TypeDefIndex: 3
 	public void Invoke(T0 arg0, T1 arg1, T2 arg2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BA9B0 Offset: 0x19B8FB0 VA: 0x1819BA9B0
+	|-RVA: 0x19BA9F0 Offset: 0x19B8FF0 VA: 0x1819BA9F0
 	|-UnityEvent<object, int, int>.Invoke
 	|-UnityEvent<string, int, int>.Invoke
 	|
-	|-RVA: 0x19BA690 Offset: 0x19B8C90 VA: 0x1819BA690
+	|-RVA: 0x19BA6D0 Offset: 0x19B8CD0 VA: 0x1819BA6D0
 	|-UnityEvent<object, object, object>.Invoke
 	*/
 
@@ -7304,14 +7304,14 @@ public sealed class UnityAction<T0, T1, T2, T3> : MulticastDelegate // TypeDefIn
 	public virtual void Invoke(T0 arg0, T1 arg1, T2 arg2, T3 arg3) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x12C4020 Offset: 0x12C2620 VA: 0x1812C4020
+	|-RVA: 0x12C4060 Offset: 0x12C2660 VA: 0x1812C4060
 	|-UnityAction<object, object, object, object>.Invoke
 	*/
 
 	public virtual IAsyncResult BeginInvoke(T0 arg0, T1 arg1, T2 arg2, T3 arg3, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xFFA1A0 Offset: 0xFF87A0 VA: 0x180FFA1A0
+	|-RVA: 0xFFA1E0 Offset: 0xFF87E0 VA: 0x180FFA1E0
 	|-UnityAction<object, object, object, object>.BeginInvoke
 	*/
 
@@ -7332,21 +7332,21 @@ public abstract class UnityEvent<T0, T1, T2, T3> : UnityEventBase // TypeDefInde
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B9490 Offset: 0x19B7A90 VA: 0x1819B9490
+	|-RVA: 0x19B94D0 Offset: 0x19B7AD0 VA: 0x1819B94D0
 	|-UnityEvent<object, object, object, object>..ctor
 	*/
 
 	protected override MethodInfo FindMethod_Impl(string name, object targetObj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BAD60 Offset: 0x19B9360 VA: 0x1819BAD60
+	|-RVA: 0x19BADA0 Offset: 0x19B93A0 VA: 0x1819BADA0
 	|-UnityEvent<object, object, object, object>.FindMethod_Impl
 	*/
 
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19BAFD0 Offset: 0x19B95D0 VA: 0x1819BAFD0
+	|-RVA: 0x19BB010 Offset: 0x19B9610 VA: 0x1819BB010
 	|-UnityEvent<object, object, object, object>.GetDelegate
 	*/
 
@@ -7357,7 +7357,7 @@ public class IntegratedSubsystemDescriptor<TSubsystem> : IntegratedSubsystemDesc
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1645500 Offset: 0x1643B00 VA: 0x181645500
+	|-RVA: 0x1645540 Offset: 0x1643B40 VA: 0x181645540
 	|-IntegratedSubsystemDescriptor<object>..ctor
 	|-IntegratedSubsystemDescriptor<XRDisplaySubsystem>..ctor
 	|-IntegratedSubsystemDescriptor<XRInputSubsystem>..ctor
@@ -7371,7 +7371,7 @@ public class IntegratedSubsystem<TSubsystemDescriptor> : IntegratedSubsystem // 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1645500 Offset: 0x1643B00 VA: 0x181645500
+	|-RVA: 0x1645540 Offset: 0x1643B40 VA: 0x181645540
 	|-IntegratedSubsystem<object>..ctor
 	|-IntegratedSubsystem<XRDisplaySubsystemDescriptor>..ctor
 	|-IntegratedSubsystem<XRInputSubsystemDescriptor>..ctor
@@ -7419,7 +7419,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	protected void .ctor(TreeAccessMethod accessMethod) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A4D0 Offset: 0x1788AD0 VA: 0x18178A4D0
+	|-RVA: 0x178A510 Offset: 0x1788B10 VA: 0x18178A510
 	|-RBTree<DataRow>..ctor
 	|-RBTree<int>..ctor
 	|-RBTree<object>..ctor
@@ -7428,17 +7428,17 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private void InitTree() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1786600 Offset: 0x1784C00 VA: 0x181786600
+	|-RVA: 0x1786640 Offset: 0x1784C40 VA: 0x181786640
 	|-RBTree<int>.InitTree
 	|
-	|-RVA: 0x20CA110 Offset: 0x20C8710 VA: 0x1820CA110
+	|-RVA: 0x20CA150 Offset: 0x20C8750 VA: 0x1820CA150
 	|-RBTree<object>.InitTree
 	*/
 
 	private void FreePage(RBTree.TreePage<K> page) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17858F0 Offset: 0x1783EF0 VA: 0x1817858F0
+	|-RVA: 0x1785930 Offset: 0x1783F30 VA: 0x181785930
 	|-RBTree<int>.FreePage
 	|-RBTree<object>.FreePage
 	*/
@@ -7446,17 +7446,17 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private RBTree.TreePage<K> AllocPage(int size) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1784970 Offset: 0x1782F70 VA: 0x181784970
+	|-RVA: 0x17849B0 Offset: 0x1782FB0 VA: 0x1817849B0
 	|-RBTree<int>.AllocPage
 	|
-	|-RVA: 0x20C8D50 Offset: 0x20C7350 VA: 0x1820C8D50
+	|-RVA: 0x20C8D90 Offset: 0x20C7390 VA: 0x1820C8D90
 	|-RBTree<object>.AllocPage
 	*/
 
 	private void MarkPageFull(RBTree.TreePage<K> page) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1786F30 Offset: 0x1785530 VA: 0x181786F30
+	|-RVA: 0x1786F70 Offset: 0x1785570 VA: 0x181786F70
 	|-RBTree<int>.MarkPageFull
 	|-RBTree<object>.MarkPageFull
 	*/
@@ -7464,7 +7464,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private void MarkPageFree(RBTree.TreePage<K> page) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1786E70 Offset: 0x1785470 VA: 0x181786E70
+	|-RVA: 0x1786EB0 Offset: 0x17854B0 VA: 0x181786EB0
 	|-RBTree<int>.MarkPageFree
 	|-RBTree<object>.MarkPageFree
 	*/
@@ -7472,7 +7472,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private static int GetIntValueFromBitMap(uint bitMap) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1785EE0 Offset: 0x17844E0 VA: 0x181785EE0
+	|-RVA: 0x1785F20 Offset: 0x1784520 VA: 0x181785F20
 	|-RBTree<int>.GetIntValueFromBitMap
 	|-RBTree<object>.GetIntValueFromBitMap
 	*/
@@ -7480,27 +7480,27 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private void FreeNode(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1785750 Offset: 0x1783D50 VA: 0x181785750
+	|-RVA: 0x1785790 Offset: 0x1783D90 VA: 0x181785790
 	|-RBTree<int>.FreeNode
 	|
-	|-RVA: 0x20C9540 Offset: 0x20C7B40 VA: 0x1820C9540
+	|-RVA: 0x20C9580 Offset: 0x20C7B80 VA: 0x1820C9580
 	|-RBTree<object>.FreeNode
 	*/
 
 	private int GetIndexOfPageWithFreeSlot(bool allocatedPage) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1785CE0 Offset: 0x17842E0 VA: 0x181785CE0
+	|-RVA: 0x1785D20 Offset: 0x1784320 VA: 0x181785D20
 	|-RBTree<int>.GetIndexOfPageWithFreeSlot
 	|
-	|-RVA: 0x20C98B0 Offset: 0x20C7EB0 VA: 0x1820C98B0
+	|-RVA: 0x20C98F0 Offset: 0x20C7EF0 VA: 0x1820C98F0
 	|-RBTree<object>.GetIndexOfPageWithFreeSlot
 	*/
 
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A5A0 Offset: 0x1788BA0 VA: 0x18178A5A0
+	|-RVA: 0x178A5E0 Offset: 0x1788BE0 VA: 0x18178A5E0
 	|-RBTree<DataRow>.get_Count
 	|-RBTree<int>.get_Count
 	|-RBTree<object>.get_Count
@@ -7509,7 +7509,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	public bool get_HasDuplicates() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A5B0 Offset: 0x1788BB0 VA: 0x18178A5B0
+	|-RVA: 0x178A5F0 Offset: 0x1788BF0 VA: 0x18178A5F0
 	|-RBTree<int>.get_HasDuplicates
 	|-RBTree<object>.get_HasDuplicates
 	*/
@@ -7517,17 +7517,17 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private int GetNewNode(K key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1785F50 Offset: 0x1784550 VA: 0x181785F50
+	|-RVA: 0x1785F90 Offset: 0x1784590 VA: 0x181785F90
 	|-RBTree<int>.GetNewNode
 	|
-	|-RVA: 0x20C9AB0 Offset: 0x20C80B0 VA: 0x1820C9AB0
+	|-RVA: 0x20C9AF0 Offset: 0x20C80F0 VA: 0x1820C9AF0
 	|-RBTree<object>.GetNewNode
 	*/
 
 	private int Successor(int x_id) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A300 Offset: 0x1788900 VA: 0x18178A300
+	|-RVA: 0x178A340 Offset: 0x1788940 VA: 0x18178A340
 	|-RBTree<int>.Successor
 	|-RBTree<object>.Successor
 	*/
@@ -7535,17 +7535,17 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private bool Successor(ref int nodeId, ref int mainTreeNodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A1A0 Offset: 0x17887A0 VA: 0x18178A1A0
+	|-RVA: 0x178A1E0 Offset: 0x17887E0 VA: 0x18178A1E0
 	|-RBTree<int>.Successor
 	|
-	|-RVA: 0x20CDA20 Offset: 0x20CC020 VA: 0x1820CDA20
+	|-RVA: 0x20CDA60 Offset: 0x20CC060 VA: 0x1820CDA60
 	|-RBTree<object>.Successor
 	*/
 
 	private int Minimum(int x_id) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1786FF0 Offset: 0x17855F0 VA: 0x181786FF0
+	|-RVA: 0x1787030 Offset: 0x1785630 VA: 0x181787030
 	|-RBTree<int>.Minimum
 	|-RBTree<object>.Minimum
 	*/
@@ -7553,57 +7553,57 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private int LeftRotate(int root_id, int x_id, int mainTreeNode) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1786930 Offset: 0x1784F30 VA: 0x181786930
+	|-RVA: 0x1786970 Offset: 0x1784F70 VA: 0x181786970
 	|-RBTree<int>.LeftRotate
 	|
-	|-RVA: 0x20CA410 Offset: 0x20C8A10 VA: 0x1820CA410
+	|-RVA: 0x20CA450 Offset: 0x20C8A50 VA: 0x1820CA450
 	|-RBTree<object>.LeftRotate
 	*/
 
 	private int RightRotate(int root_id, int x_id, int mainTreeNode) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17897E0 Offset: 0x1787DE0 VA: 0x1817897E0
+	|-RVA: 0x1789820 Offset: 0x1787E20 VA: 0x181789820
 	|-RBTree<int>.RightRotate
 	|
-	|-RVA: 0x20CD050 Offset: 0x20CB650 VA: 0x1820CD050
+	|-RVA: 0x20CD090 Offset: 0x20CB690 VA: 0x1820CD090
 	|-RBTree<object>.RightRotate
 	*/
 
 	private int RBInsert(int root_id, int x_id, int mainTreeNodeID, int position, bool append) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17886E0 Offset: 0x1786CE0 VA: 0x1817886E0
+	|-RVA: 0x1788720 Offset: 0x1786D20 VA: 0x181788720
 	|-RBTree<int>.RBInsert
 	|
-	|-RVA: 0x20CBF80 Offset: 0x20CA580 VA: 0x1820CBF80
+	|-RVA: 0x20CBFC0 Offset: 0x20CA5C0 VA: 0x1820CBFC0
 	|-RBTree<object>.RBInsert
 	*/
 
 	public void UpdateNodeKey(K currentKey, K newKey) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A400 Offset: 0x1788A00 VA: 0x18178A400
+	|-RVA: 0x178A440 Offset: 0x1788A40 VA: 0x18178A440
 	|-RBTree<int>.UpdateNodeKey
 	|
-	|-RVA: 0x20CDB80 Offset: 0x20CC180 VA: 0x1820CDB80
+	|-RVA: 0x20CDBC0 Offset: 0x20CC1C0 VA: 0x1820CDBC0
 	|-RBTree<object>.UpdateNodeKey
 	*/
 
 	public K DeleteByIndex(int i) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17856A0 Offset: 0x1783CA0 VA: 0x1817856A0
+	|-RVA: 0x17856E0 Offset: 0x1783CE0 VA: 0x1817856E0
 	|-RBTree<int>.DeleteByIndex
 	|
-	|-RVA: 0x20C9490 Offset: 0x20C7A90 VA: 0x1820C9490
+	|-RVA: 0x20C94D0 Offset: 0x20C7AD0 VA: 0x1820C94D0
 	|-RBTree<object>.DeleteByIndex
 	*/
 
 	public int RBDelete(int z_id) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17886A0 Offset: 0x1786CA0 VA: 0x1817886A0
+	|-RVA: 0x17886E0 Offset: 0x1786CE0 VA: 0x1817886E0
 	|-RBTree<DataRow>.RBDelete
 	|-RBTree<int>.RBDelete
 	|-RBTree<object>.RBDelete
@@ -7612,37 +7612,37 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private int RBDeleteX(int root_id, int z_id, int mainTreeNodeID) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1787A20 Offset: 0x1786020 VA: 0x181787A20
+	|-RVA: 0x1787A60 Offset: 0x1786060 VA: 0x181787A60
 	|-RBTree<int>.RBDeleteX
 	|
-	|-RVA: 0x20CB300 Offset: 0x20C9900 VA: 0x1820CB300
+	|-RVA: 0x20CB340 Offset: 0x20C9940 VA: 0x1820CB340
 	|-RBTree<object>.RBDeleteX
 	*/
 
 	private int RBDeleteFixup(int root_id, int x_id, int px_id, int mainTreeNodeID) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1787150 Offset: 0x1785750 VA: 0x181787150
+	|-RVA: 0x1787190 Offset: 0x1785790 VA: 0x181787190
 	|-RBTree<int>.RBDeleteFixup
 	|
-	|-RVA: 0x20CAA30 Offset: 0x20C9030 VA: 0x1820CAA30
+	|-RVA: 0x20CAA70 Offset: 0x20C9070 VA: 0x1820CAA70
 	|-RBTree<object>.RBDeleteFixup
 	*/
 
 	private int SearchSubTree(int root_id, K key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1789D10 Offset: 0x1788310 VA: 0x181789D10
+	|-RVA: 0x1789D50 Offset: 0x1788350 VA: 0x181789D50
 	|-RBTree<int>.SearchSubTree
 	|
-	|-RVA: 0x20CD580 Offset: 0x20CBB80 VA: 0x1820CD580
+	|-RVA: 0x20CD5C0 Offset: 0x20CBBC0 VA: 0x1820CD5C0
 	|-RBTree<object>.SearchSubTree
 	*/
 
 	public K get_Item(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A5C0 Offset: 0x1788BC0 VA: 0x18178A5C0
+	|-RVA: 0x178A600 Offset: 0x1788C00 VA: 0x18178A600
 	|-RBTree<DataRow>.get_Item
 	|-RBTree<int>.get_Item
 	|-RBTree<object>.get_Item
@@ -7651,17 +7651,17 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private RBTree.NodePath<K> GetNodeByKey(K key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17862D0 Offset: 0x17848D0 VA: 0x1817862D0
+	|-RVA: 0x1786310 Offset: 0x1784910 VA: 0x181786310
 	|-RBTree<int>.GetNodeByKey
 	|
-	|-RVA: 0x20C9E60 Offset: 0x20C8460 VA: 0x1820C9E60
+	|-RVA: 0x20C9EA0 Offset: 0x20C84A0 VA: 0x1820C9EA0
 	|-RBTree<object>.GetNodeByKey
 	*/
 
 	public int GetIndexByKey(K key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1785A50 Offset: 0x1784050 VA: 0x181785A50
+	|-RVA: 0x1785A90 Offset: 0x1784090 VA: 0x181785A90
 	|-RBTree<int>.GetIndexByKey
 	|-RBTree<object>.GetIndexByKey
 	*/
@@ -7669,17 +7669,17 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	public int GetIndexByNode(int node) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1785B90 Offset: 0x1784190 VA: 0x181785B90
+	|-RVA: 0x1785BD0 Offset: 0x17841D0 VA: 0x181785BD0
 	|-RBTree<int>.GetIndexByNode
 	|
-	|-RVA: 0x20C9760 Offset: 0x20C7D60 VA: 0x1820C9760
+	|-RVA: 0x20C97A0 Offset: 0x20C7DA0 VA: 0x1820C97A0
 	|-RBTree<object>.GetIndexByNode
 	*/
 
 	private int GetIndexByNodePath(RBTree.NodePath<K> path) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1785AD0 Offset: 0x17840D0 VA: 0x181785AD0
+	|-RVA: 0x1785B10 Offset: 0x1784110 VA: 0x181785B10
 	|-RBTree<int>.GetIndexByNodePath
 	|-RBTree<object>.GetIndexByNodePath
 	*/
@@ -7687,7 +7687,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private int ComputeIndexByNode(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1784D10 Offset: 0x1783310 VA: 0x181784D10
+	|-RVA: 0x1784D50 Offset: 0x1783350 VA: 0x181784D50
 	|-RBTree<int>.ComputeIndexByNode
 	|-RBTree<object>.ComputeIndexByNode
 	*/
@@ -7695,7 +7695,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private int ComputeIndexWithSatelliteByNode(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1784E30 Offset: 0x1783430 VA: 0x181784E30
+	|-RVA: 0x1784E70 Offset: 0x1783470 VA: 0x181784E70
 	|-RBTree<int>.ComputeIndexWithSatelliteByNode
 	|-RBTree<object>.ComputeIndexWithSatelliteByNode
 	*/
@@ -7703,17 +7703,17 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private RBTree.NodePath<K> GetNodeByIndex(int userIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17861F0 Offset: 0x17847F0 VA: 0x1817861F0
+	|-RVA: 0x1786230 Offset: 0x1784830 VA: 0x181786230
 	|-RBTree<int>.GetNodeByIndex
 	|
-	|-RVA: 0x20C9D60 Offset: 0x20C8360 VA: 0x1820C9D60
+	|-RVA: 0x20C9DA0 Offset: 0x20C83A0 VA: 0x1820C9DA0
 	|-RBTree<object>.GetNodeByIndex
 	*/
 
 	private int ComputeNodeByIndex(int index, out int satelliteRootId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1784FB0 Offset: 0x17835B0 VA: 0x181784FB0
+	|-RVA: 0x1784FF0 Offset: 0x17835F0 VA: 0x181784FF0
 	|-RBTree<int>.ComputeNodeByIndex
 	|-RBTree<object>.ComputeNodeByIndex
 	*/
@@ -7721,7 +7721,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	private int ComputeNodeByIndex(int x_id, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17851D0 Offset: 0x17837D0 VA: 0x1817851D0
+	|-RVA: 0x1785210 Offset: 0x1783810 VA: 0x181785210
 	|-RBTree<int>.ComputeNodeByIndex
 	|-RBTree<object>.ComputeNodeByIndex
 	*/
@@ -7729,7 +7729,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	public int Insert(K item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17848F0 Offset: 0x1782EF0 VA: 0x1817848F0
+	|-RVA: 0x1784930 Offset: 0x1782F30 VA: 0x181784930
 	|-RBTree<int>.Insert
 	|-RBTree<object>.Insert
 	*/
@@ -7737,7 +7737,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	public int Add(K item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17848F0 Offset: 0x1782EF0 VA: 0x1817848F0
+	|-RVA: 0x1784930 Offset: 0x1782F30 VA: 0x181784930
 	|-RBTree<DataRow>.Add
 	|-RBTree<int>.Add
 	|-RBTree<object>.Add
@@ -7746,29 +7746,29 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	public IEnumerator GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20C96E0 Offset: 0x20C7CE0 VA: 0x1820C96E0
+	|-RVA: 0x20C9720 Offset: 0x20C7D20 VA: 0x1820C9720
 	|-RBTree<DataRow>.GetEnumerator
 	|-RBTree<object>.GetEnumerator
 	|
-	|-RVA: 0x17859A0 Offset: 0x1783FA0 VA: 0x1817859A0
+	|-RVA: 0x17859E0 Offset: 0x1783FE0 VA: 0x1817859E0
 	|-RBTree<int>.GetEnumerator
 	*/
 
 	public int IndexOf(int nodeId, K item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20CA010 Offset: 0x20C8610 VA: 0x1820CA010
+	|-RVA: 0x20CA050 Offset: 0x20C8650 VA: 0x1820CA050
 	|-RBTree<DataRow>.IndexOf
 	|-RBTree<object>.IndexOf
 	|
-	|-RVA: 0x1786470 Offset: 0x1784A70 VA: 0x181786470
+	|-RVA: 0x17864B0 Offset: 0x1784AB0 VA: 0x1817864B0
 	|-RBTree<int>.IndexOf
 	*/
 
 	public int Insert(int position, K item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1786890 Offset: 0x1784E90 VA: 0x181786890
+	|-RVA: 0x17868D0 Offset: 0x1784ED0 VA: 0x1817868D0
 	|-RBTree<DataRow>.Insert
 	|-RBTree<int>.Insert
 	|-RBTree<object>.Insert
@@ -7777,17 +7777,17 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	public int InsertAt(int position, K item, bool append) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17867F0 Offset: 0x1784DF0 VA: 0x1817867F0
+	|-RVA: 0x1786830 Offset: 0x1784E30 VA: 0x181786830
 	|-RBTree<int>.InsertAt
 	|
-	|-RVA: 0x20CA300 Offset: 0x20C8900 VA: 0x1820CA300
+	|-RVA: 0x20CA340 Offset: 0x20C8940 VA: 0x1820CA340
 	|-RBTree<object>.InsertAt
 	*/
 
 	public void RemoveAt(int position) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17897B0 Offset: 0x1787DB0 VA: 0x1817897B0
+	|-RVA: 0x17897F0 Offset: 0x1787DF0 VA: 0x1817897F0
 	|-RBTree<DataRow>.RemoveAt
 	|-RBTree<int>.RemoveAt
 	|-RBTree<object>.RemoveAt
@@ -7796,7 +7796,7 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1784CE0 Offset: 0x17832E0 VA: 0x181784CE0
+	|-RVA: 0x1784D20 Offset: 0x1783320 VA: 0x181784D20
 	|-RBTree<DataRow>.Clear
 	|-RBTree<int>.Clear
 	|-RBTree<object>.Clear
@@ -7805,192 +7805,192 @@ internal abstract class RBTree<K> : IEnumerable // TypeDefIndex: 4286
 	public void CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20C90C0 Offset: 0x20C76C0 VA: 0x1820C90C0
+	|-RVA: 0x20C9100 Offset: 0x20C7700 VA: 0x1820C9100
 	|-RBTree<DataRow>.CopyTo
 	|-RBTree<object>.CopyTo
 	|
-	|-RVA: 0x1785440 Offset: 0x1783A40 VA: 0x181785440
+	|-RVA: 0x1785480 Offset: 0x1783A80 VA: 0x181785480
 	|-RBTree<int>.CopyTo
 	*/
 
 	public void CopyTo(K[] array, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x20C9260 Offset: 0x20C7860 VA: 0x1820C9260
+	|-RVA: 0x20C92A0 Offset: 0x20C78A0 VA: 0x1820C92A0
 	|-RBTree<DataRow>.CopyTo
 	|-RBTree<object>.CopyTo
 	|
-	|-RVA: 0x1785290 Offset: 0x1783890 VA: 0x181785290
+	|-RVA: 0x17852D0 Offset: 0x17838D0 VA: 0x1817852D0
 	|-RBTree<int>.CopyTo
 	*/
 
 	private void SetRight(int nodeId, int rightNodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A050 Offset: 0x1788650 VA: 0x18178A050
+	|-RVA: 0x178A090 Offset: 0x1788690 VA: 0x18178A090
 	|-RBTree<int>.SetRight
 	|
-	|-RVA: 0x20CD8D0 Offset: 0x20CBED0 VA: 0x1820CD8D0
+	|-RVA: 0x20CD910 Offset: 0x20CBF10 VA: 0x1820CD910
 	|-RBTree<object>.SetRight
 	*/
 
 	private void SetLeft(int nodeId, int leftNodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1789F00 Offset: 0x1788500 VA: 0x181789F00
+	|-RVA: 0x1789F40 Offset: 0x1788540 VA: 0x181789F40
 	|-RBTree<int>.SetLeft
 	|
-	|-RVA: 0x20CD780 Offset: 0x20CBD80 VA: 0x1820CD780
+	|-RVA: 0x20CD7C0 Offset: 0x20CBDC0 VA: 0x1820CD7C0
 	|-RBTree<object>.SetLeft
 	*/
 
 	private void SetParent(int nodeId, int parentNodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1789FE0 Offset: 0x17885E0 VA: 0x181789FE0
+	|-RVA: 0x178A020 Offset: 0x1788620 VA: 0x18178A020
 	|-RBTree<int>.SetParent
 	|
-	|-RVA: 0x20CD860 Offset: 0x20CBE60 VA: 0x1820CD860
+	|-RVA: 0x20CD8A0 Offset: 0x20CBEA0 VA: 0x1820CD8A0
 	|-RBTree<object>.SetParent
 	*/
 
 	private void SetColor(int nodeId, RBTree.NodeColor<K> color) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1789E20 Offset: 0x1788420 VA: 0x181789E20
+	|-RVA: 0x1789E60 Offset: 0x1788460 VA: 0x181789E60
 	|-RBTree<int>.SetColor
 	|
-	|-RVA: 0x20CD690 Offset: 0x20CBC90 VA: 0x1820CD690
+	|-RVA: 0x20CD6D0 Offset: 0x20CBCD0 VA: 0x1820CD6D0
 	|-RBTree<object>.SetColor
 	*/
 
 	private void SetKey(int nodeId, K key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1789E90 Offset: 0x1788490 VA: 0x181789E90
+	|-RVA: 0x1789ED0 Offset: 0x17884D0 VA: 0x181789ED0
 	|-RBTree<int>.SetKey
 	|
-	|-RVA: 0x20CD700 Offset: 0x20CBD00 VA: 0x1820CD700
+	|-RVA: 0x20CD740 Offset: 0x20CBD40 VA: 0x1820CD740
 	|-RBTree<object>.SetKey
 	*/
 
 	private void SetNext(int nodeId, int nextNodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1789F70 Offset: 0x1788570 VA: 0x181789F70
+	|-RVA: 0x1789FB0 Offset: 0x17885B0 VA: 0x181789FB0
 	|-RBTree<int>.SetNext
 	|
-	|-RVA: 0x20CD7F0 Offset: 0x20CBDF0 VA: 0x1820CD7F0
+	|-RVA: 0x20CD830 Offset: 0x20CBE30 VA: 0x1820CD830
 	|-RBTree<object>.SetNext
 	*/
 
 	private void SetSubTreeSize(int nodeId, int size) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A0C0 Offset: 0x17886C0 VA: 0x18178A0C0
+	|-RVA: 0x178A100 Offset: 0x1788700 VA: 0x18178A100
 	|-RBTree<int>.SetSubTreeSize
 	|
-	|-RVA: 0x20CD940 Offset: 0x20CBF40 VA: 0x1820CD940
+	|-RVA: 0x20CD980 Offset: 0x20CBF80 VA: 0x1820CD980
 	|-RBTree<object>.SetSubTreeSize
 	*/
 
 	private void IncreaseSize(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1786400 Offset: 0x1784A00 VA: 0x181786400
+	|-RVA: 0x1786440 Offset: 0x1784A40 VA: 0x181786440
 	|-RBTree<int>.IncreaseSize
 	|
-	|-RVA: 0x20C9FA0 Offset: 0x20C85A0 VA: 0x1820C9FA0
+	|-RVA: 0x20C9FE0 Offset: 0x20C85E0 VA: 0x1820C9FE0
 	|-RBTree<object>.IncreaseSize
 	*/
 
 	private void RecomputeSize(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1789620 Offset: 0x1787C20 VA: 0x181789620
+	|-RVA: 0x1789660 Offset: 0x1787C60 VA: 0x181789660
 	|-RBTree<int>.RecomputeSize
 	|
-	|-RVA: 0x20CCEC0 Offset: 0x20CB4C0 VA: 0x1820CCEC0
+	|-RVA: 0x20CCF00 Offset: 0x20CB500 VA: 0x1820CCF00
 	|-RBTree<object>.RecomputeSize
 	*/
 
 	private void DecreaseSize(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1785630 Offset: 0x1783C30 VA: 0x181785630
+	|-RVA: 0x1785670 Offset: 0x1783C70 VA: 0x181785670
 	|-RBTree<int>.DecreaseSize
 	|
-	|-RVA: 0x20C9420 Offset: 0x20C7A20 VA: 0x1820C9420
+	|-RVA: 0x20C9460 Offset: 0x20C7A60 VA: 0x1820C9460
 	|-RBTree<object>.DecreaseSize
 	*/
 
 	public int Right(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1789CA0 Offset: 0x17882A0 VA: 0x181789CA0
+	|-RVA: 0x1789CE0 Offset: 0x17882E0 VA: 0x181789CE0
 	|-RBTree<int>.Right
 	|
-	|-RVA: 0x20CD510 Offset: 0x20CBB10 VA: 0x1820CD510
+	|-RVA: 0x20CD550 Offset: 0x20CBB50 VA: 0x1820CD550
 	|-RBTree<object>.Right
 	*/
 
 	public int Left(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1786E00 Offset: 0x1785400 VA: 0x181786E00
+	|-RVA: 0x1786E40 Offset: 0x1785440 VA: 0x181786E40
 	|-RBTree<int>.Left
 	|
-	|-RVA: 0x20CA8E0 Offset: 0x20C8EE0 VA: 0x1820CA8E0
+	|-RVA: 0x20CA920 Offset: 0x20C8F20 VA: 0x1820CA920
 	|-RBTree<object>.Left
 	*/
 
 	public int Parent(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17870E0 Offset: 0x17856E0 VA: 0x1817870E0
+	|-RVA: 0x1787120 Offset: 0x1785720 VA: 0x181787120
 	|-RBTree<int>.Parent
 	|
-	|-RVA: 0x20CA9C0 Offset: 0x20C8FC0 VA: 0x1820CA9C0
+	|-RVA: 0x20CAA00 Offset: 0x20C9000 VA: 0x1820CAA00
 	|-RBTree<object>.Parent
 	*/
 
 	private RBTree.NodeColor<K> color(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A530 Offset: 0x1788B30 VA: 0x18178A530
+	|-RVA: 0x178A570 Offset: 0x1788B70 VA: 0x18178A570
 	|-RBTree<int>.color
 	|
-	|-RVA: 0x20CDC50 Offset: 0x20CC250 VA: 0x1820CDC50
+	|-RVA: 0x20CDC90 Offset: 0x20CC290 VA: 0x1820CDC90
 	|-RBTree<object>.color
 	*/
 
 	public int Next(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1787070 Offset: 0x1785670 VA: 0x181787070
+	|-RVA: 0x17870B0 Offset: 0x17856B0 VA: 0x1817870B0
 	|-RBTree<int>.Next
 	|
-	|-RVA: 0x20CA950 Offset: 0x20C8F50 VA: 0x1820CA950
+	|-RVA: 0x20CA990 Offset: 0x20C8F90 VA: 0x1820CA990
 	|-RBTree<object>.Next
 	*/
 
 	public int SubTreeSize(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x178A130 Offset: 0x1788730 VA: 0x18178A130
+	|-RVA: 0x178A170 Offset: 0x1788770 VA: 0x18178A170
 	|-RBTree<int>.SubTreeSize
 	|
-	|-RVA: 0x20CD9B0 Offset: 0x20CBFB0 VA: 0x1820CD9B0
+	|-RVA: 0x20CD9F0 Offset: 0x20CBFF0 VA: 0x1820CD9F0
 	|-RBTree<object>.SubTreeSize
 	*/
 
 	public K Key(int nodeId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17868C0 Offset: 0x1784EC0 VA: 0x1817868C0
+	|-RVA: 0x1786900 Offset: 0x1784F00 VA: 0x181786900
 	|-RBTree<int>.Key
 	|
-	|-RVA: 0x20CA3A0 Offset: 0x20C89A0 VA: 0x1820CA3A0
+	|-RVA: 0x20CA3E0 Offset: 0x20C89E0 VA: 0x1820CA3E0
 	|-RBTree<object>.Key
 	*/
 
@@ -8008,7 +8008,7 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 	internal void .ctor(int ObjectID, Listeners.Func<TElem, TElem, bool> notifyFilter) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1784530 Offset: 0x1782B30 VA: 0x181784530
+	|-RVA: 0x1784570 Offset: 0x1782B70 VA: 0x181784570
 	|-Listeners<DataViewListener>..ctor
 	|-Listeners<object>..ctor
 	*/
@@ -8016,7 +8016,7 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 	internal bool get_HasListeners() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1784600 Offset: 0x1782C00 VA: 0x181784600
+	|-RVA: 0x1784640 Offset: 0x1782C40 VA: 0x181784640
 	|-Listeners<DataViewListener>.get_HasListeners
 	|-Listeners<object>.get_HasListeners
 	*/
@@ -8024,7 +8024,7 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 	internal void Add(TElem listener) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE05420 Offset: 0xE03A20 VA: 0x180E05420
+	|-RVA: 0xE05460 Offset: 0xE03A60 VA: 0x180E05460
 	|-Listeners<DataViewListener>.Add
 	|-Listeners<object>.Add
 	*/
@@ -8032,14 +8032,14 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 	internal int IndexOfReference(TElem listener) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17843E0 Offset: 0x17829E0 VA: 0x1817843E0
+	|-RVA: 0x1784420 Offset: 0x1782A20 VA: 0x181784420
 	|-Listeners<object>.IndexOfReference
 	*/
 
 	internal void Remove(TElem listener) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1784480 Offset: 0x1782A80 VA: 0x181784480
+	|-RVA: 0x17844C0 Offset: 0x1782AC0 VA: 0x1817844C0
 	|-Listeners<DataViewListener>.Remove
 	|-Listeners<object>.Remove
 	*/
@@ -8047,22 +8047,22 @@ internal sealed class Listeners<TElem> // TypeDefIndex: 4304
 	internal void Notify<T1, T2, T3>(T1 arg1, T2 arg2, T3 arg3, Listeners.Action<TElem, TElem, T1, T2, T3> action) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE031E0 Offset: 0xE017E0 VA: 0x180E031E0
+	|-RVA: 0xE03220 Offset: 0xE01820 VA: 0x180E03220
 	|-Listeners<DataViewListener>.Notify<ListChangedEventArgs, bool, bool>
 	|-Listeners<object>.Notify<object, bool, bool>
 	|
-	|-RVA: 0xE02FE0 Offset: 0xE015E0 VA: 0x180E02FE0
+	|-RVA: 0xE03020 Offset: 0xE01620 VA: 0x180E03020
 	|-Listeners<DataViewListener>.Notify<ListChangedType, DataRow, bool>
 	|-Listeners<object>.Notify<Int32Enum, object, bool>
 	|
-	|-RVA: 0xE033E0 Offset: 0xE019E0 VA: 0x180E033E0
+	|-RVA: 0xE03420 Offset: 0xE01A20 VA: 0x180E03420
 	|-Listeners<object>.Notify<object, object, object>
 	*/
 
 	private void RemoveNullListeners(int nullIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1784400 Offset: 0x1782A00 VA: 0x181784400
+	|-RVA: 0x1784440 Offset: 0x1782A40 VA: 0x181784440
 	|-Listeners<object>.RemoveNullListeners
 	*/
 
@@ -8106,31 +8106,31 @@ internal sealed class _AndroidJNIHelper // TypeDefIndex: 4471
 	public static ArrayType ConvertFromJNIArray<ArrayType>(IntPtr array) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125FD20 Offset: 0x125E320 VA: 0x18125FD20
+	|-RVA: 0x125FD60 Offset: 0x125E360 VA: 0x18125FD60
 	|-_AndroidJNIHelper.ConvertFromJNIArray<bool>
 	|
-	|-RVA: 0x12605D0 Offset: 0x125EBD0 VA: 0x1812605D0
+	|-RVA: 0x1260610 Offset: 0x125EC10 VA: 0x181260610
 	|-_AndroidJNIHelper.ConvertFromJNIArray<char>
 	|
-	|-RVA: 0x1260E80 Offset: 0x125F480 VA: 0x181260E80
+	|-RVA: 0x1260EC0 Offset: 0x125F4C0 VA: 0x181260EC0
 	|-_AndroidJNIHelper.ConvertFromJNIArray<double>
 	|
-	|-RVA: 0x1261730 Offset: 0x125FD30 VA: 0x181261730
+	|-RVA: 0x1261770 Offset: 0x125FD70 VA: 0x181261770
 	|-_AndroidJNIHelper.ConvertFromJNIArray<short>
 	|
-	|-RVA: 0x1261FE0 Offset: 0x12605E0 VA: 0x181261FE0
+	|-RVA: 0x1262020 Offset: 0x1260620 VA: 0x181262020
 	|-_AndroidJNIHelper.ConvertFromJNIArray<int>
 	|
-	|-RVA: 0x1262890 Offset: 0x1260E90 VA: 0x181262890
+	|-RVA: 0x12628D0 Offset: 0x1260ED0 VA: 0x1812628D0
 	|-_AndroidJNIHelper.ConvertFromJNIArray<long>
 	|
-	|-RVA: 0x1263140 Offset: 0x1261740 VA: 0x181263140
+	|-RVA: 0x1263180 Offset: 0x1261780 VA: 0x181263180
 	|-_AndroidJNIHelper.ConvertFromJNIArray<object>
 	|
-	|-RVA: 0x1263A30 Offset: 0x1262030 VA: 0x181263A30
+	|-RVA: 0x1263A70 Offset: 0x1262070 VA: 0x181263A70
 	|-_AndroidJNIHelper.ConvertFromJNIArray<sbyte>
 	|
-	|-RVA: 0x12642E0 Offset: 0x12628E0 VA: 0x1812642E0
+	|-RVA: 0x1264320 Offset: 0x1262920 VA: 0x181264320
 	|-_AndroidJNIHelper.ConvertFromJNIArray<float>
 	*/
 
@@ -8139,7 +8139,7 @@ internal sealed class _AndroidJNIHelper // TypeDefIndex: 4471
 	public static IntPtr GetMethodID<ReturnType>(IntPtr jclass, string methodName, object[] args, bool isStatic) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xEDA630 Offset: 0xED8C30 VA: 0x180EDA630
+	|-RVA: 0xEDA670 Offset: 0xED8C70 VA: 0x180EDA670
 	|-_AndroidJNIHelper.GetMethodID<bool>
 	|-_AndroidJNIHelper.GetMethodID<char>
 	|-_AndroidJNIHelper.GetMethodID<double>
@@ -8164,31 +8164,31 @@ internal sealed class _AndroidJNIHelper // TypeDefIndex: 4471
 	public static string GetSignature<ReturnType>(object[] args) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xEDA690 Offset: 0xED8C90 VA: 0x180EDA690
+	|-RVA: 0xEDA6D0 Offset: 0xED8CD0 VA: 0x180EDA6D0
 	|-_AndroidJNIHelper.GetSignature<bool>
 	|
-	|-RVA: 0xEDA7D0 Offset: 0xED8DD0 VA: 0x180EDA7D0
+	|-RVA: 0xEDA810 Offset: 0xED8E10 VA: 0x180EDA810
 	|-_AndroidJNIHelper.GetSignature<char>
 	|
-	|-RVA: 0xEDA910 Offset: 0xED8F10 VA: 0x180EDA910
+	|-RVA: 0xEDA950 Offset: 0xED8F50 VA: 0x180EDA950
 	|-_AndroidJNIHelper.GetSignature<double>
 	|
-	|-RVA: 0xEDAA50 Offset: 0xED9050 VA: 0x180EDAA50
+	|-RVA: 0xEDAA90 Offset: 0xED9090 VA: 0x180EDAA90
 	|-_AndroidJNIHelper.GetSignature<short>
 	|
-	|-RVA: 0xEDAB90 Offset: 0xED9190 VA: 0x180EDAB90
+	|-RVA: 0xEDABD0 Offset: 0xED91D0 VA: 0x180EDABD0
 	|-_AndroidJNIHelper.GetSignature<int>
 	|
-	|-RVA: 0xEDACD0 Offset: 0xED92D0 VA: 0x180EDACD0
+	|-RVA: 0xEDAD10 Offset: 0xED9310 VA: 0x180EDAD10
 	|-_AndroidJNIHelper.GetSignature<long>
 	|
-	|-RVA: 0xEDAE10 Offset: 0xED9410 VA: 0x180EDAE10
+	|-RVA: 0xEDAE50 Offset: 0xED9450 VA: 0x180EDAE50
 	|-_AndroidJNIHelper.GetSignature<object>
 	|
-	|-RVA: 0xEDAF50 Offset: 0xED9550 VA: 0x180EDAF50
+	|-RVA: 0xEDAF90 Offset: 0xED9590 VA: 0x180EDAF90
 	|-_AndroidJNIHelper.GetSignature<sbyte>
 	|
-	|-RVA: 0xEDB090 Offset: 0xED9690 VA: 0x180EDB090
+	|-RVA: 0xEDB0D0 Offset: 0xED96D0 VA: 0x180EDB0D0
 	|-_AndroidJNIHelper.GetSignature<float>
 	*/
 
@@ -8202,15 +8202,15 @@ public class Memoized<TResult, TArgs> // TypeDefIndex: 4824
 	public void .ctor(Func<TArgs, TResult> factory) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x164C870 Offset: 0x164AE70 VA: 0x18164C870
+	|-RVA: 0x164C8B0 Offset: 0x164AEB0 VA: 0x18164C8B0
 	|-Memoized<object, int>..ctor
 	|-Memoized<Material[], int>..ctor
 	|
-	|-RVA: 0x164CA50 Offset: 0x164B050 VA: 0x18164CA50
+	|-RVA: 0x164CA90 Offset: 0x164B090 VA: 0x18164CA90
 	|-Memoized<object, object>..ctor
 	|-Memoized<string, string>..ctor
 	|
-	|-RVA: 0x164C960 Offset: 0x164AF60 VA: 0x18164C960
+	|-RVA: 0x164C9A0 Offset: 0x164AFA0 VA: 0x18164C9A0
 	|-Memoized<object, ValueTuple<Int32Enum, int>>..ctor
 	|-Memoized<string, ValueTuple<ItemDefinition.AmountType, int>>..ctor
 	*/
@@ -8218,15 +8218,15 @@ public class Memoized<TResult, TArgs> // TypeDefIndex: 4824
 	public TResult Get(TArgs args) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x164C630 Offset: 0x164AC30 VA: 0x18164C630
+	|-RVA: 0x164C670 Offset: 0x164AC70 VA: 0x18164C670
 	|-Memoized<string, string>.Get
 	|-Memoized<object, object>.Get
 	|
-	|-RVA: 0x164C7B0 Offset: 0x164ADB0 VA: 0x18164C7B0
+	|-RVA: 0x164C7F0 Offset: 0x164ADF0 VA: 0x18164C7F0
 	|-Memoized<string, ValueTuple<ItemDefinition.AmountType, int>>.Get
 	|-Memoized<object, ValueTuple<Int32Enum, int>>.Get
 	|
-	|-RVA: 0x164C6F0 Offset: 0x164ACF0 VA: 0x18164C6F0
+	|-RVA: 0x164C730 Offset: 0x164AD30 VA: 0x18164C730
 	|-Memoized<Material[], int>.Get
 	|-Memoized<object, int>.Get
 	*/
@@ -8276,7 +8276,7 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	public void .ctor(IComparer<TPriority> priorityComparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x18951B0 Offset: 0x18937B0 VA: 0x1818951B0
+	|-RVA: 0x18951F0 Offset: 0x18937F0 VA: 0x1818951F0
 	|-PriorityQueue<long, object>..ctor
 	|-PriorityQueue<object, object>..ctor
 	*/
@@ -8284,7 +8284,7 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1895250 Offset: 0x1893850 VA: 0x181895250
+	|-RVA: 0x1895290 Offset: 0x1893890 VA: 0x181895290
 	|-PriorityQueue<long, TimedBlock>..ctor
 	|-PriorityQueue<long, object>..ctor
 	|-PriorityQueue<object, object>..ctor
@@ -8293,7 +8293,7 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	public void Enqueue(TPriority priority, TItem item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1894F50 Offset: 0x1893550 VA: 0x181894F50
+	|-RVA: 0x1894F90 Offset: 0x1893590 VA: 0x181894F90
 	|-PriorityQueue<long, TimedBlock>.Enqueue
 	|-PriorityQueue<long, object>.Enqueue
 	|-PriorityQueue<object, object>.Enqueue
@@ -8302,7 +8302,7 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	private void AddQueueOfPriority(TPriority priority) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1894CA0 Offset: 0x18932A0 VA: 0x181894CA0
+	|-RVA: 0x1894CE0 Offset: 0x18932E0 VA: 0x181894CE0
 	|-PriorityQueue<long, object>.AddQueueOfPriority
 	|-PriorityQueue<object, object>.AddQueueOfPriority
 	*/
@@ -8310,18 +8310,18 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	public TItem Peek() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1895010 Offset: 0x1893610 VA: 0x181895010
+	|-RVA: 0x1895050 Offset: 0x1893650 VA: 0x181895050
 	|-PriorityQueue<long, TimedBlock>.Peek
 	|-PriorityQueue<long, object>.Peek
 	|
-	|-RVA: 0x18950E0 Offset: 0x18936E0 VA: 0x1818950E0
+	|-RVA: 0x1895120 Offset: 0x1893720 VA: 0x181895120
 	|-PriorityQueue<object, object>.Peek
 	*/
 
 	public bool get_HasItems() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x18952B0 Offset: 0x18938B0 VA: 0x1818952B0
+	|-RVA: 0x18952F0 Offset: 0x18938F0 VA: 0x1818952F0
 	|-PriorityQueue<long, TimedBlock>.get_HasItems
 	|-PriorityQueue<long, object>.get_HasItems
 	|-PriorityQueue<object, object>.get_HasItems
@@ -8330,18 +8330,18 @@ internal class PriorityQueue<TPriority, TItem> // TypeDefIndex: 5668
 	public TItem Dequeue() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1894E10 Offset: 0x1893410 VA: 0x181894E10
+	|-RVA: 0x1894E50 Offset: 0x1893450 VA: 0x181894E50
 	|-PriorityQueue<long, TimedBlock>.Dequeue
 	|-PriorityQueue<long, object>.Dequeue
 	|
-	|-RVA: 0x1894EB0 Offset: 0x18934B0 VA: 0x181894EB0
+	|-RVA: 0x1894EF0 Offset: 0x18934F0 VA: 0x181894EF0
 	|-PriorityQueue<object, object>.Dequeue
 	*/
 
 	private TItem DequeueFromHighPriorityQueue() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1894D40 Offset: 0x1893340 VA: 0x181894D40
+	|-RVA: 0x1894D80 Offset: 0x1893380 VA: 0x181894D80
 	|-PriorityQueue<long, object>.DequeueFromHighPriorityQueue
 	|-PriorityQueue<object, object>.DequeueFromHighPriorityQueue
 	*/
@@ -8375,7 +8375,7 @@ internal sealed class XHashtable<TValue> // TypeDefIndex: 5818
 	public void .ctor(XHashtable.ExtractKeyDelegate<TValue> extractKey, int capacity) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A54E50 Offset: 0x1A53450 VA: 0x181A54E50
+	|-RVA: 0x1A54E90 Offset: 0x1A53490 VA: 0x181A54E90
 	|-XHashtable<object>..ctor
 	|-XHashtable<WeakReference>..ctor
 	|-XHashtable<XName>..ctor
@@ -8384,7 +8384,7 @@ internal sealed class XHashtable<TValue> // TypeDefIndex: 5818
 	public bool TryGetValue(string key, int index, int count, out TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A54E10 Offset: 0x1A53410 VA: 0x181A54E10
+	|-RVA: 0x1A54E50 Offset: 0x1A53450 VA: 0x181A54E50
 	|-XHashtable<object>.TryGetValue
 	|-XHashtable<WeakReference>.TryGetValue
 	|-XHashtable<XName>.TryGetValue
@@ -8393,7 +8393,7 @@ internal sealed class XHashtable<TValue> // TypeDefIndex: 5818
 	public TValue Add(TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A54C80 Offset: 0x1A53280 VA: 0x181A54C80
+	|-RVA: 0x1A54CC0 Offset: 0x1A532C0 VA: 0x181A54CC0
 	|-XHashtable<object>.Add
 	|-XHashtable<WeakReference>.Add
 	|-XHashtable<XName>.Add
@@ -8422,14 +8422,14 @@ internal sealed class MethodCall<T, TResult> : MulticastDelegate // TypeDefIndex
 	public virtual TResult Invoke(T target, object[] args) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5A080 Offset: 0xD58680 VA: 0x180D5A080
+	|-RVA: 0xD5A0C0 Offset: 0xD586C0 VA: 0x180D5A0C0
 	|-MethodCall<object, object>.Invoke
 	*/
 
 	public virtual IAsyncResult BeginInvoke(T target, object[] args, AsyncCallback callback, object object) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xAE4E10 Offset: 0xAE3410 VA: 0x180AE4E10
+	|-RVA: 0xAE4E50 Offset: 0xAE3450 VA: 0x180AE4E50
 	|-MethodCall<object, object>.BeginInvoke
 	*/
 
@@ -8478,7 +8478,7 @@ public class FastAction<A> // TypeDefIndex: 6738
 	public void Add(Action<A> rhs) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17ADE80 Offset: 0x17AC480 VA: 0x1817ADE80
+	|-RVA: 0x17ADEC0 Offset: 0x17AC4C0 VA: 0x1817ADEC0
 	|-FastAction<bool>.Add
 	|-FastAction<object>.Add
 	|-FastAction<Object>.Add
@@ -8487,7 +8487,7 @@ public class FastAction<A> // TypeDefIndex: 6738
 	public void Remove(Action<A> rhs) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17ADFD0 Offset: 0x17AC5D0 VA: 0x1817ADFD0
+	|-RVA: 0x17AE010 Offset: 0x17AC610 VA: 0x1817AE010
 	|-FastAction<bool>.Remove
 	|-FastAction<object>.Remove
 	|-FastAction<Object>.Remove
@@ -8496,10 +8496,10 @@ public class FastAction<A> // TypeDefIndex: 6738
 	public void Call(A a) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3FAF0 Offset: 0x1A3E0F0 VA: 0x181A3FAF0
+	|-RVA: 0x1A3FB30 Offset: 0x1A3E130 VA: 0x181A3FB30
 	|-FastAction<bool>.Call
 	|
-	|-RVA: 0x17ADF20 Offset: 0x17AC520 VA: 0x1817ADF20
+	|-RVA: 0x17ADF60 Offset: 0x17AC560 VA: 0x1817ADF60
 	|-FastAction<object>.Call
 	|-FastAction<TMP_ColorGradient>.Call
 	|-FastAction<Object>.Call
@@ -8508,7 +8508,7 @@ public class FastAction<A> // TypeDefIndex: 6738
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AE070 Offset: 0x17AC670 VA: 0x1817AE070
+	|-RVA: 0x17AE0B0 Offset: 0x17AC6B0 VA: 0x1817AE0B0
 	|-FastAction<bool>..ctor
 	|-FastAction<object>..ctor
 	|-FastAction<TMP_ColorGradient>..ctor
@@ -8525,7 +8525,7 @@ public class FastAction<A, B> // TypeDefIndex: 6739
 	public void Add(Action<A, B> rhs) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17ADE80 Offset: 0x17AC480 VA: 0x1817ADE80
+	|-RVA: 0x17ADEC0 Offset: 0x17AC4C0 VA: 0x1817ADEC0
 	|-FastAction<bool, object>.Add
 	|-FastAction<object, object>.Add
 	*/
@@ -8533,7 +8533,7 @@ public class FastAction<A, B> // TypeDefIndex: 6739
 	public void Remove(Action<A, B> rhs) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17ADFD0 Offset: 0x17AC5D0 VA: 0x1817ADFD0
+	|-RVA: 0x17AE010 Offset: 0x17AC610 VA: 0x1817AE010
 	|-FastAction<bool, object>.Remove
 	|-FastAction<object, object>.Remove
 	*/
@@ -8541,7 +8541,7 @@ public class FastAction<A, B> // TypeDefIndex: 6739
 	public void Call(A a, B b) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AE220 Offset: 0x17AC820 VA: 0x1817AE220
+	|-RVA: 0x17AE260 Offset: 0x17AC860 VA: 0x1817AE260
 	|-FastAction<bool, object>.Call
 	|-FastAction<bool, TMP_FontAsset>.Call
 	|-FastAction<bool, TextMeshPro>.Call
@@ -8549,7 +8549,7 @@ public class FastAction<A, B> // TypeDefIndex: 6739
 	|-FastAction<bool, Material>.Call
 	|-FastAction<bool, Object>.Call
 	|
-	|-RVA: 0x17AE150 Offset: 0x17AC750 VA: 0x1817AE150
+	|-RVA: 0x17AE190 Offset: 0x17AC790 VA: 0x1817AE190
 	|-FastAction<object, object>.Call
 	|-FastAction<object, Compute_DT_EventArgs>.Call
 	*/
@@ -8557,7 +8557,7 @@ public class FastAction<A, B> // TypeDefIndex: 6739
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AE070 Offset: 0x17AC670 VA: 0x1817AE070
+	|-RVA: 0x17AE0B0 Offset: 0x17AC6B0 VA: 0x1817AE0B0
 	|-FastAction<bool, object>..ctor
 	|-FastAction<bool, TMP_FontAsset>..ctor
 	|-FastAction<bool, TextMeshPro>..ctor
@@ -8578,21 +8578,21 @@ public class FastAction<A, B, C> // TypeDefIndex: 6740
 	public void Add(Action<A, B, C> rhs) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17ADE80 Offset: 0x17AC480 VA: 0x1817ADE80
+	|-RVA: 0x17ADEC0 Offset: 0x17AC4C0 VA: 0x1817ADEC0
 	|-FastAction<object, object, object>.Add
 	*/
 
 	public void Remove(Action<A, B, C> rhs) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17ADFD0 Offset: 0x17AC5D0 VA: 0x1817ADFD0
+	|-RVA: 0x17AE010 Offset: 0x17AC610 VA: 0x1817AE010
 	|-FastAction<object, object, object>.Remove
 	*/
 
 	public void Call(A a, B b, C c) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AE2F0 Offset: 0x17AC8F0 VA: 0x1817AE2F0
+	|-RVA: 0x17AE330 Offset: 0x17AC930 VA: 0x1817AE330
 	|-FastAction<object, object, object>.Call
 	|-FastAction<GameObject, Material, Material>.Call
 	*/
@@ -8600,7 +8600,7 @@ public class FastAction<A, B, C> // TypeDefIndex: 6740
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17AE070 Offset: 0x17AC670 VA: 0x1817AE070
+	|-RVA: 0x17AE0B0 Offset: 0x17AC6B0 VA: 0x1817AE0B0
 	|-FastAction<object, object, object>..ctor
 	|-FastAction<GameObject, Material, Material>..ctor
 	*/
@@ -8933,14 +8933,14 @@ internal sealed class TimedObjectsComparer<TObject> : IComparer<TObject> // Type
 	public int Compare(TObject x, TObject y) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x164FD70 Offset: 0x164E370 VA: 0x18164FD70
+	|-RVA: 0x164FDB0 Offset: 0x164E3B0 VA: 0x18164FDB0
 	|-TimedObjectsComparer<object>.Compare
 	*/
 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
+	|-RVA: 0xD5BC10 Offset: 0xD5A210 VA: 0x180D5BC10
 	|-TimedObjectsComparer<object>..ctor
 	*/
 
@@ -8958,7 +8958,7 @@ public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 	internal void .ctor(long time, TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1650E40 Offset: 0x164F440 VA: 0x181650E40
+	|-RVA: 0x1650E80 Offset: 0x164F480 VA: 0x181650E80
 	|-ValueChange<object>..ctor
 	*/
 
@@ -8984,35 +8984,35 @@ public sealed class ValueChange<TValue> : ITimedObject // TypeDefIndex: 7504
 	public static bool op_Equality(ValueChange<TValue> change1, ValueChange<TValue> change2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1650ED0 Offset: 0x164F4D0 VA: 0x181650ED0
+	|-RVA: 0x1650F10 Offset: 0x164F510 VA: 0x181650F10
 	|-ValueChange<object>.op_Equality
 	*/
 
 	public static bool op_Inequality(ValueChange<TValue> change1, ValueChange<TValue> change2) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16510A0 Offset: 0x164F6A0 VA: 0x1816510A0
+	|-RVA: 0x16510E0 Offset: 0x164F6E0 VA: 0x1816510E0
 	|-ValueChange<object>.op_Inequality
 	*/
 
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1650D90 Offset: 0x164F390 VA: 0x181650D90
+	|-RVA: 0x1650DD0 Offset: 0x164F3D0 VA: 0x181650DD0
 	|-ValueChange<object>.ToString
 	*/
 
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1650C70 Offset: 0x164F270 VA: 0x181650C70
+	|-RVA: 0x1650CB0 Offset: 0x164F2B0 VA: 0x181650CB0
 	|-ValueChange<object>.Equals
 	*/
 
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1650CF0 Offset: 0x164F2F0 VA: 0x181650CF0
+	|-RVA: 0x1650D30 Offset: 0x164F330 VA: 0x181650D30
 	|-ValueChange<object>.GetHashCode
 	*/
 
@@ -9032,7 +9032,7 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	internal void add_ValuesChanged(EventHandler value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1651EC0 Offset: 0x16504C0 VA: 0x181651EC0
+	|-RVA: 0x1651F00 Offset: 0x1650500 VA: 0x181651F00
 	|-ValueLine<Tempo>.add_ValuesChanged
 	|-ValueLine<TimeSignature>.add_ValuesChanged
 	|-ValueLine<object>.add_ValuesChanged
@@ -9042,7 +9042,7 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	internal void remove_ValuesChanged(EventHandler value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1651F70 Offset: 0x1650570 VA: 0x181651F70
+	|-RVA: 0x1651FB0 Offset: 0x16505B0 VA: 0x181651FB0
 	|-ValueLine<Tempo>.remove_ValuesChanged
 	|-ValueLine<TimeSignature>.remove_ValuesChanged
 	|-ValueLine<object>.remove_ValuesChanged
@@ -9051,7 +9051,7 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	internal void .ctor(TValue defaultValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1651DC0 Offset: 0x16503C0 VA: 0x181651DC0
+	|-RVA: 0x1651E00 Offset: 0x1650400 VA: 0x181651E00
 	|-ValueLine<Tempo>..ctor
 	|-ValueLine<TimeSignature>..ctor
 	|-ValueLine<object>..ctor
@@ -9060,7 +9060,7 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	internal TValue GetValueAtTime(long time) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16511E0 Offset: 0x164F7E0 VA: 0x1816511E0
+	|-RVA: 0x1651220 Offset: 0x164F820 VA: 0x181651220
 	|-ValueLine<TimeSignature>.GetValueAtTime
 	|-ValueLine<object>.GetValueAtTime
 	*/
@@ -9068,14 +9068,14 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	internal ValueChange<TValue> GetValueChangeAtTime(long time) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1651280 Offset: 0x164F880 VA: 0x181651280
+	|-RVA: 0x16512C0 Offset: 0x164F8C0 VA: 0x1816512C0
 	|-ValueLine<object>.GetValueChangeAtTime
 	*/
 
 	internal void SetValue(long time, TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1651B60 Offset: 0x1650160 VA: 0x181651B60
+	|-RVA: 0x1651BA0 Offset: 0x16501A0 VA: 0x181651BA0
 	|-ValueLine<Tempo>.SetValue
 	|-ValueLine<TimeSignature>.SetValue
 	|-ValueLine<object>.SetValue
@@ -9084,7 +9084,7 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	internal ValueLine<TValue> Reverse(long centerTime) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1651430 Offset: 0x164FA30 VA: 0x181651430
+	|-RVA: 0x1651470 Offset: 0x164FA70 VA: 0x181651470
 	|-ValueLine<Tempo>.Reverse
 	|-ValueLine<TimeSignature>.Reverse
 	|-ValueLine<object>.Reverse
@@ -9093,35 +9093,35 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	private void OnValuesChanged(bool forceSort = True) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1651370 Offset: 0x164F970 VA: 0x181651370
+	|-RVA: 0x16513B0 Offset: 0x164F9B0 VA: 0x1816513B0
 	|-ValueLine<object>.OnValuesChanged
 	*/
 
 	private void OnValueChangesNeedSorting() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xFC90C0 Offset: 0xFC76C0 VA: 0x180FC90C0
+	|-RVA: 0xFC9100 Offset: 0xFC7700 VA: 0x180FC9100
 	|-ValueLine<object>.OnValueChangesNeedSorting
 	*/
 
 	private void OnValueChangesSortingCompleted() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF60BC0 Offset: 0xF5F1C0 VA: 0x180F60BC0
+	|-RVA: 0xF60C00 Offset: 0xF5F200 VA: 0x180F60C00
 	|-ValueLine<object>.OnValueChangesSortingCompleted
 	*/
 
 	private void SortValueChanges() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1651D20 Offset: 0x1650320 VA: 0x181651D20
+	|-RVA: 0x1651D60 Offset: 0x1650360 VA: 0x181651D60
 	|-ValueLine<object>.SortValueChanges
 	*/
 
 	public IEnumerator<ValueChange<TValue>> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1651130 Offset: 0x164F730 VA: 0x181651130
+	|-RVA: 0x1651170 Offset: 0x164F770 VA: 0x181651170
 	|-ValueLine<Tempo>.GetEnumerator
 	|-ValueLine<object>.GetEnumerator
 	*/
@@ -9129,7 +9129,7 @@ public sealed class ValueLine<TValue> : IEnumerable<ValueChange<TValue>>, IEnume
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1651D90 Offset: 0x1650390 VA: 0x181651D90
+	|-RVA: 0x1651DD0 Offset: 0x16503D0 VA: 0x181651DD0
 	|-ValueLine<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
@@ -9703,7 +9703,7 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	public <State>j__TPar get_State() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xB10C80 Offset: 0xB0F280 VA: 0x180B10C80
+	|-RVA: 0xB10CC0 Offset: 0xB0F2C0 VA: 0x180B10CC0
 	|-<>f__AnonymousType0<object, object, bool>.get_State
 	|
 	|-RVA: 0x49AF70 Offset: 0x499570 VA: 0x18049AF70
@@ -9714,11 +9714,11 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	public void .ctor(<Identifier>j__TPar Identifier, <Name>j__TPar Name, <State>j__TPar State) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1896860 Offset: 0x1894E60 VA: 0x181896860
+	|-RVA: 0x18968A0 Offset: 0x1894EA0 VA: 0x1818968A0
 	|-<>f__AnonymousType0<object, object, bool>..ctor
 	|-<>f__AnonymousType0<string, string, bool>..ctor
 	|
-	|-RVA: 0x18968D0 Offset: 0x1894ED0 VA: 0x1818968D0
+	|-RVA: 0x1896910 Offset: 0x1894F10 VA: 0x181896910
 	|-<>f__AnonymousType0<object, object, object>..ctor
 	*/
 
@@ -9726,10 +9726,10 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	public override bool Equals(object value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1896190 Offset: 0x1894790 VA: 0x181896190
+	|-RVA: 0x18961D0 Offset: 0x18947D0 VA: 0x1818961D0
 	|-<>f__AnonymousType0<object, object, bool>.Equals
 	|
-	|-RVA: 0x1896070 Offset: 0x1894670 VA: 0x181896070
+	|-RVA: 0x18960B0 Offset: 0x18946B0 VA: 0x1818960B0
 	|-<>f__AnonymousType0<object, object, object>.Equals
 	*/
 
@@ -9737,10 +9737,10 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x18962B0 Offset: 0x18948B0 VA: 0x1818962B0
+	|-RVA: 0x18962F0 Offset: 0x18948F0 VA: 0x1818962F0
 	|-<>f__AnonymousType0<object, object, bool>.GetHashCode
 	|
-	|-RVA: 0x18963A0 Offset: 0x18949A0 VA: 0x1818963A0
+	|-RVA: 0x18963E0 Offset: 0x18949E0 VA: 0x1818963E0
 	|-<>f__AnonymousType0<object, object, object>.GetHashCode
 	*/
 
@@ -9748,10 +9748,10 @@ internal sealed class <>f__AnonymousType0<<Identifier>j__TPar, <Name>j__TPar, <S
 	public override string ToString() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1896490 Offset: 0x1894A90 VA: 0x181896490
+	|-RVA: 0x18964D0 Offset: 0x1894AD0 VA: 0x1818964D0
 	|-<>f__AnonymousType0<object, object, bool>.ToString
 	|
-	|-RVA: 0x1896670 Offset: 0x1894C70 VA: 0x181896670
+	|-RVA: 0x18966B0 Offset: 0x1894CB0 VA: 0x1818966B0
 	|-<>f__AnonymousType0<object, object, object>.ToString
 	*/
 

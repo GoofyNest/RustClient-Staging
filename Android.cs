@@ -74,7 +74,7 @@ public class AndroidJavaObject : IDisposable // TypeDefIndex: 4468
 	public ReturnType Call<ReturnType>(string methodName, object[] args) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1245510 Offset: 0x1243B10 VA: 0x181245510
+	|-RVA: 0x1245550 Offset: 0x1243B50 VA: 0x181245550
 	|-AndroidJavaObject.Call<bool>
 	|-AndroidJavaObject.Call<char>
 	|-AndroidJavaObject.Call<double>
@@ -91,7 +91,7 @@ public class AndroidJavaObject : IDisposable // TypeDefIndex: 4468
 	public ReturnType CallStatic<ReturnType>(string methodName, object[] args) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1245510 Offset: 0x1243B10 VA: 0x181245510
+	|-RVA: 0x1245550 Offset: 0x1243B50 VA: 0x181245550
 	|-AndroidJavaObject.CallStatic<int>
 	|-AndroidJavaObject.CallStatic<object>
 	|-AndroidJavaObject.CallStatic<AndroidJavaObject>
@@ -112,41 +112,41 @@ public class AndroidJavaObject : IDisposable // TypeDefIndex: 4468
 	protected ReturnType _Call<ReturnType>(string methodName, object[] args) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1247120 Offset: 0x1245720 VA: 0x181247120
+	|-RVA: 0x1247160 Offset: 0x1245760 VA: 0x181247160
 	|-AndroidJavaObject._Call<bool>
 	|
-	|-RVA: 0x1247F70 Offset: 0x1246570 VA: 0x181247F70
+	|-RVA: 0x1247FB0 Offset: 0x12465B0 VA: 0x181247FB0
 	|-AndroidJavaObject._Call<char>
 	|
-	|-RVA: 0x1248DC0 Offset: 0x12473C0 VA: 0x181248DC0
+	|-RVA: 0x1248E00 Offset: 0x1247400 VA: 0x181248E00
 	|-AndroidJavaObject._Call<double>
 	|
-	|-RVA: 0x1249CA0 Offset: 0x12482A0 VA: 0x181249CA0
+	|-RVA: 0x1249CE0 Offset: 0x12482E0 VA: 0x181249CE0
 	|-AndroidJavaObject._Call<short>
 	|
-	|-RVA: 0x124AAF0 Offset: 0x12490F0 VA: 0x18124AAF0
+	|-RVA: 0x124AB30 Offset: 0x1249130 VA: 0x18124AB30
 	|-AndroidJavaObject._Call<int>
 	|
-	|-RVA: 0x124B910 Offset: 0x1249F10 VA: 0x18124B910
+	|-RVA: 0x124B950 Offset: 0x1249F50 VA: 0x18124B950
 	|-AndroidJavaObject._Call<long>
 	|
-	|-RVA: 0x124C750 Offset: 0x124AD50 VA: 0x18124C750
+	|-RVA: 0x124C790 Offset: 0x124AD90 VA: 0x18124C790
 	|-AndroidJavaObject._Call<object>
 	|
-	|-RVA: 0x124D520 Offset: 0x124BB20 VA: 0x18124D520
+	|-RVA: 0x124D560 Offset: 0x124BB60 VA: 0x18124D560
 	|-AndroidJavaObject._Call<sbyte>
 	|
-	|-RVA: 0x124E370 Offset: 0x124C970 VA: 0x18124E370
+	|-RVA: 0x124E3B0 Offset: 0x124C9B0 VA: 0x18124E3B0
 	|-AndroidJavaObject._Call<float>
 	*/
 
 	protected ReturnType _CallStatic<ReturnType>(string methodName, object[] args) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1245530 Offset: 0x1243B30 VA: 0x181245530
+	|-RVA: 0x1245570 Offset: 0x1243B70 VA: 0x181245570
 	|-AndroidJavaObject._CallStatic<int>
 	|
-	|-RVA: 0x1246350 Offset: 0x1244950 VA: 0x181246350
+	|-RVA: 0x1246390 Offset: 0x1244990 VA: 0x181246390
 	|-AndroidJavaObject._CallStatic<object>
 	*/
 
@@ -222,7 +222,7 @@ public static class AndroidJNIHelper // TypeDefIndex: 4473
 	public static ArrayType ConvertFromJNIArray<ArrayType>(IntPtr array) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1245500 Offset: 0x1243B00 VA: 0x181245500
+	|-RVA: 0x1245540 Offset: 0x1243B40 VA: 0x181245540
 	|-AndroidJNIHelper.ConvertFromJNIArray<bool>
 	|-AndroidJNIHelper.ConvertFromJNIArray<char>
 	|-AndroidJNIHelper.ConvertFromJNIArray<double>
@@ -237,7 +237,7 @@ public static class AndroidJNIHelper // TypeDefIndex: 4473
 	public static IntPtr GetMethodID<ReturnType>(IntPtr jclass, string methodName, object[] args, bool isStatic) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xEC26F0 Offset: 0xEC0CF0 VA: 0x180EC26F0
+	|-RVA: 0xEC2730 Offset: 0xEC0D30 VA: 0x180EC2730
 	|-AndroidJNIHelper.GetMethodID<bool>
 	|-AndroidJNIHelper.GetMethodID<char>
 	|-AndroidJNIHelper.GetMethodID<double>

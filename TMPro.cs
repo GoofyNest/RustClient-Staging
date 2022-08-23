@@ -59,7 +59,7 @@ public static class TMPro_ExtensionMethods // TypeDefIndex: 6853
 	public static int FindInstanceID<T>(List<T> list, T target) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED9D40 Offset: 0xED8340 VA: 0x180ED9D40
+	|-RVA: 0xED9D80 Offset: 0xED8380 VA: 0x180ED9D80
 	|-TMPro_ExtensionMethods.FindInstanceID<object>
 	*/
 

@@ -39,14 +39,14 @@ private sealed class Parallel.<>c__DisplayClass2_0<T> // TypeDefIndex: 5600
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
+	|-RVA: 0xD5BC10 Offset: 0xD5A210 VA: 0x180D5BC10
 	|-Parallel.<>c__DisplayClass2_0<object>..ctor
 	*/
 
 	internal void <ForEach>b__0(int i) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B4AC0 Offset: 0x19B30C0 VA: 0x1819B4AC0
+	|-RVA: 0x19B4B00 Offset: 0x19B3100 VA: 0x1819B4B00
 	|-Parallel.<>c__DisplayClass2_0<object>.<ForEach>b__0
 	*/
 

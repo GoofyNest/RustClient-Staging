@@ -67,7 +67,7 @@ public class TOD_Billboard : MonoBehaviour // TypeDefIndex: 8072
 	private T GetComponentInParents<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBE0BD0 Offset: 0xBDF1D0 VA: 0x180BE0BD0
+	|-RVA: 0xBE0C10 Offset: 0xBDF210 VA: 0x180BE0C10
 	|-TOD_Billboard.GetComponentInParents<object>
 	*/
 

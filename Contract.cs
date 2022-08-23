@@ -4,7 +4,7 @@ public static class Contract // TypeDefIndex: 1505
 	public static bool ForAll<T>(IEnumerable<T> collection, Predicate<T> predicate) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBEF170 Offset: 0xBED770 VA: 0x180BEF170
+	|-RVA: 0xBEF1B0 Offset: 0xBED7B0 VA: 0x180BEF1B0
 	|-Contract.ForAll<object>
 	|-Contract.ForAll<Type>
 	*/

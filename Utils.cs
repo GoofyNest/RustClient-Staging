@@ -46,7 +46,7 @@ public static class Utils // TypeDefIndex: 11553
 	public static T NewWithComponent<T>(string name) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BAE90 Offset: 0x15B9490 VA: 0x1815BAE90
+	|-RVA: 0x15BAED0 Offset: 0x15B94D0 VA: 0x1815BAED0
 	|-Utils.NewWithComponent<object>
 	|-Utils.NewWithComponent<BeamGeometry>
 	*/
@@ -55,7 +55,7 @@ public static class Utils // TypeDefIndex: 11553
 	public static T GetOrAddComponent<T>(GameObject self) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BAD60 Offset: 0x15B9360 VA: 0x1815BAD60
+	|-RVA: 0x15BADA0 Offset: 0x15B93A0 VA: 0x1815BADA0
 	|-Utils.GetOrAddComponent<object>
 	|-Utils.GetOrAddComponent<MeshCollider>
 	|-Utils.GetOrAddComponent<MeshFilter>
@@ -66,7 +66,7 @@ public static class Utils // TypeDefIndex: 11553
 	public static T GetOrAddComponent<T>(MonoBehaviour self) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BAE10 Offset: 0x15B9410 VA: 0x1815BAE10
+	|-RVA: 0x15BAE50 Offset: 0x15B9450 VA: 0x1815BAE50
 	|-Utils.GetOrAddComponent<object>
 	*/
 

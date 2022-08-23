@@ -11,17 +11,17 @@ private sealed class DefaultArrayPool.Bucket<T> // TypeDefIndex: 6271
 	internal void .ctor(int bufferLength, int numberOfBuffers, int poolId) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A05730 Offset: 0x1A03D30 VA: 0x181A05730
+	|-RVA: 0x1A05770 Offset: 0x1A03D70 VA: 0x181A05770
 	|-DefaultArrayPool.Bucket<byte>..ctor
 	|
-	|-RVA: 0x1A05820 Offset: 0x1A03E20 VA: 0x181A05820
+	|-RVA: 0x1A05860 Offset: 0x1A03E60 VA: 0x181A05860
 	|-DefaultArrayPool.Bucket<object>..ctor
 	*/
 
 	internal int get_Id() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBA06A0 Offset: 0xB9ECA0 VA: 0x180BA06A0
+	|-RVA: 0xBA06E0 Offset: 0xB9ECE0 VA: 0x180BA06E0
 	|-DefaultArrayPool.Bucket<byte>.get_Id
 	|-DefaultArrayPool.Bucket<object>.get_Id
 	*/
@@ -29,20 +29,20 @@ private sealed class DefaultArrayPool.Bucket<T> // TypeDefIndex: 6271
 	internal T[] Rent() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A05140 Offset: 0x1A03740 VA: 0x181A05140
+	|-RVA: 0x1A05180 Offset: 0x1A03780 VA: 0x181A05180
 	|-DefaultArrayPool.Bucket<byte>.Rent
 	|
-	|-RVA: 0x1A04ED0 Offset: 0x1A034D0 VA: 0x181A04ED0
+	|-RVA: 0x1A04F10 Offset: 0x1A03510 VA: 0x181A04F10
 	|-DefaultArrayPool.Bucket<object>.Rent
 	*/
 
 	internal void Return(T[] array) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A053B0 Offset: 0x1A039B0 VA: 0x181A053B0
+	|-RVA: 0x1A053F0 Offset: 0x1A039F0 VA: 0x181A053F0
 	|-DefaultArrayPool.Bucket<byte>.Return
 	|
-	|-RVA: 0x1A05570 Offset: 0x1A03B70 VA: 0x181A05570
+	|-RVA: 0x1A055B0 Offset: 0x1A03BB0 VA: 0x181A055B0
 	|-DefaultArrayPool.Bucket<object>.Return
 	*/
 

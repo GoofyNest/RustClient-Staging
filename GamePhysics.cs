@@ -34,7 +34,7 @@ public static class GamePhysics // TypeDefIndex: 9259
 	public static bool CheckSphere<T>(Vector3 pos, float radius, int layerMask = -5, QueryTriggerInteraction triggerInteraction = 1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125DC20 Offset: 0x125C220 VA: 0x18125DC20
+	|-RVA: 0x125DC60 Offset: 0x125C260 VA: 0x18125DC60
 	|-GamePhysics.CheckSphere<object>
 	|-GamePhysics.CheckSphere<TerrainCollisionTrigger>
 	|-GamePhysics.CheckSphere<WaterVisibilityTrigger>
@@ -43,7 +43,7 @@ public static class GamePhysics // TypeDefIndex: 9259
 	public static bool CheckCapsule<T>(Vector3 start, Vector3 end, float radius, int layerMask = -5, QueryTriggerInteraction triggerInteraction = 1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125D910 Offset: 0x125BF10 VA: 0x18125D910
+	|-RVA: 0x125D950 Offset: 0x125BF50 VA: 0x18125D950
 	|-GamePhysics.CheckCapsule<object>
 	|-GamePhysics.CheckCapsule<WaterVisibilityTrigger>
 	*/
@@ -51,14 +51,14 @@ public static class GamePhysics // TypeDefIndex: 9259
 	public static bool CheckOBB<T>(OBB obb, int layerMask = -5, QueryTriggerInteraction triggerInteraction = 1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125DB00 Offset: 0x125C100 VA: 0x18125DB00
+	|-RVA: 0x125DB40 Offset: 0x125C140 VA: 0x18125DB40
 	|-GamePhysics.CheckOBB<object>
 	*/
 
 	public static bool CheckBounds<T>(Bounds bounds, int layerMask = -5, QueryTriggerInteraction triggerInteraction = 1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125D810 Offset: 0x125BE10 VA: 0x18125D810
+	|-RVA: 0x125D850 Offset: 0x125BE50 VA: 0x18125D850
 	|-GamePhysics.CheckBounds<object>
 	|-GamePhysics.CheckBounds<WaterVisibilityTrigger>
 	*/
@@ -66,14 +66,14 @@ public static class GamePhysics // TypeDefIndex: 9259
 	private static bool CheckComponent<T>(List<Collider> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125DA50 Offset: 0x125C050 VA: 0x18125DA50
+	|-RVA: 0x125DA90 Offset: 0x125C090 VA: 0x18125DA90
 	|-GamePhysics.CheckComponent<object>
 	*/
 
 	public static void OverlapSphere<T>(Vector3 position, float radius, List<T> list, int layerMask = -5, QueryTriggerInteraction triggerInteraction = 1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15724A0 Offset: 0x1570AA0 VA: 0x1815724A0
+	|-RVA: 0x15724E0 Offset: 0x1570AE0 VA: 0x1815724E0
 	|-GamePhysics.OverlapSphere<EnvironmentVolume>
 	|-GamePhysics.OverlapSphere<object>
 	|-GamePhysics.OverlapSphere<TriggerBase>
@@ -82,7 +82,7 @@ public static class GamePhysics // TypeDefIndex: 9259
 	public static void OverlapCapsule<T>(Vector3 point0, Vector3 point1, float radius, List<T> list, int layerMask = -5, QueryTriggerInteraction triggerInteraction = 1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1572220 Offset: 0x1570820 VA: 0x181572220
+	|-RVA: 0x1572260 Offset: 0x1570860 VA: 0x181572260
 	|-GamePhysics.OverlapCapsule<object>
 	|-GamePhysics.OverlapCapsule<TriggerBase>
 	*/
@@ -90,7 +90,7 @@ public static class GamePhysics // TypeDefIndex: 9259
 	public static void OverlapOBB<T>(OBB obb, List<T> list, int layerMask = -5, QueryTriggerInteraction triggerInteraction = 1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1572350 Offset: 0x1570950 VA: 0x181572350
+	|-RVA: 0x1572390 Offset: 0x1570990 VA: 0x181572390
 	|-GamePhysics.OverlapOBB<EnvironmentVolume>
 	|-GamePhysics.OverlapOBB<object>
 	|-GamePhysics.OverlapOBB<TriggerBase>
@@ -99,14 +99,14 @@ public static class GamePhysics // TypeDefIndex: 9259
 	public static void OverlapBounds<T>(Bounds bounds, List<T> list, int layerMask = -5, QueryTriggerInteraction triggerInteraction = 1) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1572070 Offset: 0x1570670 VA: 0x181572070
+	|-RVA: 0x15720B0 Offset: 0x15706B0 VA: 0x1815720B0
 	|-GamePhysics.OverlapBounds<object>
 	*/
 
 	private static void BufferToList<T>(int count, List<T> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1571E40 Offset: 0x1570440 VA: 0x181571E40
+	|-RVA: 0x1571E80 Offset: 0x1570480 VA: 0x181571E80
 	|-GamePhysics.BufferToList<object>
 	*/
 

@@ -79,7 +79,7 @@ public static class TransformEx // TypeDefIndex: 11708
 	public static List<T> GetSiblings<T>(Transform transform, bool includeSelf = False) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x12C3940 Offset: 0x12C1F40 VA: 0x1812C3940
+	|-RVA: 0x12C3980 Offset: 0x12C1F80 VA: 0x1812C3980
 	|-TransformEx.GetSiblings<object>
 	*/
 
@@ -96,7 +96,7 @@ public static class TransformEx // TypeDefIndex: 11708
 	public static T GetComponentInChildrenIncludeDisabled<T>(Transform transform) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BA830 Offset: 0x15B8E30 VA: 0x1815BA830
+	|-RVA: 0x15BA870 Offset: 0x15B8E70 VA: 0x1815BA870
 	|-TransformEx.GetComponentInChildrenIncludeDisabled<object>
 	*/
 
@@ -104,7 +104,7 @@ public static class TransformEx // TypeDefIndex: 11708
 	public static bool HasComponentInChildrenIncludeDisabled<T>(Transform transform) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF4C20 Offset: 0xBF3220 VA: 0x180BF4C20
+	|-RVA: 0xBF4C60 Offset: 0xBF3260 VA: 0x180BF4C60
 	|-TransformEx.HasComponentInChildrenIncludeDisabled<object>
 	*/
 

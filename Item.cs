@@ -1713,7 +1713,7 @@ public abstract class ItemModAssociatedEntity<T> : ItemMod // TypeDefIndex: 1013
 	public static T GetAssociatedEntity(Item item, bool isServer = True) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1647320 Offset: 0x1645920 VA: 0x181647320
+	|-RVA: 0x1647360 Offset: 0x1645960 VA: 0x181647360
 	|-ItemModAssociatedEntity<MobileInventoryEntity>.GetAssociatedEntity
 	|-ItemModAssociatedEntity<PagerEntity>.GetAssociatedEntity
 	|-ItemModAssociatedEntity<PaintedItemStorageEntity>.GetAssociatedEntity
@@ -1724,7 +1724,7 @@ public abstract class ItemModAssociatedEntity<T> : ItemMod // TypeDefIndex: 1013
 	protected void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1647480 Offset: 0x1645A80 VA: 0x181647480
+	|-RVA: 0x16474C0 Offset: 0x1645AC0 VA: 0x1816474C0
 	|-ItemModAssociatedEntity<Cassette>..ctor
 	|-ItemModAssociatedEntity<MobileInventoryEntity>..ctor
 	|-ItemModAssociatedEntity<PagerEntity>..ctor

@@ -25,13 +25,13 @@ internal static class ExceptionBuilder // TypeDefIndex: 4201
 	private static Exception _InvalidEnumArgumentException<T>(T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1B1AAE0 Offset: 0x1B190E0 VA: 0x181B1AAE0
+	|-RVA: 0x1B1AB20 Offset: 0x1B19120 VA: 0x181B1AB20
 	|-ExceptionBuilder._InvalidEnumArgumentException<DataRowState>
 	|-ExceptionBuilder._InvalidEnumArgumentException<DataSetDateTime>
 	|-ExceptionBuilder._InvalidEnumArgumentException<SerializationFormat>
 	|-ExceptionBuilder._InvalidEnumArgumentException<Int32Enum>
 	|
-	|-RVA: 0x1B1ABE0 Offset: 0x1B191E0 VA: 0x181B1ABE0
+	|-RVA: 0x1B1AC20 Offset: 0x1B19220 VA: 0x181B1AC20
 	|-ExceptionBuilder._InvalidEnumArgumentException<object>
 	*/
 

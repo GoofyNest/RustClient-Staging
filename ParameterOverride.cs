@@ -9,27 +9,27 @@ public abstract class ParameterOverride // TypeDefIndex: 11824
 	public T GetValue<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9430 Offset: 0x15B7A30 VA: 0x1815B9430
+	|-RVA: 0x15B9470 Offset: 0x15B7A70 VA: 0x1815B9470
 	|-ParameterOverride.GetValue<bool>
 	|
-	|-RVA: 0x15B9580 Offset: 0x15B7B80 VA: 0x1815B9580
+	|-RVA: 0x15B95C0 Offset: 0x15B7BC0 VA: 0x1815B95C0
 	|-ParameterOverride.GetValue<int>
 	|-ParameterOverride.GetValue<Int32Enum>
 	|
-	|-RVA: 0x15B9620 Offset: 0x15B7C20 VA: 0x1815B9620
+	|-RVA: 0x15B9660 Offset: 0x15B7C60 VA: 0x1815B9660
 	|-ParameterOverride.GetValue<object>
 	|
-	|-RVA: 0x15B96C0 Offset: 0x15B7CC0 VA: 0x1815B96C0
+	|-RVA: 0x15B9700 Offset: 0x15B7D00 VA: 0x1815B9700
 	|-ParameterOverride.GetValue<float>
 	|
-	|-RVA: 0x15B94D0 Offset: 0x15B7AD0 VA: 0x1815B94D0
+	|-RVA: 0x15B9510 Offset: 0x15B7B10 VA: 0x1815B9510
 	|-ParameterOverride.GetValue<Color>
 	|-ParameterOverride.GetValue<Vector4>
 	|
-	|-RVA: 0x15B9760 Offset: 0x15B7D60 VA: 0x1815B9760
+	|-RVA: 0x15B97A0 Offset: 0x15B7DA0 VA: 0x1815B97A0
 	|-ParameterOverride.GetValue<Vector2>
 	|
-	|-RVA: 0x15B9810 Offset: 0x15B7E10 VA: 0x1815B9810
+	|-RVA: 0x15B9850 Offset: 0x15B7E50 VA: 0x1815B9850
 	|-ParameterOverride.GetValue<Vector3>
 	*/
 

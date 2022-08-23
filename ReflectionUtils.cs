@@ -82,7 +82,7 @@ internal static class ReflectionUtils // TypeDefIndex: 5965
 	public static T[] GetAttributes<T>(object attributeProvider, bool inherit) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B220 Offset: 0x1A39820 VA: 0x181A3B220
+	|-RVA: 0x1A3B260 Offset: 0x1A39860 VA: 0x181A3B260
 	|-ReflectionUtils.GetAttributes<object>
 	*/
 

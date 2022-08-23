@@ -69,7 +69,7 @@ public class Object // TypeDefIndex: 3535
 	public static T Instantiate<T>(T original) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9010 Offset: 0x15B7610 VA: 0x1815B9010
+	|-RVA: 0x15B9050 Offset: 0x15B7650 VA: 0x1815B9050
 	|-Object.Instantiate<ERMarkerExt>
 	|-Object.Instantiate<ERSOMarkerExt>
 	|-Object.Instantiate<ERSORoadExt>
@@ -92,7 +92,7 @@ public class Object // TypeDefIndex: 3535
 	public static T Instantiate<T>(T original, Vector3 position, Quaternion rotation) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9350 Offset: 0x15B7950 VA: 0x1815B9350
+	|-RVA: 0x15B9390 Offset: 0x15B7990 VA: 0x1815B9390
 	|-Object.Instantiate<ArcadeEntity>
 	|-Object.Instantiate<ArcadeEntityController>
 	|-Object.Instantiate<BaseArcadeGame>
@@ -103,7 +103,7 @@ public class Object // TypeDefIndex: 3535
 	public static T Instantiate<T>(T original, Vector3 position, Quaternion rotation, Transform parent) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9260 Offset: 0x15B7860 VA: 0x1815B9260
+	|-RVA: 0x15B92A0 Offset: 0x15B78A0 VA: 0x1815B92A0
 	|-Object.Instantiate<GameObject>
 	|-Object.Instantiate<object>
 	*/
@@ -111,7 +111,7 @@ public class Object // TypeDefIndex: 3535
 	public static T Instantiate<T>(T original, Transform parent) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9120 Offset: 0x15B7720 VA: 0x1815B9120
+	|-RVA: 0x15B9160 Offset: 0x15B7760 VA: 0x1815B9160
 	|-Object.Instantiate<ContactsEntry>
 	|-Object.Instantiate<HttpImage>
 	|-Object.Instantiate<RustText>
@@ -126,7 +126,7 @@ public class Object // TypeDefIndex: 3535
 	public static T Instantiate<T>(T original, Transform parent, bool worldPositionStays) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B91A0 Offset: 0x15B77A0 VA: 0x1815B91A0
+	|-RVA: 0x15B91E0 Offset: 0x15B77E0 VA: 0x1815B91E0
 	|-Object.Instantiate<object>
 	*/
 
@@ -156,7 +156,7 @@ public class Object // TypeDefIndex: 3535
 	public static T[] FindObjectsOfType<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B0B0 Offset: 0x1A396B0 VA: 0x181A3B0B0
+	|-RVA: 0x1A3B0F0 Offset: 0x1A396F0 VA: 0x181A3B0F0
 	|-Object.FindObjectsOfType<BaseEntity>
 	|-Object.FindObjectsOfType<BenchmarkScene>
 	|-Object.FindObjectsOfType<BlendedLoopEngineSound>
@@ -186,7 +186,7 @@ public class Object // TypeDefIndex: 3535
 	public static T FindObjectOfType<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B8F30 Offset: 0x15B7530 VA: 0x1815B8F30
+	|-RVA: 0x15B8F70 Offset: 0x15B7570 VA: 0x1815B8F70
 	|-Object.FindObjectOfType<Client>
 	|-Object.FindObjectOfType<CursorManager>
 	|-Object.FindObjectOfType<MainCamera>

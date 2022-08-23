@@ -389,7 +389,7 @@ private sealed class SortedList.SortedListKeyEnumerator<TKey, TValue> : IEnumera
 	internal void .ctor(SortedList<TKey, TValue> sortedList) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E31F20 Offset: 0x1E30520 VA: 0x181E31F20
+	|-RVA: 0x1E31F60 Offset: 0x1E30560 VA: 0x181E31F60
 	|-SortedList.SortedListKeyEnumerator<long, object>..ctor
 	|-SortedList.SortedListKeyEnumerator<object, object>..ctor
 	*/
@@ -397,7 +397,7 @@ private sealed class SortedList.SortedListKeyEnumerator<TKey, TValue> : IEnumera
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E31A40 Offset: 0x1E30040 VA: 0x181E31A40
+	|-RVA: 0x1E31A80 Offset: 0x1E30080 VA: 0x181E31A80
 	|-SortedList.SortedListKeyEnumerator<long, object>.Dispose
 	|-SortedList.SortedListKeyEnumerator<object, object>.Dispose
 	*/
@@ -405,10 +405,10 @@ private sealed class SortedList.SortedListKeyEnumerator<TKey, TValue> : IEnumera
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E31B70 Offset: 0x1E30170 VA: 0x181E31B70
+	|-RVA: 0x1E31BB0 Offset: 0x1E301B0 VA: 0x181E31BB0
 	|-SortedList.SortedListKeyEnumerator<long, object>.MoveNext
 	|
-	|-RVA: 0x1E31A50 Offset: 0x1E30050 VA: 0x181E31A50
+	|-RVA: 0x1E31A90 Offset: 0x1E30090 VA: 0x181E31A90
 	|-SortedList.SortedListKeyEnumerator<object, object>.MoveNext
 	*/
 
@@ -423,20 +423,20 @@ private sealed class SortedList.SortedListKeyEnumerator<TKey, TValue> : IEnumera
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E31E40 Offset: 0x1E30440 VA: 0x181E31E40
+	|-RVA: 0x1E31E80 Offset: 0x1E30480 VA: 0x181E31E80
 	|-SortedList.SortedListKeyEnumerator<long, object>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x1E31D90 Offset: 0x1E30390 VA: 0x181E31D90
+	|-RVA: 0x1E31DD0 Offset: 0x1E303D0 VA: 0x181E31DD0
 	|-SortedList.SortedListKeyEnumerator<object, object>.System.Collections.IEnumerator.get_Current
 	*/
 
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E31C90 Offset: 0x1E30290 VA: 0x181E31C90
+	|-RVA: 0x1E31CD0 Offset: 0x1E302D0 VA: 0x181E31CD0
 	|-SortedList.SortedListKeyEnumerator<long, object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x1E31D10 Offset: 0x1E30310 VA: 0x181E31D10
+	|-RVA: 0x1E31D50 Offset: 0x1E30350 VA: 0x181E31D50
 	|-SortedList.SortedListKeyEnumerator<object, object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -455,7 +455,7 @@ private sealed class SortedList.SortedListValueEnumerator<TKey, TValue> : IEnume
 	internal void .ctor(SortedList<TKey, TValue> sortedList) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E31F20 Offset: 0x1E30520 VA: 0x181E31F20
+	|-RVA: 0x1E31F60 Offset: 0x1E30560 VA: 0x181E31F60
 	|-SortedList.SortedListValueEnumerator<long, object>..ctor
 	|-SortedList.SortedListValueEnumerator<object, object>..ctor
 	*/
@@ -463,7 +463,7 @@ private sealed class SortedList.SortedListValueEnumerator<TKey, TValue> : IEnume
 	public void Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E31A40 Offset: 0x1E30040 VA: 0x181E31A40
+	|-RVA: 0x1E31A80 Offset: 0x1E30080 VA: 0x181E31A80
 	|-SortedList.SortedListValueEnumerator<long, object>.Dispose
 	|-SortedList.SortedListValueEnumerator<object, object>.Dispose
 	*/
@@ -471,10 +471,10 @@ private sealed class SortedList.SortedListValueEnumerator<TKey, TValue> : IEnume
 	public bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E31F70 Offset: 0x1E30570 VA: 0x181E31F70
+	|-RVA: 0x1E31FB0 Offset: 0x1E305B0 VA: 0x181E31FB0
 	|-SortedList.SortedListValueEnumerator<long, object>.MoveNext
 	|
-	|-RVA: 0x1E32090 Offset: 0x1E30690 VA: 0x181E32090
+	|-RVA: 0x1E320D0 Offset: 0x1E306D0 VA: 0x181E320D0
 	|-SortedList.SortedListValueEnumerator<object, object>.MoveNext
 	*/
 
@@ -489,20 +489,20 @@ private sealed class SortedList.SortedListValueEnumerator<TKey, TValue> : IEnume
 	private object System.Collections.IEnumerator.get_Current() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E32360 Offset: 0x1E30960 VA: 0x181E32360
+	|-RVA: 0x1E323A0 Offset: 0x1E309A0 VA: 0x181E323A0
 	|-SortedList.SortedListValueEnumerator<long, object>.System.Collections.IEnumerator.get_Current
 	|
-	|-RVA: 0x1E322B0 Offset: 0x1E308B0 VA: 0x181E322B0
+	|-RVA: 0x1E322F0 Offset: 0x1E308F0 VA: 0x181E322F0
 	|-SortedList.SortedListValueEnumerator<object, object>.System.Collections.IEnumerator.get_Current
 	*/
 
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E32230 Offset: 0x1E30830 VA: 0x181E32230
+	|-RVA: 0x1E32270 Offset: 0x1E30870 VA: 0x181E32270
 	|-SortedList.SortedListValueEnumerator<long, object>.System.Collections.IEnumerator.Reset
 	|
-	|-RVA: 0x1E321B0 Offset: 0x1E307B0 VA: 0x181E321B0
+	|-RVA: 0x1E321F0 Offset: 0x1E307F0 VA: 0x181E321F0
 	|-SortedList.SortedListValueEnumerator<object, object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -520,7 +520,7 @@ private sealed class SortedList.KeyList<TKey, TValue> : IList<TKey>, ICollection
 	internal void .ctor(SortedList<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x13593D0 Offset: 0x13579D0 VA: 0x1813593D0
+	|-RVA: 0x1359410 Offset: 0x1357A10 VA: 0x181359410
 	|-SortedList.KeyList<long, object>..ctor
 	|-SortedList.KeyList<object, object>..ctor
 	*/
@@ -528,7 +528,7 @@ private sealed class SortedList.KeyList<TKey, TValue> : IList<TKey>, ICollection
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1343EE0 Offset: 0x13424E0 VA: 0x181343EE0
+	|-RVA: 0x1343F20 Offset: 0x1342520 VA: 0x181343F20
 	|-SortedList.KeyList<long, object>.get_Count
 	|-SortedList.KeyList<object, object>.get_Count
 	*/
@@ -544,37 +544,37 @@ private sealed class SortedList.KeyList<TKey, TValue> : IList<TKey>, ICollection
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E310 Offset: 0x1E2C910 VA: 0x181E2E310
+	|-RVA: 0x1E2E350 Offset: 0x1E2C950 VA: 0x181E2E350
 	|-SortedList.KeyList<long, object>.System.Collections.ICollection.get_SyncRoot
 	|
-	|-RVA: 0x1E2E2C0 Offset: 0x1E2C8C0 VA: 0x181E2E2C0
+	|-RVA: 0x1E2E300 Offset: 0x1E2C900 VA: 0x181E2E300
 	|-SortedList.KeyList<object, object>.System.Collections.ICollection.get_SyncRoot
 	*/
 
 	public void Add(TKey key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DA10 Offset: 0x1E2C010 VA: 0x181E2DA10
+	|-RVA: 0x1E2DA50 Offset: 0x1E2C050 VA: 0x181E2DA50
 	|-SortedList.KeyList<long, object>.Add
 	|
-	|-RVA: 0x1E2DA70 Offset: 0x1E2C070 VA: 0x181E2DA70
+	|-RVA: 0x1E2DAB0 Offset: 0x1E2C0B0 VA: 0x181E2DAB0
 	|-SortedList.KeyList<object, object>.Add
 	*/
 
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DAD0 Offset: 0x1E2C0D0 VA: 0x181E2DAD0
+	|-RVA: 0x1E2DB10 Offset: 0x1E2C110 VA: 0x181E2DB10
 	|-SortedList.KeyList<long, object>.Clear
 	|
-	|-RVA: 0x1E2DB30 Offset: 0x1E2C130 VA: 0x181E2DB30
+	|-RVA: 0x1E2DB70 Offset: 0x1E2C170 VA: 0x181E2DB70
 	|-SortedList.KeyList<object, object>.Clear
 	*/
 
 	public bool Contains(TKey key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5A490 Offset: 0xD58A90 VA: 0x180D5A490
+	|-RVA: 0xD5A4D0 Offset: 0xD58AD0 VA: 0x180D5A4D0
 	|-SortedList.KeyList<long, object>.Contains
 	|-SortedList.KeyList<object, object>.Contains
 	*/
@@ -582,7 +582,7 @@ private sealed class SortedList.KeyList<TKey, TValue> : IList<TKey>, ICollection
 	public void CopyTo(TKey[] array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DB90 Offset: 0x1E2C190 VA: 0x181E2DB90
+	|-RVA: 0x1E2DBD0 Offset: 0x1E2C1D0 VA: 0x181E2DBD0
 	|-SortedList.KeyList<long, object>.CopyTo
 	|-SortedList.KeyList<object, object>.CopyTo
 	*/
@@ -590,27 +590,27 @@ private sealed class SortedList.KeyList<TKey, TValue> : IList<TKey>, ICollection
 	private void System.Collections.ICollection.CopyTo(Array array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E190 Offset: 0x1E2C790 VA: 0x181E2E190
+	|-RVA: 0x1E2E1D0 Offset: 0x1E2C7D0 VA: 0x181E2E1D0
 	|-SortedList.KeyList<long, object>.System.Collections.ICollection.CopyTo
 	|
-	|-RVA: 0x1E2E060 Offset: 0x1E2C660 VA: 0x181E2E060
+	|-RVA: 0x1E2E0A0 Offset: 0x1E2C6A0 VA: 0x181E2E0A0
 	|-SortedList.KeyList<object, object>.System.Collections.ICollection.CopyTo
 	*/
 
 	public void Insert(int index, TKey value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DE20 Offset: 0x1E2C420 VA: 0x181E2DE20
+	|-RVA: 0x1E2DE60 Offset: 0x1E2C460 VA: 0x181E2DE60
 	|-SortedList.KeyList<long, object>.Insert
 	|
-	|-RVA: 0x1E2DE80 Offset: 0x1E2C480 VA: 0x181E2DE80
+	|-RVA: 0x1E2DEC0 Offset: 0x1E2C4C0 VA: 0x181E2DEC0
 	|-SortedList.KeyList<object, object>.Insert
 	*/
 
 	public TKey get_Item(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E360 Offset: 0x1E2C960 VA: 0x181E2E360
+	|-RVA: 0x1E2E3A0 Offset: 0x1E2C9A0 VA: 0x181E2E3A0
 	|-SortedList.KeyList<long, object>.get_Item
 	|-SortedList.KeyList<object, object>.get_Item
 	*/
@@ -618,17 +618,17 @@ private sealed class SortedList.KeyList<TKey, TValue> : IList<TKey>, ICollection
 	public void set_Item(int index, TKey value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E390 Offset: 0x1E2C990 VA: 0x181E2E390
+	|-RVA: 0x1E2E3D0 Offset: 0x1E2C9D0 VA: 0x181E2E3D0
 	|-SortedList.KeyList<long, object>.set_Item
 	|
-	|-RVA: 0x1E2E3F0 Offset: 0x1E2C9F0 VA: 0x181E2E3F0
+	|-RVA: 0x1E2E430 Offset: 0x1E2CA30 VA: 0x181E2E430
 	|-SortedList.KeyList<object, object>.set_Item
 	*/
 
 	public IEnumerator<TKey> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DC00 Offset: 0x1E2C200 VA: 0x181E2DC00
+	|-RVA: 0x1E2DC40 Offset: 0x1E2C240 VA: 0x181E2DC40
 	|-SortedList.KeyList<long, object>.GetEnumerator
 	|-SortedList.KeyList<object, object>.GetEnumerator
 	*/
@@ -636,7 +636,7 @@ private sealed class SortedList.KeyList<TKey, TValue> : IList<TKey>, ICollection
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DC00 Offset: 0x1E2C200 VA: 0x181E2DC00
+	|-RVA: 0x1E2DC40 Offset: 0x1E2C240 VA: 0x181E2DC40
 	|-SortedList.KeyList<long, object>.System.Collections.IEnumerable.GetEnumerator
 	|-SortedList.KeyList<object, object>.System.Collections.IEnumerable.GetEnumerator
 	*/
@@ -644,30 +644,30 @@ private sealed class SortedList.KeyList<TKey, TValue> : IList<TKey>, ICollection
 	public int IndexOf(TKey key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DD60 Offset: 0x1E2C360 VA: 0x181E2DD60
+	|-RVA: 0x1E2DDA0 Offset: 0x1E2C3A0 VA: 0x181E2DDA0
 	|-SortedList.KeyList<long, object>.IndexOf
 	|
-	|-RVA: 0x1E2DC70 Offset: 0x1E2C270 VA: 0x181E2DC70
+	|-RVA: 0x1E2DCB0 Offset: 0x1E2C2B0 VA: 0x181E2DCB0
 	|-SortedList.KeyList<object, object>.IndexOf
 	*/
 
 	public bool Remove(TKey key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DFA0 Offset: 0x1E2C5A0 VA: 0x181E2DFA0
+	|-RVA: 0x1E2DFE0 Offset: 0x1E2C5E0 VA: 0x181E2DFE0
 	|-SortedList.KeyList<long, object>.Remove
 	|
-	|-RVA: 0x1E2E000 Offset: 0x1E2C600 VA: 0x181E2E000
+	|-RVA: 0x1E2E040 Offset: 0x1E2C640 VA: 0x181E2E040
 	|-SortedList.KeyList<object, object>.Remove
 	*/
 
 	public void RemoveAt(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DF40 Offset: 0x1E2C540 VA: 0x181E2DF40
+	|-RVA: 0x1E2DF80 Offset: 0x1E2C580 VA: 0x181E2DF80
 	|-SortedList.KeyList<long, object>.RemoveAt
 	|
-	|-RVA: 0x1E2DEE0 Offset: 0x1E2C4E0 VA: 0x181E2DEE0
+	|-RVA: 0x1E2DF20 Offset: 0x1E2C520 VA: 0x181E2DF20
 	|-SortedList.KeyList<object, object>.RemoveAt
 	*/
 
@@ -685,7 +685,7 @@ private sealed class SortedList.ValueList<TKey, TValue> : IList<TValue>, ICollec
 	internal void .ctor(SortedList<TKey, TValue> dictionary) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x13593D0 Offset: 0x13579D0 VA: 0x1813593D0
+	|-RVA: 0x1359410 Offset: 0x1357A10 VA: 0x181359410
 	|-SortedList.ValueList<long, object>..ctor
 	|-SortedList.ValueList<object, object>..ctor
 	*/
@@ -693,7 +693,7 @@ private sealed class SortedList.ValueList<TKey, TValue> : IList<TValue>, ICollec
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1343EE0 Offset: 0x13424E0 VA: 0x181343EE0
+	|-RVA: 0x1343F20 Offset: 0x1342520 VA: 0x181343F20
 	|-SortedList.ValueList<long, object>.get_Count
 	|-SortedList.ValueList<object, object>.get_Count
 	*/
@@ -709,37 +709,37 @@ private sealed class SortedList.ValueList<TKey, TValue> : IList<TValue>, ICollec
 	private object System.Collections.ICollection.get_SyncRoot() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E388D0 Offset: 0x1E36ED0 VA: 0x181E388D0
+	|-RVA: 0x1E38910 Offset: 0x1E36F10 VA: 0x181E38910
 	|-SortedList.ValueList<long, object>.System.Collections.ICollection.get_SyncRoot
 	|
-	|-RVA: 0x1E38880 Offset: 0x1E36E80 VA: 0x181E38880
+	|-RVA: 0x1E388C0 Offset: 0x1E36EC0 VA: 0x181E388C0
 	|-SortedList.ValueList<object, object>.System.Collections.ICollection.get_SyncRoot
 	*/
 
 	public void Add(TValue key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E381E0 Offset: 0x1E367E0 VA: 0x181E381E0
+	|-RVA: 0x1E38220 Offset: 0x1E36820 VA: 0x181E38220
 	|-SortedList.ValueList<long, object>.Add
 	|
-	|-RVA: 0x1E38180 Offset: 0x1E36780 VA: 0x181E38180
+	|-RVA: 0x1E381C0 Offset: 0x1E367C0 VA: 0x181E381C0
 	|-SortedList.ValueList<object, object>.Add
 	*/
 
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E38240 Offset: 0x1E36840 VA: 0x181E38240
+	|-RVA: 0x1E38280 Offset: 0x1E36880 VA: 0x181E38280
 	|-SortedList.ValueList<long, object>.Clear
 	|
-	|-RVA: 0x1E382A0 Offset: 0x1E368A0 VA: 0x181E382A0
+	|-RVA: 0x1E382E0 Offset: 0x1E368E0 VA: 0x181E382E0
 	|-SortedList.ValueList<object, object>.Clear
 	*/
 
 	public bool Contains(TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5A490 Offset: 0xD58A90 VA: 0x180D5A490
+	|-RVA: 0xD5A4D0 Offset: 0xD58AD0 VA: 0x180D5A4D0
 	|-SortedList.ValueList<long, object>.Contains
 	|-SortedList.ValueList<object, object>.Contains
 	*/
@@ -747,7 +747,7 @@ private sealed class SortedList.ValueList<TKey, TValue> : IList<TValue>, ICollec
 	public void CopyTo(TValue[] array, int arrayIndex) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E38300 Offset: 0x1E36900 VA: 0x181E38300
+	|-RVA: 0x1E38340 Offset: 0x1E36940 VA: 0x181E38340
 	|-SortedList.ValueList<long, object>.CopyTo
 	|-SortedList.ValueList<object, object>.CopyTo
 	*/
@@ -755,27 +755,27 @@ private sealed class SortedList.ValueList<TKey, TValue> : IList<TValue>, ICollec
 	private void System.Collections.ICollection.CopyTo(Array array, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E38620 Offset: 0x1E36C20 VA: 0x181E38620
+	|-RVA: 0x1E38660 Offset: 0x1E36C60 VA: 0x181E38660
 	|-SortedList.ValueList<long, object>.System.Collections.ICollection.CopyTo
 	|
-	|-RVA: 0x1E38750 Offset: 0x1E36D50 VA: 0x181E38750
+	|-RVA: 0x1E38790 Offset: 0x1E36D90 VA: 0x181E38790
 	|-SortedList.ValueList<object, object>.System.Collections.ICollection.CopyTo
 	*/
 
 	public void Insert(int index, TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E383E0 Offset: 0x1E369E0 VA: 0x181E383E0
+	|-RVA: 0x1E38420 Offset: 0x1E36A20 VA: 0x181E38420
 	|-SortedList.ValueList<long, object>.Insert
 	|
-	|-RVA: 0x1E38440 Offset: 0x1E36A40 VA: 0x181E38440
+	|-RVA: 0x1E38480 Offset: 0x1E36A80 VA: 0x181E38480
 	|-SortedList.ValueList<object, object>.Insert
 	*/
 
 	public TValue get_Item(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2E360 Offset: 0x1E2C960 VA: 0x181E2E360
+	|-RVA: 0x1E2E3A0 Offset: 0x1E2C9A0 VA: 0x181E2E3A0
 	|-SortedList.ValueList<long, object>.get_Item
 	|-SortedList.ValueList<object, object>.get_Item
 	*/
@@ -783,17 +783,17 @@ private sealed class SortedList.ValueList<TKey, TValue> : IList<TValue>, ICollec
 	public void set_Item(int index, TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E38920 Offset: 0x1E36F20 VA: 0x181E38920
+	|-RVA: 0x1E38960 Offset: 0x1E36F60 VA: 0x181E38960
 	|-SortedList.ValueList<long, object>.set_Item
 	|
-	|-RVA: 0x1E38980 Offset: 0x1E36F80 VA: 0x181E38980
+	|-RVA: 0x1E389C0 Offset: 0x1E36FC0 VA: 0x181E389C0
 	|-SortedList.ValueList<object, object>.set_Item
 	*/
 
 	public IEnumerator<TValue> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DC00 Offset: 0x1E2C200 VA: 0x181E2DC00
+	|-RVA: 0x1E2DC40 Offset: 0x1E2C240 VA: 0x181E2DC40
 	|-SortedList.ValueList<long, object>.GetEnumerator
 	|-SortedList.ValueList<object, object>.GetEnumerator
 	*/
@@ -801,7 +801,7 @@ private sealed class SortedList.ValueList<TKey, TValue> : IList<TValue>, ICollec
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E2DC00 Offset: 0x1E2C200 VA: 0x181E2DC00
+	|-RVA: 0x1E2DC40 Offset: 0x1E2C240 VA: 0x181E2DC40
 	|-SortedList.ValueList<long, object>.System.Collections.IEnumerable.GetEnumerator
 	|-SortedList.ValueList<object, object>.System.Collections.IEnumerable.GetEnumerator
 	*/
@@ -809,7 +809,7 @@ private sealed class SortedList.ValueList<TKey, TValue> : IList<TValue>, ICollec
 	public int IndexOf(TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E38370 Offset: 0x1E36970 VA: 0x181E38370
+	|-RVA: 0x1E383B0 Offset: 0x1E369B0 VA: 0x181E383B0
 	|-SortedList.ValueList<long, object>.IndexOf
 	|-SortedList.ValueList<object, object>.IndexOf
 	*/
@@ -817,20 +817,20 @@ private sealed class SortedList.ValueList<TKey, TValue> : IList<TValue>, ICollec
 	public bool Remove(TValue value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E38560 Offset: 0x1E36B60 VA: 0x181E38560
+	|-RVA: 0x1E385A0 Offset: 0x1E36BA0 VA: 0x181E385A0
 	|-SortedList.ValueList<long, object>.Remove
 	|
-	|-RVA: 0x1E385C0 Offset: 0x1E36BC0 VA: 0x181E385C0
+	|-RVA: 0x1E38600 Offset: 0x1E36C00 VA: 0x181E38600
 	|-SortedList.ValueList<object, object>.Remove
 	*/
 
 	public void RemoveAt(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1E38500 Offset: 0x1E36B00 VA: 0x181E38500
+	|-RVA: 0x1E38540 Offset: 0x1E36B40 VA: 0x181E38540
 	|-SortedList.ValueList<long, object>.RemoveAt
 	|
-	|-RVA: 0x1E384A0 Offset: 0x1E36AA0 VA: 0x181E384A0
+	|-RVA: 0x1E384E0 Offset: 0x1E36AE0 VA: 0x181E384E0
 	|-SortedList.ValueList<object, object>.RemoveAt
 	*/
 

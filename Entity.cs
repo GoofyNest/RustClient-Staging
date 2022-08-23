@@ -451,7 +451,7 @@ public class EntityComponent<T> : EntityComponentBase // TypeDefIndex: 9488
 	protected T get_baseEntity() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1893BB0 Offset: 0x18921B0 VA: 0x181893BB0
+	|-RVA: 0x1893BF0 Offset: 0x18921F0 VA: 0x181893BF0
 	|-EntityComponent<BaseEntity>.get_baseEntity
 	|-EntityComponent<BasePlayer>.get_baseEntity
 	|-EntityComponent<object>.get_baseEntity
@@ -460,14 +460,14 @@ public class EntityComponent<T> : EntityComponentBase // TypeDefIndex: 9488
 	protected void UpdateBaseEntity() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1893A30 Offset: 0x1892030 VA: 0x181893A30
+	|-RVA: 0x1893A70 Offset: 0x1892070 VA: 0x181893A70
 	|-EntityComponent<object>.UpdateBaseEntity
 	*/
 
 	protected override BaseEntity GetBaseEntity() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1355360 Offset: 0x1353960 VA: 0x181355360
+	|-RVA: 0x13553A0 Offset: 0x13539A0 VA: 0x1813553A0
 	|-EntityComponent<BaseEntity>.GetBaseEntity
 	|-EntityComponent<BasePlayer>.GetBaseEntity
 	|-EntityComponent<object>.GetBaseEntity
@@ -476,7 +476,7 @@ public class EntityComponent<T> : EntityComponentBase // TypeDefIndex: 9488
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1893B90 Offset: 0x1892190 VA: 0x181893B90
+	|-RVA: 0x1893BD0 Offset: 0x18921D0 VA: 0x181893BD0
 	|-EntityComponent<BaseEntity>..ctor
 	|-EntityComponent<BasePlayer>..ctor
 	|-EntityComponent<object>..ctor

@@ -102,7 +102,7 @@ public class Dropdown : Selectable, IPointerClickHandler, IEventSystemHandler, I
 	private static T GetOrAddComponent<T>(GameObject go) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159E270 Offset: 0x159C870 VA: 0x18159E270
+	|-RVA: 0x159E2B0 Offset: 0x159C8B0 VA: 0x18159E2B0
 	|-Dropdown.GetOrAddComponent<object>
 	|-Dropdown.GetOrAddComponent<Canvas>
 	|-Dropdown.GetOrAddComponent<CanvasGroup>

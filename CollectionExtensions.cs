@@ -7,7 +7,7 @@ public static class CollectionExtensions // TypeDefIndex: 1442
 	public static TValue GetValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue> dictionary, TKey key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF18E0 Offset: 0xBEFEE0 VA: 0x180BF18E0
+	|-RVA: 0xBF1920 Offset: 0xBEFF20 VA: 0x180BF1920
 	|-CollectionExtensions.GetValueOrDefault<object, object>
 	|-CollectionExtensions.GetValueOrDefault<string, LocalDataStoreSlot>
 	*/
@@ -16,7 +16,7 @@ public static class CollectionExtensions // TypeDefIndex: 1442
 	public static TValue GetValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue> dictionary, TKey key, TValue defaultValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159DB50 Offset: 0x159C150 VA: 0x18159DB50
+	|-RVA: 0x159DB90 Offset: 0x159C190 VA: 0x18159DB90
 	|-CollectionExtensions.GetValueOrDefault<object, object>
 	*/
 
@@ -28,7 +28,7 @@ internal static class CollectionExtensions // TypeDefIndex: 5760
 	public static bool SequenceEqual<TSource>(List<TSource> first, List<TSource> second) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBEEE80 Offset: 0xBED480 VA: 0x180BEEE80
+	|-RVA: 0xBEEEC0 Offset: 0xBED4C0 VA: 0x180BEEEC0
 	|-CollectionExtensions.SequenceEqual<NameValueHeaderValue>
 	|-CollectionExtensions.SequenceEqual<RangeItemHeaderValue>
 	|-CollectionExtensions.SequenceEqual<object>
@@ -42,7 +42,7 @@ internal static class CollectionExtensions // TypeDefIndex: 5760
 	public static string ToString<T>(List<T> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED2340 Offset: 0xED0940 VA: 0x180ED2340
+	|-RVA: 0xED2380 Offset: 0xED0980 VA: 0x180ED2380
 	|-CollectionExtensions.ToString<NameValueHeaderValue>
 	|-CollectionExtensions.ToString<object>
 	*/
@@ -51,7 +51,7 @@ internal static class CollectionExtensions // TypeDefIndex: 5760
 	public static void ToStringBuilder<T>(List<T> list, StringBuilder sb) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE007A0 Offset: 0xDFEDA0 VA: 0x180E007A0
+	|-RVA: 0xE007E0 Offset: 0xDFEDE0 VA: 0x180E007E0
 	|-CollectionExtensions.ToStringBuilder<NameValueHeaderValue>
 	|-CollectionExtensions.ToStringBuilder<object>
 	|-CollectionExtensions.ToStringBuilder<string>

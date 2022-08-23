@@ -20,7 +20,7 @@ internal sealed class NoAllocHelpers // TypeDefIndex: 3519
 	public static int SafeLength<T>(List<T> values) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED7680 Offset: 0xED5C80 VA: 0x180ED7680
+	|-RVA: 0xED76C0 Offset: 0xED5CC0 VA: 0x180ED76C0
 	|-NoAllocHelpers.SafeLength<int>
 	|-NoAllocHelpers.SafeLength<object>
 	|-NoAllocHelpers.SafeLength<Color32>
@@ -33,7 +33,7 @@ internal sealed class NoAllocHelpers // TypeDefIndex: 3519
 	public static T[] ExtractArrayFromListT<T>(List<T> list) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B050 Offset: 0x1A39650 VA: 0x181A3B050
+	|-RVA: 0x1A3B090 Offset: 0x1A39690 VA: 0x181A3B090
 	|-NoAllocHelpers.ExtractArrayFromListT<object>
 	|-NoAllocHelpers.ExtractArrayFromListT<Material>
 	*/
