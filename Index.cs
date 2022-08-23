@@ -155,7 +155,7 @@ internal sealed class Index // TypeDefIndex: 4300
 	internal static int IndexOfReference<T>(List<T> list, T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED5670 Offset: 0xED3C70 VA: 0x180ED5670
+	|-RVA: 0xED5770 Offset: 0xED3D70 VA: 0x180ED5770
 	|-Index.IndexOfReference<object>
 	*/
 

@@ -7,7 +7,7 @@ private sealed class TaskFactory.FromAsyncTrimPromise<TResult, TInstance> : Task
 	internal void .ctor(TInstance thisRef, Func<TInstance, IAsyncResult, TResult> endMethod) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A83BC0 Offset: 0x1A821C0 VA: 0x181A83BC0
+	|-RVA: 0x1A83CC0 Offset: 0x1A822C0 VA: 0x181A83CC0
 	|-TaskFactory.FromAsyncTrimPromise<int, object>..ctor
 	|-TaskFactory.FromAsyncTrimPromise<object, object>..ctor
 	|-TaskFactory.FromAsyncTrimPromise<VoidTaskResult, object>..ctor
@@ -16,39 +16,39 @@ private sealed class TaskFactory.FromAsyncTrimPromise<TResult, TInstance> : Task
 	internal static void CompleteFromAsyncResult(IAsyncResult asyncResult) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A83340 Offset: 0x1A81940 VA: 0x181A83340
+	|-RVA: 0x1A83440 Offset: 0x1A81A40 VA: 0x181A83440
 	|-TaskFactory.FromAsyncTrimPromise<int, object>.CompleteFromAsyncResult
 	|
-	|-RVA: 0x1A83120 Offset: 0x1A81720 VA: 0x181A83120
+	|-RVA: 0x1A83220 Offset: 0x1A81820 VA: 0x181A83220
 	|-TaskFactory.FromAsyncTrimPromise<object, object>.CompleteFromAsyncResult
 	|
-	|-RVA: 0x1A82F00 Offset: 0x1A81500 VA: 0x181A82F00
+	|-RVA: 0x1A83000 Offset: 0x1A81600 VA: 0x181A83000
 	|-TaskFactory.FromAsyncTrimPromise<VoidTaskResult, object>.CompleteFromAsyncResult
 	*/
 
 	internal void Complete(TInstance thisRef, Func<TInstance, IAsyncResult, TResult> endMethod, IAsyncResult asyncResult, bool requiresSynchronization) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A836C0 Offset: 0x1A81CC0 VA: 0x181A836C0
+	|-RVA: 0x1A837C0 Offset: 0x1A81DC0 VA: 0x181A837C0
 	|-TaskFactory.FromAsyncTrimPromise<int, object>.Complete
 	|
-	|-RVA: 0x1A83820 Offset: 0x1A81E20 VA: 0x181A83820
+	|-RVA: 0x1A83920 Offset: 0x1A81F20 VA: 0x181A83920
 	|-TaskFactory.FromAsyncTrimPromise<object, object>.Complete
 	|
-	|-RVA: 0x1A83560 Offset: 0x1A81B60 VA: 0x181A83560
+	|-RVA: 0x1A83660 Offset: 0x1A81C60 VA: 0x181A83660
 	|-TaskFactory.FromAsyncTrimPromise<VoidTaskResult, object>.Complete
 	*/
 
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A83980 Offset: 0x1A81F80 VA: 0x181A83980
+	|-RVA: 0x1A83A80 Offset: 0x1A82080 VA: 0x181A83A80
 	|-TaskFactory.FromAsyncTrimPromise<int, object>..cctor
 	|
-	|-RVA: 0x1A83A40 Offset: 0x1A82040 VA: 0x181A83A40
+	|-RVA: 0x1A83B40 Offset: 0x1A82140 VA: 0x181A83B40
 	|-TaskFactory.FromAsyncTrimPromise<object, object>..cctor
 	|
-	|-RVA: 0x1A83B00 Offset: 0x1A82100 VA: 0x181A83B00
+	|-RVA: 0x1A83C00 Offset: 0x1A82200 VA: 0x181A83C00
 	|-TaskFactory.FromAsyncTrimPromise<VoidTaskResult, object>..cctor
 	*/
 
@@ -63,7 +63,7 @@ private sealed class TaskFactory.<>c__DisplayClass35_0<TResult> // TypeDefIndex:
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BAD0 Offset: 0xD5A0D0 VA: 0x180D5BAD0
+	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
 	|-TaskFactory.<>c__DisplayClass35_0<PublishResult>..ctor
 	|-TaskFactory.<>c__DisplayClass35_0<bool>..ctor
 	|-TaskFactory.<>c__DisplayClass35_0<int>..ctor
@@ -83,7 +83,7 @@ private sealed class TaskFactory.<>c__DisplayClass35_0<TResult> // TypeDefIndex:
 	internal void <FromAsyncImpl>b__0(IAsyncResult iar) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x13688C0 Offset: 0x1366EC0 VA: 0x1813688C0
+	|-RVA: 0x13689C0 Offset: 0x1366FC0 VA: 0x1813689C0
 	|-TaskFactory.<>c__DisplayClass35_0<PublishResult>.<FromAsyncImpl>b__0
 	|-TaskFactory.<>c__DisplayClass35_0<bool>.<FromAsyncImpl>b__0
 	|-TaskFactory.<>c__DisplayClass35_0<int>.<FromAsyncImpl>b__0
@@ -110,7 +110,7 @@ private sealed class TaskFactory.<>c__DisplayClass35_1<TResult> // TypeDefIndex:
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BAD0 Offset: 0xD5A0D0 VA: 0x180D5BAD0
+	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
 	|-TaskFactory.<>c__DisplayClass35_1<PublishResult>..ctor
 	|-TaskFactory.<>c__DisplayClass35_1<bool>..ctor
 	|-TaskFactory.<>c__DisplayClass35_1<int>..ctor
@@ -130,7 +130,7 @@ private sealed class TaskFactory.<>c__DisplayClass35_1<TResult> // TypeDefIndex:
 	internal void <FromAsyncImpl>b__1(IAsyncResult iar) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1368900 Offset: 0x1366F00 VA: 0x181368900
+	|-RVA: 0x1368A00 Offset: 0x1367000 VA: 0x181368A00
 	|-TaskFactory.<>c__DisplayClass35_1<PublishResult>.<FromAsyncImpl>b__1
 	|-TaskFactory.<>c__DisplayClass35_1<bool>.<FromAsyncImpl>b__1
 	|-TaskFactory.<>c__DisplayClass35_1<int>.<FromAsyncImpl>b__1
@@ -158,7 +158,7 @@ private sealed class TaskFactory.<>c__DisplayClass41_0<TResult, TArg1, TArg2> //
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BAD0 Offset: 0xD5A0D0 VA: 0x180D5BAD0
+	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
 	|-TaskFactory.<>c__DisplayClass41_0<int, object, int>..ctor
 	|-TaskFactory.<>c__DisplayClass41_0<object, object, object>..ctor
 	*/
@@ -166,7 +166,7 @@ private sealed class TaskFactory.<>c__DisplayClass41_0<TResult, TArg1, TArg2> //
 	internal void <FromAsyncImpl>b__0(IAsyncResult iar) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x13688C0 Offset: 0x1366EC0 VA: 0x1813688C0
+	|-RVA: 0x13689C0 Offset: 0x1366FC0 VA: 0x1813689C0
 	|-TaskFactory.<>c__DisplayClass41_0<int, object, int>.<FromAsyncImpl>b__0
 	|-TaskFactory.<>c__DisplayClass41_0<object, object, object>.<FromAsyncImpl>b__0
 	*/
@@ -181,7 +181,7 @@ private sealed class TaskFactory.<>c__DisplayClass41_1<TResult, TArg1, TArg2> //
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BAD0 Offset: 0xD5A0D0 VA: 0x180D5BAD0
+	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
 	|-TaskFactory.<>c__DisplayClass41_1<int, object, int>..ctor
 	|-TaskFactory.<>c__DisplayClass41_1<object, object, object>..ctor
 	*/
@@ -189,7 +189,7 @@ private sealed class TaskFactory.<>c__DisplayClass41_1<TResult, TArg1, TArg2> //
 	internal void <FromAsyncImpl>b__1(IAsyncResult iar) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1368900 Offset: 0x1366F00 VA: 0x181368900
+	|-RVA: 0x1368A00 Offset: 0x1367000 VA: 0x181368A00
 	|-TaskFactory.<>c__DisplayClass41_1<int, object, int>.<FromAsyncImpl>b__1
 	|-TaskFactory.<>c__DisplayClass41_1<object, object, object>.<FromAsyncImpl>b__1
 	*/
@@ -218,7 +218,7 @@ public class TaskFactory // TypeDefIndex: 884
 	public Task<TResult> FromAsync<TResult>(Func<AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, TResult> endMethod, object state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157B410 Offset: 0x1579A10 VA: 0x18157B410
+	|-RVA: 0x157B510 Offset: 0x1579B10 VA: 0x18157B510
 	|-TaskFactory.FromAsync<ISocket>
 	|-TaskFactory.FromAsync<object>
 	*/

@@ -37,178 +37,178 @@ public static class Utility // TypeDefIndex: 5272
 	internal static T ToType<T>(IntPtr ptr) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D47D0 Offset: 0x5D2DD0 VA: 0x1805D47D0
+	|-RVA: 0x5D48A0 Offset: 0x5D2EA0 VA: 0x1805D48A0
 	|-Utility.ToType<ActiveBeaconsUpdated_t>
 	|
-	|-RVA: 0x5D48E0 Offset: 0x5D2EE0 VA: 0x1805D48E0
+	|-RVA: 0x5D49B0 Offset: 0x5D2FB0 VA: 0x1805D49B0
 	|-Utility.ToType<AvailableBeaconLocationsUpdated_t>
 	|
-	|-RVA: 0x5D49F0 Offset: 0x5D2FF0 VA: 0x1805D49F0
+	|-RVA: 0x5D4AC0 Offset: 0x5D30C0 VA: 0x1805D4AC0
 	|-Utility.ToType<ClientGameServerDeny_t>
 	|
-	|-RVA: 0x5D4B20 Offset: 0x5D3120 VA: 0x1805D4B20
+	|-RVA: 0x5D4BF0 Offset: 0x5D31F0 VA: 0x1805D4BF0
 	|-Utility.ToType<DownloadItemResult_t>
 	|
-	|-RVA: 0x5D4C70 Offset: 0x5D3270 VA: 0x1805D4C70
+	|-RVA: 0x5D4D40 Offset: 0x5D3340 VA: 0x1805D4D40
 	|-Utility.ToType<DurationControl_t>
 	|
-	|-RVA: 0x5D4DB0 Offset: 0x5D33B0 VA: 0x1805D4DB0
+	|-RVA: 0x5D4E80 Offset: 0x5D3480 VA: 0x1805D4E80
 	|-Utility.ToType<FriendRichPresenceUpdate_t>
 	|
-	|-RVA: 0x5D4EE0 Offset: 0x5D34E0 VA: 0x1805D4EE0
+	|-RVA: 0x5D4FB0 Offset: 0x5D35B0 VA: 0x1805D4FB0
 	|-Utility.ToType<GameConnectedClanChatMsg_t>
 	|
-	|-RVA: 0x5D5020 Offset: 0x5D3620 VA: 0x1805D5020
+	|-RVA: 0x5D50F0 Offset: 0x5D36F0 VA: 0x1805D50F0
 	|-Utility.ToType<GameConnectedFriendChatMsg_t>
 	|
-	|-RVA: 0x5D5150 Offset: 0x5D3750 VA: 0x1805D5150
+	|-RVA: 0x5D5220 Offset: 0x5D3820 VA: 0x1805D5220
 	|-Utility.ToType<GameLobbyJoinRequested_t>
 	|
-	|-RVA: 0x5D5280 Offset: 0x5D3880 VA: 0x1805D5280
+	|-RVA: 0x5D5350 Offset: 0x5D3950 VA: 0x1805D5350
 	|-Utility.ToType<GameOverlayActivated_t>
 	|
-	|-RVA: 0x5D5390 Offset: 0x5D3990 VA: 0x1805D5390
+	|-RVA: 0x5D5460 Offset: 0x5D3A60 VA: 0x1805D5460
 	|-Utility.ToType<GameRichPresenceJoinRequested_t>
 	|
-	|-RVA: 0x5D54C0 Offset: 0x5D3AC0 VA: 0x1805D54C0
+	|-RVA: 0x5D5590 Offset: 0x5D3B90 VA: 0x1805D5590
 	|-Utility.ToType<GameServerChangeRequested_t>
 	|
-	|-RVA: 0x5D55F0 Offset: 0x5D3BF0 VA: 0x1805D55F0
+	|-RVA: 0x5D56C0 Offset: 0x5D3CC0 VA: 0x1805D56C0
 	|-Utility.ToType<GameWebCallback_t>
 	|
-	|-RVA: 0x5D5700 Offset: 0x5D3D00 VA: 0x1805D5700
+	|-RVA: 0x5D57D0 Offset: 0x5D3DD0 VA: 0x1805D57D0
 	|-Utility.ToType<GamepadTextInputDismissed_t>
 	|
-	|-RVA: 0x5D5810 Offset: 0x5D3E10 VA: 0x1805D5810
+	|-RVA: 0x5D58E0 Offset: 0x5D3EE0 VA: 0x1805D58E0
 	|-Utility.ToType<GetAuthSessionTicketResponse_t>
 	|
-	|-RVA: 0x5D5920 Offset: 0x5D3F20 VA: 0x1805D5920
+	|-RVA: 0x5D59F0 Offset: 0x5D3FF0 VA: 0x1805D59F0
 	|-Utility.ToType<IPCountry_t>
 	|
-	|-RVA: 0x5D5A30 Offset: 0x5D4030 VA: 0x1805D5A30
+	|-RVA: 0x5D5B00 Offset: 0x5D4100 VA: 0x1805D5B00
 	|-Utility.ToType<ItemInstalled_t>
 	|
-	|-RVA: 0x5D5B60 Offset: 0x5D4160 VA: 0x1805D5B60
+	|-RVA: 0x5D5C30 Offset: 0x5D4230 VA: 0x1805D5C30
 	|-Utility.ToType<LicensesUpdated_t>
 	|
-	|-RVA: 0x5D5C70 Offset: 0x5D4270 VA: 0x1805D5C70
+	|-RVA: 0x5D5D40 Offset: 0x5D4340 VA: 0x1805D5D40
 	|-Utility.ToType<LobbyChatMsg_t>
 	|
-	|-RVA: 0x5D5DC0 Offset: 0x5D43C0 VA: 0x1805D5DC0
+	|-RVA: 0x5D5E90 Offset: 0x5D4490 VA: 0x1805D5E90
 	|-Utility.ToType<LobbyChatUpdate_t>
 	|
-	|-RVA: 0x5D5F00 Offset: 0x5D4500 VA: 0x1805D5F00
+	|-RVA: 0x5D5FD0 Offset: 0x5D45D0 VA: 0x1805D5FD0
 	|-Utility.ToType<LobbyCreated_t>
 	|
-	|-RVA: 0x5D6030 Offset: 0x5D4630 VA: 0x1805D6030
+	|-RVA: 0x5D6100 Offset: 0x5D4700 VA: 0x1805D6100
 	|-Utility.ToType<LobbyDataUpdate_t>
 	|
-	|-RVA: 0x5D6180 Offset: 0x5D4780 VA: 0x1805D6180
+	|-RVA: 0x5D6250 Offset: 0x5D4850 VA: 0x1805D6250
 	|-Utility.ToType<LobbyEnter_t>
 	|
-	|-RVA: 0x5D62D0 Offset: 0x5D48D0 VA: 0x1805D62D0
+	|-RVA: 0x5D63A0 Offset: 0x5D49A0 VA: 0x1805D63A0
 	|-Utility.ToType<LobbyGameCreated_t>
 	|
-	|-RVA: 0x5D6420 Offset: 0x5D4A20 VA: 0x1805D6420
+	|-RVA: 0x5D64F0 Offset: 0x5D4AF0 VA: 0x1805D64F0
 	|-Utility.ToType<LobbyInvite_t>
 	|
-	|-RVA: 0x5D6570 Offset: 0x5D4B70 VA: 0x1805D6570
+	|-RVA: 0x5D6640 Offset: 0x5D4C40 VA: 0x1805D6640
 	|-Utility.ToType<LowBatteryPower_t>
 	|
-	|-RVA: 0x5D6680 Offset: 0x5D4C80 VA: 0x1805D6680
+	|-RVA: 0x5D6750 Offset: 0x5D4D50 VA: 0x1805D6750
 	|-Utility.ToType<MicroTxnAuthorizationResponse_t>
 	|
-	|-RVA: 0x5D67D0 Offset: 0x5D4DD0 VA: 0x1805D67D0
+	|-RVA: 0x5D68A0 Offset: 0x5D4EA0 VA: 0x1805D68A0
 	|-Utility.ToType<OverlayBrowserProtocolNavigation_t>
 	|
-	|-RVA: 0x5D68E0 Offset: 0x5D4EE0 VA: 0x1805D68E0
+	|-RVA: 0x5D69B0 Offset: 0x5D4FB0 VA: 0x1805D69B0
 	|-Utility.ToType<P2PSessionConnectFail_t>
 	|
-	|-RVA: 0x5D6A10 Offset: 0x5D5010 VA: 0x1805D6A10
+	|-RVA: 0x5D6AE0 Offset: 0x5D50E0 VA: 0x1805D6AE0
 	|-Utility.ToType<P2PSessionRequest_t>
 	|
-	|-RVA: 0x5D6B20 Offset: 0x5D5120 VA: 0x1805D6B20
+	|-RVA: 0x5D6BF0 Offset: 0x5D51F0 VA: 0x1805D6BF0
 	|-Utility.ToType<PersonaStateChange_t>
 	|
-	|-RVA: 0x5D6C50 Offset: 0x5D5250 VA: 0x1805D6C50
+	|-RVA: 0x5D6D20 Offset: 0x5D5320 VA: 0x1805D6D20
 	|-Utility.ToType<PlaybackStatusHasChanged_t>
 	|
-	|-RVA: 0x5D6D60 Offset: 0x5D5360 VA: 0x1805D6D60
+	|-RVA: 0x5D6E30 Offset: 0x5D5430 VA: 0x1805D6E30
 	|-Utility.ToType<RemoteStoragePublishedFileSubscribed_t>
 	|
-	|-RVA: 0x5D6E90 Offset: 0x5D5490 VA: 0x1805D6E90
+	|-RVA: 0x5D6F60 Offset: 0x5D5560 VA: 0x1805D6F60
 	|-Utility.ToType<RemoteStoragePublishedFileUnsubscribed_t>
 	|
-	|-RVA: 0x5D70D0 Offset: 0x5D56D0 VA: 0x1805D70D0
+	|-RVA: 0x5D71A0 Offset: 0x5D57A0 VA: 0x1805D71A0
 	|-Utility.ToType<ScreenshotReady_t>
 	|
-	|-RVA: 0x5D71E0 Offset: 0x5D57E0 VA: 0x1805D71E0
+	|-RVA: 0x5D72B0 Offset: 0x5D58B0 VA: 0x1805D72B0
 	|-Utility.ToType<ScreenshotRequested_t>
 	|
-	|-RVA: 0x5D72F0 Offset: 0x5D58F0 VA: 0x1805D72F0
+	|-RVA: 0x5D73C0 Offset: 0x5D59C0 VA: 0x1805D73C0
 	|-Utility.ToType<SteamAPICallCompleted_t>
 	|
-	|-RVA: 0x5D7420 Offset: 0x5D5A20 VA: 0x1805D7420
+	|-RVA: 0x5D74F0 Offset: 0x5D5AF0 VA: 0x1805D74F0
 	|-Utility.ToType<SteamInventoryDefinitionUpdate_t>
 	|
-	|-RVA: 0x5D7530 Offset: 0x5D5B30 VA: 0x1805D7530
+	|-RVA: 0x5D7600 Offset: 0x5D5C00 VA: 0x1805D7600
 	|-Utility.ToType<SteamInventoryFullUpdate_t>
 	|
-	|-RVA: 0x5D7640 Offset: 0x5D5C40 VA: 0x1805D7640
+	|-RVA: 0x5D7710 Offset: 0x5D5D10 VA: 0x1805D7710
 	|-Utility.ToType<SteamNetConnectionStatusChangedCallback_t>
 	|
-	|-RVA: 0x5D7890 Offset: 0x5D5E90 VA: 0x1805D7890
+	|-RVA: 0x5D7960 Offset: 0x5D5F60 VA: 0x1805D7960
 	|-Utility.ToType<SteamNetworkingFakeIPResult_t>
 	|
-	|-RVA: 0x5D7A60 Offset: 0x5D6060 VA: 0x1805D7A60
+	|-RVA: 0x5D7B30 Offset: 0x5D6130 VA: 0x1805D7B30
 	|-Utility.ToType<SteamParentalSettingsChanged_t>
 	|
-	|-RVA: 0x5D7B70 Offset: 0x5D6170 VA: 0x1805D7B70
+	|-RVA: 0x5D7C40 Offset: 0x5D6240 VA: 0x1805D7C40
 	|-Utility.ToType<SteamRelayNetworkStatus_t>
 	|
-	|-RVA: 0x5D7CC0 Offset: 0x5D62C0 VA: 0x1805D7CC0
+	|-RVA: 0x5D7D90 Offset: 0x5D6390 VA: 0x1805D7D90
 	|-Utility.ToType<SteamRemotePlaySessionConnected_t>
 	|
-	|-RVA: 0x5D7DD0 Offset: 0x5D63D0 VA: 0x1805D7DD0
+	|-RVA: 0x5D7EA0 Offset: 0x5D64A0 VA: 0x1805D7EA0
 	|-Utility.ToType<SteamRemotePlaySessionDisconnected_t>
 	|
-	|-RVA: 0x5D7EE0 Offset: 0x5D64E0 VA: 0x1805D7EE0
+	|-RVA: 0x5D7FB0 Offset: 0x5D65B0 VA: 0x1805D7FB0
 	|-Utility.ToType<SteamServerConnectFailure_t>
 	|
-	|-RVA: 0x5D7FF0 Offset: 0x5D65F0 VA: 0x1805D7FF0
+	|-RVA: 0x5D80C0 Offset: 0x5D66C0 VA: 0x1805D80C0
 	|-Utility.ToType<SteamServersConnected_t>
 	|
-	|-RVA: 0x5D8100 Offset: 0x5D6700 VA: 0x1805D8100
+	|-RVA: 0x5D81D0 Offset: 0x5D67D0 VA: 0x1805D81D0
 	|-Utility.ToType<SteamServersDisconnected_t>
 	|
-	|-RVA: 0x5D8210 Offset: 0x5D6810 VA: 0x1805D8210
+	|-RVA: 0x5D82E0 Offset: 0x5D68E0 VA: 0x1805D82E0
 	|-Utility.ToType<SteamShutdown_t>
 	|
-	|-RVA: 0x5D8320 Offset: 0x5D6920 VA: 0x1805D8320
+	|-RVA: 0x5D83F0 Offset: 0x5D69F0 VA: 0x1805D83F0
 	|-Utility.ToType<UserAchievementIconFetched_t>
 	|
-	|-RVA: 0x5D8470 Offset: 0x5D6A70 VA: 0x1805D8470
+	|-RVA: 0x5D8540 Offset: 0x5D6B40 VA: 0x1805D8540
 	|-Utility.ToType<UserAchievementStored_t>
 	|
-	|-RVA: 0x5D85B0 Offset: 0x5D6BB0 VA: 0x1805D85B0
+	|-RVA: 0x5D8680 Offset: 0x5D6C80 VA: 0x1805D8680
 	|-Utility.ToType<UserStatsReceived_t>
 	|
-	|-RVA: 0x5D86F0 Offset: 0x5D6CF0 VA: 0x1805D86F0
+	|-RVA: 0x5D87C0 Offset: 0x5D6DC0 VA: 0x1805D87C0
 	|-Utility.ToType<UserStatsStored_t>
 	|
-	|-RVA: 0x5D8820 Offset: 0x5D6E20 VA: 0x1805D8820
+	|-RVA: 0x5D88F0 Offset: 0x5D6EF0 VA: 0x1805D88F0
 	|-Utility.ToType<UserStatsUnloaded_t>
 	|
-	|-RVA: 0x5D8930 Offset: 0x5D6F30 VA: 0x1805D8930
+	|-RVA: 0x5D8A00 Offset: 0x5D7000 VA: 0x1805D8A00
 	|-Utility.ToType<ValidateAuthTicketResponse_t>
 	|
-	|-RVA: 0x5D8A70 Offset: 0x5D7070 VA: 0x1805D8A70
+	|-RVA: 0x5D8B40 Offset: 0x5D7140 VA: 0x1805D8B40
 	|-Utility.ToType<VolumeHasChanged_t>
 	|
-	|-RVA: 0x5D8B90 Offset: 0x5D7190 VA: 0x1805D8B90
+	|-RVA: 0x5D8C60 Offset: 0x5D7260 VA: 0x1805D8C60
 	|-Utility.ToType<gameserveritem_t>
 	|
-	|-RVA: 0x5D6FC0 Offset: 0x5D55C0 VA: 0x1805D6FC0
+	|-RVA: 0x5D7090 Offset: 0x5D5690 VA: 0x1805D7090
 	|-Utility.ToType<object>
 	*/
 

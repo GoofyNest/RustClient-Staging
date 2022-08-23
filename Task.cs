@@ -5,7 +5,7 @@ private sealed class Task.<>c<TResult> // TypeDefIndex: 843
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD66290 Offset: 0xD64890 VA: 0x180D66290
+	|-RVA: 0xD66390 Offset: 0xD64990 VA: 0x180D66390
 	|-Task.<>c<PublishResult>..cctor
 	|-Task.<>c<bool>..cctor
 	|-Task.<>c<int>..cctor
@@ -25,7 +25,7 @@ private sealed class Task.<>c<TResult> // TypeDefIndex: 843
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BAD0 Offset: 0xD5A0D0 VA: 0x180D5BAD0
+	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
 	|-Task.<>c<PublishResult>..ctor
 	|-Task.<>c<bool>..ctor
 	|-Task.<>c<int>..ctor
@@ -45,46 +45,46 @@ private sealed class Task.<>c<TResult> // TypeDefIndex: 843
 	internal Task<TResult> <.cctor>b__64_0(Task<Task> completed) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A98CB0 Offset: 0x1A972B0 VA: 0x181A98CB0
+	|-RVA: 0x1A98DB0 Offset: 0x1A973B0 VA: 0x181A98DB0
 	|-Task.<>c<PublishResult>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A989F0 Offset: 0x1A96FF0 VA: 0x181A989F0
+	|-RVA: 0x1A98AF0 Offset: 0x1A970F0 VA: 0x181A98AF0
 	|-Task.<>c<bool>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A98E10 Offset: 0x1A97410 VA: 0x181A98E10
+	|-RVA: 0x1A98F10 Offset: 0x1A97510 VA: 0x181A98F10
 	|-Task.<>c<int>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A98730 Offset: 0x1A96D30 VA: 0x181A98730
+	|-RVA: 0x1A98830 Offset: 0x1A96E30 VA: 0x181A98830
 	|-Task.<>c<UdpReceiveResult>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A98AA0 Offset: 0x1A970A0 VA: 0x181A98AA0
+	|-RVA: 0x1A98BA0 Offset: 0x1A971A0 VA: 0x181A98BA0
 	|-Task.<>c<Nullable<ServerInfo>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A98F70 Offset: 0x1A97570 VA: 0x181A98F70
+	|-RVA: 0x1A99070 Offset: 0x1A97670 VA: 0x181A99070
 	|-Task.<>c<Nullable<Image>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A98940 Offset: 0x1A96F40 VA: 0x181A98940
+	|-RVA: 0x1A98A40 Offset: 0x1A97040 VA: 0x181A98A40
 	|-Task.<>c<Nullable<InventoryPurchaseResult>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A99020 Offset: 0x1A97620 VA: 0x181A99020
+	|-RVA: 0x1A99120 Offset: 0x1A97720 VA: 0x181A99120
 	|-Task.<>c<Nullable<InventoryResult>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A98890 Offset: 0x1A96E90 VA: 0x181A98890
+	|-RVA: 0x1A98990 Offset: 0x1A96F90 VA: 0x181A98990
 	|-Task.<>c<Nullable<Item>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A987E0 Offset: 0x1A96DE0 VA: 0x181A987E0
+	|-RVA: 0x1A988E0 Offset: 0x1A96EE0 VA: 0x181A988E0
 	|-Task.<>c<Nullable<ResultPage>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A98C00 Offset: 0x1A97200 VA: 0x181A98C00
+	|-RVA: 0x1A98D00 Offset: 0x1A97300 VA: 0x181A98D00
 	|-Task.<>c<Nullable<int>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A98EC0 Offset: 0x1A974C0 VA: 0x181A98EC0
+	|-RVA: 0x1A98FC0 Offset: 0x1A975C0 VA: 0x181A98FC0
 	|-Task.<>c<Nullable<Int32Enum>>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A98B50 Offset: 0x1A97150 VA: 0x181A98B50
+	|-RVA: 0x1A98C50 Offset: 0x1A97250 VA: 0x181A98C50
 	|-Task.<>c<object>.<.cctor>b__64_0
 	|
-	|-RVA: 0x1A98D60 Offset: 0x1A97360 VA: 0x181A98D60
+	|-RVA: 0x1A98E60 Offset: 0x1A97460 VA: 0x181A98E60
 	|-Task.<>c<VoidTaskResult>.<.cctor>b__64_0
 	*/
 
@@ -415,15 +415,15 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	public static Task<TResult> FromResult<TResult>(TResult result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157B870 Offset: 0x1579E70 VA: 0x18157B870
+	|-RVA: 0x157B970 Offset: 0x1579F70 VA: 0x18157B970
 	|-Task.FromResult<bool>
 	|
-	|-RVA: 0x157B930 Offset: 0x1579F30 VA: 0x18157B930
+	|-RVA: 0x157BA30 Offset: 0x157A030 VA: 0x18157BA30
 	|-Task.FromResult<Stream>
 	|-Task.FromResult<Tuple<int, int, int, bool>>
 	|-Task.FromResult<object>
 	|
-	|-RVA: 0x157B8D0 Offset: 0x1579ED0 VA: 0x18157B8D0
+	|-RVA: 0x157B9D0 Offset: 0x1579FD0 VA: 0x18157B9D0
 	|-Task.FromResult<int>
 	*/
 
@@ -432,13 +432,13 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	public static Task<TResult> FromException<TResult>(Exception exception) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157B600 Offset: 0x1579C00 VA: 0x18157B600
+	|-RVA: 0x157B700 Offset: 0x1579D00 VA: 0x18157B700
 	|-Task.FromException<int>
 	|
-	|-RVA: 0x157B6D0 Offset: 0x1579CD0 VA: 0x18157B6D0
+	|-RVA: 0x157B7D0 Offset: 0x1579DD0 VA: 0x18157B7D0
 	|-Task.FromException<object>
 	|
-	|-RVA: 0x157B7A0 Offset: 0x1579DA0 VA: 0x18157B7A0
+	|-RVA: 0x157B8A0 Offset: 0x1579EA0 VA: 0x18157B8A0
 	|-Task.FromException<VoidTaskResult>
 	*/
 
@@ -449,26 +449,26 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	internal static Task<TResult> FromCancellation<TResult>(CancellationToken cancellationToken) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED9FF0 Offset: 0xED85F0 VA: 0x180ED9FF0
+	|-RVA: 0xEDA0F0 Offset: 0xED86F0 VA: 0x180EDA0F0
 	|-Task.FromCancellation<bool>
 	|
-	|-RVA: 0xEDA1A0 Offset: 0xED87A0 VA: 0x180EDA1A0
+	|-RVA: 0xEDA2A0 Offset: 0xED88A0 VA: 0x180EDA2A0
 	|-Task.FromCancellation<int>
 	|
-	|-RVA: 0x157B450 Offset: 0x1579A50 VA: 0x18157B450
+	|-RVA: 0x157B550 Offset: 0x1579B50 VA: 0x18157B550
 	|-Task.FromCancellation<object>
 	*/
 
 	internal static Task<TResult> FromCancellation<TResult>(OperationCanceledException exception) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xEDA0C0 Offset: 0xED86C0 VA: 0x180EDA0C0
+	|-RVA: 0xEDA1C0 Offset: 0xED87C0 VA: 0x180EDA1C0
 	|-Task.FromCancellation<int>
 	|
-	|-RVA: 0xEDA270 Offset: 0xED8870 VA: 0x180EDA270
+	|-RVA: 0xEDA370 Offset: 0xED8970 VA: 0x180EDA370
 	|-Task.FromCancellation<object>
 	|
-	|-RVA: 0x157B520 Offset: 0x1579B20 VA: 0x18157B520
+	|-RVA: 0x157B620 Offset: 0x1579C20 VA: 0x18157B620
 	|-Task.FromCancellation<VoidTaskResult>
 	*/
 
@@ -477,18 +477,18 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	public static Task<TResult> Run<TResult>(Func<TResult> function) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157BFF0 Offset: 0x157A5F0 VA: 0x18157BFF0
+	|-RVA: 0x157C0F0 Offset: 0x157A6F0 VA: 0x18157C0F0
 	|-Task.Run<Stream>
 	|-Task.Run<object>
 	|
-	|-RVA: 0x157BA90 Offset: 0x157A090 VA: 0x18157BA90
+	|-RVA: 0x157BB90 Offset: 0x157A190 VA: 0x18157BB90
 	|-Task.Run<int>
 	*/
 
 	public static Task<TResult> Run<TResult>(Func<TResult> function, CancellationToken cancellationToken) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157BE90 Offset: 0x157A490 VA: 0x18157BE90
+	|-RVA: 0x157BF90 Offset: 0x157A590 VA: 0x18157BF90
 	|-Task.Run<MP3Stream>
 	|-Task.Run<object>
 	*/
@@ -496,7 +496,7 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	public static Task<TResult> Run<TResult>(Func<Task<TResult>> function) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157BE20 Offset: 0x157A420 VA: 0x18157BE20
+	|-RVA: 0x157BF20 Offset: 0x157A520 VA: 0x18157BF20
 	|-Task.Run<Stream>
 	|-Task.Run<WebResponse>
 	|-Task.Run<object>
@@ -505,7 +505,7 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	public static Task<TResult> Run<TResult>(Func<Task<TResult>> function, CancellationToken cancellationToken) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157BC00 Offset: 0x157A200 VA: 0x18157BC00
+	|-RVA: 0x157BD00 Offset: 0x157A300 VA: 0x18157BD00
 	|-Task.Run<object>
 	*/
 
@@ -520,7 +520,7 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	public static Task<TResult[]> WhenAll<TResult>(IEnumerable<Task<TResult>> tasks) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157C160 Offset: 0x157A760 VA: 0x18157C160
+	|-RVA: 0x157C260 Offset: 0x157A860 VA: 0x18157C260
 	|-Task.WhenAll<IPlayerInventory>
 	|-Task.WhenAll<object>
 	*/
@@ -528,14 +528,14 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	public static Task<TResult[]> WhenAll<TResult>(Task<TResult>[] tasks) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157C690 Offset: 0x157AC90 VA: 0x18157C690
+	|-RVA: 0x157C790 Offset: 0x157AD90 VA: 0x18157C790
 	|-Task.WhenAll<object>
 	*/
 
 	private static Task<TResult[]> InternalWhenAll<TResult>(Task<TResult>[] tasks) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x157B990 Offset: 0x1579F90 VA: 0x18157B990
+	|-RVA: 0x157BA90 Offset: 0x157A090 VA: 0x18157BA90
 	|-Task.InternalWhenAll<object>
 	*/
 
@@ -545,7 +545,7 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	internal static Task<TResult> CreateUnwrapPromise<TResult>(Task outerTask, bool lookForOce) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED9F80 Offset: 0xED8580 VA: 0x180ED9F80
+	|-RVA: 0xEDA080 Offset: 0xED8680 VA: 0x180EDA080
 	|-Task.CreateUnwrapPromise<object>
 	*/
 
@@ -602,21 +602,21 @@ private sealed class Task.WhenAllPromise<T> : Task<T[]>, ITaskCompletionAction /
 	internal void .ctor(Task<T>[] tasks) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1369B90 Offset: 0x1368190 VA: 0x181369B90
+	|-RVA: 0x1369C90 Offset: 0x1368290 VA: 0x181369C90
 	|-Task.WhenAllPromise<object>..ctor
 	*/
 
 	public void Invoke(Task ignored) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1369820 Offset: 0x1367E20 VA: 0x181369820
+	|-RVA: 0x1369920 Offset: 0x1367F20 VA: 0x181369920
 	|-Task.WhenAllPromise<object>.Invoke
 	*/
 
 	internal override bool get_ShouldNotifyDebuggerOfWaitCompletion() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1369D90 Offset: 0x1368390 VA: 0x181369D90
+	|-RVA: 0x1369E90 Offset: 0x1368490 VA: 0x181369E90
 	|-Task.WhenAllPromise<object>.get_ShouldNotifyDebuggerOfWaitCompletion
 	*/
 

@@ -5179,7 +5179,7 @@ public class UIDialog : ListComponent<UIDialog> // TypeDefIndex: 10920
 	public static T Spawn<T>(string prefab) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BA830 Offset: 0x15B8E30 VA: 0x1815BA830
+	|-RVA: 0x15BA930 Offset: 0x15B8F30 VA: 0x1815BA930
 	|-UIDialog.Spawn<ChangeSignText>
 	|-UIDialog.Spawn<MLRSUIDialog>
 	|-UIDialog.Spawn<MuteListController>

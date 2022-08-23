@@ -19,7 +19,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public T GetComponent<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15A31B0 Offset: 0x15A17B0 VA: 0x1815A31B0
+	|-RVA: 0x15A32B0 Offset: 0x15A18B0 VA: 0x1815A32B0
 	|-GameObject.GetComponent<AdminExistingSellOrder>
 	|-GameObject.GetComponent<AmbienceEmitter>
 	|-GameObject.GetComponent<AttackEntity>
@@ -229,7 +229,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public T GetComponentInChildren<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15A2FD0 Offset: 0x15A15D0 VA: 0x1815A2FD0
+	|-RVA: 0x15A30D0 Offset: 0x15A16D0 VA: 0x1815A30D0
 	|-GameObject.GetComponentInChildren<AnimationEvents>
 	|-GameObject.GetComponentInChildren<DungeonGridLink>
 	|-GameObject.GetComponentInChildren<DungeonVolume>
@@ -254,7 +254,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public T GetComponentInChildren<T>(bool includeInactive) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15A3000 Offset: 0x15A1600 VA: 0x1815A3000
+	|-RVA: 0x15A3100 Offset: 0x15A1700 VA: 0x1815A3100
 	|-GameObject.GetComponentInChildren<Text>
 	|-GameObject.GetComponentInChildren<object>
 	*/
@@ -266,7 +266,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public T GetComponentInParent<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15A30E0 Offset: 0x15A16E0 VA: 0x1815A30E0
+	|-RVA: 0x15A31E0 Offset: 0x15A17E0 VA: 0x1815A31E0
 	|-GameObject.GetComponentInParent<BaseEntity>
 	|-GameObject.GetComponentInParent<BaseViewModel>
 	|-GameObject.GetComponentInParent<DropMe>
@@ -289,7 +289,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public T[] GetComponents<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A38980 Offset: 0x1A36F80 VA: 0x181A38980
+	|-RVA: 0x1A38A80 Offset: 0x1A37080 VA: 0x181A38A80
 	|-GameObject.GetComponents<ConstructionGrade>
 	|-GameObject.GetComponents<Component>
 	|-GameObject.GetComponents<Graphic>
@@ -299,7 +299,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public void GetComponents<T>(List<T> results) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CE270 Offset: 0x5CC870 VA: 0x1805CE270
+	|-RVA: 0x5CE340 Offset: 0x5CC940 VA: 0x1805CE340
 	|-GameObject.GetComponents<DecalRecycle>
 	|-GameObject.GetComponents<IOnParentDestroying>
 	|-GameObject.GetComponents<IOnParentSpawning>
@@ -318,7 +318,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public T[] GetComponentsInChildren<T>(bool includeInactive) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A38780 Offset: 0x1A36D80 VA: 0x181A38780
+	|-RVA: 0x1A38880 Offset: 0x1A36E80 VA: 0x181A38880
 	|-GameObject.GetComponentsInChildren<BlueprintCategoryButton>
 	|-GameObject.GetComponentsInChildren<CraftingQueueIcon>
 	|-GameObject.GetComponentsInChildren<SingletonComponent>
@@ -339,7 +339,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public void GetComponentsInChildren<T>(bool includeInactive, List<T> results) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CE0F0 Offset: 0x5CC6F0 VA: 0x1805CE0F0
+	|-RVA: 0x5CE1C0 Offset: 0x5CC7C0 VA: 0x1805CE1C0
 	|-GameObject.GetComponentsInChildren<IEffect>
 	|-GameObject.GetComponentsInChildren<IItemSetup>
 	|-GameObject.GetComponentsInChildren<IItemUpdate>
@@ -355,7 +355,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public T[] GetComponentsInChildren<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15A2FD0 Offset: 0x15A15D0 VA: 0x1815A2FD0
+	|-RVA: 0x15A30D0 Offset: 0x15A16D0 VA: 0x1815A30D0
 	|-GameObject.GetComponentsInChildren<ConditionalGibbable>
 	|-GameObject.GetComponentsInChildren<ERSurfaceScript>
 	|-GameObject.GetComponentsInChildren<ERConnectionParent>
@@ -378,7 +378,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public void GetComponentsInChildren<T>(List<T> results) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CB500 Offset: 0x5C9B00 VA: 0x1805CB500
+	|-RVA: 0x5CB5D0 Offset: 0x5C9BD0 VA: 0x1805CB5D0
 	|-GameObject.GetComponentsInChildren<DecalRecycle>
 	|-GameObject.GetComponentsInChildren<EffectRecycle>
 	|-GameObject.GetComponentsInChildren<IOnParentDestroying>
@@ -395,7 +395,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public void GetComponentsInParent<T>(bool includeInactive, List<T> results) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CE1B0 Offset: 0x5CC7B0 VA: 0x1805CE1B0
+	|-RVA: 0x5CE280 Offset: 0x5CC880 VA: 0x1805CE280
 	|-GameObject.GetComponentsInParent<object>
 	|-GameObject.GetComponentsInParent<Canvas>
 	|-GameObject.GetComponentsInParent<RectMask2D>
@@ -404,14 +404,14 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public T[] GetComponentsInParent<T>(bool includeInactive) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A38880 Offset: 0x1A36E80 VA: 0x181A38880
+	|-RVA: 0x1A38980 Offset: 0x1A36F80 VA: 0x181A38980
 	|-GameObject.GetComponentsInParent<object>
 	*/
 
 	public bool TryGetComponent<T>(out T component) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF2D30 Offset: 0xBF1330 VA: 0x180BF2D30
+	|-RVA: 0xBF2E30 Offset: 0xBF1430 VA: 0x180BF2E30
 	|-GameObject.TryGetComponent<BaseEntity>
 	|-GameObject.TryGetComponent<ICustomMaterialReplacer>
 	|-GameObject.TryGetComponent<INotifyEntityTrigger>
@@ -449,7 +449,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public T AddComponent<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15A2ED0 Offset: 0x15A14D0 VA: 0x1815A2ED0
+	|-RVA: 0x15A2FD0 Offset: 0x15A15D0 VA: 0x1815A2FD0
 	|-GameObject.AddComponent<AICoverPoint>
 	|-GameObject.AddComponent<AddToHeightMap>
 	|-GameObject.AddComponent<AddToWaterMap>

@@ -52,7 +52,7 @@ public class Prefab : IComparable<Prefab> // TypeDefIndex: 9970
 	public static Prefab<T> Load<T>(uint id, GameManager manager, PrefabAttribute.Library attribute) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125F3E0 Offset: 0x125D9E0 VA: 0x18125F3E0
+	|-RVA: 0x125F4E0 Offset: 0x125DAE0 VA: 0x18125F4E0
 	|-Prefab.Load<MonumentInfo>
 	|-Prefab.Load<object>
 	*/
@@ -64,7 +64,7 @@ public class Prefab : IComparable<Prefab> // TypeDefIndex: 9970
 	public static Prefab<T>[] Load<T>(string folder, GameManager manager, PrefabAttribute.Library attribute, bool useProbabilities = True) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125F0F0 Offset: 0x125D6F0 VA: 0x18125F0F0
+	|-RVA: 0x125F1F0 Offset: 0x125D7F0 VA: 0x18125F1F0
 	|-Prefab.Load<DungeonBaseLink>
 	|-Prefab.Load<DungeonBaseTransition>
 	|-Prefab.Load<DungeonGridCell>
@@ -76,7 +76,7 @@ public class Prefab : IComparable<Prefab> // TypeDefIndex: 9970
 	public static Prefab<T>[] Load<T>(string[] names, GameManager manager, PrefabAttribute.Library attribute) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125F160 Offset: 0x125D760 VA: 0x18125F160
+	|-RVA: 0x125F260 Offset: 0x125D860 VA: 0x18125F260
 	|-Prefab.Load<object>
 	*/
 
@@ -85,7 +85,7 @@ public class Prefab : IComparable<Prefab> // TypeDefIndex: 9970
 	public static Prefab<T> LoadRandom<T>(string folder, ref uint seed, GameManager manager, PrefabAttribute.Library attribute, bool useProbabilities = True) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125EF80 Offset: 0x125D580 VA: 0x18125EF80
+	|-RVA: 0x125F080 Offset: 0x125D680 VA: 0x18125F080
 	|-Prefab.LoadRandom<object>
 	*/
 

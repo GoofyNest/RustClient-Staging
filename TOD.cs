@@ -67,7 +67,7 @@ public class TOD_Billboard : MonoBehaviour // TypeDefIndex: 8072
 	private T GetComponentInParents<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBE0AD0 Offset: 0xBDF0D0 VA: 0x180BE0AD0
+	|-RVA: 0xBE0BD0 Offset: 0xBDF1D0 VA: 0x180BE0BD0
 	|-TOD_Billboard.GetComponentInParents<object>
 	*/
 
@@ -2183,7 +2183,7 @@ public static class TOD_Util // TypeDefIndex: 8111
 	public static void Swap<T>(ref T a, ref T b) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x570E80 Offset: 0x56F480 VA: 0x180570E80
+	|-RVA: 0x570F50 Offset: 0x56F550 VA: 0x180570F50
 	|-TOD_Util.Swap<object>
 	|-TOD_Util.Swap<TOD_Sky.ReflectionProbeState>
 	*/

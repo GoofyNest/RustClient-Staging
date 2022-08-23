@@ -4,36 +4,36 @@ public static class ByteExtensions // TypeDefIndex: 4841
 	public static T ReadUnsafe<T>(byte[] buffer, int iOffset = 0) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CB1D0 Offset: 0x5C97D0 VA: 0x1805CB1D0
+	|-RVA: 0x5CB2A0 Offset: 0x5C98A0 VA: 0x1805CB2A0
 	|-ByteExtensions.ReadUnsafe<double>
 	|
-	|-RVA: 0x5CB2D0 Offset: 0x5C98D0 VA: 0x1805CB2D0
+	|-RVA: 0x5CB3A0 Offset: 0x5C99A0 VA: 0x1805CB3A0
 	|-ByteExtensions.ReadUnsafe<float>
 	|
-	|-RVA: 0x5CB160 Offset: 0x5C9760 VA: 0x1805CB160
+	|-RVA: 0x5CB230 Offset: 0x5C9830 VA: 0x1805CB230
 	|-ByteExtensions.ReadUnsafe<byte>
 	|-ByteExtensions.ReadUnsafe<sbyte>
 	|
-	|-RVA: 0x5CB200 Offset: 0x5C9800 VA: 0x1805CB200
+	|-RVA: 0x5CB2D0 Offset: 0x5C98D0 VA: 0x1805CB2D0
 	|-ByteExtensions.ReadUnsafe<short>
 	|-ByteExtensions.ReadUnsafe<ushort>
 	|
-	|-RVA: 0x5CB230 Offset: 0x5C9830 VA: 0x1805CB230
+	|-RVA: 0x5CB300 Offset: 0x5C9900 VA: 0x1805CB300
 	|-ByteExtensions.ReadUnsafe<int>
 	|-ByteExtensions.ReadUnsafe<uint>
 	|
-	|-RVA: 0x5CB260 Offset: 0x5C9860 VA: 0x1805CB260
+	|-RVA: 0x5CB330 Offset: 0x5C9930 VA: 0x1805CB330
 	|-ByteExtensions.ReadUnsafe<long>
 	|-ByteExtensions.ReadUnsafe<ulong>
 	|
-	|-RVA: 0x5CB190 Offset: 0x5C9790 VA: 0x1805CB190
+	|-RVA: 0x5CB260 Offset: 0x5C9860 VA: 0x1805CB260
 	|-ByteExtensions.ReadUnsafe<Color>
 	|-ByteExtensions.ReadUnsafe<Quaternion>
 	|
-	|-RVA: 0x5CB290 Offset: 0x5C9890 VA: 0x1805CB290
+	|-RVA: 0x5CB360 Offset: 0x5C9960 VA: 0x1805CB360
 	|-ByteExtensions.ReadUnsafe<Ray>
 	|
-	|-RVA: 0x5CB300 Offset: 0x5C9900 VA: 0x1805CB300
+	|-RVA: 0x5CB3D0 Offset: 0x5C99D0 VA: 0x1805CB3D0
 	|-ByteExtensions.ReadUnsafe<Vector3>
 	*/
 
@@ -41,20 +41,20 @@ public static class ByteExtensions // TypeDefIndex: 4841
 	public static void WriteUnsafe<T>(byte[] buffer, in T value, int iOffset = 0) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15707F0 Offset: 0x156EDF0 VA: 0x1815707F0
+	|-RVA: 0x15708F0 Offset: 0x156EEF0 VA: 0x1815708F0
 	|-ByteExtensions.WriteUnsafe<byte>
 	|-ByteExtensions.WriteUnsafe<sbyte>
 	|
-	|-RVA: 0x1570830 Offset: 0x156EE30 VA: 0x181570830
+	|-RVA: 0x1570930 Offset: 0x156EF30 VA: 0x181570930
 	|-ByteExtensions.WriteUnsafe<double>
 	|-ByteExtensions.WriteUnsafe<long>
 	|-ByteExtensions.WriteUnsafe<ulong>
 	|
-	|-RVA: 0x1570870 Offset: 0x156EE70 VA: 0x181570870
+	|-RVA: 0x1570970 Offset: 0x156EF70 VA: 0x181570970
 	|-ByteExtensions.WriteUnsafe<short>
 	|-ByteExtensions.WriteUnsafe<ushort>
 	|
-	|-RVA: 0x15708B0 Offset: 0x156EEB0 VA: 0x1815708B0
+	|-RVA: 0x15709B0 Offset: 0x156EFB0 VA: 0x1815709B0
 	|-ByteExtensions.WriteUnsafe<int>
 	|-ByteExtensions.WriteUnsafe<float>
 	|-ByteExtensions.WriteUnsafe<uint>

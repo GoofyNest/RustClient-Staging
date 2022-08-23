@@ -14010,13 +14010,13 @@ internal class XmlListConverter : XmlBaseConverter // TypeDefIndex: 2410
 	private T[] ToArray<T>(object list, IXmlNamespaceResolver nsResolver) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B610 Offset: 0x1A39C10 VA: 0x181A3B610
+	|-RVA: 0x1A3B710 Offset: 0x1A39D10 VA: 0x181A3B710
 	|-XmlListConverter.ToArray<bool>
 	|
-	|-RVA: 0x1A3BA50 Offset: 0x1A3A050 VA: 0x181A3BA50
+	|-RVA: 0x1A3BB50 Offset: 0x1A3A150 VA: 0x181A3BB50
 	|-XmlListConverter.ToArray<byte>
 	|
-	|-RVA: 0x1A3DC50 Offset: 0x1A3C250 VA: 0x181A3DC50
+	|-RVA: 0x1A3DD50 Offset: 0x1A3C350 VA: 0x181A3DD50
 	|-XmlListConverter.ToArray<byte[]>
 	|-XmlListConverter.ToArray<object>
 	|-XmlListConverter.ToArray<string>
@@ -14026,43 +14026,43 @@ internal class XmlListConverter : XmlBaseConverter // TypeDefIndex: 2410
 	|-XmlListConverter.ToArray<XPathNavigator>
 	|-XmlListConverter.ToArray<XmlQualifiedName>
 	|
-	|-RVA: 0x1A3C2D0 Offset: 0x1A3A8D0 VA: 0x181A3C2D0
+	|-RVA: 0x1A3C3D0 Offset: 0x1A3A9D0 VA: 0x181A3C3D0
 	|-XmlListConverter.ToArray<DateTime>
 	|
-	|-RVA: 0x1A3BE90 Offset: 0x1A3A490 VA: 0x181A3BE90
+	|-RVA: 0x1A3BF90 Offset: 0x1A3A590 VA: 0x181A3BF90
 	|-XmlListConverter.ToArray<DateTimeOffset>
 	|
-	|-RVA: 0x1A3C710 Offset: 0x1A3AD10 VA: 0x181A3C710
+	|-RVA: 0x1A3C810 Offset: 0x1A3AE10 VA: 0x181A3C810
 	|-XmlListConverter.ToArray<Decimal>
 	|
-	|-RVA: 0x1A3CB50 Offset: 0x1A3B150 VA: 0x181A3CB50
+	|-RVA: 0x1A3CC50 Offset: 0x1A3B250 VA: 0x181A3CC50
 	|-XmlListConverter.ToArray<double>
 	|
-	|-RVA: 0x1A3CF90 Offset: 0x1A3B590 VA: 0x181A3CF90
+	|-RVA: 0x1A3D090 Offset: 0x1A3B690 VA: 0x181A3D090
 	|-XmlListConverter.ToArray<short>
 	|
-	|-RVA: 0x1A3D3D0 Offset: 0x1A3B9D0 VA: 0x181A3D3D0
+	|-RVA: 0x1A3D4D0 Offset: 0x1A3BAD0 VA: 0x181A3D4D0
 	|-XmlListConverter.ToArray<int>
 	|
-	|-RVA: 0x1A3D810 Offset: 0x1A3BE10 VA: 0x181A3D810
+	|-RVA: 0x1A3D910 Offset: 0x1A3BF10 VA: 0x181A3D910
 	|-XmlListConverter.ToArray<long>
 	|
-	|-RVA: 0x1A3E070 Offset: 0x1A3C670 VA: 0x181A3E070
+	|-RVA: 0x1A3E170 Offset: 0x1A3C770 VA: 0x181A3E170
 	|-XmlListConverter.ToArray<sbyte>
 	|
-	|-RVA: 0x1A3E4B0 Offset: 0x1A3CAB0 VA: 0x181A3E4B0
+	|-RVA: 0x1A3E5B0 Offset: 0x1A3CBB0 VA: 0x181A3E5B0
 	|-XmlListConverter.ToArray<float>
 	|
-	|-RVA: 0x1A3E8F0 Offset: 0x1A3CEF0 VA: 0x181A3E8F0
+	|-RVA: 0x1A3E9F0 Offset: 0x1A3CFF0 VA: 0x181A3E9F0
 	|-XmlListConverter.ToArray<TimeSpan>
 	|
-	|-RVA: 0x1A3ED30 Offset: 0x1A3D330 VA: 0x181A3ED30
+	|-RVA: 0x1A3EE30 Offset: 0x1A3D430 VA: 0x181A3EE30
 	|-XmlListConverter.ToArray<ushort>
 	|
-	|-RVA: 0x1A3F170 Offset: 0x1A3D770 VA: 0x181A3F170
+	|-RVA: 0x1A3F270 Offset: 0x1A3D870 VA: 0x181A3F270
 	|-XmlListConverter.ToArray<uint>
 	|
-	|-RVA: 0x1A3F5B0 Offset: 0x1A3DBB0 VA: 0x181A3F5B0
+	|-RVA: 0x1A3F6B0 Offset: 0x1A3DCB0 VA: 0x181A3F6B0
 	|-XmlListConverter.ToArray<ulong>
 	*/
 
@@ -15953,7 +15953,7 @@ public abstract class XObject : IXmlLineInfo // TypeDefIndex: 5822
 	public T Annotation<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBE0F70 Offset: 0xBDF570 VA: 0x180BE0F70
+	|-RVA: 0xBE1070 Offset: 0xBDF670 VA: 0x180BE1070
 	|-XObject.Annotation<object>
 	|-XObject.Annotation<BaseUriAnnotation>
 	|-XObject.Annotation<LineInfoAnnotation>
@@ -16007,7 +16007,7 @@ private sealed class XObject.<Annotations>d__16<T> : IEnumerable<T>, IEnumerable
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x144ABD0 Offset: 0x14491D0 VA: 0x18144ABD0
+	|-RVA: 0x144ACD0 Offset: 0x14492D0 VA: 0x18144ACD0
 	|-XObject.<Annotations>d__16<object>..ctor
 	*/
 
@@ -16022,7 +16022,7 @@ private sealed class XObject.<Annotations>d__16<T> : IEnumerable<T>, IEnumerable
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A4C4D0 Offset: 0x1A4AAD0 VA: 0x181A4C4D0
+	|-RVA: 0x1A4C5D0 Offset: 0x1A4ABD0 VA: 0x181A4C5D0
 	|-XObject.<Annotations>d__16<object>.MoveNext
 	*/
 
@@ -16038,7 +16038,7 @@ private sealed class XObject.<Annotations>d__16<T> : IEnumerable<T>, IEnumerable
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A4C7E0 Offset: 0x1A4ADE0 VA: 0x181A4C7E0
+	|-RVA: 0x1A4C8E0 Offset: 0x1A4AEE0 VA: 0x181A4C8E0
 	|-XObject.<Annotations>d__16<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -16054,7 +16054,7 @@ private sealed class XObject.<Annotations>d__16<T> : IEnumerable<T>, IEnumerable
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A4C720 Offset: 0x1A4AD20 VA: 0x181A4C720
+	|-RVA: 0x1A4C820 Offset: 0x1A4AE20 VA: 0x181A4C820
 	|-XObject.<Annotations>d__16<object>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
@@ -16062,7 +16062,7 @@ private sealed class XObject.<Annotations>d__16<T> : IEnumerable<T>, IEnumerable
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16508D0 Offset: 0x164EED0 VA: 0x1816508D0
+	|-RVA: 0x16509D0 Offset: 0x164EFD0 VA: 0x1816509D0
 	|-XObject.<Annotations>d__16<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
@@ -16381,7 +16381,7 @@ public class XDocument : XContainer // TypeDefIndex: 5843
 	private T GetFirstNode<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBE0E80 Offset: 0xBDF480 VA: 0x180BE0E80
+	|-RVA: 0xBE0F80 Offset: 0xBDF580 VA: 0x180BE0F80
 	|-XDocument.GetFirstNode<object>
 	|-XDocument.GetFirstNode<XElement>
 	*/

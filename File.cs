@@ -136,7 +136,7 @@ internal class FileSystemEnumerableIterator<TSource> : Iterator<TSource> // Type
 	internal void .ctor(string path, string originalUserPath, string searchPattern, SearchOption searchOption, SearchResultHandler<TSource> resultHandler, bool checkHost) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E5B30 Offset: 0x19E4130 VA: 0x1819E5B30
+	|-RVA: 0x19E5C30 Offset: 0x19E4230 VA: 0x1819E5C30
 	|-FileSystemEnumerableIterator<object>..ctor
 	|-FileSystemEnumerableIterator<string>..ctor
 	*/
@@ -144,56 +144,56 @@ internal class FileSystemEnumerableIterator<TSource> : Iterator<TSource> // Type
 	private void CommonInit() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E4FF0 Offset: 0x19E35F0 VA: 0x1819E4FF0
+	|-RVA: 0x19E50F0 Offset: 0x19E36F0 VA: 0x1819E50F0
 	|-FileSystemEnumerableIterator<object>.CommonInit
 	*/
 
 	private void .ctor(string fullPath, string normalizedSearchPath, string searchCriteria, string userPath, SearchOption searchOption, SearchResultHandler<TSource> resultHandler, bool checkHost) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E5E90 Offset: 0x19E4490 VA: 0x1819E5E90
+	|-RVA: 0x19E5F90 Offset: 0x19E4590 VA: 0x1819E5F90
 	|-FileSystemEnumerableIterator<object>..ctor
 	*/
 
 	protected override Iterator<TSource> Clone() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E4F20 Offset: 0x19E3520 VA: 0x1819E4F20
+	|-RVA: 0x19E5020 Offset: 0x19E3620 VA: 0x1819E5020
 	|-FileSystemEnumerableIterator<object>.Clone
 	*/
 
 	protected override void Dispose(bool disposing) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E5350 Offset: 0x19E3950 VA: 0x1819E5350
+	|-RVA: 0x19E5450 Offset: 0x19E3A50 VA: 0x1819E5450
 	|-FileSystemEnumerableIterator<object>.Dispose
 	*/
 
 	public override bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E55F0 Offset: 0x19E3BF0 VA: 0x1819E55F0
+	|-RVA: 0x19E56F0 Offset: 0x19E3CF0 VA: 0x1819E56F0
 	|-FileSystemEnumerableIterator<object>.MoveNext
 	*/
 
 	private SearchResult CreateSearchResult(Directory.SearchData localSearchData, Win32Native.WIN32_FIND_DATA findData) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E5270 Offset: 0x19E3870 VA: 0x1819E5270
+	|-RVA: 0x19E5370 Offset: 0x19E3970 VA: 0x1819E5370
 	|-FileSystemEnumerableIterator<object>.CreateSearchResult
 	*/
 
 	private void HandleError(int hr, string path) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E55A0 Offset: 0x19E3BA0 VA: 0x1819E55A0
+	|-RVA: 0x19E56A0 Offset: 0x19E3CA0 VA: 0x1819E56A0
 	|-FileSystemEnumerableIterator<object>.HandleError
 	*/
 
 	private void AddSearchableDirsToStack(Directory.SearchData localSearchData) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E4BD0 Offset: 0x19E31D0 VA: 0x1819E4BD0
+	|-RVA: 0x19E4CD0 Offset: 0x19E32D0 VA: 0x1819E4CD0
 	|-FileSystemEnumerableIterator<object>.AddSearchableDirsToStack
 	*/
 
@@ -207,21 +207,21 @@ internal class FileSystemEnumerableIterator<TSource> : Iterator<TSource> // Type
 	private static string NormalizeSearchPattern(string searchPattern) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E5A70 Offset: 0x19E4070 VA: 0x1819E5A70
+	|-RVA: 0x19E5B70 Offset: 0x19E4170 VA: 0x1819E5B70
 	|-FileSystemEnumerableIterator<object>.NormalizeSearchPattern
 	*/
 
 	private static string GetNormalizedSearchCriteria(string fullSearchString, string fullPathMod) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E5500 Offset: 0x19E3B00 VA: 0x1819E5500
+	|-RVA: 0x19E5600 Offset: 0x19E3C00 VA: 0x1819E5600
 	|-FileSystemEnumerableIterator<object>.GetNormalizedSearchCriteria
 	*/
 
 	private static string GetFullSearchString(string fullPath, string searchPattern) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19E5420 Offset: 0x19E3A20 VA: 0x1819E5420
+	|-RVA: 0x19E5520 Offset: 0x19E3B20 VA: 0x1819E5520
 	|-FileSystemEnumerableIterator<object>.GetFullSearchString
 	*/
 
@@ -1114,7 +1114,7 @@ public static class FileSystem // TypeDefIndex: 6659
 	public static T[] LoadAll<T>(string folder, string search = "") { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A386A0 Offset: 0x1A36CA0 VA: 0x181A386A0
+	|-RVA: 0x1A387A0 Offset: 0x1A36DA0 VA: 0x181A387A0
 	|-FileSystem.LoadAll<Sprite>
 	|-FileSystem.LoadAll<object>
 	*/
@@ -1122,7 +1122,7 @@ public static class FileSystem // TypeDefIndex: 6659
 	public static T[] LoadAllFromBundle<T>(string bundleName, string editorSearch) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A385E0 Offset: 0x1A36BE0 VA: 0x181A385E0
+	|-RVA: 0x1A386E0 Offset: 0x1A36CE0 VA: 0x181A386E0
 	|-FileSystem.LoadAllFromBundle<Skinnable>
 	|-FileSystem.LoadAllFromBundle<GameObject>
 	|-FileSystem.LoadAllFromBundle<object>
@@ -1131,7 +1131,7 @@ public static class FileSystem // TypeDefIndex: 6659
 	public static T Load<T>(string filePath, bool complain = True) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CD840 Offset: 0x5CBE40 VA: 0x1805CD840
+	|-RVA: 0x5CD910 Offset: 0x5CBF10 VA: 0x1805CD910
 	|-FileSystem.Load<GameManifest>
 	|-FileSystem.Load<ItemSkin>
 	|-FileSystem.Load<ItemSkinDirectory>
@@ -1168,7 +1168,7 @@ public abstract class FileSystemBackend // TypeDefIndex: 6660
 	public T[] LoadAll<T>(string folder, string search = "") { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A38480 Offset: 0x1A36A80 VA: 0x181A38480
+	|-RVA: 0x1A38580 Offset: 0x1A36B80 VA: 0x181A38580
 	|-FileSystemBackend.LoadAll<object>
 	|-FileSystemBackend.LoadAll<GameObject>
 	*/
@@ -1176,7 +1176,7 @@ public abstract class FileSystemBackend // TypeDefIndex: 6660
 	public T Load<T>(string filePath) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CD6B0 Offset: 0x5CBCB0 VA: 0x1805CD6B0
+	|-RVA: 0x5CD780 Offset: 0x5CBD80 VA: 0x1805CD780
 	|-FileSystemBackend.Load<object>
 	|-FileSystemBackend.Load<GameObject>
 	*/

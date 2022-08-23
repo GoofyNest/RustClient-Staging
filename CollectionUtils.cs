@@ -3,7 +3,7 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	public static bool IsNullOrEmpty<T>(ICollection<T> collection) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125D310 Offset: 0x125B910 VA: 0x18125D310
+	|-RVA: 0x125D410 Offset: 0x125BA10 VA: 0x18125D410
 	|-CollectionUtils.IsNullOrEmpty<IXmlNode>
 	|-CollectionUtils.IsNullOrEmpty<JsonConverter>
 	|-CollectionUtils.IsNullOrEmpty<object>
@@ -13,7 +13,7 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	public static void AddRange<T>(IList<T> initial, IEnumerable<T> collection) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCF3000 Offset: 0xCF1600 VA: 0x180CF3000
+	|-RVA: 0xCF3100 Offset: 0xCF1700 VA: 0x180CF3100
 	|-CollectionUtils.AddRange<JsonProperty>
 	|-CollectionUtils.AddRange<SerializationCallback>
 	|-CollectionUtils.AddRange<SerializationErrorCallback>
@@ -25,7 +25,7 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	public static void AddRange<T>(IList<T> initial, IEnumerable collection) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCF2F80 Offset: 0xCF1580 VA: 0x180CF2F80
+	|-RVA: 0xCF3080 Offset: 0xCF1680 VA: 0x180CF3080
 	|-CollectionUtils.AddRange<object>
 	|-CollectionUtils.AddRange<MemberInfo>
 	*/
@@ -40,7 +40,7 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	public static int IndexOf<T>(IEnumerable<T> collection, Func<T, bool> predicate) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1179860 Offset: 0x1177E60 VA: 0x181179860
+	|-RVA: 0x1179960 Offset: 0x1177F60 VA: 0x181179960
 	|-CollectionUtils.IndexOf<object>
 	|-CollectionUtils.IndexOf<PropertyInfo>
 	*/
@@ -49,7 +49,7 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	public static bool Contains<T>(List<T> list, T value, IEqualityComparer comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125D360 Offset: 0x125B960 VA: 0x18125D360
+	|-RVA: 0x125D460 Offset: 0x125BA60 VA: 0x18125D460
 	|-CollectionUtils.Contains<object>
 	*/
 
@@ -57,7 +57,7 @@ internal static class CollectionUtils // TypeDefIndex: 5961
 	public static int IndexOfReference<T>(List<T> list, T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x11797D0 Offset: 0x1177DD0 VA: 0x1811797D0
+	|-RVA: 0x11798D0 Offset: 0x1177ED0 VA: 0x1811798D0
 	|-CollectionUtils.IndexOfReference<JToken>
 	|-CollectionUtils.IndexOfReference<object>
 	*/

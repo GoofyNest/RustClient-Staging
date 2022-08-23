@@ -111,10 +111,10 @@ public sealed class Texture2D : Texture // TypeDefIndex: 3445
 	public NativeArray<T> GetRawTextureData<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3B4F0 Offset: 0x1A39AF0 VA: 0x181A3B4F0
+	|-RVA: 0x1A3B5F0 Offset: 0x1A39BF0 VA: 0x181A3B5F0
 	|-Texture2D.GetRawTextureData<half2>
 	|
-	|-RVA: 0x1A3B3D0 Offset: 0x1A399D0 VA: 0x181A3B3D0
+	|-RVA: 0x1A3B4D0 Offset: 0x1A39AD0 VA: 0x181A3B4D0
 	|-Texture2D.GetRawTextureData<Color32>
 	*/
 

@@ -71,7 +71,7 @@ public class WaterDynamics : MonoBehaviour // TypeDefIndex: 10603
 	public static void SafeDestroy<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5DA270 Offset: 0x5D8870 VA: 0x1805DA270
+	|-RVA: 0x5DA340 Offset: 0x5D8940 VA: 0x1805DA340
 	|-WaterDynamics.SafeDestroy<object>
 	|-WaterDynamics.SafeDestroy<Material>
 	|-WaterDynamics.SafeDestroy<Mesh>
@@ -81,14 +81,14 @@ public class WaterDynamics : MonoBehaviour // TypeDefIndex: 10603
 	public static T SafeDestroy<T>(T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BAF30 Offset: 0x15B9530 VA: 0x1815BAF30
+	|-RVA: 0x15BB030 Offset: 0x15B9630 VA: 0x1815BB030
 	|-WaterDynamics.SafeDestroy<object>
 	*/
 
 	public static void SafeRelease<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5DA310 Offset: 0x5D8910 VA: 0x1805DA310
+	|-RVA: 0x5DA3E0 Offset: 0x5D89E0 VA: 0x1805DA3E0
 	|-WaterDynamics.SafeRelease<object>
 	|-WaterDynamics.SafeRelease<CommandBuffer>
 	*/
@@ -96,7 +96,7 @@ public class WaterDynamics : MonoBehaviour // TypeDefIndex: 10603
 	public static T SafeRelease<T>(T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BAFC0 Offset: 0x15B95C0 VA: 0x1815BAFC0
+	|-RVA: 0x15BB0C0 Offset: 0x15B96C0 VA: 0x1815BB0C0
 	|-WaterDynamics.SafeRelease<object>
 	|-WaterDynamics.SafeRelease<ComputeBuffer>
 	*/

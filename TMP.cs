@@ -1397,7 +1397,7 @@ internal static class TMP_ListPool<T> // TypeDefIndex: 6800
 	public static List<T> Get() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B01C0 Offset: 0x17AE7C0 VA: 0x1817B01C0
+	|-RVA: 0x17B02C0 Offset: 0x17AE8C0 VA: 0x1817B02C0
 	|-TMP_ListPool<object>.Get
 	|-TMP_ListPool<Canvas>.Get
 	|-TMP_ListPool<IMaterialModifier>.Get
@@ -1407,7 +1407,7 @@ internal static class TMP_ListPool<T> // TypeDefIndex: 6800
 	public static void Release(List<T> toRelease) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B0330 Offset: 0x17AE930 VA: 0x1817B0330
+	|-RVA: 0x17B0430 Offset: 0x17AEA30 VA: 0x1817B0430
 	|-TMP_ListPool<object>.Release
 	|-TMP_ListPool<Canvas>.Release
 	|-TMP_ListPool<IMaterialModifier>.Release
@@ -1417,7 +1417,7 @@ internal static class TMP_ListPool<T> // TypeDefIndex: 6800
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B04B0 Offset: 0x17AEAB0 VA: 0x1817B04B0
+	|-RVA: 0x17B05B0 Offset: 0x17AEBB0 VA: 0x1817B05B0
 	|-TMP_ListPool<object>..cctor
 	*/
 
@@ -1430,21 +1430,21 @@ private sealed class TMP_ListPool.<>c<T> // TypeDefIndex: 6801
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD66290 Offset: 0xD64890 VA: 0x180D66290
+	|-RVA: 0xD66390 Offset: 0xD64990 VA: 0x180D66390
 	|-TMP_ListPool.<>c<object>..cctor
 	*/
 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD5BAD0 Offset: 0xD5A0D0 VA: 0x180D5BAD0
+	|-RVA: 0xD5BBD0 Offset: 0xD5A1D0 VA: 0x180D5BBD0
 	|-TMP_ListPool.<>c<object>..ctor
 	*/
 
 	internal void <.cctor>b__3_0(List<T> l) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x16509E0 Offset: 0x164EFE0 VA: 0x1816509E0
+	|-RVA: 0x1650AE0 Offset: 0x164F0E0 VA: 0x181650AE0
 	|-TMP_ListPool.<>c<object>.<.cctor>b__3_0
 	*/
 
@@ -1631,42 +1631,42 @@ internal class TMP_ObjectPool<T> // TypeDefIndex: 6811
 	private void set_countAll(int value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x79C680 Offset: 0x79AC80 VA: 0x18079C680
+	|-RVA: 0x79C760 Offset: 0x79AD60 VA: 0x18079C760
 	|-TMP_ObjectPool<object>.set_countAll
 	*/
 
 	public int get_countActive() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B0A00 Offset: 0x17AF000 VA: 0x1817B0A00
+	|-RVA: 0x17B0B00 Offset: 0x17AF100 VA: 0x1817B0B00
 	|-TMP_ObjectPool<object>.get_countActive
 	*/
 
 	public int get_countInactive() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xE08880 Offset: 0xE06E80 VA: 0x180E08880
+	|-RVA: 0xE08980 Offset: 0xE06F80 VA: 0x180E08980
 	|-TMP_ObjectPool<object>.get_countInactive
 	*/
 
 	public void .ctor(UnityAction<T> actionOnGet, UnityAction<T> actionOnRelease) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B0940 Offset: 0x17AEF40 VA: 0x1817B0940
+	|-RVA: 0x17B0A40 Offset: 0x17AF040 VA: 0x1817B0A40
 	|-TMP_ObjectPool<object>..ctor
 	*/
 
 	public T Get() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B0750 Offset: 0x17AED50 VA: 0x1817B0750
+	|-RVA: 0x17B0850 Offset: 0x17AEE50 VA: 0x1817B0850
 	|-TMP_ObjectPool<object>.Get
 	*/
 
 	public void Release(T element) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x17B0840 Offset: 0x17AEE40 VA: 0x1817B0840
+	|-RVA: 0x17B0940 Offset: 0x17AEF40 VA: 0x1817B0940
 	|-TMP_ObjectPool<object>.Release
 	*/
 
@@ -3036,10 +3036,10 @@ public abstract class TMP_Text : MaskableGraphic // TypeDefIndex: 6837
 	private void ResizeInternalArray<T>(ref T[] array) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D41F0 Offset: 0x5D27F0 VA: 0x1805D41F0
+	|-RVA: 0x5D42C0 Offset: 0x5D28C0 VA: 0x1805D42C0
 	|-TMP_Text.ResizeInternalArray<object>
 	|
-	|-RVA: 0x5D4280 Offset: 0x5D2880 VA: 0x1805D4280
+	|-RVA: 0x5D4350 Offset: 0x5D2950 VA: 0x1805D4350
 	|-TMP_Text.ResizeInternalArray<TMP_Text.UnicodeChar>
 	*/
 
@@ -3255,32 +3255,32 @@ public class TMP_TextInfo // TypeDefIndex: 6842
 	public static void Resize<T>(ref T[] array, int size) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D3D40 Offset: 0x5D2340 VA: 0x1805D3D40
+	|-RVA: 0x5D3E10 Offset: 0x5D2410 VA: 0x1805D3E10
 	|-TMP_TextInfo.Resize<object>
 	|-TMP_TextInfo.Resize<TMP_SubMesh>
 	|-TMP_TextInfo.Resize<TMP_SubMeshUI>
 	|
-	|-RVA: 0x5D3F50 Offset: 0x5D2550 VA: 0x1805D3F50
+	|-RVA: 0x5D4020 Offset: 0x5D2620 VA: 0x1805D4020
 	|-TMP_TextInfo.Resize<TMP_LinkInfo>
 	|
-	|-RVA: 0x5D4160 Offset: 0x5D2760 VA: 0x1805D4160
+	|-RVA: 0x5D4230 Offset: 0x5D2830 VA: 0x1805D4230
 	|-TMP_TextInfo.Resize<TMP_WordInfo>
 	*/
 
 	public static void Resize<T>(ref T[] array, int size, bool isBlockAllocated) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D3DD0 Offset: 0x5D23D0 VA: 0x1805D3DD0
+	|-RVA: 0x5D3EA0 Offset: 0x5D24A0 VA: 0x1805D3EA0
 	|-TMP_TextInfo.Resize<object>
 	|-TMP_TextInfo.Resize<Material>
 	|
-	|-RVA: 0x5D3E90 Offset: 0x5D2490 VA: 0x1805D3E90
+	|-RVA: 0x5D3F60 Offset: 0x5D2560 VA: 0x1805D3F60
 	|-TMP_TextInfo.Resize<TMP_CharacterInfo>
 	|
-	|-RVA: 0x5D3FE0 Offset: 0x5D25E0 VA: 0x1805D3FE0
+	|-RVA: 0x5D40B0 Offset: 0x5D26B0 VA: 0x1805D40B0
 	|-TMP_TextInfo.Resize<TMP_MeshInfo>
 	|
-	|-RVA: 0x5D40A0 Offset: 0x5D26A0 VA: 0x1805D40A0
+	|-RVA: 0x5D4170 Offset: 0x5D2770 VA: 0x1805D4170
 	|-TMP_TextInfo.Resize<TMP_PageInfo>
 	*/
 

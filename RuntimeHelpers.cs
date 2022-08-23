@@ -17,52 +17,52 @@ public static class RuntimeHelpers // TypeDefIndex: 1317
 	public static bool IsReferenceOrContainsReferences<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBF3660 Offset: 0xBF1C60 VA: 0x180BF3660
+	|-RVA: 0xBF3760 Offset: 0xBF1D60 VA: 0x180BF3760
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<RCon.Command>
 	|
-	|-RVA: 0xBF3730 Offset: 0xBF1D30 VA: 0x180BF3730
+	|-RVA: 0xBF3830 Offset: 0xBF1E30 VA: 0x180BF3830
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<Connection>
 	|
-	|-RVA: 0xBF3C10 Offset: 0xBF2210 VA: 0x180BF3C10
+	|-RVA: 0xBF3D10 Offset: 0xBF2310 VA: 0x180BF3D10
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<KeyValuePair<int, int>>
 	|
-	|-RVA: 0xBF39A0 Offset: 0xBF1FA0 VA: 0x180BF39A0
+	|-RVA: 0xBF3AA0 Offset: 0xBF20A0 VA: 0x180BF3AA0
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<int>
 	|
-	|-RVA: 0xBF3A70 Offset: 0xBF2070 VA: 0x180BF3A70
+	|-RVA: 0xBF3B70 Offset: 0xBF2170 VA: 0x180BF3B70
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<long>
 	|
-	|-RVA: 0xBF3B40 Offset: 0xBF2140 VA: 0x180BF3B40
+	|-RVA: 0xBF3C40 Offset: 0xBF2240 VA: 0x180BF3C40
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<IntPtr>
 	|
-	|-RVA: 0xBF3DB0 Offset: 0xBF23B0 VA: 0x180BF3DB0
+	|-RVA: 0xBF3EB0 Offset: 0xBF24B0 VA: 0x180BF3EB0
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<object>
 	|
-	|-RVA: 0xBF3F50 Offset: 0xBF2550 VA: 0x180BF3F50
+	|-RVA: 0xBF4050 Offset: 0xBF2650 VA: 0x180BF4050
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<uint>
 	|
-	|-RVA: 0xBF4020 Offset: 0xBF2620 VA: 0x180BF4020
+	|-RVA: 0xBF4120 Offset: 0xBF2720 VA: 0x180BF4120
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<ulong>
 	|
-	|-RVA: 0xBF3E80 Offset: 0xBF2480 VA: 0x180BF3E80
+	|-RVA: 0xBF3F80 Offset: 0xBF2580 VA: 0x180BF3F80
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<SequenceNode.SequenceConstructPosContext>
 	|
-	|-RVA: 0xBF3CE0 Offset: 0xBF22E0 VA: 0x180BF3CE0
+	|-RVA: 0xBF3DE0 Offset: 0xBF23E0 VA: 0x180BF3DE0
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<Matrix4x4>
 	|
-	|-RVA: 0xBF3590 Offset: 0xBF1B90 VA: 0x180BF3590
+	|-RVA: 0xBF3690 Offset: 0xBF1C90 VA: 0x180BF3690
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<AsyncGPUReadbackRequest>
 	|
-	|-RVA: 0xBF3800 Offset: 0xBF1E00 VA: 0x180BF3800
+	|-RVA: 0xBF3900 Offset: 0xBF1F00 VA: 0x180BF3900
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<EventDispatcher.DispatchContext>
 	|
-	|-RVA: 0xBF38D0 Offset: 0xBF1ED0 VA: 0x180BF38D0
+	|-RVA: 0xBF39D0 Offset: 0xBF1FD0 VA: 0x180BF39D0
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<EventDispatcher.EventRecord>
 	|
-	|-RVA: 0xBF40F0 Offset: 0xBF26F0 VA: 0x180BF40F0
+	|-RVA: 0xBF41F0 Offset: 0xBF27F0 VA: 0x180BF41F0
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<Vector2>
 	|
-	|-RVA: 0xBF41C0 Offset: 0xBF27C0 VA: 0x180BF41C0
+	|-RVA: 0xBF42C0 Offset: 0xBF28C0 VA: 0x180BF42C0
 	|-RuntimeHelpers.IsReferenceOrContainsReferences<Vector3>
 	*/
 

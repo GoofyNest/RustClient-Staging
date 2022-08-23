@@ -84,7 +84,7 @@ public static class SteamClient // TypeDefIndex: 5184
 	internal static void AddInterface<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCFFD20 Offset: 0xCFE320 VA: 0x180CFFD20
+	|-RVA: 0xCFFE20 Offset: 0xCFE420 VA: 0x180CFFE20
 	|-SteamClient.AddInterface<SteamApps>
 	|-SteamClient.AddInterface<SteamFriends>
 	|-SteamClient.AddInterface<SteamInput>
@@ -1515,7 +1515,7 @@ public class SteamSharedClass<T> : SteamClass // TypeDefIndex: 5268
 	internal static SteamInterface get_Interface() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1AAA880 Offset: 0x1AA8E80 VA: 0x181AAA880
+	|-RVA: 0x1AAA980 Offset: 0x1AA8F80 VA: 0x181AAA980
 	|-SteamSharedClass<SteamApps>.get_Interface
 	|-SteamSharedClass<SteamInventory>.get_Interface
 	|-SteamSharedClass<SteamNetworkingSockets>.get_Interface
@@ -1535,7 +1535,7 @@ public class SteamSharedClass<T> : SteamClass // TypeDefIndex: 5268
 	internal virtual void SetInterface(bool server, SteamInterface iface) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1AAA810 Offset: 0x1AA8E10 VA: 0x181AAA810
+	|-RVA: 0x1AAA910 Offset: 0x1AA8F10 VA: 0x181AAA910
 	|-SteamSharedClass<SteamApps>.SetInterface
 	|-SteamSharedClass<SteamInventory>.SetInterface
 	|-SteamSharedClass<SteamNetworking>.SetInterface
@@ -1550,7 +1550,7 @@ public class SteamSharedClass<T> : SteamClass // TypeDefIndex: 5268
 	internal override void DestroyInterface(bool server) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1AAA7A0 Offset: 0x1AA8DA0 VA: 0x181AAA7A0
+	|-RVA: 0x1AAA8A0 Offset: 0x1AA8EA0 VA: 0x181AAA8A0
 	|-SteamSharedClass<SteamApps>.DestroyInterface
 	|-SteamSharedClass<SteamInventory>.DestroyInterface
 	|-SteamSharedClass<SteamNetworking>.DestroyInterface
@@ -1565,7 +1565,7 @@ public class SteamSharedClass<T> : SteamClass // TypeDefIndex: 5268
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1645400 Offset: 0x1643A00 VA: 0x181645400
+	|-RVA: 0x1645500 Offset: 0x1643B00 VA: 0x181645500
 	|-SteamSharedClass<SteamApps>..ctor
 	|-SteamSharedClass<SteamInventory>..ctor
 	|-SteamSharedClass<SteamNetworking>..ctor
@@ -1593,7 +1593,7 @@ public class SteamClientClass<T> : SteamClass // TypeDefIndex: 5269
 	internal virtual void SetInterface(bool server, SteamInterface iface) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1AAA700 Offset: 0x1AA8D00 VA: 0x181AAA700
+	|-RVA: 0x1AAA800 Offset: 0x1AA8E00 VA: 0x181AAA800
 	|-SteamClientClass<SteamFriends>.SetInterface
 	|-SteamClientClass<SteamInput>.SetInterface
 	|-SteamClientClass<SteamMatchmaking>.SetInterface
@@ -1612,7 +1612,7 @@ public class SteamClientClass<T> : SteamClass // TypeDefIndex: 5269
 	internal override void DestroyInterface(bool server) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1AAA6C0 Offset: 0x1AA8CC0 VA: 0x181AAA6C0
+	|-RVA: 0x1AAA7C0 Offset: 0x1AA8DC0 VA: 0x181AAA7C0
 	|-SteamClientClass<SteamFriends>.DestroyInterface
 	|-SteamClientClass<SteamInput>.DestroyInterface
 	|-SteamClientClass<SteamMatchmaking>.DestroyInterface
@@ -1631,7 +1631,7 @@ public class SteamClientClass<T> : SteamClass // TypeDefIndex: 5269
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1645400 Offset: 0x1643A00 VA: 0x181645400
+	|-RVA: 0x1645500 Offset: 0x1643B00 VA: 0x181645500
 	|-SteamClientClass<SteamFriends>..ctor
 	|-SteamClientClass<SteamInput>..ctor
 	|-SteamClientClass<SteamMatchmaking>..ctor

@@ -21,11 +21,11 @@ public static class Assert // TypeDefIndex: 3904
 	public static void AreEqual<T>(T expected, T actual) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5C95B0 Offset: 0x5C7BB0 VA: 0x1805C95B0
+	|-RVA: 0x5C9680 Offset: 0x5C7C80 VA: 0x1805C9680
 	|-Assert.AreEqual<RendererGrid>
 	|-Assert.AreEqual<object>
 	|
-	|-RVA: 0x5C98E0 Offset: 0x5C7EE0 VA: 0x1805C98E0
+	|-RVA: 0x5C99B0 Offset: 0x5C7FB0 VA: 0x1805C99B0
 	|-Assert.AreEqual<uint>
 	*/
 
@@ -33,13 +33,13 @@ public static class Assert // TypeDefIndex: 3904
 	public static void AreEqual<T>(T expected, T actual, string message) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5C9500 Offset: 0x5C7B00 VA: 0x1805C9500
+	|-RVA: 0x5C95D0 Offset: 0x5C7BD0 VA: 0x1805C95D0
 	|-Assert.AreEqual<int>
 	|
-	|-RVA: 0x5C9630 Offset: 0x5C7C30 VA: 0x1805C9630
+	|-RVA: 0x5C9700 Offset: 0x5C7D00 VA: 0x1805C9700
 	|-Assert.AreEqual<object>
 	|
-	|-RVA: 0x5C9960 Offset: 0x5C7F60 VA: 0x1805C9960
+	|-RVA: 0x5C9A30 Offset: 0x5C8030 VA: 0x1805C9A30
 	|-Assert.AreEqual<uint>
 	*/
 
@@ -47,13 +47,13 @@ public static class Assert // TypeDefIndex: 3904
 	public static void AreEqual<T>(T expected, T actual, string message, IEqualityComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5C9250 Offset: 0x5C7850 VA: 0x1805C9250
+	|-RVA: 0x5C9320 Offset: 0x5C7920 VA: 0x1805C9320
 	|-Assert.AreEqual<int>
 	|
-	|-RVA: 0x5C96E0 Offset: 0x5C7CE0 VA: 0x1805C96E0
+	|-RVA: 0x5C97B0 Offset: 0x5C7DB0 VA: 0x1805C97B0
 	|-Assert.AreEqual<object>
 	|
-	|-RVA: 0x5C9A10 Offset: 0x5C8010 VA: 0x1805C9A10
+	|-RVA: 0x5C9AE0 Offset: 0x5C80E0 VA: 0x1805C9AE0
 	|-Assert.AreEqual<uint>
 	*/
 
@@ -64,7 +64,7 @@ public static class Assert // TypeDefIndex: 3904
 	public static void IsNotNull<T>(T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5C9CC0 Offset: 0x5C82C0 VA: 0x1805C9CC0
+	|-RVA: 0x5C9D90 Offset: 0x5C8390 VA: 0x1805C9D90
 	|-Assert.IsNotNull<Manifest>
 	|-Assert.IsNotNull<Dictionary<IPEndPoint, int>>
 	|-Assert.IsNotNull<object>
@@ -79,7 +79,7 @@ public static class Assert // TypeDefIndex: 3904
 	public static void IsNotNull<T>(T value, string message) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5C9D30 Offset: 0x5C8330 VA: 0x1805C9D30
+	|-RVA: 0x5C9E00 Offset: 0x5C8400 VA: 0x1805C9E00
 	|-Assert.IsNotNull<InputState>
 	|-Assert.IsNotNull<Client>
 	|-Assert.IsNotNull<NetWrite>

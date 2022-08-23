@@ -45,7 +45,7 @@ internal static class Statics // TypeDefIndex: 1577
 	public static AttributeType GetCustomAttribute<AttributeType>(PropertyInfo propInfo) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125F9B0 Offset: 0x125DFB0 VA: 0x18125F9B0
+	|-RVA: 0x125FAB0 Offset: 0x125E0B0 VA: 0x18125FAB0
 	|-Statics.GetCustomAttribute<EventFieldAttribute>
 	|-Statics.GetCustomAttribute<object>
 	*/
@@ -53,7 +53,7 @@ internal static class Statics // TypeDefIndex: 1577
 	public static AttributeType GetCustomAttribute<AttributeType>(Type type) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125F8A0 Offset: 0x125DEA0 VA: 0x18125F8A0
+	|-RVA: 0x125F9A0 Offset: 0x125DFA0 VA: 0x18125F9A0
 	|-Statics.GetCustomAttribute<EventDataAttribute>
 	|-Statics.GetCustomAttribute<object>
 	|-Statics.GetCustomAttribute<CompilerGeneratedAttribute>
@@ -72,70 +72,70 @@ internal static class Statics // TypeDefIndex: 1577
 	public static TraceLoggingTypeInfo<DataType> CreateDefaultTypeInfo<DataType>(List<Type> recursionCheck) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x12B0060 Offset: 0x12AE660 VA: 0x1812B0060
+	|-RVA: 0x12B0160 Offset: 0x12AE760 VA: 0x1812B0160
 	|-Statics.CreateDefaultTypeInfo<bool>
 	|
-	|-RVA: 0x12B1F90 Offset: 0x12B0590 VA: 0x1812B1F90
+	|-RVA: 0x12B2090 Offset: 0x12B0690 VA: 0x1812B2090
 	|-Statics.CreateDefaultTypeInfo<byte>
 	|
-	|-RVA: 0x12B3EC0 Offset: 0x12B24C0 VA: 0x1812B3EC0
+	|-RVA: 0x12B3FC0 Offset: 0x12B25C0 VA: 0x1812B3FC0
 	|-Statics.CreateDefaultTypeInfo<char>
 	|
-	|-RVA: 0x12C1910 Offset: 0x12BFF10 VA: 0x1812C1910
+	|-RVA: 0x12C1A10 Offset: 0x12C0010 VA: 0x1812C1A10
 	|-Statics.CreateDefaultTypeInfo<KeyValuePair<object, object>>
 	|
-	|-RVA: 0x12B7D20 Offset: 0x12B6320 VA: 0x1812B7D20
+	|-RVA: 0x12B7E20 Offset: 0x12B6420 VA: 0x1812B7E20
 	|-Statics.CreateDefaultTypeInfo<DateTime>
 	|
-	|-RVA: 0x12B5DF0 Offset: 0x12B43F0 VA: 0x1812B5DF0
+	|-RVA: 0x12B5EF0 Offset: 0x12B44F0 VA: 0x1812B5EF0
 	|-Statics.CreateDefaultTypeInfo<DateTimeOffset>
 	|
-	|-RVA: 0x12B9C50 Offset: 0x12B8250 VA: 0x1812B9C50
+	|-RVA: 0x12B9D50 Offset: 0x12B8350 VA: 0x1812B9D50
 	|-Statics.CreateDefaultTypeInfo<Decimal>
 	|
-	|-RVA: 0x12BDAB0 Offset: 0x12BC0B0 VA: 0x1812BDAB0
+	|-RVA: 0x12BDBB0 Offset: 0x12BC1B0 VA: 0x1812BDBB0
 	|-Statics.CreateDefaultTypeInfo<EmptyStruct>
 	|
-	|-RVA: 0x12BBB80 Offset: 0x12BA180 VA: 0x1812BBB80
+	|-RVA: 0x12BBC80 Offset: 0x12BA280 VA: 0x1812BBC80
 	|-Statics.CreateDefaultTypeInfo<double>
 	|
-	|-RVA: 0x12BF9E0 Offset: 0x12BDFE0 VA: 0x1812BF9E0
+	|-RVA: 0x12BFAE0 Offset: 0x12BE0E0 VA: 0x1812BFAE0
 	|-Statics.CreateDefaultTypeInfo<Guid>
 	|
-	|-RVA: 0x1B1B030 Offset: 0x1B19630 VA: 0x181B1B030
+	|-RVA: 0x1B1B130 Offset: 0x1B19730 VA: 0x181B1B130
 	|-Statics.CreateDefaultTypeInfo<short>
 	|
-	|-RVA: 0x1B1CF60 Offset: 0x1B1B560 VA: 0x181B1CF60
+	|-RVA: 0x1B1D060 Offset: 0x1B1B660 VA: 0x181B1D060
 	|-Statics.CreateDefaultTypeInfo<int>
 	|
-	|-RVA: 0x1B1EE90 Offset: 0x1B1D490 VA: 0x181B1EE90
+	|-RVA: 0x1B1EF90 Offset: 0x1B1D590 VA: 0x181B1EF90
 	|-Statics.CreateDefaultTypeInfo<long>
 	|
-	|-RVA: 0x1B20DC0 Offset: 0x1B1F3C0 VA: 0x181B20DC0
+	|-RVA: 0x1B20EC0 Offset: 0x1B1F4C0 VA: 0x181B20EC0
 	|-Statics.CreateDefaultTypeInfo<IntPtr>
 	|
-	|-RVA: 0x1B22CF0 Offset: 0x1B212F0 VA: 0x181B22CF0
+	|-RVA: 0x1B22DF0 Offset: 0x1B213F0 VA: 0x181B22DF0
 	|-Statics.CreateDefaultTypeInfo<object>
 	|
-	|-RVA: 0x1B24C20 Offset: 0x1B23220 VA: 0x181B24C20
+	|-RVA: 0x1B24D20 Offset: 0x1B23320 VA: 0x181B24D20
 	|-Statics.CreateDefaultTypeInfo<sbyte>
 	|
-	|-RVA: 0x1B26B50 Offset: 0x1B25150 VA: 0x181B26B50
+	|-RVA: 0x1B26C50 Offset: 0x1B25250 VA: 0x181B26C50
 	|-Statics.CreateDefaultTypeInfo<float>
 	|
-	|-RVA: 0x1B28A80 Offset: 0x1B27080 VA: 0x181B28A80
+	|-RVA: 0x1B28B80 Offset: 0x1B27180 VA: 0x181B28B80
 	|-Statics.CreateDefaultTypeInfo<TimeSpan>
 	|
-	|-RVA: 0x1B2A9B0 Offset: 0x1B28FB0 VA: 0x181B2A9B0
+	|-RVA: 0x1B2AAB0 Offset: 0x1B290B0 VA: 0x181B2AAB0
 	|-Statics.CreateDefaultTypeInfo<ushort>
 	|
-	|-RVA: 0x1B2C8E0 Offset: 0x1B2AEE0 VA: 0x181B2C8E0
+	|-RVA: 0x1B2C9E0 Offset: 0x1B2AFE0 VA: 0x181B2C9E0
 	|-Statics.CreateDefaultTypeInfo<uint>
 	|
-	|-RVA: 0x1B2E810 Offset: 0x1B2CE10 VA: 0x181B2E810
+	|-RVA: 0x1B2E910 Offset: 0x1B2CF10 VA: 0x181B2E910
 	|-Statics.CreateDefaultTypeInfo<ulong>
 	|
-	|-RVA: 0x1B30740 Offset: 0x1B2ED40 VA: 0x181B30740
+	|-RVA: 0x1B30840 Offset: 0x1B2EE40 VA: 0x181B30840
 	|-Statics.CreateDefaultTypeInfo<UIntPtr>
 	*/
 

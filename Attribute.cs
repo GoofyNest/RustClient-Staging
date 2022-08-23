@@ -228,7 +228,7 @@ internal class AttributeHelperEngine // TypeDefIndex: 3492
 	private static T GetCustomAttributeOfType<T>(Type klass) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159D840 Offset: 0x159BE40 VA: 0x18159D840
+	|-RVA: 0x159D940 Offset: 0x159BF40 VA: 0x18159D940
 	|-AttributeHelperEngine.GetCustomAttributeOfType<object>
 	|-AttributeHelperEngine.GetCustomAttributeOfType<DefaultExecutionOrder>
 	*/

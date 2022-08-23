@@ -55,7 +55,7 @@ public class PrefabAttribute.AttributeCollection // TypeDefIndex: 11331
 	public T[] Find<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A36900 Offset: 0x1A34F00 VA: 0x181A36900
+	|-RVA: 0x1A36A00 Offset: 0x1A35000 VA: 0x181A36A00
 	|-PrefabAttribute.AttributeCollection.Find<object>
 	*/
 
@@ -78,7 +78,7 @@ public class PrefabAttribute.Library // TypeDefIndex: 11332
 	public T Find<T>(uint prefabID) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D16A0 Offset: 0x5CFCA0 VA: 0x1805D16A0
+	|-RVA: 0x5D1770 Offset: 0x5CFD70 VA: 0x1805D1770
 	|-PrefabAttribute.Library.Find<CardGameSounds>
 	|-PrefabAttribute.Library.Find<Construction>
 	|-PrefabAttribute.Library.Find<DecorSocketFemale>
@@ -98,7 +98,7 @@ public class PrefabAttribute.Library // TypeDefIndex: 11332
 	public T[] FindAll<T>(uint prefabID) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A3ADA0 Offset: 0x1A393A0 VA: 0x181A3ADA0
+	|-RVA: 0x1A3AEA0 Offset: 0x1A394A0 VA: 0x181A3AEA0
 	|-PrefabAttribute.Library.FindAll<AttractionPoint>
 	|-PrefabAttribute.Library.FindAll<ConditionalModel>
 	|-PrefabAttribute.Library.FindAll<DecalComponent>

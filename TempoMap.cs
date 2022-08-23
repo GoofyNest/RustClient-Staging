@@ -36,7 +36,7 @@ public sealed class TempoMap // TypeDefIndex: 7452
 	internal TCache GetValuesCache<TCache>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BA360 Offset: 0x15B8960 VA: 0x1815BA360
+	|-RVA: 0x15BA460 Offset: 0x15B8A60 VA: 0x1815BA460
 	|-TempoMap.GetValuesCache<MetricTempoMapValuesCache>
 	|-TempoMap.GetValuesCache<object>
 	*/

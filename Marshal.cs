@@ -53,14 +53,14 @@ public static class Marshal // TypeDefIndex: 1355
 	public static T PtrToStructure<T>(IntPtr ptr) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBE08C0 Offset: 0xBDEEC0 VA: 0x180BE08C0
+	|-RVA: 0xBE09C0 Offset: 0xBDEFC0 VA: 0x180BE09C0
 	|-Marshal.PtrToStructure<UnityTls.unitytls_interface_struct>
 	|-Marshal.PtrToStructure<object>
 	|
-	|-RVA: 0xBE0740 Offset: 0xBDED40 VA: 0x180BE0740
+	|-RVA: 0xBE0840 Offset: 0xBDEE40 VA: 0x180BE0840
 	|-Marshal.PtrToStructure<NetMsg>
 	|
-	|-RVA: 0xBE09A0 Offset: 0xBDEFA0 VA: 0x180BE09A0
+	|-RVA: 0xBE0AA0 Offset: 0xBDF0A0 VA: 0x180BE0AA0
 	|-Marshal.PtrToStructure<Win32_FIXED_INFO>
 	*/
 
@@ -96,10 +96,10 @@ public static class Marshal // TypeDefIndex: 1355
 	public static int SizeOf<T>(T structure) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED7160 Offset: 0xED5760 VA: 0x180ED7160
+	|-RVA: 0xED7260 Offset: 0xED5860 VA: 0x180ED7260
 	|-Marshal.SizeOf<Os.SECURITY_ATTRIBUTES>
 	|
-	|-RVA: 0xED70F0 Offset: 0xED56F0 VA: 0x180ED70F0
+	|-RVA: 0xED71F0 Offset: 0xED57F0 VA: 0x180ED71F0
 	|-Marshal.SizeOf<object>
 	*/
 
@@ -116,7 +116,7 @@ public static class Marshal // TypeDefIndex: 1355
 	public static void StructureToPtr<T>(T structure, IntPtr ptr, bool fDeleteOld) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xF09650 Offset: 0xF07C50 VA: 0x180F09650
+	|-RVA: 0xF09750 Offset: 0xF07D50 VA: 0x180F09750
 	|-Marshal.StructureToPtr<object>
 	*/
 
@@ -125,10 +125,10 @@ public static class Marshal // TypeDefIndex: 1355
 	public static IntPtr UnsafeAddrOfPinnedArrayElement<T>(T[] arr, int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED7220 Offset: 0xED5820 VA: 0x180ED7220
+	|-RVA: 0xED7320 Offset: 0xED5920 VA: 0x180ED7320
 	|-Marshal.UnsafeAddrOfPinnedArrayElement<byte>
 	|
-	|-RVA: 0xED7280 Offset: 0xED5880 VA: 0x180ED7280
+	|-RVA: 0xED7380 Offset: 0xED5980 VA: 0x180ED7380
 	|-Marshal.UnsafeAddrOfPinnedArrayElement<object>
 	*/
 
@@ -139,7 +139,7 @@ public static class Marshal // TypeDefIndex: 1355
 	public static IntPtr GetFunctionPointerForDelegate<TDelegate>(TDelegate d) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED7030 Offset: 0xED5630 VA: 0x180ED7030
+	|-RVA: 0xED7130 Offset: 0xED5730 VA: 0x180ED7130
 	|-Marshal.GetFunctionPointerForDelegate<BufferManager.FreeFn>
 	|-Marshal.GetFunctionPointerForDelegate<object>
 	|-Marshal.GetFunctionPointerForDelegate<OSSpecificSynchronizationContext.InvocationEntryDelegate>

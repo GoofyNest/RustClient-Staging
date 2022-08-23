@@ -2196,7 +2196,7 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 	public bool IsHoldingEntity<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125D1F0 Offset: 0x125B7F0 VA: 0x18125D1F0
+	|-RVA: 0x125D2F0 Offset: 0x125B8F0 VA: 0x18125D2F0
 	|-BasePlayer.IsHoldingEntity<Hammer>
 	|-BasePlayer.IsHoldingEntity<object>
 	|-BasePlayer.IsHoldingEntity<WireTool>

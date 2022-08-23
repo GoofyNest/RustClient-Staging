@@ -253,7 +253,7 @@ public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, I
 	public T ToClient<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CB0A0 Offset: 0x5C96A0 VA: 0x1805CB0A0
+	|-RVA: 0x5CB170 Offset: 0x5C9770 VA: 0x1805CB170
 	|-BaseNetworkable.ToClient<BaseEntity>
 	|-BaseNetworkable.ToClient<object>
 	*/

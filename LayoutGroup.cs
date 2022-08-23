@@ -95,27 +95,27 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 	protected void SetProperty<T>(ref T currentValue, T newValue) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D1310 Offset: 0x5CF910 VA: 0x1805D1310
+	|-RVA: 0x5D13E0 Offset: 0x5CF9E0 VA: 0x1805D13E0
 	|-LayoutGroup.SetProperty<bool>
 	|
-	|-RVA: 0x5D1470 Offset: 0x5CFA70 VA: 0x1805D1470
+	|-RVA: 0x5D1540 Offset: 0x5CFB40 VA: 0x1805D1540
 	|-LayoutGroup.SetProperty<int>
 	|
-	|-RVA: 0x5D13A0 Offset: 0x5CF9A0 VA: 0x1805D13A0
+	|-RVA: 0x5D1470 Offset: 0x5CFA70 VA: 0x1805D1470
 	|-LayoutGroup.SetProperty<Int32Enum>
 	|-LayoutGroup.SetProperty<TextAnchor>
 	|-LayoutGroup.SetProperty<GridLayoutGroup.Axis>
 	|-LayoutGroup.SetProperty<GridLayoutGroup.Constraint>
 	|-LayoutGroup.SetProperty<GridLayoutGroup.Corner>
 	|
-	|-RVA: 0x5D1500 Offset: 0x5CFB00 VA: 0x1805D1500
+	|-RVA: 0x5D15D0 Offset: 0x5CFBD0 VA: 0x1805D15D0
 	|-LayoutGroup.SetProperty<object>
 	|-LayoutGroup.SetProperty<RectOffset>
 	|
-	|-RVA: 0x5D1580 Offset: 0x5CFB80 VA: 0x1805D1580
+	|-RVA: 0x5D1650 Offset: 0x5CFC50 VA: 0x1805D1650
 	|-LayoutGroup.SetProperty<float>
 	|
-	|-RVA: 0x5D1610 Offset: 0x5CFC10 VA: 0x1805D1610
+	|-RVA: 0x5D16E0 Offset: 0x5CFCE0 VA: 0x1805D16E0
 	|-LayoutGroup.SetProperty<Vector2>
 	*/
 

@@ -98,53 +98,53 @@ public abstract class RestRgbService : IRgbService // TypeDefIndex: 7678
 	protected Task<HttpResponseMessage> SendPost<T>(string endpoint, T payload) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED8780 Offset: 0xED6D80 VA: 0x180ED8780
+	|-RVA: 0xED8880 Offset: 0xED6E80 VA: 0x180ED8880
 	|-RestRgbService.SendPost<GameEvent<ColorEventData>>
 	|
-	|-RVA: 0xED8630 Offset: 0xED6C30 VA: 0x180ED8630
+	|-RVA: 0xED8730 Offset: 0xED6D30 VA: 0x180ED8730
 	|-RestRgbService.SendPost<GameEvent<EmptyEventData>>
 	|
-	|-RVA: 0xED88D0 Offset: 0xED6ED0 VA: 0x180ED88D0
+	|-RVA: 0xED89D0 Offset: 0xED6FD0 VA: 0x180ED89D0
 	|-RestRgbService.SendPost<GameMetadata>
 	|
-	|-RVA: 0xED8A20 Offset: 0xED7020 VA: 0x180ED8A20
+	|-RVA: 0xED8B20 Offset: 0xED7120 VA: 0x180ED8B20
 	|-RestRgbService.SendPost<LoadGoLispHandlers>
 	|
-	|-RVA: 0xED8B70 Offset: 0xED7170 VA: 0x180ED8B70
+	|-RVA: 0xED8C70 Offset: 0xED7270 VA: 0x180ED8C70
 	|-RestRgbService.SendPost<RegisterGameEvent>
 	|
-	|-RVA: 0xED8CC0 Offset: 0xED72C0 VA: 0x180ED8CC0
+	|-RVA: 0xED8DC0 Offset: 0xED73C0 VA: 0x180ED8DC0
 	|-RestRgbService.SendPost<RegisterTimelineEvents>
 	|
-	|-RVA: 0xED8E10 Offset: 0xED7410 VA: 0x180ED8E10
+	|-RVA: 0xED8F10 Offset: 0xED7510 VA: 0x180ED8F10
 	|-RestRgbService.SendPost<RemoveGame>
 	*/
 
 	protected static HttpContent BuildContent<T>(T parameters) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED8010 Offset: 0xED6610 VA: 0x180ED8010
+	|-RVA: 0xED8110 Offset: 0xED6710 VA: 0x180ED8110
 	|-RestRgbService.BuildContent<GameEvent<ColorEventData>>
 	|
-	|-RVA: 0xED7F30 Offset: 0xED6530 VA: 0x180ED7F30
+	|-RVA: 0xED8030 Offset: 0xED6630 VA: 0x180ED8030
 	|-RestRgbService.BuildContent<GameEvent<EmptyEventData>>
 	|
-	|-RVA: 0xED80F0 Offset: 0xED66F0 VA: 0x180ED80F0
+	|-RVA: 0xED81F0 Offset: 0xED67F0 VA: 0x180ED81F0
 	|-RestRgbService.BuildContent<GameMetadata>
 	|
-	|-RVA: 0xED81D0 Offset: 0xED67D0 VA: 0x180ED81D0
+	|-RVA: 0xED82D0 Offset: 0xED68D0 VA: 0x180ED82D0
 	|-RestRgbService.BuildContent<Heartbeat>
 	|
-	|-RVA: 0xED82B0 Offset: 0xED68B0 VA: 0x180ED82B0
+	|-RVA: 0xED83B0 Offset: 0xED69B0 VA: 0x180ED83B0
 	|-RestRgbService.BuildContent<LoadGoLispHandlers>
 	|
-	|-RVA: 0xED8390 Offset: 0xED6990 VA: 0x180ED8390
+	|-RVA: 0xED8490 Offset: 0xED6A90 VA: 0x180ED8490
 	|-RestRgbService.BuildContent<RegisterGameEvent>
 	|
-	|-RVA: 0xED8470 Offset: 0xED6A70 VA: 0x180ED8470
+	|-RVA: 0xED8570 Offset: 0xED6B70 VA: 0x180ED8570
 	|-RestRgbService.BuildContent<RegisterTimelineEvents>
 	|
-	|-RVA: 0xED8550 Offset: 0xED6B50 VA: 0x180ED8550
+	|-RVA: 0xED8650 Offset: 0xED6C50 VA: 0x180ED8650
 	|-RestRgbService.BuildContent<RemoveGame>
 	*/
 

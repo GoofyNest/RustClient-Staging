@@ -9,31 +9,31 @@ internal abstract class BaseInvokableCall // TypeDefIndex: 3627
 	protected static void ThrowOnInvalidArg<T>(object arg) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CA9C0 Offset: 0x5C8FC0 VA: 0x1805CA9C0
+	|-RVA: 0x5CAA90 Offset: 0x5C9090 VA: 0x1805CAA90
 	|-BaseInvokableCall.ThrowOnInvalidArg<Option>
 	|
-	|-RVA: 0x5CA440 Offset: 0x5C8A40 VA: 0x1805CA440
+	|-RVA: 0x5CA510 Offset: 0x5C8B10 VA: 0x1805CA510
 	|-BaseInvokableCall.ThrowOnInvalidArg<bool>
 	|
-	|-RVA: 0x5CA860 Offset: 0x5C8E60 VA: 0x1805CA860
+	|-RVA: 0x5CA930 Offset: 0x5C8F30 VA: 0x1805CA930
 	|-BaseInvokableCall.ThrowOnInvalidArg<int>
 	|
-	|-RVA: 0x5CA700 Offset: 0x5C8D00 VA: 0x1805CA700
+	|-RVA: 0x5CA7D0 Offset: 0x5C8DD0 VA: 0x1805CA7D0
 	|-BaseInvokableCall.ThrowOnInvalidArg<Int32Enum>
 	|
-	|-RVA: 0x5CAB20 Offset: 0x5C9120 VA: 0x1805CAB20
+	|-RVA: 0x5CABF0 Offset: 0x5C91F0 VA: 0x1805CABF0
 	|-BaseInvokableCall.ThrowOnInvalidArg<object>
 	|
-	|-RVA: 0x5CAC80 Offset: 0x5C9280 VA: 0x1805CAC80
+	|-RVA: 0x5CAD50 Offset: 0x5C9350 VA: 0x1805CAD50
 	|-BaseInvokableCall.ThrowOnInvalidArg<float>
 	|
-	|-RVA: 0x5CADE0 Offset: 0x5C93E0 VA: 0x1805CADE0
+	|-RVA: 0x5CAEB0 Offset: 0x5C94B0 VA: 0x1805CAEB0
 	|-BaseInvokableCall.ThrowOnInvalidArg<ulong>
 	|
-	|-RVA: 0x5CA5A0 Offset: 0x5C8BA0 VA: 0x1805CA5A0
+	|-RVA: 0x5CA670 Offset: 0x5C8C70 VA: 0x1805CA670
 	|-BaseInvokableCall.ThrowOnInvalidArg<Color>
 	|
-	|-RVA: 0x5CAF40 Offset: 0x5C9540 VA: 0x1805CAF40
+	|-RVA: 0x5CB010 Offset: 0x5C9610 VA: 0x1805CB010
 	|-BaseInvokableCall.ThrowOnInvalidArg<Vector2>
 	*/
 

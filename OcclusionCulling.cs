@@ -158,7 +158,7 @@ public class OcclusionCulling : MonoBehaviour // TypeDefIndex: 11513
 	public static void RecursiveAddOccludees<T>(Transform transform, float minTimeVisible = 0,1, bool isStatic = True, bool stickyGizmos = False) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xCFEC30 Offset: 0xCFD230 VA: 0x180CFEC30
+	|-RVA: 0xCFED30 Offset: 0xCFD330 VA: 0x180CFED30
 	|-OcclusionCulling.RecursiveAddOccludees<object>
 	*/
 
@@ -321,7 +321,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public int get_Size() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD57000 Offset: 0xD55600 VA: 0x180D57000
+	|-RVA: 0xD57100 Offset: 0xD55700 VA: 0x180D57100
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>.get_Size
 	|-OcclusionCulling.HashedPool<object>.get_Size
 	*/
@@ -329,7 +329,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public int get_Count() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD56FA0 Offset: 0xD555A0 VA: 0x180D56FA0
+	|-RVA: 0xD570A0 Offset: 0xD556A0 VA: 0x180D570A0
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>.get_Count
 	|-OcclusionCulling.HashedPool<object>.get_Count
 	*/
@@ -337,7 +337,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public ValueType get_Item(int i) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD56FD0 Offset: 0xD555D0 VA: 0x180D56FD0
+	|-RVA: 0xD570D0 Offset: 0xD556D0 VA: 0x180D570D0
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>.get_Item
 	|-OcclusionCulling.HashedPool<object>.get_Item
 	*/
@@ -345,14 +345,14 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public void set_Item(int i, ValueType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD57030 Offset: 0xD55630 VA: 0x180D57030
+	|-RVA: 0xD57130 Offset: 0xD55730 VA: 0x180D57130
 	|-OcclusionCulling.HashedPool<object>.set_Item
 	*/
 
 	public void .ctor(int capacity, int granularity) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD56E00 Offset: 0xD55400 VA: 0x180D56E00
+	|-RVA: 0xD56F00 Offset: 0xD55500 VA: 0x180D56F00
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>..ctor
 	|-OcclusionCulling.HashedPool<object>..ctor
 	*/
@@ -360,14 +360,14 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD56C50 Offset: 0xD55250 VA: 0x180D56C50
+	|-RVA: 0xD56D50 Offset: 0xD55350 VA: 0x180D56D50
 	|-OcclusionCulling.HashedPool<object>.Clear
 	*/
 
 	public ValueType Add(ulong key, int capacityGranularity = 16) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD56A60 Offset: 0xD55060 VA: 0x180D56A60
+	|-RVA: 0xD56B60 Offset: 0xD55160 VA: 0x180D56B60
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>.Add
 	|-OcclusionCulling.HashedPool<object>.Add
 	*/
@@ -375,7 +375,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public void Remove(ValueType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD56D20 Offset: 0xD55320 VA: 0x180D56D20
+	|-RVA: 0xD56E20 Offset: 0xD55420 VA: 0x180D56E20
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>.Remove
 	|-OcclusionCulling.HashedPool<object>.Remove
 	*/
@@ -383,7 +383,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public bool TryGetValue(ulong key, out ValueType value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD56DD0 Offset: 0xD553D0 VA: 0x180D56DD0
+	|-RVA: 0xD56ED0 Offset: 0xD554D0 VA: 0x180D56ED0
 	|-OcclusionCulling.HashedPool<OcclusionCulling.Cell>.TryGetValue
 	|-OcclusionCulling.HashedPool<object>.TryGetValue
 	*/
@@ -391,7 +391,7 @@ public class OcclusionCulling.HashedPool<ValueType> // TypeDefIndex: 11519
 	public bool ContainsKey(ulong key) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD56CF0 Offset: 0xD552F0 VA: 0x180D56CF0
+	|-RVA: 0xD56DF0 Offset: 0xD553F0 VA: 0x180D56DF0
 	|-OcclusionCulling.HashedPool<object>.ContainsKey
 	*/
 
@@ -421,7 +421,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public int get_Capacity() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x9EBD30 Offset: 0x9EA330 VA: 0x1809EBD30
+	|-RVA: 0x9EBE30 Offset: 0x9EA430 VA: 0x1809EBE30
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.get_Capacity
 	|-OcclusionCulling.SimpleList<OccludeeState>.get_Capacity
 	|-OcclusionCulling.SimpleList<int>.get_Capacity
@@ -431,7 +431,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public void set_Capacity(int value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD63270 Offset: 0xD61870 VA: 0x180D63270
+	|-RVA: 0xD63370 Offset: 0xD61970 VA: 0x180D63370
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.set_Capacity
 	|-OcclusionCulling.SimpleList<OccludeeState>.set_Capacity
 	|-OcclusionCulling.SimpleList<int>.set_Capacity
@@ -441,35 +441,35 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public T get_Item(int index) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD63140 Offset: 0xD61740 VA: 0x180D63140
+	|-RVA: 0xD63240 Offset: 0xD61840 VA: 0x180D63240
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.get_Item
 	|
-	|-RVA: 0x9EBD90 Offset: 0x9EA390 VA: 0x1809EBD90
+	|-RVA: 0x9EBE90 Offset: 0x9EA490 VA: 0x1809EBE90
 	|-OcclusionCulling.SimpleList<OccludeeState>.get_Item
 	|-OcclusionCulling.SimpleList<object>.get_Item
 	|
-	|-RVA: 0xD63230 Offset: 0xD61830 VA: 0x180D63230
+	|-RVA: 0xD63330 Offset: 0xD61930 VA: 0x180D63330
 	|-OcclusionCulling.SimpleList<int>.get_Item
 	*/
 
 	public void set_Item(int index, T value) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD63470 Offset: 0xD61A70 VA: 0x180D63470
+	|-RVA: 0xD63570 Offset: 0xD61B70 VA: 0x180D63570
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.set_Item
 	|
-	|-RVA: 0xD633E0 Offset: 0xD619E0 VA: 0x180D633E0
+	|-RVA: 0xD634E0 Offset: 0xD61AE0 VA: 0x180D634E0
 	|-OcclusionCulling.SimpleList<OccludeeState>.set_Item
 	|-OcclusionCulling.SimpleList<object>.set_Item
 	|
-	|-RVA: 0xD63430 Offset: 0xD61A30 VA: 0x180D63430
+	|-RVA: 0xD63530 Offset: 0xD61B30 VA: 0x180D63530
 	|-OcclusionCulling.SimpleList<int>.set_Item
 	*/
 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD62F20 Offset: 0xD61520 VA: 0x180D62F20
+	|-RVA: 0xD63020 Offset: 0xD61620 VA: 0x180D63020
 	|-OcclusionCulling.SimpleList<OccludeeState.State>..ctor
 	|-OcclusionCulling.SimpleList<int>..ctor
 	|-OcclusionCulling.SimpleList<object>..ctor
@@ -478,7 +478,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public void .ctor(int capacity) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD63010 Offset: 0xD61610 VA: 0x180D63010
+	|-RVA: 0xD63110 Offset: 0xD61710 VA: 0x180D63110
 	|-OcclusionCulling.SimpleList<OccludeeState.State>..ctor
 	|-OcclusionCulling.SimpleList<OccludeeState>..ctor
 	|-OcclusionCulling.SimpleList<int>..ctor
@@ -488,21 +488,21 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public void Add(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD62880 Offset: 0xD60E80 VA: 0x180D62880
+	|-RVA: 0xD62980 Offset: 0xD60F80 VA: 0x180D62980
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.Add
 	|
-	|-RVA: 0xD62630 Offset: 0xD60C30 VA: 0x180D62630
+	|-RVA: 0xD62730 Offset: 0xD60D30 VA: 0x180D62730
 	|-OcclusionCulling.SimpleList<OccludeeState>.Add
 	|-OcclusionCulling.SimpleList<object>.Add
 	|
-	|-RVA: 0xD626C0 Offset: 0xD60CC0 VA: 0x180D626C0
+	|-RVA: 0xD627C0 Offset: 0xD60DC0 VA: 0x180D627C0
 	|-OcclusionCulling.SimpleList<int>.Add
 	*/
 
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD62920 Offset: 0xD60F20 VA: 0x180D62920
+	|-RVA: 0xD62A20 Offset: 0xD61020 VA: 0x180D62A20
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.Clear
 	|-OcclusionCulling.SimpleList<int>.Clear
 	|-OcclusionCulling.SimpleList<object>.Clear
@@ -511,20 +511,20 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public bool Contains(T item) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD62AB0 Offset: 0xD610B0 VA: 0x180D62AB0
+	|-RVA: 0xD62BB0 Offset: 0xD611B0 VA: 0x180D62BB0
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.Contains
 	|
-	|-RVA: 0xD62D10 Offset: 0xD61310 VA: 0x180D62D10
+	|-RVA: 0xD62E10 Offset: 0xD61410 VA: 0x180D62E10
 	|-OcclusionCulling.SimpleList<int>.Contains
 	|
-	|-RVA: 0xD62950 Offset: 0xD60F50 VA: 0x180D62950
+	|-RVA: 0xD62A50 Offset: 0xD61050 VA: 0x180D62A50
 	|-OcclusionCulling.SimpleList<object>.Contains
 	*/
 
 	public void CopyTo(T[] array) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD62DE0 Offset: 0xD613E0 VA: 0x180D62DE0
+	|-RVA: 0xD62EE0 Offset: 0xD614E0 VA: 0x180D62EE0
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.CopyTo
 	|-OcclusionCulling.SimpleList<int>.CopyTo
 	|-OcclusionCulling.SimpleList<object>.CopyTo
@@ -533,7 +533,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	public void EnsureCapacity(int min) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD62E10 Offset: 0xD61410 VA: 0x180D62E10
+	|-RVA: 0xD62F10 Offset: 0xD61510 VA: 0x180D62F10
 	|-OcclusionCulling.SimpleList<OccludeeState.State>.EnsureCapacity
 	|-OcclusionCulling.SimpleList<int>.EnsureCapacity
 	|-OcclusionCulling.SimpleList<object>.EnsureCapacity
@@ -542,7 +542,7 @@ public class OcclusionCulling.SimpleList<T> // TypeDefIndex: 11520
 	private static void .cctor() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD62E70 Offset: 0xD61470 VA: 0x180D62E70
+	|-RVA: 0xD62F70 Offset: 0xD61570 VA: 0x180D62F70
 	|-OcclusionCulling.SimpleList<OccludeeState.State>..cctor
 	|-OcclusionCulling.SimpleList<int>..cctor
 	|-OcclusionCulling.SimpleList<object>..cctor

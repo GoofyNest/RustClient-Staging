@@ -561,14 +561,14 @@ internal class MonoProperty : RuntimePropertyInfo // TypeDefIndex: 592
 	private static object GetterAdapterFrame<T, R>(MonoProperty.Getter<T, R> getter, object obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED74D0 Offset: 0xED5AD0 VA: 0x180ED74D0
+	|-RVA: 0xED75D0 Offset: 0xED5BD0 VA: 0x180ED75D0
 	|-MonoProperty.GetterAdapterFrame<object, object>
 	*/
 
 	private static object StaticGetterAdapterFrame<R>(MonoProperty.StaticGetter<R> getter, object obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED7560 Offset: 0xED5B60 VA: 0x180ED7560
+	|-RVA: 0xED7660 Offset: 0xED5C60 VA: 0x180ED7660
 	|-MonoProperty.StaticGetterAdapterFrame<object>
 	*/
 
@@ -614,7 +614,7 @@ private sealed class MonoProperty.Getter<T, R> : MulticastDelegate // TypeDefInd
 	public virtual R Invoke(T _this) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x189F240 Offset: 0x189D840 VA: 0x18189F240
+	|-RVA: 0x189F340 Offset: 0x189D940 VA: 0x18189F340
 	|-MonoProperty.Getter<object, object>.Invoke
 	*/
 
@@ -646,7 +646,7 @@ private sealed class MonoProperty.StaticGetter<R> : MulticastDelegate // TypeDef
 	public virtual R Invoke() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD510C0 Offset: 0xD4F6C0 VA: 0x180D510C0
+	|-RVA: 0xD511C0 Offset: 0xD4F7C0 VA: 0x180D511C0
 	|-MonoProperty.StaticGetter<object>.Invoke
 	*/
 

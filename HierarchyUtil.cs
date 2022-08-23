@@ -1,5 +1,5 @@
 public static class HierarchyUtil // TypeDefIndex: 11385
-{	public static Dictionary<string, GameObject> rootDict; // 0x2B104DC
+{	public static Dictionary<string, GameObject> rootDict; // 0x1E020
 
 
 	public static GameObject GetRoot(string strName, bool groupActive = True, bool persistant = False) { }

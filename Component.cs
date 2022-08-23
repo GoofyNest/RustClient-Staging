@@ -60,7 +60,7 @@ public class Component : Object // TypeDefIndex: 3508
 	public T GetComponent<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159DE40 Offset: 0x159C440 VA: 0x18159DE40
+	|-RVA: 0x159DF40 Offset: 0x159C540 VA: 0x18159DF40
 	|-Component.GetComponent<AIInformationZone>
 	|-Component.GetComponent<AddNewEventUIButton>
 	|-Component.GetComponent<AddNewStateUIButton>
@@ -328,7 +328,7 @@ public class Component : Object // TypeDefIndex: 3508
 	public bool TryGetComponent<T>(out T component) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xBEF020 Offset: 0xBED620 VA: 0x180BEF020
+	|-RVA: 0xBEF120 Offset: 0xBED720 VA: 0x180BEF120
 	|-Component.TryGetComponent<BeltBarIcon>
 	|-Component.TryGetComponent<BoneRetarget>
 	|-Component.TryGetComponent<ColliderInfo>
@@ -367,7 +367,7 @@ public class Component : Object // TypeDefIndex: 3508
 	public T GetComponentInChildren<T>(bool includeInactive) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159DBC0 Offset: 0x159C1C0 VA: 0x18159DBC0
+	|-RVA: 0x159DCC0 Offset: 0x159C2C0 VA: 0x18159DCC0
 	|-Component.GetComponentInChildren<VirtualScroll>
 	|-Component.GetComponentInChildren<Publisher>
 	|-Component.GetComponentInChildren<WorkshopView>
@@ -380,7 +380,7 @@ public class Component : Object // TypeDefIndex: 3508
 	public T GetComponentInChildren<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159DCA0 Offset: 0x159C2A0 VA: 0x18159DCA0
+	|-RVA: 0x159DDA0 Offset: 0x159C3A0 VA: 0x18159DDA0
 	|-Component.GetComponentInChildren<AnimationEvents>
 	|-Component.GetComponentInChildren<BlendedLoopEngineSound>
 	|-Component.GetComponentInChildren<ConstructionPlaceholder>
@@ -419,7 +419,7 @@ public class Component : Object // TypeDefIndex: 3508
 	public T[] GetComponentsInChildren<T>(bool includeInactive) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A36E90 Offset: 0x1A35490 VA: 0x181A36E90
+	|-RVA: 0x1A36F90 Offset: 0x1A35590 VA: 0x181A36F90
 	|-Component.GetComponentsInChildren<AchievementTodo>
 	|-Component.GetComponentsInChildren<BaseScreenShake>
 	|-Component.GetComponentsInChildren<BaseViewModel>
@@ -464,7 +464,7 @@ public class Component : Object // TypeDefIndex: 3508
 	public void GetComponentsInChildren<T>(bool includeInactive, List<T> result) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CB4A0 Offset: 0x5C9AA0 VA: 0x1805CB4A0
+	|-RVA: 0x5CB570 Offset: 0x5C9B70 VA: 0x1805CB570
 	|-Component.GetComponentsInChildren<BaseVehicleModule>
 	|-Component.GetComponentsInChildren<BoneRetarget>
 	|-Component.GetComponentsInChildren<ComponentInfo>
@@ -492,7 +492,7 @@ public class Component : Object // TypeDefIndex: 3508
 	public T[] GetComponentsInChildren<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15A2FD0 Offset: 0x15A15D0 VA: 0x1815A2FD0
+	|-RVA: 0x15A30D0 Offset: 0x15A16D0 VA: 0x1815A30D0
 	|-Component.GetComponentsInChildren<AIMovePoint>
 	|-Component.GetComponentsInChildren<ArcadeEntity>
 	|-Component.GetComponentsInChildren<BasePathNode>
@@ -532,7 +532,7 @@ public class Component : Object // TypeDefIndex: 3508
 	public void GetComponentsInChildren<T>(List<T> results) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CB500 Offset: 0x5C9B00 VA: 0x1805CB500
+	|-RVA: 0x5CB5D0 Offset: 0x5C9BD0 VA: 0x1805CB5D0
 	|-Component.GetComponentsInChildren<HitboxDefinition>
 	|-Component.GetComponentsInChildren<ServerAdminUGCEntry>
 	|-Component.GetComponentsInChildren<ServerAdminUGCEntryPattern>
@@ -554,7 +554,7 @@ public class Component : Object // TypeDefIndex: 3508
 	public T GetComponentInParent<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x159DD70 Offset: 0x159C370 VA: 0x18159DD70
+	|-RVA: 0x159DE70 Offset: 0x159C470 VA: 0x18159DE70
 	|-Component.GetComponentInParent<BaseEntity>
 	|-Component.GetComponentInParent<BaseEventUI>
 	|-Component.GetComponentInParent<BaseMountable>
@@ -583,14 +583,14 @@ public class Component : Object // TypeDefIndex: 3508
 	public T[] GetComponentsInParent<T>(bool includeInactive) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A36E90 Offset: 0x1A35490 VA: 0x181A36E90
+	|-RVA: 0x1A36F90 Offset: 0x1A35590 VA: 0x181A36F90
 	|-Component.GetComponentsInParent<object>
 	*/
 
 	public void GetComponentsInParent<T>(bool includeInactive, List<T> results) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CB4A0 Offset: 0x5C9AA0 VA: 0x1805CB4A0
+	|-RVA: 0x5CB570 Offset: 0x5C9B70 VA: 0x1805CB570
 	|-Component.GetComponentsInParent<object>
 	|-Component.GetComponentsInParent<Canvas>
 	|-Component.GetComponentsInParent<RectMask2D>
@@ -599,7 +599,7 @@ public class Component : Object // TypeDefIndex: 3508
 	public T[] GetComponentsInParent<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15A2FD0 Offset: 0x15A15D0 VA: 0x1815A2FD0
+	|-RVA: 0x15A30D0 Offset: 0x15A16D0 VA: 0x1815A30D0
 	|-Component.GetComponentsInParent<BaseRaycaster>
 	|-Component.GetComponentsInParent<object>
 	*/
@@ -614,7 +614,7 @@ public class Component : Object // TypeDefIndex: 3508
 	public void GetComponents<T>(List<T> results) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5CB530 Offset: 0x5C9B30 VA: 0x1805CB530
+	|-RVA: 0x5CB600 Offset: 0x5C9C00 VA: 0x1805CB600
 	|-Component.GetComponents<object>
 	|-Component.GetComponents<CanvasGroup>
 	|-Component.GetComponents<Component>
@@ -626,7 +626,7 @@ public class Component : Object // TypeDefIndex: 3508
 	public T[] GetComponents<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x1A36EE0 Offset: 0x1A354E0 VA: 0x181A36EE0
+	|-RVA: 0x1A36FE0 Offset: 0x1A355E0 VA: 0x181A36FE0
 	|-Component.GetComponents<EZSoftBone>
 	|-Component.GetComponents<IImageEffect>
 	|-Component.GetComponents<ItemMod>

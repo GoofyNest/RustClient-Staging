@@ -142,14 +142,14 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 	public static IEnumerable<T> GetAllSceneObjects<T>() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xD03990 Offset: 0xD01F90 VA: 0x180D03990
+	|-RVA: 0xD03A90 Offset: 0xD02090 VA: 0x180D03A90
 	|-RuntimeUtilities.GetAllSceneObjects<object>
 	*/
 
 	public static void CreateIfNull<T>(ref T obj) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x5D3B40 Offset: 0x5D2140 VA: 0x1805D3B40
+	|-RVA: 0x5D3C10 Offset: 0x5D2210 VA: 0x1805D3C10
 	|-RuntimeUtilities.CreateIfNull<List<PostProcessLayer.SerializedBundleRef>>
 	|-RuntimeUtilities.CreateIfNull<object>
 	|-RuntimeUtilities.CreateIfNull<Dithering>
@@ -179,7 +179,7 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 	public static T GetAttribute<T>(Type type) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15B9DC0 Offset: 0x15B83C0 VA: 0x1815B9DC0
+	|-RVA: 0x15B9EC0 Offset: 0x15B84C0 VA: 0x1815B9EC0
 	|-RuntimeUtilities.GetAttribute<object>
 	|-RuntimeUtilities.GetAttribute<PostProcessAttribute>
 	*/
@@ -187,14 +187,14 @@ public static class RuntimeUtilities // TypeDefIndex: 11867
 	public static Attribute[] GetMemberAttributes<TType, TValue>(Expression<Func<TType, TValue>> expr) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x125F6D0 Offset: 0x125DCD0 VA: 0x18125F6D0
+	|-RVA: 0x125F7D0 Offset: 0x125DDD0 VA: 0x18125F7D0
 	|-RuntimeUtilities.GetMemberAttributes<object, object>
 	*/
 
 	public static string GetFieldPath<TType, TValue>(Expression<Func<TType, TValue>> expr) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0xED8F50 Offset: 0xED7550 VA: 0x180ED8F50
+	|-RVA: 0xED9050 Offset: 0xED7650 VA: 0x180ED9050
 	|-RuntimeUtilities.GetFieldPath<object, object>
 	*/
 
@@ -219,7 +219,7 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	public void .ctor(int <>1__state) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x144ABD0 Offset: 0x14491D0 VA: 0x18144ABD0
+	|-RVA: 0x144ACD0 Offset: 0x14492D0 VA: 0x18144ACD0
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>..ctor
 	*/
 
@@ -227,21 +227,21 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private void System.IDisposable.Dispose() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B45C0 Offset: 0x19B2BC0 VA: 0x1819B45C0
+	|-RVA: 0x19B46C0 Offset: 0x19B2CC0 VA: 0x1819B46C0
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.IDisposable.Dispose
 	*/
 
 	private bool MoveNext() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B40D0 Offset: 0x19B26D0 VA: 0x1819B40D0
+	|-RVA: 0x19B41D0 Offset: 0x19B27D0 VA: 0x1819B41D0
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.MoveNext
 	*/
 
 	private void <>m__Finally1() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B4640 Offset: 0x19B2C40 VA: 0x1819B4640
+	|-RVA: 0x19B4740 Offset: 0x19B2D40 VA: 0x1819B4740
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.<>m__Finally1
 	*/
 
@@ -257,7 +257,7 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private void System.Collections.IEnumerator.Reset() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B4570 Offset: 0x19B2B70 VA: 0x1819B4570
+	|-RVA: 0x19B4670 Offset: 0x19B2C70 VA: 0x1819B4670
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.Collections.IEnumerator.Reset
 	*/
 
@@ -273,7 +273,7 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B44A0 Offset: 0x19B2AA0 VA: 0x1819B44A0
+	|-RVA: 0x19B45A0 Offset: 0x19B2BA0 VA: 0x1819B45A0
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
@@ -281,7 +281,7 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x19B4540 Offset: 0x19B2B40 VA: 0x1819B4540
+	|-RVA: 0x19B4640 Offset: 0x19B2C40 VA: 0x1819B4640
 	|-RuntimeUtilities.<GetAllSceneObjects>d__79<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 

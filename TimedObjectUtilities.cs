@@ -4,7 +4,7 @@ public static class TimedObjectUtilities // TypeDefIndex: 7465
 	public static TTime TimeAs<TTime>(ITimedObject obj, TempoMap tempoMap) { }
 	/* GenericInstMethod :
 	|
-	|-RVA: 0x15BA690 Offset: 0x15B8C90 VA: 0x1815BA690
+	|-RVA: 0x15BA790 Offset: 0x15B8D90 VA: 0x1815BA790
 	|-TimedObjectUtilities.TimeAs<MetricTimeSpan>
 	|-TimedObjectUtilities.TimeAs<object>
 	*/
