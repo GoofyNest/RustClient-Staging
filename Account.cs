@@ -8,10 +8,10 @@ public static class Account // TypeDefIndex: 6172
 
 	public static bool get_IsReachable() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9F030 Offset: 0x9E430 VA: 0x18009F030
+	[AsyncStateMachineAttribute] // RVA: 0x9F160 Offset: 0x9E560 VA: 0x18009F160
 	public static Task Refresh() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9F130 Offset: 0x9E530 VA: 0x18009F130
+	[AsyncStateMachineAttribute] // RVA: 0x9F260 Offset: 0x9E660 VA: 0x18009F260
 	public static Task ReadAllNotices() { }
 
 	private static void .cctor() { }
@@ -19,11 +19,11 @@ public static class Account // TypeDefIndex: 6172
 }
 
 public class Account.AccountJson // TypeDefIndex: 6173
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <SteamId>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <UnreadNotices>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private AccountNotice[] <Notices>k__BackingField; // 0x20
 
 	public string SteamId { get; set; }
@@ -31,22 +31,22 @@ public class Account.AccountJson // TypeDefIndex: 6173
 	public AccountNotice[] Notices { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_SteamId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_SteamId(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_UnreadNotices() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_UnreadNotices(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public AccountNotice[] get_Notices() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Notices(AccountNotice[] value) { }
 
 	public void .ctor() { }
@@ -63,7 +63,7 @@ private struct Account.<Refresh>d__6 : IAsyncStateMachine // TypeDefIndex: 6174
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -79,7 +79,7 @@ private struct Account.<ReadAllNotices>d__7 : IAsyncStateMachine // TypeDefIndex
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

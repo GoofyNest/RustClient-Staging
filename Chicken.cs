@@ -1,6 +1,6 @@
 public class Chicken : BaseAnimalNPC // TypeDefIndex: 8923
-{	[ServerVar] // RVA: 0xB4310 Offset: 0xB3710 VA: 0x1800B4310
-	public static float Population; // 0x1B30
+{	[ServerVar] // RVA: 0xB4350 Offset: 0xB3750 VA: 0x1800B4350
+	public static float Population; // 0x1596
 
 	public override float RealisticMass { get; }
 	public override BaseEntity.TraitFlag Traits { get; }

@@ -1,5 +1,5 @@
 internal static class NativeNetProtect // TypeDefIndex: 7154
-{	private static IntPtr Instance; // 0x2B10440
+{	private static IntPtr Instance; // 0x11AC0
 
 
 	private static extern uint dotProtectMessage_RawPtr(IntPtr Instance, IntPtr Input, uint InputLength, IntPtr Output, ref uint OutputLength) { }

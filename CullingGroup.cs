@@ -10,7 +10,7 @@ public class CullingGroup : IDisposable // TypeDefIndex: 3366
 
 	protected override void Finalize() { }
 
-	[FreeFunctionAttribute] // RVA: 0x787F0 Offset: 0x77BF0 VA: 0x1800787F0
+	[FreeFunctionAttribute] // RVA: 0x78880 Offset: 0x77C80 VA: 0x180078880
 	private void DisposeInternal() { }
 
 	public void Dispose() { }
@@ -25,21 +25,21 @@ public class CullingGroup : IDisposable // TypeDefIndex: 3366
 
 	public void SetBoundingSphereCount(int count) { }
 
-	[FreeFunctionAttribute] // RVA: 0x79BD0 Offset: 0x78FD0 VA: 0x180079BD0
+	[FreeFunctionAttribute] // RVA: 0x79C70 Offset: 0x79070 VA: 0x180079C70
 	public void SetBoundingDistances(float[] distances) { }
 
-	[NativeMethodAttribute] // RVA: 0x79F40 Offset: 0x79340 VA: 0x180079F40
+	[NativeMethodAttribute] // RVA: 0x79FF0 Offset: 0x793F0 VA: 0x180079FF0
 	private void SetDistanceReferencePoint_InternalTransform(Transform transform) { }
 
 	public void SetDistanceReferencePoint(Transform transform) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void SendEvents(CullingGroup cullingGroup, IntPtr eventsPtr, int count) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A2C0 Offset: 0x796C0 VA: 0x18007A2C0
+	[FreeFunctionAttribute] // RVA: 0x7A3B0 Offset: 0x797B0 VA: 0x18007A3B0
 	private static IntPtr Init(object scripting) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A3D0 Offset: 0x797D0 VA: 0x18007A3D0
+	[FreeFunctionAttribute] // RVA: 0x7A4C0 Offset: 0x798C0 VA: 0x18007A4C0
 	private void FinalizerFailure() { }
 
 }

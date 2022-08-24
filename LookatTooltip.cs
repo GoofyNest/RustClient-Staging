@@ -1,4 +1,4 @@
-public class LookatTooltip : MonoBehaviour // TypeDefIndex: 11083
+public class LookatTooltip : MonoBehaviour // TypeDefIndex: 11087
 {	public static bool Enabled; // 0x0
 	public BaseEntity currentlyLookingAt; // 0x18
 	public RustText textLabel; // 0x20

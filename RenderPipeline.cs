@@ -1,6 +1,6 @@
 public abstract class RenderPipeline // TypeDefIndex: 3849
-{	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+{	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private bool <disposed>k__BackingField; // 0x10
 
 	public bool disposed { get; set; }
@@ -10,10 +10,10 @@ public abstract class RenderPipeline // TypeDefIndex: 3849
 
 	internal void InternalRender(ScriptableRenderContext context, Camera[] cameras) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_disposed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_disposed(bool value) { }
 
 	internal void Dispose() { }

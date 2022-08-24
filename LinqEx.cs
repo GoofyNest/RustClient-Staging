@@ -1,6 +1,6 @@
-public static class LinqEx // TypeDefIndex: 11347
+public static class LinqEx // TypeDefIndex: 11351
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static int MaxIndex<T>(IEnumerable<T> sequence) { }
 	/* GenericInstMethod :
 	|

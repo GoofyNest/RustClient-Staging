@@ -1,5 +1,5 @@
-public class BaseEventUI : MonoBehaviour // TypeDefIndex: 10789
-{	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class BaseEventUI : MonoBehaviour // TypeDefIndex: 10793
+{	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public AIEventType EventType; // 0x18
 	public RustText TextEventType; // 0x20
 	public RustText TextOutput; // 0x28
@@ -8,9 +8,9 @@ public class BaseEventUI : MonoBehaviour // TypeDefIndex: 10789
 	public Dropdown DropdownOutputMemorySlot; // 0x40
 	public RustInput InputFloatValue; // 0x48
 	public RustInput InputFloatValue2; // 0x50
-	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public BaseStateUI Output; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <ID>k__BackingField; // 0x60
 	private BaseStateUI stateUI; // 0x68
 	private Color outputColor; // 0x70
@@ -18,10 +18,10 @@ public class BaseEventUI : MonoBehaviour // TypeDefIndex: 10789
 	public int ID { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_ID() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_ID(int value) { }
 
 	public virtual void Init(AIEventType eventType, BaseStateUI stateUI) { }

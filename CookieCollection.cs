@@ -3,7 +3,7 @@ public class CookieCollection : ICollection, IEnumerable // TypeDefIndex: 2940
 	private ArrayList m_list; // 0x18
 	private DateTime m_TimeStamp; // 0x20
 	private bool m_has_other_versions; // 0x28
-	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
+	[OptionalFieldAttribute] // RVA: 0x7B5F0 Offset: 0x7A9F0 VA: 0x18007B5F0
 	private bool m_IsReadOnly; // 0x29
 
 	public Cookie Item { get; }

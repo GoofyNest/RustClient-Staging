@@ -1,13 +1,13 @@
 internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4600
 {	private float m_PixelsPerPoint; // 0x10
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private bool <duringLayoutPhase>k__BackingField; // 0x14
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private RepaintData <repaintData>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
 	private bool <disposed>k__BackingField; // 0x20
 	internal ElementUnderPointer m_TopElementUnderPointers; // 0x28
 
@@ -46,14 +46,14 @@ internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4600
 
 	internal void set_pixelsPerPoint(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool get_duringLayoutPhase() { }
 
 	internal abstract uint get_version();
 
 	internal abstract void OnVersionChanged(VisualElement ele, VersionChangeType changeTypeFlag);
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal virtual RepaintData get_repaintData() { }
 
 	public abstract VisualElement get_visualTree();
@@ -66,10 +66,10 @@ internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4600
 
 	public abstract VisualElement Pick(Vector2 point);
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool get_disposed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_disposed(bool value) { }
 
 	internal VisualElement GetTopElementUnderPointer(int pointerId) { }

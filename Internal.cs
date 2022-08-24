@@ -24,13 +24,13 @@ internal static class Internal_SubsystemInstances // TypeDefIndex: 3942
 	internal static List<ISubsystem> s_StandaloneSubsystemInstances; // 0x8
 
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void Internal_InitializeManagedInstance(IntPtr ptr, IntegratedSubsystem inst) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void Internal_ClearManagedInstances() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void Internal_RemoveInstanceByPtr(IntPtr ptr) { }
 
 	internal static IntegratedSubsystem Internal_GetInstanceByPtr(IntPtr ptr) { }
@@ -44,13 +44,13 @@ internal static class Internal_SubsystemDescriptors // TypeDefIndex: 3943
 	internal static List<ISubsystemDescriptor> s_StandaloneSubsystemDescriptors; // 0x8
 
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static bool Internal_AddDescriptor(SubsystemDescriptor descriptor) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void Internal_InitializeManagedDescriptor(IntPtr ptr, ISubsystemDescriptorImpl desc) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void Internal_ClearManagedDescriptors() { }
 
 	private static void .cctor() { }

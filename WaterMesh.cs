@@ -1,4 +1,4 @@
-public class WaterMesh // TypeDefIndex: 10617
+public class WaterMesh // TypeDefIndex: 10621
 {	private Mesh borderMesh; // 0x10
 	private Mesh centerPatch; // 0x18
 	private int borderRingCount; // 0x20

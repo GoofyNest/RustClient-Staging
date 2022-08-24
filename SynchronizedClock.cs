@@ -1,4 +1,4 @@
-public class SynchronizedClock // TypeDefIndex: 11403
+public class SynchronizedClock // TypeDefIndex: 11407
 {	public List<SynchronizedClock.TimedEvent> events; // 0x10
 
 	private static float CurrentTime { get; }
@@ -14,7 +14,7 @@ public class SynchronizedClock // TypeDefIndex: 11403
 
 }
 
-public struct SynchronizedClock.TimedEvent // TypeDefIndex: 11404
+public struct SynchronizedClock.TimedEvent // TypeDefIndex: 11408
 {	public float time; // 0x0
 	public float delta; // 0x4
 	public float variance; // 0x8

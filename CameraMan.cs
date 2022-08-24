@@ -22,7 +22,7 @@ public class CameraMan : SingletonComponent<CameraMan> // TypeDefIndex: 9140
 	private Vector3 view; // 0x74
 	private Vector3 viewPrev; // 0x80
 	private Vector3 velocity; // 0x8C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <Zoom>k__BackingField; // 0x98
 
 	public Color GuideColor { get; set; }
@@ -75,10 +75,10 @@ public class CameraMan : SingletonComponent<CameraMan> // TypeDefIndex: 9140
 
 	private CameraMan.MovementType get_currentMovementType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_Zoom() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Zoom(float value) { }
 
 	public float get_Fov() { }

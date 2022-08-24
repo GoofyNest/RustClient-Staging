@@ -1,13 +1,13 @@
-public class VersionInfo // TypeDefIndex: 11567
+public class VersionInfo // TypeDefIndex: 11571
 {	public const byte Major = 2;
 	public const byte Minor = 0;
 	public const byte Release = 0;
 	private static string StageSuffix; // 0x0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_major; // 0x10
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_minor; // 0x14
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_release; // 0x18
 
 	public int Number { get; }

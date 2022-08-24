@@ -34,10 +34,10 @@ internal sealed class NoAllocHelpers // TypeDefIndex: 3519
 	|-NoAllocHelpers.ExtractArrayFromListT<Material>
 	*/
 
-	[FreeFunctionAttribute] // RVA: 0xC20F0 Offset: 0xC14F0 VA: 0x1800C20F0
+	[FreeFunctionAttribute] // RVA: 0xC2130 Offset: 0xC1530 VA: 0x1800C2130
 	internal static void Internal_ResizeList(object list, int size) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC21C0 Offset: 0xC15C0 VA: 0x1800C21C0
+	[FreeFunctionAttribute] // RVA: 0xC22E0 Offset: 0xC16E0 VA: 0x1800C22E0
 	public static Array ExtractArrayFromList(object list) { }
 
 }

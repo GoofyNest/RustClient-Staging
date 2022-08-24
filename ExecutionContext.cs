@@ -30,17 +30,17 @@ public sealed class ExecutionContext : IDisposable, ISerializable // TypeDefInde
 
 	internal bool get_IsPreAllocatedDefault() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	internal void .ctor() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	internal void .ctor(bool isPreAllocatedDefault) { }
 
 	internal static object GetLocalValue(IAsyncLocal local) { }
 
 	internal static void SetLocalValue(IAsyncLocal local, object newValue, bool needChangeNotifications) { }
 
-	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void OnAsyncLocalContextChanged(ExecutionContext previous, ExecutionContext current) { }
 
 	internal LogicalCallContext get_LogicalCallContext() { }
@@ -51,33 +51,33 @@ public sealed class ExecutionContext : IDisposable, ISerializable // TypeDefInde
 
 	internal void set_IllogicalCallContext(IllogicalCallContext value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	internal SynchronizationContext get_SynchronizationContext() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	internal void set_SynchronizationContext(SynchronizationContext value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	internal SynchronizationContext get_SynchronizationContextNoFlow() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	internal void set_SynchronizationContextNoFlow(SynchronizationContext value) { }
 
 	public void Dispose() { }
 
 	public static void Run(ExecutionContext executionContext, ContextCallback callback, object state) { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void Run(ExecutionContext executionContext, ContextCallback callback, object state, bool preserveSyncCtx) { }
 
-	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void RunInternal(ExecutionContext executionContext, ContextCallback callback, object state, bool preserveSyncCtx) { }
 
 	internal static void EstablishCopyOnWriteScope(ref ExecutionContextSwitcher ecsw) { }
 
 	private static void EstablishCopyOnWriteScope(Thread currentThread, bool knownNullWindowsIdentity, ref ExecutionContextSwitcher ecsw) { }
 
-	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[HandleProcessCorruptedStateExceptionsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static ExecutionContextSwitcher SetExecutionContext(ExecutionContext executionContext, bool preserveSyncCtx) { }
 
 	public ExecutionContext CreateCopy() { }
@@ -88,7 +88,7 @@ public sealed class ExecutionContext : IDisposable, ISerializable // TypeDefInde
 
 	public static ExecutionContext Capture() { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static ExecutionContext FastCapture() { }
 
 	internal static ExecutionContext Capture(ref StackCrawlMark stackMark, ExecutionContext.CaptureOptions options) { }

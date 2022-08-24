@@ -1,4 +1,4 @@
-public class GenerateRailBranching : ProceduralComponent // TypeDefIndex: 10484
+public class GenerateRailBranching : ProceduralComponent // TypeDefIndex: 10488
 {	public const float Width = 4;
 	public const float InnerPadding = 1;
 	public const float OuterPadding = 1;
@@ -7,7 +7,7 @@ public class GenerateRailBranching : ProceduralComponent // TypeDefIndex: 10484
 	public const float RandomScale = 1;
 	public const float MeshOffset = 0;
 	public const float TerrainOffset = -0,125;
-	private static Quaternion rot90; // 0x2CDB
+	private static Quaternion rot90; // 0x2B11934
 	private const int MaxDepth = 250000;
 
 
@@ -23,7 +23,7 @@ public class GenerateRailBranching : ProceduralComponent // TypeDefIndex: 10484
 
 }
 
-private sealed class GenerateRailBranching.<>c__DisplayClass11_0 // TypeDefIndex: 10485
+private sealed class GenerateRailBranching.<>c__DisplayClass11_0 // TypeDefIndex: 10489
 {	public PathList rail; // 0x10
 
 

@@ -1,12 +1,12 @@
-public sealed class Spline // TypeDefIndex: 11871
+public sealed class Spline // TypeDefIndex: 11875
 {	public const int k_Precision = 128;
 	public const float k_Step = 0,0078125;
 	public AnimationCurve curve; // 0x10
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_Loop; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float m_ZeroValue; // 0x1C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float m_Range; // 0x20
 	private AnimationCurve m_InternalLoopingCurve; // 0x28
 	private int frameCount; // 0x30

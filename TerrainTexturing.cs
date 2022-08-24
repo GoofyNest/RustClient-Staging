@@ -1,4 +1,4 @@
-public class TerrainTexturing : TerrainExtension // TypeDefIndex: 10432
+public class TerrainTexturing : TerrainExtension // TypeDefIndex: 10436
 {	private const int MaxBasePyramidSize = 4096;
 	private TextureCacheState pyramidCacheState; // 0x30
 	private RenderTexture diffuseBasePyramidTexture; // 0x38
@@ -180,7 +180,7 @@ public class TerrainTexturing : TerrainExtension // TypeDefIndex: 10432
 
 }
 
-private enum TerrainTexturing.LayerPropID // TypeDefIndex: 10433
+private enum TerrainTexturing.LayerPropID // TypeDefIndex: 10437
 {	public int value__; // 0x0
 	public const TerrainTexturing.LayerPropID UVMIX = 0;
 	public const TerrainTexturing.LayerPropID AridColor = 1;
@@ -202,7 +202,7 @@ private enum TerrainTexturing.LayerPropID // TypeDefIndex: 10433
 
 }
 
-private sealed class TerrainTexturing.<>c__DisplayClass27_0 // TypeDefIndex: 10434
+private sealed class TerrainTexturing.<>c__DisplayClass27_0 // TypeDefIndex: 10438
 {	public int block; // 0x10
 	public int dstsize; // 0x14
 	public int srcsize; // 0x18
@@ -217,7 +217,7 @@ private sealed class TerrainTexturing.<>c__DisplayClass27_0 // TypeDefIndex: 104
 
 }
 
-private sealed class TerrainTexturing.<>c__DisplayClass27_1 // TypeDefIndex: 10435
+private sealed class TerrainTexturing.<>c__DisplayClass27_1 // TypeDefIndex: 10439
 {	public Color32[] heightColors; // 0x10
 	public TerrainTexturing.<>c__DisplayClass27_0 CS$<>8__locals1; // 0x18
 
@@ -228,7 +228,7 @@ private sealed class TerrainTexturing.<>c__DisplayClass27_1 // TypeDefIndex: 104
 
 }
 
-private sealed class TerrainTexturing.<>c__DisplayClass27_2 // TypeDefIndex: 10436
+private sealed class TerrainTexturing.<>c__DisplayClass27_2 // TypeDefIndex: 10440
 {	public short[] heights; // 0x10
 	public int heightres; // 0x18
 	public TerrainTexturing.<>c__DisplayClass27_0 CS$<>8__locals2; // 0x20

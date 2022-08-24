@@ -1,4 +1,4 @@
-public class TweakUIToggle : TweakUIBase // TypeDefIndex: 11149
+public class TweakUIToggle : TweakUIBase // TypeDefIndex: 11153
 {	public Toggle toggleControl; // 0x30
 	public bool inverse; // 0x38
 	public static string lastConVarChanged; // 0x0

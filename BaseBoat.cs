@@ -19,10 +19,10 @@ public class BaseBoat : BaseVehicle // TypeDefIndex: 8318
 
 	public override float MaxVelocity() { }
 
-	[BaseEntity.Menu] // RVA: 0xB4A10 Offset: 0xB3E10 VA: 0x1800B4A10
-	[BaseEntity.Menu.Description] // RVA: 0xB4A10 Offset: 0xB3E10 VA: 0x1800B4A10
-	[BaseEntity.Menu.Icon] // RVA: 0xB4A10 Offset: 0xB3E10 VA: 0x1800B4A10
-	[BaseEntity.Menu.ShowIf] // RVA: 0xB4A10 Offset: 0xB3E10 VA: 0x1800B4A10
+	[BaseEntity.Menu] // RVA: 0xB4B20 Offset: 0xB3F20 VA: 0x1800B4B20
+	[BaseEntity.Menu.Description] // RVA: 0xB4B20 Offset: 0xB3F20 VA: 0x1800B4B20
+	[BaseEntity.Menu.Icon] // RVA: 0xB4B20 Offset: 0xB3F20 VA: 0x1800B4B20
+	[BaseEntity.Menu.ShowIf] // RVA: 0xB4B20 Offset: 0xB3F20 VA: 0x1800B4B20
 	public virtual void Menu_Push(BasePlayer player) { }
 
 	public virtual bool EngineInWater() { }

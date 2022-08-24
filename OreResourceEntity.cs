@@ -10,7 +10,7 @@ public class OreResourceEntity : StagedResourceEntity // TypeDefIndex: 8610
 
 	protected override void ClientInit(Entity info) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void PlayBonusLevelSound(BaseEntity.RPCMessage msg) { }
 
 	public Vector3 RandomCircle(float distance = 1, bool allowInside = False) { }

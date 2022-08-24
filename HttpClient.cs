@@ -33,16 +33,16 @@ public class HttpClient : HttpMessageInvoker // TypeDefIndex: 5737
 
 	public Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1240 Offset: 0xD0640 VA: 0x1800D1240
+	[AsyncStateMachineAttribute] // RVA: 0xD1370 Offset: 0xD0770 VA: 0x1800D1370
 	private Task<HttpResponseMessage> SendAsyncWorker(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1380 Offset: 0xD0780 VA: 0x1800D1380
+	[AsyncStateMachineAttribute] // RVA: 0xD14B0 Offset: 0xD08B0 VA: 0x1800D14B0
 	public Task<string> GetStringAsync(string requestUri) { }
 
 	private static void .cctor() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[DebuggerHiddenAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[CompilerGeneratedAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	private Task<HttpResponseMessage> <>n__0(HttpRequestMessage request, CancellationToken cancellationToken) { }
 
 }
@@ -62,7 +62,7 @@ private struct HttpClient.<SendAsyncWorker>d__47 : IAsyncStateMachine // TypeDef
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -79,7 +79,7 @@ private struct HttpClient.<GetStringAsync>d__52 : IAsyncStateMachine // TypeDefI
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

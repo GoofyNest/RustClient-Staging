@@ -1,4 +1,4 @@
-public class WaterRendering // TypeDefIndex: 10619
+public class WaterRendering // TypeDefIndex: 10623
 {	private WaterSystem water; // 0x10
 	private WaterSimulation simulation; // 0x18
 	private Camera camera; // 0x20
@@ -105,7 +105,7 @@ public class WaterRendering // TypeDefIndex: 10619
 
 }
 
-private struct WaterRendering.RenderState // TypeDefIndex: 10620
+private struct WaterRendering.RenderState // TypeDefIndex: 10624
 {	public Camera camera; // 0x0
 	public int layer; // 0x8
 	public bool simulation; // 0xC
@@ -117,7 +117,7 @@ private struct WaterRendering.RenderState // TypeDefIndex: 10620
 
 }
 
-private sealed class WaterRendering.<>c // TypeDefIndex: 10621
+private sealed class WaterRendering.<>c // TypeDefIndex: 10625
 {	public static readonly WaterRendering.<>c <>9; // 0x0
 	public static Comparison<WaterCullingVolume> <>9__62_0; // 0x8
 

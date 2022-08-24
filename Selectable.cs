@@ -2,41 +2,41 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 {	private static Selectable[] s_Selectables; // 0x0
 	private static int s_SelectableCount; // 0x8
 	private static bool s_IsDirty; // 0xC
-	[FormerlySerializedAsAttribute] // RVA: 0x7B210 Offset: 0x7A610 VA: 0x18007B210
-	[SerializeField] // RVA: 0x7B210 Offset: 0x7A610 VA: 0x18007B210
+	[FormerlySerializedAsAttribute] // RVA: 0x7B2C0 Offset: 0x7A6C0 VA: 0x18007B2C0
+	[SerializeField] // RVA: 0x7B2C0 Offset: 0x7A6C0 VA: 0x18007B2C0
 	private Navigation m_Navigation; // 0x18
-	[FormerlySerializedAsAttribute] // RVA: 0x7B490 Offset: 0x7A890 VA: 0x18007B490
-	[SerializeField] // RVA: 0x7B490 Offset: 0x7A890 VA: 0x18007B490
+	[FormerlySerializedAsAttribute] // RVA: 0x7B510 Offset: 0x7A910 VA: 0x18007B510
+	[SerializeField] // RVA: 0x7B510 Offset: 0x7A910 VA: 0x18007B510
 	private Selectable.Transition m_Transition; // 0x40
-	[FormerlySerializedAsAttribute] // RVA: 0x7B580 Offset: 0x7A980 VA: 0x18007B580
-	[SerializeField] // RVA: 0x7B580 Offset: 0x7A980 VA: 0x18007B580
+	[FormerlySerializedAsAttribute] // RVA: 0x7B630 Offset: 0x7AA30 VA: 0x18007B630
+	[SerializeField] // RVA: 0x7B630 Offset: 0x7AA30 VA: 0x18007B630
 	private ColorBlock m_Colors; // 0x44
-	[FormerlySerializedAsAttribute] // RVA: 0x7B790 Offset: 0x7AB90 VA: 0x18007B790
-	[SerializeField] // RVA: 0x7B790 Offset: 0x7AB90 VA: 0x18007B790
+	[FormerlySerializedAsAttribute] // RVA: 0x7B7E0 Offset: 0x7ABE0 VA: 0x18007B7E0
+	[SerializeField] // RVA: 0x7B7E0 Offset: 0x7ABE0 VA: 0x18007B7E0
 	private SpriteState m_SpriteState; // 0xA0
-	[FormerlySerializedAsAttribute] // RVA: 0x7B8C0 Offset: 0x7ACC0 VA: 0x18007B8C0
-	[SerializeField] // RVA: 0x7B8C0 Offset: 0x7ACC0 VA: 0x18007B8C0
+	[FormerlySerializedAsAttribute] // RVA: 0x7B920 Offset: 0x7AD20 VA: 0x18007B920
+	[SerializeField] // RVA: 0x7B920 Offset: 0x7AD20 VA: 0x18007B920
 	private AnimationTriggers m_AnimationTriggers; // 0xC0
-	[TooltipAttribute] // RVA: 0x7BAD0 Offset: 0x7AED0 VA: 0x18007BAD0
-	[SerializeField] // RVA: 0x7BAD0 Offset: 0x7AED0 VA: 0x18007BAD0
+	[TooltipAttribute] // RVA: 0x7BB70 Offset: 0x7AF70 VA: 0x18007BB70
+	[SerializeField] // RVA: 0x7BB70 Offset: 0x7AF70 VA: 0x18007BB70
 	private bool m_Interactable; // 0xC8
-	[FormerlySerializedAsAttribute] // RVA: 0x7BBA0 Offset: 0x7AFA0 VA: 0x18007BBA0
-	[FormerlySerializedAsAttribute] // RVA: 0x7BBA0 Offset: 0x7AFA0 VA: 0x18007BBA0
-	[SerializeField] // RVA: 0x7BBA0 Offset: 0x7AFA0 VA: 0x18007BBA0
+	[FormerlySerializedAsAttribute] // RVA: 0x7BC80 Offset: 0x7B080 VA: 0x18007BC80
+	[FormerlySerializedAsAttribute] // RVA: 0x7BC80 Offset: 0x7B080 VA: 0x18007BC80
+	[SerializeField] // RVA: 0x7BC80 Offset: 0x7B080 VA: 0x18007BC80
 	private Graphic m_TargetGraphic; // 0xD0
 	private bool m_GroupsAllowInteraction; // 0xD8
 	private bool m_WillRemove; // 0xD9
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <isPointerInside>k__BackingField; // 0xDA
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <isPointerDown>k__BackingField; // 0xDB
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <hasSelection>k__BackingField; // 0xDC
 	private readonly List<CanvasGroup> m_CanvasGroupCache; // 0xE0
 
 	public static Selectable[] allSelectablesArray { get; }
 	public static int allSelectableCount { get; }
-	[ObsoleteAttribute] // RVA: 0x7C670 Offset: 0x7BA70 VA: 0x18007C670
+	[ObsoleteAttribute] // RVA: 0x7C6B0 Offset: 0x7BAB0 VA: 0x18007C6B0
 	public static List<Selectable> allSelectables { get; }
 	public Navigation navigation { get; set; }
 	public Selectable.Transition transition { get; set; }
@@ -89,22 +89,22 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 
 	public void set_interactable(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool get_isPointerInside() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_isPointerInside(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool get_isPointerDown() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_isPointerDown(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool get_hasSelection() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_hasSelection(bool value) { }
 
 	protected void .ctor() { }

@@ -1,4 +1,4 @@
-public class flamethrowerFire : MonoBehaviour // TypeDefIndex: 11467
+public class flamethrowerFire : MonoBehaviour // TypeDefIndex: 11471
 {	public ParticleSystem pilotLightFX; // 0x18
 	public ParticleSystem[] flameFX; // 0x20
 	public FlameJet jet; // 0x28

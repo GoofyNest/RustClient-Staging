@@ -63,7 +63,7 @@ public class Minicopter : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 634
 }
 
 public class MiniCopter : BaseHelicopterVehicle, IEngineControllerUser, IEntity // TypeDefIndex: 8292
-{	[HeaderAttribute] // RVA: 0x78540 Offset: 0x77940 VA: 0x180078540
+{	[HeaderAttribute] // RVA: 0x785A0 Offset: 0x779A0 VA: 0x1800785A0
 	public GameObjectRef fuelStoragePrefab; // 0x4D0
 	public float fuelPerSec; // 0x4D8
 	public float fuelGaugeMax; // 0x4DC
@@ -78,7 +78,7 @@ public class MiniCopter : BaseHelicopterVehicle, IEngineControllerUser, IEntity 
 	public float cachedrotation_left; // 0x520
 	public float cachedrotation_right; // 0x524
 	public float cachedrotation_front; // 0x528
-	[HeaderAttribute] // RVA: 0x7F560 Offset: 0x7E960 VA: 0x18007F560
+	[HeaderAttribute] // RVA: 0x7F640 Offset: 0x7EA40 VA: 0x18007F640
 	public Transform joystickPositionLeft; // 0x530
 	public Transform joystickPositionRight; // 0x538
 	public Transform leftFootPosition; // 0x540
@@ -95,11 +95,11 @@ public class MiniCopter : BaseHelicopterVehicle, IEngineControllerUser, IEntity 
 	public float motorForceConstant; // 0x590
 	public float brakeForceConstant; // 0x594
 	public GameObject preventBuildingObject; // 0x598
-	[ServerVar] // RVA: 0x71F60 Offset: 0x71360 VA: 0x180071F60
+	[ServerVar] // RVA: 0x71FC0 Offset: 0x713C0 VA: 0x180071FC0
 	public static float population; // 0x0
-	[ServerVar] // RVA: 0xAC3A0 Offset: 0xAB7A0 VA: 0x1800AC3A0
+	[ServerVar] // RVA: 0xAC480 Offset: 0xAB880 VA: 0x1800AC480
 	public static float outsidedecayminutes; // 0x4
-	[ServerVar] // RVA: 0xAC500 Offset: 0xAB900 VA: 0x1800AC500
+	[ServerVar] // RVA: 0xAC5F0 Offset: 0xAB9F0 VA: 0x1800AC5F0
 	public static float insidedecayminutes; // 0x8
 	private VehicleEngineController<MiniCopter> engineController; // 0x5A0
 	private float leftWheelVelocity; // 0x5A8
@@ -126,10 +126,10 @@ public class MiniCopter : BaseHelicopterVehicle, IEngineControllerUser, IEntity 
 
 	public float GetFuelFraction() { }
 
-	[BaseEntity.Menu] // RVA: 0xAC630 Offset: 0xABA30 VA: 0x1800AC630
-	[BaseEntity.Menu.Description] // RVA: 0xAC630 Offset: 0xABA30 VA: 0x1800AC630
-	[BaseEntity.Menu.Icon] // RVA: 0xAC630 Offset: 0xABA30 VA: 0x1800AC630
-	[BaseEntity.Menu.ShowIf] // RVA: 0xAC630 Offset: 0xABA30 VA: 0x1800AC630
+	[BaseEntity.Menu] // RVA: 0xAC720 Offset: 0xABB20 VA: 0x1800AC720
+	[BaseEntity.Menu.Description] // RVA: 0xAC720 Offset: 0xABB20 VA: 0x1800AC720
+	[BaseEntity.Menu.Icon] // RVA: 0xAC720 Offset: 0xABB20 VA: 0x1800AC720
+	[BaseEntity.Menu.ShowIf] // RVA: 0xAC720 Offset: 0xABB20 VA: 0x1800AC720
 	public void Menu_FuelStorage(BasePlayer player) { }
 
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }

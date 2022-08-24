@@ -91,42 +91,42 @@ public class SleepingBag : DecayEntity // TypeDefIndex: 8446
 
 	public void ClientRename(string newName) { }
 
-	[BaseEntity.Menu] // RVA: 0x84650 Offset: 0x83A50 VA: 0x180084650
-	[BaseEntity.Menu.Icon] // RVA: 0x84650 Offset: 0x83A50 VA: 0x180084650
-	[BaseEntity.Menu.Description] // RVA: 0x84650 Offset: 0x83A50 VA: 0x180084650
-	[BaseEntity.Menu.ShowIf] // RVA: 0x84650 Offset: 0x83A50 VA: 0x180084650
+	[BaseEntity.Menu] // RVA: 0x84760 Offset: 0x83B60 VA: 0x180084760
+	[BaseEntity.Menu.Icon] // RVA: 0x84760 Offset: 0x83B60 VA: 0x180084760
+	[BaseEntity.Menu.Description] // RVA: 0x84760 Offset: 0x83B60 VA: 0x180084760
+	[BaseEntity.Menu.ShowIf] // RVA: 0x84760 Offset: 0x83B60 VA: 0x180084760
 	public void Menu_CloseDoor(BasePlayer player) { }
 
 	public virtual bool CanRename_Test(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
-	[BaseEntity.Menu.Icon] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
-	[BaseEntity.Menu.Description] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
-	[BaseEntity.Menu.ShowIf] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
+	[BaseEntity.Menu] // RVA: 0x84A90 Offset: 0x83E90 VA: 0x180084A90
+	[BaseEntity.Menu.Icon] // RVA: 0x84A90 Offset: 0x83E90 VA: 0x180084A90
+	[BaseEntity.Menu.Description] // RVA: 0x84A90 Offset: 0x83E90 VA: 0x180084A90
+	[BaseEntity.Menu.ShowIf] // RVA: 0x84A90 Offset: 0x83E90 VA: 0x180084A90
 	public void Menu_AssignToFriend(BasePlayer player) { }
 
 	public virtual bool Menu_AssignToFriend_Test(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x84C00 Offset: 0x84000 VA: 0x180084C00
-	[BaseEntity.Menu.Icon] // RVA: 0x84C00 Offset: 0x84000 VA: 0x180084C00
-	[BaseEntity.Menu.Description] // RVA: 0x84C00 Offset: 0x84000 VA: 0x180084C00
-	[BaseEntity.Menu.ShowIf] // RVA: 0x84C00 Offset: 0x84000 VA: 0x180084C00
+	[BaseEntity.Menu] // RVA: 0x84D20 Offset: 0x84120 VA: 0x180084D20
+	[BaseEntity.Menu.Icon] // RVA: 0x84D20 Offset: 0x84120 VA: 0x180084D20
+	[BaseEntity.Menu.Description] // RVA: 0x84D20 Offset: 0x84120 VA: 0x180084D20
+	[BaseEntity.Menu.ShowIf] // RVA: 0x84D20 Offset: 0x84120 VA: 0x180084D20
 	public void Menu_MakePublic(BasePlayer player) { }
 
 	public bool Menu_MakePublic_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x850E0 Offset: 0x844E0 VA: 0x1800850E0
-	[BaseEntity.Menu.Icon] // RVA: 0x850E0 Offset: 0x844E0 VA: 0x1800850E0
-	[BaseEntity.Menu.Description] // RVA: 0x850E0 Offset: 0x844E0 VA: 0x1800850E0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x850E0 Offset: 0x844E0 VA: 0x1800850E0
+	[BaseEntity.Menu] // RVA: 0x85170 Offset: 0x84570 VA: 0x180085170
+	[BaseEntity.Menu.Icon] // RVA: 0x85170 Offset: 0x84570 VA: 0x180085170
+	[BaseEntity.Menu.Description] // RVA: 0x85170 Offset: 0x84570 VA: 0x180085170
+	[BaseEntity.Menu.ShowIf] // RVA: 0x85170 Offset: 0x84570 VA: 0x180085170
 	public void Menu_MakePrivate(BasePlayer player) { }
 
 	public virtual bool Menu_MakePrivate_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x854E0 Offset: 0x848E0 VA: 0x1800854E0
-	[BaseEntity.Menu.Icon] // RVA: 0x854E0 Offset: 0x848E0 VA: 0x1800854E0
-	[BaseEntity.Menu.Description] // RVA: 0x854E0 Offset: 0x848E0 VA: 0x1800854E0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x854E0 Offset: 0x848E0 VA: 0x1800854E0
+	[BaseEntity.Menu] // RVA: 0x855E0 Offset: 0x849E0 VA: 0x1800855E0
+	[BaseEntity.Menu.Icon] // RVA: 0x855E0 Offset: 0x849E0 VA: 0x1800855E0
+	[BaseEntity.Menu.Description] // RVA: 0x855E0 Offset: 0x849E0 VA: 0x1800855E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x855E0 Offset: 0x849E0 VA: 0x1800855E0
 	public void Menu_MakeBed(BasePlayer player) { }
 
 	public virtual bool Menu_MakeBed_ShowIf(BasePlayer player) { }
@@ -137,7 +137,7 @@ public class SleepingBag : DecayEntity // TypeDefIndex: 8446
 
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void <Menu_AssignToFriend>b__24_0(ulong id, string steamName) { }
 
 }

@@ -1,5 +1,5 @@
 public static class SystemInfoEx // TypeDefIndex: 9291
-{	private static bool[] supportedRenderTextureFormats; // 0x2B10368
+{	private static bool[] supportedRenderTextureFormats; // 0x1680
 
 	public static int systemMemoryUsed { get; }
 

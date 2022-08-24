@@ -610,7 +610,7 @@ public class DemoClient : Client, IDisposable // TypeDefIndex: 6692
 }
 
 public class DemoShotPlayback : MonoBehaviour // TypeDefIndex: 9179
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private DemoShot <CurrentShot>k__BackingField; // 0x18
 	private bool playing; // 0x20
 	public static DemoShotPlayback Instance; // 0x0
@@ -629,10 +629,10 @@ public class DemoShotPlayback : MonoBehaviour // TypeDefIndex: 9179
 	public bool HasDofData { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public DemoShot get_CurrentShot() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_CurrentShot(DemoShot value) { }
 
 	public static bool get_IsPlayingShot() { }
@@ -683,7 +683,7 @@ public class DemoShotRecorder : SingletonComponent<DemoShotRecorder> // TypeDefI
 {	private DemoShot recordingShot; // 0x18
 	private float lastKeyframe; // 0x20
 	private bool hasStarted; // 0x24
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private RealTimeUntil <CountdownEnds>k__BackingField; // 0x28
 	public const float CountdownDuration = 3;
 	private CameraMan.CameraState startSettings; // 0x2C
@@ -699,10 +699,10 @@ public class DemoShotRecorder : SingletonComponent<DemoShotRecorder> // TypeDefI
 	public float ShotStartTime { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public RealTimeUntil get_CountdownEnds() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_CountdownEnds(RealTimeUntil value) { }
 
 	public bool get_IsInCountdown() { }
@@ -715,7 +715,7 @@ public class DemoShotRecorder : SingletonComponent<DemoShotRecorder> // TypeDefI
 
 	public float get_ShotStartTime() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD6670 Offset: 0xD5A70 VA: 0x1800D6670
+	[IteratorStateMachineAttribute] // RVA: 0xD6700 Offset: 0xD5B00 VA: 0x1800D6700
 	private IEnumerator StartRecording(string shotName, DemoShotRecorder.RecorderSettings withSettings) { }
 
 	public void CancelRecording() { }
@@ -780,57 +780,57 @@ private sealed class DemoShotRecorder.<StartRecording>d__23 : IEnumerator<object
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
 
 public static class DemoShotHelpers // TypeDefIndex: 9183
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static Vector3 GetVectorFromTrack(DemoShotVectorTrack track, float time) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static Quaternion GetQuaternionFromTrack(DemoShotQuaternionTrack track, float time) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static float GetFloatFromTrack(DemoShotFloatTrack track, float time) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static DemoShotParentKeyframe GetParentFromTrack(DemoShotParentTrack track, float time) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void GetKeyframesInRange(DemoShotVectorTrack track, float start, float end, List<KeyframeView.UIKeyframeValue> results) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void GetKeyframesInRange(DemoShotQuaternionTrack track, float start, float end, List<KeyframeView.UIKeyframeValue> results) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void GetKeyframesInRange(DemoShotFloatTrack track, float start, float end, List<KeyframeView.UIKeyframeValue> results) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static Quaternion ToQuaternion(DemoShotQuaternionKeyframe keyframe) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static DemoShotQuaternionKeyframe ToKeyframe(Quaternion value, float time) { }
 
 }
 
-public class DemoPlaybackUI : SingletonComponent<DemoPlaybackUI> // TypeDefIndex: 10855
+public class DemoPlaybackUI : SingletonComponent<DemoPlaybackUI> // TypeDefIndex: 10859
 {	public GameObject Root; // 0x18
 
 
@@ -842,7 +842,7 @@ public class DemoPlaybackUI : SingletonComponent<DemoPlaybackUI> // TypeDefIndex
 
 }
 
-public class DemoPlaybackWidget : MonoBehaviour // TypeDefIndex: 10856
+public class DemoPlaybackWidget : MonoBehaviour // TypeDefIndex: 10860
 {	public RustSlider DemoProgress; // 0x18
 	public RustText DemoName; // 0x20
 	public RustText DemoDuration; // 0x28
@@ -884,7 +884,7 @@ public class DemoPlaybackWidget : MonoBehaviour // TypeDefIndex: 10856
 
 	public void OnClickedNextFrame() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x7FF90 Offset: 0x7F390 VA: 0x18007FF90
+	[IteratorStateMachineAttribute] // RVA: 0x801F0 Offset: 0x7F5F0 VA: 0x1800801F0
 	private IEnumerator WaitAndPause() { }
 
 	public void OnClickedPreviousFrame() { }
@@ -893,7 +893,7 @@ public class DemoPlaybackWidget : MonoBehaviour // TypeDefIndex: 10856
 
 }
 
-private sealed class DemoPlaybackWidget.<WaitAndPause>d__28 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10857
+private sealed class DemoPlaybackWidget.<WaitAndPause>d__28 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10861
 {	private int <>1__state; // 0x10
 	private object <>2__current; // 0x18
 
@@ -901,26 +901,26 @@ private sealed class DemoPlaybackWidget.<WaitAndPause>d__28 : IEnumerator<object
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
 
-public class DemoRootFade : MonoBehaviour // TypeDefIndex: 10858
+public class DemoRootFade : MonoBehaviour // TypeDefIndex: 10862
 {	public CanvasGroup Canvas; // 0x18
 	public static bool ToggleHide; // 0x0
 
@@ -933,7 +933,7 @@ public class DemoRootFade : MonoBehaviour // TypeDefIndex: 10858
 
 }
 
-public class DemoShotButton : RustButton, IPointerClickHandler, IEventSystemHandler // TypeDefIndex: 10859
+public class DemoShotButton : RustButton, IPointerClickHandler, IEventSystemHandler // TypeDefIndex: 10863
 {	public bool FireEventOnClicked; // 0x98
 
 
@@ -947,20 +947,20 @@ public class DemoShotButton : RustButton, IPointerClickHandler, IEventSystemHand
 
 }
 
-public class DemoShotEntry : MonoBehaviour, IDraggable // TypeDefIndex: 10860
+public class DemoShotEntry : MonoBehaviour, IDraggable // TypeDefIndex: 10864
 {	public RustButton PlayButton; // 0x18
 	public Sprite DragSprite; // 0x20
 	public RustInput RenameInput; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private DemoShot <CurrentShot>k__BackingField; // 0x30
 
 	public DemoShot CurrentShot { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public DemoShot get_CurrentShot() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_CurrentShot(DemoShot value) { }
 
 	public void Populate(DemoShot shot, string folder) { }
@@ -989,7 +989,7 @@ public class DemoShotEntry : MonoBehaviour, IDraggable // TypeDefIndex: 10860
 
 }
 
-public class DemoShotListFolderWidget : MonoBehaviour // TypeDefIndex: 10861
+public class DemoShotListFolderWidget : MonoBehaviour // TypeDefIndex: 10865
 {	public RustButton FolderName; // 0x18
 	public Transform ChildRoot; // 0x20
 	public GameObject UpArrow; // 0x28
@@ -998,25 +998,25 @@ public class DemoShotListFolderWidget : MonoBehaviour // TypeDefIndex: 10861
 	public GameObject OpenRoot; // 0x40
 	public GameObject ModifyRoot; // 0x48
 	public RustInput FolderRenameInput; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <CurrentState>k__BackingField; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <cachedFolderName>k__BackingField; // 0x60
 
 	public bool CurrentState { get; set; }
 	public string cachedFolderName { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_CurrentState() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_CurrentState(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_cachedFolderName() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_cachedFolderName(string value) { }
 
 	public void Populate(string folderName, bool state) { }
@@ -1041,7 +1041,7 @@ public class DemoShotListFolderWidget : MonoBehaviour // TypeDefIndex: 10861
 
 }
 
-public class DemoShotListRootFolder : MonoBehaviour // TypeDefIndex: 10862
+public class DemoShotListRootFolder : MonoBehaviour // TypeDefIndex: 10866
 {
 	public void OnDroppedValue(object data) { }
 
@@ -1049,7 +1049,7 @@ public class DemoShotListRootFolder : MonoBehaviour // TypeDefIndex: 10862
 
 }
 
-public class DemoShotListWidget : SingletonComponent<DemoShotListWidget> // TypeDefIndex: 10863
+public class DemoShotListWidget : SingletonComponent<DemoShotListWidget> // TypeDefIndex: 10867
 {	public GameObjectRef ShotListEntry; // 0x18
 	public GameObjectRef FolderEntry; // 0x20
 	public Transform ShotListParent; // 0x28
@@ -1099,7 +1099,7 @@ public class DemoShotListWidget : SingletonComponent<DemoShotListWidget> // Type
 
 }
 
-public class DemoShotRecordWidget : MonoBehaviour // TypeDefIndex: 10864
+public class DemoShotRecordWidget : MonoBehaviour // TypeDefIndex: 10868
 {	public RustInput NameInput; // 0x18
 	public GameObject RecordingRoot; // 0x20
 	public GameObject PreRecordingRoot; // 0x28
@@ -1141,7 +1141,7 @@ public class DemoShotRecordWidget : MonoBehaviour // TypeDefIndex: 10864
 
 }
 
-public class DemoText : MonoBehaviour // TypeDefIndex: 10865
+public class DemoText : MonoBehaviour // TypeDefIndex: 10869
 {	public RustText TimeText; // 0x18
 	public RustText TotalSecondText; // 0x20
 	public RustText TimeScaleText; // 0x28
@@ -1160,7 +1160,7 @@ public class DemoText : MonoBehaviour // TypeDefIndex: 10865
 
 }
 
-public class DemoRecorder : SingletonComponent<DemoRecorder> // TypeDefIndex: 10870
+public class DemoRecorder : SingletonComponent<DemoRecorder> // TypeDefIndex: 10874
 {	public RustInput Input; // 0x18
 	public GameObject RecordingUnderlay; // 0x20
 	private bool IsOpen; // 0x28
@@ -1180,12 +1180,12 @@ public class DemoRecorder : SingletonComponent<DemoRecorder> // TypeDefIndex: 10
 
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void <Close>b__6_0() { }
 
 }
 
-public class DemoRecorderProgress : SingletonComponent<DemoRecorderProgress> // TypeDefIndex: 10871
+public class DemoRecorderProgress : SingletonComponent<DemoRecorderProgress> // TypeDefIndex: 10875
 {	public RustText RecordingLabel; // 0x18
 	public RustText ProgressLabel; // 0x20
 	public GameObject RecordingUnderlay; // 0x28
@@ -1209,7 +1209,7 @@ public class DemoRecorderProgress : SingletonComponent<DemoRecorderProgress> // 
 
 }
 
-public class DemoItem : RustButton // TypeDefIndex: 11099
+public class DemoItem : RustButton // TypeDefIndex: 11103
 {	public Demos demos; // 0x98
 	public int itemId; // 0xA0
 	public RustText nameText; // 0xA8
@@ -1225,7 +1225,7 @@ public class DemoItem : RustButton // TypeDefIndex: 11099
 
 }
 
-public class Demos : SingletonComponent<Demos>, VirtualScroll.IDataSource // TypeDefIndex: 11100
+public class Demos : SingletonComponent<Demos>, VirtualScroll.IDataSource // TypeDefIndex: 11104
 {	public VirtualScroll virtualScroll; // 0x18
 	public GameObject deletePopup; // 0x20
 	private readonly List<Demos.DemoInfo> _demoInfo; // 0x28
@@ -1266,7 +1266,7 @@ public class Demos : SingletonComponent<Demos>, VirtualScroll.IDataSource // Typ
 
 }
 
-private struct Demos.DemoInfo // TypeDefIndex: 11101
+private struct Demos.DemoInfo // TypeDefIndex: 11105
 {	public string path; // 0x0
 	public string name; // 0x8
 	public DateTime date; // 0x10
@@ -1277,7 +1277,7 @@ private struct Demos.DemoInfo // TypeDefIndex: 11101
 
 }
 
-private sealed class Demos.<>c // TypeDefIndex: 11102
+private sealed class Demos.<>c // TypeDefIndex: 11106
 {	public static readonly Demos.<>c <>9; // 0x0
 	public static Func<Demos.DemoInfo, string> <>9__14_0; // 0x8
 	public static Func<Demos.DemoInfo, string> <>9__14_1; // 0x10
@@ -1308,7 +1308,7 @@ private sealed class Demos.<>c // TypeDefIndex: 11102
 
 }
 
-private sealed class Demos.<>c__DisplayClass17_0 // TypeDefIndex: 11103
+private sealed class Demos.<>c__DisplayClass17_0 // TypeDefIndex: 11107
 {	public Demos.DemoInfo demoInfo; // 0x10
 
 
@@ -1318,20 +1318,20 @@ private sealed class Demos.<>c__DisplayClass17_0 // TypeDefIndex: 11103
 
 }
 
-public class Demo : ConsoleSystem // TypeDefIndex: 11907
+public class Demo : ConsoleSystem // TypeDefIndex: 11911
 {	public static uint Version; // 0x0
 	private static bool _hud; // 0x4
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static float timescale; // 0x8
 	private static bool renableNametags; // 0xC
-	[ClientVar] // RVA: 0x96190 Offset: 0x95590 VA: 0x180096190
+	[ClientVar] // RVA: 0x96400 Offset: 0x95800 VA: 0x180096400
 	public static bool autoDebugCam; // 0xD
-	[ClientVar] // RVA: 0x96270 Offset: 0x95670 VA: 0x180096270
+	[ClientVar] // RVA: 0x964C0 Offset: 0x958C0 VA: 0x1800964C0
 	public static bool compressShotKeyframes; // 0xE
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool showLocalPlayerNameTag; // 0xF
 
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool hud { get; set; }
 	public static float TimeScale { get; }
 	public static string lastRecordedDemoName { get; set; }
@@ -1341,53 +1341,53 @@ public class Demo : ConsoleSystem // TypeDefIndex: 11907
 
 	public static void set_hud(bool value) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void togglehud(ConsoleSystem.Arg arg) { }
 
 	public static float get_TimeScale() { }
 
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static string record(string filename) { }
 
-	[ClientVar] // RVA: 0x964E0 Offset: 0x958E0 VA: 0x1800964E0
+	[ClientVar] // RVA: 0x966C0 Offset: 0x95AC0 VA: 0x1800966C0
 	public static void recorder() { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static string stop() { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static string play(string filename) { }
 
 	public static void TryRunDemoCfg(string demoName) { }
 
-	[ClientVar] // RVA: 0x96670 Offset: 0x95A70 VA: 0x180096670
+	[ClientVar] // RVA: 0x96840 Offset: 0x95C40 VA: 0x180096840
 	public static string skip(float seconds) { }
 
-	[ClientVar] // RVA: 0x96760 Offset: 0x95B60 VA: 0x180096760
+	[ClientVar] // RVA: 0x96AC0 Offset: 0x95EC0 VA: 0x180096AC0
 	public static string jump(float seconds) { }
 
-	[ClientVar] // RVA: 0x968D0 Offset: 0x95CD0 VA: 0x1800968D0
+	[ClientVar] // RVA: 0x96B30 Offset: 0x95F30 VA: 0x180096B30
 	public static string playernames() { }
 
-	[ClientVar] // RVA: 0x96A50 Offset: 0x95E50 VA: 0x180096A50
+	[ClientVar] // RVA: 0x96C00 Offset: 0x96000 VA: 0x180096C00
 	public static void browser() { }
 
 	public static string get_lastRecordedDemoName() { }
 
 	public static void set_lastRecordedDemoName(string value) { }
 
-	[ClientVar] // RVA: 0x96AC0 Offset: 0x95EC0 VA: 0x180096AC0
+	[ClientVar] // RVA: 0x96C40 Offset: 0x96040 VA: 0x180096C40
 	public static string toggleNVG(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x96B40 Offset: 0x95F40 VA: 0x180096B40
+	[ClientVar] // RVA: 0x96EA0 Offset: 0x962A0 VA: 0x180096EA0
 	public static string pause() { }
 
-	[ClientVar] // RVA: 0x96C60 Offset: 0x96060 VA: 0x180096C60
+	[ClientVar] // RVA: 0x96F90 Offset: 0x96390 VA: 0x180096F90
 	public static string resume() { }
 
 	public static string playShot(DemoShot shot) { }
 
-	[ClientVar] // RVA: 0x96E90 Offset: 0x96290 VA: 0x180096E90
+	[ClientVar] // RVA: 0x97140 Offset: 0x96540 VA: 0x180097140
 	public static void readcfg() { }
 
 	public void .ctor() { }
@@ -1396,7 +1396,7 @@ public class Demo : ConsoleSystem // TypeDefIndex: 11907
 
 }
 
-public class Demo.Header : DemoHeader, IDemoHeader // TypeDefIndex: 11908
+public class Demo.Header : DemoHeader, IDemoHeader // TypeDefIndex: 11912
 {	private long Network.IDemoHeader.Length { get; set; }
 
 

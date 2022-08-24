@@ -14,7 +14,7 @@ public class X509Certificate2 : X509Certificate // TypeDefIndex: 2814
 	public X500DistinguishedName SubjectName { get; }
 	public string Thumbprint { get; }
 	public int Version { get; }
-	[MonoTODOAttribute] // RVA: 0xAFFE0 Offset: 0xAF3E0 VA: 0x1800AFFE0
+	[MonoTODOAttribute] // RVA: 0xB0030 Offset: 0xAF430 VA: 0x1800B0030
 	internal X509Certificate MonoCertificate { get; }
 
 
@@ -54,13 +54,13 @@ public class X509Certificate2 : X509Certificate // TypeDefIndex: 2814
 
 	public int get_Version() { }
 
-	[MonoTODOAttribute] // RVA: 0xAE930 Offset: 0xADD30 VA: 0x1800AE930
+	[MonoTODOAttribute] // RVA: 0xAEA10 Offset: 0xADE10 VA: 0x1800AEA10
 	public string GetNameInfo(X509NameType nameType, bool forIssuer) { }
 
-	[MonoTODOAttribute] // RVA: 0xAFD70 Offset: 0xAF170 VA: 0x1800AFD70
+	[MonoTODOAttribute] // RVA: 0xAFE40 Offset: 0xAF240 VA: 0x1800AFE40
 	public override void Import(byte[] rawData, string password, X509KeyStorageFlags keyStorageFlags) { }
 
-	[MonoTODOAttribute] // RVA: 0xAFD70 Offset: 0xAF170 VA: 0x1800AFD70
+	[MonoTODOAttribute] // RVA: 0xAFE40 Offset: 0xAF240 VA: 0x1800AFE40
 	public override void Import(string fileName, string password, X509KeyStorageFlags keyStorageFlags) { }
 
 	public override void Reset() { }
@@ -71,7 +71,7 @@ public class X509Certificate2 : X509Certificate // TypeDefIndex: 2814
 
 	private static void AppendBuffer(StringBuilder sb, byte[] buffer) { }
 
-	[MonoTODOAttribute] // RVA: 0xAFF50 Offset: 0xAF350 VA: 0x1800AFF50
+	[MonoTODOAttribute] // RVA: 0xB0000 Offset: 0xAF400 VA: 0x1800B0000
 	public bool Verify() { }
 
 	internal X509Certificate get_MonoCertificate() { }

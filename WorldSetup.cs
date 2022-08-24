@@ -1,4 +1,4 @@
-public class WorldSetup : SingletonComponent<WorldSetup> // TypeDefIndex: 10571
+public class WorldSetup : SingletonComponent<WorldSetup> // TypeDefIndex: 10575
 {	public bool AutomaticallySetup; // 0x18
 	public GameObject terrain; // 0x20
 	public GameObject decorPrefab; // 0x28
@@ -19,7 +19,7 @@ public class WorldSetup : SingletonComponent<WorldSetup> // TypeDefIndex: 10571
 
 	protected void CreateObject(GameObject prefab) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xDB980 Offset: 0xDAD80 VA: 0x1800DB980
+	[IteratorStateMachineAttribute] // RVA: 0xDBE30 Offset: 0xDB230 VA: 0x1800DBE30
 	public IEnumerator InitCoroutine() { }
 
 	private void CancelSetup(string msg) { }
@@ -28,7 +28,7 @@ public class WorldSetup : SingletonComponent<WorldSetup> // TypeDefIndex: 10571
 
 }
 
-private sealed class WorldSetup.<>c // TypeDefIndex: 10572
+private sealed class WorldSetup.<>c // TypeDefIndex: 10576
 {	public static readonly WorldSetup.<>c <>9; // 0x0
 	public static Action<string> <>9__15_0; // 0x8
 	public static Action<string> <>9__15_1; // 0x10
@@ -44,7 +44,7 @@ private sealed class WorldSetup.<>c // TypeDefIndex: 10572
 
 }
 
-private sealed class WorldSetup.<InitCoroutine>d__15 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10573
+private sealed class WorldSetup.<InitCoroutine>d__15 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10577
 {	private int <>1__state; // 0x10
 	private object <>2__current; // 0x18
 	public WorldSetup <>4__this; // 0x20
@@ -68,21 +68,21 @@ private sealed class WorldSetup.<InitCoroutine>d__15 : IEnumerator<object>, IEnu
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

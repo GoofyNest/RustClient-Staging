@@ -8,7 +8,7 @@ internal static class BufferManager // TypeDefIndex: 5175
 
 	public static IntPtr Get(int size, int referenceCount) { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[MonoPInvokeCallbackAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void Free(NetMsg* msg) { }
 
 	private static BufferManager.ReferenceCounter AllocateReferenceCounter(IntPtr ptr, int size, int referenceCount) { }
@@ -28,9 +28,9 @@ internal static class BufferManager // TypeDefIndex: 5175
 }
 
 private sealed class BufferManager.ReferenceCounter // TypeDefIndex: 5176
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IntPtr <Pointer>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <Size>k__BackingField; // 0x18
 	private int _count; // 0x1C
 
@@ -38,13 +38,13 @@ private sealed class BufferManager.ReferenceCounter // TypeDefIndex: 5176
 	public int Size { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Pointer(IntPtr value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_Size() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Size(int value) { }
 
 	public void Set(IntPtr ptr, int size, int referenceCount) { }

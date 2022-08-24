@@ -1,7 +1,7 @@
 public static class Import // TypeDefIndex: 7791
 {
 public static class Import // TypeDefIndex: 7791
-	private static Regex regex; // 0x20D0
+	private static Regex regex; // 0x1A1C
 
 
 	public static T[] FromUrl<T>(string sheetId) { }

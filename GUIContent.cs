@@ -1,9 +1,9 @@
 public class GUIContent // TypeDefIndex: 4035
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string m_Text; // 0x10
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Texture m_Image; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string m_Tooltip; // 0x20
 	private static readonly GUIContent s_Text; // 0x0
 	private static readonly GUIContent s_Image; // 0x8
@@ -37,7 +37,7 @@ public class GUIContent // TypeDefIndex: 4035
 
 	internal static GUIContent Temp(string t) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xCD160 Offset: 0xCC560 VA: 0x1800CD160
+	[VisibleToOtherModulesAttribute] // RVA: 0xCD270 Offset: 0xCC670 VA: 0x1800CD270
 	internal static void ClearStaticCache() { }
 
 	internal static GUIContent[] Temp(string[] texts) { }

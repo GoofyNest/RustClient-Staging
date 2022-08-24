@@ -1,19 +1,19 @@
 public class Scrollbar : Selectable, IBeginDragHandler, IEventSystemHandler, IDragHandler, IInitializePotentialDragHandler, ICanvasElement // TypeDefIndex: 4998
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private RectTransform m_HandleRect; // 0xE8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Scrollbar.Direction m_Direction; // 0xF0
-	[RangeAttribute] // RVA: 0x79E20 Offset: 0x79220 VA: 0x180079E20
-	[SerializeField] // RVA: 0x79E20 Offset: 0x79220 VA: 0x180079E20
+	[RangeAttribute] // RVA: 0x79EC0 Offset: 0x792C0 VA: 0x180079EC0
+	[SerializeField] // RVA: 0x79EC0 Offset: 0x792C0 VA: 0x180079EC0
 	private float m_Value; // 0xF4
-	[RangeAttribute] // RVA: 0x79E20 Offset: 0x79220 VA: 0x180079E20
-	[SerializeField] // RVA: 0x79E20 Offset: 0x79220 VA: 0x180079E20
+	[RangeAttribute] // RVA: 0x79EC0 Offset: 0x792C0 VA: 0x180079EC0
+	[SerializeField] // RVA: 0x79EC0 Offset: 0x792C0 VA: 0x180079EC0
 	private float m_Size; // 0xF8
-	[RangeAttribute] // RVA: 0x7A100 Offset: 0x79500 VA: 0x18007A100
-	[SerializeField] // RVA: 0x7A100 Offset: 0x79500 VA: 0x18007A100
+	[RangeAttribute] // RVA: 0x7A1C0 Offset: 0x795C0 VA: 0x18007A1C0
+	[SerializeField] // RVA: 0x7A1C0 Offset: 0x795C0 VA: 0x18007A1C0
 	private int m_NumberOfSteps; // 0xFC
-	[SpaceAttribute] // RVA: 0x7A350 Offset: 0x79750 VA: 0x18007A350
-	[SerializeField] // RVA: 0x7A350 Offset: 0x79750 VA: 0x18007A350
+	[SpaceAttribute] // RVA: 0x7A440 Offset: 0x79840 VA: 0x18007A440
+	[SerializeField] // RVA: 0x7A440 Offset: 0x79840 VA: 0x18007A440
 	private Scrollbar.ScrollEvent m_OnValueChanged; // 0x100
 	private RectTransform m_ContainerRect; // 0x108
 	private Vector2 m_Offset; // 0x110
@@ -99,7 +99,7 @@ public class Scrollbar : Selectable, IBeginDragHandler, IEventSystemHandler, IDr
 
 	public override void OnPointerDown(PointerEventData eventData) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x7A490 Offset: 0x79890 VA: 0x18007A490
+	[IteratorStateMachineAttribute] // RVA: 0x7A570 Offset: 0x79970 VA: 0x18007A570
 	protected IEnumerator ClickRepeat(PointerEventData eventData) { }
 
 	public override void OnPointerUp(PointerEventData eventData) { }
@@ -154,21 +154,21 @@ private sealed class Scrollbar.<ClickRepeat>d__57 : IEnumerator<object>, IEnumer
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

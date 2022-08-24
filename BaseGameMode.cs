@@ -4,7 +4,7 @@ public class BaseGameMode : BaseEntity // TypeDefIndex: 8517
 	public const BaseEntity.Flags Flag_Warmup = 128;
 	public const BaseEntity.Flags Flag_GameOver = 256;
 	public const BaseEntity.Flags Flag_WaitingForPlayers = 512;
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<BaseGameMode> GameModeChanged; // 0x0
 	public string shortname; // 0x178
 	public float matchDuration; // 0x180
@@ -39,7 +39,7 @@ public class BaseGameMode : BaseEntity // TypeDefIndex: 8517
 	public static BaseGameMode clActiveGameMode; // 0x8
 	public static List<BaseGameMode> clGameModeManifest; // 0x10
 	public PlayerInventoryProperties[] loadouts; // 0x208
-	[TooltipAttribute] // RVA: 0xA2750 Offset: 0xA1B50 VA: 0x1800A2750
+	[TooltipAttribute] // RVA: 0xA2870 Offset: 0xA1C70 VA: 0x1800A2870
 	public bool useStaticLoadoutPerPlayer; // 0x210
 	public bool topUpMagazines; // 0x211
 	public bool sendKillNotifications; // 0x212
@@ -79,10 +79,10 @@ public class BaseGameMode : BaseEntity // TypeDefIndex: 8517
 
 	public bool KeepScores() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void add_GameModeChanged(Action<BaseGameMode> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void remove_GameModeChanged(Action<BaseGameMode> value) { }
 
 	public bool HasAnyGameModeTag(string[] tags) { }
@@ -139,7 +139,7 @@ public class BaseGameMode : BaseEntity // TypeDefIndex: 8517
 
 	public float TimeUntilMatchEnds() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void RPC_ScoreSplash(BaseEntity.RPCMessage msg) { }
 
 	public void .ctor() { }

@@ -1,57 +1,57 @@
 public class Graphics // TypeDefIndex: 3389
-{	internal static readonly int kMaxDrawMeshInstanceCount; // 0x2B1083C
+{	internal static readonly int kMaxDrawMeshInstanceCount; // 0x139B0
 
 	public static RenderBuffer activeColorBuffer { get; }
 	public static RenderBuffer activeDepthBuffer { get; }
 
 
-	[FreeFunctionAttribute] // RVA: 0x845E0 Offset: 0x839E0 VA: 0x1800845E0
+	[FreeFunctionAttribute] // RVA: 0x84730 Offset: 0x83B30 VA: 0x180084730
 	private static int Internal_GetMaxDrawMeshInstanceCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0x84750 Offset: 0x83B50 VA: 0x180084750
+	[FreeFunctionAttribute] // RVA: 0x84860 Offset: 0x83C60 VA: 0x180084860
 	private static RenderBuffer GetActiveColorBuffer() { }
 
-	[FreeFunctionAttribute] // RVA: 0x84800 Offset: 0x83C00 VA: 0x180084800
+	[FreeFunctionAttribute] // RVA: 0x84910 Offset: 0x83D10 VA: 0x180084910
 	private static RenderBuffer GetActiveDepthBuffer() { }
 
-	[FreeFunctionAttribute] // RVA: 0x848E0 Offset: 0x83CE0 VA: 0x1800848E0
+	[FreeFunctionAttribute] // RVA: 0x84A00 Offset: 0x83E00 VA: 0x180084A00
 	private static void Internal_SetNullRT() { }
 
-	[NativeMethodAttribute] // RVA: 0x84AA0 Offset: 0x83EA0 VA: 0x180084AA0
+	[NativeMethodAttribute] // RVA: 0x84BF0 Offset: 0x83FF0 VA: 0x180084BF0
 	private static void Internal_SetRTSimple(RenderBuffer color, RenderBuffer depth, int mip, CubemapFace face, int depthSlice) { }
 
-	[FreeFunctionAttribute] // RVA: 0x84B30 Offset: 0x83F30 VA: 0x180084B30
+	[FreeFunctionAttribute] // RVA: 0x84C80 Offset: 0x84080 VA: 0x180084C80
 	private static void Internal_SetRandomWriteTargetBuffer(int index, ComputeBuffer uav, bool preserveCounterValue) { }
 
-	[StaticAccessorAttribute] // RVA: 0x84D30 Offset: 0x84130 VA: 0x180084D30
+	[StaticAccessorAttribute] // RVA: 0x84E50 Offset: 0x84250 VA: 0x180084E50
 	public static void ClearRandomWriteTargets() { }
 
-	[FreeFunctionAttribute] // RVA: 0x84EC0 Offset: 0x842C0 VA: 0x180084EC0
+	[FreeFunctionAttribute] // RVA: 0x84F80 Offset: 0x84380 VA: 0x180084F80
 	private static void Internal_DrawMeshNow2(Mesh mesh, int subsetIndex, Matrix4x4 matrix) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0x84FE0 Offset: 0x843E0 VA: 0x180084FE0
-	[FreeFunctionAttribute] // RVA: 0x84FE0 Offset: 0x843E0 VA: 0x180084FE0
+	[FreeFunctionAttribute] // RVA: 0x850D0 Offset: 0x844D0 VA: 0x1800850D0
+	[VisibleToOtherModulesAttribute] // RVA: 0x850D0 Offset: 0x844D0 VA: 0x1800850D0
 	internal static void Internal_DrawTexture(ref Internal_DrawTextureArguments args) { }
 
-	[FreeFunctionAttribute] // RVA: 0x85470 Offset: 0x84870 VA: 0x180085470
+	[FreeFunctionAttribute] // RVA: 0x85510 Offset: 0x84910 VA: 0x180085510
 	private static void Internal_DrawMesh(Mesh mesh, int submeshIndex, Matrix4x4 matrix, Material material, int layer, Camera camera, MaterialPropertyBlock properties, ShadowCastingMode castShadows, bool receiveShadows, Transform probeAnchor, LightProbeUsage lightProbeUsage, LightProbeProxyVolume lightProbeProxyVolume) { }
 
-	[FreeFunctionAttribute] // RVA: 0x85620 Offset: 0x84A20 VA: 0x180085620
+	[FreeFunctionAttribute] // RVA: 0x85720 Offset: 0x84B20 VA: 0x180085720
 	private static void Internal_DrawMeshInstancedIndirect(Mesh mesh, int submeshIndex, Material material, Bounds bounds, ComputeBuffer bufferWithArgs, int argsOffset, MaterialPropertyBlock properties, ShadowCastingMode castShadows, bool receiveShadows, int layer, Camera camera, LightProbeUsage lightProbeUsage, LightProbeProxyVolume lightProbeProxyVolume) { }
 
-	[FreeFunctionAttribute] // RVA: 0x85750 Offset: 0x84B50 VA: 0x180085750
+	[FreeFunctionAttribute] // RVA: 0x858A0 Offset: 0x84CA0 VA: 0x1800858A0
 	private static void Internal_DrawProceduralIndirectNow(MeshTopology topology, ComputeBuffer bufferWithArgs, int argsOffset) { }
 
-	[FreeFunctionAttribute] // RVA: 0x85820 Offset: 0x84C20 VA: 0x180085820
+	[FreeFunctionAttribute] // RVA: 0x85970 Offset: 0x84D70 VA: 0x180085970
 	private static void Internal_BlitMaterial5(Texture source, RenderTexture dest, Material mat, int pass, bool setRT) { }
 
-	[FreeFunctionAttribute] // RVA: 0x85A50 Offset: 0x84E50 VA: 0x180085A50
+	[FreeFunctionAttribute] // RVA: 0x85B40 Offset: 0x84F40 VA: 0x180085B40
 	private static void Internal_BlitMultiTap4(Texture source, RenderTexture dest, Material mat, Vector2[] offsets) { }
 
-	[FreeFunctionAttribute] // RVA: 0x85C90 Offset: 0x85090 VA: 0x180085C90
+	[FreeFunctionAttribute] // RVA: 0x85DE0 Offset: 0x851E0 VA: 0x180085DE0
 	private static void Blit2(Texture source, RenderTexture dest) { }
 
-	[NativeMethodAttribute] // RVA: 0x85DA0 Offset: 0x851A0 VA: 0x180085DA0
+	[NativeMethodAttribute] // RVA: 0x85EF0 Offset: 0x852F0 VA: 0x180085EF0
 	public static void ExecuteCommandBuffer(CommandBuffer buffer) { }
 
 	internal static void SetRenderTargetImpl(RenderBuffer colorBuffer, RenderBuffer depthBuffer, int mipLevel, CubemapFace face, int depthSlice) { }
@@ -98,34 +98,34 @@ public class Graphics // TypeDefIndex: 3389
 
 	public static void BlitMultiTap(Texture source, RenderTexture dest, Material mat, Vector2[] offsets) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void DrawMesh(Mesh mesh, Vector3 position, Quaternion rotation, Material material, int layer, Camera camera, int submeshIndex, MaterialPropertyBlock properties, bool castShadows, bool receiveShadows) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void DrawMesh(Mesh mesh, Matrix4x4 matrix, Material material, int layer) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void DrawMesh(Mesh mesh, Matrix4x4 matrix, Material material, int layer, Camera camera, int submeshIndex, MaterialPropertyBlock properties) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void DrawMesh(Mesh mesh, Matrix4x4 matrix, Material material, int layer, Camera camera, int submeshIndex, MaterialPropertyBlock properties, bool castShadows, bool receiveShadows) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void DrawMeshInstancedIndirect(Mesh mesh, int submeshIndex, Material material, Bounds bounds, ComputeBuffer bufferWithArgs, int argsOffset, MaterialPropertyBlock properties, ShadowCastingMode castShadows, bool receiveShadows, int layer, Camera camera) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void DrawTexture(Rect screenRect, Texture texture) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void SetRenderTarget(RenderTexture rt) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void SetRenderTarget(RenderTexture rt, int mipLevel) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void SetRenderTarget(RenderBuffer colorBuffer, RenderBuffer depthBuffer) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void SetRandomWriteTarget(int index, ComputeBuffer uav) { }
 
 	private static void .cctor() { }
@@ -172,49 +172,49 @@ public static class Graphics.BufferReadback // TypeDefIndex: 8220
 
 }
 
-public class Graphics : ConsoleSystem // TypeDefIndex: 11928
+public class Graphics : ConsoleSystem // TypeDefIndex: 11932
 {	private const float MinShadowDistance = 100;
 	private const float MaxShadowDistance2Split = 600;
 	private const float MaxShadowDistance4Split = 1000;
 	private static float _shadowdistance; // 0x0
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int shadowmode; // 0x4
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int shadowlights; // 0x8
 	private static int _shadowquality; // 0xC
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool grassshadows; // 0x10
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool contactshadows; // 0x11
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float drawdistance; // 0x14
 	private static float _fov; // 0x18
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool hud; // 0x1C
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool chat; // 0x1D
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool branding; // 0x1E
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int compass; // 0x20
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool dof; // 0x24
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float dof_aper; // 0x28
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float dof_blur; // 0x2C
-	[ClientVar] // RVA: 0xA28D0 Offset: 0xA1CD0 VA: 0x1800A28D0
+	[ClientVar] // RVA: 0xA2A50 Offset: 0xA1E50 VA: 0x1800A2A50
 	public static int dof_mode; // 0x30
-	[ClientVar] // RVA: 0xA29C0 Offset: 0xA1DC0 VA: 0x1800A29C0
+	[ClientVar] // RVA: 0xA2AE0 Offset: 0xA1EE0 VA: 0x1800A2AE0
 	public static float dof_focus_dist; // 0x34
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float dof_focus_time; // 0x38
-	[ClientVar] // RVA: 0xA2A30 Offset: 0xA1E30 VA: 0x1800A2A30
+	[ClientVar] // RVA: 0xA2C90 Offset: 0xA2090 VA: 0x1800A2C90
 	public static bool dof_debug; // 0x3C
 	public static BaseEntity dof_focus_target_entity; // 0x40
-	[ClientVar] // RVA: 0xA2B00 Offset: 0xA1F00 VA: 0x1800A2B00
+	[ClientVar] // RVA: 0xA2D70 Offset: 0xA2170 VA: 0x1800A2D70
 	public static bool vm_fov_scale; // 0x48
-	[ClientVar] // RVA: 0xA2C30 Offset: 0xA2030 VA: 0x1800A2C30
+	[ClientVar] // RVA: 0xA2EA0 Offset: 0xA22A0 VA: 0x1800A2EA0
 	public static bool vm_horizontal_flip; // 0x49
 	private static int _resolution; // 0x4C
 	private static List<Resolution> uniqueResolutions; // 0x50
@@ -226,72 +226,72 @@ public class Graphics : ConsoleSystem // TypeDefIndex: 11928
 	private static bool _impostorshadows; // 0x6C
 	private static int _showtexeldensity; // 0x70
 	private static bool _waves; // 0x74
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool viewModelCamera; // 0x75
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool viewModelDepth; // 0x76
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int reflexMode; // 0x78
-	[ClientVar] // RVA: 0xA2DF0 Offset: 0xA21F0 VA: 0x1800A2DF0
+	[ClientVar] // RVA: 0xA2FF0 Offset: 0xA23F0 VA: 0x1800A2FF0
 	public static int reflexIntervalUs; // 0x7C
-	[ClientVar] // RVA: 0x89230 Offset: 0x88630 VA: 0x180089230
+	[ClientVar] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
 	public static bool reflexLatencyMarker; // 0x80
-	[ClientVar] // RVA: 0x89230 Offset: 0x88630 VA: 0x180089230
+	[ClientVar] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
 	public static bool useMarkersToOptimize; // 0x81
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int dlss; // 0x84
 	private static float _renderScale; // 0x88
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float jitterSpread; // 0x8C
-	[ClientVar] // RVA: 0xA2FE0 Offset: 0xA23E0 VA: 0x1800A2FE0
+	[ClientVar] // RVA: 0xA3260 Offset: 0xA2660 VA: 0x1800A3260
 	public static bool disableLightLod; // 0x90
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool aggressiveShadowLod; // 0x91
 	private static bool _aggressiveShadowLodWearable; // 0x92
 
-	[ClientVar] // RVA: 0xA36C0 Offset: 0xA2AC0 VA: 0x1800A36C0
+	[ClientVar] // RVA: 0xA38C0 Offset: 0xA2CC0 VA: 0x1800A38C0
 	public static int quality { get; set; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float shadowdistance { get; set; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int shadowcascades { get; set; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int shadowquality { get; set; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float fov { get; set; }
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static float lodbias { get; set; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int shaderlod { get; set; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int vsync { get; set; }
-	[ClientVar] // RVA: 0xA3B90 Offset: 0xA2F90 VA: 0x1800A3B90
+	[ClientVar] // RVA: 0xA3E40 Offset: 0xA3240 VA: 0x1800A3E40
 	public static int resolution { get; set; }
-	[ClientVar] // RVA: 0xA3C30 Offset: 0xA3030 VA: 0x1800A3C30
+	[ClientVar] // RVA: 0xA3F40 Offset: 0xA3340 VA: 0x1800A3F40
 	public static int screenmode { get; set; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float uiscale { get; set; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int af { get; set; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int parallax { get; set; }
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool itemskins { get; set; }
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool itemskinunload { get; set; }
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static float itemskintimeout { get; set; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool impostorshadows { get; set; }
-	[ClientVar] // RVA: 0xA44C0 Offset: 0xA38C0 VA: 0x1800A44C0
+	[ClientVar] // RVA: 0xA4710 Offset: 0xA3B10 VA: 0x1800A4710
 	public static int showtexeldensity { get; set; }
-	[ClientVar] // RVA: 0xA4620 Offset: 0xA3A20 VA: 0x1800A4620
+	[ClientVar] // RVA: 0xA4970 Offset: 0xA3D70 VA: 0x1800A4970
 	public static bool waves { get; set; }
-	[ClientVar] // RVA: 0xA4750 Offset: 0xA3B50 VA: 0x1800A4750
+	[ClientVar] // RVA: 0xA4A80 Offset: 0xA3E80 VA: 0x1800A4A80
 	public static int maxQueuedFrames { get; set; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float renderScale { get; set; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool aggressiveShadowLodWearable { get; set; }
 
 
@@ -321,10 +321,10 @@ public class Graphics : ConsoleSystem // TypeDefIndex: 11928
 
 	public static void set_lodbias(float value) { }
 
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static void dof_focus_target(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void dof_nudge(ConsoleSystem.Arg arg) { }
 
 	public static int get_shaderlod() { }
@@ -335,7 +335,7 @@ public class Graphics : ConsoleSystem // TypeDefIndex: 11928
 
 	public static void set_vsync(int value) { }
 
-	[ClientVar] // RVA: 0xA33C0 Offset: 0xA27C0 VA: 0x1800A33C0
+	[ClientVar] // RVA: 0xA3590 Offset: 0xA2990 VA: 0x1800A3590
 	public static void resolutions(ConsoleSystem.Arg arg) { }
 
 	public static int get_resolution() { }
@@ -354,7 +354,7 @@ public class Graphics : ConsoleSystem // TypeDefIndex: 11928
 
 	private static FullScreenMode GetScreenMode() { }
 
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static void dof_focus_lookingat(ConsoleSystem.Arg arg) { }
 
 	public static float get_uiscale() { }
@@ -401,16 +401,16 @@ public class Graphics : ConsoleSystem // TypeDefIndex: 11928
 
 	public static void set_renderScale(float value) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void SetMipMapBias(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void ResetMipMapBias() { }
 
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static void ReportShadowCasters(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static void ReportParticleSystems(ConsoleSystem.Arg arg) { }
 
 	public static bool get_aggressiveShadowLodWearable() { }
@@ -423,7 +423,7 @@ public class Graphics : ConsoleSystem // TypeDefIndex: 11928
 
 }
 
-private sealed class Graphics.<>c // TypeDefIndex: 11929
+private sealed class Graphics.<>c // TypeDefIndex: 11933
 {	public static readonly Graphics.<>c <>9; // 0x0
 	public static Func<Resolution, Vector2Int> <>9__60_0; // 0x8
 	public static Func<Resolution, int> <>9__60_4; // 0x10

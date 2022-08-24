@@ -1,4 +1,4 @@
-public class ToggleResolution : MonoBehaviour // TypeDefIndex: 11139
+public class ToggleResolution : MonoBehaviour // TypeDefIndex: 11143
 {	public TweakUIDropdown Dropdown; // 0x18
 
 

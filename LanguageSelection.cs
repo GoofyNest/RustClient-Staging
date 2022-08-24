@@ -1,4 +1,4 @@
-public class LanguageSelection : MonoBehaviour // TypeDefIndex: 11115
+public class LanguageSelection : MonoBehaviour // TypeDefIndex: 11119
 {	public GameObject buttonContainer; // 0x18
 
 
@@ -6,14 +6,14 @@ public class LanguageSelection : MonoBehaviour // TypeDefIndex: 11115
 
 	private void ChangeLanguage(string language) { }
 
-	[ContextMenu] // RVA: 0x97190 Offset: 0x96590 VA: 0x180097190
+	[ContextMenu] // RVA: 0x97650 Offset: 0x96A50 VA: 0x180097650
 	private void BuildAll() { }
 
 	public void .ctor() { }
 
 }
 
-private sealed class LanguageSelection.<>c__DisplayClass3_0 // TypeDefIndex: 11116
+private sealed class LanguageSelection.<>c__DisplayClass3_0 // TypeDefIndex: 11120
 {	public LanguageSelection <>4__this; // 0x10
 	public GameObject goThis; // 0x18
 
@@ -22,7 +22,7 @@ private sealed class LanguageSelection.<>c__DisplayClass3_0 // TypeDefIndex: 111
 
 }
 
-private sealed class LanguageSelection.<>c__DisplayClass3_1 // TypeDefIndex: 11117
+private sealed class LanguageSelection.<>c__DisplayClass3_1 // TypeDefIndex: 11121
 {	public string name; // 0x10
 	public LanguageSelection.<>c__DisplayClass3_0 CS$<>8__locals1; // 0x18
 

@@ -1,5 +1,5 @@
 internal sealed class WeakHashtable : Hashtable // TypeDefIndex: 2777
-{	private static IEqualityComparer _comparer; // 0x14298
+{	private static IEqualityComparer _comparer; // 0x2B11890
 
 
 	internal void .ctor() { }

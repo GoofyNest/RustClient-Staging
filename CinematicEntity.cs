@@ -7,10 +7,10 @@ public class CinematicEntity : BaseEntity // TypeDefIndex: 9275
 
 	public override void ClientOnEnable() { }
 
-	[ClientVar] // RVA: 0xE6A50 Offset: 0xE5E50 VA: 0x1800E6A50
+	[ClientVar] // RVA: 0xE6B70 Offset: 0xE5F70 VA: 0x1800E6B70
 	public static void DemoHideObjects(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static void RemoveDemoOverride() { }
 
 	public override void DestroyShared() { }

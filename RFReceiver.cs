@@ -16,10 +16,10 @@ public class RFReceiver : IOEntity, IRFObject // TypeDefIndex: 8438
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0x806F0 Offset: 0x7FAF0 VA: 0x1800806F0
-	[BaseEntity.Menu.Description] // RVA: 0x806F0 Offset: 0x7FAF0 VA: 0x1800806F0
-	[BaseEntity.Menu.Icon] // RVA: 0x806F0 Offset: 0x7FAF0 VA: 0x1800806F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x806F0 Offset: 0x7FAF0 VA: 0x1800806F0
+	[BaseEntity.Menu] // RVA: 0x807E0 Offset: 0x7FBE0 VA: 0x1800807E0
+	[BaseEntity.Menu.Description] // RVA: 0x807E0 Offset: 0x7FBE0 VA: 0x1800807E0
+	[BaseEntity.Menu.Icon] // RVA: 0x807E0 Offset: 0x7FBE0 VA: 0x1800807E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x807E0 Offset: 0x7FBE0 VA: 0x1800807E0
 	public void Menu_SetFreqency(BasePlayer player) { }
 
 	public bool Menu_SetFrequency_ShowIf(BasePlayer player) { }

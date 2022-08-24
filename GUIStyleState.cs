@@ -2,7 +2,7 @@ public sealed class GUIStyleState // TypeDefIndex: 4047
 {	internal IntPtr m_Ptr; // 0x10
 	private readonly GUIStyle m_SourceStyle; // 0x18
 
-	[NativePropertyAttribute] // RVA: 0xD1EA0 Offset: 0xD12A0 VA: 0x1800D1EA0
+	[NativePropertyAttribute] // RVA: 0xD1F80 Offset: 0xD1380 VA: 0x1800D1F80
 	public Color textColor { get; set; }
 
 
@@ -10,10 +10,10 @@ public sealed class GUIStyleState // TypeDefIndex: 4047
 
 	public void set_textColor(Color value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD1CB0 Offset: 0xD10B0 VA: 0x1800D1CB0
+	[FreeFunctionAttribute] // RVA: 0xD1D90 Offset: 0xD1190 VA: 0x1800D1D90
 	private static IntPtr Init() { }
 
-	[FreeFunctionAttribute] // RVA: 0xD1E10 Offset: 0xD1210 VA: 0x1800D1E10
+	[FreeFunctionAttribute] // RVA: 0xD1EF0 Offset: 0xD12F0 VA: 0x1800D1EF0
 	private void Cleanup() { }
 
 	public void .ctor() { }

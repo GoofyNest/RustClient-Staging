@@ -15,7 +15,7 @@ public class SpawnHandler : SingletonComponent<SpawnHandler> // TypeDefIndex: 10
 	internal SpawnDistribution CharDistribution; // 0x60
 	internal List<ISpawnGroup> SpawnGroups; // 0x68
 	internal List<SpawnIndividual> SpawnIndividuals; // 0x70
-	[ReadOnlyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+	[ReadOnlyAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public SpawnPopulation[] ConvarSpawnPopulations; // 0x78
 
 

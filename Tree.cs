@@ -92,15 +92,15 @@ internal sealed class Tree // TypeDefIndex: 6953
 
 }
 
-public class Tree : ConsoleSystem // TypeDefIndex: 11970
+public class Tree : ConsoleSystem // TypeDefIndex: 11974
 {	private static float m_quality; // 0x0
 	private static int m_meshes; // 0x4
 
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float quality { get; set; }
 	public static float lod { get; }
 	public static float cull { get; }
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int meshes { get; set; }
 
 

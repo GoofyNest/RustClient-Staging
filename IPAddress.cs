@@ -17,7 +17,7 @@ public class IPAddress // TypeDefIndex: 2882
 	internal const int IPv6AddressBytes = 16;
 	internal const int NumberOfLabels = 8;
 
-	[ObsoleteAttribute] // RVA: 0xB3690 Offset: 0xB2A90 VA: 0x1800B3690
+	[ObsoleteAttribute] // RVA: 0xB3740 Offset: 0xB2B40 VA: 0x1800B3740
 	public long Address { get; }
 	public AddressFamily AddressFamily { get; }
 	public long ScopeId { get; }

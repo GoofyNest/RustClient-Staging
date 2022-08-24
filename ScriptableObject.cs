@@ -23,10 +23,10 @@ public class ScriptableObject : Object // TypeDefIndex: 3523
 	|-ScriptableObject.CreateInstance<PlayerConnection>
 	*/
 
-	[NativeMethodAttribute] // RVA: 0x90620 Offset: 0x8FA20 VA: 0x180090620
+	[NativeMethodAttribute] // RVA: 0x90760 Offset: 0x8FB60 VA: 0x180090760
 	private static void CreateScriptableObject(ScriptableObject self) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC3B00 Offset: 0xC2F00 VA: 0x1800C3B00
+	[FreeFunctionAttribute] // RVA: 0xC3BD0 Offset: 0xC2FD0 VA: 0x1800C3BD0
 	internal static ScriptableObject CreateScriptableObjectInstanceFromType(Type type, bool applyDefaultsAndReset) { }
 
 }

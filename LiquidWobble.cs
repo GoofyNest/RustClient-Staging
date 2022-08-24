@@ -1,10 +1,10 @@
-public class LiquidWobble : MonoBehaviour // TypeDefIndex: 10685
+public class LiquidWobble : MonoBehaviour // TypeDefIndex: 10689
 {	private Renderer rend; // 0x18
 	private Vector3 lastPos; // 0x20
 	private Vector3 velocity; // 0x2C
 	private Vector3 lastRot; // 0x38
 	private Vector3 angularVelocity; // 0x44
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float CurrentWaterLevelFraction; // 0x50
 	public float MinWaterLevel; // 0x54
 	public float MaxWaterLevel; // 0x58

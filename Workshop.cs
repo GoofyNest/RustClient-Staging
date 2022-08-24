@@ -1,6 +1,6 @@
-public class Workshop : ConsoleSystem // TypeDefIndex: 11978
+public class Workshop : ConsoleSystem // TypeDefIndex: 11982
 {
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void print_loaded_skins(ConsoleSystem.Arg args) { }
 
 	public void .ctor() { }

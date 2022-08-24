@@ -193,9 +193,9 @@ public class RelationshipManager : BaseEntity // TypeDefIndex: 8628
 	private const int MugshotMaxFileSize = 65536;
 	private const float MugshotMaxDistance = 50;
 	public static RelationshipManager.PlayerRelationships localRelationships; // 0x0
-	[ClientVar] // RVA: 0xB3BA0 Offset: 0xB2FA0 VA: 0x1800B3BA0
+	[ClientVar] // RVA: 0xB3C20 Offset: 0xB3020 VA: 0x1800B3C20
 	public static Vector3 mugshotOffset; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static RelationshipManager <ClientInstance>k__BackingField; // 0x18
 	public static int clientMaxTeamSize; // 0x20
 
@@ -206,10 +206,10 @@ public class RelationshipManager : BaseEntity // TypeDefIndex: 8628
 
 	public static void RequestUpdatedContacts() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_DoMugshot(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_RecieveLocalRelationships(BaseEntity.RPCMessage msg) { }
 
 	public static void ChangeRelationship(ulong targetPlayerID, RelationshipManager.RelationshipType newRelationshipType) { }
@@ -222,10 +222,10 @@ public class RelationshipManager : BaseEntity // TypeDefIndex: 8628
 
 	private static uint GetSteamIdHash(ulong requesterSteamId, ulong targetSteamId) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static RelationshipManager get_ClientInstance() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void set_ClientInstance(RelationshipManager value) { }
 
 	public void OnEnable() { }

@@ -33,11 +33,11 @@ public class Door : AnimatedBuildingBlock, INotifyTrigger // TypeDefIndex: 8381
 
 	public override bool CanPickup(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
-	[BaseEntity.Menu.Description] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
-	[BaseEntity.Menu.Icon] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
-	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
+	[BaseEntity.Menu] // RVA: 0xD9190 Offset: 0xD8590 VA: 0x1800D9190
+	[BaseEntity.Menu.Description] // RVA: 0xD9190 Offset: 0xD8590 VA: 0x1800D9190
+	[BaseEntity.Menu.Icon] // RVA: 0xD9190 Offset: 0xD8590 VA: 0x1800D9190
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD9190 Offset: 0xD8590 VA: 0x1800D9190
+	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9190 Offset: 0xD8590 VA: 0x1800D9190
 	public void Menu_OpenDoor(BasePlayer player) { }
 
 	public void Menu_OpenDoor_Proxy(ref Option option) { }
@@ -46,11 +46,11 @@ public class Door : AnimatedBuildingBlock, INotifyTrigger // TypeDefIndex: 8381
 
 	public bool Menu_OpenDoor_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
-	[BaseEntity.Menu.Description] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
-	[BaseEntity.Menu.Icon] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
-	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9440 Offset: 0xD8840 VA: 0x1800D9440
+	[BaseEntity.Menu] // RVA: 0xD9570 Offset: 0xD8970 VA: 0x1800D9570
+	[BaseEntity.Menu.Description] // RVA: 0xD9570 Offset: 0xD8970 VA: 0x1800D9570
+	[BaseEntity.Menu.Icon] // RVA: 0xD9570 Offset: 0xD8970 VA: 0x1800D9570
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD9570 Offset: 0xD8970 VA: 0x1800D9570
+	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9570 Offset: 0xD8970 VA: 0x1800D9570
 	public void Menu_CloseDoor(BasePlayer player) { }
 
 	public void Menu_CloseDoor_Proxy(ref Option option) { }
@@ -59,26 +59,26 @@ public class Door : AnimatedBuildingBlock, INotifyTrigger // TypeDefIndex: 8381
 
 	public bool Menu_CloseDoor_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
-	[BaseEntity.Menu.Description] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
-	[BaseEntity.Menu.Icon] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
-	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9930 Offset: 0xD8D30 VA: 0x1800D9930
+	[BaseEntity.Menu] // RVA: 0xD9A00 Offset: 0xD8E00 VA: 0x1800D9A00
+	[BaseEntity.Menu.Description] // RVA: 0xD9A00 Offset: 0xD8E00 VA: 0x1800D9A00
+	[BaseEntity.Menu.Icon] // RVA: 0xD9A00 Offset: 0xD8E00 VA: 0x1800D9A00
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD9A00 Offset: 0xD8E00 VA: 0x1800D9A00
+	[BaseEntity.Menu.UsableWhileWounded] // RVA: 0xD9A00 Offset: 0xD8E00 VA: 0x1800D9A00
 	public void Menu_KnockDoor(BasePlayer player) { }
 
 	public bool Menu_KnockDoor_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xD9C00 Offset: 0xD9000 VA: 0x1800D9C00
-	[BaseEntity.Menu.Description] // RVA: 0xD9C00 Offset: 0xD9000 VA: 0x1800D9C00
-	[BaseEntity.Menu.Icon] // RVA: 0xD9C00 Offset: 0xD9000 VA: 0x1800D9C00
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD9C00 Offset: 0xD9000 VA: 0x1800D9C00
+	[BaseEntity.Menu] // RVA: 0xD9CD0 Offset: 0xD90D0 VA: 0x1800D9CD0
+	[BaseEntity.Menu.Description] // RVA: 0xD9CD0 Offset: 0xD90D0 VA: 0x1800D9CD0
+	[BaseEntity.Menu.Icon] // RVA: 0xD9CD0 Offset: 0xD90D0 VA: 0x1800D9CD0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD9CD0 Offset: 0xD90D0 VA: 0x1800D9CD0
 	public void Menu_ToggleHatch(BasePlayer player) { }
 
 	public bool Menu_ToggleHatch_ShowIf(BasePlayer player) { }
 
 	public override bool NeedsCrosshair() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnDoorInterrupted(BaseEntity.RPCMessage msg) { }
 
 	private void ReverseDoorAnimation(bool wasOpening) { }

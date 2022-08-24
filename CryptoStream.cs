@@ -48,14 +48,14 @@ public class CryptoStream : Stream, IDisposable // TypeDefIndex: 949
 
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xC8E30 Offset: 0xC8230 VA: 0x1800C8E30
+	[AsyncStateMachineAttribute] // RVA: 0xC8EE0 Offset: 0xC82E0 VA: 0x1800C8EE0
 	private Task<int> ReadAsyncInternal(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	public override void Write(byte[] buffer, int offset, int count) { }
 
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xC8FC0 Offset: 0xC83C0 VA: 0x1800C8FC0
+	[AsyncStateMachineAttribute] // RVA: 0xC90C0 Offset: 0xC84C0 VA: 0x1800C90C0
 	private Task WriteAsyncInternal(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	public void Clear() { }
@@ -100,7 +100,7 @@ private struct CryptoStream.<ReadAsyncInternal>d__34 : IAsyncStateMachine // Typ
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -123,7 +123,7 @@ private struct CryptoStream.<WriteAsyncInternal>d__37 : IAsyncStateMachine // Ty
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

@@ -1,6 +1,6 @@
 public static class ScreenCapture // TypeDefIndex: 4558
 {
-[NativeHeaderAttribute] // RVA: 0x78510 Offset: 0x77910 VA: 0x180078510
+[NativeHeaderAttribute] // RVA: 0x78570 Offset: 0x77970 VA: 0x180078570
 public static class ScreenCapture // TypeDefIndex: 4558
 
 	public static void CaptureScreenshot(string filename, int superSize) { }

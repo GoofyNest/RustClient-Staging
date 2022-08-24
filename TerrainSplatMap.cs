@@ -1,4 +1,4 @@
-public class TerrainSplatMap : TerrainMap<byte> // TypeDefIndex: 10413
+public class TerrainSplatMap : TerrainMap<byte> // TypeDefIndex: 10417
 {	public Texture2D SplatTexture0; // 0x48
 	public Texture2D SplatTexture1; // 0x50
 	internal int num; // 0x58
@@ -62,7 +62,7 @@ public class TerrainSplatMap : TerrainMap<byte> // TypeDefIndex: 10413
 
 }
 
-private sealed class TerrainSplatMap.<>c__DisplayClass4_0 // TypeDefIndex: 10414
+private sealed class TerrainSplatMap.<>c__DisplayClass4_0 // TypeDefIndex: 10418
 {	public Color32[] cols; // 0x10
 	public TerrainSplatMap <>4__this; // 0x18
 
@@ -73,7 +73,7 @@ private sealed class TerrainSplatMap.<>c__DisplayClass4_0 // TypeDefIndex: 10414
 
 }
 
-private sealed class TerrainSplatMap.<>c__DisplayClass4_1 // TypeDefIndex: 10415
+private sealed class TerrainSplatMap.<>c__DisplayClass4_1 // TypeDefIndex: 10419
 {	public Color32[] cols; // 0x10
 	public TerrainSplatMap <>4__this; // 0x18
 
@@ -84,7 +84,7 @@ private sealed class TerrainSplatMap.<>c__DisplayClass4_1 // TypeDefIndex: 10415
 
 }
 
-private sealed class TerrainSplatMap.<>c__DisplayClass26_0 // TypeDefIndex: 10416
+private sealed class TerrainSplatMap.<>c__DisplayClass26_0 // TypeDefIndex: 10420
 {	public TerrainSplatMap <>4__this; // 0x10
 	public int idx; // 0x18
 	public float opacity; // 0x1C
@@ -97,7 +97,7 @@ private sealed class TerrainSplatMap.<>c__DisplayClass26_0 // TypeDefIndex: 1041
 
 }
 
-private sealed class TerrainSplatMap.<>c__DisplayClass28_0 // TypeDefIndex: 10417
+private sealed class TerrainSplatMap.<>c__DisplayClass28_0 // TypeDefIndex: 10421
 {	public TerrainSplatMap <>4__this; // 0x10
 	public int idx; // 0x18
 	public float delta; // 0x1C

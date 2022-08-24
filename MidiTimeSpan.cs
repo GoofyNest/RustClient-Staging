@@ -1,5 +1,5 @@
 public sealed class MidiTimeSpan : ITimeSpan, IComparable, IComparable<MidiTimeSpan>, IEquatable<MidiTimeSpan> // TypeDefIndex: 7493
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly long <TimeSpan>k__BackingField; // 0x10
 
 	public long TimeSpan { get; }
@@ -9,7 +9,7 @@ public sealed class MidiTimeSpan : ITimeSpan, IComparable, IComparable<MidiTimeS
 
 	public void .ctor(long timeSpan) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public long get_TimeSpan() { }
 
 	public static MidiTimeSpan op_Explicit(long timeSpan) { }

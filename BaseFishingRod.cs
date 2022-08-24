@@ -3,7 +3,7 @@ public class BaseFishingRod : HeldEntity // TypeDefIndex: 8513
 	public float FishCatchDistance; // 0x200
 	public LineRenderer ReelLineRenderer; // 0x208
 	public Transform LineRendererWorldStartPos; // 0x210
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private BaseFishingRod.CatchState <CurrentState>k__BackingField; // 0x218
 	private BaseFishingRod.FishState currentFishState; // 0x21C
 	private EntityRef<FishingBobber> currentBobber; // 0x220
@@ -21,7 +21,7 @@ public class BaseFishingRod : HeldEntity // TypeDefIndex: 8513
 	public SoundDefinition strainSoundDef; // 0x258
 	public AnimationCurve strainGainCurve; // 0x260
 	public SoundDefinition tensionBreakSoundDef; // 0x268
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static bool ShowUI; // 0xC
 	private Vector3[] lineRendererPositionsArray; // 0x270
 	private Vector3[] lineRendererResultArray; // 0x278
@@ -50,10 +50,10 @@ public class BaseFishingRod : HeldEntity // TypeDefIndex: 8513
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public BaseFishingRod.CatchState get_CurrentState() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_CurrentState(BaseFishingRod.CatchState value) { }
 
 	public static bool get_ShowLureFailError() { }
@@ -74,19 +74,19 @@ public class BaseFishingRod : HeldEntity // TypeDefIndex: 8513
 
 	public override bool HeldEntityBlocksMovement(InputState state) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_ReceiveCastPoint(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_HookedSomething(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_UpdateFishState(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_OnCaughtFish(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_ResetLine(BaseEntity.RPCMessage msg) { }
 
 	public override void OnViewmodelEvent(string name) { }

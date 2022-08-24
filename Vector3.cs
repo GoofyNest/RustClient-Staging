@@ -30,15 +30,15 @@ public struct Vector3 : IEquatable<Vector3> // TypeDefIndex: 3467
 	public static Vector3 positiveInfinity { get; }
 
 
-	[FreeFunctionAttribute] // RVA: 0xABE00 Offset: 0xAB200 VA: 0x1800ABE00
+	[FreeFunctionAttribute] // RVA: 0xABEE0 Offset: 0xAB2E0 VA: 0x1800ABEE0
 	public static Vector3 Slerp(Vector3 a, Vector3 b, float t) { }
 
-	[FreeFunctionAttribute] // RVA: 0xABEA0 Offset: 0xAB2A0 VA: 0x1800ABEA0
+	[FreeFunctionAttribute] // RVA: 0xABFB0 Offset: 0xAB3B0 VA: 0x1800ABFB0
 	private static void OrthoNormalize2(ref Vector3 a, ref Vector3 b) { }
 
 	public static void OrthoNormalize(ref Vector3 normal, ref Vector3 tangent) { }
 
-	[FreeFunctionAttribute] // RVA: 0x855F0 Offset: 0x849F0 VA: 0x1800855F0
+	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
 	public static Vector3 RotateTowards(Vector3 current, Vector3 target, float maxRadiansDelta, float maxMagnitudeDelta) { }
 
 	public static Vector3 Lerp(Vector3 a, Vector3 b, float t) { }
@@ -47,7 +47,7 @@ public struct Vector3 : IEquatable<Vector3> // TypeDefIndex: 3467
 
 	public static Vector3 MoveTowards(Vector3 current, Vector3 target, float maxDistanceDelta) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static Vector3 SmoothDamp(Vector3 current, Vector3 target, ref Vector3 currentVelocity, float smoothTime) { }
 
 	public static Vector3 SmoothDamp(Vector3 current, Vector3 target, ref Vector3 currentVelocity, float smoothTime, float maxSpeed, float deltaTime) { }
@@ -63,6 +63,8 @@ public struct Vector3 : IEquatable<Vector3> // TypeDefIndex: 3467
 	public void Set(float newX, float newY, float newZ) { }
 
 	public static Vector3 Scale(Vector3 a, Vector3 b) { }
+
+	public void Scale(Vector3 scale) { }
 
 	public static Vector3 Cross(Vector3 lhs, Vector3 rhs) { }
 

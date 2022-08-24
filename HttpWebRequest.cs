@@ -56,10 +56,10 @@ public class HttpWebRequest : WebRequest, ISerializable // TypeDefIndex: 3006
 	private HttpWebRequest.AuthorizationState proxy_auth_state; // 0x190
 	private string host; // 0x1A0
 	internal Action<Stream> ResendContentFactory; // 0x1A8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <ThrowOnError>k__BackingField; // 0x1B0
 	private bool unsafe_auth_blah; // 0x1B1
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <ReuseConnection>k__BackingField; // 0x1B2
 	internal WebConnection StoredConnection; // 0x1B8
 
@@ -114,7 +114,7 @@ public class HttpWebRequest : WebRequest, ISerializable // TypeDefIndex: 3006
 
 	public void .ctor(Uri uri) { }
 
-	[ObsoleteAttribute] // RVA: 0xB6F50 Offset: 0xB6350 VA: 0x1800B6F50
+	[ObsoleteAttribute] // RVA: 0xB7000 Offset: 0xB6400 VA: 0x1800B7000
 	protected void .ctor(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
 	private void ResetAuthorization() { }
@@ -157,10 +157,10 @@ public class HttpWebRequest : WebRequest, ISerializable // TypeDefIndex: 3006
 
 	internal void set_InternalContentLength(long value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool get_ThrowOnError() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_ThrowOnError(bool value) { }
 
 	public override string get_ContentType() { }
@@ -303,23 +303,23 @@ public class HttpWebRequest : WebRequest, ISerializable // TypeDefIndex: 3006
 
 	private bool CheckFinalStatus(WebAsyncResult result) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool get_ReuseConnection() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_ReuseConnection(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void <SetWriteStream>b__258_0(SimpleAsyncResult result) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void <SetWriteStream>b__258_1(SimpleAsyncResult inner) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <SetWriteStreamInner>b__259_0(SimpleAsyncResult result) { }
 
-	[EditorBrowsableAttribute] // RVA: 0xB87E0 Offset: 0xB7BE0 VA: 0x1800B87E0
-	[ObsoleteAttribute] // RVA: 0xB87E0 Offset: 0xB7BE0 VA: 0x1800B87E0
+	[EditorBrowsableAttribute] // RVA: 0xB88F0 Offset: 0xB7CF0 VA: 0x1800B88F0
+	[ObsoleteAttribute] // RVA: 0xB88F0 Offset: 0xB7CF0 VA: 0x1800B88F0
 	public void .ctor() { }
 
 }

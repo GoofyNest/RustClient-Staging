@@ -1,6 +1,6 @@
 public sealed class ChunksCollection : ICollection<MidiChunk>, IEnumerable<MidiChunk>, IEnumerable // TypeDefIndex: 7513
 {	private readonly List<MidiChunk> _chunks; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly bool <IsReadOnly>k__BackingField; // 0x18
 
 	public int Count { get; }
@@ -9,7 +9,7 @@ public sealed class ChunksCollection : ICollection<MidiChunk>, IEnumerable<MidiC
 
 	public int get_Count() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsReadOnly() { }
 
 	public void Add(MidiChunk chunk) { }

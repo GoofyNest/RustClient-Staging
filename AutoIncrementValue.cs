@@ -1,5 +1,5 @@
 internal abstract class AutoIncrementValue // TypeDefIndex: 4182
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <Auto>k__BackingField; // 0x10
 
 	internal bool Auto { get; set; }
@@ -9,10 +9,10 @@ internal abstract class AutoIncrementValue // TypeDefIndex: 4182
 	internal abstract Type DataType { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool get_Auto() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_Auto(bool value) { }
 
 	internal abstract object get_Current();

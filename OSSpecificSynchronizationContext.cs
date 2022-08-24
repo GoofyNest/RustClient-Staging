@@ -13,7 +13,7 @@ internal class OSSpecificSynchronizationContext : SynchronizationContext // Type
 
 	public override void Post(SendOrPostCallback d, object state) { }
 
-	[OSSpecificSynchronizationContext.MonoPInvokeCallbackAttribute] // RVA: 0xB6940 Offset: 0xB5D40 VA: 0x1800B6940
+	[OSSpecificSynchronizationContext.MonoPInvokeCallbackAttribute] // RVA: 0xB6A50 Offset: 0xB5E50 VA: 0x1800B6A50
 	private static void InvocationEntry(IntPtr arg) { }
 
 	private static object GetOSContext() { }

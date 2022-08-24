@@ -1,10 +1,10 @@
-public class WorldSpline : MonoBehaviour // TypeDefIndex: 11411
+public class WorldSpline : MonoBehaviour // TypeDefIndex: 11415
 {	public int dataIndex; // 0x18
 	public Vector3[] points; // 0x20
 	public Vector3[] tangents; // 0x28
-	[RangeAttribute] // RVA: 0xAC4E0 Offset: 0xAB8E0 VA: 0x1800AC4E0
+	[RangeAttribute] // RVA: 0xAC800 Offset: 0xABC00 VA: 0x1800AC800
 	public float lutInterval; // 0x30
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool showGizmos; // 0x34
 	private static List<Vector3> visualSplineList; // 0x0
 	private WorldSplineData privateData; // 0x38

@@ -1,5 +1,5 @@
 internal static class X509Helper // TypeDefIndex: 1020
-{	private static INativeCertificateHelper nativeHelper; // 0x2B10360
+{	private static INativeCertificateHelper nativeHelper; // 0x13110
 
 
 	internal static void InstallNativeHelper(INativeCertificateHelper helper) { }

@@ -75,9 +75,9 @@ private sealed class Task.<>c<TResult> // TypeDefIndex: 843
 }
 
 public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefIndex: 853
-{	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[ThreadStaticAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static Task t_currentTask; // 0x80000000
-	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ThreadStaticAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static StackGuard t_stackGuard; // 0x80000008
 	internal static int s_taskIdCounter; // 0x0
 	private static readonly TaskFactory s_factory; // 0x8
@@ -107,7 +107,7 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	private const int CANCELLATION_REQUESTED = 1;
 	private object m_continuationObject; // 0x40
 	private static readonly object s_taskCompletionSentinel; // 0x10
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static bool s_asyncDebuggingEnabled; // 0x18
 	private static readonly Dictionary<int, Task> s_currentActiveTasks; // 0x20
 	private static readonly object s_activeTasksLock; // 0x28
@@ -154,10 +154,10 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	internal virtual Task HandedOverChildReplica { get; set; }
 
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static bool AddToActiveTasks(Task task) { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void RemoveFromActiveTasks(int taskId) { }
 
 	internal void .ctor(bool canceled, TaskCreationOptions creationOptions, CancellationToken ct) { }
@@ -420,10 +420,10 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 	|-Task.FromException<VoidTaskResult>
 	*/
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static Task FromCancellation(CancellationToken cancellationToken) { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static Task<TResult> FromCancellation<TResult>(CancellationToken cancellationToken) { }
 	/* GenericInstMethod :
 	|
@@ -505,7 +505,7 @@ public class Task : IThreadPoolWorkItem, IAsyncResult, IDisposable // TypeDefInd
 
 	public static Task<Task> WhenAny(Task[] tasks) { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static Task<TResult> CreateUnwrapPromise<TResult>(Task outerTask, bool lookForOce) { }
 	/* GenericInstMethod :
 	|

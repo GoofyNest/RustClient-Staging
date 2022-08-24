@@ -1,10 +1,10 @@
 public abstract class StateMachineBehaviour : ScriptableObject // TypeDefIndex: 4478
 {
-[AttributeUsageAttribute] // RVA: 0xC8BD0 Offset: 0xC7FD0 VA: 0x1800C8BD0
-[RequiredByNativeCodeAttribute] // RVA: 0xC8BD0 Offset: 0xC7FD0 VA: 0x1800C8BD0
+[AttributeUsageAttribute] // RVA: 0xB8F50 Offset: 0xB8350 VA: 0x1800B8F50
+[RequiredByNativeCodeAttribute] // RVA: 0xB8F50 Offset: 0xB8350 VA: 0x1800B8F50
 public sealed class SharedBetweenAnimatorsAttribute : Attribute // TypeDefIndex: 4477
 
-[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 public abstract class StateMachineBehaviour : ScriptableObject // TypeDefIndex: 4478
 
 	public virtual void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) { }

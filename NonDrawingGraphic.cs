@@ -1,4 +1,4 @@
-public class NonDrawingGraphic : Graphic // TypeDefIndex: 11278
+public class NonDrawingGraphic : Graphic // TypeDefIndex: 11282
 {
 	public override void SetMaterialDirty() { }
 

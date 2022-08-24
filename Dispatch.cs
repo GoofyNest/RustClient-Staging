@@ -1,9 +1,9 @@
 public static class Dispatch // TypeDefIndex: 5104
 {	public static Action<CallbackType, string, bool> OnDebugCallback; // 0x0
 	public static Action<Exception> OnException; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static HSteamPipe <ClientPipe>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static HSteamPipe <ServerPipe>k__BackingField; // 0x14
 	private static bool runningFrame; // 0x18
 	private static List<Action<IntPtr>> actionsToCall; // 0x20
@@ -22,13 +22,13 @@ public static class Dispatch // TypeDefIndex: 5104
 
 	internal static extern bool SteamAPI_ManualDispatch_FreeLastCallback(HSteamPipe pipe) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static HSteamPipe get_ClientPipe() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void set_ClientPipe(HSteamPipe value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static HSteamPipe get_ServerPipe() { }
 
 	internal static void Init() { }
@@ -41,7 +41,7 @@ public static class Dispatch // TypeDefIndex: 5104
 
 	private static void ProcessResult(Dispatch.CallbackMsg_t msg) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x8B3B0 Offset: 0x8A7B0 VA: 0x18008B3B0
+	[AsyncStateMachineAttribute] // RVA: 0x8B500 Offset: 0x8A900 VA: 0x18008B500
 	internal static void LoopClientAsync() { }
 
 	internal static void OnCallComplete<T>(SteamAPICall_t call, Action continuation, bool server) { }
@@ -237,7 +237,7 @@ private struct Dispatch.<LoopClientAsync>d__22 : IAsyncStateMachine // TypeDefIn
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

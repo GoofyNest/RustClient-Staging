@@ -11,22 +11,22 @@ public class SteelSeriesGameSenseService : RestRgbService // TypeDefIndex: 7693
 	private string _gameEventEndpoint; // 0x68
 
 
-	[AsyncStateMachineAttribute] // RVA: 0xBA070 Offset: 0xB9470 VA: 0x1800BA070
+	[AsyncStateMachineAttribute] // RVA: 0xBA160 Offset: 0xB9560 VA: 0x1800BA160
 	protected override ValueTask<bool> Initialize() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBB4B0 Offset: 0xBA8B0 VA: 0x1800BB4B0
+	[AsyncStateMachineAttribute] // RVA: 0xBB5C0 Offset: 0xBA9C0 VA: 0x1800BB5C0
 	protected override ValueTask Shutdown() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBB710 Offset: 0xBAB10 VA: 0x1800BB710
+	[AsyncStateMachineAttribute] // RVA: 0xBB7E0 Offset: 0xBABE0 VA: 0x1800BB7E0
 	protected override Task SendHeartbeat() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBB8B0 Offset: 0xBACB0 VA: 0x1800BB8B0
+	[AsyncStateMachineAttribute] // RVA: 0xBB980 Offset: 0xBAD80 VA: 0x1800BB980
 	protected override Task SendStaticColor(Color color) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBB9D0 Offset: 0xBADD0 VA: 0x1800BB9D0
+	[AsyncStateMachineAttribute] // RVA: 0xBBB20 Offset: 0xBAF20 VA: 0x1800BBB20
 	protected override Task SendPulseColor(Color color, float duration) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBBAB0 Offset: 0xBAEB0 VA: 0x1800BBAB0
+	[AsyncStateMachineAttribute] // RVA: 0xBBC00 Offset: 0xBB000 VA: 0x1800BBC00
 	protected override Task SendEvent(RgbEventType type) { }
 
 	private static string TryGetMomentsEvent(RgbEventType type) { }
@@ -55,7 +55,7 @@ private struct SteelSeriesGameSenseService.<Initialize>d__10 : IAsyncStateMachin
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -69,7 +69,7 @@ private struct SteelSeriesGameSenseService.<Shutdown>d__11 : IAsyncStateMachine 
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -83,7 +83,7 @@ private struct SteelSeriesGameSenseService.<SendHeartbeat>d__12 : IAsyncStateMac
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -98,7 +98,7 @@ private struct SteelSeriesGameSenseService.<SendStaticColor>d__13 : IAsyncStateM
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -114,7 +114,7 @@ private struct SteelSeriesGameSenseService.<SendPulseColor>d__14 : IAsyncStateMa
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -129,7 +129,7 @@ private struct SteelSeriesGameSenseService.<SendEvent>d__15 : IAsyncStateMachine
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

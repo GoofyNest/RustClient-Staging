@@ -2,8 +2,8 @@ public class Display // TypeDefIndex: 3383
 {	internal IntPtr nativeDisplay; // 0x10
 	public static Display[] displays; // 0x0
 	private static Display _mainDisplay; // 0x8
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private static Display.DisplaysUpdatedDelegate onDisplaysUpdated; // 0x10
 
 	public int renderingWidth { get; }
@@ -32,22 +32,22 @@ public class Display // TypeDefIndex: 3383
 
 	public static Display get_main() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void RecreateDisplayList(IntPtr[] nativeDisplay) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void FireDisplaysUpdated() { }
 
-	[FreeFunctionAttribute] // RVA: 0x83280 Offset: 0x82680 VA: 0x180083280
+	[FreeFunctionAttribute] // RVA: 0x833D0 Offset: 0x827D0 VA: 0x1800833D0
 	private static void GetSystemExtImpl(IntPtr nativeDisplay, out int w, out int h) { }
 
-	[FreeFunctionAttribute] // RVA: 0x833B0 Offset: 0x827B0 VA: 0x1800833B0
+	[FreeFunctionAttribute] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
 	private static void GetRenderingExtImpl(IntPtr nativeDisplay, out int w, out int h) { }
 
-	[FreeFunctionAttribute] // RVA: 0x83510 Offset: 0x82910 VA: 0x180083510
+	[FreeFunctionAttribute] // RVA: 0x83620 Offset: 0x82A20 VA: 0x180083620
 	private static void GetRenderingBuffersImpl(IntPtr nativeDisplay, out RenderBuffer color, out RenderBuffer depth) { }
 
-	[FreeFunctionAttribute] // RVA: 0x83540 Offset: 0x82940 VA: 0x180083540
+	[FreeFunctionAttribute] // RVA: 0x83690 Offset: 0x82A90 VA: 0x180083690
 	private static int RelativeMouseAtImpl(int x, int y, out int rx, out int ry) { }
 
 	private static void .cctor() { }

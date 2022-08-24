@@ -1,4 +1,4 @@
-public class AddToAlphaMap : ProceduralObject // TypeDefIndex: 10565
+public class AddToAlphaMap : ProceduralObject // TypeDefIndex: 10569
 {	public Bounds bounds; // 0x18
 
 
@@ -8,7 +8,7 @@ public class AddToAlphaMap : ProceduralObject // TypeDefIndex: 10565
 
 }
 
-private sealed class AddToAlphaMap.<>c // TypeDefIndex: 10566
+private sealed class AddToAlphaMap.<>c // TypeDefIndex: 10570
 {	public static readonly AddToAlphaMap.<>c <>9; // 0x0
 	public static Action<int, int> <>9__1_0; // 0x8
 

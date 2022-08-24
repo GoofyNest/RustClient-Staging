@@ -1,5 +1,5 @@
 internal struct PlaybackStatusHasChanged_t : ICallbackData // TypeDefIndex: 5408
-{	public static int _datasize; // 0x13840
+{	public static int _datasize; // 0x12C59
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }

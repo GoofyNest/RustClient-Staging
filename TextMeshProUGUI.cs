@@ -1,7 +1,7 @@
 public class TextMeshProUGUI : TMP_Text, ILayoutElement // TypeDefIndex: 6867
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_hasFontAssetChanged; // 0xAD0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected TMP_SubMeshUI[] m_subTextObjects; // 0xAD8
 	private float m_previousLossyScaleY; // 0xAE0
 	private Vector3[] m_RectTransformCorners; // 0xAE8
@@ -10,17 +10,17 @@ public class TextMeshProUGUI : TMP_Text, ILayoutElement // TypeDefIndex: 6867
 	private bool m_isFirstAllocation; // 0xB00
 	private int m_max_characters; // 0xB04
 	private bool m_isMaskingEnabled; // 0xB08
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Material m_baseMaterial; // 0xB10
 	private bool m_isScrollRegionSet; // 0xB18
 	private int m_stencilID; // 0xB1C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector4 m_maskOffset; // 0xB20
 	private Matrix4x4 m_EnvMapMatrix; // 0xB30
 	private bool m_isRegisteredForEvents; // 0xB70
 	private int m_recursiveCountA; // 0xB74
 	private int loopCountA; // 0xB78
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <blockRectTransformChange>k__BackingField; // 0xB7C
 	private bool m_isRebuildingLayout; // 0xB7D
 
@@ -90,10 +90,10 @@ public class TextMeshProUGUI : TMP_Text, ILayoutElement // TypeDefIndex: 6867
 
 	protected override void OnRectTransformDimensionsChange() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_blockRectTransformChange() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_blockRectTransformChange(bool value) { }
 
 	internal override void InternalUpdate() { }

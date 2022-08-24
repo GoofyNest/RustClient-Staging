@@ -1,17 +1,17 @@
 public class Hero // TypeDefIndex: 6202
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Ident>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <MediaUrl>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <TitleText>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <ActionText>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <TargetUrl>k__BackingField; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Conditions>k__BackingField; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private double <Chance>k__BackingField; // 0x40
 
 	public string Ident { get; set; }
@@ -23,62 +23,62 @@ public class Hero // TypeDefIndex: 6202
 	public double Chance { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Ident() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Ident(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_MediaUrl() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_MediaUrl(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_TitleText() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_TitleText(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_ActionText() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_ActionText(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_TargetUrl() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_TargetUrl(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Conditions() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Conditions(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public double get_Chance() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Chance(double value) { }
 
 	public void .ctor() { }
 
 }
 
-public class Hero : ConsoleSystem // TypeDefIndex: 11934
-{	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+public class Hero : ConsoleSystem // TypeDefIndex: 11938
+{	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static string ident; // 0x0
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static string video; // 0x8
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static string title; // 0x10
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static string action; // 0x18
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static string url; // 0x20
 
 	public static string CookieName { get; }
@@ -86,7 +86,7 @@ public class Hero : ConsoleSystem // TypeDefIndex: 11934
 
 	public static string get_CookieName() { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void Show(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }
@@ -95,13 +95,13 @@ public class Hero : ConsoleSystem // TypeDefIndex: 11934
 
 }
 
-public class Hero : SingletonComponent<Hero> // TypeDefIndex: 12092
+public class Hero : SingletonComponent<Hero> // TypeDefIndex: 12096
 {	public CanvasGroup CanvasGroup; // 0x18
 	public Video VideoPlayer; // 0x20
 	public RustText TitleText; // 0x28
 	public RustText ButtonText; // 0x30
 	public HttpImage TitleImage; // 0x38
-	[HeaderAttribute] // RVA: 0xD7610 Offset: 0xD6A10 VA: 0x1800D7610
+	[HeaderAttribute] // RVA: 0xD77C0 Offset: 0xD6BC0 VA: 0x1800D77C0
 	public RustButton ItemStoreButton; // 0x40
 	public RustButton LimitedTabButton; // 0x48
 	public RustButton GeneralTabButton; // 0x50
@@ -110,7 +110,7 @@ public class Hero : SingletonComponent<Hero> // TypeDefIndex: 12092
 
 	public void Roll() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD76C0 Offset: 0xD6AC0 VA: 0x1800D76C0
+	[AsyncStateMachineAttribute] // RVA: 0xD78C0 Offset: 0xD6CC0 VA: 0x1800D78C0
 	public Task ShowAsync() { }
 
 	public void ClickHide() { }
@@ -127,7 +127,7 @@ public class Hero : SingletonComponent<Hero> // TypeDefIndex: 12092
 
 }
 
-private sealed class Hero.<>c // TypeDefIndex: 12093
+private sealed class Hero.<>c // TypeDefIndex: 12097
 {	public static readonly Hero.<>c <>9; // 0x0
 	public static Func<Hero, Guid> <>9__9_0; // 0x8
 
@@ -140,7 +140,7 @@ private sealed class Hero.<>c // TypeDefIndex: 12093
 
 }
 
-private struct Hero.<ShowAsync>d__10 : IAsyncStateMachine // TypeDefIndex: 12094
+private struct Hero.<ShowAsync>d__10 : IAsyncStateMachine // TypeDefIndex: 12098
 {	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder <>t__builder; // 0x8
 	public Hero <>4__this; // 0x20
@@ -151,7 +151,7 @@ private struct Hero.<ShowAsync>d__10 : IAsyncStateMachine // TypeDefIndex: 12094
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

@@ -1,9 +1,9 @@
-public sealed class ByteQuadtree // TypeDefIndex: 10279
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public sealed class ByteQuadtree // TypeDefIndex: 10283
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int size; // 0x10
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int levels; // 0x14
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ByteMap[] values; // 0x18
 
 	public int Size { get; }
@@ -22,7 +22,7 @@ public sealed class ByteQuadtree // TypeDefIndex: 10279
 
 }
 
-public struct ByteQuadtree.Element // TypeDefIndex: 10280
+public struct ByteQuadtree.Element // TypeDefIndex: 10284
 {	private ByteQuadtree source; // 0x0
 	private int x; // 0x8
 	private int y; // 0xC

@@ -1,8 +1,8 @@
 public class MeshCollider : Collider // TypeDefIndex: 3923
 {
-[NativeHeaderAttribute] // RVA: 0x8E8E0 Offset: 0x8DCE0 VA: 0x18008E8E0
-[NativeHeaderAttribute] // RVA: 0x8E8E0 Offset: 0x8DCE0 VA: 0x18008E8E0
-[RequiredByNativeCodeAttribute] // RVA: 0x8E8E0 Offset: 0x8DCE0 VA: 0x18008E8E0
+[NativeHeaderAttribute] // RVA: 0x8EA20 Offset: 0x8DE20 VA: 0x18008EA20
+[NativeHeaderAttribute] // RVA: 0x8EA20 Offset: 0x8DE20 VA: 0x18008EA20
+[RequiredByNativeCodeAttribute] // RVA: 0x8EA20 Offset: 0x8DE20 VA: 0x18008EA20
 public class MeshCollider : Collider // TypeDefIndex: 3923
 	public Mesh sharedMesh { get; set; }
 	public bool convex { get; set; }

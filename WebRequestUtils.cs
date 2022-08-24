@@ -1,10 +1,10 @@
 internal static class WebRequestUtils // TypeDefIndex: 4124
 {
 internal static class WebRequestUtils // TypeDefIndex: 4124
-	private static Regex domainRegex; // 0x2B10360
+	private static Regex domainRegex; // 0x125E0
 
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static string RedirectTo(string baseUri, string redirectUri) { }
 
 	internal static string MakeInitialUrl(string targetUrl, string localUrl) { }

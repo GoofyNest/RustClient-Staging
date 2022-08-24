@@ -1,4 +1,4 @@
-public class RadixSorter // TypeDefIndex: 11400
+public class RadixSorter // TypeDefIndex: 11404
 {	private uint[] histogram; // 0x10
 	private uint[] offset; // 0x18
 

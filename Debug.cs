@@ -7,26 +7,26 @@ internal static class Debug // TypeDefIndex: 2456
 }
 
 public class Debug // TypeDefIndex: 3371
-{	internal static ILogger s_Logger; // 0x14420
+{	internal static ILogger s_Logger; // 0x139AF
 
 	public static ILogger unityLogger { get; }
 
 
 	public static ILogger get_unityLogger() { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void DrawLine(Vector3 start, Vector3 end, Color color, float duration) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void DrawLine(Vector3 start, Vector3 end, Color color) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7BEA0 Offset: 0x7B2A0 VA: 0x18007BEA0
+	[FreeFunctionAttribute] // RVA: 0x7BF80 Offset: 0x7B380 VA: 0x18007BF80
 	public static void DrawLine(Vector3 start, Vector3 end, Color color, float duration, bool depthTest) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void DrawRay(Vector3 start, Vector3 dir, Color color, float duration) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void DrawRay(Vector3 start, Vector3 dir, Color color) { }
 
 	public static void DrawRay(Vector3 start, Vector3 dir, Color color, float duration, bool depthTest) { }
@@ -57,19 +57,19 @@ public class Debug // TypeDefIndex: 3371
 
 	public static void LogWarningFormat(Object context, string format, object[] args) { }
 
-	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
+	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
 	public static void Assert(bool condition) { }
 
-	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
+	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
 	public static void Assert(bool condition, string message) { }
 
-	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
+	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
 	public static void Assert(bool condition, string message, Object context) { }
 
-	[ConditionalAttribute] // RVA: 0x7CDB0 Offset: 0x7C1B0 VA: 0x18007CDB0
+	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
 	public static void LogAssertion(object message) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static bool CallOverridenDebugHandler(Exception exception, Object obj) { }
 
 	private static void .cctor() { }
@@ -79,7 +79,7 @@ public class Debug // TypeDefIndex: 3371
 }
 
 public static class Debug // TypeDefIndex: 7146
-{	private static TextWriter writer; // 0x126B5
+{	private static TextWriter writer; // 0x2B119B8
 
 
 	private static void .cctor() { }

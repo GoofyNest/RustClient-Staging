@@ -1,5 +1,5 @@
-public static class Generic // TypeDefIndex: 12038
-{	private static Scene _batchingScene; // 0x1E6A0
+public static class Generic // TypeDefIndex: 12042
+{	private static Scene _batchingScene; // 0x1DA6E
 
 	public static Scene BatchingScene { get; }
 

@@ -1,14 +1,14 @@
 public sealed class Cloth : Component // TypeDefIndex: 4516
 {
-[RequireComponent] // RVA: 0xD7550 Offset: 0xD6950 VA: 0x1800D7550
-[NativeHeaderAttribute] // RVA: 0xD7550 Offset: 0xD6950 VA: 0x1800D7550
-[NativeClassAttribute] // RVA: 0xD7550 Offset: 0xD6950 VA: 0x1800D7550
+[RequireComponent] // RVA: 0xD7680 Offset: 0xD6A80 VA: 0x1800D7680
+[NativeHeaderAttribute] // RVA: 0xD7680 Offset: 0xD6A80 VA: 0x1800D7680
+[NativeClassAttribute] // RVA: 0xD7680 Offset: 0xD6A80 VA: 0x1800D7680
 public sealed class Cloth : Component // TypeDefIndex: 4516
-	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
 	private float <useContinuousCollision>k__BackingField; // 0x18
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private readonly bool <selfCollision>k__BackingField; // 0x1C
 
 	public Vector3 externalAcceleration { get; set; }

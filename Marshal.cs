@@ -5,10 +5,10 @@ public static class Marshal // TypeDefIndex: 1355
 
 	public static IntPtr AllocCoTaskMem(int cb) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public static IntPtr AllocHGlobal(IntPtr cb) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public static IntPtr AllocHGlobal(int cb) { }
 
 	internal static void copy_to_unmanaged(Array source, int startIndex, IntPtr destination, int length) { }
@@ -29,7 +29,7 @@ public static class Marshal // TypeDefIndex: 1355
 
 	public static void FreeBSTR(IntPtr ptr) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static void FreeHGlobal(IntPtr hglobal) { }
 
 	private static void ClearUnicode(IntPtr ptr) { }
@@ -38,7 +38,7 @@ public static class Marshal // TypeDefIndex: 1355
 
 	public static int GetHRForException(Exception e) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static int GetLastWin32Error() { }
 
 	public static string PtrToStringAnsi(IntPtr ptr) { }
@@ -47,7 +47,7 @@ public static class Marshal // TypeDefIndex: 1355
 
 	public static string PtrToStringUni(IntPtr ptr, int len) { }
 
-	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
+	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
 	public static object PtrToStructure(IntPtr ptr, Type structureType) { }
 
 	public static T PtrToStructure<T>(IntPtr ptr) { }
@@ -65,27 +65,27 @@ public static class Marshal // TypeDefIndex: 1355
 
 	public static short ReadInt16(IntPtr ptr, int ofs) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static int ReadInt32(IntPtr ptr) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static int ReadInt32(IntPtr ptr, int ofs) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static long ReadInt64(IntPtr ptr) { }
 
 	public static long ReadInt64(IntPtr ptr, int ofs) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static IntPtr ReadIntPtr(IntPtr ptr) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static IntPtr ReadIntPtr(IntPtr ptr, int ofs) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	private static int ReleaseInternal(IntPtr pUnk) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static int Release(IntPtr pUnk) { }
 
 	public static int SizeOf(Type t) { }
@@ -104,8 +104,8 @@ public static class Marshal // TypeDefIndex: 1355
 
 	public static IntPtr SecureStringToGlobalAllocUnicode(SecureString s) { }
 
-	[ComVisibleAttribute] // RVA: 0xE0D30 Offset: 0xE0130 VA: 0x1800E0D30
-	[ReliabilityContractAttribute] // RVA: 0xE0D30 Offset: 0xE0130 VA: 0x1800E0D30
+	[ComVisibleAttribute] // RVA: 0xE0E50 Offset: 0xE0250 VA: 0x1800E0E50
+	[ReliabilityContractAttribute] // RVA: 0xE0E50 Offset: 0xE0250 VA: 0x1800E0E50
 	public static void StructureToPtr(object structure, IntPtr ptr, bool fDeleteOld) { }
 
 	public static void StructureToPtr<T>(T structure, IntPtr ptr, bool fDeleteOld) { }

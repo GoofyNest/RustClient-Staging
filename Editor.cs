@@ -38,7 +38,7 @@ public struct Editor // TypeDefIndex: 5274
 
 	public Editor WithTag(string tag) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9CB90 Offset: 0x9BF90 VA: 0x18009CB90
+	[AsyncStateMachineAttribute] // RVA: 0x9CCC0 Offset: 0x9C0C0 VA: 0x18009CCC0
 	public Task<PublishResult> SubmitAsync(IProgress<float> progress, Action<PublishResult> onItemCreated) { }
 
 }
@@ -58,12 +58,12 @@ private struct Editor.<SubmitAsync>d__40 : IAsyncStateMachine // TypeDefIndex: 5
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-public class Editor : ConsoleSystem // TypeDefIndex: 11909
+public class Editor : ConsoleSystem // TypeDefIndex: 11913
 {
 	public void .ctor() { }
 

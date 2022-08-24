@@ -1,4 +1,4 @@
-public class KeyCodeEntry : UIDialog // TypeDefIndex: 10895
+public class KeyCodeEntry : UIDialog // TypeDefIndex: 10899
 {	public Text textDisplay; // 0x30
 	public Action<string> onCodeEntered; // 0x38
 	public Text typeDisplay; // 0x40
@@ -26,7 +26,7 @@ public class KeyCodeEntry : UIDialog // TypeDefIndex: 10895
 
 	public void EnterLastUsedNumber() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x88480 Offset: 0x87880 VA: 0x180088480
+	[IteratorStateMachineAttribute] // RVA: 0x88930 Offset: 0x87D30 VA: 0x180088930
 	private IEnumerator ProcessLastNumberInput() { }
 
 	public void EnterNumber(int i) { }
@@ -39,7 +39,7 @@ public class KeyCodeEntry : UIDialog // TypeDefIndex: 10895
 
 }
 
-private sealed class KeyCodeEntry.<ProcessLastNumberInput>d__17 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10896
+private sealed class KeyCodeEntry.<ProcessLastNumberInput>d__17 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10900
 {	private int <>1__state; // 0x10
 	private object <>2__current; // 0x18
 	public KeyCodeEntry <>4__this; // 0x20
@@ -49,21 +49,21 @@ private sealed class KeyCodeEntry.<ProcessLastNumberInput>d__17 : IEnumerator<ob
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

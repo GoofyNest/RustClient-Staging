@@ -1,4 +1,4 @@
-public class AddNewStateUIButton : MonoBehaviour // TypeDefIndex: 10782
+public class AddNewStateUIButton : MonoBehaviour // TypeDefIndex: 10786
 {	private UIAIDesignerScreen designerUI; // 0x18
 
 
@@ -12,7 +12,7 @@ public class AddNewStateUIButton : MonoBehaviour // TypeDefIndex: 10782
 
 }
 
-private sealed class AddNewStateUIButton.<>c // TypeDefIndex: 10783
+private sealed class AddNewStateUIButton.<>c // TypeDefIndex: 10787
 {	public static readonly AddNewStateUIButton.<>c <>9; // 0x0
 	public static Func<object, string> <>9__2_0; // 0x8
 

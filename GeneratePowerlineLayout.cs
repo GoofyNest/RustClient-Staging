@@ -1,4 +1,4 @@
-public class GeneratePowerlineLayout : ProceduralComponent // TypeDefIndex: 10476
+public class GeneratePowerlineLayout : ProceduralComponent // TypeDefIndex: 10480
 {	private const int MaxDepth = 100000;
 
 
@@ -8,7 +8,7 @@ public class GeneratePowerlineLayout : ProceduralComponent // TypeDefIndex: 1047
 
 }
 
-private class GeneratePowerlineLayout.PathNode // TypeDefIndex: 10477
+private class GeneratePowerlineLayout.PathNode // TypeDefIndex: 10481
 {	public MonumentInfo monument; // 0x10
 	public PathFinder.Node node; // 0x18
 
@@ -17,7 +17,7 @@ private class GeneratePowerlineLayout.PathNode // TypeDefIndex: 10477
 
 }
 
-private class GeneratePowerlineLayout.PathSegment // TypeDefIndex: 10478
+private class GeneratePowerlineLayout.PathSegment // TypeDefIndex: 10482
 {	public PathFinder.Node start; // 0x10
 	public PathFinder.Node end; // 0x18
 
@@ -26,7 +26,7 @@ private class GeneratePowerlineLayout.PathSegment // TypeDefIndex: 10478
 
 }
 
-private sealed class GeneratePowerlineLayout.<>c__DisplayClass3_0 // TypeDefIndex: 10479
+private sealed class GeneratePowerlineLayout.<>c__DisplayClass3_0 // TypeDefIndex: 10483
 {	public GeneratePowerlineLayout.PathSegment segment; // 0x10
 
 
@@ -36,7 +36,7 @@ private sealed class GeneratePowerlineLayout.<>c__DisplayClass3_0 // TypeDefInde
 
 }
 
-private sealed class GeneratePowerlineLayout.<>c__DisplayClass3_1 // TypeDefIndex: 10480
+private sealed class GeneratePowerlineLayout.<>c__DisplayClass3_1 // TypeDefIndex: 10484
 {	public GeneratePowerlineLayout.PathNode copy; // 0x10
 
 
@@ -48,7 +48,7 @@ private sealed class GeneratePowerlineLayout.<>c__DisplayClass3_1 // TypeDefInde
 
 }
 
-private sealed class GeneratePowerlineLayout.<>c__DisplayClass3_2 // TypeDefIndex: 10481
+private sealed class GeneratePowerlineLayout.<>c__DisplayClass3_2 // TypeDefIndex: 10485
 {	public GeneratePowerlineLayout.PathNode copy; // 0x10
 
 
@@ -60,7 +60,7 @@ private sealed class GeneratePowerlineLayout.<>c__DisplayClass3_2 // TypeDefInde
 
 }
 
-private sealed class GeneratePowerlineLayout.<>c // TypeDefIndex: 10482
+private sealed class GeneratePowerlineLayout.<>c // TypeDefIndex: 10486
 {	public static readonly GeneratePowerlineLayout.<>c <>9; // 0x0
 	public static Func<GeneratePowerlineLayout.PathNode, PathFinder.Point> <>9__3_0; // 0x8
 	public static Func<GeneratePowerlineLayout.PathNode, PathFinder.Point> <>9__3_1; // 0x10

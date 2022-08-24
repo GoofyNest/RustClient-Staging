@@ -1,7 +1,7 @@
-public class BasePrefab : BaseMonoBehaviour, IPrefabPreProcess // TypeDefIndex: 11298
-{	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class BasePrefab : BaseMonoBehaviour, IPrefabPreProcess // TypeDefIndex: 11302
+{	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public uint prefabID; // 0x18
-	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool isClient; // 0x1C
 
 	public bool isServer { get; }

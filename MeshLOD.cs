@@ -1,5 +1,5 @@
 public class MeshLOD : LODComponent, IBatchingHandler // TypeDefIndex: 9942
-{	[HorizontalAttribute] // RVA: 0xAA3F0 Offset: 0xA97F0 VA: 0x1800AA3F0
+{	[HorizontalAttribute] // RVA: 0xAA500 Offset: 0xA9900 VA: 0x1800AA500
 	public MeshLOD.State[] States; // 0x80
 	private RendererBatch meshBatch; // 0x88
 	private MeshRenderer meshRenderer; // 0x90

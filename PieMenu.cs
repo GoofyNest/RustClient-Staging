@@ -1,4 +1,4 @@
-public class PieMenu : UIBehaviour // TypeDefIndex: 11194
+public class PieMenu : UIBehaviour // TypeDefIndex: 11198
 {	public static PieMenu Instance; // 0x0
 	public Image middleBox; // 0x18
 	public PieShape pieBackgroundBlur; // 0x20
@@ -9,15 +9,15 @@ public class PieMenu : UIBehaviour // TypeDefIndex: 11194
 	public PieMenu.MenuOption[] options; // 0x48
 	public GameObject scaleTarget; // 0x50
 	public float sliceGaps; // 0x58
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float outerSize; // 0x5C
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float innerSize; // 0x60
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float iconSize; // 0x64
-	[RangeAttribute] // RVA: 0x9F1C0 Offset: 0x9E5C0 VA: 0x18009F1C0
+	[RangeAttribute] // RVA: 0x9F370 Offset: 0x9E770 VA: 0x18009F370
 	public float startRadius; // 0x68
-	[RangeAttribute] // RVA: 0x9F1C0 Offset: 0x9E5C0 VA: 0x18009F1C0
+	[RangeAttribute] // RVA: 0x9F370 Offset: 0x9E770 VA: 0x18009F370
 	public float radiusSize; // 0x6C
 	public Image middleImage; // 0x70
 	public TextMeshProUGUI middleTitle; // 0x78
@@ -74,7 +74,7 @@ public class PieMenu : UIBehaviour // TypeDefIndex: 11194
 
 }
 
-public class PieMenu.MenuOption // TypeDefIndex: 11195
+public class PieMenu.MenuOption // TypeDefIndex: 11199
 {	public string name; // 0x10
 	public string desc; // 0x18
 	public string requirements; // 0x20
@@ -93,20 +93,20 @@ public class PieMenu.MenuOption // TypeDefIndex: 11195
 
 }
 
-public struct PieMenu.MenuOption.ColorMode // TypeDefIndex: 11196
+public struct PieMenu.MenuOption.ColorMode // TypeDefIndex: 11200
 {	public PieMenu.MenuOption.ColorMode.PieMenuSpriteColorOption Mode; // 0x0
 	public Color CustomColor; // 0x4
 
 }
 
-public enum PieMenu.MenuOption.ColorMode.PieMenuSpriteColorOption // TypeDefIndex: 11197
+public enum PieMenu.MenuOption.ColorMode.PieMenuSpriteColorOption // TypeDefIndex: 11201
 {	public int value__; // 0x0
 	public const PieMenu.MenuOption.ColorMode.PieMenuSpriteColorOption CustomColor = 0;
 	public const PieMenu.MenuOption.ColorMode.PieMenuSpriteColorOption SpriteColor = 1;
 
 }
 
-private sealed class PieMenu.<>c // TypeDefIndex: 11198
+private sealed class PieMenu.<>c // TypeDefIndex: 11202
 {	public static readonly PieMenu.<>c <>9; // 0x0
 	public static Func<PieMenu.MenuOption, int> <>9__43_0; // 0x8
 	public static Func<PieMenu.MenuOption, bool> <>9__43_1; // 0x10

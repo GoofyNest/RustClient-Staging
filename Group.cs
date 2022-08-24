@@ -18,7 +18,7 @@ public class Group : Capture // TypeDefIndex: 2616
 	internal int[] _caps; // 0x20
 	internal int _capcount; // 0x28
 	internal CaptureCollection _capcoll; // 0x30
-	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
+	[OptionalFieldAttribute] // RVA: 0x7B5F0 Offset: 0x7A9F0 VA: 0x18007B5F0
 	internal string _name; // 0x38
 
 	public bool Success { get; }

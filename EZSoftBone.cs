@@ -3,51 +3,51 @@ public class EZSoftBone : MonoBehaviour, IClientComponent, IPrefabPreProcess // 
 	public const int MaxInstanceCount = 12;
 	private static float CurrentFrame; // 0x0
 	private static int InstanceNumber; // 0x4
-	[FormerlySerializedAsAttribute] // RVA: 0x80B10 Offset: 0x7FF10 VA: 0x180080B10
+	[FormerlySerializedAsAttribute] // RVA: 0x80C00 Offset: 0x80000 VA: 0x180080C00
 	public List<Transform> rootBones; // 0x18
-	[FormerlySerializedAsAttribute] // RVA: 0x80B50 Offset: 0x7FF50 VA: 0x180080B50
+	[FormerlySerializedAsAttribute] // RVA: 0x80C40 Offset: 0x80040 VA: 0x180080C40
 	public List<Transform> endBones; // 0x20
-	[SerializeField] // RVA: 0x80B80 Offset: 0x7FF80 VA: 0x180080B80
-	[FormerlySerializedAsAttribute] // RVA: 0x80B80 Offset: 0x7FF80 VA: 0x180080B80
+	[SerializeField] // RVA: 0x80C70 Offset: 0x80070 VA: 0x180080C70
+	[FormerlySerializedAsAttribute] // RVA: 0x80C70 Offset: 0x80070 VA: 0x180080C70
 	private EZSoftBoneMaterial _material; // 0x28
-	[FormerlySerializedAsAttribute] // RVA: 0x80D50 Offset: 0x80150 VA: 0x180080D50
+	[FormerlySerializedAsAttribute] // RVA: 0x80E40 Offset: 0x80240 VA: 0x180080E40
 	public int startDepth; // 0x30
 	public int stiffnessDepth; // 0x34
-	[FormerlySerializedAsAttribute] // RVA: 0x80D80 Offset: 0x80180 VA: 0x180080D80
+	[FormerlySerializedAsAttribute] // RVA: 0x80E70 Offset: 0x80270 VA: 0x180080E70
 	public EZSoftBone.UnificationMode siblingConstraints; // 0x38
-	[FormerlySerializedAsAttribute] // RVA: 0x80F30 Offset: 0x80330 VA: 0x180080F30
+	[FormerlySerializedAsAttribute] // RVA: 0x80FB0 Offset: 0x803B0 VA: 0x180080FB0
 	public EZSoftBone.UnificationMode lengthUnification; // 0x3C
-	[FormerlySerializedAsAttribute] // RVA: 0x810E0 Offset: 0x804E0 VA: 0x1800810E0
+	[FormerlySerializedAsAttribute] // RVA: 0x81150 Offset: 0x80550 VA: 0x180081150
 	public bool siblingRotationConstraints; // 0x40
-	[FormerlySerializedAsAttribute] // RVA: 0x81200 Offset: 0x80600 VA: 0x180081200
+	[FormerlySerializedAsAttribute] // RVA: 0x81220 Offset: 0x80620 VA: 0x180081220
 	public bool closedSiblings; // 0x41
-	[FormerlySerializedAsAttribute] // RVA: 0x813B0 Offset: 0x807B0 VA: 0x1800813B0
+	[FormerlySerializedAsAttribute] // RVA: 0x81420 Offset: 0x80820 VA: 0x180081420
 	public LayerMask collisionLayers; // 0x44
-	[FormerlySerializedAsAttribute] // RVA: 0x814A0 Offset: 0x808A0 VA: 0x1800814A0
+	[FormerlySerializedAsAttribute] // RVA: 0x81510 Offset: 0x80910 VA: 0x180081510
 	public float radius; // 0x48
-	[FormerlySerializedAsAttribute] // RVA: 0x81630 Offset: 0x80A30 VA: 0x180081630
-	[EZCurveRectAttribute] // RVA: 0x81630 Offset: 0x80A30 VA: 0x180081630
+	[FormerlySerializedAsAttribute] // RVA: 0x816A0 Offset: 0x80AA0 VA: 0x1800816A0
+	[EZCurveRectAttribute] // RVA: 0x816A0 Offset: 0x80AA0 VA: 0x1800816A0
 	public AnimationCurve radiusCurve; // 0x50
 	public float deadZoneRadius; // 0x58
 	public float deadZoneExtent; // 0x5C
-	[FormerlySerializedAsAttribute] // RVA: 0x81750 Offset: 0x80B50 VA: 0x180081750
+	[FormerlySerializedAsAttribute] // RVA: 0x81800 Offset: 0x80C00 VA: 0x180081800
 	public EZSoftBone.DeltaTimeMode deltaTimeMode; // 0x60
-	[FormerlySerializedAsAttribute] // RVA: 0x81850 Offset: 0x80C50 VA: 0x180081850
+	[FormerlySerializedAsAttribute] // RVA: 0x81900 Offset: 0x80D00 VA: 0x180081900
 	public float constantDeltaTime; // 0x64
-	[FormerlySerializedAsAttribute] // RVA: 0x818F0 Offset: 0x80CF0 VA: 0x1800818F0
-	[RangeAttribute] // RVA: 0x818F0 Offset: 0x80CF0 VA: 0x1800818F0
+	[FormerlySerializedAsAttribute] // RVA: 0x819B0 Offset: 0x80DB0 VA: 0x1800819B0
+	[RangeAttribute] // RVA: 0x819B0 Offset: 0x80DB0 VA: 0x1800819B0
 	public int iterations; // 0x68
-	[FormerlySerializedAsAttribute] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
-	public float sleepThreshold; // 0x6C
-	[FormerlySerializedAsAttribute] // RVA: 0x81B20 Offset: 0x80F20 VA: 0x180081B20
-	public Vector3 gravity; // 0x70
-	[SerializeField] // RVA: 0x81B50 Offset: 0x80F50 VA: 0x180081B50
 	[FormerlySerializedAsAttribute] // RVA: 0x81B50 Offset: 0x80F50 VA: 0x180081B50
+	public float sleepThreshold; // 0x6C
+	[FormerlySerializedAsAttribute] // RVA: 0x81BC0 Offset: 0x80FC0 VA: 0x180081BC0
+	public Vector3 gravity; // 0x70
+	[SerializeField] // RVA: 0x81C80 Offset: 0x81080 VA: 0x180081C80
+	[FormerlySerializedAsAttribute] // RVA: 0x81C80 Offset: 0x81080 VA: 0x180081C80
 	private Transform _simulateSpace; // 0x80
 	public float globalRadius; // 0x88
 	public Vector3 globalForce; // 0x8C
 	public bool collisionEnabled; // 0x98
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private EZSoftBone.BoneChain[] structures; // 0xA0
 	private Vector3 origin; // 0xA8
 	private Vector3 prevOrigin; // 0xB4
@@ -111,7 +111,7 @@ public class EZSoftBone : MonoBehaviour, IClientComponent, IPrefabPreProcess // 
 
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static bool <SetSiblings>g__HasBoneAtDepth|55_1(EZSoftBone.BoneChain chain, int depth) { }
 
 }

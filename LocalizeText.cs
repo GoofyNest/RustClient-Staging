@@ -1,6 +1,6 @@
-public class LocalizeText : MonoBehaviour, IClientComponent, ILocalize // TypeDefIndex: 11276
+public class LocalizeText : MonoBehaviour, IClientComponent, ILocalize // TypeDefIndex: 11280
 {	public string token; // 0x18
-	[TextAreaAttribute] // RVA: 0x721B0 Offset: 0x715B0 VA: 0x1800721B0
+	[TextAreaAttribute] // RVA: 0x72220 Offset: 0x71620 VA: 0x180072220
 	public string english; // 0x20
 	public string append; // 0x28
 	public LocalizeText.SpecialMode specialMode; // 0x30
@@ -36,7 +36,7 @@ public class LocalizeText : MonoBehaviour, IClientComponent, ILocalize // TypeDe
 
 }
 
-public enum LocalizeText.SpecialMode // TypeDefIndex: 11277
+public enum LocalizeText.SpecialMode // TypeDefIndex: 11281
 {	public int value__; // 0x0
 	public const LocalizeText.SpecialMode None = 0;
 	public const LocalizeText.SpecialMode AllUppercase = 1;

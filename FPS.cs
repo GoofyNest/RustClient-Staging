@@ -1,10 +1,10 @@
-public class FPS : ConsoleSystem // TypeDefIndex: 11923
-{	private static int m_graph; // 0x1E584
+public class FPS : ConsoleSystem // TypeDefIndex: 11927
+{	private static int m_graph; // 0x2B119B8
 
-	[ClientVar] // RVA: 0x9B020 Offset: 0x9A420 VA: 0x18009B020
-	[ServerVar] // RVA: 0x9B020 Offset: 0x9A420 VA: 0x18009B020
+	[ClientVar] // RVA: 0x9B360 Offset: 0x9A760 VA: 0x18009B360
+	[ServerVar] // RVA: 0x9B360 Offset: 0x9A760 VA: 0x18009B360
 	public static int limit { get; set; }
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static int graph { get; set; }
 
 

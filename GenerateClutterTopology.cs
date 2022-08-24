@@ -1,4 +1,4 @@
-public class GenerateClutterTopology : ProceduralComponent // TypeDefIndex: 10452
+public class GenerateClutterTopology : ProceduralComponent // TypeDefIndex: 10456
 {
 	public override void Process(uint seed) { }
 
@@ -6,7 +6,7 @@ public class GenerateClutterTopology : ProceduralComponent // TypeDefIndex: 1045
 
 }
 
-private sealed class GenerateClutterTopology.<>c__DisplayClass0_0 // TypeDefIndex: 10453
+private sealed class GenerateClutterTopology.<>c__DisplayClass0_0 // TypeDefIndex: 10457
 {	public int[] map; // 0x10
 	public int res; // 0x18
 

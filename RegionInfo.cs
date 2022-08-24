@@ -12,19 +12,19 @@ public class RegionInfo // TypeDefIndex: 746
 	private string currencyNativeName; // 0x58
 
 	public static RegionInfo CurrentRegion { get; }
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public virtual string CurrencyEnglishName { get; }
 	public virtual string CurrencySymbol { get; }
-	[MonoTODOAttribute] // RVA: 0xB0C00 Offset: 0xB0000 VA: 0x1800B0C00
+	[MonoTODOAttribute] // RVA: 0xB0C70 Offset: 0xB0070 VA: 0x1800B0C70
 	public virtual string DisplayName { get; }
 	public virtual string EnglishName { get; }
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public virtual int GeoId { get; }
 	public virtual bool IsMetric { get; }
 	public virtual string ISOCurrencySymbol { get; }
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public virtual string NativeName { get; }
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public virtual string CurrencyNativeName { get; }
 	public virtual string Name { get; }
 	public virtual string ThreeLetterISORegionName { get; }

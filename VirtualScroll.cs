@@ -1,8 +1,8 @@
-public class VirtualScroll : MonoBehaviour // TypeDefIndex: 12001
+public class VirtualScroll : MonoBehaviour // TypeDefIndex: 12005
 {	public int ItemHeight; // 0x18
 	public int ItemSpacing; // 0x1C
 	public RectOffset Padding; // 0x20
-	[TooltipAttribute] // RVA: 0xCB0F0 Offset: 0xCA4F0 VA: 0x1800CB0F0
+	[TooltipAttribute] // RVA: 0xCB350 Offset: 0xCA750 VA: 0x1800CB350
 	public GameObject DataSourceObject; // 0x28
 	public GameObject SourceObject; // 0x30
 	public ScrollRect ScrollRect; // 0x38
@@ -42,7 +42,7 @@ public class VirtualScroll : MonoBehaviour // TypeDefIndex: 12001
 
 }
 
-private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 12003
+private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 12007
 {	public int startVisible; // 0x10
 	public float endVisible; // 0x14
 
@@ -53,7 +53,7 @@ private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 12003
 
 }
 
-private sealed class VirtualScroll.<>c // TypeDefIndex: 12004
+private sealed class VirtualScroll.<>c // TypeDefIndex: 12008
 {	public static readonly VirtualScroll.<>c <>9; // 0x0
 	public static Func<int, int> <>9__20_1; // 0x8
 

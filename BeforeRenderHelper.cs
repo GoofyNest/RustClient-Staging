@@ -1,5 +1,5 @@
 internal static class BeforeRenderHelper // TypeDefIndex: 3381
-{	private static List<BeforeRenderHelper.OrderBlock> s_OrderBlocks; // 0x144CE
+{	private static List<BeforeRenderHelper.OrderBlock> s_OrderBlocks; // 0x2B117C0
 
 
 	public static void Invoke() { }

@@ -388,32 +388,32 @@ public class CardTable : BaseVehicle // TypeDefIndex: 8367
 	private int lastVisualScrap; // 0x470
 	private static Dictionary<int, Sprite> tableCardImageDict; // 0x8
 	private static Sprite blankCardStatic; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <recentlyLeftPlayerName>k__BackingField; // 0x478
-	[HeaderAttribute] // RVA: 0x81110 Offset: 0x80510 VA: 0x180081110
-	[SerializeField] // RVA: 0x81110 Offset: 0x80510 VA: 0x180081110
+	[HeaderAttribute] // RVA: 0x813A0 Offset: 0x807A0 VA: 0x1800813A0
+	[SerializeField] // RVA: 0x813A0 Offset: 0x807A0 VA: 0x1800813A0
 	private GameObjectRef uiPrefab; // 0x480
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObjectRef playerStoragePrefab; // 0x488
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObjectRef potPrefab; // 0x490
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ViewModel viewModel; // 0x498
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CardTableUI.PlayingCardImage[] tableCards; // 0x4A0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Renderer[] tableCardBackings; // 0x4A8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Canvas cardUICanvas; // 0x4B0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Image[] tableCardImages; // 0x4B8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Sprite blankCard; // 0x4C0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform chipStacksParent; // 0x4C8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CardTable.ChipStack[] chipStacks; // 0x4D0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CardTable.ChipStack[] fillerStacks; // 0x4D8
 	public ItemDefinition scrapItemDef; // 0x4E0
 	public CardTable.PlayerStorageInfo[] playerStoragePoints; // 0x4E8
@@ -439,10 +439,10 @@ public class CardTable : BaseVehicle // TypeDefIndex: 8367
 
 	public bool get_ShowTakeWinningsTip() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_recentlyLeftPlayerName() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_recentlyLeftPlayerName(string value) { }
 
 	protected override void ClientInit(Entity info) { }
@@ -455,18 +455,18 @@ public class CardTable : BaseVehicle // TypeDefIndex: 8367
 
 	public void GetAvailableInputs(CardPlayerData localPlayerData, List<CardTableUI.KeycodeWithAction> targetList) { }
 
-	[BaseEntity.Menu] // RVA: 0xD0FA0 Offset: 0xD03A0 VA: 0x1800D0FA0
-	[BaseEntity.Menu.Description] // RVA: 0xD0FA0 Offset: 0xD03A0 VA: 0x1800D0FA0
-	[BaseEntity.Menu.Icon] // RVA: 0xD0FA0 Offset: 0xD03A0 VA: 0x1800D0FA0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD0FA0 Offset: 0xD03A0 VA: 0x1800D0FA0
+	[BaseEntity.Menu] // RVA: 0xD10D0 Offset: 0xD04D0 VA: 0x1800D10D0
+	[BaseEntity.Menu.Description] // RVA: 0xD10D0 Offset: 0xD04D0 VA: 0x1800D10D0
+	[BaseEntity.Menu.Icon] // RVA: 0xD10D0 Offset: 0xD04D0 VA: 0x1800D10D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD10D0 Offset: 0xD04D0 VA: 0x1800D10D0
 	public void Menu_Play(BasePlayer player) { }
 
 	public bool Menu_Play_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
-	[BaseEntity.Menu.Description] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
-	[BaseEntity.Menu.Icon] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
+	[BaseEntity.Menu] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
+	[BaseEntity.Menu.Description] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
+	[BaseEntity.Menu.Icon] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
 	public void Menu_Open(BasePlayer player) { }
 
 	public bool Menu_Open_ShowIf(BasePlayer player) { }
@@ -487,21 +487,21 @@ public class CardTable : BaseVehicle // TypeDefIndex: 8367
 
 	private void ShowStack(CardTable.ChipStack stack, ref int remainingScrap) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnWinnersDeclared(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void ReceiveCardsForPlayer(BaseEntity.RPCMessage msg) { }
 
 	public void ClientInput(int inputType, int inputValue = 0) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void ClientPlaySound(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void ClientStartTurnTimer(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void ClientOnPlayerLeft(BaseEntity.RPCMessage msg) { }
 
 	private void ClearRecentlyLeftPlayer() { }

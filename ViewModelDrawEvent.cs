@@ -1,4 +1,4 @@
-public struct ViewModelDrawEvent : IEquatable<ViewModelDrawEvent> // TypeDefIndex: 11452
+public struct ViewModelDrawEvent : IEquatable<ViewModelDrawEvent> // TypeDefIndex: 11456
 {	public ViewModelRenderer viewModelRenderer; // 0x0
 	public Renderer renderer; // 0x8
 	public bool skipDepthPrePass; // 0x10

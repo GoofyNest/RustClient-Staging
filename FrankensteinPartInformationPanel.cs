@@ -1,4 +1,4 @@
-public class FrankensteinPartInformationPanel : ItemInformationPanel // TypeDefIndex: 11004
+public class FrankensteinPartInformationPanel : ItemInformationPanel // TypeDefIndex: 11008
 {	public ItemTextValue healthDisplay; // 0x18
 	public ItemTextValue speedDisplay; // 0x20
 	public ItemTextValue attackRateDisplay; // 0x28

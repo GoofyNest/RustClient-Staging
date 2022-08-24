@@ -59,7 +59,7 @@ public class WorldItem : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6304
 }
 
 public class WorldItem : BaseEntity // TypeDefIndex: 8667
-{	[HeaderAttribute] // RVA: 0xB8FD0 Offset: 0xB83D0 VA: 0x1800B8FD0
+{	[HeaderAttribute] // RVA: 0xB9080 Offset: 0xB8480 VA: 0x1800B9080
 	public bool allowPickup; // 0x168
 	public Item item; // 0x170
 
@@ -70,10 +70,10 @@ public class WorldItem : BaseEntity // TypeDefIndex: 8667
 
 	protected override void ClientInit(Entity info) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void UpdateItem(BaseEntity.RPCMessage packet) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void PickupSound(BaseEntity.RPCMessage msg) { }
 
 	public virtual Vector3 IdealMenuPosition(BasePlayer playerUser) { }
@@ -102,7 +102,7 @@ public class WorldItem : BaseEntity // TypeDefIndex: 8667
 
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void <GetMenuItems>b__6_0(BasePlayer ply) { }
 
 }

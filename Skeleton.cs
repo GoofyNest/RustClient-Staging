@@ -35,7 +35,7 @@ public class Skeleton : MonoBehaviour // TypeDefIndex: 7344
 
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform <GetTransforms>b__5_0(SkeletonDefinition.Bone x) { }
 
 }

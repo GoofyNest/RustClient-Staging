@@ -1,4 +1,4 @@
-public class MainMenuSystem : SingletonComponent<MainMenuSystem> // TypeDefIndex: 11120
+public class MainMenuSystem : SingletonComponent<MainMenuSystem> // TypeDefIndex: 11124
 {	public static bool isOpen; // 0x0
 	public static Action OnOpenStateChanged; // 0x8
 	public RustButton SessionButton; // 0x18
@@ -48,7 +48,7 @@ public class MainMenuSystem : SingletonComponent<MainMenuSystem> // TypeDefIndex
 
 }
 
-private sealed class MainMenuSystem.<>c // TypeDefIndex: 11121
+private sealed class MainMenuSystem.<>c // TypeDefIndex: 11125
 {	public static readonly MainMenuSystem.<>c <>9; // 0x0
 	public static Func<IPlayerItemDefinition, bool> <>9__15_0; // 0x8
 	public static Func<IPlayerItemDefinition, int> <>9__15_1; // 0x10

@@ -1,6 +1,6 @@
 public class TypeConverter // TypeDefIndex: 2751
 {	private const string s_UseCompatibleTypeConverterBehavior = "UseCompatibleTypeConverterBehavior";
-	private static bool useCompatibleTypeConversion; // 0x2B10380
+	private static bool useCompatibleTypeConversion; // 0x13730
 
 	private static bool UseCompatibleTypeConversion { get; }
 

@@ -62,12 +62,12 @@ public class BoomBox : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6391
 public class BoomBox : EntityComponent<BaseEntity>, INotifyLOD // TypeDefIndex: 9437
 {	public static Dictionary<string, string> ValidStations; // 0x0
 	public static Dictionary<string, string> ServerValidStations; // 0x8
-	[ReplicatedVar] // RVA: 0xF0350 Offset: 0xEF750 VA: 0x1800F0350
+	[ReplicatedVar] // RVA: 0xF0480 Offset: 0xEF880 VA: 0x1800F0480
 	public static string ServerUrlList; // 0x10
 	private static string lastParsedServerList; // 0x18
 	public ShoutcastStreamer ShoutcastStreamer; // 0x20
 	public GameObjectRef RadioIpDialog; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <CurrentRadioIp>k__BackingField; // 0x30
 	public ulong AssignedRadioBy; // 0x38
 	public AudioSource SoundSource; // 0x40
@@ -76,7 +76,7 @@ public class BoomBox : EntityComponent<BaseEntity>, INotifyLOD // TypeDefIndex: 
 	public SoundDefinition PlaySfx; // 0x58
 	public SoundDefinition StopSfx; // 0x60
 	public const BaseEntity.Flags HasCassette = 128;
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Cassette <CurrentCassette>k__BackingField; // 0x68
 	private float localPlayerAchievementTime; // 0x70
 	private bool hasAwardedLocalPlayerAchievement; // 0x74
@@ -98,10 +98,10 @@ public class BoomBox : EntityComponent<BaseEntity>, INotifyLOD // TypeDefIndex: 
 
 	public static void ResetServerValidStations() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_CurrentRadioIp() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_CurrentRadioIp(string value) { }
 
 	public void ChangeRadioSettings(BasePlayer player) { }
@@ -118,10 +118,10 @@ public class BoomBox : EntityComponent<BaseEntity>, INotifyLOD // TypeDefIndex: 
 
 	public BaseEntity get_BaseEntity() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Cassette get_CurrentCassette() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_CurrentCassette(Cassette value) { }
 
 	public void Play(BasePlayer forPlayer) { }

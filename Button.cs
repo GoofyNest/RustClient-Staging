@@ -1,6 +1,6 @@
 public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISubmitHandler // TypeDefIndex: 4905
-{	[FormerlySerializedAsAttribute] // RVA: 0xE4A60 Offset: 0xE3E60 VA: 0x1800E4A60
-	[SerializeField] // RVA: 0xE4A60 Offset: 0xE3E60 VA: 0x1800E4A60
+{	[FormerlySerializedAsAttribute] // RVA: 0xE4B80 Offset: 0xE3F80 VA: 0x1800E4B80
+	[SerializeField] // RVA: 0xE4B80 Offset: 0xE3F80 VA: 0x1800E4B80
 	private Button.ButtonClickedEvent m_OnClick; // 0xE8
 
 	public Button.ButtonClickedEvent onClick { get; set; }
@@ -18,7 +18,7 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 
 	public virtual void OnSubmit(BaseEventData eventData) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xE5E90 Offset: 0xE5290 VA: 0x1800E5E90
+	[IteratorStateMachineAttribute] // RVA: 0xE5FB0 Offset: 0xE53B0 VA: 0x1800E5FB0
 	private IEnumerator OnFinishSubmit() { }
 
 }
@@ -40,21 +40,21 @@ private sealed class Button.<OnFinishSubmit>d__9 : IEnumerator<object>, IEnumera
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

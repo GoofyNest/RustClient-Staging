@@ -59,7 +59,7 @@ public class ComputerStation : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 }
 
 public class ComputerStation : BaseMountable // TypeDefIndex: 8562
-{	[HeaderAttribute] // RVA: 0xAAB20 Offset: 0xA9F20 VA: 0x1800AAB20
+{	[HeaderAttribute] // RVA: 0xAABC0 Offset: 0xA9FC0 VA: 0x1800AABC0
 	public GameObjectRef menuPrefab; // 0x320
 	public ComputerMenu computerMenu; // 0x328
 	public EntityRef currentlyControllingEnt; // 0x330
@@ -84,7 +84,7 @@ public class ComputerStation : BaseMountable // TypeDefIndex: 8562
 
 	public override Quaternion GetMountedRotation() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void ReceiveBookmarks(BaseEntity.RPCMessage msg) { }
 
 	public override void PlayerDismounted(BasePlayer player, bool wasSwap) { }

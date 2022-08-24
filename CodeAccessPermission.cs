@@ -2,13 +2,13 @@ public abstract class CodeAccessPermission : IPermission, ISecurityEncodable // 
 {
 	protected void .ctor() { }
 
-	[ConditionalAttribute] // RVA: 0xC11B0 Offset: 0xC05B0 VA: 0x1800C11B0
+	[ConditionalAttribute] // RVA: 0xC12E0 Offset: 0xC06E0 VA: 0x1800C12E0
 	public void Demand() { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public override bool Equals(object obj) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public override int GetHashCode() { }
 
 	public abstract bool IsSubsetOf(IPermission target);

@@ -1,5 +1,5 @@
 public struct LayerMask // TypeDefIndex: 3516
-{	[NativeNameAttribute] // RVA: 0xC0E10 Offset: 0xC0210 VA: 0x1800C0E10
+{	[NativeNameAttribute] // RVA: 0xC0EE0 Offset: 0xC02E0 VA: 0x1800C0EE0
 	private int m_Mask; // 0x0
 
 	public int value { get; }
@@ -11,12 +11,12 @@ public struct LayerMask // TypeDefIndex: 3516
 
 	public int get_value() { }
 
-	[NativeMethodAttribute] // RVA: 0xC1070 Offset: 0xC0470 VA: 0x1800C1070
-	[StaticAccessorAttribute] // RVA: 0xC1070 Offset: 0xC0470 VA: 0x1800C1070
+	[NativeMethodAttribute] // RVA: 0xC1140 Offset: 0xC0540 VA: 0x1800C1140
+	[StaticAccessorAttribute] // RVA: 0xC1140 Offset: 0xC0540 VA: 0x1800C1140
 	public static string LayerToName(int layer) { }
 
-	[NativeMethodAttribute] // RVA: 0xC11E0 Offset: 0xC05E0 VA: 0x1800C11E0
-	[StaticAccessorAttribute] // RVA: 0xC11E0 Offset: 0xC05E0 VA: 0x1800C11E0
+	[NativeMethodAttribute] // RVA: 0xC1310 Offset: 0xC0710 VA: 0x1800C1310
+	[StaticAccessorAttribute] // RVA: 0xC1310 Offset: 0xC0710 VA: 0x1800C1310
 	public static int NameToLayer(string layerName) { }
 
 	public static int GetMask(string[] layerNames) { }

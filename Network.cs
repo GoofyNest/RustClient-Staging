@@ -653,8 +653,8 @@ public struct Queue.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 
 public sealed class ConnectionManagementElementCollection : ConfigurationElementCollection // TypeDefIndex: 3170
 {
-[ConfigurationCollectionAttribute] // RVA: 0xC10D0 Offset: 0xC04D0 VA: 0x1800C10D0
-[DefaultMemberAttribute] // RVA: 0xC10D0 Offset: 0xC04D0 VA: 0x1800C10D0
+[ConfigurationCollectionAttribute] // RVA: 0xC1230 Offset: 0xC0630 VA: 0x1800C1230
+[DefaultMemberAttribute] // RVA: 0xC1230 Offset: 0xC0630 VA: 0x1800C1230
 public sealed class ConnectionManagementElementCollection : ConfigurationElementCollection // TypeDefIndex: 3170
 
 	public void .ctor() { }
@@ -834,10 +834,10 @@ public enum NetDebugOutput // TypeDefIndex: 5174
 }
 
 public class ConnectionManager // TypeDefIndex: 5178
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IConnectionManager <Interface>k__BackingField; // 0x10
 	public Connection Connection; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ConnectionInfo <ConnectionInfo>k__BackingField; // 0x20
 	public bool Connected; // 0x2D8
 	public bool Connecting; // 0x2D9
@@ -846,13 +846,13 @@ public class ConnectionManager // TypeDefIndex: 5178
 	internal ConnectionInfo ConnectionInfo { set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public IConnectionManager get_Interface() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Interface(IConnectionManager value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_ConnectionInfo(ConnectionInfo value) { }
 
 	public void Close(bool linger = False, int reasonCode = 0, string debugString = "Closing Connection") { }
@@ -978,17 +978,17 @@ internal struct NetMsg // TypeDefIndex: 5512
 }
 
 public struct Connection : IEquatable<Connection> // TypeDefIndex: 5543
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private uint <Id>k__BackingField; // 0x0
 
 	public uint Id { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[IsReadOnlyAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[CompilerGeneratedAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[IsReadOnlyAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	public uint get_Id() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Id(uint value) { }
 
 	public bool Equals(Connection other) { }
@@ -1455,7 +1455,7 @@ public class NetWrite : MemoryStream // TypeDefIndex: 6696
 
 public class Networkable : Pool.IPooled // TypeDefIndex: 6700
 {	public uint ID; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Connection <connection>k__BackingField; // 0x18
 	public Group group; // 0x20
 	public Group secondaryGroup; // 0x28
@@ -1468,10 +1468,10 @@ public class Networkable : Pool.IPooled // TypeDefIndex: 6700
 	public Connection connection { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Connection get_connection() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_connection(Connection value) { }
 
 	public void Destroy() { }
@@ -1576,9 +1576,9 @@ private class QueuedStream.WriteData // TypeDefIndex: 6917
 
 private class QueuedStream.QueuedWriteResult : IAsyncResult // TypeDefIndex: 6918
 {	private readonly object _state; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Exception <Exception>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IAsyncResult <ActualResult>k__BackingField; // 0x20
 
 	public Exception Exception { get; set; }
@@ -1591,16 +1591,16 @@ private class QueuedStream.QueuedWriteResult : IAsyncResult // TypeDefIndex: 691
 
 	public void .ctor(object state) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Exception get_Exception() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Exception(Exception value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public IAsyncResult get_ActualResult() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_ActualResult(IAsyncResult value) { }
 
 	public object get_AsyncState() { }
@@ -1717,7 +1717,7 @@ internal sealed class NetProtect : INetProtect // TypeDefIndex: 7165
 }
 
 public class Net // TypeDefIndex: 8228
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Client <cl>k__BackingField; // 0x0
 	public static Client ClientNetwork; // 0x8
 	public static DemoClient DemoClientNetwork; // 0x10
@@ -1725,10 +1725,10 @@ public class Net // TypeDefIndex: 8228
 	public static Client cl { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static Client get_cl() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void set_cl(Client value) { }
 
 	public static void ClientInit(Client newclient) { }
@@ -1793,7 +1793,7 @@ public class NetworkVisibilityGrid : MonoBehaviour // TypeDefIndex: 10239
 {	public int startID; // 0x18
 	public int gridSize; // 0x1C
 	public int cellCount; // 0x20
-	[FormerlySerializedAsAttribute] // RVA: 0xBF320 Offset: 0xBE720 VA: 0x1800BF320
+	[FormerlySerializedAsAttribute] // RVA: 0xBF400 Offset: 0xBE800 VA: 0x1800BF400
 	public int visibilityRadiusFar; // 0x24
 	public int visibilityRadiusNear; // 0x28
 	public float switchTolerance; // 0x2C
@@ -1803,19 +1803,19 @@ public class NetworkVisibilityGrid : MonoBehaviour // TypeDefIndex: 10239
 
 }
 
-public class ConnectionAuth : MonoBehaviour // TypeDefIndex: 10709
+public class ConnectionAuth : MonoBehaviour // TypeDefIndex: 10713
 {
 	public void .ctor() { }
 
 }
 
-public class ConnectionQueue // TypeDefIndex: 10710
+public class ConnectionQueue // TypeDefIndex: 10714
 {
 	public void .ctor() { }
 
 }
 
-public class ConnectionScreen : SingletonComponent<ConnectionScreen> // TypeDefIndex: 11096
+public class ConnectionScreen : SingletonComponent<ConnectionScreen> // TypeDefIndex: 11100
 {	public Text statusText; // 0x18
 	public GameObject disconnectButton; // 0x20
 	public GameObject retryButton; // 0x28
@@ -1838,10 +1838,10 @@ public class ConnectionScreen : SingletonComponent<ConnectionScreen> // TypeDefI
 
 	public void RetryConnection() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x960C0 Offset: 0x954C0 VA: 0x1800960C0
+	[AsyncStateMachineAttribute] // RVA: 0x962D0 Offset: 0x956D0 VA: 0x1800962D0
 	public static void LoadServerInfo(string address, int port, bool addToHistory = False) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x96220 Offset: 0x95620 VA: 0x180096220
+	[AsyncStateMachineAttribute] // RVA: 0x96470 Offset: 0x95870 VA: 0x180096470
 	private static void LoadServerRules() { }
 
 	private static void OnServerInfoChanged() { }
@@ -1850,7 +1850,7 @@ public class ConnectionScreen : SingletonComponent<ConnectionScreen> // TypeDefI
 
 }
 
-private struct ConnectionScreen.<LoadServerInfo>d__13 : IAsyncStateMachine // TypeDefIndex: 11097
+private struct ConnectionScreen.<LoadServerInfo>d__13 : IAsyncStateMachine // TypeDefIndex: 11101
 {	public int <>1__state; // 0x0
 	public AsyncVoidMethodBuilder <>t__builder; // 0x8
 	public string address; // 0x28
@@ -1861,12 +1861,12 @@ private struct ConnectionScreen.<LoadServerInfo>d__13 : IAsyncStateMachine // Ty
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-private struct ConnectionScreen.<LoadServerRules>d__14 : IAsyncStateMachine // TypeDefIndex: 11098
+private struct ConnectionScreen.<LoadServerRules>d__14 : IAsyncStateMachine // TypeDefIndex: 11102
 {	public int <>1__state; // 0x0
 	public AsyncVoidMethodBuilder <>t__builder; // 0x8
 	private TaskAwaiter<Dictionary<string, string>> <>u__1; // 0x28
@@ -1874,12 +1874,12 @@ private struct ConnectionScreen.<LoadServerRules>d__14 : IAsyncStateMachine // T
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-public class NetworkSleep : MonoBehaviour // TypeDefIndex: 11322
+public class NetworkSleep : MonoBehaviour // TypeDefIndex: 11326
 {	public static int totalBehavioursDisabled; // 0x0
 	public static int totalCollidersDisabled; // 0x4
 	public Behaviour[] behaviours; // 0x18
@@ -1894,9 +1894,9 @@ public class NetworkSleep : MonoBehaviour // TypeDefIndex: 11322
 
 }
 
-public static class NetworkWriteEx // TypeDefIndex: 11348
+public static class NetworkWriteEx // TypeDefIndex: 11352
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void WriteObject<T>(NetWrite write, T obj) { }
 	/* GenericInstMethod :
 	|
@@ -1925,7 +1925,7 @@ public static class NetworkWriteEx // TypeDefIndex: 11348
 
 }
 
-public class NetworkedProperty<T> // TypeDefIndex: 11430
+public class NetworkedProperty<T> // TypeDefIndex: 11434
 {	private T val; // 0x0
 	private BaseEntity entity; // 0x0
 
@@ -1964,7 +1964,7 @@ public class NetworkedProperty<T> // TypeDefIndex: 11430
 
 }
 
-public sealed class ProxyArray : Variant, IEnumerable<Variant>, IEnumerable // TypeDefIndex: 11583
+public sealed class ProxyArray : Variant, IEnumerable<Variant>, IEnumerable // TypeDefIndex: 11587
 {	private readonly List<Variant> list; // 0x10
 
 	public override Variant Item { get; set; }
@@ -1991,7 +1991,7 @@ public sealed class ProxyArray : Variant, IEnumerable<Variant>, IEnumerable // T
 
 }
 
-public sealed class ProxyBoolean : Variant // TypeDefIndex: 11584
+public sealed class ProxyBoolean : Variant // TypeDefIndex: 11588
 {	private readonly bool value; // 0x10
 
 
@@ -2003,7 +2003,7 @@ public sealed class ProxyBoolean : Variant // TypeDefIndex: 11584
 
 }
 
-public sealed class ProxyNumber : Variant // TypeDefIndex: 11585
+public sealed class ProxyNumber : Variant // TypeDefIndex: 11589
 {	private static readonly char[] floatingPointCharacters; // 0x0
 	private readonly IConvertible value; // 0x10
 
@@ -2044,7 +2044,7 @@ public sealed class ProxyNumber : Variant // TypeDefIndex: 11585
 
 }
 
-public sealed class ProxyObject : Variant, IEnumerable<KeyValuePair<string, Variant>>, IEnumerable // TypeDefIndex: 11586
+public sealed class ProxyObject : Variant, IEnumerable<KeyValuePair<string, Variant>>, IEnumerable // TypeDefIndex: 11590
 {	public const string TypeHintKey = "@type";
 	private readonly Dictionary<string, Variant> dict; // 0x10
 
@@ -2079,7 +2079,7 @@ public sealed class ProxyObject : Variant, IEnumerable<KeyValuePair<string, Vari
 
 }
 
-public sealed class ProxyString : Variant // TypeDefIndex: 11587
+public sealed class ProxyString : Variant // TypeDefIndex: 11591
 {	private readonly string value; // 0x10
 
 
@@ -2089,7 +2089,7 @@ public sealed class ProxyString : Variant // TypeDefIndex: 11587
 
 }
 
-public class ConnectionLimiter // TypeDefIndex: 11645
+public class ConnectionLimiter // TypeDefIndex: 11649
 {	private readonly object _sync; // 0x10
 	private readonly Dictionary<IPAddress, int> _addressCounts; // 0x18
 	private int _overallCount; // 0x20
@@ -2107,7 +2107,7 @@ public class ConnectionLimiter // TypeDefIndex: 11645
 
 }
 
-private sealed class ConnectionLimiter.<>c // TypeDefIndex: 11646
+private sealed class ConnectionLimiter.<>c // TypeDefIndex: 11650
 {	public static readonly ConnectionLimiter.<>c <>9; // 0x0
 	public static Func<KeyValuePair<IPAddress, int>, int> <>9__7_0; // 0x8
 
@@ -2120,24 +2120,24 @@ private sealed class ConnectionLimiter.<>c // TypeDefIndex: 11646
 
 }
 
-public static class NetworkPacketEx // TypeDefIndex: 11703
+public static class NetworkPacketEx // TypeDefIndex: 11707
 {
-[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-public static class NetworkPacketEx // TypeDefIndex: 11703
+[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
+public static class NetworkPacketEx // TypeDefIndex: 11707
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static BasePlayer Player(Message v) { }
 
 }
 
-public class Net : ConsoleSystem // TypeDefIndex: 11947
-{	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
+public class Net : ConsoleSystem // TypeDefIndex: 11951
+{	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
 	public static bool visdebug; // 0x0
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool debug; // 0x1
-	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
+	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
 	public static int visibilityRadiusFarOverride; // 0x4
-	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
+	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
 	public static int visibilityRadiusNearOverride; // 0x8
 
 
@@ -2147,14 +2147,14 @@ public class Net : ConsoleSystem // TypeDefIndex: 11947
 
 }
 
-public class Netgraph : ConsoleSystem // TypeDefIndex: 11948
-{	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+public class Netgraph : ConsoleSystem // TypeDefIndex: 11952
+{	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool enabled; // 0x0
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float updatespeed; // 0x4
-	[ClientVar] // RVA: 0x89230 Offset: 0x88630 VA: 0x180089230
+	[ClientVar] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
 	public static string typefilter; // 0x8
-	[ClientVar] // RVA: 0x89230 Offset: 0x88630 VA: 0x180089230
+	[ClientVar] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
 	public static string entityfilter; // 0x10
 
 

@@ -1,5 +1,5 @@
 internal class DigestClient : IAuthenticationModule // TypeDefIndex: 2994
-{	private static readonly Hashtable cache; // 0x2B1047C
+{	private static readonly Hashtable cache; // 0x13850
 
 	private static Hashtable Cache { get; }
 	public string AuthenticationType { get; }

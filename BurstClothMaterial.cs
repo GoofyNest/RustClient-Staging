@@ -1,27 +1,27 @@
 public class BurstClothMaterial : ScriptableObject // TypeDefIndex: 7312
-{	[SerializeField] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
-	[RangeAttribute] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
+{	[SerializeField] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
+	[RangeAttribute] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
 	private float _damping; // 0x18
-	[SerializeField] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
-	[BurstClothCurveRectAttribute] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
+	[SerializeField] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
+	[BurstClothCurveRectAttribute] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
 	private AnimationCurve _dampingCurve; // 0x20
-	[SerializeField] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
-	[RangeAttribute] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
+	[SerializeField] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
+	[RangeAttribute] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
 	private float _stiffness; // 0x28
-	[SerializeField] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
-	[BurstClothCurveRectAttribute] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
+	[SerializeField] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
+	[BurstClothCurveRectAttribute] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
 	private AnimationCurve _stiffnessCurve; // 0x30
-	[SerializeField] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
-	[RangeAttribute] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
+	[SerializeField] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
+	[RangeAttribute] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
 	private float _resistance; // 0x38
-	[SerializeField] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
-	[BurstClothCurveRectAttribute] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
+	[SerializeField] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
+	[BurstClothCurveRectAttribute] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
 	private AnimationCurve _resistanceCurve; // 0x40
-	[SerializeField] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
-	[RangeAttribute] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
+	[SerializeField] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
+	[RangeAttribute] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
 	private float _slackness; // 0x48
-	[SerializeField] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
-	[BurstClothCurveRectAttribute] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
+	[SerializeField] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
+	[BurstClothCurveRectAttribute] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
 	private AnimationCurve _slacknessCurve; // 0x50
 	private static BurstClothMaterial _defaultMaterial; // 0x0
 

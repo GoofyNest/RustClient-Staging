@@ -1,5 +1,5 @@
 internal sealed class ObjectEqualityComparer : IEqualityComparer // TypeDefIndex: 1461
-{	internal static readonly ObjectEqualityComparer Default; // 0x13E80
+{	internal static readonly ObjectEqualityComparer Default; // 0x13348
 
 
 	private void .ctor() { }

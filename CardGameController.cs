@@ -1,17 +1,17 @@
-public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public abstract class CardGameController : IDisposable // TypeDefIndex: 12012
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CardGameController.CardGameState <State>k__BackingField; // 0x10
 	public const int IDLE_KICK_SECONDS = 600;
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CardTable <Owner>k__BackingField; // 0x18
 	protected CardPlayerData[] playerData; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CardTable.WinnerBreakdown <winnerInfo>k__BackingField; // 0x28
 	protected CardTable.CardList localPlayerCards; // 0x30
 	private CardGameSounds _sounds; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TimeUntil <TimeUntilTurnEnds>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <ClientScrapInPot>k__BackingField; // 0x44
 
 	public CardGameController.CardGameState State { get; set; }
@@ -33,10 +33,10 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 	public int ClientScrapInPot { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public CardGameController.CardGameState get_State() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_State(CardGameController.CardGameState value) { }
 
 	public bool get_HasGameInProgress() { }
@@ -53,10 +53,10 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 
 	public virtual int get_TimeBetweenRounds() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected CardTable get_Owner() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Owner(CardTable value) { }
 
 	protected int get_ScrapItemID() { }
@@ -65,10 +65,10 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 
 	protected bool get_IsClient() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public CardTable.WinnerBreakdown get_winnerInfo() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_winnerInfo(CardTable.WinnerBreakdown value) { }
 
 	public void .ctor(CardTable owner) { }
@@ -113,16 +113,16 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 
 	public bool get_GameWon() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public TimeUntil get_TimeUntilTurnEnds() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_TimeUntilTurnEnds(TimeUntil value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_ClientScrapInPot() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_ClientScrapInPot(int value) { }
 
 	public virtual void Load(CardTable syncData) { }
@@ -145,7 +145,7 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 12008
 
 }
 
-public enum CardGameController.CardGameState // TypeDefIndex: 12009
+public enum CardGameController.CardGameState // TypeDefIndex: 12013
 {	public int value__; // 0x0
 	public const CardGameController.CardGameState NotPlaying = 0;
 	public const CardGameController.CardGameState InGameBetweenRounds = 1;
@@ -153,7 +153,7 @@ public enum CardGameController.CardGameState // TypeDefIndex: 12009
 
 }
 
-private sealed class CardGameController.<>c__DisplayClass44_0 // TypeDefIndex: 12010
+private sealed class CardGameController.<>c__DisplayClass44_0 // TypeDefIndex: 12014
 {	public BasePlayer player; // 0x10
 
 
@@ -163,7 +163,7 @@ private sealed class CardGameController.<>c__DisplayClass44_0 // TypeDefIndex: 1
 
 }
 
-private sealed class CardGameController.<>c__DisplayClass48_0 // TypeDefIndex: 12011
+private sealed class CardGameController.<>c__DisplayClass48_0 // TypeDefIndex: 12015
 {	public ulong userID; // 0x10
 
 

@@ -1,5 +1,5 @@
 public static class GC // TypeDefIndex: 224
-{	internal static readonly object EPHEMERON_TOMBSTONE; // 0x2B10370
+{	internal static readonly object EPHEMERON_TOMBSTONE; // 0x12F00
 
 	public static int MaxGeneration { get; }
 
@@ -22,18 +22,18 @@ public static class GC // TypeDefIndex: 224
 
 	public static void Collect() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static int CollectionCount(int generation) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static void KeepAlive(object obj) { }
 
 	public static int get_MaxGeneration() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	private static void _SuppressFinalize(object o) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static void SuppressFinalize(object obj) { }
 
 	private static void _ReRegisterForFinalize(object o) { }
@@ -46,23 +46,23 @@ public static class GC // TypeDefIndex: 224
 
 }
 
-public class GC : ConsoleSystem // TypeDefIndex: 11925
-{	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+public class GC : ConsoleSystem // TypeDefIndex: 11929
+{	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool buffer_enabled; // 0x0
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static int debuglevel; // 0x4
 	private static int m_buffer; // 0x8
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static int buffer { get; set; }
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static bool incremental_enabled { get; set; }
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static int incremental_milliseconds { get; set; }
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static bool enabled { get; set; }
 
 
@@ -82,16 +82,16 @@ public class GC : ConsoleSystem // TypeDefIndex: 11925
 
 	public static void set_enabled(bool value) { }
 
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static void collect() { }
 
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static void unload() { }
 
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static void alloc(ConsoleSystem.Arg args) { }
 
 	public void .ctor() { }
@@ -100,7 +100,7 @@ public class GC : ConsoleSystem // TypeDefIndex: 11925
 
 }
 
-public class GC : MonoBehaviour, IClientComponent // TypeDefIndex: 12029
+public class GC : MonoBehaviour, IClientComponent // TypeDefIndex: 12033
 {	private static float gcTime; // 0x0
 	private static GarbageCollector.Mode gcMode; // 0x4
 	private int heapSize; // 0x18

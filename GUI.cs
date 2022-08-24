@@ -8,15 +8,15 @@ public class GUI // TypeDefIndex: 4030
 	private static readonly int s_SliderHash; // 0x18
 	private static readonly int s_BeginGroupHash; // 0x1C
 	private static readonly int s_ScrollviewHash; // 0x20
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private static int <scrollTroughSide>k__BackingField; // 0x24
-	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
 	private static DateTime <nextScrollStepTime>k__BackingField; // 0x28
 	private static GUISkin s_Skin; // 0x30
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private static GenericStack <scrollViewStates>k__BackingField; // 0x38
 
 	public static Color color { get; set; }
@@ -58,16 +58,16 @@ public class GUI // TypeDefIndex: 4030
 
 	internal static bool get_usePageScrollbars() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCA9A0 Offset: 0xC9DA0 VA: 0x1800CA9A0
+	[FreeFunctionAttribute] // RVA: 0xCAAD0 Offset: 0xC9ED0 VA: 0x1800CAAD0
 	internal static Material get_blendMaterial() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAA00 Offset: 0xC9E00 VA: 0x1800CAA00
+	[FreeFunctionAttribute] // RVA: 0xCAB30 Offset: 0xC9F30 VA: 0x1800CAB30
 	internal static Material get_blitMaterial() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAA70 Offset: 0xC9E70 VA: 0x1800CAA70
+	[FreeFunctionAttribute] // RVA: 0xCABA0 Offset: 0xC9FA0 VA: 0x1800CABA0
 	internal static Material get_roundedRectMaterial() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCACC0 Offset: 0xCA0C0 VA: 0x1800CACC0
+	[FreeFunctionAttribute] // RVA: 0xCAD50 Offset: 0xCA150 VA: 0x1800CAD50
 	internal static Material get_roundedRectWithColorPerBorderMaterial() { }
 
 	internal static void GrabMouseControl(int id) { }
@@ -76,23 +76,23 @@ public class GUI // TypeDefIndex: 4030
 
 	internal static void ReleaseMouseControl() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAE40 Offset: 0xCA240 VA: 0x1800CAE40
+	[FreeFunctionAttribute] // RVA: 0xCAED0 Offset: 0xCA2D0 VA: 0x1800CAED0
 	public static void SetNextControlName(string name) { }
 
 	internal static void InternalRepaintEditorWindow() { }
 
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static int get_scrollTroughSide() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void set_scrollTroughSide(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static DateTime get_nextScrollStepTime() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void set_nextScrollStepTime(DateTime value) { }
 
 	public static void set_skin(GUISkin value) { }
@@ -185,10 +185,10 @@ public class GUI // TypeDefIndex: 4030
 
 	public static void EndGroup() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static GenericStack get_scrollViewStates() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void CallWindowDelegate(GUI.WindowFunction func, int id, int instanceID, GUISkin _skin, int forceRect, float width, float height, GUIStyle style) { }
 
 	private static void get_color_Injected(out Color ret) { }

@@ -1,6 +1,6 @@
 public abstract class MidiEvent // TypeDefIndex: 7517
 {	internal long _deltaTime; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly MidiEventType <EventType>k__BackingField; // 0x18
 
 	public MidiEventType EventType { get; }
@@ -9,7 +9,7 @@ public abstract class MidiEvent // TypeDefIndex: 7517
 
 	public void .ctor(MidiEventType eventType) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public MidiEventType get_EventType() { }
 
 	public long get_DeltaTime() { }

@@ -125,7 +125,7 @@ internal sealed class TextWriter.SyncTextWriter : TextWriter, IDisposable // Typ
 }
 
 private sealed class TextWriter.<>c // TypeDefIndex: 658
-{	public static readonly TextWriter.<>c <>9; // 0x13BC0
+{	public static readonly TextWriter.<>c <>9; // 0x13032
 
 
 	private static void .cctor() { }

@@ -1,9 +1,9 @@
 public class BlurOptimized : PostEffectsBase, IImageEffect // TypeDefIndex: 8166
-{	[RangeAttribute] // RVA: 0x71350 Offset: 0x70750 VA: 0x180071350
+{	[RangeAttribute] // RVA: 0x715C0 Offset: 0x709C0 VA: 0x1800715C0
 	public int downsample; // 0x28
-	[RangeAttribute] // RVA: 0x98320 Offset: 0x97720 VA: 0x180098320
+	[RangeAttribute] // RVA: 0x983A0 Offset: 0x977A0 VA: 0x1800983A0
 	public float blurSize; // 0x2C
-	[RangeAttribute] // RVA: 0x97CA0 Offset: 0x970A0 VA: 0x180097CA0
+	[RangeAttribute] // RVA: 0x97DA0 Offset: 0x971A0 VA: 0x180097DA0
 	public int blurIterations; // 0x30
 	public float fadeToBlurDistance; // 0x34
 	public BlurOptimized.BlurType blurType; // 0x38
@@ -31,11 +31,11 @@ public enum BlurOptimized.BlurType // TypeDefIndex: 8167
 }
 
 public class BlurOptimized : PostProcessEffectSettings // TypeDefIndex: 10243
-{	[RangeAttribute] // RVA: 0x71350 Offset: 0x70750 VA: 0x180071350
+{	[RangeAttribute] // RVA: 0x715C0 Offset: 0x709C0 VA: 0x1800715C0
 	public FixedIntParameter downsample; // 0x30
-	[RangeAttribute] // RVA: 0x97CA0 Offset: 0x970A0 VA: 0x180097CA0
+	[RangeAttribute] // RVA: 0x97DA0 Offset: 0x971A0 VA: 0x180097DA0
 	public FixedIntParameter blurIterations; // 0x38
-	[RangeAttribute] // RVA: 0x98320 Offset: 0x97720 VA: 0x180098320
+	[RangeAttribute] // RVA: 0x983A0 Offset: 0x977A0 VA: 0x1800983A0
 	public FloatParameter blurSize; // 0x40
 	public FloatParameter fadeToBlurDistance; // 0x48
 	public BlurTypeParameter blurType; // 0x50

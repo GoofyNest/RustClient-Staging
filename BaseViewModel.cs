@@ -1,8 +1,8 @@
-public class BaseViewModel : MonoBehaviour // TypeDefIndex: 11436
+public class BaseViewModel : MonoBehaviour // TypeDefIndex: 11440
 {	public static bool HideViewmodel; // 0x0
 	public static BaseViewModel GestureModel; // 0x8
 	public static List<BaseViewModel> ActiveModels; // 0x10
-	[HeaderAttribute] // RVA: 0xB0780 Offset: 0xAFB80 VA: 0x1800B0780
+	[HeaderAttribute] // RVA: 0xB0900 Offset: 0xAFD00 VA: 0x1800B0900
 	public LazyAimProperties lazyaimRegular; // 0x18
 	public LazyAimProperties lazyaimIronsights; // 0x20
 	public Transform pivot; // 0x28
@@ -11,7 +11,7 @@ public class BaseViewModel : MonoBehaviour // TypeDefIndex: 11436
 	public GameObject[] hideSightMeshes; // 0x38
 	public bool isGestureViewModel; // 0x40
 	public Transform MuzzlePoint; // 0x48
-	[HeaderAttribute] // RVA: 0x7F5E0 Offset: 0x7E9E0 VA: 0x18007F5E0
+	[HeaderAttribute] // RVA: 0x7F670 Offset: 0x7EA70 VA: 0x18007F670
 	public SubsurfaceProfile subsurfaceProfile; // 0x50
 	internal Animator animator; // 0x58
 	internal AnimationEvents animationEvent; // 0x60

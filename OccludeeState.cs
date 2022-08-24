@@ -1,4 +1,4 @@
-public class OccludeeState : OcclusionCulling.SmartListValue // TypeDefIndex: 11509
+public class OccludeeState : OcclusionCulling.SmartListValue // TypeDefIndex: 11513
 {	public int slot; // 0x18
 	public bool isStatic; // 0x1C
 	public int layer; // 0x20
@@ -21,7 +21,7 @@ public class OccludeeState : OcclusionCulling.SmartListValue // TypeDefIndex: 11
 
 }
 
-public struct OccludeeState.State // TypeDefIndex: 11510
+public struct OccludeeState.State // TypeDefIndex: 11514
 {	public Vector4 sphereBounds; // 0x0
 	public float minTimeVisible; // 0x10
 	public float waitTime; // 0x14

@@ -4,16 +4,16 @@ public class GregorianCalendar : Calendar // TypeDefIndex: 702
 	internal static readonly int[] DaysToMonth366; // 0x8
 	private static Calendar s_defaultInstance; // 0x10
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public override DateTime MinSupportedDateTime { get; }
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public override DateTime MaxSupportedDateTime { get; }
 	internal override int ID { get; }
 	public override int[] Eras { get; }
 	public override int TwoDigitYearMax { get; }
 
 
-	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnDeserializedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnDeserialized(StreamingContext ctx) { }
 
 	public override DateTime get_MinSupportedDateTime() { }

@@ -1,8 +1,8 @@
 public sealed class GameObject : Object // TypeDefIndex: 3515
 {
-[UsedByNativeCodeAttribute] // RVA: 0xBBF90 Offset: 0xBB390 VA: 0x1800BBF90
-[ExcludeFromPresetAttribute] // RVA: 0xBBF90 Offset: 0xBB390 VA: 0x1800BBF90
-[NativeHeaderAttribute] // RVA: 0xBBF90 Offset: 0xBB390 VA: 0x1800BBF90
+[UsedByNativeCodeAttribute] // RVA: 0xBC0E0 Offset: 0xBB4E0 VA: 0x1800BC0E0
+[ExcludeFromPresetAttribute] // RVA: 0xBC0E0 Offset: 0xBB4E0 VA: 0x1800BC0E0
+[NativeHeaderAttribute] // RVA: 0xBC0E0 Offset: 0xBB4E0 VA: 0x1800BC0E0
 public sealed class GameObject : Object // TypeDefIndex: 3515
 	public Transform transform { get; }
 	public int layer { get; set; }
@@ -13,7 +13,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	public GameObject gameObject { get; }
 
 
-	[FreeFunctionAttribute] // RVA: 0xBC2B0 Offset: 0xBB6B0 VA: 0x1800BC2B0
+	[FreeFunctionAttribute] // RVA: 0xBC400 Offset: 0xBB800 VA: 0x1800BC400
 	public static GameObject CreatePrimitive(PrimitiveType type) { }
 
 	public T GetComponent<T>() { }
@@ -212,19 +212,19 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	|-GameObject.GetComponent<object>
 	*/
 
-	[TypeInferenceRuleAttribute] // RVA: 0xBC3C0 Offset: 0xBB7C0 VA: 0x1800BC3C0
-	[FreeFunctionAttribute] // RVA: 0xBC3C0 Offset: 0xBB7C0 VA: 0x1800BC3C0
+	[FreeFunctionAttribute] // RVA: 0xBC510 Offset: 0xBB910 VA: 0x1800BC510
+	[TypeInferenceRuleAttribute] // RVA: 0xBC510 Offset: 0xBB910 VA: 0x1800BC510
 	public Component GetComponent(Type type) { }
 
-	[NativeWritableSelfAttribute] // RVA: 0xBC590 Offset: 0xBB990 VA: 0x1800BC590
-	[FreeFunctionAttribute] // RVA: 0xBC590 Offset: 0xBB990 VA: 0x1800BC590
+	[FreeFunctionAttribute] // RVA: 0xBC6E0 Offset: 0xBBAE0 VA: 0x1800BC6E0
+	[NativeWritableSelfAttribute] // RVA: 0xBC6E0 Offset: 0xBBAE0 VA: 0x1800BC6E0
 	internal void GetComponentFastPath(Type type, IntPtr oneFurtherThanResultValue) { }
 
-	[FreeFunctionAttribute] // RVA: 0xBDB60 Offset: 0xBCF60 VA: 0x1800BDB60
-	[TypeInferenceRuleAttribute] // RVA: 0xBDB60 Offset: 0xBCF60 VA: 0x1800BDB60
+	[FreeFunctionAttribute] // RVA: 0xBDC40 Offset: 0xBD040 VA: 0x1800BDC40
+	[TypeInferenceRuleAttribute] // RVA: 0xBDC40 Offset: 0xBD040 VA: 0x1800BDC40
 	public Component GetComponentInChildren(Type type, bool includeInactive) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public T GetComponentInChildren<T>() { }
 	/* GenericInstMethod :
 	|
@@ -256,8 +256,8 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	|-GameObject.GetComponentInChildren<object>
 	*/
 
-	[FreeFunctionAttribute] // RVA: 0xBDE20 Offset: 0xBD220 VA: 0x1800BDE20
-	[TypeInferenceRuleAttribute] // RVA: 0xBDE20 Offset: 0xBD220 VA: 0x1800BDE20
+	[FreeFunctionAttribute] // RVA: 0xBDF00 Offset: 0xBD300 VA: 0x1800BDF00
+	[TypeInferenceRuleAttribute] // RVA: 0xBDF00 Offset: 0xBD300 VA: 0x1800BDF00
 	public Component GetComponentInParent(Type type) { }
 
 	public T GetComponentInParent<T>() { }
@@ -277,7 +277,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	|-GameObject.GetComponentInParent<object>
 	*/
 
-	[FreeFunctionAttribute] // RVA: 0xBDFB0 Offset: 0xBD3B0 VA: 0x1800BDFB0
+	[FreeFunctionAttribute] // RVA: 0xBE090 Offset: 0xBD490 VA: 0x1800BE090
 	private Array GetComponentsInternal(Type type, bool useSearchTypeAsArrayReturnType, bool recursive, bool includeInactive, bool reverse, object resultList) { }
 
 	public Component[] GetComponents(Type type) { }
@@ -304,7 +304,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	|-GameObject.GetComponents<Component>
 	*/
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Component[] GetComponentsInChildren(Type type) { }
 
 	public Component[] GetComponentsInChildren(Type type, bool includeInactive) { }
@@ -419,18 +419,18 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	|-GameObject.TryGetComponent<Wearable>
 	*/
 
-	[FreeFunctionAttribute] // RVA: 0xBE390 Offset: 0xBD790 VA: 0x1800BE390
-	[NativeWritableSelfAttribute] // RVA: 0xBE390 Offset: 0xBD790 VA: 0x1800BE390
+	[FreeFunctionAttribute] // RVA: 0xBE430 Offset: 0xBD830 VA: 0x1800BE430
+	[NativeWritableSelfAttribute] // RVA: 0xBE430 Offset: 0xBD830 VA: 0x1800BE430
 	internal void TryGetComponentFastPath(Type type, IntPtr oneFurtherThanResultValue) { }
 
 	public void SendMessage(string methodName, SendMessageOptions options) { }
 
 	public void BroadcastMessage(string methodName, SendMessageOptions options) { }
 
-	[FreeFunctionAttribute] // RVA: 0xBE410 Offset: 0xBD810 VA: 0x1800BE410
+	[FreeFunctionAttribute] // RVA: 0xBE520 Offset: 0xBD920 VA: 0x1800BE520
 	private Component Internal_AddComponentWithType(Type componentType) { }
 
-	[TypeInferenceRuleAttribute] // RVA: 0xB9C80 Offset: 0xB9080 VA: 0x1800B9C80
+	[TypeInferenceRuleAttribute] // RVA: 0xB9DD0 Offset: 0xB91D0 VA: 0x1800B9DD0
 	public Component AddComponent(Type componentType) { }
 
 	public T AddComponent<T>() { }
@@ -550,50 +550,50 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 	|-GameObject.AddComponent<object>
 	*/
 
-	[FreeFunctionAttribute] // RVA: 0xBE4F0 Offset: 0xBD8F0 VA: 0x1800BE4F0
+	[FreeFunctionAttribute] // RVA: 0xBE650 Offset: 0xBDA50 VA: 0x1800BE650
 	public Transform get_transform() { }
 
 	public int get_layer() { }
 
 	public void set_layer(int value) { }
 
-	[NativeMethodAttribute] // RVA: 0xBE700 Offset: 0xBDB00 VA: 0x1800BE700
+	[NativeMethodAttribute] // RVA: 0xBE7F0 Offset: 0xBDBF0 VA: 0x1800BE7F0
 	public void SetActive(bool value) { }
 
-	[NativeMethodAttribute] // RVA: 0xBE780 Offset: 0xBDB80 VA: 0x1800BE780
+	[NativeMethodAttribute] // RVA: 0xBE870 Offset: 0xBDC70 VA: 0x1800BE870
 	public bool get_activeSelf() { }
 
-	[NativeMethodAttribute] // RVA: 0xBE900 Offset: 0xBDD00 VA: 0x1800BE900
+	[NativeMethodAttribute] // RVA: 0xBEA60 Offset: 0xBDE60 VA: 0x1800BEA60
 	public bool get_activeInHierarchy() { }
 
-	[NativeMethodAttribute] // RVA: 0xBEA40 Offset: 0xBDE40 VA: 0x1800BEA40
+	[NativeMethodAttribute] // RVA: 0xBEBA0 Offset: 0xBDFA0 VA: 0x1800BEBA0
 	public bool get_isStatic() { }
 
-	[NativeMethodAttribute] // RVA: 0xBEB90 Offset: 0xBDF90 VA: 0x1800BEB90
+	[NativeMethodAttribute] // RVA: 0xBECF0 Offset: 0xBE0F0 VA: 0x1800BECF0
 	public void set_isStatic(bool value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xBEC10 Offset: 0xBE010 VA: 0x1800BEC10
+	[FreeFunctionAttribute] // RVA: 0xBED70 Offset: 0xBE170 VA: 0x1800BED70
 	public string get_tag() { }
 
-	[FreeFunctionAttribute] // RVA: 0xBED10 Offset: 0xBE110 VA: 0x1800BED10
+	[FreeFunctionAttribute] // RVA: 0xBEE70 Offset: 0xBE270 VA: 0x1800BEE70
 	public void set_tag(string value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xBEDC0 Offset: 0xBE1C0 VA: 0x1800BEDC0
+	[FreeFunctionAttribute] // RVA: 0xBEF20 Offset: 0xBE320 VA: 0x1800BEF20
 	public bool CompareTag(string tag) { }
 
-	[FreeFunctionAttribute] // RVA: 0xBEEF0 Offset: 0xBE2F0 VA: 0x1800BEEF0
+	[FreeFunctionAttribute] // RVA: 0xBF050 Offset: 0xBE450 VA: 0x1800BF050
 	public void SendMessage(string methodName, object value, SendMessageOptions options) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void SendMessage(string methodName, object value) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void SendMessage(string methodName) { }
 
-	[FreeFunctionAttribute] // RVA: 0xBF0E0 Offset: 0xBE4E0 VA: 0x1800BF0E0
+	[FreeFunctionAttribute] // RVA: 0xBF1E0 Offset: 0xBE5E0 VA: 0x1800BF1E0
 	public void BroadcastMessage(string methodName, object parameter, SendMessageOptions options) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void BroadcastMessage(string methodName, object parameter) { }
 
 	public void .ctor(string name) { }
@@ -602,10 +602,10 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 
 	public void .ctor(string name, Type[] components) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC0710 Offset: 0xBFB10 VA: 0x1800C0710
+	[FreeFunctionAttribute] // RVA: 0xC0820 Offset: 0xBFC20 VA: 0x1800C0820
 	private static void Internal_CreateGameObject(GameObject self, string name) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC0870 Offset: 0xBFC70 VA: 0x1800C0870
+	[FreeFunctionAttribute] // RVA: 0xC0930 Offset: 0xBFD30 VA: 0x1800C0930
 	public static GameObject Find(string name) { }
 
 	public GameObject get_gameObject() { }

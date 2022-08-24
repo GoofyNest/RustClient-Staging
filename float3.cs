@@ -1,7 +1,7 @@
 public struct float3 : IEquatable<float3>, IFormattable // TypeDefIndex: 7103
 {
-[DebuggerTypeProxyAttribute] // RVA: 0x7D5C0 Offset: 0x7C9C0 VA: 0x18007D5C0
-[DefaultMemberAttribute] // RVA: 0x7D5C0 Offset: 0x7C9C0 VA: 0x18007D5C0
+[DebuggerTypeProxyAttribute] // RVA: 0x7D6A0 Offset: 0x7CAA0 VA: 0x18007D6A0
+[DefaultMemberAttribute] // RVA: 0x7D6A0 Offset: 0x7CAA0 VA: 0x18007D6A0
 [Serializable]
 public struct float3 : IEquatable<float3>, IFormattable // TypeDefIndex: 7103
 	public float x; // 0x0
@@ -9,7 +9,7 @@ public struct float3 : IEquatable<float3>, IFormattable // TypeDefIndex: 7103
 	public float z; // 0x8
 	public static readonly float3 zero; // 0x0
 
-	[EditorBrowsableAttribute] // RVA: 0x7D7C0 Offset: 0x7CBC0 VA: 0x18007D7C0
+	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
 	public float3 yzx { get; }
 
 

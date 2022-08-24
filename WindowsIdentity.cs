@@ -15,7 +15,7 @@ public class WindowsIdentity : ClaimsIdentity, IIdentity, IDeserializationCallba
 
 	public void .ctor(SerializationInfo info, StreamingContext context) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public void Dispose() { }
 
 	public static WindowsIdentity GetCurrent() { }

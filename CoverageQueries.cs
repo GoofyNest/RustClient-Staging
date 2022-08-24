@@ -1,4 +1,4 @@
-public class CoverageQueries : MonoBehaviour // TypeDefIndex: 11479
+public class CoverageQueries : MonoBehaviour // TypeDefIndex: 11483
 {	public bool debug; // 0x18
 	public float depthBias; // 0x1C
 	private static List<CoverageQueries.Query> pool; // 0x0
@@ -56,7 +56,7 @@ public class CoverageQueries : MonoBehaviour // TypeDefIndex: 11479
 
 }
 
-public class CoverageQueries.BufferSet // TypeDefIndex: 11480
+public class CoverageQueries.BufferSet // TypeDefIndex: 11484
 {	public int width; // 0x10
 	public int height; // 0x14
 	public Texture2D inputTexture; // 0x18
@@ -86,14 +86,14 @@ public class CoverageQueries.BufferSet // TypeDefIndex: 11480
 
 }
 
-public enum CoverageQueries.RadiusSpace // TypeDefIndex: 11481
+public enum CoverageQueries.RadiusSpace // TypeDefIndex: 11485
 {	public int value__; // 0x0
 	public const CoverageQueries.RadiusSpace ScreenNormalized = 0;
 	public const CoverageQueries.RadiusSpace World = 1;
 
 }
 
-public class CoverageQueries.Query // TypeDefIndex: 11482
+public class CoverageQueries.Query // TypeDefIndex: 11486
 {	public CoverageQueries.Query.Input input; // 0x10
 	public CoverageQueries.Query.Internal intern; // 0x2C
 	public CoverageQueries.Query.Result result; // 0x30
@@ -121,7 +121,7 @@ public class CoverageQueries.Query // TypeDefIndex: 11482
 
 }
 
-public struct CoverageQueries.Query.Input // TypeDefIndex: 11483
+public struct CoverageQueries.Query.Input // TypeDefIndex: 11487
 {	public Vector3 position; // 0x0
 	public CoverageQueries.RadiusSpace radiusSpace; // 0xC
 	public float radius; // 0x10
@@ -130,7 +130,7 @@ public struct CoverageQueries.Query.Input // TypeDefIndex: 11483
 
 }
 
-public struct CoverageQueries.Query.Internal // TypeDefIndex: 11484
+public struct CoverageQueries.Query.Internal // TypeDefIndex: 11488
 {	public int id; // 0x0
 
 
@@ -138,7 +138,7 @@ public struct CoverageQueries.Query.Internal // TypeDefIndex: 11484
 
 }
 
-public struct CoverageQueries.Query.Result // TypeDefIndex: 11485
+public struct CoverageQueries.Query.Result // TypeDefIndex: 11489
 {	public int passed; // 0x0
 	public float coverage; // 0x4
 	public float smoothCoverage; // 0x8

@@ -12,8 +12,8 @@ private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=176 // T
 
 internal class <Module> // TypeDefIndex: 4443
 
-[NativeHeaderAttribute] // RVA: 0xB3720 Offset: 0xB2B20 VA: 0x1800B3720
-[MovedFromAttribute] // RVA: 0xB3720 Offset: 0xB2B20 VA: 0x1800B3720
+[NativeHeaderAttribute] // RVA: 0xB3770 Offset: 0xB2B70 VA: 0x1800B3770
+[MovedFromAttribute] // RVA: 0xB3770 Offset: 0xB2B70 VA: 0x1800B3770
 public sealed class NavMeshPath // TypeDefIndex: 4444
 	internal IntPtr m_Ptr; // 0x10
 	internal Vector3[] m_Corners; // 0x18
@@ -48,14 +48,14 @@ public sealed class NavMeshAgent : Behaviour // TypeDefIndex: 4446
 {	public bool isOnOffMeshLink { get; }
 
 
-	[NativeNameAttribute] // RVA: 0xB3DA0 Offset: 0xB31A0 VA: 0x1800B3DA0
+	[NativeNameAttribute] // RVA: 0xB3E20 Offset: 0xB3220 VA: 0x1800B3E20
 	public bool get_isOnOffMeshLink() { }
 
 }
 
 public struct NavMeshHit // TypeDefIndex: 4448
 {
-[MovedFromAttribute] // RVA: 0xB3F20 Offset: 0xB3320 VA: 0x1800B3F20
+[MovedFromAttribute] // RVA: 0xB3FD0 Offset: 0xB33D0 VA: 0x1800B3FD0
 public struct NavMeshHit // TypeDefIndex: 4448
 	private Vector3 m_Position; // 0x0
 	private Vector3 m_Normal; // 0xC
@@ -80,7 +80,7 @@ public sealed class NavMeshData : Object // TypeDefIndex: 4449
 
 	public void .ctor(int agentTypeID) { }
 
-	[StaticAccessorAttribute] // RVA: 0xB4070 Offset: 0xB3470 VA: 0x1800B4070
+	[StaticAccessorAttribute] // RVA: 0xB4120 Offset: 0xB3520 VA: 0x1800B4120
 	private static void Internal_Create(NavMeshData mono, int agentTypeID) { }
 
 	public void set_position(Vector3 value) { }
@@ -94,8 +94,8 @@ public sealed class NavMeshData : Object // TypeDefIndex: 4449
 }
 
 public struct NavMeshDataInstance // TypeDefIndex: 4450
-{	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+{	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private int <id>k__BackingField; // 0x0
 
 	public bool valid { get; }
@@ -105,10 +105,10 @@ public struct NavMeshDataInstance // TypeDefIndex: 4450
 
 	public bool get_valid() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal int get_id() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_id(int value) { }
 
 	public void Remove() { }
@@ -152,8 +152,8 @@ public struct NavMeshLinkData // TypeDefIndex: 4451
 }
 
 public struct NavMeshLinkInstance // TypeDefIndex: 4452
-{	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
 	private int <id>k__BackingField; // 0x0
 
 	public bool valid { get; }
@@ -163,10 +163,10 @@ public struct NavMeshLinkInstance // TypeDefIndex: 4452
 
 	public bool get_valid() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal int get_id() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_id(int value) { }
 
 	public void Remove() { }
@@ -177,64 +177,64 @@ public struct NavMeshLinkInstance // TypeDefIndex: 4452
 
 public struct NavMeshQueryFilter // TypeDefIndex: 4453
 {	private const int k_AreaCostElementCount = 32;
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private float[] <costs>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private int <areaMask>k__BackingField; // 0x8
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private int <agentTypeID>k__BackingField; // 0xC
 
 }
 
 public static class NavMesh // TypeDefIndex: 4454
-{	public static NavMesh.OnNavMeshPreUpdate onPreUpdate; // 0x2B10510
+{	public static NavMesh.OnNavMeshPreUpdate onPreUpdate; // 0x126D0
 
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void Internal_CallOnNavMeshPreUpdate() { }
 
 	public static NavMeshDataInstance AddNavMeshData(NavMeshData navMeshData) { }
 
 	public static NavMeshDataInstance AddNavMeshData(NavMeshData navMeshData, Vector3 position, Quaternion rotation) { }
 
-	[StaticAccessorAttribute] // RVA: 0xB4C40 Offset: 0xB4040 VA: 0x1800B4C40
-	[NativeNameAttribute] // RVA: 0xB4C40 Offset: 0xB4040 VA: 0x1800B4C40
+	[StaticAccessorAttribute] // RVA: 0xB4D50 Offset: 0xB4150 VA: 0x1800B4D50
+	[NativeNameAttribute] // RVA: 0xB4D50 Offset: 0xB4150 VA: 0x1800B4D50
 	internal static bool IsValidNavMeshDataHandle(int handle) { }
 
-	[StaticAccessorAttribute] // RVA: 0xB4EC0 Offset: 0xB42C0 VA: 0x1800B4EC0
+	[StaticAccessorAttribute] // RVA: 0xB4F30 Offset: 0xB4330 VA: 0x1800B4F30
 	internal static bool IsValidLinkHandle(int handle) { }
 
-	[StaticAccessorAttribute] // RVA: 0xB6320 Offset: 0xB5720 VA: 0x1800B6320
-	[NativeNameAttribute] // RVA: 0xB6320 Offset: 0xB5720 VA: 0x1800B6320
+	[StaticAccessorAttribute] // RVA: 0xB6390 Offset: 0xB5790 VA: 0x1800B6390
+	[NativeNameAttribute] // RVA: 0xB6390 Offset: 0xB5790 VA: 0x1800B6390
 	internal static bool InternalSetOwner(int dataID, int ownerID) { }
 
-	[StaticAccessorAttribute] // RVA: 0xB6560 Offset: 0xB5960 VA: 0x1800B6560
-	[NativeNameAttribute] // RVA: 0xB6560 Offset: 0xB5960 VA: 0x1800B6560
+	[StaticAccessorAttribute] // RVA: 0xB6640 Offset: 0xB5A40 VA: 0x1800B6640
+	[NativeNameAttribute] // RVA: 0xB6640 Offset: 0xB5A40 VA: 0x1800B6640
 	internal static bool InternalSetLinkOwner(int linkID, int ownerID) { }
 
-	[StaticAccessorAttribute] // RVA: 0xB67D0 Offset: 0xB5BD0 VA: 0x1800B67D0
-	[NativeNameAttribute] // RVA: 0xB67D0 Offset: 0xB5BD0 VA: 0x1800B67D0
+	[StaticAccessorAttribute] // RVA: 0xB6810 Offset: 0xB5C10 VA: 0x1800B6810
+	[NativeNameAttribute] // RVA: 0xB6810 Offset: 0xB5C10 VA: 0x1800B6810
 	internal static int AddNavMeshDataInternal(NavMeshData navMeshData) { }
 
-	[StaticAccessorAttribute] // RVA: 0xB67D0 Offset: 0xB5BD0 VA: 0x1800B67D0
-	[NativeNameAttribute] // RVA: 0xB67D0 Offset: 0xB5BD0 VA: 0x1800B67D0
+	[StaticAccessorAttribute] // RVA: 0xB6810 Offset: 0xB5C10 VA: 0x1800B6810
+	[NativeNameAttribute] // RVA: 0xB6810 Offset: 0xB5C10 VA: 0x1800B6810
 	internal static int AddNavMeshDataTransformedInternal(NavMeshData navMeshData, Vector3 position, Quaternion rotation) { }
 
-	[NativeNameAttribute] // RVA: 0xB6A50 Offset: 0xB5E50 VA: 0x1800B6A50
-	[StaticAccessorAttribute] // RVA: 0xB6A50 Offset: 0xB5E50 VA: 0x1800B6A50
+	[NativeNameAttribute] // RVA: 0xB6B60 Offset: 0xB5F60 VA: 0x1800B6B60
+	[StaticAccessorAttribute] // RVA: 0xB6B60 Offset: 0xB5F60 VA: 0x1800B6B60
 	internal static void RemoveNavMeshDataInternal(int handle) { }
 
 	public static NavMeshLinkInstance AddLink(NavMeshLinkData link, Vector3 position, Quaternion rotation) { }
 
-	[NativeNameAttribute] // RVA: 0xB6B40 Offset: 0xB5F40 VA: 0x1800B6B40
-	[StaticAccessorAttribute] // RVA: 0xB6B40 Offset: 0xB5F40 VA: 0x1800B6B40
+	[NativeNameAttribute] // RVA: 0xB6C50 Offset: 0xB6050 VA: 0x1800B6C50
+	[StaticAccessorAttribute] // RVA: 0xB6C50 Offset: 0xB6050 VA: 0x1800B6C50
 	internal static int AddLinkInternal(NavMeshLinkData link, Vector3 position, Quaternion rotation) { }
 
-	[StaticAccessorAttribute] // RVA: 0xB6CC0 Offset: 0xB60C0 VA: 0x1800B6CC0
-	[NativeNameAttribute] // RVA: 0xB6CC0 Offset: 0xB60C0 VA: 0x1800B6CC0
+	[StaticAccessorAttribute] // RVA: 0xB6D90 Offset: 0xB6190 VA: 0x1800B6D90
+	[NativeNameAttribute] // RVA: 0xB6D90 Offset: 0xB6190 VA: 0x1800B6D90
 	internal static void RemoveLinkInternal(int handle) { }
 
 	public static NavMeshBuildSettings GetSettingsByID(int agentTypeID) { }
@@ -313,10 +313,10 @@ public struct NavMeshBuildSource // TypeDefIndex: 4458
 
 	public Component get_component() { }
 
-	[StaticAccessorAttribute] // RVA: 0xB7030 Offset: 0xB6430 VA: 0x1800B7030
+	[StaticAccessorAttribute] // RVA: 0xB70E0 Offset: 0xB64E0 VA: 0x1800B70E0
 	private static Component InternalGetComponent(int instanceID) { }
 
-	[StaticAccessorAttribute] // RVA: 0xB7030 Offset: 0xB6430 VA: 0x1800B7030
+	[StaticAccessorAttribute] // RVA: 0xB70E0 Offset: 0xB64E0 VA: 0x1800B70E0
 	private static Object InternalGetObject(int instanceID) { }
 
 }
@@ -386,23 +386,23 @@ public struct NavMeshBuildDebugSettings // TypeDefIndex: 4461
 }
 
 public class NavMeshLink : MonoBehaviour // TypeDefIndex: 8143
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <UpdateOnTransformChanged>k__BackingField; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_AgentTypeID; // 0x1C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 m_StartPoint; // 0x20
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 m_EndPoint; // 0x2C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float m_Width; // 0x38
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_CostModifier; // 0x3C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_Bidirectional; // 0x40
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_AutoUpdatePosition; // 0x41
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_Area; // 0x44
 	private NavMeshLinkInstance m_LinkInstance; // 0x48
 	private Vector3 m_LastPosition; // 0x4C
@@ -420,10 +420,10 @@ public class NavMeshLink : MonoBehaviour // TypeDefIndex: 8143
 	public int area { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_UpdateOnTransformChanged() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_UpdateOnTransformChanged(bool value) { }
 
 	public int get_agentTypeID() { }
@@ -485,13 +485,13 @@ public class NavMeshLink : MonoBehaviour // TypeDefIndex: 8143
 }
 
 public class NavMeshModifier : MonoBehaviour // TypeDefIndex: 8144
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_OverrideArea; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_Area; // 0x1C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_IgnoreFromBuild; // 0x20
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private List<int> m_AffectedAgents; // 0x28
 	private static readonly List<NavMeshModifier> s_NavMeshModifiers; // 0x0
 
@@ -528,13 +528,13 @@ public class NavMeshModifier : MonoBehaviour // TypeDefIndex: 8144
 }
 
 public class NavMeshModifierVolume : MonoBehaviour // TypeDefIndex: 8145
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 m_Size; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 m_Center; // 0x24
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_Area; // 0x30
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private List<int> m_AffectedAgents; // 0x38
 	private static readonly List<NavMeshModifierVolume> s_NavMeshModifiers; // 0x0
 
@@ -575,38 +575,38 @@ public class NavMeshModifierVolume : MonoBehaviour // TypeDefIndex: 8145
 }
 
 public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8147
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <UpdateOnTransformChanged>k__BackingField; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_AgentTypeID; // 0x1C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CollectObjects m_CollectObjects; // 0x20
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 m_Size; // 0x24
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 m_Center; // 0x30
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private LayerMask m_LayerMask; // 0x3C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private NavMeshCollectGeometry m_UseGeometry; // 0x40
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_DefaultArea; // 0x44
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_IgnoreNavMeshAgent; // 0x48
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_IgnoreNavMeshObstacle; // 0x49
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_OverrideTileSize; // 0x4A
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_TileSize; // 0x4C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_OverrideVoxelSize; // 0x50
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float m_VoxelSize; // 0x54
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_BuildHeightMesh; // 0x58
-	[FormerlySerializedAsAttribute] // RVA: 0x96960 Offset: 0x95D60 VA: 0x180096960
-	[SerializeField] // RVA: 0x96960 Offset: 0x95D60 VA: 0x180096960
+	[FormerlySerializedAsAttribute] // RVA: 0x96980 Offset: 0x95D80 VA: 0x180096980
+	[SerializeField] // RVA: 0x96980 Offset: 0x95D80 VA: 0x180096980
 	private NavMeshData m_NavMeshData; // 0x60
 	private NavMeshDataInstance m_NavMeshDataInstance; // 0x68
 	private Vector3 m_LastPosition; // 0x6C
@@ -632,10 +632,10 @@ public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8147
 	public static List<NavMeshSurface> activeSurfaces { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_UpdateOnTransformChanged() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_UpdateOnTransformChanged(bool value) { }
 
 	public int get_agentTypeID() { }

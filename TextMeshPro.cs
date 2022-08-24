@@ -1,18 +1,18 @@
 public class TextMeshPro : TMP_Text, ILayoutElement // TypeDefIndex: 6866
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_hasFontAssetChanged; // 0xAD0
 	private float m_previousLossyScaleY; // 0xAD4
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Renderer m_renderer; // 0xAD8
 	private MeshFilter m_meshFilter; // 0xAE0
 	private bool m_isFirstAllocation; // 0xAE8
 	private int m_max_characters; // 0xAEC
 	private int m_max_numberOfLines; // 0xAF0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected TMP_SubMesh[] m_subTextObjects; // 0xAF8
 	private bool m_isMaskingEnabled; // 0xB00
 	private bool isMaskUpdateRequired; // 0xB01
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private MaskingTypes m_maskType; // 0xB04
 	private Matrix4x4 m_EnvMapMatrix; // 0xB08
 	private Vector3[] m_RectTransformCorners; // 0xB48
@@ -23,7 +23,7 @@ public class TextMeshPro : TMP_Text, ILayoutElement // TypeDefIndex: 6866
 	public int sortingLayerID { get; set; }
 	public int sortingOrder { get; set; }
 	public override bool autoSizeTextContainer { get; set; }
-	[ObsoleteAttribute] // RVA: 0xDDA20 Offset: 0xDCE20 VA: 0x1800DDA20
+	[ObsoleteAttribute] // RVA: 0xDDB50 Offset: 0xDCF50 VA: 0x1800DDB50
 	public TextContainer textContainer { get; }
 	public Transform transform { get; }
 	public Renderer renderer { get; }

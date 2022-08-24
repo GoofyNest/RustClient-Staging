@@ -1,7 +1,7 @@
 public class ScrapTransportHelicopter : MiniCopter // TypeDefIndex: 8295
 {	public Transform searchlightEye; // 0x630
 	public BoxCollider parentTriggerCollider; // 0x638
-	[HeaderAttribute] // RVA: 0xACA40 Offset: 0xABE40 VA: 0x1800ACA40
+	[HeaderAttribute] // RVA: 0xACAC0 Offset: 0xABEC0 VA: 0x1800ACAC0
 	public ParticleSystemContainer tailDamageLight; // 0x640
 	public ParticleSystemContainer tailDamageHeavy; // 0x648
 	public ParticleSystemContainer mainEngineDamageLight; // 0x650
@@ -17,7 +17,7 @@ public class ScrapTransportHelicopter : MiniCopter // TypeDefIndex: 8295
 	private Sound damagedSparksSound; // 0x6A0
 	public float pilotRotorScale; // 0x6A8
 	public float compassOffset; // 0x6AC
-	[ServerVar] // RVA: 0x71F60 Offset: 0x71360 VA: 0x180071F60
+	[ServerVar] // RVA: 0x71FC0 Offset: 0x713C0 VA: 0x180071FC0
 	public static float population; // 0x0
 	protected static int speedAnimationIndex; // 0x4
 	protected static int altitudeAnimationIndex; // 0x8

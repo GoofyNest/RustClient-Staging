@@ -1,4 +1,4 @@
-public class ResearchTablePanel : LootPanel // TypeDefIndex: 11049
+public class ResearchTablePanel : LootPanel // TypeDefIndex: 11053
 {	public Button researchButton; // 0x38
 	public Text timerText; // 0x40
 	public GameObject itemDescNoItem; // 0x48

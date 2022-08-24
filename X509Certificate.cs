@@ -121,15 +121,15 @@ public class X509Certificate : IDeserializationCallback, ISerializable, IDisposa
 
 	public string get_Subject() { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public override bool Equals(object obj) { }
 
-	[ComVisibleAttribute] // RVA: 0xCC820 Offset: 0xCBC20 VA: 0x1800CC820
-	[MonoTODOAttribute] // RVA: 0xCC820 Offset: 0xCBC20 VA: 0x1800CC820
+	[ComVisibleAttribute] // RVA: 0xCC8D0 Offset: 0xCBCD0 VA: 0x1800CC8D0
+	[MonoTODOAttribute] // RVA: 0xCC8D0 Offset: 0xCBCD0 VA: 0x1800CC8D0
 	public virtual void Import(byte[] rawData, string password, X509KeyStorageFlags keyStorageFlags) { }
 
-	[MonoTODOAttribute] // RVA: 0xCC9A0 Offset: 0xCBDA0 VA: 0x1800CC9A0
-	[ComVisibleAttribute] // RVA: 0xCC9A0 Offset: 0xCBDA0 VA: 0x1800CC9A0
+	[MonoTODOAttribute] // RVA: 0xCCA90 Offset: 0xCBE90 VA: 0x1800CCA90
+	[ComVisibleAttribute] // RVA: 0xCCA90 Offset: 0xCBE90 VA: 0x1800CCA90
 	public virtual void Import(string fileName, string password, X509KeyStorageFlags keyStorageFlags) { }
 
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
@@ -140,7 +140,7 @@ public class X509Certificate : IDeserializationCallback, ISerializable, IDisposa
 
 	protected virtual void Dispose(bool disposing) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public virtual void Reset() { }
 
 }

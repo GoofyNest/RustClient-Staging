@@ -1,6 +1,6 @@
 public class BaseCombatEntity : BaseEntity // TypeDefIndex: 8319
 {	private Option __menuOption_Menu_Pickup; // 0x168
-	[HeaderAttribute] // RVA: 0xB4D40 Offset: 0xB4140 VA: 0x1800B4D40
+	[HeaderAttribute] // RVA: 0xB4E50 Offset: 0xB4250 VA: 0x1800B4E50
 	public SkeletonProperties skeletonProperties; // 0x1C0
 	public ProtectionProperties baseProtection; // 0x1C8
 	public float startHealth; // 0x1D0
@@ -29,7 +29,7 @@ public class BaseCombatEntity : BaseEntity // TypeDefIndex: 8319
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void HitNotify(BaseEntity.RPCMessage rpc) { }
 
 	protected override void ClientInit(Entity info) { }
@@ -48,10 +48,10 @@ public class BaseCombatEntity : BaseEntity // TypeDefIndex: 8319
 
 	public virtual void OnPickedUpPreItemMove(Item createdItem, BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xB63B0 Offset: 0xB57B0 VA: 0x1800B63B0
-	[BaseEntity.Menu.Description] // RVA: 0xB63B0 Offset: 0xB57B0 VA: 0x1800B63B0
-	[BaseEntity.Menu.Icon] // RVA: 0xB63B0 Offset: 0xB57B0 VA: 0x1800B63B0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xB63B0 Offset: 0xB57B0 VA: 0x1800B63B0
+	[BaseEntity.Menu] // RVA: 0xB6420 Offset: 0xB5820 VA: 0x1800B6420
+	[BaseEntity.Menu.Description] // RVA: 0xB6420 Offset: 0xB5820 VA: 0x1800B6420
+	[BaseEntity.Menu.Icon] // RVA: 0xB6420 Offset: 0xB5820 VA: 0x1800B6420
+	[BaseEntity.Menu.ShowIf] // RVA: 0xB6420 Offset: 0xB5820 VA: 0x1800B6420
 	public void Menu_Pickup(BasePlayer player) { }
 
 	public void Menu_Pickup_TimeStart() { }
@@ -110,25 +110,25 @@ public class BaseCombatEntity : BaseEntity // TypeDefIndex: 8319
 
 public struct BaseCombatEntity.Pickup // TypeDefIndex: 8320
 {	public bool enabled; // 0x0
-	[ItemSelector] // RVA: 0xA7690 Offset: 0xA6A90 VA: 0x1800A7690
+	[ItemSelector] // RVA: 0xA77B0 Offset: 0xA6BB0 VA: 0x1800A77B0
 	public ItemDefinition itemTarget; // 0x8
 	public int itemCount; // 0x10
-	[TooltipAttribute] // RVA: 0xB6990 Offset: 0xB5D90 VA: 0x1800B6990
+	[TooltipAttribute] // RVA: 0xB6AA0 Offset: 0xB5EA0 VA: 0x1800B6AA0
 	public bool setConditionFromHealth; // 0x14
-	[TooltipAttribute] // RVA: 0xB6AB0 Offset: 0xB5EB0 VA: 0x1800B6AB0
+	[TooltipAttribute] // RVA: 0xB6BC0 Offset: 0xB5FC0 VA: 0x1800B6BC0
 	public float subtractCondition; // 0x18
-	[TooltipAttribute] // RVA: 0xB6B10 Offset: 0xB5F10 VA: 0x1800B6B10
+	[TooltipAttribute] // RVA: 0xB6C20 Offset: 0xB6020 VA: 0x1800B6C20
 	public bool requireBuildingPrivilege; // 0x1C
-	[TooltipAttribute] // RVA: 0xB6C60 Offset: 0xB6060 VA: 0x1800B6C60
+	[TooltipAttribute] // RVA: 0xB6D30 Offset: 0xB6130 VA: 0x1800B6D30
 	public bool requireHammer; // 0x1D
-	[TooltipAttribute] // RVA: 0xB6E00 Offset: 0xB6200 VA: 0x1800B6E00
+	[TooltipAttribute] // RVA: 0xB6EB0 Offset: 0xB62B0 VA: 0x1800B6EB0
 	public bool requireEmptyInv; // 0x1E
 
 }
 
 public struct BaseCombatEntity.Repair // TypeDefIndex: 8321
 {	public bool enabled; // 0x0
-	[ItemSelector] // RVA: 0xA7690 Offset: 0xA6A90 VA: 0x1800A7690
+	[ItemSelector] // RVA: 0xA77B0 Offset: 0xA6BB0 VA: 0x1800A77B0
 	public ItemDefinition itemTarget; // 0x8
 	public GameObjectRef repairEffect; // 0x10
 	public GameObjectRef repairFullEffect; // 0x18

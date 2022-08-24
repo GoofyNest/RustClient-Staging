@@ -1,5 +1,5 @@
 public class Transaction : IDisposable, ISerializable // TypeDefIndex: 3983
-{	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[ThreadStaticAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Transaction ambient; // 0x80000000
 	private IsolationLevel level; // 0x10
 	private TransactionInformation info; // 0x18
@@ -11,7 +11,7 @@ public class Transaction : IDisposable, ISerializable // TypeDefIndex: 3983
 	private TransactionScope scope; // 0x48
 	private Exception innerException; // 0x50
 	private Guid tag; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TransactionCompletedEventHandler TransactionCompleted; // 0x68
 
 	internal List<IEnlistmentNotification> Volatiles { get; }
@@ -29,7 +29,7 @@ public class Transaction : IDisposable, ISerializable // TypeDefIndex: 3983
 
 	internal void .ctor() { }
 
-	[MonoTODOAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[MonoTODOAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 	public static Transaction get_Current() { }
@@ -40,7 +40,7 @@ public class Transaction : IDisposable, ISerializable // TypeDefIndex: 3983
 
 	public void Dispose() { }
 
-	[MonoTODOAttribute] // RVA: 0xA8050 Offset: 0xA7450 VA: 0x1800A8050
+	[MonoTODOAttribute] // RVA: 0xA80F0 Offset: 0xA74F0 VA: 0x1800A80F0
 	public Enlistment EnlistVolatile(IEnlistmentNotification enlistmentNotification, EnlistmentOptions enlistmentOptions) { }
 
 	private Enlistment EnlistVolatileInternal(IEnlistmentNotification notification, EnlistmentOptions options) { }

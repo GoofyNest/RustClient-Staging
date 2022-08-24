@@ -1,9 +1,9 @@
 internal struct GlyphPairAdjustmentRecord // TypeDefIndex: 4115
-{	[NativeNameAttribute] // RVA: 0x892E0 Offset: 0x886E0 VA: 0x1800892E0
-	[SerializeField] // RVA: 0x892E0 Offset: 0x886E0 VA: 0x1800892E0
+{	[NativeNameAttribute] // RVA: 0x893C0 Offset: 0x887C0 VA: 0x1800893C0
+	[SerializeField] // RVA: 0x893C0 Offset: 0x887C0 VA: 0x1800893C0
 	private GlyphAdjustmentRecord m_FirstAdjustmentRecord; // 0x0
-	[NativeNameAttribute] // RVA: 0x893D0 Offset: 0x887D0 VA: 0x1800893D0
-	[SerializeField] // RVA: 0x893D0 Offset: 0x887D0 VA: 0x1800893D0
+	[NativeNameAttribute] // RVA: 0x894E0 Offset: 0x888E0 VA: 0x1800894E0
+	[SerializeField] // RVA: 0x894E0 Offset: 0x888E0 VA: 0x1800894E0
 	private GlyphAdjustmentRecord m_SecondAdjustmentRecord; // 0x14
 
 	public GlyphAdjustmentRecord firstAdjustmentRecord { get; }

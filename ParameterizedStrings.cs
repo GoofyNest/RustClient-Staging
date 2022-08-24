@@ -1,5 +1,5 @@
 internal static class ParameterizedStrings // TypeDefIndex: 394
-{	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[ThreadStaticAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static ParameterizedStrings.LowLevelStack _cachedStack; // 0x80000000
 
 

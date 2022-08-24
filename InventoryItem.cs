@@ -23,13 +23,13 @@ public struct InventoryItem : IEquatable<InventoryItem> // TypeDefIndex: 5241
 
 	public Dictionary<string, string> get_Properties() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x97D70 Offset: 0x97170 VA: 0x180097D70
+	[AsyncStateMachineAttribute] // RVA: 0x97EA0 Offset: 0x972A0 VA: 0x180097EA0
 	public Task<Nullable<InventoryResult>> ConsumeAsync(int amount = 1) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x98040 Offset: 0x97440 VA: 0x180098040
+	[AsyncStateMachineAttribute] // RVA: 0x98170 Offset: 0x97570 VA: 0x180098170
 	public Task<Nullable<InventoryResult>> SplitStackAsync(int quantity = 1) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x981A0 Offset: 0x975A0 VA: 0x1800981A0
+	[AsyncStateMachineAttribute] // RVA: 0x98260 Offset: 0x97660 VA: 0x180098260
 	public Task<Nullable<InventoryResult>> AddAsync(InventoryItem add, int quantity = 1) { }
 
 	internal static InventoryItem From(SteamItemDetails_t details) { }
@@ -64,7 +64,7 @@ private struct InventoryItem.<ConsumeAsync>d__21 : IAsyncStateMachine // TypeDef
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -79,7 +79,7 @@ private struct InventoryItem.<SplitStackAsync>d__22 : IAsyncStateMachine // Type
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -95,7 +95,7 @@ private struct InventoryItem.<AddAsync>d__23 : IAsyncStateMachine // TypeDefInde
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

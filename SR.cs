@@ -130,7 +130,7 @@ internal class SR // TypeDefIndex: 4895
 {	private static ResourceManager resourceMan; // 0x0
 	private static CultureInfo resourceCulture; // 0x8
 
-	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
+	[EditorBrowsableAttribute] // RVA: 0x8CE50 Offset: 0x8C250 VA: 0x18008CE50
 	internal static ResourceManager ResourceManager { get; }
 	internal static string DataTypes { get; }
 	internal static string Keywords { get; }
@@ -155,7 +155,7 @@ internal static class SR // TypeDefIndex: 6265
 
 internal static class SR // TypeDefIndex: 6266
 	private static ResourceManager s_resourceManager; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static readonly Type <ResourceType>k__BackingField; // 0x8
 
 	private static ResourceManager ResourceManager { get; }
@@ -167,7 +167,7 @@ internal static class SR // TypeDefIndex: 6266
 
 	internal static string GetResourceString(string resourceKey, string defaultString) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static Type get_ResourceType() { }
 
 	internal static string get_ArgumentException_BufferNotFromPool() { }
@@ -178,7 +178,7 @@ internal static class SR // TypeDefIndex: 6266
 
 internal static class SR // TypeDefIndex: 6734
 {	private static ResourceManager s_resourceManager; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static readonly Type <ResourceType>k__BackingField; // 0x8
 
 	private static ResourceManager ResourceManager { get; }
@@ -197,7 +197,7 @@ internal static class SR // TypeDefIndex: 6734
 
 	internal static string Format(string resourceFormat, object p1) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static Type get_ResourceType() { }
 
 	internal static string get_NotSupported_CannotCallEqualsOnSpan() { }

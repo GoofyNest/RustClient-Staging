@@ -18,7 +18,7 @@ public class X509Chain : IDisposable // TypeDefIndex: 2822
 
 	public X509ChainStatus[] get_ChainStatus() { }
 
-	[MonoTODOAttribute] // RVA: 0xB06A0 Offset: 0xAFAA0 VA: 0x1800B06A0
+	[MonoTODOAttribute] // RVA: 0xB0770 Offset: 0xAFB70 VA: 0x1800B0770
 	public bool Build(X509Certificate2 certificate) { }
 
 	public static X509Chain Create() { }

@@ -37,12 +37,12 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 
 	public void .ctor(int capacity, float loadFactor) { }
 
-	[ObsoleteAttribute] // RVA: 0xE7790 Offset: 0xE6B90 VA: 0x1800E7790
+	[ObsoleteAttribute] // RVA: 0xE78B0 Offset: 0xE6CB0 VA: 0x1800E78B0
 	public void .ctor(int capacity, float loadFactor, IHashCodeProvider hcp, IComparer comparer) { }
 
 	public void .ctor(int capacity, float loadFactor, IEqualityComparer equalityComparer) { }
 
-	[ObsoleteAttribute] // RVA: 0xE7800 Offset: 0xE6C00 VA: 0x1800E7800
+	[ObsoleteAttribute] // RVA: 0xE7920 Offset: 0xE6D20 VA: 0x1800E7920
 	public void .ctor(IHashCodeProvider hcp, IComparer comparer) { }
 
 	public void .ctor(IEqualityComparer equalityComparer) { }
@@ -55,7 +55,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 
 	public virtual void Add(object key, object value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public virtual void Clear() { }
 
 	public virtual object Clone() { }
@@ -82,7 +82,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 
 	private void UpdateVersion() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	private void rehash(int newsize, bool forceNewHashCode) { }
 
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
@@ -99,12 +99,12 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 
 	public virtual ICollection get_Values() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	private void Insert(object key, object nvalue, bool add) { }
 
 	private void putEntry(Hashtable.bucket[] newBuckets, object key, object nvalue, int hashcode) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public virtual void Remove(object key) { }
 
 	public virtual object get_SyncRoot() { }

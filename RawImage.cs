@@ -1,8 +1,8 @@
 public class RawImage : MaskableGraphic // TypeDefIndex: 4992
-{	[FormerlySerializedAsAttribute] // RVA: 0x76A30 Offset: 0x75E30 VA: 0x180076A30
-	[SerializeField] // RVA: 0x76A30 Offset: 0x75E30 VA: 0x180076A30
+{	[FormerlySerializedAsAttribute] // RVA: 0x76AD0 Offset: 0x75ED0 VA: 0x180076AD0
+	[SerializeField] // RVA: 0x76AD0 Offset: 0x75ED0 VA: 0x180076AD0
 	private Texture m_Texture; // 0xC8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Rect m_UVRect; // 0xD0
 
 	public override Texture mainTexture { get; }

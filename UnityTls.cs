@@ -1,5 +1,5 @@
 internal static class UnityTls // TypeDefIndex: 2457
-{	private static UnityTls.unitytls_interface_struct marshalledInterface; // 0x140AA
+{	private static UnityTls.unitytls_interface_struct marshalledInterface; // 0x2B11BAC
 
 	public static bool IsSupported { get; }
 	public static UnityTls.unitytls_interface_struct NativeInterface { get; }

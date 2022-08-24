@@ -1,5 +1,5 @@
 public sealed class RectTransformUtility // TypeDefIndex: 4733
-{	private static readonly Vector3[] s_Corners; // 0x13425
+{	private static readonly Vector3[] s_Corners; // 0x2B117B0
 
 
 	public static Vector2 PixelAdjustPoint(Vector2 point, Transform elementTransform, Canvas canvas) { }

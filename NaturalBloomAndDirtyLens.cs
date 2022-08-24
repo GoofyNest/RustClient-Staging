@@ -3,22 +3,22 @@ public class NaturalBloomAndDirtyLens : MonoBehaviour // TypeDefIndex: 10098
 	public Texture2D lensDirtTexture; // 0x20
 	public float range; // 0x28
 	public float cutoff; // 0x2C
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float bloomIntensity; // 0x30
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float lensDirtIntensity; // 0x34
-	[RangeAttribute] // RVA: 0xB4520 Offset: 0xB3920 VA: 0x1800B4520
-	public float spread; // 0x38
-	[RangeAttribute] // RVA: 0xB4520 Offset: 0xB3920 VA: 0x1800B4520
-	public int iterations; // 0x3C
 	[RangeAttribute] // RVA: 0xB45A0 Offset: 0xB39A0 VA: 0x1800B45A0
+	public float spread; // 0x38
+	[RangeAttribute] // RVA: 0xB45A0 Offset: 0xB39A0 VA: 0x1800B45A0
+	public int iterations; // 0x3C
+	[RangeAttribute] // RVA: 0xB4650 Offset: 0xB3A50 VA: 0x1800B4650
 	public int mips; // 0x40
 	public float[] mipWeights; // 0x48
 	public bool highPrecision; // 0x50
 	public bool downscaleSource; // 0x51
 	public bool debug; // 0x52
 	public bool temporalFilter; // 0x53
-	[RangeAttribute] // RVA: 0xB4610 Offset: 0xB3A10 VA: 0x1800B4610
+	[RangeAttribute] // RVA: 0xB46F0 Offset: 0xB3AF0 VA: 0x1800B46F0
 	public float temporalFilterWeight; // 0x54
 	private Material material; // 0x58
 	private float blurSize; // 0x60

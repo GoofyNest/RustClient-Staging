@@ -1,6 +1,6 @@
 public class Skinnable : ScriptableObject // TypeDefIndex: 7715
 {
-[CreateAssetMenuAttribute] // RVA: 0xC7170 Offset: 0xC6570 VA: 0x1800C7170
+[CreateAssetMenuAttribute] // RVA: 0xC72B0 Offset: 0xC66B0 VA: 0x1800C72B0
 public class Skinnable : ScriptableObject // TypeDefIndex: 7715
 	public string Name; // 0x18
 	public string ItemName; // 0x20

@@ -5,17 +5,17 @@ public class DefaultContractResolver : IContractResolver // TypeDefIndex: 5991
 	private static readonly DefaultContractResolverState _sharedState; // 0x18
 	private readonly DefaultContractResolverState _instanceState; // 0x10
 	private readonly bool _sharedCache; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private BindingFlags <DefaultMembersSearchFlags>k__BackingField; // 0x1C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <SerializeCompilerGeneratedMembers>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IgnoreSerializableInterface>k__BackingField; // 0x21
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IgnoreSerializableAttribute>k__BackingField; // 0x22
 
 	internal static IContractResolver Instance { get; }
-	[ObsoleteAttribute] // RVA: 0x7F6E0 Offset: 0x7EAE0 VA: 0x18007F6E0
+	[ObsoleteAttribute] // RVA: 0x7F770 Offset: 0x7EB70 VA: 0x18007F770
 	public BindingFlags DefaultMembersSearchFlags { get; set; }
 	public bool SerializeCompilerGeneratedMembers { get; }
 	public bool IgnoreSerializableInterface { get; }
@@ -24,27 +24,27 @@ public class DefaultContractResolver : IContractResolver // TypeDefIndex: 5991
 
 	internal static IContractResolver get_Instance() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public BindingFlags get_DefaultMembersSearchFlags() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_DefaultMembersSearchFlags(BindingFlags value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_SerializeCompilerGeneratedMembers() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IgnoreSerializableInterface() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IgnoreSerializableAttribute() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_IgnoreSerializableAttribute(bool value) { }
 
 	public void .ctor() { }
 
-	[ObsoleteAttribute] // RVA: 0x7F530 Offset: 0x7E930 VA: 0x18007F530
+	[ObsoleteAttribute] // RVA: 0x7F610 Offset: 0x7EA10 VA: 0x18007F610
 	public void .ctor(bool shareCache) { }
 
 	internal DefaultContractResolverState GetState() { }
@@ -133,10 +133,10 @@ public class DefaultContractResolver : IContractResolver // TypeDefIndex: 5991
 
 private sealed class DefaultContractResolver.<>c // TypeDefIndex: 5994
 {
-[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 private sealed class DefaultContractResolver.EnumerableDictionaryWrapper.<GetEnumerator>d__2<TEnumeratorKey, TEnumeratorValue> // TypeDefIndex: 5993
 
-[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 [Serializable]
 private sealed class DefaultContractResolver.<>c // TypeDefIndex: 5994
 	public static readonly DefaultContractResolver.<>c <>9; // 0x0

@@ -22,7 +22,7 @@ public class StreamWriter : TextWriter // TypeDefIndex: 648
 
 	private void CheckAsyncTaskInProgress() { }
 
-	[FriendAccessAllowedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[FriendAccessAllowedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static Encoding get_UTF8NoBOM() { }
 
 	internal void .ctor() { }

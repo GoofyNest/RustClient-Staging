@@ -4,10 +4,10 @@ public class Object // TypeDefIndex: 383
 
 	public static bool Equals(object objA, object objB) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public void .ctor() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	protected virtual void Finalize() { }
 
 	public virtual int GetHashCode() { }
@@ -54,16 +54,16 @@ public class Object // TypeDefIndex: 3535
 
 	public void set_name(string value) { }
 
-	[TypeInferenceRuleAttribute] // RVA: 0xC5BE0 Offset: 0xC4FE0 VA: 0x1800C5BE0
+	[TypeInferenceRuleAttribute] // RVA: 0xC5D20 Offset: 0xC5120 VA: 0x1800C5D20
 	public static Object Instantiate(Object original, Vector3 position, Quaternion rotation) { }
 
-	[TypeInferenceRuleAttribute] // RVA: 0xC5BE0 Offset: 0xC4FE0 VA: 0x1800C5BE0
+	[TypeInferenceRuleAttribute] // RVA: 0xC5D20 Offset: 0xC5120 VA: 0x1800C5D20
 	public static Object Instantiate(Object original, Vector3 position, Quaternion rotation, Transform parent) { }
 
-	[TypeInferenceRuleAttribute] // RVA: 0xC5BE0 Offset: 0xC4FE0 VA: 0x1800C5BE0
+	[TypeInferenceRuleAttribute] // RVA: 0xC5D20 Offset: 0xC5120 VA: 0x1800C5D20
 	public static Object Instantiate(Object original) { }
 
-	[TypeInferenceRuleAttribute] // RVA: 0xC5BE0 Offset: 0xC4FE0 VA: 0x1800C5BE0
+	[TypeInferenceRuleAttribute] // RVA: 0xC5D20 Offset: 0xC5120 VA: 0x1800C5D20
 	public static Object Instantiate(Object original, Transform parent, bool instantiateInWorldSpace) { }
 
 	public static T Instantiate<T>(T original) { }
@@ -125,23 +125,23 @@ public class Object // TypeDefIndex: 3535
 	|-Object.Instantiate<object>
 	*/
 
-	[NativeMethodAttribute] // RVA: 0xC5F20 Offset: 0xC5320 VA: 0x1800C5F20
+	[NativeMethodAttribute] // RVA: 0xC6040 Offset: 0xC5440 VA: 0x1800C6040
 	public static void Destroy(Object obj, float t) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void Destroy(Object obj) { }
 
-	[NativeMethodAttribute] // RVA: 0xC6230 Offset: 0xC5630 VA: 0x1800C6230
+	[NativeMethodAttribute] // RVA: 0xC62E0 Offset: 0xC56E0 VA: 0x1800C62E0
 	public static void DestroyImmediate(Object obj, bool allowDestroyingAssets) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void DestroyImmediate(Object obj) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6380 Offset: 0xC5780 VA: 0x1800C6380
-	[TypeInferenceRuleAttribute] // RVA: 0xC6380 Offset: 0xC5780 VA: 0x1800C6380
+	[TypeInferenceRuleAttribute] // RVA: 0xC64F0 Offset: 0xC58F0 VA: 0x1800C64F0
+	[FreeFunctionAttribute] // RVA: 0xC64F0 Offset: 0xC58F0 VA: 0x1800C64F0
 	public static Object[] FindObjectsOfType(Type type) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6410 Offset: 0xC5810 VA: 0x1800C6410
+	[FreeFunctionAttribute] // RVA: 0xC6580 Offset: 0xC5980 VA: 0x1800C6580
 	public static void DontDestroyOnLoad(Object target) { }
 
 	public HideFlags get_hideFlags() { }
@@ -193,7 +193,7 @@ public class Object // TypeDefIndex: 3535
 
 	private static void CheckNullArgument(object arg, string message) { }
 
-	[TypeInferenceRuleAttribute] // RVA: 0xB9C80 Offset: 0xB9080 VA: 0x1800B9C80
+	[TypeInferenceRuleAttribute] // RVA: 0xB9DD0 Offset: 0xB91D0 VA: 0x1800B9DD0
 	public static Object FindObjectOfType(Type type) { }
 
 	public override string ToString() { }
@@ -202,32 +202,32 @@ public class Object // TypeDefIndex: 3535
 
 	public static bool op_Inequality(Object x, Object y) { }
 
-	[NativeMethodAttribute] // RVA: 0xC6530 Offset: 0xC5930 VA: 0x1800C6530
+	[NativeMethodAttribute] // RVA: 0xC66A0 Offset: 0xC5AA0 VA: 0x1800C66A0
 	private static int GetOffsetOfInstanceIDInCPlusPlusObject() { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6590 Offset: 0xC5990 VA: 0x1800C6590
+	[FreeFunctionAttribute] // RVA: 0xC66E0 Offset: 0xC5AE0 VA: 0x1800C66E0
 	private static Object Internal_CloneSingle(Object data) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6590 Offset: 0xC5990 VA: 0x1800C6590
+	[FreeFunctionAttribute] // RVA: 0xC66E0 Offset: 0xC5AE0 VA: 0x1800C66E0
 	private static Object Internal_CloneSingleWithParent(Object data, Transform parent, bool worldPositionStays) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6720 Offset: 0xC5B20 VA: 0x1800C6720
+	[FreeFunctionAttribute] // RVA: 0xC6830 Offset: 0xC5C30 VA: 0x1800C6830
 	private static Object Internal_InstantiateSingle(Object data, Vector3 pos, Quaternion rot) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6720 Offset: 0xC5B20 VA: 0x1800C6720
+	[FreeFunctionAttribute] // RVA: 0xC6830 Offset: 0xC5C30 VA: 0x1800C6830
 	private static Object Internal_InstantiateSingleWithParent(Object data, Transform parent, Vector3 pos, Quaternion rot) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6A30 Offset: 0xC5E30 VA: 0x1800C6A30
+	[FreeFunctionAttribute] // RVA: 0xC6B80 Offset: 0xC5F80 VA: 0x1800C6B80
 	private static string ToString(Object obj) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6AF0 Offset: 0xC5EF0 VA: 0x1800C6AF0
+	[FreeFunctionAttribute] // RVA: 0xC6C00 Offset: 0xC6000 VA: 0x1800C6C00
 	private static string GetName(Object obj) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6BB0 Offset: 0xC5FB0 VA: 0x1800C6BB0
+	[FreeFunctionAttribute] // RVA: 0xC6CB0 Offset: 0xC60B0 VA: 0x1800C6CB0
 	private static void SetName(Object obj, string name) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xC6C70 Offset: 0xC6070 VA: 0x1800C6C70
-	[FreeFunctionAttribute] // RVA: 0xC6C70 Offset: 0xC6070 VA: 0x1800C6C70
+	[VisibleToOtherModulesAttribute] // RVA: 0xC6D60 Offset: 0xC6160 VA: 0x1800C6D60
+	[FreeFunctionAttribute] // RVA: 0xC6D60 Offset: 0xC6160 VA: 0x1800C6D60
 	internal static Object FindObjectFromInstanceID(int instanceID) { }
 
 	public void .ctor() { }

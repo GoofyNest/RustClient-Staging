@@ -6,7 +6,7 @@ public class LTRect // TypeDefIndex: 5585
 	public Vector2 margin; // 0x30
 	public Rect relativeRect; // 0x38
 	public bool rotateEnabled; // 0x48
-	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool rotateFinished; // 0x49
 	public bool alphaEnabled; // 0x4A
 	public string labelStr; // 0x50
@@ -19,7 +19,7 @@ public class LTRect // TypeDefIndex: 5585
 	public bool sizeByHeight; // 0x7E
 	public Texture texture; // 0x80
 	private int _id; // 0x88
-	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int counter; // 0x8C
 	public static bool colorTouched; // 0x0
 

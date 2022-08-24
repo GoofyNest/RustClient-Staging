@@ -1,4 +1,4 @@
-public class ViewModelRenderer : MonoBehaviour // TypeDefIndex: 11453
+public class ViewModelRenderer : MonoBehaviour // TypeDefIndex: 11457
 {	public List<Texture2D> cachedTextureRefs; // 0x18
 	public List<ViewModelDrawEvent> opaqueEvents; // 0x20
 	public List<ViewModelDrawEvent> transparentEvents; // 0x28
@@ -14,8 +14,8 @@ public class ViewModelRenderer : MonoBehaviour // TypeDefIndex: 11453
 
 	public void RemoveDrawEvents() { }
 
-	[ContextMenu] // RVA: 0xB0AD0 Offset: 0xAFED0 VA: 0x1800B0AD0
-	[ButtonAttribute] // RVA: 0xB0AD0 Offset: 0xAFED0 VA: 0x1800B0AD0
+	[ContextMenu] // RVA: 0xB0CA0 Offset: 0xB00A0 VA: 0x1800B0CA0
+	[ButtonAttribute] // RVA: 0xB0CA0 Offset: 0xB00A0 VA: 0x1800B0CA0
 	public void CacheReferences() { }
 
 	private void CacheTextures() { }
@@ -34,7 +34,7 @@ public class ViewModelRenderer : MonoBehaviour // TypeDefIndex: 11453
 
 }
 
-private sealed class ViewModelRenderer.<>c // TypeDefIndex: 11454
+private sealed class ViewModelRenderer.<>c // TypeDefIndex: 11458
 {	public static readonly ViewModelRenderer.<>c <>9; // 0x0
 	public static Comparison<ViewModelDrawEvent> <>9__9_0; // 0x8
 	public static Comparison<ViewModelDrawEvent> <>9__9_1; // 0x10

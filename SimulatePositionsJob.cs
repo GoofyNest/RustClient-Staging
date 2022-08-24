@@ -1,9 +1,9 @@
 internal struct SimulatePositionsJob : IJob // TypeDefIndex: 7320
-{	[ReadOnlyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[ReadOnlyAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public NativeArray<ColliderData> ColliderData; // 0x0
-	[ReadOnlyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ReadOnlyAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public NativeArray<ColliderState> ColliderState; // 0x10
-	[ReadOnlyAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ReadOnlyAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public NativeArray<BoneData> BoneData; // 0x20
 	public NativeArray<BoneState> BoneState; // 0x30
 	public int TickRate; // 0x40

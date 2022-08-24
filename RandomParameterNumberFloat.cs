@@ -1,4 +1,4 @@
-public class RandomParameterNumberFloat : StateMachineBehaviour // TypeDefIndex: 11444
+public class RandomParameterNumberFloat : StateMachineBehaviour // TypeDefIndex: 11448
 {	public string parameterName; // 0x18
 	public int min; // 0x20
 	public int max; // 0x24

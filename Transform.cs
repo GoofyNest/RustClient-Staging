@@ -16,7 +16,7 @@ public class Transform : Component, IEnumerable // TypeDefIndex: 3569
 	public Transform root { get; }
 	public int childCount { get; }
 	public Vector3 lossyScale { get; }
-	[NativePropertyAttribute] // RVA: 0xD1B70 Offset: 0xD0F70 VA: 0x1800D1B70
+	[NativePropertyAttribute] // RVA: 0xD1C00 Offset: 0xD1000 VA: 0x1800D1C00
 	public bool hasChanged { get; set; }
 
 
@@ -74,7 +74,7 @@ public class Transform : Component, IEnumerable // TypeDefIndex: 3569
 
 	public void SetParent(Transform p) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD0EE0 Offset: 0xD02E0 VA: 0x1800D0EE0
+	[FreeFunctionAttribute] // RVA: 0xD1010 Offset: 0xD0410 VA: 0x1800D1010
 	public void SetParent(Transform parent, bool worldPositionStays) { }
 
 	public Matrix4x4 get_worldToLocalMatrix() { }
@@ -93,7 +93,7 @@ public class Transform : Component, IEnumerable // TypeDefIndex: 3569
 
 	public void Rotate(Vector3 eulers) { }
 
-	[NativeMethodAttribute] // RVA: 0xD1180 Offset: 0xD0580 VA: 0x1800D1180
+	[NativeMethodAttribute] // RVA: 0xD12B0 Offset: 0xD06B0 VA: 0x1800D12B0
 	internal void RotateAroundInternal(Vector3 axis, float angle) { }
 
 	public void Rotate(Vector3 axis, float angle, Space relativeTo) { }
@@ -108,7 +108,7 @@ public class Transform : Component, IEnumerable // TypeDefIndex: 3569
 
 	public void LookAt(Vector3 worldPosition) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD13D0 Offset: 0xD07D0 VA: 0x1800D13D0
+	[FreeFunctionAttribute] // RVA: 0xD1500 Offset: 0xD0900 VA: 0x1800D1500
 	private void Internal_LookAt(Vector3 worldPosition, Vector3 worldUp) { }
 
 	public Vector3 TransformDirection(Vector3 direction) { }
@@ -127,10 +127,10 @@ public class Transform : Component, IEnumerable // TypeDefIndex: 3569
 
 	private Transform GetRoot() { }
 
-	[NativeMethodAttribute] // RVA: 0xD1550 Offset: 0xD0950 VA: 0x1800D1550
+	[NativeMethodAttribute] // RVA: 0xD1630 Offset: 0xD0A30 VA: 0x1800D1630
 	public int get_childCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0xD15D0 Offset: 0xD09D0 VA: 0x1800D15D0
+	[FreeFunctionAttribute] // RVA: 0xD16B0 Offset: 0xD0AB0 VA: 0x1800D16B0
 	public void DetachChildren() { }
 
 	public void SetAsFirstSibling() { }
@@ -141,15 +141,15 @@ public class Transform : Component, IEnumerable // TypeDefIndex: 3569
 
 	public int GetSiblingIndex() { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
 	private static Transform FindRelativeTransformWithPath(Transform transform, string path, bool isActiveOnly) { }
 
 	public Transform Find(string n) { }
 
-	[NativeMethodAttribute] // RVA: 0xD1750 Offset: 0xD0B50 VA: 0x1800D1750
+	[NativeMethodAttribute] // RVA: 0xD1880 Offset: 0xD0C80 VA: 0x1800D1880
 	public Vector3 get_lossyScale() { }
 
-	[FreeFunctionAttribute] // RVA: 0xD1820 Offset: 0xD0C20 VA: 0x1800D1820
+	[FreeFunctionAttribute] // RVA: 0xD1950 Offset: 0xD0D50 VA: 0x1800D1950
 	public bool IsChildOf(Transform parent) { }
 
 	public bool get_hasChanged() { }
@@ -158,8 +158,8 @@ public class Transform : Component, IEnumerable // TypeDefIndex: 3569
 
 	public IEnumerator GetEnumerator() { }
 
-	[FreeFunctionAttribute] // RVA: 0xD1A00 Offset: 0xD0E00 VA: 0x1800D1A00
-	[NativeThrowsAttribute] // RVA: 0xD1A00 Offset: 0xD0E00 VA: 0x1800D1A00
+	[NativeThrowsAttribute] // RVA: 0xD1B30 Offset: 0xD0F30 VA: 0x1800D1B30
+	[FreeFunctionAttribute] // RVA: 0xD1B30 Offset: 0xD0F30 VA: 0x1800D1B30
 	public Transform GetChild(int index) { }
 
 	private void get_position_Injected(out Vector3 ret) { }

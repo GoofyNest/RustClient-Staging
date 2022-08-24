@@ -14,17 +14,17 @@ public class ReadingSettings // TypeDefIndex: 7601
 	private NoHeaderChunkPolicy _noHeaderChunkPolicy; // 0x34
 	private ZeroLengthDataPolicy _zeroLengthDataPolicy; // 0x38
 	private EndOfTrackStoringPolicy _endOfTrackStoringPolicy; // 0x3C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private UnknownChannelEventCallback <UnknownChannelEventCallback>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ChunkTypesCollection <CustomChunkTypes>k__BackingField; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private EventTypesCollection <CustomMetaEventTypes>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Encoding <TextEncoding>k__BackingField; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private DecodeTextCallback <DecodeTextCallback>k__BackingField; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ReaderSettings <ReaderSettings>k__BackingField; // 0x68
 
 	public UnexpectedTrackChunksCountPolicy UnexpectedTrackChunksCountPolicy { get; }
@@ -66,7 +66,7 @@ public class ReadingSettings // TypeDefIndex: 7601
 
 	public UnknownChannelEventPolicy get_UnknownChannelEventPolicy() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public UnknownChannelEventCallback get_UnknownChannelEventCallback() { }
 
 	public InvalidChannelEventParameterValuePolicy get_InvalidChannelEventParameterValuePolicy() { }
@@ -79,26 +79,26 @@ public class ReadingSettings // TypeDefIndex: 7601
 
 	public NoHeaderChunkPolicy get_NoHeaderChunkPolicy() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public ChunkTypesCollection get_CustomChunkTypes() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public EventTypesCollection get_CustomMetaEventTypes() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Encoding get_TextEncoding() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public DecodeTextCallback get_DecodeTextCallback() { }
 
 	public ZeroLengthDataPolicy get_ZeroLengthDataPolicy() { }
 
 	public EndOfTrackStoringPolicy get_EndOfTrackStoringPolicy() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public ReaderSettings get_ReaderSettings() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_ReaderSettings(ReaderSettings value) { }
 
 	public void .ctor() { }

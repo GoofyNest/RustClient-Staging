@@ -1,8 +1,8 @@
 public static class MemoryExtensions // TypeDefIndex: 6728
-{	internal static readonly IntPtr StringAdjustment; // 0x2B10370
+{	internal static readonly IntPtr StringAdjustment; // 0x28A0
 
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void Reverse<T>(Span<T> span) { }
 	/* GenericInstMethod :
 	|

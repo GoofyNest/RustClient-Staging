@@ -23,7 +23,7 @@ public class TouchScreenKeyboard // TypeDefIndex: 3560
 	public RangeInt selection { get; set; }
 
 
-	[FreeFunctionAttribute] // RVA: 0xCE0B0 Offset: 0xCD4B0 VA: 0x1800CE0B0
+	[FreeFunctionAttribute] // RVA: 0xCE140 Offset: 0xCD540 VA: 0x1800CE140
 	private static void Internal_Destroy(IntPtr ptr) { }
 
 	private void Destroy() { }
@@ -32,7 +32,7 @@ public class TouchScreenKeyboard // TypeDefIndex: 3560
 
 	public void .ctor(string text, TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, string textPlaceholder, int characterLimit) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCE1E0 Offset: 0xCD5E0 VA: 0x1800CE1E0
+	[FreeFunctionAttribute] // RVA: 0xCE280 Offset: 0xCD680 VA: 0x1800CE280
 	private static IntPtr TouchScreenKeyboard_InternalConstructorHelper(ref TouchScreenKeyboard_InternalConstructorHelperArguments arguments, string text, string textPlaceholder) { }
 
 	public static bool get_isSupported() { }
@@ -41,34 +41,34 @@ public class TouchScreenKeyboard // TypeDefIndex: 3560
 
 	public static TouchScreenKeyboard Open(string text, TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, string textPlaceholder, int characterLimit) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static TouchScreenKeyboard Open(string text, TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure) { }
 
-	[NativeNameAttribute] // RVA: 0xCFC20 Offset: 0xCF020 VA: 0x1800CFC20
+	[NativeNameAttribute] // RVA: 0xCFD50 Offset: 0xCF150 VA: 0x1800CFD50
 	public string get_text() { }
 
-	[NativeNameAttribute] // RVA: 0xCFEC0 Offset: 0xCF2C0 VA: 0x1800CFEC0
+	[NativeNameAttribute] // RVA: 0xCFFB0 Offset: 0xCF3B0 VA: 0x1800CFFB0
 	public void set_text(string value) { }
 
-	[NativeNameAttribute] // RVA: 0xD0040 Offset: 0xCF440 VA: 0x1800D0040
+	[NativeNameAttribute] // RVA: 0xD0130 Offset: 0xCF530 VA: 0x1800D0130
 	public static void set_hideInput(bool value) { }
 
-	[NativeNameAttribute] // RVA: 0xD00A0 Offset: 0xCF4A0 VA: 0x1800D00A0
+	[NativeNameAttribute] // RVA: 0xD01A0 Offset: 0xCF5A0 VA: 0x1800D01A0
 	public bool get_active() { }
 
-	[NativeNameAttribute] // RVA: 0xD0190 Offset: 0xCF590 VA: 0x1800D0190
+	[NativeNameAttribute] // RVA: 0xD0250 Offset: 0xCF650 VA: 0x1800D0250
 	public void set_active(bool value) { }
 
-	[NativeNameAttribute] // RVA: 0xD0290 Offset: 0xCF690 VA: 0x1800D0290
+	[NativeNameAttribute] // RVA: 0xD0380 Offset: 0xCF780 VA: 0x1800D0380
 	public TouchScreenKeyboard.Status get_status() { }
 
-	[NativeNameAttribute] // RVA: 0xD04C0 Offset: 0xCF8C0 VA: 0x1800D04C0
+	[NativeNameAttribute] // RVA: 0xD05F0 Offset: 0xCF9F0 VA: 0x1800D05F0
 	public void set_characterLimit(int value) { }
 
-	[NativeNameAttribute] // RVA: 0xD04F0 Offset: 0xCF8F0 VA: 0x1800D04F0
+	[NativeNameAttribute] // RVA: 0xD0620 Offset: 0xCFA20 VA: 0x1800D0620
 	public bool get_canGetSelection() { }
 
-	[NativeNameAttribute] // RVA: 0xD0550 Offset: 0xCF950 VA: 0x1800D0550
+	[NativeNameAttribute] // RVA: 0xD0680 Offset: 0xCFA80 VA: 0x1800D0680
 	public bool get_canSetSelection() { }
 
 	public RangeInt get_selection() { }

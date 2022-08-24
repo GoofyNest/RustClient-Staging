@@ -1,4 +1,4 @@
-public class GenerateRoadRing : ProceduralComponent // TypeDefIndex: 10516
+public class GenerateRoadRing : ProceduralComponent // TypeDefIndex: 10520
 {	public const float Width = 12;
 	public const float InnerPadding = 1;
 	public const float OuterPadding = 1;
@@ -17,7 +17,7 @@ public class GenerateRoadRing : ProceduralComponent // TypeDefIndex: 10516
 
 }
 
-private class GenerateRoadRing.RingNode // TypeDefIndex: 10517
+private class GenerateRoadRing.RingNode // TypeDefIndex: 10521
 {	public int attempts; // 0x10
 	public PathFinder.Point position; // 0x14
 	public PathFinder.Point direction; // 0x1C

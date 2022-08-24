@@ -120,10 +120,10 @@ public abstract class WebRequest : MarshalByRefObject, ISerializable // TypeDefI
 
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Task<Stream> <GetRequestStreamAsync>b__78_0() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Task<WebResponse> <GetResponseAsync>b__79_0() { }
 
 }

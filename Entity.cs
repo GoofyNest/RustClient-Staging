@@ -7,9 +7,9 @@ public enum EntityHandling // TypeDefIndex: 1838
 
 public class EntityTagHeaderValue : ICloneable // TypeDefIndex: 5765
 {	private static readonly EntityTagHeaderValue any; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsWeak>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Tag>k__BackingField; // 0x18
 
 	public bool IsWeak { get; set; }
@@ -18,16 +18,16 @@ public class EntityTagHeaderValue : ICloneable // TypeDefIndex: 5765
 
 	internal void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsWeak() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_IsWeak(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Tag() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_Tag(string value) { }
 
 	private object System.ICloneable.Clone() { }
@@ -403,7 +403,7 @@ public class EntityIdList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 }
 
 public static class Entity // TypeDefIndex: 6628
-{	private static Dictionary<Transform, IEntity> _dict; // 0x34E0
+{	private static Dictionary<Transform, IEntity> _dict; // 0x2898
 
 
 	public static void Register(Transform t, IEntity entity) { }
@@ -550,9 +550,9 @@ public class EntityFlag_Toggle : EntityComponent<BaseEntity>, IOnPostNetworkUpda
 {	public bool runClientside; // 0x20
 	public bool runServerside; // 0x21
 	public BaseEntity.Flags flag; // 0x24
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private UnityEvent onFlagEnabled; // 0x28
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private UnityEvent onFlagDisabled; // 0x30
 	internal bool hasRunOnce; // 0x38
 	internal bool lastHasFlag; // 0x39
@@ -603,7 +603,7 @@ public class EntityItem_RotateWhenOn : EntityComponent<BaseEntity>, IOnPostNetwo
 
 	public void DoClose() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x757A0 Offset: 0x74BA0 VA: 0x1800757A0
+	[IteratorStateMachineAttribute] // RVA: 0x75830 Offset: 0x74C30 VA: 0x180075830
 	private IEnumerator RotateTo(EntityItem_RotateWhenOn.State state) { }
 
 	public void .ctor() { }
@@ -641,21 +641,21 @@ private sealed class EntityItem_RotateWhenOn.<RotateTo>d__12 : IEnumerator<objec
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -724,13 +724,13 @@ public class EntityLink : Pool.IPooled // TypeDefIndex: 9534
 
 public static class EntityLinkEx // TypeDefIndex: 9535
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void FreeLinks(List<EntityLink> links) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void ClearLinks(List<EntityLink> links) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void AddLinks(List<EntityLink> links, BaseEntity entity, Socket_Base[] sockets) { }
 
 }
@@ -853,7 +853,7 @@ public struct EntityRef<T> // TypeDefIndex: 9537
 
 }
 
-public class EntityHUDRender : MonoBehaviour // TypeDefIndex: 10922
+public class EntityHUDRender : MonoBehaviour // TypeDefIndex: 10926
 {	internal BaseEntity cachedEntity; // 0x18
 
 
@@ -863,66 +863,66 @@ public class EntityHUDRender : MonoBehaviour // TypeDefIndex: 10922
 
 }
 
-public class Entity : ConsoleSystem // TypeDefIndex: 11912
+public class Entity : ConsoleSystem // TypeDefIndex: 11916
 {
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static void debug_lookat(ConsoleSystem.Arg args) { }
 
 	private static TextTable GetEntityTable(Func<Entity.EntityInfo, bool> filter) { }
 
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static void find_entity(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static void find_id(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static void find_group(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static void find_parent(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static void find_status(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static void find_radius(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static void find_self(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x99190 Offset: 0x98590 VA: 0x180099190
+	[ClientVar] // RVA: 0x99650 Offset: 0x98A50 VA: 0x180099650
 	public static void clspawn(string name) { }
 
-	[ClientVar] // RVA: 0x993D0 Offset: 0x987D0 VA: 0x1800993D0
+	[ClientVar] // RVA: 0x997E0 Offset: 0x98BE0 VA: 0x1800997E0
 	public static void clspawnat(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x996C0 Offset: 0x98AC0 VA: 0x1800996C0
+	[ClientVar] // RVA: 0x99C00 Offset: 0x99000 VA: 0x180099C00
 	public static void clspawnhere(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x99880 Offset: 0x98C80 VA: 0x180099880
+	[ClientVar] // RVA: 0x99DE0 Offset: 0x991E0 VA: 0x180099DE0
 	public static void clspawnitem(string name) { }
 
-	[ClientVar] // RVA: 0x99C00 Offset: 0x99000 VA: 0x180099C00
+	[ClientVar] // RVA: 0x99F60 Offset: 0x99360 VA: 0x180099F60
 	public static void UploadSign(ConsoleSystem.Arg arg) { }
 
 	private static bool IsLookingAtSign(ConsoleSystem.Arg arg, out ISignage signage) { }
 
-	[ClientVar] // RVA: 0x99DF0 Offset: 0x991F0 VA: 0x180099DF0
+	[ClientVar] // RVA: 0x9A070 Offset: 0x99470 VA: 0x18009A070
 	public static void DownloadSign(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }
 
 }
 
-private struct Entity.EntityInfo // TypeDefIndex: 11913
+private struct Entity.EntityInfo // TypeDefIndex: 11917
 {	public BaseNetworkable entity; // 0x0
 	public uint entityID; // 0x8
 	public uint groupID; // 0xC
@@ -934,7 +934,7 @@ private struct Entity.EntityInfo // TypeDefIndex: 11913
 
 }
 
-private sealed class Entity.<>c__DisplayClass3_0 // TypeDefIndex: 11914
+private sealed class Entity.<>c__DisplayClass3_0 // TypeDefIndex: 11918
 {	public string filter; // 0x10
 
 
@@ -944,7 +944,7 @@ private sealed class Entity.<>c__DisplayClass3_0 // TypeDefIndex: 11914
 
 }
 
-private sealed class Entity.<>c__DisplayClass4_0 // TypeDefIndex: 11915
+private sealed class Entity.<>c__DisplayClass4_0 // TypeDefIndex: 11919
 {	public uint filter; // 0x10
 
 
@@ -954,7 +954,7 @@ private sealed class Entity.<>c__DisplayClass4_0 // TypeDefIndex: 11915
 
 }
 
-private sealed class Entity.<>c__DisplayClass5_0 // TypeDefIndex: 11916
+private sealed class Entity.<>c__DisplayClass5_0 // TypeDefIndex: 11920
 {	public uint filter; // 0x10
 
 
@@ -964,7 +964,7 @@ private sealed class Entity.<>c__DisplayClass5_0 // TypeDefIndex: 11916
 
 }
 
-private sealed class Entity.<>c__DisplayClass6_0 // TypeDefIndex: 11917
+private sealed class Entity.<>c__DisplayClass6_0 // TypeDefIndex: 11921
 {	public uint filter; // 0x10
 
 
@@ -974,7 +974,7 @@ private sealed class Entity.<>c__DisplayClass6_0 // TypeDefIndex: 11917
 
 }
 
-private sealed class Entity.<>c__DisplayClass7_0 // TypeDefIndex: 11918
+private sealed class Entity.<>c__DisplayClass7_0 // TypeDefIndex: 11922
 {	public string filter; // 0x10
 
 
@@ -984,7 +984,7 @@ private sealed class Entity.<>c__DisplayClass7_0 // TypeDefIndex: 11918
 
 }
 
-private sealed class Entity.<>c__DisplayClass8_0 // TypeDefIndex: 11919
+private sealed class Entity.<>c__DisplayClass8_0 // TypeDefIndex: 11923
 {	public BasePlayer player; // 0x10
 	public uint filter; // 0x18
 
@@ -995,7 +995,7 @@ private sealed class Entity.<>c__DisplayClass8_0 // TypeDefIndex: 11919
 
 }
 
-private sealed class Entity.<>c__DisplayClass9_0 // TypeDefIndex: 11920
+private sealed class Entity.<>c__DisplayClass9_0 // TypeDefIndex: 11924
 {	public uint filter; // 0x10
 
 

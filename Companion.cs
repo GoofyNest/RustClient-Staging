@@ -1,4 +1,4 @@
-public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // TypeDefIndex: 11085
+public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // TypeDefIndex: 11089
 {	public const string PairedKey = "companionPaired";
 	public GameObject instructionsBody; // 0x18
 	public GameObject detailsPanel; // 0x20
@@ -13,7 +13,7 @@ public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // 
 	public GameObject pairButton; // 0x68
 	public RustText serverName; // 0x70
 	public RustButton helpButton; // 0x78
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CompanionSetupScreen.ScreenState <State>k__BackingField; // 0x80
 	private bool _isLoading; // 0x84
 	private Nullable<bool> _enabled; // 0x85
@@ -22,23 +22,23 @@ public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // 
 	public CompanionSetupScreen.ScreenState State { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public CompanionSetupScreen.ScreenState get_State() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_State(CompanionSetupScreen.ScreenState value) { }
 
 	public void OnEnable() { }
 
 	public void Refresh() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x95060 Offset: 0x94460 VA: 0x180095060
+	[AsyncStateMachineAttribute] // RVA: 0x95350 Offset: 0x94750 VA: 0x180095350
 	public void RefreshImpl() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x95260 Offset: 0x94660 VA: 0x180095260
+	[AsyncStateMachineAttribute] // RVA: 0x953D0 Offset: 0x947D0 VA: 0x1800953D0
 	public void Enable() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x95320 Offset: 0x94720 VA: 0x180095320
+	[AsyncStateMachineAttribute] // RVA: 0x95550 Offset: 0x94950 VA: 0x180095550
 	public void Disable() { }
 
 	public void Pair() { }
@@ -59,7 +59,7 @@ public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // 
 
 }
 
-public enum CompanionSetupScreen.ScreenState // TypeDefIndex: 11086
+public enum CompanionSetupScreen.ScreenState // TypeDefIndex: 11090
 {	public int value__; // 0x0
 	public const CompanionSetupScreen.ScreenState Loading = 0;
 	public const CompanionSetupScreen.ScreenState Error = 1;
@@ -72,7 +72,7 @@ public enum CompanionSetupScreen.ScreenState // TypeDefIndex: 11086
 
 }
 
-private struct CompanionSetupScreen.<RefreshImpl>d__24 : IAsyncStateMachine // TypeDefIndex: 11087
+private struct CompanionSetupScreen.<RefreshImpl>d__24 : IAsyncStateMachine // TypeDefIndex: 11091
 {	public int <>1__state; // 0x0
 	public AsyncVoidMethodBuilder <>t__builder; // 0x8
 	public CompanionSetupScreen <>4__this; // 0x28
@@ -81,12 +81,12 @@ private struct CompanionSetupScreen.<RefreshImpl>d__24 : IAsyncStateMachine // T
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-private struct CompanionSetupScreen.<Enable>d__25 : IAsyncStateMachine // TypeDefIndex: 11088
+private struct CompanionSetupScreen.<Enable>d__25 : IAsyncStateMachine // TypeDefIndex: 11092
 {	public int <>1__state; // 0x0
 	public AsyncVoidMethodBuilder <>t__builder; // 0x8
 	public CompanionSetupScreen <>4__this; // 0x28
@@ -95,12 +95,12 @@ private struct CompanionSetupScreen.<Enable>d__25 : IAsyncStateMachine // TypeDe
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-private struct CompanionSetupScreen.<Disable>d__26 : IAsyncStateMachine // TypeDefIndex: 11089
+private struct CompanionSetupScreen.<Disable>d__26 : IAsyncStateMachine // TypeDefIndex: 11093
 {	public int <>1__state; // 0x0
 	public AsyncVoidMethodBuilder <>t__builder; // 0x8
 	public CompanionSetupScreen <>4__this; // 0x28
@@ -109,26 +109,26 @@ private struct CompanionSetupScreen.<Disable>d__26 : IAsyncStateMachine // TypeD
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-public static class CompanionSubscription // TypeDefIndex: 11090
+public static class CompanionSubscription // TypeDefIndex: 11094
 {	private const string ApiEndpoint = "https://companion-rust.facepunch.com/api/subscriptions";
 	private const string CheckApi = "https://companion-rust.facepunch.com/api/subscriptions/check";
 	private const string AddApi = "https://companion-rust.facepunch.com/api/subscriptions/add";
 	private const string RemoveApi = "https://companion-rust.facepunch.com/api/subscriptions/remove";
-	private static readonly HttpClient Http; // 0x2F00
+	private static readonly HttpClient Http; // 0x23CB
 
-
-	[AsyncStateMachineAttribute] // RVA: 0x957A0 Offset: 0x94BA0 VA: 0x1800957A0
-	public static Task<CompanionSubscription.Status> CheckStatus() { }
-
-	[AsyncStateMachineAttribute] // RVA: 0x957F0 Offset: 0x94BF0 VA: 0x1800957F0
-	public static Task Add() { }
 
 	[AsyncStateMachineAttribute] // RVA: 0x959E0 Offset: 0x94DE0 VA: 0x1800959E0
+	public static Task<CompanionSubscription.Status> CheckStatus() { }
+
+	[AsyncStateMachineAttribute] // RVA: 0x95B50 Offset: 0x94F50 VA: 0x180095B50
+	public static Task Add() { }
+
+	[AsyncStateMachineAttribute] // RVA: 0x95C80 Offset: 0x95080 VA: 0x180095C80
 	public static Task Remove() { }
 
 	private static StringContent GenerateRequest(IAuthTicket authTicket) { }
@@ -137,7 +137,7 @@ public static class CompanionSubscription // TypeDefIndex: 11090
 
 }
 
-private class CompanionSubscription.Request // TypeDefIndex: 11091
+private class CompanionSubscription.Request // TypeDefIndex: 11095
 {	public string SteamTicket; // 0x10
 	public string ServerId; // 0x18
 
@@ -146,7 +146,7 @@ private class CompanionSubscription.Request // TypeDefIndex: 11091
 
 }
 
-public class CompanionSubscription.Status // TypeDefIndex: 11092
+public class CompanionSubscription.Status // TypeDefIndex: 11096
 {	public bool IsInstalled; // 0x10
 	public bool IsSubscribed; // 0x11
 
@@ -155,7 +155,7 @@ public class CompanionSubscription.Status // TypeDefIndex: 11092
 
 }
 
-private struct CompanionSubscription.<CheckStatus>d__5 : IAsyncStateMachine // TypeDefIndex: 11093
+private struct CompanionSubscription.<CheckStatus>d__5 : IAsyncStateMachine // TypeDefIndex: 11097
 {	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder<CompanionSubscription.Status> <>t__builder; // 0x8
 	private IAuthTicket <ticket>5__2; // 0x20
@@ -166,12 +166,12 @@ private struct CompanionSubscription.<CheckStatus>d__5 : IAsyncStateMachine // T
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-private struct CompanionSubscription.<Add>d__6 : IAsyncStateMachine // TypeDefIndex: 11094
+private struct CompanionSubscription.<Add>d__6 : IAsyncStateMachine // TypeDefIndex: 11098
 {	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder <>t__builder; // 0x8
 	private IAuthTicket <ticket>5__2; // 0x20
@@ -181,12 +181,12 @@ private struct CompanionSubscription.<Add>d__6 : IAsyncStateMachine // TypeDefIn
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-private struct CompanionSubscription.<Remove>d__7 : IAsyncStateMachine // TypeDefIndex: 11095
+private struct CompanionSubscription.<Remove>d__7 : IAsyncStateMachine // TypeDefIndex: 11099
 {	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder <>t__builder; // 0x8
 	private IAuthTicket <ticket>5__2; // 0x20
@@ -196,7 +196,7 @@ private struct CompanionSubscription.<Remove>d__7 : IAsyncStateMachine // TypeDe
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

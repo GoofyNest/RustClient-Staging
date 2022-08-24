@@ -1,25 +1,25 @@
 public struct ContactFilter2D // TypeDefIndex: 4081
-{	[NativeNameAttribute] // RVA: 0x6FEF0 Offset: 0x6F2F0 VA: 0x18006FEF0
+{	[NativeNameAttribute] // RVA: 0x6FFC0 Offset: 0x6F3C0 VA: 0x18006FFC0
 	public bool useTriggers; // 0x0
-	[NativeNameAttribute] // RVA: 0x701B0 Offset: 0x6F5B0 VA: 0x1800701B0
+	[NativeNameAttribute] // RVA: 0x70280 Offset: 0x6F680 VA: 0x180070280
 	public bool useLayerMask; // 0x1
-	[NativeNameAttribute] // RVA: 0x702A0 Offset: 0x6F6A0 VA: 0x1800702A0
+	[NativeNameAttribute] // RVA: 0x70360 Offset: 0x6F760 VA: 0x180070360
 	public bool useDepth; // 0x2
-	[NativeNameAttribute] // RVA: 0x70410 Offset: 0x6F810 VA: 0x180070410
+	[NativeNameAttribute] // RVA: 0x704D0 Offset: 0x6F8D0 VA: 0x1800704D0
 	public bool useOutsideDepth; // 0x3
-	[NativeNameAttribute] // RVA: 0x70570 Offset: 0x6F970 VA: 0x180070570
+	[NativeNameAttribute] // RVA: 0x70690 Offset: 0x6FA90 VA: 0x180070690
 	public bool useNormalAngle; // 0x4
-	[NativeNameAttribute] // RVA: 0x70600 Offset: 0x6FA00 VA: 0x180070600
+	[NativeNameAttribute] // RVA: 0x70720 Offset: 0x6FB20 VA: 0x180070720
 	public bool useOutsideNormalAngle; // 0x5
-	[NativeNameAttribute] // RVA: 0x70740 Offset: 0x6FB40 VA: 0x180070740
+	[NativeNameAttribute] // RVA: 0x70800 Offset: 0x6FC00 VA: 0x180070800
 	public LayerMask layerMask; // 0x8
-	[NativeNameAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[NativeNameAttribute] // RVA: 0x708C0 Offset: 0x6FCC0 VA: 0x1800708C0
 	public float minDepth; // 0xC
-	[NativeNameAttribute] // RVA: 0x709A0 Offset: 0x6FDA0 VA: 0x1800709A0
+	[NativeNameAttribute] // RVA: 0x70A90 Offset: 0x6FE90 VA: 0x180070A90
 	public float maxDepth; // 0x10
-	[NativeNameAttribute] // RVA: 0x70A30 Offset: 0x6FE30 VA: 0x180070A30
+	[NativeNameAttribute] // RVA: 0x70B20 Offset: 0x6FF20 VA: 0x180070B20
 	public float minNormalAngle; // 0x14
-	[NativeNameAttribute] // RVA: 0x70B60 Offset: 0x6FF60 VA: 0x180070B60
+	[NativeNameAttribute] // RVA: 0x70C20 Offset: 0x70020 VA: 0x180070C20
 	public float maxNormalAngle; // 0x18
 
 

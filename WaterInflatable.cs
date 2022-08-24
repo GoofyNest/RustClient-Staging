@@ -21,11 +21,11 @@ public class WaterInflatable : BaseMountable, IPoolVehicle, INotifyTrigger // Ty
 	public Buoyancy buoyancy; // 0x3A0
 	public bool driftTowardsIsland; // 0x3A8
 	public GameObjectRef mountEffect; // 0x3B0
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float handSplashOffset; // 0x3B8
 	public float velocitySplashMultiplier; // 0x3BC
 	public Vector3 modifyEyeOffset; // 0x3C0
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float inheritVelocityMultiplier; // 0x3CC
 	private TimeSince lastPaddle; // 0x3D0
 	public ParticleSystem[] movingParticleSystems; // 0x3D8
@@ -44,7 +44,7 @@ public class WaterInflatable : BaseMountable, IPoolVehicle, INotifyTrigger // Ty
 
 	public override bool get_IsSummerDlcVehicle() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void OnPaddled(BaseEntity.RPCMessage msg) { }
 
 	public override void UpdatePlayerModel(BasePlayer player) { }

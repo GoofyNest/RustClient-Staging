@@ -1,5 +1,5 @@
 internal static class GameAnalytics // TypeDefIndex: 5620
-{	private static bool _endThread; // 0x2B10394
+{	private static bool _endThread; // 0x2470
 
 
 	private static void .cctor() { }

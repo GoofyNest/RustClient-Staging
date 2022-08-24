@@ -1,5 +1,5 @@
-public class KeyInformationPanel : ItemInformationPanel // TypeDefIndex: 11025
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class KeyInformationPanel : ItemInformationPanel // TypeDefIndex: 11029
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Text id; // 0x18
 
 

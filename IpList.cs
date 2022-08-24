@@ -5,7 +5,7 @@ public class IpList : Internet // TypeDefIndex: 5289
 
 	public void .ctor(IEnumerable<string> list) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA27D0 Offset: 0xA1BD0 VA: 0x1800A27D0
+	[AsyncStateMachineAttribute] // RVA: 0xA28F0 Offset: 0xA1CF0 VA: 0x1800A28F0
 	public override Task<bool> RunQueryAsync(float timeoutSeconds = 10) { }
 
 	public override void Cancel() { }
@@ -27,7 +27,7 @@ private struct IpList.<RunQueryAsync>d__4 : IAsyncStateMachine // TypeDefIndex: 
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

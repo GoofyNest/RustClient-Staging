@@ -84,70 +84,70 @@ public class Snowmobile : GroundVehicle, VehicleChassisVisuals.IClientWheelUser<
 	private int recentVelsIndex; // 0x570
 	private TimeSince timeSinceFailedStartAttempt; // 0x574
 	private const float FAILED_START_MIN_TIME = 1;
-	[HeaderAttribute] // RVA: 0x88A90 Offset: 0x87E90 VA: 0x180088A90
-	[SerializeField] // RVA: 0x88A90 Offset: 0x87E90 VA: 0x180088A90
+	[HeaderAttribute] // RVA: 0x88BE0 Offset: 0x87FE0 VA: 0x180088BE0
+	[SerializeField] // RVA: 0x88BE0 Offset: 0x87FE0 VA: 0x180088BE0
 	private Transform centreOfMassTransform; // 0x578
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObjectRef itemStoragePrefab; // 0x580
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VisualCarWheel wheelSkiFL; // 0x588
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VisualCarWheel wheelSkiFR; // 0x590
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VisualCarWheel wheelTreadFL; // 0x598
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VisualCarWheel wheelTreadFR; // 0x5A0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VisualCarWheel wheelTreadRL; // 0x5A8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VisualCarWheel wheelTreadRR; // 0x5B0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CarSettings carSettings; // 0x5B8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int engineKW; // 0x5C0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float idleFuelPerSec; // 0x5C4
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float maxFuelPerSec; // 0x5C8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float airControlStability; // 0x5CC
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float airControlPower; // 0x5D0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float badTerrainDrag; // 0x5D4
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ProtectionProperties riderProtection; // 0x5D8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float hurtTriggerMinSpeed; // 0x5E0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TriggerHurtNotChild hurtTriggerFront; // 0x5E8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TriggerHurtNotChild hurtTriggerRear; // 0x5F0
-	[HeaderAttribute] // RVA: 0x8AD10 Offset: 0x8A110 VA: 0x18008AD10
+	[HeaderAttribute] // RVA: 0x8AE00 Offset: 0x8A200 VA: 0x18008AE00
 	public float minGroundFXSpeed; // 0x5F8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SnowmobileChassisVisuals chassisVisuals; // 0x600
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleLight[] lights; // 0x608
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform steeringLeftIK; // 0x610
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform steeringRightIK; // 0x618
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform leftFootIK; // 0x620
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform rightFootIK; // 0x628
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform starterKey; // 0x630
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 engineOffKeyRot; // 0x638
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 engineOnKeyRot; // 0x644
-	[ServerVar] // RVA: 0x8B210 Offset: 0x8A610 VA: 0x18008B210
+	[ServerVar] // RVA: 0x8B360 Offset: 0x8A760 VA: 0x18008B360
 	public static float outsideDecayMinutes; // 0x0
-	[ServerVar] // RVA: 0x8B330 Offset: 0x8A730 VA: 0x18008B330
+	[ServerVar] // RVA: 0x8B480 Offset: 0x8A880 VA: 0x18008B480
 	public static bool allowPassengerOnly; // 0x4
-	[ServerVar] // RVA: 0x8B430 Offset: 0x8A830 VA: 0x18008B430
+	[ServerVar] // RVA: 0x8B580 Offset: 0x8A980 VA: 0x18008B580
 	public static bool allTerrain; // 0x5
 	private float _throttle; // 0x650
 	private float _brake; // 0x654
@@ -193,32 +193,32 @@ public class Snowmobile : GroundVehicle, VehicleChassisVisuals.IClientWheelUser<
 
 	protected override void OnClientTickStopped() { }
 
-	[BaseEntity.Menu] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
-	[BaseEntity.Menu.Description] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
-	[BaseEntity.Menu.Icon] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
+	[BaseEntity.Menu] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
+	[BaseEntity.Menu.Description] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
+	[BaseEntity.Menu.Icon] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
 	public void Menu_FuelStorage(BasePlayer player) { }
 
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8C900 Offset: 0x8BD00 VA: 0x18008C900
-	[BaseEntity.Menu.Description] // RVA: 0x8C900 Offset: 0x8BD00 VA: 0x18008C900
-	[BaseEntity.Menu.Icon] // RVA: 0x8C900 Offset: 0x8BD00 VA: 0x18008C900
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8C900 Offset: 0x8BD00 VA: 0x18008C900
+	[BaseEntity.Menu] // RVA: 0x8CA00 Offset: 0x8BE00 VA: 0x18008CA00
+	[BaseEntity.Menu.Description] // RVA: 0x8CA00 Offset: 0x8BE00 VA: 0x18008CA00
+	[BaseEntity.Menu.Icon] // RVA: 0x8CA00 Offset: 0x8BE00 VA: 0x18008CA00
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8CA00 Offset: 0x8BE00 VA: 0x18008CA00
 	public void Menu_ItemStorage(BasePlayer player) { }
 
 	public bool Menu_ItemStorage_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
-	[BaseEntity.Menu.Description] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
-	[BaseEntity.Menu.Icon] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
+	[BaseEntity.Menu] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu.Description] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu.Icon] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
 	public void Menu_Push(BasePlayer player) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SnowmobileUpdate(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void EngineStartFailed(BaseEntity.RPCMessage msg) { }
 
 	public float get_ThrottleInput() { }

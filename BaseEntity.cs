@@ -81,23 +81,23 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	protected bool isAnimatorVisible; // 0xD9
 	protected bool isShadowVisible; // 0xDA
 	protected OccludeeSphere localOccludee; // 0xE0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <Weight>k__BackingField; // 0x100
-	[HeaderAttribute] // RVA: 0x9F410 Offset: 0x9E810 VA: 0x18009F410
+	[HeaderAttribute] // RVA: 0x9F540 Offset: 0x9E940 VA: 0x18009F540
 	public Bounds bounds; // 0x104
 	public GameObjectRef impactEffect; // 0x120
 	public bool enableSaving; // 0x128
 	public bool syncPosition; // 0x129
 	public Model model; // 0x130
-	[InspectorFlagsAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public BaseEntity.Flags flags; // 0x138
 	public uint parentBone; // 0x13C
 	public ulong skinID; // 0x140
 	private EntityComponentBase[] _components; // 0x148
-	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool HasBrain; // 0x150
 	protected string _name; // 0x158
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ulong <OwnerID>k__BackingField; // 0x160
 
 	public virtual bool HasMenuOptions { get; }
@@ -281,12 +281,12 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 
 	public void RefreshEntityLinks() { }
 
-	[ObsoleteAttribute] // RVA: 0x9F7E0 Offset: 0x9EBE0 VA: 0x18009F7E0
+	[ObsoleteAttribute] // RVA: 0x9F8C0 Offset: 0x9ECC0 VA: 0x18009F8C0
 	public void RequestFileFromServer(uint crc, FileStorage.Type type, string responseFunction, uint part = 0) { }
 
 	public void RequestFileFromServer(IServerFileReceiver receiver, FileStorage.Type type, uint crc, uint part = 0, bool respondIfNotFound = False) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CL_ReceiveFileRequest(BaseEntity.RPCMessage msg) { }
 
 	private void CompletePendingFileRequests(FileStorage.Type type, uint crc, uint part, byte[] data) { }
@@ -612,10 +612,10 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 
 	public void SendSignalBroadcast(BaseEntity.Signal signal, string arg = "") { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SignalFromServerEx(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SignalFromServer(BaseEntity.RPCMessage msg) { }
 
 	public virtual void OnSignal(BaseEntity.Signal signal, string arg) { }
@@ -686,10 +686,10 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 
 	protected virtual void DebugDrawCullingBounds() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_Weight() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected void set_Weight(float value) { }
 
 	public EntityComponentBase[] get_Components() { }
@@ -818,10 +818,10 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 
 	public virtual Transform FindClosestBone(Vector3 worldPos) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public ulong get_OwnerID() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_OwnerID(ulong value) { }
 
 	public virtual bool ShouldBlockProjectiles() { }

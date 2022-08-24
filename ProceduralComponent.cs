@@ -1,5 +1,5 @@
-public abstract class ProceduralComponent : MonoBehaviour // TypeDefIndex: 10445
-{	[InspectorFlagsAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+public abstract class ProceduralComponent : MonoBehaviour // TypeDefIndex: 10449
+{	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public ProceduralComponent.Realm Mode; // 0x18
 	public string Description; // 0x20
 
@@ -16,7 +16,7 @@ public abstract class ProceduralComponent : MonoBehaviour // TypeDefIndex: 10445
 
 }
 
-public enum ProceduralComponent.Realm // TypeDefIndex: 10446
+public enum ProceduralComponent.Realm // TypeDefIndex: 10450
 {	public int value__; // 0x0
 	public const ProceduralComponent.Realm Client = 1;
 	public const ProceduralComponent.Realm Server = 2;

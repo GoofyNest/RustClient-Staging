@@ -44,7 +44,7 @@ internal class Hybi13Handler : IHandler, IDisposable // TypeDefIndex: 6935
 }
 
 private sealed class Hybi13Handler.<>c // TypeDefIndex: 6936
-{	public static readonly Hybi13Handler.<>c <>9; // 0x36F0
+{	public static readonly Hybi13Handler.<>c <>9; // 0x2AEE
 
 
 	private static void .cctor() { }

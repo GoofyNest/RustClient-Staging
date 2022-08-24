@@ -8,9 +8,9 @@ internal class <Module> // TypeDefIndex: 6162
 
 [Serializable]
 public class SceneField // TypeDefIndex: 6163
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Object sceneAsset; // 0x10
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string sceneName; // 0x18
 
 	public string SceneName { get; }

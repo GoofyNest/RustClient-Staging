@@ -466,7 +466,7 @@ internal struct RemoteStorageFileReadAsyncComplete_t : ICallbackData // TypeDefI
 }
 
 internal struct RemoteStorageLocalFileChange_t : ICallbackData // TypeDefIndex: 5385
-{	public static int _datasize; // 0x137E0
+{	public static int _datasize; // 0x12BD7
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }

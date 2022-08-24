@@ -1,4 +1,4 @@
-internal class UVTextureAnimator : MonoBehaviour // TypeDefIndex: 11477
+internal class UVTextureAnimator : MonoBehaviour // TypeDefIndex: 11481
 {	public int Rows; // 0x18
 	public int Columns; // 0x1C
 	public float Fps; // 0x20
@@ -28,7 +28,7 @@ internal class UVTextureAnimator : MonoBehaviour // TypeDefIndex: 11477
 
 	private void OnDisable() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xB47E0 Offset: 0xB3BE0 VA: 0x1800B47E0
+	[IteratorStateMachineAttribute] // RVA: 0xB4A20 Offset: 0xB3E20 VA: 0x1800B4A20
 	private IEnumerator UpdateCorutine() { }
 
 	private void UpdateCorutineFrame() { }
@@ -39,7 +39,7 @@ internal class UVTextureAnimator : MonoBehaviour // TypeDefIndex: 11477
 
 }
 
-private sealed class UVTextureAnimator.<UpdateCorutine>d__21 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11478
+private sealed class UVTextureAnimator.<UpdateCorutine>d__21 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11482
 {	private int <>1__state; // 0x10
 	private object <>2__current; // 0x18
 	public UVTextureAnimator <>4__this; // 0x20
@@ -48,21 +48,21 @@ private sealed class UVTextureAnimator.<UpdateCorutine>d__21 : IEnumerator<objec
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

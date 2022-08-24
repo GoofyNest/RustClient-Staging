@@ -4,9 +4,9 @@ public class CustomAttributeData // TypeDefIndex: 560
 	private IList<CustomAttributeNamedArgument> namedArgs; // 0x20
 	private CustomAttributeData.LazyCAttrData lazyData; // 0x28
 
-	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
+	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
 	public virtual ConstructorInfo Constructor { get; }
-	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
+	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
 	public virtual IList<CustomAttributeTypedArgument> ConstructorArguments { get; }
 	public virtual IList<CustomAttributeNamedArgument> NamedArguments { get; }
 	public Type AttributeType { get; }

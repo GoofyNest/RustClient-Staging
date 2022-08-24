@@ -11,7 +11,7 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable // TypeDefInd
 	protected static readonly IntPtr InvalidHandle; // 0x0
 	internal const int MaxWaitHandles = 64;
 
-	[ObsoleteAttribute] // RVA: 0xB9C20 Offset: 0xB9020 VA: 0x1800B9C20
+	[ObsoleteAttribute] // RVA: 0xB9D70 Offset: 0xB9170 VA: 0x1800B9D70
 	public virtual IntPtr Handle { set; }
 	public SafeWaitHandle SafeWaitHandle { get; set; }
 
@@ -22,10 +22,10 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable // TypeDefInd
 
 	public virtual void set_Handle(IntPtr value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public SafeWaitHandle get_SafeWaitHandle() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public void set_SafeWaitHandle(SafeWaitHandle value) { }
 
 	internal void SetHandleInternal(SafeWaitHandle handle) { }
@@ -40,10 +40,10 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable // TypeDefInd
 
 	internal static bool InternalWaitOne(SafeHandle waitableSafeHandle, long millisecondsTimeout, bool hasThreadAffinity, bool exitContext) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public static int WaitAny(WaitHandle[] waitHandles, int millisecondsTimeout, bool exitContext) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public static int WaitAny(WaitHandle[] waitHandles, TimeSpan timeout, bool exitContext) { }
 
 	private static void ThrowAbandonedMutexException() { }

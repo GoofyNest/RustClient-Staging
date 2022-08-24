@@ -35,18 +35,18 @@ public enum Layer // TypeDefIndex: 6620
 
 }
 
-public class Layer : ConsoleSystem // TypeDefIndex: 11940
+public class Layer : ConsoleSystem // TypeDefIndex: 11944
 {
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void show(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void hide(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void toggle(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void culling(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

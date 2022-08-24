@@ -1,5 +1,5 @@
 public class BaseLiquidVessel : AttackEntity // TypeDefIndex: 8522
-{	[HeaderAttribute] // RVA: 0xA2990 Offset: 0xA1D90 VA: 0x1800A2990
+{	[HeaderAttribute] // RVA: 0xA2A20 Offset: 0xA1E20 VA: 0x1800A2A20
 	public GameObjectRef thrownWaterObject; // 0x280
 	public GameObjectRef ThrowEffect3P; // 0x288
 	public SoundDefinition throwSound3P; // 0x290
@@ -58,15 +58,15 @@ public class BaseLiquidVessel : AttackEntity // TypeDefIndex: 8522
 
 	public override void OnViewmodelEvent(string name) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_StartFillingSoundsContainer(BaseEntity.RPCMessage rpc) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_StartFillingSoundsWorld(BaseEntity.RPCMessage rpc) { }
 
 	private void StartFillingSounds(bool fromContainer = True) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_StopFillingSounds(BaseEntity.RPCMessage rpc) { }
 
 	private void StopFillingSounds() { }

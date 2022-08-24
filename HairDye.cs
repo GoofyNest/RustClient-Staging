@@ -1,8 +1,8 @@
-public class HairDye // TypeDefIndex: 10729
-{	[ColorUsageAttribute] // RVA: 0x768B0 Offset: 0x75CB0 VA: 0x1800768B0
+public class HairDye // TypeDefIndex: 10733
+{	[ColorUsageAttribute] // RVA: 0x76B60 Offset: 0x75F60 VA: 0x180076B60
 	public Color capBaseColor; // 0x10
 	public Material sourceMaterial; // 0x20
-	[InspectorFlagsAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public HairDye.CopyPropertyMask copyProperties; // 0x28
 	private static MaterialPropertyDesc[] transferableProps; // 0x0
 	private static int _HairBaseColorUV1; // 0x8
@@ -21,7 +21,7 @@ public class HairDye // TypeDefIndex: 10729
 
 }
 
-public enum HairDye.CopyProperty // TypeDefIndex: 10730
+public enum HairDye.CopyProperty // TypeDefIndex: 10734
 {	public int value__; // 0x0
 	public const HairDye.CopyProperty DyeColor = 0;
 	public const HairDye.CopyProperty RootColor = 1;
@@ -35,7 +35,7 @@ public enum HairDye.CopyProperty // TypeDefIndex: 10730
 
 }
 
-public enum HairDye.CopyPropertyMask // TypeDefIndex: 10731
+public enum HairDye.CopyPropertyMask // TypeDefIndex: 10735
 {	public int value__; // 0x0
 	public const HairDye.CopyPropertyMask DyeColor = 1;
 	public const HairDye.CopyPropertyMask RootColor = 2;

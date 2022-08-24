@@ -1,5 +1,5 @@
-public class TerrainAlphaMap : TerrainMap<byte> // TypeDefIndex: 10390
-{	[FormerlySerializedAsAttribute] // RVA: 0xCE140 Offset: 0xCD540 VA: 0x1800CE140
+public class TerrainAlphaMap : TerrainMap<byte> // TypeDefIndex: 10394
+{	[FormerlySerializedAsAttribute] // RVA: 0xCF7E0 Offset: 0xCEBE0 VA: 0x1800CF7E0
 	public Texture2D AlphaTexture; // 0x48
 
 
@@ -31,7 +31,7 @@ public class TerrainAlphaMap : TerrainMap<byte> // TypeDefIndex: 10390
 
 }
 
-private sealed class TerrainAlphaMap.<>c__DisplayClass2_0 // TypeDefIndex: 10391
+private sealed class TerrainAlphaMap.<>c__DisplayClass2_0 // TypeDefIndex: 10395
 {	public TerrainAlphaMap <>4__this; // 0x10
 	public Color32[] col; // 0x18
 
@@ -42,7 +42,7 @@ private sealed class TerrainAlphaMap.<>c__DisplayClass2_0 // TypeDefIndex: 10391
 
 }
 
-private sealed class TerrainAlphaMap.<>c__DisplayClass12_0 // TypeDefIndex: 10392
+private sealed class TerrainAlphaMap.<>c__DisplayClass12_0 // TypeDefIndex: 10396
 {	public float opacity; // 0x10
 	public TerrainAlphaMap <>4__this; // 0x18
 	public float a; // 0x20

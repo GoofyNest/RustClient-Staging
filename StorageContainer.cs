@@ -2,7 +2,7 @@ public class StorageContainer : DecayEntity, IItemContainerEntity, LootPanel.IHa
 {	private Option __menuOption_Menu_Occupied; // 0x258
 	private Option __menuOption_Menu_OnFire; // 0x2B0
 	private Option __menuOption_Menu_Open; // 0x308
-	[HeaderAttribute] // RVA: 0x8DF50 Offset: 0x8D350 VA: 0x18008DF50
+	[HeaderAttribute] // RVA: 0x8E090 Offset: 0x8D490 VA: 0x18008E090
 	public static readonly Translate.Phrase LockedMessage; // 0x0
 	public static readonly Translate.Phrase InUseMessage; // 0x8
 	public int inventorySlots; // 0x360
@@ -21,7 +21,7 @@ public class StorageContainer : DecayEntity, IItemContainerEntity, LootPanel.IHa
 	public bool mustBeMountedToUse; // 0x39D
 	public SoundDefinition openSound; // 0x3A0
 	public SoundDefinition closeSound; // 0x3A8
-	[HeaderAttribute] // RVA: 0x8E030 Offset: 0x8D430 VA: 0x18008E030
+	[HeaderAttribute] // RVA: 0x8E130 Offset: 0x8D530 VA: 0x18008E130
 	public Vector3 dropPosition; // 0x3B0
 	public Vector3 dropVelocity; // 0x3BC
 	public ItemCategory onlyAcceptCategory; // 0x3C8
@@ -55,25 +55,25 @@ public class StorageContainer : DecayEntity, IItemContainerEntity, LootPanel.IHa
 
 	public virtual bool ShouldShowLootMenus() { }
 
-	[BaseEntity.Menu] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
-	[BaseEntity.Menu.Description] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
-	[BaseEntity.Menu.Icon] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
+	[BaseEntity.Menu] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
+	[BaseEntity.Menu.Description] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
+	[BaseEntity.Menu.Icon] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
 	public void Menu_Open(BasePlayer player) { }
 
 	protected virtual bool Menu_Open_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8E360 Offset: 0x8D760 VA: 0x18008E360
-	[BaseEntity.Menu.Description] // RVA: 0x8E360 Offset: 0x8D760 VA: 0x18008E360
-	[BaseEntity.Menu.Icon] // RVA: 0x8E360 Offset: 0x8D760 VA: 0x18008E360
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8E360 Offset: 0x8D760 VA: 0x18008E360
+	[BaseEntity.Menu] // RVA: 0x8E4A0 Offset: 0x8D8A0 VA: 0x18008E4A0
+	[BaseEntity.Menu.Description] // RVA: 0x8E4A0 Offset: 0x8D8A0 VA: 0x18008E4A0
+	[BaseEntity.Menu.Icon] // RVA: 0x8E4A0 Offset: 0x8D8A0 VA: 0x18008E4A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8E4A0 Offset: 0x8D8A0 VA: 0x18008E4A0
 	public void Menu_Occupied(BasePlayer player) { }
 
 	public bool Menu_Occupied_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8E610 Offset: 0x8DA10 VA: 0x18008E610
-	[BaseEntity.Menu.Icon] // RVA: 0x8E610 Offset: 0x8DA10 VA: 0x18008E610
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8E610 Offset: 0x8DA10 VA: 0x18008E610
+	[BaseEntity.Menu] // RVA: 0x8E720 Offset: 0x8DB20 VA: 0x18008E720
+	[BaseEntity.Menu.Icon] // RVA: 0x8E720 Offset: 0x8DB20 VA: 0x18008E720
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8E720 Offset: 0x8DB20 VA: 0x18008E720
 	public void Menu_OnFire(BasePlayer player) { }
 
 	public bool Menu_OnFire_ShowIf(BasePlayer player) { }

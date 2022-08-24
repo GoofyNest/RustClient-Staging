@@ -70,9 +70,9 @@ public class SlotMachine : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 64
 public class SlotMachine : BaseMountable // TypeDefIndex: 8447
 {	private Option __menuOption_Menu_Deposit; // 0x320
 	private Option __menuOption_Menu_Spin; // 0x378
-	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
+	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
 	public static int ForcePayoutIndex; // 0x0
-	[HeaderAttribute] // RVA: 0x85AD0 Offset: 0x84ED0 VA: 0x180085AD0
+	[HeaderAttribute] // RVA: 0x85BF0 Offset: 0x84FF0 VA: 0x180085BF0
 	public Transform Reel1; // 0x3D0
 	public Transform Reel2; // 0x3D8
 	public Transform Reel3; // 0x3E0
@@ -101,14 +101,14 @@ public class SlotMachine : BaseMountable // TypeDefIndex: 8447
 	public Material PayoutIconMaterial; // 0x460
 	public MeshRenderer[] PulseRenderers; // 0x468
 	public float PulseSpeed; // 0x470
-	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
+	[ColorUsageAttribute] // RVA: 0x85C80 Offset: 0x85080 VA: 0x180085C80
 	public Color PulseFrom; // 0x474
-	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
+	[ColorUsageAttribute] // RVA: 0x85C80 Offset: 0x85080 VA: 0x180085C80
 	public Color PulseTo; // 0x484
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <CurrentMultiplier>k__BackingField; // 0x494
 	private TimeSince lastWin; // 0x498
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Material <instancedSpriteMaterial>k__BackingField; // 0x8
 	private Material instancedPulseMaterial; // 0x4A0
 	private TimeSince pulseTime; // 0x4A8
@@ -130,34 +130,34 @@ public class SlotMachine : BaseMountable // TypeDefIndex: 8447
 
 	private bool get_IsSpinning() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_CurrentMultiplier() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_CurrentMultiplier(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static Material get_instancedSpriteMaterial() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void set_instancedSpriteMaterial(Material value) { }
 
 	protected override bool HideMenuItems(BasePlayer player) { }
 
 	private bool CanSpin() { }
 
-	[BaseEntity.Menu] // RVA: 0x860F0 Offset: 0x854F0 VA: 0x1800860F0
-	[BaseEntity.Menu.Description] // RVA: 0x860F0 Offset: 0x854F0 VA: 0x1800860F0
-	[BaseEntity.Menu.Icon] // RVA: 0x860F0 Offset: 0x854F0 VA: 0x1800860F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x860F0 Offset: 0x854F0 VA: 0x1800860F0
+	[BaseEntity.Menu] // RVA: 0x861E0 Offset: 0x855E0 VA: 0x1800861E0
+	[BaseEntity.Menu.Description] // RVA: 0x861E0 Offset: 0x855E0 VA: 0x1800861E0
+	[BaseEntity.Menu.Icon] // RVA: 0x861E0 Offset: 0x855E0 VA: 0x1800861E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x861E0 Offset: 0x855E0 VA: 0x1800861E0
 	public void Menu_Spin(BasePlayer player) { }
 
 	public bool Menu_Spin_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x86330 Offset: 0x85730 VA: 0x180086330
-	[BaseEntity.Menu.Description] // RVA: 0x86330 Offset: 0x85730 VA: 0x180086330
-	[BaseEntity.Menu.Icon] // RVA: 0x86330 Offset: 0x85730 VA: 0x180086330
-	[BaseEntity.Menu.ShowIf] // RVA: 0x86330 Offset: 0x85730 VA: 0x180086330
+	[BaseEntity.Menu] // RVA: 0x86480 Offset: 0x85880 VA: 0x180086480
+	[BaseEntity.Menu.Description] // RVA: 0x86480 Offset: 0x85880 VA: 0x180086480
+	[BaseEntity.Menu.Icon] // RVA: 0x86480 Offset: 0x85880 VA: 0x180086480
+	[BaseEntity.Menu.ShowIf] // RVA: 0x86480 Offset: 0x85880 VA: 0x180086480
 	public void Menu_Deposit(BasePlayer player) { }
 
 	public bool Menu_Deposit_ShowIf(BasePlayer player) { }
@@ -172,7 +172,7 @@ public class SlotMachine : BaseMountable // TypeDefIndex: 8447
 
 	private static float CalculateReelAngle(int oldResult, int newResult, int numSpins, int maxNumSpins, float timeSinceSpin, float maxTime) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void RPC_OnSpin(BaseEntity.RPCMessage msg) { }
 
 	private void UpdateSpinVisualsInvoke() { }

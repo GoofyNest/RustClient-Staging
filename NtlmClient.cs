@@ -1,5 +1,5 @@
 internal class NtlmClient : IAuthenticationModule // TypeDefIndex: 2560
-{	private static readonly ConditionalWeakTable<HttpWebRequest, NtlmSession> cache; // 0x140B0
+{	private static readonly ConditionalWeakTable<HttpWebRequest, NtlmSession> cache; // 0x135DF
 
 	public string AuthenticationType { get; }
 

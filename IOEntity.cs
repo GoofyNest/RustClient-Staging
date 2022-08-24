@@ -261,15 +261,15 @@ public class IOEntity.IOConnection.LinePointList : IDisposable, Pool.IPooled, IP
 }
 
 public class IOEntity : DecayEntity // TypeDefIndex: 8587
-{	[HeaderAttribute] // RVA: 0xAE9A0 Offset: 0xADDA0 VA: 0x1800AE9A0
+{	[HeaderAttribute] // RVA: 0xAEA40 Offset: 0xADE40 VA: 0x1800AEA40
 	public Transform debugOrigin; // 0x258
 	public ItemDefinition sourceItem; // 0x260
-	[ServerVar] // RVA: 0xAFDA0 Offset: 0xAF1A0 VA: 0x1800AFDA0
-	[HelpAttribute] // RVA: 0xAFDA0 Offset: 0xAF1A0 VA: 0x1800AFDA0
+	[ServerVar] // RVA: 0xAFE70 Offset: 0xAF270 VA: 0x1800AFE70
+	[HelpAttribute] // RVA: 0xAFE70 Offset: 0xAF270 VA: 0x1800AFE70
 	public static float framebudgetms; // 0x0
-	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
+	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
 	public static float responsetime; // 0x4
-	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
+	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
 	public static int backtracking; // 0x8
 	public const BaseEntity.Flags Flag_ShortCircuit = 32768;
 	public const BaseEntity.Flags Flag_HasPower = 65536;
@@ -321,7 +321,7 @@ public class IOEntity : DecayEntity // TypeDefIndex: 8587
 
 	public void RequestAdditionalData(int slot, bool input) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_ReceiveAdditionalData(BaseEntity.RPCMessage msg) { }
 
 	public virtual void ProcessAdditionalData(int first, int second, float third, float fourth) { }

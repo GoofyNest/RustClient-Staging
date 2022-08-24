@@ -18,9 +18,9 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 	internal string percentGroupSeparator; // 0x88
 	internal string percentSymbol; // 0x90
 	internal string perMilleSymbol; // 0x98
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	internal string[] nativeDigits; // 0xA0
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	internal int m_dataItem; // 0xA8
 	internal int numberDecimalDigits; // 0xAC
 	internal int currencyDecimalDigits; // 0xB0
@@ -30,16 +30,16 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 	internal int percentPositivePattern; // 0xC0
 	internal int percentNegativePattern; // 0xC4
 	internal int percentDecimalDigits; // 0xC8
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	internal int digitSubstitution; // 0xCC
 	internal bool isReadOnly; // 0xD0
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	internal bool m_useUserOverride; // 0xD1
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	internal bool m_isInvariant; // 0xD2
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	internal bool validForParseAsNumber; // 0xD3
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	internal bool validForParseAsCurrency; // 0xD4
 	private const NumberStyles InvalidNumberStyles = -1024;
 
@@ -75,13 +75,13 @@ public sealed class NumberFormatInfo : ICloneable, IFormatProvider // TypeDefInd
 
 	public void .ctor() { }
 
-	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnSerializingAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnSerializing(StreamingContext ctx) { }
 
-	[OnDeserializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnDeserializingAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnDeserializing(StreamingContext ctx) { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnDeserializedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnDeserialized(StreamingContext ctx) { }
 
 	internal void .ctor(CultureData cultureData) { }

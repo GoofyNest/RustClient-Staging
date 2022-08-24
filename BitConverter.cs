@@ -1,5 +1,5 @@
 public static class BitConverter // TypeDefIndex: 178
-{	public static readonly bool IsLittleEndian; // 0x2B10394
+{	public static readonly bool IsLittleEndian; // 0x12E60
 
 
 	private static bool AmILittleEndian() { }
@@ -14,13 +14,13 @@ public static class BitConverter // TypeDefIndex: 178
 
 	public static byte[] GetBytes(long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static byte[] GetBytes(ushort value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static byte[] GetBytes(uint value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static byte[] GetBytes(ulong value) { }
 
 	public static byte[] GetBytes(float value) { }
@@ -33,13 +33,13 @@ public static class BitConverter // TypeDefIndex: 178
 
 	public static long ToInt64(byte[] value, int startIndex) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static ushort ToUInt16(byte[] value, int startIndex) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static uint ToUInt32(byte[] value, int startIndex) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static ulong ToUInt64(byte[] value, int startIndex) { }
 
 	private static char GetHexValue(int i) { }

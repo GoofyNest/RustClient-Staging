@@ -1,27 +1,27 @@
 public class EZSoftBoneMaterial : ScriptableObject // TypeDefIndex: 7136
-{	[SerializeField] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
-	[RangeAttribute] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
+{	[SerializeField] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
+	[RangeAttribute] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
 	private float m_Damping; // 0x18
-	[SerializeField] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
-	[EZCurveRectAttribute] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
+	[SerializeField] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
+	[EZCurveRectAttribute] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
 	private AnimationCurve m_DampingCurve; // 0x20
-	[SerializeField] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
-	[RangeAttribute] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
+	[SerializeField] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
+	[RangeAttribute] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
 	private float m_Stiffness; // 0x28
-	[SerializeField] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
-	[EZCurveRectAttribute] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
+	[SerializeField] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
+	[EZCurveRectAttribute] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
 	private AnimationCurve m_StiffnessCurve; // 0x30
-	[SerializeField] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
-	[RangeAttribute] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
+	[SerializeField] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
+	[RangeAttribute] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
 	private float m_Resistance; // 0x38
-	[SerializeField] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
-	[EZCurveRectAttribute] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
+	[SerializeField] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
+	[EZCurveRectAttribute] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
 	private AnimationCurve m_ResistanceCurve; // 0x40
-	[SerializeField] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
-	[RangeAttribute] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
+	[SerializeField] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
+	[RangeAttribute] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
 	private float m_Slackness; // 0x48
-	[SerializeField] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
-	[EZCurveRectAttribute] // RVA: 0x834C0 Offset: 0x828C0 VA: 0x1800834C0
+	[SerializeField] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
+	[EZCurveRectAttribute] // RVA: 0x835D0 Offset: 0x829D0 VA: 0x1800835D0
 	private AnimationCurve m_SlacknessCurve; // 0x50
 	private static EZSoftBoneMaterial m_DefaultMaterial; // 0x0
 

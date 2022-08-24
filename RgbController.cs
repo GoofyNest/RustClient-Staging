@@ -2,19 +2,19 @@ public class RgbController : IDisposable // TypeDefIndex: 7687
 {	private readonly IReadOnlyList<IRgbService> _services; // 0x10
 	private readonly CancellationTokenSource _cts; // 0x18
 	private readonly ManualResetEventSlim _shutdown; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly IRgbService <SteelSeries>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly IRgbService <Razer>k__BackingField; // 0x30
 
 	public IRgbService SteelSeries { get; }
 	public IRgbService Razer { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public IRgbService get_SteelSeries() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public IRgbService get_Razer() { }
 
 	public void .ctor() { }
@@ -27,16 +27,16 @@ public class RgbController : IDisposable // TypeDefIndex: 7687
 
 	public void Event(RgbEventType type) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB9640 Offset: 0xB8A40 VA: 0x1800B9640
+	[AsyncStateMachineAttribute] // RVA: 0xB9790 Offset: 0xB8B90 VA: 0x1800B9790
 	private void Worker() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB9870 Offset: 0xB8C70 VA: 0x1800B9870
+	[AsyncStateMachineAttribute] // RVA: 0xB9930 Offset: 0xB8D30 VA: 0x1800B9930
 	private ValueTask StartServices() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB99E0 Offset: 0xB8DE0 VA: 0x1800B99E0
+	[AsyncStateMachineAttribute] // RVA: 0xB9AA0 Offset: 0xB8EA0 VA: 0x1800B9AA0
 	private ValueTask StopServices() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB9B10 Offset: 0xB8F10 VA: 0x1800B9B10
+	[AsyncStateMachineAttribute] // RVA: 0xB9C60 Offset: 0xB9060 VA: 0x1800B9C60
 	private ValueTask UpdateServices() { }
 
 	public static void LogError(string message) { }
@@ -55,7 +55,7 @@ private struct RgbController.<Worker>d__14 : IAsyncStateMachine // TypeDefIndex:
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -71,7 +71,7 @@ private struct RgbController.<StartServices>d__15 : IAsyncStateMachine // TypeDe
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -87,7 +87,7 @@ private struct RgbController.<StopServices>d__16 : IAsyncStateMachine // TypeDef
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -103,7 +103,7 @@ private struct RgbController.<UpdateServices>d__17 : IAsyncStateMachine // TypeD
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

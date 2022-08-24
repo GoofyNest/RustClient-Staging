@@ -2,7 +2,7 @@ public class RottingFlies : MonoBehaviour, IClientComponent // TypeDefIndex: 935
 {	public GameObjectRef effect; // 0x18
 	public SoundDefinition soundDef; // 0x20
 	public Transform rootBone; // 0x28
-	[ClientVar] // RVA: 0xE7C50 Offset: 0xE7050 VA: 0x1800E7C50
+	[ClientVar] // RVA: 0xE7D40 Offset: 0xE7140 VA: 0x1800E7D40
 	public static bool Hide; // 0x0
 	private GameObject particleInstance; // 0x30
 	private Sound sound; // 0x38

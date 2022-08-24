@@ -1,6 +1,6 @@
 public static class ListEx // TypeDefIndex: 6569
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static T GetRandom<T>(List<T> list) { }
 	/* GenericInstMethod :
 	|
@@ -8,21 +8,21 @@ public static class ListEx // TypeDefIndex: 6569
 	|-ListEx.GetRandom<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static T GetRandom<T>(List<T> list, uint seed) { }
 	/* GenericInstMethod :
 	|
 	|-ListEx.GetRandom<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static T GetRandom<T>(List<T> list, ref uint seed) { }
 	/* GenericInstMethod :
 	|
 	|-ListEx.GetRandom<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void Shuffle<T>(List<T> list, uint seed) { }
 	/* GenericInstMethod :
 	|
@@ -30,7 +30,7 @@ public static class ListEx // TypeDefIndex: 6569
 	|-ListEx.Shuffle<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void Shuffle<T>(List<T> list, ref uint seed) { }
 	/* GenericInstMethod :
 	|
@@ -42,14 +42,14 @@ public static class ListEx // TypeDefIndex: 6569
 	|-ListEx.Shuffle<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void BubbleSort<T>(List<T> list) { }
 	/* GenericInstMethod :
 	|
 	|-ListEx.BubbleSort<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void RemoveUnordered<T>(List<T> list, int index) { }
 	/* GenericInstMethod :
 	|
@@ -60,7 +60,7 @@ public static class ListEx // TypeDefIndex: 6569
 	|-ListEx.RemoveUnordered<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static double TruncatedAverage(List<double> list, float pct) { }
 
 }

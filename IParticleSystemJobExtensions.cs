@@ -1,6 +1,6 @@
 public static class IParticleSystemJobExtensions // TypeDefIndex: 4547
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static JobHandle Schedule<T>(T jobData, ParticleSystem ps, JobHandle dependsOn) { }
 	/* GenericInstMethod :
 	|

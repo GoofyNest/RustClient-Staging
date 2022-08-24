@@ -1,14 +1,14 @@
 public static class CameraEx // TypeDefIndex: 5612
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void FocusOnRenderer(Camera cam, GameObject obj, Vector3 lookDirection, Vector3 Up, int layerMask = -1) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void SaveScreenshot(Camera cam, string name, int width, int height, bool transparent, int SuperSampleSize, Nullable<Color> background) { }
 
 }
 
-public class CameraEx : MonoBehaviour // TypeDefIndex: 11202
+public class CameraEx : MonoBehaviour // TypeDefIndex: 11206
 {	public bool overrideAmbientLight; // 0x18
 	public AmbientMode ambientMode; // 0x1C
 	public Color ambientGroundColor; // 0x20

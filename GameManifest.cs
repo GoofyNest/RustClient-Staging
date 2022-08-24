@@ -1,4 +1,4 @@
-public class GameManifest : ScriptableObject // TypeDefIndex: 10724
+public class GameManifest : ScriptableObject // TypeDefIndex: 10728
 {	internal static GameManifest loadedManifest; // 0x0
 	internal static Dictionary<string, string> guidToPath; // 0x8
 	internal static Dictionary<string, string> pathToGuid; // 0x10
@@ -36,15 +36,15 @@ public class GameManifest : ScriptableObject // TypeDefIndex: 10724
 
 }
 
-public struct GameManifest.PooledString // TypeDefIndex: 10725
-{	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public struct GameManifest.PooledString // TypeDefIndex: 10729
+{	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string str; // 0x0
 	public uint hash; // 0x8
 
 }
 
-public class GameManifest.PrefabProperties // TypeDefIndex: 10726
-{	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class GameManifest.PrefabProperties // TypeDefIndex: 10730
+{	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string name; // 0x10
 	public string guid; // 0x18
 	public uint hash; // 0x20
@@ -55,8 +55,8 @@ public class GameManifest.PrefabProperties // TypeDefIndex: 10726
 
 }
 
-public class GameManifest.EffectCategory // TypeDefIndex: 10727
-{	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class GameManifest.EffectCategory // TypeDefIndex: 10731
+{	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string folder; // 0x10
 	public List<string> prefabs; // 0x18
 
@@ -65,8 +65,8 @@ public class GameManifest.EffectCategory // TypeDefIndex: 10727
 
 }
 
-public class GameManifest.GuidPath // TypeDefIndex: 10728
-{	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class GameManifest.GuidPath // TypeDefIndex: 10732
+{	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string name; // 0x10
 	public string guid; // 0x18
 

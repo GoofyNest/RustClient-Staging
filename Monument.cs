@@ -1,4 +1,4 @@
-public class Monument : TerrainPlacement // TypeDefIndex: 10584
+public class Monument : TerrainPlacement // TypeDefIndex: 10588
 {	public float Radius; // 0x110
 	public float Fade; // 0x114
 
@@ -21,7 +21,7 @@ public class Monument : TerrainPlacement // TypeDefIndex: 10584
 
 }
 
-private sealed class Monument.<>c__DisplayClass3_0 // TypeDefIndex: 10585
+private sealed class Monument.<>c__DisplayClass3_0 // TypeDefIndex: 10589
 {	public Matrix4x4 worldToLocal; // 0x10
 	public Monument <>4__this; // 0x50
 	public bool useBlendMap; // 0x58
@@ -36,7 +36,7 @@ private sealed class Monument.<>c__DisplayClass3_0 // TypeDefIndex: 10585
 
 }
 
-private sealed class Monument.<>c__DisplayClass4_0 // TypeDefIndex: 10586
+private sealed class Monument.<>c__DisplayClass4_0 // TypeDefIndex: 10590
 {	public Matrix4x4 worldToLocal; // 0x10
 	public Monument <>4__this; // 0x50
 	public TextureData splat0data; // 0x58
@@ -57,7 +57,7 @@ private sealed class Monument.<>c__DisplayClass4_0 // TypeDefIndex: 10586
 
 }
 
-private sealed class Monument.<>c__DisplayClass5_0 // TypeDefIndex: 10587
+private sealed class Monument.<>c__DisplayClass5_0 // TypeDefIndex: 10591
 {	public Matrix4x4 worldToLocal; // 0x10
 	public Monument <>4__this; // 0x50
 	public TextureData alphadata; // 0x58
@@ -69,7 +69,7 @@ private sealed class Monument.<>c__DisplayClass5_0 // TypeDefIndex: 10587
 
 }
 
-private sealed class Monument.<>c__DisplayClass6_0 // TypeDefIndex: 10588
+private sealed class Monument.<>c__DisplayClass6_0 // TypeDefIndex: 10592
 {	public Matrix4x4 worldToLocal; // 0x10
 	public Monument <>4__this; // 0x50
 	public TextureData biomedata; // 0x58
@@ -85,7 +85,7 @@ private sealed class Monument.<>c__DisplayClass6_0 // TypeDefIndex: 10588
 
 }
 
-private sealed class Monument.<>c__DisplayClass7_0 // TypeDefIndex: 10589
+private sealed class Monument.<>c__DisplayClass7_0 // TypeDefIndex: 10593
 {	public Matrix4x4 worldToLocal; // 0x10
 	public Monument <>4__this; // 0x50
 	public TextureData topologydata; // 0x58

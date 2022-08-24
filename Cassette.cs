@@ -65,9 +65,9 @@ public class Cassette : BaseEntity, IUGCBrowserEntity // TypeDefIndex: 8544
 {	private static List<Cassette.LoadRequest> loadQueue; // 0x0
 	private static bool isLoading; // 0x8
 	public float MaxCassetteLength; // 0x168
-	[ReplicatedVar] // RVA: 0xA9A10 Offset: 0xA8E10 VA: 0x1800A9A10
+	[ReplicatedVar] // RVA: 0xA9AF0 Offset: 0xA8EF0 VA: 0x1800A9AF0
 	public static float MaxCassetteFileSizeMB; // 0xC
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private uint <AudioId>k__BackingField; // 0x16C
 	public ulong CreatorSteamId; // 0x170
 	public PreloadedCassetteContent.PreloadType PreloadType; // 0x178
@@ -94,10 +94,10 @@ public class Cassette : BaseEntity, IUGCBrowserEntity // TypeDefIndex: 8544
 
 	public static void LoadAudio(byte[] data, Action<AudioClip, bool> onComplete) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public uint get_AudioId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_AudioId(uint value) { }
 
 	public SoundDefinition get_PreloadedAudio() { }
@@ -112,10 +112,10 @@ public class Cassette : BaseEntity, IUGCBrowserEntity // TypeDefIndex: 8544
 
 	public void RequestFileUpdate(Action<AudioClip> onAudioReady) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_ReceiveAudio(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void FailedNetworkFileRequest(BaseEntity.RPCMessage msg) { }
 
 	public static bool IsOggValid(byte[] data, Cassette c) { }
@@ -130,7 +130,7 @@ public class Cassette : BaseEntity, IUGCBrowserEntity // TypeDefIndex: 8544
 
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void <Client_ReceiveAudio>b__32_0(AudioClip clip, bool success) { }
 
 }

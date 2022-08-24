@@ -149,12 +149,12 @@ public class LootableCorpse : BaseCorpse, LootPanel.IHasLootPanel // TypeDefInde
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void RPC_ClientLootCorpse(BaseEntity.RPCMessage rpc) { }
 
-	[BaseEntity.Menu] // RVA: 0xDA1C0 Offset: 0xD95C0 VA: 0x1800DA1C0
-	[BaseEntity.Menu.Description] // RVA: 0xDA1C0 Offset: 0xD95C0 VA: 0x1800DA1C0
-	[BaseEntity.Menu.Icon] // RVA: 0xDA1C0 Offset: 0xD95C0 VA: 0x1800DA1C0
+	[BaseEntity.Menu] // RVA: 0xDA2A0 Offset: 0xD96A0 VA: 0x1800DA2A0
+	[BaseEntity.Menu.Description] // RVA: 0xDA2A0 Offset: 0xD96A0 VA: 0x1800DA2A0
+	[BaseEntity.Menu.Icon] // RVA: 0xDA2A0 Offset: 0xD96A0 VA: 0x1800DA2A0
 	public void Menu_Open(BasePlayer player) { }
 
 	public void .ctor() { }

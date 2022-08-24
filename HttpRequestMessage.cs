@@ -5,7 +5,7 @@ public class HttpRequestMessage : IDisposable // TypeDefIndex: 5754
 	private Uri uri; // 0x28
 	private bool is_used; // 0x30
 	private bool disposed; // 0x31
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private HttpContent <Content>k__BackingField; // 0x38
 
 	public HttpContent Content { get; set; }
@@ -19,10 +19,10 @@ public class HttpRequestMessage : IDisposable // TypeDefIndex: 5754
 
 	public void .ctor(HttpMethod method, Uri requestUri) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public HttpContent get_Content() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Content(HttpContent value) { }
 
 	public HttpRequestHeaders get_Headers() { }

@@ -8,7 +8,7 @@ public class ERSORoadExt : ScriptableObject // TypeDefIndex: 7229
 	public bool markerActive; // 0x3A
 	public float m_distance; // 0x3C
 	public float xPosition; // 0x40
-	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float oldXPosition; // 0x44
 	public float yPosition; // 0x48
 	public Vector3 randomRotation; // 0x4C

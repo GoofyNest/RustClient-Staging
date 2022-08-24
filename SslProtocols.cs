@@ -4,9 +4,9 @@ public enum SslProtocols // TypeDefIndex: 2790
 	public const SslProtocols Ssl2 = 12;
 	public const SslProtocols Ssl3 = 48;
 	public const SslProtocols Tls = 192;
-	[MonoTODOAttribute] // RVA: 0xACBD0 Offset: 0xABFD0 VA: 0x1800ACBD0
+	[MonoTODOAttribute] // RVA: 0xACCE0 Offset: 0xAC0E0 VA: 0x1800ACCE0
 	public const SslProtocols Tls11 = 768;
-	[MonoTODOAttribute] // RVA: 0xACBD0 Offset: 0xABFD0 VA: 0x1800ACBD0
+	[MonoTODOAttribute] // RVA: 0xACCE0 Offset: 0xAC0E0 VA: 0x1800ACCE0
 	public const SslProtocols Tls12 = 3072;
 	public const SslProtocols Default = 240;
 

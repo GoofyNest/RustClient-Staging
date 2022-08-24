@@ -6,19 +6,19 @@ public struct Decimal : IFormattable, IComparable, IConvertible, IDeserializatio
 	private const int ScaleShift = 16;
 	private const int MaxInt32Scale = 9;
 	private static uint[] Powers10; // 0x0
-	[DecimalConstantAttribute] // RVA: 0x76340 Offset: 0x75740 VA: 0x180076340
+	[DecimalConstantAttribute] // RVA: 0x76420 Offset: 0x75820 VA: 0x180076420
 	public static readonly Decimal Zero; // 0x8
-	[DecimalConstantAttribute] // RVA: 0x763C0 Offset: 0x757C0 VA: 0x1800763C0
+	[DecimalConstantAttribute] // RVA: 0x764E0 Offset: 0x758E0 VA: 0x1800764E0
 	public static readonly Decimal One; // 0x18
-	[DecimalConstantAttribute] // RVA: 0x76490 Offset: 0x75890 VA: 0x180076490
+	[DecimalConstantAttribute] // RVA: 0x76580 Offset: 0x75980 VA: 0x180076580
 	public static readonly Decimal MinusOne; // 0x28
-	[DecimalConstantAttribute] // RVA: 0x76550 Offset: 0x75950 VA: 0x180076550
+	[DecimalConstantAttribute] // RVA: 0x76640 Offset: 0x75A40 VA: 0x180076640
 	public static readonly Decimal MaxValue; // 0x38
-	[DecimalConstantAttribute] // RVA: 0x766D0 Offset: 0x75AD0 VA: 0x1800766D0
+	[DecimalConstantAttribute] // RVA: 0x76790 Offset: 0x75B90 VA: 0x180076790
 	public static readonly Decimal MinValue; // 0x48
-	[DecimalConstantAttribute] // RVA: 0x76780 Offset: 0x75B80 VA: 0x180076780
+	[DecimalConstantAttribute] // RVA: 0x76840 Offset: 0x75C40 VA: 0x180076840
 	private static readonly Decimal NearNegativeZero; // 0x58
-	[DecimalConstantAttribute] // RVA: 0x76880 Offset: 0x75C80 VA: 0x180076880
+	[DecimalConstantAttribute] // RVA: 0x76940 Offset: 0x75D40 VA: 0x180076940
 	private static readonly Decimal NearPositiveZero; // 0x68
 	private int flags; // 0x0
 	private int hi; // 0x4
@@ -28,12 +28,12 @@ public struct Decimal : IFormattable, IComparable, IConvertible, IDeserializatio
 
 	public void .ctor(int value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(uint value) { }
 
 	public void .ctor(long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(ulong value) { }
 
 	public void .ctor(float value) { }
@@ -46,7 +46,7 @@ public struct Decimal : IFormattable, IComparable, IConvertible, IDeserializatio
 
 	public void .ctor(int lo, int mid, int hi, bool isNegative, byte scale) { }
 
-	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnSerializingAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnSerializing(StreamingContext ctx) { }
 
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
@@ -57,10 +57,10 @@ public struct Decimal : IFormattable, IComparable, IConvertible, IDeserializatio
 
 	private static void FCallAddSub(ref Decimal d1, ref Decimal d2, byte bSign) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static int Compare(Decimal d1, Decimal d2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	private static int FCallCompare(ref Decimal d1, ref Decimal d2) { }
 
 	public int CompareTo(object value) { }
@@ -95,10 +95,10 @@ public struct Decimal : IFormattable, IComparable, IConvertible, IDeserializatio
 
 	internal static Decimal ToDecimal(byte[] buffer) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	internal static Decimal Max(Decimal d1, Decimal d2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	internal static Decimal Min(Decimal d1, Decimal d2) { }
 
 	public static Decimal Multiply(Decimal d1, Decimal d2) { }
@@ -113,7 +113,7 @@ public struct Decimal : IFormattable, IComparable, IConvertible, IDeserializatio
 
 	public static byte ToByte(Decimal value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static sbyte ToSByte(Decimal value) { }
 
 	public static short ToInt16(Decimal value) { }
@@ -126,13 +126,13 @@ public struct Decimal : IFormattable, IComparable, IConvertible, IDeserializatio
 
 	public static long ToInt64(Decimal d) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static ushort ToUInt16(Decimal value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static uint ToUInt32(Decimal d) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static ulong ToUInt64(Decimal d) { }
 
 	public static float ToSingle(Decimal d) { }
@@ -143,24 +143,24 @@ public struct Decimal : IFormattable, IComparable, IConvertible, IDeserializatio
 
 	public static Decimal op_Implicit(byte value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static Decimal op_Implicit(sbyte value) { }
 
 	public static Decimal op_Implicit(short value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static Decimal op_Implicit(ushort value) { }
 
 	public static Decimal op_Implicit(char value) { }
 
 	public static Decimal op_Implicit(int value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static Decimal op_Implicit(uint value) { }
 
 	public static Decimal op_Implicit(long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static Decimal op_Implicit(ulong value) { }
 
 	public static Decimal op_Explicit(float value) { }
@@ -171,7 +171,7 @@ public struct Decimal : IFormattable, IComparable, IConvertible, IDeserializatio
 
 	public static long op_Explicit(Decimal value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static ulong op_Explicit(Decimal value) { }
 
 	public static float op_Explicit(Decimal value) { }

@@ -1,7 +1,7 @@
 public struct int2 : IEquatable<int2>, IFormattable // TypeDefIndex: 7110
 {
-[DefaultMemberAttribute] // RVA: 0x7F740 Offset: 0x7EB40 VA: 0x18007F740
-[DebuggerTypeProxyAttribute] // RVA: 0x7F740 Offset: 0x7EB40 VA: 0x18007F740
+[DefaultMemberAttribute] // RVA: 0x7F7D0 Offset: 0x7EBD0 VA: 0x18007F7D0
+[DebuggerTypeProxyAttribute] // RVA: 0x7F7D0 Offset: 0x7EBD0 VA: 0x18007F7D0
 [Serializable]
 public struct int2 : IEquatable<int2>, IFormattable // TypeDefIndex: 7110
 	public int x; // 0x0

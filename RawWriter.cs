@@ -1,4 +1,4 @@
-public static class RawWriter // TypeDefIndex: 11401
+public static class RawWriter // TypeDefIndex: 11405
 {
 	public static void Write(IEnumerable<byte> data, string path) { }
 

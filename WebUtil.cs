@@ -2,25 +2,25 @@ public static class WebUtil // TypeDefIndex: 6230
 {
 	internal static void Get(string url, Action<string> result) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xAB1B0 Offset: 0xAA5B0 VA: 0x1800AB1B0
+	[IteratorStateMachineAttribute] // RVA: 0xAB280 Offset: 0xAA680 VA: 0x1800AB280
 	private static IEnumerator DownloadStringCoroutine(UnityWebRequest www, Action<string> result) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xAB2F0 Offset: 0xAA6F0 VA: 0x1800AB2F0
+	[AsyncStateMachineAttribute] // RVA: 0xAB3C0 Offset: 0xAA7C0 VA: 0x1800AB3C0
 	public static Task<string> DownloadFileTemp(string url, bool keepextension) { }
 
 	private static void DownloadString(UnityWebRequest www, Action<string> result) { }
 
 	internal static void Post(string url, Dictionary<string, string> data, bool wait, Action<string> result) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xAB480 Offset: 0xAA880 VA: 0x1800AB480
+	[AsyncStateMachineAttribute] // RVA: 0xAB590 Offset: 0xAA990 VA: 0x1800AB590
 	internal static Task<string> PostAsync(string url, Dictionary<string, string> data) { }
 
 	internal static void PostData(string url, object dataObject, Action<string> result, bool wait = False) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xAB650 Offset: 0xAAA50 VA: 0x1800AB650
+	[AsyncStateMachineAttribute] // RVA: 0xAB730 Offset: 0xAAB30 VA: 0x1800AB730
 	internal static Task<string> PostDataAsync(string url, object dataObject) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xAB800 Offset: 0xAAC00 VA: 0x1800AB800
+	[IteratorStateMachineAttribute] // RVA: 0xAB910 Offset: 0xAAD10 VA: 0x1800AB910
 	private static IEnumerator PostValuesCoroutine(WWW www, Action<string> result) { }
 
 	internal static string Escape(string type) { }
@@ -45,21 +45,21 @@ private sealed class WebUtil.<DownloadStringCoroutine>d__2 : IEnumerator<object>
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -77,7 +77,7 @@ private struct WebUtil.<DownloadFileTemp>d__3 : IAsyncStateMachine // TypeDefInd
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -94,7 +94,7 @@ private struct WebUtil.<PostAsync>d__6 : IAsyncStateMachine // TypeDefIndex: 623
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -112,7 +112,7 @@ private struct WebUtil.<PostDataAsync>d__8 : IAsyncStateMachine // TypeDefIndex:
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -127,21 +127,21 @@ private sealed class WebUtil.<PostValuesCoroutine>d__9 : IEnumerator<object>, IE
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

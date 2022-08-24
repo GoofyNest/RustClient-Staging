@@ -1,8 +1,8 @@
-public static class StreamEx // TypeDefIndex: 11354
-{	private static readonly byte[] StaticBuffer; // 0x1E01C
+public static class StreamEx // TypeDefIndex: 11358
+{	private static readonly byte[] StaticBuffer; // 0x1D258
 
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void WriteToOtherStream(Stream self, Stream target) { }
 
 	private static void .cctor() { }

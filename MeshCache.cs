@@ -1,5 +1,5 @@
 public static class MeshCache // TypeDefIndex: 9153
-{	public static Dictionary<Mesh, MeshCache.Data> dictionary; // 0x1BB0
+{	public static Dictionary<Mesh, MeshCache.Data> dictionary; // 0x163C
 
 
 	public static MeshCache.Data Get(Mesh mesh) { }

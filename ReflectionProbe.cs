@@ -1,20 +1,20 @@
 public sealed class ReflectionProbe : Behaviour // TypeDefIndex: 3368
-{	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
 	private static Action<ReflectionProbe, ReflectionProbe.ReflectionProbeEvent> reflectionProbeChanged; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
 	private static Action<Cubemap> defaultReflectionSet; // 0x8
 
-	[NativeNameAttribute] // RVA: 0x7AF90 Offset: 0x7A390 VA: 0x18007AF90
+	[NativeNameAttribute] // RVA: 0x7B040 Offset: 0x7A440 VA: 0x18007B040
 	public Vector3 size { set; }
-	[NativeNameAttribute] // RVA: 0x7B330 Offset: 0x7A730 VA: 0x18007B330
+	[NativeNameAttribute] // RVA: 0x7B3E0 Offset: 0x7A7E0 VA: 0x18007B3E0
 	public float nearClipPlane { get; set; }
-	[NativeNameAttribute] // RVA: 0x7B460 Offset: 0x7A860 VA: 0x18007B460
+	[NativeNameAttribute] // RVA: 0x7B4E0 Offset: 0x7A8E0 VA: 0x18007B4E0
 	public float farClipPlane { get; set; }
-	[NativeNameAttribute] // RVA: 0x7B510 Offset: 0x7A910 VA: 0x18007B510
+	[NativeNameAttribute] // RVA: 0x7B590 Offset: 0x7A990 VA: 0x18007B590
 	public float intensity { get; set; }
-	[NativeNameAttribute] // RVA: 0x7B6E0 Offset: 0x7AAE0 VA: 0x18007B6E0
+	[NativeNameAttribute] // RVA: 0x7B750 Offset: 0x7AB50 VA: 0x18007B750
 	public bool hdr { get; }
 	public float shadowDistance { get; }
 	public int resolution { get; set; }
@@ -92,14 +92,14 @@ public sealed class ReflectionProbe : Behaviour // TypeDefIndex: 3368
 
 	private int ScheduleRender(ReflectionProbeTimeSlicingMode timeSlicingMode, RenderTexture targetTexture) { }
 
-	[NativeHeaderAttribute] // RVA: 0x7AAC0 Offset: 0x79EC0 VA: 0x18007AAC0
-	[FreeFunctionAttribute] // RVA: 0x7AAC0 Offset: 0x79EC0 VA: 0x18007AAC0
+	[FreeFunctionAttribute] // RVA: 0x7AAD0 Offset: 0x79ED0 VA: 0x18007AAD0
+	[NativeHeaderAttribute] // RVA: 0x7AAD0 Offset: 0x79ED0 VA: 0x18007AAD0
 	public static bool BlendCubemap(Texture src, Texture dst, float blend, RenderTexture target) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void CallReflectionProbeEvent(ReflectionProbe probe, ReflectionProbe.ReflectionProbeEvent probeEvent) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void CallSetDefaultReflection(Cubemap defaultReflectionCubemap) { }
 
 	private void set_size_Injected(ref Vector3 value) { }

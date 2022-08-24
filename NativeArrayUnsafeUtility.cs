@@ -1,10 +1,10 @@
 public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 {
-[RequiredByNativeCodeAttribute] // RVA: 0xE0E80 Offset: 0xE0280 VA: 0x1800E0E80
-[AttributeUsageAttribute] // RVA: 0xE0E80 Offset: 0xE0280 VA: 0x1800E0E80
+[AttributeUsageAttribute] // RVA: 0xC8DA0 Offset: 0xC81A0 VA: 0x1800C8DA0
+[RequiredByNativeCodeAttribute] // RVA: 0xC8DA0 Offset: 0xC81A0 VA: 0x1800C8DA0
 public sealed class NativeSetClassTypeToNullOnScheduleAttribute : Attribute // TypeDefIndex: 3338
 
-[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 
 	public static NativeArray<T> ConvertExistingDataToNativeArray<T>(void* dataPointer, int length, Allocator allocator) { }
@@ -30,7 +30,7 @@ public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 	|-NativeArrayUnsafeUtility.ConvertExistingDataToNativeArray<Vector4>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void* GetUnsafePtr<T>(NativeArray<T> nativeArray) { }
 	/* GenericInstMethod :
 	|
@@ -39,7 +39,7 @@ public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 	|-NativeArrayUnsafeUtility.GetUnsafePtr<float3>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void* GetUnsafeReadOnlyPtr<T>(NativeArray<T> nativeArray) { }
 	/* GenericInstMethod :
 	|

@@ -1,7 +1,7 @@
 public sealed class RectTransform : Transform // TypeDefIndex: 3565
-{	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	private static RectTransform.ReapplyDrivenProperties reapplyDrivenProperties; // 0x1458F
+{	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	private static RectTransform.ReapplyDrivenProperties reapplyDrivenProperties; // 0x2B117C0
 
 	public Rect rect { get; }
 	public Vector2 anchorMin { get; set; }
@@ -14,10 +14,10 @@ public sealed class RectTransform : Transform // TypeDefIndex: 3565
 	public Vector2 offsetMax { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void add_reapplyDrivenProperties(RectTransform.ReapplyDrivenProperties value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void remove_reapplyDrivenProperties(RectTransform.ReapplyDrivenProperties value) { }
 
 	public Rect get_rect() { }
@@ -62,7 +62,7 @@ public sealed class RectTransform : Transform // TypeDefIndex: 3565
 
 	public void SetSizeWithCurrentAnchors(RectTransform.Axis axis, float size) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void SendReapplyDrivenProperties(RectTransform driven) { }
 
 	private Vector2 GetParentSize() { }

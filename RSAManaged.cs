@@ -11,7 +11,7 @@ internal class RSAManaged : RSA // TypeDefIndex: 75
 	private BigInteger qInv; // 0x50
 	private BigInteger n; // 0x58
 	private BigInteger e; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private RSAManaged.KeyGeneratedEventHandler KeyGenerated; // 0x68
 
 	public override int KeySize { get; }
@@ -36,10 +36,10 @@ internal class RSAManaged : RSA // TypeDefIndex: 75
 
 	protected override void Dispose(bool disposing) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void add_KeyGenerated(RSAManaged.KeyGeneratedEventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void remove_KeyGenerated(RSAManaged.KeyGeneratedEventHandler value) { }
 
 	public override string ToXmlString(bool includePrivateParameters) { }
@@ -72,7 +72,7 @@ public class RSAManaged : RSA // TypeDefIndex: 1761
 	private BigInteger qInv; // 0x50
 	private BigInteger n; // 0x58
 	private BigInteger e; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private RSAManaged.KeyGeneratedEventHandler KeyGenerated; // 0x68
 
 	public bool PublicOnly { get; }

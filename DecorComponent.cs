@@ -1,4 +1,4 @@
-public abstract class DecorComponent : PrefabAttribute // TypeDefIndex: 10321
+public abstract class DecorComponent : PrefabAttribute // TypeDefIndex: 10325
 {	internal bool isRoot; // 0x98
 
 

@@ -12,10 +12,10 @@ public class MountableParentCombatEntity : BaseCombatEntity // TypeDefIndex: 842
 
 	private BaseMountable get_Mountable() { }
 
-	[BaseEntity.Menu] // RVA: 0x7AB20 Offset: 0x79F20 VA: 0x18007AB20
-	[BaseEntity.Menu.Description] // RVA: 0x7AB20 Offset: 0x79F20 VA: 0x18007AB20
-	[BaseEntity.Menu.Icon] // RVA: 0x7AB20 Offset: 0x79F20 VA: 0x18007AB20
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7AB20 Offset: 0x79F20 VA: 0x18007AB20
+	[BaseEntity.Menu] // RVA: 0x7AB80 Offset: 0x79F80 VA: 0x18007AB80
+	[BaseEntity.Menu.Description] // RVA: 0x7AB80 Offset: 0x79F80 VA: 0x18007AB80
+	[BaseEntity.Menu.Icon] // RVA: 0x7AB80 Offset: 0x79F80 VA: 0x18007AB80
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7AB80 Offset: 0x79F80 VA: 0x18007AB80
 	public void Menu_Mount(BasePlayer player) { }
 
 	public bool Menu_Mount_ShowIf(BasePlayer player) { }

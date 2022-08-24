@@ -14,7 +14,7 @@ public class ReaderWriterLockSlim : IDisposable // TypeDefIndex: 3191
 	private EventWaitHandle waitUpgradeEvent; // 0x50
 	private static long s_nextLockID; // 0x0
 	private long lockID; // 0x58
-	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ThreadStaticAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static ReaderWriterCount t_rwc; // 0x80000000
 	private bool fUpgradeThreadHoldingRead; // 0x60
 	private uint owners; // 0x64

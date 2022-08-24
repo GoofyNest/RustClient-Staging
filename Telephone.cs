@@ -77,7 +77,7 @@ public class Telephone : ContainerIOEntity, ICassettePlayer // TypeDefIndex: 846
 	public Transform CableStartPoint; // 0x458
 	public Transform CableEndPoint; // 0x460
 	public float LineDroopAmount; // 0x468
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Cassette <cachedCassette>k__BackingField; // 0x470
 	public PhoneController Controller; // 0x478
 	private Vector3[] cablePoints; // 0x480
@@ -96,29 +96,29 @@ public class Telephone : ContainerIOEntity, ICassettePlayer // TypeDefIndex: 846
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Cassette get_cachedCassette() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_cachedCassette(Cassette value) { }
 
-	[BaseEntity.Menu] // RVA: 0x8FBC0 Offset: 0x8EFC0 VA: 0x18008FBC0
-	[BaseEntity.Menu.Description] // RVA: 0x8FBC0 Offset: 0x8EFC0 VA: 0x18008FBC0
-	[BaseEntity.Menu.Icon] // RVA: 0x8FBC0 Offset: 0x8EFC0 VA: 0x18008FBC0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8FBC0 Offset: 0x8EFC0 VA: 0x18008FBC0
+	[BaseEntity.Menu] // RVA: 0x8FD00 Offset: 0x8F100 VA: 0x18008FD00
+	[BaseEntity.Menu.Description] // RVA: 0x8FD00 Offset: 0x8F100 VA: 0x18008FD00
+	[BaseEntity.Menu.Icon] // RVA: 0x8FD00 Offset: 0x8F100 VA: 0x18008FD00
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8FD00 Offset: 0x8F100 VA: 0x18008FD00
 	public void Menu_MakeCall(BasePlayer player) { }
 
 	private void DelayedViewModelDeploy() { }
 
 	public void HolsterViewmodel() { }
 
-	[BaseEntity.Menu] // RVA: 0x8FF40 Offset: 0x8F340 VA: 0x18008FF40
-	[BaseEntity.Menu.Description] // RVA: 0x8FF40 Offset: 0x8F340 VA: 0x18008FF40
-	[BaseEntity.Menu.Icon] // RVA: 0x8FF40 Offset: 0x8F340 VA: 0x18008FF40
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8FF40 Offset: 0x8F340 VA: 0x18008FF40
+	[BaseEntity.Menu] // RVA: 0x90080 Offset: 0x8F480 VA: 0x180090080
+	[BaseEntity.Menu.Description] // RVA: 0x90080 Offset: 0x8F480 VA: 0x180090080
+	[BaseEntity.Menu.Icon] // RVA: 0x90080 Offset: 0x8F480 VA: 0x180090080
+	[BaseEntity.Menu.ShowIf] // RVA: 0x90080 Offset: 0x8F480 VA: 0x180090080
 	public void Menu_Answer(BasePlayer player) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void SetClientState(BaseEntity.RPCMessage msg) { }
 
 	private void LateUpdate() { }
@@ -135,30 +135,30 @@ public class Telephone : ContainerIOEntity, ICassettePlayer // TypeDefIndex: 846
 
 	public override bool ShouldShowLootMenus() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void ClientOnDialFailed(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void ClientReceiveAnsweringData(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void ClientPlayAnsweringMessage(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void OnIncomingCallDuringCall() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void OnReceivedVoice(BaseEntity.RPCMessage msg) { }
 
 	public void OnLoadedWithCassette(Cassette c) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void ClientOnCassetteChanged(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void ReceivePhoneDirectory(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void ClientToggleVoicemail(BaseEntity.RPCMessage msg) { }
 
 	public void OnCensorRecordingsChanged() { }

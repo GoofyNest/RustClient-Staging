@@ -1,7 +1,7 @@
-public class Decor : ConsoleSystem // TypeDefIndex: 11906
-{	private static float m_quality; // 0x1E530
+public class Decor : ConsoleSystem // TypeDefIndex: 11910
+{	private static float m_quality; // 0x1D85D
 
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float quality { get; set; }
 	public static float quality01 { get; set; }
 

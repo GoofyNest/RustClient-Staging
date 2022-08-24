@@ -174,9 +174,9 @@ public class Assembly : ICustomAttributeProvider, ISerializable, _Assembly // Ty
 	public virtual string CodeBase { get; }
 	public virtual string FullName { get; }
 	public virtual string Location { get; }
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public virtual bool ReflectionOnly { get; }
-	[MonoTODOAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[MonoTODOAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool IsFullyTrusted { get; }
 
 
@@ -250,7 +250,7 @@ public class Assembly : ICustomAttributeProvider, ISerializable, _Assembly // Ty
 
 	public static Assembly LoadFrom(string assemblyFile) { }
 
-	[ObsoleteAttribute] // RVA: 0x9E110 Offset: 0x9D510 VA: 0x18009E110
+	[ObsoleteAttribute] // RVA: 0x9E200 Offset: 0x9D600 VA: 0x18009E200
 	public static Assembly LoadFrom(string assemblyFile, Evidence securityEvidence) { }
 
 	public static Assembly Load(string assemblyString) { }
@@ -259,7 +259,7 @@ public class Assembly : ICustomAttributeProvider, ISerializable, _Assembly // Ty
 
 	private static Assembly load_with_partial_name(string name, Evidence e) { }
 
-	[ObsoleteAttribute] // RVA: 0x9E240 Offset: 0x9D640 VA: 0x18009E240
+	[ObsoleteAttribute] // RVA: 0x9E2E0 Offset: 0x9D6E0 VA: 0x18009E2E0
 	public static Assembly LoadWithPartialName(string partialName, Evidence securityEvidence) { }
 
 	internal static Assembly LoadWithPartialName(string partialName, Evidence securityEvidence, bool oldBehavior) { }

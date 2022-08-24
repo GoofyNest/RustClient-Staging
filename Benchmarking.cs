@@ -1,5 +1,5 @@
 public static class Benchmarking // TypeDefIndex: 8261
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static bool <IsBenchmarking>k__BackingField; // 0x0
 	public static string[] BenchmarkScenes; // 0x8
 
@@ -7,30 +7,30 @@ public static class Benchmarking // TypeDefIndex: 8261
 	public static bool IsAutoBenchmark { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool get_IsBenchmarking() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void set_IsBenchmarking(bool value) { }
 
 	public static bool get_IsAutoBenchmark() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA2F90 Offset: 0xA2390 VA: 0x1800A2F90
+	[AsyncStateMachineAttribute] // RVA: 0xA3060 Offset: 0xA2460 VA: 0x1800A3060
 	public static Task RunAsync(string demoName, bool runBenchmarkScenes = True) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3050 Offset: 0xA2450 VA: 0x1800A3050
+	[AsyncStateMachineAttribute] // RVA: 0xA3130 Offset: 0xA2530 VA: 0x1800A3130
 	public static Task RunSingleSceneAsync(string scene) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3180 Offset: 0xA2580 VA: 0x1800A3180
+	[AsyncStateMachineAttribute] // RVA: 0xA32A0 Offset: 0xA26A0 VA: 0x1800A32A0
 	private static Task RunBenchmarkScene(string scene) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3320 Offset: 0xA2720 VA: 0x1800A3320
+	[AsyncStateMachineAttribute] // RVA: 0xA3440 Offset: 0xA2840 VA: 0x1800A3440
 	public static Task RunBenchmarksInScene() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3430 Offset: 0xA2830 VA: 0x1800A3430
+	[AsyncStateMachineAttribute] // RVA: 0xA3510 Offset: 0xA2910 VA: 0x1800A3510
 	private static Task Report() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA34B0 Offset: 0xA28B0 VA: 0x1800A34B0
+	[AsyncStateMachineAttribute] // RVA: 0xA35D0 Offset: 0xA29D0 VA: 0x1800A35D0
 	private static Task RunDemoBasedBenchmark(string demoName, string benchmarkLabel = "") { }
 
 	private static void RecordBundleSizes() { }
@@ -53,7 +53,7 @@ private struct Benchmarking.<RunAsync>d__7 : IAsyncStateMachine // TypeDefIndex:
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -69,7 +69,7 @@ private struct Benchmarking.<RunSingleSceneAsync>d__8 : IAsyncStateMachine // Ty
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -83,7 +83,7 @@ private struct Benchmarking.<RunBenchmarkScene>d__9 : IAsyncStateMachine // Type
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -99,7 +99,7 @@ private struct Benchmarking.<RunBenchmarksInScene>d__10 : IAsyncStateMachine // 
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -112,7 +112,7 @@ private struct Benchmarking.<Report>d__11 : IAsyncStateMachine // TypeDefIndex: 
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -127,7 +127,7 @@ private struct Benchmarking.<RunDemoBasedBenchmark>d__12 : IAsyncStateMachine //
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

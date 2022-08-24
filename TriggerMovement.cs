@@ -1,5 +1,5 @@
 public class TriggerMovement : TriggerBase, IClientComponent // TypeDefIndex: 9246
-{	[TooltipAttribute] // RVA: 0x78050 Offset: 0x77450 VA: 0x180078050
+{	[TooltipAttribute] // RVA: 0x78090 Offset: 0x77490 VA: 0x180078090
 	public Transform losEyes; // 0x30
 	public BaseEntity.MovementModify movementModify; // 0x38
 	private float scale; // 0x3C

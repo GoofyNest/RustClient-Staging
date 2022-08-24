@@ -6,7 +6,7 @@ public class Toolgun : Hammer // TypeDefIndex: 8655
 	public GameObjectRef beamEffectClassic; // 0x300
 	public GameObjectRef beamImpactEffectClassic; // 0x308
 	public Transform muzzlePoint; // 0x310
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool classiceffects; // 0x0
 
 
@@ -20,7 +20,7 @@ public class Toolgun : Hammer // TypeDefIndex: 8655
 
 	public void DoAttackEffect(Vector3 endPos, Vector3 normal) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void EffectSpawn(BaseEntity.RPCMessage msg) { }
 
 	public override void ClientAttack() { }

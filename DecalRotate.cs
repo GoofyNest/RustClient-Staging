@@ -1,5 +1,5 @@
 public class DecalRotate : DecalComponent // TypeDefIndex: 9177
-{	[MinMaxAttribute] // RVA: 0xD60A0 Offset: 0xD54A0 VA: 0x1800D60A0
+{	[MinMaxAttribute] // RVA: 0xD61D0 Offset: 0xD55D0 VA: 0x1800D61D0
 	public MinMax range; // 0x98
 
 

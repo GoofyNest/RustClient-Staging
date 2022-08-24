@@ -6,7 +6,7 @@ public struct PlayableHandle : IEquatable<PlayableHandle> // TypeDefIndex: 3870
 	public static PlayableHandle Null { get; }
 
 
-	[VisibleToOtherModulesAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[VisibleToOtherModulesAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool IsPlayableOfType<T>() { }
 	/* GenericInstMethod :
 	|
@@ -41,11 +41,11 @@ public struct PlayableHandle : IEquatable<PlayableHandle> // TypeDefIndex: 3870
 
 	internal static bool CompareVersion(PlayableHandle lhs, PlayableHandle rhs) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[VisibleToOtherModulesAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool IsValid() { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0x81410 Offset: 0x80810 VA: 0x180081410
-	[FreeFunctionAttribute] // RVA: 0x81410 Offset: 0x80810 VA: 0x180081410
+	[FreeFunctionAttribute] // RVA: 0x814C0 Offset: 0x808C0 VA: 0x1800814C0
+	[VisibleToOtherModulesAttribute] // RVA: 0x814C0 Offset: 0x808C0 VA: 0x1800814C0
 	internal Type GetPlayableType() { }
 
 	private static void .cctor() { }

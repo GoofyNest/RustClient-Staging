@@ -73,10 +73,10 @@ public class Lift : AnimatedBuildingBlock // TypeDefIndex: 8403
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.Menu] // RVA: 0x7DC20 Offset: 0x7D020 VA: 0x18007DC20
-	[BaseEntity.Menu.Description] // RVA: 0x7DC20 Offset: 0x7D020 VA: 0x18007DC20
-	[BaseEntity.Menu.Icon] // RVA: 0x7DC20 Offset: 0x7D020 VA: 0x18007DC20
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7DC20 Offset: 0x7D020 VA: 0x18007DC20
+	[BaseEntity.Menu] // RVA: 0x7DCB0 Offset: 0x7D0B0 VA: 0x18007DCB0
+	[BaseEntity.Menu.Description] // RVA: 0x7DCB0 Offset: 0x7D0B0 VA: 0x18007DCB0
+	[BaseEntity.Menu.Icon] // RVA: 0x7DCB0 Offset: 0x7D0B0 VA: 0x18007DCB0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7DCB0 Offset: 0x7D0B0 VA: 0x18007DCB0
 	public void Menu_UseLift(BasePlayer player) { }
 
 	public bool Menu_UseLift_ShowIf(BasePlayer player) { }

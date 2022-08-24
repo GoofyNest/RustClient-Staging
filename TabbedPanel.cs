@@ -1,4 +1,4 @@
-internal class TabbedPanel // TypeDefIndex: 12022
+internal class TabbedPanel // TypeDefIndex: 12026
 {	private int selectedTabID; // 0x10
 	private List<TabbedPanel.Tab> tabs; // 0x18
 
@@ -17,7 +17,7 @@ internal class TabbedPanel // TypeDefIndex: 12022
 
 }
 
-public struct TabbedPanel.Tab // TypeDefIndex: 12023
+public struct TabbedPanel.Tab // TypeDefIndex: 12027
 {	public string name; // 0x0
 	public Action drawFunc; // 0x8
 

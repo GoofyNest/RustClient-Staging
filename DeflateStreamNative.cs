@@ -21,12 +21,12 @@ internal class DeflateStreamNative // TypeDefIndex: 2865
 
 	public void WriteZStream(IntPtr buffer, int length) { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0xB3170 Offset: 0xB2570 VA: 0x1800B3170
+	[MonoPInvokeCallbackAttribute] // RVA: 0xB31F0 Offset: 0xB25F0 VA: 0x1800B31F0
 	private static int UnmanagedRead(IntPtr buffer, int length, IntPtr data) { }
 
 	private int UnmanagedRead(IntPtr buffer, int length) { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0xB31F0 Offset: 0xB25F0 VA: 0x1800B31F0
+	[MonoPInvokeCallbackAttribute] // RVA: 0xB3270 Offset: 0xB2670 VA: 0x1800B3270
 	private static int UnmanagedWrite(IntPtr buffer, int length, IntPtr data) { }
 
 	private int UnmanagedWrite(IntPtr buffer, int length) { }

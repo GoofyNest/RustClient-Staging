@@ -1,12 +1,12 @@
-public class RCon // TypeDefIndex: 11990
+public class RCon // TypeDefIndex: 11994
 {	public static string Password; // 0x0
-	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
+	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
 	public static int Port; // 0x8
-	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
+	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
 	public static string Ip; // 0x10
-	[ServerVar] // RVA: 0xCAAA0 Offset: 0xC9EA0 VA: 0x1800CAAA0
+	[ServerVar] // RVA: 0xCADD0 Offset: 0xCA1D0 VA: 0x1800CADD0
 	public static bool Web; // 0x18
-	[ServerVar] // RVA: 0xCACF0 Offset: 0xCA0F0 VA: 0x1800CACF0
+	[ServerVar] // RVA: 0xCAF90 Offset: 0xCA390 VA: 0x1800CAF90
 	public static bool Print; // 0x19
 	internal static RCon.RConListener listener; // 0x20
 	internal static Listener listenerNew; // 0x28
@@ -46,7 +46,7 @@ public class RCon // TypeDefIndex: 11990
 
 }
 
-public struct RCon.Command // TypeDefIndex: 11991
+public struct RCon.Command // TypeDefIndex: 11995
 {	public IPAddress Ip; // 0x0
 	public int ConnectionId; // 0x8
 	public string Name; // 0x10
@@ -55,7 +55,7 @@ public struct RCon.Command // TypeDefIndex: 11991
 
 }
 
-public enum RCon.LogType // TypeDefIndex: 11992
+public enum RCon.LogType // TypeDefIndex: 11996
 {	public int value__; // 0x0
 	public const RCon.LogType Generic = 0;
 	public const RCon.LogType Error = 1;
@@ -65,22 +65,22 @@ public enum RCon.LogType // TypeDefIndex: 11992
 
 }
 
-public struct RCon.Response // TypeDefIndex: 11993
+public struct RCon.Response // TypeDefIndex: 11997
 {	public string Message; // 0x0
 	public int Identifier; // 0x8
-	[JsonConverterAttribute] // RVA: 0xCAE70 Offset: 0xCA270 VA: 0x1800CAE70
+	[JsonConverterAttribute] // RVA: 0xCB070 Offset: 0xCA470 VA: 0x1800CB070
 	public RCon.LogType Type; // 0xC
 	public string Stacktrace; // 0x10
 
 }
 
-internal struct RCon.BannedAddresses // TypeDefIndex: 11994
+internal struct RCon.BannedAddresses // TypeDefIndex: 11998
 {	public IPAddress addr; // 0x0
 	public float banTime; // 0x8
 
 }
 
-internal class RCon.RConClient // TypeDefIndex: 11995
+internal class RCon.RConClient // TypeDefIndex: 11999
 {	private Socket socket; // 0x10
 	private bool isAuthorised; // 0x18
 	private string connectionName; // 0x20
@@ -109,7 +109,7 @@ internal class RCon.RConClient // TypeDefIndex: 11995
 
 }
 
-internal class RCon.RConListener // TypeDefIndex: 11996
+internal class RCon.RConListener // TypeDefIndex: 12000
 {	private TcpListener server; // 0x10
 	private List<RCon.RConClient> clients; // 0x18
 
@@ -128,7 +128,7 @@ internal class RCon.RConListener // TypeDefIndex: 11996
 
 }
 
-private sealed class RCon.RConListener.<>c // TypeDefIndex: 11997
+private sealed class RCon.RConListener.<>c // TypeDefIndex: 12001
 {	public static readonly RCon.RConListener.<>c <>9; // 0x0
 	public static Predicate<RCon.RConClient> <>9__7_0; // 0x8
 
@@ -141,7 +141,7 @@ private sealed class RCon.RConListener.<>c // TypeDefIndex: 11997
 
 }
 
-private sealed class RCon.<>c // TypeDefIndex: 11998
+private sealed class RCon.<>c // TypeDefIndex: 12002
 {	public static readonly RCon.<>c <>9; // 0x0
 	public static Action<IPAddress, int, string> <>9__11_0; // 0x8
 	public static Predicate<RCon.BannedAddresses> <>9__15_0; // 0x10
@@ -157,7 +157,7 @@ private sealed class RCon.<>c // TypeDefIndex: 11998
 
 }
 
-private sealed class RCon.<>c__DisplayClass18_0 // TypeDefIndex: 11999
+private sealed class RCon.<>c__DisplayClass18_0 // TypeDefIndex: 12003
 {	public IPAddress addr; // 0x10
 
 
@@ -167,7 +167,7 @@ private sealed class RCon.<>c__DisplayClass18_0 // TypeDefIndex: 11999
 
 }
 
-private sealed class RCon.<>c__DisplayClass19_0 // TypeDefIndex: 12000
+private sealed class RCon.<>c__DisplayClass19_0 // TypeDefIndex: 12004
 {	public IPAddress addr; // 0x10
 
 

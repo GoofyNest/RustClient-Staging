@@ -1,14 +1,14 @@
-public class Reflection : ConsoleSystem // TypeDefIndex: 11958
-{	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+public class Reflection : ConsoleSystem // TypeDefIndex: 11962
+{	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool interiors; // 0x0
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool forests; // 0x1
 
-	[ClientVar] // RVA: 0x89230 Offset: 0x88630 VA: 0x180089230
+	[ClientVar] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
 	public static int resolution { get; set; }
-	[ClientVar] // RVA: 0x89230 Offset: 0x88630 VA: 0x180089230
+	[ClientVar] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
 	public static float updateinterval { get; set; }
-	[ClientVar] // RVA: 0x89230 Offset: 0x88630 VA: 0x180089230
+	[ClientVar] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
 	public static int timeslicing { get; set; }
 
 

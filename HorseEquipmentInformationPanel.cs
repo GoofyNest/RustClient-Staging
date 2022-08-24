@@ -1,4 +1,4 @@
-public class HorseEquipmentInformationPanel : ItemInformationPanel // TypeDefIndex: 11006
+public class HorseEquipmentInformationPanel : ItemInformationPanel // TypeDefIndex: 11010
 {	public ItemTextValue horseProtectionDisplay; // 0x18
 	public ItemTextValue riderProtectionDisplay; // 0x20
 	public ItemTextValue maxSpeedDisplay; // 0x28

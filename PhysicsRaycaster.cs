@@ -1,9 +1,9 @@
 public class PhysicsRaycaster : BaseRaycaster // TypeDefIndex: 5093
 {	protected const int kNoEventMaskSet = -1;
 	protected Camera m_EventCamera; // 0x20
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected LayerMask m_EventMask; // 0x28
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected int m_MaxRayIntersections; // 0x2C
 	protected int m_LastMaxRayIntersections; // 0x30
 	private RaycastHit[] m_Hits; // 0x38
@@ -38,7 +38,7 @@ public class PhysicsRaycaster : BaseRaycaster // TypeDefIndex: 5093
 }
 
 private class PhysicsRaycaster.RaycastHitComparer : IComparer<RaycastHit> // TypeDefIndex: 5094
-{	public static PhysicsRaycaster.RaycastHitComparer instance; // 0x135E0
+{	public static PhysicsRaycaster.RaycastHitComparer instance; // 0x129AB
 
 
 	public int Compare(RaycastHit x, RaycastHit y) { }

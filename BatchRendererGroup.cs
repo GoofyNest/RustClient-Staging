@@ -3,7 +3,7 @@ public class BatchRendererGroup // TypeDefIndex: 3846
 	private BatchRendererGroup.OnPerformCulling m_PerformCulling; // 0x18
 
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void InvokeOnPerformCulling(BatchRendererGroup group, ref BatchRendererCullingOutput context, ref LODParameters lodParameters) { }
 
 }

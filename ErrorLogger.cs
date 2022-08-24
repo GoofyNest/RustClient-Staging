@@ -1,5 +1,5 @@
 public static class ErrorLogger // TypeDefIndex: 9281
-{	private static bool installed; // 0x1C00
+{	private static bool installed; // 0x2B117B8
 
 
 	public static void Install() { }

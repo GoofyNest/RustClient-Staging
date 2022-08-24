@@ -1,4 +1,4 @@
-public class GameStat : MonoBehaviour // TypeDefIndex: 10930
+public class GameStat : MonoBehaviour // TypeDefIndex: 10934
 {	public float refreshTime; // 0x18
 	public Text title; // 0x20
 	public Text globalStat; // 0x28
@@ -25,12 +25,12 @@ public class GameStat : MonoBehaviour // TypeDefIndex: 10930
 
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <Refresh>b__14_0(GameStat.Stat x) { }
 
 }
 
-public struct GameStat.Stat // TypeDefIndex: 10931
+public struct GameStat.Stat // TypeDefIndex: 10935
 {	public string statName; // 0x0
 	public string statTitle; // 0x8
 

@@ -117,8 +117,8 @@ public class Defines // TypeDefIndex: 6677
 
 }
 
-public static class Defines // TypeDefIndex: 12035
-{	public static uint appID; // 0x1E6A0
+public static class Defines // TypeDefIndex: 12039
+{	public static uint appID; // 0x2B11D08
 	public const string resourceFolder = "assets/bundled";
 
 
@@ -126,12 +126,12 @@ public static class Defines // TypeDefIndex: 12035
 
 }
 
-public static class Defines.Connection // TypeDefIndex: 12036
+public static class Defines.Connection // TypeDefIndex: 12040
 {	public const byte mode_steam = 228;
 
 }
 
-public static class Defines.Tags // TypeDefIndex: 12037
+public static class Defines.Tags // TypeDefIndex: 12041
 {	public const string NotPlayerUsable = "Not Player Usable";
 
 }

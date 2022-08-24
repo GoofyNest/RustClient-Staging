@@ -1,6 +1,6 @@
 internal enum RemoteConfigSettingsHelper.Tag // TypeDefIndex: 4745
 {
-[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 internal enum RemoteConfigSettingsHelper.Tag // TypeDefIndex: 4745
 	public int value__; // 0x0
 	public const RemoteConfigSettingsHelper.Tag kUnknown = 0;

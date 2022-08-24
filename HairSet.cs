@@ -1,4 +1,4 @@
-public class HairSet : ScriptableObject // TypeDefIndex: 10733
+public class HairSet : ScriptableObject // TypeDefIndex: 10737
 {	public HairSet.MeshReplace[] MeshReplacements; // 0x18
 
 
@@ -10,8 +10,8 @@ public class HairSet : ScriptableObject // TypeDefIndex: 10733
 
 }
 
-public class HairSet.MeshReplace // TypeDefIndex: 10734
-{	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class HairSet.MeshReplace // TypeDefIndex: 10738
+{	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string FindName; // 0x10
 	public Mesh Find; // 0x18
 	public Mesh[] ReplaceShapes; // 0x20

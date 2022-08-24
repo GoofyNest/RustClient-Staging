@@ -1,4 +1,4 @@
-public class CraftingQueue : SingletonComponent<CraftingQueue> // TypeDefIndex: 10988
+public class CraftingQueue : SingletonComponent<CraftingQueue> // TypeDefIndex: 10992
 {	public GameObject queueContainer; // 0x18
 	public GameObject queueItemPrefab; // 0x20
 	private ScrollRect scrollRect; // 0x28
@@ -30,7 +30,7 @@ public class CraftingQueue : SingletonComponent<CraftingQueue> // TypeDefIndex: 
 
 }
 
-private sealed class CraftingQueue.<>c__DisplayClass6_0 // TypeDefIndex: 10989
+private sealed class CraftingQueue.<>c__DisplayClass6_0 // TypeDefIndex: 10993
 {	public int taskid; // 0x10
 	public Func<CraftingQueueIcon, bool> <>9__0; // 0x18
 
@@ -41,7 +41,7 @@ private sealed class CraftingQueue.<>c__DisplayClass6_0 // TypeDefIndex: 10989
 
 }
 
-private sealed class CraftingQueue.<>c__DisplayClass9_0 // TypeDefIndex: 10990
+private sealed class CraftingQueue.<>c__DisplayClass9_0 // TypeDefIndex: 10994
 {	public int taskid; // 0x10
 	public Func<CraftingQueueIcon, bool> <>9__0; // 0x18
 
@@ -52,7 +52,7 @@ private sealed class CraftingQueue.<>c__DisplayClass9_0 // TypeDefIndex: 10990
 
 }
 
-private sealed class CraftingQueue.<>c__DisplayClass10_0 // TypeDefIndex: 10991
+private sealed class CraftingQueue.<>c__DisplayClass10_0 // TypeDefIndex: 10995
 {	public int taskid; // 0x10
 	public Func<CraftingQueueIcon, bool> <>9__0; // 0x18
 

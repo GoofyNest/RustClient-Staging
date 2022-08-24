@@ -1,18 +1,18 @@
 public class Glyph // TypeDefIndex: 4112
-{	[NativeNameAttribute] // RVA: 0x86700 Offset: 0x85B00 VA: 0x180086700
-	[SerializeField] // RVA: 0x86700 Offset: 0x85B00 VA: 0x180086700
+{	[NativeNameAttribute] // RVA: 0x867D0 Offset: 0x85BD0 VA: 0x1800867D0
+	[SerializeField] // RVA: 0x867D0 Offset: 0x85BD0 VA: 0x1800867D0
 	private uint m_Index; // 0x10
-	[SerializeField] // RVA: 0x87B40 Offset: 0x86F40 VA: 0x180087B40
-	[NativeNameAttribute] // RVA: 0x87B40 Offset: 0x86F40 VA: 0x180087B40
+	[SerializeField] // RVA: 0x87C50 Offset: 0x87050 VA: 0x180087C50
+	[NativeNameAttribute] // RVA: 0x87C50 Offset: 0x87050 VA: 0x180087C50
 	private GlyphMetrics m_Metrics; // 0x14
-	[SerializeField] // RVA: 0x87E20 Offset: 0x87220 VA: 0x180087E20
-	[NativeNameAttribute] // RVA: 0x87E20 Offset: 0x87220 VA: 0x180087E20
+	[SerializeField] // RVA: 0x87EF0 Offset: 0x872F0 VA: 0x180087EF0
+	[NativeNameAttribute] // RVA: 0x87EF0 Offset: 0x872F0 VA: 0x180087EF0
 	private GlyphRect m_GlyphRect; // 0x28
-	[NativeNameAttribute] // RVA: 0x88150 Offset: 0x87550 VA: 0x180088150
-	[SerializeField] // RVA: 0x88150 Offset: 0x87550 VA: 0x180088150
+	[NativeNameAttribute] // RVA: 0x88260 Offset: 0x87660 VA: 0x180088260
+	[SerializeField] // RVA: 0x88260 Offset: 0x87660 VA: 0x180088260
 	private float m_Scale; // 0x38
-	[NativeNameAttribute] // RVA: 0x88200 Offset: 0x87600 VA: 0x180088200
-	[SerializeField] // RVA: 0x88200 Offset: 0x87600 VA: 0x180088200
+	[NativeNameAttribute] // RVA: 0x88320 Offset: 0x87720 VA: 0x180088320
+	[SerializeField] // RVA: 0x88320 Offset: 0x87720 VA: 0x180088320
 	private int m_AtlasIndex; // 0x3C
 
 	public uint index { get; set; }

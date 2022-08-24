@@ -9,7 +9,7 @@ public class CommunityEntity : PointEntity // TypeDefIndex: 8551
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CL_ReceiveFilePng(BaseEntity.RPCMessage msg) { }
 
 	private static CommunityEntity.CachedTexture GetCachedTexture(uint textureId) { }
@@ -28,7 +28,7 @@ public class CommunityEntity : PointEntity // TypeDefIndex: 8551
 
 	private static void RegisterUi(GameObject go) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void AddUI(BaseEntity.RPCMessage msg) { }
 
 	private GameObject FindPanel(string name) { }
@@ -47,10 +47,10 @@ public class CommunityEntity : PointEntity // TypeDefIndex: 8551
 
 	private void GraphicComponentCreated(Graphic c, Object obj) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xAA280 Offset: 0xA9680 VA: 0x1800AA280
+	[IteratorStateMachineAttribute] // RVA: 0xAA360 Offset: 0xA9760 VA: 0x1800AA360
 	private IEnumerator LoadTextureFromWWW(RawImage c, string p) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void DestroyUI(BaseEntity.RPCMessage msg) { }
 
 	private void DestroyPanel(string pnlName) { }
@@ -171,21 +171,21 @@ private sealed class CommunityEntity.<LoadTextureFromWWW>d__22 : IEnumerator<obj
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

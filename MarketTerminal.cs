@@ -129,7 +129,7 @@ public class MarketTerminal : StorageContainer // TypeDefIndex: 8409
 	private ulong _currentlyDisplayedUserId; // 0x428
 	public const BaseEntity.Flags Flag_HasItems = 128;
 	public const BaseEntity.Flags Flag_InventoryFull = 256;
-	[HeaderAttribute] // RVA: 0xED3D0 Offset: 0xEC7D0 VA: 0x1800ED3D0
+	[HeaderAttribute] // RVA: 0xED4A0 Offset: 0xEC8A0 VA: 0x1800ED4A0
 	public GameObjectRef menuPrefab; // 0x430
 	public ulong lockToCustomerDuration; // 0x438
 	public ulong orderTimeout; // 0x440
@@ -152,19 +152,19 @@ public class MarketTerminal : StorageContainer // TypeDefIndex: 8409
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_OpenMarket(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_ShowItemNotice(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_CloseMarketUI(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.Menu] // RVA: 0xED6E0 Offset: 0xECAE0 VA: 0x1800ED6E0
-	[BaseEntity.Menu.Description] // RVA: 0xED6E0 Offset: 0xECAE0 VA: 0x1800ED6E0
-	[BaseEntity.Menu.Icon] // RVA: 0xED6E0 Offset: 0xECAE0 VA: 0x1800ED6E0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xED6E0 Offset: 0xECAE0 VA: 0x1800ED6E0
+	[BaseEntity.Menu] // RVA: 0xED7F0 Offset: 0xECBF0 VA: 0x1800ED7F0
+	[BaseEntity.Menu.Description] // RVA: 0xED7F0 Offset: 0xECBF0 VA: 0x1800ED7F0
+	[BaseEntity.Menu.Icon] // RVA: 0xED7F0 Offset: 0xECBF0 VA: 0x1800ED7F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xED7F0 Offset: 0xECBF0 VA: 0x1800ED7F0
 	public void Menu_RequestOpenMarket(BasePlayer player) { }
 
 	public bool Menu_RequestOpenMarket_ShowIf(BasePlayer player) { }

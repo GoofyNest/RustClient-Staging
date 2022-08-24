@@ -1,4 +1,4 @@
-public class ConditionalObject // TypeDefIndex: 12096
+public class ConditionalObject // TypeDefIndex: 12100
 {	public GameObject gameObject; // 0x10
 	public GameObject ownerGameObject; // 0x18
 	public ConditionalSocketSettings[] socketSettings; // 0x20
@@ -10,16 +10,16 @@ public class ConditionalObject // TypeDefIndex: 12096
 	public ConditionalObject.AdjacentMatchType adjacentMatch; // 0x3C
 	public bool restrictOnLockable; // 0x40
 	public bool lockableRestriction; // 0x41
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Nullable<bool> <IsActive>k__BackingField; // 0x42
 
 	public Nullable<bool> IsActive { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Nullable<bool> get_IsActive() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_IsActive(Nullable<bool> value) { }
 
 	public void .ctor(GameObject conditionalGO, GameObject ownerGO, int socketsTaken) { }
@@ -30,7 +30,7 @@ public class ConditionalObject // TypeDefIndex: 12096
 
 }
 
-public enum ConditionalObject.AdjacentCondition // TypeDefIndex: 12097
+public enum ConditionalObject.AdjacentCondition // TypeDefIndex: 12101
 {	public int value__; // 0x0
 	public const ConditionalObject.AdjacentCondition SameInFront = 0;
 	public const ConditionalObject.AdjacentCondition SameBehind = 1;
@@ -41,7 +41,7 @@ public enum ConditionalObject.AdjacentCondition // TypeDefIndex: 12097
 
 }
 
-public enum ConditionalObject.AdjacentMatchType // TypeDefIndex: 12098
+public enum ConditionalObject.AdjacentMatchType // TypeDefIndex: 12102
 {	public int value__; // 0x0
 	public const ConditionalObject.AdjacentMatchType GroupOrExact = 0;
 	public const ConditionalObject.AdjacentMatchType ExactOnly = 1;

@@ -1,7 +1,7 @@
 public sealed class Canvas : Behaviour // TypeDefIndex: 4736
-{	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	private static Canvas.WillRenderCanvases willRenderCanvases; // 0x2B104D4
+{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	private static Canvas.WillRenderCanvases willRenderCanvases; // 0x12730
 
 	public RenderMode renderMode { get; }
 	public bool isRootCanvas { get; }
@@ -16,14 +16,14 @@ public sealed class Canvas : Behaviour // TypeDefIndex: 4736
 	public int sortingLayerID { get; set; }
 	public AdditionalCanvasShaderChannels additionalShaderChannels { get; set; }
 	public Canvas rootCanvas { get; }
-	[NativePropertyAttribute] // RVA: 0xA5D00 Offset: 0xA5100 VA: 0x1800A5D00
+	[NativePropertyAttribute] // RVA: 0xA5E20 Offset: 0xA5220 VA: 0x1800A5E20
 	public Camera worldCamera { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void add_willRenderCanvases(Canvas.WillRenderCanvases value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void remove_willRenderCanvases(Canvas.WillRenderCanvases value) { }
 
 	public RenderMode get_renderMode() { }
@@ -68,15 +68,15 @@ public sealed class Canvas : Behaviour // TypeDefIndex: 4736
 
 	public void set_worldCamera(Camera value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xA5AD0 Offset: 0xA4ED0 VA: 0x1800A5AD0
+	[FreeFunctionAttribute] // RVA: 0xA5BC0 Offset: 0xA4FC0 VA: 0x1800A5BC0
 	public static Material GetDefaultCanvasMaterial() { }
 
-	[FreeFunctionAttribute] // RVA: 0xA5B90 Offset: 0xA4F90 VA: 0x1800A5B90
+	[FreeFunctionAttribute] // RVA: 0xA5CB0 Offset: 0xA50B0 VA: 0x1800A5CB0
 	public static Material GetETC1SupportedCanvasMaterial() { }
 
 	public static void ForceUpdateCanvases() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void SendWillRenderCanvases() { }
 
 	public void .ctor() { }

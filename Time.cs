@@ -1,5 +1,5 @@
 public class Time // TypeDefIndex: 3558
-{	[NativePropertyAttribute] // RVA: 0xCD9A0 Offset: 0xCCDA0 VA: 0x1800CD9A0
+{	[NativePropertyAttribute] // RVA: 0xCDA80 Offset: 0xCCE80 VA: 0x1800CDA80
 	public static float time { get; }
 	public static float deltaTime { get; }
 	public static float fixedTime { get; }
@@ -10,9 +10,9 @@ public class Time // TypeDefIndex: 3558
 	public static float smoothDeltaTime { get; }
 	public static float timeScale { get; set; }
 	public static int frameCount { get; }
-	[NativePropertyAttribute] // RVA: 0xCDAD0 Offset: 0xCCED0 VA: 0x1800CDAD0
+	[NativePropertyAttribute] // RVA: 0xCDBB0 Offset: 0xCCFB0 VA: 0x1800CDBB0
 	public static int renderedFrameCount { get; }
-	[NativePropertyAttribute] // RVA: 0xCDBC0 Offset: 0xCCFC0 VA: 0x1800CDBC0
+	[NativePropertyAttribute] // RVA: 0xCDC90 Offset: 0xCD090 VA: 0x1800CDC90
 	public static float realtimeSinceStartup { get; }
 
 
@@ -48,7 +48,7 @@ public class Time // TypeDefIndex: 3558
 
 }
 
-public class Time : ConsoleSystem // TypeDefIndex: 11969
+public class Time : ConsoleSystem // TypeDefIndex: 11973
 {
 	public void .ctor() { }
 

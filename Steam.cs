@@ -69,7 +69,7 @@ public class SteamApps : SteamSharedClass<SteamApps> // TypeDefIndex: 5183
 public static class SteamClient // TypeDefIndex: 5184
 {	private static bool initialized; // 0x0
 	private static readonly List<SteamClass> openInterfaces; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static AppId <AppId>k__BackingField; // 0x10
 
 	public static bool IsValid { get; }
@@ -123,10 +123,10 @@ public static class SteamClient // TypeDefIndex: 5184
 
 	public static string get_Name() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static AppId get_AppId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void set_AppId(AppId value) { }
 
 	private static void .cctor() { }
@@ -135,23 +135,23 @@ public static class SteamClient // TypeDefIndex: 5184
 
 public class SteamFriends : SteamClientClass<SteamFriends> // TypeDefIndex: 5185
 {	private static Dictionary<string, string> richPresence; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Friend, string, string> OnChatMessage; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Friend, string, string> OnClanChatMessage; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Friend> OnPersonaStateChange; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Friend, string> OnGameRichPresenceJoinRequested; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<bool> OnGameOverlayActivated; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<string, string> OnGameServerChangeRequested; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Lobby, SteamId> OnGameLobbyJoinRequested; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Friend> OnFriendRichPresenceUpdate; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<string> OnOverlayBrowserProtocol; // 0x48
 
 	internal static ISteamFriends Internal { get; }
@@ -167,7 +167,7 @@ public class SteamFriends : SteamClientClass<SteamFriends> // TypeDefIndex: 5185
 
 	private static void OnGameConnectedClanChatMessage(GameConnectedClanChatMsg_t data) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x8E180 Offset: 0x8D580 VA: 0x18008E180
+	[IteratorStateMachineAttribute] // RVA: 0x8E280 Offset: 0x8D680 VA: 0x18008E280
 	private static IEnumerable<Friend> GetFriendsWithFlag(FriendFlags flag) { }
 
 	public static IEnumerable<Friend> GetFriends() { }
@@ -182,10 +182,10 @@ public class SteamFriends : SteamClientClass<SteamFriends> // TypeDefIndex: 5185
 
 	public static bool RequestUserInformation(SteamId steamid, bool nameonly = True) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x8E200 Offset: 0x8D600 VA: 0x18008E200
+	[AsyncStateMachineAttribute] // RVA: 0x8E340 Offset: 0x8D740 VA: 0x18008E340
 	internal static Task CacheUserInformationAsync(SteamId steamid, bool nameonly) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x8E4C0 Offset: 0x8D8C0 VA: 0x18008E4C0
+	[AsyncStateMachineAttribute] // RVA: 0x8E600 Offset: 0x8DA00 VA: 0x18008E600
 	public static Task<Nullable<Image>> GetMediumAvatarAsync(SteamId steamid) { }
 
 	public static string GetRichPresence(string key) { }
@@ -241,27 +241,27 @@ private sealed class SteamFriends.<GetFriendsWithFlag>d__34 : IEnumerable<Friend
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Friend System.Collections.Generic.IEnumerator<Steamworks.Friend>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IEnumerator<Friend> System.Collections.Generic.IEnumerable<Steamworks.Friend>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
@@ -276,7 +276,7 @@ private struct SteamFriends.<CacheUserInformationAsync>d__51 : IAsyncStateMachin
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -290,7 +290,7 @@ private struct SteamFriends.<GetMediumAvatarAsync>d__53 : IAsyncStateMachine // 
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -311,15 +311,15 @@ public class SteamInput : SteamClientClass<SteamInput> // TypeDefIndex: 5190
 }
 
 public class SteamInventory : SteamSharedClass<SteamInventory> // TypeDefIndex: 5191
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<InventoryResult> OnInventoryUpdated; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnDefinitionsUpdated; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static string <Currency>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static InventoryItem[] <Items>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static InventoryDef[] <Definitions>k__BackingField; // 0x20
 	private static Dictionary<int, InventoryDef> _defMap; // 0x28
 
@@ -337,16 +337,16 @@ public class SteamInventory : SteamSharedClass<SteamInventory> // TypeDefIndex: 
 
 	private static void InventoryUpdated(SteamInventoryFullUpdate_t x) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void add_OnInventoryUpdated(Action<InventoryResult> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void remove_OnInventoryUpdated(Action<InventoryResult> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void add_OnDefinitionsUpdated(Action value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void remove_OnDefinitionsUpdated(Action value) { }
 
 	private static void LoadDefinitions() { }
@@ -355,47 +355,47 @@ public class SteamInventory : SteamSharedClass<SteamInventory> // TypeDefIndex: 
 
 	public static InventoryDef FindDefinition(InventoryDefId defId) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static string get_Currency() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void set_Currency(string value) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x8FA60 Offset: 0x8EE60 VA: 0x18008FA60
+	[AsyncStateMachineAttribute] // RVA: 0x8FB60 Offset: 0x8EF60 VA: 0x18008FB60
 	public static Task<InventoryDef[]> GetDefinitionsWithPricesAsync() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static InventoryItem[] get_Items() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void set_Items(InventoryItem[] value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static InventoryDef[] get_Definitions() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void set_Definitions(InventoryDef[] value) { }
 
 	internal static InventoryDef[] GetDefinitions() { }
 
 	public static bool GetAllItems() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x900D0 Offset: 0x8F4D0 VA: 0x1800900D0
+	[AsyncStateMachineAttribute] // RVA: 0x90210 Offset: 0x8F610 VA: 0x180090210
 	public static Task<Nullable<InventoryResult>> GetAllItemsAsync() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x90150 Offset: 0x8F550 VA: 0x180090150
+	[AsyncStateMachineAttribute] // RVA: 0x90260 Offset: 0x8F660 VA: 0x180090260
 	public static Task<Nullable<InventoryResult>> CraftItemAsync(InventoryItem[] list, InventoryDef target) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x90280 Offset: 0x8F680 VA: 0x180090280
+	[AsyncStateMachineAttribute] // RVA: 0x903C0 Offset: 0x8F7C0 VA: 0x1800903C0
 	public static Task<Nullable<InventoryResult>> CraftItemAsync(InventoryItem.Amount[] list, InventoryDef target) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x903A0 Offset: 0x8F7A0 VA: 0x1800903A0
+	[AsyncStateMachineAttribute] // RVA: 0x904E0 Offset: 0x8F8E0 VA: 0x1800904E0
 	public static Task<Nullable<InventoryResult>> GrantPromoItemsAsync() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x90510 Offset: 0x8F910 VA: 0x180090510
+	[AsyncStateMachineAttribute] // RVA: 0x90650 Offset: 0x8FA50 VA: 0x180090650
 	public static Task<Nullable<InventoryResult>> TriggerItemDropAsync(InventoryDefId id) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x90770 Offset: 0x8FB70 VA: 0x180090770
+	[AsyncStateMachineAttribute] // RVA: 0x908B0 Offset: 0x8FCB0 VA: 0x1800908B0
 	public static Task<Nullable<InventoryPurchaseResult>> StartPurchaseAsync(InventoryDef[] items) { }
 
 	public void .ctor() { }
@@ -453,7 +453,7 @@ private struct SteamInventory.<GetDefinitionsWithPricesAsync>d__19 : IAsyncState
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -466,7 +466,7 @@ private struct SteamInventory.<GetAllItemsAsync>d__31 : IAsyncStateMachine // Ty
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -481,7 +481,7 @@ private struct SteamInventory.<CraftItemAsync>d__33 : IAsyncStateMachine // Type
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -496,7 +496,7 @@ private struct SteamInventory.<CraftItemAsync>d__34 : IAsyncStateMachine // Type
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -509,7 +509,7 @@ private struct SteamInventory.<GrantPromoItemsAsync>d__36 : IAsyncStateMachine /
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -523,7 +523,7 @@ private struct SteamInventory.<TriggerItemDropAsync>d__37 : IAsyncStateMachine /
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -537,35 +537,35 @@ private struct SteamInventory.<StartPurchaseAsync>d__39 : IAsyncStateMachine // 
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 public class SteamMatchmaking : SteamClientClass<SteamMatchmaking> // TypeDefIndex: 5200
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Friend, Lobby> OnLobbyInvite; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Lobby> OnLobbyEntered; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Result, Lobby> OnLobbyCreated; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Lobby, uint, ushort, SteamId> OnLobbyGameCreated; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Lobby> OnLobbyDataChanged; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Lobby, Friend> OnLobbyMemberDataChanged; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Lobby, Friend> OnLobbyMemberJoined; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Lobby, Friend> OnLobbyMemberLeave; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Lobby, Friend> OnLobbyMemberDisconnected; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Lobby, Friend, Friend> OnLobbyMemberKicked; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Lobby, Friend, Friend> OnLobbyMemberBanned; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Lobby, Friend, string> OnChatMessage; // 0x58
 
 	internal static ISteamMatchmaking Internal { get; }
@@ -579,7 +579,7 @@ public class SteamMatchmaking : SteamClientClass<SteamMatchmaking> // TypeDefInd
 
 	private static void OnLobbyChatMessageRecievedAPI(LobbyChatMsg_t callback) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x931C0 Offset: 0x925C0 VA: 0x1800931C0
+	[IteratorStateMachineAttribute] // RVA: 0x932D0 Offset: 0x926D0 VA: 0x1800932D0
 	public static IEnumerable<ServerInfo> GetFavoriteServers() { }
 
 	public void .ctor() { }
@@ -625,27 +625,27 @@ private sealed class SteamMatchmaking.<GetFavoriteServers>d__47 : IEnumerable<Se
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ServerInfo System.Collections.Generic.IEnumerator<Steamworks.Data.ServerInfo>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IEnumerator<ServerInfo> System.Collections.Generic.IEnumerable<Steamworks.Data.ServerInfo>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
@@ -663,9 +663,9 @@ internal class SteamMatchmakingServers : SteamClientClass<SteamMatchmakingServer
 }
 
 public class SteamMusic : SteamClientClass<SteamMusic> // TypeDefIndex: 5204
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnPlaybackChanged; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<float> OnVolumeChanged; // 0x8
 
 
@@ -725,9 +725,9 @@ private sealed class SteamNetworking.<>c // TypeDefIndex: 5207
 public class SteamNetworkingSockets : SteamSharedClass<SteamNetworkingSockets> // TypeDefIndex: 5208
 {	private static readonly Dictionary<uint, SocketManager> SocketInterfaces; // 0x0
 	private static readonly Dictionary<uint, ConnectionManager> ConnectionInterfaces; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Connection, ConnectionInfo> OnConnectionStatusChanged; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<NetAddress> OnFakeIPResult; // 0x18
 
 	internal static ISteamNetworkingSockets Internal { get; }
@@ -754,10 +754,10 @@ public class SteamNetworkingSockets : SteamSharedClass<SteamNetworkingSockets> /
 
 	private static void FakeIPResult(SteamNetworkingFakeIPResult_t data) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void add_OnFakeIPResult(Action<NetAddress> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void remove_OnFakeIPResult(Action<NetAddress> value) { }
 
 	public static SocketManager CreateNormalSocket(NetAddress address, ISocketManager intrface) { }
@@ -775,9 +775,9 @@ public class SteamNetworkingSockets : SteamSharedClass<SteamNetworkingSockets> /
 }
 
 public class SteamNetworkingUtils : SteamSharedClass<SteamNetworkingUtils> // TypeDefIndex: 5209
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<NetDebugOutput, string> OnDebugOutput; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static SteamNetworkingAvailability <Status>k__BackingField; // 0x8
 	private static NetDebugOutput _debugLevel; // 0xC
 	private static NetDebugFunc _debugFunc; // 0x10
@@ -804,16 +804,16 @@ public class SteamNetworkingUtils : SteamSharedClass<SteamNetworkingUtils> // Ty
 
 	private static void InstallCallbacks(bool server) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void add_OnDebugOutput(Action<NetDebugOutput, string> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void remove_OnDebugOutput(Action<NetDebugOutput, string> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static SteamNetworkingAvailability get_Status() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void set_Status(SteamNetworkingAvailability value) { }
 
 	public static void InitRelayNetworkAccess() { }
@@ -856,7 +856,7 @@ public class SteamNetworkingUtils : SteamSharedClass<SteamNetworkingUtils> // Ty
 
 	public static void set_DebugLevel(NetDebugOutput value) { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[MonoPInvokeCallbackAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void OnDebugMessage(NetDebugOutput nType, IntPtr str) { }
 
 	internal static void LogDebugMessage(NetDebugOutput type, string message) { }
@@ -895,8 +895,8 @@ private sealed class SteamNetworkingUtils.<>c // TypeDefIndex: 5211
 }
 
 public class SteamParental : SteamSharedClass<SteamParental> // TypeDefIndex: 5212
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
-	private static Action OnSettingsChanged; // 0x13630
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
+	private static Action OnSettingsChanged; // 0x12A10
 
 
 	internal override void InitializeInterface(bool server) { }
@@ -921,9 +921,9 @@ private sealed class SteamParental.<>c // TypeDefIndex: 5213
 }
 
 public class SteamParties : SteamClientClass<SteamParties> // TypeDefIndex: 5214
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnBeaconLocationsUpdated; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnActiveBeaconsUpdated; // 0x8
 
 
@@ -952,9 +952,9 @@ private sealed class SteamParties.<>c // TypeDefIndex: 5215
 }
 
 public class SteamRemotePlay : SteamClientClass<SteamRemotePlay> // TypeDefIndex: 5216
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<RemotePlaySession> OnSessionConnected; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<RemotePlaySession> OnSessionDisconnected; // 0x8
 
 
@@ -991,11 +991,11 @@ public class SteamRemoteStorage : SteamClientClass<SteamRemoteStorage> // TypeDe
 }
 
 public class SteamScreenshots : SteamClientClass<SteamScreenshots> // TypeDefIndex: 5219
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnScreenshotRequested; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Screenshot> OnScreenshotReady; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Result> OnScreenshotFailed; // 0x10
 
 	internal static ISteamScreenshots Internal { get; }
@@ -1030,13 +1030,13 @@ private sealed class SteamScreenshots.<>c // TypeDefIndex: 5220
 }
 
 public class SteamUGC : SteamSharedClass<SteamUGC> // TypeDefIndex: 5221
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Result> OnDownloadItemResult; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<AppId, PublishedFileId> OnItemSubscribed; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<AppId, PublishedFileId> OnItemUnsubscribed; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<AppId, PublishedFileId> OnItemInstalled; // 0x18
 
 	internal static ISteamUGC Internal { get; }
@@ -1050,7 +1050,7 @@ public class SteamUGC : SteamSharedClass<SteamUGC> // TypeDefIndex: 5221
 
 	public static bool Download(PublishedFileId fileId, bool highPriority = False) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x94C70 Offset: 0x94070 VA: 0x180094C70
+	[AsyncStateMachineAttribute] // RVA: 0x94D30 Offset: 0x94130 VA: 0x180094D30
 	public static Task<Nullable<Item>> QueryFileAsync(PublishedFileId fileId) { }
 
 	public void .ctor() { }
@@ -1088,32 +1088,32 @@ private struct SteamUGC.<QueryFileAsync>d__19 : IAsyncStateMachine // TypeDefInd
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 public class SteamUser : SteamClientClass<SteamUser> // TypeDefIndex: 5224
 {	private static Dictionary<string, string> richPresence; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnSteamServersConnected; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnSteamServerConnectFailure; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnSteamServersDisconnected; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnClientGameServerDeny; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnLicensesUpdated; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<SteamId, SteamId, AuthResponse> OnValidateAuthTicketResponse; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<GetAuthSessionTicketResponse_t> OnGetAuthSessionTicketResponse; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<AppId, ulong, bool> OnMicroTxnAuthorizationResponse; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<string> OnGameWebCallback; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<DurationControl> OnDurationControl; // 0x50
 	private static bool _recordingVoice; // 0x58
 	private static byte[] readBuffer; // 0x60
@@ -1133,16 +1133,16 @@ public class SteamUser : SteamClientClass<SteamUser> // TypeDefIndex: 5224
 
 	internal static void InstallEvents() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void add_OnGetAuthSessionTicketResponse(Action<GetAuthSessionTicketResponse_t> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void remove_OnGetAuthSessionTicketResponse(Action<GetAuthSessionTicketResponse_t> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void add_OnMicroTxnAuthorizationResponse(Action<AppId, ulong, bool> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void remove_OnMicroTxnAuthorizationResponse(Action<AppId, ulong, bool> value) { }
 
 	public static bool get_VoiceRecord() { }
@@ -1163,12 +1163,12 @@ public class SteamUser : SteamClientClass<SteamUser> // TypeDefIndex: 5224
 
 	public static AuthTicket GetAuthSessionTicket() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x958F0 Offset: 0x94CF0 VA: 0x1800958F0
+	[AsyncStateMachineAttribute] // RVA: 0x95990 Offset: 0x94D90 VA: 0x180095990
 	public static Task<AuthTicket> GetAuthSessionTicketAsync(double timeoutSeconds = 10) { }
 
 	public static bool get_IsTwoFactorEnabled() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x95A60 Offset: 0x94E60 VA: 0x180095A60
+	[AsyncStateMachineAttribute] // RVA: 0x95B00 Offset: 0x94F00 VA: 0x180095B00
 	public static Task<byte[]> RequestEncryptedAppTicketAsync() { }
 
 	public void .ctor() { }
@@ -1239,7 +1239,7 @@ private struct SteamUser.<GetAuthSessionTicketAsync>d__54 : IAsyncStateMachine /
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -1252,23 +1252,23 @@ private struct SteamUser.<RequestEncryptedAppTicketAsync>d__71 : IAsyncStateMach
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 public class SteamUserStats : SteamClientClass<SteamUserStats> // TypeDefIndex: 5229
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static bool <StatsRecieved>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<string, int> OnAchievementIconFetched; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<SteamId, Result> OnUserStatsReceived; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Result> OnUserStatsStored; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<Achievement, int, int> OnAchievementProgress; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<SteamId> OnUserStatsUnloaded; // 0x28
 
 	internal static ISteamUserStats Internal { get; }
@@ -1280,18 +1280,18 @@ public class SteamUserStats : SteamClientClass<SteamUserStats> // TypeDefIndex: 
 
 	internal override void InitializeInterface(bool server) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void set_StatsRecieved(bool value) { }
 
 	internal static void InstallEvents() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void add_OnAchievementProgress(Action<Achievement, int, int> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void remove_OnAchievementProgress(Action<Achievement, int, int> value) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x96620 Offset: 0x95A20 VA: 0x180096620
+	[IteratorStateMachineAttribute] // RVA: 0x96730 Offset: 0x95B30 VA: 0x180096730
 	public static IEnumerable<Achievement> get_Achievements() { }
 
 	public static bool StoreStats() { }
@@ -1347,39 +1347,39 @@ private sealed class SteamUserStats.<get_Achievements>d__24 : IEnumerable<Achiev
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Achievement System.Collections.Generic.IEnumerator<Steamworks.Data.Achievement>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IEnumerator<Achievement> System.Collections.Generic.IEnumerable<Steamworks.Data.Achievement>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
 
 public class SteamUtils : SteamSharedClass<SteamUtils> // TypeDefIndex: 5232
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnIpCountryChanged; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<int> OnLowBatteryPower; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnSteamShutdown; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<bool> OnGamepadTextInputDismissed; // 0x18
 	private static NotificationPosition overlayNotificationPosition; // 0x20
 
@@ -1467,7 +1467,7 @@ internal abstract class SteamInterface // TypeDefIndex: 5266
 	public IntPtr SelfGlobal; // 0x18
 	public IntPtr SelfServer; // 0x20
 	public IntPtr SelfClient; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsServer>k__BackingField; // 0x30
 
 	public bool IsValid { get; }
@@ -1482,10 +1482,10 @@ internal abstract class SteamInterface // TypeDefIndex: 5266
 
 	public bool get_IsValid() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsServer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_IsServer(bool value) { }
 
 	internal void SetupInterface(bool gameServer) { }
@@ -1652,7 +1652,7 @@ internal struct SteamParamStringArray : IDisposable // TypeDefIndex: 5273
 }
 
 internal struct SteamServersConnected_t : ICallbackData // TypeDefIndex: 5293
-{	public static int _datasize; // 0x13690
+{	public static int _datasize; // 0x12A8D
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }
@@ -1718,7 +1718,7 @@ internal struct SteamAPICallCompleted_t : ICallbackData // TypeDefIndex: 5329
 }
 
 internal struct SteamShutdown_t : ICallbackData // TypeDefIndex: 5330
-{	public static int _datasize; // 0x13799
+{	public static int _datasize; // 0x2B117D0
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }
@@ -1892,7 +1892,7 @@ internal struct SteamInventoryFullUpdate_t : ICallbackData // TypeDefIndex: 5475
 }
 
 internal struct SteamInventoryDefinitionUpdate_t : ICallbackData // TypeDefIndex: 5476
-{	public static int _datasize; // 0x13930
+{	public static int _datasize; // 0x12DFF
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }
@@ -1963,7 +1963,7 @@ internal struct SteamInventoryRequestPricesResult_t : ICallbackData // TypeDefIn
 }
 
 internal struct SteamParentalSettingsChanged_t : ICallbackData // TypeDefIndex: 5482
-{	public static int _datasize; // 0x1397C
+{	public static int _datasize; // 0x2B11BC4
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }
@@ -2259,19 +2259,19 @@ public class SteamAchievement : IAchievement // TypeDefIndex: 5710
 
 public class SteamAuthTicket : IAuthTicket, IDisposable // TypeDefIndex: 5711
 {	private readonly AuthTicket _ticket; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly string <Token>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly byte[] <Data>k__BackingField; // 0x20
 
 	public string Token { get; }
 	public byte[] Data { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Token() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public byte[] get_Data() { }
 
 	internal void .ctor(AuthTicket ticket) { }
@@ -2281,14 +2281,14 @@ public class SteamAuthTicket : IAuthTicket, IDisposable // TypeDefIndex: 5711
 }
 
 public class SteamDownloadableContent : IDownloadableContent // TypeDefIndex: 5712
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly int <AppId>k__BackingField; // 0x10
 
 	public int AppId { get; }
 	public bool IsInstalled { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_AppId() { }
 
 	public bool get_IsInstalled() { }
@@ -2298,19 +2298,19 @@ public class SteamDownloadableContent : IDownloadableContent // TypeDefIndex: 57
 }
 
 public class SteamInventory : IPlayerInventory, IDisposable // TypeDefIndex: 5713
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly InventoryResult <Value>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly IReadOnlyList<IPlayerItem> <Items>k__BackingField; // 0x18
 
 	public InventoryResult Value { get; }
 	public IReadOnlyList<IPlayerItem> Items { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public InventoryResult get_Value() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public IReadOnlyList<IPlayerItem> get_Items() { }
 
 	internal void .ctor(InventoryResult inventory) { }
@@ -2361,7 +2361,7 @@ public class SteamItem : IPlayerItem // TypeDefIndex: 5715
 }
 
 public class SteamItemDefinition : IPlayerItemDefinition, IEquatable<IPlayerItemDefinition> // TypeDefIndex: 5716
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly InventoryDef <Value>k__BackingField; // 0x10
 
 	public InventoryDef Value { get; }
@@ -2381,7 +2381,7 @@ public class SteamItemDefinition : IPlayerItemDefinition, IEquatable<IPlayerItem
 	public ulong WorkshopDownload { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public InventoryDef get_Value() { }
 
 	internal void .ctor(InventoryDef value) { }
@@ -2443,23 +2443,23 @@ public class SteamPlatform : IPlatformService // TypeDefIndex: 5718
 {	private readonly AvatarCache _avatars; // 0x10
 	private readonly Dictionary<int, SteamDownloadableContent> _dlcCache; // 0x18
 	private readonly Dictionary<ulong, SteamWorkshopContent> _workshopCache; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IReadOnlyList<IPlayerItemDefinition> <ItemDefinitions>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IReadOnlyList<IPlayerItem> <Items>k__BackingField; // 0x30
 	private bool confiscatedLoop; // 0x38
 	private readonly Dictionary<ulong, SteamPlayer> _playerCache; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ulong <UserId>k__BackingField; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <UserName>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Country>k__BackingField; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Language>k__BackingField; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Version>k__BackingField; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Branch>k__BackingField; // 0x70
 	private readonly Dictionary<string, SteamAchievement> _achievements; // 0x78
 	private IPlatformHooks _hooks; // 0x80
@@ -2481,7 +2481,7 @@ public class SteamPlatform : IPlatformService // TypeDefIndex: 5718
 	public bool IsValid { get; }
 
 
-	[AsyncStateMachineAttribute] // RVA: 0xCB050 Offset: 0xCA450 VA: 0x1800CB050
+	[AsyncStateMachineAttribute] // RVA: 0xCB180 Offset: 0xCA580 VA: 0x1800CB180
 	private static void LoadAvatarFromSteamAsync(ulong userId, Texture2D texture) { }
 
 	public Texture2D GetAvatarTexture(ulong userId) { }
@@ -2490,10 +2490,10 @@ public class SteamPlatform : IPlatformService // TypeDefIndex: 5718
 
 	public IWorkshopContent GetWorkshopContent(ulong workshopId) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public IReadOnlyList<IPlayerItemDefinition> get_ItemDefinitions() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_ItemDefinitions(IReadOnlyList<IPlayerItemDefinition> value) { }
 
 	public void RefreshItemDefinitions() { }
@@ -2502,21 +2502,21 @@ public class SteamPlatform : IPlatformService // TypeDefIndex: 5718
 
 	private void OnDefinitionsUpdated() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public IReadOnlyList<IPlayerItem> get_Items() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Items(IReadOnlyList<IPlayerItem> value) { }
 
 	public void RefreshItems() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCB410 Offset: 0xCA810 VA: 0x1800CB410
+	[AsyncStateMachineAttribute] // RVA: 0xCB4E0 Offset: 0xCA8E0 VA: 0x1800CB4E0
 	public Task<IPlayerInventory> RefreshAndGetItems() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCB650 Offset: 0xCAA50 VA: 0x1800CB650
+	[AsyncStateMachineAttribute] // RVA: 0xCB6F0 Offset: 0xCAAF0 VA: 0x1800CB6F0
 	public Task<IPlayerInventory> CraftItem(IEnumerable<IPlayerItem> inputs, IPlayerItemDefinition output) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCB8F0 Offset: 0xCACF0 VA: 0x1800CB8F0
+	[AsyncStateMachineAttribute] // RVA: 0xCB9C0 Offset: 0xCADC0 VA: 0x1800CB9C0
 	public Task<List<IPlayerItemDefinition>> GetItemDefinitionsWithPrices() { }
 
 	public string FormatPrice(int price) { }
@@ -2525,55 +2525,55 @@ public class SteamPlatform : IPlatformService // TypeDefIndex: 5718
 
 	private void ConfiscatedItems() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCBBA0 Offset: 0xCAFA0 VA: 0x1800CBBA0
+	[AsyncStateMachineAttribute] // RVA: 0xCBC30 Offset: 0xCB030 VA: 0x1800CBC30
 	private Task InventoryDropAsync() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public ulong get_UserId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_UserId(ulong value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_UserName() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_UserName(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Country() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Country(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Language() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Language(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Version() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Version(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Branch() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Branch(string value) { }
 
 	public IAuthTicket GetAuthSessionTicket() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCCAB0 Offset: 0xCBEB0 VA: 0x1800CCAB0
+	[AsyncStateMachineAttribute] // RVA: 0xCCBA0 Offset: 0xCBFA0 VA: 0x1800CCBA0
 	public Task<IAuthTicket> GetAuthSessionTicketAsync() { }
 
 	public IEnumerable<IPlayerInfo> get_Friends() { }
 
 	public IPlayerInfo GetPlayerInformation(ulong userId) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCCC40 Offset: 0xCC040 VA: 0x1800CCC40
+	[AsyncStateMachineAttribute] // RVA: 0xCCD50 Offset: 0xCC150 VA: 0x1800CCD50
 	public Task<IPlayerInfo> GetPlayerInformationAsync(ulong userId) { }
 
 	private SteamPlayer GetOrAddPlayer(ulong userId) { }
@@ -2650,7 +2650,7 @@ public class SteamPlatform : IPlatformService // TypeDefIndex: 5718
 
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SteamPlayer <get_Friends>b__55_0(Friend f) { }
 
 }
@@ -2665,7 +2665,7 @@ private struct SteamPlatform.<LoadAvatarFromSteamAsync>d__1 : IAsyncStateMachine
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -2700,7 +2700,7 @@ private struct SteamPlatform.<RefreshAndGetItems>d__19 : IAsyncStateMachine // T
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -2715,7 +2715,7 @@ private struct SteamPlatform.<CraftItem>d__20 : IAsyncStateMachine // TypeDefInd
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -2728,7 +2728,7 @@ private struct SteamPlatform.<GetItemDefinitionsWithPrices>d__21 : IAsyncStateMa
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -2742,7 +2742,7 @@ private struct SteamPlatform.<InventoryDropAsync>d__26 : IAsyncStateMachine // T
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -2755,7 +2755,7 @@ private struct SteamPlatform.<GetAuthSessionTicketAsync>d__53 : IAsyncStateMachi
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -2771,13 +2771,13 @@ private struct SteamPlatform.<GetPlayerInformationAsync>d__57 : IAsyncStateMachi
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
 public class SteamPlayer : IPlayerInfo // TypeDefIndex: 5727
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly Friend <Value>k__BackingField; // 0x10
 
 	public Friend Value { get; }
@@ -2790,7 +2790,7 @@ public class SteamPlayer : IPlayerInfo // TypeDefIndex: 5727
 	public string ServerEndpoint { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Friend get_Value() { }
 
 	public ulong get_UserId() { }
@@ -2812,13 +2812,13 @@ public class SteamPlayer : IPlayerInfo // TypeDefIndex: 5727
 }
 
 public class SteamServerQuery : IServerQuery, IDisposable // TypeDefIndex: 5728
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly ServerQuerySet <QuerySet>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Base <Query>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly IReadOnlyList<ServerInfo> <Servers>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Action<ServerInfo> OnServerFound; // 0x28
 
 	public ServerQuerySet QuerySet { get; }
@@ -2826,22 +2826,22 @@ public class SteamServerQuery : IServerQuery, IDisposable // TypeDefIndex: 5728
 	public IReadOnlyList<ServerInfo> Servers { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public ServerQuerySet get_QuerySet() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Base get_Query() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Query(Base value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public IReadOnlyList<ServerInfo> get_Servers() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void add_OnServerFound(Action<ServerInfo> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void remove_OnServerFound(Action<ServerInfo> value) { }
 
 	public void .ctor(ServerQuerySet set, Base query) { }
@@ -2884,7 +2884,7 @@ public static class SteamUtil // TypeDefIndex: 5730
 }
 
 public class SteamWorkshopContent : IWorkshopContent // TypeDefIndex: 5731
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly Item <Value>k__BackingField; // 0x10
 
 	public Item Value { get; }
@@ -2902,7 +2902,7 @@ public class SteamWorkshopContent : IWorkshopContent // TypeDefIndex: 5731
 	public string Directory { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Item get_Value() { }
 
 	public ulong get_WorkshopId() { }
@@ -2937,31 +2937,31 @@ public class SteamWorkshopContent : IWorkshopContent // TypeDefIndex: 5731
 
 public static class SteamNetworking // TypeDefIndex: 7362
 {
-[ConsoleSystem.Factory] // RVA: 0x80DB0 Offset: 0x801B0 VA: 0x180080DB0
+[ConsoleSystem.Factory] // RVA: 0x810F0 Offset: 0x804F0 VA: 0x1800810F0
 public static class SteamNetworking // TypeDefIndex: 7362
-	[ClientVar] // RVA: 0x9B510 Offset: 0x9A910 VA: 0x18009B510
-	[ServerVar] // RVA: 0x9B510 Offset: 0x9A910 VA: 0x18009B510
+	[ClientVar] // RVA: 0x9B5F0 Offset: 0x9A9F0 VA: 0x18009B5F0
+	[ServerVar] // RVA: 0x9B5F0 Offset: 0x9A9F0 VA: 0x18009B5F0
 	public static int steamnetdebug { get; set; }
-	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
-	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
 	public static int steamnetdebug_ackrtt { get; set; }
-	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
-	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
 	public static int steamnetdebug_packetdecode { get; set; }
-	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
-	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
 	public static int steamnetdebug_message { get; set; }
-	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
-	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
 	public static int steamnetdebug_packetgaps { get; set; }
-	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
-	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
 	public static int steamnetdebug_p2prendezvous { get; set; }
-	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
-	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
 	public static int steamnetdebug_sdrrelaypings { get; set; }
-	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
-	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
 	public static int steamconnectiontimeout { get; set; }
 
 
@@ -2977,12 +2977,12 @@ public static class SteamNetworking // TypeDefIndex: 7362
 
 	private static void SteamNetworkingUtils_OnDebugOutput(NetDebugOutput type, string str) { }
 
-	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
-	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
 	public static string steamstatus() { }
 
-	[ClientVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
-	[ServerVar] // RVA: 0x936C0 Offset: 0x92AC0 VA: 0x1800936C0
+	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
 	public static void steamrelayinit() { }
 
 	public static int get_steamnetdebug() { }
@@ -3121,7 +3121,7 @@ public class SteamInventory : EntityComponent<BasePlayer> // TypeDefIndex: 8653
 
 	public bool HasItem(int itemid) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void ClientUpdateSteamInventory(BaseEntity.RPCMessage msg) { }
 
 	public void ClientUpdate(IPlayerInventory result) { }
@@ -3136,7 +3136,7 @@ public class SteamInventoryGen : MonoBehaviour // TypeDefIndex: 9324
 
 }
 
-public class SteamDLCItem : ScriptableObject // TypeDefIndex: 10761
+public class SteamDLCItem : ScriptableObject // TypeDefIndex: 10765
 {	public int id; // 0x18
 	public Translate.Phrase dlcName; // 0x20
 	public int dlcAppID; // 0x28
@@ -3151,8 +3151,8 @@ public class SteamDLCItem : ScriptableObject // TypeDefIndex: 10761
 
 }
 
-public class SteamInventoryCategory : ScriptableObject // TypeDefIndex: 10762
-{	[HeaderAttribute] // RVA: 0x7AE30 Offset: 0x7A230 VA: 0x18007AE30
+public class SteamInventoryCategory : ScriptableObject // TypeDefIndex: 10766
+{	[HeaderAttribute] // RVA: 0x7B070 Offset: 0x7A470 VA: 0x18007B070
 	public bool canBeSoldToOtherUsers; // 0x18
 	public bool canBeTradedWithOtherUsers; // 0x19
 	public bool isCommodity; // 0x1A
@@ -3165,7 +3165,7 @@ public class SteamInventoryCategory : ScriptableObject // TypeDefIndex: 10762
 
 }
 
-public enum SteamInventoryCategory.Price // TypeDefIndex: 10763
+public enum SteamInventoryCategory.Price // TypeDefIndex: 10767
 {	public int value__; // 0x0
 	public const SteamInventoryCategory.Price CannotBuy = 0;
 	public const SteamInventoryCategory.Price VLV25 = 1;
@@ -3214,7 +3214,7 @@ public enum SteamInventoryCategory.Price // TypeDefIndex: 10763
 
 }
 
-public enum SteamInventoryCategory.DropChance // TypeDefIndex: 10764
+public enum SteamInventoryCategory.DropChance // TypeDefIndex: 10768
 {	public int value__; // 0x0
 	public const SteamInventoryCategory.DropChance NeverDrop = 0;
 	public const SteamInventoryCategory.DropChance VeryRare = 1;
@@ -3225,23 +3225,23 @@ public enum SteamInventoryCategory.DropChance // TypeDefIndex: 10764
 
 }
 
-public class SteamInventoryItem : ScriptableObject // TypeDefIndex: 10765
+public class SteamInventoryItem : ScriptableObject // TypeDefIndex: 10769
 {	public int id; // 0x18
 	public Sprite icon; // 0x20
 	public Translate.Phrase displayName; // 0x28
 	public Translate.Phrase displayDescription; // 0x30
-	[HeaderAttribute] // RVA: 0x7AE30 Offset: 0x7A230 VA: 0x18007AE30
+	[HeaderAttribute] // RVA: 0x7B070 Offset: 0x7A470 VA: 0x18007B070
 	public SteamInventoryItem.Category category; // 0x38
 	public SteamInventoryItem.SubCategory subcategory; // 0x3C
 	public SteamInventoryCategory steamCategory; // 0x40
 	public bool isLimitedTimeOffer; // 0x48
-	[TooltipAttribute] // RVA: 0x7AFC0 Offset: 0x7A3C0 VA: 0x18007AFC0
+	[TooltipAttribute] // RVA: 0x7B560 Offset: 0x7A960 VA: 0x18007B560
 	public bool PreventBreakingDown; // 0x49
-	[HeaderAttribute] // RVA: 0x7B3E0 Offset: 0x7A7E0 VA: 0x18007B3E0
+	[HeaderAttribute] // RVA: 0x7B600 Offset: 0x7AA00 VA: 0x18007B600
 	public string itemname; // 0x50
 	public ulong workshopID; // 0x58
 	public SteamDLCItem DlcItem; // 0x60
-	[TooltipAttribute] // RVA: 0x7B4E0 Offset: 0x7A8E0 VA: 0x18007B4E0
+	[TooltipAttribute] // RVA: 0x7B7B0 Offset: 0x7ABB0 VA: 0x18007B7B0
 	public bool forceCraftableItemDesc; // 0x68
 
 	public ItemDefinition itemDefinition { get; }
@@ -3255,7 +3255,7 @@ public class SteamInventoryItem : ScriptableObject // TypeDefIndex: 10765
 
 }
 
-public enum SteamInventoryItem.Category // TypeDefIndex: 10766
+public enum SteamInventoryItem.Category // TypeDefIndex: 10770
 {	public int value__; // 0x0
 	public const SteamInventoryItem.Category None = 0;
 	public const SteamInventoryItem.Category Clothing = 1;
@@ -3266,7 +3266,7 @@ public enum SteamInventoryItem.Category // TypeDefIndex: 10766
 
 }
 
-public enum SteamInventoryItem.SubCategory // TypeDefIndex: 10767
+public enum SteamInventoryItem.SubCategory // TypeDefIndex: 10771
 {	public int value__; // 0x0
 	public const SteamInventoryItem.SubCategory None = 0;
 	public const SteamInventoryItem.SubCategory Shirt = 1;
@@ -3283,7 +3283,7 @@ public enum SteamInventoryItem.SubCategory // TypeDefIndex: 10767
 
 }
 
-public class SteamClientWrapper : SingletonComponent<SteamClientWrapper> // TypeDefIndex: 10777
+public class SteamClientWrapper : SingletonComponent<SteamClientWrapper> // TypeDefIndex: 10781
 {
 	public Texture GetAvatarTexture(ulong steamid) { }
 
@@ -3307,7 +3307,7 @@ public class SteamClientWrapper : SingletonComponent<SteamClientWrapper> // Type
 
 }
 
-public enum SteamClientWrapper.RichPresenceState // TypeDefIndex: 10778
+public enum SteamClientWrapper.RichPresenceState // TypeDefIndex: 10782
 {	public int value__; // 0x0
 	public const SteamClientWrapper.RichPresenceState MainMenu = 0;
 	public const SteamClientWrapper.RichPresenceState Wilderness = 1;
@@ -3315,16 +3315,16 @@ public enum SteamClientWrapper.RichPresenceState // TypeDefIndex: 10778
 
 }
 
-public static class SteamNewsSource // TypeDefIndex: 11132
-{	public static SteamNewsSource.Story[] Stories; // 0x30A7
+public static class SteamNewsSource // TypeDefIndex: 11136
+{	public static SteamNewsSource.Story[] Stories; // 0x2B117EC
 
 
-	[IteratorStateMachineAttribute] // RVA: 0x992C0 Offset: 0x986C0 VA: 0x1800992C0
+	[IteratorStateMachineAttribute] // RVA: 0x99690 Offset: 0x98A90 VA: 0x180099690
 	public static IEnumerator GetStories() { }
 
 }
 
-public struct SteamNewsSource.Story // TypeDefIndex: 11133
+public struct SteamNewsSource.Story // TypeDefIndex: 11137
 {	public string name; // 0x0
 	public string url; // 0x8
 	public int date; // 0x10
@@ -3333,7 +3333,7 @@ public struct SteamNewsSource.Story // TypeDefIndex: 11133
 
 }
 
-private sealed class SteamNewsSource.<GetStories>d__2 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11134
+private sealed class SteamNewsSource.<GetStories>d__2 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11138
 {	private int <>1__state; // 0x10
 	private object <>2__current; // 0x18
 	private WWW <www>5__2; // 0x20
@@ -3342,26 +3342,26 @@ private sealed class SteamNewsSource.<GetStories>d__2 : IEnumerator<object>, IEn
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
 
-public class SteamFriendsList : MonoBehaviour // TypeDefIndex: 11221
+public class SteamFriendsList : MonoBehaviour // TypeDefIndex: 11225
 {	public RectTransform targetPanel; // 0x18
 	public SteamUserButton userButton; // 0x20
 	public bool IncludeFriendsList; // 0x28
@@ -3399,13 +3399,13 @@ public class SteamFriendsList : MonoBehaviour // TypeDefIndex: 11221
 
 }
 
-public class SteamFriendsList.onFriendSelectedEvent : UnityEvent<ulong, string> // TypeDefIndex: 11222
+public class SteamFriendsList.onFriendSelectedEvent : UnityEvent<ulong, string> // TypeDefIndex: 11226
 {
 	public void .ctor() { }
 
 }
 
-private sealed class SteamFriendsList.<>c__DisplayClass15_0 // TypeDefIndex: 11223
+private sealed class SteamFriendsList.<>c__DisplayClass15_0 // TypeDefIndex: 11227
 {	public IPlayerInfo f; // 0x10
 
 
@@ -3415,7 +3415,7 @@ private sealed class SteamFriendsList.<>c__DisplayClass15_0 // TypeDefIndex: 112
 
 }
 
-private sealed class SteamFriendsList.<>c__DisplayClass16_0 // TypeDefIndex: 11224
+private sealed class SteamFriendsList.<>c__DisplayClass16_0 // TypeDefIndex: 11228
 {	public IPlayerInfo f; // 0x10
 
 
@@ -3425,7 +3425,7 @@ private sealed class SteamFriendsList.<>c__DisplayClass16_0 // TypeDefIndex: 112
 
 }
 
-private sealed class SteamFriendsList.<>c__DisplayClass17_0 // TypeDefIndex: 11225
+private sealed class SteamFriendsList.<>c__DisplayClass17_0 // TypeDefIndex: 11229
 {	public string name; // 0x10
 
 
@@ -3435,7 +3435,7 @@ private sealed class SteamFriendsList.<>c__DisplayClass17_0 // TypeDefIndex: 112
 
 }
 
-private sealed class SteamFriendsList.<>c__DisplayClass18_0 // TypeDefIndex: 11226
+private sealed class SteamFriendsList.<>c__DisplayClass18_0 // TypeDefIndex: 11230
 {	public IPlayerInfo player; // 0x10
 	public SteamFriendsList <>4__this; // 0x18
 
@@ -3444,7 +3444,7 @@ private sealed class SteamFriendsList.<>c__DisplayClass18_0 // TypeDefIndex: 112
 
 }
 
-private sealed class SteamFriendsList.<>c__DisplayClass18_1 // TypeDefIndex: 11227
+private sealed class SteamFriendsList.<>c__DisplayClass18_1 // TypeDefIndex: 11231
 {	public ulong steamid; // 0x10
 	public SteamFriendsList.<>c__DisplayClass18_0 CS$<>8__locals1; // 0x18
 
@@ -3455,7 +3455,7 @@ private sealed class SteamFriendsList.<>c__DisplayClass18_1 // TypeDefIndex: 112
 
 }
 
-private sealed class SteamFriendsList.<>c // TypeDefIndex: 11228
+private sealed class SteamFriendsList.<>c // TypeDefIndex: 11232
 {	public static readonly SteamFriendsList.<>c <>9; // 0x0
 	public static Func<IPlayerInfo, string> <>9__18_0; // 0x8
 
@@ -3468,42 +3468,42 @@ private sealed class SteamFriendsList.<>c // TypeDefIndex: 11228
 
 }
 
-public class SteamUserButton : MonoBehaviour // TypeDefIndex: 11229
+public class SteamUserButton : MonoBehaviour // TypeDefIndex: 11233
 {	public RustText steamName; // 0x18
 	public RustText steamInfo; // 0x20
 	public RawImage avatar; // 0x28
 	public Color textColorInGame; // 0x30
 	public Color textColorOnline; // 0x40
 	public Color textColorNormal; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ulong <SteamId>k__BackingField; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Username>k__BackingField; // 0x68
 
 	public ulong SteamId { get; set; }
 	public string Username { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public ulong get_SteamId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_SteamId(ulong value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Username() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Username(string value) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA2590 Offset: 0xA1990 VA: 0x1800A2590
+	[AsyncStateMachineAttribute] // RVA: 0xA2700 Offset: 0xA1B00 VA: 0x1800A2700
 	public void UpdateFromUser(ulong steamid, bool isInThisGame, bool isOnline, bool hideSteamId) { }
 
 	public void .ctor() { }
 
 }
 
-private struct SteamUserButton.<UpdateFromUser>d__14 : IAsyncStateMachine // TypeDefIndex: 11230
+private struct SteamUserButton.<UpdateFromUser>d__14 : IAsyncStateMachine // TypeDefIndex: 11234
 {	public int <>1__state; // 0x0
 	public AsyncVoidMethodBuilder <>t__builder; // 0x8
 	public SteamUserButton <>4__this; // 0x28
@@ -3516,24 +3516,24 @@ private struct SteamUserButton.<UpdateFromUser>d__14 : IAsyncStateMachine // Typ
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-public class Steam // TypeDefIndex: 11964
+public class Steam // TypeDefIndex: 11968
 {
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static object achievements() { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void ResetStats() { }
 
 	public void .ctor() { }
 
 }
 
-private sealed class Steam.<>c // TypeDefIndex: 11965
+private sealed class Steam.<>c // TypeDefIndex: 11969
 {	public static readonly Steam.<>c <>9; // 0x0
 	public static Func<Achievement, <>f__AnonymousType0<string, string, bool>> <>9__0_0; // 0x8
 
@@ -3546,7 +3546,7 @@ private sealed class Steam.<>c // TypeDefIndex: 11965
 
 }
 
-public class SteamInventoryCrafting : MonoBehaviour // TypeDefIndex: 12050
+public class SteamInventoryCrafting : MonoBehaviour // TypeDefIndex: 12054
 {	public GameObject Container; // 0x18
 	public Button ConvertToItem; // 0x20
 	public TextMeshProUGUI WoodAmount; // 0x28
@@ -3554,9 +3554,9 @@ public class SteamInventoryCrafting : MonoBehaviour // TypeDefIndex: 12050
 	public TextMeshProUGUI MetalAmount; // 0x38
 	public int SelectedCount; // 0x40
 	public TextMeshProUGUI InfoText; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IPlayerItemDefinition <ResultItem>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Coroutine <MarketCoroutine>k__BackingField; // 0x58
 	public SteamInventoryCrateOpen CraftModal; // 0x60
 	public GameObject CraftingContainer; // 0x68
@@ -3570,16 +3570,16 @@ public class SteamInventoryCrafting : MonoBehaviour // TypeDefIndex: 12050
 	public Coroutine MarketCoroutine { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public IPlayerItemDefinition get_ResultItem() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_ResultItem(IPlayerItemDefinition value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Coroutine get_MarketCoroutine() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_MarketCoroutine(Coroutine value) { }
 
 	public void OnEnable() { }
@@ -3594,18 +3594,18 @@ public class SteamInventoryCrafting : MonoBehaviour // TypeDefIndex: 12050
 
 	private void UpdateInfoText(int length, IPlayerItemDefinition definition, Nullable<double> totalValue) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1AF0 Offset: 0xD0EF0 VA: 0x1800D1AF0
+	[AsyncStateMachineAttribute] // RVA: 0xD1E50 Offset: 0xD1250 VA: 0x1800D1E50
 	private Task<SteamInventoryCrafting.MarketPrice> GetMarketPrice(IPlayerItemDefinition definition) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1D70 Offset: 0xD1170 VA: 0x1800D1D70
+	[AsyncStateMachineAttribute] // RVA: 0xD1F30 Offset: 0xD1330 VA: 0x1800D1F30
 	private Task<SteamInventoryCrafting.MarketPrice> GetMarketPriceImpl(IPlayerItemDefinition definition) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD1E50 Offset: 0xD1250 VA: 0x1800D1E50
+	[IteratorStateMachineAttribute] // RVA: 0xD2210 Offset: 0xD1610 VA: 0x1800D2210
 	private IEnumerator LoadMarketPrice(IPlayerItemDefinition definition) { }
 
 	public void DoExchange() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD20C0 Offset: 0xD14C0 VA: 0x1800D20C0
+	[AsyncStateMachineAttribute] // RVA: 0xD2330 Offset: 0xD1730 VA: 0x1800D2330
 	private Task ExchangeItems(SteamInventoryItem[] selected) { }
 
 	public void OnRefreshed(IReadOnlyCollection<IPlayerItem> items) { }
@@ -3618,14 +3618,14 @@ public class SteamInventoryCrafting : MonoBehaviour // TypeDefIndex: 12050
 
 }
 
-public class SteamInventoryCrafting.MarketPrice // TypeDefIndex: 12051
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class SteamInventoryCrafting.MarketPrice // TypeDefIndex: 12055
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <success>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ulong <volume>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <lowest_price>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private double <lowest_price_value>k__BackingField; // 0x28
 
 	public bool success { get; set; }
@@ -3634,35 +3634,35 @@ public class SteamInventoryCrafting.MarketPrice // TypeDefIndex: 12051
 	public double lowest_price_value { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_success() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_success(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public ulong get_volume() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_volume(ulong value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_lowest_price() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_lowest_price(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public double get_lowest_price_value() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_lowest_price_value(double value) { }
 
 	public void .ctor() { }
 
 }
 
-private sealed class SteamInventoryCrafting.<>c__DisplayClass20_0 // TypeDefIndex: 12052
+private sealed class SteamInventoryCrafting.<>c__DisplayClass20_0 // TypeDefIndex: 12056
 {	public IPlayerItemDefinition x; // 0x10
 	public SteamInventoryCrafting <>4__this; // 0x18
 
@@ -3673,7 +3673,7 @@ private sealed class SteamInventoryCrafting.<>c__DisplayClass20_0 // TypeDefInde
 
 }
 
-private sealed class SteamInventoryCrafting.<>c // TypeDefIndex: 12053
+private sealed class SteamInventoryCrafting.<>c // TypeDefIndex: 12057
 {	public static readonly SteamInventoryCrafting.<>c <>9; // 0x0
 	public static Func<IPlayerItemDefinition, bool> <>9__20_0; // 0x8
 	public static Func<Toggle, bool> <>9__22_0; // 0x10
@@ -3737,7 +3737,7 @@ private sealed class SteamInventoryCrafting.<>c // TypeDefIndex: 12053
 
 }
 
-private sealed class SteamInventoryCrafting.<>c__DisplayClass23_0 // TypeDefIndex: 12054
+private sealed class SteamInventoryCrafting.<>c__DisplayClass23_0 // TypeDefIndex: 12058
 {	public IPlayerItemDefinition itemType; // 0x10
 
 
@@ -3747,7 +3747,7 @@ private sealed class SteamInventoryCrafting.<>c__DisplayClass23_0 // TypeDefInde
 
 }
 
-private struct SteamInventoryCrafting.<GetMarketPrice>d__29 : IAsyncStateMachine // TypeDefIndex: 12055
+private struct SteamInventoryCrafting.<GetMarketPrice>d__29 : IAsyncStateMachine // TypeDefIndex: 12059
 {	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder<SteamInventoryCrafting.MarketPrice> <>t__builder; // 0x8
 	public SteamInventoryCrafting <>4__this; // 0x20
@@ -3757,12 +3757,12 @@ private struct SteamInventoryCrafting.<GetMarketPrice>d__29 : IAsyncStateMachine
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-private struct SteamInventoryCrafting.<GetMarketPriceImpl>d__30 : IAsyncStateMachine // TypeDefIndex: 12056
+private struct SteamInventoryCrafting.<GetMarketPriceImpl>d__30 : IAsyncStateMachine // TypeDefIndex: 12060
 {	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder<SteamInventoryCrafting.MarketPrice> <>t__builder; // 0x8
 	public IPlayerItemDefinition definition; // 0x20
@@ -3772,12 +3772,12 @@ private struct SteamInventoryCrafting.<GetMarketPriceImpl>d__30 : IAsyncStateMac
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-private sealed class SteamInventoryCrafting.<>c__DisplayClass31_0 // TypeDefIndex: 12057
+private sealed class SteamInventoryCrafting.<>c__DisplayClass31_0 // TypeDefIndex: 12061
 {	public Task<SteamInventoryCrafting.MarketPrice> task; // 0x10
 
 
@@ -3787,7 +3787,7 @@ private sealed class SteamInventoryCrafting.<>c__DisplayClass31_0 // TypeDefInde
 
 }
 
-private sealed class SteamInventoryCrafting.<LoadMarketPrice>d__31 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12058
+private sealed class SteamInventoryCrafting.<LoadMarketPrice>d__31 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12062
 {	private int <>1__state; // 0x10
 	private object <>2__current; // 0x18
 	public SteamInventoryCrafting <>4__this; // 0x20
@@ -3798,26 +3798,26 @@ private sealed class SteamInventoryCrafting.<LoadMarketPrice>d__31 : IEnumerator
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
 
-private sealed class SteamInventoryCrafting.<>c__DisplayClass33_0 // TypeDefIndex: 12059
+private sealed class SteamInventoryCrafting.<>c__DisplayClass33_0 // TypeDefIndex: 12063
 {	public SteamInventoryItem[] selected; // 0x10
 
 
@@ -3827,7 +3827,7 @@ private sealed class SteamInventoryCrafting.<>c__DisplayClass33_0 // TypeDefInde
 
 }
 
-private sealed class SteamInventoryCrafting.<>c__DisplayClass33_1 // TypeDefIndex: 12060
+private sealed class SteamInventoryCrafting.<>c__DisplayClass33_1 // TypeDefIndex: 12064
 {	public IPlayerItemDefinition targetItem; // 0x10
 
 
@@ -3837,7 +3837,7 @@ private sealed class SteamInventoryCrafting.<>c__DisplayClass33_1 // TypeDefInde
 
 }
 
-private struct SteamInventoryCrafting.<ExchangeItems>d__33 : IAsyncStateMachine // TypeDefIndex: 12061
+private struct SteamInventoryCrafting.<ExchangeItems>d__33 : IAsyncStateMachine // TypeDefIndex: 12065
 {	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder <>t__builder; // 0x8
 	public SteamInventoryItem[] selected; // 0x20
@@ -3852,12 +3852,12 @@ private struct SteamInventoryCrafting.<ExchangeItems>d__33 : IAsyncStateMachine 
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-public class SteamInventoryCrateOpen : MonoBehaviour // TypeDefIndex: 12062
+public class SteamInventoryCrateOpen : MonoBehaviour // TypeDefIndex: 12066
 {	public TextMeshProUGUI Name; // 0x18
 	public TextMeshProUGUI Requirements; // 0x20
 	public TextMeshProUGUI Label; // 0x28
@@ -3874,7 +3874,7 @@ public class SteamInventoryCrateOpen : MonoBehaviour // TypeDefIndex: 12062
 
 	public void DoCraft() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD5F60 Offset: 0xD5360 VA: 0x1800D5F60
+	[AsyncStateMachineAttribute] // RVA: 0xD6110 Offset: 0xD5510 VA: 0x1800D6110
 	private Task DoCraftAsync() { }
 
 	public void Close() { }
@@ -3883,7 +3883,7 @@ public class SteamInventoryCrateOpen : MonoBehaviour // TypeDefIndex: 12062
 
 }
 
-private sealed class SteamInventoryCrateOpen.<>c__DisplayClass10_0 // TypeDefIndex: 12063
+private sealed class SteamInventoryCrateOpen.<>c__DisplayClass10_0 // TypeDefIndex: 12067
 {	public InventoryRecipe.Ingredient i; // 0x10
 
 
@@ -3893,7 +3893,7 @@ private sealed class SteamInventoryCrateOpen.<>c__DisplayClass10_0 // TypeDefInd
 
 }
 
-private sealed class SteamInventoryCrateOpen.<>c // TypeDefIndex: 12064
+private sealed class SteamInventoryCrateOpen.<>c // TypeDefIndex: 12068
 {	public static readonly SteamInventoryCrateOpen.<>c <>9; // 0x0
 	public static Func<InventoryRecipe.Ingredient, string> <>9__10_0; // 0x8
 	public static Func<InventoryItem, int> <>9__10_2; // 0x10
@@ -3912,7 +3912,7 @@ private sealed class SteamInventoryCrateOpen.<>c // TypeDefIndex: 12064
 
 }
 
-private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_0 // TypeDefIndex: 12065
+private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_0 // TypeDefIndex: 12069
 {	public List<InventoryItem.Amount> items; // 0x10
 
 
@@ -3922,7 +3922,7 @@ private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_0 // TypeDefInd
 
 }
 
-private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_1 // TypeDefIndex: 12066
+private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_1 // TypeDefIndex: 12070
 {	public InventoryRecipe.Ingredient i; // 0x10
 
 
@@ -3932,7 +3932,7 @@ private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_1 // TypeDefInd
 
 }
 
-private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_2 // TypeDefIndex: 12067
+private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_2 // TypeDefIndex: 12071
 {	public InventoryItem x; // 0x10
 
 
@@ -3942,7 +3942,7 @@ private sealed class SteamInventoryCrateOpen.<>c__DisplayClass12_2 // TypeDefInd
 
 }
 
-private struct SteamInventoryCrateOpen.<DoCraftAsync>d__12 : IAsyncStateMachine // TypeDefIndex: 12068
+private struct SteamInventoryCrateOpen.<DoCraftAsync>d__12 : IAsyncStateMachine // TypeDefIndex: 12072
 {	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder <>t__builder; // 0x8
 	public SteamInventoryCrateOpen <>4__this; // 0x20
@@ -3954,12 +3954,12 @@ private struct SteamInventoryCrateOpen.<DoCraftAsync>d__12 : IAsyncStateMachine 
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-public class SteamInventoryIcon : MonoBehaviour // TypeDefIndex: 12069
+public class SteamInventoryIcon : MonoBehaviour // TypeDefIndex: 12073
 {
 	public void Setup(IPlayerItem item, ItemSkinDirectory.Skin skin) { }
 
@@ -3969,7 +3969,7 @@ public class SteamInventoryIcon : MonoBehaviour // TypeDefIndex: 12069
 
 }
 
-public class SteamInventoryItem : MonoBehaviour // TypeDefIndex: 12070
+public class SteamInventoryItem : MonoBehaviour // TypeDefIndex: 12074
 {	public IPlayerItem Item; // 0x18
 	public HttpImage Image; // 0x20
 
@@ -3980,7 +3980,7 @@ public class SteamInventoryItem : MonoBehaviour // TypeDefIndex: 12070
 
 }
 
-public class SteamInventoryManager : SingletonComponent<SteamInventoryManager> // TypeDefIndex: 12071
+public class SteamInventoryManager : SingletonComponent<SteamInventoryManager> // TypeDefIndex: 12075
 {	public GameObject inventoryItemPrefab; // 0x18
 	public GameObject inventoryCanvas; // 0x20
 	public GameObject missingItems; // 0x28
@@ -3993,17 +3993,17 @@ public class SteamInventoryManager : SingletonComponent<SteamInventoryManager> /
 
 	public void ManualRefresh() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD64C0 Offset: 0xD58C0 VA: 0x1800D64C0
+	[AsyncStateMachineAttribute] // RVA: 0xD6750 Offset: 0xD5B50 VA: 0x1800D6750
 	public Task Refresh() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD6620 Offset: 0xD5A20 VA: 0x1800D6620
+	[AsyncStateMachineAttribute] // RVA: 0xD6960 Offset: 0xD5D60 VA: 0x1800D6960
 	private Task FixStacks(IReadOnlyCollection<IPlayerItem> steamitems) { }
 
 	public void .ctor() { }
 
 }
 
-private sealed class SteamInventoryManager.<>c // TypeDefIndex: 12072
+private sealed class SteamInventoryManager.<>c // TypeDefIndex: 12076
 {	public static readonly SteamInventoryManager.<>c <>9; // 0x0
 	public static Func<IPlayerItem, DateTimeOffset> <>9__8_0; // 0x8
 	public static Func<InventoryItem, bool> <>9__9_0; // 0x10
@@ -4028,7 +4028,7 @@ private sealed class SteamInventoryManager.<>c // TypeDefIndex: 12072
 
 }
 
-private struct SteamInventoryManager.<Refresh>d__8 : IAsyncStateMachine // TypeDefIndex: 12073
+private struct SteamInventoryManager.<Refresh>d__8 : IAsyncStateMachine // TypeDefIndex: 12077
 {	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder <>t__builder; // 0x8
 	public SteamInventoryManager <>4__this; // 0x20
@@ -4042,12 +4042,12 @@ private struct SteamInventoryManager.<Refresh>d__8 : IAsyncStateMachine // TypeD
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-private struct SteamInventoryManager.<FixStacks>d__9 : IAsyncStateMachine // TypeDefIndex: 12074
+private struct SteamInventoryManager.<FixStacks>d__9 : IAsyncStateMachine // TypeDefIndex: 12078
 {	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder <>t__builder; // 0x8
 	public IReadOnlyCollection<IPlayerItem> steamitems; // 0x20
@@ -4064,21 +4064,21 @@ private struct SteamInventoryManager.<FixStacks>d__9 : IAsyncStateMachine // Typ
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
 
-public class SteamInventoryNewItem : MonoBehaviour // TypeDefIndex: 12075
+public class SteamInventoryNewItem : MonoBehaviour // TypeDefIndex: 12079
 {
-	[AsyncStateMachineAttribute] // RVA: 0xD69E0 Offset: 0xD5DE0 VA: 0x1800D69E0
+	[AsyncStateMachineAttribute] // RVA: 0xD6CA0 Offset: 0xD60A0 VA: 0x1800D6CA0
 	public Task Open(IPlayerItem item) { }
 
 	public void .ctor() { }
 
 }
 
-private struct SteamInventoryNewItem.<Open>d__0 : IAsyncStateMachine // TypeDefIndex: 12076
+private struct SteamInventoryNewItem.<Open>d__0 : IAsyncStateMachine // TypeDefIndex: 12080
 {	public int <>1__state; // 0x0
 	public AsyncTaskMethodBuilder <>t__builder; // 0x8
 	public SteamInventoryNewItem <>4__this; // 0x20
@@ -4088,7 +4088,7 @@ private struct SteamInventoryNewItem.<Open>d__0 : IAsyncStateMachine // TypeDefI
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

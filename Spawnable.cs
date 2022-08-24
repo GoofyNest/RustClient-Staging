@@ -59,11 +59,11 @@ public class Spawnable : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6336
 }
 
 public class Spawnable : MonoBehaviour, IServerComponent // TypeDefIndex: 9996
-{	[ReadOnlyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+{	[ReadOnlyAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public SpawnPopulation Population; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool ForceSpawnOnly; // 0x20
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string ForceSpawnInfoMessage; // 0x28
 
 

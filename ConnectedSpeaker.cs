@@ -78,10 +78,10 @@ public class ConnectedSpeaker : IOEntity // TypeDefIndex: 8563
 
 	private void OnAudioRead(float[] data) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_PlayAudioFrom(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_StopPlayingAudio(BaseEntity.RPCMessage msg) { }
 
 	public override void ClientOnEnable() { }

@@ -2,7 +2,7 @@ internal class TraceLoggingMetadataCollector // TypeDefIndex: 1587
 {	private readonly TraceLoggingMetadataCollector.Impl impl; // 0x10
 	private readonly FieldMetadata currentGroup; // 0x18
 	private int bufferedArrayFieldCount; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private EventFieldTags <Tags>k__BackingField; // 0x24
 
 	internal EventFieldTags Tags { get; set; }
@@ -16,10 +16,10 @@ internal class TraceLoggingMetadataCollector // TypeDefIndex: 1587
 
 	private void .ctor(TraceLoggingMetadataCollector other, FieldMetadata group) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal EventFieldTags get_Tags() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_Tags(EventFieldTags value) { }
 
 	internal int get_ScratchSize() { }

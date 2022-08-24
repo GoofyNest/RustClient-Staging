@@ -1,4 +1,4 @@
-public class GenerateHeight : ProceduralComponent // TypeDefIndex: 10475
+public class GenerateHeight : ProceduralComponent // TypeDefIndex: 10479
 {
 	public static extern void Native_GenerateHeight(short[] map, int res, Vector3 pos, Vector3 size, uint seed, float lootAngle, float biomeAngle) { }
 

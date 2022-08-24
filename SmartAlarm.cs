@@ -65,7 +65,7 @@ public class SmartAlarm : AppIOEntity, ISubscribable // TypeDefIndex: 8449
 	public const BaseEntity.Flags Flag_HasCustomMessage = 16384;
 	public static readonly Translate.Phrase DefaultNotificationTitle; // 0x0
 	public static readonly Translate.Phrase DefaultNotificationBody; // 0x8
-	[HeaderAttribute] // RVA: 0x87AE0 Offset: 0x86EE0 VA: 0x180087AE0
+	[HeaderAttribute] // RVA: 0x87BB0 Offset: 0x86FB0 VA: 0x180087BB0
 	public GameObjectRef SetupNotificationDialog; // 0x338
 	public Animator Animator; // 0x340
 	private static readonly int AnimatorOn; // 0x10
@@ -81,15 +81,15 @@ public class SmartAlarm : AppIOEntity, ISubscribable // TypeDefIndex: 8449
 
 	public void OnAlarmStatusChange(bool isOn) { }
 
-	[BaseEntity.Menu] // RVA: 0x87C80 Offset: 0x87080 VA: 0x180087C80
-	[BaseEntity.Menu.Description] // RVA: 0x87C80 Offset: 0x87080 VA: 0x180087C80
-	[BaseEntity.Menu.Icon] // RVA: 0x87C80 Offset: 0x87080 VA: 0x180087C80
-	[BaseEntity.Menu.ShowIf] // RVA: 0x87C80 Offset: 0x87080 VA: 0x180087C80
+	[BaseEntity.Menu] // RVA: 0x87D50 Offset: 0x87150 VA: 0x180087D50
+	[BaseEntity.Menu.Description] // RVA: 0x87D50 Offset: 0x87150 VA: 0x180087D50
+	[BaseEntity.Menu.Icon] // RVA: 0x87D50 Offset: 0x87150 VA: 0x180087D50
+	[BaseEntity.Menu.ShowIf] // RVA: 0x87D50 Offset: 0x87150 VA: 0x180087D50
 	public void MenuSetupNotification(BasePlayer player) { }
 
 	public bool MenuSetupNotification_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetupNotification(BaseEntity.RPCMessage rpc) { }
 
 	public void SetNotificationText(string title, string body) { }

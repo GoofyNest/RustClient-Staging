@@ -1,20 +1,20 @@
 public static class Lightmapping // TypeDefIndex: 3888
-{	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static readonly Lightmapping.RequestLightsDelegate s_DefaultDelegate; // 0x0
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Lightmapping.RequestLightsDelegate s_RequestLightsDelegate; // 0x8
 
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void SetDelegate(Lightmapping.RequestLightsDelegate del) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static Lightmapping.RequestLightsDelegate GetDelegate() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void ResetDelegate() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static void RequestLights(Light[] lights, IntPtr outLightsPtr, int outLightsCount) { }
 
 	private static void .cctor() { }
@@ -34,7 +34,7 @@ public sealed class Lightmapping.RequestLightsDelegate : MulticastDelegate // Ty
 }
 
 private sealed class Lightmapping.<>c // TypeDefIndex: 3890
-{	public static readonly Lightmapping.<>c <>9; // 0x145F3
+{	public static readonly Lightmapping.<>c <>9; // 0x2B117EC
 
 
 	private static void .cctor() { }

@@ -1,4 +1,4 @@
-public static class ColorUtilities // TypeDefIndex: 11857
+public static class ColorUtilities // TypeDefIndex: 11861
 {	private const float logC_cut = 0,011361;
 	private const float logC_a = 5,555556;
 	private const float logC_b = 0,047996;

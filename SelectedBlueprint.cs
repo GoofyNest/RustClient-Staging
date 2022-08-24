@@ -1,4 +1,4 @@
-public class SelectedBlueprint : SingletonComponent<SelectedBlueprint>, IInventoryChanged // TypeDefIndex: 10993
+public class SelectedBlueprint : SingletonComponent<SelectedBlueprint>, IInventoryChanged // TypeDefIndex: 10997
 {	public ItemBlueprint blueprint; // 0x18
 	public InputField craftAmountText; // 0x20
 	public GameObject ingredientGrid; // 0x28
@@ -68,7 +68,7 @@ public class SelectedBlueprint : SingletonComponent<SelectedBlueprint>, IInvento
 
 }
 
-private sealed class SelectedBlueprint.<>c__DisplayClass30_0 // TypeDefIndex: 10994
+private sealed class SelectedBlueprint.<>c__DisplayClass30_0 // TypeDefIndex: 10998
 {	public int inventoryId; // 0x10
 
 

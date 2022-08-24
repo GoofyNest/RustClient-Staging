@@ -1,6 +1,6 @@
 public sealed class CanvasRenderer : Component // TypeDefIndex: 4732
-{	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
 	private bool <isMask>k__BackingField; // 0x18
 
 	public bool hasPopInstruction { set; }
@@ -8,7 +8,7 @@ public sealed class CanvasRenderer : Component // TypeDefIndex: 4732
 	public int popMaterialCount { set; }
 	public int absoluteDepth { get; }
 	public bool hasMoved { get; }
-	[NativePropertyAttribute] // RVA: 0xA4D30 Offset: 0xA4130 VA: 0x1800A4D30
+	[NativePropertyAttribute] // RVA: 0xA4E50 Offset: 0xA4250 VA: 0x1800A4E50
 	public bool cull { get; set; }
 
 
@@ -62,13 +62,13 @@ public sealed class CanvasRenderer : Component // TypeDefIndex: 4732
 
 	public static void AddUIVertexStream(List<UIVertex> verts, List<Vector3> positions, List<Color32> colors, List<Vector2> uv0S, List<Vector2> uv1S, List<Vector2> uv2S, List<Vector2> uv3S, List<Vector3> normals, List<Vector4> tangents) { }
 
-	[StaticAccessorAttribute] // RVA: 0xA4B60 Offset: 0xA3F60 VA: 0x1800A4B60
+	[StaticAccessorAttribute] // RVA: 0xA4C80 Offset: 0xA4080 VA: 0x1800A4C80
 	private static void SplitIndicesStreamsInternal(object verts, object indices) { }
 
-	[StaticAccessorAttribute] // RVA: 0xA4B60 Offset: 0xA3F60 VA: 0x1800A4B60
+	[StaticAccessorAttribute] // RVA: 0xA4C80 Offset: 0xA4080 VA: 0x1800A4C80
 	private static void SplitUIVertexStreamsInternal(object verts, object positions, object colors, object uv0S, object uv1S, object uv2S, object uv3S, object normals, object tangents) { }
 
-	[StaticAccessorAttribute] // RVA: 0xA4B60 Offset: 0xA3F60 VA: 0x1800A4B60
+	[StaticAccessorAttribute] // RVA: 0xA4C80 Offset: 0xA4080 VA: 0x1800A4C80
 	private static void CreateUIVertexStreamInternal(object verts, object positions, object colors, object uv0S, object uv1S, object uv2S, object uv3S, object normals, object tangents, object indices) { }
 
 	private void SetColor_Injected(ref Color color) { }

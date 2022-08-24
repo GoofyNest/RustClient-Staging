@@ -15,7 +15,7 @@ internal enum ChatEntryType // TypeDefIndex: 5139
 
 }
 
-public class ChatEntry : MonoBehaviour // TypeDefIndex: 10829
+public class ChatEntry : MonoBehaviour // TypeDefIndex: 10833
 {	public TextMeshProUGUI text; // 0x18
 	public RawImage avatar; // 0x20
 	public CanvasGroup canvasGroup; // 0x28
@@ -41,15 +41,15 @@ public class ChatEntry : MonoBehaviour // TypeDefIndex: 10829
 
 }
 
-public class Chat : ConsoleSystem // TypeDefIndex: 11886
+public class Chat : ConsoleSystem // TypeDefIndex: 11890
 {	private const float textRange = 50;
 	private const float textVolumeBoost = 0,2;
-	[ServerVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
-	[ClientVar] // RVA: 0x8AC00 Offset: 0x8A000 VA: 0x18008AC00
+	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	public static bool enabled; // 0x0
 	public static Chat.MuteList muted; // 0x8
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool muteglobal { get; set; }
 
 
@@ -59,19 +59,19 @@ public class Chat : ConsoleSystem // TypeDefIndex: 11886
 
 	public static void LoadMuteList() { }
 
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static void add(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static void add2(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void mute(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void unmute(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void mutelist(ConsoleSystem.Arg arg) { }
 
 	public static void MuteSteamID(ulong id) { }
@@ -82,13 +82,13 @@ public class Chat : ConsoleSystem // TypeDefIndex: 11886
 
 	public static bool IsSteamIDMuted(ulong id) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void unmuteall(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void open() { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void clear() { }
 
 	public void .ctor() { }
@@ -97,7 +97,7 @@ public class Chat : ConsoleSystem // TypeDefIndex: 11886
 
 }
 
-public enum Chat.ChatChannel // TypeDefIndex: 11887
+public enum Chat.ChatChannel // TypeDefIndex: 11891
 {	public int value__; // 0x0
 	public const Chat.ChatChannel Global = 0;
 	public const Chat.ChatChannel Team = 1;
@@ -106,18 +106,18 @@ public enum Chat.ChatChannel // TypeDefIndex: 11887
 
 }
 
-public struct Chat.ChatEntry // TypeDefIndex: 11888
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public struct Chat.ChatEntry // TypeDefIndex: 11892
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Chat.ChatChannel <Channel>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Message>k__BackingField; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <UserId>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Username>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Color>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <Time>k__BackingField; // 0x28
 
 	public Chat.ChatChannel Channel { get; set; }
@@ -128,45 +128,45 @@ public struct Chat.ChatEntry // TypeDefIndex: 11888
 	public int Time { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Chat.ChatChannel get_Channel() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Channel(Chat.ChatChannel value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Message() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Message(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_UserId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_UserId(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Username() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Username(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Color() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Color(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_Time() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Time(int value) { }
 
 }
 
-public struct Chat.MuteEntry // TypeDefIndex: 11889
+public struct Chat.MuteEntry // TypeDefIndex: 11893
 {	public ulong UserID; // 0x0
 	public string UserName; // 0x8
 	public string DateTime; // 0x10
@@ -176,7 +176,7 @@ public struct Chat.MuteEntry // TypeDefIndex: 11889
 
 }
 
-public class Chat.MuteList // TypeDefIndex: 11890
+public class Chat.MuteList // TypeDefIndex: 11894
 {	private Dictionary<ulong, Chat.MuteEntry> entries; // 0x10
 
 	public List<Chat.MuteEntry> All { get; }
@@ -205,7 +205,7 @@ public class Chat.MuteList // TypeDefIndex: 11890
 
 }
 
-private sealed class Chat.<>c // TypeDefIndex: 11891
+private sealed class Chat.<>c // TypeDefIndex: 11895
 {	public static readonly Chat.<>c <>9; // 0x0
 	public static Action<UIChat> <>9__23_0; // 0x8
 

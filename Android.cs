@@ -238,188 +238,188 @@ public static class AndroidJNIHelper // TypeDefIndex: 4473
 
 public static class AndroidJNI // TypeDefIndex: 4474
 {
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr FindClass(string name) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr FromReflectedMethod(IntPtr refMethod) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr ExceptionOccurred() { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static void ExceptionClear() { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr NewGlobalRef(IntPtr obj) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static void DeleteGlobalRef(IntPtr obj) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr NewWeakGlobalRef(IntPtr obj) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static void DeleteWeakGlobalRef(IntPtr obj) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr NewLocalRef(IntPtr obj) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static void DeleteLocalRef(IntPtr obj) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr NewObject(IntPtr clazz, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr GetObjectClass(IntPtr obj) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr GetMethodID(IntPtr clazz, string name, string sig) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr GetStaticMethodID(IntPtr clazz, string name, string sig) { }
 
 	public static IntPtr NewString(string chars) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	private static IntPtr NewStringFromStr(string chars) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static string GetStringChars(IntPtr str) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static string CallStringMethod(IntPtr obj, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr CallObjectMethod(IntPtr obj, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static int CallIntMethod(IntPtr obj, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static bool CallBooleanMethod(IntPtr obj, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static short CallShortMethod(IntPtr obj, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static sbyte CallSByteMethod(IntPtr obj, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static char CallCharMethod(IntPtr obj, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static float CallFloatMethod(IntPtr obj, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static double CallDoubleMethod(IntPtr obj, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static long CallLongMethod(IntPtr obj, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static string CallStaticStringMethod(IntPtr clazz, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr CallStaticObjectMethod(IntPtr clazz, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static int CallStaticIntMethod(IntPtr clazz, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static bool CallStaticBooleanMethod(IntPtr clazz, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static short CallStaticShortMethod(IntPtr clazz, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static sbyte CallStaticSByteMethod(IntPtr clazz, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static char CallStaticCharMethod(IntPtr clazz, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static float CallStaticFloatMethod(IntPtr clazz, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static double CallStaticDoubleMethod(IntPtr clazz, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static long CallStaticLongMethod(IntPtr clazz, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static void CallStaticVoidMethod(IntPtr clazz, IntPtr methodID, jvalue[] args) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr ToBooleanArray(bool[] array) { }
 
-	[ThreadSafeAttribute] // RVA: 0xC15F0 Offset: 0xC09F0 VA: 0x1800C15F0
-	[ObsoleteAttribute] // RVA: 0xC15F0 Offset: 0xC09F0 VA: 0x1800C15F0
+	[ThreadSafeAttribute] // RVA: 0xC1720 Offset: 0xC0B20 VA: 0x1800C1720
+	[ObsoleteAttribute] // RVA: 0xC1720 Offset: 0xC0B20 VA: 0x1800C1720
 	public static IntPtr ToByteArray(byte[] array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr ToSByteArray(sbyte[] array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr ToCharArray(char[] array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr ToShortArray(short[] array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr ToIntArray(int[] array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr ToLongArray(long[] array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr ToFloatArray(float[] array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr ToDoubleArray(double[] array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr ToObjectArray(IntPtr[] array, IntPtr arrayClass) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static bool[] FromBooleanArray(IntPtr array) { }
 
-	[ObsoleteAttribute] // RVA: 0xC1E10 Offset: 0xC1210 VA: 0x1800C1E10
-	[ThreadSafeAttribute] // RVA: 0xC1E10 Offset: 0xC1210 VA: 0x1800C1E10
+	[ObsoleteAttribute] // RVA: 0xC1F40 Offset: 0xC1340 VA: 0x1800C1F40
+	[ThreadSafeAttribute] // RVA: 0xC1F40 Offset: 0xC1340 VA: 0x1800C1F40
 	public static byte[] FromByteArray(IntPtr array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static sbyte[] FromSByteArray(IntPtr array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static char[] FromCharArray(IntPtr array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static short[] FromShortArray(IntPtr array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static int[] FromIntArray(IntPtr array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static long[] FromLongArray(IntPtr array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static float[] FromFloatArray(IntPtr array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static double[] FromDoubleArray(IntPtr array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static int GetArrayLength(IntPtr array) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr NewObjectArray(int size, IntPtr clazz, IntPtr obj) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static IntPtr GetObjectArrayElement(IntPtr array, int index) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	public static void SetObjectArrayElement(IntPtr array, int index, IntPtr obj) { }
 
 }

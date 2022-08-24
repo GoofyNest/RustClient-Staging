@@ -1,5 +1,5 @@
 internal class SystemClock // TypeDefIndex: 3557
-{	private static readonly DateTime s_Epoch; // 0x14510
+{	private static readonly DateTime s_Epoch; // 0x13A7E
 
 	public static DateTime now { get; }
 

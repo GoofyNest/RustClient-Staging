@@ -10,14 +10,14 @@ public class UnityWebRequest : IDisposable // TypeDefIndex: 4128
 	public const string kHttpVerbPUT = "PUT";
 	public const string kHttpVerbCREATE = "CREATE";
 	public const string kHttpVerbDELETE = "DELETE";
-	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
 	private bool <disposeCertificateHandlerOnDispose>k__BackingField; // 0x38
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private bool <disposeDownloadHandlerOnDispose>k__BackingField; // 0x39
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private bool <disposeUploadHandlerOnDispose>k__BackingField; // 0x3A
 
 	public bool disposeCertificateHandlerOnDispose { get; set; }
@@ -32,7 +32,7 @@ public class UnityWebRequest : IDisposable // TypeDefIndex: 4128
 	public bool isNetworkError { get; }
 	public bool isHttpError { get; }
 	public float downloadProgress { get; }
-	[ObsoleteAttribute] // RVA: 0x911E0 Offset: 0x905E0 VA: 0x1800911E0
+	[ObsoleteAttribute] // RVA: 0x912B0 Offset: 0x906B0 VA: 0x1800912B0
 	public bool chunkedTransfer { set; }
 	public UploadHandler uploadHandler { get; set; }
 	public DownloadHandler downloadHandler { get; set; }
@@ -40,34 +40,34 @@ public class UnityWebRequest : IDisposable // TypeDefIndex: 4128
 	public int timeout { set; }
 
 
-	[NativeMethodAttribute] // RVA: 0x8FDF0 Offset: 0x8F1F0 VA: 0x18008FDF0
-	[NativeConditionalAttribute] // RVA: 0x8FDF0 Offset: 0x8F1F0 VA: 0x18008FDF0
+	[NativeMethodAttribute] // RVA: 0x8FF30 Offset: 0x8F330 VA: 0x18008FF30
+	[NativeConditionalAttribute] // RVA: 0x8FF30 Offset: 0x8F330 VA: 0x18008FF30
 	private static string GetWebErrorString(UnityWebRequest.UnityWebRequestError err) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[VisibleToOtherModulesAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static string GetHTTPStatusString(long responseCode) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_disposeCertificateHandlerOnDispose() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_disposeCertificateHandlerOnDispose(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_disposeDownloadHandlerOnDispose() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_disposeDownloadHandlerOnDispose(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_disposeUploadHandlerOnDispose() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_disposeUploadHandlerOnDispose(bool value) { }
 
 	internal static IntPtr Create() { }
 
-	[NativeMethodAttribute] // RVA: 0x90620 Offset: 0x8FA20 VA: 0x180090620
+	[NativeMethodAttribute] // RVA: 0x90760 Offset: 0x8FB60 VA: 0x180090760
 	private void Release() { }
 
 	internal void InternalDestroy() { }
@@ -86,15 +86,15 @@ public class UnityWebRequest : IDisposable // TypeDefIndex: 4128
 
 	private void DisposeHandlers() { }
 
-	[NativeThrowsAttribute] // RVA: 0x80B40 Offset: 0x7FF40 VA: 0x180080B40
+	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
 	internal UnityWebRequestAsyncOperation BeginWebRequest() { }
 
-	[ObsoleteAttribute] // RVA: 0x907C0 Offset: 0x8FBC0 VA: 0x1800907C0
+	[ObsoleteAttribute] // RVA: 0x90900 Offset: 0x8FD00 VA: 0x180090900
 	public AsyncOperation Send() { }
 
 	public UnityWebRequestAsyncOperation SendWebRequest() { }
 
-	[NativeMethodAttribute] // RVA: 0x90620 Offset: 0x8FA20 VA: 0x180090620
+	[NativeMethodAttribute] // RVA: 0x90760 Offset: 0x8FB60 VA: 0x180090760
 	public void Abort() { }
 
 	private UnityWebRequest.UnityWebRequestError SetMethod(UnityWebRequest.UnityWebRequestMethod methodType) { }
@@ -125,16 +125,16 @@ public class UnityWebRequest : IDisposable // TypeDefIndex: 4128
 
 	private bool IsExecuting() { }
 
-	[NativeMethodAttribute] // RVA: 0x90A10 Offset: 0x8FE10 VA: 0x180090A10
+	[NativeMethodAttribute] // RVA: 0x90B20 Offset: 0x8FF20 VA: 0x180090B20
 	public bool get_isModifiable() { }
 
-	[NativeMethodAttribute] // RVA: 0x90BC0 Offset: 0x8FFC0 VA: 0x180090BC0
+	[NativeMethodAttribute] // RVA: 0x90C80 Offset: 0x90080 VA: 0x180090C80
 	public bool get_isDone() { }
 
-	[NativeMethodAttribute] // RVA: 0x90D60 Offset: 0x90160 VA: 0x180090D60
+	[NativeMethodAttribute] // RVA: 0x90E50 Offset: 0x90250 VA: 0x180090E50
 	public bool get_isNetworkError() { }
 
-	[NativeMethodAttribute] // RVA: 0x90E70 Offset: 0x90270 VA: 0x180090E70
+	[NativeMethodAttribute] // RVA: 0x90F60 Offset: 0x90360 VA: 0x180090F60
 	public bool get_isHttpError() { }
 
 	private float GetDownloadProgress() { }
@@ -145,7 +145,7 @@ public class UnityWebRequest : IDisposable // TypeDefIndex: 4128
 
 	public void set_chunkedTransfer(bool value) { }
 
-	[NativeMethodAttribute] // RVA: 0x90FB0 Offset: 0x903B0 VA: 0x180090FB0
+	[NativeMethodAttribute] // RVA: 0x910C0 Offset: 0x904C0 VA: 0x1800910C0
 	internal UnityWebRequest.UnityWebRequestError InternalSetRequestHeader(string name, string value) { }
 
 	public void SetRequestHeader(string name, string value) { }

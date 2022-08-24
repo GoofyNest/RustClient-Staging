@@ -78,10 +78,10 @@ public class BearTrap : BaseTrap // TypeDefIndex: 8362
 
 	public override bool CanPickup(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xCD8A0 Offset: 0xCCCA0 VA: 0x1800CD8A0
-	[BaseEntity.Menu.Description] // RVA: 0xCD8A0 Offset: 0xCCCA0 VA: 0x1800CD8A0
-	[BaseEntity.Menu.Icon] // RVA: 0xCD8A0 Offset: 0xCCCA0 VA: 0x1800CD8A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCD8A0 Offset: 0xCCCA0 VA: 0x1800CD8A0
+	[BaseEntity.Menu] // RVA: 0xCD980 Offset: 0xCCD80 VA: 0x1800CD980
+	[BaseEntity.Menu.Description] // RVA: 0xCD980 Offset: 0xCCD80 VA: 0x1800CD980
+	[BaseEntity.Menu.Icon] // RVA: 0xCD980 Offset: 0xCCD80 VA: 0x1800CD980
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCD980 Offset: 0xCCD80 VA: 0x1800CD980
 	public void Arm_Beartrap(BasePlayer player) { }
 
 	public bool Menu_Arm_ShowIf(BasePlayer player) { }
@@ -119,10 +119,10 @@ public class Landmine : BaseTrap // TypeDefIndex: 8402
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0xE9F40 Offset: 0xE9340 VA: 0x1800E9F40
-	[BaseEntity.Menu.Description] // RVA: 0xE9F40 Offset: 0xE9340 VA: 0x1800E9F40
-	[BaseEntity.Menu.Icon] // RVA: 0xE9F40 Offset: 0xE9340 VA: 0x1800E9F40
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE9F40 Offset: 0xE9340 VA: 0x1800E9F40
+	[BaseEntity.Menu] // RVA: 0xEA080 Offset: 0xE9480 VA: 0x1800EA080
+	[BaseEntity.Menu.Description] // RVA: 0xEA080 Offset: 0xE9480 VA: 0x1800EA080
+	[BaseEntity.Menu.Icon] // RVA: 0xEA080 Offset: 0xE9480 VA: 0x1800EA080
+	[BaseEntity.Menu.ShowIf] // RVA: 0xEA080 Offset: 0xE9480 VA: 0x1800EA080
 	public void Arm_Landmine(BasePlayer player) { }
 
 	public bool Menu_Disarm_ShowIf(BasePlayer player) { }
@@ -152,7 +152,7 @@ public class GunTrap : StorageContainer // TypeDefIndex: 8572
 
 	public Vector3 GetEyePosition() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_FireGun(BaseEntity.RPCMessage rpc) { }
 
 	public void .ctor() { }
@@ -292,7 +292,7 @@ public class Bootstrap : SingletonComponent<Bootstrap> // TypeDefIndex: 9820
 
 	public static void NetworkInitSteamworks(bool enableSteamDatagramRelay) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x99F30 Offset: 0x99330 VA: 0x180099F30
+	[IteratorStateMachineAttribute] // RVA: 0x9A020 Offset: 0x99420 VA: 0x18009A020
 	private IEnumerator Start() { }
 
 	public static GameObject LoadEngineUI() { }
@@ -307,7 +307,7 @@ public class Bootstrap : SingletonComponent<Bootstrap> // TypeDefIndex: 9820
 
 	public static void SetUIVisible(bool visible) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9A170 Offset: 0x99570 VA: 0x18009A170
+	[IteratorStateMachineAttribute] // RVA: 0x9A2A0 Offset: 0x996A0 VA: 0x18009A2A0
 	private IEnumerator ClientStartup() { }
 
 	protected void Update() { }
@@ -318,7 +318,7 @@ public class Bootstrap : SingletonComponent<Bootstrap> // TypeDefIndex: 9820
 
 	public void ExitGame() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9A550 Offset: 0x99950 VA: 0x18009A550
+	[IteratorStateMachineAttribute] // RVA: 0x9A630 Offset: 0x99A30 VA: 0x18009A630
 	public static IEnumerator LoadingUpdate(string str) { }
 
 	public static void WriteToLog(string str) { }
@@ -363,10 +363,10 @@ private sealed class Bootstrap.<Start>d__18 : IEnumerator<object>, IEnumerator, 
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
@@ -377,13 +377,13 @@ private sealed class Bootstrap.<Start>d__18 : IEnumerator<object>, IEnumerator, 
 
 	private void <>m__Finally3() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -399,10 +399,10 @@ private sealed class Bootstrap.<ClientStartup>d__28 : IEnumerator<object>, IEnum
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
@@ -415,13 +415,13 @@ private sealed class Bootstrap.<ClientStartup>d__28 : IEnumerator<object>, IEnum
 
 	private void <>m__Finally4() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -435,21 +435,21 @@ private sealed class Bootstrap.<LoadingUpdate>d__33 : IEnumerator<object>, IEnum
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

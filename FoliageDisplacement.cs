@@ -1,4 +1,4 @@
-public class FoliageDisplacement : MonoBehaviour, IClientComponent, ILOD // TypeDefIndex: 10675
+public class FoliageDisplacement : MonoBehaviour, IClientComponent, ILOD // TypeDefIndex: 10679
 {	public bool moving; // 0x18
 	public bool billboard; // 0x19
 	public Mesh mesh; // 0x20

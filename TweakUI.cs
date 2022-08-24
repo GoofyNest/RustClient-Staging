@@ -1,5 +1,5 @@
-public class TweakUI : SingletonComponent<TweakUI> // TypeDefIndex: 11142
-{	public static bool isOpen; // 0x2B10888
+public class TweakUI : SingletonComponent<TweakUI> // TypeDefIndex: 11146
+{	public static bool isOpen; // 0x23D0
 
 
 	private void Update() { }

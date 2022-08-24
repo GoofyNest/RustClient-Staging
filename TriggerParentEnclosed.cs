@@ -1,6 +1,6 @@
 public class TriggerParentEnclosed : TriggerParent // TypeDefIndex: 10038
 {	public float Padding; // 0x48
-	[TooltipAttribute] // RVA: 0xB0750 Offset: 0xAFB50 VA: 0x1800B0750
+	[TooltipAttribute] // RVA: 0xB0820 Offset: 0xAFC20 VA: 0x1800B0820
 	public TriggerParentEnclosed.TriggerMode intersectionMode; // 0x4C
 	public bool CheckBoundsOnUnparent; // 0x50
 

@@ -14,13 +14,13 @@ public class UnmanagedMemoryStream : Stream // TypeDefIndex: 659
 	public override bool CanWrite { get; }
 	public override long Length { get; }
 	public override long Position { get; set; }
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public byte* PositionPointer { get; }
 
 
 	protected void .ctor() { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(byte* pointer, long length) { }
 
 	internal void .ctor(byte* pointer, long length, long capacity, FileAccess access, bool skipSecurityCheck) { }
@@ -47,7 +47,7 @@ public class UnmanagedMemoryStream : Stream // TypeDefIndex: 659
 
 	public override int Read([In] [Out] byte[] buffer, int offset, int count) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	public override int ReadByte() { }
@@ -58,7 +58,7 @@ public class UnmanagedMemoryStream : Stream // TypeDefIndex: 659
 
 	public override void Write(byte[] buffer, int offset, int count) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	public override void WriteByte(byte value) { }

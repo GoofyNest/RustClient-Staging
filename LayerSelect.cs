@@ -1,5 +1,5 @@
-public struct LayerSelect // TypeDefIndex: 11429
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public struct LayerSelect // TypeDefIndex: 11433
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int layer; // 0x0
 
 	public int Mask { get; }

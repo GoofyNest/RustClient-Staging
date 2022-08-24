@@ -4,7 +4,7 @@ public sealed class ReaderSettings // TypeDefIndex: 7600
 	private int _nonSeekableStreamIncrementalBytesReadingStep; // 0x18
 	private int _bufferSize; // 0x1C
 	private BufferingPolicy _bufferingPolicy; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private byte[] <Buffer>k__BackingField; // 0x28
 
 	public int NonSeekableStreamBufferSize { get; }
@@ -25,7 +25,7 @@ public sealed class ReaderSettings // TypeDefIndex: 7600
 
 	public int get_BufferSize() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public byte[] get_Buffer() { }
 
 	public void .ctor() { }

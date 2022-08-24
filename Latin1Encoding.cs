@@ -1,5 +1,5 @@
 internal class Latin1Encoding : EncodingNLS, ISerializable // TypeDefIndex: 462
-{	private static readonly char[] arrayCharBestFit; // 0x13B64
+{	private static readonly char[] arrayCharBestFit; // 0x2B118CC
 
 	public override bool IsSingleByte { get; }
 

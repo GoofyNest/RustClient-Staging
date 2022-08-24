@@ -44,7 +44,7 @@ public static class Math // TypeDefIndex: 266
 
 	public static double Truncate(double d) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static double Sqrt(double d) { }
 
 	public static double Log(double d) { }
@@ -67,78 +67,78 @@ public static class Math // TypeDefIndex: 266
 
 	public static double Abs(double value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x7D860 Offset: 0x7CC60 VA: 0x18007D860
-	[CLSCompliantAttribute] // RVA: 0x7D860 Offset: 0x7CC60 VA: 0x18007D860
+	[ReliabilityContractAttribute] // RVA: 0x7D940 Offset: 0x7CD40 VA: 0x18007D940
+	[CLSCompliantAttribute] // RVA: 0x7D940 Offset: 0x7CD40 VA: 0x18007D940
 	public static sbyte Max(sbyte val1, sbyte val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static byte Max(byte val1, byte val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static short Max(short val1, short val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x7D860 Offset: 0x7CC60 VA: 0x18007D860
-	[CLSCompliantAttribute] // RVA: 0x7D860 Offset: 0x7CC60 VA: 0x18007D860
+	[ReliabilityContractAttribute] // RVA: 0x7D940 Offset: 0x7CD40 VA: 0x18007D940
+	[CLSCompliantAttribute] // RVA: 0x7D940 Offset: 0x7CD40 VA: 0x18007D940
 	public static ushort Max(ushort val1, ushort val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static int Max(int val1, int val2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
-	[ReliabilityContractAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
+	[CLSCompliantAttribute] // RVA: 0x7DD80 Offset: 0x7D180 VA: 0x18007DD80
+	[ReliabilityContractAttribute] // RVA: 0x7DD80 Offset: 0x7D180 VA: 0x18007DD80
 	public static uint Max(uint val1, uint val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static long Max(long val1, long val2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
-	[ReliabilityContractAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
+	[CLSCompliantAttribute] // RVA: 0x7DD80 Offset: 0x7D180 VA: 0x18007DD80
+	[ReliabilityContractAttribute] // RVA: 0x7DD80 Offset: 0x7D180 VA: 0x18007DD80
 	public static ulong Max(ulong val1, ulong val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static float Max(float val1, float val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static double Max(double val1, double val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static Decimal Max(Decimal val1, Decimal val2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
-	[ReliabilityContractAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
+	[CLSCompliantAttribute] // RVA: 0x7DD80 Offset: 0x7D180 VA: 0x18007DD80
+	[ReliabilityContractAttribute] // RVA: 0x7DD80 Offset: 0x7D180 VA: 0x18007DD80
 	public static sbyte Min(sbyte val1, sbyte val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static byte Min(byte val1, byte val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static short Min(short val1, short val2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
-	[ReliabilityContractAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
+	[CLSCompliantAttribute] // RVA: 0x7DD80 Offset: 0x7D180 VA: 0x18007DD80
+	[ReliabilityContractAttribute] // RVA: 0x7DD80 Offset: 0x7D180 VA: 0x18007DD80
 	public static ushort Min(ushort val1, ushort val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static int Min(int val1, int val2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
-	[ReliabilityContractAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
+	[CLSCompliantAttribute] // RVA: 0x7DD80 Offset: 0x7D180 VA: 0x18007DD80
+	[ReliabilityContractAttribute] // RVA: 0x7DD80 Offset: 0x7D180 VA: 0x18007DD80
 	public static uint Min(uint val1, uint val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static long Min(long val1, long val2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
-	[ReliabilityContractAttribute] // RVA: 0x7DCF0 Offset: 0x7D0F0 VA: 0x18007DCF0
+	[CLSCompliantAttribute] // RVA: 0x7DD80 Offset: 0x7D180 VA: 0x18007DD80
+	[ReliabilityContractAttribute] // RVA: 0x7DD80 Offset: 0x7D180 VA: 0x18007DD80
 	public static ulong Min(ulong val1, ulong val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static float Min(float val1, float val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static double Min(double val1, double val2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static Decimal Min(Decimal val1, Decimal val2) { }
 
 	public static double Log(double a, double newBase) { }

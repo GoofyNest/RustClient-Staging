@@ -2,10 +2,10 @@ public class CompareInfo : IDeserializationCallback // TypeDefIndex: 690
 {	private const CompareOptions ValidIndexMaskOffFlags = -32;
 	private const CompareOptions ValidCompareMaskOffFlags = -536870944;
 	private const CompareOptions ValidHashCodeOfStringMaskOffFlags = -32;
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	private string m_name; // 0x10
 	private string m_sortName; // 0x18
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	private int win32LCID; // 0x20
 	private int culture; // 0x24
 	private const int LINGUISTIC_IGNORECASE = 16;
@@ -21,14 +21,14 @@ public class CompareInfo : IDeserializationCallback // TypeDefIndex: 690
 	private const int RESERVED_FIND_ASCII_STRING = 536870912;
 	private const int SORT_VERSION_WHIDBEY = 4096;
 	private const int SORT_VERSION_V4 = 393473;
-	[OptionalFieldAttribute] // RVA: 0xA9AF0 Offset: 0xA8EF0 VA: 0x1800A9AF0
+	[OptionalFieldAttribute] // RVA: 0xA9BD0 Offset: 0xA8FD0 VA: 0x1800A9BD0
 	private SortVersion m_SortVersion; // 0x28
 	private SimpleCollator collator; // 0x30
 	private static Dictionary<string, SimpleCollator> collators; // 0x0
 	private static bool managedCollation; // 0x8
 	private static bool managedCollationChecked; // 0x9
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public virtual string Name { get; }
 	private static bool UseManagedCollation { get; }
 
@@ -37,15 +37,15 @@ public class CompareInfo : IDeserializationCallback // TypeDefIndex: 690
 
 	public static CompareInfo GetCompareInfo(string name) { }
 
-	[OnDeserializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnDeserializingAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnDeserializing(StreamingContext ctx) { }
 
 	private void OnDeserialized() { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnDeserializedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnDeserialized(StreamingContext ctx) { }
 
-	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnSerializingAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnSerializing(StreamingContext ctx) { }
 
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }

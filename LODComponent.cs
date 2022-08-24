@@ -99,13 +99,13 @@ public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD /
 }
 
 public struct LODComponent.OccludeeParameters // TypeDefIndex: 9931
-{	[TooltipAttribute] // RVA: 0xA9CB0 Offset: 0xA90B0 VA: 0x1800A9CB0
+{	[TooltipAttribute] // RVA: 0xA9D50 Offset: 0xA9150 VA: 0x1800A9D50
 	public bool isDynamic; // 0x0
-	[TooltipAttribute] // RVA: 0xA9D70 Offset: 0xA9170 VA: 0x1800A9D70
+	[TooltipAttribute] // RVA: 0xA9E50 Offset: 0xA9250 VA: 0x1800A9E50
 	public float dynamicUpdateInterval; // 0x4
-	[TooltipAttribute] // RVA: 0xA9DE0 Offset: 0xA91E0 VA: 0x1800A9DE0
+	[TooltipAttribute] // RVA: 0xA9EF0 Offset: 0xA92F0 VA: 0x1800A9EF0
 	public float shadowRangeScale; // 0x8
-	[TooltipAttribute] // RVA: 0xA9E10 Offset: 0xA9210 VA: 0x1800A9E10
+	[TooltipAttribute] // RVA: 0xA9F20 Offset: 0xA9320 VA: 0x1800A9F20
 	public bool showBounds; // 0xC
 
 }

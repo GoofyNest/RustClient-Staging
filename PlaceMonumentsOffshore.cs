@@ -1,10 +1,10 @@
-public class PlaceMonumentsOffshore : ProceduralComponent // TypeDefIndex: 10542
+public class PlaceMonumentsOffshore : ProceduralComponent // TypeDefIndex: 10546
 {	public string ResourceFolder; // 0x28
 	public int TargetCount; // 0x30
 	public int MinDistanceFromTerrain; // 0x34
 	public int MaxDistanceFromTerrain; // 0x38
 	public int DistanceBetweenMonuments; // 0x3C
-	[FormerlySerializedAsAttribute] // RVA: 0xDA320 Offset: 0xD9720 VA: 0x1800DA320
+	[FormerlySerializedAsAttribute] // RVA: 0xDA6A0 Offset: 0xD9AA0 VA: 0x1800DA6A0
 	public int MinWorldSize; // 0x40
 	private const int Candidates = 10;
 	private const int Attempts = 10000;
@@ -18,7 +18,7 @@ public class PlaceMonumentsOffshore : ProceduralComponent // TypeDefIndex: 10542
 
 }
 
-private struct PlaceMonumentsOffshore.SpawnInfo // TypeDefIndex: 10543
+private struct PlaceMonumentsOffshore.SpawnInfo // TypeDefIndex: 10547
 {	public Prefab prefab; // 0x0
 	public Vector3 position; // 0x8
 	public Quaternion rotation; // 0x14
@@ -26,7 +26,7 @@ private struct PlaceMonumentsOffshore.SpawnInfo // TypeDefIndex: 10543
 
 }
 
-private sealed class PlaceMonumentsOffshore.<>c // TypeDefIndex: 10544
+private sealed class PlaceMonumentsOffshore.<>c // TypeDefIndex: 10548
 {	public static readonly PlaceMonumentsOffshore.<>c <>9; // 0x0
 	public static Func<string, string> <>9__9_0; // 0x8
 

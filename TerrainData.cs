@@ -33,94 +33,94 @@ public sealed class TerrainData : Object // TypeDefIndex: 4093
 	internal Terrain[] users { get; }
 
 
-	[StaticAccessorAttribute] // RVA: 0x7B410 Offset: 0x7A810 VA: 0x18007B410
-	[ThreadSafeAttribute] // RVA: 0x7B410 Offset: 0x7A810 VA: 0x18007B410
+	[StaticAccessorAttribute] // RVA: 0x7B490 Offset: 0x7A890 VA: 0x18007B490
+	[ThreadSafeAttribute] // RVA: 0x7B490 Offset: 0x7A890 VA: 0x18007B490
 	private static int GetBoundaryValue(TerrainData.BoundaryValueType type) { }
 
 	public void .ctor() { }
 
-	[FreeFunctionAttribute] // RVA: 0x7B540 Offset: 0x7A940 VA: 0x18007B540
+	[FreeFunctionAttribute] // RVA: 0x7B5C0 Offset: 0x7A9C0 VA: 0x18007B5C0
 	private static void Internal_Create(TerrainData terrainData) { }
 
 	public int get_heightmapResolution() { }
 
 	public void set_heightmapResolution(int value) { }
 
-	[NativeNameAttribute] // RVA: 0x7B810 Offset: 0x7AC10 VA: 0x18007B810
+	[NativeNameAttribute] // RVA: 0x7B860 Offset: 0x7AC60 VA: 0x18007B860
 	private int get_internalHeightmapResolution() { }
 
-	[NativeNameAttribute] // RVA: 0x7B890 Offset: 0x7AC90 VA: 0x18007B890
+	[NativeNameAttribute] // RVA: 0x7B8F0 Offset: 0x7ACF0 VA: 0x18007B8F0
 	private void set_internalHeightmapResolution(int value) { }
 
-	[NativeNameAttribute] // RVA: 0x7BAA0 Offset: 0x7AEA0 VA: 0x18007BAA0
+	[NativeNameAttribute] // RVA: 0x7BB10 Offset: 0x7AF10 VA: 0x18007BB10
 	public Vector3 get_heightmapScale() { }
 
-	[NativeNameAttribute] // RVA: 0x7BB20 Offset: 0x7AF20 VA: 0x18007BB20
+	[NativeNameAttribute] // RVA: 0x7BC00 Offset: 0x7B000 VA: 0x18007BC00
 	public Vector3 get_size() { }
 
-	[NativeNameAttribute] // RVA: 0x7BC80 Offset: 0x7B080 VA: 0x18007BC80
+	[NativeNameAttribute] // RVA: 0x7BD60 Offset: 0x7B160 VA: 0x18007BD60
 	public void set_size(Vector3 value) { }
 
-	[NativeNameAttribute] // RVA: 0x7BD80 Offset: 0x7B180 VA: 0x18007BD80
+	[NativeNameAttribute] // RVA: 0x7BE60 Offset: 0x7B260 VA: 0x18007BE60
 	public float GetHeight(int x, int y) { }
 
 	public float[,] GetHeights(int xBase, int yBase, int width, int height) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7BED0 Offset: 0x7B2D0 VA: 0x18007BED0
+	[FreeFunctionAttribute] // RVA: 0x7BFB0 Offset: 0x7B3B0 VA: 0x18007BFB0
 	private float[,] Internal_GetHeights(int xBase, int yBase, int width, int height) { }
 
 	public void SetHeights(int xBase, int yBase, float[,] heights) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7BF40 Offset: 0x7B340 VA: 0x18007BF40
+	[FreeFunctionAttribute] // RVA: 0x7C020 Offset: 0x7B420 VA: 0x18007C020
 	private void Internal_SetHeights(int xBase, int yBase, int width, int height, float[,] heights) { }
 
-	[NativeNameAttribute] // RVA: 0x7C010 Offset: 0x7B410 VA: 0x18007C010
+	[NativeNameAttribute] // RVA: 0x7C0C0 Offset: 0x7B4C0 VA: 0x18007C0C0
 	public Vector3 GetInterpolatedNormal(float x, float y) { }
 
-	[NativeNameAttribute] // RVA: 0x7C110 Offset: 0x7B510 VA: 0x18007C110
+	[NativeNameAttribute] // RVA: 0x7C1C0 Offset: 0x7B5C0 VA: 0x18007C1C0
 	public int get_detailResolution() { }
 
-	[FreeFunctionAttribute] // RVA: 0x7C1C0 Offset: 0x7B5C0 VA: 0x18007C1C0
+	[FreeFunctionAttribute] // RVA: 0x7C250 Offset: 0x7B650 VA: 0x18007C250
 	public DetailPrototype[] get_detailPrototypes() { }
 
-	[FreeFunctionAttribute] // RVA: 0x7C3F0 Offset: 0x7B7F0 VA: 0x18007C3F0
+	[FreeFunctionAttribute] // RVA: 0x7C400 Offset: 0x7B800 VA: 0x18007C400
 	public int[,] GetDetailLayer(int xBase, int yBase, int width, int height, int layer) { }
 
 	public void SetDetailLayer(int xBase, int yBase, int layer, int[,] details) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7C4B0 Offset: 0x7B8B0 VA: 0x18007C4B0
+	[FreeFunctionAttribute] // RVA: 0x7C4C0 Offset: 0x7B8C0 VA: 0x18007C4C0
 	private void Internal_SetDetailLayer(int xBase, int yBase, int totalWidth, int totalHeight, int detailIndex, int[,] data) { }
 
 	public TreeInstance[] get_treeInstances() { }
 
 	public void set_treeInstances(TreeInstance[] value) { }
 
-	[NativeNameAttribute] // RVA: 0x7C5F0 Offset: 0x7B9F0 VA: 0x18007C5F0
+	[NativeNameAttribute] // RVA: 0x7C680 Offset: 0x7BA80 VA: 0x18007C680
 	private TreeInstance[] Internal_GetTreeInstances() { }
 
-	[FreeFunctionAttribute] // RVA: 0x7C6D0 Offset: 0x7BAD0 VA: 0x18007C6D0
+	[FreeFunctionAttribute] // RVA: 0x7C760 Offset: 0x7BB60 VA: 0x18007C760
 	public void SetTreeInstances(TreeInstance[] instances, bool snapToHeightmap) { }
 
-	[NativeNameAttribute] // RVA: 0x7C910 Offset: 0x7BD10 VA: 0x18007C910
+	[NativeNameAttribute] // RVA: 0x7C9C0 Offset: 0x7BDC0 VA: 0x18007C9C0
 	public int get_alphamapLayers() { }
 
 	public float[,,] GetAlphamaps(int x, int y, int width, int height) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7C9A0 Offset: 0x7BDA0 VA: 0x18007C9A0
+	[FreeFunctionAttribute] // RVA: 0x7CA80 Offset: 0x7BE80 VA: 0x18007CA80
 	private float[,,] Internal_GetAlphamaps(int x, int y, int width, int height) { }
 
 	public int get_alphamapResolution() { }
 
 	public void set_alphamapResolution(int value) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x7CD70 Offset: 0x7C170 VA: 0x18007CD70
-	[NativeNameAttribute] // RVA: 0x7CD70 Offset: 0x7C170 VA: 0x18007CD70
+	[RequiredByNativeCodeAttribute] // RVA: 0x7CE00 Offset: 0x7C200 VA: 0x18007CE00
+	[NativeNameAttribute] // RVA: 0x7CE00 Offset: 0x7C200 VA: 0x18007CE00
 	internal float GetAlphamapResolutionInternal() { }
 
-	[NativeNameAttribute] // RVA: 0x7CE10 Offset: 0x7C210 VA: 0x18007CE10
+	[NativeNameAttribute] // RVA: 0x7CEF0 Offset: 0x7C2F0 VA: 0x18007CEF0
 	private int get_Internal_alphamapResolution() { }
 
-	[NativeNameAttribute] // RVA: 0x7CF20 Offset: 0x7C320 VA: 0x18007CF20
+	[NativeNameAttribute] // RVA: 0x7D000 Offset: 0x7C400 VA: 0x18007D000
 	private void set_Internal_alphamapResolution(int value) { }
 
 	public int get_alphamapWidth() { }
@@ -129,15 +129,15 @@ public sealed class TerrainData : Object // TypeDefIndex: 4093
 
 	public void set_baseMapResolution(int value) { }
 
-	[NativeNameAttribute] // RVA: 0x7CF90 Offset: 0x7C390 VA: 0x18007CF90
+	[NativeNameAttribute] // RVA: 0x7D070 Offset: 0x7C470 VA: 0x18007D070
 	private void set_Internal_baseMapResolution(int value) { }
 
 	public void SetAlphamaps(int x, int y, float[,,] map) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7D020 Offset: 0x7C420 VA: 0x18007D020
+	[FreeFunctionAttribute] // RVA: 0x7D100 Offset: 0x7C500 VA: 0x18007D100
 	private void Internal_SetAlphamaps(int x, int y, int width, int height, float[,,] map) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7D170 Offset: 0x7C570 VA: 0x18007D170
+	[FreeFunctionAttribute] // RVA: 0x7D250 Offset: 0x7C650 VA: 0x18007D250
 	public TerrainLayer[] get_terrainLayers() { }
 
 	internal Terrain[] get_users() { }

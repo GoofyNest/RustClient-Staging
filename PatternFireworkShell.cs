@@ -3,10 +3,10 @@ public class PatternFireworkShell : FireworkShell // TypeDefIndex: 8277
 	public AnimationCurve StarCurve; // 0x60
 	public float Duration; // 0x68
 	public float Scale; // 0x6C
-	[HeaderAttribute] // RVA: 0xA4CD0 Offset: 0xA40D0 VA: 0x1800A4CD0
-	[MinMaxAttribute] // RVA: 0xA4CD0 Offset: 0xA40D0 VA: 0x1800A4CD0
+	[HeaderAttribute] // RVA: 0xA4DF0 Offset: 0xA41F0 VA: 0x1800A4DF0
+	[MinMaxAttribute] // RVA: 0xA4DF0 Offset: 0xA41F0 VA: 0x1800A4DF0
 	public MinMax RandomSaturation; // 0x70
-	[MinMaxAttribute] // RVA: 0xA4FC0 Offset: 0xA43C0 VA: 0x1800A4FC0
+	[MinMaxAttribute] // RVA: 0xA50E0 Offset: 0xA44E0 VA: 0x1800A50E0
 	public MinMax RandomValue; // 0x78
 	public float FuseLength; // 0x80
 	private List<PatternFireworkStar> _stars; // 0x88

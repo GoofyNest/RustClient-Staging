@@ -218,7 +218,7 @@ internal static class Consts // TypeDefIndex: 7976
 
 }
 
-public static class Consts // TypeDefIndex: 11539
+public static class Consts // TypeDefIndex: 11543
 {	private const string HelpUrlBase = "http://saladgamer.com/vlb-doc/";
 	public const string HelpUrlBeam = "http://saladgamer.com/vlb-doc/comp-lightbeam/";
 	public const string HelpUrlDustParticles = "http://saladgamer.com/vlb-doc/comp-dustparticles/";

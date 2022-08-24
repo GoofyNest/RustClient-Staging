@@ -8,23 +8,23 @@ public enum AmbientMode // TypeDefIndex: 3814
 }
 
 public class AmbienceDefinition : ScriptableObject // TypeDefIndex: 8969
-{	[HeaderAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+{	[HeaderAttribute] // RVA: 0x8CDD0 Offset: 0x8C1D0 VA: 0x18008CDD0
 	public List<SoundDefinition> sounds; // 0x18
-	[HorizontalAttribute] // RVA: 0xC9010 Offset: 0xC8410 VA: 0x1800C9010
+	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
 	public AmbienceDefinition.ValueRange stingFrequency; // 0x20
-	[HeaderAttribute] // RVA: 0xC90F0 Offset: 0xC84F0 VA: 0x1800C90F0
-	[InspectorFlagsAttribute] // RVA: 0xC90F0 Offset: 0xC84F0 VA: 0x1800C90F0
+	[HeaderAttribute] // RVA: 0xC91F0 Offset: 0xC85F0 VA: 0x1800C91F0
+	[InspectorFlagsAttribute] // RVA: 0xC91F0 Offset: 0xC85F0 VA: 0x1800C91F0
 	public TerrainBiome.Enum biomes; // 0x28
-	[InspectorFlagsAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public TerrainTopology.Enum topologies; // 0x2C
 	public EnvironmentType environmentType; // 0x30
 	public bool useEnvironmentType; // 0x34
 	public AnimationCurve time; // 0x38
-	[HorizontalAttribute] // RVA: 0xC9010 Offset: 0xC8410 VA: 0x1800C9010
+	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
 	public AmbienceDefinition.ValueRange rain; // 0x40
-	[HorizontalAttribute] // RVA: 0xC9010 Offset: 0xC8410 VA: 0x1800C9010
+	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
 	public AmbienceDefinition.ValueRange wind; // 0x48
-	[HorizontalAttribute] // RVA: 0xC9010 Offset: 0xC8410 VA: 0x1800C9010
+	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
 	public AmbienceDefinition.ValueRange snow; // 0x50
 
 
@@ -59,9 +59,9 @@ public class AmbienceEmitter : MonoBehaviour, IClientComponent, IComparable<Ambi
 	public float cameraDistanceSq; // 0x2C
 	public BoundingSphere boundingSphere; // 0x30
 	public float crossfadeTime; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TerrainTopology.Enum <currentTopology>k__BackingField; // 0x44
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TerrainBiome.Enum <currentBiome>k__BackingField; // 0x48
 	public Dictionary<AmbienceDefinition, float> nextStingTime; // 0x50
 	public float deactivateTime; // 0x58
@@ -81,16 +81,16 @@ public class AmbienceEmitter : MonoBehaviour, IClientComponent, IComparable<Ambi
 	public TerrainBiome.Enum currentBiome { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public TerrainTopology.Enum get_currentTopology() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_currentTopology(TerrainTopology.Enum value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public TerrainBiome.Enum get_currentBiome() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_currentBiome(TerrainBiome.Enum value) { }
 
 	protected void Awake() { }
@@ -307,7 +307,7 @@ public class AmbienceZone : TriggerBase, IClientComponentEx // TypeDefIndex: 897
 
 }
 
-public class AmbientLightLOD : FacepunchBehaviour, ILOD, IClientComponent // TypeDefIndex: 11297
+public class AmbientLightLOD : FacepunchBehaviour, ILOD, IClientComponent // TypeDefIndex: 11301
 {	public bool isDynamic; // 0x18
 	public float enabledRadius; // 0x1C
 	public bool toggleFade; // 0x20
@@ -352,14 +352,14 @@ public class AmbientLightLOD : FacepunchBehaviour, ILOD, IClientComponent // Typ
 
 }
 
-public enum AmbientOcclusionMode // TypeDefIndex: 11756
+public enum AmbientOcclusionMode // TypeDefIndex: 11760
 {	public int value__; // 0x0
 	public const AmbientOcclusionMode ScalableAmbientObscurance = 0;
 	public const AmbientOcclusionMode MultiScaleVolumetricObscurance = 1;
 
 }
 
-public enum AmbientOcclusionQuality // TypeDefIndex: 11757
+public enum AmbientOcclusionQuality // TypeDefIndex: 11761
 {	public int value__; // 0x0
 	public const AmbientOcclusionQuality Lowest = 0;
 	public const AmbientOcclusionQuality Low = 1;
@@ -369,44 +369,44 @@ public enum AmbientOcclusionQuality // TypeDefIndex: 11757
 
 }
 
-public sealed class AmbientOcclusionModeParameter : ParameterOverride<AmbientOcclusionMode> // TypeDefIndex: 11758
+public sealed class AmbientOcclusionModeParameter : ParameterOverride<AmbientOcclusionMode> // TypeDefIndex: 11762
 {
 	public void .ctor() { }
 
 }
 
-public sealed class AmbientOcclusionQualityParameter : ParameterOverride<AmbientOcclusionQuality> // TypeDefIndex: 11759
+public sealed class AmbientOcclusionQualityParameter : ParameterOverride<AmbientOcclusionQuality> // TypeDefIndex: 11763
 {
 	public void .ctor() { }
 
 }
 
-public sealed class AmbientOcclusion : PostProcessEffectSettings // TypeDefIndex: 11760
-{	[TooltipAttribute] // RVA: 0xE7F80 Offset: 0xE7380 VA: 0x1800E7F80
+public sealed class AmbientOcclusion : PostProcessEffectSettings // TypeDefIndex: 11764
+{	[TooltipAttribute] // RVA: 0xE9580 Offset: 0xE8980 VA: 0x1800E9580
 	public AmbientOcclusionModeParameter mode; // 0x30
-	[RangeAttribute] // RVA: 0xE93F0 Offset: 0xE87F0 VA: 0x1800E93F0
-	[TooltipAttribute] // RVA: 0xE93F0 Offset: 0xE87F0 VA: 0x1800E93F0
+	[RangeAttribute] // RVA: 0xE95B0 Offset: 0xE89B0 VA: 0x1800E95B0
+	[TooltipAttribute] // RVA: 0xE95B0 Offset: 0xE89B0 VA: 0x1800E95B0
 	public FloatParameter intensity; // 0x38
-	[ColorUsageAttribute] // RVA: 0xE94D0 Offset: 0xE88D0 VA: 0x1800E94D0
-	[TooltipAttribute] // RVA: 0xE94D0 Offset: 0xE88D0 VA: 0x1800E94D0
+	[ColorUsageAttribute] // RVA: 0xE96D0 Offset: 0xE8AD0 VA: 0x1800E96D0
+	[TooltipAttribute] // RVA: 0xE96D0 Offset: 0xE8AD0 VA: 0x1800E96D0
 	public ColorParameter color; // 0x40
-	[TooltipAttribute] // RVA: 0xE9600 Offset: 0xE8A00 VA: 0x1800E9600
+	[TooltipAttribute] // RVA: 0xE98D0 Offset: 0xE8CD0 VA: 0x1800E98D0
 	public BoolParameter ambientOnly; // 0x48
-	[RangeAttribute] // RVA: 0xE96A0 Offset: 0xE8AA0 VA: 0x1800E96A0
+	[RangeAttribute] // RVA: 0xE9AA0 Offset: 0xE8EA0 VA: 0x1800E9AA0
 	public FloatParameter noiseFilterTolerance; // 0x50
-	[RangeAttribute] // RVA: 0xE9800 Offset: 0xE8C00 VA: 0x1800E9800
+	[RangeAttribute] // RVA: 0xE9B80 Offset: 0xE8F80 VA: 0x1800E9B80
 	public FloatParameter blurTolerance; // 0x58
-	[RangeAttribute] // RVA: 0xE9970 Offset: 0xE8D70 VA: 0x1800E9970
+	[RangeAttribute] // RVA: 0xE9CB0 Offset: 0xE90B0 VA: 0x1800E9CB0
 	public FloatParameter upsampleTolerance; // 0x60
-	[RangeAttribute] // RVA: 0xE9A50 Offset: 0xE8E50 VA: 0x1800E9A50
-	[TooltipAttribute] // RVA: 0xE9A50 Offset: 0xE8E50 VA: 0x1800E9A50
+	[RangeAttribute] // RVA: 0xE9D20 Offset: 0xE9120 VA: 0x1800E9D20
+	[TooltipAttribute] // RVA: 0xE9D20 Offset: 0xE9120 VA: 0x1800E9D20
 	public FloatParameter thicknessModifier; // 0x68
-	[RangeAttribute] // RVA: 0xE9C00 Offset: 0xE9000 VA: 0x1800E9C00
-	[TooltipAttribute] // RVA: 0xE9C00 Offset: 0xE9000 VA: 0x1800E9C00
+	[RangeAttribute] // RVA: 0xE9F70 Offset: 0xE9370 VA: 0x1800E9F70
+	[TooltipAttribute] // RVA: 0xE9F70 Offset: 0xE9370 VA: 0x1800E9F70
 	public FloatParameter directLightingStrength; // 0x70
-	[TooltipAttribute] // RVA: 0xE9D40 Offset: 0xE9140 VA: 0x1800E9D40
+	[TooltipAttribute] // RVA: 0xEA010 Offset: 0xE9410 VA: 0x1800EA010
 	public FloatParameter radius; // 0x78
-	[TooltipAttribute] // RVA: 0xE9E80 Offset: 0xE9280 VA: 0x1800E9E80
+	[TooltipAttribute] // RVA: 0xEA150 Offset: 0xE9550 VA: 0x1800EA150
 	public AmbientOcclusionQualityParameter quality; // 0x80
 
 
@@ -416,7 +416,7 @@ public sealed class AmbientOcclusion : PostProcessEffectSettings // TypeDefIndex
 
 }
 
-internal sealed class AmbientOcclusionRenderer : PostProcessEffectRenderer<AmbientOcclusion> // TypeDefIndex: 11762
+internal sealed class AmbientOcclusionRenderer : PostProcessEffectRenderer<AmbientOcclusion> // TypeDefIndex: 11766
 {	private IAmbientOcclusionMethod[] m_Methods; // 0x20
 
 

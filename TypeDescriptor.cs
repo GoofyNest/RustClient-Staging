@@ -11,12 +11,12 @@ public sealed class TypeDescriptor // TypeDefIndex: 2758
 	private static readonly Guid[] _pipelineFilterKeys; // 0x40
 	private static readonly Guid[] _pipelineAttributeFilterKeys; // 0x48
 	private static object _internalSyncObject; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static RefreshEventHandler Refreshed; // 0x58
 
-	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
+	[EditorBrowsableAttribute] // RVA: 0x8CE50 Offset: 0x8C250 VA: 0x18008CE50
 	public static Type ComObjectType { get; }
-	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
+	[EditorBrowsableAttribute] // RVA: 0x8CE50 Offset: 0x8C250 VA: 0x18008CE50
 	public static Type InterfaceType { get; }
 	internal static int MetadataVersion { get; }
 
@@ -27,7 +27,7 @@ public sealed class TypeDescriptor // TypeDefIndex: 2758
 
 	internal static int get_MetadataVersion() { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
+	[EditorBrowsableAttribute] // RVA: 0x8CE50 Offset: 0x8C250 VA: 0x18008CE50
 	public static void AddProvider(TypeDescriptionProvider provider, Type type) { }
 
 	private static void CheckDefaultProvider(Type type) { }
@@ -36,14 +36,14 @@ public sealed class TypeDescriptor // TypeDefIndex: 2758
 
 	private static ArrayList FilterMembers(IList members, Attribute[] attributes) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
+	[EditorBrowsableAttribute] // RVA: 0x8CE50 Offset: 0x8C250 VA: 0x18008CE50
 	public static object GetAssociation(Type type, object primary) { }
 
 	public static AttributeCollection GetAttributes(Type componentType) { }
 
 	public static AttributeCollection GetAttributes(object component) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
+	[EditorBrowsableAttribute] // RVA: 0x8CE50 Offset: 0x8C250 VA: 0x18008CE50
 	public static AttributeCollection GetAttributes(object component, bool noCustomTypeDesc) { }
 
 	internal static IDictionary GetCache(object instance) { }
@@ -62,14 +62,14 @@ public sealed class TypeDescriptor // TypeDefIndex: 2758
 
 	public static PropertyDescriptorCollection GetProperties(object component) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
+	[EditorBrowsableAttribute] // RVA: 0x8CE50 Offset: 0x8C250 VA: 0x18008CE50
 	public static PropertyDescriptorCollection GetProperties(object component, bool noCustomTypeDesc) { }
 
 	private static PropertyDescriptorCollection GetPropertiesImpl(object component, Attribute[] attributes, bool noCustomTypeDesc, bool noAttributes) { }
 
 	internal static TypeDescriptionProvider GetProviderRecursive(Type type) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CD10 Offset: 0x8C110 VA: 0x18008CD10
+	[EditorBrowsableAttribute] // RVA: 0x8CE50 Offset: 0x8C250 VA: 0x18008CE50
 	public static Type GetReflectionType(Type type) { }
 
 	private static TypeDescriptor.TypeDescriptionNode NodeFor(Type type) { }
@@ -131,7 +131,7 @@ private sealed class TypeDescriptor.FilterCacheItem // TypeDefIndex: 2760
 private sealed class TypeDescriptor.MemberDescriptorComparer : IComparer // TypeDefIndex: 2762
 {
 private sealed class TypeDescriptor.MemberDescriptorComparer : IComparer // TypeDefIndex: 2762
-	public static readonly TypeDescriptor.MemberDescriptorComparer Instance; // 0x14240
+	public static readonly TypeDescriptor.MemberDescriptorComparer Instance; // 0x13786
 
 
 	public int Compare(object left, object right) { }

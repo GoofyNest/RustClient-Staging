@@ -31,6 +31,8 @@ public class Prefab : IComparable<Prefab> // TypeDefIndex: 9970
 
 	public bool ApplyWaterChecks(Vector3 pos, Quaternion rot, Vector3 scale) { }
 
+	public bool ApplyBoundsChecks(Vector3 pos, Quaternion rot, Vector3 scale, LayerMask rejectOnLayer) { }
+
 	public void ApplyDecorComponents(ref Vector3 pos, ref Quaternion rot, ref Vector3 scale) { }
 
 	public bool CheckEnvironmentVolumes(Vector3 pos, Quaternion rot, Vector3 scale, EnvironmentType type) { }

@@ -7,7 +7,7 @@ public class TimedExplosive : BaseEntity // TypeDefIndex: 9684
 	public bool canStick; // 0x179
 	public bool onlyDamageParent; // 0x17A
 	public GameObjectRef explosionEffect; // 0x180
-	[TooltipAttribute] // RVA: 0x842D0 Offset: 0x836D0 VA: 0x1800842D0
+	[TooltipAttribute] // RVA: 0x84420 Offset: 0x83820 VA: 0x180084420
 	public GameObjectRef underwaterExplosionEffect; // 0x188
 	public GameObjectRef stickEffect; // 0x190
 	public GameObjectRef bounceEffect; // 0x198

@@ -1,4 +1,4 @@
-public class SelectedItem : SingletonComponent<SelectedItem>, IInventoryChanged // TypeDefIndex: 11051
+public class SelectedItem : SingletonComponent<SelectedItem>, IInventoryChanged // TypeDefIndex: 11055
 {	public Image icon; // 0x18
 	public Image iconSplitter; // 0x20
 	public RustText title; // 0x28

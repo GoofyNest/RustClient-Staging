@@ -1,4 +1,4 @@
-public class Crosshair : BaseMonoBehaviour // TypeDefIndex: 10844
+public class Crosshair : BaseMonoBehaviour // TypeDefIndex: 10848
 {	public static bool Enabled; // 0x0
 	public Image Image; // 0x18
 	public RectTransform reticleTransform; // 0x20

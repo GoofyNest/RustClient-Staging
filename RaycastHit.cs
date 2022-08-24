@@ -1,15 +1,15 @@
 public struct RaycastHit // TypeDefIndex: 3919
-{	[NativeNameAttribute] // RVA: 0x71040 Offset: 0x70440 VA: 0x180071040
+{	[NativeNameAttribute] // RVA: 0x71090 Offset: 0x70490 VA: 0x180071090
 	internal Vector3 m_Point; // 0x0
-	[NativeNameAttribute] // RVA: 0x71150 Offset: 0x70550 VA: 0x180071150
+	[NativeNameAttribute] // RVA: 0x71180 Offset: 0x70580 VA: 0x180071180
 	internal Vector3 m_Normal; // 0xC
-	[NativeNameAttribute] // RVA: 0x8D760 Offset: 0x8CB60 VA: 0x18008D760
+	[NativeNameAttribute] // RVA: 0x8D870 Offset: 0x8CC70 VA: 0x18008D870
 	internal uint m_FaceID; // 0x18
-	[NativeNameAttribute] // RVA: 0x723E0 Offset: 0x717E0 VA: 0x1800723E0
+	[NativeNameAttribute] // RVA: 0x72440 Offset: 0x71840 VA: 0x180072440
 	internal float m_Distance; // 0x1C
-	[NativeNameAttribute] // RVA: 0x8D9A0 Offset: 0x8CDA0 VA: 0x18008D9A0
+	[NativeNameAttribute] // RVA: 0x8DAE0 Offset: 0x8CEE0 VA: 0x18008DAE0
 	internal Vector2 m_UV; // 0x20
-	[NativeNameAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[NativeNameAttribute] // RVA: 0x71800 Offset: 0x70C00 VA: 0x180071800
 	internal int m_Collider; // 0x28
 
 	public Collider collider { get; }
@@ -39,7 +39,7 @@ public struct RaycastHit // TypeDefIndex: 3919
 
 	public int get_triangleIndex() { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
 	private static Vector2 CalculateRaycastTexCoord(Collider collider, Vector2 uv, Vector3 pos, uint face, int textcoord) { }
 
 	public Vector2 get_textureCoord() { }

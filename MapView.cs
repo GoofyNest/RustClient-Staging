@@ -1,4 +1,4 @@
-public class MapView : FacepunchBehaviour // TypeDefIndex: 10954
+public class MapView : FacepunchBehaviour // TypeDefIndex: 10958
 {	public RawImage mapImage; // 0x18
 	public Image cameraPositon; // 0x20
 	public ScrollRectEx scrollRect; // 0x28
@@ -13,7 +13,7 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 10954
 	public GameObject PlayerDeathMarker; // 0x70
 	public List<SleepingBagMapMarker> SleepingBagMarkers; // 0x78
 	public List<SleepingBagClusterMapMarker> SleepingBagClusters; // 0x80
-	[FormerlySerializedAsAttribute] // RVA: 0x8D150 Offset: 0x8C550 VA: 0x18008D150
+	[FormerlySerializedAsAttribute] // RVA: 0x8D4F0 Offset: 0x8C8F0 VA: 0x18008D4F0
 	public RawImage UndergroundLayer; // 0x88
 	public bool ShowGrid; // 0x90
 	public bool ShowPointOfInterestMarkers; // 0x91
@@ -23,7 +23,7 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 10954
 	public bool ShowTeamMembers; // 0x95
 	public bool ShowTrainLayer; // 0x96
 	public bool ShowMissions; // 0x97
-	[FormerlySerializedAsAttribute] // RVA: 0x8D2E0 Offset: 0x8C6E0 VA: 0x18008D2E0
+	[FormerlySerializedAsAttribute] // RVA: 0x8D550 Offset: 0x8C950 VA: 0x18008D550
 	public bool ShowUndergroundLayers; // 0x98
 	public bool MLRSMarkerMode; // 0x99
 	public RustImageButton LockButton; // 0xA0
@@ -31,7 +31,7 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 10954
 	public RustImageButton TrainButton; // 0xB0
 	public RustImageButton[] UnderwaterButtons; // 0xB8
 	public static MapView ActiveView; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <followingPlayer>k__BackingField; // 0xC0
 	private Dictionary<MapMarker.ClusterType, List<MapMarker>> clusterDict; // 0xC8
 	private List<GameObject> markersToRetire; // 0xD0
@@ -49,10 +49,10 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 10954
 	private static BasePlayer LocalPlayerEntity { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_followingPlayer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_followingPlayer(bool value) { }
 
 	private bool get_IsOpen() { }
@@ -127,13 +127,13 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 10954
 
 }
 
-private struct MapView.SleepingBagCluster // TypeDefIndex: 10955
+private struct MapView.SleepingBagCluster // TypeDefIndex: 10959
 {	public List<RespawnInformation.SpawnOptions> clusterMarkers; // 0x0
 	public Vector3 centre; // 0x8
 
 }
 
-private struct MapView.MapMarkerCluster // TypeDefIndex: 10956
+private struct MapView.MapMarkerCluster // TypeDefIndex: 10960
 {	public List<MapMarker> markers; // 0x0
 	public Vector3 centre; // 0x8
 

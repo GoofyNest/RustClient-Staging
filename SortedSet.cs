@@ -1,11 +1,11 @@
 internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private T <Item>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SortedSet.Node<T> <Left>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SortedSet.Node<T> <Right>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private NodeColor <Color>k__BackingField; // 0x0
 
 	public T Item { get; set; }
@@ -43,7 +43,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.IsNullOrBlack
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public T get_Item() { }
 	/* GenericInstMethod :
 	|
@@ -53,7 +53,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.get_Item
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Item(T value) { }
 	/* GenericInstMethod :
 	|
@@ -64,7 +64,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.set_Item
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public SortedSet.Node<T> get_Left() { }
 	/* GenericInstMethod :
 	|
@@ -74,7 +74,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.get_Left
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Left(SortedSet.Node<T> value) { }
 	/* GenericInstMethod :
 	|
@@ -84,7 +84,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.set_Left
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public SortedSet.Node<T> get_Right() { }
 	/* GenericInstMethod :
 	|
@@ -94,7 +94,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.get_Right
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Right(SortedSet.Node<T> value) { }
 	/* GenericInstMethod :
 	|
@@ -104,7 +104,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.set_Right
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public NodeColor get_Color() { }
 	/* GenericInstMethod :
 	|
@@ -114,7 +114,7 @@ internal sealed class SortedSet.Node<T> // TypeDefIndex: 3144
 	|-SortedSet.Node<object>.get_Color
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Color(NodeColor value) { }
 	/* GenericInstMethod :
 	|

@@ -1,5 +1,5 @@
 public class OnePoleLowpassFilter : MonoBehaviour // TypeDefIndex: 9015
-{	[RangeAttribute] // RVA: 0xCAD30 Offset: 0xCA130 VA: 0x1800CAD30
+{	[RangeAttribute] // RVA: 0xCAD80 Offset: 0xCA180 VA: 0x1800CAD80
 	public float frequency; // 0x18
 	private int sampleRate; // 0x1C
 	private float c; // 0x20

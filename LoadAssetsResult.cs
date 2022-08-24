@@ -1,5 +1,5 @@
 public abstract class LoadAssetsResult : CustomYieldInstruction // TypeDefIndex: 6661
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <CompletedCount>k__BackingField; // 0x10
 	public LoadAssetsResult.AssetLoaded OnAssetLoaded; // 0x18
 
@@ -9,10 +9,10 @@ public abstract class LoadAssetsResult : CustomYieldInstruction // TypeDefIndex:
 
 	public abstract int get_TotalCount();
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public virtual int get_CompletedCount() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected virtual void set_CompletedCount(int value) { }
 
 	public abstract Dictionary<string, Object> GetResult();

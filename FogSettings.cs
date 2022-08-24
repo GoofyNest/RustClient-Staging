@@ -1,4 +1,4 @@
-public struct FogSettings // TypeDefIndex: 10640
+public struct FogSettings // TypeDefIndex: 10644
 {	public Gradient ColorOverDaytime; // 0x0
 	public float Density; // 0x8
 	public float StartDistance; // 0xC

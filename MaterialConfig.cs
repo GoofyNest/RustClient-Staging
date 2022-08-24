@@ -1,9 +1,9 @@
-public class MaterialConfig : ScriptableObject // TypeDefIndex: 11314
-{	[HorizontalAttribute] // RVA: 0xA4660 Offset: 0xA3A60 VA: 0x1800A4660
+public class MaterialConfig : ScriptableObject // TypeDefIndex: 11318
+{	[HorizontalAttribute] // RVA: 0xA49B0 Offset: 0xA3DB0 VA: 0x1800A49B0
 	public MaterialConfig.ShaderParametersFloat[] Floats; // 0x18
-	[HorizontalAttribute] // RVA: 0xA4660 Offset: 0xA3A60 VA: 0x1800A4660
+	[HorizontalAttribute] // RVA: 0xA49B0 Offset: 0xA3DB0 VA: 0x1800A49B0
 	public MaterialConfig.ShaderParametersColor[] Colors; // 0x20
-	[HorizontalAttribute] // RVA: 0xA4660 Offset: 0xA3A60 VA: 0x1800A4660
+	[HorizontalAttribute] // RVA: 0xA49B0 Offset: 0xA3DB0 VA: 0x1800A49B0
 	public MaterialConfig.ShaderParametersTexture[] Textures; // 0x28
 	public string[] ScaleUV; // 0x30
 	private MaterialPropertyBlock properties; // 0x38
@@ -15,7 +15,7 @@ public class MaterialConfig : ScriptableObject // TypeDefIndex: 11314
 
 }
 
-public class MaterialConfig.ShaderParameters<T> // TypeDefIndex: 11315
+public class MaterialConfig.ShaderParameters<T> // TypeDefIndex: 11319
 {	public string Name; // 0x0
 	public T Arid; // 0x0
 	public T Temperate; // 0x0
@@ -56,19 +56,19 @@ public class MaterialConfig.ShaderParameters<T> // TypeDefIndex: 11315
 
 }
 
-public class MaterialConfig.ShaderParametersFloat : MaterialConfig.ShaderParameters<float> // TypeDefIndex: 11316
+public class MaterialConfig.ShaderParametersFloat : MaterialConfig.ShaderParameters<float> // TypeDefIndex: 11320
 {
 	public void .ctor() { }
 
 }
 
-public class MaterialConfig.ShaderParametersColor : MaterialConfig.ShaderParameters<Color> // TypeDefIndex: 11317
+public class MaterialConfig.ShaderParametersColor : MaterialConfig.ShaderParameters<Color> // TypeDefIndex: 11321
 {
 	public void .ctor() { }
 
 }
 
-public class MaterialConfig.ShaderParametersTexture : MaterialConfig.ShaderParameters<Texture> // TypeDefIndex: 11318
+public class MaterialConfig.ShaderParametersTexture : MaterialConfig.ShaderParameters<Texture> // TypeDefIndex: 11322
 {
 	public void .ctor() { }
 

@@ -1,17 +1,17 @@
 public class TextContainer : UIBehaviour // TypeDefIndex: 6869
 {	private bool m_hasChanged; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector2 m_pivot; // 0x1C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TextContainerAnchors m_anchorPosition; // 0x24
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Rect m_rect; // 0x28
 	private bool m_isDefaultWidth; // 0x38
 	private bool m_isDefaultHeight; // 0x39
 	private bool m_isAutoFitting; // 0x3A
 	private Vector3[] m_corners; // 0x40
 	private Vector3[] m_worldCorners; // 0x48
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector4 m_margins; // 0x50
 	private RectTransform m_rectTransform; // 0x60
 	private static Vector2 k_defaultSize; // 0x0

@@ -17,7 +17,7 @@ public sealed class Cookie // TypeDefIndex: 2934
 	private bool m_port_implicit; // 0x60
 	private int[] m_port_list; // 0x68
 	private bool m_secure; // 0x70
-	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
+	[OptionalFieldAttribute] // RVA: 0x7B5F0 Offset: 0x7A9F0 VA: 0x18007B5F0
 	private bool m_httpOnly; // 0x71
 	private DateTime m_timeStamp; // 0x78
 	private string m_value; // 0x80

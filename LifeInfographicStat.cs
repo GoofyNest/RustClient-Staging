@@ -1,8 +1,8 @@
-public class LifeInfographicStat : MonoBehaviour // TypeDefIndex: 11073
+public class LifeInfographicStat : MonoBehaviour // TypeDefIndex: 11077
 {	public LifeInfographicStat.DataType dataSource; // 0x18
-	[HeaderAttribute] // RVA: 0x94CF0 Offset: 0x940F0 VA: 0x180094CF0
+	[HeaderAttribute] // RVA: 0x94EE0 Offset: 0x942E0 VA: 0x180094EE0
 	public string genericStatKey; // 0x20
-	[HeaderAttribute] // RVA: 0x94DE0 Offset: 0x941E0 VA: 0x180094DE0
+	[HeaderAttribute] // RVA: 0x94FE0 Offset: 0x943E0 VA: 0x180094FE0
 	public string targetWeaponName; // 0x28
 	public LifeInfographicStat.WeaponInfoType weaponInfoType; // 0x30
 	public TextMeshProUGUI targetText; // 0x38
@@ -22,7 +22,7 @@ public class LifeInfographicStat : MonoBehaviour // TypeDefIndex: 11073
 
 }
 
-public enum LifeInfographicStat.DataType // TypeDefIndex: 11074
+public enum LifeInfographicStat.DataType // TypeDefIndex: 11078
 {	public int value__; // 0x0
 	public const LifeInfographicStat.DataType None = 0;
 	public const LifeInfographicStat.DataType AliveTime_Short = 1;
@@ -50,7 +50,7 @@ public enum LifeInfographicStat.DataType // TypeDefIndex: 11074
 
 }
 
-public enum LifeInfographicStat.WeaponInfoType // TypeDefIndex: 11075
+public enum LifeInfographicStat.WeaponInfoType // TypeDefIndex: 11079
 {	public int value__; // 0x0
 	public const LifeInfographicStat.WeaponInfoType TotalShots = 0;
 	public const LifeInfographicStat.WeaponInfoType ShotsHit = 1;

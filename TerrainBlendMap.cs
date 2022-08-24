@@ -1,4 +1,4 @@
-public class TerrainBlendMap : TerrainMap<byte> // TypeDefIndex: 10395
+public class TerrainBlendMap : TerrainMap<byte> // TypeDefIndex: 10399
 {	public Texture2D BlendTexture; // 0x48
 
 
@@ -30,7 +30,7 @@ public class TerrainBlendMap : TerrainMap<byte> // TypeDefIndex: 10395
 
 }
 
-private sealed class TerrainBlendMap.<>c__DisplayClass2_0 // TypeDefIndex: 10396
+private sealed class TerrainBlendMap.<>c__DisplayClass2_0 // TypeDefIndex: 10400
 {	public TerrainBlendMap <>4__this; // 0x10
 	public Color32[] col; // 0x18
 
@@ -41,7 +41,7 @@ private sealed class TerrainBlendMap.<>c__DisplayClass2_0 // TypeDefIndex: 10396
 
 }
 
-private sealed class TerrainBlendMap.<>c__DisplayClass12_0 // TypeDefIndex: 10397
+private sealed class TerrainBlendMap.<>c__DisplayClass12_0 // TypeDefIndex: 10401
 {	public float opacity; // 0x10
 	public TerrainBlendMap <>4__this; // 0x18
 	public float a; // 0x20

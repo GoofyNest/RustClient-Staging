@@ -1,5 +1,5 @@
 internal static class VisualElementListPool // TypeDefIndex: 4612
-{	private static ObjectPool<List<VisualElement>> pool; // 0x133C0
+{	private static ObjectPool<List<VisualElement>> pool; // 0x12729
 
 
 	public static List<VisualElement> Get(int initialCapacity = 0) { }

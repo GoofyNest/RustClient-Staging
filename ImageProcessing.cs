@@ -1,4 +1,4 @@
-public static class ImageProcessing // TypeDefIndex: 10281
+public static class ImageProcessing // TypeDefIndex: 10285
 {	private static byte[] signaturePNG; // 0x0
 	private static byte[] signatureIHDR; // 0x8
 
@@ -29,7 +29,7 @@ public static class ImageProcessing // TypeDefIndex: 10281
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass1_0 // TypeDefIndex: 10282
+private sealed class ImageProcessing.<>c__DisplayClass1_0 // TypeDefIndex: 10286
 {	public int len1; // 0x10
 	public int len2; // 0x14
 	public float[] src; // 0x18
@@ -44,7 +44,7 @@ private sealed class ImageProcessing.<>c__DisplayClass1_0 // TypeDefIndex: 10282
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass2_0 // TypeDefIndex: 10283
+private sealed class ImageProcessing.<>c__DisplayClass2_0 // TypeDefIndex: 10287
 {	public int len1; // 0x10
 	public int len2; // 0x14
 	public float[] src; // 0x18
@@ -58,7 +58,7 @@ private sealed class ImageProcessing.<>c__DisplayClass2_0 // TypeDefIndex: 10283
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass3_0 // TypeDefIndex: 10284
+private sealed class ImageProcessing.<>c__DisplayClass3_0 // TypeDefIndex: 10288
 {	public int len1; // 0x10
 	public int len2; // 0x14
 	public float[] src; // 0x18
@@ -73,7 +73,7 @@ private sealed class ImageProcessing.<>c__DisplayClass3_0 // TypeDefIndex: 10284
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass4_0 // TypeDefIndex: 10285
+private sealed class ImageProcessing.<>c__DisplayClass4_0 // TypeDefIndex: 10289
 {	public int srclen1; // 0x10
 	public int srclen2; // 0x14
 	public float[] src; // 0x18
@@ -87,7 +87,7 @@ private sealed class ImageProcessing.<>c__DisplayClass4_0 // TypeDefIndex: 10285
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass5_0 // TypeDefIndex: 10286
+private sealed class ImageProcessing.<>c__DisplayClass5_0 // TypeDefIndex: 10290
 {	public int srclen1; // 0x10
 	public int srclen2; // 0x14
 	public float[] src; // 0x18
@@ -103,7 +103,7 @@ private sealed class ImageProcessing.<>c__DisplayClass5_0 // TypeDefIndex: 10286
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass6_0 // TypeDefIndex: 10287
+private sealed class ImageProcessing.<>c__DisplayClass6_0 // TypeDefIndex: 10291
 {	public int radius; // 0x10
 	public int[] src; // 0x18
 	public int len2; // 0x20

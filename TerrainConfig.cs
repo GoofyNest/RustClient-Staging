@@ -1,4 +1,4 @@
-public class TerrainConfig : ScriptableObject // TypeDefIndex: 10310
+public class TerrainConfig : ScriptableObject // TypeDefIndex: 10314
 {	public bool CastShadows; // 0x18
 	public LayerMask GroundMask; // 0x1C
 	public LayerMask WaterMask; // 0x20
@@ -60,15 +60,15 @@ public class TerrainConfig : ScriptableObject // TypeDefIndex: 10310
 
 }
 
-public class TerrainConfig.SplatOverlay // TypeDefIndex: 10311
+public class TerrainConfig.SplatOverlay // TypeDefIndex: 10315
 {	public Color Color; // 0x10
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float Smoothness; // 0x20
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float NormalIntensity; // 0x24
-	[RangeAttribute] // RVA: 0xC6A60 Offset: 0xC5E60 VA: 0x1800C6A60
+	[RangeAttribute] // RVA: 0xC6C90 Offset: 0xC6090 VA: 0x1800C6C90
 	public float BlendFactor; // 0x28
-	[RangeAttribute] // RVA: 0xC6B20 Offset: 0xC5F20 VA: 0x1800C6B20
+	[RangeAttribute] // RVA: 0xC6D40 Offset: 0xC6140 VA: 0x1800C6D40
 	public float BlendFalloff; // 0x2C
 
 
@@ -76,23 +76,23 @@ public class TerrainConfig.SplatOverlay // TypeDefIndex: 10311
 
 }
 
-public class TerrainConfig.SplatType // TypeDefIndex: 10312
+public class TerrainConfig.SplatType // TypeDefIndex: 10316
 {	public string Name; // 0x10
-	[FormerlySerializedAsAttribute] // RVA: 0xC6B80 Offset: 0xC5F80 VA: 0x1800C6B80
+	[FormerlySerializedAsAttribute] // RVA: 0xC6DA0 Offset: 0xC61A0 VA: 0x1800C6DA0
 	public Color AridColor; // 0x18
 	public TerrainConfig.SplatOverlay AridOverlay; // 0x28
-	[FormerlySerializedAsAttribute] // RVA: 0xC6C40 Offset: 0xC6040 VA: 0x1800C6C40
+	[FormerlySerializedAsAttribute] // RVA: 0xC6E30 Offset: 0xC6230 VA: 0x1800C6E30
 	public Color TemperateColor; // 0x30
 	public TerrainConfig.SplatOverlay TemperateOverlay; // 0x40
-	[FormerlySerializedAsAttribute] // RVA: 0xC6D80 Offset: 0xC6180 VA: 0x1800C6D80
+	[FormerlySerializedAsAttribute] // RVA: 0xC6F30 Offset: 0xC6330 VA: 0x1800C6F30
 	public Color TundraColor; // 0x48
 	public TerrainConfig.SplatOverlay TundraOverlay; // 0x58
-	[FormerlySerializedAsAttribute] // RVA: 0xC6D80 Offset: 0xC6180 VA: 0x1800C6D80
+	[FormerlySerializedAsAttribute] // RVA: 0xC6F30 Offset: 0xC6330 VA: 0x1800C6F30
 	public Color ArcticColor; // 0x60
 	public TerrainConfig.SplatOverlay ArcticOverlay; // 0x70
 	public PhysicMaterial Material; // 0x78
 	public float SplatTiling; // 0x80
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float UVMIXMult; // 0x84
 	public float UVMIXStart; // 0x88
 	public float UVMIXDist; // 0x8C
@@ -102,7 +102,7 @@ public class TerrainConfig.SplatType // TypeDefIndex: 10312
 
 }
 
-public enum TerrainConfig.GroundType // TypeDefIndex: 10313
+public enum TerrainConfig.GroundType // TypeDefIndex: 10317
 {	public int value__; // 0x0
 	public const TerrainConfig.GroundType None = 0;
 	public const TerrainConfig.GroundType HardSurface = 1;

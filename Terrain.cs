@@ -1,17 +1,17 @@
 public sealed class Terrain : Behaviour // TypeDefIndex: 4088
 {
-[RequireComponent] // RVA: 0x73D30 Offset: 0x73130 VA: 0x180073D30
-[RequiredByNativeCodeAttribute] // RVA: 0x73D30 Offset: 0x73130 VA: 0x180073D30
-[NativeHeaderAttribute] // RVA: 0x73D30 Offset: 0x73130 VA: 0x180073D30
+[RequireComponent] // RVA: 0x73D80 Offset: 0x73180 VA: 0x180073D80
+[RequiredByNativeCodeAttribute] // RVA: 0x73D80 Offset: 0x73180 VA: 0x180073D80
+[NativeHeaderAttribute] // RVA: 0x73D80 Offset: 0x73180 VA: 0x180073D80
 public class Collider2D : Behaviour // TypeDefIndex: 4086
 
 internal class <Module> // TypeDefIndex: 4087
 
-[NativeHeaderAttribute] // RVA: 0x7A040 Offset: 0x79440 VA: 0x18007A040
-[UsedByNativeCodeAttribute] // RVA: 0x7A040 Offset: 0x79440 VA: 0x18007A040
-[StaticAccessorAttribute] // RVA: 0x7A040 Offset: 0x79440 VA: 0x18007A040
-[NativeHeaderAttribute] // RVA: 0x7A040 Offset: 0x79440 VA: 0x18007A040
-[NativeHeaderAttribute] // RVA: 0x7A040 Offset: 0x79440 VA: 0x18007A040
+[NativeHeaderAttribute] // RVA: 0x7A100 Offset: 0x79500 VA: 0x18007A100
+[UsedByNativeCodeAttribute] // RVA: 0x7A100 Offset: 0x79500 VA: 0x18007A100
+[StaticAccessorAttribute] // RVA: 0x7A100 Offset: 0x79500 VA: 0x18007A100
+[NativeHeaderAttribute] // RVA: 0x7A100 Offset: 0x79500 VA: 0x18007A100
+[NativeHeaderAttribute] // RVA: 0x7A100 Offset: 0x79500 VA: 0x18007A100
 public sealed class Terrain : Behaviour // TypeDefIndex: 4088
 	public TerrainData terrainData { get; }
 	public float heightmapPixelError { set; }
@@ -25,11 +25,11 @@ public sealed class Terrain : Behaviour // TypeDefIndex: 4088
 	public bool drawInstanced { set; }
 	public bool drawTreesAndFoliage { get; set; }
 	public static Terrain activeTerrain { get; }
-	[NativePropertyAttribute] // RVA: 0x7A6C0 Offset: 0x79AC0 VA: 0x18007A6C0
+	[NativePropertyAttribute] // RVA: 0x7A7B0 Offset: 0x79BB0 VA: 0x18007A7B0
 	public static Terrain[] activeTerrains { get; }
-	[ObsoleteAttribute] // RVA: 0x7A760 Offset: 0x79B60 VA: 0x18007A760
+	[ObsoleteAttribute] // RVA: 0x7A810 Offset: 0x79C10 VA: 0x18007A810
 	public bool castShadows { set; }
-	[ObsoleteAttribute] // RVA: 0x7A920 Offset: 0x79D20 VA: 0x18007A920
+	[ObsoleteAttribute] // RVA: 0x7A980 Offset: 0x79D80 VA: 0x18007A980
 	public Terrain.MaterialType materialType { set; }
 
 
@@ -75,7 +75,7 @@ public sealed class Terrain : Behaviour // TypeDefIndex: 4088
 
 	public static Terrain[] get_activeTerrains() { }
 
-	[UsedByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[UsedByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static GameObject CreateTerrainGameObject(TerrainData assignTerrain) { }
 
 	public void set_castShadows(bool value) { }
@@ -99,9 +99,9 @@ public enum Terrain.MaterialType // TypeDefIndex: 4089
 
 }
 
-public class Terrain : ConsoleSystem // TypeDefIndex: 11967
-{	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
-	public static float quality; // 0x1E5ED
+public class Terrain : ConsoleSystem // TypeDefIndex: 11971
+{	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	public static float quality; // 0x2B11960
 
 
 	public void .ctor() { }

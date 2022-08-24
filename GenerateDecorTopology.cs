@@ -1,4 +1,4 @@
-public class GenerateDecorTopology : ProceduralComponent // TypeDefIndex: 10454
+public class GenerateDecorTopology : ProceduralComponent // TypeDefIndex: 10458
 {	public bool KeepExisting; // 0x28
 
 
@@ -8,7 +8,7 @@ public class GenerateDecorTopology : ProceduralComponent // TypeDefIndex: 10454
 
 }
 
-private sealed class GenerateDecorTopology.<>c__DisplayClass1_0 // TypeDefIndex: 10455
+private sealed class GenerateDecorTopology.<>c__DisplayClass1_0 // TypeDefIndex: 10459
 {	public TerrainTopologyMap topomap; // 0x10
 	public GenerateDecorTopology <>4__this; // 0x18
 	public int topores; // 0x20

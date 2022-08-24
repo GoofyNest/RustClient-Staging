@@ -2,19 +2,19 @@ public static class JobsUtility // TypeDefIndex: 3313
 {
 	public static void GetJobRange(ref JobRanges ranges, int jobIndex, out int beginIndex, out int endIndex) { }
 
-	[NativeMethodAttribute] // RVA: 0xEA9B0 Offset: 0xE9DB0 VA: 0x1800EA9B0
+	[NativeMethodAttribute] // RVA: 0xEAA70 Offset: 0xE9E70 VA: 0x1800EAA70
 	public static bool GetWorkStealingRange(ref JobRanges ranges, int jobIndex, out int beginIndex, out int endIndex) { }
 
-	[FreeFunctionAttribute] // RVA: 0xEAAE0 Offset: 0xE9EE0 VA: 0x1800EAAE0
+	[FreeFunctionAttribute] // RVA: 0xEABB0 Offset: 0xE9FB0 VA: 0x1800EABB0
 	public static JobHandle Schedule(ref JobsUtility.JobScheduleParameters parameters) { }
 
-	[FreeFunctionAttribute] // RVA: 0xEAC00 Offset: 0xEA000 VA: 0x1800EAC00
+	[FreeFunctionAttribute] // RVA: 0xEACD0 Offset: 0xEA0D0 VA: 0x1800EACD0
 	public static JobHandle ScheduleParallelFor(ref JobsUtility.JobScheduleParameters parameters, int arrayLength, int innerloopBatchCount) { }
 
-	[FreeFunctionAttribute] // RVA: 0xEAD50 Offset: 0xEA150 VA: 0x1800EAD50
+	[FreeFunctionAttribute] // RVA: 0xEAE20 Offset: 0xEA220 VA: 0x1800EAE20
 	public static JobHandle ScheduleParallelForTransform(ref JobsUtility.JobScheduleParameters parameters, IntPtr transfromAccesssArray) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
 	private static IntPtr CreateJobReflectionData(Type wrapperJobType, Type userJobType, JobType jobType, object managedJobFunction0, object managedJobFunction1, object managedJobFunction2) { }
 
 	public static IntPtr CreateJobReflectionData(Type type, JobType jobType, object managedJobFunction0, object managedJobFunction1, object managedJobFunction2) { }

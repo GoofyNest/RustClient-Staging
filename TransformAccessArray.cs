@@ -16,19 +16,19 @@ public struct TransformAccessArray : IDisposable // TypeDefIndex: 3590
 
 	public void Add(Transform transform) { }
 
-	[NativeMethodAttribute] // RVA: 0xD9400 Offset: 0xD8800 VA: 0x1800D9400
+	[NativeMethodAttribute] // RVA: 0xD9530 Offset: 0xD8930 VA: 0x1800D9530
 	private static IntPtr Create(int capacity, int desiredJobCount) { }
 
-	[NativeMethodAttribute] // RVA: 0xD95B0 Offset: 0xD89B0 VA: 0x1800D95B0
+	[NativeMethodAttribute] // RVA: 0xD96E0 Offset: 0xD8AE0 VA: 0x1800D96E0
 	private static void DestroyTransformAccessArray(IntPtr transformArray) { }
 
-	[NativeMethodAttribute] // RVA: 0xD96C0 Offset: 0xD8AC0 VA: 0x1800D96C0
+	[NativeMethodAttribute] // RVA: 0xD97C0 Offset: 0xD8BC0 VA: 0x1800D97C0
 	private static void Add(IntPtr transformArrayIntPtr, Transform transform) { }
 
-	[NativeMethodAttribute] // RVA: 0xD97B0 Offset: 0xD8BB0 VA: 0x1800D97B0
+	[NativeMethodAttribute] // RVA: 0xD9880 Offset: 0xD8C80 VA: 0x1800D9880
 	internal static IntPtr GetSortedTransformAccess(IntPtr transformArrayIntPtr) { }
 
-	[NativeMethodAttribute] // RVA: 0xD9A20 Offset: 0xD8E20 VA: 0x1800D9A20
+	[NativeMethodAttribute] // RVA: 0xD9B20 Offset: 0xD8F20 VA: 0x1800D9B20
 	internal static IntPtr GetSortedToUserIndex(IntPtr transformArrayIntPtr) { }
 
 }

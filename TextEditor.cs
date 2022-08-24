@@ -5,7 +5,7 @@ public class TextEditor // TypeDefIndex: 4061
 	public bool multiline; // 0x28
 	public bool hasHorizontalCursorPos; // 0x29
 	public bool isPasswordField; // 0x2A
-	[VisibleToOtherModulesAttribute] // RVA: 0xDC3A0 Offset: 0xDB7A0 VA: 0x1800DC3A0
+	[VisibleToOtherModulesAttribute] // RVA: 0xDC490 Offset: 0xDB890 VA: 0x1800DC490
 	internal bool m_HasFocus; // 0x2B
 	public Vector2 scrollOffset; // 0x2C
 	private GUIContent m_Content; // 0x38
@@ -41,7 +41,7 @@ public class TextEditor // TypeDefIndex: 4061
 
 	public void set_position(Rect value) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xDD840 Offset: 0xDCC40 VA: 0x1800DD840
+	[VisibleToOtherModulesAttribute] // RVA: 0xDD930 Offset: 0xDCD30 VA: 0x1800DD930
 	internal virtual Rect get_localPosition() { }
 
 	public int get_cursorIndex() { }
@@ -54,7 +54,7 @@ public class TextEditor // TypeDefIndex: 4061
 
 	private void ClearCursorPos() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor() { }
 
 	public void OnFocus() { }
@@ -65,7 +65,7 @@ public class TextEditor // TypeDefIndex: 4061
 
 	public bool HandleKeyEvent(Event e) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[VisibleToOtherModulesAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool HandleKeyEvent(Event e, bool textIsReadOnly) { }
 
 	public bool DeleteLineBack() { }
@@ -188,7 +188,7 @@ public class TextEditor // TypeDefIndex: 4061
 
 	public void UpdateScrollOffsetIfNeeded(Event evt) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[VisibleToOtherModulesAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void UpdateScrollOffset() { }
 
 	public void DrawCursor(string newText) { }

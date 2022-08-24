@@ -1,6 +1,6 @@
 public class NameValueHeaderValue : ICloneable // TypeDefIndex: 5787
 {	internal string value; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Name>k__BackingField; // 0x18
 
 	public string Name { get; set; }
@@ -13,10 +13,10 @@ public class NameValueHeaderValue : ICloneable // TypeDefIndex: 5787
 
 	internal void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Name() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_Name(string value) { }
 
 	public string get_Value() { }

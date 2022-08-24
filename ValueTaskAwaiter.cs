@@ -9,7 +9,7 @@ public struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion //
 
 	public bool get_IsCompleted() { }
 
-	[StackTraceHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[StackTraceHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void GetResult() { }
 
 	public void OnCompleted(Action continuation) { }
@@ -21,7 +21,7 @@ public struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion //
 }
 
 private sealed class ValueTaskAwaiter.<>c // TypeDefIndex: 7095
-{	public static readonly ValueTaskAwaiter.<>c <>9; // 0x2B104DC
+{	public static readonly ValueTaskAwaiter.<>c <>9; // 0x11A40
 
 
 	private static void .cctor() { }

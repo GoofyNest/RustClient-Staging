@@ -6,7 +6,7 @@ public struct TypedReference // TypeDefIndex: 323
 	internal bool IsNull { get; }
 
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static TypedReference MakeTypedReference(object target, FieldInfo[] flds) { }
 
 	private static TypedReference MakeTypedReferenceInternal(object target, FieldInfo[] fields) { }
@@ -17,7 +17,7 @@ public struct TypedReference // TypeDefIndex: 323
 
 	internal bool get_IsNull() { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static void SetTypedReference(TypedReference target, object value) { }
 
 }

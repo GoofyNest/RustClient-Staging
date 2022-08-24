@@ -8,10 +8,10 @@ public class CarvablePumpkin : BaseOven, ILOD, ISignage, IUGCBrowserEntity // Ty
 	public uint[] textureIDs; // 0x600
 	internal RealTimeSince[] timeSinceRequest; // 0x608
 	internal uint[] loadedTextures; // 0x610
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static float textureRequestDistance; // 0x0
 	private bool textureRequestSent; // 0x618
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <withinTextureRange>k__BackingField; // 0x619
 	private LODCell cell; // 0x620
 
@@ -41,20 +41,20 @@ public class CarvablePumpkin : BaseOven, ILOD, ISignage, IUGCBrowserEntity // Ty
 
 	private void LoadTexture(int frame, uint id, byte[] data) { }
 
-	[BaseEntity.Menu] // RVA: 0xD1920 Offset: 0xD0D20 VA: 0x1800D1920
-	[BaseEntity.Menu.Icon] // RVA: 0xD1920 Offset: 0xD0D20 VA: 0x1800D1920
-	[BaseEntity.Menu.Description] // RVA: 0xD1920 Offset: 0xD0D20 VA: 0x1800D1920
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD1920 Offset: 0xD0D20 VA: 0x1800D1920
+	[BaseEntity.Menu] // RVA: 0xD1A50 Offset: 0xD0E50 VA: 0x1800D1A50
+	[BaseEntity.Menu.Icon] // RVA: 0xD1A50 Offset: 0xD0E50 VA: 0x1800D1A50
+	[BaseEntity.Menu.Description] // RVA: 0xD1A50 Offset: 0xD0E50 VA: 0x1800D1A50
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD1A50 Offset: 0xD0E50 VA: 0x1800D1A50
 	public void Menu_ChangeText(BasePlayer player) { }
 
 	public virtual void OnTextureWasEdited(int frame, Texture2D texture, bool fromFile = False) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void RecieveTexture(BaseEntity.RPCMessage msg) { }
 
 	private void EnsureInitialized() { }
 
-	[ConditionalAttribute] // RVA: 0x83E20 Offset: 0x83220 VA: 0x180083E20
+	[ConditionalAttribute] // RVA: 0x83EF0 Offset: 0x832F0 VA: 0x180083EF0
 	private static void SignDebugLog(string str) { }
 
 	public FileStorage.Type get_FileType() { }
@@ -71,10 +71,10 @@ public class CarvablePumpkin : BaseOven, ILOD, ISignage, IUGCBrowserEntity // Ty
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected bool get_withinTextureRange() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_withinTextureRange(bool value) { }
 
 	protected override void ClientInit(Entity info) { }
@@ -89,16 +89,16 @@ public class CarvablePumpkin : BaseOven, ILOD, ISignage, IUGCBrowserEntity // Ty
 
 	protected virtual void OnExitTextureRange() { }
 
-	[BaseEntity.Menu] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
-	[BaseEntity.Menu.Icon] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
-	[BaseEntity.Menu.Description] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C4F0 Offset: 0x7B8F0 VA: 0x18007C4F0
+	[BaseEntity.Menu] // RVA: 0x7C580 Offset: 0x7B980 VA: 0x18007C580
+	[BaseEntity.Menu.Icon] // RVA: 0x7C580 Offset: 0x7B980 VA: 0x18007C580
+	[BaseEntity.Menu.Description] // RVA: 0x7C580 Offset: 0x7B980 VA: 0x18007C580
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C580 Offset: 0x7B980 VA: 0x18007C580
 	public void Menu_LockSign(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
-	[BaseEntity.Menu.Icon] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
-	[BaseEntity.Menu.Description] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C7D0 Offset: 0x7BBD0 VA: 0x18007C7D0
+	[BaseEntity.Menu] // RVA: 0x7C830 Offset: 0x7BC30 VA: 0x18007C830
+	[BaseEntity.Menu.Icon] // RVA: 0x7C830 Offset: 0x7BC30 VA: 0x18007C830
+	[BaseEntity.Menu.Description] // RVA: 0x7C830 Offset: 0x7BC30 VA: 0x18007C830
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C830 Offset: 0x7BC30 VA: 0x18007C830
 	public void Menu_UnLockSign(BasePlayer player) { }
 
 	public static void RebuildAll() { }
@@ -109,7 +109,7 @@ public class CarvablePumpkin : BaseOven, ILOD, ISignage, IUGCBrowserEntity // Ty
 
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void <Menu_ChangeText>b__21_0(int i, Texture2D x) { }
 
 }

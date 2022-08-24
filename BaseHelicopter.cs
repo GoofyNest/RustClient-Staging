@@ -82,7 +82,7 @@ public class BaseHelicopter : BaseCombatEntity // TypeDefIndex: 8519
 
 	public void UpdateRotorVisibility() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void FireGun(BaseEntity.RPCMessage rpc) { }
 
 	public void .ctor() { }

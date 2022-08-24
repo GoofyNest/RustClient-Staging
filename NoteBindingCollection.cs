@@ -21,7 +21,7 @@ public class NoteBindingCollection : ScriptableObject // TypeDefIndex: 9561
 	public float AnimationDeadTime; // 0x80
 	public float AnimationResetDelay; // 0x84
 	public float RecentlyPlayedThreshold; // 0x88
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float CrossfadeNormalizedAnimationTarget; // 0x8C
 	public float AnimationCrossfadeDuration; // 0x90
 	public float CrossfadePlayerSpeedMulti; // 0x94
@@ -44,7 +44,7 @@ public struct NoteBindingCollection.NoteData // TypeDefIndex: 9562
 	public InstrumentKeyController.NoteType Type; // 0x14
 	public int MidiNoteNumber; // 0x18
 	public int NoteOctave; // 0x1C
-	[InstrumentIKTargetAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+	[InstrumentIKTargetAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public InstrumentKeyController.IKNoteTarget NoteIKTarget; // 0x20
 	public InstrumentKeyController.AnimationSlot AnimationSlot; // 0x28
 	public int NoteSoundPositionTarget; // 0x2C

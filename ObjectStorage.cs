@@ -66,7 +66,7 @@ private enum ObjectStorage.Families // TypeDefIndex: 4407
 }
 
 private class ObjectStorage.TempAssemblyComparer : IEqualityComparer<KeyValuePair<Type, XmlRootAttribute>> // TypeDefIndex: 4408
-{	internal static readonly IEqualityComparer<KeyValuePair<Type, XmlRootAttribute>> s_default; // 0x133B1
+{	internal static readonly IEqualityComparer<KeyValuePair<Type, XmlRootAttribute>> s_default; // 0x2B117C0
 
 
 	private void .ctor() { }

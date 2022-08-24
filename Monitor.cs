@@ -6,7 +6,7 @@ public static class Monitor // TypeDefIndex: 788
 
 	private static void ThrowLockTakenException() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static void Exit(object obj) { }
 
 	public static void TryEnter(object obj, ref bool lockTaken) { }
@@ -41,18 +41,18 @@ public static class Monitor // TypeDefIndex: 788
 
 }
 
-public abstract class Monitor // TypeDefIndex: 11821
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public abstract class Monitor // TypeDefIndex: 11825
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private RenderTexture <output>k__BackingField; // 0x10
 	internal bool requested; // 0x18
 
 	public RenderTexture output { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public RenderTexture get_output() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected void set_output(RenderTexture value) { }
 
 	public bool IsRequestedAndSupported(PostProcessRenderContext context) { }

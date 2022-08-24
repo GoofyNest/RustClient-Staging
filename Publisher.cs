@@ -22,23 +22,23 @@ public class Publisher : MonoBehaviour // TypeDefIndex: 7762
 
 	public bool CanPublish() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD6E50 Offset: 0xD6250 VA: 0x1800D6E50
+	[AsyncStateMachineAttribute] // RVA: 0xD6F80 Offset: 0xD6380 VA: 0x1800D6F80
 	private Task DoExport(bool publishToSteam, bool OpenFolder, string forceFolderName) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD6F40 Offset: 0xD6340 VA: 0x1800D6F40
+	[AsyncStateMachineAttribute] // RVA: 0xD7070 Offset: 0xD6470 VA: 0x1800D7070
 	private Task ExportToFolder(string folder, bool OpenFolder) { }
 
 	private void CreateWorkshopIcon(string folder) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD7240 Offset: 0xD6640 VA: 0x1800D7240
+	[AsyncStateMachineAttribute] // RVA: 0xD72D0 Offset: 0xD66D0 VA: 0x1800D72D0
 	private Task PublishToSteam(string folder) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD7290 Offset: 0xD6690 VA: 0x1800D7290
+	[AsyncStateMachineAttribute] // RVA: 0xD7320 Offset: 0xD6720 VA: 0x1800D7320
 	private Task ExportTexture(Dictionary<string, string> data, string folder, int group, string paramname, Material mat, Material defaultMat, bool isNormalMap = False) { }
 
 	public void Export() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD73B0 Offset: 0xD67B0 VA: 0x1800D73B0
+	[AsyncStateMachineAttribute] // RVA: 0xD74E0 Offset: 0xD68E0 VA: 0x1800D74E0
 	public Task DoExport() { }
 
 	public void .ctor() { }
@@ -58,7 +58,7 @@ private struct Publisher.<DoExport>d__15 : IAsyncStateMachine // TypeDefIndex: 7
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -81,7 +81,7 @@ private struct Publisher.<ExportToFolder>d__16 : IAsyncStateMachine // TypeDefIn
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -97,7 +97,7 @@ private struct Publisher.<PublishToSteam>d__18 : IAsyncStateMachine // TypeDefIn
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -118,7 +118,7 @@ private struct Publisher.<ExportTexture>d__19 : IAsyncStateMachine // TypeDefInd
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -133,7 +133,7 @@ private struct Publisher.<DoExport>d__21 : IAsyncStateMachine // TypeDefIndex: 7
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

@@ -22,11 +22,11 @@ public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 8347
 	public SoundPlayer largeWhinny; // 0x630
 	public const BaseEntity.Flags Flag_Lead = 32768;
 	public const BaseEntity.Flags Flag_HasRider = 2;
-	[HeaderAttribute] // RVA: 0xC38B0 Offset: 0xC2CB0 VA: 0x1800C38B0
+	[HeaderAttribute] // RVA: 0xC39E0 Offset: 0xC2DE0 VA: 0x1800C39E0
 	public ItemDefinition purchaseToken; // 0x638
 	public GameObjectRef eatEffect; // 0x640
 	public GameObjectRef CorpsePrefab; // 0x648
-	[HeaderAttribute] // RVA: 0xC39D0 Offset: 0xC2DD0 VA: 0x1800C39D0
+	[HeaderAttribute] // RVA: 0xC3B00 Offset: 0xC2F00 VA: 0x1800C3B00
 	public Transform animalFront; // 0x650
 	public float obstacleDetectionRadius; // 0x658
 	public float maxWaterDepth; // 0x65C
@@ -34,7 +34,7 @@ public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 8347
 	public float maxWallClimbSlope; // 0x664
 	public float maxStepHeight; // 0x668
 	public float maxStepDownHeight; // 0x66C
-	[HeaderAttribute] // RVA: 0xC3AD0 Offset: 0xC2ED0 VA: 0x1800C3AD0
+	[HeaderAttribute] // RVA: 0xC3BA0 Offset: 0xC2FA0 VA: 0x1800C3BA0
 	public BaseRidableAnimal.RunState currentRunState; // 0x670
 	public float walkSpeed; // 0x674
 	public float trotSpeed; // 0x678
@@ -42,7 +42,7 @@ public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 8347
 	public float turnSpeed; // 0x680
 	public float maxSpeed; // 0x684
 	public Transform[] groundSampleOffsets; // 0x688
-	[HeaderAttribute] // RVA: 0xC4F10 Offset: 0xC4310 VA: 0x1800C4F10
+	[HeaderAttribute] // RVA: 0xC4FE0 Offset: 0xC43E0 VA: 0x1800C4FE0
 	public float staminaSeconds; // 0x690
 	public float currentMaxStaminaSeconds; // 0x694
 	public float maxStaminaSeconds; // 0x698
@@ -56,7 +56,7 @@ public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 8347
 	public bool debugMovement; // 0x6B8
 	private const float normalOffsetDist = 0,15;
 	private Vector3[] normalOffsets; // 0x6C0
-	[ServerVar] // RVA: 0xC5000 Offset: 0xC4400 VA: 0x1800C5000
+	[ServerVar] // RVA: 0xC50A0 Offset: 0xC44A0 VA: 0x1800C50A0
 	public static float decayminutes; // 0x0
 	public float currentSpeed; // 0x6C8
 	public float desiredRotation; // 0x6CC
@@ -82,10 +82,10 @@ public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 8347
 
 	public void LoadContainer(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0xC5070 Offset: 0xC4470 VA: 0x1800C5070
-	[BaseEntity.Menu.Description] // RVA: 0xC5070 Offset: 0xC4470 VA: 0x1800C5070
-	[BaseEntity.Menu.Icon] // RVA: 0xC5070 Offset: 0xC4470 VA: 0x1800C5070
-	[BaseEntity.Menu.ShowIf] // RVA: 0xC5070 Offset: 0xC4470 VA: 0x1800C5070
+	[BaseEntity.Menu] // RVA: 0xC51A0 Offset: 0xC45A0 VA: 0x1800C51A0
+	[BaseEntity.Menu.Description] // RVA: 0xC51A0 Offset: 0xC45A0 VA: 0x1800C51A0
+	[BaseEntity.Menu.Icon] // RVA: 0xC51A0 Offset: 0xC45A0 VA: 0x1800C51A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xC51A0 Offset: 0xC45A0 VA: 0x1800C51A0
 	public void Menu_Open(BasePlayer player) { }
 
 	public bool Menu_Open_ShowIf(BasePlayer player) { }
@@ -108,44 +108,44 @@ public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 8347
 
 	public void SprintSoundPlay() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Stand(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Eat(BaseEntity.RPCMessage msg) { }
 
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xC54E0 Offset: 0xC48E0 VA: 0x1800C54E0
-	[BaseEntity.Menu.Description] // RVA: 0xC54E0 Offset: 0xC48E0 VA: 0x1800C54E0
-	[BaseEntity.Menu.Icon] // RVA: 0xC54E0 Offset: 0xC48E0 VA: 0x1800C54E0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xC54E0 Offset: 0xC48E0 VA: 0x1800C54E0
+	[BaseEntity.Menu] // RVA: 0xC55D0 Offset: 0xC49D0 VA: 0x1800C55D0
+	[BaseEntity.Menu.Description] // RVA: 0xC55D0 Offset: 0xC49D0 VA: 0x1800C55D0
+	[BaseEntity.Menu.Icon] // RVA: 0xC55D0 Offset: 0xC49D0 VA: 0x1800C55D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xC55D0 Offset: 0xC49D0 VA: 0x1800C55D0
 	public void Menu_TooHeavy(BasePlayer player) { }
 
 	public bool Menu_TooHeavy_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xC5790 Offset: 0xC4B90 VA: 0x1800C5790
-	[BaseEntity.Menu.Description] // RVA: 0xC5790 Offset: 0xC4B90 VA: 0x1800C5790
-	[BaseEntity.Menu.Icon] // RVA: 0xC5790 Offset: 0xC4B90 VA: 0x1800C5790
-	[BaseEntity.Menu.ShowIf] // RVA: 0xC5790 Offset: 0xC4B90 VA: 0x1800C5790
+	[BaseEntity.Menu] // RVA: 0xC58D0 Offset: 0xC4CD0 VA: 0x1800C58D0
+	[BaseEntity.Menu.Description] // RVA: 0xC58D0 Offset: 0xC4CD0 VA: 0x1800C58D0
+	[BaseEntity.Menu.Icon] // RVA: 0xC58D0 Offset: 0xC4CD0 VA: 0x1800C58D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xC58D0 Offset: 0xC4CD0 VA: 0x1800C58D0
 	public void Menu_Ride(BasePlayer player) { }
 
 	public bool Menu_Ride_ShowIf(BasePlayer player) { }
 
 	private bool CanPlayerSeeSaddlePoint(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xC5A70 Offset: 0xC4E70 VA: 0x1800C5A70
-	[BaseEntity.Menu.Description] // RVA: 0xC5A70 Offset: 0xC4E70 VA: 0x1800C5A70
-	[BaseEntity.Menu.Icon] // RVA: 0xC5A70 Offset: 0xC4E70 VA: 0x1800C5A70
-	[BaseEntity.Menu.ShowIf] // RVA: 0xC5A70 Offset: 0xC4E70 VA: 0x1800C5A70
+	[BaseEntity.Menu] // RVA: 0xC5BB0 Offset: 0xC4FB0 VA: 0x1800C5BB0
+	[BaseEntity.Menu.Description] // RVA: 0xC5BB0 Offset: 0xC4FB0 VA: 0x1800C5BB0
+	[BaseEntity.Menu.Icon] // RVA: 0xC5BB0 Offset: 0xC4FB0 VA: 0x1800C5BB0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xC5BB0 Offset: 0xC4FB0 VA: 0x1800C5BB0
 	public void Menu_Lead(BasePlayer player) { }
 
 	public bool Menu_Lead_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xC5CF0 Offset: 0xC50F0 VA: 0x1800C5CF0
-	[BaseEntity.Menu.Description] // RVA: 0xC5CF0 Offset: 0xC50F0 VA: 0x1800C5CF0
-	[BaseEntity.Menu.Icon] // RVA: 0xC5CF0 Offset: 0xC50F0 VA: 0x1800C5CF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xC5CF0 Offset: 0xC50F0 VA: 0x1800C5CF0
+	[BaseEntity.Menu] // RVA: 0xC5E20 Offset: 0xC5220 VA: 0x1800C5E20
+	[BaseEntity.Menu.Description] // RVA: 0xC5E20 Offset: 0xC5220 VA: 0x1800C5E20
+	[BaseEntity.Menu.Icon] // RVA: 0xC5E20 Offset: 0xC5220 VA: 0x1800C5E20
+	[BaseEntity.Menu.ShowIf] // RVA: 0xC5E20 Offset: 0xC5220 VA: 0x1800C5E20
 	public void Menu_StopLead(BasePlayer player) { }
 
 	public bool Menu_StopLead_ShowIf(BasePlayer player) { }
@@ -154,10 +154,10 @@ public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 8347
 
 	public override bool MountMenuVisible(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xC5F60 Offset: 0xC5360 VA: 0x1800C5F60
-	[BaseEntity.Menu.Description] // RVA: 0xC5F60 Offset: 0xC5360 VA: 0x1800C5F60
-	[BaseEntity.Menu.Icon] // RVA: 0xC5F60 Offset: 0xC5360 VA: 0x1800C5F60
-	[BaseEntity.Menu.ShowIf] // RVA: 0xC5F60 Offset: 0xC5360 VA: 0x1800C5F60
+	[BaseEntity.Menu] // RVA: 0xC60D0 Offset: 0xC54D0 VA: 0x1800C60D0
+	[BaseEntity.Menu.Description] // RVA: 0xC60D0 Offset: 0xC54D0 VA: 0x1800C60D0
+	[BaseEntity.Menu.Icon] // RVA: 0xC60D0 Offset: 0xC54D0 VA: 0x1800C60D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xC60D0 Offset: 0xC54D0 VA: 0x1800C60D0
 	public void Menu_Claim(BasePlayer player) { }
 
 	public bool Menu_Claim_ShowIf(BasePlayer player) { }

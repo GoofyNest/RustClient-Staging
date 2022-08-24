@@ -1,4 +1,4 @@
-public class Mountain : TerrainPlacement // TypeDefIndex: 10590
+public class Mountain : TerrainPlacement // TypeDefIndex: 10594
 {	public float Fade; // 0x110
 
 
@@ -20,7 +20,7 @@ public class Mountain : TerrainPlacement // TypeDefIndex: 10590
 
 }
 
-private sealed class Mountain.<>c__DisplayClass2_0 // TypeDefIndex: 10591
+private sealed class Mountain.<>c__DisplayClass2_0 // TypeDefIndex: 10595
 {	public Matrix4x4 worldToLocal; // 0x10
 	public Mountain <>4__this; // 0x50
 	public Vector3 position; // 0x58
@@ -33,7 +33,7 @@ private sealed class Mountain.<>c__DisplayClass2_0 // TypeDefIndex: 10591
 
 }
 
-private sealed class Mountain.<>c__DisplayClass3_0 // TypeDefIndex: 10592
+private sealed class Mountain.<>c__DisplayClass3_0 // TypeDefIndex: 10596
 {	public Matrix4x4 worldToLocal; // 0x10
 	public Mountain <>4__this; // 0x50
 	public Vector3 position; // 0x58
@@ -56,7 +56,7 @@ private sealed class Mountain.<>c__DisplayClass3_0 // TypeDefIndex: 10592
 
 }
 
-private sealed class Mountain.<>c__DisplayClass5_0 // TypeDefIndex: 10593
+private sealed class Mountain.<>c__DisplayClass5_0 // TypeDefIndex: 10597
 {	public Matrix4x4 worldToLocal; // 0x10
 	public Mountain <>4__this; // 0x50
 	public Vector3 position; // 0x58
@@ -74,7 +74,7 @@ private sealed class Mountain.<>c__DisplayClass5_0 // TypeDefIndex: 10593
 
 }
 
-private sealed class Mountain.<>c__DisplayClass6_0 // TypeDefIndex: 10594
+private sealed class Mountain.<>c__DisplayClass6_0 // TypeDefIndex: 10598
 {	public Matrix4x4 worldToLocal; // 0x10
 	public Mountain <>4__this; // 0x50
 	public TextureData topologydata; // 0x58

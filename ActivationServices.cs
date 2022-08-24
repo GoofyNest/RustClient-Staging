@@ -1,5 +1,5 @@
 internal class ActivationServices // TypeDefIndex: 1202
-{	private static IActivator _constructionActivator; // 0x2B10440
+{	private static IActivator _constructionActivator; // 0x131F0
 
 	private static IActivator ConstructionActivator { get; }
 

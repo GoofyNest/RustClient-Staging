@@ -1,4 +1,4 @@
-public class ContainerSourceSelectedItem : ItemContainerSource // TypeDefIndex: 10851
+public class ContainerSourceSelectedItem : ItemContainerSource // TypeDefIndex: 10855
 {
 	public override ItemContainer GetItemContainer() { }
 

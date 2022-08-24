@@ -26,7 +26,7 @@ public class OutlineManager : MonoBehaviour, IClientComponent // TypeDefIndex: 1
 
 	public void CleanupOutlines() { }
 
-	[ImageEffectOpaque] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ImageEffectOpaque] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
 	public void .ctor() { }

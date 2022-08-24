@@ -1,4 +1,4 @@
-public static class TransformUtil // TypeDefIndex: 11409
+public static class TransformUtil // TypeDefIndex: 11413
 {
 	public static bool GetGroundInfo(Vector3 startPos, out RaycastHit hit, Transform ignoreTransform) { }
 
@@ -22,7 +22,7 @@ public static class TransformUtil // TypeDefIndex: 11409
 
 }
 
-private sealed class TransformUtil.<>c // TypeDefIndex: 11410
+private sealed class TransformUtil.<>c // TypeDefIndex: 11414
 {	public static readonly TransformUtil.<>c <>9; // 0x0
 	public static Func<Transform, bool> <>9__9_0; // 0x8
 

@@ -1,4 +1,4 @@
-public static class ManagedNoise // TypeDefIndex: 10288
+public static class ManagedNoise // TypeDefIndex: 10292
 {	private static readonly int[] hash; // 0x0
 	private const int hashMask = 255;
 	private const double sqrt2 = 1,4142135623731;

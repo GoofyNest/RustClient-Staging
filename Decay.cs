@@ -6,7 +6,7 @@ public abstract class Decay : PrefabAttribute, IServerComponent // TypeDefIndex:
 
 }
 
-public class Decay : ConsoleSystem // TypeDefIndex: 11905
+public class Decay : ConsoleSystem // TypeDefIndex: 11909
 {
 	public void .ctor() { }
 

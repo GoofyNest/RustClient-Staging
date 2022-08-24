@@ -1,18 +1,18 @@
-public class DeferredAction // TypeDefIndex: 11313
+public class DeferredAction // TypeDefIndex: 11317
 {	private Object sender; // 0x10
 	private Action action; // 0x18
 	private ActionPriority priority; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <Idle>k__BackingField; // 0x24
 
 	public bool Idle { get; set; }
 	public int Index { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_Idle() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Idle(bool value) { }
 
 	public int get_Index() { }

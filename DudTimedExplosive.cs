@@ -4,7 +4,7 @@ public class DudTimedExplosive : TimedExplosive, IIgniteable, ISplashable // Typ
 	public GameObject wickSpark; // 0x218
 	public AudioSource wickSound; // 0x220
 	public float dudChance; // 0x228
-	[ItemSelector] // RVA: 0xA7690 Offset: 0xA6A90 VA: 0x1800A7690
+	[ItemSelector] // RVA: 0xA77B0 Offset: 0xA6BB0 VA: 0x1800A77B0
 	public ItemDefinition itemToGive; // 0x230
 	private float explodeTime; // 0x238
 
@@ -23,10 +23,10 @@ public class DudTimedExplosive : TimedExplosive, IIgniteable, ISplashable // Typ
 
 	public void Update() { }
 
-	[BaseEntity.Menu] // RVA: 0xDA3F0 Offset: 0xD97F0 VA: 0x1800DA3F0
-	[BaseEntity.Menu.Description] // RVA: 0xDA3F0 Offset: 0xD97F0 VA: 0x1800DA3F0
-	[BaseEntity.Menu.Icon] // RVA: 0xDA3F0 Offset: 0xD97F0 VA: 0x1800DA3F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDA3F0 Offset: 0xD97F0 VA: 0x1800DA3F0
+	[BaseEntity.Menu] // RVA: 0xDA470 Offset: 0xD9870 VA: 0x1800DA470
+	[BaseEntity.Menu.Description] // RVA: 0xDA470 Offset: 0xD9870 VA: 0x1800DA470
+	[BaseEntity.Menu.Icon] // RVA: 0xDA470 Offset: 0xD9870 VA: 0x1800DA470
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDA470 Offset: 0xD9870 VA: 0x1800DA470
 	public void Menu_Pickup(BasePlayer player) { }
 
 	public bool Menu_PickupDud_ShowIf(BasePlayer player) { }

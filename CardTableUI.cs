@@ -1,61 +1,61 @@
-public class CardTableUI : UIDialog // TypeDefIndex: 10875
-{	[HeaderAttribute] // RVA: 0x81110 Offset: 0x80510 VA: 0x180081110
-	[SerializeField] // RVA: 0x81110 Offset: 0x80510 VA: 0x180081110
+public class CardTableUI : UIDialog // TypeDefIndex: 10879
+{	[HeaderAttribute] // RVA: 0x813A0 Offset: 0x807A0 VA: 0x1800813A0
+	[SerializeField] // RVA: 0x813A0 Offset: 0x807A0 VA: 0x1800813A0
 	private CardTableUI.InfoTextUI primaryInfo; // 0x30
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CardTableUI.InfoTextUI secondaryInfo; // 0x38
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CardTableUI.InfoTextUI playerLeaveInfo; // 0x40
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObject playingUI; // 0x48
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObject availableInputsUI; // 0x50
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CardTableUI.PlayingCardImage[] cardImages; // 0x58
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CardInputWidget[] inputWidgets; // 0x60
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private RustSlider dismountProgressSlider; // 0x68
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseLoading; // 0x70
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseWaitingForNextRound; // 0x78
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseNotEnoughPlayers; // 0x80
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseYourTurn; // 0x88
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phrasePlayerLeftGame; // 0x90
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Color colourNeutralUI; // 0x98
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Color colourGoodUI; // 0xA8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Color colourBadUI; // 0xB8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CanvasGroup timerCanvas; // 0xC8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private RustSlider timerSlider; // 0xD0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private UIChat chat; // 0xD8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private HudElement Hunger; // 0xE0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private HudElement Thirst; // 0xE8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private HudElement Health; // 0xF0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private HudElement PendingHealth; // 0xF8
 	public Sprite cardNone; // 0x100
 	public Sprite cardBackLarge; // 0x108
 	public Sprite cardBackSmall; // 0x110
 	private static Sprite cardBackLargeStatic; // 0x0
 	private static Sprite cardBackSmallStatic; // 0x8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TexasHoldEmUI texasHoldEmUI; // 0x118
 	private CardTable owner; // 0x120
 	private CardTableUI.UIState uiState; // 0x128
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CardTableUI.ICardGameSubUI <curGameTypeUI>k__BackingField; // 0x130
 	private int lastInputCount; // 0x138
 	private TimeSince showInputTimer; // 0x13C
@@ -72,10 +72,10 @@ public class CardTableUI : UIDialog // TypeDefIndex: 10875
 	private float dismountNormalisedProgress { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public CardTableUI.ICardGameSubUI get_curGameTypeUI() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_curGameTypeUI(CardTableUI.ICardGameSubUI value) { }
 
 	private float get_dismountNormalisedProgress() { }
@@ -124,7 +124,7 @@ public class CardTableUI : UIDialog // TypeDefIndex: 10875
 
 }
 
-public class CardTableUI.PlayingCardImage // TypeDefIndex: 10876
+public class CardTableUI.PlayingCardImage // TypeDefIndex: 10880
 {	public Rank rank; // 0x10
 	public Suit suit; // 0x14
 	public Sprite image; // 0x18
@@ -136,7 +136,7 @@ public class CardTableUI.PlayingCardImage // TypeDefIndex: 10876
 
 }
 
-public class CardTableUI.InfoTextUI // TypeDefIndex: 10877
+public class CardTableUI.InfoTextUI // TypeDefIndex: 10881
 {	public GameObject gameObj; // 0x10
 	public RustText rustText; // 0x18
 	public Image background; // 0x20
@@ -146,7 +146,7 @@ public class CardTableUI.InfoTextUI // TypeDefIndex: 10877
 
 }
 
-public enum CardTableUI.InfoTextUI.Attitude // TypeDefIndex: 10878
+public enum CardTableUI.InfoTextUI.Attitude // TypeDefIndex: 10882
 {	public int value__; // 0x0
 	public const CardTableUI.InfoTextUI.Attitude Neutral = 0;
 	public const CardTableUI.InfoTextUI.Attitude Good = 1;
@@ -154,7 +154,7 @@ public enum CardTableUI.InfoTextUI.Attitude // TypeDefIndex: 10878
 
 }
 
-public enum CardTableUI.UIState // TypeDefIndex: 10880
+public enum CardTableUI.UIState // TypeDefIndex: 10884
 {	public int value__; // 0x0
 	public const CardTableUI.UIState None = 0;
 	public const CardTableUI.UIState Loading = 1;
@@ -165,7 +165,7 @@ public enum CardTableUI.UIState // TypeDefIndex: 10880
 
 }
 
-public struct CardTableUI.KeycodeWithAction // TypeDefIndex: 10881
+public struct CardTableUI.KeycodeWithAction // TypeDefIndex: 10885
 {	public KeyCode keyCode; // 0x0
 	public Action action; // 0x8
 	public Translate.Phrase display; // 0x10
@@ -176,7 +176,7 @@ public struct CardTableUI.KeycodeWithAction // TypeDefIndex: 10881
 
 }
 
-public enum CardTableUI.CardType // TypeDefIndex: 10882
+public enum CardTableUI.CardType // TypeDefIndex: 10886
 {	public int value__; // 0x0
 	public const CardTableUI.CardType Large = 0;
 	public const CardTableUI.CardType Small = 1;

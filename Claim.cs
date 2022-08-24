@@ -21,7 +21,7 @@ public class Claim // TypeDefIndex: 934
 
 	protected void .ctor(Claim other, ClaimsIdentity subject) { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnDeserializedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnDeserializedMethod(StreamingContext context) { }
 
 	public IDictionary<string, string> get_Properties() { }

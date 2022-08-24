@@ -300,10 +300,10 @@ public class InstrumentTool : HeldEntity // TypeDefIndex: 8586
 
 	public override void ResetState() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_PlayNote(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_StopNote(BaseEntity.RPCMessage msg) { }
 
 	public override bool IsInstrument() { }
@@ -410,7 +410,7 @@ public class InstrumentIKController : MonoBehaviour // TypeDefIndex: 9550
 	public bool DebugHitRotation; // 0x60
 	public AnimationCurve HandHitCurve; // 0x68
 	public float NoteHitTime; // 0x70
-	[HeaderAttribute] // RVA: 0x76FB0 Offset: 0x763B0 VA: 0x180076FB0
+	[HeaderAttribute] // RVA: 0x770D0 Offset: 0x764D0 VA: 0x1800770D0
 	public float BodyLookWeight; // 0x74
 	public float HeadLookWeight; // 0x78
 	public float LookWeightLimit; // 0x7C
@@ -468,7 +468,7 @@ public class InstrumentKeyController : MonoBehaviour // TypeDefIndex: 9552
 	private float lastAnimationSlotTime; // 0x18
 	public Action<InstrumentKeyController.AnimationSlot> OnAnimationSlotSet; // 0x20
 	private Nullable<InstrumentKeyController.AnimationSlot> setSlot; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private MicrophoneStandIOEntity <currentReceiver>k__BackingField; // 0x30
 	private bool sustain; // 0x38
 	private int lastMidiFrame; // 0x3C
@@ -504,13 +504,13 @@ public class InstrumentKeyController : MonoBehaviour // TypeDefIndex: 9552
 	private bool hasSetupBindings; // 0x100
 	private string autoplayPrefString; // 0x108
 	private string autoplayDefaultName; // 0x110
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <FullKeyboardMode>k__BackingField; // 0x118
 	private List<int> activeMidiNotes; // 0x120
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private InstrumentKeyController.AnimationSlot <CurrentAnimation>k__BackingField; // 0x128
 	private BasePlayer OwnerPlayer; // 0x130
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <PlayedNoteThisFrame>k__BackingField; // 0x138
 
 	public MicrophoneStandIOEntity currentReceiver { get; set; }
@@ -533,10 +533,10 @@ public class InstrumentKeyController : MonoBehaviour // TypeDefIndex: 9552
 
 	private int GetAnimationSlotHash(InstrumentKeyController.AnimationSlot slot) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public MicrophoneStandIOEntity get_currentReceiver() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_currentReceiver(MicrophoneStandIOEntity value) { }
 
 	public bool SetCurrentReceiver(MicrophoneStandIOEntity receiver) { }
@@ -579,16 +579,16 @@ public class InstrumentKeyController : MonoBehaviour // TypeDefIndex: 9552
 
 	private void StopPlayingRecording() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_FullKeyboardMode() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_FullKeyboardMode(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public InstrumentKeyController.AnimationSlot get_CurrentAnimation() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_CurrentAnimation(InstrumentKeyController.AnimationSlot value) { }
 
 	public bool get_RecentlyPlayedNote() { }
@@ -631,10 +631,10 @@ public class InstrumentKeyController : MonoBehaviour // TypeDefIndex: 9552
 
 	private GameObject GetNoteSoundPosition(int index) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_PlayedNoteThisFrame() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_PlayedNoteThisFrame(bool value) { }
 
 	public void OnPlayerPlayedNote(Notes note, InstrumentKeyController.NoteType type, int octave, float velocity, BasePlayer player) { }
@@ -649,7 +649,7 @@ public class InstrumentKeyController : MonoBehaviour // TypeDefIndex: 9552
 
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void <SetFullKeyboardMode>b__98_0() { }
 
 }
@@ -750,7 +750,7 @@ public struct InstrumentKeyController.IKNoteTarget // TypeDefIndex: 9560
 
 }
 
-public abstract class InstrumentTip : BaseTip // TypeDefIndex: 11609
+public abstract class InstrumentTip : BaseTip // TypeDefIndex: 11613
 {	public InstrumentKeyController Instrument { get; }
 
 

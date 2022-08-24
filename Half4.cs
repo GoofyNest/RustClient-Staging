@@ -1,4 +1,4 @@
-public struct Half4 // TypeDefIndex: 11421
+public struct Half4 // TypeDefIndex: 11425
 {	public ushort x; // 0x0
 	public ushort y; // 0x2
 	public ushort z; // 0x4

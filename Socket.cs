@@ -97,10 +97,10 @@ public class Socket : IDisposable // TypeDefIndex: 3047
 	private static IOAsyncCallback BeginSendGenericCallback; // 0x78
 	private static AsyncCallback SendToAsyncCallback; // 0x80
 
-	[ObsoleteAttribute] // RVA: 0xB9C50 Offset: 0xB9050 VA: 0x1800B9C50
+	[ObsoleteAttribute] // RVA: 0xB9DA0 Offset: 0xB91A0 VA: 0x1800B9DA0
 	public static bool SupportsIPv4 { get; }
 	public static bool OSSupportsIPv4 { get; }
-	[ObsoleteAttribute] // RVA: 0xB9D20 Offset: 0xB9120 VA: 0x1800B9D20
+	[ObsoleteAttribute] // RVA: 0xB9E50 Offset: 0xB9250 VA: 0x1800B9E50
 	public static bool SupportsIPv6 { get; }
 	public static bool OSSupportsIPv6 { get; }
 	public IntPtr Handle { get; }
@@ -285,7 +285,7 @@ public class Socket : IDisposable // TypeDefIndex: 3047
 
 	public int Receive(byte[] buffer, int offset, int size, SocketFlags socketFlags, out SocketError errorCode) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public int Receive(IList<ArraySegment<byte>> buffers, SocketFlags socketFlags, out SocketError errorCode) { }
 
 	public IAsyncResult BeginReceive(byte[] buffer, int offset, int size, SocketFlags socketFlags, out SocketError errorCode, AsyncCallback callback, object state) { }
@@ -312,7 +312,7 @@ public class Socket : IDisposable // TypeDefIndex: 3047
 
 	public int Send(byte[] buffer, int offset, int size, SocketFlags socketFlags, out SocketError errorCode) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public int Send(IList<ArraySegment<byte>> buffers, SocketFlags socketFlags, out SocketError errorCode) { }
 
 	public IAsyncResult BeginSend(byte[] buffer, int offset, int size, SocketFlags socketFlags, out SocketError errorCode, AsyncCallback callback, object state) { }
@@ -636,13 +636,13 @@ public class SocketAsyncEventArgs : EventArgs // TypeDefIndex: 3063
 {	internal int in_progress; // 0x10
 	internal EndPoint remote_ep; // 0x18
 	internal Socket current_socket; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Socket <AcceptSocket>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <BytesTransferred>k__BackingField; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SocketError <SocketError>k__BackingField; // 0x34
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private EventHandler<SocketAsyncEventArgs> Completed; // 0x38
 
 	public Socket AcceptSocket { get; set; }
@@ -650,16 +650,16 @@ public class SocketAsyncEventArgs : EventArgs // TypeDefIndex: 3063
 	public SocketError SocketError { set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Socket get_AcceptSocket() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_AcceptSocket(Socket value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_BytesTransferred(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_SocketError(SocketError value) { }
 
 	internal void Complete() { }
@@ -759,11 +759,11 @@ public sealed class SocketElement : ConfigurationElement // TypeDefIndex: 3180
 }
 
 public class SocketManager // TypeDefIndex: 5182
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ISocketManager <Interface>k__BackingField; // 0x10
 	public HashSet<Connection> Connecting; // 0x18
 	public HashSet<Connection> Connected; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Socket <Socket>k__BackingField; // 0x28
 	internal HSteamNetPollGroup pollGroup; // 0x2C
 
@@ -771,16 +771,16 @@ public class SocketManager // TypeDefIndex: 5182
 	public Socket Socket { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public ISocketManager get_Interface() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Interface(ISocketManager value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Socket get_Socket() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_Socket(Socket value) { }
 
 	public override string ToString() { }
@@ -824,7 +824,7 @@ public class SocketWrapper : ISocket // TypeDefIndex: 6921
 	private readonly Socket _socket; // 0x10
 	private CancellationTokenSource _tokenSource; // 0x18
 	private TaskFactory _taskFactory; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Stream <Stream>k__BackingField; // 0x28
 
 	public IPAddress RemoteIpAddress { get; }
@@ -851,10 +851,10 @@ public class SocketWrapper : ISocket // TypeDefIndex: 6921
 
 	public bool get_Connected() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Stream get_Stream() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Stream(Stream value) { }
 
 	public void set_NoDelay(bool value) { }
@@ -1155,7 +1155,7 @@ public class Socket_Base : PrefabAttribute // TypeDefIndex: 9104
 	public Quaternion rotation; // 0xAC
 	public Vector3 selectSize; // 0xBC
 	public Vector3 selectCenter; // 0xC8
-	[ReadOnlyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+	[ReadOnlyAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public string socketName; // 0xD8
 	public SocketMod[] socketMods; // 0xE0
 

@@ -1,4 +1,4 @@
-public sealed class TrackballAttribute : Attribute // TypeDefIndex: 11754
+public sealed class TrackballAttribute : Attribute // TypeDefIndex: 11758
 {	public readonly TrackballAttribute.Mode mode; // 0x10
 
 
@@ -6,7 +6,7 @@ public sealed class TrackballAttribute : Attribute // TypeDefIndex: 11754
 
 }
 
-public enum TrackballAttribute.Mode // TypeDefIndex: 11755
+public enum TrackballAttribute.Mode // TypeDefIndex: 11759
 {	public int value__; // 0x0
 	public const TrackballAttribute.Mode None = 0;
 	public const TrackballAttribute.Mode Lift = 1;

@@ -1,8 +1,8 @@
 public class Stack : ICollection, IEnumerable, ICloneable // TypeDefIndex: 1423
 {
-[DebuggerDisplayAttribute] // RVA: 0xEA140 Offset: 0xE9540 VA: 0x1800EA140
-[DebuggerTypeProxyAttribute] // RVA: 0xEA140 Offset: 0xE9540 VA: 0x1800EA140
-[ComVisibleAttribute] // RVA: 0xEA140 Offset: 0xE9540 VA: 0x1800EA140
+[DebuggerDisplayAttribute] // RVA: 0xEA230 Offset: 0xE9630 VA: 0x1800EA230
+[DebuggerTypeProxyAttribute] // RVA: 0xEA230 Offset: 0xE9630 VA: 0x1800EA230
+[ComVisibleAttribute] // RVA: 0xEA230 Offset: 0xE9630 VA: 0x1800EA230
 [Serializable]
 public class Stack : ICollection, IEnumerable, ICloneable // TypeDefIndex: 1423
 	private object[] _array; // 0x10

@@ -1,15 +1,15 @@
 public class RectOffset // TypeDefIndex: 3378
-{	[VisibleToOtherModulesAttribute] // RVA: 0x7FCE0 Offset: 0x7F0E0 VA: 0x18007FCE0
+{	[VisibleToOtherModulesAttribute] // RVA: 0x7FDD0 Offset: 0x7F1D0 VA: 0x18007FDD0
 	internal IntPtr m_Ptr; // 0x10
 	private readonly object m_SourceStyle; // 0x18
 
-	[NativePropertyAttribute] // RVA: 0x801B0 Offset: 0x7F5B0 VA: 0x1800801B0
+	[NativePropertyAttribute] // RVA: 0x802A0 Offset: 0x7F6A0 VA: 0x1800802A0
 	public int left { get; set; }
-	[NativePropertyAttribute] // RVA: 0x805F0 Offset: 0x7F9F0 VA: 0x1800805F0
+	[NativePropertyAttribute] // RVA: 0x806E0 Offset: 0x7FAE0 VA: 0x1800806E0
 	public int right { get; set; }
-	[NativePropertyAttribute] // RVA: 0x80630 Offset: 0x7FA30 VA: 0x180080630
+	[NativePropertyAttribute] // RVA: 0x80720 Offset: 0x7FB20 VA: 0x180080720
 	public int top { get; }
-	[NativePropertyAttribute] // RVA: 0x80670 Offset: 0x7FA70 VA: 0x180080670
+	[NativePropertyAttribute] // RVA: 0x80760 Offset: 0x7FB60 VA: 0x180080760
 	public int bottom { get; }
 	public int horizontal { get; }
 	public int vertical { get; }
@@ -17,7 +17,7 @@ public class RectOffset // TypeDefIndex: 3378
 
 	public void .ctor() { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0x7FEE0 Offset: 0x7F2E0 VA: 0x18007FEE0
+	[VisibleToOtherModulesAttribute] // RVA: 0x7FF30 Offset: 0x7F330 VA: 0x18007FF30
 	internal void .ctor(object sourceStyle, IntPtr source) { }
 
 	protected override void Finalize() { }
@@ -26,10 +26,10 @@ public class RectOffset // TypeDefIndex: 3378
 
 	private void Destroy() { }
 
-	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static IntPtr InternalCreate() { }
 
-	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void InternalDestroy(IntPtr ptr) { }
 
 	public int get_left() { }

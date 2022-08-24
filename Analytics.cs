@@ -1,7 +1,7 @@
-public static class Analytics.Client // TypeDefIndex: 12027
+public static class Analytics.Client // TypeDefIndex: 12031
 {
-public static class Analytics.Client // TypeDefIndex: 12027
-	public static bool Enabled; // 0x2B10370
+public static class Analytics.Client // TypeDefIndex: 12031
+	public static bool Enabled; // 0x1D930
 
 	public static int InventoryOpened { get; set; }
 	public static int CraftingOpened { get; set; }

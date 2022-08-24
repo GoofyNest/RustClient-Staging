@@ -10,7 +10,7 @@ public class AlignedLineDrawer : MonoBehaviour, IClientComponent // TypeDefIndex
 	public bool DrawBackMesh; // 0x3A
 	public SprayCanSpray_Freehand Spray; // 0x40
 	private static MaterialPropertyBlock propertyBlock; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Mesh <CreatedMesh>k__BackingField; // 0x48
 	private bool isQueued; // 0x50
 	private bool queuedFinal; // 0x51
@@ -21,10 +21,10 @@ public class AlignedLineDrawer : MonoBehaviour, IClientComponent // TypeDefIndex
 	private List<AlignedLineDrawer.LinePoint> Points { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Mesh get_CreatedMesh() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_CreatedMesh(Mesh value) { }
 
 	private List<AlignedLineDrawer.LinePoint> get_Points() { }
@@ -53,7 +53,7 @@ public class AlignedLineDrawer : MonoBehaviour, IClientComponent // TypeDefIndex
 
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void <UpdateMesh>g__GenerateLineSegment|24_0(int startPoint, int endPoint, ref AlignedLineDrawer.<>c__DisplayClass24_0 ) { }
 
 }

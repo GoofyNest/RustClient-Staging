@@ -29,7 +29,7 @@ public struct Span<T> // TypeDefIndex: 120
 	|-Span<object>.get_Item
 	*/
 
-	[ObsoleteAttribute] // RVA: 0xE9630 Offset: 0xE8A30 VA: 0x1800E9630
+	[ObsoleteAttribute] // RVA: 0xE9720 Offset: 0xE8B20 VA: 0x1800E9720
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -38,7 +38,7 @@ public struct Span<T> // TypeDefIndex: 120
 	|-Span<object>.Equals
 	*/
 
-	[ObsoleteAttribute] // RVA: 0xE96C0 Offset: 0xE8AC0 VA: 0x1800E96C0
+	[ObsoleteAttribute] // RVA: 0xE9790 Offset: 0xE8B90 VA: 0x1800E9790
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -59,7 +59,7 @@ public struct Span<T> // TypeDefIndex: 120
 
 internal static class SpanHelpers // TypeDefIndex: 122
 {
-[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 internal static class SpanHelpers // TypeDefIndex: 122
 
 	public static bool IsReferenceOrContainsReferences<T>() { }
@@ -166,37 +166,37 @@ private class SpanningTree.Edge<T> : IMinHeapNode<SpanningTree.Edge<T>> // TypeD
 {	public SpanningTree.Node<T> source; // 0x0
 	public SpanningTree.Node<T> target; // 0x0
 	public T value; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <order>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SpanningTree.Edge<T> <child>k__BackingField; // 0x0
 
 	public int order { get; set; }
 	public SpanningTree.Edge<T> child { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_order() { }
 	/* GenericInstMethod :
 	|
 	|-SpanningTree.Edge<object>.get_order
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_order(int value) { }
 	/* GenericInstMethod :
 	|
 	|-SpanningTree.Edge<object>.set_order
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public SpanningTree.Edge<T> get_child() { }
 	/* GenericInstMethod :
 	|
 	|-SpanningTree.Edge<object>.get_child
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_child(SpanningTree.Edge<T> value) { }
 	/* GenericInstMethod :
 	|
@@ -230,8 +230,8 @@ public struct Span<T> // TypeDefIndex: 6729
 	|-Span<object>.get_Length
 	*/
 
-	[ObsoleteAttribute] // RVA: 0xC9A50 Offset: 0xC8E50 VA: 0x1800C9A50
-	[EditorBrowsableAttribute] // RVA: 0xC9A50 Offset: 0xC8E50 VA: 0x1800C9A50
+	[ObsoleteAttribute] // RVA: 0xC9B90 Offset: 0xC8F90 VA: 0x1800C9B90
+	[EditorBrowsableAttribute] // RVA: 0xC9B90 Offset: 0xC8F90 VA: 0x1800C9B90
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -242,8 +242,8 @@ public struct Span<T> // TypeDefIndex: 6729
 	|-Span<object>.Equals
 	*/
 
-	[ObsoleteAttribute] // RVA: 0xC9B90 Offset: 0xC8F90 VA: 0x1800C9B90
-	[EditorBrowsableAttribute] // RVA: 0xC9B90 Offset: 0xC8F90 VA: 0x1800C9B90
+	[ObsoleteAttribute] // RVA: 0xC9CD0 Offset: 0xC90D0 VA: 0x1800C9CD0
+	[EditorBrowsableAttribute] // RVA: 0xC9CD0 Offset: 0xC90D0 VA: 0x1800C9CD0
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -294,7 +294,7 @@ public struct Span<T> // TypeDefIndex: 6729
 	|-Span<object>..ctor
 	*/
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(void* pointer, int length) { }
 	/* GenericInstMethod :
 	|
@@ -355,7 +355,7 @@ public struct Span<T> // TypeDefIndex: 6729
 	|-Span<object>.Slice
 	*/
 
-	[EditorBrowsableAttribute] // RVA: 0x7D7C0 Offset: 0x7CBC0 VA: 0x18007D7C0
+	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
 	internal ref T DangerousGetPinnableReference() { }
 	/* GenericInstMethod :
 	|
@@ -384,7 +384,7 @@ public struct Span<T> // TypeDefIndex: 6729
 
 internal static class SpanHelpers // TypeDefIndex: 6731
 {
-[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 internal static class SpanHelpers // TypeDefIndex: 6731
 
 	public static void CopyTo<T>(ref T dst, int dstLength, ref T src, int srcLength) { }
@@ -397,7 +397,7 @@ internal static class SpanHelpers // TypeDefIndex: 6731
 	|-SpanHelpers.CopyTo<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static IntPtr Add<T>(IntPtr start, int index) { }
 	/* GenericInstMethod :
 	|
@@ -446,16 +446,16 @@ public static class SpanHelpers.PerTypeValues<T> // TypeDefIndex: 6732
 
 internal struct SpanWriter // TypeDefIndex: 6924
 {	private readonly Span<byte> _data; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <Length>k__BackingField; // 0x18
 
 	public int Length { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_Length() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Length(int value) { }
 
 	public void .ctor(Span<byte> data) { }

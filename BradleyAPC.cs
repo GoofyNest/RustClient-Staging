@@ -68,7 +68,7 @@ public class BradleyAPC : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 634
 }
 
 public class BradleyAPC : BaseCombatEntity // TypeDefIndex: 8536
-{	[HeaderAttribute] // RVA: 0x8CC90 Offset: 0x8C090 VA: 0x18008CC90
+{	[HeaderAttribute] // RVA: 0x8CDD0 Offset: 0x8C1D0 VA: 0x18008CDD0
 	public BlendedLoopEngineSound engineSound; // 0x240
 	public SoundDefinition treadLoopDef; // 0x248
 	public AnimationCurve treadGainCurve; // 0x250
@@ -97,31 +97,31 @@ public class BradleyAPC : BaseCombatEntity // TypeDefIndex: 8536
 	public float rpmMultiplier; // 0x2DC
 	private TreadAnimator treadAnimator; // 0x2E0
 	private float lastTurretAngle; // 0x2E8
-	[HeaderAttribute] // RVA: 0xA7E50 Offset: 0xA7250 VA: 0x1800A7E50
+	[HeaderAttribute] // RVA: 0xA7F30 Offset: 0xA7330 VA: 0x1800A7F30
 	public List<Vector3> currentPath; // 0x2F0
 	public int currentPathIndex; // 0x2F8
 	public bool pathLooping; // 0x2FC
-	[HeaderAttribute] // RVA: 0x788B0 Offset: 0x77CB0 VA: 0x1800788B0
+	[HeaderAttribute] // RVA: 0x78950 Offset: 0x77D50 VA: 0x180078950
 	public float viewDistance; // 0x300
 	public float searchRange; // 0x304
 	public float searchFrequency; // 0x308
 	public float memoryDuration; // 0x30C
 	public static float sightUpdateRate; // 0x0
 	public List<BradleyAPC.TargetInfo> targetList; // 0x310
-	[HeaderAttribute] // RVA: 0xA7ED0 Offset: 0xA72D0 VA: 0x1800A7ED0
+	[HeaderAttribute] // RVA: 0xA7FF0 Offset: 0xA73F0 VA: 0x1800A7FF0
 	public float coaxFireRate; // 0x318
 	public int coaxBurstLength; // 0x31C
 	public float coaxAimCone; // 0x320
 	public float bulletDamage; // 0x324
-	[HeaderAttribute] // RVA: 0xA7F70 Offset: 0xA7370 VA: 0x1800A7F70
+	[HeaderAttribute] // RVA: 0xA8050 Offset: 0xA7450 VA: 0x1800A8050
 	public float topTurretFireRate; // 0x328
 	public GameObjectRef gun_fire_effect; // 0x330
 	public GameObjectRef bulletEffect; // 0x338
 	private float lastLateUpdate; // 0x340
-	[HeaderAttribute] // RVA: 0x84BA0 Offset: 0x83FA0 VA: 0x180084BA0
+	[HeaderAttribute] // RVA: 0x84CF0 Offset: 0x840F0 VA: 0x180084CF0
 	public WheelCollider[] leftWheels; // 0x348
 	public WheelCollider[] rightWheels; // 0x350
-	[HeaderAttribute] // RVA: 0xA8080 Offset: 0xA7480 VA: 0x1800A8080
+	[HeaderAttribute] // RVA: 0xA8160 Offset: 0xA7560 VA: 0x1800A8160
 	public float moveForceMax; // 0x358
 	public float brakeForce; // 0x35C
 	public float turnForce; // 0x360
@@ -129,20 +129,20 @@ public class BradleyAPC : BaseCombatEntity // TypeDefIndex: 8536
 	public float sideStiffnessMin; // 0x368
 	public Transform centerOfMass; // 0x370
 	public float stoppingDist; // 0x378
-	[HeaderAttribute] // RVA: 0xA94B0 Offset: 0xA88B0 VA: 0x1800A94B0
+	[HeaderAttribute] // RVA: 0xA9590 Offset: 0xA8990 VA: 0x1800A9590
 	public float throttle; // 0x37C
 	public float turning; // 0x380
 	public float rightThrottle; // 0x384
 	public float leftThrottle; // 0x388
 	public bool brake; // 0x38C
-	[HeaderAttribute] // RVA: 0xA9550 Offset: 0xA8950 VA: 0x1800A9550
+	[HeaderAttribute] // RVA: 0xA9630 Offset: 0xA8A30 VA: 0x1800A9630
 	public Rigidbody myRigidBody; // 0x390
 	public Collider myCollider; // 0x398
 	public Vector3 destination; // 0x3A0
 	private Vector3 finalDestination; // 0x3AC
 	public Transform followTest; // 0x3B8
 	public TriggerHurtEx impactDamager; // 0x3C0
-	[HeaderAttribute] // RVA: 0x8AD80 Offset: 0x8A180 VA: 0x18008AD80
+	[HeaderAttribute] // RVA: 0x8AF70 Offset: 0x8A370 VA: 0x18008AF70
 	public Transform mainTurretEyePos; // 0x3C8
 	public Transform mainTurret; // 0x3D0
 	public Transform CannonPitch; // 0x3D8
@@ -157,13 +157,13 @@ public class BradleyAPC : BaseCombatEntity // TypeDefIndex: 8536
 	private Vector3 desiredAimVector; // 0x424
 	private Vector3 topTurretAimVector; // 0x430
 	private Vector3 desiredTopTurretAimVector; // 0x43C
-	[HeaderAttribute] // RVA: 0x787C0 Offset: 0x77BC0 VA: 0x1800787C0
+	[HeaderAttribute] // RVA: 0x78850 Offset: 0x77C50 VA: 0x180078850
 	public GameObjectRef explosionEffect; // 0x448
 	public GameObjectRef servergibs; // 0x450
 	public GameObjectRef fireBall; // 0x458
 	public GameObjectRef crateToDrop; // 0x460
 	public GameObjectRef debrisFieldMarker; // 0x468
-	[HeaderAttribute] // RVA: 0x83090 Offset: 0x82490 VA: 0x180083090
+	[HeaderAttribute] // RVA: 0x831A0 Offset: 0x825A0 VA: 0x1800831A0
 	public int maxCratesToSpawn; // 0x470
 	public int patrolPathIndex; // 0x474
 	public BasePath patrolPath; // 0x478
@@ -183,7 +183,7 @@ public class BradleyAPC : BaseCombatEntity // TypeDefIndex: 8536
 
 	public void UpdateSounds() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_FireGun(BaseEntity.RPCMessage rpc) { }
 
 	public void AimWeaponAt(Transform weaponYaw, Transform weaponPitch, Vector3 direction, float minPitch = -360, float maxPitch = 360, float maxYaw = 360, Transform parentOverride) { }

@@ -1,5 +1,5 @@
 internal static class ValidateNames // TypeDefIndex: 2000
-{	private static XmlCharType xmlCharType; // 0x13F7B
+{	private static XmlCharType xmlCharType; // 0x2B117C0
 
 
 	internal static int ParseNmtoken(string s, int offset) { }

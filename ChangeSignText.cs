@@ -1,11 +1,11 @@
-public class ChangeSignText : UIDialog // TypeDefIndex: 10888
+public class ChangeSignText : UIDialog // TypeDefIndex: 10892
 {	public Action<int, Texture2D> onUpdateTexture; // 0x30
 	public GameObject objectContainer; // 0x38
 	public GameObject currentFrameSection; // 0x40
 	public GameObject[] frameOptions; // 0x48
 	public Camera cameraPreview; // 0x50
 	public Camera camera3D; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private MeshPaintableSource[] <currentSources>k__BackingField; // 0x60
 	private List<GameObject> copiedObjects; // 0x68
 	private int currentFrame; // 0x70
@@ -16,10 +16,10 @@ public class ChangeSignText : UIDialog // TypeDefIndex: 10888
 	public MeshPaintableSource[] currentSources { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public MeshPaintableSource[] get_currentSources() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_currentSources(MeshPaintableSource[] value) { }
 
 	public void Setup(MeshPaintableSource[] sources) { }
@@ -56,7 +56,7 @@ public class ChangeSignText : UIDialog // TypeDefIndex: 10888
 
 }
 
-private class ChangeSignText.UndoBuffer : IDisposable // TypeDefIndex: 10889
+private class ChangeSignText.UndoBuffer : IDisposable // TypeDefIndex: 10893
 {	private List<Texture2D> buffer; // 0x10
 	private Texture2D startFrame; // 0x18
 	private int undoIndex; // 0x20

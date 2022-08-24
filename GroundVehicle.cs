@@ -1,22 +1,22 @@
 public abstract class GroundVehicle : BaseVehicle, IEngineControllerUser, IEntity // TypeDefIndex: 9711
-{	[HeaderAttribute] // RVA: 0x85E70 Offset: 0x85270 VA: 0x180085E70
-	[SerializeField] // RVA: 0x85E70 Offset: 0x85270 VA: 0x180085E70
+{	[HeaderAttribute] // RVA: 0x85F90 Offset: 0x85390 VA: 0x180085F90
+	[SerializeField] // RVA: 0x85F90 Offset: 0x85390 VA: 0x180085F90
 	protected GroundVehicleAudio gvAudio; // 0x3B8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObjectRef fuelStoragePrefab; // 0x3C0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform waterloggedPoint; // 0x3C8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObjectRef collisionEffect; // 0x3D0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float engineStartupTime; // 0x3D8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float minCollisionDamageForce; // 0x3DC
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float maxCollisionDamageForce; // 0x3E0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float collisionDamageMultiplier; // 0x3E4
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 <Velocity>k__BackingField; // 0x3E8
 	protected VehicleEngineController<GroundVehicle> engineController; // 0x3F8
 	private bool runningClientTick; // 0x400
@@ -27,10 +27,10 @@ public abstract class GroundVehicle : BaseVehicle, IEngineControllerUser, IEntit
 	public VehicleEngineController.EngineState<GroundVehicle> CurEngineState { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Vector3 get_Velocity() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Velocity(Vector3 value) { }
 
 	public abstract float get_DriveWheelVelocity();

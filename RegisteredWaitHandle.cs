@@ -16,7 +16,7 @@ public sealed class RegisteredWaitHandle : MarshalByRefObject // TypeDefIndex: 8
 
 	private void DoCallBack(object timedOut) { }
 
-	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
+	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
 	public bool Unregister(WaitHandle waitObject) { }
 
 }

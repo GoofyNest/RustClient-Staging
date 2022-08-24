@@ -65,9 +65,9 @@ public class MixingTable : StorageContainer // TypeDefIndex: 8411
 	public GameObject Particles; // 0x480
 	public RecipeList Recipes; // 0x488
 	public bool OnlyAcceptValidIngredients; // 0x490
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <RemainingMixTime>k__BackingField; // 0x494
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <TotalMixTime>k__BackingField; // 0x498
 	private float lastTickTimestamp; // 0x49C
 	private List<Item> inventoryItems; // 0x4A0
@@ -85,34 +85,34 @@ public class MixingTable : StorageContainer // TypeDefIndex: 8411
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_RemainingMixTime() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_RemainingMixTime(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_TotalMixTime() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_TotalMixTime(float value) { }
 
 	public float get_ClientEstimatedRemainingMixTime() { }
 
 	public float get_ProgressFraction() { }
 
-	[BaseEntity.Menu] // RVA: 0xEE040 Offset: 0xED440 VA: 0x1800EE040
-	[BaseEntity.Menu.Description] // RVA: 0xEE040 Offset: 0xED440 VA: 0x1800EE040
-	[BaseEntity.Menu.Icon] // RVA: 0xEE040 Offset: 0xED440 VA: 0x1800EE040
-	[BaseEntity.Menu.ShowIf] // RVA: 0xEE040 Offset: 0xED440 VA: 0x1800EE040
+	[BaseEntity.Menu] // RVA: 0xEE0F0 Offset: 0xED4F0 VA: 0x1800EE0F0
+	[BaseEntity.Menu.Description] // RVA: 0xEE0F0 Offset: 0xED4F0 VA: 0x1800EE0F0
+	[BaseEntity.Menu.Icon] // RVA: 0xEE0F0 Offset: 0xED4F0 VA: 0x1800EE0F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xEE0F0 Offset: 0xED4F0 VA: 0x1800EE0F0
 	public void Menu_TurnOn(BasePlayer player) { }
 
 	public bool Menu_TurnOn_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xEE530 Offset: 0xED930 VA: 0x1800EE530
-	[BaseEntity.Menu.Description] // RVA: 0xEE530 Offset: 0xED930 VA: 0x1800EE530
-	[BaseEntity.Menu.Icon] // RVA: 0xEE530 Offset: 0xED930 VA: 0x1800EE530
-	[BaseEntity.Menu.ShowIf] // RVA: 0xEE530 Offset: 0xED930 VA: 0x1800EE530
+	[BaseEntity.Menu] // RVA: 0xEE520 Offset: 0xED920 VA: 0x1800EE520
+	[BaseEntity.Menu.Description] // RVA: 0xEE520 Offset: 0xED920 VA: 0x1800EE520
+	[BaseEntity.Menu.Icon] // RVA: 0xEE520 Offset: 0xED920 VA: 0x1800EE520
+	[BaseEntity.Menu.ShowIf] // RVA: 0xEE520 Offset: 0xED920 VA: 0x1800EE520
 	public void Menu_TurnOff(BasePlayer player) { }
 
 	public bool Menu_TurnOff_ShowIf(BasePlayer player) { }

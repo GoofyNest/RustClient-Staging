@@ -18,7 +18,7 @@ public static class TerrainSplat // TypeDefIndex: 7783
 	public const int FOREST_IDX = 5;
 	public const int STONES_IDX = 6;
 	public const int GRAVEL_IDX = 7;
-	private static Dictionary<int, int> type2index; // 0x2B10510
+	private static Dictionary<int, int> type2index; // 0x19F0
 
 
 	public static int TypeToIndex(int id) { }

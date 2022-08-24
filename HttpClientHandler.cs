@@ -33,7 +33,7 @@ public class HttpClientHandler : HttpMessageHandler // TypeDefIndex: 5740
 
 	private static bool MethodHasBody(HttpMethod method) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD17D0 Offset: 0xD0BD0 VA: 0x1800D17D0
+	[AsyncStateMachineAttribute] // RVA: 0xD1900 Offset: 0xD0D00 VA: 0x1800D1900
 	protected internal override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) { }
 
 }
@@ -73,7 +73,7 @@ private struct HttpClientHandler.<SendAsync>d__64 : IAsyncStateMachine // TypeDe
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

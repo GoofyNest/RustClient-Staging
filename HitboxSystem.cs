@@ -23,7 +23,7 @@ public class HitboxSystem.HitboxShape // TypeDefIndex: 9269
 	public PhysicMaterial colliderMaterial; // 0x60
 	private Matrix4x4 transform; // 0x68
 	private Matrix4x4 inverseTransform; // 0xA8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 <Size>k__BackingField; // 0xE8
 
 	public Matrix4x4 Transform { get; }
@@ -38,10 +38,10 @@ public class HitboxSystem.HitboxShape // TypeDefIndex: 9269
 
 	public Quaternion get_Rotation() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Vector3 get_Size() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Size(Vector3 value) { }
 
 	public void UpdateTransform() { }

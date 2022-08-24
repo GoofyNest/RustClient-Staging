@@ -1,11 +1,11 @@
 public class Toggle : Selectable, IPointerClickHandler, IEventSystemHandler, ISubmitHandler, ICanvasElement // TypeDefIndex: 5015
 {	public Toggle.ToggleTransition toggleTransition; // 0xE8
 	public Graphic graphic; // 0xF0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ToggleGroup m_Group; // 0xF8
 	public Toggle.ToggleEvent onValueChanged; // 0x100
-	[TooltipAttribute] // RVA: 0x7DE00 Offset: 0x7D200 VA: 0x18007DE00
-	[SerializeField] // RVA: 0x7DE00 Offset: 0x7D200 VA: 0x18007DE00
+	[TooltipAttribute] // RVA: 0x7DEB0 Offset: 0x7D2B0 VA: 0x18007DEB0
+	[SerializeField] // RVA: 0x7DEB0 Offset: 0x7D2B0 VA: 0x18007DEB0
 	private bool m_IsOn; // 0x108
 
 	public ToggleGroup group { get; set; }

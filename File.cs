@@ -234,13 +234,13 @@ public abstract class FileSystemInfo : MarshalByRefObject, ISerializable // Type
 	public abstract string Name { get; }
 	public abstract bool Exists { get; }
 	public DateTime CreationTime { get; set; }
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public DateTime CreationTimeUtc { get; set; }
 	public DateTime LastAccessTime { get; set; }
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public DateTime LastAccessTimeUtc { get; set; }
 	public DateTime LastWriteTime { get; set; }
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public DateTime LastWriteTimeUtc { get; set; }
 	public FileAttributes Attributes { get; }
 	internal string DisplayPath { get; set; }
@@ -288,7 +288,7 @@ public abstract class FileSystemInfo : MarshalByRefObject, ISerializable // Type
 
 	public FileAttributes get_Attributes() { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
 	internal string get_DisplayPath() { }
@@ -298,7 +298,7 @@ public abstract class FileSystemInfo : MarshalByRefObject, ISerializable // Type
 }
 
 public static class File // TypeDefIndex: 663
-{	private static Nullable<DateTime> defaultLocalFileTime; // 0x13BE2
+{	private static Nullable<DateTime> defaultLocalFileTime; // 0x2B11820
 
 	private static DateTime DefaultLocalFileTime { get; }
 
@@ -359,7 +359,7 @@ public static class File // TypeDefIndex: 663
 
 	public static IEnumerable<string> ReadLines(string path) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA7340 Offset: 0xA6740 VA: 0x1800A7340
+	[IteratorStateMachineAttribute] // RVA: 0xA7430 Offset: 0xA6830 VA: 0x1800A7430
 	private static IEnumerable<string> ReadLines(StreamReader reader) { }
 
 	internal static int FillAttributeInfo(string path, ref MonoIOStat data, bool tryagain, bool returnErrorOnNotFound) { }
@@ -379,29 +379,29 @@ private sealed class File.<ReadLines>d__58 : IEnumerable<string>, IEnumerable, I
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
 	private void <>m__Finally1() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string System.Collections.Generic.IEnumerator<System.String>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IEnumerator<string> System.Collections.Generic.IEnumerable<System.String>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
@@ -716,42 +716,42 @@ public class FileSystemWatcher : Component // TypeDefIndex: 2847
 	private string mangledFilter; // 0x98
 	private static IFileWatcher watcher; // 0x0
 	private static object lockobj; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private FileSystemEventHandler Changed; // 0xA0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private FileSystemEventHandler Created; // 0xA8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private FileSystemEventHandler Deleted; // 0xB0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ErrorEventHandler Error; // 0xB8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private RenamedEventHandler Renamed; // 0xC0
 
 	internal bool Waiting { get; set; }
 	internal string MangledFilter { get; }
 	internal SearchPattern2 Pattern { get; }
 	internal string FullPath { get; }
-	[IODescriptionAttribute] // RVA: 0xB1FC0 Offset: 0xB13C0 VA: 0x1800B1FC0
-	[DefaultValueAttribute] // RVA: 0xB1FC0 Offset: 0xB13C0 VA: 0x1800B1FC0
+	[IODescriptionAttribute] // RVA: 0xB20A0 Offset: 0xB14A0 VA: 0x1800B20A0
+	[DefaultValueAttribute] // RVA: 0xB20A0 Offset: 0xB14A0 VA: 0x1800B20A0
 	public bool EnableRaisingEvents { set; }
-	[SettingsBindableAttribute] // RVA: 0xB2180 Offset: 0xB1580 VA: 0x1800B2180
-	[TypeConverterAttribute] // RVA: 0xB2180 Offset: 0xB1580 VA: 0x1800B2180
-	[DefaultValueAttribute] // RVA: 0xB2180 Offset: 0xB1580 VA: 0x1800B2180
-	[IODescriptionAttribute] // RVA: 0xB2180 Offset: 0xB1580 VA: 0x1800B2180
+	[SettingsBindableAttribute] // RVA: 0xB2250 Offset: 0xB1650 VA: 0x1800B2250
+	[TypeConverterAttribute] // RVA: 0xB2250 Offset: 0xB1650 VA: 0x1800B2250
+	[DefaultValueAttribute] // RVA: 0xB2250 Offset: 0xB1650 VA: 0x1800B2250
+	[IODescriptionAttribute] // RVA: 0xB2250 Offset: 0xB1650 VA: 0x1800B2250
 	public string Filter { set; }
-	[DefaultValueAttribute] // RVA: 0xB24C0 Offset: 0xB18C0 VA: 0x1800B24C0
-	[IODescriptionAttribute] // RVA: 0xB24C0 Offset: 0xB18C0 VA: 0x1800B24C0
+	[DefaultValueAttribute] // RVA: 0xB2500 Offset: 0xB1900 VA: 0x1800B2500
+	[IODescriptionAttribute] // RVA: 0xB2500 Offset: 0xB1900 VA: 0x1800B2500
 	public bool IncludeSubdirectories { get; }
-	[IODescriptionAttribute] // RVA: 0xB25D0 Offset: 0xB19D0 VA: 0x1800B25D0
-	[DefaultValueAttribute] // RVA: 0xB25D0 Offset: 0xB19D0 VA: 0x1800B25D0
+	[IODescriptionAttribute] // RVA: 0xB25E0 Offset: 0xB19E0 VA: 0x1800B25E0
+	[DefaultValueAttribute] // RVA: 0xB25E0 Offset: 0xB19E0 VA: 0x1800B25E0
 	public NotifyFilters NotifyFilter { set; }
-	[DefaultValueAttribute] // RVA: 0xB2960 Offset: 0xB1D60 VA: 0x1800B2960
-	[IODescriptionAttribute] // RVA: 0xB2960 Offset: 0xB1D60 VA: 0x1800B2960
-	[EditorAttribute] // RVA: 0xB2960 Offset: 0xB1D60 VA: 0x1800B2960
-	[SettingsBindableAttribute] // RVA: 0xB2960 Offset: 0xB1D60 VA: 0x1800B2960
-	[TypeConverterAttribute] // RVA: 0xB2960 Offset: 0xB1D60 VA: 0x1800B2960
+	[DefaultValueAttribute] // RVA: 0xB29E0 Offset: 0xB1DE0 VA: 0x1800B29E0
+	[IODescriptionAttribute] // RVA: 0xB29E0 Offset: 0xB1DE0 VA: 0x1800B29E0
+	[EditorAttribute] // RVA: 0xB29E0 Offset: 0xB1DE0 VA: 0x1800B29E0
+	[SettingsBindableAttribute] // RVA: 0xB29E0 Offset: 0xB1DE0 VA: 0x1800B29E0
+	[TypeConverterAttribute] // RVA: 0xB29E0 Offset: 0xB1DE0 VA: 0x1800B29E0
 	public string Path { set; }
-	[BrowsableAttribute] // RVA: 0x9A900 Offset: 0x99D00 VA: 0x18009A900
+	[BrowsableAttribute] // RVA: 0x9AA30 Offset: 0x99E30 VA: 0x18009AA30
 	public override ISite Site { get; }
 
 
@@ -801,10 +801,10 @@ public class FileSystemWatcher : Component // TypeDefIndex: 2847
 
 	private void Stop() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void add_Changed(FileSystemEventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void remove_Changed(FileSystemEventHandler value) { }
 
 	private static int InternalSupportsFSW() { }
@@ -861,7 +861,7 @@ public class FileWebRequest : WebRequest, ISerializable // TypeDefIndex: 2948
 
 	internal void .ctor(Uri uri) { }
 
-	[ObsoleteAttribute] // RVA: 0xB4400 Offset: 0xB3800 VA: 0x1800B4400
+	[ObsoleteAttribute] // RVA: 0xB4430 Offset: 0xB3830 VA: 0x1800B4430
 	protected void .ctor(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
@@ -981,7 +981,7 @@ public class FileWebResponse : WebResponse, ISerializable, ICloseEx // TypeDefIn
 
 	internal void .ctor(FileWebRequest request, Uri uri, FileAccess access, bool asyncHint) { }
 
-	[ObsoleteAttribute] // RVA: 0xB4400 Offset: 0xB3800 VA: 0x1800B4400
+	[ObsoleteAttribute] // RVA: 0xB4430 Offset: 0xB3830 VA: 0x1800B4430
 	protected void .ctor(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
 	private void System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
@@ -1190,13 +1190,13 @@ public abstract class FileSystemBackend // TypeDefIndex: 6660
 }
 
 public class FileDialog : MonoBehaviour // TypeDefIndex: 7066
-{	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string result; // 0x18
-	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private FileDialog.FileDialogMode mode; // 0x20
-	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool finished; // 0x24
-	[HeaderAttribute] // RVA: 0x77BD0 Offset: 0x76FD0 VA: 0x180077BD0
+	[HeaderAttribute] // RVA: 0x77C50 Offset: 0x77050 VA: 0x180077C50
 	public Image windowIcon; // 0x28
 	public Text windowName; // 0x30
 	public InputField currentPath; // 0x38
@@ -1206,10 +1206,10 @@ public class FileDialog : MonoBehaviour // TypeDefIndex: 7066
 	public Button cancel; // 0x58
 	public GameObject filesScrollRectContent; // 0x60
 	public GameObject drivesScrollRectContent; // 0x68
-	[HeaderAttribute] // RVA: 0x77D40 Offset: 0x77140 VA: 0x180077D40
+	[HeaderAttribute] // RVA: 0x77D80 Offset: 0x77180 VA: 0x180077D80
 	public GameObject filesScrollRectElement; // 0x70
 	public GameObject drivesScrollRectElement; // 0x78
-	[HeaderAttribute] // RVA: 0x77E30 Offset: 0x77230 VA: 0x180077E30
+	[HeaderAttribute] // RVA: 0x77E90 Offset: 0x77290 VA: 0x180077E90
 	public Sprite folderIcon; // 0x80
 	public Sprite fileIcon; // 0x88
 	private string workingPath; // 0x90
@@ -1219,13 +1219,13 @@ public class FileDialog : MonoBehaviour // TypeDefIndex: 7066
 	private bool saveLastPath; // 0xB0
 
 
-	[IteratorStateMachineAttribute] // RVA: 0x77F90 Offset: 0x77390 VA: 0x180077F90
+	[IteratorStateMachineAttribute] // RVA: 0x77FF0 Offset: 0x773F0 VA: 0x180077FF0
 	public IEnumerator Open(string path, string allowedExtensions, string windowName = "OPEN FILE", Sprite windowIcon, long maxSize = -1, bool saveLastPath = True) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x78190 Offset: 0x77590 VA: 0x180078190
+	[IteratorStateMachineAttribute] // RVA: 0x781A0 Offset: 0x775A0 VA: 0x1800781A0
 	public IEnumerator Save(string path, string allowedExtensions, string windowName = "SAVE FILE", Sprite windowIcon, bool saveLastPath = True) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x78300 Offset: 0x77700 VA: 0x180078300
+	[AsyncStateMachineAttribute] // RVA: 0x78360 Offset: 0x77760 VA: 0x180078360
 	public Task<string> SaveAsync(string path, string allowedExtensions, string windowName = "SAVE FILE", Sprite windowIcon, bool saveLastPath = True) { }
 
 	private void Hide() { }
@@ -1260,7 +1260,7 @@ public class FileDialog : MonoBehaviour // TypeDefIndex: 7066
 
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <UpdateFilesList>b__39_0(FileInfo f) { }
 
 }
@@ -1287,21 +1287,21 @@ private sealed class FileDialog.<Open>d__22 : IEnumerator<object>, IEnumerator, 
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -1320,21 +1320,21 @@ private sealed class FileDialog.<Save>d__23 : IEnumerator<object>, IEnumerator, 
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -1353,7 +1353,7 @@ private struct FileDialog.<SaveAsync>d__24 : IAsyncStateMachine // TypeDefIndex:
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -1393,10 +1393,10 @@ public class FileSystem_Warmup : MonoBehaviour // TypeDefIndex: 9371
 
 	public static IEnumerator Run(string[] assetList, Action<string> statusFunction, string format, int priority = 0) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xE7C90 Offset: 0xE7090 VA: 0x1800E7C90
+	[IteratorStateMachineAttribute] // RVA: 0xE7DB0 Offset: 0xE71B0 VA: 0x1800E7DB0
 	private static IEnumerator RunAsyncImpl(string[] assetList, Action<string> statusFunction, string format, int priority) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xE7D60 Offset: 0xE7160 VA: 0x1800E7D60
+	[IteratorStateMachineAttribute] // RVA: 0xE7E80 Offset: 0xE7280 VA: 0x1800E7E80
 	private static IEnumerator RunImpl(string[] assetList, Action<string> statusFunction, string format) { }
 
 	private static float CalculateFrameBudget() { }
@@ -1428,21 +1428,21 @@ private sealed class FileSystem_Warmup.<RunAsyncImpl>d__5 : IEnumerator<object>,
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -1460,21 +1460,21 @@ private sealed class FileSystem_Warmup.<RunImpl>d__6 : IEnumerator<object>, IEnu
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -1508,7 +1508,7 @@ private sealed class FileSystem_Warmup.<>c // TypeDefIndex: 9375
 
 }
 
-public class FileStorage : IDisposable // TypeDefIndex: 10719
+public class FileStorage : IDisposable // TypeDefIndex: 10723
 {	private Database db; // 0x10
 	private CRC32 crc; // 0x18
 	private MruDictionary<uint, FileStorage.CacheData> _cache; // 0x20
@@ -1547,7 +1547,7 @@ public class FileStorage : IDisposable // TypeDefIndex: 10719
 
 }
 
-private class FileStorage.CacheData // TypeDefIndex: 10720
+private class FileStorage.CacheData // TypeDefIndex: 10724
 {	public byte[] data; // 0x10
 	public uint entityID; // 0x18
 	public uint numID; // 0x1C
@@ -1557,7 +1557,7 @@ private class FileStorage.CacheData // TypeDefIndex: 10720
 
 }
 
-public enum FileStorage.Type // TypeDefIndex: 10721
+public enum FileStorage.Type // TypeDefIndex: 10725
 {	public int value__; // 0x0
 	public const FileStorage.Type png = 0;
 	public const FileStorage.Type jpg = 1;
@@ -1565,7 +1565,7 @@ public enum FileStorage.Type // TypeDefIndex: 10721
 
 }
 
-private sealed class FileStorage.<>c__DisplayClass14_0 // TypeDefIndex: 10722
+private sealed class FileStorage.<>c__DisplayClass14_0 // TypeDefIndex: 10726
 {	public uint entityid; // 0x10
 	public uint numid; // 0x14
 	public Func<KeyValuePair<uint, FileStorage.CacheData>, bool> <>9__0; // 0x18
@@ -1577,7 +1577,7 @@ private sealed class FileStorage.<>c__DisplayClass14_0 // TypeDefIndex: 10722
 
 }
 
-private sealed class FileStorage.<>c // TypeDefIndex: 10723
+private sealed class FileStorage.<>c // TypeDefIndex: 10727
 {	public static readonly FileStorage.<>c <>9; // 0x0
 	public static Func<KeyValuePair<uint, FileStorage.CacheData>, uint> <>9__14_1; // 0x8
 
@@ -1590,21 +1590,21 @@ private sealed class FileStorage.<>c // TypeDefIndex: 10723
 
 }
 
-public static class FileEx // TypeDefIndex: 11346
+public static class FileEx // TypeDefIndex: 11350
 {
 	public static void Backup(DirectoryInfo parent, string[] names) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool MoveToSafe(FileInfo parent, string target, int retries = 10) { }
 
 	public static void Backup(string[] names) { }
 
 }
 
-public class FileConVar : ConsoleSystem // TypeDefIndex: 11922
-{	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+public class FileConVar : ConsoleSystem // TypeDefIndex: 11926
+{	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool debug { get; set; }
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool time { get; set; }
 
 

@@ -16,28 +16,28 @@ internal class PlayerConnectionInternal : IPlayerEditorConnectionNative // TypeD
 
 	private void UnityEngine.IPlayerEditorConnectionNative.DisconnectAll() { }
 
-	[FreeFunctionAttribute] // RVA: 0xB0AA0 Offset: 0xAFEA0 VA: 0x1800B0AA0
+	[FreeFunctionAttribute] // RVA: 0xB0B80 Offset: 0xAFF80 VA: 0x1800B0B80
 	private static bool IsConnected() { }
 
-	[FreeFunctionAttribute] // RVA: 0xB0B30 Offset: 0xAFF30 VA: 0x1800B0B30
+	[FreeFunctionAttribute] // RVA: 0xB0BB0 Offset: 0xAFFB0 VA: 0x1800B0BB0
 	private static void Initialize() { }
 
-	[FreeFunctionAttribute] // RVA: 0xB0BD0 Offset: 0xAFFD0 VA: 0x1800B0BD0
+	[FreeFunctionAttribute] // RVA: 0xB0C40 Offset: 0xB0040 VA: 0x1800B0C40
 	private static void RegisterInternal(string messageId) { }
 
-	[FreeFunctionAttribute] // RVA: 0xB0C30 Offset: 0xB0030 VA: 0x1800B0C30
+	[FreeFunctionAttribute] // RVA: 0xB0D00 Offset: 0xB0100 VA: 0x1800B0D00
 	private static void UnregisterInternal(string messageId) { }
 
-	[FreeFunctionAttribute] // RVA: 0xB1F90 Offset: 0xB1390 VA: 0x1800B1F90
+	[FreeFunctionAttribute] // RVA: 0xB2070 Offset: 0xB1470 VA: 0x1800B2070
 	private static void SendMessage(string messageId, byte[] data, int playerId) { }
 
-	[FreeFunctionAttribute] // RVA: 0xB2080 Offset: 0xB1480 VA: 0x1800B2080
+	[FreeFunctionAttribute] // RVA: 0xB2150 Offset: 0xB1550 VA: 0x1800B2150
 	private static bool TrySendMessage(string messageId, byte[] data, int playerId) { }
 
-	[FreeFunctionAttribute] // RVA: 0xB22B0 Offset: 0xB16B0 VA: 0x1800B22B0
+	[FreeFunctionAttribute] // RVA: 0xB2310 Offset: 0xB1710 VA: 0x1800B2310
 	private static void PollInternal() { }
 
-	[FreeFunctionAttribute] // RVA: 0xB2390 Offset: 0xB1790 VA: 0x1800B2390
+	[FreeFunctionAttribute] // RVA: 0xB2400 Offset: 0xB1800 VA: 0x1800B2400
 	private static void DisconnectAll() { }
 
 	public void .ctor() { }
@@ -52,13 +52,13 @@ public class PlayerPrefsException : Exception // TypeDefIndex: 3476
 
 public class PlayerPrefs // TypeDefIndex: 3477
 {
-	[NativeMethodAttribute] // RVA: 0xB2540 Offset: 0xB1940 VA: 0x1800B2540
+	[NativeMethodAttribute] // RVA: 0xB25B0 Offset: 0xB19B0 VA: 0x1800B25B0
 	private static bool TrySetInt(string key, int value) { }
 
-	[NativeMethodAttribute] // RVA: 0xB27D0 Offset: 0xB1BD0 VA: 0x1800B27D0
+	[NativeMethodAttribute] // RVA: 0xB2840 Offset: 0xB1C40 VA: 0x1800B2840
 	private static bool TrySetFloat(string key, float value) { }
 
-	[NativeMethodAttribute] // RVA: 0xB28E0 Offset: 0xB1CE0 VA: 0x1800B28E0
+	[NativeMethodAttribute] // RVA: 0xB2920 Offset: 0xB1D20 VA: 0x1800B2920
 	private static bool TrySetSetString(string key, string value) { }
 
 	public static void SetInt(string key, int value) { }
@@ -117,9 +117,9 @@ public sealed class PlayerLoopSystem.UpdateFunction : MulticastDelegate // TypeD
 
 public class PlayerConnection : ScriptableObject // TypeDefIndex: 3789
 {	internal static IPlayerEditorConnectionNative connectionNative; // 0x0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private PlayerEditorConnectionEvents m_PlayerEditorConnectionEvents; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private List<int> m_connectedPlayers; // 0x20
 	private bool m_IsInitilized; // 0x28
 	private static PlayerConnection s_Instance; // 0x8
@@ -158,13 +158,13 @@ public class PlayerConnection : ScriptableObject // TypeDefIndex: 3789
 
 	public void DisconnectAll() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void MessageCallbackInternal(IntPtr data, ulong size, ulong guid, string messageId) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void ConnectedCallbackInternal(int playerId) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void DisconnectedCallback(int playerId) { }
 
 	public void .ctor() { }
@@ -202,11 +202,11 @@ private sealed class PlayerConnection.<>c__DisplayClass20_0 // TypeDefIndex: 379
 }
 
 internal class PlayerEditorConnectionEvents // TypeDefIndex: 3793
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public List<PlayerEditorConnectionEvents.MessageTypeSubscribers> messageTypeSubscribers; // 0x10
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public PlayerEditorConnectionEvents.ConnectionChangeEvent connectionEvent; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public PlayerEditorConnectionEvents.ConnectionChangeEvent disconnectionEvent; // 0x20
 
 
@@ -233,7 +233,7 @@ public class PlayerEditorConnectionEvents.ConnectionChangeEvent : UnityEvent<int
 }
 
 public class PlayerEditorConnectionEvents.MessageTypeSubscribers // TypeDefIndex: 3796
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string m_messageTypeId; // 0x10
 	public int subscriberCount; // 0x18
 	public PlayerEditorConnectionEvents.MessageEvent messageCallback; // 0x20
@@ -280,19 +280,19 @@ private sealed class PlayerEditorConnectionEvents.<>c__DisplayClass8_0 // TypeDe
 }
 
 public struct PlayerItemRecipe : IEquatable<PlayerItemRecipe> // TypeDefIndex: 5698
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly IReadOnlyList<PlayerItemRecipe.Ingredient> <Ingredients>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly IPlayerItemDefinition <Result>k__BackingField; // 0x8
 
 	public IReadOnlyList<PlayerItemRecipe.Ingredient> Ingredients { get; }
 	public IPlayerItemDefinition Result { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public IReadOnlyList<PlayerItemRecipe.Ingredient> get_Ingredients() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public IPlayerItemDefinition get_Result() { }
 
 	public void .ctor(IReadOnlyList<PlayerItemRecipe.Ingredient> ingredients, IPlayerItemDefinition result) { }
@@ -310,19 +310,19 @@ public struct PlayerItemRecipe : IEquatable<PlayerItemRecipe> // TypeDefIndex: 5
 }
 
 public struct PlayerItemRecipe.Ingredient : IEquatable<PlayerItemRecipe.Ingredient> // TypeDefIndex: 5699
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly int <DefinitionId>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly int <Amount>k__BackingField; // 0x4
 
 	public int DefinitionId { get; }
 	public int Amount { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_DefinitionId() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_Amount() { }
 
 	public void .ctor(int definitionId, int amount) { }
@@ -354,31 +354,31 @@ private sealed class PlayerItemRecipe.<>c // TypeDefIndex: 5700
 
 public static class PlayerItemExtensions // TypeDefIndex: 6156
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static IPlayerItemDefinition GetDefinition(IPlayerItem item) { }
 
 }
 
 public struct PlayerInfo // TypeDefIndex: 6250
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Name>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Id>k__BackingField; // 0x8
 
 	public string Name { get; set; }
 	public string Id { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Name() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Name(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Id() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Id(string value) { }
 
 }
@@ -1642,7 +1642,7 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 	private Option __menuOption_Menu_LootPlayer; // 0x3A0
 	private Option __menuOption_Promote; // 0x3F8
 	private Option __menuOption_SaltWater; // 0x450
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static string lootPanelOverride; // 0x0
 	private TimeSince lastOpenSoundPlay; // 0x4A8
 	public BasePlayer.CameraMode currentViewMode; // 0x4AC
@@ -1660,7 +1660,7 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 	private GameObject _lookingAt; // 0x508
 	private BaseEntity _lookingAtEntity; // 0x510
 	private Collider _lookingAtCollider; // 0x518
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 <lookingAtPoint>k__BackingField; // 0x520
 	private const string playerModelPrefab = "assets/prefabs/player/player_model.prefab";
 	private const string playerCollisionPrefab = "assets/prefabs/player/player_collision.prefab";
@@ -1672,7 +1672,7 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 	private uint lastClothesHash; // 0x534
 	private static ListDictionary<ulong, BasePlayer> visiblePlayerList; // 0x10
 	public static int craftMode; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsWearingDiveGoggles>k__BackingField; // 0x538
 	public ViewModel GestureViewModel; // 0x540
 	public const float INTERACTION_TICK_RATE = 0,1;
@@ -1739,10 +1739,10 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 	private float nextVisThink; // 0x670
 	private float lastTimeSeen; // 0x674
 	private bool debugPrevVisible; // 0x678
-	[HeaderAttribute] // RVA: 0xBBBD0 Offset: 0xBAFD0 VA: 0x1800BBBD0
+	[HeaderAttribute] // RVA: 0xBBD20 Offset: 0xBB120 VA: 0x1800BBD20
 	public GameObjectRef fallDamageEffect; // 0x680
 	public GameObjectRef drownEffect; // 0x688
-	[InspectorFlagsAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public BasePlayer.PlayerFlags playerFlags; // 0x690
 	public PlayerEyes eyes; // 0x698
 	public PlayerInventory inventory; // 0x6A0
@@ -1821,15 +1821,15 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	public Translate.Phrase get_LootPanelTitle() { }
 
-	[BaseEntity.Menu] // RVA: 0xBBD00 Offset: 0xBB100 VA: 0x1800BBD00
-	[BaseEntity.Menu.Description] // RVA: 0xBBD00 Offset: 0xBB100 VA: 0x1800BBD00
-	[BaseEntity.Menu.Icon] // RVA: 0xBBD00 Offset: 0xBB100 VA: 0x1800BBD00
-	[BaseEntity.Menu.ShowIf] // RVA: 0xBBD00 Offset: 0xBB100 VA: 0x1800BBD00
+	[BaseEntity.Menu] // RVA: 0xBBE50 Offset: 0xBB250 VA: 0x1800BBE50
+	[BaseEntity.Menu.Description] // RVA: 0xBBE50 Offset: 0xBB250 VA: 0x1800BBE50
+	[BaseEntity.Menu.Icon] // RVA: 0xBBE50 Offset: 0xBB250 VA: 0x1800BBE50
+	[BaseEntity.Menu.ShowIf] // RVA: 0xBBE50 Offset: 0xBB250 VA: 0x1800BBE50
 	public void Menu_LootPlayer(BasePlayer player) { }
 
 	public bool Menu_LootPlayer_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void RPC_OpenLootPanel(BaseEntity.RPCMessage rpc) { }
 
 	private void PlayOpenSound() { }
@@ -1846,10 +1846,10 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	public void ModifyCamera() { }
 
-	[BaseEntity.Menu] // RVA: 0xBC060 Offset: 0xBB460 VA: 0x1800BC060
-	[BaseEntity.Menu.Description] // RVA: 0xBC060 Offset: 0xBB460 VA: 0x1800BC060
-	[BaseEntity.Menu.Icon] // RVA: 0xBC060 Offset: 0xBB460 VA: 0x1800BC060
-	[BaseEntity.Menu.ShowIf] // RVA: 0xBC060 Offset: 0xBB460 VA: 0x1800BC060
+	[BaseEntity.Menu] // RVA: 0xBC1B0 Offset: 0xBB5B0 VA: 0x1800BC1B0
+	[BaseEntity.Menu.Description] // RVA: 0xBC1B0 Offset: 0xBB5B0 VA: 0x1800BC1B0
+	[BaseEntity.Menu.Icon] // RVA: 0xBC1B0 Offset: 0xBB5B0 VA: 0x1800BC1B0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xBC1B0 Offset: 0xBB5B0 VA: 0x1800BC1B0
 	public void Menu_AssistPlayer(BasePlayer player) { }
 
 	public void Menu_AssistPlayer_TimeStart() { }
@@ -1862,10 +1862,10 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	public Collider get_lookingAtCollider() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Vector3 get_lookingAtPoint() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_lookingAtPoint(Vector3 value) { }
 
 	public override float GetExtrapolationTime() { }
@@ -1932,49 +1932,49 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	public override bool ShouldDestroyWithGroup() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void SetInheritedVelocity(Vector3 velocity, uint entID) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void GetPerformanceReport(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void GetPerformanceReport_Frametime(BaseEntity.RPCMessage msg) { }
 
 	public override void OnBecameRagdoll(Ragdoll rdoll) { }
 
 	public override void OnVoiceData(byte[] data) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void RecieveAchievement(string name) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CraftMode(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void StartDesigningAI(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void OnDebugAIEventTriggeredStateChange(int previousStateContainerID, int newStateContainerID, int sourceEventID) { }
 
 	public override void ClientOnEnable() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_OnRepairFailedResources(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void TakeDamageHit() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void AdminReceivedUGC(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void AdminReceivedPatternFirework(BaseEntity.RPCMessage msg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsWearingDiveGoggles() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_IsWearingDiveGoggles(bool value) { }
 
 	protected void UpdateClothesIfNeeded() { }
@@ -2031,65 +2031,65 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	private static BaseVehicle FindVehicleParentFor(BaseEntity entity) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnDied(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnRespawnInformation(BaseEntity.RPCMessage msg) { }
 
 	private void RequestRespawnUpdates() { }
 
 	public void OnLand(float fVelocity) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void StartLoading() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void FinishLoading() { }
 
 	private void FullBlack_FadeIn() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBE9B0 Offset: 0xBDDB0 VA: 0x1800BE9B0
+	[IteratorStateMachineAttribute] // RVA: 0xBEB10 Offset: 0xBDF10 VA: 0x1800BEB10
 	private IEnumerator FinishedLoadingRoutine() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void DirectionalDamage(Vector3 position, int damageType, int damageTotal) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void UnlockedBlueprint(BaseEntity.RPCMessage msg) { }
 
 	private void CheckForRespawnInfo() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void UpdateRichPresenceState(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void HandleCompanionPairingResult(BaseEntity.RPCMessage msg) { }
 
 	public Vector3 UpdateWaterDrinkingPoint() { }
 
 	private Vector3 GetWaterDrinkingPoint() { }
 
-	[BaseEntity.Menu] // RVA: 0xBEE00 Offset: 0xBE200 VA: 0x1800BEE00
-	[BaseEntity.Menu.Description] // RVA: 0xBEE00 Offset: 0xBE200 VA: 0x1800BEE00
-	[BaseEntity.Menu.Icon] // RVA: 0xBEE00 Offset: 0xBE200 VA: 0x1800BEE00
-	[BaseEntity.Menu.ShowIf] // RVA: 0xBEE00 Offset: 0xBE200 VA: 0x1800BEE00
+	[BaseEntity.Menu] // RVA: 0xBEF60 Offset: 0xBE360 VA: 0x1800BEF60
+	[BaseEntity.Menu.Description] // RVA: 0xBEF60 Offset: 0xBE360 VA: 0x1800BEF60
+	[BaseEntity.Menu.Icon] // RVA: 0xBEF60 Offset: 0xBE360 VA: 0x1800BEF60
+	[BaseEntity.Menu.ShowIf] // RVA: 0xBEF60 Offset: 0xBE360 VA: 0x1800BEF60
 	public void Drink(BasePlayer player) { }
 
 	public bool Drink_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xBEFB0 Offset: 0xBE3B0 VA: 0x1800BEFB0
-	[BaseEntity.Menu.Description] // RVA: 0xBEFB0 Offset: 0xBE3B0 VA: 0x1800BEFB0
-	[BaseEntity.Menu.Icon] // RVA: 0xBEFB0 Offset: 0xBE3B0 VA: 0x1800BEFB0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xBEFB0 Offset: 0xBE3B0 VA: 0x1800BEFB0
+	[BaseEntity.Menu] // RVA: 0xBF110 Offset: 0xBE510 VA: 0x1800BF110
+	[BaseEntity.Menu.Description] // RVA: 0xBF110 Offset: 0xBE510 VA: 0x1800BF110
+	[BaseEntity.Menu.Icon] // RVA: 0xBF110 Offset: 0xBE510 VA: 0x1800BF110
+	[BaseEntity.Menu.ShowIf] // RVA: 0xBF110 Offset: 0xBE510 VA: 0x1800BF110
 	public void SaltWater(BasePlayer player) { }
 
 	public bool SaltWater_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xBF120 Offset: 0xBE520 VA: 0x1800BF120
-	[BaseEntity.Menu.Description] // RVA: 0xBF120 Offset: 0xBE520 VA: 0x1800BF120
-	[BaseEntity.Menu.Icon] // RVA: 0xBF120 Offset: 0xBE520 VA: 0x1800BF120
-	[BaseEntity.Menu.ShowIf] // RVA: 0xBF120 Offset: 0xBE520 VA: 0x1800BF120
+	[BaseEntity.Menu] // RVA: 0xBF280 Offset: 0xBE680 VA: 0x1800BF280
+	[BaseEntity.Menu.Description] // RVA: 0xBF280 Offset: 0xBE680 VA: 0x1800BF280
+	[BaseEntity.Menu.Icon] // RVA: 0xBF280 Offset: 0xBE680 VA: 0x1800BF280
+	[BaseEntity.Menu.ShowIf] // RVA: 0xBF280 Offset: 0xBE680 VA: 0x1800BF280
 	public void Climb(BasePlayer player) { }
 
 	public bool Climb_ShowIf(BasePlayer player) { }
@@ -2122,7 +2122,7 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	private void RequestStartGesture(GestureConfig g) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_StartGesture(BaseEntity.RPCMessage msg) { }
 
 	public void Client_StartGesture(GestureConfig gesture) { }
@@ -2151,36 +2151,36 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	public bool ConVarRequestStartGesture(string gestureName) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void Client_RemoteCancelledGesture() { }
 
 	private bool IsGestureBlocked() { }
 
 	public float get_clientTeamLifetime() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_ReceiveTeamInfo(BaseEntity.RPCMessage msg) { }
 
 	private void UpdateSteamGroup(ulong teamId, int teamSize) { }
 
 	private void ClearSteamGroup() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_ClearTeam(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_PendingInvite(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.Menu] // RVA: 0xC0AB0 Offset: 0xBFEB0 VA: 0x1800C0AB0
-	[BaseEntity.Menu.Description] // RVA: 0xC0AB0 Offset: 0xBFEB0 VA: 0x1800C0AB0
-	[BaseEntity.Menu.Icon] // RVA: 0xC0AB0 Offset: 0xBFEB0 VA: 0x1800C0AB0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xC0AB0 Offset: 0xBFEB0 VA: 0x1800C0AB0
+	[BaseEntity.Menu] // RVA: 0xC0C10 Offset: 0xC0010 VA: 0x1800C0C10
+	[BaseEntity.Menu.Description] // RVA: 0xC0C10 Offset: 0xC0010 VA: 0x1800C0C10
+	[BaseEntity.Menu.Icon] // RVA: 0xC0C10 Offset: 0xC0010 VA: 0x1800C0C10
+	[BaseEntity.Menu.ShowIf] // RVA: 0xC0C10 Offset: 0xC0010 VA: 0x1800C0C10
 	public void InviteToTeam(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xC0F20 Offset: 0xC0320 VA: 0x1800C0F20
-	[BaseEntity.Menu.Description] // RVA: 0xC0F20 Offset: 0xC0320 VA: 0x1800C0F20
-	[BaseEntity.Menu.Icon] // RVA: 0xC0F20 Offset: 0xC0320 VA: 0x1800C0F20
-	[BaseEntity.Menu.ShowIf] // RVA: 0xC0F20 Offset: 0xC0320 VA: 0x1800C0F20
+	[BaseEntity.Menu] // RVA: 0xC0FF0 Offset: 0xC03F0 VA: 0x1800C0FF0
+	[BaseEntity.Menu.Description] // RVA: 0xC0FF0 Offset: 0xC03F0 VA: 0x1800C0FF0
+	[BaseEntity.Menu.Icon] // RVA: 0xC0FF0 Offset: 0xC03F0 VA: 0x1800C0FF0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xC0FF0 Offset: 0xC03F0 VA: 0x1800C0FF0
 	public void Promote(BasePlayer player) { }
 
 	public void Menu_Promote_Start() { }
@@ -2223,13 +2223,13 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	private void MapInfoOnEnable() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_ReceiveMarkers(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_UpdateDeathMarker(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_AddNewDeathMarker(BaseEntity.RPCMessage msg) { }
 
 	public void AddPointOfInterest(Vector3 position) { }
@@ -2256,7 +2256,7 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	private void LoadMissions(Missions loadedMissions) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnModelState(BaseEntity.RPCMessage data) { }
 
 	private void OnModelStateChanged() { }
@@ -2275,10 +2275,10 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	public void ClientUpdateMounted(uint id) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_SetPetPrefabID(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_SetPetPetLoadedStateIndex(BaseEntity.RPCMessage msg) { }
 
 	private void LinkPet() { }
@@ -2333,28 +2333,28 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SpectatedPlayerHeadshot() { }
 
 	public override float GetThreatLevel() { }
 
 	public void EnsureUpdated() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void SetHostileLength(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void SetWeaponDrawnDuration(BaseEntity.RPCMessage msg) { }
 
 	protected virtual void ModifyInputState(ref InputState inputState) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void ForcePositionToParentOffset(Vector3 position, uint entID) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void UpdateClientTickRate(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void ForcePositionTo(Vector3 position) { }
 
 	internal void SendVoiceData(byte[] data, int len) { }
@@ -2664,21 +2664,21 @@ private sealed class BasePlayer.<FinishedLoadingRoutine>d__161 : IEnumerator<obj
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -2731,7 +2731,7 @@ public class PlayerInventory : EntityComponent<BasePlayer> // TypeDefIndex: 8620
 
 	public void ClientInit(BasePlayer owner) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void UpdatedItemContainer(BaseEntity.RPCMessage packet) { }
 
 	public Item FindItemUID(uint id) { }
@@ -2793,7 +2793,7 @@ public class PlayerLoot : EntityComponent<BasePlayer> // TypeDefIndex: 8622
 
 	public void ClientInit(BasePlayer owner) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void UpdateLoot(BaseEntity.RPCMessage rpc) { }
 
 	public void .ctor() { }
@@ -2831,7 +2831,7 @@ public class PlayerMetabolism : BaseMetabolism<BasePlayer> // TypeDefIndex: 8623
 
 	public void ClientInit(BasePlayer owner) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void UpdateMetabolism(BaseEntity.RPCMessage packet) { }
 
 	public PlayerMetabolism Save() { }
@@ -2854,7 +2854,7 @@ public class PlayerModifiers : BaseModifiers<BasePlayer> // TypeDefIndex: 8624
 
 	public void ClientInit(BasePlayer owner) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void UpdateModifiers(BaseEntity.RPCMessage packet) { }
 
 	public void .ctor() { }
@@ -2903,7 +2903,7 @@ public struct PlayerModelHair.RendererMaterials // TypeDefIndex: 9215
 }
 
 public class PlayerModelHairCap : MonoBehaviour // TypeDefIndex: 9217
-{	[InspectorFlagsAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+{	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public HairCapMask hairCapMask; // 0x18
 
 
@@ -2935,16 +2935,16 @@ public enum PlayerModelSkin.SkinMaterialType // TypeDefIndex: 9219
 }
 
 public class PlayerDetectedAIEvent : BaseAIEvent // TypeDefIndex: 9408
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <Range>k__BackingField; // 0x40
 
 	public float Range { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_Range() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Range(float value) { }
 
 	public void .ctor() { }
@@ -3034,13 +3034,13 @@ public class PlayerEyes : EntityComponent<BasePlayer> // TypeDefIndex: 9648
 	public Vector3 thirdPersonSleepingOffset; // 0x20
 	public LazyAimProperties defaultLazyAim; // 0x30
 	private Vector3 viewOffset; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Quaternion <bodyRotation>k__BackingField; // 0x44
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 <headAngles>k__BackingField; // 0x54
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Quaternion <rotationLook>k__BackingField; // 0x60
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsAltLookingLegsThreshold>k__BackingField; // 0x70
 
 	public Vector3 worldMountedPosition { get; }
@@ -3080,32 +3080,32 @@ public class PlayerEyes : EntityComponent<BasePlayer> // TypeDefIndex: 9648
 
 	public void set_rotation(Quaternion value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Quaternion get_bodyRotation() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_bodyRotation(Quaternion value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Vector3 get_headAngles() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_headAngles(Vector3 value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Quaternion get_rotationLook() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_rotationLook(Quaternion value) { }
 
 	public Quaternion get_parentRotation() { }
 
 	public bool get_canUpdateViewAngles() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsAltLookingLegsThreshold() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_IsAltLookingLegsThreshold(bool value) { }
 
 	public void FrameUpdate(Camera cam) { }
@@ -3304,7 +3304,7 @@ public class PlayerModel : ListComponent<PlayerModel>, IOnParentDestroying // Ty
 	public Transform leftHandPropBone; // 0xD0
 	public Transform rightHandPropBone; // 0xD8
 	public Vector3 rightHandTarget; // 0xE0
-	[HeaderAttribute] // RVA: 0x7F560 Offset: 0x7E960 VA: 0x18007F560
+	[HeaderAttribute] // RVA: 0x7F640 Offset: 0x7EA40 VA: 0x18007F640
 	public Vector3 leftHandTargetPosition; // 0xEC
 	public Quaternion leftHandTargetRotation; // 0xF8
 	public Vector3 rightHandTargetPosition; // 0x108
@@ -3322,32 +3322,32 @@ public class PlayerModel : ListComponent<PlayerModel>, IOnParentDestroying // Ty
 	public RuntimeAnimatorController CrawlToIncapacitatedGesture; // 0x188
 	public RuntimeAnimatorController StandToIncapacitatedGesture; // 0x190
 	public RuntimeAnimatorController CurrentGesture; // 0x198
-	[HeaderAttribute] // RVA: 0x7F5E0 Offset: 0x7E9E0 VA: 0x18007F5E0
+	[HeaderAttribute] // RVA: 0x7F670 Offset: 0x7EA70 VA: 0x18007F670
 	public SkinSetCollection MaleSkin; // 0x1A0
 	public SkinSetCollection FemaleSkin; // 0x1A8
 	public SubsurfaceProfile subsurfaceProfile; // 0x1B0
-	[HeaderAttribute] // RVA: 0x7F7C0 Offset: 0x7EBC0 VA: 0x18007F7C0
-	[RangeAttribute] // RVA: 0x7F7C0 Offset: 0x7EBC0 VA: 0x18007F7C0
+	[HeaderAttribute] // RVA: 0x7F850 Offset: 0x7EC50 VA: 0x18007F850
+	[RangeAttribute] // RVA: 0x7F850 Offset: 0x7EC50 VA: 0x18007F850
 	public float voiceVolume; // 0x1B8
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float skinColor; // 0x1BC
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float skinNumber; // 0x1C0
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float meshNumber; // 0x1C4
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float hairNumber; // 0x1C8
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public int skinType; // 0x1CC
 	public MovementSounds movementSounds; // 0x1D0
 	public bool showSash; // 0x1D8
 	public int tempPoseType; // 0x1DC
 	public uint underwearSkin; // 0x1E0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ulong <overrideSkinSeed>k__BackingField; // 0x1E8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Quaternion <AimAngles>k__BackingField; // 0x1F0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Quaternion <LookAngles>k__BackingField; // 0x200
 	private const int LayerHands = 1;
 	private const int LayerGestures = 2;
@@ -3391,7 +3391,7 @@ public class PlayerModel : ListComponent<PlayerModel>, IOnParentDestroying // Ty
 	private float mountedAnimSpeed; // 0x310
 	private bool preserveBones; // 0x314
 	private Nullable<float> downLimitOverride; // 0x318
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsNpc>k__BackingField; // 0x320
 	private TimeSince timeSinceReactionStart; // 0x324
 	private TimeSince timeSinceLeftFootTest; // 0x328
@@ -3453,26 +3453,26 @@ public class PlayerModel : ListComponent<PlayerModel>, IOnParentDestroying // Ty
 
 	public static void RebuildAll() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public ulong get_overrideSkinSeed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_overrideSkinSeed(ulong value) { }
 
 	public bool get_IsFemale() { }
 
 	public SkinSetCollection get_SkinSet() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Quaternion get_AimAngles() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_AimAngles(Quaternion value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Quaternion get_LookAngles() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_LookAngles(Quaternion value) { }
 
 	private bool get_GestureAllowsSpineMovement() { }
@@ -3481,10 +3481,10 @@ public class PlayerModel : ListComponent<PlayerModel>, IOnParentDestroying // Ty
 
 	public bool get_IsFirstPerson() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsNpc() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_IsNpc(bool value) { }
 
 	public SkinnedMultiMesh get_multiMesh() { }
@@ -3591,7 +3591,7 @@ public class PlayerModel : ListComponent<PlayerModel>, IOnParentDestroying // Ty
 
 	public void SetHasHeldEntity(bool state) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x80940 Offset: 0x7FD40 VA: 0x180080940
+	[IteratorStateMachineAttribute] // RVA: 0x80A30 Offset: 0x7FE30 VA: 0x180080A30
 	public IEnumerator FadeOutGestureLayer() { }
 
 	public void SetGesture() { }
@@ -3724,21 +3724,21 @@ private sealed class PlayerModel.<FadeOutGestureLayer>d__244 : IEnumerator<objec
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -4045,7 +4045,7 @@ public class PlayerCorpse : LootableCorpse // TypeDefIndex: 9670
 
 }
 
-public class PlayerInventoryProperties : ScriptableObject // TypeDefIndex: 10749
+public class PlayerInventoryProperties : ScriptableObject // TypeDefIndex: 10753
 {	public string niceName; // 0x18
 	public int order; // 0x20
 	public List<PlayerInventoryProperties.ItemAmountSkinned> belt; // 0x28
@@ -4058,7 +4058,7 @@ public class PlayerInventoryProperties : ScriptableObject // TypeDefIndex: 10749
 
 }
 
-public class PlayerInventoryProperties.ItemAmountSkinned : ItemAmount // TypeDefIndex: 10750
+public class PlayerInventoryProperties.ItemAmountSkinned : ItemAmount // TypeDefIndex: 10754
 {	public ulong skinOverride; // 0x20
 
 
@@ -4066,7 +4066,7 @@ public class PlayerInventoryProperties.ItemAmountSkinned : ItemAmount // TypeDef
 
 }
 
-public class PlayerDetectedEventUI : BaseEventUI // TypeDefIndex: 10807
+public class PlayerDetectedEventUI : BaseEventUI // TypeDefIndex: 10811
 {
 	public override void Init(AIEventType eventType, BaseStateUI stateUI) { }
 
@@ -4078,50 +4078,50 @@ public class PlayerDetectedEventUI : BaseEventUI // TypeDefIndex: 10807
 
 }
 
-public class Player : ConsoleSystem // TypeDefIndex: 11953
-{	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
+public class Player : ConsoleSystem // TypeDefIndex: 11957
+{	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
 	public static int tickrate_cl; // 0x0
-	[ServerVar] // RVA: 0x81B10 Offset: 0x80F10 VA: 0x180081B10
+	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
 	public static int tickrate_sv; // 0x4
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool recoilcomp; // 0x8
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool footik; // 0x9
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float footikdistance; // 0xC
-	[ClientVar] // RVA: 0xB0630 Offset: 0xAFA30 VA: 0x1800B0630
+	[ClientVar] // RVA: 0xB0850 Offset: 0xAFC50 VA: 0x1800B0850
 	public static float footikrate; // 0x10
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool triggerfix; // 0x14
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool eye_blinking; // 0x15
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool eye_movement; // 0x16
-	[ClientVar] // RVA: 0xB0820 Offset: 0xAFC20 VA: 0x1800B0820
+	[ClientVar] // RVA: 0xB0A80 Offset: 0xAFE80 VA: 0x1800B0A80
 	public static bool useCinematicAvatar; // 0x17
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float noclipspeed; // 0x18
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float noclipspeedslow; // 0x1C
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static float noclipspeedfast; // 0x20
 
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void cinematic_list(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void gesture(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void petcmd(ConsoleSystem.Arg arg) { }
 
-	[ServerUserVar] // RVA: 0xB0B90 Offset: 0xAFF90 VA: 0x1800B0B90
-	[ClientVar] // RVA: 0xB0B90 Offset: 0xAFF90 VA: 0x1800B0B90
+	[ServerUserVar] // RVA: 0xB2030 Offset: 0xB1430 VA: 0x1800B2030
+	[ClientVar] // RVA: 0xB2030 Offset: 0xB1430 VA: 0x1800B2030
 	public static void cinematic_play(ConsoleSystem.Arg arg) { }
 
-	[ServerUserVar] // RVA: 0xB0B90 Offset: 0xAFF90 VA: 0x1800B0B90
-	[ClientVar] // RVA: 0xB0B90 Offset: 0xAFF90 VA: 0x1800B0B90
+	[ServerUserVar] // RVA: 0xB2030 Offset: 0xB1430 VA: 0x1800B2030
+	[ClientVar] // RVA: 0xB2030 Offset: 0xB1430 VA: 0x1800B2030
 	public static void cinematic_stop(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }
@@ -4130,22 +4130,22 @@ public class Player : ConsoleSystem // TypeDefIndex: 11953
 
 }
 
-public class PlayerCull : ConsoleSystem // TypeDefIndex: 11954
+public class PlayerCull : ConsoleSystem // TypeDefIndex: 11958
 {	private static bool _enabled; // 0x0
-	[ClientVar] // RVA: 0x91330 Offset: 0x90730 VA: 0x180091330
+	[ClientVar] // RVA: 0x914D0 Offset: 0x908D0 VA: 0x1800914D0
 	public static float updateRate; // 0x4
-	[ClientVar] // RVA: 0xB2040 Offset: 0xB1440 VA: 0x1800B2040
+	[ClientVar] // RVA: 0xB2390 Offset: 0xB1790 VA: 0x1800B2390
 	public static float minCullDist; // 0x8
-	[ClientVar] // RVA: 0xB2270 Offset: 0xB1670 VA: 0x1800B2270
+	[ClientVar] // RVA: 0xB2460 Offset: 0xB1860 VA: 0x1800B2460
 	public static float maxSleeperDist; // 0xC
-	[ClientVar] // RVA: 0x914B0 Offset: 0x908B0 VA: 0x1800914B0
+	[ClientVar] // RVA: 0x91730 Offset: 0x90B30 VA: 0x180091730
 	public static float maxPlayerDist; // 0x10
-	[ClientVar] // RVA: 0xB23C0 Offset: 0xB17C0 VA: 0x1800B23C0
+	[ClientVar] // RVA: 0xB2670 Offset: 0xB1A70 VA: 0x1800B2670
 	public static int visQuality; // 0x14
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static bool debug; // 0x18
 
-	[ClientVar] // RVA: 0xB2740 Offset: 0xB1B40 VA: 0x1800B2740
+	[ClientVar] // RVA: 0xB29A0 Offset: 0xB1DA0 VA: 0x1800B29A0
 	public static bool enabled { get; set; }
 
 
@@ -4159,9 +4159,9 @@ public class PlayerCull : ConsoleSystem // TypeDefIndex: 11954
 
 }
 
-public enum PlayerMenuAnimation.Layers // TypeDefIndex: 12151
+public enum PlayerMenuAnimation.Layers // TypeDefIndex: 12155
 {
-public enum PlayerMenuAnimation.Layers // TypeDefIndex: 12151
+public enum PlayerMenuAnimation.Layers // TypeDefIndex: 12155
 	public int value__; // 0x0
 	public const PlayerMenuAnimation.Layers Movement = 0;
 

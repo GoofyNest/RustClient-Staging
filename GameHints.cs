@@ -1,5 +1,5 @@
-public class HowToExamineHeld : BaseTip // TypeDefIndex: 11593
-{	public static Translate.Phrase Phrase; // 0x2B10440
+public class HowToExamineHeld : BaseTip // TypeDefIndex: 11597
+{	public static Translate.Phrase Phrase; // 0x1D330
 
 	public int ExaminedTimes { get; }
 	public float SecondsLastExamined { get; }
@@ -20,7 +20,7 @@ public class HowToExamineHeld : BaseTip // TypeDefIndex: 11593
 
 }
 
-public class HowToHammerUpgrade : BaseTip // TypeDefIndex: 11594
+public class HowToHammerUpgrade : BaseTip // TypeDefIndex: 11598
 {	public static Translate.Phrase Phrase; // 0x0
 	public static float lastBuildChangeTime; // 0x8
 
@@ -45,7 +45,7 @@ public class HowToHammerUpgrade : BaseTip // TypeDefIndex: 11594
 
 }
 
-public class HowToOpenBuildOptions : BaseTip // TypeDefIndex: 11595
+public class HowToOpenBuildOptions : BaseTip // TypeDefIndex: 11599
 {	public static Translate.Phrase Phrase; // 0x0
 	public static float lastBuildChangeTime; // 0x8
 
@@ -70,8 +70,8 @@ public class HowToOpenBuildOptions : BaseTip // TypeDefIndex: 11595
 
 }
 
-public class HowToOpenCrafting : BaseTip // TypeDefIndex: 11596
-{	public static Translate.Phrase Phrase; // 0x1E0F0
+public class HowToOpenCrafting : BaseTip // TypeDefIndex: 11600
+{	public static Translate.Phrase Phrase; // 0x1D3D0
 
 	public int CraftingOpenedTimes { get; }
 	public float CraftingOpenedSecondsAgo { get; }
@@ -92,8 +92,8 @@ public class HowToOpenCrafting : BaseTip // TypeDefIndex: 11596
 
 }
 
-public class HowToOpenInventory : BaseTip // TypeDefIndex: 11597
-{	public static Translate.Phrase Phrase; // 0x1E138
+public class HowToOpenInventory : BaseTip // TypeDefIndex: 11601
+{	public static Translate.Phrase Phrase; // 0x2B11F70
 
 	public int InventoryOpenedTimes { get; }
 	public float IntentoryOpenedSecondsAgo { get; }
@@ -114,8 +114,8 @@ public class HowToOpenInventory : BaseTip // TypeDefIndex: 11597
 
 }
 
-public class HowToOpenMap : BaseTip // TypeDefIndex: 11598
-{	public static Translate.Phrase Phrase; // 0x2B10440
+public class HowToOpenMap : BaseTip // TypeDefIndex: 11602
+{	public static Translate.Phrase Phrase; // 0x1D3D0
 
 	public int MapOpenedTimes { get; }
 	public float MapOpenedSecondsAgo { get; }
@@ -136,7 +136,7 @@ public class HowToOpenMap : BaseTip // TypeDefIndex: 11598
 
 }
 
-public class HowToOreMinigame : BaseTip // TypeDefIndex: 11599
+public class HowToOreMinigame : BaseTip // TypeDefIndex: 11603
 {	public static Translate.Phrase Phrase; // 0x0
 	public static float lastOreHitTime; // 0x8
 
@@ -161,8 +161,8 @@ public class HowToOreMinigame : BaseTip // TypeDefIndex: 11599
 
 }
 
-public class HowToRegenWithComfort : BaseTip // TypeDefIndex: 11600
-{	public static Translate.Phrase Phrase; // 0x1E140
+public class HowToRegenWithComfort : BaseTip // TypeDefIndex: 11604
+{	public static Translate.Phrase Phrase; // 0x1D408
 
 	public static bool IsComfortable { get; }
 	public static float TimeComfortableTotal { get; }
@@ -183,8 +183,8 @@ public class HowToRegenWithComfort : BaseTip // TypeDefIndex: 11600
 
 }
 
-public class HowToRetrieveThrown : BaseTip // TypeDefIndex: 11601
-{	public static Translate.Phrase Phrase; // 0x1E17F
+public class HowToRetrieveThrown : BaseTip // TypeDefIndex: 11605
+{	public static Translate.Phrase Phrase; // 0x2B117C0
 
 	public static bool HasThrowableItemEquipped { get; }
 	public override bool ShouldShow { get; }
@@ -202,7 +202,7 @@ public class HowToRetrieveThrown : BaseTip // TypeDefIndex: 11601
 
 }
 
-public class HowToThrow : BaseTip // TypeDefIndex: 11602
+public class HowToThrow : BaseTip // TypeDefIndex: 11606
 {	public static Translate.Phrase Phrase; // 0x0
 	public static bool itemThrown; // 0x8
 	public static float lastThrownTime; // 0xC
@@ -227,7 +227,7 @@ public class HowToThrow : BaseTip // TypeDefIndex: 11602
 
 }
 
-public class HowToTreeMinigame : BaseTip // TypeDefIndex: 11603
+public class HowToTreeMinigame : BaseTip // TypeDefIndex: 11607
 {	public static Translate.Phrase Phrase; // 0x0
 	public static float lastTreeHitTime; // 0x8
 
@@ -252,8 +252,8 @@ public class HowToTreeMinigame : BaseTip // TypeDefIndex: 11603
 
 }
 
-public class HowToUseBow : BaseTip // TypeDefIndex: 11604
-{	public static Translate.Phrase Phrase; // 0x2B10388
+public class HowToUseBow : BaseTip // TypeDefIndex: 11608
+{	public static Translate.Phrase Phrase; // 0x1D410
 
 	public static bool HasBowItemEquipped { get; }
 	public override bool ShouldShow { get; }
@@ -271,8 +271,8 @@ public class HowToUseBow : BaseTip // TypeDefIndex: 11604
 
 }
 
-public class HowToUseGrenade : BaseTip // TypeDefIndex: 11605
-{	public static Translate.Phrase Phrase; // 0x1E180
+public class HowToUseGrenade : BaseTip // TypeDefIndex: 11609
+{	public static Translate.Phrase Phrase; // 0x1D490
 
 	private static bool HasGrenadeItemEquipped { get; }
 	public override bool ShouldShow { get; }
@@ -290,7 +290,7 @@ public class HowToUseGrenade : BaseTip // TypeDefIndex: 11605
 
 }
 
-public class HowToUseWave : BaseTip // TypeDefIndex: 11606
+public class HowToUseWave : BaseTip // TypeDefIndex: 11610
 {	public static Translate.Phrase Phrase; // 0x0
 	public static float lastWavedAtTime; // 0x8
 	public static float lastLocalWaveTime; // 0xC
@@ -316,8 +316,8 @@ public class HowToUseWave : BaseTip // TypeDefIndex: 11606
 
 }
 
-public class HowToVoiceChat : BaseTip // TypeDefIndex: 11607
-{	public static Translate.Phrase Phrase; // 0x1E1F6
+public class HowToVoiceChat : BaseTip // TypeDefIndex: 11611
+{	public static Translate.Phrase Phrase; // 0x2B118C0
 
 	public float SecondsSpeaking { get; }
 	public override bool ShouldShow { get; }
@@ -335,8 +335,8 @@ public class HowToVoiceChat : BaseTip // TypeDefIndex: 11607
 
 }
 
-public class HowToWorldDrink : BaseTip // TypeDefIndex: 11608
-{	public static Translate.Phrase Phrase; // 0x2B10370
+public class HowToWorldDrink : BaseTip // TypeDefIndex: 11612
+{	public static Translate.Phrase Phrase; // 0x1D490
 
 	public bool NearFreshWater { get; }
 	public float ConsumedWater { get; }
@@ -357,8 +357,8 @@ public class HowToWorldDrink : BaseTip // TypeDefIndex: 11608
 
 }
 
-public class TipInstrumentFullKeyboard : InstrumentTip // TypeDefIndex: 11610
-{	public static Translate.Phrase Phrase; // 0x1E200
+public class TipInstrumentFullKeyboard : InstrumentTip // TypeDefIndex: 11614
+{	public static Translate.Phrase Phrase; // 0x1D503
 
 	public override bool ShouldShow { get; }
 
@@ -373,8 +373,8 @@ public class TipInstrumentFullKeyboard : InstrumentTip // TypeDefIndex: 11610
 
 }
 
-public class TipInstrumentNumlock : InstrumentTip // TypeDefIndex: 11611
-{	public static Translate.Phrase Phrase; // 0x1E271
+public class TipInstrumentNumlock : InstrumentTip // TypeDefIndex: 11615
+{	public static Translate.Phrase Phrase; // 0x2B117C0
 
 	public override bool ShouldShow { get; }
 
@@ -389,8 +389,8 @@ public class TipInstrumentNumlock : InstrumentTip // TypeDefIndex: 11611
 
 }
 
-public class TipInstrumentPlay : InstrumentTip // TypeDefIndex: 11612
-{	public static Translate.Phrase Phrase; // 0x2B104D4
+public class TipInstrumentPlay : InstrumentTip // TypeDefIndex: 11616
+{	public static Translate.Phrase Phrase; // 0x1D510
 
 	public override bool ShouldShow { get; }
 
@@ -405,7 +405,7 @@ public class TipInstrumentPlay : InstrumentTip // TypeDefIndex: 11612
 
 }
 
-public class TipBreakCarLock : BaseTip // TypeDefIndex: 11614
+public class TipBreakCarLock : BaseTip // TypeDefIndex: 11618
 {	public static Translate.Phrase Phrase; // 0x0
 	public static bool wasShowing; // 0x8
 	public static float nextTipTime; // 0xC
@@ -426,7 +426,7 @@ public class TipBreakCarLock : BaseTip // TypeDefIndex: 11614
 
 }
 
-public class TipCannotHarvest : BaseTip // TypeDefIndex: 11615
+public class TipCannotHarvest : BaseTip // TypeDefIndex: 11619
 {	public static Translate.Phrase Phrase; // 0x0
 	public static float nonEntityHitTime; // 0x8
 
@@ -451,7 +451,7 @@ public class TipCannotHarvest : BaseTip // TypeDefIndex: 11615
 
 }
 
-public class TipConsumeFood : BaseTip // TypeDefIndex: 11616
+public class TipConsumeFood : BaseTip // TypeDefIndex: 11620
 {	public static Translate.Phrase Phrase; // 0x0
 	public float lastFoodPickupTime; // 0x10
 	public int lastFoodPickupCount; // 0x14
@@ -484,7 +484,7 @@ public class TipConsumeFood : BaseTip // TypeDefIndex: 11616
 
 }
 
-public class TipControllingMagnetCrane : BaseTip // TypeDefIndex: 11617
+public class TipControllingMagnetCrane : BaseTip // TypeDefIndex: 11621
 {	public static Translate.Phrase Phrase; // 0x0
 	private bool wasMounted; // 0x10
 	private TimeSince timeSinceShown; // 0x14
@@ -502,7 +502,7 @@ public class TipControllingMagnetCrane : BaseTip // TypeDefIndex: 11617
 
 }
 
-public class TipDrivingSubmarine : BaseTip // TypeDefIndex: 11618
+public class TipDrivingSubmarine : BaseTip // TypeDefIndex: 11622
 {	public static Translate.Phrase Phrase; // 0x0
 	private bool wasMounted; // 0x10
 	private bool haveShown; // 0x11
@@ -520,7 +520,7 @@ public class TipDrivingSubmarine : BaseTip // TypeDefIndex: 11618
 
 }
 
-public class TipEquipTorch : BaseTip // TypeDefIndex: 11619
+public class TipEquipTorch : BaseTip // TypeDefIndex: 11623
 {	public static Translate.Phrase Phrase; // 0x0
 	public static float nextTorchTipTime; // 0x8
 
@@ -548,8 +548,8 @@ public class TipEquipTorch : BaseTip // TypeDefIndex: 11619
 
 }
 
-public class TipFillToolCupboard : BaseTip // TypeDefIndex: 11620
-{	public static Translate.Phrase Phrase; // 0x1E280
+public class TipFillToolCupboard : BaseTip // TypeDefIndex: 11624
+{	public static Translate.Phrase Phrase; // 0x1D584
 
 	public int CupboardOpenedTimes { get; }
 	public override bool ShouldShow { get; }
@@ -567,8 +567,8 @@ public class TipFillToolCupboard : BaseTip // TypeDefIndex: 11620
 
 }
 
-public class TipFishingControls : BaseTip // TypeDefIndex: 11621
-{	public static Translate.Phrase Phrase; // 0x1E2F5
+public class TipFishingControls : BaseTip // TypeDefIndex: 11625
+{	public static Translate.Phrase Phrase; // 0x2B11820
 
 	public override bool ShouldShow { get; }
 
@@ -583,7 +583,7 @@ public class TipFishingControls : BaseTip // TypeDefIndex: 11621
 
 }
 
-public class TipFishingFail : BaseTip // TypeDefIndex: 11622
+public class TipFishingFail : BaseTip // TypeDefIndex: 11626
 {	public static Translate.Phrase StrainPhrase; // 0x0
 	public static Translate.Phrase AnglePhrase; // 0x8
 	public static Translate.Phrase ObstructedPhrase; // 0x10
@@ -601,7 +601,7 @@ public class TipFishingFail : BaseTip // TypeDefIndex: 11622
 
 }
 
-public class TipHealAtCampfire : BaseTip // TypeDefIndex: 11623
+public class TipHealAtCampfire : BaseTip // TypeDefIndex: 11627
 {	public static Translate.Phrase Phrase; // 0x0
 	public float oldHealth; // 0x10
 	public float lastHurtTime; // 0x14
@@ -631,9 +631,9 @@ public class TipHealAtCampfire : BaseTip // TypeDefIndex: 11623
 
 }
 
-public class TipKayakPaddle : BaseTip // TypeDefIndex: 11624
+public class TipKayakPaddle : BaseTip // TypeDefIndex: 11628
 {	public static Translate.Phrase Phrase; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static bool <hasPaddledWithoutOar>k__BackingField; // 0x8
 
 	public override bool ShouldShow { get; }
@@ -644,10 +644,10 @@ public class TipKayakPaddle : BaseTip // TypeDefIndex: 11624
 
 	public override bool get_ShouldShow() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool get_hasPaddledWithoutOar() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void set_hasPaddledWithoutOar(bool value) { }
 
 	public void .ctor() { }
@@ -656,7 +656,7 @@ public class TipKayakPaddle : BaseTip // TypeDefIndex: 11624
 
 }
 
-public class TipMLRSAimingModule : BaseTip // TypeDefIndex: 11625
+public class TipMLRSAimingModule : BaseTip // TypeDefIndex: 11629
 {	public static Translate.Phrase Phrase; // 0x0
 	public static bool wasMounted; // 0x8
 	public static float nextTipTime; // 0xC
@@ -674,7 +674,7 @@ public class TipMLRSAimingModule : BaseTip // TypeDefIndex: 11625
 
 }
 
-public class TipMLRSBrokenDown : BaseTip // TypeDefIndex: 11626
+public class TipMLRSBrokenDown : BaseTip // TypeDefIndex: 11630
 {	public static Translate.Phrase Phrase; // 0x0
 	public static bool wasMounted; // 0x8
 	public static float nextTipTime; // 0xC
@@ -692,7 +692,7 @@ public class TipMLRSBrokenDown : BaseTip // TypeDefIndex: 11626
 
 }
 
-public class TipMLRSNoRockets : BaseTip // TypeDefIndex: 11627
+public class TipMLRSNoRockets : BaseTip // TypeDefIndex: 11631
 {	public static Translate.Phrase Phrase; // 0x0
 	public static bool wasMounted; // 0x8
 	public static float nextTipTime; // 0xC
@@ -710,8 +710,8 @@ public class TipMLRSNoRockets : BaseTip // TypeDefIndex: 11627
 
 }
 
-public class TipMissingLure : BaseTip // TypeDefIndex: 11628
-{	public static Translate.Phrase Phrase; // 0x2B103D0
+public class TipMissingLure : BaseTip // TypeDefIndex: 11632
+{	public static Translate.Phrase Phrase; // 0x1D590
 
 	public override bool ShouldShow { get; }
 
@@ -726,8 +726,8 @@ public class TipMissingLure : BaseTip // TypeDefIndex: 11628
 
 }
 
-public class TipNoBuild : BaseTip // TypeDefIndex: 11629
-{	public static Translate.Phrase Phrase; // 0x1E300
+public class TipNoBuild : BaseTip // TypeDefIndex: 11633
+{	public static Translate.Phrase Phrase; // 0x1D60F
 
 	public static bool HasBuildingPlanEquipped { get; }
 	public override bool ShouldShow { get; }
@@ -747,7 +747,7 @@ public class TipNoBuild : BaseTip // TypeDefIndex: 11629
 
 }
 
-public class TipPetControlWheel : BaseTip // TypeDefIndex: 11630
+public class TipPetControlWheel : BaseTip // TypeDefIndex: 11634
 {	public static Translate.Phrase Phrase; // 0x0
 	public static bool haveShown; // 0x8
 
@@ -764,8 +764,8 @@ public class TipPetControlWheel : BaseTip // TypeDefIndex: 11630
 
 }
 
-public class TipPlaceSleepingBag : BaseTip // TypeDefIndex: 11631
-{	public static Translate.Phrase Phrase; // 0x1E379
+public class TipPlaceSleepingBag : BaseTip // TypeDefIndex: 11635
+{	public static Translate.Phrase Phrase; // 0x2B118C0
 
 	public override bool ShouldShow { get; }
 
@@ -780,8 +780,8 @@ public class TipPlaceSleepingBag : BaseTip // TypeDefIndex: 11631
 
 }
 
-public class TipPlaceToolCupboard : BaseTip // TypeDefIndex: 11632
-{	public static Translate.Phrase Phrase; // 0x2B104DC
+public class TipPlaceToolCupboard : BaseTip // TypeDefIndex: 11636
+{	public static Translate.Phrase Phrase; // 0x1D610
 
 	public int CupboardOpenedTimes { get; }
 	public int NumBlocksPlaced { get; }
@@ -805,8 +805,8 @@ public class TipPlaceToolCupboard : BaseTip // TypeDefIndex: 11632
 
 }
 
-public class TipPokerWinnings : BaseTip // TypeDefIndex: 11633
-{	public static Translate.Phrase Phrase; // 0x1E380
+public class TipPokerWinnings : BaseTip // TypeDefIndex: 11637
+{	public static Translate.Phrase Phrase; // 0x1D66B
 
 	public override bool ShouldShow { get; }
 
@@ -821,8 +821,8 @@ public class TipPokerWinnings : BaseTip // TypeDefIndex: 11633
 
 }
 
-public class TipRads : BaseTip // TypeDefIndex: 11634
-{	public static Translate.Phrase Phrase; // 0x1E40E
+public class TipRads : BaseTip // TypeDefIndex: 11638
+{	public static Translate.Phrase Phrase; // 0x2B11924
 
 	public float RadDuration { get; }
 	public bool HasRads { get; }
@@ -843,8 +843,8 @@ public class TipRads : BaseTip // TypeDefIndex: 11634
 
 }
 
-public class TipRemoveRads : BaseTip // TypeDefIndex: 11635
-{	public static Translate.Phrase Phrase; // 0x2B10550
+public class TipRemoveRads : BaseTip // TypeDefIndex: 11639
+{	public static Translate.Phrase Phrase; // 0x1D670
 
 	public float RadDuration { get; }
 	public bool HasRads { get; }
@@ -868,8 +868,8 @@ public class TipRemoveRads : BaseTip // TypeDefIndex: 11635
 
 }
 
-public class TipReskinObject : BaseTip // TypeDefIndex: 11636
-{	public static Translate.Phrase Phrase; // 0x1E410
+public class TipReskinObject : BaseTip // TypeDefIndex: 11640
+{	public static Translate.Phrase Phrase; // 0x1D6A6
 
 	public override bool ShouldShow { get; }
 
@@ -884,8 +884,8 @@ public class TipReskinObject : BaseTip // TypeDefIndex: 11636
 
 }
 
-public class TipSledPlacement : BaseTip // TypeDefIndex: 11637
-{	public static Translate.Phrase Phrase; // 0x1E48D
+public class TipSledPlacement : BaseTip // TypeDefIndex: 11641
+{	public static Translate.Phrase Phrase; // 0x2B117D0
 
 	public override bool ShouldShow { get; }
 
@@ -900,8 +900,8 @@ public class TipSledPlacement : BaseTip // TypeDefIndex: 11637
 
 }
 
-public class TipSleepingBagPlacement : BaseTip // TypeDefIndex: 11638
-{	public static Translate.Phrase Phrase; // 0x2B10568
+public class TipSleepingBagPlacement : BaseTip // TypeDefIndex: 11642
+{	public static Translate.Phrase Phrase; // 0x1D6B0
 
 	public override bool ShouldShow { get; }
 
@@ -916,9 +916,9 @@ public class TipSleepingBagPlacement : BaseTip // TypeDefIndex: 11638
 
 }
 
-public class TipSnapAttractionPoint : BaseTip // TypeDefIndex: 11639
+public class TipSnapAttractionPoint : BaseTip // TypeDefIndex: 11643
 {	public static Translate.Phrase Phrase; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static bool <HasDismissedSnap>k__BackingField; // 0x8
 
 	public override bool ShouldShow { get; }
@@ -929,10 +929,10 @@ public class TipSnapAttractionPoint : BaseTip // TypeDefIndex: 11639
 
 	public override bool get_ShouldShow() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool get_HasDismissedSnap() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void set_HasDismissedSnap(bool value) { }
 
 	public void .ctor() { }
@@ -941,7 +941,7 @@ public class TipSnapAttractionPoint : BaseTip // TypeDefIndex: 11639
 
 }
 
-public class TipSnowmobileSurface : BaseTip // TypeDefIndex: 11640
+public class TipSnowmobileSurface : BaseTip // TypeDefIndex: 11644
 {	public static Translate.Phrase Phrase; // 0x0
 	public static bool showedMessage; // 0x8
 	public static float nextTipTime; // 0xC
@@ -959,8 +959,8 @@ public class TipSnowmobileSurface : BaseTip // TypeDefIndex: 11640
 
 }
 
-public class TipSprayControls : BaseTip // TypeDefIndex: 11641
-{	public static Translate.Phrase Phrase; // 0x1E490
+public class TipSprayControls : BaseTip // TypeDefIndex: 11645
+{	public static Translate.Phrase Phrase; // 0x1D744
 
 	public override bool ShouldShow { get; }
 
@@ -975,8 +975,8 @@ public class TipSprayControls : BaseTip // TypeDefIndex: 11641
 
 }
 
-public class TipTooCold : BaseTip // TypeDefIndex: 11642
-{	public static Translate.Phrase Phrase; // 0x1E4B0
+public class TipTooCold : BaseTip // TypeDefIndex: 11646
+{	public static Translate.Phrase Phrase; // 0x2B119F8
 
 	public float ColdDuration { get; }
 	public bool IsCold { get; }
@@ -997,8 +997,8 @@ public class TipTooCold : BaseTip // TypeDefIndex: 11642
 
 }
 
-public class TipTooHot : BaseTip // TypeDefIndex: 11643
-{	public static Translate.Phrase Phrase; // 0x2B10368
+public class TipTooHot : BaseTip // TypeDefIndex: 11647
+{	public static Translate.Phrase Phrase; // 0x1D750
 
 	public float HotDuration { get; }
 	public bool IsHot { get; }
@@ -1019,8 +1019,8 @@ public class TipTooHot : BaseTip // TypeDefIndex: 11643
 
 }
 
-public class TipZipline : BaseTip // TypeDefIndex: 11644
-{	public static Translate.Phrase Phrase; // 0x1E4B0
+public class TipZipline : BaseTip // TypeDefIndex: 11648
+{	public static Translate.Phrase Phrase; // 0x1D7BB
 
 	public override bool ShouldShow { get; }
 

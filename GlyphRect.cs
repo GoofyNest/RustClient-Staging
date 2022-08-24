@@ -1,15 +1,15 @@
 public struct GlyphRect : IEquatable<GlyphRect> // TypeDefIndex: 4110
-{	[NativeNameAttribute] // RVA: 0x85A80 Offset: 0x84E80 VA: 0x180085A80
-	[SerializeField] // RVA: 0x85A80 Offset: 0x84E80 VA: 0x180085A80
+{	[NativeNameAttribute] // RVA: 0x85BA0 Offset: 0x84FA0 VA: 0x180085BA0
+	[SerializeField] // RVA: 0x85BA0 Offset: 0x84FA0 VA: 0x180085BA0
 	private int m_X; // 0x0
-	[SerializeField] // RVA: 0x85B50 Offset: 0x84F50 VA: 0x180085B50
-	[NativeNameAttribute] // RVA: 0x85B50 Offset: 0x84F50 VA: 0x180085B50
+	[SerializeField] // RVA: 0x85CA0 Offset: 0x850A0 VA: 0x180085CA0
+	[NativeNameAttribute] // RVA: 0x85CA0 Offset: 0x850A0 VA: 0x180085CA0
 	private int m_Y; // 0x4
-	[NativeNameAttribute] // RVA: 0x85C40 Offset: 0x85040 VA: 0x180085C40
-	[SerializeField] // RVA: 0x85C40 Offset: 0x85040 VA: 0x180085C40
+	[NativeNameAttribute] // RVA: 0x85D90 Offset: 0x85190 VA: 0x180085D90
+	[SerializeField] // RVA: 0x85D90 Offset: 0x85190 VA: 0x180085D90
 	private int m_Width; // 0x8
-	[SerializeField] // RVA: 0x85D60 Offset: 0x85160 VA: 0x180085D60
-	[NativeNameAttribute] // RVA: 0x85D60 Offset: 0x85160 VA: 0x180085D60
+	[SerializeField] // RVA: 0x85EB0 Offset: 0x852B0 VA: 0x180085EB0
+	[NativeNameAttribute] // RVA: 0x85EB0 Offset: 0x852B0 VA: 0x180085EB0
 	private int m_Height; // 0xC
 	private static readonly GlyphRect s_ZeroGlyphRect; // 0x0
 

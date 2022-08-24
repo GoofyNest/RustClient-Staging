@@ -741,19 +741,19 @@ public class CamperModule : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 public class BaseVehicle : BaseMountable // TypeDefIndex: 8351
 {	private Option __menuOption_Menu_Occupied; // 0x320
-	[TooltipAttribute] // RVA: 0xCB2E0 Offset: 0xCA6E0 VA: 0x1800CB2E0
+	[TooltipAttribute] // RVA: 0xCB410 Offset: 0xCA810 VA: 0x1800CB410
 	public bool mountChaining; // 0x378
 	public BaseVehicle.ClippingCheckMode clippingChecks; // 0x37C
 	public bool shouldShowHudHealth; // 0x380
 	public bool ignoreDamageFromOutside; // 0x381
-	[HeaderAttribute] // RVA: 0xCB390 Offset: 0xCA790 VA: 0x1800CB390
+	[HeaderAttribute] // RVA: 0xCB490 Offset: 0xCA890 VA: 0x1800CB490
 	public Rigidbody rigidBody; // 0x388
-	[HeaderAttribute] // RVA: 0xCB4E0 Offset: 0xCA8E0 VA: 0x1800CB4E0
+	[HeaderAttribute] // RVA: 0xCB5E0 Offset: 0xCA9E0 VA: 0x1800CB5E0
 	public List<BaseVehicle.MountPointInfo> mountPoints; // 0x390
 	public bool doClippingAndVisChecks; // 0x398
-	[HeaderAttribute] // RVA: 0xCB6A0 Offset: 0xCAAA0 VA: 0x1800CB6A0
+	[HeaderAttribute] // RVA: 0xCB770 Offset: 0xCAB70 VA: 0x1800CB770
 	public DamageRenderer damageRenderer; // 0x3A0
-	[FormerlySerializedAsAttribute] // RVA: 0xCB8C0 Offset: 0xCACC0 VA: 0x1800CB8C0
+	[FormerlySerializedAsAttribute] // RVA: 0xCB990 Offset: 0xCAD90 VA: 0x1800CB990
 	public float explosionForceMultiplier; // 0x3A8
 	public float explosionForceMax; // 0x3AC
 	public const BaseEntity.Flags Flag_OnlyOwnerEntry = 16;
@@ -790,10 +790,10 @@ public class BaseVehicle : BaseMountable // TypeDefIndex: 8351
 
 	public virtual bool Menu_Push_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xCBA80 Offset: 0xCAE80 VA: 0x1800CBA80
-	[BaseEntity.Menu.Description] // RVA: 0xCBA80 Offset: 0xCAE80 VA: 0x1800CBA80
-	[BaseEntity.Menu.Icon] // RVA: 0xCBA80 Offset: 0xCAE80 VA: 0x1800CBA80
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCBA80 Offset: 0xCAE80 VA: 0x1800CBA80
+	[BaseEntity.Menu] // RVA: 0xCBB60 Offset: 0xCAF60 VA: 0x1800CBB60
+	[BaseEntity.Menu.Description] // RVA: 0xCBB60 Offset: 0xCAF60 VA: 0x1800CBB60
+	[BaseEntity.Menu.Icon] // RVA: 0xCBB60 Offset: 0xCAF60 VA: 0x1800CBB60
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCBB60 Offset: 0xCAF60 VA: 0x1800CBB60
 	private void Menu_Occupied(BasePlayer player) { }
 
 	protected virtual bool Menu_Occupied_ShowIf(BasePlayer player) { }
@@ -880,17 +880,17 @@ public struct BaseVehicle.Enumerator : IEnumerator<BaseVehicle.MountPointInfo>, 
 	private int _index; // 0xC
 	private int _childIndex; // 0x10
 	private BaseVehicle.Enumerator.Box _enumerator; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private BaseVehicle.MountPointInfo <Current>k__BackingField; // 0x20
 
 	public BaseVehicle.MountPointInfo Current { get; set; }
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public BaseVehicle.MountPointInfo get_Current() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Current(BaseVehicle.MountPointInfo value) { }
 
 	public void .ctor(BaseVehicle vehicle) { }
@@ -931,30 +931,30 @@ public class BaseVehicleModule : BaseVehicle, IPrefabPreProcess // TypeDefIndex:
 	private Option __menuOption_Menu_Push; // 0x410
 	private Option __menuOption_Menu_Use; // 0x468
 	public const string CAR_LOCKED_ACTION_NAME = "car_locked";
-	[HeaderAttribute] // RVA: 0xCC240 Offset: 0xCB640 VA: 0x1800CC240
-	[SerializeField] // RVA: 0xCC240 Offset: 0xCB640 VA: 0x1800CC240
+	[HeaderAttribute] // RVA: 0xCC310 Offset: 0xCB710 VA: 0x1800CC310
+	[SerializeField] // RVA: 0xCC310 Offset: 0xCB710 VA: 0x1800CC310
 	private Transform centreOfMassTransform; // 0x4C0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float mass; // 0x4C8
 	public BaseVehicleModule.VisualGroup visualGroup; // 0x4CC
-	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	private VehicleLight[] lights; // 0x4D0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private BaseModularVehicle <Vehicle>k__BackingField; // 0x4D8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <FirstSocketIndex>k__BackingField; // 0x4E0
 	public BaseVehicleModule.LODLevel[] lodRenderers; // 0x4E8
-	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	private List<ConditionalObject> conditionals; // 0x4F0
-	[HeaderAttribute] // RVA: 0xCCB00 Offset: 0xCBF00 VA: 0x1800CCB00
-	[SerializeField] // RVA: 0xCCB00 Offset: 0xCBF00 VA: 0x1800CCB00
+	[HeaderAttribute] // RVA: 0xCCBF0 Offset: 0xCBFF0 VA: 0x1800CCBF0
+	[SerializeField] // RVA: 0xCCBF0 Offset: 0xCBFF0 VA: 0x1800CCBF0
 	private TriggerParent[] triggerParents; // 0x4F8
-	[HeaderAttribute] // RVA: 0xCCD30 Offset: 0xCC130 VA: 0x1800CCD30
-	[SerializeField] // RVA: 0xCCD30 Offset: 0xCC130 VA: 0x1800CCD30
+	[HeaderAttribute] // RVA: 0xCCE60 Offset: 0xCC260 VA: 0x1800CCE60
+	[SerializeField] // RVA: 0xCCE60 Offset: 0xCC260 VA: 0x1800CCE60
 	private VehicleModuleSlidingComponent[] slidingComponents; // 0x500
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleModuleButtonComponent[] buttonComponents; // 0x508
 	private TimeSince TimeSinceAddedToVehicle; // 0x510
 	private float prevRefreshHealth; // 0x514
@@ -999,40 +999,40 @@ public class BaseVehicleModule : BaseVehicle, IPrefabPreProcess // TypeDefIndex:
 
 	public override void UpdatePlayerModel(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
-	[BaseEntity.Menu.Description] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
-	[BaseEntity.Menu.Icon] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
+	[BaseEntity.Menu] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu.Description] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu.Icon] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
 	public void Menu_Push(BasePlayer player) { }
 
 	public override bool Menu_Push_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xCD080 Offset: 0xCC480 VA: 0x1800CD080
-	[BaseEntity.Menu.Description] // RVA: 0xCD080 Offset: 0xCC480 VA: 0x1800CD080
-	[BaseEntity.Menu.Icon] // RVA: 0xCD080 Offset: 0xCC480 VA: 0x1800CD080
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCD080 Offset: 0xCC480 VA: 0x1800CD080
+	[BaseEntity.Menu] // RVA: 0xCD190 Offset: 0xCC590 VA: 0x1800CD190
+	[BaseEntity.Menu.Description] // RVA: 0xCD190 Offset: 0xCC590 VA: 0x1800CD190
+	[BaseEntity.Menu.Icon] // RVA: 0xCD190 Offset: 0xCC590 VA: 0x1800CD190
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCD190 Offset: 0xCC590 VA: 0x1800CD190
 	public void Menu_Use(BasePlayer player) { }
 
 	public bool Menu_Use_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xCD300 Offset: 0xCC700 VA: 0x1800CD300
-	[BaseEntity.Menu.Description] // RVA: 0xCD300 Offset: 0xCC700 VA: 0x1800CD300
-	[BaseEntity.Menu.Icon] // RVA: 0xCD300 Offset: 0xCC700 VA: 0x1800CD300
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCD300 Offset: 0xCC700 VA: 0x1800CD300
+	[BaseEntity.Menu] // RVA: 0xCD3E0 Offset: 0xCC7E0 VA: 0x1800CD3E0
+	[BaseEntity.Menu.Description] // RVA: 0xCD3E0 Offset: 0xCC7E0 VA: 0x1800CD3E0
+	[BaseEntity.Menu.Icon] // RVA: 0xCD3E0 Offset: 0xCC7E0 VA: 0x1800CD3E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCD3E0 Offset: 0xCC7E0 VA: 0x1800CD3E0
 	public void Menu_Locked(BasePlayer player) { }
 
 	public virtual bool Menu_Locked_ShowIf(BasePlayer player) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public BaseModularVehicle get_Vehicle() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Vehicle(BaseModularVehicle value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_FirstSocketIndex() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_FirstSocketIndex(int value) { }
 
 	public Vector3 get_CentreOfMass() { }
@@ -1132,18 +1132,18 @@ public class EngineSwitch : BaseEntity // TypeDefIndex: 8389
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.Menu] // RVA: 0xDC460 Offset: 0xDB860 VA: 0x1800DC460
-	[BaseEntity.Menu.Description] // RVA: 0xDC460 Offset: 0xDB860 VA: 0x1800DC460
-	[BaseEntity.Menu.Icon] // RVA: 0xDC460 Offset: 0xDB860 VA: 0x1800DC460
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDC460 Offset: 0xDB860 VA: 0x1800DC460
+	[BaseEntity.Menu] // RVA: 0xDC510 Offset: 0xDB910 VA: 0x1800DC510
+	[BaseEntity.Menu.Description] // RVA: 0xDC510 Offset: 0xDB910 VA: 0x1800DC510
+	[BaseEntity.Menu.Icon] // RVA: 0xDC510 Offset: 0xDB910 VA: 0x1800DC510
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDC510 Offset: 0xDB910 VA: 0x1800DC510
 	public void Menu_StartEngine(BasePlayer player) { }
 
 	public bool Menu_EngineOn_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xDD950 Offset: 0xDCD50 VA: 0x1800DD950
-	[BaseEntity.Menu.Description] // RVA: 0xDD950 Offset: 0xDCD50 VA: 0x1800DD950
-	[BaseEntity.Menu.Icon] // RVA: 0xDD950 Offset: 0xDCD50 VA: 0x1800DD950
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDD950 Offset: 0xDCD50 VA: 0x1800DD950
+	[BaseEntity.Menu] // RVA: 0xDDA80 Offset: 0xDCE80 VA: 0x1800DDA80
+	[BaseEntity.Menu.Description] // RVA: 0xDDA80 Offset: 0xDCE80 VA: 0x1800DDA80
+	[BaseEntity.Menu.Icon] // RVA: 0xDDA80 Offset: 0xDCE80 VA: 0x1800DDA80
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDDA80 Offset: 0xDCE80 VA: 0x1800DDA80
 	public void Menu_StopEngine(BasePlayer player) { }
 
 	public bool Menu_EngineOff_ShowIf(BasePlayer player) { }
@@ -1155,13 +1155,13 @@ public class EngineSwitch : BaseEntity // TypeDefIndex: 8389
 public class ModularCar : BaseModularVehicle, IVehicleLockUser, VehicleChassisVisuals.IClientWheelUser<ModularCar> // TypeDefIndex: 8415
 {	private Option __menuOption_Menu_FuelStorage; // 0x4C0
 	private Option __menuOption_Menu_Locked; // 0x518
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataFL>k__BackingField; // 0x570
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataFR>k__BackingField; // 0x578
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataRL>k__BackingField; // 0x580
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleChassisVisuals.ClientWheelData<ModularCar> <WheelDataRR>k__BackingField; // 0x588
 	public TimeSince timeSinceLastUpdate; // 0x590
 	public TimeSince timeSinceFailedStartAttempt; // 0x594
@@ -1176,33 +1176,33 @@ public class ModularCar : BaseModularVehicle, IVehicleLockUser, VehicleChassisVi
 	private bool wasBraking; // 0x5B5
 	private const float FAILED_START_LIGHT_TIME = 1;
 	private static int detailColorID; // 0x0
-	[HeaderAttribute] // RVA: 0x71520 Offset: 0x70920 VA: 0x180071520
+	[HeaderAttribute] // RVA: 0x71620 Offset: 0x70A20 VA: 0x180071620
 	public ModularCarChassisVisuals chassisVisuals; // 0x5B8
 	public VisualCarWheel wheelFL; // 0x5C0
 	public VisualCarWheel wheelFR; // 0x5C8
 	public VisualCarWheel wheelRL; // 0x5D0
 	public VisualCarWheel wheelRR; // 0x5D8
 	public ItemDefinition carKeyDefinition; // 0x5E0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CarSettings carSettings; // 0x5E8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float hurtTriggerMinSpeed; // 0x5F0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TriggerHurtNotChild hurtTriggerFront; // 0x5F8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TriggerHurtNotChild hurtTriggerRear; // 0x600
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ProtectionProperties immortalProtection; // 0x608
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ProtectionProperties mortalProtection; // 0x610
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ModularCar.SpawnSettings spawnSettings; // 0x618
-	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	private MeshRenderer[] damageShowingRenderers; // 0x620
-	[ServerVar] // RVA: 0x71F60 Offset: 0x71360 VA: 0x180071F60
+	[ServerVar] // RVA: 0x71FC0 Offset: 0x713C0 VA: 0x180071FC0
 	public static float population; // 0x4
-	[ServerVar] // RVA: 0x72140 Offset: 0x71540 VA: 0x180072140
+	[ServerVar] // RVA: 0x721B0 Offset: 0x715B0 VA: 0x1800721B0
 	public static float outsidedecayminutes; // 0x8
 	public const BUTTON RapidSteerButton = 128;
 	public ModularCarLock carLock; // 0x628
@@ -1228,28 +1228,28 @@ public class ModularCar : BaseModularVehicle, IVehicleLockUser, VehicleChassisVi
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> get_WheelDataFL() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_WheelDataFL(VehicleChassisVisuals.ClientWheelData<ModularCar> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> get_WheelDataFR() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_WheelDataFR(VehicleChassisVisuals.ClientWheelData<ModularCar> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> get_WheelDataRL() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_WheelDataRL(VehicleChassisVisuals.ClientWheelData<ModularCar> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public VehicleChassisVisuals.ClientWheelData<ModularCar> get_WheelDataRR() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_WheelDataRR(VehicleChassisVisuals.ClientWheelData<ModularCar> value) { }
 
 	protected override void ClientInit(Entity info) { }
@@ -1272,18 +1272,18 @@ public class ModularCar : BaseModularVehicle, IVehicleLockUser, VehicleChassisVi
 
 	protected override bool IsBraking() { }
 
-	[BaseEntity.Menu] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
-	[BaseEntity.Menu.Description] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
-	[BaseEntity.Menu.Icon] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x73EC0 Offset: 0x732C0 VA: 0x180073EC0
+	[BaseEntity.Menu] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
+	[BaseEntity.Menu.Description] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
+	[BaseEntity.Menu.Icon] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
 	public void Menu_FuelStorage(BasePlayer player) { }
 
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x75390 Offset: 0x74790 VA: 0x180075390
-	[BaseEntity.Menu.Description] // RVA: 0x75390 Offset: 0x74790 VA: 0x180075390
-	[BaseEntity.Menu.Icon] // RVA: 0x75390 Offset: 0x74790 VA: 0x180075390
-	[BaseEntity.Menu.ShowIf] // RVA: 0x75390 Offset: 0x74790 VA: 0x180075390
+	[BaseEntity.Menu] // RVA: 0x75450 Offset: 0x74850 VA: 0x180075450
+	[BaseEntity.Menu.Description] // RVA: 0x75450 Offset: 0x74850 VA: 0x180075450
+	[BaseEntity.Menu.Icon] // RVA: 0x75450 Offset: 0x74850 VA: 0x180075450
+	[BaseEntity.Menu.ShowIf] // RVA: 0x75450 Offset: 0x74850 VA: 0x180075450
 	public void Menu_Locked(BasePlayer player) { }
 
 	public bool Menu_Locked_ShowIf(BasePlayer player) { }
@@ -1294,10 +1294,10 @@ public class ModularCar : BaseModularVehicle, IVehicleLockUser, VehicleChassisVi
 
 	public override float GetHUDMaxHealth() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void ModularCarUpdate(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void EngineStartFailed(BaseEntity.RPCMessage msg) { }
 
 	public override float get_DriveWheelVelocity() { }
@@ -1365,13 +1365,13 @@ public class ModularCar : BaseModularVehicle, IVehicleLockUser, VehicleChassisVi
 }
 
 public class ModularCar.SpawnSettings // TypeDefIndex: 8416
-{	[TooltipAttribute] // RVA: 0x759A0 Offset: 0x74DA0 VA: 0x1800759A0
+{	[TooltipAttribute] // RVA: 0x759E0 Offset: 0x74DE0 VA: 0x1800759E0
 	public bool useSpawnSettings; // 0x10
-	[TooltipAttribute] // RVA: 0x75AC0 Offset: 0x74EC0 VA: 0x180075AC0
+	[TooltipAttribute] // RVA: 0x75B30 Offset: 0x74F30 VA: 0x180075B30
 	public ModularCarPresetConfig[] configurationOptions; // 0x18
-	[TooltipAttribute] // RVA: 0x75D60 Offset: 0x75160 VA: 0x180075D60
+	[TooltipAttribute] // RVA: 0x75E00 Offset: 0x75200 VA: 0x180075E00
 	public float minStartHealthPercent; // 0x20
-	[TooltipAttribute] // RVA: 0x75E60 Offset: 0x75260 VA: 0x180075E60
+	[TooltipAttribute] // RVA: 0x75F30 Offset: 0x75330 VA: 0x180075F30
 	public float maxStartHealthPercent; // 0x24
 	public ModularCar.SpawnSettings.AdminBonus adminBonus; // 0x28
 
@@ -1393,49 +1393,49 @@ public class ModularCarGarage : ContainerIOEntity // TypeDefIndex: 8418
 {	private Option __menuOption_Menu_EditVehicle; // 0x378
 	private Option __menuOption_Menu_InsufficientPower; // 0x3D0
 	private TimeSince lastChassisDestroyTime; // 0x428
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform vehicleLift; // 0x430
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Animation vehicleLiftAnim; // 0x438
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string animName; // 0x440
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleLiftOccupantTrigger occupantTrigger; // 0x448
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float liftMoveTime; // 0x450
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private EmissionToggle poweredLight; // 0x458
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private EmissionToggle inUseLight; // 0x460
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform vehicleLiftPos; // 0x468
-	[SerializeField] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
-	[RangeAttribute] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
+	[SerializeField] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
+	[RangeAttribute] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
 	private float recycleEfficiency; // 0x470
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform recycleDropPos; // 0x478
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool needsElectricity; // 0x480
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition liftStartSoundDef; // 0x488
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition liftStopSoundDef; // 0x490
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition liftStopDownSoundDef; // 0x498
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition liftLoopSoundDef; // 0x4A0
 	public ModularCarGarage.ChassisBuildOption[] chassisBuildOptions; // 0x4A8
 	public ItemAmount lockResourceCost; // 0x4B0
 	public ItemDefinition carKeyDefinition; // 0x4B8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <PlatformIsOccupied>k__BackingField; // 0x4C0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <HasEditableOccupant>k__BackingField; // 0x4C1
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <HasDriveableOccupant>k__BackingField; // 0x4C2
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ModularCarGarage.OccupantLock <OccupantLockState>k__BackingField; // 0x4C4
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <OccupantLockID>k__BackingField; // 0x4C8
 	private ModularCarGarage.VehicleLiftState vehicleLiftState; // 0x4CC
 	private Sound liftLoopSound; // 0x4D0
@@ -1484,18 +1484,18 @@ public class ModularCarGarage : ContainerIOEntity // TypeDefIndex: 8418
 
 	private void RefreshInUseLightState() { }
 
-	[BaseEntity.Menu] // RVA: 0x77310 Offset: 0x76710 VA: 0x180077310
-	[BaseEntity.Menu.Description] // RVA: 0x77310 Offset: 0x76710 VA: 0x180077310
-	[BaseEntity.Menu.Icon] // RVA: 0x77310 Offset: 0x76710 VA: 0x180077310
-	[BaseEntity.Menu.ShowIf] // RVA: 0x77310 Offset: 0x76710 VA: 0x180077310
+	[BaseEntity.Menu] // RVA: 0x77400 Offset: 0x76800 VA: 0x180077400
+	[BaseEntity.Menu.Description] // RVA: 0x77400 Offset: 0x76800 VA: 0x180077400
+	[BaseEntity.Menu.Icon] // RVA: 0x77400 Offset: 0x76800 VA: 0x180077400
+	[BaseEntity.Menu.ShowIf] // RVA: 0x77400 Offset: 0x76800 VA: 0x180077400
 	public void Menu_EditVehicle(BasePlayer player) { }
 
 	public bool Menu_EditVehicle_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x77650 Offset: 0x76A50 VA: 0x180077650
-	[BaseEntity.Menu.Description] // RVA: 0x77650 Offset: 0x76A50 VA: 0x180077650
-	[BaseEntity.Menu.Icon] // RVA: 0x77650 Offset: 0x76A50 VA: 0x180077650
-	[BaseEntity.Menu.ShowIf] // RVA: 0x77650 Offset: 0x76A50 VA: 0x180077650
+	[BaseEntity.Menu] // RVA: 0x77700 Offset: 0x76B00 VA: 0x180077700
+	[BaseEntity.Menu.Description] // RVA: 0x77700 Offset: 0x76B00 VA: 0x180077700
+	[BaseEntity.Menu.Icon] // RVA: 0x77700 Offset: 0x76B00 VA: 0x180077700
+	[BaseEntity.Menu.ShowIf] // RVA: 0x77700 Offset: 0x76B00 VA: 0x180077700
 	public void Menu_InsufficientPower(BasePlayer player) { }
 
 	public bool Menu_InsufficientPower_ShowIf(BasePlayer player) { }
@@ -1506,34 +1506,34 @@ public class ModularCarGarage : ContainerIOEntity // TypeDefIndex: 8418
 
 	public float get_TimeLeftToCancelChassisDestroy() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_PlatformIsOccupied() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_PlatformIsOccupied(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_HasEditableOccupant() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_HasEditableOccupant(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_HasDriveableOccupant() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_HasDriveableOccupant(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public ModularCarGarage.OccupantLock get_OccupantLockState() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_OccupantLockState(ModularCarGarage.OccupantLock value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_OccupantLockID() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_OccupantLockID(int value) { }
 
 	private bool get_LiftIsUp() { }
@@ -1598,7 +1598,7 @@ public class MotorRowboat : BaseBoat // TypeDefIndex: 8422
 {	private Option __menuOption_Menu_FuelStorage; // 0x438
 	private Option __menuOption_Menu_StartEngine; // 0x490
 	private Option __menuOption_Menu_StopEngine; // 0x4E8
-	[HeaderAttribute] // RVA: 0x720C0 Offset: 0x714C0 VA: 0x1800720C0
+	[HeaderAttribute] // RVA: 0x72120 Offset: 0x71520 VA: 0x180072120
 	public BlendedSoundLoops engineLoops; // 0x540
 	public BlendedSoundLoops waterLoops; // 0x548
 	public SoundDefinition engineStartSoundDef; // 0x550
@@ -1627,13 +1627,13 @@ public class MotorRowboat : BaseBoat // TypeDefIndex: 8422
 	protected const BaseEntity.Flags Flag_HasFuel = 16384;
 	protected const BaseEntity.Flags Flag_RecentlyPushed = 65536;
 	private const float submergeFractionMinimum = 0,85;
-	[HeaderAttribute] // RVA: 0x78540 Offset: 0x77940 VA: 0x180078540
+	[HeaderAttribute] // RVA: 0x785A0 Offset: 0x779A0 VA: 0x1800785A0
 	public GameObjectRef fuelStoragePrefab; // 0x5B0
 	public float fuelPerSec; // 0x5B8
-	[HeaderAttribute] // RVA: 0x786B0 Offset: 0x77AB0 VA: 0x1800786B0
+	[HeaderAttribute] // RVA: 0x78720 Offset: 0x77B20 VA: 0x180078720
 	public GameObjectRef storageUnitPrefab; // 0x5C0
 	public EntityRef<StorageContainer> storageUnitInstance; // 0x5C8
-	[HeaderAttribute] // RVA: 0x787C0 Offset: 0x77BC0 VA: 0x1800787C0
+	[HeaderAttribute] // RVA: 0x78850 Offset: 0x77C50 VA: 0x180078850
 	public Transform boatRear; // 0x5D8
 	public ParticleSystemContainer wakeEffect; // 0x5E0
 	public ParticleSystemContainer engineEffectIdle; // 0x5E8
@@ -1643,11 +1643,11 @@ public class MotorRowboat : BaseBoat // TypeDefIndex: 8422
 	public Transform engineLeftHandPosition; // 0x608
 	public Transform engineRotate; // 0x610
 	public Transform propellerRotate; // 0x618
-	[ServerVar] // RVA: 0x71F60 Offset: 0x71360 VA: 0x180071F60
+	[ServerVar] // RVA: 0x71FC0 Offset: 0x713C0 VA: 0x180071FC0
 	public static float population; // 0x0
-	[ServerVar] // RVA: 0x79E60 Offset: 0x79260 VA: 0x180079E60
+	[ServerVar] // RVA: 0x79F40 Offset: 0x79340 VA: 0x180079F40
 	public static float outsidedecayminutes; // 0x4
-	[ServerVar] // RVA: 0x79F70 Offset: 0x79370 VA: 0x180079F70
+	[ServerVar] // RVA: 0x7A060 Offset: 0x79460 VA: 0x18007A060
 	public static float deepwaterdecayminutes; // 0x8
 	protected EntityFuelSystem fuelSystem; // 0x620
 	public Transform[] stationaryDismounts; // 0x628
@@ -1705,26 +1705,26 @@ public class MotorRowboat : BaseBoat // TypeDefIndex: 8422
 
 	public virtual bool LookingAtFuelArea(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7A140 Offset: 0x79540 VA: 0x18007A140
-	[BaseEntity.Menu.Description] // RVA: 0x7A140 Offset: 0x79540 VA: 0x18007A140
-	[BaseEntity.Menu.Icon] // RVA: 0x7A140 Offset: 0x79540 VA: 0x18007A140
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7A140 Offset: 0x79540 VA: 0x18007A140
+	[BaseEntity.Menu] // RVA: 0x7A230 Offset: 0x79630 VA: 0x18007A230
+	[BaseEntity.Menu.Description] // RVA: 0x7A230 Offset: 0x79630 VA: 0x18007A230
+	[BaseEntity.Menu.Icon] // RVA: 0x7A230 Offset: 0x79630 VA: 0x18007A230
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7A230 Offset: 0x79630 VA: 0x18007A230
 	public void Menu_StartEngine(BasePlayer player) { }
 
 	public bool Menu_StartEngine_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7A540 Offset: 0x79940 VA: 0x18007A540
-	[BaseEntity.Menu.Description] // RVA: 0x7A540 Offset: 0x79940 VA: 0x18007A540
-	[BaseEntity.Menu.Icon] // RVA: 0x7A540 Offset: 0x79940 VA: 0x18007A540
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7A540 Offset: 0x79940 VA: 0x18007A540
+	[BaseEntity.Menu] // RVA: 0x7A5F0 Offset: 0x799F0 VA: 0x18007A5F0
+	[BaseEntity.Menu.Description] // RVA: 0x7A5F0 Offset: 0x799F0 VA: 0x18007A5F0
+	[BaseEntity.Menu.Icon] // RVA: 0x7A5F0 Offset: 0x799F0 VA: 0x18007A5F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7A5F0 Offset: 0x799F0 VA: 0x18007A5F0
 	public void Menu_StopEngine(BasePlayer player) { }
 
 	public bool Menu_StopEngine_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7A840 Offset: 0x79C40 VA: 0x18007A840
-	[BaseEntity.Menu.Description] // RVA: 0x7A840 Offset: 0x79C40 VA: 0x18007A840
-	[BaseEntity.Menu.Icon] // RVA: 0x7A840 Offset: 0x79C40 VA: 0x18007A840
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7A840 Offset: 0x79C40 VA: 0x18007A840
+	[BaseEntity.Menu] // RVA: 0x7A8A0 Offset: 0x79CA0 VA: 0x18007A8A0
+	[BaseEntity.Menu.Description] // RVA: 0x7A8A0 Offset: 0x79CA0 VA: 0x18007A8A0
+	[BaseEntity.Menu.Icon] // RVA: 0x7A8A0 Offset: 0x79CA0 VA: 0x18007A8A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7A8A0 Offset: 0x79CA0 VA: 0x18007A8A0
 	public void Menu_FuelStorage(BasePlayer player) { }
 
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
@@ -1779,52 +1779,52 @@ public class VehicleModuleCamper : VehicleModuleSeating // TypeDefIndex: 8477
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0x854E0 Offset: 0x848E0 VA: 0x1800854E0
-	[BaseEntity.Menu.Icon] // RVA: 0x854E0 Offset: 0x848E0 VA: 0x1800854E0
-	[BaseEntity.Menu.Description] // RVA: 0x854E0 Offset: 0x848E0 VA: 0x1800854E0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x854E0 Offset: 0x848E0 VA: 0x1800854E0
+	[BaseEntity.Menu] // RVA: 0x855E0 Offset: 0x849E0 VA: 0x1800855E0
+	[BaseEntity.Menu.Icon] // RVA: 0x855E0 Offset: 0x849E0 VA: 0x1800855E0
+	[BaseEntity.Menu.Description] // RVA: 0x855E0 Offset: 0x849E0 VA: 0x1800855E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x855E0 Offset: 0x849E0 VA: 0x1800855E0
 	public void Menu_MakeBed(BasePlayer player) { }
 
 	public virtual bool Menu_MakeBed_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x96B80 Offset: 0x95F80 VA: 0x180096B80
-	[BaseEntity.Menu.Icon] // RVA: 0x96B80 Offset: 0x95F80 VA: 0x180096B80
-	[BaseEntity.Menu.Description] // RVA: 0x96B80 Offset: 0x95F80 VA: 0x180096B80
-	[BaseEntity.Menu.ShowIf] // RVA: 0x96B80 Offset: 0x95F80 VA: 0x180096B80
+	[BaseEntity.Menu] // RVA: 0x96C80 Offset: 0x96080 VA: 0x180096C80
+	[BaseEntity.Menu.Icon] // RVA: 0x96C80 Offset: 0x96080 VA: 0x180096C80
+	[BaseEntity.Menu.Description] // RVA: 0x96C80 Offset: 0x96080 VA: 0x180096C80
+	[BaseEntity.Menu.ShowIf] // RVA: 0x96C80 Offset: 0x96080 VA: 0x180096C80
 	public void Menu_ClearBedOwner(BasePlayer player) { }
 
 	public virtual bool Menu_ClearBedOwner_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
-	[BaseEntity.Menu.Icon] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
-	[BaseEntity.Menu.Description] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
-	[BaseEntity.Menu.ShowIf] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
+	[BaseEntity.Menu] // RVA: 0x84A90 Offset: 0x83E90 VA: 0x180084A90
+	[BaseEntity.Menu.Icon] // RVA: 0x84A90 Offset: 0x83E90 VA: 0x180084A90
+	[BaseEntity.Menu.Description] // RVA: 0x84A90 Offset: 0x83E90 VA: 0x180084A90
+	[BaseEntity.Menu.ShowIf] // RVA: 0x84A90 Offset: 0x83E90 VA: 0x180084A90
 	public void Menu_AssignToFriend(BasePlayer player) { }
 
 	public virtual bool Menu_AssignToFriend_Test(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x84650 Offset: 0x83A50 VA: 0x180084650
-	[BaseEntity.Menu.Icon] // RVA: 0x84650 Offset: 0x83A50 VA: 0x180084650
-	[BaseEntity.Menu.Description] // RVA: 0x84650 Offset: 0x83A50 VA: 0x180084650
-	[BaseEntity.Menu.ShowIf] // RVA: 0x84650 Offset: 0x83A50 VA: 0x180084650
+	[BaseEntity.Menu] // RVA: 0x84760 Offset: 0x83B60 VA: 0x180084760
+	[BaseEntity.Menu.Icon] // RVA: 0x84760 Offset: 0x83B60 VA: 0x180084760
+	[BaseEntity.Menu.Description] // RVA: 0x84760 Offset: 0x83B60 VA: 0x180084760
+	[BaseEntity.Menu.ShowIf] // RVA: 0x84760 Offset: 0x83B60 VA: 0x180084760
 	public void Menu_Rename(BasePlayer player) { }
 
 	protected virtual bool CanRename_Test(BasePlayer player) { }
 
 	private SleepingBagCamper GetSleepingBagForPlayer(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0x97550 Offset: 0x96950 VA: 0x180097550
-	[BaseEntity.Menu.Description] // RVA: 0x97550 Offset: 0x96950 VA: 0x180097550
-	[BaseEntity.Menu.Icon] // RVA: 0x97550 Offset: 0x96950 VA: 0x180097550
-	[BaseEntity.Menu.ShowIf] // RVA: 0x97550 Offset: 0x96950 VA: 0x180097550
+	[BaseEntity.Menu] // RVA: 0x97680 Offset: 0x96A80 VA: 0x180097680
+	[BaseEntity.Menu.Description] // RVA: 0x97680 Offset: 0x96A80 VA: 0x180097680
+	[BaseEntity.Menu.Icon] // RVA: 0x97680 Offset: 0x96A80 VA: 0x180097680
+	[BaseEntity.Menu.ShowIf] // RVA: 0x97680 Offset: 0x96A80 VA: 0x180097680
 	public void Menu_OpenLocker(BasePlayer player) { }
 
 	public bool Menu_OpenLocker_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x97790 Offset: 0x96B90 VA: 0x180097790
-	[BaseEntity.Menu.Description] // RVA: 0x97790 Offset: 0x96B90 VA: 0x180097790
-	[BaseEntity.Menu.Icon] // RVA: 0x97790 Offset: 0x96B90 VA: 0x180097790
-	[BaseEntity.Menu.ShowIf] // RVA: 0x97790 Offset: 0x96B90 VA: 0x180097790
+	[BaseEntity.Menu] // RVA: 0x978C0 Offset: 0x96CC0 VA: 0x1800978C0
+	[BaseEntity.Menu.Description] // RVA: 0x978C0 Offset: 0x96CC0 VA: 0x1800978C0
+	[BaseEntity.Menu.Icon] // RVA: 0x978C0 Offset: 0x96CC0 VA: 0x1800978C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x978C0 Offset: 0x96CC0 VA: 0x1800978C0
 	public void Menu_OpenStorage(BasePlayer player) { }
 
 	public bool Menu_OpenStorage_ShowIf(BasePlayer player) { }
@@ -1835,29 +1835,29 @@ public class VehicleModuleCamper : VehicleModuleSeating // TypeDefIndex: 8477
 
 public class VehicleModuleSeating : BaseVehicleModule, IPrefabPreProcess // TypeDefIndex: 8478
 {	private Option __menuOption_Menu_DestroyLock; // 0x520
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ProtectionProperties passengerProtection; // 0x578
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleModuleSeating.Seating seating; // 0x580
-	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	private Vector3 steerAngle; // 0x588
-	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	private Vector3 accelAngle; // 0x594
-	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	private Vector3 brakeAngle; // 0x5A0
-	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	private Vector3 speedometerAngle; // 0x5AC
-	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	private Vector3 fuelAngle; // 0x5B8
-	[HeaderAttribute] // RVA: 0x96880 Offset: 0x95C80 VA: 0x180096880
-	[SerializeField] // RVA: 0x96880 Offset: 0x95C80 VA: 0x180096880
+	[HeaderAttribute] // RVA: 0x96930 Offset: 0x95D30 VA: 0x180096930
+	[SerializeField] // RVA: 0x96930 Offset: 0x95D30 VA: 0x180096930
 	private SoundDefinition hornLoop; // 0x5C8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition hornStart; // 0x5D0
 	private Sound activeHorn; // 0x5D8
 	private const BaseEntity.Flags FLAG_HORN = 65536;
@@ -1866,7 +1866,7 @@ public class VehicleModuleSeating : BaseVehicleModule, IPrefabPreProcess // Type
 	private float brakePercent; // 0x5E8
 	private Nullable<bool> checkEngineLightOn; // 0x5EC
 	private Nullable<bool> fuelLightOn; // 0x5EE
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ModularCar <Car>k__BackingField; // 0x5F0
 	protected IVehicleLockUser VehicleLockUser; // 0x5F8
 	private MaterialPropertyBlock dashboardLightPB; // 0x600
@@ -1888,10 +1888,10 @@ public class VehicleModuleSeating : BaseVehicleModule, IPrefabPreProcess // Type
 
 	public override bool get_HasSeating() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected ModularCar get_Car() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Car(ModularCar value) { }
 
 	protected bool get_IsOnACar() { }
@@ -1922,10 +1922,10 @@ public class VehicleModuleSeating : BaseVehicleModule, IPrefabPreProcess // Type
 
 	private bool LookingAtAMountHotSpot(BasePlayer localPlayer) { }
 
-	[BaseEntity.Menu] // RVA: 0x98A20 Offset: 0x97E20 VA: 0x180098A20
-	[BaseEntity.Menu.Description] // RVA: 0x98A20 Offset: 0x97E20 VA: 0x180098A20
-	[BaseEntity.Menu.Icon] // RVA: 0x98A20 Offset: 0x97E20 VA: 0x180098A20
-	[BaseEntity.Menu.ShowIf] // RVA: 0x98A20 Offset: 0x97E20 VA: 0x180098A20
+	[BaseEntity.Menu] // RVA: 0x98B50 Offset: 0x97F50 VA: 0x180098B50
+	[BaseEntity.Menu.Description] // RVA: 0x98B50 Offset: 0x97F50 VA: 0x180098B50
+	[BaseEntity.Menu.Icon] // RVA: 0x98B50 Offset: 0x97F50 VA: 0x180098B50
+	[BaseEntity.Menu.ShowIf] // RVA: 0x98B50 Offset: 0x97F50 VA: 0x180098B50
 	public void Menu_DestroyLock(BasePlayer player) { }
 
 	public bool Menu_DestroyLock_ShowIf(BasePlayer player) { }
@@ -1956,10 +1956,10 @@ public class VehicleModuleSeating.MountHotSpot // TypeDefIndex: 8479
 }
 
 public class VehicleModuleSeating.Seating // TypeDefIndex: 8480
-{	[HeaderAttribute] // RVA: 0x98D60 Offset: 0x98160 VA: 0x180098D60
+{	[HeaderAttribute] // RVA: 0x98E90 Offset: 0x98290 VA: 0x180098E90
 	public bool doorsAreLockable; // 0x10
-	[ObsoleteAttribute] // RVA: 0x98E30 Offset: 0x98230 VA: 0x180098E30
-	[HideInInspector] // RVA: 0x98E30 Offset: 0x98230 VA: 0x180098E30
+	[ObsoleteAttribute] // RVA: 0x98F60 Offset: 0x98360 VA: 0x180098F60
+	[HideInInspector] // RVA: 0x98F60 Offset: 0x98360 VA: 0x180098F60
 	public BaseVehicle.MountPointInfo[] mountPoints; // 0x18
 	public Transform steeringWheel; // 0x20
 	public Transform accelPedal; // 0x28
@@ -1969,17 +1969,17 @@ public class VehicleModuleSeating.Seating // TypeDefIndex: 8480
 	public Transform accelPedalGrip; // 0x48
 	public Transform brakePedalGrip; // 0x50
 	public VehicleModuleSeating.MountHotSpot[] mountHotSpots; // 0x58
-	[HeaderAttribute] // RVA: 0x990A0 Offset: 0x984A0 VA: 0x1800990A0
+	[HeaderAttribute] // RVA: 0x991D0 Offset: 0x985D0 VA: 0x1800991D0
 	public Transform speedometer; // 0x60
 	public Transform fuelGauge; // 0x68
 	public Renderer dashboardRenderer; // 0x70
-	[RangeAttribute] // RVA: 0x84500 Offset: 0x83900 VA: 0x180084500
+	[RangeAttribute] // RVA: 0x84610 Offset: 0x83A10 VA: 0x180084610
 	public int checkEngineLightMatIndex; // 0x78
-	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
+	[ColorUsageAttribute] // RVA: 0x85C80 Offset: 0x85080 VA: 0x180085C80
 	public Color checkEngineLightEmission; // 0x7C
-	[RangeAttribute] // RVA: 0x84500 Offset: 0x83900 VA: 0x180084500
+	[RangeAttribute] // RVA: 0x84610 Offset: 0x83A10 VA: 0x180084610
 	public int fuelLightMatIndex; // 0x8C
-	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
+	[ColorUsageAttribute] // RVA: 0x85C80 Offset: 0x85080 VA: 0x180085C80
 	public Color fuelLightEmission; // 0x90
 
 
@@ -1989,7 +1989,7 @@ public class VehicleModuleSeating.Seating // TypeDefIndex: 8480
 
 public class VehicleModuleStorage : VehicleModuleSeating // TypeDefIndex: 8481
 {	private Option __menuOption_Menu_Open; // 0x608
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleModuleStorage.Storage storage; // 0x660
 	private EntityRef storageUnitInstance; // 0x668
 
@@ -2008,10 +2008,10 @@ public class VehicleModuleStorage : VehicleModuleSeating // TypeDefIndex: 8481
 
 	public override bool CanBeLooted(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
-	[BaseEntity.Menu.Description] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
-	[BaseEntity.Menu.Icon] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x946C0 Offset: 0x93AC0 VA: 0x1800946C0
+	[BaseEntity.Menu] // RVA: 0x947C0 Offset: 0x93BC0 VA: 0x1800947C0
+	[BaseEntity.Menu.Description] // RVA: 0x947C0 Offset: 0x93BC0 VA: 0x1800947C0
+	[BaseEntity.Menu.Icon] // RVA: 0x947C0 Offset: 0x93BC0 VA: 0x1800947C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x947C0 Offset: 0x93BC0 VA: 0x1800947C0
 	public void Menu_Open(BasePlayer player) { }
 
 	public bool Menu_Open_ShowIf(BasePlayer player) { }
@@ -2031,12 +2031,12 @@ public class VehicleModuleStorage.Storage // TypeDefIndex: 8482
 
 public class VehicleModuleTaxi : VehicleModuleStorage // TypeDefIndex: 8483
 {	private Option __menuOption_Menu_Kick_Passengers; // 0x678
-	[HeaderAttribute] // RVA: 0x99EB0 Offset: 0x992B0 VA: 0x180099EB0
-	[SerializeField] // RVA: 0x99EB0 Offset: 0x992B0 VA: 0x180099EB0
+	[HeaderAttribute] // RVA: 0x99FA0 Offset: 0x993A0 VA: 0x180099FA0
+	[SerializeField] // RVA: 0x99FA0 Offset: 0x993A0 VA: 0x180099FA0
 	private SoundDefinition kickButtonSound; // 0x6D0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SphereCollider kickButtonCollider; // 0x6D8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float maxKickVelocity; // 0x6E0
 
 	public override bool HasMenuOptions { get; }
@@ -2053,10 +2053,10 @@ public class VehicleModuleTaxi : VehicleModuleStorage // TypeDefIndex: 8483
 
 	private bool CanKickPassengers(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x9A5A0 Offset: 0x999A0 VA: 0x18009A5A0
-	[BaseEntity.Menu.Description] // RVA: 0x9A5A0 Offset: 0x999A0 VA: 0x18009A5A0
-	[BaseEntity.Menu.Icon] // RVA: 0x9A5A0 Offset: 0x999A0 VA: 0x18009A5A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x9A5A0 Offset: 0x999A0 VA: 0x18009A5A0
+	[BaseEntity.Menu] // RVA: 0x9A680 Offset: 0x99A80 VA: 0x18009A680
+	[BaseEntity.Menu.Description] // RVA: 0x9A680 Offset: 0x99A80 VA: 0x18009A680
+	[BaseEntity.Menu.Icon] // RVA: 0x9A680 Offset: 0x99A80 VA: 0x18009A680
+	[BaseEntity.Menu.ShowIf] // RVA: 0x9A680 Offset: 0x99A80 VA: 0x18009A680
 	public void Menu_Kick_Passengers(BasePlayer player) { }
 
 	public bool Menu_Kick_Passengers_ShowIf(BasePlayer player) { }
@@ -2147,7 +2147,7 @@ public class EngineAudioClip : MonoBehaviour, IClientComponent // TypeDefIndex: 
 	public int minRPM; // 0x70
 	public int maxRPM; // 0x74
 	public int cyclePadding; // 0x78
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float RPMControl; // 0x7C
 	public AudioSource source; // 0x80
 	public float rpmLerpSpeed; // 0x88
@@ -2388,7 +2388,7 @@ public class ModularCarLock // TypeDefIndex: 9744
 
 	private bool KeyCanUnlockThis(Item key) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <PlayerHasUnlockPermission>b__13_0(Item key) { }
 
 }
@@ -2409,13 +2409,13 @@ public class ModularCarPresetConfig : ScriptableObject // TypeDefIndex: 9746
 }
 
 public class ModularCarSeat : MouseSteerableSeat // TypeDefIndex: 9747
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 leftFootIKPos; // 0x330
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 rightFootIKPos; // 0x33C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 leftHandIKPos; // 0x348
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 rightHandIKPos; // 0x354
 	public float providesComfort; // 0x360
 
@@ -2450,7 +2450,7 @@ public class ModularCarSeat : MouseSteerableSeat // TypeDefIndex: 9747
 }
 
 public class ModularVehicleShopFront : ShopFront // TypeDefIndex: 9748
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float maxUseDistance; // 0x3F0
 
 
@@ -2488,17 +2488,17 @@ public abstract class VehicleModuleButtonComponent : MonoBehaviour // TypeDefInd
 }
 
 public class VehicleModuleEngine : VehicleModuleStorage // TypeDefIndex: 9751
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleModuleEngine.Engine engine; // 0x678
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsUsable>k__BackingField; // 0x680
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <PerformanceFractionAcceleration>k__BackingField; // 0x684
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <PerformanceFractionTopSpeed>k__BackingField; // 0x688
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <PerformanceFractionFuelEconomy>k__BackingField; // 0x68C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <OverallPerformanceFraction>k__BackingField; // 0x690
 	private const float FORCE_MULTIPLIER = 12,75;
 	private const float HEALTH_PERFORMANCE_FRACTION = 0,25;
@@ -2522,34 +2522,34 @@ public class VehicleModuleEngine : VehicleModuleStorage // TypeDefIndex: 9751
 
 	public override bool get_HasAnEngine() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsUsable() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_IsUsable(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_PerformanceFractionAcceleration() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_PerformanceFractionAcceleration(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_PerformanceFractionTopSpeed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_PerformanceFractionTopSpeed(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_PerformanceFractionFuelEconomy() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_PerformanceFractionFuelEconomy(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_OverallPerformanceFraction() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_OverallPerformanceFraction(float value) { }
 
 	public bool get_AtLowPerformance() { }
@@ -2589,13 +2589,13 @@ public class VehicleModuleEngine : VehicleModuleStorage // TypeDefIndex: 9751
 }
 
 public class VehicleModuleEngine.Engine // TypeDefIndex: 9752
-{	[HeaderAttribute] // RVA: 0x8EE00 Offset: 0x8E200 VA: 0x18008EE00
+{	[HeaderAttribute] // RVA: 0x8EF10 Offset: 0x8E310 VA: 0x18008EF10
 	public int engineKW; // 0x10
 	public float idleFuelPerSec; // 0x14
 	public float maxFuelPerSec; // 0x18
-	[HeaderAttribute] // RVA: 0x8EE70 Offset: 0x8E270 VA: 0x18008EE70
+	[HeaderAttribute] // RVA: 0x8EFB0 Offset: 0x8E3B0 VA: 0x18008EFB0
 	public EngineAudioSet audioSet; // 0x20
-	[HeaderAttribute] // RVA: 0x8EFA0 Offset: 0x8E3A0 VA: 0x18008EFA0
+	[HeaderAttribute] // RVA: 0x8F0E0 Offset: 0x8E4E0 VA: 0x18008F0E0
 	public ParticleSystemContainer[] engineParticles; // 0x28
 	public ParticleSystem[] exhaustSmoke; // 0x30
 	public ParticleSystem[] exhaustBackfire; // 0x38
@@ -2612,9 +2612,9 @@ public class VehicleLight : MonoBehaviour, IClientComponent // TypeDefIndex: 975
 {	public bool IsBrake; // 0x18
 	public GameObject toggleObject; // 0x20
 	public VehicleLight.LightRenderer[] renderers; // 0x28
-	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
+	[ColorUsageAttribute] // RVA: 0x85C80 Offset: 0x85080 VA: 0x180085C80
 	public Color lightOnColour; // 0x30
-	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
+	[ColorUsageAttribute] // RVA: 0x85C80 Offset: 0x85080 VA: 0x180085C80
 	public Color brakesOnColour; // 0x40
 	private static MaterialPropertyBlock materialPB; // 0x0
 	private static int emissionColorID; // 0x8
@@ -2665,7 +2665,7 @@ private struct EngineDamageOverTime.RecentDamage // TypeDefIndex: 9763
 
 public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 9781
 {	protected T owner; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleChassisVisuals.ClientWheelData<T>[] <clientWheelData>k__BackingField; // 0x0
 	private float prevSteer; // 0x0
 	private bool isStopped; // 0x0
@@ -2673,14 +2673,14 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	public VehicleChassisVisuals.ClientWheelData<T>[] clientWheelData { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public VehicleChassisVisuals.ClientWheelData<T>[] get_clientWheelData() { }
 	/* GenericInstMethod :
 	|
 	|-VehicleChassisVisuals<object>.get_clientWheelData
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected void set_clientWheelData(VehicleChassisVisuals.ClientWheelData<T>[] value) { }
 	/* GenericInstMethod :
 	|
@@ -2816,7 +2816,7 @@ public abstract class VehicleChassisVisuals<T> : MonoBehaviour // TypeDefIndex: 
 	|-VehicleChassisVisuals<object>..ctor
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static bool <UpdateWheelSuspensionData>g__GetSuspensionHit|17_0(Vector3 ts, out RaycastHit hit, ref VehicleChassisVisuals.<>c__DisplayClass17_0<T> ) { }
 	/* GenericInstMethod :
 	|
@@ -2869,7 +2869,7 @@ private struct VehicleChassisVisuals.<>c__DisplayClass17_0<T> // TypeDefIndex: 9
 }
 
 public class VehicleEngineController<TOwner> // TypeDefIndex: 9787
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private EntityFuelSystem <FuelSystem>k__BackingField; // 0x0
 	private readonly TOwner owner; // 0x0
 	private readonly bool isServer; // 0x0
@@ -2925,7 +2925,7 @@ public class VehicleEngineController<TOwner> // TypeDefIndex: 9787
 	|-VehicleEngineController<TrainEngine>.get_IsStartingOrOn
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public EntityFuelSystem get_FuelSystem() { }
 	/* GenericInstMethod :
 	|
@@ -2936,7 +2936,7 @@ public class VehicleEngineController<TOwner> // TypeDefIndex: 9787
 	|-VehicleEngineController<TrainEngine>.get_FuelSystem
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_FuelSystem(EntityFuelSystem value) { }
 	/* GenericInstMethod :
 	|
@@ -2976,20 +2976,20 @@ public class VehicleSpawnPoint : SpaceCheckingSpawnPoint // TypeDefIndex: 10011
 
 }
 
-public class EngineItemInformationPanel : ItemInformationPanel // TypeDefIndex: 11002
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class EngineItemInformationPanel : ItemInformationPanel // TypeDefIndex: 11006
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Text tier; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase low; // 0x20
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase medium; // 0x28
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase high; // 0x30
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObject accelerationRoot; // 0x38
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObject topSpeedRoot; // 0x40
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObject fuelEconomyRoot; // 0x48
 
 
@@ -3001,10 +3001,10 @@ public class EngineItemInformationPanel : ItemInformationPanel // TypeDefIndex: 
 
 }
 
-public class VehicleEditingItemIcon : MonoBehaviour, IInventoryChanged // TypeDefIndex: 11061
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class VehicleEditingItemIcon : MonoBehaviour, IInventoryChanged // TypeDefIndex: 11065
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Image foregroundImage; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Image linkImage; // 0x20
 	private ItemIcon itemIcon; // 0x28
 
@@ -3027,85 +3027,85 @@ public class VehicleEditingItemIcon : MonoBehaviour, IInventoryChanged // TypeDe
 
 }
 
-public class VehicleEditingPanel : LootPanel // TypeDefIndex: 11062
-{	[SerializeField] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
-	[RangeAttribute] // RVA: 0x76630 Offset: 0x75A30 VA: 0x180076630
+public class VehicleEditingPanel : LootPanel // TypeDefIndex: 11066
+{	[SerializeField] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
+	[RangeAttribute] // RVA: 0x766F0 Offset: 0x75AF0 VA: 0x1800766F0
 	private float disabledAlpha; // 0x38
-	[HeaderAttribute] // RVA: 0x91AC0 Offset: 0x90EC0 VA: 0x180091AC0
-	[SerializeField] // RVA: 0x91AC0 Offset: 0x90EC0 VA: 0x180091AC0
+	[HeaderAttribute] // RVA: 0x93080 Offset: 0x92480 VA: 0x180093080
+	[SerializeField] // RVA: 0x93080 Offset: 0x92480 VA: 0x180093080
 	private CanvasGroup editGroup; // 0x40
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObject moduleInternalItemsGroup; // 0x48
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObject moduleInternalLiquidsGroup; // 0x50
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObject destroyChassisGroup; // 0x58
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Button itemTakeButton; // 0x60
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Button liquidTakeButton; // 0x68
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObject liquidHelp; // 0x70
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObject liquidButton; // 0x78
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Color gotColor; // 0x80
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Color notGotColor; // 0x90
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Text generalInfoText; // 0xA0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Text generalWarningText; // 0xA8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Image generalWarningImage; // 0xB0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Text repairInfoText; // 0xB8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Button repairButton; // 0xC0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Text destroyChassisButtonText; // 0xC8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Text destroyChassisCountdown; // 0xD0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseEditingInfo; // 0xD8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseNoOccupant; // 0xE0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseBadOccupant; // 0xE8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseNotDriveable; // 0xF0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseNotRepairable; // 0xF8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseRepairNotNeeded; // 0x100
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseRepairSelectInfo; // 0x108
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseRepairEnactInfo; // 0x110
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseHasLock; // 0x118
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseHasNoLock; // 0x120
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseAddLock; // 0x128
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseAddKey; // 0x130
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseAddLockButton; // 0x138
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseCraftKeyButton; // 0x140
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Text carLockInfoText; // 0x148
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Text carLockButtonText; // 0x150
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Button actionLockButton; // 0x158
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Button removeLockButton; // 0x160
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Translate.Phrase phraseEmptyStorage; // 0x168
-	[HeaderAttribute] // RVA: 0x94520 Offset: 0x93920 VA: 0x180094520
-	[SerializeField] // RVA: 0x94520 Offset: 0x93920 VA: 0x180094520
+	[HeaderAttribute] // RVA: 0x94720 Offset: 0x93B20 VA: 0x180094720
+	[SerializeField] // RVA: 0x94720 Offset: 0x93B20 VA: 0x180094720
 	private VehicleEditingPanel.CreateChassisEntry[] chassisOptions; // 0x170
 	private uint prevSelectedUID; // 0x178
 	private bool platformWasOccupied; // 0x17C
@@ -3172,12 +3172,12 @@ public class VehicleEditingPanel : LootPanel // TypeDefIndex: 11062
 
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <RefreshLockCreation>g__AddResourceInfo|72_0(string prefixText, ItemAmount ingredient, ref VehicleEditingPanel.<>c__DisplayClass72_0 ) { }
 
 }
 
-private class VehicleEditingPanel.CreateChassisEntry // TypeDefIndex: 11063
+private class VehicleEditingPanel.CreateChassisEntry // TypeDefIndex: 11067
 {	public byte garageChassisIndex; // 0x10
 	public Button craftButton; // 0x18
 	public Text craftButtonText; // 0x20
@@ -3190,13 +3190,13 @@ private class VehicleEditingPanel.CreateChassisEntry // TypeDefIndex: 11063
 
 }
 
-private struct VehicleEditingPanel.<>c__DisplayClass72_0 // TypeDefIndex: 11064
+private struct VehicleEditingPanel.<>c__DisplayClass72_0 // TypeDefIndex: 11068
 {	public VehicleEditingPanel <>4__this; // 0x0
 	public string infoText; // 0x8
 
 }
 
-public class VehicleModuleInformationPanel : ItemInformationPanel // TypeDefIndex: 11065
+public class VehicleModuleInformationPanel : ItemInformationPanel // TypeDefIndex: 11069
 {	public ItemStatValue socketsDisplay; // 0x18
 	public ItemStatValue hpDisplay; // 0x20
 
@@ -3209,48 +3209,48 @@ public class VehicleModuleInformationPanel : ItemInformationPanel // TypeDefInde
 
 }
 
-public class vehicle : ConsoleSystem // TypeDefIndex: 11972
+public class vehicle : ConsoleSystem // TypeDefIndex: 11976
 {
 	public void .ctor() { }
 
 }
 
-public static class EngineItemTypeEx // TypeDefIndex: 12102
+public static class EngineItemTypeEx // TypeDefIndex: 12106
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool BoostsAcceleration(EngineStorage.EngineItemTypes engineItemType) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool BoostsTopSpeed(EngineStorage.EngineItemTypes engineItemType) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool BoostsFuelEconomy(EngineStorage.EngineItemTypes engineItemType) { }
 
 }
 
-public class EngineStorage : StorageContainer // TypeDefIndex: 12103
-{	[HeaderAttribute] // RVA: 0xD9690 Offset: 0xD8A90 VA: 0x1800D9690
+public class EngineStorage : StorageContainer // TypeDefIndex: 12107
+{	[HeaderAttribute] // RVA: 0xD9910 Offset: 0xD8D10 VA: 0x1800D9910
 	public Sprite engineIcon; // 0x3D0
 	public float internalDamageMultiplier; // 0x3D8
 	public EngineStorage.EngineItemTypes[] slotTypes; // 0x3E0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleModuleEngineItems allEngineItems; // 0x3E8
-	[SerializeField] // RVA: 0x934F0 Offset: 0x928F0 VA: 0x1800934F0
-	[ReadOnlyAttribute] // RVA: 0x934F0 Offset: 0x928F0 VA: 0x1800934F0
+	[SerializeField] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
+	[ReadOnlyAttribute] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
 	private int accelerationBoostSlots; // 0x3F0
-	[SerializeField] // RVA: 0x934F0 Offset: 0x928F0 VA: 0x1800934F0
-	[ReadOnlyAttribute] // RVA: 0x934F0 Offset: 0x928F0 VA: 0x1800934F0
+	[SerializeField] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
+	[ReadOnlyAttribute] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
 	private int topSpeedBoostSlots; // 0x3F4
-	[SerializeField] // RVA: 0x934F0 Offset: 0x928F0 VA: 0x1800934F0
-	[ReadOnlyAttribute] // RVA: 0x934F0 Offset: 0x928F0 VA: 0x1800934F0
+	[SerializeField] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
+	[ReadOnlyAttribute] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
 	private int fuelEconomyBoostSlots; // 0x3F8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <isUsable>k__BackingField; // 0x3FC
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <accelerationBoostPercent>k__BackingField; // 0x400
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <topSpeedBoostPercent>k__BackingField; // 0x404
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <fuelEconomyBoostPercent>k__BackingField; // 0x408
 
 	public bool isUsable { get; set; }
@@ -3259,28 +3259,28 @@ public class EngineStorage : StorageContainer // TypeDefIndex: 12103
 	public float fuelEconomyBoostPercent { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_isUsable() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_isUsable(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_accelerationBoostPercent() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_accelerationBoostPercent(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_topSpeedBoostPercent() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_topSpeedBoostPercent(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_fuelEconomyBoostPercent() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_fuelEconomyBoostPercent(float value) { }
 
 	public VehicleModuleEngine GetEngineModule() { }
@@ -3299,7 +3299,7 @@ public class EngineStorage : StorageContainer // TypeDefIndex: 12103
 
 }
 
-public enum EngineStorage.EngineItemTypes // TypeDefIndex: 12104
+public enum EngineStorage.EngineItemTypes // TypeDefIndex: 12108
 {	public int value__; // 0x0
 	public const EngineStorage.EngineItemTypes Crankshaft = 0;
 	public const EngineStorage.EngineItemTypes Carburetor = 1;
@@ -3309,50 +3309,50 @@ public enum EngineStorage.EngineItemTypes // TypeDefIndex: 12104
 
 }
 
-public class ModularCarAudio : GroundVehicleAudio // TypeDefIndex: 12105
+public class ModularCarAudio : GroundVehicleAudio // TypeDefIndex: 12109
 {	public bool showDebug; // 0x98
-	[HeaderAttribute] // RVA: 0xDA5C0 Offset: 0xD99C0 VA: 0x1800DA5C0
-	[SerializeField] // RVA: 0xDA5C0 Offset: 0xD99C0 VA: 0x1800DA5C0
+	[HeaderAttribute] // RVA: 0xDA750 Offset: 0xD9B50 VA: 0x1800DA750
+	[SerializeField] // RVA: 0xDA750 Offset: 0xD9B50 VA: 0x1800DA750
 	private SoundDefinition skidSoundLoop; // 0xA0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition skidSoundDirtLoop; // 0xA8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition skidSoundSnowLoop; // 0xB0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float skidMinSlip; // 0xB8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float skidMaxSlip; // 0xBC
-	[HeaderAttribute] // RVA: 0xDA9D0 Offset: 0xD9DD0 VA: 0x1800DA9D0
-	[SerializeField] // RVA: 0xDA9D0 Offset: 0xD9DD0 VA: 0x1800DA9D0
+	[HeaderAttribute] // RVA: 0xDAC10 Offset: 0xDA010 VA: 0x1800DAC10
+	[SerializeField] // RVA: 0xDAC10 Offset: 0xDA010 VA: 0x1800DAC10
 	private SoundDefinition movementStartOneshot; // 0xC0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition movementStopOneshot; // 0xC8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float movementStartStopMinTimeBetweenSounds; // 0xD0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition movementRattleLoop; // 0xD8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float movementRattleMaxSpeed; // 0xE0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float movementRattleMaxAngSpeed; // 0xE4
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float movementRattleIdleGain; // 0xE8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition suspensionLurchSound; // 0xF0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float suspensionLurchMinExtensionDelta; // 0xF8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float suspensionLurchMinTimeBetweenSounds; // 0xFC
-	[HeaderAttribute] // RVA: 0xDB390 Offset: 0xDA790 VA: 0x1800DB390
-	[SerializeField] // RVA: 0xDB390 Offset: 0xDA790 VA: 0x1800DB390
+	[HeaderAttribute] // RVA: 0xDB600 Offset: 0xDAA00 VA: 0x1800DB600
+	[SerializeField] // RVA: 0xDB600 Offset: 0xDAA00 VA: 0x1800DB600
 	private SoundDefinition tyreRollingSoundDef; // 0x100
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition tyreRollingWaterSoundDef; // 0x108
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition tyreRollingGrassSoundDef; // 0x110
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition tyreRollingSnowSoundDef; // 0x118
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private AnimationCurve tyreRollGainCurve; // 0x120
 	private EngineAudioSet currentEngineAudioSet; // 0x128
 	private ModularCar modularCar; // 0x130
@@ -3425,12 +3425,12 @@ public class ModularCarAudio : GroundVehicleAudio // TypeDefIndex: 12105
 
 }
 
-public class ModularVehicleSocket // TypeDefIndex: 12106
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class ModularVehicleSocket // TypeDefIndex: 12110
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform socketTransform; // 0x10
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ModularVehicleSocket.SocketWheelType wheelType; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ModularVehicleSocket.SocketLocationType locationType; // 0x1C
 
 	public Vector3 WorldPosition { get; }
@@ -3453,7 +3453,7 @@ public class ModularVehicleSocket // TypeDefIndex: 12106
 
 }
 
-public enum ModularVehicleSocket.SocketWheelType // TypeDefIndex: 12107
+public enum ModularVehicleSocket.SocketWheelType // TypeDefIndex: 12111
 {	public int value__; // 0x0
 	public const ModularVehicleSocket.SocketWheelType NoWheel = 0;
 	public const ModularVehicleSocket.SocketWheelType ForwardWheel = 1;
@@ -3461,7 +3461,7 @@ public enum ModularVehicleSocket.SocketWheelType // TypeDefIndex: 12107
 
 }
 
-public enum ModularVehicleSocket.SocketLocationType // TypeDefIndex: 12108
+public enum ModularVehicleSocket.SocketLocationType // TypeDefIndex: 12112
 {	public int value__; // 0x0
 	public const ModularVehicleSocket.SocketLocationType Middle = 0;
 	public const ModularVehicleSocket.SocketLocationType Front = 1;
@@ -3469,8 +3469,8 @@ public enum ModularVehicleSocket.SocketLocationType // TypeDefIndex: 12108
 
 }
 
-public class VehicleModuleEngineItems : ScriptableObject // TypeDefIndex: 12109
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class VehicleModuleEngineItems : ScriptableObject // TypeDefIndex: 12113
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ItemModEngineItem[] engineItems; // 0x18
 
 
@@ -3480,7 +3480,7 @@ public class VehicleModuleEngineItems : ScriptableObject // TypeDefIndex: 12109
 
 }
 
-public class VehicleModuleSlidingComponent // TypeDefIndex: 12110
+public class VehicleModuleSlidingComponent // TypeDefIndex: 12114
 {	public string interactionColliderName; // 0x10
 	public BaseEntity.Flags flag_SliderOpen; // 0x18
 	public float moveTime; // 0x1C
@@ -3502,7 +3502,7 @@ public class VehicleModuleSlidingComponent // TypeDefIndex: 12110
 
 }
 
-public class VehicleModuleSlidingComponent.SlidingPart // TypeDefIndex: 12111
+public class VehicleModuleSlidingComponent.SlidingPart // TypeDefIndex: 12115
 {	public Transform transform; // 0x10
 	public Vector3 openPosition; // 0x18
 	public Vector3 closedPosition; // 0x24

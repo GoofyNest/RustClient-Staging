@@ -14,7 +14,7 @@ public struct Single : IComparable, IFormattable, IConvertible, IComparable<floa
 
 	public static bool IsNegativeInfinity(float f) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static bool IsNaN(float f) { }
 
 	public static bool IsFinite(float f) { }

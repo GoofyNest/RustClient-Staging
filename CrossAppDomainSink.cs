@@ -22,7 +22,7 @@ internal class CrossAppDomainSink : IMessageSink // TypeDefIndex: 1190
 
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void <AsyncProcessMessage>b__10_0(object data) { }
 
 }

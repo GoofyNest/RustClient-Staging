@@ -1,8 +1,8 @@
-public class CoreEnvBrdfLut // TypeDefIndex: 10653
-{	private static Texture2D runtimeEnvBrdfLut; // 0x2E33
+public class CoreEnvBrdfLut // TypeDefIndex: 10657
+{	private static Texture2D runtimeEnvBrdfLut; // 0x2B117B0
 
 
-	[RuntimeInitializeOnLoadMethodAttribute] // RVA: 0x7D7C0 Offset: 0x7CBC0 VA: 0x18007D7C0
+	[RuntimeInitializeOnLoadMethodAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
 	private static void OnRuntimeLoad() { }
 
 	private static void PrepareTextureForRuntime() { }

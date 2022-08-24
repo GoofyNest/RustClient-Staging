@@ -93,22 +93,22 @@ internal class ArgInfo // TypeDefIndex: 1222
 }
 
 internal class ArgumentCache : ISerializationCallbackReceiver // TypeDefIndex: 3626
-{	[FormerlySerializedAsAttribute] // RVA: 0xDF110 Offset: 0xDE510 VA: 0x1800DF110
-	[SerializeField] // RVA: 0xDF110 Offset: 0xDE510 VA: 0x1800DF110
+{	[SerializeField] // RVA: 0xDF240 Offset: 0xDE640 VA: 0x1800DF240
+	[FormerlySerializedAsAttribute] // RVA: 0xDF240 Offset: 0xDE640 VA: 0x1800DF240
 	private Object m_ObjectArgument; // 0x10
-	[FormerlySerializedAsAttribute] // RVA: 0xDF280 Offset: 0xDE680 VA: 0x1800DF280
-	[SerializeField] // RVA: 0xDF280 Offset: 0xDE680 VA: 0x1800DF280
+	[FormerlySerializedAsAttribute] // RVA: 0xDF370 Offset: 0xDE770 VA: 0x1800DF370
+	[SerializeField] // RVA: 0xDF370 Offset: 0xDE770 VA: 0x1800DF370
 	private string m_ObjectArgumentAssemblyTypeName; // 0x18
-	[SerializeField] // RVA: 0xDF3C0 Offset: 0xDE7C0 VA: 0x1800DF3C0
-	[FormerlySerializedAsAttribute] // RVA: 0xDF3C0 Offset: 0xDE7C0 VA: 0x1800DF3C0
+	[SerializeField] // RVA: 0xDF4C0 Offset: 0xDE8C0 VA: 0x1800DF4C0
+	[FormerlySerializedAsAttribute] // RVA: 0xDF4C0 Offset: 0xDE8C0 VA: 0x1800DF4C0
 	private int m_IntArgument; // 0x20
-	[FormerlySerializedAsAttribute] // RVA: 0xDF580 Offset: 0xDE980 VA: 0x1800DF580
-	[SerializeField] // RVA: 0xDF580 Offset: 0xDE980 VA: 0x1800DF580
+	[FormerlySerializedAsAttribute] // RVA: 0xDF6A0 Offset: 0xDEAA0 VA: 0x1800DF6A0
+	[SerializeField] // RVA: 0xDF6A0 Offset: 0xDEAA0 VA: 0x1800DF6A0
 	private float m_FloatArgument; // 0x24
-	[FormerlySerializedAsAttribute] // RVA: 0xDF5D0 Offset: 0xDE9D0 VA: 0x1800DF5D0
-	[SerializeField] // RVA: 0xDF5D0 Offset: 0xDE9D0 VA: 0x1800DF5D0
+	[SerializeField] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
+	[FormerlySerializedAsAttribute] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
 	private string m_StringArgument; // 0x28
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_BoolArgument; // 0x30
 
 	public Object unityObjectArgument { get; }
@@ -141,9 +141,9 @@ internal class ArgumentCache : ISerializationCallbackReceiver // TypeDefIndex: 3
 
 }
 
-public static class ArgEx // TypeDefIndex: 11695
+public static class ArgEx // TypeDefIndex: 11699
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static BasePlayer GetPlayer_Clientside(ConsoleSystem.Arg arg, int iArgNum) { }
 
 }

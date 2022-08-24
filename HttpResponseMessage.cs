@@ -4,9 +4,9 @@ public class HttpResponseMessage : IDisposable // TypeDefIndex: 5755
 	private HttpStatusCode statusCode; // 0x20
 	private Version version; // 0x28
 	private bool disposed; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private HttpContent <Content>k__BackingField; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private HttpRequestMessage <RequestMessage>k__BackingField; // 0x40
 
 	public HttpContent Content { get; set; }
@@ -20,10 +20,10 @@ public class HttpResponseMessage : IDisposable // TypeDefIndex: 5755
 
 	public void .ctor(HttpStatusCode statusCode) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public HttpContent get_Content() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Content(HttpContent value) { }
 
 	public HttpResponseHeaders get_Headers() { }
@@ -34,7 +34,7 @@ public class HttpResponseMessage : IDisposable // TypeDefIndex: 5755
 
 	public void set_ReasonPhrase(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_RequestMessage(HttpRequestMessage value) { }
 
 	public HttpStatusCode get_StatusCode() { }

@@ -1,13 +1,13 @@
 internal static class ReflectionUtils // TypeDefIndex: 5965
-{	public static readonly Type[] EmptyTypes; // 0x3362
+{	public static readonly Type[] EmptyTypes; // 0x2B117B0
 
 
 	private static void .cctor() { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool IsVirtual(PropertyInfo propertyInfo) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static MethodInfo GetBaseDefinition(PropertyInfo propertyInfo) { }
 
 	public static bool IsPublic(PropertyInfo property) { }
@@ -97,7 +97,7 @@ internal static class ReflectionUtils // TypeDefIndex: 5965
 
 	public static IEnumerable<PropertyInfo> GetProperties(Type targetType, BindingFlags bindingAttr) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static BindingFlags RemoveFlag(BindingFlags bindingAttr, BindingFlags flag) { }
 
 	private static void GetChildPrivateProperties(IList<PropertyInfo> initialProperties, Type targetType, BindingFlags bindingAttr) { }

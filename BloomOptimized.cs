@@ -1,12 +1,12 @@
 public class BloomOptimized : PostEffectsBase // TypeDefIndex: 8162
-{	[RangeAttribute] // RVA: 0x97920 Offset: 0x96D20 VA: 0x180097920
+{	[RangeAttribute] // RVA: 0x97A20 Offset: 0x96E20 VA: 0x180097A20
 	public float threshold; // 0x28
-	[RangeAttribute] // RVA: 0x979B0 Offset: 0x96DB0 VA: 0x1800979B0
+	[RangeAttribute] // RVA: 0x97A80 Offset: 0x96E80 VA: 0x180097A80
 	public float intensity; // 0x2C
-	[RangeAttribute] // RVA: 0x97C30 Offset: 0x97030 VA: 0x180097C30
+	[RangeAttribute] // RVA: 0x97D00 Offset: 0x97100 VA: 0x180097D00
 	public float blurSize; // 0x30
 	private BloomOptimized.Resolution resolution; // 0x34
-	[RangeAttribute] // RVA: 0x97CA0 Offset: 0x970A0 VA: 0x180097CA0
+	[RangeAttribute] // RVA: 0x97DA0 Offset: 0x971A0 VA: 0x180097DA0
 	public int blurIterations; // 0x38
 	public BloomOptimized.BlurType blurType; // 0x3C
 	public Shader fastBloomShader; // 0x40

@@ -2,11 +2,11 @@ public class RenderTexture : Texture // TypeDefIndex: 3450
 {	public override int width { get; set; }
 	public override int height { get; set; }
 	public override TextureDimension dimension { get; set; }
-	[NativePropertyAttribute] // RVA: 0xA4680 Offset: 0xA3A80 VA: 0x1800A4680
+	[NativePropertyAttribute] // RVA: 0xA46A0 Offset: 0xA3AA0 VA: 0x1800A46A0
 	public GraphicsFormat graphicsFormat { get; set; }
-	[NativePropertyAttribute] // RVA: 0xA4860 Offset: 0xA3C60 VA: 0x1800A4860
+	[NativePropertyAttribute] // RVA: 0xA48E0 Offset: 0xA3CE0 VA: 0x1800A48E0
 	public bool useMipMap { set; }
-	[NativePropertyAttribute] // RVA: 0xA4920 Offset: 0xA3D20 VA: 0x1800A4920
+	[NativePropertyAttribute] // RVA: 0xA4A00 Offset: 0xA3E00 VA: 0x1800A4A00
 	public bool sRGB { get; }
 	public RenderTextureFormat format { get; }
 	public bool autoGenerateMips { set; }
@@ -54,20 +54,20 @@ public class RenderTexture : Texture // TypeDefIndex: 3450
 
 	public void set_isPowerOfTwo(bool value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xA3400 Offset: 0xA2800 VA: 0x1800A3400
+	[FreeFunctionAttribute] // RVA: 0xA34E0 Offset: 0xA28E0 VA: 0x1800A34E0
 	private static RenderTexture GetActive() { }
 
-	[FreeFunctionAttribute] // RVA: 0xA3480 Offset: 0xA2880 VA: 0x1800A3480
+	[FreeFunctionAttribute] // RVA: 0xA3560 Offset: 0xA2960 VA: 0x1800A3560
 	private static void SetActive(RenderTexture rt) { }
 
 	public static RenderTexture get_active() { }
 
 	public static void set_active(RenderTexture value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xA3500 Offset: 0xA2900 VA: 0x1800A3500
+	[FreeFunctionAttribute] // RVA: 0xA3620 Offset: 0xA2A20 VA: 0x1800A3620
 	private RenderBuffer GetColorBuffer() { }
 
-	[FreeFunctionAttribute] // RVA: 0xA35A0 Offset: 0xA29A0 VA: 0x1800A35A0
+	[FreeFunctionAttribute] // RVA: 0xA36C0 Offset: 0xA2AC0 VA: 0x1800A36C0
 	private RenderBuffer GetDepthBuffer() { }
 
 	public RenderBuffer get_colorBuffer() { }
@@ -88,28 +88,28 @@ public class RenderTexture : Texture // TypeDefIndex: 3450
 
 	internal void SetSRGBReadWrite(bool srgb) { }
 
-	[FreeFunctionAttribute] // RVA: 0xA3640 Offset: 0xA2A40 VA: 0x1800A3640
+	[FreeFunctionAttribute] // RVA: 0xA3760 Offset: 0xA2B60 VA: 0x1800A3760
 	private static void Internal_Create(RenderTexture rt) { }
 
-	[NativeNameAttribute] // RVA: 0xA37B0 Offset: 0xA2BB0 VA: 0x1800A37B0
+	[NativeNameAttribute] // RVA: 0xA3890 Offset: 0xA2C90 VA: 0x1800A3890
 	private void SetRenderTextureDescriptor(RenderTextureDescriptor desc) { }
 
-	[NativeNameAttribute] // RVA: 0xA3810 Offset: 0xA2C10 VA: 0x1800A3810
+	[NativeNameAttribute] // RVA: 0xA3930 Offset: 0xA2D30 VA: 0x1800A3930
 	private RenderTextureDescriptor GetDescriptor() { }
 
-	[FreeFunctionAttribute] // RVA: 0xA38F0 Offset: 0xA2CF0 VA: 0x1800A38F0
+	[FreeFunctionAttribute] // RVA: 0xA3A10 Offset: 0xA2E10 VA: 0x1800A3A10
 	private static RenderTexture GetTemporary_Internal(RenderTextureDescriptor desc) { }
 
-	[FreeFunctionAttribute] // RVA: 0xA3990 Offset: 0xA2D90 VA: 0x1800A3990
+	[FreeFunctionAttribute] // RVA: 0xA3AB0 Offset: 0xA2EB0 VA: 0x1800A3AB0
 	public static void ReleaseTemporary(RenderTexture temp) { }
 
-	[FreeFunctionAttribute] // RVA: 0xA39F0 Offset: 0xA2DF0 VA: 0x1800A39F0
+	[FreeFunctionAttribute] // RVA: 0xA3B10 Offset: 0xA2F10 VA: 0x1800A3B10
 	public int get_depth() { }
 
-	[FreeFunctionAttribute] // RVA: 0xA3B20 Offset: 0xA2F20 VA: 0x1800A3B20
+	[FreeFunctionAttribute] // RVA: 0xA3C10 Offset: 0xA3010 VA: 0x1800A3C10
 	public void set_depth(int value) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected internal void .ctor() { }
 
 	public void .ctor(RenderTextureDescriptor desc) { }
@@ -124,13 +124,13 @@ public class RenderTexture : Texture // TypeDefIndex: 3450
 
 	public void .ctor(int width, int height, int depth, RenderTextureFormat format, RenderTextureReadWrite readWrite) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int width, int height, int depth, RenderTextureFormat format) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int width, int height, int depth) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int width, int height, int depth, RenderTextureFormat format, int mipCount) { }
 
 	public RenderTextureDescriptor get_descriptor() { }
@@ -145,16 +145,16 @@ public class RenderTexture : Texture // TypeDefIndex: 3450
 
 	private static RenderTexture GetTemporaryImpl(int width, int height, int depthBuffer, GraphicsFormat format, int antiAliasing = 1, RenderTextureMemoryless memorylessMode = 0, VRTextureUsage vrUsage = 0, bool useDynamicScale = False) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static RenderTexture GetTemporary(int width, int height, int depthBuffer, RenderTextureFormat format, RenderTextureReadWrite readWrite) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static RenderTexture GetTemporary(int width, int height, int depthBuffer, RenderTextureFormat format) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static RenderTexture GetTemporary(int width, int height, int depthBuffer) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static RenderTexture GetTemporary(int width, int height) { }
 
 	private void GetColorBuffer_Injected(out RenderBuffer ret) { }

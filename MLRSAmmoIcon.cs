@@ -1,7 +1,7 @@
 public class MLRSAmmoIcon : MonoBehaviour // TypeDefIndex: 9721
 {
 public class MLRSAmmoIcon : MonoBehaviour // TypeDefIndex: 9721
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObject fill; // 0x18
 
 

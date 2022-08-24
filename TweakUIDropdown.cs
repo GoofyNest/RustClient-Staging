@@ -1,4 +1,4 @@
-public class TweakUIDropdown : TweakUIBase // TypeDefIndex: 11144
+public class TweakUIDropdown : TweakUIBase // TypeDefIndex: 11148
 {	public Button Left; // 0x30
 	public Button Right; // 0x38
 	public TextMeshProUGUI Current; // 0x40
@@ -26,7 +26,7 @@ public class TweakUIDropdown : TweakUIBase // TypeDefIndex: 11144
 
 }
 
-public class TweakUIDropdown.NameValue // TypeDefIndex: 11145
+public class TweakUIDropdown.NameValue // TypeDefIndex: 11149
 {	public string value; // 0x10
 	public Color imageColor; // 0x18
 	public Translate.Phrase label; // 0x28

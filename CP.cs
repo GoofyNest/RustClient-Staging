@@ -335,7 +335,7 @@ public class CP54936 : GB18030Encoding // TypeDefIndex: 7829
 }
 
 public class CP1254 : ByteEncoding // TypeDefIndex: 7840
-{	private static readonly char[] ToChars; // 0x2130
+{	private static readonly char[] ToChars; // 0x1A4C
 
 
 	public void .ctor() { }
@@ -347,7 +347,7 @@ public class CP1254 : ByteEncoding // TypeDefIndex: 7840
 }
 
 public class CP1255 : ByteEncoding // TypeDefIndex: 7842
-{	private static readonly char[] ToChars; // 0x21A0
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -359,7 +359,7 @@ public class CP1255 : ByteEncoding // TypeDefIndex: 7842
 }
 
 public class CP1256 : ByteEncoding // TypeDefIndex: 7844
-{	private static readonly char[] ToChars; // 0x2B104E4
+{	private static readonly char[] ToChars; // 0x1A50
 
 
 	public void .ctor() { }
@@ -371,7 +371,7 @@ public class CP1256 : ByteEncoding // TypeDefIndex: 7844
 }
 
 public class CP28596 : ByteEncoding // TypeDefIndex: 7846
-{	private static readonly char[] ToChars; // 0x21A0
+{	private static readonly char[] ToChars; // 0x1A7C
 
 
 	public void .ctor() { }
@@ -383,7 +383,7 @@ public class CP28596 : ByteEncoding // TypeDefIndex: 7846
 }
 
 public class CP28598 : ByteEncoding // TypeDefIndex: 7848
-{	private static readonly char[] ToChars; // 0x21FF
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -395,7 +395,7 @@ public class CP28598 : ByteEncoding // TypeDefIndex: 7848
 }
 
 public class CP28599 : ByteEncoding // TypeDefIndex: 7850
-{	private static readonly char[] ToChars; // 0x2B104D4
+{	private static readonly char[] ToChars; // 0x1AB0
 
 
 	public void .ctor() { }
@@ -407,7 +407,7 @@ public class CP28599 : ByteEncoding // TypeDefIndex: 7850
 }
 
 public class CP38598 : ByteEncoding // TypeDefIndex: 7852
-{	private static readonly char[] ToChars; // 0x2200
+{	private static readonly char[] ToChars; // 0x1AE6
 
 
 	public void .ctor() { }
@@ -419,7 +419,7 @@ public class CP38598 : ByteEncoding // TypeDefIndex: 7852
 }
 
 public class CP1251 : ByteEncoding // TypeDefIndex: 7858
-{	private static readonly char[] ToChars; // 0x227D
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -431,7 +431,7 @@ public class CP1251 : ByteEncoding // TypeDefIndex: 7858
 }
 
 public class CP1257 : ByteEncoding // TypeDefIndex: 7860
-{	private static readonly char[] ToChars; // 0x2B10464
+{	private static readonly char[] ToChars; // 0x1AF0
 
 
 	public void .ctor() { }
@@ -443,7 +443,7 @@ public class CP1257 : ByteEncoding // TypeDefIndex: 7860
 }
 
 public class CP1258 : ByteEncoding // TypeDefIndex: 7862
-{	private static readonly char[] ToChars; // 0x2280
+{	private static readonly char[] ToChars; // 0x1B26
 
 
 	public void .ctor() { }
@@ -455,7 +455,7 @@ public class CP1258 : ByteEncoding // TypeDefIndex: 7862
 }
 
 public class CP20866 : ByteEncoding // TypeDefIndex: 7864
-{	private static readonly char[] ToChars; // 0x22BB
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -467,7 +467,7 @@ public class CP20866 : ByteEncoding // TypeDefIndex: 7864
 }
 
 public class CP21866 : ByteEncoding // TypeDefIndex: 7866
-{	private static readonly char[] ToChars; // 0x2B1039C
+{	private static readonly char[] ToChars; // 0x1B30
 
 
 	public void .ctor() { }
@@ -479,7 +479,7 @@ public class CP21866 : ByteEncoding // TypeDefIndex: 7866
 }
 
 public class CP28594 : ByteEncoding // TypeDefIndex: 7868
-{	private static readonly char[] ToChars; // 0x22C0
+{	private static readonly char[] ToChars; // 0x1B50
 
 
 	public void .ctor() { }
@@ -491,7 +491,7 @@ public class CP28594 : ByteEncoding // TypeDefIndex: 7868
 }
 
 public class CP28595 : ByteEncoding // TypeDefIndex: 7870
-{	private static readonly char[] ToChars; // 0x22FC
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -563,7 +563,7 @@ public class CP57011 : ISCIIEncoding // TypeDefIndex: 7882
 }
 
 public class CP874 : ByteEncoding // TypeDefIndex: 7893
-{	private static readonly char[] ToChars; // 0x2B10640
+{	private static readonly char[] ToChars; // 0x1B50
 
 
 	public void .ctor() { }
@@ -575,7 +575,7 @@ public class CP874 : ByteEncoding // TypeDefIndex: 7893
 }
 
 public class CP866 : ByteEncoding // TypeDefIndex: 7899
-{	private static readonly char[] ToChars; // 0x2300
+{	private static readonly char[] ToChars; // 0x1B70
 
 
 	public void .ctor() { }
@@ -587,7 +587,7 @@ public class CP866 : ByteEncoding // TypeDefIndex: 7899
 }
 
 public class CP1026 : ByteEncoding // TypeDefIndex: 7901
-{	private static readonly char[] ToChars; // 0x2356
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -599,7 +599,7 @@ public class CP1026 : ByteEncoding // TypeDefIndex: 7901
 }
 
 public class CP869 : ByteEncoding // TypeDefIndex: 7903
-{	private static readonly char[] ToChars; // 0x2B10360
+{	private static readonly char[] ToChars; // 0x1B70
 
 
 	public void .ctor() { }
@@ -611,7 +611,7 @@ public class CP869 : ByteEncoding // TypeDefIndex: 7903
 }
 
 public class CP870 : ByteEncoding // TypeDefIndex: 7905
-{	private static readonly char[] ToChars; // 0x2360
+{	private static readonly char[] ToChars; // 0x1B90
 
 
 	public void .ctor() { }
@@ -623,7 +623,7 @@ public class CP870 : ByteEncoding // TypeDefIndex: 7905
 }
 
 public class CP875 : ByteEncoding // TypeDefIndex: 7907
-{	private static readonly char[] ToChars; // 0x2391
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -635,7 +635,7 @@ public class CP875 : ByteEncoding // TypeDefIndex: 7907
 }
 
 public class CP1047 : ByteEncoding // TypeDefIndex: 7909
-{	private static readonly char[] ToChars; // 0x2B10394
+{	private static readonly char[] ToChars; // 0x1B90
 
 
 	public void .ctor() { }
@@ -647,7 +647,7 @@ public class CP1047 : ByteEncoding // TypeDefIndex: 7909
 }
 
 public class CP1140 : ByteEncoding // TypeDefIndex: 7911
-{	private static readonly char[] ToChars; // 0x23A0
+{	private static readonly char[] ToChars; // 0x1BB0
 
 
 	public void .ctor() { }
@@ -659,7 +659,7 @@ public class CP1140 : ByteEncoding // TypeDefIndex: 7911
 }
 
 public class CP1141 : ByteEncoding // TypeDefIndex: 7913
-{	private static readonly char[] ToChars; // 0x2417
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -671,7 +671,7 @@ public class CP1141 : ByteEncoding // TypeDefIndex: 7913
 }
 
 public class CP1142 : ByteEncoding // TypeDefIndex: 7915
-{	private static readonly char[] ToChars; // 0x2B10510
+{	private static readonly char[] ToChars; // 0x1BB0
 
 
 	public void .ctor() { }
@@ -683,7 +683,7 @@ public class CP1142 : ByteEncoding // TypeDefIndex: 7915
 }
 
 public class CP1143 : ByteEncoding // TypeDefIndex: 7917
-{	private static readonly char[] ToChars; // 0x2420
+{	private static readonly char[] ToChars; // 0x1BDC
 
 
 	public void .ctor() { }
@@ -695,7 +695,7 @@ public class CP1143 : ByteEncoding // TypeDefIndex: 7917
 }
 
 public class CP1144 : ByteEncoding // TypeDefIndex: 7919
-{	private static readonly char[] ToChars; // 0x24B7
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -707,7 +707,7 @@ public class CP1144 : ByteEncoding // TypeDefIndex: 7919
 }
 
 public class CP1145 : ByteEncoding // TypeDefIndex: 7921
-{	private static readonly char[] ToChars; // 0x2B10570
+{	private static readonly char[] ToChars; // 0x1BE0
 
 
 	public void .ctor() { }
@@ -719,7 +719,7 @@ public class CP1145 : ByteEncoding // TypeDefIndex: 7921
 }
 
 public class CP1146 : ByteEncoding // TypeDefIndex: 7923
-{	private static readonly char[] ToChars; // 0x24C0
+{	private static readonly char[] ToChars; // 0x1C00
 
 
 	public void .ctor() { }
@@ -731,7 +731,7 @@ public class CP1146 : ByteEncoding // TypeDefIndex: 7923
 }
 
 public class CP1147 : ByteEncoding // TypeDefIndex: 7925
-{	private static readonly char[] ToChars; // 0x2527
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -743,7 +743,7 @@ public class CP1147 : ByteEncoding // TypeDefIndex: 7925
 }
 
 public class CP1148 : ByteEncoding // TypeDefIndex: 7927
-{	private static readonly char[] ToChars; // 0x2B10370
+{	private static readonly char[] ToChars; // 0x1C00
 
 
 	public void .ctor() { }
@@ -755,7 +755,7 @@ public class CP1148 : ByteEncoding // TypeDefIndex: 7927
 }
 
 public class CP1149 : ByteEncoding // TypeDefIndex: 7929
-{	private static readonly char[] ToChars; // 0x2530
+{	private static readonly char[] ToChars; // 0x1C28
 
 
 	public void .ctor() { }
@@ -767,7 +767,7 @@ public class CP1149 : ByteEncoding // TypeDefIndex: 7929
 }
 
 public class CP20273 : ByteEncoding // TypeDefIndex: 7931
-{	private static readonly char[] ToChars; // 0x2578
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -779,7 +779,7 @@ public class CP20273 : ByteEncoding // TypeDefIndex: 7931
 }
 
 public class CP20277 : ByteEncoding // TypeDefIndex: 7933
-{	private static readonly char[] ToChars; // 0x2B10640
+{	private static readonly char[] ToChars; // 0x1C30
 
 
 	public void .ctor() { }
@@ -791,7 +791,7 @@ public class CP20277 : ByteEncoding // TypeDefIndex: 7933
 }
 
 public class CP20278 : ByteEncoding // TypeDefIndex: 7935
-{	private static readonly char[] ToChars; // 0x2580
+{	private static readonly char[] ToChars; // 0x1C55
 
 
 	public void .ctor() { }
@@ -803,7 +803,7 @@ public class CP20278 : ByteEncoding // TypeDefIndex: 7935
 }
 
 public class CP20280 : ByteEncoding // TypeDefIndex: 7937
-{	private static readonly char[] ToChars; // 0x25B9
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -815,7 +815,7 @@ public class CP20280 : ByteEncoding // TypeDefIndex: 7937
 }
 
 public class CP20284 : ByteEncoding // TypeDefIndex: 7939
-{	private static readonly char[] ToChars; // 0x2B10380
+{	private static readonly char[] ToChars; // 0x1C60
 
 
 	public void .ctor() { }
@@ -827,7 +827,7 @@ public class CP20284 : ByteEncoding // TypeDefIndex: 7939
 }
 
 public class CP20285 : ByteEncoding // TypeDefIndex: 7941
-{	private static readonly char[] ToChars; // 0x25C0
+{	private static readonly char[] ToChars; // 0x1C85
 
 
 	public void .ctor() { }
@@ -839,7 +839,7 @@ public class CP20285 : ByteEncoding // TypeDefIndex: 7941
 }
 
 public class CP20290 : ByteEncoding // TypeDefIndex: 7943
-{	private static readonly char[] ToChars; // 0x25DD
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -851,7 +851,7 @@ public class CP20290 : ByteEncoding // TypeDefIndex: 7943
 }
 
 public class CP20297 : ByteEncoding // TypeDefIndex: 7945
-{	private static readonly char[] ToChars; // 0x2B10368
+{	private static readonly char[] ToChars; // 0x1C90
 
 
 	public void .ctor() { }
@@ -863,7 +863,7 @@ public class CP20297 : ByteEncoding // TypeDefIndex: 7945
 }
 
 public class CP20420 : ByteEncoding // TypeDefIndex: 7947
-{	private static readonly char[] ToChars; // 0x25E0
+{	private static readonly char[] ToChars; // 0x1CBC
 
 
 	public void .ctor() { }
@@ -875,7 +875,7 @@ public class CP20420 : ByteEncoding // TypeDefIndex: 7947
 }
 
 public class CP20424 : ByteEncoding // TypeDefIndex: 7949
-{	private static readonly char[] ToChars; // 0x2649
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -887,7 +887,7 @@ public class CP20424 : ByteEncoding // TypeDefIndex: 7949
 }
 
 public class CP20871 : ByteEncoding // TypeDefIndex: 7951
-{	private static readonly char[] ToChars; // 0x2B104DC
+{	private static readonly char[] ToChars; // 0x1CC0
 
 
 	public void .ctor() { }
@@ -899,7 +899,7 @@ public class CP20871 : ByteEncoding // TypeDefIndex: 7951
 }
 
 public class CP21025 : ByteEncoding // TypeDefIndex: 7953
-{	private static readonly char[] ToChars; // 0x2650
+{	private static readonly char[] ToChars; // 0x1CE0
 
 
 	public void .ctor() { }
@@ -911,7 +911,7 @@ public class CP21025 : ByteEncoding // TypeDefIndex: 7953
 }
 
 public class CP37 : ByteEncoding // TypeDefIndex: 7955
-{	private static readonly char[] ToChars; // 0x27F7
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -923,7 +923,7 @@ public class CP37 : ByteEncoding // TypeDefIndex: 7955
 }
 
 public class CP500 : ByteEncoding // TypeDefIndex: 7957
-{	private static readonly char[] ToChars; // 0x2B10A58
+{	private static readonly char[] ToChars; // 0x1CE0
 
 
 	public void .ctor() { }
@@ -935,7 +935,7 @@ public class CP500 : ByteEncoding // TypeDefIndex: 7957
 }
 
 public class CP708 : ByteEncoding // TypeDefIndex: 7959
-{	private static readonly char[] ToChars; // 0x2800
+{	private static readonly char[] ToChars; // 0x1D16
 
 
 	public void .ctor() { }
@@ -947,7 +947,7 @@ public class CP708 : ByteEncoding // TypeDefIndex: 7959
 }
 
 public class CP852 : ByteEncoding // TypeDefIndex: 7961
-{	private static readonly char[] ToChars; // 0x2845
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -959,7 +959,7 @@ public class CP852 : ByteEncoding // TypeDefIndex: 7961
 }
 
 public class CP855 : ByteEncoding // TypeDefIndex: 7963
-{	private static readonly char[] ToChars; // 0x2B10360
+{	private static readonly char[] ToChars; // 0x1D2C
 
 
 	public void .ctor() { }
@@ -971,7 +971,7 @@ public class CP855 : ByteEncoding // TypeDefIndex: 7963
 }
 
 public class CP857 : ByteEncoding // TypeDefIndex: 7965
-{	private static readonly char[] ToChars; // 0x2850
+{	private static readonly char[] ToChars; // 0x1D4C
 
 
 	public void .ctor() { }
@@ -983,7 +983,7 @@ public class CP857 : ByteEncoding // TypeDefIndex: 7965
 }
 
 public class CP858 : ByteEncoding // TypeDefIndex: 7967
-{	private static readonly char[] ToChars; // 0x2898
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -995,7 +995,7 @@ public class CP858 : ByteEncoding // TypeDefIndex: 7967
 }
 
 public class CP862 : ByteEncoding // TypeDefIndex: 7969
-{	private static readonly char[] ToChars; // 0x2B10510
+{	private static readonly char[] ToChars; // 0x1D70
 
 
 	public void .ctor() { }
@@ -1007,7 +1007,7 @@ public class CP862 : ByteEncoding // TypeDefIndex: 7969
 }
 
 public class CP864 : ByteEncoding // TypeDefIndex: 7971
-{	private static readonly char[] ToChars; // 0x28A0
+{	private static readonly char[] ToChars; // 0x1D90
 
 
 	public void .ctor() { }
@@ -1019,7 +1019,7 @@ public class CP864 : ByteEncoding // TypeDefIndex: 7971
 }
 
 public class CP10000 : ByteEncoding // TypeDefIndex: 7977
-{	private static readonly char[] ToChars; // 0x28F9
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -1031,7 +1031,7 @@ public class CP10000 : ByteEncoding // TypeDefIndex: 7977
 }
 
 public class CP10079 : ByteEncoding // TypeDefIndex: 7979
-{	private static readonly char[] ToChars; // 0x2B10360
+{	private static readonly char[] ToChars; // 0x1D90
 
 
 	public void .ctor() { }
@@ -1043,7 +1043,7 @@ public class CP10079 : ByteEncoding // TypeDefIndex: 7979
 }
 
 public class CP1250 : ByteEncoding // TypeDefIndex: 7981
-{	private static readonly char[] ToChars; // 0x2900
+{	private static readonly char[] ToChars; // 0x1DE6
 
 
 	public void .ctor() { }
@@ -1055,7 +1055,7 @@ public class CP1250 : ByteEncoding // TypeDefIndex: 7981
 }
 
 public class CP1252 : ByteEncoding // TypeDefIndex: 7983
-{	private static readonly char[] ToChars; // 0x2967
+{	private static readonly char[] ToChars; // 0x2B119C8
 
 
 	public void .ctor() { }
@@ -1067,7 +1067,7 @@ public class CP1252 : ByteEncoding // TypeDefIndex: 7983
 }
 
 public class CP1253 : ByteEncoding // TypeDefIndex: 7985
-{	private static readonly char[] ToChars; // 0x2B104D4
+{	private static readonly char[] ToChars; // 0x1DF0
 
 
 	public void .ctor() { }
@@ -1079,7 +1079,7 @@ public class CP1253 : ByteEncoding // TypeDefIndex: 7985
 }
 
 public class CP28592 : ByteEncoding // TypeDefIndex: 7987
-{	private static readonly char[] ToChars; // 0x2970
+{	private static readonly char[] ToChars; // 0x1E3F
 
 
 	public void .ctor() { }
@@ -1091,7 +1091,7 @@ public class CP28592 : ByteEncoding // TypeDefIndex: 7987
 }
 
 public class CP28593 : ByteEncoding // TypeDefIndex: 7989
-{	private static readonly char[] ToChars; // 0x29CC
+{	private static readonly char[] ToChars; // 0x2B117B0
 
 
 	public void .ctor() { }
@@ -1103,7 +1103,7 @@ public class CP28593 : ByteEncoding // TypeDefIndex: 7989
 }
 
 public class CP28597 : ByteEncoding // TypeDefIndex: 7991
-{	private static readonly char[] ToChars; // 0x2B10380
+{	private static readonly char[] ToChars; // 0x1E40
 
 
 	public void .ctor() { }
@@ -1115,7 +1115,7 @@ public class CP28597 : ByteEncoding // TypeDefIndex: 7991
 }
 
 public class CP28605 : ByteEncoding // TypeDefIndex: 7993
-{	private static readonly char[] ToChars; // 0x29D0
+{	private static readonly char[] ToChars; // 0x1EA9
 
 
 	public void .ctor() { }
@@ -1127,7 +1127,7 @@ public class CP28605 : ByteEncoding // TypeDefIndex: 7993
 }
 
 public class CP437 : ByteEncoding // TypeDefIndex: 7995
-{	private static readonly char[] ToChars; // 0x29F8
+{	private static readonly char[] ToChars; // 0x2B1192C
 
 
 	public void .ctor() { }
@@ -1139,7 +1139,7 @@ public class CP437 : ByteEncoding // TypeDefIndex: 7995
 }
 
 public class CP850 : ByteEncoding // TypeDefIndex: 7997
-{	private static readonly char[] ToChars; // 0x2B10394
+{	private static readonly char[] ToChars; // 0x1EB0
 
 
 	public void .ctor() { }
@@ -1151,7 +1151,7 @@ public class CP850 : ByteEncoding // TypeDefIndex: 7997
 }
 
 public class CP860 : ByteEncoding // TypeDefIndex: 7999
-{	private static readonly char[] ToChars; // 0x2A00
+{	private static readonly char[] ToChars; // 0x1ED4
 
 
 	public void .ctor() { }
@@ -1163,7 +1163,7 @@ public class CP860 : ByteEncoding // TypeDefIndex: 7999
 }
 
 public class CP861 : ByteEncoding // TypeDefIndex: 8001
-{	private static readonly char[] ToChars; // 0x2A5C
+{	private static readonly char[] ToChars; // 0x2B117B8
 
 
 	public void .ctor() { }
@@ -1175,7 +1175,7 @@ public class CP861 : ByteEncoding // TypeDefIndex: 8001
 }
 
 public class CP863 : ByteEncoding // TypeDefIndex: 8003
-{	private static readonly char[] ToChars; // 0x2B10380
+{	private static readonly char[] ToChars; // 0x1EE0
 
 
 	public void .ctor() { }
@@ -1187,7 +1187,7 @@ public class CP863 : ByteEncoding // TypeDefIndex: 8003
 }
 
 public class CP865 : ByteEncoding // TypeDefIndex: 8005
-{	private static readonly char[] ToChars; // 0x2A60
+{	private static readonly char[] ToChars; // 0x1F40
 
 
 	public void .ctor() { }

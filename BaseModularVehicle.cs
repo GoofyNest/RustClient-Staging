@@ -4,21 +4,21 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 	private LOD[] baseVehicleLODs; // 0x468
 	private LOD[] combinedLODs; // 0x470
 	private int[] maxRendererIndex; // 0x478
-	[HeaderAttribute] // RVA: 0xB8AC0 Offset: 0xB7EC0 VA: 0x1800B8AC0
-	[SerializeField] // RVA: 0xB8AC0 Offset: 0xB7EC0 VA: 0x1800B8AC0
+	[HeaderAttribute] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
+	[SerializeField] // RVA: 0xB8BD0 Offset: 0xB7FD0 VA: 0x1800B8BD0
 	private List<ModularVehicleSocket> moduleSockets; // 0x480
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform centreOfMassTransform; // 0x488
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected Transform waterSample; // 0x490
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private LODGroup lodGroup; // 0x498
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly List<BaseVehicleModule> <AttachedModuleEntities>k__BackingField; // 0x4A0
 	private float _mass; // 0x4A8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <TotalMass>k__BackingField; // 0x4AC
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <HasInited>k__BackingField; // 0x4B0
 	public const BaseEntity.Flags FLAG_KINEMATIC = 16384;
 	private Dictionary<BaseVehicleModule, Action> moduleAddActions; // 0x4B8
@@ -59,10 +59,10 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 
 	private void RefreshLODSets() { }
 
-	[BaseEntity.Menu] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
-	[BaseEntity.Menu.Description] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
-	[BaseEntity.Menu.Icon] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8CA10 Offset: 0x8BE10 VA: 0x18008CA10
+	[BaseEntity.Menu] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu.Description] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu.Icon] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
 	public virtual void Menu_Push(BasePlayer player) { }
 
 	public Vector3 get_CentreOfMass() { }
@@ -71,7 +71,7 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 
 	public bool get_HasAnyModules() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public List<BaseVehicleModule> get_AttachedModuleEntities() { }
 
 	public int get_TotalSockets() { }
@@ -80,20 +80,20 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 
 	private float get_Mass() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_TotalMass() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_TotalMass(float value) { }
 
 	public bool get_IsKinematic() { }
 
 	public virtual bool get_IsLockable() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_HasInited() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_HasInited(bool value) { }
 
 	private ItemDefinition get_AssociatedItemDef() { }

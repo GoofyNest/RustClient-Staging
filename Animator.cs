@@ -12,7 +12,7 @@ public class Animator : Behaviour // TypeDefIndex: 4487
 	public bool fireEvents { set; }
 
 
-	[NativeMethodAttribute] // RVA: 0xCA4F0 Offset: 0xC98F0 VA: 0x1800CA4F0
+	[NativeMethodAttribute] // RVA: 0xCA620 Offset: 0xC9A20 VA: 0x1800CA620
 	public bool get_isInitialized() { }
 
 	public float GetFloat(string name) { }
@@ -73,14 +73,14 @@ public class Animator : Behaviour // TypeDefIndex: 4487
 
 	public void SetLookAtPosition(Vector3 lookAtPosition) { }
 
-	[NativeMethodAttribute] // RVA: 0xCA660 Offset: 0xC9A60 VA: 0x1800CA660
+	[NativeMethodAttribute] // RVA: 0xCA740 Offset: 0xC9B40 VA: 0x1800CA740
 	private void SetLookAtPositionInternal(Vector3 lookAtPosition) { }
 
 	public void SetLookAtWeight(float weight) { }
 
 	public void SetLookAtWeight(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight) { }
 
-	[NativeMethodAttribute] // RVA: 0xCA9D0 Offset: 0xC9DD0 VA: 0x1800CA9D0
+	[NativeMethodAttribute] // RVA: 0xCAB00 Offset: 0xC9F00 VA: 0x1800CAB00
 	private void SetLookAtWeightInternal(float weight, float bodyWeight, float headWeight, float eyesWeight, float clampWeight) { }
 
 	public int get_layerCount() { }
@@ -97,10 +97,10 @@ public class Animator : Behaviour // TypeDefIndex: 4487
 
 	public AnimatorStateInfo GetNextAnimatorStateInfo(int layerIndex) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAA30 Offset: 0xC9E30 VA: 0x1800CAA30
+	[FreeFunctionAttribute] // RVA: 0xCAB60 Offset: 0xC9F60 VA: 0x1800CAB60
 	public AnimatorClipInfo[] GetCurrentAnimatorClipInfo(int layerIndex) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCABF0 Offset: 0xC9FF0 VA: 0x1800CABF0
+	[FreeFunctionAttribute] // RVA: 0xCACE0 Offset: 0xCA0E0 VA: 0x1800CACE0
 	public AnimatorClipInfo[] GetNextAnimatorClipInfo(int layerIndex) { }
 
 	public bool IsInTransition(int layerIndex) { }
@@ -113,7 +113,7 @@ public class Animator : Behaviour // TypeDefIndex: 4487
 
 	public void CrossFade(string stateName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAF90 Offset: 0xCA390 VA: 0x1800CAF90
+	[FreeFunctionAttribute] // RVA: 0xCB0C0 Offset: 0xCA4C0 VA: 0x1800CB0C0
 	public void CrossFade(int stateHashName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset, float normalizedTransitionTime) { }
 
 	public void CrossFade(int stateHashName, float normalizedTransitionDuration, int layer, float normalizedTimeOffset) { }
@@ -126,7 +126,7 @@ public class Animator : Behaviour // TypeDefIndex: 4487
 
 	public void Play(string stateName, int layer, float normalizedTime) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCB2A0 Offset: 0xCA6A0 VA: 0x1800CB2A0
+	[FreeFunctionAttribute] // RVA: 0xCB3D0 Offset: 0xCA7D0 VA: 0x1800CB3D0
 	public void Play(int stateNameHash, int layer, float normalizedTime) { }
 
 	public void Play(int stateNameHash, int layer) { }
@@ -141,12 +141,12 @@ public class Animator : Behaviour // TypeDefIndex: 4487
 
 	public void set_runtimeAnimatorController(RuntimeAnimatorController value) { }
 
-	[NativeMethodAttribute] // RVA: 0xCB570 Offset: 0xCA970 VA: 0x1800CB570
+	[NativeMethodAttribute] // RVA: 0xCB610 Offset: 0xCAA10 VA: 0x1800CB610
 	public bool get_hasBoundPlayables() { }
 
 	public bool HasState(int layerIndex, int stateID) { }
 
-	[NativeMethodAttribute] // RVA: 0xCB730 Offset: 0xCAB30 VA: 0x1800CB730
+	[NativeMethodAttribute] // RVA: 0xCB7A0 Offset: 0xCABA0 VA: 0x1800CB7A0
 	public static int StringToHash(string name) { }
 
 	public void set_avatar(Avatar value) { }
@@ -155,55 +155,55 @@ public class Animator : Behaviour // TypeDefIndex: 4487
 
 	private bool IsInIKPass() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCB990 Offset: 0xCAD90 VA: 0x1800CB990
+	[FreeFunctionAttribute] // RVA: 0xCBA10 Offset: 0xCAE10 VA: 0x1800CBA10
 	private void SetFloatString(string name, float value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBBF0 Offset: 0xCAFF0 VA: 0x1800CBBF0
+	[FreeFunctionAttribute] // RVA: 0xCBC80 Offset: 0xCB080 VA: 0x1800CBC80
 	private void SetFloatID(int id, float value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBD30 Offset: 0xCB130 VA: 0x1800CBD30
+	[FreeFunctionAttribute] // RVA: 0xCBE10 Offset: 0xCB210 VA: 0x1800CBE10
 	private float GetFloatString(string name) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBE10 Offset: 0xCB210 VA: 0x1800CBE10
+	[FreeFunctionAttribute] // RVA: 0xCBF10 Offset: 0xCB310 VA: 0x1800CBF10
 	private float GetFloatID(int id) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBEF0 Offset: 0xCB2F0 VA: 0x1800CBEF0
+	[FreeFunctionAttribute] // RVA: 0xCBFB0 Offset: 0xCB3B0 VA: 0x1800CBFB0
 	private void SetBoolString(string name, bool value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBFE0 Offset: 0xCB3E0 VA: 0x1800CBFE0
+	[FreeFunctionAttribute] // RVA: 0xCC080 Offset: 0xCB480 VA: 0x1800CC080
 	private void SetBoolID(int id, bool value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC1A0 Offset: 0xCB5A0 VA: 0x1800CC1A0
+	[FreeFunctionAttribute] // RVA: 0xCC2A0 Offset: 0xCB6A0 VA: 0x1800CC2A0
 	private bool GetBoolID(int id) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC2E0 Offset: 0xCB6E0 VA: 0x1800CC2E0
+	[FreeFunctionAttribute] // RVA: 0xCC360 Offset: 0xCB760 VA: 0x1800CC360
 	private void SetIntegerString(string name, int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC470 Offset: 0xCB870 VA: 0x1800CC470
+	[FreeFunctionAttribute] // RVA: 0xCC4D0 Offset: 0xCB8D0 VA: 0x1800CC4D0
 	private void SetIntegerID(int id, int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC590 Offset: 0xCB990 VA: 0x1800CC590
+	[FreeFunctionAttribute] // RVA: 0xCC610 Offset: 0xCBA10 VA: 0x1800CC610
 	private int GetIntegerString(string name) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC7B0 Offset: 0xCBBB0 VA: 0x1800CC7B0
+	[FreeFunctionAttribute] // RVA: 0xCC860 Offset: 0xCBC60 VA: 0x1800CC860
 	private void SetTriggerString(string name) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC890 Offset: 0xCBC90 VA: 0x1800CC890
+	[FreeFunctionAttribute] // RVA: 0xCC980 Offset: 0xCBD80 VA: 0x1800CC980
 	private void SetTriggerID(int id) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCCA20 Offset: 0xCBE20 VA: 0x1800CCA20
+	[FreeFunctionAttribute] // RVA: 0xCCB10 Offset: 0xCBF10 VA: 0x1800CCB10
 	private void ResetTriggerString(string name) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCCB50 Offset: 0xCBF50 VA: 0x1800CCB50
+	[FreeFunctionAttribute] // RVA: 0xCCC40 Offset: 0xCC040 VA: 0x1800CCC40
 	private void ResetTriggerID(int id) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCCCC0 Offset: 0xCC0C0 VA: 0x1800CCCC0
+	[FreeFunctionAttribute] // RVA: 0xCCDF0 Offset: 0xCC1F0 VA: 0x1800CCDF0
 	private void SetFloatStringDamp(string name, float value, float dampTime, float deltaTime) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCCE50 Offset: 0xCC250 VA: 0x1800CCE50
+	[FreeFunctionAttribute] // RVA: 0xCCF00 Offset: 0xCC300 VA: 0x1800CCF00
 	private void SetFloatIDDamp(int id, float value, float dampTime, float deltaTime) { }
 
-	[NativeMethodAttribute] // RVA: 0xCCF10 Offset: 0xCC310 VA: 0x1800CCF10
+	[NativeMethodAttribute] // RVA: 0xCCF70 Offset: 0xCC370 VA: 0x1800CCF70
 	public void Update(float deltaTime) { }
 
 	public bool get_logWarnings() { }

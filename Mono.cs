@@ -3,7 +3,7 @@ internal struct MonoAssemblyName // TypeDefIndex: 19
 	internal IntPtr culture; // 0x8
 	internal IntPtr hash_value; // 0x10
 	internal IntPtr public_key; // 0x18
-	[FixedBufferAttribute] // RVA: 0xE6F10 Offset: 0xE6310 VA: 0x1800E6F10
+	[FixedBufferAttribute] // RVA: 0xE7030 Offset: 0xE6430 VA: 0x1800E7030
 	internal MonoAssemblyName.<public_key_token>e__FixedBuffer public_key_token; // 0x20
 	internal uint hash_alg; // 0x34
 	internal uint hash_len; // 0x38
@@ -61,7 +61,7 @@ internal class MonoAsyncCall // TypeDefIndex: 372
 
 internal static class MonoCustomAttrs // TypeDefIndex: 373
 {	private static Assembly corlib; // 0x0
-	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ThreadStaticAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Dictionary<Type, AttributeUsageAttribute> usage_cache; // 0x80000000
 	private static readonly AttributeUsageAttribute DefaultAttributeUsage; // 0x8
 
@@ -322,8 +322,8 @@ internal class MonoMethod : RuntimeMethodInfo // TypeDefIndex: 582
 
 	internal object InternalInvoke(object obj, object[] parameters, out Exception exc) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[DebuggerHiddenAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[DebuggerStepThroughAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	public override object Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
 	internal static void ConvertValues(Binder binder, object[] args, ParameterInfo[] pinfo, CultureInfo culture, BindingFlags invokeAttr) { }
@@ -401,16 +401,16 @@ internal class MonoCMethod : RuntimeConstructorInfo // TypeDefIndex: 584
 
 	internal object InternalInvoke(object obj, object[] parameters, out Exception exc) { }
 
-	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[DebuggerStepThroughAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[DebuggerHiddenAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	public override object Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
 	private object DoInvoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
 	public object InternalInvoke(object obj, object[] parameters) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[DebuggerStepThroughAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[DebuggerHiddenAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[DebuggerStepThroughAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	public override object Invoke(BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
 	public override RuntimeMethodHandle get_MethodHandle() { }
@@ -927,32 +927,32 @@ internal class MonoMethodMessage : IMethodCallMessage, IMethodMessage, IMessage,
 }
 
 public class MonoTlsConnectionInfo // TypeDefIndex: 1743
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CipherSuiteCode <CipherSuiteCode>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TlsProtocols <ProtocolVersion>k__BackingField; // 0x14
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <PeerDomainName>k__BackingField; // 0x18
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public CipherSuiteCode CipherSuiteCode { get; set; }
 	public TlsProtocols ProtocolVersion { get; set; }
 	public string PeerDomainName { set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public CipherSuiteCode get_CipherSuiteCode() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_CipherSuiteCode(CipherSuiteCode value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public TlsProtocols get_ProtocolVersion() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_ProtocolVersion(TlsProtocols value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_PeerDomainName(string value) { }
 
 	public override string ToString() { }
@@ -1035,23 +1035,23 @@ public static class MonoTlsProviderFactory // TypeDefIndex: 1748
 }
 
 public sealed class MonoTlsSettings // TypeDefIndex: 1749
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private MonoRemoteCertificateValidationCallback <RemoteCertificateValidationCallback>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private MonoLocalCertificateSelectionCallback <ClientCertificateSelectionCallback>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Nullable<DateTime> <CertificateValidationTime>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private X509CertificateCollection <TrustAnchors>k__BackingField; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object <UserSettings>k__BackingField; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string[] <CertificateSearchPaths>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <SendCloseNotify>k__BackingField; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Nullable<TlsProtocols> <EnabledProtocols>k__BackingField; // 0x4C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CipherSuiteCode[] <EnabledCiphers>k__BackingField; // 0x58
 	private bool cloned; // 0x60
 	private bool checkCertName; // 0x61
@@ -1072,23 +1072,23 @@ public sealed class MonoTlsSettings // TypeDefIndex: 1749
 	internal string[] CertificateSearchPaths { get; set; }
 	internal bool SendCloseNotify { get; set; }
 	public Nullable<TlsProtocols> EnabledProtocols { get; set; }
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public CipherSuiteCode[] EnabledCiphers { get; set; }
 	public static MonoTlsSettings DefaultSettings { get; }
-	[ObsoleteAttribute] // RVA: 0x7F2D0 Offset: 0x7E6D0 VA: 0x18007F2D0
+	[ObsoleteAttribute] // RVA: 0x7F3B0 Offset: 0x7E7B0 VA: 0x18007F3B0
 	public ICertificateValidator CertificateValidator { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public MonoRemoteCertificateValidationCallback get_RemoteCertificateValidationCallback() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_RemoteCertificateValidationCallback(MonoRemoteCertificateValidationCallback value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public MonoLocalCertificateSelectionCallback get_ClientCertificateSelectionCallback() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_ClientCertificateSelectionCallback(MonoLocalCertificateSelectionCallback value) { }
 
 	public Nullable<bool> get_UseServicePointManagerCallback() { }
@@ -1097,46 +1097,46 @@ public sealed class MonoTlsSettings // TypeDefIndex: 1749
 
 	public bool get_CallbackNeedsCertificateChain() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Nullable<DateTime> get_CertificateValidationTime() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_CertificateValidationTime(Nullable<DateTime> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public X509CertificateCollection get_TrustAnchors() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_TrustAnchors(X509CertificateCollection value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public object get_UserSettings() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_UserSettings(object value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal string[] get_CertificateSearchPaths() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_CertificateSearchPaths(string[] value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool get_SendCloseNotify() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_SendCloseNotify(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Nullable<TlsProtocols> get_EnabledProtocols() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_EnabledProtocols(Nullable<TlsProtocols> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public CipherSuiteCode[] get_EnabledCiphers() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_EnabledCiphers(CipherSuiteCode[] value) { }
 
 	public void .ctor() { }
@@ -1147,7 +1147,7 @@ public sealed class MonoTlsSettings // TypeDefIndex: 1749
 
 	public ICertificateValidator get_CertificateValidator() { }
 
-	[ObsoleteAttribute] // RVA: 0x7F2D0 Offset: 0x7E6D0 VA: 0x18007F2D0
+	[ObsoleteAttribute] // RVA: 0x7F3B0 Offset: 0x7E7B0 VA: 0x18007F3B0
 	public MonoTlsSettings CloneWithValidator(ICertificateValidator validator) { }
 
 	public MonoTlsSettings Clone() { }
@@ -1203,7 +1203,7 @@ internal class MonoTlsStream // TypeDefIndex: 2553
 	private readonly MonoTlsSettings settings; // 0x28
 	private IMonoSslStream sslStream; // 0x30
 	private WebExceptionStatus status; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <CertificateValidationFailed>k__BackingField; // 0x3C
 
 	internal HttpWebRequest Request { get; }
@@ -1215,10 +1215,10 @@ internal class MonoTlsStream // TypeDefIndex: 2553
 
 	internal WebExceptionStatus get_ExceptionStatus() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool get_CertificateValidationFailed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_CertificateValidationFailed(bool value) { }
 
 	public void .ctor(HttpWebRequest request, NetworkStream networkStream) { }
@@ -1317,14 +1317,14 @@ public class MonoBehaviour : Behaviour // TypeDefIndex: 3518
 
 	public bool IsInvoking(string methodName) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Coroutine StartCoroutine(string methodName) { }
 
 	public Coroutine StartCoroutine(string methodName, object value) { }
 
 	public Coroutine StartCoroutine(IEnumerator routine) { }
 
-	[ObsoleteAttribute] // RVA: 0xC1AF0 Offset: 0xC0EF0 VA: 0x1800C1AF0
+	[ObsoleteAttribute] // RVA: 0xC1C20 Offset: 0xC1020 VA: 0x1800C1C20
 	public Coroutine StartCoroutine_Auto(IEnumerator routine) { }
 
 	public void StopCoroutine(IEnumerator routine) { }
@@ -1341,22 +1341,22 @@ public class MonoBehaviour : Behaviour // TypeDefIndex: 3518
 
 	public static void print(object message) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC1B80 Offset: 0xC0F80 VA: 0x1800C1B80
+	[FreeFunctionAttribute] // RVA: 0xC1CE0 Offset: 0xC10E0 VA: 0x1800C1CE0
 	private static void Internal_CancelInvokeAll(MonoBehaviour self) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC1C90 Offset: 0xC1090 VA: 0x1800C1C90
+	[FreeFunctionAttribute] // RVA: 0xC1DC0 Offset: 0xC11C0 VA: 0x1800C1DC0
 	private static bool Internal_IsInvokingAll(MonoBehaviour self) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
 	private static void InvokeDelayed(MonoBehaviour self, string methodName, float time, float repeatRate) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
 	private static void CancelInvoke(MonoBehaviour self, string methodName) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
 	private static bool IsInvoking(MonoBehaviour self, string methodName) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
 	private static bool IsObjectMonoBehaviour(Object obj) { }
 
 	private Coroutine StartCoroutineManaged(string methodName, object value) { }
@@ -1375,7 +1375,7 @@ public class MonoBehaviour : Behaviour // TypeDefIndex: 3518
 
 internal class MonoTODOAttribute : Attribute // TypeDefIndex: 3974
 {
-[AttributeUsageAttribute] // RVA: 0x80FF0 Offset: 0x803F0 VA: 0x180080FF0
+[AttributeUsageAttribute] // RVA: 0x81070 Offset: 0x80470 VA: 0x180081070
 internal class MonoTODOAttribute : Attribute // TypeDefIndex: 3974
 	private string comment; // 0x10
 

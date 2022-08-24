@@ -1,32 +1,32 @@
 public class FontData : ISerializationCallbackReceiver // TypeDefIndex: 4928
-{	[SerializeField] // RVA: 0xE9520 Offset: 0xE8920 VA: 0x1800E9520
-	[FormerlySerializedAsAttribute] // RVA: 0xE9520 Offset: 0xE8920 VA: 0x1800E9520
+{	[SerializeField] // RVA: 0xE9600 Offset: 0xE8A00 VA: 0x1800E9600
+	[FormerlySerializedAsAttribute] // RVA: 0xE9600 Offset: 0xE8A00 VA: 0x1800E9600
 	private Font m_Font; // 0x10
-	[SerializeField] // RVA: 0xE9660 Offset: 0xE8A60 VA: 0x1800E9660
-	[FormerlySerializedAsAttribute] // RVA: 0xE9660 Offset: 0xE8A60 VA: 0x1800E9660
+	[SerializeField] // RVA: 0xE9750 Offset: 0xE8B50 VA: 0x1800E9750
+	[FormerlySerializedAsAttribute] // RVA: 0xE9750 Offset: 0xE8B50 VA: 0x1800E9750
 	private int m_FontSize; // 0x18
-	[SerializeField] // RVA: 0xE9820 Offset: 0xE8C20 VA: 0x1800E9820
-	[FormerlySerializedAsAttribute] // RVA: 0xE9820 Offset: 0xE8C20 VA: 0x1800E9820
+	[SerializeField] // RVA: 0xE9950 Offset: 0xE8D50 VA: 0x1800E9950
+	[FormerlySerializedAsAttribute] // RVA: 0xE9950 Offset: 0xE8D50 VA: 0x1800E9950
 	private FontStyle m_FontStyle; // 0x1C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_BestFit; // 0x20
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_MinSize; // 0x24
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int m_MaxSize; // 0x28
-	[SerializeField] // RVA: 0xE9C50 Offset: 0xE9050 VA: 0x1800E9C50
-	[FormerlySerializedAsAttribute] // RVA: 0xE9C50 Offset: 0xE9050 VA: 0x1800E9C50
+	[SerializeField] // RVA: 0xE9D70 Offset: 0xE9170 VA: 0x1800E9D70
+	[FormerlySerializedAsAttribute] // RVA: 0xE9D70 Offset: 0xE9170 VA: 0x1800E9D70
 	private TextAnchor m_Alignment; // 0x2C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_AlignByGeometry; // 0x30
-	[SerializeField] // RVA: 0xE9F00 Offset: 0xE9300 VA: 0x1800E9F00
-	[FormerlySerializedAsAttribute] // RVA: 0xE9F00 Offset: 0xE9300 VA: 0x1800E9F00
+	[SerializeField] // RVA: 0xEA040 Offset: 0xE9440 VA: 0x1800EA040
+	[FormerlySerializedAsAttribute] // RVA: 0xEA040 Offset: 0xE9440 VA: 0x1800EA040
 	private bool m_RichText; // 0x31
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private HorizontalWrapMode m_HorizontalOverflow; // 0x34
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VerticalWrapMode m_VerticalOverflow; // 0x38
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float m_LineSpacing; // 0x3C
 
 	public static FontData defaultFontData { get; }

@@ -21,7 +21,7 @@ public class HttpWebResponse : WebResponse, ISerializable, IDisposable // TypeDe
 
 	internal void .ctor(Uri uri, string method, WebConnectionData data, CookieContainer container) { }
 
-	[ObsoleteAttribute] // RVA: 0xB6F50 Offset: 0xB6350 VA: 0x1800B6F50
+	[ObsoleteAttribute] // RVA: 0xB7000 Offset: 0xB6400 VA: 0x1800B7000
 	protected void .ctor(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
 	public override long get_ContentLength() { }
@@ -52,8 +52,8 @@ public class HttpWebResponse : WebResponse, ISerializable, IDisposable // TypeDe
 
 	private void FillCookies() { }
 
-	[ObsoleteAttribute] // RVA: 0xB8A40 Offset: 0xB7E40 VA: 0x1800B8A40
-	[EditorBrowsableAttribute] // RVA: 0xB8A40 Offset: 0xB7E40 VA: 0x1800B8A40
+	[ObsoleteAttribute] // RVA: 0xB8B20 Offset: 0xB7F20 VA: 0x1800B8B20
+	[EditorBrowsableAttribute] // RVA: 0xB8B20 Offset: 0xB7F20 VA: 0x1800B8B20
 	public void .ctor() { }
 
 }

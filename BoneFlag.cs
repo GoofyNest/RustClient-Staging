@@ -1,6 +1,6 @@
 public enum BoneFlag // TypeDefIndex: 7343
 {
-[FlagsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[FlagsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 public enum BoneFlag // TypeDefIndex: 7343
 	public int value__; // 0x0
 	public const BoneFlag Left = 1;

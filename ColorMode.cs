@@ -7,7 +7,7 @@ public enum ColorMode // TypeDefIndex: 6747
 
 }
 
-public enum ColorMode // TypeDefIndex: 11542
+public enum ColorMode // TypeDefIndex: 11546
 {	public int value__; // 0x0
 	public const ColorMode Flat = 0;
 	public const ColorMode Gradient = 1;

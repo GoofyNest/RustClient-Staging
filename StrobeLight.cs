@@ -10,7 +10,7 @@ public class StrobeLight : BaseCombatEntity // TypeDefIndex: 8281
 	public const BaseEntity.Flags Flag_Slow = 16384;
 	public const BaseEntity.Flags Flag_Med = 32768;
 	public const BaseEntity.Flags Flag_Fast = 65536;
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool forceoff; // 0x0
 	private float lastStrobeTime; // 0x26C
 	private Option __menuOption_Menu_StrobeFast; // 0x270
@@ -30,42 +30,42 @@ public class StrobeLight : BaseCombatEntity // TypeDefIndex: 8281
 
 	public void Toggle() { }
 
-	[BaseEntity.Menu] // RVA: 0xA5EE0 Offset: 0xA52E0 VA: 0x1800A5EE0
-	[BaseEntity.Menu.Description] // RVA: 0xA5EE0 Offset: 0xA52E0 VA: 0x1800A5EE0
-	[BaseEntity.Menu.Icon] // RVA: 0xA5EE0 Offset: 0xA52E0 VA: 0x1800A5EE0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA5EE0 Offset: 0xA52E0 VA: 0x1800A5EE0
+	[BaseEntity.Menu] // RVA: 0xA5FD0 Offset: 0xA53D0 VA: 0x1800A5FD0
+	[BaseEntity.Menu.Description] // RVA: 0xA5FD0 Offset: 0xA53D0 VA: 0x1800A5FD0
+	[BaseEntity.Menu.Icon] // RVA: 0xA5FD0 Offset: 0xA53D0 VA: 0x1800A5FD0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA5FD0 Offset: 0xA53D0 VA: 0x1800A5FD0
 	public void Menu_TurnOn(BasePlayer player) { }
 
 	public bool Menu_StrobeOn_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xA7390 Offset: 0xA6790 VA: 0x1800A7390
-	[BaseEntity.Menu.Description] // RVA: 0xA7390 Offset: 0xA6790 VA: 0x1800A7390
-	[BaseEntity.Menu.Icon] // RVA: 0xA7390 Offset: 0xA6790 VA: 0x1800A7390
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA7390 Offset: 0xA6790 VA: 0x1800A7390
+	[BaseEntity.Menu] // RVA: 0xA74B0 Offset: 0xA68B0 VA: 0x1800A74B0
+	[BaseEntity.Menu.Description] // RVA: 0xA74B0 Offset: 0xA68B0 VA: 0x1800A74B0
+	[BaseEntity.Menu.Icon] // RVA: 0xA74B0 Offset: 0xA68B0 VA: 0x1800A74B0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA74B0 Offset: 0xA68B0 VA: 0x1800A74B0
 	public void Menu_TurnOff(BasePlayer player) { }
 
 	public bool Menu_StrobeOff_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xA74A0 Offset: 0xA68A0 VA: 0x1800A74A0
-	[BaseEntity.Menu.Description] // RVA: 0xA74A0 Offset: 0xA68A0 VA: 0x1800A74A0
-	[BaseEntity.Menu.Icon] // RVA: 0xA74A0 Offset: 0xA68A0 VA: 0x1800A74A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA74A0 Offset: 0xA68A0 VA: 0x1800A74A0
+	[BaseEntity.Menu] // RVA: 0xA75C0 Offset: 0xA69C0 VA: 0x1800A75C0
+	[BaseEntity.Menu.Description] // RVA: 0xA75C0 Offset: 0xA69C0 VA: 0x1800A75C0
+	[BaseEntity.Menu.Icon] // RVA: 0xA75C0 Offset: 0xA69C0 VA: 0x1800A75C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA75C0 Offset: 0xA69C0 VA: 0x1800A75C0
 	public void Menu_StrobeSlow(BasePlayer player) { }
 
 	public bool Menu_StrobeSlow_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xA7710 Offset: 0xA6B10 VA: 0x1800A7710
-	[BaseEntity.Menu.Description] // RVA: 0xA7710 Offset: 0xA6B10 VA: 0x1800A7710
-	[BaseEntity.Menu.Icon] // RVA: 0xA7710 Offset: 0xA6B10 VA: 0x1800A7710
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA7710 Offset: 0xA6B10 VA: 0x1800A7710
+	[BaseEntity.Menu] // RVA: 0xA7830 Offset: 0xA6C30 VA: 0x1800A7830
+	[BaseEntity.Menu.Description] // RVA: 0xA7830 Offset: 0xA6C30 VA: 0x1800A7830
+	[BaseEntity.Menu.Icon] // RVA: 0xA7830 Offset: 0xA6C30 VA: 0x1800A7830
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA7830 Offset: 0xA6C30 VA: 0x1800A7830
 	public void Menu_StrobeMed(BasePlayer player) { }
 
 	public bool Menu_StrobeMed_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xA7B30 Offset: 0xA6F30 VA: 0x1800A7B30
-	[BaseEntity.Menu.Description] // RVA: 0xA7B30 Offset: 0xA6F30 VA: 0x1800A7B30
-	[BaseEntity.Menu.Icon] // RVA: 0xA7B30 Offset: 0xA6F30 VA: 0x1800A7B30
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA7B30 Offset: 0xA6F30 VA: 0x1800A7B30
+	[BaseEntity.Menu] // RVA: 0xA7C10 Offset: 0xA7010 VA: 0x1800A7C10
+	[BaseEntity.Menu.Description] // RVA: 0xA7C10 Offset: 0xA7010 VA: 0x1800A7C10
+	[BaseEntity.Menu.Icon] // RVA: 0xA7C10 Offset: 0xA7010 VA: 0x1800A7C10
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA7C10 Offset: 0xA7010 VA: 0x1800A7C10
 	public void Menu_StrobeFast(BasePlayer player) { }
 
 	public bool Menu_StrobeFast_ShowIf(BasePlayer player) { }

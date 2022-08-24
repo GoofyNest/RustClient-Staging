@@ -1,4 +1,4 @@
-public class DDraw : MonoBehaviour // TypeDefIndex: 11683
+public class DDraw : MonoBehaviour // TypeDefIndex: 11687
 {	public static GameObject store; // 0x0
 	public static DDraw singleton; // 0x8
 	public List<DDraw.BaseObject> list; // 0x18
@@ -64,7 +64,7 @@ public class DDraw : MonoBehaviour // TypeDefIndex: 11683
 
 }
 
-public class DDraw.BaseObject // TypeDefIndex: 11684
+public class DDraw.BaseObject // TypeDefIndex: 11688
 {	public Vector3 position; // 0x10
 	public Matrix4x4 transform; // 0x1C
 	public Color color; // 0x5C
@@ -102,7 +102,7 @@ public class DDraw.BaseObject // TypeDefIndex: 11684
 
 }
 
-public class DDraw.CapsuleObj : DDraw.BaseObject // TypeDefIndex: 11685
+public class DDraw.CapsuleObj : DDraw.BaseObject // TypeDefIndex: 11689
 {	public float radius; // 0x88
 	public float height; // 0x8C
 
@@ -113,7 +113,7 @@ public class DDraw.CapsuleObj : DDraw.BaseObject // TypeDefIndex: 11685
 
 }
 
-public class DDraw.SphereObj : DDraw.BaseObject // TypeDefIndex: 11686
+public class DDraw.SphereObj : DDraw.BaseObject // TypeDefIndex: 11690
 {
 	public override void Draw() { }
 
@@ -121,7 +121,7 @@ public class DDraw.SphereObj : DDraw.BaseObject // TypeDefIndex: 11686
 
 }
 
-public class DDraw.SphereGizmoObj : DDraw.BaseObject // TypeDefIndex: 11687
+public class DDraw.SphereGizmoObj : DDraw.BaseObject // TypeDefIndex: 11691
 {	private static Matrix4x4 XZ; // 0x0
 	private static Matrix4x4 YZ; // 0x40
 	private static Matrix4x4 XY; // 0x80
@@ -135,7 +135,7 @@ public class DDraw.SphereGizmoObj : DDraw.BaseObject // TypeDefIndex: 11687
 
 }
 
-public class DDraw.LineObj : DDraw.BaseObject // TypeDefIndex: 11688
+public class DDraw.LineObj : DDraw.BaseObject // TypeDefIndex: 11692
 {
 	public override void Draw() { }
 
@@ -143,7 +143,7 @@ public class DDraw.LineObj : DDraw.BaseObject // TypeDefIndex: 11688
 
 }
 
-public class DDraw.CubeObj : DDraw.BaseObject // TypeDefIndex: 11689
+public class DDraw.CubeObj : DDraw.BaseObject // TypeDefIndex: 11693
 {
 	public override void Draw() { }
 
@@ -151,7 +151,7 @@ public class DDraw.CubeObj : DDraw.BaseObject // TypeDefIndex: 11689
 
 }
 
-public class DDraw.ArrowHead : DDraw.BaseObject // TypeDefIndex: 11690
+public class DDraw.ArrowHead : DDraw.BaseObject // TypeDefIndex: 11694
 {
 	public override void Draw() { }
 
@@ -159,7 +159,7 @@ public class DDraw.ArrowHead : DDraw.BaseObject // TypeDefIndex: 11690
 
 }
 
-public class DDraw.TextObj : DDraw.BaseObject // TypeDefIndex: 11691
+public class DDraw.TextObj : DDraw.BaseObject // TypeDefIndex: 11695
 {	public string text; // 0x88
 	protected Rect rect; // 0x90
 	protected bool draw; // 0xA0
@@ -173,7 +173,7 @@ public class DDraw.TextObj : DDraw.BaseObject // TypeDefIndex: 11691
 
 }
 
-public class DDraw.ScreenTextObj : DDraw.BaseObject // TypeDefIndex: 11692
+public class DDraw.ScreenTextObj : DDraw.BaseObject // TypeDefIndex: 11696
 {	public string text; // 0x88
 	public int x; // 0x90
 	public int y; // 0x94
@@ -188,7 +188,7 @@ public class DDraw.ScreenTextObj : DDraw.BaseObject // TypeDefIndex: 11692
 
 }
 
-private sealed class DDraw.<>c // TypeDefIndex: 11693
+private sealed class DDraw.<>c // TypeDefIndex: 11697
 {	public static readonly DDraw.<>c <>9; // 0x0
 	public static Predicate<DDraw.BaseObject> <>9__24_0; // 0x8
 
@@ -201,21 +201,21 @@ private sealed class DDraw.<>c // TypeDefIndex: 11693
 
 }
 
-public class DDraw // TypeDefIndex: 11899
+public class DDraw // TypeDefIndex: 11903
 {
-	[ClientVar] // RVA: 0x930E0 Offset: 0x924E0 VA: 0x1800930E0
+	[ClientVar] // RVA: 0x93350 Offset: 0x92750 VA: 0x180093350
 	public static void line(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x930E0 Offset: 0x924E0 VA: 0x1800930E0
+	[ClientVar] // RVA: 0x93350 Offset: 0x92750 VA: 0x180093350
 	public static void arrow(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x930E0 Offset: 0x924E0 VA: 0x1800930E0
+	[ClientVar] // RVA: 0x93350 Offset: 0x92750 VA: 0x180093350
 	public static void sphere(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x930E0 Offset: 0x924E0 VA: 0x1800930E0
+	[ClientVar] // RVA: 0x93350 Offset: 0x92750 VA: 0x180093350
 	public static void text(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x930E0 Offset: 0x924E0 VA: 0x1800930E0
+	[ClientVar] // RVA: 0x93350 Offset: 0x92750 VA: 0x180093350
 	public static void box(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

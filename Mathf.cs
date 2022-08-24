@@ -1,29 +1,29 @@
 public struct Mathf // TypeDefIndex: 3469
-{	public static readonly float Epsilon; // 0x14504
+{	public static readonly float Epsilon; // 0x2B117B0
 
 
-	[FreeFunctionAttribute] // RVA: 0x855F0 Offset: 0x849F0 VA: 0x1800855F0
+	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
 	public static int ClosestPowerOfTwo(int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x855F0 Offset: 0x849F0 VA: 0x1800855F0
+	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
 	public static bool IsPowerOfTwo(int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x855F0 Offset: 0x849F0 VA: 0x1800855F0
+	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
 	public static int NextPowerOfTwo(int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x855F0 Offset: 0x849F0 VA: 0x1800855F0
+	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
 	public static float GammaToLinearSpace(float value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x855F0 Offset: 0x849F0 VA: 0x1800855F0
+	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
 	public static float LinearToGammaSpace(float value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x855F0 Offset: 0x849F0 VA: 0x1800855F0
+	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
 	public static ushort FloatToHalf(float val) { }
 
-	[FreeFunctionAttribute] // RVA: 0x855F0 Offset: 0x849F0 VA: 0x1800855F0
+	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
 	public static float HalfToFloat(ushort val) { }
 
-	[FreeFunctionAttribute] // RVA: 0xB02E0 Offset: 0xAF6E0 VA: 0x1800B02E0
+	[FreeFunctionAttribute] // RVA: 0xB03C0 Offset: 0xAF7C0 VA: 0x1800B03C0
 	public static float PerlinNoise(float x, float y) { }
 
 	public static float Sin(float f) { }
@@ -100,7 +100,7 @@ public struct Mathf // TypeDefIndex: 3469
 
 	public static bool Approximately(float a, float b) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static float SmoothDamp(float current, float target, ref float currentVelocity, float smoothTime) { }
 
 	public static float SmoothDamp(float current, float target, ref float currentVelocity, float smoothTime, float maxSpeed, float deltaTime) { }

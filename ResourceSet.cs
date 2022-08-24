@@ -14,7 +14,7 @@ public class ResourceSet : IDisposable, IEnumerable // TypeDefIndex: 497
 
 	public void Dispose() { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public virtual IDictionaryEnumerator GetEnumerator() { }
 
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }

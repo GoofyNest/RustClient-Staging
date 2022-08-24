@@ -1,4 +1,4 @@
-public class StateErrorEventUI : BaseEventUI // TypeDefIndex: 10809
+public class StateErrorEventUI : BaseEventUI // TypeDefIndex: 10813
 {
 	public void .ctor() { }
 

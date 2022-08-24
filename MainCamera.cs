@@ -1,7 +1,7 @@
 public class MainCamera : RustCamera<MainCamera> // TypeDefIndex: 9201
 {	public static Camera mainCamera; // 0x0
 	public static Transform mainCameraTransform; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Vector3 <velocity>k__BackingField; // 0x10
 	private static long[] MipStreamingBudget; // 0x20
 	private double totalFrameTime; // 0x148
@@ -25,10 +25,10 @@ public class MainCamera : RustCamera<MainCamera> // TypeDefIndex: 9201
 
 	public static bool get_isValid() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static Vector3 get_velocity() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void set_velocity(Vector3 value) { }
 
 	public static Vector3 get_position() { }

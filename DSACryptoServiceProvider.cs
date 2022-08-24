@@ -8,7 +8,7 @@ public sealed class DSACryptoServiceProvider : DSA // TypeDefIndex: 1005
 	private static bool useMachineKeyStore; // 0x0
 
 	public override int KeySize { get; }
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public bool PublicOnly { get; }
 
 

@@ -7,26 +7,26 @@ public sealed class Screen // TypeDefIndex: 3386
 	public static Resolution[] resolutions { get; }
 
 
-	[NativeMethodAttribute] // RVA: 0x838A0 Offset: 0x82CA0 VA: 0x1800838A0
+	[NativeMethodAttribute] // RVA: 0x83970 Offset: 0x82D70 VA: 0x180083970
 	public static int get_width() { }
 
-	[NativeMethodAttribute] // RVA: 0x839F0 Offset: 0x82DF0 VA: 0x1800839F0
+	[NativeMethodAttribute] // RVA: 0x83B00 Offset: 0x82F00 VA: 0x180083B00
 	public static int get_height() { }
 
-	[NativeNameAttribute] // RVA: 0x83A70 Offset: 0x82E70 VA: 0x180083A70
+	[NativeNameAttribute] // RVA: 0x83B80 Offset: 0x82F80 VA: 0x180083B80
 	public static float get_dpi() { }
 
 	public static Resolution get_currentResolution() { }
 
-	[NativeNameAttribute] // RVA: 0x83C10 Offset: 0x83010 VA: 0x180083C10
+	[NativeNameAttribute] // RVA: 0x83CE0 Offset: 0x830E0 VA: 0x180083CE0
 	public static bool get_fullScreen() { }
 
-	[NativeNameAttribute] // RVA: 0x83D40 Offset: 0x83140 VA: 0x180083D40
+	[NativeNameAttribute] // RVA: 0x83E10 Offset: 0x83210 VA: 0x180083E10
 	public static void SetResolution(int width, int height, FullScreenMode fullscreenMode, int preferredRefreshRate) { }
 
 	public static void SetResolution(int width, int height, FullScreenMode fullscreenMode) { }
 
-	[FreeFunctionAttribute] // RVA: 0x83E90 Offset: 0x83290 VA: 0x180083E90
+	[FreeFunctionAttribute] // RVA: 0x83F60 Offset: 0x83360 VA: 0x180083F60
 	public static Resolution[] get_resolutions() { }
 
 	private static void get_currentResolution_Injected(out Resolution ret) { }

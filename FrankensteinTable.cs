@@ -67,10 +67,10 @@ public class FrankensteinTable : StorageContainer // TypeDefIndex: 8392
 	public List<ItemDefinition> HeadItems; // 0x498
 	public List<ItemDefinition> TorsoItems; // 0x4A0
 	public List<ItemDefinition> LegItems; // 0x4A8
-	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public List<ItemDefinition> ItemsToUse; // 0x4B0
 	public FrankensteinTableVisuals TableVisuals; // 0x4B8
-	[HeaderAttribute] // RVA: 0xDFC80 Offset: 0xDF080 VA: 0x1800DFC80
+	[HeaderAttribute] // RVA: 0xDFD90 Offset: 0xDF190 VA: 0x1800DFD90
 	public float TableDownDuration; // 0x4C0
 
 	public override bool HasMenuOptions { get; }
@@ -90,18 +90,18 @@ public class FrankensteinTable : StorageContainer // TypeDefIndex: 8392
 
 	public void Create() { }
 
-	[BaseEntity.Menu] // RVA: 0xDFCF0 Offset: 0xDF0F0 VA: 0x1800DFCF0
-	[BaseEntity.Menu.Description] // RVA: 0xDFCF0 Offset: 0xDF0F0 VA: 0x1800DFCF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDFCF0 Offset: 0xDF0F0 VA: 0x1800DFCF0
-	[BaseEntity.Menu.Icon] // RVA: 0xDFCF0 Offset: 0xDF0F0 VA: 0x1800DFCF0
+	[BaseEntity.Menu] // RVA: 0xDFE00 Offset: 0xDF200 VA: 0x1800DFE00
+	[BaseEntity.Menu.Description] // RVA: 0xDFE00 Offset: 0xDF200 VA: 0x1800DFE00
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDFE00 Offset: 0xDF200 VA: 0x1800DFE00
+	[BaseEntity.Menu.Icon] // RVA: 0xDFE00 Offset: 0xDF200 VA: 0x1800DFE00
 	public void MenuWakeFrankenstein(BasePlayer ply) { }
 
 	public bool CanWake(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE0010 Offset: 0xDF410 VA: 0x1800E0010
-	[BaseEntity.Menu.Description] // RVA: 0xE0010 Offset: 0xDF410 VA: 0x1800E0010
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE0010 Offset: 0xDF410 VA: 0x1800E0010
-	[BaseEntity.Menu.Icon] // RVA: 0xE0010 Offset: 0xDF410 VA: 0x1800E0010
+	[BaseEntity.Menu] // RVA: 0xE00E0 Offset: 0xDF4E0 VA: 0x1800E00E0
+	[BaseEntity.Menu.Description] // RVA: 0xE00E0 Offset: 0xDF4E0 VA: 0x1800E00E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE00E0 Offset: 0xDF4E0 VA: 0x1800E00E0
+	[BaseEntity.Menu.Icon] // RVA: 0xE00E0 Offset: 0xDF4E0 VA: 0x1800E00E0
 	public void MenuSleepFrankenstein(BasePlayer ply) { }
 
 	public bool CanSleep(BasePlayer player) { }
@@ -116,7 +116,7 @@ public class FrankensteinTable : StorageContainer // TypeDefIndex: 8392
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CL_WakeFrankenstein(BaseEntity.RPCMessage msg) { }
 
 	public void RefreshVisuals() { }

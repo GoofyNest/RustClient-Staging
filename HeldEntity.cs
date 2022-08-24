@@ -71,18 +71,18 @@ public class HeldEntity : BaseEntity // TypeDefIndex: 8575
 	public static float lastExamineTime; // 0x0
 	private float nextExamineTime; // 0x1AC
 	public const BaseEntity.Flags Flag_ForceVisible = 65536;
-	[HeaderAttribute] // RVA: 0xABCB0 Offset: 0xAB0B0 VA: 0x1800ABCB0
+	[HeaderAttribute] // RVA: 0xABDC0 Offset: 0xAB1C0 VA: 0x1800ABDC0
 	public string handBone; // 0x1B0
 	public AnimatorOverrideController HoldAnimationOverride; // 0x1B8
 	public bool isBuildingTool; // 0x1C0
-	[HeaderAttribute] // RVA: 0xABD80 Offset: 0xAB180 VA: 0x1800ABD80
+	[HeaderAttribute] // RVA: 0xABE60 Offset: 0xAB260 VA: 0x1800ABE60
 	public float hostileScore; // 0x1C4
 	public HeldEntity.HolsterInfo holsterInfo; // 0x1C8
-	[HeaderAttribute] // RVA: 0xABE70 Offset: 0xAB270 VA: 0x1800ABE70
+	[HeaderAttribute] // RVA: 0xABF80 Offset: 0xAB380 VA: 0x1800ABF80
 	public BasePlayer.CameraMode HeldCameraMode; // 0x1D0
 	public Vector3 FirstPersonArmOffset; // 0x1D4
 	public Vector3 FirstPersonArmRotation; // 0x1E0
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float FirstPersonRotationStrength; // 0x1EC
 	internal uint ownerItemUID; // 0x1F0
 
@@ -93,7 +93,7 @@ public class HeldEntity : BaseEntity // TypeDefIndex: 8575
 
 	public virtual void AddPunch(Vector3 amount, float duration) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CL_Punch(BaseEntity.RPCMessage msg) { }
 
 	public virtual void DoRecoilCompensation() { }

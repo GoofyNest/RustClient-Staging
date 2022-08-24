@@ -1,13 +1,13 @@
 internal class ScreenSpaceAmbientObscurance : PostEffectsBase // TypeDefIndex: 8201
-{	[RangeAttribute] // RVA: 0x84500 Offset: 0x83900 VA: 0x180084500
+{	[RangeAttribute] // RVA: 0x84610 Offset: 0x83A10 VA: 0x180084610
 	public float intensity; // 0x28
-	[RangeAttribute] // RVA: 0x858C0 Offset: 0x84CC0 VA: 0x1800858C0
+	[RangeAttribute] // RVA: 0x859E0 Offset: 0x84DE0 VA: 0x1800859E0
 	public float radius; // 0x2C
-	[RangeAttribute] // RVA: 0x84500 Offset: 0x83900 VA: 0x180084500
+	[RangeAttribute] // RVA: 0x84610 Offset: 0x83A10 VA: 0x180084610
 	public int blurIterations; // 0x30
-	[RangeAttribute] // RVA: 0x75A70 Offset: 0x74E70 VA: 0x180075A70
+	[RangeAttribute] // RVA: 0x75B10 Offset: 0x74F10 VA: 0x180075B10
 	public float blurFilterDistance; // 0x34
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public int downsample; // 0x38
 	public Texture2D rand; // 0x40
 	public Shader aoShader; // 0x48
@@ -18,7 +18,7 @@ internal class ScreenSpaceAmbientObscurance : PostEffectsBase // TypeDefIndex: 8
 
 	private void OnDisable() { }
 
-	[ImageEffectOpaque] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ImageEffectOpaque] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
 	public void .ctor() { }
@@ -51,7 +51,7 @@ public class ScreenSpaceAmbientOcclusion : MonoBehaviour // TypeDefIndex: 8202
 
 	private void CreateMaterials() { }
 
-	[ImageEffectOpaque] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ImageEffectOpaque] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }
 
 	public void .ctor() { }
@@ -66,7 +66,7 @@ public enum ScreenSpaceAmbientOcclusion.SSAOSamples // TypeDefIndex: 8203
 
 }
 
-public enum ScreenSpaceReflectionPreset // TypeDefIndex: 11800
+public enum ScreenSpaceReflectionPreset // TypeDefIndex: 11804
 {	public int value__; // 0x0
 	public const ScreenSpaceReflectionPreset Lower = 0;
 	public const ScreenSpaceReflectionPreset Low = 1;
@@ -79,7 +79,7 @@ public enum ScreenSpaceReflectionPreset // TypeDefIndex: 11800
 
 }
 
-public enum ScreenSpaceReflectionResolution // TypeDefIndex: 11801
+public enum ScreenSpaceReflectionResolution // TypeDefIndex: 11805
 {	public int value__; // 0x0
 	public const ScreenSpaceReflectionResolution Downsampled = 0;
 	public const ScreenSpaceReflectionResolution FullSize = 1;
@@ -87,36 +87,36 @@ public enum ScreenSpaceReflectionResolution // TypeDefIndex: 11801
 
 }
 
-public sealed class ScreenSpaceReflectionPresetParameter : ParameterOverride<ScreenSpaceReflectionPreset> // TypeDefIndex: 11802
+public sealed class ScreenSpaceReflectionPresetParameter : ParameterOverride<ScreenSpaceReflectionPreset> // TypeDefIndex: 11806
 {
 	public void .ctor() { }
 
 }
 
-public sealed class ScreenSpaceReflectionResolutionParameter : ParameterOverride<ScreenSpaceReflectionResolution> // TypeDefIndex: 11803
+public sealed class ScreenSpaceReflectionResolutionParameter : ParameterOverride<ScreenSpaceReflectionResolution> // TypeDefIndex: 11807
 {
 	public void .ctor() { }
 
 }
 
-public sealed class ScreenSpaceReflections : PostProcessEffectSettings // TypeDefIndex: 11804
-{	[TooltipAttribute] // RVA: 0x75740 Offset: 0x74B40 VA: 0x180075740
+public sealed class ScreenSpaceReflections : PostProcessEffectSettings // TypeDefIndex: 11808
+{	[TooltipAttribute] // RVA: 0x75AB0 Offset: 0x74EB0 VA: 0x180075AB0
 	public ScreenSpaceReflectionPresetParameter preset; // 0x30
-	[RangeAttribute] // RVA: 0x75920 Offset: 0x74D20 VA: 0x180075920
-	[TooltipAttribute] // RVA: 0x75920 Offset: 0x74D20 VA: 0x180075920
+	[RangeAttribute] // RVA: 0x75B60 Offset: 0x74F60 VA: 0x180075B60
+	[TooltipAttribute] // RVA: 0x75B60 Offset: 0x74F60 VA: 0x180075B60
 	public IntParameter maximumIterationCount; // 0x38
-	[TooltipAttribute] // RVA: 0x75A90 Offset: 0x74E90 VA: 0x180075A90
+	[TooltipAttribute] // RVA: 0x75EA0 Offset: 0x752A0 VA: 0x180075EA0
 	public ScreenSpaceReflectionResolutionParameter resolution; // 0x40
-	[RangeAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
-	[TooltipAttribute] // RVA: 0x75D10 Offset: 0x75110 VA: 0x180075D10
+	[RangeAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
+	[TooltipAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
 	public FloatParameter thickness; // 0x48
-	[TooltipAttribute] // RVA: 0x75EE0 Offset: 0x752E0 VA: 0x180075EE0
+	[TooltipAttribute] // RVA: 0x76110 Offset: 0x75510 VA: 0x180076110
 	public FloatParameter maximumMarchDistance; // 0x50
-	[RangeAttribute] // RVA: 0x76020 Offset: 0x75420 VA: 0x180076020
-	[TooltipAttribute] // RVA: 0x76020 Offset: 0x75420 VA: 0x180076020
+	[RangeAttribute] // RVA: 0x76260 Offset: 0x75660 VA: 0x180076260
+	[TooltipAttribute] // RVA: 0x76260 Offset: 0x75660 VA: 0x180076260
 	public FloatParameter distanceFade; // 0x58
-	[RangeAttribute] // RVA: 0x76150 Offset: 0x75550 VA: 0x180076150
-	[TooltipAttribute] // RVA: 0x76150 Offset: 0x75550 VA: 0x180076150
+	[RangeAttribute] // RVA: 0x76360 Offset: 0x75760 VA: 0x180076360
+	[TooltipAttribute] // RVA: 0x76360 Offset: 0x75760 VA: 0x180076360
 	public FloatParameter vignette; // 0x60
 
 
@@ -126,7 +126,7 @@ public sealed class ScreenSpaceReflections : PostProcessEffectSettings // TypeDe
 
 }
 
-internal sealed class ScreenSpaceReflectionsRenderer : PostProcessEffectRenderer<ScreenSpaceReflections> // TypeDefIndex: 11805
+internal sealed class ScreenSpaceReflectionsRenderer : PostProcessEffectRenderer<ScreenSpaceReflections> // TypeDefIndex: 11809
 {	private RenderTexture m_Resolve; // 0x20
 	private RenderTexture m_History; // 0x28
 	private int[] m_MipIDs; // 0x30
@@ -145,7 +145,7 @@ internal sealed class ScreenSpaceReflectionsRenderer : PostProcessEffectRenderer
 
 }
 
-private class ScreenSpaceReflectionsRenderer.QualityPreset // TypeDefIndex: 11806
+private class ScreenSpaceReflectionsRenderer.QualityPreset // TypeDefIndex: 11810
 {	public int maximumIterationCount; // 0x10
 	public float thickness; // 0x14
 	public ScreenSpaceReflectionResolution downsampling; // 0x18
@@ -155,7 +155,7 @@ private class ScreenSpaceReflectionsRenderer.QualityPreset // TypeDefIndex: 1180
 
 }
 
-private enum ScreenSpaceReflectionsRenderer.Pass // TypeDefIndex: 11807
+private enum ScreenSpaceReflectionsRenderer.Pass // TypeDefIndex: 11811
 {	public int value__; // 0x0
 	public const ScreenSpaceReflectionsRenderer.Pass Test = 0;
 	public const ScreenSpaceReflectionsRenderer.Pass Resolve = 1;

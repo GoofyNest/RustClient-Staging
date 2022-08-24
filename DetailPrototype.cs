@@ -1,6 +1,6 @@
 public sealed class DetailPrototype // TypeDefIndex: 4091
 {
-[UsedByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[UsedByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 public sealed class DetailPrototype // TypeDefIndex: 4091
 	internal GameObject m_Prototype; // 0x10
 	internal Texture2D m_PrototypeTexture; // 0x18

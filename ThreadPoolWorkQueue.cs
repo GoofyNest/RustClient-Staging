@@ -93,7 +93,7 @@ internal class ThreadPoolWorkQueue.QueueSegment // TypeDefIndex: 812
 
 	private bool CompareExchangeIndexes(ref int prevUpper, int newUpper, ref int prevLower, int newLower) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public void .ctor() { }
 
 	public bool IsUsedUp() { }

@@ -1,6 +1,6 @@
 public class ResourceManager // TypeDefIndex: 491
 {	protected string BaseNameField; // 0x10
-	[ObsoleteAttribute] // RVA: 0x964B0 Offset: 0x958B0 VA: 0x1800964B0
+	[ObsoleteAttribute] // RVA: 0x965F0 Offset: 0x959F0 VA: 0x1800965F0
 	protected Hashtable ResourceSets; // 0x18
 	private Dictionary<string, ResourceSet> _resourceSets; // 0x20
 	private string moduleDir; // 0x28
@@ -11,17 +11,17 @@ public class ResourceManager // TypeDefIndex: 491
 	private ResourceManager.CultureNameResourceSetPair _lastUsedResourceCache; // 0x50
 	private bool _ignoreCase; // 0x58
 	private bool UseManifest; // 0x59
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	private bool UseSatelliteAssem; // 0x5A
-	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
+	[OptionalFieldAttribute] // RVA: 0x7B5F0 Offset: 0x7A9F0 VA: 0x18007B5F0
 	private UltimateResourceFallbackLocation _fallbackLoc; // 0x5C
-	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
+	[OptionalFieldAttribute] // RVA: 0x7B5F0 Offset: 0x7A9F0 VA: 0x18007B5F0
 	private Version _satelliteContractVersion; // 0x60
-	[OptionalFieldAttribute] // RVA: 0x7B570 Offset: 0x7A970 VA: 0x18007B570
+	[OptionalFieldAttribute] // RVA: 0x7B5F0 Offset: 0x7A9F0 VA: 0x18007B5F0
 	private bool _lookedForSatelliteContractVersion; // 0x68
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	private Assembly _callingAssembly; // 0x70
-	[OptionalFieldAttribute] // RVA: 0x7B710 Offset: 0x7AB10 VA: 0x18007B710
+	[OptionalFieldAttribute] // RVA: 0x7B780 Offset: 0x7AB80 VA: 0x18007B780
 	private RuntimeAssembly m_callingAssembly; // 0x78
 	private IResourceGroveler resourceGroveler; // 0x80
 	public static readonly int MagicNumber; // 0x0
@@ -44,13 +44,13 @@ public class ResourceManager // TypeDefIndex: 491
 
 	public void .ctor(Type resourceSource) { }
 
-	[OnDeserializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnDeserializingAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnDeserializing(StreamingContext ctx) { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnDeserializedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnDeserialized(StreamingContext ctx) { }
 
-	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnSerializingAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnSerializing(StreamingContext ctx) { }
 
 	private void CommonAssemblyInit() { }

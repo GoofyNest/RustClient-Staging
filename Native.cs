@@ -1,28 +1,28 @@
 internal static class Native // TypeDefIndex: 4578
 {
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void YGNodeMeasureInvoke(YogaNode node, float width, YogaMeasureMode widthMode, float height, YogaMeasureMode heightMode, IntPtr returnValueAddress) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void YGNodeBaselineInvoke(YogaNode node, float width, float height, IntPtr returnValueAddress) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
 	public static float YGNodeLayoutGetLeft(IntPtr node) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
 	public static float YGNodeLayoutGetTop(IntPtr node) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
 	public static float YGNodeLayoutGetWidth(IntPtr node) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A450 Offset: 0x79850 VA: 0x18007A450
+	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
 	public static float YGNodeLayoutGetHeight(IntPtr node) { }
 
 }
 
 public class Native // TypeDefIndex: 7323
 {
-[SuppressUnmanagedCodeSecurityAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[SuppressUnmanagedCodeSecurityAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 public class Native // TypeDefIndex: 7323
 
 	public static extern IntPtr NET_Create() { }
@@ -111,18 +111,18 @@ public enum Native.PacketPriority // TypeDefIndex: 7325
 }
 
 public struct Native.RaknetStats // TypeDefIndex: 7326
-{	[FixedBufferAttribute] // RVA: 0x97500 Offset: 0x96900 VA: 0x180097500
+{	[FixedBufferAttribute] // RVA: 0x97600 Offset: 0x96A00 VA: 0x180097600
 	public Native.RaknetStats.<valueOverLastSecond>e__FixedBuffer valueOverLastSecond; // 0x0
-	[FixedBufferAttribute] // RVA: 0x97740 Offset: 0x96B40 VA: 0x180097740
+	[FixedBufferAttribute] // RVA: 0x97870 Offset: 0x96C70 VA: 0x180097870
 	public Native.RaknetStats.<runningTotal>e__FixedBuffer runningTotal; // 0x38
 	public ulong connectionStartTime; // 0x70
 	public byte isLimitedByCongestionControl; // 0x78
 	public ulong BPSLimitByCongestionControl; // 0x80
 	public byte isLimitedByOutgoingBandwidthLimit; // 0x88
 	public ulong BPSLimitByOutgoingBandwidthLimit; // 0x90
-	[FixedBufferAttribute] // RVA: 0x97870 Offset: 0x96C70 VA: 0x180097870
+	[FixedBufferAttribute] // RVA: 0x979A0 Offset: 0x96DA0 VA: 0x1800979A0
 	public Native.RaknetStats.<messageInSendBuffer>e__FixedBuffer messageInSendBuffer; // 0x98
-	[FixedBufferAttribute] // RVA: 0x979D0 Offset: 0x96DD0 VA: 0x1800979D0
+	[FixedBufferAttribute] // RVA: 0x97AA0 Offset: 0x96EA0 VA: 0x180097AA0
 	public Native.RaknetStats.<bytesInSendBuffer>e__FixedBuffer bytesInSendBuffer; // 0xA8
 	public uint messagesInResendBuffer; // 0xC8
 	public ulong bytesInResendBuffer; // 0xD0

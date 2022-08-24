@@ -6,14 +6,14 @@ private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 // 
 
 internal class <Module> // TypeDefIndex: 3262
 
-[VisibleToOtherModulesAttribute] // RVA: 0xB71D0 Offset: 0xB65D0 VA: 0x1800B71D0
-[AttributeUsageAttribute] // RVA: 0xB71D0 Offset: 0xB65D0 VA: 0x1800B71D0
+[VisibleToOtherModulesAttribute] // RVA: 0xB9220 Offset: 0xB8620 VA: 0x1800B9220
+[AttributeUsageAttribute] // RVA: 0xB9220 Offset: 0xB8620 VA: 0x1800B9220
 internal sealed class AssetFileNameExtensionAttribute : Attribute // TypeDefIndex: 3263
-	[CompilerGeneratedAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	[DebuggerBrowsableAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
 	private readonly string <preferredExtension>k__BackingField; // 0x10
-	[DebuggerBrowsableAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
-	[CompilerGeneratedAttribute] // RVA: 0x70770 Offset: 0x6FB70 VA: 0x180070770
+	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
 	private readonly IEnumerable<string> <otherExtensions>k__BackingField; // 0x18
 
 
@@ -23,33 +23,33 @@ internal sealed class AssetFileNameExtensionAttribute : Attribute // TypeDefInde
 
 public class AssetBundle : Object // TypeDefIndex: 3992
 {
-[NativeHeaderAttribute] // RVA: 0xABB10 Offset: 0xAAF10 VA: 0x1800ABB10
-[NativeHeaderAttribute] // RVA: 0xABB10 Offset: 0xAAF10 VA: 0x1800ABB10
-[NativeHeaderAttribute] // RVA: 0xABB10 Offset: 0xAAF10 VA: 0x1800ABB10
-[NativeHeaderAttribute] // RVA: 0xABB10 Offset: 0xAAF10 VA: 0x1800ABB10
-[NativeHeaderAttribute] // RVA: 0xABB10 Offset: 0xAAF10 VA: 0x1800ABB10
-[NativeHeaderAttribute] // RVA: 0xABB10 Offset: 0xAAF10 VA: 0x1800ABB10
-[NativeHeaderAttribute] // RVA: 0xABB10 Offset: 0xAAF10 VA: 0x1800ABB10
-[NativeHeaderAttribute] // RVA: 0xABB10 Offset: 0xAAF10 VA: 0x1800ABB10
-[NativeHeaderAttribute] // RVA: 0xABB10 Offset: 0xAAF10 VA: 0x1800ABB10
-[ExcludeFromPresetAttribute] // RVA: 0xABB10 Offset: 0xAAF10 VA: 0x1800ABB10
-[NativeHeaderAttribute] // RVA: 0xABB10 Offset: 0xAAF10 VA: 0x1800ABB10
-[NativeHeaderAttribute] // RVA: 0xABB10 Offset: 0xAAF10 VA: 0x1800ABB10
+[NativeHeaderAttribute] // RVA: 0xABC20 Offset: 0xAB020 VA: 0x1800ABC20
+[NativeHeaderAttribute] // RVA: 0xABC20 Offset: 0xAB020 VA: 0x1800ABC20
+[NativeHeaderAttribute] // RVA: 0xABC20 Offset: 0xAB020 VA: 0x1800ABC20
+[NativeHeaderAttribute] // RVA: 0xABC20 Offset: 0xAB020 VA: 0x1800ABC20
+[NativeHeaderAttribute] // RVA: 0xABC20 Offset: 0xAB020 VA: 0x1800ABC20
+[NativeHeaderAttribute] // RVA: 0xABC20 Offset: 0xAB020 VA: 0x1800ABC20
+[NativeHeaderAttribute] // RVA: 0xABC20 Offset: 0xAB020 VA: 0x1800ABC20
+[NativeHeaderAttribute] // RVA: 0xABC20 Offset: 0xAB020 VA: 0x1800ABC20
+[NativeHeaderAttribute] // RVA: 0xABC20 Offset: 0xAB020 VA: 0x1800ABC20
+[ExcludeFromPresetAttribute] // RVA: 0xABC20 Offset: 0xAB020 VA: 0x1800ABC20
+[NativeHeaderAttribute] // RVA: 0xABC20 Offset: 0xAB020 VA: 0x1800ABC20
+[NativeHeaderAttribute] // RVA: 0xABC20 Offset: 0xAB020 VA: 0x1800ABC20
 public class AssetBundle : Object // TypeDefIndex: 3992
 
 	private void .ctor() { }
 
-	[FreeFunctionAttribute] // RVA: 0xAC0D0 Offset: 0xAB4D0 VA: 0x1800AC0D0
+	[FreeFunctionAttribute] // RVA: 0xAC1B0 Offset: 0xAB5B0 VA: 0x1800AC1B0
 	internal static AssetBundleCreateRequest LoadFromFileAsync_Internal(string path, uint crc, ulong offset) { }
 
 	public static AssetBundleCreateRequest LoadFromFileAsync(string path) { }
 
-	[FreeFunctionAttribute] // RVA: 0xAC150 Offset: 0xAB550 VA: 0x1800AC150
+	[FreeFunctionAttribute] // RVA: 0xAC260 Offset: 0xAB660 VA: 0x1800AC260
 	internal static AssetBundle LoadFromFile_Internal(string path, uint crc, ulong offset) { }
 
 	public static AssetBundle LoadFromFile(string path) { }
 
-	[NativeMethodAttribute] // RVA: 0xAC290 Offset: 0xAB690 VA: 0x1800AC290
+	[NativeMethodAttribute] // RVA: 0xAC3A0 Offset: 0xAB7A0 VA: 0x1800AC3A0
 	public bool Contains(string name) { }
 
 	public T LoadAsset<T>(string name) { }
@@ -59,12 +59,12 @@ public class AssetBundle : Object // TypeDefIndex: 3992
 	|-AssetBundle.LoadAsset<object>
 	*/
 
-	[TypeInferenceRuleAttribute] // RVA: 0xAC310 Offset: 0xAB710 VA: 0x1800AC310
+	[TypeInferenceRuleAttribute] // RVA: 0xAC420 Offset: 0xAB820 VA: 0x1800AC420
 	public Object LoadAsset(string name, Type type) { }
 
-	[NativeThrowsAttribute] // RVA: 0xAC3E0 Offset: 0xAB7E0 VA: 0x1800AC3E0
-	[TypeInferenceRuleAttribute] // RVA: 0xAC3E0 Offset: 0xAB7E0 VA: 0x1800AC3E0
-	[NativeMethodAttribute] // RVA: 0xAC3E0 Offset: 0xAB7E0 VA: 0x1800AC3E0
+	[NativeThrowsAttribute] // RVA: 0xAC4C0 Offset: 0xAB8C0 VA: 0x1800AC4C0
+	[TypeInferenceRuleAttribute] // RVA: 0xAC4C0 Offset: 0xAB8C0 VA: 0x1800AC4C0
+	[NativeMethodAttribute] // RVA: 0xAC4C0 Offset: 0xAB8C0 VA: 0x1800AC4C0
 	private Object LoadAsset_Internal(string name, Type type) { }
 
 	public AssetBundleRequest LoadAssetAsync(string name) { }
@@ -95,18 +95,18 @@ public class AssetBundle : Object // TypeDefIndex: 3992
 
 	public Object[] LoadAllAssets(Type type) { }
 
-	[NativeThrowsAttribute] // RVA: 0xAC5B0 Offset: 0xAB9B0 VA: 0x1800AC5B0
-	[NativeMethodAttribute] // RVA: 0xAC5B0 Offset: 0xAB9B0 VA: 0x1800AC5B0
+	[NativeThrowsAttribute] // RVA: 0xAC6A0 Offset: 0xABAA0 VA: 0x1800AC6A0
+	[NativeMethodAttribute] // RVA: 0xAC6A0 Offset: 0xABAA0 VA: 0x1800AC6A0
 	private AssetBundleRequest LoadAssetAsync_Internal(string name, Type type) { }
 
-	[NativeMethodAttribute] // RVA: 0xAC7B0 Offset: 0xABBB0 VA: 0x1800AC7B0
+	[NativeMethodAttribute] // RVA: 0xAC8C0 Offset: 0xABCC0 VA: 0x1800AC8C0
 	public void Unload(bool unloadAllLoadedObjects) { }
 
-	[NativeMethodAttribute] // RVA: 0xAC900 Offset: 0xABD00 VA: 0x1800AC900
+	[NativeMethodAttribute] // RVA: 0xAC980 Offset: 0xABD80 VA: 0x1800AC980
 	public string[] GetAllAssetNames() { }
 
-	[NativeThrowsAttribute] // RVA: 0xACAB0 Offset: 0xABEB0 VA: 0x1800ACAB0
-	[NativeMethodAttribute] // RVA: 0xACAB0 Offset: 0xABEB0 VA: 0x1800ACAB0
+	[NativeThrowsAttribute] // RVA: 0xACB90 Offset: 0xABF90 VA: 0x1800ACB90
+	[NativeMethodAttribute] // RVA: 0xACB90 Offset: 0xABF90 VA: 0x1800ACB90
 	internal Object[] LoadAssetWithSubAssets_Internal(string name, Type type) { }
 
 }
@@ -115,7 +115,7 @@ public class AssetBundleCreateRequest : AsyncOperation // TypeDefIndex: 3993
 {	public AssetBundle assetBundle { get; }
 
 
-	[NativeMethodAttribute] // RVA: 0xACCC0 Offset: 0xAC0C0 VA: 0x1800ACCC0
+	[NativeMethodAttribute] // RVA: 0xACDD0 Offset: 0xAC1D0 VA: 0x1800ACDD0
 	public AssetBundle get_assetBundle() { }
 
 	public void .ctor() { }
@@ -124,20 +124,20 @@ public class AssetBundleCreateRequest : AsyncOperation // TypeDefIndex: 3993
 
 public class AssetBundleManifest : Object // TypeDefIndex: 3994
 {
-	[NativeMethodAttribute] // RVA: 0xACED0 Offset: 0xAC2D0 VA: 0x1800ACED0
+	[NativeMethodAttribute] // RVA: 0xACFB0 Offset: 0xAC3B0 VA: 0x1800ACFB0
 	public string[] GetAllAssetBundles() { }
 
 }
 
 public class AssetBundleRequest : AsyncOperation // TypeDefIndex: 3996
 {
-[NativeHeaderAttribute] // RVA: 0xAD140 Offset: 0xAC540 VA: 0x1800AD140
-[RequiredByNativeCodeAttribute] // RVA: 0xAD140 Offset: 0xAC540 VA: 0x1800AD140
+[NativeHeaderAttribute] // RVA: 0xAD250 Offset: 0xAC650 VA: 0x1800AD250
+[RequiredByNativeCodeAttribute] // RVA: 0xAD250 Offset: 0xAC650 VA: 0x1800AD250
 public class AssetBundleRequest : AsyncOperation // TypeDefIndex: 3996
 	public Object asset { get; }
 
 
-	[NativeMethodAttribute] // RVA: 0xAE510 Offset: 0xAD910 VA: 0x1800AE510
+	[NativeMethodAttribute] // RVA: 0xAE5F0 Offset: 0xAD9F0 VA: 0x1800AE5F0
 	public Object get_asset() { }
 
 	public void .ctor() { }
@@ -145,7 +145,7 @@ public class AssetBundleRequest : AsyncOperation // TypeDefIndex: 3996
 }
 
 public static class AssetPool // TypeDefIndex: 6562
-{	public static Dictionary<Type, AssetPool.Pool> storage; // 0x34DF
+{	public static Dictionary<Type, AssetPool.Pool> storage; // 0x2B117EC
 
 
 	public static T Get<T>() { }
@@ -204,7 +204,7 @@ public class AssetBundleBackend : FileSystemBackend, IDisposable // TypeDefIndex
 	private Dictionary<string, AssetBundle> bundles; // 0x38
 	private Dictionary<string, AssetBundle> files; // 0x40
 	private string assetPath; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <LoadProgress>k__BackingField; // 0x50
 
 	public static bool Enabled { get; }
@@ -213,10 +213,10 @@ public class AssetBundleBackend : FileSystemBackend, IDisposable // TypeDefIndex
 
 	public static bool get_Enabled() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_LoadProgress() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_LoadProgress(float value) { }
 
 	public void Load(string assetRoot) { }
@@ -295,7 +295,7 @@ internal class AssetBundleLoadAssetsResult : LoadAssetsResult // TypeDefIndex: 6
 	private readonly int _maxConcurrency; // 0x30
 	private readonly int _priority; // 0x34
 	private readonly List<AssetBundleRequest> _requests; // 0x38
-	[TupleElementNamesAttribute] // RVA: 0xC0930 Offset: 0xBFD30 VA: 0x1800C0930
+	[TupleElementNamesAttribute] // RVA: 0xC09F0 Offset: 0xBFDF0 VA: 0x1800C09F0
 	private readonly List<ValueTuple<string, AssetBundleRequest>> _pendingRequests; // 0x40
 	private int _index; // 0x48
 
@@ -323,7 +323,7 @@ public class AssetPreloadResult : CustomYieldInstruction // TypeDefIndex: 6656
 
 	public int TotalCount { get; }
 	public int CompletedCount { get; }
-	[TupleElementNamesAttribute] // RVA: 0xC0D00 Offset: 0xC0100 VA: 0x1800C0D00
+	[TupleElementNamesAttribute] // RVA: 0xC0DD0 Offset: 0xC01D0 VA: 0x1800C0DD0
 	public IReadOnlyList<ValueTuple<string, Object>> Results { get; }
 	public override bool keepWaiting { get; }
 
@@ -342,7 +342,7 @@ public class AssetPreloadResult : CustomYieldInstruction // TypeDefIndex: 6656
 
 }
 
-public static class AssetNameCache // TypeDefIndex: 10716
+public static class AssetNameCache // TypeDefIndex: 10720
 {	private static Dictionary<Object, string> mixed; // 0x0
 	private static Dictionary<Object, string> lower; // 0x8
 	private static Dictionary<Object, string> upper; // 0x10
@@ -354,29 +354,29 @@ public static class AssetNameCache // TypeDefIndex: 10716
 
 	private static string LookupNameUpper(Object obj) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static string GetName(PhysicMaterial mat) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static string GetNameLower(PhysicMaterial mat) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static string GetNameUpper(PhysicMaterial mat) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static string GetName(Material mat) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static string GetNameLower(Material mat) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static string GetNameUpper(Material mat) { }
 
 	private static void .cctor() { }
 
 }
 
-public static class AssetStorage // TypeDefIndex: 11366
+public static class AssetStorage // TypeDefIndex: 11370
 {
 	public static void Save<T>(ref T asset, string path) { }
 	/* GenericInstMethod :

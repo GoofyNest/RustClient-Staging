@@ -1,12 +1,12 @@
 public class LevelInfo : SingletonComponent<LevelInfo> // TypeDefIndex: 9962
 {	public string shortName; // 0x18
 	public string displayName; // 0x20
-	[TextAreaAttribute] // RVA: 0x721B0 Offset: 0x715B0 VA: 0x1800721B0
+	[TextAreaAttribute] // RVA: 0x72220 Offset: 0x71620 VA: 0x180072220
 	public string description; // 0x28
-	[TooltipAttribute] // RVA: 0xAA9A0 Offset: 0xA9DA0 VA: 0x1800AA9A0
+	[TooltipAttribute] // RVA: 0xAAA30 Offset: 0xA9E30 VA: 0x1800AAA30
 	public Texture2D image; // 0x30
-	[SpaceAttribute] // RVA: 0xAAA90 Offset: 0xA9E90 VA: 0x1800AAA90
-	[TooltipAttribute] // RVA: 0xAAA90 Offset: 0xA9E90 VA: 0x1800AAA90
+	[SpaceAttribute] // RVA: 0xAAB30 Offset: 0xA9F30 VA: 0x1800AAB30
+	[TooltipAttribute] // RVA: 0xAAB30 Offset: 0xA9F30 VA: 0x1800AAB30
 	public int version; // 0x38
 
 

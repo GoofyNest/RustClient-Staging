@@ -4,7 +4,7 @@ internal class WebConnectionGroup // TypeDefIndex: 3031
 	private LinkedList<WebConnectionGroup.ConnectionState> connections; // 0x20
 	private Queue queue; // 0x28
 	private bool closing; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private EventHandler ConnectionClosed; // 0x38
 
 	public string Name { get; }
@@ -13,10 +13,10 @@ internal class WebConnectionGroup // TypeDefIndex: 3031
 
 	public void .ctor(ServicePoint sPoint, string name) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void add_ConnectionClosed(EventHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void remove_ConnectionClosed(EventHandler value) { }
 
 	private void OnConnectionClosed() { }
@@ -40,9 +40,9 @@ internal class WebConnectionGroup // TypeDefIndex: 3031
 }
 
 private class WebConnectionGroup.ConnectionState : IWebConnectionState // TypeDefIndex: 3032
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private WebConnection <Connection>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private WebConnectionGroup <Group>k__BackingField; // 0x18
 	private bool busy; // 0x20
 	private DateTime idleSince; // 0x28
@@ -54,16 +54,16 @@ private class WebConnectionGroup.ConnectionState : IWebConnectionState // TypeDe
 	public DateTime IdleSince { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public WebConnection get_Connection() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Connection(WebConnection value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public WebConnectionGroup get_Group() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Group(WebConnectionGroup value) { }
 
 	public ServicePoint get_ServicePoint() { }

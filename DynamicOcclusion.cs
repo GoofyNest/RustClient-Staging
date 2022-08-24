@@ -1,4 +1,4 @@
-public class DynamicOcclusion : MonoBehaviour // TypeDefIndex: 11540
+public class DynamicOcclusion : MonoBehaviour // TypeDefIndex: 11544
 {	public LayerMask layerMask; // 0x18
 	public float minOccluderArea; // 0x1C
 	public int waitFrameCount; // 0x20
@@ -44,7 +44,7 @@ public class DynamicOcclusion : MonoBehaviour // TypeDefIndex: 11540
 
 }
 
-private enum DynamicOcclusion.Direction // TypeDefIndex: 11541
+private enum DynamicOcclusion.Direction // TypeDefIndex: 11545
 {	public int value__; // 0x0
 	public const DynamicOcclusion.Direction Up = 0;
 	public const DynamicOcclusion.Direction Right = 1;

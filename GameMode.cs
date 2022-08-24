@@ -243,7 +243,7 @@ public class GameMode.PlayerScore : IDisposable, Pool.IPooled, IProto // TypeDef
 
 }
 
-public class gamemode : ConsoleSystem // TypeDefIndex: 11924
+public class gamemode : ConsoleSystem // TypeDefIndex: 11928
 {
 	public void .ctor() { }
 

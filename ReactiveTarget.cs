@@ -27,7 +27,7 @@ public class ReactiveTarget : IOEntity // TypeDefIndex: 8433
 
 	public bool CanToggle() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void HitEffect(BaseEntity.RPCMessage msg) { }
 
 	public override void ClientOnEnable() { }
@@ -36,18 +36,18 @@ public class ReactiveTarget : IOEntity // TypeDefIndex: 8433
 
 	private void UpdateAnimationParameters(bool isOn) { }
 
-	[BaseEntity.Menu] // RVA: 0x7F300 Offset: 0x7E700 VA: 0x18007F300
-	[BaseEntity.Menu.Description] // RVA: 0x7F300 Offset: 0x7E700 VA: 0x18007F300
-	[BaseEntity.Menu.Icon] // RVA: 0x7F300 Offset: 0x7E700 VA: 0x18007F300
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7F300 Offset: 0x7E700 VA: 0x18007F300
+	[BaseEntity.Menu] // RVA: 0x7F3E0 Offset: 0x7E7E0 VA: 0x18007F3E0
+	[BaseEntity.Menu.Description] // RVA: 0x7F3E0 Offset: 0x7E7E0 VA: 0x18007F3E0
+	[BaseEntity.Menu.Icon] // RVA: 0x7F3E0 Offset: 0x7E7E0 VA: 0x18007F3E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7F3E0 Offset: 0x7E7E0 VA: 0x18007F3E0
 	public void Reset_target(BasePlayer player) { }
 
 	public bool Menu_Reset_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7F610 Offset: 0x7EA10 VA: 0x18007F610
-	[BaseEntity.Menu.Description] // RVA: 0x7F610 Offset: 0x7EA10 VA: 0x18007F610
-	[BaseEntity.Menu.Icon] // RVA: 0x7F610 Offset: 0x7EA10 VA: 0x18007F610
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7F610 Offset: 0x7EA10 VA: 0x18007F610
+	[BaseEntity.Menu] // RVA: 0x7F6A0 Offset: 0x7EAA0 VA: 0x18007F6A0
+	[BaseEntity.Menu.Description] // RVA: 0x7F6A0 Offset: 0x7EAA0 VA: 0x18007F6A0
+	[BaseEntity.Menu.Icon] // RVA: 0x7F6A0 Offset: 0x7EAA0 VA: 0x18007F6A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7F6A0 Offset: 0x7EAA0 VA: 0x18007F6A0
 	public void Lower_Target(BasePlayer player) { }
 
 	public bool Menu_Lower_ShowIf(BasePlayer player) { }

@@ -422,7 +422,7 @@ public class ConsoleSystem // TypeDefIndex: 6878
 	public static bool HasChanges; // 0x0
 	public static Func<bool> ClientCanRunAdminCommands; // 0x8
 	public static Func<string, bool> OnSendToServer; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action<string, string> OnReplicatedVarChanged; // 0x18
 	public static string LastError; // 0x20
 	public static ConsoleSystem.Arg CurrentArgs; // 0x28
@@ -432,10 +432,10 @@ public class ConsoleSystem // TypeDefIndex: 6878
 
 	internal static bool SendToServer(string command) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void add_OnReplicatedVarChanged(Action<string, string> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void remove_OnReplicatedVarChanged(Action<string, string> value) { }
 
 	public static void RunFile(ConsoleSystem.Option options, string strFile) { }
@@ -554,7 +554,7 @@ public class ConsoleSystem.Command // TypeDefIndex: 6881
 	public bool AllowRunFromServer; // 0x58
 	public string Description; // 0x60
 	public string Arguments; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Action<ConsoleSystem.Command> OnValueChanged; // 0x70
 
 	public bool Server { get; }
@@ -567,10 +567,10 @@ public class ConsoleSystem.Command // TypeDefIndex: 6881
 
 	public bool get_Server() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void add_OnValueChanged(Action<ConsoleSystem.Command> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void remove_OnValueChanged(Action<ConsoleSystem.Command> value) { }
 
 	public void .ctor() { }
@@ -600,7 +600,7 @@ public class ConsoleSystem.Command // TypeDefIndex: 6881
 public static class ConsoleSystem.Index // TypeDefIndex: 6884
 {	private static readonly Memoized<string, string> WithGlobal; // 0x0
 	private static readonly Memoized<string, string> WithoutGlobal; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static ConsoleSystem.Command[] <All>k__BackingField; // 0x10
 
 	public static ConsoleSystem.Command[] All { get; set; }
@@ -610,10 +610,10 @@ public static class ConsoleSystem.Index // TypeDefIndex: 6884
 
 	public static void Reset() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static ConsoleSystem.Command[] get_All() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void set_All(ConsoleSystem.Command[] value) { }
 
 	private static void .cctor() { }
@@ -664,21 +664,21 @@ private sealed class ConsoleSystem.Index.<>c // TypeDefIndex: 6887
 }
 
 public struct ConsoleSystem.Option // TypeDefIndex: 6888
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsServer>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsClient>k__BackingField; // 0x1
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <ForwardtoServerOnMissing>k__BackingField; // 0x2
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <PrintOutput>k__BackingField; // 0x3
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsUnrestricted>k__BackingField; // 0x4
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <FromRcon>k__BackingField; // 0x5
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsFromServer>k__BackingField; // 0x6
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Connection <Connection>k__BackingField; // 0x8
 
 	public static ConsoleSystem.Option Unrestricted { get; }
@@ -700,52 +700,52 @@ public struct ConsoleSystem.Option // TypeDefIndex: 6888
 
 	public static ConsoleSystem.Option get_Server() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsServer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_IsServer(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsClient() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_IsClient(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_ForwardtoServerOnMissing() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_ForwardtoServerOnMissing(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_PrintOutput() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_PrintOutput(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsUnrestricted() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_IsUnrestricted(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_FromRcon() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_FromRcon(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsFromServer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_IsFromServer(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Connection get_Connection() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Connection(Connection value) { }
 
 	public ConsoleSystem.Option Quiet() { }
@@ -795,7 +795,7 @@ public class ConsoleVar : Attribute // TypeDefIndex: 6890
 }
 
 public class ConsoleGen // TypeDefIndex: 8299
-{	public static ConsoleSystem.Command[] All; // 0x2AC0
+{	public static ConsoleSystem.Command[] All; // 0x1F9C
 
 
 	public void .ctor() { }
@@ -805,7 +805,7 @@ public class ConsoleGen // TypeDefIndex: 8299
 }
 
 private sealed class ConsoleGen.<>c // TypeDefIndex: 8300
-{	public static readonly ConsoleGen.<>c <>9; // 0x2B27
+{	public static readonly ConsoleGen.<>c <>9; // 0x2B117D0
 
 
 	private static void .cctor() { }
@@ -3096,7 +3096,7 @@ public static class ConsoleNetwork // TypeDefIndex: 9370
 
 }
 
-public class ConsoleUI : SingletonComponent<ConsoleUI> // TypeDefIndex: 10836
+public class ConsoleUI : SingletonComponent<ConsoleUI> // TypeDefIndex: 10840
 {	public RustText text; // 0x18
 	public InputField outputField; // 0x20
 	public InputField inputField; // 0x28
@@ -3145,7 +3145,7 @@ public class ConsoleUI : SingletonComponent<ConsoleUI> // TypeDefIndex: 10836
 
 	private void SelectInputField(bool updateAutoComplete = False) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x7F590 Offset: 0x7E990 VA: 0x18007F590
+	[IteratorStateMachineAttribute] // RVA: 0x7F8E0 Offset: 0x7ECE0 VA: 0x18007F8E0
 	private IEnumerator SetSelected(bool updateAutoComplete = False) { }
 
 	public void ClearContents() { }
@@ -3160,7 +3160,7 @@ public class ConsoleUI : SingletonComponent<ConsoleUI> // TypeDefIndex: 10836
 
 }
 
-private sealed class ConsoleUI.<>c__DisplayClass16_0 // TypeDefIndex: 10837
+private sealed class ConsoleUI.<>c__DisplayClass16_0 // TypeDefIndex: 10841
 {	public Button btn; // 0x10
 	public ConsoleUI <>4__this; // 0x18
 
@@ -3171,7 +3171,7 @@ private sealed class ConsoleUI.<>c__DisplayClass16_0 // TypeDefIndex: 10837
 
 }
 
-private sealed class ConsoleUI.<>c__DisplayClass22_0 // TypeDefIndex: 10838
+private sealed class ConsoleUI.<>c__DisplayClass22_0 // TypeDefIndex: 10842
 {	public string str; // 0x10
 
 
@@ -3181,7 +3181,7 @@ private sealed class ConsoleUI.<>c__DisplayClass22_0 // TypeDefIndex: 10838
 
 }
 
-private sealed class ConsoleUI.<SetSelected>d__31 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10839
+private sealed class ConsoleUI.<SetSelected>d__31 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10843
 {	private int <>1__state; // 0x10
 	private object <>2__current; // 0x18
 	public ConsoleUI <>4__this; // 0x20
@@ -3191,27 +3191,27 @@ private sealed class ConsoleUI.<SetSelected>d__31 : IEnumerator<object>, IEnumer
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
 
-public class ConsoleInput // TypeDefIndex: 11681
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class ConsoleInput // TypeDefIndex: 11685
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Action<string> OnInputText; // 0x10
 	public string inputString; // 0x18
 	public string[] statusText; // 0x20
@@ -3221,10 +3221,10 @@ public class ConsoleInput // TypeDefIndex: 11681
 	public int lineWidth { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void add_OnInputText(Action<string> value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void remove_OnInputText(Action<string> value) { }
 
 	public bool get_valid() { }
@@ -3247,7 +3247,7 @@ public class ConsoleInput // TypeDefIndex: 11681
 
 }
 
-public class ConsoleWindow // TypeDefIndex: 11682
+public class ConsoleWindow // TypeDefIndex: 11686
 {	private TextWriter oldOutput; // 0x10
 	private const int STD_INPUT_HANDLE = -10;
 	private const int STD_OUTPUT_HANDLE = -11;
@@ -3273,16 +3273,16 @@ public class ConsoleWindow // TypeDefIndex: 11682
 
 }
 
-public class Console : ConsoleSystem // TypeDefIndex: 11894
-{	[ClientVar] // RVA: 0x90AA0 Offset: 0x8FEA0 VA: 0x180090AA0
-	[HelpAttribute] // RVA: 0x90AA0 Offset: 0x8FEA0 VA: 0x180090AA0
-	public static bool erroroverlay; // 0x1E52F
+public class Console : ConsoleSystem // TypeDefIndex: 11898
+{	[ClientVar] // RVA: 0x90EE0 Offset: 0x902E0 VA: 0x180090EE0
+	[HelpAttribute] // RVA: 0x90EE0 Offset: 0x902E0 VA: 0x180090EE0
+	public static bool erroroverlay; // 0x2B11820
 
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void clear(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void copy(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

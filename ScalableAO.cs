@@ -1,4 +1,4 @@
-internal sealed class ScalableAO : IAmbientOcclusionMethod // TypeDefIndex: 11798
+internal sealed class ScalableAO : IAmbientOcclusionMethod // TypeDefIndex: 11802
 {	private RenderTexture m_Result; // 0x10
 	private PropertySheet m_PropertySheet; // 0x18
 	private AmbientOcclusion m_Settings; // 0x20
@@ -24,7 +24,7 @@ internal sealed class ScalableAO : IAmbientOcclusionMethod // TypeDefIndex: 1179
 
 }
 
-private enum ScalableAO.Pass // TypeDefIndex: 11799
+private enum ScalableAO.Pass // TypeDefIndex: 11803
 {	public int value__; // 0x0
 	public const ScalableAO.Pass OcclusionEstimationForward = 0;
 	public const ScalableAO.Pass OcclusionEstimationDeferred = 1;

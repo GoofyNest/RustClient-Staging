@@ -1,6 +1,6 @@
 public class TimedEvent : ITimedObject // TypeDefIndex: 7458
 {	internal long _time; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly MidiEvent <Event>k__BackingField; // 0x18
 
 	public MidiEvent Event { get; }
@@ -9,7 +9,7 @@ public class TimedEvent : ITimedObject // TypeDefIndex: 7458
 
 	public void .ctor(MidiEvent midiEvent) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public MidiEvent get_Event() { }
 
 	public long get_Time() { }

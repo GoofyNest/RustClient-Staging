@@ -61,30 +61,30 @@ public class BaseNPC : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6295
 public class BaseNpc : BaseCombatEntity // TypeDefIndex: 8525
 {	public int agentTypeIndex; // 0x240
 	public bool NewAI; // 0x244
-	[SerializeField] // RVA: 0x934F0 Offset: 0x928F0 VA: 0x1800934F0
-	[InspectorFlagsAttribute] // RVA: 0x934F0 Offset: 0x928F0 VA: 0x1800934F0
+	[SerializeField] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
+	[InspectorFlagsAttribute] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
 	public TerrainTopology.Enum topologyPreference; // 0x248
 	public Quaternion NetworkRotation; // 0x24C
 	private static List<BaseNpc> visibleNpcList; // 0x0
-	[InspectorFlagsAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public BaseNpc.AiFlags aiFlags; // 0x25C
-	[HeaderAttribute] // RVA: 0xA2F60 Offset: 0xA2360 VA: 0x1800A2F60
+	[HeaderAttribute] // RVA: 0xA3030 Offset: 0xA2430 VA: 0x1800A3030
 	public int ForgetUnseenEntityTime; // 0x260
 	public float SensesTickRate; // 0x264
 	private float nextVisThink; // 0x268
 	private float lastTimeSeen; // 0x26C
 	private Vector3 lastPosition; // 0x270
-	[HeaderAttribute] // RVA: 0xA3020 Offset: 0xA2420 VA: 0x1800A3020
+	[HeaderAttribute] // RVA: 0xA3100 Offset: 0xA2500 VA: 0x1800A3100
 	public GameObjectRef CorpsePrefab; // 0x280
 	public BaseNpc.AiStatistics Stats; // 0x288
 	public Vector3 AttackOffset; // 0x338
 	public float AttackDamage; // 0x344
 	public DamageType AttackDamageType; // 0x348
-	[TooltipAttribute] // RVA: 0xA30A0 Offset: 0xA24A0 VA: 0x1800A30A0
+	[TooltipAttribute] // RVA: 0xA3180 Offset: 0xA2580 VA: 0x1800A3180
 	public float AttackCost; // 0x34C
-	[TooltipAttribute] // RVA: 0xA3220 Offset: 0xA2620 VA: 0x1800A3220
+	[TooltipAttribute] // RVA: 0xA3340 Offset: 0xA2740 VA: 0x1800A3340
 	public float AttackRate; // 0x350
-	[TooltipAttribute] // RVA: 0xA32F0 Offset: 0xA26F0 VA: 0x1800A32F0
+	[TooltipAttribute] // RVA: 0xA3410 Offset: 0xA2810 VA: 0x1800A3410
 	public float AttackRange; // 0x354
 	public NavMeshAgent NavAgent; // 0x358
 	public LayerMask movementMask; // 0x360
@@ -129,13 +129,13 @@ public class BaseNpc : BaseCombatEntity // TypeDefIndex: 8525
 
 	public override Quaternion GetNetworkRotation() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public virtual void Eat(Vector3 position) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public virtual void Attack(Vector3 position) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public virtual void Startled(Vector3 position) { }
 
 	public bool HasAiFlag(BaseNpc.AiFlags f) { }
@@ -189,82 +189,82 @@ public enum BaseNpc.AiFlags // TypeDefIndex: 8526
 }
 
 public struct BaseNpc.AiStatistics // TypeDefIndex: 8527
-{	[TooltipAttribute] // RVA: 0xA35E0 Offset: 0xA29E0 VA: 0x1800A35E0
-	[RangeAttribute] // RVA: 0xA35E0 Offset: 0xA29E0 VA: 0x1800A35E0
+{	[TooltipAttribute] // RVA: 0xA3700 Offset: 0xA2B00 VA: 0x1800A3700
+	[RangeAttribute] // RVA: 0xA3700 Offset: 0xA2B00 VA: 0x1800A3700
 	public float Size; // 0x0
-	[TooltipAttribute] // RVA: 0xA3700 Offset: 0xA2B00 VA: 0x1800A3700
-	public float Speed; // 0x4
-	[TooltipAttribute] // RVA: 0xA3780 Offset: 0xA2B80 VA: 0x1800A3780
-	public float Acceleration; // 0x8
 	[TooltipAttribute] // RVA: 0xA37E0 Offset: 0xA2BE0 VA: 0x1800A37E0
+	public float Speed; // 0x4
+	[TooltipAttribute] // RVA: 0xA3860 Offset: 0xA2C60 VA: 0x1800A3860
+	public float Acceleration; // 0x8
+	[TooltipAttribute] // RVA: 0xA3900 Offset: 0xA2D00 VA: 0x1800A3900
 	public float TurnSpeed; // 0xC
-	[TooltipAttribute] // RVA: 0xA3890 Offset: 0xA2C90 VA: 0x1800A3890
-	[RangeAttribute] // RVA: 0xA3890 Offset: 0xA2C90 VA: 0x1800A3890
+	[TooltipAttribute] // RVA: 0xA39B0 Offset: 0xA2DB0 VA: 0x1800A39B0
+	[RangeAttribute] // RVA: 0xA39B0 Offset: 0xA2DB0 VA: 0x1800A39B0
 	public float Tolerance; // 0x10
-	[TooltipAttribute] // RVA: 0xA39C0 Offset: 0xA2DC0 VA: 0x1800A39C0
+	[TooltipAttribute] // RVA: 0xA3AE0 Offset: 0xA2EE0 VA: 0x1800A3AE0
 	public float VisionRange; // 0x14
-	[TooltipAttribute] // RVA: 0xA3A30 Offset: 0xA2E30 VA: 0x1800A3A30
+	[TooltipAttribute] // RVA: 0xA3B50 Offset: 0xA2F50 VA: 0x1800A3B50
 	public float VisionCone; // 0x18
-	[TooltipAttribute] // RVA: 0xA3B60 Offset: 0xA2F60 VA: 0x1800A3B60
+	[TooltipAttribute] // RVA: 0xA3C50 Offset: 0xA3050 VA: 0x1800A3C50
 	public AnimationCurve DistanceVisibility; // 0x20
-	[TooltipAttribute] // RVA: 0xA3C00 Offset: 0xA3000 VA: 0x1800A3C00
+	[TooltipAttribute] // RVA: 0xA3CE0 Offset: 0xA30E0 VA: 0x1800A3CE0
 	public float Hostility; // 0x28
-	[TooltipAttribute] // RVA: 0xA3DA0 Offset: 0xA31A0 VA: 0x1800A3DA0
+	[TooltipAttribute] // RVA: 0xA3E10 Offset: 0xA3210 VA: 0x1800A3E10
 	public float Defensiveness; // 0x2C
-	[TooltipAttribute] // RVA: 0xA3E60 Offset: 0xA3260 VA: 0x1800A3E60
+	[TooltipAttribute] // RVA: 0xA3EE0 Offset: 0xA32E0 VA: 0x1800A3EE0
 	public float AggressionRange; // 0x30
-	[TooltipAttribute] // RVA: 0xA3EF0 Offset: 0xA32F0 VA: 0x1800A3EF0
+	[TooltipAttribute] // RVA: 0xA3FE0 Offset: 0xA33E0 VA: 0x1800A3FE0
 	public float DeaggroRange; // 0x34
-	[TooltipAttribute] // RVA: 0xA4060 Offset: 0xA3460 VA: 0x1800A4060
+	[TooltipAttribute] // RVA: 0xA4150 Offset: 0xA3550 VA: 0x1800A4150
 	public float DeaggroChaseTime; // 0x38
-	[TooltipAttribute] // RVA: 0xA41C0 Offset: 0xA35C0 VA: 0x1800A41C0
+	[TooltipAttribute] // RVA: 0xA42B0 Offset: 0xA36B0 VA: 0x1800A42B0
 	public float DeaggroCooldown; // 0x3C
-	[TooltipAttribute] // RVA: 0xA4290 Offset: 0xA3690 VA: 0x1800A4290
+	[TooltipAttribute] // RVA: 0xA43B0 Offset: 0xA37B0 VA: 0x1800A43B0
 	public float HealthThresholdForFleeing; // 0x40
-	[TooltipAttribute] // RVA: 0xA43D0 Offset: 0xA37D0 VA: 0x1800A43D0
+	[TooltipAttribute] // RVA: 0xA44F0 Offset: 0xA38F0 VA: 0x1800A44F0
 	public float HealthThresholdFleeChance; // 0x44
-	[TooltipAttribute] // RVA: 0xA45C0 Offset: 0xA39C0 VA: 0x1800A45C0
+	[TooltipAttribute] // RVA: 0xA4640 Offset: 0xA3A40 VA: 0x1800A4640
 	public float MinFleeRange; // 0x48
-	[TooltipAttribute] // RVA: 0xA46F0 Offset: 0xA3AF0 VA: 0x1800A46F0
+	[TooltipAttribute] // RVA: 0xA47B0 Offset: 0xA3BB0 VA: 0x1800A47B0
 	public float MaxFleeRange; // 0x4C
-	[TooltipAttribute] // RVA: 0xA48F0 Offset: 0xA3CF0 VA: 0x1800A48F0
+	[TooltipAttribute] // RVA: 0xA49D0 Offset: 0xA3DD0 VA: 0x1800A49D0
 	public float MaxFleeTime; // 0x50
-	[TooltipAttribute] // RVA: 0xA49A0 Offset: 0xA3DA0 VA: 0x1800A49A0
+	[TooltipAttribute] // RVA: 0xA4AC0 Offset: 0xA3EC0 VA: 0x1800A4AC0
 	public float AfraidRange; // 0x54
-	[TooltipAttribute] // RVA: 0xA4A60 Offset: 0xA3E60 VA: 0x1800A4A60
+	[TooltipAttribute] // RVA: 0xA4B80 Offset: 0xA3F80 VA: 0x1800A4B80
 	public BaseNpc.AiStatistics.FamilyEnum Family; // 0x58
-	[TooltipAttribute] // RVA: 0xA4C70 Offset: 0xA4070 VA: 0x1800A4C70
+	[TooltipAttribute] // RVA: 0xA4D60 Offset: 0xA4160 VA: 0x1800A4D60
 	public BaseNpc.AiStatistics.FamilyEnum[] IsAfraidOf; // 0x60
-	[TooltipAttribute] // RVA: 0xA4CA0 Offset: 0xA40A0 VA: 0x1800A4CA0
+	[TooltipAttribute] // RVA: 0xA4D90 Offset: 0xA4190 VA: 0x1800A4D90
 	public float MinRoamRange; // 0x68
-	[TooltipAttribute] // RVA: 0xA4D70 Offset: 0xA4170 VA: 0x1800A4D70
+	[TooltipAttribute] // RVA: 0xA4E90 Offset: 0xA4290 VA: 0x1800A4E90
 	public float MaxRoamRange; // 0x6C
-	[TooltipAttribute] // RVA: 0xA4F90 Offset: 0xA4390 VA: 0x1800A4F90
+	[TooltipAttribute] // RVA: 0xA50B0 Offset: 0xA44B0 VA: 0x1800A50B0
 	public float MinRoamDelay; // 0x70
-	[TooltipAttribute] // RVA: 0xA5050 Offset: 0xA4450 VA: 0x1800A5050
+	[TooltipAttribute] // RVA: 0xA5120 Offset: 0xA4520 VA: 0x1800A5120
 	public float MaxRoamDelay; // 0x74
-	[TooltipAttribute] // RVA: 0xA51B0 Offset: 0xA45B0 VA: 0x1800A51B0
+	[TooltipAttribute] // RVA: 0xA5230 Offset: 0xA4630 VA: 0x1800A5230
 	public bool IsMobile; // 0x78
-	[TooltipAttribute] // RVA: 0xA5260 Offset: 0xA4660 VA: 0x1800A5260
+	[TooltipAttribute] // RVA: 0xA5300 Offset: 0xA4700 VA: 0x1800A5300
 	public AnimationCurve RoamDelayDistribution; // 0x80
-	[TooltipAttribute] // RVA: 0xA53B0 Offset: 0xA47B0 VA: 0x1800A53B0
+	[TooltipAttribute] // RVA: 0xA5470 Offset: 0xA4870 VA: 0x1800A5470
 	public float AttackedMemoryTime; // 0x88
-	[TooltipAttribute] // RVA: 0xA5550 Offset: 0xA4950 VA: 0x1800A5550
+	[TooltipAttribute] // RVA: 0xA5600 Offset: 0xA4A00 VA: 0x1800A5600
 	public float WakeupBlockMoveTime; // 0x8C
-	[TooltipAttribute] // RVA: 0xA5620 Offset: 0xA4A20 VA: 0x1800A5620
+	[TooltipAttribute] // RVA: 0xA56C0 Offset: 0xA4AC0 VA: 0x1800A56C0
 	public float MaxWaterDepth; // 0x90
-	[TooltipAttribute] // RVA: 0xA56D0 Offset: 0xA4AD0 VA: 0x1800A56D0
+	[TooltipAttribute] // RVA: 0xA5780 Offset: 0xA4B80 VA: 0x1800A5780
 	public float WaterLevelNeck; // 0x94
 	public float WaterLevelNeckOffset; // 0x98
-	[TooltipAttribute] // RVA: 0xA5AA0 Offset: 0xA4EA0 VA: 0x1800A5AA0
+	[TooltipAttribute] // RVA: 0xA5B60 Offset: 0xA4F60 VA: 0x1800A5B60
 	public float CloseRange; // 0x9C
-	[TooltipAttribute] // RVA: 0xA5B00 Offset: 0xA4F00 VA: 0x1800A5B00
+	[TooltipAttribute] // RVA: 0xA5BF0 Offset: 0xA4FF0 VA: 0x1800A5BF0
 	public float MediumRange; // 0xA0
-	[TooltipAttribute] // RVA: 0xA5BC0 Offset: 0xA4FC0 VA: 0x1800A5BC0
+	[TooltipAttribute] // RVA: 0xA5CE0 Offset: 0xA50E0 VA: 0x1800A5CE0
 	public float LongRange; // 0xA4
-	[TooltipAttribute] // RVA: 0xA5CD0 Offset: 0xA50D0 VA: 0x1800A5CD0
+	[TooltipAttribute] // RVA: 0xA5DF0 Offset: 0xA51F0 VA: 0x1800A5DF0
 	public float OutOfRangeOfSpawnPointTimeout; // 0xA8
-	[TooltipAttribute] // RVA: 0xA5D40 Offset: 0xA5140 VA: 0x1800A5D40
+	[TooltipAttribute] // RVA: 0xA5E60 Offset: 0xA5260 VA: 0x1800A5E60
 	public bool OnlyAggroMarkedTargets; // 0xAC
 
 }

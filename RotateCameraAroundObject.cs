@@ -1,4 +1,4 @@
-public class RotateCameraAroundObject : MonoBehaviour // TypeDefIndex: 11334
+public class RotateCameraAroundObject : MonoBehaviour // TypeDefIndex: 11338
 {	public GameObject m_goObjectToRotateAround; // 0x18
 	public float m_flRotateSpeed; // 0x20
 

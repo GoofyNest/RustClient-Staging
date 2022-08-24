@@ -777,23 +777,23 @@ internal enum DateTimeFormatFlags // TypeDefIndex: 694
 public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider // TypeDefIndex: 695
 {	private static DateTimeFormatInfo invariantInfo; // 0x0
 	private CultureData m_cultureData; // 0x10
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	internal string m_name; // 0x18
 	private string m_langName; // 0x20
 	private CompareInfo m_compareInfo; // 0x28
 	private CultureInfo m_cultureInfo; // 0x30
 	internal string amDesignator; // 0x38
 	internal string pmDesignator; // 0x40
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	internal string dateSeparator; // 0x48
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	internal string generalShortTimePattern; // 0x50
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	internal string generalLongTimePattern; // 0x58
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	internal string timeSeparator; // 0x60
 	internal string monthDayPattern; // 0x68
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	internal string dateTimeOffsetPattern; // 0x70
 	internal const string rfc1123Pattern = "ddd, dd MMM yyyy HH\':\'mm\':\'ss \'GMT\'";
 	internal const string sortableDateTimePattern = "yyyy\'-\'MM\'-\'dd\'T\'HH\':\'mm\':\'ss";
@@ -801,26 +801,26 @@ public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider // TypeDefI
 	internal Calendar calendar; // 0x78
 	internal int firstDayOfWeek; // 0x80
 	internal int calendarWeekRule; // 0x84
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	internal string fullDateTimePattern; // 0x88
 	internal string[] abbreviatedDayNames; // 0x90
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	internal string[] m_superShortDayNames; // 0x98
 	internal string[] dayNames; // 0xA0
 	internal string[] abbreviatedMonthNames; // 0xA8
 	internal string[] monthNames; // 0xB0
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	internal string[] genitiveMonthNames; // 0xB8
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	internal string[] m_genitiveAbbreviatedMonthNames; // 0xC0
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	internal string[] leapYearMonthNames; // 0xC8
 	internal string longDatePattern; // 0xD0
 	internal string shortDatePattern; // 0xD8
 	internal string yearMonthPattern; // 0xE0
 	internal string longTimePattern; // 0xE8
 	internal string shortTimePattern; // 0xF0
-	[OptionalFieldAttribute] // RVA: 0xA9AF0 Offset: 0xA8EF0 VA: 0x1800A9AF0
+	[OptionalFieldAttribute] // RVA: 0xA9BD0 Offset: 0xA8FD0 VA: 0x1800A9BD0
 	private string[] allYearMonthPatterns; // 0xF8
 	internal string[] allShortDatePatterns; // 0x100
 	internal string[] allLongDatePatterns; // 0x108
@@ -832,22 +832,22 @@ public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider // TypeDefI
 	internal int[] optionalCalendars; // 0x138
 	private const int DEFAULT_ALL_DATETIMES_SIZE = 132;
 	internal bool m_isReadOnly; // 0x140
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	internal DateTimeFormatFlags formatFlags; // 0x144
 	internal static bool preferExistingTokens; // 0x8
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	private int CultureID; // 0x148
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	private bool m_useUserOverride; // 0x14C
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	private bool bUseCalendarInfo; // 0x14D
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	private int nDataItem; // 0x150
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	internal bool m_isDefaultCalendar; // 0x154
-	[OptionalFieldAttribute] // RVA: 0x92F60 Offset: 0x92360 VA: 0x180092F60
+	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
 	private static Hashtable s_calendarNativeNames; // 0x10
-	[OptionalFieldAttribute] // RVA: 0x96550 Offset: 0x95950 VA: 0x180096550
+	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
 	internal string[] m_dateWords; // 0x158
 	private string m_fullTimeSpanPositivePattern; // 0x160
 	private string m_fullTimeSpanNegativePattern; // 0x168
@@ -924,7 +924,7 @@ public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider // TypeDefI
 	private string[] UnclonedShortTimePatterns { get; }
 	private string[] UnclonedLongTimePatterns { get; }
 	public bool IsReadOnly { get; }
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public string[] MonthGenitiveNames { get; }
 	internal string FullTimeSpanPositivePattern { get; }
 	internal string FullTimeSpanNegativePattern { get; }
@@ -956,10 +956,10 @@ public sealed class DateTimeFormatInfo : ICloneable, IFormatProvider // TypeDefI
 
 	private void InitializeOverridableProperties(CultureData cultureData, int calendarID) { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnDeserializedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnDeserialized(StreamingContext ctx) { }
 
-	[OnSerializingAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnSerializingAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnSerializing(StreamingContext ctx) { }
 
 	public static DateTimeFormatInfo get_InvariantInfo() { }
@@ -1381,7 +1381,7 @@ internal static class DateTimeUtils // TypeDefIndex: 5949
 
 	private static void .cctor() { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static TimeSpan GetUtcOffset(DateTime d) { }
 
 	public static XmlDateTimeSerializationMode ToSerializationMode(DateTimeKind kind) { }

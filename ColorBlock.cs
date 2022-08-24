@@ -1,24 +1,24 @@
 public struct ColorBlock : IEquatable<ColorBlock> // TypeDefIndex: 4911
-{	[FormerlySerializedAsAttribute] // RVA: 0xE6480 Offset: 0xE5880 VA: 0x1800E6480
-	[SerializeField] // RVA: 0xE6480 Offset: 0xE5880 VA: 0x1800E6480
+{	[FormerlySerializedAsAttribute] // RVA: 0xE65A0 Offset: 0xE59A0 VA: 0x1800E65A0
+	[SerializeField] // RVA: 0xE65A0 Offset: 0xE59A0 VA: 0x1800E65A0
 	private Color m_NormalColor; // 0x0
-	[FormerlySerializedAsAttribute] // RVA: 0xE6510 Offset: 0xE5910 VA: 0x1800E6510
-	[SerializeField] // RVA: 0xE6510 Offset: 0xE5910 VA: 0x1800E6510
+	[FormerlySerializedAsAttribute] // RVA: 0xE6680 Offset: 0xE5A80 VA: 0x1800E6680
+	[SerializeField] // RVA: 0xE6680 Offset: 0xE5A80 VA: 0x1800E6680
 	private Color m_HighlightedColor; // 0x10
-	[FormerlySerializedAsAttribute] // RVA: 0xE6720 Offset: 0xE5B20 VA: 0x1800E6720
-	[SerializeField] // RVA: 0xE6720 Offset: 0xE5B20 VA: 0x1800E6720
+	[FormerlySerializedAsAttribute] // RVA: 0xE6840 Offset: 0xE5C40 VA: 0x1800E6840
+	[SerializeField] // RVA: 0xE6840 Offset: 0xE5C40 VA: 0x1800E6840
 	private Color m_PressedColor; // 0x20
-	[FormerlySerializedAsAttribute] // RVA: 0xE68C0 Offset: 0xE5CC0 VA: 0x1800E68C0
-	[SerializeField] // RVA: 0xE68C0 Offset: 0xE5CC0 VA: 0x1800E68C0
+	[FormerlySerializedAsAttribute] // RVA: 0xE69E0 Offset: 0xE5DE0 VA: 0x1800E69E0
+	[SerializeField] // RVA: 0xE69E0 Offset: 0xE5DE0 VA: 0x1800E69E0
 	private Color m_SelectedColor; // 0x30
-	[FormerlySerializedAsAttribute] // RVA: 0xE6A90 Offset: 0xE5E90 VA: 0x1800E6A90
-	[SerializeField] // RVA: 0xE6A90 Offset: 0xE5E90 VA: 0x1800E6A90
+	[FormerlySerializedAsAttribute] // RVA: 0xE6BB0 Offset: 0xE5FB0 VA: 0x1800E6BB0
+	[SerializeField] // RVA: 0xE6BB0 Offset: 0xE5FB0 VA: 0x1800E6BB0
 	private Color m_DisabledColor; // 0x40
-	[RangeAttribute] // RVA: 0xE6BD0 Offset: 0xE5FD0 VA: 0x1800E6BD0
-	[SerializeField] // RVA: 0xE6BD0 Offset: 0xE5FD0 VA: 0x1800E6BD0
+	[RangeAttribute] // RVA: 0xE6CF0 Offset: 0xE60F0 VA: 0x1800E6CF0
+	[SerializeField] // RVA: 0xE6CF0 Offset: 0xE60F0 VA: 0x1800E6CF0
 	private float m_ColorMultiplier; // 0x50
-	[FormerlySerializedAsAttribute] // RVA: 0xE7010 Offset: 0xE6410 VA: 0x1800E7010
-	[SerializeField] // RVA: 0xE7010 Offset: 0xE6410 VA: 0x1800E7010
+	[FormerlySerializedAsAttribute] // RVA: 0xE7130 Offset: 0xE6530 VA: 0x1800E7130
+	[SerializeField] // RVA: 0xE7130 Offset: 0xE6530 VA: 0x1800E7130
 	private float m_FadeDuration; // 0x54
 
 	public Color normalColor { get; set; }

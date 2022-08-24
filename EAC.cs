@@ -23,14 +23,14 @@ public static class EAC // TypeDefIndex: 9186
 
 	private static void SendToServer(byte[] message, int messageLength) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD7360 Offset: 0xD6760 VA: 0x1800D7360
+	[IteratorStateMachineAttribute] // RVA: 0xD7490 Offset: 0xD6890 VA: 0x1800D7490
 	public static IEnumerator DoStartup() { }
 
 	public static void DoShutdown() { }
 
 	public static void DoUpdate() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD7480 Offset: 0xD6880 VA: 0x1800D7480
+	[AsyncStateMachineAttribute] // RVA: 0xD75B0 Offset: 0xD69B0 VA: 0x1800D75B0
 	public static Task OnJoinServer() { }
 
 	public static void OnLeaveServer() { }
@@ -49,21 +49,21 @@ private sealed class EAC.<DoStartup>d__12 : IEnumerator<object>, IEnumerator, ID
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -76,7 +76,7 @@ private struct EAC.<OnJoinServer>d__16 : IAsyncStateMachine // TypeDefIndex: 918
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

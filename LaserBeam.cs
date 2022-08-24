@@ -13,10 +13,10 @@ public class LaserBeam : MonoBehaviour // TypeDefIndex: 8891
 	public Transform emissionOverride; // 0x60
 	private MaterialPropertyBlock block; // 0x68
 	public static LaserBeam.LaserBeamWorkQueue workQueue; // 0x0
-	[ClientVar] // RVA: 0xC1CF0 Offset: 0xC10F0 VA: 0x1800C1CF0
-	[HelpAttribute] // RVA: 0xC1CF0 Offset: 0xC10F0 VA: 0x1800C1CF0
+	[ClientVar] // RVA: 0xC1E20 Offset: 0xC1220 VA: 0x1800C1E20
+	[HelpAttribute] // RVA: 0xC1E20 Offset: 0xC1220 VA: 0x1800C1E20
 	public static float framebudgetms; // 0x8
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool debugCollisions; // 0xC
 	private TimeSince lastUpdate; // 0x70
 	private float cachedDotDistance; // 0x74
@@ -24,7 +24,7 @@ public class LaserBeam : MonoBehaviour // TypeDefIndex: 8891
 	private Vector4 laserST; // 0x7C
 
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void PrintQueue(ConsoleSystem.Arg args) { }
 
 	public void LaserUpdate() { }

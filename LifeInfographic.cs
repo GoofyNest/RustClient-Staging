@@ -1,4 +1,4 @@
-public class LifeInfographic : MonoBehaviour // TypeDefIndex: 11070
+public class LifeInfographic : MonoBehaviour // TypeDefIndex: 11074
 {	public PlayerLifeStory life; // 0x18
 	public GameObject container; // 0x20
 	public RawImage AttackerAvatarImage; // 0x28
@@ -35,7 +35,7 @@ public class LifeInfographic : MonoBehaviour // TypeDefIndex: 11070
 
 	public void AnimateIn() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x94870 Offset: 0x93C70 VA: 0x180094870
+	[IteratorStateMachineAttribute] // RVA: 0x94A50 Offset: 0x93E50 VA: 0x180094A50
 	private IEnumerator Animate() { }
 
 	public void ResetAnimators() { }
@@ -46,14 +46,14 @@ public class LifeInfographic : MonoBehaviour // TypeDefIndex: 11070
 
 }
 
-public struct LifeInfographic.DamageSetting // TypeDefIndex: 11071
+public struct LifeInfographic.DamageSetting // TypeDefIndex: 11075
 {	public DamageType ForType; // 0x0
 	public string Display; // 0x8
 	public Sprite DamageSprite; // 0x10
 
 }
 
-private sealed class LifeInfographic.<Animate>d__25 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11072
+private sealed class LifeInfographic.<Animate>d__25 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11076
 {	private int <>1__state; // 0x10
 	private object <>2__current; // 0x18
 	public LifeInfographic <>4__this; // 0x20
@@ -64,21 +64,21 @@ private sealed class LifeInfographic.<Animate>d__25 : IEnumerator<object>, IEnum
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

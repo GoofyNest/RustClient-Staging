@@ -23,10 +23,10 @@ public sealed class SerializationInfo // TypeDefIndex: 1058
 	public bool IsAssemblyNameSetExplicit { get; }
 
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(Type type, IFormatterConverter converter) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(Type type, IFormatterConverter converter, bool requireSameTokenInPartialTrust) { }
 
 	public string get_FullTypeName() { }
@@ -69,7 +69,7 @@ public sealed class SerializationInfo // TypeDefIndex: 1058
 
 	public void AddValue(string name, long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void AddValue(string name, ulong value) { }
 
 	public void AddValue(string name, float value) { }
@@ -84,12 +84,12 @@ public sealed class SerializationInfo // TypeDefIndex: 1058
 
 	private object GetElement(string name, out Type foundType) { }
 
-	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
+	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
 	private object GetElementNoThrow(string name, out Type foundType) { }
 
 	public object GetValue(string name, Type type) { }
 
-	[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
+	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
 	internal object GetValueNoThrow(string name, Type type) { }
 
 	public bool GetBoolean(string name) { }

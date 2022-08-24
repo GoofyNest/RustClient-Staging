@@ -1,7 +1,7 @@
 public class WheelCollider : Collider // TypeDefIndex: 4772
 {
-[NativeHeaderAttribute] // RVA: 0xC7050 Offset: 0xC6450 VA: 0x1800C7050
-[NativeHeaderAttribute] // RVA: 0xC7050 Offset: 0xC6450 VA: 0x1800C7050
+[NativeHeaderAttribute] // RVA: 0xC7190 Offset: 0xC6590 VA: 0x1800C7190
+[NativeHeaderAttribute] // RVA: 0xC7190 Offset: 0xC6590 VA: 0x1800C7190
 public class WheelCollider : Collider // TypeDefIndex: 4772
 	public float radius { get; }
 	public float suspensionDistance { get; }
@@ -23,7 +23,7 @@ public class WheelCollider : Collider // TypeDefIndex: 4772
 
 	public void set_steerAngle(float value) { }
 
-	[NativeNameAttribute] // RVA: 0xC7420 Offset: 0xC6820 VA: 0x1800C7420
+	[NativeNameAttribute] // RVA: 0xC7560 Offset: 0xC6960 VA: 0x1800C7560
 	public bool get_isGrounded() { }
 
 }

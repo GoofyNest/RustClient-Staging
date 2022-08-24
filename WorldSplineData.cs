@@ -1,10 +1,10 @@
-public class WorldSplineData // TypeDefIndex: 11412
+public class WorldSplineData // TypeDefIndex: 11416
 {	public Vector3[] inputPoints; // 0x10
 	public Vector3[] inputTangents; // 0x18
 	public float inputLUTInterval; // 0x20
 	public List<WorldSplineData.LUTEntry> LUTValues; // 0x28
 	public float Length; // 0x30
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int maxPointsIndex; // 0x34
 
 
@@ -38,7 +38,7 @@ public class WorldSplineData // TypeDefIndex: 11412
 
 }
 
-public class WorldSplineData.LUTEntry // TypeDefIndex: 11413
+public class WorldSplineData.LUTEntry // TypeDefIndex: 11417
 {	public List<WorldSplineData.LUTEntry.LUTPoint> points; // 0x10
 
 
@@ -46,7 +46,7 @@ public class WorldSplineData.LUTEntry // TypeDefIndex: 11413
 
 }
 
-public struct WorldSplineData.LUTEntry.LUTPoint // TypeDefIndex: 11414
+public struct WorldSplineData.LUTEntry.LUTPoint // TypeDefIndex: 11418
 {	public float distance; // 0x0
 	public Vector3 pos; // 0x4
 

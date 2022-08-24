@@ -1,4 +1,4 @@
-public class GunModInformationPanel : ItemInformationPanel // TypeDefIndex: 11005
+public class GunModInformationPanel : ItemInformationPanel // TypeDefIndex: 11009
 {	public ItemTextValue fireRateDisplay; // 0x18
 	public ItemTextValue velocityDisplay; // 0x20
 	public ItemTextValue damageDisplay; // 0x28

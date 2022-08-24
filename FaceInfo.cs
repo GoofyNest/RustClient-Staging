@@ -1,64 +1,64 @@
 public struct FaceInfo // TypeDefIndex: 4109
 {
-[UsedByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[UsedByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 [Serializable]
 public struct FaceInfo // TypeDefIndex: 4109
-	[NativeNameAttribute] // RVA: 0x839A0 Offset: 0x82DA0 VA: 0x1800839A0
-	[SerializeField] // RVA: 0x839A0 Offset: 0x82DA0 VA: 0x1800839A0
+	[NativeNameAttribute] // RVA: 0x83AB0 Offset: 0x82EB0 VA: 0x180083AB0
+	[SerializeField] // RVA: 0x83AB0 Offset: 0x82EB0 VA: 0x180083AB0
 	private string m_FamilyName; // 0x0
-	[SerializeField] // RVA: 0x83AD0 Offset: 0x82ED0 VA: 0x180083AD0
-	[NativeNameAttribute] // RVA: 0x83AD0 Offset: 0x82ED0 VA: 0x180083AD0
+	[SerializeField] // RVA: 0x83BE0 Offset: 0x82FE0 VA: 0x180083BE0
+	[NativeNameAttribute] // RVA: 0x83BE0 Offset: 0x82FE0 VA: 0x180083BE0
 	private string m_StyleName; // 0x8
-	[NativeNameAttribute] // RVA: 0x83CF0 Offset: 0x830F0 VA: 0x180083CF0
-	[SerializeField] // RVA: 0x83CF0 Offset: 0x830F0 VA: 0x180083CF0
+	[NativeNameAttribute] // RVA: 0x83DC0 Offset: 0x831C0 VA: 0x180083DC0
+	[SerializeField] // RVA: 0x83DC0 Offset: 0x831C0 VA: 0x180083DC0
 	private int m_PointSize; // 0x10
-	[SerializeField] // RVA: 0x83DB0 Offset: 0x831B0 VA: 0x180083DB0
-	[NativeNameAttribute] // RVA: 0x83DB0 Offset: 0x831B0 VA: 0x180083DB0
+	[SerializeField] // RVA: 0x83E80 Offset: 0x83280 VA: 0x180083E80
+	[NativeNameAttribute] // RVA: 0x83E80 Offset: 0x83280 VA: 0x180083E80
 	private float m_Scale; // 0x14
-	[SerializeField] // RVA: 0x83EC0 Offset: 0x832C0 VA: 0x180083EC0
-	[NativeNameAttribute] // RVA: 0x83EC0 Offset: 0x832C0 VA: 0x180083EC0
+	[SerializeField] // RVA: 0x83FD0 Offset: 0x833D0 VA: 0x180083FD0
+	[NativeNameAttribute] // RVA: 0x83FD0 Offset: 0x833D0 VA: 0x180083FD0
 	private float m_LineHeight; // 0x18
-	[NativeNameAttribute] // RVA: 0x84010 Offset: 0x83410 VA: 0x180084010
-	[SerializeField] // RVA: 0x84010 Offset: 0x83410 VA: 0x180084010
+	[NativeNameAttribute] // RVA: 0x84120 Offset: 0x83520 VA: 0x180084120
+	[SerializeField] // RVA: 0x84120 Offset: 0x83520 VA: 0x180084120
 	private float m_AscentLine; // 0x1C
-	[NativeNameAttribute] // RVA: 0x843F0 Offset: 0x837F0 VA: 0x1800843F0
-	[SerializeField] // RVA: 0x843F0 Offset: 0x837F0 VA: 0x1800843F0
+	[NativeNameAttribute] // RVA: 0x84540 Offset: 0x83940 VA: 0x180084540
+	[SerializeField] // RVA: 0x84540 Offset: 0x83940 VA: 0x180084540
 	private float m_CapLine; // 0x20
-	[SerializeField] // RVA: 0x844C0 Offset: 0x838C0 VA: 0x1800844C0
-	[NativeNameAttribute] // RVA: 0x844C0 Offset: 0x838C0 VA: 0x1800844C0
+	[SerializeField] // RVA: 0x845D0 Offset: 0x839D0 VA: 0x1800845D0
+	[NativeNameAttribute] // RVA: 0x845D0 Offset: 0x839D0 VA: 0x1800845D0
 	private float m_MeanLine; // 0x24
-	[SerializeField] // RVA: 0x84570 Offset: 0x83970 VA: 0x180084570
-	[NativeNameAttribute] // RVA: 0x84570 Offset: 0x83970 VA: 0x180084570
+	[SerializeField] // RVA: 0x846C0 Offset: 0x83AC0 VA: 0x1800846C0
+	[NativeNameAttribute] // RVA: 0x846C0 Offset: 0x83AC0 VA: 0x1800846C0
 	private float m_Baseline; // 0x28
-	[SerializeField] // RVA: 0x847C0 Offset: 0x83BC0 VA: 0x1800847C0
-	[NativeNameAttribute] // RVA: 0x847C0 Offset: 0x83BC0 VA: 0x1800847C0
-	private float m_DescentLine; // 0x2C
-	[NativeNameAttribute] // RVA: 0x84890 Offset: 0x83C90 VA: 0x180084890
 	[SerializeField] // RVA: 0x84890 Offset: 0x83C90 VA: 0x180084890
+	[NativeNameAttribute] // RVA: 0x84890 Offset: 0x83C90 VA: 0x180084890
+	private float m_DescentLine; // 0x2C
+	[NativeNameAttribute] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
+	[SerializeField] // RVA: 0x84970 Offset: 0x83D70 VA: 0x180084970
 	private float m_SuperscriptOffset; // 0x30
-	[NativeNameAttribute] // RVA: 0x84A50 Offset: 0x83E50 VA: 0x180084A50
-	[SerializeField] // RVA: 0x84A50 Offset: 0x83E50 VA: 0x180084A50
+	[NativeNameAttribute] // RVA: 0x84BA0 Offset: 0x83FA0 VA: 0x180084BA0
+	[SerializeField] // RVA: 0x84BA0 Offset: 0x83FA0 VA: 0x180084BA0
 	private float m_SuperscriptSize; // 0x34
-	[SerializeField] // RVA: 0x84B60 Offset: 0x83F60 VA: 0x180084B60
-	[NativeNameAttribute] // RVA: 0x84B60 Offset: 0x83F60 VA: 0x180084B60
+	[SerializeField] // RVA: 0x84CB0 Offset: 0x840B0 VA: 0x180084CB0
+	[NativeNameAttribute] // RVA: 0x84CB0 Offset: 0x840B0 VA: 0x180084CB0
 	private float m_SubscriptOffset; // 0x38
-	[SerializeField] // RVA: 0x84E80 Offset: 0x84280 VA: 0x180084E80
-	[NativeNameAttribute] // RVA: 0x84E80 Offset: 0x84280 VA: 0x180084E80
+	[SerializeField] // RVA: 0x84F40 Offset: 0x84340 VA: 0x180084F40
+	[NativeNameAttribute] // RVA: 0x84F40 Offset: 0x84340 VA: 0x180084F40
 	private float m_SubscriptSize; // 0x3C
-	[SerializeField] // RVA: 0x84FA0 Offset: 0x843A0 VA: 0x180084FA0
-	[NativeNameAttribute] // RVA: 0x84FA0 Offset: 0x843A0 VA: 0x180084FA0
+	[SerializeField] // RVA: 0x85030 Offset: 0x84430 VA: 0x180085030
+	[NativeNameAttribute] // RVA: 0x85030 Offset: 0x84430 VA: 0x180085030
 	private float m_UnderlineOffset; // 0x40
-	[NativeNameAttribute] // RVA: 0x85290 Offset: 0x84690 VA: 0x180085290
-	[SerializeField] // RVA: 0x85290 Offset: 0x84690 VA: 0x180085290
+	[NativeNameAttribute] // RVA: 0x85380 Offset: 0x84780 VA: 0x180085380
+	[SerializeField] // RVA: 0x85380 Offset: 0x84780 VA: 0x180085380
 	private float m_UnderlineThickness; // 0x44
-	[SerializeField] // RVA: 0x854A0 Offset: 0x848A0 VA: 0x1800854A0
-	[NativeNameAttribute] // RVA: 0x854A0 Offset: 0x848A0 VA: 0x1800854A0
+	[SerializeField] // RVA: 0x85540 Offset: 0x84940 VA: 0x180085540
+	[NativeNameAttribute] // RVA: 0x85540 Offset: 0x84940 VA: 0x180085540
 	private float m_StrikethroughOffset; // 0x48
-	[SerializeField] // RVA: 0x856B0 Offset: 0x84AB0 VA: 0x1800856B0
-	[NativeNameAttribute] // RVA: 0x856B0 Offset: 0x84AB0 VA: 0x1800856B0
+	[SerializeField] // RVA: 0x85800 Offset: 0x84C00 VA: 0x180085800
+	[NativeNameAttribute] // RVA: 0x85800 Offset: 0x84C00 VA: 0x180085800
 	private float m_StrikethroughThickness; // 0x4C
-	[NativeNameAttribute] // RVA: 0x857B0 Offset: 0x84BB0 VA: 0x1800857B0
-	[SerializeField] // RVA: 0x857B0 Offset: 0x84BB0 VA: 0x1800857B0
+	[NativeNameAttribute] // RVA: 0x85900 Offset: 0x84D00 VA: 0x180085900
+	[SerializeField] // RVA: 0x85900 Offset: 0x84D00 VA: 0x180085900
 	private float m_TabWidth; // 0x50
 
 	public string familyName { set; }

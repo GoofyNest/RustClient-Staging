@@ -1,19 +1,19 @@
-public class CoverPointVolume : MonoBehaviour, IServerComponent // TypeDefIndex: 12130
+public class CoverPointVolume : MonoBehaviour, IServerComponent // TypeDefIndex: 12134
 {	public float DefaultCoverPointScore; // 0x18
 	public float CoverPointRayLength; // 0x1C
 	public LayerMask CoverLayerMask; // 0x20
 	public Transform BlockerGroup; // 0x28
 	public Transform ManualCoverPointGroup; // 0x30
-	[ServerVar] // RVA: 0xDFF90 Offset: 0xDF390 VA: 0x1800DFF90
+	[ServerVar] // RVA: 0xE02C0 Offset: 0xDF6C0 VA: 0x1800E02C0
 	public static float cover_point_sample_step_size; // 0x0
-	[ServerVar] // RVA: 0xE0130 Offset: 0xDF530 VA: 0x1800E0130
+	[ServerVar] // RVA: 0xE0380 Offset: 0xDF780 VA: 0x1800E0380
 	public static float cover_point_sample_step_height; // 0x4
 	public readonly List<CoverPoint> CoverPoints; // 0x38
 	private readonly List<CoverPointBlockerVolume> _coverPointBlockers; // 0x40
 	private Bounds bounds; // 0x48
 
 
-	[ContextMenu] // RVA: 0xE0270 Offset: 0xDF670 VA: 0x1800E0270
+	[ContextMenu] // RVA: 0xE0400 Offset: 0xDF800 VA: 0x1800E0400
 	private void ClearCoverPoints() { }
 
 	public Bounds GetBounds() { }
@@ -30,7 +30,7 @@ public class CoverPointVolume : MonoBehaviour, IServerComponent // TypeDefIndex:
 
 }
 
-internal enum CoverPointVolume.CoverType // TypeDefIndex: 12131
+internal enum CoverPointVolume.CoverType // TypeDefIndex: 12135
 {	public int value__; // 0x0
 	public const CoverPointVolume.CoverType None = 0;
 	public const CoverPointVolume.CoverType Partial = 1;

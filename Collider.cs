@@ -3,7 +3,7 @@ public class Collider : Component // TypeDefIndex: 3921
 	public Rigidbody attachedRigidbody { get; }
 	public bool isTrigger { get; set; }
 	public Bounds bounds { get; }
-	[NativeMethodAttribute] // RVA: 0x8E820 Offset: 0x8DC20 VA: 0x18008E820
+	[NativeMethodAttribute] // RVA: 0x8E960 Offset: 0x8DD60 VA: 0x18008E960
 	public PhysicMaterial sharedMaterial { get; set; }
 	public PhysicMaterial material { set; }
 
@@ -12,7 +12,7 @@ public class Collider : Component // TypeDefIndex: 3921
 
 	public void set_enabled(bool value) { }
 
-	[NativeMethodAttribute] // RVA: 0x8E6B0 Offset: 0x8DAB0 VA: 0x18008E6B0
+	[NativeMethodAttribute] // RVA: 0x8E7C0 Offset: 0x8DBC0 VA: 0x18008E7C0
 	public Rigidbody get_attachedRigidbody() { }
 
 	public bool get_isTrigger() { }
@@ -27,14 +27,14 @@ public class Collider : Component // TypeDefIndex: 3921
 
 	public void set_sharedMaterial(PhysicMaterial value) { }
 
-	[NativeMethodAttribute] // RVA: 0x8E760 Offset: 0x8DB60 VA: 0x18008E760
+	[NativeMethodAttribute] // RVA: 0x8E8A0 Offset: 0x8DCA0 VA: 0x18008E8A0
 	public void set_material(PhysicMaterial value) { }
 
 	private RaycastHit Raycast(Ray ray, float maxDistance, ref bool hasHit) { }
 
 	public bool Raycast(Ray ray, out RaycastHit hitInfo, float maxDistance) { }
 
-	[NativeNameAttribute] // RVA: 0x8E7C0 Offset: 0x8DBC0 VA: 0x18008E7C0
+	[NativeNameAttribute] // RVA: 0x8E900 Offset: 0x8DD00 VA: 0x18008E900
 	private void Internal_ClosestPointOnBounds(Vector3 point, ref Vector3 outPos, ref float distance) { }
 
 	public Vector3 ClosestPointOnBounds(Vector3 position) { }

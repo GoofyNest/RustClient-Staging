@@ -1,4 +1,4 @@
-public class SMAA : MonoBehaviour // TypeDefIndex: 11566
+public class SMAA : MonoBehaviour // TypeDefIndex: 11570
 {	public DebugPass DebugPass; // 0x18
 	public QualityPreset Quality; // 0x1C
 	public EdgeDetectionMethod DetectionMethod; // 0x20

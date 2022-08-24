@@ -4,7 +4,7 @@ public class ElectricBattery : IOEntity, IInstanceDataReceiver // TypeDefIndex: 
 	public float rustWattSeconds; // 0x290
 	private int activeDrain; // 0x294
 	public bool rechargable; // 0x298
-	[TooltipAttribute] // RVA: 0xBC360 Offset: 0xBB760 VA: 0x1800BC360
+	[TooltipAttribute] // RVA: 0xBC4B0 Offset: 0xBB8B0 VA: 0x1800BC4B0
 	public float maximumInboundEnergyRatio; // 0x29C
 	public float chargeRatio; // 0x2A0
 	private const float tickRateSeconds = 1;

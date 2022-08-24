@@ -26,13 +26,13 @@ public class LODGroup : Component // TypeDefIndex: 3441
 
 	public void set_enabled(bool value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x97000 Offset: 0x96400 VA: 0x180097000
+	[FreeFunctionAttribute] // RVA: 0x97100 Offset: 0x96500 VA: 0x180097100
 	public void RecalculateBounds() { }
 
-	[FreeFunctionAttribute] // RVA: 0x970F0 Offset: 0x964F0 VA: 0x1800970F0
+	[FreeFunctionAttribute] // RVA: 0x97200 Offset: 0x96600 VA: 0x180097200
 	public LOD[] GetLODs() { }
 
-	[FreeFunctionAttribute] // RVA: 0x97250 Offset: 0x96650 VA: 0x180097250
+	[FreeFunctionAttribute] // RVA: 0x97330 Offset: 0x96730 VA: 0x180097330
 	public void SetLODs(LOD[] lods) { }
 
 	private void get_localReferencePoint_Injected(out Vector3 ret) { }

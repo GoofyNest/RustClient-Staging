@@ -1,13 +1,13 @@
 public class CharacterJoint : Joint // TypeDefIndex: 3930
 {
-[NativeHeaderAttribute] // RVA: 0x8F740 Offset: 0x8EB40 VA: 0x18008F740
-[NativeClassAttribute] // RVA: 0x8F740 Offset: 0x8EB40 VA: 0x18008F740
+[NativeHeaderAttribute] // RVA: 0x8F840 Offset: 0x8EC40 VA: 0x18008F840
+[NativeClassAttribute] // RVA: 0x8F840 Offset: 0x8EC40 VA: 0x18008F840
 public class CharacterJoint : Joint // TypeDefIndex: 3930
-	[ObsoleteAttribute] // RVA: 0x8F860 Offset: 0x8EC60 VA: 0x18008F860
+	[ObsoleteAttribute] // RVA: 0x8F920 Offset: 0x8ED20 VA: 0x18008F920
 	public Quaternion targetRotation; // 0x18
-	[ObsoleteAttribute] // RVA: 0x8F9F0 Offset: 0x8EDF0 VA: 0x18008F9F0
-	public Vector3 targetAngularVelocity; // 0x28
 	[ObsoleteAttribute] // RVA: 0x8FAB0 Offset: 0x8EEB0 VA: 0x18008FAB0
+	public Vector3 targetAngularVelocity; // 0x28
+	[ObsoleteAttribute] // RVA: 0x8FBB0 Offset: 0x8EFB0 VA: 0x18008FBB0
 	public JointDrive rotationDrive; // 0x34
 
 	public bool enableProjection { set; }

@@ -1,10 +1,10 @@
 public sealed class Thread : CriticalFinalizerObject, _Thread // TypeDefIndex: 801
 {	private static LocalDataStoreMgr s_LocalDataStoreMgr; // 0x0
-	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ThreadStaticAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static LocalDataStoreHolder s_LocalDataStore; // 0x80000000
-	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ThreadStaticAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static CultureInfo m_CurrentCulture; // 0x80000008
-	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ThreadStaticAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static CultureInfo m_CurrentUICulture; // 0x80000010
 	private static AsyncLocal<CultureInfo> s_asyncLocalCurrentCulture; // 0x8
 	private static AsyncLocal<CultureInfo> s_asyncLocalCurrentUICulture; // 0x10
@@ -13,7 +13,7 @@ public sealed class Thread : CriticalFinalizerObject, _Thread // TypeDefIndex: 8
 	private object pending_exception; // 0x20
 	private IPrincipal principal; // 0x28
 	private int principal_version; // 0x30
-	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ThreadStaticAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Thread current_thread; // 0x80000018
 	private MulticastDelegate m_Delegate; // 0x38
 	private ExecutionContext m_ExecutionContext; // 0x40
@@ -50,20 +50,20 @@ public sealed class Thread : CriticalFinalizerObject, _Thread // TypeDefIndex: 8
 
 	private void Start(ref StackCrawlMark stackMark) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	internal ExecutionContext.Reader GetExecutionContextReader() { }
 
 	internal bool get_ExecutionContextBelongsToCurrentScope() { }
 
 	internal void set_ExecutionContextBelongsToCurrentScope(bool value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	internal ExecutionContext GetMutableExecutionContext() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	internal void SetExecutionContext(ExecutionContext value, bool belongsToCurrentScope) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	internal void SetExecutionContext(ExecutionContext.Reader value, bool belongsToCurrentScope) { }
 
 	public void set_Priority(ThreadPriority value) { }
@@ -80,10 +80,10 @@ public sealed class Thread : CriticalFinalizerObject, _Thread // TypeDefIndex: 8
 
 	public static void Sleep(int millisecondsTimeout) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	private static bool YieldInternal() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static bool Yield() { }
 
 	private void SetStartHelper(Delegate start, int maxStackSize) { }
@@ -112,7 +112,7 @@ public sealed class Thread : CriticalFinalizerObject, _Thread // TypeDefIndex: 8
 
 	private static Thread GetCurrentThread() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public static Thread get_CurrentThread() { }
 
 	internal static int get_CurrentThreadId() { }
@@ -121,7 +121,7 @@ public sealed class Thread : CriticalFinalizerObject, _Thread // TypeDefIndex: 8
 
 	private IntPtr Thread_internal(MulticastDelegate start) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	protected override void Finalize() { }
 
 	public bool get_IsThreadPoolThread() { }
@@ -144,7 +144,7 @@ public sealed class Thread : CriticalFinalizerObject, _Thread // TypeDefIndex: 8
 
 	private static void SpinWait_nop() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static void SpinWait(int iterations) { }
 
 	private void StartInternal(IPrincipal principal, ref StackCrawlMark stackMark) { }
@@ -161,16 +161,16 @@ public sealed class Thread : CriticalFinalizerObject, _Thread // TypeDefIndex: 8
 
 	private void SetStart(MulticastDelegate start, int maxStackSize) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public int get_ManagedThreadId() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public static void BeginCriticalRegion() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static void EndCriticalRegion() { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public override int GetHashCode() { }
 
 	private ThreadState ValidateThreadState() { }

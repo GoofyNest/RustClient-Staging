@@ -1,7 +1,7 @@
 public class ContentSizeFitter : UIBehaviour, ILayoutSelfController, ILayoutController // TypeDefIndex: 4963
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected ContentSizeFitter.FitMode m_HorizontalFit; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected ContentSizeFitter.FitMode m_VerticalFit; // 0x1C
 	private RectTransform m_Rect; // 0x20
 	private DrivenRectTransformTracker m_Tracker; // 0x28

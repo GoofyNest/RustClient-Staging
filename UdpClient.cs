@@ -43,10 +43,10 @@ public class UdpClient : IDisposable // TypeDefIndex: 3060
 
 	private void createClientSocket() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private IAsyncResult <ReceiveAsync>b__64_0(AsyncCallback callback, object state) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private UdpReceiveResult <ReceiveAsync>b__64_1(IAsyncResult ar) { }
 
 }

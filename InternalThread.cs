@@ -42,7 +42,7 @@ internal sealed class InternalThread : CriticalFinalizerObject // TypeDefIndex: 
 
 	private void Thread_free_internal() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	protected override void Finalize() { }
 
 	public void .ctor() { }

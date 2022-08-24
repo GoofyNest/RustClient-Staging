@@ -1,4 +1,4 @@
-public class LootPanelWaterCatcher : LootPanel // TypeDefIndex: 11038
+public class LootPanelWaterCatcher : LootPanel // TypeDefIndex: 11042
 {	public ItemIcon sourceItem; // 0x38
 	public Image capacityImage; // 0x40
 	public CanvasGroup helpCanvas; // 0x48
@@ -51,7 +51,7 @@ public class LootPanelWaterCatcher : LootPanel // TypeDefIndex: 11038
 
 }
 
-private enum LootPanelWaterCatcher.TransferMode // TypeDefIndex: 11039
+private enum LootPanelWaterCatcher.TransferMode // TypeDefIndex: 11043
 {	public int value__; // 0x0
 	public const LootPanelWaterCatcher.TransferMode None = 0;
 	public const LootPanelWaterCatcher.TransferMode From = 1;

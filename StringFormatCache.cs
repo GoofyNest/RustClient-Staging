@@ -1,4 +1,4 @@
-public static class StringFormatCache // TypeDefIndex: 10768
+public static class StringFormatCache // TypeDefIndex: 10772
 {	private static Dictionary<StringFormatCache.Key1, string> dict1; // 0x0
 	private static Dictionary<StringFormatCache.Key2, string> dict2; // 0x8
 	private static Dictionary<StringFormatCache.Key3, string> dict3; // 0x10
@@ -17,7 +17,7 @@ public static class StringFormatCache // TypeDefIndex: 10768
 
 }
 
-private struct StringFormatCache.Key1 : IEquatable<StringFormatCache.Key1> // TypeDefIndex: 10769
+private struct StringFormatCache.Key1 : IEquatable<StringFormatCache.Key1> // TypeDefIndex: 10773
 {	public string format; // 0x0
 	public string value1; // 0x8
 
@@ -32,7 +32,7 @@ private struct StringFormatCache.Key1 : IEquatable<StringFormatCache.Key1> // Ty
 
 }
 
-private struct StringFormatCache.Key2 : IEquatable<StringFormatCache.Key2> // TypeDefIndex: 10770
+private struct StringFormatCache.Key2 : IEquatable<StringFormatCache.Key2> // TypeDefIndex: 10774
 {	public string format; // 0x0
 	public string value1; // 0x8
 	public string value2; // 0x10
@@ -48,7 +48,7 @@ private struct StringFormatCache.Key2 : IEquatable<StringFormatCache.Key2> // Ty
 
 }
 
-private struct StringFormatCache.Key3 : IEquatable<StringFormatCache.Key3> // TypeDefIndex: 10771
+private struct StringFormatCache.Key3 : IEquatable<StringFormatCache.Key3> // TypeDefIndex: 10775
 {	public string format; // 0x0
 	public string value1; // 0x8
 	public string value2; // 0x10
@@ -65,7 +65,7 @@ private struct StringFormatCache.Key3 : IEquatable<StringFormatCache.Key3> // Ty
 
 }
 
-private struct StringFormatCache.Key4 : IEquatable<StringFormatCache.Key4> // TypeDefIndex: 10772
+private struct StringFormatCache.Key4 : IEquatable<StringFormatCache.Key4> // TypeDefIndex: 10776
 {	public string format; // 0x0
 	public string value1; // 0x8
 	public string value2; // 0x10

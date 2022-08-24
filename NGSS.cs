@@ -1,17 +1,17 @@
-public class NGSS_Directional : MonoBehaviour // TypeDefIndex: 11506
-{	[TooltipAttribute] // RVA: 0xB8D80 Offset: 0xB8180 VA: 0x1800B8D80
-	[RangeAttribute] // RVA: 0xB8D80 Offset: 0xB8180 VA: 0x1800B8D80
+public class NGSS_Directional : MonoBehaviour // TypeDefIndex: 11510
+{	[TooltipAttribute] // RVA: 0xB8F90 Offset: 0xB8390 VA: 0x1800B8F90
+	[RangeAttribute] // RVA: 0xB8F90 Offset: 0xB8390 VA: 0x1800B8F90
 	public float PCSS_GLOBAL_SOFTNESS; // 0x18
-	[TooltipAttribute] // RVA: 0xB8EE0 Offset: 0xB82E0 VA: 0x1800B8EE0
-	[RangeAttribute] // RVA: 0xB8EE0 Offset: 0xB82E0 VA: 0x1800B8EE0
+	[TooltipAttribute] // RVA: 0xB9020 Offset: 0xB8420 VA: 0x1800B9020
+	[RangeAttribute] // RVA: 0xB9020 Offset: 0xB8420 VA: 0x1800B9020
 	public float PCSS_FILTER_DIR_MIN; // 0x1C
-	[TooltipAttribute] // RVA: 0xB8F70 Offset: 0xB8370 VA: 0x1800B8F70
-	[RangeAttribute] // RVA: 0xB8F70 Offset: 0xB8370 VA: 0x1800B8F70
+	[TooltipAttribute] // RVA: 0xB9190 Offset: 0xB8590 VA: 0x1800B9190
+	[RangeAttribute] // RVA: 0xB9190 Offset: 0xB8590 VA: 0x1800B9190
 	public float PCSS_FILTER_DIR_MAX; // 0x20
-	[TooltipAttribute] // RVA: 0xB90E0 Offset: 0xB84E0 VA: 0x1800B90E0
-	[RangeAttribute] // RVA: 0xB90E0 Offset: 0xB84E0 VA: 0x1800B90E0
+	[TooltipAttribute] // RVA: 0xB9260 Offset: 0xB8660 VA: 0x1800B9260
+	[RangeAttribute] // RVA: 0xB9260 Offset: 0xB8660 VA: 0x1800B9260
 	public float BANDING_NOISE_AMOUNT; // 0x24
-	[TooltipAttribute] // RVA: 0xB9170 Offset: 0xB8570 VA: 0x1800B9170
+	[TooltipAttribute] // RVA: 0xB9370 Offset: 0xB8770 VA: 0x1800B9370
 	public NGSS_Directional.SAMPLER_COUNT SAMPLERS_COUNT; // 0x28
 
 
@@ -23,7 +23,7 @@ public class NGSS_Directional : MonoBehaviour // TypeDefIndex: 11506
 
 }
 
-public enum NGSS_Directional.SAMPLER_COUNT // TypeDefIndex: 11507
+public enum NGSS_Directional.SAMPLER_COUNT // TypeDefIndex: 11511
 {	public int value__; // 0x0
 	public const NGSS_Directional.SAMPLER_COUNT SAMPLERS_16 = 0;
 	public const NGSS_Directional.SAMPLER_COUNT SAMPLERS_25 = 1;

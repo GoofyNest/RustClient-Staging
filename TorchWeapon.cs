@@ -1,6 +1,6 @@
 public class TorchWeapon : BaseMelee // TypeDefIndex: 8656
 {	public float fuelTickAmount; // 0x2E0
-	[HeaderAttribute] // RVA: 0xB7120 Offset: 0xB6520 VA: 0x1800B7120
+	[HeaderAttribute] // RVA: 0xB71F0 Offset: 0xB65F0 VA: 0x1800B71F0
 	public AnimatorOverrideController LitHoldAnimationOverride; // 0x2E8
 	private bool specVmWasOn; // 0x2F0
 	private TimeUntil blockVmUpdates; // 0x2F4

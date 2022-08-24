@@ -1,7 +1,7 @@
 public sealed class Light : Behaviour // TypeDefIndex: 3408
 {	private int m_BakedIndex; // 0x18
 
-	[NativePropertyAttribute] // RVA: 0x95600 Offset: 0x94A00 VA: 0x180095600
+	[NativePropertyAttribute] // RVA: 0x95700 Offset: 0x94B00 VA: 0x180095700
 	public LightType type { get; set; }
 	public float spotAngle { get; }
 	public Color color { get; set; }
@@ -41,25 +41,25 @@ public sealed class Light : Behaviour // TypeDefIndex: 3408
 
 	public void set_cullingMask(int value) { }
 
-	[NativeMethodAttribute] // RVA: 0x952F0 Offset: 0x946F0 VA: 0x1800952F0
+	[NativeMethodAttribute] // RVA: 0x953A0 Offset: 0x947A0 VA: 0x1800953A0
 	public LightShadows get_shadows() { }
 
-	[FreeFunctionAttribute] // RVA: 0x953B0 Offset: 0x947B0 VA: 0x1800953B0
+	[FreeFunctionAttribute] // RVA: 0x95420 Offset: 0x94820 VA: 0x180095420
 	public void set_shadows(LightShadows value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x954A0 Offset: 0x948A0 VA: 0x1800954A0
+	[FreeFunctionAttribute] // RVA: 0x95510 Offset: 0x94910 VA: 0x180095510
 	public void set_shadowStrength(float value) { }
 
 	public void AddCommandBuffer(LightEvent evt, CommandBuffer buffer) { }
 
-	[FreeFunctionAttribute] // RVA: 0x954E0 Offset: 0x948E0 VA: 0x1800954E0
+	[FreeFunctionAttribute] // RVA: 0x955E0 Offset: 0x949E0 VA: 0x1800955E0
 	public void AddCommandBuffer(LightEvent evt, CommandBuffer buffer, ShadowMapPass shadowPassMask) { }
 
 	public void RemoveCommandBuffer(LightEvent evt, CommandBuffer buffer) { }
 
 	public void RemoveCommandBuffers(LightEvent evt) { }
 
-	[FreeFunctionAttribute] // RVA: 0x95580 Offset: 0x94980 VA: 0x180095580
+	[FreeFunctionAttribute] // RVA: 0x956C0 Offset: 0x94AC0 VA: 0x1800956C0
 	public CommandBuffer[] GetCommandBuffers(LightEvent evt) { }
 
 	private void get_color_Injected(out Color ret) { }

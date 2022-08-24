@@ -4,7 +4,7 @@ public class DefaultTraceListener : TraceListener // TypeDefIndex: 2655
 	private static readonly string MonoTraceFile; // 0x10
 	private string logFileName; // 0x38
 
-	[MonoTODOAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[MonoTODOAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string LogFileName { get; }
 
 

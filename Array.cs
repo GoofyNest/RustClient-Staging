@@ -14331,17 +14331,17 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.SetGenericValueImpl<object>
 	*/
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public int get_Length() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public int get_Rank() { }
 
 	private int GetRank() { }
 
 	public int GetLength(int dimension) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public int GetLowerBound(int dimension) { }
 
 	public object GetValue(int[] indices) { }
@@ -14356,7 +14356,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 
 	internal static Array CreateInstanceImpl(Type elementType, int[] lengths, int[] bounds) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public int GetUpperBound(int dimension) { }
 
 	public object GetValue(int index) { }
@@ -14387,22 +14387,22 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 
 	public static Array CreateInstance(Type elementType, int[] lengths, int[] lowerBounds) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static void Clear(Array array, int index, int length) { }
 
 	private static void ClearInternal(Array a, int index, int count) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x8D680 Offset: 0x8CA80 VA: 0x18008D680
+	[ReliabilityContractAttribute] // RVA: 0x8D790 Offset: 0x8CB90 VA: 0x18008D790
 	public static void Copy(Array sourceArray, Array destinationArray, int length) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x8D680 Offset: 0x8CA80 VA: 0x18008D680
+	[ReliabilityContractAttribute] // RVA: 0x8D790 Offset: 0x8CB90 VA: 0x18008D790
 	public static void Copy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length) { }
 
 	private static Exception CreateArrayTypeMismatchException() { }
 
 	private static bool CanAssignArrayElement(Type source, Type target) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76CD0 Offset: 0x760D0 VA: 0x180076CD0
+	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
 	public static void ConstrainedCopy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length) { }
 
 	public static T[] Empty<T>() { }
@@ -26955,8 +26955,8 @@ private sealed class ArrayList.ArrayListEnumeratorSimple : IEnumerator, ICloneab
 
 public sealed class BitArray : ICollection, IEnumerable, ICloneable // TypeDefIndex: 1380
 {
-[DefaultMemberAttribute] // RVA: 0xA9760 Offset: 0xA8B60 VA: 0x1800A9760
-[ComVisibleAttribute] // RVA: 0xA9760 Offset: 0xA8B60 VA: 0x1800A9760
+[DefaultMemberAttribute] // RVA: 0xA9800 Offset: 0xA8C00 VA: 0x1800A9800
+[ComVisibleAttribute] // RVA: 0xA9800 Offset: 0xA8C00 VA: 0x1800A9800
 [Serializable]
 public sealed class BitArray : ICollection, IEnumerable, ICloneable // TypeDefIndex: 1380
 	private int[] m_array; // 0x10
@@ -30042,7 +30042,7 @@ internal class ArrayIndexFilter : PathFilter // TypeDefIndex: 6078
 
 internal class ArrayMultipleIndexFilter : PathFilter // TypeDefIndex: 6080
 {
-[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[PreserveAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 internal class ArrayMultipleIndexFilter : PathFilter // TypeDefIndex: 6080
 
 	public void .ctor() { }
@@ -30051,7 +30051,7 @@ internal class ArrayMultipleIndexFilter : PathFilter // TypeDefIndex: 6080
 
 internal class ArraySliceFilter : PathFilter // TypeDefIndex: 6082
 {
-[PreserveAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+[PreserveAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 internal class ArraySliceFilter : PathFilter // TypeDefIndex: 6082
 
 	public void .ctor() { }
@@ -30107,16 +30107,16 @@ public abstract class ArrayPool<T> // TypeDefIndex: 6267
 }
 
 internal sealed class ArrayPoolEventSource : EventSource // TypeDefIndex: 6268
-{	internal static readonly ArrayPoolEventSource Log; // 0x2B10440
+{	internal static readonly ArrayPoolEventSource Log; // 0x2830
 
 
-	[EventAttribute] // RVA: 0xB0490 Offset: 0xAF890 VA: 0x1800B0490
+	[EventAttribute] // RVA: 0xB05A0 Offset: 0xAF9A0 VA: 0x1800B05A0
 	internal void BufferRented(int bufferId, int bufferSize, int poolId, int bucketId) { }
 
-	[EventAttribute] // RVA: 0xB0600 Offset: 0xAFA00 VA: 0x1800B0600
+	[EventAttribute] // RVA: 0xB0710 Offset: 0xAFB10 VA: 0x1800B0710
 	internal void BufferAllocated(int bufferId, int bufferSize, int poolId, int bucketId, ArrayPoolEventSource.BufferAllocatedReason reason) { }
 
-	[EventAttribute] // RVA: 0x9B580 Offset: 0x9A980 VA: 0x18009B580
+	[EventAttribute] // RVA: 0x9B660 Offset: 0x9AA60 VA: 0x18009B660
 	internal void BufferReturned(int bufferId, int bufferSize, int poolId) { }
 
 	public void .ctor() { }
@@ -30200,7 +30200,7 @@ public static class Arrays // TypeDefIndex: 8225
 
 }
 
-public static class ArrayEx // TypeDefIndex: 11342
+public static class ArrayEx // TypeDefIndex: 11346
 {
 	public static T[] New<T>(int length) { }
 	/* GenericInstMethod :
@@ -30209,21 +30209,21 @@ public static class ArrayEx // TypeDefIndex: 11342
 	|-ArrayEx.New<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static T GetRandom<T>(T[] array) { }
 	/* GenericInstMethod :
 	|
 	|-ArrayEx.GetRandom<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static T GetRandom<T>(T[] array, uint seed) { }
 	/* GenericInstMethod :
 	|
 	|-ArrayEx.GetRandom<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static T GetRandom<T>(T[] array, ref uint seed) { }
 	/* GenericInstMethod :
 	|
@@ -30234,14 +30234,14 @@ public static class ArrayEx // TypeDefIndex: 11342
 	|-ArrayEx.GetRandom<WeatherPreset>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void Shuffle<T>(T[] array, uint seed) { }
 	/* GenericInstMethod :
 	|
 	|-ArrayEx.Shuffle<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void Shuffle<T>(T[] array, ref uint seed) { }
 	/* GenericInstMethod :
 	|
@@ -30256,7 +30256,7 @@ public static class ArrayEx // TypeDefIndex: 11342
 	|-ArrayEx.Shuffle<Quaternion>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void BubbleSort<T>(T[] array) { }
 	/* GenericInstMethod :
 	|

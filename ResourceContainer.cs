@@ -11,10 +11,10 @@ public class ResourceContainer : EntityComponent<BaseEntity> // TypeDefIndex: 84
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.Menu] // RVA: 0x80050 Offset: 0x7F450 VA: 0x180080050
-	[BaseEntity.Menu.Description] // RVA: 0x80050 Offset: 0x7F450 VA: 0x180080050
-	[BaseEntity.Menu.Icon] // RVA: 0x80050 Offset: 0x7F450 VA: 0x180080050
-	[BaseEntity.Menu.ShowIf] // RVA: 0x80050 Offset: 0x7F450 VA: 0x180080050
+	[BaseEntity.Menu] // RVA: 0x800F0 Offset: 0x7F4F0 VA: 0x1800800F0
+	[BaseEntity.Menu.Description] // RVA: 0x800F0 Offset: 0x7F4F0 VA: 0x1800800F0
+	[BaseEntity.Menu.Icon] // RVA: 0x800F0 Offset: 0x7F4F0 VA: 0x1800800F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x800F0 Offset: 0x7F4F0 VA: 0x1800800F0
 	public void MenuLoot(BasePlayer player) { }
 
 	public bool MenuLoot_Test(BasePlayer player) { }

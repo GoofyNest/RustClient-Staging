@@ -93,36 +93,36 @@ public class ElevatorLift : BaseCombatEntity // TypeDefIndex: 8387
 
 	private Elevator get_owner() { }
 
-	[BaseEntity.Menu] // RVA: 0xDB120 Offset: 0xDA520 VA: 0x1800DB120
-	[BaseEntity.Menu.Description] // RVA: 0xDB120 Offset: 0xDA520 VA: 0x1800DB120
-	[BaseEntity.Menu.Icon] // RVA: 0xDB120 Offset: 0xDA520 VA: 0x1800DB120
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDB120 Offset: 0xDA520 VA: 0x1800DB120
+	[BaseEntity.Menu] // RVA: 0xDB1D0 Offset: 0xDA5D0 VA: 0x1800DB1D0
+	[BaseEntity.Menu.Description] // RVA: 0xDB1D0 Offset: 0xDA5D0 VA: 0x1800DB1D0
+	[BaseEntity.Menu.Icon] // RVA: 0xDB1D0 Offset: 0xDA5D0 VA: 0x1800DB1D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDB1D0 Offset: 0xDA5D0 VA: 0x1800DB1D0
 	public void Menu_RaiseElevator(BasePlayer p) { }
 
 	protected bool Menu_RaiseElevator_ShowIf(BasePlayer p) { }
 
 	protected virtual bool Menu_RaiseElevator_ShowIf_Base(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0xDB4C0 Offset: 0xDA8C0 VA: 0x1800DB4C0
-	[BaseEntity.Menu.Description] // RVA: 0xDB4C0 Offset: 0xDA8C0 VA: 0x1800DB4C0
-	[BaseEntity.Menu.Icon] // RVA: 0xDB4C0 Offset: 0xDA8C0 VA: 0x1800DB4C0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDB4C0 Offset: 0xDA8C0 VA: 0x1800DB4C0
+	[BaseEntity.Menu] // RVA: 0xDB530 Offset: 0xDA930 VA: 0x1800DB530
+	[BaseEntity.Menu.Description] // RVA: 0xDB530 Offset: 0xDA930 VA: 0x1800DB530
+	[BaseEntity.Menu.Icon] // RVA: 0xDB530 Offset: 0xDA930 VA: 0x1800DB530
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDB530 Offset: 0xDA930 VA: 0x1800DB530
 	public void Menu_RaiseElevatorToTop(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0xDB800 Offset: 0xDAC00 VA: 0x1800DB800
-	[BaseEntity.Menu.Description] // RVA: 0xDB800 Offset: 0xDAC00 VA: 0x1800DB800
-	[BaseEntity.Menu.Icon] // RVA: 0xDB800 Offset: 0xDAC00 VA: 0x1800DB800
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDB800 Offset: 0xDAC00 VA: 0x1800DB800
+	[BaseEntity.Menu] // RVA: 0xDB890 Offset: 0xDAC90 VA: 0x1800DB890
+	[BaseEntity.Menu.Description] // RVA: 0xDB890 Offset: 0xDAC90 VA: 0x1800DB890
+	[BaseEntity.Menu.Icon] // RVA: 0xDB890 Offset: 0xDAC90 VA: 0x1800DB890
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDB890 Offset: 0xDAC90 VA: 0x1800DB890
 	public void Menu_LowerElevator(BasePlayer p) { }
 
 	protected bool Menu_LowerElevator_ShowIf(BasePlayer p) { }
 
 	protected virtual bool Menu_LowerElevator_ShowIf_Base(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0xDBCB0 Offset: 0xDB0B0 VA: 0x1800DBCB0
-	[BaseEntity.Menu.Description] // RVA: 0xDBCB0 Offset: 0xDB0B0 VA: 0x1800DBCB0
-	[BaseEntity.Menu.Icon] // RVA: 0xDBCB0 Offset: 0xDB0B0 VA: 0x1800DBCB0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDBCB0 Offset: 0xDB0B0 VA: 0x1800DBCB0
+	[BaseEntity.Menu] // RVA: 0xDBD60 Offset: 0xDB160 VA: 0x1800DBD60
+	[BaseEntity.Menu.Description] // RVA: 0xDBD60 Offset: 0xDB160 VA: 0x1800DBD60
+	[BaseEntity.Menu.Icon] // RVA: 0xDBD60 Offset: 0xDB160 VA: 0x1800DBD60
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDBD60 Offset: 0xDB160 VA: 0x1800DBD60
 	public void Menu_LowerElevatorToFloor(BasePlayer p) { }
 
 	protected bool GetLookingAtButton(BasePlayer p, out Elevator.Direction d) { }
@@ -152,16 +152,16 @@ public class ElevatorLiftStatic : ElevatorLift // TypeDefIndex: 8388
 
 	public override bool get_HasMenuOptions() { }
 
-	[BaseEntity.Menu] // RVA: 0xDBF50 Offset: 0xDB350 VA: 0x1800DBF50
-	[BaseEntity.Menu.Description] // RVA: 0xDBF50 Offset: 0xDB350 VA: 0x1800DBF50
-	[BaseEntity.Menu.Icon] // RVA: 0xDBF50 Offset: 0xDB350 VA: 0x1800DBF50
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDBF50 Offset: 0xDB350 VA: 0x1800DBF50
+	[BaseEntity.Menu] // RVA: 0xDC060 Offset: 0xDB460 VA: 0x1800DC060
+	[BaseEntity.Menu.Description] // RVA: 0xDC060 Offset: 0xDB460 VA: 0x1800DC060
+	[BaseEntity.Menu.Icon] // RVA: 0xDC060 Offset: 0xDB460 VA: 0x1800DC060
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDC060 Offset: 0xDB460 VA: 0x1800DC060
 	public void Menu_RaiseElevatorToTop(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0xDC240 Offset: 0xDB640 VA: 0x1800DC240
-	[BaseEntity.Menu.Description] // RVA: 0xDC240 Offset: 0xDB640 VA: 0x1800DC240
-	[BaseEntity.Menu.Icon] // RVA: 0xDC240 Offset: 0xDB640 VA: 0x1800DC240
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDC240 Offset: 0xDB640 VA: 0x1800DC240
+	[BaseEntity.Menu] // RVA: 0xDC350 Offset: 0xDB750 VA: 0x1800DC350
+	[BaseEntity.Menu.Description] // RVA: 0xDC350 Offset: 0xDB750 VA: 0x1800DC350
+	[BaseEntity.Menu.Icon] // RVA: 0xDC350 Offset: 0xDB750 VA: 0x1800DC350
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDC350 Offset: 0xDB750 VA: 0x1800DC350
 	public void Menu_LowerElevatorToFloor(BasePlayer p) { }
 
 	protected override bool Menu_RaiseElevator_ShowIf_Base(BasePlayer p) { }
@@ -181,14 +181,14 @@ public class Elevator : IOEntity, IFlagNotify // TypeDefIndex: 8692
 	public float LiftSpeedPerMetre; // 0x2B0
 	public GameObject[] PoweredObjects; // 0x2B8
 	public MeshRenderer PoweredMesh; // 0x2C0
-	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
+	[ColorUsageAttribute] // RVA: 0x85C80 Offset: 0x85080 VA: 0x180085C80
 	public Color PoweredLightColour; // 0x2C8
-	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
+	[ColorUsageAttribute] // RVA: 0x85C80 Offset: 0x85080 VA: 0x180085C80
 	public Color UnpoweredLightColour; // 0x2D8
 	public SkinnedMeshRenderer[] CableRenderers; // 0x2E8
 	public LODGroup CableLod; // 0x2F0
 	public Transform CableRoot; // 0x2F8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <Floor>k__BackingField; // 0x300
 	protected const BaseEntity.Flags TopFloorFlag = 128;
 	public const BaseEntity.Flags ElevatorPowered = 256;
@@ -201,10 +201,10 @@ public class Elevator : IOEntity, IFlagNotify // TypeDefIndex: 8692
 
 	protected virtual bool get_IsStatic() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_Floor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_Floor(int value) { }
 
 	protected bool get_IsTop() { }

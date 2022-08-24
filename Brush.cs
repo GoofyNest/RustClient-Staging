@@ -1,4 +1,4 @@
-public class Brush // TypeDefIndex: 11591
+public class Brush // TypeDefIndex: 11595
 {	public float spacing; // 0x10
 	public Vector2 brushSize; // 0x14
 	public Texture2D texture; // 0x20

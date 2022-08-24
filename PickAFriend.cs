@@ -1,4 +1,4 @@
-public class PickAFriend : UIDialog // TypeDefIndex: 10903
+public class PickAFriend : UIDialog // TypeDefIndex: 10907
 {	public InputField input; // 0x30
 	public RustText headerText; // 0x38
 	public bool AutoSelectInputField; // 0x40
@@ -28,7 +28,7 @@ public class PickAFriend : UIDialog // TypeDefIndex: 10903
 
 }
 
-public enum PickAFriend.PickFriendMode // TypeDefIndex: 10904
+public enum PickAFriend.PickFriendMode // TypeDefIndex: 10908
 {	public int value__; // 0x0
 	public const PickAFriend.PickFriendMode SleepingBag = 0;
 	public const PickAFriend.PickFriendMode AutoTurret = 1;

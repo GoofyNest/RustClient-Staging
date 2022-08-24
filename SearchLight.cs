@@ -28,18 +28,18 @@ public class SearchLight : IOEntity // TypeDefIndex: 8443
 
 	private void UpdateAimpoint() { }
 
-	[BaseEntity.Menu] // RVA: 0x833E0 Offset: 0x827E0 VA: 0x1800833E0
-	[BaseEntity.Menu.Description] // RVA: 0x833E0 Offset: 0x827E0 VA: 0x1800833E0
-	[BaseEntity.Menu.Icon] // RVA: 0x833E0 Offset: 0x827E0 VA: 0x1800833E0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x833E0 Offset: 0x827E0 VA: 0x1800833E0
+	[BaseEntity.Menu] // RVA: 0x834F0 Offset: 0x828F0 VA: 0x1800834F0
+	[BaseEntity.Menu.Description] // RVA: 0x834F0 Offset: 0x828F0 VA: 0x1800834F0
+	[BaseEntity.Menu.Icon] // RVA: 0x834F0 Offset: 0x828F0 VA: 0x1800834F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x834F0 Offset: 0x828F0 VA: 0x1800834F0
 	public void UseLight(BasePlayer player) { }
 
 	public bool Menu_UseLight_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x836C0 Offset: 0x82AC0 VA: 0x1800836C0
-	[BaseEntity.Menu.Description] // RVA: 0x836C0 Offset: 0x82AC0 VA: 0x1800836C0
-	[BaseEntity.Menu.Icon] // RVA: 0x836C0 Offset: 0x82AC0 VA: 0x1800836C0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x836C0 Offset: 0x82AC0 VA: 0x1800836C0
+	[BaseEntity.Menu] // RVA: 0x837D0 Offset: 0x82BD0 VA: 0x1800837D0
+	[BaseEntity.Menu.Description] // RVA: 0x837D0 Offset: 0x82BD0 VA: 0x1800837D0
+	[BaseEntity.Menu.Icon] // RVA: 0x837D0 Offset: 0x82BD0 VA: 0x1800837D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x837D0 Offset: 0x82BD0 VA: 0x1800837D0
 	public void StopUseLight(BasePlayer player) { }
 
 	public bool Menu_StopUseLight_ShowIf(BasePlayer player) { }

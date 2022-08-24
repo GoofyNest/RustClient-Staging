@@ -7,7 +7,7 @@ public class MP3Stream : Stream // TypeDefIndex: 7379
 	private short _ChannelCountRep; // 0x48
 	private readonly SoundFormat FormatRep; // 0x4C
 	private int _FrequencyRep; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsEOF>k__BackingField; // 0x54
 
 	public bool IsEOF { get; set; }
@@ -19,10 +19,10 @@ public class MP3Stream : Stream // TypeDefIndex: 7379
 	public int Frequency { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsEOF() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected void set_IsEOF(bool value) { }
 
 	public void .ctor(Stream sourceStream) { }

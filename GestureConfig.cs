@@ -1,5 +1,5 @@
 public class GestureConfig : ScriptableObject // TypeDefIndex: 10087
-{	[ReadOnlyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+{	[ReadOnlyAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public uint gestureId; // 0x18
 	public string gestureCommand; // 0x20
 	public string convarName; // 0x28
@@ -8,7 +8,7 @@ public class GestureConfig : ScriptableObject // TypeDefIndex: 10087
 	public int order; // 0x40
 	public float duration; // 0x44
 	public bool canCancel; // 0x48
-	[HeaderAttribute] // RVA: 0xB3E30 Offset: 0xB3230 VA: 0x1800B3E30
+	[HeaderAttribute] // RVA: 0xB3EB0 Offset: 0xB32B0 VA: 0x1800B3EB0
 	public GestureConfig.PlayerModelLayer playerModelLayer; // 0x4C
 	public GestureConfig.MovementCapabilities movementMode; // 0x50
 	public GestureConfig.AnimationType animationType; // 0x54

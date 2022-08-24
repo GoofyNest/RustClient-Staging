@@ -1,6 +1,6 @@
 public struct ValueTask : IEquatable<ValueTask> // TypeDefIndex: 7085
 {	private static readonly Task s_canceledTask; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static readonly Task <CompletedTask>k__BackingField; // 0x8
 	internal readonly object _obj; // 0x0
 	internal readonly short _token; // 0x8
@@ -10,7 +10,7 @@ public struct ValueTask : IEquatable<ValueTask> // TypeDefIndex: 7085
 	public bool IsCompleted { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static Task get_CompletedTask() { }
 
 	public void .ctor(Task task) { }
@@ -23,7 +23,7 @@ public struct ValueTask : IEquatable<ValueTask> // TypeDefIndex: 7085
 
 	public bool get_IsCompleted() { }
 
-	[StackTraceHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[StackTraceHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void ThrowIfCompletedUnsuccessfully() { }
 
 	public ValueTaskAwaiter GetAwaiter() { }

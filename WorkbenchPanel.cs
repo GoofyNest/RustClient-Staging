@@ -1,4 +1,4 @@
-public class WorkbenchPanel : LootPanel, IInventoryChanged // TypeDefIndex: 11069
+public class WorkbenchPanel : LootPanel, IInventoryChanged // TypeDefIndex: 11073
 {	public Button experimentButton; // 0x38
 	public Text timerText; // 0x40
 	public Text costText; // 0x48

@@ -14,32 +14,32 @@ public sealed class String : IComparable, ICloneable, IConvertible, IEnumerable,
 
 	public static string Join(string separator, string[] value) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public static string Join(string separator, object[] values) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public static string Join<T>(string separator, IEnumerable<T> values) { }
 	/* GenericInstMethod :
 	|
 	|-String.Join<object>
 	*/
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public static string Join(string separator, IEnumerable<string> values) { }
 
 	public static string Join(string separator, string[] value, int startIndex, int count) { }
 
 	private static int CompareOrdinalIgnoreCaseHelper(string strA, string strB) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	private static bool EqualsHelper(string strA, string strB) { }
 
 	private static int CompareOrdinalHelper(string strA, string strB) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public override bool Equals(object obj) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public bool Equals(string value) { }
 
 	public bool Equals(string value, StringComparison comparisonType) { }
@@ -62,24 +62,24 @@ public sealed class String : IComparable, ICloneable, IConvertible, IEnumerable,
 
 	public static bool IsNullOrWhiteSpace(string value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public override int GetHashCode() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x83C90 Offset: 0x83090 VA: 0x180083C90
+	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	internal int GetLegacyNonRandomizedHashCode() { }
 
 	public string[] Split(char[] separator) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public string[] Split(char[] separator, StringSplitOptions options) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	internal string[] SplitInternal(char[] separator, int count, StringSplitOptions options) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public string[] Split(string[] separator, StringSplitOptions options) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public string[] Split(string[] separator, int count, StringSplitOptions options) { }
 
 	private string[] InternalSplitKeepEmptyEntries(int[] sepList, int[] lengthList, int numReplaces, int count) { }
@@ -102,13 +102,13 @@ public sealed class String : IComparable, ICloneable, IConvertible, IEnumerable,
 
 	public string TrimEnd(char[] trimChars) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(char* value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(char* value, int startIndex, int length) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(sbyte* value, int startIndex, int length, Encoding enc) { }
 
 	internal static string CreateStringFromEncoding(byte* bytes, int byteLength, Encoding encoding) { }
@@ -163,7 +163,7 @@ public sealed class String : IComparable, ICloneable, IConvertible, IEnumerable,
 
 	public bool EndsWith(string value) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public bool EndsWith(string value, StringComparison comparisonType) { }
 
 	internal bool EndsWith(char value) { }
@@ -210,7 +210,7 @@ public sealed class String : IComparable, ICloneable, IConvertible, IEnumerable,
 
 	public bool StartsWith(string value) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public bool StartsWith(string value, StringComparison comparisonType) { }
 
 	public string ToLower() { }

@@ -1,4 +1,4 @@
-public class DeferredDecalSystem // TypeDefIndex: 10652
+public class DeferredDecalSystem // TypeDefIndex: 10656
 {	internal static bool IsDirty; // 0x0
 	internal const int QueueSize = 2;
 	internal static ListDictionary<InstancingKey, ListHashSet<DeferredDecal>>[] DiffuseDecals; // 0x8

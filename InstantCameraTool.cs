@@ -3,13 +3,13 @@ public class InstantCameraTool : HeldEntity // TypeDefIndex: 8584
 	public GameObjectRef screenshotEffect; // 0x200
 	public SoundDefinition startPhotoSoundDef; // 0x208
 	public SoundDefinition finishPhotoSoundDef; // 0x210
-	[RangeAttribute] // RVA: 0xAC790 Offset: 0xABB90 VA: 0x1800AC790
-	public int resolutionX; // 0x218
 	[RangeAttribute] // RVA: 0xAC8A0 Offset: 0xABCA0 VA: 0x1800AC8A0
+	public int resolutionX; // 0x218
+	[RangeAttribute] // RVA: 0xAC920 Offset: 0xABD20 VA: 0x1800AC920
 	public int resolutionY; // 0x21C
-	[RangeAttribute] // RVA: 0xACA20 Offset: 0xABE20 VA: 0x1800ACA20
+	[RangeAttribute] // RVA: 0xACAA0 Offset: 0xABEA0 VA: 0x1800ACAA0
 	public int quality; // 0x220
-	[RangeAttribute] // RVA: 0x75A70 Offset: 0x74E70 VA: 0x180075A70
+	[RangeAttribute] // RVA: 0x75B10 Offset: 0x74F10 VA: 0x180075B10
 	public float cooldownSeconds; // 0x224
 	private TimeSince _sinceLastPhoto; // 0x228
 	private float cameraFOV; // 0x22C
@@ -29,7 +29,7 @@ public class InstantCameraTool : HeldEntity // TypeDefIndex: 8584
 
 	public override void OnInput() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xACB80 Offset: 0xABF80 VA: 0x1800ACB80
+	[IteratorStateMachineAttribute] // RVA: 0xACC90 Offset: 0xAC090 VA: 0x1800ACC90
 	private IEnumerator TakePhoto() { }
 
 	private void RenderCallback() { }
@@ -58,21 +58,21 @@ private sealed class InstantCameraTool.<TakePhoto>d__19 : IEnumerator<object>, I
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

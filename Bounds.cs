@@ -1,6 +1,6 @@
 public struct Bounds : IEquatable<Bounds> // TypeDefIndex: 3372
 {	private Vector3 m_Center; // 0x0
-	[NativeNameAttribute] // RVA: 0x7D950 Offset: 0x7CD50 VA: 0x18007D950
+	[NativeNameAttribute] // RVA: 0x7DA30 Offset: 0x7CE30 VA: 0x18007DA30
 	private Vector3 m_Extents; // 0xC
 
 	public Vector3 center { get; set; }
@@ -54,16 +54,16 @@ public struct Bounds : IEquatable<Bounds> // TypeDefIndex: 3372
 
 	public override string ToString() { }
 
-	[NativeMethodAttribute] // RVA: 0x7D980 Offset: 0x7CD80 VA: 0x18007D980
+	[NativeMethodAttribute] // RVA: 0x7DA60 Offset: 0x7CE60 VA: 0x18007DA60
 	public bool Contains(Vector3 point) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7DAD0 Offset: 0x7CED0 VA: 0x18007DAD0
+	[FreeFunctionAttribute] // RVA: 0x7DBB0 Offset: 0x7CFB0 VA: 0x18007DBB0
 	public float SqrDistance(Vector3 point) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7DBE0 Offset: 0x7CFE0 VA: 0x18007DBE0
+	[FreeFunctionAttribute] // RVA: 0x7DC70 Offset: 0x7D070 VA: 0x18007DC70
 	private static bool IntersectRayAABB(Ray ray, Bounds bounds, out float dist) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7DD30 Offset: 0x7D130 VA: 0x18007DD30
+	[FreeFunctionAttribute] // RVA: 0x7DDC0 Offset: 0x7D1C0 VA: 0x18007DDC0
 	public Vector3 ClosestPoint(Vector3 point) { }
 
 	private static bool Contains_Injected(ref Bounds _unity_self, ref Vector3 point) { }

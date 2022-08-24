@@ -1,35 +1,35 @@
 public struct Matrix4x4 : IEquatable<Matrix4x4> // TypeDefIndex: 3466
-{	[NativeNameAttribute] // RVA: 0xAA2F0 Offset: 0xA96F0 VA: 0x1800AA2F0
+{	[NativeNameAttribute] // RVA: 0xAA3D0 Offset: 0xA97D0 VA: 0x1800AA3D0
 	public float m00; // 0x0
-	[NativeNameAttribute] // RVA: 0xAA340 Offset: 0xA9740 VA: 0x1800AA340
+	[NativeNameAttribute] // RVA: 0xAA450 Offset: 0xA9850 VA: 0x1800AA450
 	public float m10; // 0x4
-	[NativeNameAttribute] // RVA: 0xAA3A0 Offset: 0xA97A0 VA: 0x1800AA3A0
+	[NativeNameAttribute] // RVA: 0xAA4B0 Offset: 0xA98B0 VA: 0x1800AA4B0
 	public float m20; // 0x8
-	[NativeNameAttribute] // RVA: 0xAA410 Offset: 0xA9810 VA: 0x1800AA410
+	[NativeNameAttribute] // RVA: 0xAA520 Offset: 0xA9920 VA: 0x1800AA520
 	public float m30; // 0xC
-	[NativeNameAttribute] // RVA: 0xAA4C0 Offset: 0xA98C0 VA: 0x1800AA4C0
+	[NativeNameAttribute] // RVA: 0xAA5A0 Offset: 0xA99A0 VA: 0x1800AA5A0
 	public float m01; // 0x10
-	[NativeNameAttribute] // RVA: 0xAA590 Offset: 0xA9990 VA: 0x1800AA590
+	[NativeNameAttribute] // RVA: 0xAA630 Offset: 0xA9A30 VA: 0x1800AA630
 	public float m11; // 0x14
-	[NativeNameAttribute] // RVA: 0xAA600 Offset: 0xA9A00 VA: 0x1800AA600
+	[NativeNameAttribute] // RVA: 0xAA690 Offset: 0xA9A90 VA: 0x1800AA690
 	public float m21; // 0x18
-	[NativeNameAttribute] // RVA: 0xAA810 Offset: 0xA9C10 VA: 0x1800AA810
+	[NativeNameAttribute] // RVA: 0xAA8A0 Offset: 0xA9CA0 VA: 0x1800AA8A0
 	public float m31; // 0x1C
-	[NativeNameAttribute] // RVA: 0xAA8B0 Offset: 0xA9CB0 VA: 0x1800AA8B0
+	[NativeNameAttribute] // RVA: 0xAA940 Offset: 0xA9D40 VA: 0x1800AA940
 	public float m02; // 0x20
-	[NativeNameAttribute] // RVA: 0xAA970 Offset: 0xA9D70 VA: 0x1800AA970
+	[NativeNameAttribute] // RVA: 0xAAA00 Offset: 0xA9E00 VA: 0x1800AAA00
 	public float m12; // 0x24
-	[NativeNameAttribute] // RVA: 0xAAA60 Offset: 0xA9E60 VA: 0x1800AAA60
+	[NativeNameAttribute] // RVA: 0xAAB00 Offset: 0xA9F00 VA: 0x1800AAB00
 	public float m22; // 0x28
-	[NativeNameAttribute] // RVA: 0xAAB50 Offset: 0xA9F50 VA: 0x1800AAB50
+	[NativeNameAttribute] // RVA: 0xAABF0 Offset: 0xA9FF0 VA: 0x1800AABF0
 	public float m32; // 0x2C
-	[NativeNameAttribute] // RVA: 0xAAC40 Offset: 0xAA040 VA: 0x1800AAC40
+	[NativeNameAttribute] // RVA: 0xAAD10 Offset: 0xAA110 VA: 0x1800AAD10
 	public float m03; // 0x30
-	[NativeNameAttribute] // RVA: 0xAADD0 Offset: 0xAA1D0 VA: 0x1800AADD0
+	[NativeNameAttribute] // RVA: 0xAAEA0 Offset: 0xAA2A0 VA: 0x1800AAEA0
 	public float m13; // 0x34
-	[NativeNameAttribute] // RVA: 0xAAF00 Offset: 0xAA300 VA: 0x1800AAF00
+	[NativeNameAttribute] // RVA: 0xAAFD0 Offset: 0xAA3D0 VA: 0x1800AAFD0
 	public float m23; // 0x38
-	[NativeNameAttribute] // RVA: 0xAB0A0 Offset: 0xAA4A0 VA: 0x1800AB0A0
+	[NativeNameAttribute] // RVA: 0xAB170 Offset: 0xAA570 VA: 0x1800AB170
 	public float m33; // 0x3C
 	private static readonly Matrix4x4 zeroMatrix; // 0x0
 	private static readonly Matrix4x4 identityMatrix; // 0x40
@@ -44,13 +44,13 @@ public struct Matrix4x4 : IEquatable<Matrix4x4> // TypeDefIndex: 3466
 	public static Matrix4x4 identity { get; }
 
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	private Quaternion GetRotation() { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	private Vector3 GetLossyScale() { }
 
-	[ThreadSafeAttribute] // RVA: 0x93CD0 Offset: 0x930D0 VA: 0x180093CD0
+	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
 	private FrustumPlanes DecomposeProjection() { }
 
 	public Quaternion get_rotation() { }
@@ -59,28 +59,28 @@ public struct Matrix4x4 : IEquatable<Matrix4x4> // TypeDefIndex: 3466
 
 	public FrustumPlanes get_decomposeProjection() { }
 
-	[FreeFunctionAttribute] // RVA: 0xAB440 Offset: 0xAA840 VA: 0x1800AB440
+	[FreeFunctionAttribute] // RVA: 0xAB550 Offset: 0xAA950 VA: 0x1800AB550
 	public static Matrix4x4 TRS(Vector3 pos, Quaternion q, Vector3 s) { }
 
 	public void SetTRS(Vector3 pos, Quaternion q, Vector3 s) { }
 
-	[FreeFunctionAttribute] // RVA: 0xAB5E0 Offset: 0xAA9E0 VA: 0x1800AB5E0
+	[FreeFunctionAttribute] // RVA: 0xAB6F0 Offset: 0xAAAF0 VA: 0x1800AB6F0
 	public static Matrix4x4 Inverse(Matrix4x4 m) { }
 
 	public Matrix4x4 get_inverse() { }
 
-	[FreeFunctionAttribute] // RVA: 0xAB6A0 Offset: 0xAAAA0 VA: 0x1800AB6A0
+	[FreeFunctionAttribute] // RVA: 0xAB780 Offset: 0xAAB80 VA: 0x1800AB780
 	public static Matrix4x4 Transpose(Matrix4x4 m) { }
 
 	public Matrix4x4 get_transpose() { }
 
-	[FreeFunctionAttribute] // RVA: 0xAB850 Offset: 0xAAC50 VA: 0x1800AB850
+	[FreeFunctionAttribute] // RVA: 0xAB960 Offset: 0xAAD60 VA: 0x1800AB960
 	public static Matrix4x4 Ortho(float left, float right, float bottom, float top, float zNear, float zFar) { }
 
-	[FreeFunctionAttribute] // RVA: 0xAB890 Offset: 0xAAC90 VA: 0x1800AB890
+	[FreeFunctionAttribute] // RVA: 0xAB9A0 Offset: 0xAADA0 VA: 0x1800AB9A0
 	public static Matrix4x4 Perspective(float fov, float aspect, float zNear, float zFar) { }
 
-	[FreeFunctionAttribute] // RVA: 0xAB9A0 Offset: 0xAADA0 VA: 0x1800AB9A0
+	[FreeFunctionAttribute] // RVA: 0xABAB0 Offset: 0xAAEB0 VA: 0x1800ABAB0
 	public static Matrix4x4 Frustum(float left, float right, float bottom, float top, float zNear, float zFar) { }
 
 	public static Matrix4x4 Frustum(FrustumPlanes fp) { }

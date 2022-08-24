@@ -21,34 +21,34 @@ public class HBHFSensor : BaseDetector // TypeDefIndex: 8397
 
 	public bool ShouldIncludeOthers() { }
 
-	[BaseEntity.Menu] // RVA: 0xE6C10 Offset: 0xE6010 VA: 0x1800E6C10
-	[BaseEntity.Menu.Description] // RVA: 0xE6C10 Offset: 0xE6010 VA: 0x1800E6C10
-	[BaseEntity.Menu.Icon] // RVA: 0xE6C10 Offset: 0xE6010 VA: 0x1800E6C10
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE6C10 Offset: 0xE6010 VA: 0x1800E6C10
+	[BaseEntity.Menu] // RVA: 0xE6D30 Offset: 0xE6130 VA: 0x1800E6D30
+	[BaseEntity.Menu.Description] // RVA: 0xE6D30 Offset: 0xE6130 VA: 0x1800E6D30
+	[BaseEntity.Menu.Icon] // RVA: 0xE6D30 Offset: 0xE6130 VA: 0x1800E6D30
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE6D30 Offset: 0xE6130 VA: 0x1800E6D30
 	public void Menu_IncludeAuth(BasePlayer player) { }
 
 	public bool Menu_IncludeAuth_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE7060 Offset: 0xE6460 VA: 0x1800E7060
-	[BaseEntity.Menu.Description] // RVA: 0xE7060 Offset: 0xE6460 VA: 0x1800E7060
-	[BaseEntity.Menu.Icon] // RVA: 0xE7060 Offset: 0xE6460 VA: 0x1800E7060
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE7060 Offset: 0xE6460 VA: 0x1800E7060
+	[BaseEntity.Menu] // RVA: 0xE7180 Offset: 0xE6580 VA: 0x1800E7180
+	[BaseEntity.Menu.Description] // RVA: 0xE7180 Offset: 0xE6580 VA: 0x1800E7180
+	[BaseEntity.Menu.Icon] // RVA: 0xE7180 Offset: 0xE6580 VA: 0x1800E7180
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE7180 Offset: 0xE6580 VA: 0x1800E7180
 	public void Menu_ExcludeAuth(BasePlayer player) { }
 
 	public bool Menu_ExcludeAuth_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE71E0 Offset: 0xE65E0 VA: 0x1800E71E0
-	[BaseEntity.Menu.Description] // RVA: 0xE71E0 Offset: 0xE65E0 VA: 0x1800E71E0
-	[BaseEntity.Menu.Icon] // RVA: 0xE71E0 Offset: 0xE65E0 VA: 0x1800E71E0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE71E0 Offset: 0xE65E0 VA: 0x1800E71E0
+	[BaseEntity.Menu] // RVA: 0xE72E0 Offset: 0xE66E0 VA: 0x1800E72E0
+	[BaseEntity.Menu.Description] // RVA: 0xE72E0 Offset: 0xE66E0 VA: 0x1800E72E0
+	[BaseEntity.Menu.Icon] // RVA: 0xE72E0 Offset: 0xE66E0 VA: 0x1800E72E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE72E0 Offset: 0xE66E0 VA: 0x1800E72E0
 	public void Menu_IncludeOthers(BasePlayer player) { }
 
 	public bool Menu_IncludeOthers_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE7460 Offset: 0xE6860 VA: 0x1800E7460
-	[BaseEntity.Menu.Description] // RVA: 0xE7460 Offset: 0xE6860 VA: 0x1800E7460
-	[BaseEntity.Menu.Icon] // RVA: 0xE7460 Offset: 0xE6860 VA: 0x1800E7460
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE7460 Offset: 0xE6860 VA: 0x1800E7460
+	[BaseEntity.Menu] // RVA: 0xE7580 Offset: 0xE6980 VA: 0x1800E7580
+	[BaseEntity.Menu.Description] // RVA: 0xE7580 Offset: 0xE6980 VA: 0x1800E7580
+	[BaseEntity.Menu.Icon] // RVA: 0xE7580 Offset: 0xE6980 VA: 0x1800E7580
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE7580 Offset: 0xE6980 VA: 0x1800E7580
 	public void Menu_ExcludeOthers(BasePlayer player) { }
 
 	public bool Menu_ExcludeOthers_ShowIf(BasePlayer player) { }

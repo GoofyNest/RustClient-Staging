@@ -15,10 +15,10 @@ public class SurveyCrater : BaseCombatEntity // TypeDefIndex: 8461
 
 	protected override void ClientInit(Entity info) { }
 
-	[BaseEntity.Menu] // RVA: 0x8F500 Offset: 0x8E900 VA: 0x18008F500
-	[BaseEntity.Menu.Description] // RVA: 0x8F500 Offset: 0x8E900 VA: 0x18008F500
-	[BaseEntity.Menu.Icon] // RVA: 0x8F500 Offset: 0x8E900 VA: 0x18008F500
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8F500 Offset: 0x8E900 VA: 0x18008F500
+	[BaseEntity.Menu] // RVA: 0x8F5C0 Offset: 0x8E9C0 VA: 0x18008F5C0
+	[BaseEntity.Menu.Description] // RVA: 0x8F5C0 Offset: 0x8E9C0 VA: 0x18008F5C0
+	[BaseEntity.Menu.Icon] // RVA: 0x8F5C0 Offset: 0x8E9C0 VA: 0x18008F5C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8F5C0 Offset: 0x8E9C0 VA: 0x18008F5C0
 	public void Menu_AnalysisComplete(BasePlayer player) { }
 
 	public void Menu_Analysis_Start() { }

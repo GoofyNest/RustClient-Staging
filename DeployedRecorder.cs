@@ -23,16 +23,16 @@ public class DeployedRecorder : StorageContainer, ICassettePlayer // TypeDefInde
 
 	protected override void ClientInit(Entity info) { }
 
-	[BaseEntity.Menu] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
-	[BaseEntity.Menu.Description] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
-	[BaseEntity.Menu.Icon] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
+	[BaseEntity.Menu] // RVA: 0xD6BC0 Offset: 0xD5FC0 VA: 0x1800D6BC0
+	[BaseEntity.Menu.Description] // RVA: 0xD6BC0 Offset: 0xD5FC0 VA: 0x1800D6BC0
+	[BaseEntity.Menu.Icon] // RVA: 0xD6BC0 Offset: 0xD5FC0 VA: 0x1800D6BC0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6BC0 Offset: 0xD5FC0 VA: 0x1800D6BC0
 	public void Play(BasePlayer forPlayer) { }
 
-	[BaseEntity.Menu] // RVA: 0xD6D10 Offset: 0xD6110 VA: 0x1800D6D10
-	[BaseEntity.Menu.Description] // RVA: 0xD6D10 Offset: 0xD6110 VA: 0x1800D6D10
-	[BaseEntity.Menu.Icon] // RVA: 0xD6D10 Offset: 0xD6110 VA: 0x1800D6D10
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6D10 Offset: 0xD6110 VA: 0x1800D6D10
+	[BaseEntity.Menu] // RVA: 0xD6E40 Offset: 0xD6240 VA: 0x1800D6E40
+	[BaseEntity.Menu.Description] // RVA: 0xD6E40 Offset: 0xD6240 VA: 0x1800D6E40
+	[BaseEntity.Menu.Icon] // RVA: 0xD6E40 Offset: 0xD6240 VA: 0x1800D6E40
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6E40 Offset: 0xD6240 VA: 0x1800D6E40
 	public void Stop(BasePlayer forPlayer) { }
 
 	private bool CanStop(BasePlayer forPlayer) { }
@@ -45,10 +45,10 @@ public class DeployedRecorder : StorageContainer, ICassettePlayer // TypeDefInde
 
 	private void UpdateCassetteMesh() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_OnCassetteInserted(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_OnCassetteRemoved(BaseEntity.RPCMessage msg) { }
 
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }

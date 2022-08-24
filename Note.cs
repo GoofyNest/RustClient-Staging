@@ -34,7 +34,7 @@ internal class <Module> // TypeDefIndex: 7432
 
 public sealed class Note : IComparable<Note> // TypeDefIndex: 7433
 	private static readonly ConcurrentDictionary<SevenBitNumber, Note> Cache; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly SevenBitNumber <NoteNumber>k__BackingField; // 0x10
 
 	public SevenBitNumber NoteNumber { get; }
@@ -44,7 +44,7 @@ public sealed class Note : IComparable<Note> // TypeDefIndex: 7433
 
 	private void .ctor(SevenBitNumber noteNumber) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public SevenBitNumber get_NoteNumber() { }
 
 	public NoteName get_NoteName() { }
@@ -69,9 +69,9 @@ public sealed class Note : IComparable<Note> // TypeDefIndex: 7433
 
 public class Note : ILengthedObject, ITimedObject // TypeDefIndex: 7438
 {	public static readonly SevenBitNumber DefaultVelocity; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly TimedEvent <TimedNoteOnEvent>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly TimedEvent <TimedNoteOffEvent>k__BackingField; // 0x18
 
 	public long Time { get; }
@@ -107,10 +107,10 @@ public class Note : ILengthedObject, ITimedObject // TypeDefIndex: 7438
 
 	public int get_Octave() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal TimedEvent get_TimedNoteOnEvent() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal TimedEvent get_TimedNoteOffEvent() { }
 
 	internal Note get_UnderlyingNote() { }
@@ -121,21 +121,21 @@ public class Note : ILengthedObject, ITimedObject // TypeDefIndex: 7438
 
 }
 
-public class Note : ConsoleSystem // TypeDefIndex: 11949
+public class Note : ConsoleSystem // TypeDefIndex: 11953
 {
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static void craft_add(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static void craft_start(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static void craft_done(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static void craft_fasttracked(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static void inv(ConsoleSystem.Arg args) { }
 
 	public void .ctor() { }

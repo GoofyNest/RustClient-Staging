@@ -76,7 +76,7 @@ public class EffectsBenchmarkScene : BenchmarkScene // TypeDefIndex: 8251
 
 	public override void StartBenchmark() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA10B0 Offset: 0xA04B0 VA: 0x1800A10B0
+	[IteratorStateMachineAttribute] // RVA: 0xA11A0 Offset: 0xA05A0 VA: 0x1800A11A0
 	private IEnumerator DoEffectBenchmark() { }
 
 	public override bool ShouldEnd() { }
@@ -95,21 +95,21 @@ private sealed class EffectsBenchmarkScene.<DoEffectBenchmark>d__6 : IEnumerator
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -214,7 +214,7 @@ public static class Effect.server // TypeDefIndex: 9334
 }
 
 public class EffectAudioPerspectiveSwitcher : MonoBehaviour, IEffect, IPrefabPreProcess // TypeDefIndex: 9335
-{	[HideInInspector] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public EffectParentToWeaponBone parentToWeaponComponent; // 0x18
 
 
@@ -234,7 +234,7 @@ public class EffectAudioPerspectiveSwitcher : MonoBehaviour, IEffect, IPrefabPre
 
 public static class EffectLibrary // TypeDefIndex: 9338
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void SetupEffect(GameObject go, Effect effect) { }
 
 	private static void GenericEffectSpawn(Effect effect) { }
@@ -264,7 +264,7 @@ public class EffectMuzzleFlash : MonoBehaviour, IEffect // TypeDefIndex: 9339
 }
 
 public static class EffectNetwork // TypeDefIndex: 9340
-{	private static Effect effect; // 0x1C00
+{	private static Effect effect; // 0x16A0
 
 
 	public static void OnReceivedEffect(Message msg) { }
@@ -299,7 +299,7 @@ public class EffectScaleWithCameraDistance : MonoBehaviour, IEffect // TypeDefIn
 	public float maxScale; // 0x1C
 	public float scaleStartDistance; // 0x20
 	public float scaleEndDistance; // 0x24
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool on; // 0x0
 
 
@@ -322,7 +322,7 @@ public class EffectBlood : EffectRecycle // TypeDefIndex: 9854
 }
 
 public class EffectDictionary // TypeDefIndex: 9855
-{	private static Dictionary<string, string[]> effectDictionary; // 0x2B10380
+{	private static Dictionary<string, string[]> effectDictionary; // 0x1FA0
 
 
 	public static string GetParticle(string impactType, string materialName) { }
@@ -344,11 +344,11 @@ public class EffectDictionary // TypeDefIndex: 9855
 }
 
 public class EffectRecycle : BaseMonoBehaviour, IClientComponent, IRagdollInhert, IEffectRecycle, IOnParentDestroying // TypeDefIndex: 9856
-{	[FormerlySerializedAsAttribute] // RVA: 0x9F790 Offset: 0x9EB90 VA: 0x18009F790
-	[ReadOnlyAttribute] // RVA: 0x9F790 Offset: 0x9EB90 VA: 0x18009F790
+{	[FormerlySerializedAsAttribute] // RVA: 0x9F870 Offset: 0x9EC70 VA: 0x18009F870
+	[ReadOnlyAttribute] // RVA: 0x9F870 Offset: 0x9EC70 VA: 0x18009F870
 	public float detachTime; // 0x18
-	[FormerlySerializedAsAttribute] // RVA: 0x9F790 Offset: 0x9EB90 VA: 0x18009F790
-	[ReadOnlyAttribute] // RVA: 0x9F790 Offset: 0x9EB90 VA: 0x18009F790
+	[FormerlySerializedAsAttribute] // RVA: 0x9F870 Offset: 0x9EC70 VA: 0x18009F870
+	[ReadOnlyAttribute] // RVA: 0x9F870 Offset: 0x9EC70 VA: 0x18009F870
 	public float recycleTime; // 0x1C
 	public EffectRecycle.PlayMode playMode; // 0x20
 	public EffectRecycle.ParentDestroyBehaviour onParentDestroyed; // 0x24
@@ -429,39 +429,39 @@ public class EffectRecycleLite : BasePrefab, IClientComponent, IEffectRecycle, I
 
 }
 
-public class Effects : ConsoleSystem // TypeDefIndex: 11910
+public class Effects : ConsoleSystem // TypeDefIndex: 11914
 {	private static int _antialiasing; // 0x0
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool ao; // 0x4
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool bloom; // 0x5
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool lensdirt; // 0x6
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool motionblur; // 0x7
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool sharpen; // 0x8
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool shafts; // 0x9
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool vignet; // 0xA
 	public const bool color = True;
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool footsteps; // 0xB
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int maxgibs; // 0xC
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int maxGibDist; // 0x10
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int minGibLife; // 0x14
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int maxGibLife; // 0x18
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool otherplayerslightflares; // 0x1C
-	[ClientVar] // RVA: 0x982E0 Offset: 0x976E0 VA: 0x1800982E0
+	[ClientVar] // RVA: 0x98470 Offset: 0x97870 VA: 0x180098470
 	public static bool showoutlines; // 0x1D
 
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static int antialiasing { get; set; }
 	public static bool requireMotionVectors { get; }
 	public static Effects.AntiAliasingType AntiAliasingMode { get; set; }
@@ -479,7 +479,7 @@ public class Effects : ConsoleSystem // TypeDefIndex: 11910
 
 	public static int ClearAllGibs() { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void ClearAllGibs(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }
@@ -488,7 +488,7 @@ public class Effects : ConsoleSystem // TypeDefIndex: 11910
 
 }
 
-public enum Effects.AntiAliasingType // TypeDefIndex: 11911
+public enum Effects.AntiAliasingType // TypeDefIndex: 11915
 {	public int value__; // 0x0
 	public const Effects.AntiAliasingType None = 0;
 	public const Effects.AntiAliasingType FXAA = 1;

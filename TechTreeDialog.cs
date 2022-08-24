@@ -1,4 +1,4 @@
-public class TechTreeDialog : UIDialog, IInventoryChanged // TypeDefIndex: 10912
+public class TechTreeDialog : UIDialog, IInventoryChanged // TypeDefIndex: 10916
 {	public TechTreeData data; // 0x30
 	public float graphScale; // 0x38
 	public TechTreeEntry entryPrefab; // 0x40
@@ -70,12 +70,12 @@ public class TechTreeDialog : UIDialog, IInventoryChanged // TypeDefIndex: 10912
 
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void <OpenDialog>b__17_0() { }
 
 }
 
-private sealed class TechTreeDialog.<>c__DisplayClass37_0 // TypeDefIndex: 10913
+private sealed class TechTreeDialog.<>c__DisplayClass37_0 // TypeDefIndex: 10917
 {	public TechTreeDialog <>4__this; // 0x10
 	public TechTreeData.NodeInstance node; // 0x18
 

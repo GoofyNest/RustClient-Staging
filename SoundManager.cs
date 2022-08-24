@@ -7,7 +7,7 @@ public class SoundManager : SingletonComponent<SoundManager>, IClientComponent /
 	private int updatableIndex; // 0x40
 	private Stopwatch watch; // 0x48
 	private Vector3 prevCameraPos; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 <smoothedCameraVel>k__BackingField; // 0x5C
 	private float cameraVelSmoothSpeed; // 0x68
 	private List<Sound> otherLocalSounds; // 0x70
@@ -15,10 +15,10 @@ public class SoundManager : SingletonComponent<SoundManager>, IClientComponent /
 	public Vector3 smoothedCameraVel { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Vector3 get_smoothedCameraVel() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_smoothedCameraVel(Vector3 value) { }
 
 	protected override void Awake() { }

@@ -1,4 +1,4 @@
-public class LootPanelOven : LootPanel // TypeDefIndex: 11035
+public class LootPanelOven : LootPanel // TypeDefIndex: 11039
 {	public GameObject controlsOn; // 0x38
 	public GameObject controlsOff; // 0x40
 

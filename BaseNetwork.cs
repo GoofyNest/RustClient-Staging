@@ -61,9 +61,9 @@ public class BaseNetworkable : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 }
 
 public abstract class BaseNetwork // TypeDefIndex: 6679
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private NetRead <read>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private NetWrite <write>k__BackingField; // 0x18
 	public INetworkCryptocraphy cryptography; // 0x20
 
@@ -71,16 +71,16 @@ public abstract class BaseNetwork // TypeDefIndex: 6679
 	public NetWrite write { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public NetRead get_read() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_read(NetRead value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public NetWrite get_write() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_write(NetWrite value) { }
 
 	public void .ctor() { }
@@ -118,20 +118,20 @@ public enum BaseNetwork.StatTypeLong // TypeDefIndex: 6680
 }
 
 public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, IEntity, NetworkHandler // TypeDefIndex: 9475
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <JustCreated>k__BackingField; // 0x18
 	private DeferredAction entityDestroy; // 0x20
 	public List<Component> postNetworkUpdateComponents; // 0x28
 	public EntityRef parentEntity; // 0x30
 	public readonly List<BaseEntity> children; // 0x40
 	public bool canTriggerParent; // 0x48
-	[HeaderAttribute] // RVA: 0x72360 Offset: 0x71760 VA: 0x180072360
-	[ReadOnlyAttribute] // RVA: 0x72360 Offset: 0x71760 VA: 0x180072360
+	[HeaderAttribute] // RVA: 0x72370 Offset: 0x71770 VA: 0x180072370
+	[ReadOnlyAttribute] // RVA: 0x72370 Offset: 0x71770 VA: 0x180072370
 	public uint prefabID; // 0x4C
-	[TooltipAttribute] // RVA: 0x724D0 Offset: 0x718D0 VA: 0x1800724D0
+	[TooltipAttribute] // RVA: 0x72590 Offset: 0x71990 VA: 0x180072590
 	public bool globalBroadcast; // 0x50
 	public Networkable net; // 0x58
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsDestroyed>k__BackingField; // 0x60
 	private string _prefabName; // 0x68
 	private string _prefabNameWithoutExtension; // 0x70
@@ -148,10 +148,10 @@ public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, I
 	public bool isClient { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected bool get_JustCreated() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected void set_JustCreated(bool value) { }
 
 	public void ClientSpawn(Entity info) { }
@@ -196,10 +196,10 @@ public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, I
 
 	public PrefabAttribute.Library get_prefabAttribute() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsDestroyed() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_IsDestroyed(bool value) { }
 
 	public string get_PrefabName() { }
@@ -335,10 +335,10 @@ public enum BaseNetworkable.DestroyMode // TypeDefIndex: 9480
 
 public static class BaseNetworkableEx // TypeDefIndex: 9481
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool IsValid(BaseNetworkable ent) { }
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool IsRealNull(BaseNetworkable ent) { }
 
 }

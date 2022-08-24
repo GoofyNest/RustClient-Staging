@@ -1,62 +1,62 @@
 public class InputField : Selectable, IUpdateSelectedHandler, IEventSystemHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler, ISubmitHandler, ICanvasElement, ILayoutElement // TypeDefIndex: 4946
 {	protected TouchScreenKeyboard m_Keyboard; // 0xE8
 	private static readonly char[] kSeparators; // 0x0
-	[SerializeField] // RVA: 0xECCB0 Offset: 0xEC0B0 VA: 0x1800ECCB0
-	[FormerlySerializedAsAttribute] // RVA: 0xECCB0 Offset: 0xEC0B0 VA: 0x1800ECCB0
+	[SerializeField] // RVA: 0xECDC0 Offset: 0xEC1C0 VA: 0x1800ECDC0
+	[FormerlySerializedAsAttribute] // RVA: 0xECDC0 Offset: 0xEC1C0 VA: 0x1800ECDC0
 	protected Text m_TextComponent; // 0xF0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected Graphic m_Placeholder; // 0xF8
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private InputField.ContentType m_ContentType; // 0x100
-	[FormerlySerializedAsAttribute] // RVA: 0xECF00 Offset: 0xEC300 VA: 0x1800ECF00
-	[SerializeField] // RVA: 0xECF00 Offset: 0xEC300 VA: 0x1800ECF00
+	[FormerlySerializedAsAttribute] // RVA: 0xECFA0 Offset: 0xEC3A0 VA: 0x1800ECFA0
+	[SerializeField] // RVA: 0xECFA0 Offset: 0xEC3A0 VA: 0x1800ECFA0
 	private InputField.InputType m_InputType; // 0x104
-	[FormerlySerializedAsAttribute] // RVA: 0xED190 Offset: 0xEC590 VA: 0x1800ED190
-	[SerializeField] // RVA: 0xED190 Offset: 0xEC590 VA: 0x1800ED190
+	[FormerlySerializedAsAttribute] // RVA: 0xED240 Offset: 0xEC640 VA: 0x1800ED240
+	[SerializeField] // RVA: 0xED240 Offset: 0xEC640 VA: 0x1800ED240
 	private char m_AsteriskChar; // 0x108
-	[FormerlySerializedAsAttribute] // RVA: 0xED350 Offset: 0xEC750 VA: 0x1800ED350
-	[SerializeField] // RVA: 0xED350 Offset: 0xEC750 VA: 0x1800ED350
+	[FormerlySerializedAsAttribute] // RVA: 0xED420 Offset: 0xEC820 VA: 0x1800ED420
+	[SerializeField] // RVA: 0xED420 Offset: 0xEC820 VA: 0x1800ED420
 	private TouchScreenKeyboardType m_KeyboardType; // 0x10C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private InputField.LineType m_LineType; // 0x110
-	[FormerlySerializedAsAttribute] // RVA: 0xED4B0 Offset: 0xEC8B0 VA: 0x1800ED4B0
-	[SerializeField] // RVA: 0xED4B0 Offset: 0xEC8B0 VA: 0x1800ED4B0
+	[FormerlySerializedAsAttribute] // RVA: 0xED580 Offset: 0xEC980 VA: 0x1800ED580
+	[SerializeField] // RVA: 0xED580 Offset: 0xEC980 VA: 0x1800ED580
 	private bool m_HideMobileInput; // 0x114
-	[FormerlySerializedAsAttribute] // RVA: 0xED660 Offset: 0xECA60 VA: 0x1800ED660
-	[SerializeField] // RVA: 0xED660 Offset: 0xECA60 VA: 0x1800ED660
+	[FormerlySerializedAsAttribute] // RVA: 0xED6F0 Offset: 0xECAF0 VA: 0x1800ED6F0
+	[SerializeField] // RVA: 0xED6F0 Offset: 0xECAF0 VA: 0x1800ED6F0
 	private InputField.CharacterValidation m_CharacterValidation; // 0x118
-	[FormerlySerializedAsAttribute] // RVA: 0xED8C0 Offset: 0xECCC0 VA: 0x1800ED8C0
-	[SerializeField] // RVA: 0xED8C0 Offset: 0xECCC0 VA: 0x1800ED8C0
+	[FormerlySerializedAsAttribute] // RVA: 0xED910 Offset: 0xECD10 VA: 0x1800ED910
+	[SerializeField] // RVA: 0xED910 Offset: 0xECD10 VA: 0x1800ED910
 	private int m_CharacterLimit; // 0x11C
-	[FormerlySerializedAsAttribute] // RVA: 0xED950 Offset: 0xECD50 VA: 0x1800ED950
-	[FormerlySerializedAsAttribute] // RVA: 0xED950 Offset: 0xECD50 VA: 0x1800ED950
-	[FormerlySerializedAsAttribute] // RVA: 0xED950 Offset: 0xECD50 VA: 0x1800ED950
-	[SerializeField] // RVA: 0xED950 Offset: 0xECD50 VA: 0x1800ED950
+	[FormerlySerializedAsAttribute] // RVA: 0xEDA20 Offset: 0xECE20 VA: 0x1800EDA20
+	[FormerlySerializedAsAttribute] // RVA: 0xEDA20 Offset: 0xECE20 VA: 0x1800EDA20
+	[FormerlySerializedAsAttribute] // RVA: 0xEDA20 Offset: 0xECE20 VA: 0x1800EDA20
+	[SerializeField] // RVA: 0xEDA20 Offset: 0xECE20 VA: 0x1800EDA20
 	private InputField.SubmitEvent m_OnEndEdit; // 0x120
-	[FormerlySerializedAsAttribute] // RVA: 0xEDC50 Offset: 0xED050 VA: 0x1800EDC50
-	[FormerlySerializedAsAttribute] // RVA: 0xEDC50 Offset: 0xED050 VA: 0x1800EDC50
-	[SerializeField] // RVA: 0xEDC50 Offset: 0xED050 VA: 0x1800EDC50
+	[FormerlySerializedAsAttribute] // RVA: 0xEDD10 Offset: 0xED110 VA: 0x1800EDD10
+	[FormerlySerializedAsAttribute] // RVA: 0xEDD10 Offset: 0xED110 VA: 0x1800EDD10
+	[SerializeField] // RVA: 0xEDD10 Offset: 0xED110 VA: 0x1800EDD10
 	private InputField.OnChangeEvent m_OnValueChanged; // 0x128
-	[FormerlySerializedAsAttribute] // RVA: 0xEDDE0 Offset: 0xED1E0 VA: 0x1800EDDE0
-	[SerializeField] // RVA: 0xEDDE0 Offset: 0xED1E0 VA: 0x1800EDDE0
+	[FormerlySerializedAsAttribute] // RVA: 0xEDE90 Offset: 0xED290 VA: 0x1800EDE90
+	[SerializeField] // RVA: 0xEDE90 Offset: 0xED290 VA: 0x1800EDE90
 	private InputField.OnValidateInput m_OnValidateInput; // 0x130
-	[FormerlySerializedAsAttribute] // RVA: 0xEDE60 Offset: 0xED260 VA: 0x1800EDE60
-	[SerializeField] // RVA: 0xEDE60 Offset: 0xED260 VA: 0x1800EDE60
+	[FormerlySerializedAsAttribute] // RVA: 0xEDF90 Offset: 0xED390 VA: 0x1800EDF90
+	[SerializeField] // RVA: 0xEDF90 Offset: 0xED390 VA: 0x1800EDF90
 	private Color m_CaretColor; // 0x138
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_CustomCaretColor; // 0x148
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Color m_SelectionColor; // 0x14C
-	[SerializeField] // RVA: 0xEE420 Offset: 0xED820 VA: 0x1800EE420
-	[FormerlySerializedAsAttribute] // RVA: 0xEE420 Offset: 0xED820 VA: 0x1800EE420
+	[SerializeField] // RVA: 0xEE490 Offset: 0xED890 VA: 0x1800EE490
+	[FormerlySerializedAsAttribute] // RVA: 0xEE490 Offset: 0xED890 VA: 0x1800EE490
 	protected string m_Text; // 0x160
-	[SerializeField] // RVA: 0xD08E0 Offset: 0xCFCE0 VA: 0x1800D08E0
-	[RangeAttribute] // RVA: 0xD08E0 Offset: 0xCFCE0 VA: 0x1800D08E0
+	[SerializeField] // RVA: 0xD0A10 Offset: 0xCFE10 VA: 0x1800D0A10
+	[RangeAttribute] // RVA: 0xD0A10 Offset: 0xCFE10 VA: 0x1800D0A10
 	private float m_CaretBlinkRate; // 0x168
-	[SerializeField] // RVA: 0xD09B0 Offset: 0xCFDB0 VA: 0x1800D09B0
-	[RangeAttribute] // RVA: 0xD09B0 Offset: 0xCFDB0 VA: 0x1800D09B0
+	[SerializeField] // RVA: 0xD0AE0 Offset: 0xCFEE0 VA: 0x1800D0AE0
+	[RangeAttribute] // RVA: 0xD0AE0 Offset: 0xCFEE0 VA: 0x1800D0AE0
 	private int m_CaretWidth; // 0x16C
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_ReadOnly; // 0x170
 	protected int m_CaretPosition; // 0x174
 	protected int m_CaretSelectPosition; // 0x178
@@ -103,7 +103,7 @@ public class InputField : Selectable, IUpdateSelectedHandler, IEventSystemHandle
 	public bool customCaretColor { get; set; }
 	public Color selectionColor { get; set; }
 	public InputField.SubmitEvent onEndEdit { get; set; }
-	[ObsoleteAttribute] // RVA: 0xEF120 Offset: 0xEE520 VA: 0x1800EF120
+	[ObsoleteAttribute] // RVA: 0xEF140 Offset: 0xEE540 VA: 0x1800EF140
 	public InputField.OnChangeEvent onValueChange { get; set; }
 	public InputField.OnChangeEvent onValueChanged { get; set; }
 	public InputField.OnValidateInput onValidateInput { get; set; }
@@ -270,7 +270,7 @@ public class InputField : Selectable, IUpdateSelectedHandler, IEventSystemHandle
 
 	protected override void OnDisable() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xEE970 Offset: 0xEDD70 VA: 0x1800EE970
+	[IteratorStateMachineAttribute] // RVA: 0xEEA20 Offset: 0xEDE20 VA: 0x1800EEA20
 	private IEnumerator CaretBlink() { }
 
 	private void SetCaretVisible() { }
@@ -297,7 +297,7 @@ public class InputField : Selectable, IUpdateSelectedHandler, IEventSystemHandle
 
 	protected virtual void LateUpdate() { }
 
-	[ObsoleteAttribute] // RVA: 0xEEB70 Offset: 0xEDF70 VA: 0x1800EEB70
+	[ObsoleteAttribute] // RVA: 0xEEC30 Offset: 0xEE030 VA: 0x1800EEC30
 	public Vector2 ScreenToLocal(Vector2 screen) { }
 
 	private int GetUnclampedCharacterLineFromPosition(Vector2 pos, TextGenerator generator) { }
@@ -310,7 +310,7 @@ public class InputField : Selectable, IUpdateSelectedHandler, IEventSystemHandle
 
 	public virtual void OnDrag(PointerEventData eventData) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xEEC90 Offset: 0xEE090 VA: 0x1800EEC90
+	[IteratorStateMachineAttribute] // RVA: 0xEED50 Offset: 0xEE150 VA: 0x1800EED50
 	private IEnumerator MouseDragOutsideRect(PointerEventData eventData) { }
 
 	public virtual void OnEndDrag(PointerEventData eventData) { }
@@ -526,21 +526,21 @@ private sealed class InputField.<CaretBlink>d__159 : IEnumerator<object>, IEnume
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -555,21 +555,21 @@ private sealed class InputField.<MouseDragOutsideRect>d__179 : IEnumerator<objec
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

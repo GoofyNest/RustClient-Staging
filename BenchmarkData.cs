@@ -24,7 +24,7 @@ public class BenchmarkData // TypeDefIndex: 6178
 
 	public void WriteTimersToResults() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9F940 Offset: 0x9ED40 VA: 0x18009F940
+	[AsyncStateMachineAttribute] // RVA: 0x9FA70 Offset: 0x9EE70 VA: 0x18009FA70
 	public Task<string> Upload() { }
 
 	public string WriteJSON() { }
@@ -52,7 +52,7 @@ private struct BenchmarkData.<Upload>d__13 : IAsyncStateMachine // TypeDefIndex:
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

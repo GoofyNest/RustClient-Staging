@@ -1,5 +1,5 @@
 public class TreeLOD : LODComponent, IComparable<TreeLOD> // TypeDefIndex: 9956
-{	[HorizontalAttribute] // RVA: 0xAA3F0 Offset: 0xA97F0 VA: 0x1800AA3F0
+{	[HorizontalAttribute] // RVA: 0xAA500 Offset: 0xA9900 VA: 0x1800AA500
 	public TreeLOD.State[] States; // 0x80
 	private int requestedlod; // 0x88
 	private int curlod; // 0x8C
@@ -61,7 +61,7 @@ public class TreeLOD.State // TypeDefIndex: 9957
 }
 
 private sealed class TreeLOD.<>c // TypeDefIndex: 9958
-{	public static readonly TreeLOD.<>c <>9; // 0x2B30
+{	public static readonly TreeLOD.<>c <>9; // 0x2007
 
 
 	private static void .cctor() { }

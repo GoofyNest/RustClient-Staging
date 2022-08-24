@@ -1,5 +1,5 @@
 public class RidableHorse : BaseRidableAnimal // TypeDefIndex: 8635
-{	[ServerVar] // RVA: 0xB4310 Offset: 0xB3710 VA: 0x1800B4310
+{	[ServerVar] // RVA: 0xB4350 Offset: 0xB3750 VA: 0x1800B4350
 	public static float Population; // 0x0
 	public string distanceStatName; // 0x6E8
 	public HorseBreed[] breeds; // 0x6F0
@@ -37,7 +37,7 @@ public class RidableHorse : BaseRidableAnimal // TypeDefIndex: 8635
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void GetDistanceTravelled(BaseEntity.RPCMessage msg) { }
 
 	protected override bool CanPushNow(BasePlayer pusher) { }

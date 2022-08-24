@@ -1,4 +1,4 @@
-public enum NotificationChannel // TypeDefIndex: 11647
+public enum NotificationChannel // TypeDefIndex: 11651
 {	public int value__; // 0x0
 	public const NotificationChannel Pairing = 1001;
 	public const NotificationChannel PlayerLoggedIn = 1002;

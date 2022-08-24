@@ -3,10 +3,10 @@ public sealed class Cubemap : Texture // TypeDefIndex: 3446
 	public override bool isReadable { get; }
 
 
-	[NativeNameAttribute] // RVA: 0x9E890 Offset: 0x9DC90 VA: 0x18009E890
+	[NativeNameAttribute] // RVA: 0x9E9C0 Offset: 0x9DDC0 VA: 0x18009E9C0
 	public TextureFormat get_format() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9FB40 Offset: 0x9EF40 VA: 0x18009FB40
+	[FreeFunctionAttribute] // RVA: 0x9FC60 Offset: 0x9F060 VA: 0x18009FC60
 	private static bool Internal_CreateImpl(Cubemap mono, int ext, int mipCount, GraphicsFormat format, TextureCreationFlags flags, IntPtr nativeTex) { }
 
 	private static void Internal_Create(Cubemap mono, int ext, int mipCount, GraphicsFormat format, TextureCreationFlags flags, IntPtr nativeTex) { }
@@ -15,7 +15,7 @@ public sealed class Cubemap : Texture // TypeDefIndex: 3446
 
 	public void .ctor(int width, DefaultFormat format, TextureCreationFlags flags) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int width, GraphicsFormat format, TextureCreationFlags flags) { }
 
 	public void .ctor(int width, TextureFormat format, int mipCount) { }

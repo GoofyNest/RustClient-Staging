@@ -1,4 +1,4 @@
-public class PowerLineWireConnection // TypeDefIndex: 10370
+public class PowerLineWireConnection // TypeDefIndex: 10374
 {	public Vector3 inOffset; // 0x10
 	public Vector3 outOffset; // 0x1C
 	public float radius; // 0x28

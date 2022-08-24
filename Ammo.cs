@@ -16,23 +16,23 @@ public enum AmmoTypes // TypeDefIndex: 6619
 }
 
 public class AmmoBelowAIEvent : BaseAIEvent // TypeDefIndex: 9389
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <Value>k__BackingField; // 0x40
 
 	public float Value { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_Value() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Value(float value) { }
 
 	public void .ctor() { }
 
 }
 
-public class AmmoBelowEventUI : BaseEventUI // TypeDefIndex: 10785
+public class AmmoBelowEventUI : BaseEventUI // TypeDefIndex: 10789
 {
 	public override AIEventData Save() { }
 
@@ -42,7 +42,7 @@ public class AmmoBelowEventUI : BaseEventUI // TypeDefIndex: 10785
 
 }
 
-public class AmmoInformationPanel : ItemInformationPanel // TypeDefIndex: 10980
+public class AmmoInformationPanel : ItemInformationPanel // TypeDefIndex: 10984
 {	public ItemStatValue damageDisplay; // 0x18
 	public ItemStatValue velocityDisplay; // 0x20
 	public ItemStatValue spreadDisplay; // 0x28

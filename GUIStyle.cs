@@ -16,29 +16,29 @@ public sealed class GUIStyle // TypeDefIndex: 4048
 	internal static bool showKeyboardFocus; // 0x0
 	private static GUIStyle s_None; // 0x8
 
-	[NativePropertyAttribute] // RVA: 0xD5C50 Offset: 0xD5050 VA: 0x1800D5C50
+	[NativePropertyAttribute] // RVA: 0xD5D80 Offset: 0xD5180 VA: 0x1800D5D80
 	internal string rawName { get; set; }
-	[NativePropertyAttribute] // RVA: 0xD5C90 Offset: 0xD5090 VA: 0x1800D5C90
+	[NativePropertyAttribute] // RVA: 0xD5DC0 Offset: 0xD51C0 VA: 0x1800D5DC0
 	public Font font { get; }
-	[NativePropertyAttribute] // RVA: 0xD5CD0 Offset: 0xD50D0 VA: 0x1800D5CD0
-	public ImagePosition imagePosition { get; }
 	[NativePropertyAttribute] // RVA: 0xD5E00 Offset: 0xD5200 VA: 0x1800D5E00
+	public ImagePosition imagePosition { get; }
+	[NativePropertyAttribute] // RVA: 0xD5F30 Offset: 0xD5330 VA: 0x1800D5F30
 	public TextAnchor alignment { set; }
-	[NativePropertyAttribute] // RVA: 0xD5F20 Offset: 0xD5320 VA: 0x1800D5F20
+	[NativePropertyAttribute] // RVA: 0xD6050 Offset: 0xD5450 VA: 0x1800D6050
 	public bool wordWrap { get; }
-	[NativePropertyAttribute] // RVA: 0xD5FB0 Offset: 0xD53B0 VA: 0x1800D5FB0
+	[NativePropertyAttribute] // RVA: 0xD6090 Offset: 0xD5490 VA: 0x1800D6090
 	public Vector2 contentOffset { get; set; }
-	[NativePropertyAttribute] // RVA: 0xD5FF0 Offset: 0xD53F0 VA: 0x1800D5FF0
+	[NativePropertyAttribute] // RVA: 0xD60D0 Offset: 0xD54D0 VA: 0x1800D60D0
 	public float fixedWidth { get; }
-	[NativePropertyAttribute] // RVA: 0xD60C0 Offset: 0xD54C0 VA: 0x1800D60C0
+	[NativePropertyAttribute] // RVA: 0xD61F0 Offset: 0xD55F0 VA: 0x1800D61F0
 	public float fixedHeight { get; }
-	[NativePropertyAttribute] // RVA: 0xD6220 Offset: 0xD5620 VA: 0x1800D6220
+	[NativePropertyAttribute] // RVA: 0xD6350 Offset: 0xD5750 VA: 0x1800D6350
 	public bool stretchWidth { get; set; }
-	[NativePropertyAttribute] // RVA: 0xD6330 Offset: 0xD5730 VA: 0x1800D6330
+	[NativePropertyAttribute] // RVA: 0xD6460 Offset: 0xD5860 VA: 0x1800D6460
 	public bool stretchHeight { get; set; }
-	[NativePropertyAttribute] // RVA: 0xD6370 Offset: 0xD5770 VA: 0x1800D6370
+	[NativePropertyAttribute] // RVA: 0xD64A0 Offset: 0xD58A0 VA: 0x1800D64A0
 	public int fontSize { set; }
-	[NativePropertyAttribute] // RVA: 0xD6400 Offset: 0xD5800 VA: 0x1800D6400
+	[NativePropertyAttribute] // RVA: 0xD6530 Offset: 0xD5930 VA: 0x1800D6530
 	internal Vector2 Internal_clipOffset { set; }
 	public string name { get; set; }
 	public GUIStyleState normal { get; }
@@ -81,64 +81,64 @@ public sealed class GUIStyle // TypeDefIndex: 4048
 
 	internal void set_Internal_clipOffset(Vector2 value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD2250 Offset: 0xD1650 VA: 0x1800D2250
+	[FreeFunctionAttribute] // RVA: 0xD2380 Offset: 0xD1780 VA: 0x1800D2380
 	private static IntPtr Internal_Create(GUIStyle self) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD2370 Offset: 0xD1770 VA: 0x1800D2370
+	[FreeFunctionAttribute] // RVA: 0xD24A0 Offset: 0xD18A0 VA: 0x1800D24A0
 	private static IntPtr Internal_Copy(GUIStyle self, GUIStyle other) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD2430 Offset: 0xD1830 VA: 0x1800D2430
+	[FreeFunctionAttribute] // RVA: 0xD2560 Offset: 0xD1960 VA: 0x1800D2560
 	private static void Internal_Destroy(IntPtr self) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD25F0 Offset: 0xD19F0 VA: 0x1800D25F0
+	[FreeFunctionAttribute] // RVA: 0xD2720 Offset: 0xD1B20 VA: 0x1800D2720
 	private IntPtr GetStyleStatePtr(int idx) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD26E0 Offset: 0xD1AE0 VA: 0x1800D26E0
+	[FreeFunctionAttribute] // RVA: 0xD2810 Offset: 0xD1C10 VA: 0x1800D2810
 	private IntPtr GetRectOffsetPtr(int idx) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD27D0 Offset: 0xD1BD0 VA: 0x1800D27D0
+	[FreeFunctionAttribute] // RVA: 0xD2900 Offset: 0xD1D00 VA: 0x1800D2900
 	private static float Internal_GetLineHeight(IntPtr target) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD29D0 Offset: 0xD1DD0 VA: 0x1800D29D0
+	[FreeFunctionAttribute] // RVA: 0xD2B00 Offset: 0xD1F00 VA: 0x1800D2B00
 	private void Internal_Draw(Rect screenRect, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD3DC0 Offset: 0xD31C0 VA: 0x1800D3DC0
+	[FreeFunctionAttribute] // RVA: 0xD3EF0 Offset: 0xD32F0 VA: 0x1800D3EF0
 	private void Internal_Draw2(Rect position, GUIContent content, int controlID, bool on) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD3E90 Offset: 0xD3290 VA: 0x1800D3E90
+	[FreeFunctionAttribute] // RVA: 0xD3FC0 Offset: 0xD33C0 VA: 0x1800D3FC0
 	private void Internal_DrawCursor(Rect position, GUIContent content, int pos, Color cursorColor) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD3FB0 Offset: 0xD33B0 VA: 0x1800D3FB0
+	[FreeFunctionAttribute] // RVA: 0xD40E0 Offset: 0xD34E0 VA: 0x1800D40E0
 	private void Internal_DrawWithTextSelection(Rect screenRect, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus, bool drawSelectionAsComposition, int cursorFirst, int cursorLast, Color cursorColor, Color selectionColor) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD53F0 Offset: 0xD47F0 VA: 0x1800D53F0
+	[FreeFunctionAttribute] // RVA: 0xD5520 Offset: 0xD4920 VA: 0x1800D5520
 	internal Vector2 Internal_GetCursorPixelPosition(Rect position, GUIContent content, int cursorStringIndex) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD5510 Offset: 0xD4910 VA: 0x1800D5510
+	[FreeFunctionAttribute] // RVA: 0xD5640 Offset: 0xD4A40 VA: 0x1800D5640
 	internal int Internal_GetCursorStringIndex(Rect position, GUIContent content, Vector2 cursorPixelPosition) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD55A0 Offset: 0xD49A0 VA: 0x1800D55A0
+	[FreeFunctionAttribute] // RVA: 0xD56D0 Offset: 0xD4AD0 VA: 0x1800D56D0
 	internal string Internal_GetSelectedRenderedText(Rect localPosition, GUIContent mContent, int selectIndex, int cursorIndex) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD5620 Offset: 0xD4A20 VA: 0x1800D5620
+	[FreeFunctionAttribute] // RVA: 0xD5750 Offset: 0xD4B50 VA: 0x1800D5750
 	internal Vector2 Internal_CalcSize(GUIContent content) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD5790 Offset: 0xD4B90 VA: 0x1800D5790
+	[FreeFunctionAttribute] // RVA: 0xD58C0 Offset: 0xD4CC0 VA: 0x1800D58C0
 	internal Vector2 Internal_CalcSizeWithConstraints(GUIContent content, Vector2 maxSize) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD5820 Offset: 0xD4C20 VA: 0x1800D5820
+	[FreeFunctionAttribute] // RVA: 0xD5950 Offset: 0xD4D50 VA: 0x1800D5950
 	private float Internal_CalcHeight(GUIContent content, float width) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD5860 Offset: 0xD4C60 VA: 0x1800D5860
+	[FreeFunctionAttribute] // RVA: 0xD5990 Offset: 0xD4D90 VA: 0x1800D5990
 	private Vector2 Internal_CalcMinMaxWidth(GUIContent content) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD5A00 Offset: 0xD4E00 VA: 0x1800D5A00
+	[FreeFunctionAttribute] // RVA: 0xD5B40 Offset: 0xD4F40 VA: 0x1800D5B40
 	internal static void SetMouseTooltip(string tooltip, Rect screenRect) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD5AD0 Offset: 0xD4ED0 VA: 0x1800D5AD0
+	[FreeFunctionAttribute] // RVA: 0xD5C00 Offset: 0xD5000 VA: 0x1800D5C00
 	private static float Internal_GetCursorFlashOffset() { }
 
-	[FreeFunctionAttribute] // RVA: 0xD5BD0 Offset: 0xD4FD0 VA: 0x1800D5BD0
+	[FreeFunctionAttribute] // RVA: 0xD5D00 Offset: 0xD5100 VA: 0x1800D5D00
 	internal static void SetDefaultFont(Font font) { }
 
 	public void .ctor() { }

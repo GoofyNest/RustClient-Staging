@@ -1,7 +1,7 @@
-public class LoadingScreen : SingletonComponent<LoadingScreen> // TypeDefIndex: 11118
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class LoadingScreen : SingletonComponent<LoadingScreen> // TypeDefIndex: 11122
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static bool <WantsSkip>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static string <Text>k__BackingField; // 0x8
 	public CanvasRenderer panel; // 0x18
 	public TextMeshProUGUI title; // 0x20
@@ -22,11 +22,11 @@ public class LoadingScreen : SingletonComponent<LoadingScreen> // TypeDefIndex: 
 	public Texture2D defaultBackground; // 0x98
 	public GameObject pingWarning; // 0xA0
 	public RustText pingWarningText; // 0xA8
-	[TooltipAttribute] // RVA: 0x978C0 Offset: 0x96CC0 VA: 0x1800978C0
+	[TooltipAttribute] // RVA: 0x97AF0 Offset: 0x96EF0 VA: 0x180097AF0
 	public int minPingDiffToShowWarning; // 0xB0
-	[TooltipAttribute] // RVA: 0x97940 Offset: 0x96D40 VA: 0x180097940
+	[TooltipAttribute] // RVA: 0x97D70 Offset: 0x97170 VA: 0x180097D70
 	public float pingDiffFactorToShowWarning; // 0xB4
-	[TooltipAttribute] // RVA: 0x97C00 Offset: 0x97000 VA: 0x180097C00
+	[TooltipAttribute] // RVA: 0x97E00 Offset: 0x97200 VA: 0x180097E00
 	public int requiredPingSampleCount; // 0xB8
 	private string _backgroundImagePath; // 0xC0
 	private Texture2D _backgroundImage; // 0xC8
@@ -41,16 +41,16 @@ public class LoadingScreen : SingletonComponent<LoadingScreen> // TypeDefIndex: 
 
 	public static bool get_isOpen() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool get_WantsSkip() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void set_WantsSkip(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void set_Text(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static string get_Text() { }
 
 	protected override void Awake() { }
@@ -95,13 +95,13 @@ public class LoadingScreen : SingletonComponent<LoadingScreen> // TypeDefIndex: 
 
 	public void .ctor() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x98130 Offset: 0x97530 VA: 0x180098130
-	[CompilerGeneratedAttribute] // RVA: 0x98130 Offset: 0x97530 VA: 0x180098130
+	[AsyncStateMachineAttribute] // RVA: 0x98400 Offset: 0x97800 VA: 0x180098400
+	[CompilerGeneratedAttribute] // RVA: 0x98400 Offset: 0x97800 VA: 0x180098400
 	private void <ChooseBackgroundImage>g__PreloadBackgroundImage|56_0(string url) { }
 
 }
 
-private struct LoadingScreen.<<ChooseBackgroundImage>g__PreloadBackgroundImage|56_0>d : IAsyncStateMachine // TypeDefIndex: 11119
+private struct LoadingScreen.<<ChooseBackgroundImage>g__PreloadBackgroundImage|56_0>d : IAsyncStateMachine // TypeDefIndex: 11123
 {	public int <>1__state; // 0x0
 	public AsyncVoidMethodBuilder <>t__builder; // 0x8
 	public string url; // 0x28
@@ -111,7 +111,7 @@ private struct LoadingScreen.<<ChooseBackgroundImage>g__PreloadBackgroundImage|5
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

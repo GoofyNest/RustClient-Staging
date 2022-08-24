@@ -1,4 +1,4 @@
-public struct OccludeeSphere // TypeDefIndex: 11508
+public struct OccludeeSphere // TypeDefIndex: 11512
 {	public int id; // 0x0
 	public OccludeeState state; // 0x8
 	public OcclusionCulling.Sphere sphere; // 0x10

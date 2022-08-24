@@ -13,7 +13,7 @@ public class Flashbang : TimedExplosive // TypeDefIndex: 8570
 
 	public void FlashFrom(Vector3 pos, float amount) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_DoFlash(BaseEntity.RPCMessage msg) { }
 
 	public void .ctor() { }

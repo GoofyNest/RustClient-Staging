@@ -61,10 +61,10 @@ public sealed class StringBuilder : ISerializable // TypeDefIndex: 463
 
 	public StringBuilder Append(string value, int startIndex, int count) { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public StringBuilder AppendLine() { }
 
-	[ComVisibleAttribute] // RVA: 0x75CF0 Offset: 0x750F0 VA: 0x180075CF0
+	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
 	public StringBuilder AppendLine(string value) { }
 
 	public StringBuilder Insert(int index, string value, int count) { }
@@ -81,7 +81,7 @@ public sealed class StringBuilder : ISerializable // TypeDefIndex: 463
 
 	public StringBuilder Append(float value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public StringBuilder Append(uint value) { }
 
 	public StringBuilder Append(object value) { }
@@ -112,7 +112,7 @@ public sealed class StringBuilder : ISerializable // TypeDefIndex: 463
 
 	public StringBuilder Replace(string oldValue, string newValue, int startIndex, int count) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public StringBuilder Append(char* value, int valueCount) { }
 
 	private void Insert(int index, char* value, int valueCount) { }

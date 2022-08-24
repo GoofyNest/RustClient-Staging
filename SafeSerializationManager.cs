@@ -3,7 +3,7 @@ internal sealed class SafeSerializationManager : IObjectReference, ISerializable
 	private SerializationInfo m_savedSerializationInfo; // 0x18
 	private object m_realObject; // 0x20
 	private RuntimeType m_realType; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private EventHandler<SafeSerializationEventArgs> SerializeObjectState; // 0x30
 	private const string RealTypeSerializationName = "CLR_SafeSerializationManager_RealType";
 
@@ -24,7 +24,7 @@ internal sealed class SafeSerializationManager : IObjectReference, ISerializable
 
 	private object System.Runtime.Serialization.IObjectReference.GetRealObject(StreamingContext context) { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[OnDeserializedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void OnDeserialized(StreamingContext context) { }
 
 }

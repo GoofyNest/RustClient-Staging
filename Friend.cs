@@ -23,7 +23,7 @@ public struct Friend // TypeDefIndex: 5236
 
 	public bool get_IsOnline() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x976C0 Offset: 0x96AC0 VA: 0x1800976C0
+	[AsyncStateMachineAttribute] // RVA: 0x977F0 Offset: 0x96BF0 VA: 0x1800977F0
 	public Task RequestInfoAsync() { }
 
 	public Relationship get_Relationship() { }
@@ -61,7 +61,7 @@ private struct Friend.<RequestInfoAsync>d__13 : IAsyncStateMachine // TypeDefInd
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

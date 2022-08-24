@@ -6,9 +6,9 @@ public enum CultureTypes // TypeDefIndex: 692
 	public const CultureTypes AllCultures = 7;
 	public const CultureTypes UserCustomCulture = 8;
 	public const CultureTypes ReplacementCultures = 16;
-	[ObsoleteAttribute] // RVA: 0xA9EE0 Offset: 0xA92E0 VA: 0x1800A9EE0
+	[ObsoleteAttribute] // RVA: 0xA9FF0 Offset: 0xA93F0 VA: 0x1800A9FF0
 	public const CultureTypes WindowsOnlyCultures = 32;
-	[ObsoleteAttribute] // RVA: 0xA9EE0 Offset: 0xA92E0 VA: 0x1800A9EE0
+	[ObsoleteAttribute] // RVA: 0xA9FF0 Offset: 0xA93F0 VA: 0x1800A9FF0
 	public const CultureTypes FrameworkCultures = 64;
 
 }

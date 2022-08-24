@@ -69,7 +69,7 @@ public class ERRoadNetwork // TypeDefIndex: 7273
 
 	public ERConnection[] LoadConnections() { }
 
-	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
+	[ObsoleteAttribute] // RVA: 0x89600 Offset: 0x88A00 VA: 0x180089600
 	public ERConnection GetSourceConnectionByName(string name) { }
 
 	public ERConnection GetConnectionPrefabByName(string name) { }

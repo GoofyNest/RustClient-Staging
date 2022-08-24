@@ -22,15 +22,15 @@ public struct SByte : IComparable, IFormattable, IConvertible, IComparable<sbyte
 
 	private string ToString(string format, NumberFormatInfo info) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static sbyte Parse(string s, IFormatProvider provider) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static sbyte Parse(string s, NumberStyles style, IFormatProvider provider) { }
 
 	private static sbyte Parse(string s, NumberStyles style, NumberFormatInfo info) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static bool TryParse(string s, NumberStyles style, IFormatProvider provider, out sbyte result) { }
 
 	private static bool TryParse(string s, NumberStyles style, NumberFormatInfo info, out sbyte result) { }

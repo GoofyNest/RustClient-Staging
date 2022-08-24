@@ -1,4 +1,4 @@
-public class ReflectionProbeEx : MonoBehaviour // TypeDefIndex: 10690
+public class ReflectionProbeEx : MonoBehaviour // TypeDefIndex: 10694
 {	private static readonly uint[,] qualitySamples; // 0x0
 	private static Vector4[] sampleData; // 0x8
 	private Mesh blitMesh; // 0x18
@@ -31,7 +31,7 @@ public class ReflectionProbeEx : MonoBehaviour // TypeDefIndex: 10690
 	public ReflectionProbeRefreshMode refreshMode; // 0xA8
 	public bool timeSlicing; // 0xAC
 	public int resolution; // 0xB0
-	[InspectorNameAttribute] // RVA: 0x71950 Offset: 0x70D50 VA: 0x180071950
+	[InspectorNameAttribute] // RVA: 0x71B80 Offset: 0x70F80 VA: 0x180071B80
 	public bool hdr; // 0xB4
 	public float shadowDistance; // 0xB8
 	public ReflectionProbeClearFlags clearFlags; // 0xBC
@@ -200,7 +200,7 @@ public class ReflectionProbeEx : MonoBehaviour // TypeDefIndex: 10690
 
 }
 
-private struct ReflectionProbeEx.CubemapSkyboxVertex // TypeDefIndex: 10691
+private struct ReflectionProbeEx.CubemapSkyboxVertex // TypeDefIndex: 10695
 {	public float x; // 0x0
 	public float y; // 0x4
 	public float z; // 0x8
@@ -211,7 +211,7 @@ private struct ReflectionProbeEx.CubemapSkyboxVertex // TypeDefIndex: 10691
 
 }
 
-private struct ReflectionProbeEx.CubemapFaceMatrices // TypeDefIndex: 10692
+private struct ReflectionProbeEx.CubemapFaceMatrices // TypeDefIndex: 10696
 {	public Matrix4x4 worldToView; // 0x0
 	public Matrix4x4 viewToWorld; // 0x40
 
@@ -220,7 +220,7 @@ private struct ReflectionProbeEx.CubemapFaceMatrices // TypeDefIndex: 10692
 
 }
 
-public enum ReflectionProbeEx.ConvolutionQuality // TypeDefIndex: 10693
+public enum ReflectionProbeEx.ConvolutionQuality // TypeDefIndex: 10697
 {	public int value__; // 0x0
 	public const ReflectionProbeEx.ConvolutionQuality Lowest = 0;
 	public const ReflectionProbeEx.ConvolutionQuality Low = 1;
@@ -230,7 +230,7 @@ public enum ReflectionProbeEx.ConvolutionQuality // TypeDefIndex: 10693
 
 }
 
-public struct ReflectionProbeEx.RenderListEntry // TypeDefIndex: 10694
+public struct ReflectionProbeEx.RenderListEntry // TypeDefIndex: 10698
 {	public Renderer renderer; // 0x0
 	public bool alwaysEnabled; // 0x8
 
@@ -239,7 +239,7 @@ public struct ReflectionProbeEx.RenderListEntry // TypeDefIndex: 10694
 
 }
 
-private enum ReflectionProbeEx.TimeSlicingState // TypeDefIndex: 10695
+private enum ReflectionProbeEx.TimeSlicingState // TypeDefIndex: 10699
 {	public int value__; // 0x0
 	public const ReflectionProbeEx.TimeSlicingState Shadow = 0;
 	public const ReflectionProbeEx.TimeSlicingState Render = 1;

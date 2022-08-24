@@ -1,5 +1,5 @@
 public class TargetTrigger : TriggerBase // TypeDefIndex: 9578
-{	[TooltipAttribute] // RVA: 0x78050 Offset: 0x77450 VA: 0x180078050
+{	[TooltipAttribute] // RVA: 0x78090 Offset: 0x77490 VA: 0x180078090
 	public Transform losEyes; // 0x30
 
 

@@ -175,27 +175,27 @@ public class BigInteger // TypeDefIndex: 1763
 	private static RandomNumberGenerator Rng { get; }
 
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(BigInteger.Sign sign, uint len) { }
 
 	public void .ctor(BigInteger bi) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(BigInteger bi, uint len) { }
 
 	public void .ctor(byte[] inData) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(uint ui) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static BigInteger op_Implicit(uint value) { }
 
 	public static BigInteger op_Implicit(int value) { }
 
 	public static BigInteger op_Subtraction(BigInteger bi1, BigInteger bi2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static uint op_Modulus(BigInteger bi, uint ui) { }
 
 	public static BigInteger op_Modulus(BigInteger bi1, BigInteger bi2) { }
@@ -218,20 +218,20 @@ public class BigInteger // TypeDefIndex: 1763
 
 	public bool TestBit(int bitNum) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void SetBit(uint bitNum) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void SetBit(uint bitNum, bool value) { }
 
 	public int LowestSetBit() { }
 
 	public byte[] GetBytes() { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static bool op_Equality(BigInteger bi1, uint ui) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static bool op_Inequality(BigInteger bi1, uint ui) { }
 
 	public static bool op_Equality(BigInteger bi1, BigInteger bi2) { }
@@ -246,10 +246,10 @@ public class BigInteger // TypeDefIndex: 1763
 
 	public static bool op_LessThanOrEqual(BigInteger bi1, BigInteger bi2) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public string ToString(uint radix) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public string ToString(uint radix, string characterSet) { }
 
 	private void Normalize() { }
@@ -293,7 +293,7 @@ public sealed class BigInteger.ModulusRing // TypeDefIndex: 1765
 
 	public BigInteger Pow(BigInteger a, BigInteger k) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public BigInteger Pow(uint b, BigInteger exp) { }
 
 }
@@ -345,15 +345,15 @@ public struct BigInteger : IFormattable, IComparable, IComparable<BigInteger>, I
 
 	public void .ctor(int value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(uint value) { }
 
 	public void .ctor(long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(ulong value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public void .ctor(byte[] value) { }
 
 	public void .ctor(ReadOnlySpan<byte> value) { }
@@ -400,42 +400,42 @@ public struct BigInteger : IFormattable, IComparable, IComparable<BigInteger>, I
 
 	public static BigInteger op_Implicit(byte value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static BigInteger op_Implicit(sbyte value) { }
 
 	public static BigInteger op_Implicit(short value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static BigInteger op_Implicit(ushort value) { }
 
 	public static BigInteger op_Implicit(int value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static BigInteger op_Implicit(uint value) { }
 
 	public static BigInteger op_Implicit(long value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static BigInteger op_Implicit(ulong value) { }
 
 	public static byte op_Explicit(BigInteger value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static sbyte op_Explicit(BigInteger value) { }
 
 	public static short op_Explicit(BigInteger value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static ushort op_Explicit(BigInteger value) { }
 
 	public static int op_Explicit(BigInteger value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static uint op_Explicit(BigInteger value) { }
 
 	public static long op_Explicit(BigInteger value) { }
 
-	[CLSCompliantAttribute] // RVA: 0x6F430 Offset: 0x6E830 VA: 0x18006F430
+	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public static ulong op_Explicit(BigInteger value) { }
 
 	public static float op_Explicit(BigInteger value) { }

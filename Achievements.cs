@@ -1,4 +1,4 @@
-public class Achievements : SingletonComponent<Achievements> // TypeDefIndex: 10823
+public class Achievements : SingletonComponent<Achievements> // TypeDefIndex: 10827
 {	public SoundDefinition listComplete; // 0x18
 	public SoundDefinition itemComplete; // 0x20
 	public SoundDefinition popup; // 0x28
@@ -18,7 +18,7 @@ public class Achievements : SingletonComponent<Achievements> // TypeDefIndex: 10
 
 	public void Reset() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x7D250 Offset: 0x7C650 VA: 0x18007D250
+	[IteratorStateMachineAttribute] // RVA: 0x7D650 Offset: 0x7CA50 VA: 0x18007D650
 	private IEnumerator Think() { }
 
 	public bool ShouldShow() { }
@@ -41,7 +41,7 @@ public class Achievements : SingletonComponent<Achievements> // TypeDefIndex: 10
 
 }
 
-private sealed class Achievements.<Think>d__12 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10824
+private sealed class Achievements.<Think>d__12 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10828
 {	private int <>1__state; // 0x10
 	private object <>2__current; // 0x18
 	public Achievements <>4__this; // 0x20
@@ -50,21 +50,21 @@ private sealed class Achievements.<Think>d__12 : IEnumerator<object>, IEnumerato
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }

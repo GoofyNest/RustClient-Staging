@@ -8,16 +8,16 @@ public class Timeline : RustControl, IPointerDownHandler, IEventSystemHandler, I
 	public UnityEvent OnEndScrub; // 0x58
 	public Timeline.ScrubEvent OnScrubToTime; // 0x60
 	public List<TimelineMarker> Markers; // 0x68
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TimelineMarker <SelectedMarker>k__BackingField; // 0x70
 
 	public TimelineMarker SelectedMarker { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public TimelineMarker get_SelectedMarker() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_SelectedMarker(TimelineMarker value) { }
 
 	internal void SelectMarker(TimelineMarker marker) { }

@@ -1,4 +1,4 @@
-public class ShowIfConvarEnabled : MonoBehaviour // TypeDefIndex: 11280
+public class ShowIfConvarEnabled : MonoBehaviour // TypeDefIndex: 11284
 {	public string Convar; // 0x18
 	private bool _initialized; // 0x20
 	private ConsoleSystem.Command _cmd; // 0x28

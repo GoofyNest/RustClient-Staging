@@ -18,10 +18,10 @@ public sealed class SystemInfo // TypeDefIndex: 3556
 	public static string graphicsDeviceVersion { get; }
 	public static int graphicsShaderLevel { get; }
 	public static bool graphicsMultiThreaded { get; }
-	[ObsoleteAttribute] // RVA: 0xCD510 Offset: 0xCC910 VA: 0x1800CD510
+	[ObsoleteAttribute] // RVA: 0xCD5F0 Offset: 0xCC9F0 VA: 0x1800CD5F0
 	public static bool supportsRenderTextures { get; }
 	public static bool supportsMotionVectors { get; }
-	[ObsoleteAttribute] // RVA: 0xCD640 Offset: 0xCCA40 VA: 0x1800CD640
+	[ObsoleteAttribute] // RVA: 0xCD6E0 Offset: 0xCCAE0 VA: 0x1800CD6E0
 	public static bool supportsImageEffects { get; }
 	public static bool supports3DTextures { get; }
 	public static bool supports3DRenderTextures { get; }
@@ -105,109 +105,109 @@ public sealed class SystemInfo // TypeDefIndex: 3556
 
 	public static bool get_supportsMipStreaming() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAC90 Offset: 0xCA090 VA: 0x1800CAC90
+	[FreeFunctionAttribute] // RVA: 0xCAD20 Offset: 0xCA120 VA: 0x1800CAD20
 	private static BatteryStatus GetBatteryStatus() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAD50 Offset: 0xCA150 VA: 0x1800CAD50
+	[FreeFunctionAttribute] // RVA: 0xCADA0 Offset: 0xCA1A0 VA: 0x1800CADA0
 	private static string GetOperatingSystem() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAEC0 Offset: 0xCA2C0 VA: 0x1800CAEC0
+	[FreeFunctionAttribute] // RVA: 0xCAF60 Offset: 0xCA360 VA: 0x1800CAF60
 	private static OperatingSystemFamily GetOperatingSystemFamily() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAF60 Offset: 0xCA360 VA: 0x1800CAF60
+	[FreeFunctionAttribute] // RVA: 0xCB040 Offset: 0xCA440 VA: 0x1800CB040
 	private static string GetProcessorType() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAFD0 Offset: 0xCA3D0 VA: 0x1800CAFD0
+	[FreeFunctionAttribute] // RVA: 0xCB100 Offset: 0xCA500 VA: 0x1800CB100
 	private static int GetProcessorFrequencyMHz() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCB020 Offset: 0xCA420 VA: 0x1800CB020
+	[FreeFunctionAttribute] // RVA: 0xCB150 Offset: 0xCA550 VA: 0x1800CB150
 	private static int GetProcessorCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCB0C0 Offset: 0xCA4C0 VA: 0x1800CB0C0
+	[FreeFunctionAttribute] // RVA: 0xCB1F0 Offset: 0xCA5F0 VA: 0x1800CB1F0
 	private static int GetPhysicalMemoryMB() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCB140 Offset: 0xCA540 VA: 0x1800CB140
+	[FreeFunctionAttribute] // RVA: 0xCB240 Offset: 0xCA640 VA: 0x1800CB240
 	private static string GetDeviceUniqueIdentifier() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCB250 Offset: 0xCA650 VA: 0x1800CB250
+	[FreeFunctionAttribute] // RVA: 0xCB380 Offset: 0xCA780 VA: 0x1800CB380
 	private static string GetDeviceName() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCB360 Offset: 0xCA760 VA: 0x1800CB360
+	[FreeFunctionAttribute] // RVA: 0xCB460 Offset: 0xCA860 VA: 0x1800CB460
 	private static string GetDeviceModel() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCB460 Offset: 0xCA860 VA: 0x1800CB460
+	[FreeFunctionAttribute] // RVA: 0xCB530 Offset: 0xCA930 VA: 0x1800CB530
 	private static DeviceType GetDeviceType() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCB5A0 Offset: 0xCA9A0 VA: 0x1800CB5A0
+	[FreeFunctionAttribute] // RVA: 0xCB640 Offset: 0xCAA40 VA: 0x1800CB640
 	private static int GetGraphicsMemorySize() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCB770 Offset: 0xCAB70 VA: 0x1800CB770
+	[FreeFunctionAttribute] // RVA: 0xCB7E0 Offset: 0xCABE0 VA: 0x1800CB7E0
 	private static string GetGraphicsDeviceName() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBA50 Offset: 0xCAE50 VA: 0x1800CBA50
+	[FreeFunctionAttribute] // RVA: 0xCBAD0 Offset: 0xCAED0 VA: 0x1800CBAD0
 	private static string GetGraphicsDeviceVendor() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBC30 Offset: 0xCB030 VA: 0x1800CBC30
+	[FreeFunctionAttribute] // RVA: 0xCBCC0 Offset: 0xCB0C0 VA: 0x1800CBCC0
 	private static GraphicsDeviceType GetGraphicsDeviceType() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBD70 Offset: 0xCB170 VA: 0x1800CBD70
+	[FreeFunctionAttribute] // RVA: 0xCBE50 Offset: 0xCB250 VA: 0x1800CBE50
 	private static bool GetGraphicsUVStartsAtTop() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBE50 Offset: 0xCB250 VA: 0x1800CBE50
+	[FreeFunctionAttribute] // RVA: 0xCBF50 Offset: 0xCB350 VA: 0x1800CBF50
 	private static string GetGraphicsDeviceVersion() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBF30 Offset: 0xCB330 VA: 0x1800CBF30
+	[FreeFunctionAttribute] // RVA: 0xCBFF0 Offset: 0xCB3F0 VA: 0x1800CBFF0
 	private static int GetGraphicsShaderLevel() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC020 Offset: 0xCB420 VA: 0x1800CC020
+	[FreeFunctionAttribute] // RVA: 0xCC0C0 Offset: 0xCB4C0 VA: 0x1800CC0C0
 	private static bool GetGraphicsMultiThreaded() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC1E0 Offset: 0xCB5E0 VA: 0x1800CC1E0
+	[FreeFunctionAttribute] // RVA: 0xCC2E0 Offset: 0xCB6E0 VA: 0x1800CC2E0
 	private static bool SupportsMotionVectors() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC320 Offset: 0xCB720 VA: 0x1800CC320
+	[FreeFunctionAttribute] // RVA: 0xCC3A0 Offset: 0xCB7A0 VA: 0x1800CC3A0
 	private static bool Supports3DTextures() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC4B0 Offset: 0xCB8B0 VA: 0x1800CC4B0
+	[FreeFunctionAttribute] // RVA: 0xCC510 Offset: 0xCB910 VA: 0x1800CC510
 	private static bool Supports3DRenderTextures() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC5D0 Offset: 0xCB9D0 VA: 0x1800CC5D0
+	[FreeFunctionAttribute] // RVA: 0xCC650 Offset: 0xCBA50 VA: 0x1800CC650
 	private static CopyTextureSupport GetCopyTextureSupport() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC7F0 Offset: 0xCBBF0 VA: 0x1800CC7F0
+	[FreeFunctionAttribute] // RVA: 0xCC8A0 Offset: 0xCBCA0 VA: 0x1800CC8A0
 	private static bool SupportsComputeShaders() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC8D0 Offset: 0xCBCD0 VA: 0x1800CC8D0
+	[FreeFunctionAttribute] // RVA: 0xCC9C0 Offset: 0xCBDC0 VA: 0x1800CC9C0
 	private static bool SupportsInstancing() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCCA60 Offset: 0xCBE60 VA: 0x1800CCA60
+	[FreeFunctionAttribute] // RVA: 0xCCB50 Offset: 0xCBF50 VA: 0x1800CCB50
 	private static int SupportedRenderTargetCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCCC10 Offset: 0xCC010 VA: 0x1800CCC10
+	[FreeFunctionAttribute] // RVA: 0xCCD00 Offset: 0xCC100 VA: 0x1800CCD00
 	private static int SupportedRandomWriteTargetCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCCD00 Offset: 0xCC100 VA: 0x1800CCD00
+	[FreeFunctionAttribute] // RVA: 0xCCE30 Offset: 0xCC230 VA: 0x1800CCE30
 	private static bool UsesReversedZBuffer() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCCE90 Offset: 0xCC290 VA: 0x1800CCE90
+	[FreeFunctionAttribute] // RVA: 0xCCF40 Offset: 0xCC340 VA: 0x1800CCF40
 	private static bool HasRenderTextureNative(RenderTextureFormat format) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCCF40 Offset: 0xCC340 VA: 0x1800CCF40
+	[FreeFunctionAttribute] // RVA: 0xCCFA0 Offset: 0xCC3A0 VA: 0x1800CCFA0
 	private static bool SupportsTextureFormatNative(TextureFormat format) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCD000 Offset: 0xCC400 VA: 0x1800CD000
+	[FreeFunctionAttribute] // RVA: 0xCD0E0 Offset: 0xCC4E0 VA: 0x1800CD0E0
 	private static bool SupportsAsyncGPUReadback() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCD050 Offset: 0xCC450 VA: 0x1800CD050
+	[FreeFunctionAttribute] // RVA: 0xCD160 Offset: 0xCC560 VA: 0x1800CD160
 	private static bool SupportsMipStreaming() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCD210 Offset: 0xCC610 VA: 0x1800CD210
+	[FreeFunctionAttribute] // RVA: 0xCD340 Offset: 0xCC740 VA: 0x1800CD340
 	public static bool IsFormatSupported(GraphicsFormat format, FormatUsage usage) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCD2D0 Offset: 0xCC6D0 VA: 0x1800CD2D0
+	[FreeFunctionAttribute] // RVA: 0xCD3B0 Offset: 0xCC7B0 VA: 0x1800CD3B0
 	public static GraphicsFormat GetCompatibleFormat(GraphicsFormat format, FormatUsage usage) { }
 
-	[FreeFunctionAttribute] // RVA: 0xCD460 Offset: 0xCC860 VA: 0x1800CD460
+	[FreeFunctionAttribute] // RVA: 0xCD4F0 Offset: 0xCC8F0 VA: 0x1800CD4F0
 	public static GraphicsFormat GetGraphicsFormat(DefaultFormat format) { }
 
 }

@@ -1,4 +1,4 @@
-public class ConsumableInformationPanel : ItemInformationPanel // TypeDefIndex: 10999
+public class ConsumableInformationPanel : ItemInformationPanel // TypeDefIndex: 11003
 {	public ItemTextValue[] values; // 0x18
 	public UIGenesDisplay Genes; // 0x20
 	public Text TextUnknownGenetics; // 0x28

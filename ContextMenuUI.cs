@@ -1,5 +1,5 @@
-public static class ContextMenuUI // TypeDefIndex: 10840
-{	public static ContextMenuUI.MenuType type; // 0x2E61
+public static class ContextMenuUI // TypeDefIndex: 10844
+{	public static ContextMenuUI.MenuType type; // 0x2B117D0
 
 
 	public static void Start(ContextMenuUI.MenuType menuType) { }
@@ -22,7 +22,7 @@ public static class ContextMenuUI // TypeDefIndex: 10840
 
 }
 
-public enum ContextMenuUI.MenuType // TypeDefIndex: 10841
+public enum ContextMenuUI.MenuType // TypeDefIndex: 10845
 {	public int value__; // 0x0
 	public const ContextMenuUI.MenuType Use = 0;
 	public const ContextMenuUI.MenuType RightClick = 1;

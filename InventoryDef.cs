@@ -70,10 +70,10 @@ public class InventoryDef : IEquatable<InventoryDef> // TypeDefIndex: 5239
 
 	public bool Equals(InventoryDef p) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private InventoryRecipe <GetRecipes>b__21_0(string x) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <GetRecipesContainingThis>b__44_3(InventoryRecipe x) { }
 
 }

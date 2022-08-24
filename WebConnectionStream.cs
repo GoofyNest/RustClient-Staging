@@ -29,7 +29,7 @@ internal class WebConnectionStream : Stream // TypeDefIndex: 3033
 	private int write_timeout; // 0xC0
 	private AsyncCallback cb_wrapper; // 0xC8
 	internal bool IgnoreIOErrors; // 0xD0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <GetResponseOnClose>k__BackingField; // 0xD1
 
 	internal WebConnection Connection { get; }
@@ -119,7 +119,7 @@ internal class WebConnectionStream : Stream // TypeDefIndex: 3033
 
 	internal void InternalClose() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool get_GetResponseOnClose() { }
 
 	public override void Close() { }

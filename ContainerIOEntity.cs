@@ -33,16 +33,16 @@ public class ContainerIOEntity : IOEntity, IItemContainerEntity, LootPanel.IHasL
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
-	[BaseEntity.Menu.Description] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
-	[BaseEntity.Menu.Icon] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8E0A0 Offset: 0x8D4A0 VA: 0x18008E0A0
+	[BaseEntity.Menu] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
+	[BaseEntity.Menu.Description] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
+	[BaseEntity.Menu.Icon] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
 	public void Menu_Open(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8E360 Offset: 0x8D760 VA: 0x18008E360
-	[BaseEntity.Menu.Description] // RVA: 0x8E360 Offset: 0x8D760 VA: 0x18008E360
-	[BaseEntity.Menu.Icon] // RVA: 0x8E360 Offset: 0x8D760 VA: 0x18008E360
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8E360 Offset: 0x8D760 VA: 0x18008E360
+	[BaseEntity.Menu] // RVA: 0x8E4A0 Offset: 0x8D8A0 VA: 0x18008E4A0
+	[BaseEntity.Menu.Description] // RVA: 0x8E4A0 Offset: 0x8D8A0 VA: 0x18008E4A0
+	[BaseEntity.Menu.Icon] // RVA: 0x8E4A0 Offset: 0x8D8A0 VA: 0x18008E4A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8E4A0 Offset: 0x8D8A0 VA: 0x18008E4A0
 	public void Menu_Occupied(BasePlayer player) { }
 
 	public bool Menu_Occupied_ShowIf(BasePlayer player) { }

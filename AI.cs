@@ -230,10 +230,10 @@ public class NPCTalking : NPCShopKeeper, IConversationProvider // TypeDefIndex: 
 
 	public bool ProviderBusy() { }
 
-	[BaseEntity.Menu] // RVA: 0x7BCB0 Offset: 0x7B0B0 VA: 0x18007BCB0
-	[BaseEntity.Menu.Description] // RVA: 0x7BCB0 Offset: 0x7B0B0 VA: 0x18007BCB0
-	[BaseEntity.Menu.Icon] // RVA: 0x7BCB0 Offset: 0x7B0B0 VA: 0x18007BCB0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7BCB0 Offset: 0x7B0B0 VA: 0x18007BCB0
+	[BaseEntity.Menu] // RVA: 0x7BD90 Offset: 0x7B190 VA: 0x18007BD90
+	[BaseEntity.Menu.Description] // RVA: 0x7BD90 Offset: 0x7B190 VA: 0x18007BD90
+	[BaseEntity.Menu.Icon] // RVA: 0x7BD90 Offset: 0x7B190 VA: 0x18007BD90
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7BD90 Offset: 0x7B190 VA: 0x18007BD90
 	public void Menu_Talk(BasePlayer player) { }
 
 	public bool Menu_Talk_ShowIf(BasePlayer player) { }
@@ -242,17 +242,17 @@ public class NPCTalking : NPCShopKeeper, IConversationProvider // TypeDefIndex: 
 
 	public Vector3 GetConversationWorldOrigin() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_StartConversation(BaseEntity.RPCMessage msg) { }
 
 	public void EndConversation(bool fromServer) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_ForceSpeechNode(BaseEntity.RPCMessage msg) { }
 
 	public void ResponsePressed(int index) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Client_EndConversation(BaseEntity.RPCMessage msg) { }
 
 	public void .ctor() { }
@@ -285,7 +285,7 @@ public class NPCVendingOrder.Entry // TypeDefIndex: 8723
 	public ItemDefinition currencyItem; // 0x20
 	public int currencyAmount; // 0x28
 	public bool currencyAsBP; // 0x2C
-	[TooltipAttribute] // RVA: 0x778E0 Offset: 0x76CE0 VA: 0x1800778E0
+	[TooltipAttribute] // RVA: 0x77B10 Offset: 0x76F10 VA: 0x180077B10
 	public int weight; // 0x30
 	public int refillAmount; // 0x34
 	public float refillDelay; // 0x38
@@ -382,7 +382,7 @@ public class AICoverPoint : AIPoint // TypeDefIndex: 8903
 
 public class AICoverPointTool : MonoBehaviour // TypeDefIndex: 8904
 {
-	[ContextMenu] // RVA: 0xC1FD0 Offset: 0xC13D0 VA: 0x1800C1FD0
+	[ContextMenu] // RVA: 0xC2050 Offset: 0xC1450 VA: 0x1800C2050
 	public void PlaceCoverPoints() { }
 
 	private AICoverPointTool.TestResult TestPoint(Vector3 pos) { }
@@ -412,19 +412,19 @@ public class AIInformationCell // TypeDefIndex: 8906
 	public List<AIInformationCell> NeighbourCells; // 0x28
 	public AIInformationCellContents<AIMovePoint> MovePoints; // 0x30
 	public AIInformationCellContents<AICoverPoint> CoverPoints; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly int <X>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly int <Z>k__BackingField; // 0x44
 
 	public int X { get; }
 	public int Z { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_X() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_Z() { }
 
 	public void .ctor(Bounds bounds, GameObject root, int x, int z) { }
@@ -502,7 +502,7 @@ public class AIInformationGrid : MonoBehaviour // TypeDefIndex: 8908
 	private AIInformationCell[] resultCells; // 0x68
 
 
-	[ContextMenu] // RVA: 0xC3790 Offset: 0xC2B90 VA: 0x1800C3790
+	[ContextMenu] // RVA: 0xC3890 Offset: 0xC2C90 VA: 0x1800C3890
 	public void Init() { }
 
 	private int GetIndex(int x, int z) { }
@@ -612,7 +612,7 @@ public class AIMovePointPath : MonoBehaviour // TypeDefIndex: 8913
 
 	private void OnDrawGizmosSelected() { }
 
-	[ContextMenu] // RVA: 0xC3830 Offset: 0xC2C30 VA: 0x1800C3830
+	[ContextMenu] // RVA: 0xC3960 Offset: 0xC2D60 VA: 0x1800C3960
 	public void AddChildPoints() { }
 
 	public void .ctor() { }
@@ -874,7 +874,7 @@ public class AnimalAnimation : MonoBehaviour, IClientComponent // TypeDefIndex: 
 	public SoundDefinition saddleMovementSoundDefWood; // 0x48
 	public SoundDefinition saddleMovementSoundDefRoadsign; // 0x50
 	public AnimationCurve saddleMovementGainCurve; // 0x58
-	[ReadOnlyAttribute] // RVA: 0x70BD0 Offset: 0x6FFD0 VA: 0x180070BD0
+	[ReadOnlyAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
 	public string BaseFolder; // 0x60
 	public const BaseEntity.Flags Flag_WoodArmor = 2048;
 	public const BaseEntity.Flags Flag_RoadsignArmor = 16384;
@@ -971,9 +971,9 @@ public class AIDesignSO : BaseScriptableObject // TypeDefIndex: 9378
 }
 
 public class AIDesign // TypeDefIndex: 9379
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private AIDesignScope <Scope>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Description>k__BackingField; // 0x18
 	public List<AIState> AvailableStates; // 0x20
 	public int DefaultStateContainerID; // 0x28
@@ -983,16 +983,16 @@ public class AIDesign // TypeDefIndex: 9379
 	public string Description { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public AIDesignScope get_Scope() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Scope(AIDesignScope value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_Description() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Description(string value) { }
 
 	public void SetAvailableStates(List<AIState> states) { }
@@ -1013,7 +1013,7 @@ public class AIDesign // TypeDefIndex: 9379
 
 public static class AIDesigns // TypeDefIndex: 9380
 {	public const string DesignFolderPath = "cfg/ai/";
-	private static Dictionary<string, AIDesign> designs; // 0x1C30
+	private static Dictionary<string, AIDesign> designs; // 0x16D6
 
 
 	public static AIDesign GetByNameOrInstance(string designName, AIDesign entityDesign) { }
@@ -1059,7 +1059,7 @@ public enum AIEventType // TypeDefIndex: 9381
 
 public class AIEvents // TypeDefIndex: 9382
 {	public AIMemory Memory; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <CurrentInputMemorySlot>k__BackingField; // 0x18
 	private List<BaseAIEvent> events; // 0x20
 	private IAIEventListener eventListener; // 0x28
@@ -1070,10 +1070,10 @@ public class AIEvents // TypeDefIndex: 9382
 	public int CurrentInputMemorySlot { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_CurrentInputMemorySlot() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_CurrentInputMemorySlot(int value) { }
 
 	public void Init(IAIEventListener listener, AIStateContainer stateContainer, BaseEntity owner, AIBrainSenses senses) { }
@@ -1162,12 +1162,12 @@ public class AIMemoryBank<T> // TypeDefIndex: 9388
 }
 
 public class AIStateContainer // TypeDefIndex: 9422
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <ID>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private AIState <State>k__BackingField; // 0x14
 	public List<BaseAIEvent> Events; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <InputMemorySlot>k__BackingField; // 0x20
 
 	public int ID { get; set; }
@@ -1175,22 +1175,22 @@ public class AIStateContainer // TypeDefIndex: 9422
 	public int InputMemorySlot { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_ID() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_ID(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public AIState get_State() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_State(AIState value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_InputMemorySlot() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_InputMemorySlot(int value) { }
 
 	public void Init(AIStateContainer container, BaseEntity owner) { }
@@ -1240,19 +1240,19 @@ public class NPCSpawner : SpawnGroup // TypeDefIndex: 10004
 {	public int AdditionalLOSBlockingLayer; // 0x48
 	public MonumentNavMesh monumentNavMesh; // 0x50
 	public bool shouldFillOnSpawn; // 0x58
-	[HeaderAttribute] // RVA: 0xAD190 Offset: 0xAC590 VA: 0x1800AD190
+	[HeaderAttribute] // RVA: 0xAD2A0 Offset: 0xAC6A0 VA: 0x1800AD2A0
 	public AIInformationZone VirtualInfoZone; // 0x60
-	[HeaderAttribute] // RVA: 0xAE5E0 Offset: 0xAD9E0 VA: 0x1800AE5E0
+	[HeaderAttribute] // RVA: 0xAE6C0 Offset: 0xADAC0 VA: 0x1800AE6C0
 	public AIMovePointPath Path; // 0x68
 	public BasePath AStarGraph; // 0x70
-	[HeaderAttribute] // RVA: 0xAFD40 Offset: 0xAF140 VA: 0x1800AFD40
+	[HeaderAttribute] // RVA: 0xAFDE0 Offset: 0xAF1E0 VA: 0x1800AFDE0
 	public bool UseStatModifiers; // 0x78
 	public float SenseRange; // 0x7C
 	public float TargetLostRange; // 0x80
 	public float AttackRangeMultiplier; // 0x84
 	public float ListenRange; // 0x88
 	public float CanUseHealingItemsChance; // 0x8C
-	[HeaderAttribute] // RVA: 0xAFDE0 Offset: 0xAF1E0 VA: 0x1800AFDE0
+	[HeaderAttribute] // RVA: 0xAFEB0 Offset: 0xAF2B0 VA: 0x1800AFEB0
 	public PlayerInventoryProperties[] Loadouts; // 0x90
 
 
@@ -1260,29 +1260,29 @@ public class NPCSpawner : SpawnGroup // TypeDefIndex: 10004
 
 }
 
-public class AI : ConsoleSystem // TypeDefIndex: 11880
-{	[ReplicatedVar] // RVA: 0x85960 Offset: 0x84D60 VA: 0x180085960
+public class AI : ConsoleSystem // TypeDefIndex: 11884
+{	[ReplicatedVar] // RVA: 0x85C50 Offset: 0x85050 VA: 0x180085C50
 	public static bool allowdesigning; // 0x0
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool designing; // 0x1
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool groundAlign; // 0x2
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static float maxGroundAlignDist; // 0x4
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool debugVis; // 0x8
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool npc_no_foot_ik; // 0x9
 	private static HitTest lookingAtNpcCache; // 0x10
 
 
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static void aiDebug_lookat(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static void aiDebug_LoadBalanceOverdueReport(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static void selectNPCLookat(ConsoleSystem.Arg args) { }
 
 	private static bool CheckLookingAtVisible(HitTest test, TraceInfo trace) { }
@@ -1293,8 +1293,8 @@ public class AI : ConsoleSystem // TypeDefIndex: 11880
 
 }
 
-public class AiManagedAgent : FacepunchBehaviour, IServerComponent // TypeDefIndex: 12133
-{	[TooltipAttribute] // RVA: 0xE0380 Offset: 0xDF780 VA: 0x1800E0380
+public class AiManagedAgent : FacepunchBehaviour, IServerComponent // TypeDefIndex: 12137
+{	[TooltipAttribute] // RVA: 0xE0650 Offset: 0xDFA50 VA: 0x1800E0650
 	public int AgentTypeIndex; // 0x18
 
 
@@ -1302,15 +1302,15 @@ public class AiManagedAgent : FacepunchBehaviour, IServerComponent // TypeDefInd
 
 }
 
-public class AiManager : SingletonComponent<AiManager>, IServerComponent // TypeDefIndex: 12134
-{	[HeaderAttribute] // RVA: 0xE0590 Offset: 0xDF990 VA: 0x1800E0590
-	[SerializeField] // RVA: 0xE0590 Offset: 0xDF990 VA: 0x1800E0590
+public class AiManager : SingletonComponent<AiManager>, IServerComponent // TypeDefIndex: 12138
+{	[HeaderAttribute] // RVA: 0xE0A80 Offset: 0xDFE80 VA: 0x1800E0A80
+	[SerializeField] // RVA: 0xE0A80 Offset: 0xDFE80 VA: 0x1800E0A80
 	public bool UseCover; // 0x18
 	public float CoverPointVolumeCellSize; // 0x1C
 	public float CoverPointVolumeCellHeight; // 0x20
 	public float CoverPointRayLength; // 0x24
 	public CoverPointVolume cpvPrefab; // 0x28
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public LayerMask DynamicCoverPointVolumeLayerMask; // 0x30
 	private WorldSpaceGrid<CoverPointVolume> coverPointVolumeGrid; // 0x38
 
@@ -1325,8 +1325,8 @@ public class AiManager : SingletonComponent<AiManager>, IServerComponent // Type
 
 }
 
-public class ScientistSpawner : SpawnGroup // TypeDefIndex: 12136
-{	[HeaderAttribute] // RVA: 0xE0A50 Offset: 0xDFE50 VA: 0x1800E0A50
+public class ScientistSpawner : SpawnGroup // TypeDefIndex: 12140
+{	[HeaderAttribute] // RVA: 0xE0CC0 Offset: 0xE00C0 VA: 0x1800E0CC0
 	public bool Mobile; // 0x48
 	public bool NeverMove; // 0x49
 	public bool SpawnHostile; // 0x4A
@@ -1338,7 +1338,7 @@ public class ScientistSpawner : SpawnGroup // TypeDefIndex: 12136
 	public Transform[] LookAtInterestPointsStationary; // 0x58
 	public Vector2 RadioEffectRepeatRange; // 0x60
 	public Model Model; // 0x68
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private AiLocationManager _mgr; // 0x70
 
 
@@ -1346,11 +1346,11 @@ public class ScientistSpawner : SpawnGroup // TypeDefIndex: 12136
 
 }
 
-public class AiLocationManager : FacepunchBehaviour, IServerComponent // TypeDefIndex: 12137
+public class AiLocationManager : FacepunchBehaviour, IServerComponent // TypeDefIndex: 12141
 {	public static List<AiLocationManager> Managers; // 0x0
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public AiLocationSpawner MainSpawner; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public AiLocationSpawner.SquadSpawnerLocation LocationWhenMainSpawnerIsNull; // 0x20
 	public Transform CoverPointGroup; // 0x28
 	public Transform PatrolPointGroup; // 0x30
@@ -1368,7 +1368,7 @@ public class AiLocationManager : FacepunchBehaviour, IServerComponent // TypeDef
 
 }
 
-public class AiLocationSpawner : SpawnGroup // TypeDefIndex: 12138
+public class AiLocationSpawner : SpawnGroup // TypeDefIndex: 12142
 {	public AiLocationSpawner.SquadSpawnerLocation Location; // 0x48
 	public AiLocationManager Manager; // 0x50
 	public JunkPile Junkpile; // 0x58
@@ -1383,7 +1383,7 @@ public class AiLocationSpawner : SpawnGroup // TypeDefIndex: 12138
 
 }
 
-public enum AiLocationSpawner.SquadSpawnerLocation // TypeDefIndex: 12139
+public enum AiLocationSpawner.SquadSpawnerLocation // TypeDefIndex: 12143
 {	public int value__; // 0x0
 	public const AiLocationSpawner.SquadSpawnerLocation MilitaryTunnels = 0;
 	public const AiLocationSpawner.SquadSpawnerLocation JunkpileA = 1;
@@ -1396,7 +1396,7 @@ public enum AiLocationSpawner.SquadSpawnerLocation // TypeDefIndex: 12139
 
 }
 
-public class ScientistJunkpileSpawner : MonoBehaviour, IServerComponent // TypeDefIndex: 12143
+public class ScientistJunkpileSpawner : MonoBehaviour, IServerComponent // TypeDefIndex: 12147
 {	public GameObjectRef ScientistPrefab; // 0x18
 	public List<BaseCombatEntity> Spawned; // 0x20
 	public BaseSpawnPoint[] SpawnPoints; // 0x28
@@ -1407,7 +1407,7 @@ public class ScientistJunkpileSpawner : MonoBehaviour, IServerComponent // TypeD
 	public float MovementRadius; // 0x40
 	public bool ReducedLongRangeAccuracy; // 0x44
 	public ScientistJunkpileSpawner.JunkpileType SpawnType; // 0x48
-	[RangeAttribute] // RVA: 0x714C0 Offset: 0x708C0 VA: 0x1800714C0
+	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	public float SpawnBaseChance; // 0x4C
 
 
@@ -1415,7 +1415,7 @@ public class ScientistJunkpileSpawner : MonoBehaviour, IServerComponent // TypeD
 
 }
 
-public enum ScientistJunkpileSpawner.JunkpileType // TypeDefIndex: 12144
+public enum ScientistJunkpileSpawner.JunkpileType // TypeDefIndex: 12148
 {	public int value__; // 0x0
 	public const ScientistJunkpileSpawner.JunkpileType A = 0;
 	public const ScientistJunkpileSpawner.JunkpileType B = 1;

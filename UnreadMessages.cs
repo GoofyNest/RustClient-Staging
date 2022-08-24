@@ -1,4 +1,4 @@
-public class UnreadMessages : SingletonComponent<UnreadMessages> // TypeDefIndex: 11175
+public class UnreadMessages : SingletonComponent<UnreadMessages> // TypeDefIndex: 11179
 {	public StyleAsset AllRead; // 0x18
 	public StyleAsset Unread; // 0x20
 	public RustButton Button; // 0x28
@@ -25,7 +25,7 @@ public class UnreadMessages : SingletonComponent<UnreadMessages> // TypeDefIndex
 
 }
 
-private sealed class UnreadMessages.<>c__DisplayClass13_0 // TypeDefIndex: 11176
+private sealed class UnreadMessages.<>c__DisplayClass13_0 // TypeDefIndex: 11180
 {	public NoticeData info; // 0x10
 
 
@@ -35,7 +35,7 @@ private sealed class UnreadMessages.<>c__DisplayClass13_0 // TypeDefIndex: 11176
 
 }
 
-private sealed class UnreadMessages.<>c // TypeDefIndex: 11177
+private sealed class UnreadMessages.<>c // TypeDefIndex: 11181
 {	public static readonly UnreadMessages.<>c <>9; // 0x0
 	public static Func<AccountNotice, bool> <>9__13_0; // 0x8
 	public static Func<AccountNotice, DateTime> <>9__13_1; // 0x10

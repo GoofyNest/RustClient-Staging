@@ -14,7 +14,7 @@ public class ServicePointManager // TypeDefIndex: 3019
 	private static int tcp_keepalive_time; // 0x3C
 	private static int tcp_keepalive_interval; // 0x40
 
-	[MonoTODOAttribute] // RVA: 0xB8B70 Offset: 0xB7F70 VA: 0x1800B8B70
+	[MonoTODOAttribute] // RVA: 0xB8C50 Offset: 0xB8050 VA: 0x1800B8C50
 	public static bool CheckCertificateRevocationList { get; }
 	public static int DnsRefreshTimeout { get; }
 	public static SecurityProtocolType SecurityProtocol { get; }

@@ -91,7 +91,7 @@ public class LeanTween : MonoBehaviour // TypeDefIndex: 5580
 
 	public static LTDescr[] descriptions(GameObject gameObject) { }
 
-	[ObsoleteAttribute] // RVA: 0xB4B40 Offset: 0xB3F40 VA: 0x1800B4B40
+	[ObsoleteAttribute] // RVA: 0xB4C50 Offset: 0xB4050 VA: 0x1800B4C50
 	public static void pause(GameObject gameObject, int uniqueId) { }
 
 	public static void pause(int uniqueId) { }
@@ -102,7 +102,7 @@ public class LeanTween : MonoBehaviour // TypeDefIndex: 5580
 
 	public static void resumeAll() { }
 
-	[ObsoleteAttribute] // RVA: 0xB4C10 Offset: 0xB4010 VA: 0x1800B4C10
+	[ObsoleteAttribute] // RVA: 0xB4D20 Offset: 0xB4120 VA: 0x1800B4D20
 	public static void resume(GameObject gameObject, int uniqueId) { }
 
 	public static void resume(int uniqueId) { }

@@ -1,4 +1,4 @@
-public class ArmorInformationPanel : ItemInformationPanel // TypeDefIndex: 10981
+public class ArmorInformationPanel : ItemInformationPanel // TypeDefIndex: 10985
 {	public ItemTextValue projectileDisplay; // 0x18
 	public ItemTextValue meleeDisplay; // 0x20
 	public ItemTextValue coldDisplay; // 0x28

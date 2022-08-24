@@ -2,7 +2,7 @@ internal static class TraceInternal // TypeDefIndex: 2641
 {	private static string appName; // 0x0
 	private static TraceListenerCollection listeners; // 0x8
 	private static bool autoFlush; // 0x10
-	[ThreadStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ThreadStaticAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static int indentLevel; // 0x80000000
 	private static int indentSize; // 0x14
 	internal static readonly object critSec; // 0x18

@@ -18,7 +18,7 @@ public abstract class HttpContent : IDisposable // TypeDefIndex: 5744
 
 	public Task CopyToAsync(Stream stream, TransportContext context) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1BA0 Offset: 0xD0FA0 VA: 0x1800D1BA0
+	[AsyncStateMachineAttribute] // RVA: 0xD1C30 Offset: 0xD1030 VA: 0x1800D1C30
 	protected virtual Task<Stream> CreateContentReadStreamAsync() { }
 
 	private static HttpContent.FixedMemoryStream CreateFixedMemoryStream(long maxBufferSize) { }
@@ -29,13 +29,13 @@ public abstract class HttpContent : IDisposable // TypeDefIndex: 5744
 
 	public Task LoadIntoBufferAsync() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1DC0 Offset: 0xD11C0 VA: 0x1800D1DC0
+	[AsyncStateMachineAttribute] // RVA: 0xD1EA0 Offset: 0xD12A0 VA: 0x1800D1EA0
 	public Task LoadIntoBufferAsync(long maxBufferSize) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1F90 Offset: 0xD1390 VA: 0x1800D1F90
+	[AsyncStateMachineAttribute] // RVA: 0xD2070 Offset: 0xD1470 VA: 0x1800D2070
 	public Task<Stream> ReadAsStreamAsync() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD2180 Offset: 0xD1580 VA: 0x1800D2180
+	[AsyncStateMachineAttribute] // RVA: 0xD2260 Offset: 0xD1660 VA: 0x1800D2260
 	public Task<string> ReadAsStringAsync() { }
 
 	private static Encoding GetEncodingFromBuffer(byte[] buffer, int length, ref int preambleLength) { }
@@ -73,7 +73,7 @@ private struct HttpContent.<CreateContentReadStreamAsync>d__12 : IAsyncStateMach
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -88,7 +88,7 @@ private struct HttpContent.<LoadIntoBufferAsync>d__17 : IAsyncStateMachine // Ty
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -102,7 +102,7 @@ private struct HttpContent.<ReadAsStreamAsync>d__18 : IAsyncStateMachine // Type
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -116,7 +116,7 @@ private struct HttpContent.<ReadAsStringAsync>d__20 : IAsyncStateMachine // Type
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

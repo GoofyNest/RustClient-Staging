@@ -5,10 +5,10 @@ public sealed class VFXSpawnerState : IDisposable // TypeDefIndex: 4763
 
 	internal void .ctor(IntPtr ptr, bool owner) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static VFXSpawnerState CreateSpawnerStateWrapper() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void SetWrapValue(IntPtr ptr) { }
 
 	private void Release() { }
@@ -17,7 +17,7 @@ public sealed class VFXSpawnerState : IDisposable // TypeDefIndex: 4763
 
 	public void Dispose() { }
 
-	[NativeMethodAttribute] // RVA: 0x90620 Offset: 0x8FA20 VA: 0x180090620
+	[NativeMethodAttribute] // RVA: 0x90760 Offset: 0x8FB60 VA: 0x180090760
 	private static void Internal_Destroy(IntPtr ptr) { }
 
 }

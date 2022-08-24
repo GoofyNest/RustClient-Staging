@@ -1,4 +1,4 @@
-public class PhoneDirectoryEntry : MonoBehaviour // TypeDefIndex: 10899
+public class PhoneDirectoryEntry : MonoBehaviour // TypeDefIndex: 10903
 {	public RustText PhoneNumber; // 0x18
 	public RustText PhoneName; // 0x20
 	public GameObject DeleteIcon; // 0x28
@@ -22,7 +22,7 @@ public class PhoneDirectoryEntry : MonoBehaviour // TypeDefIndex: 10899
 
 }
 
-public enum PhoneDirectoryEntry.NumberType // TypeDefIndex: 10900
+public enum PhoneDirectoryEntry.NumberType // TypeDefIndex: 10904
 {	public int value__; // 0x0
 	public const PhoneDirectoryEntry.NumberType Directory = 0;
 	public const PhoneDirectoryEntry.NumberType Contact = 1;

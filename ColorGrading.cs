@@ -1,122 +1,122 @@
-public sealed class ColorGrading : PostProcessEffectSettings // TypeDefIndex: 11777
-{	[DisplayNameAttribute] // RVA: 0xED130 Offset: 0xEC530 VA: 0x1800ED130
-	[TooltipAttribute] // RVA: 0xED130 Offset: 0xEC530 VA: 0x1800ED130
+public sealed class ColorGrading : PostProcessEffectSettings // TypeDefIndex: 11781
+{	[DisplayNameAttribute] // RVA: 0xED3C0 Offset: 0xEC7C0 VA: 0x1800ED3C0
+	[TooltipAttribute] // RVA: 0xED3C0 Offset: 0xEC7C0 VA: 0x1800ED3C0
 	public GradingModeParameter gradingMode; // 0x30
-	[DisplayNameAttribute] // RVA: 0xED2F0 Offset: 0xEC6F0 VA: 0x1800ED2F0
-	[TooltipAttribute] // RVA: 0xED2F0 Offset: 0xEC6F0 VA: 0x1800ED2F0
+	[DisplayNameAttribute] // RVA: 0xED520 Offset: 0xEC920 VA: 0x1800ED520
+	[TooltipAttribute] // RVA: 0xED520 Offset: 0xEC920 VA: 0x1800ED520
 	public TextureParameter externalLut; // 0x38
-	[DisplayNameAttribute] // RVA: 0xED450 Offset: 0xEC850 VA: 0x1800ED450
-	[TooltipAttribute] // RVA: 0xED450 Offset: 0xEC850 VA: 0x1800ED450
+	[DisplayNameAttribute] // RVA: 0xED630 Offset: 0xECA30 VA: 0x1800ED630
+	[TooltipAttribute] // RVA: 0xED630 Offset: 0xECA30 VA: 0x1800ED630
 	public TonemapperParameter tonemapper; // 0x40
-	[DisplayNameAttribute] // RVA: 0xED560 Offset: 0xEC960 VA: 0x1800ED560
-	[RangeAttribute] // RVA: 0xED560 Offset: 0xEC960 VA: 0x1800ED560
-	[TooltipAttribute] // RVA: 0xED560 Offset: 0xEC960 VA: 0x1800ED560
+	[DisplayNameAttribute] // RVA: 0xED770 Offset: 0xECB70 VA: 0x1800ED770
+	[RangeAttribute] // RVA: 0xED770 Offset: 0xECB70 VA: 0x1800ED770
+	[TooltipAttribute] // RVA: 0xED770 Offset: 0xECB70 VA: 0x1800ED770
 	public FloatParameter toneCurveToeStrength; // 0x48
-	[DisplayNameAttribute] // RVA: 0xED7E0 Offset: 0xECBE0 VA: 0x1800ED7E0
-	[RangeAttribute] // RVA: 0xED7E0 Offset: 0xECBE0 VA: 0x1800ED7E0
-	[TooltipAttribute] // RVA: 0xED7E0 Offset: 0xECBE0 VA: 0x1800ED7E0
+	[DisplayNameAttribute] // RVA: 0xED9A0 Offset: 0xECDA0 VA: 0x1800ED9A0
+	[RangeAttribute] // RVA: 0xED9A0 Offset: 0xECDA0 VA: 0x1800ED9A0
+	[TooltipAttribute] // RVA: 0xED9A0 Offset: 0xECDA0 VA: 0x1800ED9A0
 	public FloatParameter toneCurveToeLength; // 0x50
-	[DisplayNameAttribute] // RVA: 0xEDA20 Offset: 0xECE20 VA: 0x1800EDA20
-	[RangeAttribute] // RVA: 0xEDA20 Offset: 0xECE20 VA: 0x1800EDA20
-	[TooltipAttribute] // RVA: 0xEDA20 Offset: 0xECE20 VA: 0x1800EDA20
+	[DisplayNameAttribute] // RVA: 0xEDC50 Offset: 0xED050 VA: 0x1800EDC50
+	[RangeAttribute] // RVA: 0xEDC50 Offset: 0xED050 VA: 0x1800EDC50
+	[TooltipAttribute] // RVA: 0xEDC50 Offset: 0xED050 VA: 0x1800EDC50
 	public FloatParameter toneCurveShoulderStrength; // 0x58
-	[DisplayNameAttribute] // RVA: 0xEDBA0 Offset: 0xECFA0 VA: 0x1800EDBA0
-	[MinAttribute] // RVA: 0xEDBA0 Offset: 0xECFA0 VA: 0x1800EDBA0
-	[TooltipAttribute] // RVA: 0xEDBA0 Offset: 0xECFA0 VA: 0x1800EDBA0
+	[DisplayNameAttribute] // RVA: 0xEDDC0 Offset: 0xED1C0 VA: 0x1800EDDC0
+	[MinAttribute] // RVA: 0xEDDC0 Offset: 0xED1C0 VA: 0x1800EDDC0
+	[TooltipAttribute] // RVA: 0xEDDC0 Offset: 0xED1C0 VA: 0x1800EDDC0
 	public FloatParameter toneCurveShoulderLength; // 0x60
-	[DisplayNameAttribute] // RVA: 0xEDD60 Offset: 0xED160 VA: 0x1800EDD60
-	[RangeAttribute] // RVA: 0xEDD60 Offset: 0xED160 VA: 0x1800EDD60
-	[TooltipAttribute] // RVA: 0xEDD60 Offset: 0xED160 VA: 0x1800EDD60
+	[DisplayNameAttribute] // RVA: 0xEDF10 Offset: 0xED310 VA: 0x1800EDF10
+	[RangeAttribute] // RVA: 0xEDF10 Offset: 0xED310 VA: 0x1800EDF10
+	[TooltipAttribute] // RVA: 0xEDF10 Offset: 0xED310 VA: 0x1800EDF10
 	public FloatParameter toneCurveShoulderAngle; // 0x68
-	[DisplayNameAttribute] // RVA: 0xEDEB0 Offset: 0xED2B0 VA: 0x1800EDEB0
-	[MinAttribute] // RVA: 0xEDEB0 Offset: 0xED2B0 VA: 0x1800EDEB0
-	[TooltipAttribute] // RVA: 0xEDEB0 Offset: 0xED2B0 VA: 0x1800EDEB0
+	[DisplayNameAttribute] // RVA: 0xEE1F0 Offset: 0xED5F0 VA: 0x1800EE1F0
+	[MinAttribute] // RVA: 0xEE1F0 Offset: 0xED5F0 VA: 0x1800EE1F0
+	[TooltipAttribute] // RVA: 0xEE1F0 Offset: 0xED5F0 VA: 0x1800EE1F0
 	public FloatParameter toneCurveGamma; // 0x70
-	[DisplayNameAttribute] // RVA: 0xEE140 Offset: 0xED540 VA: 0x1800EE140
-	[TooltipAttribute] // RVA: 0xEE140 Offset: 0xED540 VA: 0x1800EE140
+	[DisplayNameAttribute] // RVA: 0xEE5F0 Offset: 0xED9F0 VA: 0x1800EE5F0
+	[TooltipAttribute] // RVA: 0xEE5F0 Offset: 0xED9F0 VA: 0x1800EE5F0
 	public TextureParameter ldrLut; // 0x78
-	[DisplayNameAttribute] // RVA: 0xEE460 Offset: 0xED860 VA: 0x1800EE460
-	[RangeAttribute] // RVA: 0xEE460 Offset: 0xED860 VA: 0x1800EE460
-	[TooltipAttribute] // RVA: 0xEE460 Offset: 0xED860 VA: 0x1800EE460
+	[DisplayNameAttribute] // RVA: 0xEE750 Offset: 0xEDB50 VA: 0x1800EE750
+	[RangeAttribute] // RVA: 0xEE750 Offset: 0xEDB50 VA: 0x1800EE750
+	[TooltipAttribute] // RVA: 0xEE750 Offset: 0xEDB50 VA: 0x1800EE750
 	public FloatParameter ldrLutContribution; // 0x80
-	[DisplayNameAttribute] // RVA: 0xEE6D0 Offset: 0xEDAD0 VA: 0x1800EE6D0
-	[RangeAttribute] // RVA: 0xEE6D0 Offset: 0xEDAD0 VA: 0x1800EE6D0
-	[TooltipAttribute] // RVA: 0xEE6D0 Offset: 0xEDAD0 VA: 0x1800EE6D0
+	[DisplayNameAttribute] // RVA: 0xEE920 Offset: 0xEDD20 VA: 0x1800EE920
+	[RangeAttribute] // RVA: 0xEE920 Offset: 0xEDD20 VA: 0x1800EE920
+	[TooltipAttribute] // RVA: 0xEE920 Offset: 0xEDD20 VA: 0x1800EE920
 	public FloatParameter temperature; // 0x88
-	[DisplayNameAttribute] // RVA: 0xEE870 Offset: 0xEDC70 VA: 0x1800EE870
-	[RangeAttribute] // RVA: 0xEE870 Offset: 0xEDC70 VA: 0x1800EE870
-	[TooltipAttribute] // RVA: 0xEE870 Offset: 0xEDC70 VA: 0x1800EE870
+	[DisplayNameAttribute] // RVA: 0xEEB50 Offset: 0xEDF50 VA: 0x1800EEB50
+	[RangeAttribute] // RVA: 0xEEB50 Offset: 0xEDF50 VA: 0x1800EEB50
+	[TooltipAttribute] // RVA: 0xEEB50 Offset: 0xEDF50 VA: 0x1800EEB50
 	public FloatParameter tint; // 0x90
-	[DisplayNameAttribute] // RVA: 0xEEAA0 Offset: 0xEDEA0 VA: 0x1800EEAA0
-	[ColorUsageAttribute] // RVA: 0xEEAA0 Offset: 0xEDEA0 VA: 0x1800EEAA0
-	[TooltipAttribute] // RVA: 0xEEAA0 Offset: 0xEDEA0 VA: 0x1800EEAA0
+	[DisplayNameAttribute] // RVA: 0xEEE80 Offset: 0xEE280 VA: 0x1800EEE80
+	[ColorUsageAttribute] // RVA: 0xEEE80 Offset: 0xEE280 VA: 0x1800EEE80
+	[TooltipAttribute] // RVA: 0xEEE80 Offset: 0xEE280 VA: 0x1800EEE80
 	public ColorParameter colorFilter; // 0x98
-	[DisplayNameAttribute] // RVA: 0xEEDC0 Offset: 0xEE1C0 VA: 0x1800EEDC0
-	[RangeAttribute] // RVA: 0xEEDC0 Offset: 0xEE1C0 VA: 0x1800EEDC0
-	[TooltipAttribute] // RVA: 0xEEDC0 Offset: 0xEE1C0 VA: 0x1800EEDC0
+	[DisplayNameAttribute] // RVA: 0xEF0C0 Offset: 0xEE4C0 VA: 0x1800EF0C0
+	[RangeAttribute] // RVA: 0xEF0C0 Offset: 0xEE4C0 VA: 0x1800EF0C0
+	[TooltipAttribute] // RVA: 0xEF0C0 Offset: 0xEE4C0 VA: 0x1800EF0C0
 	public FloatParameter hueShift; // 0xA0
-	[DisplayNameAttribute] // RVA: 0xEF0A0 Offset: 0xEE4A0 VA: 0x1800EF0A0
-	[RangeAttribute] // RVA: 0xEF0A0 Offset: 0xEE4A0 VA: 0x1800EF0A0
-	[TooltipAttribute] // RVA: 0xEF0A0 Offset: 0xEE4A0 VA: 0x1800EF0A0
+	[DisplayNameAttribute] // RVA: 0xEF3C0 Offset: 0xEE7C0 VA: 0x1800EF3C0
+	[RangeAttribute] // RVA: 0xEF3C0 Offset: 0xEE7C0 VA: 0x1800EF3C0
+	[TooltipAttribute] // RVA: 0xEF3C0 Offset: 0xEE7C0 VA: 0x1800EF3C0
 	public FloatParameter saturation; // 0xA8
-	[DisplayNameAttribute] // RVA: 0xEF370 Offset: 0xEE770 VA: 0x1800EF370
-	[RangeAttribute] // RVA: 0xEF370 Offset: 0xEE770 VA: 0x1800EF370
-	[TooltipAttribute] // RVA: 0xEF370 Offset: 0xEE770 VA: 0x1800EF370
+	[DisplayNameAttribute] // RVA: 0xEF7B0 Offset: 0xEEBB0 VA: 0x1800EF7B0
+	[RangeAttribute] // RVA: 0xEF7B0 Offset: 0xEEBB0 VA: 0x1800EF7B0
+	[TooltipAttribute] // RVA: 0xEF7B0 Offset: 0xEEBB0 VA: 0x1800EF7B0
 	public FloatParameter brightness; // 0xB0
-	[DisplayNameAttribute] // RVA: 0xEF760 Offset: 0xEEB60 VA: 0x1800EF760
-	[TooltipAttribute] // RVA: 0xEF760 Offset: 0xEEB60 VA: 0x1800EF760
+	[DisplayNameAttribute] // RVA: 0xEFA70 Offset: 0xEEE70 VA: 0x1800EFA70
+	[TooltipAttribute] // RVA: 0xEFA70 Offset: 0xEEE70 VA: 0x1800EFA70
 	public FloatParameter postExposure; // 0xB8
-	[DisplayNameAttribute] // RVA: 0xEF9B0 Offset: 0xEEDB0 VA: 0x1800EF9B0
-	[RangeAttribute] // RVA: 0xEF9B0 Offset: 0xEEDB0 VA: 0x1800EF9B0
-	[TooltipAttribute] // RVA: 0xEF9B0 Offset: 0xEEDB0 VA: 0x1800EF9B0
+	[DisplayNameAttribute] // RVA: 0xEFC90 Offset: 0xEF090 VA: 0x1800EFC90
+	[RangeAttribute] // RVA: 0xEFC90 Offset: 0xEF090 VA: 0x1800EFC90
+	[TooltipAttribute] // RVA: 0xEFC90 Offset: 0xEF090 VA: 0x1800EFC90
 	public FloatParameter contrast; // 0xC0
-	[DisplayNameAttribute] // RVA: 0xEFC40 Offset: 0xEF040 VA: 0x1800EFC40
-	[RangeAttribute] // RVA: 0xEFC40 Offset: 0xEF040 VA: 0x1800EFC40
-	[TooltipAttribute] // RVA: 0xEFC40 Offset: 0xEF040 VA: 0x1800EFC40
+	[DisplayNameAttribute] // RVA: 0xEFE20 Offset: 0xEF220 VA: 0x1800EFE20
+	[RangeAttribute] // RVA: 0xEFE20 Offset: 0xEF220 VA: 0x1800EFE20
+	[TooltipAttribute] // RVA: 0xEFE20 Offset: 0xEF220 VA: 0x1800EFE20
 	public FloatParameter mixerRedOutRedIn; // 0xC8
-	[DisplayNameAttribute] // RVA: 0xEFDB0 Offset: 0xEF1B0 VA: 0x1800EFDB0
-	[RangeAttribute] // RVA: 0xEFDB0 Offset: 0xEF1B0 VA: 0x1800EFDB0
-	[TooltipAttribute] // RVA: 0xEFDB0 Offset: 0xEF1B0 VA: 0x1800EFDB0
+	[DisplayNameAttribute] // RVA: 0xEFF40 Offset: 0xEF340 VA: 0x1800EFF40
+	[RangeAttribute] // RVA: 0xEFF40 Offset: 0xEF340 VA: 0x1800EFF40
+	[TooltipAttribute] // RVA: 0xEFF40 Offset: 0xEF340 VA: 0x1800EFF40
 	public FloatParameter mixerRedOutGreenIn; // 0xD0
-	[DisplayNameAttribute] // RVA: 0xEFED0 Offset: 0xEF2D0 VA: 0x1800EFED0
-	[RangeAttribute] // RVA: 0xEFED0 Offset: 0xEF2D0 VA: 0x1800EFED0
-	[TooltipAttribute] // RVA: 0xEFED0 Offset: 0xEF2D0 VA: 0x1800EFED0
+	[DisplayNameAttribute] // RVA: 0xF0160 Offset: 0xEF560 VA: 0x1800F0160
+	[RangeAttribute] // RVA: 0xF0160 Offset: 0xEF560 VA: 0x1800F0160
+	[TooltipAttribute] // RVA: 0xF0160 Offset: 0xEF560 VA: 0x1800F0160
 	public FloatParameter mixerRedOutBlueIn; // 0xD8
-	[DisplayNameAttribute] // RVA: 0xEFC40 Offset: 0xEF040 VA: 0x1800EFC40
-	[RangeAttribute] // RVA: 0xEFC40 Offset: 0xEF040 VA: 0x1800EFC40
-	[TooltipAttribute] // RVA: 0xEFC40 Offset: 0xEF040 VA: 0x1800EFC40
+	[DisplayNameAttribute] // RVA: 0xEFE20 Offset: 0xEF220 VA: 0x1800EFE20
+	[RangeAttribute] // RVA: 0xEFE20 Offset: 0xEF220 VA: 0x1800EFE20
+	[TooltipAttribute] // RVA: 0xEFE20 Offset: 0xEF220 VA: 0x1800EFE20
 	public FloatParameter mixerGreenOutRedIn; // 0xE0
-	[DisplayNameAttribute] // RVA: 0xEFDB0 Offset: 0xEF1B0 VA: 0x1800EFDB0
-	[RangeAttribute] // RVA: 0xEFDB0 Offset: 0xEF1B0 VA: 0x1800EFDB0
-	[TooltipAttribute] // RVA: 0xEFDB0 Offset: 0xEF1B0 VA: 0x1800EFDB0
+	[DisplayNameAttribute] // RVA: 0xEFF40 Offset: 0xEF340 VA: 0x1800EFF40
+	[RangeAttribute] // RVA: 0xEFF40 Offset: 0xEF340 VA: 0x1800EFF40
+	[TooltipAttribute] // RVA: 0xEFF40 Offset: 0xEF340 VA: 0x1800EFF40
 	public FloatParameter mixerGreenOutGreenIn; // 0xE8
-	[DisplayNameAttribute] // RVA: 0xEFED0 Offset: 0xEF2D0 VA: 0x1800EFED0
-	[RangeAttribute] // RVA: 0xEFED0 Offset: 0xEF2D0 VA: 0x1800EFED0
-	[TooltipAttribute] // RVA: 0xEFED0 Offset: 0xEF2D0 VA: 0x1800EFED0
+	[DisplayNameAttribute] // RVA: 0xF0160 Offset: 0xEF560 VA: 0x1800F0160
+	[RangeAttribute] // RVA: 0xF0160 Offset: 0xEF560 VA: 0x1800F0160
+	[TooltipAttribute] // RVA: 0xF0160 Offset: 0xEF560 VA: 0x1800F0160
 	public FloatParameter mixerGreenOutBlueIn; // 0xF0
-	[DisplayNameAttribute] // RVA: 0xEFC40 Offset: 0xEF040 VA: 0x1800EFC40
-	[RangeAttribute] // RVA: 0xEFC40 Offset: 0xEF040 VA: 0x1800EFC40
-	[TooltipAttribute] // RVA: 0xEFC40 Offset: 0xEF040 VA: 0x1800EFC40
+	[DisplayNameAttribute] // RVA: 0xEFE20 Offset: 0xEF220 VA: 0x1800EFE20
+	[RangeAttribute] // RVA: 0xEFE20 Offset: 0xEF220 VA: 0x1800EFE20
+	[TooltipAttribute] // RVA: 0xEFE20 Offset: 0xEF220 VA: 0x1800EFE20
 	public FloatParameter mixerBlueOutRedIn; // 0xF8
-	[DisplayNameAttribute] // RVA: 0xEFDB0 Offset: 0xEF1B0 VA: 0x1800EFDB0
-	[RangeAttribute] // RVA: 0xEFDB0 Offset: 0xEF1B0 VA: 0x1800EFDB0
-	[TooltipAttribute] // RVA: 0xEFDB0 Offset: 0xEF1B0 VA: 0x1800EFDB0
+	[DisplayNameAttribute] // RVA: 0xEFF40 Offset: 0xEF340 VA: 0x1800EFF40
+	[RangeAttribute] // RVA: 0xEFF40 Offset: 0xEF340 VA: 0x1800EFF40
+	[TooltipAttribute] // RVA: 0xEFF40 Offset: 0xEF340 VA: 0x1800EFF40
 	public FloatParameter mixerBlueOutGreenIn; // 0x100
-	[DisplayNameAttribute] // RVA: 0xEFED0 Offset: 0xEF2D0 VA: 0x1800EFED0
-	[RangeAttribute] // RVA: 0xEFED0 Offset: 0xEF2D0 VA: 0x1800EFED0
-	[TooltipAttribute] // RVA: 0xEFED0 Offset: 0xEF2D0 VA: 0x1800EFED0
+	[DisplayNameAttribute] // RVA: 0xF0160 Offset: 0xEF560 VA: 0x1800F0160
+	[RangeAttribute] // RVA: 0xF0160 Offset: 0xEF560 VA: 0x1800F0160
+	[TooltipAttribute] // RVA: 0xF0160 Offset: 0xEF560 VA: 0x1800F0160
 	public FloatParameter mixerBlueOutBlueIn; // 0x108
-	[DisplayNameAttribute] // RVA: 0xF0890 Offset: 0xEFC90 VA: 0x1800F0890
-	[TooltipAttribute] // RVA: 0xF0890 Offset: 0xEFC90 VA: 0x1800F0890
-	[TrackballAttribute] // RVA: 0xF0890 Offset: 0xEFC90 VA: 0x1800F0890
+	[DisplayNameAttribute] // RVA: 0xF0BC0 Offset: 0xEFFC0 VA: 0x1800F0BC0
+	[TooltipAttribute] // RVA: 0xF0BC0 Offset: 0xEFFC0 VA: 0x1800F0BC0
+	[TrackballAttribute] // RVA: 0xF0BC0 Offset: 0xEFFC0 VA: 0x1800F0BC0
 	public Vector4Parameter lift; // 0x110
-	[DisplayNameAttribute] // RVA: 0xF0B80 Offset: 0xEFF80 VA: 0x1800F0B80
-	[TooltipAttribute] // RVA: 0xF0B80 Offset: 0xEFF80 VA: 0x1800F0B80
-	[TrackballAttribute] // RVA: 0xF0B80 Offset: 0xEFF80 VA: 0x1800F0B80
+	[DisplayNameAttribute] // RVA: 0xF0F80 Offset: 0xF0380 VA: 0x1800F0F80
+	[TooltipAttribute] // RVA: 0xF0F80 Offset: 0xF0380 VA: 0x1800F0F80
+	[TrackballAttribute] // RVA: 0xF0F80 Offset: 0xF0380 VA: 0x1800F0F80
 	public Vector4Parameter gamma; // 0x118
-	[DisplayNameAttribute] // RVA: 0xF0EC0 Offset: 0xF02C0 VA: 0x1800F0EC0
-	[TooltipAttribute] // RVA: 0xF0EC0 Offset: 0xF02C0 VA: 0x1800F0EC0
-	[TrackballAttribute] // RVA: 0xF0EC0 Offset: 0xF02C0 VA: 0x1800F0EC0
+	[DisplayNameAttribute] // RVA: 0x6F550 Offset: 0x6E950 VA: 0x18006F550
+	[TooltipAttribute] // RVA: 0x6F550 Offset: 0x6E950 VA: 0x18006F550
+	[TrackballAttribute] // RVA: 0x6F550 Offset: 0x6E950 VA: 0x18006F550
 	public Vector4Parameter gain; // 0x120
 	public SplineParameter masterCurve; // 0x128
 	public SplineParameter redCurve; // 0x130

@@ -1,4 +1,4 @@
-public class SegmentMaskPositioning : MonoBehaviour // TypeDefIndex: 11203
+public class SegmentMaskPositioning : MonoBehaviour // TypeDefIndex: 11207
 {	public PlayerModel source; // 0x18
 	public GameObject headMask; // 0x20
 	public GameObject chestMask; // 0x28
@@ -10,7 +10,7 @@ public class SegmentMaskPositioning : MonoBehaviour // TypeDefIndex: 11203
 	private int chestRootBoneId; // 0x58
 
 
-	[ContextMenu] // RVA: 0x9F530 Offset: 0x9E930 VA: 0x18009F530
+	[ContextMenu] // RVA: 0x9F840 Offset: 0x9EC40 VA: 0x18009F840
 	public void Refresh() { }
 
 	public void .ctor() { }

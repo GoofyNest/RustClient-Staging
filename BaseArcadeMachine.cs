@@ -34,16 +34,16 @@ public class BaseArcadeMachine : BaseVehicle // TypeDefIndex: 8316
 
 	public override void InitShared() { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void BeginHosting(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void EndHosting(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void NoHost(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void GetEntityMessage(BaseEntity.RPCMessage msg) { }
 
 	protected override void ClientInit(Entity info) { }
@@ -52,10 +52,10 @@ public class BaseArcadeMachine : BaseVehicle // TypeDefIndex: 8316
 
 	public void GameVisibilityChanged(bool isVisible) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void DestroyEntity(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.RPC_Client] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void GetSnapshotFromServer(BaseEntity.RPCMessage msg) { }
 
 	public void SendSnapshotToServer() { }
@@ -70,10 +70,10 @@ public class BaseArcadeMachine : BaseVehicle // TypeDefIndex: 8316
 
 	public override bool MountMenuVisible(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xB4830 Offset: 0xB3C30 VA: 0x1800B4830
-	[BaseEntity.Menu.Description] // RVA: 0xB4830 Offset: 0xB3C30 VA: 0x1800B4830
-	[BaseEntity.Menu.Icon] // RVA: 0xB4830 Offset: 0xB3C30 VA: 0x1800B4830
-	[BaseEntity.Menu.ShowIf] // RVA: 0xB4830 Offset: 0xB3C30 VA: 0x1800B4830
+	[BaseEntity.Menu] // RVA: 0xB48F0 Offset: 0xB3CF0 VA: 0x1800B48F0
+	[BaseEntity.Menu.Description] // RVA: 0xB48F0 Offset: 0xB3CF0 VA: 0x1800B48F0
+	[BaseEntity.Menu.Icon] // RVA: 0xB48F0 Offset: 0xB3CF0 VA: 0x1800B48F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xB48F0 Offset: 0xB3CF0 VA: 0x1800B48F0
 	public void Menu_Play(BasePlayer player) { }
 
 	public bool Menu_PlayGame_ShowIf(BasePlayer player) { }

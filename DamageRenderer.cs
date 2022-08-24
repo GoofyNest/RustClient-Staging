@@ -1,13 +1,13 @@
 public class DamageRenderer : MonoBehaviour, IClientComponent, IPrefabPreProcess // TypeDefIndex: 9708
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private List<Material> damageShowingMats; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float maxDamageOpacity; // 0x20
-	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	private List<DamageRenderer.DamageShowingRenderer> damageShowingRenderers; // 0x28
-	[SerializeField] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
-	[HideInInspector] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	private List<GlassPane> damageShowingGlassRenderers; // 0x30
 	private float prevHealth; // 0x38
 	private bool prevIsDead; // 0x3C
@@ -36,7 +36,7 @@ public class DamageRenderer : MonoBehaviour, IClientComponent, IPrefabPreProcess
 
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int[] <PreProcess>g__GetValidMatIndices|12_0(Renderer renderer, ref DamageRenderer.<>c__DisplayClass12_0 ) { }
 
 }

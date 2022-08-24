@@ -211,18 +211,18 @@ internal class AttributeHelperEngine // TypeDefIndex: 3492
 	public static RequireComponent[] _requireComponentArray; // 0x10
 
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Type GetParentTypeDisallowingMultipleInclusion(Type type) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Type[] GetRequiredComponents(Type klass) { }
 
 	private static int GetExecuteMode(Type klass) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static int CheckIsEditorScript(Type klass) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static int GetDefaultExecutionOrderFor(Type klass) { }
 
 	private static T GetCustomAttributeOfType<T>(Type klass) { }

@@ -6,10 +6,10 @@ internal class SendMouseEvents // TypeDefIndex: 4076
 	private static Camera[] m_Cameras; // 0x20
 
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void SetMouseMoved() { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void DoSendMouseEvents(int skipRTCameras) { }
 
 	private static void SendEvents(int i, SendMouseEvents.HitInfo hit) { }

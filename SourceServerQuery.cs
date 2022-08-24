@@ -5,19 +5,19 @@ internal static class SourceServerQuery // TypeDefIndex: 5258
 
 	internal static Task<Dictionary<string, string>> GetRules(ServerInfo server) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x99800 Offset: 0x98C00 VA: 0x180099800
+	[AsyncStateMachineAttribute] // RVA: 0x998D0 Offset: 0x98CD0 VA: 0x1800998D0
 	private static Task<Dictionary<string, string>> GetRulesImpl(IPEndPoint endpoint) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x99C70 Offset: 0x99070 VA: 0x180099C70
+	[AsyncStateMachineAttribute] // RVA: 0x99D20 Offset: 0x99120 VA: 0x180099D20
 	private static Task<Dictionary<string, string>> GetRules(UdpClient client) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x99E60 Offset: 0x99260 VA: 0x180099E60
+	[AsyncStateMachineAttribute] // RVA: 0x99F10 Offset: 0x99310 VA: 0x180099F10
 	private static Task<byte[]> Receive(UdpClient client) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x99F80 Offset: 0x99380 VA: 0x180099F80
+	[AsyncStateMachineAttribute] // RVA: 0x9A0B0 Offset: 0x994B0 VA: 0x18009A0B0
 	private static Task<byte[]> GetChallengeData(UdpClient client) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9A250 Offset: 0x99650 VA: 0x18009A250
+	[AsyncStateMachineAttribute] // RVA: 0x9A330 Offset: 0x99730 VA: 0x18009A330
 	private static Task Send(UdpClient client, byte[] message) { }
 
 	private static byte[] Combine(byte[][] arrays) { }
@@ -46,7 +46,7 @@ private struct SourceServerQuery.<GetRulesImpl>d__4 : IAsyncStateMachine // Type
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -61,7 +61,7 @@ private struct SourceServerQuery.<GetRules>d__5 : IAsyncStateMachine // TypeDefI
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -92,7 +92,7 @@ private struct SourceServerQuery.<Receive>d__6 : IAsyncStateMachine // TypeDefIn
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -107,7 +107,7 @@ private struct SourceServerQuery.<GetChallengeData>d__7 : IAsyncStateMachine // 
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -122,7 +122,7 @@ private struct SourceServerQuery.<Send>d__8 : IAsyncStateMachine // TypeDefIndex
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

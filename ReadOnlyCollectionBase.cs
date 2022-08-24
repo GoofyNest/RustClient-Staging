@@ -1,6 +1,6 @@
 public abstract class ReadOnlyCollectionBase : ICollection, IEnumerable // TypeDefIndex: 1416
 {
-[ComVisibleAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
+[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
 [Serializable]
 public abstract class ReadOnlyCollectionBase : ICollection, IEnumerable // TypeDefIndex: 1416
 	private ArrayList list; // 0x10

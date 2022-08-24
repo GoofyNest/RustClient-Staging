@@ -1,13 +1,13 @@
 public struct InventoryResult : IDisposable // TypeDefIndex: 5250
 {	internal SteamInventoryResult_t _id; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <Expired>k__BackingField; // 0x4
 
 	internal bool Expired { set; }
 	public int ItemCount { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_Expired(bool value) { }
 
 	internal void .ctor(SteamInventoryResult_t id, bool expired) { }
@@ -20,7 +20,7 @@ public struct InventoryResult : IDisposable // TypeDefIndex: 5250
 
 	public void Dispose() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x98C80 Offset: 0x98080 VA: 0x180098C80
+	[AsyncStateMachineAttribute] // RVA: 0x98DB0 Offset: 0x981B0 VA: 0x180098DB0
 	internal static Task<Nullable<InventoryResult>> GetAsync(SteamInventoryResult_t sresult) { }
 
 	public byte[] Serialize() { }
@@ -37,7 +37,7 @@ private struct InventoryResult.<GetAsync>d__11 : IAsyncStateMachine // TypeDefIn
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }

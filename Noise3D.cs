@@ -1,4 +1,4 @@
-public static class Noise3D // TypeDefIndex: 11551
+public static class Noise3D // TypeDefIndex: 11555
 {	private static bool ms_IsSupportedChecked; // 0x0
 	private static bool ms_IsSupported; // 0x1
 	private static Texture3D ms_NoiseTexture; // 0x8
@@ -16,7 +16,7 @@ public static class Noise3D // TypeDefIndex: 11551
 
 	public static string get_isNotSupportedString() { }
 
-	[RuntimeInitializeOnLoadMethodAttribute] // RVA: 0x98480 Offset: 0x97880 VA: 0x180098480
+	[RuntimeInitializeOnLoadMethodAttribute] // RVA: 0x98580 Offset: 0x97980 VA: 0x180098580
 	private static void OnStartUp() { }
 
 	public static void LoadIfNeeded() { }

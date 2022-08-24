@@ -16,7 +16,7 @@ public class ExcavatorArm : BaseEntity // TypeDefIndex: 8390
 	public const BaseEntity.Flags Flag_HasPower = 65536;
 	public List<ExcavatorOutputPile> outputPiles; // 0x308
 	public SoundDefinition miningStartButtonSoundDef; // 0x310
-	[HeaderAttribute] // RVA: 0xDDB70 Offset: 0xDCF70 VA: 0x1800DDB70
+	[HeaderAttribute] // RVA: 0xDDCA0 Offset: 0xDD0A0 VA: 0x1800DDCA0
 	public ItemAmount[] resourcesToMine; // 0x318
 	public float resourceProductionTickRate; // 0x320
 	public float timeForFullResources; // 0x324
@@ -48,34 +48,34 @@ public class ExcavatorArm : BaseEntity // TypeDefIndex: 8390
 
 	public void Update() { }
 
-	[BaseEntity.Menu] // RVA: 0xDEF90 Offset: 0xDE390 VA: 0x1800DEF90
-	[BaseEntity.Menu.Description] // RVA: 0xDEF90 Offset: 0xDE390 VA: 0x1800DEF90
-	[BaseEntity.Menu.Icon] // RVA: 0xDEF90 Offset: 0xDE390 VA: 0x1800DEF90
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDEF90 Offset: 0xDE390 VA: 0x1800DEF90
+	[BaseEntity.Menu] // RVA: 0xDF090 Offset: 0xDE490 VA: 0x1800DF090
+	[BaseEntity.Menu.Description] // RVA: 0xDF090 Offset: 0xDE490 VA: 0x1800DF090
+	[BaseEntity.Menu.Icon] // RVA: 0xDF090 Offset: 0xDE490 VA: 0x1800DF090
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDF090 Offset: 0xDE490 VA: 0x1800DF090
 	public void Menu_TargetHQM(BasePlayer player) { }
 
 	public bool Menu_TargetHQM_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xDF1B0 Offset: 0xDE5B0 VA: 0x1800DF1B0
-	[BaseEntity.Menu.Description] // RVA: 0xDF1B0 Offset: 0xDE5B0 VA: 0x1800DF1B0
-	[BaseEntity.Menu.Icon] // RVA: 0xDF1B0 Offset: 0xDE5B0 VA: 0x1800DF1B0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDF1B0 Offset: 0xDE5B0 VA: 0x1800DF1B0
+	[BaseEntity.Menu] // RVA: 0xDF2A0 Offset: 0xDE6A0 VA: 0x1800DF2A0
+	[BaseEntity.Menu.Description] // RVA: 0xDF2A0 Offset: 0xDE6A0 VA: 0x1800DF2A0
+	[BaseEntity.Menu.Icon] // RVA: 0xDF2A0 Offset: 0xDE6A0 VA: 0x1800DF2A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDF2A0 Offset: 0xDE6A0 VA: 0x1800DF2A0
 	public void Menu_TargetSulfur(BasePlayer player) { }
 
 	public bool Menu_TargetSulfur_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
-	[BaseEntity.Menu.Description] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
-	[BaseEntity.Menu.Icon] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
+	[BaseEntity.Menu] // RVA: 0xDF5D0 Offset: 0xDE9D0 VA: 0x1800DF5D0
+	[BaseEntity.Menu.Description] // RVA: 0xDF5D0 Offset: 0xDE9D0 VA: 0x1800DF5D0
+	[BaseEntity.Menu.Icon] // RVA: 0xDF5D0 Offset: 0xDE9D0 VA: 0x1800DF5D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDF5D0 Offset: 0xDE9D0 VA: 0x1800DF5D0
 	public void Menu_TargetStone(BasePlayer player) { }
 
 	public bool Menu_TargetStone_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
-	[BaseEntity.Menu.Description] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
-	[BaseEntity.Menu.Icon] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
+	[BaseEntity.Menu] // RVA: 0xDF800 Offset: 0xDEC00 VA: 0x1800DF800
+	[BaseEntity.Menu.Description] // RVA: 0xDF800 Offset: 0xDEC00 VA: 0x1800DF800
+	[BaseEntity.Menu.Icon] // RVA: 0xDF800 Offset: 0xDEC00 VA: 0x1800DF800
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDF800 Offset: 0xDEC00 VA: 0x1800DF800
 	public void Menu_TargetMetal(BasePlayer player) { }
 
 	public bool Menu_TargetMetal_ShowIf(BasePlayer player) { }

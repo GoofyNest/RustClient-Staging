@@ -3,7 +3,7 @@ public class Context // TypeDefIndex: 1171
 	private int context_id; // 0x14
 	private UIntPtr static_data; // 0x18
 	private UIntPtr data; // 0x20
-	[ContextStaticAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ContextStaticAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static object[] local_slots; // 0x0
 	private static IMessageSink default_server_context_sink; // 0x8
 	private IMessageSink server_context_sink_chain; // 0x28

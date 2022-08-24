@@ -1,11 +1,11 @@
 public sealed class LineRenderer : Renderer // TypeDefIndex: 3401
 {	public Color startColor { set; }
 	public Color endColor { set; }
-	[NativePropertyAttribute] // RVA: 0x8E280 Offset: 0x8D680 VA: 0x18008E280
+	[NativePropertyAttribute] // RVA: 0x8E3C0 Offset: 0x8D7C0 VA: 0x18008E3C0
 	public int positionCount { get; set; }
 
 
-	[ObsoleteAttribute] // RVA: 0x8DF20 Offset: 0x8D320 VA: 0x18008DF20
+	[ObsoleteAttribute] // RVA: 0x8E060 Offset: 0x8D460 VA: 0x18008E060
 	public void SetColors(Color start, Color end) { }
 
 	public void set_startColor(Color value) { }
@@ -20,10 +20,10 @@ public sealed class LineRenderer : Renderer // TypeDefIndex: 3401
 
 	public Vector3 GetPosition(int index) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8DF80 Offset: 0x8D380 VA: 0x18008DF80
+	[FreeFunctionAttribute] // RVA: 0x8E0C0 Offset: 0x8D4C0 VA: 0x18008E0C0
 	public int GetPositions([Out] Vector3[] positions) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8E060 Offset: 0x8D460 VA: 0x18008E060
+	[FreeFunctionAttribute] // RVA: 0x8E160 Offset: 0x8D560 VA: 0x18008E160
 	public void SetPositions(Vector3[] positions) { }
 
 	private void set_startColor_Injected(ref Color value) { }

@@ -1,4 +1,4 @@
-public sealed class ColorParameter : ParameterOverride<Color> // TypeDefIndex: 11829
+public sealed class ColorParameter : ParameterOverride<Color> // TypeDefIndex: 11833
 {
 	public override void Interp(Color from, Color to, float t) { }
 

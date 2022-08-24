@@ -1,5 +1,5 @@
 public class OreHopper : PercentFullStorageContainer // TypeDefIndex: 8284
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform oreOutputMesh; // 0x3D8
 	private float visualPercentFull; // 0x3E0
 	private Vector3 _oreScale; // 0x3E4

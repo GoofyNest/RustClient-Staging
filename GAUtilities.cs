@@ -1,5 +1,5 @@
 internal static class GAUtilities // TypeDefIndex: 5636
-{	private static readonly DateTime origin; // 0x31D0
+{	private static readonly DateTime origin; // 0x24D6
 
 
 	public static byte[] GzipCompress(string data) { }

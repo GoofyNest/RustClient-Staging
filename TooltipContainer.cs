@@ -1,4 +1,4 @@
-public class TooltipContainer : MonoBehaviour // TypeDefIndex: 11242
+public class TooltipContainer : MonoBehaviour // TypeDefIndex: 11246
 {	private RectTransform Source; // 0x18
 	private Vector3[] corners; // 0x20
 

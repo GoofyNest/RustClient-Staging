@@ -1,18 +1,18 @@
 public struct SkeletonBone // TypeDefIndex: 4491
 {
-[RequiredByNativeCodeAttribute] // RVA: 0xCD5D0 Offset: 0xCC9D0 VA: 0x1800CD5D0
-[NativeTypeAttribute] // RVA: 0xCD5D0 Offset: 0xCC9D0 VA: 0x1800CD5D0
-[NativeHeaderAttribute] // RVA: 0xCD5D0 Offset: 0xCC9D0 VA: 0x1800CD5D0
+[RequiredByNativeCodeAttribute] // RVA: 0xCD670 Offset: 0xCCA70 VA: 0x1800CD670
+[NativeTypeAttribute] // RVA: 0xCD670 Offset: 0xCCA70 VA: 0x1800CD670
+[NativeHeaderAttribute] // RVA: 0xCD670 Offset: 0xCCA70 VA: 0x1800CD670
 public struct SkeletonBone // TypeDefIndex: 4491
-	[NativeNameAttribute] // RVA: 0xCD730 Offset: 0xCCB30 VA: 0x1800CD730
+	[NativeNameAttribute] // RVA: 0xCD7E0 Offset: 0xCCBE0 VA: 0x1800CD7E0
 	public string name; // 0x0
-	[NativeNameAttribute] // RVA: 0xCD840 Offset: 0xCCC40 VA: 0x1800CD840
+	[NativeNameAttribute] // RVA: 0xCD8D0 Offset: 0xCCCD0 VA: 0x1800CD8D0
 	internal string parentName; // 0x8
-	[NativeNameAttribute] // RVA: 0xCD9D0 Offset: 0xCCDD0 VA: 0x1800CD9D0
+	[NativeNameAttribute] // RVA: 0xCDAB0 Offset: 0xCCEB0 VA: 0x1800CDAB0
 	public Vector3 position; // 0x10
-	[NativeNameAttribute] // RVA: 0xCDB00 Offset: 0xCCF00 VA: 0x1800CDB00
+	[NativeNameAttribute] // RVA: 0xCDBE0 Offset: 0xCCFE0 VA: 0x1800CDBE0
 	public Quaternion rotation; // 0x1C
-	[NativeNameAttribute] // RVA: 0xCDBF0 Offset: 0xCCFF0 VA: 0x1800CDBF0
+	[NativeNameAttribute] // RVA: 0xCDCC0 Offset: 0xCD0C0 VA: 0x1800CDCC0
 	public Vector3 scale; // 0x2C
 
 }

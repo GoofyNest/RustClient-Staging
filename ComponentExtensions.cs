@@ -1,6 +1,6 @@
 public static class ComponentExtensions // TypeDefIndex: 6223
 {
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static T Duplicate<T>(T obj) { }
 	/* GenericInstMethod :
 	|
@@ -8,7 +8,7 @@ public static class ComponentExtensions // TypeDefIndex: 6223
 	|-ComponentExtensions.Duplicate<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static T[] Duplicate<T>(T obj, int amount, bool includeOriginalInArray = False) { }
 	/* GenericInstMethod :
 	|
@@ -16,7 +16,7 @@ public static class ComponentExtensions // TypeDefIndex: 6223
 	|-ComponentExtensions.Duplicate<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void SetActive<T>(T obj, bool active) { }
 	/* GenericInstMethod :
 	|
@@ -33,35 +33,35 @@ public static class ComponentExtensions // TypeDefIndex: 6223
 	|-ComponentExtensions.SetActive<Text>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static Vector2 WorldToRectTransform<T>(T obj, Vector2 worldPos) { }
 	/* GenericInstMethod :
 	|
 	|-ComponentExtensions.WorldToRectTransform<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static Rect GetWorldRect<T>(T obj) { }
 	/* GenericInstMethod :
 	|
 	|-ComponentExtensions.GetWorldRect<object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool GetComponent<T, U>(T obj, out U value) { }
 	/* GenericInstMethod :
 	|
 	|-ComponentExtensions.GetComponent<object, object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool GetComponentInParent<T, U>(T obj, out U value) { }
 	/* GenericInstMethod :
 	|
 	|-ComponentExtensions.GetComponentInParent<object, object>
 	*/
 
-	[ExtensionAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool GetComponentInChildren<T, U>(T obj, out U value) { }
 	/* GenericInstMethod :
 	|

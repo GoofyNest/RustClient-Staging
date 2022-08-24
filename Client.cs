@@ -204,19 +204,19 @@ public class ClientReady.ClientInfo : IDisposable, Pool.IPooled, IProto // TypeD
 public class Client : BaseNetwork // TypeDefIndex: 6687
 {	public static float MaxReceiveTime; // 0x0
 	public static float MinReceiveFraction; // 0x4
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Connection <Connection>k__BackingField; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private readonly bool <IsPlaying>k__BackingField; // 0x30
 	public Manager visibility; // 0x38
 	public static string disconnectReason; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <ConnectedAddress>k__BackingField; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <ConnectedPort>k__BackingField; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <ServerName>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsOfficialServer>k__BackingField; // 0x58
 	public Stats IncomingStats; // 0x60
 	public IClientCallback callbackHandler; // 0x68
@@ -232,37 +232,37 @@ public class Client : BaseNetwork // TypeDefIndex: 6687
 	public TimeSpan RecordTimeElapsed { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Connection get_Connection() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected void set_Connection(Connection value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public virtual bool get_IsPlaying() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_ConnectedAddress() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_ConnectedAddress(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public int get_ConnectedPort() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_ConnectedPort(int value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public string get_ServerName() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_ServerName(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsOfficialServer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_IsOfficialServer(bool value) { }
 
 	public virtual bool Connect(string strURL, int port) { }
@@ -423,9 +423,9 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 	public static Translate.Phrase loading_openingscene; // 0x38
 	public static Translate.Phrase loading_clientready; // 0x40
 	public static Translate.Phrase loading_prefabwarmup; // 0x48
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnConnected; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static Action OnDisconnected; // 0x58
 	private IAuthTicket authTicket; // 0x18
 	private IEnumerator currentCoroutine; // 0x20
@@ -434,13 +434,13 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 	private static Client.ConnectionProtocol[] config_steamworks; // 0x68
 	private static Client.ConnectionProtocol[] config_default; // 0x70
 	private static Mesh _cubeMesh; // 0x78
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static bool <IsScrubbingDemo>k__BackingField; // 0x80
 	public static ulong DemoLocalClient; // 0x88
 	private static Reader Demo; // 0x90
 	private static float PreDemoPhysicsSteps; // 0x98
 	private const float demoTickDistSq = 2500;
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static BasePlayer <DemoSpectatePlayer>k__BackingField; // 0xA0
 	public static BaseEntity CurrentEntity; // 0xA8
 	public HashSet<uint> subscriptions; // 0x30
@@ -466,16 +466,16 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 	public static EventSystem EventSystem { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void add_OnConnected(Action value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void remove_OnConnected(Action value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void add_OnDisconnected(Action value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void remove_OnDisconnected(Action value) { }
 
 	private bool get_StatsEnabled() { }
@@ -504,12 +504,12 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 
 	private Coroutine StartLoading(IEnumerator coroutine) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD2320 Offset: 0xD1720 VA: 0x1800D2320
+	[AsyncStateMachineAttribute] // RVA: 0xD2450 Offset: 0xD1850 VA: 0x1800D2450
 	public Task Connect(string strAddress, int port, string protocol, bool hideIpAddress = False) { }
 
 	private void DestroyNetworkables() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD24A0 Offset: 0xD18A0 VA: 0x1800D24A0
+	[IteratorStateMachineAttribute] // RVA: 0xD25D0 Offset: 0xD19D0 VA: 0x1800D25D0
 	private IEnumerator DoClientConnected(Approval msg) { }
 
 	public void OnClientDisconnected(string strReason) { }
@@ -532,10 +532,10 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 
 	public static bool get_IsRecordingDemo() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static bool get_IsScrubbingDemo() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void set_IsScrubbingDemo(bool value) { }
 
 	public static TimeSpan get_RecordingTimeElapsed() { }
@@ -556,7 +556,7 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 
 	public void StartPlayingDemo(Reader demo, bool inPlace) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD2850 Offset: 0xD1C50 VA: 0x1800D2850
+	[IteratorStateMachineAttribute] // RVA: 0xD2980 Offset: 0xD1D80 VA: 0x1800D2980
 	private IEnumerator StartPlayingDemoInternal(Reader demo, bool inPlace) { }
 
 	private void OnDemoKeyframe(Indexer.Keyframe keyframe, HashSet<uint> changedEnts) { }
@@ -567,10 +567,10 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 
 	private void DemoFrame() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static BasePlayer get_DemoSpectatePlayer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void set_DemoSpectatePlayer(BasePlayer value) { }
 
 	private void DemoSpectateNextPlayer(bool forward) { }
@@ -664,7 +664,7 @@ private struct Client.<Connect>d__37 : IAsyncStateMachine // TypeDefIndex: 9147
 
 	private void MoveNext() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void SetStateMachine(IAsyncStateMachine stateMachine) { }
 
 }
@@ -693,23 +693,23 @@ private sealed class Client.<DoClientConnected>d__39 : IEnumerator<object>, IEnu
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
 	private void <>m__Finally1() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -727,10 +727,10 @@ private sealed class Client.<StartPlayingDemoInternal>d__78 : IEnumerator<object
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
@@ -745,13 +745,13 @@ private sealed class Client.<StartPlayingDemoInternal>d__78 : IEnumerator<object
 
 	private void <>m__Finally5() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.Generic.IEnumerator<System.Object>.get_Current() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[DebuggerHiddenAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private object System.Collections.IEnumerator.get_Current() { }
 
 }
@@ -808,85 +808,85 @@ public class ClientBuildingManager : BuildingManager // TypeDefIndex: 9828
 
 }
 
-public static class Client // TypeDefIndex: 11650
+public static class Client // TypeDefIndex: 11654
 {	public const byte Default = 0;
 	public const byte Tick = 1;
 
 }
 
-public class Client : ConsoleSystem // TypeDefIndex: 11892
-{	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+public class Client : ConsoleSystem // TypeDefIndex: 11896
+{	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static int maxpeerspersecond; // 0x0
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static int maxpacketspersecond_effect; // 0x4
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static int maxpacketspersecond_voice; // 0x8
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool prediction; // 0xC
-	[ClientVar] // RVA: 0x8D9D0 Offset: 0x8CDD0 VA: 0x18008D9D0
+	[ClientVar] // RVA: 0x8DC70 Offset: 0x8D070 VA: 0x18008DC70
 	public static int maxunack; // 0x10
-	[ClientVar] // RVA: 0x8DB40 Offset: 0x8CF40 VA: 0x18008DB40
+	[ClientVar] // RVA: 0x8DDC0 Offset: 0x8D1C0 VA: 0x18008DDC0
 	public static bool pushtotalk; // 0x14
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool debugdragdrop; // 0x15
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static bool debuglootsounds; // 0x16
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static float headlerp; // 0x18
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static bool headlerp_inertia; // 0x1C
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static float camlerp; // 0x20
-	[ClientVar] // RVA: 0x8DFC0 Offset: 0x8D3C0 VA: 0x18008DFC0
+	[ClientVar] // RVA: 0x8E2D0 Offset: 0x8D6D0 VA: 0x18008E2D0
 	public static bool camlerptilt; // 0x24
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static float camzoomlerp; // 0x28
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static float camspeed; // 0x2C
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static float camzoomspeed; // 0x30
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static float camlookspeed; // 0x34
-	[ClientVar] // RVA: 0x8E5B0 Offset: 0x8D9B0 VA: 0x18008E5B0
+	[ClientVar] // RVA: 0x8E7F0 Offset: 0x8DBF0 VA: 0x18008E7F0
 	public static float camdist; // 0x38
-	[ClientVar] // RVA: 0x8E5B0 Offset: 0x8D9B0 VA: 0x18008E5B0
+	[ClientVar] // RVA: 0x8E7F0 Offset: 0x8DBF0 VA: 0x18008E7F0
 	public static string cambone; // 0x40
-	[ClientVar] // RVA: 0x8E5B0 Offset: 0x8D9B0 VA: 0x18008E5B0
+	[ClientVar] // RVA: 0x8E7F0 Offset: 0x8DBF0 VA: 0x18008E7F0
 	public static float camfov; // 0x48
-	[ClientVar] // RVA: 0x8E5B0 Offset: 0x8D9B0 VA: 0x18008E5B0
+	[ClientVar] // RVA: 0x8E7F0 Offset: 0x8DBF0 VA: 0x18008E7F0
 	public static Vector3 camoffset; // 0x4C
-	[ClientVar] // RVA: 0x8E5B0 Offset: 0x8D9B0 VA: 0x18008E5B0
+	[ClientVar] // RVA: 0x8E7F0 Offset: 0x8DBF0 VA: 0x18008E7F0
 	public static bool camoffset_relative; // 0x58
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool sortSkinsRecentlyUsed; // 0x59
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool headbob; // 0x5A
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool crosshair; // 0x5B
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool hitcross; // 0x5C
-	[ClientVar] // RVA: 0x81380 Offset: 0x80780 VA: 0x180081380
+	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
 	public static bool hurtpunch; // 0x5D
 	private static bool hasAppliedPhysicalCameraDefaults; // 0x5E
 	public static Vector2[] CameraSensorSize; // 0x60
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static bool showCamInfo; // 0x68
-	[ClientVar] // RVA: 0x8EBA0 Offset: 0x8DFA0 VA: 0x18008EBA0
+	[ClientVar] // RVA: 0x8EDE0 Offset: 0x8E1E0 VA: 0x18008EDE0
 	public static float lookatradius; // 0x6C
-	[ClientVar] // RVA: 0x8ECF0 Offset: 0x8E0F0 VA: 0x18008ECF0
+	[ClientVar] // RVA: 0x8EF80 Offset: 0x8E380 VA: 0x18008EF80
 	public static int RockSkin; // 0x70
-	[ClientVar] // RVA: 0x8ECF0 Offset: 0x8E0F0 VA: 0x18008ECF0
+	[ClientVar] // RVA: 0x8EF80 Offset: 0x8E380 VA: 0x18008EF80
 	public static int UnderwearSkin; // 0x74
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static float maxreceivetime { get; set; }
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static float minreceivefraction { get; set; }
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static bool camPhysical { get; set; }
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static int camPhysicalSensor { get; set; }
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static float camPhysicalFocalLength { get; set; }
 
 
@@ -898,34 +898,34 @@ public class Client : ConsoleSystem // TypeDefIndex: 11892
 
 	public static void set_minreceivefraction(float value) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static string connect(string address = "127.0.0.1:28015", string protocol = "", bool hideIpAddress = False) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static string connecthidden(string address = "127.0.0.1:28015", string protocol = "") { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static string fps() { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static string disconnect() { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void report() { }
 
-	[ClientVar] // RVA: 0x8F3B0 Offset: 0x8E7B0 VA: 0x18008F3B0
+	[ClientVar] // RVA: 0x8F800 Offset: 0x8EC00 VA: 0x18008F800
 	public static string printpos() { }
 
-	[ClientVar] // RVA: 0x8F4C0 Offset: 0x8E8C0 VA: 0x18008F4C0
+	[ClientVar] // RVA: 0x8F8E0 Offset: 0x8ECE0 VA: 0x18008F8E0
 	public static string printrot() { }
 
-	[ClientVar] // RVA: 0x8F7A0 Offset: 0x8EBA0 VA: 0x18008F7A0
+	[ClientVar] // RVA: 0x8F9C0 Offset: 0x8EDC0 VA: 0x18008F9C0
 	public static string printeyes() { }
 
-	[ClientVar] // RVA: 0x8F820 Offset: 0x8EC20 VA: 0x18008F820
+	[ClientVar] // RVA: 0x8FB20 Offset: 0x8EF20 VA: 0x18008FB20
 	public static string printinput() { }
 
-	[ClientVar] // RVA: 0x8F9B0 Offset: 0x8EDB0 VA: 0x18008F9B0
+	[ClientVar] // RVA: 0x8FC20 Offset: 0x8F020 VA: 0x18008FC20
 	public static string printhead() { }
 
 	public static string GetClientFolder(string folder) { }
@@ -942,37 +942,37 @@ public class Client : ConsoleSystem // TypeDefIndex: 11892
 
 	public static void set_camPhysicalFocalLength(float value) { }
 
-	[ClientVar] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
+	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
 	public static void camPhysicalSensorTypes(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x85E00 Offset: 0x85200 VA: 0x180085E00
+	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
 	public static void sv(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void consoletoggle() { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static int ping() { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void benchmark(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void benchmark_demo(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void setunderwear(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void PlayerSeed(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void ShufflePlayerSeed(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void ReportPlayer(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x71220 Offset: 0x70620 VA: 0x180071220
+	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public static void ReportBug(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }
@@ -981,7 +981,7 @@ public class Client : ConsoleSystem // TypeDefIndex: 11892
 
 }
 
-public enum Client.CameraSensorType // TypeDefIndex: 11893
+public enum Client.CameraSensorType // TypeDefIndex: 11897
 {	public int value__; // 0x0
 	public const Client.CameraSensorType _8Mm = 0;
 	public const Client.CameraSensorType Super8Mm = 1;
@@ -999,7 +999,7 @@ public enum Client.CameraSensorType // TypeDefIndex: 11893
 
 }
 
-public static class Client // TypeDefIndex: 12039
+public static class Client // TypeDefIndex: 12043
 {	public const float UseDistance = 2;
 	private static Scene _entityScene; // 0x0
 	private static Scene _effectScene; // 0x4

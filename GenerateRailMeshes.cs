@@ -1,4 +1,4 @@
-public class GenerateRailMeshes : ProceduralComponent // TypeDefIndex: 10490
+public class GenerateRailMeshes : ProceduralComponent // TypeDefIndex: 10494
 {	public const float NormalSmoothing = 0;
 	public const bool SnapToTerrain = False;
 	public Mesh RailMesh; // 0x28

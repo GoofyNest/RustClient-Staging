@@ -1,4 +1,4 @@
-public class PathFinder // TypeDefIndex: 11395
+public class PathFinder // TypeDefIndex: 11399
 {	private int[,] costmap; // 0x10
 	private int[,] visited; // 0x18
 	private PathFinder.Point[] neighbors; // 0x20
@@ -51,7 +51,7 @@ public class PathFinder // TypeDefIndex: 11395
 
 }
 
-public struct PathFinder.Point : IEquatable<PathFinder.Point> // TypeDefIndex: 11396
+public struct PathFinder.Point : IEquatable<PathFinder.Point> // TypeDefIndex: 11400
 {	public int x; // 0x0
 	public int y; // 0x4
 
@@ -78,13 +78,13 @@ public struct PathFinder.Point : IEquatable<PathFinder.Point> // TypeDefIndex: 1
 
 }
 
-public class PathFinder.Node : IMinHeapNode<PathFinder.Node>, ILinkedListNode<PathFinder.Node> // TypeDefIndex: 11397
+public class PathFinder.Node : IMinHeapNode<PathFinder.Node>, ILinkedListNode<PathFinder.Node> // TypeDefIndex: 11401
 {	public PathFinder.Point point; // 0x10
 	public int cost; // 0x18
 	public int heuristic; // 0x1C
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private PathFinder.Node <next>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private PathFinder.Node <child>k__BackingField; // 0x28
 
 	public PathFinder.Node next { get; set; }
@@ -92,16 +92,16 @@ public class PathFinder.Node : IMinHeapNode<PathFinder.Node>, ILinkedListNode<Pa
 	public int order { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public PathFinder.Node get_next() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_next(PathFinder.Node value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public PathFinder.Node get_child() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void set_child(PathFinder.Node value) { }
 
 	public int get_order() { }

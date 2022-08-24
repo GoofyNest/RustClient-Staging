@@ -1,5 +1,5 @@
 internal struct LicensesUpdated_t : ICallbackData // TypeDefIndex: 5298
-{	public static int _datasize; // 0x13709
+{	public static int _datasize; // 0x2B11960
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }

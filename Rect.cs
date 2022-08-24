@@ -1,11 +1,11 @@
 public struct Rect : IEquatable<Rect> // TypeDefIndex: 3376
-{	[NativeNameAttribute] // RVA: 0x7F710 Offset: 0x7EB10 VA: 0x18007F710
+{	[NativeNameAttribute] // RVA: 0x7F7A0 Offset: 0x7EBA0 VA: 0x18007F7A0
 	private float m_XMin; // 0x0
-	[NativeNameAttribute] // RVA: 0x7F820 Offset: 0x7EC20 VA: 0x18007F820
+	[NativeNameAttribute] // RVA: 0x7F8B0 Offset: 0x7ECB0 VA: 0x18007F8B0
 	private float m_YMin; // 0x4
-	[NativeNameAttribute] // RVA: 0x7F8D0 Offset: 0x7ECD0 VA: 0x18007F8D0
+	[NativeNameAttribute] // RVA: 0x7F9B0 Offset: 0x7EDB0 VA: 0x18007F9B0
 	private float m_Width; // 0x8
-	[NativeNameAttribute] // RVA: 0x7FA00 Offset: 0x7EE00 VA: 0x18007FA00
+	[NativeNameAttribute] // RVA: 0x7FAE0 Offset: 0x7EEE0 VA: 0x18007FAE0
 	private float m_Height; // 0xC
 
 	public static Rect zero { get; }

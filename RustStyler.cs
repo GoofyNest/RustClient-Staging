@@ -1,7 +1,7 @@
 public class RustStyler : MonoBehaviour // TypeDefIndex: 7032
-{	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+{	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected StyleAsset _styles; // 0x18
-	[SerializeField] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected StyleGroup _group; // 0x20
 	public Graphic[] Foreground; // 0x28
 	public Graphic[] Background; // 0x30

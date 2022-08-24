@@ -8,7 +8,7 @@ internal static class X509Helper2 // TypeDefIndex: 2834
 
 	internal static X509Certificate2Impl Import(X509Certificate cert, bool disableProvider = False) { }
 
-	[MonoTODOAttribute] // RVA: 0xB0890 Offset: 0xAFC90 VA: 0x1800B0890
+	[MonoTODOAttribute] // RVA: 0xB0930 Offset: 0xAFD30 VA: 0x1800B0930
 	internal static X509Certificate GetMonoCertificate(X509Certificate2 certificate) { }
 
 	internal static X509ChainImpl CreateChainImpl(bool useMachineContext) { }

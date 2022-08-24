@@ -2,9 +2,9 @@ public class SkinnedMeshRenderer : Renderer // TypeDefIndex: 3436
 {	public bool updateWhenOffscreen { get; set; }
 	public Transform rootBone { get; set; }
 	public Transform[] bones { get; set; }
-	[NativePropertyAttribute] // RVA: 0x965C0 Offset: 0x959C0 VA: 0x1800965C0
+	[NativePropertyAttribute] // RVA: 0x96700 Offset: 0x95B00 VA: 0x180096700
 	public Mesh sharedMesh { get; set; }
-	[NativePropertyAttribute] // RVA: 0x966B0 Offset: 0x95AB0 VA: 0x1800966B0
+	[NativePropertyAttribute] // RVA: 0x96780 Offset: 0x95B80 VA: 0x180096780
 	public bool skinnedMotionVectors { get; set; }
 	public Bounds localBounds { get; set; }
 
@@ -29,7 +29,7 @@ public class SkinnedMeshRenderer : Renderer // TypeDefIndex: 3436
 
 	public void set_skinnedMotionVectors(bool value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x96580 Offset: 0x95980 VA: 0x180096580
+	[FreeFunctionAttribute] // RVA: 0x96680 Offset: 0x95A80 VA: 0x180096680
 	private Bounds GetLocalAABB() { }
 
 	private void SetLocalAABB(Bounds b) { }

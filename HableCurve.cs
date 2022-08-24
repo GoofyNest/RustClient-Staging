@@ -1,11 +1,11 @@
-public class HableCurve // TypeDefIndex: 11858
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+public class HableCurve // TypeDefIndex: 11862
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <whitePoint>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <inverseWhitePoint>k__BackingField; // 0x14
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <x0>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <x1>k__BackingField; // 0x1C
 	private readonly HableCurve.Segment[] m_Segments; // 0x20
 	public readonly HableCurve.Uniforms uniforms; // 0x28
@@ -16,28 +16,28 @@ public class HableCurve // TypeDefIndex: 11858
 	internal float x1 { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_whitePoint() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_whitePoint(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public float get_inverseWhitePoint() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_inverseWhitePoint(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal float get_x0() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_x0(float value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal float get_x1() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_x1(float value) { }
 
 	public void .ctor() { }
@@ -56,7 +56,7 @@ public class HableCurve // TypeDefIndex: 11858
 
 }
 
-private class HableCurve.Segment // TypeDefIndex: 11859
+private class HableCurve.Segment // TypeDefIndex: 11863
 {	public float offsetX; // 0x10
 	public float offsetY; // 0x14
 	public float scaleX; // 0x18
@@ -71,7 +71,7 @@ private class HableCurve.Segment // TypeDefIndex: 11859
 
 }
 
-private struct HableCurve.DirectParams // TypeDefIndex: 11860
+private struct HableCurve.DirectParams // TypeDefIndex: 11864
 {	internal float x0; // 0x0
 	internal float y0; // 0x4
 	internal float x1; // 0x8
@@ -83,7 +83,7 @@ private struct HableCurve.DirectParams // TypeDefIndex: 11860
 
 }
 
-public class HableCurve.Uniforms // TypeDefIndex: 11861
+public class HableCurve.Uniforms // TypeDefIndex: 11865
 {	private HableCurve parent; // 0x10
 
 	public Vector4 curve { get; }

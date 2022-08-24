@@ -1,4 +1,4 @@
-public class WaterDynamics : MonoBehaviour // TypeDefIndex: 10603
+public class WaterDynamics : MonoBehaviour // TypeDefIndex: 10607
 {	private const int maxRasterSize = 1024;
 	private const int subStep = 256;
 	private const int subShift = 8;
@@ -18,7 +18,7 @@ public class WaterDynamics : MonoBehaviour // TypeDefIndex: 10603
 	private MaterialPropertyBlock block; // 0x98
 	private Mesh mesh; // 0xA0
 	private static Dictionary<Texture2D, WaterDynamics.InstanceBatch> Batches; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <IsInitialized>k__BackingField; // 0xA8
 	public bool ForceFallback; // 0xA9
 	private WaterDynamics.Target target; // 0xB0
@@ -97,10 +97,10 @@ public class WaterDynamics : MonoBehaviour // TypeDefIndex: 10603
 	|-WaterDynamics.SafeRelease<ComputeBuffer>
 	*/
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_IsInitialized(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool get_IsInitialized() { }
 
 	public static void RegisterInteraction(WaterInteraction interaction) { }
@@ -131,7 +131,7 @@ public class WaterDynamics : MonoBehaviour // TypeDefIndex: 10603
 
 }
 
-public struct WaterDynamics.ImageDesc // TypeDefIndex: 10604
+public struct WaterDynamics.ImageDesc // TypeDefIndex: 10608
 {	public int width; // 0x0
 	public int height; // 0x4
 	public int maxWidth; // 0x8
@@ -145,19 +145,19 @@ public struct WaterDynamics.ImageDesc // TypeDefIndex: 10604
 
 }
 
-public class WaterDynamics.Image // TypeDefIndex: 10605
+public class WaterDynamics.Image // TypeDefIndex: 10609
 {	public WaterDynamics.ImageDesc desc; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Texture2D <texture>k__BackingField; // 0x28
 	public byte[] pixels; // 0x30
 
 	public Texture2D texture { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Texture2D get_texture() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_texture(Texture2D value) { }
 
 	public void .ctor(Texture2D tex) { }
@@ -168,7 +168,7 @@ public class WaterDynamics.Image // TypeDefIndex: 10605
 
 }
 
-private struct WaterDynamics.Point2D // TypeDefIndex: 10606
+private struct WaterDynamics.Point2D // TypeDefIndex: 10610
 {	public int x; // 0x0
 	public int y; // 0x4
 
@@ -179,7 +179,7 @@ private struct WaterDynamics.Point2D // TypeDefIndex: 10606
 
 }
 
-public struct WaterDynamics.InstanceData // TypeDefIndex: 10607
+public struct WaterDynamics.InstanceData // TypeDefIndex: 10611
 {	public Vector4 PositionScale; // 0x0
 	public Vector4 RotationDispDist; // 0x10
 
@@ -188,15 +188,15 @@ public struct WaterDynamics.InstanceData // TypeDefIndex: 10607
 
 }
 
-private class WaterDynamics.InstanceBatch // TypeDefIndex: 10608
-{	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+private class WaterDynamics.InstanceBatch // TypeDefIndex: 10612
+{	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Mesh <Mesh>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Texture <Texture>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ComputeBuffer <ArgBuffer>k__BackingField; // 0x20
 	private uint[] args; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ComputeBuffer <InstanceBuffer>k__BackingField; // 0x30
 	private SimpleList<WaterDynamics.InstanceData> instances; // 0x38
 
@@ -207,28 +207,28 @@ private class WaterDynamics.InstanceBatch // TypeDefIndex: 10608
 	public int Count { get; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Mesh(Mesh value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Mesh get_Mesh() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_Texture(Texture value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Texture get_Texture() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_ArgBuffer(ComputeBuffer value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public ComputeBuffer get_ArgBuffer() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_InstanceBuffer(ComputeBuffer value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F3D0 Offset: 0x6E7D0 VA: 0x18006F3D0
+	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public ComputeBuffer get_InstanceBuffer() { }
 
 	public int get_Count() { }
@@ -249,7 +249,7 @@ private class WaterDynamics.InstanceBatch // TypeDefIndex: 10608
 
 }
 
-public struct WaterDynamics.TargetDesc // TypeDefIndex: 10609
+public struct WaterDynamics.TargetDesc // TypeDefIndex: 10613
 {	public int size; // 0x0
 	public int maxSize; // 0x4
 	public int maxSizeSubStep; // 0x8
@@ -276,7 +276,7 @@ public struct WaterDynamics.TargetDesc // TypeDefIndex: 10609
 
 }
 
-public class WaterDynamics.Target // TypeDefIndex: 10610
+public class WaterDynamics.Target // TypeDefIndex: 10614
 {	public WaterDynamics owner; // 0x10
 	public WaterDynamics.TargetDesc desc; // 0x18
 	private byte[] pixels; // 0x50

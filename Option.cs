@@ -13,7 +13,7 @@ public struct Option // TypeDefIndex: 7027
 
 }
 
-public struct Option // TypeDefIndex: 11674
+public struct Option // TypeDefIndex: 11678
 {	public string title; // 0x0
 	public string desc; // 0x8
 	public string requirements; // 0x10
