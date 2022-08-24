@@ -4,7 +4,7 @@ public class UploadHandler : IDisposable // TypeDefIndex: 4134
 	public string contentType { set; }
 
 
-	[NativeMethodAttribute] // RVA: 0x90760 Offset: 0x8FB60 VA: 0x180090760
+	[NativeMethodAttribute] // RVA: 0x90660 Offset: 0x8FA60 VA: 0x180090660
 	private void Release() { }
 
 	internal void .ctor() { }
@@ -17,7 +17,7 @@ public class UploadHandler : IDisposable // TypeDefIndex: 4134
 
 	internal virtual void SetContentType(string newContentType) { }
 
-	[NativeMethodAttribute] // RVA: 0x91AC0 Offset: 0x90EC0 VA: 0x180091AC0
+	[NativeMethodAttribute] // RVA: 0x91AD0 Offset: 0x90ED0 VA: 0x180091AD0
 	private void InternalSetContentType(string newContentType) { }
 
 }

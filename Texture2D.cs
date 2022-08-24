@@ -1,15 +1,15 @@
 public sealed class Texture2D : Texture // TypeDefIndex: 3445
 {	public TextureFormat format { get; }
-	[StaticAccessorAttribute] // RVA: 0x9FA40 Offset: 0x9EE40 VA: 0x18009FA40
+	[StaticAccessorAttribute] // RVA: 0x9F950 Offset: 0x9ED50 VA: 0x18009F950
 	public static Texture2D whiteTexture { get; }
-	[StaticAccessorAttribute] // RVA: 0x9FA40 Offset: 0x9EE40 VA: 0x18009FA40
+	[StaticAccessorAttribute] // RVA: 0x9F950 Offset: 0x9ED50 VA: 0x18009F950
 	public static Texture2D blackTexture { get; }
 	public override bool isReadable { get; }
 	public int requestedMipmapLevel { set; }
 	public int minimumMipmapLevel { set; }
 
 
-	[NativeNameAttribute] // RVA: 0x9E9C0 Offset: 0x9DDC0 VA: 0x18009E9C0
+	[NativeNameAttribute] // RVA: 0x9E8B0 Offset: 0x9DCB0 VA: 0x18009E8B0
 	public TextureFormat get_format() { }
 
 	public static Texture2D get_whiteTexture() { }
@@ -18,66 +18,66 @@ public sealed class Texture2D : Texture // TypeDefIndex: 3445
 
 	public void Compress(bool highQuality) { }
 
-	[FreeFunctionAttribute] // RVA: 0x9EAB0 Offset: 0x9DEB0 VA: 0x18009EAB0
+	[FreeFunctionAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
 	private static bool Internal_CreateImpl(Texture2D mono, int w, int h, int mipCount, GraphicsFormat format, TextureCreationFlags flags, IntPtr nativeTex) { }
 
 	private static void Internal_Create(Texture2D mono, int w, int h, int mipCount, GraphicsFormat format, TextureCreationFlags flags, IntPtr nativeTex) { }
 
 	public override bool get_isReadable() { }
 
-	[NativeNameAttribute] // RVA: 0x9EBF0 Offset: 0x9DFF0 VA: 0x18009EBF0
+	[NativeNameAttribute] // RVA: 0x9EB30 Offset: 0x9DF30 VA: 0x18009EB30
 	private void ApplyImpl(bool updateMipmaps, bool makeNoLongerReadable) { }
 
-	[NativeNameAttribute] // RVA: 0x9EC60 Offset: 0x9E060 VA: 0x18009EC60
+	[NativeNameAttribute] // RVA: 0x9EBA0 Offset: 0x9DFA0 VA: 0x18009EBA0
 	private bool ResizeImpl(int width, int height) { }
 
-	[NativeNameAttribute] // RVA: 0x9ED40 Offset: 0x9E140 VA: 0x18009ED40
+	[NativeNameAttribute] // RVA: 0x9EC80 Offset: 0x9E080 VA: 0x18009EC80
 	private void SetPixelImpl(int image, int x, int y, Color color) { }
 
-	[NativeNameAttribute] // RVA: 0x9EDD0 Offset: 0x9E1D0 VA: 0x18009EDD0
+	[NativeNameAttribute] // RVA: 0x9ECF0 Offset: 0x9E0F0 VA: 0x18009ECF0
 	private Color GetPixelImpl(int image, int x, int y) { }
 
-	[NativeNameAttribute] // RVA: 0x9EE90 Offset: 0x9E290 VA: 0x18009EE90
+	[NativeNameAttribute] // RVA: 0x9ED60 Offset: 0x9E160 VA: 0x18009ED60
 	private Color GetPixelBilinearImpl(int image, float u, float v) { }
 
-	[FreeFunctionAttribute] // RVA: 0x9EF00 Offset: 0x9E300 VA: 0x18009EF00
+	[FreeFunctionAttribute] // RVA: 0x9EDD0 Offset: 0x9E1D0 VA: 0x18009EDD0
 	private bool ResizeWithFormatImpl(int width, int height, TextureFormat format, bool hasMipMap) { }
 
-	[FreeFunctionAttribute] // RVA: 0x9EF40 Offset: 0x9E340 VA: 0x18009EF40
+	[FreeFunctionAttribute] // RVA: 0x9EE10 Offset: 0x9E210 VA: 0x18009EE10
 	private void ReadPixelsImpl(Rect source, int destX, int destY, bool recalculateMipMaps) { }
 
-	[FreeFunctionAttribute] // RVA: 0x9EF80 Offset: 0x9E380 VA: 0x18009EF80
+	[FreeFunctionAttribute] // RVA: 0x9EEA0 Offset: 0x9E2A0 VA: 0x18009EEA0
 	private void SetPixelsImpl(int x, int y, int w, int h, Color[] pixel, int miplevel, int frame) { }
 
-	[FreeFunctionAttribute] // RVA: 0x9F090 Offset: 0x9E490 VA: 0x18009F090
+	[FreeFunctionAttribute] // RVA: 0x9EFE0 Offset: 0x9E3E0 VA: 0x18009EFE0
 	private bool LoadRawTextureDataImpl(IntPtr data, int size) { }
 
 	private IntPtr GetWritableImageData(int frame) { }
 
 	private long GetRawImageDataSize() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9F0D0 Offset: 0x9E4D0 VA: 0x18009F0D0
+	[FreeFunctionAttribute] // RVA: 0x9F050 Offset: 0x9E450 VA: 0x18009F050
 	public void set_requestedMipmapLevel(int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x9F1B0 Offset: 0x9E5B0 VA: 0x18009F1B0
+	[FreeFunctionAttribute] // RVA: 0x9F160 Offset: 0x9E560 VA: 0x18009F160
 	public void set_minimumMipmapLevel(int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x9F2B0 Offset: 0x9E6B0 VA: 0x18009F2B0
+	[FreeFunctionAttribute] // RVA: 0x9F290 Offset: 0x9E690 VA: 0x18009F290
 	public void ClearRequestedMipmapLevel() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9F2F0 Offset: 0x9E6F0 VA: 0x18009F2F0
+	[FreeFunctionAttribute] // RVA: 0x9F390 Offset: 0x9E790 VA: 0x18009F390
 	public void ClearMinimumMipmapLevel() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9F330 Offset: 0x9E730 VA: 0x18009F330
+	[FreeFunctionAttribute] // RVA: 0x9F420 Offset: 0x9E820 VA: 0x18009F420
 	private void SetAllPixels32(Color32[] colors, int miplevel) { }
 
-	[FreeFunctionAttribute] // RVA: 0x9F3C0 Offset: 0x9E7C0 VA: 0x18009F3C0
+	[FreeFunctionAttribute] // RVA: 0x9F460 Offset: 0x9E860 VA: 0x18009F460
 	private void SetBlockOfPixels32(int x, int y, int blockWidth, int blockHeight, Color32[] colors, int miplevel) { }
 
-	[FreeFunctionAttribute] // RVA: 0x9F430 Offset: 0x9E830 VA: 0x18009F430
+	[FreeFunctionAttribute] // RVA: 0x9F4A0 Offset: 0x9E8A0 VA: 0x18009F4A0
 	public Color[] GetPixels(int x, int y, int blockWidth, int blockHeight, int miplevel) { }
 
-	[FreeFunctionAttribute] // RVA: 0x9F4D0 Offset: 0x9E8D0 VA: 0x18009F4D0
+	[FreeFunctionAttribute] // RVA: 0x9F510 Offset: 0x9E910 VA: 0x18009F510
 	public Color32[] GetPixels32(int miplevel) { }
 
 	public Color32[] GetPixels32() { }

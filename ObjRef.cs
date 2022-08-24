@@ -30,7 +30,7 @@ public class ObjRef : IObjectReference, ISerializable // TypeDefIndex: 1136
 
 	internal bool get_IsReferenceToWellKnow() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public virtual IChannelInfo get_ChannelInfo() { }
 
 	public virtual IEnvoyInfo get_EnvoyInfo() { }

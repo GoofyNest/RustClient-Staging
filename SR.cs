@@ -130,7 +130,7 @@ internal class SR // TypeDefIndex: 4895
 {	private static ResourceManager resourceMan; // 0x0
 	private static CultureInfo resourceCulture; // 0x8
 
-	[EditorBrowsableAttribute] // RVA: 0x8CE50 Offset: 0x8C250 VA: 0x18008CE50
+	[EditorBrowsableAttribute] // RVA: 0x8CD30 Offset: 0x8C130 VA: 0x18008CD30
 	internal static ResourceManager ResourceManager { get; }
 	internal static string DataTypes { get; }
 	internal static string Keywords { get; }

@@ -83,7 +83,7 @@ internal class RuntimeType : TypeInfo, ISerializable, ICloneable // TypeDefIndex
 
 	public override MethodInfo[] GetMethods(BindingFlags bindingAttr) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public override ConstructorInfo[] GetConstructors(BindingFlags bindingAttr) { }
 
 	public override PropertyInfo[] GetProperties(BindingFlags bindingAttr) { }
@@ -116,7 +116,7 @@ internal class RuntimeType : TypeInfo, ISerializable, ICloneable // TypeDefIndex
 
 	public override bool IsInstanceOfType(object o) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public override bool IsSubclassOf(Type type) { }
 
 	public override bool IsAssignableFrom(Type c) { }
@@ -183,8 +183,8 @@ internal class RuntimeType : TypeInfo, ISerializable, ICloneable // TypeDefIndex
 
 	public override bool get_IsGenericType() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[DebuggerStepThroughAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[DebuggerHiddenAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[DebuggerStepThroughAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public override object InvokeMember(string name, BindingFlags bindingFlags, Binder binder, object target, object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, string[] namedParams) { }
 
 	public override bool Equals(object obj) { }
@@ -217,8 +217,8 @@ internal class RuntimeType : TypeInfo, ISerializable, ICloneable // TypeDefIndex
 
 	internal object CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes, ref StackCrawlMark stackMark) { }
 
-	[DebuggerStepThroughAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[DebuggerHiddenAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[DebuggerStepThroughAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[DebuggerHiddenAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	internal object CreateInstanceDefaultCtor(bool publicOnly, bool skipCheckThis, bool fillCache, ref StackCrawlMark stackMark) { }
 
 	internal MonoCMethod GetDefaultConstructor() { }

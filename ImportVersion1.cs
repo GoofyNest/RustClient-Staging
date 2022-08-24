@@ -1,6 +1,6 @@
 internal class ImportVersion1 : SingletonComponent<ImportVersion1> // TypeDefIndex: 7770
 {
-	[IteratorStateMachineAttribute] // RVA: 0xD8E80 Offset: 0xD8280 VA: 0x1800D8E80
+	[IteratorStateMachineAttribute] // RVA: 0xD8DD0 Offset: 0xD81D0 VA: 0x1800D8DD0
 	internal IEnumerator DoImport(IWorkshopContent item, Skin skin) { }
 
 	public void .ctor() { }

@@ -12,7 +12,7 @@ public class RandomItemDispenser : PrefabAttribute, IServerComponent // TypeDefI
 public struct RandomItemDispenser.RandomItemChance // TypeDefIndex: 9675
 {	public ItemDefinition Item; // 0x0
 	public int Amount; // 0x8
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float Chance; // 0xC
 
 }

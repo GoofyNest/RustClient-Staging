@@ -57,11 +57,11 @@ public class PostProcessLayer : MonoBehaviour // TypeDefIndex: 11742
 	private bool supportsIntermediateFormat; // 0xE8
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private PostProcessResources m_Resources; // 0xF0
-	[PreserveAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[PreserveAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[SerializeField] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	private bool m_ShowToolkit; // 0xF8
-	[PreserveAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[PreserveAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[SerializeField] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	private bool m_ShowCustomSorter; // 0xF9
 	public bool breakBeforeColorGrading; // 0xFA
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -748,12 +748,12 @@ public sealed class PostProcessDebugLayer // TypeDefIndex: 11844
 
 public class PostProcessDebugLayer.OverlaySettings // TypeDefIndex: 11845
 {	public bool linearDepth; // 0x10
-	[RangeAttribute] // RVA: 0x7B8D0 Offset: 0x7ACD0 VA: 0x18007B8D0
+	[RangeAttribute] // RVA: 0x7AE90 Offset: 0x7A290 VA: 0x18007AE90
 	public float motionColorIntensity; // 0x14
-	[RangeAttribute] // RVA: 0x7BAF0 Offset: 0x7AEF0 VA: 0x18007BAF0
+	[RangeAttribute] // RVA: 0x7AF80 Offset: 0x7A380 VA: 0x18007AF80
 	public int motionGridSize; // 0x18
 	public ColorBlindnessType colorBlindnessType; // 0x1C
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float colorBlindnessStrength; // 0x20
 
 
@@ -1006,7 +1006,7 @@ private sealed class PostProcessManager.<>c // TypeDefIndex: 11853
 }
 
 public sealed class PostProcessProfile : ScriptableObject // TypeDefIndex: 11854
-{	[TooltipAttribute] // RVA: 0x7C1F0 Offset: 0x7B5F0 VA: 0x18007C1F0
+{	[TooltipAttribute] // RVA: 0x7BA30 Offset: 0x7AE30 VA: 0x18007BA30
 	public List<PostProcessEffectSettings> settings; // 0x18
 	public bool isDirty; // 0x20
 
@@ -1154,16 +1154,16 @@ public sealed class PostProcessResources.SMAALuts // TypeDefIndex: 11859
 
 public sealed class PostProcessVolume : MonoBehaviour // TypeDefIndex: 11860
 {	public PostProcessProfile sharedProfile; // 0x18
-	[TooltipAttribute] // RVA: 0x7C550 Offset: 0x7B950 VA: 0x18007C550
+	[TooltipAttribute] // RVA: 0x7BDE0 Offset: 0x7B1E0 VA: 0x18007BDE0
 	public bool isGlobal; // 0x20
 	public Bounds bounds; // 0x24
-	[MinAttribute] // RVA: 0x7C6E0 Offset: 0x7BAE0 VA: 0x18007C6E0
-	[TooltipAttribute] // RVA: 0x7C6E0 Offset: 0x7BAE0 VA: 0x18007C6E0
+	[MinAttribute] // RVA: 0x7BF70 Offset: 0x7B370 VA: 0x18007BF70
+	[TooltipAttribute] // RVA: 0x7BF70 Offset: 0x7B370 VA: 0x18007BF70
 	public float blendDistance; // 0x3C
-	[RangeAttribute] // RVA: 0x7C900 Offset: 0x7BD00 VA: 0x18007C900
-	[TooltipAttribute] // RVA: 0x7C900 Offset: 0x7BD00 VA: 0x18007C900
+	[RangeAttribute] // RVA: 0x7C060 Offset: 0x7B460 VA: 0x18007C060
+	[TooltipAttribute] // RVA: 0x7C060 Offset: 0x7B460 VA: 0x18007C060
 	public float weight; // 0x40
-	[TooltipAttribute] // RVA: 0x7CA20 Offset: 0x7BE20 VA: 0x18007CA20
+	[TooltipAttribute] // RVA: 0x7C210 Offset: 0x7B610 VA: 0x18007C210
 	public float priority; // 0x44
 	private int m_PreviousLayer; // 0x48
 	private float m_PreviousPriority; // 0x4C

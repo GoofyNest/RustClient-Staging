@@ -1,10 +1,10 @@
 public static class KeyboardMidi // TypeDefIndex: 12119
-{	[ClientVar] // RVA: 0xDC5E0 Offset: 0xDB9E0 VA: 0x1800DC5E0
+{	[ClientVar] // RVA: 0xDBDD0 Offset: 0xDB1D0 VA: 0x1800DBDD0
 	public static string midikeymap; // 0x0
 	private static Dictionary<string, Dictionary<int, KeyCode[]>> MidiLookup; // 0x8
 
 
-	[ClientVar] // RVA: 0xDD9B0 Offset: 0xDCDB0 VA: 0x1800DD9B0
+	[ClientVar] // RVA: 0xDBEE0 Offset: 0xDB2E0 VA: 0x1800DBEE0
 	public static void Reload() { }
 
 	private static Dictionary<int, KeyCode[]> Init(string instrument) { }

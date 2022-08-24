@@ -1,7 +1,7 @@
 public class ImagePainter : MonoBehaviour, IPointerDownHandler, IEventSystemHandler, IPointerUpHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IInitializePotentialDragHandler // TypeDefIndex: 10948
 {	public ImagePainter.OnDrawingEvent onDrawing; // 0x18
 	public MonoBehaviour redirectRightClick; // 0x20
-	[TooltipAttribute] // RVA: 0x8D260 Offset: 0x8C660 VA: 0x18008D260
+	[TooltipAttribute] // RVA: 0x8CC10 Offset: 0x8C010 VA: 0x18008CC10
 	public float spacingScale; // 0x28
 	internal Brush brush; // 0x30
 	internal ImagePainter.PointerState[] pointerState; // 0x38

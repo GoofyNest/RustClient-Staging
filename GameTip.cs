@@ -5,7 +5,7 @@ public class GameTip : SingletonComponent<GameTip> // TypeDefIndex: 10945
 	public RustText text; // 0x30
 	public GameTip.Theme[] themes; // 0x38
 	public static BaseTip[] Tips; // 0x0
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool showgametips; // 0x8
 
 
@@ -15,26 +15,26 @@ public class GameTip : SingletonComponent<GameTip> // TypeDefIndex: 10945
 
 	public void Update() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x8CB10 Offset: 0x8BF10 VA: 0x18008CB10
+	[IteratorStateMachineAttribute] // RVA: 0x8B140 Offset: 0x8A540 VA: 0x18008B140
 	private IEnumerator Think() { }
 
 	private float GetStyleHoldDuration(int style) { }
 
 	private void ApplyStyle(int style) { }
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void ShowGameTip(string text) { }
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void HideGameTip() { }
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void ShowToast(int style, string text) { }
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void ShowToast_Translated(int style, string key, string english) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static BaseTip[] ListGameTips() { }
 
 	public void .ctor() { }

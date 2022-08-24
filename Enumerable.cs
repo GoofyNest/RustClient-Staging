@@ -1,5 +1,5 @@
 public abstract class Enum : ValueType, IComparable, IFormattable, IConvertible // TypeDefIndex: 211
-{	private static readonly char[] enumSeperatorCharArray; // 0x12EC0
+{	private static readonly char[] enumSeperatorCharArray; // 0x13EE1
 	private const string enumSeperator = ", ";
 
 
@@ -35,37 +35,37 @@ public abstract class Enum : ValueType, IComparable, IFormattable, IConvertible 
 	|-Enum.TryParse<KeyCode>
 	*/
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static object Parse(Type enumType, string value) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static object Parse(Type enumType, string value, bool ignoreCase) { }
 
 	private static bool TryParseEnum(Type enumType, string value, bool ignoreCase, ref Enum.EnumResult parseResult) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static Type GetUnderlyingType(Type enumType) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static Array GetValues(Type enumType) { }
 
 	internal static ulong[] InternalGetValues(RuntimeType enumType) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static string GetName(Type enumType, object value) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static string[] GetNames(Type enumType) { }
 
 	internal static string[] InternalGetNames(RuntimeType enumType) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static object ToObject(Type enumType, object value) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static bool IsDefined(Type enumType, object value) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static string Format(Type enumType, object value, string format) { }
 
 	private object get_value() { }
@@ -82,14 +82,14 @@ public abstract class Enum : ValueType, IComparable, IFormattable, IConvertible 
 
 	public override string ToString() { }
 
-	[ObsoleteAttribute] // RVA: 0x7A0A0 Offset: 0x794A0 VA: 0x18007A0A0
+	[ObsoleteAttribute] // RVA: 0x7A080 Offset: 0x79480 VA: 0x18007A080
 	public string ToString(string format, IFormatProvider provider) { }
 
 	public int CompareTo(object target) { }
 
 	public string ToString(string format) { }
 
-	[ObsoleteAttribute] // RVA: 0x7A380 Offset: 0x79780 VA: 0x18007A380
+	[ObsoleteAttribute] // RVA: 0x7A3C0 Offset: 0x797C0 VA: 0x18007A3C0
 	public string ToString(IFormatProvider provider) { }
 
 	public bool HasFlag(Enum flag) { }
@@ -126,32 +126,32 @@ public abstract class Enum : ValueType, IComparable, IFormattable, IConvertible 
 
 	private object System.IConvertible.ToType(Type type, IFormatProvider provider) { }
 
-	[ComVisibleAttribute] // RVA: 0x7A480 Offset: 0x79880 VA: 0x18007A480
-	[CLSCompliantAttribute] // RVA: 0x7A480 Offset: 0x79880 VA: 0x18007A480
+	[ComVisibleAttribute] // RVA: 0x7A4D0 Offset: 0x798D0 VA: 0x18007A4D0
+	[CLSCompliantAttribute] // RVA: 0x7A4D0 Offset: 0x798D0 VA: 0x18007A4D0
 	public static object ToObject(Type enumType, sbyte value) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static object ToObject(Type enumType, short value) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static object ToObject(Type enumType, int value) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static object ToObject(Type enumType, byte value) { }
 
-	[ComVisibleAttribute] // RVA: 0x7A480 Offset: 0x79880 VA: 0x18007A480
-	[CLSCompliantAttribute] // RVA: 0x7A480 Offset: 0x79880 VA: 0x18007A480
+	[ComVisibleAttribute] // RVA: 0x7A4D0 Offset: 0x798D0 VA: 0x18007A4D0
+	[CLSCompliantAttribute] // RVA: 0x7A4D0 Offset: 0x798D0 VA: 0x18007A4D0
 	public static object ToObject(Type enumType, ushort value) { }
 
-	[ComVisibleAttribute] // RVA: 0x7A480 Offset: 0x79880 VA: 0x18007A480
-	[CLSCompliantAttribute] // RVA: 0x7A480 Offset: 0x79880 VA: 0x18007A480
+	[ComVisibleAttribute] // RVA: 0x7A4D0 Offset: 0x798D0 VA: 0x18007A4D0
+	[CLSCompliantAttribute] // RVA: 0x7A4D0 Offset: 0x798D0 VA: 0x18007A4D0
 	public static object ToObject(Type enumType, uint value) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static object ToObject(Type enumType, long value) { }
 
-	[ComVisibleAttribute] // RVA: 0x7A480 Offset: 0x79880 VA: 0x18007A480
-	[CLSCompliantAttribute] // RVA: 0x7A480 Offset: 0x79880 VA: 0x18007A480
+	[ComVisibleAttribute] // RVA: 0x7A4D0 Offset: 0x798D0 VA: 0x18007A4D0
+	[CLSCompliantAttribute] // RVA: 0x7A4D0 Offset: 0x798D0 VA: 0x18007A4D0
 	public static object ToObject(Type enumType, ulong value) { }
 
 	private static object ToObject(Type enumType, char value) { }
@@ -240,7 +240,7 @@ public abstract class EnumBuilder : TypeInfo // TypeDefIndex: 602
 
 	protected override ConstructorInfo GetConstructorImpl(BindingFlags bindingAttr, Binder binder, CallingConventions callConvention, Type[] types, ParameterModifier[] modifiers) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public override ConstructorInfo[] GetConstructors(BindingFlags bindingAttr) { }
 
 	public override object[] GetCustomAttributes(bool inherit) { }
@@ -3820,7 +3820,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.SelectMany<object, object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC21A0 Offset: 0xC15A0 VA: 0x1800C21A0
+	[IteratorStateMachineAttribute] // RVA: 0xC2400 Offset: 0xC1800 VA: 0x1800C2400
 	private static IEnumerable<TResult> SelectManyIterator<TSource, TResult>(IEnumerable<TSource> source, Func<TSource, IEnumerable<TResult>> selector) { }
 	/* GenericInstMethod :
 	|
@@ -3853,7 +3853,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Take<double>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC3700 Offset: 0xC2B00 VA: 0x1800C3700
+	[IteratorStateMachineAttribute] // RVA: 0xC3910 Offset: 0xC2D10 VA: 0x1800C3910
 	private static IEnumerable<TSource> TakeIterator<TSource>(IEnumerable<TSource> source, int count) { }
 	/* GenericInstMethod :
 	|
@@ -3874,7 +3874,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.TakeWhile<object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC3990 Offset: 0xC2D90 VA: 0x1800C3990
+	[IteratorStateMachineAttribute] // RVA: 0xC3BD0 Offset: 0xC2FD0 VA: 0x1800C3BD0
 	private static IEnumerable<TSource> TakeWhileIterator<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
 	|
@@ -3893,7 +3893,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Skip<byte>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC3C00 Offset: 0xC3000 VA: 0x1800C3C00
+	[IteratorStateMachineAttribute] // RVA: 0xC3E10 Offset: 0xC3210 VA: 0x1800C3E10
 	private static IEnumerable<TSource> SkipIterator<TSource>(IEnumerable<TSource> source, int count) { }
 	/* GenericInstMethod :
 	|
@@ -4062,7 +4062,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Concat<object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC5580 Offset: 0xC4980 VA: 0x1800C5580
+	[IteratorStateMachineAttribute] // RVA: 0xC5590 Offset: 0xC4990 VA: 0x1800C5590
 	private static IEnumerable<TSource> ConcatIterator<TSource>(IEnumerable<TSource> first, IEnumerable<TSource> second) { }
 	/* GenericInstMethod :
 	|
@@ -4081,7 +4081,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Zip<object, object, object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC5820 Offset: 0xC4C20 VA: 0x1800C5820
+	[IteratorStateMachineAttribute] // RVA: 0xC57B0 Offset: 0xC4BB0 VA: 0x1800C57B0
 	private static IEnumerable<TResult> ZipIterator<TFirst, TSecond, TResult>(IEnumerable<TFirst> first, IEnumerable<TSecond> second, Func<TFirst, TSecond, TResult> resultSelector) { }
 	/* GenericInstMethod :
 	|
@@ -4107,7 +4107,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Distinct<object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC5B30 Offset: 0xC4F30 VA: 0x1800C5B30
+	[IteratorStateMachineAttribute] // RVA: 0xC5B20 Offset: 0xC4F20 VA: 0x1800C5B20
 	private static IEnumerable<TSource> DistinctIterator<TSource>(IEnumerable<TSource> source, IEqualityComparer<TSource> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -4126,7 +4126,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Union<char>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC5D40 Offset: 0xC5140 VA: 0x1800C5D40
+	[IteratorStateMachineAttribute] // RVA: 0xC5D00 Offset: 0xC5100 VA: 0x1800C5D00
 	private static IEnumerable<TSource> UnionIterator<TSource>(IEnumerable<TSource> first, IEnumerable<TSource> second, IEqualityComparer<TSource> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -4146,7 +4146,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Except<object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC5F40 Offset: 0xC5340 VA: 0x1800C5F40
+	[IteratorStateMachineAttribute] // RVA: 0xC5F60 Offset: 0xC5360 VA: 0x1800C5F60
 	private static IEnumerable<TSource> ExceptIterator<TSource>(IEnumerable<TSource> first, IEnumerable<TSource> second, IEqualityComparer<TSource> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -4169,7 +4169,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Reverse<long>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC6220 Offset: 0xC5620 VA: 0x1800C6220
+	[IteratorStateMachineAttribute] // RVA: 0xC61B0 Offset: 0xC55B0 VA: 0x1800C61B0
 	private static IEnumerable<TSource> ReverseIterator<TSource>(IEnumerable<TSource> source) { }
 	/* GenericInstMethod :
 	|
@@ -4387,7 +4387,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.OfType<object>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC6710 Offset: 0xC5B10 VA: 0x1800C6710
+	[IteratorStateMachineAttribute] // RVA: 0xC6700 Offset: 0xC5B00 VA: 0x1800C6700
 	private static IEnumerable<TResult> OfTypeIterator<TResult>(IEnumerable source) { }
 	/* GenericInstMethod :
 	|
@@ -4421,7 +4421,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Cast<int>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xC6880 Offset: 0xC5C80 VA: 0x1800C6880
+	[IteratorStateMachineAttribute] // RVA: 0xC6970 Offset: 0xC5D70 VA: 0x1800C6970
 	private static IEnumerable<TResult> CastIterator<TResult>(IEnumerable source) { }
 	/* GenericInstMethod :
 	|
@@ -4572,7 +4572,7 @@ public static class Enumerable // TypeDefIndex: 3198
 
 	public static IEnumerable<int> Range(int start, int count) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xC7260 Offset: 0xC6660 VA: 0x1800C7260
+	[IteratorStateMachineAttribute] // RVA: 0xC7240 Offset: 0xC6640 VA: 0x1800C7240
 	private static IEnumerable<int> RangeIterator(int start, int count) { }
 
 	public static IEnumerable<TResult> Empty<TResult>() { }
@@ -12583,7 +12583,7 @@ public sealed class EnumMemberAttribute : Attribute // TypeDefIndex: 5707
 }
 
 internal static class EnumUtils // TypeDefIndex: 5954
-{	private static readonly ThreadSafeStore<Type, BidirectionalDictionary<string, string>> EnumMemberNamesPerType; // 0x2735
+{	private static readonly ThreadSafeStore<Type, BidirectionalDictionary<string, string>> EnumMemberNamesPerType; // 0x2B10770
 
 
 	private static BidirectionalDictionary<string, string> InitializeEnumType(Type type) { }

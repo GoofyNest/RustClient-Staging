@@ -653,8 +653,8 @@ public struct Queue.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // 
 
 public sealed class ConnectionManagementElementCollection : ConfigurationElementCollection // TypeDefIndex: 3170
 {
-[ConfigurationCollectionAttribute] // RVA: 0xC1230 Offset: 0xC0630 VA: 0x1800C1230
-[DefaultMemberAttribute] // RVA: 0xC1230 Offset: 0xC0630 VA: 0x1800C1230
+[ConfigurationCollectionAttribute] // RVA: 0xC1290 Offset: 0xC0690 VA: 0x1800C1290
+[DefaultMemberAttribute] // RVA: 0xC1290 Offset: 0xC0690 VA: 0x1800C1290
 public sealed class ConnectionManagementElementCollection : ConfigurationElementCollection // TypeDefIndex: 3170
 
 	public void .ctor() { }
@@ -984,8 +984,8 @@ public struct Connection : IEquatable<Connection> // TypeDefIndex: 5543
 	public uint Id { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[IsReadOnlyAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[CompilerGeneratedAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[IsReadOnlyAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public uint get_Id() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -1793,7 +1793,7 @@ public class NetworkVisibilityGrid : MonoBehaviour // TypeDefIndex: 10239
 {	public int startID; // 0x18
 	public int gridSize; // 0x1C
 	public int cellCount; // 0x20
-	[FormerlySerializedAsAttribute] // RVA: 0xBF400 Offset: 0xBE800 VA: 0x1800BF400
+	[FormerlySerializedAsAttribute] // RVA: 0xBEFD0 Offset: 0xBE3D0 VA: 0x1800BEFD0
 	public int visibilityRadiusFar; // 0x24
 	public int visibilityRadiusNear; // 0x28
 	public float switchTolerance; // 0x2C
@@ -1838,10 +1838,10 @@ public class ConnectionScreen : SingletonComponent<ConnectionScreen> // TypeDefI
 
 	public void RetryConnection() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x962D0 Offset: 0x956D0 VA: 0x1800962D0
+	[AsyncStateMachineAttribute] // RVA: 0x95BF0 Offset: 0x94FF0 VA: 0x180095BF0
 	public static void LoadServerInfo(string address, int port, bool addToHistory = False) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x96470 Offset: 0x95870 VA: 0x180096470
+	[AsyncStateMachineAttribute] // RVA: 0x95D50 Offset: 0x95150 VA: 0x180095D50
 	private static void LoadServerRules() { }
 
 	private static void OnServerInfoChanged() { }
@@ -2131,13 +2131,13 @@ public static class NetworkPacketEx // TypeDefIndex: 11707
 }
 
 public class Net : ConsoleSystem // TypeDefIndex: 11951
-{	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+{	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static bool visdebug; // 0x0
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool debug; // 0x1
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static int visibilityRadiusFarOverride; // 0x4
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static int visibilityRadiusNearOverride; // 0x8
 
 
@@ -2148,13 +2148,13 @@ public class Net : ConsoleSystem // TypeDefIndex: 11951
 }
 
 public class Netgraph : ConsoleSystem // TypeDefIndex: 11952
-{	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+{	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool enabled; // 0x0
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float updatespeed; // 0x4
-	[ClientVar] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
+	[ClientVar] // RVA: 0x88D60 Offset: 0x88160 VA: 0x180088D60
 	public static string typefilter; // 0x8
-	[ClientVar] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
+	[ClientVar] // RVA: 0x88D60 Offset: 0x88160 VA: 0x180088D60
 	public static string entityfilter; // 0x10
 
 

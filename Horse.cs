@@ -64,8 +64,8 @@ public class Horse : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6366
 }
 
 public class Horse : BaseAnimalNPC // TypeDefIndex: 8927
-{	[ServerVar] // RVA: 0xB4350 Offset: 0xB3750 VA: 0x1800B4350
-	public static float Population; // 0x2B117B8
+{	[ServerVar] // RVA: 0xB4540 Offset: 0xB3940 VA: 0x1800B4540
+	public static float Population; // 0x1CE0
 
 	public override float RealisticMass { get; }
 	public override BaseEntity.TraitFlag Traits { get; }

@@ -22,7 +22,7 @@ public class NVidiaReflex : MonoBehaviour // TypeDefIndex: 10229
 
 	private void LateUpdate() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBF090 Offset: 0xBE490 VA: 0x1800BF090
+	[IteratorStateMachineAttribute] // RVA: 0xBEA30 Offset: 0xBDE30 VA: 0x1800BEA30
 	private IEnumerator SleepCoroutine() { }
 
 	private void OnRenderSubmitStart(CommandBuffer cb) { }

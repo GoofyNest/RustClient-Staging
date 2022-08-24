@@ -1,6 +1,6 @@
 public static class Feedback // TypeDefIndex: 6194
 {
-	[AsyncStateMachineAttribute] // RVA: 0xA4AF0 Offset: 0xA3EF0 VA: 0x1800A4AF0
+	[AsyncStateMachineAttribute] // RVA: 0xA4A80 Offset: 0xA3E80 VA: 0x1800A4A80
 	public static Task<string> Report(Feedback feedback) { }
 
 }

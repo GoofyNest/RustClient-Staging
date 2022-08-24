@@ -2,9 +2,9 @@ public class SantaSleigh : BaseEntity // TypeDefIndex: 8636
 {	public GameObjectRef prefabDrop; // 0x168
 	public SpawnFilter filter; // 0x170
 	public Transform dropOrigin; // 0x178
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static float altitudeAboveTerrain; // 0x0
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static float desiredAltitude; // 0x4
 	public Light bigLight; // 0x180
 	public SoundPlayer hohoho; // 0x188

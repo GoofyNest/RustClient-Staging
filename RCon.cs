@@ -1,12 +1,12 @@
 public class RCon // TypeDefIndex: 11994
 {	public static string Password; // 0x0
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static int Port; // 0x8
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static string Ip; // 0x10
-	[ServerVar] // RVA: 0xCADD0 Offset: 0xCA1D0 VA: 0x1800CADD0
+	[ServerVar] // RVA: 0xCA740 Offset: 0xC9B40 VA: 0x1800CA740
 	public static bool Web; // 0x18
-	[ServerVar] // RVA: 0xCAF90 Offset: 0xCA390 VA: 0x1800CAF90
+	[ServerVar] // RVA: 0xCA840 Offset: 0xC9C40 VA: 0x1800CA840
 	public static bool Print; // 0x19
 	internal static RCon.RConListener listener; // 0x20
 	internal static Listener listenerNew; // 0x28
@@ -68,7 +68,7 @@ public enum RCon.LogType // TypeDefIndex: 11996
 public struct RCon.Response // TypeDefIndex: 11997
 {	public string Message; // 0x0
 	public int Identifier; // 0x8
-	[JsonConverterAttribute] // RVA: 0xCB070 Offset: 0xCA470 VA: 0x1800CB070
+	[JsonConverterAttribute] // RVA: 0xCA880 Offset: 0xC9C80 VA: 0x1800CA880
 	public RCon.LogType Type; // 0xC
 	public string Stacktrace; // 0x10
 

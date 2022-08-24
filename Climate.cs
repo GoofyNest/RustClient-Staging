@@ -3,9 +3,9 @@ public class Climate : SingletonComponent<Climate> // TypeDefIndex: 9829
 	private const float defaultTemp = 15;
 	private const int weatherDurationHours = 18;
 	private const int weatherFadeHours = 6;
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float BlendingSpeed; // 0x18
-	[RangeAttribute] // RVA: 0x9CB90 Offset: 0x9BF90 VA: 0x18009CB90
+	[RangeAttribute] // RVA: 0x9B170 Offset: 0x9A570 VA: 0x18009B170
 	public float FogMultiplier; // 0x1C
 	public float FogDarknessDistance; // 0x20
 	public bool DebugLUTBlending; // 0x24
@@ -177,11 +177,11 @@ public class Climate : SingletonComponent<Climate> // TypeDefIndex: 9829
 
 public class Climate.ClimateParameters // TypeDefIndex: 9830
 {	public AnimationCurve Temperature; // 0x10
-	[HorizontalAttribute] // RVA: 0x9EDB0 Offset: 0x9E1B0 VA: 0x18009EDB0
+	[HorizontalAttribute] // RVA: 0x9E830 Offset: 0x9DC30 VA: 0x18009E830
 	public Climate.Float4 AerialDensity; // 0x18
-	[HorizontalAttribute] // RVA: 0x9EDB0 Offset: 0x9E1B0 VA: 0x18009EDB0
+	[HorizontalAttribute] // RVA: 0x9E830 Offset: 0x9DC30 VA: 0x18009E830
 	public Climate.Float4 FogDensity; // 0x20
-	[HorizontalAttribute] // RVA: 0x9EDB0 Offset: 0x9E1B0 VA: 0x18009EDB0
+	[HorizontalAttribute] // RVA: 0x9E830 Offset: 0x9DC30 VA: 0x18009E830
 	public Climate.Texture2D4 LUT; // 0x28
 
 
@@ -190,17 +190,17 @@ public class Climate.ClimateParameters // TypeDefIndex: 9830
 }
 
 public class Climate.WeatherParameters // TypeDefIndex: 9831
-{	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+{	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float ClearChance; // 0x10
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float DustChance; // 0x14
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float FogChance; // 0x18
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float OvercastChance; // 0x1C
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float StormChance; // 0x20
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float RainChance; // 0x24
 
 

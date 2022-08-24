@@ -5,7 +5,7 @@ internal class UnityLogWriter : TextWriter // TypeDefIndex: 3459
 	[ThreadAndSerializationSafeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void WriteStringToUnityLog(string s) { }
 
-	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
+	[FreeFunctionAttribute] // RVA: 0x85620 Offset: 0x84A20 VA: 0x180085620
 	private static void WriteStringToUnityLogImpl(string s) { }
 
 	public static void Init() { }

@@ -33,7 +33,7 @@ public class HttpClientHandler : HttpMessageHandler // TypeDefIndex: 5740
 
 	private static bool MethodHasBody(HttpMethod method) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1900 Offset: 0xD0D00 VA: 0x1800D1900
+	[AsyncStateMachineAttribute] // RVA: 0xD18C0 Offset: 0xD0CC0 VA: 0x1800D18C0
 	protected internal override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) { }
 
 }

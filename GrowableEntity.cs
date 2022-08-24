@@ -140,20 +140,20 @@ public class GrowableEntity : BaseCombatEntity, IInstanceDataReceiver // TypeDef
 
 	public override bool DisplayHealthInfo(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE1630 Offset: 0xE0A30 VA: 0x1800E1630
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE1630 Offset: 0xE0A30 VA: 0x1800E1630
+	[BaseEntity.Menu] // RVA: 0xE15B0 Offset: 0xE09B0 VA: 0x1800E15B0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE15B0 Offset: 0xE09B0 VA: 0x1800E15B0
 	public void MenuPick(BasePlayer ply) { }
 
 	public bool MenuCanPick(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE1750 Offset: 0xE0B50 VA: 0x1800E1750
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE1750 Offset: 0xE0B50 VA: 0x1800E1750
+	[BaseEntity.Menu] // RVA: 0xE16D0 Offset: 0xE0AD0 VA: 0x1800E16D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE16D0 Offset: 0xE0AD0 VA: 0x1800E16D0
 	public void MenuClone(BasePlayer ply) { }
 
 	public bool MenuCanClone(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE1900 Offset: 0xE0D00 VA: 0x1800E1900
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE1900 Offset: 0xE0D00 VA: 0x1800E1900
+	[BaseEntity.Menu] // RVA: 0xE1880 Offset: 0xE0C80 VA: 0x1800E1880
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE1880 Offset: 0xE0C80 VA: 0x1800E1880
 	public void MenuRemove(BasePlayer ply) { }
 
 	public bool MenuCanRemove(BasePlayer player) { }

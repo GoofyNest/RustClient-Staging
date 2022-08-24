@@ -614,7 +614,7 @@ internal interface INativeCertificateHelper // TypeDefIndex: 1016
 
 public interface IDeserializationCallback // TypeDefIndex: 1029
 {
-[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 public interface IDeserializationCallback // TypeDefIndex: 1029
 
 	public abstract void OnDeserialization(object sender);
@@ -806,7 +806,7 @@ public interface IChannel // TypeDefIndex: 1194
 
 public interface IChannelReceiver : IChannel // TypeDefIndex: 1196
 {
-[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 public interface IChannelReceiver : IChannel // TypeDefIndex: 1196
 	public abstract object ChannelData { get; }
 
@@ -904,7 +904,7 @@ public interface IMessage // TypeDefIndex: 1240
 
 public interface IMessageSink // TypeDefIndex: 1242
 {
-[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 public interface IMessageSink // TypeDefIndex: 1242
 
 	public abstract IMessage SyncProcessMessage(IMessage msg);
@@ -915,7 +915,7 @@ public interface IMessageSink // TypeDefIndex: 1242
 
 public interface IMethodMessage : IMessage // TypeDefIndex: 1244
 {
-[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 public interface IMethodMessage : IMessage // TypeDefIndex: 1244
 	public abstract int ArgCount { get; }
 	public abstract object[] Args { get; }
@@ -1059,7 +1059,7 @@ public interface IDictionaryEnumerator : IEnumerator // TypeDefIndex: 1400
 
 public interface IEnumerable // TypeDefIndex: 1401
 {
-	[DispIdAttribute] // RVA: 0xE80A0 Offset: 0xE74A0 VA: 0x1800E80A0
+	[DispIdAttribute] // RVA: 0xE80B0 Offset: 0xE74B0 VA: 0x1800E80B0
 	public abstract IEnumerator GetEnumerator();
 
 }
@@ -1940,7 +1940,7 @@ public interface IComponentChangeService // TypeDefIndex: 2780
 
 public interface IDesignerHost : IServiceProvider // TypeDefIndex: 2782
 {
-[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 public interface IDesignerHost : IServiceProvider // TypeDefIndex: 2782
 	public abstract IComponent RootComponent { get; }
 
@@ -2128,8 +2128,8 @@ internal interface IPlayerEditorConnectionNative // TypeDefIndex: 3474
 
 public interface ISerializationCallbackReceiver // TypeDefIndex: 3548
 {
-[AttributeUsageAttribute] // RVA: 0xBBE20 Offset: 0xBB220 VA: 0x1800BBE20
-[RequiredByNativeCodeAttribute] // RVA: 0xBBE20 Offset: 0xBB220 VA: 0x1800BBE20
+[AttributeUsageAttribute] // RVA: 0xBBD50 Offset: 0xBB150 VA: 0x1800BBD50
+[RequiredByNativeCodeAttribute] // RVA: 0xBBD50 Offset: 0xBB150 VA: 0x1800BBD50
 public sealed class PreferBinarySerialization : Attribute // TypeDefIndex: 3547
 
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -2955,15 +2955,15 @@ public interface IMaterialModifier // TypeDefIndex: 4988
 
 public interface IVertexModifier // TypeDefIndex: 5032
 {
-	[EditorBrowsableAttribute] // RVA: 0x7FEE0 Offset: 0x7F2E0 VA: 0x18007FEE0
-	[ObsoleteAttribute] // RVA: 0x7FEE0 Offset: 0x7F2E0 VA: 0x18007FEE0
+	[EditorBrowsableAttribute] // RVA: 0x7FE50 Offset: 0x7F250 VA: 0x18007FE50
+	[ObsoleteAttribute] // RVA: 0x7FE50 Offset: 0x7F250 VA: 0x18007FE50
 	public abstract void ModifyVertices(List<UIVertex> verts);
 
 }
 
 public interface IMeshModifier // TypeDefIndex: 5033
 {
-	[ObsoleteAttribute] // RVA: 0x7FFB0 Offset: 0x7F3B0 VA: 0x18007FFB0
+	[ObsoleteAttribute] // RVA: 0x7FF20 Offset: 0x7F320 VA: 0x18007FF20
 	public abstract void ModifyMesh(Mesh mesh);
 
 	public abstract void ModifyMesh(VertexHelper verts);
@@ -4801,7 +4801,7 @@ public class UIAIDesignerScreen : SingletonComponent<UIAIDesignerScreen>, IUIScr
 
 	public void Init(AIDesign design) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x7CE70 Offset: 0x7C270 VA: 0x18007CE70
+	[IteratorStateMachineAttribute] // RVA: 0x7C460 Offset: 0x7B860 VA: 0x18007C460
 	private IEnumerator SetInitialStateContainer(int id) { }
 
 	public void SetVisible(bool flag) { }
@@ -5580,7 +5580,7 @@ public class UIContacts : SingletonComponent<UIContacts> // TypeDefIndex: 11058
 	private ItemIcon[] inventoryItemIcons; // 0x30
 
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void togglecontacts() { }
 
 	protected override void Awake() { }
@@ -5824,7 +5824,7 @@ public class UIParticle : BaseMonoBehaviour // TypeDefIndex: 11196
 }
 
 public static class UISound // TypeDefIndex: 11203
-{	private static AudioSource source; // 0x2408
+{	private static AudioSource source; // 0x2B10760
 
 
 	private static AudioSource GetAudioSource() { }
@@ -6413,19 +6413,19 @@ public static class UIEx // TypeDefIndex: 11714
 }
 
 public class UICircle : UIPrimitiveBase // TypeDefIndex: 11720
-{	[TooltipAttribute] // RVA: 0xD9B60 Offset: 0xD8F60 VA: 0x1800D9B60
+{	[TooltipAttribute] // RVA: 0xD9300 Offset: 0xD8700 VA: 0x1800D9300
 	public bool ArcInvert; // 0xF0
-	[TooltipAttribute] // RVA: 0xD9C40 Offset: 0xD9040 VA: 0x1800D9C40
-	[RangeAttribute] // RVA: 0xD9C40 Offset: 0xD9040 VA: 0x1800D9C40
+	[TooltipAttribute] // RVA: 0xD93E0 Offset: 0xD87E0 VA: 0x1800D93E0
+	[RangeAttribute] // RVA: 0xD93E0 Offset: 0xD87E0 VA: 0x1800D93E0
 	public float Arc; // 0xF4
-	[TooltipAttribute] // RVA: 0xD9E00 Offset: 0xD9200 VA: 0x1800D9E00
-	[RangeAttribute] // RVA: 0xD9E00 Offset: 0xD9200 VA: 0x1800D9E00
+	[TooltipAttribute] // RVA: 0xD9530 Offset: 0xD8930 VA: 0x1800D9530
+	[RangeAttribute] // RVA: 0xD9530 Offset: 0xD8930 VA: 0x1800D9530
 	public int ArcSteps; // 0xF8
-	[TooltipAttribute] // RVA: 0xD9F10 Offset: 0xD9310 VA: 0x1800D9F10
-	[RangeAttribute] // RVA: 0xD9F10 Offset: 0xD9310 VA: 0x1800D9F10
+	[TooltipAttribute] // RVA: 0xD9760 Offset: 0xD8B60 VA: 0x1800D9760
+	[RangeAttribute] // RVA: 0xD9760 Offset: 0xD8B60 VA: 0x1800D9760
 	public int ArcRotation; // 0xFC
-	[TooltipAttribute] // RVA: 0xDA080 Offset: 0xD9480 VA: 0x1800DA080
-	[RangeAttribute] // RVA: 0xDA080 Offset: 0xD9480 VA: 0x1800DA080
+	[TooltipAttribute] // RVA: 0xD9900 Offset: 0xD8D00 VA: 0x1800D9900
+	[RangeAttribute] // RVA: 0xD9900 Offset: 0xD8D00 VA: 0x1800D9900
 	public float Progress; // 0x100
 	private float _progress; // 0x104
 	public Color ProgressColor; // 0x108
@@ -6466,8 +6466,8 @@ public class UICircle : UIPrimitiveBase // TypeDefIndex: 11720
 }
 
 public class UICircleSimple : UIPrimitiveBase // TypeDefIndex: 11721
-{	[TooltipAttribute] // RVA: 0xD9E00 Offset: 0xD9200 VA: 0x1800D9E00
-	[RangeAttribute] // RVA: 0xD9E00 Offset: 0xD9200 VA: 0x1800D9E00
+{	[TooltipAttribute] // RVA: 0xD9530 Offset: 0xD8930 VA: 0x1800D9530
+	[RangeAttribute] // RVA: 0xD9530 Offset: 0xD8930 VA: 0x1800D9530
 	public int ArcSteps; // 0xF0
 	public bool Fill; // 0xF4
 	public float Thickness; // 0xF8
@@ -6495,8 +6495,8 @@ public class UICircleSimple : UIPrimitiveBase // TypeDefIndex: 11721
 
 public class UICornerCut : UIPrimitiveBase // TypeDefIndex: 11722
 {	public Vector2 cornerSize; // 0xF0
-	[HeaderAttribute] // RVA: 0xDA350 Offset: 0xD9750 VA: 0x1800DA350
-	[SerializeField] // RVA: 0xDA350 Offset: 0xD9750 VA: 0x1800DA350
+	[HeaderAttribute] // RVA: 0xD9F00 Offset: 0xD9300 VA: 0x1800D9F00
+	[SerializeField] // RVA: 0xD9F00 Offset: 0xD9300 VA: 0x1800D9F00
 	private bool m_cutUL; // 0xF8
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_cutUR; // 0xF9
@@ -6504,11 +6504,11 @@ public class UICornerCut : UIPrimitiveBase // TypeDefIndex: 11722
 	private bool m_cutLL; // 0xFA
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_cutLR; // 0xFB
-	[TooltipAttribute] // RVA: 0xDA700 Offset: 0xD9B00 VA: 0x1800DA700
-	[SerializeField] // RVA: 0xDA700 Offset: 0xD9B00 VA: 0x1800DA700
+	[TooltipAttribute] // RVA: 0xDA220 Offset: 0xD9620 VA: 0x1800DA220
+	[SerializeField] // RVA: 0xDA220 Offset: 0xD9620 VA: 0x1800DA220
 	private bool m_makeColumns; // 0xFC
-	[HeaderAttribute] // RVA: 0xDA940 Offset: 0xD9D40 VA: 0x1800DA940
-	[SerializeField] // RVA: 0xDA940 Offset: 0xD9D40 VA: 0x1800DA940
+	[HeaderAttribute] // RVA: 0xDA2F0 Offset: 0xD96F0 VA: 0x1800DA2F0
+	[SerializeField] // RVA: 0xDA2F0 Offset: 0xD96F0 VA: 0x1800DA2F0
 	private bool m_useColorUp; // 0xFD
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Color32 m_colorUp; // 0x100
@@ -6644,30 +6644,30 @@ public class UILineRenderer : UIPrimitiveBase // TypeDefIndex: 11726
 	private static Vector2[] middleUvs; // 0x48
 	private static Vector2[] endUvs; // 0x50
 	private static Vector2[] fullUvs; // 0x58
-	[SerializeField] // RVA: 0xDB0E0 Offset: 0xDA4E0 VA: 0x1800DB0E0
-	[TooltipAttribute] // RVA: 0xDB0E0 Offset: 0xDA4E0 VA: 0x1800DB0E0
+	[SerializeField] // RVA: 0xDAAA0 Offset: 0xD9EA0 VA: 0x1800DAAA0
+	[TooltipAttribute] // RVA: 0xDAAA0 Offset: 0xD9EA0 VA: 0x1800DAAA0
 	internal Vector2[] m_points; // 0xF0
-	[SerializeField] // RVA: 0xDB320 Offset: 0xDA720 VA: 0x1800DB320
-	[TooltipAttribute] // RVA: 0xDB320 Offset: 0xDA720 VA: 0x1800DB320
+	[SerializeField] // RVA: 0xDABB0 Offset: 0xD9FB0 VA: 0x1800DABB0
+	[TooltipAttribute] // RVA: 0xDABB0 Offset: 0xD9FB0 VA: 0x1800DABB0
 	internal List<Vector2[]> m_segments; // 0xF8
-	[SerializeField] // RVA: 0xDB3E0 Offset: 0xDA7E0 VA: 0x1800DB3E0
-	[TooltipAttribute] // RVA: 0xDB3E0 Offset: 0xDA7E0 VA: 0x1800DB3E0
+	[SerializeField] // RVA: 0xDAC30 Offset: 0xDA030 VA: 0x1800DAC30
+	[TooltipAttribute] // RVA: 0xDAC30 Offset: 0xDA030 VA: 0x1800DAC30
 	internal float lineThickness; // 0x100
-	[SerializeField] // RVA: 0xDB4F0 Offset: 0xDA8F0 VA: 0x1800DB4F0
-	[TooltipAttribute] // RVA: 0xDB4F0 Offset: 0xDA8F0 VA: 0x1800DB4F0
+	[SerializeField] // RVA: 0xDAD90 Offset: 0xDA190 VA: 0x1800DAD90
+	[TooltipAttribute] // RVA: 0xDAD90 Offset: 0xDA190 VA: 0x1800DAD90
 	internal bool relativeSize; // 0x104
-	[SerializeField] // RVA: 0xDB710 Offset: 0xDAB10 VA: 0x1800DB710
-	[TooltipAttribute] // RVA: 0xDB710 Offset: 0xDAB10 VA: 0x1800DB710
+	[SerializeField] // RVA: 0xDAF70 Offset: 0xDA370 VA: 0x1800DAF70
+	[TooltipAttribute] // RVA: 0xDAF70 Offset: 0xDA370 VA: 0x1800DAF70
 	internal bool lineList; // 0x105
-	[SerializeField] // RVA: 0xDB850 Offset: 0xDAC50 VA: 0x1800DB850
-	[TooltipAttribute] // RVA: 0xDB850 Offset: 0xDAC50 VA: 0x1800DB850
+	[SerializeField] // RVA: 0xDB150 Offset: 0xDA550 VA: 0x1800DB150
+	[TooltipAttribute] // RVA: 0xDB150 Offset: 0xDA550 VA: 0x1800DB150
 	internal bool lineCaps; // 0x106
-	[SerializeField] // RVA: 0xDBA40 Offset: 0xDAE40 VA: 0x1800DBA40
-	[TooltipAttribute] // RVA: 0xDBA40 Offset: 0xDAE40 VA: 0x1800DBA40
+	[SerializeField] // RVA: 0xDB2E0 Offset: 0xDA6E0 VA: 0x1800DB2E0
+	[TooltipAttribute] // RVA: 0xDB2E0 Offset: 0xDA6E0 VA: 0x1800DB2E0
 	internal int bezierSegmentsPerCurve; // 0x108
-	[TooltipAttribute] // RVA: 0xDBD30 Offset: 0xDB130 VA: 0x1800DBD30
+	[TooltipAttribute] // RVA: 0xDB530 Offset: 0xDA930 VA: 0x1800DB530
 	public UILineRenderer.JoinType LineJoins; // 0x10C
-	[TooltipAttribute] // RVA: 0xDBF20 Offset: 0xDB320 VA: 0x1800DBF20
+	[TooltipAttribute] // RVA: 0xDB5E0 Offset: 0xDA9E0 VA: 0x1800DB5E0
 	public UILineRenderer.BezierType BezierMode; // 0x110
 	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool drivenExternally; // 0x114
@@ -6774,27 +6774,27 @@ public class UILineRendererList : UIPrimitiveBase // TypeDefIndex: 11730
 	private static Vector2[] middleUvs; // 0x48
 	private static Vector2[] endUvs; // 0x50
 	private static Vector2[] fullUvs; // 0x58
-	[SerializeField] // RVA: 0xDB0E0 Offset: 0xDA4E0 VA: 0x1800DB0E0
-	[TooltipAttribute] // RVA: 0xDB0E0 Offset: 0xDA4E0 VA: 0x1800DB0E0
+	[SerializeField] // RVA: 0xDAAA0 Offset: 0xD9EA0 VA: 0x1800DAAA0
+	[TooltipAttribute] // RVA: 0xDAAA0 Offset: 0xD9EA0 VA: 0x1800DAAA0
 	internal List<Vector2> m_points; // 0xF0
-	[SerializeField] // RVA: 0xDB3E0 Offset: 0xDA7E0 VA: 0x1800DB3E0
-	[TooltipAttribute] // RVA: 0xDB3E0 Offset: 0xDA7E0 VA: 0x1800DB3E0
+	[SerializeField] // RVA: 0xDAC30 Offset: 0xDA030 VA: 0x1800DAC30
+	[TooltipAttribute] // RVA: 0xDAC30 Offset: 0xDA030 VA: 0x1800DAC30
 	internal float lineThickness; // 0xF8
-	[SerializeField] // RVA: 0xDB4F0 Offset: 0xDA8F0 VA: 0x1800DB4F0
-	[TooltipAttribute] // RVA: 0xDB4F0 Offset: 0xDA8F0 VA: 0x1800DB4F0
+	[SerializeField] // RVA: 0xDAD90 Offset: 0xDA190 VA: 0x1800DAD90
+	[TooltipAttribute] // RVA: 0xDAD90 Offset: 0xDA190 VA: 0x1800DAD90
 	internal bool relativeSize; // 0xFC
-	[SerializeField] // RVA: 0xDB710 Offset: 0xDAB10 VA: 0x1800DB710
-	[TooltipAttribute] // RVA: 0xDB710 Offset: 0xDAB10 VA: 0x1800DB710
+	[SerializeField] // RVA: 0xDAF70 Offset: 0xDA370 VA: 0x1800DAF70
+	[TooltipAttribute] // RVA: 0xDAF70 Offset: 0xDA370 VA: 0x1800DAF70
 	internal bool lineList; // 0xFD
-	[SerializeField] // RVA: 0xDB850 Offset: 0xDAC50 VA: 0x1800DB850
-	[TooltipAttribute] // RVA: 0xDB850 Offset: 0xDAC50 VA: 0x1800DB850
+	[SerializeField] // RVA: 0xDB150 Offset: 0xDA550 VA: 0x1800DB150
+	[TooltipAttribute] // RVA: 0xDB150 Offset: 0xDA550 VA: 0x1800DB150
 	internal bool lineCaps; // 0xFE
-	[SerializeField] // RVA: 0xDBA40 Offset: 0xDAE40 VA: 0x1800DBA40
-	[TooltipAttribute] // RVA: 0xDBA40 Offset: 0xDAE40 VA: 0x1800DBA40
+	[SerializeField] // RVA: 0xDB2E0 Offset: 0xDA6E0 VA: 0x1800DB2E0
+	[TooltipAttribute] // RVA: 0xDB2E0 Offset: 0xDA6E0 VA: 0x1800DB2E0
 	internal int bezierSegmentsPerCurve; // 0x100
-	[TooltipAttribute] // RVA: 0xDBD30 Offset: 0xDB130 VA: 0x1800DBD30
+	[TooltipAttribute] // RVA: 0xDB530 Offset: 0xDA930 VA: 0x1800DB530
 	public UILineRendererList.JoinType LineJoins; // 0x104
-	[TooltipAttribute] // RVA: 0xDBF20 Offset: 0xDB320 VA: 0x1800DBF20
+	[TooltipAttribute] // RVA: 0xDB5E0 Offset: 0xDA9E0 VA: 0x1800DB5E0
 	public UILineRendererList.BezierType BezierMode; // 0x108
 	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public bool drivenExternally; // 0x10C
@@ -6912,11 +6912,11 @@ public class UILineTextureRenderer : UIPrimitiveBase // TypeDefIndex: 11734
 public class UIPolygon : UIPrimitiveBase // TypeDefIndex: 11735
 {	public bool fill; // 0xF0
 	public float thickness; // 0xF4
-	[RangeAttribute] // RVA: 0xDF540 Offset: 0xDE940 VA: 0x1800DF540
+	[RangeAttribute] // RVA: 0xDDB10 Offset: 0xDCF10 VA: 0x1800DDB10
 	public int sides; // 0xF8
-	[RangeAttribute] // RVA: 0x9F370 Offset: 0x9E770 VA: 0x18009F370
+	[RangeAttribute] // RVA: 0x9EE50 Offset: 0x9E250 VA: 0x18009EE50
 	public float rotation; // 0xFC
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float[] VerticesDistances; // 0x100
 	private float size; // 0x108
 
@@ -7053,8 +7053,8 @@ public class UIPrimitiveBase : MaskableGraphic, ILayoutElement, ICanvasRaycastFi
 public class UIRing : UIPrimitiveBase // TypeDefIndex: 11739
 {	public float innerRadius; // 0xF0
 	public float outerRadius; // 0xF4
-	[TooltipAttribute] // RVA: 0xD9E00 Offset: 0xD9200 VA: 0x1800D9E00
-	[RangeAttribute] // RVA: 0xD9E00 Offset: 0xD9200 VA: 0x1800D9E00
+	[TooltipAttribute] // RVA: 0xD9530 Offset: 0xD8930 VA: 0x1800D9530
+	[RangeAttribute] // RVA: 0xD9530 Offset: 0xD8930 VA: 0x1800D9530
 	public int ArcSteps; // 0xF8
 	private List<int> indices; // 0x100
 	private List<UIVertex> vertices; // 0x108
@@ -7087,9 +7087,9 @@ internal interface IAmbientOcclusionMethod // TypeDefIndex: 11765
 }
 
 public class UI : ConsoleSystem // TypeDefIndex: 11975
-{	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+{	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool showinventoryplayer; // 0x0
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool autoswitchchannel; // 0x1
 
 

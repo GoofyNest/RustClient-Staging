@@ -28,7 +28,7 @@ internal class UVTextureAnimator : MonoBehaviour // TypeDefIndex: 11481
 
 	private void OnDisable() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xB4A20 Offset: 0xB3E20 VA: 0x1800B4A20
+	[IteratorStateMachineAttribute] // RVA: 0xB4680 Offset: 0xB3A80 VA: 0x1800B4680
 	private IEnumerator UpdateCorutine() { }
 
 	private void UpdateCorutineFrame() { }

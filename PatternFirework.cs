@@ -245,7 +245,7 @@ public class PatternFirework.SavedDesign : IDisposable, Pool.IPooled, IProto // 
 
 public class PatternFirework : MortarFirework, IUGCBrowserEntity // TypeDefIndex: 8275
 {	public const int CurrentVersion = 1;
-	[HeaderAttribute] // RVA: 0xA3F10 Offset: 0xA3310 VA: 0x1800A3F10
+	[HeaderAttribute] // RVA: 0xA40C0 Offset: 0xA34C0 VA: 0x1800A40C0
 	public GameObjectRef FireworkDesignerDialog; // 0x270
 	public int MaxStars; // 0x278
 	public float ShellFuseLengthShort; // 0x27C
@@ -267,10 +267,10 @@ public class PatternFirework : MortarFirework, IUGCBrowserEntity // TypeDefIndex
 
 	protected override void PreInitShell(FireworkShell shell) { }
 
-	[BaseEntity.Menu] // RVA: 0xA4010 Offset: 0xA3410 VA: 0x1800A4010
-	[BaseEntity.Menu.Description] // RVA: 0xA4010 Offset: 0xA3410 VA: 0x1800A4010
-	[BaseEntity.Menu.Icon] // RVA: 0xA4010 Offset: 0xA3410 VA: 0x1800A4010
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA4010 Offset: 0xA3410 VA: 0x1800A4010
+	[BaseEntity.Menu] // RVA: 0xA41B0 Offset: 0xA35B0 VA: 0x1800A41B0
+	[BaseEntity.Menu.Description] // RVA: 0xA41B0 Offset: 0xA35B0 VA: 0x1800A41B0
+	[BaseEntity.Menu.Icon] // RVA: 0xA41B0 Offset: 0xA35B0 VA: 0x1800A41B0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA41B0 Offset: 0xA35B0 VA: 0x1800A41B0
 	public void MenuOpenDesigner(BasePlayer player) { }
 
 	public bool MenuOpenDesigner_ShowIf(BasePlayer player) { }
@@ -280,26 +280,26 @@ public class PatternFirework : MortarFirework, IUGCBrowserEntity // TypeDefIndex
 
 	public void SetFireworkDesign(PatternFirework.Design design) { }
 
-	[BaseEntity.Menu] // RVA: 0xA4420 Offset: 0xA3820 VA: 0x1800A4420
-	[BaseEntity.Menu.Description] // RVA: 0xA4420 Offset: 0xA3820 VA: 0x1800A4420
-	[BaseEntity.Menu.Icon] // RVA: 0xA4420 Offset: 0xA3820 VA: 0x1800A4420
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA4420 Offset: 0xA3820 VA: 0x1800A4420
+	[BaseEntity.Menu] // RVA: 0xA4540 Offset: 0xA3940 VA: 0x1800A4540
+	[BaseEntity.Menu.Description] // RVA: 0xA4540 Offset: 0xA3940 VA: 0x1800A4540
+	[BaseEntity.Menu.Icon] // RVA: 0xA4540 Offset: 0xA3940 VA: 0x1800A4540
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA4540 Offset: 0xA3940 VA: 0x1800A4540
 	public void MenuShortFuse(BasePlayer player) { }
 
 	public bool MenuShortFuse_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xA4810 Offset: 0xA3C10 VA: 0x1800A4810
-	[BaseEntity.Menu.Description] // RVA: 0xA4810 Offset: 0xA3C10 VA: 0x1800A4810
-	[BaseEntity.Menu.Icon] // RVA: 0xA4810 Offset: 0xA3C10 VA: 0x1800A4810
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA4810 Offset: 0xA3C10 VA: 0x1800A4810
+	[BaseEntity.Menu] // RVA: 0xA4840 Offset: 0xA3C40 VA: 0x1800A4840
+	[BaseEntity.Menu.Description] // RVA: 0xA4840 Offset: 0xA3C40 VA: 0x1800A4840
+	[BaseEntity.Menu.Icon] // RVA: 0xA4840 Offset: 0xA3C40 VA: 0x1800A4840
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA4840 Offset: 0xA3C40 VA: 0x1800A4840
 	public void MenuMediumFuse(BasePlayer player) { }
 
 	public bool MenuMediumFuse_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xA4BB0 Offset: 0xA3FB0 VA: 0x1800A4BB0
-	[BaseEntity.Menu.Description] // RVA: 0xA4BB0 Offset: 0xA3FB0 VA: 0x1800A4BB0
-	[BaseEntity.Menu.Icon] // RVA: 0xA4BB0 Offset: 0xA3FB0 VA: 0x1800A4BB0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA4BB0 Offset: 0xA3FB0 VA: 0x1800A4BB0
+	[BaseEntity.Menu] // RVA: 0xA4B50 Offset: 0xA3F50 VA: 0x1800A4B50
+	[BaseEntity.Menu.Description] // RVA: 0xA4B50 Offset: 0xA3F50 VA: 0x1800A4B50
+	[BaseEntity.Menu.Icon] // RVA: 0xA4B50 Offset: 0xA3F50 VA: 0x1800A4B50
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA4B50 Offset: 0xA3F50 VA: 0x1800A4B50
 	public void MenuLongFuse(BasePlayer player) { }
 
 	public bool MenuLongFuse_ShowIf(BasePlayer player) { }

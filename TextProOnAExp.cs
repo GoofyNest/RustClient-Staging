@@ -1,6 +1,6 @@
 public class TextProOnAExp : TextProOnACurve // TypeDefIndex: 7123
-{	[SerializeField] // RVA: 0x807A0 Offset: 0x7FBA0 VA: 0x1800807A0
-	[TooltipAttribute] // RVA: 0x807A0 Offset: 0x7FBA0 VA: 0x1800807A0
+{	[SerializeField] // RVA: 0x80620 Offset: 0x7FA20 VA: 0x180080620
+	[TooltipAttribute] // RVA: 0x80620 Offset: 0x7FA20 VA: 0x180080620
 	private float m_expBase; // 0x20
 	private float m_oldExpBase; // 0x24
 

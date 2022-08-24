@@ -51,28 +51,28 @@ public class PowerCounter : IOEntity // TypeDefIndex: 8428
 
 	public override void PostNetworkUpdate() { }
 
-	[BaseEntity.Menu] // RVA: 0x7CAF0 Offset: 0x7BEF0 VA: 0x18007CAF0
-	[BaseEntity.Menu.Description] // RVA: 0x7CAF0 Offset: 0x7BEF0 VA: 0x18007CAF0
-	[BaseEntity.Menu.Icon] // RVA: 0x7CAF0 Offset: 0x7BEF0 VA: 0x18007CAF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7CAF0 Offset: 0x7BEF0 VA: 0x18007CAF0
+	[BaseEntity.Menu] // RVA: 0x7C9C0 Offset: 0x7BDC0 VA: 0x18007C9C0
+	[BaseEntity.Menu.Description] // RVA: 0x7C9C0 Offset: 0x7BDC0 VA: 0x18007C9C0
+	[BaseEntity.Menu.Icon] // RVA: 0x7C9C0 Offset: 0x7BDC0 VA: 0x18007C9C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C9C0 Offset: 0x7BDC0 VA: 0x18007C9C0
 	public void Menu_ShowPassthrough(BasePlayer player) { }
 
 	public bool Menu_Passthrough_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7CF20 Offset: 0x7C320 VA: 0x18007CF20
-	[BaseEntity.Menu.Description] // RVA: 0x7CF20 Offset: 0x7C320 VA: 0x18007CF20
-	[BaseEntity.Menu.Icon] // RVA: 0x7CF20 Offset: 0x7C320 VA: 0x18007CF20
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7CF20 Offset: 0x7C320 VA: 0x18007CF20
+	[BaseEntity.Menu] // RVA: 0x7CDF0 Offset: 0x7C1F0 VA: 0x18007CDF0
+	[BaseEntity.Menu.Description] // RVA: 0x7CDF0 Offset: 0x7C1F0 VA: 0x18007CDF0
+	[BaseEntity.Menu.Icon] // RVA: 0x7CDF0 Offset: 0x7C1F0 VA: 0x18007CDF0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7CDF0 Offset: 0x7C1F0 VA: 0x18007CDF0
 	public void Menu_ShowCounter(BasePlayer player) { }
 
 	public bool Menu_Counter_ShowIf(BasePlayer player) { }
 
 	public void SendNewTarget(int newTarget) { }
 
-	[BaseEntity.Menu] // RVA: 0x7D140 Offset: 0x7C540 VA: 0x18007D140
-	[BaseEntity.Menu.Description] // RVA: 0x7D140 Offset: 0x7C540 VA: 0x18007D140
-	[BaseEntity.Menu.Icon] // RVA: 0x7D140 Offset: 0x7C540 VA: 0x18007D140
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7D140 Offset: 0x7C540 VA: 0x18007D140
+	[BaseEntity.Menu] // RVA: 0x7D010 Offset: 0x7C410 VA: 0x18007D010
+	[BaseEntity.Menu.Description] // RVA: 0x7D010 Offset: 0x7C410 VA: 0x18007D010
+	[BaseEntity.Menu.Icon] // RVA: 0x7D010 Offset: 0x7C410 VA: 0x18007D010
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7D010 Offset: 0x7C410 VA: 0x18007D010
 	public void Menu_SetTarget(BasePlayer player) { }
 
 	public bool Menu_SetTarget_ShowIf(BasePlayer player) { }

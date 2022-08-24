@@ -9,17 +9,17 @@ public struct KerningPairKey // TypeDefIndex: 6766
 }
 
 public class KerningPair // TypeDefIndex: 6768
-{	[FormerlySerializedAsAttribute] // RVA: 0xCC400 Offset: 0xCB800 VA: 0x1800CC400
-	[SerializeField] // RVA: 0xCC400 Offset: 0xCB800 VA: 0x1800CC400
+{	[FormerlySerializedAsAttribute] // RVA: 0xCC4B0 Offset: 0xCB8B0 VA: 0x1800CC4B0
+	[SerializeField] // RVA: 0xCC4B0 Offset: 0xCB8B0 VA: 0x1800CC4B0
 	private uint m_FirstGlyph; // 0x10
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GlyphValueRecord_Legacy m_FirstGlyphAdjustments; // 0x14
-	[FormerlySerializedAsAttribute] // RVA: 0xCC750 Offset: 0xCBB50 VA: 0x1800CC750
-	[SerializeField] // RVA: 0xCC750 Offset: 0xCBB50 VA: 0x1800CC750
+	[FormerlySerializedAsAttribute] // RVA: 0xCC7B0 Offset: 0xCBBB0 VA: 0x1800CC7B0
+	[SerializeField] // RVA: 0xCC7B0 Offset: 0xCBBB0 VA: 0x1800CC7B0
 	private uint m_SecondGlyph; // 0x24
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GlyphValueRecord_Legacy m_SecondGlyphAdjustments; // 0x28
-	[FormerlySerializedAsAttribute] // RVA: 0xCCAE0 Offset: 0xCBEE0 VA: 0x1800CCAE0
+	[FormerlySerializedAsAttribute] // RVA: 0xCCB00 Offset: 0xCBF00 VA: 0x1800CCB00
 	public float xOffset; // 0x38
 	internal static KerningPair empty; // 0x0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

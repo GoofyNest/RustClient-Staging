@@ -1,5 +1,5 @@
 public class SpawnGroup : BaseMonoBehaviour, IServerComponent // TypeDefIndex: 10008
-{	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+{	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public MonumentTier Tier; // 0x18
 	public List<SpawnGroup.SpawnEntry> prefabs; // 0x20
 	public int maxPopulation; // 0x28

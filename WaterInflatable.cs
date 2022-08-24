@@ -21,11 +21,11 @@ public class WaterInflatable : BaseMountable, IPoolVehicle, INotifyTrigger // Ty
 	public Buoyancy buoyancy; // 0x3A0
 	public bool driftTowardsIsland; // 0x3A8
 	public GameObjectRef mountEffect; // 0x3B0
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float handSplashOffset; // 0x3B8
 	public float velocitySplashMultiplier; // 0x3BC
 	public Vector3 modifyEyeOffset; // 0x3C0
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float inheritVelocityMultiplier; // 0x3CC
 	private TimeSince lastPaddle; // 0x3D0
 	public ParticleSystem[] movingParticleSystems; // 0x3D8

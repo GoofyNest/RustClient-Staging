@@ -7,7 +7,7 @@ public class GenerateRailLayout : ProceduralComponent // TypeDefIndex: 10490
 	public const float RandomScale = 1;
 	public const float MeshOffset = 0;
 	public const float TerrainOffset = -0,125;
-	private static Quaternion rot90; // 0x2280
+	private static Quaternion rot90; // 0x3248
 	private const int MaxDepth = 250000;
 
 

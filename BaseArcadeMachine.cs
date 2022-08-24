@@ -70,10 +70,10 @@ public class BaseArcadeMachine : BaseVehicle // TypeDefIndex: 8316
 
 	public override bool MountMenuVisible(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xB48F0 Offset: 0xB3CF0 VA: 0x1800B48F0
-	[BaseEntity.Menu.Description] // RVA: 0xB48F0 Offset: 0xB3CF0 VA: 0x1800B48F0
-	[BaseEntity.Menu.Icon] // RVA: 0xB48F0 Offset: 0xB3CF0 VA: 0x1800B48F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xB48F0 Offset: 0xB3CF0 VA: 0x1800B48F0
+	[BaseEntity.Menu] // RVA: 0xB4810 Offset: 0xB3C10 VA: 0x1800B4810
+	[BaseEntity.Menu.Description] // RVA: 0xB4810 Offset: 0xB3C10 VA: 0x1800B4810
+	[BaseEntity.Menu.Icon] // RVA: 0xB4810 Offset: 0xB3C10 VA: 0x1800B4810
+	[BaseEntity.Menu.ShowIf] // RVA: 0xB4810 Offset: 0xB3C10 VA: 0x1800B4810
 	public void Menu_Play(BasePlayer player) { }
 
 	public bool Menu_PlayGame_ShowIf(BasePlayer player) { }

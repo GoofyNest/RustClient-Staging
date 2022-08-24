@@ -5,7 +5,7 @@ public class IpList : Internet // TypeDefIndex: 5289
 
 	public void .ctor(IEnumerable<string> list) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA28F0 Offset: 0xA1CF0 VA: 0x1800A28F0
+	[AsyncStateMachineAttribute] // RVA: 0xA28C0 Offset: 0xA1CC0 VA: 0x1800A28C0
 	public override Task<bool> RunQueryAsync(float timeoutSeconds = 10) { }
 
 	public override void Cancel() { }

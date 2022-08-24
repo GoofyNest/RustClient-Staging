@@ -70,13 +70,13 @@ public class ShoutcastStream : IDisposable // TypeDefIndex: 11986
 
 	public void RegisterNewStreamer(ShoutcastStreamer forStreamer) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xC9ED0 Offset: 0xC92D0 VA: 0x1800C9ED0
+	[AsyncStateMachineAttribute] // RVA: 0xC9670 Offset: 0xC8A70 VA: 0x1800C9670
 	private Task ConnectAsync() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCA050 Offset: 0xC9450 VA: 0x1800CA050
+	[AsyncStateMachineAttribute] // RVA: 0xC98C0 Offset: 0xC8CC0 VA: 0x1800C98C0
 	public Task<bool> ReadDataAsync(ShoutcastStreamer forStreamer) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCA1C0 Offset: 0xC95C0 VA: 0x1800CA1C0
+	[AsyncStateMachineAttribute] // RVA: 0xC9A20 Offset: 0xC8E20 VA: 0x1800C9A20
 	private Task<bool> ReadDataAsync(byte[] byteBuffer) { }
 
 	private float[] IntToFloat(short[] from) { }
@@ -91,7 +91,7 @@ public class ShoutcastStream : IDisposable // TypeDefIndex: 11986
 
 	public void Dispose() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCA2C0 Offset: 0xC96C0 VA: 0x1800CA2C0
+	[AsyncStateMachineAttribute] // RVA: 0xC9B50 Offset: 0xC8F50 VA: 0x1800C9B50
 	private Task ShutdownSafely() { }
 
 	public void AttemptDisconnect(ShoutcastStreamer streamer) { }

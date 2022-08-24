@@ -14,8 +14,8 @@ public class ViewModelRenderer : MonoBehaviour // TypeDefIndex: 11457
 
 	public void RemoveDrawEvents() { }
 
-	[ContextMenu] // RVA: 0xB0CA0 Offset: 0xB00A0 VA: 0x1800B0CA0
-	[ButtonAttribute] // RVA: 0xB0CA0 Offset: 0xB00A0 VA: 0x1800B0CA0
+	[ContextMenu] // RVA: 0xB0920 Offset: 0xAFD20 VA: 0x1800B0920
+	[ButtonAttribute] // RVA: 0xB0920 Offset: 0xAFD20 VA: 0x1800B0920
 	public void CacheReferences() { }
 
 	private void CacheTextures() { }

@@ -31,7 +31,7 @@ public class ReflectionProbeEx : MonoBehaviour // TypeDefIndex: 10694
 	public ReflectionProbeRefreshMode refreshMode; // 0xA8
 	public bool timeSlicing; // 0xAC
 	public int resolution; // 0xB0
-	[InspectorNameAttribute] // RVA: 0x71B80 Offset: 0x70F80 VA: 0x180071B80
+	[InspectorNameAttribute] // RVA: 0x71410 Offset: 0x70810 VA: 0x180071410
 	public bool hdr; // 0xB4
 	public float shadowDistance; // 0xB8
 	public ReflectionProbeClearFlags clearFlags; // 0xBC

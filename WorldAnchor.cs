@@ -1,6 +1,6 @@
 public class WorldAnchor : Component // TypeDefIndex: 4769
-{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private WorldAnchor.OnTrackingChangedDelegate OnTrackingChanged; // 0x18
 
 

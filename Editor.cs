@@ -38,7 +38,7 @@ public struct Editor // TypeDefIndex: 5274
 
 	public Editor WithTag(string tag) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9CCC0 Offset: 0x9C0C0 VA: 0x18009CCC0
+	[AsyncStateMachineAttribute] // RVA: 0x9CC30 Offset: 0x9C030 VA: 0x18009CC30
 	public Task<PublishResult> SubmitAsync(IProgress<float> progress, Action<PublishResult> onItemCreated) { }
 
 }

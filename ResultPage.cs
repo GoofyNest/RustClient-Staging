@@ -12,7 +12,7 @@ public struct ResultPage : IDisposable // TypeDefIndex: 5281
 	public IEnumerable<Item> Entries { get; }
 
 
-	[IteratorStateMachineAttribute] // RVA: 0x9F940 Offset: 0x9ED40 VA: 0x18009F940
+	[IteratorStateMachineAttribute] // RVA: 0x9F810 Offset: 0x9EC10 VA: 0x18009F810
 	public IEnumerable<Item> get_Entries() { }
 
 	private ulong GetStat(uint index, ItemStatistic stat) { }

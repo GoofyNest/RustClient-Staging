@@ -21,10 +21,10 @@ public class Workbench : StorageContainer // TypeDefIndex: 8488
 
 	public override bool ShouldShowLootMenus() { }
 
-	[BaseEntity.Menu] // RVA: 0x9D300 Offset: 0x9C700 VA: 0x18009D300
-	[BaseEntity.Menu.Description] // RVA: 0x9D300 Offset: 0x9C700 VA: 0x18009D300
-	[BaseEntity.Menu.Icon] // RVA: 0x9D300 Offset: 0x9C700 VA: 0x18009D300
-	[BaseEntity.Menu.ShowIf] // RVA: 0x9D300 Offset: 0x9C700 VA: 0x18009D300
+	[BaseEntity.Menu] // RVA: 0x9D2C0 Offset: 0x9C6C0 VA: 0x18009D2C0
+	[BaseEntity.Menu.Description] // RVA: 0x9D2C0 Offset: 0x9C6C0 VA: 0x18009D2C0
+	[BaseEntity.Menu.Icon] // RVA: 0x9D2C0 Offset: 0x9C6C0 VA: 0x18009D2C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x9D2C0 Offset: 0x9C6C0 VA: 0x18009D2C0
 	public void UseBench(BasePlayer player) { }
 
 	public bool Menu_UseBench_ShowIf(BasePlayer player) { }

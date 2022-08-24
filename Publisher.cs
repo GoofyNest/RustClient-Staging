@@ -22,23 +22,23 @@ public class Publisher : MonoBehaviour // TypeDefIndex: 7762
 
 	public bool CanPublish() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD6F80 Offset: 0xD6380 VA: 0x1800D6F80
+	[AsyncStateMachineAttribute] // RVA: 0xD6EF0 Offset: 0xD62F0 VA: 0x1800D6EF0
 	private Task DoExport(bool publishToSteam, bool OpenFolder, string forceFolderName) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD7070 Offset: 0xD6470 VA: 0x1800D7070
+	[AsyncStateMachineAttribute] // RVA: 0xD6FE0 Offset: 0xD63E0 VA: 0x1800D6FE0
 	private Task ExportToFolder(string folder, bool OpenFolder) { }
 
 	private void CreateWorkshopIcon(string folder) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD72D0 Offset: 0xD66D0 VA: 0x1800D72D0
+	[AsyncStateMachineAttribute] // RVA: 0xD7240 Offset: 0xD6640 VA: 0x1800D7240
 	private Task PublishToSteam(string folder) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD7320 Offset: 0xD6720 VA: 0x1800D7320
+	[AsyncStateMachineAttribute] // RVA: 0xD72C0 Offset: 0xD66C0 VA: 0x1800D72C0
 	private Task ExportTexture(Dictionary<string, string> data, string folder, int group, string paramname, Material mat, Material defaultMat, bool isNormalMap = False) { }
 
 	public void Export() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD74E0 Offset: 0xD68E0 VA: 0x1800D74E0
+	[AsyncStateMachineAttribute] // RVA: 0xD7430 Offset: 0xD6830 VA: 0x1800D7430
 	public Task DoExport() { }
 
 	public void .ctor() { }

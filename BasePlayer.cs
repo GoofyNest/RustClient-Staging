@@ -16,28 +16,28 @@ internal class PlayerConnectionInternal : IPlayerEditorConnectionNative // TypeD
 
 	private void UnityEngine.IPlayerEditorConnectionNative.DisconnectAll() { }
 
-	[FreeFunctionAttribute] // RVA: 0xB0B80 Offset: 0xAFF80 VA: 0x1800B0B80
+	[FreeFunctionAttribute] // RVA: 0xB0B90 Offset: 0xAFF90 VA: 0x1800B0B90
 	private static bool IsConnected() { }
 
-	[FreeFunctionAttribute] // RVA: 0xB0BB0 Offset: 0xAFFB0 VA: 0x1800B0BB0
+	[FreeFunctionAttribute] // RVA: 0xB0C30 Offset: 0xB0030 VA: 0x1800B0C30
 	private static void Initialize() { }
 
-	[FreeFunctionAttribute] // RVA: 0xB0C40 Offset: 0xB0040 VA: 0x1800B0C40
+	[FreeFunctionAttribute] // RVA: 0xB0CC0 Offset: 0xB00C0 VA: 0x1800B0CC0
 	private static void RegisterInternal(string messageId) { }
 
-	[FreeFunctionAttribute] // RVA: 0xB0D00 Offset: 0xB0100 VA: 0x1800B0D00
+	[FreeFunctionAttribute] // RVA: 0xB0DC0 Offset: 0xB01C0 VA: 0x1800B0DC0
 	private static void UnregisterInternal(string messageId) { }
 
-	[FreeFunctionAttribute] // RVA: 0xB2070 Offset: 0xB1470 VA: 0x1800B2070
+	[FreeFunctionAttribute] // RVA: 0xB2150 Offset: 0xB1550 VA: 0x1800B2150
 	private static void SendMessage(string messageId, byte[] data, int playerId) { }
 
-	[FreeFunctionAttribute] // RVA: 0xB2150 Offset: 0xB1550 VA: 0x1800B2150
+	[FreeFunctionAttribute] // RVA: 0xB22A0 Offset: 0xB16A0 VA: 0x1800B22A0
 	private static bool TrySendMessage(string messageId, byte[] data, int playerId) { }
 
-	[FreeFunctionAttribute] // RVA: 0xB2310 Offset: 0xB1710 VA: 0x1800B2310
+	[FreeFunctionAttribute] // RVA: 0xB24F0 Offset: 0xB18F0 VA: 0x1800B24F0
 	private static void PollInternal() { }
 
-	[FreeFunctionAttribute] // RVA: 0xB2400 Offset: 0xB1800 VA: 0x1800B2400
+	[FreeFunctionAttribute] // RVA: 0xB2660 Offset: 0xB1A60 VA: 0x1800B2660
 	private static void DisconnectAll() { }
 
 	public void .ctor() { }
@@ -52,13 +52,13 @@ public class PlayerPrefsException : Exception // TypeDefIndex: 3476
 
 public class PlayerPrefs // TypeDefIndex: 3477
 {
-	[NativeMethodAttribute] // RVA: 0xB25B0 Offset: 0xB19B0 VA: 0x1800B25B0
+	[NativeMethodAttribute] // RVA: 0xB2800 Offset: 0xB1C00 VA: 0x1800B2800
 	private static bool TrySetInt(string key, int value) { }
 
-	[NativeMethodAttribute] // RVA: 0xB2840 Offset: 0xB1C40 VA: 0x1800B2840
+	[NativeMethodAttribute] // RVA: 0xB2A50 Offset: 0xB1E50 VA: 0x1800B2A50
 	private static bool TrySetFloat(string key, float value) { }
 
-	[NativeMethodAttribute] // RVA: 0xB2920 Offset: 0xB1D20 VA: 0x1800B2920
+	[NativeMethodAttribute] // RVA: 0xB2B30 Offset: 0xB1F30 VA: 0x1800B2B30
 	private static bool TrySetSetString(string key, string value) { }
 
 	public static void SetInt(string key, int value) { }
@@ -1642,7 +1642,7 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 	private Option __menuOption_Menu_LootPlayer; // 0x3A0
 	private Option __menuOption_Promote; // 0x3F8
 	private Option __menuOption_SaltWater; // 0x450
-	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
+	[ClientVar] // RVA: 0x812A0 Offset: 0x806A0 VA: 0x1800812A0
 	public static string lootPanelOverride; // 0x0
 	private TimeSince lastOpenSoundPlay; // 0x4A8
 	public BasePlayer.CameraMode currentViewMode; // 0x4AC
@@ -1739,10 +1739,10 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 	private float nextVisThink; // 0x670
 	private float lastTimeSeen; // 0x674
 	private bool debugPrevVisible; // 0x678
-	[HeaderAttribute] // RVA: 0xBBD20 Offset: 0xBB120 VA: 0x1800BBD20
+	[HeaderAttribute] // RVA: 0xBBC20 Offset: 0xBB020 VA: 0x1800BBC20
 	public GameObjectRef fallDamageEffect; // 0x680
 	public GameObjectRef drownEffect; // 0x688
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public BasePlayer.PlayerFlags playerFlags; // 0x690
 	public PlayerEyes eyes; // 0x698
 	public PlayerInventory inventory; // 0x6A0
@@ -1821,10 +1821,10 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	public Translate.Phrase get_LootPanelTitle() { }
 
-	[BaseEntity.Menu] // RVA: 0xBBE50 Offset: 0xBB250 VA: 0x1800BBE50
-	[BaseEntity.Menu.Description] // RVA: 0xBBE50 Offset: 0xBB250 VA: 0x1800BBE50
-	[BaseEntity.Menu.Icon] // RVA: 0xBBE50 Offset: 0xBB250 VA: 0x1800BBE50
-	[BaseEntity.Menu.ShowIf] // RVA: 0xBBE50 Offset: 0xBB250 VA: 0x1800BBE50
+	[BaseEntity.Menu] // RVA: 0xBBDB0 Offset: 0xBB1B0 VA: 0x1800BBDB0
+	[BaseEntity.Menu.Description] // RVA: 0xBBDB0 Offset: 0xBB1B0 VA: 0x1800BBDB0
+	[BaseEntity.Menu.Icon] // RVA: 0xBBDB0 Offset: 0xBB1B0 VA: 0x1800BBDB0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xBBDB0 Offset: 0xBB1B0 VA: 0x1800BBDB0
 	public void Menu_LootPlayer(BasePlayer player) { }
 
 	public bool Menu_LootPlayer_ShowIf(BasePlayer player) { }
@@ -1846,10 +1846,10 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	public void ModifyCamera() { }
 
-	[BaseEntity.Menu] // RVA: 0xBC1B0 Offset: 0xBB5B0 VA: 0x1800BC1B0
-	[BaseEntity.Menu.Description] // RVA: 0xBC1B0 Offset: 0xBB5B0 VA: 0x1800BC1B0
-	[BaseEntity.Menu.Icon] // RVA: 0xBC1B0 Offset: 0xBB5B0 VA: 0x1800BC1B0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xBC1B0 Offset: 0xBB5B0 VA: 0x1800BC1B0
+	[BaseEntity.Menu] // RVA: 0xBC1C0 Offset: 0xBB5C0 VA: 0x1800BC1C0
+	[BaseEntity.Menu.Description] // RVA: 0xBC1C0 Offset: 0xBB5C0 VA: 0x1800BC1C0
+	[BaseEntity.Menu.Icon] // RVA: 0xBC1C0 Offset: 0xBB5C0 VA: 0x1800BC1C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xBC1C0 Offset: 0xBB5C0 VA: 0x1800BC1C0
 	public void Menu_AssistPlayer(BasePlayer player) { }
 
 	public void Menu_AssistPlayer_TimeStart() { }
@@ -2049,7 +2049,7 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	private void FullBlack_FadeIn() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBEB10 Offset: 0xBDF10 VA: 0x1800BEB10
+	[IteratorStateMachineAttribute] // RVA: 0xBEB50 Offset: 0xBDF50 VA: 0x1800BEB50
 	private IEnumerator FinishedLoadingRoutine() { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -2070,26 +2070,26 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 
 	private Vector3 GetWaterDrinkingPoint() { }
 
-	[BaseEntity.Menu] // RVA: 0xBEF60 Offset: 0xBE360 VA: 0x1800BEF60
-	[BaseEntity.Menu.Description] // RVA: 0xBEF60 Offset: 0xBE360 VA: 0x1800BEF60
-	[BaseEntity.Menu.Icon] // RVA: 0xBEF60 Offset: 0xBE360 VA: 0x1800BEF60
-	[BaseEntity.Menu.ShowIf] // RVA: 0xBEF60 Offset: 0xBE360 VA: 0x1800BEF60
+	[BaseEntity.Menu] // RVA: 0xBEF00 Offset: 0xBE300 VA: 0x1800BEF00
+	[BaseEntity.Menu.Description] // RVA: 0xBEF00 Offset: 0xBE300 VA: 0x1800BEF00
+	[BaseEntity.Menu.Icon] // RVA: 0xBEF00 Offset: 0xBE300 VA: 0x1800BEF00
+	[BaseEntity.Menu.ShowIf] // RVA: 0xBEF00 Offset: 0xBE300 VA: 0x1800BEF00
 	public void Drink(BasePlayer player) { }
 
 	public bool Drink_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xBF110 Offset: 0xBE510 VA: 0x1800BF110
-	[BaseEntity.Menu.Description] // RVA: 0xBF110 Offset: 0xBE510 VA: 0x1800BF110
-	[BaseEntity.Menu.Icon] // RVA: 0xBF110 Offset: 0xBE510 VA: 0x1800BF110
-	[BaseEntity.Menu.ShowIf] // RVA: 0xBF110 Offset: 0xBE510 VA: 0x1800BF110
+	[BaseEntity.Menu] // RVA: 0xBF1C0 Offset: 0xBE5C0 VA: 0x1800BF1C0
+	[BaseEntity.Menu.Description] // RVA: 0xBF1C0 Offset: 0xBE5C0 VA: 0x1800BF1C0
+	[BaseEntity.Menu.Icon] // RVA: 0xBF1C0 Offset: 0xBE5C0 VA: 0x1800BF1C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xBF1C0 Offset: 0xBE5C0 VA: 0x1800BF1C0
 	public void SaltWater(BasePlayer player) { }
 
 	public bool SaltWater_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xBF280 Offset: 0xBE680 VA: 0x1800BF280
-	[BaseEntity.Menu.Description] // RVA: 0xBF280 Offset: 0xBE680 VA: 0x1800BF280
-	[BaseEntity.Menu.Icon] // RVA: 0xBF280 Offset: 0xBE680 VA: 0x1800BF280
-	[BaseEntity.Menu.ShowIf] // RVA: 0xBF280 Offset: 0xBE680 VA: 0x1800BF280
+	[BaseEntity.Menu] // RVA: 0xBF370 Offset: 0xBE770 VA: 0x1800BF370
+	[BaseEntity.Menu.Description] // RVA: 0xBF370 Offset: 0xBE770 VA: 0x1800BF370
+	[BaseEntity.Menu.Icon] // RVA: 0xBF370 Offset: 0xBE770 VA: 0x1800BF370
+	[BaseEntity.Menu.ShowIf] // RVA: 0xBF370 Offset: 0xBE770 VA: 0x1800BF370
 	public void Climb(BasePlayer player) { }
 
 	public bool Climb_ShowIf(BasePlayer player) { }
@@ -2171,16 +2171,16 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel // TypeDefIn
 	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void CLIENT_PendingInvite(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.Menu] // RVA: 0xC0C10 Offset: 0xC0010 VA: 0x1800C0C10
-	[BaseEntity.Menu.Description] // RVA: 0xC0C10 Offset: 0xC0010 VA: 0x1800C0C10
-	[BaseEntity.Menu.Icon] // RVA: 0xC0C10 Offset: 0xC0010 VA: 0x1800C0C10
-	[BaseEntity.Menu.ShowIf] // RVA: 0xC0C10 Offset: 0xC0010 VA: 0x1800C0C10
+	[BaseEntity.Menu] // RVA: 0xC0D40 Offset: 0xC0140 VA: 0x1800C0D40
+	[BaseEntity.Menu.Description] // RVA: 0xC0D40 Offset: 0xC0140 VA: 0x1800C0D40
+	[BaseEntity.Menu.Icon] // RVA: 0xC0D40 Offset: 0xC0140 VA: 0x1800C0D40
+	[BaseEntity.Menu.ShowIf] // RVA: 0xC0D40 Offset: 0xC0140 VA: 0x1800C0D40
 	public void InviteToTeam(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xC0FF0 Offset: 0xC03F0 VA: 0x1800C0FF0
-	[BaseEntity.Menu.Description] // RVA: 0xC0FF0 Offset: 0xC03F0 VA: 0x1800C0FF0
-	[BaseEntity.Menu.Icon] // RVA: 0xC0FF0 Offset: 0xC03F0 VA: 0x1800C0FF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xC0FF0 Offset: 0xC03F0 VA: 0x1800C0FF0
+	[BaseEntity.Menu] // RVA: 0xC10E0 Offset: 0xC04E0 VA: 0x1800C10E0
+	[BaseEntity.Menu.Description] // RVA: 0xC10E0 Offset: 0xC04E0 VA: 0x1800C10E0
+	[BaseEntity.Menu.Icon] // RVA: 0xC10E0 Offset: 0xC04E0 VA: 0x1800C10E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xC10E0 Offset: 0xC04E0 VA: 0x1800C10E0
 	public void Promote(BasePlayer player) { }
 
 	public void Menu_Promote_Start() { }
@@ -2903,7 +2903,7 @@ public struct PlayerModelHair.RendererMaterials // TypeDefIndex: 9215
 }
 
 public class PlayerModelHairCap : MonoBehaviour // TypeDefIndex: 9217
-{	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+{	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public HairCapMask hairCapMask; // 0x18
 
 
@@ -3304,7 +3304,7 @@ public class PlayerModel : ListComponent<PlayerModel>, IOnParentDestroying // Ty
 	public Transform leftHandPropBone; // 0xD0
 	public Transform rightHandPropBone; // 0xD8
 	public Vector3 rightHandTarget; // 0xE0
-	[HeaderAttribute] // RVA: 0x7F640 Offset: 0x7EA40 VA: 0x18007F640
+	[HeaderAttribute] // RVA: 0x7F510 Offset: 0x7E910 VA: 0x18007F510
 	public Vector3 leftHandTargetPosition; // 0xEC
 	public Quaternion leftHandTargetRotation; // 0xF8
 	public Vector3 rightHandTargetPosition; // 0x108
@@ -3322,22 +3322,22 @@ public class PlayerModel : ListComponent<PlayerModel>, IOnParentDestroying // Ty
 	public RuntimeAnimatorController CrawlToIncapacitatedGesture; // 0x188
 	public RuntimeAnimatorController StandToIncapacitatedGesture; // 0x190
 	public RuntimeAnimatorController CurrentGesture; // 0x198
-	[HeaderAttribute] // RVA: 0x7F670 Offset: 0x7EA70 VA: 0x18007F670
+	[HeaderAttribute] // RVA: 0x7F540 Offset: 0x7E940 VA: 0x18007F540
 	public SkinSetCollection MaleSkin; // 0x1A0
 	public SkinSetCollection FemaleSkin; // 0x1A8
 	public SubsurfaceProfile subsurfaceProfile; // 0x1B0
-	[HeaderAttribute] // RVA: 0x7F850 Offset: 0x7EC50 VA: 0x18007F850
-	[RangeAttribute] // RVA: 0x7F850 Offset: 0x7EC50 VA: 0x18007F850
+	[HeaderAttribute] // RVA: 0x7F720 Offset: 0x7EB20 VA: 0x18007F720
+	[RangeAttribute] // RVA: 0x7F720 Offset: 0x7EB20 VA: 0x18007F720
 	public float voiceVolume; // 0x1B8
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float skinColor; // 0x1BC
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float skinNumber; // 0x1C0
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float meshNumber; // 0x1C4
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float hairNumber; // 0x1C8
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public int skinType; // 0x1CC
 	public MovementSounds movementSounds; // 0x1D0
 	public bool showSash; // 0x1D8
@@ -3591,7 +3591,7 @@ public class PlayerModel : ListComponent<PlayerModel>, IOnParentDestroying // Ty
 
 	public void SetHasHeldEntity(bool state) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x80A30 Offset: 0x7FE30 VA: 0x180080A30
+	[IteratorStateMachineAttribute] // RVA: 0x808B0 Offset: 0x7FCB0 VA: 0x1800808B0
 	public IEnumerator FadeOutGestureLayer() { }
 
 	public void SetGesture() { }
@@ -4079,49 +4079,49 @@ public class PlayerDetectedEventUI : BaseEventUI // TypeDefIndex: 10811
 }
 
 public class Player : ConsoleSystem // TypeDefIndex: 11957
-{	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+{	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static int tickrate_cl; // 0x0
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static int tickrate_sv; // 0x4
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool recoilcomp; // 0x8
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool footik; // 0x9
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float footikdistance; // 0xC
-	[ClientVar] // RVA: 0xB0850 Offset: 0xAFC50 VA: 0x1800B0850
+	[ClientVar] // RVA: 0xB0350 Offset: 0xAF750 VA: 0x1800B0350
 	public static float footikrate; // 0x10
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool triggerfix; // 0x14
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool eye_blinking; // 0x15
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool eye_movement; // 0x16
-	[ClientVar] // RVA: 0xB0A80 Offset: 0xAFE80 VA: 0x1800B0A80
+	[ClientVar] // RVA: 0xB0590 Offset: 0xAF990 VA: 0x1800B0590
 	public static bool useCinematicAvatar; // 0x17
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float noclipspeed; // 0x18
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float noclipspeedslow; // 0x1C
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float noclipspeedfast; // 0x20
 
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void cinematic_list(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void gesture(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void petcmd(ConsoleSystem.Arg arg) { }
 
-	[ServerUserVar] // RVA: 0xB2030 Offset: 0xB1430 VA: 0x1800B2030
-	[ClientVar] // RVA: 0xB2030 Offset: 0xB1430 VA: 0x1800B2030
+	[ServerUserVar] // RVA: 0xB09B0 Offset: 0xAFDB0 VA: 0x1800B09B0
+	[ClientVar] // RVA: 0xB09B0 Offset: 0xAFDB0 VA: 0x1800B09B0
 	public static void cinematic_play(ConsoleSystem.Arg arg) { }
 
-	[ServerUserVar] // RVA: 0xB2030 Offset: 0xB1430 VA: 0x1800B2030
-	[ClientVar] // RVA: 0xB2030 Offset: 0xB1430 VA: 0x1800B2030
+	[ServerUserVar] // RVA: 0xB09B0 Offset: 0xAFDB0 VA: 0x1800B09B0
+	[ClientVar] // RVA: 0xB09B0 Offset: 0xAFDB0 VA: 0x1800B09B0
 	public static void cinematic_stop(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }
@@ -4132,20 +4132,20 @@ public class Player : ConsoleSystem // TypeDefIndex: 11957
 
 public class PlayerCull : ConsoleSystem // TypeDefIndex: 11958
 {	private static bool _enabled; // 0x0
-	[ClientVar] // RVA: 0x914D0 Offset: 0x908D0 VA: 0x1800914D0
+	[ClientVar] // RVA: 0x90F00 Offset: 0x90300 VA: 0x180090F00
 	public static float updateRate; // 0x4
-	[ClientVar] // RVA: 0xB2390 Offset: 0xB1790 VA: 0x1800B2390
+	[ClientVar] // RVA: 0xB0B50 Offset: 0xAFF50 VA: 0x1800B0B50
 	public static float minCullDist; // 0x8
-	[ClientVar] // RVA: 0xB2460 Offset: 0xB1860 VA: 0x1800B2460
+	[ClientVar] // RVA: 0xB0BF0 Offset: 0xAFFF0 VA: 0x1800B0BF0
 	public static float maxSleeperDist; // 0xC
-	[ClientVar] // RVA: 0x91730 Offset: 0x90B30 VA: 0x180091730
+	[ClientVar] // RVA: 0x912F0 Offset: 0x906F0 VA: 0x1800912F0
 	public static float maxPlayerDist; // 0x10
-	[ClientVar] // RVA: 0xB2670 Offset: 0xB1A70 VA: 0x1800B2670
+	[ClientVar] // RVA: 0xB0CF0 Offset: 0xB00F0 VA: 0x1800B0CF0
 	public static int visQuality; // 0x14
-	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
+	[ClientVar] // RVA: 0x812A0 Offset: 0x806A0 VA: 0x1800812A0
 	public static bool debug; // 0x18
 
-	[ClientVar] // RVA: 0xB29A0 Offset: 0xB1DA0 VA: 0x1800B29A0
+	[ClientVar] // RVA: 0xB2180 Offset: 0xB1580 VA: 0x1800B2180
 	public static bool enabled { get; set; }
 
 

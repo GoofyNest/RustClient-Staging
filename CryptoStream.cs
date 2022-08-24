@@ -48,14 +48,14 @@ public class CryptoStream : Stream, IDisposable // TypeDefIndex: 949
 
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xC8EE0 Offset: 0xC82E0 VA: 0x1800C8EE0
+	[AsyncStateMachineAttribute] // RVA: 0xC8F20 Offset: 0xC8320 VA: 0x1800C8F20
 	private Task<int> ReadAsyncInternal(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	public override void Write(byte[] buffer, int offset, int count) { }
 
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xC90C0 Offset: 0xC84C0 VA: 0x1800C90C0
+	[AsyncStateMachineAttribute] // RVA: 0xC9070 Offset: 0xC8470 VA: 0x1800C9070
 	private Task WriteAsyncInternal(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	public void Clear() { }

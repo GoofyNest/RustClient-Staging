@@ -2,9 +2,9 @@ public abstract class Encoder // TypeDefIndex: 444
 {	internal EncoderFallback m_fallback; // 0x10
 	internal EncoderFallbackBuffer m_fallbackBuffer; // 0x18
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public EncoderFallback Fallback { get; }
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public EncoderFallbackBuffer FallbackBuffer { get; }
 	internal bool InternalHasFallbackBuffer { get; }
 
@@ -19,26 +19,26 @@ public abstract class Encoder // TypeDefIndex: 444
 
 	internal bool get_InternalHasFallbackBuffer() { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual void Reset() { }
 
 	public abstract int GetByteCount(char[] chars, int index, int count, bool flush);
 
-	[CLSCompliantAttribute] // RVA: 0x90840 Offset: 0x8FC40 VA: 0x180090840
-	[ComVisibleAttribute] // RVA: 0x90840 Offset: 0x8FC40 VA: 0x180090840
+	[CLSCompliantAttribute] // RVA: 0x90790 Offset: 0x8FB90 VA: 0x180090790
+	[ComVisibleAttribute] // RVA: 0x90790 Offset: 0x8FB90 VA: 0x180090790
 	public virtual int GetByteCount(char* chars, int count, bool flush) { }
 
 	public abstract int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, bool flush);
 
-	[CLSCompliantAttribute] // RVA: 0x90840 Offset: 0x8FC40 VA: 0x180090840
-	[ComVisibleAttribute] // RVA: 0x90840 Offset: 0x8FC40 VA: 0x180090840
+	[CLSCompliantAttribute] // RVA: 0x90790 Offset: 0x8FB90 VA: 0x180090790
+	[ComVisibleAttribute] // RVA: 0x90790 Offset: 0x8FB90 VA: 0x180090790
 	public virtual int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, bool flush) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual void Convert(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed) { }
 
-	[ComVisibleAttribute] // RVA: 0x90410 Offset: 0x8F810 VA: 0x180090410
-	[CLSCompliantAttribute] // RVA: 0x90410 Offset: 0x8F810 VA: 0x180090410
+	[ComVisibleAttribute] // RVA: 0x90290 Offset: 0x8F690 VA: 0x180090290
+	[CLSCompliantAttribute] // RVA: 0x90290 Offset: 0x8F690 VA: 0x180090290
 	public virtual void Convert(char* chars, int charCount, byte* bytes, int byteCount, bool flush, out int charsUsed, out int bytesUsed, out bool completed) { }
 
 }
@@ -309,11 +309,11 @@ public abstract class Encoding : ICloneable // TypeDefIndex: 455
 	internal int m_codePage; // 0x10
 	internal CodePageDataItem dataItem; // 0x18
 	internal bool m_deserializedFromEverett; // 0x20
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private bool m_isReadOnly; // 0x21
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	internal EncoderFallback encoderFallback; // 0x28
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	internal DecoderFallback decoderFallback; // 0x30
 	private static object s_InternalSyncObject; // 0x48
 
@@ -327,13 +327,13 @@ public abstract class Encoding : ICloneable // TypeDefIndex: 455
 	public virtual bool IsBrowserSave { get; }
 	public virtual bool IsMailNewsDisplay { get; }
 	public virtual bool IsMailNewsSave { get; }
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual bool IsSingleByte { get; }
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public EncoderFallback EncoderFallback { get; set; }
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public DecoderFallback DecoderFallback { get; set; }
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public bool IsReadOnly { get; }
 	public static Encoding ASCII { get; }
 	private static Encoding Latin1 { get; }
@@ -407,7 +407,7 @@ public abstract class Encoding : ICloneable // TypeDefIndex: 455
 
 	public void set_DecoderFallback(DecoderFallback value) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual object Clone() { }
 
 	public bool get_IsReadOnly() { }
@@ -420,8 +420,8 @@ public abstract class Encoding : ICloneable // TypeDefIndex: 455
 
 	public abstract int GetByteCount(char[] chars, int index, int count);
 
-	[ComVisibleAttribute] // RVA: 0x90410 Offset: 0x8F810 VA: 0x180090410
-	[CLSCompliantAttribute] // RVA: 0x90410 Offset: 0x8F810 VA: 0x180090410
+	[ComVisibleAttribute] // RVA: 0x90290 Offset: 0x8F690 VA: 0x180090290
+	[CLSCompliantAttribute] // RVA: 0x90290 Offset: 0x8F690 VA: 0x180090290
 	public virtual int GetByteCount(char* chars, int count) { }
 
 	internal virtual int GetByteCount(char* chars, int count, EncoderNLS encoder) { }
@@ -438,14 +438,14 @@ public abstract class Encoding : ICloneable // TypeDefIndex: 455
 
 	internal virtual int GetBytes(char* chars, int charCount, byte* bytes, int byteCount, EncoderNLS encoder) { }
 
-	[CLSCompliantAttribute] // RVA: 0x90840 Offset: 0x8FC40 VA: 0x180090840
-	[ComVisibleAttribute] // RVA: 0x90840 Offset: 0x8FC40 VA: 0x180090840
+	[CLSCompliantAttribute] // RVA: 0x90790 Offset: 0x8FB90 VA: 0x180090790
+	[ComVisibleAttribute] // RVA: 0x90790 Offset: 0x8FB90 VA: 0x180090790
 	public virtual int GetBytes(char* chars, int charCount, byte* bytes, int byteCount) { }
 
 	public abstract int GetCharCount(byte[] bytes, int index, int count);
 
-	[CLSCompliantAttribute] // RVA: 0x90840 Offset: 0x8FC40 VA: 0x180090840
-	[ComVisibleAttribute] // RVA: 0x90840 Offset: 0x8FC40 VA: 0x180090840
+	[CLSCompliantAttribute] // RVA: 0x90790 Offset: 0x8FB90 VA: 0x180090790
+	[ComVisibleAttribute] // RVA: 0x90790 Offset: 0x8FB90 VA: 0x180090790
 	public virtual int GetCharCount(byte* bytes, int count) { }
 
 	internal virtual int GetCharCount(byte* bytes, int count, DecoderNLS decoder) { }
@@ -454,19 +454,19 @@ public abstract class Encoding : ICloneable // TypeDefIndex: 455
 
 	public abstract int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex);
 
-	[ComVisibleAttribute] // RVA: 0x90410 Offset: 0x8F810 VA: 0x180090410
-	[CLSCompliantAttribute] // RVA: 0x90410 Offset: 0x8F810 VA: 0x180090410
+	[ComVisibleAttribute] // RVA: 0x90290 Offset: 0x8F690 VA: 0x180090290
+	[CLSCompliantAttribute] // RVA: 0x90290 Offset: 0x8F690 VA: 0x180090290
 	public virtual int GetChars(byte* bytes, int byteCount, char* chars, int charCount) { }
 
 	internal virtual int GetChars(byte* bytes, int byteCount, char* chars, int charCount, DecoderNLS decoder) { }
 
-	[CLSCompliantAttribute] // RVA: 0x90840 Offset: 0x8FC40 VA: 0x180090840
-	[ComVisibleAttribute] // RVA: 0x90840 Offset: 0x8FC40 VA: 0x180090840
+	[CLSCompliantAttribute] // RVA: 0x90790 Offset: 0x8FB90 VA: 0x180090790
+	[ComVisibleAttribute] // RVA: 0x90790 Offset: 0x8FB90 VA: 0x180090790
 	public string GetString(byte* bytes, int byteCount) { }
 
 	public virtual int get_CodePage() { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual bool IsAlwaysNormalized(NormalizationForm form) { }
 
 	public virtual Decoder GetDecoder() { }

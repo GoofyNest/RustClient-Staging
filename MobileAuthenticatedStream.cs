@@ -57,7 +57,7 @@ internal abstract class MobileAuthenticatedStream : AuthenticatedStream, IMonoSs
 
 	public AuthenticatedStream get_AuthenticatedStream() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3790 Offset: 0xA2B90 VA: 0x1800A3790
+	[AsyncStateMachineAttribute] // RVA: 0xA36E0 Offset: 0xA2AE0 VA: 0x1800A36E0
 	private Task ProcessAuthentication(bool runSynchronously, bool serverMode, string targetHost, SslProtocols enabledProtocols, X509Certificate serverCertificate, X509CertificateCollection clientCertificates, bool clientCertRequired) { }
 
 	protected abstract MobileTlsContext CreateContext(bool serverMode, string targetHost, SslProtocols enabledProtocols, X509Certificate serverCertificate, X509CertificateCollection clientCertificates, bool askForClientCert);
@@ -78,7 +78,7 @@ internal abstract class MobileAuthenticatedStream : AuthenticatedStream, IMonoSs
 
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3810 Offset: 0xA2C10 VA: 0x1800A3810
+	[AsyncStateMachineAttribute] // RVA: 0xA37C0 Offset: 0xA2BC0 VA: 0x1800A37C0
 	private Task<int> StartOperation(MobileAuthenticatedStream.OperationType type, AsyncProtocolRequest asyncRequest, CancellationToken cancellationToken) { }
 
 	internal int InternalRead(byte[] buffer, int offset, int size, out bool outWantMore) { }
@@ -89,10 +89,10 @@ internal abstract class MobileAuthenticatedStream : AuthenticatedStream, IMonoSs
 
 	private bool InternalWrite(AsyncProtocolRequest asyncRequest, BufferOffsetSize2 internalBuffer, byte[] buffer, int offset, int size) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3960 Offset: 0xA2D60 VA: 0x1800A3960
+	[AsyncStateMachineAttribute] // RVA: 0xA3970 Offset: 0xA2D70 VA: 0x1800A3970
 	internal Task<int> InnerRead(bool sync, int requestedSize, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3A40 Offset: 0xA2E40 VA: 0x1800A3A40
+	[AsyncStateMachineAttribute] // RVA: 0xA3AF0 Offset: 0xA2EF0 VA: 0x1800A3AF0
 	internal Task InnerWrite(bool sync, CancellationToken cancellationToken) { }
 
 	internal AsyncOperationStatus ProcessHandshake(AsyncOperationStatus status) { }

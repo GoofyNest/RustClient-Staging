@@ -1,5 +1,5 @@
 public enum Icons // TypeDefIndex: 7047
-{	public int value__; // 0x2B00
+{	public int value__; // 0x3A98
 	public const Icons None = 0;
 	public const Icons Abacus = 63040;
 	public const Icons Acorn = 63150;

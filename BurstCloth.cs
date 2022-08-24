@@ -2,32 +2,32 @@ public class BurstCloth : MonoBehaviour // TypeDefIndex: 7308
 {	internal const int TickRateMultiplier = 60;
 	internal const int MaximumTickRate = 240;
 	private static readonly List<CapsuleParams> CapsuleParamsShared; // 0x0
-	[HeaderAttribute] // RVA: 0x94CD0 Offset: 0x940D0 VA: 0x180094CD0
+	[HeaderAttribute] // RVA: 0x94D10 Offset: 0x94110 VA: 0x180094D10
 	public Transform[] RootBones; // 0x18
 	public bool SiblingConstraints; // 0x20
 	public int StiffnessDepth; // 0x24
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float LengthModifier; // 0x28
-	[HeaderAttribute] // RVA: 0x94E70 Offset: 0x94270 VA: 0x180094E70
+	[HeaderAttribute] // RVA: 0x94EC0 Offset: 0x942C0 VA: 0x180094EC0
 	public BurstClothMaterial Material; // 0x30
 	public Vector3 Gravity; // 0x38
 	public Transform SimulationSpace; // 0x48
-	[HeaderAttribute] // RVA: 0x94F40 Offset: 0x94340 VA: 0x180094F40
+	[HeaderAttribute] // RVA: 0x94FB0 Offset: 0x943B0 VA: 0x180094FB0
 	public bool EnableCollisions; // 0x50
 	public float CollisionRadius; // 0x54
-	[BurstClothCurveRectAttribute] // RVA: 0x95040 Offset: 0x94440 VA: 0x180095040
+	[BurstClothCurveRectAttribute] // RVA: 0x95080 Offset: 0x94480 VA: 0x180095080
 	public AnimationCurve CollisionRadiusCurve; // 0x58
-	[HeaderAttribute] // RVA: 0x950B0 Offset: 0x944B0 VA: 0x1800950B0
+	[HeaderAttribute] // RVA: 0x95130 Offset: 0x94530 VA: 0x180095130
 	public bool EnableSimulation; // 0x60
-	[RangeAttribute] // RVA: 0x951A0 Offset: 0x945A0 VA: 0x1800951A0
+	[RangeAttribute] // RVA: 0x95220 Offset: 0x94620 VA: 0x180095220
 	public int TickRate; // 0x64
-	[RangeAttribute] // RVA: 0x95330 Offset: 0x94730 VA: 0x180095330
+	[RangeAttribute] // RVA: 0x953F0 Offset: 0x947F0 VA: 0x1800953F0
 	public int MaxTicksPerFrame; // 0x68
-	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[SerializeField] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[HideInInspector] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	private List<BurstCloth.Chain> _chains; // 0x70
-	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[SerializeField] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[HideInInspector] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	private List<BoneData> _boneDataOriginal; // 0x78
 	private Vector3 _origin; // 0x80
 	private Quaternion _rotation; // 0x8C

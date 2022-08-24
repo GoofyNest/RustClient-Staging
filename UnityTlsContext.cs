@@ -43,22 +43,22 @@ internal class UnityTlsContext : MobileTlsContext // TypeDefIndex: 2509
 
 	public override void FinishHandshake() { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0x9FB00 Offset: 0x9EF00 VA: 0x18009FB00
+	[MonoPInvokeCallbackAttribute] // RVA: 0x9FA40 Offset: 0x9EE40 VA: 0x18009FA40
 	private static IntPtr WriteCallback(void* userData, byte* data, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
 	private IntPtr WriteCallback(byte* data, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0x9FC10 Offset: 0x9F010 VA: 0x18009FC10
+	[MonoPInvokeCallbackAttribute] // RVA: 0x9FB50 Offset: 0x9EF50 VA: 0x18009FB50
 	private static IntPtr ReadCallback(void* userData, byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
 	private IntPtr ReadCallback(byte* buffer, IntPtr bufferLen, UnityTls.unitytls_errorstate* errorState) { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0x9FC90 Offset: 0x9F090 VA: 0x18009FC90
+	[MonoPInvokeCallbackAttribute] // RVA: 0x9FBD0 Offset: 0x9EFD0 VA: 0x18009FBD0
 	private static UnityTls.unitytls_x509verify_result VerifyCallback(void* userData, UnityTls.unitytls_x509list_ref chain, UnityTls.unitytls_errorstate* errorState) { }
 
 	private UnityTls.unitytls_x509verify_result VerifyCallback(UnityTls.unitytls_x509list_ref chain, UnityTls.unitytls_errorstate* errorState) { }
 
-	[MonoPInvokeCallbackAttribute] // RVA: 0xA10E0 Offset: 0xA04E0 VA: 0x1800A10E0
+	[MonoPInvokeCallbackAttribute] // RVA: 0xA10C0 Offset: 0xA04C0 VA: 0x1800A10C0
 	private static void CertificateCallback(void* userData, UnityTls.unitytls_tlsctx* ctx, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509name* caList, IntPtr caListLen, UnityTls.unitytls_x509list_ref* chain, UnityTls.unitytls_key_ref* key, UnityTls.unitytls_errorstate* errorState) { }
 
 	private void CertificateCallback(UnityTls.unitytls_tlsctx* ctx, byte* cn, IntPtr cnLen, UnityTls.unitytls_x509name* caList, IntPtr caListLen, UnityTls.unitytls_x509list_ref* chain, UnityTls.unitytls_key_ref* key, UnityTls.unitytls_errorstate* errorState) { }

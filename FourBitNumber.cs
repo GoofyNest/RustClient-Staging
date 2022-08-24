@@ -58,7 +58,7 @@ public struct FourBitNumber : IComparable<FourBitNumber>, IConvertible // TypeDe
 }
 
 private sealed class FourBitNumber.<>c // TypeDefIndex: 7624
-{	public static readonly FourBitNumber.<>c <>9; // 0x1770
+{	public static readonly FourBitNumber.<>c <>9; // 0x2007
 
 
 	private static void .cctor() { }

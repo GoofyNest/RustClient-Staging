@@ -20,7 +20,7 @@ internal sealed class ActivityFilter : IDisposable // TypeDefIndex: 1614
 
 	public static void UpdateKwdTriggers(ActivityFilter activityFilter, Guid sourceGuid, EventSource source, EventKeywords sessKeywords) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x77040 Offset: 0x76440 VA: 0x180077040
+	[IteratorStateMachineAttribute] // RVA: 0x76FF0 Offset: 0x763F0 VA: 0x180076FF0
 	public IEnumerable<Tuple<int, int>> GetFilterAsTuple(Guid sourceGuid) { }
 
 	public void Dispose() { }

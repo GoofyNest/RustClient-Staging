@@ -1,5 +1,5 @@
 public class EnvironmentVolume : MonoBehaviour // TypeDefIndex: 9863
-{	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+{	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public EnvironmentType Type; // 0x18
 	public Vector3 Center; // 0x1C
 	public Vector3 Size; // 0x28

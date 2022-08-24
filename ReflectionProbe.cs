@@ -1,20 +1,20 @@
 public sealed class ReflectionProbe : Behaviour // TypeDefIndex: 3368
-{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private static Action<ReflectionProbe, ReflectionProbe.ReflectionProbeEvent> reflectionProbeChanged; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private static Action<Cubemap> defaultReflectionSet; // 0x8
 
-	[NativeNameAttribute] // RVA: 0x7B040 Offset: 0x7A440 VA: 0x18007B040
+	[NativeNameAttribute] // RVA: 0x7B060 Offset: 0x7A460 VA: 0x18007B060
 	public Vector3 size { set; }
-	[NativeNameAttribute] // RVA: 0x7B3E0 Offset: 0x7A7E0 VA: 0x18007B3E0
+	[NativeNameAttribute] // RVA: 0x7B410 Offset: 0x7A810 VA: 0x18007B410
 	public float nearClipPlane { get; set; }
-	[NativeNameAttribute] // RVA: 0x7B4E0 Offset: 0x7A8E0 VA: 0x18007B4E0
+	[NativeNameAttribute] // RVA: 0x7B510 Offset: 0x7A910 VA: 0x18007B510
 	public float farClipPlane { get; set; }
 	[NativeNameAttribute] // RVA: 0x7B590 Offset: 0x7A990 VA: 0x18007B590
 	public float intensity { get; set; }
-	[NativeNameAttribute] // RVA: 0x7B750 Offset: 0x7AB50 VA: 0x18007B750
+	[NativeNameAttribute] // RVA: 0x7B720 Offset: 0x7AB20 VA: 0x18007B720
 	public bool hdr { get; }
 	public float shadowDistance { get; }
 	public int resolution { get; set; }
@@ -92,8 +92,8 @@ public sealed class ReflectionProbe : Behaviour // TypeDefIndex: 3368
 
 	private int ScheduleRender(ReflectionProbeTimeSlicingMode timeSlicingMode, RenderTexture targetTexture) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7AAD0 Offset: 0x79ED0 VA: 0x18007AAD0
-	[NativeHeaderAttribute] // RVA: 0x7AAD0 Offset: 0x79ED0 VA: 0x18007AAD0
+	[FreeFunctionAttribute] // RVA: 0x7AAF0 Offset: 0x79EF0 VA: 0x18007AAF0
+	[NativeHeaderAttribute] // RVA: 0x7AAF0 Offset: 0x79EF0 VA: 0x18007AAF0
 	public static bool BlendCubemap(Texture src, Texture dst, float blend, RenderTexture target) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

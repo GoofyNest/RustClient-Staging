@@ -1,5 +1,5 @@
 public class Renderer : Component // TypeDefIndex: 3403
-{	[ObsoleteAttribute] // RVA: 0x906A0 Offset: 0x8FAA0 VA: 0x1800906A0
+{	[ObsoleteAttribute] // RVA: 0x905A0 Offset: 0x8F9A0 VA: 0x1800905A0
 	public bool motionVectors { set; }
 	public Bounds bounds { get; }
 	public bool enabled { get; set; }
@@ -20,37 +20,37 @@ public class Renderer : Component // TypeDefIndex: 3403
 
 	public void set_motionVectors(bool value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8F550 Offset: 0x8E950 VA: 0x18008F550
+	[FreeFunctionAttribute] // RVA: 0x8F510 Offset: 0x8E910 VA: 0x18008F510
 	public Bounds get_bounds() { }
 
-	[FreeFunctionAttribute] // RVA: 0x8F6B0 Offset: 0x8EAB0 VA: 0x18008F6B0
+	[FreeFunctionAttribute] // RVA: 0x8F670 Offset: 0x8EA70 VA: 0x18008F670
 	private Material GetMaterial() { }
 
-	[FreeFunctionAttribute] // RVA: 0x8F8A0 Offset: 0x8ECA0 VA: 0x18008F8A0
+	[FreeFunctionAttribute] // RVA: 0x8F820 Offset: 0x8EC20 VA: 0x18008F820
 	private Material GetSharedMaterial() { }
 
-	[FreeFunctionAttribute] // RVA: 0x8F950 Offset: 0x8ED50 VA: 0x18008F950
+	[FreeFunctionAttribute] // RVA: 0x8F890 Offset: 0x8EC90 VA: 0x18008F890
 	private void SetMaterial(Material m) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8FAE0 Offset: 0x8EEE0 VA: 0x18008FAE0
+	[FreeFunctionAttribute] // RVA: 0x8F9E0 Offset: 0x8EDE0 VA: 0x18008F9E0
 	private Material[] GetMaterialArray() { }
 
-	[FreeFunctionAttribute] // RVA: 0x8FBE0 Offset: 0x8EFE0 VA: 0x18008FBE0
+	[FreeFunctionAttribute] // RVA: 0x8FAD0 Offset: 0x8EED0 VA: 0x18008FAD0
 	private void CopySharedMaterialArray([Out] Material[] m) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8FCC0 Offset: 0x8F0C0 VA: 0x18008FCC0
+	[FreeFunctionAttribute] // RVA: 0x8FB70 Offset: 0x8EF70 VA: 0x18008FB70
 	private void SetMaterialArray(Material[] m) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8FF80 Offset: 0x8F380 VA: 0x18008FF80
+	[FreeFunctionAttribute] // RVA: 0x8FE30 Offset: 0x8F230 VA: 0x18008FE30
 	internal void Internal_SetPropertyBlock(MaterialPropertyBlock properties) { }
 
-	[FreeFunctionAttribute] // RVA: 0x90040 Offset: 0x8F440 VA: 0x180090040
+	[FreeFunctionAttribute] // RVA: 0x8FEF0 Offset: 0x8F2F0 VA: 0x18008FEF0
 	internal void Internal_GetPropertyBlock(MaterialPropertyBlock dest) { }
 
-	[FreeFunctionAttribute] // RVA: 0x902E0 Offset: 0x8F6E0 VA: 0x1800902E0
+	[FreeFunctionAttribute] // RVA: 0x90190 Offset: 0x8F590 VA: 0x180090190
 	internal void Internal_SetPropertyBlockMaterialIndex(MaterialPropertyBlock properties, int materialIndex) { }
 
-	[FreeFunctionAttribute] // RVA: 0x90380 Offset: 0x8F780 VA: 0x180090380
+	[FreeFunctionAttribute] // RVA: 0x90200 Offset: 0x8F600 VA: 0x180090200
 	public bool HasPropertyBlock() { }
 
 	public void SetPropertyBlock(MaterialPropertyBlock properties) { }
@@ -63,7 +63,7 @@ public class Renderer : Component // TypeDefIndex: 3403
 
 	public void set_enabled(bool value) { }
 
-	[NativeNameAttribute] // RVA: 0x904B0 Offset: 0x8F8B0 VA: 0x1800904B0
+	[NativeNameAttribute] // RVA: 0x90330 Offset: 0x8F730 VA: 0x180090330
 	public bool get_isVisible() { }
 
 	public ShadowCastingMode get_shadowCastingMode() { }
@@ -96,7 +96,7 @@ public class Renderer : Component // TypeDefIndex: 3403
 
 	private int GetMaterialCount() { }
 
-	[NativeNameAttribute] // RVA: 0x905D0 Offset: 0x8F9D0 VA: 0x1800905D0
+	[NativeNameAttribute] // RVA: 0x90480 Offset: 0x8F880 VA: 0x180090480
 	private Material[] GetSharedMaterialArray() { }
 
 	public Material[] get_materials() { }

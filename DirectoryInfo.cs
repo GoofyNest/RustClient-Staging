@@ -43,7 +43,7 @@ public sealed class DirectoryInfo : FileSystemInfo // TypeDefIndex: 661
 
 	public IEnumerable<FileInfo> EnumerateFiles(string searchPattern, SearchOption searchOption) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA5730 Offset: 0xA4B30 VA: 0x1800A5730
+	[IteratorStateMachineAttribute] // RVA: 0xA56A0 Offset: 0xA4AA0 VA: 0x1800A56A0
 	private IEnumerable<FileInfo> CreateEnumerateFilesIterator(string searchPattern, SearchOption searchOption) { }
 
 	internal void CheckPath(string path) { }

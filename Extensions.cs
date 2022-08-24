@@ -102,7 +102,7 @@ private sealed class Extensions.<>c__3<T> // TypeDefIndex: 6051
 }
 
 private sealed class Extensions.<>c // TypeDefIndex: 6052
-{	public static readonly Extensions.<>c <>9; // 0x2740
+{	public static readonly Extensions.<>c <>9; // 0x369C
 
 
 	private static void .cctor() { }

@@ -1,7 +1,7 @@
 public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 {
-[AttributeUsageAttribute] // RVA: 0xC8DA0 Offset: 0xC81A0 VA: 0x1800C8DA0
-[RequiredByNativeCodeAttribute] // RVA: 0xC8DA0 Offset: 0xC81A0 VA: 0x1800C8DA0
+[AttributeUsageAttribute] // RVA: 0xC8DF0 Offset: 0xC81F0 VA: 0x1800C8DF0
+[RequiredByNativeCodeAttribute] // RVA: 0xC8DF0 Offset: 0xC81F0 VA: 0x1800C8DF0
 public sealed class NativeSetClassTypeToNullOnScheduleAttribute : Attribute // TypeDefIndex: 3338
 
 [ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

@@ -208,7 +208,7 @@ public class ReportBug : UIDialog // TypeDefIndex: 12047
 
 	public override void OpenDialog() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD0E80 Offset: 0xD0280 VA: 0x1800D0E80
+	[IteratorStateMachineAttribute] // RVA: 0xD05B0 Offset: 0xCF9B0 VA: 0x1800D05B0
 	private IEnumerator CaptureScreenshot() { }
 
 	public void Cancel() { }
@@ -223,7 +223,7 @@ public class ReportBug : UIDialog // TypeDefIndex: 12047
 
 	public void ReportPlayer() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD0FC0 Offset: 0xD03C0 VA: 0x1800D0FC0
+	[AsyncStateMachineAttribute] // RVA: 0xD08F0 Offset: 0xCFCF0 VA: 0x1800D08F0
 	public void SendReport() { }
 
 	public void OnChangedSelectedOption(Option option) { }
@@ -316,7 +316,7 @@ public class ReportPlayer : UIDialog // TypeDefIndex: 12051
 
 	private bool HasRecentlyReported(ulong id) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1730 Offset: 0xD0B30 VA: 0x1800D1730
+	[AsyncStateMachineAttribute] // RVA: 0xD0F70 Offset: 0xD0370 VA: 0x1800D0F70
 	public void SendReport() { }
 
 	public void .ctor() { }

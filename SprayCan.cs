@@ -34,9 +34,9 @@ public class SprayCan : HeldEntity // TypeDefIndex: 8641
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SprayCan.SprayMode <currentMode>k__BackingField; // 0x2E0
 	private int selectedDecalSkin; // 0x2E4
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool UseAccurateMeshSnapping; // 0x18
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool DebugMeshSnapping; // 0x19
 	private static int paramAttack; // 0x1C
 	private static int paramAttackHold; // 0x20

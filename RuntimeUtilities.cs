@@ -138,7 +138,7 @@ public static class RuntimeUtilities // TypeDefIndex: 11871
 
 	public static bool IsTemporalAntialiasingActive(PostProcessLayer layer) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x7FFE0 Offset: 0x7F3E0 VA: 0x18007FFE0
+	[IteratorStateMachineAttribute] // RVA: 0x7F860 Offset: 0x7EC60 VA: 0x18007F860
 	public static IEnumerable<T> GetAllSceneObjects<T>() { }
 	/* GenericInstMethod :
 	|

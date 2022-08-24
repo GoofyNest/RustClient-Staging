@@ -15,7 +15,7 @@ public struct Double : IComparable, IFormattable, IConvertible, IComparable<doub
 
 	public static bool IsNegativeInfinity(double d) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public static bool IsNaN(double d) { }
 
 	public static bool IsFinite(double d) { }

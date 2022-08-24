@@ -1,5 +1,5 @@
 public static class BoundsEx // TypeDefIndex: 11347
-{	private static Vector3[] pts; // 0x1D1C8
+{	private static Vector3[] pts; // 0x2B10B68
 
 
 	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

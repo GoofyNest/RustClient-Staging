@@ -6,21 +6,21 @@ public class ForeignKeyConstraint : Constraint // TypeDefIndex: 4268
 	private DataKey _parentKey; // 0x50
 
 	internal DataKey ChildKey { get; }
-	[ReadOnlyAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ReadOnlyAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public virtual DataColumn[] Columns { get; }
-	[ReadOnlyAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ReadOnlyAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public override DataTable Table { get; }
-	[DefaultValueAttribute] // RVA: 0xA5AB0 Offset: 0xA4EB0 VA: 0x1800A5AB0
+	[DefaultValueAttribute] // RVA: 0xA59E0 Offset: 0xA4DE0 VA: 0x1800A59E0
 	public virtual AcceptRejectRule AcceptRejectRule { get; set; }
-	[DefaultValueAttribute] // RVA: 0xA5C20 Offset: 0xA5020 VA: 0x1800A5C20
+	[DefaultValueAttribute] // RVA: 0xA5B50 Offset: 0xA4F50 VA: 0x1800A5B50
 	public virtual Rule DeleteRule { get; set; }
-	[ReadOnlyAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ReadOnlyAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public virtual DataColumn[] RelatedColumns { get; }
 	internal DataColumn[] RelatedColumnsReference { get; }
 	internal DataKey ParentKey { get; }
-	[ReadOnlyAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ReadOnlyAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public virtual DataTable RelatedTable { get; }
-	[DefaultValueAttribute] // RVA: 0xA5E90 Offset: 0xA5290 VA: 0x1800A5E90
+	[DefaultValueAttribute] // RVA: 0xA5DC0 Offset: 0xA51C0 VA: 0x1800A5DC0
 	public virtual Rule UpdateRule { get; set; }
 
 

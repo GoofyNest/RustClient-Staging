@@ -13,7 +13,7 @@ public class Exception : ISerializable, _Exception // TypeDefIndex: 218
 	private object _dynamicMethods; // 0x58
 	internal int _HResult; // 0x60
 	private string _source; // 0x68
-	[OptionalFieldAttribute] // RVA: 0x7B780 Offset: 0x7AB80 VA: 0x18007B780
+	[OptionalFieldAttribute] // RVA: 0x7B750 Offset: 0x7AB50 VA: 0x18007B750
 	private SafeSerializationManager _safeSerializationManager; // 0x70
 	internal StackTrace[] captured_traces; // 0x78
 	private IntPtr[] native_trace_ips; // 0x80

@@ -1,18 +1,18 @@
 public class IronSights : MonoBehaviour // TypeDefIndex: 11444
 {	public bool Enabled; // 0x18
-	[HeaderAttribute] // RVA: 0xB0AF0 Offset: 0xAFEF0 VA: 0x1800B0AF0
+	[HeaderAttribute] // RVA: 0xB0770 Offset: 0xAFB70 VA: 0x1800B0770
 	public IronsightAimPoint aimPoint; // 0x20
 	public float fieldOfViewOffset; // 0x28
 	public float zoomFactor; // 0x2C
-	[HeaderAttribute] // RVA: 0xB0B50 Offset: 0xAFF50 VA: 0x1800B0B50
+	[HeaderAttribute] // RVA: 0xB07D0 Offset: 0xAFBD0 VA: 0x1800B07D0
 	public float introSpeed; // 0x30
 	public AnimationCurve introCurve; // 0x38
 	public float outroSpeed; // 0x40
 	public AnimationCurve outroCurve; // 0x48
-	[HeaderAttribute] // RVA: 0xAA1A0 Offset: 0xA95A0 VA: 0x1800AA1A0
+	[HeaderAttribute] // RVA: 0xAA0C0 Offset: 0xA94C0 VA: 0x1800AA0C0
 	public SoundDefinition upSound; // 0x50
 	public SoundDefinition downSound; // 0x58
-	[HeaderAttribute] // RVA: 0xB0C10 Offset: 0xB0010 VA: 0x1800B0C10
+	[HeaderAttribute] // RVA: 0xB0880 Offset: 0xAFC80 VA: 0x1800B0880
 	public IronSightOverride ironsightsOverride; // 0x60
 	public bool processUltrawideOffset; // 0x68
 	private Animator animator; // 0x70

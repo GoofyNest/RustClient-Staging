@@ -101,18 +101,18 @@ public class MixingTable : StorageContainer // TypeDefIndex: 8411
 
 	public float get_ProgressFraction() { }
 
-	[BaseEntity.Menu] // RVA: 0xEE0F0 Offset: 0xED4F0 VA: 0x1800EE0F0
-	[BaseEntity.Menu.Description] // RVA: 0xEE0F0 Offset: 0xED4F0 VA: 0x1800EE0F0
-	[BaseEntity.Menu.Icon] // RVA: 0xEE0F0 Offset: 0xED4F0 VA: 0x1800EE0F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xEE0F0 Offset: 0xED4F0 VA: 0x1800EE0F0
+	[BaseEntity.Menu] // RVA: 0xEE200 Offset: 0xED600 VA: 0x1800EE200
+	[BaseEntity.Menu.Description] // RVA: 0xEE200 Offset: 0xED600 VA: 0x1800EE200
+	[BaseEntity.Menu.Icon] // RVA: 0xEE200 Offset: 0xED600 VA: 0x1800EE200
+	[BaseEntity.Menu.ShowIf] // RVA: 0xEE200 Offset: 0xED600 VA: 0x1800EE200
 	public void Menu_TurnOn(BasePlayer player) { }
 
 	public bool Menu_TurnOn_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xEE520 Offset: 0xED920 VA: 0x1800EE520
-	[BaseEntity.Menu.Description] // RVA: 0xEE520 Offset: 0xED920 VA: 0x1800EE520
-	[BaseEntity.Menu.Icon] // RVA: 0xEE520 Offset: 0xED920 VA: 0x1800EE520
-	[BaseEntity.Menu.ShowIf] // RVA: 0xEE520 Offset: 0xED920 VA: 0x1800EE520
+	[BaseEntity.Menu] // RVA: 0xEE6A0 Offset: 0xEDAA0 VA: 0x1800EE6A0
+	[BaseEntity.Menu.Description] // RVA: 0xEE6A0 Offset: 0xEDAA0 VA: 0x1800EE6A0
+	[BaseEntity.Menu.Icon] // RVA: 0xEE6A0 Offset: 0xEDAA0 VA: 0x1800EE6A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xEE6A0 Offset: 0xEDAA0 VA: 0x1800EE6A0
 	public void Menu_TurnOff(BasePlayer player) { }
 
 	public bool Menu_TurnOff_ShowIf(BasePlayer player) { }

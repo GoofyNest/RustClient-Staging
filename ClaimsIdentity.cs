@@ -4,21 +4,21 @@ public class ClaimsIdentity : IIdentity // TypeDefIndex: 935
 	private Collection<IEnumerable<Claim>> m_externalClaims; // 0x20
 	private string m_nameType; // 0x28
 	private string m_roleType; // 0x30
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private string m_version; // 0x38
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private ClaimsIdentity m_actor; // 0x40
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private string m_authenticationType; // 0x48
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private object m_bootstrapContext; // 0x50
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private string m_label; // 0x58
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private string m_serializedNameType; // 0x60
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private string m_serializedRoleType; // 0x68
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private string m_serializedClaims; // 0x70
 
 	public virtual string AuthenticationType { get; }
@@ -43,7 +43,7 @@ public class ClaimsIdentity : IIdentity // TypeDefIndex: 935
 
 	public void set_Actor(ClaimsIdentity value) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xC6650 Offset: 0xC5A50 VA: 0x1800C6650
+	[IteratorStateMachineAttribute] // RVA: 0xC65C0 Offset: 0xC59C0 VA: 0x1800C65C0
 	public virtual IEnumerable<Claim> get_Claims() { }
 
 	public virtual string get_Name() { }

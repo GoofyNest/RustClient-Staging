@@ -24,10 +24,10 @@ public class CollectableEasterEgg : BaseEntity // TypeDefIndex: 8374
 
 	public void Update() { }
 
-	[BaseEntity.Menu] // RVA: 0xD5E40 Offset: 0xD5240 VA: 0x1800D5E40
-	[BaseEntity.Menu.Description] // RVA: 0xD5E40 Offset: 0xD5240 VA: 0x1800D5E40
-	[BaseEntity.Menu.Icon] // RVA: 0xD5E40 Offset: 0xD5240 VA: 0x1800D5E40
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD5E40 Offset: 0xD5240 VA: 0x1800D5E40
+	[BaseEntity.Menu] // RVA: 0xD5D60 Offset: 0xD5160 VA: 0x1800D5D60
+	[BaseEntity.Menu.Description] // RVA: 0xD5D60 Offset: 0xD5160 VA: 0x1800D5D60
+	[BaseEntity.Menu.Icon] // RVA: 0xD5D60 Offset: 0xD5160 VA: 0x1800D5D60
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD5D60 Offset: 0xD5160 VA: 0x1800D5D60
 	public void Menu_Pickup(BasePlayer player) { }
 
 	public void Menu_Pickup_Start() { }

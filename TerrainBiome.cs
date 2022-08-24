@@ -12,7 +12,7 @@ public static class TerrainBiome // TypeDefIndex: 7781
 	public const int TEMPERATE_IDX = 1;
 	public const int TUNDRA_IDX = 2;
 	public const int ARCTIC_IDX = 3;
-	private static Dictionary<int, int> type2index; // 0x18A0
+	private static Dictionary<int, int> type2index; // 0x2B108D4
 
 
 	public static int TypeToIndex(int id) { }

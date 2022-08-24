@@ -3,11 +3,11 @@ public class DamageRenderer : MonoBehaviour, IClientComponent, IPrefabPreProcess
 	private List<Material> damageShowingMats; // 0x18
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float maxDamageOpacity; // 0x20
-	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[SerializeField] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[HideInInspector] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	private List<DamageRenderer.DamageShowingRenderer> damageShowingRenderers; // 0x28
-	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[SerializeField] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[HideInInspector] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	private List<GlassPane> damageShowingGlassRenderers; // 0x30
 	private float prevHealth; // 0x38
 	private bool prevIsDead; // 0x3C

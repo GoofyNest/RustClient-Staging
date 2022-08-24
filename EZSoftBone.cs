@@ -3,46 +3,46 @@ public class EZSoftBone : MonoBehaviour, IClientComponent, IPrefabPreProcess // 
 	public const int MaxInstanceCount = 12;
 	private static float CurrentFrame; // 0x0
 	private static int InstanceNumber; // 0x4
-	[FormerlySerializedAsAttribute] // RVA: 0x80C00 Offset: 0x80000 VA: 0x180080C00
+	[FormerlySerializedAsAttribute] // RVA: 0x80AF0 Offset: 0x7FEF0 VA: 0x180080AF0
 	public List<Transform> rootBones; // 0x18
-	[FormerlySerializedAsAttribute] // RVA: 0x80C40 Offset: 0x80040 VA: 0x180080C40
+	[FormerlySerializedAsAttribute] // RVA: 0x80B70 Offset: 0x7FF70 VA: 0x180080B70
 	public List<Transform> endBones; // 0x20
-	[SerializeField] // RVA: 0x80C70 Offset: 0x80070 VA: 0x180080C70
-	[FormerlySerializedAsAttribute] // RVA: 0x80C70 Offset: 0x80070 VA: 0x180080C70
+	[SerializeField] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[FormerlySerializedAsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
 	private EZSoftBoneMaterial _material; // 0x28
 	[FormerlySerializedAsAttribute] // RVA: 0x80E40 Offset: 0x80240 VA: 0x180080E40
 	public int startDepth; // 0x30
 	public int stiffnessDepth; // 0x34
-	[FormerlySerializedAsAttribute] // RVA: 0x80E70 Offset: 0x80270 VA: 0x180080E70
+	[FormerlySerializedAsAttribute] // RVA: 0x80EB0 Offset: 0x802B0 VA: 0x180080EB0
 	public EZSoftBone.UnificationMode siblingConstraints; // 0x38
-	[FormerlySerializedAsAttribute] // RVA: 0x80FB0 Offset: 0x803B0 VA: 0x180080FB0
+	[FormerlySerializedAsAttribute] // RVA: 0x81030 Offset: 0x80430 VA: 0x180081030
 	public EZSoftBone.UnificationMode lengthUnification; // 0x3C
-	[FormerlySerializedAsAttribute] // RVA: 0x81150 Offset: 0x80550 VA: 0x180081150
+	[FormerlySerializedAsAttribute] // RVA: 0x811A0 Offset: 0x805A0 VA: 0x1800811A0
 	public bool siblingRotationConstraints; // 0x40
-	[FormerlySerializedAsAttribute] // RVA: 0x81220 Offset: 0x80620 VA: 0x180081220
+	[FormerlySerializedAsAttribute] // RVA: 0x81270 Offset: 0x80670 VA: 0x180081270
 	public bool closedSiblings; // 0x41
-	[FormerlySerializedAsAttribute] // RVA: 0x81420 Offset: 0x80820 VA: 0x180081420
+	[FormerlySerializedAsAttribute] // RVA: 0x81410 Offset: 0x80810 VA: 0x180081410
 	public LayerMask collisionLayers; // 0x44
-	[FormerlySerializedAsAttribute] // RVA: 0x81510 Offset: 0x80910 VA: 0x180081510
+	[FormerlySerializedAsAttribute] // RVA: 0x81500 Offset: 0x80900 VA: 0x180081500
 	public float radius; // 0x48
-	[FormerlySerializedAsAttribute] // RVA: 0x816A0 Offset: 0x80AA0 VA: 0x1800816A0
-	[EZCurveRectAttribute] // RVA: 0x816A0 Offset: 0x80AA0 VA: 0x1800816A0
+	[FormerlySerializedAsAttribute] // RVA: 0x81690 Offset: 0x80A90 VA: 0x180081690
+	[EZCurveRectAttribute] // RVA: 0x81690 Offset: 0x80A90 VA: 0x180081690
 	public AnimationCurve radiusCurve; // 0x50
 	public float deadZoneRadius; // 0x58
 	public float deadZoneExtent; // 0x5C
-	[FormerlySerializedAsAttribute] // RVA: 0x81800 Offset: 0x80C00 VA: 0x180081800
+	[FormerlySerializedAsAttribute] // RVA: 0x817C0 Offset: 0x80BC0 VA: 0x1800817C0
 	public EZSoftBone.DeltaTimeMode deltaTimeMode; // 0x60
-	[FormerlySerializedAsAttribute] // RVA: 0x81900 Offset: 0x80D00 VA: 0x180081900
+	[FormerlySerializedAsAttribute] // RVA: 0x81880 Offset: 0x80C80 VA: 0x180081880
 	public float constantDeltaTime; // 0x64
-	[FormerlySerializedAsAttribute] // RVA: 0x819B0 Offset: 0x80DB0 VA: 0x1800819B0
-	[RangeAttribute] // RVA: 0x819B0 Offset: 0x80DB0 VA: 0x1800819B0
+	[FormerlySerializedAsAttribute] // RVA: 0x818F0 Offset: 0x80CF0 VA: 0x1800818F0
+	[RangeAttribute] // RVA: 0x818F0 Offset: 0x80CF0 VA: 0x1800818F0
 	public int iterations; // 0x68
-	[FormerlySerializedAsAttribute] // RVA: 0x81B50 Offset: 0x80F50 VA: 0x180081B50
+	[FormerlySerializedAsAttribute] // RVA: 0x81AA0 Offset: 0x80EA0 VA: 0x180081AA0
 	public float sleepThreshold; // 0x6C
-	[FormerlySerializedAsAttribute] // RVA: 0x81BC0 Offset: 0x80FC0 VA: 0x180081BC0
+	[FormerlySerializedAsAttribute] // RVA: 0x81AD0 Offset: 0x80ED0 VA: 0x180081AD0
 	public Vector3 gravity; // 0x70
-	[SerializeField] // RVA: 0x81C80 Offset: 0x81080 VA: 0x180081C80
-	[FormerlySerializedAsAttribute] // RVA: 0x81C80 Offset: 0x81080 VA: 0x180081C80
+	[SerializeField] // RVA: 0x81B50 Offset: 0x80F50 VA: 0x180081B50
+	[FormerlySerializedAsAttribute] // RVA: 0x81B50 Offset: 0x80F50 VA: 0x180081B50
 	private Transform _simulateSpace; // 0x80
 	public float globalRadius; // 0x88
 	public Vector3 globalForce; // 0x8C

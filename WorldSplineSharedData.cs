@@ -5,7 +5,7 @@ public class WorldSplineSharedData : ScriptableObject // TypeDefIndex: 11419
 	private static string[] worldSplineFolders; // 0x8
 
 
-	[RuntimeInitializeOnLoadMethodAttribute] // RVA: 0x98580 Offset: 0x97980 VA: 0x180098580
+	[RuntimeInitializeOnLoadMethodAttribute] // RVA: 0x97E10 Offset: 0x97210 VA: 0x180097E10
 	private static void Init() { }
 
 	public static bool TryGetDataFor(WorldSpline worldSpline, out WorldSplineData data) { }

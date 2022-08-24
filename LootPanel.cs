@@ -1,7 +1,7 @@
 public class LootPanel : MonoBehaviour // TypeDefIndex: 11030
 {	public Text Title; // 0x18
 	public bool hideInvalidIcons; // 0x20
-	[TooltipAttribute] // RVA: 0x90320 Offset: 0x8F720 VA: 0x180090320
+	[TooltipAttribute] // RVA: 0x8FA20 Offset: 0x8EE20 VA: 0x18008FA20
 	public CanvasGroup canvasGroup; // 0x28
 	private ItemIcon[] allIcons; // 0x30
 

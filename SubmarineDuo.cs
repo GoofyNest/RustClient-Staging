@@ -1,7 +1,7 @@
 public class SubmarineDuo : BaseSubmarine // TypeDefIndex: 8458
 {	private Option __menuOption_Menu_SwapSeats; // 0x6F8
-	[HeaderAttribute] // RVA: 0x8E850 Offset: 0x8DC50 VA: 0x18008E850
-	[SerializeField] // RVA: 0x8E850 Offset: 0x8DC50 VA: 0x18008E850
+	[HeaderAttribute] // RVA: 0x8E6F0 Offset: 0x8DAF0 VA: 0x18008E6F0
+	[SerializeField] // RVA: 0x8E6F0 Offset: 0x8DAF0 VA: 0x18008E6F0
 	private Transform steeringWheel; // 0x750
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform steeringWheelLeftGrip; // 0x758
@@ -55,10 +55,10 @@ public class SubmarineDuo : BaseSubmarine // TypeDefIndex: 8458
 
 	protected override void TorpedoFired() { }
 
-	[BaseEntity.Menu] // RVA: 0x8F2F0 Offset: 0x8E6F0 VA: 0x18008F2F0
-	[BaseEntity.Menu.Description] // RVA: 0x8F2F0 Offset: 0x8E6F0 VA: 0x18008F2F0
-	[BaseEntity.Menu.Icon] // RVA: 0x8F2F0 Offset: 0x8E6F0 VA: 0x18008F2F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8F2F0 Offset: 0x8E6F0 VA: 0x18008F2F0
+	[BaseEntity.Menu] // RVA: 0x8F270 Offset: 0x8E670 VA: 0x18008F270
+	[BaseEntity.Menu.Description] // RVA: 0x8F270 Offset: 0x8E670 VA: 0x18008F270
+	[BaseEntity.Menu.Icon] // RVA: 0x8F270 Offset: 0x8E670 VA: 0x18008F270
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8F270 Offset: 0x8E670 VA: 0x18008F270
 	public void Menu_SwapSeats(BasePlayer player) { }
 
 	public bool Menu_SwapSeats_ShowIf(BasePlayer player) { }

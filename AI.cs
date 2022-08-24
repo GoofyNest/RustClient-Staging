@@ -230,10 +230,10 @@ public class NPCTalking : NPCShopKeeper, IConversationProvider // TypeDefIndex: 
 
 	public bool ProviderBusy() { }
 
-	[BaseEntity.Menu] // RVA: 0x7BD90 Offset: 0x7B190 VA: 0x18007BD90
-	[BaseEntity.Menu.Description] // RVA: 0x7BD90 Offset: 0x7B190 VA: 0x18007BD90
-	[BaseEntity.Menu.Icon] // RVA: 0x7BD90 Offset: 0x7B190 VA: 0x18007BD90
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7BD90 Offset: 0x7B190 VA: 0x18007BD90
+	[BaseEntity.Menu] // RVA: 0x7BC90 Offset: 0x7B090 VA: 0x18007BC90
+	[BaseEntity.Menu.Description] // RVA: 0x7BC90 Offset: 0x7B090 VA: 0x18007BC90
+	[BaseEntity.Menu.Icon] // RVA: 0x7BC90 Offset: 0x7B090 VA: 0x18007BC90
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7BC90 Offset: 0x7B090 VA: 0x18007BC90
 	public void Menu_Talk(BasePlayer player) { }
 
 	public bool Menu_Talk_ShowIf(BasePlayer player) { }
@@ -285,7 +285,7 @@ public class NPCVendingOrder.Entry // TypeDefIndex: 8723
 	public ItemDefinition currencyItem; // 0x20
 	public int currencyAmount; // 0x28
 	public bool currencyAsBP; // 0x2C
-	[TooltipAttribute] // RVA: 0x77B10 Offset: 0x76F10 VA: 0x180077B10
+	[TooltipAttribute] // RVA: 0x77350 Offset: 0x76750 VA: 0x180077350
 	public int weight; // 0x30
 	public int refillAmount; // 0x34
 	public float refillDelay; // 0x38
@@ -382,7 +382,7 @@ public class AICoverPoint : AIPoint // TypeDefIndex: 8903
 
 public class AICoverPointTool : MonoBehaviour // TypeDefIndex: 8904
 {
-	[ContextMenu] // RVA: 0xC2050 Offset: 0xC1450 VA: 0x1800C2050
+	[ContextMenu] // RVA: 0xC2340 Offset: 0xC1740 VA: 0x1800C2340
 	public void PlaceCoverPoints() { }
 
 	private AICoverPointTool.TestResult TestPoint(Vector3 pos) { }
@@ -502,7 +502,7 @@ public class AIInformationGrid : MonoBehaviour // TypeDefIndex: 8908
 	private AIInformationCell[] resultCells; // 0x68
 
 
-	[ContextMenu] // RVA: 0xC3890 Offset: 0xC2C90 VA: 0x1800C3890
+	[ContextMenu] // RVA: 0xC3A80 Offset: 0xC2E80 VA: 0x1800C3A80
 	public void Init() { }
 
 	private int GetIndex(int x, int z) { }
@@ -612,7 +612,7 @@ public class AIMovePointPath : MonoBehaviour // TypeDefIndex: 8913
 
 	private void OnDrawGizmosSelected() { }
 
-	[ContextMenu] // RVA: 0xC3960 Offset: 0xC2D60 VA: 0x1800C3960
+	[ContextMenu] // RVA: 0xC3BA0 Offset: 0xC2FA0 VA: 0x1800C3BA0
 	public void AddChildPoints() { }
 
 	public void .ctor() { }
@@ -874,7 +874,7 @@ public class AnimalAnimation : MonoBehaviour, IClientComponent // TypeDefIndex: 
 	public SoundDefinition saddleMovementSoundDefWood; // 0x48
 	public SoundDefinition saddleMovementSoundDefRoadsign; // 0x50
 	public AnimationCurve saddleMovementGainCurve; // 0x58
-	[ReadOnlyAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[ReadOnlyAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public string BaseFolder; // 0x60
 	public const BaseEntity.Flags Flag_WoodArmor = 2048;
 	public const BaseEntity.Flags Flag_RoadsignArmor = 16384;
@@ -1013,7 +1013,7 @@ public class AIDesign // TypeDefIndex: 9379
 
 public static class AIDesigns // TypeDefIndex: 9380
 {	public const string DesignFolderPath = "cfg/ai/";
-	private static Dictionary<string, AIDesign> designs; // 0x16D6
+	private static Dictionary<string, AIDesign> designs; // 0x2B10768
 
 
 	public static AIDesign GetByNameOrInstance(string designName, AIDesign entityDesign) { }
@@ -1240,19 +1240,19 @@ public class NPCSpawner : SpawnGroup // TypeDefIndex: 10004
 {	public int AdditionalLOSBlockingLayer; // 0x48
 	public MonumentNavMesh monumentNavMesh; // 0x50
 	public bool shouldFillOnSpawn; // 0x58
-	[HeaderAttribute] // RVA: 0xAD2A0 Offset: 0xAC6A0 VA: 0x1800AD2A0
+	[HeaderAttribute] // RVA: 0xACBD0 Offset: 0xABFD0 VA: 0x1800ACBD0
 	public AIInformationZone VirtualInfoZone; // 0x60
-	[HeaderAttribute] // RVA: 0xAE6C0 Offset: 0xADAC0 VA: 0x1800AE6C0
+	[HeaderAttribute] // RVA: 0xACD60 Offset: 0xAC160 VA: 0x1800ACD60
 	public AIMovePointPath Path; // 0x68
 	public BasePath AStarGraph; // 0x70
-	[HeaderAttribute] // RVA: 0xAFDE0 Offset: 0xAF1E0 VA: 0x1800AFDE0
+	[HeaderAttribute] // RVA: 0xACE00 Offset: 0xAC200 VA: 0x1800ACE00
 	public bool UseStatModifiers; // 0x78
 	public float SenseRange; // 0x7C
 	public float TargetLostRange; // 0x80
 	public float AttackRangeMultiplier; // 0x84
 	public float ListenRange; // 0x88
 	public float CanUseHealingItemsChance; // 0x8C
-	[HeaderAttribute] // RVA: 0xAFEB0 Offset: 0xAF2B0 VA: 0x1800AFEB0
+	[HeaderAttribute] // RVA: 0xACFB0 Offset: 0xAC3B0 VA: 0x1800ACFB0
 	public PlayerInventoryProperties[] Loadouts; // 0x90
 
 
@@ -1261,28 +1261,28 @@ public class NPCSpawner : SpawnGroup // TypeDefIndex: 10004
 }
 
 public class AI : ConsoleSystem // TypeDefIndex: 11884
-{	[ReplicatedVar] // RVA: 0x85C50 Offset: 0x85050 VA: 0x180085C50
+{	[ReplicatedVar] // RVA: 0x85390 Offset: 0x84790 VA: 0x180085390
 	public static bool allowdesigning; // 0x0
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool designing; // 0x1
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool groundAlign; // 0x2
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static float maxGroundAlignDist; // 0x4
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool debugVis; // 0x8
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool npc_no_foot_ik; // 0x9
 	private static HitTest lookingAtNpcCache; // 0x10
 
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void aiDebug_lookat(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void aiDebug_LoadBalanceOverdueReport(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void selectNPCLookat(ConsoleSystem.Arg args) { }
 
 	private static bool CheckLookingAtVisible(HitTest test, TraceInfo trace) { }
@@ -1294,7 +1294,7 @@ public class AI : ConsoleSystem // TypeDefIndex: 11884
 }
 
 public class AiManagedAgent : FacepunchBehaviour, IServerComponent // TypeDefIndex: 12137
-{	[TooltipAttribute] // RVA: 0xE0650 Offset: 0xDFA50 VA: 0x1800E0650
+{	[TooltipAttribute] // RVA: 0xDFF70 Offset: 0xDF370 VA: 0x1800DFF70
 	public int AgentTypeIndex; // 0x18
 
 
@@ -1303,8 +1303,8 @@ public class AiManagedAgent : FacepunchBehaviour, IServerComponent // TypeDefInd
 }
 
 public class AiManager : SingletonComponent<AiManager>, IServerComponent // TypeDefIndex: 12138
-{	[HeaderAttribute] // RVA: 0xE0A80 Offset: 0xDFE80 VA: 0x1800E0A80
-	[SerializeField] // RVA: 0xE0A80 Offset: 0xDFE80 VA: 0x1800E0A80
+{	[HeaderAttribute] // RVA: 0xE00D0 Offset: 0xDF4D0 VA: 0x1800E00D0
+	[SerializeField] // RVA: 0xE00D0 Offset: 0xDF4D0 VA: 0x1800E00D0
 	public bool UseCover; // 0x18
 	public float CoverPointVolumeCellSize; // 0x1C
 	public float CoverPointVolumeCellHeight; // 0x20
@@ -1326,7 +1326,7 @@ public class AiManager : SingletonComponent<AiManager>, IServerComponent // Type
 }
 
 public class ScientistSpawner : SpawnGroup // TypeDefIndex: 12140
-{	[HeaderAttribute] // RVA: 0xE0CC0 Offset: 0xE00C0 VA: 0x1800E0CC0
+{	[HeaderAttribute] // RVA: 0xE0380 Offset: 0xDF780 VA: 0x1800E0380
 	public bool Mobile; // 0x48
 	public bool NeverMove; // 0x49
 	public bool SpawnHostile; // 0x4A
@@ -1407,7 +1407,7 @@ public class ScientistJunkpileSpawner : MonoBehaviour, IServerComponent // TypeD
 	public float MovementRadius; // 0x40
 	public bool ReducedLongRangeAccuracy; // 0x44
 	public ScientistJunkpileSpawner.JunkpileType SpawnType; // 0x48
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float SpawnBaseChance; // 0x4C
 
 

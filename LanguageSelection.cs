@@ -6,7 +6,7 @@ public class LanguageSelection : MonoBehaviour // TypeDefIndex: 11119
 
 	private void ChangeLanguage(string language) { }
 
-	[ContextMenu] // RVA: 0x97650 Offset: 0x96A50 VA: 0x180097650
+	[ContextMenu] // RVA: 0x96C70 Offset: 0x96070 VA: 0x180096C70
 	private void BuildAll() { }
 
 	public void .ctor() { }

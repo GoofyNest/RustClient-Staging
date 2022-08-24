@@ -1,7 +1,7 @@
 public abstract class StateMachineBehaviour : ScriptableObject // TypeDefIndex: 4478
 {
-[AttributeUsageAttribute] // RVA: 0xB8F50 Offset: 0xB8350 VA: 0x1800B8F50
-[RequiredByNativeCodeAttribute] // RVA: 0xB8F50 Offset: 0xB8350 VA: 0x1800B8F50
+[AttributeUsageAttribute] // RVA: 0xB90E0 Offset: 0xB84E0 VA: 0x1800B90E0
+[RequiredByNativeCodeAttribute] // RVA: 0xB90E0 Offset: 0xB84E0 VA: 0x1800B90E0
 public sealed class SharedBetweenAnimatorsAttribute : Attribute // TypeDefIndex: 4477
 
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

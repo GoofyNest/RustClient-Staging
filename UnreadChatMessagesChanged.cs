@@ -1,5 +1,5 @@
 internal struct UnreadChatMessagesChanged_t : ICallbackData // TypeDefIndex: 5325
-{	public static int _datasize; // 0x12A90
+{	public static int _datasize; // 0x13B26
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }

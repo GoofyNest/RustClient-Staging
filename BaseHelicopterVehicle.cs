@@ -1,11 +1,11 @@
 public class BaseHelicopterVehicle : BaseVehicle // TypeDefIndex: 8325
 {	private Option __menuOption_Menu_Push; // 0x3B8
-	[HeaderAttribute] // RVA: 0xB71C0 Offset: 0xB65C0 VA: 0x1800B71C0
+	[HeaderAttribute] // RVA: 0xB7200 Offset: 0xB6600 VA: 0x1800B7200
 	public float engineThrustMax; // 0x410
 	public Vector3 torqueScale; // 0x414
 	public Transform com; // 0x420
 	public GameObject[] killTriggers; // 0x428
-	[HeaderAttribute] // RVA: 0x78850 Offset: 0x77C50 VA: 0x180078850
+	[HeaderAttribute] // RVA: 0x78870 Offset: 0x77C70 VA: 0x180078870
 	public Transform[] GroundPoints; // 0x430
 	public Transform[] GroundEffects; // 0x438
 	public GameObjectRef serverGibs; // 0x440
@@ -13,7 +13,7 @@ public class BaseHelicopterVehicle : BaseVehicle // TypeDefIndex: 8325
 	public GameObjectRef fireBall; // 0x450
 	public GameObjectRef impactEffectSmall; // 0x458
 	public GameObjectRef impactEffectLarge; // 0x460
-	[HeaderAttribute] // RVA: 0xAA1A0 Offset: 0xA95A0 VA: 0x1800AA1A0
+	[HeaderAttribute] // RVA: 0xAA0C0 Offset: 0xA94C0 VA: 0x1800AA0C0
 	public SoundDefinition flightEngineSoundDef; // 0x468
 	public SoundDefinition flightThwopsSoundDef; // 0x470
 	public float rotorGainModSmoothing; // 0x478
@@ -46,10 +46,10 @@ public class BaseHelicopterVehicle : BaseVehicle // TypeDefIndex: 8325
 
 	public void InitializeClientsideEffects() { }
 
-	[BaseEntity.Menu] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
-	[BaseEntity.Menu.Description] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
-	[BaseEntity.Menu.Icon] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
+	[BaseEntity.Menu.Description] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
+	[BaseEntity.Menu.Icon] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
 	public virtual void Menu_Push(BasePlayer player) { }
 
 	public void .ctor() { }

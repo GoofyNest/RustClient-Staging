@@ -121,11 +121,11 @@ public class X509Certificate : IDeserializationCallback, ISerializable, IDisposa
 
 	public string get_Subject() { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public override bool Equals(object obj) { }
 
-	[ComVisibleAttribute] // RVA: 0xCC8D0 Offset: 0xCBCD0 VA: 0x1800CC8D0
-	[MonoTODOAttribute] // RVA: 0xCC8D0 Offset: 0xCBCD0 VA: 0x1800CC8D0
+	[ComVisibleAttribute] // RVA: 0xCC900 Offset: 0xCBD00 VA: 0x1800CC900
+	[MonoTODOAttribute] // RVA: 0xCC900 Offset: 0xCBD00 VA: 0x1800CC900
 	public virtual void Import(byte[] rawData, string password, X509KeyStorageFlags keyStorageFlags) { }
 
 	[MonoTODOAttribute] // RVA: 0xCCA90 Offset: 0xCBE90 VA: 0x1800CCA90
@@ -140,7 +140,7 @@ public class X509Certificate : IDeserializationCallback, ISerializable, IDisposa
 
 	protected virtual void Dispose(bool disposing) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual void Reset() { }
 
 }

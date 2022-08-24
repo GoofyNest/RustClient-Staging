@@ -86,10 +86,10 @@ public class WaterWell : LiquidContainer // TypeDefIndex: 8486
 
 	public float GetWaterAmount() { }
 
-	[BaseEntity.Menu] // RVA: 0x9CD10 Offset: 0x9C110 VA: 0x18009CD10
-	[BaseEntity.Menu.Description] // RVA: 0x9CD10 Offset: 0x9C110 VA: 0x18009CD10
-	[BaseEntity.Menu.Icon] // RVA: 0x9CD10 Offset: 0x9C110 VA: 0x18009CD10
-	[BaseEntity.Menu.ShowIf] // RVA: 0x9CD10 Offset: 0x9C110 VA: 0x18009CD10
+	[BaseEntity.Menu] // RVA: 0x9CCD0 Offset: 0x9C0D0 VA: 0x18009CCD0
+	[BaseEntity.Menu.Description] // RVA: 0x9CCD0 Offset: 0x9C0D0 VA: 0x18009CCD0
+	[BaseEntity.Menu.Icon] // RVA: 0x9CCD0 Offset: 0x9C0D0 VA: 0x18009CCD0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x9CCD0 Offset: 0x9C0D0 VA: 0x18009CCD0
 	public void Menu_Pump(BasePlayer player) { }
 
 	public bool Menu_Pump_ShowIf(BasePlayer player) { }

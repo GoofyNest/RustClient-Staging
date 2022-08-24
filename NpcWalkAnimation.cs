@@ -27,8 +27,8 @@ public class NpcWalkAnimation : MonoBehaviour, IClientComponent // TypeDefIndex:
 	private Quaternion hipForward; // 0x8C
 	private Quaternion baseHipRotation; // 0x9C
 	private Quaternion baseLookRotation; // 0xAC
-	[ClientVar] // RVA: 0xD12E0 Offset: 0xD06E0 VA: 0x1800D12E0
-	[HelpAttribute] // RVA: 0xD12E0 Offset: 0xD06E0 VA: 0x1800D12E0
+	[ClientVar] // RVA: 0xD1200 Offset: 0xD0600 VA: 0x1800D1200
+	[HelpAttribute] // RVA: 0xD1200 Offset: 0xD0600 VA: 0x1800D1200
 	public static float framebudgetms; // 0x14
 	public static NpcWalkAnimation.NPCWalkWorkQueue WorkQueue; // 0x18
 	private Vector3 targetUp; // 0xBC

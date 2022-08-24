@@ -14,12 +14,12 @@ public class RecoilProperties : ScriptableObject // TypeDefIndex: 10760
 	public bool curvesAsScalar; // 0x51
 	public int shotsUntilMax; // 0x54
 	public float maxRecoilRadius; // 0x58
-	[HeaderAttribute] // RVA: 0x7A200 Offset: 0x79600 VA: 0x18007A200
+	[HeaderAttribute] // RVA: 0x783C0 Offset: 0x777C0 VA: 0x1800783C0
 	public bool overrideAimconeWithCurve; // 0x5C
 	public float aimconeCurveScale; // 0x60
-	[TooltipAttribute] // RVA: 0x7A3E0 Offset: 0x797E0 VA: 0x18007A3E0
+	[TooltipAttribute] // RVA: 0x78540 Offset: 0x77940 VA: 0x180078540
 	public AnimationCurve aimconeCurve; // 0x68
-	[TooltipAttribute] // RVA: 0x7A510 Offset: 0x79910 VA: 0x18007A510
+	[TooltipAttribute] // RVA: 0x78640 Offset: 0x77A40 VA: 0x180078640
 	public AnimationCurve aimconeProbabilityCurve; // 0x70
 	public RecoilProperties newRecoilOverride; // 0x78
 

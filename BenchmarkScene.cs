@@ -18,7 +18,7 @@ public class BenchmarkScene : MonoBehaviour // TypeDefIndex: 8259
 
 	public void Start() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA2B50 Offset: 0xA1F50 VA: 0x1800A2B50
+	[IteratorStateMachineAttribute] // RVA: 0xA2B60 Offset: 0xA1F60 VA: 0x1800A2B60
 	public IEnumerator RunBenchmark() { }
 
 	public virtual float GetResult() { }

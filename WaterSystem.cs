@@ -273,17 +273,17 @@ public class WaterSystem.SimulationSettings // TypeDefIndex: 10632
 	public Texture2D PerlinNoise; // 0x30
 	public WaterGerstner.WaveParams[] OpenSeaWaves; // 0x38
 	public WaterGerstner.ShoreWaveParams ShoreWaves; // 0x40
-	[RangeAttribute] // RVA: 0xECF80 Offset: 0xEC380 VA: 0x1800ECF80
+	[RangeAttribute] // RVA: 0xECA60 Offset: 0xEBE60 VA: 0x1800ECA60
 	public float ShoreWavesFadeDistance; // 0x48
-	[RangeAttribute] // RVA: 0xECF80 Offset: 0xEC380 VA: 0x1800ECF80
+	[RangeAttribute] // RVA: 0xECA60 Offset: 0xEBE60 VA: 0x1800ECA60
 	public float TerrainFadeDistance; // 0x4C
-	[RangeAttribute] // RVA: 0xED290 Offset: 0xEC690 VA: 0x1800ED290
+	[RangeAttribute] // RVA: 0xECBC0 Offset: 0xEBFC0 VA: 0x1800ECBC0
 	public float OpenSeaCrestFoamThreshold; // 0x50
-	[RangeAttribute] // RVA: 0xED290 Offset: 0xEC690 VA: 0x1800ED290
+	[RangeAttribute] // RVA: 0xECBC0 Offset: 0xEBFC0 VA: 0x1800ECBC0
 	public float ShoreCrestFoamThreshold; // 0x54
-	[RangeAttribute] // RVA: 0xED290 Offset: 0xEC690 VA: 0x1800ED290
+	[RangeAttribute] // RVA: 0xECBC0 Offset: 0xEBFC0 VA: 0x1800ECBC0
 	public float ShoreCrestFoamFarThreshold; // 0x58
-	[RangeAttribute] // RVA: 0xECF80 Offset: 0xEC380 VA: 0x1800ECF80
+	[RangeAttribute] // RVA: 0xECA60 Offset: 0xEBE60 VA: 0x1800ECA60
 	public float ShoreCrestFoamFadeDistance; // 0x5C
 
 

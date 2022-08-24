@@ -2,7 +2,7 @@ public class DiscoFloorMesh : MonoBehaviour, IClientComponent // TypeDefIndex: 9
 {	public int GridRows; // 0x18
 	public int GridColumns; // 0x1C
 	public float GridSize; // 0x20
-	[RangeAttribute] // RVA: 0x983A0 Offset: 0x977A0 VA: 0x1800983A0
+	[RangeAttribute] // RVA: 0x98410 Offset: 0x97810 VA: 0x180098410
 	public float TestOffset; // 0x24
 	public Color OffColor; // 0x28
 	public MeshRenderer Renderer; // 0x38

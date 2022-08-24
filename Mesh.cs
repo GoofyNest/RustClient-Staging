@@ -1,6 +1,6 @@
 public sealed class Mesh : Object // TypeDefIndex: 3442
 {	public int blendShapeCount { get; }
-	[NativeNameAttribute] // RVA: 0x9B240 Offset: 0x9A640 VA: 0x18009B240
+	[NativeNameAttribute] // RVA: 0x9B300 Offset: 0x9A700 VA: 0x18009B300
 	public Matrix4x4[] bindposes { get; set; }
 	public bool isReadable { get; }
 	internal bool canAccess { get; }
@@ -20,99 +20,99 @@ public sealed class Mesh : Object // TypeDefIndex: 3442
 	public BoneWeight[] boneWeights { get; set; }
 
 
-	[FreeFunctionAttribute] // RVA: 0x97840 Offset: 0x96C40 VA: 0x180097840
+	[FreeFunctionAttribute] // RVA: 0x97800 Offset: 0x96C00 VA: 0x180097800
 	private static void Internal_Create(Mesh mono) { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor() { }
 
-	[FreeFunctionAttribute] // RVA: 0x97A40 Offset: 0x96E40 VA: 0x180097A40
+	[FreeFunctionAttribute] // RVA: 0x97AD0 Offset: 0x96ED0 VA: 0x180097AD0
 	public void SetVertexBufferParams(int vertexCount, VertexAttributeDescriptor[] attributes) { }
 
-	[FreeFunctionAttribute] // RVA: 0x97DC0 Offset: 0x971C0 VA: 0x180097DC0
+	[FreeFunctionAttribute] // RVA: 0x97E40 Offset: 0x97240 VA: 0x180097E40
 	private void InternalSetVertexBufferDataFromArray(int stream, Array data, int dataStart, int meshBufferStart, int count, int elemSize, MeshUpdateFlags flags) { }
 
-	[FreeFunctionAttribute] // RVA: 0x97F30 Offset: 0x97330 VA: 0x180097F30
+	[FreeFunctionAttribute] // RVA: 0x97F80 Offset: 0x97380 VA: 0x180097F80
 	private uint GetIndexStartImpl(int submesh) { }
 
-	[FreeFunctionAttribute] // RVA: 0x980F0 Offset: 0x974F0 VA: 0x1800980F0
+	[FreeFunctionAttribute] // RVA: 0x98170 Offset: 0x97570 VA: 0x180098170
 	private uint GetIndexCountImpl(int submesh) { }
 
-	[FreeFunctionAttribute] // RVA: 0x98220 Offset: 0x97620 VA: 0x180098220
+	[FreeFunctionAttribute] // RVA: 0x98290 Offset: 0x97690 VA: 0x180098290
 	private uint GetBaseVertexImpl(int submesh) { }
 
-	[FreeFunctionAttribute] // RVA: 0x982B0 Offset: 0x976B0 VA: 0x1800982B0
+	[FreeFunctionAttribute] // RVA: 0x98320 Offset: 0x97720 VA: 0x180098320
 	private int[] GetTrianglesImpl(int submesh, bool applyBaseVertex) { }
 
-	[FreeFunctionAttribute] // RVA: 0x983C0 Offset: 0x977C0 VA: 0x1800983C0
+	[FreeFunctionAttribute] // RVA: 0x98430 Offset: 0x97830 VA: 0x180098430
 	private int[] GetIndicesImpl(int submesh, bool applyBaseVertex) { }
 
-	[FreeFunctionAttribute] // RVA: 0x98540 Offset: 0x97940 VA: 0x180098540
+	[FreeFunctionAttribute] // RVA: 0x98500 Offset: 0x97900 VA: 0x180098500
 	private void SetIndicesImpl(int submesh, MeshTopology topology, IndexFormat indicesFormat, Array indices, int arrayStart, int arraySize, bool calculateBounds, int baseVertex) { }
 
-	[FreeFunctionAttribute] // RVA: 0x98590 Offset: 0x97990 VA: 0x180098590
+	[FreeFunctionAttribute] // RVA: 0x98540 Offset: 0x97940 VA: 0x180098540
 	private void PrintErrorCantAccessChannel(VertexAttribute ch) { }
 
-	[FreeFunctionAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
+	[FreeFunctionAttribute] // RVA: 0x985F0 Offset: 0x979F0 VA: 0x1800985F0
 	public bool HasVertexAttribute(VertexAttribute attr) { }
 
-	[FreeFunctionAttribute] // RVA: 0x98A00 Offset: 0x97E00 VA: 0x180098A00
+	[FreeFunctionAttribute] // RVA: 0x98920 Offset: 0x97D20 VA: 0x180098920
 	private void SetArrayForChannelImpl(VertexAttribute channel, VertexAttributeFormat format, int dim, Array values, int arraySize, int valuesStart, int valuesCount) { }
 
-	[FreeFunctionAttribute] // RVA: 0x98AD0 Offset: 0x97ED0 VA: 0x180098AD0
+	[FreeFunctionAttribute] // RVA: 0x989A0 Offset: 0x97DA0 VA: 0x1800989A0
 	private Array GetAllocArrayFromChannelImpl(VertexAttribute channel, VertexAttributeFormat format, int dim) { }
 
-	[NativeMethodAttribute] // RVA: 0x98C30 Offset: 0x98030 VA: 0x180098C30
+	[NativeMethodAttribute] // RVA: 0x98B30 Offset: 0x97F30 VA: 0x180098B30
 	public int get_blendShapeCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0x98CA0 Offset: 0x980A0 VA: 0x180098CA0
+	[FreeFunctionAttribute] // RVA: 0x98C30 Offset: 0x98030 VA: 0x180098C30
 	private BoneWeight[] GetBoneWeightsImpl() { }
 
-	[FreeFunctionAttribute] // RVA: 0x98D70 Offset: 0x98170 VA: 0x180098D70
+	[FreeFunctionAttribute] // RVA: 0x98DB0 Offset: 0x981B0 VA: 0x180098DB0
 	private void SetBoneWeightsImpl(BoneWeight[] weights) { }
 
 	public Matrix4x4[] get_bindposes() { }
 
 	public void set_bindposes(Matrix4x4[] value) { }
 
-	[NativeMethodAttribute] // RVA: 0x98EC0 Offset: 0x982C0 VA: 0x180098EC0
+	[NativeMethodAttribute] // RVA: 0x98F60 Offset: 0x98360 VA: 0x180098F60
 	public bool get_isReadable() { }
 
-	[NativeMethodAttribute] // RVA: 0x99060 Offset: 0x98460 VA: 0x180099060
+	[NativeMethodAttribute] // RVA: 0x99170 Offset: 0x98570 VA: 0x180099170
 	internal bool get_canAccess() { }
 
-	[NativeMethodAttribute] // RVA: 0x99200 Offset: 0x98600 VA: 0x180099200
+	[NativeMethodAttribute] // RVA: 0x99380 Offset: 0x98780 VA: 0x180099380
 	public int get_vertexCount() { }
 
-	[NativeMethodAttribute] // RVA: 0x99310 Offset: 0x98710 VA: 0x180099310
+	[NativeMethodAttribute] // RVA: 0x99520 Offset: 0x98920 VA: 0x180099520
 	public int get_subMeshCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0x99470 Offset: 0x98870 VA: 0x180099470
+	[FreeFunctionAttribute] // RVA: 0x996A0 Offset: 0x98AA0 VA: 0x1800996A0
 	public void set_subMeshCount(int value) { }
 
 	public Bounds get_bounds() { }
 
 	public void set_bounds(Bounds value) { }
 
-	[NativeMethodAttribute] // RVA: 0x99760 Offset: 0x98B60 VA: 0x180099760
+	[NativeMethodAttribute] // RVA: 0x99950 Offset: 0x98D50 VA: 0x180099950
 	private void ClearImpl(bool keepVertexLayout) { }
 
-	[NativeMethodAttribute] // RVA: 0x99920 Offset: 0x98D20 VA: 0x180099920
+	[NativeMethodAttribute] // RVA: 0x99AB0 Offset: 0x98EB0 VA: 0x180099AB0
 	private void RecalculateBoundsImpl() { }
 
-	[NativeMethodAttribute] // RVA: 0x99CC0 Offset: 0x990C0 VA: 0x180099CC0
+	[NativeMethodAttribute] // RVA: 0x99DF0 Offset: 0x991F0 VA: 0x180099DF0
 	private void RecalculateNormalsImpl() { }
 
-	[NativeMethodAttribute] // RVA: 0x99E20 Offset: 0x99220 VA: 0x180099E20
+	[NativeMethodAttribute] // RVA: 0x99EE0 Offset: 0x992E0 VA: 0x180099EE0
 	private void RecalculateTangentsImpl() { }
 
-	[NativeMethodAttribute] // RVA: 0x99FF0 Offset: 0x993F0 VA: 0x180099FF0
+	[NativeMethodAttribute] // RVA: 0x9A040 Offset: 0x99440 VA: 0x18009A040
 	private void MarkDynamicImpl() { }
 
-	[NativeMethodAttribute] // RVA: 0x9A100 Offset: 0x99500 VA: 0x18009A100
+	[NativeMethodAttribute] // RVA: 0x9A0F0 Offset: 0x994F0 VA: 0x18009A0F0
 	private void UploadMeshDataImpl(bool markNoLongerReadable) { }
 
-	[FreeFunctionAttribute] // RVA: 0x9A2F0 Offset: 0x996F0 VA: 0x18009A2F0
+	[FreeFunctionAttribute] // RVA: 0x9A290 Offset: 0x99690 VA: 0x18009A290
 	private MeshTopology GetTopologyImpl(int submesh) { }
 
 	internal VertexAttribute GetUVChannel(int uvIndex) { }
@@ -364,9 +364,9 @@ public struct Mesh_Extents // TypeDefIndex: 6862
 }
 
 public class Mesh : ConsoleSystem // TypeDefIndex: 11949
-{	private static float m_quality; // 0x1D8E6
+{	private static float m_quality; // 0x2B108DC
 
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float quality { get; set; }
 	public static float lod { get; }
 	public static float cull { get; }

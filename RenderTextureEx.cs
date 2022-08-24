@@ -1,5 +1,5 @@
 public static class RenderTextureEx // TypeDefIndex: 5614
-{	private static Material _alphaBlending; // 0x246D
+{	private static Material _alphaBlending; // 0x2B10968
 
 	public static Material AlphaBlending { get; }
 

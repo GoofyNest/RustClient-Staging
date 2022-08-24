@@ -170,8 +170,8 @@ public class TMP_FontAsset : TMP_Asset // TypeDefIndex: 6760
 	private GlyphRenderMode m_AtlasRenderMode; // 0x10C
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal List<TMP_Glyph> m_glyphInfoList; // 0x110
-	[SerializeField] // RVA: 0xCB810 Offset: 0xCAC10 VA: 0x1800CB810
-	[FormerlySerializedAsAttribute] // RVA: 0xCB810 Offset: 0xCAC10 VA: 0x1800CB810
+	[SerializeField] // RVA: 0xCB930 Offset: 0xCAD30 VA: 0x1800CB930
+	[FormerlySerializedAsAttribute] // RVA: 0xCB930 Offset: 0xCAD30 VA: 0x1800CB930
 	internal KerningTable m_KerningTable; // 0x118
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TMP_FontFeatureTable m_FontFeatureTable; // 0x120
@@ -213,7 +213,7 @@ public class TMP_FontAsset : TMP_Asset // TypeDefIndex: 6760
 	public Texture2D[] atlasTextures { get; set; }
 	internal List<GlyphRect> usedGlyphRects { get; set; }
 	internal List<GlyphRect> freeGlyphRects { get; set; }
-	[ObsoleteAttribute] // RVA: 0xCC220 Offset: 0xCB620 VA: 0x1800CC220
+	[ObsoleteAttribute] // RVA: 0xCC310 Offset: 0xCB710 VA: 0x1800CC310
 	public FaceInfo_Legacy fontInfo { get; }
 	public int atlasWidth { get; set; }
 	public int atlasHeight { get; set; }
@@ -396,7 +396,7 @@ public struct TMP_FontWeightPair // TypeDefIndex: 6765
 }
 
 public static class TMP_FontUtilities // TypeDefIndex: 6774
-{	private static List<int> k_searchedFontAssets; // 0x290D
+{	private static List<int> k_searchedFontAssets; // 0x2B10910
 
 
 	public static TMP_FontAsset SearchForCharacter(TMP_FontAsset font, uint unicode, out TMP_Character character) { }
@@ -630,14 +630,14 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 	private bool m_CustomCaretColor; // 0x1B0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Color m_SelectionColor; // 0x1B4
-	[SerializeField] // RVA: 0xD0990 Offset: 0xCFD90 VA: 0x1800D0990
-	[TextAreaAttribute] // RVA: 0xD0990 Offset: 0xCFD90 VA: 0x1800D0990
+	[SerializeField] // RVA: 0xD08B0 Offset: 0xCFCB0 VA: 0x1800D08B0
+	[TextAreaAttribute] // RVA: 0xD08B0 Offset: 0xCFCB0 VA: 0x1800D08B0
 	protected string m_Text; // 0x1C8
-	[SerializeField] // RVA: 0xD0A10 Offset: 0xCFE10 VA: 0x1800D0A10
-	[RangeAttribute] // RVA: 0xD0A10 Offset: 0xCFE10 VA: 0x1800D0A10
+	[SerializeField] // RVA: 0xD0980 Offset: 0xCFD80 VA: 0x1800D0980
+	[RangeAttribute] // RVA: 0xD0980 Offset: 0xCFD80 VA: 0x1800D0980
 	private float m_CaretBlinkRate; // 0x1D0
-	[SerializeField] // RVA: 0xD0AE0 Offset: 0xCFEE0 VA: 0x1800D0AE0
-	[RangeAttribute] // RVA: 0xD0AE0 Offset: 0xCFEE0 VA: 0x1800D0AE0
+	[SerializeField] // RVA: 0xD0A50 Offset: 0xCFE50 VA: 0x1800D0A50
+	[RangeAttribute] // RVA: 0xD0A50 Offset: 0xCFE50 VA: 0x1800D0A50
 	private int m_CaretWidth; // 0x1D4
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_ReadOnly; // 0x1D8
@@ -994,7 +994,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 
 	private void ON_TEXT_CHANGED(Object obj) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD1320 Offset: 0xD0720 VA: 0x1800D1320
+	[IteratorStateMachineAttribute] // RVA: 0xD1240 Offset: 0xD0640 VA: 0x1800D1240
 	private IEnumerator CaretBlink() { }
 
 	private void SetCaretVisible() { }
@@ -1029,7 +1029,7 @@ public class TMP_InputField : Selectable, IUpdateSelectedHandler, IEventSystemHa
 
 	public virtual void OnDrag(PointerEventData eventData) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD1460 Offset: 0xD0860 VA: 0x1800D1460
+	[IteratorStateMachineAttribute] // RVA: 0xD1380 Offset: 0xD0780 VA: 0x1800D1380
 	private IEnumerator MouseDragOutsideRect(PointerEventData eventData) { }
 
 	public virtual void OnEndDrag(PointerEventData eventData) { }
@@ -2268,8 +2268,8 @@ public enum TMP_TextElementType // TypeDefIndex: 6830
 }
 
 public abstract class TMP_Text : MaskableGraphic // TypeDefIndex: 6837
-{	[SerializeField] // RVA: 0xD0990 Offset: 0xCFD90 VA: 0x1800D0990
-	[TextAreaAttribute] // RVA: 0xD0990 Offset: 0xCFD90 VA: 0x1800D0990
+{	[SerializeField] // RVA: 0xD08B0 Offset: 0xCFCB0 VA: 0x1800D08B0
+	[TextAreaAttribute] // RVA: 0xD08B0 Offset: 0xCFCB0 VA: 0x1800D08B0
 	protected string m_text; // 0xC8
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected bool m_isRightToLeft; // 0xD0
@@ -2291,11 +2291,11 @@ public abstract class TMP_Text : MaskableGraphic // TypeDefIndex: 6837
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected Material[] m_fontMaterials; // 0x168
 	protected bool m_isMaterialDirty; // 0x170
-	[SerializeField] // RVA: 0xD71D0 Offset: 0xD65D0 VA: 0x1800D71D0
-	[ColorUsageAttribute] // RVA: 0xD71D0 Offset: 0xD65D0 VA: 0x1800D71D0
+	[SerializeField] // RVA: 0xD7140 Offset: 0xD6540 VA: 0x1800D7140
+	[ColorUsageAttribute] // RVA: 0xD7140 Offset: 0xD6540 VA: 0x1800D7140
 	protected Color32 m_fontColor32; // 0x174
-	[SerializeField] // RVA: 0xD71D0 Offset: 0xD65D0 VA: 0x1800D71D0
-	[ColorUsageAttribute] // RVA: 0xD71D0 Offset: 0xD65D0 VA: 0x1800D71D0
+	[SerializeField] // RVA: 0xD7140 Offset: 0xD6540 VA: 0x1800D7140
+	[ColorUsageAttribute] // RVA: 0xD7140 Offset: 0xD6540 VA: 0x1800D7140
 	protected Color m_fontColor; // 0x178
 	protected static Color32 s_colorWhite; // 0x0
 	protected Color32 m_underlineColor; // 0x188
@@ -2340,8 +2340,8 @@ public abstract class TMP_Text : MaskableGraphic // TypeDefIndex: 6837
 	protected FontStyles m_FontStyleInternal; // 0x268
 	protected TMP_FontStyleStack m_fontStyleStack; // 0x26C
 	protected bool m_isUsingBold; // 0x276
-	[SerializeField] // RVA: 0xD8FA0 Offset: 0xD83A0 VA: 0x1800D8FA0
-	[FormerlySerializedAsAttribute] // RVA: 0xD8FA0 Offset: 0xD83A0 VA: 0x1800D8FA0
+	[SerializeField] // RVA: 0xD8EA0 Offset: 0xD82A0 VA: 0x1800D8EA0
+	[FormerlySerializedAsAttribute] // RVA: 0xD8EA0 Offset: 0xD82A0 VA: 0x1800D8EA0
 	protected TextAlignmentOptions m_textAlignment; // 0x278
 	protected TextAlignmentOptions m_lineJustification; // 0x27C
 	protected TMP_RichTextTagStack<TextAlignmentOptions> m_lineJustificationStack; // 0x280
@@ -3227,7 +3227,7 @@ public class TMP_TextInfo // TypeDefIndex: 6842
 }
 
 public class TMP_TextParsingUtilities // TypeDefIndex: 6843
-{	private static readonly TMP_TextParsingUtilities s_Instance; // 0x2B119B8
+{	private static readonly TMP_TextParsingUtilities s_Instance; // 0x3890
 	private const string k_LookupStringL = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-";
 	private const string k_LookupStringU = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[-]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~-";
 
@@ -3259,7 +3259,7 @@ public class TMP_TextParsingUtilities // TypeDefIndex: 6843
 }
 
 public static class TMP_TextUtilities // TypeDefIndex: 6846
-{	private static Vector3[] m_rectWorldCorners; // 0x29B0
+{	private static Vector3[] m_rectWorldCorners; // 0x3985
 	private const string k_lookupStringL = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-";
 	private const string k_lookupStringU = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[-]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~-";
 

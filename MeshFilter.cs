@@ -10,7 +10,7 @@ public sealed class MeshFilter : Component // TypeDefIndex: 3409
 
 	public void set_sharedMesh(Mesh value) { }
 
-	[NativeNameAttribute] // RVA: 0x95A30 Offset: 0x94E30 VA: 0x180095A30
+	[NativeNameAttribute] // RVA: 0x959C0 Offset: 0x94DC0 VA: 0x1800959C0
 	public Mesh get_mesh() { }
 
 	[NativeNameAttribute] // RVA: 0x95AD0 Offset: 0x94ED0 VA: 0x180095AD0

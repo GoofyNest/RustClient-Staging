@@ -1,15 +1,15 @@
 internal struct GlyphValueRecord // TypeDefIndex: 4113
-{	[NativeNameAttribute] // RVA: 0x88610 Offset: 0x87A10 VA: 0x180088610
-	[SerializeField] // RVA: 0x88610 Offset: 0x87A10 VA: 0x180088610
+{	[NativeNameAttribute] // RVA: 0x88560 Offset: 0x87960 VA: 0x180088560
+	[SerializeField] // RVA: 0x88560 Offset: 0x87960 VA: 0x180088560
 	private float m_XPlacement; // 0x0
-	[NativeNameAttribute] // RVA: 0x88980 Offset: 0x87D80 VA: 0x180088980
-	[SerializeField] // RVA: 0x88980 Offset: 0x87D80 VA: 0x180088980
+	[NativeNameAttribute] // RVA: 0x888D0 Offset: 0x87CD0 VA: 0x1800888D0
+	[SerializeField] // RVA: 0x888D0 Offset: 0x87CD0 VA: 0x1800888D0
 	private float m_YPlacement; // 0x4
-	[NativeNameAttribute] // RVA: 0x88A80 Offset: 0x87E80 VA: 0x180088A80
-	[SerializeField] // RVA: 0x88A80 Offset: 0x87E80 VA: 0x180088A80
+	[NativeNameAttribute] // RVA: 0x88A10 Offset: 0x87E10 VA: 0x180088A10
+	[SerializeField] // RVA: 0x88A10 Offset: 0x87E10 VA: 0x180088A10
 	private float m_XAdvance; // 0x8
-	[NativeNameAttribute] // RVA: 0x88CF0 Offset: 0x880F0 VA: 0x180088CF0
-	[SerializeField] // RVA: 0x88CF0 Offset: 0x880F0 VA: 0x180088CF0
+	[NativeNameAttribute] // RVA: 0x88CC0 Offset: 0x880C0 VA: 0x180088CC0
+	[SerializeField] // RVA: 0x88CC0 Offset: 0x880C0 VA: 0x180088CC0
 	private float m_YAdvance; // 0xC
 
 	public float xPlacement { get; }

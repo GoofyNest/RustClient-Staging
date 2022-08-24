@@ -12,12 +12,12 @@ public class GUILayoutUtility // TypeDefIndex: 4041
 
 	private static void Internal_MoveWindow(int windowID, Rect r) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xCF730 Offset: 0xCEB30 VA: 0x1800CF730
+	[VisibleToOtherModulesAttribute] // RVA: 0xCF790 Offset: 0xCEB90 VA: 0x1800CF790
 	internal static GUILayoutUtility.LayoutCache SelectIDList(int instanceID, bool isWindow) { }
 
 	internal static void Begin(int instanceID) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xCF920 Offset: 0xCED20 VA: 0x1800CF920
+	[VisibleToOtherModulesAttribute] // RVA: 0xCF900 Offset: 0xCED00 VA: 0x1800CF900
 	internal static void BeginContainer(GUILayoutUtility.LayoutCache cache) { }
 
 	internal static void BeginWindow(int windowID, GUIStyle style, GUILayoutOption[] options) { }
@@ -26,7 +26,7 @@ public class GUILayoutUtility // TypeDefIndex: 4041
 
 	internal static void LayoutFromEditorWindow() { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xCFB30 Offset: 0xCEF30 VA: 0x1800CFB30
+	[VisibleToOtherModulesAttribute] // RVA: 0xCFAD0 Offset: 0xCEED0 VA: 0x1800CFAD0
 	internal static void LayoutFromContainer(float w, float h) { }
 
 	internal static void LayoutFreeGroup(GUILayoutGroup toplevel) { }
@@ -60,13 +60,13 @@ public class GUILayoutUtility // TypeDefIndex: 4041
 }
 
 internal sealed class GUILayoutUtility.LayoutCache // TypeDefIndex: 4042
-{	[VisibleToOtherModulesAttribute] // RVA: 0xD00B0 Offset: 0xCF4B0 VA: 0x1800D00B0
+{	[VisibleToOtherModulesAttribute] // RVA: 0xD0030 Offset: 0xCF430 VA: 0x1800D0030
 	internal GUILayoutGroup topLevel; // 0x10
 	internal GenericStack layoutGroups; // 0x18
 	internal GUILayoutGroup windows; // 0x20
 
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xD01D0 Offset: 0xCF5D0 VA: 0x1800D01D0
+	[VisibleToOtherModulesAttribute] // RVA: 0xD0110 Offset: 0xCF510 VA: 0x1800D0110
 	internal void .ctor() { }
 
 }

@@ -2,27 +2,27 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 {	private static Selectable[] s_Selectables; // 0x0
 	private static int s_SelectableCount; // 0x8
 	private static bool s_IsDirty; // 0xC
-	[FormerlySerializedAsAttribute] // RVA: 0x7B2C0 Offset: 0x7A6C0 VA: 0x18007B2C0
-	[SerializeField] // RVA: 0x7B2C0 Offset: 0x7A6C0 VA: 0x18007B2C0
+	[FormerlySerializedAsAttribute] // RVA: 0x7B2B0 Offset: 0x7A6B0 VA: 0x18007B2B0
+	[SerializeField] // RVA: 0x7B2B0 Offset: 0x7A6B0 VA: 0x18007B2B0
 	private Navigation m_Navigation; // 0x18
-	[FormerlySerializedAsAttribute] // RVA: 0x7B510 Offset: 0x7A910 VA: 0x18007B510
-	[SerializeField] // RVA: 0x7B510 Offset: 0x7A910 VA: 0x18007B510
+	[FormerlySerializedAsAttribute] // RVA: 0x7B540 Offset: 0x7A940 VA: 0x18007B540
+	[SerializeField] // RVA: 0x7B540 Offset: 0x7A940 VA: 0x18007B540
 	private Selectable.Transition m_Transition; // 0x40
-	[FormerlySerializedAsAttribute] // RVA: 0x7B630 Offset: 0x7AA30 VA: 0x18007B630
-	[SerializeField] // RVA: 0x7B630 Offset: 0x7AA30 VA: 0x18007B630
+	[FormerlySerializedAsAttribute] // RVA: 0x7B600 Offset: 0x7AA00 VA: 0x18007B600
+	[SerializeField] // RVA: 0x7B600 Offset: 0x7AA00 VA: 0x18007B600
 	private ColorBlock m_Colors; // 0x44
-	[FormerlySerializedAsAttribute] // RVA: 0x7B7E0 Offset: 0x7ABE0 VA: 0x18007B7E0
-	[SerializeField] // RVA: 0x7B7E0 Offset: 0x7ABE0 VA: 0x18007B7E0
+	[FormerlySerializedAsAttribute] // RVA: 0x7B780 Offset: 0x7AB80 VA: 0x18007B780
+	[SerializeField] // RVA: 0x7B780 Offset: 0x7AB80 VA: 0x18007B780
 	private SpriteState m_SpriteState; // 0xA0
-	[FormerlySerializedAsAttribute] // RVA: 0x7B920 Offset: 0x7AD20 VA: 0x18007B920
-	[SerializeField] // RVA: 0x7B920 Offset: 0x7AD20 VA: 0x18007B920
+	[FormerlySerializedAsAttribute] // RVA: 0x7B860 Offset: 0x7AC60 VA: 0x18007B860
+	[SerializeField] // RVA: 0x7B860 Offset: 0x7AC60 VA: 0x18007B860
 	private AnimationTriggers m_AnimationTriggers; // 0xC0
-	[TooltipAttribute] // RVA: 0x7BB70 Offset: 0x7AF70 VA: 0x18007BB70
-	[SerializeField] // RVA: 0x7BB70 Offset: 0x7AF70 VA: 0x18007BB70
+	[TooltipAttribute] // RVA: 0x7BA60 Offset: 0x7AE60 VA: 0x18007BA60
+	[SerializeField] // RVA: 0x7BA60 Offset: 0x7AE60 VA: 0x18007BA60
 	private bool m_Interactable; // 0xC8
-	[FormerlySerializedAsAttribute] // RVA: 0x7BC80 Offset: 0x7B080 VA: 0x18007BC80
-	[FormerlySerializedAsAttribute] // RVA: 0x7BC80 Offset: 0x7B080 VA: 0x18007BC80
-	[SerializeField] // RVA: 0x7BC80 Offset: 0x7B080 VA: 0x18007BC80
+	[FormerlySerializedAsAttribute] // RVA: 0x7BB30 Offset: 0x7AF30 VA: 0x18007BB30
+	[FormerlySerializedAsAttribute] // RVA: 0x7BB30 Offset: 0x7AF30 VA: 0x18007BB30
+	[SerializeField] // RVA: 0x7BB30 Offset: 0x7AF30 VA: 0x18007BB30
 	private Graphic m_TargetGraphic; // 0xD0
 	private bool m_GroupsAllowInteraction; // 0xD8
 	private bool m_WillRemove; // 0xD9
@@ -36,7 +36,7 @@ public class Selectable : UIBehaviour, IMoveHandler, IEventSystemHandler, IPoint
 
 	public static Selectable[] allSelectablesArray { get; }
 	public static int allSelectableCount { get; }
-	[ObsoleteAttribute] // RVA: 0x7C6B0 Offset: 0x7BAB0 VA: 0x18007C6B0
+	[ObsoleteAttribute] // RVA: 0x7C650 Offset: 0x7BA50 VA: 0x18007C650
 	public static List<Selectable> allSelectables { get; }
 	public Navigation navigation { get; set; }
 	public Selectable.Transition transition { get; set; }

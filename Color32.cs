@@ -1,5 +1,5 @@
 public struct Color32 // TypeDefIndex: 3461
-{	[IgnoreAttribute] // RVA: 0xA99E0 Offset: 0xA8DE0 VA: 0x1800A99E0
+{	[IgnoreAttribute] // RVA: 0xA9B40 Offset: 0xA8F40 VA: 0x1800A9B40
 	private int rgba; // 0x0
 	public byte r; // 0x0
 	public byte g; // 0x1

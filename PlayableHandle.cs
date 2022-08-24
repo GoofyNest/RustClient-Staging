@@ -44,8 +44,8 @@ public struct PlayableHandle : IEquatable<PlayableHandle> // TypeDefIndex: 3870
 	[VisibleToOtherModulesAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool IsValid() { }
 
-	[FreeFunctionAttribute] // RVA: 0x814C0 Offset: 0x808C0 VA: 0x1800814C0
-	[VisibleToOtherModulesAttribute] // RVA: 0x814C0 Offset: 0x808C0 VA: 0x1800814C0
+	[FreeFunctionAttribute] // RVA: 0x814B0 Offset: 0x808B0 VA: 0x1800814B0
+	[VisibleToOtherModulesAttribute] // RVA: 0x814B0 Offset: 0x808B0 VA: 0x1800814B0
 	internal Type GetPlayableType() { }
 
 	private static void .cctor() { }

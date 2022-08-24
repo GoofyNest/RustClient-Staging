@@ -1,5 +1,5 @@
 public class ThrownWeapon : AttackEntity // TypeDefIndex: 8654
-{	[HeaderAttribute] // RVA: 0xB6F90 Offset: 0xB6390 VA: 0x1800B6F90
+{	[HeaderAttribute] // RVA: 0xB7040 Offset: 0xB6440 VA: 0x1800B7040
 	public GameObjectRef prefabToThrow; // 0x280
 	public float maxThrowVelocity; // 0x288
 	public float tumbleVelocity; // 0x28C

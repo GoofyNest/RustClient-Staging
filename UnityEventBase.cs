@@ -1,7 +1,7 @@
 public abstract class UnityEventBase : ISerializationCallbackReceiver // TypeDefIndex: 3638
 {	private InvokableCallList m_Calls; // 0x10
-	[FormerlySerializedAsAttribute] // RVA: 0xE0CF0 Offset: 0xE00F0 VA: 0x1800E0CF0
-	[SerializeField] // RVA: 0xE0CF0 Offset: 0xE00F0 VA: 0x1800E0CF0
+	[FormerlySerializedAsAttribute] // RVA: 0xE0BC0 Offset: 0xDFFC0 VA: 0x1800E0BC0
+	[SerializeField] // RVA: 0xE0BC0 Offset: 0xDFFC0 VA: 0x1800E0BC0
 	private PersistentCallGroup m_PersistentCalls; // 0x18
 	private bool m_CallsDirty; // 0x20
 

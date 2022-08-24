@@ -403,7 +403,7 @@ public class EntityIdList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 }
 
 public static class Entity // TypeDefIndex: 6628
-{	private static Dictionary<Transform, IEntity> _dict; // 0x2898
+{	private static Dictionary<Transform, IEntity> _dict; // 0x2B10760
 
 
 	public static void Register(Transform t, IEntity entity) { }
@@ -603,7 +603,7 @@ public class EntityItem_RotateWhenOn : EntityComponent<BaseEntity>, IOnPostNetwo
 
 	public void DoClose() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x75830 Offset: 0x74C30 VA: 0x180075830
+	[IteratorStateMachineAttribute] // RVA: 0x75870 Offset: 0x74C70 VA: 0x180075870
 	private IEnumerator RotateTo(EntityItem_RotateWhenOn.State state) { }
 
 	public void .ctor() { }
@@ -865,57 +865,57 @@ public class EntityHUDRender : MonoBehaviour // TypeDefIndex: 10926
 
 public class Entity : ConsoleSystem // TypeDefIndex: 11916
 {
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void debug_lookat(ConsoleSystem.Arg args) { }
 
 	private static TextTable GetEntityTable(Func<Entity.EntityInfo, bool> filter) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void find_entity(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void find_id(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void find_group(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void find_parent(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void find_status(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void find_radius(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void find_self(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x99650 Offset: 0x98A50 VA: 0x180099650
+	[ClientVar] // RVA: 0x98BA0 Offset: 0x97FA0 VA: 0x180098BA0
 	public static void clspawn(string name) { }
 
-	[ClientVar] // RVA: 0x997E0 Offset: 0x98BE0 VA: 0x1800997E0
+	[ClientVar] // RVA: 0x98D50 Offset: 0x98150 VA: 0x180098D50
 	public static void clspawnat(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x99C00 Offset: 0x99000 VA: 0x180099C00
+	[ClientVar] // RVA: 0x98F00 Offset: 0x98300 VA: 0x180098F00
 	public static void clspawnhere(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x99DE0 Offset: 0x991E0 VA: 0x180099DE0
+	[ClientVar] // RVA: 0x990D0 Offset: 0x984D0 VA: 0x1800990D0
 	public static void clspawnitem(string name) { }
 
-	[ClientVar] // RVA: 0x99F60 Offset: 0x99360 VA: 0x180099F60
+	[ClientVar] // RVA: 0x99310 Offset: 0x98710 VA: 0x180099310
 	public static void UploadSign(ConsoleSystem.Arg arg) { }
 
 	private static bool IsLookingAtSign(ConsoleSystem.Arg arg, out ISignage signage) { }
 
-	[ClientVar] // RVA: 0x9A070 Offset: 0x99470 VA: 0x18009A070
+	[ClientVar] // RVA: 0x99490 Offset: 0x98890 VA: 0x180099490
 	public static void DownloadSign(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

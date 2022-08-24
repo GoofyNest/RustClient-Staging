@@ -8,8 +8,8 @@ public sealed class RegistryKey : MarshalByRefObject, IDisposable // TypeDefInde
 	private static readonly IRegistryApi RegistryApi; // 0x0
 
 	public string Name { get; }
-	[MonoTODOAttribute] // RVA: 0xE7E30 Offset: 0xE7230 VA: 0x1800E7E30
-	[ComVisibleAttribute] // RVA: 0xE7E30 Offset: 0xE7230 VA: 0x1800E7E30
+	[MonoTODOAttribute] // RVA: 0xE7DF0 Offset: 0xE71F0 VA: 0x1800E7DF0
+	[ComVisibleAttribute] // RVA: 0xE7DF0 Offset: 0xE71F0 VA: 0x1800E7DF0
 	public SafeRegistryHandle Handle { get; }
 	internal bool IsRoot { get; }
 	internal RegistryHive Hive { get; }

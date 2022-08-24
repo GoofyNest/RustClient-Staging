@@ -147,10 +147,10 @@ public static class World // TypeDefIndex: 10320
 
 	public static void AddPath(PathList path) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xCA7D0 Offset: 0xC9BD0 VA: 0x1800CA7D0
+	[IteratorStateMachineAttribute] // RVA: 0xCA170 Offset: 0xC9570 VA: 0x1800CA170
 	public static IEnumerator SpawnAsync(float deltaTime, Action<string> statusFunction) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xCA880 Offset: 0xC9C80 VA: 0x1800CA880
+	[IteratorStateMachineAttribute] // RVA: 0xCA230 Offset: 0xC9630 VA: 0x1800CA230
 	public static IEnumerator Spawn(float deltaTime, Action<string> statusFunction) { }
 
 	public static void Spawn() { }
@@ -273,24 +273,24 @@ private sealed class World.<Spawn>d__69 : IEnumerator<object>, IEnumerator, IDis
 }
 
 public class World : ConsoleSystem // TypeDefIndex: 11983
-{	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+{	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static bool cache; // 0x0
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool streaming; // 0x1
 
 
-	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
-	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ClientVar] // RVA: 0x93230 Offset: 0x92630 VA: 0x180093230
+	[ServerVar] // RVA: 0x93230 Offset: 0x92630 VA: 0x180093230
 	public static void monuments(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0xC8BE0 Offset: 0xC7FE0 VA: 0x1800C8BE0
+	[ServerVar] // RVA: 0xC6F60 Offset: 0xC6360 VA: 0x1800C6F60
 	public static void rendermap(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0xC8CD0 Offset: 0xC80D0 VA: 0x1800C8CD0
+	[ServerVar] // RVA: 0xC7060 Offset: 0xC6460 VA: 0x1800C7060
 	public static void rendertunnels(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0xC8DE0 Offset: 0xC81E0 VA: 0x1800C8DE0
+	[ServerVar] // RVA: 0xC71C0 Offset: 0xC65C0 VA: 0x1800C71C0
 	public static void renderlabs(ConsoleSystem.Arg arg) { }
 
 	private static void RenderMapLayerToFile(ConsoleSystem.Arg arg, string name, MapLayer layer) { }

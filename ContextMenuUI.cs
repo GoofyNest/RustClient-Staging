@@ -1,5 +1,5 @@
 public static class ContextMenuUI // TypeDefIndex: 10844
-{	public static ContextMenuUI.MenuType type; // 0x2B117D0
+{	public static ContextMenuUI.MenuType type; // 0x32C0
 
 
 	public static void Start(ContextMenuUI.MenuType menuType) { }

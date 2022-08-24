@@ -15,8 +15,8 @@ public struct ProfilerMarker // TypeDefIndex: 3296
 	[NativeConditionalAttribute] // RVA: 0xE9640 Offset: 0xE8A40 VA: 0x1800E9640
 	internal static void Internal_Begin(IntPtr markerPtr) { }
 
-	[NativeConditionalAttribute] // RVA: 0xE9900 Offset: 0xE8D00 VA: 0x1800E9900
-	[ThreadSafeAttribute] // RVA: 0xE9900 Offset: 0xE8D00 VA: 0x1800E9900
+	[NativeConditionalAttribute] // RVA: 0xE9930 Offset: 0xE8D30 VA: 0x1800E9930
+	[ThreadSafeAttribute] // RVA: 0xE9930 Offset: 0xE8D30 VA: 0x1800E9930
 	internal static void Internal_End(IntPtr markerPtr) { }
 
 }

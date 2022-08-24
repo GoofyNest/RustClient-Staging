@@ -1,5 +1,5 @@
 internal static class TimeSpanParse // TypeDefIndex: 723
-{	private static readonly TimeSpanParse.TimeSpanToken zero; // 0x13040
+{	private static readonly TimeSpanParse.TimeSpanToken zero; // 0x14096
 
 
 	private static bool TryTimeToTicks(bool positive, TimeSpanParse.TimeSpanToken days, TimeSpanParse.TimeSpanToken hours, TimeSpanParse.TimeSpanToken minutes, TimeSpanParse.TimeSpanToken seconds, TimeSpanParse.TimeSpanToken fraction, out long result) { }

@@ -10,7 +10,7 @@ public abstract class MethodBase : MemberInfo, _MethodBase // TypeDefIndex: 539
 	public bool IsStatic { get; }
 	public bool IsVirtual { get; }
 	public bool IsAbstract { get; }
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public bool IsConstructor { get; }
 
 
@@ -40,7 +40,7 @@ public abstract class MethodBase : MemberInfo, _MethodBase // TypeDefIndex: 539
 
 	public virtual CallingConventions get_CallingConvention() { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public virtual Type[] GetGenericArguments() { }
 
 	public virtual bool get_IsGenericMethodDefinition() { }
@@ -51,8 +51,8 @@ public abstract class MethodBase : MemberInfo, _MethodBase // TypeDefIndex: 539
 
 	public virtual bool get_IsSecurityCritical() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[DebuggerStepThroughAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[DebuggerHiddenAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[DebuggerStepThroughAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public object Invoke(object obj, object[] parameters) { }
 
 	public bool get_IsPublic() { }

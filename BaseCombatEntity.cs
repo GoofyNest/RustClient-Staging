@@ -1,6 +1,6 @@
 public class BaseCombatEntity : BaseEntity // TypeDefIndex: 8319
 {	private Option __menuOption_Menu_Pickup; // 0x168
-	[HeaderAttribute] // RVA: 0xB4E50 Offset: 0xB4250 VA: 0x1800B4E50
+	[HeaderAttribute] // RVA: 0xB4FD0 Offset: 0xB43D0 VA: 0x1800B4FD0
 	public SkeletonProperties skeletonProperties; // 0x1C0
 	public ProtectionProperties baseProtection; // 0x1C8
 	public float startHealth; // 0x1D0
@@ -48,10 +48,10 @@ public class BaseCombatEntity : BaseEntity // TypeDefIndex: 8319
 
 	public virtual void OnPickedUpPreItemMove(Item createdItem, BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xB6420 Offset: 0xB5820 VA: 0x1800B6420
-	[BaseEntity.Menu.Description] // RVA: 0xB6420 Offset: 0xB5820 VA: 0x1800B6420
-	[BaseEntity.Menu.Icon] // RVA: 0xB6420 Offset: 0xB5820 VA: 0x1800B6420
-	[BaseEntity.Menu.ShowIf] // RVA: 0xB6420 Offset: 0xB5820 VA: 0x1800B6420
+	[BaseEntity.Menu] // RVA: 0xB65D0 Offset: 0xB59D0 VA: 0x1800B65D0
+	[BaseEntity.Menu.Description] // RVA: 0xB65D0 Offset: 0xB59D0 VA: 0x1800B65D0
+	[BaseEntity.Menu.Icon] // RVA: 0xB65D0 Offset: 0xB59D0 VA: 0x1800B65D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xB65D0 Offset: 0xB59D0 VA: 0x1800B65D0
 	public void Menu_Pickup(BasePlayer player) { }
 
 	public void Menu_Pickup_TimeStart() { }
@@ -110,25 +110,25 @@ public class BaseCombatEntity : BaseEntity // TypeDefIndex: 8319
 
 public struct BaseCombatEntity.Pickup // TypeDefIndex: 8320
 {	public bool enabled; // 0x0
-	[ItemSelector] // RVA: 0xA77B0 Offset: 0xA6BB0 VA: 0x1800A77B0
+	[ItemSelector] // RVA: 0xA7740 Offset: 0xA6B40 VA: 0x1800A7740
 	public ItemDefinition itemTarget; // 0x8
 	public int itemCount; // 0x10
-	[TooltipAttribute] // RVA: 0xB6AA0 Offset: 0xB5EA0 VA: 0x1800B6AA0
+	[TooltipAttribute] // RVA: 0xB6B60 Offset: 0xB5F60 VA: 0x1800B6B60
 	public bool setConditionFromHealth; // 0x14
-	[TooltipAttribute] // RVA: 0xB6BC0 Offset: 0xB5FC0 VA: 0x1800B6BC0
+	[TooltipAttribute] // RVA: 0xB6C50 Offset: 0xB6050 VA: 0x1800B6C50
 	public float subtractCondition; // 0x18
-	[TooltipAttribute] // RVA: 0xB6C20 Offset: 0xB6020 VA: 0x1800B6C20
+	[TooltipAttribute] // RVA: 0xB6CC0 Offset: 0xB60C0 VA: 0x1800B6CC0
 	public bool requireBuildingPrivilege; // 0x1C
-	[TooltipAttribute] // RVA: 0xB6D30 Offset: 0xB6130 VA: 0x1800B6D30
+	[TooltipAttribute] // RVA: 0xB6DE0 Offset: 0xB61E0 VA: 0x1800B6DE0
 	public bool requireHammer; // 0x1D
-	[TooltipAttribute] // RVA: 0xB6EB0 Offset: 0xB62B0 VA: 0x1800B6EB0
+	[TooltipAttribute] // RVA: 0xB6F50 Offset: 0xB6350 VA: 0x1800B6F50
 	public bool requireEmptyInv; // 0x1E
 
 }
 
 public struct BaseCombatEntity.Repair // TypeDefIndex: 8321
 {	public bool enabled; // 0x0
-	[ItemSelector] // RVA: 0xA77B0 Offset: 0xA6BB0 VA: 0x1800A77B0
+	[ItemSelector] // RVA: 0xA7740 Offset: 0xA6B40 VA: 0x1800A7740
 	public ItemDefinition itemTarget; // 0x8
 	public GameObjectRef repairEffect; // 0x10
 	public GameObjectRef repairFullEffect; // 0x18

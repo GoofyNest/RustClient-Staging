@@ -1,5 +1,5 @@
 internal static class RaycasterManager // TypeDefIndex: 5090
-{	private static readonly List<BaseRaycaster> s_Raycasters; // 0x12960
+{	private static readonly List<BaseRaycaster> s_Raycasters; // 0x13A04
 
 
 	public static void AddRaycaster(BaseRaycaster baseRaycaster) { }

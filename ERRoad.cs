@@ -56,7 +56,7 @@ public class ERRoad // TypeDefIndex: 7183
 
 	public ERRoad SplitRoad(int markerIndex) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	private ERModularRoad SplitRoadExt(int markerIndex) { }
 
 	public void SetSideObjects(List<ERSORoadExt> soDataExt) { }
@@ -85,7 +85,7 @@ public class ERRoad // TypeDefIndex: 7183
 
 	public void FollowTerrainContours(bool value) { }
 
-	[ObsoleteAttribute] // RVA: 0x89600 Offset: 0x88A00 VA: 0x180089600
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	public void SetFollowTerrainContoursOffset(float value) { }
 
 	public void FollowTerrainContourThreshold(float value) { }
@@ -124,7 +124,7 @@ public class ERRoad // TypeDefIndex: 7183
 
 	public Vector3 GetLookatSmooth(float distance, int currentElement) { }
 
-	[ObsoleteAttribute] // RVA: 0x89600 Offset: 0x88A00 VA: 0x180089600
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	public Vector3 GetLookatAtDistanceSmooth(float distance, ref int currentElement) { }
 
 	public int GetMarkerByPoint(int el) { }
@@ -141,10 +141,10 @@ public class ERRoad // TypeDefIndex: 7183
 
 	public float SetIndent(float value, int marker, ERRoadSide type) { }
 
-	[ObsoleteAttribute] // RVA: 0x89600 Offset: 0x88A00 VA: 0x180089600
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	public float SetRightIndent(float value, int marker) { }
 
-	[ObsoleteAttribute] // RVA: 0x89600 Offset: 0x88A00 VA: 0x180089600
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	public float SetLeftIndent(float value, int marker) { }
 
 	public float SetSurrounding(float value, int marker) { }
@@ -155,10 +155,10 @@ public class ERRoad // TypeDefIndex: 7183
 
 	public ERIndentAlignment GetIndentAlignment(int marker, ERRoadSide type) { }
 
-	[ObsoleteAttribute] // RVA: 0x89600 Offset: 0x88A00 VA: 0x180089600
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	public float SetRightSurrouding(float value, int marker) { }
 
-	[ObsoleteAttribute] // RVA: 0x89600 Offset: 0x88A00 VA: 0x180089600
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	public float SetLeftSurrouding(float value, int marker) { }
 
 	public Vector3[] GetRightIndentPoints() { }
@@ -169,7 +169,7 @@ public class ERRoad // TypeDefIndex: 7183
 
 	public Vector3[] GetLeftSurroudingPoints() { }
 
-	[ObsoleteAttribute] // RVA: 0x89600 Offset: 0x88A00 VA: 0x180089600
+	[ObsoleteAttribute] // RVA: 0x894F0 Offset: 0x888F0 VA: 0x1800894F0
 	public float GetLength() { }
 
 	public float GetDistance() { }

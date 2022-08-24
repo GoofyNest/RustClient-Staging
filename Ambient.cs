@@ -8,23 +8,23 @@ public enum AmbientMode // TypeDefIndex: 3814
 }
 
 public class AmbienceDefinition : ScriptableObject // TypeDefIndex: 8969
-{	[HeaderAttribute] // RVA: 0x8CDD0 Offset: 0x8C1D0 VA: 0x18008CDD0
+{	[HeaderAttribute] // RVA: 0x8CC80 Offset: 0x8C080 VA: 0x18008CC80
 	public List<SoundDefinition> sounds; // 0x18
-	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
+	[HorizontalAttribute] // RVA: 0xC90C0 Offset: 0xC84C0 VA: 0x1800C90C0
 	public AmbienceDefinition.ValueRange stingFrequency; // 0x20
-	[HeaderAttribute] // RVA: 0xC91F0 Offset: 0xC85F0 VA: 0x1800C91F0
-	[InspectorFlagsAttribute] // RVA: 0xC91F0 Offset: 0xC85F0 VA: 0x1800C91F0
+	[HeaderAttribute] // RVA: 0xC9160 Offset: 0xC8560 VA: 0x1800C9160
+	[InspectorFlagsAttribute] // RVA: 0xC9160 Offset: 0xC8560 VA: 0x1800C9160
 	public TerrainBiome.Enum biomes; // 0x28
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public TerrainTopology.Enum topologies; // 0x2C
 	public EnvironmentType environmentType; // 0x30
 	public bool useEnvironmentType; // 0x34
 	public AnimationCurve time; // 0x38
-	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
+	[HorizontalAttribute] // RVA: 0xC90C0 Offset: 0xC84C0 VA: 0x1800C90C0
 	public AmbienceDefinition.ValueRange rain; // 0x40
-	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
+	[HorizontalAttribute] // RVA: 0xC90C0 Offset: 0xC84C0 VA: 0x1800C90C0
 	public AmbienceDefinition.ValueRange wind; // 0x48
-	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
+	[HorizontalAttribute] // RVA: 0xC90C0 Offset: 0xC84C0 VA: 0x1800C90C0
 	public AmbienceDefinition.ValueRange snow; // 0x50
 
 
@@ -382,31 +382,31 @@ public sealed class AmbientOcclusionQualityParameter : ParameterOverride<Ambient
 }
 
 public sealed class AmbientOcclusion : PostProcessEffectSettings // TypeDefIndex: 11764
-{	[TooltipAttribute] // RVA: 0xE9580 Offset: 0xE8980 VA: 0x1800E9580
+{	[TooltipAttribute] // RVA: 0xE7CF0 Offset: 0xE70F0 VA: 0x1800E7CF0
 	public AmbientOcclusionModeParameter mode; // 0x30
+	[RangeAttribute] // RVA: 0xE7D70 Offset: 0xE7170 VA: 0x1800E7D70
+	[TooltipAttribute] // RVA: 0xE7D70 Offset: 0xE7170 VA: 0x1800E7D70
+	public FloatParameter intensity; // 0x38
+	[ColorUsageAttribute] // RVA: 0xE7E90 Offset: 0xE7290 VA: 0x1800E7E90
+	[TooltipAttribute] // RVA: 0xE7E90 Offset: 0xE7290 VA: 0x1800E7E90
+	public ColorParameter color; // 0x40
+	[TooltipAttribute] // RVA: 0xE7F20 Offset: 0xE7320 VA: 0x1800E7F20
+	public BoolParameter ambientOnly; // 0x48
+	[RangeAttribute] // RVA: 0xE8020 Offset: 0xE7420 VA: 0x1800E8020
+	public FloatParameter noiseFilterTolerance; // 0x50
+	[RangeAttribute] // RVA: 0xE8090 Offset: 0xE7490 VA: 0x1800E8090
+	public FloatParameter blurTolerance; // 0x58
+	[RangeAttribute] // RVA: 0xE9500 Offset: 0xE8900 VA: 0x1800E9500
+	public FloatParameter upsampleTolerance; // 0x60
 	[RangeAttribute] // RVA: 0xE95B0 Offset: 0xE89B0 VA: 0x1800E95B0
 	[TooltipAttribute] // RVA: 0xE95B0 Offset: 0xE89B0 VA: 0x1800E95B0
-	public FloatParameter intensity; // 0x38
-	[ColorUsageAttribute] // RVA: 0xE96D0 Offset: 0xE8AD0 VA: 0x1800E96D0
-	[TooltipAttribute] // RVA: 0xE96D0 Offset: 0xE8AD0 VA: 0x1800E96D0
-	public ColorParameter color; // 0x40
-	[TooltipAttribute] // RVA: 0xE98D0 Offset: 0xE8CD0 VA: 0x1800E98D0
-	public BoolParameter ambientOnly; // 0x48
-	[RangeAttribute] // RVA: 0xE9AA0 Offset: 0xE8EA0 VA: 0x1800E9AA0
-	public FloatParameter noiseFilterTolerance; // 0x50
-	[RangeAttribute] // RVA: 0xE9B80 Offset: 0xE8F80 VA: 0x1800E9B80
-	public FloatParameter blurTolerance; // 0x58
-	[RangeAttribute] // RVA: 0xE9CB0 Offset: 0xE90B0 VA: 0x1800E9CB0
-	public FloatParameter upsampleTolerance; // 0x60
-	[RangeAttribute] // RVA: 0xE9D20 Offset: 0xE9120 VA: 0x1800E9D20
-	[TooltipAttribute] // RVA: 0xE9D20 Offset: 0xE9120 VA: 0x1800E9D20
 	public FloatParameter thicknessModifier; // 0x68
-	[RangeAttribute] // RVA: 0xE9F70 Offset: 0xE9370 VA: 0x1800E9F70
-	[TooltipAttribute] // RVA: 0xE9F70 Offset: 0xE9370 VA: 0x1800E9F70
+	[RangeAttribute] // RVA: 0xE9680 Offset: 0xE8A80 VA: 0x1800E9680
+	[TooltipAttribute] // RVA: 0xE9680 Offset: 0xE8A80 VA: 0x1800E9680
 	public FloatParameter directLightingStrength; // 0x70
-	[TooltipAttribute] // RVA: 0xEA010 Offset: 0xE9410 VA: 0x1800EA010
+	[TooltipAttribute] // RVA: 0xE9790 Offset: 0xE8B90 VA: 0x1800E9790
 	public FloatParameter radius; // 0x78
-	[TooltipAttribute] // RVA: 0xEA150 Offset: 0xE9550 VA: 0x1800EA150
+	[TooltipAttribute] // RVA: 0xE9900 Offset: 0xE8D00 VA: 0x1800E9900
 	public AmbientOcclusionQualityParameter quality; // 0x80
 
 

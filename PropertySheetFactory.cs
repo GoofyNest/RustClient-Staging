@@ -4,7 +4,7 @@ public sealed class PropertySheetFactory // TypeDefIndex: 11870
 
 	public void .ctor() { }
 
-	[ObsoleteAttribute] // RVA: 0x7DF00 Offset: 0x7D300 VA: 0x18007DF00
+	[ObsoleteAttribute] // RVA: 0x7D790 Offset: 0x7CB90 VA: 0x18007D790
 	public PropertySheet Get(string shaderName) { }
 
 	public PropertySheet Get(Shader shader) { }

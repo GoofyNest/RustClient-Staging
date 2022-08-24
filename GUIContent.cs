@@ -37,7 +37,7 @@ public class GUIContent // TypeDefIndex: 4035
 
 	internal static GUIContent Temp(string t) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xCD270 Offset: 0xCC670 VA: 0x1800CD270
+	[VisibleToOtherModulesAttribute] // RVA: 0xCD310 Offset: 0xCC710 VA: 0x1800CD310
 	internal static void ClearStaticCache() { }
 
 	internal static GUIContent[] Temp(string[] texts) { }

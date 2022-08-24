@@ -2,10 +2,10 @@ public class CompareInfo : IDeserializationCallback // TypeDefIndex: 690
 {	private const CompareOptions ValidIndexMaskOffFlags = -32;
 	private const CompareOptions ValidCompareMaskOffFlags = -536870944;
 	private const CompareOptions ValidHashCodeOfStringMaskOffFlags = -32;
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private string m_name; // 0x10
 	private string m_sortName; // 0x18
-	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
+	[OptionalFieldAttribute] // RVA: 0x96730 Offset: 0x95B30 VA: 0x180096730
 	private int win32LCID; // 0x20
 	private int culture; // 0x24
 	private const int LINGUISTIC_IGNORECASE = 16;
@@ -21,14 +21,14 @@ public class CompareInfo : IDeserializationCallback // TypeDefIndex: 690
 	private const int RESERVED_FIND_ASCII_STRING = 536870912;
 	private const int SORT_VERSION_WHIDBEY = 4096;
 	private const int SORT_VERSION_V4 = 393473;
-	[OptionalFieldAttribute] // RVA: 0xA9BD0 Offset: 0xA8FD0 VA: 0x1800A9BD0
+	[OptionalFieldAttribute] // RVA: 0xA9CA0 Offset: 0xA90A0 VA: 0x1800A9CA0
 	private SortVersion m_SortVersion; // 0x28
 	private SimpleCollator collator; // 0x30
 	private static Dictionary<string, SimpleCollator> collators; // 0x0
 	private static bool managedCollation; // 0x8
 	private static bool managedCollationChecked; // 0x9
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual string Name { get; }
 	private static bool UseManagedCollation { get; }
 

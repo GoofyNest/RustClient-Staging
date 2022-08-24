@@ -1,6 +1,6 @@
 public class TrainBarricade : BaseCombatEntity, ITrainCollidable // TypeDefIndex: 9767
-{	[FormerlySerializedAsAttribute] // RVA: 0x948A0 Offset: 0x93CA0 VA: 0x1800948A0
-	[SerializeField] // RVA: 0x948A0 Offset: 0x93CA0 VA: 0x1800948A0
+{	[FormerlySerializedAsAttribute] // RVA: 0x94930 Offset: 0x93D30 VA: 0x180094930
+	[SerializeField] // RVA: 0x94930 Offset: 0x93D30 VA: 0x180094930
 	private float trainDamagePerMPS; // 0x240
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float minVelToDestroy; // 0x244

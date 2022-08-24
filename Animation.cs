@@ -8,7 +8,7 @@ public class AnimationCurve : IEquatable<AnimationCurve> // TypeDefIndex: 3353
 	public WrapMode postWrapMode { set; }
 
 
-	[FreeFunctionAttribute] // RVA: 0xF0330 Offset: 0xEF730 VA: 0x1800F0330
+	[FreeFunctionAttribute] // RVA: 0xF0290 Offset: 0xEF690 VA: 0x1800F0290
 	private static void Internal_Destroy(IntPtr ptr) { }
 
 	[FreeFunctionAttribute] // RVA: 0xF0440 Offset: 0xEF840 VA: 0x1800F0440
@@ -19,7 +19,7 @@ public class AnimationCurve : IEquatable<AnimationCurve> // TypeDefIndex: 3353
 
 	protected override void Finalize() { }
 
-	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
+	[ThreadSafeAttribute] // RVA: 0x93D90 Offset: 0x93190 VA: 0x180093D90
 	public float Evaluate(float time) { }
 
 	public Keyframe[] get_keys() { }
@@ -28,22 +28,22 @@ public class AnimationCurve : IEquatable<AnimationCurve> // TypeDefIndex: 3353
 
 	public int AddKey(Keyframe key) { }
 
-	[NativeMethodAttribute] // RVA: 0xF0710 Offset: 0xEFB10 VA: 0x1800F0710
+	[NativeMethodAttribute] // RVA: 0xF0780 Offset: 0xEFB80 VA: 0x1800F0780
 	private int AddKey_Internal(Keyframe key) { }
 
 	public Keyframe get_Item(int index) { }
 
-	[NativeMethodAttribute] // RVA: 0xF07D0 Offset: 0xEFBD0 VA: 0x1800F07D0
+	[NativeMethodAttribute] // RVA: 0xF08B0 Offset: 0xEFCB0 VA: 0x1800F08B0
 	public int get_length() { }
 
-	[FreeFunctionAttribute] // RVA: 0xF0980 Offset: 0xEFD80 VA: 0x1800F0980
+	[FreeFunctionAttribute] // RVA: 0xF09D0 Offset: 0xEFDD0 VA: 0x1800F09D0
 	private void SetKeys(Keyframe[] keys) { }
 
-	[NativeThrowsAttribute] // RVA: 0xF0A90 Offset: 0xEFE90 VA: 0x1800F0A90
-	[FreeFunctionAttribute] // RVA: 0xF0A90 Offset: 0xEFE90 VA: 0x1800F0A90
+	[NativeThrowsAttribute] // RVA: 0xF0AE0 Offset: 0xEFEE0 VA: 0x1800F0AE0
+	[FreeFunctionAttribute] // RVA: 0xF0AE0 Offset: 0xEFEE0 VA: 0x1800F0AE0
 	private Keyframe GetKey(int index) { }
 
-	[FreeFunctionAttribute] // RVA: 0xF0D00 Offset: 0xF0100 VA: 0x1800F0D00
+	[FreeFunctionAttribute] // RVA: 0xF0D20 Offset: 0xF0120 VA: 0x1800F0D20
 	private Keyframe[] GetKeys() { }
 
 	public static AnimationCurve Constant(float timeStart, float timeEnd, float value) { }
@@ -52,10 +52,10 @@ public class AnimationCurve : IEquatable<AnimationCurve> // TypeDefIndex: 3353
 
 	public static AnimationCurve EaseInOut(float timeStart, float valueStart, float timeEnd, float valueEnd) { }
 
-	[NativeMethodAttribute] // RVA: 0xF0EA0 Offset: 0xF02A0 VA: 0x1800F0EA0
+	[NativeMethodAttribute] // RVA: 0xF0F10 Offset: 0xF0310 VA: 0x1800F0F10
 	public void set_preWrapMode(WrapMode value) { }
 
-	[NativeMethodAttribute] // RVA: 0xF0FF0 Offset: 0xF03F0 VA: 0x1800F0FF0
+	[NativeMethodAttribute] // RVA: 0xF1040 Offset: 0xF0440 VA: 0x1800F1040
 	public void set_postWrapMode(WrapMode value) { }
 
 	public void .ctor(Keyframe[] keys) { }
@@ -76,13 +76,13 @@ public class AnimationCurve : IEquatable<AnimationCurve> // TypeDefIndex: 3353
 }
 
 public sealed class AnimationClip : Motion // TypeDefIndex: 4479
-{	[NativePropertyAttribute] // RVA: 0xC9370 Offset: 0xC8770 VA: 0x1800C9370
+{	[NativePropertyAttribute] // RVA: 0xC92A0 Offset: 0xC86A0 VA: 0x1800C92A0
 	public float length { get; }
 
 
 	public void .ctor() { }
 
-	[FreeFunctionAttribute] // RVA: 0xC9130 Offset: 0xC8530 VA: 0x1800C9130
+	[FreeFunctionAttribute] // RVA: 0xC90E0 Offset: 0xC84E0 VA: 0x1800C90E0
 	private static void Internal_CreateAnimationClip(AnimationClip self) { }
 
 	public float get_length() { }
@@ -213,10 +213,10 @@ public sealed class AnimationState : TrackedReference // TypeDefIndex: 4501
 
 public struct AnimationClipPlayable : IEquatable<AnimationClipPlayable> // TypeDefIndex: 4503
 {
-[NativeHeaderAttribute] // RVA: 0xD0A50 Offset: 0xCFE50 VA: 0x1800D0A50
-[RequiredByNativeCodeAttribute] // RVA: 0xD0A50 Offset: 0xCFE50 VA: 0x1800D0A50
-[StaticAccessorAttribute] // RVA: 0xD0A50 Offset: 0xCFE50 VA: 0x1800D0A50
-[NativeHeaderAttribute] // RVA: 0xD0A50 Offset: 0xCFE50 VA: 0x1800D0A50
+[NativeHeaderAttribute] // RVA: 0xD09C0 Offset: 0xCFDC0 VA: 0x1800D09C0
+[RequiredByNativeCodeAttribute] // RVA: 0xD09C0 Offset: 0xCFDC0 VA: 0x1800D09C0
+[StaticAccessorAttribute] // RVA: 0xD09C0 Offset: 0xCFDC0 VA: 0x1800D09C0
+[NativeHeaderAttribute] // RVA: 0xD09C0 Offset: 0xCFDC0 VA: 0x1800D09C0
 public struct AnimationClipPlayable : IEquatable<AnimationClipPlayable> // TypeDefIndex: 4503
 	private PlayableHandle m_Handle; // 0x0
 
@@ -368,20 +368,20 @@ public class AnimationTriggers // TypeDefIndex: 4904
 	private const string kDefaultPressedAnimName = "Pressed";
 	private const string kDefaultSelectedAnimName = "Selected";
 	private const string kDefaultDisabledAnimName = "Disabled";
-	[FormerlySerializedAsAttribute] // RVA: 0xE1AE0 Offset: 0xE0EE0 VA: 0x1800E1AE0
-	[SerializeField] // RVA: 0xE1AE0 Offset: 0xE0EE0 VA: 0x1800E1AE0
+	[FormerlySerializedAsAttribute] // RVA: 0xE1A60 Offset: 0xE0E60 VA: 0x1800E1A60
+	[SerializeField] // RVA: 0xE1A60 Offset: 0xE0E60 VA: 0x1800E1A60
 	private string m_NormalTrigger; // 0x10
-	[FormerlySerializedAsAttribute] // RVA: 0xE1BE0 Offset: 0xE0FE0 VA: 0x1800E1BE0
-	[SerializeField] // RVA: 0xE1BE0 Offset: 0xE0FE0 VA: 0x1800E1BE0
+	[FormerlySerializedAsAttribute] // RVA: 0xE1B60 Offset: 0xE0F60 VA: 0x1800E1B60
+	[SerializeField] // RVA: 0xE1B60 Offset: 0xE0F60 VA: 0x1800E1B60
 	private string m_HighlightedTrigger; // 0x18
-	[FormerlySerializedAsAttribute] // RVA: 0xE43F0 Offset: 0xE37F0 VA: 0x1800E43F0
-	[SerializeField] // RVA: 0xE43F0 Offset: 0xE37F0 VA: 0x1800E43F0
+	[FormerlySerializedAsAttribute] // RVA: 0xE42C0 Offset: 0xE36C0 VA: 0x1800E42C0
+	[SerializeField] // RVA: 0xE42C0 Offset: 0xE36C0 VA: 0x1800E42C0
 	private string m_PressedTrigger; // 0x20
-	[FormerlySerializedAsAttribute] // RVA: 0xE4860 Offset: 0xE3C60 VA: 0x1800E4860
-	[SerializeField] // RVA: 0xE4860 Offset: 0xE3C60 VA: 0x1800E4860
+	[FormerlySerializedAsAttribute] // RVA: 0xE4730 Offset: 0xE3B30 VA: 0x1800E4730
+	[SerializeField] // RVA: 0xE4730 Offset: 0xE3B30 VA: 0x1800E4730
 	private string m_SelectedTrigger; // 0x28
-	[FormerlySerializedAsAttribute] // RVA: 0xE49B0 Offset: 0xE3DB0 VA: 0x1800E49B0
-	[SerializeField] // RVA: 0xE49B0 Offset: 0xE3DB0 VA: 0x1800E49B0
+	[FormerlySerializedAsAttribute] // RVA: 0xE4880 Offset: 0xE3C80 VA: 0x1800E4880
+	[SerializeField] // RVA: 0xE4880 Offset: 0xE3C80 VA: 0x1800E4880
 	private string m_DisabledTrigger; // 0x30
 
 	public string normalTrigger { get; set; }
@@ -440,11 +440,11 @@ public class AnimationEventForward : MonoBehaviour // TypeDefIndex: 9121
 public class AnimationEvents : BaseMonoBehaviour // TypeDefIndex: 9326
 {	public Transform rootObject; // 0x18
 	public HeldEntity targetEntity; // 0x20
-	[TooltipAttribute] // RVA: 0xE7990 Offset: 0xE6D90 VA: 0x1800E7990
+	[TooltipAttribute] // RVA: 0xE7890 Offset: 0xE6C90 VA: 0x1800E7890
 	public string effectFolder; // 0x28
 	public bool enforceClipWeights; // 0x30
 	public string localFolder; // 0x38
-	[TooltipAttribute] // RVA: 0xE7A90 Offset: 0xE6E90 VA: 0x1800E7A90
+	[TooltipAttribute] // RVA: 0xE7990 Offset: 0xE6D90 VA: 0x1800E7990
 	public bool customLocalFolder; // 0x40
 	public bool IsBusy; // 0x41
 	private IAnimationEventReceiver cachedEventReceiver; // 0x48

@@ -1,15 +1,15 @@
 public class Wearable : MonoBehaviour, IItemSetup, IPrefabPreProcess // TypeDefIndex: 10059
-{	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+{	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public Wearable.RemoveSkin removeSkin; // 0x18
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public Wearable.RemoveSkin removeSkinFirstPerson; // 0x1C
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public Wearable.RemoveHair removeHair; // 0x20
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public Wearable.DeformHair deformHair; // 0x24
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public Wearable.OccupationSlots occupationUnder; // 0x28
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public Wearable.OccupationSlots occupationOver; // 0x2C
 	public bool showCensorshipCube; // 0x30
 	public bool showCensorshipCubeBreasts; // 0x31
@@ -39,13 +39,13 @@ public class Wearable : MonoBehaviour, IItemSetup, IPrefabPreProcess // TypeDefI
 	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public List<ComponentInfo> componentInfos; // 0x90
 	public bool HideInEyesView; // 0x98
-	[HeaderAttribute] // RVA: 0xB2AB0 Offset: 0xB1EB0 VA: 0x1800B2AB0
-	[TooltipAttribute] // RVA: 0xB2AB0 Offset: 0xB1EB0 VA: 0x1800B2AB0
+	[HeaderAttribute] // RVA: 0xB2240 Offset: 0xB1640 VA: 0x1800B2240
+	[TooltipAttribute] // RVA: 0xB2240 Offset: 0xB1640 VA: 0x1800B2240
 	public bool HideInFirstPerson; // 0x99
-	[TooltipAttribute] // RVA: 0xB2D60 Offset: 0xB2160 VA: 0x1800B2D60
-	[RangeAttribute] // RVA: 0xB2D60 Offset: 0xB2160 VA: 0x1800B2D60
+	[TooltipAttribute] // RVA: 0xB25D0 Offset: 0xB19D0 VA: 0x1800B25D0
+	[RangeAttribute] // RVA: 0xB25D0 Offset: 0xB19D0 VA: 0x1800B25D0
 	public float ExtraLeanBack; // 0x9C
-	[TooltipAttribute] // RVA: 0xB2E50 Offset: 0xB2250 VA: 0x1800B2E50
+	[TooltipAttribute] // RVA: 0xB26F0 Offset: 0xB1AF0 VA: 0x1800B26F0
 	public bool PreserveBones; // 0xA0
 	public Renderer[] RenderersLod0; // 0xA8
 	public Renderer[] RenderersLod1; // 0xB0

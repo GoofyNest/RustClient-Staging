@@ -1,8 +1,8 @@
 public class Physics2D // TypeDefIndex: 4080
-{	private static List<Rigidbody2D> m_LastDisabledRigidbody2D; // 0x2B118CC
+{	private static List<Rigidbody2D> m_LastDisabledRigidbody2D; // 0x13640
 
 	public static PhysicsScene2D defaultPhysicsScene { get; }
-	[StaticAccessorAttribute] // RVA: 0x6FB10 Offset: 0x6EF10 VA: 0x18006FB10
+	[StaticAccessorAttribute] // RVA: 0x6FB50 Offset: 0x6EF50 VA: 0x18006FB50
 	public static bool queriesHitTriggers { get; }
 
 
@@ -16,8 +16,8 @@ public class Physics2D // TypeDefIndex: 4080
 	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static RaycastHit2D Raycast(Vector2 origin, Vector2 direction, float distance) { }
 
-	[ExcludeFromDocsAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[RequiredByNativeCodeAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[ExcludeFromDocsAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[RequiredByNativeCodeAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public static RaycastHit2D Raycast(Vector2 origin, Vector2 direction, float distance, int layerMask) { }
 
 	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -41,8 +41,8 @@ public class Physics2D // TypeDefIndex: 4080
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static RaycastHit2D[] GetRayIntersectionAll(Ray ray, float distance, int layerMask) { }
 
-	[StaticAccessorAttribute] // RVA: 0xF0B60 Offset: 0xEFF60 VA: 0x1800F0B60
-	[NativeMethodAttribute] // RVA: 0xF0B60 Offset: 0xEFF60 VA: 0x1800F0B60
+	[StaticAccessorAttribute] // RVA: 0xF0C20 Offset: 0xF0020 VA: 0x1800F0C20
+	[NativeMethodAttribute] // RVA: 0xF0C20 Offset: 0xF0020 VA: 0x1800F0C20
 	private static RaycastHit2D[] GetRayIntersectionAll_Internal(PhysicsScene2D physicsScene, Vector3 origin, Vector3 direction, float distance, int layerMask) { }
 
 	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

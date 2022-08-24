@@ -9,20 +9,20 @@ public class WorkshopMainMenu : SingletonComponent<WorkshopMainMenu> // TypeDefI
 
 	private void OnEnable() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9D1A0 Offset: 0x9C5A0 VA: 0x18009D1A0
+	[IteratorStateMachineAttribute] // RVA: 0x9B6E0 Offset: 0x9AAE0 VA: 0x18009B6E0
 	private IEnumerator CreateNewItemAsync() { }
 
 	public void StartEditingItem(IWorkshopContent id) { }
 
 	public void StartViewingItem(IWorkshopContent id) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9D410 Offset: 0x9C810 VA: 0x18009D410
+	[IteratorStateMachineAttribute] // RVA: 0x9CB50 Offset: 0x9BF50 VA: 0x18009CB50
 	private IEnumerator LoadEditor() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9D4D0 Offset: 0x9C8D0 VA: 0x18009D4D0
+	[IteratorStateMachineAttribute] // RVA: 0x9CC80 Offset: 0x9C080 VA: 0x18009CC80
 	private IEnumerator StartEditingItemAsync(IWorkshopContent id) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9D720 Offset: 0x9CB20 VA: 0x18009D720
+	[IteratorStateMachineAttribute] // RVA: 0x9CE60 Offset: 0x9C260 VA: 0x18009CE60
 	private IEnumerator StartViewingItemAsync(IWorkshopContent id) { }
 
 	public void .ctor() { }

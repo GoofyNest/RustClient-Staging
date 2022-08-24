@@ -1,9 +1,9 @@
 public static class StencilMaterial // TypeDefIndex: 5012
-{	private static List<StencilMaterial.MatEntry> m_List; // 0x12957
+{	private static List<StencilMaterial.MatEntry> m_List; // 0x2B10770
 
 
-	[EditorBrowsableAttribute] // RVA: 0x7D850 Offset: 0x7CC50 VA: 0x18007D850
-	[ObsoleteAttribute] // RVA: 0x7D850 Offset: 0x7CC50 VA: 0x18007D850
+	[EditorBrowsableAttribute] // RVA: 0x7D720 Offset: 0x7CB20 VA: 0x18007D720
+	[ObsoleteAttribute] // RVA: 0x7D720 Offset: 0x7CB20 VA: 0x18007D720
 	public static Material Add(Material baseMat, int stencilID) { }
 
 	public static Material Add(Material baseMat, int stencilID, StencilOp operation, CompareFunction compareFunction, ColorWriteMask colorWriteMask) { }

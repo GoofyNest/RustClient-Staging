@@ -47,16 +47,16 @@ public class WorkshopSkin : MonoBehaviour // TypeDefIndex: 7723
 
 	private static void LoadOrUnloadSkinAssets(ulong workshopId) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xC9010 Offset: 0xC8410 VA: 0x1800C9010
+	[IteratorStateMachineAttribute] // RVA: 0xC9020 Offset: 0xC8420 VA: 0x1800C9020
 	private static IEnumerator ItemQueueCoroutine() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xC9240 Offset: 0xC8640 VA: 0x1800C9240
+	[IteratorStateMachineAttribute] // RVA: 0xC91B0 Offset: 0xC85B0 VA: 0x1800C91B0
 	private static IEnumerator SkinQueueCoroutine() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xC9320 Offset: 0xC8720 VA: 0x1800C9320
+	[IteratorStateMachineAttribute] // RVA: 0xC9250 Offset: 0xC8650 VA: 0x1800C9250
 	private static IEnumerator LoadItem(ulong workshopId) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xC96F0 Offset: 0xC8AF0 VA: 0x1800C96F0
+	[IteratorStateMachineAttribute] // RVA: 0xC9620 Offset: 0xC8A20 VA: 0x1800C9620
 	private static IEnumerator LoadSkin(ulong workshopId) { }
 
 	private static int GetBundleIndex(ulong workshopId) { }

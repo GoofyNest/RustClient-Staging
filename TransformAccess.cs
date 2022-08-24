@@ -16,16 +16,16 @@ public struct TransformAccess // TypeDefIndex: 3589
 
 	public void set_localRotation(Quaternion value) { }
 
-	[NativeMethodAttribute] // RVA: 0xD8F20 Offset: 0xD8320 VA: 0x1800D8F20
+	[NativeMethodAttribute] // RVA: 0xD8E20 Offset: 0xD8220 VA: 0x1800D8E20
 	private static void GetPosition(ref TransformAccess access, out Vector3 p) { }
 
-	[NativeMethodAttribute] // RVA: 0xD9060 Offset: 0xD8460 VA: 0x1800D9060
+	[NativeMethodAttribute] // RVA: 0xD8F60 Offset: 0xD8360 VA: 0x1800D8F60
 	private static void GetRotation(ref TransformAccess access, out Quaternion r) { }
 
-	[NativeMethodAttribute] // RVA: 0xD9100 Offset: 0xD8500 VA: 0x1800D9100
+	[NativeMethodAttribute] // RVA: 0xD9030 Offset: 0xD8430 VA: 0x1800D9030
 	private static void SetLocalPosition(ref TransformAccess access, ref Vector3 p) { }
 
-	[NativeMethodAttribute] // RVA: 0xD9360 Offset: 0xD8760 VA: 0x1800D9360
+	[NativeMethodAttribute] // RVA: 0xD92C0 Offset: 0xD86C0 VA: 0x1800D92C0
 	private static void SetLocalRotation(ref TransformAccess access, ref Quaternion r) { }
 
 }

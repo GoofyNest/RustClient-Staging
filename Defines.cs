@@ -118,7 +118,7 @@ public class Defines // TypeDefIndex: 6677
 }
 
 public static class Defines // TypeDefIndex: 12039
-{	public static uint appID; // 0x2B11D08
+{	public static uint appID; // 0x1EA00
 	public const string resourceFolder = "assets/bundled";
 
 

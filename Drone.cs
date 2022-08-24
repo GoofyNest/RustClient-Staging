@@ -1,5 +1,5 @@
 public class Drone : RemoteControlEntity // TypeDefIndex: 8689
-{	[HeaderAttribute] // RVA: 0xBBAF0 Offset: 0xBAEF0 VA: 0x1800BBAF0
+{	[HeaderAttribute] // RVA: 0xBB9C0 Offset: 0xBADC0 VA: 0x1800BB9C0
 	public Rigidbody body; // 0x2B0
 	public bool killInWater; // 0x2B8
 	public bool enableGrounding; // 0x2B9
@@ -16,7 +16,7 @@ public class Drone : RemoteControlEntity // TypeDefIndex: 8689
 	public float hurtVelocityThreshold; // 0x2E0
 	public float hurtDamagePower; // 0x2E4
 	public float collisionDisableTime; // 0x2E8
-	[HeaderAttribute] // RVA: 0x8CDD0 Offset: 0x8C1D0 VA: 0x18008CDD0
+	[HeaderAttribute] // RVA: 0x8CC80 Offset: 0x8C080 VA: 0x18008CC80
 	public SoundDefinition movementLoopSoundDef; // 0x2F0
 	public SoundDefinition movementStartSoundDef; // 0x2F8
 	public SoundDefinition movementStopSoundDef; // 0x300

@@ -4,9 +4,9 @@ internal struct LoadGoLispHandlers // TypeDefIndex: 7708
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Code>k__BackingField; // 0x8
 
-	[JsonPropertyAttribute] // RVA: 0xC0DA0 Offset: 0xC01A0 VA: 0x1800C0DA0
+	[JsonPropertyAttribute] // RVA: 0xC0F10 Offset: 0xC0310 VA: 0x1800C0F10
 	public string GameId { get; set; }
-	[JsonPropertyAttribute] // RVA: 0xC38E0 Offset: 0xC2CE0 VA: 0x1800C38E0
+	[JsonPropertyAttribute] // RVA: 0xC3AB0 Offset: 0xC2EB0 VA: 0x1800C3AB0
 	public string Code { get; set; }
 
 

@@ -72,17 +72,17 @@ public class TonemappingOverlay : ImageEffectLayer // TypeDefIndex: 9137
 }
 
 public class TonemappingColorGrading : MonoBehaviour // TypeDefIndex: 11659
-{	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[TonemappingColorGrading.SettingsGroup] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+{	[SerializeField] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[TonemappingColorGrading.SettingsGroup] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	private TonemappingColorGrading.EyeAdaptationSettings m_EyeAdaptation; // 0x18
-	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[TonemappingColorGrading.SettingsGroup] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[SerializeField] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[TonemappingColorGrading.SettingsGroup] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	private TonemappingColorGrading.TonemappingSettings m_Tonemapping; // 0x30
-	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[TonemappingColorGrading.SettingsGroup] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[SerializeField] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[TonemappingColorGrading.SettingsGroup] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	private TonemappingColorGrading.ColorGradingSettings m_ColorGrading; // 0x60
-	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[TonemappingColorGrading.SettingsGroup] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[SerializeField] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[TonemappingColorGrading.SettingsGroup] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	private TonemappingColorGrading.LUTSettings m_Lut; // 0xF8
 	private Texture2D m_IdentityLut; // 0x110
 	private RenderTexture m_InternalLut; // 0x118
@@ -240,17 +240,17 @@ public class TonemappingColorGrading.Curve : PropertyAttribute // TypeDefIndex: 
 
 public struct TonemappingColorGrading.EyeAdaptationSettings // TypeDefIndex: 11665
 {	public bool enabled; // 0x0
-	[MinAttribute] // RVA: 0xCBE80 Offset: 0xCB280 VA: 0x1800CBE80
-	[TooltipAttribute] // RVA: 0xCBE80 Offset: 0xCB280 VA: 0x1800CBE80
+	[MinAttribute] // RVA: 0xCB450 Offset: 0xCA850 VA: 0x1800CB450
+	[TooltipAttribute] // RVA: 0xCB450 Offset: 0xCA850 VA: 0x1800CB450
 	public float middleGrey; // 0x4
-	[TooltipAttribute] // RVA: 0xCBF80 Offset: 0xCB380 VA: 0x1800CBF80
+	[TooltipAttribute] // RVA: 0xCB550 Offset: 0xCA950 VA: 0x1800CB550
 	public float min; // 0x8
-	[TooltipAttribute] // RVA: 0xCC050 Offset: 0xCB450 VA: 0x1800CC050
+	[TooltipAttribute] // RVA: 0xCB6A0 Offset: 0xCAAA0 VA: 0x1800CB6A0
 	public float max; // 0xC
-	[MinAttribute] // RVA: 0xCC250 Offset: 0xCB650 VA: 0x1800CC250
-	[TooltipAttribute] // RVA: 0xCC250 Offset: 0xCB650 VA: 0x1800CC250
+	[MinAttribute] // RVA: 0xCB870 Offset: 0xCAC70 VA: 0x1800CB870
+	[TooltipAttribute] // RVA: 0xCB870 Offset: 0xCAC70 VA: 0x1800CB870
 	public float speed; // 0x10
-	[TooltipAttribute] // RVA: 0xCC3D0 Offset: 0xCB7D0 VA: 0x1800CC3D0
+	[TooltipAttribute] // RVA: 0xCBBC0 Offset: 0xCAFC0 VA: 0x1800CBBC0
 	public bool showDebug; // 0x14
 
 	public static TonemappingColorGrading.EyeAdaptationSettings defaultSettings { get; }
@@ -274,24 +274,24 @@ public enum TonemappingColorGrading.Tonemapper // TypeDefIndex: 11666
 
 public struct TonemappingColorGrading.TonemappingSettings // TypeDefIndex: 11667
 {	public bool enabled; // 0x0
-	[TooltipAttribute] // RVA: 0xCC540 Offset: 0xCB940 VA: 0x1800CC540
+	[TooltipAttribute] // RVA: 0xCBD80 Offset: 0xCB180 VA: 0x1800CBD80
 	public TonemappingColorGrading.Tonemapper tonemapper; // 0x4
-	[MinAttribute] // RVA: 0xCC680 Offset: 0xCBA80 VA: 0x1800CC680
-	[TooltipAttribute] // RVA: 0xCC680 Offset: 0xCBA80 VA: 0x1800CC680
+	[MinAttribute] // RVA: 0xCBF40 Offset: 0xCB340 VA: 0x1800CBF40
+	[TooltipAttribute] // RVA: 0xCBF40 Offset: 0xCB340 VA: 0x1800CBF40
 	public float exposure; // 0x8
-	[TooltipAttribute] // RVA: 0xCC920 Offset: 0xCBD20 VA: 0x1800CC920
+	[TooltipAttribute] // RVA: 0xCC070 Offset: 0xCB470 VA: 0x1800CC070
 	public AnimationCurve curve; // 0x10
-	[RangeAttribute] // RVA: 0xCCA70 Offset: 0xCBE70 VA: 0x1800CCA70
+	[RangeAttribute] // RVA: 0xCC170 Offset: 0xCB570 VA: 0x1800CC170
 	public float neutralBlackIn; // 0x18
-	[RangeAttribute] // RVA: 0xCCB80 Offset: 0xCBF80 VA: 0x1800CCB80
+	[RangeAttribute] // RVA: 0xCC2F0 Offset: 0xCB6F0 VA: 0x1800CC2F0
 	public float neutralWhiteIn; // 0x1C
-	[RangeAttribute] // RVA: 0xCCD30 Offset: 0xCC130 VA: 0x1800CCD30
+	[RangeAttribute] // RVA: 0xCC3B0 Offset: 0xCB7B0 VA: 0x1800CC3B0
 	public float neutralBlackOut; // 0x20
-	[RangeAttribute] // RVA: 0xCCDD0 Offset: 0xCC1D0 VA: 0x1800CCDD0
+	[RangeAttribute] // RVA: 0xCC420 Offset: 0xCB820 VA: 0x1800CC420
 	public float neutralWhiteOut; // 0x24
-	[RangeAttribute] // RVA: 0xCB130 Offset: 0xCA530 VA: 0x1800CB130
+	[RangeAttribute] // RVA: 0xCB090 Offset: 0xCA490 VA: 0x1800CB090
 	public float neutralWhiteLevel; // 0x28
-	[RangeAttribute] // RVA: 0xB4650 Offset: 0xB3A50 VA: 0x1800B4650
+	[RangeAttribute] // RVA: 0xB4290 Offset: 0xB3690 VA: 0x1800B4290
 	public float neutralWhiteClip; // 0x2C
 
 	public static TonemappingColorGrading.TonemappingSettings defaultSettings { get; }
@@ -303,10 +303,10 @@ public struct TonemappingColorGrading.TonemappingSettings // TypeDefIndex: 11667
 
 public struct TonemappingColorGrading.LUTSettings // TypeDefIndex: 11668
 {	public bool enabled; // 0x0
-	[TooltipAttribute] // RVA: 0xCD020 Offset: 0xCC420 VA: 0x1800CD020
+	[TooltipAttribute] // RVA: 0xCC780 Offset: 0xCBB80 VA: 0x1800CC780
 	public Texture texture; // 0x8
-	[RangeAttribute] // RVA: 0xCD110 Offset: 0xCC510 VA: 0x1800CD110
-	[TooltipAttribute] // RVA: 0xCD110 Offset: 0xCC510 VA: 0x1800CD110
+	[RangeAttribute] // RVA: 0xCC950 Offset: 0xCBD50 VA: 0x1800CC950
+	[TooltipAttribute] // RVA: 0xCC950 Offset: 0xCBD50 VA: 0x1800CC950
 	public float contribution; // 0x10
 
 	public static TonemappingColorGrading.LUTSettings defaultSettings { get; }
@@ -317,11 +317,11 @@ public struct TonemappingColorGrading.LUTSettings // TypeDefIndex: 11668
 }
 
 public struct TonemappingColorGrading.ColorWheelsSettings // TypeDefIndex: 11669
-{	[ColorUsageAttribute] // RVA: 0xCD2F0 Offset: 0xCC6F0 VA: 0x1800CD2F0
+{	[ColorUsageAttribute] // RVA: 0xCCAE0 Offset: 0xCBEE0 VA: 0x1800CCAE0
 	public Color shadows; // 0x0
-	[ColorUsageAttribute] // RVA: 0xCD2F0 Offset: 0xCC6F0 VA: 0x1800CD2F0
+	[ColorUsageAttribute] // RVA: 0xCCAE0 Offset: 0xCBEE0 VA: 0x1800CCAE0
 	public Color midtones; // 0x10
-	[ColorUsageAttribute] // RVA: 0xCD2F0 Offset: 0xCC6F0 VA: 0x1800CD2F0
+	[ColorUsageAttribute] // RVA: 0xCCAE0 Offset: 0xCBEE0 VA: 0x1800CCAE0
 	public Color highlights; // 0x20
 
 	public static TonemappingColorGrading.ColorWheelsSettings defaultSettings { get; }
@@ -332,34 +332,34 @@ public struct TonemappingColorGrading.ColorWheelsSettings // TypeDefIndex: 11669
 }
 
 public struct TonemappingColorGrading.BasicsSettings // TypeDefIndex: 11670
-{	[RangeAttribute] // RVA: 0xCD550 Offset: 0xCC950 VA: 0x1800CD550
-	[TooltipAttribute] // RVA: 0xCD550 Offset: 0xCC950 VA: 0x1800CD550
+{	[RangeAttribute] // RVA: 0xCCE70 Offset: 0xCC270 VA: 0x1800CCE70
+	[TooltipAttribute] // RVA: 0xCCE70 Offset: 0xCC270 VA: 0x1800CCE70
 	public float temperatureShift; // 0x0
+	[RangeAttribute] // RVA: 0xCCF80 Offset: 0xCC380 VA: 0x1800CCF80
+	[TooltipAttribute] // RVA: 0xCCF80 Offset: 0xCC380 VA: 0x1800CCF80
+	public float tint; // 0x4
+	[SpaceAttribute] // RVA: 0xCD030 Offset: 0xCC430 VA: 0x1800CD030
+	[RangeAttribute] // RVA: 0xCD030 Offset: 0xCC430 VA: 0x1800CD030
+	[TooltipAttribute] // RVA: 0xCD030 Offset: 0xCC430 VA: 0x1800CD030
+	public float hue; // 0x8
+	[RangeAttribute] // RVA: 0xCD2C0 Offset: 0xCC6C0 VA: 0x1800CD2C0
+	[TooltipAttribute] // RVA: 0xCD2C0 Offset: 0xCC6C0 VA: 0x1800CD2C0
+	public float saturation; // 0xC
+	[RangeAttribute] // RVA: 0xCD3F0 Offset: 0xCC7F0 VA: 0x1800CD3F0
+	[TooltipAttribute] // RVA: 0xCD3F0 Offset: 0xCC7F0 VA: 0x1800CD3F0
+	public float vibrance; // 0x10
 	[RangeAttribute] // RVA: 0xCD620 Offset: 0xCCA20 VA: 0x1800CD620
 	[TooltipAttribute] // RVA: 0xCD620 Offset: 0xCCA20 VA: 0x1800CD620
-	public float tint; // 0x4
-	[SpaceAttribute] // RVA: 0xCD710 Offset: 0xCCB10 VA: 0x1800CD710
-	[RangeAttribute] // RVA: 0xCD710 Offset: 0xCCB10 VA: 0x1800CD710
-	[TooltipAttribute] // RVA: 0xCD710 Offset: 0xCCB10 VA: 0x1800CD710
-	public float hue; // 0x8
-	[RangeAttribute] // RVA: 0xCD900 Offset: 0xCCD00 VA: 0x1800CD900
-	[TooltipAttribute] // RVA: 0xCD900 Offset: 0xCCD00 VA: 0x1800CD900
-	public float saturation; // 0xC
-	[RangeAttribute] // RVA: 0xCDB30 Offset: 0xCCF30 VA: 0x1800CDB30
-	[TooltipAttribute] // RVA: 0xCDB30 Offset: 0xCCF30 VA: 0x1800CDB30
-	public float vibrance; // 0x10
-	[RangeAttribute] // RVA: 0xCDC40 Offset: 0xCD040 VA: 0x1800CDC40
-	[TooltipAttribute] // RVA: 0xCDC40 Offset: 0xCD040 VA: 0x1800CDC40
 	public float value; // 0x14
-	[SpaceAttribute] // RVA: 0xCDED0 Offset: 0xCD2D0 VA: 0x1800CDED0
-	[RangeAttribute] // RVA: 0xCDED0 Offset: 0xCD2D0 VA: 0x1800CDED0
-	[TooltipAttribute] // RVA: 0xCDED0 Offset: 0xCD2D0 VA: 0x1800CDED0
+	[SpaceAttribute] // RVA: 0xCD6F0 Offset: 0xCCAF0 VA: 0x1800CD6F0
+	[RangeAttribute] // RVA: 0xCD6F0 Offset: 0xCCAF0 VA: 0x1800CD6F0
+	[TooltipAttribute] // RVA: 0xCD6F0 Offset: 0xCCAF0 VA: 0x1800CD6F0
 	public float contrast; // 0x18
-	[RangeAttribute] // RVA: 0xCE080 Offset: 0xCD480 VA: 0x1800CE080
-	[TooltipAttribute] // RVA: 0xCE080 Offset: 0xCD480 VA: 0x1800CE080
+	[RangeAttribute] // RVA: 0xCD870 Offset: 0xCCC70 VA: 0x1800CD870
+	[TooltipAttribute] // RVA: 0xCD870 Offset: 0xCCC70 VA: 0x1800CD870
 	public float gain; // 0x1C
-	[RangeAttribute] // RVA: 0xCE2B0 Offset: 0xCD6B0 VA: 0x1800CE2B0
-	[TooltipAttribute] // RVA: 0xCE2B0 Offset: 0xCD6B0 VA: 0x1800CE2B0
+	[RangeAttribute] // RVA: 0xCDA00 Offset: 0xCCE00 VA: 0x1800CDA00
+	[TooltipAttribute] // RVA: 0xCDA00 Offset: 0xCCE00 VA: 0x1800CDA00
 	public float gamma; // 0x20
 
 	public static TonemappingColorGrading.BasicsSettings defaultSettings { get; }
@@ -381,13 +381,13 @@ public struct TonemappingColorGrading.ChannelMixerSettings // TypeDefIndex: 1167
 }
 
 public struct TonemappingColorGrading.CurvesSettings // TypeDefIndex: 11672
-{	[TonemappingColorGrading.Curve] // RVA: 0xCF810 Offset: 0xCEC10 VA: 0x1800CF810
+{	[TonemappingColorGrading.Curve] // RVA: 0xCDC60 Offset: 0xCD060 VA: 0x1800CDC60
 	public AnimationCurve master; // 0x0
-	[TonemappingColorGrading.Curve] // RVA: 0xCF850 Offset: 0xCEC50 VA: 0x1800CF850
+	[TonemappingColorGrading.Curve] // RVA: 0xCDD00 Offset: 0xCD100 VA: 0x1800CDD00
 	public AnimationCurve red; // 0x8
-	[TonemappingColorGrading.Curve] // RVA: 0xCFA80 Offset: 0xCEE80 VA: 0x1800CFA80
+	[TonemappingColorGrading.Curve] // RVA: 0xCDDD0 Offset: 0xCD1D0 VA: 0x1800CDDD0
 	public AnimationCurve green; // 0x10
-	[TonemappingColorGrading.Curve] // RVA: 0xCFAF0 Offset: 0xCEEF0 VA: 0x1800CFAF0
+	[TonemappingColorGrading.Curve] // RVA: 0xCDF70 Offset: 0xCD370 VA: 0x1800CDF70
 	public AnimationCurve blue; // 0x18
 
 	public static TonemappingColorGrading.CurvesSettings defaultSettings { get; }
@@ -409,24 +409,24 @@ public enum TonemappingColorGrading.ColorGradingPrecision // TypeDefIndex: 11673
 
 public struct TonemappingColorGrading.ColorGradingSettings // TypeDefIndex: 11674
 {	public bool enabled; // 0x0
-	[TooltipAttribute] // RVA: 0xCFBB0 Offset: 0xCEFB0 VA: 0x1800CFBB0
+	[TooltipAttribute] // RVA: 0xCE030 Offset: 0xCD430 VA: 0x1800CE030
 	public TonemappingColorGrading.ColorGradingPrecision precision; // 0x4
-	[SpaceAttribute] // RVA: 0xCFCF0 Offset: 0xCF0F0 VA: 0x1800CFCF0
-	[TonemappingColorGrading.ColorWheelGroup] // RVA: 0xCFCF0 Offset: 0xCF0F0 VA: 0x1800CFCF0
+	[SpaceAttribute] // RVA: 0xCE170 Offset: 0xCD570 VA: 0x1800CE170
+	[TonemappingColorGrading.ColorWheelGroup] // RVA: 0xCE170 Offset: 0xCD570 VA: 0x1800CE170
 	public TonemappingColorGrading.ColorWheelsSettings colorWheels; // 0x8
-	[SpaceAttribute] // RVA: 0xCFD20 Offset: 0xCF120 VA: 0x1800CFD20
-	[TonemappingColorGrading.IndentedGroup] // RVA: 0xCFD20 Offset: 0xCF120 VA: 0x1800CFD20
+	[SpaceAttribute] // RVA: 0xCE330 Offset: 0xCD730 VA: 0x1800CE330
+	[TonemappingColorGrading.IndentedGroup] // RVA: 0xCE330 Offset: 0xCD730 VA: 0x1800CE330
 	public TonemappingColorGrading.BasicsSettings basics; // 0x38
-	[SpaceAttribute] // RVA: 0xCFD20 Offset: 0xCF120 VA: 0x1800CFD20
-	[TonemappingColorGrading.ChannelMixer] // RVA: 0xCFD20 Offset: 0xCF120 VA: 0x1800CFD20
+	[SpaceAttribute] // RVA: 0xCE330 Offset: 0xCD730 VA: 0x1800CE330
+	[TonemappingColorGrading.ChannelMixer] // RVA: 0xCE330 Offset: 0xCD730 VA: 0x1800CE330
 	public TonemappingColorGrading.ChannelMixerSettings channelMixer; // 0x60
-	[SpaceAttribute] // RVA: 0xCFD20 Offset: 0xCF120 VA: 0x1800CFD20
-	[TonemappingColorGrading.IndentedGroup] // RVA: 0xCFD20 Offset: 0xCF120 VA: 0x1800CFD20
+	[SpaceAttribute] // RVA: 0xCE330 Offset: 0xCD730 VA: 0x1800CE330
+	[TonemappingColorGrading.IndentedGroup] // RVA: 0xCE330 Offset: 0xCD730 VA: 0x1800CE330
 	public TonemappingColorGrading.CurvesSettings curves; // 0x70
-	[SpaceAttribute] // RVA: 0xD0160 Offset: 0xCF560 VA: 0x1800D0160
-	[TooltipAttribute] // RVA: 0xD0160 Offset: 0xCF560 VA: 0x1800D0160
+	[SpaceAttribute] // RVA: 0xCFA60 Offset: 0xCEE60 VA: 0x1800CFA60
+	[TooltipAttribute] // RVA: 0xCFA60 Offset: 0xCEE60 VA: 0x1800CFA60
 	public bool useDithering; // 0x90
-	[TooltipAttribute] // RVA: 0xD0280 Offset: 0xCF680 VA: 0x1800D0280
+	[TooltipAttribute] // RVA: 0xCFB50 Offset: 0xCEF50 VA: 0x1800CFB50
 	public bool showDebug; // 0x91
 
 	public static TonemappingColorGrading.ColorGradingSettings defaultSettings { get; }

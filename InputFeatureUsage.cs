@@ -1,6 +1,6 @@
 public struct InputFeatureUsage : IEquatable<InputFeatureUsage> // TypeDefIndex: 4144
 {	internal string m_Name; // 0x0
-	[NativeNameAttribute] // RVA: 0x95BA0 Offset: 0x94FA0 VA: 0x180095BA0
+	[NativeNameAttribute] // RVA: 0x95B50 Offset: 0x94F50 VA: 0x180095B50
 	internal InputFeatureType m_InternalType; // 0x8
 
 	public string name { get; }

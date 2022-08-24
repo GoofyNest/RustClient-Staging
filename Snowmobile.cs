@@ -84,8 +84,8 @@ public class Snowmobile : GroundVehicle, VehicleChassisVisuals.IClientWheelUser<
 	private int recentVelsIndex; // 0x570
 	private TimeSince timeSinceFailedStartAttempt; // 0x574
 	private const float FAILED_START_MIN_TIME = 1;
-	[HeaderAttribute] // RVA: 0x88BE0 Offset: 0x87FE0 VA: 0x180088BE0
-	[SerializeField] // RVA: 0x88BE0 Offset: 0x87FE0 VA: 0x180088BE0
+	[HeaderAttribute] // RVA: 0x88B70 Offset: 0x87F70 VA: 0x180088B70
+	[SerializeField] // RVA: 0x88B70 Offset: 0x87F70 VA: 0x180088B70
 	private Transform centreOfMassTransform; // 0x578
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObjectRef itemStoragePrefab; // 0x580
@@ -123,7 +123,7 @@ public class Snowmobile : GroundVehicle, VehicleChassisVisuals.IClientWheelUser<
 	private TriggerHurtNotChild hurtTriggerFront; // 0x5E8
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TriggerHurtNotChild hurtTriggerRear; // 0x5F0
-	[HeaderAttribute] // RVA: 0x8AE00 Offset: 0x8A200 VA: 0x18008AE00
+	[HeaderAttribute] // RVA: 0x8ADC0 Offset: 0x8A1C0 VA: 0x18008ADC0
 	public float minGroundFXSpeed; // 0x5F8
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SnowmobileChassisVisuals chassisVisuals; // 0x600
@@ -143,11 +143,11 @@ public class Snowmobile : GroundVehicle, VehicleChassisVisuals.IClientWheelUser<
 	private Vector3 engineOffKeyRot; // 0x638
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 engineOnKeyRot; // 0x644
-	[ServerVar] // RVA: 0x8B360 Offset: 0x8A760 VA: 0x18008B360
+	[ServerVar] // RVA: 0x8B230 Offset: 0x8A630 VA: 0x18008B230
 	public static float outsideDecayMinutes; // 0x0
-	[ServerVar] // RVA: 0x8B480 Offset: 0x8A880 VA: 0x18008B480
+	[ServerVar] // RVA: 0x8B350 Offset: 0x8A750 VA: 0x18008B350
 	public static bool allowPassengerOnly; // 0x4
-	[ServerVar] // RVA: 0x8B580 Offset: 0x8A980 VA: 0x18008B580
+	[ServerVar] // RVA: 0x8B450 Offset: 0x8A850 VA: 0x18008B450
 	public static bool allTerrain; // 0x5
 	private float _throttle; // 0x650
 	private float _brake; // 0x654
@@ -193,26 +193,26 @@ public class Snowmobile : GroundVehicle, VehicleChassisVisuals.IClientWheelUser<
 
 	protected override void OnClientTickStopped() { }
 
-	[BaseEntity.Menu] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
-	[BaseEntity.Menu.Description] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
-	[BaseEntity.Menu.Icon] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
+	[BaseEntity.Menu] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
+	[BaseEntity.Menu.Description] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
+	[BaseEntity.Menu.Icon] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
+	[BaseEntity.Menu.ShowIf] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
 	public void Menu_FuelStorage(BasePlayer player) { }
 
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8CA00 Offset: 0x8BE00 VA: 0x18008CA00
-	[BaseEntity.Menu.Description] // RVA: 0x8CA00 Offset: 0x8BE00 VA: 0x18008CA00
-	[BaseEntity.Menu.Icon] // RVA: 0x8CA00 Offset: 0x8BE00 VA: 0x18008CA00
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8CA00 Offset: 0x8BE00 VA: 0x18008CA00
+	[BaseEntity.Menu] // RVA: 0x8C8D0 Offset: 0x8BCD0 VA: 0x18008C8D0
+	[BaseEntity.Menu.Description] // RVA: 0x8C8D0 Offset: 0x8BCD0 VA: 0x18008C8D0
+	[BaseEntity.Menu.Icon] // RVA: 0x8C8D0 Offset: 0x8BCD0 VA: 0x18008C8D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8C8D0 Offset: 0x8BCD0 VA: 0x18008C8D0
 	public void Menu_ItemStorage(BasePlayer player) { }
 
 	public bool Menu_ItemStorage_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
-	[BaseEntity.Menu.Description] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
-	[BaseEntity.Menu.Icon] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
+	[BaseEntity.Menu.Description] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
+	[BaseEntity.Menu.Icon] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
 	public void Menu_Push(BasePlayer player) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

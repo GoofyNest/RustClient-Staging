@@ -6,7 +6,7 @@ public class PatternFireworkShell : FireworkShell // TypeDefIndex: 8277
 	[HeaderAttribute] // RVA: 0xA4DF0 Offset: 0xA41F0 VA: 0x1800A4DF0
 	[MinMaxAttribute] // RVA: 0xA4DF0 Offset: 0xA41F0 VA: 0x1800A4DF0
 	public MinMax RandomSaturation; // 0x70
-	[MinMaxAttribute] // RVA: 0xA50E0 Offset: 0xA44E0 VA: 0x1800A50E0
+	[MinMaxAttribute] // RVA: 0xA5150 Offset: 0xA4550 VA: 0x1800A5150
 	public MinMax RandomValue; // 0x78
 	public float FuseLength; // 0x80
 	private List<PatternFireworkStar> _stars; // 0x88

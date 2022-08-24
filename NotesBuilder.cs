@@ -4,10 +4,10 @@ internal sealed class NotesBuilder // TypeDefIndex: 7440
 
 	public void .ctor(NoteDetectionSettings noteDetectionSettings) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9F040 Offset: 0x9E440 VA: 0x18009F040
+	[IteratorStateMachineAttribute] // RVA: 0x9EF90 Offset: 0x9E390 VA: 0x18009EF90
 	public IEnumerable<Note> GetNotesLazy(IEnumerable<TimedEvent> timedEvents, bool collectTimedEvents = False, List<TimedEvent> collectedTimedEvents) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9F110 Offset: 0x9E510 VA: 0x18009F110
+	[IteratorStateMachineAttribute] // RVA: 0x9F0C0 Offset: 0x9E4C0 VA: 0x18009F0C0
 	public IEnumerable<Note> GetNotesLazy(IEnumerable<Tuple<TimedEvent, int>> timedEvents, bool collectTimedEvents = False, List<Tuple<TimedEvent, int>> collectedTimedEvents) { }
 
 	private static int GetNoteEventId(NoteEvent noteEvent) { }

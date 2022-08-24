@@ -59,10 +59,10 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 
 	private void RefreshLODSets() { }
 
-	[BaseEntity.Menu] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
-	[BaseEntity.Menu.Description] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
-	[BaseEntity.Menu.Icon] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
+	[BaseEntity.Menu.Description] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
+	[BaseEntity.Menu.Icon] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
 	public virtual void Menu_Push(BasePlayer player) { }
 
 	public Vector3 get_CentreOfMass() { }

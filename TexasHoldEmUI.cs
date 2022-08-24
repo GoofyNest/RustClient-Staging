@@ -1,8 +1,8 @@
 public class TexasHoldEmUI : MonoBehaviour, CardTableUI.ICardGameSubUI // TypeDefIndex: 10890
 {	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Image[] holeCardImages; // 0x18
-	[FormerlySerializedAsAttribute] // RVA: 0x857B0 Offset: 0x84BB0 VA: 0x1800857B0
-	[SerializeField] // RVA: 0x857B0 Offset: 0x84BB0 VA: 0x1800857B0
+	[FormerlySerializedAsAttribute] // RVA: 0x84C80 Offset: 0x84080 VA: 0x180084C80
+	[SerializeField] // RVA: 0x84C80 Offset: 0x84080 VA: 0x180084C80
 	private Image[] communityCardImages; // 0x20
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private RustText potText; // 0x28

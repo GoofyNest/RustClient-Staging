@@ -2,7 +2,7 @@ public class PrefabPoolWarmup // TypeDefIndex: 11430
 {
 	public static void Run() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xB02F0 Offset: 0xAF6F0 VA: 0x1800B02F0
+	[IteratorStateMachineAttribute] // RVA: 0xAEB00 Offset: 0xADF00 VA: 0x1800AEB00
 	public static IEnumerator Run(float deltaTime, Action<string> statusFunction, string format) { }
 
 	public static string[] GetAssetList() { }

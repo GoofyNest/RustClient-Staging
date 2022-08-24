@@ -19,34 +19,34 @@ public class FogMachine : StorageContainer // TypeDefIndex: 8280
 
 	public virtual bool MotionModeEnabled() { }
 
-	[BaseEntity.Menu] // RVA: 0xA5150 Offset: 0xA4550 VA: 0x1800A5150
-	[BaseEntity.Menu.Description] // RVA: 0xA5150 Offset: 0xA4550 VA: 0x1800A5150
-	[BaseEntity.Menu.Icon] // RVA: 0xA5150 Offset: 0xA4550 VA: 0x1800A5150
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA5150 Offset: 0xA4550 VA: 0x1800A5150
+	[BaseEntity.Menu] // RVA: 0xA5230 Offset: 0xA4630 VA: 0x1800A5230
+	[BaseEntity.Menu.Description] // RVA: 0xA5230 Offset: 0xA4630 VA: 0x1800A5230
+	[BaseEntity.Menu.Icon] // RVA: 0xA5230 Offset: 0xA4630 VA: 0x1800A5230
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA5230 Offset: 0xA4630 VA: 0x1800A5230
 	public void Menu_TurnOn(BasePlayer player) { }
 
 	public bool Menu_FogOn_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xA54D0 Offset: 0xA48D0 VA: 0x1800A54D0
-	[BaseEntity.Menu.Description] // RVA: 0xA54D0 Offset: 0xA48D0 VA: 0x1800A54D0
-	[BaseEntity.Menu.Icon] // RVA: 0xA54D0 Offset: 0xA48D0 VA: 0x1800A54D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA54D0 Offset: 0xA48D0 VA: 0x1800A54D0
+	[BaseEntity.Menu] // RVA: 0xA54E0 Offset: 0xA48E0 VA: 0x1800A54E0
+	[BaseEntity.Menu.Description] // RVA: 0xA54E0 Offset: 0xA48E0 VA: 0x1800A54E0
+	[BaseEntity.Menu.Icon] // RVA: 0xA54E0 Offset: 0xA48E0 VA: 0x1800A54E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA54E0 Offset: 0xA48E0 VA: 0x1800A54E0
 	public void Menu_FogOff(BasePlayer player) { }
 
 	public bool Menu_FogOff_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xA5990 Offset: 0xA4D90 VA: 0x1800A5990
-	[BaseEntity.Menu.Description] // RVA: 0xA5990 Offset: 0xA4D90 VA: 0x1800A5990
-	[BaseEntity.Menu.Icon] // RVA: 0xA5990 Offset: 0xA4D90 VA: 0x1800A5990
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA5990 Offset: 0xA4D90 VA: 0x1800A5990
+	[BaseEntity.Menu] // RVA: 0xA5900 Offset: 0xA4D00 VA: 0x1800A5900
+	[BaseEntity.Menu.Description] // RVA: 0xA5900 Offset: 0xA4D00 VA: 0x1800A5900
+	[BaseEntity.Menu.Icon] // RVA: 0xA5900 Offset: 0xA4D00 VA: 0x1800A5900
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA5900 Offset: 0xA4D00 VA: 0x1800A5900
 	public void Menu_MotionOn(BasePlayer player) { }
 
 	public bool Menu_MotionOn_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xA5D10 Offset: 0xA5110 VA: 0x1800A5D10
-	[BaseEntity.Menu.Description] // RVA: 0xA5D10 Offset: 0xA5110 VA: 0x1800A5D10
-	[BaseEntity.Menu.Icon] // RVA: 0xA5D10 Offset: 0xA5110 VA: 0x1800A5D10
-	[BaseEntity.Menu.ShowIf] // RVA: 0xA5D10 Offset: 0xA5110 VA: 0x1800A5D10
+	[BaseEntity.Menu] // RVA: 0xA5C40 Offset: 0xA5040 VA: 0x1800A5C40
+	[BaseEntity.Menu.Description] // RVA: 0xA5C40 Offset: 0xA5040 VA: 0x1800A5C40
+	[BaseEntity.Menu.Icon] // RVA: 0xA5C40 Offset: 0xA5040 VA: 0x1800A5C40
+	[BaseEntity.Menu.ShowIf] // RVA: 0xA5C40 Offset: 0xA5040 VA: 0x1800A5C40
 	public void Menu_MotionOff(BasePlayer player) { }
 
 	public bool Menu_MotionOff_ShowIf(BasePlayer player) { }

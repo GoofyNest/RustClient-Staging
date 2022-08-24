@@ -65,36 +65,36 @@ public abstract class RestRgbService : IRgbService // TypeDefIndex: 7678
 
 	protected abstract Task SendEvent(RgbEventType type);
 
-	[AsyncStateMachineAttribute] // RVA: 0xB6CB0 Offset: 0xB60B0 VA: 0x1800B6CB0
+	[AsyncStateMachineAttribute] // RVA: 0xB6D50 Offset: 0xB6150 VA: 0x1800B6D50
 	public ValueTask Start() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB6EE0 Offset: 0xB62E0 VA: 0x1800B6EE0
+	[AsyncStateMachineAttribute] // RVA: 0xB6F80 Offset: 0xB6380 VA: 0x1800B6F80
 	public ValueTask Stop() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB7090 Offset: 0xB6490 VA: 0x1800B7090
+	[AsyncStateMachineAttribute] // RVA: 0xB70E0 Offset: 0xB64E0 VA: 0x1800B70E0
 	public ValueTask Update() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB7110 Offset: 0xB6510 VA: 0x1800B7110
+	[AsyncStateMachineAttribute] // RVA: 0xB71B0 Offset: 0xB65B0 VA: 0x1800B71B0
 	private void SendHeartbeatAndWait() { }
 
 	public void StaticColor(Color color) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB7220 Offset: 0xB6620 VA: 0x1800B7220
+	[AsyncStateMachineAttribute] // RVA: 0xB7260 Offset: 0xB6660 VA: 0x1800B7260
 	private void StaticColorImpl(Color color) { }
 
 	public void PulseColor(Color color, float duration) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB7380 Offset: 0xB6780 VA: 0x1800B7380
+	[AsyncStateMachineAttribute] // RVA: 0xB73B0 Offset: 0xB67B0 VA: 0x1800B73B0
 	private void PulseColorImpl(Color color, float duration) { }
 
 	public void Event(RgbEventType type) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB7510 Offset: 0xB6910 VA: 0x1800B7510
+	[AsyncStateMachineAttribute] // RVA: 0xB74D0 Offset: 0xB68D0 VA: 0x1800B74D0
 	private void EventImpl(RgbEventType type) { }
 
 	private void ShutdownFromFailure() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB8940 Offset: 0xB7D40 VA: 0x1800B8940
+	[AsyncStateMachineAttribute] // RVA: 0xB88F0 Offset: 0xB7CF0 VA: 0x1800B88F0
 	protected Task<HttpResponseMessage> SendPost<T>(string endpoint, T payload) { }
 	/* GenericInstMethod :
 	|

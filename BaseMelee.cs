@@ -1,24 +1,24 @@
 public class BaseMelee : AttackEntity // TypeDefIndex: 8523
-{	[HeaderAttribute] // RVA: 0xA2C60 Offset: 0xA2060 VA: 0x1800A2C60
+{	[HeaderAttribute] // RVA: 0xA2C70 Offset: 0xA2070 VA: 0x1800A2C70
 	public bool canThrowAsProjectile; // 0x280
 	public bool canAiHearIt; // 0x281
 	public bool onlyThrowAsProjectile; // 0x282
-	[HeaderAttribute] // RVA: 0xA2DB0 Offset: 0xA21B0 VA: 0x1800A2DB0
+	[HeaderAttribute] // RVA: 0xA2DA0 Offset: 0xA21A0 VA: 0x1800A2DA0
 	public DamageProperties damageProperties; // 0x288
 	public List<DamageTypeEntry> damageTypes; // 0x290
 	public float maxDistance; // 0x298
 	public float attackRadius; // 0x29C
 	public bool isAutomatic; // 0x2A0
 	public bool blockSprintOnAttack; // 0x2A1
-	[HeaderAttribute] // RVA: 0x78850 Offset: 0x77C50 VA: 0x180078850
+	[HeaderAttribute] // RVA: 0x78870 Offset: 0x77C70 VA: 0x180078870
 	public GameObjectRef strikeFX; // 0x2A8
 	public bool useStandardHitEffects; // 0x2B0
-	[HeaderAttribute] // RVA: 0x717D0 Offset: 0x70BD0 VA: 0x1800717D0
+	[HeaderAttribute] // RVA: 0x718A0 Offset: 0x70CA0 VA: 0x1800718A0
 	public float aiStrikeDelay; // 0x2B4
 	public GameObjectRef swingEffect; // 0x2B8
 	public List<BaseMelee.MaterialFX> materialStrikeFX; // 0x2C0
-	[HeaderAttribute] // RVA: 0xA2F60 Offset: 0xA2360 VA: 0x1800A2F60
-	[RangeAttribute] // RVA: 0xA2F60 Offset: 0xA2360 VA: 0x1800A2F60
+	[HeaderAttribute] // RVA: 0xA2F50 Offset: 0xA2350 VA: 0x1800A2F50
+	[RangeAttribute] // RVA: 0xA2F50 Offset: 0xA2350 VA: 0x1800A2F50
 	public float heartStress; // 0x2C8
 	public ResourceDispenser.GatherProperties gathering; // 0x2D0
 	private bool throwReady; // 0x2D8

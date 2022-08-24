@@ -40,7 +40,7 @@ public class LODGrid : SingletonComponent<LODGrid>, IClientComponent // TypeDefI
 
 	public void ResetTimeout() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xAA150 Offset: 0xA9550 VA: 0x1800AA150
+	[IteratorStateMachineAttribute] // RVA: 0xA9D40 Offset: 0xA9140 VA: 0x1800A9D40
 	private IEnumerator UpdateCoroutine() { }
 
 	private Vector2i GetCurrentCellCoordinates() { }

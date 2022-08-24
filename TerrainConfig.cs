@@ -62,13 +62,13 @@ public class TerrainConfig : ScriptableObject // TypeDefIndex: 10314
 
 public class TerrainConfig.SplatOverlay // TypeDefIndex: 10315
 {	public Color Color; // 0x10
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float Smoothness; // 0x20
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float NormalIntensity; // 0x24
-	[RangeAttribute] // RVA: 0xC6C90 Offset: 0xC6090 VA: 0x1800C6C90
+	[RangeAttribute] // RVA: 0xC6630 Offset: 0xC5A30 VA: 0x1800C6630
 	public float BlendFactor; // 0x28
-	[RangeAttribute] // RVA: 0xC6D40 Offset: 0xC6140 VA: 0x1800C6D40
+	[RangeAttribute] // RVA: 0xC66B0 Offset: 0xC5AB0 VA: 0x1800C66B0
 	public float BlendFalloff; // 0x2C
 
 
@@ -78,21 +78,21 @@ public class TerrainConfig.SplatOverlay // TypeDefIndex: 10315
 
 public class TerrainConfig.SplatType // TypeDefIndex: 10316
 {	public string Name; // 0x10
-	[FormerlySerializedAsAttribute] // RVA: 0xC6DA0 Offset: 0xC61A0 VA: 0x1800C6DA0
+	[FormerlySerializedAsAttribute] // RVA: 0xC6750 Offset: 0xC5B50 VA: 0x1800C6750
 	public Color AridColor; // 0x18
 	public TerrainConfig.SplatOverlay AridOverlay; // 0x28
-	[FormerlySerializedAsAttribute] // RVA: 0xC6E30 Offset: 0xC6230 VA: 0x1800C6E30
+	[FormerlySerializedAsAttribute] // RVA: 0xC67D0 Offset: 0xC5BD0 VA: 0x1800C67D0
 	public Color TemperateColor; // 0x30
 	public TerrainConfig.SplatOverlay TemperateOverlay; // 0x40
-	[FormerlySerializedAsAttribute] // RVA: 0xC6F30 Offset: 0xC6330 VA: 0x1800C6F30
+	[FormerlySerializedAsAttribute] // RVA: 0xC6940 Offset: 0xC5D40 VA: 0x1800C6940
 	public Color TundraColor; // 0x48
 	public TerrainConfig.SplatOverlay TundraOverlay; // 0x58
-	[FormerlySerializedAsAttribute] // RVA: 0xC6F30 Offset: 0xC6330 VA: 0x1800C6F30
+	[FormerlySerializedAsAttribute] // RVA: 0xC6940 Offset: 0xC5D40 VA: 0x1800C6940
 	public Color ArcticColor; // 0x60
 	public TerrainConfig.SplatOverlay ArcticOverlay; // 0x70
 	public PhysicMaterial Material; // 0x78
 	public float SplatTiling; // 0x80
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float UVMIXMult; // 0x84
 	public float UVMIXStart; // 0x88
 	public float UVMIXDist; // 0x8C

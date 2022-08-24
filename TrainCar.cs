@@ -4,8 +4,8 @@ public class TrainCar : BaseVehicle, IGenericLerpTarget<TrainCar.TrainCarSnapsho
 	protected bool runningClientTick; // 0x418
 	private Vector3 bogieRotation; // 0x41C
 	private Vector3 prevWheelRotation; // 0x428
-	[HeaderAttribute] // RVA: 0x90F90 Offset: 0x90390 VA: 0x180090F90
-	[SerializeField] // RVA: 0x90F90 Offset: 0x90390 VA: 0x180090F90
+	[HeaderAttribute] // RVA: 0x90F70 Offset: 0x90370 VA: 0x180090F70
+	[SerializeField] // RVA: 0x90F70 Offset: 0x90370 VA: 0x180090F70
 	private float corpseSeconds; // 0x434
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TriggerTrainCollisions frontCollisionTrigger; // 0x438
@@ -35,8 +35,8 @@ public class TrainCar : BaseVehicle, IGenericLerpTarget<TrainCar.TrainCarSnapsho
 	private Transform[] wheelVisuals; // 0x490
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float wheelRadius; // 0x498
-	[FormerlySerializedAsAttribute] // RVA: 0x91B30 Offset: 0x90F30 VA: 0x180091B30
-	[SerializeField] // RVA: 0x91B30 Offset: 0x90F30 VA: 0x180091B30
+	[FormerlySerializedAsAttribute] // RVA: 0x91B40 Offset: 0x90F40 VA: 0x180091B40
+	[SerializeField] // RVA: 0x91B40 Offset: 0x90F40 VA: 0x180091B40
 	private GameObjectRef fxDestroyed; // 0x4A0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected TriggerParent platformParentTrigger; // 0x4A8
@@ -51,30 +51,30 @@ public class TrainCar : BaseVehicle, IGenericLerpTarget<TrainCar.TrainCarSnapsho
 	private SoundDefinition uncoupleSound; // 0x4E0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TrainCarAudio trainCarAudio; // 0x4E8
-	[FormerlySerializedAsAttribute] // RVA: 0x93280 Offset: 0x92680 VA: 0x180093280
-	[SerializeField] // RVA: 0x93280 Offset: 0x92680 VA: 0x180093280
+	[FormerlySerializedAsAttribute] // RVA: 0x93160 Offset: 0x92560 VA: 0x180093160
+	[SerializeField] // RVA: 0x93160 Offset: 0x92560 VA: 0x180093160
 	private ParticleSystem frontCouplingChangedFx; // 0x4F0
-	[FormerlySerializedAsAttribute] // RVA: 0x93410 Offset: 0x92810 VA: 0x180093410
-	[SerializeField] // RVA: 0x93410 Offset: 0x92810 VA: 0x180093410
+	[FormerlySerializedAsAttribute] // RVA: 0x932F0 Offset: 0x926F0 VA: 0x1800932F0
+	[SerializeField] // RVA: 0x932F0 Offset: 0x926F0 VA: 0x1800932F0
 	private ParticleSystem rearCouplingChangedFx; // 0x4F8
-	[FormerlySerializedAsAttribute] // RVA: 0x93540 Offset: 0x92940 VA: 0x180093540
-	[SerializeField] // RVA: 0x93540 Offset: 0x92940 VA: 0x180093540
+	[FormerlySerializedAsAttribute] // RVA: 0x93420 Offset: 0x92820 VA: 0x180093420
+	[SerializeField] // RVA: 0x93420 Offset: 0x92820 VA: 0x180093420
 	private ParticleSystem newCouplingFX; // 0x500
-	[SerializeField] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
-	[ReadOnlyAttribute] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
+	[SerializeField] // RVA: 0x934E0 Offset: 0x928E0 VA: 0x1800934E0
+	[ReadOnlyAttribute] // RVA: 0x934E0 Offset: 0x928E0 VA: 0x1800934E0
 	private Vector3 frontBogieLocalOffset; // 0x508
-	[SerializeField] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
-	[ReadOnlyAttribute] // RVA: 0x93600 Offset: 0x92A00 VA: 0x180093600
+	[SerializeField] // RVA: 0x934E0 Offset: 0x928E0 VA: 0x1800934E0
+	[ReadOnlyAttribute] // RVA: 0x934E0 Offset: 0x928E0 VA: 0x1800934E0
 	private Vector3 rearBogieLocalOffset; // 0x514
-	[ServerVar] // RVA: 0x71FC0 Offset: 0x713C0 VA: 0x180071FC0
+	[ServerVar] // RVA: 0x72100 Offset: 0x71500 VA: 0x180072100
 	public static float population; // 0x0
-	[ServerVar] // RVA: 0x93830 Offset: 0x92C30 VA: 0x180093830
+	[ServerVar] // RVA: 0x936E0 Offset: 0x92AE0 VA: 0x1800936E0
 	public static int wagons_per_engine; // 0x4
-	[ServerVar] // RVA: 0x93A20 Offset: 0x92E20 VA: 0x180093A20
+	[ServerVar] // RVA: 0x938A0 Offset: 0x92CA0 VA: 0x1800938A0
 	public static float decayminutes; // 0x8
-	[ReadOnlyAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[ReadOnlyAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public float DistFrontWheelToFrontCoupling; // 0x520
-	[ReadOnlyAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[ReadOnlyAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public float DistFrontWheelToBackCoupling; // 0x524
 	public TrainCouplingController coupling; // 0x528
 	public TrainTrackSpline.TrackSelection localTrackSelection; // 0x530
@@ -123,10 +123,10 @@ public class TrainCar : BaseVehicle, IGenericLerpTarget<TrainCar.TrainCarSnapsho
 	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void BaseTrainUpdate(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.Menu] // RVA: 0x93C50 Offset: 0x93050 VA: 0x180093C50
-	[BaseEntity.Menu.Description] // RVA: 0x93C50 Offset: 0x93050 VA: 0x180093C50
-	[BaseEntity.Menu.Icon] // RVA: 0x93C50 Offset: 0x93050 VA: 0x180093C50
-	[BaseEntity.Menu.ShowIf] // RVA: 0x93C50 Offset: 0x93050 VA: 0x180093C50
+	[BaseEntity.Menu] // RVA: 0x93B90 Offset: 0x92F90 VA: 0x180093B90
+	[BaseEntity.Menu.Description] // RVA: 0x93B90 Offset: 0x92F90 VA: 0x180093B90
+	[BaseEntity.Menu.Icon] // RVA: 0x93B90 Offset: 0x92F90 VA: 0x180093B90
+	[BaseEntity.Menu.ShowIf] // RVA: 0x93B90 Offset: 0x92F90 VA: 0x180093B90
 	public void Menu_Uncouple(BasePlayer player) { }
 
 	public virtual bool Menu_Uncouple_ShowIf(BasePlayer player) { }

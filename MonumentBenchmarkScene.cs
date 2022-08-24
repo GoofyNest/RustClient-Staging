@@ -10,7 +10,7 @@ public class MonumentBenchmarkScene : BenchmarkScene // TypeDefIndex: 8257
 
 	public override void StartBenchmark() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA28A0 Offset: 0xA1CA0 VA: 0x1800A28A0
+	[IteratorStateMachineAttribute] // RVA: 0xA2840 Offset: 0xA1C40 VA: 0x1800A2840
 	private IEnumerator DoMonumentBenchmark() { }
 
 	public override bool ShouldEnd() { }

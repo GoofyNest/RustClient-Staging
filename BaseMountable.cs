@@ -1,16 +1,16 @@
 public class BaseMountable : BaseCombatEntity // TypeDefIndex: 8330
 {	private Option __menuOption_Menu_Mount; // 0x240
 	public static Translate.Phrase dismountPhrase; // 0x0
-	[HeaderAttribute] // RVA: 0xB94B0 Offset: 0xB88B0 VA: 0x1800B94B0
-	[FormerlySerializedAsAttribute] // RVA: 0xB94B0 Offset: 0xB88B0 VA: 0x1800B94B0
+	[HeaderAttribute] // RVA: 0xB94F0 Offset: 0xB88F0 VA: 0x1800B94F0
+	[FormerlySerializedAsAttribute] // RVA: 0xB94F0 Offset: 0xB88F0 VA: 0x1800B94F0
 	public Transform eyePositionOverride; // 0x298
-	[FormerlySerializedAsAttribute] // RVA: 0xB97E0 Offset: 0xB8BE0 VA: 0x1800B97E0
+	[FormerlySerializedAsAttribute] // RVA: 0xB9810 Offset: 0xB8C10 VA: 0x1800B9810
 	public Transform eyeCenterOverride; // 0x2A0
 	public Vector2 pitchClamp; // 0x2A8
 	public Vector2 yawClamp; // 0x2B0
 	public bool canWieldItems; // 0x2B8
 	public bool relativeViewAngles; // 0x2B9
-	[HeaderAttribute] // RVA: 0xB9900 Offset: 0xB8D00 VA: 0x1800B9900
+	[HeaderAttribute] // RVA: 0xB9920 Offset: 0xB8D20 VA: 0x1800B9920
 	public Transform mountAnchor; // 0x2C0
 	public PlayerModel.MountPoses mountPose; // 0x2C8
 	public float maxMountDistance; // 0x2CC
@@ -18,7 +18,7 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 8330
 	public bool checkPlayerLosOnMount; // 0x2D8
 	public bool disableMeshCullingForPlayers; // 0x2D9
 	public bool allowHeadLook; // 0x2DA
-	[FormerlySerializedAsAttribute] // RVA: 0xB99F0 Offset: 0xB8DF0 VA: 0x1800B99F0
+	[FormerlySerializedAsAttribute] // RVA: 0xB9A60 Offset: 0xB8E60 VA: 0x1800B9A60
 	public bool modifiesPlayerCollider; // 0x2DB
 	public BasePlayer.CapsuleColliderInfo customPlayerCollider; // 0x2DC
 	public SoundDefinition mountSoundDef; // 0x2F0
@@ -28,11 +28,11 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 8330
 	public BaseMountable.MountGestureType allowedGestures; // 0x30C
 	public bool canDrinkWhileMounted; // 0x310
 	public bool allowSleeperMounting; // 0x311
-	[HelpAttribute] // RVA: 0xB9BC0 Offset: 0xB8FC0 VA: 0x1800B9BC0
+	[HelpAttribute] // RVA: 0xB9BA0 Offset: 0xB8FA0 VA: 0x1800B9BA0
 	public bool animateClothInLocalSpace; // 0x312
-	[HeaderAttribute] // RVA: 0xABF80 Offset: 0xAB380 VA: 0x1800ABF80
+	[HeaderAttribute] // RVA: 0xABF60 Offset: 0xAB360 VA: 0x1800ABF60
 	public BasePlayer.CameraMode MountedCameraMode; // 0x314
-	[FormerlySerializedAsAttribute] // RVA: 0xB9DF0 Offset: 0xB91F0 VA: 0x1800B9DF0
+	[FormerlySerializedAsAttribute] // RVA: 0xB9DD0 Offset: 0xB91D0 VA: 0x1800B9DD0
 	public bool isMobile; // 0x318
 	public float SideLeanAmount; // 0x31C
 

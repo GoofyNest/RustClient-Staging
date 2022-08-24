@@ -44,7 +44,7 @@ public struct Query // TypeDefIndex: 5279
 
 	public Query WithFileId(PublishedFileId[] files) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9F7B0 Offset: 0x9EBB0 VA: 0x18009F7B0
+	[AsyncStateMachineAttribute] // RVA: 0x9F790 Offset: 0x9EB90 VA: 0x18009F790
 	public Task<Nullable<ResultPage>> GetPageAsync(int page) { }
 
 	public Query WithTrendDays(int days) { }

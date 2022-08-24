@@ -8,7 +8,7 @@ internal class FieldMultipleFilter : PathFilter // TypeDefIndex: 6086
 }
 
 private sealed class FieldMultipleFilter.<>c // TypeDefIndex: 6087
-{	public static readonly FieldMultipleFilter.<>c <>9; // 0x2B117EC
+{	public static readonly FieldMultipleFilter.<>c <>9; // 0x36A0
 
 
 	private static void .cctor() { }

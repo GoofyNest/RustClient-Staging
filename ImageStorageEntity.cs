@@ -18,7 +18,7 @@ public class ImageStorageEntity : BaseEntity // TypeDefIndex: 8580
 
 	private void LoadFromBytes(byte[] imageData) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xAC160 Offset: 0xAB560 VA: 0x1800AC160
+	[IteratorStateMachineAttribute] // RVA: 0xAC1C0 Offset: 0xAB5C0 VA: 0x1800AC1C0
 	public static IEnumerator LoadImage(uint imageStorageEntityId, IImageReceiver receiver) { }
 
 	public void .ctor() { }

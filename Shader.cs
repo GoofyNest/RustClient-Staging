@@ -1,62 +1,62 @@
 public sealed class Shader : Object // TypeDefIndex: 3405
-{	[NativePropertyAttribute] // RVA: 0x93800 Offset: 0x92C00 VA: 0x180093800
+{	[NativePropertyAttribute] // RVA: 0x936B0 Offset: 0x92AB0 VA: 0x1800936B0
 	public static int globalMaximumLOD { get; set; }
 	public bool isSupported { get; }
 	public int passCount { get; }
 
 
-	[FreeFunctionAttribute] // RVA: 0x91410 Offset: 0x90810 VA: 0x180091410
+	[FreeFunctionAttribute] // RVA: 0x91490 Offset: 0x90890 VA: 0x180091490
 	public static Shader Find(string name) { }
 
 	public static int get_globalMaximumLOD() { }
 
 	public static void set_globalMaximumLOD(int value) { }
 
-	[NativeMethodAttribute] // RVA: 0x914A0 Offset: 0x908A0 VA: 0x1800914A0
+	[NativeMethodAttribute] // RVA: 0x91530 Offset: 0x90930 VA: 0x180091530
 	public bool get_isSupported() { }
 
-	[FreeFunctionAttribute] // RVA: 0x91510 Offset: 0x90910 VA: 0x180091510
+	[FreeFunctionAttribute] // RVA: 0x915A0 Offset: 0x909A0 VA: 0x1800915A0
 	public static void EnableKeyword(string keyword) { }
 
-	[FreeFunctionAttribute] // RVA: 0x91580 Offset: 0x90980 VA: 0x180091580
+	[FreeFunctionAttribute] // RVA: 0x91610 Offset: 0x90A10 VA: 0x180091610
 	public static void DisableKeyword(string keyword) { }
 
-	[FreeFunctionAttribute] // RVA: 0x91680 Offset: 0x90A80 VA: 0x180091680
+	[FreeFunctionAttribute] // RVA: 0x91780 Offset: 0x90B80 VA: 0x180091780
 	public static bool IsKeywordEnabled(string keyword) { }
 
-	[FreeFunctionAttribute] // RVA: 0x91770 Offset: 0x90B70 VA: 0x180091770
+	[FreeFunctionAttribute] // RVA: 0x91860 Offset: 0x90C60 VA: 0x180091860
 	internal static int TagToID(string name) { }
 
-	[FreeFunctionAttribute] // RVA: 0x91890 Offset: 0x90C90 VA: 0x180091890
+	[FreeFunctionAttribute] // RVA: 0x91940 Offset: 0x90D40 VA: 0x180091940
 	internal static string IDToTag(int name) { }
 
-	[FreeFunctionAttribute] // RVA: 0x91A10 Offset: 0x90E10 VA: 0x180091A10
+	[FreeFunctionAttribute] // RVA: 0x91A60 Offset: 0x90E60 VA: 0x180091A60
 	public static int PropertyToID(string name) { }
 
-	[FreeFunctionAttribute] // RVA: 0x91AF0 Offset: 0x90EF0 VA: 0x180091AF0
+	[FreeFunctionAttribute] // RVA: 0x91B00 Offset: 0x90F00 VA: 0x180091B00
 	public int get_passCount() { }
 
 	public ShaderTagId FindPassTagValue(int passIndex, ShaderTagId tagName) { }
 
-	[FreeFunctionAttribute] // RVA: 0x91C20 Offset: 0x91020 VA: 0x180091C20
+	[FreeFunctionAttribute] // RVA: 0x91BF0 Offset: 0x90FF0 VA: 0x180091BF0
 	private int Internal_FindPassTagValue(int passIndex, int tagName) { }
 
-	[FreeFunctionAttribute] // RVA: 0x92FC0 Offset: 0x923C0 VA: 0x180092FC0
+	[FreeFunctionAttribute] // RVA: 0x92F50 Offset: 0x92350 VA: 0x180092F50
 	private static void SetGlobalFloatImpl(int name, float value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x93160 Offset: 0x92560 VA: 0x180093160
+	[FreeFunctionAttribute] // RVA: 0x93070 Offset: 0x92470 VA: 0x180093070
 	private static void SetGlobalVectorImpl(int name, Vector4 value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x931F0 Offset: 0x925F0 VA: 0x1800931F0
+	[FreeFunctionAttribute] // RVA: 0x930D0 Offset: 0x924D0 VA: 0x1800930D0
 	private static void SetGlobalMatrixImpl(int name, Matrix4x4 value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x93250 Offset: 0x92650 VA: 0x180093250
+	[FreeFunctionAttribute] // RVA: 0x93130 Offset: 0x92530 VA: 0x180093130
 	private static void SetGlobalTextureImpl(int name, Texture value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x93380 Offset: 0x92780 VA: 0x180093380
+	[FreeFunctionAttribute] // RVA: 0x93260 Offset: 0x92660 VA: 0x180093260
 	private static float GetGlobalFloatImpl(int name) { }
 
-	[FreeFunctionAttribute] // RVA: 0x93510 Offset: 0x92910 VA: 0x180093510
+	[FreeFunctionAttribute] // RVA: 0x933F0 Offset: 0x927F0 VA: 0x1800933F0
 	private static void SetGlobalVectorArrayImpl(int name, Vector4[] values, int count) { }
 
 	private static void SetGlobalVectorArray(int name, Vector4[] values, int count) { }
@@ -89,10 +89,10 @@ public sealed class Shader : Object // TypeDefIndex: 3405
 
 	private void .ctor() { }
 
-	[FreeFunctionAttribute] // RVA: 0x93590 Offset: 0x92990 VA: 0x180093590
+	[FreeFunctionAttribute] // RVA: 0x93470 Offset: 0x92870 VA: 0x180093470
 	private static string GetPropertyName(Shader shader, int propertyIndex) { }
 
-	[FreeFunctionAttribute] // RVA: 0x93700 Offset: 0x92B00 VA: 0x180093700
+	[FreeFunctionAttribute] // RVA: 0x935E0 Offset: 0x929E0 VA: 0x1800935E0
 	private static ShaderPropertyType GetPropertyType(Shader shader, int propertyIndex) { }
 
 	private static void CheckPropertyIndex(Shader s, int propertyIndex) { }

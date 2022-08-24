@@ -6,11 +6,11 @@ public class Component : MarshalByRefObject, IComponent, IDisposable // TypeDefI
 	protected virtual bool CanRaiseEvents { get; }
 	internal bool CanRaiseEventsInternal { get; }
 	protected EventHandlerList Events { get; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E980 Offset: 0x9DD80 VA: 0x18009E980
-	[BrowsableAttribute] // RVA: 0x9E980 Offset: 0x9DD80 VA: 0x18009E980
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E870 Offset: 0x9DC70 VA: 0x18009E870
+	[BrowsableAttribute] // RVA: 0x9E870 Offset: 0x9DC70 VA: 0x18009E870
 	public virtual ISite Site { get; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E980 Offset: 0x9DD80 VA: 0x18009E980
-	[BrowsableAttribute] // RVA: 0x9E980 Offset: 0x9DD80 VA: 0x18009E980
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E870 Offset: 0x9DC70 VA: 0x18009E870
+	[BrowsableAttribute] // RVA: 0x9E870 Offset: 0x9DC70 VA: 0x18009E870
 	protected bool DesignMode { get; }
 
 
@@ -45,13 +45,13 @@ public class Component : Object // TypeDefIndex: 3508
 	public GameObject gameObject { get; }
 
 
-	[FreeFunctionAttribute] // RVA: 0xB9AF0 Offset: 0xB8EF0 VA: 0x1800B9AF0
+	[FreeFunctionAttribute] // RVA: 0xB9B40 Offset: 0xB8F40 VA: 0x1800B9B40
 	public Transform get_transform() { }
 
-	[FreeFunctionAttribute] // RVA: 0xB9BF0 Offset: 0xB8FF0 VA: 0x1800B9BF0
+	[FreeFunctionAttribute] // RVA: 0xB9C00 Offset: 0xB9000 VA: 0x1800B9C00
 	public GameObject get_gameObject() { }
 
-	[TypeInferenceRuleAttribute] // RVA: 0xB9DD0 Offset: 0xB91D0 VA: 0x1800B9DD0
+	[TypeInferenceRuleAttribute] // RVA: 0xB9DB0 Offset: 0xB91B0 VA: 0x1800B9DB0
 	public Component GetComponent(Type type) { }
 
 	[FreeFunctionAttribute] // RVA: 0xB9E20 Offset: 0xB9220 VA: 0x1800B9E20
@@ -360,7 +360,7 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.TryGetComponent<v_chainsaw>
 	*/
 
-	[TypeInferenceRuleAttribute] // RVA: 0xB9DD0 Offset: 0xB91D0 VA: 0x1800B9DD0
+	[TypeInferenceRuleAttribute] // RVA: 0xB9DB0 Offset: 0xB91B0 VA: 0x1800B9DB0
 	public Component GetComponentInChildren(Type t, bool includeInactive) { }
 
 	public T GetComponentInChildren<T>(bool includeInactive) { }
@@ -541,7 +541,7 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponentsInChildren<VolumetricLightBeam>
 	*/
 
-	[TypeInferenceRuleAttribute] // RVA: 0xB9DD0 Offset: 0xB91D0 VA: 0x1800B9DD0
+	[TypeInferenceRuleAttribute] // RVA: 0xB9DB0 Offset: 0xB91B0 VA: 0x1800B9DB0
 	public Component GetComponentInParent(Type t) { }
 
 	public T GetComponentInParent<T>() { }
@@ -627,19 +627,19 @@ public class Component : Object // TypeDefIndex: 3508
 
 	public bool CompareTag(string tag) { }
 
-	[FreeFunctionAttribute] // RVA: 0xBA130 Offset: 0xB9530 VA: 0x1800BA130
+	[FreeFunctionAttribute] // RVA: 0xBA280 Offset: 0xB9680 VA: 0x1800BA280
 	public void SendMessageUpwards(string methodName, object value, SendMessageOptions options) { }
 
 	public void SendMessage(string methodName, object value) { }
 
 	public void SendMessage(string methodName) { }
 
-	[FreeFunctionAttribute] // RVA: 0xBB720 Offset: 0xBAB20 VA: 0x1800BB720
+	[FreeFunctionAttribute] // RVA: 0xBB790 Offset: 0xBAB90 VA: 0x1800BB790
 	public void SendMessage(string methodName, object value, SendMessageOptions options) { }
 
 	public void SendMessage(string methodName, SendMessageOptions options) { }
 
-	[FreeFunctionAttribute] // RVA: 0xBB830 Offset: 0xBAC30 VA: 0x1800BB830
+	[FreeFunctionAttribute] // RVA: 0xBB860 Offset: 0xBAC60 VA: 0x1800BB860
 	public void BroadcastMessage(string methodName, object parameter, SendMessageOptions options) { }
 
 	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

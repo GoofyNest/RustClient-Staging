@@ -44,7 +44,7 @@ public class RCMenu : ComputerMenu // TypeDefIndex: 8687
 
 	public void DelayedLODRefresh() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBA070 Offset: 0xB9470 VA: 0x1800BA070
+	[IteratorStateMachineAttribute] // RVA: 0xBA1C0 Offset: 0xB95C0 VA: 0x1800BA1C0
 	private IEnumerator RefreshLODs() { }
 
 	public void AddBookmarkPressed() { }

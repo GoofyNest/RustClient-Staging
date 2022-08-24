@@ -4,37 +4,37 @@ public sealed class MaterialPropertyBlock // TypeDefIndex: 3402
 	public bool isEmpty { get; }
 
 
-	[NativeNameAttribute] // RVA: 0x8E820 Offset: 0x8DC20 VA: 0x18008E820
+	[NativeNameAttribute] // RVA: 0x8E6C0 Offset: 0x8DAC0 VA: 0x18008E6C0
 	private Texture GetTextureImpl(int name) { }
 
-	[NativeNameAttribute] // RVA: 0x8E8D0 Offset: 0x8DCD0 VA: 0x18008E8D0
+	[NativeNameAttribute] // RVA: 0x8E7C0 Offset: 0x8DBC0 VA: 0x18008E7C0
 	private void SetFloatImpl(int name, float value) { }
 
-	[NativeNameAttribute] // RVA: 0x8E930 Offset: 0x8DD30 VA: 0x18008E930
+	[NativeNameAttribute] // RVA: 0x8E860 Offset: 0x8DC60 VA: 0x18008E860
 	private void SetVectorImpl(int name, Vector4 value) { }
 
-	[NativeNameAttribute] // RVA: 0x8E990 Offset: 0x8DD90 VA: 0x18008E990
+	[NativeNameAttribute] // RVA: 0x8E940 Offset: 0x8DD40 VA: 0x18008E940
 	private void SetColorImpl(int name, Color value) { }
 
-	[NativeNameAttribute] // RVA: 0x8E9F0 Offset: 0x8DDF0 VA: 0x18008E9F0
+	[NativeNameAttribute] // RVA: 0x8E9A0 Offset: 0x8DDA0 VA: 0x18008E9A0
 	private void SetMatrixImpl(int name, Matrix4x4 value) { }
 
-	[NativeNameAttribute] // RVA: 0x8EA90 Offset: 0x8DE90 VA: 0x18008EA90
+	[NativeNameAttribute] // RVA: 0x8EA40 Offset: 0x8DE40 VA: 0x18008EA40
 	private void SetTextureImpl(int name, Texture value) { }
 
-	[NativeNameAttribute] // RVA: 0x8EC40 Offset: 0x8E040 VA: 0x18008EC40
+	[NativeNameAttribute] // RVA: 0x8EBF0 Offset: 0x8DFF0 VA: 0x18008EBF0
 	private void SetBufferImpl(int name, ComputeBuffer value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8ED70 Offset: 0x8E170 VA: 0x18008ED70
+	[FreeFunctionAttribute] // RVA: 0x8ECB0 Offset: 0x8E0B0 VA: 0x18008ECB0
 	internal static void Internal_CopySHCoefficientArraysFrom(MaterialPropertyBlock properties, SphericalHarmonicsL2[] lightProbes, int sourceStart, int destStart, int count) { }
 
-	[NativeMethodAttribute] // RVA: 0x8EDA0 Offset: 0x8E1A0 VA: 0x18008EDA0
+	[NativeMethodAttribute] // RVA: 0x8ED20 Offset: 0x8E120 VA: 0x18008ED20
 	private static IntPtr CreateImpl() { }
 
-	[NativeMethodAttribute] // RVA: 0x8EF40 Offset: 0x8E340 VA: 0x18008EF40
+	[NativeMethodAttribute] // RVA: 0x8EE70 Offset: 0x8E270 VA: 0x18008EE70
 	private static void DestroyImpl(IntPtr mpb) { }
 
-	[NativeNameAttribute] // RVA: 0x8F0B0 Offset: 0x8E4B0 VA: 0x18008F0B0
+	[NativeNameAttribute] // RVA: 0x8EFF0 Offset: 0x8E3F0 VA: 0x18008EFF0
 	public bool get_isEmpty() { }
 
 	private void Clear(bool keepMemory) { }

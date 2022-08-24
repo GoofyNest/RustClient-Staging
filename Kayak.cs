@@ -8,7 +8,7 @@ public class Kayak : BaseBoat, IPoolVehicle // TypeDefIndex: 8593
 	public GameObjectRef backSplashEffect; // 0x458
 	public ParticleSystem moveSplashEffect; // 0x460
 	public float animationLerpSpeed; // 0x468
-	[HeaderAttribute] // RVA: 0x72120 Offset: 0x71520 VA: 0x180072120
+	[HeaderAttribute] // RVA: 0x72260 Offset: 0x71660 VA: 0x180072260
 	public BlendedSoundLoops waterLoops; // 0x470
 	public float waterSoundSpeedDivisor; // 0x478
 	public GameObjectRef pushLandEffect; // 0x480

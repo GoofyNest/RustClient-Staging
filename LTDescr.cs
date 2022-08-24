@@ -84,7 +84,7 @@ public class LTDescr // TypeDefIndex: 5569
 
 	public void .ctor() { }
 
-	[ObsoleteAttribute] // RVA: 0xA80C0 Offset: 0xA74C0 VA: 0x1800A80C0
+	[ObsoleteAttribute] // RVA: 0xA81A0 Offset: 0xA75A0 VA: 0x1800A81A0
 	public LTDescr cancel(GameObject gameObject) { }
 
 	public int get_uniqueId() { }

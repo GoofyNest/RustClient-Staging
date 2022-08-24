@@ -25,73 +25,73 @@ public static class Global // TypeDefIndex: 6621
 
 public class Global : ConsoleSystem // TypeDefIndex: 11930
 {	private static int _developer; // 0x0
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static bool skipassetwarmup; // 0x4
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static int maxthreads; // 0x8
 	private const int DefaultWarmupConcurrency = 1;
 	private const int DefaultPreloadConcurrency = 1;
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static int warmupConcurrency; // 0xC
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static int preloadConcurrency; // 0x10
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static bool forceUnloadBundles; // 0x14
 	private const bool DefaultAsyncWarmupEnabled = False;
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static bool asyncWarmup; // 0x15
 	private static int _censornudity; // 0x18
 	private static bool _censorsigns; // 0x1C
-	[ClientVar] // RVA: 0x9DE40 Offset: 0x9D240 VA: 0x18009DE40
+	[ClientVar] // RVA: 0x9D470 Offset: 0x9C870 VA: 0x18009D470
 	public static int signUndoBuffer; // 0x20
 	private static bool _censorRecordings; // 0x24
 	private static bool _processMidiInput; // 0x25
 	private static bool _showBlood; // 0x26
-	[ClientVar] // RVA: 0x9DFD0 Offset: 0x9D3D0 VA: 0x18009DFD0
+	[ClientVar] // RVA: 0x9D6B0 Offset: 0x9CAB0 VA: 0x18009D6B0
 	public static bool limitFlashing; // 0x27
-	[ClientVar] // RVA: 0x9E0C0 Offset: 0x9D4C0 VA: 0x18009E0C0
+	[ClientVar] // RVA: 0x9D740 Offset: 0x9CB40 VA: 0x18009D740
 	public static bool showItemCountsOnPickup; // 0x28
-	[ClientVar] // RVA: 0x9E1C0 Offset: 0x9D5C0 VA: 0x18009E1C0
+	[ClientVar] // RVA: 0x9DC80 Offset: 0x9D080 VA: 0x18009DC80
 	public static bool useSingleItemPickupNotice; // 0x29
-	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
+	[ClientVar] // RVA: 0x812A0 Offset: 0x806A0 VA: 0x1800812A0
 	public static bool showItemPickupNotices; // 0x2A
-	[ClientVar] // RVA: 0x9E310 Offset: 0x9D710 VA: 0x18009E310
+	[ClientVar] // RVA: 0x9DD30 Offset: 0x9D130 VA: 0x18009DD30
 	public static float vehicleDismountHoldTime; // 0x2C
-	[ServerVar] // RVA: 0x9E4B0 Offset: 0x9D8B0 VA: 0x18009E4B0
-	[ClientVar] // RVA: 0x9E4B0 Offset: 0x9D8B0 VA: 0x18009E4B0
+	[ServerVar] // RVA: 0x9DDF0 Offset: 0x9D1F0 VA: 0x18009DDF0
+	[ClientVar] // RVA: 0x9DDF0 Offset: 0x9D1F0 VA: 0x18009DDF0
 	public static int perf; // 0x30
-	[ClientVar] // RVA: 0x9E7E0 Offset: 0x9DBE0 VA: 0x18009E7E0
+	[ClientVar] // RVA: 0x9DEA0 Offset: 0x9D2A0 VA: 0x18009DEA0
 	public static bool god; // 0x34
-	[ClientVar] // RVA: 0x9E940 Offset: 0x9DD40 VA: 0x18009E940
+	[ClientVar] // RVA: 0x9E030 Offset: 0x9D430 VA: 0x18009E030
 	public static bool specnet; // 0x35
-	[ClientVar] // RVA: 0x8EF80 Offset: 0x8E380 VA: 0x18008EF80
+	[ClientVar] // RVA: 0x8E910 Offset: 0x8DD10 VA: 0x18008E910
 	public static bool streamermode; // 0x36
-	[ClientVar] // RVA: 0x8EF80 Offset: 0x8E380 VA: 0x18008EF80
+	[ClientVar] // RVA: 0x8E910 Offset: 0x8DD10 VA: 0x18008E910
 	public static bool richPresence; // 0x37
 	private static float _consoleScale; // 0x38
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static int developer { get; set; }
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static int censornudity { get; set; }
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool censorsigns { get; set; }
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool censorrecordings { get; set; }
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool processMidiInput { get; set; }
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool showBlood { get; set; }
-	[ClientVar] // RVA: 0x8EF80 Offset: 0x8E380 VA: 0x18008EF80
+	[ClientVar] // RVA: 0x8E910 Offset: 0x8DD10 VA: 0x18008E910
 	public static string language { get; set; }
-	[ClientVar] // RVA: 0xA1130 Offset: 0xA0530 VA: 0x1800A1130
+	[ClientVar] // RVA: 0x9F910 Offset: 0x9ED10 VA: 0x18009F910
 	public static float consoleScale { get; set; }
 
 
@@ -121,77 +121,77 @@ public class Global : ConsoleSystem // TypeDefIndex: 11930
 
 	public static void set_showBlood(bool value) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void restart(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
-	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ClientVar] // RVA: 0x93230 Offset: 0x92630 VA: 0x180093230
+	[ServerVar] // RVA: 0x93230 Offset: 0x92630 VA: 0x180093230
 	public static void quit(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void writecfg() { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void readcfg(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void exec(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void report(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void objects(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void textures(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void colliders(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void error(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void queue(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void status_cl(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void teleport(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void teleport2me(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void teleportany(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void teleportpos(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void teleportlos(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void teleport2owneditem(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void teleport2autheditem(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void teleport2marker(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void teleport2death(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void free(ConsoleSystem.Arg args) { }
 
 	public static string get_language() { }
@@ -202,26 +202,26 @@ public class Global : ConsoleSystem // TypeDefIndex: 11930
 
 	public static void set_consoleScale(float value) { }
 
-	[ServerVar] // RVA: 0x9F800 Offset: 0x9EC00 VA: 0x18009F800
-	[ClientVar] // RVA: 0x9F800 Offset: 0x9EC00 VA: 0x18009F800
+	[ServerVar] // RVA: 0x9F2D0 Offset: 0x9E6D0 VA: 0x18009F2D0
+	[ClientVar] // RVA: 0x9F2D0 Offset: 0x9E6D0 VA: 0x18009F2D0
 	public static void version(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void sysinfo(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void sysuid(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void breakitem(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static void breakclothing(ConsoleSystem.Arg args) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void subscriptions(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

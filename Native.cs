@@ -6,16 +6,16 @@ internal static class Native // TypeDefIndex: 4578
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static void YGNodeBaselineInvoke(YogaNode node, float width, float height, IntPtr returnValueAddress) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	public static float YGNodeLayoutGetLeft(IntPtr node) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	public static float YGNodeLayoutGetTop(IntPtr node) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	public static float YGNodeLayoutGetWidth(IntPtr node) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	public static float YGNodeLayoutGetHeight(IntPtr node) { }
 
 }
@@ -111,18 +111,18 @@ public enum Native.PacketPriority // TypeDefIndex: 7325
 }
 
 public struct Native.RaknetStats // TypeDefIndex: 7326
-{	[FixedBufferAttribute] // RVA: 0x97600 Offset: 0x96A00 VA: 0x180097600
+{	[FixedBufferAttribute] // RVA: 0x975C0 Offset: 0x969C0 VA: 0x1800975C0
 	public Native.RaknetStats.<valueOverLastSecond>e__FixedBuffer valueOverLastSecond; // 0x0
-	[FixedBufferAttribute] // RVA: 0x97870 Offset: 0x96C70 VA: 0x180097870
+	[FixedBufferAttribute] // RVA: 0x97830 Offset: 0x96C30 VA: 0x180097830
 	public Native.RaknetStats.<runningTotal>e__FixedBuffer runningTotal; // 0x38
 	public ulong connectionStartTime; // 0x70
 	public byte isLimitedByCongestionControl; // 0x78
 	public ulong BPSLimitByCongestionControl; // 0x80
 	public byte isLimitedByOutgoingBandwidthLimit; // 0x88
 	public ulong BPSLimitByOutgoingBandwidthLimit; // 0x90
-	[FixedBufferAttribute] // RVA: 0x979A0 Offset: 0x96DA0 VA: 0x1800979A0
+	[FixedBufferAttribute] // RVA: 0x979C0 Offset: 0x96DC0 VA: 0x1800979C0
 	public Native.RaknetStats.<messageInSendBuffer>e__FixedBuffer messageInSendBuffer; // 0x98
-	[FixedBufferAttribute] // RVA: 0x97AA0 Offset: 0x96EA0 VA: 0x180097AA0
+	[FixedBufferAttribute] // RVA: 0x97B30 Offset: 0x96F30 VA: 0x180097B30
 	public Native.RaknetStats.<bytesInSendBuffer>e__FixedBuffer bytesInSendBuffer; // 0xA8
 	public uint messagesInResendBuffer; // 0xC8
 	public ulong bytesInResendBuffer; // 0xD0

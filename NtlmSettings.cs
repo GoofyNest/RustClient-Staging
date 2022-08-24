@@ -1,5 +1,5 @@
 public static class NtlmSettings // TypeDefIndex: 1730
-{	private static NtlmAuthLevel defaultAuthLevel; // 0x2B11AB0
+{	private static NtlmAuthLevel defaultAuthLevel; // 0x143A0
 
 	public static NtlmAuthLevel DefaultAuthLevel { get; }
 

@@ -28,10 +28,10 @@ public class DecorSpawn : MonoBehaviour, IClientComponent // TypeDefIndex: 10338
 
 	public void Refresh(bool force = False) { }
 
-	[ContextMenu] // RVA: 0xCB880 Offset: 0xCAC80 VA: 0x1800CB880
+	[ContextMenu] // RVA: 0xCB160 Offset: 0xCA560 VA: 0x1800CB160
 	private void RefreshAll_ContextMenu() { }
 
-	[ContextMenu] // RVA: 0xCBB30 Offset: 0xCAF30 VA: 0x1800CBB30
+	[ContextMenu] // RVA: 0xCB210 Offset: 0xCA610 VA: 0x1800CB210
 	private void Refresh_ContextMenu() { }
 
 	protected void OnEnable() { }
@@ -42,7 +42,7 @@ public class DecorSpawn : MonoBehaviour, IClientComponent // TypeDefIndex: 10338
 
 	private void FreePatches() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xCBD20 Offset: 0xCB120 VA: 0x1800CBD20
+	[IteratorStateMachineAttribute] // RVA: 0xCB370 Offset: 0xCA770 VA: 0x1800CB370
 	private IEnumerator UpdateCoroutine() { }
 
 	public void .ctor() { }

@@ -1,5 +1,5 @@
 public class ScreenshotCamera : RustCamera<ScreenshotCamera> // TypeDefIndex: 9234
-{	public static List<ScreenshotCamera> activeScreenshotCameras; // 0x166C
+{	public static List<ScreenshotCamera> activeScreenshotCameras; // 0x2B10760
 
 
 	protected override void OnEnable() { }

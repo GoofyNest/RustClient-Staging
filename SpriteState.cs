@@ -3,8 +3,8 @@ public struct SpriteState : IEquatable<SpriteState> // TypeDefIndex: 5011
 	private Sprite m_HighlightedSprite; // 0x0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Sprite m_PressedSprite; // 0x8
-	[FormerlySerializedAsAttribute] // RVA: 0x7D5D0 Offset: 0x7C9D0 VA: 0x18007D5D0
-	[SerializeField] // RVA: 0x7D5D0 Offset: 0x7C9D0 VA: 0x18007D5D0
+	[FormerlySerializedAsAttribute] // RVA: 0x7D4A0 Offset: 0x7C8A0 VA: 0x18007D4A0
+	[SerializeField] // RVA: 0x7D4A0 Offset: 0x7C8A0 VA: 0x18007D4A0
 	private Sprite m_SelectedSprite; // 0x10
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Sprite m_DisabledSprite; // 0x18

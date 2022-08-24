@@ -1,5 +1,5 @@
 public class ClimateOverlay : MonoBehaviour // TypeDefIndex: 9127
-{	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+{	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float blendingSpeed; // 0x18
 	public PostProcessVolume[] biomeVolumes; // 0x20
 	private float cycleBlendTime; // 0x28

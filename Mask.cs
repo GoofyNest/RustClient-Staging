@@ -23,7 +23,7 @@ public class Mask : UIBehaviour, ICanvasRaycastFilter, IMaterialModifier // Type
 
 	public virtual bool MaskEnabled() { }
 
-	[ObsoleteAttribute] // RVA: 0x75E70 Offset: 0x75270 VA: 0x180075E70
+	[ObsoleteAttribute] // RVA: 0x75E80 Offset: 0x75280 VA: 0x180075E80
 	public virtual void OnSiblingGraphicEnabledDisabled() { }
 
 	protected override void OnEnable() { }

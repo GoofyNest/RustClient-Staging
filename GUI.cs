@@ -8,15 +8,15 @@ public class GUI // TypeDefIndex: 4030
 	private static readonly int s_SliderHash; // 0x18
 	private static readonly int s_BeginGroupHash; // 0x1C
 	private static readonly int s_ScrollviewHash; // 0x20
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static int <scrollTroughSide>k__BackingField; // 0x24
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private static DateTime <nextScrollStepTime>k__BackingField; // 0x28
 	private static GUISkin s_Skin; // 0x30
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static GenericStack <scrollViewStates>k__BackingField; // 0x38
 
 	public static Color color { get; set; }
@@ -76,7 +76,7 @@ public class GUI // TypeDefIndex: 4030
 
 	internal static void ReleaseMouseControl() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCAED0 Offset: 0xCA2D0 VA: 0x1800CAED0
+	[FreeFunctionAttribute] // RVA: 0xCAEC0 Offset: 0xCA2C0 VA: 0x1800CAEC0
 	public static void SetNextControlName(string name) { }
 
 	internal static void InternalRepaintEditorWindow() { }

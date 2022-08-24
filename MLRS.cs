@@ -74,13 +74,13 @@ public class MLRS : BaseMountable // TypeDefIndex: 8412
 	private Vector3 hingeTargetLocalRot; // 0x4F0
 	private TimeSince timeSinceLightChange; // 0x4FC
 	private bool fullscreenMapOpen; // 0x500
-	[HeaderAttribute] // RVA: 0xEE830 Offset: 0xEDC30 VA: 0x1800EE830
-	[SerializeField] // RVA: 0xEE830 Offset: 0xEDC30 VA: 0x1800EE830
+	[HeaderAttribute] // RVA: 0xEE980 Offset: 0xEDD80 VA: 0x1800EE980
+	[SerializeField] // RVA: 0xEE980 Offset: 0xEDD80 VA: 0x1800EE980
 	private GameObjectRef rocketStoragePrefab; // 0x508
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObjectRef dashboardStoragePrefab; // 0x510
-	[HeaderAttribute] // RVA: 0xEEAD0 Offset: 0xEDED0 VA: 0x1800EEAD0
-	[SerializeField] // RVA: 0xEEAD0 Offset: 0xEDED0 VA: 0x1800EEAD0
+	[HeaderAttribute] // RVA: 0xEEC80 Offset: 0xEE080 VA: 0x1800EEC80
+	[SerializeField] // RVA: 0xEEC80 Offset: 0xEE080 VA: 0x1800EEC80
 	private Transform hRotator; // 0x518
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float hRotSpeed; // 0x520
@@ -88,17 +88,17 @@ public class MLRS : BaseMountable // TypeDefIndex: 8412
 	private Transform vRotator; // 0x528
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float vRotSpeed; // 0x530
-	[SerializeField] // RVA: 0xEF020 Offset: 0xEE420 VA: 0x1800EF020
-	[RangeAttribute] // RVA: 0xEF020 Offset: 0xEE420 VA: 0x1800EF020
+	[SerializeField] // RVA: 0xEF300 Offset: 0xEE700 VA: 0x1800EF300
+	[RangeAttribute] // RVA: 0xEF300 Offset: 0xEE700 VA: 0x1800EF300
 	private float vRotMax; // 0x534
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform hydraulics; // 0x538
-	[HeaderAttribute] // RVA: 0xEF440 Offset: 0xEE840 VA: 0x1800EF440
-	[TooltipAttribute] // RVA: 0xEF440 Offset: 0xEE840 VA: 0x1800EF440
-	[SerializeField] // RVA: 0xEF440 Offset: 0xEE840 VA: 0x1800EF440
+	[HeaderAttribute] // RVA: 0xEF670 Offset: 0xEEA70 VA: 0x1800EF670
+	[TooltipAttribute] // RVA: 0xEF670 Offset: 0xEEA70 VA: 0x1800EF670
+	[SerializeField] // RVA: 0xEF670 Offset: 0xEEA70 VA: 0x1800EF670
 	public float minRange; // 0x540
-	[TooltipAttribute] // RVA: 0xEF830 Offset: 0xEEC30 VA: 0x1800EF830
-	[SerializeField] // RVA: 0xEF830 Offset: 0xEEC30 VA: 0x1800EF830
+	[TooltipAttribute] // RVA: 0xEFA40 Offset: 0xEEE40 VA: 0x1800EFA40
+	[SerializeField] // RVA: 0xEFA40 Offset: 0xEEE40 VA: 0x1800EFA40
 	public float targetAreaRadius; // 0x544
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObjectRef mlrsRocket; // 0x548
@@ -106,8 +106,8 @@ public class MLRS : BaseMountable // TypeDefIndex: 8412
 	public Transform firingPoint; // 0x550
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private MLRS.RocketTube[] rocketTubes; // 0x558
-	[HeaderAttribute] // RVA: 0xEFD10 Offset: 0xEF110 VA: 0x1800EFD10
-	[SerializeField] // RVA: 0xEFD10 Offset: 0xEF110 VA: 0x1800EFD10
+	[HeaderAttribute] // RVA: 0xEFE40 Offset: 0xEF240 VA: 0x1800EFE40
+	[SerializeField] // RVA: 0xEFE40 Offset: 0xEF240 VA: 0x1800EFE40
 	private GameObject screensChild; // 0x560
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform leftHandGrip; // 0x568
@@ -131,7 +131,7 @@ public class MLRS : BaseMountable // TypeDefIndex: 8412
 	private ParticleSystem topScreenShutdown; // 0x5B0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ParticleSystem bottomScreenShutdown; // 0x5B8
-	[ServerVar] // RVA: 0xF0640 Offset: 0xEFA40 VA: 0x1800F0640
+	[ServerVar] // RVA: 0xF06B0 Offset: 0xEFAB0 VA: 0x1800F06B0
 	public static float brokenDownMinutes; // 0x0
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 <UserTargetHitPos>k__BackingField; // 0x5C0
@@ -192,42 +192,42 @@ public class MLRS : BaseMountable // TypeDefIndex: 8412
 
 	private bool ShouldShowDashboardUI() { }
 
-	[BaseEntity.Menu] // RVA: 0xF0D70 Offset: 0xF0170 VA: 0x1800F0D70
-	[BaseEntity.Menu.Description] // RVA: 0xF0D70 Offset: 0xF0170 VA: 0x1800F0D70
-	[BaseEntity.Menu.Icon] // RVA: 0xF0D70 Offset: 0xF0170 VA: 0x1800F0D70
-	[BaseEntity.Menu.ShowIf] // RVA: 0xF0D70 Offset: 0xF0170 VA: 0x1800F0D70
+	[BaseEntity.Menu] // RVA: 0xF0DE0 Offset: 0xF01E0 VA: 0x1800F0DE0
+	[BaseEntity.Menu.Description] // RVA: 0xF0DE0 Offset: 0xF01E0 VA: 0x1800F0DE0
+	[BaseEntity.Menu.Icon] // RVA: 0xF0DE0 Offset: 0xF01E0 VA: 0x1800F0DE0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xF0DE0 Offset: 0xF01E0 VA: 0x1800F0DE0
 	public void Menu_SetTarget(BasePlayer player) { }
 
 	public bool Menu_SetTarget_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x6F5F0 Offset: 0x6E9F0 VA: 0x18006F5F0
-	[BaseEntity.Menu.Description] // RVA: 0x6F5F0 Offset: 0x6E9F0 VA: 0x18006F5F0
-	[BaseEntity.Menu.Icon] // RVA: 0x6F5F0 Offset: 0x6E9F0 VA: 0x18006F5F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x6F5F0 Offset: 0x6E9F0 VA: 0x18006F5F0
+	[BaseEntity.Menu] // RVA: 0x6F5D0 Offset: 0x6E9D0 VA: 0x18006F5D0
+	[BaseEntity.Menu.Description] // RVA: 0x6F5D0 Offset: 0x6E9D0 VA: 0x18006F5D0
+	[BaseEntity.Menu.Icon] // RVA: 0x6F5D0 Offset: 0x6E9D0 VA: 0x18006F5D0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x6F5D0 Offset: 0x6E9D0 VA: 0x18006F5D0
 	public void Menu_Fire_Rockets(BasePlayer player) { }
 
 	public bool Menu_Fire_Rockets_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x6FD50 Offset: 0x6F150 VA: 0x18006FD50
-	[BaseEntity.Menu.Description] // RVA: 0x6FD50 Offset: 0x6F150 VA: 0x18006FD50
-	[BaseEntity.Menu.Icon] // RVA: 0x6FD50 Offset: 0x6F150 VA: 0x18006FD50
-	[BaseEntity.Menu.ShowIf] // RVA: 0x6FD50 Offset: 0x6F150 VA: 0x18006FD50
+	[BaseEntity.Menu] // RVA: 0x6FD20 Offset: 0x6F120 VA: 0x18006FD20
+	[BaseEntity.Menu.Description] // RVA: 0x6FD20 Offset: 0x6F120 VA: 0x18006FD20
+	[BaseEntity.Menu.Icon] // RVA: 0x6FD20 Offset: 0x6F120 VA: 0x18006FD20
+	[BaseEntity.Menu.ShowIf] // RVA: 0x6FD20 Offset: 0x6F120 VA: 0x18006FD20
 	public void Menu_Cannot_Fire_Rockets(BasePlayer player) { }
 
 	public bool Menu_Cannot_Fire_Rockets_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x701A0 Offset: 0x6F5A0 VA: 0x1800701A0
-	[BaseEntity.Menu.Description] // RVA: 0x701A0 Offset: 0x6F5A0 VA: 0x1800701A0
-	[BaseEntity.Menu.Icon] // RVA: 0x701A0 Offset: 0x6F5A0 VA: 0x1800701A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x701A0 Offset: 0x6F5A0 VA: 0x1800701A0
+	[BaseEntity.Menu] // RVA: 0x70130 Offset: 0x6F530 VA: 0x180070130
+	[BaseEntity.Menu.Description] // RVA: 0x70130 Offset: 0x6F530 VA: 0x180070130
+	[BaseEntity.Menu.Icon] // RVA: 0x70130 Offset: 0x6F530 VA: 0x180070130
+	[BaseEntity.Menu.ShowIf] // RVA: 0x70130 Offset: 0x6F530 VA: 0x180070130
 	public void Menu_Open_Rocket_Storage(BasePlayer player) { }
 
 	public bool Menu_Open_Rocket_Storage_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x703F0 Offset: 0x6F7F0 VA: 0x1800703F0
-	[BaseEntity.Menu.Description] // RVA: 0x703F0 Offset: 0x6F7F0 VA: 0x1800703F0
-	[BaseEntity.Menu.Icon] // RVA: 0x703F0 Offset: 0x6F7F0 VA: 0x1800703F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x703F0 Offset: 0x6F7F0 VA: 0x1800703F0
+	[BaseEntity.Menu] // RVA: 0x70360 Offset: 0x6F760 VA: 0x180070360
+	[BaseEntity.Menu.Description] // RVA: 0x70360 Offset: 0x6F760 VA: 0x180070360
+	[BaseEntity.Menu.Icon] // RVA: 0x70360 Offset: 0x6F760 VA: 0x180070360
+	[BaseEntity.Menu.ShowIf] // RVA: 0x70360 Offset: 0x6F760 VA: 0x180070360
 	public void Menu_Open_Dashboard_Storage(BasePlayer player) { }
 
 	public bool Menu_Open_Dashboard_Storage_ShowIf(BasePlayer player) { }

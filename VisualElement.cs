@@ -1,6 +1,6 @@
 public class VisualElement : Focusable, ITransform, IResolvedStyle // TypeDefIndex: 4613
-{	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+{	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private bool <isCompositeRoot>k__BackingField; // 0x20
 	private static List<string> s_EmptyClassList; // 0x0
 	internal static readonly PropertyName userDataPropertyKey; // 0x8
@@ -8,44 +8,44 @@ public class VisualElement : Focusable, ITransform, IResolvedStyle // TypeDefInd
 	private Vector3 m_Position; // 0x24
 	private Quaternion m_Rotation; // 0x30
 	private Vector3 m_Scale; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private bool <isLayoutManual>k__BackingField; // 0x4C
 	private Rect m_Layout; // 0x50
 	internal bool isBoundingBoxDirty; // 0x60
 	private Rect m_BoundingBox; // 0x64
 	internal bool isWorldBoundingBoxDirty; // 0x74
 	private Rect m_WorldBoundingBox; // 0x78
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private bool <isWorldTransformDirty>k__BackingField; // 0x88
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private bool <isWorldTransformInverseDirty>k__BackingField; // 0x89
 	private Matrix4x4 m_WorldTransformCache; // 0x8C
 	private Matrix4x4 m_WorldTransformInverseCache; // 0xCC
 	private static readonly Rect s_InfiniteRect; // 0x18
 	private PseudoStates m_PseudoStates; // 0x10C
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private PickingMode <pickingMode>k__BackingField; // 0x110
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private YogaNode <yogaNode>k__BackingField; // 0x118
 	internal VisualElementStylesData m_Style; // 0x120
 	private InheritedStylesData m_InheritedStylesData; // 0x128
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private ComputedStyle <computedStyle>k__BackingField; // 0x130
 	internal int imguiContainerDescendantCount; // 0x138
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private VisualElement.Hierarchy <hierarchy>k__BackingField; // 0x140
 	private VisualElement m_PhysicalParent; // 0x148
 	private static readonly List<VisualElement> s_EmptyList; // 0x28
 	private List<VisualElement> m_Children; // 0x150
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private BaseVisualElementPanel <elementPanel>k__BackingField; // 0x158
 
 	internal bool isCompositeRoot { get; }

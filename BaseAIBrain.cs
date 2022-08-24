@@ -46,7 +46,7 @@ public class BaseAIBrain : EntityComponent<BaseEntity>, IPet, IAISleepable, IAID
 	private IAIGroupable <GroupLeader>k__BackingField; // 0xD0
 	public bool Pet; // 0xD8
 	private List<IAIGroupable> groupMembers; // 0xE0
-	[HeaderAttribute] // RVA: 0x9E740 Offset: 0x9DB40 VA: 0x18009E740
+	[HeaderAttribute] // RVA: 0x9E690 Offset: 0x9DA90 VA: 0x18009E690
 	public bool CanUseHealingItems; // 0xE8
 	public float HealChance; // 0xEC
 	public float HealBelowHealthFraction; // 0xF0

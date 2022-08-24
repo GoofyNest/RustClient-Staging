@@ -1,25 +1,25 @@
 public struct ContactPoint2D // TypeDefIndex: 4083
-{	[NativeNameAttribute] // RVA: 0x71090 Offset: 0x70490 VA: 0x180071090
+{	[NativeNameAttribute] // RVA: 0x71210 Offset: 0x70610 VA: 0x180071210
 	private Vector2 m_Point; // 0x0
-	[NativeNameAttribute] // RVA: 0x71180 Offset: 0x70580 VA: 0x180071180
+	[NativeNameAttribute] // RVA: 0x712D0 Offset: 0x706D0 VA: 0x1800712D0
 	private Vector2 m_Normal; // 0x8
-	[NativeNameAttribute] // RVA: 0x712B0 Offset: 0x706B0 VA: 0x1800712B0
+	[NativeNameAttribute] // RVA: 0x713B0 Offset: 0x707B0 VA: 0x1800713B0
 	private Vector2 m_RelativeVelocity; // 0x10
-	[NativeNameAttribute] // RVA: 0x713F0 Offset: 0x707F0 VA: 0x1800713F0
+	[NativeNameAttribute] // RVA: 0x71500 Offset: 0x70900 VA: 0x180071500
 	private float m_Separation; // 0x18
-	[NativeNameAttribute] // RVA: 0x71480 Offset: 0x70880 VA: 0x180071480
+	[NativeNameAttribute] // RVA: 0x71590 Offset: 0x70990 VA: 0x180071590
 	private float m_NormalImpulse; // 0x1C
-	[NativeNameAttribute] // RVA: 0x716C0 Offset: 0x70AC0 VA: 0x1800716C0
+	[NativeNameAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
 	private float m_TangentImpulse; // 0x20
-	[NativeNameAttribute] // RVA: 0x71800 Offset: 0x70C00 VA: 0x180071800
+	[NativeNameAttribute] // RVA: 0x718D0 Offset: 0x70CD0 VA: 0x1800718D0
 	private int m_Collider; // 0x24
-	[NativeNameAttribute] // RVA: 0x71960 Offset: 0x70D60 VA: 0x180071960
+	[NativeNameAttribute] // RVA: 0x719C0 Offset: 0x70DC0 VA: 0x1800719C0
 	private int m_OtherCollider; // 0x28
-	[NativeNameAttribute] // RVA: 0x71A20 Offset: 0x70E20 VA: 0x180071A20
+	[NativeNameAttribute] // RVA: 0x71AE0 Offset: 0x70EE0 VA: 0x180071AE0
 	private int m_Rigidbody; // 0x2C
-	[NativeNameAttribute] // RVA: 0x71B50 Offset: 0x70F50 VA: 0x180071B50
+	[NativeNameAttribute] // RVA: 0x71C10 Offset: 0x71010 VA: 0x180071C10
 	private int m_OtherRigidbody; // 0x30
-	[NativeNameAttribute] // RVA: 0x71C90 Offset: 0x71090 VA: 0x180071C90
+	[NativeNameAttribute] // RVA: 0x71D60 Offset: 0x71160 VA: 0x180071D60
 	private int m_Enabled; // 0x34
 
 }

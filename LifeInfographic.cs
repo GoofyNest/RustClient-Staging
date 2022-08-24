@@ -35,7 +35,7 @@ public class LifeInfographic : MonoBehaviour // TypeDefIndex: 11074
 
 	public void AnimateIn() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x94A50 Offset: 0x93E50 VA: 0x180094A50
+	[IteratorStateMachineAttribute] // RVA: 0x945B0 Offset: 0x939B0 VA: 0x1800945B0
 	private IEnumerator Animate() { }
 
 	public void ResetAnimators() { }

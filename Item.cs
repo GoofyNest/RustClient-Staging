@@ -130,29 +130,29 @@ public struct Item // TypeDefIndex: 5277
 
 	public PublishedFileId get_Id() { }
 
-	[IsReadOnlyAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[CompilerGeneratedAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[IsReadOnlyAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[CompilerGeneratedAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public string get_Title() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_Title(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[IsReadOnlyAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[CompilerGeneratedAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[IsReadOnlyAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public string get_Description() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_Description(string value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[IsReadOnlyAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[CompilerGeneratedAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[IsReadOnlyAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public string[] get_Tags() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_Tags(string[] value) { }
 
-	[IsReadOnlyAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[CompilerGeneratedAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[IsReadOnlyAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[CompilerGeneratedAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public Dictionary<string, string> get_KeyValueTags() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -162,8 +162,8 @@ public struct Item // TypeDefIndex: 5277
 
 	public DateTime get_Updated() { }
 
-	[IsReadOnlyAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[CompilerGeneratedAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[IsReadOnlyAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[CompilerGeneratedAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public UgcAdditionalPreview[] get_AdditionalPreviews() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -183,7 +183,7 @@ public struct Item // TypeDefIndex: 5277
 
 	internal static Item From(SteamUGCDetails_t details) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9EC90 Offset: 0x9E090 VA: 0x18009EC90
+	[AsyncStateMachineAttribute] // RVA: 0x9EBD0 Offset: 0x9DFD0 VA: 0x18009EBD0
 	public Task<Nullable<Result>> Vote(bool up) { }
 
 	public string get_Url() { }
@@ -227,8 +227,8 @@ public struct Item // TypeDefIndex: 5277
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal void set_NumPlaytimeSessionsDuringTimePeriod(ulong value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[IsReadOnlyAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[CompilerGeneratedAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[IsReadOnlyAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public string get_PreviewImageUrl() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -667,10 +667,10 @@ public class ItemBasedFlowRestrictor : IOEntity, IContainerSounds // TypeDefInde
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.Menu] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
-	[BaseEntity.Menu.Description] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
-	[BaseEntity.Menu.Icon] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
+	[BaseEntity.Menu] // RVA: 0x8E090 Offset: 0x8D490 VA: 0x18008E090
+	[BaseEntity.Menu.Description] // RVA: 0x8E090 Offset: 0x8D490 VA: 0x18008E090
+	[BaseEntity.Menu.Icon] // RVA: 0x8E090 Offset: 0x8D490 VA: 0x18008E090
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8E090 Offset: 0x8D490 VA: 0x18008E090
 	public void Menu_Open(BasePlayer player) { }
 
 	public bool Menu_Open_ShowIf(BasePlayer player) { }
@@ -1184,7 +1184,7 @@ public enum Item.Flag // TypeDefIndex: 10107
 }
 
 private sealed class Item.<>c // TypeDefIndex: 10108
-{	public static readonly Item.<>c <>9; // 0x2010
+{	public static readonly Item.<>c <>9; // 0x2E4A
 
 
 	private static void .cctor() { }
@@ -1336,13 +1336,13 @@ public class ItemBlueprint : MonoBehaviour // TypeDefIndex: 10116
 	public bool userCraftable; // 0x29
 	public bool isResearchable; // 0x2A
 	public Rarity rarity; // 0x2C
-	[HeaderAttribute] // RVA: 0xB63F0 Offset: 0xB57F0 VA: 0x1800B63F0
+	[HeaderAttribute] // RVA: 0xB48E0 Offset: 0xB3CE0 VA: 0x1800B48E0
 	public int workbenchLevelRequired; // 0x30
-	[HeaderAttribute] // RVA: 0xB66A0 Offset: 0xB5AA0 VA: 0x1800B66A0
+	[HeaderAttribute] // RVA: 0xB4A10 Offset: 0xB3E10 VA: 0x1800B4A10
 	public int scrapRequired; // 0x34
 	public int scrapFromRecycle; // 0x38
-	[HeaderAttribute] // RVA: 0xB67B0 Offset: 0xB5BB0 VA: 0x1800B67B0
-	[TooltipAttribute] // RVA: 0xB67B0 Offset: 0xB5BB0 VA: 0x1800B67B0
+	[HeaderAttribute] // RVA: 0xB4AF0 Offset: 0xB3EF0 VA: 0x1800B4AF0
+	[TooltipAttribute] // RVA: 0xB4AF0 Offset: 0xB3EF0 VA: 0x1800B4AF0
 	public bool NeedsSteamItem; // 0x3C
 	public int blueprintStackSize; // 0x40
 	public float time; // 0x44
@@ -1365,44 +1365,44 @@ public class ItemBlueprint : MonoBehaviour // TypeDefIndex: 10116
 }
 
 public class ItemDefinition : MonoBehaviour // TypeDefIndex: 10117
-{	[HeaderAttribute] // RVA: 0xB69B0 Offset: 0xB5DB0 VA: 0x1800B69B0
-	[ReadOnlyAttribute] // RVA: 0xB69B0 Offset: 0xB5DB0 VA: 0x1800B69B0
+{	[HeaderAttribute] // RVA: 0xB4DB0 Offset: 0xB41B0 VA: 0x1800B4DB0
+	[ReadOnlyAttribute] // RVA: 0xB4DB0 Offset: 0xB41B0 VA: 0x1800B4DB0
 	public int itemid; // 0x18
-	[TooltipAttribute] // RVA: 0xB6B30 Offset: 0xB5F30 VA: 0x1800B6B30
+	[TooltipAttribute] // RVA: 0xB4F30 Offset: 0xB4330 VA: 0x1800B4F30
 	public string shortname; // 0x20
-	[HeaderAttribute] // RVA: 0xB6BF0 Offset: 0xB5FF0 VA: 0x1800B6BF0
+	[HeaderAttribute] // RVA: 0xB50B0 Offset: 0xB44B0 VA: 0x1800B50B0
 	public Translate.Phrase displayName; // 0x28
 	public Translate.Phrase displayDescription; // 0x30
 	public Sprite iconSprite; // 0x38
 	public ItemCategory category; // 0x40
 	public ItemSelectionPanel selectionPanel; // 0x44
-	[HeaderAttribute] // RVA: 0xB6D00 Offset: 0xB6100 VA: 0x1800B6D00
+	[HeaderAttribute] // RVA: 0xB65A0 Offset: 0xB59A0 VA: 0x1800B65A0
 	public int maxDraggable; // 0x48
 	public ItemContainer.ContentsType itemType; // 0x4C
 	public ItemDefinition.AmountType amountType; // 0x50
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public ItemSlot occupySlots; // 0x54
 	public int stackable; // 0x58
 	public bool quickDespawn; // 0x5C
-	[HeaderAttribute] // RVA: 0xB6F30 Offset: 0xB6330 VA: 0x1800B6F30
-	[TooltipAttribute] // RVA: 0xB6F30 Offset: 0xB6330 VA: 0x1800B6F30
+	[HeaderAttribute] // RVA: 0xB6870 Offset: 0xB5C70 VA: 0x1800B6870
+	[TooltipAttribute] // RVA: 0xB6870 Offset: 0xB5C70 VA: 0x1800B6870
 	public Rarity rarity; // 0x60
 	public bool spawnAsBlueprint; // 0x64
-	[HeaderAttribute] // RVA: 0xAA1A0 Offset: 0xA95A0 VA: 0x1800AA1A0
+	[HeaderAttribute] // RVA: 0xAA0C0 Offset: 0xA94C0 VA: 0x1800AA0C0
 	public SoundDefinition inventorySelectSound; // 0x68
 	public SoundDefinition inventoryGrabSound; // 0x70
 	public SoundDefinition inventoryDropSound; // 0x78
 	public SoundDefinition physImpactSoundDef; // 0x80
 	public ItemDefinition.Condition condition; // 0x88
-	[HeaderAttribute] // RVA: 0x71F60 Offset: 0x71360 VA: 0x180071F60
+	[HeaderAttribute] // RVA: 0x72060 Offset: 0x71460 VA: 0x180072060
 	public bool hidden; // 0xA0
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public ItemDefinition.Flag flags; // 0xA4
-	[TooltipAttribute] // RVA: 0x7B970 Offset: 0x7AD70 VA: 0x18007B970
+	[TooltipAttribute] // RVA: 0x7AF50 Offset: 0x7A350 VA: 0x18007AF50
 	public SteamInventoryItem steamItem; // 0xA8
-	[TooltipAttribute] // RVA: 0x7BB40 Offset: 0x7AF40 VA: 0x18007BB40
+	[TooltipAttribute] // RVA: 0x7AFA0 Offset: 0x7A3A0 VA: 0x18007AFA0
 	public SteamDLCItem steamDlc; // 0xB0
-	[TooltipAttribute] // RVA: 0xB74E0 Offset: 0xB68E0 VA: 0x1800B74E0
+	[TooltipAttribute] // RVA: 0xB6EA0 Offset: 0xB62A0 VA: 0x1800B6EA0
 	public ItemDefinition Parent; // 0xB8
 	public GameObjectRef worldModelPrefab; // 0xC0
 	public ItemDefinition isRedirectOf; // 0xC8
@@ -1411,7 +1411,7 @@ public class ItemDefinition : MonoBehaviour // TypeDefIndex: 10117
 	public BaseEntity.TraitFlag Traits; // 0xE0
 	public ItemSkinDirectory.Skin[] skins; // 0xE8
 	private IPlayerItemDefinition[] _skins2; // 0xF0
-	[TooltipAttribute] // RVA: 0xB88C0 Offset: 0xB7CC0 VA: 0x1800B88C0
+	[TooltipAttribute] // RVA: 0xB7010 Offset: 0xB6410 VA: 0x1800B7010
 	public GameObject panel; // 0xF8
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ItemModWearable <ItemModWearable>k__BackingField; // 0x100
@@ -1491,11 +1491,11 @@ public class ItemDefinition : MonoBehaviour // TypeDefIndex: 10117
 
 public struct ItemDefinition.Condition // TypeDefIndex: 10118
 {	public bool enabled; // 0x0
-	[TooltipAttribute] // RVA: 0xB90E0 Offset: 0xB84E0 VA: 0x1800B90E0
+	[TooltipAttribute] // RVA: 0xB8CB0 Offset: 0xB80B0 VA: 0x1800B8CB0
 	public float max; // 0x4
-	[TooltipAttribute] // RVA: 0xB91F0 Offset: 0xB85F0 VA: 0x1800B91F0
+	[TooltipAttribute] // RVA: 0xB8DE0 Offset: 0xB81E0 VA: 0x1800B8DE0
 	public bool repairable; // 0x8
-	[TooltipAttribute] // RVA: 0xB92C0 Offset: 0xB86C0 VA: 0x1800B92C0
+	[TooltipAttribute] // RVA: 0xB8EF0 Offset: 0xB82F0 VA: 0x1800B8EF0
 	public bool maintainMaxCondition; // 0x9
 	public ItemDefinition.Condition.WorldSpawnCondition foundCondition; // 0x10
 
@@ -1750,7 +1750,7 @@ public class ItemModBlueprintCraft : ItemMod // TypeDefIndex: 10136
 
 public class ItemModBurnable : ItemMod // TypeDefIndex: 10137
 {	public float fuelAmount; // 0x20
-	[ItemSelector] // RVA: 0xA77B0 Offset: 0xA6BB0 VA: 0x1800A77B0
+	[ItemSelector] // RVA: 0xA7740 Offset: 0xA6B40 VA: 0x1800A7740
 	public ItemDefinition byproductItem; // 0x28
 	public int byproductAmount; // 0x30
 	public float byproductChance; // 0x34
@@ -1798,7 +1798,7 @@ public class ItemModConditionContainerFlag : ItemMod // TypeDefIndex: 10141
 
 public class ItemModConditionHasCondition : ItemMod // TypeDefIndex: 10142
 {	public float conditionTarget; // 0x20
-	[TooltipAttribute] // RVA: 0xB9760 Offset: 0xB8B60 VA: 0x1800B9760
+	[TooltipAttribute] // RVA: 0xB9150 Offset: 0xB8550 VA: 0x1800B9150
 	public float conditionFractionTarget; // 0x24
 	public bool lessThan; // 0x28
 
@@ -1810,7 +1810,7 @@ public class ItemModConditionHasCondition : ItemMod // TypeDefIndex: 10142
 }
 
 public class ItemModConditionHasContents : ItemMod // TypeDefIndex: 10143
-{	[TooltipAttribute] // RVA: 0xB9860 Offset: 0xB8C60 VA: 0x1800B9860
+{	[TooltipAttribute] // RVA: 0xB9260 Offset: 0xB8660 VA: 0x1800B9260
 	public ItemDefinition itemDef; // 0x20
 	public bool requiredState; // 0x28
 
@@ -1883,7 +1883,7 @@ public class ItemModConsumable.ConsumableEffect // TypeDefIndex: 10148
 public class ItemModConsume : ItemMod // TypeDefIndex: 10149
 {	public GameObjectRef consumeEffect; // 0x20
 	public string eatGesture; // 0x28
-	[TooltipAttribute] // RVA: 0xB9C30 Offset: 0xB9030 VA: 0x1800B9C30
+	[TooltipAttribute] // RVA: 0xB9430 Offset: 0xB8830 VA: 0x1800B9430
 	public ItemAmountRandom[] product; // 0x30
 	public ItemModConsumable primaryConsumable; // 0x38
 
@@ -1921,7 +1921,7 @@ public class ItemModConsumeContents : ItemMod // TypeDefIndex: 10151
 public class ItemModContainer : ItemMod // TypeDefIndex: 10152
 {	public int capacity; // 0x20
 	public int maxStackSize; // 0x24
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public ItemContainer.Flag containerFlags; // 0x28
 	public ItemContainer.ContentsType onlyAllowedContents; // 0x2C
 	public ItemDefinition onlyAllowedItemType; // 0x30
@@ -1941,7 +1941,7 @@ public class ItemModContainer : ItemMod // TypeDefIndex: 10152
 }
 
 public class ItemModContainerRestriction : ItemMod // TypeDefIndex: 10153
-{	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+{	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public ItemModContainerRestriction.SlotFlags slotFlags; // 0x20
 
 
@@ -1958,7 +1958,7 @@ public enum ItemModContainerRestriction.SlotFlags // TypeDefIndex: 10154
 }
 
 public class ItemModCookable : ItemMod // TypeDefIndex: 10155
-{	[ItemSelector] // RVA: 0xA77B0 Offset: 0xA6BB0 VA: 0x1800A77B0
+{	[ItemSelector] // RVA: 0xA7740 Offset: 0xA6B40 VA: 0x1800A7740
 	public ItemDefinition becomeOnCooked; // 0x20
 	public float cookTime; // 0x28
 	public int amountOfBecome; // 0x2C
@@ -1988,7 +1988,7 @@ public class ItemModCycle : ItemMod // TypeDefIndex: 10156
 
 public class ItemModDeployable : MonoBehaviour // TypeDefIndex: 10157
 {	public GameObjectRef entityPrefab; // 0x18
-	[HeaderAttribute] // RVA: 0xB9F30 Offset: 0xB9330 VA: 0x1800B9F30
+	[HeaderAttribute] // RVA: 0xB9950 Offset: 0xB8D50 VA: 0x1800B9950
 	public bool showCrosshair; // 0x20
 	public string UnlockAchievement; // 0x28
 
@@ -2018,19 +2018,19 @@ public class ItemModEntityReference : MonoBehaviour // TypeDefIndex: 10159
 
 public class ItemModFishable : ItemMod // TypeDefIndex: 10160
 {	public bool CanBeFished; // 0x20
-	[HeaderAttribute] // RVA: 0xB9F80 Offset: 0xB9380 VA: 0x1800B9F80
+	[HeaderAttribute] // RVA: 0xB9AC0 Offset: 0xB8EC0 VA: 0x1800B9AC0
 	public float StrainModifier; // 0x24
 	public float MoveMultiplier; // 0x28
 	public float ReelInSpeedMultiplier; // 0x2C
 	public float CatchWaitTimeMultiplier; // 0x30
-	[HeaderAttribute] // RVA: 0xBA040 Offset: 0xB9440 VA: 0x1800BA040
+	[HeaderAttribute] // RVA: 0xB9BD0 Offset: 0xB8FD0 VA: 0x1800B9BD0
 	public float MinimumBaitLevel; // 0x34
 	public float MaximumBaitLevel; // 0x38
 	public float MinimumWaterDepth; // 0x3C
 	public float MaximumWaterDepth; // 0x40
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public WaterBody.FishingTag RequiredTag; // 0x44
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float Chance; // 0x48
 	public string SteamStatName; // 0x50
 
@@ -2083,7 +2083,7 @@ public class ItemModMenuOption : ItemMod // TypeDefIndex: 10165
 {	public string commandName; // 0x20
 	public ItemMod actionTarget; // 0x28
 	public BaseEntity.Menu.Option option; // 0x30
-	[TooltipAttribute] // RVA: 0xBB520 Offset: 0xBA920 VA: 0x1800BB520
+	[TooltipAttribute] // RVA: 0xB9E80 Offset: 0xB9280 VA: 0x1800B9E80
 	public bool isPrimaryOption; // 0x50
 
 
@@ -2109,14 +2109,14 @@ public class ItemModPaintable : ItemModAssociatedEntity<PaintedItemStorageEntity
 
 	public override void OnObjectSetup(Item item, GameObject obj) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBB8B0 Offset: 0xBACB0 VA: 0x1800BB8B0
+	[IteratorStateMachineAttribute] // RVA: 0xBA030 Offset: 0xB9430 VA: 0x1800BA030
 	private IEnumerator DeferredSetup(Item item, PaintableItem paintable) { }
 
 	public override void GetMenuOptions(Item item, List<Option> list, BasePlayer player) { }
 
 	private void PaintClicked(BasePlayer player) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBBA10 Offset: 0xBAE10 VA: 0x1800BBA10
+	[IteratorStateMachineAttribute] // RVA: 0xBA0C0 Offset: 0xB94C0 VA: 0x1800BA0C0
 	private IEnumerator OpenPaintUI(EntityRef<PaintedItemStorageEntity> paintStorage) { }
 
 	public void .ctor() { }
@@ -2195,13 +2195,13 @@ private sealed class ItemModPaintable.<OpenPaintUI>d__9 : IEnumerator<object>, I
 }
 
 public class ItemModPetStats : ItemMod // TypeDefIndex: 10170
-{	[TooltipAttribute] // RVA: 0xBC3D0 Offset: 0xBB7D0 VA: 0x1800BC3D0
+{	[TooltipAttribute] // RVA: 0xBBBC0 Offset: 0xBAFC0 VA: 0x1800BBBC0
 	public float SpeedModifier; // 0x20
-	[TooltipAttribute] // RVA: 0xBC4E0 Offset: 0xBB8E0 VA: 0x1800BC4E0
+	[TooltipAttribute] // RVA: 0xBBCA0 Offset: 0xBB0A0 VA: 0x1800BBCA0
 	public float MaxHealthModifier; // 0x24
-	[TooltipAttribute] // RVA: 0xBC6B0 Offset: 0xBBAB0 VA: 0x1800BC6B0
+	[TooltipAttribute] // RVA: 0xBBD80 Offset: 0xBB180 VA: 0x1800BBD80
 	public float AttackDamageModifier; // 0x28
-	[TooltipAttribute] // RVA: 0xBC8F0 Offset: 0xBBCF0 VA: 0x1800BC8F0
+	[TooltipAttribute] // RVA: 0xBBEC0 Offset: 0xBB2C0 VA: 0x1800BBEC0
 	public float AttackRateModifier; // 0x2C
 
 
@@ -2477,7 +2477,7 @@ public class ItemFootstepSounds : MonoBehaviour // TypeDefIndex: 10189
 }
 
 public class ItemAmount : ISerializationCallbackReceiver // TypeDefIndex: 10190
-{	[ItemSelector] // RVA: 0xA77B0 Offset: 0xA6BB0 VA: 0x1800A77B0
+{	[ItemSelector] // RVA: 0xA7740 Offset: 0xA6B40 VA: 0x1800A7740
 	public ItemDefinition itemDef; // 0x10
 	public float amount; // 0x18
 	public float startAmount; // 0x1C
@@ -2502,7 +2502,7 @@ public class ItemAmount : ISerializationCallbackReceiver // TypeDefIndex: 10190
 }
 
 public class ItemAmountRandom // TypeDefIndex: 10191
-{	[ItemSelector] // RVA: 0xA77B0 Offset: 0xA6BB0 VA: 0x1800A77B0
+{	[ItemSelector] // RVA: 0xA7740 Offset: 0xA6B40 VA: 0x1800A7740
 	public ItemDefinition itemDef; // 0x10
 	public AnimationCurve amount; // 0x18
 
@@ -2587,7 +2587,7 @@ private sealed class ItemManager.<>c // TypeDefIndex: 10194
 public class ItemSkin : SteamInventoryItem // TypeDefIndex: 10742
 {	public Skinnable Skinnable; // 0x70
 	public Material[] Materials; // 0x78
-	[TooltipAttribute] // RVA: 0x77590 Offset: 0x76990 VA: 0x180077590
+	[TooltipAttribute] // RVA: 0x76C20 Offset: 0x76020 VA: 0x180076C20
 	public ItemDefinition Redirect; // 0x80
 	public SteamInventoryItem UnlockedViaSteamItem; // 0x88
 
@@ -2674,7 +2674,7 @@ public class ItemIcon : BaseMonoBehaviour, IPointerClickHandler, IEventSystemHan
 	public static Color selectedBackgroundColor; // 0x10
 	public ItemContainerSource containerSource; // 0x18
 	public int slotOffset; // 0x20
-	[RangeAttribute] // RVA: 0x8EC70 Offset: 0x8E070 VA: 0x18008EC70
+	[RangeAttribute] // RVA: 0x8E6A0 Offset: 0x8DAA0 VA: 0x18008E6A0
 	public int slot; // 0x24
 	public bool setSlotFromSiblingIndex; // 0x28
 	public GameObject slots; // 0x30
@@ -2772,7 +2772,7 @@ public class ItemIcon : BaseMonoBehaviour, IPointerClickHandler, IEventSystemHan
 
 	private float CalculateLootDelay(uint sourceContainer) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x8ECD0 Offset: 0x8E0D0 VA: 0x18008ECD0
+	[IteratorStateMachineAttribute] // RVA: 0x8E770 Offset: 0x8DB70 VA: 0x18008E770
 	private IEnumerator StartTimedLootAction(float delay) { }
 
 	public void RunTimedAction() { }
@@ -2781,7 +2781,7 @@ public class ItemIcon : BaseMonoBehaviour, IPointerClickHandler, IEventSystemHan
 
 	private void RemoveFromLootQueue() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x8EE20 Offset: 0x8E220 VA: 0x18008EE20
+	[IteratorStateMachineAttribute] // RVA: 0x8E890 Offset: 0x8DC90 VA: 0x18008E890
 	private IEnumerator UpdateTimedActionIcon() { }
 
 	private void TryToQuickMove() { }
@@ -2982,7 +2982,7 @@ public class ItemPickupNotice : MonoBehaviour // TypeDefIndex: 11021
 
 public class ItemPreviewIcon : BaseMonoBehaviour, IInventoryChanged, IItemAmountChanged, IItemIconChanged // TypeDefIndex: 11022
 {	public ItemContainerSource containerSource; // 0x18
-	[RangeAttribute] // RVA: 0x8EC70 Offset: 0x8E070 VA: 0x18008EC70
+	[RangeAttribute] // RVA: 0x8E6A0 Offset: 0x8DAA0 VA: 0x18008E6A0
 	public int slot; // 0x20
 	public bool setSlotFromSiblingIndex; // 0x24
 	public CanvasGroup iconContents; // 0x28
@@ -3136,7 +3136,7 @@ public class ItemStore : SingletonComponent<ItemStore>, VirtualScroll.IDataSourc
 	public static readonly Translate.Phrase CartSingularPhrase; // 0x8
 	public static readonly Translate.Phrase CartPluralPhrase; // 0x10
 	public GameObject ItemPrefab; // 0x18
-	[FormerlySerializedAsAttribute] // RVA: 0x96810 Offset: 0x95C10 VA: 0x180096810
+	[FormerlySerializedAsAttribute] // RVA: 0x963E0 Offset: 0x957E0 VA: 0x1800963E0
 	public RectTransform LimitedItemParent; // 0x20
 	public RectTransform GeneralItemParent; // 0x28
 	public List<IPlayerItemDefinition> Cart; // 0x30
@@ -3154,7 +3154,7 @@ public class ItemStore : SingletonComponent<ItemStore>, VirtualScroll.IDataSourc
 
 	private void OnPurchaseFinished(AppId appid, ulong orderid, bool success) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x969D0 Offset: 0x95DD0 VA: 0x1800969D0
+	[AsyncStateMachineAttribute] // RVA: 0x96480 Offset: 0x95880 VA: 0x180096480
 	private void RefreshList() { }
 
 	private void AddItem(IPlayerItemDefinition item) { }
@@ -3169,7 +3169,7 @@ public class ItemStore : SingletonComponent<ItemStore>, VirtualScroll.IDataSourc
 
 	public void RemoveFromCart(int index) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x96B70 Offset: 0x95F70 VA: 0x180096B70
+	[AsyncStateMachineAttribute] // RVA: 0x96640 Offset: 0x95A40 VA: 0x180096640
 	public void Checkout() { }
 
 	public int GetItemCount() { }
@@ -3314,7 +3314,7 @@ public class ItemStoreItemInfoModal : MonoBehaviour // TypeDefIndex: 11118
 
 public class ItemModEngineItem : ItemMod // TypeDefIndex: 12116
 {	public EngineStorage.EngineItemTypes engineItemType; // 0x20
-	[RangeAttribute] // RVA: 0xDC1B0 Offset: 0xDB5B0 VA: 0x1800DC1B0
+	[RangeAttribute] // RVA: 0xDB990 Offset: 0xDAD90 VA: 0x1800DB990
 	public int tier; // 0x24
 
 
@@ -3324,7 +3324,7 @@ public class ItemModEngineItem : ItemMod // TypeDefIndex: 12116
 
 public class ItemModVehicleChassis : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 12117
 {	public GameObjectRef entityPrefab; // 0x20
-	[RangeAttribute] // RVA: 0xDC430 Offset: 0xDB830 VA: 0x1800DC430
+	[RangeAttribute] // RVA: 0xDBA80 Offset: 0xDAE80 VA: 0x1800DBA80
 	public int socketsTaken; // 0x28
 
 	public int SocketsTaken { get; }
@@ -3342,7 +3342,7 @@ public class ItemModVehicleChassis : ItemMod, VehicleModuleInformationPanel.IVeh
 
 public class ItemModVehicleModule : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 12118
 {	public GameObjectRef entityPrefab; // 0x20
-	[RangeAttribute] // RVA: 0xA45E0 Offset: 0xA39E0 VA: 0x1800A45E0
+	[RangeAttribute] // RVA: 0xA3E70 Offset: 0xA3270 VA: 0x1800A3E70
 	public int socketsTaken; // 0x28
 	public bool doNonUserSpawn; // 0x2C
 

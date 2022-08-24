@@ -1,6 +1,6 @@
 public class TorpedoServerProjectile : ServerProjectile // TypeDefIndex: 9613
-{	[TooltipAttribute] // RVA: 0x7A760 Offset: 0x79B60 VA: 0x18007A760
-	[SerializeField] // RVA: 0x7A760 Offset: 0x79B60 VA: 0x18007A760
+{	[TooltipAttribute] // RVA: 0x7A7B0 Offset: 0x79BB0 VA: 0x18007A7B0
+	[SerializeField] // RVA: 0x7A7B0 Offset: 0x79BB0 VA: 0x18007A7B0
 	private float minWaterDepth; // 0x58
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float shallowWaterInaccuracy; // 0x5C

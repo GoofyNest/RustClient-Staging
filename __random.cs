@@ -59,7 +59,7 @@ public struct ReadOnlySpan<T> // TypeDefIndex: 119
 	|-ReadOnlySpan<object>.Equals
 	*/
 
-	[ObsoleteAttribute] // RVA: 0xE9790 Offset: 0xE8B90 VA: 0x1800E9790
+	[ObsoleteAttribute] // RVA: 0xE97C0 Offset: 0xE8BC0 VA: 0x1800E97C0
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -5009,7 +5009,7 @@ public class ThreadLocal<T> : IDisposable // TypeDefIndex: 767
 	private ThreadLocal.LinkedSlot<T> m_linkedSlot; // 0x0
 	private bool m_trackAllValues; // 0x0
 
-	[DebuggerBrowsableAttribute] // RVA: 0x9EB00 Offset: 0x9DF00 VA: 0x18009EB00
+	[DebuggerBrowsableAttribute] // RVA: 0x9EA40 Offset: 0x9DE40 VA: 0x18009EA40
 	public T Value { get; set; }
 	public bool IsValueCreated { get; }
 
@@ -5123,7 +5123,7 @@ internal class Shared<T> // TypeDefIndex: 851
 }
 
 internal class ConstructionCallDictionary : MessageDictionary // TypeDefIndex: 1233
-{	public static string[] InternalKeys; // 0x1323D
+{	public static string[] InternalKeys; // 0x2B10780
 
 
 	public void .ctor(IConstructionCallMessage message) { }
@@ -5137,7 +5137,7 @@ internal class ConstructionCallDictionary : MessageDictionary // TypeDefIndex: 1
 }
 
 internal class MCMDictionary : MessageDictionary // TypeDefIndex: 1247
-{	public static string[] InternalKeys; // 0x13240
+{	public static string[] InternalKeys; // 0x142AD
 
 
 	public void .ctor(IMethodMessage message) { }
@@ -5327,88 +5327,88 @@ public sealed class ConditionalWeakTable<TKey, TValue> // TypeDefIndex: 1315
 
 public struct DictionaryEntry // TypeDefIndex: 1373
 {
-[ComVisibleAttribute] // RVA: 0xE15C0 Offset: 0xE09C0 VA: 0x1800E15C0
-[CLSCompliantAttribute] // RVA: 0xE15C0 Offset: 0xE09C0 VA: 0x1800E15C0
-[GuidAttribute] // RVA: 0xE15C0 Offset: 0xE09C0 VA: 0x1800E15C0
-[InterfaceTypeAttribute] // RVA: 0xE15C0 Offset: 0xE09C0 VA: 0x1800E15C0
+[ComVisibleAttribute] // RVA: 0xE1540 Offset: 0xE0940 VA: 0x1800E1540
+[CLSCompliantAttribute] // RVA: 0xE1540 Offset: 0xE0940 VA: 0x1800E1540
+[GuidAttribute] // RVA: 0xE1540 Offset: 0xE0940 VA: 0x1800E1540
+[InterfaceTypeAttribute] // RVA: 0xE1540 Offset: 0xE0940 VA: 0x1800E1540
 public interface _Assembly // TypeDefIndex: 1359
 
-[InterfaceTypeAttribute] // RVA: 0xE17C0 Offset: 0xE0BC0 VA: 0x1800E17C0
-[CLSCompliantAttribute] // RVA: 0xE17C0 Offset: 0xE0BC0 VA: 0x1800E17C0
-[GuidAttribute] // RVA: 0xE17C0 Offset: 0xE0BC0 VA: 0x1800E17C0
-[ComVisibleAttribute] // RVA: 0xE17C0 Offset: 0xE0BC0 VA: 0x1800E17C0
+[InterfaceTypeAttribute] // RVA: 0xE1740 Offset: 0xE0B40 VA: 0x1800E1740
+[CLSCompliantAttribute] // RVA: 0xE1740 Offset: 0xE0B40 VA: 0x1800E1740
+[GuidAttribute] // RVA: 0xE1740 Offset: 0xE0B40 VA: 0x1800E1740
+[ComVisibleAttribute] // RVA: 0xE1740 Offset: 0xE0B40 VA: 0x1800E1740
 public interface _AssemblyName // TypeDefIndex: 1360
 
-[CLSCompliantAttribute] // RVA: 0xE19B0 Offset: 0xE0DB0 VA: 0x1800E19B0
-[InterfaceTypeAttribute] // RVA: 0xE19B0 Offset: 0xE0DB0 VA: 0x1800E19B0
-[ComVisibleAttribute] // RVA: 0xE19B0 Offset: 0xE0DB0 VA: 0x1800E19B0
-[GuidAttribute] // RVA: 0xE19B0 Offset: 0xE0DB0 VA: 0x1800E19B0
+[CLSCompliantAttribute] // RVA: 0xE1930 Offset: 0xE0D30 VA: 0x1800E1930
+[InterfaceTypeAttribute] // RVA: 0xE1930 Offset: 0xE0D30 VA: 0x1800E1930
+[ComVisibleAttribute] // RVA: 0xE1930 Offset: 0xE0D30 VA: 0x1800E1930
+[GuidAttribute] // RVA: 0xE1930 Offset: 0xE0D30 VA: 0x1800E1930
 public interface _ConstructorInfo // TypeDefIndex: 1361
 
-[ComVisibleAttribute] // RVA: 0xE1B30 Offset: 0xE0F30 VA: 0x1800E1B30
-[InterfaceTypeAttribute] // RVA: 0xE1B30 Offset: 0xE0F30 VA: 0x1800E1B30
-[GuidAttribute] // RVA: 0xE1B30 Offset: 0xE0F30 VA: 0x1800E1B30
-[CLSCompliantAttribute] // RVA: 0xE1B30 Offset: 0xE0F30 VA: 0x1800E1B30
+[ComVisibleAttribute] // RVA: 0xE1AB0 Offset: 0xE0EB0 VA: 0x1800E1AB0
+[InterfaceTypeAttribute] // RVA: 0xE1AB0 Offset: 0xE0EB0 VA: 0x1800E1AB0
+[GuidAttribute] // RVA: 0xE1AB0 Offset: 0xE0EB0 VA: 0x1800E1AB0
+[CLSCompliantAttribute] // RVA: 0xE1AB0 Offset: 0xE0EB0 VA: 0x1800E1AB0
 public interface _EventInfo // TypeDefIndex: 1362
 
-[GuidAttribute] // RVA: 0xE4380 Offset: 0xE3780 VA: 0x1800E4380
-[ComVisibleAttribute] // RVA: 0xE4380 Offset: 0xE3780 VA: 0x1800E4380
-[CLSCompliantAttribute] // RVA: 0xE4380 Offset: 0xE3780 VA: 0x1800E4380
-[InterfaceTypeAttribute] // RVA: 0xE4380 Offset: 0xE3780 VA: 0x1800E4380
+[GuidAttribute] // RVA: 0xE4250 Offset: 0xE3650 VA: 0x1800E4250
+[ComVisibleAttribute] // RVA: 0xE4250 Offset: 0xE3650 VA: 0x1800E4250
+[CLSCompliantAttribute] // RVA: 0xE4250 Offset: 0xE3650 VA: 0x1800E4250
+[InterfaceTypeAttribute] // RVA: 0xE4250 Offset: 0xE3650 VA: 0x1800E4250
 public interface _Exception // TypeDefIndex: 1363
 
-[ComVisibleAttribute] // RVA: 0xE4910 Offset: 0xE3D10 VA: 0x1800E4910
-[GuidAttribute] // RVA: 0xE4910 Offset: 0xE3D10 VA: 0x1800E4910
-[CLSCompliantAttribute] // RVA: 0xE4910 Offset: 0xE3D10 VA: 0x1800E4910
-[InterfaceTypeAttribute] // RVA: 0xE4910 Offset: 0xE3D10 VA: 0x1800E4910
+[ComVisibleAttribute] // RVA: 0xE47E0 Offset: 0xE3BE0 VA: 0x1800E47E0
+[GuidAttribute] // RVA: 0xE47E0 Offset: 0xE3BE0 VA: 0x1800E47E0
+[CLSCompliantAttribute] // RVA: 0xE47E0 Offset: 0xE3BE0 VA: 0x1800E47E0
+[InterfaceTypeAttribute] // RVA: 0xE47E0 Offset: 0xE3BE0 VA: 0x1800E47E0
 public interface _FieldInfo // TypeDefIndex: 1364
 
-[ComVisibleAttribute] // RVA: 0xE4A50 Offset: 0xE3E50 VA: 0x1800E4A50
-[GuidAttribute] // RVA: 0xE4A50 Offset: 0xE3E50 VA: 0x1800E4A50
-[InterfaceTypeAttribute] // RVA: 0xE4A50 Offset: 0xE3E50 VA: 0x1800E4A50
-[CLSCompliantAttribute] // RVA: 0xE4A50 Offset: 0xE3E50 VA: 0x1800E4A50
+[ComVisibleAttribute] // RVA: 0xE4920 Offset: 0xE3D20 VA: 0x1800E4920
+[GuidAttribute] // RVA: 0xE4920 Offset: 0xE3D20 VA: 0x1800E4920
+[InterfaceTypeAttribute] // RVA: 0xE4920 Offset: 0xE3D20 VA: 0x1800E4920
+[CLSCompliantAttribute] // RVA: 0xE4920 Offset: 0xE3D20 VA: 0x1800E4920
 public interface _MemberInfo // TypeDefIndex: 1365
 
-[CLSCompliantAttribute] // RVA: 0xE5EC0 Offset: 0xE52C0 VA: 0x1800E5EC0
-[GuidAttribute] // RVA: 0xE5EC0 Offset: 0xE52C0 VA: 0x1800E5EC0
-[InterfaceTypeAttribute] // RVA: 0xE5EC0 Offset: 0xE52C0 VA: 0x1800E5EC0
-[ComVisibleAttribute] // RVA: 0xE5EC0 Offset: 0xE52C0 VA: 0x1800E5EC0
+[CLSCompliantAttribute] // RVA: 0xE5D90 Offset: 0xE5190 VA: 0x1800E5D90
+[GuidAttribute] // RVA: 0xE5D90 Offset: 0xE5190 VA: 0x1800E5D90
+[InterfaceTypeAttribute] // RVA: 0xE5D90 Offset: 0xE5190 VA: 0x1800E5D90
+[ComVisibleAttribute] // RVA: 0xE5D90 Offset: 0xE5190 VA: 0x1800E5D90
 public interface _MethodBase // TypeDefIndex: 1366
 
-[CLSCompliantAttribute] // RVA: 0xE60C0 Offset: 0xE54C0 VA: 0x1800E60C0
-[ComVisibleAttribute] // RVA: 0xE60C0 Offset: 0xE54C0 VA: 0x1800E60C0
-[GuidAttribute] // RVA: 0xE60C0 Offset: 0xE54C0 VA: 0x1800E60C0
-[InterfaceTypeAttribute] // RVA: 0xE60C0 Offset: 0xE54C0 VA: 0x1800E60C0
+[CLSCompliantAttribute] // RVA: 0xE5F90 Offset: 0xE5390 VA: 0x1800E5F90
+[ComVisibleAttribute] // RVA: 0xE5F90 Offset: 0xE5390 VA: 0x1800E5F90
+[GuidAttribute] // RVA: 0xE5F90 Offset: 0xE5390 VA: 0x1800E5F90
+[InterfaceTypeAttribute] // RVA: 0xE5F90 Offset: 0xE5390 VA: 0x1800E5F90
 public interface _MethodInfo // TypeDefIndex: 1367
 
-[ComVisibleAttribute] // RVA: 0xE6410 Offset: 0xE5810 VA: 0x1800E6410
-[CLSCompliantAttribute] // RVA: 0xE6410 Offset: 0xE5810 VA: 0x1800E6410
-[GuidAttribute] // RVA: 0xE6410 Offset: 0xE5810 VA: 0x1800E6410
-[InterfaceTypeAttribute] // RVA: 0xE6410 Offset: 0xE5810 VA: 0x1800E6410
+[ComVisibleAttribute] // RVA: 0xE62E0 Offset: 0xE56E0 VA: 0x1800E62E0
+[CLSCompliantAttribute] // RVA: 0xE62E0 Offset: 0xE56E0 VA: 0x1800E62E0
+[GuidAttribute] // RVA: 0xE62E0 Offset: 0xE56E0 VA: 0x1800E62E0
+[InterfaceTypeAttribute] // RVA: 0xE62E0 Offset: 0xE56E0 VA: 0x1800E62E0
 public interface _Module // TypeDefIndex: 1368
 
-[GuidAttribute] // RVA: 0xE64C0 Offset: 0xE58C0 VA: 0x1800E64C0
-[InterfaceTypeAttribute] // RVA: 0xE64C0 Offset: 0xE58C0 VA: 0x1800E64C0
-[ComVisibleAttribute] // RVA: 0xE64C0 Offset: 0xE58C0 VA: 0x1800E64C0
-[CLSCompliantAttribute] // RVA: 0xE64C0 Offset: 0xE58C0 VA: 0x1800E64C0
+[GuidAttribute] // RVA: 0xE6390 Offset: 0xE5790 VA: 0x1800E6390
+[InterfaceTypeAttribute] // RVA: 0xE6390 Offset: 0xE5790 VA: 0x1800E6390
+[ComVisibleAttribute] // RVA: 0xE6390 Offset: 0xE5790 VA: 0x1800E6390
+[CLSCompliantAttribute] // RVA: 0xE6390 Offset: 0xE5790 VA: 0x1800E6390
 public interface _ParameterInfo // TypeDefIndex: 1369
 
-[CLSCompliantAttribute] // RVA: 0xE66D0 Offset: 0xE5AD0 VA: 0x1800E66D0
-[ComVisibleAttribute] // RVA: 0xE66D0 Offset: 0xE5AD0 VA: 0x1800E66D0
-[InterfaceTypeAttribute] // RVA: 0xE66D0 Offset: 0xE5AD0 VA: 0x1800E66D0
-[GuidAttribute] // RVA: 0xE66D0 Offset: 0xE5AD0 VA: 0x1800E66D0
+[CLSCompliantAttribute] // RVA: 0xE65A0 Offset: 0xE59A0 VA: 0x1800E65A0
+[ComVisibleAttribute] // RVA: 0xE65A0 Offset: 0xE59A0 VA: 0x1800E65A0
+[InterfaceTypeAttribute] // RVA: 0xE65A0 Offset: 0xE59A0 VA: 0x1800E65A0
+[GuidAttribute] // RVA: 0xE65A0 Offset: 0xE59A0 VA: 0x1800E65A0
 public interface _PropertyInfo // TypeDefIndex: 1370
 
-[CLSCompliantAttribute] // RVA: 0xE68E0 Offset: 0xE5CE0 VA: 0x1800E68E0
-[InterfaceTypeAttribute] // RVA: 0xE68E0 Offset: 0xE5CE0 VA: 0x1800E68E0
-[GuidAttribute] // RVA: 0xE68E0 Offset: 0xE5CE0 VA: 0x1800E68E0
-[ComVisibleAttribute] // RVA: 0xE68E0 Offset: 0xE5CE0 VA: 0x1800E68E0
+[CLSCompliantAttribute] // RVA: 0xE67B0 Offset: 0xE5BB0 VA: 0x1800E67B0
+[InterfaceTypeAttribute] // RVA: 0xE67B0 Offset: 0xE5BB0 VA: 0x1800E67B0
+[GuidAttribute] // RVA: 0xE67B0 Offset: 0xE5BB0 VA: 0x1800E67B0
+[ComVisibleAttribute] // RVA: 0xE67B0 Offset: 0xE5BB0 VA: 0x1800E67B0
 public interface _Thread // TypeDefIndex: 1371
 
-[ComVisibleAttribute] // RVA: 0xE6C00 Offset: 0xE6000 VA: 0x1800E6C00
-[CLSCompliantAttribute] // RVA: 0xE6C00 Offset: 0xE6000 VA: 0x1800E6C00
-[GuidAttribute] // RVA: 0xE6C00 Offset: 0xE6000 VA: 0x1800E6C00
-[InterfaceTypeAttribute] // RVA: 0xE6C00 Offset: 0xE6000 VA: 0x1800E6C00
+[ComVisibleAttribute] // RVA: 0xE6AD0 Offset: 0xE5ED0 VA: 0x1800E6AD0
+[CLSCompliantAttribute] // RVA: 0xE6AD0 Offset: 0xE5ED0 VA: 0x1800E6AD0
+[GuidAttribute] // RVA: 0xE6AD0 Offset: 0xE5ED0 VA: 0x1800E6AD0
+[InterfaceTypeAttribute] // RVA: 0xE6AD0 Offset: 0xE5ED0 VA: 0x1800E6AD0
 public interface _Type // TypeDefIndex: 1372
 
 [Serializable]
@@ -5618,10 +5618,10 @@ private class ListDictionaryInternal.DictionaryNode // TypeDefIndex: 1412
 
 public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IList, ICollection, IReadOnlyList<T>, IReadOnlyCollection<T> // TypeDefIndex: 1426
 {
-[DefaultMemberAttribute] // RVA: 0xEA420 Offset: 0xE9820 VA: 0x1800EA420
-[DebuggerTypeProxyAttribute] // RVA: 0xEA420 Offset: 0xE9820 VA: 0x1800EA420
-[ComVisibleAttribute] // RVA: 0xEA420 Offset: 0xE9820 VA: 0x1800EA420
-[DebuggerDisplayAttribute] // RVA: 0xEA420 Offset: 0xE9820 VA: 0x1800EA420
+[DefaultMemberAttribute] // RVA: 0xEA4C0 Offset: 0xE98C0 VA: 0x1800EA4C0
+[DebuggerTypeProxyAttribute] // RVA: 0xEA4C0 Offset: 0xE98C0 VA: 0x1800EA4C0
+[ComVisibleAttribute] // RVA: 0xEA4C0 Offset: 0xE98C0 VA: 0x1800EA4C0
+[DebuggerDisplayAttribute] // RVA: 0xEA4C0 Offset: 0xE98C0 VA: 0x1800EA4C0
 [Serializable]
 public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IList, ICollection, IReadOnlyList<T>, IReadOnlyCollection<T> // TypeDefIndex: 1426
 	private IList<T> items; // 0x0
@@ -12058,7 +12058,7 @@ public class ConcurrentDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICo
 	|-ConcurrentDictionary<object, object>.CopyToObjects
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xEC1D0 Offset: 0xEB5D0 VA: 0x1800EC1D0
+	[IteratorStateMachineAttribute] // RVA: 0xEC230 Offset: 0xEB630 VA: 0x1800EC230
 	public IEnumerator<KeyValuePair<TKey, TValue>> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -12703,8 +12703,8 @@ private sealed class ConcurrentDictionary.<GetEnumerator>d__32<TKey, TValue> : I
 
 public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T> // TypeDefIndex: 1436
 {
-[DebuggerTypeProxyAttribute] // RVA: 0xEC510 Offset: 0xEB910 VA: 0x1800EC510
-[DebuggerDisplayAttribute] // RVA: 0xEC510 Offset: 0xEB910 VA: 0x1800EC510
+[DebuggerTypeProxyAttribute] // RVA: 0xEC590 Offset: 0xEB990 VA: 0x1800EC590
+[DebuggerDisplayAttribute] // RVA: 0xEC590 Offset: 0xEB990 VA: 0x1800EC590
 [Serializable]
 public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T> // TypeDefIndex: 1436
 	private object _crossSegmentLock; // 0x0
@@ -12814,7 +12814,7 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 	|-ConcurrentQueue<object>.GetItemWhenAvailable
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xEC660 Offset: 0xEBA60 VA: 0x1800EC660
+	[IteratorStateMachineAttribute] // RVA: 0xEC700 Offset: 0xEBB00 VA: 0x1800EC700
 	private IEnumerator<T> Enumerate(ConcurrentQueue.Segment<T> head, int headHead, ConcurrentQueue.Segment<T> tail, int tailTail) { }
 	/* GenericInstMethod :
 	|
@@ -40556,7 +40556,7 @@ public struct Dictionary.ValueCollection.Enumerator<TKey, TValue> : IEnumerator<
 
 internal class DictionaryHashHelpers // TypeDefIndex: 1456
 {	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private static readonly ConditionalWeakTable<object, SerializationInfo> <SerializationInfoTable>k__BackingField; // 0x13290
+	private static readonly ConditionalWeakTable<object, SerializationInfo> <SerializationInfoTable>k__BackingField; // 0x142F0
 
 	internal static ConditionalWeakTable<object, SerializationInfo> SerializationInfoTable { get; }
 
@@ -42496,7 +42496,7 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 {
 internal sealed class Mscorlib_KeyedCollectionDebugView<K, T> // TypeDefIndex: 1467
 
-[TypeDependencyAttribute] // RVA: 0xED6C0 Offset: 0xECAC0 VA: 0x1800ED6C0
+[TypeDependencyAttribute] // RVA: 0xED800 Offset: 0xECC00 VA: 0x1800ED800
 [Serializable]
 public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer<T> // TypeDefIndex: 1468
 	private static EqualityComparer<T> defaultComparer; // 0x0
@@ -60501,8 +60501,8 @@ internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> // TypeDefI
 
 internal sealed class DictionaryValueCollectionDebugView<TKey, TValue> // TypeDefIndex: 3114
 
-[DebuggerTypeProxyAttribute] // RVA: 0xBC130 Offset: 0xBB530 VA: 0x1800BC130
-[DebuggerDisplayAttribute] // RVA: 0xBC130 Offset: 0xBB530 VA: 0x1800BC130
+[DebuggerTypeProxyAttribute] // RVA: 0xBC140 Offset: 0xBB540 VA: 0x1800BC140
+[DebuggerDisplayAttribute] // RVA: 0xBC140 Offset: 0xBB540 VA: 0x1800BC140
 [Serializable]
 public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T>, ISerializable, IDeserializationCallback // TypeDefIndex: 3115
 	internal LinkedListNode<T> head; // 0x0
@@ -60904,9 +60904,9 @@ public sealed class LinkedListNode<T> // TypeDefIndex: 3117
 
 public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IDictionary, ICollection, IReadOnlyDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>> // TypeDefIndex: 3121
 {
-[DebuggerDisplayAttribute] // RVA: 0xBC610 Offset: 0xBBA10 VA: 0x1800BC610
-[DefaultMemberAttribute] // RVA: 0xBC610 Offset: 0xBBA10 VA: 0x1800BC610
-[DebuggerTypeProxyAttribute] // RVA: 0xBC610 Offset: 0xBBA10 VA: 0x1800BC610
+[DebuggerDisplayAttribute] // RVA: 0xBC700 Offset: 0xBBB00 VA: 0x1800BC700
+[DefaultMemberAttribute] // RVA: 0xBC700 Offset: 0xBBB00 VA: 0x1800BC700
+[DebuggerTypeProxyAttribute] // RVA: 0xBC700 Offset: 0xBBB00 VA: 0x1800BC700
 [Serializable]
 public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IDictionary, ICollection, IReadOnlyDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>> // TypeDefIndex: 3121
 	private SortedDictionary.KeyCollection<TKey, TValue> _keys; // 0x0
@@ -62822,7 +62822,7 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 	|-Lookup<Vector2Int, Resolution>..ctor
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xD1050 Offset: 0xD0450 VA: 0x1800D1050
+	[IteratorStateMachineAttribute] // RVA: 0xD0F20 Offset: 0xD0320 VA: 0x1800D0F20
 	public IEnumerator<IGrouping<TKey, TElement>> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -62893,7 +62893,7 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 
 internal sealed class CacheDict<TKey, TValue> // TypeDefIndex: 3250
 {
-[DefaultMemberAttribute] // RVA: 0x70D30 Offset: 0x70130 VA: 0x180070D30
+[DefaultMemberAttribute] // RVA: 0x70E60 Offset: 0x70260 VA: 0x180070E60
 internal sealed class CacheDict<TKey, TValue> // TypeDefIndex: 3250
 	private readonly int _mask; // 0x0
 	private readonly CacheDict.Entry<TKey, TValue>[] _entries; // 0x0
@@ -64071,8 +64071,8 @@ internal struct CastHelper<T> // TypeDefIndex: 3506
 }
 
 internal class InvokableCall<T1, T2> : BaseInvokableCall // TypeDefIndex: 3630
-{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private UnityAction<T1, T2> Delegate; // 0x0
 
 
@@ -64116,8 +64116,8 @@ internal class InvokableCall<T1, T2> : BaseInvokableCall // TypeDefIndex: 3630
 }
 
 internal class InvokableCall<T1, T2, T3> : BaseInvokableCall // TypeDefIndex: 3631
-{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private UnityAction<T1, T2, T3> Delegate; // 0x0
 
 
@@ -64155,8 +64155,8 @@ internal class InvokableCall<T1, T2, T3> : BaseInvokableCall // TypeDefIndex: 36
 }
 
 internal class InvokableCall<T1, T2, T3, T4> : BaseInvokableCall // TypeDefIndex: 3632
-{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private UnityAction<T1, T2, T3, T4> Delegate; // 0x0
 
 
@@ -64296,11 +64296,11 @@ internal class ObjectPool<T> // TypeDefIndex: 4595
 }
 
 public abstract class PointerCaptureEventBase<T> : EventBase<T> // TypeDefIndex: 4621
-{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private IEventHandler <relatedTarget>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private int <pointerId>k__BackingField; // 0x0
 
 	private IEventHandler relatedTarget { set; }
@@ -64637,14 +64637,14 @@ public abstract class EventBase<T> : EventBase // TypeDefIndex: 4643
 }
 
 public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
-{	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+{	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private Focusable <relatedTarget>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private FocusChangeDirection <direction>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private FocusController <focusController>k__BackingField; // 0x0
 
 	public Focusable relatedTarget { get; set; }
@@ -64734,14 +64734,14 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
 public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // TypeDefIndex: 4662
 {
 public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // TypeDefIndex: 4662
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private EventModifiers <modifiers>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private char <character>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private KeyCode <keyCode>k__BackingField; // 0x0
 
 	protected EventModifiers modifiers { set; }
@@ -64810,35 +64810,35 @@ public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // Typ
 }
 
 public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEventInternal // TypeDefIndex: 4670
-{	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+{	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private EventModifiers <modifiers>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private Vector2 <mousePosition>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private Vector2 <localMousePosition>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private Vector2 <mouseDelta>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private int <clickCount>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private int <button>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private int <pressedButtons>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private bool <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private bool <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private IPointerEvent <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField; // 0x0
 
 	public EventModifiers modifiers { get; set; }
@@ -65352,65 +65352,65 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 }
 
 public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointerEventInternal // TypeDefIndex: 4691
-{	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+{	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private int <pointerId>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private string <pointerType>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private bool <isPrimary>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private int <button>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private int <pressedButtons>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private Vector3 <position>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private Vector3 <localPosition>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private Vector3 <deltaPosition>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private float <deltaTime>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private int <clickCount>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private float <pressure>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private float <tangentialPressure>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private float <altitudeAngle>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private float <azimuthAngle>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private float <twist>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private Vector2 <radius>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private Vector2 <radiusVariance>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private EventModifiers <modifiers>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private bool <UnityEngine.UIElements.IPointerEventInternal.triggeredByOS>k__BackingField; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private bool <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField; // 0x0
 
 	public int pointerId { get; set; }
@@ -66672,7 +66672,7 @@ public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable
 	|-ImmutableStack<object>.Push
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xD54D0 Offset: 0xD48D0 VA: 0x1800D54D0
+	[IteratorStateMachineAttribute] // RVA: 0xD53A0 Offset: 0xD47A0 VA: 0x1800D53A0
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -67067,7 +67067,7 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 	|-ListDictionary<Collider, List<Collider>>.get_Count
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xD6000 Offset: 0xD5400 VA: 0x1800D6000
+	[IteratorStateMachineAttribute] // RVA: 0xD5F20 Offset: 0xD5320 VA: 0x1800D5F20
 	public IEnumerator<KeyValuePair<TKey, TVal>> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -67880,7 +67880,7 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 	|-CircularBuffer<object>.ToArraySegments
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xD6D70 Offset: 0xD6170 VA: 0x1800D6D70
+	[IteratorStateMachineAttribute] // RVA: 0xD6CE0 Offset: 0xD60E0 VA: 0x1800D6CE0
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|
@@ -68231,7 +68231,7 @@ internal class TweenRunner<T> // TypeDefIndex: 5044
 	protected IEnumerator m_Tween; // 0x0
 
 
-	[IteratorStateMachineAttribute] // RVA: 0x80970 Offset: 0x7FD70 VA: 0x180080970
+	[IteratorStateMachineAttribute] // RVA: 0x807F0 Offset: 0x7FBF0 VA: 0x1800807F0
 	private static IEnumerator Start(T tweenInfo) { }
 	/* GenericInstMethod :
 	|
@@ -69868,8 +69868,8 @@ public sealed class ObjectConstructor<T> : MulticastDelegate // TypeDefIndex: 60
 
 public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 6059
 {
-[PreserveAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-[DefaultMemberAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+[PreserveAttribute] // RVA: 0x71740 Offset: 0x70B40 VA: 0x180071740
+[DefaultMemberAttribute] // RVA: 0x71740 Offset: 0x70B40 VA: 0x180071740
 public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 6059
 	public static readonly JEnumerable<T> Empty; // 0x0
 	private readonly IEnumerable<T> _enumerable; // 0x0
@@ -69964,7 +69964,7 @@ public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex
 }
 
 public class KeyValuePairConverter : JsonConverter // TypeDefIndex: 6103
-{	private static readonly ThreadSafeStore<Type, ReflectionObject> ReflectionObjectPerType; // 0x2780
+{	private static readonly ThreadSafeStore<Type, ReflectionObject> ReflectionObjectPerType; // 0x36E6
 
 
 	private static ReflectionObject InitializeReflectionObject(Type t) { }
@@ -70494,7 +70494,7 @@ internal class TweenRunner<T> // TypeDefIndex: 6755
 	protected IEnumerator m_Tween; // 0x0
 
 
-	[IteratorStateMachineAttribute] // RVA: 0xCA590 Offset: 0xC9990 VA: 0x1800CA590
+	[IteratorStateMachineAttribute] // RVA: 0xCA500 Offset: 0xC9900 VA: 0x1800CA500
 	private static IEnumerator Start(T tweenInfo) { }
 
 	public void Init(MonoBehaviour coroutineContainer) { }
@@ -70579,7 +70579,7 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7620
 	|-CircularBuffer<object>.GetItems
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xB28D0 Offset: 0xB1CD0 VA: 0x1800B28D0
+	[IteratorStateMachineAttribute] // RVA: 0xB2AE0 Offset: 0xB1EE0 VA: 0x1800B2AE0
 	private IEnumerable<T> GetItems(int start, int end) { }
 	/* GenericInstMethod :
 	|
@@ -70632,11 +70632,11 @@ internal struct GameEvent<T> // TypeDefIndex: 7705
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private T <Data>k__BackingField; // 0x0
 
-	[JsonPropertyAttribute] // RVA: 0xC0DA0 Offset: 0xC01A0 VA: 0x1800C0DA0
+	[JsonPropertyAttribute] // RVA: 0xC0F10 Offset: 0xC0310 VA: 0x1800C0F10
 	public string GameId { get; set; }
-	[JsonPropertyAttribute] // RVA: 0xC0FC0 Offset: 0xC03C0 VA: 0x1800C0FC0
+	[JsonPropertyAttribute] // RVA: 0xC10B0 Offset: 0xC04B0 VA: 0x1800C10B0
 	public string Event { get; set; }
-	[JsonPropertyAttribute] // RVA: 0xC12B0 Offset: 0xC06B0 VA: 0x1800C12B0
+	[JsonPropertyAttribute] // RVA: 0xC1310 Offset: 0xC0710 VA: 0x1800C1310
 	public T Data { get; set; }
 
 
@@ -71328,7 +71328,7 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 10415
 }
 
 public static class RecipeDictionary // TypeDefIndex: 10758
-{	private static Dictionary<uint, Dictionary<int, List<Recipe>>> recipeListsDict; // 0x231F
+{	private static Dictionary<uint, Dictionary<int, List<Recipe>>> recipeListsDict; // 0x2B108D4
 
 
 	public static void CacheRecipes(RecipeList recipeList) { }

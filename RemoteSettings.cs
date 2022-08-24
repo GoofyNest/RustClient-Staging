@@ -1,16 +1,16 @@
 public static class RemoteSettings // TypeDefIndex: 4741
 {
-[NativeHeaderAttribute] // RVA: 0xAA5D0 Offset: 0xA99D0 VA: 0x1800AA5D0
-[NativeHeaderAttribute] // RVA: 0xAA5D0 Offset: 0xA99D0 VA: 0x1800AA5D0
+[NativeHeaderAttribute] // RVA: 0xAA6F0 Offset: 0xA9AF0 VA: 0x1800AA6F0
+[NativeHeaderAttribute] // RVA: 0xAA6F0 Offset: 0xA9AF0 VA: 0x1800AA6F0
 public static class RemoteSettings // TypeDefIndex: 4741
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static RemoteSettings.UpdatedEventHandler Updated; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static Action BeforeFetchFromServer; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private static Action<bool, bool, int> Completed; // 0x10
 
 

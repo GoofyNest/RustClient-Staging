@@ -6,11 +6,11 @@ internal struct GameMetadata // TypeDefIndex: 7706
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <Developer>k__BackingField; // 0x10
 
-	[JsonPropertyAttribute] // RVA: 0xC0DA0 Offset: 0xC01A0 VA: 0x1800C0DA0
+	[JsonPropertyAttribute] // RVA: 0xC0F10 Offset: 0xC0310 VA: 0x1800C0F10
 	public string GameId { get; set; }
-	[JsonPropertyAttribute] // RVA: 0xC1C80 Offset: 0xC1080 VA: 0x1800C1C80
+	[JsonPropertyAttribute] // RVA: 0xC1CE0 Offset: 0xC10E0 VA: 0x1800C1CE0
 	public string GameDisplayName { get; set; }
-	[JsonPropertyAttribute] // RVA: 0xC1D10 Offset: 0xC1110 VA: 0x1800C1D10
+	[JsonPropertyAttribute] // RVA: 0xC1E50 Offset: 0xC1250 VA: 0x1800C1E50
 	public string Developer { get; set; }
 
 

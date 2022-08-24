@@ -1,5 +1,5 @@
 internal static class ReflectionUtils // TypeDefIndex: 5965
-{	public static readonly Type[] EmptyTypes; // 0x2B117B0
+{	public static readonly Type[] EmptyTypes; // 0x3630
 
 
 	private static void .cctor() { }

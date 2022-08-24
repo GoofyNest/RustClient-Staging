@@ -11,22 +11,22 @@ public class Screenshot : SingletonComponent<Screenshot> // TypeDefIndex: 11340
 	private string savePathName; // 0x28
 
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void takescreenshot(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void takehiresscreenshot(ConsoleSystem.Arg arg) { }
 
 	private void TakeScreenshotNormal() { }
 
 	private void TakeHighResScreenshot() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA5260 Offset: 0xA4660 VA: 0x1800A5260
+	[IteratorStateMachineAttribute] // RVA: 0xA4AD0 Offset: 0xA3ED0 VA: 0x1800A4AD0
 	private IEnumerator SaveScreenshot(string ext, int resolutionX, int resolutionY, bool withHud, bool withoutHud) { }
 
 	private void GetScreenCallback(Texture2D texture) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA5420 Offset: 0xA4820 VA: 0x1800A5420
+	[IteratorStateMachineAttribute] // RVA: 0xA4C80 Offset: 0xA4080 VA: 0x1800A4C80
 	public static IEnumerator GetScreen(Camera camera, int resolutionX, int resolutionY, Action<Texture2D> finishedCallback, Action renderCallback, bool updateCamera = False) { }
 
 	public void .ctor() { }

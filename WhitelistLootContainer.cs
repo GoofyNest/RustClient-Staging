@@ -1,5 +1,5 @@
 public class WhitelistLootContainer : LootContainer // TypeDefIndex: 9619
-{	public static readonly Translate.Phrase CantLootToast; // 0x2B117B8
+{	public static readonly Translate.Phrase CantLootToast; // 0x1EE0
 
 
 	public void .ctor() { }

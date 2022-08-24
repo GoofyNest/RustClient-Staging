@@ -1,19 +1,19 @@
 public class Grass : ConsoleSystem // TypeDefIndex: 11934
-{	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+{	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool displacement; // 0x0
 	private static float m_quality; // 0x4
 	private static float m_distance; // 0x8
 	private static int m_maxthreads; // 0xC
 	private static float m_refresh_budget; // 0x10
 
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float quality { get; set; }
 	public static float quality01 { get; set; }
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float distance { get; set; }
-	[ClientVar] // RVA: 0x894B0 Offset: 0x888B0 VA: 0x1800894B0
+	[ClientVar] // RVA: 0x88D60 Offset: 0x88160 VA: 0x180088D60
 	public static int maxthreads { get; set; }
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float refresh_budget { get; set; }
 
 
@@ -37,7 +37,7 @@ public class Grass : ConsoleSystem // TypeDefIndex: 11934
 
 	public static void set_refresh_budget(float value) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void print_foliage(ConsoleSystem.Arg args) { }
 
 	public void .ctor() { }

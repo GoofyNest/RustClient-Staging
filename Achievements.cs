@@ -18,7 +18,7 @@ public class Achievements : SingletonComponent<Achievements> // TypeDefIndex: 10
 
 	public void Reset() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x7D650 Offset: 0x7CA50 VA: 0x18007D650
+	[IteratorStateMachineAttribute] // RVA: 0x7CD40 Offset: 0x7C140 VA: 0x18007CD40
 	private IEnumerator Think() { }
 
 	public bool ShouldShow() { }

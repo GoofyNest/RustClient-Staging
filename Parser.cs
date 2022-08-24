@@ -85,7 +85,7 @@ public static class Parser.Token // TypeDefIndex: 5790
 }
 
 public static class Parser.DateTime // TypeDefIndex: 5791
-{	public static readonly Func<object, string> ToString; // 0x2687
+{	public static readonly Func<object, string> ToString; // 0x2B10840
 
 
 	public static bool TryParse(string input, out DateTimeOffset result) { }
@@ -95,7 +95,7 @@ public static class Parser.DateTime // TypeDefIndex: 5791
 }
 
 private sealed class Parser.DateTime.<>c // TypeDefIndex: 5792
-{	public static readonly Parser.DateTime.<>c <>9; // 0x2B11EA8
+{	public static readonly Parser.DateTime.<>c <>9; // 0x3590
 
 
 	private static void .cctor() { }
@@ -131,7 +131,7 @@ public static class Parser.Long // TypeDefIndex: 5796
 }
 
 public static class Parser.MD5 // TypeDefIndex: 5797
-{	public static readonly Func<object, string> ToString; // 0x2690
+{	public static readonly Func<object, string> ToString; // 0x35CF
 
 
 	public static bool TryParse(string input, out byte[] result) { }
@@ -141,7 +141,7 @@ public static class Parser.MD5 // TypeDefIndex: 5797
 }
 
 private sealed class Parser.MD5.<>c // TypeDefIndex: 5798
-{	public static readonly Parser.MD5.<>c <>9; // 0x26E1
+{	public static readonly Parser.MD5.<>c <>9; // 0x2B10770
 
 
 	private static void .cctor() { }

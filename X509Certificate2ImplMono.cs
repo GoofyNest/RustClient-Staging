@@ -67,7 +67,7 @@ internal class X509Certificate2ImplMono : X509Certificate2Impl // TypeDefIndex: 
 
 	public override int get_Version() { }
 
-	[MonoTODOAttribute] // RVA: 0xAEA10 Offset: 0xADE10 VA: 0x1800AEA10
+	[MonoTODOAttribute] // RVA: 0xAEB50 Offset: 0xADF50 VA: 0x1800AEB50
 	public override string GetNameInfo(X509NameType nameType, bool forIssuer) { }
 
 	private ASN1 Find(byte[] oid, ASN1 dn) { }
@@ -76,7 +76,7 @@ internal class X509Certificate2ImplMono : X509Certificate2Impl // TypeDefIndex: 
 
 	private X509Certificate ImportPkcs12(byte[] rawData, string password) { }
 
-	[MonoTODOAttribute] // RVA: 0xAFE40 Offset: 0xAF240 VA: 0x1800AFE40
+	[MonoTODOAttribute] // RVA: 0xAFFA0 Offset: 0xAF3A0 VA: 0x1800AFFA0
 	public override void Import(byte[] rawData, string password, X509KeyStorageFlags keyStorageFlags) { }
 
 	public override void Reset() { }
@@ -87,7 +87,7 @@ internal class X509Certificate2ImplMono : X509Certificate2Impl // TypeDefIndex: 
 
 	private static void AppendBuffer(StringBuilder sb, byte[] buffer) { }
 
-	[MonoTODOAttribute] // RVA: 0xB0000 Offset: 0xAF400 VA: 0x1800B0000
+	[MonoTODOAttribute] // RVA: 0xB0150 Offset: 0xAF550 VA: 0x1800B0150
 	public override bool Verify(X509Certificate2 thisCertificate) { }
 
 	internal override X509CertificateImplCollection get_IntermediateCertificates() { }

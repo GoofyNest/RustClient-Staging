@@ -1,7 +1,7 @@
 public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutElement, ICanvasRaycastFilter // TypeDefIndex: 4938
 {	protected static Material s_ETC1DefaultUI; // 0x0
-	[FormerlySerializedAsAttribute] // RVA: 0xEC610 Offset: 0xEBA10 VA: 0x1800EC610
-	[SerializeField] // RVA: 0xEC610 Offset: 0xEBA10 VA: 0x1800EC610
+	[FormerlySerializedAsAttribute] // RVA: 0xEC6B0 Offset: 0xEBAB0 VA: 0x1800EC6B0
+	[SerializeField] // RVA: 0xEC6B0 Offset: 0xEBAB0 VA: 0x1800EC6B0
 	private Sprite m_Sprite; // 0xC8
 	private Sprite m_OverrideSprite; // 0xD0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -43,7 +43,7 @@ public class Image : MaskableGraphic, ISerializationCallbackReceiver, ILayoutEle
 	public float fillAmount { get; set; }
 	public bool fillClockwise { get; set; }
 	public int fillOrigin { get; set; }
-	[ObsoleteAttribute] // RVA: 0xECBB0 Offset: 0xEBFB0 VA: 0x1800ECBB0
+	[ObsoleteAttribute] // RVA: 0xECC10 Offset: 0xEC010 VA: 0x1800ECC10
 	public float eventAlphaThreshold { get; set; }
 	public float alphaHitTestMinimumThreshold { get; set; }
 	public bool useSpriteMesh { get; set; }

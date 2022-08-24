@@ -30,15 +30,15 @@ public struct Vector3 : IEquatable<Vector3> // TypeDefIndex: 3467
 	public static Vector3 positiveInfinity { get; }
 
 
-	[FreeFunctionAttribute] // RVA: 0xABEE0 Offset: 0xAB2E0 VA: 0x1800ABEE0
+	[FreeFunctionAttribute] // RVA: 0xABF20 Offset: 0xAB320 VA: 0x1800ABF20
 	public static Vector3 Slerp(Vector3 a, Vector3 b, float t) { }
 
-	[FreeFunctionAttribute] // RVA: 0xABFB0 Offset: 0xAB3B0 VA: 0x1800ABFB0
+	[FreeFunctionAttribute] // RVA: 0xABF90 Offset: 0xAB390 VA: 0x1800ABF90
 	private static void OrthoNormalize2(ref Vector3 a, ref Vector3 b) { }
 
 	public static void OrthoNormalize(ref Vector3 normal, ref Vector3 tangent) { }
 
-	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
+	[FreeFunctionAttribute] // RVA: 0x85620 Offset: 0x84A20 VA: 0x180085620
 	public static Vector3 RotateTowards(Vector3 current, Vector3 target, float maxRadiansDelta, float maxMagnitudeDelta) { }
 
 	public static Vector3 Lerp(Vector3 a, Vector3 b, float t) { }

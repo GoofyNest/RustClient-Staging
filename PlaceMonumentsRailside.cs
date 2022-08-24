@@ -4,14 +4,14 @@ public class PlaceMonumentsRailside : ProceduralComponent // TypeDefIndex: 10549
 	public int TargetCount; // 0x38
 	public int PositionOffset; // 0x3C
 	public int TangentInterval; // 0x40
-	[FormerlySerializedAsAttribute] // RVA: 0xDA590 Offset: 0xD9990 VA: 0x1800DA590
+	[FormerlySerializedAsAttribute] // RVA: 0xDA060 Offset: 0xD9460 VA: 0x1800DA060
 	public int MinDistanceSameType; // 0x44
 	public int MinDistanceDifferentType; // 0x48
-	[FormerlySerializedAsAttribute] // RVA: 0xDA6A0 Offset: 0xD9AA0 VA: 0x1800DA6A0
+	[FormerlySerializedAsAttribute] // RVA: 0xDA090 Offset: 0xD9490 VA: 0x1800DA090
 	public int MinWorldSize; // 0x4C
-	[TooltipAttribute] // RVA: 0xDA7A0 Offset: 0xD9BA0 VA: 0x1800DA7A0
+	[TooltipAttribute] // RVA: 0xDA2C0 Offset: 0xD96C0 VA: 0x1800DA2C0
 	public PlaceMonumentsRailside.DistanceMode DistanceSameType; // 0x50
-	[TooltipAttribute] // RVA: 0xDAA10 Offset: 0xD9E10 VA: 0x1800DAA10
+	[TooltipAttribute] // RVA: 0xDA340 Offset: 0xD9740 VA: 0x1800DA340
 	public PlaceMonumentsRailside.DistanceMode DistanceDifferentType; // 0x54
 	private const int GroupCandidates = 8;
 	private const int IndividualCandidates = 8;

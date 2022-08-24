@@ -23,7 +23,7 @@ public struct Friend // TypeDefIndex: 5236
 
 	public bool get_IsOnline() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x977F0 Offset: 0x96BF0 VA: 0x1800977F0
+	[AsyncStateMachineAttribute] // RVA: 0x977B0 Offset: 0x96BB0 VA: 0x1800977B0
 	public Task RequestInfoAsync() { }
 
 	public Relationship get_Relationship() { }

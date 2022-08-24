@@ -10,7 +10,7 @@ public class SegmentMaskPositioning : MonoBehaviour // TypeDefIndex: 11207
 	private int chestRootBoneId; // 0x58
 
 
-	[ContextMenu] // RVA: 0x9F840 Offset: 0x9EC40 VA: 0x18009F840
+	[ContextMenu] // RVA: 0x9F310 Offset: 0x9E710 VA: 0x18009F310
 	public void Refresh() { }
 
 	public void .ctor() { }

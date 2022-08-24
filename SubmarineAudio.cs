@@ -1,6 +1,6 @@
 public class SubmarineAudio : MonoBehaviour // TypeDefIndex: 9761
-{	[HeaderAttribute] // RVA: 0x87EA0 Offset: 0x872A0 VA: 0x180087EA0
-	[SerializeField] // RVA: 0x87EA0 Offset: 0x872A0 VA: 0x180087EA0
+{	[HeaderAttribute] // RVA: 0x87E60 Offset: 0x87260 VA: 0x180087E60
+	[SerializeField] // RVA: 0x87E60 Offset: 0x87260 VA: 0x180087E60
 	private SoundDefinition engineStartSound; // 0x18
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition engineStopSound; // 0x20
@@ -10,8 +10,8 @@ public class SubmarineAudio : MonoBehaviour // TypeDefIndex: 9761
 	private SoundDefinition engineLoopSound; // 0x30
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private AnimationCurve engineLoopPitchCurve; // 0x38
-	[HeaderAttribute] // RVA: 0x885C0 Offset: 0x879C0 VA: 0x1800885C0
-	[SerializeField] // RVA: 0x885C0 Offset: 0x879C0 VA: 0x1800885C0
+	[HeaderAttribute] // RVA: 0x88510 Offset: 0x87910 VA: 0x180088510
+	[SerializeField] // RVA: 0x88510 Offset: 0x87910 VA: 0x180088510
 	private SoundDefinition underwaterLoopDef; // 0x40
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition underwaterMovementLoopDef; // 0x48
@@ -23,8 +23,8 @@ public class SubmarineAudio : MonoBehaviour // TypeDefIndex: 9761
 	private SoundDefinition waterEmergeSoundDef; // 0x60
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition waterSubmergeSoundDef; // 0x68
-	[HeaderAttribute] // RVA: 0x939D0 Offset: 0x92DD0 VA: 0x1800939D0
-	[SerializeField] // RVA: 0x939D0 Offset: 0x92DD0 VA: 0x1800939D0
+	[HeaderAttribute] // RVA: 0x93850 Offset: 0x92C50 VA: 0x180093850
+	[SerializeField] // RVA: 0x93850 Offset: 0x92C50 VA: 0x180093850
 	private SoundDefinition activeLoopDef; // 0x70
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition footPedalSoundDef; // 0x78

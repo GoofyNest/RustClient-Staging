@@ -4,7 +4,7 @@ public class LeanTester : MonoBehaviour // TypeDefIndex: 5575
 
 	public void Start() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xB4670 Offset: 0xB3A70 VA: 0x1800B4670
+	[IteratorStateMachineAttribute] // RVA: 0xB46D0 Offset: 0xB3AD0 VA: 0x1800B46D0
 	private IEnumerator timeoutCheck() { }
 
 	public void .ctor() { }

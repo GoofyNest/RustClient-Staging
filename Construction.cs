@@ -2,9 +2,9 @@ public class Construction : PrefabAttribute // TypeDefIndex: 9052
 {	public static string lastPlacementError; // 0x0
 	public BaseEntity.Menu.Option info; // 0x98
 	public bool canBypassBuildingPermission; // 0xB8
-	[FormerlySerializedAsAttribute] // RVA: 0xD0870 Offset: 0xCFC70 VA: 0x1800D0870
+	[FormerlySerializedAsAttribute] // RVA: 0xD0790 Offset: 0xCFB90 VA: 0x1800D0790
 	public bool canRotateBeforePlacement; // 0xB9
-	[FormerlySerializedAsAttribute] // RVA: 0xD0870 Offset: 0xCFC70 VA: 0x1800D0870
+	[FormerlySerializedAsAttribute] // RVA: 0xD0790 Offset: 0xCFB90 VA: 0x1800D0790
 	public bool canRotateAfterPlacement; // 0xBA
 	public bool checkVolumeOnRotate; // 0xBB
 	public bool checkVolumeOnUpgrade; // 0xBC
@@ -12,11 +12,11 @@ public class Construction : PrefabAttribute // TypeDefIndex: 9052
 	public bool placeOnWater; // 0xBE
 	public Vector3 rotationAmount; // 0xC0
 	public Vector3 applyStartingRotation; // 0xCC
-	[RangeAttribute] // RVA: 0x983A0 Offset: 0x977A0 VA: 0x1800983A0
+	[RangeAttribute] // RVA: 0x98410 Offset: 0x97810 VA: 0x180098410
 	public float healthMultiplier; // 0xD8
-	[RangeAttribute] // RVA: 0x983A0 Offset: 0x977A0 VA: 0x1800983A0
+	[RangeAttribute] // RVA: 0x98410 Offset: 0x97810 VA: 0x180098410
 	public float costMultiplier; // 0xDC
-	[RangeAttribute] // RVA: 0xD0B20 Offset: 0xCFF20 VA: 0x1800D0B20
+	[RangeAttribute] // RVA: 0xD0A90 Offset: 0xCFE90 VA: 0x1800D0A90
 	public float maxplaceDistance; // 0xE0
 	public Mesh guideMesh; // 0xE8
 	public Socket_Base[] allSockets; // 0xF0
@@ -120,7 +120,7 @@ private sealed class Construction.<>c // TypeDefIndex: 9056
 }
 
 public class Construction_SleepingBag : Construction // TypeDefIndex: 9063
-{	public static bool ShowSleepingBagProximityWarning; // 0x15EC
+{	public static bool ShowSleepingBagProximityWarning; // 0x2B10768
 
 
 	public override bool ShowAsNeutral(Construction.Target target) { }

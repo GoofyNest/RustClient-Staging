@@ -1,5 +1,5 @@
 internal struct IPCountry_t : ICallbackData // TypeDefIndex: 5327
-{	public static int _datasize; // 0x12AED
+{	public static int _datasize; // 0x2B10760
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }

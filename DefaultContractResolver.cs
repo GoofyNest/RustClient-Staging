@@ -15,7 +15,7 @@ public class DefaultContractResolver : IContractResolver // TypeDefIndex: 5991
 	private bool <IgnoreSerializableAttribute>k__BackingField; // 0x22
 
 	internal static IContractResolver Instance { get; }
-	[ObsoleteAttribute] // RVA: 0x7F770 Offset: 0x7EB70 VA: 0x18007F770
+	[ObsoleteAttribute] // RVA: 0x7F640 Offset: 0x7EA40 VA: 0x18007F640
 	public BindingFlags DefaultMembersSearchFlags { get; set; }
 	public bool SerializeCompilerGeneratedMembers { get; }
 	public bool IgnoreSerializableInterface { get; }
@@ -44,7 +44,7 @@ public class DefaultContractResolver : IContractResolver // TypeDefIndex: 5991
 
 	public void .ctor() { }
 
-	[ObsoleteAttribute] // RVA: 0x7F610 Offset: 0x7EA10 VA: 0x18007F610
+	[ObsoleteAttribute] // RVA: 0x7F4E0 Offset: 0x7E8E0 VA: 0x18007F4E0
 	public void .ctor(bool shareCache) { }
 
 	internal DefaultContractResolverState GetState() { }

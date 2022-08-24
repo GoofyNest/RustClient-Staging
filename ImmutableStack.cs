@@ -26,7 +26,7 @@ private sealed class ImmutableStack.EmptyStack<T> : IImmutableStack<T>, IEnumera
 	|-ImmutableStack.EmptyStack<object>.Peek
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xD5680 Offset: 0xD4A80 VA: 0x1800D5680
+	[IteratorStateMachineAttribute] // RVA: 0xD5550 Offset: 0xD4950 VA: 0x1800D5550
 	public IEnumerator<T> GetEnumerator() { }
 	/* GenericInstMethod :
 	|

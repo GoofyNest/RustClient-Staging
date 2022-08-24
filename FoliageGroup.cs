@@ -52,10 +52,10 @@ public class FoliageGroup : Pool.IPooled // TypeDefIndex: 9873
 
 	public void DisplayBatches() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA32F0 Offset: 0xA26F0 VA: 0x1800A32F0
+	[IteratorStateMachineAttribute] // RVA: 0xA2ED0 Offset: 0xA22D0 VA: 0x1800A2ED0
 	public IEnumerator UpdateDataAsync() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA3490 Offset: 0xA2890 VA: 0x1800A3490
+	[IteratorStateMachineAttribute] // RVA: 0xA2FB0 Offset: 0xA23B0 VA: 0x1800A2FB0
 	public IEnumerator RefreshBatchesAsync() { }
 
 	public void Start() { }

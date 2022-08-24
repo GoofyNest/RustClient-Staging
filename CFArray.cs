@@ -1,5 +1,5 @@
 internal class CFArray : CFObject // TypeDefIndex: 2514
-{	private static readonly IntPtr kCFTypeArrayCallbacks; // 0x135A0
+{	private static readonly IntPtr kCFTypeArrayCallbacks; // 0x14566
 
 	public int Count { get; }
 	public IntPtr Item { get; }

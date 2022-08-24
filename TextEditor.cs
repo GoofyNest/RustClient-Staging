@@ -5,7 +5,7 @@ public class TextEditor // TypeDefIndex: 4061
 	public bool multiline; // 0x28
 	public bool hasHorizontalCursorPos; // 0x29
 	public bool isPasswordField; // 0x2A
-	[VisibleToOtherModulesAttribute] // RVA: 0xDC490 Offset: 0xDB890 VA: 0x1800DC490
+	[VisibleToOtherModulesAttribute] // RVA: 0xDC3E0 Offset: 0xDB7E0 VA: 0x1800DC3E0
 	internal bool m_HasFocus; // 0x2B
 	public Vector2 scrollOffset; // 0x2C
 	private GUIContent m_Content; // 0x38
@@ -41,7 +41,7 @@ public class TextEditor // TypeDefIndex: 4061
 
 	public void set_position(Rect value) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xDD930 Offset: 0xDCD30 VA: 0x1800DD930
+	[VisibleToOtherModulesAttribute] // RVA: 0xDD870 Offset: 0xDCC70 VA: 0x1800DD870
 	internal virtual Rect get_localPosition() { }
 
 	public int get_cursorIndex() { }

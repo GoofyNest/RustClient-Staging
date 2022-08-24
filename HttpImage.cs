@@ -22,7 +22,7 @@ public class HttpImage : MonoBehaviour // TypeDefIndex: 7044
 
 	public bool Load(string url) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x75D90 Offset: 0x75190 VA: 0x180075D90
+	[IteratorStateMachineAttribute] // RVA: 0x75DA0 Offset: 0x751A0 VA: 0x180075DA0
 	private IEnumerator WaitForLoad(string url) { }
 
 	private void UpdateImageTexture(ValueTuple<Texture2D, Sprite> tex) { }
@@ -31,7 +31,7 @@ public class HttpImage : MonoBehaviour // TypeDefIndex: 7044
 
 	public void SetLoadingImage() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x75F60 Offset: 0x75360 VA: 0x180075F60
+	[IteratorStateMachineAttribute] // RVA: 0x75F40 Offset: 0x75340 VA: 0x180075F40
 	private IEnumerator StartAndWaitForLoad(string url) { }
 
 	private void AutosizeForTexture(Texture2D texture) { }

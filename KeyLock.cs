@@ -62,7 +62,7 @@ public class KeyLock : BaseLock // TypeDefIndex: 8401
 {	private Option __menuOption_Menu_CreateKey; // 0x1C8
 	private Option __menuOption_Menu_Lock; // 0x220
 	private Option __menuOption_Menu_Unlock; // 0x278
-	[ItemSelector] // RVA: 0xA77B0 Offset: 0xA6BB0 VA: 0x1800A77B0
+	[ItemSelector] // RVA: 0xA7740 Offset: 0xA6B40 VA: 0x1800A7740
 	public ItemDefinition keyItemType; // 0x2D0
 
 	public override bool HasMenuOptions { get; }
@@ -74,25 +74,25 @@ public class KeyLock : BaseLock // TypeDefIndex: 8401
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.Menu] // RVA: 0xE97C0 Offset: 0xE8BC0 VA: 0x1800E97C0
-	[BaseEntity.Menu.Description] // RVA: 0xE97C0 Offset: 0xE8BC0 VA: 0x1800E97C0
-	[BaseEntity.Menu.Icon] // RVA: 0xE97C0 Offset: 0xE8BC0 VA: 0x1800E97C0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE97C0 Offset: 0xE8BC0 VA: 0x1800E97C0
+	[BaseEntity.Menu] // RVA: 0xE97F0 Offset: 0xE8BF0 VA: 0x1800E97F0
+	[BaseEntity.Menu.Description] // RVA: 0xE97F0 Offset: 0xE8BF0 VA: 0x1800E97F0
+	[BaseEntity.Menu.Icon] // RVA: 0xE97F0 Offset: 0xE8BF0 VA: 0x1800E97F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE97F0 Offset: 0xE8BF0 VA: 0x1800E97F0
 	public void Menu_Unlock(BasePlayer player) { }
 
 	public bool Menu_Unlock_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE9BA0 Offset: 0xE8FA0 VA: 0x1800E9BA0
-	[BaseEntity.Menu.Description] // RVA: 0xE9BA0 Offset: 0xE8FA0 VA: 0x1800E9BA0
-	[BaseEntity.Menu.Icon] // RVA: 0xE9BA0 Offset: 0xE8FA0 VA: 0x1800E9BA0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE9BA0 Offset: 0xE8FA0 VA: 0x1800E9BA0
+	[BaseEntity.Menu] // RVA: 0xE9C00 Offset: 0xE9000 VA: 0x1800E9C00
+	[BaseEntity.Menu.Description] // RVA: 0xE9C00 Offset: 0xE9000 VA: 0x1800E9C00
+	[BaseEntity.Menu.Icon] // RVA: 0xE9C00 Offset: 0xE9000 VA: 0x1800E9C00
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE9C00 Offset: 0xE9000 VA: 0x1800E9C00
 	public void Menu_Lock(BasePlayer player) { }
 
 	public bool Menu_Lock_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE9EA0 Offset: 0xE92A0 VA: 0x1800E9EA0
-	[BaseEntity.Menu.Description] // RVA: 0xE9EA0 Offset: 0xE92A0 VA: 0x1800E9EA0
-	[BaseEntity.Menu.Icon] // RVA: 0xE9EA0 Offset: 0xE92A0 VA: 0x1800E9EA0
+	[BaseEntity.Menu] // RVA: 0xE9F10 Offset: 0xE9310 VA: 0x1800E9F10
+	[BaseEntity.Menu.Description] // RVA: 0xE9F10 Offset: 0xE9310 VA: 0x1800E9F10
+	[BaseEntity.Menu.Icon] // RVA: 0xE9F10 Offset: 0xE9310 VA: 0x1800E9F10
 	public void Menu_CreateKey(BasePlayer player) { }
 
 	public void Menu_CreateKey_Proxy(ref Option option) { }

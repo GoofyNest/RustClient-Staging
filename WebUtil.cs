@@ -2,25 +2,25 @@ public static class WebUtil // TypeDefIndex: 6230
 {
 	internal static void Get(string url, Action<string> result) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xAB280 Offset: 0xAA680 VA: 0x1800AB280
+	[IteratorStateMachineAttribute] // RVA: 0xAB230 Offset: 0xAA630 VA: 0x1800AB230
 	private static IEnumerator DownloadStringCoroutine(UnityWebRequest www, Action<string> result) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xAB3C0 Offset: 0xAA7C0 VA: 0x1800AB3C0
+	[AsyncStateMachineAttribute] // RVA: 0xAB330 Offset: 0xAA730 VA: 0x1800AB330
 	public static Task<string> DownloadFileTemp(string url, bool keepextension) { }
 
 	private static void DownloadString(UnityWebRequest www, Action<string> result) { }
 
 	internal static void Post(string url, Dictionary<string, string> data, bool wait, Action<string> result) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xAB590 Offset: 0xAA990 VA: 0x1800AB590
+	[AsyncStateMachineAttribute] // RVA: 0xAB4D0 Offset: 0xAA8D0 VA: 0x1800AB4D0
 	internal static Task<string> PostAsync(string url, Dictionary<string, string> data) { }
 
 	internal static void PostData(string url, object dataObject, Action<string> result, bool wait = False) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xAB730 Offset: 0xAAB30 VA: 0x1800AB730
+	[AsyncStateMachineAttribute] // RVA: 0xAB6B0 Offset: 0xAAAB0 VA: 0x1800AB6B0
 	internal static Task<string> PostDataAsync(string url, object dataObject) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xAB910 Offset: 0xAAD10 VA: 0x1800AB910
+	[IteratorStateMachineAttribute] // RVA: 0xAB900 Offset: 0xAAD00 VA: 0x1800AB900
 	private static IEnumerator PostValuesCoroutine(WWW www, Action<string> result) { }
 
 	internal static string Escape(string type) { }

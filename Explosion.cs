@@ -1,8 +1,8 @@
 public class Explosion_Bloom : MonoBehaviour // TypeDefIndex: 11494
 {	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Explosion_Bloom.Settings settings; // 0x18
-	[SerializeField] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[HideInInspector] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[SerializeField] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[HideInInspector] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	private Shader m_Shader; // 0x30
 	private Material m_Material; // 0x38
 	private const int kMaxIterations = 16;
@@ -43,25 +43,25 @@ public class Explosion_Bloom : MonoBehaviour // TypeDefIndex: 11494
 }
 
 public struct Explosion_Bloom.Settings // TypeDefIndex: 11495
-{	[SerializeField] // RVA: 0xB6E70 Offset: 0xB6270 VA: 0x1800B6E70
-	[TooltipAttribute] // RVA: 0xB6E70 Offset: 0xB6270 VA: 0x1800B6E70
+{	[SerializeField] // RVA: 0xB6750 Offset: 0xB5B50 VA: 0x1800B6750
+	[TooltipAttribute] // RVA: 0xB6750 Offset: 0xB5B50 VA: 0x1800B6750
 	public float threshold; // 0x0
-	[SerializeField] // RVA: 0xB7030 Offset: 0xB6430 VA: 0x1800B7030
-	[RangeAttribute] // RVA: 0xB7030 Offset: 0xB6430 VA: 0x1800B7030
-	[TooltipAttribute] // RVA: 0xB7030 Offset: 0xB6430 VA: 0x1800B7030
+	[SerializeField] // RVA: 0xB6930 Offset: 0xB5D30 VA: 0x1800B6930
+	[RangeAttribute] // RVA: 0xB6930 Offset: 0xB5D30 VA: 0x1800B6930
+	[TooltipAttribute] // RVA: 0xB6930 Offset: 0xB5D30 VA: 0x1800B6930
 	public float softKnee; // 0x4
-	[SerializeField] // RVA: 0xB7160 Offset: 0xB6560 VA: 0x1800B7160
-	[RangeAttribute] // RVA: 0xB7160 Offset: 0xB6560 VA: 0x1800B7160
-	[TooltipAttribute] // RVA: 0xB7160 Offset: 0xB6560 VA: 0x1800B7160
+	[SerializeField] // RVA: 0xB6B00 Offset: 0xB5F00 VA: 0x1800B6B00
+	[RangeAttribute] // RVA: 0xB6B00 Offset: 0xB5F00 VA: 0x1800B6B00
+	[TooltipAttribute] // RVA: 0xB6B00 Offset: 0xB5F00 VA: 0x1800B6B00
 	public float radius; // 0x8
-	[SerializeField] // RVA: 0xB7310 Offset: 0xB6710 VA: 0x1800B7310
-	[TooltipAttribute] // RVA: 0xB7310 Offset: 0xB6710 VA: 0x1800B7310
+	[SerializeField] // RVA: 0xB6C80 Offset: 0xB6080 VA: 0x1800B6C80
+	[TooltipAttribute] // RVA: 0xB6C80 Offset: 0xB6080 VA: 0x1800B6C80
 	public float intensity; // 0xC
-	[SerializeField] // RVA: 0xB7440 Offset: 0xB6840 VA: 0x1800B7440
-	[TooltipAttribute] // RVA: 0xB7440 Offset: 0xB6840 VA: 0x1800B7440
+	[SerializeField] // RVA: 0xB6DA0 Offset: 0xB61A0 VA: 0x1800B6DA0
+	[TooltipAttribute] // RVA: 0xB6DA0 Offset: 0xB61A0 VA: 0x1800B6DA0
 	public bool highQuality; // 0x10
-	[SerializeField] // RVA: 0xB8880 Offset: 0xB7C80 VA: 0x1800B8880
-	[TooltipAttribute] // RVA: 0xB8880 Offset: 0xB7C80 VA: 0x1800B8880
+	[SerializeField] // RVA: 0xB6FD0 Offset: 0xB63D0 VA: 0x1800B6FD0
+	[TooltipAttribute] // RVA: 0xB6FD0 Offset: 0xB63D0 VA: 0x1800B6FD0
 	public bool antiFlicker; // 0x11
 
 	public float thresholdGamma { get; set; }
@@ -336,7 +336,7 @@ internal class ExplosionsSpriteSheetAnimation : MonoBehaviour // TypeDefIndex: 1
 
 	private void OnDisable() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xB8AA0 Offset: 0xB7EA0 VA: 0x1800B8AA0
+	[IteratorStateMachineAttribute] // RVA: 0xB7160 Offset: 0xB6560 VA: 0x1800B7160
 	private IEnumerator UpdateCorutine() { }
 
 	private void UpdateFrame() { }

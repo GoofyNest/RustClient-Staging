@@ -6,19 +6,19 @@ public struct Decimal : IFormattable, IComparable, IConvertible, IDeserializatio
 	private const int ScaleShift = 16;
 	private const int MaxInt32Scale = 9;
 	private static uint[] Powers10; // 0x0
-	[DecimalConstantAttribute] // RVA: 0x76420 Offset: 0x75820 VA: 0x180076420
+	[DecimalConstantAttribute] // RVA: 0x763F0 Offset: 0x757F0 VA: 0x1800763F0
 	public static readonly Decimal Zero; // 0x8
-	[DecimalConstantAttribute] // RVA: 0x764E0 Offset: 0x758E0 VA: 0x1800764E0
+	[DecimalConstantAttribute] // RVA: 0x764D0 Offset: 0x758D0 VA: 0x1800764D0
 	public static readonly Decimal One; // 0x18
-	[DecimalConstantAttribute] // RVA: 0x76580 Offset: 0x75980 VA: 0x180076580
+	[DecimalConstantAttribute] // RVA: 0x765D0 Offset: 0x759D0 VA: 0x1800765D0
 	public static readonly Decimal MinusOne; // 0x28
-	[DecimalConstantAttribute] // RVA: 0x76640 Offset: 0x75A40 VA: 0x180076640
+	[DecimalConstantAttribute] // RVA: 0x766D0 Offset: 0x75AD0 VA: 0x1800766D0
 	public static readonly Decimal MaxValue; // 0x38
-	[DecimalConstantAttribute] // RVA: 0x76790 Offset: 0x75B90 VA: 0x180076790
+	[DecimalConstantAttribute] // RVA: 0x76830 Offset: 0x75C30 VA: 0x180076830
 	public static readonly Decimal MinValue; // 0x48
-	[DecimalConstantAttribute] // RVA: 0x76840 Offset: 0x75C40 VA: 0x180076840
+	[DecimalConstantAttribute] // RVA: 0x768E0 Offset: 0x75CE0 VA: 0x1800768E0
 	private static readonly Decimal NearNegativeZero; // 0x58
-	[DecimalConstantAttribute] // RVA: 0x76940 Offset: 0x75D40 VA: 0x180076940
+	[DecimalConstantAttribute] // RVA: 0x76980 Offset: 0x75D80 VA: 0x180076980
 	private static readonly Decimal NearPositiveZero; // 0x68
 	private int flags; // 0x0
 	private int hi; // 0x4
@@ -57,10 +57,10 @@ public struct Decimal : IFormattable, IComparable, IConvertible, IDeserializatio
 
 	private static void FCallAddSub(ref Decimal d1, ref Decimal d2, byte bSign) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public static int Compare(Decimal d1, Decimal d2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	private static int FCallCompare(ref Decimal d1, ref Decimal d2) { }
 
 	public int CompareTo(object value) { }
@@ -95,10 +95,10 @@ public struct Decimal : IFormattable, IComparable, IConvertible, IDeserializatio
 
 	internal static Decimal ToDecimal(byte[] buffer) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	internal static Decimal Max(Decimal d1, Decimal d2) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	internal static Decimal Min(Decimal d1, Decimal d2) { }
 
 	public static Decimal Multiply(Decimal d1, Decimal d2) { }

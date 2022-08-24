@@ -19,10 +19,10 @@ public static class RemotingServices // TypeDefIndex: 1143
 
 	internal static IMethodReturnMessage InternalExecuteMessage(MarshalByRefObject target, IMethodCallMessage reqMsg) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static object Connect(Type classToProxy, string url) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public static object Connect(Type classToProxy, string url, object data) { }
 
 	public static Type GetServerTypeForUri(string URI) { }
@@ -37,7 +37,7 @@ public static class RemotingServices // TypeDefIndex: 1143
 
 	private static string NewUri() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public static RealProxy GetRealProxy(object proxy) { }
 
 	public static MethodBase GetMethodBaseFromMethodMessage(IMethodMessage msg) { }

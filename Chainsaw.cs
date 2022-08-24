@@ -14,13 +14,13 @@ public class Chainsaw : BaseMelee // TypeDefIndex: 8549
 	private float chainSpeed; // 0x318
 	private float chainAmount; // 0x31C
 	private float chainSpinUpRate; // 0x320
-	[HeaderAttribute] // RVA: 0xAA0E0 Offset: 0xA94E0 VA: 0x1800AA0E0
+	[HeaderAttribute] // RVA: 0xAA050 Offset: 0xA9450 VA: 0x1800AA050
 	public float fuelPerSec; // 0x324
 	public int maxAmmo; // 0x328
 	public int ammo; // 0x32C
 	public ItemDefinition fuelType; // 0x330
 	public float reloadDuration; // 0x338
-	[HeaderAttribute] // RVA: 0xAA1A0 Offset: 0xA95A0 VA: 0x1800AA1A0
+	[HeaderAttribute] // RVA: 0xAA0C0 Offset: 0xA94C0 VA: 0x1800AA0C0
 	public SoundPlayer idleLoop; // 0x340
 	public SoundPlayer attackLoopAir; // 0x348
 	public SoundPlayer revUp; // 0x350

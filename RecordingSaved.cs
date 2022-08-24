@@ -6,7 +6,7 @@ public class RecordingSaved : SingletonComponent<RecordingSaved> // TypeDefIndex
 
 	public void Popup(string recordingName) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9F8F0 Offset: 0x9ECF0 VA: 0x18009F8F0
+	[IteratorStateMachineAttribute] // RVA: 0x9F3D0 Offset: 0x9E7D0 VA: 0x18009F3D0
 	private IEnumerator FadeInOut() { }
 
 	public void .ctor() { }

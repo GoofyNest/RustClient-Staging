@@ -132,13 +132,13 @@ public class NeonSign : Signage // TypeDefIndex: 8424
 	private const float SlowSpeed = 2;
 	private const float MinSpeed = 0,5;
 	private const float MaxSpeed = 5;
-	[HeaderAttribute] // RVA: 0x7AF40 Offset: 0x7A340 VA: 0x18007AF40
+	[HeaderAttribute] // RVA: 0x7AF20 Offset: 0x7A320 VA: 0x18007AF20
 	public Light topLeft; // 0x4D8
 	public Light topRight; // 0x4E0
 	public Light bottomLeft; // 0x4E8
 	public Light bottomRight; // 0x4F0
 	public float lightIntensity; // 0x4F8
-	[RangeAttribute] // RVA: 0x7AFB0 Offset: 0x7A3B0 VA: 0x18007AFB0
+	[RangeAttribute] // RVA: 0x7AFD0 Offset: 0x7A3D0 VA: 0x18007AFD0
 	public int powerConsumption; // 0x4FC
 	public Material activeMaterial; // 0x500
 	public Material inactiveMaterial; // 0x508
@@ -171,26 +171,26 @@ public class NeonSign : Signage // TypeDefIndex: 8424
 
 	public override void OnTextureWasEdited(int frame, Texture2D texture, bool fromFile = False) { }
 
-	[BaseEntity.Menu] // RVA: 0x7B310 Offset: 0x7A710 VA: 0x18007B310
-	[BaseEntity.Menu.Description] // RVA: 0x7B310 Offset: 0x7A710 VA: 0x18007B310
-	[BaseEntity.Menu.Icon] // RVA: 0x7B310 Offset: 0x7A710 VA: 0x18007B310
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7B310 Offset: 0x7A710 VA: 0x18007B310
+	[BaseEntity.Menu] // RVA: 0x7B340 Offset: 0x7A740 VA: 0x18007B340
+	[BaseEntity.Menu.Description] // RVA: 0x7B340 Offset: 0x7A740 VA: 0x18007B340
+	[BaseEntity.Menu.Icon] // RVA: 0x7B340 Offset: 0x7A740 VA: 0x18007B340
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7B340 Offset: 0x7A740 VA: 0x18007B340
 	public void SwitchToSlowSpeed(BasePlayer player) { }
 
 	public bool SwitchToSlowSpeed_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7B680 Offset: 0x7AA80 VA: 0x18007B680
-	[BaseEntity.Menu.Description] // RVA: 0x7B680 Offset: 0x7AA80 VA: 0x18007B680
-	[BaseEntity.Menu.Icon] // RVA: 0x7B680 Offset: 0x7AA80 VA: 0x18007B680
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7B680 Offset: 0x7AA80 VA: 0x18007B680
+	[BaseEntity.Menu] // RVA: 0x7B650 Offset: 0x7AA50 VA: 0x18007B650
+	[BaseEntity.Menu.Description] // RVA: 0x7B650 Offset: 0x7AA50 VA: 0x18007B650
+	[BaseEntity.Menu.Icon] // RVA: 0x7B650 Offset: 0x7AA50 VA: 0x18007B650
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7B650 Offset: 0x7AA50 VA: 0x18007B650
 	public void SwitchToMediumSpeed(BasePlayer player) { }
 
 	public bool SwitchToMediumSpeed_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7B9A0 Offset: 0x7ADA0 VA: 0x18007B9A0
-	[BaseEntity.Menu.Description] // RVA: 0x7B9A0 Offset: 0x7ADA0 VA: 0x18007B9A0
-	[BaseEntity.Menu.Icon] // RVA: 0x7B9A0 Offset: 0x7ADA0 VA: 0x18007B9A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7B9A0 Offset: 0x7ADA0 VA: 0x18007B9A0
+	[BaseEntity.Menu] // RVA: 0x7B8B0 Offset: 0x7ACB0 VA: 0x18007B8B0
+	[BaseEntity.Menu.Description] // RVA: 0x7B8B0 Offset: 0x7ACB0 VA: 0x18007B8B0
+	[BaseEntity.Menu.Icon] // RVA: 0x7B8B0 Offset: 0x7ACB0 VA: 0x18007B8B0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7B8B0 Offset: 0x7ACB0 VA: 0x18007B8B0
 	public void SwitchToFastSpeed(BasePlayer player) { }
 
 	public bool SwitchToFastSpeed_ShowIf(BasePlayer player) { }

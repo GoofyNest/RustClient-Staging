@@ -1,19 +1,19 @@
 public class MusicTheme : ScriptableObject // TypeDefIndex: 9007
-{	[HeaderAttribute] // RVA: 0xCA770 Offset: 0xC9B70 VA: 0x1800CA770
+{	[HeaderAttribute] // RVA: 0xCA6E0 Offset: 0xC9AE0 VA: 0x1800CA6E0
 	public float tempo; // 0x18
 	public int intensityHoldBars; // 0x1C
 	public int lengthInBars; // 0x20
-	[HeaderAttribute] // RVA: 0xCA820 Offset: 0xC9C20 VA: 0x1800CA820
+	[HeaderAttribute] // RVA: 0xCA780 Offset: 0xC9B80 VA: 0x1800CA780
 	public bool canPlayInMenus; // 0x24
-	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
+	[HorizontalAttribute] // RVA: 0xC90C0 Offset: 0xC84C0 VA: 0x1800C90C0
 	public MusicTheme.ValueRange rain; // 0x28
-	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
+	[HorizontalAttribute] // RVA: 0xC90C0 Offset: 0xC84C0 VA: 0x1800C90C0
 	public MusicTheme.ValueRange wind; // 0x30
-	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
+	[HorizontalAttribute] // RVA: 0xC90C0 Offset: 0xC84C0 VA: 0x1800C90C0
 	public MusicTheme.ValueRange snow; // 0x38
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public TerrainBiome.Enum biomes; // 0x40
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public TerrainTopology.Enum topologies; // 0x44
 	public AnimationCurve time; // 0x48
 	[HeaderAttribute] // RVA: 0xCABD0 Offset: 0xC9FD0 VA: 0x1800CABD0

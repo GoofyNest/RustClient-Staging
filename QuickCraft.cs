@@ -25,7 +25,7 @@ public class QuickCraft : SingletonComponent<QuickCraft>, IInventoryChanged // T
 
 	private void Dirty() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x91070 Offset: 0x90470 VA: 0x180091070
+	[IteratorStateMachineAttribute] // RVA: 0x90690 Offset: 0x8FA90 VA: 0x180090690
 	private IEnumerator WatchForChanges() { }
 
 	private void Rebuild() { }

@@ -3,50 +3,50 @@ public enum RuntimePlatform // TypeDefIndex: 3345
 	public const RuntimePlatform OSXEditor = 0;
 	public const RuntimePlatform OSXPlayer = 1;
 	public const RuntimePlatform WindowsPlayer = 2;
-	[ObsoleteAttribute] // RVA: 0xEE460 Offset: 0xED860 VA: 0x1800EE460
+	[ObsoleteAttribute] // RVA: 0xEE570 Offset: 0xED970 VA: 0x1800EE570
 	public const RuntimePlatform OSXWebPlayer = 3;
-	[ObsoleteAttribute] // RVA: 0xEE650 Offset: 0xEDA50 VA: 0x1800EE650
+	[ObsoleteAttribute] // RVA: 0xEE770 Offset: 0xEDB70 VA: 0x1800EE770
 	public const RuntimePlatform OSXDashboardPlayer = 4;
-	[ObsoleteAttribute] // RVA: 0xEE460 Offset: 0xED860 VA: 0x1800EE460
+	[ObsoleteAttribute] // RVA: 0xEE570 Offset: 0xED970 VA: 0x1800EE570
 	public const RuntimePlatform WindowsWebPlayer = 5;
 	public const RuntimePlatform WindowsEditor = 7;
 	public const RuntimePlatform IPhonePlayer = 8;
-	[ObsoleteAttribute] // RVA: 0xEE800 Offset: 0xEDC00 VA: 0x1800EE800
+	[ObsoleteAttribute] // RVA: 0xEE950 Offset: 0xEDD50 VA: 0x1800EE950
 	public const RuntimePlatform XBOX360 = 10;
-	[ObsoleteAttribute] // RVA: 0xEE8F0 Offset: 0xEDCF0 VA: 0x1800EE8F0
+	[ObsoleteAttribute] // RVA: 0xEEA40 Offset: 0xEDE40 VA: 0x1800EEA40
 	public const RuntimePlatform PS3 = 9;
 	public const RuntimePlatform Android = 11;
-	[ObsoleteAttribute] // RVA: 0xEEA70 Offset: 0xEDE70 VA: 0x1800EEA70
+	[ObsoleteAttribute] // RVA: 0xEEC20 Offset: 0xEE020 VA: 0x1800EEC20
 	public const RuntimePlatform NaCl = 12;
-	[ObsoleteAttribute] // RVA: 0xEEBD0 Offset: 0xEDFD0 VA: 0x1800EEBD0
+	[ObsoleteAttribute] // RVA: 0xEED80 Offset: 0xEE180 VA: 0x1800EED80
 	public const RuntimePlatform FlashPlayer = 15;
 	public const RuntimePlatform LinuxPlayer = 13;
 	public const RuntimePlatform LinuxEditor = 16;
 	public const RuntimePlatform WebGLPlayer = 17;
-	[ObsoleteAttribute] // RVA: 0xEECC0 Offset: 0xEE0C0 VA: 0x1800EECC0
+	[ObsoleteAttribute] // RVA: 0xEEE90 Offset: 0xEE290 VA: 0x1800EEE90
 	public const RuntimePlatform MetroPlayerX86 = 18;
 	public const RuntimePlatform WSAPlayerX86 = 18;
-	[ObsoleteAttribute] // RVA: 0xEEEF0 Offset: 0xEE2F0 VA: 0x1800EEEF0
+	[ObsoleteAttribute] // RVA: 0xEF0F0 Offset: 0xEE4F0 VA: 0x1800EF0F0
 	public const RuntimePlatform MetroPlayerX64 = 19;
 	public const RuntimePlatform WSAPlayerX64 = 19;
-	[ObsoleteAttribute] // RVA: 0xEEFF0 Offset: 0xEE3F0 VA: 0x1800EEFF0
+	[ObsoleteAttribute] // RVA: 0xEF250 Offset: 0xEE650 VA: 0x1800EF250
 	public const RuntimePlatform MetroPlayerARM = 20;
 	public const RuntimePlatform WSAPlayerARM = 20;
-	[ObsoleteAttribute] // RVA: 0xEF280 Offset: 0xEE680 VA: 0x1800EF280
+	[ObsoleteAttribute] // RVA: 0xEF450 Offset: 0xEE850 VA: 0x1800EF450
 	public const RuntimePlatform WP8Player = 21;
-	[ObsoleteAttribute] // RVA: 0xEF340 Offset: 0xEE740 VA: 0x1800EF340
+	[ObsoleteAttribute] // RVA: 0xEF5F0 Offset: 0xEE9F0 VA: 0x1800EF5F0
 	public const RuntimePlatform BlackBerryPlayer = 22;
-	[ObsoleteAttribute] // RVA: 0xEF6F0 Offset: 0xEEAF0 VA: 0x1800EF6F0
+	[ObsoleteAttribute] // RVA: 0xEF8C0 Offset: 0xEECC0 VA: 0x1800EF8C0
 	public const RuntimePlatform TizenPlayer = 23;
-	[ObsoleteAttribute] // RVA: 0xEF880 Offset: 0xEEC80 VA: 0x1800EF880
+	[ObsoleteAttribute] // RVA: 0xEFA90 Offset: 0xEEE90 VA: 0x1800EFA90
 	public const RuntimePlatform PSP2 = 24;
 	public const RuntimePlatform PS4 = 25;
-	[ObsoleteAttribute] // RVA: 0xEF9B0 Offset: 0xEEDB0 VA: 0x1800EF9B0
+	[ObsoleteAttribute] // RVA: 0xEFBE0 Offset: 0xEEFE0 VA: 0x1800EFBE0
 	public const RuntimePlatform PSM = 26;
 	public const RuntimePlatform XboxOne = 27;
-	[ObsoleteAttribute] // RVA: 0xEFAD0 Offset: 0xEEED0 VA: 0x1800EFAD0
+	[ObsoleteAttribute] // RVA: 0xEFCE0 Offset: 0xEF0E0 VA: 0x1800EFCE0
 	public const RuntimePlatform SamsungTVPlayer = 28;
-	[ObsoleteAttribute] // RVA: 0xEFC60 Offset: 0xEF060 VA: 0x1800EFC60
+	[ObsoleteAttribute] // RVA: 0xEFE10 Offset: 0xEF210 VA: 0x1800EFE10
 	public const RuntimePlatform WiiU = 30;
 	public const RuntimePlatform tvOS = 31;
 	public const RuntimePlatform Switch = 32;

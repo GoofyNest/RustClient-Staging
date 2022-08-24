@@ -44,12 +44,12 @@ public class ChatEntry : MonoBehaviour // TypeDefIndex: 10833
 public class Chat : ConsoleSystem // TypeDefIndex: 11890
 {	private const float textRange = 50;
 	private const float textVolumeBoost = 0,2;
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static bool enabled; // 0x0
 	public static Chat.MuteList muted; // 0x8
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool muteglobal { get; set; }
 
 
@@ -59,19 +59,19 @@ public class Chat : ConsoleSystem // TypeDefIndex: 11890
 
 	public static void LoadMuteList() { }
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void add(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void add2(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void mute(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void unmute(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void mutelist(ConsoleSystem.Arg arg) { }
 
 	public static void MuteSteamID(ulong id) { }
@@ -82,13 +82,13 @@ public class Chat : ConsoleSystem // TypeDefIndex: 11890
 
 	public static bool IsSteamIDMuted(ulong id) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void unmuteall(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void open() { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void clear() { }
 
 	public void .ctor() { }

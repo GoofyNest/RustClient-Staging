@@ -1,58 +1,58 @@
 public class VolumetricLightBeam : MonoBehaviour // TypeDefIndex: 11562
 {	public bool colorFromLight; // 0x18
 	public ColorMode colorMode; // 0x1C
-	[ColorUsageAttribute] // RVA: 0xC5150 Offset: 0xC4550 VA: 0x1800C5150
-	[FormerlySerializedAsAttribute] // RVA: 0xC5150 Offset: 0xC4550 VA: 0x1800C5150
+	[ColorUsageAttribute] // RVA: 0xC3960 Offset: 0xC2D60 VA: 0x1800C3960
+	[FormerlySerializedAsAttribute] // RVA: 0xC3960 Offset: 0xC2D60 VA: 0x1800C3960
 	public Color color; // 0x20
 	public Gradient colorGradient; // 0x30
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float alphaInside; // 0x38
-	[FormerlySerializedAsAttribute] // RVA: 0xC53A0 Offset: 0xC47A0 VA: 0x1800C53A0
-	[RangeAttribute] // RVA: 0xC53A0 Offset: 0xC47A0 VA: 0x1800C53A0
+	[FormerlySerializedAsAttribute] // RVA: 0xC3CC0 Offset: 0xC30C0 VA: 0x1800C3CC0
+	[RangeAttribute] // RVA: 0xC3CC0 Offset: 0xC30C0 VA: 0x1800C3CC0
 	public float alphaOutside; // 0x3C
 	public BlendingMode blendingMode; // 0x40
-	[FormerlySerializedAsAttribute] // RVA: 0xC5510 Offset: 0xC4910 VA: 0x1800C5510
+	[FormerlySerializedAsAttribute] // RVA: 0xC3D80 Offset: 0xC3180 VA: 0x1800C3D80
 	public bool spotAngleFromLight; // 0x44
-	[RangeAttribute] // RVA: 0xC56B0 Offset: 0xC4AB0 VA: 0x1800C56B0
+	[RangeAttribute] // RVA: 0xC5160 Offset: 0xC4560 VA: 0x1800C5160
 	public float spotAngle; // 0x48
-	[FormerlySerializedAsAttribute] // RVA: 0xC5770 Offset: 0xC4B70 VA: 0x1800C5770
+	[FormerlySerializedAsAttribute] // RVA: 0xC5230 Offset: 0xC4630 VA: 0x1800C5230
 	public float coneRadiusStart; // 0x4C
 	public MeshType geomMeshType; // 0x50
-	[FormerlySerializedAsAttribute] // RVA: 0xC57F0 Offset: 0xC4BF0 VA: 0x1800C57F0
+	[FormerlySerializedAsAttribute] // RVA: 0xC52D0 Offset: 0xC46D0 VA: 0x1800C52D0
 	public int geomCustomSides; // 0x54
 	public int geomCustomSegments; // 0x58
 	public bool geomCap; // 0x5C
 	public bool fadeEndFromLight; // 0x5D
 	public AttenuationEquation attenuationEquation; // 0x60
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float attenuationCustomBlending; // 0x64
 	public float fadeStart; // 0x68
 	public float fadeEnd; // 0x6C
 	public float depthBlendDistance; // 0x70
 	public float cameraClippingDistance; // 0x74
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float glareFrontal; // 0x78
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float glareBehind; // 0x7C
-	[ObsoleteAttribute] // RVA: 0xC5B80 Offset: 0xC4F80 VA: 0x1800C5B80
+	[ObsoleteAttribute] // RVA: 0xC54C0 Offset: 0xC48C0 VA: 0x1800C54C0
 	public float boostDistanceInside; // 0x80
-	[ObsoleteAttribute] // RVA: 0xC5CC0 Offset: 0xC50C0 VA: 0x1800C5CC0
+	[ObsoleteAttribute] // RVA: 0xC5560 Offset: 0xC4960 VA: 0x1800C5560
 	public float fresnelPowInside; // 0x84
-	[FormerlySerializedAsAttribute] // RVA: 0xC5D90 Offset: 0xC5190 VA: 0x1800C5D90
+	[FormerlySerializedAsAttribute] // RVA: 0xC5700 Offset: 0xC4B00 VA: 0x1800C5700
 	public float fresnelPow; // 0x88
 	public bool noiseEnabled; // 0x8C
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float noiseIntensity; // 0x90
 	public bool noiseScaleUseGlobal; // 0x94
-	[RangeAttribute] // RVA: 0xC0910 Offset: 0xBFD10 VA: 0x1800C0910
+	[RangeAttribute] // RVA: 0xBF1A0 Offset: 0xBE5A0 VA: 0x1800BF1A0
 	public float noiseScaleLocal; // 0x98
 	public bool noiseVelocityUseGlobal; // 0x9C
 	public Vector3 noiseVelocityLocal; // 0xA0
 	private Plane m_PlaneWS; // 0xAC
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int pluginVersion; // 0xBC
-	[FormerlySerializedAsAttribute] // RVA: 0xC6080 Offset: 0xC5480 VA: 0x1800C6080
-	[SerializeField] // RVA: 0xC6080 Offset: 0xC5480 VA: 0x1800C6080
+	[FormerlySerializedAsAttribute] // RVA: 0xC5A00 Offset: 0xC4E00 VA: 0x1800C5A00
+	[SerializeField] // RVA: 0xC5A00 Offset: 0xC4E00 VA: 0x1800C5A00
 	private bool _TrackChangesDuringPlaytime; // 0xC0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int _SortingLayerID; // 0xC4
@@ -146,7 +146,7 @@ public class VolumetricLightBeam : MonoBehaviour // TypeDefIndex: 11562
 
 	public float GetInsideBeamFactorFromObjectSpacePos(Vector3 posOS) { }
 
-	[ObsoleteAttribute] // RVA: 0xC6320 Offset: 0xC5720 VA: 0x1800C6320
+	[ObsoleteAttribute] // RVA: 0xC5CB0 Offset: 0xC50B0 VA: 0x1800C5CB0
 	public void Generate() { }
 
 	public virtual void GenerateGeometry() { }
@@ -161,7 +161,7 @@ public class VolumetricLightBeam : MonoBehaviour // TypeDefIndex: 11562
 
 	private void StartPlaytimeUpdateIfNeeded() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xC6420 Offset: 0xC5820 VA: 0x1800C6420
+	[IteratorStateMachineAttribute] // RVA: 0xC5DF0 Offset: 0xC51F0 VA: 0x1800C5DF0
 	private IEnumerator CoPlaytimeUpdate() { }
 
 	private void OnDestroy() { }

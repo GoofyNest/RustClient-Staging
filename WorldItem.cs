@@ -59,7 +59,7 @@ public class WorldItem : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6304
 }
 
 public class WorldItem : BaseEntity // TypeDefIndex: 8667
-{	[HeaderAttribute] // RVA: 0xB9080 Offset: 0xB8480 VA: 0x1800B9080
+{	[HeaderAttribute] // RVA: 0xB9180 Offset: 0xB8580 VA: 0x1800B9180
 	public bool allowPickup; // 0x168
 	public Item item; // 0x170
 

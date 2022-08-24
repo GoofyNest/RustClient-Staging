@@ -1,5 +1,5 @@
 public static class Pool // TypeDefIndex: 4835
-{	public static Dictionary<Type, Pool.ICollection> directory; // 0x2B117B0
+{	public static Dictionary<Type, Pool.ICollection> directory; // 0x13820
 
 
 	public static void FreeList<T>(ref List<T> obj) { }
@@ -1248,46 +1248,46 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 }
 
 public class Pool : ConsoleSystem // TypeDefIndex: 11959
-{	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+{	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static int mode; // 0x0
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static bool prewarm; // 0x4
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static bool enabled; // 0x5
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static bool debug; // 0x6
 
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void print_memory(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void print_prefabs(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void print_assets(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void clear_memory(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void clear_prefabs(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void clear_assets(ConsoleSystem.Arg arg) { }
 
-	[ServerVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
-	[ClientVar] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
+	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
+	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
 	public static void export_prefabs(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

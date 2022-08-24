@@ -78,10 +78,10 @@ public class BearTrap : BaseTrap // TypeDefIndex: 8362
 
 	public override bool CanPickup(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xCD980 Offset: 0xCCD80 VA: 0x1800CD980
-	[BaseEntity.Menu.Description] // RVA: 0xCD980 Offset: 0xCCD80 VA: 0x1800CD980
-	[BaseEntity.Menu.Icon] // RVA: 0xCD980 Offset: 0xCCD80 VA: 0x1800CD980
-	[BaseEntity.Menu.ShowIf] // RVA: 0xCD980 Offset: 0xCCD80 VA: 0x1800CD980
+	[BaseEntity.Menu] // RVA: 0xCDA80 Offset: 0xCCE80 VA: 0x1800CDA80
+	[BaseEntity.Menu.Description] // RVA: 0xCDA80 Offset: 0xCCE80 VA: 0x1800CDA80
+	[BaseEntity.Menu.Icon] // RVA: 0xCDA80 Offset: 0xCCE80 VA: 0x1800CDA80
+	[BaseEntity.Menu.ShowIf] // RVA: 0xCDA80 Offset: 0xCCE80 VA: 0x1800CDA80
 	public void Arm_Beartrap(BasePlayer player) { }
 
 	public bool Menu_Arm_ShowIf(BasePlayer player) { }
@@ -119,10 +119,10 @@ public class Landmine : BaseTrap // TypeDefIndex: 8402
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0xEA080 Offset: 0xE9480 VA: 0x1800EA080
-	[BaseEntity.Menu.Description] // RVA: 0xEA080 Offset: 0xE9480 VA: 0x1800EA080
-	[BaseEntity.Menu.Icon] // RVA: 0xEA080 Offset: 0xE9480 VA: 0x1800EA080
-	[BaseEntity.Menu.ShowIf] // RVA: 0xEA080 Offset: 0xE9480 VA: 0x1800EA080
+	[BaseEntity.Menu] // RVA: 0xEA0F0 Offset: 0xE94F0 VA: 0x1800EA0F0
+	[BaseEntity.Menu.Description] // RVA: 0xEA0F0 Offset: 0xE94F0 VA: 0x1800EA0F0
+	[BaseEntity.Menu.Icon] // RVA: 0xEA0F0 Offset: 0xE94F0 VA: 0x1800EA0F0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xEA0F0 Offset: 0xE94F0 VA: 0x1800EA0F0
 	public void Arm_Landmine(BasePlayer player) { }
 
 	public bool Menu_Disarm_ShowIf(BasePlayer player) { }
@@ -292,7 +292,7 @@ public class Bootstrap : SingletonComponent<Bootstrap> // TypeDefIndex: 9820
 
 	public static void NetworkInitSteamworks(bool enableSteamDatagramRelay) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9A020 Offset: 0x99420 VA: 0x18009A020
+	[IteratorStateMachineAttribute] // RVA: 0x99440 Offset: 0x98840 VA: 0x180099440
 	private IEnumerator Start() { }
 
 	public static GameObject LoadEngineUI() { }
@@ -307,7 +307,7 @@ public class Bootstrap : SingletonComponent<Bootstrap> // TypeDefIndex: 9820
 
 	public static void SetUIVisible(bool visible) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9A2A0 Offset: 0x996A0 VA: 0x18009A2A0
+	[IteratorStateMachineAttribute] // RVA: 0x995C0 Offset: 0x989C0 VA: 0x1800995C0
 	private IEnumerator ClientStartup() { }
 
 	protected void Update() { }
@@ -318,7 +318,7 @@ public class Bootstrap : SingletonComponent<Bootstrap> // TypeDefIndex: 9820
 
 	public void ExitGame() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9A630 Offset: 0x99A30 VA: 0x18009A630
+	[IteratorStateMachineAttribute] // RVA: 0x99880 Offset: 0x98C80 VA: 0x180099880
 	public static IEnumerator LoadingUpdate(string str) { }
 
 	public static void WriteToLog(string str) { }

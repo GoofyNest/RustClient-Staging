@@ -1,15 +1,15 @@
 public sealed class TemporalAntialiasing // TypeDefIndex: 11815
-{	[TooltipAttribute] // RVA: 0x76870 Offset: 0x75C70 VA: 0x180076870
-	[RangeAttribute] // RVA: 0x76870 Offset: 0x75C70 VA: 0x180076870
+{	[TooltipAttribute] // RVA: 0x760D0 Offset: 0x754D0 VA: 0x1800760D0
+	[RangeAttribute] // RVA: 0x760D0 Offset: 0x754D0 VA: 0x1800760D0
 	public float jitterSpread; // 0x10
-	[TooltipAttribute] // RVA: 0x76A70 Offset: 0x75E70 VA: 0x180076A70
-	[RangeAttribute] // RVA: 0x76A70 Offset: 0x75E70 VA: 0x180076A70
+	[TooltipAttribute] // RVA: 0x76280 Offset: 0x75680 VA: 0x180076280
+	[RangeAttribute] // RVA: 0x76280 Offset: 0x75680 VA: 0x180076280
 	public float sharpness; // 0x14
-	[TooltipAttribute] // RVA: 0x76BE0 Offset: 0x75FE0 VA: 0x180076BE0
-	[RangeAttribute] // RVA: 0x76BE0 Offset: 0x75FE0 VA: 0x180076BE0
+	[TooltipAttribute] // RVA: 0x76420 Offset: 0x75820 VA: 0x180076420
+	[RangeAttribute] // RVA: 0x76420 Offset: 0x75820 VA: 0x180076420
 	public float stationaryBlending; // 0x18
-	[TooltipAttribute] // RVA: 0x76E10 Offset: 0x76210 VA: 0x180076E10
-	[RangeAttribute] // RVA: 0x76E10 Offset: 0x76210 VA: 0x180076E10
+	[TooltipAttribute] // RVA: 0x76570 Offset: 0x75970 VA: 0x180076570
+	[RangeAttribute] // RVA: 0x76570 Offset: 0x75970 VA: 0x180076570
 	public float motionBlending; // 0x1C
 	public Func<Camera, Vector2, Matrix4x4> jitteredMatrixFunc; // 0x20
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

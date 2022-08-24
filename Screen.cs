@@ -26,7 +26,7 @@ public sealed class Screen // TypeDefIndex: 3386
 
 	public static void SetResolution(int width, int height, FullScreenMode fullscreenMode) { }
 
-	[FreeFunctionAttribute] // RVA: 0x83F60 Offset: 0x83360 VA: 0x180083F60
+	[FreeFunctionAttribute] // RVA: 0x83EE0 Offset: 0x832E0 VA: 0x180083EE0
 	public static Resolution[] get_resolutions() { }
 
 	private static void get_currentResolution_Injected(out Resolution ret) { }

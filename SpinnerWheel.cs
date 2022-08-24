@@ -65,7 +65,7 @@ public class SpinnerWheel : Signage // TypeDefIndex: 8452
 	public Transform wheel; // 0x4D8
 	public float velocity; // 0x4E0
 	public Quaternion targetRotation; // 0x4E4
-	[HeaderAttribute] // RVA: 0x8CDD0 Offset: 0x8C1D0 VA: 0x18008CDD0
+	[HeaderAttribute] // RVA: 0x8CC80 Offset: 0x8C080 VA: 0x18008CC80
 	public SoundDefinition spinLoopSoundDef; // 0x4F8
 	public SoundDefinition spinStartSoundDef; // 0x500
 	public SoundDefinition spinAccentSoundDef; // 0x508
@@ -103,26 +103,26 @@ public class SpinnerWheel : Signage // TypeDefIndex: 8452
 
 	public bool AnyoneSpin() { }
 
-	[BaseEntity.Menu] // RVA: 0x8CE70 Offset: 0x8C270 VA: 0x18008CE70
-	[BaseEntity.Menu.Description] // RVA: 0x8CE70 Offset: 0x8C270 VA: 0x18008CE70
-	[BaseEntity.Menu.Icon] // RVA: 0x8CE70 Offset: 0x8C270 VA: 0x18008CE70
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8CE70 Offset: 0x8C270 VA: 0x18008CE70
+	[BaseEntity.Menu] // RVA: 0x8CD50 Offset: 0x8C150 VA: 0x18008CD50
+	[BaseEntity.Menu.Description] // RVA: 0x8CD50 Offset: 0x8C150 VA: 0x18008CD50
+	[BaseEntity.Menu.Icon] // RVA: 0x8CD50 Offset: 0x8C150 VA: 0x18008CD50
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8CD50 Offset: 0x8C150 VA: 0x18008CD50
 	public void Menu_Spin(BasePlayer player) { }
 
 	public bool Menu_Spin_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8D090 Offset: 0x8C490 VA: 0x18008D090
-	[BaseEntity.Menu.Description] // RVA: 0x8D090 Offset: 0x8C490 VA: 0x18008D090
-	[BaseEntity.Menu.Icon] // RVA: 0x8D090 Offset: 0x8C490 VA: 0x18008D090
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8D090 Offset: 0x8C490 VA: 0x18008D090
+	[BaseEntity.Menu] // RVA: 0x8CFA0 Offset: 0x8C3A0 VA: 0x18008CFA0
+	[BaseEntity.Menu.Description] // RVA: 0x8CFA0 Offset: 0x8C3A0 VA: 0x18008CFA0
+	[BaseEntity.Menu.Icon] // RVA: 0x8CFA0 Offset: 0x8C3A0 VA: 0x18008CFA0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8CFA0 Offset: 0x8C3A0 VA: 0x18008CFA0
 	public void Menu_UnlockSpin(BasePlayer player) { }
 
 	public bool Menu_UnlockSpin_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8D290 Offset: 0x8C690 VA: 0x18008D290
-	[BaseEntity.Menu.Description] // RVA: 0x8D290 Offset: 0x8C690 VA: 0x18008D290
-	[BaseEntity.Menu.Icon] // RVA: 0x8D290 Offset: 0x8C690 VA: 0x18008D290
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8D290 Offset: 0x8C690 VA: 0x18008D290
+	[BaseEntity.Menu] // RVA: 0x8D1A0 Offset: 0x8C5A0 VA: 0x18008D1A0
+	[BaseEntity.Menu.Description] // RVA: 0x8D1A0 Offset: 0x8C5A0 VA: 0x18008D1A0
+	[BaseEntity.Menu.Icon] // RVA: 0x8D1A0 Offset: 0x8C5A0 VA: 0x18008D1A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8D1A0 Offset: 0x8C5A0 VA: 0x18008D1A0
 	public void Menu_LockSpin(BasePlayer player) { }
 
 	public bool Menu_LockSpin_ShowIf(BasePlayer player) { }

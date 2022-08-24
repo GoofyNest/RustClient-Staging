@@ -1,13 +1,13 @@
 public class Legs : ConsoleSystem // TypeDefIndex: 11945
-{	[ClientVar] // RVA: 0xAA6C0 Offset: 0xA9AC0 VA: 0x1800AA6C0
+{	[ClientVar] // RVA: 0xAA2B0 Offset: 0xA96B0 VA: 0x1800AA2B0
 	public static bool EnableLegs; // 0x0
-	[ClientVar] // RVA: 0xAA8D0 Offset: 0xA9CD0 VA: 0x1800AA8D0
+	[ClientVar] // RVA: 0xAA390 Offset: 0xA9790 VA: 0x1800AA390
 	public static float LeanBack; // 0x4
-	[ClientVar] // RVA: 0xAA970 Offset: 0xA9D70 VA: 0x1800AA970
+	[ClientVar] // RVA: 0xAA450 Offset: 0xA9850 VA: 0x1800AA450
 	public static float LeanDown; // 0x8
-	[ClientVar] // RVA: 0xAAA60 Offset: 0xA9E60 VA: 0x1800AAA60
+	[ClientVar] // RVA: 0xAA540 Offset: 0xA9940 VA: 0x1800AA540
 	public static float ModelOffset; // 0xC
-	[ClientVar] // RVA: 0xAAB80 Offset: 0xA9F80 VA: 0x1800AAB80
+	[ClientVar] // RVA: 0xAA650 Offset: 0xA9A50 VA: 0x1800AA650
 	public static Vector3 ModelRotation; // 0x10
 
 

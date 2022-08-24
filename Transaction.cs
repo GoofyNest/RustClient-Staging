@@ -40,7 +40,7 @@ public class Transaction : IDisposable, ISerializable // TypeDefIndex: 3983
 
 	public void Dispose() { }
 
-	[MonoTODOAttribute] // RVA: 0xA80F0 Offset: 0xA74F0 VA: 0x1800A80F0
+	[MonoTODOAttribute] // RVA: 0xA81D0 Offset: 0xA75D0 VA: 0x1800A81D0
 	public Enlistment EnlistVolatile(IEnlistmentNotification enlistmentNotification, EnlistmentOptions enlistmentOptions) { }
 
 	private Enlistment EnlistVolatileInternal(IEnlistmentNotification notification, EnlistmentOptions options) { }

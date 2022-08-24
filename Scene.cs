@@ -9,22 +9,22 @@ public struct Scene // TypeDefIndex: 3655
 	public int rootCount { get; }
 
 
-	[StaticAccessorAttribute] // RVA: 0xE1A20 Offset: 0xE0E20 VA: 0x1800E1A20
+	[StaticAccessorAttribute] // RVA: 0xE19A0 Offset: 0xE0DA0 VA: 0x1800E19A0
 	private static bool IsValidInternal(int sceneHandle) { }
 
-	[StaticAccessorAttribute] // RVA: 0xE1A20 Offset: 0xE0E20 VA: 0x1800E1A20
+	[StaticAccessorAttribute] // RVA: 0xE19A0 Offset: 0xE0DA0 VA: 0x1800E19A0
 	private static string GetNameInternal(int sceneHandle) { }
 
-	[StaticAccessorAttribute] // RVA: 0xE1A20 Offset: 0xE0E20 VA: 0x1800E1A20
+	[StaticAccessorAttribute] // RVA: 0xE19A0 Offset: 0xE0DA0 VA: 0x1800E19A0
 	private static bool GetIsLoadedInternal(int sceneHandle) { }
 
-	[StaticAccessorAttribute] // RVA: 0xE1A20 Offset: 0xE0E20 VA: 0x1800E1A20
+	[StaticAccessorAttribute] // RVA: 0xE19A0 Offset: 0xE0DA0 VA: 0x1800E19A0
 	private static int GetBuildIndexInternal(int sceneHandle) { }
 
-	[StaticAccessorAttribute] // RVA: 0xE1A20 Offset: 0xE0E20 VA: 0x1800E1A20
+	[StaticAccessorAttribute] // RVA: 0xE19A0 Offset: 0xE0DA0 VA: 0x1800E19A0
 	private static int GetRootCountInternal(int sceneHandle) { }
 
-	[StaticAccessorAttribute] // RVA: 0xE1A20 Offset: 0xE0E20 VA: 0x1800E1A20
+	[StaticAccessorAttribute] // RVA: 0xE19A0 Offset: 0xE0DA0 VA: 0x1800E19A0
 	private static void GetRootGameObjectsInternal(int sceneHandle, object resultRootList) { }
 
 	public int get_handle() { }

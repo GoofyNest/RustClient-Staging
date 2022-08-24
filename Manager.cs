@@ -26,7 +26,7 @@ public class Manager : IDisposable // TypeDefIndex: 6709
 }
 
 public static class Manager // TypeDefIndex: 7007
-{	private static Dictionary<string, GameObject> Prefabs; // 0x2B0F
+{	private static Dictionary<string, GameObject> Prefabs; // 0x2B10760
 
 
 	internal static GameObject CreatePrefab(string name) { }

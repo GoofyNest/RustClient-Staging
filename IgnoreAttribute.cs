@@ -1,6 +1,6 @@
 internal class IgnoreAttribute : Attribute // TypeDefIndex: 3287
-{	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+{	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private bool <DoesNotContributeToSize>k__BackingField; // 0x10
 
 	public bool DoesNotContributeToSize { set; }

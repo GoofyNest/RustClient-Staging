@@ -1,11 +1,11 @@
 public class BurstClothHitBoxCollision : BurstCloth, IClientComponent, IPrefabPreProcess // TypeDefIndex: 8674
-{	[HeaderAttribute] // RVA: 0xB93D0 Offset: 0xB87D0 VA: 0x1800B93D0
+{	[HeaderAttribute] // RVA: 0xB9490 Offset: 0xB8890 VA: 0x1800B9490
 	public float GravityStrength; // 0x130
 	public float DefaultLength; // 0x134
 	public float MountedLengthMultiplier; // 0x138
 	public float DuckedLengthMultiplier; // 0x13C
 	public float CorpseLengthMultiplier; // 0x140
-	[HeaderAttribute] // RVA: 0x94F40 Offset: 0x94340 VA: 0x180094F40
+	[HeaderAttribute] // RVA: 0x94FB0 Offset: 0x943B0 VA: 0x180094FB0
 	public string[] IgnoreKeywords; // 0x148
 	private BasePlayer _player; // 0x150
 	private Ragdoll _ragdoll; // 0x158

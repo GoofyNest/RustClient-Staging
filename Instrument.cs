@@ -410,7 +410,7 @@ public class InstrumentIKController : MonoBehaviour // TypeDefIndex: 9550
 	public bool DebugHitRotation; // 0x60
 	public AnimationCurve HandHitCurve; // 0x68
 	public float NoteHitTime; // 0x70
-	[HeaderAttribute] // RVA: 0x770D0 Offset: 0x764D0 VA: 0x1800770D0
+	[HeaderAttribute] // RVA: 0x77040 Offset: 0x76440 VA: 0x180077040
 	public float BodyLookWeight; // 0x74
 	public float HeadLookWeight; // 0x78
 	public float LookWeightLimit; // 0x7C

@@ -62,7 +62,7 @@ public class CoverPoint // TypeDefIndex: 12130
 
 	public void CoverIsCompromised(float cooldown) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xDFB50 Offset: 0xDEF50 VA: 0x1800DFB50
+	[IteratorStateMachineAttribute] // RVA: 0xDF460 Offset: 0xDE860 VA: 0x1800DF460
 	private IEnumerator StartCooldown(float cooldown) { }
 
 	public bool ProvidesCoverFromPoint(Vector3 point, float arcThreshold) { }

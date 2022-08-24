@@ -4,7 +4,7 @@ public class AdaptMeshToTerrain : MonoBehaviour // TypeDefIndex: 10642
 	public float RayMaxDistance; // 0x20
 	public float MinDisplacement; // 0x24
 	public float MaxDisplacement; // 0x28
-	[RangeAttribute] // RVA: 0xED8F0 Offset: 0xECCF0 VA: 0x1800ED8F0
+	[RangeAttribute] // RVA: 0xED1B0 Offset: 0xEC5B0 VA: 0x1800ED1B0
 	public int PlaneResolution; // 0x2C
 	private const int LODCount = 3;
 	private MeshFilter meshFilter; // 0x30

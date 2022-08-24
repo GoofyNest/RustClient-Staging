@@ -1,9 +1,9 @@
 public class PlantProperties : ScriptableObject // TypeDefIndex: 9640
 {	public Translate.Phrase Description; // 0x18
 	public GrowableGeneProperties Genes; // 0x20
-	[ArrayIndexIsEnum] // RVA: 0x7D0A0 Offset: 0x7C4A0 VA: 0x18007D0A0
+	[ArrayIndexIsEnum] // RVA: 0x7CF70 Offset: 0x7C370 VA: 0x18007CF70
 	public PlantProperties.Stage[] stages; // 0x28
-	[HeaderAttribute] // RVA: 0x7D220 Offset: 0x7C620 VA: 0x18007D220
+	[HeaderAttribute] // RVA: 0x7D0F0 Offset: 0x7C4F0 VA: 0x18007D0F0
 	public AnimationCurve timeOfDayHappiness; // 0x30
 	public AnimationCurve temperatureHappiness; // 0x38
 	public AnimationCurve temperatureWaterRequirementMultiplier; // 0x40
@@ -14,7 +14,7 @@ public class PlantProperties : ScriptableObject // TypeDefIndex: 9640
 	public float OptimalWaterQuality; // 0x5C
 	public float OptimalGroundQuality; // 0x60
 	public float OptimalTemperatureQuality; // 0x64
-	[HeaderAttribute] // RVA: 0x7D290 Offset: 0x7C690 VA: 0x18007D290
+	[HeaderAttribute] // RVA: 0x7D160 Offset: 0x7C560 VA: 0x18007D160
 	public BaseEntity.Menu.Option pickOption; // 0x68
 	public ItemDefinition pickupItem; // 0x88
 	public BaseEntity.Menu.Option cloneOption; // 0x90
@@ -25,12 +25,12 @@ public class PlantProperties : ScriptableObject // TypeDefIndex: 9640
 	public GameObjectRef pickEffect; // 0xE8
 	public int maxHarvests; // 0xF0
 	public bool disappearAfterHarvest; // 0xF4
-	[HeaderAttribute] // RVA: 0x7D490 Offset: 0x7C890 VA: 0x18007D490
+	[HeaderAttribute] // RVA: 0x7D360 Offset: 0x7C760 VA: 0x18007D360
 	public GameObjectRef CrossBreedEffect; // 0xF8
 	public ItemDefinition SeedItem; // 0x100
 	public ItemDefinition CloneItem; // 0x108
 	public int BaseCloneCount; // 0x110
-	[HeaderAttribute] // RVA: 0x7D720 Offset: 0x7CB20 VA: 0x18007D720
+	[HeaderAttribute] // RVA: 0x7D5F0 Offset: 0x7C9F0 VA: 0x18007D5F0
 	public int BaseMarketValue; // 0x114
 
 

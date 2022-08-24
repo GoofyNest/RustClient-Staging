@@ -4,7 +4,7 @@ public sealed class CubemapArray : Texture // TypeDefIndex: 3449
 
 	public override bool get_isReadable() { }
 
-	[FreeFunctionAttribute] // RVA: 0xA2FC0 Offset: 0xA23C0 VA: 0x1800A2FC0
+	[FreeFunctionAttribute] // RVA: 0xA3000 Offset: 0xA2400 VA: 0x1800A3000
 	private static bool Internal_CreateImpl(CubemapArray mono, int ext, int count, int mipCount, GraphicsFormat format, TextureCreationFlags flags) { }
 
 	private static void Internal_Create(CubemapArray mono, int ext, int count, int mipCount, GraphicsFormat format, TextureCreationFlags flags) { }

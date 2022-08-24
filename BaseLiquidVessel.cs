@@ -1,5 +1,5 @@
 public class BaseLiquidVessel : AttackEntity // TypeDefIndex: 8522
-{	[HeaderAttribute] // RVA: 0xA2A20 Offset: 0xA1E20 VA: 0x1800A2A20
+{	[HeaderAttribute] // RVA: 0xA2A70 Offset: 0xA1E70 VA: 0x1800A2A70
 	public GameObjectRef thrownWaterObject; // 0x280
 	public GameObjectRef ThrowEffect3P; // 0x288
 	public SoundDefinition throwSound3P; // 0x290

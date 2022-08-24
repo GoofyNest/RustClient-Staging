@@ -1,26 +1,26 @@
 public class TextInfo : ICloneable, IDeserializationCallback // TypeDefIndex: 719
-{	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+{	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private string m_listSeparator; // 0x10
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private bool m_isReadOnly; // 0x18
-	[OptionalFieldAttribute] // RVA: 0xA9BD0 Offset: 0xA8FD0 VA: 0x1800A9BD0
+	[OptionalFieldAttribute] // RVA: 0xA9CA0 Offset: 0xA90A0 VA: 0x1800A9CA0
 	private string m_cultureName; // 0x20
 	private CultureData m_cultureData; // 0x28
 	private string m_textInfoName; // 0x30
 	private Nullable<bool> m_IsAsciiCasingSameAsInvariant; // 0x38
 	internal static TextInfo s_Invariant; // 0x0
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private string customCultureName; // 0x40
-	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
+	[OptionalFieldAttribute] // RVA: 0x96730 Offset: 0x95B30 VA: 0x180096730
 	internal int m_nDataItem; // 0x48
-	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
+	[OptionalFieldAttribute] // RVA: 0x96730 Offset: 0x95B30 VA: 0x180096730
 	internal bool m_useUserOverride; // 0x4C
-	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
+	[OptionalFieldAttribute] // RVA: 0x96730 Offset: 0x95B30 VA: 0x180096730
 	internal int m_win32LangID; // 0x50
 	private const int wordSeparatorMask = 536672256;
 
 	internal static TextInfo Invariant { get; }
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public string CultureName { get; }
 	private bool IsAsciiCasingSameAsInvariant { get; }
 
@@ -54,7 +54,7 @@ public class TextInfo : ICloneable, IDeserializationCallback // TypeDefIndex: 71
 
 	public string get_CultureName() { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual object Clone() { }
 
 	internal void SetReadOnlyState(bool readOnly) { }

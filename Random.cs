@@ -28,7 +28,7 @@ public class Random // TypeDefIndex: 288
 }
 
 public sealed class Random // TypeDefIndex: 3487
-{	[StaticAccessorAttribute] // RVA: 0xB4390 Offset: 0xB3790 VA: 0x1800B4390
+{	[StaticAccessorAttribute] // RVA: 0xB4580 Offset: 0xB3980 VA: 0x1800B4580
 	public static Random.State state { get; set; }
 	public static float value { get; }
 	public static Vector3 insideUnitSphere { get; }
@@ -37,40 +37,40 @@ public sealed class Random // TypeDefIndex: 3487
 	public static Quaternion rotation { get; }
 
 
-	[NativeMethodAttribute] // RVA: 0xB3A00 Offset: 0xB2E00 VA: 0x1800B3A00
-	[StaticAccessorAttribute] // RVA: 0xB3A00 Offset: 0xB2E00 VA: 0x1800B3A00
+	[NativeMethodAttribute] // RVA: 0xB3C80 Offset: 0xB3080 VA: 0x1800B3C80
+	[StaticAccessorAttribute] // RVA: 0xB3C80 Offset: 0xB3080 VA: 0x1800B3C80
 	public static void InitState(int seed) { }
 
 	public static Random.State get_state() { }
 
 	public static void set_state(Random.State value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	public static float Range(float min, float max) { }
 
 	public static int Range(int min, int max) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	private static int RandomRangeInt(int min, int max) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	public static float get_value() { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	public static Vector3 get_insideUnitSphere() { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	private static void GetRandomUnitCircle(out Vector2 output) { }
 
 	public static Vector2 get_insideUnitCircle() { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	public static Vector3 get_onUnitSphere() { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	public static Quaternion get_rotation() { }
 
-	[ObsoleteAttribute] // RVA: 0xB4280 Offset: 0xB3680 VA: 0x1800B4280
+	[ObsoleteAttribute] // RVA: 0xB4410 Offset: 0xB3810 VA: 0x1800B4410
 	public static int RandomRange(int min, int max) { }
 
 	public static Color ColorHSV(float hueMin, float hueMax, float saturationMin, float saturationMax, float valueMin, float valueMax, float alphaMin, float alphaMax) { }

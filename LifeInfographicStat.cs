@@ -1,8 +1,8 @@
 public class LifeInfographicStat : MonoBehaviour // TypeDefIndex: 11077
 {	public LifeInfographicStat.DataType dataSource; // 0x18
-	[HeaderAttribute] // RVA: 0x94EE0 Offset: 0x942E0 VA: 0x180094EE0
+	[HeaderAttribute] // RVA: 0x94A00 Offset: 0x93E00 VA: 0x180094A00
 	public string genericStatKey; // 0x20
-	[HeaderAttribute] // RVA: 0x94FE0 Offset: 0x943E0 VA: 0x180094FE0
+	[HeaderAttribute] // RVA: 0x94B10 Offset: 0x93F10 VA: 0x180094B10
 	public string targetWeaponName; // 0x28
 	public LifeInfographicStat.WeaponInfoType weaponInfoType; // 0x30
 	public TextMeshProUGUI targetText; // 0x38

@@ -10,34 +10,34 @@ public struct Quaternion : IEquatable<Quaternion> // TypeDefIndex: 3468
 	public Vector3 eulerAngles { get; }
 
 
-	[FreeFunctionAttribute] // RVA: 0xAC440 Offset: 0xAB840 VA: 0x1800AC440
+	[FreeFunctionAttribute] // RVA: 0xAC560 Offset: 0xAB960 VA: 0x1800AC560
 	public static Quaternion FromToRotation(Vector3 fromDirection, Vector3 toDirection) { }
 
-	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
+	[FreeFunctionAttribute] // RVA: 0x85620 Offset: 0x84A20 VA: 0x180085620
 	public static Quaternion Inverse(Quaternion rotation) { }
 
-	[FreeFunctionAttribute] // RVA: 0xAC6E0 Offset: 0xABAE0 VA: 0x1800AC6E0
+	[FreeFunctionAttribute] // RVA: 0xAC760 Offset: 0xABB60 VA: 0x1800AC760
 	public static Quaternion Slerp(Quaternion a, Quaternion b, float t) { }
 
-	[FreeFunctionAttribute] // RVA: 0xAC860 Offset: 0xABC60 VA: 0x1800AC860
+	[FreeFunctionAttribute] // RVA: 0xAC8A0 Offset: 0xABCA0 VA: 0x1800AC8A0
 	public static Quaternion SlerpUnclamped(Quaternion a, Quaternion b, float t) { }
 
-	[FreeFunctionAttribute] // RVA: 0xAC940 Offset: 0xABD40 VA: 0x1800AC940
+	[FreeFunctionAttribute] // RVA: 0xAC9D0 Offset: 0xABDD0 VA: 0x1800AC9D0
 	public static Quaternion Lerp(Quaternion a, Quaternion b, float t) { }
 
-	[FreeFunctionAttribute] // RVA: 0xACAF0 Offset: 0xABEF0 VA: 0x1800ACAF0
+	[FreeFunctionAttribute] // RVA: 0xACB50 Offset: 0xABF50 VA: 0x1800ACB50
 	public static Quaternion LerpUnclamped(Quaternion a, Quaternion b, float t) { }
 
 	[FreeFunctionAttribute] // RVA: 0xACC50 Offset: 0xAC050 VA: 0x1800ACC50
 	private static Quaternion Internal_FromEulerRad(Vector3 euler) { }
 
-	[FreeFunctionAttribute] // RVA: 0xACD60 Offset: 0xAC160 VA: 0x1800ACD60
+	[FreeFunctionAttribute] // RVA: 0xACD90 Offset: 0xAC190 VA: 0x1800ACD90
 	private static Vector3 Internal_ToEulerRad(Quaternion rotation) { }
 
-	[FreeFunctionAttribute] // RVA: 0xACE00 Offset: 0xAC200 VA: 0x1800ACE00
+	[FreeFunctionAttribute] // RVA: 0xACE60 Offset: 0xAC260 VA: 0x1800ACE60
 	public static Quaternion AngleAxis(float angle, Vector3 axis) { }
 
-	[FreeFunctionAttribute] // RVA: 0xACF50 Offset: 0xAC350 VA: 0x1800ACF50
+	[FreeFunctionAttribute] // RVA: 0xAD010 Offset: 0xAC410 VA: 0x1800AD010
 	public static Quaternion LookRotation(Vector3 forward, Vector3 upwards) { }
 
 	[ExcludeFromDocsAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

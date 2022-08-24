@@ -13,7 +13,7 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 10958
 	public GameObject PlayerDeathMarker; // 0x70
 	public List<SleepingBagMapMarker> SleepingBagMarkers; // 0x78
 	public List<SleepingBagClusterMapMarker> SleepingBagClusters; // 0x80
-	[FormerlySerializedAsAttribute] // RVA: 0x8D4F0 Offset: 0x8C8F0 VA: 0x18008D4F0
+	[FormerlySerializedAsAttribute] // RVA: 0x8CCB0 Offset: 0x8C0B0 VA: 0x18008CCB0
 	public RawImage UndergroundLayer; // 0x88
 	public bool ShowGrid; // 0x90
 	public bool ShowPointOfInterestMarkers; // 0x91
@@ -23,7 +23,7 @@ public class MapView : FacepunchBehaviour // TypeDefIndex: 10958
 	public bool ShowTeamMembers; // 0x95
 	public bool ShowTrainLayer; // 0x96
 	public bool ShowMissions; // 0x97
-	[FormerlySerializedAsAttribute] // RVA: 0x8D550 Offset: 0x8C950 VA: 0x18008D550
+	[FormerlySerializedAsAttribute] // RVA: 0x8CE30 Offset: 0x8C230 VA: 0x18008CE30
 	public bool ShowUndergroundLayers; // 0x98
 	public bool MLRSMarkerMode; // 0x99
 	public RustImageButton LockButton; // 0xA0

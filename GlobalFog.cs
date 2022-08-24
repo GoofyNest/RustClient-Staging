@@ -1,15 +1,15 @@
 internal class GlobalFog : PostEffectsBase // TypeDefIndex: 8189
-{	[TooltipAttribute] // RVA: 0x9AC50 Offset: 0x9A050 VA: 0x18009AC50
+{	[TooltipAttribute] // RVA: 0x9AC10 Offset: 0x9A010 VA: 0x18009AC10
 	public bool distanceFog; // 0x28
-	[TooltipAttribute] // RVA: 0x9AE30 Offset: 0x9A230 VA: 0x18009AE30
+	[TooltipAttribute] // RVA: 0x9AE40 Offset: 0x9A240 VA: 0x18009AE40
 	public bool useRadialDistance; // 0x29
-	[TooltipAttribute] // RVA: 0x9AE60 Offset: 0x9A260 VA: 0x18009AE60
+	[TooltipAttribute] // RVA: 0x9AE70 Offset: 0x9A270 VA: 0x18009AE70
 	public bool heightFog; // 0x2A
 	[TooltipAttribute] // RVA: 0x9AFA0 Offset: 0x9A3A0 VA: 0x18009AFA0
 	public float height; // 0x2C
-	[RangeAttribute] // RVA: 0x9B000 Offset: 0x9A400 VA: 0x18009B000
+	[RangeAttribute] // RVA: 0x9B050 Offset: 0x9A450 VA: 0x18009B050
 	public float heightDensity; // 0x30
-	[TooltipAttribute] // RVA: 0x9B0A0 Offset: 0x9A4A0 VA: 0x18009B0A0
+	[TooltipAttribute] // RVA: 0x9B140 Offset: 0x9A540 VA: 0x18009B140
 	public float startDistance; // 0x34
 	public Shader fogShader; // 0x38
 	private Material fogMaterial; // 0x40

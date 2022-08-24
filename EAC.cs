@@ -23,14 +23,14 @@ public static class EAC // TypeDefIndex: 9186
 
 	private static void SendToServer(byte[] message, int messageLength) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD7490 Offset: 0xD6890 VA: 0x1800D7490
+	[IteratorStateMachineAttribute] // RVA: 0xD73E0 Offset: 0xD67E0 VA: 0x1800D73E0
 	public static IEnumerator DoStartup() { }
 
 	public static void DoShutdown() { }
 
 	public static void DoUpdate() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD75B0 Offset: 0xD69B0 VA: 0x1800D75B0
+	[AsyncStateMachineAttribute] // RVA: 0xD7500 Offset: 0xD6900 VA: 0x1800D7500
 	public static Task OnJoinServer() { }
 
 	public static void OnLeaveServer() { }

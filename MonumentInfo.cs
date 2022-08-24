@@ -1,7 +1,7 @@
 public class MonumentInfo : LandmarkInfo, IPrefabPreProcess // TypeDefIndex: 9966
-{	[HeaderAttribute] // RVA: 0xAB410 Offset: 0xAA810 VA: 0x1800AB410
+{	[HeaderAttribute] // RVA: 0xAAC50 Offset: 0xAA050 VA: 0x1800AAC50
 	public MonumentType Type; // 0x30
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public MonumentTier Tier; // 0x34
 	public int MinWorldSize; // 0x38
 	public Bounds Bounds; // 0x3C

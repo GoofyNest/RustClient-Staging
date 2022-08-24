@@ -1,5 +1,5 @@
 public sealed class Trace // TypeDefIndex: 2637
-{	private static CorrelationManager correlationManager; // 0x2B117B0
+{	private static CorrelationManager correlationManager; // 0x145A0
 
 	public static TraceListenerCollection Listeners { get; }
 	public static bool AutoFlush { get; }

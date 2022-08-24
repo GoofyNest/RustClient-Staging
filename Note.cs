@@ -123,19 +123,19 @@ public class Note : ILengthedObject, ITimedObject // TypeDefIndex: 7438
 
 public class Note : ConsoleSystem // TypeDefIndex: 11953
 {
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void craft_add(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void craft_start(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void craft_done(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void craft_fasttracked(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x86070 Offset: 0x85470 VA: 0x180086070
+	[ClientVar] // RVA: 0x85910 Offset: 0x84D10 VA: 0x180085910
 	public static void inv(ConsoleSystem.Arg args) { }
 
 	public void .ctor() { }

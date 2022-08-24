@@ -5,7 +5,7 @@ public enum EncodeOptions // TypeDefIndex: 11574
 	public const EncodeOptions NoTypeHints = 2;
 	public const EncodeOptions IncludePublicProperties = 4;
 	public const EncodeOptions EnforceHierarchyOrder = 8;
-	[ObsoleteAttribute] // RVA: 0xC75D0 Offset: 0xC69D0 VA: 0x1800C75D0
+	[ObsoleteAttribute] // RVA: 0xC6E10 Offset: 0xC6210 VA: 0x1800C6E10
 	public const EncodeOptions EnforceHeirarchyOrder = 8;
 
 }

@@ -1,5 +1,5 @@
 public class ParticleSystemLOD : LODComponentParticleSystem // TypeDefIndex: 9950
-{	[HorizontalAttribute] // RVA: 0xAA500 Offset: 0xA9900 VA: 0x1800AA500
+{	[HorizontalAttribute] // RVA: 0xAA030 Offset: 0xA9430 VA: 0x1800AA030
 	public ParticleSystemLOD.State[] States; // 0xA8
 
 
@@ -13,7 +13,7 @@ public class ParticleSystemLOD : LODComponentParticleSystem // TypeDefIndex: 995
 
 public class ParticleSystemLOD.State // TypeDefIndex: 9951
 {	public float distance; // 0x10
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float emission; // 0x14
 
 

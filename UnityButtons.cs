@@ -1,5 +1,5 @@
 public static class UnityButtons // TypeDefIndex: 8233
-{	private static bool isRegistered; // 0x2B11924
+{	private static bool isRegistered; // 0x2D40
 
 
 	public static void Register() { }

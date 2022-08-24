@@ -1,35 +1,35 @@
 public sealed class VideoPlayer : Behaviour // TypeDefIndex: 4783
-{	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+{	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private VideoPlayer.EventHandler prepareCompleted; // 0x18
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private VideoPlayer.EventHandler loopPointReached; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private VideoPlayer.EventHandler started; // 0x28
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private VideoPlayer.EventHandler frameDropped; // 0x30
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private VideoPlayer.ErrorEventHandler errorReceived; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private VideoPlayer.EventHandler seekCompleted; // 0x40
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private VideoPlayer.TimeEventHandler clockResyncOccurred; // 0x48
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private VideoPlayer.FrameReadyEventHandler frameReady; // 0x50
 
-	[NativeNameAttribute] // RVA: 0xCDF30 Offset: 0xCD330 VA: 0x1800CDF30
+	[NativeNameAttribute] // RVA: 0xCE060 Offset: 0xCD460 VA: 0x1800CE060
 	public string url { set; }
-	[NativeHeaderAttribute] // RVA: 0xCE1A0 Offset: 0xCD5A0 VA: 0x1800CE1A0
+	[NativeHeaderAttribute] // RVA: 0xCE270 Offset: 0xCD670 VA: 0x1800CE270
 	public Texture texture { get; }
 	public bool isPrepared { get; }
-	[NativeNameAttribute] // RVA: 0xCE220 Offset: 0xCD620 VA: 0x1800CE220
+	[NativeNameAttribute] // RVA: 0xCE2A0 Offset: 0xCD6A0 VA: 0x1800CE2A0
 	public long frame { get; }
 	public uint width { get; }
 	public uint height { get; }
@@ -39,7 +39,7 @@ public sealed class VideoPlayer : Behaviour // TypeDefIndex: 4783
 
 	public Texture get_texture() { }
 
-	[NativeNameAttribute] // RVA: 0xCD520 Offset: 0xCC920 VA: 0x1800CD520
+	[NativeNameAttribute] // RVA: 0xCD5F0 Offset: 0xCC9F0 VA: 0x1800CD5F0
 	public bool get_isPrepared() { }
 
 	public void Play() { }

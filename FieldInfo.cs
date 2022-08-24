@@ -37,15 +37,15 @@ public abstract class FieldInfo : MemberInfo, _FieldInfo // TypeDefIndex: 568
 
 	public abstract void SetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture);
 
-	[DebuggerStepThroughAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[DebuggerHiddenAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[DebuggerStepThroughAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[DebuggerHiddenAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public void SetValue(object obj, object value) { }
 
 	private static FieldInfo internal_from_handle_type(IntPtr field_handle, IntPtr type_handle) { }
 
 	public static FieldInfo GetFieldFromHandle(RuntimeFieldHandle handle) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public static FieldInfo GetFieldFromHandle(RuntimeFieldHandle handle, RuntimeTypeHandle declaringType) { }
 
 	internal virtual int GetFieldOffset() { }

@@ -6,7 +6,7 @@ public static class Monitor // TypeDefIndex: 788
 
 	private static void ThrowLockTakenException() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public static void Exit(object obj) { }
 
 	public static void TryEnter(object obj, ref bool lockTaken) { }

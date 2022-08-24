@@ -2,22 +2,22 @@ public sealed class GL // TypeDefIndex: 3390
 {	public static bool sRGBWrite { get; set; }
 
 
-	[NativeNameAttribute] // RVA: 0x8AD20 Offset: 0x8A120 VA: 0x18008AD20
+	[NativeNameAttribute] // RVA: 0x8ACE0 Offset: 0x8A0E0 VA: 0x18008ACE0
 	public static void Vertex3(float x, float y, float z) { }
 
 	public static void Vertex(Vector3 v) { }
 
-	[NativeNameAttribute] // RVA: 0x8ADD0 Offset: 0x8A1D0 VA: 0x18008ADD0
+	[NativeNameAttribute] // RVA: 0x8AD90 Offset: 0x8A190 VA: 0x18008AD90
 	public static void TexCoord3(float x, float y, float z) { }
 
 	public static void TexCoord2(float x, float y) { }
 
-	[NativeNameAttribute] // RVA: 0x8AE70 Offset: 0x8A270 VA: 0x18008AE70
+	[NativeNameAttribute] // RVA: 0x8AE30 Offset: 0x8A230 VA: 0x18008AE30
 	public static void MultiTexCoord3(int unit, float x, float y, float z) { }
 
 	public static void MultiTexCoord2(int unit, float x, float y) { }
 
-	[NativeNameAttribute] // RVA: 0x8AF40 Offset: 0x8A340 VA: 0x18008AF40
+	[NativeNameAttribute] // RVA: 0x8AEA0 Offset: 0x8A2A0 VA: 0x18008AEA0
 	private static void ImmediateColor(float r, float g, float b, float a) { }
 
 	public static void Color(Color c) { }
@@ -28,52 +28,52 @@ public sealed class GL // TypeDefIndex: 3390
 
 	public static void Flush() { }
 
-	[NativeNameAttribute] // RVA: 0x8AFE0 Offset: 0x8A3E0 VA: 0x18008AFE0
+	[NativeNameAttribute] // RVA: 0x8AF10 Offset: 0x8A310 VA: 0x18008AF10
 	public static void MultMatrix(Matrix4x4 m) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8B080 Offset: 0x8A480 VA: 0x18008B080
+	[FreeFunctionAttribute] // RVA: 0x8AF80 Offset: 0x8A380 VA: 0x18008AF80
 	public static void PushMatrix() { }
 
-	[FreeFunctionAttribute] // RVA: 0x8B170 Offset: 0x8A570 VA: 0x18008B170
+	[FreeFunctionAttribute] // RVA: 0x8AFF0 Offset: 0x8A3F0 VA: 0x18008AFF0
 	public static void PopMatrix() { }
 
-	[FreeFunctionAttribute] // RVA: 0x8B1E0 Offset: 0x8A5E0 VA: 0x18008B1E0
+	[FreeFunctionAttribute] // RVA: 0x8B060 Offset: 0x8A460 VA: 0x18008B060
 	public static void LoadIdentity() { }
 
-	[FreeFunctionAttribute] // RVA: 0x8B2C0 Offset: 0x8A6C0 VA: 0x18008B2C0
+	[FreeFunctionAttribute] // RVA: 0x8B190 Offset: 0x8A590 VA: 0x18008B190
 	public static void LoadOrtho() { }
 
-	[FreeFunctionAttribute] // RVA: 0x8B330 Offset: 0x8A730 VA: 0x18008B330
+	[FreeFunctionAttribute] // RVA: 0x8B200 Offset: 0x8A600 VA: 0x18008B200
 	public static void LoadPixelMatrix() { }
 
-	[FreeFunctionAttribute] // RVA: 0x8B450 Offset: 0x8A850 VA: 0x18008B450
+	[FreeFunctionAttribute] // RVA: 0x8B320 Offset: 0x8A720 VA: 0x18008B320
 	public static void LoadProjectionMatrix(Matrix4x4 mat) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8B550 Offset: 0x8A950 VA: 0x18008B550
+	[FreeFunctionAttribute] // RVA: 0x8B420 Offset: 0x8A820 VA: 0x18008B420
 	public static Matrix4x4 GetGPUProjectionMatrix(Matrix4x4 proj, bool renderIntoTexture) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	private static void GLLoadPixelMatrixScript(float left, float right, float bottom, float top) { }
 
 	public static void LoadPixelMatrix(float left, float right, float bottom, float top) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	private static void GLIssuePluginEvent(IntPtr callback, int eventID) { }
 
 	public static void IssuePluginEvent(IntPtr callback, int eventID) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8C8E0 Offset: 0x8BCE0 VA: 0x18008C8E0
+	[FreeFunctionAttribute] // RVA: 0x8C7B0 Offset: 0x8BBB0 VA: 0x18008C7B0
 	public static void Begin(int mode) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8CAE0 Offset: 0x8BEE0 VA: 0x18008CAE0
+	[FreeFunctionAttribute] // RVA: 0x8C9B0 Offset: 0x8BDB0 VA: 0x18008C9B0
 	public static void End() { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	private static void GLClear(bool clearDepth, bool clearColor, Color backgroundColor, float depth) { }
 
 	public static void Clear(bool clearDepth, bool clearColor, Color backgroundColor) { }
 
-	[FreeFunctionAttribute] // RVA: 0x8CC40 Offset: 0x8C040 VA: 0x18008CC40
+	[FreeFunctionAttribute] // RVA: 0x8CAC0 Offset: 0x8BEC0 VA: 0x18008CAC0
 	public static void ClearWithSkybox(bool clearDepth, Camera camera) { }
 
 	private static void MultMatrix_Injected(ref Matrix4x4 m) { }

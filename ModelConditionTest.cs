@@ -250,7 +250,7 @@ public class ModelConditionTest_Wall : ModelConditionTest // TypeDefIndex: 9082
 
 public class ModelConditionTest_WallCornerLeft : ModelConditionTest // TypeDefIndex: 9083
 {	private const string socket = "sockets/stability/2";
-	private static string[] sockets; // 0x1610
+	private static string[] sockets; // 0x2B10768
 
 
 	public override bool DoTest(BaseEntity ent) { }
@@ -263,7 +263,7 @@ public class ModelConditionTest_WallCornerLeft : ModelConditionTest // TypeDefIn
 
 public class ModelConditionTest_WallCornerRight : ModelConditionTest // TypeDefIndex: 9084
 {	private const string socket = "sockets/stability/1";
-	private static string[] sockets; // 0x1610
+	private static string[] sockets; // 0x1DE6
 
 
 	public override bool DoTest(BaseEntity ent) { }

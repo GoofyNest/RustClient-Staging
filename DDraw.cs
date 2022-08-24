@@ -203,19 +203,19 @@ private sealed class DDraw.<>c // TypeDefIndex: 11697
 
 public class DDraw // TypeDefIndex: 11903
 {
-	[ClientVar] // RVA: 0x93350 Offset: 0x92750 VA: 0x180093350
+	[ClientVar] // RVA: 0x91A30 Offset: 0x90E30 VA: 0x180091A30
 	public static void line(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x93350 Offset: 0x92750 VA: 0x180093350
+	[ClientVar] // RVA: 0x91A30 Offset: 0x90E30 VA: 0x180091A30
 	public static void arrow(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x93350 Offset: 0x92750 VA: 0x180093350
+	[ClientVar] // RVA: 0x91A30 Offset: 0x90E30 VA: 0x180091A30
 	public static void sphere(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x93350 Offset: 0x92750 VA: 0x180093350
+	[ClientVar] // RVA: 0x91A30 Offset: 0x90E30 VA: 0x180091A30
 	public static void text(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x93350 Offset: 0x92750 VA: 0x180093350
+	[ClientVar] // RVA: 0x91A30 Offset: 0x90E30 VA: 0x180091A30
 	public static void box(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

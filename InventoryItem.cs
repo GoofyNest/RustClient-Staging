@@ -23,13 +23,13 @@ public struct InventoryItem : IEquatable<InventoryItem> // TypeDefIndex: 5241
 
 	public Dictionary<string, string> get_Properties() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x97EA0 Offset: 0x972A0 VA: 0x180097EA0
+	[AsyncStateMachineAttribute] // RVA: 0x97EF0 Offset: 0x972F0 VA: 0x180097EF0
 	public Task<Nullable<InventoryResult>> ConsumeAsync(int amount = 1) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x98170 Offset: 0x97570 VA: 0x180098170
+	[AsyncStateMachineAttribute] // RVA: 0x98240 Offset: 0x97640 VA: 0x180098240
 	public Task<Nullable<InventoryResult>> SplitStackAsync(int quantity = 1) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x98260 Offset: 0x97660 VA: 0x180098260
+	[AsyncStateMachineAttribute] // RVA: 0x982D0 Offset: 0x976D0 VA: 0x1800982D0
 	public Task<Nullable<InventoryResult>> AddAsync(InventoryItem add, int quantity = 1) { }
 
 	internal static InventoryItem From(SteamItemDetails_t details) { }

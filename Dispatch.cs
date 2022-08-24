@@ -41,7 +41,7 @@ public static class Dispatch // TypeDefIndex: 5104
 
 	private static void ProcessResult(Dispatch.CallbackMsg_t msg) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x8B500 Offset: 0x8A900 VA: 0x18008B500
+	[AsyncStateMachineAttribute] // RVA: 0x8B3D0 Offset: 0x8A7D0 VA: 0x18008B3D0
 	internal static void LoopClientAsync() { }
 
 	internal static void OnCallComplete<T>(SteamAPICall_t call, Action continuation, bool server) { }

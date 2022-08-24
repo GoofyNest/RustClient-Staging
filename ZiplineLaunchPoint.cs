@@ -27,10 +27,10 @@ public class ZiplineLaunchPoint : BaseEntity // TypeDefIndex: 8489
 
 	private void UpdateLineRenderer(bool force = False) { }
 
-	[BaseEntity.Menu] // RVA: 0x9D550 Offset: 0x9C950 VA: 0x18009D550
-	[BaseEntity.Menu.Description] // RVA: 0x9D550 Offset: 0x9C950 VA: 0x18009D550
-	[BaseEntity.Menu.Icon] // RVA: 0x9D550 Offset: 0x9C950 VA: 0x18009D550
-	[BaseEntity.Menu.ShowIf] // RVA: 0x9D550 Offset: 0x9C950 VA: 0x18009D550
+	[BaseEntity.Menu] // RVA: 0x9D4B0 Offset: 0x9C8B0 VA: 0x18009D4B0
+	[BaseEntity.Menu.Description] // RVA: 0x9D4B0 Offset: 0x9C8B0 VA: 0x18009D4B0
+	[BaseEntity.Menu.Icon] // RVA: 0x9D4B0 Offset: 0x9C8B0 VA: 0x18009D4B0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x9D4B0 Offset: 0x9C8B0 VA: 0x18009D4B0
 	private void Menu_MountZipline(BasePlayer player) { }
 
 	private bool Menu_Mount_ShowIf(BasePlayer player) { }

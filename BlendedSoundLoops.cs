@@ -1,5 +1,5 @@
 public class BlendedSoundLoops : MonoBehaviour, IClientComponent // TypeDefIndex: 8985
-{	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+{	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float blend; // 0x18
 	public float blendSmoothing; // 0x1C
 	public float loopFadeOutTime; // 0x20

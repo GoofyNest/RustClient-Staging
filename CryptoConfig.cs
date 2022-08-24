@@ -1,5 +1,5 @@
 public class CryptoConfig // TypeDefIndex: 1003
-{	[MonoLimitationAttribute] // RVA: 0xCBCF0 Offset: 0xCB0F0 VA: 0x1800CBCF0
+{	[MonoLimitationAttribute] // RVA: 0xCBDB0 Offset: 0xCB1B0 VA: 0x1800CBDB0
 	public static bool AllowOnlyFipsAlgorithms { get; }
 
 

@@ -4,7 +4,7 @@ public class PlaceMonumentsOffshore : ProceduralComponent // TypeDefIndex: 10546
 	public int MinDistanceFromTerrain; // 0x34
 	public int MaxDistanceFromTerrain; // 0x38
 	public int DistanceBetweenMonuments; // 0x3C
-	[FormerlySerializedAsAttribute] // RVA: 0xDA6A0 Offset: 0xD9AA0 VA: 0x1800DA6A0
+	[FormerlySerializedAsAttribute] // RVA: 0xDA090 Offset: 0xD9490 VA: 0x1800DA090
 	public int MinWorldSize; // 0x40
 	private const int Candidates = 10;
 	private const int Attempts = 10000;

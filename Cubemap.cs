@@ -3,10 +3,10 @@ public sealed class Cubemap : Texture // TypeDefIndex: 3446
 	public override bool isReadable { get; }
 
 
-	[NativeNameAttribute] // RVA: 0x9E9C0 Offset: 0x9DDC0 VA: 0x18009E9C0
+	[NativeNameAttribute] // RVA: 0x9E8B0 Offset: 0x9DCB0 VA: 0x18009E8B0
 	public TextureFormat get_format() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9FC60 Offset: 0x9F060 VA: 0x18009FC60
+	[FreeFunctionAttribute] // RVA: 0x9FBA0 Offset: 0x9EFA0 VA: 0x18009FBA0
 	private static bool Internal_CreateImpl(Cubemap mono, int ext, int mipCount, GraphicsFormat format, TextureCreationFlags flags, IntPtr nativeTex) { }
 
 	private static void Internal_Create(Cubemap mono, int ext, int mipCount, GraphicsFormat format, TextureCreationFlags flags, IntPtr nativeTex) { }

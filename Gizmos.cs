@@ -3,28 +3,28 @@ public sealed class Gizmos // TypeDefIndex: 3380
 	public static Matrix4x4 matrix { get; set; }
 
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static void DrawLine(Vector3 from, Vector3 to) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static void DrawWireSphere(Vector3 center, float radius) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static void DrawSphere(Vector3 center, float radius) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static void DrawWireCube(Vector3 center, Vector3 size) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static void DrawCube(Vector3 center, Vector3 size) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static void DrawMesh(Mesh mesh, int submeshIndex, Vector3 position, Quaternion rotation, Vector3 scale) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static void DrawIcon(Vector3 center, string name, bool allowScaling) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static void DrawIcon(Vector3 center, string name, bool allowScaling, Color tint) { }
 
 	public static Color get_color() { }

@@ -3,9 +3,9 @@ public class TerrainPathChildObjects : MonoBehaviour // TypeDefIndex: 10367
 	public float Width; // 0x1C
 	public float Offset; // 0x20
 	public float Fade; // 0x24
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public TerrainSplat.Enum Splat; // 0x28
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public TerrainTopology.Enum Topology; // 0x2C
 	public InfrastructureType Type; // 0x30
 

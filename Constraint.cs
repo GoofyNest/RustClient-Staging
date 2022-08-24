@@ -5,12 +5,12 @@ public abstract class Constraint // TypeDefIndex: 4174
 	internal string _name; // 0x28
 	internal PropertyCollection _extendedProperties; // 0x30
 
-	[DefaultValueAttribute] // RVA: 0x91BC0 Offset: 0x90FC0 VA: 0x180091BC0
+	[DefaultValueAttribute] // RVA: 0x91B90 Offset: 0x90F90 VA: 0x180091B90
 	public virtual string ConstraintName { get; set; }
 	internal string SchemaName { get; set; }
 	internal virtual bool InCollection { get; set; }
 	public abstract DataTable Table { get; }
-	[BrowsableAttribute] // RVA: 0x9AA30 Offset: 0x99E30 VA: 0x18009AA30
+	[BrowsableAttribute] // RVA: 0x9A9A0 Offset: 0x99DA0 VA: 0x18009A9A0
 	public PropertyCollection ExtendedProperties { get; }
 	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	protected virtual DataSet _DataSet { get; }

@@ -8,7 +8,7 @@ internal class ResourceFallbackManager : IEnumerable<CultureInfo>, IEnumerable /
 
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x95FE0 Offset: 0x953E0 VA: 0x180095FE0
+	[IteratorStateMachineAttribute] // RVA: 0x96030 Offset: 0x95430 VA: 0x180096030
 	public IEnumerator<CultureInfo> GetEnumerator() { }
 
 }

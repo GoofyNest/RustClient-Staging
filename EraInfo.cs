@@ -4,11 +4,11 @@ internal class EraInfo // TypeDefIndex: 703
 	internal int yearOffset; // 0x20
 	internal int minEraYear; // 0x24
 	internal int maxEraYear; // 0x28
-	[OptionalFieldAttribute] // RVA: 0x7B780 Offset: 0x7AB80 VA: 0x18007B780
+	[OptionalFieldAttribute] // RVA: 0x7B750 Offset: 0x7AB50 VA: 0x18007B750
 	internal string eraName; // 0x30
-	[OptionalFieldAttribute] // RVA: 0x7B780 Offset: 0x7AB80 VA: 0x18007B780
+	[OptionalFieldAttribute] // RVA: 0x7B750 Offset: 0x7AB50 VA: 0x18007B750
 	internal string abbrevEraName; // 0x38
-	[OptionalFieldAttribute] // RVA: 0x7B780 Offset: 0x7AB80 VA: 0x18007B780
+	[OptionalFieldAttribute] // RVA: 0x7B750 Offset: 0x7AB50 VA: 0x18007B750
 	internal string englishEraName; // 0x40
 
 

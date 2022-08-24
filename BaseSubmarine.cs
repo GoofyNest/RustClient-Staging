@@ -10,8 +10,8 @@ public class BaseSubmarine : BaseVehicle, IEngineControllerUser, IEntity, IAirSu
 	private bool playedWindowFilm; // 0x51E
 	private float baseAlphaInside; // 0x520
 	private float baseAlphaOutside; // 0x524
-	[HeaderAttribute] // RVA: 0xC63D0 Offset: 0xC57D0 VA: 0x1800C63D0
-	[SerializeField] // RVA: 0xC63D0 Offset: 0xC57D0 VA: 0x1800C63D0
+	[HeaderAttribute] // RVA: 0xC6310 Offset: 0xC5710 VA: 0x1800C6310
+	[SerializeField] // RVA: 0xC6310 Offset: 0xC5710 VA: 0x1800C6310
 	private Transform centreOfMassTransform; // 0x528
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Buoyancy buoyancy; // 0x530
@@ -33,8 +33,8 @@ public class BaseSubmarine : BaseVehicle, IEngineControllerUser, IEntity, IAirSu
 	private BaseSubmarine.ParentTriggerInfo[] parentTriggers; // 0x570
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObjectRef fuelStoragePrefab; // 0x578
-	[HeaderAttribute] // RVA: 0xC6BB0 Offset: 0xC5FB0 VA: 0x1800C6BB0
-	[SerializeField] // RVA: 0xC6BB0 Offset: 0xC5FB0 VA: 0x1800C6BB0
+	[HeaderAttribute] // RVA: 0xC6C70 Offset: 0xC6070 VA: 0x1800C6C70
+	[SerializeField] // RVA: 0xC6C70 Offset: 0xC6070 VA: 0x1800C6C70
 	private float engineKW; // 0x580
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float turnPower; // 0x584
@@ -48,18 +48,18 @@ public class BaseSubmarine : BaseVehicle, IEngineControllerUser, IEntity, IAirSu
 	private float idleFuelPerSec; // 0x59C
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float maxFuelPerSec; // 0x5A0
-	[FormerlySerializedAsAttribute] // RVA: 0xC6FE0 Offset: 0xC63E0 VA: 0x1800C6FE0
-	[SerializeField] // RVA: 0xC6FE0 Offset: 0xC63E0 VA: 0x1800C6FE0
+	[FormerlySerializedAsAttribute] // RVA: 0xC6FA0 Offset: 0xC63A0 VA: 0x1800C6FA0
+	[SerializeField] // RVA: 0xC6FA0 Offset: 0xC63A0 VA: 0x1800C6FA0
 	private bool internalAccessStorage; // 0x5A4
-	[HeaderAttribute] // RVA: 0xC7140 Offset: 0xC6540 VA: 0x1800C7140
-	[SerializeField] // RVA: 0xC7140 Offset: 0xC6540 VA: 0x1800C7140
+	[HeaderAttribute] // RVA: 0xC7110 Offset: 0xC6510 VA: 0x1800C7110
+	[SerializeField] // RVA: 0xC7110 Offset: 0xC6510 VA: 0x1800C7110
 	private GameObjectRef torpedoStoragePrefab; // 0x5A8
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform torpedoFiringPoint; // 0x5B0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float maxFireRate; // 0x5B8
-	[HeaderAttribute] // RVA: 0xC89E0 Offset: 0xC7DE0 VA: 0x1800C89E0
-	[SerializeField] // RVA: 0xC89E0 Offset: 0xC7DE0 VA: 0x1800C89E0
+	[HeaderAttribute] // RVA: 0xC8A20 Offset: 0xC7E20 VA: 0x1800C8A20
+	[SerializeField] // RVA: 0xC8A20 Offset: 0xC7E20 VA: 0x1800C8A20
 	protected SubmarineAudio submarineAudio; // 0x5C0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ParticleSystem fxTorpedoFire; // 0x5C8
@@ -113,11 +113,11 @@ public class BaseSubmarine : BaseVehicle, IEngineControllerUser, IEntity, IAirSu
 	private float mountedAlphaInside; // 0x688
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float mountedAlphaOutside; // 0x68C
-	[ServerVar] // RVA: 0xCA4D0 Offset: 0xC98D0 VA: 0x1800CA4D0
+	[ServerVar] // RVA: 0xCA440 Offset: 0xC9840 VA: 0x1800CA440
 	public static float outsidedecayminutes; // 0x0
-	[ServerVar] // RVA: 0xCA510 Offset: 0xC9910 VA: 0x1800CA510
+	[ServerVar] // RVA: 0xCA480 Offset: 0xC9880 VA: 0x1800CA480
 	public static float deepwaterdecayminutes; // 0x4
-	[ServerVar] // RVA: 0xCA5E0 Offset: 0xC99E0 VA: 0x1800CA5E0
+	[ServerVar] // RVA: 0xCA550 Offset: 0xC9950 VA: 0x1800CA550
 	public static float oxygenminutes; // 0x8
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 <Velocity>k__BackingField; // 0x690
@@ -187,10 +187,10 @@ public class BaseSubmarine : BaseVehicle, IEngineControllerUser, IEntity, IAirSu
 
 	protected virtual void TorpedoFired() { }
 
-	[BaseEntity.Menu] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
-	[BaseEntity.Menu.Description] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
-	[BaseEntity.Menu.Icon] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
+	[BaseEntity.Menu] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
+	[BaseEntity.Menu.Description] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
+	[BaseEntity.Menu.Icon] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
+	[BaseEntity.Menu.ShowIf] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
 	public void Menu_FuelStorage(BasePlayer player) { }
 
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }
@@ -211,10 +211,10 @@ public class BaseSubmarine : BaseVehicle, IEngineControllerUser, IEntity, IAirSu
 
 	public bool Menu_ItemStorage_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
-	[BaseEntity.Menu.Description] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
-	[BaseEntity.Menu.Icon] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8CB60 Offset: 0x8BF60 VA: 0x18008CB60
+	[BaseEntity.Menu] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
+	[BaseEntity.Menu.Description] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
+	[BaseEntity.Menu.Icon] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8C9E0 Offset: 0x8BDE0 VA: 0x18008C9E0
 	public virtual void Menu_Push(BasePlayer player) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

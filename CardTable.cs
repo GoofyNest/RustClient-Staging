@@ -390,8 +390,8 @@ public class CardTable : BaseVehicle // TypeDefIndex: 8367
 	private static Sprite blankCardStatic; // 0x10
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private string <recentlyLeftPlayerName>k__BackingField; // 0x478
-	[HeaderAttribute] // RVA: 0x813A0 Offset: 0x807A0 VA: 0x1800813A0
-	[SerializeField] // RVA: 0x813A0 Offset: 0x807A0 VA: 0x1800813A0
+	[HeaderAttribute] // RVA: 0x80BA0 Offset: 0x7FFA0 VA: 0x180080BA0
+	[SerializeField] // RVA: 0x80BA0 Offset: 0x7FFA0 VA: 0x180080BA0
 	private GameObjectRef uiPrefab; // 0x480
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObjectRef playerStoragePrefab; // 0x488
@@ -455,18 +455,18 @@ public class CardTable : BaseVehicle // TypeDefIndex: 8367
 
 	public void GetAvailableInputs(CardPlayerData localPlayerData, List<CardTableUI.KeycodeWithAction> targetList) { }
 
-	[BaseEntity.Menu] // RVA: 0xD10D0 Offset: 0xD04D0 VA: 0x1800D10D0
-	[BaseEntity.Menu.Description] // RVA: 0xD10D0 Offset: 0xD04D0 VA: 0x1800D10D0
-	[BaseEntity.Menu.Icon] // RVA: 0xD10D0 Offset: 0xD04D0 VA: 0x1800D10D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD10D0 Offset: 0xD04D0 VA: 0x1800D10D0
+	[BaseEntity.Menu] // RVA: 0xD0FF0 Offset: 0xD03F0 VA: 0x1800D0FF0
+	[BaseEntity.Menu.Description] // RVA: 0xD0FF0 Offset: 0xD03F0 VA: 0x1800D0FF0
+	[BaseEntity.Menu.Icon] // RVA: 0xD0FF0 Offset: 0xD03F0 VA: 0x1800D0FF0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD0FF0 Offset: 0xD03F0 VA: 0x1800D0FF0
 	public void Menu_Play(BasePlayer player) { }
 
 	public bool Menu_Play_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
-	[BaseEntity.Menu.Description] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
-	[BaseEntity.Menu.Icon] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8E1A0 Offset: 0x8D5A0 VA: 0x18008E1A0
+	[BaseEntity.Menu] // RVA: 0x8E090 Offset: 0x8D490 VA: 0x18008E090
+	[BaseEntity.Menu.Description] // RVA: 0x8E090 Offset: 0x8D490 VA: 0x18008E090
+	[BaseEntity.Menu.Icon] // RVA: 0x8E090 Offset: 0x8D490 VA: 0x18008E090
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8E090 Offset: 0x8D490 VA: 0x18008E090
 	public void Menu_Open(BasePlayer player) { }
 
 	public bool Menu_Open_ShowIf(BasePlayer player) { }

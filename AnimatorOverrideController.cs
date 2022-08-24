@@ -6,11 +6,11 @@ public class AnimatorOverrideController : RuntimeAnimatorController // TypeDefIn
 
 	public AnimationClip get_Item(string name) { }
 
-	[NativeMethodAttribute] // RVA: 0xCD310 Offset: 0xCC710 VA: 0x1800CD310
+	[NativeMethodAttribute] // RVA: 0xCD390 Offset: 0xCC790 VA: 0x1800CD390
 	private AnimationClip Internal_GetClipByName(string name, bool returnEffectiveClip) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0xCD370 Offset: 0xCC770 VA: 0x1800CD370
-	[NativeConditionalAttribute] // RVA: 0xCD370 Offset: 0xCC770 VA: 0x1800CD370
+	[RequiredByNativeCodeAttribute] // RVA: 0xCD440 Offset: 0xCC840 VA: 0x1800CD440
+	[NativeConditionalAttribute] // RVA: 0xCD440 Offset: 0xCC840 VA: 0x1800CD440
 	internal static void OnInvalidateOverrideController(AnimatorOverrideController controller) { }
 
 }

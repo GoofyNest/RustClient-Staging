@@ -1,9 +1,9 @@
 public class SnowmobileAudio : GroundVehicleAudio // TypeDefIndex: 9757
-{	[HeaderAttribute] // RVA: 0x87EA0 Offset: 0x872A0 VA: 0x180087EA0
-	[SerializeField] // RVA: 0x87EA0 Offset: 0x872A0 VA: 0x180087EA0
+{	[HeaderAttribute] // RVA: 0x87E60 Offset: 0x87260 VA: 0x180087E60
+	[SerializeField] // RVA: 0x87E60 Offset: 0x87260 VA: 0x180087E60
 	private EngineAudioSet engineAudioSet; // 0x98
-	[HeaderAttribute] // RVA: 0x8FFC0 Offset: 0x8F3C0 VA: 0x18008FFC0
-	[SerializeField] // RVA: 0x8FFC0 Offset: 0x8F3C0 VA: 0x18008FFC0
+	[HeaderAttribute] // RVA: 0x8FE70 Offset: 0x8F270 VA: 0x18008FE70
+	[SerializeField] // RVA: 0x8FE70 Offset: 0x8F270 VA: 0x18008FE70
 	private AnimationCurve skiGainCurve; // 0xA0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition skiSlideSoundDef; // 0xA8
@@ -15,8 +15,8 @@ public class SnowmobileAudio : GroundVehicleAudio // TypeDefIndex: 9757
 	private SoundDefinition skiSlideGrassSoundDef; // 0xC0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition skiSlideWaterSoundDef; // 0xC8
-	[HeaderAttribute] // RVA: 0x90580 Offset: 0x8F980 VA: 0x180090580
-	[SerializeField] // RVA: 0x90580 Offset: 0x8F980 VA: 0x180090580
+	[HeaderAttribute] // RVA: 0x90430 Offset: 0x8F830 VA: 0x180090430
+	[SerializeField] // RVA: 0x90430 Offset: 0x8F830 VA: 0x180090430
 	private AnimationCurve movementGainCurve; // 0xD0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition movementLoopDef; // 0xD8

@@ -1,12 +1,12 @@
 public sealed class MemoryProfiler // TypeDefIndex: 3584
-{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private static Action<string, bool> m_SnapshotFinished; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static Action<string, bool, DebugScreenCapture> m_SaveScreenshotToDisk; // 0x8
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static Action<MetaData> createMetaData; // 0x10
 
 
@@ -22,9 +22,9 @@ public sealed class MemoryProfiler // TypeDefIndex: 3584
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static void remove_m_SaveScreenshotToDisk(Action<string, bool, DebugScreenCapture> value) { }
 
-	[StaticAccessorAttribute] // RVA: 0xD7600 Offset: 0xD6A00 VA: 0x1800D7600
-	[NativeConditionalAttribute] // RVA: 0xD7600 Offset: 0xD6A00 VA: 0x1800D7600
-	[NativeMethodAttribute] // RVA: 0xD7600 Offset: 0xD6A00 VA: 0x1800D7600
+	[StaticAccessorAttribute] // RVA: 0xD7550 Offset: 0xD6950 VA: 0x1800D7550
+	[NativeConditionalAttribute] // RVA: 0xD7550 Offset: 0xD6950 VA: 0x1800D7550
+	[NativeMethodAttribute] // RVA: 0xD7550 Offset: 0xD6950 VA: 0x1800D7550
 	private static void StartOperation(uint captureFlag, bool requestScreenshot, string path) { }
 
 	public static void TakeSnapshot(string path, Action<string, bool> finishCallback, CaptureFlags captureFlags = 3) { }

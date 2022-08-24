@@ -32,10 +32,10 @@ public class Skin // TypeDefIndex: 7728
 
 	private void DeserializeManifest() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xCAE50 Offset: 0xCA250 VA: 0x1800CAE50
+	[IteratorStateMachineAttribute] // RVA: 0xCAE40 Offset: 0xCA240 VA: 0x1800CAE40
 	public IEnumerator LoadIcon(ulong workshopId, string directory, AssetBundle bundle) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xCAFF0 Offset: 0xCA3F0 VA: 0x1800CAFF0
+	[IteratorStateMachineAttribute] // RVA: 0xCAF40 Offset: 0xCA340 VA: 0x1800CAF40
 	public IEnumerator LoadAssets(ulong workshopId, string directory, AssetBundle bundle) { }
 
 	public void UnloadAssets() { }

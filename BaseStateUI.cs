@@ -55,7 +55,7 @@ public class BaseStateUI : MonoBehaviour // TypeDefIndex: 10794
 
 	private BaseEventUI GetEvent(int id) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x7C500 Offset: 0x7B900 VA: 0x18007C500
+	[IteratorStateMachineAttribute] // RVA: 0x7BD90 Offset: 0x7B190 VA: 0x18007BD90
 	private IEnumerator ScrollToBottom() { }
 
 	public void Load(AIStateContainer container) { }

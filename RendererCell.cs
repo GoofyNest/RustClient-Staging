@@ -23,7 +23,7 @@ public class RendererCell : Pool.IPooled // TypeDefIndex: 9917
 
 	public void Refresh() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA7EE0 Offset: 0xA72E0 VA: 0x1800A7EE0
+	[IteratorStateMachineAttribute] // RVA: 0xA76F0 Offset: 0xA6AF0 VA: 0x1800A76F0
 	public IEnumerator RefreshAsync() { }
 
 	public RendererGroup FindBatchGroup(RendererBatch renderer) { }

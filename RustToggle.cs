@@ -17,7 +17,7 @@ public class RustToggle : RustControl, IPointerDownHandler, IEventSystemHandler 
 
 	public void OnPointerDown(PointerEventData eventData) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x72680 Offset: 0x71A80 VA: 0x180072680
+	[IteratorStateMachineAttribute] // RVA: 0x72770 Offset: 0x71B70 VA: 0x180072770
 	private IEnumerator AnimateTo() { }
 
 	public override void ApplyStyles() { }

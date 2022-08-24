@@ -12,7 +12,7 @@ public class FleckLog // TypeDefIndex: 6904
 }
 
 private sealed class FleckLog.<>c // TypeDefIndex: 6905
-{	public static readonly FleckLog.<>c <>9; // 0x2A87
+{	public static readonly FleckLog.<>c <>9; // 0x2B10760
 
 
 	private static void .cctor() { }

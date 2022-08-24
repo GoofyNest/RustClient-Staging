@@ -5,9 +5,9 @@ public class Underwear : ScriptableObject // TypeDefIndex: 10778
 	public Sprite iconFemale; // 0x30
 	public SkinReplacement[] replacementsMale; // 0x38
 	public SkinReplacement[] replacementsFemale; // 0x40
-	[TooltipAttribute] // RVA: 0x7B970 Offset: 0x7AD70 VA: 0x18007B970
+	[TooltipAttribute] // RVA: 0x7AF50 Offset: 0x7A350 VA: 0x18007AF50
 	public SteamInventoryItem steamItem; // 0x48
-	[TooltipAttribute] // RVA: 0x7BB40 Offset: 0x7AF40 VA: 0x18007BB40
+	[TooltipAttribute] // RVA: 0x7AFA0 Offset: 0x7A3A0 VA: 0x18007AFA0
 	public SteamDLCItem steamDLC; // 0x50
 	public bool adminOnly; // 0x58
 

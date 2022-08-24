@@ -1,15 +1,15 @@
 public class RectOffset // TypeDefIndex: 3378
-{	[VisibleToOtherModulesAttribute] // RVA: 0x7FDD0 Offset: 0x7F1D0 VA: 0x18007FDD0
+{	[VisibleToOtherModulesAttribute] // RVA: 0x7FD40 Offset: 0x7F140 VA: 0x18007FD40
 	internal IntPtr m_Ptr; // 0x10
 	private readonly object m_SourceStyle; // 0x18
 
-	[NativePropertyAttribute] // RVA: 0x802A0 Offset: 0x7F6A0 VA: 0x1800802A0
+	[NativePropertyAttribute] // RVA: 0x80120 Offset: 0x7F520 VA: 0x180080120
 	public int left { get; set; }
-	[NativePropertyAttribute] // RVA: 0x806E0 Offset: 0x7FAE0 VA: 0x1800806E0
+	[NativePropertyAttribute] // RVA: 0x80560 Offset: 0x7F960 VA: 0x180080560
 	public int right { get; set; }
-	[NativePropertyAttribute] // RVA: 0x80720 Offset: 0x7FB20 VA: 0x180080720
+	[NativePropertyAttribute] // RVA: 0x805A0 Offset: 0x7F9A0 VA: 0x1800805A0
 	public int top { get; }
-	[NativePropertyAttribute] // RVA: 0x80760 Offset: 0x7FB60 VA: 0x180080760
+	[NativePropertyAttribute] // RVA: 0x805E0 Offset: 0x7F9E0 VA: 0x1800805E0
 	public int bottom { get; }
 	public int horizontal { get; }
 	public int vertical { get; }
@@ -17,7 +17,7 @@ public class RectOffset // TypeDefIndex: 3378
 
 	public void .ctor() { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0x7FF30 Offset: 0x7F330 VA: 0x18007FF30
+	[VisibleToOtherModulesAttribute] // RVA: 0x7FEA0 Offset: 0x7F2A0 VA: 0x18007FEA0
 	internal void .ctor(object sourceStyle, IntPtr source) { }
 
 	protected override void Finalize() { }

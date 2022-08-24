@@ -32,23 +32,23 @@ public class Process : Component // TypeDefIndex: 2648
 	internal AsyncStreamReader error; // 0xD0
 	private string process_name; // 0xD8
 
-	[BrowsableAttribute] // RVA: 0xA7B50 Offset: 0xA6F50 VA: 0x1800A7B50
-	[MonitoringDescriptionAttribute] // RVA: 0xA7B50 Offset: 0xA6F50 VA: 0x1800A7B50
-	[DesignerSerializationVisibilityAttribute] // RVA: 0xA7B50 Offset: 0xA6F50 VA: 0x1800A7B50
+	[BrowsableAttribute] // RVA: 0xA7B20 Offset: 0xA6F20 VA: 0x1800A7B20
+	[MonitoringDescriptionAttribute] // RVA: 0xA7B20 Offset: 0xA6F20 VA: 0x1800A7B20
+	[DesignerSerializationVisibilityAttribute] // RVA: 0xA7B20 Offset: 0xA6F20 VA: 0x1800A7B20
 	private bool Associated { get; }
-	[MonitoringDescriptionAttribute] // RVA: 0xA7CE0 Offset: 0xA70E0 VA: 0x1800A7CE0
-	[DesignerSerializationVisibilityAttribute] // RVA: 0xA7CE0 Offset: 0xA70E0 VA: 0x1800A7CE0
-	[BrowsableAttribute] // RVA: 0xA7CE0 Offset: 0xA70E0 VA: 0x1800A7CE0
+	[MonitoringDescriptionAttribute] // RVA: 0xA7CB0 Offset: 0xA70B0 VA: 0x1800A7CB0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0xA7CB0 Offset: 0xA70B0 VA: 0x1800A7CB0
+	[BrowsableAttribute] // RVA: 0xA7CB0 Offset: 0xA70B0 VA: 0x1800A7CB0
 	public bool HasExited { get; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0xA7DB0 Offset: 0xA71B0 VA: 0x1800A7DB0
-	[MonitoringDescriptionAttribute] // RVA: 0xA7DB0 Offset: 0xA71B0 VA: 0x1800A7DB0
+	[DesignerSerializationVisibilityAttribute] // RVA: 0xA7DC0 Offset: 0xA71C0 VA: 0x1800A7DC0
+	[MonitoringDescriptionAttribute] // RVA: 0xA7DC0 Offset: 0xA71C0 VA: 0x1800A7DC0
 	public int Id { get; }
-	[BrowsableAttribute] // RVA: 0xA7E80 Offset: 0xA7280 VA: 0x1800A7E80
-	[DefaultValueAttribute] // RVA: 0xA7E80 Offset: 0xA7280 VA: 0x1800A7E80
-	[MonitoringDescriptionAttribute] // RVA: 0xA7E80 Offset: 0xA7280 VA: 0x1800A7E80
+	[BrowsableAttribute] // RVA: 0xA7EF0 Offset: 0xA72F0 VA: 0x1800A7EF0
+	[DefaultValueAttribute] // RVA: 0xA7EF0 Offset: 0xA72F0 VA: 0x1800A7EF0
+	[MonitoringDescriptionAttribute] // RVA: 0xA7EF0 Offset: 0xA72F0 VA: 0x1800A7EF0
 	public ISynchronizeInvoke SynchronizingObject { get; }
-	[MonitoringDescriptionAttribute] // RVA: 0xA7FA0 Offset: 0xA73A0 VA: 0x1800A7FA0
-	[DesignerSerializationVisibilityAttribute] // RVA: 0xA7FA0 Offset: 0xA73A0 VA: 0x1800A7FA0
+	[MonitoringDescriptionAttribute] // RVA: 0xA8000 Offset: 0xA7400 VA: 0x1800A8000
+	[DesignerSerializationVisibilityAttribute] // RVA: 0xA8000 Offset: 0xA7400 VA: 0x1800A8000
 	public string ProcessName { get; }
 
 

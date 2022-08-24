@@ -1,6 +1,6 @@
 public abstract class GroundVehicle : BaseVehicle, IEngineControllerUser, IEntity // TypeDefIndex: 9711
-{	[HeaderAttribute] // RVA: 0x85F90 Offset: 0x85390 VA: 0x180085F90
-	[SerializeField] // RVA: 0x85F90 Offset: 0x85390 VA: 0x180085F90
+{	[HeaderAttribute] // RVA: 0x85EA0 Offset: 0x852A0 VA: 0x180085EA0
+	[SerializeField] // RVA: 0x85EA0 Offset: 0x852A0 VA: 0x180085EA0
 	protected GroundVehicleAudio gvAudio; // 0x3B8
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObjectRef fuelStoragePrefab; // 0x3C0

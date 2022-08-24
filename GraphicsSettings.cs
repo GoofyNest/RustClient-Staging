@@ -1,7 +1,7 @@
 public sealed class GraphicsSettings : Object // TypeDefIndex: 3839
 {	public static bool lightsUseLinearIntensity { get; }
 	public static RenderPipelineAsset renderPipelineAsset { get; }
-	[NativeNameAttribute] // RVA: 0x72770 Offset: 0x71B70 VA: 0x180072770
+	[NativeNameAttribute] // RVA: 0x728C0 Offset: 0x71CC0 VA: 0x1800728C0
 	private static ScriptableObject INTERNAL_defaultRenderPipeline { get; }
 	public static RenderPipelineAsset defaultRenderPipeline { get; }
 
@@ -16,7 +16,7 @@ public sealed class GraphicsSettings : Object // TypeDefIndex: 3839
 
 	public static RenderPipelineAsset get_defaultRenderPipeline() { }
 
-	[NativeNameAttribute] // RVA: 0x72500 Offset: 0x71900 VA: 0x180072500
+	[NativeNameAttribute] // RVA: 0x726B0 Offset: 0x71AB0 VA: 0x1800726B0
 	public static BuiltinShaderMode GetShaderMode(BuiltinShaderType type) { }
 
 }

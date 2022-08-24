@@ -1,21 +1,21 @@
 public static class InputTracking // TypeDefIndex: 4137
 {
-[RequiredByNativeCodeAttribute] // RVA: 0x952A0 Offset: 0x946A0 VA: 0x1800952A0
-[NativeHeaderAttribute] // RVA: 0x952A0 Offset: 0x946A0 VA: 0x1800952A0
-[NativeConditionalAttribute] // RVA: 0x952A0 Offset: 0x946A0 VA: 0x1800952A0
-[StaticAccessorAttribute] // RVA: 0x952A0 Offset: 0x946A0 VA: 0x1800952A0
+[RequiredByNativeCodeAttribute] // RVA: 0x95360 Offset: 0x94760 VA: 0x180095360
+[NativeHeaderAttribute] // RVA: 0x95360 Offset: 0x94760 VA: 0x180095360
+[NativeConditionalAttribute] // RVA: 0x95360 Offset: 0x94760 VA: 0x180095360
+[StaticAccessorAttribute] // RVA: 0x95360 Offset: 0x94760 VA: 0x180095360
 public static class InputTracking // TypeDefIndex: 4137
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static Action<XRNodeState> trackingAcquired; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private static Action<XRNodeState> trackingLost; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private static Action<XRNodeState> nodeAdded; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private static Action<XRNodeState> nodeRemoved; // 0x18
 
 

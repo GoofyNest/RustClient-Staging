@@ -29,7 +29,7 @@ public class MissionsHUD : SingletonComponent<MissionsHUD> // TypeDefIndex: 1118
 
 	public void Update() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x9EE00 Offset: 0x9E200 VA: 0x18009EE00
+	[IteratorStateMachineAttribute] // RVA: 0x9E8E0 Offset: 0x9DCE0 VA: 0x18009E8E0
 	private IEnumerator Think() { }
 
 	public bool ShouldShow() { }

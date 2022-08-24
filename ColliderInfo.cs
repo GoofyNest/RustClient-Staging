@@ -2,7 +2,7 @@ public class ColliderInfo : MonoBehaviour // TypeDefIndex: 9837
 {	public const ColliderInfo.Flags FlagsNone = 0;
 	public const ColliderInfo.Flags FlagsEverything = -1;
 	public const ColliderInfo.Flags FlagsDefault = 15;
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public ColliderInfo.Flags flags; // 0x18
 
 

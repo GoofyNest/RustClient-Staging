@@ -66,8 +66,8 @@ public class CoalingTower : IOEntity // TypeDefIndex: 8282
 	private static int emissionColorID; // 0x8
 	private static Color yellowLightOffColour; // 0xC
 	private static Color greenLightOffColour; // 0x1C
-	[HeaderAttribute] // RVA: 0xA7E00 Offset: 0xA7200 VA: 0x1800A7E00
-	[SerializeField] // RVA: 0xA7E00 Offset: 0xA7200 VA: 0x1800A7E00
+	[HeaderAttribute] // RVA: 0xA7EA0 Offset: 0xA72A0 VA: 0x1800A7EA0
+	[SerializeField] // RVA: 0xA7EA0 Offset: 0xA72A0 VA: 0x1800A7EA0
 	private BoxCollider unloadingBounds; // 0x288
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private GameObjectRef oreStoragePrefab; // 0x290
@@ -77,16 +77,16 @@ public class CoalingTower : IOEntity // TypeDefIndex: 8282
 	private MeshRenderer[] signalLightsExterior; // 0x2A0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private MeshRenderer[] signalLightsInterior; // 0x2A8
-	[ColorUsageAttribute] // RVA: 0x76B60 Offset: 0x75F60 VA: 0x180076B60
+	[ColorUsageAttribute] // RVA: 0x76360 Offset: 0x75760 VA: 0x180076360
 	public Color greenLightOnColour; // 0x2B0
-	[ColorUsageAttribute] // RVA: 0x76B60 Offset: 0x75F60 VA: 0x180076B60
+	[ColorUsageAttribute] // RVA: 0x76360 Offset: 0x75760 VA: 0x180076360
 	public Color yellowLightOnColour; // 0x2C0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Animator vacuumAnimator; // 0x2D0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float vacuumStartDelay; // 0x2D8
-	[FormerlySerializedAsAttribute] // RVA: 0xA9660 Offset: 0xA8A60 VA: 0x1800A9660
-	[SerializeField] // RVA: 0xA9660 Offset: 0xA8A60 VA: 0x1800A9660
+	[FormerlySerializedAsAttribute] // RVA: 0xA9730 Offset: 0xA8B30 VA: 0x1800A9730
+	[SerializeField] // RVA: 0xA9730 Offset: 0xA8B30 VA: 0x1800A9730
 	private ParticleSystemContainer unloadingFXContainerOre; // 0x2E0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ParticleSystem[] unloadingFXMain; // 0x2E8
@@ -94,8 +94,8 @@ public class CoalingTower : IOEntity // TypeDefIndex: 8282
 	private ParticleSystem[] unloadingFXDust; // 0x2F0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ParticleSystemContainer unloadingFXContainerFuel; // 0x2F8
-	[HeaderAttribute] // RVA: 0xA98D0 Offset: 0xA8CD0 VA: 0x1800A98D0
-	[SerializeField] // RVA: 0xA98D0 Offset: 0xA8CD0 VA: 0x1800A98D0
+	[HeaderAttribute] // RVA: 0xA9A40 Offset: 0xA8E40 VA: 0x1800A9A40
+	[SerializeField] // RVA: 0xA9A40 Offset: 0xA8E40 VA: 0x1800A9A40
 	private TokenisedPhrase noTraincar; // 0x300
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TokenisedPhrase noNextTraincar; // 0x308
@@ -107,8 +107,8 @@ public class CoalingTower : IOEntity // TypeDefIndex: 8282
 	private TokenisedPhrase outputIsFull; // 0x320
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TokenisedPhrase trainHasThrottle; // 0x328
-	[HeaderAttribute] // RVA: 0xA9D80 Offset: 0xA9180 VA: 0x1800A9D80
-	[SerializeField] // RVA: 0xA9D80 Offset: 0xA9180 VA: 0x1800A9D80
+	[HeaderAttribute] // RVA: 0xA9DD0 Offset: 0xA91D0 VA: 0x1800A9DD0
+	[SerializeField] // RVA: 0xA9DD0 Offset: 0xA91D0 VA: 0x1800A9DD0
 	private GameObject buttonSoundPos; // 0x330
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition buttonPressSound; // 0x338
@@ -216,42 +216,42 @@ public class CoalingTower : IOEntity // TypeDefIndex: 8282
 
 	private bool IsLookingAtUnload(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xAAD80 Offset: 0xAA180 VA: 0x1800AAD80
-	[BaseEntity.Menu.Description] // RVA: 0xAAD80 Offset: 0xAA180 VA: 0x1800AAD80
-	[BaseEntity.Menu.Icon] // RVA: 0xAAD80 Offset: 0xAA180 VA: 0x1800AAD80
-	[BaseEntity.Menu.ShowIf] // RVA: 0xAAD80 Offset: 0xAA180 VA: 0x1800AAD80
+	[BaseEntity.Menu] // RVA: 0xAADC0 Offset: 0xAA1C0 VA: 0x1800AADC0
+	[BaseEntity.Menu.Description] // RVA: 0xAADC0 Offset: 0xAA1C0 VA: 0x1800AADC0
+	[BaseEntity.Menu.Icon] // RVA: 0xAADC0 Offset: 0xAA1C0 VA: 0x1800AADC0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xAADC0 Offset: 0xAA1C0 VA: 0x1800AADC0
 	public void Menu_Unload(BasePlayer player) { }
 
 	public bool Menu_Unload_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xAB0A0 Offset: 0xAA4A0 VA: 0x1800AB0A0
-	[BaseEntity.Menu.Description] // RVA: 0xAB0A0 Offset: 0xAA4A0 VA: 0x1800AB0A0
-	[BaseEntity.Menu.Icon] // RVA: 0xAB0A0 Offset: 0xAA4A0 VA: 0x1800AB0A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xAB0A0 Offset: 0xAA4A0 VA: 0x1800AB0A0
+	[BaseEntity.Menu] // RVA: 0xAB090 Offset: 0xAA490 VA: 0x1800AB090
+	[BaseEntity.Menu.Description] // RVA: 0xAB090 Offset: 0xAA490 VA: 0x1800AB090
+	[BaseEntity.Menu.Icon] // RVA: 0xAB090 Offset: 0xAA490 VA: 0x1800AB090
+	[BaseEntity.Menu.ShowIf] // RVA: 0xAB090 Offset: 0xAA490 VA: 0x1800AB090
 	public void Menu_Next(BasePlayer player) { }
 
 	public bool Menu_Next_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xAB440 Offset: 0xAA840 VA: 0x1800AB440
-	[BaseEntity.Menu.Description] // RVA: 0xAB440 Offset: 0xAA840 VA: 0x1800AB440
-	[BaseEntity.Menu.Icon] // RVA: 0xAB440 Offset: 0xAA840 VA: 0x1800AB440
-	[BaseEntity.Menu.ShowIf] // RVA: 0xAB440 Offset: 0xAA840 VA: 0x1800AB440
+	[BaseEntity.Menu] // RVA: 0xAB3C0 Offset: 0xAA7C0 VA: 0x1800AB3C0
+	[BaseEntity.Menu.Description] // RVA: 0xAB3C0 Offset: 0xAA7C0 VA: 0x1800AB3C0
+	[BaseEntity.Menu.Icon] // RVA: 0xAB3C0 Offset: 0xAA7C0 VA: 0x1800AB3C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xAB3C0 Offset: 0xAA7C0 VA: 0x1800AB3C0
 	public void Menu_Prev(BasePlayer player) { }
 
 	public bool Menu_Prev_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xAB7C0 Offset: 0xAABC0 VA: 0x1800AB7C0
-	[BaseEntity.Menu.Description] // RVA: 0xAB7C0 Offset: 0xAABC0 VA: 0x1800AB7C0
-	[BaseEntity.Menu.Icon] // RVA: 0xAB7C0 Offset: 0xAABC0 VA: 0x1800AB7C0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xAB7C0 Offset: 0xAABC0 VA: 0x1800AB7C0
+	[BaseEntity.Menu] // RVA: 0xAB7A0 Offset: 0xAABA0 VA: 0x1800AB7A0
+	[BaseEntity.Menu.Description] // RVA: 0xAB7A0 Offset: 0xAABA0 VA: 0x1800AB7A0
+	[BaseEntity.Menu.Icon] // RVA: 0xAB7A0 Offset: 0xAABA0 VA: 0x1800AB7A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xAB7A0 Offset: 0xAABA0 VA: 0x1800AB7A0
 	public void Menu_Unavailable(BasePlayer player) { }
 
 	public bool Menu_Unavailable_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xAB9E0 Offset: 0xAADE0 VA: 0x1800AB9E0
-	[BaseEntity.Menu.Description] // RVA: 0xAB9E0 Offset: 0xAADE0 VA: 0x1800AB9E0
-	[BaseEntity.Menu.Icon] // RVA: 0xAB9E0 Offset: 0xAADE0 VA: 0x1800AB9E0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xAB9E0 Offset: 0xAADE0 VA: 0x1800AB9E0
+	[BaseEntity.Menu] // RVA: 0xABA10 Offset: 0xAAE10 VA: 0x1800ABA10
+	[BaseEntity.Menu.Description] // RVA: 0xABA10 Offset: 0xAAE10 VA: 0x1800ABA10
+	[BaseEntity.Menu.Icon] // RVA: 0xABA10 Offset: 0xAAE10 VA: 0x1800ABA10
+	[BaseEntity.Menu.ShowIf] // RVA: 0xABA10 Offset: 0xAAE10 VA: 0x1800ABA10
 	public void Menu_BinFull(BasePlayer player) { }
 
 	public bool Menu_BinFull_ShowIf(BasePlayer player) { }

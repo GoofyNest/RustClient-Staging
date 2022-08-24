@@ -1,5 +1,5 @@
 public class Megaphone : HeldEntity // TypeDefIndex: 8604
-{	[HeaderAttribute] // RVA: 0xB05D0 Offset: 0xAF9D0 VA: 0x1800B05D0
+{	[HeaderAttribute] // RVA: 0xB0630 Offset: 0xAFA30 VA: 0x1800B0630
 	public VoiceProcessor voiceProcessor; // 0x1F8
 	public float VoiceDamageMinFrequency; // 0x200
 	public float VoiceDamageAmount; // 0x204
@@ -8,12 +8,12 @@ public class Megaphone : HeldEntity // TypeDefIndex: 8604
 	public SoundDefinition StopBroadcastingSfx; // 0x218
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static float <MegaphoneVoiceRange>k__BackingField; // 0x0
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool IgnorePushToTalk; // 0x4
 	private static int BroadcastBoolAnim; // 0x8
 	private float talkingLayerWeight; // 0x220
 
-	[ReplicatedVar] // RVA: 0xB08C0 Offset: 0xAFCC0 VA: 0x1800B08C0
+	[ReplicatedVar] // RVA: 0xB08E0 Offset: 0xAFCE0 VA: 0x1800B08E0
 	public static float MegaphoneVoiceRange { get; set; }
 
 

@@ -1,7 +1,7 @@
 public struct uint3 : IEquatable<uint3>, IFormattable // TypeDefIndex: 7116
 {
-[DebuggerTypeProxyAttribute] // RVA: 0x7FB10 Offset: 0x7EF10 VA: 0x18007FB10
-[DefaultMemberAttribute] // RVA: 0x7FB10 Offset: 0x7EF10 VA: 0x18007FB10
+[DebuggerTypeProxyAttribute] // RVA: 0x7FA80 Offset: 0x7EE80 VA: 0x18007FA80
+[DefaultMemberAttribute] // RVA: 0x7FA80 Offset: 0x7EE80 VA: 0x18007FA80
 [Serializable]
 public struct uint3 : IEquatable<uint3>, IFormattable // TypeDefIndex: 7116
 	public uint x; // 0x0

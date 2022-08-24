@@ -8,7 +8,7 @@ public enum TouchScreenKeyboardType // TypeDefIndex: 3562
 	public const TouchScreenKeyboardType PhonePad = 5;
 	public const TouchScreenKeyboardType NamePhonePad = 6;
 	public const TouchScreenKeyboardType EmailAddress = 7;
-	[ObsoleteAttribute] // RVA: 0xD06B0 Offset: 0xCFAB0 VA: 0x1800D06B0
+	[ObsoleteAttribute] // RVA: 0xD0580 Offset: 0xCF980 VA: 0x1800D0580
 	public const TouchScreenKeyboardType NintendoNetworkAccount = 8;
 	public const TouchScreenKeyboardType Social = 9;
 	public const TouchScreenKeyboardType Search = 10;

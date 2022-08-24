@@ -1,5 +1,5 @@
 public abstract class ASubband // TypeDefIndex: 7398
-{	internal static readonly float[] ScaleFactors; // 0x1761
+{	internal static readonly float[] ScaleFactors; // 0x2B10780
 
 
 	internal abstract void ReadAllocation(Bitstream stream, Header header, Crc16 crc);

@@ -38,7 +38,7 @@ public struct Span<T> // TypeDefIndex: 120
 	|-Span<object>.Equals
 	*/
 
-	[ObsoleteAttribute] // RVA: 0xE9790 Offset: 0xE8B90 VA: 0x1800E9790
+	[ObsoleteAttribute] // RVA: 0xE97C0 Offset: 0xE8BC0 VA: 0x1800E97C0
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -230,8 +230,8 @@ public struct Span<T> // TypeDefIndex: 6729
 	|-Span<object>.get_Length
 	*/
 
-	[ObsoleteAttribute] // RVA: 0xC9B90 Offset: 0xC8F90 VA: 0x1800C9B90
-	[EditorBrowsableAttribute] // RVA: 0xC9B90 Offset: 0xC8F90 VA: 0x1800C9B90
+	[ObsoleteAttribute] // RVA: 0xC9BA0 Offset: 0xC8FA0 VA: 0x1800C9BA0
+	[EditorBrowsableAttribute] // RVA: 0xC9BA0 Offset: 0xC8FA0 VA: 0x1800C9BA0
 	public override bool Equals(object obj) { }
 	/* GenericInstMethod :
 	|
@@ -242,8 +242,8 @@ public struct Span<T> // TypeDefIndex: 6729
 	|-Span<object>.Equals
 	*/
 
-	[ObsoleteAttribute] // RVA: 0xC9CD0 Offset: 0xC90D0 VA: 0x1800C9CD0
-	[EditorBrowsableAttribute] // RVA: 0xC9CD0 Offset: 0xC90D0 VA: 0x1800C9CD0
+	[ObsoleteAttribute] // RVA: 0xC9CE0 Offset: 0xC90E0 VA: 0x1800C9CE0
+	[EditorBrowsableAttribute] // RVA: 0xC9CE0 Offset: 0xC90E0 VA: 0x1800C9CE0
 	public override int GetHashCode() { }
 	/* GenericInstMethod :
 	|
@@ -355,7 +355,7 @@ public struct Span<T> // TypeDefIndex: 6729
 	|-Span<object>.Slice
 	*/
 
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	internal ref T DangerousGetPinnableReference() { }
 	/* GenericInstMethod :
 	|

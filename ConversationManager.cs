@@ -1,5 +1,5 @@
 public class ConversationManager : MonoBehaviour // TypeDefIndex: 8846
-{	private static ConversationManager.Conversation activeConversation; // 0x1540
+{	private static ConversationManager.Conversation activeConversation; // 0x1CBC
 
 
 	public static bool InConversation() { }

@@ -115,7 +115,7 @@ public abstract class LayoutGroup : UIBehaviour, ILayoutElement, ILayoutGroup, I
 
 	protected void SetDirty() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x726D0 Offset: 0x71AD0 VA: 0x1800726D0
+	[IteratorStateMachineAttribute] // RVA: 0x727C0 Offset: 0x71BC0 VA: 0x1800727C0
 	private IEnumerator DelayedSetDirty(RectTransform rectTransform) { }
 
 }

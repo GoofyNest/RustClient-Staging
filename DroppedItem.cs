@@ -1,5 +1,5 @@
 public class DroppedItem : WorldItem // TypeDefIndex: 9791
-{	[HeaderAttribute] // RVA: 0x993B0 Offset: 0x987B0 VA: 0x1800993B0
+{	[HeaderAttribute] // RVA: 0x989E0 Offset: 0x97DE0 VA: 0x1800989E0
 	public GameObject itemModel; // 0x178
 	private Collider childCollider; // 0x180
 

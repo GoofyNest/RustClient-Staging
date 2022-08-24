@@ -61,7 +61,7 @@ internal sealed class TextReader.SyncTextReader : TextReader // TypeDefIndex: 65
 }
 
 private sealed class TextReader.<>c // TypeDefIndex: 654
-{	public static readonly TextReader.<>c <>9; // 0x12FC0
+{	public static readonly TextReader.<>c <>9; // 0x13FF5
 
 
 	private static void .cctor() { }

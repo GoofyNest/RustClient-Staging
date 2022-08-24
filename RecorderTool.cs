@@ -1,5 +1,5 @@
 public class RecorderTool : ThrownWeapon, ICassettePlayer // TypeDefIndex: 8627
-{	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+{	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool debugRecording; // 0x0
 	public AudioSource RecorderAudioSource; // 0x2A0
 	public SoundDefinition RecordStartSfx; // 0x2A8

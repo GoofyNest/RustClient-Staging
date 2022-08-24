@@ -65,7 +65,7 @@ public class SmartAlarm : AppIOEntity, ISubscribable // TypeDefIndex: 8449
 	public const BaseEntity.Flags Flag_HasCustomMessage = 16384;
 	public static readonly Translate.Phrase DefaultNotificationTitle; // 0x0
 	public static readonly Translate.Phrase DefaultNotificationBody; // 0x8
-	[HeaderAttribute] // RVA: 0x87BB0 Offset: 0x86FB0 VA: 0x180087BB0
+	[HeaderAttribute] // RVA: 0x87BA0 Offset: 0x86FA0 VA: 0x180087BA0
 	public GameObjectRef SetupNotificationDialog; // 0x338
 	public Animator Animator; // 0x340
 	private static readonly int AnimatorOn; // 0x10

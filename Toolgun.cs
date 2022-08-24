@@ -6,7 +6,7 @@ public class Toolgun : Hammer // TypeDefIndex: 8655
 	public GameObjectRef beamEffectClassic; // 0x300
 	public GameObjectRef beamImpactEffectClassic; // 0x308
 	public Transform muzzlePoint; // 0x310
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool classiceffects; // 0x0
 
 

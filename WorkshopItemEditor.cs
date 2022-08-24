@@ -89,17 +89,17 @@ public class WorkshopItemEditor : SingletonComponent<WorkshopItemEditor> // Type
 
 	public void StartNewItem(string type = "TShirt") { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD2790 Offset: 0xD1B90 VA: 0x1800D2790
+	[IteratorStateMachineAttribute] // RVA: 0xD2660 Offset: 0xD1A60 VA: 0x1800D2660
 	public IEnumerator StartViewingItem(IWorkshopContent item) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD2880 Offset: 0xD1C80 VA: 0x1800D2880
+	[IteratorStateMachineAttribute] // RVA: 0xD2750 Offset: 0xD1B50 VA: 0x1800D2750
 	public IEnumerator StartEditingItem(IWorkshopContent item) { }
 
 	private void HideEditor() { }
 
 	private void ShowEditor() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD2AB0 Offset: 0xD1EB0 VA: 0x1800D2AB0
+	[IteratorStateMachineAttribute] // RVA: 0xD2980 Offset: 0xD1D80 VA: 0x1800D2980
 	internal IEnumerator OpenItem(IWorkshopContent item) { }
 
 	private void OnImportFinished() { }
@@ -143,7 +143,7 @@ public class WorkshopItemEditor : SingletonComponent<WorkshopItemEditor> // Type
 	|-WorkshopItemEditor.RemoveComponents<Rigidbody>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xD3F70 Offset: 0xD3370 VA: 0x1800D3F70
+	[IteratorStateMachineAttribute] // RVA: 0xD3E40 Offset: 0xD3240 VA: 0x1800D3E40
 	private IEnumerator DoDownloadModel() { }
 
 	private void Update() { }

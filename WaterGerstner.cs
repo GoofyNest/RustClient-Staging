@@ -33,13 +33,13 @@ public class WaterGerstner // TypeDefIndex: 10615
 }
 
 public class WaterGerstner.WaveParams // TypeDefIndex: 10616
-{	[RangeAttribute] // RVA: 0x9F370 Offset: 0x9E770 VA: 0x18009F370
+{	[RangeAttribute] // RVA: 0x9EE50 Offset: 0x9E250 VA: 0x18009EE50
 	public float Angle; // 0x10
-	[RangeAttribute] // RVA: 0xE74C0 Offset: 0xE68C0 VA: 0x1800E74C0
+	[RangeAttribute] // RVA: 0xE6BC0 Offset: 0xE5FC0 VA: 0x1800E6BC0
 	public float Steepness; // 0x14
-	[RangeAttribute] // RVA: 0xE7520 Offset: 0xE6920 VA: 0x1800E7520
+	[RangeAttribute] // RVA: 0xE7020 Offset: 0xE6420 VA: 0x1800E7020
 	public float Length; // 0x18
-	[RangeAttribute] // RVA: 0xBF030 Offset: 0xBE430 VA: 0x1800BF030
+	[RangeAttribute] // RVA: 0xBE930 Offset: 0xBDD30 VA: 0x1800BE930
 	public float Speed; // 0x1C
 
 
@@ -48,13 +48,13 @@ public class WaterGerstner.WaveParams // TypeDefIndex: 10616
 }
 
 public class WaterGerstner.ShoreWaveParams // TypeDefIndex: 10617
-{	[RangeAttribute] // RVA: 0x715C0 Offset: 0x709C0 VA: 0x1800715C0
+{	[RangeAttribute] // RVA: 0x70E10 Offset: 0x70210 VA: 0x180070E10
 	public float Steepness; // 0x10
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float Amplitude; // 0x14
-	[RangeAttribute] // RVA: 0xE7520 Offset: 0xE6920 VA: 0x1800E7520
+	[RangeAttribute] // RVA: 0xE7020 Offset: 0xE6420 VA: 0x1800E7020
 	public float Length; // 0x18
-	[RangeAttribute] // RVA: 0xBF030 Offset: 0xBE430 VA: 0x1800BF030
+	[RangeAttribute] // RVA: 0xBE930 Offset: 0xBDD30 VA: 0x1800BE930
 	public float Speed; // 0x1C
 	public float[] DirectionAngles; // 0x20
 	public float DirectionVarFreq; // 0x28

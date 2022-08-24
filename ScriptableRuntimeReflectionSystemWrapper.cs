@@ -1,6 +1,6 @@
 internal class ScriptableRuntimeReflectionSystemWrapper // TypeDefIndex: 3898
-{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private IScriptableRuntimeReflectionSystem <implementation>k__BackingField; // 0x10
 
 	internal IScriptableRuntimeReflectionSystem implementation { get; set; }

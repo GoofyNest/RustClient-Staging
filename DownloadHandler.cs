@@ -6,7 +6,7 @@ public class DownloadHandler : IDisposable // TypeDefIndex: 4132
 	public string text { get; }
 
 
-	[NativeMethodAttribute] // RVA: 0x90760 Offset: 0x8FB60 VA: 0x180090760
+	[NativeMethodAttribute] // RVA: 0x90660 Offset: 0x8FA60 VA: 0x180090660
 	private void Release() { }
 
 	[VisibleToOtherModulesAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -35,8 +35,8 @@ public class DownloadHandler : IDisposable // TypeDefIndex: 4132
 	|-DownloadHandler.GetCheckedDownloader<object>
 	*/
 
-	[NativeThrowsAttribute] // RVA: 0x91650 Offset: 0x90A50 VA: 0x180091650
-	[VisibleToOtherModulesAttribute] // RVA: 0x91650 Offset: 0x90A50 VA: 0x180091650
+	[NativeThrowsAttribute] // RVA: 0x91750 Offset: 0x90B50 VA: 0x180091750
+	[VisibleToOtherModulesAttribute] // RVA: 0x91750 Offset: 0x90B50 VA: 0x180091750
 	internal static byte[] InternalGetByteArray(DownloadHandler dh) { }
 
 }

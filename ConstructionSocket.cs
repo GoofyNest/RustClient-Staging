@@ -6,7 +6,7 @@ public class ConstructionSocket : Socket_Base // TypeDefIndex: 9060
 	public bool restrictPlacementAngle; // 0xF5
 	public float faceAngle; // 0xF8
 	public float angleAllowed; // 0xFC
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float support; // 0x100
 
 

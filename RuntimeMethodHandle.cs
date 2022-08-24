@@ -12,7 +12,7 @@ public struct RuntimeMethodHandle : ISerializable // TypeDefIndex: 390
 
 	public void GetObjectData(SerializationInfo info, StreamingContext context) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public override bool Equals(object obj) { }
 
 	public override int GetHashCode() { }

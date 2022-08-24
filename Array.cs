@@ -14331,17 +14331,17 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.SetGenericValueImpl<object>
 	*/
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public int get_Length() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public int get_Rank() { }
 
 	private int GetRank() { }
 
 	public int GetLength(int dimension) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public int GetLowerBound(int dimension) { }
 
 	public object GetValue(int[] indices) { }
@@ -14356,7 +14356,7 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 
 	internal static Array CreateInstanceImpl(Type elementType, int[] lengths, int[] bounds) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public int GetUpperBound(int dimension) { }
 
 	public object GetValue(int index) { }
@@ -14387,22 +14387,22 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 
 	public static Array CreateInstance(Type elementType, int[] lengths, int[] lowerBounds) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public static void Clear(Array array, int index, int length) { }
 
 	private static void ClearInternal(Array a, int index, int count) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x8D790 Offset: 0x8CB90 VA: 0x18008D790
+	[ReliabilityContractAttribute] // RVA: 0x8D6C0 Offset: 0x8CAC0 VA: 0x18008D6C0
 	public static void Copy(Array sourceArray, Array destinationArray, int length) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x8D790 Offset: 0x8CB90 VA: 0x18008D790
+	[ReliabilityContractAttribute] // RVA: 0x8D6C0 Offset: 0x8CAC0 VA: 0x18008D6C0
 	public static void Copy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length) { }
 
 	private static Exception CreateArrayTypeMismatchException() { }
 
 	private static bool CanAssignArrayElement(Type source, Type target) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public static void ConstrainedCopy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length) { }
 
 	public static T[] Empty<T>() { }
@@ -26955,8 +26955,8 @@ private sealed class ArrayList.ArrayListEnumeratorSimple : IEnumerator, ICloneab
 
 public sealed class BitArray : ICollection, IEnumerable, ICloneable // TypeDefIndex: 1380
 {
-[DefaultMemberAttribute] // RVA: 0xA9800 Offset: 0xA8C00 VA: 0x1800A9800
-[ComVisibleAttribute] // RVA: 0xA9800 Offset: 0xA8C00 VA: 0x1800A9800
+[DefaultMemberAttribute] // RVA: 0xA9950 Offset: 0xA8D50 VA: 0x1800A9950
+[ComVisibleAttribute] // RVA: 0xA9950 Offset: 0xA8D50 VA: 0x1800A9950
 [Serializable]
 public sealed class BitArray : ICollection, IEnumerable, ICloneable // TypeDefIndex: 1380
 	private int[] m_array; // 0x10
@@ -30107,16 +30107,16 @@ public abstract class ArrayPool<T> // TypeDefIndex: 6267
 }
 
 internal sealed class ArrayPoolEventSource : EventSource // TypeDefIndex: 6268
-{	internal static readonly ArrayPoolEventSource Log; // 0x2830
+{	internal static readonly ArrayPoolEventSource Log; // 0x37AC
 
 
-	[EventAttribute] // RVA: 0xB05A0 Offset: 0xAF9A0 VA: 0x1800B05A0
+	[EventAttribute] // RVA: 0xB05D0 Offset: 0xAF9D0 VA: 0x1800B05D0
 	internal void BufferRented(int bufferId, int bufferSize, int poolId, int bucketId) { }
 
-	[EventAttribute] // RVA: 0xB0710 Offset: 0xAFB10 VA: 0x1800B0710
+	[EventAttribute] // RVA: 0xB0740 Offset: 0xAFB40 VA: 0x1800B0740
 	internal void BufferAllocated(int bufferId, int bufferSize, int poolId, int bucketId, ArrayPoolEventSource.BufferAllocatedReason reason) { }
 
-	[EventAttribute] // RVA: 0x9B660 Offset: 0x9AA60 VA: 0x18009B660
+	[EventAttribute] // RVA: 0x9B5A0 Offset: 0x9A9A0 VA: 0x18009B5A0
 	internal void BufferReturned(int bufferId, int bufferSize, int poolId) { }
 
 	public void .ctor() { }

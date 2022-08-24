@@ -75,8 +75,8 @@ public class TrainEngine : TrainCar, IEngineControllerUser, IEntity // TypeDefIn
 	private Nullable<TrainEngine.TrainMovementState> prevLightVisualsState; // 0x5B0
 	private Nullable<bool> prevLightVisualsOnState; // 0x5B8
 	private Nullable<bool> prevLightVisualsHeadlightOnState; // 0x5BA
-	[HeaderAttribute] // RVA: 0x94A00 Offset: 0x93E00 VA: 0x180094A00
-	[SerializeField] // RVA: 0x94A00 Offset: 0x93E00 VA: 0x180094A00
+	[HeaderAttribute] // RVA: 0x94AC0 Offset: 0x93EC0 VA: 0x180094AC0
+	[SerializeField] // RVA: 0x94AC0 Offset: 0x93EC0 VA: 0x180094AC0
 	private Transform leftHandLever; // 0x5C0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform rightHandLever; // 0x5C8
@@ -116,8 +116,8 @@ public class TrainEngine : TrainCar, IEngineControllerUser, IEntity // TypeDefIn
 	private VehicleLight[] notMovingLights; // 0x640
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private VehicleLight[] movingForwardLights; // 0x648
-	[FormerlySerializedAsAttribute] // RVA: 0x95770 Offset: 0x94B70 VA: 0x180095770
-	[SerializeField] // RVA: 0x95770 Offset: 0x94B70 VA: 0x180095770
+	[FormerlySerializedAsAttribute] // RVA: 0x95760 Offset: 0x94B60 VA: 0x180095760
+	[SerializeField] // RVA: 0x95760 Offset: 0x94B60 VA: 0x180095760
 	private VehicleLight[] movingBackwardLights; // 0x650
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ParticleSystemContainer fxEngineOn; // 0x658
@@ -141,8 +141,8 @@ public class TrainEngine : TrainCar, IEngineControllerUser, IEntity // TypeDefIn
 	private float engineSlowedMaxVel; // 0x694
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ParticleSystemContainer[] sparks; // 0x698
-	[FormerlySerializedAsAttribute] // RVA: 0x96200 Offset: 0x95600 VA: 0x180096200
-	[SerializeField] // RVA: 0x96200 Offset: 0x95600 VA: 0x180096200
+	[FormerlySerializedAsAttribute] // RVA: 0x96260 Offset: 0x95660 VA: 0x180096260
+	[SerializeField] // RVA: 0x96260 Offset: 0x95660 VA: 0x180096260
 	private Light[] sparkLights; // 0x6A0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private TrainEngineAudio trainAudio; // 0x6A8
@@ -208,10 +208,10 @@ public class TrainEngine : TrainCar, IEngineControllerUser, IEntity // TypeDefIn
 
 	private void UpdateEngineFX() { }
 
-	[BaseEntity.Menu] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
-	[BaseEntity.Menu.Description] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
-	[BaseEntity.Menu.Icon] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
+	[BaseEntity.Menu] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
+	[BaseEntity.Menu.Description] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
+	[BaseEntity.Menu.Icon] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
+	[BaseEntity.Menu.ShowIf] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
 	public void Menu_FuelStorage(BasePlayer player) { }
 
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }

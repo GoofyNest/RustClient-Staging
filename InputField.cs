@@ -1,60 +1,60 @@
 public class InputField : Selectable, IUpdateSelectedHandler, IEventSystemHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler, ISubmitHandler, ICanvasElement, ILayoutElement // TypeDefIndex: 4946
 {	protected TouchScreenKeyboard m_Keyboard; // 0xE8
 	private static readonly char[] kSeparators; // 0x0
-	[SerializeField] // RVA: 0xECDC0 Offset: 0xEC1C0 VA: 0x1800ECDC0
-	[FormerlySerializedAsAttribute] // RVA: 0xECDC0 Offset: 0xEC1C0 VA: 0x1800ECDC0
+	[SerializeField] // RVA: 0xECE50 Offset: 0xEC250 VA: 0x1800ECE50
+	[FormerlySerializedAsAttribute] // RVA: 0xECE50 Offset: 0xEC250 VA: 0x1800ECE50
 	protected Text m_TextComponent; // 0xF0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected Graphic m_Placeholder; // 0xF8
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private InputField.ContentType m_ContentType; // 0x100
-	[FormerlySerializedAsAttribute] // RVA: 0xECFA0 Offset: 0xEC3A0 VA: 0x1800ECFA0
-	[SerializeField] // RVA: 0xECFA0 Offset: 0xEC3A0 VA: 0x1800ECFA0
+	[FormerlySerializedAsAttribute] // RVA: 0xED0A0 Offset: 0xEC4A0 VA: 0x1800ED0A0
+	[SerializeField] // RVA: 0xED0A0 Offset: 0xEC4A0 VA: 0x1800ED0A0
 	private InputField.InputType m_InputType; // 0x104
-	[FormerlySerializedAsAttribute] // RVA: 0xED240 Offset: 0xEC640 VA: 0x1800ED240
-	[SerializeField] // RVA: 0xED240 Offset: 0xEC640 VA: 0x1800ED240
+	[FormerlySerializedAsAttribute] // RVA: 0xED2F0 Offset: 0xEC6F0 VA: 0x1800ED2F0
+	[SerializeField] // RVA: 0xED2F0 Offset: 0xEC6F0 VA: 0x1800ED2F0
 	private char m_AsteriskChar; // 0x108
-	[FormerlySerializedAsAttribute] // RVA: 0xED420 Offset: 0xEC820 VA: 0x1800ED420
-	[SerializeField] // RVA: 0xED420 Offset: 0xEC820 VA: 0x1800ED420
+	[FormerlySerializedAsAttribute] // RVA: 0xED530 Offset: 0xEC930 VA: 0x1800ED530
+	[SerializeField] // RVA: 0xED530 Offset: 0xEC930 VA: 0x1800ED530
 	private TouchScreenKeyboardType m_KeyboardType; // 0x10C
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private InputField.LineType m_LineType; // 0x110
-	[FormerlySerializedAsAttribute] // RVA: 0xED580 Offset: 0xEC980 VA: 0x1800ED580
-	[SerializeField] // RVA: 0xED580 Offset: 0xEC980 VA: 0x1800ED580
+	[FormerlySerializedAsAttribute] // RVA: 0xED6B0 Offset: 0xECAB0 VA: 0x1800ED6B0
+	[SerializeField] // RVA: 0xED6B0 Offset: 0xECAB0 VA: 0x1800ED6B0
 	private bool m_HideMobileInput; // 0x114
-	[FormerlySerializedAsAttribute] // RVA: 0xED6F0 Offset: 0xECAF0 VA: 0x1800ED6F0
-	[SerializeField] // RVA: 0xED6F0 Offset: 0xECAF0 VA: 0x1800ED6F0
+	[FormerlySerializedAsAttribute] // RVA: 0xED830 Offset: 0xECC30 VA: 0x1800ED830
+	[SerializeField] // RVA: 0xED830 Offset: 0xECC30 VA: 0x1800ED830
 	private InputField.CharacterValidation m_CharacterValidation; // 0x118
-	[FormerlySerializedAsAttribute] // RVA: 0xED910 Offset: 0xECD10 VA: 0x1800ED910
-	[SerializeField] // RVA: 0xED910 Offset: 0xECD10 VA: 0x1800ED910
+	[FormerlySerializedAsAttribute] // RVA: 0xEDA30 Offset: 0xECE30 VA: 0x1800EDA30
+	[SerializeField] // RVA: 0xEDA30 Offset: 0xECE30 VA: 0x1800EDA30
 	private int m_CharacterLimit; // 0x11C
-	[FormerlySerializedAsAttribute] // RVA: 0xEDA20 Offset: 0xECE20 VA: 0x1800EDA20
-	[FormerlySerializedAsAttribute] // RVA: 0xEDA20 Offset: 0xECE20 VA: 0x1800EDA20
-	[FormerlySerializedAsAttribute] // RVA: 0xEDA20 Offset: 0xECE20 VA: 0x1800EDA20
-	[SerializeField] // RVA: 0xEDA20 Offset: 0xECE20 VA: 0x1800EDA20
+	[FormerlySerializedAsAttribute] // RVA: 0xEDAC0 Offset: 0xECEC0 VA: 0x1800EDAC0
+	[FormerlySerializedAsAttribute] // RVA: 0xEDAC0 Offset: 0xECEC0 VA: 0x1800EDAC0
+	[FormerlySerializedAsAttribute] // RVA: 0xEDAC0 Offset: 0xECEC0 VA: 0x1800EDAC0
+	[SerializeField] // RVA: 0xEDAC0 Offset: 0xECEC0 VA: 0x1800EDAC0
 	private InputField.SubmitEvent m_OnEndEdit; // 0x120
-	[FormerlySerializedAsAttribute] // RVA: 0xEDD10 Offset: 0xED110 VA: 0x1800EDD10
-	[FormerlySerializedAsAttribute] // RVA: 0xEDD10 Offset: 0xED110 VA: 0x1800EDD10
-	[SerializeField] // RVA: 0xEDD10 Offset: 0xED110 VA: 0x1800EDD10
+	[FormerlySerializedAsAttribute] // RVA: 0xEDDB0 Offset: 0xED1B0 VA: 0x1800EDDB0
+	[FormerlySerializedAsAttribute] // RVA: 0xEDDB0 Offset: 0xED1B0 VA: 0x1800EDDB0
+	[SerializeField] // RVA: 0xEDDB0 Offset: 0xED1B0 VA: 0x1800EDDB0
 	private InputField.OnChangeEvent m_OnValueChanged; // 0x128
-	[FormerlySerializedAsAttribute] // RVA: 0xEDE90 Offset: 0xED290 VA: 0x1800EDE90
-	[SerializeField] // RVA: 0xEDE90 Offset: 0xED290 VA: 0x1800EDE90
+	[FormerlySerializedAsAttribute] // RVA: 0xEDFA0 Offset: 0xED3A0 VA: 0x1800EDFA0
+	[SerializeField] // RVA: 0xEDFA0 Offset: 0xED3A0 VA: 0x1800EDFA0
 	private InputField.OnValidateInput m_OnValidateInput; // 0x130
-	[FormerlySerializedAsAttribute] // RVA: 0xEDF90 Offset: 0xED390 VA: 0x1800EDF90
-	[SerializeField] // RVA: 0xEDF90 Offset: 0xED390 VA: 0x1800EDF90
+	[FormerlySerializedAsAttribute] // RVA: 0xEE0A0 Offset: 0xED4A0 VA: 0x1800EE0A0
+	[SerializeField] // RVA: 0xEE0A0 Offset: 0xED4A0 VA: 0x1800EE0A0
 	private Color m_CaretColor; // 0x138
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_CustomCaretColor; // 0x148
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Color m_SelectionColor; // 0x14C
-	[SerializeField] // RVA: 0xEE490 Offset: 0xED890 VA: 0x1800EE490
-	[FormerlySerializedAsAttribute] // RVA: 0xEE490 Offset: 0xED890 VA: 0x1800EE490
+	[SerializeField] // RVA: 0xEE5A0 Offset: 0xED9A0 VA: 0x1800EE5A0
+	[FormerlySerializedAsAttribute] // RVA: 0xEE5A0 Offset: 0xED9A0 VA: 0x1800EE5A0
 	protected string m_Text; // 0x160
-	[SerializeField] // RVA: 0xD0A10 Offset: 0xCFE10 VA: 0x1800D0A10
-	[RangeAttribute] // RVA: 0xD0A10 Offset: 0xCFE10 VA: 0x1800D0A10
+	[SerializeField] // RVA: 0xD0980 Offset: 0xCFD80 VA: 0x1800D0980
+	[RangeAttribute] // RVA: 0xD0980 Offset: 0xCFD80 VA: 0x1800D0980
 	private float m_CaretBlinkRate; // 0x168
-	[SerializeField] // RVA: 0xD0AE0 Offset: 0xCFEE0 VA: 0x1800D0AE0
-	[RangeAttribute] // RVA: 0xD0AE0 Offset: 0xCFEE0 VA: 0x1800D0AE0
+	[SerializeField] // RVA: 0xD0A50 Offset: 0xCFE50 VA: 0x1800D0A50
+	[RangeAttribute] // RVA: 0xD0A50 Offset: 0xCFE50 VA: 0x1800D0A50
 	private int m_CaretWidth; // 0x16C
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_ReadOnly; // 0x170
@@ -103,7 +103,7 @@ public class InputField : Selectable, IUpdateSelectedHandler, IEventSystemHandle
 	public bool customCaretColor { get; set; }
 	public Color selectionColor { get; set; }
 	public InputField.SubmitEvent onEndEdit { get; set; }
-	[ObsoleteAttribute] // RVA: 0xEF140 Offset: 0xEE540 VA: 0x1800EF140
+	[ObsoleteAttribute] // RVA: 0xEF3A0 Offset: 0xEE7A0 VA: 0x1800EF3A0
 	public InputField.OnChangeEvent onValueChange { get; set; }
 	public InputField.OnChangeEvent onValueChanged { get; set; }
 	public InputField.OnValidateInput onValidateInput { get; set; }
@@ -270,7 +270,7 @@ public class InputField : Selectable, IUpdateSelectedHandler, IEventSystemHandle
 
 	protected override void OnDisable() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xEEA20 Offset: 0xEDE20 VA: 0x1800EEA20
+	[IteratorStateMachineAttribute] // RVA: 0xEEBD0 Offset: 0xEDFD0 VA: 0x1800EEBD0
 	private IEnumerator CaretBlink() { }
 
 	private void SetCaretVisible() { }
@@ -297,7 +297,7 @@ public class InputField : Selectable, IUpdateSelectedHandler, IEventSystemHandle
 
 	protected virtual void LateUpdate() { }
 
-	[ObsoleteAttribute] // RVA: 0xEEC30 Offset: 0xEE030 VA: 0x1800EEC30
+	[ObsoleteAttribute] // RVA: 0xEEE00 Offset: 0xEE200 VA: 0x1800EEE00
 	public Vector2 ScreenToLocal(Vector2 screen) { }
 
 	private int GetUnclampedCharacterLineFromPosition(Vector2 pos, TextGenerator generator) { }
@@ -310,7 +310,7 @@ public class InputField : Selectable, IUpdateSelectedHandler, IEventSystemHandle
 
 	public virtual void OnDrag(PointerEventData eventData) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xEED50 Offset: 0xEE150 VA: 0x1800EED50
+	[IteratorStateMachineAttribute] // RVA: 0xEEF60 Offset: 0xEE360 VA: 0x1800EEF60
 	private IEnumerator MouseDragOutsideRect(PointerEventData eventData) { }
 
 	public virtual void OnEndDrag(PointerEventData eventData) { }

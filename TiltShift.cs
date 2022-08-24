@@ -1,11 +1,11 @@
 internal class TiltShift : PostEffectsBase // TypeDefIndex: 8208
 {	public TiltShift.TiltShiftMode mode; // 0x28
 	public TiltShift.TiltShiftQuality quality; // 0x2C
-	[RangeAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[RangeAttribute] // RVA: 0x9E930 Offset: 0x9DD30 VA: 0x18009E930
 	public float blurArea; // 0x30
-	[RangeAttribute] // RVA: 0x9EAE0 Offset: 0x9DEE0 VA: 0x18009EAE0
+	[RangeAttribute] // RVA: 0x9EA20 Offset: 0x9DE20 VA: 0x18009EA20
 	public float maxBlurSize; // 0x34
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public int downsample; // 0x38
 	public Shader tiltShiftShader; // 0x40
 	private Material tiltShiftMaterial; // 0x48

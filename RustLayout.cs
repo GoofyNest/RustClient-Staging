@@ -3,17 +3,17 @@ public class RustLayout : UIBehaviour, ILayoutGroup, ILayoutController, IAutoLay
 	public bool ReverseOrder; // 0x1C
 	public float Spacing; // 0x20
 	public RectOffset Padding; // 0x28
-	[FormerlySerializedAsAttribute] // RVA: 0x716F0 Offset: 0x70AF0 VA: 0x1800716F0
-	[TooltipAttribute] // RVA: 0x716F0 Offset: 0x70AF0 VA: 0x1800716F0
+	[FormerlySerializedAsAttribute] // RVA: 0x717E0 Offset: 0x70BE0 VA: 0x1800717E0
+	[TooltipAttribute] // RVA: 0x717E0 Offset: 0x70BE0 VA: 0x1800717E0
 	public bool ChildrenFill; // 0x30
-	[FormerlySerializedAsAttribute] // RVA: 0x71990 Offset: 0x70D90 VA: 0x180071990
-	[TooltipAttribute] // RVA: 0x71990 Offset: 0x70D90 VA: 0x180071990
+	[FormerlySerializedAsAttribute] // RVA: 0x719F0 Offset: 0x70DF0 VA: 0x1800719F0
+	[TooltipAttribute] // RVA: 0x719F0 Offset: 0x70DF0 VA: 0x1800719F0
 	public bool ResizeToChildren; // 0x31
-	[TooltipAttribute] // RVA: 0x71AA0 Offset: 0x70EA0 VA: 0x180071AA0
+	[TooltipAttribute] // RVA: 0x71B60 Offset: 0x70F60 VA: 0x180071B60
 	public bool ResizeToChildrenOpposite; // 0x32
 	public RectTransform[] IgnoreLayout; // 0x38
 	public int MaxHeight; // 0x40
-	[TooltipAttribute] // RVA: 0x71BB0 Offset: 0x70FB0 VA: 0x180071BB0
+	[TooltipAttribute] // RVA: 0x71D00 Offset: 0x71100 VA: 0x180071D00
 	public RustLayout ParentLayout; // 0x48
 	private bool doingLayout; // 0x50
 	private bool changedSize; // 0x51

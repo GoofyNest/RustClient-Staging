@@ -39,7 +39,7 @@ internal class WorkshopItemList : MonoBehaviour // TypeDefIndex: 7743
 
 	public void SwitchToAccepted() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1660 Offset: 0xD0A60 VA: 0x1800D1660
+	[AsyncStateMachineAttribute] // RVA: 0xD1580 Offset: 0xD0980 VA: 0x1800D1580
 	public Task Refresh() { }
 
 	public void .ctor() { }

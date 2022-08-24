@@ -39,7 +39,7 @@ public class BaseGameMode : BaseEntity // TypeDefIndex: 8517
 	public static BaseGameMode clActiveGameMode; // 0x8
 	public static List<BaseGameMode> clGameModeManifest; // 0x10
 	public PlayerInventoryProperties[] loadouts; // 0x208
-	[TooltipAttribute] // RVA: 0xA2870 Offset: 0xA1C70 VA: 0x1800A2870
+	[TooltipAttribute] // RVA: 0xA2810 Offset: 0xA1C10 VA: 0x1800A2810
 	public bool useStaticLoadoutPerPlayer; // 0x210
 	public bool topUpMagazines; // 0x211
 	public bool sendKillNotifications; // 0x212

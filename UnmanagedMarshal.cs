@@ -100,8 +100,8 @@ private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=11614 //
 
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=21252 // TypeDefIndex: 1686
 
-[ComVisibleAttribute] // RVA: 0x78670 Offset: 0x77A70 VA: 0x180078670
-[ObsoleteAttribute] // RVA: 0x78670 Offset: 0x77A70 VA: 0x180078670
+[ComVisibleAttribute] // RVA: 0x786B0 Offset: 0x77AB0 VA: 0x1800786B0
+[ObsoleteAttribute] // RVA: 0x786B0 Offset: 0x77AB0 VA: 0x1800786B0
 [Serializable]
 public sealed class UnmanagedMarshal // TypeDefIndex: 1687
 

@@ -65,7 +65,7 @@ public class Cassette : BaseEntity, IUGCBrowserEntity // TypeDefIndex: 8544
 {	private static List<Cassette.LoadRequest> loadQueue; // 0x0
 	private static bool isLoading; // 0x8
 	public float MaxCassetteLength; // 0x168
-	[ReplicatedVar] // RVA: 0xA9AF0 Offset: 0xA8EF0 VA: 0x1800A9AF0
+	[ReplicatedVar] // RVA: 0xA9C00 Offset: 0xA9000 VA: 0x1800A9C00
 	public static float MaxCassetteFileSizeMB; // 0xC
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private uint <AudioId>k__BackingField; // 0x16C

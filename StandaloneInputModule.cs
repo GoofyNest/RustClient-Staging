@@ -18,13 +18,13 @@ public class StandaloneInputModule : PointerInputModule // TypeDefIndex: 5085
 	private float m_InputActionsPerSecond; // 0xA8
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float m_RepeatDelay; // 0xAC
-	[SerializeField] // RVA: 0x88660 Offset: 0x87A60 VA: 0x180088660
-	[FormerlySerializedAsAttribute] // RVA: 0x88660 Offset: 0x87A60 VA: 0x180088660
+	[SerializeField] // RVA: 0x885B0 Offset: 0x879B0 VA: 0x1800885B0
+	[FormerlySerializedAsAttribute] // RVA: 0x885B0 Offset: 0x879B0 VA: 0x1800885B0
 	private bool m_ForceModuleActive; // 0xB0
 
-	[ObsoleteAttribute] // RVA: 0x88A50 Offset: 0x87E50 VA: 0x180088A50
+	[ObsoleteAttribute] // RVA: 0x889E0 Offset: 0x87DE0 VA: 0x1800889E0
 	public StandaloneInputModule.InputMode inputMode { get; }
-	[ObsoleteAttribute] // RVA: 0x88C80 Offset: 0x88080 VA: 0x180088C80
+	[ObsoleteAttribute] // RVA: 0x88C50 Offset: 0x88050 VA: 0x180088C50
 	public bool allowActivationOnMobileDevice { get; set; }
 	public bool forceModuleActive { get; set; }
 	public float inputActionsPerSecond { get; set; }
@@ -99,7 +99,7 @@ public class StandaloneInputModule : PointerInputModule // TypeDefIndex: 5085
 
 	protected void ProcessMouseEvent() { }
 
-	[ObsoleteAttribute] // RVA: 0x889D0 Offset: 0x87DD0 VA: 0x1800889D0
+	[ObsoleteAttribute] // RVA: 0x88920 Offset: 0x87D20 VA: 0x180088920
 	protected virtual bool ForceAutoSelect() { }
 
 	protected void ProcessMouseEvent(int id) { }

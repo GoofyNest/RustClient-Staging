@@ -21,8 +21,8 @@ internal struct Helpers.Memory : IDisposable // TypeDefIndex: 5255
 	public IntPtr Ptr { get; set; }
 
 
-	[IsReadOnlyAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[CompilerGeneratedAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[IsReadOnlyAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[CompilerGeneratedAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public IntPtr get_Ptr() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

@@ -20,7 +20,7 @@ public abstract class HttpHeaders : IEnumerable<KeyValuePair<string, IEnumerable
 
 	private bool TryCheckName(string name, out HeaderInfo headerInfo) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD9DB0 Offset: 0xD91B0 VA: 0x1800D9DB0
+	[IteratorStateMachineAttribute] // RVA: 0xD9E00 Offset: 0xD9200 VA: 0x1800D9E00
 	public IEnumerator<KeyValuePair<string, IEnumerable<string>>> GetEnumerator() { }
 
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }

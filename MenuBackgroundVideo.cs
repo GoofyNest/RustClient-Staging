@@ -14,7 +14,7 @@ public class MenuBackgroundVideo : SingletonComponent<MenuBackgroundVideo> // Ty
 
 	private void NextVideo() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x98A40 Offset: 0x97E40 VA: 0x180098A40
+	[IteratorStateMachineAttribute] // RVA: 0x981F0 Offset: 0x975F0 VA: 0x1800981F0
 	internal IEnumerator ReadyVideo() { }
 
 	public void .ctor() { }

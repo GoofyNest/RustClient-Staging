@@ -1,6 +1,6 @@
 public class TwitchTrophy : BaseCombatEntity // TypeDefIndex: 8476
 {	private Option __menuOption_Menu_OpenTrophy; // 0x240
-	[HeaderAttribute] // RVA: 0x967B0 Offset: 0x95BB0 VA: 0x1800967B0
+	[HeaderAttribute] // RVA: 0x96910 Offset: 0x95D10 VA: 0x180096910
 	public GameObjectRef DialogPrefab; // 0x298
 
 	public override bool HasMenuOptions { get; }
@@ -10,9 +10,9 @@ public class TwitchTrophy : BaseCombatEntity // TypeDefIndex: 8476
 
 	public override bool get_HasMenuOptions() { }
 
-	[BaseEntity.Menu] // RVA: 0x96880 Offset: 0x95C80 VA: 0x180096880
-	[BaseEntity.Menu.Description] // RVA: 0x96880 Offset: 0x95C80 VA: 0x180096880
-	[BaseEntity.Menu.Icon] // RVA: 0x96880 Offset: 0x95C80 VA: 0x180096880
+	[BaseEntity.Menu] // RVA: 0x969B0 Offset: 0x95DB0 VA: 0x1800969B0
+	[BaseEntity.Menu.Description] // RVA: 0x969B0 Offset: 0x95DB0 VA: 0x1800969B0
+	[BaseEntity.Menu.Icon] // RVA: 0x969B0 Offset: 0x95DB0 VA: 0x1800969B0
 	public void Menu_OpenTrophy(BasePlayer player) { }
 
 	public void .ctor() { }

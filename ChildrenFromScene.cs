@@ -3,7 +3,7 @@ public class ChildrenFromScene : MonoBehaviour // TypeDefIndex: 10836
 	public bool StartChildrenDisabled; // 0x20
 
 
-	[IteratorStateMachineAttribute] // RVA: 0x7DE00 Offset: 0x7D200 VA: 0x18007DE00
+	[IteratorStateMachineAttribute] // RVA: 0x7D5A0 Offset: 0x7C9A0 VA: 0x18007D5A0
 	private IEnumerator Start() { }
 
 	public void .ctor() { }

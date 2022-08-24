@@ -24,7 +24,7 @@ public class FrankensteinTableVisuals : MonoBehaviour // TypeDefIndex: 8695
 
 	public void StartWaking() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBBDD0 Offset: 0xBB1D0 VA: 0x1800BBDD0
+	[IteratorStateMachineAttribute] // RVA: 0xBBD00 Offset: 0xBB100 VA: 0x1800BBD00
 	private IEnumerator Wake() { }
 
 	private void SetTableUp(bool flag) { }

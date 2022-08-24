@@ -1,5 +1,5 @@
 public static class LevelManager // TypeDefIndex: 9963
-{	public static string CurrentLevelName; // 0x2B117C0
+{	public static string CurrentLevelName; // 0x2DF0
 
 	public static bool isLoaded { get; }
 
@@ -10,7 +10,7 @@ public static class LevelManager // TypeDefIndex: 9963
 
 	public static void LoadLevel(string strName, bool keepLoadingScreenOpen = True) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xAAC50 Offset: 0xAA050 VA: 0x1800AAC50
+	[IteratorStateMachineAttribute] // RVA: 0xAA750 Offset: 0xA9B50 VA: 0x1800AA750
 	public static IEnumerator LoadLevelAsync(string strName, bool keepLoadingScreenOpen = True) { }
 
 	public static void UnloadLevel(bool loadingScreen = True) { }

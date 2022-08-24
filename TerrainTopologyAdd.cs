@@ -1,5 +1,5 @@
 public class TerrainTopologyAdd : TerrainModifier // TypeDefIndex: 10586
-{	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+{	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public TerrainTopology.Enum TopologyType; // 0xA8
 
 

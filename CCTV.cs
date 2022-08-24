@@ -32,10 +32,10 @@ public class CCTV_RC : PoweredRemoteControlEntity // TypeDefIndex: 8372
 
 	public void Update() { }
 
-	[BaseEntity.Menu] // RVA: 0xD29D0 Offset: 0xD1DD0 VA: 0x1800D29D0
-	[BaseEntity.Menu.Description] // RVA: 0xD29D0 Offset: 0xD1DD0 VA: 0x1800D29D0
-	[BaseEntity.Menu.Icon] // RVA: 0xD29D0 Offset: 0xD1DD0 VA: 0x1800D29D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD29D0 Offset: 0xD1DD0 VA: 0x1800D29D0
+	[BaseEntity.Menu] // RVA: 0xD28A0 Offset: 0xD1CA0 VA: 0x1800D28A0
+	[BaseEntity.Menu.Description] // RVA: 0xD28A0 Offset: 0xD1CA0 VA: 0x1800D28A0
+	[BaseEntity.Menu.Icon] // RVA: 0xD28A0 Offset: 0xD1CA0 VA: 0x1800D28A0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD28A0 Offset: 0xD1CA0 VA: 0x1800D28A0
 	public void Menu_SetDir(BasePlayer player) { }
 
 	public bool Menu_SetDir_ShowIf(BasePlayer player) { }

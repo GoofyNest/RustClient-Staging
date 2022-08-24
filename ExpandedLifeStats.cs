@@ -1,13 +1,13 @@
 public class ExpandedLifeStats : MonoBehaviour // TypeDefIndex: 10928
 {	public GameObject DisplayRoot; // 0x18
 	public GameObjectRef GenericStatRow; // 0x20
-	[HeaderAttribute] // RVA: 0x8AED0 Offset: 0x8A2D0 VA: 0x18008AED0
+	[HeaderAttribute] // RVA: 0x8A850 Offset: 0x89C50 VA: 0x18008A850
 	public Transform ResourcesStatRoot; // 0x28
 	public List<ExpandedLifeStats.GenericStatDisplay> ResourceStats; // 0x30
-	[HeaderAttribute] // RVA: 0x8AF70 Offset: 0x8A370 VA: 0x18008AF70
+	[HeaderAttribute] // RVA: 0x8A880 Offset: 0x89C80 VA: 0x18008A880
 	public GameObjectRef WeaponStatRow; // 0x38
 	public Transform WeaponsRoot; // 0x40
-	[HeaderAttribute] // RVA: 0x71F60 Offset: 0x71360 VA: 0x180071F60
+	[HeaderAttribute] // RVA: 0x72060 Offset: 0x71460 VA: 0x180072060
 	public Transform MiscRoot; // 0x48
 	public List<ExpandedLifeStats.GenericStatDisplay> MiscStats; // 0x50
 	public LifeInfographic Infographic; // 0x58
@@ -28,7 +28,7 @@ public class ExpandedLifeStats : MonoBehaviour // TypeDefIndex: 10928
 
 	private void PopulateDynamicStats() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x8B0B0 Offset: 0x8A4B0 VA: 0x18008B0B0
+	[IteratorStateMachineAttribute] // RVA: 0x8AA30 Offset: 0x89E30 VA: 0x18008AA30
 	private IEnumerator WaitAndRelayout() { }
 
 	private void PopulateGenericStats(List<ExpandedLifeStats.GenericStatDisplay> stats, Transform parent, PlayerLifeStory life) { }

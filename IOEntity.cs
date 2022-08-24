@@ -261,15 +261,15 @@ public class IOEntity.IOConnection.LinePointList : IDisposable, Pool.IPooled, IP
 }
 
 public class IOEntity : DecayEntity // TypeDefIndex: 8587
-{	[HeaderAttribute] // RVA: 0xAEA40 Offset: 0xADE40 VA: 0x1800AEA40
+{	[HeaderAttribute] // RVA: 0xAEBD0 Offset: 0xADFD0 VA: 0x1800AEBD0
 	public Transform debugOrigin; // 0x258
 	public ItemDefinition sourceItem; // 0x260
-	[ServerVar] // RVA: 0xAFE70 Offset: 0xAF270 VA: 0x1800AFE70
-	[HelpAttribute] // RVA: 0xAFE70 Offset: 0xAF270 VA: 0x1800AFE70
+	[ServerVar] // RVA: 0xAFFD0 Offset: 0xAF3D0 VA: 0x1800AFFD0
+	[HelpAttribute] // RVA: 0xAFFD0 Offset: 0xAF3D0 VA: 0x1800AFFD0
 	public static float framebudgetms; // 0x0
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static float responsetime; // 0x4
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static int backtracking; // 0x8
 	public const BaseEntity.Flags Flag_ShortCircuit = 32768;
 	public const BaseEntity.Flags Flag_HasPower = 65536;

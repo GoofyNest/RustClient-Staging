@@ -9,15 +9,15 @@ public class PieMenu : UIBehaviour // TypeDefIndex: 11198
 	public PieMenu.MenuOption[] options; // 0x48
 	public GameObject scaleTarget; // 0x50
 	public float sliceGaps; // 0x58
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float outerSize; // 0x5C
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float innerSize; // 0x60
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float iconSize; // 0x64
-	[RangeAttribute] // RVA: 0x9F370 Offset: 0x9E770 VA: 0x18009F370
+	[RangeAttribute] // RVA: 0x9EE50 Offset: 0x9E250 VA: 0x18009EE50
 	public float startRadius; // 0x68
-	[RangeAttribute] // RVA: 0x9F370 Offset: 0x9E770 VA: 0x18009F370
+	[RangeAttribute] // RVA: 0x9EE50 Offset: 0x9E250 VA: 0x18009EE50
 	public float radiusSize; // 0x6C
 	public Image middleImage; // 0x70
 	public TextMeshProUGUI middleTitle; // 0x78

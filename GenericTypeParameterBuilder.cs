@@ -31,7 +31,7 @@ public abstract class GenericTypeParameterBuilder : TypeInfo // TypeDefIndex: 60
 
 	protected override ConstructorInfo GetConstructorImpl(BindingFlags bindingAttr, Binder binder, CallingConventions callConvention, Type[] types, ParameterModifier[] modifiers) { }
 
-	[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public override ConstructorInfo[] GetConstructors(BindingFlags bindingAttr) { }
 
 	public override object[] GetCustomAttributes(bool inherit) { }

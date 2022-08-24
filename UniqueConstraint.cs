@@ -4,13 +4,13 @@ public class UniqueConstraint : Constraint // TypeDefIndex: 4311
 	internal bool _bPrimaryKey; // 0x48
 
 	internal Index ConstraintIndex { get; }
-	[ReadOnlyAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ReadOnlyAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public virtual DataColumn[] Columns { get; }
 	internal DataColumn[] ColumnsReference { get; }
 	public bool IsPrimaryKey { get; }
 	internal override bool InCollection { set; }
 	internal DataKey Key { get; }
-	[ReadOnlyAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+	[ReadOnlyAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 	public override DataTable Table { get; }
 
 

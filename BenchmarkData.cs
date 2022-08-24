@@ -24,7 +24,7 @@ public class BenchmarkData // TypeDefIndex: 6178
 
 	public void WriteTimersToResults() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9FA70 Offset: 0x9EE70 VA: 0x18009FA70
+	[AsyncStateMachineAttribute] // RVA: 0x9F980 Offset: 0x9ED80 VA: 0x18009F980
 	public Task<string> Upload() { }
 
 	public string WriteJSON() { }

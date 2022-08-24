@@ -17,7 +17,7 @@ internal sealed class SynchronizationContextAwaitTaskContinuation : AwaitTaskCon
 }
 
 private sealed class SynchronizationContextAwaitTaskContinuation.<>c // TypeDefIndex: 878
-{	public static readonly SynchronizationContextAwaitTaskContinuation.<>c <>9; // 0x130B0
+{	public static readonly SynchronizationContextAwaitTaskContinuation.<>c <>9; // 0x1411B
 
 
 	private static void .cctor() { }

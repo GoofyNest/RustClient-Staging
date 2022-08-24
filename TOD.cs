@@ -1,12 +1,12 @@
 public class TOD_Animation : MonoBehaviour // TypeDefIndex: 8068
-{	[TooltipAttribute] // RVA: 0xE6890 Offset: 0xE5C90 VA: 0x1800E6890
-	[TOD_MinAttribute] // RVA: 0xE6890 Offset: 0xE5C90 VA: 0x1800E6890
+{	[TooltipAttribute] // RVA: 0xE6760 Offset: 0xE5B60 VA: 0x1800E6760
+	[TOD_MinAttribute] // RVA: 0xE6760 Offset: 0xE5B60 VA: 0x1800E6760
 	public float CameraMovement; // 0x18
-	[TooltipAttribute] // RVA: 0xE6B10 Offset: 0xE5F10 VA: 0x1800E6B10
-	[TOD_RangeAttribute] // RVA: 0xE6B10 Offset: 0xE5F10 VA: 0x1800E6B10
+	[TooltipAttribute] // RVA: 0xE69E0 Offset: 0xE5DE0 VA: 0x1800E69E0
+	[TOD_RangeAttribute] // RVA: 0xE69E0 Offset: 0xE5DE0 VA: 0x1800E69E0
 	public float WindDegrees; // 0x1C
-	[TooltipAttribute] // RVA: 0xE6C70 Offset: 0xE6070 VA: 0x1800E6C70
-	[TOD_MinAttribute] // RVA: 0xE6C70 Offset: 0xE6070 VA: 0x1800E6C70
+	[TooltipAttribute] // RVA: 0xE6B40 Offset: 0xE5F40 VA: 0x1800E6B40
+	[TOD_MinAttribute] // RVA: 0xE6B40 Offset: 0xE5F40 VA: 0x1800E6B40
 	public float WindSpeed; // 0x20
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Vector3 <CloudUV>k__BackingField; // 0x24
@@ -666,11 +666,11 @@ public class TOD_Parameters // TypeDefIndex: 8089
 }
 
 public class TOD_CycleParameters // TypeDefIndex: 8090
-{	[TooltipAttribute] // RVA: 0xF0230 Offset: 0xEF630 VA: 0x1800F0230
+{	[TooltipAttribute] // RVA: 0xF0100 Offset: 0xEF500 VA: 0x1800F0100
 	public float Hour; // 0x10
-	[TooltipAttribute] // RVA: 0xF02D0 Offset: 0xEF6D0 VA: 0x1800F02D0
+	[TooltipAttribute] // RVA: 0xF0230 Offset: 0xEF630 VA: 0x1800F0230
 	public int Day; // 0x14
-	[TooltipAttribute] // RVA: 0xF0370 Offset: 0xEF770 VA: 0x1800F0370
+	[TooltipAttribute] // RVA: 0xF02D0 Offset: 0xEF6D0 VA: 0x1800F02D0
 	public int Month; // 0x18
 	[TooltipAttribute] // RVA: 0xF04C0 Offset: 0xEF8C0 VA: 0x1800F04C0
 	[TOD_RangeAttribute] // RVA: 0xF04C0 Offset: 0xEF8C0 VA: 0x1800F04C0
@@ -696,11 +696,11 @@ public class TOD_WorldParameters // TypeDefIndex: 8091
 {	[TooltipAttribute] // RVA: 0xF0590 Offset: 0xEF990 VA: 0x1800F0590
 	[RangeAttribute] // RVA: 0xF0590 Offset: 0xEF990 VA: 0x1800F0590
 	public float Latitude; // 0x10
-	[TooltipAttribute] // RVA: 0xF06B0 Offset: 0xEFAB0 VA: 0x1800F06B0
-	[RangeAttribute] // RVA: 0xF06B0 Offset: 0xEFAB0 VA: 0x1800F06B0
+	[TooltipAttribute] // RVA: 0xF0720 Offset: 0xEFB20 VA: 0x1800F0720
+	[RangeAttribute] // RVA: 0xF0720 Offset: 0xEFB20 VA: 0x1800F0720
 	public float Longitude; // 0x14
-	[TooltipAttribute] // RVA: 0xF0810 Offset: 0xEFC10 VA: 0x1800F0810
-	[RangeAttribute] // RVA: 0xF0810 Offset: 0xEFC10 VA: 0x1800F0810
+	[TooltipAttribute] // RVA: 0xF08F0 Offset: 0xEFCF0 VA: 0x1800F08F0
+	[RangeAttribute] // RVA: 0xF08F0 Offset: 0xEFCF0 VA: 0x1800F08F0
 	public float UTC; // 0x18
 
 
@@ -709,23 +709,23 @@ public class TOD_WorldParameters // TypeDefIndex: 8091
 }
 
 public class TOD_AtmosphereParameters // TypeDefIndex: 8092
-{	[TooltipAttribute] // RVA: 0xF09F0 Offset: 0xEFDF0 VA: 0x1800F09F0
-	[TOD_MinAttribute] // RVA: 0xF09F0 Offset: 0xEFDF0 VA: 0x1800F09F0
+{	[TooltipAttribute] // RVA: 0xF0A40 Offset: 0xEFE40 VA: 0x1800F0A40
+	[TOD_MinAttribute] // RVA: 0xF0A40 Offset: 0xEFE40 VA: 0x1800F0A40
 	public float RayleighMultiplier; // 0x10
-	[TooltipAttribute] // RVA: 0xF0C60 Offset: 0xF0060 VA: 0x1800F0C60
-	[TOD_MinAttribute] // RVA: 0xF0C60 Offset: 0xF0060 VA: 0x1800F0C60
+	[TooltipAttribute] // RVA: 0xF0C80 Offset: 0xF0080 VA: 0x1800F0C80
+	[TOD_MinAttribute] // RVA: 0xF0C80 Offset: 0xF0080 VA: 0x1800F0C80
 	public float MieMultiplier; // 0x14
-	[TooltipAttribute] // RVA: 0xF0E50 Offset: 0xF0250 VA: 0x1800F0E50
-	[TOD_MinAttribute] // RVA: 0xF0E50 Offset: 0xF0250 VA: 0x1800F0E50
+	[TooltipAttribute] // RVA: 0xF0EC0 Offset: 0xF02C0 VA: 0x1800F0EC0
+	[TOD_MinAttribute] // RVA: 0xF0EC0 Offset: 0xF02C0 VA: 0x1800F0EC0
 	public float Brightness; // 0x18
 	[TooltipAttribute] // RVA: 0x6F490 Offset: 0x6E890 VA: 0x18006F490
 	[TOD_MinAttribute] // RVA: 0x6F490 Offset: 0x6E890 VA: 0x18006F490
 	public float Contrast; // 0x1C
-	[TooltipAttribute] // RVA: 0x6F700 Offset: 0x6EB00 VA: 0x18006F700
-	[TOD_RangeAttribute] // RVA: 0x6F700 Offset: 0x6EB00 VA: 0x18006F700
+	[TooltipAttribute] // RVA: 0x6F6E0 Offset: 0x6EAE0 VA: 0x18006F6E0
+	[TOD_RangeAttribute] // RVA: 0x6F6E0 Offset: 0x6EAE0 VA: 0x18006F6E0
 	public float Directionality; // 0x20
-	[TooltipAttribute] // RVA: 0x6FAB0 Offset: 0x6EEB0 VA: 0x18006FAB0
-	[TOD_RangeAttribute] // RVA: 0x6FAB0 Offset: 0x6EEB0 VA: 0x18006FAB0
+	[TooltipAttribute] // RVA: 0x6FAF0 Offset: 0x6EEF0 VA: 0x18006FAF0
+	[TOD_RangeAttribute] // RVA: 0x6FAF0 Offset: 0x6EEF0 VA: 0x18006FAF0
 	public float Fogginess; // 0x24
 
 
@@ -734,31 +734,31 @@ public class TOD_AtmosphereParameters // TypeDefIndex: 8092
 }
 
 public class TOD_DayParameters // TypeDefIndex: 8093
-{	[TooltipAttribute] // RVA: 0x6FE60 Offset: 0x6F260 VA: 0x18006FE60
+{	[TooltipAttribute] // RVA: 0x6FE30 Offset: 0x6F230 VA: 0x18006FE30
 	public Gradient SunColor; // 0x10
-	[TooltipAttribute] // RVA: 0x6FF90 Offset: 0x6F390 VA: 0x18006FF90
+	[TooltipAttribute] // RVA: 0x6FF10 Offset: 0x6F310 VA: 0x18006FF10
 	public Gradient LightColor; // 0x18
-	[TooltipAttribute] // RVA: 0x700E0 Offset: 0x6F4E0 VA: 0x1800700E0
+	[TooltipAttribute] // RVA: 0x700C0 Offset: 0x6F4C0 VA: 0x1800700C0
 	public Gradient RayColor; // 0x20
-	[TooltipAttribute] // RVA: 0x702E0 Offset: 0x6F6E0 VA: 0x1800702E0
+	[TooltipAttribute] // RVA: 0x70270 Offset: 0x6F670 VA: 0x180070270
 	public Gradient SkyColor; // 0x28
-	[TooltipAttribute] // RVA: 0x703C0 Offset: 0x6F7C0 VA: 0x1800703C0
+	[TooltipAttribute] // RVA: 0x70330 Offset: 0x6F730 VA: 0x180070330
 	public Gradient CloudColor; // 0x30
-	[TooltipAttribute] // RVA: 0x70620 Offset: 0x6FA20 VA: 0x180070620
+	[TooltipAttribute] // RVA: 0x70530 Offset: 0x6F930 VA: 0x180070530
 	public Gradient FogColor; // 0x38
-	[TooltipAttribute] // RVA: 0x706C0 Offset: 0x6FAC0 VA: 0x1800706C0
+	[TooltipAttribute] // RVA: 0x70600 Offset: 0x6FA00 VA: 0x180070600
 	public Gradient AmbientColor; // 0x40
-	[TooltipAttribute] // RVA: 0x70750 Offset: 0x6FB50 VA: 0x180070750
-	[TOD_MinAttribute] // RVA: 0x70750 Offset: 0x6FB50 VA: 0x180070750
+	[TooltipAttribute] // RVA: 0x706C0 Offset: 0x6FAC0 VA: 0x1800706C0
+	[TOD_MinAttribute] // RVA: 0x706C0 Offset: 0x6FAC0 VA: 0x1800706C0
 	public float LightIntensity; // 0x48
-	[TooltipAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	[RangeAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[TooltipAttribute] // RVA: 0x70840 Offset: 0x6FC40 VA: 0x180070840
+	[RangeAttribute] // RVA: 0x70840 Offset: 0x6FC40 VA: 0x180070840
 	public float ShadowStrength; // 0x4C
 	[TooltipAttribute] // RVA: 0x709E0 Offset: 0x6FDE0 VA: 0x1800709E0
 	[RangeAttribute] // RVA: 0x709E0 Offset: 0x6FDE0 VA: 0x1800709E0
 	public float AmbientMultiplier; // 0x50
-	[TooltipAttribute] // RVA: 0x70B50 Offset: 0x6FF50 VA: 0x180070B50
-	[RangeAttribute] // RVA: 0x70B50 Offset: 0x6FF50 VA: 0x180070B50
+	[TooltipAttribute] // RVA: 0x70BC0 Offset: 0x6FFC0 VA: 0x180070BC0
+	[RangeAttribute] // RVA: 0x70BC0 Offset: 0x6FFC0 VA: 0x180070BC0
 	public float ReflectionMultiplier; // 0x54
 
 
@@ -767,31 +767,31 @@ public class TOD_DayParameters // TypeDefIndex: 8093
 }
 
 public class TOD_NightParameters // TypeDefIndex: 8094
-{	[TooltipAttribute] // RVA: 0x70CD0 Offset: 0x700D0 VA: 0x180070CD0
+{	[TooltipAttribute] // RVA: 0x70DE0 Offset: 0x701E0 VA: 0x180070DE0
 	public Gradient MoonColor; // 0x10
-	[TooltipAttribute] // RVA: 0x70D90 Offset: 0x70190 VA: 0x180070D90
+	[TooltipAttribute] // RVA: 0x70E90 Offset: 0x70290 VA: 0x180070E90
 	public Gradient LightColor; // 0x18
-	[TooltipAttribute] // RVA: 0x70F50 Offset: 0x70350 VA: 0x180070F50
+	[TooltipAttribute] // RVA: 0x71000 Offset: 0x70400 VA: 0x180071000
 	public Gradient RayColor; // 0x20
-	[TooltipAttribute] // RVA: 0x71030 Offset: 0x70430 VA: 0x180071030
+	[TooltipAttribute] // RVA: 0x711B0 Offset: 0x705B0 VA: 0x1800711B0
 	public Gradient SkyColor; // 0x28
-	[TooltipAttribute] // RVA: 0x71150 Offset: 0x70550 VA: 0x180071150
+	[TooltipAttribute] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
 	public Gradient CloudColor; // 0x30
-	[TooltipAttribute] // RVA: 0x712E0 Offset: 0x706E0 VA: 0x1800712E0
+	[TooltipAttribute] // RVA: 0x713E0 Offset: 0x707E0 VA: 0x1800713E0
 	public Gradient FogColor; // 0x38
-	[TooltipAttribute] // RVA: 0x71420 Offset: 0x70820 VA: 0x180071420
+	[TooltipAttribute] // RVA: 0x71530 Offset: 0x70930 VA: 0x180071530
 	public Gradient AmbientColor; // 0x40
-	[TooltipAttribute] // RVA: 0x70750 Offset: 0x6FB50 VA: 0x180070750
-	[TOD_MinAttribute] // RVA: 0x70750 Offset: 0x6FB50 VA: 0x180070750
+	[TooltipAttribute] // RVA: 0x706C0 Offset: 0x6FAC0 VA: 0x1800706C0
+	[TOD_MinAttribute] // RVA: 0x706C0 Offset: 0x6FAC0 VA: 0x1800706C0
 	public float LightIntensity; // 0x48
-	[TooltipAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
-	[RangeAttribute] // RVA: 0x70860 Offset: 0x6FC60 VA: 0x180070860
+	[TooltipAttribute] // RVA: 0x70840 Offset: 0x6FC40 VA: 0x180070840
+	[RangeAttribute] // RVA: 0x70840 Offset: 0x6FC40 VA: 0x180070840
 	public float ShadowStrength; // 0x4C
 	[TooltipAttribute] // RVA: 0x709E0 Offset: 0x6FDE0 VA: 0x1800709E0
 	[RangeAttribute] // RVA: 0x709E0 Offset: 0x6FDE0 VA: 0x1800709E0
 	public float AmbientMultiplier; // 0x50
-	[TooltipAttribute] // RVA: 0x70B50 Offset: 0x6FF50 VA: 0x180070B50
-	[RangeAttribute] // RVA: 0x70B50 Offset: 0x6FF50 VA: 0x180070B50
+	[TooltipAttribute] // RVA: 0x70BC0 Offset: 0x6FFC0 VA: 0x180070BC0
+	[RangeAttribute] // RVA: 0x70BC0 Offset: 0x6FFC0 VA: 0x180070BC0
 	public float ReflectionMultiplier; // 0x54
 
 
@@ -800,14 +800,14 @@ public class TOD_NightParameters // TypeDefIndex: 8094
 }
 
 public class TOD_SunParameters // TypeDefIndex: 8095
-{	[TooltipAttribute] // RVA: 0x71B00 Offset: 0x70F00 VA: 0x180071B00
-	[TOD_MinAttribute] // RVA: 0x71B00 Offset: 0x70F00 VA: 0x180071B00
+{	[TooltipAttribute] // RVA: 0x71BC0 Offset: 0x70FC0 VA: 0x180071BC0
+	[TOD_MinAttribute] // RVA: 0x71BC0 Offset: 0x70FC0 VA: 0x180071BC0
 	public float MeshSize; // 0x10
-	[TooltipAttribute] // RVA: 0x71CC0 Offset: 0x710C0 VA: 0x180071CC0
-	[TOD_MinAttribute] // RVA: 0x71CC0 Offset: 0x710C0 VA: 0x180071CC0
+	[TooltipAttribute] // RVA: 0x71D90 Offset: 0x71190 VA: 0x180071D90
+	[TOD_MinAttribute] // RVA: 0x71D90 Offset: 0x71190 VA: 0x180071D90
 	public float MeshBrightness; // 0x14
-	[TooltipAttribute] // RVA: 0x71EE0 Offset: 0x712E0 VA: 0x180071EE0
-	[TOD_MinAttribute] // RVA: 0x71EE0 Offset: 0x712E0 VA: 0x180071EE0
+	[TooltipAttribute] // RVA: 0x71F70 Offset: 0x71370 VA: 0x180071F70
+	[TOD_MinAttribute] // RVA: 0x71F70 Offset: 0x71370 VA: 0x180071F70
 	public float MeshContrast; // 0x18
 
 
@@ -816,22 +816,22 @@ public class TOD_SunParameters // TypeDefIndex: 8095
 }
 
 public class TOD_MoonParameters // TypeDefIndex: 8096
-{	[TooltipAttribute] // RVA: 0x72030 Offset: 0x71430 VA: 0x180072030
-	[TOD_MinAttribute] // RVA: 0x72030 Offset: 0x71430 VA: 0x180072030
+{	[TooltipAttribute] // RVA: 0x72170 Offset: 0x71570 VA: 0x180072170
+	[TOD_MinAttribute] // RVA: 0x72170 Offset: 0x71570 VA: 0x180072170
 	public float MeshSize; // 0x10
-	[TooltipAttribute] // RVA: 0x72230 Offset: 0x71630 VA: 0x180072230
-	[TOD_MinAttribute] // RVA: 0x72230 Offset: 0x71630 VA: 0x180072230
+	[TooltipAttribute] // RVA: 0x723A0 Offset: 0x717A0 VA: 0x1800723A0
+	[TOD_MinAttribute] // RVA: 0x723A0 Offset: 0x717A0 VA: 0x1800723A0
 	public float MeshBrightness; // 0x14
-	[TooltipAttribute] // RVA: 0x72470 Offset: 0x71870 VA: 0x180072470
-	[TOD_MinAttribute] // RVA: 0x72470 Offset: 0x71870 VA: 0x180072470
+	[TooltipAttribute] // RVA: 0x72620 Offset: 0x71A20 VA: 0x180072620
+	[TOD_MinAttribute] // RVA: 0x72620 Offset: 0x71A20 VA: 0x180072620
 	public float MeshContrast; // 0x18
-	[TooltipAttribute] // RVA: 0x72720 Offset: 0x71B20 VA: 0x180072720
-	[TOD_MinAttribute] // RVA: 0x72720 Offset: 0x71B20 VA: 0x180072720
+	[TooltipAttribute] // RVA: 0x72870 Offset: 0x71C70 VA: 0x180072870
+	[TOD_MinAttribute] // RVA: 0x72870 Offset: 0x71C70 VA: 0x180072870
 	public float HaloSize; // 0x1C
-	[TooltipAttribute] // RVA: 0x73B60 Offset: 0x72F60 VA: 0x180073B60
-	[TOD_MinAttribute] // RVA: 0x73B60 Offset: 0x72F60 VA: 0x180073B60
+	[TooltipAttribute] // RVA: 0x73CE0 Offset: 0x730E0 VA: 0x180073CE0
+	[TOD_MinAttribute] // RVA: 0x73CE0 Offset: 0x730E0 VA: 0x180073CE0
 	public float HaloBrightness; // 0x20
-	[TooltipAttribute] // RVA: 0x73CA0 Offset: 0x730A0 VA: 0x180073CA0
+	[TooltipAttribute] // RVA: 0x73DD0 Offset: 0x731D0 VA: 0x180073DD0
 	public TOD_MoonPositionType Position; // 0x24
 
 
@@ -840,13 +840,13 @@ public class TOD_MoonParameters // TypeDefIndex: 8096
 }
 
 public class TOD_StarParameters // TypeDefIndex: 8097
-{	[TooltipAttribute] // RVA: 0x73EA0 Offset: 0x732A0 VA: 0x180073EA0
-	[TOD_MinAttribute] // RVA: 0x73EA0 Offset: 0x732A0 VA: 0x180073EA0
+{	[TooltipAttribute] // RVA: 0x73FA0 Offset: 0x733A0 VA: 0x180073FA0
+	[TOD_MinAttribute] // RVA: 0x73FA0 Offset: 0x733A0 VA: 0x180073FA0
 	public float Size; // 0x10
-	[TooltipAttribute] // RVA: 0x74060 Offset: 0x73460 VA: 0x180074060
-	[TOD_MinAttribute] // RVA: 0x74060 Offset: 0x73460 VA: 0x180074060
+	[TooltipAttribute] // RVA: 0x74150 Offset: 0x73550 VA: 0x180074150
+	[TOD_MinAttribute] // RVA: 0x74150 Offset: 0x73550 VA: 0x180074150
 	public float Brightness; // 0x14
-	[TooltipAttribute] // RVA: 0x75590 Offset: 0x74990 VA: 0x180075590
+	[TooltipAttribute] // RVA: 0x75650 Offset: 0x74A50 VA: 0x180075650
 	public TOD_StarsPositionType Position; // 0x18
 
 
@@ -855,32 +855,32 @@ public class TOD_StarParameters // TypeDefIndex: 8097
 }
 
 public class TOD_CloudParameters // TypeDefIndex: 8098
-{	[TooltipAttribute] // RVA: 0x75690 Offset: 0x74A90 VA: 0x180075690
-	[TOD_MinAttribute] // RVA: 0x75690 Offset: 0x74A90 VA: 0x180075690
+{	[TooltipAttribute] // RVA: 0x75740 Offset: 0x74B40 VA: 0x180075740
+	[TOD_MinAttribute] // RVA: 0x75740 Offset: 0x74B40 VA: 0x180075740
 	public float Size; // 0x10
-	[TooltipAttribute] // RVA: 0x75880 Offset: 0x74C80 VA: 0x180075880
-	[TOD_RangeAttribute] // RVA: 0x75880 Offset: 0x74C80 VA: 0x180075880
+	[TooltipAttribute] // RVA: 0x758C0 Offset: 0x74CC0 VA: 0x1800758C0
+	[TOD_RangeAttribute] // RVA: 0x758C0 Offset: 0x74CC0 VA: 0x1800758C0
 	public float Opacity; // 0x14
-	[TooltipAttribute] // RVA: 0x75A10 Offset: 0x74E10 VA: 0x180075A10
-	[TOD_RangeAttribute] // RVA: 0x75A10 Offset: 0x74E10 VA: 0x180075A10
+	[TooltipAttribute] // RVA: 0x75A70 Offset: 0x74E70 VA: 0x180075A70
+	[TOD_RangeAttribute] // RVA: 0x75A70 Offset: 0x74E70 VA: 0x180075A70
 	public float Coverage; // 0x18
-	[TooltipAttribute] // RVA: 0x75D30 Offset: 0x75130 VA: 0x180075D30
-	[TOD_RangeAttribute] // RVA: 0x75D30 Offset: 0x75130 VA: 0x180075D30
+	[TooltipAttribute] // RVA: 0x75D40 Offset: 0x75140 VA: 0x180075D40
+	[TOD_RangeAttribute] // RVA: 0x75D40 Offset: 0x75140 VA: 0x180075D40
 	public float Sharpness; // 0x1C
-	[TooltipAttribute] // RVA: 0x75ED0 Offset: 0x752D0 VA: 0x180075ED0
-	[TOD_RangeAttribute] // RVA: 0x75ED0 Offset: 0x752D0 VA: 0x180075ED0
+	[TooltipAttribute] // RVA: 0x75EB0 Offset: 0x752B0 VA: 0x180075EB0
+	[TOD_RangeAttribute] // RVA: 0x75EB0 Offset: 0x752B0 VA: 0x180075EB0
 	public float Coloring; // 0x20
-	[TooltipAttribute] // RVA: 0x76090 Offset: 0x75490 VA: 0x180076090
-	[TOD_RangeAttribute] // RVA: 0x76090 Offset: 0x75490 VA: 0x180076090
+	[TooltipAttribute] // RVA: 0x76050 Offset: 0x75450 VA: 0x180076050
+	[TOD_RangeAttribute] // RVA: 0x76050 Offset: 0x75450 VA: 0x180076050
 	public float Attenuation; // 0x24
-	[TooltipAttribute] // RVA: 0x761C0 Offset: 0x755C0 VA: 0x1800761C0
-	[TOD_RangeAttribute] // RVA: 0x761C0 Offset: 0x755C0 VA: 0x1800761C0
+	[TooltipAttribute] // RVA: 0x761B0 Offset: 0x755B0 VA: 0x1800761B0
+	[TOD_RangeAttribute] // RVA: 0x761B0 Offset: 0x755B0 VA: 0x1800761B0
 	public float Saturation; // 0x28
 	[TooltipAttribute] // RVA: 0x76310 Offset: 0x75710 VA: 0x180076310
 	[TOD_MinAttribute] // RVA: 0x76310 Offset: 0x75710 VA: 0x180076310
 	public float Scattering; // 0x2C
-	[TooltipAttribute] // RVA: 0x76450 Offset: 0x75850 VA: 0x180076450
-	[TOD_MinAttribute] // RVA: 0x76450 Offset: 0x75850 VA: 0x180076450
+	[TooltipAttribute] // RVA: 0x76480 Offset: 0x75880 VA: 0x180076480
+	[TOD_MinAttribute] // RVA: 0x76480 Offset: 0x75880 VA: 0x180076480
 	public float Brightness; // 0x30
 
 
@@ -889,11 +889,11 @@ public class TOD_CloudParameters // TypeDefIndex: 8098
 }
 
 public class TOD_LightParameters // TypeDefIndex: 8099
-{	[TooltipAttribute] // RVA: 0x765B0 Offset: 0x759B0 VA: 0x1800765B0
-	[TOD_MinAttribute] // RVA: 0x765B0 Offset: 0x759B0 VA: 0x1800765B0
+{	[TooltipAttribute] // RVA: 0x76600 Offset: 0x75A00 VA: 0x180076600
+	[TOD_MinAttribute] // RVA: 0x76600 Offset: 0x75A00 VA: 0x180076600
 	public float UpdateInterval; // 0x10
-	[TooltipAttribute] // RVA: 0x76730 Offset: 0x75B30 VA: 0x180076730
-	[TOD_RangeAttribute] // RVA: 0x76730 Offset: 0x75B30 VA: 0x180076730
+	[TooltipAttribute] // RVA: 0x767D0 Offset: 0x75BD0 VA: 0x1800767D0
+	[TOD_RangeAttribute] // RVA: 0x767D0 Offset: 0x75BD0 VA: 0x1800767D0
 	public float MinimumHeight; // 0x14
 
 
@@ -902,10 +902,10 @@ public class TOD_LightParameters // TypeDefIndex: 8099
 }
 
 public class TOD_FogParameters // TypeDefIndex: 8100
-{	[TooltipAttribute] // RVA: 0x768D0 Offset: 0x75CD0 VA: 0x1800768D0
+{	[TooltipAttribute] // RVA: 0x76910 Offset: 0x75D10 VA: 0x180076910
 	public TOD_FogType Mode; // 0x10
-	[TooltipAttribute] // RVA: 0x769A0 Offset: 0x75DA0 VA: 0x1800769A0
-	[TOD_RangeAttribute] // RVA: 0x769A0 Offset: 0x75DA0 VA: 0x1800769A0
+	[TooltipAttribute] // RVA: 0x76A20 Offset: 0x75E20 VA: 0x180076A20
+	[TOD_RangeAttribute] // RVA: 0x76A20 Offset: 0x75E20 VA: 0x180076A20
 	public float HeightBias; // 0x14
 
 
@@ -914,13 +914,13 @@ public class TOD_FogParameters // TypeDefIndex: 8100
 }
 
 public class TOD_AmbientParameters // TypeDefIndex: 8101
-{	[TooltipAttribute] // RVA: 0x76BB0 Offset: 0x75FB0 VA: 0x180076BB0
+{	[TooltipAttribute] // RVA: 0x76BF0 Offset: 0x75FF0 VA: 0x180076BF0
 	public TOD_AmbientType Mode; // 0x10
-	[TooltipAttribute] // RVA: 0x76D00 Offset: 0x76100 VA: 0x180076D00
-	[TOD_MinAttribute] // RVA: 0x76D00 Offset: 0x76100 VA: 0x180076D00
+	[TooltipAttribute] // RVA: 0x76D10 Offset: 0x76110 VA: 0x180076D10
+	[TOD_MinAttribute] // RVA: 0x76D10 Offset: 0x76110 VA: 0x180076D10
 	public float Saturation; // 0x14
-	[TooltipAttribute] // RVA: 0x76F80 Offset: 0x76380 VA: 0x180076F80
-	[TOD_MinAttribute] // RVA: 0x76F80 Offset: 0x76380 VA: 0x180076F80
+	[TooltipAttribute] // RVA: 0x76EF0 Offset: 0x762F0 VA: 0x180076EF0
+	[TOD_MinAttribute] // RVA: 0x76EF0 Offset: 0x762F0 VA: 0x180076EF0
 	public float UpdateInterval; // 0x18
 
 
@@ -929,13 +929,13 @@ public class TOD_AmbientParameters // TypeDefIndex: 8101
 }
 
 public class TOD_ReflectionParameters // TypeDefIndex: 8102
-{	[TooltipAttribute] // RVA: 0x77100 Offset: 0x76500 VA: 0x180077100
+{	[TooltipAttribute] // RVA: 0x77070 Offset: 0x76470 VA: 0x180077070
 	public TOD_ReflectionType Mode; // 0x10
-	[TooltipAttribute] // RVA: 0x77220 Offset: 0x76620 VA: 0x180077220
+	[TooltipAttribute] // RVA: 0x771C0 Offset: 0x765C0 VA: 0x1800771C0
 	public ReflectionProbeClearFlags ClearFlags; // 0x14
-	[TooltipAttribute] // RVA: 0x77310 Offset: 0x76710 VA: 0x180077310
+	[TooltipAttribute] // RVA: 0x772A0 Offset: 0x766A0 VA: 0x1800772A0
 	public LayerMask CullingMask; // 0x18
-	[TooltipAttribute] // RVA: 0x774E0 Offset: 0x768E0 VA: 0x1800774E0
+	[TooltipAttribute] // RVA: 0x774D0 Offset: 0x768D0 VA: 0x1800774D0
 	public GameObject ProbePrefab; // 0x20
 
 
@@ -947,25 +947,25 @@ public class TOD_Rays : TOD_ImageEffect // TypeDefIndex: 8103
 {	public Shader GodRayShader; // 0x30
 	public Shader ScreenClearShader; // 0x38
 	public Shader SkyMaskShader; // 0x40
-	[TooltipAttribute] // RVA: 0x77890 Offset: 0x76C90 VA: 0x180077890
+	[TooltipAttribute] // RVA: 0x77920 Offset: 0x76D20 VA: 0x180077920
 	public bool UseDepthTexture; // 0x48
-	[HeaderAttribute] // RVA: 0x77970 Offset: 0x76D70 VA: 0x180077970
-	[TooltipAttribute] // RVA: 0x77970 Offset: 0x76D70 VA: 0x180077970
+	[HeaderAttribute] // RVA: 0x77A20 Offset: 0x76E20 VA: 0x180077A20
+	[TooltipAttribute] // RVA: 0x77A20 Offset: 0x76E20 VA: 0x180077A20
 	public TOD_Rays.BlendModeType BlendMode; // 0x4C
-	[TooltipAttribute] // RVA: 0x77A80 Offset: 0x76E80 VA: 0x180077A80
-	[TOD_MinAttribute] // RVA: 0x77A80 Offset: 0x76E80 VA: 0x180077A80
+	[TooltipAttribute] // RVA: 0x77BE0 Offset: 0x76FE0 VA: 0x180077BE0
+	[TOD_MinAttribute] // RVA: 0x77BE0 Offset: 0x76FE0 VA: 0x180077BE0
 	public float Intensity; // 0x50
-	[HeaderAttribute] // RVA: 0x77BB0 Offset: 0x76FB0 VA: 0x180077BB0
-	[TooltipAttribute] // RVA: 0x77BB0 Offset: 0x76FB0 VA: 0x180077BB0
+	[HeaderAttribute] // RVA: 0x77D00 Offset: 0x77100 VA: 0x180077D00
+	[TooltipAttribute] // RVA: 0x77D00 Offset: 0x77100 VA: 0x180077D00
 	public TOD_ImageEffect.ResolutionType Resolution; // 0x54
-	[TooltipAttribute] // RVA: 0x77D20 Offset: 0x77120 VA: 0x180077D20
-	[TOD_RangeAttribute] // RVA: 0x77D20 Offset: 0x77120 VA: 0x180077D20
+	[TooltipAttribute] // RVA: 0x77EA0 Offset: 0x772A0 VA: 0x180077EA0
+	[TOD_RangeAttribute] // RVA: 0x77EA0 Offset: 0x772A0 VA: 0x180077EA0
 	public int BlurIterations; // 0x58
-	[TooltipAttribute] // RVA: 0x77EF0 Offset: 0x772F0 VA: 0x180077EF0
-	[TOD_MinAttribute] // RVA: 0x77EF0 Offset: 0x772F0 VA: 0x180077EF0
+	[TooltipAttribute] // RVA: 0x78080 Offset: 0x77480 VA: 0x180078080
+	[TOD_MinAttribute] // RVA: 0x78080 Offset: 0x77480 VA: 0x180078080
 	public float BlurRadius; // 0x5C
-	[TooltipAttribute] // RVA: 0x78100 Offset: 0x77500 VA: 0x180078100
-	[TOD_MinAttribute] // RVA: 0x78100 Offset: 0x77500 VA: 0x180078100
+	[TooltipAttribute] // RVA: 0x78240 Offset: 0x77640 VA: 0x180078240
+	[TOD_MinAttribute] // RVA: 0x78240 Offset: 0x77640 VA: 0x180078240
 	public float MaxRadius; // 0x60
 	private Material godRayMaterial; // 0x68
 	private Material screenClearMaterial; // 0x70
@@ -1469,30 +1469,30 @@ public class TOD_Scattering : TOD_ImageEffect // TypeDefIndex: 8106
 	public Shader ScreenClearShader; // 0x38
 	public Shader SkyMaskShader; // 0x40
 	public Texture2D DitheringTexture; // 0x48
-	[TooltipAttribute] // RVA: 0x852F0 Offset: 0x846F0 VA: 0x1800852F0
+	[TooltipAttribute] // RVA: 0x85310 Offset: 0x84710 VA: 0x180085310
 	public bool SinglePass; // 0x50
-	[HeaderAttribute] // RVA: 0x85400 Offset: 0x84800 VA: 0x180085400
-	[TooltipAttribute] // RVA: 0x85400 Offset: 0x84800 VA: 0x180085400
-	[RangeAttribute] // RVA: 0x85400 Offset: 0x84800 VA: 0x180085400
+	[HeaderAttribute] // RVA: 0x853F0 Offset: 0x847F0 VA: 0x1800853F0
+	[TooltipAttribute] // RVA: 0x853F0 Offset: 0x847F0 VA: 0x1800853F0
+	[RangeAttribute] // RVA: 0x853F0 Offset: 0x847F0 VA: 0x1800853F0
 	public float GlobalDensity; // 0x54
-	[TooltipAttribute] // RVA: 0x85750 Offset: 0x84B50 VA: 0x180085750
-	[RangeAttribute] // RVA: 0x85750 Offset: 0x84B50 VA: 0x180085750
+	[TooltipAttribute] // RVA: 0x85680 Offset: 0x84A80 VA: 0x180085680
+	[RangeAttribute] // RVA: 0x85680 Offset: 0x84A80 VA: 0x180085680
 	public float HeightFalloff; // 0x58
-	[TooltipAttribute] // RVA: 0x858D0 Offset: 0x84CD0 VA: 0x1800858D0
+	[TooltipAttribute] // RVA: 0x857B0 Offset: 0x84BB0 VA: 0x1800857B0
 	public float StartDistance; // 0x5C
-	[TooltipAttribute] // RVA: 0x85A00 Offset: 0x84E00 VA: 0x180085A00
+	[TooltipAttribute] // RVA: 0x858E0 Offset: 0x84CE0 VA: 0x1800858E0
 	public float ZeroLevel; // 0x60
-	[HeaderAttribute] // RVA: 0x85AE0 Offset: 0x84EE0 VA: 0x180085AE0
-	[TooltipAttribute] // RVA: 0x85AE0 Offset: 0x84EE0 VA: 0x180085AE0
+	[HeaderAttribute] // RVA: 0x859F0 Offset: 0x84DF0 VA: 0x1800859F0
+	[TooltipAttribute] // RVA: 0x859F0 Offset: 0x84DF0 VA: 0x1800859F0
 	public TOD_ImageEffect.ResolutionType Resolution; // 0x64
-	[TooltipAttribute] // RVA: 0x77D20 Offset: 0x77120 VA: 0x180077D20
-	[TOD_RangeAttribute] // RVA: 0x77D20 Offset: 0x77120 VA: 0x180077D20
+	[TooltipAttribute] // RVA: 0x77EA0 Offset: 0x772A0 VA: 0x180077EA0
+	[TOD_RangeAttribute] // RVA: 0x77EA0 Offset: 0x772A0 VA: 0x180077EA0
 	public int BlurIterations; // 0x68
-	[TooltipAttribute] // RVA: 0x85D40 Offset: 0x85140 VA: 0x180085D40
-	[TOD_MinAttribute] // RVA: 0x85D40 Offset: 0x85140 VA: 0x180085D40
+	[TooltipAttribute] // RVA: 0x85C20 Offset: 0x85020 VA: 0x180085C20
+	[TOD_MinAttribute] // RVA: 0x85C20 Offset: 0x85020 VA: 0x180085C20
 	public float BlurRadius; // 0x6C
-	[TooltipAttribute] // RVA: 0x85E60 Offset: 0x85260 VA: 0x180085E60
-	[TOD_MinAttribute] // RVA: 0x85E60 Offset: 0x85260 VA: 0x180085E60
+	[TooltipAttribute] // RVA: 0x85D70 Offset: 0x85170 VA: 0x180085D70
+	[TOD_MinAttribute] // RVA: 0x85D70 Offset: 0x85170 VA: 0x180085D70
 	public float MaxRadius; // 0x70
 	private Material scatteringMaterial; // 0x78
 	private Material screenClearMaterial; // 0x80
@@ -1517,12 +1517,12 @@ public class TOD_Scattering : TOD_ImageEffect // TypeDefIndex: 8106
 public class TOD_Shadows : TOD_ImageEffect // TypeDefIndex: 8107
 {	public Shader ShadowShader; // 0x30
 	public Texture2D CloudTexture; // 0x38
-	[HeaderAttribute] // RVA: 0x862C0 Offset: 0x856C0 VA: 0x1800862C0
-	[RangeAttribute] // RVA: 0x862C0 Offset: 0x856C0 VA: 0x1800862C0
+	[HeaderAttribute] // RVA: 0x86220 Offset: 0x85620 VA: 0x180086220
+	[RangeAttribute] // RVA: 0x86220 Offset: 0x85620 VA: 0x180086220
 	public float Cutoff; // 0x40
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float Fade; // 0x44
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float Intensity; // 0x48
 	private Material shadowMaterial; // 0x50
 
@@ -1540,19 +1540,19 @@ public class TOD_Shadows : TOD_ImageEffect // TypeDefIndex: 8107
 
 public class TOD_Sky : MonoBehaviour // TypeDefIndex: 8108
 {	private static List<TOD_Sky> instances; // 0x0
-	[TooltipAttribute] // RVA: 0x87BE0 Offset: 0x86FE0 VA: 0x180087BE0
+	[TooltipAttribute] // RVA: 0x87BD0 Offset: 0x86FD0 VA: 0x180087BD0
 	public TOD_ColorSpaceType ColorSpace; // 0x18
 	[TooltipAttribute] // RVA: 0x87E30 Offset: 0x87230 VA: 0x180087E30
 	public TOD_ColorRangeType ColorRange; // 0x1C
-	[TooltipAttribute] // RVA: 0x87F30 Offset: 0x87330 VA: 0x180087F30
+	[TooltipAttribute] // RVA: 0x87EF0 Offset: 0x872F0 VA: 0x180087EF0
 	public TOD_ColorOutputType ColorOutput; // 0x20
-	[TooltipAttribute] // RVA: 0x88230 Offset: 0x87630 VA: 0x180088230
+	[TooltipAttribute] // RVA: 0x881B0 Offset: 0x875B0 VA: 0x1800881B0
 	public TOD_SkyQualityType SkyQuality; // 0x24
-	[TooltipAttribute] // RVA: 0x882F0 Offset: 0x876F0 VA: 0x1800882F0
+	[TooltipAttribute] // RVA: 0x88230 Offset: 0x87630 VA: 0x180088230
 	public TOD_CloudQualityType CloudQuality; // 0x28
-	[TooltipAttribute] // RVA: 0x88430 Offset: 0x87830 VA: 0x180088430
+	[TooltipAttribute] // RVA: 0x88370 Offset: 0x87770 VA: 0x180088370
 	public TOD_MeshQualityType MeshQuality; // 0x2C
-	[TooltipAttribute] // RVA: 0x88590 Offset: 0x87990 VA: 0x180088590
+	[TooltipAttribute] // RVA: 0x884E0 Offset: 0x878E0 VA: 0x1800884E0
 	public TOD_StarQualityType StarQuality; // 0x30
 	public TOD_CycleParameters Cycle; // 0x38
 	public TOD_WorldParameters World; // 0x40
@@ -2056,18 +2056,18 @@ public class TOD_Sky.ReflectionProbeState // TypeDefIndex: 8109
 }
 
 public class TOD_Time : MonoBehaviour // TypeDefIndex: 8110
-{	[TooltipAttribute] // RVA: 0x90600 Offset: 0x8FA00 VA: 0x180090600
-	[TOD_MinAttribute] // RVA: 0x90600 Offset: 0x8FA00 VA: 0x180090600
+{	[TooltipAttribute] // RVA: 0x90500 Offset: 0x8F900 VA: 0x180090500
+	[TOD_MinAttribute] // RVA: 0x90500 Offset: 0x8F900 VA: 0x180090500
 	public float DayLengthInMinutes; // 0x18
-	[TooltipAttribute] // RVA: 0x90880 Offset: 0x8FC80 VA: 0x180090880
+	[TooltipAttribute] // RVA: 0x907D0 Offset: 0x8FBD0 VA: 0x1800907D0
 	public bool ProgressTime; // 0x1C
-	[TooltipAttribute] // RVA: 0x909E0 Offset: 0x8FDE0 VA: 0x1800909E0
+	[TooltipAttribute] // RVA: 0x90960 Offset: 0x8FD60 VA: 0x180090960
 	public bool UseDeviceDate; // 0x1D
-	[TooltipAttribute] // RVA: 0x90A10 Offset: 0x8FE10 VA: 0x180090A10
+	[TooltipAttribute] // RVA: 0x909D0 Offset: 0x8FDD0 VA: 0x1800909D0
 	public bool UseDeviceTime; // 0x1E
-	[TooltipAttribute] // RVA: 0x90B50 Offset: 0x8FF50 VA: 0x180090B50
+	[TooltipAttribute] // RVA: 0x90B10 Offset: 0x8FF10 VA: 0x180090B10
 	public bool UseTimeCurve; // 0x1F
-	[TooltipAttribute] // RVA: 0x90CE0 Offset: 0x900E0 VA: 0x180090CE0
+	[TooltipAttribute] // RVA: 0x90CA0 Offset: 0x900A0 VA: 0x180090CA0
 	public AnimationCurve TimeCurve; // 0x20
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Action OnSecond; // 0x28

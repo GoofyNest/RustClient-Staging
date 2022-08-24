@@ -93,20 +93,20 @@ internal class ArgInfo // TypeDefIndex: 1222
 }
 
 internal class ArgumentCache : ISerializationCallbackReceiver // TypeDefIndex: 3626
-{	[SerializeField] // RVA: 0xDF240 Offset: 0xDE640 VA: 0x1800DF240
-	[FormerlySerializedAsAttribute] // RVA: 0xDF240 Offset: 0xDE640 VA: 0x1800DF240
+{	[SerializeField] // RVA: 0xDF160 Offset: 0xDE560 VA: 0x1800DF160
+	[FormerlySerializedAsAttribute] // RVA: 0xDF160 Offset: 0xDE560 VA: 0x1800DF160
 	private Object m_ObjectArgument; // 0x10
-	[FormerlySerializedAsAttribute] // RVA: 0xDF370 Offset: 0xDE770 VA: 0x1800DF370
-	[SerializeField] // RVA: 0xDF370 Offset: 0xDE770 VA: 0x1800DF370
+	[FormerlySerializedAsAttribute] // RVA: 0xDF290 Offset: 0xDE690 VA: 0x1800DF290
+	[SerializeField] // RVA: 0xDF290 Offset: 0xDE690 VA: 0x1800DF290
 	private string m_ObjectArgumentAssemblyTypeName; // 0x18
-	[SerializeField] // RVA: 0xDF4C0 Offset: 0xDE8C0 VA: 0x1800DF4C0
-	[FormerlySerializedAsAttribute] // RVA: 0xDF4C0 Offset: 0xDE8C0 VA: 0x1800DF4C0
+	[SerializeField] // RVA: 0xDF3E0 Offset: 0xDE7E0 VA: 0x1800DF3E0
+	[FormerlySerializedAsAttribute] // RVA: 0xDF3E0 Offset: 0xDE7E0 VA: 0x1800DF3E0
 	private int m_IntArgument; // 0x20
-	[FormerlySerializedAsAttribute] // RVA: 0xDF6A0 Offset: 0xDEAA0 VA: 0x1800DF6A0
-	[SerializeField] // RVA: 0xDF6A0 Offset: 0xDEAA0 VA: 0x1800DF6A0
+	[FormerlySerializedAsAttribute] // RVA: 0xDF5F0 Offset: 0xDE9F0 VA: 0x1800DF5F0
+	[SerializeField] // RVA: 0xDF5F0 Offset: 0xDE9F0 VA: 0x1800DF5F0
 	private float m_FloatArgument; // 0x24
-	[SerializeField] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
-	[FormerlySerializedAsAttribute] // RVA: 0xDF6F0 Offset: 0xDEAF0 VA: 0x1800DF6F0
+	[SerializeField] // RVA: 0xDF640 Offset: 0xDEA40 VA: 0x1800DF640
+	[FormerlySerializedAsAttribute] // RVA: 0xDF640 Offset: 0xDEA40 VA: 0x1800DF640
 	private string m_StringArgument; // 0x28
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_BoolArgument; // 0x30

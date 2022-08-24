@@ -76,7 +76,7 @@ public class EffectsBenchmarkScene : BenchmarkScene // TypeDefIndex: 8251
 
 	public override void StartBenchmark() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA11A0 Offset: 0xA05A0 VA: 0x1800A11A0
+	[IteratorStateMachineAttribute] // RVA: 0xA1190 Offset: 0xA0590 VA: 0x1800A1190
 	private IEnumerator DoEffectBenchmark() { }
 
 	public override bool ShouldEnd() { }
@@ -264,7 +264,7 @@ public class EffectMuzzleFlash : MonoBehaviour, IEffect // TypeDefIndex: 9339
 }
 
 public static class EffectNetwork // TypeDefIndex: 9340
-{	private static Effect effect; // 0x16A0
+{	private static Effect effect; // 0x2B108DC
 
 
 	public static void OnReceivedEffect(Message msg) { }
@@ -299,7 +299,7 @@ public class EffectScaleWithCameraDistance : MonoBehaviour, IEffect // TypeDefIn
 	public float maxScale; // 0x1C
 	public float scaleStartDistance; // 0x20
 	public float scaleEndDistance; // 0x24
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool on; // 0x0
 
 
@@ -322,7 +322,7 @@ public class EffectBlood : EffectRecycle // TypeDefIndex: 9854
 }
 
 public class EffectDictionary // TypeDefIndex: 9855
-{	private static Dictionary<string, string[]> effectDictionary; // 0x1FA0
+{	private static Dictionary<string, string[]> effectDictionary; // 0x2DEB
 
 
 	public static string GetParticle(string impactType, string materialName) { }
@@ -344,11 +344,11 @@ public class EffectDictionary // TypeDefIndex: 9855
 }
 
 public class EffectRecycle : BaseMonoBehaviour, IClientComponent, IRagdollInhert, IEffectRecycle, IOnParentDestroying // TypeDefIndex: 9856
-{	[FormerlySerializedAsAttribute] // RVA: 0x9F870 Offset: 0x9EC70 VA: 0x18009F870
-	[ReadOnlyAttribute] // RVA: 0x9F870 Offset: 0x9EC70 VA: 0x18009F870
+{	[FormerlySerializedAsAttribute] // RVA: 0x9F340 Offset: 0x9E740 VA: 0x18009F340
+	[ReadOnlyAttribute] // RVA: 0x9F340 Offset: 0x9E740 VA: 0x18009F340
 	public float detachTime; // 0x18
-	[FormerlySerializedAsAttribute] // RVA: 0x9F870 Offset: 0x9EC70 VA: 0x18009F870
-	[ReadOnlyAttribute] // RVA: 0x9F870 Offset: 0x9EC70 VA: 0x18009F870
+	[FormerlySerializedAsAttribute] // RVA: 0x9F340 Offset: 0x9E740 VA: 0x18009F340
+	[ReadOnlyAttribute] // RVA: 0x9F340 Offset: 0x9E740 VA: 0x18009F340
 	public float recycleTime; // 0x1C
 	public EffectRecycle.PlayMode playMode; // 0x20
 	public EffectRecycle.ParentDestroyBehaviour onParentDestroyed; // 0x24
@@ -431,37 +431,37 @@ public class EffectRecycleLite : BasePrefab, IClientComponent, IEffectRecycle, I
 
 public class Effects : ConsoleSystem // TypeDefIndex: 11914
 {	private static int _antialiasing; // 0x0
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool ao; // 0x4
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool bloom; // 0x5
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool lensdirt; // 0x6
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool motionblur; // 0x7
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool sharpen; // 0x8
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool shafts; // 0x9
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool vignet; // 0xA
 	public const bool color = True;
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool footsteps; // 0xB
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static int maxgibs; // 0xC
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static int maxGibDist; // 0x10
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static int minGibLife; // 0x14
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static int maxGibLife; // 0x18
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool otherplayerslightflares; // 0x1C
-	[ClientVar] // RVA: 0x98470 Offset: 0x97870 VA: 0x180098470
+	[ClientVar] // RVA: 0x97B80 Offset: 0x96F80 VA: 0x180097B80
 	public static bool showoutlines; // 0x1D
 
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static int antialiasing { get; set; }
 	public static bool requireMotionVectors { get; }
 	public static Effects.AntiAliasingType AntiAliasingMode { get; set; }
@@ -479,7 +479,7 @@ public class Effects : ConsoleSystem // TypeDefIndex: 11914
 
 	public static int ClearAllGibs() { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void ClearAllGibs(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

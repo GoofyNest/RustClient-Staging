@@ -70,7 +70,7 @@ public class FrankensteinTable : StorageContainer // TypeDefIndex: 8392
 	[HideInInspector] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public List<ItemDefinition> ItemsToUse; // 0x4B0
 	public FrankensteinTableVisuals TableVisuals; // 0x4B8
-	[HeaderAttribute] // RVA: 0xDFD90 Offset: 0xDF190 VA: 0x1800DFD90
+	[HeaderAttribute] // RVA: 0xDFE10 Offset: 0xDF210 VA: 0x1800DFE10
 	public float TableDownDuration; // 0x4C0
 
 	public override bool HasMenuOptions { get; }
@@ -90,18 +90,18 @@ public class FrankensteinTable : StorageContainer // TypeDefIndex: 8392
 
 	public void Create() { }
 
-	[BaseEntity.Menu] // RVA: 0xDFE00 Offset: 0xDF200 VA: 0x1800DFE00
-	[BaseEntity.Menu.Description] // RVA: 0xDFE00 Offset: 0xDF200 VA: 0x1800DFE00
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDFE00 Offset: 0xDF200 VA: 0x1800DFE00
-	[BaseEntity.Menu.Icon] // RVA: 0xDFE00 Offset: 0xDF200 VA: 0x1800DFE00
+	[BaseEntity.Menu] // RVA: 0xDFEA0 Offset: 0xDF2A0 VA: 0x1800DFEA0
+	[BaseEntity.Menu.Description] // RVA: 0xDFEA0 Offset: 0xDF2A0 VA: 0x1800DFEA0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDFEA0 Offset: 0xDF2A0 VA: 0x1800DFEA0
+	[BaseEntity.Menu.Icon] // RVA: 0xDFEA0 Offset: 0xDF2A0 VA: 0x1800DFEA0
 	public void MenuWakeFrankenstein(BasePlayer ply) { }
 
 	public bool CanWake(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xE00E0 Offset: 0xDF4E0 VA: 0x1800E00E0
-	[BaseEntity.Menu.Description] // RVA: 0xE00E0 Offset: 0xDF4E0 VA: 0x1800E00E0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xE00E0 Offset: 0xDF4E0 VA: 0x1800E00E0
-	[BaseEntity.Menu.Icon] // RVA: 0xE00E0 Offset: 0xDF4E0 VA: 0x1800E00E0
+	[BaseEntity.Menu] // RVA: 0xE0120 Offset: 0xDF520 VA: 0x1800E0120
+	[BaseEntity.Menu.Description] // RVA: 0xE0120 Offset: 0xDF520 VA: 0x1800E0120
+	[BaseEntity.Menu.ShowIf] // RVA: 0xE0120 Offset: 0xDF520 VA: 0x1800E0120
+	[BaseEntity.Menu.Icon] // RVA: 0xE0120 Offset: 0xDF520 VA: 0x1800E0120
 	public void MenuSleepFrankenstein(BasePlayer ply) { }
 
 	public bool CanSleep(BasePlayer player) { }

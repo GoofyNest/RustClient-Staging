@@ -1,6 +1,6 @@
 public class Impostor : MonoBehaviour, IClientComponent // TypeDefIndex: 10681
 {	public ImpostorAsset asset; // 0x18
-	[HeaderAttribute] // RVA: 0xF0C30 Offset: 0xF0030 VA: 0x1800F0C30
+	[HeaderAttribute] // RVA: 0xF0410 Offset: 0xEF810 VA: 0x1800F0410
 	public GameObject reference; // 0x20
 	public float angle; // 0x28
 	public int resolution; // 0x2C

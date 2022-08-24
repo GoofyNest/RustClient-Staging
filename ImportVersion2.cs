@@ -4,13 +4,13 @@ internal class ImportVersion2 : SingletonComponent<ImportVersion2> // TypeDefInd
 
 	public void OnDisable() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD9690 Offset: 0xD8A90 VA: 0x1800D9690
+	[IteratorStateMachineAttribute] // RVA: 0xD96B0 Offset: 0xD8AB0 VA: 0x1800D96B0
 	internal IEnumerator DoImport(IWorkshopContent item, Skin skin) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD9830 Offset: 0xD8C30 VA: 0x1800D9830
+	[IteratorStateMachineAttribute] // RVA: 0xD98B0 Offset: 0xD8CB0 VA: 0x1800D98B0
 	public IEnumerator LoadItem(string Folder, string BundleName, Skin skin) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD98C0 Offset: 0xD8CC0 VA: 0x1800D98C0
+	[IteratorStateMachineAttribute] // RVA: 0xD99A0 Offset: 0xD8DA0 VA: 0x1800D99A0
 	private IEnumerator ProcessMaterial(int v, Material inputMaterial, Skin skin) { }
 
 	private Texture2D ImportTexture(string name, Material inputMaterial, Material outputMaterial, bool normal, Skin skin, int group, string targetName) { }

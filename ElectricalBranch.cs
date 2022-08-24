@@ -14,10 +14,10 @@ public class ElectricalBranch : IOEntity // TypeDefIndex: 8385
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0xDA810 Offset: 0xD9C10 VA: 0x1800DA810
-	[BaseEntity.Menu.Description] // RVA: 0xDA810 Offset: 0xD9C10 VA: 0x1800DA810
-	[BaseEntity.Menu.Icon] // RVA: 0xDA810 Offset: 0xD9C10 VA: 0x1800DA810
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDA810 Offset: 0xD9C10 VA: 0x1800DA810
+	[BaseEntity.Menu] // RVA: 0xDA860 Offset: 0xD9C60 VA: 0x1800DA860
+	[BaseEntity.Menu.Description] // RVA: 0xDA860 Offset: 0xD9C60 VA: 0x1800DA860
+	[BaseEntity.Menu.Icon] // RVA: 0xDA860 Offset: 0xD9C60 VA: 0x1800DA860
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDA860 Offset: 0xD9C60 VA: 0x1800DA860
 	public void Menu_SetBranch(BasePlayer player) { }
 
 	public bool Menu_SetBranch_ShowIf(BasePlayer player) { }

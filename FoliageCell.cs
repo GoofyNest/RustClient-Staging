@@ -14,7 +14,7 @@ public class FoliageCell // TypeDefIndex: 9868
 
 	private void Init() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA2790 Offset: 0xA1B90 VA: 0x1800A2790
+	[IteratorStateMachineAttribute] // RVA: 0x9FD80 Offset: 0x9F180 VA: 0x18009FD80
 	private IEnumerator InitAsync() { }
 
 	public bool NeedsRefresh() { }
@@ -27,7 +27,7 @@ public class FoliageCell // TypeDefIndex: 9868
 
 	public void Refresh(bool force = False) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA2820 Offset: 0xA1C20 VA: 0x1800A2820
+	[IteratorStateMachineAttribute] // RVA: 0xA1140 Offset: 0xA0540 VA: 0x1800A1140
 	public IEnumerator RefreshAsync() { }
 
 	private float CalculateLOD() { }

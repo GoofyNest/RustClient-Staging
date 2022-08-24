@@ -21,7 +21,7 @@ public class BaseFishingRod : HeldEntity // TypeDefIndex: 8513
 	public SoundDefinition strainSoundDef; // 0x258
 	public AnimationCurve strainGainCurve; // 0x260
 	public SoundDefinition tensionBreakSoundDef; // 0x268
-	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
+	[ClientVar] // RVA: 0x812A0 Offset: 0x806A0 VA: 0x1800812A0
 	public static bool ShowUI; // 0xC
 	private Vector3[] lineRendererPositionsArray; // 0x270
 	private Vector3[] lineRendererResultArray; // 0x278

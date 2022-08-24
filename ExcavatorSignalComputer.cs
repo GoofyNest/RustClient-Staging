@@ -24,10 +24,10 @@ public class ExcavatorSignalComputer : BaseCombatEntity // TypeDefIndex: 8391
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-	[BaseEntity.Menu] // RVA: 0xDF9C0 Offset: 0xDEDC0 VA: 0x1800DF9C0
-	[BaseEntity.Menu.Description] // RVA: 0xDF9C0 Offset: 0xDEDC0 VA: 0x1800DF9C0
-	[BaseEntity.Menu.Icon] // RVA: 0xDF9C0 Offset: 0xDEDC0 VA: 0x1800DF9C0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDF9C0 Offset: 0xDEDC0 VA: 0x1800DF9C0
+	[BaseEntity.Menu] // RVA: 0xDF910 Offset: 0xDED10 VA: 0x1800DF910
+	[BaseEntity.Menu.Description] // RVA: 0xDF910 Offset: 0xDED10 VA: 0x1800DF910
+	[BaseEntity.Menu.Icon] // RVA: 0xDF910 Offset: 0xDED10 VA: 0x1800DF910
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDF910 Offset: 0xDED10 VA: 0x1800DF910
 	public void Menu_Press_TrainTunnel(BasePlayer player) { }
 
 	public bool Menu_Request_Supplies_ShowIf(BasePlayer player) { }

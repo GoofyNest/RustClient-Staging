@@ -34,7 +34,7 @@ public sealed class Lightmapping.RequestLightsDelegate : MulticastDelegate // Ty
 }
 
 private sealed class Lightmapping.<>c // TypeDefIndex: 3890
-{	public static readonly Lightmapping.<>c <>9; // 0x2B117EC
+{	public static readonly Lightmapping.<>c <>9; // 0x14A20
 
 
 	private static void .cctor() { }

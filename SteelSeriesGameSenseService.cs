@@ -11,22 +11,22 @@ public class SteelSeriesGameSenseService : RestRgbService // TypeDefIndex: 7693
 	private string _gameEventEndpoint; // 0x68
 
 
-	[AsyncStateMachineAttribute] // RVA: 0xBA160 Offset: 0xB9560 VA: 0x1800BA160
+	[AsyncStateMachineAttribute] // RVA: 0xBA2B0 Offset: 0xB96B0 VA: 0x1800BA2B0
 	protected override ValueTask<bool> Initialize() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBB5C0 Offset: 0xBA9C0 VA: 0x1800BB5C0
+	[AsyncStateMachineAttribute] // RVA: 0xBB680 Offset: 0xBAA80 VA: 0x1800BB680
 	protected override ValueTask Shutdown() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBB7E0 Offset: 0xBABE0 VA: 0x1800BB7E0
+	[AsyncStateMachineAttribute] // RVA: 0xBB810 Offset: 0xBAC10 VA: 0x1800BB810
 	protected override Task SendHeartbeat() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBB980 Offset: 0xBAD80 VA: 0x1800BB980
+	[AsyncStateMachineAttribute] // RVA: 0xBB920 Offset: 0xBAD20 VA: 0x1800BB920
 	protected override Task SendStaticColor(Color color) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBBB20 Offset: 0xBAF20 VA: 0x1800BBB20
+	[AsyncStateMachineAttribute] // RVA: 0xBB9F0 Offset: 0xBADF0 VA: 0x1800BB9F0
 	protected override Task SendPulseColor(Color color, float duration) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xBBC00 Offset: 0xBB000 VA: 0x1800BBC00
+	[AsyncStateMachineAttribute] // RVA: 0xBBAD0 Offset: 0xBAED0 VA: 0x1800BBAD0
 	protected override Task SendEvent(RgbEventType type) { }
 
 	private static string TryGetMomentsEvent(RgbEventType type) { }

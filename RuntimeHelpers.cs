@@ -10,8 +10,8 @@ public static class RuntimeHelpers // TypeDefIndex: 1317
 
 	public static int GetHashCode(object o) { }
 
-	[ReliabilityContractAttribute] // RVA: 0xD9F70 Offset: 0xD9370 VA: 0x1800D9F70
-	[MonoTODOAttribute] // RVA: 0xD9F70 Offset: 0xD9370 VA: 0x1800D9F70
+	[ReliabilityContractAttribute] // RVA: 0xD9F50 Offset: 0xD9350 VA: 0x1800D9F50
+	[MonoTODOAttribute] // RVA: 0xD9F50 Offset: 0xD9350 VA: 0x1800D9F50
 	public static void PrepareConstrainedRegions() { }
 
 	public static bool IsReferenceOrContainsReferences<T>() { }

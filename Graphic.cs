@@ -1,8 +1,8 @@
 public abstract class Graphic : UIBehaviour, ICanvasElement // TypeDefIndex: 4930
 {	protected static Material s_DefaultUI; // 0x0
 	protected static Texture2D s_WhiteTexture; // 0x8
-	[FormerlySerializedAsAttribute] // RVA: 0xEA630 Offset: 0xE9A30 VA: 0x1800EA630
-	[SerializeField] // RVA: 0xEA630 Offset: 0xE9A30 VA: 0x1800EA630
+	[FormerlySerializedAsAttribute] // RVA: 0xEA6A0 Offset: 0xE9AA0 VA: 0x1800EA6A0
+	[SerializeField] // RVA: 0xEA6A0 Offset: 0xE9AA0 VA: 0x1800EA6A0
 	protected Material m_Material; // 0x18
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Color m_Color; // 0x20
@@ -119,11 +119,11 @@ public abstract class Graphic : UIBehaviour, ICanvasElement // TypeDefIndex: 493
 
 	protected static Mesh get_workerMesh() { }
 
-	[EditorBrowsableAttribute] // RVA: 0xEAB00 Offset: 0xE9F00 VA: 0x1800EAB00
-	[ObsoleteAttribute] // RVA: 0xEAB00 Offset: 0xE9F00 VA: 0x1800EAB00
+	[EditorBrowsableAttribute] // RVA: 0xEAB30 Offset: 0xE9F30 VA: 0x1800EAB30
+	[ObsoleteAttribute] // RVA: 0xEAB30 Offset: 0xE9F30 VA: 0x1800EAB30
 	protected virtual void OnFillVBO(List<UIVertex> vbo) { }
 
-	[ObsoleteAttribute] // RVA: 0xEACA0 Offset: 0xEA0A0 VA: 0x1800EACA0
+	[ObsoleteAttribute] // RVA: 0xEACD0 Offset: 0xEA0D0 VA: 0x1800EACD0
 	protected virtual void OnPopulateMesh(Mesh m) { }
 
 	protected virtual void OnPopulateMesh(VertexHelper vh) { }

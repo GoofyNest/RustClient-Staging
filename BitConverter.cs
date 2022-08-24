@@ -1,5 +1,5 @@
 public static class BitConverter // TypeDefIndex: 178
-{	public static readonly bool IsLittleEndian; // 0x12E60
+{	public static readonly bool IsLittleEndian; // 0x13E5F
 
 
 	private static bool AmILittleEndian() { }

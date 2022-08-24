@@ -23,10 +23,10 @@ public class LiquidContainer : ContainerIOEntity // TypeDefIndex: 8404
 
 	protected override bool get_DisregardGravityRestrictionsOnLiquid() { }
 
-	[BaseEntity.Menu] // RVA: 0xEA550 Offset: 0xE9950 VA: 0x1800EA550
-	[BaseEntity.Menu.Description] // RVA: 0xEA550 Offset: 0xE9950 VA: 0x1800EA550
-	[BaseEntity.Menu.Icon] // RVA: 0xEA550 Offset: 0xE9950 VA: 0x1800EA550
-	[BaseEntity.Menu.ShowIf] // RVA: 0xEA550 Offset: 0xE9950 VA: 0x1800EA550
+	[BaseEntity.Menu] // RVA: 0xEA5C0 Offset: 0xE99C0 VA: 0x1800EA5C0
+	[BaseEntity.Menu.Description] // RVA: 0xEA5C0 Offset: 0xE99C0 VA: 0x1800EA5C0
+	[BaseEntity.Menu.Icon] // RVA: 0xEA5C0 Offset: 0xE99C0 VA: 0x1800EA5C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xEA5C0 Offset: 0xE99C0 VA: 0x1800EA5C0
 	public void MenuDrink(BasePlayer player) { }
 
 	public virtual bool MenuDrink_ShowIf(BasePlayer player) { }

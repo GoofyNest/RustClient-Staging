@@ -1,11 +1,11 @@
 public class Input // TypeDefIndex: 4075
-{	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+{	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static bool anyKey { get; }
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static bool anyKeyDown { get; }
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static Vector3 mousePosition { get; }
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static Vector2 mouseScrollDelta { get; }
 	public static IMECompositionMode imeCompositionMode { get; set; }
 	public static string compositionString { get; }
@@ -16,34 +16,34 @@ public class Input // TypeDefIndex: 4075
 	public static Touch[] touches { get; }
 
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	private static bool GetKeyInt(KeyCode key) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	private static bool GetKeyUpInt(KeyCode key) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	private static bool GetKeyDownInt(KeyCode key) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static float GetAxis(string axisName) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static float GetAxisRaw(string axisName) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static bool GetButtonDown(string buttonName) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static bool GetMouseButton(int button) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static bool GetMouseButtonDown(int button) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static bool GetMouseButtonUp(int button) { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	public static Touch GetTouch(int index) { }
 
 	public static bool GetKey(KeyCode key) { }
@@ -70,13 +70,13 @@ public class Input // TypeDefIndex: 4075
 
 	public static void set_compositionCursorPos(Vector2 value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xEA680 Offset: 0xE9A80 VA: 0x1800EA680
+	[FreeFunctionAttribute] // RVA: 0xEA6F0 Offset: 0xE9AF0 VA: 0x1800EA6F0
 	public static bool get_mousePresent() { }
 
-	[FreeFunctionAttribute] // RVA: 0xEA760 Offset: 0xE9B60 VA: 0x1800EA760
+	[FreeFunctionAttribute] // RVA: 0xEA820 Offset: 0xE9C20 VA: 0x1800EA820
 	public static int get_touchCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0xEA830 Offset: 0xE9C30 VA: 0x1800EA830
+	[FreeFunctionAttribute] // RVA: 0xEA870 Offset: 0xE9C70 VA: 0x1800EA870
 	public static bool get_touchSupported() { }
 
 	public static Touch[] get_touches() { }
@@ -238,32 +238,32 @@ private sealed class Input.<>c__DisplayClass21_0 // TypeDefIndex: 6673
 }
 
 public class Input : ConsoleSystem // TypeDefIndex: 11940
-{	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+{	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool flipy; // 0x0
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool autocrouch; // 0x1
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float sensitivity; // 0x4
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float ads_sensitivity; // 0x8
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float vehicle_sensitivity; // 0xC
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool vehicle_flipy; // 0x10
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool toggleDuck; // 0x11
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool alwayssprint; // 0x12
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool toggleAds; // 0x13
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static float holdtime; // 0x14
 
 
-	[ClientVar] // RVA: 0xA7D70 Offset: 0xA7170 VA: 0x1800A7D70
+	[ClientVar] // RVA: 0xA7490 Offset: 0xA6890 VA: 0x1800A7490
 	public static string bind(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void clearbinds(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

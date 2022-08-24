@@ -8,10 +8,10 @@ public class UnhandledExceptionEventArgs : EventArgs // TypeDefIndex: 330
 
 	public void .ctor(object exception, bool isTerminating) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public object get_ExceptionObject() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public bool get_IsTerminating() { }
 
 }

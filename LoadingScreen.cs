@@ -22,11 +22,11 @@ public class LoadingScreen : SingletonComponent<LoadingScreen> // TypeDefIndex: 
 	public Texture2D defaultBackground; // 0x98
 	public GameObject pingWarning; // 0xA0
 	public RustText pingWarningText; // 0xA8
-	[TooltipAttribute] // RVA: 0x97AF0 Offset: 0x96EF0 VA: 0x180097AF0
+	[TooltipAttribute] // RVA: 0x97110 Offset: 0x96510 VA: 0x180097110
 	public int minPingDiffToShowWarning; // 0xB0
-	[TooltipAttribute] // RVA: 0x97D70 Offset: 0x97170 VA: 0x180097D70
+	[TooltipAttribute] // RVA: 0x97200 Offset: 0x96600 VA: 0x180097200
 	public float pingDiffFactorToShowWarning; // 0xB4
-	[TooltipAttribute] // RVA: 0x97E00 Offset: 0x97200 VA: 0x180097E00
+	[TooltipAttribute] // RVA: 0x97380 Offset: 0x96780 VA: 0x180097380
 	public int requiredPingSampleCount; // 0xB8
 	private string _backgroundImagePath; // 0xC0
 	private Texture2D _backgroundImage; // 0xC8
@@ -95,8 +95,8 @@ public class LoadingScreen : SingletonComponent<LoadingScreen> // TypeDefIndex: 
 
 	public void .ctor() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x98400 Offset: 0x97800 VA: 0x180098400
-	[CompilerGeneratedAttribute] // RVA: 0x98400 Offset: 0x97800 VA: 0x180098400
+	[AsyncStateMachineAttribute] // RVA: 0x97A60 Offset: 0x96E60 VA: 0x180097A60
+	[CompilerGeneratedAttribute] // RVA: 0x97A60 Offset: 0x96E60 VA: 0x180097A60
 	private void <ChooseBackgroundImage>g__PreloadBackgroundImage|56_0(string url) { }
 
 }

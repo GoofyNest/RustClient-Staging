@@ -1,11 +1,11 @@
 public class BasePet : NPCPlayer // TypeDefIndex: 8335
 {	private Option __menuOption_MenuDesignAI; // 0x7D8
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static bool queuedMovementsAllowed; // 0x0
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static bool onlyQueueBaseNavMovements; // 0x1
-	[ServerVar] // RVA: 0xBB7A0 Offset: 0xBABA0 VA: 0x1800BB7A0
-	[HelpAttribute] // RVA: 0xBB7A0 Offset: 0xBABA0 VA: 0x1800BB7A0
+	[ServerVar] // RVA: 0xBB7D0 Offset: 0xBABD0 VA: 0x1800BB7D0
+	[HelpAttribute] // RVA: 0xBB7D0 Offset: 0xBABD0 VA: 0x1800BB7D0
 	public static float movementupdatebudgetms; // 0x4
 	public float BaseAttackRate; // 0x830
 	public float BaseAttackDamge; // 0x834
@@ -35,9 +35,9 @@ public class BasePet : NPCPlayer // TypeDefIndex: 8335
 
 	public override float MaxHealth() { }
 
-	[BaseEntity.Menu] // RVA: 0x83320 Offset: 0x82720 VA: 0x180083320
-	[BaseEntity.Menu.Description] // RVA: 0x83320 Offset: 0x82720 VA: 0x180083320
-	[BaseEntity.Menu.ShowIf] // RVA: 0x83320 Offset: 0x82720 VA: 0x180083320
+	[BaseEntity.Menu] // RVA: 0x83260 Offset: 0x82660 VA: 0x180083260
+	[BaseEntity.Menu.Description] // RVA: 0x83260 Offset: 0x82660 VA: 0x180083260
+	[BaseEntity.Menu.ShowIf] // RVA: 0x83260 Offset: 0x82660 VA: 0x180083260
 	public void MenuDesignAI(BasePlayer ply) { }
 
 	public bool CanDesignAI(BasePlayer player) { }

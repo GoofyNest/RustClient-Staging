@@ -10,7 +10,7 @@ public struct AnimatorClipInfo // TypeDefIndex: 4484
 
 	public float get_weight() { }
 
-	[FreeFunctionAttribute] // RVA: 0xC9940 Offset: 0xC8D40 VA: 0x1800C9940
+	[FreeFunctionAttribute] // RVA: 0xC9860 Offset: 0xC8C60 VA: 0x1800C9860
 	private static AnimationClip InstanceIDToAnimationClipPPtr(int instanceID) { }
 
 }

@@ -13,11 +13,11 @@ public class SlotMachinePayoutSettings : ScriptableObject // TypeDefIndex: 8750
 
 public struct SlotMachinePayoutSettings.PayoutInfo // TypeDefIndex: 8751
 {	public ItemAmount Item; // 0x0
-	[RangeAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[RangeAttribute] // RVA: 0x9E930 Offset: 0x9DD30 VA: 0x18009E930
 	public int Result1; // 0x8
-	[RangeAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[RangeAttribute] // RVA: 0x9E930 Offset: 0x9DD30 VA: 0x18009E930
 	public int Result2; // 0xC
-	[RangeAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[RangeAttribute] // RVA: 0x9E930 Offset: 0x9DD30 VA: 0x18009E930
 	public int Result3; // 0x10
 	public GameObjectRef OverrideWinEffect; // 0x18
 
@@ -25,7 +25,7 @@ public struct SlotMachinePayoutSettings.PayoutInfo // TypeDefIndex: 8751
 
 public struct SlotMachinePayoutSettings.IndividualPayouts // TypeDefIndex: 8752
 {	public ItemAmount Item; // 0x0
-	[RangeAttribute] // RVA: 0x9E9F0 Offset: 0x9DDF0 VA: 0x18009E9F0
+	[RangeAttribute] // RVA: 0x9E930 Offset: 0x9DD30 VA: 0x18009E930
 	public int Result; // 0x8
 
 }

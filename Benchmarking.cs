@@ -15,22 +15,22 @@ public static class Benchmarking // TypeDefIndex: 8261
 
 	public static bool get_IsAutoBenchmark() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3060 Offset: 0xA2460 VA: 0x1800A3060
+	[AsyncStateMachineAttribute] // RVA: 0xA30A0 Offset: 0xA24A0 VA: 0x1800A30A0
 	public static Task RunAsync(string demoName, bool runBenchmarkScenes = True) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3130 Offset: 0xA2530 VA: 0x1800A3130
+	[AsyncStateMachineAttribute] // RVA: 0xA3120 Offset: 0xA2520 VA: 0x1800A3120
 	public static Task RunSingleSceneAsync(string scene) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA32A0 Offset: 0xA26A0 VA: 0x1800A32A0
+	[AsyncStateMachineAttribute] // RVA: 0xA3250 Offset: 0xA2650 VA: 0x1800A3250
 	private static Task RunBenchmarkScene(string scene) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3440 Offset: 0xA2840 VA: 0x1800A3440
+	[AsyncStateMachineAttribute] // RVA: 0xA33A0 Offset: 0xA27A0 VA: 0x1800A33A0
 	public static Task RunBenchmarksInScene() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3510 Offset: 0xA2910 VA: 0x1800A3510
+	[AsyncStateMachineAttribute] // RVA: 0xA3460 Offset: 0xA2860 VA: 0x1800A3460
 	private static Task Report() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA35D0 Offset: 0xA29D0 VA: 0x1800A35D0
+	[AsyncStateMachineAttribute] // RVA: 0xA34E0 Offset: 0xA28E0 VA: 0x1800A34E0
 	private static Task RunDemoBasedBenchmark(string demoName, string benchmarkLabel = "") { }
 
 	private static void RecordBundleSizes() { }

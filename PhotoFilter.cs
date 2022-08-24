@@ -1,6 +1,6 @@
 public class PhotoFilter : PostProcessEffectSettings // TypeDefIndex: 10267
 {	public ColorParameter color; // 0x30
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public FloatParameter density; // 0x38
 
 

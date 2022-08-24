@@ -114,7 +114,7 @@ public class HttpWebRequest : WebRequest, ISerializable // TypeDefIndex: 3006
 
 	public void .ctor(Uri uri) { }
 
-	[ObsoleteAttribute] // RVA: 0xB7000 Offset: 0xB6400 VA: 0x1800B7000
+	[ObsoleteAttribute] // RVA: 0xB70B0 Offset: 0xB64B0 VA: 0x1800B70B0
 	protected void .ctor(SerializationInfo serializationInfo, StreamingContext streamingContext) { }
 
 	private void ResetAuthorization() { }
@@ -318,8 +318,8 @@ public class HttpWebRequest : WebRequest, ISerializable // TypeDefIndex: 3006
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <SetWriteStreamInner>b__259_0(SimpleAsyncResult result) { }
 
-	[EditorBrowsableAttribute] // RVA: 0xB88F0 Offset: 0xB7CF0 VA: 0x1800B88F0
-	[ObsoleteAttribute] // RVA: 0xB88F0 Offset: 0xB7CF0 VA: 0x1800B88F0
+	[EditorBrowsableAttribute] // RVA: 0xB8870 Offset: 0xB7C70 VA: 0x1800B8870
+	[ObsoleteAttribute] // RVA: 0xB8870 Offset: 0xB7C70 VA: 0x1800B8870
 	public void .ctor() { }
 
 }

@@ -1,6 +1,6 @@
 public sealed class SecurityPermission : CodeAccessPermission // TypeDefIndex: 916
 {
-[ComVisibleAttribute] // RVA: 0x760F0 Offset: 0x754F0 VA: 0x1800760F0
+[ComVisibleAttribute] // RVA: 0x760B0 Offset: 0x754B0 VA: 0x1800760B0
 [Serializable]
 public sealed class SecurityPermission : CodeAccessPermission // TypeDefIndex: 916
 	private SecurityPermissionFlag flags; // 0x10

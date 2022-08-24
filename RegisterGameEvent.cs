@@ -8,13 +8,13 @@ internal struct RegisterGameEvent // TypeDefIndex: 7709
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool <ValueOptional>k__BackingField; // 0x14
 
-	[JsonPropertyAttribute] // RVA: 0xC0DA0 Offset: 0xC01A0 VA: 0x1800C0DA0
+	[JsonPropertyAttribute] // RVA: 0xC0F10 Offset: 0xC0310 VA: 0x1800C0F10
 	public string GameId { get; set; }
-	[JsonPropertyAttribute] // RVA: 0xC0FC0 Offset: 0xC03C0 VA: 0x1800C0FC0
+	[JsonPropertyAttribute] // RVA: 0xC10B0 Offset: 0xC04B0 VA: 0x1800C10B0
 	public string Event { get; set; }
-	[JsonPropertyAttribute] // RVA: 0xC5870 Offset: 0xC4C70 VA: 0x1800C5870
+	[JsonPropertyAttribute] // RVA: 0xC5840 Offset: 0xC4C40 VA: 0x1800C5840
 	public int IconId { get; set; }
-	[JsonPropertyAttribute] // RVA: 0xC5A00 Offset: 0xC4E00 VA: 0x1800C5A00
+	[JsonPropertyAttribute] // RVA: 0xC59A0 Offset: 0xC4DA0 VA: 0x1800C59A0
 	public bool ValueOptional { get; set; }
 
 

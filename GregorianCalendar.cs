@@ -4,9 +4,9 @@ public class GregorianCalendar : Calendar // TypeDefIndex: 702
 	internal static readonly int[] DaysToMonth366; // 0x8
 	private static Calendar s_defaultInstance; // 0x10
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public override DateTime MinSupportedDateTime { get; }
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public override DateTime MaxSupportedDateTime { get; }
 	internal override int ID { get; }
 	public override int[] Eras { get; }

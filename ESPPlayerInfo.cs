@@ -11,8 +11,8 @@ public class ESPPlayerInfo : MonoBehaviour // TypeDefIndex: 12010
 	public QueryVis visCheck; // 0x80
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private BasePlayer <Entity>k__BackingField; // 0x88
-	[ClientVar] // RVA: 0xCC1E0 Offset: 0xCB5E0 VA: 0x1800CC1E0
-	[HelpAttribute] // RVA: 0xCC1E0 Offset: 0xCB5E0 VA: 0x1800CC1E0
+	[ClientVar] // RVA: 0xCB800 Offset: 0xCAC00 VA: 0x1800CB800
+	[HelpAttribute] // RVA: 0xCB800 Offset: 0xCAC00 VA: 0x1800CB800
 	public static float framebudgetms; // 0x0
 	private bool inQueue; // 0x90
 	public static ESPPlayerInfo.ESPWorkQueue workQueue; // 0x8

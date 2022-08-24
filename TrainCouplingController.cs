@@ -8,7 +8,7 @@ public class TrainCouplingController // TypeDefIndex: 9771
 	public readonly TrainCoupling frontCoupling; // 0x18
 	public readonly TrainCoupling rearCoupling; // 0x20
 	private readonly TrainCar owner; // 0x28
-	[ServerVar] // RVA: 0x95950 Offset: 0x94D50 VA: 0x180095950
+	[ServerVar] // RVA: 0x959F0 Offset: 0x94DF0 VA: 0x1800959F0
 	public static float max_couple_speed; // 0x0
 
 	public bool IsCoupled { get; }

@@ -125,10 +125,10 @@ public abstract class BaseNetworkable : BaseMonoBehaviour, IPrefabPostProcess, I
 	public EntityRef parentEntity; // 0x30
 	public readonly List<BaseEntity> children; // 0x40
 	public bool canTriggerParent; // 0x48
-	[HeaderAttribute] // RVA: 0x72370 Offset: 0x71770 VA: 0x180072370
-	[ReadOnlyAttribute] // RVA: 0x72370 Offset: 0x71770 VA: 0x180072370
+	[HeaderAttribute] // RVA: 0x72510 Offset: 0x71910 VA: 0x180072510
+	[ReadOnlyAttribute] // RVA: 0x72510 Offset: 0x71910 VA: 0x180072510
 	public uint prefabID; // 0x4C
-	[TooltipAttribute] // RVA: 0x72590 Offset: 0x71990 VA: 0x180072590
+	[TooltipAttribute] // RVA: 0x726E0 Offset: 0x71AE0 VA: 0x1800726E0
 	public bool globalBroadcast; // 0x50
 	public Networkable net; // 0x58
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

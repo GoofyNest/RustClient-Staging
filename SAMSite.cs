@@ -78,7 +78,7 @@ public class SamSite : ContainerIOEntity // TypeDefIndex: 8441
 	public bool staticRespawn; // 0x490
 	public ItemDefinition ammoType; // 0x498
 	public Transform[] tubes; // 0x4A0
-	[ServerVar] // RVA: 0x81930 Offset: 0x80D30 VA: 0x180081930
+	[ServerVar] // RVA: 0x818B0 Offset: 0x80CB0 VA: 0x1800818B0
 	public static float staticrepairseconds; // 0x0
 	public SoundDefinition yawMovementLoopDef; // 0x4A8
 	public float yawGainLerp; // 0x4B0
@@ -122,18 +122,18 @@ public class SamSite : ContainerIOEntity // TypeDefIndex: 8441
 
 	protected override void DoClientDestroy() { }
 
-	[BaseEntity.Menu] // RVA: 0x81A10 Offset: 0x80E10 VA: 0x180081A10
-	[BaseEntity.Menu.Description] // RVA: 0x81A10 Offset: 0x80E10 VA: 0x180081A10
-	[BaseEntity.Menu.Icon] // RVA: 0x81A10 Offset: 0x80E10 VA: 0x180081A10
-	[BaseEntity.Menu.ShowIf] // RVA: 0x81A10 Offset: 0x80E10 VA: 0x180081A10
+	[BaseEntity.Menu] // RVA: 0x81950 Offset: 0x80D50 VA: 0x180081950
+	[BaseEntity.Menu.Description] // RVA: 0x81950 Offset: 0x80D50 VA: 0x180081950
+	[BaseEntity.Menu.Icon] // RVA: 0x81950 Offset: 0x80D50 VA: 0x180081950
+	[BaseEntity.Menu.ShowIf] // RVA: 0x81950 Offset: 0x80D50 VA: 0x180081950
 	private void Menu_EnableDefenderMode(BasePlayer player) { }
 
 	private bool Menu_EnableDefenderMode_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x81CC0 Offset: 0x810C0 VA: 0x180081CC0
-	[BaseEntity.Menu.Description] // RVA: 0x81CC0 Offset: 0x810C0 VA: 0x180081CC0
-	[BaseEntity.Menu.Icon] // RVA: 0x81CC0 Offset: 0x810C0 VA: 0x180081CC0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x81CC0 Offset: 0x810C0 VA: 0x180081CC0
+	[BaseEntity.Menu] // RVA: 0x81B90 Offset: 0x80F90 VA: 0x180081B90
+	[BaseEntity.Menu.Description] // RVA: 0x81B90 Offset: 0x80F90 VA: 0x180081B90
+	[BaseEntity.Menu.Icon] // RVA: 0x81B90 Offset: 0x80F90 VA: 0x180081B90
+	[BaseEntity.Menu.ShowIf] // RVA: 0x81B90 Offset: 0x80F90 VA: 0x180081B90
 	private void Menu_DisableDefenderMode(BasePlayer player) { }
 
 	private bool Menu_DisableDefenderMode_ShowIf(BasePlayer player) { }

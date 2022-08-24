@@ -38,7 +38,7 @@ public class PhysicsRaycaster : BaseRaycaster // TypeDefIndex: 5093
 }
 
 private class PhysicsRaycaster.RaycastHitComparer : IComparer<RaycastHit> // TypeDefIndex: 5094
-{	public static PhysicsRaycaster.RaycastHitComparer instance; // 0x129AB
+{	public static PhysicsRaycaster.RaycastHitComparer instance; // 0x2B10760
 
 
 	public int Compare(RaycastHit x, RaycastHit y) { }

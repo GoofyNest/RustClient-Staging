@@ -196,7 +196,7 @@ public class VendingMachine : StorageContainer // TypeDefIndex: 8484
 	private Option __menuOption_Menu_OpenAdmin; // 0x480
 	private Option __menuOption_Menu_RotateVM; // 0x4D8
 	private Option __menuOption_Menu_Shop; // 0x530
-	[HeaderAttribute] // RVA: 0x9AA00 Offset: 0x99E00 VA: 0x18009AA00
+	[HeaderAttribute] // RVA: 0x9A970 Offset: 0x99D70 VA: 0x18009A970
 	public static readonly Translate.Phrase WaitForVendingMessage; // 0x0
 	public GameObjectRef adminMenuPrefab; // 0x588
 	public string customerPanel; // 0x590
@@ -233,10 +233,10 @@ public class VendingMachine : StorageContainer // TypeDefIndex: 8484
 
 	public override bool ShouldShowLootMenus() { }
 
-	[BaseEntity.Menu] // RVA: 0x9AD00 Offset: 0x9A100 VA: 0x18009AD00
-	[BaseEntity.Menu.Description] // RVA: 0x9AD00 Offset: 0x9A100 VA: 0x18009AD00
-	[BaseEntity.Menu.Icon] // RVA: 0x9AD00 Offset: 0x9A100 VA: 0x18009AD00
-	[BaseEntity.Menu.ShowIf] // RVA: 0x9AD00 Offset: 0x9A100 VA: 0x18009AD00
+	[BaseEntity.Menu] // RVA: 0x9AD10 Offset: 0x9A110 VA: 0x18009AD10
+	[BaseEntity.Menu.Description] // RVA: 0x9AD10 Offset: 0x9A110 VA: 0x18009AD10
+	[BaseEntity.Menu.Icon] // RVA: 0x9AD10 Offset: 0x9A110 VA: 0x18009AD10
+	[BaseEntity.Menu.ShowIf] // RVA: 0x9AD10 Offset: 0x9A110 VA: 0x18009AD10
 	public void Menu_Shop(BasePlayer player) { }
 
 	public bool Menu_Shop_ShowIf(BasePlayer player) { }
@@ -249,26 +249,26 @@ public class VendingMachine : StorageContainer // TypeDefIndex: 8484
 
 	public bool Menu_OpenAdmin_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x9B0D0 Offset: 0x9A4D0 VA: 0x18009B0D0
-	[BaseEntity.Menu.Description] // RVA: 0x9B0D0 Offset: 0x9A4D0 VA: 0x18009B0D0
-	[BaseEntity.Menu.Icon] // RVA: 0x9B0D0 Offset: 0x9A4D0 VA: 0x18009B0D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x9B0D0 Offset: 0x9A4D0 VA: 0x18009B0D0
+	[BaseEntity.Menu] // RVA: 0x9B190 Offset: 0x9A590 VA: 0x18009B190
+	[BaseEntity.Menu.Description] // RVA: 0x9B190 Offset: 0x9A590 VA: 0x18009B190
+	[BaseEntity.Menu.Icon] // RVA: 0x9B190 Offset: 0x9A590 VA: 0x18009B190
+	[BaseEntity.Menu.ShowIf] // RVA: 0x9B190 Offset: 0x9A590 VA: 0x18009B190
 	public void Menu_BroadcastOn(BasePlayer player) { }
 
 	public bool Menu_Broadcast_On_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x9B430 Offset: 0x9A830 VA: 0x18009B430
-	[BaseEntity.Menu.Description] // RVA: 0x9B430 Offset: 0x9A830 VA: 0x18009B430
-	[BaseEntity.Menu.Icon] // RVA: 0x9B430 Offset: 0x9A830 VA: 0x18009B430
-	[BaseEntity.Menu.ShowIf] // RVA: 0x9B430 Offset: 0x9A830 VA: 0x18009B430
+	[BaseEntity.Menu] // RVA: 0x9B420 Offset: 0x9A820 VA: 0x18009B420
+	[BaseEntity.Menu.Description] // RVA: 0x9B420 Offset: 0x9A820 VA: 0x18009B420
+	[BaseEntity.Menu.Icon] // RVA: 0x9B420 Offset: 0x9A820 VA: 0x18009B420
+	[BaseEntity.Menu.ShowIf] // RVA: 0x9B420 Offset: 0x9A820 VA: 0x18009B420
 	public void Menu_BroadcastOff(BasePlayer player) { }
 
 	public bool Menu_Broadcast_Off_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x9B6C0 Offset: 0x9AAC0 VA: 0x18009B6C0
-	[BaseEntity.Menu.Description] // RVA: 0x9B6C0 Offset: 0x9AAC0 VA: 0x18009B6C0
-	[BaseEntity.Menu.Icon] // RVA: 0x9B6C0 Offset: 0x9AAC0 VA: 0x18009B6C0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x9B6C0 Offset: 0x9AAC0 VA: 0x18009B6C0
+	[BaseEntity.Menu] // RVA: 0x9B600 Offset: 0x9AA00 VA: 0x18009B600
+	[BaseEntity.Menu.Description] // RVA: 0x9B600 Offset: 0x9AA00 VA: 0x18009B600
+	[BaseEntity.Menu.Icon] // RVA: 0x9B600 Offset: 0x9AA00 VA: 0x18009B600
+	[BaseEntity.Menu.ShowIf] // RVA: 0x9B600 Offset: 0x9AA00 VA: 0x18009B600
 	public void Menu_RotateVM(BasePlayer player) { }
 
 	public virtual bool Menu_RotateVM_ShowIf(BasePlayer player) { }

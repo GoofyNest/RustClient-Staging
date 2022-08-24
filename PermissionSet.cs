@@ -36,13 +36,13 @@ public class PermissionSet : ISecurityEncodable, ICollection, IEnumerable, IDese
 
 	public virtual object get_SyncRoot() { }
 
-	[MonoTODOAttribute] // RVA: 0xC1B70 Offset: 0xC0F70 VA: 0x1800C1B70
+	[MonoTODOAttribute] // RVA: 0xC1BD0 Offset: 0xC0FD0 VA: 0x1800C1BD0
 	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public override bool Equals(object obj) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public override int GetHashCode() { }
 
 	private static void .cctor() { }

@@ -12,7 +12,7 @@ public class VitalInfo : MonoBehaviour, IClientComponent, IVitalNotice // TypeDe
 
 	public void Refresh() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA30B0 Offset: 0xA24B0 VA: 0x1800A30B0
+	[IteratorStateMachineAttribute] // RVA: 0xA2D50 Offset: 0xA2150 VA: 0x1800A2D50
 	private IEnumerator FlashInfoIcon(int count, float interval) { }
 
 	private void Hide() { }

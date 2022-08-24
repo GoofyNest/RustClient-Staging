@@ -1,11 +1,11 @@
 public class Env : ConsoleSystem // TypeDefIndex: 11925
-{	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+{	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool cloudmovement { get; set; }
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static float cloudrotation { get; set; }
-	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
+	[ClientVar] // RVA: 0x812A0 Offset: 0x806A0 VA: 0x1800812A0
 	public static float skyrotation { get; set; }
-	[ReplicatedVar] // RVA: 0x9AE90 Offset: 0x9A290 VA: 0x18009AE90
+	[ReplicatedVar] // RVA: 0x9A6B0 Offset: 0x99AB0 VA: 0x18009A6B0
 	public static float oceanlevel { get; set; }
 
 

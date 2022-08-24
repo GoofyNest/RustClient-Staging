@@ -1,5 +1,5 @@
 public static class Parallel // TypeDefIndex: 5599
-{	public static int MaxThreads; // 0x2B117D0
+{	public static int MaxThreads; // 0x3450
 
 
 	public static void ForEach<T>(IList<T> data, Action<T> action) { }
@@ -22,7 +22,7 @@ public static class Parallel // TypeDefIndex: 5599
 
 	public static void Call(int threads, Action<int, int> action) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xB6A00 Offset: 0xB5E00 VA: 0x1800B6A00
+	[IteratorStateMachineAttribute] // RVA: 0xB6A60 Offset: 0xB5E60 VA: 0x1800B6A60
 	public static IEnumerator Coroutine(Action action) { }
 
 	private static void .cctor() { }

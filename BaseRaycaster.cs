@@ -2,7 +2,7 @@ public abstract class BaseRaycaster : UIBehaviour // TypeDefIndex: 5091
 {	private BaseRaycaster m_RootRaycaster; // 0x18
 
 	public abstract Camera eventCamera { get; }
-	[ObsoleteAttribute] // RVA: 0x892D0 Offset: 0x886D0 VA: 0x1800892D0
+	[ObsoleteAttribute] // RVA: 0x89270 Offset: 0x88670 VA: 0x180089270
 	public virtual int priority { get; }
 	public virtual int sortOrderPriority { get; }
 	public virtual int renderOrderPriority { get; }

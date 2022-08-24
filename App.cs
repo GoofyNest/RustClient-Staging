@@ -100,7 +100,7 @@ public sealed class AppDomain : MarshalByRefObject // TypeDefIndex: 337
 
 	internal Assembly LoadSatellite(AssemblyName assemblyRef, bool throwOnError) { }
 
-	[ObsoleteAttribute] // RVA: 0x8C8B0 Offset: 0x8BCB0 VA: 0x18008C8B0
+	[ObsoleteAttribute] // RVA: 0x8C780 Offset: 0x8BB80 VA: 0x18008C780
 	public Assembly Load(AssemblyName assemblyRef, Evidence assemblySecurity) { }
 
 	public Assembly Load(string assemblyString) { }
@@ -133,7 +133,7 @@ public sealed class AppDomain : MarshalByRefObject // TypeDefIndex: 337
 
 	private int getDomainID() { }
 
-	[ObsoleteAttribute] // RVA: 0x8C9D0 Offset: 0x8BDD0 VA: 0x18008C9D0
+	[ObsoleteAttribute] // RVA: 0x8C8A0 Offset: 0x8BCA0 VA: 0x18008C8A0
 	public static int GetCurrentThreadId() { }
 
 	public override string ToString() { }
@@ -225,22 +225,22 @@ internal class AppDomainLevelActivator : IActivator // TypeDefIndex: 1203
 }
 
 public class Application // TypeDefIndex: 3354
-{	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+{	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static Application.LowMemoryCallback lowMemory; // 0x0
 	private static Application.LogCallback s_LogCallbackHandler; // 0x8
 	private static Application.LogCallback s_LogCallbackHandlerThreaded; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private static Action<bool> focusChanged; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private static Action<string> deepLinkActivated; // 0x20
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static Func<bool> wantsToQuit; // 0x28
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static Action quitting; // 0x30
 
 	public static bool isPlaying { get; }
@@ -258,73 +258,73 @@ public class Application // TypeDefIndex: 3354
 	public static bool isMobilePlatform { get; }
 	public static SystemLanguage systemLanguage { get; }
 	public static NetworkReachability internetReachability { get; }
-	[ObsoleteAttribute] // RVA: 0x75790 Offset: 0x74B90 VA: 0x180075790
+	[ObsoleteAttribute] // RVA: 0x75840 Offset: 0x74C40 VA: 0x180075840
 	public static string loadedLevelName { get; }
 	public static bool isEditor { get; }
 
 
-	[FreeFunctionAttribute] // RVA: 0x70EB0 Offset: 0x702B0 VA: 0x180070EB0
+	[FreeFunctionAttribute] // RVA: 0x70FB0 Offset: 0x703B0 VA: 0x180070FB0
 	public static void Quit(int exitCode) { }
 
 	public static void Quit() { }
 
-	[FreeFunctionAttribute] // RVA: 0x71000 Offset: 0x70400 VA: 0x180071000
+	[FreeFunctionAttribute] // RVA: 0x710B0 Offset: 0x704B0 VA: 0x1800710B0
 	public static bool CanStreamedLevelBeLoaded(string levelName) { }
 
-	[FreeFunctionAttribute] // RVA: 0x71120 Offset: 0x70520 VA: 0x180071120
+	[FreeFunctionAttribute] // RVA: 0x71270 Offset: 0x70670 VA: 0x180071270
 	public static bool get_isPlaying() { }
 
-	[FreeFunctionAttribute] // RVA: 0x71200 Offset: 0x70600 VA: 0x180071200
+	[FreeFunctionAttribute] // RVA: 0x71350 Offset: 0x70750 VA: 0x180071350
 	public static string get_dataPath() { }
 
-	[FreeFunctionAttribute] // RVA: 0x71310 Offset: 0x70710 VA: 0x180071310
+	[FreeFunctionAttribute] // RVA: 0x71440 Offset: 0x70840 VA: 0x180071440
 	public static string get_streamingAssetsPath() { }
 
-	[FreeFunctionAttribute] // RVA: 0x71450 Offset: 0x70850 VA: 0x180071450
+	[FreeFunctionAttribute] // RVA: 0x71560 Offset: 0x70960 VA: 0x180071560
 	public static string get_persistentDataPath() { }
 
-	[FreeFunctionAttribute] // RVA: 0x715E0 Offset: 0x709E0 VA: 0x1800715E0
+	[FreeFunctionAttribute] // RVA: 0x716D0 Offset: 0x70AD0 VA: 0x1800716D0
 	public static string get_unityVersion() { }
 
-	[FreeFunctionAttribute] // RVA: 0x71750 Offset: 0x70B50 VA: 0x180071750
+	[FreeFunctionAttribute] // RVA: 0x71840 Offset: 0x70C40 VA: 0x180071840
 	public static string get_version() { }
 
-	[FreeFunctionAttribute] // RVA: 0x71830 Offset: 0x70C30 VA: 0x180071830
+	[FreeFunctionAttribute] // RVA: 0x71960 Offset: 0x70D60 VA: 0x180071960
 	public static string get_companyName() { }
 
-	[FreeFunctionAttribute] // RVA: 0x719F0 Offset: 0x70DF0 VA: 0x1800719F0
+	[FreeFunctionAttribute] // RVA: 0x71AB0 Offset: 0x70EB0 VA: 0x180071AB0
 	public static void OpenURL(string url) { }
 
-	[FreeFunctionAttribute] // RVA: 0x71AD0 Offset: 0x70ED0 VA: 0x180071AD0
+	[FreeFunctionAttribute] // RVA: 0x71B90 Offset: 0x70F90 VA: 0x180071B90
 	public static int get_targetFrameRate() { }
 
-	[FreeFunctionAttribute] // RVA: 0x71BE0 Offset: 0x70FE0 VA: 0x180071BE0
+	[FreeFunctionAttribute] // RVA: 0x71D30 Offset: 0x71130 VA: 0x180071D30
 	public static void set_targetFrameRate(int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x71D70 Offset: 0x71170 VA: 0x180071D70
+	[FreeFunctionAttribute] // RVA: 0x71E40 Offset: 0x71240 VA: 0x180071E40
 	private static void SetLogCallbackDefined(bool defined) { }
 
-	[FreeFunctionAttribute] // RVA: 0x71F30 Offset: 0x71330 VA: 0x180071F30
+	[FreeFunctionAttribute] // RVA: 0x71FC0 Offset: 0x713C0 VA: 0x180071FC0
 	public static StackTraceLogType GetStackTraceLogType(LogType logType) { }
 
-	[FreeFunctionAttribute] // RVA: 0x71F90 Offset: 0x71390 VA: 0x180071F90
+	[FreeFunctionAttribute] // RVA: 0x720D0 Offset: 0x714D0 VA: 0x1800720D0
 	public static void SetStackTraceLogType(LogType logType, StackTraceLogType stackTraceType) { }
 
-	[FreeFunctionAttribute] // RVA: 0x721F0 Offset: 0x715F0 VA: 0x1800721F0
+	[FreeFunctionAttribute] // RVA: 0x72360 Offset: 0x71760 VA: 0x180072360
 	public static string get_consoleLogPath() { }
 
-	[FreeFunctionAttribute] // RVA: 0x72340 Offset: 0x71740 VA: 0x180072340
+	[FreeFunctionAttribute] // RVA: 0x72490 Offset: 0x71890 VA: 0x180072490
 	public static void set_backgroundLoadingPriority(ThreadPriority value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x724C0 Offset: 0x718C0 VA: 0x1800724C0
+	[FreeFunctionAttribute] // RVA: 0x72670 Offset: 0x71A70 VA: 0x180072670
 	public static RuntimePlatform get_platform() { }
 
 	public static bool get_isMobilePlatform() { }
 
-	[FreeFunctionAttribute] // RVA: 0x72650 Offset: 0x71A50 VA: 0x180072650
+	[FreeFunctionAttribute] // RVA: 0x72740 Offset: 0x71B40 VA: 0x180072740
 	public static SystemLanguage get_systemLanguage() { }
 
-	[FreeFunctionAttribute] // RVA: 0x73AB0 Offset: 0x72EB0 VA: 0x180073AB0
+	[FreeFunctionAttribute] // RVA: 0x73C00 Offset: 0x73000 VA: 0x180073C00
 	public static NetworkReachability get_internetReachability() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -397,7 +397,7 @@ public struct AppId // TypeDefIndex: 5235
 }
 
 internal struct AppResumingFromSuspend_t : ICallbackData // TypeDefIndex: 5333
-{	public static int _datasize; // 0x12AF0
+{	public static int _datasize; // 0x13BA8
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }
@@ -2489,7 +2489,7 @@ public enum AppCategory // TypeDefIndex: 7672
 }
 
 public static class Approved // TypeDefIndex: 7722
-{	private static Dictionary<ulong, ApprovedSkinInfo> _all; // 0x17E0
+{	private static Dictionary<ulong, ApprovedSkinInfo> _all; // 0x2056
 
 	public static IReadOnlyDictionary<ulong, ApprovedSkinInfo> All { get; }
 
@@ -3297,10 +3297,10 @@ public abstract class AppIOEntity : IOEntity // TypeDefIndex: 8306
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.Menu] // RVA: 0xB0630 Offset: 0xAFA30 VA: 0x1800B0630
-	[BaseEntity.Menu.Description] // RVA: 0xB0630 Offset: 0xAFA30 VA: 0x1800B0630
-	[BaseEntity.Menu.Icon] // RVA: 0xB0630 Offset: 0xAFA30 VA: 0x1800B0630
-	[BaseEntity.Menu.ShowIf] // RVA: 0xB0630 Offset: 0xAFA30 VA: 0x1800B0630
+	[BaseEntity.Menu] // RVA: 0xB0660 Offset: 0xAFA60 VA: 0x1800B0660
+	[BaseEntity.Menu.Description] // RVA: 0xB0660 Offset: 0xAFA60 VA: 0x1800B0660
+	[BaseEntity.Menu.Icon] // RVA: 0xB0660 Offset: 0xAFA60 VA: 0x1800B0660
+	[BaseEntity.Menu.ShowIf] // RVA: 0xB0660 Offset: 0xAFA60 VA: 0x1800B0660
 	public void Menu_Pair(BasePlayer player) { }
 
 	public bool Menu_ShowIf(BasePlayer player) { }
@@ -3343,25 +3343,25 @@ public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 11139
 }
 
 public class App : ConsoleSystem // TypeDefIndex: 11886
-{	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+{	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static string listenip; // 0x0
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static int port; // 0x8
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static string publicip; // 0x10
-	[ServerVar] // RVA: 0x86870 Offset: 0x85C70 VA: 0x180086870
+	[ServerVar] // RVA: 0x85F80 Offset: 0x85380 VA: 0x180085F80
 	public static bool update; // 0x18
-	[ServerVar] // RVA: 0x87C10 Offset: 0x87010 VA: 0x180087C10
+	[ServerVar] // RVA: 0x86060 Offset: 0x85460 VA: 0x180086060
 	public static bool notifications; // 0x19
-	[ServerVar] // RVA: 0x87E60 Offset: 0x87260 VA: 0x180087E60
+	[ServerVar] // RVA: 0x862C0 Offset: 0x856C0 VA: 0x1800862C0
 	public static int queuelimit; // 0x1C
-	[ReplicatedVar] // RVA: 0x87F60 Offset: 0x87360 VA: 0x180087F60
+	[ReplicatedVar] // RVA: 0x86330 Offset: 0x85730 VA: 0x180086330
 	public static string serverid; // 0x20
-	[ServerVar] // RVA: 0x882B0 Offset: 0x876B0 VA: 0x1800882B0
+	[ServerVar] // RVA: 0x86400 Offset: 0x85800 VA: 0x180086400
 	public static float alarmcooldown; // 0x28
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static int maxconnections; // 0x2C
-	[ServerVar] // RVA: 0x81D90 Offset: 0x81190 VA: 0x180081D90
+	[ServerVar] // RVA: 0x81700 Offset: 0x80B00 VA: 0x180081700
 	public static int maxconnectionsperip; // 0x30
 
 

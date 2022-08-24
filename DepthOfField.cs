@@ -68,17 +68,17 @@ public enum DepthOfField.BlurSampleCount // TypeDefIndex: 8180
 }
 
 public sealed class DepthOfField : PostProcessEffectSettings // TypeDefIndex: 11786
-{	[MinAttribute] // RVA: 0x6FF40 Offset: 0x6F340 VA: 0x18006FF40
-	[TooltipAttribute] // RVA: 0x6FF40 Offset: 0x6F340 VA: 0x18006FF40
+{	[MinAttribute] // RVA: 0xF0D90 Offset: 0xF0190 VA: 0x1800F0D90
+	[TooltipAttribute] // RVA: 0xF0D90 Offset: 0xF0190 VA: 0x1800F0D90
 	public FloatParameter focusDistance; // 0x30
-	[RangeAttribute] // RVA: 0x70110 Offset: 0x6F510 VA: 0x180070110
-	[TooltipAttribute] // RVA: 0x70110 Offset: 0x6F510 VA: 0x180070110
+	[RangeAttribute] // RVA: 0xF0FF0 Offset: 0xF03F0 VA: 0x1800F0FF0
+	[TooltipAttribute] // RVA: 0xF0FF0 Offset: 0xF03F0 VA: 0x1800F0FF0
 	public FloatParameter aperture; // 0x38
-	[RangeAttribute] // RVA: 0x70310 Offset: 0x6F710 VA: 0x180070310
-	[TooltipAttribute] // RVA: 0x70310 Offset: 0x6F710 VA: 0x180070310
+	[RangeAttribute] // RVA: 0x6F550 Offset: 0x6E950 VA: 0x18006F550
+	[TooltipAttribute] // RVA: 0x6F550 Offset: 0x6E950 VA: 0x18006F550
 	public FloatParameter focalLength; // 0x40
-	[DisplayNameAttribute] // RVA: 0x705C0 Offset: 0x6F9C0 VA: 0x1800705C0
-	[TooltipAttribute] // RVA: 0x705C0 Offset: 0x6F9C0 VA: 0x1800705C0
+	[DisplayNameAttribute] // RVA: 0x6F810 Offset: 0x6EC10 VA: 0x18006F810
+	[TooltipAttribute] // RVA: 0x6F810 Offset: 0x6EC10 VA: 0x18006F810
 	public KernelSizeParameter kernelSize; // 0x48
 
 

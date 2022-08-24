@@ -795,7 +795,7 @@ public class ConsoleVar : Attribute // TypeDefIndex: 6890
 }
 
 public class ConsoleGen // TypeDefIndex: 8299
-{	public static ConsoleSystem.Command[] All; // 0x1F9C
+{	public static ConsoleSystem.Command[] All; // 0x2B1087C
 
 
 	public void .ctor() { }
@@ -805,7 +805,7 @@ public class ConsoleGen // TypeDefIndex: 8299
 }
 
 private sealed class ConsoleGen.<>c // TypeDefIndex: 8300
-{	public static readonly ConsoleGen.<>c <>9; // 0x2B117D0
+{	public static readonly ConsoleGen.<>c <>9; // 0x2DB0
 
 
 	private static void .cctor() { }
@@ -3145,7 +3145,7 @@ public class ConsoleUI : SingletonComponent<ConsoleUI> // TypeDefIndex: 10840
 
 	private void SelectInputField(bool updateAutoComplete = False) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x7F8E0 Offset: 0x7ECE0 VA: 0x18007F8E0
+	[IteratorStateMachineAttribute] // RVA: 0x7DBB0 Offset: 0x7CFB0 VA: 0x18007DBB0
 	private IEnumerator SetSelected(bool updateAutoComplete = False) { }
 
 	public void ClearContents() { }
@@ -3274,15 +3274,15 @@ public class ConsoleWindow // TypeDefIndex: 11686
 }
 
 public class Console : ConsoleSystem // TypeDefIndex: 11898
-{	[ClientVar] // RVA: 0x90EE0 Offset: 0x902E0 VA: 0x180090EE0
-	[HelpAttribute] // RVA: 0x90EE0 Offset: 0x902E0 VA: 0x180090EE0
-	public static bool erroroverlay; // 0x2B11820
+{	[ClientVar] // RVA: 0x904B0 Offset: 0x8F8B0 VA: 0x1800904B0
+	[HelpAttribute] // RVA: 0x904B0 Offset: 0x8F8B0 VA: 0x1800904B0
+	public static bool erroroverlay; // 0x1E8B0
 
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void clear(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void copy(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

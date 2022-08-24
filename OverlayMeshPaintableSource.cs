@@ -13,7 +13,7 @@ public class OverlayMeshPaintableSource : MeshPaintableSource // TypeDefIndex: 9
 }
 
 private sealed class OverlayMeshPaintableSource.<>c // TypeDefIndex: 9209
-{	public static readonly OverlayMeshPaintableSource.<>c <>9; // 0x1640
+{	public static readonly OverlayMeshPaintableSource.<>c <>9; // 0x1E3F
 
 
 	private static void .cctor() { }

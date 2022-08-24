@@ -9,11 +9,11 @@ public class Scrollbar : Selectable, IBeginDragHandler, IEventSystemHandler, IDr
 	[RangeAttribute] // RVA: 0x79EC0 Offset: 0x792C0 VA: 0x180079EC0
 	[SerializeField] // RVA: 0x79EC0 Offset: 0x792C0 VA: 0x180079EC0
 	private float m_Size; // 0xF8
-	[RangeAttribute] // RVA: 0x7A1C0 Offset: 0x795C0 VA: 0x18007A1C0
-	[SerializeField] // RVA: 0x7A1C0 Offset: 0x795C0 VA: 0x18007A1C0
+	[RangeAttribute] // RVA: 0x7A1F0 Offset: 0x795F0 VA: 0x18007A1F0
+	[SerializeField] // RVA: 0x7A1F0 Offset: 0x795F0 VA: 0x18007A1F0
 	private int m_NumberOfSteps; // 0xFC
-	[SpaceAttribute] // RVA: 0x7A440 Offset: 0x79840 VA: 0x18007A440
-	[SerializeField] // RVA: 0x7A440 Offset: 0x79840 VA: 0x18007A440
+	[SpaceAttribute] // RVA: 0x7A490 Offset: 0x79890 VA: 0x18007A490
+	[SerializeField] // RVA: 0x7A490 Offset: 0x79890 VA: 0x18007A490
 	private Scrollbar.ScrollEvent m_OnValueChanged; // 0x100
 	private RectTransform m_ContainerRect; // 0x108
 	private Vector2 m_Offset; // 0x110
@@ -99,7 +99,7 @@ public class Scrollbar : Selectable, IBeginDragHandler, IEventSystemHandler, IDr
 
 	public override void OnPointerDown(PointerEventData eventData) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x7A570 Offset: 0x79970 VA: 0x18007A570
+	[IteratorStateMachineAttribute] // RVA: 0x7A5D0 Offset: 0x799D0 VA: 0x18007A5D0
 	protected IEnumerator ClickRepeat(PointerEventData eventData) { }
 
 	public override void OnPointerUp(PointerEventData eventData) { }

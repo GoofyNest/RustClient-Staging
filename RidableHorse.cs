@@ -1,5 +1,5 @@
 public class RidableHorse : BaseRidableAnimal // TypeDefIndex: 8635
-{	[ServerVar] // RVA: 0xB4350 Offset: 0xB3750 VA: 0x1800B4350
+{	[ServerVar] // RVA: 0xB4540 Offset: 0xB3940 VA: 0x1800B4540
 	public static float Population; // 0x0
 	public string distanceStatName; // 0x6E8
 	public HorseBreed[] breeds; // 0x6F0

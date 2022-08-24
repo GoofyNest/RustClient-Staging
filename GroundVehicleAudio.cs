@@ -1,8 +1,8 @@
 public abstract class GroundVehicleAudio : MonoBehaviour, IClientComponent // TypeDefIndex: 9712
 {	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected GroundVehicle groundVehicle; // 0x18
-	[HeaderAttribute] // RVA: 0x87EA0 Offset: 0x872A0 VA: 0x180087EA0
-	[SerializeField] // RVA: 0x87EA0 Offset: 0x872A0 VA: 0x180087EA0
+	[HeaderAttribute] // RVA: 0x87E60 Offset: 0x87260 VA: 0x180087E60
+	[SerializeField] // RVA: 0x87E60 Offset: 0x87260 VA: 0x180087E60
 	private SoundDefinition engineStartSound; // 0x20
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private SoundDefinition engineStopSound; // 0x28
@@ -12,18 +12,18 @@ public abstract class GroundVehicleAudio : MonoBehaviour, IClientComponent // Ty
 	private BlendedLoopEngineSound blendedEngineLoops; // 0x38
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float wheelRatioMultiplier; // 0x40
-	[HeaderAttribute] // RVA: 0x885C0 Offset: 0x879C0 VA: 0x1800885C0
-	[SerializeField] // RVA: 0x885C0 Offset: 0x879C0 VA: 0x1800885C0
+	[HeaderAttribute] // RVA: 0x88510 Offset: 0x87910 VA: 0x180088510
+	[SerializeField] // RVA: 0x88510 Offset: 0x87910 VA: 0x180088510
 	private SoundDefinition waterSplashSoundDef; // 0x48
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private BlendedSoundLoops waterLoops; // 0x50
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float waterSoundsMaxSpeed; // 0x58
-	[HeaderAttribute] // RVA: 0x88C30 Offset: 0x88030 VA: 0x180088C30
-	[SerializeField] // RVA: 0x88C30 Offset: 0x88030 VA: 0x180088C30
+	[HeaderAttribute] // RVA: 0x88BC0 Offset: 0x87FC0 VA: 0x180088BC0
+	[SerializeField] // RVA: 0x88BC0 Offset: 0x87FC0 VA: 0x180088BC0
 	private SoundDefinition brakeSoundDef; // 0x60
-	[HeaderAttribute] // RVA: 0x88D40 Offset: 0x88140 VA: 0x180088D40
-	[SerializeField] // RVA: 0x88D40 Offset: 0x88140 VA: 0x180088D40
+	[HeaderAttribute] // RVA: 0x88D10 Offset: 0x88110 VA: 0x180088D10
+	[SerializeField] // RVA: 0x88D10 Offset: 0x88110 VA: 0x180088D10
 	private SoundDefinition lightsToggleSound; // 0x68
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <CameraDistance>k__BackingField; // 0x70

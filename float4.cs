@@ -1,7 +1,7 @@
 public struct float4 : IEquatable<float4>, IFormattable // TypeDefIndex: 7105
 {
-[DebuggerTypeProxyAttribute] // RVA: 0x7D980 Offset: 0x7CD80 VA: 0x18007D980
-[DefaultMemberAttribute] // RVA: 0x7D980 Offset: 0x7CD80 VA: 0x18007D980
+[DebuggerTypeProxyAttribute] // RVA: 0x7D880 Offset: 0x7CC80 VA: 0x18007D880
+[DefaultMemberAttribute] // RVA: 0x7D880 Offset: 0x7CC80 VA: 0x18007D880
 [Serializable]
 public struct float4 : IEquatable<float4>, IFormattable // TypeDefIndex: 7105
 	public float x; // 0x0
@@ -10,21 +10,21 @@ public struct float4 : IEquatable<float4>, IFormattable // TypeDefIndex: 7105
 	public float w; // 0xC
 	public static readonly float4 zero; // 0x0
 
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	public float4 xyzx { get; }
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	public float4 yzxy { get; }
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	public float4 yzxz { get; }
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	public float4 zxyy { get; }
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	public float4 zxyz { get; }
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	public float4 wwwx { get; }
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	public float4 wwww { get; }
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	public float3 xyz { get; }
 
 

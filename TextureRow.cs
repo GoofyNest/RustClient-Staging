@@ -21,7 +21,7 @@ public class TextureRow : MaterialRow // TypeDefIndex: 7759
 
 	public void OpenFileBrowser() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD64E0 Offset: 0xD58E0 VA: 0x1800D64E0
+	[IteratorStateMachineAttribute] // RVA: 0xD6450 Offset: 0xD5850 VA: 0x1800D6450
 	public IEnumerator BrowseForTexture() { }
 
 	public void Load(string fullname) { }
@@ -38,7 +38,7 @@ public class TextureRow : MaterialRow // TypeDefIndex: 7759
 
 	public void SaveFile() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD65A0 Offset: 0xD59A0 VA: 0x1800D65A0
+	[IteratorStateMachineAttribute] // RVA: 0xD6510 Offset: 0xD5910 VA: 0x1800D6510
 	private IEnumerator DoSaveFile() { }
 
 	public void ResetToDefault() { }

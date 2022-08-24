@@ -28,7 +28,7 @@ internal class Lookup.Grouping<TKey, TElement> : IGrouping<TKey, TElement>, IEnu
 	|-Lookup.Grouping<Vector2Int, Resolution>.Add
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xD1260 Offset: 0xD0660 VA: 0x1800D1260
+	[IteratorStateMachineAttribute] // RVA: 0xD1180 Offset: 0xD0580 VA: 0x1800D1180
 	public IEnumerator<TElement> GetEnumerator() { }
 	/* GenericInstMethod :
 	|

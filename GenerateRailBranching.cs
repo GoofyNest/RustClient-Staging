@@ -7,7 +7,7 @@ public class GenerateRailBranching : ProceduralComponent // TypeDefIndex: 10488
 	public const float RandomScale = 1;
 	public const float MeshOffset = 0;
 	public const float TerrainOffset = -0,125;
-	private static Quaternion rot90; // 0x2B11934
+	private static Quaternion rot90; // 0x2F90
 	private const int MaxDepth = 250000;
 
 

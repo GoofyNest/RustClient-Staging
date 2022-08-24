@@ -36,18 +36,18 @@ public class ReactiveTarget : IOEntity // TypeDefIndex: 8433
 
 	private void UpdateAnimationParameters(bool isOn) { }
 
-	[BaseEntity.Menu] // RVA: 0x7F3E0 Offset: 0x7E7E0 VA: 0x18007F3E0
-	[BaseEntity.Menu.Description] // RVA: 0x7F3E0 Offset: 0x7E7E0 VA: 0x18007F3E0
-	[BaseEntity.Menu.Icon] // RVA: 0x7F3E0 Offset: 0x7E7E0 VA: 0x18007F3E0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7F3E0 Offset: 0x7E7E0 VA: 0x18007F3E0
+	[BaseEntity.Menu] // RVA: 0x7F2B0 Offset: 0x7E6B0 VA: 0x18007F2B0
+	[BaseEntity.Menu.Description] // RVA: 0x7F2B0 Offset: 0x7E6B0 VA: 0x18007F2B0
+	[BaseEntity.Menu.Icon] // RVA: 0x7F2B0 Offset: 0x7E6B0 VA: 0x18007F2B0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7F2B0 Offset: 0x7E6B0 VA: 0x18007F2B0
 	public void Reset_target(BasePlayer player) { }
 
 	public bool Menu_Reset_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7F6A0 Offset: 0x7EAA0 VA: 0x18007F6A0
-	[BaseEntity.Menu.Description] // RVA: 0x7F6A0 Offset: 0x7EAA0 VA: 0x18007F6A0
-	[BaseEntity.Menu.Icon] // RVA: 0x7F6A0 Offset: 0x7EAA0 VA: 0x18007F6A0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7F6A0 Offset: 0x7EAA0 VA: 0x18007F6A0
+	[BaseEntity.Menu] // RVA: 0x7F570 Offset: 0x7E970 VA: 0x18007F570
+	[BaseEntity.Menu.Description] // RVA: 0x7F570 Offset: 0x7E970 VA: 0x18007F570
+	[BaseEntity.Menu.Icon] // RVA: 0x7F570 Offset: 0x7E970 VA: 0x18007F570
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7F570 Offset: 0x7E970 VA: 0x18007F570
 	public void Lower_Target(BasePlayer player) { }
 
 	public bool Menu_Lower_ShowIf(BasePlayer player) { }

@@ -4,9 +4,9 @@ public class TextElementEnumerator : IEnumerator // TypeDefIndex: 718
 	private int startIndex; // 0x1C
 	private int strLen; // 0x20
 	private int currTextElementLen; // 0x24
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private UnicodeCategory uc; // 0x28
-	[OptionalFieldAttribute] // RVA: 0x92FF0 Offset: 0x923F0 VA: 0x180092FF0
+	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
 	private int charLen; // 0x2C
 	private int endIndex; // 0x30
 	private int nextTextElementLen; // 0x34

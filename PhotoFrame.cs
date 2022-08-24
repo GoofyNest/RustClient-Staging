@@ -105,10 +105,10 @@ public class PhotoFrame : StorageContainer, ILOD, IImageReceiver, ISignage, IUGC
 
 	private void FreeOverlayTexture() { }
 
-	[BaseEntity.Menu] // RVA: 0x7C2C0 Offset: 0x7B6C0 VA: 0x18007C2C0
-	[BaseEntity.Menu.Icon] // RVA: 0x7C2C0 Offset: 0x7B6C0 VA: 0x18007C2C0
-	[BaseEntity.Menu.Description] // RVA: 0x7C2C0 Offset: 0x7B6C0 VA: 0x18007C2C0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C2C0 Offset: 0x7B6C0 VA: 0x18007C2C0
+	[BaseEntity.Menu] // RVA: 0x7C2E0 Offset: 0x7B6E0 VA: 0x18007C2E0
+	[BaseEntity.Menu.Icon] // RVA: 0x7C2E0 Offset: 0x7B6E0 VA: 0x18007C2E0
+	[BaseEntity.Menu.Description] // RVA: 0x7C2E0 Offset: 0x7B6E0 VA: 0x18007C2E0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C2E0 Offset: 0x7B6E0 VA: 0x18007C2E0
 	public void Menu_ChangeText(BasePlayer player) { }
 
 	public void OnTextureWasEdited(int frame, Texture2D texture, bool fromFile = False) { }
@@ -116,16 +116,16 @@ public class PhotoFrame : StorageContainer, ILOD, IImageReceiver, ISignage, IUGC
 	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void RecieveOverlayTexture(BaseEntity.RPCMessage msg) { }
 
-	[BaseEntity.Menu] // RVA: 0x7C580 Offset: 0x7B980 VA: 0x18007C580
-	[BaseEntity.Menu.Icon] // RVA: 0x7C580 Offset: 0x7B980 VA: 0x18007C580
-	[BaseEntity.Menu.Description] // RVA: 0x7C580 Offset: 0x7B980 VA: 0x18007C580
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C580 Offset: 0x7B980 VA: 0x18007C580
+	[BaseEntity.Menu] // RVA: 0x7C520 Offset: 0x7B920 VA: 0x18007C520
+	[BaseEntity.Menu.Icon] // RVA: 0x7C520 Offset: 0x7B920 VA: 0x18007C520
+	[BaseEntity.Menu.Description] // RVA: 0x7C520 Offset: 0x7B920 VA: 0x18007C520
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C520 Offset: 0x7B920 VA: 0x18007C520
 	public void Menu_LockSign(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0x7C830 Offset: 0x7BC30 VA: 0x18007C830
-	[BaseEntity.Menu.Icon] // RVA: 0x7C830 Offset: 0x7BC30 VA: 0x18007C830
-	[BaseEntity.Menu.Description] // RVA: 0x7C830 Offset: 0x7BC30 VA: 0x18007C830
-	[BaseEntity.Menu.ShowIf] // RVA: 0x7C830 Offset: 0x7BC30 VA: 0x18007C830
+	[BaseEntity.Menu] // RVA: 0x7C780 Offset: 0x7BB80 VA: 0x18007C780
+	[BaseEntity.Menu.Icon] // RVA: 0x7C780 Offset: 0x7BB80 VA: 0x18007C780
+	[BaseEntity.Menu.Description] // RVA: 0x7C780 Offset: 0x7BB80 VA: 0x18007C780
+	[BaseEntity.Menu.ShowIf] // RVA: 0x7C780 Offset: 0x7BB80 VA: 0x18007C780
 	public void Menu_UnLockSign(BasePlayer player) { }
 
 	public override string Categorize() { }

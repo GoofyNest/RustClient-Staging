@@ -38,7 +38,7 @@ internal class X509ChainImplMono : X509ChainImpl // TypeDefIndex: 2827
 
 	public override X509ChainStatus[] get_ChainStatus() { }
 
-	[MonoTODOAttribute] // RVA: 0xB0770 Offset: 0xAFB70 VA: 0x1800B0770
+	[MonoTODOAttribute] // RVA: 0xB07A0 Offset: 0xAFBA0 VA: 0x1800B07A0
 	public override bool Build(X509Certificate2 certificate) { }
 
 	public override void Reset() { }

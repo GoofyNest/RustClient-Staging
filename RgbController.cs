@@ -27,16 +27,16 @@ public class RgbController : IDisposable // TypeDefIndex: 7687
 
 	public void Event(RgbEventType type) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB9790 Offset: 0xB8B90 VA: 0x1800B9790
+	[AsyncStateMachineAttribute] // RVA: 0xB97C0 Offset: 0xB8BC0 VA: 0x1800B97C0
 	private void Worker() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB9930 Offset: 0xB8D30 VA: 0x1800B9930
+	[AsyncStateMachineAttribute] // RVA: 0xB9980 Offset: 0xB8D80 VA: 0x1800B9980
 	private ValueTask StartServices() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB9AA0 Offset: 0xB8EA0 VA: 0x1800B9AA0
+	[AsyncStateMachineAttribute] // RVA: 0xB9AF0 Offset: 0xB8EF0 VA: 0x1800B9AF0
 	private ValueTask StopServices() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xB9C60 Offset: 0xB9060 VA: 0x1800B9C60
+	[AsyncStateMachineAttribute] // RVA: 0xB9C40 Offset: 0xB9040 VA: 0x1800B9C40
 	private ValueTask UpdateServices() { }
 
 	public static void LogError(string message) { }

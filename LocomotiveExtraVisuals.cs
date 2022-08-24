@@ -1,6 +1,6 @@
 public class LocomotiveExtraVisuals : MonoBehaviour // TypeDefIndex: 9765
-{	[HeaderAttribute] // RVA: 0x940F0 Offset: 0x934F0 VA: 0x1800940F0
-	[SerializeField] // RVA: 0x940F0 Offset: 0x934F0 VA: 0x1800940F0
+{	[HeaderAttribute] // RVA: 0x94110 Offset: 0x93510 VA: 0x180094110
+	[SerializeField] // RVA: 0x94110 Offset: 0x93510 VA: 0x180094110
 	private TrainEngine trainEngine; // 0x18
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform needleA; // 0x20
@@ -20,8 +20,8 @@ public class LocomotiveExtraVisuals : MonoBehaviour // TypeDefIndex: 9765
 	private float fanMaxSpeed; // 0x48
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float speedoMax; // 0x4C
-	[HeaderAttribute] // RVA: 0x94770 Offset: 0x93B70 VA: 0x180094770
-	[SerializeField] // RVA: 0x94770 Offset: 0x93B70 VA: 0x180094770
+	[HeaderAttribute] // RVA: 0x947C0 Offset: 0x93BC0 VA: 0x1800947C0
+	[SerializeField] // RVA: 0x947C0 Offset: 0x93BC0 VA: 0x1800947C0
 	private Transform[] engineFans; // 0x50
 	private Vector3 _v3; // 0x58
 	private float fanPrevSpeed; // 0x64

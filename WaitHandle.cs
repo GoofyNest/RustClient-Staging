@@ -11,7 +11,7 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable // TypeDefInd
 	protected static readonly IntPtr InvalidHandle; // 0x0
 	internal const int MaxWaitHandles = 64;
 
-	[ObsoleteAttribute] // RVA: 0xB9D70 Offset: 0xB9170 VA: 0x1800B9D70
+	[ObsoleteAttribute] // RVA: 0xB9D50 Offset: 0xB9150 VA: 0x1800B9D50
 	public virtual IntPtr Handle { set; }
 	public SafeWaitHandle SafeWaitHandle { get; set; }
 
@@ -25,7 +25,7 @@ public abstract class WaitHandle : MarshalByRefObject, IDisposable // TypeDefInd
 	[ReliabilityContractAttribute] // RVA: 0x83D60 Offset: 0x83160 VA: 0x180083D60
 	public SafeWaitHandle get_SafeWaitHandle() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public void set_SafeWaitHandle(SafeWaitHandle value) { }
 
 	internal void SetHandleInternal(SafeWaitHandle handle) { }

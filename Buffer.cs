@@ -8,10 +8,10 @@ public static class Buffer // TypeDefIndex: 180
 
 	internal static void ZeroMemory(byte* src, long len) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	internal static void Memcpy(byte[] dest, int destIndex, byte* src, int srcIndex, int len) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	internal static void Memcpy(byte* pDest, int destIndex, byte[] src, int srcIndex, int len) { }
 
 	public static int ByteLength(Array array) { }

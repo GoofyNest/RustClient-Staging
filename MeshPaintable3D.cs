@@ -1,7 +1,7 @@
 public class MeshPaintable3D : BaseMeshPaintable // TypeDefIndex: 9205
-{	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+{	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static float brushScale; // 0x0
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static float uvBufferScale; // 0x4
 	public string replacementTextureName; // 0x18
 	public int textureWidth; // 0x20
@@ -56,25 +56,25 @@ public class MeshPaintable3D : BaseMeshPaintable // TypeDefIndex: 9205
 private struct MeshPaintable3D.DrawTextureJob : IJobParallelFor // TypeDefIndex: 9206
 {	public int textureWidth; // 0x0
 	public int2 textureMaxPos; // 0x4
-	[ReadOnlyAttribute] // RVA: 0xD9CA0 Offset: 0xD90A0 VA: 0x1800D9CA0
-	[NativeDisableParallelForRestrictionAttribute] // RVA: 0xD9CA0 Offset: 0xD90A0 VA: 0x1800D9CA0
+	[ReadOnlyAttribute] // RVA: 0xD9CF0 Offset: 0xD90F0 VA: 0x1800D9CF0
+	[NativeDisableParallelForRestrictionAttribute] // RVA: 0xD9CF0 Offset: 0xD90F0 VA: 0x1800D9CF0
 	public NativeArray<Color32> textureData; // 0x10
 	public Color textureColor; // 0x20
 	public float textureScaleX; // 0x30
 	public float textureScaleY; // 0x34
 	public int uvWidth; // 0x38
 	public int2 uvMaxPos; // 0x3C
-	[ReadOnlyAttribute] // RVA: 0xD9CA0 Offset: 0xD90A0 VA: 0x1800D9CA0
-	[NativeDisableParallelForRestrictionAttribute] // RVA: 0xD9CA0 Offset: 0xD90A0 VA: 0x1800D9CA0
+	[ReadOnlyAttribute] // RVA: 0xD9CF0 Offset: 0xD90F0 VA: 0x1800D9CF0
+	[NativeDisableParallelForRestrictionAttribute] // RVA: 0xD9CF0 Offset: 0xD90F0 VA: 0x1800D9CF0
 	public NativeArray<half2> uvData; // 0x48
 	public int paintWidth; // 0x58
 	public int paintHeight; // 0x5C
-	[ReadOnlyAttribute] // RVA: 0xD9FC0 Offset: 0xD93C0 VA: 0x1800D9FC0
-	[NativeDisableParallelForRestrictionAttribute] // RVA: 0xD9FC0 Offset: 0xD93C0 VA: 0x1800D9FC0
-	[DeallocateOnJobCompletionAttribute] // RVA: 0xD9FC0 Offset: 0xD93C0 VA: 0x1800D9FC0
+	[ReadOnlyAttribute] // RVA: 0xD9FA0 Offset: 0xD93A0 VA: 0x1800D9FA0
+	[NativeDisableParallelForRestrictionAttribute] // RVA: 0xD9FA0 Offset: 0xD93A0 VA: 0x1800D9FA0
+	[DeallocateOnJobCompletionAttribute] // RVA: 0xD9FA0 Offset: 0xD93A0 VA: 0x1800D9FA0
 	public NativeArray<Color32> paintDataCurrent; // 0x60
-	[WriteOnlyAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[NativeDisableParallelForRestrictionAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[WriteOnlyAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[NativeDisableParallelForRestrictionAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public NativeArray<Color32> paintDataNew; // 0x70
 	public int startX; // 0x80
 	public int startY; // 0x84

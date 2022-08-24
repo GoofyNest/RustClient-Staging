@@ -22,8 +22,8 @@ public interface IConfigurationSectionHandler // TypeDefIndex: 3166
 
 public sealed class BypassElement : ConfigurationElement // TypeDefIndex: 3167
 
-[DefaultMemberAttribute] // RVA: 0xC0E60 Offset: 0xC0260 VA: 0x1800C0E60
-[ConfigurationCollectionAttribute] // RVA: 0xC0E60 Offset: 0xC0260 VA: 0x1800C0E60
+[DefaultMemberAttribute] // RVA: 0xC0FD0 Offset: 0xC03D0 VA: 0x1800C0FD0
+[ConfigurationCollectionAttribute] // RVA: 0xC0FD0 Offset: 0xC03D0 VA: 0x1800C0FD0
 public sealed class BypassElementCollection : ConfigurationElementCollection // TypeDefIndex: 3168
 
 	public void .ctor() { }

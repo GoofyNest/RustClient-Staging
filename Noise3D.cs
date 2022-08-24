@@ -16,7 +16,7 @@ public static class Noise3D // TypeDefIndex: 11555
 
 	public static string get_isNotSupportedString() { }
 
-	[RuntimeInitializeOnLoadMethodAttribute] // RVA: 0x98580 Offset: 0x97980 VA: 0x180098580
+	[RuntimeInitializeOnLoadMethodAttribute] // RVA: 0x97E10 Offset: 0x97210 VA: 0x180097E10
 	private static void OnStartUp() { }
 
 	public static void LoadIfNeeded() { }

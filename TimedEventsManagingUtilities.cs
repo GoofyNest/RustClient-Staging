@@ -1,11 +1,11 @@
 public static class TimedEventsManagingUtilities // TypeDefIndex: 7459
 {
-	[IteratorStateMachineAttribute] // RVA: 0xA2BF0 Offset: 0xA1FF0 VA: 0x1800A2BF0
-	[ExtensionAttribute] // RVA: 0xA2BF0 Offset: 0xA1FF0 VA: 0x1800A2BF0
+	[IteratorStateMachineAttribute] // RVA: 0xA2C00 Offset: 0xA2000 VA: 0x1800A2C00
+	[ExtensionAttribute] // RVA: 0xA2C00 Offset: 0xA2000 VA: 0x1800A2C00
 	internal static IEnumerable<Tuple<TimedEvent, int>> GetTimedEventsLazy(EventsCollection[] eventsCollections, int eventsCount, bool cloneEvent = True) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA2DE0 Offset: 0xA21E0 VA: 0x1800A2DE0
-	[ExtensionAttribute] // RVA: 0xA2DE0 Offset: 0xA21E0 VA: 0x1800A2DE0
+	[IteratorStateMachineAttribute] // RVA: 0xA2DD0 Offset: 0xA21D0 VA: 0x1800A2DD0
+	[ExtensionAttribute] // RVA: 0xA2DD0 Offset: 0xA21D0 VA: 0x1800A2DD0
 	internal static IEnumerable<TimedEvent> GetTimedEventsLazy(IEnumerable<MidiEvent> events, bool cloneEvent = True) { }
 
 }

@@ -5,7 +5,7 @@ public class MusicManager : SingletonComponent<MusicManager>, IClientComponent /
 	public List<AudioSource> sources; // 0x30
 	public double nextMusic; // 0x38
 	public double nextMusicFromIntensityRaise; // 0x40
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float intensity; // 0x48
 	public Dictionary<MusicTheme.PositionedClip, MusicManager.ClipPlaybackData> clipPlaybackData; // 0x50
 	public int holdIntensityUntilBar; // 0x58

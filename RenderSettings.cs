@@ -1,9 +1,9 @@
 public sealed class RenderSettings : Object // TypeDefIndex: 3404
-{	[NativePropertyAttribute] // RVA: 0x90AF0 Offset: 0x8FEF0 VA: 0x180090AF0
+{	[NativePropertyAttribute] // RVA: 0x90AB0 Offset: 0x8FEB0 VA: 0x180090AB0
 	public static bool fog { get; }
-	[NativePropertyAttribute] // RVA: 0x90B80 Offset: 0x8FF80 VA: 0x180090B80
+	[NativePropertyAttribute] // RVA: 0x90B40 Offset: 0x8FF40 VA: 0x180090B40
 	public static float fogStartDistance { get; }
-	[NativePropertyAttribute] // RVA: 0x90E20 Offset: 0x90220 VA: 0x180090E20
+	[NativePropertyAttribute] // RVA: 0x90DE0 Offset: 0x901E0 VA: 0x180090DE0
 	public static float fogEndDistance { get; }
 	public static FogMode fogMode { get; }
 	public static Color fogColor { get; set; }
@@ -13,9 +13,9 @@ public sealed class RenderSettings : Object // TypeDefIndex: 3404
 	public static Color ambientEquatorColor { get; set; }
 	public static Color ambientGroundColor { get; set; }
 	public static float ambientIntensity { get; set; }
-	[NativePropertyAttribute] // RVA: 0x90F30 Offset: 0x90330 VA: 0x180090F30
+	[NativePropertyAttribute] // RVA: 0x90ED0 Offset: 0x902D0 VA: 0x180090ED0
 	public static Color ambientLight { get; set; }
-	[NativePropertyAttribute] // RVA: 0x91040 Offset: 0x90440 VA: 0x180091040
+	[NativePropertyAttribute] // RVA: 0x91020 Offset: 0x90420 VA: 0x180091020
 	public static Material skybox { get; set; }
 	public static SphericalHarmonicsL2 ambientProbe { get; set; }
 	public static Cubemap customReflection { get; }

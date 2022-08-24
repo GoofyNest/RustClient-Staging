@@ -1,5 +1,5 @@
 internal class TplEtwProvider : EventSource // TypeDefIndex: 1594
-{	public static TplEtwProvider Log; // 0x133DD
+{	public static TplEtwProvider Log; // 0x2B10C3C
 
 	public bool Debug { get; }
 

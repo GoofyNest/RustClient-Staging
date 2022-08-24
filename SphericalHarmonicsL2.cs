@@ -34,7 +34,7 @@ public struct SphericalHarmonicsL2 : IEquatable<SphericalHarmonicsL2> // TypeDef
 
 	public void AddDirectionalLight(Vector3 direction, Color color, float intensity) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	private static void AddDirectionalLightInternal(ref SphericalHarmonicsL2 sh, Vector3 direction, Color color) { }
 
 	public float get_Item(int rgb, int coefficient) { }

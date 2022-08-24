@@ -1,11 +1,11 @@
 public sealed class CanvasGroup : Behaviour, ICanvasRaycastFilter // TypeDefIndex: 4731
-{	[NativePropertyAttribute] // RVA: 0xA4310 Offset: 0xA3710 VA: 0x1800A4310
+{	[NativePropertyAttribute] // RVA: 0xA4440 Offset: 0xA3840 VA: 0x1800A4440
 	public float alpha { get; set; }
-	[NativePropertyAttribute] // RVA: 0xA43E0 Offset: 0xA37E0 VA: 0x1800A43E0
+	[NativePropertyAttribute] // RVA: 0xA4500 Offset: 0xA3900 VA: 0x1800A4500
 	public bool interactable { get; set; }
-	[NativePropertyAttribute] // RVA: 0xA4600 Offset: 0xA3A00 VA: 0x1800A4600
+	[NativePropertyAttribute] // RVA: 0xA4730 Offset: 0xA3B30 VA: 0x1800A4730
 	public bool blocksRaycasts { get; set; }
-	[NativePropertyAttribute] // RVA: 0xA46D0 Offset: 0xA3AD0 VA: 0x1800A46D0
+	[NativePropertyAttribute] // RVA: 0xA47D0 Offset: 0xA3BD0 VA: 0x1800A47D0
 	public bool ignoreParentGroups { get; }
 
 

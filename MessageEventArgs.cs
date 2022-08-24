@@ -18,8 +18,8 @@ public struct Initialization.SynchronizeInputs // TypeDefIndex: 3670
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 public struct Initialization.XREarlyUpdate // TypeDefIndex: 3671
 
-[RequiredByNativeCodeAttribute] // RVA: 0xE7830 Offset: 0xE6C30 VA: 0x1800E7830
-[MovedFromAttribute] // RVA: 0xE7830 Offset: 0xE6C30 VA: 0x1800E7830
+[RequiredByNativeCodeAttribute] // RVA: 0xE7700 Offset: 0xE6B00 VA: 0x1800E7700
+[MovedFromAttribute] // RVA: 0xE7700 Offset: 0xE6B00 VA: 0x1800E7700
 public struct EarlyUpdate // TypeDefIndex: 3672
 
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -115,8 +115,8 @@ public struct EarlyUpdate.TangoUpdate // TypeDefIndex: 3702
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 public struct EarlyUpdate.PerformanceAnalyticsUpdate // TypeDefIndex: 3703
 
-[RequiredByNativeCodeAttribute] // RVA: 0xE7830 Offset: 0xE6C30 VA: 0x1800E7830
-[MovedFromAttribute] // RVA: 0xE7830 Offset: 0xE6C30 VA: 0x1800E7830
+[RequiredByNativeCodeAttribute] // RVA: 0xE7700 Offset: 0xE6B00 VA: 0x1800E7700
+[MovedFromAttribute] // RVA: 0xE7700 Offset: 0xE6B00 VA: 0x1800E7700
 public struct FixedUpdate // TypeDefIndex: 3704
 
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -155,8 +155,8 @@ public struct FixedUpdate.ScriptRunDelayedFixedFrameRate // TypeDefIndex: 3715
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 public struct FixedUpdate.NewInputFixedUpdate // TypeDefIndex: 3716
 
-[RequiredByNativeCodeAttribute] // RVA: 0xE7830 Offset: 0xE6C30 VA: 0x1800E7830
-[MovedFromAttribute] // RVA: 0xE7830 Offset: 0xE6C30 VA: 0x1800E7830
+[RequiredByNativeCodeAttribute] // RVA: 0xE7700 Offset: 0xE6B00 VA: 0x1800E7700
+[MovedFromAttribute] // RVA: 0xE7700 Offset: 0xE6B00 VA: 0x1800E7700
 public struct PreUpdate // TypeDefIndex: 3717
 
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -186,8 +186,8 @@ public struct PreUpdate.UpdateVideo // TypeDefIndex: 3725
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 public struct PreUpdate.NewInputUpdate // TypeDefIndex: 3726
 
-[RequiredByNativeCodeAttribute] // RVA: 0xE7830 Offset: 0xE6C30 VA: 0x1800E7830
-[MovedFromAttribute] // RVA: 0xE7830 Offset: 0xE6C30 VA: 0x1800E7830
+[RequiredByNativeCodeAttribute] // RVA: 0xE7700 Offset: 0xE6B00 VA: 0x1800E7700
+[MovedFromAttribute] // RVA: 0xE7700 Offset: 0xE6B00 VA: 0x1800E7700
 public struct Update // TypeDefIndex: 3727
 
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -202,8 +202,8 @@ public struct Update.ScriptRunDelayedDynamicFrameRate // TypeDefIndex: 3730
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 public struct Update.ScriptRunDelayedTasks // TypeDefIndex: 3731
 
-[MovedFromAttribute] // RVA: 0xECA90 Offset: 0xEBE90 VA: 0x1800ECA90
-[RequiredByNativeCodeAttribute] // RVA: 0xECA90 Offset: 0xEBE90 VA: 0x1800ECA90
+[MovedFromAttribute] // RVA: 0xECAD0 Offset: 0xEBED0 VA: 0x1800ECAD0
+[RequiredByNativeCodeAttribute] // RVA: 0xECAD0 Offset: 0xEBED0 VA: 0x1800ECAD0
 public struct PreLateUpdate // TypeDefIndex: 3732
 
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -242,8 +242,8 @@ public struct PreLateUpdate.ScriptRunBehaviourLateUpdate // TypeDefIndex: 3743
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 public struct PreLateUpdate.ConstraintManagerUpdate // TypeDefIndex: 3744
 
-[RequiredByNativeCodeAttribute] // RVA: 0xE7830 Offset: 0xE6C30 VA: 0x1800E7830
-[MovedFromAttribute] // RVA: 0xE7830 Offset: 0xE6C30 VA: 0x1800E7830
+[RequiredByNativeCodeAttribute] // RVA: 0xE7700 Offset: 0xE6B00 VA: 0x1800E7700
+[MovedFromAttribute] // RVA: 0xE7700 Offset: 0xE6B00 VA: 0x1800E7700
 public struct PostLateUpdate // TypeDefIndex: 3745
 
 [RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

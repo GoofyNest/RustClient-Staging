@@ -47,7 +47,7 @@ public class CommunityEntity : PointEntity // TypeDefIndex: 8551
 
 	private void GraphicComponentCreated(Graphic c, Object obj) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xAA360 Offset: 0xA9760 VA: 0x1800AA360
+	[IteratorStateMachineAttribute] // RVA: 0xAA2F0 Offset: 0xA96F0 VA: 0x1800AA2F0
 	private IEnumerator LoadTextureFromWWW(RawImage c, string p) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

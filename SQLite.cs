@@ -26,13 +26,13 @@ public sealed class SqliteConnection : DbConnection, ICloneable // TypeDefIndex:
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private StateChangeEventHandler StateChange; // 0xA0
 
-	[EditorAttribute] // RVA: 0xDD9F0 Offset: 0xDCDF0 VA: 0x1800DD9F0
-	[RefreshPropertiesAttribute] // RVA: 0xDD9F0 Offset: 0xDCDF0 VA: 0x1800DD9F0
-	[DefaultValueAttribute] // RVA: 0xDD9F0 Offset: 0xDCDF0 VA: 0x1800DD9F0
+	[EditorAttribute] // RVA: 0xDD8F0 Offset: 0xDCCF0 VA: 0x1800DD8F0
+	[RefreshPropertiesAttribute] // RVA: 0xDD8F0 Offset: 0xDCCF0 VA: 0x1800DD8F0
+	[DefaultValueAttribute] // RVA: 0xDD8F0 Offset: 0xDCCF0 VA: 0x1800DD8F0
 	public override string ConnectionString { get; set; }
 	public int DefaultTimeout { get; }
-	[BrowsableAttribute] // RVA: 0x9EB20 Offset: 0x9DF20 VA: 0x18009EB20
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9EB20 Offset: 0x9DF20 VA: 0x18009EB20
+	[BrowsableAttribute] // RVA: 0x9EA60 Offset: 0x9DE60 VA: 0x18009EA60
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9EA60 Offset: 0x9DE60 VA: 0x18009EA60
 	public override ConnectionState State { get; }
 
 
@@ -296,7 +296,7 @@ internal class SQLite3_UTF16 : SQLite3 // TypeDefIndex: 4855
 }
 
 internal abstract class SQLiteBase : SqliteConvert, IDisposable // TypeDefIndex: 4856
-{	internal static object _lock; // 0x128EF
+{	internal static object _lock; // 0x2B10E1C
 
 	internal abstract string Version { get; }
 	internal abstract int Changes { get; }
@@ -457,32 +457,32 @@ public sealed class SqliteCommand : DbCommand, ICloneable // TypeDefIndex: 4859
 	internal string _remainingText; // 0x68
 	private SqliteTransaction _transaction; // 0x70
 
-	[DefaultValueAttribute] // RVA: 0xDF190 Offset: 0xDE590 VA: 0x1800DF190
-	[RefreshPropertiesAttribute] // RVA: 0xDF190 Offset: 0xDE590 VA: 0x1800DF190
-	[EditorAttribute] // RVA: 0xDF190 Offset: 0xDE590 VA: 0x1800DF190
+	[DefaultValueAttribute] // RVA: 0xDF0E0 Offset: 0xDE4E0 VA: 0x1800DF0E0
+	[RefreshPropertiesAttribute] // RVA: 0xDF0E0 Offset: 0xDE4E0 VA: 0x1800DF0E0
+	[EditorAttribute] // RVA: 0xDF0E0 Offset: 0xDE4E0 VA: 0x1800DF0E0
 	public override string CommandText { get; set; }
-	[DefaultValueAttribute] // RVA: 0xDF280 Offset: 0xDE680 VA: 0x1800DF280
+	[DefaultValueAttribute] // RVA: 0xDF1A0 Offset: 0xDE5A0 VA: 0x1800DF1A0
 	public override int CommandTimeout { get; set; }
-	[DefaultValueAttribute] // RVA: 0xDF410 Offset: 0xDE810 VA: 0x1800DF410
-	[RefreshPropertiesAttribute] // RVA: 0xDF410 Offset: 0xDE810 VA: 0x1800DF410
+	[DefaultValueAttribute] // RVA: 0xDF330 Offset: 0xDE730 VA: 0x1800DF330
+	[RefreshPropertiesAttribute] // RVA: 0xDF330 Offset: 0xDE730 VA: 0x1800DF330
 	public override CommandType CommandType { set; }
-	[EditorAttribute] // RVA: 0xDF560 Offset: 0xDE960 VA: 0x1800DF560
-	[DefaultValueAttribute] // RVA: 0xDF560 Offset: 0xDE960 VA: 0x1800DF560
+	[EditorAttribute] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
+	[DefaultValueAttribute] // RVA: 0xDF4B0 Offset: 0xDE8B0 VA: 0x1800DF4B0
 	public SqliteConnection Connection { get; set; }
 	protected override DbConnection DbConnection { get; set; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CE50 Offset: 0x8C250 VA: 0x18008CE50
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x8CD30 Offset: 0x8C130 VA: 0x18008CD30
 	public SqliteParameterCollection Parameters { get; }
 	protected override DbParameterCollection DbParameterCollection { get; }
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E980 Offset: 0x9DD80 VA: 0x18009E980
-	[BrowsableAttribute] // RVA: 0x9E980 Offset: 0x9DD80 VA: 0x18009E980
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E870 Offset: 0x9DC70 VA: 0x18009E870
+	[BrowsableAttribute] // RVA: 0x9E870 Offset: 0x9DC70 VA: 0x18009E870
 	public SqliteTransaction Transaction { get; set; }
 	protected override DbTransaction DbTransaction { get; set; }
-	[DefaultValueAttribute] // RVA: 0xDF8D0 Offset: 0xDECD0 VA: 0x1800DF8D0
+	[DefaultValueAttribute] // RVA: 0xDF820 Offset: 0xDEC20 VA: 0x1800DF820
 	public override UpdateRowSource UpdatedRowSource { get; set; }
-	[DefaultValueAttribute] // RVA: 0xDF960 Offset: 0xDED60 VA: 0x1800DF960
-	[EditorBrowsableAttribute] // RVA: 0xDF960 Offset: 0xDED60 VA: 0x1800DF960
-	[BrowsableAttribute] // RVA: 0xDF960 Offset: 0xDED60 VA: 0x1800DF960
-	[DesignOnlyAttribute] // RVA: 0xDF960 Offset: 0xDED60 VA: 0x1800DF960
+	[DefaultValueAttribute] // RVA: 0xDF8B0 Offset: 0xDECB0 VA: 0x1800DF8B0
+	[EditorBrowsableAttribute] // RVA: 0xDF8B0 Offset: 0xDECB0 VA: 0x1800DF8B0
+	[BrowsableAttribute] // RVA: 0xDF8B0 Offset: 0xDECB0 VA: 0x1800DF8B0
+	[DesignOnlyAttribute] // RVA: 0xDF8B0 Offset: 0xDECB0 VA: 0x1800DF8B0
 	public override bool DesignTimeVisible { get; set; }
 
 
@@ -564,16 +564,16 @@ public sealed class SqliteCommand : DbCommand, ICloneable // TypeDefIndex: 4859
 
 public sealed class SqliteCommandBuilder : DbCommandBuilder // TypeDefIndex: 4860
 {	public SqliteDataAdapter DataAdapter { set; }
-	[BrowsableAttribute] // RVA: 0x9AA30 Offset: 0x99E30 VA: 0x18009AA30
+	[BrowsableAttribute] // RVA: 0x9A9A0 Offset: 0x99DA0 VA: 0x18009A9A0
 	public override CatalogLocation CatalogLocation { get; }
-	[BrowsableAttribute] // RVA: 0x9AA30 Offset: 0x99E30 VA: 0x18009AA30
+	[BrowsableAttribute] // RVA: 0x9A9A0 Offset: 0x99DA0 VA: 0x18009A9A0
 	public override string CatalogSeparator { get; }
-	[DefaultValueAttribute] // RVA: 0xDFD40 Offset: 0xDF140 VA: 0x1800DFD40
-	[BrowsableAttribute] // RVA: 0xDFD40 Offset: 0xDF140 VA: 0x1800DFD40
+	[DefaultValueAttribute] // RVA: 0xDFD90 Offset: 0xDF190 VA: 0x1800DFD90
+	[BrowsableAttribute] // RVA: 0xDFD90 Offset: 0xDF190 VA: 0x1800DFD90
 	public override string QuotePrefix { get; set; }
-	[BrowsableAttribute] // RVA: 0x9AA30 Offset: 0x99E30 VA: 0x18009AA30
+	[BrowsableAttribute] // RVA: 0x9A9A0 Offset: 0x99DA0 VA: 0x18009A9A0
 	public override string QuoteSuffix { get; set; }
-	[BrowsableAttribute] // RVA: 0x9AA30 Offset: 0x99E30 VA: 0x18009AA30
+	[BrowsableAttribute] // RVA: 0x9A9A0 Offset: 0x99DA0 VA: 0x18009A9A0
 	public override string SchemaSeparator { get; }
 
 
@@ -1141,18 +1141,18 @@ public sealed class SqliteParameter : DbParameter, ICloneable // TypeDefIndex: 4
 	private bool _nullMapping; // 0x3D
 
 	public override bool IsNullable { get; set; }
-	[RefreshPropertiesAttribute] // RVA: 0xE0BA0 Offset: 0xDFFA0 VA: 0x1800E0BA0
-	[DbProviderSpecificTypePropertyAttribute] // RVA: 0xE0BA0 Offset: 0xDFFA0 VA: 0x1800E0BA0
+	[RefreshPropertiesAttribute] // RVA: 0xE0AA0 Offset: 0xDFEA0 VA: 0x1800E0AA0
+	[DbProviderSpecificTypePropertyAttribute] // RVA: 0xE0AA0 Offset: 0xDFEA0 VA: 0x1800E0AA0
 	public override DbType DbType { get; set; }
 	public override ParameterDirection Direction { get; set; }
 	public override string ParameterName { get; set; }
-	[DefaultValueAttribute] // RVA: 0xE0D80 Offset: 0xE0180 VA: 0x1800E0D80
+	[DefaultValueAttribute] // RVA: 0xE0C50 Offset: 0xE0050 VA: 0x1800E0C50
 	public override int Size { set; }
 	public override string SourceColumn { get; set; }
 	public override bool SourceColumnNullMapping { set; }
 	public override DataRowVersion SourceVersion { get; set; }
-	[TypeConverterAttribute] // RVA: 0xE0DA0 Offset: 0xE01A0 VA: 0x1800E0DA0
-	[RefreshPropertiesAttribute] // RVA: 0xE0DA0 Offset: 0xE01A0 VA: 0x1800E0DA0
+	[TypeConverterAttribute] // RVA: 0xE0C70 Offset: 0xE0070 VA: 0x1800E0C70
+	[RefreshPropertiesAttribute] // RVA: 0xE0C70 Offset: 0xE0070 VA: 0x1800E0C70
 	public override object Value { get; set; }
 
 
@@ -1164,7 +1164,7 @@ public sealed class SqliteParameter : DbParameter, ICloneable // TypeDefIndex: 4
 
 	private void .ctor(SqliteParameter source) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x8CE50 Offset: 0x8C250 VA: 0x18008CE50
+	[EditorBrowsableAttribute] // RVA: 0x8CD30 Offset: 0x8C130 VA: 0x18008CD30
 	public void .ctor(string parameterName, DbType parameterType, int parameterSize, ParameterDirection direction, bool isNullable, byte precision, byte scale, string sourceColumn, DataRowVersion rowVersion, object value) { }
 
 	public override bool get_IsNullable() { }
@@ -1227,7 +1227,7 @@ public sealed class SqliteParameterCollection : DbParameterCollection // TypeDef
 
 	public int Add(SqliteParameter parameter) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	public override int Add(object value) { }
 
 	public SqliteParameter AddWithValue(string parameterName, object value) { }

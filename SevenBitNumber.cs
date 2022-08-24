@@ -58,7 +58,7 @@ public struct SevenBitNumber : IComparable<SevenBitNumber>, IConvertible // Type
 }
 
 private sealed class SevenBitNumber.<>c // TypeDefIndex: 7626
-{	public static readonly SevenBitNumber.<>c <>9; // 0x17DB
+{	public static readonly SevenBitNumber.<>c <>9; // 0x2B10770
 
 
 	private static void .cctor() { }

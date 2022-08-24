@@ -5,7 +5,7 @@ public class ScarecrowNPC : NPCPlayer, IAISenses, IAIAttack // TypeDefIndex: 844
 	public float BaseAttackRate; // 0x838
 	public float BaseAttackDamge; // 0x83C
 	public DamageType AttackDamageType; // 0x840
-	[HeaderAttribute] // RVA: 0x831A0 Offset: 0x825A0 VA: 0x1800831A0
+	[HeaderAttribute] // RVA: 0x830A0 Offset: 0x824A0 VA: 0x1800830A0
 	public LootContainer.LootSpawnSlot[] LootSpawnSlots; // 0x848
 
 	public override bool HasMenuOptions { get; }
@@ -22,9 +22,9 @@ public class ScarecrowNPC : NPCPlayer, IAISenses, IAIAttack // TypeDefIndex: 844
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected void set_Brain(ScarecrowBrain value) { }
 
-	[BaseEntity.Menu] // RVA: 0x83320 Offset: 0x82720 VA: 0x180083320
-	[BaseEntity.Menu.Description] // RVA: 0x83320 Offset: 0x82720 VA: 0x180083320
-	[BaseEntity.Menu.ShowIf] // RVA: 0x83320 Offset: 0x82720 VA: 0x180083320
+	[BaseEntity.Menu] // RVA: 0x83260 Offset: 0x82660 VA: 0x180083260
+	[BaseEntity.Menu.Description] // RVA: 0x83260 Offset: 0x82660 VA: 0x180083260
+	[BaseEntity.Menu.ShowIf] // RVA: 0x83260 Offset: 0x82660 VA: 0x180083260
 	public void MenuDesignAI(BasePlayer ply) { }
 
 	public bool CanDesignAI(BasePlayer player) { }

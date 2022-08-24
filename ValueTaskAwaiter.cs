@@ -21,7 +21,7 @@ public struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion //
 }
 
 private sealed class ValueTaskAwaiter.<>c // TypeDefIndex: 7095
-{	public static readonly ValueTaskAwaiter.<>c <>9; // 0x11A40
+{	public static readonly ValueTaskAwaiter.<>c <>9; // 0x12A8D
 
 
 	private static void .cctor() { }

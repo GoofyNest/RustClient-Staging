@@ -1,8 +1,8 @@
 public class HairDye // TypeDefIndex: 10733
-{	[ColorUsageAttribute] // RVA: 0x76B60 Offset: 0x75F60 VA: 0x180076B60
+{	[ColorUsageAttribute] // RVA: 0x76360 Offset: 0x75760 VA: 0x180076360
 	public Color capBaseColor; // 0x10
 	public Material sourceMaterial; // 0x20
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public HairDye.CopyPropertyMask copyProperties; // 0x28
 	private static MaterialPropertyDesc[] transferableProps; // 0x0
 	private static int _HairBaseColorUV1; // 0x8

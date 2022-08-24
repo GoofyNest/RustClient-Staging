@@ -1,5 +1,5 @@
 public class EventArgs // TypeDefIndex: 215
-{	public static readonly EventArgs Empty; // 0x2B117D0
+{	public static readonly EventArgs Empty; // 0x13EF0
 
 
 	public void .ctor() { }
@@ -177,7 +177,7 @@ public enum EventFieldFormat // TypeDefIndex: 1518
 
 internal class EventPayload : IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable // TypeDefIndex: 1520
 {
-[DefaultMemberAttribute] // RVA: 0x70D30 Offset: 0x70130 VA: 0x180070D30
+[DefaultMemberAttribute] // RVA: 0x70E60 Offset: 0x70260 VA: 0x180070E60
 internal class EventPayload : IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable // TypeDefIndex: 1520
 	private List<string> m_names; // 0x10
 	private List<object> m_values; // 0x18
@@ -213,7 +213,7 @@ internal class EventPayload : IDictionary<string, object>, ICollection<KeyValueP
 
 	public bool get_IsReadOnly() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xF0AE0 Offset: 0xEFEE0 VA: 0x1800F0AE0
+	[IteratorStateMachineAttribute] // RVA: 0xF0BA0 Offset: 0xEFFA0 VA: 0x1800F0BA0
 	public IEnumerator<KeyValuePair<string, object>> GetEnumerator() { }
 
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
@@ -326,8 +326,8 @@ public class EventSource : IDisposable // TypeDefIndex: 1580
 
 	internal void WriteMultiMerge(string eventName, ref EventSourceOptions options, TraceLoggingEventTypes eventTypes, Guid* activityID, Guid* childActivityID, EventSource.EventData* data) { }
 
-	[NonEventAttribute] // RVA: 0x70160 Offset: 0x6F560 VA: 0x180070160
-	[ReliabilityContractAttribute] // RVA: 0x70160 Offset: 0x6F560 VA: 0x180070160
+	[NonEventAttribute] // RVA: 0x700F0 Offset: 0x6F4F0 VA: 0x1800700F0
+	[ReliabilityContractAttribute] // RVA: 0x700F0 Offset: 0x6F4F0 VA: 0x1800700F0
 	private void WriteCleanup(GCHandle* pPins, int cPins) { }
 
 	private void InitializeProviderMetadata() { }
@@ -641,7 +641,7 @@ internal class EventProvider : IDisposable // TypeDefIndex: 1599
 
 	private void Deregister() { }
 
-	[EventProvider.MonoPInvokeCallbackAttribute] // RVA: 0x70FB0 Offset: 0x703B0 VA: 0x180070FB0
+	[EventProvider.MonoPInvokeCallbackAttribute] // RVA: 0x71060 Offset: 0x70460 VA: 0x180071060
 	private static void EtwEnableCallBack(in Guid sourceId, [In] int controlCode, [In] byte setLevel, [In] long anyKeyword, [In] long allKeyword, [In] UnsafeNativeMethods.ManifestEtw.EVENT_FILTER_DESCRIPTOR* filterData, [In] void* callbackContext) { }
 
 	private void EtwEnableCallBackImpl([In] int controlCode, [In] byte setLevel, [In] long anyKeyword, [In] long allKeyword, [In] UnsafeNativeMethods.ManifestEtw.EVENT_FILTER_DESCRIPTOR* filterData) { }
@@ -1075,8 +1075,8 @@ public enum EventKeywords // TypeDefIndex: 1634
 
 public class EventDescriptorCollection : ICollection, IEnumerable, IList // TypeDefIndex: 2703
 {
-[DefaultMemberAttribute] // RVA: 0xA9800 Offset: 0xA8C00 VA: 0x1800A9800
-[ComVisibleAttribute] // RVA: 0xA9800 Offset: 0xA8C00 VA: 0x1800A9800
+[DefaultMemberAttribute] // RVA: 0xA9950 Offset: 0xA8D50 VA: 0x1800A9950
+[ComVisibleAttribute] // RVA: 0xA9950 Offset: 0xA8D50 VA: 0x1800A9950
 public class EventDescriptorCollection : ICollection, IEnumerable, IList // TypeDefIndex: 2703
 	private EventDescriptor[] events; // 0x10
 	private string[] namedSort; // 0x18
@@ -1195,34 +1195,34 @@ private sealed class EventHandlerList.ListEntry // TypeDefIndex: 2705
 
 public sealed class Event // TypeDefIndex: 4025
 {
-[NativeHeaderAttribute] // RVA: 0xC5DC0 Offset: 0xC51C0 VA: 0x1800C5DC0
-[StaticAccessorAttribute] // RVA: 0xC5DC0 Offset: 0xC51C0 VA: 0x1800C5DC0
+[NativeHeaderAttribute] // RVA: 0xC5D90 Offset: 0xC5190 VA: 0x1800C5D90
+[StaticAccessorAttribute] // RVA: 0xC5D90 Offset: 0xC5190 VA: 0x1800C5D90
 public sealed class Event // TypeDefIndex: 4025
 	internal IntPtr m_Ptr; // 0x10
 	private static Event s_Current; // 0x0
 	private static Event s_MasterEvent; // 0x8
 
-	[NativePropertyAttribute] // RVA: 0xC6C50 Offset: 0xC6050 VA: 0x1800C6C50
+	[NativePropertyAttribute] // RVA: 0xC6CF0 Offset: 0xC60F0 VA: 0x1800C6CF0
 	public EventType rawType { get; }
-	[NativePropertyAttribute] // RVA: 0xC6D00 Offset: 0xC6100 VA: 0x1800C6D00
+	[NativePropertyAttribute] // RVA: 0xC6D90 Offset: 0xC6190 VA: 0x1800C6D90
 	public Vector2 mousePosition { get; set; }
-	[NativePropertyAttribute] // RVA: 0xC6DD0 Offset: 0xC61D0 VA: 0x1800C6DD0
+	[NativePropertyAttribute] // RVA: 0xC6E40 Offset: 0xC6240 VA: 0x1800C6E40
 	public Vector2 delta { get; }
-	[NativePropertyAttribute] // RVA: 0xC6E60 Offset: 0xC6260 VA: 0x1800C6E60
+	[NativePropertyAttribute] // RVA: 0xC6E80 Offset: 0xC6280 VA: 0x1800C6E80
 	public PointerType pointerType { get; }
-	[NativePropertyAttribute] // RVA: 0xC6FA0 Offset: 0xC63A0 VA: 0x1800C6FA0
+	[NativePropertyAttribute] // RVA: 0xC6F00 Offset: 0xC6300 VA: 0x1800C6F00
 	public int button { get; }
-	[NativePropertyAttribute] // RVA: 0xC7030 Offset: 0xC6430 VA: 0x1800C7030
+	[NativePropertyAttribute] // RVA: 0xC6FF0 Offset: 0xC63F0 VA: 0x1800C6FF0
 	public EventModifiers modifiers { get; set; }
-	[NativePropertyAttribute] // RVA: 0xC70D0 Offset: 0xC64D0 VA: 0x1800C70D0
+	[NativePropertyAttribute] // RVA: 0xC70A0 Offset: 0xC64A0 VA: 0x1800C70A0
 	public float pressure { get; }
-	[NativePropertyAttribute] // RVA: 0xC71F0 Offset: 0xC65F0 VA: 0x1800C71F0
+	[NativePropertyAttribute] // RVA: 0xC7200 Offset: 0xC6600 VA: 0x1800C7200
 	public int clickCount { get; }
-	[NativePropertyAttribute] // RVA: 0xC7590 Offset: 0xC6990 VA: 0x1800C7590
+	[NativePropertyAttribute] // RVA: 0xC75A0 Offset: 0xC69A0 VA: 0x1800C75A0
 	public char character { get; set; }
-	[NativePropertyAttribute] // RVA: 0xC89A0 Offset: 0xC7DA0 VA: 0x1800C89A0
+	[NativePropertyAttribute] // RVA: 0xC89E0 Offset: 0xC7DE0 VA: 0x1800C89E0
 	public KeyCode keyCode { get; set; }
-	[NativePropertyAttribute] // RVA: 0xC8A60 Offset: 0xC7E60 VA: 0x1800C8A60
+	[NativePropertyAttribute] // RVA: 0xC8AE0 Offset: 0xC7EE0 VA: 0x1800C8AE0
 	public int displayIndex { get; set; }
 	public EventType type { get; set; }
 	public string commandName { get; set; }
@@ -1268,35 +1268,35 @@ public sealed class Event // TypeDefIndex: 4025
 
 	public void set_displayIndex(int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC5F00 Offset: 0xC5300 VA: 0x1800C5F00
+	[FreeFunctionAttribute] // RVA: 0xC5F20 Offset: 0xC5320 VA: 0x1800C5F20
 	public EventType get_type() { }
 
-	[FreeFunctionAttribute] // RVA: 0xC5FD0 Offset: 0xC53D0 VA: 0x1800C5FD0
+	[FreeFunctionAttribute] // RVA: 0xC5FB0 Offset: 0xC53B0 VA: 0x1800C5FB0
 	public void set_type(EventType value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC61B0 Offset: 0xC55B0 VA: 0x1800C61B0
+	[FreeFunctionAttribute] // RVA: 0xC6140 Offset: 0xC5540 VA: 0x1800C6140
 	public string get_commandName() { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6270 Offset: 0xC5670 VA: 0x1800C6270
+	[FreeFunctionAttribute] // RVA: 0xC6200 Offset: 0xC5600 VA: 0x1800C6200
 	public void set_commandName(string value) { }
 
-	[NativeMethodAttribute] // RVA: 0xC62B0 Offset: 0xC56B0 VA: 0x1800C62B0
+	[NativeMethodAttribute] // RVA: 0xC6240 Offset: 0xC5640 VA: 0x1800C6240
 	private void Internal_Use() { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6350 Offset: 0xC5750 VA: 0x1800C6350
+	[FreeFunctionAttribute] // RVA: 0xC62B0 Offset: 0xC56B0 VA: 0x1800C62B0
 	private static IntPtr Internal_Create(int displayIndex) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6470 Offset: 0xC5870 VA: 0x1800C6470
+	[FreeFunctionAttribute] // RVA: 0xC6360 Offset: 0xC5760 VA: 0x1800C6360
 	private static void Internal_Destroy(IntPtr ptr) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC64B0 Offset: 0xC58B0 VA: 0x1800C64B0
+	[FreeFunctionAttribute] // RVA: 0xC63C0 Offset: 0xC57C0 VA: 0x1800C63C0
 	private static IntPtr Internal_Copy(IntPtr otherPtr) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC6540 Offset: 0xC5940 VA: 0x1800C6540
+	[FreeFunctionAttribute] // RVA: 0xC64B0 Offset: 0xC58B0 VA: 0x1800C64B0
 	public EventType GetTypeForControl(int controlID) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC65B0 Offset: 0xC59B0 VA: 0x1800C65B0
-	[VisibleToOtherModulesAttribute] // RVA: 0xC65B0 Offset: 0xC59B0 VA: 0x1800C65B0
+	[FreeFunctionAttribute] // RVA: 0xC6520 Offset: 0xC5920 VA: 0x1800C6520
+	[VisibleToOtherModulesAttribute] // RVA: 0xC6520 Offset: 0xC5920 VA: 0x1800C6520
 	internal void CopyFromPtr(IntPtr ptr) { }
 
 	public static bool PopEvent(Event outEvent) { }
@@ -1314,7 +1314,7 @@ public sealed class Event // TypeDefIndex: 4025
 
 	protected override void Finalize() { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xC67B0 Offset: 0xC5BB0 VA: 0x1800C67B0
+	[VisibleToOtherModulesAttribute] // RVA: 0xC6890 Offset: 0xC5C90 VA: 0x1800C6890
 	internal void CopyFrom(Event e) { }
 
 	public bool get_shift() { }
@@ -1333,7 +1333,7 @@ public sealed class Event // TypeDefIndex: 4025
 
 	public bool get_isMouse() { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xC6B00 Offset: 0xC5F00 VA: 0x1800C6B00
+	[VisibleToOtherModulesAttribute] // RVA: 0xC6B90 Offset: 0xC5F90 VA: 0x1800C6B90
 	internal bool get_isDirectManipulationDevice() { }
 
 	public static Event KeyboardEvent(string key) { }
@@ -1375,44 +1375,44 @@ public enum EventType // TypeDefIndex: 4026
 	public const EventType ContextClick = 16;
 	public const EventType MouseEnterWindow = 20;
 	public const EventType MouseLeaveWindow = 21;
-	[ObsoleteAttribute] // RVA: 0xC8B00 Offset: 0xC7F00 VA: 0x1800C8B00
-	[EditorBrowsableAttribute] // RVA: 0xC8B00 Offset: 0xC7F00 VA: 0x1800C8B00
+	[ObsoleteAttribute] // RVA: 0xC8BC0 Offset: 0xC7FC0 VA: 0x1800C8BC0
+	[EditorBrowsableAttribute] // RVA: 0xC8BC0 Offset: 0xC7FC0 VA: 0x1800C8BC0
 	public const EventType mouseDown = 0;
-	[EditorBrowsableAttribute] // RVA: 0xC8C80 Offset: 0xC8080 VA: 0x1800C8C80
-	[ObsoleteAttribute] // RVA: 0xC8C80 Offset: 0xC8080 VA: 0x1800C8C80
+	[EditorBrowsableAttribute] // RVA: 0xC8CE0 Offset: 0xC80E0 VA: 0x1800C8CE0
+	[ObsoleteAttribute] // RVA: 0xC8CE0 Offset: 0xC80E0 VA: 0x1800C8CE0
 	public const EventType mouseUp = 1;
-	[ObsoleteAttribute] // RVA: 0xC8E20 Offset: 0xC8220 VA: 0x1800C8E20
-	[EditorBrowsableAttribute] // RVA: 0xC8E20 Offset: 0xC8220 VA: 0x1800C8E20
+	[ObsoleteAttribute] // RVA: 0xC8E30 Offset: 0xC8230 VA: 0x1800C8E30
+	[EditorBrowsableAttribute] // RVA: 0xC8E30 Offset: 0xC8230 VA: 0x1800C8E30
 	public const EventType mouseMove = 2;
-	[ObsoleteAttribute] // RVA: 0xC8FC0 Offset: 0xC83C0 VA: 0x1800C8FC0
-	[EditorBrowsableAttribute] // RVA: 0xC8FC0 Offset: 0xC83C0 VA: 0x1800C8FC0
+	[ObsoleteAttribute] // RVA: 0xC8FD0 Offset: 0xC83D0 VA: 0x1800C8FD0
+	[EditorBrowsableAttribute] // RVA: 0xC8FD0 Offset: 0xC83D0 VA: 0x1800C8FD0
 	public const EventType mouseDrag = 3;
-	[ObsoleteAttribute] // RVA: 0xC9160 Offset: 0xC8560 VA: 0x1800C9160
-	[EditorBrowsableAttribute] // RVA: 0xC9160 Offset: 0xC8560 VA: 0x1800C9160
+	[ObsoleteAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
+	[EditorBrowsableAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
 	public const EventType keyDown = 4;
-	[EditorBrowsableAttribute] // RVA: 0xC9290 Offset: 0xC8690 VA: 0x1800C9290
-	[ObsoleteAttribute] // RVA: 0xC9290 Offset: 0xC8690 VA: 0x1800C9290
+	[EditorBrowsableAttribute] // RVA: 0xC9200 Offset: 0xC8600 VA: 0x1800C9200
+	[ObsoleteAttribute] // RVA: 0xC9200 Offset: 0xC8600 VA: 0x1800C9200
 	public const EventType keyUp = 5;
-	[EditorBrowsableAttribute] // RVA: 0xC96A0 Offset: 0xC8AA0 VA: 0x1800C96A0
-	[ObsoleteAttribute] // RVA: 0xC96A0 Offset: 0xC8AA0 VA: 0x1800C96A0
+	[EditorBrowsableAttribute] // RVA: 0xC95D0 Offset: 0xC89D0 VA: 0x1800C95D0
+	[ObsoleteAttribute] // RVA: 0xC95D0 Offset: 0xC89D0 VA: 0x1800C95D0
 	public const EventType scrollWheel = 6;
-	[ObsoleteAttribute] // RVA: 0xC98C0 Offset: 0xC8CC0 VA: 0x1800C98C0
-	[EditorBrowsableAttribute] // RVA: 0xC98C0 Offset: 0xC8CC0 VA: 0x1800C98C0
+	[ObsoleteAttribute] // RVA: 0xC9810 Offset: 0xC8C10 VA: 0x1800C9810
+	[EditorBrowsableAttribute] // RVA: 0xC9810 Offset: 0xC8C10 VA: 0x1800C9810
 	public const EventType repaint = 7;
-	[EditorBrowsableAttribute] // RVA: 0xC99E0 Offset: 0xC8DE0 VA: 0x1800C99E0
-	[ObsoleteAttribute] // RVA: 0xC99E0 Offset: 0xC8DE0 VA: 0x1800C99E0
+	[EditorBrowsableAttribute] // RVA: 0xC9950 Offset: 0xC8D50 VA: 0x1800C9950
+	[ObsoleteAttribute] // RVA: 0xC9950 Offset: 0xC8D50 VA: 0x1800C9950
 	public const EventType layout = 8;
-	[EditorBrowsableAttribute] // RVA: 0xC9B00 Offset: 0xC8F00 VA: 0x1800C9B00
-	[ObsoleteAttribute] // RVA: 0xC9B00 Offset: 0xC8F00 VA: 0x1800C9B00
+	[EditorBrowsableAttribute] // RVA: 0xC9AC0 Offset: 0xC8EC0 VA: 0x1800C9AC0
+	[ObsoleteAttribute] // RVA: 0xC9AC0 Offset: 0xC8EC0 VA: 0x1800C9AC0
 	public const EventType dragUpdated = 9;
-	[ObsoleteAttribute] // RVA: 0xC9C50 Offset: 0xC9050 VA: 0x1800C9C50
-	[EditorBrowsableAttribute] // RVA: 0xC9C50 Offset: 0xC9050 VA: 0x1800C9C50
+	[ObsoleteAttribute] // RVA: 0xC9C60 Offset: 0xC9060 VA: 0x1800C9C60
+	[EditorBrowsableAttribute] // RVA: 0xC9C60 Offset: 0xC9060 VA: 0x1800C9C60
 	public const EventType dragPerform = 10;
-	[ObsoleteAttribute] // RVA: 0xC9DC0 Offset: 0xC91C0 VA: 0x1800C9DC0
-	[EditorBrowsableAttribute] // RVA: 0xC9DC0 Offset: 0xC91C0 VA: 0x1800C9DC0
+	[ObsoleteAttribute] // RVA: 0xC9DD0 Offset: 0xC91D0 VA: 0x1800C9DD0
+	[EditorBrowsableAttribute] // RVA: 0xC9DD0 Offset: 0xC91D0 VA: 0x1800C9DD0
 	public const EventType ignore = 11;
-	[EditorBrowsableAttribute] // RVA: 0xC9F20 Offset: 0xC9320 VA: 0x1800C9F20
-	[ObsoleteAttribute] // RVA: 0xC9F20 Offset: 0xC9320 VA: 0x1800C9F20
+	[EditorBrowsableAttribute] // RVA: 0xC9EE0 Offset: 0xC92E0 VA: 0x1800C9EE0
+	[ObsoleteAttribute] // RVA: 0xC9EE0 Offset: 0xC92E0 VA: 0x1800C9EE0
 	public const EventType used = 12;
 
 }
@@ -1431,11 +1431,11 @@ public enum EventModifiers // TypeDefIndex: 4027
 }
 
 internal struct EventInterests // TypeDefIndex: 4029
-{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private bool <wantsMouseMove>k__BackingField; // 0x0
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private bool <wantsMouseEnterLeaveWindow>k__BackingField; // 0x1
 
 	public bool wantsMouseMove { get; }
@@ -1472,8 +1472,8 @@ public sealed class EventDispatcher // TypeDefIndex: 4583
 {	private List<IEventDispatchingStrategy> m_DispatchingStrategies; // 0x10
 	private static readonly ObjectPool<Queue<EventDispatcher.EventRecord>> k_EventQueuePool; // 0x0
 	private Queue<EventDispatcher.EventRecord> m_Queue; // 0x18
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private readonly PointerDispatchState <pointerState>k__BackingField; // 0x20
 	private uint m_GateCount; // 0x28
 	private Stack<EventDispatcher.DispatchContext> m_DispatchContexts; // 0x30
@@ -1521,36 +1521,36 @@ private struct EventDispatcher.DispatchContext // TypeDefIndex: 4585
 public abstract class EventBase : IDisposable // TypeDefIndex: 4640
 {	private static long s_LastTypeId; // 0x0
 	private static ulong s_NextEventId; // 0x8
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private long <timestamp>k__BackingField; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private ulong <eventId>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private ulong <triggerEventId>k__BackingField; // 0x20
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private EventBase.EventPropagation <propagation>k__BackingField; // 0x28
 	private PropagationPaths m_Path; // 0x30
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private EventBase.LifeCycleStatus <lifeCycleStatus>k__BackingField; // 0x38
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private IEventHandler <leafTarget>k__BackingField; // 0x40
 	private IEventHandler m_Target; // 0x48
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private readonly List<IEventHandler> <skipElements>k__BackingField; // 0x50
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private PropagationPhase <propagationPhase>k__BackingField; // 0x58
 	private IEventHandler m_CurrentTarget; // 0x60
 	private Event m_ImguiEvent; // 0x68
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private Vector2 <originalMousePosition>k__BackingField; // 0x70
 
 	public virtual long eventTypeId { get; }
@@ -1615,12 +1615,12 @@ public abstract class EventBase : IDisposable // TypeDefIndex: 4640
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_lifeCycleStatus(EventBase.LifeCycleStatus value) { }
 
-	[ObsoleteAttribute] // RVA: 0x95E40 Offset: 0x95240 VA: 0x180095E40
+	[ObsoleteAttribute] // RVA: 0x95EC0 Offset: 0x952C0 VA: 0x180095EC0
 	protected virtual void PreDispatch() { }
 
 	protected internal virtual void PreDispatch(IPanel panel) { }
 
-	[ObsoleteAttribute] // RVA: 0x95F50 Offset: 0x95350 VA: 0x180095F50
+	[ObsoleteAttribute] // RVA: 0x95FD0 Offset: 0x953D0 VA: 0x180095FD0
 	protected virtual void PostDispatch() { }
 
 	protected internal virtual void PostDispatch(IPanel panel) { }
@@ -1752,8 +1752,8 @@ private enum EventBase.LifeCycleStatus // TypeDefIndex: 4642
 }
 
 internal abstract class EventCallbackFunctorBase // TypeDefIndex: 4644
-{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private CallbackPhase <phase>k__BackingField; // 0x10
 
 	public CallbackPhase phase { get; }
@@ -1780,11 +1780,11 @@ internal class EventCallbackListPool // TypeDefIndex: 4646
 
 internal class EventCallbackList // TypeDefIndex: 4647
 {	private List<EventCallbackFunctorBase> m_List; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private int <trickleDownCallbackCount>k__BackingField; // 0x18
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private int <bubbleUpCallbackCount>k__BackingField; // 0x1C
 
 	public int trickleDownCallbackCount { get; set; }
@@ -1883,8 +1883,8 @@ public class EventSystem : UIBehaviour // TypeDefIndex: 5071
 {	private List<BaseInputModule> m_SystemInputModules; // 0x18
 	private BaseInputModule m_CurrentInputModule; // 0x20
 	private static List<EventSystem> m_EventSystems; // 0x0
-	[SerializeField] // RVA: 0x85F50 Offset: 0x85350 VA: 0x180085F50
-	[FormerlySerializedAsAttribute] // RVA: 0x85F50 Offset: 0x85350 VA: 0x180085F50
+	[SerializeField] // RVA: 0x85E60 Offset: 0x85260 VA: 0x180085E60
+	[FormerlySerializedAsAttribute] // RVA: 0x85E60 Offset: 0x85260 VA: 0x180085E60
 	private GameObject m_FirstSelected; // 0x28
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private bool m_sendNavigationEvents; // 0x30
@@ -1902,7 +1902,7 @@ public class EventSystem : UIBehaviour // TypeDefIndex: 5071
 	public BaseInputModule currentInputModule { get; }
 	public GameObject firstSelectedGameObject { get; set; }
 	public GameObject currentSelectedGameObject { get; }
-	[ObsoleteAttribute] // RVA: 0x861B0 Offset: 0x855B0 VA: 0x1800861B0
+	[ObsoleteAttribute] // RVA: 0x86110 Offset: 0x85510 VA: 0x180086110
 	public GameObject lastSelectedGameObject { get; }
 	public bool isFocused { get; }
 	public bool alreadySelecting { get; }
@@ -1972,12 +1972,12 @@ public class EventSystem : UIBehaviour // TypeDefIndex: 5071
 }
 
 public class EventTrigger : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler, IInitializePotentialDragHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler, IScrollHandler, IUpdateSelectedHandler, ISelectHandler, IDeselectHandler, IMoveHandler, ISubmitHandler, ICancelHandler // TypeDefIndex: 5072
-{	[FormerlySerializedAsAttribute] // RVA: 0x86400 Offset: 0x85800 VA: 0x180086400
-	[SerializeField] // RVA: 0x86400 Offset: 0x85800 VA: 0x180086400
+{	[FormerlySerializedAsAttribute] // RVA: 0x863B0 Offset: 0x857B0 VA: 0x1800863B0
+	[SerializeField] // RVA: 0x863B0 Offset: 0x857B0 VA: 0x1800863B0
 	private List<EventTrigger.Entry> m_Delegates; // 0x18
 
-	[EditorBrowsableAttribute] // RVA: 0x865E0 Offset: 0x859E0 VA: 0x1800865E0
-	[ObsoleteAttribute] // RVA: 0x865E0 Offset: 0x859E0 VA: 0x1800865E0
+	[EditorBrowsableAttribute] // RVA: 0x865A0 Offset: 0x859A0 VA: 0x1800865A0
+	[ObsoleteAttribute] // RVA: 0x865A0 Offset: 0x859A0 VA: 0x1800865A0
 	public List<EventTrigger.Entry> delegates { get; set; }
 	public List<EventTrigger.Entry> triggers { get; set; }
 
@@ -2139,9 +2139,9 @@ internal static class EventReaderFactory // TypeDefIndex: 7553
 }
 
 public class EventSchedule : BaseMonoBehaviour // TypeDefIndex: 9817
-{	[TooltipAttribute] // RVA: 0x99CF0 Offset: 0x990F0 VA: 0x180099CF0
+{	[TooltipAttribute] // RVA: 0x98FC0 Offset: 0x983C0 VA: 0x180098FC0
 	public float minimumHoursBetween; // 0x18
-	[TooltipAttribute] // RVA: 0x99EE0 Offset: 0x992E0 VA: 0x180099EE0
+	[TooltipAttribute] // RVA: 0x991A0 Offset: 0x985A0 VA: 0x1800991A0
 	public float maxmumHoursBetween; // 0x1C
 
 

@@ -1,7 +1,7 @@
 public struct uint4 : IEquatable<uint4>, IFormattable // TypeDefIndex: 7118
 {
-[DefaultMemberAttribute] // RVA: 0x7FD00 Offset: 0x7F100 VA: 0x18007FD00
-[DebuggerTypeProxyAttribute] // RVA: 0x7FD00 Offset: 0x7F100 VA: 0x18007FD00
+[DefaultMemberAttribute] // RVA: 0x7FC70 Offset: 0x7F070 VA: 0x18007FC70
+[DebuggerTypeProxyAttribute] // RVA: 0x7FC70 Offset: 0x7F070 VA: 0x18007FC70
 [Serializable]
 public struct uint4 : IEquatable<uint4>, IFormattable // TypeDefIndex: 7118
 	public uint x; // 0x0

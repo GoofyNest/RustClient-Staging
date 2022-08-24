@@ -102,20 +102,20 @@ public class Telephone : ContainerIOEntity, ICassettePlayer // TypeDefIndex: 846
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private void set_cachedCassette(Cassette value) { }
 
-	[BaseEntity.Menu] // RVA: 0x8FD00 Offset: 0x8F100 VA: 0x18008FD00
-	[BaseEntity.Menu.Description] // RVA: 0x8FD00 Offset: 0x8F100 VA: 0x18008FD00
-	[BaseEntity.Menu.Icon] // RVA: 0x8FD00 Offset: 0x8F100 VA: 0x18008FD00
-	[BaseEntity.Menu.ShowIf] // RVA: 0x8FD00 Offset: 0x8F100 VA: 0x18008FD00
+	[BaseEntity.Menu] // RVA: 0x8FBB0 Offset: 0x8EFB0 VA: 0x18008FBB0
+	[BaseEntity.Menu.Description] // RVA: 0x8FBB0 Offset: 0x8EFB0 VA: 0x18008FBB0
+	[BaseEntity.Menu.Icon] // RVA: 0x8FBB0 Offset: 0x8EFB0 VA: 0x18008FBB0
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8FBB0 Offset: 0x8EFB0 VA: 0x18008FBB0
 	public void Menu_MakeCall(BasePlayer player) { }
 
 	private void DelayedViewModelDeploy() { }
 
 	public void HolsterViewmodel() { }
 
-	[BaseEntity.Menu] // RVA: 0x90080 Offset: 0x8F480 VA: 0x180090080
-	[BaseEntity.Menu.Description] // RVA: 0x90080 Offset: 0x8F480 VA: 0x180090080
-	[BaseEntity.Menu.Icon] // RVA: 0x90080 Offset: 0x8F480 VA: 0x180090080
-	[BaseEntity.Menu.ShowIf] // RVA: 0x90080 Offset: 0x8F480 VA: 0x180090080
+	[BaseEntity.Menu] // RVA: 0x8FF30 Offset: 0x8F330 VA: 0x18008FF30
+	[BaseEntity.Menu.Description] // RVA: 0x8FF30 Offset: 0x8F330 VA: 0x18008FF30
+	[BaseEntity.Menu.Icon] // RVA: 0x8FF30 Offset: 0x8F330 VA: 0x18008FF30
+	[BaseEntity.Menu.ShowIf] // RVA: 0x8FF30 Offset: 0x8F330 VA: 0x18008FF30
 	public void Menu_Answer(BasePlayer player) { }
 
 	[BaseEntity.RPC_Client] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

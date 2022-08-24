@@ -1,5 +1,5 @@
 internal struct NewUrlLaunchParameters_t : ICallbackData // TypeDefIndex: 5400
-{	public static int _datasize; // 0x2B119B8
+{	public static int _datasize; // 0x13C00
 
 	public int DataSize { get; }
 	public CallbackType CallbackType { get; }

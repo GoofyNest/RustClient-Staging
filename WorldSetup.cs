@@ -19,7 +19,7 @@ public class WorldSetup : SingletonComponent<WorldSetup> // TypeDefIndex: 10575
 
 	protected void CreateObject(GameObject prefab) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xDBE30 Offset: 0xDB230 VA: 0x1800DBE30
+	[IteratorStateMachineAttribute] // RVA: 0xDB560 Offset: 0xDA960 VA: 0x1800DB560
 	public IEnumerator InitCoroutine() { }
 
 	private void CancelSetup(string msg) { }

@@ -21,14 +21,14 @@ public class BaseOven : StorageContainer, ISplashable // TypeDefIndex: 8333
 
 	public override bool HasSlot(BaseEntity.Slot slot) { }
 
-	[BaseEntity.Menu] // RVA: 0xB9FB0 Offset: 0xB93B0 VA: 0x1800B9FB0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xB9FB0 Offset: 0xB93B0 VA: 0x1800B9FB0
+	[BaseEntity.Menu] // RVA: 0xBA110 Offset: 0xB9510 VA: 0x1800BA110
+	[BaseEntity.Menu.ShowIf] // RVA: 0xBA110 Offset: 0xB9510 VA: 0x1800BA110
 	public void SwitchOn(BasePlayer player) { }
 
 	protected virtual bool SwitchOn_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xBA0C0 Offset: 0xB94C0 VA: 0x1800BA0C0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xBA0C0 Offset: 0xB94C0 VA: 0x1800BA0C0
+	[BaseEntity.Menu] // RVA: 0xBA210 Offset: 0xB9610 VA: 0x1800BA210
+	[BaseEntity.Menu.ShowIf] // RVA: 0xBA210 Offset: 0xB9610 VA: 0x1800BA210
 	public void SwitchOff(BasePlayer player) { }
 
 	protected virtual bool SwitchOff_ShowIf(BasePlayer player) { }

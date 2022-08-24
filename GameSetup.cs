@@ -11,7 +11,7 @@ public class GameSetup : MonoBehaviour // TypeDefIndex: 9888
 
 	protected void Awake() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA4CB0 Offset: 0xA40B0 VA: 0x1800A4CB0
+	[IteratorStateMachineAttribute] // RVA: 0xA4480 Offset: 0xA3880 VA: 0x1800A4480
 	private IEnumerator DoGameSetup() { }
 
 	private void ClientJoin() { }

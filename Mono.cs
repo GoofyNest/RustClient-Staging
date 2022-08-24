@@ -3,7 +3,7 @@ internal struct MonoAssemblyName // TypeDefIndex: 19
 	internal IntPtr culture; // 0x8
 	internal IntPtr hash_value; // 0x10
 	internal IntPtr public_key; // 0x18
-	[FixedBufferAttribute] // RVA: 0xE7030 Offset: 0xE6430 VA: 0x1800E7030
+	[FixedBufferAttribute] // RVA: 0xE6F20 Offset: 0xE6320 VA: 0x1800E6F20
 	internal MonoAssemblyName.<public_key_token>e__FixedBuffer public_key_token; // 0x20
 	internal uint hash_alg; // 0x34
 	internal uint hash_len; // 0x38
@@ -322,8 +322,8 @@ internal class MonoMethod : RuntimeMethodInfo // TypeDefIndex: 582
 
 	internal object InternalInvoke(object obj, object[] parameters, out Exception exc) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[DebuggerStepThroughAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[DebuggerHiddenAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[DebuggerStepThroughAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public override object Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
 	internal static void ConvertValues(Binder binder, object[] args, ParameterInfo[] pinfo, CultureInfo culture, BindingFlags invokeAttr) { }
@@ -401,16 +401,16 @@ internal class MonoCMethod : RuntimeConstructorInfo // TypeDefIndex: 584
 
 	internal object InternalInvoke(object obj, object[] parameters, out Exception exc) { }
 
-	[DebuggerStepThroughAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[DebuggerHiddenAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[DebuggerStepThroughAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[DebuggerHiddenAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public override object Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
 	private object DoInvoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
 	public object InternalInvoke(object obj, object[] parameters) { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[DebuggerStepThroughAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[DebuggerHiddenAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[DebuggerStepThroughAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	public override object Invoke(BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture) { }
 
 	public override RuntimeMethodHandle get_MethodHandle() { }
@@ -1075,7 +1075,7 @@ public sealed class MonoTlsSettings // TypeDefIndex: 1749
 	[CLSCompliantAttribute] // RVA: 0x6F4E0 Offset: 0x6E8E0 VA: 0x18006F4E0
 	public CipherSuiteCode[] EnabledCiphers { get; set; }
 	public static MonoTlsSettings DefaultSettings { get; }
-	[ObsoleteAttribute] // RVA: 0x7F3B0 Offset: 0x7E7B0 VA: 0x18007F3B0
+	[ObsoleteAttribute] // RVA: 0x7F280 Offset: 0x7E680 VA: 0x18007F280
 	public ICertificateValidator CertificateValidator { get; }
 
 
@@ -1147,7 +1147,7 @@ public sealed class MonoTlsSettings // TypeDefIndex: 1749
 
 	public ICertificateValidator get_CertificateValidator() { }
 
-	[ObsoleteAttribute] // RVA: 0x7F3B0 Offset: 0x7E7B0 VA: 0x18007F3B0
+	[ObsoleteAttribute] // RVA: 0x7F280 Offset: 0x7E680 VA: 0x18007F280
 	public MonoTlsSettings CloneWithValidator(ICertificateValidator validator) { }
 
 	public MonoTlsSettings Clone() { }
@@ -1324,7 +1324,7 @@ public class MonoBehaviour : Behaviour // TypeDefIndex: 3518
 
 	public Coroutine StartCoroutine(IEnumerator routine) { }
 
-	[ObsoleteAttribute] // RVA: 0xC1C20 Offset: 0xC1020 VA: 0x1800C1C20
+	[ObsoleteAttribute] // RVA: 0xC1CB0 Offset: 0xC10B0 VA: 0x1800C1CB0
 	public Coroutine StartCoroutine_Auto(IEnumerator routine) { }
 
 	public void StopCoroutine(IEnumerator routine) { }
@@ -1341,22 +1341,22 @@ public class MonoBehaviour : Behaviour // TypeDefIndex: 3518
 
 	public static void print(object message) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC1CE0 Offset: 0xC10E0 VA: 0x1800C1CE0
+	[FreeFunctionAttribute] // RVA: 0xC1E20 Offset: 0xC1220 VA: 0x1800C1E20
 	private static void Internal_CancelInvokeAll(MonoBehaviour self) { }
 
-	[FreeFunctionAttribute] // RVA: 0xC1DC0 Offset: 0xC11C0 VA: 0x1800C1DC0
+	[FreeFunctionAttribute] // RVA: 0xC1F40 Offset: 0xC1340 VA: 0x1800C1F40
 	private static bool Internal_IsInvokingAll(MonoBehaviour self) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	private static void InvokeDelayed(MonoBehaviour self, string methodName, float time, float repeatRate) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	private static void CancelInvoke(MonoBehaviour self, string methodName) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	private static bool IsInvoking(MonoBehaviour self, string methodName) { }
 
-	[FreeFunctionAttribute] // RVA: 0x7A500 Offset: 0x79900 VA: 0x18007A500
+	[FreeFunctionAttribute] // RVA: 0x7A550 Offset: 0x79950 VA: 0x18007A550
 	private static bool IsObjectMonoBehaviour(Object obj) { }
 
 	private Coroutine StartCoroutineManaged(string methodName, object value) { }
@@ -1375,7 +1375,7 @@ public class MonoBehaviour : Behaviour // TypeDefIndex: 3518
 
 internal class MonoTODOAttribute : Attribute // TypeDefIndex: 3974
 {
-[AttributeUsageAttribute] // RVA: 0x81070 Offset: 0x80470 VA: 0x180081070
+[AttributeUsageAttribute] // RVA: 0x810F0 Offset: 0x804F0 VA: 0x1800810F0
 internal class MonoTODOAttribute : Attribute // TypeDefIndex: 3974
 	private string comment; // 0x10
 

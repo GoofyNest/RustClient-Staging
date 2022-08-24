@@ -1,5 +1,5 @@
 internal class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory // TypeDefIndex: 5922
-{	private static readonly LateBoundReflectionDelegateFactory _instance; // 0x26F0
+{	private static readonly LateBoundReflectionDelegateFactory _instance; // 0x362B
 
 	internal static ReflectionDelegateFactory Instance { get; }
 

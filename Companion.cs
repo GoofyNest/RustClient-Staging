@@ -32,13 +32,13 @@ public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // 
 
 	public void Refresh() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x95350 Offset: 0x94750 VA: 0x180095350
+	[AsyncStateMachineAttribute] // RVA: 0x94CC0 Offset: 0x940C0 VA: 0x180094CC0
 	public void RefreshImpl() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x953D0 Offset: 0x947D0 VA: 0x1800953D0
+	[AsyncStateMachineAttribute] // RVA: 0x94E40 Offset: 0x94240 VA: 0x180094E40
 	public void Enable() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x95550 Offset: 0x94950 VA: 0x180095550
+	[AsyncStateMachineAttribute] // RVA: 0x94F30 Offset: 0x94330 VA: 0x180094F30
 	public void Disable() { }
 
 	public void Pair() { }
@@ -119,16 +119,16 @@ public static class CompanionSubscription // TypeDefIndex: 11094
 	private const string CheckApi = "https://companion-rust.facepunch.com/api/subscriptions/check";
 	private const string AddApi = "https://companion-rust.facepunch.com/api/subscriptions/add";
 	private const string RemoveApi = "https://companion-rust.facepunch.com/api/subscriptions/remove";
-	private static readonly HttpClient Http; // 0x23CB
+	private static readonly HttpClient Http; // 0x2B10918
 
 
-	[AsyncStateMachineAttribute] // RVA: 0x959E0 Offset: 0x94DE0 VA: 0x1800959E0
+	[AsyncStateMachineAttribute] // RVA: 0x954B0 Offset: 0x948B0 VA: 0x1800954B0
 	public static Task<CompanionSubscription.Status> CheckStatus() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x95B50 Offset: 0x94F50 VA: 0x180095B50
+	[AsyncStateMachineAttribute] // RVA: 0x955B0 Offset: 0x949B0 VA: 0x1800955B0
 	public static Task Add() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x95C80 Offset: 0x95080 VA: 0x180095C80
+	[AsyncStateMachineAttribute] // RVA: 0x956E0 Offset: 0x94AE0 VA: 0x1800956E0
 	public static Task Remove() { }
 
 	private static StringContent GenerateRequest(IAuthTicket authTicket) { }

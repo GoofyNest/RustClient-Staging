@@ -8,7 +8,7 @@ public static class CoroutineEx // TypeDefIndex: 11703
 
 	public static WaitForSecondsRealtimeEx waitForSecondsRealtime(float seconds) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD1C80 Offset: 0xD1080 VA: 0x1800D1C80
+	[IteratorStateMachineAttribute] // RVA: 0xD1650 Offset: 0xD0A50 VA: 0x1800D1650
 	public static IEnumerator Combine(IEnumerator[] coroutines) { }
 
 	private static void .cctor() { }

@@ -1,8 +1,8 @@
 public class Text : MaskableGraphic, ILayoutElement // TypeDefIndex: 5014
 {	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private FontData m_FontData; // 0xC8
-	[TextAreaAttribute] // RVA: 0x7DB70 Offset: 0x7CF70 VA: 0x18007DB70
-	[SerializeField] // RVA: 0x7DB70 Offset: 0x7CF70 VA: 0x18007DB70
+	[TextAreaAttribute] // RVA: 0x7DA70 Offset: 0x7CE70 VA: 0x18007DA70
+	[SerializeField] // RVA: 0x7DA70 Offset: 0x7CE70 VA: 0x18007DA70
 	protected string m_Text; // 0xD0
 	private TextGenerator m_TextCache; // 0xD8
 	private TextGenerator m_TextCacheForLayout; // 0xE0

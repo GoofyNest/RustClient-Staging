@@ -142,9 +142,9 @@ public class PointerEventData : BaseEventData // TypeDefIndex: 5049
 	public Vector2 position { get; set; }
 	public Vector2 delta { get; set; }
 	public Vector2 pressPosition { get; set; }
-	[ObsoleteAttribute] // RVA: 0x85C20 Offset: 0x85020 VA: 0x180085C20
+	[ObsoleteAttribute] // RVA: 0x85B00 Offset: 0x84F00 VA: 0x180085B00
 	public Vector3 worldPosition { get; set; }
-	[ObsoleteAttribute] // RVA: 0x85D10 Offset: 0x85110 VA: 0x180085D10
+	[ObsoleteAttribute] // RVA: 0x85BF0 Offset: 0x84FF0 VA: 0x180085BF0
 	public Vector3 worldNormal { get; set; }
 	public float clickTime { get; set; }
 	public int clickCount { get; set; }
@@ -1033,9 +1033,9 @@ internal struct ColorEventData // TypeDefIndex: 7701
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private ColorEventFrame <Frame>k__BackingField; // 0x4
 
-	[JsonPropertyAttribute] // RVA: 0xBEA00 Offset: 0xBDE00 VA: 0x1800BEA00
+	[JsonPropertyAttribute] // RVA: 0xBEA80 Offset: 0xBDE80 VA: 0x1800BEA80
 	public float Value { get; set; }
-	[JsonPropertyAttribute] // RVA: 0xBEAE0 Offset: 0xBDEE0 VA: 0x1800BEAE0
+	[JsonPropertyAttribute] // RVA: 0xBEB20 Offset: 0xBDF20 VA: 0x1800BEB20
 	public ColorEventFrame Frame { get; set; }
 
 
@@ -1057,7 +1057,7 @@ internal struct EmptyEventData // TypeDefIndex: 7704
 {	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private int <Value>k__BackingField; // 0x0
 
-	[JsonPropertyAttribute] // RVA: 0xBEA00 Offset: 0xBDE00 VA: 0x1800BEA00
+	[JsonPropertyAttribute] // RVA: 0xBEA80 Offset: 0xBDE80 VA: 0x1800BEA80
 	public int Value { get; set; }
 
 

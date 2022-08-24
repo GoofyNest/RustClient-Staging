@@ -31,7 +31,7 @@ public static class Translate // TypeDefIndex: 6718
 
 public class Translate.Phrase // TypeDefIndex: 6719
 {	public string token; // 0x10
-	[TextAreaAttribute] // RVA: 0x72220 Offset: 0x71620 VA: 0x180072220
+	[TextAreaAttribute] // RVA: 0x72390 Offset: 0x71790 VA: 0x180072390
 	public string english; // 0x18
 
 	public virtual string translated { get; }

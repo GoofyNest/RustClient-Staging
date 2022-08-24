@@ -179,7 +179,7 @@ public static class Manifest // TypeDefIndex: 6199
 
 	internal static void Download() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA55B0 Offset: 0xA49B0 VA: 0x1800A55B0
+	[IteratorStateMachineAttribute] // RVA: 0xA55C0 Offset: 0xA49C0 VA: 0x1800A55C0
 	private static IEnumerator UpdateManifest() { }
 
 	private static void LoadManifest(string text) { }
@@ -303,12 +303,12 @@ public class Manifest.ServerDesc // TypeDefIndex: 6249
 
 public class Manifest // TypeDefIndex: 11947
 {
-	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
-	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ClientVar] // RVA: 0x93230 Offset: 0x92630 VA: 0x180093230
+	[ServerVar] // RVA: 0x93230 Offset: 0x92630 VA: 0x180093230
 	public static object PrintManifest() { }
 
-	[ClientVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
-	[ServerVar] // RVA: 0x939A0 Offset: 0x92DA0 VA: 0x1800939A0
+	[ClientVar] // RVA: 0x93230 Offset: 0x92630 VA: 0x180093230
+	[ServerVar] // RVA: 0x93230 Offset: 0x92630 VA: 0x180093230
 	public static object PrintManifestRaw() { }
 
 	public void .ctor() { }

@@ -1,7 +1,7 @@
 public class PieShape : Graphic // TypeDefIndex: 11205
-{	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+{	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float outerSize; // 0x90
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float innerSize; // 0x94
 	public float startRadius; // 0x98
 	public float endRadius; // 0x9C

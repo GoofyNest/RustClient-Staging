@@ -2,33 +2,33 @@ internal sealed class GUIClip // TypeDefIndex: 4033
 {	internal static Rect visibleRect { get; }
 
 
-	[FreeFunctionAttribute] // RVA: 0xCB560 Offset: 0xCA960 VA: 0x1800CB560
+	[FreeFunctionAttribute] // RVA: 0xCB620 Offset: 0xCAA20 VA: 0x1800CB620
 	internal static Rect get_visibleRect() { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xCB670 Offset: 0xCAA70 VA: 0x1800CB670
+	[VisibleToOtherModulesAttribute] // RVA: 0xCB730 Offset: 0xCAB30 VA: 0x1800CB730
 	internal static void Internal_Push(Rect screenRect, Vector2 scrollOffset, Vector2 renderOffset, bool resetOffset) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xCBA50 Offset: 0xCAE50 VA: 0x1800CBA50
+	[VisibleToOtherModulesAttribute] // RVA: 0xCBB10 Offset: 0xCAF10 VA: 0x1800CBB10
 	internal static void Internal_Pop() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCBD70 Offset: 0xCB170 VA: 0x1800CBD70
-	[VisibleToOtherModulesAttribute] // RVA: 0xCBD70 Offset: 0xCB170 VA: 0x1800CBD70
+	[FreeFunctionAttribute] // RVA: 0xCBE30 Offset: 0xCB230 VA: 0x1800CBE30
+	[VisibleToOtherModulesAttribute] // RVA: 0xCBE30 Offset: 0xCB230 VA: 0x1800CBE30
 	internal static int Internal_GetCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0xCC020 Offset: 0xCB420 VA: 0x1800CC020
+	[FreeFunctionAttribute] // RVA: 0xCC140 Offset: 0xCB540 VA: 0x1800CC140
 	private static Vector2 Unclip_Vector2(Vector2 pos) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xCC140 Offset: 0xCB540 VA: 0x1800CC140
-	[FreeFunctionAttribute] // RVA: 0xCC140 Offset: 0xCB540 VA: 0x1800CC140
+	[VisibleToOtherModulesAttribute] // RVA: 0xCC250 Offset: 0xCB650 VA: 0x1800CC250
+	[FreeFunctionAttribute] // RVA: 0xCC250 Offset: 0xCB650 VA: 0x1800CC250
 	internal static Matrix4x4 GetMatrix() { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xCC450 Offset: 0xCB850 VA: 0x1800CC450
+	[VisibleToOtherModulesAttribute] // RVA: 0xCC500 Offset: 0xCB900 VA: 0x1800CC500
 	internal static void SetMatrix(Matrix4x4 m) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xCC6D0 Offset: 0xCBAD0 VA: 0x1800CC6D0
+	[VisibleToOtherModulesAttribute] // RVA: 0xCC700 Offset: 0xCBB00 VA: 0x1800CC700
 	internal static void Internal_PushParentClip(Matrix4x4 objectTransform, Rect clipRect) { }
 
-	[VisibleToOtherModulesAttribute] // RVA: 0xCC9F0 Offset: 0xCBDF0 VA: 0x1800CC9F0
+	[VisibleToOtherModulesAttribute] // RVA: 0xCCA10 Offset: 0xCBE10 VA: 0x1800CCA10
 	internal static void Internal_PopParentClip() { }
 
 	internal static void Push(Rect screenRect, Vector2 scrollOffset, Vector2 renderOffset, bool resetOffset) { }

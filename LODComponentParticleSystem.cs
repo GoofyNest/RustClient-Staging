@@ -1,5 +1,5 @@
 public abstract class LODComponentParticleSystem : LODComponent // TypeDefIndex: 9933
-{	[TooltipAttribute] // RVA: 0xAA0B0 Offset: 0xA94B0 VA: 0x1800AA0B0
+{	[TooltipAttribute] // RVA: 0xA9CD0 Offset: 0xA90D0 VA: 0x1800A9CD0
 	public bool playOnShow; // 0x80
 	protected ParticleSystem particleSystem; // 0x88
 	protected Renderer particleSystemRenderer; // 0x90

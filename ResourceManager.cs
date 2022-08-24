@@ -1,6 +1,6 @@
 public class ResourceManager // TypeDefIndex: 491
 {	protected string BaseNameField; // 0x10
-	[ObsoleteAttribute] // RVA: 0x965F0 Offset: 0x959F0 VA: 0x1800965F0
+	[ObsoleteAttribute] // RVA: 0x96690 Offset: 0x95A90 VA: 0x180096690
 	protected Hashtable ResourceSets; // 0x18
 	private Dictionary<string, ResourceSet> _resourceSets; // 0x20
 	private string moduleDir; // 0x28
@@ -11,7 +11,7 @@ public class ResourceManager // TypeDefIndex: 491
 	private ResourceManager.CultureNameResourceSetPair _lastUsedResourceCache; // 0x50
 	private bool _ignoreCase; // 0x58
 	private bool UseManifest; // 0x59
-	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
+	[OptionalFieldAttribute] // RVA: 0x96730 Offset: 0x95B30 VA: 0x180096730
 	private bool UseSatelliteAssem; // 0x5A
 	[OptionalFieldAttribute] // RVA: 0x7B5F0 Offset: 0x7A9F0 VA: 0x18007B5F0
 	private UltimateResourceFallbackLocation _fallbackLoc; // 0x5C
@@ -19,9 +19,9 @@ public class ResourceManager // TypeDefIndex: 491
 	private Version _satelliteContractVersion; // 0x60
 	[OptionalFieldAttribute] // RVA: 0x7B5F0 Offset: 0x7A9F0 VA: 0x18007B5F0
 	private bool _lookedForSatelliteContractVersion; // 0x68
-	[OptionalFieldAttribute] // RVA: 0x96650 Offset: 0x95A50 VA: 0x180096650
+	[OptionalFieldAttribute] // RVA: 0x96730 Offset: 0x95B30 VA: 0x180096730
 	private Assembly _callingAssembly; // 0x70
-	[OptionalFieldAttribute] // RVA: 0x7B780 Offset: 0x7AB80 VA: 0x18007B780
+	[OptionalFieldAttribute] // RVA: 0x7B750 Offset: 0x7AB50 VA: 0x18007B750
 	private RuntimeAssembly m_callingAssembly; // 0x78
 	private IResourceGroveler resourceGroveler; // 0x80
 	public static readonly int MagicNumber; // 0x0

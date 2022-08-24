@@ -5,19 +5,19 @@ internal static class SourceServerQuery // TypeDefIndex: 5258
 
 	internal static Task<Dictionary<string, string>> GetRules(ServerInfo server) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x998D0 Offset: 0x98CD0 VA: 0x1800998D0
+	[AsyncStateMachineAttribute] // RVA: 0x99A60 Offset: 0x98E60 VA: 0x180099A60
 	private static Task<Dictionary<string, string>> GetRulesImpl(IPEndPoint endpoint) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x99D20 Offset: 0x99120 VA: 0x180099D20
+	[AsyncStateMachineAttribute] // RVA: 0x99E20 Offset: 0x99220 VA: 0x180099E20
 	private static Task<Dictionary<string, string>> GetRules(UdpClient client) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x99F10 Offset: 0x99310 VA: 0x180099F10
+	[AsyncStateMachineAttribute] // RVA: 0x99FA0 Offset: 0x993A0 VA: 0x180099FA0
 	private static Task<byte[]> Receive(UdpClient client) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9A0B0 Offset: 0x994B0 VA: 0x18009A0B0
+	[AsyncStateMachineAttribute] // RVA: 0x9A0A0 Offset: 0x994A0 VA: 0x18009A0A0
 	private static Task<byte[]> GetChallengeData(UdpClient client) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9A330 Offset: 0x99730 VA: 0x18009A330
+	[AsyncStateMachineAttribute] // RVA: 0x9A2D0 Offset: 0x996D0 VA: 0x18009A2D0
 	private static Task Send(UdpClient client, byte[] message) { }
 
 	private static byte[] Combine(byte[][] arrays) { }

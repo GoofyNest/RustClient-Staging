@@ -1,23 +1,23 @@
 public static class Assert // TypeDefIndex: 3904
-{	[ObsoleteAttribute] // RVA: 0x85CE0 Offset: 0x850E0 VA: 0x180085CE0
-	public static bool raiseExceptions; // 0x2B117E4
+{	[ObsoleteAttribute] // RVA: 0x85B90 Offset: 0x84F90 VA: 0x180085B90
+	public static bool raiseExceptions; // 0x135E0
 
 
 	private static void Fail(string message, string userMessage) { }
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void IsTrue(bool condition) { }
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void IsTrue(bool condition, string message) { }
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void IsFalse(bool condition) { }
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void IsFalse(bool condition, string message) { }
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void AreEqual<T>(T expected, T actual) { }
 	/* GenericInstMethod :
 	|
@@ -27,7 +27,7 @@ public static class Assert // TypeDefIndex: 3904
 	|-Assert.AreEqual<uint>
 	*/
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void AreEqual<T>(T expected, T actual, string message) { }
 	/* GenericInstMethod :
 	|
@@ -38,7 +38,7 @@ public static class Assert // TypeDefIndex: 3904
 	|-Assert.AreEqual<uint>
 	*/
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void AreEqual<T>(T expected, T actual, string message, IEqualityComparer<T> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -49,10 +49,10 @@ public static class Assert // TypeDefIndex: 3904
 	|-Assert.AreEqual<uint>
 	*/
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void AreEqual(Object expected, Object actual, string message) { }
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void IsNotNull<T>(T value) { }
 	/* GenericInstMethod :
 	|
@@ -66,7 +66,7 @@ public static class Assert // TypeDefIndex: 3904
 	|-Assert.IsNotNull<Texture>
 	*/
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void IsNotNull<T>(T value, string message) { }
 	/* GenericInstMethod :
 	|
@@ -79,13 +79,13 @@ public static class Assert // TypeDefIndex: 3904
 	|-Assert.IsNotNull<PostProcessEffectSettings>
 	*/
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void IsNotNull(Object value, string message) { }
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void AreEqual(int expected, int actual) { }
 
-	[ConditionalAttribute] // RVA: 0x7CE40 Offset: 0x7C240 VA: 0x18007CE40
+	[ConditionalAttribute] // RVA: 0x7CD10 Offset: 0x7C110 VA: 0x18007CD10
 	public static void AreEqual(uint expected, uint actual) { }
 
 	private static void .cctor() { }

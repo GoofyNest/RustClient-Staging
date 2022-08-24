@@ -2,9 +2,9 @@ public sealed class QualitySettings : Object // TypeDefIndex: 3395
 {	public static int pixelLightCount { get; }
 	public static int shadowCascades { get; set; }
 	public static float shadowDistance { get; set; }
-	[NativePropertyAttribute] // RVA: 0x8D760 Offset: 0x8CB60 VA: 0x18008D760
+	[NativePropertyAttribute] // RVA: 0x8D690 Offset: 0x8CA90 VA: 0x18008D690
 	public static float lodBias { get; set; }
-	[NativePropertyAttribute] // RVA: 0x8D7B0 Offset: 0x8CBB0 VA: 0x18008D7B0
+	[NativePropertyAttribute] // RVA: 0x8D6E0 Offset: 0x8CAE0 VA: 0x18008D6E0
 	public static AnisotropicFiltering anisotropicFiltering { get; set; }
 	public static int masterTextureLimit { get; }
 	public static int maximumLODLevel { get; }
@@ -16,7 +16,7 @@ public sealed class QualitySettings : Object // TypeDefIndex: 3395
 	public static bool streamingMipmapsActive { get; set; }
 	public static float streamingMipmapsMemoryBudget { get; set; }
 	public static int streamingMipmapsMaxLevelReduction { get; }
-	[StaticAccessorAttribute] // RVA: 0x8D9E0 Offset: 0x8CDE0 VA: 0x18008D9E0
+	[StaticAccessorAttribute] // RVA: 0x8D8E0 Offset: 0x8CCE0 VA: 0x18008D8E0
 	public static int maxQueuedFrames { get; set; }
 	public static ColorSpace activeColorSpace { get; }
 
@@ -71,14 +71,14 @@ public sealed class QualitySettings : Object // TypeDefIndex: 3395
 
 	public static void set_maxQueuedFrames(int value) { }
 
-	[NativeNameAttribute] // RVA: 0x8D370 Offset: 0x8C770 VA: 0x18008D370
+	[NativeNameAttribute] // RVA: 0x8D280 Offset: 0x8C680 VA: 0x18008D280
 	public static int GetQualityLevel() { }
 
-	[NativeNameAttribute] // RVA: 0x8D3F0 Offset: 0x8C7F0 VA: 0x18008D3F0
+	[NativeNameAttribute] // RVA: 0x8D300 Offset: 0x8C700 VA: 0x18008D300
 	public static void SetQualityLevel(int index, bool applyExpensiveChanges) { }
 
-	[StaticAccessorAttribute] // RVA: 0x8D580 Offset: 0x8C980 VA: 0x18008D580
-	[NativeNameAttribute] // RVA: 0x8D580 Offset: 0x8C980 VA: 0x18008D580
+	[StaticAccessorAttribute] // RVA: 0x8D430 Offset: 0x8C830 VA: 0x18008D430
+	[NativeNameAttribute] // RVA: 0x8D430 Offset: 0x8C830 VA: 0x18008D430
 	public static ColorSpace get_activeColorSpace() { }
 
 }

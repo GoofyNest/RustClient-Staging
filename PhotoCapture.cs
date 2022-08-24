@@ -24,15 +24,15 @@ public class PhotoCapture : IDisposable // TypeDefIndex: 3607
 
 	public void Dispose() { }
 
-	[NativeNameAttribute] // RVA: 0xDAE10 Offset: 0xDA210 VA: 0x1800DAE10
-	[NativeConditionalAttribute] // RVA: 0xDAE10 Offset: 0xDA210 VA: 0x1800DAE10
+	[NativeNameAttribute] // RVA: 0xDAF10 Offset: 0xDA310 VA: 0x1800DAF10
+	[NativeConditionalAttribute] // RVA: 0xDAF10 Offset: 0xDA310 VA: 0x1800DAF10
 	private void Dispose_Internal() { }
 
 	protected override void Finalize() { }
 
-	[NativeConditionalAttribute] // RVA: 0xDAFF0 Offset: 0xDA3F0 VA: 0x1800DAFF0
-	[NativeNameAttribute] // RVA: 0xDAFF0 Offset: 0xDA3F0 VA: 0x1800DAFF0
-	[ThreadAndSerializationSafeAttribute] // RVA: 0xDAFF0 Offset: 0xDA3F0 VA: 0x1800DAFF0
+	[NativeConditionalAttribute] // RVA: 0xDB0E0 Offset: 0xDA4E0 VA: 0x1800DB0E0
+	[NativeNameAttribute] // RVA: 0xDB0E0 Offset: 0xDA4E0 VA: 0x1800DB0E0
+	[ThreadAndSerializationSafeAttribute] // RVA: 0xDB0E0 Offset: 0xDA4E0 VA: 0x1800DB0E0
 	private void DisposeThreaded_Internal() { }
 
 	private static void .cctor() { }

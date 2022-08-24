@@ -1,5 +1,5 @@
 public class OnDemandRendering // TypeDefIndex: 3840
-{	private static int m_RenderFrameInterval; // 0x13AC3
+{	private static int m_RenderFrameInterval; // 0x2B10D14
 
 	public static int renderFrameInterval { get; }
 

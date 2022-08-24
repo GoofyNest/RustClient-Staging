@@ -3,7 +3,7 @@ public class RustControl : UIBehaviour, IPointerEnterHandler, IEventSystemHandle
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected StyleAsset _styles; // 0x18
 	public RustWrapper FormField; // 0x20
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public RustControl.State CurrentState; // 0x28
 
 	public virtual StyleAsset Styles { get; set; }

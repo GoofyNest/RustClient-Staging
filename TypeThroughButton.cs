@@ -5,7 +5,7 @@ public class TypeThroughButton : Button, IUpdateSelectedHandler, IEventSystemHan
 
 	public void OnUpdateSelected(BaseEventData eventData) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA2A90 Offset: 0xA1E90 VA: 0x1800A2A90
+	[IteratorStateMachineAttribute] // RVA: 0xA2740 Offset: 0xA1B40 VA: 0x1800A2740
 	private IEnumerator DelayedActivateTextField(Event e) { }
 
 	public void .ctor() { }

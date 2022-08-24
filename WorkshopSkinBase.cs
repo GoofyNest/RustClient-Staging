@@ -1,8 +1,8 @@
 public class WorkshopSkinBase : WorkshopBase // TypeDefIndex: 7720
 {	public static string[] itemName; // 0x0
-	[HeaderAttribute] // RVA: 0xC8D70 Offset: 0xC8170 VA: 0x1800C8D70
+	[HeaderAttribute] // RVA: 0xC8DC0 Offset: 0xC81C0 VA: 0x1800C8DC0
 	public WorkshopSkinBase.SkinType skinType; // 0x38
-	[FormerlySerializedAsAttribute] // RVA: 0xC8EB0 Offset: 0xC82B0 VA: 0x1800C8EB0
+	[FormerlySerializedAsAttribute] // RVA: 0xC8EF0 Offset: 0xC82F0 VA: 0x1800C8EF0
 	public Material skinMaterial0; // 0x40
 	public Material skinMaterial1; // 0x48
 	public Material skinMaterial2; // 0x50

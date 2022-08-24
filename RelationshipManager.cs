@@ -193,7 +193,7 @@ public class RelationshipManager : BaseEntity // TypeDefIndex: 8628
 	private const int MugshotMaxFileSize = 65536;
 	private const float MugshotMaxDistance = 50;
 	public static RelationshipManager.PlayerRelationships localRelationships; // 0x0
-	[ClientVar] // RVA: 0xB3C20 Offset: 0xB3020 VA: 0x1800B3C20
+	[ClientVar] // RVA: 0xB3DF0 Offset: 0xB31F0 VA: 0x1800B3DF0
 	public static Vector3 mugshotOffset; // 0x8
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private static RelationshipManager <ClientInstance>k__BackingField; // 0x18

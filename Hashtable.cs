@@ -37,12 +37,12 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 
 	public void .ctor(int capacity, float loadFactor) { }
 
-	[ObsoleteAttribute] // RVA: 0xE78B0 Offset: 0xE6CB0 VA: 0x1800E78B0
+	[ObsoleteAttribute] // RVA: 0xE7780 Offset: 0xE6B80 VA: 0x1800E7780
 	public void .ctor(int capacity, float loadFactor, IHashCodeProvider hcp, IComparer comparer) { }
 
 	public void .ctor(int capacity, float loadFactor, IEqualityComparer equalityComparer) { }
 
-	[ObsoleteAttribute] // RVA: 0xE7920 Offset: 0xE6D20 VA: 0x1800E7920
+	[ObsoleteAttribute] // RVA: 0xE77F0 Offset: 0xE6BF0 VA: 0x1800E77F0
 	public void .ctor(IHashCodeProvider hcp, IComparer comparer) { }
 
 	public void .ctor(IEqualityComparer equalityComparer) { }
@@ -55,7 +55,7 @@ public class Hashtable : IDictionary, ICollection, IEnumerable, ISerializable, I
 
 	public virtual void Add(object key, object value) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D50 Offset: 0x76150 VA: 0x180076D50
+	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
 	public virtual void Clear() { }
 
 	public virtual object Clone() { }

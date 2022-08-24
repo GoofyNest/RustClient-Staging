@@ -24,15 +24,15 @@ public class VideoCapture : IDisposable // TypeDefIndex: 3616
 
 	public void Dispose() { }
 
-	[NativeConditionalAttribute] // RVA: 0xDDB80 Offset: 0xDCF80 VA: 0x1800DDB80
-	[NativeMethodAttribute] // RVA: 0xDDB80 Offset: 0xDCF80 VA: 0x1800DDB80
+	[NativeConditionalAttribute] // RVA: 0xDDAB0 Offset: 0xDCEB0 VA: 0x1800DDAB0
+	[NativeMethodAttribute] // RVA: 0xDDAB0 Offset: 0xDCEB0 VA: 0x1800DDAB0
 	private void Dispose_Internal() { }
 
 	protected override void Finalize() { }
 
-	[NativeConditionalAttribute] // RVA: 0xDDCD0 Offset: 0xDD0D0 VA: 0x1800DDCD0
-	[ThreadAndSerializationSafeAttribute] // RVA: 0xDDCD0 Offset: 0xDD0D0 VA: 0x1800DDCD0
-	[NativeMethodAttribute] // RVA: 0xDDCD0 Offset: 0xDD0D0 VA: 0x1800DDCD0
+	[NativeConditionalAttribute] // RVA: 0xDDC20 Offset: 0xDD020 VA: 0x1800DDC20
+	[ThreadAndSerializationSafeAttribute] // RVA: 0xDDC20 Offset: 0xDD020 VA: 0x1800DDC20
+	[NativeMethodAttribute] // RVA: 0xDDC20 Offset: 0xDD020 VA: 0x1800DDC20
 	private void DisposeThreaded_Internal() { }
 
 	private static void .cctor() { }

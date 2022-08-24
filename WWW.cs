@@ -1,6 +1,6 @@
 public class WWW : CustomYieldInstruction, IDisposable // TypeDefIndex: 4755
 {
-[ObsoleteAttribute] // RVA: 0xB4E80 Offset: 0xB4280 VA: 0x1800B4E80
+[ObsoleteAttribute] // RVA: 0xB5000 Offset: 0xB4400 VA: 0x1800B5000
 public class WWW : CustomYieldInstruction, IDisposable // TypeDefIndex: 4755
 	private UnityWebRequest _uwr; // 0x10
 

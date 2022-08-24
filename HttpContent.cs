@@ -18,7 +18,7 @@ public abstract class HttpContent : IDisposable // TypeDefIndex: 5744
 
 	public Task CopyToAsync(Stream stream, TransportContext context) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1C30 Offset: 0xD1030 VA: 0x1800D1C30
+	[AsyncStateMachineAttribute] // RVA: 0xD1C90 Offset: 0xD1090 VA: 0x1800D1C90
 	protected virtual Task<Stream> CreateContentReadStreamAsync() { }
 
 	private static HttpContent.FixedMemoryStream CreateFixedMemoryStream(long maxBufferSize) { }
@@ -29,13 +29,13 @@ public abstract class HttpContent : IDisposable // TypeDefIndex: 5744
 
 	public Task LoadIntoBufferAsync() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1EA0 Offset: 0xD12A0 VA: 0x1800D1EA0
+	[AsyncStateMachineAttribute] // RVA: 0xD1E60 Offset: 0xD1260 VA: 0x1800D1E60
 	public Task LoadIntoBufferAsync(long maxBufferSize) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD2070 Offset: 0xD1470 VA: 0x1800D2070
+	[AsyncStateMachineAttribute] // RVA: 0xD1FE0 Offset: 0xD13E0 VA: 0x1800D1FE0
 	public Task<Stream> ReadAsStreamAsync() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD2260 Offset: 0xD1660 VA: 0x1800D2260
+	[AsyncStateMachineAttribute] // RVA: 0xD2180 Offset: 0xD1580 VA: 0x1800D2180
 	public Task<string> ReadAsStringAsync() { }
 
 	private static Encoding GetEncodingFromBuffer(byte[] buffer, int length, ref int preambleLength) { }

@@ -3,11 +3,11 @@ public class ChildrenScreenshot : MonoBehaviour // TypeDefIndex: 11304
 	public int width; // 0x24
 	public int height; // 0x28
 	public float fieldOfView; // 0x2C
-	[TooltipAttribute] // RVA: 0xA3F80 Offset: 0xA3380 VA: 0x1800A3F80
+	[TooltipAttribute] // RVA: 0xA3A00 Offset: 0xA2E00 VA: 0x1800A3A00
 	public string folder; // 0x30
 
 
-	[ContextMenu] // RVA: 0xA40F0 Offset: 0xA34F0 VA: 0x1800A40F0
+	[ContextMenu] // RVA: 0xA3B60 Offset: 0xA2F60 VA: 0x1800A3B60
 	public void CreateScreenshots() { }
 
 	public void PositionCamera(Camera cam, GameObject obj) { }

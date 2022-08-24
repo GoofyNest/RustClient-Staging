@@ -1,6 +1,6 @@
 public class LocalizeText : MonoBehaviour, IClientComponent, ILocalize // TypeDefIndex: 11280
 {	public string token; // 0x18
-	[TextAreaAttribute] // RVA: 0x72220 Offset: 0x71620 VA: 0x180072220
+	[TextAreaAttribute] // RVA: 0x72390 Offset: 0x71790 VA: 0x180072390
 	public string english; // 0x20
 	public string append; // 0x28
 	public LocalizeText.SpecialMode specialMode; // 0x30

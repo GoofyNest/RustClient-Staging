@@ -3,8 +3,8 @@ public class MarshalByValueComponent : IComponent, IDisposable, IServiceProvider
 	private ISite site; // 0x10
 	private EventHandlerList events; // 0x18
 
-	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E980 Offset: 0x9DD80 VA: 0x18009E980
-	[BrowsableAttribute] // RVA: 0x9E980 Offset: 0x9DD80 VA: 0x18009E980
+	[DesignerSerializationVisibilityAttribute] // RVA: 0x9E870 Offset: 0x9DC70 VA: 0x18009E870
+	[BrowsableAttribute] // RVA: 0x9E870 Offset: 0x9DC70 VA: 0x18009E870
 	public virtual ISite Site { get; }
 
 

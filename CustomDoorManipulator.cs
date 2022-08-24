@@ -18,10 +18,10 @@ public class CustomDoorManipulator : DoorManipulator // TypeDefIndex: 8376
 
 	public bool IsPaired() { }
 
-	[BaseEntity.Menu] // RVA: 0xD6390 Offset: 0xD5790 VA: 0x1800D6390
-	[BaseEntity.Menu.Description] // RVA: 0xD6390 Offset: 0xD5790 VA: 0x1800D6390
-	[BaseEntity.Menu.Icon] // RVA: 0xD6390 Offset: 0xD5790 VA: 0x1800D6390
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6390 Offset: 0xD5790 VA: 0x1800D6390
+	[BaseEntity.Menu] // RVA: 0xD6300 Offset: 0xD5700 VA: 0x1800D6300
+	[BaseEntity.Menu.Description] // RVA: 0xD6300 Offset: 0xD5700 VA: 0x1800D6300
+	[BaseEntity.Menu.Icon] // RVA: 0xD6300 Offset: 0xD5700 VA: 0x1800D6300
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6300 Offset: 0xD5700 VA: 0x1800D6300
 	public void Menu_Pair(BasePlayer player) { }
 
 	public bool Menu_Pair_ShowIf(BasePlayer player) { }
@@ -30,18 +30,18 @@ public class CustomDoorManipulator : DoorManipulator // TypeDefIndex: 8376
 
 	public void RequestActionChange(DoorManipulator.DoorEffect newAction) { }
 
-	[BaseEntity.Menu] // RVA: 0xD65F0 Offset: 0xD59F0 VA: 0x1800D65F0
-	[BaseEntity.Menu.Description] // RVA: 0xD65F0 Offset: 0xD59F0 VA: 0x1800D65F0
-	[BaseEntity.Menu.Icon] // RVA: 0xD65F0 Offset: 0xD59F0 VA: 0x1800D65F0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD65F0 Offset: 0xD59F0 VA: 0x1800D65F0
+	[BaseEntity.Menu] // RVA: 0xD6560 Offset: 0xD5960 VA: 0x1800D6560
+	[BaseEntity.Menu.Description] // RVA: 0xD6560 Offset: 0xD5960 VA: 0x1800D6560
+	[BaseEntity.Menu.Icon] // RVA: 0xD6560 Offset: 0xD5960 VA: 0x1800D6560
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6560 Offset: 0xD5960 VA: 0x1800D6560
 	public void Menu_SetOpen(BasePlayer player) { }
 
 	public bool Menu_SetOpen_ShowIf(BasePlayer player) { }
 
-	[BaseEntity.Menu] // RVA: 0xD6890 Offset: 0xD5C90 VA: 0x1800D6890
-	[BaseEntity.Menu.Description] // RVA: 0xD6890 Offset: 0xD5C90 VA: 0x1800D6890
-	[BaseEntity.Menu.Icon] // RVA: 0xD6890 Offset: 0xD5C90 VA: 0x1800D6890
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6890 Offset: 0xD5C90 VA: 0x1800D6890
+	[BaseEntity.Menu] // RVA: 0xD6800 Offset: 0xD5C00 VA: 0x1800D6800
+	[BaseEntity.Menu.Description] // RVA: 0xD6800 Offset: 0xD5C00 VA: 0x1800D6800
+	[BaseEntity.Menu.Icon] // RVA: 0xD6800 Offset: 0xD5C00 VA: 0x1800D6800
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6800 Offset: 0xD5C00 VA: 0x1800D6800
 	public void Menu_SetClose(BasePlayer player) { }
 
 	public bool Menu_SetClose_ShowIf(BasePlayer player) { }

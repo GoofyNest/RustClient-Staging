@@ -1,9 +1,9 @@
 public class hitnotify : ConsoleSystem // TypeDefIndex: 11985
-{	[ClientVar] // RVA: 0xC91B0 Offset: 0xC85B0 VA: 0x1800C91B0
-	[HelpAttribute] // RVA: 0xC91B0 Offset: 0xC85B0 VA: 0x1800C91B0
+{	[ClientVar] // RVA: 0xC8A70 Offset: 0xC7E70 VA: 0x1800C8A70
+	[HelpAttribute] // RVA: 0xC8A70 Offset: 0xC7E70 VA: 0x1800C8A70
 	public static int notification_level; // 0x0
-	[ClientVar] // RVA: 0xC92E0 Offset: 0xC86E0 VA: 0x1800C92E0
-	[HelpAttribute] // RVA: 0xC92E0 Offset: 0xC86E0 VA: 0x1800C92E0
+	[ClientVar] // RVA: 0xC8B50 Offset: 0xC7F50 VA: 0x1800C8B50
+	[HelpAttribute] // RVA: 0xC8B50 Offset: 0xC7F50 VA: 0x1800C8B50
 	public static bool headshot; // 0x4
 
 

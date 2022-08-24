@@ -1,5 +1,5 @@
 public class TreeEntity : ResourceEntity, IPrefabPreProcess // TypeDefIndex: 8657
-{	[HeaderAttribute] // RVA: 0xB72E0 Offset: 0xB66E0 VA: 0x1800B72E0
+{	[HeaderAttribute] // RVA: 0xB7320 Offset: 0xB6720 VA: 0x1800B7320
 	public bool fallOnKilled; // 0x180
 	public float fallDuration; // 0x184
 	public GameObjectRef fallStartSound; // 0x188

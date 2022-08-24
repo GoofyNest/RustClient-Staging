@@ -253,22 +253,22 @@ public class ProjectileShoot.Projectile : IDisposable, Pool.IPooled, IProto // T
 }
 
 public class BaseProjectile : AttackEntity // TypeDefIndex: 8529
-{	[HeaderAttribute] // RVA: 0xA5FA0 Offset: 0xA53A0 VA: 0x1800A5FA0
+{	[HeaderAttribute] // RVA: 0xA5ED0 Offset: 0xA52D0 VA: 0x1800A5ED0
 	public float NoiseRadius; // 0x280
-	[HeaderAttribute] // RVA: 0xA73A0 Offset: 0xA67A0 VA: 0x1800A73A0
+	[HeaderAttribute] // RVA: 0xA72D0 Offset: 0xA66D0 VA: 0x1800A72D0
 	public float damageScale; // 0x284
 	public float distanceScale; // 0x288
 	public float projectileVelocityScale; // 0x28C
 	public bool automatic; // 0x290
 	public bool usableByTurret; // 0x291
-	[TooltipAttribute] // RVA: 0xA73D0 Offset: 0xA67D0 VA: 0x1800A73D0
+	[TooltipAttribute] // RVA: 0xA7300 Offset: 0xA6700 VA: 0x1800A7300
 	public float turretDamageScale; // 0x294
-	[HeaderAttribute] // RVA: 0x78850 Offset: 0x77C50 VA: 0x180078850
+	[HeaderAttribute] // RVA: 0x78870 Offset: 0x77C70 VA: 0x180078870
 	public GameObjectRef attackFX; // 0x298
 	public GameObjectRef silencedAttack; // 0x2A0
 	public GameObjectRef muzzleBrakeAttack; // 0x2A8
 	public Transform MuzzlePoint; // 0x2B0
-	[HeaderAttribute] // RVA: 0xA7590 Offset: 0xA6990 VA: 0x1800A7590
+	[HeaderAttribute] // RVA: 0xA7460 Offset: 0xA6860 VA: 0x1800A7460
 	public float reloadTime; // 0x2B8
 	public bool canUnloadAmmo; // 0x2BC
 	public BaseProjectile.Magazine primaryMagazine; // 0x2C0
@@ -276,11 +276,11 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 8529
 	public float reloadStartDuration; // 0x2CC
 	public float reloadFractionDuration; // 0x2D0
 	public float reloadEndDuration; // 0x2D4
-	[HeaderAttribute] // RVA: 0x7C220 Offset: 0x7B620 VA: 0x18007C220
+	[HeaderAttribute] // RVA: 0x7C240 Offset: 0x7B640 VA: 0x18007C240
 	public float aimSway; // 0x2D8
 	public float aimSwaySpeed; // 0x2DC
 	public RecoilProperties recoil; // 0x2E0
-	[HeaderAttribute] // RVA: 0x7C290 Offset: 0x7B690 VA: 0x18007C290
+	[HeaderAttribute] // RVA: 0x7C2B0 Offset: 0x7B6B0 VA: 0x18007C2B0
 	public AnimationCurve aimconeCurve; // 0x2E8
 	public float aimCone; // 0x2F0
 	public float hipAimCone; // 0x2F4
@@ -289,7 +289,7 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 8529
 	public float aimconePenaltyRecoverTime; // 0x300
 	public float aimconePenaltyRecoverDelay; // 0x304
 	public float stancePenaltyScale; // 0x308
-	[HeaderAttribute] // RVA: 0xA76E0 Offset: 0xA6AE0 VA: 0x1800A76E0
+	[HeaderAttribute] // RVA: 0xA75F0 Offset: 0xA69F0 VA: 0x1800A75F0
 	public bool hasADS; // 0x30C
 	public bool noAimingWhileCycling; // 0x30D
 	public bool manualCycle; // 0x30E
@@ -446,7 +446,7 @@ public class BaseProjectile.Magazine // TypeDefIndex: 8530
 {	public BaseProjectile.Magazine.Definition definition; // 0x10
 	public int capacity; // 0x18
 	public int contents; // 0x1C
-	[ItemSelector] // RVA: 0xA77B0 Offset: 0xA6BB0 VA: 0x1800A77B0
+	[ItemSelector] // RVA: 0xA7740 Offset: 0xA6B40 VA: 0x1800A7740
 	public ItemDefinition ammoType; // 0x20
 
 
@@ -463,10 +463,10 @@ public class BaseProjectile.Magazine // TypeDefIndex: 8530
 }
 
 public struct BaseProjectile.Magazine.Definition // TypeDefIndex: 8531
-{	[TooltipAttribute] // RVA: 0xA7800 Offset: 0xA6C00 VA: 0x1800A7800
+{	[TooltipAttribute] // RVA: 0xA77D0 Offset: 0xA6BD0 VA: 0x1800A77D0
 	public int builtInSize; // 0x0
-	[TooltipAttribute] // RVA: 0xA7B00 Offset: 0xA6F00 VA: 0x1800A7B00
-	[InspectorFlagsAttribute] // RVA: 0xA7B00 Offset: 0xA6F00 VA: 0x1800A7B00
+	[TooltipAttribute] // RVA: 0xA7AD0 Offset: 0xA6ED0 VA: 0x1800A7AD0
+	[InspectorFlagsAttribute] // RVA: 0xA7AD0 Offset: 0xA6ED0 VA: 0x1800A7AD0
 	public AmmoTypes ammoTypes; // 0x4
 
 }
@@ -618,46 +618,46 @@ private sealed class BaseProjectile.<>c__DisplayClass84_0 // TypeDefIndex: 8533
 public class Projectile : BaseMonoBehaviour // TypeDefIndex: 9223
 {	public const float moveDeltaTime = 0,03125;
 	public const float lifeTime = 8;
-	[HeaderAttribute] // RVA: 0xDA3F0 Offset: 0xD97F0 VA: 0x1800DA3F0
+	[HeaderAttribute] // RVA: 0xDA470 Offset: 0xD9870 VA: 0x1800DA470
 	public Vector3 initialVelocity; // 0x18
 	public float drag; // 0x24
 	public float gravityModifier; // 0x28
 	public float thickness; // 0x2C
-	[TooltipAttribute] // RVA: 0xDA5C0 Offset: 0xD99C0 VA: 0x1800DA5C0
+	[TooltipAttribute] // RVA: 0xDA690 Offset: 0xD9A90 VA: 0x1800DA690
 	public float initialDistance; // 0x30
-	[HeaderAttribute] // RVA: 0xDA6D0 Offset: 0xD9AD0 VA: 0x1800DA6D0
+	[HeaderAttribute] // RVA: 0xDA770 Offset: 0xD9B70 VA: 0x1800DA770
 	public bool remainInWorld; // 0x34
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float stickProbability; // 0x38
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float breakProbability; // 0x3C
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float conditionLoss; // 0x40
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float ricochetChance; // 0x44
 	public float penetrationPower; // 0x48
-	[HeaderAttribute] // RVA: 0xCB770 Offset: 0xCAB70 VA: 0x1800CB770
+	[HeaderAttribute] // RVA: 0xCB840 Offset: 0xCAC40 VA: 0x1800CB840
 	public DamageProperties damageProperties; // 0x50
-	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
+	[HorizontalAttribute] // RVA: 0xC90C0 Offset: 0xC84C0 VA: 0x1800C90C0
 	public MinMax damageDistances; // 0x58
-	[HorizontalAttribute] // RVA: 0xC9110 Offset: 0xC8510 VA: 0x1800C9110
+	[HorizontalAttribute] // RVA: 0xC90C0 Offset: 0xC84C0 VA: 0x1800C90C0
 	public MinMax damageMultipliers; // 0x60
 	public List<DamageTypeEntry> damageTypes; // 0x68
-	[HeaderAttribute] // RVA: 0xDAD20 Offset: 0xDA120 VA: 0x1800DAD20
+	[HeaderAttribute] // RVA: 0xDAD60 Offset: 0xDA160 VA: 0x1800DAD60
 	public ScaleRenderer rendererToScale; // 0x70
 	public ScaleRenderer firstPersonRenderer; // 0x78
 	public bool createDecals; // 0x80
-	[HeaderAttribute] // RVA: 0x78850 Offset: 0x77C50 VA: 0x180078850
+	[HeaderAttribute] // RVA: 0x78870 Offset: 0x77C70 VA: 0x180078870
 	public bool doDefaultHitEffects; // 0x81
-	[HeaderAttribute] // RVA: 0x72120 Offset: 0x71520 VA: 0x180072120
+	[HeaderAttribute] // RVA: 0x72260 Offset: 0x71660 VA: 0x180072260
 	public SoundDefinition flybySound; // 0x88
 	public float flybySoundDistance; // 0x90
 	public SoundDefinition closeFlybySound; // 0x98
 	public float closeFlybyDistance; // 0xA0
-	[HeaderAttribute] // RVA: 0xDAFC0 Offset: 0xDA3C0 VA: 0x1800DAFC0
+	[HeaderAttribute] // RVA: 0xDB0B0 Offset: 0xDA4B0 VA: 0x1800DB0B0
 	public float tumbleSpeed; // 0xA4
 	public Vector3 tumbleAxis; // 0xA8
-	[HeaderAttribute] // RVA: 0xDB120 Offset: 0xDA520 VA: 0x1800DB120
+	[HeaderAttribute] // RVA: 0xDB240 Offset: 0xDA640 VA: 0x1800DB240
 	public Vector3 swimScale; // 0xB4
 	public Vector3 swimSpeed; // 0xC0
 	public BasePlayer owner; // 0xD0
@@ -798,11 +798,11 @@ public class AttackedAIEvent : BaseAIEvent // TypeDefIndex: 9392
 }
 
 public class AttackEntity : HeldEntity // TypeDefIndex: 9460
-{	[HeaderAttribute] // RVA: 0x71690 Offset: 0x70A90 VA: 0x180071690
+{	[HeaderAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
 	public float deployDelay; // 0x1F8
 	public float repeatDelay; // 0x1FC
 	public float animationDelay; // 0x200
-	[HeaderAttribute] // RVA: 0x717D0 Offset: 0x70BD0 VA: 0x1800717D0
+	[HeaderAttribute] // RVA: 0x718A0 Offset: 0x70CA0 VA: 0x1800718A0
 	public float effectiveRange; // 0x204
 	public float npcDamageScale; // 0x208
 	public float attackLengthMin; // 0x20C
@@ -818,7 +818,7 @@ public class AttackEntity : HeldEntity // TypeDefIndex: 9460
 	public bool CanUseAtLongRange; // 0x231
 	public SoundDefinition[] reloadSounds; // 0x238
 	public SoundDefinition thirdPersonMeleeSound; // 0x240
-	[HeaderAttribute] // RVA: 0x71930 Offset: 0x70D30 VA: 0x180071930
+	[HeaderAttribute] // RVA: 0x71990 Offset: 0x70D90 VA: 0x180071990
 	public float recoilCompDelayOverride; // 0x248
 	public bool wantsRecoilComp; // 0x24C
 	private float nextAttackTime; // 0x250
@@ -879,31 +879,31 @@ public class AttackEntity : HeldEntity // TypeDefIndex: 9460
 }
 
 public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 9626
-{	[HeaderAttribute] // RVA: 0x7C060 Offset: 0x7B460 VA: 0x18007C060
+{	[HeaderAttribute] // RVA: 0x7C030 Offset: 0x7B430 VA: 0x18007C030
 	public GameObjectRef defaultSilencerEffect; // 0x168
 	public bool isSilencer; // 0x170
-	[HeaderAttribute] // RVA: 0x7C160 Offset: 0x7B560 VA: 0x18007C160
+	[HeaderAttribute] // RVA: 0x7C180 Offset: 0x7B580 VA: 0x18007C180
 	public ProjectileWeaponMod.Modifier repeatDelay; // 0x174
 	public ProjectileWeaponMod.Modifier projectileVelocity; // 0x180
 	public ProjectileWeaponMod.Modifier projectileDamage; // 0x18C
 	public ProjectileWeaponMod.Modifier projectileDistance; // 0x198
-	[HeaderAttribute] // RVA: 0x7C220 Offset: 0x7B620 VA: 0x18007C220
+	[HeaderAttribute] // RVA: 0x7C240 Offset: 0x7B640 VA: 0x18007C240
 	public ProjectileWeaponMod.Modifier aimsway; // 0x1A4
 	public ProjectileWeaponMod.Modifier aimswaySpeed; // 0x1B0
 	public ProjectileWeaponMod.Modifier recoil; // 0x1BC
-	[HeaderAttribute] // RVA: 0x7C290 Offset: 0x7B690 VA: 0x18007C290
+	[HeaderAttribute] // RVA: 0x7C2B0 Offset: 0x7B6B0 VA: 0x18007C2B0
 	public ProjectileWeaponMod.Modifier sightAimCone; // 0x1C8
 	public ProjectileWeaponMod.Modifier hipAimCone; // 0x1D4
-	[HeaderAttribute] // RVA: 0x7C3D0 Offset: 0x7B7D0 VA: 0x18007C3D0
+	[HeaderAttribute] // RVA: 0x7C3F0 Offset: 0x7B7F0 VA: 0x18007C3F0
 	public bool isLight; // 0x1E0
-	[HeaderAttribute] // RVA: 0x7C490 Offset: 0x7B890 VA: 0x18007C490
+	[HeaderAttribute] // RVA: 0x7C4B0 Offset: 0x7B8B0 VA: 0x18007C4B0
 	public bool isMuzzleBrake; // 0x1E1
-	[HeaderAttribute] // RVA: 0x7C650 Offset: 0x7BA50 VA: 0x18007C650
+	[HeaderAttribute] // RVA: 0x7C5F0 Offset: 0x7B9F0 VA: 0x18007C5F0
 	public bool isMuzzleBoost; // 0x1E2
-	[HeaderAttribute] // RVA: 0x7C730 Offset: 0x7BB30 VA: 0x18007C730
+	[HeaderAttribute] // RVA: 0x7C680 Offset: 0x7BA80 VA: 0x18007C680
 	public bool isScope; // 0x1E3
 	public float zoomAmountDisplayOnly; // 0x1E4
-	[HeaderAttribute] // RVA: 0x7C950 Offset: 0x7BD50 VA: 0x18007C950
+	[HeaderAttribute] // RVA: 0x7C850 Offset: 0x7BC50 VA: 0x18007C850
 	public ProjectileWeaponMod.Modifier magazineCapacity; // 0x1E8
 	public bool needsOnForEffects; // 0x1F4
 
@@ -934,9 +934,9 @@ public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 9626
 
 public struct ProjectileWeaponMod.Modifier // TypeDefIndex: 9627
 {	public bool enabled; // 0x0
-	[TooltipAttribute] // RVA: 0x7C9F0 Offset: 0x7BDF0 VA: 0x18007C9F0
+	[TooltipAttribute] // RVA: 0x7C8F0 Offset: 0x7BCF0 VA: 0x18007C8F0
 	public float scalar; // 0x4
-	[TooltipAttribute] // RVA: 0x7CAC0 Offset: 0x7BEC0 VA: 0x18007CAC0
+	[TooltipAttribute] // RVA: 0x7C990 Offset: 0x7BD90 VA: 0x18007C990
 	public float offset; // 0x8
 
 }

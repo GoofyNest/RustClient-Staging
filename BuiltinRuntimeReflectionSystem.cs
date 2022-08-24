@@ -6,7 +6,7 @@ internal class BuiltinRuntimeReflectionSystem : IScriptableRuntimeReflectionSyst
 
 	private void Dispose(bool disposing) { }
 
-	[StaticAccessorAttribute] // RVA: 0x84010 Offset: 0x83410 VA: 0x180084010
+	[StaticAccessorAttribute] // RVA: 0x83F50 Offset: 0x83350 VA: 0x180083F50
 	private static bool BuiltinUpdate() { }
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

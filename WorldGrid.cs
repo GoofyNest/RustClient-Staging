@@ -26,7 +26,7 @@ public class WorldGrid : SingletonComponent<WorldGrid>, IClientComponent // Type
 
 	public void ResetTimeout() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xB34C0 Offset: 0xB28C0 VA: 0x1800B34C0
+	[IteratorStateMachineAttribute] // RVA: 0xB2EE0 Offset: 0xB22E0 VA: 0x1800B2EE0
 	private IEnumerator UpdateCoroutine() { }
 
 	private Vector2i GetCurrentCellCoordinates() { }

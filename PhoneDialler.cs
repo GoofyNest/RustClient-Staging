@@ -97,7 +97,7 @@ public class PhoneDialler : UIDialog // TypeDefIndex: 10901
 
 	private void UpdateIncomingCallText(PhoneController c) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x891D0 Offset: 0x885D0 VA: 0x1800891D0
+	[IteratorStateMachineAttribute] // RVA: 0x887B0 Offset: 0x87BB0 VA: 0x1800887B0
 	private IEnumerator PlayInputBeepsForPhoneNumber(string number) { }
 
 	public void OnReceivedAnsweringMessage(float length, bool canLeaveVoicemail) { }

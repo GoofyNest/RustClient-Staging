@@ -26,7 +26,7 @@ internal class PathList // TypeDefIndex: 2945
 }
 
 private class PathList.PathListComparer : IComparer // TypeDefIndex: 2946
-{	internal static readonly PathList.PathListComparer StaticInstance; // 0x2B11A90
+{	internal static readonly PathList.PathListComparer StaticInstance; // 0x147E0
 
 
 	private int System.Collections.IComparer.Compare(object ol, object or) { }

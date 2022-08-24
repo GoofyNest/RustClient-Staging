@@ -4,9 +4,9 @@ public class TaiwanCalendar : Calendar // TypeDefIndex: 717
 	internal GregorianCalendarHelper helper; // 0x20
 	internal static readonly DateTime calendarMinValue; // 0x10
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public override DateTime MinSupportedDateTime { get; }
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public override DateTime MaxSupportedDateTime { get; }
 	internal override int ID { get; }
 	public override int[] Eras { get; }

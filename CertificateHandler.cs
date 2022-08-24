@@ -4,7 +4,7 @@ public class CertificateHandler : IDisposable // TypeDefIndex: 4131
 
 	private static IntPtr Create(CertificateHandler obj) { }
 
-	[NativeMethodAttribute] // RVA: 0x90760 Offset: 0x8FB60 VA: 0x180090760
+	[NativeMethodAttribute] // RVA: 0x90660 Offset: 0x8FA60 VA: 0x180090660
 	private void Release() { }
 
 	protected void .ctor() { }

@@ -1,12 +1,12 @@
 public class VolumetricDustParticles : MonoBehaviour // TypeDefIndex: 11560
-{	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+{	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float alpha; // 0x18
-	[RangeAttribute] // RVA: 0xC38C0 Offset: 0xC2CC0 VA: 0x1800C38C0
+	[RangeAttribute] // RVA: 0xC21B0 Offset: 0xC15B0 VA: 0x1800C21B0
 	public float size; // 0x1C
 	public VolumetricDustParticles.Direction direction; // 0x20
 	public float speed; // 0x24
 	public float density; // 0x28
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float spawnMaxDistance; // 0x2C
 	public bool cullingEnabled; // 0x30
 	public float cullingMaxDistance; // 0x34

@@ -1,29 +1,29 @@
 public struct Mathf // TypeDefIndex: 3469
-{	public static readonly float Epsilon; // 0x2B117B0
+{	public static readonly float Epsilon; // 0x14960
 
 
-	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
+	[FreeFunctionAttribute] // RVA: 0x85620 Offset: 0x84A20 VA: 0x180085620
 	public static int ClosestPowerOfTwo(int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
+	[FreeFunctionAttribute] // RVA: 0x85620 Offset: 0x84A20 VA: 0x180085620
 	public static bool IsPowerOfTwo(int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
+	[FreeFunctionAttribute] // RVA: 0x85620 Offset: 0x84A20 VA: 0x180085620
 	public static int NextPowerOfTwo(int value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
+	[FreeFunctionAttribute] // RVA: 0x85620 Offset: 0x84A20 VA: 0x180085620
 	public static float GammaToLinearSpace(float value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
+	[FreeFunctionAttribute] // RVA: 0x85620 Offset: 0x84A20 VA: 0x180085620
 	public static float LinearToGammaSpace(float value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
+	[FreeFunctionAttribute] // RVA: 0x85620 Offset: 0x84A20 VA: 0x180085620
 	public static ushort FloatToHalf(float val) { }
 
-	[FreeFunctionAttribute] // RVA: 0x856F0 Offset: 0x84AF0 VA: 0x1800856F0
+	[FreeFunctionAttribute] // RVA: 0x85620 Offset: 0x84A20 VA: 0x180085620
 	public static float HalfToFloat(ushort val) { }
 
-	[FreeFunctionAttribute] // RVA: 0xB03C0 Offset: 0xAF7C0 VA: 0x1800B03C0
+	[FreeFunctionAttribute] // RVA: 0xB03F0 Offset: 0xAF7F0 VA: 0x1800B03F0
 	public static float PerlinNoise(float x, float y) { }
 
 	public static float Sin(float f) { }

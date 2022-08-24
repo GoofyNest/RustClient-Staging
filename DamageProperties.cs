@@ -1,6 +1,6 @@
 public class DamageProperties : ScriptableObject // TypeDefIndex: 9979
 {	public DamageProperties fallback; // 0x18
-	[HorizontalAttribute] // RVA: 0xAA500 Offset: 0xA9900 VA: 0x1800AA500
+	[HorizontalAttribute] // RVA: 0xAA030 Offset: 0xA9430 VA: 0x1800AA030
 	public DamageProperties.HitAreaProperty[] bones; // 0x20
 
 

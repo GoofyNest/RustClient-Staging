@@ -715,7 +715,7 @@ public class DemoShotRecorder : SingletonComponent<DemoShotRecorder> // TypeDefI
 
 	public float get_ShotStartTime() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xD6700 Offset: 0xD5B00 VA: 0x1800D6700
+	[IteratorStateMachineAttribute] // RVA: 0xD66C0 Offset: 0xD5AC0 VA: 0x1800D66C0
 	private IEnumerator StartRecording(string shotName, DemoShotRecorder.RecorderSettings withSettings) { }
 
 	public void CancelRecording() { }
@@ -884,7 +884,7 @@ public class DemoPlaybackWidget : MonoBehaviour // TypeDefIndex: 10860
 
 	public void OnClickedNextFrame() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x801F0 Offset: 0x7F5F0 VA: 0x1800801F0
+	[IteratorStateMachineAttribute] // RVA: 0x7FA30 Offset: 0x7EE30 VA: 0x18007FA30
 	private IEnumerator WaitAndPause() { }
 
 	public void OnClickedPreviousFrame() { }
@@ -1321,17 +1321,17 @@ private sealed class Demos.<>c__DisplayClass17_0 // TypeDefIndex: 11107
 public class Demo : ConsoleSystem // TypeDefIndex: 11911
 {	public static uint Version; // 0x0
 	private static bool _hud; // 0x4
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static float timescale; // 0x8
 	private static bool renableNametags; // 0xC
-	[ClientVar] // RVA: 0x96400 Offset: 0x95800 VA: 0x180096400
+	[ClientVar] // RVA: 0x95C80 Offset: 0x95080 VA: 0x180095C80
 	public static bool autoDebugCam; // 0xD
-	[ClientVar] // RVA: 0x964C0 Offset: 0x958C0 VA: 0x1800964C0
+	[ClientVar] // RVA: 0x95E80 Offset: 0x95280 VA: 0x180095E80
 	public static bool compressShotKeyframes; // 0xE
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool showLocalPlayerNameTag; // 0xF
 
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool hud { get; set; }
 	public static float TimeScale { get; }
 	public static string lastRecordedDemoName { get; set; }
@@ -1341,53 +1341,53 @@ public class Demo : ConsoleSystem // TypeDefIndex: 11911
 
 	public static void set_hud(bool value) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void togglehud(ConsoleSystem.Arg arg) { }
 
 	public static float get_TimeScale() { }
 
-	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
+	[ClientVar] // RVA: 0x812A0 Offset: 0x806A0 VA: 0x1800812A0
 	public static string record(string filename) { }
 
-	[ClientVar] // RVA: 0x966C0 Offset: 0x95AC0 VA: 0x1800966C0
+	[ClientVar] // RVA: 0x961C0 Offset: 0x955C0 VA: 0x1800961C0
 	public static void recorder() { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static string stop() { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static string play(string filename) { }
 
 	public static void TryRunDemoCfg(string demoName) { }
 
-	[ClientVar] // RVA: 0x96840 Offset: 0x95C40 VA: 0x180096840
+	[ClientVar] // RVA: 0x96410 Offset: 0x95810 VA: 0x180096410
 	public static string skip(float seconds) { }
 
-	[ClientVar] // RVA: 0x96AC0 Offset: 0x95EC0 VA: 0x180096AC0
+	[ClientVar] // RVA: 0x964D0 Offset: 0x958D0 VA: 0x1800964D0
 	public static string jump(float seconds) { }
 
-	[ClientVar] // RVA: 0x96B30 Offset: 0x95F30 VA: 0x180096B30
+	[ClientVar] // RVA: 0x96600 Offset: 0x95A00 VA: 0x180096600
 	public static string playernames() { }
 
-	[ClientVar] // RVA: 0x96C00 Offset: 0x96000 VA: 0x180096C00
+	[ClientVar] // RVA: 0x966F0 Offset: 0x95AF0 VA: 0x1800966F0
 	public static void browser() { }
 
 	public static string get_lastRecordedDemoName() { }
 
 	public static void set_lastRecordedDemoName(string value) { }
 
-	[ClientVar] // RVA: 0x96C40 Offset: 0x96040 VA: 0x180096C40
+	[ClientVar] // RVA: 0x967A0 Offset: 0x95BA0 VA: 0x1800967A0
 	public static string toggleNVG(ConsoleSystem.Arg args) { }
 
-	[ClientVar] // RVA: 0x96EA0 Offset: 0x962A0 VA: 0x180096EA0
+	[ClientVar] // RVA: 0x96810 Offset: 0x95C10 VA: 0x180096810
 	public static string pause() { }
 
-	[ClientVar] // RVA: 0x96F90 Offset: 0x96390 VA: 0x180096F90
+	[ClientVar] // RVA: 0x968D0 Offset: 0x95CD0 VA: 0x1800968D0
 	public static string resume() { }
 
 	public static string playShot(DemoShot shot) { }
 
-	[ClientVar] // RVA: 0x97140 Offset: 0x96540 VA: 0x180097140
+	[ClientVar] // RVA: 0x96970 Offset: 0x95D70 VA: 0x180096970
 	public static void readcfg() { }
 
 	public void .ctor() { }

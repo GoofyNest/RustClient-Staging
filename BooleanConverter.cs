@@ -1,5 +1,5 @@
 public class BooleanConverter : TypeConverter // TypeDefIndex: 2669
-{	private static TypeConverter.StandardValuesCollection values; // 0x13640
+{	private static TypeConverter.StandardValuesCollection values; // 0x14634
 
 
 	public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType) { }

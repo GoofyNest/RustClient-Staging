@@ -1,5 +1,5 @@
 internal static class Utils // TypeDefIndex: 1002
-{	private static RNGCryptoServiceProvider _rng; // 0x2B11890
+{	private static RNGCryptoServiceProvider _rng; // 0x14120
 
 	internal static RNGCryptoServiceProvider StaticRandomNumberGenerator { get; }
 
@@ -37,7 +37,7 @@ internal static class Utils // TypeDefIndex: 1002
 }
 
 public static class Utils // TypeDefIndex: 11557
-{	private static Utils.FloatPackingPrecision ms_FloatPackingPrecision; // 0x1D2A0
+{	private static Utils.FloatPackingPrecision ms_FloatPackingPrecision; // 0x1E4B2
 	private const int kFloatPackingHighMinShaderLevel = 35;
 
 

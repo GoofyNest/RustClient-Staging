@@ -9,9 +9,9 @@ public abstract class Stream : MarshalByRefObject, IDisposable // TypeDefIndex: 
 	public abstract bool CanWrite { get; }
 	public abstract long Length { get; }
 	public abstract long Position { get; set; }
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual int ReadTimeout { get; }
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual int WriteTimeout { get; }
 
 
@@ -33,16 +33,16 @@ public abstract class Stream : MarshalByRefObject, IDisposable // TypeDefIndex: 
 
 	public virtual int get_WriteTimeout() { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public Task CopyToAsync(Stream destination) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public Task CopyToAsync(Stream destination, int bufferSize) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual Task CopyToAsync(Stream destination, int bufferSize, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA3D40 Offset: 0xA3140 VA: 0x1800A3D40
+	[AsyncStateMachineAttribute] // RVA: 0xA3EC0 Offset: 0xA32C0 VA: 0x1800A3EC0
 	private Task CopyToAsyncInternal(Stream destination, int bufferSize, CancellationToken cancellationToken) { }
 
 	public void CopyTo(Stream destination) { }
@@ -63,7 +63,7 @@ public abstract class Stream : MarshalByRefObject, IDisposable // TypeDefIndex: 
 
 	public virtual int EndRead(IAsyncResult asyncResult) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	private Task<int> BeginEndReadAsync(byte[] buffer, int offset, int count) { }
@@ -78,10 +78,10 @@ public abstract class Stream : MarshalByRefObject, IDisposable // TypeDefIndex: 
 
 	public virtual void EndWrite(IAsyncResult asyncResult) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public Task WriteAsync(byte[] buffer, int offset, int count) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public virtual Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	private Task BeginEndWriteAsync(byte[] buffer, int offset, int count) { }
@@ -141,7 +141,7 @@ private sealed class Stream.ReadWriteTask : Task<int>, ITaskCompletionAction // 
 }
 
 private sealed class Stream.NullStream : Stream // TypeDefIndex: 641
-{	private static Task<int> s_nullReadTask; // 0x2B117B0
+{	private static Task<int> s_nullReadTask; // 0x13F90
 
 	public override bool CanRead { get; }
 	public override bool CanWrite { get; }
@@ -178,14 +178,14 @@ private sealed class Stream.NullStream : Stream // TypeDefIndex: 641
 
 	public override int Read([In] [Out] byte[] buffer, int offset, int count) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	public override int ReadByte() { }
 
 	public override void Write(byte[] buffer, int offset, int count) { }
 
-	[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken) { }
 
 	public override void WriteByte(byte value) { }

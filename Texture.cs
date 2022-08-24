@@ -1,8 +1,8 @@
 public class Texture : Object // TypeDefIndex: 3444
-{	public static readonly int GenerateAllMips; // 0x13A04
+{	public static readonly int GenerateAllMips; // 0x2B10794
 
 	public int mipmapCount { get; }
-	[NativePropertyAttribute] // RVA: 0x9E710 Offset: 0x9DB10 VA: 0x18009E710
+	[NativePropertyAttribute] // RVA: 0x9E660 Offset: 0x9DA60 VA: 0x18009E660
 	public static AnisotropicFiltering anisotropicFiltering { set; }
 	public virtual GraphicsFormat graphicsFormat { get; }
 	public virtual int width { get; set; }
@@ -30,12 +30,12 @@ public class Texture : Object // TypeDefIndex: 3444
 
 	protected void .ctor() { }
 
-	[NativeNameAttribute] // RVA: 0x9CF30 Offset: 0x9C330 VA: 0x18009CF30
+	[NativeNameAttribute] // RVA: 0x9CF40 Offset: 0x9C340 VA: 0x18009CF40
 	public int get_mipmapCount() { }
 
 	public static void set_anisotropicFiltering(AnisotropicFiltering value) { }
 
-	[NativeNameAttribute] // RVA: 0x9D0C0 Offset: 0x9C4C0 VA: 0x18009D0C0
+	[NativeNameAttribute] // RVA: 0x9D0D0 Offset: 0x9C4D0 VA: 0x18009D0D0
 	public static void SetGlobalAnisotropicFilteringLimits(int forcedMin, int globalMax) { }
 
 	public virtual GraphicsFormat get_graphicsFormat() { }
@@ -60,7 +60,7 @@ public class Texture : Object // TypeDefIndex: 3444
 
 	public virtual bool get_isReadable() { }
 
-	[NativeNameAttribute] // RVA: 0x9D1F0 Offset: 0x9C5F0 VA: 0x18009D1F0
+	[NativeNameAttribute] // RVA: 0x9D1B0 Offset: 0x9C5B0 VA: 0x18009D1B0
 	public TextureWrapMode get_wrapMode() { }
 
 	public void set_wrapMode(TextureWrapMode value) { }
@@ -71,51 +71,51 @@ public class Texture : Object // TypeDefIndex: 3444
 
 	public void set_mipMapBias(float value) { }
 
-	[NativeNameAttribute] // RVA: 0x9D3E0 Offset: 0x9C7E0 VA: 0x18009D3E0
+	[NativeNameAttribute] // RVA: 0x9D3A0 Offset: 0x9C7A0 VA: 0x18009D3A0
 	public Vector2 get_texelSize() { }
 
 	public IntPtr GetNativeTexturePtr() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9D460 Offset: 0x9C860 VA: 0x18009D460
+	[FreeFunctionAttribute] // RVA: 0x9D3D0 Offset: 0x9C7D0 VA: 0x18009D3D0
 	public static ulong get_totalTextureMemory() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9D520 Offset: 0x9C920 VA: 0x18009D520
+	[FreeFunctionAttribute] // RVA: 0x9D440 Offset: 0x9C840 VA: 0x18009D440
 	public static ulong get_desiredTextureMemory() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9D770 Offset: 0x9CB70 VA: 0x18009D770
+	[FreeFunctionAttribute] // RVA: 0x9D680 Offset: 0x9CA80 VA: 0x18009D680
 	public static ulong get_targetTextureMemory() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9D7C0 Offset: 0x9CBC0 VA: 0x18009D7C0
+	[FreeFunctionAttribute] // RVA: 0x9D710 Offset: 0x9CB10 VA: 0x18009D710
 	public static ulong get_currentTextureMemory() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9DCC0 Offset: 0x9D0C0 VA: 0x18009DCC0
+	[FreeFunctionAttribute] // RVA: 0x9DC50 Offset: 0x9D050 VA: 0x18009DC50
 	public static ulong get_nonStreamingTextureMemory() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9DD10 Offset: 0x9D110 VA: 0x18009DD10
+	[FreeFunctionAttribute] // RVA: 0x9DCE0 Offset: 0x9D0E0 VA: 0x18009DCE0
 	public static ulong get_streamingMipmapUploadCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9DD60 Offset: 0x9D160 VA: 0x18009DD60
+	[FreeFunctionAttribute] // RVA: 0x9DD70 Offset: 0x9D170 VA: 0x18009DD70
 	public static ulong get_streamingTextureCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9DDE0 Offset: 0x9D1E0 VA: 0x18009DDE0
+	[FreeFunctionAttribute] // RVA: 0x9DE40 Offset: 0x9D240 VA: 0x18009DE40
 	public static ulong get_nonStreamingTextureCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9DE10 Offset: 0x9D210 VA: 0x18009DE10
+	[FreeFunctionAttribute] // RVA: 0x9DE70 Offset: 0x9D270 VA: 0x18009DE70
 	public static ulong get_streamingTexturePendingLoadCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9DFA0 Offset: 0x9D3A0 VA: 0x18009DFA0
+	[FreeFunctionAttribute] // RVA: 0x9E000 Offset: 0x9D400 VA: 0x18009E000
 	public static ulong get_streamingTextureLoadingCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9E080 Offset: 0x9D480 VA: 0x18009E080
+	[FreeFunctionAttribute] // RVA: 0x9E0E0 Offset: 0x9D4E0 VA: 0x18009E0E0
 	public static bool get_streamingTextureForceLoadAll() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9E180 Offset: 0x9D580 VA: 0x18009E180
+	[FreeFunctionAttribute] // RVA: 0x9E1A0 Offset: 0x9D5A0 VA: 0x18009E1A0
 	public static void set_streamingTextureForceLoadAll(bool value) { }
 
-	[FreeFunctionAttribute] // RVA: 0x9E250 Offset: 0x9D650 VA: 0x18009E250
+	[FreeFunctionAttribute] // RVA: 0x9E230 Offset: 0x9D630 VA: 0x18009E230
 	public static bool get_streamingTextureDiscardUnusedMips() { }
 
-	[FreeFunctionAttribute] // RVA: 0x9E350 Offset: 0x9D750 VA: 0x18009E350
+	[FreeFunctionAttribute] // RVA: 0x9E2F0 Offset: 0x9D6F0 VA: 0x18009E2F0
 	public static void set_streamingTextureDiscardUnusedMips(bool value) { }
 
 	internal bool ValidateFormat(TextureFormat format) { }
@@ -150,10 +150,10 @@ public static class Texture // TypeDefIndex: 5611
 }
 
 public class Texture : ConsoleSystem // TypeDefIndex: 11972
-{	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
-	public static int streamingBudgetOverride; // 0x1D8F0
+{	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
+	public static int streamingBudgetOverride; // 0x1E9B9
 
-	[ClientVar] // RVA: 0xC1AB0 Offset: 0xC0EB0 VA: 0x1800C1AB0
+	[ClientVar] // RVA: 0xC1340 Offset: 0xC0740 VA: 0x1800C1340
 	public static bool streaming { get; set; }
 
 
@@ -161,7 +161,7 @@ public class Texture : ConsoleSystem // TypeDefIndex: 11972
 
 	public static void set_streaming(bool value) { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void stats(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

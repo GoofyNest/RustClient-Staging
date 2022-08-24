@@ -71,18 +71,18 @@ public class HeldEntity : BaseEntity // TypeDefIndex: 8575
 	public static float lastExamineTime; // 0x0
 	private float nextExamineTime; // 0x1AC
 	public const BaseEntity.Flags Flag_ForceVisible = 65536;
-	[HeaderAttribute] // RVA: 0xABDC0 Offset: 0xAB1C0 VA: 0x1800ABDC0
+	[HeaderAttribute] // RVA: 0xABE00 Offset: 0xAB200 VA: 0x1800ABE00
 	public string handBone; // 0x1B0
 	public AnimatorOverrideController HoldAnimationOverride; // 0x1B8
 	public bool isBuildingTool; // 0x1C0
-	[HeaderAttribute] // RVA: 0xABE60 Offset: 0xAB260 VA: 0x1800ABE60
+	[HeaderAttribute] // RVA: 0xABEA0 Offset: 0xAB2A0 VA: 0x1800ABEA0
 	public float hostileScore; // 0x1C4
 	public HeldEntity.HolsterInfo holsterInfo; // 0x1C8
-	[HeaderAttribute] // RVA: 0xABF80 Offset: 0xAB380 VA: 0x1800ABF80
+	[HeaderAttribute] // RVA: 0xABF60 Offset: 0xAB360 VA: 0x1800ABF60
 	public BasePlayer.CameraMode HeldCameraMode; // 0x1D0
 	public Vector3 FirstPersonArmOffset; // 0x1D4
 	public Vector3 FirstPersonArmRotation; // 0x1E0
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public float FirstPersonRotationStrength; // 0x1EC
 	internal uint ownerItemUID; // 0x1F0
 

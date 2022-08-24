@@ -1,5 +1,5 @@
 internal static class Epoch // TypeDefIndex: 5253
-{	private static readonly DateTime epoch; // 0x2B11890
+{	private static readonly DateTime epoch; // 0x13A80
 
 	public static int Current { get; }
 
@@ -13,7 +13,7 @@ internal static class Epoch // TypeDefIndex: 5253
 }
 
 public static class Epoch // TypeDefIndex: 6237
-{	private static readonly DateTime epoch; // 0x2829
+{	private static readonly DateTime epoch; // 0x2B10864
 
 	public static int Current { get; }
 

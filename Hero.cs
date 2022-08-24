@@ -70,15 +70,15 @@ public class Hero // TypeDefIndex: 6202
 }
 
 public class Hero : ConsoleSystem // TypeDefIndex: 11938
-{	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+{	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static string ident; // 0x0
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static string video; // 0x8
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static string title; // 0x10
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static string action; // 0x18
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static string url; // 0x20
 
 	public static string CookieName { get; }
@@ -86,7 +86,7 @@ public class Hero : ConsoleSystem // TypeDefIndex: 11938
 
 	public static string get_CookieName() { }
 
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static void Show(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }
@@ -101,7 +101,7 @@ public class Hero : SingletonComponent<Hero> // TypeDefIndex: 12096
 	public RustText TitleText; // 0x28
 	public RustText ButtonText; // 0x30
 	public HttpImage TitleImage; // 0x38
-	[HeaderAttribute] // RVA: 0xD77C0 Offset: 0xD6BC0 VA: 0x1800D77C0
+	[HeaderAttribute] // RVA: 0xD7290 Offset: 0xD6690 VA: 0x1800D7290
 	public RustButton ItemStoreButton; // 0x40
 	public RustButton LimitedTabButton; // 0x48
 	public RustButton GeneralTabButton; // 0x50
@@ -110,7 +110,7 @@ public class Hero : SingletonComponent<Hero> // TypeDefIndex: 12096
 
 	public void Roll() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD78C0 Offset: 0xD6CC0 VA: 0x1800D78C0
+	[AsyncStateMachineAttribute] // RVA: 0xD7390 Offset: 0xD6790 VA: 0x1800D7390
 	public Task ShowAsync() { }
 
 	public void ClickHide() { }

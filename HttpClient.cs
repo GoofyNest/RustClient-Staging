@@ -33,16 +33,16 @@ public class HttpClient : HttpMessageInvoker // TypeDefIndex: 5737
 
 	public Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD1370 Offset: 0xD0770 VA: 0x1800D1370
+	[AsyncStateMachineAttribute] // RVA: 0xD1290 Offset: 0xD0690 VA: 0x1800D1290
 	private Task<HttpResponseMessage> SendAsyncWorker(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xD14B0 Offset: 0xD08B0 VA: 0x1800D14B0
+	[AsyncStateMachineAttribute] // RVA: 0xD13D0 Offset: 0xD07D0 VA: 0x1800D13D0
 	public Task<string> GetStringAsync(string requestUri) { }
 
 	private static void .cctor() { }
 
-	[DebuggerHiddenAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
-	[CompilerGeneratedAttribute] // RVA: 0x71780 Offset: 0x70B80 VA: 0x180071780
+	[DebuggerHiddenAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
+	[CompilerGeneratedAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
 	private Task<HttpResponseMessage> <>n__0(HttpRequestMessage request, CancellationToken cancellationToken) { }
 
 }

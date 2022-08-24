@@ -18,7 +18,7 @@ public sealed class DownloadHandlerTexture : DownloadHandler // TypeDefIndex: 47
 
 	private Texture2D InternalGetTexture() { }
 
-	[NativeThrowsAttribute] // RVA: 0x80C30 Offset: 0x80030 VA: 0x180080C30
+	[NativeThrowsAttribute] // RVA: 0x80B20 Offset: 0x7FF20 VA: 0x180080B20
 	private Texture2D InternalGetTextureNative() { }
 
 	public static Texture2D GetContent(UnityWebRequest www) { }

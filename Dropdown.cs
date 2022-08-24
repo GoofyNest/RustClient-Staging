@@ -5,19 +5,19 @@ public class Dropdown : Selectable, IPointerClickHandler, IEventSystemHandler, I
 	private Text m_CaptionText; // 0xF0
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Image m_CaptionImage; // 0xF8
-	[SpaceAttribute] // RVA: 0x7CDD0 Offset: 0x7C1D0 VA: 0x18007CDD0
-	[SerializeField] // RVA: 0x7CDD0 Offset: 0x7C1D0 VA: 0x18007CDD0
+	[SpaceAttribute] // RVA: 0x7CCA0 Offset: 0x7C0A0 VA: 0x18007CCA0
+	[SerializeField] // RVA: 0x7CCA0 Offset: 0x7C0A0 VA: 0x18007CCA0
 	private Text m_ItemText; // 0x100
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Image m_ItemImage; // 0x108
-	[SpaceAttribute] // RVA: 0x7CDD0 Offset: 0x7C1D0 VA: 0x18007CDD0
-	[SerializeField] // RVA: 0x7CDD0 Offset: 0x7C1D0 VA: 0x18007CDD0
+	[SpaceAttribute] // RVA: 0x7CCA0 Offset: 0x7C0A0 VA: 0x18007CCA0
+	[SerializeField] // RVA: 0x7CCA0 Offset: 0x7C0A0 VA: 0x18007CCA0
 	private int m_Value; // 0x110
-	[SpaceAttribute] // RVA: 0x7CDD0 Offset: 0x7C1D0 VA: 0x18007CDD0
-	[SerializeField] // RVA: 0x7CDD0 Offset: 0x7C1D0 VA: 0x18007CDD0
+	[SpaceAttribute] // RVA: 0x7CCA0 Offset: 0x7C0A0 VA: 0x18007CCA0
+	[SerializeField] // RVA: 0x7CCA0 Offset: 0x7C0A0 VA: 0x18007CCA0
 	private Dropdown.OptionDataList m_Options; // 0x118
-	[SpaceAttribute] // RVA: 0x7CDD0 Offset: 0x7C1D0 VA: 0x18007CDD0
-	[SerializeField] // RVA: 0x7CDD0 Offset: 0x7C1D0 VA: 0x18007CDD0
+	[SpaceAttribute] // RVA: 0x7CCA0 Offset: 0x7C0A0 VA: 0x18007CCA0
+	[SerializeField] // RVA: 0x7CCA0 Offset: 0x7C0A0 VA: 0x18007CCA0
 	private Dropdown.DropdownEvent m_OnValueChanged; // 0x120
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float m_AlphaFadeSpeed; // 0x128
@@ -138,7 +138,7 @@ public class Dropdown : Selectable, IPointerClickHandler, IEventSystemHandler, I
 
 	public void Hide() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xE7AC0 Offset: 0xE6EC0 VA: 0x1800E7AC0
+	[IteratorStateMachineAttribute] // RVA: 0xE79C0 Offset: 0xE6DC0 VA: 0x1800E79C0
 	private IEnumerator DelayedDestroyDropdownList(float delay) { }
 
 	private void ImmediateDestroyDropdownList() { }

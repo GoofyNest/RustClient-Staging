@@ -1,5 +1,5 @@
 internal class NullConsoleDriver : IConsoleDriver // TypeDefIndex: 378
-{	private static readonly ConsoleKeyInfo EmptyConsoleKeyInfo; // 0x12F62
+{	private static readonly ConsoleKeyInfo EmptyConsoleKeyInfo; // 0x2B108D4
 
 	public ConsoleColor BackgroundColor { get; set; }
 	public int BufferWidth { get; }

@@ -26,7 +26,7 @@ public class KeyCodeEntry : UIDialog // TypeDefIndex: 10899
 
 	public void EnterLastUsedNumber() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0x88930 Offset: 0x87D30 VA: 0x180088930
+	[IteratorStateMachineAttribute] // RVA: 0x87C40 Offset: 0x87040 VA: 0x180087C40
 	private IEnumerator ProcessLastNumberInput() { }
 
 	public void EnterNumber(int i) { }

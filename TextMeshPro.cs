@@ -23,7 +23,7 @@ public class TextMeshPro : TMP_Text, ILayoutElement // TypeDefIndex: 6866
 	public int sortingLayerID { get; set; }
 	public int sortingOrder { get; set; }
 	public override bool autoSizeTextContainer { get; set; }
-	[ObsoleteAttribute] // RVA: 0xDDB50 Offset: 0xDCF50 VA: 0x1800DDB50
+	[ObsoleteAttribute] // RVA: 0xDDA80 Offset: 0xDCE80 VA: 0x1800DDA80
 	public TextContainer textContainer { get; }
 	public Transform transform { get; }
 	public Renderer renderer { get; }

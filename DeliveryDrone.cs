@@ -62,7 +62,7 @@ public class DeliveryDrone : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 }
 
 public class DeliveryDrone : Drone // TypeDefIndex: 8799
-{	[HeaderAttribute] // RVA: 0xBEA30 Offset: 0xBDE30 VA: 0x1800BEA30
+{	[HeaderAttribute] // RVA: 0xBEAB0 Offset: 0xBDEB0 VA: 0x1800BEAB0
 	public float stateTimeout; // 0x320
 	public float targetPositionTolerance; // 0x324
 	public float preferredCruiseHeight; // 0x328

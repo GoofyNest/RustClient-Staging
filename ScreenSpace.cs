@@ -1,13 +1,13 @@
 internal class ScreenSpaceAmbientObscurance : PostEffectsBase // TypeDefIndex: 8201
-{	[RangeAttribute] // RVA: 0x84610 Offset: 0x83A10 VA: 0x180084610
+{	[RangeAttribute] // RVA: 0x84580 Offset: 0x83980 VA: 0x180084580
 	public float intensity; // 0x28
-	[RangeAttribute] // RVA: 0x859E0 Offset: 0x84DE0 VA: 0x1800859E0
+	[RangeAttribute] // RVA: 0x858C0 Offset: 0x84CC0 VA: 0x1800858C0
 	public float radius; // 0x2C
-	[RangeAttribute] // RVA: 0x84610 Offset: 0x83A10 VA: 0x180084610
+	[RangeAttribute] // RVA: 0x84580 Offset: 0x83980 VA: 0x180084580
 	public int blurIterations; // 0x30
-	[RangeAttribute] // RVA: 0x75B10 Offset: 0x74F10 VA: 0x180075B10
+	[RangeAttribute] // RVA: 0x75B60 Offset: 0x74F60 VA: 0x180075B60
 	public float blurFilterDistance; // 0x34
-	[RangeAttribute] // RVA: 0x717B0 Offset: 0x70BB0 VA: 0x1800717B0
+	[RangeAttribute] // RVA: 0x70FE0 Offset: 0x703E0 VA: 0x180070FE0
 	public int downsample; // 0x38
 	public Texture2D rand; // 0x40
 	public Shader aoShader; // 0x48
@@ -100,23 +100,23 @@ public sealed class ScreenSpaceReflectionResolutionParameter : ParameterOverride
 }
 
 public sealed class ScreenSpaceReflections : PostProcessEffectSettings // TypeDefIndex: 11808
-{	[TooltipAttribute] // RVA: 0x75AB0 Offset: 0x74EB0 VA: 0x180075AB0
+{	[TooltipAttribute] // RVA: 0x73F40 Offset: 0x73340 VA: 0x180073F40
 	public ScreenSpaceReflectionPresetParameter preset; // 0x30
-	[RangeAttribute] // RVA: 0x75B60 Offset: 0x74F60 VA: 0x180075B60
-	[TooltipAttribute] // RVA: 0x75B60 Offset: 0x74F60 VA: 0x180075B60
+	[RangeAttribute] // RVA: 0x73FF0 Offset: 0x733F0 VA: 0x180073FF0
+	[TooltipAttribute] // RVA: 0x73FF0 Offset: 0x733F0 VA: 0x180073FF0
 	public IntParameter maximumIterationCount; // 0x38
-	[TooltipAttribute] // RVA: 0x75EA0 Offset: 0x752A0 VA: 0x180075EA0
+	[TooltipAttribute] // RVA: 0x754E0 Offset: 0x748E0 VA: 0x1800754E0
 	public ScreenSpaceReflectionResolutionParameter resolution; // 0x40
-	[RangeAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
-	[TooltipAttribute] // RVA: 0x76000 Offset: 0x75400 VA: 0x180076000
+	[RangeAttribute] // RVA: 0x75680 Offset: 0x74A80 VA: 0x180075680
+	[TooltipAttribute] // RVA: 0x75680 Offset: 0x74A80 VA: 0x180075680
 	public FloatParameter thickness; // 0x48
-	[TooltipAttribute] // RVA: 0x76110 Offset: 0x75510 VA: 0x180076110
+	[TooltipAttribute] // RVA: 0x75790 Offset: 0x74B90 VA: 0x180075790
 	public FloatParameter maximumMarchDistance; // 0x50
-	[RangeAttribute] // RVA: 0x76260 Offset: 0x75660 VA: 0x180076260
-	[TooltipAttribute] // RVA: 0x76260 Offset: 0x75660 VA: 0x180076260
+	[RangeAttribute] // RVA: 0x75920 Offset: 0x74D20 VA: 0x180075920
+	[TooltipAttribute] // RVA: 0x75920 Offset: 0x74D20 VA: 0x180075920
 	public FloatParameter distanceFade; // 0x58
-	[RangeAttribute] // RVA: 0x76360 Offset: 0x75760 VA: 0x180076360
-	[TooltipAttribute] // RVA: 0x76360 Offset: 0x75760 VA: 0x180076360
+	[RangeAttribute] // RVA: 0x75B10 Offset: 0x74F10 VA: 0x180075B10
+	[TooltipAttribute] // RVA: 0x75B10 Offset: 0x74F10 VA: 0x180075B10
 	public FloatParameter vignette; // 0x60
 
 

@@ -1629,13 +1629,13 @@ internal abstract class AsyncProtocolRequest // TypeDefIndex: 2534
 
 	internal void RequestWrite() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA2BA0 Offset: 0xA1FA0 VA: 0x1800A2BA0
+	[AsyncStateMachineAttribute] // RVA: 0xA2BB0 Offset: 0xA1FB0 VA: 0x1800A2BB0
 	internal Task<AsyncProtocolResult> StartOperation(CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA2CC0 Offset: 0xA20C0 VA: 0x1800A2CC0
+	[AsyncStateMachineAttribute] // RVA: 0xA2CA0 Offset: 0xA20A0 VA: 0x1800A2CA0
 	private Task ProcessOperation(CancellationToken cancellationToken) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA2E50 Offset: 0xA2250 VA: 0x1800A2E50
+	[AsyncStateMachineAttribute] // RVA: 0xA2E40 Offset: 0xA2240 VA: 0x1800A2E40
 	private Task<Nullable<int>> InnerRead(CancellationToken cancellationToken) { }
 
 	protected abstract AsyncOperationStatus Run(AsyncOperationStatus status);
@@ -1767,9 +1767,9 @@ public class AsyncCompletedEventArgs : EventArgs // TypeDefIndex: 2662
 	private readonly bool cancelled; // 0x18
 	private readonly object userState; // 0x20
 
-	[SRDescriptionAttribute] // RVA: 0xA95C0 Offset: 0xA89C0 VA: 0x1800A95C0
+	[SRDescriptionAttribute] // RVA: 0xA9690 Offset: 0xA8A90 VA: 0x1800A9690
 	public bool Cancelled { get; }
-	[SRDescriptionAttribute] // RVA: 0xA96B0 Offset: 0xA8AB0 VA: 0x1800A96B0
+	[SRDescriptionAttribute] // RVA: 0xA9780 Offset: 0xA8B80 VA: 0x1800A9780
 	public Exception Error { get; }
 
 
@@ -1824,7 +1824,7 @@ public sealed class AsyncOperation // TypeDefIndex: 2664
 }
 
 public static class AsyncOperationManager // TypeDefIndex: 2665
-{	[EditorBrowsableAttribute] // RVA: 0x8CE50 Offset: 0x8C250 VA: 0x18008CE50
+{	[EditorBrowsableAttribute] // RVA: 0x8CD30 Offset: 0x8C130 VA: 0x18008CD30
 	public static SynchronizationContext SynchronizationContext { get; }
 
 
@@ -1842,14 +1842,14 @@ public class AsyncOperation : YieldInstruction // TypeDefIndex: 3491
 	public int priority { set; }
 
 
-	[NativeMethodAttribute] // RVA: 0xB6AD0 Offset: 0xB5ED0 VA: 0x1800B6AD0
-	[StaticAccessorAttribute] // RVA: 0xB6AD0 Offset: 0xB5ED0 VA: 0x1800B6AD0
+	[NativeMethodAttribute] // RVA: 0xB6B90 Offset: 0xB5F90 VA: 0x1800B6B90
+	[StaticAccessorAttribute] // RVA: 0xB6B90 Offset: 0xB5F90 VA: 0x1800B6B90
 	private static void InternalDestroy(IntPtr ptr) { }
 
-	[NativeMethodAttribute] // RVA: 0x90C80 Offset: 0x90080 VA: 0x180090C80
+	[NativeMethodAttribute] // RVA: 0x90C70 Offset: 0x90070 VA: 0x180090C70
 	public bool get_isDone() { }
 
-	[NativeMethodAttribute] // RVA: 0xB6D60 Offset: 0xB6160 VA: 0x1800B6D60
+	[NativeMethodAttribute] // RVA: 0xB6E10 Offset: 0xB6210 VA: 0x1800B6E10
 	public void set_priority(int value) { }
 
 	protected override void Finalize() { }
@@ -1919,10 +1919,10 @@ public static class AsyncGPUReadback // TypeDefIndex: 3803
 
 	public static AsyncGPUReadbackRequest Request(Texture src, int mipIndex = 0, Action<AsyncGPUReadbackRequest> callback) { }
 
-	[NativeMethodAttribute] // RVA: 0x6FFF0 Offset: 0x6F3F0 VA: 0x18006FFF0
+	[NativeMethodAttribute] // RVA: 0x6FF70 Offset: 0x6F370 VA: 0x18006FF70
 	private static AsyncGPUReadbackRequest Request_Internal_ComputeBuffer_1(ComputeBuffer buffer) { }
 
-	[NativeMethodAttribute] // RVA: 0x6FFF0 Offset: 0x6F3F0 VA: 0x18006FFF0
+	[NativeMethodAttribute] // RVA: 0x6FF70 Offset: 0x6F370 VA: 0x18006FF70
 	private static AsyncGPUReadbackRequest Request_Internal_Texture_1(Texture src, int mipIndex) { }
 
 	private static void Request_Internal_ComputeBuffer_1_Injected(ComputeBuffer buffer, out AsyncGPUReadbackRequest ret) { }

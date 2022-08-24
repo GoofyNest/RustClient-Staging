@@ -1,5 +1,5 @@
 public sealed class SubpixelMorphologicalAntialiasing // TypeDefIndex: 11812
-{	[TooltipAttribute] // RVA: 0x76680 Offset: 0x75A80 VA: 0x180076680
+{	[TooltipAttribute] // RVA: 0x75F90 Offset: 0x75390 VA: 0x180075F90
 	public SubpixelMorphologicalAntialiasing.Quality quality; // 0x10
 
 

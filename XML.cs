@@ -2171,14 +2171,14 @@ public abstract class XmlReader : IDisposable // TypeDefIndex: 1887
 
 	public virtual int ReadValueChunk(char[] buffer, int index, int count) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	public virtual string ReadString() { }
 
 	public virtual XmlNodeType MoveToContent() { }
 
 	public virtual void ReadStartElement() { }
 
-	[EditorBrowsableAttribute] // RVA: 0x7D8A0 Offset: 0x7CCA0 VA: 0x18007D8A0
+	[EditorBrowsableAttribute] // RVA: 0x7D770 Offset: 0x7CB70 VA: 0x18007D770
 	public virtual string ReadElementString() { }
 
 	public virtual void ReadEndElement() { }
@@ -3615,7 +3615,7 @@ private class XmlTextReaderImpl.NodeData : IComparable // TypeDefIndex: 1904
 }
 
 private class XmlTextReaderImpl.DtdDefaultAttributeInfoToNodeDataComparer : IComparer<object> // TypeDefIndex: 1905
-{	private static IComparer<object> s_instance; // 0x13426
+{	private static IComparer<object> s_instance; // 0x2B10780
 
 	internal static IComparer<object> Instance { get; }
 
@@ -7920,7 +7920,7 @@ public class XmlUrlResolver : XmlResolver // TypeDefIndex: 2033
 
 	public override Uri ResolveUri(Uri baseUri, string relativeUri) { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x841A0 Offset: 0x835A0 VA: 0x1800841A0
+	[AsyncStateMachineAttribute] // RVA: 0x84120 Offset: 0x83520 VA: 0x180084120
 	public override Task<object> GetEntityAsync(Uri absoluteUri, string role, Type ofObjectToReturn) { }
 
 }
@@ -8549,7 +8549,7 @@ public class XmlChoiceIdentifierAttribute : Attribute // TypeDefIndex: 2074
 }
 
 internal class XmlCustomFormatter // TypeDefIndex: 2075
-{	private static string[] allTimeFormats; // 0x1348D
+{	private static string[] allTimeFormats; // 0x2B10994
 
 
 	internal static string FromEnum(long value, string[] values, long[] ids, string typeName) { }
@@ -8696,7 +8696,7 @@ public abstract class XmlMapping // TypeDefIndex: 2081
 
 public class XmlMembersMapping : XmlMapping // TypeDefIndex: 2085
 {
-[DefaultMemberAttribute] // RVA: 0x70D30 Offset: 0x70130 VA: 0x180070D30
+[DefaultMemberAttribute] // RVA: 0x70E60 Offset: 0x70260 VA: 0x180070E60
 public class XmlMembersMapping : XmlMapping // TypeDefIndex: 2085
 	private bool _hasWrapperElement; // 0x48
 	private XmlMemberMapping[] _mapping; // 0x50
@@ -9476,7 +9476,7 @@ internal class XmlSerializer.SerializerData // TypeDefIndex: 2110
 }
 
 public class XmlSerializerFactory // TypeDefIndex: 2111
-{	private static Hashtable serializersBySource; // 0x2B118CC
+{	private static Hashtable serializersBySource; // 0x14450
 
 
 	public void .ctor() { }
@@ -10166,25 +10166,25 @@ public class XmlSchema : XmlSchemaObject // TypeDefIndex: 2306
 	private Hashtable ids; // 0xE0
 	private XmlDocument document; // 0xE8
 
-	[XmlAttributeAttribute] // RVA: 0x86740 Offset: 0x85B40 VA: 0x180086740
-	[DefaultValueAttribute] // RVA: 0x86740 Offset: 0x85B40 VA: 0x180086740
+	[XmlAttributeAttribute] // RVA: 0x86700 Offset: 0x85B00 VA: 0x180086700
+	[DefaultValueAttribute] // RVA: 0x86700 Offset: 0x85B00 VA: 0x180086700
 	public XmlSchemaForm AttributeFormDefault { get; set; }
 	[XmlAttributeAttribute] // RVA: 0x87CC0 Offset: 0x870C0 VA: 0x180087CC0
 	[DefaultValueAttribute] // RVA: 0x87CC0 Offset: 0x870C0 VA: 0x180087CC0
 	public XmlSchemaDerivationMethod BlockDefault { get; set; }
-	[DefaultValueAttribute] // RVA: 0x881A0 Offset: 0x875A0 VA: 0x1800881A0
-	[XmlAttributeAttribute] // RVA: 0x881A0 Offset: 0x875A0 VA: 0x1800881A0
+	[DefaultValueAttribute] // RVA: 0x88120 Offset: 0x87520 VA: 0x180088120
+	[XmlAttributeAttribute] // RVA: 0x88120 Offset: 0x87520 VA: 0x180088120
 	public XmlSchemaDerivationMethod FinalDefault { get; set; }
-	[DefaultValueAttribute] // RVA: 0x883A0 Offset: 0x877A0 VA: 0x1800883A0
-	[XmlAttributeAttribute] // RVA: 0x883A0 Offset: 0x877A0 VA: 0x1800883A0
+	[DefaultValueAttribute] // RVA: 0x882E0 Offset: 0x876E0 VA: 0x1800882E0
+	[XmlAttributeAttribute] // RVA: 0x882E0 Offset: 0x876E0 VA: 0x1800882E0
 	public XmlSchemaForm ElementFormDefault { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x887D0 Offset: 0x87BD0 VA: 0x1800887D0
+	[XmlAttributeAttribute] // RVA: 0x88720 Offset: 0x87B20 VA: 0x180088720
 	public string TargetNamespace { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x88A00 Offset: 0x87E00 VA: 0x180088A00
+	[XmlAttributeAttribute] // RVA: 0x88950 Offset: 0x87D50 VA: 0x180088950
 	public string Version { get; set; }
-	[XmlElementAttribute] // RVA: 0x88B00 Offset: 0x87F00 VA: 0x180088B00
-	[XmlElementAttribute] // RVA: 0x88B00 Offset: 0x87F00 VA: 0x180088B00
-	[XmlElementAttribute] // RVA: 0x88B00 Offset: 0x87F00 VA: 0x180088B00
+	[XmlElementAttribute] // RVA: 0x88A90 Offset: 0x87E90 VA: 0x180088A90
+	[XmlElementAttribute] // RVA: 0x88A90 Offset: 0x87E90 VA: 0x180088A90
+	[XmlElementAttribute] // RVA: 0x88A90 Offset: 0x87E90 VA: 0x180088A90
 	public XmlSchemaObjectCollection Includes { get; }
 	[XmlElementAttribute] // RVA: 0x88D90 Offset: 0x88190 VA: 0x180088D90
 	[XmlElementAttribute] // RVA: 0x88D90 Offset: 0x88190 VA: 0x180088D90
@@ -10209,7 +10209,7 @@ public class XmlSchema : XmlSchemaObject // TypeDefIndex: 2306
 	public XmlSchemaObjectTable SchemaTypes { get; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlSchemaObjectTable Elements { get; }
-	[XmlAttributeAttribute] // RVA: 0x8AAA0 Offset: 0x89EA0 VA: 0x18008AAA0
+	[XmlAttributeAttribute] // RVA: 0x8A9E0 Offset: 0x89DE0 VA: 0x18008A9E0
 	public string Id { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlSchemaObjectTable Groups { get; }
@@ -10346,7 +10346,7 @@ public class XmlSchema : XmlSchemaObject // TypeDefIndex: 2306
 public class XmlSchemaAll : XmlSchemaGroupBase // TypeDefIndex: 2307
 {	private XmlSchemaObjectCollection items; // 0x78
 
-	[XmlElementAttribute] // RVA: 0x8B210 Offset: 0x8A610 VA: 0x18008B210
+	[XmlElementAttribute] // RVA: 0x8B090 Offset: 0x8A490 VA: 0x18008B090
 	public override XmlSchemaObjectCollection Items { get; }
 	internal override bool IsEmpty { get; }
 
@@ -10366,9 +10366,9 @@ public class XmlSchemaAnnotated : XmlSchemaObject // TypeDefIndex: 2308
 	private XmlSchemaAnnotation annotation; // 0x40
 	private XmlAttribute[] moreAttributes; // 0x48
 
-	[XmlAttributeAttribute] // RVA: 0x8AAA0 Offset: 0x89EA0 VA: 0x18008AAA0
+	[XmlAttributeAttribute] // RVA: 0x8A9E0 Offset: 0x89DE0 VA: 0x18008A9E0
 	public string Id { get; set; }
-	[XmlElementAttribute] // RVA: 0x8B3E0 Offset: 0x8A7E0 VA: 0x18008B3E0
+	[XmlElementAttribute] // RVA: 0x8B2B0 Offset: 0x8A6B0 VA: 0x18008B2B0
 	public XmlSchemaAnnotation Annotation { get; set; }
 	[XmlAnyAttributeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlAttribute[] UnhandledAttributes { get; set; }
@@ -10405,10 +10405,10 @@ public class XmlSchemaAnnotation : XmlSchemaObject // TypeDefIndex: 2309
 	private XmlSchemaObjectCollection items; // 0x40
 	private XmlAttribute[] moreAttributes; // 0x48
 
-	[XmlAttributeAttribute] // RVA: 0x8AAA0 Offset: 0x89EA0 VA: 0x18008AAA0
+	[XmlAttributeAttribute] // RVA: 0x8A9E0 Offset: 0x89DE0 VA: 0x18008A9E0
 	public string Id { get; set; }
-	[XmlElementAttribute] // RVA: 0x8C920 Offset: 0x8BD20 VA: 0x18008C920
-	[XmlElementAttribute] // RVA: 0x8C920 Offset: 0x8BD20 VA: 0x18008C920
+	[XmlElementAttribute] // RVA: 0x8C7F0 Offset: 0x8BBF0 VA: 0x18008C7F0
+	[XmlElementAttribute] // RVA: 0x8C7F0 Offset: 0x8BBF0 VA: 0x18008C7F0
 	public XmlSchemaObjectCollection Items { get; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal override string IdAttribute { get; set; }
@@ -10435,10 +10435,10 @@ public class XmlSchemaAny : XmlSchemaParticle // TypeDefIndex: 2310
 	private XmlSchemaContentProcessing processContents; // 0x80
 	private NamespaceList namespaceList; // 0x88
 
-	[XmlAttributeAttribute] // RVA: 0x8CC70 Offset: 0x8C070 VA: 0x18008CC70
+	[XmlAttributeAttribute] // RVA: 0x8CAF0 Offset: 0x8BEF0 VA: 0x18008CAF0
 	public string Namespace { get; set; }
-	[DefaultValueAttribute] // RVA: 0x8CD00 Offset: 0x8C100 VA: 0x18008CD00
-	[XmlAttributeAttribute] // RVA: 0x8CD00 Offset: 0x8C100 VA: 0x18008CD00
+	[DefaultValueAttribute] // RVA: 0x8CB80 Offset: 0x8BF80 VA: 0x18008CB80
+	[XmlAttributeAttribute] // RVA: 0x8CB80 Offset: 0x8BF80 VA: 0x18008CB80
 	public XmlSchemaContentProcessing ProcessContents { set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal NamespaceList NamespaceList { get; }
@@ -10478,10 +10478,10 @@ public class XmlSchemaAnyAttribute : XmlSchemaAnnotated // TypeDefIndex: 2311
 	private XmlSchemaContentProcessing processContents; // 0x58
 	private NamespaceList namespaceList; // 0x60
 
-	[XmlAttributeAttribute] // RVA: 0x8CC70 Offset: 0x8C070 VA: 0x18008CC70
+	[XmlAttributeAttribute] // RVA: 0x8CAF0 Offset: 0x8BEF0 VA: 0x18008CAF0
 	public string Namespace { set; }
-	[XmlAttributeAttribute] // RVA: 0x8D000 Offset: 0x8C400 VA: 0x18008D000
-	[DefaultValueAttribute] // RVA: 0x8D000 Offset: 0x8C400 VA: 0x18008D000
+	[XmlAttributeAttribute] // RVA: 0x8CF10 Offset: 0x8C310 VA: 0x18008CF10
+	[DefaultValueAttribute] // RVA: 0x8CF10 Offset: 0x8C310 VA: 0x18008CF10
 	public XmlSchemaContentProcessing ProcessContents { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal NamespaceList NamespaceList { get; }
@@ -10519,10 +10519,10 @@ public class XmlSchemaAppInfo : XmlSchemaObject // TypeDefIndex: 2312
 {	private string source; // 0x38
 	private XmlNode[] markup; // 0x40
 
-	[XmlAttributeAttribute] // RVA: 0x8D3A0 Offset: 0x8C7A0 VA: 0x18008D3A0
+	[XmlAttributeAttribute] // RVA: 0x8D2B0 Offset: 0x8C6B0 VA: 0x18008D2B0
 	public string Source { set; }
-	[XmlTextAttribute] // RVA: 0x8D520 Offset: 0x8C920 VA: 0x18008D520
-	[XmlAnyElementAttribute] // RVA: 0x8D520 Offset: 0x8C920 VA: 0x18008D520
+	[XmlTextAttribute] // RVA: 0x8D400 Offset: 0x8C800 VA: 0x18008D400
+	[XmlAnyElementAttribute] // RVA: 0x8D400 Offset: 0x8C800 VA: 0x18008D400
 	public XmlNode[] Markup { get; set; }
 
 
@@ -10549,25 +10549,25 @@ public class XmlSchemaAttribute : XmlSchemaAnnotated // TypeDefIndex: 2313
 	private XmlSchemaSimpleType attributeType; // 0x90
 	private SchemaAttDef attDef; // 0x98
 
-	[XmlAttributeAttribute] // RVA: 0x8D5E0 Offset: 0x8C9E0 VA: 0x18008D5E0
-	[DefaultValueAttribute] // RVA: 0x8D5E0 Offset: 0x8C9E0 VA: 0x18008D5E0
+	[XmlAttributeAttribute] // RVA: 0x8D490 Offset: 0x8C890 VA: 0x18008D490
+	[DefaultValueAttribute] // RVA: 0x8D490 Offset: 0x8C890 VA: 0x18008D490
 	public string DefaultValue { get; set; }
+	[DefaultValueAttribute] // RVA: 0x8D640 Offset: 0x8CA40 VA: 0x18008D640
+	[XmlAttributeAttribute] // RVA: 0x8D640 Offset: 0x8CA40 VA: 0x18008D640
+	public string FixedValue { get; set; }
 	[DefaultValueAttribute] // RVA: 0x8D710 Offset: 0x8CB10 VA: 0x18008D710
 	[XmlAttributeAttribute] // RVA: 0x8D710 Offset: 0x8CB10 VA: 0x18008D710
-	public string FixedValue { get; set; }
-	[DefaultValueAttribute] // RVA: 0x8D7E0 Offset: 0x8CBE0 VA: 0x18008D7E0
-	[XmlAttributeAttribute] // RVA: 0x8D7E0 Offset: 0x8CBE0 VA: 0x18008D7E0
 	public XmlSchemaForm Form { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x8DAB0 Offset: 0x8CEB0 VA: 0x18008DAB0
+	[XmlAttributeAttribute] // RVA: 0x8D9B0 Offset: 0x8CDB0 VA: 0x18008D9B0
 	public string Name { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x8DBE0 Offset: 0x8CFE0 VA: 0x18008DBE0
+	[XmlAttributeAttribute] // RVA: 0x8DAE0 Offset: 0x8CEE0 VA: 0x18008DAE0
 	public XmlQualifiedName RefName { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x8DC40 Offset: 0x8D040 VA: 0x18008DC40
+	[XmlAttributeAttribute] // RVA: 0x8DB80 Offset: 0x8CF80 VA: 0x18008DB80
 	public XmlQualifiedName SchemaTypeName { get; set; }
-	[XmlElementAttribute] // RVA: 0x8DD90 Offset: 0x8D190 VA: 0x18008DD90
+	[XmlElementAttribute] // RVA: 0x8DC90 Offset: 0x8D090 VA: 0x18008DC90
 	public XmlSchemaSimpleType SchemaType { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x8DEE0 Offset: 0x8D2E0 VA: 0x18008DEE0
-	[DefaultValueAttribute] // RVA: 0x8DEE0 Offset: 0x8D2E0 VA: 0x18008DEE0
+	[XmlAttributeAttribute] // RVA: 0x8DDA0 Offset: 0x8D1A0 VA: 0x18008DDA0
+	[DefaultValueAttribute] // RVA: 0x8DDA0 Offset: 0x8D1A0 VA: 0x18008DDA0
 	public XmlSchemaUse Use { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlQualifiedName QualifiedName { get; }
@@ -10646,12 +10646,12 @@ public class XmlSchemaAttributeGroup : XmlSchemaAnnotated // TypeDefIndex: 2314
 	private XmlSchemaAnyAttribute attributeWildcard; // 0x80
 	private int selfReferenceCount; // 0x88
 
-	[XmlAttributeAttribute] // RVA: 0x8DAB0 Offset: 0x8CEB0 VA: 0x18008DAB0
+	[XmlAttributeAttribute] // RVA: 0x8D9B0 Offset: 0x8CDB0 VA: 0x18008D9B0
 	public string Name { get; set; }
-	[XmlElementAttribute] // RVA: 0x8E3F0 Offset: 0x8D7F0 VA: 0x18008E3F0
-	[XmlElementAttribute] // RVA: 0x8E3F0 Offset: 0x8D7F0 VA: 0x18008E3F0
+	[XmlElementAttribute] // RVA: 0x8E2A0 Offset: 0x8D6A0 VA: 0x18008E2A0
+	[XmlElementAttribute] // RVA: 0x8E2A0 Offset: 0x8D6A0 VA: 0x18008E2A0
 	public XmlSchemaObjectCollection Attributes { get; }
-	[XmlElementAttribute] // RVA: 0x8E6F0 Offset: 0x8DAF0 VA: 0x18008E6F0
+	[XmlElementAttribute] // RVA: 0x8E5A0 Offset: 0x8D9A0 VA: 0x18008E5A0
 	public XmlSchemaAnyAttribute AnyAttribute { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlQualifiedName QualifiedName { get; }
@@ -10712,7 +10712,7 @@ public class XmlSchemaAttributeGroup : XmlSchemaAnnotated // TypeDefIndex: 2314
 public class XmlSchemaAttributeGroupRef : XmlSchemaAnnotated // TypeDefIndex: 2315
 {	private XmlQualifiedName refName; // 0x50
 
-	[XmlAttributeAttribute] // RVA: 0x8DBE0 Offset: 0x8CFE0 VA: 0x18008DBE0
+	[XmlAttributeAttribute] // RVA: 0x8DAE0 Offset: 0x8CEE0 VA: 0x18008DAE0
 	public XmlQualifiedName RefName { get; set; }
 
 
@@ -10727,11 +10727,11 @@ public class XmlSchemaAttributeGroupRef : XmlSchemaAnnotated // TypeDefIndex: 23
 public class XmlSchemaChoice : XmlSchemaGroupBase // TypeDefIndex: 2316
 {	private XmlSchemaObjectCollection items; // 0x78
 
-	[XmlElementAttribute] // RVA: 0x8EAC0 Offset: 0x8DEC0 VA: 0x18008EAC0
-	[XmlElementAttribute] // RVA: 0x8EAC0 Offset: 0x8DEC0 VA: 0x18008EAC0
-	[XmlElementAttribute] // RVA: 0x8EAC0 Offset: 0x8DEC0 VA: 0x18008EAC0
-	[XmlElementAttribute] // RVA: 0x8EAC0 Offset: 0x8DEC0 VA: 0x18008EAC0
-	[XmlElementAttribute] // RVA: 0x8EAC0 Offset: 0x8DEC0 VA: 0x18008EAC0
+	[XmlElementAttribute] // RVA: 0x8EA70 Offset: 0x8DE70 VA: 0x18008EA70
+	[XmlElementAttribute] // RVA: 0x8EA70 Offset: 0x8DE70 VA: 0x18008EA70
+	[XmlElementAttribute] // RVA: 0x8EA70 Offset: 0x8DE70 VA: 0x18008EA70
+	[XmlElementAttribute] // RVA: 0x8EA70 Offset: 0x8DE70 VA: 0x18008EA70
+	[XmlElementAttribute] // RVA: 0x8EA70 Offset: 0x8DE70 VA: 0x18008EA70
 	public override XmlSchemaObjectCollection Items { get; }
 	internal override bool IsEmpty { get; }
 
@@ -10866,10 +10866,10 @@ public class XmlSchemaComplexContent : XmlSchemaContentModel // TypeDefIndex: 23
 	private bool isMixed; // 0x58
 	private bool hasMixedAttribute; // 0x59
 
-	[XmlAttributeAttribute] // RVA: 0x8F080 Offset: 0x8E480 VA: 0x18008F080
+	[XmlAttributeAttribute] // RVA: 0x8EF80 Offset: 0x8E380 VA: 0x18008EF80
 	public bool IsMixed { get; set; }
-	[XmlElementAttribute] // RVA: 0x8F110 Offset: 0x8E510 VA: 0x18008F110
-	[XmlElementAttribute] // RVA: 0x8F110 Offset: 0x8E510 VA: 0x18008F110
+	[XmlElementAttribute] // RVA: 0x8F050 Offset: 0x8E450 VA: 0x18008F050
+	[XmlElementAttribute] // RVA: 0x8F050 Offset: 0x8E450 VA: 0x18008F050
 	public override XmlSchemaContent Content { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool HasMixedAttribute { get; }
@@ -10895,17 +10895,17 @@ public class XmlSchemaComplexContentExtension : XmlSchemaContent // TypeDefIndex
 	private XmlSchemaAnyAttribute anyAttribute; // 0x60
 	private XmlQualifiedName baseTypeName; // 0x68
 
-	[XmlAttributeAttribute] // RVA: 0x8F590 Offset: 0x8E990 VA: 0x18008F590
+	[XmlAttributeAttribute] // RVA: 0x8F550 Offset: 0x8E950 VA: 0x18008F550
 	public XmlQualifiedName BaseTypeName { get; set; }
-	[XmlElementAttribute] // RVA: 0x8F6F0 Offset: 0x8EAF0 VA: 0x18008F6F0
-	[XmlElementAttribute] // RVA: 0x8F6F0 Offset: 0x8EAF0 VA: 0x18008F6F0
-	[XmlElementAttribute] // RVA: 0x8F6F0 Offset: 0x8EAF0 VA: 0x18008F6F0
-	[XmlElementAttribute] // RVA: 0x8F6F0 Offset: 0x8EAF0 VA: 0x18008F6F0
+	[XmlElementAttribute] // RVA: 0x8F6B0 Offset: 0x8EAB0 VA: 0x18008F6B0
+	[XmlElementAttribute] // RVA: 0x8F6B0 Offset: 0x8EAB0 VA: 0x18008F6B0
+	[XmlElementAttribute] // RVA: 0x8F6B0 Offset: 0x8EAB0 VA: 0x18008F6B0
+	[XmlElementAttribute] // RVA: 0x8F6B0 Offset: 0x8EAB0 VA: 0x18008F6B0
 	public XmlSchemaParticle Particle { get; set; }
-	[XmlElementAttribute] // RVA: 0x8FA00 Offset: 0x8EE00 VA: 0x18008FA00
-	[XmlElementAttribute] // RVA: 0x8FA00 Offset: 0x8EE00 VA: 0x18008FA00
+	[XmlElementAttribute] // RVA: 0x8F900 Offset: 0x8ED00 VA: 0x18008F900
+	[XmlElementAttribute] // RVA: 0x8F900 Offset: 0x8ED00 VA: 0x18008F900
 	public XmlSchemaObjectCollection Attributes { get; }
-	[XmlElementAttribute] // RVA: 0x8E6F0 Offset: 0x8DAF0 VA: 0x18008E6F0
+	[XmlElementAttribute] // RVA: 0x8E5A0 Offset: 0x8D9A0 VA: 0x18008E5A0
 	public XmlSchemaAnyAttribute AnyAttribute { get; set; }
 
 
@@ -10935,17 +10935,17 @@ public class XmlSchemaComplexContentRestriction : XmlSchemaContent // TypeDefInd
 	private XmlSchemaAnyAttribute anyAttribute; // 0x60
 	private XmlQualifiedName baseTypeName; // 0x68
 
-	[XmlAttributeAttribute] // RVA: 0x8F590 Offset: 0x8E990 VA: 0x18008F590
+	[XmlAttributeAttribute] // RVA: 0x8F550 Offset: 0x8E950 VA: 0x18008F550
 	public XmlQualifiedName BaseTypeName { get; set; }
-	[XmlElementAttribute] // RVA: 0x8FDE0 Offset: 0x8F1E0 VA: 0x18008FDE0
-	[XmlElementAttribute] // RVA: 0x8FDE0 Offset: 0x8F1E0 VA: 0x18008FDE0
-	[XmlElementAttribute] // RVA: 0x8FDE0 Offset: 0x8F1E0 VA: 0x18008FDE0
-	[XmlElementAttribute] // RVA: 0x8FDE0 Offset: 0x8F1E0 VA: 0x18008FDE0
+	[XmlElementAttribute] // RVA: 0x8FC90 Offset: 0x8F090 VA: 0x18008FC90
+	[XmlElementAttribute] // RVA: 0x8FC90 Offset: 0x8F090 VA: 0x18008FC90
+	[XmlElementAttribute] // RVA: 0x8FC90 Offset: 0x8F090 VA: 0x18008FC90
+	[XmlElementAttribute] // RVA: 0x8FC90 Offset: 0x8F090 VA: 0x18008FC90
 	public XmlSchemaParticle Particle { get; set; }
-	[XmlElementAttribute] // RVA: 0x90160 Offset: 0x8F560 VA: 0x180090160
-	[XmlElementAttribute] // RVA: 0x90160 Offset: 0x8F560 VA: 0x180090160
+	[XmlElementAttribute] // RVA: 0x90010 Offset: 0x8F410 VA: 0x180090010
+	[XmlElementAttribute] // RVA: 0x90010 Offset: 0x8F410 VA: 0x180090010
 	public XmlSchemaObjectCollection Attributes { get; }
-	[XmlElementAttribute] // RVA: 0x8E6F0 Offset: 0x8DAF0 VA: 0x18008E6F0
+	[XmlElementAttribute] // RVA: 0x8E5A0 Offset: 0x8D9A0 VA: 0x18008E5A0
 	public XmlSchemaAnyAttribute AnyAttribute { get; set; }
 
 
@@ -10990,27 +10990,27 @@ public class XmlSchemaComplexType : XmlSchemaType // TypeDefIndex: 2324
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal static XmlSchemaComplexType UntypedAnyType { get; }
 	internal static ContentValidator AnyTypeContentValidator { get; }
-	[XmlAttributeAttribute] // RVA: 0x90530 Offset: 0x8F930 VA: 0x180090530
-	[DefaultValueAttribute] // RVA: 0x90530 Offset: 0x8F930 VA: 0x180090530
+	[XmlAttributeAttribute] // RVA: 0x903E0 Offset: 0x8F7E0 VA: 0x1800903E0
+	[DefaultValueAttribute] // RVA: 0x903E0 Offset: 0x8F7E0 VA: 0x1800903E0
 	public bool IsAbstract { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x906D0 Offset: 0x8FAD0 VA: 0x1800906D0
-	[DefaultValueAttribute] // RVA: 0x906D0 Offset: 0x8FAD0 VA: 0x1800906D0
+	[XmlAttributeAttribute] // RVA: 0x905D0 Offset: 0x8F9D0 VA: 0x1800905D0
+	[DefaultValueAttribute] // RVA: 0x905D0 Offset: 0x8F9D0 VA: 0x1800905D0
 	public XmlSchemaDerivationMethod Block { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x90990 Offset: 0x8FD90 VA: 0x180090990
-	[DefaultValueAttribute] // RVA: 0x90990 Offset: 0x8FD90 VA: 0x180090990
+	[XmlAttributeAttribute] // RVA: 0x908E0 Offset: 0x8FCE0 VA: 0x1800908E0
+	[DefaultValueAttribute] // RVA: 0x908E0 Offset: 0x8FCE0 VA: 0x1800908E0
 	public override bool IsMixed { get; set; }
-	[XmlElementAttribute] // RVA: 0x90A40 Offset: 0x8FE40 VA: 0x180090A40
-	[XmlElementAttribute] // RVA: 0x90A40 Offset: 0x8FE40 VA: 0x180090A40
+	[XmlElementAttribute] // RVA: 0x90A00 Offset: 0x8FE00 VA: 0x180090A00
+	[XmlElementAttribute] // RVA: 0x90A00 Offset: 0x8FE00 VA: 0x180090A00
 	public XmlSchemaContentModel ContentModel { get; set; }
-	[XmlElementAttribute] // RVA: 0x90D10 Offset: 0x90110 VA: 0x180090D10
-	[XmlElementAttribute] // RVA: 0x90D10 Offset: 0x90110 VA: 0x180090D10
-	[XmlElementAttribute] // RVA: 0x90D10 Offset: 0x90110 VA: 0x180090D10
-	[XmlElementAttribute] // RVA: 0x90D10 Offset: 0x90110 VA: 0x180090D10
+	[XmlElementAttribute] // RVA: 0x90CD0 Offset: 0x900D0 VA: 0x180090CD0
+	[XmlElementAttribute] // RVA: 0x90CD0 Offset: 0x900D0 VA: 0x180090CD0
+	[XmlElementAttribute] // RVA: 0x90CD0 Offset: 0x900D0 VA: 0x180090CD0
+	[XmlElementAttribute] // RVA: 0x90CD0 Offset: 0x900D0 VA: 0x180090CD0
 	public XmlSchemaParticle Particle { get; set; }
-	[XmlElementAttribute] // RVA: 0x910F0 Offset: 0x904F0 VA: 0x1800910F0
-	[XmlElementAttribute] // RVA: 0x910F0 Offset: 0x904F0 VA: 0x1800910F0
+	[XmlElementAttribute] // RVA: 0x910C0 Offset: 0x904C0 VA: 0x1800910C0
+	[XmlElementAttribute] // RVA: 0x910C0 Offset: 0x904C0 VA: 0x1800910C0
 	public XmlSchemaObjectCollection Attributes { get; }
-	[XmlElementAttribute] // RVA: 0x8E6F0 Offset: 0x8DAF0 VA: 0x18008E6F0
+	[XmlElementAttribute] // RVA: 0x8E5A0 Offset: 0x8D9A0 VA: 0x18008E5A0
 	public XmlSchemaAnyAttribute AnyAttribute { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlSchemaContentType ContentType { get; }
@@ -11132,11 +11132,11 @@ public enum XmlSchemaContentProcessing // TypeDefIndex: 2327
 {	public int value__; // 0x0
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public const XmlSchemaContentProcessing None = 0;
-	[XmlEnumAttribute] // RVA: 0x917A0 Offset: 0x90BA0 VA: 0x1800917A0
+	[XmlEnumAttribute] // RVA: 0x91890 Offset: 0x90C90 VA: 0x180091890
 	public const XmlSchemaContentProcessing Skip = 1;
-	[XmlEnumAttribute] // RVA: 0x918C0 Offset: 0x90CC0 VA: 0x1800918C0
+	[XmlEnumAttribute] // RVA: 0x91970 Offset: 0x90D70 VA: 0x180091970
 	public const XmlSchemaContentProcessing Lax = 2;
-	[XmlEnumAttribute] // RVA: 0x91A50 Offset: 0x90E50 VA: 0x180091A50
+	[XmlEnumAttribute] // RVA: 0x91AA0 Offset: 0x90EA0 VA: 0x180091AA0
 	public const XmlSchemaContentProcessing Strict = 3;
 
 }
@@ -11228,19 +11228,19 @@ public abstract class XmlSchemaDatatype // TypeDefIndex: 2329
 
 public enum XmlSchemaDerivationMethod // TypeDefIndex: 2330
 {	public int value__; // 0x0
-	[XmlEnumAttribute] // RVA: 0x91BC0 Offset: 0x90FC0 VA: 0x180091BC0
+	[XmlEnumAttribute] // RVA: 0x91B90 Offset: 0x90F90 VA: 0x180091B90
 	public const XmlSchemaDerivationMethod Empty = 0;
-	[XmlEnumAttribute] // RVA: 0x91CA0 Offset: 0x910A0 VA: 0x180091CA0
+	[XmlEnumAttribute] // RVA: 0x91C30 Offset: 0x91030 VA: 0x180091C30
 	public const XmlSchemaDerivationMethod Substitution = 1;
-	[XmlEnumAttribute] // RVA: 0x93130 Offset: 0x92530 VA: 0x180093130
+	[XmlEnumAttribute] // RVA: 0x93010 Offset: 0x92410 VA: 0x180093010
 	public const XmlSchemaDerivationMethod Extension = 2;
-	[XmlEnumAttribute] // RVA: 0x93190 Offset: 0x92590 VA: 0x180093190
+	[XmlEnumAttribute] // RVA: 0x930A0 Offset: 0x924A0 VA: 0x1800930A0
 	public const XmlSchemaDerivationMethod Restriction = 4;
-	[XmlEnumAttribute] // RVA: 0x93220 Offset: 0x92620 VA: 0x180093220
+	[XmlEnumAttribute] // RVA: 0x93100 Offset: 0x92500 VA: 0x180093100
 	public const XmlSchemaDerivationMethod List = 8;
-	[XmlEnumAttribute] // RVA: 0x93320 Offset: 0x92720 VA: 0x180093320
+	[XmlEnumAttribute] // RVA: 0x93200 Offset: 0x92600 VA: 0x180093200
 	public const XmlSchemaDerivationMethod Union = 16;
-	[XmlEnumAttribute] // RVA: 0x934E0 Offset: 0x928E0 VA: 0x1800934E0
+	[XmlEnumAttribute] // RVA: 0x933C0 Offset: 0x927C0 VA: 0x1800933C0
 	public const XmlSchemaDerivationMethod All = 255;
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public const XmlSchemaDerivationMethod None = 256;
@@ -11253,12 +11253,12 @@ public class XmlSchemaDocumentation : XmlSchemaObject // TypeDefIndex: 2331
 	private XmlNode[] markup; // 0x48
 	private static XmlSchemaSimpleType languageType; // 0x0
 
-	[XmlAttributeAttribute] // RVA: 0x8D3A0 Offset: 0x8C7A0 VA: 0x18008D3A0
+	[XmlAttributeAttribute] // RVA: 0x8D2B0 Offset: 0x8C6B0 VA: 0x18008D2B0
 	public string Source { set; }
-	[XmlAttributeAttribute] // RVA: 0x93690 Offset: 0x92A90 VA: 0x180093690
+	[XmlAttributeAttribute] // RVA: 0x93570 Offset: 0x92970 VA: 0x180093570
 	public string Language { set; }
-	[XmlAnyElementAttribute] // RVA: 0x93790 Offset: 0x92B90 VA: 0x180093790
-	[XmlTextAttribute] // RVA: 0x93790 Offset: 0x92B90 VA: 0x180093790
+	[XmlAnyElementAttribute] // RVA: 0x93640 Offset: 0x92A40 VA: 0x180093640
+	[XmlTextAttribute] // RVA: 0x93640 Offset: 0x92A40 VA: 0x180093640
 	public XmlNode[] Markup { set; }
 
 
@@ -11297,46 +11297,46 @@ public class XmlSchemaElement : XmlSchemaParticle // TypeDefIndex: 2332
 	private XmlSchemaObjectCollection constraints; // 0xE0
 	private SchemaElementDecl elementDecl; // 0xE8
 
-	[XmlAttributeAttribute] // RVA: 0x90530 Offset: 0x8F930 VA: 0x180090530
-	[DefaultValueAttribute] // RVA: 0x90530 Offset: 0x8F930 VA: 0x180090530
+	[XmlAttributeAttribute] // RVA: 0x903E0 Offset: 0x8F7E0 VA: 0x1800903E0
+	[DefaultValueAttribute] // RVA: 0x903E0 Offset: 0x8F7E0 VA: 0x1800903E0
 	public bool IsAbstract { get; set; }
-	[DefaultValueAttribute] // RVA: 0x938B0 Offset: 0x92CB0 VA: 0x1800938B0
-	[XmlAttributeAttribute] // RVA: 0x938B0 Offset: 0x92CB0 VA: 0x1800938B0
+	[DefaultValueAttribute] // RVA: 0x93760 Offset: 0x92B60 VA: 0x180093760
+	[XmlAttributeAttribute] // RVA: 0x93760 Offset: 0x92B60 VA: 0x180093760
 	public XmlSchemaDerivationMethod Block { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x8D5E0 Offset: 0x8C9E0 VA: 0x18008D5E0
-	[DefaultValueAttribute] // RVA: 0x8D5E0 Offset: 0x8C9E0 VA: 0x18008D5E0
+	[XmlAttributeAttribute] // RVA: 0x8D490 Offset: 0x8C890 VA: 0x18008D490
+	[DefaultValueAttribute] // RVA: 0x8D490 Offset: 0x8C890 VA: 0x18008D490
 	public string DefaultValue { get; set; }
-	[DefaultValueAttribute] // RVA: 0x93B50 Offset: 0x92F50 VA: 0x180093B50
-	[XmlAttributeAttribute] // RVA: 0x93B50 Offset: 0x92F50 VA: 0x180093B50
+	[DefaultValueAttribute] // RVA: 0x93A10 Offset: 0x92E10 VA: 0x180093A10
+	[XmlAttributeAttribute] // RVA: 0x93A10 Offset: 0x92E10 VA: 0x180093A10
 	public XmlSchemaDerivationMethod Final { get; set; }
-	[DefaultValueAttribute] // RVA: 0x8D710 Offset: 0x8CB10 VA: 0x18008D710
-	[XmlAttributeAttribute] // RVA: 0x8D710 Offset: 0x8CB10 VA: 0x18008D710
+	[DefaultValueAttribute] // RVA: 0x8D640 Offset: 0x8CA40 VA: 0x18008D640
+	[XmlAttributeAttribute] // RVA: 0x8D640 Offset: 0x8CA40 VA: 0x18008D640
 	public string FixedValue { get; set; }
-	[DefaultValueAttribute] // RVA: 0x93D80 Offset: 0x93180 VA: 0x180093D80
-	[XmlAttributeAttribute] // RVA: 0x93D80 Offset: 0x93180 VA: 0x180093D80
+	[DefaultValueAttribute] // RVA: 0x93D00 Offset: 0x93100 VA: 0x180093D00
+	[XmlAttributeAttribute] // RVA: 0x93D00 Offset: 0x93100 VA: 0x180093D00
 	public XmlSchemaForm Form { get; set; }
 	[DefaultValueAttribute] // RVA: 0x93EA0 Offset: 0x932A0 VA: 0x180093EA0
 	[XmlAttributeAttribute] // RVA: 0x93EA0 Offset: 0x932A0 VA: 0x180093EA0
 	public string Name { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x93F50 Offset: 0x93350 VA: 0x180093F50
-	[DefaultValueAttribute] // RVA: 0x93F50 Offset: 0x93350 VA: 0x180093F50
+	[XmlAttributeAttribute] // RVA: 0x93F90 Offset: 0x93390 VA: 0x180093F90
+	[DefaultValueAttribute] // RVA: 0x93F90 Offset: 0x93390 VA: 0x180093F90
 	public bool IsNillable { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool HasNillableAttribute { get; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal bool HasAbstractAttribute { get; }
-	[XmlAttributeAttribute] // RVA: 0x8DBE0 Offset: 0x8CFE0 VA: 0x18008DBE0
+	[XmlAttributeAttribute] // RVA: 0x8DAE0 Offset: 0x8CEE0 VA: 0x18008DAE0
 	public XmlQualifiedName RefName { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x94220 Offset: 0x93620 VA: 0x180094220
+	[XmlAttributeAttribute] // RVA: 0x94200 Offset: 0x93600 VA: 0x180094200
 	public XmlQualifiedName SubstitutionGroup { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x8DC40 Offset: 0x8D040 VA: 0x18008DC40
+	[XmlAttributeAttribute] // RVA: 0x8DB80 Offset: 0x8CF80 VA: 0x18008DB80
 	public XmlQualifiedName SchemaTypeName { get; set; }
-	[XmlElementAttribute] // RVA: 0x94300 Offset: 0x93700 VA: 0x180094300
-	[XmlElementAttribute] // RVA: 0x94300 Offset: 0x93700 VA: 0x180094300
+	[XmlElementAttribute] // RVA: 0x942F0 Offset: 0x936F0 VA: 0x1800942F0
+	[XmlElementAttribute] // RVA: 0x942F0 Offset: 0x936F0 VA: 0x1800942F0
 	public XmlSchemaType SchemaType { get; set; }
-	[XmlElementAttribute] // RVA: 0x94460 Offset: 0x93860 VA: 0x180094460
-	[XmlElementAttribute] // RVA: 0x94460 Offset: 0x93860 VA: 0x180094460
-	[XmlElementAttribute] // RVA: 0x94460 Offset: 0x93860 VA: 0x180094460
+	[XmlElementAttribute] // RVA: 0x94450 Offset: 0x93850 VA: 0x180094450
+	[XmlElementAttribute] // RVA: 0x94450 Offset: 0x93850 VA: 0x180094450
+	[XmlElementAttribute] // RVA: 0x94450 Offset: 0x93850 VA: 0x180094450
 	public XmlSchemaObjectCollection Constraints { get; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlQualifiedName QualifiedName { get; }
@@ -11529,11 +11529,11 @@ public abstract class XmlSchemaExternal : XmlSchemaObject // TypeDefIndex: 2334
 	private XmlAttribute[] moreAttributes; // 0x58
 	private Compositor compositor; // 0x60
 
-	[XmlAttributeAttribute] // RVA: 0x94970 Offset: 0x93D70 VA: 0x180094970
+	[XmlAttributeAttribute] // RVA: 0x94A30 Offset: 0x93E30 VA: 0x180094A30
 	public string SchemaLocation { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlSchema Schema { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x8AAA0 Offset: 0x89EA0 VA: 0x18008AAA0
+	[XmlAttributeAttribute] // RVA: 0x8A9E0 Offset: 0x89DE0 VA: 0x18008A9E0
 	public string Id { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal Uri BaseUri { get; set; }
@@ -11577,7 +11577,7 @@ public abstract class XmlSchemaFacet : XmlSchemaAnnotated // TypeDefIndex: 2336
 	private bool isFixed; // 0x58
 	private FacetType facetType; // 0x5C
 
-	[XmlAttributeAttribute] // RVA: 0x94D00 Offset: 0x94100 VA: 0x180094D00
+	[XmlAttributeAttribute] // RVA: 0x94D40 Offset: 0x94140 VA: 0x180094D40
 	public string Value { get; set; }
 	[DefaultValueAttribute] // RVA: 0x94DF0 Offset: 0x941F0 VA: 0x180094DF0
 	[XmlAttributeAttribute] // RVA: 0x94DF0 Offset: 0x941F0 VA: 0x180094DF0
@@ -11683,9 +11683,9 @@ public enum XmlSchemaForm // TypeDefIndex: 2350
 {	public int value__; // 0x0
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public const XmlSchemaForm None = 0;
-	[XmlEnumAttribute] // RVA: 0x94FB0 Offset: 0x943B0 VA: 0x180094FB0
+	[XmlEnumAttribute] // RVA: 0x95020 Offset: 0x94420 VA: 0x180095020
 	public const XmlSchemaForm Qualified = 1;
-	[XmlEnumAttribute] // RVA: 0x95080 Offset: 0x94480 VA: 0x180095080
+	[XmlEnumAttribute] // RVA: 0x95100 Offset: 0x94500 VA: 0x180095100
 	public const XmlSchemaForm Unqualified = 2;
 
 }
@@ -11698,11 +11698,11 @@ public class XmlSchemaGroup : XmlSchemaAnnotated // TypeDefIndex: 2351
 	private XmlSchemaGroup redefined; // 0x70
 	private int selfReferenceCount; // 0x78
 
-	[XmlAttributeAttribute] // RVA: 0x8DAB0 Offset: 0x8CEB0 VA: 0x18008DAB0
+	[XmlAttributeAttribute] // RVA: 0x8D9B0 Offset: 0x8CDB0 VA: 0x18008D9B0
 	public string Name { get; set; }
-	[XmlElementAttribute] // RVA: 0x951C0 Offset: 0x945C0 VA: 0x1800951C0
-	[XmlElementAttribute] // RVA: 0x951C0 Offset: 0x945C0 VA: 0x1800951C0
-	[XmlElementAttribute] // RVA: 0x951C0 Offset: 0x945C0 VA: 0x1800951C0
+	[XmlElementAttribute] // RVA: 0x95240 Offset: 0x94640 VA: 0x180095240
+	[XmlElementAttribute] // RVA: 0x95240 Offset: 0x94640 VA: 0x180095240
+	[XmlElementAttribute] // RVA: 0x95240 Offset: 0x94640 VA: 0x180095240
 	public XmlSchemaGroupBase Particle { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlQualifiedName QualifiedName { get; }
@@ -11770,7 +11770,7 @@ public class XmlSchemaGroupRef : XmlSchemaParticle // TypeDefIndex: 2353
 	private XmlSchemaGroupBase particle; // 0x80
 	private XmlSchemaGroup refined; // 0x88
 
-	[XmlAttributeAttribute] // RVA: 0x8DBE0 Offset: 0x8CFE0 VA: 0x18008DBE0
+	[XmlAttributeAttribute] // RVA: 0x8DAE0 Offset: 0x8CEE0 VA: 0x18008DAE0
 	public XmlQualifiedName RefName { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlSchemaGroupBase Particle { get; }
@@ -11801,11 +11801,11 @@ public class XmlSchemaIdentityConstraint : XmlSchemaAnnotated // TypeDefIndex: 2
 	private XmlQualifiedName qualifiedName; // 0x68
 	private CompiledIdentityConstraint compiledConstraint; // 0x70
 
-	[XmlAttributeAttribute] // RVA: 0x8DAB0 Offset: 0x8CEB0 VA: 0x18008DAB0
+	[XmlAttributeAttribute] // RVA: 0x8D9B0 Offset: 0x8CDB0 VA: 0x18008D9B0
 	public string Name { get; set; }
-	[XmlElementAttribute] // RVA: 0x95A60 Offset: 0x94E60 VA: 0x180095A60
+	[XmlElementAttribute] // RVA: 0x95A30 Offset: 0x94E30 VA: 0x180095A30
 	public XmlSchemaXPath Selector { get; set; }
-	[XmlElementAttribute] // RVA: 0x95BD0 Offset: 0x94FD0 VA: 0x180095BD0
+	[XmlElementAttribute] // RVA: 0x95B80 Offset: 0x94F80 VA: 0x180095B80
 	public XmlSchemaObjectCollection Fields { get; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlQualifiedName QualifiedName { get; }
@@ -11844,8 +11844,8 @@ public class XmlSchemaIdentityConstraint : XmlSchemaAnnotated // TypeDefIndex: 2
 public class XmlSchemaXPath : XmlSchemaAnnotated // TypeDefIndex: 2355
 {	private string xpath; // 0x50
 
-	[XmlAttributeAttribute] // RVA: 0x96030 Offset: 0x95430 VA: 0x180096030
-	[DefaultValueAttribute] // RVA: 0x96030 Offset: 0x95430 VA: 0x180096030
+	[XmlAttributeAttribute] // RVA: 0x96080 Offset: 0x95480 VA: 0x180096080
+	[DefaultValueAttribute] // RVA: 0x96080 Offset: 0x95480 VA: 0x180096080
 	public string XPath { get; set; }
 
 
@@ -11872,7 +11872,7 @@ public class XmlSchemaKey : XmlSchemaIdentityConstraint // TypeDefIndex: 2357
 public class XmlSchemaKeyref : XmlSchemaIdentityConstraint // TypeDefIndex: 2358
 {	private XmlQualifiedName refer; // 0x78
 
-	[XmlAttributeAttribute] // RVA: 0x961A0 Offset: 0x955A0 VA: 0x1800961A0
+	[XmlAttributeAttribute] // RVA: 0x96200 Offset: 0x95600 VA: 0x180096200
 	public XmlQualifiedName Refer { get; set; }
 
 
@@ -11888,7 +11888,7 @@ public class XmlSchemaImport : XmlSchemaExternal // TypeDefIndex: 2359
 {	private string ns; // 0x68
 	private XmlSchemaAnnotation annotation; // 0x70
 
-	[XmlAttributeAttribute] // RVA: 0x96280 Offset: 0x95680 VA: 0x180096280
+	[XmlAttributeAttribute] // RVA: 0x962B0 Offset: 0x956B0 VA: 0x1800962B0
 	public string Namespace { get; set; }
 
 
@@ -11985,11 +11985,11 @@ public class XmlSchemaNotation : XmlSchemaAnnotated // TypeDefIndex: 2362
 	private string systemId; // 0x60
 	private XmlQualifiedName qname; // 0x68
 
-	[XmlAttributeAttribute] // RVA: 0x8DAB0 Offset: 0x8CEB0 VA: 0x18008DAB0
+	[XmlAttributeAttribute] // RVA: 0x8D9B0 Offset: 0x8CDB0 VA: 0x18008D9B0
 	public string Name { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x96440 Offset: 0x95840 VA: 0x180096440
+	[XmlAttributeAttribute] // RVA: 0x96450 Offset: 0x95850 VA: 0x180096450
 	public string Public { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x96500 Offset: 0x95900 VA: 0x180096500
+	[XmlAttributeAttribute] // RVA: 0x96510 Offset: 0x95910 VA: 0x180096510
 	public string System { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	internal XmlQualifiedName QualifiedName { get; set; }
@@ -12265,9 +12265,9 @@ public abstract class XmlSchemaParticle : XmlSchemaAnnotated // TypeDefIndex: 23
 	private XmlSchemaParticle.Occurs flags; // 0x70
 	internal static readonly XmlSchemaParticle Empty; // 0x0
 
-	[XmlAttributeAttribute] // RVA: 0x96F60 Offset: 0x96360 VA: 0x180096F60
+	[XmlAttributeAttribute] // RVA: 0x96F40 Offset: 0x96340 VA: 0x180096F40
 	public string MinOccursString { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x96FD0 Offset: 0x963D0 VA: 0x180096FD0
+	[XmlAttributeAttribute] // RVA: 0x96F70 Offset: 0x96370 VA: 0x180096F70
 	public string MaxOccursString { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public Decimal MinOccurs { get; set; }
@@ -12329,11 +12329,11 @@ public class XmlSchemaRedefine : XmlSchemaExternal // TypeDefIndex: 2375
 	private XmlSchemaObjectTable types; // 0x78
 	private XmlSchemaObjectTable groups; // 0x80
 
-	[XmlElementAttribute] // RVA: 0x973F0 Offset: 0x967F0 VA: 0x1800973F0
-	[XmlElementAttribute] // RVA: 0x973F0 Offset: 0x967F0 VA: 0x1800973F0
-	[XmlElementAttribute] // RVA: 0x973F0 Offset: 0x967F0 VA: 0x1800973F0
-	[XmlElementAttribute] // RVA: 0x973F0 Offset: 0x967F0 VA: 0x1800973F0
-	[XmlElementAttribute] // RVA: 0x973F0 Offset: 0x967F0 VA: 0x1800973F0
+	[XmlElementAttribute] // RVA: 0x973B0 Offset: 0x967B0 VA: 0x1800973B0
+	[XmlElementAttribute] // RVA: 0x973B0 Offset: 0x967B0 VA: 0x1800973B0
+	[XmlElementAttribute] // RVA: 0x973B0 Offset: 0x967B0 VA: 0x1800973B0
+	[XmlElementAttribute] // RVA: 0x973B0 Offset: 0x967B0 VA: 0x1800973B0
+	[XmlElementAttribute] // RVA: 0x973B0 Offset: 0x967B0 VA: 0x1800973B0
 	public XmlSchemaObjectCollection Items { get; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlSchemaObjectTable AttributeGroups { get; }
@@ -12360,11 +12360,11 @@ public class XmlSchemaRedefine : XmlSchemaExternal // TypeDefIndex: 2375
 public class XmlSchemaSequence : XmlSchemaGroupBase // TypeDefIndex: 2376
 {	private XmlSchemaObjectCollection items; // 0x78
 
-	[XmlElementAttribute] // RVA: 0x97BC0 Offset: 0x96FC0 VA: 0x180097BC0
-	[XmlElementAttribute] // RVA: 0x97BC0 Offset: 0x96FC0 VA: 0x180097BC0
-	[XmlElementAttribute] // RVA: 0x97BC0 Offset: 0x96FC0 VA: 0x180097BC0
-	[XmlElementAttribute] // RVA: 0x97BC0 Offset: 0x96FC0 VA: 0x180097BC0
-	[XmlElementAttribute] // RVA: 0x97BC0 Offset: 0x96FC0 VA: 0x180097BC0
+	[XmlElementAttribute] // RVA: 0x97C60 Offset: 0x97060 VA: 0x180097C60
+	[XmlElementAttribute] // RVA: 0x97C60 Offset: 0x97060 VA: 0x180097C60
+	[XmlElementAttribute] // RVA: 0x97C60 Offset: 0x97060 VA: 0x180097C60
+	[XmlElementAttribute] // RVA: 0x97C60 Offset: 0x97060 VA: 0x180097C60
+	[XmlElementAttribute] // RVA: 0x97C60 Offset: 0x97060 VA: 0x180097C60
 	public override XmlSchemaObjectCollection Items { get; }
 	internal override bool IsEmpty { get; }
 
@@ -12524,8 +12524,8 @@ public class XmlSchemaSet // TypeDefIndex: 2377
 public class XmlSchemaSimpleContent : XmlSchemaContentModel // TypeDefIndex: 2378
 {	private XmlSchemaContent content; // 0x50
 
-	[XmlElementAttribute] // RVA: 0x97F70 Offset: 0x97370 VA: 0x180097F70
-	[XmlElementAttribute] // RVA: 0x97F70 Offset: 0x97370 VA: 0x180097F70
+	[XmlElementAttribute] // RVA: 0x97FF0 Offset: 0x973F0 VA: 0x180097FF0
+	[XmlElementAttribute] // RVA: 0x97FF0 Offset: 0x973F0 VA: 0x180097FF0
 	public override XmlSchemaContent Content { get; set; }
 
 
@@ -12542,12 +12542,12 @@ public class XmlSchemaSimpleContentExtension : XmlSchemaContent // TypeDefIndex:
 	private XmlSchemaAnyAttribute anyAttribute; // 0x58
 	private XmlQualifiedName baseTypeName; // 0x60
 
-	[XmlAttributeAttribute] // RVA: 0x8F590 Offset: 0x8E990 VA: 0x18008F590
+	[XmlAttributeAttribute] // RVA: 0x8F550 Offset: 0x8E950 VA: 0x18008F550
 	public XmlQualifiedName BaseTypeName { get; set; }
-	[XmlElementAttribute] // RVA: 0x982F0 Offset: 0x976F0 VA: 0x1800982F0
-	[XmlElementAttribute] // RVA: 0x982F0 Offset: 0x976F0 VA: 0x1800982F0
+	[XmlElementAttribute] // RVA: 0x98360 Offset: 0x97760 VA: 0x180098360
+	[XmlElementAttribute] // RVA: 0x98360 Offset: 0x97760 VA: 0x180098360
 	public XmlSchemaObjectCollection Attributes { get; }
-	[XmlElementAttribute] // RVA: 0x8E6F0 Offset: 0x8DAF0 VA: 0x18008E6F0
+	[XmlElementAttribute] // RVA: 0x8E5A0 Offset: 0x8D9A0 VA: 0x18008E5A0
 	public XmlSchemaAnyAttribute AnyAttribute { get; set; }
 
 
@@ -12574,27 +12574,27 @@ public class XmlSchemaSimpleContentRestriction : XmlSchemaContent // TypeDefInde
 	private XmlSchemaObjectCollection attributes; // 0x68
 	private XmlSchemaAnyAttribute anyAttribute; // 0x70
 
-	[XmlAttributeAttribute] // RVA: 0x8F590 Offset: 0x8E990 VA: 0x18008F590
+	[XmlAttributeAttribute] // RVA: 0x8F550 Offset: 0x8E950 VA: 0x18008F550
 	public XmlQualifiedName BaseTypeName { get; set; }
-	[XmlElementAttribute] // RVA: 0x985D0 Offset: 0x979D0 VA: 0x1800985D0
+	[XmlElementAttribute] // RVA: 0x98580 Offset: 0x97980 VA: 0x180098580
 	public XmlSchemaSimpleType BaseType { get; set; }
-	[XmlElementAttribute] // RVA: 0x98750 Offset: 0x97B50 VA: 0x180098750
-	[XmlElementAttribute] // RVA: 0x98750 Offset: 0x97B50 VA: 0x180098750
-	[XmlElementAttribute] // RVA: 0x98750 Offset: 0x97B50 VA: 0x180098750
-	[XmlElementAttribute] // RVA: 0x98750 Offset: 0x97B50 VA: 0x180098750
-	[XmlElementAttribute] // RVA: 0x98750 Offset: 0x97B50 VA: 0x180098750
-	[XmlElementAttribute] // RVA: 0x98750 Offset: 0x97B50 VA: 0x180098750
-	[XmlElementAttribute] // RVA: 0x98750 Offset: 0x97B50 VA: 0x180098750
-	[XmlElementAttribute] // RVA: 0x98750 Offset: 0x97B50 VA: 0x180098750
-	[XmlElementAttribute] // RVA: 0x98750 Offset: 0x97B50 VA: 0x180098750
-	[XmlElementAttribute] // RVA: 0x98750 Offset: 0x97B50 VA: 0x180098750
-	[XmlElementAttribute] // RVA: 0x98750 Offset: 0x97B50 VA: 0x180098750
-	[XmlElementAttribute] // RVA: 0x98750 Offset: 0x97B50 VA: 0x180098750
+	[XmlElementAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
+	[XmlElementAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
+	[XmlElementAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
+	[XmlElementAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
+	[XmlElementAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
+	[XmlElementAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
+	[XmlElementAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
+	[XmlElementAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
+	[XmlElementAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
+	[XmlElementAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
+	[XmlElementAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
+	[XmlElementAttribute] // RVA: 0x98670 Offset: 0x97A70 VA: 0x180098670
 	public XmlSchemaObjectCollection Facets { get; }
-	[XmlElementAttribute] // RVA: 0x99120 Offset: 0x98520 VA: 0x180099120
-	[XmlElementAttribute] // RVA: 0x99120 Offset: 0x98520 VA: 0x180099120
+	[XmlElementAttribute] // RVA: 0x99260 Offset: 0x98660 VA: 0x180099260
+	[XmlElementAttribute] // RVA: 0x99260 Offset: 0x98660 VA: 0x180099260
 	public XmlSchemaObjectCollection Attributes { get; }
-	[XmlElementAttribute] // RVA: 0x8E6F0 Offset: 0x8DAF0 VA: 0x18008E6F0
+	[XmlElementAttribute] // RVA: 0x8E5A0 Offset: 0x8D9A0 VA: 0x18008E5A0
 	public XmlSchemaAnyAttribute AnyAttribute { get; set; }
 
 
@@ -12623,9 +12623,9 @@ public class XmlSchemaSimpleContentRestriction : XmlSchemaContent // TypeDefInde
 public class XmlSchemaSimpleType : XmlSchemaType // TypeDefIndex: 2381
 {	private XmlSchemaSimpleTypeContent content; // 0x98
 
-	[XmlElementAttribute] // RVA: 0x99570 Offset: 0x98970 VA: 0x180099570
-	[XmlElementAttribute] // RVA: 0x99570 Offset: 0x98970 VA: 0x180099570
-	[XmlElementAttribute] // RVA: 0x99570 Offset: 0x98970 VA: 0x180099570
+	[XmlElementAttribute] // RVA: 0x997A0 Offset: 0x98BA0 VA: 0x1800997A0
+	[XmlElementAttribute] // RVA: 0x997A0 Offset: 0x98BA0 VA: 0x1800997A0
+	[XmlElementAttribute] // RVA: 0x997A0 Offset: 0x98BA0 VA: 0x1800997A0
 	public XmlSchemaSimpleTypeContent Content { get; set; }
 
 
@@ -12650,9 +12650,9 @@ public class XmlSchemaSimpleTypeList : XmlSchemaSimpleTypeContent // TypeDefInde
 	private XmlSchemaSimpleType itemType; // 0x58
 	private XmlSchemaSimpleType baseItemType; // 0x60
 
-	[XmlAttributeAttribute] // RVA: 0x99950 Offset: 0x98D50 VA: 0x180099950
+	[XmlAttributeAttribute] // RVA: 0x99AE0 Offset: 0x98EE0 VA: 0x180099AE0
 	public XmlQualifiedName ItemTypeName { get; set; }
-	[XmlElementAttribute] // RVA: 0x99D70 Offset: 0x99170 VA: 0x180099D70
+	[XmlElementAttribute] // RVA: 0x99E70 Offset: 0x99270 VA: 0x180099E70
 	public XmlSchemaSimpleType ItemType { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlSchemaSimpleType BaseItemType { get; set; }
@@ -12681,22 +12681,22 @@ public class XmlSchemaSimpleTypeRestriction : XmlSchemaSimpleTypeContent // Type
 	private XmlSchemaSimpleType baseType; // 0x58
 	private XmlSchemaObjectCollection facets; // 0x60
 
-	[XmlAttributeAttribute] // RVA: 0x8F590 Offset: 0x8E990 VA: 0x18008F590
+	[XmlAttributeAttribute] // RVA: 0x8F550 Offset: 0x8E950 VA: 0x18008F550
 	public XmlQualifiedName BaseTypeName { get; set; }
-	[XmlElementAttribute] // RVA: 0x9A1C0 Offset: 0x995C0 VA: 0x18009A1C0
+	[XmlElementAttribute] // RVA: 0x9A1B0 Offset: 0x995B0 VA: 0x18009A1B0
 	public XmlSchemaSimpleType BaseType { get; set; }
-	[XmlElementAttribute] // RVA: 0x9A380 Offset: 0x99780 VA: 0x18009A380
-	[XmlElementAttribute] // RVA: 0x9A380 Offset: 0x99780 VA: 0x18009A380
-	[XmlElementAttribute] // RVA: 0x9A380 Offset: 0x99780 VA: 0x18009A380
-	[XmlElementAttribute] // RVA: 0x9A380 Offset: 0x99780 VA: 0x18009A380
-	[XmlElementAttribute] // RVA: 0x9A380 Offset: 0x99780 VA: 0x18009A380
-	[XmlElementAttribute] // RVA: 0x9A380 Offset: 0x99780 VA: 0x18009A380
-	[XmlElementAttribute] // RVA: 0x9A380 Offset: 0x99780 VA: 0x18009A380
-	[XmlElementAttribute] // RVA: 0x9A380 Offset: 0x99780 VA: 0x18009A380
-	[XmlElementAttribute] // RVA: 0x9A380 Offset: 0x99780 VA: 0x18009A380
-	[XmlElementAttribute] // RVA: 0x9A380 Offset: 0x99780 VA: 0x18009A380
-	[XmlElementAttribute] // RVA: 0x9A380 Offset: 0x99780 VA: 0x18009A380
-	[XmlElementAttribute] // RVA: 0x9A380 Offset: 0x99780 VA: 0x18009A380
+	[XmlElementAttribute] // RVA: 0x9A320 Offset: 0x99720 VA: 0x18009A320
+	[XmlElementAttribute] // RVA: 0x9A320 Offset: 0x99720 VA: 0x18009A320
+	[XmlElementAttribute] // RVA: 0x9A320 Offset: 0x99720 VA: 0x18009A320
+	[XmlElementAttribute] // RVA: 0x9A320 Offset: 0x99720 VA: 0x18009A320
+	[XmlElementAttribute] // RVA: 0x9A320 Offset: 0x99720 VA: 0x18009A320
+	[XmlElementAttribute] // RVA: 0x9A320 Offset: 0x99720 VA: 0x18009A320
+	[XmlElementAttribute] // RVA: 0x9A320 Offset: 0x99720 VA: 0x18009A320
+	[XmlElementAttribute] // RVA: 0x9A320 Offset: 0x99720 VA: 0x18009A320
+	[XmlElementAttribute] // RVA: 0x9A320 Offset: 0x99720 VA: 0x18009A320
+	[XmlElementAttribute] // RVA: 0x9A320 Offset: 0x99720 VA: 0x18009A320
+	[XmlElementAttribute] // RVA: 0x9A320 Offset: 0x99720 VA: 0x18009A320
+	[XmlElementAttribute] // RVA: 0x9A320 Offset: 0x99720 VA: 0x18009A320
 	public XmlSchemaObjectCollection Facets { get; }
 
 
@@ -12721,9 +12721,9 @@ public class XmlSchemaSimpleTypeUnion : XmlSchemaSimpleTypeContent // TypeDefInd
 	private XmlQualifiedName[] memberTypes; // 0x58
 	private XmlSchemaSimpleType[] baseMemberTypes; // 0x60
 
-	[XmlElementAttribute] // RVA: 0x9AB10 Offset: 0x99F10 VA: 0x18009AB10
+	[XmlElementAttribute] // RVA: 0x9AA80 Offset: 0x99E80 VA: 0x18009AA80
 	public XmlSchemaObjectCollection BaseTypes { get; }
-	[XmlAttributeAttribute] // RVA: 0x9ADD0 Offset: 0x9A1D0 VA: 0x18009ADD0
+	[XmlAttributeAttribute] // RVA: 0x9ADE0 Offset: 0x9A1E0 VA: 0x18009ADE0
 	public XmlQualifiedName[] MemberTypes { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlSchemaSimpleType[] BaseMemberTypes { get; }
@@ -12790,10 +12790,10 @@ public class XmlSchemaType : XmlSchemaAnnotated // TypeDefIndex: 2388
 	private XmlSchemaType redefined; // 0x88
 	private XmlSchemaContentType contentType; // 0x90
 
-	[XmlAttributeAttribute] // RVA: 0x8DAB0 Offset: 0x8CEB0 VA: 0x18008DAB0
+	[XmlAttributeAttribute] // RVA: 0x8D9B0 Offset: 0x8CDB0 VA: 0x18008D9B0
 	public string Name { get; set; }
-	[XmlAttributeAttribute] // RVA: 0x9B1B0 Offset: 0x9A5B0 VA: 0x18009B1B0
-	[DefaultValueAttribute] // RVA: 0x9B1B0 Offset: 0x9A5B0 VA: 0x18009B1B0
+	[XmlAttributeAttribute] // RVA: 0x9B270 Offset: 0x9A670 VA: 0x18009B270
+	[DefaultValueAttribute] // RVA: 0x9B270 Offset: 0x9A670 VA: 0x18009B270
 	public XmlSchemaDerivationMethod Final { get; set; }
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public XmlQualifiedName QualifiedName { get; }
@@ -12889,11 +12889,11 @@ public enum XmlSchemaUse // TypeDefIndex: 2389
 {	public int value__; // 0x0
 	[XmlIgnoreAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public const XmlSchemaUse None = 0;
-	[XmlEnumAttribute] // RVA: 0x9CF60 Offset: 0x9C360 VA: 0x18009CF60
+	[XmlEnumAttribute] // RVA: 0x9CF70 Offset: 0x9C370 VA: 0x18009CF70
 	public const XmlSchemaUse Optional = 1;
-	[XmlEnumAttribute] // RVA: 0x9D0F0 Offset: 0x9C4F0 VA: 0x18009D0F0
+	[XmlEnumAttribute] // RVA: 0x9D100 Offset: 0x9C500 VA: 0x18009D100
 	public const XmlSchemaUse Prohibited = 2;
-	[XmlEnumAttribute] // RVA: 0x9D220 Offset: 0x9C620 VA: 0x18009D220
+	[XmlEnumAttribute] // RVA: 0x9D1E0 Offset: 0x9C5E0 VA: 0x18009D1E0
 	public const XmlSchemaUse Required = 3;
 
 }
@@ -15010,9 +15010,9 @@ public struct XRNodeState // TypeDefIndex: 4141
 }
 
 public class XRDisplaySubsystem : IntegratedSubsystem<XRDisplaySubsystemDescriptor> // TypeDefIndex: 4150
-{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	private static Action<bool> displayFocusChanged; // 0x1266B
+{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	private static Action<bool> displayFocusChanged; // 0x2B11178
 
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -15047,18 +15047,18 @@ public class XRDisplaySubsystemDescriptor : IntegratedSubsystemDescriptor<XRDisp
 }
 
 public class XRInputSubsystem : IntegratedSubsystem<XRInputSubsystemDescriptor> // TypeDefIndex: 4154
-{	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
+{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
 	private Action<XRInputSubsystem> trackingOriginUpdated; // 0x20
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private Action<XRInputSubsystem> boundaryChanged; // 0x28
 
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x979F0 Offset: 0x96DF0 VA: 0x1800979F0
+	[RequiredByNativeCodeAttribute] // RVA: 0x97A10 Offset: 0x96E10 VA: 0x180097A10
 	private static void InvokeTrackingOriginUpdatedEvent(IntPtr internalPtr) { }
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x979F0 Offset: 0x96DF0 VA: 0x1800979F0
+	[RequiredByNativeCodeAttribute] // RVA: 0x97A10 Offset: 0x96E10 VA: 0x180097A10
 	private static void InvokeBoundaryChangedEvent(IntPtr internalPtr) { }
 
 	public void .ctor() { }
@@ -15795,11 +15795,11 @@ public static class XRDevice // TypeDefIndex: 4768
 {
 internal class <Module> // TypeDefIndex: 4767
 
-[NativeConditionalAttribute] // RVA: 0xC1CB0 Offset: 0xC10B0 VA: 0x1800C1CB0
+[NativeConditionalAttribute] // RVA: 0xC1DF0 Offset: 0xC11F0 VA: 0x1800C1DF0
 public static class XRDevice // TypeDefIndex: 4768
-	[CompilerGeneratedAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	[DebuggerBrowsableAttribute] // RVA: 0x70950 Offset: 0x6FD50 VA: 0x180070950
-	private static Action<string> deviceLoaded; // 0x12783
+	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
+	private static Action<string> deviceLoaded; // 0x2B10A40
 
 
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -15813,7 +15813,7 @@ public sealed class XName : IEquatable<XName>, ISerializable // TypeDefIndex: 58
 {
 internal class <Module> // TypeDefIndex: 5814
 
-[KnownTypeAttribute] // RVA: 0xE0FE0 Offset: 0xE03E0 VA: 0x1800E0FE0
+[KnownTypeAttribute] // RVA: 0xE0EB0 Offset: 0xE02B0 VA: 0x1800E0EB0
 [Serializable]
 public sealed class XName : IEquatable<XName>, ISerializable // TypeDefIndex: 5815
 	private XNamespace ns; // 0x10
@@ -15943,7 +15943,7 @@ public abstract class XObject : IXmlLineInfo // TypeDefIndex: 5822
 	|-XObject.Annotation<XObjectChangeAnnotation>
 	*/
 
-	[IteratorStateMachineAttribute] // RVA: 0xE1160 Offset: 0xE0560 VA: 0x1800E1160
+	[IteratorStateMachineAttribute] // RVA: 0xE1030 Offset: 0xE0430 VA: 0x1800E1030
 	public IEnumerable<T> Annotations<T>() { }
 	/* GenericInstMethod :
 	|
@@ -16146,7 +16146,7 @@ public abstract class XContainer : XNode // TypeDefIndex: 5833
 
 	public void Add(object content) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xE1A50 Offset: 0xE0E50 VA: 0x1800E1A50
+	[IteratorStateMachineAttribute] // RVA: 0xE19D0 Offset: 0xE0DD0 VA: 0x1800E19D0
 	public IEnumerable<XNode> Nodes() { }
 
 	internal virtual void AddAttribute(XAttribute a) { }
@@ -16273,7 +16273,7 @@ public class XElement : XContainer, IXmlSerializable // TypeDefIndex: 5836
 
 	internal override XNode CloneNode() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xE6000 Offset: 0xE5400 VA: 0x1800E6000
+	[IteratorStateMachineAttribute] // RVA: 0xE5ED0 Offset: 0xE52D0 VA: 0x1800E5ED0
 	private IEnumerable<XAttribute> GetAttributes(XName name) { }
 
 	private string GetNamespaceOfPrefixInScope(string prefix, XElement outOfScope) { }

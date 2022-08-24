@@ -6,10 +6,10 @@ public sealed class TimeWarning : IDisposable // TypeDefIndex: 5595
 
 	public void Dispose() { }
 
-	[ConditionalAttribute] // RVA: 0xB6360 Offset: 0xB5760 VA: 0x1800B6360
+	[ConditionalAttribute] // RVA: 0xB6510 Offset: 0xB5910 VA: 0x1800B6510
 	public static void BeginSample(string name) { }
 
-	[ConditionalAttribute] // RVA: 0xB6360 Offset: 0xB5760 VA: 0x1800B6360
+	[ConditionalAttribute] // RVA: 0xB6510 Offset: 0xB5910 VA: 0x1800B6510
 	public static void EndSample() { }
 
 }

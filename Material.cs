@@ -3,19 +3,19 @@ public class Material : Object // TypeDefIndex: 3406
 	public Color color { get; set; }
 	public Texture mainTexture { get; }
 	public int renderQueue { get; set; }
-	[NativePropertyAttribute] // RVA: 0x94F10 Offset: 0x94310 VA: 0x180094F10
+	[NativePropertyAttribute] // RVA: 0x94F80 Offset: 0x94380 VA: 0x180094F80
 	public bool enableInstancing { get; set; }
 	public int passCount { get; }
 	public string[] shaderKeywords { get; set; }
 
 
-	[FreeFunctionAttribute] // RVA: 0x93AC0 Offset: 0x92EC0 VA: 0x180093AC0
+	[FreeFunctionAttribute] // RVA: 0x93940 Offset: 0x92D40 VA: 0x180093940
 	private static void CreateWithShader(Material self, Shader shader) { }
 
-	[FreeFunctionAttribute] // RVA: 0x93C20 Offset: 0x93020 VA: 0x180093C20
+	[FreeFunctionAttribute] // RVA: 0x93B20 Offset: 0x92F20 VA: 0x180093B20
 	private static void CreateWithMaterial(Material self, Material source) { }
 
-	[FreeFunctionAttribute] // RVA: 0x93E20 Offset: 0x93220 VA: 0x180093E20
+	[FreeFunctionAttribute] // RVA: 0x93DA0 Offset: 0x931A0 VA: 0x180093DA0
 	private static void CreateWithString(Material self) { }
 
 	public void .ctor(Shader shader) { }
@@ -23,8 +23,8 @@ public class Material : Object // TypeDefIndex: 3406
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void .ctor(Material source) { }
 
-	[EditorBrowsableAttribute] // RVA: 0x93FA0 Offset: 0x933A0 VA: 0x180093FA0
-	[ObsoleteAttribute] // RVA: 0x93FA0 Offset: 0x933A0 VA: 0x180093FA0
+	[EditorBrowsableAttribute] // RVA: 0x93FE0 Offset: 0x933E0 VA: 0x180093FE0
+	[ObsoleteAttribute] // RVA: 0x93FE0 Offset: 0x933E0 VA: 0x180093FE0
 	public void .ctor(string contents) { }
 
 	public Shader get_shader() { }
@@ -37,18 +37,18 @@ public class Material : Object // TypeDefIndex: 3406
 
 	public Texture get_mainTexture() { }
 
-	[NativeNameAttribute] // RVA: 0x94030 Offset: 0x93430 VA: 0x180094030
+	[NativeNameAttribute] // RVA: 0x94090 Offset: 0x93490 VA: 0x180094090
 	private int GetFirstPropertyNameIdByAttribute(ShaderPropertyFlags attributeFlag) { }
 
-	[NativeNameAttribute] // RVA: 0x94140 Offset: 0x93540 VA: 0x180094140
+	[NativeNameAttribute] // RVA: 0x941A0 Offset: 0x935A0 VA: 0x1800941A0
 	public bool HasProperty(int nameID) { }
 
 	public bool HasProperty(string name) { }
 
-	[NativeNameAttribute] // RVA: 0x941B0 Offset: 0x935B0 VA: 0x1800941B0
+	[NativeNameAttribute] // RVA: 0x941D0 Offset: 0x935D0 VA: 0x1800941D0
 	public int get_renderQueue() { }
 
-	[NativeNameAttribute] // RVA: 0x94250 Offset: 0x93650 VA: 0x180094250
+	[NativeNameAttribute] // RVA: 0x94280 Offset: 0x93680 VA: 0x180094280
 	public void set_renderQueue(int value) { }
 
 	public void EnableKeyword(string keyword) { }
@@ -63,7 +63,7 @@ public class Material : Object // TypeDefIndex: 3406
 
 	public int get_passCount() { }
 
-	[FreeFunctionAttribute] // RVA: 0x942C0 Offset: 0x936C0 VA: 0x1800942C0
+	[FreeFunctionAttribute] // RVA: 0x942B0 Offset: 0x936B0 VA: 0x1800942B0
 	public bool GetShaderPassEnabled(string passName) { }
 
 	public string GetPassName(int pass) { }
@@ -72,60 +72,60 @@ public class Material : Object // TypeDefIndex: 3406
 
 	public void SetOverrideTag(string tag, string val) { }
 
-	[NativeNameAttribute] // RVA: 0x943F0 Offset: 0x937F0 VA: 0x1800943F0
+	[NativeNameAttribute] // RVA: 0x943E0 Offset: 0x937E0 VA: 0x1800943E0
 	private string GetTagImpl(string tag, bool currentSubShaderOnly, string defaultValue) { }
 
 	public string GetTag(string tag, bool searchFallbacks, string defaultValue) { }
 
 	public string GetTag(string tag, bool searchFallbacks) { }
 
-	[FreeFunctionAttribute] // RVA: 0x94540 Offset: 0x93940 VA: 0x180094540
+	[FreeFunctionAttribute] // RVA: 0x94530 Offset: 0x93930 VA: 0x180094530
 	public bool SetPass(int pass) { }
 
-	[FreeFunctionAttribute] // RVA: 0x945E0 Offset: 0x939E0 VA: 0x1800945E0
+	[FreeFunctionAttribute] // RVA: 0x94600 Offset: 0x93A00 VA: 0x180094600
 	public void CopyPropertiesFromMaterial(Material mat) { }
 
-	[FreeFunctionAttribute] // RVA: 0x94660 Offset: 0x93A60 VA: 0x180094660
+	[FreeFunctionAttribute] // RVA: 0x94680 Offset: 0x93A80 VA: 0x180094680
 	private string[] GetShaderKeywords() { }
 
-	[FreeFunctionAttribute] // RVA: 0x946E0 Offset: 0x93AE0 VA: 0x1800946E0
+	[FreeFunctionAttribute] // RVA: 0x94740 Offset: 0x93B40 VA: 0x180094740
 	private void SetShaderKeywords(string[] names) { }
 
 	public string[] get_shaderKeywords() { }
 
 	public void set_shaderKeywords(string[] value) { }
 
-	[NativeNameAttribute] // RVA: 0x8E8D0 Offset: 0x8DCD0 VA: 0x18008E8D0
+	[NativeNameAttribute] // RVA: 0x8E7C0 Offset: 0x8DBC0 VA: 0x18008E7C0
 	private void SetFloatImpl(int name, float value) { }
 
-	[NativeNameAttribute] // RVA: 0x8E990 Offset: 0x8DD90 VA: 0x18008E990
+	[NativeNameAttribute] // RVA: 0x8E940 Offset: 0x8DD40 VA: 0x18008E940
 	private void SetColorImpl(int name, Color value) { }
 
-	[NativeNameAttribute] // RVA: 0x8E9F0 Offset: 0x8DDF0 VA: 0x18008E9F0
+	[NativeNameAttribute] // RVA: 0x8E9A0 Offset: 0x8DDA0 VA: 0x18008E9A0
 	private void SetMatrixImpl(int name, Matrix4x4 value) { }
 
-	[NativeNameAttribute] // RVA: 0x8EA90 Offset: 0x8DE90 VA: 0x18008EA90
+	[NativeNameAttribute] // RVA: 0x8EA40 Offset: 0x8DE40 VA: 0x18008EA40
 	private void SetTextureImpl(int name, Texture value) { }
 
-	[NativeNameAttribute] // RVA: 0x8EC40 Offset: 0x8E040 VA: 0x18008EC40
+	[NativeNameAttribute] // RVA: 0x8EBF0 Offset: 0x8DFF0 VA: 0x18008EBF0
 	private void SetBufferImpl(int name, ComputeBuffer value) { }
 
-	[NativeNameAttribute] // RVA: 0x94AA0 Offset: 0x93EA0 VA: 0x180094AA0
+	[NativeNameAttribute] // RVA: 0x94B40 Offset: 0x93F40 VA: 0x180094B40
 	private float GetFloatImpl(int name) { }
 
-	[NativeNameAttribute] // RVA: 0x94BA0 Offset: 0x93FA0 VA: 0x180094BA0
+	[NativeNameAttribute] // RVA: 0x94C50 Offset: 0x94050 VA: 0x180094C50
 	private Color GetColorImpl(int name) { }
 
-	[NativeNameAttribute] // RVA: 0x8E820 Offset: 0x8DC20 VA: 0x18008E820
+	[NativeNameAttribute] // RVA: 0x8E6C0 Offset: 0x8DAC0 VA: 0x18008E6C0
 	private Texture GetTextureImpl(int name) { }
 
-	[FreeFunctionAttribute] // RVA: 0x94C50 Offset: 0x94050 VA: 0x180094C50
+	[FreeFunctionAttribute] // RVA: 0x94C80 Offset: 0x94080 VA: 0x180094C80
 	private void SetFloatArrayImpl(int name, float[] values, int count) { }
 
-	[NativeNameAttribute] // RVA: 0x94D80 Offset: 0x94180 VA: 0x180094D80
+	[NativeNameAttribute] // RVA: 0x94DC0 Offset: 0x941C0 VA: 0x180094DC0
 	private void SetTextureOffsetImpl(int name, Vector2 offset) { }
 
-	[NativeNameAttribute] // RVA: 0x94E40 Offset: 0x94240 VA: 0x180094E40
+	[NativeNameAttribute] // RVA: 0x94E90 Offset: 0x94290 VA: 0x180094E90
 	private void SetTextureScaleImpl(int name, Vector2 scale) { }
 
 	private void SetFloatArray(int name, float[] values, int count) { }

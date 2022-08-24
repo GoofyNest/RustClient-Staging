@@ -59,7 +59,7 @@ public class ComputerStation : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 }
 
 public class ComputerStation : BaseMountable // TypeDefIndex: 8562
-{	[HeaderAttribute] // RVA: 0xAABC0 Offset: 0xA9FC0 VA: 0x1800AABC0
+{	[HeaderAttribute] // RVA: 0xAACC0 Offset: 0xAA0C0 VA: 0x1800AACC0
 	public GameObjectRef menuPrefab; // 0x320
 	public ComputerMenu computerMenu; // 0x328
 	public EntityRef currentlyControllingEnt; // 0x330

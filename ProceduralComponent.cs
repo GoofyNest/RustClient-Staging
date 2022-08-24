@@ -1,5 +1,5 @@
 public abstract class ProceduralComponent : MonoBehaviour // TypeDefIndex: 10449
-{	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+{	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public ProceduralComponent.Realm Mode; // 0x18
 	public string Description; // 0x20
 

@@ -1,12 +1,12 @@
 public class MidiConvar : MonoBehaviour // TypeDefIndex: 9313
 {	private static bool _enabled; // 0x0
-	[ClientVar] // RVA: 0xE7430 Offset: 0xE6830 VA: 0x1800E7430
+	[ClientVar] // RVA: 0xE7340 Offset: 0xE6740 VA: 0x1800E7340
 	public static bool debugMode; // 0x1
 	private static MidiConvar Instance; // 0x8
 	private List<MidiConvar.KnobBinding> knobBindings; // 0x18
 	private List<MidiConvar.NoteBinding> noteBindings; // 0x20
 
-	[ClientVar] // RVA: 0xE78E0 Offset: 0xE6CE0 VA: 0x1800E78E0
+	[ClientVar] // RVA: 0xE77B0 Offset: 0xE6BB0 VA: 0x1800E77B0
 	public static bool Enabled { get; set; }
 
 
@@ -14,25 +14,25 @@ public class MidiConvar : MonoBehaviour // TypeDefIndex: 9313
 
 	public static void set_Enabled(bool value) { }
 
-	[ClientVar] // RVA: 0xE74E0 Offset: 0xE68E0 VA: 0x1800E74E0
+	[ClientVar] // RVA: 0xE73D0 Offset: 0xE67D0 VA: 0x1800E73D0
 	public static void BindKnob(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0xE7540 Offset: 0xE6940 VA: 0x1800E7540
+	[ClientVar] // RVA: 0xE7410 Offset: 0xE6810 VA: 0x1800E7410
 	public static void BindKnobRelative(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0xE7650 Offset: 0xE6A50 VA: 0x1800E7650
+	[ClientVar] // RVA: 0xE7520 Offset: 0xE6920 VA: 0x1800E7520
 	public static void BindKeyOn(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0xE7710 Offset: 0xE6B10 VA: 0x1800E7710
+	[ClientVar] // RVA: 0xE75E0 Offset: 0xE69E0 VA: 0x1800E75E0
 	public static void BindKeyOff(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
+	[ClientVar] // RVA: 0x812A0 Offset: 0x806A0 VA: 0x1800812A0
 	public static void PrintBindings(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
+	[ClientVar] // RVA: 0x812A0 Offset: 0x806A0 VA: 0x1800812A0
 	public static void ClearAllBindings(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] // RVA: 0xE7870 Offset: 0xE6C70 VA: 0x1800E7870
+	[ClientVar] // RVA: 0xE7740 Offset: 0xE6B40 VA: 0x1800E7740
 	public static void ReloadBindings(ConsoleSystem.Arg arg) { }
 
 	private void OnEnable() { }

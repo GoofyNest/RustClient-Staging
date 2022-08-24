@@ -1,5 +1,5 @@
 public class ParticleCollisionLOD : LODComponentParticleSystem // TypeDefIndex: 9946
-{	[HorizontalAttribute] // RVA: 0xAA500 Offset: 0xA9900 VA: 0x1800AA500
+{	[HorizontalAttribute] // RVA: 0xAA030 Offset: 0xA9430 VA: 0x1800AA030
 	public ParticleCollisionLOD.State[] States; // 0xA8
 
 

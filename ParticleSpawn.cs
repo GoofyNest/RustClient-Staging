@@ -19,10 +19,10 @@ public class ParticleSpawn : SingletonComponent<ParticleSpawn>, IClientComponent
 
 	public void Refresh(bool force = False) { }
 
-	[ContextMenu] // RVA: 0xCB880 Offset: 0xCAC80 VA: 0x1800CB880
+	[ContextMenu] // RVA: 0xCB160 Offset: 0xCA560 VA: 0x1800CB160
 	private void RefreshAll_ContextMenu() { }
 
-	[ContextMenu] // RVA: 0xCBB30 Offset: 0xCAF30 VA: 0x1800CBB30
+	[ContextMenu] // RVA: 0xCB210 Offset: 0xCA610 VA: 0x1800CB210
 	private void Refresh_ContextMenu() { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
@@ -37,7 +37,7 @@ public class ParticleSpawn : SingletonComponent<ParticleSpawn>, IClientComponent
 
 	private void FreePatches() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xCCFD0 Offset: 0xCC3D0 VA: 0x1800CCFD0
+	[IteratorStateMachineAttribute] // RVA: 0xCC6B0 Offset: 0xCBAB0 VA: 0x1800CC6B0
 	private IEnumerator UpdateCoroutine() { }
 
 	public void .ctor() { }

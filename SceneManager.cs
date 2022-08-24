@@ -1,46 +1,46 @@
 public class SceneManager // TypeDefIndex: 3656
-{	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+{	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static UnityAction<Scene, LoadSceneMode> sceneLoaded; // 0x0
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static UnityAction<Scene> sceneUnloaded; // 0x8
-	[DebuggerBrowsableAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
-	[CompilerGeneratedAttribute] // RVA: 0x70830 Offset: 0x6FC30 VA: 0x180070830
+	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
+	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
 	private static UnityAction<Scene, Scene> activeSceneChanged; // 0x10
 
 	public static int sceneCount { get; }
 
 
-	[NativeMethodAttribute] // RVA: 0xE5F30 Offset: 0xE5330 VA: 0x1800E5F30
-	[StaticAccessorAttribute] // RVA: 0xE5F30 Offset: 0xE5330 VA: 0x1800E5F30
-	[NativeHeaderAttribute] // RVA: 0xE5F30 Offset: 0xE5330 VA: 0x1800E5F30
+	[NativeMethodAttribute] // RVA: 0xE5E00 Offset: 0xE5200 VA: 0x1800E5E00
+	[StaticAccessorAttribute] // RVA: 0xE5E00 Offset: 0xE5200 VA: 0x1800E5E00
+	[NativeHeaderAttribute] // RVA: 0xE5E00 Offset: 0xE5200 VA: 0x1800E5E00
 	public static int get_sceneCount() { }
 
-	[StaticAccessorAttribute] // RVA: 0xE6090 Offset: 0xE5490 VA: 0x1800E6090
+	[StaticAccessorAttribute] // RVA: 0xE5F60 Offset: 0xE5360 VA: 0x1800E5F60
 	public static Scene GetActiveScene() { }
 
-	[StaticAccessorAttribute] // RVA: 0xE6090 Offset: 0xE5490 VA: 0x1800E6090
+	[StaticAccessorAttribute] // RVA: 0xE5F60 Offset: 0xE5360 VA: 0x1800E5F60
 	public static Scene GetSceneByName(string name) { }
 
-	[StaticAccessorAttribute] // RVA: 0xE6380 Offset: 0xE5780 VA: 0x1800E6380
-	[NativeThrowsAttribute] // RVA: 0xE6380 Offset: 0xE5780 VA: 0x1800E6380
+	[StaticAccessorAttribute] // RVA: 0xE6250 Offset: 0xE5650 VA: 0x1800E6250
+	[NativeThrowsAttribute] // RVA: 0xE6250 Offset: 0xE5650 VA: 0x1800E6250
 	public static Scene GetSceneAt(int index) { }
 
-	[StaticAccessorAttribute] // RVA: 0xE6380 Offset: 0xE5780 VA: 0x1800E6380
-	[NativeThrowsAttribute] // RVA: 0xE6380 Offset: 0xE5780 VA: 0x1800E6380
+	[StaticAccessorAttribute] // RVA: 0xE6250 Offset: 0xE5650 VA: 0x1800E6250
+	[NativeThrowsAttribute] // RVA: 0xE6250 Offset: 0xE5650 VA: 0x1800E6250
 	public static Scene CreateScene(string sceneName, CreateSceneParameters parameters) { }
 
-	[NativeThrowsAttribute] // RVA: 0xE65F0 Offset: 0xE59F0 VA: 0x1800E65F0
-	[StaticAccessorAttribute] // RVA: 0xE65F0 Offset: 0xE59F0 VA: 0x1800E65F0
+	[NativeThrowsAttribute] // RVA: 0xE64C0 Offset: 0xE58C0 VA: 0x1800E64C0
+	[StaticAccessorAttribute] // RVA: 0xE64C0 Offset: 0xE58C0 VA: 0x1800E64C0
 	private static AsyncOperation UnloadSceneAsyncInternal(Scene scene, UnloadSceneOptions options) { }
 
-	[NativeThrowsAttribute] // RVA: 0xE65F0 Offset: 0xE59F0 VA: 0x1800E65F0
-	[StaticAccessorAttribute] // RVA: 0xE65F0 Offset: 0xE59F0 VA: 0x1800E65F0
+	[NativeThrowsAttribute] // RVA: 0xE64C0 Offset: 0xE58C0 VA: 0x1800E64C0
+	[StaticAccessorAttribute] // RVA: 0xE64C0 Offset: 0xE58C0 VA: 0x1800E64C0
 	private static AsyncOperation LoadSceneAsyncNameIndexInternal(string sceneName, int sceneBuildIndex, LoadSceneParameters parameters, bool mustCompleteNextFrame) { }
 
-	[StaticAccessorAttribute] // RVA: 0xE6380 Offset: 0xE5780 VA: 0x1800E6380
-	[NativeThrowsAttribute] // RVA: 0xE6380 Offset: 0xE5780 VA: 0x1800E6380
+	[StaticAccessorAttribute] // RVA: 0xE6250 Offset: 0xE5650 VA: 0x1800E6250
+	[NativeThrowsAttribute] // RVA: 0xE6250 Offset: 0xE5650 VA: 0x1800E6250
 	public static void MoveGameObjectToScene(GameObject go, Scene scene) { }
 
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

@@ -34,7 +34,7 @@ public abstract class Base : IDisposable // TypeDefIndex: 5283
 
 	public void .ctor() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xA26B0 Offset: 0xA1AB0 VA: 0x1800A26B0
+	[AsyncStateMachineAttribute] // RVA: 0xA2670 Offset: 0xA1A70 VA: 0x1800A2670
 	public virtual Task<bool> RunQueryAsync(float timeoutSeconds = 10) { }
 
 	public virtual void Cancel() { }

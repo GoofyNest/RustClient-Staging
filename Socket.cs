@@ -97,7 +97,7 @@ public class Socket : IDisposable // TypeDefIndex: 3047
 	private static IOAsyncCallback BeginSendGenericCallback; // 0x78
 	private static AsyncCallback SendToAsyncCallback; // 0x80
 
-	[ObsoleteAttribute] // RVA: 0xB9DA0 Offset: 0xB91A0 VA: 0x1800B9DA0
+	[ObsoleteAttribute] // RVA: 0xB9D80 Offset: 0xB9180 VA: 0x1800B9D80
 	public static bool SupportsIPv4 { get; }
 	public static bool OSSupportsIPv4 { get; }
 	[ObsoleteAttribute] // RVA: 0xB9E50 Offset: 0xB9250 VA: 0x1800B9E50
@@ -1155,7 +1155,7 @@ public class Socket_Base : PrefabAttribute // TypeDefIndex: 9104
 	public Quaternion rotation; // 0xAC
 	public Vector3 selectSize; // 0xBC
 	public Vector3 selectCenter; // 0xC8
-	[ReadOnlyAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[ReadOnlyAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public string socketName; // 0xD8
 	public SocketMod[] socketMods; // 0xE0
 

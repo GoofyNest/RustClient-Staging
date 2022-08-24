@@ -36,7 +36,7 @@ public class RendererGrid : SingletonComponent<RendererGrid>, IClientComponent /
 
 	public void ResetTimeout() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA9510 Offset: 0xA8910 VA: 0x1800A9510
+	[IteratorStateMachineAttribute] // RVA: 0xA7E50 Offset: 0xA7250 VA: 0x1800A7E50
 	private IEnumerator UpdateCoroutine() { }
 
 	public void .ctor() { }

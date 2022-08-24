@@ -8,10 +8,10 @@ public static class Account // TypeDefIndex: 6172
 
 	public static bool get_IsReachable() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9F160 Offset: 0x9E560 VA: 0x18009F160
+	[AsyncStateMachineAttribute] // RVA: 0x9F110 Offset: 0x9E510 VA: 0x18009F110
 	public static Task Refresh() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0x9F260 Offset: 0x9E660 VA: 0x18009F260
+	[AsyncStateMachineAttribute] // RVA: 0x9F210 Offset: 0x9E610 VA: 0x18009F210
 	public static Task ReadAllNotices() { }
 
 	private static void .cctor() { }

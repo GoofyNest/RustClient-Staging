@@ -1,9 +1,9 @@
 public class InternalDataCollectionBase : ICollection, IEnumerable // TypeDefIndex: 4167
-{	internal static readonly CollectionChangeEventArgs s_refreshEventArgs; // 0x2B11ADC
+{	internal static readonly CollectionChangeEventArgs s_refreshEventArgs; // 0x13730
 
-	[BrowsableAttribute] // RVA: 0x9AA30 Offset: 0x99E30 VA: 0x18009AA30
+	[BrowsableAttribute] // RVA: 0x9A9A0 Offset: 0x99DA0 VA: 0x18009A9A0
 	public virtual int Count { get; }
-	[BrowsableAttribute] // RVA: 0x9AA30 Offset: 0x99E30 VA: 0x18009AA30
+	[BrowsableAttribute] // RVA: 0x9A9A0 Offset: 0x99DA0 VA: 0x18009A9A0
 	public object SyncRoot { get; }
 	protected virtual ArrayList List { get; }
 

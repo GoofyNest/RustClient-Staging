@@ -3,7 +3,7 @@ public class MagnetCrane : GroundVehicle, IGenericLerpTarget<MagnetCrane.MagnetC
 	private GenericLerp<MagnetCrane.MagnetCraneSnapshot> animInterp; // 0x460
 	private float leftTreadInput; // 0x468
 	private float rightTreadInput; // 0x46C
-	[HeaderAttribute] // RVA: 0xEAA40 Offset: 0xE9E40 VA: 0x1800EAA40
+	[HeaderAttribute] // RVA: 0xEAA80 Offset: 0xE9E80 VA: 0x1800EAA80
 	public Animator animator; // 0x470
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private Transform COM; // 0x478
@@ -96,10 +96,10 @@ public class MagnetCrane : GroundVehicle, IGenericLerpTarget<MagnetCrane.MagnetC
 
 	private void InitAnimInterpolator() { }
 
-	[BaseEntity.Menu] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
-	[BaseEntity.Menu.Description] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
-	[BaseEntity.Menu.Icon] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
-	[BaseEntity.Menu.ShowIf] // RVA: 0x73EF0 Offset: 0x732F0 VA: 0x180073EF0
+	[BaseEntity.Menu] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
+	[BaseEntity.Menu.Description] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
+	[BaseEntity.Menu.Icon] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
+	[BaseEntity.Menu.ShowIf] // RVA: 0x74070 Offset: 0x73470 VA: 0x180074070
 	public void Menu_FuelStorage(BasePlayer player) { }
 
 	public bool Menu_FuelStorage_ShowIf(BasePlayer player) { }

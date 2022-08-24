@@ -20,10 +20,10 @@ public class AdventCalendar : BaseCombatEntity // TypeDefIndex: 8304
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	[BaseEntity.Menu] // RVA: 0xB0400 Offset: 0xAF800 VA: 0x1800B0400
-	[BaseEntity.Menu.Description] // RVA: 0xB0400 Offset: 0xAF800 VA: 0x1800B0400
-	[BaseEntity.Menu.Icon] // RVA: 0xB0400 Offset: 0xAF800 VA: 0x1800B0400
-	[BaseEntity.Menu.ShowIf] // RVA: 0xB0400 Offset: 0xAF800 VA: 0x1800B0400
+	[BaseEntity.Menu] // RVA: 0xB0430 Offset: 0xAF830 VA: 0x1800B0430
+	[BaseEntity.Menu.Description] // RVA: 0xB0430 Offset: 0xAF830 VA: 0x1800B0430
+	[BaseEntity.Menu.Icon] // RVA: 0xB0430 Offset: 0xAF830 VA: 0x1800B0430
+	[BaseEntity.Menu.ShowIf] // RVA: 0xB0430 Offset: 0xAF830 VA: 0x1800B0430
 	public void Menu_OpenCalendar(BasePlayer player) { }
 
 	public bool Menu_OpenCalendar_ShowIf(BasePlayer player) { }

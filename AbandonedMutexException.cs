@@ -1,6 +1,6 @@
 public class AbandonedMutexException : SystemException // TypeDefIndex: 773
 {
-[ComVisibleAttribute] // RVA: 0x75DE0 Offset: 0x751E0 VA: 0x180075DE0
+[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
 [Serializable]
 public class AbandonedMutexException : SystemException // TypeDefIndex: 773
 	private int m_MutexIndex; // 0x88

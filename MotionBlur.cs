@@ -15,11 +15,11 @@ public class MotionBlur : ImageEffectBase // TypeDefIndex: 8193
 }
 
 public sealed class MotionBlur : PostProcessEffectSettings // TypeDefIndex: 11796
-{	[RangeAttribute] // RVA: 0x73E10 Offset: 0x73210 VA: 0x180073E10
-	[TooltipAttribute] // RVA: 0x73E10 Offset: 0x73210 VA: 0x180073E10
+{	[RangeAttribute] // RVA: 0x72290 Offset: 0x71690 VA: 0x180072290
+	[TooltipAttribute] // RVA: 0x72290 Offset: 0x71690 VA: 0x180072290
 	public FloatParameter shutterAngle; // 0x30
-	[RangeAttribute] // RVA: 0x74010 Offset: 0x73410 VA: 0x180074010
-	[TooltipAttribute] // RVA: 0x74010 Offset: 0x73410 VA: 0x180074010
+	[RangeAttribute] // RVA: 0x724C0 Offset: 0x718C0 VA: 0x1800724C0
+	[TooltipAttribute] // RVA: 0x724C0 Offset: 0x718C0 VA: 0x1800724C0
 	public IntParameter sampleCount; // 0x38
 
 

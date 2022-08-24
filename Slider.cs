@@ -3,8 +3,8 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	private RectTransform m_FillRect; // 0xE8
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private RectTransform m_HandleRect; // 0xF0
-	[SpaceAttribute] // RVA: 0x7CDD0 Offset: 0x7C1D0 VA: 0x18007CDD0
-	[SerializeField] // RVA: 0x7CDD0 Offset: 0x7C1D0 VA: 0x18007CDD0
+	[SpaceAttribute] // RVA: 0x7CCA0 Offset: 0x7C0A0 VA: 0x18007CCA0
+	[SerializeField] // RVA: 0x7CCA0 Offset: 0x7C0A0 VA: 0x18007CCA0
 	private Slider.Direction m_Direction; // 0xF8
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float m_MinValue; // 0xFC
@@ -14,8 +14,8 @@ public class Slider : Selectable, IDragHandler, IEventSystemHandler, IInitialize
 	private bool m_WholeNumbers; // 0x104
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	protected float m_Value; // 0x108
-	[SpaceAttribute] // RVA: 0x7CDD0 Offset: 0x7C1D0 VA: 0x18007CDD0
-	[SerializeField] // RVA: 0x7CDD0 Offset: 0x7C1D0 VA: 0x18007CDD0
+	[SpaceAttribute] // RVA: 0x7CCA0 Offset: 0x7C0A0 VA: 0x18007CCA0
+	[SerializeField] // RVA: 0x7CCA0 Offset: 0x7C0A0 VA: 0x18007CCA0
 	private Slider.SliderEvent m_OnValueChanged; // 0x110
 	private Image m_FillImage; // 0x118
 	private Transform m_FillTransform; // 0x120

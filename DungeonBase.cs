@@ -1,9 +1,9 @@
 public class DungeonNavmesh : FacepunchBehaviour, IServerComponent // TypeDefIndex: 8956
 {	public int NavMeshAgentTypeIndex; // 0x18
-	[TooltipAttribute] // RVA: 0xC7070 Offset: 0xC6470 VA: 0x1800C7070
+	[TooltipAttribute] // RVA: 0xC7030 Offset: 0xC6430 VA: 0x1800C7030
 	public string DefaultAreaName; // 0x20
 	public float NavmeshResolutionModifier; // 0x28
-	[TooltipAttribute] // RVA: 0xC7110 Offset: 0xC6510 VA: 0x1800C7110
+	[TooltipAttribute] // RVA: 0xC70E0 Offset: 0xC64E0 VA: 0x1800C70E0
 	public Bounds Bounds; // 0x2C
 	public NavMeshData NavMeshData; // 0x48
 	public NavMeshDataInstance NavMeshDataInstance; // 0x50
@@ -73,7 +73,7 @@ public class DungeonBaseLink : MonoBehaviour // TypeDefIndex: 10343
 	public int MaxFloor; // 0x20
 	public int MaxCountLocal; // 0x24
 	public int MaxCountGlobal; // 0x28
-	[TooltipAttribute] // RVA: 0xCC830 Offset: 0xCBC30 VA: 0x1800CC830
+	[TooltipAttribute] // RVA: 0xCBFD0 Offset: 0xCB3D0 VA: 0x1800CBFD0
 	public int MaxCountIdentifier; // 0x2C
 	internal DungeonBaseInfo Dungeon; // 0x30
 	public MeshRenderer[] MapRenderers; // 0x38
@@ -179,7 +179,7 @@ public struct DungeonGridConnectionHash // TypeDefIndex: 10351
 }
 
 public class DungeonGridInfo : LandmarkInfo // TypeDefIndex: 10352
-{	[HeaderAttribute] // RVA: 0xCC950 Offset: 0xCBD50 VA: 0x1800CC950
+{	[HeaderAttribute] // RVA: 0xCC0A0 Offset: 0xCB4A0 VA: 0x1800CC0A0
 	public int CellSize; // 0x30
 	public float LinkHeight; // 0x34
 	public float LinkRadius; // 0x38

@@ -83,13 +83,13 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 	protected OccludeeSphere localOccludee; // 0xE0
 	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private float <Weight>k__BackingField; // 0x100
-	[HeaderAttribute] // RVA: 0x9F540 Offset: 0x9E940 VA: 0x18009F540
+	[HeaderAttribute] // RVA: 0x9F550 Offset: 0x9E950 VA: 0x18009F550
 	public Bounds bounds; // 0x104
 	public GameObjectRef impactEffect; // 0x120
 	public bool enableSaving; // 0x128
 	public bool syncPosition; // 0x129
 	public Model model; // 0x130
-	[InspectorFlagsAttribute] // RVA: 0x70C90 Offset: 0x70090 VA: 0x180070C90
+	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
 	public BaseEntity.Flags flags; // 0x138
 	public uint parentBone; // 0x13C
 	public ulong skinID; // 0x140
@@ -281,7 +281,7 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 
 	public void RefreshEntityLinks() { }
 
-	[ObsoleteAttribute] // RVA: 0x9F8C0 Offset: 0x9ECC0 VA: 0x18009F8C0
+	[ObsoleteAttribute] // RVA: 0x9F7E0 Offset: 0x9EBE0 VA: 0x18009F7E0
 	public void RequestFileFromServer(uint crc, FileStorage.Type type, string responseFunction, uint part = 0) { }
 
 	public void RequestFileFromServer(IServerFileReceiver receiver, FileStorage.Type type, uint crc, uint part = 0, bool respondIfNotFound = False) { }

@@ -93,36 +93,36 @@ public class ElevatorLift : BaseCombatEntity // TypeDefIndex: 8387
 
 	private Elevator get_owner() { }
 
-	[BaseEntity.Menu] // RVA: 0xDB1D0 Offset: 0xDA5D0 VA: 0x1800DB1D0
-	[BaseEntity.Menu.Description] // RVA: 0xDB1D0 Offset: 0xDA5D0 VA: 0x1800DB1D0
-	[BaseEntity.Menu.Icon] // RVA: 0xDB1D0 Offset: 0xDA5D0 VA: 0x1800DB1D0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDB1D0 Offset: 0xDA5D0 VA: 0x1800DB1D0
+	[BaseEntity.Menu] // RVA: 0xDB360 Offset: 0xDA760 VA: 0x1800DB360
+	[BaseEntity.Menu.Description] // RVA: 0xDB360 Offset: 0xDA760 VA: 0x1800DB360
+	[BaseEntity.Menu.Icon] // RVA: 0xDB360 Offset: 0xDA760 VA: 0x1800DB360
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDB360 Offset: 0xDA760 VA: 0x1800DB360
 	public void Menu_RaiseElevator(BasePlayer p) { }
 
 	protected bool Menu_RaiseElevator_ShowIf(BasePlayer p) { }
 
 	protected virtual bool Menu_RaiseElevator_ShowIf_Base(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0xDB530 Offset: 0xDA930 VA: 0x1800DB530
-	[BaseEntity.Menu.Description] // RVA: 0xDB530 Offset: 0xDA930 VA: 0x1800DB530
-	[BaseEntity.Menu.Icon] // RVA: 0xDB530 Offset: 0xDA930 VA: 0x1800DB530
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDB530 Offset: 0xDA930 VA: 0x1800DB530
+	[BaseEntity.Menu] // RVA: 0xDB680 Offset: 0xDAA80 VA: 0x1800DB680
+	[BaseEntity.Menu.Description] // RVA: 0xDB680 Offset: 0xDAA80 VA: 0x1800DB680
+	[BaseEntity.Menu.Icon] // RVA: 0xDB680 Offset: 0xDAA80 VA: 0x1800DB680
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDB680 Offset: 0xDAA80 VA: 0x1800DB680
 	public void Menu_RaiseElevatorToTop(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0xDB890 Offset: 0xDAC90 VA: 0x1800DB890
-	[BaseEntity.Menu.Description] // RVA: 0xDB890 Offset: 0xDAC90 VA: 0x1800DB890
-	[BaseEntity.Menu.Icon] // RVA: 0xDB890 Offset: 0xDAC90 VA: 0x1800DB890
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDB890 Offset: 0xDAC90 VA: 0x1800DB890
+	[BaseEntity.Menu] // RVA: 0xDB9B0 Offset: 0xDADB0 VA: 0x1800DB9B0
+	[BaseEntity.Menu.Description] // RVA: 0xDB9B0 Offset: 0xDADB0 VA: 0x1800DB9B0
+	[BaseEntity.Menu.Icon] // RVA: 0xDB9B0 Offset: 0xDADB0 VA: 0x1800DB9B0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDB9B0 Offset: 0xDADB0 VA: 0x1800DB9B0
 	public void Menu_LowerElevator(BasePlayer p) { }
 
 	protected bool Menu_LowerElevator_ShowIf(BasePlayer p) { }
 
 	protected virtual bool Menu_LowerElevator_ShowIf_Base(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0xDBD60 Offset: 0xDB160 VA: 0x1800DBD60
-	[BaseEntity.Menu.Description] // RVA: 0xDBD60 Offset: 0xDB160 VA: 0x1800DBD60
-	[BaseEntity.Menu.Icon] // RVA: 0xDBD60 Offset: 0xDB160 VA: 0x1800DBD60
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDBD60 Offset: 0xDB160 VA: 0x1800DBD60
+	[BaseEntity.Menu] // RVA: 0xDBE10 Offset: 0xDB210 VA: 0x1800DBE10
+	[BaseEntity.Menu.Description] // RVA: 0xDBE10 Offset: 0xDB210 VA: 0x1800DBE10
+	[BaseEntity.Menu.Icon] // RVA: 0xDBE10 Offset: 0xDB210 VA: 0x1800DBE10
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDBE10 Offset: 0xDB210 VA: 0x1800DBE10
 	public void Menu_LowerElevatorToFloor(BasePlayer p) { }
 
 	protected bool GetLookingAtButton(BasePlayer p, out Elevator.Direction d) { }
@@ -152,16 +152,16 @@ public class ElevatorLiftStatic : ElevatorLift // TypeDefIndex: 8388
 
 	public override bool get_HasMenuOptions() { }
 
-	[BaseEntity.Menu] // RVA: 0xDC060 Offset: 0xDB460 VA: 0x1800DC060
-	[BaseEntity.Menu.Description] // RVA: 0xDC060 Offset: 0xDB460 VA: 0x1800DC060
-	[BaseEntity.Menu.Icon] // RVA: 0xDC060 Offset: 0xDB460 VA: 0x1800DC060
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDC060 Offset: 0xDB460 VA: 0x1800DC060
+	[BaseEntity.Menu] // RVA: 0xDBFF0 Offset: 0xDB3F0 VA: 0x1800DBFF0
+	[BaseEntity.Menu.Description] // RVA: 0xDBFF0 Offset: 0xDB3F0 VA: 0x1800DBFF0
+	[BaseEntity.Menu.Icon] // RVA: 0xDBFF0 Offset: 0xDB3F0 VA: 0x1800DBFF0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDBFF0 Offset: 0xDB3F0 VA: 0x1800DBFF0
 	public void Menu_RaiseElevatorToTop(BasePlayer p) { }
 
-	[BaseEntity.Menu] // RVA: 0xDC350 Offset: 0xDB750 VA: 0x1800DC350
-	[BaseEntity.Menu.Description] // RVA: 0xDC350 Offset: 0xDB750 VA: 0x1800DC350
-	[BaseEntity.Menu.Icon] // RVA: 0xDC350 Offset: 0xDB750 VA: 0x1800DC350
-	[BaseEntity.Menu.ShowIf] // RVA: 0xDC350 Offset: 0xDB750 VA: 0x1800DC350
+	[BaseEntity.Menu] // RVA: 0xDC2C0 Offset: 0xDB6C0 VA: 0x1800DC2C0
+	[BaseEntity.Menu.Description] // RVA: 0xDC2C0 Offset: 0xDB6C0 VA: 0x1800DC2C0
+	[BaseEntity.Menu.Icon] // RVA: 0xDC2C0 Offset: 0xDB6C0 VA: 0x1800DC2C0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xDC2C0 Offset: 0xDB6C0 VA: 0x1800DC2C0
 	public void Menu_LowerElevatorToFloor(BasePlayer p) { }
 
 	protected override bool Menu_RaiseElevator_ShowIf_Base(BasePlayer p) { }
@@ -181,9 +181,9 @@ public class Elevator : IOEntity, IFlagNotify // TypeDefIndex: 8692
 	public float LiftSpeedPerMetre; // 0x2B0
 	public GameObject[] PoweredObjects; // 0x2B8
 	public MeshRenderer PoweredMesh; // 0x2C0
-	[ColorUsageAttribute] // RVA: 0x85C80 Offset: 0x85080 VA: 0x180085C80
+	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
 	public Color PoweredLightColour; // 0x2C8
-	[ColorUsageAttribute] // RVA: 0x85C80 Offset: 0x85080 VA: 0x180085C80
+	[ColorUsageAttribute] // RVA: 0x85B30 Offset: 0x84F30 VA: 0x180085B30
 	public Color UnpoweredLightColour; // 0x2D8
 	public SkinnedMeshRenderer[] CableRenderers; // 0x2E8
 	public LODGroup CableLod; // 0x2F0

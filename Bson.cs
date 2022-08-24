@@ -483,7 +483,7 @@ public sealed class BinaryFormatter // TypeDefIndex: 1104
 }
 
 internal static class BinaryCompatibility // TypeDefIndex: 1833
-{	private static bool _targetsAtLeast_Desktop_V4_5_2; // 0x133E0
+{	private static bool _targetsAtLeast_Desktop_V4_5_2; // 0x143CE
 
 	internal static bool TargetsAtLeast_Desktop_V4_5_2 { get; }
 
@@ -642,9 +642,9 @@ internal enum BsonBinaryType // TypeDefIndex: 6132
 {	public byte value__; // 0x0
 	public const BsonBinaryType Binary = 0;
 	public const BsonBinaryType Function = 1;
-	[ObsoleteAttribute] // RVA: 0x97180 Offset: 0x96580 VA: 0x180097180
+	[ObsoleteAttribute] // RVA: 0x970E0 Offset: 0x964E0 VA: 0x1800970E0
 	public const BsonBinaryType BinaryOld = 2;
-	[ObsoleteAttribute] // RVA: 0x97240 Offset: 0x96640 VA: 0x180097240
+	[ObsoleteAttribute] // RVA: 0x971D0 Offset: 0x965D0 VA: 0x1800971D0
 	public const BsonBinaryType UuidOld = 3;
 	public const BsonBinaryType Uuid = 4;
 	public const BsonBinaryType Md5 = 5;
@@ -653,7 +653,7 @@ internal enum BsonBinaryType // TypeDefIndex: 6132
 }
 
 internal class BsonBinaryWriter // TypeDefIndex: 6133
-{	private static readonly Encoding Encoding; // 0x27C8
+{	private static readonly Encoding Encoding; // 0x2B10760
 
 
 	private static void .cctor() { }

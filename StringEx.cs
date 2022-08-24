@@ -24,12 +24,12 @@ public static class StringEx // TypeDefIndex: 6608
 	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public static string EscapeRichText(string str) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xB4CB0 Offset: 0xB40B0 VA: 0x1800B4CB0
-	[ExtensionAttribute] // RVA: 0xB4CB0 Offset: 0xB40B0 VA: 0x1800B4CB0
+	[IteratorStateMachineAttribute] // RVA: 0xB4E00 Offset: 0xB4200 VA: 0x1800B4E00
+	[ExtensionAttribute] // RVA: 0xB4E00 Offset: 0xB4200 VA: 0x1800B4E00
 	public static IEnumerable<string> SplitToLines(string input) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xB4DE0 Offset: 0xB41E0 VA: 0x1800B4DE0
-	[ExtensionAttribute] // RVA: 0xB4DE0 Offset: 0xB41E0 VA: 0x1800B4DE0
+	[IteratorStateMachineAttribute] // RVA: 0xB4F60 Offset: 0xB4360 VA: 0x1800B4F60
+	[ExtensionAttribute] // RVA: 0xB4F60 Offset: 0xB4360 VA: 0x1800B4F60
 	public static IEnumerable<string> SplitToChunks(string str, int chunkLength) { }
 
 	[ExtensionAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480

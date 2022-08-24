@@ -1,11 +1,11 @@
 public class ShoutcastStreamer : MonoBehaviour, IClientComponent // TypeDefIndex: 9019
 {	public string Host; // 0x18
 	public AudioSource Source; // 0x20
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static int MaxAudioStreams; // 0x0
-	[ClientVar] // RVA: 0x81AE0 Offset: 0x80EE0 VA: 0x180081AE0
+	[ClientVar] // RVA: 0x812A0 Offset: 0x806A0 VA: 0x1800812A0
 	public static bool DebugStreams; // 0x4
-	[ClientVar] // RVA: 0x712A0 Offset: 0x706A0 VA: 0x1800712A0
+	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
 	public static bool StreamingAnalytics; // 0x5
 	private static bool _allowInternetStreams; // 0x6
 	private static HashSet<ShoutcastStreamer> activeStreams; // 0x8
@@ -25,7 +25,7 @@ public class ShoutcastStreamer : MonoBehaviour, IClientComponent // TypeDefIndex
 	private bool waitAudio; // 0x64
 	private float waitUntilBuffer; // 0x68
 
-	[ClientVar] // RVA: 0x813F0 Offset: 0x807F0 VA: 0x1800813F0
+	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
 	public static bool AllowInternetStreams { get; set; }
 	public static int ActiveStreamCount { get; }
 	public uint CurrentReadIndex { get; set; }
@@ -73,7 +73,7 @@ public class ShoutcastStreamer : MonoBehaviour, IClientComponent // TypeDefIndex
 
 	private float get_BufferedPercentage() { }
 
-	[AsyncStateMachineAttribute] // RVA: 0xCC0F0 Offset: 0xCB4F0 VA: 0x1800CC0F0
+	[AsyncStateMachineAttribute] // RVA: 0xCC200 Offset: 0xCB600 VA: 0x1800CC200
 	private void ReadData() { }
 
 	private void OnDisable() { }

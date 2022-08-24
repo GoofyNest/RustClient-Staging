@@ -1,6 +1,6 @@
 public class CardTableUI : UIDialog // TypeDefIndex: 10879
-{	[HeaderAttribute] // RVA: 0x813A0 Offset: 0x807A0 VA: 0x1800813A0
-	[SerializeField] // RVA: 0x813A0 Offset: 0x807A0 VA: 0x1800813A0
+{	[HeaderAttribute] // RVA: 0x80BA0 Offset: 0x7FFA0 VA: 0x180080BA0
+	[SerializeField] // RVA: 0x80BA0 Offset: 0x7FFA0 VA: 0x180080BA0
 	private CardTableUI.InfoTextUI primaryInfo; // 0x30
 	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	private CardTableUI.InfoTextUI secondaryInfo; // 0x38

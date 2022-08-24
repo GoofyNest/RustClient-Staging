@@ -3,13 +3,13 @@ public class InstantCameraTool : HeldEntity // TypeDefIndex: 8584
 	public GameObjectRef screenshotEffect; // 0x200
 	public SoundDefinition startPhotoSoundDef; // 0x208
 	public SoundDefinition finishPhotoSoundDef; // 0x210
-	[RangeAttribute] // RVA: 0xAC8A0 Offset: 0xABCA0 VA: 0x1800AC8A0
+	[RangeAttribute] // RVA: 0xAC8E0 Offset: 0xABCE0 VA: 0x1800AC8E0
 	public int resolutionX; // 0x218
-	[RangeAttribute] // RVA: 0xAC920 Offset: 0xABD20 VA: 0x1800AC920
+	[RangeAttribute] // RVA: 0xAC9B0 Offset: 0xABDB0 VA: 0x1800AC9B0
 	public int resolutionY; // 0x21C
-	[RangeAttribute] // RVA: 0xACAA0 Offset: 0xABEA0 VA: 0x1800ACAA0
+	[RangeAttribute] // RVA: 0xACB00 Offset: 0xABF00 VA: 0x1800ACB00
 	public int quality; // 0x220
-	[RangeAttribute] // RVA: 0x75B10 Offset: 0x74F10 VA: 0x180075B10
+	[RangeAttribute] // RVA: 0x75B60 Offset: 0x74F60 VA: 0x180075B60
 	public float cooldownSeconds; // 0x224
 	private TimeSince _sinceLastPhoto; // 0x228
 	private float cameraFOV; // 0x22C

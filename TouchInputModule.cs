@@ -6,7 +6,7 @@ public class TouchInputModule : PointerInputModule // TypeDefIndex: 5087
 	[FormerlySerializedAsAttribute] // RVA: 0x89150 Offset: 0x88550 VA: 0x180089150
 	private bool m_ForceModuleActive; // 0x70
 
-	[ObsoleteAttribute] // RVA: 0x89260 Offset: 0x88660 VA: 0x180089260
+	[ObsoleteAttribute] // RVA: 0x89200 Offset: 0x88600 VA: 0x180089200
 	public bool allowActivationOnStandalone { get; set; }
 	public bool forceModuleActive { get; set; }
 

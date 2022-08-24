@@ -1,6 +1,6 @@
 public class MagnetCraneAudio : MonoBehaviour // TypeDefIndex: 9732
 {	public MagnetCrane crane; // 0x18
-	[HeaderAttribute] // RVA: 0x8D9B0 Offset: 0x8CDB0 VA: 0x18008D9B0
+	[HeaderAttribute] // RVA: 0x8D8B0 Offset: 0x8CCB0 VA: 0x18008D8B0
 	public SoundDefinition engineStartSoundDef; // 0x20
 	public SoundDefinition engineStopSoundDef; // 0x28
 	public BlendedLoopEngineSound engineLoops; // 0x30

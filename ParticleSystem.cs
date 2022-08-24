@@ -1,31 +1,31 @@
 public sealed class ParticleSystem : Component // TypeDefIndex: 4527
 {
-[NativeHeaderAttribute] // RVA: 0xECC40 Offset: 0xEC040 VA: 0x1800ECC40
-[NativeHeaderAttribute] // RVA: 0xECC40 Offset: 0xEC040 VA: 0x1800ECC40
-[NativeHeaderAttribute] // RVA: 0xECC40 Offset: 0xEC040 VA: 0x1800ECC40
-[NativeHeaderAttribute] // RVA: 0xECC40 Offset: 0xEC040 VA: 0x1800ECC40
-[NativeHeaderAttribute] // RVA: 0xECC40 Offset: 0xEC040 VA: 0x1800ECC40
-[RequireComponent] // RVA: 0xECC40 Offset: 0xEC040 VA: 0x1800ECC40
-[UsedByNativeCodeAttribute] // RVA: 0xECC40 Offset: 0xEC040 VA: 0x1800ECC40
-[NativeHeaderAttribute] // RVA: 0xECC40 Offset: 0xEC040 VA: 0x1800ECC40
-[NativeHeaderAttribute] // RVA: 0xECC40 Offset: 0xEC040 VA: 0x1800ECC40
-[NativeHeaderAttribute] // RVA: 0xECC40 Offset: 0xEC040 VA: 0x1800ECC40
+[NativeHeaderAttribute] // RVA: 0xECCD0 Offset: 0xEC0D0 VA: 0x1800ECCD0
+[NativeHeaderAttribute] // RVA: 0xECCD0 Offset: 0xEC0D0 VA: 0x1800ECCD0
+[NativeHeaderAttribute] // RVA: 0xECCD0 Offset: 0xEC0D0 VA: 0x1800ECCD0
+[NativeHeaderAttribute] // RVA: 0xECCD0 Offset: 0xEC0D0 VA: 0x1800ECCD0
+[NativeHeaderAttribute] // RVA: 0xECCD0 Offset: 0xEC0D0 VA: 0x1800ECCD0
+[RequireComponent] // RVA: 0xECCD0 Offset: 0xEC0D0 VA: 0x1800ECCD0
+[UsedByNativeCodeAttribute] // RVA: 0xECCD0 Offset: 0xEC0D0 VA: 0x1800ECCD0
+[NativeHeaderAttribute] // RVA: 0xECCD0 Offset: 0xEC0D0 VA: 0x1800ECCD0
+[NativeHeaderAttribute] // RVA: 0xECCD0 Offset: 0xEC0D0 VA: 0x1800ECCD0
+[NativeHeaderAttribute] // RVA: 0xECCD0 Offset: 0xEC0D0 VA: 0x1800ECCD0
 public sealed class ParticleSystem : Component // TypeDefIndex: 4527
-	[ObsoleteAttribute] // RVA: 0xEE680 Offset: 0xEDA80 VA: 0x1800EE680
+	[ObsoleteAttribute] // RVA: 0xEE7A0 Offset: 0xEDBA0 VA: 0x1800EE7A0
 	public bool playOnAwake { get; }
-	[ObsoleteAttribute] // RVA: 0xEE7D0 Offset: 0xEDBD0 VA: 0x1800EE7D0
+	[ObsoleteAttribute] // RVA: 0xEE890 Offset: 0xEDC90 VA: 0x1800EE890
 	public float duration { get; }
-	[ObsoleteAttribute] // RVA: 0xEE8C0 Offset: 0xEDCC0 VA: 0x1800EE8C0
+	[ObsoleteAttribute] // RVA: 0xEEA10 Offset: 0xEDE10 VA: 0x1800EEA10
 	public bool enableEmission { get; set; }
-	[ObsoleteAttribute] // RVA: 0xEE9F0 Offset: 0xEDDF0 VA: 0x1800EE9F0
+	[ObsoleteAttribute] // RVA: 0xEEB40 Offset: 0xEDF40 VA: 0x1800EEB40
 	public float emissionRate { get; set; }
-	[ObsoleteAttribute] // RVA: 0xEEB20 Offset: 0xEDF20 VA: 0x1800EEB20
+	[ObsoleteAttribute] // RVA: 0xEECD0 Offset: 0xEE0D0 VA: 0x1800EECD0
 	public float startSpeed { get; set; }
-	[ObsoleteAttribute] // RVA: 0xEEC90 Offset: 0xEE090 VA: 0x1800EEC90
+	[ObsoleteAttribute] // RVA: 0xEEE60 Offset: 0xEE260 VA: 0x1800EEE60
 	public float startSize { get; set; }
-	[ObsoleteAttribute] // RVA: 0xEEE00 Offset: 0xEE200 VA: 0x1800EEE00
+	[ObsoleteAttribute] // RVA: 0xEF010 Offset: 0xEE410 VA: 0x1800EF010
 	public float startLifetime { get; set; }
-	[ObsoleteAttribute] // RVA: 0xEEF20 Offset: 0xEE320 VA: 0x1800EEF20
+	[ObsoleteAttribute] // RVA: 0xEF120 Offset: 0xEE520 VA: 0x1800EF120
 	public float gravityModifier { get; set; }
 	public bool isPlaying { get; }
 	public bool isStopped { get; }
@@ -38,10 +38,10 @@ public sealed class ParticleSystem : Component // TypeDefIndex: 4527
 	public ParticleSystem.CollisionModule collision { get; }
 
 
-	[ObsoleteAttribute] // RVA: 0xED330 Offset: 0xEC730 VA: 0x1800ED330
+	[ObsoleteAttribute] // RVA: 0xED440 Offset: 0xEC840 VA: 0x1800ED440
 	public void Emit(Vector3 position, Vector3 velocity, float size, float lifetime, Color32 color) { }
 
-	[ObsoleteAttribute] // RVA: 0xED470 Offset: 0xEC870 VA: 0x1800ED470
+	[ObsoleteAttribute] // RVA: 0xED580 Offset: 0xEC980 VA: 0x1800ED580
 	public void Emit(ParticleSystem.Particle particle) { }
 
 	public bool get_playOnAwake() { }
@@ -72,19 +72,19 @@ public sealed class ParticleSystem : Component // TypeDefIndex: 4527
 
 	public void set_gravityModifier(float value) { }
 
-	[NativeNameAttribute] // RVA: 0xED4F0 Offset: 0xEC8F0 VA: 0x1800ED4F0
+	[NativeNameAttribute] // RVA: 0xED680 Offset: 0xECA80 VA: 0x1800ED680
 	public bool get_isPlaying() { }
 
-	[NativeNameAttribute] // RVA: 0xED5D0 Offset: 0xEC9D0 VA: 0x1800ED5D0
+	[NativeNameAttribute] // RVA: 0xED700 Offset: 0xECB00 VA: 0x1800ED700
 	public bool get_isStopped() { }
 
-	[NativeNameAttribute] // RVA: 0xED690 Offset: 0xECA90 VA: 0x1800ED690
+	[NativeNameAttribute] // RVA: 0xED7D0 Offset: 0xECBD0 VA: 0x1800ED7D0
 	public int get_particleCount() { }
 
-	[NativeNameAttribute] // RVA: 0xED740 Offset: 0xECB40 VA: 0x1800ED740
+	[NativeNameAttribute] // RVA: 0xED880 Offset: 0xECC80 VA: 0x1800ED880
 	public void set_useAutoRandomSeed(bool value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xED960 Offset: 0xECD60 VA: 0x1800ED960
+	[FreeFunctionAttribute] // RVA: 0xEDA80 Offset: 0xECE80 VA: 0x1800EDA80
 	public void Simulate(float t, bool withChildren, bool restart, bool fixedTimeStep) { }
 
 	public void Simulate(float t, bool withChildren, bool restart) { }
@@ -93,24 +93,24 @@ public sealed class ParticleSystem : Component // TypeDefIndex: 4527
 
 	public void Simulate(float t) { }
 
-	[FreeFunctionAttribute] // RVA: 0xEDAB0 Offset: 0xECEB0 VA: 0x1800EDAB0
+	[FreeFunctionAttribute] // RVA: 0xEDB50 Offset: 0xECF50 VA: 0x1800EDB50
 	public void Play(bool withChildren) { }
 
 	public void Play() { }
 
-	[FreeFunctionAttribute] // RVA: 0xEDBB0 Offset: 0xECFB0 VA: 0x1800EDBB0
+	[FreeFunctionAttribute] // RVA: 0xEDC70 Offset: 0xED070 VA: 0x1800EDC70
 	public void Pause(bool withChildren) { }
 
 	public void Pause() { }
 
-	[FreeFunctionAttribute] // RVA: 0xEDCD0 Offset: 0xED0D0 VA: 0x1800EDCD0
+	[FreeFunctionAttribute] // RVA: 0xEDD10 Offset: 0xED110 VA: 0x1800EDD10
 	public void Stop(bool withChildren, ParticleSystemStopBehavior stopBehavior) { }
 
 	public void Stop(bool withChildren) { }
 
 	public void Stop() { }
 
-	[FreeFunctionAttribute] // RVA: 0xEDD80 Offset: 0xED180 VA: 0x1800EDD80
+	[FreeFunctionAttribute] // RVA: 0xEDE20 Offset: 0xED220 VA: 0x1800EDE20
 	public void Clear(bool withChildren) { }
 
 	public void Clear() { }
@@ -118,13 +118,13 @@ public sealed class ParticleSystem : Component // TypeDefIndex: 4527
 	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
 	public void Emit(int count) { }
 
-	[NativeNameAttribute] // RVA: 0xEDEE0 Offset: 0xED2E0 VA: 0x1800EDEE0
+	[NativeNameAttribute] // RVA: 0xEDFF0 Offset: 0xED3F0 VA: 0x1800EDFF0
 	private void Emit_Internal(int count) { }
 
-	[NativeNameAttribute] // RVA: 0xEE0C0 Offset: 0xED4C0 VA: 0x1800EE0C0
+	[NativeNameAttribute] // RVA: 0xEE1D0 Offset: 0xED5D0 VA: 0x1800EE1D0
 	public void Emit(ParticleSystem.EmitParams emitParams, int count) { }
 
-	[NativeNameAttribute] // RVA: 0xEE1C0 Offset: 0xED5C0 VA: 0x1800EE1C0
+	[NativeNameAttribute] // RVA: 0xEE2D0 Offset: 0xED6D0 VA: 0x1800EE2D0
 	private void EmitOld_Internal(ref ParticleSystem.Particle particle) { }
 
 	internal void* GetManagedJobData() { }
@@ -133,10 +133,10 @@ public sealed class ParticleSystem : Component // TypeDefIndex: 4527
 
 	internal void SetManagedJobHandle(JobHandle handle) { }
 
-	[FreeFunctionAttribute] // RVA: 0xEABB0 Offset: 0xE9FB0 VA: 0x1800EABB0
+	[FreeFunctionAttribute] // RVA: 0xEABE0 Offset: 0xE9FE0 VA: 0x1800EABE0
 	internal static JobHandle ScheduleManagedJob(ref JobsUtility.JobScheduleParameters parameters, void* additionalData) { }
 
-	[ThreadSafeAttribute] // RVA: 0x93E10 Offset: 0x93210 VA: 0x180093E10
+	[ThreadSafeAttribute] // RVA: 0x93D90 Offset: 0x93190 VA: 0x180093D90
 	internal static void CopyManagedJobData(void* systemPtr, out NativeParticleData particleData) { }
 
 	public ParticleSystem.MainModule get_main() { }
@@ -167,9 +167,9 @@ public struct ParticleSystem.MainModule // TypeDefIndex: 4528
 	public float startLifetimeMultiplier { get; set; }
 	public ParticleSystem.MinMaxCurve startSpeed { get; set; }
 	public float startSpeedMultiplier { get; set; }
-	[NativeNameAttribute] // RVA: 0xEF170 Offset: 0xEE570 VA: 0x1800EF170
+	[NativeNameAttribute] // RVA: 0xEF3D0 Offset: 0xEE7D0 VA: 0x1800EF3D0
 	public ParticleSystem.MinMaxCurve startSize { get; set; }
-	[NativeNameAttribute] // RVA: 0xEF2B0 Offset: 0xEE6B0 VA: 0x1800EF2B0
+	[NativeNameAttribute] // RVA: 0xEF4E0 Offset: 0xEE8E0 VA: 0x1800EF4E0
 	public float startSizeMultiplier { get; set; }
 	public ParticleSystem.MinMaxGradient startColor { get; set; }
 	public float gravityModifierMultiplier { get; set; }
@@ -274,7 +274,7 @@ public struct ParticleSystem.MainModule // TypeDefIndex: 4528
 public struct ParticleSystem.EmissionModule // TypeDefIndex: 4529
 {	internal ParticleSystem m_ParticleSystem; // 0x0
 
-	[ObsoleteAttribute] // RVA: 0xEF4B0 Offset: 0xEE8B0 VA: 0x1800EF4B0
+	[ObsoleteAttribute] // RVA: 0xEF6E0 Offset: 0xEEAE0 VA: 0x1800EF6E0
 	public ParticleSystem.MinMaxCurve rate { set; }
 	public bool enabled { get; set; }
 	public ParticleSystem.MinMaxCurve rateOverTime { get; set; }
@@ -401,7 +401,7 @@ public struct ParticleSystem.Particle // TypeDefIndex: 4531
 	private float m_EmitAccumulator1; // 0x7C
 	private uint m_Flags; // 0x80
 
-	[ObsoleteAttribute] // RVA: 0xEF8D0 Offset: 0xEECD0 VA: 0x1800EF8D0
+	[ObsoleteAttribute] // RVA: 0xEFB00 Offset: 0xEEF00 VA: 0x1800EFB00
 	public float lifetime { set; }
 	public Vector3 position { set; }
 	public Vector3 velocity { set; }
@@ -526,27 +526,27 @@ public struct ParticleSystem.MinMaxGradient // TypeDefIndex: 4534
 public struct ParticleSystem.EmitParams // TypeDefIndex: 4535
 {	[NativeNameAttribute] // RVA: 0xF0560 Offset: 0xEF960 VA: 0x1800F0560
 	private ParticleSystem.Particle m_Particle; // 0x0
-	[NativeNameAttribute] // RVA: 0xF0680 Offset: 0xEFA80 VA: 0x1800F0680
+	[NativeNameAttribute] // RVA: 0xF06F0 Offset: 0xEFAF0 VA: 0x1800F06F0
 	private bool m_PositionSet; // 0x84
-	[NativeNameAttribute] // RVA: 0xF07A0 Offset: 0xEFBA0 VA: 0x1800F07A0
+	[NativeNameAttribute] // RVA: 0xF0880 Offset: 0xEFC80 VA: 0x1800F0880
 	private bool m_VelocitySet; // 0x85
-	[NativeNameAttribute] // RVA: 0xF08C0 Offset: 0xEFCC0 VA: 0x1800F08C0
+	[NativeNameAttribute] // RVA: 0xF09A0 Offset: 0xEFDA0 VA: 0x1800F09A0
 	private bool m_AxisOfRotationSet; // 0x86
-	[NativeNameAttribute] // RVA: 0xF09C0 Offset: 0xEFDC0 VA: 0x1800F09C0
+	[NativeNameAttribute] // RVA: 0xF0A10 Offset: 0xEFE10 VA: 0x1800F0A10
 	private bool m_RotationSet; // 0x87
-	[NativeNameAttribute] // RVA: 0xF0B30 Offset: 0xEFF30 VA: 0x1800F0B30
+	[NativeNameAttribute] // RVA: 0xF0BF0 Offset: 0xEFFF0 VA: 0x1800F0BF0
 	private bool m_AngularVelocitySet; // 0x88
-	[NativeNameAttribute] // RVA: 0xF0D40 Offset: 0xF0140 VA: 0x1800F0D40
+	[NativeNameAttribute] // RVA: 0xF0D60 Offset: 0xF0160 VA: 0x1800F0D60
 	private bool m_StartSizeSet; // 0x89
-	[NativeNameAttribute] // RVA: 0xF0F50 Offset: 0xF0350 VA: 0x1800F0F50
+	[NativeNameAttribute] // RVA: 0xF0FC0 Offset: 0xF03C0 VA: 0x1800F0FC0
 	private bool m_StartColorSet; // 0x8A
 	[NativeNameAttribute] // RVA: 0x6F450 Offset: 0x6E850 VA: 0x18006F450
 	private bool m_RandomSeedSet; // 0x8B
-	[NativeNameAttribute] // RVA: 0x6F5C0 Offset: 0x6E9C0 VA: 0x18006F5C0
+	[NativeNameAttribute] // RVA: 0x6F5A0 Offset: 0x6E9A0 VA: 0x18006F5A0
 	private bool m_StartLifetimeSet; // 0x8C
-	[NativeNameAttribute] // RVA: 0x6F7B0 Offset: 0x6EBB0 VA: 0x18006F7B0
+	[NativeNameAttribute] // RVA: 0x6F790 Offset: 0x6EB90 VA: 0x18006F790
 	private bool m_MeshIndexSet; // 0x8D
-	[NativeNameAttribute] // RVA: 0x6FBD0 Offset: 0x6EFD0 VA: 0x18006FBD0
+	[NativeNameAttribute] // RVA: 0x6FC10 Offset: 0x6F010 VA: 0x18006FC10
 	private bool m_ApplyShapeToPosition; // 0x8E
 
 	public Vector3 position { set; }

@@ -1,35 +1,35 @@
 public class CanvasScaler : UIBehaviour // TypeDefIndex: 4959
-{	[TooltipAttribute] // RVA: 0xF05F0 Offset: 0xEF9F0 VA: 0x1800F05F0
-	[SerializeField] // RVA: 0xF05F0 Offset: 0xEF9F0 VA: 0x1800F05F0
+{	[TooltipAttribute] // RVA: 0xF0660 Offset: 0xEFA60 VA: 0x1800F0660
+	[SerializeField] // RVA: 0xF0660 Offset: 0xEFA60 VA: 0x1800F0660
 	private CanvasScaler.ScaleMode m_UiScaleMode; // 0x18
-	[TooltipAttribute] // RVA: 0xF0750 Offset: 0xEFB50 VA: 0x1800F0750
-	[SerializeField] // RVA: 0xF0750 Offset: 0xEFB50 VA: 0x1800F0750
+	[TooltipAttribute] // RVA: 0xF07C0 Offset: 0xEFBC0 VA: 0x1800F07C0
+	[SerializeField] // RVA: 0xF07C0 Offset: 0xEFBC0 VA: 0x1800F07C0
 	protected float m_ReferencePixelsPerUnit; // 0x1C
-	[TooltipAttribute] // RVA: 0xF0870 Offset: 0xEFC70 VA: 0x1800F0870
-	[SerializeField] // RVA: 0xF0870 Offset: 0xEFC70 VA: 0x1800F0870
+	[TooltipAttribute] // RVA: 0xF0950 Offset: 0xEFD50 VA: 0x1800F0950
+	[SerializeField] // RVA: 0xF0950 Offset: 0xEFD50 VA: 0x1800F0950
 	protected float m_ScaleFactor; // 0x20
-	[TooltipAttribute] // RVA: 0xF0A40 Offset: 0xEFE40 VA: 0x1800F0A40
-	[SerializeField] // RVA: 0xF0A40 Offset: 0xEFE40 VA: 0x1800F0A40
+	[TooltipAttribute] // RVA: 0xF0A90 Offset: 0xEFE90 VA: 0x1800F0A90
+	[SerializeField] // RVA: 0xF0A90 Offset: 0xEFE90 VA: 0x1800F0A90
 	protected Vector2 m_ReferenceResolution; // 0x24
-	[TooltipAttribute] // RVA: 0xF0CB0 Offset: 0xF00B0 VA: 0x1800F0CB0
-	[SerializeField] // RVA: 0xF0CB0 Offset: 0xF00B0 VA: 0x1800F0CB0
+	[TooltipAttribute] // RVA: 0xF0CD0 Offset: 0xF00D0 VA: 0x1800F0CD0
+	[SerializeField] // RVA: 0xF0CD0 Offset: 0xF00D0 VA: 0x1800F0CD0
 	protected CanvasScaler.ScreenMatchMode m_ScreenMatchMode; // 0x2C
-	[TooltipAttribute] // RVA: 0xF0EE0 Offset: 0xF02E0 VA: 0x1800F0EE0
-	[RangeAttribute] // RVA: 0xF0EE0 Offset: 0xF02E0 VA: 0x1800F0EE0
-	[SerializeField] // RVA: 0xF0EE0 Offset: 0xF02E0 VA: 0x1800F0EE0
+	[TooltipAttribute] // RVA: 0xF0F50 Offset: 0xF0350 VA: 0x1800F0F50
+	[RangeAttribute] // RVA: 0xF0F50 Offset: 0xF0350 VA: 0x1800F0F50
+	[SerializeField] // RVA: 0xF0F50 Offset: 0xF0350 VA: 0x1800F0F50
 	protected float m_MatchWidthOrHeight; // 0x30
 	private const float kLogBase = 2;
 	[TooltipAttribute] // RVA: 0x6F500 Offset: 0x6E900 VA: 0x18006F500
 	[SerializeField] // RVA: 0x6F500 Offset: 0x6E900 VA: 0x18006F500
 	protected CanvasScaler.Unit m_PhysicalUnit; // 0x34
-	[TooltipAttribute] // RVA: 0x6F760 Offset: 0x6EB60 VA: 0x18006F760
-	[SerializeField] // RVA: 0x6F760 Offset: 0x6EB60 VA: 0x18006F760
+	[TooltipAttribute] // RVA: 0x6F740 Offset: 0x6EB40 VA: 0x18006F740
+	[SerializeField] // RVA: 0x6F740 Offset: 0x6EB40 VA: 0x18006F740
 	protected float m_FallbackScreenDPI; // 0x38
-	[TooltipAttribute] // RVA: 0x6FC00 Offset: 0x6F000 VA: 0x18006FC00
-	[SerializeField] // RVA: 0x6FC00 Offset: 0x6F000 VA: 0x18006FC00
+	[TooltipAttribute] // RVA: 0x6FC40 Offset: 0x6F040 VA: 0x18006FC40
+	[SerializeField] // RVA: 0x6FC40 Offset: 0x6F040 VA: 0x18006FC40
 	protected float m_DefaultSpriteDPI; // 0x3C
-	[TooltipAttribute] // RVA: 0x6FE90 Offset: 0x6F290 VA: 0x18006FE90
-	[SerializeField] // RVA: 0x6FE90 Offset: 0x6F290 VA: 0x18006FE90
+	[TooltipAttribute] // RVA: 0x6FE60 Offset: 0x6F260 VA: 0x18006FE60
+	[SerializeField] // RVA: 0x6FE60 Offset: 0x6F260 VA: 0x18006FE60
 	protected float m_DynamicPixelsPerUnit; // 0x40
 	private Canvas m_Canvas; // 0x48
 	private float m_PrevScaleFactor; // 0x50

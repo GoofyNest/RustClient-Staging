@@ -1,6 +1,6 @@
 public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISubmitHandler // TypeDefIndex: 4905
-{	[FormerlySerializedAsAttribute] // RVA: 0xE4B80 Offset: 0xE3F80 VA: 0x1800E4B80
-	[SerializeField] // RVA: 0xE4B80 Offset: 0xE3F80 VA: 0x1800E4B80
+{	[FormerlySerializedAsAttribute] // RVA: 0xE4A50 Offset: 0xE3E50 VA: 0x1800E4A50
+	[SerializeField] // RVA: 0xE4A50 Offset: 0xE3E50 VA: 0x1800E4A50
 	private Button.ButtonClickedEvent m_OnClick; // 0xE8
 
 	public Button.ButtonClickedEvent onClick { get; set; }
@@ -18,7 +18,7 @@ public class Button : Selectable, IPointerClickHandler, IEventSystemHandler, ISu
 
 	public virtual void OnSubmit(BaseEventData eventData) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xE5FB0 Offset: 0xE53B0 VA: 0x1800E5FB0
+	[IteratorStateMachineAttribute] // RVA: 0xE5E80 Offset: 0xE5280 VA: 0x1800E5E80
 	private IEnumerator OnFinishSubmit() { }
 
 }

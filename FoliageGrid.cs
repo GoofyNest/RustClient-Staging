@@ -49,7 +49,7 @@ public class FoliageGrid : SingletonComponent<FoliageGrid>, IClientComponent // 
 
 	public void ResetTimeout() { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xA2F10 Offset: 0xA2310 VA: 0x1800A2F10
+	[IteratorStateMachineAttribute] // RVA: 0xA2AA0 Offset: 0xA1EA0 VA: 0x1800A2AA0
 	private IEnumerator UpdateCoroutine() { }
 
 	private bool NeedsUpdate() { }

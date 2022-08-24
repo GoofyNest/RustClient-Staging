@@ -23,16 +23,16 @@ public class DeployedRecorder : StorageContainer, ICassettePlayer // TypeDefInde
 
 	protected override void ClientInit(Entity info) { }
 
-	[BaseEntity.Menu] // RVA: 0xD6BC0 Offset: 0xD5FC0 VA: 0x1800D6BC0
-	[BaseEntity.Menu.Description] // RVA: 0xD6BC0 Offset: 0xD5FC0 VA: 0x1800D6BC0
-	[BaseEntity.Menu.Icon] // RVA: 0xD6BC0 Offset: 0xD5FC0 VA: 0x1800D6BC0
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6BC0 Offset: 0xD5FC0 VA: 0x1800D6BC0
+	[BaseEntity.Menu] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
+	[BaseEntity.Menu.Description] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
+	[BaseEntity.Menu.Icon] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6AE0 Offset: 0xD5EE0 VA: 0x1800D6AE0
 	public void Play(BasePlayer forPlayer) { }
 
-	[BaseEntity.Menu] // RVA: 0xD6E40 Offset: 0xD6240 VA: 0x1800D6E40
-	[BaseEntity.Menu.Description] // RVA: 0xD6E40 Offset: 0xD6240 VA: 0x1800D6E40
-	[BaseEntity.Menu.Icon] // RVA: 0xD6E40 Offset: 0xD6240 VA: 0x1800D6E40
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6E40 Offset: 0xD6240 VA: 0x1800D6E40
+	[BaseEntity.Menu] // RVA: 0xD6DB0 Offset: 0xD61B0 VA: 0x1800D6DB0
+	[BaseEntity.Menu.Description] // RVA: 0xD6DB0 Offset: 0xD61B0 VA: 0x1800D6DB0
+	[BaseEntity.Menu.Icon] // RVA: 0xD6DB0 Offset: 0xD61B0 VA: 0x1800D6DB0
+	[BaseEntity.Menu.ShowIf] // RVA: 0xD6DB0 Offset: 0xD61B0 VA: 0x1800D6DB0
 	public void Stop(BasePlayer forPlayer) { }
 
 	private bool CanStop(BasePlayer forPlayer) { }

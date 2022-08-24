@@ -1,10 +1,10 @@
 public static class JsonUtility // TypeDefIndex: 4525
 {
-[NativeHeaderAttribute] // RVA: 0xE7F10 Offset: 0xE7310 VA: 0x1800E7F10
+[NativeHeaderAttribute] // RVA: 0xE7F50 Offset: 0xE7350 VA: 0x1800E7F50
 public static class JsonUtility // TypeDefIndex: 4525
 
-	[ThreadSafeAttribute] // RVA: 0xE7FE0 Offset: 0xE73E0 VA: 0x1800E7FE0
-	[FreeFunctionAttribute] // RVA: 0xE7FE0 Offset: 0xE73E0 VA: 0x1800E7FE0
+	[ThreadSafeAttribute] // RVA: 0xE8040 Offset: 0xE7440 VA: 0x1800E8040
+	[FreeFunctionAttribute] // RVA: 0xE8040 Offset: 0xE7440 VA: 0x1800E8040
 	private static object FromJsonInternal(string json, object objectToOverwrite, Type type) { }
 
 	public static T FromJson<T>(string json) { }
@@ -81,7 +81,7 @@ internal abstract class JSONNode // TypeDefIndex: 5639
 
 	public virtual void Add(JSONNode aItem) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBBA60 Offset: 0xBAE60 VA: 0x1800BBA60
+	[IteratorStateMachineAttribute] // RVA: 0xBB970 Offset: 0xBAD70 VA: 0x1800BB970
 	public virtual IEnumerable<JSONNode> get_Children() { }
 
 	public override string ToString() { }
@@ -227,7 +227,7 @@ internal class JSONArray : JSONNode // TypeDefIndex: 5643
 
 	public override void Add(string aKey, JSONNode aItem) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBC000 Offset: 0xBB400 VA: 0x1800BC000
+	[IteratorStateMachineAttribute] // RVA: 0xBBF90 Offset: 0xBB390 VA: 0x1800BBF90
 	public override IEnumerable<JSONNode> get_Children() { }
 
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode) { }
@@ -298,7 +298,7 @@ internal class JSONObject : JSONNode // TypeDefIndex: 5645
 
 	public override void Add(string aKey, JSONNode aItem) { }
 
-	[IteratorStateMachineAttribute] // RVA: 0xBDE70 Offset: 0xBD270 VA: 0x1800BDE70
+	[IteratorStateMachineAttribute] // RVA: 0xBE080 Offset: 0xBD480 VA: 0x1800BE080
 	public override IEnumerable<JSONNode> get_Children() { }
 
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode) { }
@@ -2735,9 +2735,9 @@ public class JsonObjectContract : JsonContainerContract // TypeDefIndex: 6018
 	public Nullable<Required> ItemRequired { get; set; }
 	public JsonPropertyCollection Properties { get; set; }
 	public JsonPropertyCollection CreatorParameters { get; }
-	[ObsoleteAttribute] // RVA: 0x8E310 Offset: 0x8D710 VA: 0x18008E310
+	[ObsoleteAttribute] // RVA: 0x8E1C0 Offset: 0x8D5C0 VA: 0x18008E1C0
 	public ConstructorInfo OverrideConstructor { set; }
-	[ObsoleteAttribute] // RVA: 0x8E390 Offset: 0x8D790 VA: 0x18008E390
+	[ObsoleteAttribute] // RVA: 0x8E240 Offset: 0x8D640 VA: 0x18008E240
 	public ConstructorInfo ParametrizedConstructor { set; }
 	public ObjectConstructor<object> OverrideCreator { get; }
 	internal ObjectConstructor<object> ParameterizedCreator { get; }
@@ -3360,8 +3360,8 @@ public class JTokenEqualityComparer : IEqualityComparer<JToken> // TypeDefIndex:
 
 public class JConstructor : JContainer // TypeDefIndex: 6056
 {
-[PreserveAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
-[DefaultMemberAttribute] // RVA: 0x71650 Offset: 0x70A50 VA: 0x180071650
+[PreserveAttribute] // RVA: 0x71740 Offset: 0x70B40 VA: 0x180071740
+[DefaultMemberAttribute] // RVA: 0x71740 Offset: 0x70B40 VA: 0x180071740
 public class JConstructor : JContainer // TypeDefIndex: 6056
 	private string _name; // 0x48
 	private readonly List<JToken> _values; // 0x50
@@ -3627,7 +3627,7 @@ public class JObject : JContainer, IDictionary<string, JToken>, ICollection<KeyV
 }
 
 private sealed class JObject.<>c // TypeDefIndex: 6061
-{	public static readonly JObject.<>c <>9; // 0x2775
+{	public static readonly JObject.<>c <>9; // 0x2B107D0
 
 
 	private static void .cctor() { }
