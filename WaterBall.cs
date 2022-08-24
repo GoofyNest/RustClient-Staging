@@ -6,7 +6,7 @@ public class WaterBall : BaseEntity // TypeDefIndex: 9618
 	public Rigidbody myRigidBody; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

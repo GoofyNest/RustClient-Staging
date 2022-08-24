@@ -13,25 +13,25 @@ public class NewsSource : MonoBehaviour // TypeDefIndex: 11131
 	private static readonly string[] BulletSeparators; 
 
 
-public void Awake() { }
+	public void Awake() { }
 
-public void OnEnable() { }
+	public void OnEnable() { }
 
-public void SetStory(SteamNewsSource.Story story) { }
+	public void SetStory(SteamNewsSource.Story story) { }
 
-private void ParseBbcode(ref NewsSource.ParagraphBuilder currentParagraph, string bbcode, ref string firstImage, int depth = 0) { }
+	private void ParseBbcode(ref NewsSource.ParagraphBuilder currentParagraph, string bbcode, ref string firstImage, int depth = 0) { }
 
-private static string[] GetBulletPoints(string listContent) { }
+	private static string[] GetBulletPoints(string listContent) { }
 
-private void AppendParagraph(ref NewsSource.ParagraphBuilder currentParagraph) { }
+	private void AppendParagraph(ref NewsSource.ParagraphBuilder currentParagraph) { }
 
-private void AppendImage(ref NewsSource.ParagraphBuilder currentParagraph, string url) { }
+	private void AppendImage(ref NewsSource.ParagraphBuilder currentParagraph, string url) { }
 
-private void AppendYouTube(ref NewsSource.ParagraphBuilder currentParagraph, string videoId) { }
+	private void AppendYouTube(ref NewsSource.ParagraphBuilder currentParagraph, string videoId) { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
-private static void .cctor() { }
+	private static void .cctor() { }
 
 }
 
@@ -41,11 +41,11 @@ private struct NewsSource.ParagraphBuilder // TypeDefIndex: 11132
 	public List<string> Links; 
 
 
-public static NewsSource.ParagraphBuilder New() { }
+	public static NewsSource.ParagraphBuilder New() { }
 
-public void AppendLine() { }
+	public void AppendLine() { }
 
-public void Append(string text) { }
+	public void Append(string text) { }
 
 }
 
@@ -54,11 +54,11 @@ private sealed class NewsSource.<>c__DisplayClass12_0 // TypeDefIndex: 11133
 	public SteamNewsSource.Story story; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
-internal void <SetStory>b__0() { }
+	internal void <SetStory>b__0() { }
 
-internal Manifest.NewsInfo.BlogInfo <SetStory>g__GetBlogPost|1() { }
+	internal Manifest.NewsInfo.BlogInfo <SetStory>g__GetBlogPost|1() { }
 
 }
 
@@ -68,11 +68,11 @@ private sealed class NewsSource.<>c // TypeDefIndex: 11134
 	public static Func<Manifest.NewsInfo.BlogInfo, string> <>9__12_2; 
 
 
-private static void .cctor() { }
+	private static void .cctor() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
-internal string <SetStory>b__12_2(Manifest.NewsInfo.BlogInfo b) { }
+	internal string <SetStory>b__12_2(Manifest.NewsInfo.BlogInfo b) { }
 
 }
 
@@ -81,9 +81,9 @@ private sealed class NewsSource.<>c__DisplayClass18_0 // TypeDefIndex: 11135
 	public string videoUrl; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
-internal void <AppendYouTube>b__0() { }
+	internal void <AppendYouTube>b__0() { }
 
 }
 

@@ -6,7 +6,7 @@ public class ClothingMovementProperties : ScriptableObject // TypeDefIndex: 9978
 	public float waterSpeedBonus; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

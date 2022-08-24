@@ -4,7 +4,7 @@ public class LootSpawn : ScriptableObject // TypeDefIndex: 10747
 	public LootSpawn.Entry[] subSpawn; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

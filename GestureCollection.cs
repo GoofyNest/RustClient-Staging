@@ -8,11 +8,11 @@ public class GestureCollection : ScriptableObject // TypeDefIndex: 10086
 	public float GestureViewmodelDeployDelay; 
 
 
-public GestureConfig IdToGesture(uint id) { }
+	public GestureConfig IdToGesture(uint id) { }
 
-public GestureConfig StringToGesture(string gestureName) { }
+	public GestureConfig StringToGesture(string gestureName) { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

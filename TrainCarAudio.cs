@@ -30,15 +30,15 @@ public class TrainCarAudio : MonoBehaviour // TypeDefIndex: 9768
 	private float lastMovementChangeOneshot; 
 
 
-public virtual void UpdateTick() { }
+	public virtual void UpdateTick() { }
 
-public virtual void StopAll() { }
+	public virtual void StopAll() { }
 
-private void StopMovementLoops() { }
+	private void StopMovementLoops() { }
 
-private void StopTurnLoops() { }
+	private void StopTurnLoops() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

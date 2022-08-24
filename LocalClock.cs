@@ -3,11 +3,11 @@ public class LocalClock // TypeDefIndex: 11390
 	public List<LocalClock.TimedEvent> events; 
 
 
-public void Add(float delta, float variance, Action action) { }
+	public void Add(float delta, float variance, Action action) { }
 
-public void Tick() { }
+	public void Tick() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

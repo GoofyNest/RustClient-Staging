@@ -6,21 +6,21 @@ public class CursorManager : SingletonComponent<CursorManager> // TypeDefIndex: 
 	private static float lastTimeInvisible; 
 
 
-private void Update() { }
+	private void Update() { }
 
-public void SwitchToGame() { }
+	public void SwitchToGame() { }
 
-private void SwitchToUI() { }
+	private void SwitchToUI() { }
 
-public static void HoldOpen(bool cursorVisible = False) { }
+	public static void HoldOpen(bool cursorVisible = False) { }
 
-public static bool WasVisible(float deltaTime) { }
+	public static bool WasVisible(float deltaTime) { }
 
-public static bool WasInvisible(float deltaTime) { }
+	public static bool WasInvisible(float deltaTime) { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
-private static void .cctor() { }
+	private static void .cctor() { }
 
 }
 

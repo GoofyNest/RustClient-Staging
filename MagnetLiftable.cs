@@ -4,7 +4,7 @@ public class MagnetLiftable : EntityComponent<BaseEntity> // TypeDefIndex: 9733
 	public Vector3 shredDirection; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

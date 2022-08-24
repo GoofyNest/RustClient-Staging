@@ -7,7 +7,7 @@ public sealed class FastApproximateAntialiasing // TypeDefIndex: 11790
 	public bool keepAlpha; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

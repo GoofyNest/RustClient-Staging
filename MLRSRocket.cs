@@ -10,7 +10,7 @@ public class MLRSRocket : TimedExplosive // TypeDefIndex: 9725
 	private ServerProjectile serverProjectile; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

@@ -1,9 +1,9 @@
 public class DebrisEntity : BaseCombatEntity // TypeDefIndex: 9525
 {
 
-public override string Categorize() { }
+	public override string Categorize() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

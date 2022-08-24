@@ -6,9 +6,9 @@ public class ImpostorAsset : ScriptableObject // TypeDefIndex: 10682
 	public Mesh mesh; 
 
 
-public Texture2D FindTexture(string name) { }
+	public Texture2D FindTexture(string name) { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 
@@ -18,7 +18,7 @@ public class ImpostorAsset.TextureEntry // TypeDefIndex: 10683
 	public Texture2D texture; 
 
 
-public void .ctor(string name, Texture2D texture) { }
+	public void .ctor(string name, Texture2D texture) { }
 
 }
 

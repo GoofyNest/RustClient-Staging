@@ -7,7 +7,7 @@ public class HelicopterDebris : ServerGib // TypeDefIndex: 9599
 	public float massReductionScalar; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

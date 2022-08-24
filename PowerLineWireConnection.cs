@@ -7,7 +7,7 @@ public class PowerLineWireConnection // TypeDefIndex: 10374
 	public Transform end; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

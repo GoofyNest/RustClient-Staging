@@ -4,9 +4,9 @@ public class GameModeManifest : ScriptableObject // TypeDefIndex: 9883
 	public List<GameObjectRef> gameModePrefabs; 
 
 
-public static GameModeManifest Get() { }
+	public static GameModeManifest Get() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

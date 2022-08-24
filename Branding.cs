@@ -5,9 +5,9 @@ public class Branding : BaseMonoBehaviour // TypeDefIndex: 10832
 	private string oldChangeId; 
 
 
-private void Update() { }
+	private void Update() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

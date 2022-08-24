@@ -4,7 +4,7 @@ public class DamageTypeEntry // TypeDefIndex: 12036
 	public float amount; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

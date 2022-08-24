@@ -1,11 +1,11 @@
 public abstract class ProceduralObject : MonoBehaviour // TypeDefIndex: 10568
 {
 
-protected void Awake() { }
+	protected void Awake() { }
 
-public abstract void Process();
+	public abstract void Process();
 
-protected void .ctor() { }
+	protected void .ctor() { }
 
 }
 

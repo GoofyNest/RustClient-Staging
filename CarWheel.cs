@@ -8,7 +8,7 @@ public class CarWheel // TypeDefIndex: 9706
 	public bool powerWheel; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

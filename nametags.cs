@@ -4,9 +4,9 @@ public class nametags : ConsoleSystem // TypeDefIndex: 9661
 	public static bool enabled; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
-private static void .cctor() { }
+	private static void .cctor() { }
 
 }
 

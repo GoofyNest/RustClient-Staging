@@ -5,7 +5,7 @@ public class TriggerPlayerTimer : TriggerBase // TypeDefIndex: 10042
 	public float TimeToDamage; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

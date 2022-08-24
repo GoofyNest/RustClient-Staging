@@ -1,11 +1,11 @@
 public class VisualStorageContainerNode : MonoBehaviour // TypeDefIndex: 9617
 {
 
-private void Start() { }
+	private void Start() { }
 
-private void Update() { }
+	private void Update() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

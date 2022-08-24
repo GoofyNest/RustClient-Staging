@@ -4,9 +4,9 @@ public class NewsParagraph : MonoBehaviour, IPointerClickHandler, IEventSystemHa
 	public List<string> Links; 
 
 
-public void OnPointerClick(PointerEventData eventData) { }
+	public void OnPointerClick(PointerEventData eventData) { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

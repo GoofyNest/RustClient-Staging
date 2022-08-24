@@ -4,11 +4,11 @@ public struct Timing // TypeDefIndex: 11412
 	private string name; 
 
 
-public static Timing Start(string name) { }
+	public static Timing Start(string name) { }
 
-public void End() { }
+	public void End() { }
 
-public void .ctor(string name) { }
+	public void .ctor(string name) { }
 
 }
 

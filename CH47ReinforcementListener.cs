@@ -5,7 +5,7 @@ public class CH47ReinforcementListener : BaseEntity // TypeDefIndex: 9719
 	public float startDist; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

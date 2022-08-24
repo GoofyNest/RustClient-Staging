@@ -4,7 +4,7 @@ public class MoveMission : BaseMission // TypeDefIndex: 10217
 	public float maxDistForMovePoint; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

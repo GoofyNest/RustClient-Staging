@@ -5,7 +5,7 @@ public class SpaceCheckingSpawnPoint : GenericSpawnPoint // TypeDefIndex: 10007
 	public float customBoundsCheckScale; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

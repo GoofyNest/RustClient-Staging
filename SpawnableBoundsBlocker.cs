@@ -4,7 +4,7 @@ public class SpawnableBoundsBlocker : MonoBehaviour // TypeDefIndex: 10281
 	public BoxCollider BoxCollider; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

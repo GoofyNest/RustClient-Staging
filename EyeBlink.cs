@@ -15,13 +15,13 @@ public class EyeBlink : MonoBehaviour // TypeDefIndex: 9345
 	private TimeUntil BlinkCountdown; 
 
 
-private void Start() { }
+	private void Start() { }
 
-public void LateUpdateBlink() { }
+	public void LateUpdateBlink() { }
 
-public void CloseEyes() { }
+	public void CloseEyes() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

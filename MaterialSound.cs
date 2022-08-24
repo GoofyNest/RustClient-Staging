@@ -4,7 +4,7 @@ public class MaterialSound : ScriptableObject // TypeDefIndex: 10198
 	public MaterialSound.Entry[] Entries; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 
@@ -14,7 +14,7 @@ public class MaterialSound.Entry // TypeDefIndex: 10199
 	public SoundDefinition Sound; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

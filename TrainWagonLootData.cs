@@ -8,20 +8,20 @@ public class TrainWagonLootData : ScriptableObject // TypeDefIndex: 9776
 	[SerializeField] 
 	private TrainWagonLootData.LootOption fuelWagonContent; 
 	public static TrainWagonLootData instance; 
-private const int LOOT_WAGON_INDEX = 1000;
-private const int FUEL_WAGON_INDEX = 1001;
+	private const int LOOT_WAGON_INDEX = 1000;
+	private const int FUEL_WAGON_INDEX = 1001;
 
 
 	[RuntimeInitializeOnLoadMethodAttribute] 
-private static void Init() { }
+	private static void Init() { }
 
-public TrainWagonLootData.LootOption GetLootOption(TrainCarUnloadable.WagonType wagonType, out int index) { }
+	public TrainWagonLootData.LootOption GetLootOption(TrainCarUnloadable.WagonType wagonType, out int index) { }
 
-public bool TryGetLootFromIndex(int index, out TrainWagonLootData.LootOption lootOption) { }
+	public bool TryGetLootFromIndex(int index, out TrainWagonLootData.LootOption lootOption) { }
 
-public bool TryGetIndexFromLoot(TrainWagonLootData.LootOption lootOption, out int index) { }
+	public bool TryGetIndexFromLoot(TrainWagonLootData.LootOption lootOption, out int index) { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 
@@ -39,7 +39,7 @@ public class TrainWagonLootData.LootOption // TypeDefIndex: 9777
 	public Color particleFXTint; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

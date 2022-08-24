@@ -8,11 +8,11 @@ public class LootPanelHorse : LootPanel // TypeDefIndex: 11036
 	public GameObject storageWindow; 
 
 
-public RidableHorse GetHorse() { }
+	public RidableHorse GetHorse() { }
 
-public override void Update() { }
+	public override void Update() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

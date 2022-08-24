@@ -1,11 +1,11 @@
 public class ThreatDetectedEventUI : BaseEventUI // TypeDefIndex: 10817
 {
 
-public override AIEventData Save() { }
+	public override AIEventData Save() { }
 
-public override void Load(AIEventData data) { }
+	public override void Load(AIEventData data) { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

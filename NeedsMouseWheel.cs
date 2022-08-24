@@ -1,9 +1,9 @@
 public class NeedsMouseWheel : ListComponent<NeedsMouseWheel> // TypeDefIndex: 10851
 {
 
-public static bool AnyActive() { }
+	public static bool AnyActive() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

@@ -1,11 +1,11 @@
 public class DrawSkeleton : MonoBehaviour // TypeDefIndex: 9280
 {
 
-private void OnDrawGizmos() { }
+	private void OnDrawGizmos() { }
 
-private static void DrawTransform(Transform t) { }
+	private static void DrawTransform(Transform t) { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

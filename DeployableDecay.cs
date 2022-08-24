@@ -4,7 +4,7 @@ public class DeployableDecay : Decay // TypeDefIndex: 9530
 	public float decayDuration; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

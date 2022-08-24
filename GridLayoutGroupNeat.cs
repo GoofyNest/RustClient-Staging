@@ -1,13 +1,13 @@
 public class GridLayoutGroupNeat : GridLayoutGroup // TypeDefIndex: 11279
 {
 
-private float IdealCellWidth(float cellSize) { }
+	private float IdealCellWidth(float cellSize) { }
 
-public override void SetLayoutHorizontal() { }
+	public override void SetLayoutHorizontal() { }
 
-public override void SetLayoutVertical() { }
+	public override void SetLayoutVertical() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

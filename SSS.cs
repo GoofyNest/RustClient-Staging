@@ -10,9 +10,9 @@ public class SSS : ConsoleSystem // TypeDefIndex: 11966
 	public static float scale; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
-private static void .cctor() { }
+	private static void .cctor() { }
 
 }
 

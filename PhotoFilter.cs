@@ -5,7 +5,7 @@ public class PhotoFilter : PostProcessEffectSettings // TypeDefIndex: 10267
 	public FloatParameter density; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

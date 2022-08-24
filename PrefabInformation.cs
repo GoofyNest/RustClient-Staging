@@ -8,13 +8,13 @@ public class PrefabInformation : PrefabAttribute // TypeDefIndex: 9971
 	public static List<BaseEntity> DeathScreenEntities; 
 
 
-protected override Type GetIndexedType() { }
+	protected override Type GetIndexedType() { }
 
-protected override void AttributeSetup(GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
+	protected override void AttributeSetup(GameObject rootObj, string name, bool serverside, bool clientside, bool bundling) { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
-private static void .cctor() { }
+	private static void .cctor() { }
 
 }
 

@@ -5,9 +5,9 @@ public class CraftingNotice : MonoBehaviour // TypeDefIndex: 10991
 	public TextMeshProUGUI craftSeconds; 
 
 
-private void Update() { }
+	private void Update() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

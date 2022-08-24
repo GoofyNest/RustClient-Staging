@@ -5,9 +5,9 @@ public class SupplySignal : TimedExplosive // TypeDefIndex: 9612
 	public GameObject smokeEffect; 
 
 
-public override void Load(BaseNetworkable.LoadInfo info) { }
+	public override void Load(BaseNetworkable.LoadInfo info) { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

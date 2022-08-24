@@ -5,9 +5,9 @@ public class PerformanceText : MonoBehaviour // TypeDefIndex: 11197
 	private Performance.Tick tick; 
 
 
-protected void LateUpdate() { }
+	protected void LateUpdate() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

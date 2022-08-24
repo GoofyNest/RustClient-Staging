@@ -4,11 +4,11 @@ public class TooltipContainer : MonoBehaviour // TypeDefIndex: 11246
 	private Vector3[] corners; 
 
 
-private void Update() { }
+	private void Update() { }
 
-public void SetSourceRect(RectTransform source) { }
+	public void SetSourceRect(RectTransform source) { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

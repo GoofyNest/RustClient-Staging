@@ -52,118 +52,118 @@ public class BaseAIBrain : EntityComponent<BaseEntity>, IPet, IAISleepable, IAID
 	public float HealChance; 
 	public float HealBelowHealthFraction; 
 
-public BaseAIBrain.BasicAIState CurrentState { get; set; }
-public AIThinkMode ThinkMode { get; set; }
-public float Age { get; set; }
-public AIBrainSenses Senses { get; set; }
-public BasePathFinder PathFinder { get; set; }
-public AIEvents Events { get; set; }
-public AIDesign AIDesign { get; set; }
-public BasePlayer DesigningPlayer { get; set; }
-public BasePlayer OwningPlayer { get; set; }
-public bool IsGroupLeader { get; set; }
-public bool IsGrouped { get; set; }
-public IAIGroupable GroupLeader { get; set; }
+	public BaseAIBrain.BasicAIState CurrentState { get; set; }
+	public AIThinkMode ThinkMode { get; set; }
+	public float Age { get; set; }
+	public AIBrainSenses Senses { get; set; }
+	public BasePathFinder PathFinder { get; set; }
+	public AIEvents Events { get; set; }
+	public AIDesign AIDesign { get; set; }
+	public BasePlayer DesigningPlayer { get; set; }
+	public BasePlayer OwningPlayer { get; set; }
+	public bool IsGroupLeader { get; set; }
+	public bool IsGrouped { get; set; }
+	public IAIGroupable GroupLeader { get; set; }
 
 
-public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
+	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-public bool IsPet() { }
+	public bool IsPet() { }
 
-public void SetPetOwner(BasePlayer player) { }
+	public void SetPetOwner(BasePlayer player) { }
 
-public bool IsOwnedBy(BasePlayer player) { }
+	public bool IsOwnedBy(BasePlayer player) { }
 
-public bool IssuePetCommand(PetCommandType cmd, int param, Nullable<Ray> ray) { }
-
-	[CompilerGeneratedAttribute] 
-public BaseAIBrain.BasicAIState get_CurrentState() { }
+	public bool IssuePetCommand(PetCommandType cmd, int param, Nullable<Ray> ray) { }
 
 	[CompilerGeneratedAttribute] 
-private void set_CurrentState(BaseAIBrain.BasicAIState value) { }
+	public BaseAIBrain.BasicAIState get_CurrentState() { }
 
 	[CompilerGeneratedAttribute] 
-public AIThinkMode get_ThinkMode() { }
+	private void set_CurrentState(BaseAIBrain.BasicAIState value) { }
 
 	[CompilerGeneratedAttribute] 
-protected void set_ThinkMode(AIThinkMode value) { }
+	public AIThinkMode get_ThinkMode() { }
 
 	[CompilerGeneratedAttribute] 
-public float get_Age() { }
+	protected void set_ThinkMode(AIThinkMode value) { }
 
 	[CompilerGeneratedAttribute] 
-private void set_Age(float value) { }
-
-public void ForceSetAge(float age) { }
+	public float get_Age() { }
 
 	[CompilerGeneratedAttribute] 
-public AIBrainSenses get_Senses() { }
+	private void set_Age(float value) { }
+
+	public void ForceSetAge(float age) { }
 
 	[CompilerGeneratedAttribute] 
-private void set_Senses(AIBrainSenses value) { }
+	public AIBrainSenses get_Senses() { }
 
 	[CompilerGeneratedAttribute] 
-public BasePathFinder get_PathFinder() { }
+	private void set_Senses(AIBrainSenses value) { }
 
 	[CompilerGeneratedAttribute] 
-protected void set_PathFinder(BasePathFinder value) { }
+	public BasePathFinder get_PathFinder() { }
 
 	[CompilerGeneratedAttribute] 
-public AIEvents get_Events() { }
+	protected void set_PathFinder(BasePathFinder value) { }
 
 	[CompilerGeneratedAttribute] 
-private void set_Events(AIEvents value) { }
+	public AIEvents get_Events() { }
 
 	[CompilerGeneratedAttribute] 
-public AIDesign get_AIDesign() { }
+	private void set_Events(AIEvents value) { }
 
 	[CompilerGeneratedAttribute] 
-private void set_AIDesign(AIDesign value) { }
+	public AIDesign get_AIDesign() { }
 
 	[CompilerGeneratedAttribute] 
-public BasePlayer get_DesigningPlayer() { }
+	private void set_AIDesign(AIDesign value) { }
 
 	[CompilerGeneratedAttribute] 
-private void set_DesigningPlayer(BasePlayer value) { }
+	public BasePlayer get_DesigningPlayer() { }
 
 	[CompilerGeneratedAttribute] 
-public BasePlayer get_OwningPlayer() { }
+	private void set_DesigningPlayer(BasePlayer value) { }
 
 	[CompilerGeneratedAttribute] 
-private void set_OwningPlayer(BasePlayer value) { }
+	public BasePlayer get_OwningPlayer() { }
 
 	[CompilerGeneratedAttribute] 
-public bool get_IsGroupLeader() { }
+	private void set_OwningPlayer(BasePlayer value) { }
 
 	[CompilerGeneratedAttribute] 
-private void set_IsGroupLeader(bool value) { }
+	public bool get_IsGroupLeader() { }
 
 	[CompilerGeneratedAttribute] 
-public bool get_IsGrouped() { }
+	private void set_IsGroupLeader(bool value) { }
 
 	[CompilerGeneratedAttribute] 
-private void set_IsGrouped(bool value) { }
+	public bool get_IsGrouped() { }
 
 	[CompilerGeneratedAttribute] 
-public IAIGroupable get_GroupLeader() { }
+	private void set_IsGrouped(bool value) { }
 
 	[CompilerGeneratedAttribute] 
-private void set_GroupLeader(IAIGroupable value) { }
+	public IAIGroupable get_GroupLeader() { }
 
-private bool IAIDesign.CanPlayerDesignAI(BasePlayer player) { }
+	[CompilerGeneratedAttribute] 
+	private void set_GroupLeader(IAIGroupable value) { }
 
-private bool PlayerCanDesignAI(BasePlayer player) { }
+	private bool IAIDesign.CanPlayerDesignAI(BasePlayer player) { }
 
-public void EventTriggeredStateChange(int newStateContainerID, int sourceEventID) { }
+	private bool PlayerCanDesignAI(BasePlayer player) { }
 
-public void .ctor() { }
+	public void EventTriggeredStateChange(int newStateContainerID, int sourceEventID) { }
+
+	public void .ctor() { }
 
 }
 
 public class BaseAIBrain.BasicAIState // TypeDefIndex: 8491
 {
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

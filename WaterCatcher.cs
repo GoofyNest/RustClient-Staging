@@ -6,10 +6,10 @@ public class WaterCatcher : LiquidContainer // TypeDefIndex: 9521
 	[HeaderAttribute] 
 	public Vector3 rainTestPosition; 
 	public float rainTestSize; 
-private const float collectInterval = 60;
+	private const float collectInterval = 60;
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

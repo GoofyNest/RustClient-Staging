@@ -12,9 +12,9 @@ public class SegmentMaskPositioning : MonoBehaviour // TypeDefIndex: 11207
 
 
 	[ContextMenu] 
-public void Refresh() { }
+	public void Refresh() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

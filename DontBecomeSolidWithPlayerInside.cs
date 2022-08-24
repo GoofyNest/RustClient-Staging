@@ -1,7 +1,7 @@
 public class DontBecomeSolidWithPlayerInside : MonoBehaviour, IClientComponent // TypeDefIndex: 9184
 {
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

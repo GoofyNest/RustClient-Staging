@@ -7,7 +7,7 @@ public class Brush // TypeDefIndex: 11595
 	public bool erase; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

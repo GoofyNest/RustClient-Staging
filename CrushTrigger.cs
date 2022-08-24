@@ -4,7 +4,7 @@ public class CrushTrigger : TriggerHurt // TypeDefIndex: 9707
 	public bool requireCentreBelowPosition; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

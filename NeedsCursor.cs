@@ -1,9 +1,9 @@
 public class NeedsCursor : MonoBehaviour, IClientComponent // TypeDefIndex: 10850
 {
 
-private void Update() { }
+	private void Update() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

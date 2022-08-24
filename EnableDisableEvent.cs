@@ -6,7 +6,7 @@ public class EnableDisableEvent : MonoBehaviour // TypeDefIndex: 12105
 	private UnityEvent disableEvent; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

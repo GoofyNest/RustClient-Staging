@@ -5,7 +5,7 @@ public sealed class NativeContainerAttribute : Attribute // TypeDefIndex: 3327
 [RequiredByNativeCodeAttribute] 
 public sealed class NativeContainerAttribute : Attribute 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

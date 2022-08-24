@@ -1,9 +1,9 @@
 public class TerrainFormer : MonoBehaviour // TypeDefIndex: 11593
 {
 
-private void Awake() { }
+	private void Awake() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

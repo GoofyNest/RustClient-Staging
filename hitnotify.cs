@@ -8,9 +8,9 @@ public class hitnotify : ConsoleSystem // TypeDefIndex: 11985
 	public static bool headshot; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
-private static void .cctor() { }
+	private static void .cctor() { }
 
 }
 

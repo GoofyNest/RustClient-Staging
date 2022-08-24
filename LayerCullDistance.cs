@@ -4,9 +4,9 @@ public class LayerCullDistance : MonoBehaviour // TypeDefIndex: 11312
 	public float Distance; 
 
 
-protected void OnEnable() { }
+	protected void OnEnable() { }
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 

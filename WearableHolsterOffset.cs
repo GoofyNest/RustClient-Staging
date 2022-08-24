@@ -3,7 +3,7 @@ public class WearableHolsterOffset : MonoBehaviour // TypeDefIndex: 10065
 	public WearableHolsterOffset.offsetInfo[] Offsets; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 
@@ -15,7 +15,7 @@ public class WearableHolsterOffset.offsetInfo // TypeDefIndex: 10066
 	public int priority; 
 
 
-public void .ctor() { }
+	public void .ctor() { }
 
 }
 
