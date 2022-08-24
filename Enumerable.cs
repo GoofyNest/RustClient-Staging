@@ -4054,7 +4054,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.GroupBy<BaseNetworkable, uint>
 	|-Enumerable.GroupBy<IPlayerInfo, string>
 	|-Enumerable.GroupBy<ItemDefinition, ItemCategory>
-	|-Enumerable.GroupBy<PrefabData, string>
 	|-Enumerable.GroupBy<InventoryDef, InventoryDefId>
 	|-Enumerable.GroupBy<InventoryItem, InventoryDefId>
 	|-Enumerable.GroupBy<MemberInfo, string>
@@ -4323,7 +4322,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ToList<JsonWriter.State[]>
 	|-Enumerable.ToList<JsonProperty>
 	|-Enumerable.ToList<PieMenu.MenuOption>
-	|-Enumerable.ToList<PrefabData>
 	|-Enumerable.ToList<SteamItem>
 	|-Enumerable.ToList<SteamItemDefinition>
 	|-Enumerable.ToList<SkeletonProperties.BoneProperty>
@@ -4385,9 +4383,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	public static Dictionary<TKey, TElement> ToDictionary<TSource, TKey, TElement>(IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
-	|-Enumerable.ToDictionary<IGrouping<string, PrefabData>, string, List<PrefabData>>
-	|-Enumerable.ToDictionary<object, object, object>
-	|
 	|-Enumerable.ToDictionary<KeyValuePair<ulong, Dispatch.ResultCallback>, ulong, Dispatch.ResultCallback>
 	|
 	|-Enumerable.ToDictionary<object, InventoryDefId, uint>
@@ -4395,6 +4390,8 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ToDictionary<object, int, object>
 	|
 	|-Enumerable.ToDictionary<object, object, Int32Enum>
+	|
+	|-Enumerable.ToDictionary<object, object, object>
 	|
 	|-Enumerable.ToDictionary<object, uint, object>
 	*/

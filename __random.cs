@@ -14750,6 +14750,7 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<string, ItemDefinition>..ctor
 	|-Dictionary<string, SimpleCollator>..ctor
 	|-Dictionary<string, JToken>..ctor
+	|-Dictionary<string, List<PrefabData>>..ctor
 	|-Dictionary<string, int>..ctor
 	|-Dictionary<string, HeaderInfo>..ctor
 	|-Dictionary<string, HttpHeaders.HeaderBucket>..ctor
@@ -17978,6 +17979,7 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<string, List<IXmlNode>>.Add
 	|-Dictionary<string, List<PowerlineNode>>.Add
 	|-Dictionary<string, List<DemoShot>>.Add
+	|-Dictionary<string, List<PrefabData>>.Add
 	|-Dictionary<string, List<string>>.Add
 	|-Dictionary<string, PropertyDescriptor>.Add
 	|-Dictionary<string, DataColumn>.Add
@@ -55471,6 +55473,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<PlayerLifeStory.GenericStat>.GetEnumerator
 	|-List<PlayerLifeStory.WeaponStats>.GetEnumerator
 	|-List<PlayerTeam.TeamMember>.GetEnumerator
+	|-List<PrefabData>.GetEnumerator
 	|-List<RelationshipManager.PlayerRelationshipInfo>.GetEnumerator
 	|-List<RespawnInformation.SpawnOptions>.GetEnumerator
 	|-List<Tree>.GetEnumerator

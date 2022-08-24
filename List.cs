@@ -438,6 +438,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<PlayerLifeStory.GenericStat>.Dispose
 	|-List.Enumerator<PlayerLifeStory.WeaponStats>.Dispose
 	|-List.Enumerator<PlayerTeam.TeamMember>.Dispose
+	|-List.Enumerator<PrefabData>.Dispose
 	|-List.Enumerator<RelationshipManager.PlayerRelationshipInfo>.Dispose
 	|-List.Enumerator<RespawnInformation.SpawnOptions>.Dispose
 	|-List.Enumerator<Tree>.Dispose
@@ -805,6 +806,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<PlayerLifeStory.GenericStat>.MoveNext
 	|-List.Enumerator<PlayerLifeStory.WeaponStats>.MoveNext
 	|-List.Enumerator<PlayerTeam.TeamMember>.MoveNext
+	|-List.Enumerator<PrefabData>.MoveNext
 	|-List.Enumerator<RelationshipManager.PlayerRelationshipInfo>.MoveNext
 	|-List.Enumerator<RespawnInformation.SpawnOptions>.MoveNext
 	|-List.Enumerator<Tree>.MoveNext
@@ -1495,6 +1497,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<PlayerLifeStory.GenericStat>.get_Current
 	|-List.Enumerator<PlayerLifeStory.WeaponStats>.get_Current
 	|-List.Enumerator<PlayerTeam.TeamMember>.get_Current
+	|-List.Enumerator<PrefabData>.get_Current
 	|-List.Enumerator<RelationshipManager.PlayerRelationshipInfo>.get_Current
 	|-List.Enumerator<RespawnInformation.SpawnOptions>.get_Current
 	|-List.Enumerator<Tree>.get_Current

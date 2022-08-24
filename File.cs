@@ -1426,6 +1426,7 @@ internal static class FileUtilities // TypeDefIndex: 7615
 public class FileSystem_Warmup : MonoBehaviour // TypeDefIndex: 9371
 {
 	public static bool ranInBackground; 
+	public static Coroutine warmupTask; 
 	private static bool run; 
 	public static string[] ExcludeFilter; 
 
@@ -1454,7 +1455,7 @@ public class FileSystem_Warmup : MonoBehaviour // TypeDefIndex: 9371
 
 }
 
-private sealed class FileSystem_Warmup.<RunAsyncImpl>d__5 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 9372
+private sealed class FileSystem_Warmup.<RunAsyncImpl>d__6 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 9372
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -1489,7 +1490,7 @@ private sealed class FileSystem_Warmup.<RunAsyncImpl>d__5 : IEnumerator<object>,
 
 }
 
-private sealed class FileSystem_Warmup.<RunImpl>d__6 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 9373
+private sealed class FileSystem_Warmup.<RunImpl>d__7 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 9373
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -1522,7 +1523,7 @@ private sealed class FileSystem_Warmup.<RunImpl>d__6 : IEnumerator<object>, IEnu
 
 }
 
-private sealed class FileSystem_Warmup.<>c__DisplayClass9_0 // TypeDefIndex: 9374
+private sealed class FileSystem_Warmup.<>c__DisplayClass10_0 // TypeDefIndex: 9374
 {
 	public Nullable<bool> poolFilter; 
 
@@ -1536,20 +1537,20 @@ private sealed class FileSystem_Warmup.<>c__DisplayClass9_0 // TypeDefIndex: 937
 private sealed class FileSystem_Warmup.<>c // TypeDefIndex: 9375
 {
 	public static readonly FileSystem_Warmup.<>c <>9; 
-	public static Func<GameManifest.PrefabProperties, string> <>9__9_0; 
-	public static Func<string, bool> <>9__9_1; 
-	public static Func<GameManifest.PrefabProperties, string> <>9__9_3; 
+	public static Func<GameManifest.PrefabProperties, string> <>9__10_0; 
+	public static Func<string, bool> <>9__10_1; 
+	public static Func<GameManifest.PrefabProperties, string> <>9__10_3; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal string <GetAssetList>b__9_0(GameManifest.PrefabProperties x) { }
+	internal string <GetAssetList>b__10_0(GameManifest.PrefabProperties x) { }
 
-	internal bool <GetAssetList>b__9_1(string x) { }
+	internal bool <GetAssetList>b__10_1(string x) { }
 
-	internal string <GetAssetList>b__9_3(GameManifest.PrefabProperties x) { }
+	internal string <GetAssetList>b__10_3(GameManifest.PrefabProperties x) { }
 
 }
 

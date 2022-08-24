@@ -190,9 +190,6 @@ private sealed class World.<>c // TypeDefIndex: 10322
 {
 	public static readonly World.<>c <>9; 
 	public static Func<PathData, PathList> <>9__65_0; 
-	public static Func<PrefabData, string> <>9__68_0; 
-	public static Func<IGrouping<string, PrefabData>, string> <>9__68_1; 
-	public static Func<IGrouping<string, PrefabData>, List<PrefabData>> <>9__68_2; 
 
 
 	private static void .cctor() { }
@@ -200,12 +197,6 @@ private sealed class World.<>c // TypeDefIndex: 10322
 	public void .ctor() { }
 
 	internal PathList <GetPaths>b__65_0(PathData p) { }
-
-	internal string <SpawnAsync>b__68_0(PrefabData p) { }
-
-	internal string <SpawnAsync>b__68_1(IGrouping<string, PrefabData> g) { }
-
-	internal List<PrefabData> <SpawnAsync>b__68_2(IGrouping<string, PrefabData> g) { }
 
 }
 
@@ -215,8 +206,8 @@ private sealed class World.<SpawnAsync>d__68 : IEnumerator<object>, IEnumerator,
 	private object <>2__current; 
 	public float deltaTime; 
 	public Action<string> statusFunction; 
-	private Dictionary<string, List<PrefabData>> <assetGroups>5__2; 
-	private int <totalCount>5__3; 
+	private int <totalCount>5__2; 
+	private Dictionary<string, List<PrefabData>> <assetGroups>5__3; 
 	private int <spawnedCount>5__4; 
 	private int <resultIndex>5__5; 
 	private Stopwatch <sw>5__6; 

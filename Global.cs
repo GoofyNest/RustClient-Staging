@@ -48,6 +48,8 @@ public class Global : ConsoleSystem // TypeDefIndex: 11930
 	[ServerVar] 
 	[ClientVar] 
 	public static bool asyncWarmup; 
+	[ClientVar] 
+	public static int asyncLoadingPreset; 
 	private static int _censornudity; 
 	private static bool _censorsigns; 
 	[ClientVar] 
@@ -100,6 +102,8 @@ public class Global : ConsoleSystem // TypeDefIndex: 11930
 	public static void set_developer(int value) { }
 
 	public static int get_developer() { }
+
+	public static void ApplyAsyncLoadingPreset() { }
 
 	public static int get_censornudity() { }
 
@@ -235,20 +239,20 @@ public class Global : ConsoleSystem // TypeDefIndex: 11930
 private sealed class Global.<>c // TypeDefIndex: 11931
 {
 	public static readonly Global.<>c <>9; 
-	public static Func<KeyValuePair<Type, long>, long> <>9__46_0; 
-	public static Func<Collider, bool> <>9__48_0; 
-	public static Func<Collider, bool> <>9__48_1; 
+	public static Func<KeyValuePair<Type, long>, long> <>9__48_0; 
+	public static Func<Collider, bool> <>9__50_0; 
+	public static Func<Collider, bool> <>9__50_1; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal long <objects>b__46_0(KeyValuePair<Type, long> x) { }
+	internal long <objects>b__48_0(KeyValuePair<Type, long> x) { }
 
-	internal bool <colliders>b__48_0(Collider x) { }
+	internal bool <colliders>b__50_0(Collider x) { }
 
-	internal bool <colliders>b__48_1(Collider x) { }
+	internal bool <colliders>b__50_1(Collider x) { }
 
 }
 
