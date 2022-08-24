@@ -1,32 +1,33 @@
 public sealed class GUIStyleState // TypeDefIndex: 4047
-{	internal IntPtr m_Ptr; // 0x10
-	private readonly GUIStyle m_SourceStyle; // 0x18
+{
+	internal IntPtr m_Ptr; 
+	private readonly GUIStyle m_SourceStyle; 
 
-	[NativePropertyAttribute] // RVA: 0xD1EF0 Offset: 0xD12F0 VA: 0x1800D1EF0
-	public Color textColor { get; set; }
+	[NativePropertyAttribute] 
+public Color textColor { get; set; }
 
 
-	public Color get_textColor() { }
+public Color get_textColor() { }
 
-	public void set_textColor(Color value) { }
+public void set_textColor(Color value) { }
 
-	[FreeFunctionAttribute] // RVA: 0xD1DA0 Offset: 0xD11A0 VA: 0x1800D1DA0
-	private static IntPtr Init() { }
+	[FreeFunctionAttribute] 
+private static IntPtr Init() { }
 
-	[FreeFunctionAttribute] // RVA: 0xD1EB0 Offset: 0xD12B0 VA: 0x1800D1EB0
-	private void Cleanup() { }
+	[FreeFunctionAttribute] 
+private void Cleanup() { }
 
-	public void .ctor() { }
+public void .ctor() { }
 
-	private void .ctor(GUIStyle sourceStyle, IntPtr source) { }
+private void .ctor(GUIStyle sourceStyle, IntPtr source) { }
 
-	internal static GUIStyleState GetGUIStyleState(GUIStyle sourceStyle, IntPtr source) { }
+internal static GUIStyleState GetGUIStyleState(GUIStyle sourceStyle, IntPtr source) { }
 
-	protected override void Finalize() { }
+protected override void Finalize() { }
 
-	private void get_textColor_Injected(out Color ret) { }
+private void get_textColor_Injected(out Color ret) { }
 
-	private void set_textColor_Injected(ref Color value) { }
+private void set_textColor_Injected(ref Color value) { }
 
 }
 

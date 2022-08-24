@@ -1,8 +1,9 @@
 public class MemorySlotUI : MonoBehaviour // TypeDefIndex: 10808
-{	public RustText Label; // 0x18
+{
+	public RustText Label; 
 
 
-	public void .ctor() { }
+public void .ctor() { }
 
 }
 

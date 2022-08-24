@@ -1,138 +1,141 @@
 public static class GC // TypeDefIndex: 224
-{	internal static readonly object EPHEMERON_TOMBSTONE; // 0x13F4F
+{
+	internal static readonly object EPHEMERON_TOMBSTONE; 
 
-	public static int MaxGeneration { get; }
+public static int MaxGeneration { get; }
 
 
-	private static int GetCollectionCount(int generation) { }
+private static int GetCollectionCount(int generation) { }
 
-	private static int GetMaxGeneration() { }
+private static int GetMaxGeneration() { }
 
-	private static void InternalCollect(int generation) { }
+private static void InternalCollect(int generation) { }
 
-	private static void RecordPressure(long bytesAllocated) { }
+private static void RecordPressure(long bytesAllocated) { }
 
-	internal static void register_ephemeron_array(Ephemeron[] array) { }
+internal static void register_ephemeron_array(Ephemeron[] array) { }
 
-	private static object get_ephemeron_tombstone() { }
+private static object get_ephemeron_tombstone() { }
 
-	public static void AddMemoryPressure(long bytesAllocated) { }
+public static void AddMemoryPressure(long bytesAllocated) { }
 
-	public static void RemoveMemoryPressure(long bytesAllocated) { }
+public static void RemoveMemoryPressure(long bytesAllocated) { }
 
-	public static void Collect() { }
+public static void Collect() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
-	public static int CollectionCount(int generation) { }
+	[ReliabilityContractAttribute] 
+public static int CollectionCount(int generation) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
-	public static void KeepAlive(object obj) { }
+	[ReliabilityContractAttribute] 
+public static void KeepAlive(object obj) { }
 
-	public static int get_MaxGeneration() { }
+public static int get_MaxGeneration() { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
-	private static void _SuppressFinalize(object o) { }
+	[ReliabilityContractAttribute] 
+private static void _SuppressFinalize(object o) { }
 
-	[ReliabilityContractAttribute] // RVA: 0x76D60 Offset: 0x76160 VA: 0x180076D60
-	public static void SuppressFinalize(object obj) { }
+	[ReliabilityContractAttribute] 
+public static void SuppressFinalize(object obj) { }
 
-	private static void _ReRegisterForFinalize(object o) { }
+private static void _ReRegisterForFinalize(object o) { }
 
-	public static void ReRegisterForFinalize(object obj) { }
+public static void ReRegisterForFinalize(object obj) { }
 
-	public static long GetTotalMemory(bool forceFullCollection) { }
+public static long GetTotalMemory(bool forceFullCollection) { }
 
-	private static void .cctor() { }
+private static void .cctor() { }
 
 }
 
 public class GC : ConsoleSystem // TypeDefIndex: 11929
-{	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
-	public static bool buffer_enabled; // 0x0
-	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
-	public static int debuglevel; // 0x4
-	private static int m_buffer; // 0x8
+{
+	[ClientVar] 
+	public static bool buffer_enabled; 
+	[ClientVar] 
+	public static int debuglevel; 
+	private static int m_buffer; 
 
-	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
-	public static int buffer { get; set; }
-	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
-	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
-	public static bool incremental_enabled { get; set; }
-	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
-	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
-	public static int incremental_milliseconds { get; set; }
-	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
-	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
-	public static bool enabled { get; set; }
+	[ClientVar] 
+public static int buffer { get; set; }
+	[ServerVar] 
+	[ClientVar] 
+public static bool incremental_enabled { get; set; }
+	[ServerVar] 
+	[ClientVar] 
+public static int incremental_milliseconds { get; set; }
+	[ServerVar] 
+	[ClientVar] 
+public static bool enabled { get; set; }
 
 
-	public static int get_buffer() { }
+public static int get_buffer() { }
 
-	public static void set_buffer(int value) { }
+public static void set_buffer(int value) { }
 
-	public static bool get_incremental_enabled() { }
+public static bool get_incremental_enabled() { }
 
-	public static void set_incremental_enabled(bool value) { }
+public static void set_incremental_enabled(bool value) { }
 
-	public static int get_incremental_milliseconds() { }
+public static int get_incremental_milliseconds() { }
 
-	public static void set_incremental_milliseconds(int value) { }
+public static void set_incremental_milliseconds(int value) { }
 
-	public static bool get_enabled() { }
+public static bool get_enabled() { }
 
-	public static void set_enabled(bool value) { }
+public static void set_enabled(bool value) { }
 
-	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
-	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
-	public static void collect() { }
+	[ServerVar] 
+	[ClientVar] 
+public static void collect() { }
 
-	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
-	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
-	public static void unload() { }
+	[ServerVar] 
+	[ClientVar] 
+public static void unload() { }
 
-	[ServerVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
-	[ClientVar] // RVA: 0x89520 Offset: 0x88920 VA: 0x180089520
-	public static void alloc(ConsoleSystem.Arg args) { }
+	[ServerVar] 
+	[ClientVar] 
+public static void alloc(ConsoleSystem.Arg args) { }
 
-	public void .ctor() { }
+public void .ctor() { }
 
-	private static void .cctor() { }
+private static void .cctor() { }
 
 }
 
 public class GC : MonoBehaviour, IClientComponent // TypeDefIndex: 12033
-{	private static float gcTime; // 0x0
-	private static GarbageCollector.Mode gcMode; // 0x4
-	private int heapSize; // 0x18
-	private int heapBaseline; // 0x1C
-	private int collectionCount; // 0x20
+{
+	private static float gcTime; 
+	private static GarbageCollector.Mode gcMode; 
+	private int heapSize; 
+	private int heapBaseline; 
+	private int collectionCount; 
 
-	public static bool Enabled { get; }
+public static bool Enabled { get; }
 
 
-	public static bool get_Enabled() { }
+public static bool get_Enabled() { }
 
-	public static void Collect() { }
+public static void Collect() { }
 
-	public static void Pause(float time) { }
+public static void Pause(float time) { }
 
-	public static void Reset(float time) { }
+public static void Reset(float time) { }
 
-	private static void SetMode(GarbageCollector.Mode mode) { }
+private static void SetMode(GarbageCollector.Mode mode) { }
 
-	private static int GetTotalMemory() { }
+private static int GetTotalMemory() { }
 
-	private static int CollectionCount() { }
+private static int CollectionCount() { }
 
-	private void UpdateState() { }
+private void UpdateState() { }
 
-	protected void OnEnable() { }
+protected void OnEnable() { }
 
-	protected void OnDisable() { }
+protected void OnDisable() { }
 
-	protected void LateUpdate() { }
+protected void LateUpdate() { }
 
-	public void .ctor() { }
+public void .ctor() { }
 
 }
 

@@ -1,48 +1,49 @@
 public class Grass : ConsoleSystem // TypeDefIndex: 11934
-{	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
-	public static bool displacement; // 0x0
-	private static float m_quality; // 0x4
-	private static float m_distance; // 0x8
-	private static int m_maxthreads; // 0xC
-	private static float m_refresh_budget; // 0x10
+{
+	[ClientVar] 
+	public static bool displacement; 
+	private static float m_quality; 
+	private static float m_distance; 
+	private static int m_maxthreads; 
+	private static float m_refresh_budget; 
 
-	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
-	public static float quality { get; set; }
-	public static float quality01 { get; set; }
-	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
-	public static float distance { get; set; }
-	[ClientVar] // RVA: 0x88D60 Offset: 0x88160 VA: 0x180088D60
-	public static int maxthreads { get; set; }
-	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
-	public static float refresh_budget { get; set; }
+	[ClientVar] 
+public static float quality { get; set; }
+public static float quality01 { get; set; }
+	[ClientVar] 
+public static float distance { get; set; }
+	[ClientVar] 
+public static int maxthreads { get; set; }
+	[ClientVar] 
+public static float refresh_budget { get; set; }
 
 
-	public static float get_quality() { }
+public static float get_quality() { }
 
-	public static void set_quality(float value) { }
+public static void set_quality(float value) { }
 
-	public static float get_quality01() { }
+public static float get_quality01() { }
 
-	public static void set_quality01(float value) { }
+public static void set_quality01(float value) { }
 
-	public static float get_distance() { }
+public static float get_distance() { }
 
-	public static void set_distance(float value) { }
+public static void set_distance(float value) { }
 
-	public static int get_maxthreads() { }
+public static int get_maxthreads() { }
 
-	public static void set_maxthreads(int value) { }
+public static void set_maxthreads(int value) { }
 
-	public static float get_refresh_budget() { }
+public static float get_refresh_budget() { }
 
-	public static void set_refresh_budget(float value) { }
+public static void set_refresh_budget(float value) { }
 
-	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
-	public static void print_foliage(ConsoleSystem.Arg args) { }
+	[ClientVar] 
+public static void print_foliage(ConsoleSystem.Arg args) { }
 
-	public void .ctor() { }
+public void .ctor() { }
 
-	private static void .cctor() { }
+private static void .cctor() { }
 
 }
 

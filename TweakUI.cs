@@ -1,16 +1,17 @@
 public class TweakUI : SingletonComponent<TweakUI> // TypeDefIndex: 11146
-{	public static bool isOpen; // 0x33D6
+{
+	public static bool isOpen; 
 
 
-	private void Update() { }
+private void Update() { }
 
-	protected bool CanToggle() { }
+protected bool CanToggle() { }
 
-	public void SetVisible(bool b) { }
+public void SetVisible(bool b) { }
 
-	public void .ctor() { }
+public void .ctor() { }
 
-	private static void .cctor() { }
+private static void .cctor() { }
 
 }
 

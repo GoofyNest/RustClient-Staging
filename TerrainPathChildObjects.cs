@@ -1,20 +1,21 @@
 public class TerrainPathChildObjects : MonoBehaviour // TypeDefIndex: 10367
-{	public bool Spline; // 0x18
-	public float Width; // 0x1C
-	public float Offset; // 0x20
-	public float Fade; // 0x24
-	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
-	public TerrainSplat.Enum Splat; // 0x28
-	[InspectorFlagsAttribute] // RVA: 0x70D50 Offset: 0x70150 VA: 0x180070D50
-	public TerrainTopology.Enum Topology; // 0x2C
-	public InfrastructureType Type; // 0x30
+{
+	public bool Spline; 
+	public float Width; 
+	public float Offset; 
+	public float Fade; 
+	[InspectorFlagsAttribute] 
+	public TerrainSplat.Enum Splat; 
+	[InspectorFlagsAttribute] 
+	public TerrainTopology.Enum Topology; 
+	public InfrastructureType Type; 
 
 
-	protected void Awake() { }
+protected void Awake() { }
 
-	protected void OnDrawGizmos() { }
+protected void OnDrawGizmos() { }
 
-	public void .ctor() { }
+public void .ctor() { }
 
 }
 

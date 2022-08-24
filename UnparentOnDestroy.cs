@@ -1,12 +1,13 @@
 public class UnparentOnDestroy : MonoBehaviour, IOnParentDestroying // TypeDefIndex: 9250
-{	public float destroyAfterSeconds; // 0x18
+{
+	public float destroyAfterSeconds; 
 
 
-	public void OnParentDestroying() { }
+public void OnParentDestroying() { }
 
-	protected void OnValidate() { }
+protected void OnValidate() { }
 
-	public void .ctor() { }
+public void .ctor() { }
 
 }
 

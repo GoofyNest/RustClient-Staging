@@ -1,52 +1,53 @@
 public class Logger : ILogger, ILogHandler // TypeDefIndex: 3458
-{	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
-	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
-	private ILogHandler <logHandler>k__BackingField; // 0x10
-	[DebuggerBrowsableAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
-	[CompilerGeneratedAttribute] // RVA: 0x70810 Offset: 0x6FC10 VA: 0x180070810
-	private bool <logEnabled>k__BackingField; // 0x18
-	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
-	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
-	private LogType <filterLogType>k__BackingField; // 0x1C
+{
+	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
+	private ILogHandler <logHandler>k__BackingField; 
+	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
+	private bool <logEnabled>k__BackingField; 
+	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
+	private LogType <filterLogType>k__BackingField; 
 
-	public ILogHandler logHandler { get; set; }
-	public bool logEnabled { get; set; }
-	public LogType filterLogType { get; set; }
+public ILogHandler logHandler { get; set; }
+public bool logEnabled { get; set; }
+public LogType filterLogType { get; set; }
 
 
-	public void .ctor(ILogHandler logHandler) { }
+public void .ctor(ILogHandler logHandler) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	public ILogHandler get_logHandler() { }
+	[CompilerGeneratedAttribute] 
+public ILogHandler get_logHandler() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	public void set_logHandler(ILogHandler value) { }
+	[CompilerGeneratedAttribute] 
+public void set_logHandler(ILogHandler value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	public bool get_logEnabled() { }
+	[CompilerGeneratedAttribute] 
+public bool get_logEnabled() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	public void set_logEnabled(bool value) { }
+	[CompilerGeneratedAttribute] 
+public void set_logEnabled(bool value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	public LogType get_filterLogType() { }
+	[CompilerGeneratedAttribute] 
+public LogType get_filterLogType() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	public void set_filterLogType(LogType value) { }
+	[CompilerGeneratedAttribute] 
+public void set_filterLogType(LogType value) { }
 
-	public bool IsLogTypeAllowed(LogType logType) { }
+public bool IsLogTypeAllowed(LogType logType) { }
 
-	private static string GetString(object message) { }
+private static string GetString(object message) { }
 
-	public void Log(LogType logType, object message) { }
+public void Log(LogType logType, object message) { }
 
-	public void Log(LogType logType, object message, Object context) { }
+public void Log(LogType logType, object message, Object context) { }
 
-	public void LogFormat(LogType logType, string format, object[] args) { }
+public void LogFormat(LogType logType, string format, object[] args) { }
 
-	public void LogFormat(LogType logType, Object context, string format, object[] args) { }
+public void LogFormat(LogType logType, Object context, string format, object[] args) { }
 
-	public void LogException(Exception exception, Object context) { }
+public void LogException(Exception exception, Object context) { }
 
 }
 

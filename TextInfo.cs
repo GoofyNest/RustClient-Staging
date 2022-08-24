@@ -1,105 +1,106 @@
 public class TextInfo : ICloneable, IDeserializationCallback // TypeDefIndex: 719
-{	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
-	private string m_listSeparator; // 0x10
-	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
-	private bool m_isReadOnly; // 0x18
-	[OptionalFieldAttribute] // RVA: 0xA9CA0 Offset: 0xA90A0 VA: 0x1800A9CA0
-	private string m_cultureName; // 0x20
-	private CultureData m_cultureData; // 0x28
-	private string m_textInfoName; // 0x30
-	private Nullable<bool> m_IsAsciiCasingSameAsInvariant; // 0x38
-	internal static TextInfo s_Invariant; // 0x0
-	[OptionalFieldAttribute] // RVA: 0x92F80 Offset: 0x92380 VA: 0x180092F80
-	private string customCultureName; // 0x40
-	[OptionalFieldAttribute] // RVA: 0x96730 Offset: 0x95B30 VA: 0x180096730
-	internal int m_nDataItem; // 0x48
-	[OptionalFieldAttribute] // RVA: 0x96730 Offset: 0x95B30 VA: 0x180096730
-	internal bool m_useUserOverride; // 0x4C
-	[OptionalFieldAttribute] // RVA: 0x96730 Offset: 0x95B30 VA: 0x180096730
-	internal int m_win32LangID; // 0x50
-	private const int wordSeparatorMask = 536672256;
+{
+	[OptionalFieldAttribute] 
+	private string m_listSeparator; 
+	[OptionalFieldAttribute] 
+	private bool m_isReadOnly; 
+	[OptionalFieldAttribute] 
+	private string m_cultureName; 
+	private CultureData m_cultureData; 
+	private string m_textInfoName; 
+	private Nullable<bool> m_IsAsciiCasingSameAsInvariant; 
+	internal static TextInfo s_Invariant; 
+	[OptionalFieldAttribute] 
+	private string customCultureName; 
+	[OptionalFieldAttribute] 
+	internal int m_nDataItem; 
+	[OptionalFieldAttribute] 
+	internal bool m_useUserOverride; 
+	[OptionalFieldAttribute] 
+	internal int m_win32LangID; 
+private const int wordSeparatorMask = 536672256;
 
-	internal static TextInfo Invariant { get; }
-	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
-	public string CultureName { get; }
-	private bool IsAsciiCasingSameAsInvariant { get; }
+internal static TextInfo Invariant { get; }
+	[ComVisibleAttribute] 
+public string CultureName { get; }
+private bool IsAsciiCasingSameAsInvariant { get; }
 
 
-	internal static TextInfo get_Invariant() { }
+internal static TextInfo get_Invariant() { }
 
-	internal void .ctor(CultureData cultureData) { }
+internal void .ctor(CultureData cultureData) { }
 
-	[OnDeserializingAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private void OnDeserializing(StreamingContext ctx) { }
+	[OnDeserializingAttribute] 
+private void OnDeserializing(StreamingContext ctx) { }
 
-	private void OnDeserialized() { }
+private void OnDeserialized() { }
 
-	[OnDeserializedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private void OnDeserialized(StreamingContext ctx) { }
+	[OnDeserializedAttribute] 
+private void OnDeserialized(StreamingContext ctx) { }
 
-	[OnSerializingAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private void OnSerializing(StreamingContext ctx) { }
+	[OnSerializingAttribute] 
+private void OnSerializing(StreamingContext ctx) { }
 
-	internal static int GetHashCodeOrdinalIgnoreCase(string s) { }
+internal static int GetHashCodeOrdinalIgnoreCase(string s) { }
 
-	internal static int GetHashCodeOrdinalIgnoreCase(string s, bool forceRandomizedHashing, long additionalEntropy) { }
+internal static int GetHashCodeOrdinalIgnoreCase(string s, bool forceRandomizedHashing, long additionalEntropy) { }
 
-	internal static int CompareOrdinalIgnoreCase(string str1, string str2) { }
+internal static int CompareOrdinalIgnoreCase(string str1, string str2) { }
 
-	internal static int CompareOrdinalIgnoreCaseEx(string strA, int indexA, string strB, int indexB, int lengthA, int lengthB) { }
+internal static int CompareOrdinalIgnoreCaseEx(string strA, int indexA, string strB, int indexB, int lengthA, int lengthB) { }
 
-	internal static int IndexOfStringOrdinalIgnoreCase(string source, string value, int startIndex, int count) { }
+internal static int IndexOfStringOrdinalIgnoreCase(string source, string value, int startIndex, int count) { }
 
-	internal static int LastIndexOfStringOrdinalIgnoreCase(string source, string value, int startIndex, int count) { }
+internal static int LastIndexOfStringOrdinalIgnoreCase(string source, string value, int startIndex, int count) { }
 
-	public string get_CultureName() { }
+public string get_CultureName() { }
 
-	[ComVisibleAttribute] // RVA: 0x75DF0 Offset: 0x751F0 VA: 0x180075DF0
-	public virtual object Clone() { }
+	[ComVisibleAttribute] 
+public virtual object Clone() { }
 
-	internal void SetReadOnlyState(bool readOnly) { }
+internal void SetReadOnlyState(bool readOnly) { }
 
-	public virtual char ToLower(char c) { }
+public virtual char ToLower(char c) { }
 
-	public virtual string ToLower(string str) { }
+public virtual string ToLower(string str) { }
 
-	private static char ToLowerAsciiInvariant(char c) { }
+private static char ToLowerAsciiInvariant(char c) { }
 
-	public virtual char ToUpper(char c) { }
+public virtual char ToUpper(char c) { }
 
-	public virtual string ToUpper(string str) { }
+public virtual string ToUpper(string str) { }
 
-	private static char ToUpperAsciiInvariant(char c) { }
+private static char ToUpperAsciiInvariant(char c) { }
 
-	private static bool IsAscii(char c) { }
+private static bool IsAscii(char c) { }
 
-	private bool get_IsAsciiCasingSameAsInvariant() { }
+private bool get_IsAsciiCasingSameAsInvariant() { }
 
-	public override bool Equals(object obj) { }
+public override bool Equals(object obj) { }
 
-	public override int GetHashCode() { }
+public override int GetHashCode() { }
 
-	public override string ToString() { }
+public override string ToString() { }
 
-	private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
+private void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(object sender) { }
 
-	internal int GetCaseInsensitiveHashCode(string str) { }
+internal int GetCaseInsensitiveHashCode(string str) { }
 
-	internal int GetCaseInsensitiveHashCode(string str, bool forceRandomizedHashing, long additionalEntropy) { }
+internal int GetCaseInsensitiveHashCode(string str, bool forceRandomizedHashing, long additionalEntropy) { }
 
-	private int GetInvariantCaseInsensitiveHashCode(string str) { }
+private int GetInvariantCaseInsensitiveHashCode(string str) { }
 
-	private string ToUpperInternal(string str) { }
+private string ToUpperInternal(string str) { }
 
-	private string ToLowerInternal(string str) { }
+private string ToLowerInternal(string str) { }
 
-	private char ToUpperInternal(char c) { }
+private char ToUpperInternal(char c) { }
 
-	private char ToLowerInternal(char c) { }
+private char ToLowerInternal(char c) { }
 
-	private static int InternalCompareStringOrdinalIgnoreCase(string strA, int indexA, string strB, int indexB, int lenA, int lenB) { }
+private static int InternalCompareStringOrdinalIgnoreCase(string strA, int indexA, string strB, int indexB, int lenA, int lenB) { }
 
-	internal void .ctor() { }
+internal void .ctor() { }
 
 }
 

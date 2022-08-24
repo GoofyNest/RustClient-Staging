@@ -1,17 +1,18 @@
 public class Water : ConsoleSystem // TypeDefIndex: 11979
-{	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
-	public static int quality; // 0x0
-	public static int MaxQuality; // 0x4
-	public static int MinQuality; // 0x8
-	[ClientVar] // RVA: 0x813E0 Offset: 0x807E0 VA: 0x1800813E0
-	public static int reflections; // 0xC
-	public static int MaxReflections; // 0x10
-	public static int MinReflections; // 0x14
+{
+	[ClientVar] 
+	public static int quality; 
+	public static int MaxQuality; 
+	public static int MinQuality; 
+	[ClientVar] 
+	public static int reflections; 
+	public static int MaxReflections; 
+	public static int MinReflections; 
 
 
-	public void .ctor() { }
+public void .ctor() { }
 
-	private static void .cctor() { }
+private static void .cctor() { }
 
 }
 

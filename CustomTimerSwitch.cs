@@ -1,29 +1,30 @@
 public class CustomTimerSwitch : TimerSwitch // TypeDefIndex: 8377
-{	private Option __menuOption_Menu_SetTime; // 0x2F8
-	public GameObjectRef timerPanelPrefab; // 0x350
+{
+	private Option __menuOption_Menu_SetTime; 
+	public GameObjectRef timerPanelPrefab; 
 
-	public override bool HasMenuOptions { get; }
+public override bool HasMenuOptions { get; }
 
 
-	public override void GetMenuOptions(List<Option> list) { }
+public override void GetMenuOptions(List<Option> list) { }
 
-	public override bool get_HasMenuOptions() { }
+public override bool get_HasMenuOptions() { }
 
-	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
+public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	public bool CanPlayerAdmin(BasePlayer player) { }
+public bool CanPlayerAdmin(BasePlayer player) { }
 
-	public void SendNewTime(float seconds) { }
+public void SendNewTime(float seconds) { }
 
-	[BaseEntity.Menu] // RVA: 0xD6950 Offset: 0xD5D50 VA: 0x1800D6950
-	[BaseEntity.Menu.Description] // RVA: 0xD6950 Offset: 0xD5D50 VA: 0x1800D6950
-	[BaseEntity.Menu.Icon] // RVA: 0xD6950 Offset: 0xD5D50 VA: 0x1800D6950
-	[BaseEntity.Menu.ShowIf] // RVA: 0xD6950 Offset: 0xD5D50 VA: 0x1800D6950
-	public void Menu_SetTime(BasePlayer player) { }
+	[BaseEntity.Menu] 
+	[BaseEntity.Menu.Description] 
+	[BaseEntity.Menu.Icon] 
+	[BaseEntity.Menu.ShowIf] 
+public void Menu_SetTime(BasePlayer player) { }
 
-	public bool Menu_SetTime_ShowIf(BasePlayer player) { }
+public bool Menu_SetTime_ShowIf(BasePlayer player) { }
 
-	public void .ctor() { }
+public void .ctor() { }
 
 }
 

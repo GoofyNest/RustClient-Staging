@@ -1,9 +1,10 @@
 public enum FocusType // TypeDefIndex: 4037
-{	public int value__; // 0x0
-	[ObsoleteAttribute] // RVA: 0xCD590 Offset: 0xCC990 VA: 0x1800CD590
-	public const FocusType Native = 0;
-	public const FocusType Keyboard = 1;
-	public const FocusType Passive = 2;
+{
+	public int value__; 
+	[ObsoleteAttribute] 
+public const FocusType Native = 0;
+public const FocusType Keyboard = 1;
+public const FocusType Passive = 2;
 
 }
 

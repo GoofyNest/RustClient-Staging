@@ -1,18 +1,19 @@
 internal abstract class RtFieldInfo : RuntimeFieldInfo // TypeDefIndex: 578
 {
-	internal object UnsafeGetValue(object obj) { }
 
-	internal void CheckConsistency(object target) { }
+internal object UnsafeGetValue(object obj) { }
 
-	[DebuggerStepThroughAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
-	[DebuggerHiddenAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
-	internal void UnsafeSetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture) { }
+internal void CheckConsistency(object target) { }
 
-	[DebuggerStepThroughAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
-	[DebuggerHiddenAttribute] // RVA: 0x71870 Offset: 0x70C70 VA: 0x180071870
-	public override void SetValueDirect(TypedReference obj, object value) { }
+	[DebuggerStepThroughAttribute] 
+	[DebuggerHiddenAttribute] 
+internal void UnsafeSetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture) { }
 
-	protected void .ctor() { }
+	[DebuggerStepThroughAttribute] 
+	[DebuggerHiddenAttribute] 
+public override void SetValueDirect(TypedReference obj, object value) { }
+
+protected void .ctor() { }
 
 }
 

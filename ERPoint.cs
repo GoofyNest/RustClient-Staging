@@ -1,28 +1,29 @@
 public class ERPoint // TypeDefIndex: 7184
-{	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
-	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
-	private double ᙂ; // 0x10
-	[CompilerGeneratedAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
-	[DebuggerBrowsableAttribute] // RVA: 0x70900 Offset: 0x6FD00 VA: 0x180070900
-	private double ᙃ; // 0x18
+{
+	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
+	private double ᙂ; 
+	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
+	private double ᙃ; 
 
-	public double x { get; set; }
-	public double y { get; set; }
+public double x { get; set; }
+public double y { get; set; }
 
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	public void set_x(double value) { }
+	[CompilerGeneratedAttribute] 
+public void set_x(double value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	public double get_x() { }
+	[CompilerGeneratedAttribute] 
+public double get_x() { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	public void set_y(double value) { }
+	[CompilerGeneratedAttribute] 
+public void set_y(double value) { }
 
-	[CompilerGeneratedAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	public double get_y() { }
+	[CompilerGeneratedAttribute] 
+public double get_y() { }
 
-	public void .ctor(double x, double y) { }
+public void .ctor(double x, double y) { }
 
 }
 

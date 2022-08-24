@@ -1,13 +1,14 @@
 public sealed class Coroutine : YieldInstruction // TypeDefIndex: 3509
-{	internal IntPtr m_Ptr; // 0x10
+{
+	internal IntPtr m_Ptr; 
 
 
-	private void .ctor() { }
+private void .ctor() { }
 
-	protected override void Finalize() { }
+protected override void Finalize() { }
 
-	[FreeFunctionAttribute] // RVA: 0xBBB90 Offset: 0xBAF90 VA: 0x1800BBB90
-	private static void ReleaseCoroutine(IntPtr ptr) { }
+	[FreeFunctionAttribute] 
+private static void ReleaseCoroutine(IntPtr ptr) { }
 
 }
 

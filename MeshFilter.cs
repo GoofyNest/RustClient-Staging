@@ -1,20 +1,21 @@
 public sealed class MeshFilter : Component // TypeDefIndex: 3409
-{	public Mesh sharedMesh { get; set; }
-	public Mesh mesh { get; set; }
+{
+public Mesh sharedMesh { get; set; }
+public Mesh mesh { get; set; }
 
 
-	[RequiredByNativeCodeAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private void DontStripMeshFilter() { }
+	[RequiredByNativeCodeAttribute] 
+private void DontStripMeshFilter() { }
 
-	public Mesh get_sharedMesh() { }
+public Mesh get_sharedMesh() { }
 
-	public void set_sharedMesh(Mesh value) { }
+public void set_sharedMesh(Mesh value) { }
 
-	[NativeNameAttribute] // RVA: 0x959C0 Offset: 0x94DC0 VA: 0x1800959C0
-	public Mesh get_mesh() { }
+	[NativeNameAttribute] 
+public Mesh get_mesh() { }
 
-	[NativeNameAttribute] // RVA: 0x95AD0 Offset: 0x94ED0 VA: 0x180095AD0
-	public void set_mesh(Mesh value) { }
+	[NativeNameAttribute] 
+public void set_mesh(Mesh value) { }
 
 }
 

@@ -1,43 +1,44 @@
 public class TrainCarAudio : MonoBehaviour // TypeDefIndex: 9768
-{	[HeaderAttribute] // RVA: 0x94B70 Offset: 0x93F70 VA: 0x180094B70
-	[SerializeField] // RVA: 0x94B70 Offset: 0x93F70 VA: 0x180094B70
-	private TrainCar trainCar; // 0x18
-	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private SoundDefinition movementStartDef; // 0x20
-	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private SoundDefinition movementStopDef; // 0x28
-	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private SoundDefinition movementLoopDef; // 0x30
-	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private AnimationCurve movementLoopGainCurve; // 0x38
-	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private float movementChangeOneshotDebounce; // 0x40
-	private Sound movementLoop; // 0x48
-	private SoundModulation.Modulator movementLoopGain; // 0x50
-	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private SoundDefinition turnLoopDef; // 0x58
-	private Sound turnLoop; // 0x60
-	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private SoundDefinition trackClatterLoopDef; // 0x68
-	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private AnimationCurve trackClatterGainCurve; // 0x70
-	[SerializeField] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	private AnimationCurve trackClatterPitchCurve; // 0x78
-	private Sound trackClatterLoop; // 0x80
-	private SoundModulation.Modulator trackClatterGain; // 0x88
-	private SoundModulation.Modulator trackClatterPitch; // 0x90
-	private float lastMovementChangeOneshot; // 0x98
+{
+	[HeaderAttribute] 
+	[SerializeField] 
+	private TrainCar trainCar; 
+	[SerializeField] 
+	private SoundDefinition movementStartDef; 
+	[SerializeField] 
+	private SoundDefinition movementStopDef; 
+	[SerializeField] 
+	private SoundDefinition movementLoopDef; 
+	[SerializeField] 
+	private AnimationCurve movementLoopGainCurve; 
+	[SerializeField] 
+	private float movementChangeOneshotDebounce; 
+	private Sound movementLoop; 
+	private SoundModulation.Modulator movementLoopGain; 
+	[SerializeField] 
+	private SoundDefinition turnLoopDef; 
+	private Sound turnLoop; 
+	[SerializeField] 
+	private SoundDefinition trackClatterLoopDef; 
+	[SerializeField] 
+	private AnimationCurve trackClatterGainCurve; 
+	[SerializeField] 
+	private AnimationCurve trackClatterPitchCurve; 
+	private Sound trackClatterLoop; 
+	private SoundModulation.Modulator trackClatterGain; 
+	private SoundModulation.Modulator trackClatterPitch; 
+	private float lastMovementChangeOneshot; 
 
 
-	public virtual void UpdateTick() { }
+public virtual void UpdateTick() { }
 
-	public virtual void StopAll() { }
+public virtual void StopAll() { }
 
-	private void StopMovementLoops() { }
+private void StopMovementLoops() { }
 
-	private void StopTurnLoops() { }
+private void StopTurnLoops() { }
 
-	public void .ctor() { }
+public void .ctor() { }
 
 }
 

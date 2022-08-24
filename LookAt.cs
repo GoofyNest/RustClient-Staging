@@ -1,10 +1,11 @@
 public class LookAt : MonoBehaviour, IClientComponent // TypeDefIndex: 9200
-{	public Transform target; // 0x18
+{
+	public Transform target; 
 
 
-	private void Update() { }
+private void Update() { }
 
-	public void .ctor() { }
+public void .ctor() { }
 
 }
 

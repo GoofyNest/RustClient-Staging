@@ -1,22 +1,23 @@
 public class Decal : ConsoleSystem // TypeDefIndex: 11908
-{	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
-	public static bool cache; // 0x0
-	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
-	public static bool instancing; // 0x1
-	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
-	public static int capacity; // 0x4
-	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
-	public static int limit; // 0x8
+{
+	[ClientVar] 
+	public static bool cache; 
+	[ClientVar] 
+	public static bool instancing; 
+	[ClientVar] 
+	public static int capacity; 
+	[ClientVar] 
+	public static int limit; 
 
 
-	[ClientVar] // RVA: 0x713A0 Offset: 0x707A0 VA: 0x1800713A0
-	public static void clear(ConsoleSystem.Arg args) { }
+	[ClientVar] 
+public static void clear(ConsoleSystem.Arg args) { }
 
-	public static void clear() { }
+public static void clear() { }
 
-	public void .ctor() { }
+public void .ctor() { }
 
-	private static void .cctor() { }
+private static void .cctor() { }
 
 }
 

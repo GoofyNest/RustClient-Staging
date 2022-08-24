@@ -1,10 +1,11 @@
 public class DevControlsTab : BaseMonoBehaviour // TypeDefIndex: 9297
 {
-	public virtual string GetTabName() { }
 
-	public virtual void OnTabContents() { }
+public virtual string GetTabName() { }
 
-	public void .ctor() { }
+public virtual void OnTabContents() { }
+
+public void .ctor() { }
 
 }
 

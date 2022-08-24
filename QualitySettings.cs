@@ -1,85 +1,86 @@
 public sealed class QualitySettings : Object // TypeDefIndex: 3395
-{	public static int pixelLightCount { get; }
-	public static int shadowCascades { get; set; }
-	public static float shadowDistance { get; set; }
-	[NativePropertyAttribute] // RVA: 0x8D690 Offset: 0x8CA90 VA: 0x18008D690
-	public static float lodBias { get; set; }
-	[NativePropertyAttribute] // RVA: 0x8D6E0 Offset: 0x8CAE0 VA: 0x18008D6E0
-	public static AnisotropicFiltering anisotropicFiltering { get; set; }
-	public static int masterTextureLimit { get; }
-	public static int maximumLODLevel { get; }
-	public static int particleRaycastBudget { get; }
-	public static bool softVegetation { get; }
-	public static int vSyncCount { get; set; }
-	public static int antiAliasing { get; set; }
-	public static bool realtimeReflectionProbes { get; }
-	public static bool streamingMipmapsActive { get; set; }
-	public static float streamingMipmapsMemoryBudget { get; set; }
-	public static int streamingMipmapsMaxLevelReduction { get; }
-	[StaticAccessorAttribute] // RVA: 0x8D8E0 Offset: 0x8CCE0 VA: 0x18008D8E0
-	public static int maxQueuedFrames { get; set; }
-	public static ColorSpace activeColorSpace { get; }
+{
+public static int pixelLightCount { get; }
+public static int shadowCascades { get; set; }
+public static float shadowDistance { get; set; }
+	[NativePropertyAttribute] 
+public static float lodBias { get; set; }
+	[NativePropertyAttribute] 
+public static AnisotropicFiltering anisotropicFiltering { get; set; }
+public static int masterTextureLimit { get; }
+public static int maximumLODLevel { get; }
+public static int particleRaycastBudget { get; }
+public static bool softVegetation { get; }
+public static int vSyncCount { get; set; }
+public static int antiAliasing { get; set; }
+public static bool realtimeReflectionProbes { get; }
+public static bool streamingMipmapsActive { get; set; }
+public static float streamingMipmapsMemoryBudget { get; set; }
+public static int streamingMipmapsMaxLevelReduction { get; }
+	[StaticAccessorAttribute] 
+public static int maxQueuedFrames { get; set; }
+public static ColorSpace activeColorSpace { get; }
 
 
-	public static int get_pixelLightCount() { }
+public static int get_pixelLightCount() { }
 
-	public static int get_shadowCascades() { }
+public static int get_shadowCascades() { }
 
-	public static void set_shadowCascades(int value) { }
+public static void set_shadowCascades(int value) { }
 
-	public static float get_shadowDistance() { }
+public static float get_shadowDistance() { }
 
-	public static void set_shadowDistance(float value) { }
+public static void set_shadowDistance(float value) { }
 
-	public static float get_lodBias() { }
+public static float get_lodBias() { }
 
-	public static void set_lodBias(float value) { }
+public static void set_lodBias(float value) { }
 
-	public static AnisotropicFiltering get_anisotropicFiltering() { }
+public static AnisotropicFiltering get_anisotropicFiltering() { }
 
-	public static void set_anisotropicFiltering(AnisotropicFiltering value) { }
+public static void set_anisotropicFiltering(AnisotropicFiltering value) { }
 
-	public static int get_masterTextureLimit() { }
+public static int get_masterTextureLimit() { }
 
-	public static int get_maximumLODLevel() { }
+public static int get_maximumLODLevel() { }
 
-	public static int get_particleRaycastBudget() { }
+public static int get_particleRaycastBudget() { }
 
-	public static bool get_softVegetation() { }
+public static bool get_softVegetation() { }
 
-	public static int get_vSyncCount() { }
+public static int get_vSyncCount() { }
 
-	public static void set_vSyncCount(int value) { }
+public static void set_vSyncCount(int value) { }
 
-	public static int get_antiAliasing() { }
+public static int get_antiAliasing() { }
 
-	public static void set_antiAliasing(int value) { }
+public static void set_antiAliasing(int value) { }
 
-	public static bool get_realtimeReflectionProbes() { }
+public static bool get_realtimeReflectionProbes() { }
 
-	public static bool get_streamingMipmapsActive() { }
+public static bool get_streamingMipmapsActive() { }
 
-	public static void set_streamingMipmapsActive(bool value) { }
+public static void set_streamingMipmapsActive(bool value) { }
 
-	public static float get_streamingMipmapsMemoryBudget() { }
+public static float get_streamingMipmapsMemoryBudget() { }
 
-	public static void set_streamingMipmapsMemoryBudget(float value) { }
+public static void set_streamingMipmapsMemoryBudget(float value) { }
 
-	public static int get_streamingMipmapsMaxLevelReduction() { }
+public static int get_streamingMipmapsMaxLevelReduction() { }
 
-	public static int get_maxQueuedFrames() { }
+public static int get_maxQueuedFrames() { }
 
-	public static void set_maxQueuedFrames(int value) { }
+public static void set_maxQueuedFrames(int value) { }
 
-	[NativeNameAttribute] // RVA: 0x8D280 Offset: 0x8C680 VA: 0x18008D280
-	public static int GetQualityLevel() { }
+	[NativeNameAttribute] 
+public static int GetQualityLevel() { }
 
-	[NativeNameAttribute] // RVA: 0x8D300 Offset: 0x8C700 VA: 0x18008D300
-	public static void SetQualityLevel(int index, bool applyExpensiveChanges) { }
+	[NativeNameAttribute] 
+public static void SetQualityLevel(int index, bool applyExpensiveChanges) { }
 
-	[StaticAccessorAttribute] // RVA: 0x8D430 Offset: 0x8C830 VA: 0x18008D430
-	[NativeNameAttribute] // RVA: 0x8D430 Offset: 0x8C830 VA: 0x18008D430
-	public static ColorSpace get_activeColorSpace() { }
+	[StaticAccessorAttribute] 
+	[NativeNameAttribute] 
+public static ColorSpace get_activeColorSpace() { }
 
 }
 

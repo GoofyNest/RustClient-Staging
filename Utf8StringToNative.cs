@@ -1,19 +1,20 @@
 internal class Utf8StringToNative : ICustomMarshaler // TypeDefIndex: 5270
 {
-	public IntPtr MarshalManagedToNative(object managedObj) { }
 
-	public object MarshalNativeToManaged(IntPtr pNativeData) { }
+public IntPtr MarshalManagedToNative(object managedObj) { }
 
-	public void CleanUpNativeData(IntPtr pNativeData) { }
+public object MarshalNativeToManaged(IntPtr pNativeData) { }
 
-	public void CleanUpManagedData(object managedObj) { }
+public void CleanUpNativeData(IntPtr pNativeData) { }
 
-	public int GetNativeDataSize() { }
+public void CleanUpManagedData(object managedObj) { }
 
-	[PreserveAttribute] // RVA: 0x6F480 Offset: 0x6E880 VA: 0x18006F480
-	public static ICustomMarshaler GetInstance(string cookie) { }
+public int GetNativeDataSize() { }
 
-	public void .ctor() { }
+	[PreserveAttribute] 
+public static ICustomMarshaler GetInstance(string cookie) { }
+
+public void .ctor() { }
 
 }
 
