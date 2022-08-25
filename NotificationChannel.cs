@@ -1,4 +1,4 @@
-public enum NotificationChannel // TypeDefIndex: 11651
+public enum NotificationChannel // TypeDefIndex: 11670
 {
 	public int value__; 
 	public const NotificationChannel Pairing = 1001;

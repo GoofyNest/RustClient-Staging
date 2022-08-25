@@ -1,4 +1,4 @@
-public class TriggerTemperature : TriggerBase // TypeDefIndex: 10049
+public class TriggerTemperature : TriggerBase // TypeDefIndex: 10054
 {
 	public float Temperature; 
 	public float triggerSize; 

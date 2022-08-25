@@ -1,4 +1,4 @@
-public static class ObjWriter // TypeDefIndex: 11398
+public static class ObjWriter // TypeDefIndex: 11417
 {
 
 	public static string MeshToString(Mesh mesh) { }

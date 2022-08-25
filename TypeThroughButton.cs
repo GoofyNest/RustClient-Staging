@@ -1,4 +1,4 @@
-public class TypeThroughButton : Button, IUpdateSelectedHandler, IEventSystemHandler // TypeDefIndex: 11247
+public class TypeThroughButton : Button, IUpdateSelectedHandler, IEventSystemHandler // TypeDefIndex: 11266
 {
 	public InputField typingTarget; 
 	private Event _processingEvent; 
@@ -13,7 +13,7 @@ public class TypeThroughButton : Button, IUpdateSelectedHandler, IEventSystemHan
 
 }
 
-private sealed class TypeThroughButton.<DelayedActivateTextField>d__3 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11248
+private sealed class TypeThroughButton.<DelayedActivateTextField>d__3 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11267
 {
 	private int <>1__state; 
 	private object <>2__current; 

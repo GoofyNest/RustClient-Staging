@@ -1,4 +1,4 @@
-public class GreyScale : PostProcessEffectSettings // TypeDefIndex: 10262
+public class GreyScale : PostProcessEffectSettings // TypeDefIndex: 10267
 {
 	[RangeAttribute] 
 	public FloatParameter redLuminance; 

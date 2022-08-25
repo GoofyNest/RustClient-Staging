@@ -209,7 +209,7 @@ internal static class ThrowHelper // TypeDefIndex: 124
 
 }
 
-internal static class ThrowHelper // TypeDefIndex: 6726
+internal static class ThrowHelper // TypeDefIndex: 6727
 {
 
 internal static class ThrowHelper 
@@ -236,7 +236,7 @@ internal static class ThrowHelper
 
 }
 
-internal static class ThrowHelper // TypeDefIndex: 7083
+internal static class ThrowHelper // TypeDefIndex: 7084
 {
 
 	internal static void ThrowArgumentNullException(ExceptionArgument argument) { }

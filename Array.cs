@@ -30056,14 +30056,14 @@ internal class ArraySubsetEnumerator : IEnumerator // TypeDefIndex: 2661
 
 }
 
-internal class ArrayIndexFilter : PathFilter // TypeDefIndex: 6078
+internal class ArrayIndexFilter : PathFilter // TypeDefIndex: 6079
 {
 
 	public void .ctor() { }
 
 }
 
-internal class ArrayMultipleIndexFilter : PathFilter // TypeDefIndex: 6080
+internal class ArrayMultipleIndexFilter : PathFilter // TypeDefIndex: 6081
 {
 
 [PreserveAttribute] 
@@ -30073,7 +30073,7 @@ internal class ArrayMultipleIndexFilter : PathFilter
 
 }
 
-internal class ArraySliceFilter : PathFilter // TypeDefIndex: 6082
+internal class ArraySliceFilter : PathFilter // TypeDefIndex: 6083
 {
 
 [PreserveAttribute] 
@@ -30083,7 +30083,7 @@ internal class ArraySliceFilter : PathFilter
 
 }
 
-public abstract class ArrayPool<T> // TypeDefIndex: 6267
+public abstract class ArrayPool<T> // TypeDefIndex: 6268
 {
 	private static ArrayPool<T> s_sharedInstance; 
 
@@ -30132,7 +30132,7 @@ public abstract class ArrayPool<T> // TypeDefIndex: 6267
 
 }
 
-internal sealed class ArrayPoolEventSource : EventSource // TypeDefIndex: 6268
+internal sealed class ArrayPoolEventSource : EventSource // TypeDefIndex: 6269
 {
 	internal static readonly ArrayPoolEventSource Log; 
 
@@ -30152,7 +30152,7 @@ internal sealed class ArrayPoolEventSource : EventSource // TypeDefIndex: 6268
 
 }
 
-internal enum ArrayPoolEventSource.BufferAllocatedReason // TypeDefIndex: 6269
+internal enum ArrayPoolEventSource.BufferAllocatedReason // TypeDefIndex: 6270
 {
 	public int value__; 
 	public const ArrayPoolEventSource.BufferAllocatedReason Pooled = 0;
@@ -30161,7 +30161,7 @@ internal enum ArrayPoolEventSource.BufferAllocatedReason // TypeDefIndex: 6269
 
 }
 
-public class ArrayIndexIsEnum : PropertyAttribute // TypeDefIndex: 6560
+public class ArrayIndexIsEnum : PropertyAttribute // TypeDefIndex: 6561
 {
 
 public class ArrayIndexIsEnum : PropertyAttribute 
@@ -30172,7 +30172,7 @@ public class ArrayIndexIsEnum : PropertyAttribute
 
 }
 
-public class ArrayIndexIsEnumRanged : ArrayIndexIsEnum // TypeDefIndex: 6561
+public class ArrayIndexIsEnumRanged : ArrayIndexIsEnum // TypeDefIndex: 6562
 {
 	public float min; 
 	public float max; 
@@ -30182,7 +30182,7 @@ public class ArrayIndexIsEnumRanged : ArrayIndexIsEnum // TypeDefIndex: 6561
 
 }
 
-public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8140
+public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8141
 {
 	private readonly List<Value> values; 
 
@@ -30218,7 +30218,7 @@ public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8140
 
 }
 
-public static class Arrays // TypeDefIndex: 8225
+public static class Arrays // TypeDefIndex: 8226
 {
 	public static ushort[] flushes; 
 	public static readonly ushort[] unique5; 
@@ -30232,7 +30232,7 @@ public static class Arrays // TypeDefIndex: 8225
 
 }
 
-public static class ArrayEx // TypeDefIndex: 11346
+public static class ArrayEx // TypeDefIndex: 11365
 {
 
 	public static T[] New<T>(int length) { }

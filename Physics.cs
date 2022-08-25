@@ -225,7 +225,7 @@ public class Physics // TypeDefIndex: 3934
 
 }
 
-public class Physics : ConsoleSystem // TypeDefIndex: 11956
+public class Physics : ConsoleSystem // TypeDefIndex: 11975
 {
 	[ClientVar] 
 	public static int ragdollmode; 

@@ -1,4 +1,4 @@
-public class BranchConfig : UIDialog // TypeDefIndex: 8729
+public class BranchConfig : UIDialog // TypeDefIndex: 8731
 {
 	private ElectricalBranch branch; 
 	public InputField input; 

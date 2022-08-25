@@ -1,4 +1,4 @@
-public class Weather : ConsoleSystem // TypeDefIndex: 11980
+public class Weather : ConsoleSystem // TypeDefIndex: 11999
 {
 	[ServerVar] 
 	public static float wetness_rain; 
@@ -175,7 +175,7 @@ public class Weather : ConsoleSystem // TypeDefIndex: 11980
 
 }
 
-private sealed class Weather.<>c__DisplayClass0_0 // TypeDefIndex: 11981
+private sealed class Weather.<>c__DisplayClass0_0 // TypeDefIndex: 12000
 {
 	public string name; 
 

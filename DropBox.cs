@@ -1,4 +1,4 @@
-public class DropBox : Mailbox // TypeDefIndex: 8691
+public class DropBox : Mailbox // TypeDefIndex: 8693
 {
 	public Transform EyePoint; 
 

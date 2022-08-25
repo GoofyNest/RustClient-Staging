@@ -1,4 +1,4 @@
-public class uiPlayerPreview : SingletonComponent<uiPlayerPreview> // TypeDefIndex: 11209
+public class uiPlayerPreview : SingletonComponent<uiPlayerPreview> // TypeDefIndex: 11228
 {
 	public Camera previewCamera; 
 	public PlayerModel playermodel; 

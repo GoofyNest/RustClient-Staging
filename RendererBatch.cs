@@ -1,4 +1,4 @@
-public class RendererBatch : MonoBehaviour, IClientComponent // TypeDefIndex: 9916
+public class RendererBatch : MonoBehaviour, IClientComponent // TypeDefIndex: 9921
 {
 
 public class RendererBatch : MonoBehaviour, IClientComponent 

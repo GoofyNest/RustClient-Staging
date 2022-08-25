@@ -1,4 +1,4 @@
-public class MeshToggle : MonoBehaviour // TypeDefIndex: 11324
+public class MeshToggle : MonoBehaviour // TypeDefIndex: 11343
 {
 	public Mesh[] RendererMeshes; 
 	public Mesh[] ColliderMeshes; 

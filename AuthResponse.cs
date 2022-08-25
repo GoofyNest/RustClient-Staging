@@ -1,4 +1,4 @@
-public enum AuthResponse // TypeDefIndex: 5138
+public enum AuthResponse // TypeDefIndex: 5139
 {
 	public int value__; 
 	public const AuthResponse OK = 0;
@@ -14,7 +14,7 @@ public enum AuthResponse // TypeDefIndex: 5138
 
 }
 
-public enum AuthResponse // TypeDefIndex: 5683
+public enum AuthResponse // TypeDefIndex: 5684
 {
 
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=40 

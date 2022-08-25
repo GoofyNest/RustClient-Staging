@@ -1,4 +1,4 @@
-public class MusicZone : MonoBehaviour, IClientComponent // TypeDefIndex: 9012
+public class MusicZone : MonoBehaviour, IClientComponent // TypeDefIndex: 9014
 {
 	public List<MusicTheme> themes; 
 	public float priority; 

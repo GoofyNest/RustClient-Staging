@@ -1,4 +1,4 @@
-public class BaseMovement : MonoBehaviour // TypeDefIndex: 9668
+public class BaseMovement : MonoBehaviour // TypeDefIndex: 9671
 {
 	public bool adminCheat; 
 	public float adminSpeed; 

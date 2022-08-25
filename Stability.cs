@@ -1,4 +1,4 @@
-public class Stability : ConsoleSystem // TypeDefIndex: 11967
+public class Stability : ConsoleSystem // TypeDefIndex: 11986
 {
 	[ServerVar] 
 	public static int verbose; 

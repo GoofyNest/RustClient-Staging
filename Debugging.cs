@@ -1,4 +1,4 @@
-public class Debugging : ConsoleSystem // TypeDefIndex: 11904
+public class Debugging : ConsoleSystem // TypeDefIndex: 11923
 {
 	[ServerVar] 
 	[ClientVar] 
@@ -135,14 +135,14 @@ public class Debugging : ConsoleSystem // TypeDefIndex: 11904
 
 }
 
-public struct Debugging.EntityInfo // TypeDefIndex: 11905
+public struct Debugging.EntityInfo // TypeDefIndex: 11924
 {
 	public string name; 
 	public uint netId; 
 
 }
 
-private sealed class Debugging.<>c__DisplayClass40_0 // TypeDefIndex: 11906
+private sealed class Debugging.<>c__DisplayClass40_0 // TypeDefIndex: 11925
 {
 	public Vector3 position; 
 	public float radius; 
@@ -154,7 +154,7 @@ private sealed class Debugging.<>c__DisplayClass40_0 // TypeDefIndex: 11906
 
 }
 
-private sealed class Debugging.<>c // TypeDefIndex: 11907
+private sealed class Debugging.<>c // TypeDefIndex: 11926
 {
 	public static readonly Debugging.<>c <>9; 
 	public static Func<BaseNetworkable, uint> <>9__40_1; 

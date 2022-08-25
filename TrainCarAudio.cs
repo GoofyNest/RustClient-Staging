@@ -1,4 +1,4 @@
-public class TrainCarAudio : MonoBehaviour // TypeDefIndex: 9768
+public class TrainCarAudio : MonoBehaviour // TypeDefIndex: 9771
 {
 	[HeaderAttribute] 
 	[SerializeField] 

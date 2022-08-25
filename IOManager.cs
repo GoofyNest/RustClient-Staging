@@ -1,4 +1,4 @@
-public class IOManager : SingletonComponent<IOManager> // TypeDefIndex: 9808
+public class IOManager : SingletonComponent<IOManager> // TypeDefIndex: 9811
 {
 
 	public void .ctor() { }

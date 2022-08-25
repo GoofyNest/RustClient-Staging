@@ -1,4 +1,4 @@
-public static class BaseMetabolism // TypeDefIndex: 9563
+public static class BaseMetabolism // TypeDefIndex: 9566
 {
 	public const float targetHeartRate = 0,05;
 

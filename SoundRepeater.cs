@@ -1,4 +1,4 @@
-public class SoundRepeater : MonoBehaviour // TypeDefIndex: 9042
+public class SoundRepeater : MonoBehaviour // TypeDefIndex: 9044
 {
 	public float interval; 
 	public SoundPlayer player; 

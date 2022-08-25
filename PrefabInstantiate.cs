@@ -1,4 +1,4 @@
-public class PrefabInstantiate : MonoBehaviour, IClientComponent // TypeDefIndex: 9972
+public class PrefabInstantiate : MonoBehaviour, IClientComponent // TypeDefIndex: 9977
 {
 	public GameObjectRef Prefab; 
 

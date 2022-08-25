@@ -1,4 +1,4 @@
-public struct SubsurfaceScatteringParams // TypeDefIndex: 10658
+public struct SubsurfaceScatteringParams // TypeDefIndex: 10663
 {
 	public bool enabled; 
 	public SubsurfaceScatteringParams.Quality quality; 
@@ -11,7 +11,7 @@ public struct SubsurfaceScatteringParams // TypeDefIndex: 10658
 
 }
 
-public enum SubsurfaceScatteringParams.Quality // TypeDefIndex: 10659
+public enum SubsurfaceScatteringParams.Quality // TypeDefIndex: 10664
 {
 	public int value__; 
 	public const SubsurfaceScatteringParams.Quality Low = 0;

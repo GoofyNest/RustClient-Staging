@@ -1,7 +1,9 @@
-public class GameModeObjectToggle : BaseMonoBehaviour // TypeDefIndex: 9884
+public class GameModeObjectToggle : BaseMonoBehaviour // TypeDefIndex: 9888
 {
 	public string[] gameModeTags; 
+	public string[] tagsToDisable; 
 	public GameObject[] toToggle; 
+	public bool defaultState; 
 
 
 	public void Awake() { }

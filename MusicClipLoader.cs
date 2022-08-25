@@ -1,4 +1,4 @@
-public class MusicClipLoader // TypeDefIndex: 9002
+public class MusicClipLoader // TypeDefIndex: 9004
 {
 	public List<MusicClipLoader.LoadedAudioClip> loadedClips; 
 	public Dictionary<AudioClip, MusicClipLoader.LoadedAudioClip> loadedClipDict; 
@@ -16,7 +16,7 @@ public class MusicClipLoader // TypeDefIndex: 9002
 
 }
 
-public class MusicClipLoader.LoadedAudioClip // TypeDefIndex: 9003
+public class MusicClipLoader.LoadedAudioClip // TypeDefIndex: 9005
 {
 	public AudioClip clip; 
 	public float unloadTime; 

@@ -1,4 +1,4 @@
-public class RottingFlies : MonoBehaviour, IClientComponent // TypeDefIndex: 9359
+public class RottingFlies : MonoBehaviour, IClientComponent // TypeDefIndex: 9361
 {
 	public GameObjectRef effect; 
 	public SoundDefinition soundDef; 

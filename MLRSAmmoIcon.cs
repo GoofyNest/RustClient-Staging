@@ -1,4 +1,4 @@
-public class MLRSAmmoIcon : MonoBehaviour // TypeDefIndex: 9721
+public class MLRSAmmoIcon : MonoBehaviour // TypeDefIndex: 9724
 {
 
 public class MLRSAmmoIcon : MonoBehaviour 

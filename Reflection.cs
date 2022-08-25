@@ -1,4 +1,4 @@
-public class Reflection : ConsoleSystem // TypeDefIndex: 11962
+public class Reflection : ConsoleSystem // TypeDefIndex: 11981
 {
 	[ClientVar] 
 	public static bool interiors; 

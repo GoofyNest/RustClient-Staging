@@ -1,4 +1,4 @@
-public class IngameMenuBackground : MonoBehaviour // TypeDefIndex: 10983
+public class IngameMenuBackground : MonoBehaviour // TypeDefIndex: 10989
 {
 	public static bool Enabled; 
 	public CanvasGroup canvasGroup; 

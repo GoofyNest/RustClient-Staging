@@ -1,4 +1,4 @@
-public struct TimeSince // TypeDefIndex: 6164
+public struct TimeSince // TypeDefIndex: 6165
 {
 	private float time; 
 

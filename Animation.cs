@@ -371,7 +371,7 @@ public struct AnimationStream // TypeDefIndex: 4513
 
 }
 
-public class AnimationTriggers // TypeDefIndex: 4904
+public class AnimationTriggers // TypeDefIndex: 4905
 {
 
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=104 
@@ -434,7 +434,7 @@ public class AnimationTriggers
 
 }
 
-public class AnimationFlagHandler : MonoBehaviour // TypeDefIndex: 8783
+public class AnimationFlagHandler : MonoBehaviour // TypeDefIndex: 8785
 {
 	public Animator animator; 
 
@@ -447,7 +447,7 @@ public class AnimationFlagHandler : MonoBehaviour // TypeDefIndex: 8783
 
 }
 
-public class AnimationEventForward : MonoBehaviour // TypeDefIndex: 9121
+public class AnimationEventForward : MonoBehaviour // TypeDefIndex: 9123
 {
 	public GameObject targetObject; 
 
@@ -458,7 +458,7 @@ public class AnimationEventForward : MonoBehaviour // TypeDefIndex: 9121
 
 }
 
-public class AnimationEvents : BaseMonoBehaviour // TypeDefIndex: 9326
+public class AnimationEvents : BaseMonoBehaviour // TypeDefIndex: 9328
 {
 	public Transform rootObject; 
 	public HeldEntity targetEntity; 

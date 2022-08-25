@@ -1,4 +1,4 @@
-public struct RendererKey : IEquatable<RendererKey> // TypeDefIndex: 9922
+public struct RendererKey : IEquatable<RendererKey> // TypeDefIndex: 9927
 {
 	public Material material; 
 	public ShadowCastingMode shadows; 

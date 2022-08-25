@@ -1,4 +1,4 @@
-public class HairSet : ScriptableObject // TypeDefIndex: 10737
+public class HairSet : ScriptableObject // TypeDefIndex: 10742
 {
 	public HairSet.MeshReplace[] MeshReplacements; 
 
@@ -11,7 +11,7 @@ public class HairSet : ScriptableObject // TypeDefIndex: 10737
 
 }
 
-public class HairSet.MeshReplace // TypeDefIndex: 10738
+public class HairSet.MeshReplace // TypeDefIndex: 10743
 {
 	[HideInInspector] 
 	public string FindName; 

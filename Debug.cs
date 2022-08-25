@@ -80,7 +80,7 @@ public class Debug // TypeDefIndex: 3371
 
 }
 
-public static class Debug // TypeDefIndex: 7146
+public static class Debug // TypeDefIndex: 7147
 {
 	private static TextWriter writer; 
 
@@ -93,7 +93,7 @@ public static class Debug // TypeDefIndex: 7146
 
 }
 
-public sealed class Debug.WriterDelegate : MulticastDelegate // TypeDefIndex: 7147
+public sealed class Debug.WriterDelegate : MulticastDelegate // TypeDefIndex: 7148
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -106,7 +106,7 @@ public sealed class Debug.WriterDelegate : MulticastDelegate // TypeDefIndex: 71
 
 }
 
-private sealed class Debug.DummyWriter : TextWriter // TypeDefIndex: 7148
+private sealed class Debug.DummyWriter : TextWriter // TypeDefIndex: 7149
 {
 	private Debug.WriterDelegate writer; 
 
@@ -121,7 +121,7 @@ private sealed class Debug.DummyWriter : TextWriter // TypeDefIndex: 7148
 
 }
 
-private sealed class Debug.DummyWriter.<>c // TypeDefIndex: 7149
+private sealed class Debug.DummyWriter.<>c // TypeDefIndex: 7150
 {
 	public static readonly Debug.DummyWriter.<>c <>9; 
 	public static Debug.WriterDelegate <>9__3_0; 

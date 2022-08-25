@@ -1,4 +1,4 @@
-public class OnePoleLowpassFilter : MonoBehaviour // TypeDefIndex: 9015
+public class OnePoleLowpassFilter : MonoBehaviour // TypeDefIndex: 9017
 {
 	[RangeAttribute] 
 	public float frequency; 
@@ -22,7 +22,7 @@ public class OnePoleLowpassFilter : MonoBehaviour // TypeDefIndex: 9015
 
 }
 
-private class OnePoleLowpassFilter.ChannelData // TypeDefIndex: 9016
+private class OnePoleLowpassFilter.ChannelData // TypeDefIndex: 9018
 {
 	public float out1; 
 

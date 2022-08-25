@@ -1,4 +1,4 @@
-public static class GamePhysics // TypeDefIndex: 9259
+public static class GamePhysics // TypeDefIndex: 9261
 {
 	public const int BufferLength = 8192;
 	private static RaycastHit[] hitBuffer; 
@@ -139,7 +139,7 @@ public static class GamePhysics // TypeDefIndex: 9259
 
 }
 
-private sealed class GamePhysics.<>c // TypeDefIndex: 9260
+private sealed class GamePhysics.<>c // TypeDefIndex: 9262
 {
 	public static readonly GamePhysics.<>c <>9; 
 	public static Comparison<RaycastHit> <>9__42_0; 

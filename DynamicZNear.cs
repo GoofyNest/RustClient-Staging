@@ -1,4 +1,4 @@
-public class DynamicZNear : MonoBehaviour // TypeDefIndex: 9185
+public class DynamicZNear : MonoBehaviour // TypeDefIndex: 9187
 {
 	public float minimum; 
 	public float maximum; 

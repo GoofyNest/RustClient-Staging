@@ -1,4 +1,4 @@
-public class VirtualScroll : MonoBehaviour // TypeDefIndex: 12005
+public class VirtualScroll : MonoBehaviour // TypeDefIndex: 12024
 {
 	public int ItemHeight; 
 	public int ItemSpacing; 
@@ -43,7 +43,7 @@ public class VirtualScroll : MonoBehaviour // TypeDefIndex: 12005
 
 }
 
-private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 12007
+private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 12026
 {
 	public int startVisible; 
 	public float endVisible; 
@@ -55,7 +55,7 @@ private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 12007
 
 }
 
-private sealed class VirtualScroll.<>c // TypeDefIndex: 12008
+private sealed class VirtualScroll.<>c // TypeDefIndex: 12027
 {
 	public static readonly VirtualScroll.<>c <>9; 
 	public static Func<int, int> <>9__20_1; 

@@ -1,4 +1,4 @@
-public class HudMenuInput : ListComponent<HudMenuInput> // TypeDefIndex: 8010
+public class HudMenuInput : ListComponent<HudMenuInput> // TypeDefIndex: 8011
 {
 
 internal class <Module> 

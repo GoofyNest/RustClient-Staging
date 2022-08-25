@@ -1,4 +1,4 @@
-public abstract class ProceduralObject : MonoBehaviour // TypeDefIndex: 10568
+public abstract class ProceduralObject : MonoBehaviour // TypeDefIndex: 10573
 {
 
 	protected void Awake() { }

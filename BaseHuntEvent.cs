@@ -1,4 +1,4 @@
-public class BaseHuntEvent : BaseEntity // TypeDefIndex: 9815
+public class BaseHuntEvent : BaseEntity // TypeDefIndex: 9818
 {
 	public GameObjectRef[] HuntablePrefab; 
 	public AudioSource huntStartSound; 

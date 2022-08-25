@@ -98,7 +98,7 @@ internal struct Version.VersionResult // TypeDefIndex: 336
 
 }
 
-public static class Version // TypeDefIndex: 11559
+public static class Version // TypeDefIndex: 11578
 {
 	public const int Current = 1510;
 

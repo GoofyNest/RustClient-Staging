@@ -1,4 +1,4 @@
-public class RigidbodyInfo : PrefabAttribute, IClientComponent // TypeDefIndex: 11337
+public class RigidbodyInfo : PrefabAttribute, IClientComponent // TypeDefIndex: 11356
 {
 	public float mass; 
 	public float drag; 

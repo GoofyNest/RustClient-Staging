@@ -1,4 +1,4 @@
-public class WhitelistLootContainer : LootContainer // TypeDefIndex: 9619
+public class WhitelistLootContainer : LootContainer // TypeDefIndex: 9622
 {
 	public static readonly Translate.Phrase CantLootToast; 
 

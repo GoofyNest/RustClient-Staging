@@ -1,4 +1,4 @@
-public struct MeshColliderInstance // TypeDefIndex: 9157
+public struct MeshColliderInstance // TypeDefIndex: 9159
 {
 	public Transform transform; 
 	public Rigidbody rigidbody; 

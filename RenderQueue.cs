@@ -1,4 +1,4 @@
-public enum RenderQueue // TypeDefIndex: 11550
+public enum RenderQueue // TypeDefIndex: 11569
 {
 	public int value__; 
 	public const RenderQueue Custom = 0;

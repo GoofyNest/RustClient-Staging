@@ -1,4 +1,4 @@
-public class LiquidVessel : HeldEntity // TypeDefIndex: 8596
+public class LiquidVessel : HeldEntity // TypeDefIndex: 8598
 {
 	private float busyTime; 
 

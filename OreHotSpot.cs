@@ -1,4 +1,4 @@
-public class OreHotSpot : BaseCombatEntity, ILOD // TypeDefIndex: 8811
+public class OreHotSpot : BaseCombatEntity, ILOD // TypeDefIndex: 8813
 {
 	public float visualDistance; 
 	public GameObjectRef visualEffect; 

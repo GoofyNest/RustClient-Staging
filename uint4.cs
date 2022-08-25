@@ -1,4 +1,4 @@
-public struct uint4 : IEquatable<uint4>, IFormattable // TypeDefIndex: 7118
+public struct uint4 : IEquatable<uint4>, IFormattable // TypeDefIndex: 7119
 {
 
 [DefaultMemberAttribute] 

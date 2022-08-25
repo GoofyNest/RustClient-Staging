@@ -1,4 +1,4 @@
-public class DamageTypeEntry // TypeDefIndex: 12036
+public class DamageTypeEntry // TypeDefIndex: 12055
 {
 	public DamageType type; 
 	public float amount; 

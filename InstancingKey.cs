@@ -1,4 +1,4 @@
-public struct InstancingKey : IEquatable<InstancingKey> // TypeDefIndex: 11367
+public struct InstancingKey : IEquatable<InstancingKey> // TypeDefIndex: 11386
 {
 	public Mesh mesh; 
 	public int submeshIndex; 

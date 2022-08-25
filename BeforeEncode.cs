@@ -1,4 +1,4 @@
-public class BeforeEncode : Attribute // TypeDefIndex: 11580
+public class BeforeEncode : Attribute // TypeDefIndex: 11599
 {
 
 	public void .ctor() { }

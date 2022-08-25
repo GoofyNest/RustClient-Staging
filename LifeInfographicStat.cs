@@ -1,4 +1,4 @@
-public class LifeInfographicStat : MonoBehaviour // TypeDefIndex: 11077
+public class LifeInfographicStat : MonoBehaviour // TypeDefIndex: 11096
 {
 	public LifeInfographicStat.DataType dataSource; 
 	[HeaderAttribute] 
@@ -23,7 +23,7 @@ public class LifeInfographicStat : MonoBehaviour // TypeDefIndex: 11077
 
 }
 
-public enum LifeInfographicStat.DataType // TypeDefIndex: 11078
+public enum LifeInfographicStat.DataType // TypeDefIndex: 11097
 {
 	public int value__; 
 	public const LifeInfographicStat.DataType None = 0;
@@ -52,7 +52,7 @@ public enum LifeInfographicStat.DataType // TypeDefIndex: 11078
 
 }
 
-public enum LifeInfographicStat.WeaponInfoType // TypeDefIndex: 11079
+public enum LifeInfographicStat.WeaponInfoType // TypeDefIndex: 11098
 {
 	public int value__; 
 	public const LifeInfographicStat.WeaponInfoType TotalShots = 0;

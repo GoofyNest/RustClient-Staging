@@ -1,4 +1,4 @@
-public class BlueprintCraftGridRow : MonoBehaviour // TypeDefIndex: 10989
+public class BlueprintCraftGridRow : MonoBehaviour // TypeDefIndex: 10995
 {
 	public GameObject amount; 
 	public GameObject itemName; 

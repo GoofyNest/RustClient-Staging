@@ -1,4 +1,4 @@
-public class Boar : BaseAnimalNPC // TypeDefIndex: 8922
+public class Boar : BaseAnimalNPC // TypeDefIndex: 8924
 {
 	[ServerVar] 
 	public static float Population; 

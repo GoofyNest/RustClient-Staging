@@ -1,4 +1,4 @@
-public class EdgeER // TypeDefIndex: 6873
+public class EdgeER // TypeDefIndex: 6874
 {
 
 internal class <Module> 

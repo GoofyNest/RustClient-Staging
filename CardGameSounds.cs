@@ -1,4 +1,4 @@
-public class CardGameSounds : PrefabAttribute // TypeDefIndex: 9580
+public class CardGameSounds : PrefabAttribute // TypeDefIndex: 9583
 {
 	public SoundDefinition ChipsSfx; 
 	public SoundDefinition DrawSfx; 
@@ -17,7 +17,7 @@ public class CardGameSounds : PrefabAttribute // TypeDefIndex: 9580
 
 }
 
-public enum CardGameSounds.SoundType // TypeDefIndex: 9581
+public enum CardGameSounds.SoundType // TypeDefIndex: 9584
 {
 	public int value__; 
 	public const CardGameSounds.SoundType Chips = 0;

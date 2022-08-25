@@ -1,4 +1,4 @@
-public class ExcavatorEngineSounds : MonoBehaviour, IClientComponent // TypeDefIndex: 9630
+public class ExcavatorEngineSounds : MonoBehaviour, IClientComponent // TypeDefIndex: 9633
 {
 	public SoundPlayer[] engineStartClunks; 
 

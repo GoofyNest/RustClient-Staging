@@ -1,4 +1,4 @@
-public class TriggerParentExclusion : TriggerBase, IServerComponent // TypeDefIndex: 10040
+public class TriggerParentExclusion : TriggerBase, IServerComponent // TypeDefIndex: 10045
 {
 
 	public void .ctor() { }

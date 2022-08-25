@@ -1,4 +1,4 @@
-public class GrowableGene // TypeDefIndex: 9541
+public class GrowableGene // TypeDefIndex: 9543
 {
 	[CompilerGeneratedAttribute] 
 	private GrowableGenetics.GeneType <Type>k__BackingField; 

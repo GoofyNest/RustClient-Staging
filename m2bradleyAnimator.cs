@@ -1,4 +1,4 @@
-public class m2bradleyAnimator : MonoBehaviour // TypeDefIndex: 9594
+public class m2bradleyAnimator : MonoBehaviour // TypeDefIndex: 9597
 {
 	public Animator m2Animator; 
 	public Material treadLeftMaterial; 

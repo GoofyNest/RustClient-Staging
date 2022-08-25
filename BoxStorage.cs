@@ -1,4 +1,4 @@
-public class BoxStorage : StorageContainer // TypeDefIndex: 9512
+public class BoxStorage : StorageContainer // TypeDefIndex: 9514
 {
 
 	public void .ctor() { }

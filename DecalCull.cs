@@ -1,4 +1,4 @@
-public class DecalCull : LODComponent // TypeDefIndex: 9926
+public class DecalCull : LODComponent // TypeDefIndex: 9931
 {
 	public float Distance; 
 	private DeferredDecal decal; 

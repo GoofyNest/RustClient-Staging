@@ -1,4 +1,4 @@
-public class MaterialSetup : MonoBehaviour, IClientComponent // TypeDefIndex: 11323
+public class MaterialSetup : MonoBehaviour, IClientComponent // TypeDefIndex: 11342
 {
 	public MaterialConfig config; 
 

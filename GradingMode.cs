@@ -1,4 +1,4 @@
-public enum GradingMode // TypeDefIndex: 11777
+public enum GradingMode // TypeDefIndex: 11796
 {
 	public int value__; 
 	public const GradingMode LowDefinitionRange = 0;

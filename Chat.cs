@@ -1,4 +1,4 @@
-internal enum ChatEntryType // TypeDefIndex: 5139
+internal enum ChatEntryType // TypeDefIndex: 5140
 {
 	public int value__; 
 	public const ChatEntryType Invalid = 0;
@@ -16,13 +16,16 @@ internal enum ChatEntryType // TypeDefIndex: 5139
 
 }
 
-public class ChatEntry : MonoBehaviour // TypeDefIndex: 10833
+public class ChatEntry : MonoBehaviour // TypeDefIndex: 10838
 {
 	public TextMeshProUGUI text; 
 	public RawImage avatar; 
 	public CanvasGroup canvasGroup; 
 	public float lifeStarted; 
 	public ulong steamid; 
+	public Translate.Phrase LocalPhrase; 
+	public Translate.Phrase CardsPhrase; 
+	public Translate.Phrase TeamPhrase; 
 	private Texture defaultTexture; 
 	private Action<ChatEntry> clickedAction; 
 
@@ -43,9 +46,14 @@ public class ChatEntry : MonoBehaviour // TypeDefIndex: 10833
 
 }
 
-public class Chat : ConsoleSystem // TypeDefIndex: 11890
+public class Chat : ConsoleSystem // TypeDefIndex: 11909
 {
-	private const float textRange = 50;
+	[ServerVar] 
+	public static float localChatRange; 
+	[ReplicatedVar] 
+	public static bool globalchat; 
+	[ReplicatedVar] 
+	public static bool localchat; 
 	private const float textVolumeBoost = 0,2;
 	[ServerVar] 
 	[ClientVar] 
@@ -100,17 +108,18 @@ public class Chat : ConsoleSystem // TypeDefIndex: 11890
 
 }
 
-public enum Chat.ChatChannel // TypeDefIndex: 11891
+public enum Chat.ChatChannel // TypeDefIndex: 11910
 {
 	public int value__; 
 	public const Chat.ChatChannel Global = 0;
 	public const Chat.ChatChannel Team = 1;
 	public const Chat.ChatChannel Server = 2;
 	public const Chat.ChatChannel Cards = 3;
+	public const Chat.ChatChannel Local = 4;
 
 }
 
-public struct Chat.ChatEntry // TypeDefIndex: 11892
+public struct Chat.ChatEntry // TypeDefIndex: 11911
 {
 	[CompilerGeneratedAttribute] 
 	private Chat.ChatChannel <Channel>k__BackingField; 
@@ -171,7 +180,7 @@ public struct Chat.ChatEntry // TypeDefIndex: 11892
 
 }
 
-public struct Chat.MuteEntry // TypeDefIndex: 11893
+public struct Chat.MuteEntry // TypeDefIndex: 11912
 {
 	public ulong UserID; 
 	public string UserName; 
@@ -182,7 +191,7 @@ public struct Chat.MuteEntry // TypeDefIndex: 11893
 
 }
 
-public class Chat.MuteList // TypeDefIndex: 11894
+public class Chat.MuteList // TypeDefIndex: 11913
 {
 	private Dictionary<ulong, Chat.MuteEntry> entries; 
 
@@ -212,17 +221,17 @@ public class Chat.MuteList // TypeDefIndex: 11894
 
 }
 
-private sealed class Chat.<>c // TypeDefIndex: 11895
+private sealed class Chat.<>c // TypeDefIndex: 11914
 {
 	public static readonly Chat.<>c <>9; 
-	public static Action<UIChat> <>9__23_0; 
+	public static Action<UIChat> <>9__25_0; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal void <clear>b__23_0(UIChat chat) { }
+	internal void <clear>b__25_0(UIChat chat) { }
 
 }
 

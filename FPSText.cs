@@ -1,4 +1,4 @@
-public class FPSText : MonoBehaviour // TypeDefIndex: 10933
+public class FPSText : MonoBehaviour // TypeDefIndex: 10938
 {
 	public Text text; 
 	private Stopwatch fpsTimer; 

@@ -1,4 +1,4 @@
-public class TimeSlider : MonoBehaviour // TypeDefIndex: 11241
+public class TimeSlider : MonoBehaviour // TypeDefIndex: 11260
 {
 	private Slider slider; 
 

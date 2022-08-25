@@ -1,4 +1,4 @@
-public struct Info // TypeDefIndex: 11677
+public struct Info // TypeDefIndex: 11696
 {
 	public string action; 
 	public string icon; 

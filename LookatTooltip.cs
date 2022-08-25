@@ -1,4 +1,4 @@
-public class LookatTooltip : MonoBehaviour // TypeDefIndex: 11087
+public class LookatTooltip : MonoBehaviour // TypeDefIndex: 11106
 {
 	public static bool Enabled; 
 	public BaseEntity currentlyLookingAt; 

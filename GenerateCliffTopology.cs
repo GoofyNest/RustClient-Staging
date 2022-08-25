@@ -1,4 +1,4 @@
-public class GenerateCliffTopology : ProceduralComponent // TypeDefIndex: 10454
+public class GenerateCliffTopology : ProceduralComponent // TypeDefIndex: 10459
 {
 	public bool KeepExisting; 
 	private const int filter = 8389632;
@@ -14,7 +14,7 @@ public class GenerateCliffTopology : ProceduralComponent // TypeDefIndex: 10454
 
 }
 
-private sealed class GenerateCliffTopology.<>c__DisplayClass4_0 // TypeDefIndex: 10455
+private sealed class GenerateCliffTopology.<>c__DisplayClass4_0 // TypeDefIndex: 10460
 {
 	public GenerateCliffTopology <>4__this; 
 	public int res; 

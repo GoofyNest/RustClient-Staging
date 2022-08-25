@@ -1,4 +1,4 @@
-public enum MonitorType // TypeDefIndex: 11824
+public enum MonitorType // TypeDefIndex: 11843
 {
 	public int value__; 
 	public const MonitorType LightMeter = 0;

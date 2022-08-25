@@ -1,4 +1,4 @@
-public sealed class Note : IComparable<Note> // TypeDefIndex: 7433
+public sealed class Note : IComparable<Note> // TypeDefIndex: 7434
 {
 
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=20 
@@ -68,7 +68,7 @@ public sealed class Note : IComparable<Note>
 
 }
 
-public class Note : ILengthedObject, ITimedObject // TypeDefIndex: 7438
+public class Note : ILengthedObject, ITimedObject // TypeDefIndex: 7439
 {
 	public static readonly SevenBitNumber DefaultVelocity; 
 	[CompilerGeneratedAttribute] 
@@ -123,7 +123,7 @@ public class Note : ILengthedObject, ITimedObject // TypeDefIndex: 7438
 
 }
 
-public class Note : ConsoleSystem // TypeDefIndex: 11953
+public class Note : ConsoleSystem // TypeDefIndex: 11972
 {
 
 	[ClientVar] 

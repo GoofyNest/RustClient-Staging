@@ -1,4 +1,4 @@
-public class ConditionalSocketSettings // TypeDefIndex: 12103
+public class ConditionalSocketSettings // TypeDefIndex: 12122
 {
 	public bool restrictOnLocation; 
 	public ConditionalSocketSettings.LocationCondition locationRestriction; 
@@ -14,7 +14,7 @@ public class ConditionalSocketSettings // TypeDefIndex: 12103
 
 }
 
-public enum ConditionalSocketSettings.LocationCondition // TypeDefIndex: 12104
+public enum ConditionalSocketSettings.LocationCondition // TypeDefIndex: 12123
 {
 	public int value__; 
 	public const ConditionalSocketSettings.LocationCondition Middle = 0;

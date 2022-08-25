@@ -1,4 +1,4 @@
-public class HandSnowball : BaseMelee // TypeDefIndex: 8826
+public class HandSnowball : BaseMelee // TypeDefIndex: 8828
 {
 
 	public void .ctor() { }

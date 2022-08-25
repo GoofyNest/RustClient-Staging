@@ -1,4 +1,4 @@
-public class StagedResourceBreakEffect : MonoBehaviour, IEffect // TypeDefIndex: 9677
+public class StagedResourceBreakEffect : MonoBehaviour, IEffect // TypeDefIndex: 9680
 {
 
 	public virtual void SetupEffect(Effect effect) { }

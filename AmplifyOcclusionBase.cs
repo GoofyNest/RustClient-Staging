@@ -1,4 +1,4 @@
-public class AmplifyOcclusionBase : MonoBehaviour // TypeDefIndex: 11472
+public class AmplifyOcclusionBase : MonoBehaviour // TypeDefIndex: 11491
 {
 	[HeaderAttribute] 
 	public AmplifyOcclusionBase.ApplicationMethod ApplyMethod; 
@@ -189,7 +189,7 @@ public class AmplifyOcclusionBase : MonoBehaviour // TypeDefIndex: 11472
 
 }
 
-public enum AmplifyOcclusionBase.ApplicationMethod // TypeDefIndex: 11473
+public enum AmplifyOcclusionBase.ApplicationMethod // TypeDefIndex: 11492
 {
 	public int value__; 
 	public const AmplifyOcclusionBase.ApplicationMethod PostEffect = 0;
@@ -198,7 +198,7 @@ public enum AmplifyOcclusionBase.ApplicationMethod // TypeDefIndex: 11473
 
 }
 
-public enum AmplifyOcclusionBase.PerPixelNormalSource // TypeDefIndex: 11474
+public enum AmplifyOcclusionBase.PerPixelNormalSource // TypeDefIndex: 11493
 {
 	public int value__; 
 	public const AmplifyOcclusionBase.PerPixelNormalSource None = 0;
@@ -208,7 +208,7 @@ public enum AmplifyOcclusionBase.PerPixelNormalSource // TypeDefIndex: 11474
 
 }
 
-public enum AmplifyOcclusionBase.SampleCountLevel // TypeDefIndex: 11475
+public enum AmplifyOcclusionBase.SampleCountLevel // TypeDefIndex: 11494
 {
 	public int value__; 
 	public const AmplifyOcclusionBase.SampleCountLevel Low = 0;
@@ -218,7 +218,7 @@ public enum AmplifyOcclusionBase.SampleCountLevel // TypeDefIndex: 11475
 
 }
 
-private struct AmplifyOcclusionBase.CmdBuffer // TypeDefIndex: 11476
+private struct AmplifyOcclusionBase.CmdBuffer // TypeDefIndex: 11495
 {
 	public CommandBuffer cmdBuffer; 
 	public CameraEvent cmdBufferEvent; 
@@ -226,7 +226,7 @@ private struct AmplifyOcclusionBase.CmdBuffer // TypeDefIndex: 11476
 
 }
 
-private struct AmplifyOcclusionBase.TargetDesc // TypeDefIndex: 11477
+private struct AmplifyOcclusionBase.TargetDesc // TypeDefIndex: 11496
 {
 	public int fullWidth; 
 	public int fullHeight; 
@@ -238,7 +238,7 @@ private struct AmplifyOcclusionBase.TargetDesc // TypeDefIndex: 11477
 
 }
 
-private static class AmplifyOcclusionBase.ShaderPass // TypeDefIndex: 11478
+private static class AmplifyOcclusionBase.ShaderPass // TypeDefIndex: 11497
 {
 	public const int CombineDownsampledOcclusionDepth = 16;
 	public const int CombineEmission = 17;
@@ -267,7 +267,7 @@ private static class AmplifyOcclusionBase.ShaderPass // TypeDefIndex: 11478
 
 }
 
-private static class AmplifyOcclusionBase.PropertyID // TypeDefIndex: 11479
+private static class AmplifyOcclusionBase.PropertyID // TypeDefIndex: 11498
 {
 	public static readonly int _AO_Radius; 
 	public static readonly int _AO_PixelRadiusLimit; 

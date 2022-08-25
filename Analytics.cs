@@ -1,4 +1,4 @@
-public static class Analytics.Client // TypeDefIndex: 12031
+public static class Analytics.Client // TypeDefIndex: 12050
 {
 
 public static class Analytics.Client 

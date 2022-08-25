@@ -1,4 +1,4 @@
-public class Batching : ConsoleSystem // TypeDefIndex: 11888
+public class Batching : ConsoleSystem // TypeDefIndex: 11907
 {
 	[ClientVar] 
 	public static bool renderers; 

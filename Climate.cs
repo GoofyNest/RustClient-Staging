@@ -1,4 +1,4 @@
-public class Climate : SingletonComponent<Climate> // TypeDefIndex: 9829
+public class Climate : SingletonComponent<Climate> // TypeDefIndex: 9832
 {
 	private const float fadeAngle = 20;
 	private const float defaultTemp = 15;
@@ -176,7 +176,7 @@ public class Climate : SingletonComponent<Climate> // TypeDefIndex: 9829
 
 }
 
-public class Climate.ClimateParameters // TypeDefIndex: 9830
+public class Climate.ClimateParameters // TypeDefIndex: 9833
 {
 	public AnimationCurve Temperature; 
 	[HorizontalAttribute] 
@@ -191,7 +191,7 @@ public class Climate.ClimateParameters // TypeDefIndex: 9830
 
 }
 
-public class Climate.WeatherParameters // TypeDefIndex: 9831
+public class Climate.WeatherParameters // TypeDefIndex: 9834
 {
 	[RangeAttribute] 
 	public float ClearChance; 
@@ -211,7 +211,7 @@ public class Climate.WeatherParameters // TypeDefIndex: 9831
 
 }
 
-public class Climate.Value4<T> // TypeDefIndex: 9832
+public class Climate.Value4<T> // TypeDefIndex: 9835
 {
 	public T Dawn; 
 	public T Noon; 
@@ -240,28 +240,28 @@ public class Climate.Value4<T> // TypeDefIndex: 9832
 
 }
 
-public class Climate.Float4 : Climate.Value4<float> // TypeDefIndex: 9833
+public class Climate.Float4 : Climate.Value4<float> // TypeDefIndex: 9836
 {
 
 	public void .ctor() { }
 
 }
 
-public class Climate.Color4 : Climate.Value4<Color> // TypeDefIndex: 9834
+public class Climate.Color4 : Climate.Value4<Color> // TypeDefIndex: 9837
 {
 
 	public void .ctor() { }
 
 }
 
-public class Climate.Texture2D4 : Climate.Value4<Texture2D> // TypeDefIndex: 9835
+public class Climate.Texture2D4 : Climate.Value4<Texture2D> // TypeDefIndex: 9838
 {
 
 	public void .ctor() { }
 
 }
 
-private sealed class Climate.<>c__DisplayClass87_0 // TypeDefIndex: 9836
+private sealed class Climate.<>c__DisplayClass87_0 // TypeDefIndex: 9839
 {
 	public WeatherPresetType type; 
 

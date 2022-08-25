@@ -1,4 +1,4 @@
-public class TeamUI : MonoBehaviour // TypeDefIndex: 11239
+public class TeamUI : MonoBehaviour // TypeDefIndex: 11258
 {
 	public static Translate.Phrase invitePhrase; 
 	public RectTransform MemberPanel; 

@@ -1,4 +1,4 @@
-public class LargeShredder : BaseEntity // TypeDefIndex: 9634
+public class LargeShredder : BaseEntity // TypeDefIndex: 9637
 {
 	public Transform shredRail; 
 	public Transform shredRailStartPos; 

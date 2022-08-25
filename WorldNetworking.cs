@@ -1,4 +1,4 @@
-public class WorldNetworking // TypeDefIndex: 10574
+public class WorldNetworking // TypeDefIndex: 10579
 {
 	private const int prefabsPerPacket = 100;
 	private const int pathsPerPacket = 10;

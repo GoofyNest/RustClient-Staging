@@ -1,4 +1,4 @@
-public class LoadBalancer : SingletonComponent<LoadBalancer> // TypeDefIndex: 11315
+public class LoadBalancer : SingletonComponent<LoadBalancer> // TypeDefIndex: 11334
 {
 	public static bool Paused; 
 	private const float MinMilliseconds = 1;

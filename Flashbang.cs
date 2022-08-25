@@ -1,4 +1,4 @@
-public class Flashbang : TimedExplosive // TypeDefIndex: 8570
+public class Flashbang : TimedExplosive // TypeDefIndex: 8572
 {
 	public SoundDefinition deafLoopDef; 
 	public float flashReductionPerSecond; 

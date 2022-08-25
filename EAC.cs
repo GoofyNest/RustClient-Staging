@@ -1,4 +1,4 @@
-public static class EAC // TypeDefIndex: 9186
+public static class EAC // TypeDefIndex: 9188
 {
 	public static bool isLoading; 
 	public static string lastError; 
@@ -42,7 +42,7 @@ public static class EAC // TypeDefIndex: 9186
 
 }
 
-private sealed class EAC.<DoStartup>d__12 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 9187
+private sealed class EAC.<DoStartup>d__12 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 9189
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -70,7 +70,7 @@ private sealed class EAC.<DoStartup>d__12 : IEnumerator<object>, IEnumerator, ID
 
 }
 
-private struct EAC.<OnJoinServer>d__16 : IAsyncStateMachine // TypeDefIndex: 9188
+private struct EAC.<OnJoinServer>d__16 : IAsyncStateMachine // TypeDefIndex: 9190
 {
 	public int <>1__state; 
 	public AsyncTaskMethodBuilder <>t__builder; 

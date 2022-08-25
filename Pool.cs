@@ -1,4 +1,4 @@
-public static class Pool // TypeDefIndex: 4835
+public static class Pool // TypeDefIndex: 4836
 {
 	public static Dictionary<Type, Pool.ICollection> directory; 
 
@@ -506,6 +506,7 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.Free<List<int>>
 	|-Pool.Free<Stopwatch>
 	|-Pool.Free<object>
+	|-Pool.Free<StringBuilder>
 	|-Pool.Free<WaitForSecondsRealtimeEx>
 	|-Pool.Free<WaterDynamics.InstanceBatch>
 	*/
@@ -891,6 +892,7 @@ public static class Pool // TypeDefIndex: 4835
 	|-Pool.Get<List<TriggerBase>>
 	|-Pool.Get<Stopwatch>
 	|-Pool.Get<MemoryStream>
+	|-Pool.Get<StringBuilder>
 	|-Pool.Get<WaitForSecondsRealtimeEx>
 	|-Pool.Get<WaterDynamics.InstanceBatch>
 	|-Pool.Get<object>
@@ -1132,7 +1134,7 @@ public static class Pool // TypeDefIndex: 4835
 
 }
 
-public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
+public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4839
 {
 	public T[] buffer; 
 	[CompilerGeneratedAttribute] 
@@ -1249,7 +1251,7 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4838
 
 }
 
-public class Pool : ConsoleSystem // TypeDefIndex: 11959
+public class Pool : ConsoleSystem // TypeDefIndex: 11978
 {
 	[ServerVar] 
 	[ClientVar] 
@@ -1299,7 +1301,7 @@ public class Pool : ConsoleSystem // TypeDefIndex: 11959
 
 }
 
-private sealed class Pool.<>c // TypeDefIndex: 11960
+private sealed class Pool.<>c // TypeDefIndex: 11979
 {
 	public static readonly Pool.<>c <>9; 
 	public static Func<KeyValuePair<Type, Pool.ICollection>, long> <>9__4_0; 

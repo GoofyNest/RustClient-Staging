@@ -1,4 +1,4 @@
-public class BaseEventUI : MonoBehaviour // TypeDefIndex: 10793
+public class BaseEventUI : MonoBehaviour // TypeDefIndex: 10798
 {
 	[HideInInspector] 
 	public AIEventType EventType; 

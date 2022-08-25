@@ -1,4 +1,4 @@
-public class FrankensteinPet : BasePet, IAISenses, IAIAttack // TypeDefIndex: 8571
+public class FrankensteinPet : BasePet, IAISenses, IAIAttack // TypeDefIndex: 8573
 {
 	[HeaderAttribute] 
 	[ServerVar] 

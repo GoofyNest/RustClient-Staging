@@ -389,6 +389,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<JsonSerializerInternalReader.CreatorPropertyContext>.Dispose
 	|-List.Enumerator<SerializationCallback>.Dispose
 	|-List.Enumerator<OutlineObject>.Dispose
+	|-List.Enumerator<OvenItemIcon>.Dispose
 	|-List.Enumerator<PaintableItem>.Dispose
 	|-List.Enumerator<ParticleSystemContainer.ParticleSystemGroup>.Dispose
 	|-List.Enumerator<PathFinder.Node>.Dispose
@@ -771,6 +772,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<JsonSerializerInternalReader.CreatorPropertyContext>.MoveNext
 	|-List.Enumerator<SerializationCallback>.MoveNext
 	|-List.Enumerator<OutlineObject>.MoveNext
+	|-List.Enumerator<OvenItemIcon>.MoveNext
 	|-List.Enumerator<PaintableItem>.MoveNext
 	|-List.Enumerator<PathFinder.Node>.MoveNext
 	|-List.Enumerator<PathList.MeshObject>.MoveNext
@@ -1461,6 +1463,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<JsonSerializerInternalReader.CreatorPropertyContext>.get_Current
 	|-List.Enumerator<SerializationCallback>.get_Current
 	|-List.Enumerator<OutlineObject>.get_Current
+	|-List.Enumerator<OvenItemIcon>.get_Current
 	|-List.Enumerator<PaintableItem>.get_Current
 	|-List.Enumerator<PathFinder.Node>.get_Current
 	|-List.Enumerator<PathFinder.Point>.get_Current
@@ -2205,7 +2208,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 
 }
 
-public static class List // TypeDefIndex: 4843
+public static class List // TypeDefIndex: 4844
 {
 
 	[ExtensionAttribute] 

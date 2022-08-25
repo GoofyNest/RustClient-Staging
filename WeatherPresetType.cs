@@ -1,4 +1,4 @@
-public enum WeatherPresetType // TypeDefIndex: 10077
+public enum WeatherPresetType // TypeDefIndex: 10082
 {
 	public int value__; 
 	public const WeatherPresetType Clear = 0;

@@ -1,4 +1,4 @@
-public sealed class DecodeException : Exception // TypeDefIndex: 11585
+public sealed class DecodeException : Exception // TypeDefIndex: 11604
 {
 
 	public void .ctor(string message) { }

@@ -1,4 +1,4 @@
-public class ProcessedTexture // TypeDefIndex: 11368
+public class ProcessedTexture // TypeDefIndex: 11387
 {
 	protected RenderTexture result; 
 	protected Material material; 

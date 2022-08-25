@@ -1,4 +1,4 @@
-public enum Headset.EFFECT_TYPE // TypeDefIndex: 7660
+public enum Headset.EFFECT_TYPE // TypeDefIndex: 7661
 {
 
 public enum Headset.EFFECT_TYPE 
@@ -12,7 +12,7 @@ public enum Headset.EFFECT_TYPE
 
 }
 
-public struct Headset.STATIC_EFFECT_TYPE // TypeDefIndex: 7661
+public struct Headset.STATIC_EFFECT_TYPE // TypeDefIndex: 7662
 {
 	public int Color; 
 

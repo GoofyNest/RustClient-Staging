@@ -1,4 +1,4 @@
-public class SpawnHandler : SingletonComponent<SpawnHandler> // TypeDefIndex: 10012
+public class SpawnHandler : SingletonComponent<SpawnHandler> // TypeDefIndex: 10017
 {
 	public float TickInterval; 
 	public int MinSpawnsPerTick; 

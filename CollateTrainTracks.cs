@@ -1,4 +1,4 @@
-public class CollateTrainTracks : ProceduralComponent // TypeDefIndex: 10447
+public class CollateTrainTracks : ProceduralComponent // TypeDefIndex: 10452
 {
 
 	public override void Process(uint seed) { }

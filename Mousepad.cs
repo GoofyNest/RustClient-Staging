@@ -1,4 +1,4 @@
-public enum Mousepad.EFFECT_TYPE // TypeDefIndex: 7663
+public enum Mousepad.EFFECT_TYPE // TypeDefIndex: 7664
 {
 
 public enum Mousepad.EFFECT_TYPE 
@@ -14,7 +14,7 @@ public enum Mousepad.EFFECT_TYPE
 
 }
 
-public struct Mousepad.STATIC_EFFECT_TYPE // TypeDefIndex: 7664
+public struct Mousepad.STATIC_EFFECT_TYPE // TypeDefIndex: 7665
 {
 	public int Color; 
 

@@ -3165,6 +3165,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	/* GenericInstMethod :
 	|
 	|-Enumerable.Where<BaseNetworkable>
+	|-Enumerable.Where<BaseOven>
 	|-Enumerable.Where<ConsoleSystem.Command>
 	|-Enumerable.Where<ConstructionGrade>
 	|-Enumerable.Where<CraftingQueueIcon>
@@ -3251,6 +3252,9 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Select<BaseNetworkable, Debugging.EntityInfo>
 	|-Enumerable.Select<object, Debugging.EntityInfo>
 	|
+	|-Enumerable.Select<BaseOven, float>
+	|-Enumerable.Select<object, float>
+	|
 	|-Enumerable.Select<BaseViewModel, string>
 	|-Enumerable.Select<Input.Button, string>
 	|-Enumerable.Select<Manifest.ServerDesc, string>
@@ -3278,6 +3282,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Select<string, string>
 	|-Enumerable.Select<string, Match>
 	|-Enumerable.Select<Match, string>
+	|-Enumerable.Select<GameObject, BaseOven>
 	|-Enumerable.Select<GameObject, ItemBlueprint>
 	|-Enumerable.Select<GameObject, ItemDefinition>
 	|-Enumerable.Select<Toggle, SteamInventoryItem>
@@ -3395,8 +3400,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Select<DictionaryEntry, KeyValuePair<object, object>>
 	|
 	|-Enumerable.Select<object, long>
-	|
-	|-Enumerable.Select<object, float>
 	*/
 
 	private static Func<TSource, bool> CombinePredicates<TSource>(Func<TSource, bool> predicate1, Func<TSource, bool> predicate2) { }
@@ -4117,6 +4120,8 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Distinct<object>
 	|
 	|-Enumerable.Distinct<ServerInfo>
+	|
+	|-Enumerable.Distinct<float>
 	*/
 
 	[ExtensionAttribute] 
@@ -4134,6 +4139,8 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.DistinctIterator<ServerInfo>
 	|
 	|-Enumerable.DistinctIterator<object>
+	|
+	|-Enumerable.DistinctIterator<float>
 	*/
 
 	[ExtensionAttribute] 
@@ -4297,6 +4304,8 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ToArray<char>
 	|
 	|-Enumerable.ToArray<int>
+	|
+	|-Enumerable.ToArray<float>
 	|
 	|-Enumerable.ToArray<uint>
 	|
@@ -4514,6 +4523,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|
 	|-Enumerable.FirstOrDefault<Input.Button>
 	|-Enumerable.FirstOrDefault<IPlayerItemDefinition>
+	|-Enumerable.FirstOrDefault<OvenItemIcon.OvenSlotConfig>
 	|-Enumerable.FirstOrDefault<Skinnable>
 	|-Enumerable.FirstOrDefault<string>
 	|-Enumerable.FirstOrDefault<Match>
@@ -11785,6 +11795,8 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>..ctor
 	|
 	|-Enumerable.<DistinctIterator>d__68<object>..ctor
+	|
+	|-Enumerable.<DistinctIterator>d__68<float>..ctor
 	*/
 
 	[DebuggerHiddenAttribute] 
@@ -11793,6 +11805,7 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 	|
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.System.IDisposable.Dispose
 	|-Enumerable.<DistinctIterator>d__68<object>.System.IDisposable.Dispose
+	|-Enumerable.<DistinctIterator>d__68<float>.System.IDisposable.Dispose
 	*/
 
 	private bool MoveNext() { }
@@ -11801,6 +11814,8 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.MoveNext
 	|
 	|-Enumerable.<DistinctIterator>d__68<object>.MoveNext
+	|
+	|-Enumerable.<DistinctIterator>d__68<float>.MoveNext
 	*/
 
 	private void <>m__Finally1() { }
@@ -11809,6 +11824,8 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.<>m__Finally1
 	|
 	|-Enumerable.<DistinctIterator>d__68<object>.<>m__Finally1
+	|
+	|-Enumerable.<DistinctIterator>d__68<float>.<>m__Finally1
 	*/
 
 	[DebuggerHiddenAttribute] 
@@ -11818,6 +11835,8 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	|
 	|-Enumerable.<DistinctIterator>d__68<object>.System.Collections.Generic.IEnumerator<TSource>.get_Current
+	|
+	|-Enumerable.<DistinctIterator>d__68<float>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	*/
 
 	[DebuggerHiddenAttribute] 
@@ -11827,6 +11846,8 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.System.Collections.IEnumerator.Reset
 	|
 	|-Enumerable.<DistinctIterator>d__68<object>.System.Collections.IEnumerator.Reset
+	|
+	|-Enumerable.<DistinctIterator>d__68<float>.System.Collections.IEnumerator.Reset
 	*/
 
 	[DebuggerHiddenAttribute] 
@@ -11836,6 +11857,8 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.System.Collections.IEnumerator.get_Current
 	|
 	|-Enumerable.<DistinctIterator>d__68<object>.System.Collections.IEnumerator.get_Current
+	|
+	|-Enumerable.<DistinctIterator>d__68<float>.System.Collections.IEnumerator.get_Current
 	*/
 
 	[DebuggerHiddenAttribute] 
@@ -11845,6 +11868,8 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|
 	|-Enumerable.<DistinctIterator>d__68<object>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
+	|
+	|-Enumerable.<DistinctIterator>d__68<float>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	*/
 
 	[DebuggerHiddenAttribute] 
@@ -11853,6 +11878,7 @@ private sealed class Enumerable.<DistinctIterator>d__68<TSource> : IEnumerable<T
 	|
 	|-Enumerable.<DistinctIterator>d__68<ServerInfo>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<DistinctIterator>d__68<object>.System.Collections.IEnumerable.GetEnumerator
+	|-Enumerable.<DistinctIterator>d__68<float>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
 }
@@ -12581,24 +12607,25 @@ internal class EnumerableSorter<TElement, TKey> : EnumerableSorter<TElement> // 
 	/* GenericInstMethod :
 	|
 	|-EnumerableSorter<Demos.DemoInfo, DateTime>.CompareKeys
-	|-EnumerableSorter<Item, DateTime>.CompareKeys
+	|-EnumerableSorter<Demos.DemoInfo, TimeSpan>.CompareKeys
 	|
 	|-EnumerableSorter<Demos.DemoInfo, object>.CompareKeys
-	|-EnumerableSorter<ServerInfo, object>.CompareKeys
-	|-EnumerableSorter<KeyValuePair<object, long>, long>.CompareKeys
-	|-EnumerableSorter<KeyValuePair<object, object>, long>.CompareKeys
-	|
-	|-EnumerableSorter<Demos.DemoInfo, TimeSpan>.CompareKeys
-	|-EnumerableSorter<object, DateTime>.CompareKeys
 	|
 	|-EnumerableSorter<ServerInfo, int>.CompareKeys
 	|-EnumerableSorter<ServerInfo, uint>.CompareKeys
-	|-EnumerableSorter<object, uint>.CompareKeys
-	|
 	|-EnumerableSorter<KeyValuePair<object, int>, int>.CompareKeys
 	|-EnumerableSorter<object, int>.CompareKeys
 	|-EnumerableSorter<object, Int32Enum>.CompareKeys
+	|-EnumerableSorter<object, uint>.CompareKeys
 	|-EnumerableSorter<Resolution, int>.CompareKeys
+	|
+	|-EnumerableSorter<ServerInfo, object>.CompareKeys
+	|-EnumerableSorter<KeyValuePair<object, long>, long>.CompareKeys
+	|-EnumerableSorter<KeyValuePair<object, object>, long>.CompareKeys
+	|-EnumerableSorter<object, object>.CompareKeys
+	|
+	|-EnumerableSorter<Item, DateTime>.CompareKeys
+	|-EnumerableSorter<object, DateTime>.CompareKeys
 	|
 	|-EnumerableSorter<double, double>.CompareKeys
 	|
@@ -12607,14 +12634,12 @@ internal class EnumerableSorter<TElement, TKey> : EnumerableSorter<TElement> // 
 	|-EnumerableSorter<object, DateTimeOffset>.CompareKeys
 	|-EnumerableSorter<object, Guid>.CompareKeys
 	|
-	|-EnumerableSorter<object, object>.CompareKeys
-	|
 	|-EnumerableSorter<object, float>.CompareKeys
 	*/
 
 }
 
-public sealed class EnumMemberAttribute : Attribute // TypeDefIndex: 5707
+public sealed class EnumMemberAttribute : Attribute // TypeDefIndex: 5708
 {
 	private string value; 
 
@@ -12625,7 +12650,7 @@ public sealed class EnumMemberAttribute : Attribute // TypeDefIndex: 5707
 
 }
 
-internal static class EnumUtils // TypeDefIndex: 5954
+internal static class EnumUtils // TypeDefIndex: 5955
 {
 	private static readonly ThreadSafeStore<Type, BidirectionalDictionary<string, string>> EnumMemberNamesPerType; 
 
@@ -12644,7 +12669,7 @@ internal static class EnumUtils // TypeDefIndex: 5954
 
 }
 
-private sealed class EnumUtils.<>c // TypeDefIndex: 5955
+private sealed class EnumUtils.<>c // TypeDefIndex: 5956
 {
 	public static readonly EnumUtils.<>c <>9; 
 	public static Func<EnumMemberAttribute, string> <>9__1_0; 
@@ -12661,7 +12686,7 @@ private sealed class EnumUtils.<>c // TypeDefIndex: 5955
 
 }
 
-private sealed class EnumUtils.<>c__2<T> // TypeDefIndex: 5956
+private sealed class EnumUtils.<>c__2<T> // TypeDefIndex: 5957
 {
 	public static readonly EnumUtils.<>c__2<T> <>9; 
 
@@ -12672,7 +12697,7 @@ private sealed class EnumUtils.<>c__2<T> // TypeDefIndex: 5956
 
 }
 
-public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 10799
+public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 10804
 {
 	public object Value; 
 	public RustText TextValue; 
@@ -12687,7 +12712,7 @@ public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 10799
 
 }
 
-public class EnumListUI : MonoBehaviour // TypeDefIndex: 10800
+public class EnumListUI : MonoBehaviour // TypeDefIndex: 10805
 {
 	public Transform PrefabItem; 
 	public Transform Container; 

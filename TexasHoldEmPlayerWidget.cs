@@ -1,4 +1,4 @@
-public class TexasHoldEmPlayerWidget : MonoBehaviour // TypeDefIndex: 10887
+public class TexasHoldEmPlayerWidget : MonoBehaviour // TypeDefIndex: 10892
 {
 	[SerializeField] 
 	private RawImage avatar; 
@@ -65,7 +65,7 @@ public class TexasHoldEmPlayerWidget : MonoBehaviour // TypeDefIndex: 10887
 
 }
 
-public enum TexasHoldEmPlayerWidget.PlayerUIState // TypeDefIndex: 10888
+public enum TexasHoldEmPlayerWidget.PlayerUIState // TypeDefIndex: 10893
 {
 	public int value__; 
 	public const TexasHoldEmPlayerWidget.PlayerUIState Default = 0;
@@ -77,7 +77,7 @@ public enum TexasHoldEmPlayerWidget.PlayerUIState // TypeDefIndex: 10888
 
 }
 
-public enum TexasHoldEmPlayerWidget.PlayerChipState // TypeDefIndex: 10889
+public enum TexasHoldEmPlayerWidget.PlayerChipState // TypeDefIndex: 10894
 {
 	public int value__; 
 	public const TexasHoldEmPlayerWidget.PlayerChipState None = 0;

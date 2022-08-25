@@ -1,4 +1,4 @@
-internal class FieldMultipleFilter : PathFilter // TypeDefIndex: 6086
+internal class FieldMultipleFilter : PathFilter // TypeDefIndex: 6087
 {
 
 [PreserveAttribute] 
@@ -8,7 +8,7 @@ internal class FieldMultipleFilter : PathFilter
 
 }
 
-private sealed class FieldMultipleFilter.<>c // TypeDefIndex: 6087
+private sealed class FieldMultipleFilter.<>c // TypeDefIndex: 6088
 {
 	public static readonly FieldMultipleFilter.<>c <>9; 
 

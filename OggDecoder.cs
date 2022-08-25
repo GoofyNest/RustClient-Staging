@@ -1,4 +1,4 @@
-public class OggDecoder : IDisposable // TypeDefIndex: 9013
+public class OggDecoder : IDisposable // TypeDefIndex: 9015
 {
 	private IntPtr _nativeDecoder; 
 

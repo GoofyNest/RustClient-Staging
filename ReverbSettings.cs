@@ -1,4 +1,4 @@
-public class ReverbSettings : ScriptableObject // TypeDefIndex: 9017
+public class ReverbSettings : ScriptableObject // TypeDefIndex: 9019
 {
 	[RangeAttribute] 
 	public int room; 

@@ -1,4 +1,4 @@
-public class ScaleTransform : ScaleRenderer // TypeDefIndex: 9364
+public class ScaleTransform : ScaleRenderer // TypeDefIndex: 9366
 {
 	private Vector3 initialScale; 
 

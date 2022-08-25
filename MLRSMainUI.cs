@@ -1,4 +1,4 @@
-public class MLRSMainUI : MonoBehaviour // TypeDefIndex: 9724
+public class MLRSMainUI : MonoBehaviour // TypeDefIndex: 9727
 {
 	[SerializeField] 
 	private bool isFullscreen; 

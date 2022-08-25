@@ -1,4 +1,4 @@
-public class RCBookmarkEntry : MonoBehaviour // TypeDefIndex: 8686
+public class RCBookmarkEntry : MonoBehaviour // TypeDefIndex: 8688
 {
 	[CompilerGeneratedAttribute] 
 	private string <identifier>k__BackingField; 

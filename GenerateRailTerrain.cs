@@ -1,4 +1,4 @@
-public class GenerateRailTerrain : ProceduralComponent // TypeDefIndex: 10498
+public class GenerateRailTerrain : ProceduralComponent // TypeDefIndex: 10503
 {
 	public const int SmoothenLoops = 8;
 	public const int SmoothenIterations = 8;
@@ -13,7 +13,7 @@ public class GenerateRailTerrain : ProceduralComponent // TypeDefIndex: 10498
 
 }
 
-private sealed class GenerateRailTerrain.<>c // TypeDefIndex: 10499
+private sealed class GenerateRailTerrain.<>c // TypeDefIndex: 10504
 {
 	public static readonly GenerateRailTerrain.<>c <>9; 
 	public static Func<int, float> <>9__5_0; 

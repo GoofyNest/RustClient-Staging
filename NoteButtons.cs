@@ -1,4 +1,4 @@
-public static class NoteButtons // TypeDefIndex: 12121
+public static class NoteButtons // TypeDefIndex: 12140
 {
 	public static Buttons.ConButton[] Regular; 
 	public static Buttons.ConButton[] Sharp; 

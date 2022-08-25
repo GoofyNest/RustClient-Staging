@@ -1,4 +1,4 @@
-public class TechTreeGroup : TechTreeWidget // TypeDefIndex: 10919
+public class TechTreeGroup : TechTreeWidget // TypeDefIndex: 10924
 {
 
 	public override void SetLocked(bool isLocked) { }

@@ -1,4 +1,4 @@
-public class GenerateCliffSplat : ProceduralComponent // TypeDefIndex: 10452
+public class GenerateCliffSplat : ProceduralComponent // TypeDefIndex: 10457
 {
 	private const int filter = 8389632;
 
@@ -11,7 +11,7 @@ public class GenerateCliffSplat : ProceduralComponent // TypeDefIndex: 10452
 
 }
 
-private sealed class GenerateCliffSplat.<>c__DisplayClass2_0 // TypeDefIndex: 10453
+private sealed class GenerateCliffSplat.<>c__DisplayClass2_0 // TypeDefIndex: 10458
 {
 	public int splatres; 
 

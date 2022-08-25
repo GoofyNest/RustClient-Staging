@@ -1967,7 +1967,7 @@ public static class AsyncGPUReadback // TypeDefIndex: 3803
 
 }
 
-public class AsyncTextureLoad : CustomYieldInstruction // TypeDefIndex: 6627
+public class AsyncTextureLoad : CustomYieldInstruction // TypeDefIndex: 6628
 {
 	private IntPtr buffer; 
 	private int size; 
@@ -2017,7 +2017,7 @@ public class AsyncTextureLoad : CustomYieldInstruction // TypeDefIndex: 6627
 
 }
 
-public sealed class AsyncMethodBuilderAttribute : Attribute // TypeDefIndex: 7091
+public sealed class AsyncMethodBuilderAttribute : Attribute // TypeDefIndex: 7092
 {
 	[CompilerGeneratedAttribute] 
 	private readonly Type <BuilderType>k__BackingField; 
@@ -2027,7 +2027,7 @@ public sealed class AsyncMethodBuilderAttribute : Attribute // TypeDefIndex: 709
 
 }
 
-public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7092
+public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7093
 {
 	private AsyncTaskMethodBuilder _methodBuilder; 
 	private bool _haveResult; 
@@ -2093,7 +2093,7 @@ public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7092
 
 }
 
-public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7093
+public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7094
 {
 	private AsyncTaskMethodBuilder<TResult> _methodBuilder; 
 	private TResult _result; 
@@ -2162,7 +2162,7 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7093
 
 }
 
-public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 10318
+public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 10323
 {
 	private List<int> indices; 
 	private List<Vector3> vertices; 
