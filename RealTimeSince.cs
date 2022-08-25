@@ -7,5 +7,7 @@ public struct RealTimeSince // TypeDefIndex: 6166
 
 	public static RealTimeSince op_Implicit(float ts) { }
 
+	public override string ToString() { }
+
 }
 

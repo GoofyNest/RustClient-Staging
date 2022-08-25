@@ -7,5 +7,7 @@ public struct TimeUntil // TypeDefIndex: 6165
 
 	public static TimeUntil op_Implicit(float ts) { }
 
+	public override string ToString() { }
+
 }
 

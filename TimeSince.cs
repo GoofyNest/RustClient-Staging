@@ -7,5 +7,7 @@ public struct TimeSince // TypeDefIndex: 6164
 
 	public static TimeSince op_Implicit(float ts) { }
 
+	public override string ToString() { }
+
 }
 

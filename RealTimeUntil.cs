@@ -7,5 +7,7 @@ public struct RealTimeUntil // TypeDefIndex: 6167
 
 	public static RealTimeUntil op_Implicit(float ts) { }
 
+	public override string ToString() { }
+
 }
 
