@@ -1,7 +1,7 @@
 public enum ChromaLink.EFFECT_TYPE // TypeDefIndex: 7670
 {
 
-public enum ChromaLink.EFFECT_TYPE 
+public enum ChromaLink.EFFECT_TYPE
 	public int value__; 
 	public const ChromaLink.EFFECT_TYPE CHROMA_NONE = 0;
 	public const ChromaLink.EFFECT_TYPE CHROMA_CUSTOM = 1;

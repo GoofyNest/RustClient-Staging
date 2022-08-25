@@ -1,7 +1,7 @@
 public class MLRSAmmoIcon : MonoBehaviour // TypeDefIndex: 9724
 {
 
-public class MLRSAmmoIcon : MonoBehaviour 
+public class MLRSAmmoIcon : MonoBehaviour
 	[SerializeField] 
 	private GameObject fill; 
 

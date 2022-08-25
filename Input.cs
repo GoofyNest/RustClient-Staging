@@ -97,7 +97,7 @@ public class Input // TypeDefIndex: 4075
 public static class Input // TypeDefIndex: 6668
 {
 
-public static class Input 
+public static class Input
 	private static readonly Memoized<string, string> WithoutFirstChar; 
 	[CompilerGeneratedAttribute] 
 	private static Action<string, bool> RunBind; 

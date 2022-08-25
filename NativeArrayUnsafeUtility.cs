@@ -3,10 +3,10 @@ public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 
 [AttributeUsageAttribute] 
 [RequiredByNativeCodeAttribute] 
-public sealed class NativeSetClassTypeToNullOnScheduleAttribute : Attribute 
+public sealed class NativeSetClassTypeToNullOnScheduleAttribute : Attribute
 
 [ExtensionAttribute] 
-public static class NativeArrayUnsafeUtility 
+public static class NativeArrayUnsafeUtility
 
 	public static NativeArray<T> ConvertExistingDataToNativeArray<T>(void* dataPointer, int length, Allocator allocator) { }
 	/* GenericInstMethod :

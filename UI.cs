@@ -585,7 +585,7 @@ internal interface IThreadPoolWorkItem // TypeDefIndex: 805
 internal interface ITaskCompletionAction // TypeDefIndex: 867
 {
 
-internal interface ITaskCompletionAction 
+internal interface ITaskCompletionAction
 
 	public abstract void Invoke(Task completingTask);
 
@@ -656,7 +656,7 @@ public interface IDeserializationCallback // TypeDefIndex: 1029
 {
 
 [ComVisibleAttribute] 
-public interface IDeserializationCallback 
+public interface IDeserializationCallback
 
 	public abstract void OnDeserialization(object sender);
 
@@ -871,7 +871,7 @@ public interface IChannelReceiver : IChannel // TypeDefIndex: 1196
 {
 
 [ComVisibleAttribute] 
-public interface IChannelReceiver : IChannel 
+public interface IChannelReceiver : IChannel
 	public abstract object ChannelData { get; }
 
 
@@ -978,7 +978,7 @@ public interface IMessageSink // TypeDefIndex: 1242
 {
 
 [ComVisibleAttribute] 
-public interface IMessageSink 
+public interface IMessageSink
 
 	public abstract IMessage SyncProcessMessage(IMessage msg);
 
@@ -990,7 +990,7 @@ public interface IMethodMessage : IMessage // TypeDefIndex: 1244
 {
 
 [ComVisibleAttribute] 
-public interface IMethodMessage : IMessage 
+public interface IMethodMessage : IMessage
 	public abstract int ArgCount { get; }
 	public abstract object[] Args { get; }
 	public abstract LogicalCallContext LogicalCallContext { get; }
@@ -1931,9 +1931,9 @@ public interface IXmlSchemaInfo // TypeDefIndex: 2258
 public interface IChangeTracking // TypeDefIndex: 2711
 {
 
-public interface IBindingList : IList, ICollection, IEnumerable 
+public interface IBindingList : IList, ICollection, IEnumerable
 
-public interface IChangeTracking 
+public interface IChangeTracking
 	public abstract bool IsChanged { get; }
 
 
@@ -2021,9 +2021,9 @@ public interface ISynchronizeInvoke // TypeDefIndex: 2718
 public class UInt16Converter : BaseNumberConverter // TypeDefIndex: 2769
 {
 
-private sealed class TypeDescriptor.TypeDescriptorInterface 
+private sealed class TypeDescriptor.TypeDescriptorInterface
 
-public class UInt16Converter : BaseNumberConverter 
+public class UInt16Converter : BaseNumberConverter
 	internal override Type TargetType { get; }
 
 
@@ -2080,7 +2080,7 @@ public interface IDesignerHost : IServiceProvider // TypeDefIndex: 2782
 {
 
 [ComVisibleAttribute] 
-public interface IDesignerHost : IServiceProvider 
+public interface IDesignerHost : IServiceProvider
 	public abstract IComponent RootComponent { get; }
 
 
@@ -2109,7 +2109,7 @@ public interface IExtenderListService // TypeDefIndex: 2784
 public interface ITypeDescriptorFilterService // TypeDefIndex: 2786
 {
 
-public interface ITypeDescriptorFilterService 
+public interface ITypeDescriptorFilterService
 
 	public abstract bool FilterAttributes(IComponent component, IDictionary attributes);
 
@@ -2288,10 +2288,10 @@ public interface ISerializationCallbackReceiver // TypeDefIndex: 3548
 
 [AttributeUsageAttribute] 
 [RequiredByNativeCodeAttribute] 
-public sealed class PreferBinarySerialization : Attribute 
+public sealed class PreferBinarySerialization : Attribute
 
 [RequiredByNativeCodeAttribute] 
-public interface ISerializationCallbackReceiver 
+public interface ISerializationCallbackReceiver
 
 	[RequiredByNativeCodeAttribute] 
 	public abstract void OnBeforeSerialize();
@@ -2312,7 +2312,7 @@ public interface INotificationReceiver // TypeDefIndex: 3862
 {
 
 [RequiredByNativeCodeAttribute] 
-public interface INotificationReceiver 
+public interface INotificationReceiver
 
 	[RequiredByNativeCodeAttribute] 
 	public abstract void OnNotify(Playable origin, INotification notification, object context);
@@ -2358,9 +2358,9 @@ public interface IScriptableRuntimeReflectionSystem : IDisposable // TypeDefInde
 internal interface ISubsystemDescriptorImpl : ISubsystemDescriptor // TypeDefIndex: 3938
 {
 
-public interface ISubsystemDescriptor 
+public interface ISubsystemDescriptor
 
-internal interface ISubsystemDescriptorImpl : ISubsystemDescriptor 
+internal interface ISubsystemDescriptorImpl : ISubsystemDescriptor
 	public abstract IntPtr ptr { set; }
 
 
@@ -2458,7 +2458,7 @@ public interface IDataRecord // TypeDefIndex: 4270
 public interface IDbDataAdapter // TypeDefIndex: 4272
 {
 
-public interface IDbDataAdapter 
+public interface IDbDataAdapter
 	public abstract IDbCommand SelectCommand { get; }
 	public abstract IDbCommand InsertCommand { get; set; }
 	public abstract IDbCommand UpdateCommand { get; set; }
@@ -2888,7 +2888,7 @@ internal interface IStyleValue<T> // TypeDefIndex: 4716
 public interface ICanvasRaycastFilter // TypeDefIndex: 4730
 {
 
-public interface ICanvasRaycastFilter 
+public interface ICanvasRaycastFilter
 
 	public abstract bool IsRaycastLocationValid(Vector2 sp, Camera eventCamera);
 
@@ -3147,9 +3147,9 @@ public interface ILayoutController // TypeDefIndex: 4973
 public interface ILayoutIgnorer // TypeDefIndex: 4976
 {
 
-public interface ILayoutSelfController : ILayoutController 
+public interface ILayoutSelfController : ILayoutController
 
-public interface ILayoutIgnorer 
+public interface ILayoutIgnorer
 	public abstract bool ignoreLayout { get; }
 
 
@@ -3202,7 +3202,7 @@ internal interface ITweenValue // TypeDefIndex: 5039
 public interface IPointerEnterHandler : IEventSystemHandler // TypeDefIndex: 5055
 {
 
-public interface IPointerEnterHandler : IEventSystemHandler 
+public interface IPointerEnterHandler : IEventSystemHandler
 
 	public abstract void OnPointerEnter(PointerEventData eventData);
 
@@ -3809,7 +3809,7 @@ public interface ITraceWriter // TypeDefIndex: 5977
 {
 
 [PreserveAttribute] 
-public interface ITraceWriter 
+public interface ITraceWriter
 	public abstract TraceLevel LevelFilter { get; }
 
 
@@ -3978,11 +3978,11 @@ public interface ICustomMaterialReplacer // TypeDefIndex: 6574
 public interface IPrefabPreProcess // TypeDefIndex: 6579
 {
 
-public interface IServerComponent 
+public interface IServerComponent
 
-public interface IClientComponent 
+public interface IClientComponent
 
-public interface IPrefabPreProcess 
+public interface IPrefabPreProcess
 
 	public abstract void PreProcess(IPrefabProcessor preProcess, GameObject rootObj, string name, bool serverside, bool clientside, bool bundling);
 

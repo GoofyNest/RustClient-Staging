@@ -225,7 +225,7 @@ public struct AnimationClipPlayable : IEquatable<AnimationClipPlayable> // TypeD
 [RequiredByNativeCodeAttribute] 
 [StaticAccessorAttribute] 
 [NativeHeaderAttribute] 
-public struct AnimationClipPlayable : IEquatable<AnimationClipPlayable> 
+public struct AnimationClipPlayable : IEquatable<AnimationClipPlayable>
 	private PlayableHandle m_Handle; 
 
 
@@ -374,14 +374,14 @@ public struct AnimationStream // TypeDefIndex: 4513
 public class AnimationTriggers // TypeDefIndex: 4905
 {
 
-private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=104 
+private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=104
 
-internal class <Module> 
+internal class <Module>
 
-internal class <Module> 
+internal class <Module>
 
 [Serializable]
-public class AnimationTriggers 
+public class AnimationTriggers
 	private const string kDefaultNormalAnimName = "Normal";
 	private const string kDefaultHighlightedAnimName = "Highlighted";
 	private const string kDefaultPressedAnimName = "Pressed";

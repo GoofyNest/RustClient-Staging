@@ -159,7 +159,7 @@ public static class Math // TypeDefIndex: 266
 public static class math // TypeDefIndex: 7100
 {
 
-public static class math 
+public static class math
 
 	public static float2 float2(float x, float y) { }
 

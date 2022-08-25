@@ -1,9 +1,9 @@
 public sealed class SqliteConnection : DbConnection, ICloneable // TypeDefIndex: 4853
 {
 
-internal class <Module> 
+internal class <Module>
 
-public sealed class SqliteConnection : DbConnection, ICloneable 
+public sealed class SqliteConnection : DbConnection, ICloneable
 	private ConnectionState _connectionState; 
 	private string _connectionString; 
 	internal int _transactionLevel; 
@@ -697,9 +697,9 @@ public sealed class SQLiteUpdateEventHandler : MulticastDelegate // TypeDefIndex
 internal static class SqliteConnectionPool // TypeDefIndex: 4869
 {
 
-public class CommitEventArgs : EventArgs 
+public class CommitEventArgs : EventArgs
 
-internal static class SqliteConnectionPool 
+internal static class SqliteConnectionPool
 	private static SortedList<string, SqliteConnectionPool.Pool> _connections; 
 	private static int _poolVersion; 
 

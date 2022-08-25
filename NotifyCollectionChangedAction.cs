@@ -2,10 +2,10 @@ public enum NotifyCollectionChangedAction // TypeDefIndex: 5860
 {
 
 [PreserveAttribute] 
-public interface INotifyPropertyChanging 
+public interface INotifyPropertyChanging
 
 [PreserveAttribute] 
-public enum NotifyCollectionChangedAction 
+public enum NotifyCollectionChangedAction
 	public int value__; 
 	public const NotifyCollectionChangedAction Add = 0;
 	public const NotifyCollectionChangedAction Remove = 1;

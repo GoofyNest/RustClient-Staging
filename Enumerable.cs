@@ -212,7 +212,7 @@ private class Enum.ValuesAndNames // TypeDefIndex: 214
 public abstract class EnumBuilder : TypeInfo // TypeDefIndex: 602
 {
 
-public abstract class EnumBuilder : TypeInfo 
+public abstract class EnumBuilder : TypeInfo
 	public override Assembly Assembly { get; }
 	public override string AssemblyQualifiedName { get; }
 	public override Type BaseType { get; }
@@ -291,7 +291,7 @@ public abstract class EnumBuilder : TypeInfo
 internal static class EnumHelper<UnderlyingType> // TypeDefIndex: 1511
 {
 
-internal static class EnumHelper<UnderlyingType> 
+internal static class EnumHelper<UnderlyingType>
 	private static readonly MethodInfo IdentityInfo; 
 
 

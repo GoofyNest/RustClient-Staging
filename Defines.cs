@@ -99,13 +99,13 @@ internal static class Defines // TypeDefIndex: 5504
 public static class Defines // TypeDefIndex: 6641
 {
 
-private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048 
+private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048
 
-internal class <Module> 
+internal class <Module>
 
-internal class <Module> 
+internal class <Module>
 
-public static class Defines 
+public static class Defines
 	public const string Ident = "RUST DEMO FORMAT";
 
 }

@@ -4,7 +4,7 @@ public struct uint3 : IEquatable<uint3>, IFormattable // TypeDefIndex: 7117
 [DebuggerTypeProxyAttribute] 
 [DefaultMemberAttribute] 
 [Serializable]
-public struct uint3 : IEquatable<uint3>, IFormattable 
+public struct uint3 : IEquatable<uint3>, IFormattable
 	public uint x; 
 	public uint y; 
 	public uint z; 

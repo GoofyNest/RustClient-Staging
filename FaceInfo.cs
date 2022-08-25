@@ -3,7 +3,7 @@ public struct FaceInfo // TypeDefIndex: 4109
 
 [UsedByNativeCodeAttribute] 
 [Serializable]
-public struct FaceInfo 
+public struct FaceInfo
 	[NativeNameAttribute] 
 	[SerializeField] 
 	private string m_FamilyName; 

@@ -4099,7 +4099,7 @@ public class DataView : MarshalByValueComponent, IBindingList, IList, ICollectio
 [DefaultEventAttribute] 
 [DefaultPropertyAttribute] 
 [DefaultMemberAttribute] 
-public class DataView : MarshalByValueComponent, IBindingList, IList, ICollection, IEnumerable 
+public class DataView : MarshalByValueComponent, IBindingList, IList, ICollection, IEnumerable
 	private DataViewManager _dataViewManager; 
 	private DataTable _table; 
 	private bool _locked; 
@@ -5053,7 +5053,7 @@ public sealed class DataColumnMappingCollection : MarshalByRefObject // TypeDefI
 {
 
 [DefaultMemberAttribute] 
-public sealed class DataColumnMappingCollection : MarshalByRefObject 
+public sealed class DataColumnMappingCollection : MarshalByRefObject
 	private List<DataColumnMapping> _items; 
 
 	[BrowsableAttribute] 
@@ -5784,7 +5784,7 @@ public sealed class DataContractAttribute : Attribute // TypeDefIndex: 5706
 {
 
 [AttributeUsageAttribute] 
-public sealed class DataContractAttribute : Attribute 
+public sealed class DataContractAttribute : Attribute
 	private bool isReference; 
 
 	public bool IsReference { get; }
@@ -5948,7 +5948,7 @@ private sealed class Database.<>c__DisplayClass4_1 // TypeDefIndex: 6189
 public class Database // TypeDefIndex: 7357
 {
 
-public class Database 
+public class Database
 	private IntPtr _connection; 
 	[CompilerGeneratedAttribute] 
 	private bool <IsConnectionOpen>k__BackingField; 

@@ -136,11 +136,11 @@ private sealed class DefaultContractResolver.<>c // TypeDefIndex: 5995
 {
 
 [CompilerGeneratedAttribute] 
-private sealed class DefaultContractResolver.EnumerableDictionaryWrapper.<GetEnumerator>d__2<TEnumeratorKey, TEnumeratorValue> 
+private sealed class DefaultContractResolver.EnumerableDictionaryWrapper.<GetEnumerator>d__2<TEnumeratorKey, TEnumeratorValue>
 
 [CompilerGeneratedAttribute] 
 [Serializable]
-private sealed class DefaultContractResolver.<>c 
+private sealed class DefaultContractResolver.<>c
 	public static readonly DefaultContractResolver.<>c <>9; 
 	public static Func<MemberInfo, bool> <>9__30_0; 
 	public static Func<MemberInfo, bool> <>9__30_1; 

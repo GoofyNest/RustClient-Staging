@@ -5363,88 +5363,88 @@ public struct DictionaryEntry // TypeDefIndex: 1373
 [CLSCompliantAttribute] 
 [GuidAttribute] 
 [InterfaceTypeAttribute] 
-public interface _Assembly 
+public interface _Assembly
 
 [InterfaceTypeAttribute] 
 [CLSCompliantAttribute] 
 [GuidAttribute] 
 [ComVisibleAttribute] 
-public interface _AssemblyName 
+public interface _AssemblyName
 
 [CLSCompliantAttribute] 
 [InterfaceTypeAttribute] 
 [ComVisibleAttribute] 
 [GuidAttribute] 
-public interface _ConstructorInfo 
+public interface _ConstructorInfo
 
 [ComVisibleAttribute] 
 [InterfaceTypeAttribute] 
 [GuidAttribute] 
 [CLSCompliantAttribute] 
-public interface _EventInfo 
+public interface _EventInfo
 
 [GuidAttribute] 
 [ComVisibleAttribute] 
 [CLSCompliantAttribute] 
 [InterfaceTypeAttribute] 
-public interface _Exception 
+public interface _Exception
 
 [ComVisibleAttribute] 
 [GuidAttribute] 
 [CLSCompliantAttribute] 
 [InterfaceTypeAttribute] 
-public interface _FieldInfo 
+public interface _FieldInfo
 
 [ComVisibleAttribute] 
 [GuidAttribute] 
 [InterfaceTypeAttribute] 
 [CLSCompliantAttribute] 
-public interface _MemberInfo 
+public interface _MemberInfo
 
 [CLSCompliantAttribute] 
 [GuidAttribute] 
 [InterfaceTypeAttribute] 
 [ComVisibleAttribute] 
-public interface _MethodBase 
+public interface _MethodBase
 
 [CLSCompliantAttribute] 
 [ComVisibleAttribute] 
 [GuidAttribute] 
 [InterfaceTypeAttribute] 
-public interface _MethodInfo 
+public interface _MethodInfo
 
 [ComVisibleAttribute] 
 [CLSCompliantAttribute] 
 [GuidAttribute] 
 [InterfaceTypeAttribute] 
-public interface _Module 
+public interface _Module
 
 [GuidAttribute] 
 [InterfaceTypeAttribute] 
 [ComVisibleAttribute] 
 [CLSCompliantAttribute] 
-public interface _ParameterInfo 
+public interface _ParameterInfo
 
 [CLSCompliantAttribute] 
 [ComVisibleAttribute] 
 [InterfaceTypeAttribute] 
 [GuidAttribute] 
-public interface _PropertyInfo 
+public interface _PropertyInfo
 
 [CLSCompliantAttribute] 
 [InterfaceTypeAttribute] 
 [GuidAttribute] 
 [ComVisibleAttribute] 
-public interface _Thread 
+public interface _Thread
 
 [ComVisibleAttribute] 
 [CLSCompliantAttribute] 
 [GuidAttribute] 
 [InterfaceTypeAttribute] 
-public interface _Type 
+public interface _Type
 
 [Serializable]
-public struct DictionaryEntry 
+public struct DictionaryEntry
 	private object _key; 
 	private object _value; 
 
@@ -5663,7 +5663,7 @@ public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerab
 [ComVisibleAttribute] 
 [DebuggerDisplayAttribute] 
 [Serializable]
-public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IList, ICollection, IReadOnlyList<T>, IReadOnlyCollection<T> 
+public class Collection<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IList, ICollection, IReadOnlyList<T>, IReadOnlyCollection<T>
 	private IList<T> items; 
 	private object _syncRoot; 
 
@@ -12754,7 +12754,7 @@ public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IRea
 [DebuggerTypeProxyAttribute] 
 [DebuggerDisplayAttribute] 
 [Serializable]
-public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T> 
+public class ConcurrentQueue<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T>
 	private object _crossSegmentLock; 
 	private ConcurrentQueue.Segment<T> _tail; 
 	private ConcurrentQueue.Segment<T> _head; 
@@ -42563,11 +42563,11 @@ internal class ObjectComparer<T> : Comparer<T> // TypeDefIndex: 1465
 public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer<T> // TypeDefIndex: 1468
 {
 
-internal sealed class Mscorlib_KeyedCollectionDebugView<K, T> 
+internal sealed class Mscorlib_KeyedCollectionDebugView<K, T>
 
 [TypeDependencyAttribute] 
 [Serializable]
-public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer<T> 
+public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer<T>
 	private static EqualityComparer<T> defaultComparer; 
 
 	public static EqualityComparer<T> Default { get; }
@@ -60596,16 +60596,16 @@ private class OrderedDictionary.OrderedDictionaryKeyValueCollection : ICollectio
 public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T>, ISerializable, IDeserializationCallback // TypeDefIndex: 3115
 {
 
-internal sealed class IDictionaryDebugView<K, V> 
+internal sealed class IDictionaryDebugView<K, V>
 
-internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue> 
+internal sealed class DictionaryKeyCollectionDebugView<TKey, TValue>
 
-internal sealed class DictionaryValueCollectionDebugView<TKey, TValue> 
+internal sealed class DictionaryValueCollectionDebugView<TKey, TValue>
 
 [DebuggerTypeProxyAttribute] 
 [DebuggerDisplayAttribute] 
 [Serializable]
-public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T>, ISerializable, IDeserializationCallback 
+public class LinkedList<T> : ICollection<T>, IEnumerable<T>, IEnumerable, ICollection, IReadOnlyCollection<T>, ISerializable, IDeserializationCallback
 	internal LinkedListNode<T> head; 
 	internal int count; 
 	internal int version; 
@@ -61011,7 +61011,7 @@ public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollec
 [DefaultMemberAttribute] 
 [DebuggerTypeProxyAttribute] 
 [Serializable]
-public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IDictionary, ICollection, IReadOnlyDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>> 
+public class SortedDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IDictionary, ICollection, IReadOnlyDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>>
 	private SortedDictionary.KeyCollection<TKey, TValue> _keys; 
 	private SortedDictionary.ValueCollection<TKey, TValue> _values; 
 	private TreeSet<KeyValuePair<TKey, TValue>> _set; 
@@ -63018,7 +63018,7 @@ internal sealed class CacheDict<TKey, TValue> // TypeDefIndex: 3250
 {
 
 [DefaultMemberAttribute] 
-internal sealed class CacheDict<TKey, TValue> 
+internal sealed class CacheDict<TKey, TValue>
 	private readonly int _mask; 
 	private readonly CacheDict.Entry<TKey, TValue>[] _entries; 
 
@@ -64517,7 +64517,7 @@ public abstract class MouseCaptureEventBase<T> : PointerCaptureEventBase<T> // T
 public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent // TypeDefIndex: 4629
 {
 
-public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent 
+public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent
 	private string m_CommandName; 
 
 	protected string commandName { set; }
@@ -64877,7 +64877,7 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4651
 public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // TypeDefIndex: 4662
 {
 
-public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent 
+public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
 	private EventModifiers <modifiers>k__BackingField; 
@@ -70072,7 +70072,7 @@ public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // T
 
 [PreserveAttribute] 
 [DefaultMemberAttribute] 
-public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable 
+public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable
 	public static readonly JEnumerable<T> Empty; 
 	private readonly IEnumerable<T> _enumerable; 
 
@@ -71327,7 +71327,7 @@ public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 95
 public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 9624
 {
 
-public abstract class BaseModifiers<T> : EntityComponent<T> 
+public abstract class BaseModifiers<T> : EntityComponent<T>
 	public List<Modifier> All; 
 	protected Dictionary<Modifier.ModifierType, float> totalValues; 
 	protected Dictionary<Modifier.ModifierType, float> modifierVariables; 

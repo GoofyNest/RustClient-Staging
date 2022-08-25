@@ -1,7 +1,7 @@
 public static class TerrainBiome // TypeDefIndex: 7782
 {
 
-public static class TerrainBiome 
+public static class TerrainBiome
 	public const int COUNT = 4;
 	public const int EVERYTHING = -1;
 	public const int NOTHING = 0;

@@ -46,7 +46,7 @@ internal static class Unsafe // TypeDefIndex: 1318
 public static class Unsafe // TypeDefIndex: 6665
 {
 
-public static class Unsafe 
+public static class Unsafe
 
 	[NonVersionableAttribute] 
 	public static int SizeOf<T>() { }

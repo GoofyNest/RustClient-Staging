@@ -1,7 +1,7 @@
 public enum AudioSpeakerMode // TypeDefIndex: 3998
 {
 
-public enum AudioSpeakerMode 
+public enum AudioSpeakerMode
 	public int value__; 
 	[ObsoleteAttribute] 
 	public const AudioSpeakerMode Raw = 0;
@@ -242,11 +242,11 @@ public sealed class AudioSource : AudioBehaviour // TypeDefIndex: 4011
 
 [StaticAccessorAttribute] 
 [RequireComponent] 
-public sealed class AudioListener : AudioBehaviour 
+public sealed class AudioListener : AudioBehaviour
 
 [RequireComponent] 
 [StaticAccessorAttribute] 
-public sealed class AudioSource : AudioBehaviour 
+public sealed class AudioSource : AudioBehaviour
 	public float volume { get; set; }
 	public float pitch { get; set; }
 	[NativePropertyAttribute] 
@@ -463,7 +463,7 @@ public struct AudioClipPlayable : IEquatable<AudioClipPlayable> // TypeDefIndex:
 [StaticAccessorAttribute] 
 [NativeHeaderAttribute] 
 [RequiredByNativeCodeAttribute] 
-public struct AudioClipPlayable : IEquatable<AudioClipPlayable> 
+public struct AudioClipPlayable : IEquatable<AudioClipPlayable>
 	private PlayableHandle m_Handle; 
 
 

@@ -1,7 +1,7 @@
 public static class Import // TypeDefIndex: 7792
 {
 
-public static class Import 
+public static class Import
 	private static Regex regex; 
 
 

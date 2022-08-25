@@ -1,9 +1,9 @@
 internal static class Consts // TypeDefIndex: 7370
 {
 
-internal class <Module> 
+internal class <Module>
 
-internal static class Consts 
+internal static class Consts
 	public const string MonoVersion = "2.6.5.0";
 	public const string MonoCompany = "MONO development team";
 	public const string MonoProduct = "MONO Common language infrastructure";
@@ -39,7 +39,7 @@ internal static class Consts
 internal static class Consts // TypeDefIndex: 7797
 {
 
-internal static class Consts 
+internal static class Consts
 	public const string MonoVersion = "2.6.5.0";
 	public const string MonoCompany = "MONO development team";
 	public const string MonoProduct = "MONO Common language infrastructure";
@@ -75,9 +75,9 @@ internal static class Consts
 internal static class Consts // TypeDefIndex: 7840
 {
 
-internal class <Module> 
+internal class <Module>
 
-internal static class Consts 
+internal static class Consts
 	public const string MonoVersion = "2.6.5.0";
 	public const string MonoCompany = "MONO development team";
 	public const string MonoProduct = "MONO Common language infrastructure";
@@ -113,9 +113,9 @@ internal static class Consts
 internal static class Consts // TypeDefIndex: 7858
 {
 
-internal class <Module> 
+internal class <Module>
 
-internal static class Consts 
+internal static class Consts
 	public const string MonoVersion = "2.6.5.0";
 	public const string MonoCompany = "MONO development team";
 	public const string MonoProduct = "MONO Common language infrastructure";
@@ -151,9 +151,9 @@ internal static class Consts
 internal static class Consts // TypeDefIndex: 7899
 {
 
-internal class <Module> 
+internal class <Module>
 
-internal static class Consts 
+internal static class Consts
 	public const string MonoVersion = "2.6.5.0";
 	public const string MonoCompany = "MONO development team";
 	public const string MonoProduct = "MONO Common language infrastructure";
@@ -189,9 +189,9 @@ internal static class Consts
 internal static class Consts // TypeDefIndex: 7977
 {
 
-internal class <Module> 
+internal class <Module>
 
-internal static class Consts 
+internal static class Consts
 	public const string MonoVersion = "2.6.5.0";
 	public const string MonoCompany = "MONO development team";
 	public const string MonoProduct = "MONO Common language infrastructure";

@@ -190,7 +190,7 @@ internal class EventPayload : IDictionary<string, object>, ICollection<KeyValueP
 {
 
 [DefaultMemberAttribute] 
-internal class EventPayload : IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable 
+internal class EventPayload : IDictionary<string, object>, ICollection<KeyValuePair<string, object>>, IEnumerable<KeyValuePair<string, object>>, IEnumerable
 	private List<string> m_names; 
 	private List<object> m_values; 
 
@@ -1121,7 +1121,7 @@ public class EventDescriptorCollection : ICollection, IEnumerable, IList // Type
 
 [DefaultMemberAttribute] 
 [ComVisibleAttribute] 
-public class EventDescriptorCollection : ICollection, IEnumerable, IList 
+public class EventDescriptorCollection : ICollection, IEnumerable, IList
 	private EventDescriptor[] events; 
 	private string[] namedSort; 
 	private IComparer comparer; 
@@ -1244,7 +1244,7 @@ public sealed class Event // TypeDefIndex: 4025
 
 [NativeHeaderAttribute] 
 [StaticAccessorAttribute] 
-public sealed class Event 
+public sealed class Event
 	internal IntPtr m_Ptr; 
 	private static Event s_Current; 
 	private static Event s_MasterEvent; 

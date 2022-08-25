@@ -2,7 +2,7 @@ public sealed class NotifyCollectionChangedEventHandler : MulticastDelegate // T
 {
 
 [PreserveAttribute] 
-public sealed class NotifyCollectionChangedEventHandler : MulticastDelegate 
+public sealed class NotifyCollectionChangedEventHandler : MulticastDelegate
 
 	public void .ctor(object object, IntPtr method) { }
 

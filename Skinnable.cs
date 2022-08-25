@@ -2,7 +2,7 @@ public class Skinnable : ScriptableObject // TypeDefIndex: 7716
 {
 
 [CreateAssetMenuAttribute] 
-public class Skinnable : ScriptableObject 
+public class Skinnable : ScriptableObject
 	public string Name; 
 	public string ItemName; 
 	public GameObject EntityPrefab; 

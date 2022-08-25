@@ -25,7 +25,7 @@ public class Native // TypeDefIndex: 7324
 {
 
 [SuppressUnmanagedCodeSecurityAttribute] 
-public class Native 
+public class Native
 
 	public static extern IntPtr NET_Create() { }
 

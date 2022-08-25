@@ -21,7 +21,7 @@ public enum UgcType // TypeDefIndex: 5160
 public enum UGCType // TypeDefIndex: 9522
 {
 
-public enum UGCType 
+public enum UGCType
 	public int value__; 
 	public const UGCType ImageJpg = 0;
 	public const UGCType ImagePng = 1;

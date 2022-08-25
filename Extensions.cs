@@ -122,7 +122,7 @@ private sealed class Extensions.<>c__13<T, U> // TypeDefIndex: 6055
 
 [CompilerGeneratedAttribute] 
 [Serializable]
-private sealed class Extensions.<>c__13<T, U> 
+private sealed class Extensions.<>c__13<T, U>
 	public static readonly Extensions.<>c__13<T, U> <>9; 
 
 

@@ -4,16 +4,16 @@ public sealed class Terrain : Behaviour // TypeDefIndex: 4088
 [RequireComponent] 
 [RequiredByNativeCodeAttribute] 
 [NativeHeaderAttribute] 
-public class Collider2D : Behaviour 
+public class Collider2D : Behaviour
 
-internal class <Module> 
+internal class <Module>
 
 [NativeHeaderAttribute] 
 [UsedByNativeCodeAttribute] 
 [StaticAccessorAttribute] 
 [NativeHeaderAttribute] 
 [NativeHeaderAttribute] 
-public sealed class Terrain : Behaviour 
+public sealed class Terrain : Behaviour
 	public TerrainData terrainData { get; }
 	public float heightmapPixelError { set; }
 	public float basemapDistance { set; }

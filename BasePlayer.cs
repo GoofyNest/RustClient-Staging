@@ -4252,7 +4252,7 @@ public class PlayerCull : ConsoleSystem // TypeDefIndex: 11977
 public enum PlayerMenuAnimation.Layers // TypeDefIndex: 12174
 {
 
-public enum PlayerMenuAnimation.Layers 
+public enum PlayerMenuAnimation.Layers
 	public int value__; 
 	public const PlayerMenuAnimation.Layers Movement = 0;
 

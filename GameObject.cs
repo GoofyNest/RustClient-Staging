@@ -4,7 +4,7 @@ public sealed class GameObject : Object // TypeDefIndex: 3515
 [UsedByNativeCodeAttribute] 
 [ExcludeFromPresetAttribute] 
 [NativeHeaderAttribute] 
-public sealed class GameObject : Object 
+public sealed class GameObject : Object
 	public Transform transform { get; }
 	public int layer { get; set; }
 	public bool activeSelf { get; }

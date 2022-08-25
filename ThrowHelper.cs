@@ -212,7 +212,7 @@ internal static class ThrowHelper // TypeDefIndex: 124
 internal static class ThrowHelper // TypeDefIndex: 6727
 {
 
-internal static class ThrowHelper 
+internal static class ThrowHelper
 
 	internal static void ThrowArrayTypeMismatchException() { }
 

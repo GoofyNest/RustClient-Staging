@@ -1,13 +1,13 @@
 public class RustUiTest : MonoBehaviour // TypeDefIndex: 6999
 {
 
-private struct <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=128 
+private struct <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=128
 
-private struct <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=256 
+private struct <PrivateImplementationDetails>{4136EF42-BA0E-48C1-8B0C-A481CDC84FC8}.__StaticArrayInitTypeSize=256
 
-internal class <Module> 
+internal class <Module>
 
-public class RustUiTest : MonoBehaviour 
+public class RustUiTest : MonoBehaviour
 	private static readonly Option[] enumOptions; 
 	private static readonly Option[] enumOptionsJustIcons; 
 	private static readonly Option[] enumOptionsWithIcons; 

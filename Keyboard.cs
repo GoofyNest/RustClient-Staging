@@ -1,7 +1,7 @@
 public enum Keyboard.RZKEY // TypeDefIndex: 7652
 {
 
-public enum Keyboard.RZKEY 
+public enum Keyboard.RZKEY
 	public int value__; 
 	public const Keyboard.RZKEY RZKEY_ESC = 1;
 	public const Keyboard.RZKEY RZKEY_F1 = 3;

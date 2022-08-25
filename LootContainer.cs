@@ -1,9 +1,9 @@
 public class LootContainer : StorageContainer // TypeDefIndex: 9593
 {
 
-public interface ISplashable 
+public interface ISplashable
 
-public class LootContainer : StorageContainer 
+public class LootContainer : StorageContainer
 	public bool destroyOnEmpty; 
 	public LootSpawn lootDefinition; 
 	public int maxDefinitionsToSpawn; 

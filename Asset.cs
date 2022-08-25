@@ -1,15 +1,15 @@
 internal sealed class AssetFileNameExtensionAttribute : Attribute // TypeDefIndex: 3263
 {
 
-private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256 
+private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=256
 
-private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024 
+private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=1024
 
-internal class <Module> 
+internal class <Module>
 
 [VisibleToOtherModulesAttribute] 
 [AttributeUsageAttribute] 
-internal sealed class AssetFileNameExtensionAttribute : Attribute 
+internal sealed class AssetFileNameExtensionAttribute : Attribute
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private readonly string <preferredExtension>k__BackingField; 
@@ -37,7 +37,7 @@ public class AssetBundle : Object // TypeDefIndex: 3992
 [ExcludeFromPresetAttribute] 
 [NativeHeaderAttribute] 
 [NativeHeaderAttribute] 
-public class AssetBundle : Object 
+public class AssetBundle : Object
 
 	private void .ctor() { }
 
@@ -138,7 +138,7 @@ public class AssetBundleRequest : AsyncOperation // TypeDefIndex: 3996
 
 [NativeHeaderAttribute] 
 [RequiredByNativeCodeAttribute] 
-public class AssetBundleRequest : AsyncOperation 
+public class AssetBundleRequest : AsyncOperation
 	public Object asset { get; }
 
 
@@ -206,7 +206,7 @@ public class AssetPool.Pool // TypeDefIndex: 6564
 public class AssetBundleBackend : FileSystemBackend, IDisposable // TypeDefIndex: 6652
 {
 
-public class AssetBundleBackend : FileSystemBackend, IDisposable 
+public class AssetBundleBackend : FileSystemBackend, IDisposable
 	private AssetBundle rootBundle; 
 	private AssetBundleManifest manifest; 
 	private Dictionary<string, AssetBundle> bundles; 

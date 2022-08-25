@@ -911,7 +911,7 @@ private sealed class ItemListTools.<>c__DisplayClass10_0 // TypeDefIndex: 9287
 public class ItemTools : MonoBehaviour // TypeDefIndex: 9314
 {
 
-public class ItemTools : MonoBehaviour 
+public class ItemTools : MonoBehaviour
 
 	public void .ctor() { }
 

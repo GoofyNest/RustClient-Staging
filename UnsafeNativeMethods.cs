@@ -1,7 +1,7 @@
 internal static class UnsafeNativeMethods.ManifestEtw // TypeDefIndex: 91
 {
 
-internal static class UnsafeNativeMethods.ManifestEtw 
+internal static class UnsafeNativeMethods.ManifestEtw
 
 	internal static extern uint EventRegister(in Guid providerId, [In] UnsafeNativeMethods.ManifestEtw.EtwEnableCallback enableCallback, [In] void* callbackContext, ref long registrationHandle) { }
 

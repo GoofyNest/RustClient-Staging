@@ -2,7 +2,7 @@ public static class CollectionExtensions // TypeDefIndex: 1442
 {
 
 [ExtensionAttribute] 
-public static class CollectionExtensions 
+public static class CollectionExtensions
 
 	[ExtensionAttribute] 
 	public static TValue GetValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue> dictionary, TKey key) { }

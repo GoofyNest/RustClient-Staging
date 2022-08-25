@@ -969,7 +969,7 @@ private struct BaseEntity.ServerFileRequest : IEquatable<BaseEntity.ServerFileRe
 public class BaseEntity.Query.EntityTree // TypeDefIndex: 8505
 {
 
-public class BaseEntity.Query.EntityTree 
+public class BaseEntity.Query.EntityTree
 	private Grid<BaseEntity> Grid; 
 	private Grid<BasePlayer> PlayerGrid; 
 	private Grid<BaseEntity> BrainGrid; 
@@ -1080,7 +1080,7 @@ public enum BaseEntity.TraitFlag // TypeDefIndex: 8511
 public enum BaseEntity.GiveItemReason // TypeDefIndex: 8513
 {
 
-public enum BaseEntity.GiveItemReason 
+public enum BaseEntity.GiveItemReason
 	public int value__; 
 	public const BaseEntity.GiveItemReason Generic = 0;
 	public const BaseEntity.GiveItemReason ResourceHarvested = 1;

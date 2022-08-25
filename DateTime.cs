@@ -1263,7 +1263,7 @@ internal class DateTimeFacetsChecker : FacetsChecker // TypeDefIndex: 2251
 internal sealed class DateTimeOffsetStorage : DataStorage // TypeDefIndex: 4384
 {
 
-internal sealed class DateTimeOffsetStorage : DataStorage 
+internal sealed class DateTimeOffsetStorage : DataStorage
 	private static readonly DateTimeOffset s_defaultValue; 
 	private DateTimeOffset[] _values; 
 

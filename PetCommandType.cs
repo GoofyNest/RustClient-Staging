@@ -1,11 +1,11 @@
 public enum PetCommandType // TypeDefIndex: 9433
 {
 
-public interface IAIGroupable 
+public interface IAIGroupable
 
-public interface IAIAttack 
+public interface IAIAttack
 
-public enum PetCommandType 
+public enum PetCommandType
 	public int value__; 
 	public const PetCommandType LoadDesign = 0;
 	public const PetCommandType SetState = 1;

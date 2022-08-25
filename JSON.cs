@@ -2,7 +2,7 @@ public static class JsonUtility // TypeDefIndex: 4525
 {
 
 [NativeHeaderAttribute] 
-public static class JsonUtility 
+public static class JsonUtility
 
 	[ThreadSafeAttribute] 
 	[FreeFunctionAttribute] 
@@ -3425,7 +3425,7 @@ public class JTokenEqualityComparer : IEqualityComparer<JToken> // TypeDefIndex:
 {
 
 [PreserveAttribute] 
-public class JTokenEqualityComparer : IEqualityComparer<JToken> 
+public class JTokenEqualityComparer : IEqualityComparer<JToken>
 
 	public bool Equals(JToken x, JToken y) { }
 
@@ -3440,7 +3440,7 @@ public class JConstructor : JContainer // TypeDefIndex: 6057
 
 [PreserveAttribute] 
 [DefaultMemberAttribute] 
-public class JConstructor : JContainer 
+public class JConstructor : JContainer
 	private string _name; 
 	private readonly List<JToken> _values; 
 
@@ -4175,19 +4175,19 @@ public class JProperty : JContainer // TypeDefIndex: 6074
 {
 
 [CompilerGeneratedAttribute] 
-private sealed class JToken.<AfterSelf>d__42 
+private sealed class JToken.<AfterSelf>d__42
 
 [CompilerGeneratedAttribute] 
-private sealed class JToken.<BeforeSelf>d__43 
+private sealed class JToken.<BeforeSelf>d__43
 
 [CompilerGeneratedAttribute] 
-private sealed class JToken.<Annotations>d__171<T> 
+private sealed class JToken.<Annotations>d__171<T>
 
 [CompilerGeneratedAttribute] 
-private sealed class JToken.<Annotations>d__172 
+private sealed class JToken.<Annotations>d__172
 
 [PreserveAttribute] 
-public class JProperty : JContainer 
+public class JProperty : JContainer
 	private readonly JProperty.JPropertyList _content; 
 	private readonly string _name; 
 

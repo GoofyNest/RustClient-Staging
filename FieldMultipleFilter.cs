@@ -2,7 +2,7 @@ internal class FieldMultipleFilter : PathFilter // TypeDefIndex: 6087
 {
 
 [PreserveAttribute] 
-internal class FieldMultipleFilter : PathFilter 
+internal class FieldMultipleFilter : PathFilter
 
 	public void .ctor() { }
 

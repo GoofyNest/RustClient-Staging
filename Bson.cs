@@ -631,7 +631,7 @@ public class BinaryConverter : JsonConverter // TypeDefIndex: 6100
 {
 
 [PreserveAttribute] 
-public class BinaryConverter : JsonConverter 
+public class BinaryConverter : JsonConverter
 	private ReflectionObject _reflectionObject; 
 
 
@@ -873,7 +873,7 @@ internal class BsonRegex : BsonToken // TypeDefIndex: 6144
 {
 
 [PreserveAttribute] 
-internal class BsonRegex : BsonToken 
+internal class BsonRegex : BsonToken
 	[CompilerGeneratedAttribute] 
 	private BsonString <Pattern>k__BackingField; 
 	[CompilerGeneratedAttribute] 

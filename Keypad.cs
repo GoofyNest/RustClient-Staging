@@ -1,7 +1,7 @@
 public enum Keypad.EFFECT_TYPE // TypeDefIndex: 7667
 {
 
-public enum Keypad.EFFECT_TYPE 
+public enum Keypad.EFFECT_TYPE
 	public int value__; 
 	public const Keypad.EFFECT_TYPE CHROMA_NONE = 0;
 	public const Keypad.EFFECT_TYPE CHROMA_BREATHING = 1;

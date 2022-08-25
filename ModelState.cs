@@ -1,7 +1,7 @@
 public class ModelState : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6275
 {
 
-public class ModelState : IDisposable, Pool.IPooled, IProto 
+public class ModelState : IDisposable, Pool.IPooled, IProto
 	public bool ShouldPool; 
 	private bool _disposed; 
 	public float waterLevel; 

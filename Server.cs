@@ -861,7 +861,7 @@ public class ServerProjectile : EntityComponent<BaseEntity>, IServerComponent //
 public class ServerMgr : SingletonComponent<ServerMgr> // TypeDefIndex: 10721
 {
 
-public class ServerMgr : SingletonComponent<ServerMgr> 
+public class ServerMgr : SingletonComponent<ServerMgr>
 	public const string BYPASS_PROCEDURAL_SPAWN_PREF = "bypassProceduralSpawn";
 
 

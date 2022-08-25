@@ -1,7 +1,7 @@
 public class Listener // TypeDefIndex: 7339
 {
 
-public class Listener 
+public class Listener
 	public string Password; 
 	public int Port; 
 	public string Address; 

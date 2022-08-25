@@ -146,7 +146,7 @@ internal class NetRes // TypeDefIndex: 2921
 public class NetworkStream : Stream // TypeDefIndex: 3044
 {
 
-public class NetworkStream : Stream 
+public class NetworkStream : Stream
 	private Socket m_StreamSocket; 
 	private bool m_Readable; 
 	private bool m_Writeable; 
@@ -668,7 +668,7 @@ public sealed class ConnectionManagementElementCollection : ConfigurationElement
 
 [ConfigurationCollectionAttribute] 
 [DefaultMemberAttribute] 
-public sealed class ConnectionManagementElementCollection : ConfigurationElementCollection 
+public sealed class ConnectionManagementElementCollection : ConfigurationElementCollection
 
 	public void .ctor() { }
 
@@ -2198,7 +2198,7 @@ public static class NetworkPacketEx // TypeDefIndex: 11726
 {
 
 [ExtensionAttribute] 
-public static class NetworkPacketEx 
+public static class NetworkPacketEx
 
 	[ExtensionAttribute] 
 	public static BasePlayer Player(Message v) { }

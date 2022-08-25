@@ -8885,7 +8885,7 @@ public class XmlMembersMapping : XmlMapping // TypeDefIndex: 2085
 {
 
 [DefaultMemberAttribute] 
-public class XmlMembersMapping : XmlMapping 
+public class XmlMembersMapping : XmlMapping
 	private bool _hasWrapperElement; 
 	private XmlMemberMapping[] _mapping; 
 
@@ -16179,10 +16179,10 @@ internal sealed class SqlXmlStreamWrapper : Stream // TypeDefIndex: 4360
 public static class XRDevice // TypeDefIndex: 4768
 {
 
-internal class <Module> 
+internal class <Module>
 
 [NativeConditionalAttribute] 
-public static class XRDevice 
+public static class XRDevice
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private static Action<string> deviceLoaded; 
@@ -16198,11 +16198,11 @@ public static class XRDevice
 public sealed class XName : IEquatable<XName>, ISerializable // TypeDefIndex: 5816
 {
 
-internal class <Module> 
+internal class <Module>
 
 [KnownTypeAttribute] 
 [Serializable]
-public sealed class XName : IEquatable<XName>, ISerializable 
+public sealed class XName : IEquatable<XName>, ISerializable
 	private XNamespace ns; 
 	private string localName; 
 	private int hashCode; 

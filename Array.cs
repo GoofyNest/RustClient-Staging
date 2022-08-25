@@ -26973,7 +26973,7 @@ public sealed class BitArray : ICollection, IEnumerable, ICloneable // TypeDefIn
 [DefaultMemberAttribute] 
 [ComVisibleAttribute] 
 [Serializable]
-public sealed class BitArray : ICollection, IEnumerable, ICloneable 
+public sealed class BitArray : ICollection, IEnumerable, ICloneable
 	private int[] m_array; 
 	private int m_length; 
 	private int _version; 
@@ -30067,7 +30067,7 @@ internal class ArrayMultipleIndexFilter : PathFilter // TypeDefIndex: 6081
 {
 
 [PreserveAttribute] 
-internal class ArrayMultipleIndexFilter : PathFilter 
+internal class ArrayMultipleIndexFilter : PathFilter
 
 	public void .ctor() { }
 
@@ -30077,7 +30077,7 @@ internal class ArraySliceFilter : PathFilter // TypeDefIndex: 6083
 {
 
 [PreserveAttribute] 
-internal class ArraySliceFilter : PathFilter 
+internal class ArraySliceFilter : PathFilter
 
 	public void .ctor() { }
 
@@ -30164,7 +30164,7 @@ internal enum ArrayPoolEventSource.BufferAllocatedReason // TypeDefIndex: 6270
 public class ArrayIndexIsEnum : PropertyAttribute // TypeDefIndex: 6561
 {
 
-public class ArrayIndexIsEnum : PropertyAttribute 
+public class ArrayIndexIsEnum : PropertyAttribute
 	public Type enumType; 
 
 

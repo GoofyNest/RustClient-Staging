@@ -1420,7 +1420,7 @@ internal class MonoTODOAttribute : Attribute // TypeDefIndex: 3974
 {
 
 [AttributeUsageAttribute] 
-internal class MonoTODOAttribute : Attribute 
+internal class MonoTODOAttribute : Attribute
 	private string comment; 
 
 
@@ -1461,7 +1461,7 @@ private sealed class Mono.<>c // TypeDefIndex: 6229
 internal class MonoPInvokeCallbackAttribute : Attribute // TypeDefIndex: 7140
 {
 
-internal class MonoPInvokeCallbackAttribute : Attribute 
+internal class MonoPInvokeCallbackAttribute : Attribute
 
 	public void .ctor() { }
 

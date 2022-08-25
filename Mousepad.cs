@@ -1,7 +1,7 @@
 public enum Mousepad.EFFECT_TYPE // TypeDefIndex: 7664
 {
 
-public enum Mousepad.EFFECT_TYPE 
+public enum Mousepad.EFFECT_TYPE
 	public int value__; 
 	public const Mousepad.EFFECT_TYPE CHROMA_NONE = 0;
 	public const Mousepad.EFFECT_TYPE CHROMA_BREATHING = 1;

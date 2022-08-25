@@ -432,7 +432,7 @@ internal struct ConsoleScreenBufferInfo // TypeDefIndex: 426
 public class ConsoleSystem // TypeDefIndex: 6879
 {
 
-public class ConsoleSystem 
+public class ConsoleSystem
 	public static bool HasChanges; 
 	public static Func<bool> ClientCanRunAdminCommands; 
 	public static Func<string, bool> OnSendToServer; 

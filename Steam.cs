@@ -2337,7 +2337,7 @@ internal struct SteamNetworkingPOPID : IEquatable<SteamNetworkingPOPID>, ICompar
 public class SteamAchievement : IAchievement // TypeDefIndex: 5711
 {
 
-public class SteamAchievement : IAchievement 
+public class SteamAchievement : IAchievement
 	private Achievement _achievement; 
 
 	public string Key { get; }
@@ -3057,7 +3057,7 @@ public static class SteamNetworking // TypeDefIndex: 7363
 {
 
 [ConsoleSystem.Factory] 
-public static class SteamNetworking 
+public static class SteamNetworking
 	[ClientVar] 
 	[ServerVar] 
 	public static int steamnetdebug { get; set; }

@@ -397,9 +397,9 @@ public class InstrumentToolGuitar : InstrumentTool // TypeDefIndex: 9470
 public class InstrumentDebugInput : MonoBehaviour // TypeDefIndex: 9552
 {
 
-public interface IIdealSlotEntity 
+public interface IIdealSlotEntity
 
-public class InstrumentDebugInput : MonoBehaviour 
+public class InstrumentDebugInput : MonoBehaviour
 	public InstrumentKeyController KeyController; 
 	public InstrumentKeyController.KeySet Note; 
 	public float Frequency; 

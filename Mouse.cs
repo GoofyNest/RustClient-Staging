@@ -1,7 +1,7 @@
 public enum Mouse.RZLED // TypeDefIndex: 7657
 {
 
-public enum Mouse.RZLED 
+public enum Mouse.RZLED
 	public int value__; 
 	public const Mouse.RZLED RZLED_NONE = 0;
 	public const Mouse.RZLED RZLED_SCROLLWHEEL = 1;

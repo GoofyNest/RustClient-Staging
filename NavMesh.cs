@@ -1,21 +1,21 @@
 public sealed class NavMeshPath // TypeDefIndex: 4444
 {
 
-private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=38 
+private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=38
 
-private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52 
+private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=52
 
-private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64 
+private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=64
 
-private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=152 
+private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=152
 
-private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=176 
+private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=176
 
-internal class <Module> 
+internal class <Module>
 
 [NativeHeaderAttribute] 
 [MovedFromAttribute] 
-public sealed class NavMeshPath 
+public sealed class NavMeshPath
 	internal IntPtr m_Ptr; 
 	internal Vector3[] m_Corners; 
 
@@ -60,7 +60,7 @@ public struct NavMeshHit // TypeDefIndex: 4448
 {
 
 [MovedFromAttribute] 
-public struct NavMeshHit 
+public struct NavMeshHit
 	private Vector3 m_Position; 
 	private Vector3 m_Normal; 
 	private float m_Distance; 

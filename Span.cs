@@ -62,7 +62,7 @@ internal static class SpanHelpers // TypeDefIndex: 122
 {
 
 [ExtensionAttribute] 
-internal static class SpanHelpers 
+internal static class SpanHelpers
 
 	public static bool IsReferenceOrContainsReferences<T>() { }
 	/* GenericInstMethod :
@@ -393,7 +393,7 @@ internal static class SpanHelpers // TypeDefIndex: 6732
 {
 
 [ExtensionAttribute] 
-internal static class SpanHelpers 
+internal static class SpanHelpers
 
 	public static void CopyTo<T>(ref T dst, int dstLength, ref T src, int srcLength) { }
 	/* GenericInstMethod :

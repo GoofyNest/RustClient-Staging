@@ -79,7 +79,7 @@ internal sealed class Parser // TypeDefIndex: 2265
 public static class Parser.Token // TypeDefIndex: 5791
 {
 
-public static class Parser.Token 
+public static class Parser.Token
 
 	public static void Check(string s) { }
 
