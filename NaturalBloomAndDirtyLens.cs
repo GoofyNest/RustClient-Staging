@@ -1,4 +1,4 @@
-public class NaturalBloomAndDirtyLens : MonoBehaviour // TypeDefIndex: 10103
+public class NaturalBloomAndDirtyLens : MonoBehaviour // TypeDefIndex: 10104
 {
 	public Shader shader; 
 	public Texture2D lensDirtTexture; 
@@ -40,7 +40,7 @@ public class NaturalBloomAndDirtyLens : MonoBehaviour // TypeDefIndex: 10103
 
 }
 
-private static class NaturalBloomAndDirtyLens.Param // TypeDefIndex: 10104
+private static class NaturalBloomAndDirtyLens.Param // TypeDefIndex: 10105
 {
 	public const int _BloomRange = 0;
 	public const int _BloomCutoff = 1;

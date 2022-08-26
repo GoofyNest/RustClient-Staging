@@ -1,4 +1,4 @@
-public class DeployableDecay : Decay // TypeDefIndex: 9532
+public class DeployableDecay : Decay // TypeDefIndex: 9533
 {
 	public float decayDelay; 
 	public float decayDuration; 

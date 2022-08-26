@@ -1,4 +1,4 @@
-public class DecorScale : DecorComponent // TypeDefIndex: 10337
+public class DecorScale : DecorComponent // TypeDefIndex: 10338
 {
 	public Vector3 MinScale; 
 	public Vector3 MaxScale; 

@@ -1,4 +1,4 @@
-public class BigWheelBettingTerminal : StorageContainer // TypeDefIndex: 8536
+public class BigWheelBettingTerminal : StorageContainer // TypeDefIndex: 8537
 {
 	public BigWheelGame bigWheel; 
 	public Vector3 seatedPlayerOffset; 

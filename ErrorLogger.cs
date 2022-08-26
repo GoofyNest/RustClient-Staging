@@ -1,4 +1,4 @@
-public static class ErrorLogger // TypeDefIndex: 9283
+public static class ErrorLogger // TypeDefIndex: 9284
 {
 	private static bool installed; 
 

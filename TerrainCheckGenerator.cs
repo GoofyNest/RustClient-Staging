@@ -1,4 +1,4 @@
-public class TerrainCheckGenerator : MonoBehaviour, IEditorComponent // TypeDefIndex: 10389
+public class TerrainCheckGenerator : MonoBehaviour, IEditorComponent // TypeDefIndex: 10390
 {
 	public float PlacementRadius; 
 	public float PlacementPadding; 

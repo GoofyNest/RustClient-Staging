@@ -802,14 +802,14 @@ public class Server : Server // TypeDefIndex: 7334
 
 }
 
-public class ServerConsole : SingletonComponent<ServerConsole> // TypeDefIndex: 9292
+public class ServerConsole : SingletonComponent<ServerConsole> // TypeDefIndex: 9293
 {
 
 	public void .ctor() { }
 
 }
 
-public class ServerGib : BaseCombatEntity // TypeDefIndex: 9608
+public class ServerGib : BaseCombatEntity // TypeDefIndex: 9609
 {
 	public GameObject _gibSource; 
 	public string _gibName; 
@@ -836,7 +836,7 @@ public class ServerGib : BaseCombatEntity // TypeDefIndex: 9608
 
 }
 
-public class ServerProjectile : EntityComponent<BaseEntity>, IServerComponent // TypeDefIndex: 9685
+public class ServerProjectile : EntityComponent<BaseEntity>, IServerComponent // TypeDefIndex: 9686
 {
 	public Vector3 initialVelocity; 
 	public float drag; 
@@ -858,7 +858,7 @@ public class ServerProjectile : EntityComponent<BaseEntity>, IServerComponent //
 
 }
 
-public class ServerMgr : SingletonComponent<ServerMgr> // TypeDefIndex: 10721
+public class ServerMgr : SingletonComponent<ServerMgr> // TypeDefIndex: 10722
 {
 
 public class ServerMgr : SingletonComponent<ServerMgr>
@@ -869,7 +869,7 @@ public class ServerMgr : SingletonComponent<ServerMgr>
 
 }
 
-public class ServerPerformance : BaseMonoBehaviour // TypeDefIndex: 10722
+public class ServerPerformance : BaseMonoBehaviour // TypeDefIndex: 10723
 {
 	public static ulong deaths; 
 	public static ulong spawns; 
@@ -882,7 +882,7 @@ public class ServerPerformance : BaseMonoBehaviour // TypeDefIndex: 10722
 
 }
 
-public class ServerBrowser : MonoBehaviour // TypeDefIndex: 11173
+public class ServerBrowser : MonoBehaviour // TypeDefIndex: 11174
 {
 	public string orderBy; 
 	private string searchText; 
@@ -916,7 +916,7 @@ public class ServerBrowser : MonoBehaviour // TypeDefIndex: 11173
 
 }
 
-public class ServerBrowserCategory : MonoBehaviour // TypeDefIndex: 11174
+public class ServerBrowserCategory : MonoBehaviour // TypeDefIndex: 11175
 {
 	public LocalizeText serverCountText; 
 	public ServerBrowserList browserList; 
@@ -935,7 +935,7 @@ public class ServerBrowserCategory : MonoBehaviour // TypeDefIndex: 11174
 
 }
 
-private sealed class ServerBrowserCategory.<>c // TypeDefIndex: 11175
+private sealed class ServerBrowserCategory.<>c // TypeDefIndex: 11176
 {
 	public static readonly ServerBrowserCategory.<>c <>9; 
 	public static Func<ServerInfo, int> <>9__6_0; 
@@ -949,7 +949,7 @@ private sealed class ServerBrowserCategory.<>c // TypeDefIndex: 11175
 
 }
 
-public class ServerBrowserInfo : SingletonComponent<ServerBrowserInfo> // TypeDefIndex: 11176
+public class ServerBrowserInfo : SingletonComponent<ServerBrowserInfo> // TypeDefIndex: 11177
 {
 	public bool isMain; 
 	public Text serverName; 
@@ -990,7 +990,7 @@ public class ServerBrowserInfo : SingletonComponent<ServerBrowserInfo> // TypeDe
 
 }
 
-private struct ServerBrowserInfo.<QueryRules>d__19 : IAsyncStateMachine // TypeDefIndex: 11177
+private struct ServerBrowserInfo.<QueryRules>d__19 : IAsyncStateMachine // TypeDefIndex: 11178
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 
@@ -1007,7 +1007,7 @@ private struct ServerBrowserInfo.<QueryRules>d__19 : IAsyncStateMachine // TypeD
 
 }
 
-public class ServerBrowserItem : MonoBehaviour // TypeDefIndex: 11178
+public class ServerBrowserItem : MonoBehaviour // TypeDefIndex: 11179
 {
 	public TextMeshProUGUI serverName; 
 	public RustText mapName; 
@@ -1037,7 +1037,7 @@ public class ServerBrowserItem : MonoBehaviour // TypeDefIndex: 11178
 
 }
 
-private sealed class ServerBrowserItem.<>c // TypeDefIndex: 11179
+private sealed class ServerBrowserItem.<>c // TypeDefIndex: 11180
 {
 	public static readonly ServerBrowserItem.<>c <>9; 
 	public static Func<IPlayerInfo, bool> <>9__8_0; 
@@ -1072,7 +1072,7 @@ private sealed class ServerBrowserItem.<>c // TypeDefIndex: 11179
 
 }
 
-public class ServerBrowserList : BaseMonoBehaviour, VirtualScroll.IDataSource // TypeDefIndex: 11180
+public class ServerBrowserList : BaseMonoBehaviour, VirtualScroll.IDataSource // TypeDefIndex: 11181
 {
 	public ServerBrowserList.QueryType queryType; 
 	public static string VersionTag; 
@@ -1147,7 +1147,7 @@ public class ServerBrowserList : BaseMonoBehaviour, VirtualScroll.IDataSource //
 
 }
 
-public enum ServerBrowserList.QueryType // TypeDefIndex: 11181
+public enum ServerBrowserList.QueryType // TypeDefIndex: 11182
 {
 	public int value__; 
 	public const ServerBrowserList.QueryType RegularInternet = 0;
@@ -1159,21 +1159,21 @@ public enum ServerBrowserList.QueryType // TypeDefIndex: 11181
 
 }
 
-public struct ServerBrowserList.ServerKeyvalues // TypeDefIndex: 11182
+public struct ServerBrowserList.ServerKeyvalues // TypeDefIndex: 11183
 {
 	public string key; 
 	public string value; 
 
 }
 
-public struct ServerBrowserList.Rules // TypeDefIndex: 11183
+public struct ServerBrowserList.Rules // TypeDefIndex: 11184
 {
 	public string tag; 
 	public ServerBrowserList serverList; 
 
 }
 
-private sealed class ServerBrowserList.<>c // TypeDefIndex: 11184
+private sealed class ServerBrowserList.<>c // TypeDefIndex: 11185
 {
 	public static readonly ServerBrowserList.<>c <>9; 
 	public static Func<Manifest.ServerDesc, string> <>9__11_0; 
@@ -1229,7 +1229,7 @@ private sealed class ServerBrowserList.<>c // TypeDefIndex: 11184
 
 }
 
-private sealed class ServerBrowserList.<>c__DisplayClass12_0 // TypeDefIndex: 11185
+private sealed class ServerBrowserList.<>c__DisplayClass12_0 // TypeDefIndex: 11186
 {
 	public ServerBrowserList.Rules rule; 
 
@@ -1240,7 +1240,7 @@ private sealed class ServerBrowserList.<>c__DisplayClass12_0 // TypeDefIndex: 11
 
 }
 
-private sealed class ServerBrowserList.<>c__DisplayClass41_0 // TypeDefIndex: 11186
+private sealed class ServerBrowserList.<>c__DisplayClass41_0 // TypeDefIndex: 11187
 {
 	public ServerBrowserList <>4__this; 
 	public int now; 
@@ -1256,7 +1256,7 @@ private sealed class ServerBrowserList.<>c__DisplayClass41_0 // TypeDefIndex: 11
 
 }
 
-public class ServerBrowserTag : MonoBehaviour // TypeDefIndex: 11187
+public class ServerBrowserTag : MonoBehaviour // TypeDefIndex: 11188
 {
 	public string[] serverHasAnyOf; 
 	public string[] serverHasNoneOf; 
@@ -1288,7 +1288,7 @@ public class ServerBrowserTag : MonoBehaviour // TypeDefIndex: 11187
 
 }
 
-public class ServerBrowserTagFilters : MonoBehaviour // TypeDefIndex: 11188
+public class ServerBrowserTagFilters : MonoBehaviour // TypeDefIndex: 11189
 {
 	public RustButton Button; 
 	public RectTransform OptionsParent; 
@@ -1311,7 +1311,7 @@ public class ServerBrowserTagFilters : MonoBehaviour // TypeDefIndex: 11188
 
 }
 
-private sealed class ServerBrowserTagFilters.<>c // TypeDefIndex: 11189
+private sealed class ServerBrowserTagFilters.<>c // TypeDefIndex: 11190
 {
 	public static readonly ServerBrowserTagFilters.<>c <>9; 
 	public static Func<bool, bool> <>9__7_0; 
@@ -1328,7 +1328,7 @@ private sealed class ServerBrowserTagFilters.<>c // TypeDefIndex: 11189
 
 }
 
-public class ServerBrowserTagList : MonoBehaviour // TypeDefIndex: 11190
+public class ServerBrowserTagList : MonoBehaviour // TypeDefIndex: 11191
 {
 	private ServerBrowserTag[] _allTags; 
 
@@ -1343,7 +1343,7 @@ public class ServerBrowserTagList : MonoBehaviour // TypeDefIndex: 11190
 
 }
 
-public class ServerHistory : MonoBehaviour // TypeDefIndex: 11191
+public class ServerHistory : MonoBehaviour // TypeDefIndex: 11192
 {
 	public ServerHistoryItem prefab; 
 	public GameObject panelList; 
@@ -1361,7 +1361,7 @@ public class ServerHistory : MonoBehaviour // TypeDefIndex: 11191
 
 }
 
-private struct ServerHistory.<Refresh>d__4 : IAsyncStateMachine // TypeDefIndex: 11192
+private struct ServerHistory.<Refresh>d__4 : IAsyncStateMachine // TypeDefIndex: 11193
 {
 	public int <>1__state; 
 	public AsyncTaskMethodBuilder <>t__builder; 
@@ -1376,7 +1376,7 @@ private struct ServerHistory.<Refresh>d__4 : IAsyncStateMachine // TypeDefIndex:
 
 }
 
-private sealed class ServerHistory.<>c // TypeDefIndex: 11193
+private sealed class ServerHistory.<>c // TypeDefIndex: 11194
 {
 	public static readonly ServerHistory.<>c <>9; 
 	public static Func<Transform, object> <>9__5_0; 
@@ -1390,7 +1390,7 @@ private sealed class ServerHistory.<>c // TypeDefIndex: 11193
 
 }
 
-public class ServerHistoryItem : MonoBehaviour // TypeDefIndex: 11194
+public class ServerHistoryItem : MonoBehaviour // TypeDefIndex: 11195
 {
 	private ServerInfo serverInfo; 
 	public Text serverName; 
@@ -1407,7 +1407,7 @@ public class ServerHistoryItem : MonoBehaviour // TypeDefIndex: 11194
 
 }
 
-public static class ServerInfoHelpers // TypeDefIndex: 11195
+public static class ServerInfoHelpers // TypeDefIndex: 11196
 {
 
 	[AsyncStateMachineAttribute] 
@@ -1418,7 +1418,7 @@ public static class ServerInfoHelpers // TypeDefIndex: 11195
 
 }
 
-private struct ServerInfoHelpers.<Load>d__0 : IAsyncStateMachine // TypeDefIndex: 11196
+private struct ServerInfoHelpers.<Load>d__0 : IAsyncStateMachine // TypeDefIndex: 11197
 {
 	public int <>1__state; 
 	public AsyncTaskMethodBuilder<Nullable<ServerInfo>> <>t__builder; 
@@ -1437,7 +1437,7 @@ private struct ServerInfoHelpers.<Load>d__0 : IAsyncStateMachine // TypeDefIndex
 
 }
 
-private struct ServerInfoHelpers.<LoadRules>d__1 : IAsyncStateMachine // TypeDefIndex: 11197
+private struct ServerInfoHelpers.<LoadRules>d__1 : IAsyncStateMachine // TypeDefIndex: 11198
 {
 	public int <>1__state; 
 	public AsyncTaskMethodBuilder<Dictionary<string, string>> <>t__builder; 
@@ -1455,14 +1455,14 @@ private struct ServerInfoHelpers.<LoadRules>d__1 : IAsyncStateMachine // TypeDef
 
 }
 
-public static class Server // TypeDefIndex: 11674
+public static class Server // TypeDefIndex: 11675
 {
 	public const byte Default = 0;
 	public const byte Positions = 14;
 
 }
 
-public class Server : ConsoleSystem // TypeDefIndex: 11983
+public class Server : ConsoleSystem // TypeDefIndex: 11984
 {
 	[ServerVar] 
 	public static string ip; 

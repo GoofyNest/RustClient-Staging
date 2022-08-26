@@ -4,15 +4,15 @@ public static class Global // TypeDefIndex: 6622
 	public static Func<string, GameObject> FindPrefab; 
 	public static Func<string, GameObject> CreatePrefab; 
 	public static Action OpenMainMenu; 
-	private static MonoBehaviour _runner; 
+	private static FacepunchBehaviour _runner; 
 	[CompilerGeneratedAttribute] 
 	private static int <LaunchCountThisVersion>k__BackingField; 
 
-	public static MonoBehaviour Runner { get; }
+	public static FacepunchBehaviour Runner { get; }
 	public static int LaunchCountThisVersion { get; set; }
 
 
-	public static MonoBehaviour get_Runner() { }
+	public static FacepunchBehaviour get_Runner() { }
 
 	[CompilerGeneratedAttribute] 
 	public static int get_LaunchCountThisVersion() { }
@@ -24,7 +24,7 @@ public static class Global // TypeDefIndex: 6622
 
 }
 
-public class Global : ConsoleSystem // TypeDefIndex: 11949
+public class Global : ConsoleSystem // TypeDefIndex: 11950
 {
 	private static int _developer; 
 	[ServerVar] 
@@ -236,7 +236,7 @@ public class Global : ConsoleSystem // TypeDefIndex: 11949
 
 }
 
-private sealed class Global.<>c // TypeDefIndex: 11950
+private sealed class Global.<>c // TypeDefIndex: 11951
 {
 	public static readonly Global.<>c <>9; 
 	public static Func<KeyValuePair<Type, long>, long> <>9__48_0; 

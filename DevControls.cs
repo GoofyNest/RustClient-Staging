@@ -1,4 +1,4 @@
-public class DevControls : MonoBehaviour // TypeDefIndex: 9298
+public class DevControls : MonoBehaviour // TypeDefIndex: 9299
 {
 	public GUISkin skin; 
 	internal TabbedPanel tabbedPanel; 

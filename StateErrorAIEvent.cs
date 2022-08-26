@@ -1,4 +1,4 @@
-public class StateErrorAIEvent : BaseAIEvent // TypeDefIndex: 9412
+public class StateErrorAIEvent : BaseAIEvent // TypeDefIndex: 9413
 {
 
 	public void .ctor() { }

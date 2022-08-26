@@ -1,4 +1,4 @@
-public class TrainCoupling // TypeDefIndex: 9773
+public class TrainCoupling // TypeDefIndex: 9774
 {
 	public readonly TrainCar owner; 
 	public readonly bool isFrontCoupling; 

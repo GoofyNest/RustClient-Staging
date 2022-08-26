@@ -1,4 +1,4 @@
-public abstract class BaseMeshPaintable : MonoBehaviour, IClientComponent // TypeDefIndex: 9204
+public abstract class BaseMeshPaintable : MonoBehaviour, IClientComponent // TypeDefIndex: 9205
 {
 	private static MaterialPropertyBlock _block; 
 

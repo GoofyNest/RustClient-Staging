@@ -264,7 +264,7 @@ public class IOEntity.IOConnection.LinePointList : IDisposable, Pool.IPooled, IP
 
 }
 
-public class IOEntity : DecayEntity // TypeDefIndex: 8589
+public class IOEntity : DecayEntity // TypeDefIndex: 8590
 {
 	[HeaderAttribute] 
 	public Transform debugOrigin; 
@@ -353,7 +353,7 @@ public class IOEntity : DecayEntity // TypeDefIndex: 8589
 
 }
 
-public enum IOEntity.IOType // TypeDefIndex: 8590
+public enum IOEntity.IOType // TypeDefIndex: 8591
 {
 	public int value__; 
 	public const IOEntity.IOType Electric = 0;
@@ -363,7 +363,7 @@ public enum IOEntity.IOType // TypeDefIndex: 8590
 
 }
 
-public class IOEntity.IORef // TypeDefIndex: 8591
+public class IOEntity.IORef // TypeDefIndex: 8592
 {
 	public EntityRef entityRef; 
 	public IOEntity ioEnt; 
@@ -383,7 +383,7 @@ public class IOEntity.IORef // TypeDefIndex: 8591
 
 }
 
-public class IOEntity.IOSlot // TypeDefIndex: 8592
+public class IOEntity.IOSlot // TypeDefIndex: 8593
 {
 	public string niceName; 
 	public IOEntity.IOType type; 

@@ -1,4 +1,4 @@
-public enum ResolutionMode // TypeDefIndex: 11755
+public enum ResolutionMode // TypeDefIndex: 11756
 {
 	public int value__; 
 	public const ResolutionMode None = 0;

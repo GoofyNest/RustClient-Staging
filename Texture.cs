@@ -151,7 +151,7 @@ public static class Texture // TypeDefIndex: 5612
 
 }
 
-public class Texture : ConsoleSystem // TypeDefIndex: 11991
+public class Texture : ConsoleSystem // TypeDefIndex: 11992
 {
 	[ClientVar] 
 	public static int streamingBudgetOverride; 

@@ -1,4 +1,4 @@
-public class LegacyWeatherState // TypeDefIndex: 10084
+public class LegacyWeatherState // TypeDefIndex: 10085
 {
 	private WeatherPreset preset; 
 

@@ -1,4 +1,4 @@
-public class WaterDepthMask : MonoBehaviour // TypeDefIndex: 10611
+public class WaterDepthMask : MonoBehaviour // TypeDefIndex: 10612
 {
 	private Mesh mesh; 
 	private Material material; 

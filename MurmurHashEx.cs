@@ -1,4 +1,4 @@
-public static class MurmurHashEx // TypeDefIndex: 11415
+public static class MurmurHashEx // TypeDefIndex: 11416
 {
 
 	[ExtensionAttribute] 

@@ -224,7 +224,7 @@ internal static class Consts
 
 }
 
-public static class Consts // TypeDefIndex: 11562
+public static class Consts // TypeDefIndex: 11563
 {
 	private const string HelpUrlBase = "http:
 	public const string HelpUrlBeam = "http:

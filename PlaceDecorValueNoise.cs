@@ -1,4 +1,4 @@
-public class PlaceDecorValueNoise : ProceduralComponent // TypeDefIndex: 10542
+public class PlaceDecorValueNoise : ProceduralComponent // TypeDefIndex: 10543
 {
 	public SpawnFilter Filter; 
 	public string ResourceFolder; 

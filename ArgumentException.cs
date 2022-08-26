@@ -148,7 +148,7 @@ internal class ArgumentCache : ISerializationCallbackReceiver // TypeDefIndex: 3
 
 }
 
-public static class ArgEx // TypeDefIndex: 11718
+public static class ArgEx // TypeDefIndex: 11719
 {
 
 	[ExtensionAttribute] 

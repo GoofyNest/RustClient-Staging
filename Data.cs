@@ -6299,7 +6299,7 @@ internal class DbcsConvert // TypeDefIndex: 7828
 
 }
 
-public class Data : ConsoleSystem // TypeDefIndex: 11921
+public class Data : ConsoleSystem // TypeDefIndex: 11922
 {
 
 	[ServerVar] 

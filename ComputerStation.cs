@@ -59,7 +59,7 @@ public class ComputerStation : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 }
 
-public class ComputerStation : BaseMountable // TypeDefIndex: 8564
+public class ComputerStation : BaseMountable // TypeDefIndex: 8565
 {
 	[HeaderAttribute] 
 	public GameObjectRef menuPrefab; 

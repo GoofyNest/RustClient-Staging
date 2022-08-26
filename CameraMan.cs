@@ -1,4 +1,4 @@
-public class CameraMan : SingletonComponent<CameraMan> // TypeDefIndex: 9142
+public class CameraMan : SingletonComponent<CameraMan> // TypeDefIndex: 9143
 {
 	public static string DefaultSaveName; 
 	public const string SavePositionExtension = ".cam";
@@ -110,7 +110,7 @@ public class CameraMan : SingletonComponent<CameraMan> // TypeDefIndex: 9142
 
 }
 
-public struct CameraMan.CameraState // TypeDefIndex: 9143
+public struct CameraMan.CameraState // TypeDefIndex: 9144
 {
 	public Vector3 position; 
 	public Vector3 rotation; 
@@ -119,7 +119,7 @@ public struct CameraMan.CameraState // TypeDefIndex: 9143
 
 }
 
-private enum CameraMan.MovementType // TypeDefIndex: 9144
+private enum CameraMan.MovementType // TypeDefIndex: 9145
 {
 	public int value__; 
 	public const CameraMan.MovementType Free = 0;

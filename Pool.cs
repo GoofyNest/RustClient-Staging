@@ -6,7 +6,7 @@ public static class Pool // TypeDefIndex: 4836
 	public static void FreeList<T>(ref List<T> obj) { }
 	/* GenericInstMethod :
 	|
-	|-Pool.FreeList<BaseEntity.ServerFileRequest>
+	|-Pool.FreeList<BaseEntity.PendingFileRequest>
 	|
 	|-Pool.FreeList<BaseEntity>
 	|-Pool.FreeList<BaseNetworkable>
@@ -901,7 +901,7 @@ public static class Pool // TypeDefIndex: 4836
 	public static List<T> GetList<T>() { }
 	/* GenericInstMethod :
 	|
-	|-Pool.GetList<BaseEntity.ServerFileRequest>
+	|-Pool.GetList<BaseEntity.PendingFileRequest>
 	|
 	|-Pool.GetList<BaseEntity>
 	|-Pool.GetList<BaseNetworkable>
@@ -1251,7 +1251,7 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4839
 
 }
 
-public class Pool : ConsoleSystem // TypeDefIndex: 11978
+public class Pool : ConsoleSystem // TypeDefIndex: 11979
 {
 	[ServerVar] 
 	[ClientVar] 
@@ -1301,7 +1301,7 @@ public class Pool : ConsoleSystem // TypeDefIndex: 11978
 
 }
 
-private sealed class Pool.<>c // TypeDefIndex: 11979
+private sealed class Pool.<>c // TypeDefIndex: 11980
 {
 	public static readonly Pool.<>c <>9; 
 	public static Func<KeyValuePair<Type, Pool.ICollection>, long> <>9__4_0; 

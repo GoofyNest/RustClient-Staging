@@ -12607,9 +12607,16 @@ internal class EnumerableSorter<TElement, TKey> : EnumerableSorter<TElement> // 
 	/* GenericInstMethod :
 	|
 	|-EnumerableSorter<Demos.DemoInfo, DateTime>.CompareKeys
-	|-EnumerableSorter<Demos.DemoInfo, TimeSpan>.CompareKeys
+	|-EnumerableSorter<Item, DateTime>.CompareKeys
+	|-EnumerableSorter<object, DateTime>.CompareKeys
 	|
 	|-EnumerableSorter<Demos.DemoInfo, object>.CompareKeys
+	|-EnumerableSorter<ServerInfo, object>.CompareKeys
+	|-EnumerableSorter<KeyValuePair<object, long>, long>.CompareKeys
+	|-EnumerableSorter<KeyValuePair<object, object>, long>.CompareKeys
+	|-EnumerableSorter<object, object>.CompareKeys
+	|
+	|-EnumerableSorter<Demos.DemoInfo, TimeSpan>.CompareKeys
 	|
 	|-EnumerableSorter<ServerInfo, int>.CompareKeys
 	|-EnumerableSorter<ServerInfo, uint>.CompareKeys
@@ -12618,14 +12625,6 @@ internal class EnumerableSorter<TElement, TKey> : EnumerableSorter<TElement> // 
 	|-EnumerableSorter<object, Int32Enum>.CompareKeys
 	|-EnumerableSorter<object, uint>.CompareKeys
 	|-EnumerableSorter<Resolution, int>.CompareKeys
-	|
-	|-EnumerableSorter<ServerInfo, object>.CompareKeys
-	|-EnumerableSorter<KeyValuePair<object, long>, long>.CompareKeys
-	|-EnumerableSorter<KeyValuePair<object, object>, long>.CompareKeys
-	|-EnumerableSorter<object, object>.CompareKeys
-	|
-	|-EnumerableSorter<Item, DateTime>.CompareKeys
-	|-EnumerableSorter<object, DateTime>.CompareKeys
 	|
 	|-EnumerableSorter<double, double>.CompareKeys
 	|
@@ -12697,7 +12696,7 @@ private sealed class EnumUtils.<>c__2<T> // TypeDefIndex: 5957
 
 }
 
-public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 10804
+public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 10805
 {
 	public object Value; 
 	public RustText TextValue; 
@@ -12712,7 +12711,7 @@ public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 10804
 
 }
 
-public class EnumListUI : MonoBehaviour // TypeDefIndex: 10805
+public class EnumListUI : MonoBehaviour // TypeDefIndex: 10806
 {
 	public Transform PrefabItem; 
 	public Transform Container; 

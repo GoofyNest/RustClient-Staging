@@ -1,4 +1,4 @@
-public class TreadAnimator : MonoBehaviour, IClientComponent // TypeDefIndex: 8866
+public class TreadAnimator : MonoBehaviour, IClientComponent // TypeDefIndex: 8867
 {
 	public Animator mainBodyAnimator; 
 	public Transform[] wheelBones; 
@@ -53,7 +53,7 @@ public class TreadAnimator : MonoBehaviour, IClientComponent // TypeDefIndex: 88
 
 }
 
-private struct TreadAnimator.<>c__DisplayClass30_0 // TypeDefIndex: 8867
+private struct TreadAnimator.<>c__DisplayClass30_0 // TypeDefIndex: 8868
 {
 	public float forwardSpeed; 
 	public float angularSpeed; 

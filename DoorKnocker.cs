@@ -1,4 +1,4 @@
-public class DoorKnocker : BaseCombatEntity // TypeDefIndex: 8568
+public class DoorKnocker : BaseCombatEntity // TypeDefIndex: 8569
 {
 	public Animator knocker1; 
 	public Animator knocker2; 

@@ -1,4 +1,4 @@
-public class FPS : ConsoleSystem // TypeDefIndex: 11946
+public class FPS : ConsoleSystem // TypeDefIndex: 11947
 {
 	private static int m_graph; 
 

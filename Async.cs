@@ -2123,7 +2123,6 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7094
 	/* GenericInstMethod :
 	|
 	|-AsyncValueTaskMethodBuilder<bool>.SetStateMachine
-	|
 	|-AsyncValueTaskMethodBuilder<object>.SetStateMachine
 	*/
 
@@ -2162,7 +2161,7 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7094
 
 }
 
-public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 10323
+public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 10324
 {
 	private List<int> indices; 
 	private List<Vector3> vertices; 

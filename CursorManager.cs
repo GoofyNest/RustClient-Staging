@@ -1,4 +1,4 @@
-public class CursorManager : SingletonComponent<CursorManager> // TypeDefIndex: 10854
+public class CursorManager : SingletonComponent<CursorManager> // TypeDefIndex: 10855
 {
 	private static int iHoldOpen; 
 	private static int iPreviousOpen; 

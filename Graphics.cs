@@ -175,7 +175,7 @@ public static class Graphics.BufferReadback // TypeDefIndex: 8221
 
 }
 
-public class Graphics : ConsoleSystem // TypeDefIndex: 11951
+public class Graphics : ConsoleSystem // TypeDefIndex: 11952
 {
 	private const float MinShadowDistance = 100;
 	private const float MaxShadowDistance2Split = 600;
@@ -427,7 +427,7 @@ public class Graphics : ConsoleSystem // TypeDefIndex: 11951
 
 }
 
-private sealed class Graphics.<>c // TypeDefIndex: 11952
+private sealed class Graphics.<>c // TypeDefIndex: 11953
 {
 	public static readonly Graphics.<>c <>9; 
 	public static Func<Resolution, Vector2Int> <>9__60_0; 

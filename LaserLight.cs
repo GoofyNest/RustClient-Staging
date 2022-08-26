@@ -1,4 +1,4 @@
-public class LaserLight : AudioVisualisationEntity // TypeDefIndex: 9449
+public class LaserLight : AudioVisualisationEntity // TypeDefIndex: 9450
 {
 	public Animator LaserAnimator; 
 	public LineRenderer[] LineRenderers; 
@@ -50,7 +50,7 @@ public class LaserLight : AudioVisualisationEntity // TypeDefIndex: 9449
 
 }
 
-public struct LaserLight.ColourSetting // TypeDefIndex: 9450
+public struct LaserLight.ColourSetting // TypeDefIndex: 9451
 {
 	public Color PointLightColour; 
 	public Material LaserMaterial; 

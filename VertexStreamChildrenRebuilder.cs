@@ -1,4 +1,4 @@
-public class VertexStreamChildrenRebuilder : MonoBehaviour // TypeDefIndex: 11555
+public class VertexStreamChildrenRebuilder : MonoBehaviour // TypeDefIndex: 11556
 {
 
 	public void .ctor() { }

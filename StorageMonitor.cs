@@ -1,4 +1,4 @@
-public class StorageMonitor : AppIOEntity // TypeDefIndex: 9798
+public class StorageMonitor : AppIOEntity // TypeDefIndex: 9799
 {
 
 public class StorageMonitor : AppIOEntity

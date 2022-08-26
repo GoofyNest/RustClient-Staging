@@ -1,4 +1,4 @@
-public class FixedRateStepped // TypeDefIndex: 11391
+public class FixedRateStepped // TypeDefIndex: 11392
 {
 	public float rate; 
 	public int maxSteps; 

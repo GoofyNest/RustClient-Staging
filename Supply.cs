@@ -1,4 +1,4 @@
-public class Supply : ConsoleSystem // TypeDefIndex: 11989
+public class Supply : ConsoleSystem // TypeDefIndex: 11990
 {
 
 	public void .ctor() { }

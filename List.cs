@@ -77,7 +77,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WindZoneExManager.CurrentZoneEntry>..ctor
 	|-List.Enumerator<WorldSplineData.LUTEntry.LUTPoint>..ctor
 	|
-	|-List.Enumerator<BaseEntity.ServerFileRequest>..ctor
+	|-List.Enumerator<BaseEntity.PendingFileRequest>..ctor
 	|-List.Enumerator<CardTableUI.KeycodeWithAction>..ctor
 	|-List.Enumerator<Demos.DemoInfo>..ctor
 	|-List.Enumerator<Output.Entry>..ctor
@@ -213,7 +213,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<BaseAIEvent>.Dispose
 	|-List.Enumerator<BaseBulb>.Dispose
 	|-List.Enumerator<BaseCollision>.Dispose
-	|-List.Enumerator<BaseEntity.ServerFileRequest>.Dispose
+	|-List.Enumerator<BaseEntity.PendingFileRequest>.Dispose
 	|-List.Enumerator<BaseEntity>.Dispose
 	|-List.Enumerator<BaseMeshPaintable>.Dispose
 	|-List.Enumerator<BaseMission.MissionInstance>.Dispose
@@ -971,7 +971,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<FocusController.FocusedElement>.MoveNext
 	|-List.Enumerator<WindZoneExManager.CurrentZoneEntry>.MoveNext
 	|
-	|-List.Enumerator<BaseEntity.ServerFileRequest>.MoveNext
+	|-List.Enumerator<BaseEntity.PendingFileRequest>.MoveNext
 	|
 	|-List.Enumerator<CardTableUI.KeycodeWithAction>.MoveNext
 	|-List.Enumerator<ItemSkinDirectory.Skin>.MoveNext
@@ -1215,7 +1215,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WindZoneExManager.CurrentZoneEntry>.MoveNextRare
 	|-List.Enumerator<WorldSplineData.LUTEntry.LUTPoint>.MoveNextRare
 	|
-	|-List.Enumerator<BaseEntity.ServerFileRequest>.MoveNextRare
+	|-List.Enumerator<BaseEntity.PendingFileRequest>.MoveNextRare
 	|-List.Enumerator<CardTableUI.KeycodeWithAction>.MoveNextRare
 	|-List.Enumerator<Demos.DemoInfo>.MoveNextRare
 	|-List.Enumerator<Output.Entry>.MoveNextRare
@@ -1673,7 +1673,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<MidiConvar.NoteBinding>.get_Current
 	|-List.Enumerator<TransformSnapshot>.get_Current
 	|-List.Enumerator<SkinnedMultiMesh.Part>.get_Current
-	|-List.Enumerator<BaseEntity.ServerFileRequest>.get_Current
+	|-List.Enumerator<BaseEntity.PendingFileRequest>.get_Current
 	|-List.Enumerator<Demos.DemoInfo>.get_Current
 	|-List.Enumerator<Output.Entry>.get_Current
 	|-List.Enumerator<ItemSkinDirectory.Skin>.get_Current
@@ -1885,7 +1885,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WindZoneExManager.CurrentZoneEntry>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IEnumerator.get_Current
 	|
-	|-List.Enumerator<BaseEntity.ServerFileRequest>.System.Collections.IEnumerator.get_Current
+	|-List.Enumerator<BaseEntity.PendingFileRequest>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<CardTableUI.KeycodeWithAction>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<Demos.DemoInfo>.System.Collections.IEnumerator.get_Current
 	|-List.Enumerator<Output.Entry>.System.Collections.IEnumerator.get_Current
@@ -2081,7 +2081,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WindZoneExManager.CurrentZoneEntry>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<WorldSplineData.LUTEntry.LUTPoint>.System.Collections.IEnumerator.Reset
 	|
-	|-List.Enumerator<BaseEntity.ServerFileRequest>.System.Collections.IEnumerator.Reset
+	|-List.Enumerator<BaseEntity.PendingFileRequest>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<CardTableUI.KeycodeWithAction>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<Demos.DemoInfo>.System.Collections.IEnumerator.Reset
 	|-List.Enumerator<Output.Entry>.System.Collections.IEnumerator.Reset

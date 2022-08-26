@@ -65,7 +65,7 @@ private struct Editor.<SubmitAsync>d__40 : IAsyncStateMachine // TypeDefIndex: 5
 
 }
 
-public class Editor : ConsoleSystem // TypeDefIndex: 11932
+public class Editor : ConsoleSystem // TypeDefIndex: 11933
 {
 
 	public void .ctor() { }

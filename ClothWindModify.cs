@@ -1,4 +1,4 @@
-public class ClothWindModify : FacepunchBehaviour // TypeDefIndex: 10708
+public class ClothWindModify : FacepunchBehaviour // TypeDefIndex: 10709
 {
 	public Cloth cloth; 
 	private Vector3 initialClothForce; 

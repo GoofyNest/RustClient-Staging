@@ -1,4 +1,4 @@
-public abstract class WeatherEffect : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 10074
+public abstract class WeatherEffect : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 10075
 {
 	public ParticleSystem[] emitOnStart; 
 	public ParticleSystem[] emitOnStop; 

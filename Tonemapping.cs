@@ -56,7 +56,7 @@ public enum Tonemapping.AdaptiveTexSize // TypeDefIndex: 8214
 
 }
 
-public class TonemappingOverlay : ImageEffectLayer // TypeDefIndex: 9139
+public class TonemappingOverlay : ImageEffectLayer // TypeDefIndex: 9140
 {
 	public TonemappingColorGrading tonemapping; 
 	private int screenWidth; 
@@ -75,7 +75,7 @@ public class TonemappingOverlay : ImageEffectLayer // TypeDefIndex: 9139
 
 }
 
-public class TonemappingColorGrading : MonoBehaviour // TypeDefIndex: 11678
+public class TonemappingColorGrading : MonoBehaviour // TypeDefIndex: 11679
 {
 	[SerializeField] 
 	[TonemappingColorGrading.SettingsGroup] 
@@ -204,28 +204,28 @@ public class TonemappingColorGrading : MonoBehaviour // TypeDefIndex: 11678
 
 }
 
-public class TonemappingColorGrading.SettingsGroup : Attribute // TypeDefIndex: 11679
+public class TonemappingColorGrading.SettingsGroup : Attribute // TypeDefIndex: 11680
 {
 
 	public void .ctor() { }
 
 }
 
-public class TonemappingColorGrading.IndentedGroup : PropertyAttribute // TypeDefIndex: 11680
+public class TonemappingColorGrading.IndentedGroup : PropertyAttribute // TypeDefIndex: 11681
 {
 
 	public void .ctor() { }
 
 }
 
-public class TonemappingColorGrading.ChannelMixer : PropertyAttribute // TypeDefIndex: 11681
+public class TonemappingColorGrading.ChannelMixer : PropertyAttribute // TypeDefIndex: 11682
 {
 
 	public void .ctor() { }
 
 }
 
-public class TonemappingColorGrading.ColorWheelGroup : PropertyAttribute // TypeDefIndex: 11682
+public class TonemappingColorGrading.ColorWheelGroup : PropertyAttribute // TypeDefIndex: 11683
 {
 	public int minSizePerWheel; 
 	public int maxSizePerWheel; 
@@ -237,7 +237,7 @@ public class TonemappingColorGrading.ColorWheelGroup : PropertyAttribute // Type
 
 }
 
-public class TonemappingColorGrading.Curve : PropertyAttribute // TypeDefIndex: 11683
+public class TonemappingColorGrading.Curve : PropertyAttribute // TypeDefIndex: 11684
 {
 	public Color color; 
 
@@ -248,7 +248,7 @@ public class TonemappingColorGrading.Curve : PropertyAttribute // TypeDefIndex: 
 
 }
 
-public struct TonemappingColorGrading.EyeAdaptationSettings // TypeDefIndex: 11684
+public struct TonemappingColorGrading.EyeAdaptationSettings // TypeDefIndex: 11685
 {
 	public bool enabled; 
 	[MinAttribute] 
@@ -271,7 +271,7 @@ public struct TonemappingColorGrading.EyeAdaptationSettings // TypeDefIndex: 116
 
 }
 
-public enum TonemappingColorGrading.Tonemapper // TypeDefIndex: 11685
+public enum TonemappingColorGrading.Tonemapper // TypeDefIndex: 11686
 {
 	public int value__; 
 	public const TonemappingColorGrading.Tonemapper ACES = 0;
@@ -284,7 +284,7 @@ public enum TonemappingColorGrading.Tonemapper // TypeDefIndex: 11685
 
 }
 
-public struct TonemappingColorGrading.TonemappingSettings // TypeDefIndex: 11686
+public struct TonemappingColorGrading.TonemappingSettings // TypeDefIndex: 11687
 {
 	public bool enabled; 
 	[TooltipAttribute] 
@@ -314,7 +314,7 @@ public struct TonemappingColorGrading.TonemappingSettings // TypeDefIndex: 11686
 
 }
 
-public struct TonemappingColorGrading.LUTSettings // TypeDefIndex: 11687
+public struct TonemappingColorGrading.LUTSettings // TypeDefIndex: 11688
 {
 	public bool enabled; 
 	[TooltipAttribute] 
@@ -330,7 +330,7 @@ public struct TonemappingColorGrading.LUTSettings // TypeDefIndex: 11687
 
 }
 
-public struct TonemappingColorGrading.ColorWheelsSettings // TypeDefIndex: 11688
+public struct TonemappingColorGrading.ColorWheelsSettings // TypeDefIndex: 11689
 {
 	[ColorUsageAttribute] 
 	public Color shadows; 
@@ -346,7 +346,7 @@ public struct TonemappingColorGrading.ColorWheelsSettings // TypeDefIndex: 11688
 
 }
 
-public struct TonemappingColorGrading.BasicsSettings // TypeDefIndex: 11689
+public struct TonemappingColorGrading.BasicsSettings // TypeDefIndex: 11690
 {
 	[RangeAttribute] 
 	[TooltipAttribute] 
@@ -385,7 +385,7 @@ public struct TonemappingColorGrading.BasicsSettings // TypeDefIndex: 11689
 
 }
 
-public struct TonemappingColorGrading.ChannelMixerSettings // TypeDefIndex: 11690
+public struct TonemappingColorGrading.ChannelMixerSettings // TypeDefIndex: 11691
 {
 	public int currentChannel; 
 	public Vector3[] channels; 
@@ -397,7 +397,7 @@ public struct TonemappingColorGrading.ChannelMixerSettings // TypeDefIndex: 1169
 
 }
 
-public struct TonemappingColorGrading.CurvesSettings // TypeDefIndex: 11691
+public struct TonemappingColorGrading.CurvesSettings // TypeDefIndex: 11692
 {
 	[TonemappingColorGrading.Curve] 
 	public AnimationCurve master; 
@@ -418,7 +418,7 @@ public struct TonemappingColorGrading.CurvesSettings // TypeDefIndex: 11691
 
 }
 
-public enum TonemappingColorGrading.ColorGradingPrecision // TypeDefIndex: 11692
+public enum TonemappingColorGrading.ColorGradingPrecision // TypeDefIndex: 11693
 {
 	public int value__; 
 	public const TonemappingColorGrading.ColorGradingPrecision Normal = 16;
@@ -426,7 +426,7 @@ public enum TonemappingColorGrading.ColorGradingPrecision // TypeDefIndex: 11692
 
 }
 
-public struct TonemappingColorGrading.ColorGradingSettings // TypeDefIndex: 11693
+public struct TonemappingColorGrading.ColorGradingSettings // TypeDefIndex: 11694
 {
 	public bool enabled; 
 	[TooltipAttribute] 
@@ -458,7 +458,7 @@ public struct TonemappingColorGrading.ColorGradingSettings // TypeDefIndex: 1169
 
 }
 
-private enum TonemappingColorGrading.Pass // TypeDefIndex: 11694
+private enum TonemappingColorGrading.Pass // TypeDefIndex: 11695
 {
 	public int value__; 
 	public const TonemappingColorGrading.Pass LutGen = 0;

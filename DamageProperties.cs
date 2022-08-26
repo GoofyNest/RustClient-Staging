@@ -1,4 +1,4 @@
-public class DamageProperties : ScriptableObject // TypeDefIndex: 9984
+public class DamageProperties : ScriptableObject // TypeDefIndex: 9985
 {
 	public DamageProperties fallback; 
 	[HorizontalAttribute] 
@@ -13,7 +13,7 @@ public class DamageProperties : ScriptableObject // TypeDefIndex: 9984
 
 }
 
-public class DamageProperties.HitAreaProperty // TypeDefIndex: 9985
+public class DamageProperties.HitAreaProperty // TypeDefIndex: 9986
 {
 	public HitArea area; 
 	public float damage; 

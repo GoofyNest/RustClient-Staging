@@ -1,4 +1,4 @@
-public class TreeEntity : ResourceEntity, IPrefabPreProcess // TypeDefIndex: 8659
+public class TreeEntity : ResourceEntity, IPrefabPreProcess // TypeDefIndex: 8660
 {
 	[HeaderAttribute] 
 	public bool fallOnKilled; 

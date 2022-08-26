@@ -101,7 +101,7 @@ public enum Terrain.MaterialType // TypeDefIndex: 4089
 
 }
 
-public class Terrain : ConsoleSystem // TypeDefIndex: 11990
+public class Terrain : ConsoleSystem // TypeDefIndex: 11991
 {
 	[ClientVar] 
 	public static float quality; 

@@ -1,4 +1,4 @@
-public class WorldSplineSharedData : ScriptableObject // TypeDefIndex: 11438
+public class WorldSplineSharedData : ScriptableObject // TypeDefIndex: 11439
 {
 	[SerializeField] 
 	private List<WorldSplineData> dataList; 

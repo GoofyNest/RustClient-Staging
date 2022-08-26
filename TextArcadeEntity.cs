@@ -1,4 +1,4 @@
-public class TextArcadeEntity : ArcadeEntity // TypeDefIndex: 8779
+public class TextArcadeEntity : ArcadeEntity // TypeDefIndex: 8780
 {
 	public TextMeshProUGUI text; 
 

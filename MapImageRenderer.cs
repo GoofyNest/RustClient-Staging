@@ -1,4 +1,4 @@
-public static class MapImageRenderer // TypeDefIndex: 10754
+public static class MapImageRenderer // TypeDefIndex: 10755
 {
 	private static readonly Vector3 StartColor; 
 	private static readonly Vector4 WaterColor; 
@@ -29,7 +29,7 @@ public static class MapImageRenderer // TypeDefIndex: 10754
 
 }
 
-private struct MapImageRenderer.Array2D<T> // TypeDefIndex: 10755
+private struct MapImageRenderer.Array2D<T> // TypeDefIndex: 10756
 {
 	private readonly T[] _items; 
 	private readonly int _width; 
@@ -55,7 +55,7 @@ private struct MapImageRenderer.Array2D<T> // TypeDefIndex: 10755
 
 }
 
-private sealed class MapImageRenderer.<>c__DisplayClass17_0 // TypeDefIndex: 10756
+private sealed class MapImageRenderer.<>c__DisplayClass17_0 // TypeDefIndex: 10757
 {
 	public TerrainHeightMap terrainHeightMap; 
 	public TerrainSplatMap terrainSplatMap; 

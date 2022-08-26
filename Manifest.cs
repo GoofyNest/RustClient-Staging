@@ -317,7 +317,7 @@ public class Manifest.ServerDesc // TypeDefIndex: 6250
 
 }
 
-public class Manifest // TypeDefIndex: 11966
+public class Manifest // TypeDefIndex: 11967
 {
 
 	[ClientVar] 

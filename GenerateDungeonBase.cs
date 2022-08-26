@@ -1,4 +1,4 @@
-public class GenerateDungeonBase : ProceduralComponent // TypeDefIndex: 10465
+public class GenerateDungeonBase : ProceduralComponent // TypeDefIndex: 10466
 {
 	public string EntranceFolder; 
 	public string LinkFolder; 
@@ -54,7 +54,7 @@ public class GenerateDungeonBase : ProceduralComponent // TypeDefIndex: 10465
 
 }
 
-private class GenerateDungeonBase.DungeonSegment // TypeDefIndex: 10466
+private class GenerateDungeonBase.DungeonSegment // TypeDefIndex: 10467
 {
 	public Vector3 position; 
 	public Quaternion rotation; 
@@ -69,7 +69,7 @@ private class GenerateDungeonBase.DungeonSegment // TypeDefIndex: 10466
 
 }
 
-private sealed class GenerateDungeonBase.<>c__DisplayClass14_0 // TypeDefIndex: 10467
+private sealed class GenerateDungeonBase.<>c__DisplayClass14_0 // TypeDefIndex: 10468
 {
 	public GenerateDungeonBase.DungeonSegment segmentStart; 
 
@@ -80,7 +80,7 @@ private sealed class GenerateDungeonBase.<>c__DisplayClass14_0 // TypeDefIndex: 
 
 }
 
-private sealed class GenerateDungeonBase.<>c__DisplayClass14_1 // TypeDefIndex: 10468
+private sealed class GenerateDungeonBase.<>c__DisplayClass14_1 // TypeDefIndex: 10469
 {
 	public GenerateDungeonBase.DungeonSegment segmentEnd; 
 	public GenerateDungeonBase.<>c__DisplayClass14_0 CS$<>8__locals1; 

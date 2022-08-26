@@ -1,4 +1,4 @@
-public class LootGrid : MonoBehaviour // TypeDefIndex: 11055
+public class LootGrid : MonoBehaviour // TypeDefIndex: 11056
 {
 	public int Container; 
 	public int Offset; 

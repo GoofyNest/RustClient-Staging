@@ -1,4 +1,4 @@
-public class FrostRenderer : PostProcessEffectRenderer<Frost> // TypeDefIndex: 10260
+public class FrostRenderer : PostProcessEffectRenderer<Frost> // TypeDefIndex: 10261
 {
 	private int scaleProperty; 
 	private int sharpnessProperty; 

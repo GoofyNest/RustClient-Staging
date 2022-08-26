@@ -1,4 +1,4 @@
-public class OpenSteamURL : MonoBehaviour // TypeDefIndex: 10785
+public class OpenSteamURL : MonoBehaviour // TypeDefIndex: 10786
 {
 	public bool openInSteam; 
 

@@ -1,4 +1,4 @@
-public abstract class DeployVolume : PrefabAttribute // TypeDefIndex: 9847
+public abstract class DeployVolume : PrefabAttribute // TypeDefIndex: 9848
 {
 	public LayerMask layers; 
 	[InspectorFlagsAttribute] 
@@ -44,7 +44,7 @@ public abstract class DeployVolume : PrefabAttribute // TypeDefIndex: 9847
 
 }
 
-public enum DeployVolume.EntityMode // TypeDefIndex: 9848
+public enum DeployVolume.EntityMode // TypeDefIndex: 9849
 {
 	public int value__; 
 	public const DeployVolume.EntityMode ExcludeList = 0;

@@ -1,4 +1,4 @@
-public class BaseAimable : BaseVehicleMountPoint // TypeDefIndex: 9697
+public class BaseAimable : BaseVehicleMountPoint // TypeDefIndex: 9698
 {
 	public Transform aimBase; 
 

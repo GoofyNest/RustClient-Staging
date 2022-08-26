@@ -15,7 +15,7 @@ public class MotionBlur : ImageEffectBase // TypeDefIndex: 8194
 
 }
 
-public sealed class MotionBlur : PostProcessEffectSettings // TypeDefIndex: 11815
+public sealed class MotionBlur : PostProcessEffectSettings // TypeDefIndex: 11816
 {
 	[RangeAttribute] 
 	[TooltipAttribute] 

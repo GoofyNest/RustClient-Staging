@@ -1,4 +1,4 @@
-public class HungerAboveAIEvent : BaseAIEvent // TypeDefIndex: 9401
+public class HungerAboveAIEvent : BaseAIEvent // TypeDefIndex: 9402
 {
 
 public class HungerAboveAIEvent : BaseAIEvent

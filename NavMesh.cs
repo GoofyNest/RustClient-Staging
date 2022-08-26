@@ -790,7 +790,7 @@ private sealed class NavMeshSurface.<>c // TypeDefIndex: 8149
 
 }
 
-public class NavMeshTester : MonoBehaviour // TypeDefIndex: 8964
+public class NavMeshTester : MonoBehaviour // TypeDefIndex: 8965
 {
 
 	public void .ctor() { }

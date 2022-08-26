@@ -756,14 +756,14 @@ public enum AudioVisualisationEntity.Speed // TypeDefIndex: 8311
 
 }
 
-public class AudioAlarm : IOEntity // TypeDefIndex: 8701
+public class AudioAlarm : IOEntity // TypeDefIndex: 8702
 {
 
 	public void .ctor() { }
 
 }
 
-public class AudioSettings : MonoBehaviour // TypeDefIndex: 9124
+public class AudioSettings : MonoBehaviour // TypeDefIndex: 9125
 {
 	public AudioMixer mixer; 
 
@@ -776,7 +776,7 @@ public class AudioSettings : MonoBehaviour // TypeDefIndex: 9124
 
 }
 
-public class AudioVisualisationEntityLight : AudioVisualisationEntity // TypeDefIndex: 9437
+public class AudioVisualisationEntityLight : AudioVisualisationEntity // TypeDefIndex: 9438
 {
 	public Light TargetLight; 
 	public Light SecondaryLight; 
@@ -827,7 +827,7 @@ public class AudioVisualisationEntityLight : AudioVisualisationEntity // TypeDef
 
 }
 
-public struct AudioVisualisationEntityLight.LightColourSet // TypeDefIndex: 9438
+public struct AudioVisualisationEntityLight.LightColourSet // TypeDefIndex: 9439
 {
 	[ColorUsageAttribute] 
 	public Color LightColor; 
@@ -838,7 +838,7 @@ public struct AudioVisualisationEntityLight.LightColourSet // TypeDefIndex: 9438
 
 }
 
-public class AudioInterceptComponent : MonoBehaviour // TypeDefIndex: 9458
+public class AudioInterceptComponent : MonoBehaviour // TypeDefIndex: 9459
 {
 	public OggEncoder Encoder; 
 	private float[] strippedData; 
@@ -854,7 +854,7 @@ public class AudioInterceptComponent : MonoBehaviour // TypeDefIndex: 9458
 
 }
 
-public class Audio : ConsoleSystem // TypeDefIndex: 11906
+public class Audio : ConsoleSystem // TypeDefIndex: 11907
 {
 	[ClientVar] 
 	public static float master; 

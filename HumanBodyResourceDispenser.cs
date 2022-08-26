@@ -1,4 +1,4 @@
-public class HumanBodyResourceDispenser : ResourceDispenser // TypeDefIndex: 9504
+public class HumanBodyResourceDispenser : ResourceDispenser // TypeDefIndex: 9505
 {
 
 	public void .ctor() { }
