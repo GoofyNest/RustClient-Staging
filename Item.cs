@@ -1031,7 +1031,7 @@ public class Item // TypeDefIndex: 10112
 {
 	public Nullable<int> amountOverride; 
 	private static readonly Memoized<string, ValueTuple<ItemDefinition.AmountType, int>> FormatAmountMemoized; 
-	private static string DefaultArmourBreakEffectPath; 
+	private const string DefaultArmourBreakEffectPath = "assets/bundled/prefabs/fx/armor_break.prefab";
 	private float _condition; 
 	private float _maxCondition; 
 	public ItemDefinition info; 
