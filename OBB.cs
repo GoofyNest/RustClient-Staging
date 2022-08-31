@@ -43,5 +43,7 @@ public struct OBB // TypeDefIndex: 6591
 
 	public float SqrDistance(Vector3 position) { }
 
+	public void DebugDraw(Color colour, float duration) { }
+
 }
 

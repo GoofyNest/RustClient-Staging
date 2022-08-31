@@ -111,6 +111,8 @@ public class TrainEngine : TrainCar, IEngineControllerUser, IEntity // TypeDefIn
 	[SerializeField] 
 	private bool lootablesAreOnPlatform; 
 	[SerializeField] 
+	private bool mustMountFromPlatform; 
+	[SerializeField] 
 	private VehicleLight[] onLights; 
 	[SerializeField] 
 	private VehicleLight[] headlights; 

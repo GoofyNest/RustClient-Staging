@@ -1221,6 +1221,8 @@ public class ModularCar : BaseModularVehicle, IVehicleLockUser, VehicleChassisVi
 	[SerializeField] 
 	private ProtectionProperties mortalProtection; 
 	[SerializeField] 
+	private BoxCollider mainChassisCollider; 
+	[SerializeField] 
 	private ModularCar.SpawnSettings spawnSettings; 
 	[SerializeField] 
 	[HideInInspector] 
