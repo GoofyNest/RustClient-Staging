@@ -21,9 +21,9 @@ public class BaseGameMode : BaseEntity // TypeDefIndex: 8520
 	public const BaseEntity.Flags Flag_GameOver = 256;
 	public const BaseEntity.Flags Flag_WaitingForPlayers = 512;
 	[HeaderAttribute] 
-	public List<string> addedFeatures; 
-	public List<string> removedFeatures; 
-	public List<string> changedFeatures; 
+	public Translate.Phrase[] addedFeatures; 
+	public Translate.Phrase[] removedFeatures; 
+	public Translate.Phrase[] changedFeatures; 
 	public List<string> convars; 
 	[CompilerGeneratedAttribute] 
 	private static Action<BaseGameMode> GameModeChanged; 

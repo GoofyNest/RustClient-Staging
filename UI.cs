@@ -6034,6 +6034,7 @@ public class UIInventory : SingletonComponent<UIInventory> // TypeDefIndex: 1108
 	public VerticalLayoutGroup rightContents; 
 	public GameObject QuickCraft; 
 	public Transform InventoryIconContainer; 
+	public ChangelogPanel ChangelogPanel; 
 	public ContactsPanel contactsPanel; 
 	private static uint currentQuickLootContainerID; 
 	private GameObject Inset; 
