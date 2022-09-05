@@ -71087,8 +71087,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 923
 	private float skyReflectionMultiplierTarget; 
 	private float skyReflectionMultiplierOcean; 
 	private float skyAdminReflectionMultiplierOld; 
-	private bool skyReflectionInteriorsOld; 
-	private bool skyReflectionForestsOld; 
 	private LayerMask skyReflectionCullingFlags; 
 	private bool isMoving; 
 	private bool isRotating; 

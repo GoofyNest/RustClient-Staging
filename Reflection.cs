@@ -1,11 +1,6 @@
 public class Reflection : ConsoleSystem // TypeDefIndex: 11982
 {
 	[ClientVar] 
-	public static bool interiors; 
-	[ClientVar] 
-	public static bool forests; 
-
-	[ClientVar] 
 	public static int resolution { get; set; }
 	[ClientVar] 
 	public static float updateinterval { get; set; }
@@ -30,8 +25,6 @@ public class Reflection : ConsoleSystem // TypeDefIndex: 11982
 	private static int TimeSlicingToInt(ReflectionProbeTimeSlicingMode mode) { }
 
 	public void .ctor() { }
-
-	private static void .cctor() { }
 
 }
 
