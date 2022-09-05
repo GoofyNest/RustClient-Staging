@@ -1748,7 +1748,6 @@ public class TOD_Sky : MonoBehaviour // TypeDefIndex: 8109
 	public Color MoonHaloColor { get; set; }
 	public ReflectionProbe Probe { get; }
 	public GameObject ProbeInstance { get; }
-	public MonoBehaviour ProbeEx { get; }
 
 
 	public static List<TOD_Sky> get_Instances() { }
@@ -1993,8 +1992,6 @@ public class TOD_Sky : MonoBehaviour // TypeDefIndex: 8109
 
 	public GameObject get_ProbeInstance() { }
 
-	public MonoBehaviour get_ProbeEx() { }
-
 	public Vector3 OrbitalToUnity(float radius, float theta, float phi) { }
 
 	public Vector3 OrbitalToLocal(float theta, float phi) { }
@@ -2085,7 +2082,6 @@ public class TOD_Sky.ReflectionProbeState // TypeDefIndex: 8110
 {
 	public ReflectionProbe Probe; 
 	public GameObject ProbeInstance; 
-	public MonoBehaviour ProbeEx; 
 	public int ProbeRenderID; 
 
 
