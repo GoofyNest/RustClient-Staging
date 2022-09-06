@@ -108,6 +108,12 @@ public class Admin : ConsoleSystem // TypeDefIndex: 11899
 	public static void skipqueue(ConsoleSystem.Arg arg) { }
 
 	[ServerVar] 
+	public static void skipqueueid(ConsoleSystem.Arg arg) { }
+
+	[ServerVar] 
+	public static void removeskipqueue(ConsoleSystem.Arg arg) { }
+
+	[ServerVar] 
 	public static void players(ConsoleSystem.Arg arg) { }
 
 	[ServerVar] 
