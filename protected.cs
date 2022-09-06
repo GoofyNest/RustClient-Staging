@@ -225,6 +225,7 @@ protected static class AnimalAnimation.Params // TypeDefIndex: 9117
 {
 	public static int WalkSpeed; 
 	public static int Sleeping; 
+	public static int IdleOffset; 
 
 
 	private static void .cctor() { }

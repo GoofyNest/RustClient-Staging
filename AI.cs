@@ -919,6 +919,8 @@ public class AnimalAnimation : MonoBehaviour, IClientComponent // TypeDefIndex: 
 	public SoundDefinition saddleMovementSoundDefWood; 
 	public SoundDefinition saddleMovementSoundDefRoadsign; 
 	public AnimationCurve saddleMovementGainCurve; 
+	[TooltipAttribute] 
+	public bool hasIdleOffset; 
 	[ReadOnlyAttribute] 
 	public string BaseFolder; 
 	public const BaseEntity.Flags Flag_WoodArmor = 2048;
@@ -928,6 +930,8 @@ public class AnimalAnimation : MonoBehaviour, IClientComponent // TypeDefIndex: 
 	private float previousRotationYaw; 
 	private bool wasSleeping; 
 
+
+	private void OnEnable() { }
 
 	private void Update() { }
 
