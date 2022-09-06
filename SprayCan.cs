@@ -32,6 +32,8 @@ public class SprayCan : HeldEntity // TypeDefIndex: 8644
 	public SteamInventoryItem FreeSprayUnlockItem; 
 	public ParticleSystem.MinMaxGradient DecalSprayGradient; 
 	public SoundDefinition SprayLoopDef; 
+	public static Translate.Phrase FreeSprayNamePhrase; 
+	public static Translate.Phrase FreeSprayDescPhrase; 
 	[CompilerGeneratedAttribute] 
 	private SprayCan.SprayMode <currentMode>k__BackingField; 
 	private int selectedDecalSkin; 
@@ -136,10 +138,10 @@ public class SprayCan : HeldEntity // TypeDefIndex: 8644
 	private bool <TrySnapPointToRenderMesh>g__HitPoint|33_0(Renderer forRenderer, out Vector3 trySnapPointToRenderMesh, ref SprayCan.<>c__DisplayClass33_0 ) { }
 
 	[CompilerGeneratedAttribute] 
-	private void <OnInput>b__63_0(BasePlayer ply) { }
+	private void <OnInput>b__65_0(BasePlayer ply) { }
 
 	[CompilerGeneratedAttribute] 
-	private void <OnInput>b__63_1(BasePlayer ply) { }
+	private void <OnInput>b__65_1(BasePlayer ply) { }
 
 }
 
@@ -195,7 +197,7 @@ private struct SprayCan.<>c__DisplayClass33_0 // TypeDefIndex: 8649
 
 }
 
-private sealed class SprayCan.<>c__DisplayClass63_0 // TypeDefIndex: 8650
+private sealed class SprayCan.<>c__DisplayClass65_0 // TypeDefIndex: 8650
 {
 	public ItemSkinDirectory.Skin skin; 
 	public SprayCan <>4__this; 
@@ -207,7 +209,7 @@ private sealed class SprayCan.<>c__DisplayClass63_0 // TypeDefIndex: 8650
 
 }
 
-private sealed class SprayCan.<>c__DisplayClass64_0 // TypeDefIndex: 8651
+private sealed class SprayCan.<>c__DisplayClass66_0 // TypeDefIndex: 8651
 {
 	public SprayCan <>4__this; 
 	public BaseEntity targetEntity; 
