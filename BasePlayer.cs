@@ -3187,7 +3187,7 @@ public class PlayerEyes : EntityComponent<BasePlayer> // TypeDefIndex: 9652
 
 	private void DoInEyeCamera(Camera cam) { }
 
-	private void DoThirdPersonCamera(Camera cam) { }
+	public void DoThirdPersonCamera(Camera cam) { }
 
 	private void DoDeathCamera(Camera cam) { }
 

@@ -455,6 +455,7 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 	private const float demoTickDistSq = 2500;
 	[CompilerGeneratedAttribute] 
 	private static BasePlayer <DemoSpectatePlayer>k__BackingField; 
+	public static Vector3 SpectateRotation; 
 	public static BaseEntity CurrentEntity; 
 	public HashSet<uint> subscriptions; 
 	private const long EntityPositionPacketSize = 36;
@@ -689,6 +690,7 @@ private sealed class Client.<>c // TypeDefIndex: 9151
 {
 	public static readonly Client.<>c <>9; 
 	public static Func<ConsoleSystem.Command, bool> <>9__39_0; 
+	public static Predicate<BasePlayer> <>9__87_0; 
 
 
 	private static void .cctor() { }
@@ -696,6 +698,8 @@ private sealed class Client.<>c // TypeDefIndex: 9151
 	public void .ctor() { }
 
 	internal bool <DoClientConnected>b__39_0(ConsoleSystem.Command x) { }
+
+	internal bool <DemoSpectateNextPlayer>b__87_0(BasePlayer p) { }
 
 }
 

@@ -7,6 +7,8 @@ public static class FirstPersonSpectatorMode // TypeDefIndex: 9192
 	private static bool wasParented; 
 	private static Item lastHeldItem; 
 	private static TimeUntil reloadEnds; 
+	private static float duckTarget; 
+	private static TimeSince timeOnCurrentPlayer; 
 
 
 	public static void Apply(Camera cam, BaseEntity target) { }

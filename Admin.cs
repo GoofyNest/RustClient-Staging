@@ -16,6 +16,8 @@ public class AdminExistingSellOrder : MonoBehaviour // TypeDefIndex: 8731
 
 public class AdminUI : MonoBehaviour // TypeDefIndex: 10835
 {
+	public bool AllowInDemo; 
+
 
 	public bool IsVisible() { }
 

@@ -4245,7 +4245,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	/* GenericInstMethod :
 	|
 	|-Enumerable.ToArray<<>f__AnonymousType0<string, string, bool>>
-	|-Enumerable.ToArray<BasePlayer>
 	|-Enumerable.ToArray<BaseViewModel>
 	|-Enumerable.ToArray<ConsoleSystem.Command>
 	|-Enumerable.ToArray<Report.StackTrace.StackFrame>

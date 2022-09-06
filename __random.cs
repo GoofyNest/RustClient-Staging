@@ -2890,6 +2890,7 @@ public sealed class Predicate<T> : MulticastDelegate // TypeDefIndex: 162
 	|-Predicate<AlignedLineDrawer.LinePoint>..ctor
 	|-Predicate<AtmosphereVolumeRenderer.CurrentVolumeEntry>..ctor
 	|-Predicate<BaseEntity.PendingFileRequest>..ctor
+	|-Predicate<BasePlayer>..ctor
 	|-Predicate<CardTableUI.KeycodeWithAction>..ctor
 	|-Predicate<Cassette.LoadRequest>..ctor
 	|-Predicate<Admin.PlayerInfo>..ctor
@@ -47677,6 +47678,27 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|
 	|-List<BaseEntity.PendingFileRequest>..ctor
 	|
+	|-List<BasePlayer>..ctor
+	|-List<ERConnectionSibling>..ctor
+	|-List<ERSOMarkerExt>..ctor
+	|-List<QDQDOOQQDQODD>..ctor
+	|-List<Index>..ctor
+	|-List<Exception>..ctor
+	|-List<WebConnectionGroup>..ctor
+	|-List<object>..ctor
+	|-List<MemberInfo>..ctor
+	|-List<PropertyInfo>..ctor
+	|-List<ExceptionDispatchInfo>..ctor
+	|-List<string>..ctor
+	|-List<IAsyncLocal>..ctor
+	|-List<XmlQualifiedName>..ctor
+	|-List<NavMeshModifier>..ctor
+	|-List<NavMeshModifierVolume>..ctor
+	|-List<GameObject>..ctor
+	|-List<Material>..ctor
+	|-List<Selectable>..ctor
+	|-List<EventCallbackFunctorBase>..ctor
+	|
 	|-List<CardTableUI.KeycodeWithAction>..ctor
 	|
 	|-List<Cassette.LoadRequest>..ctor
@@ -47706,26 +47728,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<ERChildsSO>..ctor
 	|
 	|-List<ERConnectionGUIStatus>..ctor
-	|
-	|-List<ERConnectionSibling>..ctor
-	|-List<ERSOMarkerExt>..ctor
-	|-List<QDQDOOQQDQODD>..ctor
-	|-List<Index>..ctor
-	|-List<Exception>..ctor
-	|-List<WebConnectionGroup>..ctor
-	|-List<object>..ctor
-	|-List<MemberInfo>..ctor
-	|-List<PropertyInfo>..ctor
-	|-List<ExceptionDispatchInfo>..ctor
-	|-List<string>..ctor
-	|-List<IAsyncLocal>..ctor
-	|-List<XmlQualifiedName>..ctor
-	|-List<NavMeshModifier>..ctor
-	|-List<NavMeshModifierVolume>..ctor
-	|-List<GameObject>..ctor
-	|-List<Material>..ctor
-	|-List<Selectable>..ctor
-	|-List<EventCallbackFunctorBase>..ctor
 	|
 	|-List<ERLane>..ctor
 	|
@@ -48376,6 +48378,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<BaseMission.MissionInstance>.get_Count
 	|-List<BaseNetworkable>.get_Count
 	|-List<BaseNpc>.get_Count
+	|-List<BasePlayer>.get_Count
 	|-List<BaseScreenShake>.get_Count
 	|-List<BaseVehicle.MountPointInfo>.get_Count
 	|-List<BaseVehicle>.get_Count
@@ -49742,6 +49745,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<BaseNetworkable>.get_Item
 	|-List<BaseNpc>.get_Item
 	|-List<BasePathNode>.get_Item
+	|-List<BasePlayer>.get_Item
 	|-List<BaseScreenShake>.get_Item
 	|-List<BaseVehicle.MountPointInfo>.get_Item
 	|-List<BaseVehicle>.get_Item
@@ -58050,6 +58054,25 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|
 	|-List<BaseEntity.PendingFileRequest>.RemoveAll
 	|
+	|-List<BasePlayer>.RemoveAll
+	|-List<RCon.RConClient>.RemoveAll
+	|-List<GenerateDungeonGrid.PathNode>.RemoveAll
+	|-List<GeneratePowerlineLayout.PathNode>.RemoveAll
+	|-List<GenerateRoadLayout.PathNode>.RemoveAll
+	|-List<PaintableItem>.RemoveAll
+	|-List<object>.RemoveAll
+	|-List<Task>.RemoveAll
+	|-List<WeakReference<EtwSession>>.RemoveAll
+	|-List<NavMeshModifier>.RemoveAll
+	|-List<NavMeshModifierVolume>.RemoveAll
+	|-List<Component>.RemoveAll
+	|-List<DDraw.BaseObject>.RemoveAll
+	|-List<BaseInvokableCall>.RemoveAll
+	|-List<PostProcessEffectSettings>.RemoveAll
+	|-List<PostProcessLayer.SerializedBundleRef>.RemoveAll
+	|-List<Shader>.RemoveAll
+	|-List<ViewShake.ShakeParameters>.RemoveAll
+	|
 	|-List<CardTableUI.KeycodeWithAction>.RemoveAll
 	|-List<ItemSkinDirectory.Skin>.RemoveAll
 	|-List<KeyframeView.UIKeyframeValue>.RemoveAll
@@ -58142,24 +58165,6 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<ViewModelDrawEvent>.RemoveAll
 	|
 	|-List<BoneData>.RemoveAll
-	|
-	|-List<RCon.RConClient>.RemoveAll
-	|-List<GenerateDungeonGrid.PathNode>.RemoveAll
-	|-List<GeneratePowerlineLayout.PathNode>.RemoveAll
-	|-List<GenerateRoadLayout.PathNode>.RemoveAll
-	|-List<PaintableItem>.RemoveAll
-	|-List<object>.RemoveAll
-	|-List<Task>.RemoveAll
-	|-List<WeakReference<EtwSession>>.RemoveAll
-	|-List<NavMeshModifier>.RemoveAll
-	|-List<NavMeshModifierVolume>.RemoveAll
-	|-List<Component>.RemoveAll
-	|-List<DDraw.BaseObject>.RemoveAll
-	|-List<BaseInvokableCall>.RemoveAll
-	|-List<PostProcessEffectSettings>.RemoveAll
-	|-List<PostProcessLayer.SerializedBundleRef>.RemoveAll
-	|-List<Shader>.RemoveAll
-	|-List<ViewShake.ShakeParameters>.RemoveAll
 	|
 	|-List<SkeletonDefinition.Bone>.RemoveAll
 	|
