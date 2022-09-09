@@ -2286,8 +2286,8 @@ internal interface IPlayerEditorConnectionNative // TypeDefIndex: 3474
 public interface ISerializationCallbackReceiver // TypeDefIndex: 3548
 {
 
-[AttributeUsageAttribute] 
 [RequiredByNativeCodeAttribute] 
+[AttributeUsageAttribute] 
 public sealed class PreferBinarySerialization : Attribute
 
 [RequiredByNativeCodeAttribute] 

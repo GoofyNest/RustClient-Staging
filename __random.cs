@@ -64280,8 +64280,8 @@ internal struct CastHelper<T> // TypeDefIndex: 3506
 
 internal class InvokableCall<T1, T2> : BaseInvokableCall // TypeDefIndex: 3630
 {
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private UnityAction<T1, T2> Delegate; 
 
 
@@ -64366,8 +64366,8 @@ internal class InvokableCall<T1, T2, T3> : BaseInvokableCall // TypeDefIndex: 36
 
 internal class InvokableCall<T1, T2, T3, T4> : BaseInvokableCall // TypeDefIndex: 3632
 {
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private UnityAction<T1, T2, T3, T4> Delegate; 
 
 

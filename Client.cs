@@ -462,6 +462,8 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 	private const long EntityFlagsPacketSize = 8;
 	private static EventSystem _eventsystem; 
 	private float LastConfigSaveTime; 
+	private bool backgroundCapApplied; 
+	private int capToReapply; 
 	private Stopwatch ngTimer; 
 
 	private bool StatsEnabled { get; }
@@ -634,6 +636,8 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 	private void OnLeaveServer() { }
 
 	private void SaveConfigs(bool force = False) { }
+
+	private void HandleBackgroundCap() { }
 
 	private static extern uint GetCurrentProcessId() { }
 

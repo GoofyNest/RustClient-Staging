@@ -1,8 +1,8 @@
 public sealed class NativeContainerAttribute : Attribute // TypeDefIndex: 3327
 {
 
-[AttributeUsageAttribute] 
 [RequiredByNativeCodeAttribute] 
+[AttributeUsageAttribute] 
 public sealed class NativeContainerAttribute : Attribute
 
 	public void .ctor() { }

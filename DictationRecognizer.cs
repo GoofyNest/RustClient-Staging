@@ -1,14 +1,14 @@
 public sealed class DictationRecognizer // TypeDefIndex: 3596
 {
 	private IntPtr m_Recognizer; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private DictationRecognizer.DictationHypothesisDelegate DictationHypothesis; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private DictationRecognizer.DictationResultDelegate DictationResult; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private DictationRecognizer.DictationCompletedDelegate DictationComplete; 
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 

@@ -109,11 +109,11 @@ internal class ArgumentCache : ISerializationCallbackReceiver // TypeDefIndex: 3
 	[SerializeField] 
 	[FormerlySerializedAsAttribute] 
 	private int m_IntArgument; 
-	[FormerlySerializedAsAttribute] 
 	[SerializeField] 
+	[FormerlySerializedAsAttribute] 
 	private float m_FloatArgument; 
-	[SerializeField] 
 	[FormerlySerializedAsAttribute] 
+	[SerializeField] 
 	private string m_StringArgument; 
 	[SerializeField] 
 	private bool m_BoolArgument; 

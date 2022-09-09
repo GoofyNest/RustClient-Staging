@@ -130,6 +130,10 @@ public static class World // TypeDefIndex: 10326
 
 	public static byte[] GetMap(string name) { }
 
+	public static int GetCachedHeightMapResolution() { }
+
+	public static int GetCachedSplatMapResolution() { }
+
 	public static void AddMap(string name, byte[] data) { }
 
 	public static void AddPrefab(string category, Prefab prefab, Vector3 position, Quaternion rotation, Vector3 scale) { }
@@ -189,18 +193,18 @@ private sealed class World.<>c__DisplayClass53_0 // TypeDefIndex: 10327
 private sealed class World.<>c // TypeDefIndex: 10328
 {
 	public static readonly World.<>c <>9; 
-	public static Func<PathData, PathList> <>9__65_0; 
+	public static Func<PathData, PathList> <>9__67_0; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal PathList <GetPaths>b__65_0(PathData p) { }
+	internal PathList <GetPaths>b__67_0(PathData p) { }
 
 }
 
-private sealed class World.<SpawnAsync>d__68 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10329
+private sealed class World.<SpawnAsync>d__70 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10329
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -236,7 +240,7 @@ private sealed class World.<SpawnAsync>d__68 : IEnumerator<object>, IEnumerator,
 
 }
 
-private sealed class World.<Spawn>d__69 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10330
+private sealed class World.<Spawn>d__71 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10330
 {
 	private int <>1__state; 
 	private object <>2__current; 

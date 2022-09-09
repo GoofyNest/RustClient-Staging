@@ -232,8 +232,8 @@ internal class AppDomainLevelActivator : IActivator // TypeDefIndex: 1203
 
 public class Application // TypeDefIndex: 3354
 {
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private static Application.LowMemoryCallback lowMemory; 
 	private static Application.LogCallback s_LogCallbackHandler; 
 	private static Application.LogCallback s_LogCallbackHandlerThreaded; 
@@ -243,14 +243,15 @@ public class Application // TypeDefIndex: 3354
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private static Action<string> deepLinkActivated; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private static Func<bool> wantsToQuit; 
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
 	private static Action quitting; 
 
 	public static bool isPlaying { get; }
+	public static bool isFocused { get; }
 	public static string dataPath { get; }
 	public static string streamingAssetsPath { get; }
 	[SecurityCriticalAttribute] 
@@ -280,6 +281,9 @@ public class Application // TypeDefIndex: 3354
 
 	[FreeFunctionAttribute] 
 	public static bool get_isPlaying() { }
+
+	[FreeFunctionAttribute] 
+	public static bool get_isFocused() { }
 
 	[FreeFunctionAttribute] 
 	public static string get_dataPath() { }

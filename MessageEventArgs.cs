@@ -19,8 +19,8 @@ public struct Initialization.SynchronizeInputs
 [RequiredByNativeCodeAttribute] 
 public struct Initialization.XREarlyUpdate
 
-[RequiredByNativeCodeAttribute] 
 [MovedFromAttribute] 
+[RequiredByNativeCodeAttribute] 
 public struct EarlyUpdate
 
 [RequiredByNativeCodeAttribute] 
@@ -116,8 +116,8 @@ public struct EarlyUpdate.TangoUpdate
 [RequiredByNativeCodeAttribute] 
 public struct EarlyUpdate.PerformanceAnalyticsUpdate
 
-[RequiredByNativeCodeAttribute] 
 [MovedFromAttribute] 
+[RequiredByNativeCodeAttribute] 
 public struct FixedUpdate
 
 [RequiredByNativeCodeAttribute] 
@@ -243,8 +243,8 @@ public struct PreLateUpdate.ScriptRunBehaviourLateUpdate
 [RequiredByNativeCodeAttribute] 
 public struct PreLateUpdate.ConstraintManagerUpdate
 
-[RequiredByNativeCodeAttribute] 
 [MovedFromAttribute] 
+[RequiredByNativeCodeAttribute] 
 public struct PostLateUpdate
 
 [RequiredByNativeCodeAttribute] 

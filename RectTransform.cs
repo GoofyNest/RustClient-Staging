@@ -1,7 +1,7 @@
 public sealed class RectTransform : Transform // TypeDefIndex: 3565
 {
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private static RectTransform.ReapplyDrivenProperties reapplyDrivenProperties; 
 
 	public Rect rect { get; }

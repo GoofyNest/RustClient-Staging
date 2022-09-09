@@ -21,6 +21,8 @@ public class TrainCar : BaseVehicle, IGenericLerpTarget<TrainCar.TrainCarSnapsho
 	[SerializeField] 
 	private TriggerHurtNotChild hurtTriggerRear; 
 	[SerializeField] 
+	private GameObject[] hurtOrRepelTriggersInternal; 
+	[SerializeField] 
 	private float hurtTriggerMinSpeed; 
 	[SerializeField] 
 	private Transform centreOfMassTransform; 

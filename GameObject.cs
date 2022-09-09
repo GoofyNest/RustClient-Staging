@@ -220,8 +220,8 @@ public sealed class GameObject : Object
 	[TypeInferenceRuleAttribute] 
 	public Component GetComponent(Type type) { }
 
-	[FreeFunctionAttribute] 
 	[NativeWritableSelfAttribute] 
+	[FreeFunctionAttribute] 
 	internal void GetComponentFastPath(Type type, IntPtr oneFurtherThanResultValue) { }
 
 	[FreeFunctionAttribute] 

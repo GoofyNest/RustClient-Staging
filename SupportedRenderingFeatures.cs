@@ -1,8 +1,8 @@
 public class SupportedRenderingFeatures // TypeDefIndex: 3854
 {
 	private static SupportedRenderingFeatures s_Active; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private SupportedRenderingFeatures.ReflectionProbeModes <reflectionProbeModes>k__BackingField; 
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
@@ -13,14 +13,14 @@ public class SupportedRenderingFeatures // TypeDefIndex: 3854
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
 	private LightmapBakeType <lightmapBakeTypes>k__BackingField; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private LightmapsMode <lightmapsModes>k__BackingField; 
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private bool <enlighten>k__BackingField; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private bool <lightProbeProxyVolumes>k__BackingField; 
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 

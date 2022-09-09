@@ -13,9 +13,9 @@ public class SceneManager // TypeDefIndex: 3656
 	public static int sceneCount { get; }
 
 
-	[NativeMethodAttribute] 
-	[StaticAccessorAttribute] 
 	[NativeHeaderAttribute] 
+	[StaticAccessorAttribute] 
+	[NativeMethodAttribute] 
 	public static int get_sceneCount() { }
 
 	[StaticAccessorAttribute] 
@@ -24,20 +24,20 @@ public class SceneManager // TypeDefIndex: 3656
 	[StaticAccessorAttribute] 
 	public static Scene GetSceneByName(string name) { }
 
-	[StaticAccessorAttribute] 
 	[NativeThrowsAttribute] 
+	[StaticAccessorAttribute] 
 	public static Scene GetSceneAt(int index) { }
 
-	[StaticAccessorAttribute] 
 	[NativeThrowsAttribute] 
+	[StaticAccessorAttribute] 
 	public static Scene CreateScene(string sceneName, CreateSceneParameters parameters) { }
 
 	[NativeThrowsAttribute] 
 	[StaticAccessorAttribute] 
 	private static AsyncOperation UnloadSceneAsyncInternal(Scene scene, UnloadSceneOptions options) { }
 
-	[NativeThrowsAttribute] 
 	[StaticAccessorAttribute] 
+	[NativeThrowsAttribute] 
 	private static AsyncOperation LoadSceneAsyncNameIndexInternal(string sceneName, int sceneBuildIndex, LoadSceneParameters parameters, bool mustCompleteNextFrame) { }
 
 	[StaticAccessorAttribute] 
