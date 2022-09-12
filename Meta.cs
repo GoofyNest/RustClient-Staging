@@ -13,6 +13,9 @@ public class Meta : ConsoleSystem // TypeDefIndex: 9276
 	[ClientVar] 
 	public static void reset_cycle(ConsoleSystem.Arg args) { }
 
+	[ClientVar] 
+	public static void exec(ConsoleSystem.Arg args) { }
+
 	private static ConsoleSystem.Command Find(string name) { }
 
 	public void .ctor() { }
