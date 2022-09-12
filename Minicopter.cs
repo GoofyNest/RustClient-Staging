@@ -168,6 +168,10 @@ public class MiniCopter : BaseHelicopterVehicle, IEngineControllerUser, IEntity 
 
 	protected override bool CanPushNow(BasePlayer pusher) { }
 
+	public override float InheritedVelocityScale() { }
+
+	public override bool InheritedVelocityDirection() { }
+
 	public override void GetMenuOptions(List<Option> list) { }
 
 	public override bool get_HasMenuOptions() { }

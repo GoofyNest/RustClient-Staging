@@ -718,9 +718,11 @@ public class BaseEntity : BaseNetworkable, IProvider, IPosLerpTarget, ILerpInfo,
 
 	public virtual float InheritedVelocityScale() { }
 
-	public virtual Vector3 GetInheritedProjectileVelocity() { }
+	public virtual bool InheritedVelocityDirection() { }
 
-	public virtual Vector3 GetInheritedThrowVelocity() { }
+	public virtual Vector3 GetInheritedProjectileVelocity(Vector3 direction) { }
+
+	public virtual Vector3 GetInheritedThrowVelocity(Vector3 direction) { }
 
 	public virtual Vector3 GetInheritedDropVelocity() { }
 

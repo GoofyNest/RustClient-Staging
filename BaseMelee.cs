@@ -30,7 +30,7 @@ public class BaseMelee : AttackEntity // TypeDefIndex: 8526
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	public override Vector3 GetInheritedVelocity(BasePlayer player) { }
+	public override Vector3 GetInheritedVelocity(BasePlayer player, Vector3 direction) { }
 
 	internal void DoThrow() { }
 

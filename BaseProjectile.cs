@@ -333,7 +333,7 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 8532
 
 	public RecoilProperties get_recoilProperties() { }
 
-	public override Vector3 GetInheritedVelocity(BasePlayer player) { }
+	public override Vector3 GetInheritedVelocity(BasePlayer player, Vector3 direction) { }
 
 	public virtual float GetDamageScale(bool getMax = False) { }
 
@@ -682,8 +682,8 @@ public class Projectile : BaseMonoBehaviour // TypeDefIndex: 9226
 	public float maxDistance; 
 	public Projectile.Modifier modifier; 
 	public bool invisible; 
-	private Vector3 currentVelocity; 
-	private Vector3 currentPosition; 
+	internal Vector3 currentVelocity; 
+	internal Vector3 currentPosition; 
 	private float traveledDistance; 
 	private float traveledTime; 
 	private float launchTime; 
@@ -849,7 +849,7 @@ public class AttackEntity : HeldEntity // TypeDefIndex: 9463
 	public float NextAttackTime { get; }
 
 
-	public virtual Vector3 GetInheritedVelocity(BasePlayer player) { }
+	public virtual Vector3 GetInheritedVelocity(BasePlayer player, Vector3 direction) { }
 
 	public float get_NextAttackTime() { }
 

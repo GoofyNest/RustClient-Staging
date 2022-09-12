@@ -10,7 +10,7 @@ public class EasterBasket : AttackEntity // TypeDefIndex: 8570
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }
 
-	public override Vector3 GetInheritedVelocity(BasePlayer player) { }
+	public override Vector3 GetInheritedVelocity(BasePlayer player, Vector3 direction) { }
 
 	public Item GetAmmo() { }
 

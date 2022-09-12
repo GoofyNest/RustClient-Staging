@@ -2472,9 +2472,9 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel, IIdealSlotE
 
 	public Vector3 GetMountVelocity() { }
 
-	public override Vector3 GetInheritedProjectileVelocity() { }
+	public override Vector3 GetInheritedProjectileVelocity(Vector3 direction) { }
 
-	public override Vector3 GetInheritedThrowVelocity() { }
+	public override Vector3 GetInheritedThrowVelocity(Vector3 direction) { }
 
 	public override Vector3 GetInheritedDropVelocity() { }
 
