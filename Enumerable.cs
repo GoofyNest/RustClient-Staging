@@ -127,8 +127,8 @@ public abstract class Enum : ValueType, IComparable, IFormattable, IConvertible 
 
 	private object System.IConvertible.ToType(Type type, IFormatProvider provider) { }
 
-	[ComVisibleAttribute] 
 	[CLSCompliantAttribute] 
+	[ComVisibleAttribute] 
 	public static object ToObject(Type enumType, sbyte value) { }
 
 	[ComVisibleAttribute] 
@@ -140,19 +140,19 @@ public abstract class Enum : ValueType, IComparable, IFormattable, IConvertible 
 	[ComVisibleAttribute] 
 	public static object ToObject(Type enumType, byte value) { }
 
-	[ComVisibleAttribute] 
 	[CLSCompliantAttribute] 
+	[ComVisibleAttribute] 
 	public static object ToObject(Type enumType, ushort value) { }
 
-	[ComVisibleAttribute] 
 	[CLSCompliantAttribute] 
+	[ComVisibleAttribute] 
 	public static object ToObject(Type enumType, uint value) { }
 
 	[ComVisibleAttribute] 
 	public static object ToObject(Type enumType, long value) { }
 
-	[ComVisibleAttribute] 
 	[CLSCompliantAttribute] 
+	[ComVisibleAttribute] 
 	public static object ToObject(Type enumType, ulong value) { }
 
 	private static object ToObject(Type enumType, char value) { }
@@ -3874,6 +3874,8 @@ public static class Enumerable // TypeDefIndex: 3198
 	|
 	|-Enumerable.Take<byte>
 	|
+	|-Enumerable.Take<char>
+	|
 	|-Enumerable.Take<double>
 	*/
 
@@ -3885,6 +3887,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.TakeIterator<InventoryItem>
 	|
 	|-Enumerable.TakeIterator<byte>
+	|-Enumerable.TakeIterator<char>
 	|
 	|-Enumerable.TakeIterator<double>
 	|-Enumerable.TakeIterator<object>
@@ -4524,6 +4527,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.FirstOrDefault<IPlayerItemDefinition>
 	|-Enumerable.FirstOrDefault<OvenItemIcon.OvenSlotConfig>
 	|-Enumerable.FirstOrDefault<Skinnable>
+	|-Enumerable.FirstOrDefault<Delegate>
 	|-Enumerable.FirstOrDefault<string>
 	|-Enumerable.FirstOrDefault<Match>
 	|-Enumerable.FirstOrDefault<Toggle>
@@ -4580,6 +4584,9 @@ public static class Enumerable // TypeDefIndex: 3198
 	[ExtensionAttribute] 
 	public static TSource SingleOrDefault<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate) { }
 	/* GenericInstMethod :
+	|
+	|-Enumerable.SingleOrDefault<KeyValuePair<IntPtr, Helper.DelegateHolder>>
+	|-Enumerable.SingleOrDefault<KeyValuePair<IntPtr, object>>
 	|
 	|-Enumerable.SingleOrDefault<ConstructorInfo>
 	|-Enumerable.SingleOrDefault<PlayerEditorConnectionEvents.MessageTypeSubscribers>
@@ -4751,6 +4758,15 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Contains<object>
 	|
 	|-Enumerable.Contains<ushort>
+	*/
+
+	[ExtensionAttribute] 
+	public static TAccumulate Aggregate<TSource, TAccumulate>(IEnumerable<TSource> source, TAccumulate seed, Func<TAccumulate, TSource, TAccumulate> func) { }
+	/* GenericInstMethod :
+	|
+	|-Enumerable.Aggregate<KeyValuePair<IntPtr, Helper.PinnedBuffer>, int>
+	|
+	|-Enumerable.Aggregate<object, object>
 	*/
 
 	[ExtensionAttribute] 
@@ -11254,6 +11270,7 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>..ctor
 	|
 	|-Enumerable.<TakeIterator>d__25<byte>..ctor
+	|-Enumerable.<TakeIterator>d__25<char>..ctor
 	|
 	|-Enumerable.<TakeIterator>d__25<double>..ctor
 	|-Enumerable.<TakeIterator>d__25<object>..ctor
@@ -11266,6 +11283,7 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|-Enumerable.<TakeIterator>d__25<Option>.System.IDisposable.Dispose
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>.System.IDisposable.Dispose
 	|-Enumerable.<TakeIterator>d__25<byte>.System.IDisposable.Dispose
+	|-Enumerable.<TakeIterator>d__25<char>.System.IDisposable.Dispose
 	|-Enumerable.<TakeIterator>d__25<double>.System.IDisposable.Dispose
 	|-Enumerable.<TakeIterator>d__25<object>.System.IDisposable.Dispose
 	*/
@@ -11278,6 +11296,8 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>.MoveNext
 	|
 	|-Enumerable.<TakeIterator>d__25<byte>.MoveNext
+	|
+	|-Enumerable.<TakeIterator>d__25<char>.MoveNext
 	|
 	|-Enumerable.<TakeIterator>d__25<double>.MoveNext
 	|
@@ -11293,6 +11313,8 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|
 	|-Enumerable.<TakeIterator>d__25<byte>.<>m__Finally1
 	|
+	|-Enumerable.<TakeIterator>d__25<char>.<>m__Finally1
+	|
 	|-Enumerable.<TakeIterator>d__25<double>.<>m__Finally1
 	|
 	|-Enumerable.<TakeIterator>d__25<object>.<>m__Finally1
@@ -11306,6 +11328,8 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	|
 	|-Enumerable.<TakeIterator>d__25<byte>.System.Collections.Generic.IEnumerator<TSource>.get_Current
+	|
+	|-Enumerable.<TakeIterator>d__25<char>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	|
 	|-Enumerable.<TakeIterator>d__25<double>.System.Collections.Generic.IEnumerator<TSource>.get_Current
 	|
@@ -11322,6 +11346,8 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|
 	|-Enumerable.<TakeIterator>d__25<byte>.System.Collections.IEnumerator.Reset
 	|
+	|-Enumerable.<TakeIterator>d__25<char>.System.Collections.IEnumerator.Reset
+	|
 	|-Enumerable.<TakeIterator>d__25<double>.System.Collections.IEnumerator.Reset
 	|
 	|-Enumerable.<TakeIterator>d__25<object>.System.Collections.IEnumerator.Reset
@@ -11336,6 +11362,8 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|
 	|-Enumerable.<TakeIterator>d__25<byte>.System.Collections.IEnumerator.get_Current
 	|
+	|-Enumerable.<TakeIterator>d__25<char>.System.Collections.IEnumerator.get_Current
+	|
 	|-Enumerable.<TakeIterator>d__25<double>.System.Collections.IEnumerator.get_Current
 	|
 	|-Enumerable.<TakeIterator>d__25<object>.System.Collections.IEnumerator.get_Current
@@ -11349,6 +11377,7 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|
 	|-Enumerable.<TakeIterator>d__25<byte>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
+	|-Enumerable.<TakeIterator>d__25<char>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|
 	|-Enumerable.<TakeIterator>d__25<double>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
 	|-Enumerable.<TakeIterator>d__25<object>.System.Collections.Generic.IEnumerable<TSource>.GetEnumerator
@@ -11361,6 +11390,7 @@ private sealed class Enumerable.<TakeIterator>d__25<TSource> : IEnumerable<TSour
 	|-Enumerable.<TakeIterator>d__25<Option>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<TakeIterator>d__25<InventoryItem>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<TakeIterator>d__25<byte>.System.Collections.IEnumerable.GetEnumerator
+	|-Enumerable.<TakeIterator>d__25<char>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<TakeIterator>d__25<double>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.<TakeIterator>d__25<object>.System.Collections.IEnumerable.GetEnumerator
 	*/
@@ -12695,7 +12725,143 @@ private sealed class EnumUtils.<>c__2<T> // TypeDefIndex: 5957
 
 }
 
-public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 10805
+public struct EnumerateModsCallbackInfo : ICallbackInfo // TypeDefIndex: 8967
+{
+	[CompilerGeneratedAttribute] 
+	private Result <ResultCode>k__BackingField; 
+	[CompilerGeneratedAttribute] 
+	private EpicAccountId <LocalUserId>k__BackingField; 
+	[CompilerGeneratedAttribute] 
+	private object <ClientData>k__BackingField; 
+	[CompilerGeneratedAttribute] 
+	private ModEnumerationType <Type>k__BackingField; 
+
+	public Result ResultCode { get; set; }
+	public EpicAccountId LocalUserId { get; set; }
+	public object ClientData { get; set; }
+	public ModEnumerationType Type { get; set; }
+
+
+	[CompilerGeneratedAttribute] 
+	public Result get_ResultCode() { }
+
+	[CompilerGeneratedAttribute] 
+	public void set_ResultCode(Result value) { }
+
+	[CompilerGeneratedAttribute] 
+	public EpicAccountId get_LocalUserId() { }
+
+	[CompilerGeneratedAttribute] 
+	public void set_LocalUserId(EpicAccountId value) { }
+
+	[CompilerGeneratedAttribute] 
+	public object get_ClientData() { }
+
+	[CompilerGeneratedAttribute] 
+	public void set_ClientData(object value) { }
+
+	[CompilerGeneratedAttribute] 
+	public ModEnumerationType get_Type() { }
+
+	[CompilerGeneratedAttribute] 
+	public void set_Type(ModEnumerationType value) { }
+
+	public Nullable<Result> GetResultCode() { }
+
+	internal void Set(ref EnumerateModsCallbackInfoInternal other) { }
+
+}
+
+internal struct EnumerateModsCallbackInfoInternal : ICallbackInfoInternal, IGettable<EnumerateModsCallbackInfo>, ISettable<EnumerateModsCallbackInfo>, IDisposable // TypeDefIndex: 8968
+{
+	private Result m_ResultCode; 
+	private IntPtr m_LocalUserId; 
+	private IntPtr m_ClientData; 
+	private ModEnumerationType m_Type; 
+
+	public Result ResultCode { get; set; }
+	public EpicAccountId LocalUserId { get; set; }
+	public object ClientData { get; set; }
+	public IntPtr ClientDataAddress { get; }
+	public ModEnumerationType Type { get; set; }
+
+
+	public Result get_ResultCode() { }
+
+	public void set_ResultCode(Result value) { }
+
+	public EpicAccountId get_LocalUserId() { }
+
+	public void set_LocalUserId(EpicAccountId value) { }
+
+	public object get_ClientData() { }
+
+	public void set_ClientData(object value) { }
+
+	public IntPtr get_ClientDataAddress() { }
+
+	public ModEnumerationType get_Type() { }
+
+	public void set_Type(ModEnumerationType value) { }
+
+	public void Set(ref EnumerateModsCallbackInfo other) { }
+
+	public void Set(ref Nullable<EnumerateModsCallbackInfo> other) { }
+
+	public void Dispose() { }
+
+	public void Get(out EnumerateModsCallbackInfo output) { }
+
+}
+
+public struct EnumerateModsOptions // TypeDefIndex: 8969
+{
+	[CompilerGeneratedAttribute] 
+	private EpicAccountId <LocalUserId>k__BackingField; 
+	[CompilerGeneratedAttribute] 
+	private ModEnumerationType <Type>k__BackingField; 
+
+	public EpicAccountId LocalUserId { get; set; }
+	public ModEnumerationType Type { get; set; }
+
+
+	[CompilerGeneratedAttribute] 
+	public EpicAccountId get_LocalUserId() { }
+
+	[CompilerGeneratedAttribute] 
+	public void set_LocalUserId(EpicAccountId value) { }
+
+	[CompilerGeneratedAttribute] 
+	public ModEnumerationType get_Type() { }
+
+	[CompilerGeneratedAttribute] 
+	public void set_Type(ModEnumerationType value) { }
+
+}
+
+internal struct EnumerateModsOptionsInternal : ISettable<EnumerateModsOptions>, IDisposable // TypeDefIndex: 8970
+{
+	private int m_ApiVersion; 
+	private IntPtr m_LocalUserId; 
+	private ModEnumerationType m_Type; 
+
+	public EpicAccountId LocalUserId { set; }
+	public ModEnumerationType Type { set; }
+
+
+	public void set_LocalUserId(EpicAccountId value) { }
+
+	public void set_Type(ModEnumerationType value) { }
+
+	public void Set(ref EnumerateModsOptions other) { }
+
+	public void Set(ref Nullable<EnumerateModsOptions> other) { }
+
+	public void Dispose() { }
+
+}
+
+public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 12473
 {
 	public object Value; 
 	public RustText TextValue; 
@@ -12710,7 +12876,7 @@ public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 10805
 
 }
 
-public class EnumListUI : MonoBehaviour // TypeDefIndex: 10806
+public class EnumListUI : MonoBehaviour // TypeDefIndex: 12474
 {
 	public Transform PrefabItem; 
 	public Transform Container; 
