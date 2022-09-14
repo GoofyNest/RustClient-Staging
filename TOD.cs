@@ -1685,7 +1685,7 @@ public class TOD_Sky : MonoBehaviour // TypeDefIndex: 8082
 	private TOD_Sky.ReflectionProbeState ReflectionCur; 
 	private TOD_Sky.ReflectionProbeState ReflectionSrc; 
 	private TOD_Sky.ReflectionProbeState ReflectionDst; 
-	public static float ReflectionUpdateSlowdown; 
+	public static float ReflectionUpdateSpeed; 
 	public static int ReflectionResolution; 
 	public static float ReflectionUpdateInterval; 
 	public static ReflectionProbeTimeSlicingMode ReflectionTimeSlicing; 

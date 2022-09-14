@@ -81813,7 +81813,6 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 109
 	private float skyReflectionMultiplier; 
 	private float skyReflectionMultiplierTarget; 
 	private float skyReflectionMultiplierOcean; 
-	private float skyAdminReflectionMultiplierOld; 
 	private LayerMask skyReflectionCullingFlags; 
 	private bool isMoving; 
 	private bool isRotating; 
