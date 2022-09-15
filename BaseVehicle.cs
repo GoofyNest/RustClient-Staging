@@ -1079,6 +1079,8 @@ public class BaseVehicleModule : BaseVehicle, IPrefabPreProcess // TypeDefIndex:
 
 	public void OtherVehicleModulesChanged() { }
 
+	public override bool CanBeLooted(BasePlayer player) { }
+
 	public virtual void OnEngineStateChanged(VehicleEngineController.EngineState<GroundVehicle> oldState, VehicleEngineController.EngineState<GroundVehicle> newState) { }
 
 	public override float MaxHealth() { }
@@ -2042,8 +2044,6 @@ public class VehicleModuleStorage : VehicleModuleSeating // TypeDefIndex: 10152
 	public IItemContainerEntity GetContainer() { }
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
-
-	public override bool CanBeLooted(BasePlayer player) { }
 
 	[BaseEntity.Menu] 
 	[BaseEntity.Menu.Description] 
