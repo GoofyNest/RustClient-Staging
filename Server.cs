@@ -1665,6 +1665,13 @@ public class Server : ConsoleSystem // TypeDefIndex: 13652
 	[ServerVar] 
 	public static bool printReportsToConsole; 
 
+	[ServerVar] 
+	public static int anticheatlog { get; set; }
+
+
+	public static int get_anticheatlog() { }
+
+	public static void set_anticheatlog(int value) { }
 
 	public static float TickDelta() { }
 

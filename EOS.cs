@@ -10,6 +10,7 @@ public class EOS
 	private static string sandboxId; 
 	private static string deploymentId; 
 	public static PlatformInterface Interface; 
+	public static LogLevel LogLevel; 
 	private const float interfaceTickInterval = 0,1;
 	private static float interfaceTickTimer; 
 	private static StreamWriter logWriter; 
