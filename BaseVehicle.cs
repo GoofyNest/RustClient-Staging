@@ -2637,6 +2637,8 @@ public class VehicleModuleEngine : VehicleModuleStorage // TypeDefIndex: 11423
 
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
+	public override bool CanBeLooted(BasePlayer player) { }
+
 	public override void ClientOnEnable() { }
 
 	public override void ClientVehicleTick() { }
@@ -3373,8 +3375,6 @@ public class EngineStorage : StorageContainer // TypeDefIndex: 13795
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	public override bool CanBeLooted(BasePlayer player) { }
-
-	private int GetValidSlot(Item item) { }
 
 	public void .ctor() { }
 
