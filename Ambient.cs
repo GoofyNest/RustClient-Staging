@@ -318,7 +318,7 @@ public class AmbienceZone : TriggerBase, IClientComponentEx // TypeDefIndex: 106
 
 }
 
-public class AmbientLightLOD : FacepunchBehaviour, ILOD, IClientComponent // TypeDefIndex: 12989
+public class AmbientLightLOD : FacepunchBehaviour, ILOD, IClientComponent // TypeDefIndex: 12990
 {
 	public bool isDynamic; 
 	public float enabledRadius; 
@@ -364,7 +364,7 @@ public class AmbientLightLOD : FacepunchBehaviour, ILOD, IClientComponent // Typ
 
 }
 
-public enum AmbientOcclusionMode // TypeDefIndex: 13448
+public enum AmbientOcclusionMode // TypeDefIndex: 13449
 {
 	public int value__; 
 	public const AmbientOcclusionMode ScalableAmbientObscurance = 0;
@@ -372,7 +372,7 @@ public enum AmbientOcclusionMode // TypeDefIndex: 13448
 
 }
 
-public enum AmbientOcclusionQuality // TypeDefIndex: 13449
+public enum AmbientOcclusionQuality // TypeDefIndex: 13450
 {
 	public int value__; 
 	public const AmbientOcclusionQuality Lowest = 0;
@@ -383,21 +383,21 @@ public enum AmbientOcclusionQuality // TypeDefIndex: 13449
 
 }
 
-public sealed class AmbientOcclusionModeParameter : ParameterOverride<AmbientOcclusionMode> // TypeDefIndex: 13450
+public sealed class AmbientOcclusionModeParameter : ParameterOverride<AmbientOcclusionMode> // TypeDefIndex: 13451
 {
 
 	public void .ctor() { }
 
 }
 
-public sealed class AmbientOcclusionQualityParameter : ParameterOverride<AmbientOcclusionQuality> // TypeDefIndex: 13451
+public sealed class AmbientOcclusionQualityParameter : ParameterOverride<AmbientOcclusionQuality> // TypeDefIndex: 13452
 {
 
 	public void .ctor() { }
 
 }
 
-public sealed class AmbientOcclusion : PostProcessEffectSettings // TypeDefIndex: 13452
+public sealed class AmbientOcclusion : PostProcessEffectSettings // TypeDefIndex: 13453
 {
 	[TooltipAttribute] 
 	public AmbientOcclusionModeParameter mode; 
@@ -433,7 +433,7 @@ public sealed class AmbientOcclusion : PostProcessEffectSettings // TypeDefIndex
 
 }
 
-internal sealed class AmbientOcclusionRenderer : PostProcessEffectRenderer<AmbientOcclusion> // TypeDefIndex: 13454
+internal sealed class AmbientOcclusionRenderer : PostProcessEffectRenderer<AmbientOcclusion> // TypeDefIndex: 13455
 {
 	private IAmbientOcclusionMethod[] m_Methods; 
 

@@ -1,4 +1,4 @@
-public class NoticeArea : SingletonComponent<NoticeArea> // TypeDefIndex: 12722
+public class NoticeArea : SingletonComponent<NoticeArea> // TypeDefIndex: 12723
 {
 	public GameObjectRef itemPickupPrefab; 
 	public GameObjectRef itemPickupCondensedText; 

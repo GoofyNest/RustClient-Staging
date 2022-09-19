@@ -24,7 +24,7 @@ public static class Global // TypeDefIndex: 6622
 
 }
 
-public class Global : ConsoleSystem // TypeDefIndex: 13618
+public class Global : ConsoleSystem // TypeDefIndex: 13619
 {
 	private static int _developer; 
 	[ServerVar] 
@@ -236,7 +236,7 @@ public class Global : ConsoleSystem // TypeDefIndex: 13618
 
 }
 
-private sealed class Global.<>c // TypeDefIndex: 13619
+private sealed class Global.<>c // TypeDefIndex: 13620
 {
 	public static readonly Global.<>c <>9; 
 	public static Func<KeyValuePair<Type, long>, long> <>9__48_0; 

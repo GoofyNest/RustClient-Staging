@@ -1,4 +1,4 @@
-public class DeferredAction // TypeDefIndex: 13005
+public class DeferredAction // TypeDefIndex: 13006
 {
 	private Object sender; 
 	private Action action; 

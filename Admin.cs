@@ -29,7 +29,7 @@ public class AdminUI : MonoBehaviour // TypeDefIndex: 12503
 
 }
 
-public class Admin : ConsoleSystem // TypeDefIndex: 13567
+public class Admin : ConsoleSystem // TypeDefIndex: 13568
 {
 	[ClientVar] 
 	public static float admintime; 
@@ -201,7 +201,7 @@ public class Admin : ConsoleSystem // TypeDefIndex: 13567
 
 }
 
-public struct Admin.PlayerInfo // TypeDefIndex: 13568
+public struct Admin.PlayerInfo // TypeDefIndex: 13569
 {
 	public string SteamID; 
 	public string OwnerSteamID; 
@@ -216,7 +216,7 @@ public struct Admin.PlayerInfo // TypeDefIndex: 13568
 
 }
 
-public struct Admin.ServerInfoOutput // TypeDefIndex: 13569
+public struct Admin.ServerInfoOutput // TypeDefIndex: 13570
 {
 	public string Hostname; 
 	public int MaxPlayers; 
@@ -239,7 +239,7 @@ public struct Admin.ServerInfoOutput // TypeDefIndex: 13569
 
 }
 
-public struct Admin.ServerConvarInfo // TypeDefIndex: 13570
+public struct Admin.ServerConvarInfo // TypeDefIndex: 13571
 {
 	public string FullName; 
 	public string Value; 
@@ -247,7 +247,7 @@ public struct Admin.ServerConvarInfo // TypeDefIndex: 13570
 
 }
 
-public struct Admin.ServerUGCInfo // TypeDefIndex: 13571
+public struct Admin.ServerUGCInfo // TypeDefIndex: 13572
 {
 	public uint entityId; 
 	public uint[] crcs; 

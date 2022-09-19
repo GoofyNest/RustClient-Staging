@@ -1,4 +1,4 @@
-public static class MeshGenerator // TypeDefIndex: 13242
+public static class MeshGenerator // TypeDefIndex: 13243
 {
 	private const float kMinTruncatedRadius = 0,001;
 

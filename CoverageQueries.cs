@@ -1,4 +1,4 @@
-public class CoverageQueries : MonoBehaviour // TypeDefIndex: 13171
+public class CoverageQueries : MonoBehaviour // TypeDefIndex: 13172
 {
 	public bool debug; 
 	public float depthBias; 
@@ -57,7 +57,7 @@ public class CoverageQueries : MonoBehaviour // TypeDefIndex: 13171
 
 }
 
-public class CoverageQueries.BufferSet // TypeDefIndex: 13172
+public class CoverageQueries.BufferSet // TypeDefIndex: 13173
 {
 	public int width; 
 	public int height; 
@@ -88,7 +88,7 @@ public class CoverageQueries.BufferSet // TypeDefIndex: 13172
 
 }
 
-public enum CoverageQueries.RadiusSpace // TypeDefIndex: 13173
+public enum CoverageQueries.RadiusSpace // TypeDefIndex: 13174
 {
 	public int value__; 
 	public const CoverageQueries.RadiusSpace ScreenNormalized = 0;
@@ -96,7 +96,7 @@ public enum CoverageQueries.RadiusSpace // TypeDefIndex: 13173
 
 }
 
-public class CoverageQueries.Query // TypeDefIndex: 13174
+public class CoverageQueries.Query // TypeDefIndex: 13175
 {
 	public CoverageQueries.Query.Input input; 
 	public CoverageQueries.Query.Internal intern; 
@@ -125,7 +125,7 @@ public class CoverageQueries.Query // TypeDefIndex: 13174
 
 }
 
-public struct CoverageQueries.Query.Input // TypeDefIndex: 13175
+public struct CoverageQueries.Query.Input // TypeDefIndex: 13176
 {
 	public Vector3 position; 
 	public CoverageQueries.RadiusSpace radiusSpace; 
@@ -135,7 +135,7 @@ public struct CoverageQueries.Query.Input // TypeDefIndex: 13175
 
 }
 
-public struct CoverageQueries.Query.Internal // TypeDefIndex: 13176
+public struct CoverageQueries.Query.Internal // TypeDefIndex: 13177
 {
 	public int id; 
 
@@ -144,7 +144,7 @@ public struct CoverageQueries.Query.Internal // TypeDefIndex: 13176
 
 }
 
-public struct CoverageQueries.Query.Result // TypeDefIndex: 13177
+public struct CoverageQueries.Query.Result // TypeDefIndex: 13178
 {
 	public int passed; 
 	public float coverage; 

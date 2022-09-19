@@ -27153,6 +27153,7 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<int, ItemDefinition>.get_Item
 	|-Dictionary<int, List<MusicTheme.PositionedClip>>.get_Item
 	|-Dictionary<int, TechTreeWidget>.get_Item
+	|-Dictionary<int, PointerEventData>.get_Item
 	|-Dictionary<int, GameObject>.get_Item
 	|-Dictionary<int, Mesh>.get_Item
 	|-Dictionary<int, object>.get_Item
@@ -82365,7 +82366,7 @@ public static class RecipeDictionary // TypeDefIndex: 12432
 
 }
 
-public struct CachedTransform<T> // TypeDefIndex: 12991
+public struct CachedTransform<T> // TypeDefIndex: 12992
 {
 	public T component; 
 	public Vector3 position; 
@@ -82448,7 +82449,7 @@ public struct CachedTransform<T> // TypeDefIndex: 12991
 
 }
 
-public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13085
+public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13086
 {
 	private NativeArray<T> _array; 
 	private int _length; 
@@ -82542,7 +82543,7 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13085
 
 }
 
-public class PooledList<T> // TypeDefIndex: 13091
+public class PooledList<T> // TypeDefIndex: 13092
 {
 	public List<T> data; 
 
@@ -82591,7 +82592,7 @@ public class PooledList<T> // TypeDefIndex: 13091
 
 }
 
-public class SimpleList<T> // TypeDefIndex: 13094
+public class SimpleList<T> // TypeDefIndex: 13095
 {
 	private const int defaultCapacity = 16;
 	private static readonly T[] emptyArray; 
@@ -82744,7 +82745,7 @@ public class SimpleList<T> // TypeDefIndex: 13094
 
 }
 
-public class TimeCachedValue<T> // TypeDefIndex: 13099
+public class TimeCachedValue<T> // TypeDefIndex: 13100
 {
 	public float refreshCooldown; 
 	public float refreshRandomRange; 
@@ -82775,7 +82776,7 @@ public class TimeCachedValue<T> // TypeDefIndex: 13099
 
 }
 
-public class ResourceRef<T> // TypeDefIndex: 13124
+public class ResourceRef<T> // TypeDefIndex: 13125
 {
 	public string guid; 
 	private T _cachedObject; 
@@ -82827,7 +82828,7 @@ public class ResourceRef<T> // TypeDefIndex: 13124
 
 }
 
-public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13517
+public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13518
 {
 	public T value; 
 
@@ -83094,7 +83095,7 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13517
 
 }
 
-public class GenericLerp<T> : IDisposable // TypeDefIndex: 13812
+public class GenericLerp<T> : IDisposable // TypeDefIndex: 13813
 {
 	private Interpolator<T> interpolator; 
 	private IGenericLerpTarget<T> target; 
@@ -83217,7 +83218,7 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 13812
 
 }
 
-public class Interpolator<T> // TypeDefIndex: 13814
+public class Interpolator<T> // TypeDefIndex: 13815
 {
 	public List<T> list; 
 	public T last; 

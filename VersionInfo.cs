@@ -1,4 +1,4 @@
-public class VersionInfo // TypeDefIndex: 13259
+public class VersionInfo // TypeDefIndex: 13260
 {
 	public const byte Major = 2;
 	public const byte Minor = 0;

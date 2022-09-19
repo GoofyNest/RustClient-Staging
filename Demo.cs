@@ -1238,7 +1238,7 @@ public class DemoRecorderProgress : SingletonComponent<DemoRecorderProgress> // 
 
 }
 
-public class DemoItem : RustButton // TypeDefIndex: 12791
+public class DemoItem : RustButton // TypeDefIndex: 12792
 {
 	public Demos demos; 
 	public int itemId; 
@@ -1255,7 +1255,7 @@ public class DemoItem : RustButton // TypeDefIndex: 12791
 
 }
 
-public class Demos : SingletonComponent<Demos>, VirtualScroll.IDataSource // TypeDefIndex: 12792
+public class Demos : SingletonComponent<Demos>, VirtualScroll.IDataSource // TypeDefIndex: 12793
 {
 	public VirtualScroll virtualScroll; 
 	public GameObject deletePopup; 
@@ -1297,7 +1297,7 @@ public class Demos : SingletonComponent<Demos>, VirtualScroll.IDataSource // Typ
 
 }
 
-private struct Demos.DemoInfo // TypeDefIndex: 12793
+private struct Demos.DemoInfo // TypeDefIndex: 12794
 {
 	public string path; 
 	public string name; 
@@ -1309,7 +1309,7 @@ private struct Demos.DemoInfo // TypeDefIndex: 12793
 
 }
 
-private sealed class Demos.<>c // TypeDefIndex: 12794
+private sealed class Demos.<>c // TypeDefIndex: 12795
 {
 	public static readonly Demos.<>c <>9; 
 	public static Func<Demos.DemoInfo, string> <>9__14_0; 
@@ -1341,7 +1341,7 @@ private sealed class Demos.<>c // TypeDefIndex: 12794
 
 }
 
-private sealed class Demos.<>c__DisplayClass17_0 // TypeDefIndex: 12795
+private sealed class Demos.<>c__DisplayClass17_0 // TypeDefIndex: 12796
 {
 	public Demos.DemoInfo demoInfo; 
 
@@ -1352,7 +1352,7 @@ private sealed class Demos.<>c__DisplayClass17_0 // TypeDefIndex: 12795
 
 }
 
-public class Demo : ConsoleSystem // TypeDefIndex: 13599
+public class Demo : ConsoleSystem // TypeDefIndex: 13600
 {
 	public static uint Version; 
 	private static bool _hud; 
@@ -1431,7 +1431,7 @@ public class Demo : ConsoleSystem // TypeDefIndex: 13599
 
 }
 
-public class Demo.Header : DemoHeader, IDemoHeader // TypeDefIndex: 13600
+public class Demo.Header : DemoHeader, IDemoHeader // TypeDefIndex: 13601
 {
 	private long Network.IDemoHeader.Length { get; set; }
 

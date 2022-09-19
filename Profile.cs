@@ -14,7 +14,7 @@ public class Profile // TypeDefIndex: 11047
 
 }
 
-public class Profile : ConsoleSystem // TypeDefIndex: 13649
+public class Profile : ConsoleSystem // TypeDefIndex: 13650
 {
 
 	private static void NeedProfileFolder() { }

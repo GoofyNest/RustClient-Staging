@@ -1,4 +1,4 @@
-public class PathFinder // TypeDefIndex: 13087
+public class PathFinder // TypeDefIndex: 13088
 {
 	private int[,] costmap; 
 	private int[,] visited; 
@@ -52,7 +52,7 @@ public class PathFinder // TypeDefIndex: 13087
 
 }
 
-public struct PathFinder.Point : IEquatable<PathFinder.Point> // TypeDefIndex: 13088
+public struct PathFinder.Point : IEquatable<PathFinder.Point> // TypeDefIndex: 13089
 {
 	public int x; 
 	public int y; 
@@ -80,7 +80,7 @@ public struct PathFinder.Point : IEquatable<PathFinder.Point> // TypeDefIndex: 1
 
 }
 
-public class PathFinder.Node : IMinHeapNode<PathFinder.Node>, ILinkedListNode<PathFinder.Node> // TypeDefIndex: 13089
+public class PathFinder.Node : IMinHeapNode<PathFinder.Node>, ILinkedListNode<PathFinder.Node> // TypeDefIndex: 13090
 {
 	public PathFinder.Point point; 
 	public int cost; 

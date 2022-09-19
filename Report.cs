@@ -246,7 +246,7 @@ public sealed class ReportsInterface : Handle // TypeDefIndex: 8591
 
 }
 
-public class ReportBug : UIDialog // TypeDefIndex: 13735
+public class ReportBug : UIDialog // TypeDefIndex: 13736
 {
 	public GameObject GetInformation; 
 	public GameObject Finished; 
@@ -298,7 +298,7 @@ public class ReportBug : UIDialog // TypeDefIndex: 13735
 
 }
 
-public static class ReportBug.Phrases // TypeDefIndex: 13736
+public static class ReportBug.Phrases // TypeDefIndex: 13737
 {
 	public static Translate.Phrase Initializing; 
 	public static Translate.Phrase SendingReport; 
@@ -309,7 +309,7 @@ public static class ReportBug.Phrases // TypeDefIndex: 13736
 
 }
 
-private sealed class ReportBug.<CaptureScreenshot>d__21 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13737
+private sealed class ReportBug.<CaptureScreenshot>d__21 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13738
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -338,7 +338,7 @@ private sealed class ReportBug.<CaptureScreenshot>d__21 : IEnumerator<object>, I
 
 }
 
-private struct ReportBug.<SendReport>d__29 : IAsyncStateMachine // TypeDefIndex: 13738
+private struct ReportBug.<SendReport>d__29 : IAsyncStateMachine // TypeDefIndex: 13739
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 
@@ -354,7 +354,7 @@ private struct ReportBug.<SendReport>d__29 : IAsyncStateMachine // TypeDefIndex:
 
 }
 
-public class ReportPlayer : UIDialog // TypeDefIndex: 13739
+public class ReportPlayer : UIDialog // TypeDefIndex: 13740
 {
 	public GameObject FindPlayer; 
 	public GameObject GetInformation; 
@@ -393,7 +393,7 @@ public class ReportPlayer : UIDialog // TypeDefIndex: 13739
 
 }
 
-public static class ReportPlayer.Phrases // TypeDefIndex: 13740
+public static class ReportPlayer.Phrases // TypeDefIndex: 13741
 {
 	public static Translate.Phrase Initializing; 
 	public static Translate.Phrase SendingReport; 
@@ -404,7 +404,7 @@ public static class ReportPlayer.Phrases // TypeDefIndex: 13740
 
 }
 
-private struct ReportPlayer.<SendReport>d__21 : IAsyncStateMachine // TypeDefIndex: 13741
+private struct ReportPlayer.<SendReport>d__21 : IAsyncStateMachine // TypeDefIndex: 13742
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 

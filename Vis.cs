@@ -82,7 +82,7 @@ public static class Vis // TypeDefIndex: 11728
 
 }
 
-public class Vis : ConsoleSystem // TypeDefIndex: 13665
+public class Vis : ConsoleSystem // TypeDefIndex: 13666
 {
 	[ClientVar] 
 	[HelpAttribute] 

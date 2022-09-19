@@ -992,7 +992,7 @@ public class AttackedEventUI : BaseEventUI // TypeDefIndex: 12466
 
 }
 
-public class ProjectileWeaponInformationPanel : ItemInformationPanel // TypeDefIndex: 12733
+public class ProjectileWeaponInformationPanel : ItemInformationPanel // TypeDefIndex: 12734
 {
 	public ItemStatValue damageDisplay; 
 	public ItemStatValue recoilDisplay; 

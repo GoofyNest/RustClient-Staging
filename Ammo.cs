@@ -45,7 +45,7 @@ public class AmmoBelowEventUI : BaseEventUI // TypeDefIndex: 12463
 
 }
 
-public class AmmoInformationPanel : ItemInformationPanel // TypeDefIndex: 12659
+public class AmmoInformationPanel : ItemInformationPanel // TypeDefIndex: 12660
 {
 	public ItemStatValue damageDisplay; 
 	public ItemStatValue velocityDisplay; 

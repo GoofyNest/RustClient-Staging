@@ -390,7 +390,7 @@ public static class AssetNameCache // TypeDefIndex: 12394
 
 }
 
-public static class AssetStorage // TypeDefIndex: 13058
+public static class AssetStorage // TypeDefIndex: 13059
 {
 
 	public static void Save<T>(ref T asset, string path) { }

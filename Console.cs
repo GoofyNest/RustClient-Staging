@@ -3255,7 +3255,7 @@ private sealed class ConsoleUI.<SetSelected>d__31 : IEnumerator<object>, IEnumer
 
 }
 
-public class ConsoleInput // TypeDefIndex: 13373
+public class ConsoleInput // TypeDefIndex: 13374
 {
 	[CompilerGeneratedAttribute] 
 	private Action<string> OnInputText; 
@@ -3293,7 +3293,7 @@ public class ConsoleInput // TypeDefIndex: 13373
 
 }
 
-public class ConsoleWindow // TypeDefIndex: 13374
+public class ConsoleWindow // TypeDefIndex: 13375
 {
 	private TextWriter oldOutput; 
 	private const int STD_INPUT_HANDLE = -10;
@@ -3320,7 +3320,7 @@ public class ConsoleWindow // TypeDefIndex: 13374
 
 }
 
-public class Console : ConsoleSystem // TypeDefIndex: 13586
+public class Console : ConsoleSystem // TypeDefIndex: 13587
 {
 	[ClientVar] 
 	[HelpAttribute] 

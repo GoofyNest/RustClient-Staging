@@ -2845,7 +2845,7 @@ public abstract class ItemContainerSource : MonoBehaviour // TypeDefIndex: 12530
 
 }
 
-public class ItemDropCommand : MonoBehaviour // TypeDefIndex: 12690
+public class ItemDropCommand : MonoBehaviour // TypeDefIndex: 12691
 {
 	public string command; 
 
@@ -2856,7 +2856,7 @@ public class ItemDropCommand : MonoBehaviour // TypeDefIndex: 12690
 
 }
 
-public class ItemIcon : BaseMonoBehaviour, IPointerClickHandler, IEventSystemHandler, IPointerEnterHandler, IPointerExitHandler, IDraggable, IInventoryChanged, IItemAmountChanged, IItemIconChanged // TypeDefIndex: 12691
+public class ItemIcon : BaseMonoBehaviour, IPointerClickHandler, IEventSystemHandler, IPointerEnterHandler, IPointerExitHandler, IDraggable, IInventoryChanged, IItemAmountChanged, IItemIconChanged // TypeDefIndex: 12692
 {
 	private Color backgroundColor; 
 	public Color selectedBackgroundColor; 
@@ -3003,7 +3003,7 @@ public class ItemIcon : BaseMonoBehaviour, IPointerClickHandler, IEventSystemHan
 
 }
 
-public class ItemIcon.DragInfo // TypeDefIndex: 12692
+public class ItemIcon.DragInfo // TypeDefIndex: 12693
 {
 	public Item item; 
 	public int amount; 
@@ -3014,7 +3014,7 @@ public class ItemIcon.DragInfo // TypeDefIndex: 12692
 
 }
 
-private sealed class ItemIcon.<StartTimedLootAction>d__76 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12693
+private sealed class ItemIcon.<StartTimedLootAction>d__76 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12694
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -3044,7 +3044,7 @@ private sealed class ItemIcon.<StartTimedLootAction>d__76 : IEnumerator<object>,
 
 }
 
-private sealed class ItemIcon.<UpdateTimedActionIcon>d__80 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12694
+private sealed class ItemIcon.<UpdateTimedActionIcon>d__80 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12695
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -3073,7 +3073,7 @@ private sealed class ItemIcon.<UpdateTimedActionIcon>d__80 : IEnumerator<object>
 
 }
 
-public class ItemInformationPanel : MonoBehaviour // TypeDefIndex: 12695
+public class ItemInformationPanel : MonoBehaviour // TypeDefIndex: 12696
 {
 
 	public virtual bool EligableForDisplay(ItemDefinition info) { }
@@ -3084,7 +3084,7 @@ public class ItemInformationPanel : MonoBehaviour // TypeDefIndex: 12695
 
 }
 
-public class ItemOptionButton : MonoBehaviour // TypeDefIndex: 12696
+public class ItemOptionButton : MonoBehaviour // TypeDefIndex: 12697
 {
 	public TextMeshProUGUI name; 
 	public Image icon; 
@@ -3100,7 +3100,7 @@ public class ItemOptionButton : MonoBehaviour // TypeDefIndex: 12696
 
 }
 
-public class ItemPanel : SingletonComponent<ItemPanel> // TypeDefIndex: 12697
+public class ItemPanel : SingletonComponent<ItemPanel> // TypeDefIndex: 12698
 {
 	private ItemIcon item; 
 
@@ -3115,7 +3115,7 @@ public class ItemPanel : SingletonComponent<ItemPanel> // TypeDefIndex: 12697
 
 }
 
-public class ItemPickupNotice : MonoBehaviour // TypeDefIndex: 12698
+public class ItemPickupNotice : MonoBehaviour // TypeDefIndex: 12699
 {
 	public TextMeshProUGUI Text; 
 	public TextMeshProUGUI Amount; 
@@ -3162,7 +3162,7 @@ public class ItemPickupNotice : MonoBehaviour // TypeDefIndex: 12698
 
 }
 
-public class ItemPreviewIcon : BaseMonoBehaviour, IInventoryChanged, IItemAmountChanged, IItemIconChanged // TypeDefIndex: 12699
+public class ItemPreviewIcon : BaseMonoBehaviour, IInventoryChanged, IItemAmountChanged, IItemIconChanged // TypeDefIndex: 12700
 {
 	public ItemContainerSource containerSource; 
 	[RangeAttribute] 
@@ -3197,7 +3197,7 @@ public class ItemPreviewIcon : BaseMonoBehaviour, IInventoryChanged, IItemAmount
 
 }
 
-public class ItemSplitter : MonoBehaviour // TypeDefIndex: 12700
+public class ItemSplitter : MonoBehaviour // TypeDefIndex: 12701
 {
 	public Slider slider; 
 	public TextMeshProUGUI textValue; 
@@ -3245,7 +3245,7 @@ public class ItemSplitter : MonoBehaviour // TypeDefIndex: 12700
 
 }
 
-public class ItemSplitterDragOut : MonoBehaviour, IDraggable // TypeDefIndex: 12701
+public class ItemSplitterDragOut : MonoBehaviour, IDraggable // TypeDefIndex: 12702
 {
 	public ItemSplitter rootSplitter; 
 
@@ -3260,7 +3260,7 @@ public class ItemSplitterDragOut : MonoBehaviour, IDraggable // TypeDefIndex: 12
 
 }
 
-public class ItemSplitterSlider : MonoBehaviour, IPointerUpHandler, IEventSystemHandler, IPointerDownHandler // TypeDefIndex: 12702
+public class ItemSplitterSlider : MonoBehaviour, IPointerUpHandler, IEventSystemHandler, IPointerDownHandler // TypeDefIndex: 12703
 {
 	public ItemSplitter Splitter; 
 
@@ -3273,7 +3273,7 @@ public class ItemSplitterSlider : MonoBehaviour, IPointerUpHandler, IEventSystem
 
 }
 
-public class ItemStatValue : MonoBehaviour // TypeDefIndex: 12703
+public class ItemStatValue : MonoBehaviour // TypeDefIndex: 12704
 {
 	public Text text; 
 	public Slider slider; 
@@ -3292,7 +3292,7 @@ public class ItemStatValue : MonoBehaviour // TypeDefIndex: 12703
 
 }
 
-public class ItemSubmitPanel : LootPanel // TypeDefIndex: 12704
+public class ItemSubmitPanel : LootPanel // TypeDefIndex: 12705
 {
 
 	public void SubmitClicked() { }
@@ -3301,7 +3301,7 @@ public class ItemSubmitPanel : LootPanel // TypeDefIndex: 12704
 
 }
 
-public class ItemTextValue : MonoBehaviour // TypeDefIndex: 12705
+public class ItemTextValue : MonoBehaviour // TypeDefIndex: 12706
 {
 	public Text text; 
 	public Color bad; 
@@ -3320,7 +3320,7 @@ public class ItemTextValue : MonoBehaviour // TypeDefIndex: 12705
 
 }
 
-public class ItemStore : SingletonComponent<ItemStore>, VirtualScroll.IDataSource // TypeDefIndex: 12798
+public class ItemStore : SingletonComponent<ItemStore>, VirtualScroll.IDataSource // TypeDefIndex: 12799
 {
 	public static readonly Translate.Phrase CartEmptyPhrase; 
 	public static readonly Translate.Phrase CartSingularPhrase; 
@@ -3372,7 +3372,7 @@ public class ItemStore : SingletonComponent<ItemStore>, VirtualScroll.IDataSourc
 
 }
 
-private sealed class ItemStore.<>c // TypeDefIndex: 12799
+private sealed class ItemStore.<>c // TypeDefIndex: 12800
 {
 	public static readonly ItemStore.<>c <>9; 
 	public static Func<IPlayerItemDefinition, int> <>9__16_0; 
@@ -3395,7 +3395,7 @@ private sealed class ItemStore.<>c // TypeDefIndex: 12799
 
 }
 
-private struct ItemStore.<RefreshList>d__17 : IAsyncStateMachine // TypeDefIndex: 12800
+private struct ItemStore.<RefreshList>d__17 : IAsyncStateMachine // TypeDefIndex: 12801
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 
@@ -3410,7 +3410,7 @@ private struct ItemStore.<RefreshList>d__17 : IAsyncStateMachine // TypeDefIndex
 
 }
 
-private struct ItemStore.<Checkout>d__24 : IAsyncStateMachine // TypeDefIndex: 12801
+private struct ItemStore.<Checkout>d__24 : IAsyncStateMachine // TypeDefIndex: 12802
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 
@@ -3425,7 +3425,7 @@ private struct ItemStore.<Checkout>d__24 : IAsyncStateMachine // TypeDefIndex: 1
 
 }
 
-public class ItemStoreBuyFailedModal : MonoBehaviour // TypeDefIndex: 12802
+public class ItemStoreBuyFailedModal : MonoBehaviour // TypeDefIndex: 12803
 {
 
 	public void Show(ulong orderid) { }
@@ -3439,7 +3439,7 @@ public class ItemStoreBuyFailedModal : MonoBehaviour // TypeDefIndex: 12802
 
 }
 
-public class ItemStoreBuySuccessModal : MonoBehaviour // TypeDefIndex: 12803
+public class ItemStoreBuySuccessModal : MonoBehaviour // TypeDefIndex: 12804
 {
 
 	public void Show(ulong orderId) { }
@@ -3453,7 +3453,7 @@ public class ItemStoreBuySuccessModal : MonoBehaviour // TypeDefIndex: 12803
 
 }
 
-public class ItemStoreCartItem : MonoBehaviour // TypeDefIndex: 12804
+public class ItemStoreCartItem : MonoBehaviour // TypeDefIndex: 12805
 {
 	public int Index; 
 	public TextMeshProUGUI Name; 
@@ -3468,7 +3468,7 @@ public class ItemStoreCartItem : MonoBehaviour // TypeDefIndex: 12804
 
 }
 
-public class ItemStoreItem : MonoBehaviour // TypeDefIndex: 12805
+public class ItemStoreItem : MonoBehaviour // TypeDefIndex: 12806
 {
 	public HttpImage Icon; 
 	public RustText Name; 
@@ -3488,7 +3488,7 @@ public class ItemStoreItem : MonoBehaviour // TypeDefIndex: 12805
 
 }
 
-public class ItemStoreItemInfoModal : MonoBehaviour // TypeDefIndex: 12806
+public class ItemStoreItemInfoModal : MonoBehaviour // TypeDefIndex: 12807
 {
 	public HttpImage Icon; 
 	public TextMeshProUGUI Name; 
@@ -3510,7 +3510,7 @@ public class ItemStoreItemInfoModal : MonoBehaviour // TypeDefIndex: 12806
 
 }
 
-public class ItemModEngineItem : ItemMod // TypeDefIndex: 13804
+public class ItemModEngineItem : ItemMod // TypeDefIndex: 13805
 {
 	public EngineStorage.EngineItemTypes engineItemType; 
 	[RangeAttribute] 
@@ -3521,7 +3521,7 @@ public class ItemModEngineItem : ItemMod // TypeDefIndex: 13804
 
 }
 
-public class ItemModVehicleChassis : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 13805
+public class ItemModVehicleChassis : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 13806
 {
 	public GameObjectRef entityPrefab; 
 	[RangeAttribute] 
@@ -3540,7 +3540,7 @@ public class ItemModVehicleChassis : ItemMod, VehicleModuleInformationPanel.IVeh
 
 }
 
-public class ItemModVehicleModule : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 13806
+public class ItemModVehicleModule : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 13807
 {
 	public GameObjectRef entityPrefab; 
 	[RangeAttribute] 

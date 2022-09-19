@@ -1,4 +1,4 @@
-public class ScopeEffect : PostEffectsBase, IImageEffect // TypeDefIndex: 13364
+public class ScopeEffect : PostEffectsBase, IImageEffect // TypeDefIndex: 13365
 {
 	public Material overlayMaterial; 
 

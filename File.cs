@@ -2034,7 +2034,7 @@ private sealed class FileStorage.<>c // TypeDefIndex: 12401
 
 }
 
-public static class FileEx // TypeDefIndex: 13038
+public static class FileEx // TypeDefIndex: 13039
 {
 
 	public static void Backup(DirectoryInfo parent, string[] names) { }
@@ -2046,7 +2046,7 @@ public static class FileEx // TypeDefIndex: 13038
 
 }
 
-public class FileConVar : ConsoleSystem // TypeDefIndex: 13614
+public class FileConVar : ConsoleSystem // TypeDefIndex: 13615
 {
 	[ClientVar] 
 	public static bool debug { get; set; }

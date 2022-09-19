@@ -1,4 +1,4 @@
-public class CommentComponent : MonoBehaviour, IEditorComponent // TypeDefIndex: 12993
+public class CommentComponent : MonoBehaviour, IEditorComponent // TypeDefIndex: 12994
 {
 	[TextAreaAttribute] 
 	public string comment; 

@@ -1,4 +1,4 @@
-public class MissionsHUDToDo : BaseMonoBehaviour // TypeDefIndex: 12878
+public class MissionsHUDToDo : BaseMonoBehaviour // TypeDefIndex: 12879
 {
 	public Text text; 
 	public RectTransform checkIcon; 

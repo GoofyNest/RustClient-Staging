@@ -1,4 +1,4 @@
-public class hitnotify : ConsoleSystem // TypeDefIndex: 13673
+public class hitnotify : ConsoleSystem // TypeDefIndex: 13674
 {
 	[ClientVar] 
 	[HelpAttribute] 

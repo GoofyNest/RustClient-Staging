@@ -1,4 +1,4 @@
-public static class CoroutineEx // TypeDefIndex: 13391
+public static class CoroutineEx // TypeDefIndex: 13392
 {
 	public static WaitForEndOfFrame waitForEndOfFrame; 
 	public static WaitForFixedUpdate waitForFixedUpdate; 
@@ -16,7 +16,7 @@ public static class CoroutineEx // TypeDefIndex: 13391
 
 }
 
-private sealed class CoroutineEx.<Combine>d__5 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13392
+private sealed class CoroutineEx.<Combine>d__5 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13393
 {
 	private int <>1__state; 
 	private object <>2__current; 

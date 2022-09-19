@@ -1,4 +1,4 @@
-public abstract class BaseTip // TypeDefIndex: 13284
+public abstract class BaseTip // TypeDefIndex: 13285
 {
 	public abstract bool ShouldShow { get; }
 	public string Type { get; }

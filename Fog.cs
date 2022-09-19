@@ -1,4 +1,4 @@
-public sealed class Fog // TypeDefIndex: 13479
+public sealed class Fog // TypeDefIndex: 13480
 {
 	[TooltipAttribute] 
 	public bool enabled; 

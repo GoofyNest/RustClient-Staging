@@ -272,7 +272,7 @@ private sealed class World.<Spawn>d__71 : IEnumerator<object>, IEnumerator, IDis
 
 }
 
-public class World : ConsoleSystem // TypeDefIndex: 13671
+public class World : ConsoleSystem // TypeDefIndex: 13672
 {
 	[ServerVar] 
 	[ClientVar] 

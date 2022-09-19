@@ -1351,7 +1351,7 @@ public class ENCibm865 : CP865 // TypeDefIndex: 7979
 
 }
 
-public sealed class Encoder // TypeDefIndex: 13263
+public sealed class Encoder // TypeDefIndex: 13264
 {
 	private static readonly Type includeAttrType; 
 	private static readonly Type excludeAttrType; 

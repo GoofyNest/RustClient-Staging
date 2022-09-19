@@ -4571,7 +4571,7 @@ public class PlayerDetectedEventUI : BaseEventUI // TypeDefIndex: 12485
 
 }
 
-public class Player : ConsoleSystem // TypeDefIndex: 13645
+public class Player : ConsoleSystem // TypeDefIndex: 13646
 {
 	[ServerVar] 
 	public static int tickrate_cl; 
@@ -4624,7 +4624,7 @@ public class Player : ConsoleSystem // TypeDefIndex: 13645
 
 }
 
-public class PlayerCull : ConsoleSystem // TypeDefIndex: 13646
+public class PlayerCull : ConsoleSystem // TypeDefIndex: 13647
 {
 	private static bool _enabled; 
 	[ClientVar] 
@@ -4654,7 +4654,7 @@ public class PlayerCull : ConsoleSystem // TypeDefIndex: 13646
 
 }
 
-public enum PlayerMenuAnimation.Layers // TypeDefIndex: 13843
+public enum PlayerMenuAnimation.Layers // TypeDefIndex: 13844
 {
 
 public enum PlayerMenuAnimation.Layers

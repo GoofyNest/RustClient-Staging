@@ -3398,7 +3398,7 @@ public class ApplyTerrainModifiers : MonoBehaviour // TypeDefIndex: 12252
 
 }
 
-public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 12827
+public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 12828
 {
 	public Button ApplyButton; 
 	public TweakUIBase[] Options; 
@@ -3416,7 +3416,7 @@ public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 12827
 
 }
 
-public class App : ConsoleSystem // TypeDefIndex: 13574
+public class App : ConsoleSystem // TypeDefIndex: 13575
 {
 	[ServerVar] 
 	public static string listenip; 

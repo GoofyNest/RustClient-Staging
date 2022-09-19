@@ -1,4 +1,4 @@
-public class PerformanceText : MonoBehaviour // TypeDefIndex: 12885
+public class PerformanceText : MonoBehaviour // TypeDefIndex: 12886
 {
 	public TextMeshProUGUI text; 
 	private StringBuilder sb; 
