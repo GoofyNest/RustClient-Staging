@@ -21,6 +21,7 @@ public class SpawnPopulation : BaseScriptableObject // TypeDefIndex: 11669
 	public bool AlignToNormal; 
 	public SpawnFilter Filter; 
 	public float FilterCutoff; 
+	public float FilterRadius; 
 
 	public virtual float TargetDensity { get; }
 
