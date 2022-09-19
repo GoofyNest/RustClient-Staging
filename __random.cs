@@ -81817,6 +81817,7 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 109
 	private LayerMask skyReflectionCullingFlags; 
 	private bool isMoving; 
 	private bool isRotating; 
+	private float loadingScreenVisibleTime; 
 	private static SphericalHarmonicsL2[] lightProbe; 
 	private float environmentTimestamp; 
 	private float environmentTransitionSpeed; 
@@ -81834,6 +81835,7 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 109
 
 	public Camera localCamera { get; set; }
 	public static float AtmosphereBrightnessOverride { get; }
+	private bool updateSkyParameters { get; }
 	public static SphericalHarmonicsL2[] LightProbe { get; }
 	public PostProcessLayer PostProcessLayer { get; }
 	public float ActualDeptOfFieldFocalLength { get; }
@@ -81860,6 +81862,12 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 109
 	|
 	|-RustCamera<MainCamera>.get_AtmosphereBrightnessOverride
 	|-RustCamera<object>.get_AtmosphereBrightnessOverride
+	*/
+
+	private bool get_updateSkyParameters() { }
+	/* GenericInstMethod :
+	|
+	|-RustCamera<object>.get_updateSkyParameters
 	*/
 
 	public static SphericalHarmonicsL2[] get_LightProbe() { }
