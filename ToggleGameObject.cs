@@ -1,4 +1,4 @@
-internal class ToggleGameObject : MonoBehaviour // TypeDefIndex: 7073
+internal class ToggleGameObject : MonoBehaviour // TypeDefIndex: 7104
 {
 	public GameObject Target; 
 	private Toggle component; 

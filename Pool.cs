@@ -1,4 +1,4 @@
-public static class Pool // TypeDefIndex: 4836
+public static class Pool // TypeDefIndex: 4838
 {
 	public static Dictionary<Type, Pool.ICollection> directory; 
 
@@ -1134,7 +1134,7 @@ public static class Pool // TypeDefIndex: 4836
 
 }
 
-public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4839
+public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4841
 {
 	public T[] buffer; 
 	[CompilerGeneratedAttribute] 
@@ -1251,7 +1251,7 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4839
 
 }
 
-public class Pool : ConsoleSystem // TypeDefIndex: 13648
+public class Pool : ConsoleSystem // TypeDefIndex: 13680
 {
 	[ServerVar] 
 	[ClientVar] 
@@ -1301,7 +1301,7 @@ public class Pool : ConsoleSystem // TypeDefIndex: 13648
 
 }
 
-private sealed class Pool.<>c // TypeDefIndex: 13649
+private sealed class Pool.<>c // TypeDefIndex: 13681
 {
 	public static readonly Pool.<>c <>9; 
 	public static Func<KeyValuePair<Type, Pool.ICollection>, long> <>9__4_0; 

@@ -1,4 +1,4 @@
-public struct Bone : IEquatable<Bone> // TypeDefIndex: 4148
+public struct Bone : IEquatable<Bone> // TypeDefIndex: 4150
 {
 	private ulong m_DeviceId; 
 	private uint m_FeatureIndex; 

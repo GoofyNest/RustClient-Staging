@@ -1,4 +1,4 @@
-public sealed class LyricEvent : BaseTextEvent // TypeDefIndex: 7512
+public sealed class LyricEvent : BaseTextEvent // TypeDefIndex: 7543
 {
 
 	public void .ctor() { }

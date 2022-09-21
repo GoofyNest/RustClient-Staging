@@ -1,4 +1,4 @@
-public class DepthOfFieldEffect : PostProcessEffectSettings // TypeDefIndex: 11922
+public class DepthOfFieldEffect : PostProcessEffectSettings // TypeDefIndex: 11953
 {
 	public FloatParameter focalLength; 
 	public FloatParameter focalSize; 

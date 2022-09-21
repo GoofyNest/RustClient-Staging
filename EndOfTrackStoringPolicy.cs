@@ -1,4 +1,4 @@
-public enum EndOfTrackStoringPolicy // TypeDefIndex: 7564
+public enum EndOfTrackStoringPolicy // TypeDefIndex: 7595
 {
 	public int value__; 
 	public const EndOfTrackStoringPolicy Omit = 0;

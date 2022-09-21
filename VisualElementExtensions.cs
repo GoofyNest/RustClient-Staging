@@ -1,4 +1,4 @@
-public static class VisualElementExtensions // TypeDefIndex: 4615
+public static class VisualElementExtensions // TypeDefIndex: 4617
 {
 
 	[ExtensionAttribute] 

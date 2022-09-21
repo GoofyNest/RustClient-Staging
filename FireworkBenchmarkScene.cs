@@ -1,4 +1,4 @@
-public class FireworkBenchmarkScene : BenchmarkScene // TypeDefIndex: 9923
+public class FireworkBenchmarkScene : BenchmarkScene // TypeDefIndex: 9954
 {
 	public GameObjectRef[] shellTypes; 
 	public int fireworkCount; 

@@ -1,4 +1,4 @@
-public enum Wire // TypeDefIndex: 6283
+public enum Wire // TypeDefIndex: 6285
 {
 	public int value__; 
 	public const Wire Varint = 0;

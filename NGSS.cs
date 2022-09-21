@@ -1,4 +1,4 @@
-public class NGSS_Directional : MonoBehaviour // TypeDefIndex: 13199
+public class NGSS_Directional : MonoBehaviour // TypeDefIndex: 13231
 {
 	[TooltipAttribute] 
 	[RangeAttribute] 
@@ -24,7 +24,7 @@ public class NGSS_Directional : MonoBehaviour // TypeDefIndex: 13199
 
 }
 
-public enum NGSS_Directional.SAMPLER_COUNT // TypeDefIndex: 13200
+public enum NGSS_Directional.SAMPLER_COUNT // TypeDefIndex: 13232
 {
 	public int value__; 
 	public const NGSS_Directional.SAMPLER_COUNT SAMPLERS_16 = 0;

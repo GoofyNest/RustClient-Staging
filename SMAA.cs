@@ -1,4 +1,4 @@
-public class SMAA : MonoBehaviour // TypeDefIndex: 13259
+public class SMAA : MonoBehaviour // TypeDefIndex: 13291
 {
 	public DebugPass DebugPass; 
 	public QualityPreset Quality; 

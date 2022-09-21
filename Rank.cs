@@ -1,4 +1,4 @@
-public class Rank // TypeDefIndex: 6253
+public class Rank // TypeDefIndex: 6255
 {
 	public float Score; 
 	public int GlobalCount; 
@@ -17,7 +17,7 @@ public class Rank // TypeDefIndex: 6253
 
 }
 
-public enum Rank // TypeDefIndex: 13707
+public enum Rank // TypeDefIndex: 13739
 {
 	public int value__; 
 	public const Rank Two = 0;

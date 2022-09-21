@@ -1,4 +1,4 @@
-internal enum ParseResult // TypeDefIndex: 5943
+internal enum ParseResult // TypeDefIndex: 5945
 {
 	public int value__; 
 	public const ParseResult None = 0;

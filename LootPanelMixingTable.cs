@@ -1,4 +1,4 @@
-public class LootPanelMixingTable : LootPanel, IInventoryChanged // TypeDefIndex: 12716
+public class LootPanelMixingTable : LootPanel, IInventoryChanged // TypeDefIndex: 12747
 {
 	public GameObject controlsOn; 
 	public GameObject controlsOff; 

@@ -1,4 +1,4 @@
-internal sealed class GUIScrollGroup : GUILayoutGroup // TypeDefIndex: 4056
+internal sealed class GUIScrollGroup : GUILayoutGroup // TypeDefIndex: 4058
 {
 	public float calcMinWidth; 
 	public float calcMaxWidth; 

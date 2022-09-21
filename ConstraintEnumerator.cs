@@ -1,4 +1,4 @@
-internal class ConstraintEnumerator // TypeDefIndex: 4177
+internal class ConstraintEnumerator // TypeDefIndex: 4179
 {
 
 internal class ConstraintEnumerator

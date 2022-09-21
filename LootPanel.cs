@@ -1,4 +1,4 @@
-public class LootPanel : MonoBehaviour // TypeDefIndex: 12708
+public class LootPanel : MonoBehaviour // TypeDefIndex: 12739
 {
 	public Text Title; 
 	public RustText TitleText; 

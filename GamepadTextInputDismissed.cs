@@ -1,4 +1,4 @@
-internal struct GamepadTextInputDismissed_t : ICallbackData // TypeDefIndex: 5333
+internal struct GamepadTextInputDismissed_t : ICallbackData // TypeDefIndex: 5335
 {
 	internal bool Submitted; 
 	internal uint SubmittedText; 

@@ -5,8 +5,8 @@ public sealed class NativeContainerSupportsMinMaxWriteRestrictionAttribute : Att
 [RequiredByNativeCodeAttribute] 
 public sealed class NativeContainerIsAtomicWriteOnlyAttribute : Attribute
 
-[RequiredByNativeCodeAttribute] 
 [AttributeUsageAttribute] 
+[RequiredByNativeCodeAttribute] 
 public sealed class NativeContainerSupportsMinMaxWriteRestrictionAttribute : Attribute
 
 	public void .ctor() { }

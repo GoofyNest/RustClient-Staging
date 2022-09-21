@@ -1,4 +1,4 @@
-public class LinePoint : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6434
+public class LinePoint : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6436
 {
 	public bool ShouldPool; 
 	private bool _disposed; 

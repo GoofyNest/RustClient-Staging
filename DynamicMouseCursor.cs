@@ -1,4 +1,4 @@
-public class DynamicMouseCursor : MonoBehaviour // TypeDefIndex: 12599
+public class DynamicMouseCursor : MonoBehaviour // TypeDefIndex: 12630
 {
 	public Texture2D RegularCursor; 
 	public Vector2 RegularCursorPos; 

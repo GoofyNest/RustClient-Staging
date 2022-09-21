@@ -1,4 +1,4 @@
-public class Collider : Component // TypeDefIndex: 3921
+public class Collider : Component // TypeDefIndex: 3923
 {
 	public bool enabled { get; set; }
 	public Rigidbody attachedRigidbody { get; }

@@ -1,4 +1,4 @@
-internal enum SchemaFormat // TypeDefIndex: 4329
+internal enum SchemaFormat // TypeDefIndex: 4331
 {
 	public int value__; 
 	public const SchemaFormat Public = 1;

@@ -1,4 +1,4 @@
-public class ResearchTable : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6322
+public class ResearchTable : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6324
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -59,7 +59,7 @@ public class ResearchTable : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 }
 
-public class ResearchTable : StorageContainer // TypeDefIndex: 10306
+public class ResearchTable : StorageContainer // TypeDefIndex: 10337
 {
 	public float researchFinishedTime; 
 	public float researchCostFraction; 

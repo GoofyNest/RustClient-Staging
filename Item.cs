@@ -1,4 +1,4 @@
-internal enum ItemUpdateStatus // TypeDefIndex: 5164
+internal enum ItemUpdateStatus // TypeDefIndex: 5166
 {
 	public int value__; 
 	public const ItemUpdateStatus Invalid = 0;
@@ -10,7 +10,7 @@ internal enum ItemUpdateStatus // TypeDefIndex: 5164
 
 }
 
-internal enum ItemState // TypeDefIndex: 5165
+internal enum ItemState // TypeDefIndex: 5167
 {
 	public int value__; 
 	public const ItemState None = 0;
@@ -23,7 +23,7 @@ internal enum ItemState // TypeDefIndex: 5165
 
 }
 
-internal enum ItemStatistic // TypeDefIndex: 5166
+internal enum ItemStatistic // TypeDefIndex: 5168
 {
 	public int value__; 
 	public const ItemStatistic NumSubscriptions = 0;
@@ -42,7 +42,7 @@ internal enum ItemStatistic // TypeDefIndex: 5166
 
 }
 
-public enum ItemPreviewType // TypeDefIndex: 5167
+public enum ItemPreviewType // TypeDefIndex: 5169
 {
 	public int value__; 
 	public const ItemPreviewType Image = 0;
@@ -54,7 +54,7 @@ public enum ItemPreviewType // TypeDefIndex: 5167
 
 }
 
-public struct Item // TypeDefIndex: 5278
+public struct Item // TypeDefIndex: 5280
 {
 	internal SteamUGCDetails_t details; 
 	internal PublishedFileId _id; 
@@ -244,7 +244,7 @@ public struct Item // TypeDefIndex: 5278
 
 }
 
-private struct Item.<Vote>d__83 : IAsyncStateMachine // TypeDefIndex: 5279
+private struct Item.<Vote>d__83 : IAsyncStateMachine // TypeDefIndex: 5281
 {
 	public int <>1__state; 
 	public AsyncTaskMethodBuilder<Nullable<Result>> <>t__builder; 
@@ -260,7 +260,7 @@ private struct Item.<Vote>d__83 : IAsyncStateMachine // TypeDefIndex: 5279
 
 }
 
-internal struct ItemInstalled_t : ICallbackData // TypeDefIndex: 5435
+internal struct ItemInstalled_t : ICallbackData // TypeDefIndex: 5437
 {
 	internal AppId AppID; 
 	internal PublishedFileId PublishedFileId; 
@@ -278,7 +278,7 @@ internal struct ItemInstalled_t : ICallbackData // TypeDefIndex: 5435
 
 }
 
-public class ItemContainer : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6440
+public class ItemContainer : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6442
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -347,7 +347,7 @@ public class ItemContainer : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 }
 
-public class Item : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6441
+public class Item : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6443
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -422,7 +422,7 @@ public class Item : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6441
 
 }
 
-public class Item.InstanceData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6442
+public class Item.InstanceData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6444
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -486,7 +486,7 @@ public class Item.InstanceData : IDisposable, Pool.IPooled, IProto // TypeDefInd
 
 }
 
-public class Item.ConditionData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6443
+public class Item.ConditionData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6445
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -548,7 +548,7 @@ public class Item.ConditionData : IDisposable, Pool.IPooled, IProto // TypeDefIn
 
 }
 
-public class ItemAmountList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6507
+public class ItemAmountList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6509
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -610,7 +610,7 @@ public class ItemAmountList : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 }
 
-public class ItemSchema // TypeDefIndex: 7713
+public class ItemSchema // TypeDefIndex: 7744
 {
 	public int appid; 
 	public ItemSchema.Item[] items; 
@@ -620,7 +620,7 @@ public class ItemSchema // TypeDefIndex: 7713
 
 }
 
-public class ItemSchema.Item // TypeDefIndex: 7714
+public class ItemSchema.Item // TypeDefIndex: 7745
 {
 	public string name; 
 	public uint itemdefid; 
@@ -657,7 +657,7 @@ public class ItemSchema.Item // TypeDefIndex: 7714
 
 }
 
-public struct ItemOwnership // TypeDefIndex: 9433
+public struct ItemOwnership // TypeDefIndex: 9464
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <Id>k__BackingField; 
@@ -684,7 +684,7 @@ public struct ItemOwnership // TypeDefIndex: 9433
 
 }
 
-internal struct ItemOwnershipInternal : IGettable<ItemOwnership>, ISettable<ItemOwnership>, IDisposable // TypeDefIndex: 9434
+internal struct ItemOwnershipInternal : IGettable<ItemOwnership>, ISettable<ItemOwnership>, IDisposable // TypeDefIndex: 9465
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Id; 
@@ -712,7 +712,7 @@ internal struct ItemOwnershipInternal : IGettable<ItemOwnership>, ISettable<Item
 
 }
 
-public class ItemBasedFlowRestrictor : IOEntity, IContainerSounds // TypeDefIndex: 10071
+public class ItemBasedFlowRestrictor : IOEntity, IContainerSounds // TypeDefIndex: 10102
 {
 	private Option __menuOption_Menu_Open; 
 	public ItemDefinition passthroughItem; 
@@ -753,7 +753,7 @@ public class ItemBasedFlowRestrictor : IOEntity, IContainerSounds // TypeDefInde
 
 }
 
-public class ItemSearchEntry : MonoBehaviour // TypeDefIndex: 10403
+public class ItemSearchEntry : MonoBehaviour // TypeDefIndex: 10434
 {
 	public Button button; 
 	public Text text; 
@@ -773,7 +773,7 @@ public class ItemSearchEntry : MonoBehaviour // TypeDefIndex: 10403
 
 }
 
-public class ItemModCrackOpen : ItemModUnwrap // TypeDefIndex: 10457
+public class ItemModCrackOpen : ItemModUnwrap // TypeDefIndex: 10488
 {
 
 	public override void GetMenuOptions(Item item, List<Option> list, BasePlayer player) { }
@@ -782,7 +782,7 @@ public class ItemModCrackOpen : ItemModUnwrap // TypeDefIndex: 10457
 
 }
 
-public class ItemModOpenLootBag : ItemModUnwrap // TypeDefIndex: 10465
+public class ItemModOpenLootBag : ItemModUnwrap // TypeDefIndex: 10496
 {
 
 	public override void GetMenuOptions(Item item, List<Option> list, BasePlayer player) { }
@@ -791,7 +791,7 @@ public class ItemModOpenLootBag : ItemModUnwrap // TypeDefIndex: 10465
 
 }
 
-public class ItemModPhoto : ItemModAssociatedEntity<PhotoEntity> // TypeDefIndex: 10486
+public class ItemModPhoto : ItemModAssociatedEntity<PhotoEntity> // TypeDefIndex: 10517
 {
 	protected override bool AllowNullParenting { get; }
 
@@ -802,7 +802,7 @@ public class ItemModPhoto : ItemModAssociatedEntity<PhotoEntity> // TypeDefIndex
 
 }
 
-public class ItemModUnwrap : ItemMod // TypeDefIndex: 10495
+public class ItemModUnwrap : ItemMod // TypeDefIndex: 10526
 {
 	public LootSpawn revealList; 
 	public GameObjectRef successEffect; 
@@ -816,7 +816,7 @@ public class ItemModUnwrap : ItemMod // TypeDefIndex: 10495
 
 }
 
-public class ItemModOpenWrapped : ItemMod // TypeDefIndex: 10501
+public class ItemModOpenWrapped : ItemMod // TypeDefIndex: 10532
 {
 	public GameObjectRef successEffect; 
 	public static Translate.Phrase open_wrapped_gift; 
@@ -831,7 +831,7 @@ public class ItemModOpenWrapped : ItemMod // TypeDefIndex: 10501
 
 }
 
-public class ItemModWrap : ItemMod // TypeDefIndex: 10502
+public class ItemModWrap : ItemMod // TypeDefIndex: 10533
 {
 	public GameObjectRef successEffect; 
 	public ItemDefinition wrappedDefinition; 
@@ -847,7 +847,7 @@ public class ItemModWrap : ItemMod // TypeDefIndex: 10502
 
 }
 
-public class ItemModXMasTreeDecoration : ItemMod // TypeDefIndex: 10504
+public class ItemModXMasTreeDecoration : ItemMod // TypeDefIndex: 10535
 {
 	public ItemModXMasTreeDecoration.xmasFlags flagsToChange; 
 
@@ -856,7 +856,7 @@ public class ItemModXMasTreeDecoration : ItemMod // TypeDefIndex: 10504
 
 }
 
-public enum ItemModXMasTreeDecoration.xmasFlags // TypeDefIndex: 10505
+public enum ItemModXMasTreeDecoration.xmasFlags // TypeDefIndex: 10536
 {
 	public int value__; 
 	public const ItemModXMasTreeDecoration.xmasFlags pineCones = 128;
@@ -869,7 +869,7 @@ public enum ItemModXMasTreeDecoration.xmasFlags // TypeDefIndex: 10505
 
 }
 
-public class ItemModRFListener : ItemModAssociatedEntity<PagerEntity> // TypeDefIndex: 10546
+public class ItemModRFListener : ItemModAssociatedEntity<PagerEntity> // TypeDefIndex: 10577
 {
 	public GameObjectRef frequencyPanelPrefab; 
 	private uint pendingPagerID; 
@@ -883,7 +883,7 @@ public class ItemModRFListener : ItemModAssociatedEntity<PagerEntity> // TypeDef
 
 }
 
-public class ItemButtonTools : MonoBehaviour // TypeDefIndex: 10953
+public class ItemButtonTools : MonoBehaviour // TypeDefIndex: 10984
 {
 	public Image image; 
 	public ItemDefinition itemDef; 
@@ -899,7 +899,7 @@ public class ItemButtonTools : MonoBehaviour // TypeDefIndex: 10953
 
 }
 
-public class ItemListTools : MonoBehaviour // TypeDefIndex: 10954
+public class ItemListTools : MonoBehaviour // TypeDefIndex: 10985
 {
 	public GameObject categoryButton; 
 	public GameObject itemButton; 
@@ -927,7 +927,7 @@ public class ItemListTools : MonoBehaviour // TypeDefIndex: 10954
 
 }
 
-private sealed class ItemListTools.<>c // TypeDefIndex: 10955
+private sealed class ItemListTools.<>c // TypeDefIndex: 10986
 {
 	public static readonly ItemListTools.<>c <>9; 
 	public static Func<ItemDefinition, string> <>9__8_0; 
@@ -950,7 +950,7 @@ private sealed class ItemListTools.<>c // TypeDefIndex: 10955
 
 }
 
-private sealed class ItemListTools.<>c__DisplayClass10_0 // TypeDefIndex: 10956
+private sealed class ItemListTools.<>c__DisplayClass10_0 // TypeDefIndex: 10987
 {
 	public Button btn; 
 	public ItemDefinition[] itemArray; 
@@ -963,7 +963,7 @@ private sealed class ItemListTools.<>c__DisplayClass10_0 // TypeDefIndex: 10956
 
 }
 
-public class ItemTools : MonoBehaviour // TypeDefIndex: 10983
+public class ItemTools : MonoBehaviour // TypeDefIndex: 11014
 {
 
 public class ItemTools : MonoBehaviour
@@ -972,7 +972,7 @@ public class ItemTools : MonoBehaviour
 
 }
 
-public class ItemModAssociatedEntityMobile : ItemModAssociatedEntity<MobileInventoryEntity> // TypeDefIndex: 11116
+public class ItemModAssociatedEntityMobile : ItemModAssociatedEntity<MobileInventoryEntity> // TypeDefIndex: 11147
 {
 	protected override bool AllowNullParenting { get; }
 
@@ -985,7 +985,7 @@ public class ItemModAssociatedEntityMobile : ItemModAssociatedEntity<MobileInven
 
 }
 
-public class ItemModCassette : ItemModAssociatedEntity<Cassette> // TypeDefIndex: 11117
+public class ItemModCassette : ItemModAssociatedEntity<Cassette> // TypeDefIndex: 11148
 {
 	public int noteSpriteIndex; 
 	public PreloadedCassetteContent PreloadedContent; 
@@ -1002,7 +1002,7 @@ public class ItemModCassette : ItemModAssociatedEntity<Cassette> // TypeDefIndex
 
 }
 
-public class ItemModSign : ItemModAssociatedEntity<SignContent> // TypeDefIndex: 11185
+public class ItemModSign : ItemModAssociatedEntity<SignContent> // TypeDefIndex: 11216
 {
 	protected override bool AllowNullParenting { get; }
 
@@ -1013,7 +1013,7 @@ public class ItemModSign : ItemModAssociatedEntity<SignContent> // TypeDefIndex:
 
 }
 
-public class ItemPickup : DroppedItem // TypeDefIndex: 11464
+public class ItemPickup : DroppedItem // TypeDefIndex: 11495
 {
 	public ItemDefinition itemDef; 
 	public int amount; 
@@ -1024,7 +1024,7 @@ public class ItemPickup : DroppedItem // TypeDefIndex: 11464
 
 }
 
-public class ItemCraftTask // TypeDefIndex: 11777
+public class ItemCraftTask // TypeDefIndex: 11808
 {
 	public ItemBlueprint blueprint; 
 	public float endTime; 
@@ -1046,7 +1046,7 @@ public class ItemCraftTask // TypeDefIndex: 11777
 
 }
 
-public class ItemCrafter : EntityComponent<BasePlayer> // TypeDefIndex: 11778
+public class ItemCrafter : EntityComponent<BasePlayer> // TypeDefIndex: 11809
 {
 	public List<ItemContainer> containers; 
 	public LinkedList<ItemCraftTask> queue; 
@@ -1067,7 +1067,7 @@ public class ItemCrafter : EntityComponent<BasePlayer> // TypeDefIndex: 11778
 
 }
 
-public class ItemEventFlag : MonoBehaviour, IItemUpdate // TypeDefIndex: 11779
+public class ItemEventFlag : MonoBehaviour, IItemUpdate // TypeDefIndex: 11810
 {
 	public Item.Flag flag; 
 	public UnityEvent onEnabled; 
@@ -1082,7 +1082,7 @@ public class ItemEventFlag : MonoBehaviour, IItemUpdate // TypeDefIndex: 11779
 
 }
 
-public class Item // TypeDefIndex: 11780
+public class Item // TypeDefIndex: 11811
 {
 	public Nullable<int> amountOverride; 
 	private static readonly Memoized<string, ValueTuple<ItemDefinition.AmountType, int>> FormatAmountMemoized; 
@@ -1265,7 +1265,7 @@ public class Item // TypeDefIndex: 11780
 
 }
 
-public enum Item.Flag // TypeDefIndex: 11781
+public enum Item.Flag // TypeDefIndex: 11812
 {
 	public int value__; 
 	public const Item.Flag None = 0;
@@ -1277,7 +1277,7 @@ public enum Item.Flag // TypeDefIndex: 11781
 
 }
 
-private sealed class Item.<>c // TypeDefIndex: 11782
+private sealed class Item.<>c // TypeDefIndex: 11813
 {
 	public static readonly Item.<>c <>9; 
 
@@ -1290,7 +1290,7 @@ private sealed class Item.<>c // TypeDefIndex: 11782
 
 }
 
-public sealed class ItemContainer // TypeDefIndex: 11785
+public sealed class ItemContainer // TypeDefIndex: 11816
 {
 	public ItemContainer.Flag flags; 
 	public ItemContainer.ContentsType allowedContents; 
@@ -1386,7 +1386,7 @@ public sealed class ItemContainer // TypeDefIndex: 11785
 
 }
 
-public enum ItemContainer.Flag // TypeDefIndex: 11786
+public enum ItemContainer.Flag // TypeDefIndex: 11817
 {
 	public int value__; 
 	public const ItemContainer.Flag IsPlayer = 1;
@@ -1401,7 +1401,7 @@ public enum ItemContainer.Flag // TypeDefIndex: 11786
 
 }
 
-public enum ItemContainer.ContentsType // TypeDefIndex: 11787
+public enum ItemContainer.ContentsType // TypeDefIndex: 11818
 {
 	public int value__; 
 	public const ItemContainer.ContentsType Generic = 1;
@@ -1409,7 +1409,7 @@ public enum ItemContainer.ContentsType // TypeDefIndex: 11787
 
 }
 
-public enum ItemContainer.CanAcceptResult // TypeDefIndex: 11788
+public enum ItemContainer.CanAcceptResult // TypeDefIndex: 11819
 {
 	public int value__; 
 	public const ItemContainer.CanAcceptResult CanAccept = 0;
@@ -1418,7 +1418,7 @@ public enum ItemContainer.CanAcceptResult // TypeDefIndex: 11788
 
 }
 
-private sealed class ItemContainer.<>c__DisplayClass41_0 // TypeDefIndex: 11789
+private sealed class ItemContainer.<>c__DisplayClass41_0 // TypeDefIndex: 11820
 {
 	public int itemid; 
 
@@ -1429,7 +1429,7 @@ private sealed class ItemContainer.<>c__DisplayClass41_0 // TypeDefIndex: 11789
 
 }
 
-public class ItemBlueprint : MonoBehaviour // TypeDefIndex: 11790
+public class ItemBlueprint : MonoBehaviour // TypeDefIndex: 11821
 {
 	public List<ItemAmount> ingredients; 
 	public List<ItemDefinition> additionalUnlocks; 
@@ -1465,7 +1465,7 @@ public class ItemBlueprint : MonoBehaviour // TypeDefIndex: 11790
 
 }
 
-public class ItemDefinition : MonoBehaviour // TypeDefIndex: 11791
+public class ItemDefinition : MonoBehaviour // TypeDefIndex: 11822
 {
 	[HeaderAttribute] 
 	[ReadOnlyAttribute] 
@@ -1591,7 +1591,7 @@ public class ItemDefinition : MonoBehaviour // TypeDefIndex: 11791
 
 }
 
-public struct ItemDefinition.Condition // TypeDefIndex: 11792
+public struct ItemDefinition.Condition // TypeDefIndex: 11823
 {
 	public bool enabled; 
 	[TooltipAttribute] 
@@ -1604,7 +1604,7 @@ public struct ItemDefinition.Condition // TypeDefIndex: 11792
 
 }
 
-public class ItemDefinition.Condition.WorldSpawnCondition // TypeDefIndex: 11793
+public class ItemDefinition.Condition.WorldSpawnCondition // TypeDefIndex: 11824
 {
 	public float fractionMin; 
 	public float fractionMax; 
@@ -1614,7 +1614,7 @@ public class ItemDefinition.Condition.WorldSpawnCondition // TypeDefIndex: 11793
 
 }
 
-public enum ItemDefinition.RedirectVendingBehaviour // TypeDefIndex: 11794
+public enum ItemDefinition.RedirectVendingBehaviour // TypeDefIndex: 11825
 {
 	public int value__; 
 	public const ItemDefinition.RedirectVendingBehaviour NoListing = 0;
@@ -1622,7 +1622,7 @@ public enum ItemDefinition.RedirectVendingBehaviour // TypeDefIndex: 11794
 
 }
 
-public enum ItemDefinition.Flag // TypeDefIndex: 11795
+public enum ItemDefinition.Flag // TypeDefIndex: 11826
 {
 	public int value__; 
 	public const ItemDefinition.Flag NoDropping = 1;
@@ -1630,7 +1630,7 @@ public enum ItemDefinition.Flag // TypeDefIndex: 11795
 
 }
 
-public enum ItemDefinition.AmountType // TypeDefIndex: 11796
+public enum ItemDefinition.AmountType // TypeDefIndex: 11827
 {
 	public int value__; 
 	public const ItemDefinition.AmountType Count = 0;
@@ -1643,7 +1643,7 @@ public enum ItemDefinition.AmountType // TypeDefIndex: 11796
 
 }
 
-private sealed class ItemDefinition.<>c__DisplayClass35_0 // TypeDefIndex: 11797
+private sealed class ItemDefinition.<>c__DisplayClass35_0 // TypeDefIndex: 11828
 {
 	public string prefabname; 
 	public ItemDefinition <>4__this; 
@@ -1655,7 +1655,7 @@ private sealed class ItemDefinition.<>c__DisplayClass35_0 // TypeDefIndex: 11797
 
 }
 
-public enum ItemCategory // TypeDefIndex: 11798
+public enum ItemCategory // TypeDefIndex: 11829
 {
 	public int value__; 
 	public const ItemCategory Weapon = 0;
@@ -1679,7 +1679,7 @@ public enum ItemCategory // TypeDefIndex: 11798
 
 }
 
-public enum ItemSlot // TypeDefIndex: 11799
+public enum ItemSlot // TypeDefIndex: 11830
 {
 	public int value__; 
 	public const ItemSlot None = 1;
@@ -1691,7 +1691,7 @@ public enum ItemSlot // TypeDefIndex: 11799
 
 }
 
-public enum ItemSelectionPanel // TypeDefIndex: 11800
+public enum ItemSelectionPanel // TypeDefIndex: 11831
 {
 	public int value__; 
 	public const ItemSelectionPanel None = 0;
@@ -1701,7 +1701,7 @@ public enum ItemSelectionPanel // TypeDefIndex: 11800
 
 }
 
-public class ItemSelector : PropertyAttribute // TypeDefIndex: 11801
+public class ItemSelector : PropertyAttribute // TypeDefIndex: 11832
 {
 	public ItemCategory category; 
 
@@ -1710,7 +1710,7 @@ public class ItemSelector : PropertyAttribute // TypeDefIndex: 11801
 
 }
 
-public class ItemMod : MonoBehaviour // TypeDefIndex: 11802
+public class ItemMod : MonoBehaviour // TypeDefIndex: 11833
 {
 	protected ItemMod[] siblingMods; 
 
@@ -1743,7 +1743,7 @@ public class ItemMod : MonoBehaviour // TypeDefIndex: 11802
 
 }
 
-public class ItemModActionChange : ItemMod // TypeDefIndex: 11803
+public class ItemModActionChange : ItemMod // TypeDefIndex: 11834
 {
 	public ItemMod[] actions; 
 
@@ -1754,7 +1754,7 @@ public class ItemModActionChange : ItemMod // TypeDefIndex: 11803
 
 }
 
-public class ItemModActionContainerChange : ItemMod // TypeDefIndex: 11804
+public class ItemModActionContainerChange : ItemMod // TypeDefIndex: 11835
 {
 	public ItemMod[] actions; 
 
@@ -1765,7 +1765,7 @@ public class ItemModActionContainerChange : ItemMod // TypeDefIndex: 11804
 
 }
 
-public class ItemModAlterCondition : ItemMod // TypeDefIndex: 11805
+public class ItemModAlterCondition : ItemMod // TypeDefIndex: 11836
 {
 	public float conditionChange; 
 
@@ -1774,7 +1774,7 @@ public class ItemModAlterCondition : ItemMod // TypeDefIndex: 11805
 
 }
 
-public class ItemModAnimalEquipment : ItemMod // TypeDefIndex: 11806
+public class ItemModAnimalEquipment : ItemMod // TypeDefIndex: 11837
 {
 	public BaseEntity.Flags WearableFlag; 
 	public bool hideHair; 
@@ -1790,7 +1790,7 @@ public class ItemModAnimalEquipment : ItemMod // TypeDefIndex: 11806
 
 }
 
-public enum ItemModAnimalEquipment.SlotType // TypeDefIndex: 11807
+public enum ItemModAnimalEquipment.SlotType // TypeDefIndex: 11838
 {
 	public int value__; 
 	public const ItemModAnimalEquipment.SlotType Basic = 0;
@@ -1801,7 +1801,7 @@ public enum ItemModAnimalEquipment.SlotType // TypeDefIndex: 11807
 
 }
 
-public abstract class ItemModAssociatedEntity<T> : ItemMod // TypeDefIndex: 11808
+public abstract class ItemModAssociatedEntity<T> : ItemMod // TypeDefIndex: 11839
 {
 	public GameObjectRef entityPrefab; 
 
@@ -1851,14 +1851,14 @@ public abstract class ItemModAssociatedEntity<T> : ItemMod // TypeDefIndex: 1180
 
 }
 
-public class ItemModBaitContainer : ItemModContainer // TypeDefIndex: 11809
+public class ItemModBaitContainer : ItemModContainer // TypeDefIndex: 11840
 {
 
 	public void .ctor() { }
 
 }
 
-public class ItemModBlueprintCraft : ItemMod // TypeDefIndex: 11810
+public class ItemModBlueprintCraft : ItemMod // TypeDefIndex: 11841
 {
 	public GameObjectRef successEffect; 
 
@@ -1869,7 +1869,7 @@ public class ItemModBlueprintCraft : ItemMod // TypeDefIndex: 11810
 
 }
 
-public class ItemModBurnable : ItemMod // TypeDefIndex: 11811
+public class ItemModBurnable : ItemMod // TypeDefIndex: 11842
 {
 	public float fuelAmount; 
 	[ItemSelector] 
@@ -1882,7 +1882,7 @@ public class ItemModBurnable : ItemMod // TypeDefIndex: 11811
 
 }
 
-public class ItemModCassetteContainer : ItemModContainer // TypeDefIndex: 11812
+public class ItemModCassetteContainer : ItemModContainer // TypeDefIndex: 11843
 {
 	public ItemDefinition[] CassetteItems; 
 
@@ -1891,7 +1891,7 @@ public class ItemModCassetteContainer : ItemModContainer // TypeDefIndex: 11812
 
 }
 
-public class ItemModChildIO : ItemMod // TypeDefIndex: 11813
+public class ItemModChildIO : ItemMod // TypeDefIndex: 11844
 {
 	public GameObjectRef TargetChildIO; 
 
@@ -1900,7 +1900,7 @@ public class ItemModChildIO : ItemMod // TypeDefIndex: 11813
 
 }
 
-public class ItemModCompostable : MonoBehaviour // TypeDefIndex: 11814
+public class ItemModCompostable : MonoBehaviour // TypeDefIndex: 11845
 {
 	public float TotalFertilizerProduced; 
 	public float BaitValue; 
@@ -1910,7 +1910,7 @@ public class ItemModCompostable : MonoBehaviour // TypeDefIndex: 11814
 
 }
 
-public class ItemModConditionContainerFlag : ItemMod // TypeDefIndex: 11815
+public class ItemModConditionContainerFlag : ItemMod // TypeDefIndex: 11846
 {
 	public ItemContainer.Flag flag; 
 	public bool requiredState; 
@@ -1922,7 +1922,7 @@ public class ItemModConditionContainerFlag : ItemMod // TypeDefIndex: 11815
 
 }
 
-public class ItemModConditionHasCondition : ItemMod // TypeDefIndex: 11816
+public class ItemModConditionHasCondition : ItemMod // TypeDefIndex: 11847
 {
 	public float conditionTarget; 
 	[TooltipAttribute] 
@@ -1936,7 +1936,7 @@ public class ItemModConditionHasCondition : ItemMod // TypeDefIndex: 11816
 
 }
 
-public class ItemModConditionHasContents : ItemMod // TypeDefIndex: 11817
+public class ItemModConditionHasContents : ItemMod // TypeDefIndex: 11848
 {
 	[TooltipAttribute] 
 	public ItemDefinition itemDef; 
@@ -1952,7 +1952,7 @@ public class ItemModConditionHasContents : ItemMod // TypeDefIndex: 11817
 
 }
 
-public class ItemModConditionHasFlag : ItemMod // TypeDefIndex: 11818
+public class ItemModConditionHasFlag : ItemMod // TypeDefIndex: 11849
 {
 	public Item.Flag flag; 
 	public bool requiredState; 
@@ -1964,7 +1964,7 @@ public class ItemModConditionHasFlag : ItemMod // TypeDefIndex: 11818
 
 }
 
-public class ItemModConditionInWater : ItemMod // TypeDefIndex: 11819
+public class ItemModConditionInWater : ItemMod // TypeDefIndex: 11850
 {
 	public bool requiredState; 
 
@@ -1975,7 +1975,7 @@ public class ItemModConditionInWater : ItemMod // TypeDefIndex: 11819
 
 }
 
-public class ItemModConditionIsSleeping : ItemMod // TypeDefIndex: 11820
+public class ItemModConditionIsSleeping : ItemMod // TypeDefIndex: 11851
 {
 	public bool requiredState; 
 
@@ -1986,7 +1986,7 @@ public class ItemModConditionIsSleeping : ItemMod // TypeDefIndex: 11820
 
 }
 
-public class ItemModConsumable : MonoBehaviour // TypeDefIndex: 11821
+public class ItemModConsumable : MonoBehaviour // TypeDefIndex: 11852
 {
 	public int amountToConsume; 
 	public float conditionFractionToLose; 
@@ -2001,7 +2001,7 @@ public class ItemModConsumable : MonoBehaviour // TypeDefIndex: 11821
 
 }
 
-public class ItemModConsumable.ConsumableEffect // TypeDefIndex: 11822
+public class ItemModConsumable.ConsumableEffect // TypeDefIndex: 11853
 {
 	public MetabolismAttribute.Type type; 
 	public float amount; 
@@ -2013,7 +2013,7 @@ public class ItemModConsumable.ConsumableEffect // TypeDefIndex: 11822
 
 }
 
-public class ItemModConsume : ItemMod // TypeDefIndex: 11823
+public class ItemModConsume : ItemMod // TypeDefIndex: 11854
 {
 	public GameObjectRef consumeEffect; 
 	public string eatGesture; 
@@ -2030,7 +2030,7 @@ public class ItemModConsume : ItemMod // TypeDefIndex: 11823
 
 }
 
-public class ItemModConsumeChance : ItemModConsume // TypeDefIndex: 11824
+public class ItemModConsumeChance : ItemModConsume // TypeDefIndex: 11855
 {
 	public float chanceForSecondaryConsume; 
 	public GameObjectRef secondaryConsumeEffect; 
@@ -2041,7 +2041,7 @@ public class ItemModConsumeChance : ItemModConsume // TypeDefIndex: 11824
 
 }
 
-public class ItemModConsumeContents : ItemMod // TypeDefIndex: 11825
+public class ItemModConsumeContents : ItemMod // TypeDefIndex: 11856
 {
 	public GameObjectRef consumeEffect; 
 
@@ -2054,7 +2054,7 @@ public class ItemModConsumeContents : ItemMod // TypeDefIndex: 11825
 
 }
 
-public class ItemModContainer : ItemMod // TypeDefIndex: 11826
+public class ItemModContainer : ItemMod // TypeDefIndex: 11857
 {
 	public int capacity; 
 	public int maxStackSize; 
@@ -2077,7 +2077,7 @@ public class ItemModContainer : ItemMod // TypeDefIndex: 11826
 
 }
 
-public class ItemModContainerRestriction : ItemMod // TypeDefIndex: 11827
+public class ItemModContainerRestriction : ItemMod // TypeDefIndex: 11858
 {
 	[InspectorFlagsAttribute] 
 	public ItemModContainerRestriction.SlotFlags slotFlags; 
@@ -2089,14 +2089,14 @@ public class ItemModContainerRestriction : ItemMod // TypeDefIndex: 11827
 
 }
 
-public enum ItemModContainerRestriction.SlotFlags // TypeDefIndex: 11828
+public enum ItemModContainerRestriction.SlotFlags // TypeDefIndex: 11859
 {
 	public int value__; 
 	public const ItemModContainerRestriction.SlotFlags Map = 1;
 
 }
 
-public class ItemModCookable : ItemMod // TypeDefIndex: 11829
+public class ItemModCookable : ItemMod // TypeDefIndex: 11860
 {
 	[ItemSelector] 
 	public ItemDefinition becomeOnCooked; 
@@ -2115,7 +2115,7 @@ public class ItemModCookable : ItemMod // TypeDefIndex: 11829
 
 }
 
-public class ItemModCycle : ItemMod // TypeDefIndex: 11830
+public class ItemModCycle : ItemMod // TypeDefIndex: 11861
 {
 	public ItemMod[] actions; 
 	public float timeBetweenCycles; 
@@ -2129,7 +2129,7 @@ public class ItemModCycle : ItemMod // TypeDefIndex: 11830
 
 }
 
-public class ItemModDeployable : MonoBehaviour // TypeDefIndex: 11831
+public class ItemModDeployable : MonoBehaviour // TypeDefIndex: 11862
 {
 	public GameObjectRef entityPrefab; 
 	[HeaderAttribute] 
@@ -2143,7 +2143,7 @@ public class ItemModDeployable : MonoBehaviour // TypeDefIndex: 11831
 
 }
 
-public class ItemModEntity : ItemMod // TypeDefIndex: 11832
+public class ItemModEntity : ItemMod // TypeDefIndex: 11863
 {
 	public GameObjectRef entityPrefab; 
 	public string defaultBone; 
@@ -2153,7 +2153,7 @@ public class ItemModEntity : ItemMod // TypeDefIndex: 11832
 
 }
 
-public class ItemModEntityReference : MonoBehaviour // TypeDefIndex: 11833
+public class ItemModEntityReference : MonoBehaviour // TypeDefIndex: 11864
 {
 	public GameObjectRef entityPrefab; 
 
@@ -2162,7 +2162,7 @@ public class ItemModEntityReference : MonoBehaviour // TypeDefIndex: 11833
 
 }
 
-public class ItemModFishable : ItemMod // TypeDefIndex: 11834
+public class ItemModFishable : ItemMod // TypeDefIndex: 11865
 {
 	public bool CanBeFished; 
 	[HeaderAttribute] 
@@ -2186,7 +2186,7 @@ public class ItemModFishable : ItemMod // TypeDefIndex: 11834
 
 }
 
-public class ItemModGiveOxygen : ItemMod, IAirSupply // TypeDefIndex: 11836
+public class ItemModGiveOxygen : ItemMod, IAirSupply // TypeDefIndex: 11867
 {
 	public ItemModGiveOxygen.AirSupplyType airType; 
 	public int amountToConsume; 
@@ -2211,7 +2211,7 @@ public class ItemModGiveOxygen : ItemMod, IAirSupply // TypeDefIndex: 11836
 
 }
 
-public enum ItemModGiveOxygen.AirSupplyType // TypeDefIndex: 11837
+public enum ItemModGiveOxygen.AirSupplyType // TypeDefIndex: 11868
 {
 	public int value__; 
 	public const ItemModGiveOxygen.AirSupplyType Lungs = 0;
@@ -2220,7 +2220,7 @@ public enum ItemModGiveOxygen.AirSupplyType // TypeDefIndex: 11837
 
 }
 
-public class ItemModKeycard : ItemMod // TypeDefIndex: 11838
+public class ItemModKeycard : ItemMod // TypeDefIndex: 11869
 {
 	public int accessLevel; 
 
@@ -2229,7 +2229,7 @@ public class ItemModKeycard : ItemMod // TypeDefIndex: 11838
 
 }
 
-public class ItemModMenuOption : ItemMod // TypeDefIndex: 11839
+public class ItemModMenuOption : ItemMod // TypeDefIndex: 11870
 {
 	public string commandName; 
 	public ItemMod actionTarget; 
@@ -2248,7 +2248,7 @@ public class ItemModMenuOption : ItemMod // TypeDefIndex: 11839
 
 }
 
-public class ItemModPaintable : ItemModAssociatedEntity<PaintedItemStorageEntity> // TypeDefIndex: 11840
+public class ItemModPaintable : ItemModAssociatedEntity<PaintedItemStorageEntity> // TypeDefIndex: 11871
 {
 	public GameObjectRef ChangeSignTextDialog; 
 	public MeshPaintableSource[] PaintableSources; 
@@ -2275,7 +2275,7 @@ public class ItemModPaintable : ItemModAssociatedEntity<PaintedItemStorageEntity
 
 }
 
-private sealed class ItemModPaintable.<DeferredSetup>d__5 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11841
+private sealed class ItemModPaintable.<DeferredSetup>d__5 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11872
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -2307,7 +2307,7 @@ private sealed class ItemModPaintable.<DeferredSetup>d__5 : IEnumerator<object>,
 
 }
 
-private sealed class ItemModPaintable.<>c__DisplayClass9_0 // TypeDefIndex: 11842
+private sealed class ItemModPaintable.<>c__DisplayClass9_0 // TypeDefIndex: 11873
 {
 	public PaintedItemStorageEntity entity; 
 
@@ -2318,7 +2318,7 @@ private sealed class ItemModPaintable.<>c__DisplayClass9_0 // TypeDefIndex: 1184
 
 }
 
-private sealed class ItemModPaintable.<OpenPaintUI>d__9 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11843
+private sealed class ItemModPaintable.<OpenPaintUI>d__9 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11874
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -2349,7 +2349,7 @@ private sealed class ItemModPaintable.<OpenPaintUI>d__9 : IEnumerator<object>, I
 
 }
 
-public class ItemModPetStats : ItemMod // TypeDefIndex: 11844
+public class ItemModPetStats : ItemMod // TypeDefIndex: 11875
 {
 	[TooltipAttribute] 
 	public float SpeedModifier; 
@@ -2365,7 +2365,7 @@ public class ItemModPetStats : ItemMod // TypeDefIndex: 11844
 
 }
 
-public class ItemModProjectile : MonoBehaviour // TypeDefIndex: 11845
+public class ItemModProjectile : MonoBehaviour // TypeDefIndex: 11876
 {
 	public GameObjectRef projectileObject; 
 	public ItemModProjectileMod[] mods; 
@@ -2401,7 +2401,7 @@ public class ItemModProjectile : MonoBehaviour // TypeDefIndex: 11845
 
 }
 
-public class ItemModProjectileMod : MonoBehaviour // TypeDefIndex: 11846
+public class ItemModProjectileMod : MonoBehaviour // TypeDefIndex: 11877
 {
 
 	public virtual void ServerProjectileHit(HitInfo info) { }
@@ -2410,7 +2410,7 @@ public class ItemModProjectileMod : MonoBehaviour // TypeDefIndex: 11846
 
 }
 
-public class ItemModProjectileRadialDamage : ItemModProjectileMod // TypeDefIndex: 11847
+public class ItemModProjectileRadialDamage : ItemModProjectileMod // TypeDefIndex: 11878
 {
 	public float radius; 
 	public DamageTypeEntry damage; 
@@ -2422,7 +2422,7 @@ public class ItemModProjectileRadialDamage : ItemModProjectileMod // TypeDefInde
 
 }
 
-public class ItemModProjectileSpawn : ItemModProjectile // TypeDefIndex: 11848
+public class ItemModProjectileSpawn : ItemModProjectile // TypeDefIndex: 11879
 {
 	public float createOnImpactChance; 
 	public GameObjectRef createOnImpact; 
@@ -2436,7 +2436,7 @@ public class ItemModProjectileSpawn : ItemModProjectile // TypeDefIndex: 11848
 
 }
 
-public class ItemModRecycleInto : ItemMod // TypeDefIndex: 11849
+public class ItemModRecycleInto : ItemMod // TypeDefIndex: 11880
 {
 	public ItemDefinition recycleIntoItem; 
 	public int numRecycledItemMin; 
@@ -2450,7 +2450,7 @@ public class ItemModRecycleInto : ItemMod // TypeDefIndex: 11849
 
 }
 
-public class ItemModRepair : ItemMod // TypeDefIndex: 11850
+public class ItemModRepair : ItemMod // TypeDefIndex: 11881
 {
 	public float conditionLost; 
 	public GameObjectRef successEffect; 
@@ -2465,7 +2465,7 @@ public class ItemModRepair : ItemMod // TypeDefIndex: 11850
 
 }
 
-public class ItemModReveal : ItemMod // TypeDefIndex: 11851
+public class ItemModReveal : ItemMod // TypeDefIndex: 11882
 {
 	public int numForReveal; 
 	public ItemDefinition revealedItemOverride; 
@@ -2480,7 +2480,7 @@ public class ItemModReveal : ItemMod // TypeDefIndex: 11851
 
 }
 
-public class ItemModSound : ItemMod // TypeDefIndex: 11852
+public class ItemModSound : ItemMod // TypeDefIndex: 11883
 {
 	public GameObjectRef effect; 
 	public ItemModSound.Type actionType; 
@@ -2490,14 +2490,14 @@ public class ItemModSound : ItemMod // TypeDefIndex: 11852
 
 }
 
-public enum ItemModSound.Type // TypeDefIndex: 11853
+public enum ItemModSound.Type // TypeDefIndex: 11884
 {
 	public int value__; 
 	public const ItemModSound.Type OnAttachToWeapon = 0;
 
 }
 
-public class ItemModStudyBlueprint : ItemMod // TypeDefIndex: 11854
+public class ItemModStudyBlueprint : ItemMod // TypeDefIndex: 11885
 {
 	public GameObjectRef studyEffect; 
 
@@ -2506,7 +2506,7 @@ public class ItemModStudyBlueprint : ItemMod // TypeDefIndex: 11854
 
 }
 
-public class ItemModSummerSunglassesEquip : ItemMod // TypeDefIndex: 11855
+public class ItemModSummerSunglassesEquip : ItemMod // TypeDefIndex: 11886
 {
 	public float SunsetTime; 
 	public float SunriseTime; 
@@ -2517,7 +2517,7 @@ public class ItemModSummerSunglassesEquip : ItemMod // TypeDefIndex: 11855
 
 }
 
-public class ItemModSwap : ItemMod // TypeDefIndex: 11856
+public class ItemModSwap : ItemMod // TypeDefIndex: 11887
 {
 	public GameObjectRef actionEffect; 
 	public ItemAmount[] becomeItem; 
@@ -2531,7 +2531,7 @@ public class ItemModSwap : ItemMod // TypeDefIndex: 11856
 
 }
 
-public class ItemModSwitchFlag : ItemMod // TypeDefIndex: 11857
+public class ItemModSwitchFlag : ItemMod // TypeDefIndex: 11888
 {
 	public Item.Flag flag; 
 	public bool state; 
@@ -2541,7 +2541,7 @@ public class ItemModSwitchFlag : ItemMod // TypeDefIndex: 11857
 
 }
 
-public class ItemModUpgrade : ItemMod // TypeDefIndex: 11858
+public class ItemModUpgrade : ItemMod // TypeDefIndex: 11889
 {
 	public int numForUpgrade; 
 	public float upgradeSuccessChance; 
@@ -2558,7 +2558,7 @@ public class ItemModUpgrade : ItemMod // TypeDefIndex: 11858
 
 }
 
-public class ItemModUseContent : ItemMod // TypeDefIndex: 11859
+public class ItemModUseContent : ItemMod // TypeDefIndex: 11890
 {
 	public int amountToConsume; 
 
@@ -2567,7 +2567,7 @@ public class ItemModUseContent : ItemMod // TypeDefIndex: 11859
 
 }
 
-public class ItemModWearable : ItemMod // TypeDefIndex: 11860
+public class ItemModWearable : ItemMod // TypeDefIndex: 11891
 {
 	public GameObjectRef entityPrefab; 
 	public GameObjectRef entityPrefabFemale; 
@@ -2619,7 +2619,7 @@ public class ItemModWearable : ItemMod // TypeDefIndex: 11860
 
 }
 
-private sealed class ItemModWearable.<>c__DisplayClass28_0 // TypeDefIndex: 11861
+private sealed class ItemModWearable.<>c__DisplayClass28_0 // TypeDefIndex: 11892
 {
 	public Item item; 
 
@@ -2630,7 +2630,7 @@ private sealed class ItemModWearable.<>c__DisplayClass28_0 // TypeDefIndex: 1186
 
 }
 
-public class ItemModXPWhenUsed : ItemMod // TypeDefIndex: 11862
+public class ItemModXPWhenUsed : ItemMod // TypeDefIndex: 11893
 {
 	public float xpPerUnit; 
 	public int unitSize; 
@@ -2642,7 +2642,7 @@ public class ItemModXPWhenUsed : ItemMod // TypeDefIndex: 11862
 
 }
 
-public class ItemFootstepSounds : MonoBehaviour // TypeDefIndex: 11863
+public class ItemFootstepSounds : MonoBehaviour // TypeDefIndex: 11894
 {
 	public string effectFolder; 
 
@@ -2651,7 +2651,7 @@ public class ItemFootstepSounds : MonoBehaviour // TypeDefIndex: 11863
 
 }
 
-public class ItemAmount : ISerializationCallbackReceiver // TypeDefIndex: 11864
+public class ItemAmount : ISerializationCallbackReceiver // TypeDefIndex: 11895
 {
 	[ItemSelector] 
 	public ItemDefinition itemDef; 
@@ -2677,7 +2677,7 @@ public class ItemAmount : ISerializationCallbackReceiver // TypeDefIndex: 11864
 
 }
 
-public class ItemAmountRandom // TypeDefIndex: 11865
+public class ItemAmountRandom // TypeDefIndex: 11896
 {
 	[ItemSelector] 
 	public ItemDefinition itemDef; 
@@ -2690,7 +2690,7 @@ public class ItemAmountRandom // TypeDefIndex: 11865
 
 }
 
-public class ItemAmountRanged : ItemAmount // TypeDefIndex: 11866
+public class ItemAmountRanged : ItemAmount // TypeDefIndex: 11897
 {
 	public float maxAmount; 
 
@@ -2703,7 +2703,7 @@ public class ItemAmountRanged : ItemAmount // TypeDefIndex: 11866
 
 }
 
-public class ItemManager // TypeDefIndex: 11867
+public class ItemManager // TypeDefIndex: 11898
 {
 	public static List<ItemDefinition> itemList; 
 	public static Dictionary<int, ItemDefinition> itemDictionary; 
@@ -2735,7 +2735,7 @@ public class ItemManager // TypeDefIndex: 11867
 
 }
 
-private sealed class ItemManager.<>c // TypeDefIndex: 11868
+private sealed class ItemManager.<>c // TypeDefIndex: 11899
 {
 	public static readonly ItemManager.<>c <>9; 
 	public static Func<GameObject, ItemDefinition> <>9__7_0; 
@@ -2764,7 +2764,7 @@ private sealed class ItemManager.<>c // TypeDefIndex: 11868
 
 }
 
-public class ItemSkin : SteamInventoryItem // TypeDefIndex: 12416
+public class ItemSkin : SteamInventoryItem // TypeDefIndex: 12447
 {
 	public Skinnable Skinnable; 
 	public Material[] Materials; 
@@ -2781,7 +2781,7 @@ public class ItemSkin : SteamInventoryItem // TypeDefIndex: 12416
 
 }
 
-public class ItemSkinDirectory : ScriptableObject // TypeDefIndex: 12417
+public class ItemSkinDirectory : ScriptableObject // TypeDefIndex: 12448
 {
 	private static ItemSkinDirectory _Instance; 
 	public ItemSkinDirectory.Skin[] skins; 
@@ -2799,7 +2799,7 @@ public class ItemSkinDirectory : ScriptableObject // TypeDefIndex: 12417
 
 }
 
-public struct ItemSkinDirectory.Skin // TypeDefIndex: 12418
+public struct ItemSkinDirectory.Skin // TypeDefIndex: 12449
 {
 	public int id; 
 	public int itemid; 
@@ -2814,7 +2814,7 @@ public struct ItemSkinDirectory.Skin // TypeDefIndex: 12418
 
 }
 
-private sealed class ItemSkinDirectory.<>c__DisplayClass5_0 // TypeDefIndex: 12419
+private sealed class ItemSkinDirectory.<>c__DisplayClass5_0 // TypeDefIndex: 12450
 {
 	public ItemDefinition item; 
 
@@ -2825,7 +2825,7 @@ private sealed class ItemSkinDirectory.<>c__DisplayClass5_0 // TypeDefIndex: 124
 
 }
 
-private sealed class ItemSkinDirectory.<>c__DisplayClass6_0 // TypeDefIndex: 12420
+private sealed class ItemSkinDirectory.<>c__DisplayClass6_0 // TypeDefIndex: 12451
 {
 	public int id; 
 
@@ -2836,7 +2836,7 @@ private sealed class ItemSkinDirectory.<>c__DisplayClass6_0 // TypeDefIndex: 124
 
 }
 
-public abstract class ItemContainerSource : MonoBehaviour // TypeDefIndex: 12530
+public abstract class ItemContainerSource : MonoBehaviour // TypeDefIndex: 12561
 {
 
 	public abstract ItemContainer GetItemContainer();
@@ -2845,7 +2845,7 @@ public abstract class ItemContainerSource : MonoBehaviour // TypeDefIndex: 12530
 
 }
 
-public class ItemDropCommand : MonoBehaviour // TypeDefIndex: 12691
+public class ItemDropCommand : MonoBehaviour // TypeDefIndex: 12722
 {
 	public string command; 
 
@@ -2856,7 +2856,7 @@ public class ItemDropCommand : MonoBehaviour // TypeDefIndex: 12691
 
 }
 
-public class ItemIcon : BaseMonoBehaviour, IPointerClickHandler, IEventSystemHandler, IPointerEnterHandler, IPointerExitHandler, IDraggable, IInventoryChanged, IItemAmountChanged, IItemIconChanged // TypeDefIndex: 12692
+public class ItemIcon : BaseMonoBehaviour, IPointerClickHandler, IEventSystemHandler, IPointerEnterHandler, IPointerExitHandler, IDraggable, IInventoryChanged, IItemAmountChanged, IItemIconChanged // TypeDefIndex: 12723
 {
 	private Color backgroundColor; 
 	public Color selectedBackgroundColor; 
@@ -3003,7 +3003,7 @@ public class ItemIcon : BaseMonoBehaviour, IPointerClickHandler, IEventSystemHan
 
 }
 
-public class ItemIcon.DragInfo // TypeDefIndex: 12693
+public class ItemIcon.DragInfo // TypeDefIndex: 12724
 {
 	public Item item; 
 	public int amount; 
@@ -3014,7 +3014,7 @@ public class ItemIcon.DragInfo // TypeDefIndex: 12693
 
 }
 
-private sealed class ItemIcon.<StartTimedLootAction>d__76 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12694
+private sealed class ItemIcon.<StartTimedLootAction>d__76 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12725
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -3044,7 +3044,7 @@ private sealed class ItemIcon.<StartTimedLootAction>d__76 : IEnumerator<object>,
 
 }
 
-private sealed class ItemIcon.<UpdateTimedActionIcon>d__80 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12695
+private sealed class ItemIcon.<UpdateTimedActionIcon>d__80 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12726
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -3073,7 +3073,7 @@ private sealed class ItemIcon.<UpdateTimedActionIcon>d__80 : IEnumerator<object>
 
 }
 
-public class ItemInformationPanel : MonoBehaviour // TypeDefIndex: 12696
+public class ItemInformationPanel : MonoBehaviour // TypeDefIndex: 12727
 {
 
 	public virtual bool EligableForDisplay(ItemDefinition info) { }
@@ -3084,7 +3084,7 @@ public class ItemInformationPanel : MonoBehaviour // TypeDefIndex: 12696
 
 }
 
-public class ItemOptionButton : MonoBehaviour // TypeDefIndex: 12697
+public class ItemOptionButton : MonoBehaviour // TypeDefIndex: 12728
 {
 	public TextMeshProUGUI name; 
 	public Image icon; 
@@ -3100,7 +3100,7 @@ public class ItemOptionButton : MonoBehaviour // TypeDefIndex: 12697
 
 }
 
-public class ItemPanel : SingletonComponent<ItemPanel> // TypeDefIndex: 12698
+public class ItemPanel : SingletonComponent<ItemPanel> // TypeDefIndex: 12729
 {
 	private ItemIcon item; 
 
@@ -3115,7 +3115,7 @@ public class ItemPanel : SingletonComponent<ItemPanel> // TypeDefIndex: 12698
 
 }
 
-public class ItemPickupNotice : MonoBehaviour // TypeDefIndex: 12699
+public class ItemPickupNotice : MonoBehaviour // TypeDefIndex: 12730
 {
 	public TextMeshProUGUI Text; 
 	public TextMeshProUGUI Amount; 
@@ -3162,7 +3162,7 @@ public class ItemPickupNotice : MonoBehaviour // TypeDefIndex: 12699
 
 }
 
-public class ItemPreviewIcon : BaseMonoBehaviour, IInventoryChanged, IItemAmountChanged, IItemIconChanged // TypeDefIndex: 12700
+public class ItemPreviewIcon : BaseMonoBehaviour, IInventoryChanged, IItemAmountChanged, IItemIconChanged // TypeDefIndex: 12731
 {
 	public ItemContainerSource containerSource; 
 	[RangeAttribute] 
@@ -3197,7 +3197,7 @@ public class ItemPreviewIcon : BaseMonoBehaviour, IInventoryChanged, IItemAmount
 
 }
 
-public class ItemSplitter : MonoBehaviour // TypeDefIndex: 12701
+public class ItemSplitter : MonoBehaviour // TypeDefIndex: 12732
 {
 	public Slider slider; 
 	public TextMeshProUGUI textValue; 
@@ -3245,7 +3245,7 @@ public class ItemSplitter : MonoBehaviour // TypeDefIndex: 12701
 
 }
 
-public class ItemSplitterDragOut : MonoBehaviour, IDraggable // TypeDefIndex: 12702
+public class ItemSplitterDragOut : MonoBehaviour, IDraggable // TypeDefIndex: 12733
 {
 	public ItemSplitter rootSplitter; 
 
@@ -3260,7 +3260,7 @@ public class ItemSplitterDragOut : MonoBehaviour, IDraggable // TypeDefIndex: 12
 
 }
 
-public class ItemSplitterSlider : MonoBehaviour, IPointerUpHandler, IEventSystemHandler, IPointerDownHandler // TypeDefIndex: 12703
+public class ItemSplitterSlider : MonoBehaviour, IPointerUpHandler, IEventSystemHandler, IPointerDownHandler // TypeDefIndex: 12734
 {
 	public ItemSplitter Splitter; 
 
@@ -3273,7 +3273,7 @@ public class ItemSplitterSlider : MonoBehaviour, IPointerUpHandler, IEventSystem
 
 }
 
-public class ItemStatValue : MonoBehaviour // TypeDefIndex: 12704
+public class ItemStatValue : MonoBehaviour // TypeDefIndex: 12735
 {
 	public Text text; 
 	public Slider slider; 
@@ -3292,7 +3292,7 @@ public class ItemStatValue : MonoBehaviour // TypeDefIndex: 12704
 
 }
 
-public class ItemSubmitPanel : LootPanel // TypeDefIndex: 12705
+public class ItemSubmitPanel : LootPanel // TypeDefIndex: 12736
 {
 
 	public void SubmitClicked() { }
@@ -3301,7 +3301,7 @@ public class ItemSubmitPanel : LootPanel // TypeDefIndex: 12705
 
 }
 
-public class ItemTextValue : MonoBehaviour // TypeDefIndex: 12706
+public class ItemTextValue : MonoBehaviour // TypeDefIndex: 12737
 {
 	public Text text; 
 	public Color bad; 
@@ -3320,7 +3320,7 @@ public class ItemTextValue : MonoBehaviour // TypeDefIndex: 12706
 
 }
 
-public class ItemStore : SingletonComponent<ItemStore>, VirtualScroll.IDataSource // TypeDefIndex: 12799
+public class ItemStore : SingletonComponent<ItemStore>, VirtualScroll.IDataSource // TypeDefIndex: 12830
 {
 	public static readonly Translate.Phrase CartEmptyPhrase; 
 	public static readonly Translate.Phrase CartSingularPhrase; 
@@ -3372,7 +3372,7 @@ public class ItemStore : SingletonComponent<ItemStore>, VirtualScroll.IDataSourc
 
 }
 
-private sealed class ItemStore.<>c // TypeDefIndex: 12800
+private sealed class ItemStore.<>c // TypeDefIndex: 12831
 {
 	public static readonly ItemStore.<>c <>9; 
 	public static Func<IPlayerItemDefinition, int> <>9__16_0; 
@@ -3395,7 +3395,7 @@ private sealed class ItemStore.<>c // TypeDefIndex: 12800
 
 }
 
-private struct ItemStore.<RefreshList>d__17 : IAsyncStateMachine // TypeDefIndex: 12801
+private struct ItemStore.<RefreshList>d__17 : IAsyncStateMachine // TypeDefIndex: 12832
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 
@@ -3410,7 +3410,7 @@ private struct ItemStore.<RefreshList>d__17 : IAsyncStateMachine // TypeDefIndex
 
 }
 
-private struct ItemStore.<Checkout>d__24 : IAsyncStateMachine // TypeDefIndex: 12802
+private struct ItemStore.<Checkout>d__24 : IAsyncStateMachine // TypeDefIndex: 12833
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 
@@ -3425,7 +3425,7 @@ private struct ItemStore.<Checkout>d__24 : IAsyncStateMachine // TypeDefIndex: 1
 
 }
 
-public class ItemStoreBuyFailedModal : MonoBehaviour // TypeDefIndex: 12803
+public class ItemStoreBuyFailedModal : MonoBehaviour // TypeDefIndex: 12834
 {
 
 	public void Show(ulong orderid) { }
@@ -3439,7 +3439,7 @@ public class ItemStoreBuyFailedModal : MonoBehaviour // TypeDefIndex: 12803
 
 }
 
-public class ItemStoreBuySuccessModal : MonoBehaviour // TypeDefIndex: 12804
+public class ItemStoreBuySuccessModal : MonoBehaviour // TypeDefIndex: 12835
 {
 
 	public void Show(ulong orderId) { }
@@ -3453,7 +3453,7 @@ public class ItemStoreBuySuccessModal : MonoBehaviour // TypeDefIndex: 12804
 
 }
 
-public class ItemStoreCartItem : MonoBehaviour // TypeDefIndex: 12805
+public class ItemStoreCartItem : MonoBehaviour // TypeDefIndex: 12836
 {
 	public int Index; 
 	public TextMeshProUGUI Name; 
@@ -3468,7 +3468,7 @@ public class ItemStoreCartItem : MonoBehaviour // TypeDefIndex: 12805
 
 }
 
-public class ItemStoreItem : MonoBehaviour // TypeDefIndex: 12806
+public class ItemStoreItem : MonoBehaviour // TypeDefIndex: 12837
 {
 	public HttpImage Icon; 
 	public RustText Name; 
@@ -3488,7 +3488,7 @@ public class ItemStoreItem : MonoBehaviour // TypeDefIndex: 12806
 
 }
 
-public class ItemStoreItemInfoModal : MonoBehaviour // TypeDefIndex: 12807
+public class ItemStoreItemInfoModal : MonoBehaviour // TypeDefIndex: 12838
 {
 	public HttpImage Icon; 
 	public TextMeshProUGUI Name; 
@@ -3510,7 +3510,7 @@ public class ItemStoreItemInfoModal : MonoBehaviour // TypeDefIndex: 12807
 
 }
 
-public class ItemModEngineItem : ItemMod // TypeDefIndex: 13805
+public class ItemModEngineItem : ItemMod // TypeDefIndex: 13837
 {
 	public EngineStorage.EngineItemTypes engineItemType; 
 	[RangeAttribute] 
@@ -3521,7 +3521,7 @@ public class ItemModEngineItem : ItemMod // TypeDefIndex: 13805
 
 }
 
-public class ItemModVehicleChassis : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 13806
+public class ItemModVehicleChassis : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 13838
 {
 	public GameObjectRef entityPrefab; 
 	[RangeAttribute] 
@@ -3540,7 +3540,7 @@ public class ItemModVehicleChassis : ItemMod, VehicleModuleInformationPanel.IVeh
 
 }
 
-public class ItemModVehicleModule : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 13807
+public class ItemModVehicleModule : ItemMod, VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 13839
 {
 	public GameObjectRef entityPrefab; 
 	[RangeAttribute] 

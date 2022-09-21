@@ -1,4 +1,4 @@
-public class MeshRendererLookup // TypeDefIndex: 10839
+public class MeshRendererLookup // TypeDefIndex: 10870
 {
 	public MeshRendererLookup.LookupGroup src; 
 	public MeshRendererLookup.LookupGroup dst; 
@@ -16,7 +16,7 @@ public class MeshRendererLookup // TypeDefIndex: 10839
 
 }
 
-public class MeshRendererLookup.LookupGroup // TypeDefIndex: 10840
+public class MeshRendererLookup.LookupGroup // TypeDefIndex: 10871
 {
 	public List<MeshRendererLookup.LookupEntry> data; 
 
@@ -31,7 +31,7 @@ public class MeshRendererLookup.LookupGroup // TypeDefIndex: 10840
 
 }
 
-public struct MeshRendererLookup.LookupEntry // TypeDefIndex: 10841
+public struct MeshRendererLookup.LookupEntry // TypeDefIndex: 10872
 {
 	public Renderer renderer; 
 

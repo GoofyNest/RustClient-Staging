@@ -1,7 +1,7 @@
-public class WaitForSecondsRealtime : CustomYieldInstruction // TypeDefIndex: 3541
+public class WaitForSecondsRealtime : CustomYieldInstruction // TypeDefIndex: 3543
 {
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private float <waitTime>k__BackingField; 
 	private float m_WaitUntilTime; 
 

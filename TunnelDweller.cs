@@ -1,4 +1,4 @@
-public class TunnelDweller : HumanNPC // TypeDefIndex: 10608
+public class TunnelDweller : HumanNPC // TypeDefIndex: 10639
 {
 
 	public void .ctor() { }

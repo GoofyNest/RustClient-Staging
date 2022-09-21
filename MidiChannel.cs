@@ -1,4 +1,4 @@
-public enum MidiChannel // TypeDefIndex: 7613
+public enum MidiChannel // TypeDefIndex: 7644
 {
 
 public enum MidiChannel

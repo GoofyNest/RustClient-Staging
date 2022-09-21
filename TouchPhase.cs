@@ -1,4 +1,4 @@
-public enum TouchPhase // TypeDefIndex: 4070
+public enum TouchPhase // TypeDefIndex: 4072
 {
 
 public enum TouchPhase

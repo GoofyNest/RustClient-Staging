@@ -1,4 +1,4 @@
-internal sealed class OnMessageToClientCallbackInternal : MulticastDelegate // TypeDefIndex: 9692
+internal sealed class OnMessageToClientCallbackInternal : MulticastDelegate // TypeDefIndex: 9723
 {
 
 	public void .ctor(object object, IntPtr method) { }

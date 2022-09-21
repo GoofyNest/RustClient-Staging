@@ -1,4 +1,4 @@
-public struct AnimatorStateInfo // TypeDefIndex: 4485
+public struct AnimatorStateInfo // TypeDefIndex: 4487
 {
 	private int m_Name; 
 	private int m_Path; 

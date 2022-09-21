@@ -1,4 +1,4 @@
-public class TakeCollisionDamage : FacepunchBehaviour // TypeDefIndex: 11425
+public class TakeCollisionDamage : FacepunchBehaviour // TypeDefIndex: 11456
 {
 	[SerializeField] 
 	private BaseCombatEntity entity; 

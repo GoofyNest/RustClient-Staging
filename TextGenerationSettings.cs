@@ -1,4 +1,4 @@
-public struct TextGenerationSettings // TypeDefIndex: 3951
+public struct TextGenerationSettings // TypeDefIndex: 3953
 {
 	public Font font; 
 	public Color color; 

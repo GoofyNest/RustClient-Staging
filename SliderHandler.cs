@@ -1,4 +1,4 @@
-internal struct SliderHandler // TypeDefIndex: 4060
+internal struct SliderHandler // TypeDefIndex: 4062
 {
 	private readonly Rect position; 
 	private readonly float currentValue; 

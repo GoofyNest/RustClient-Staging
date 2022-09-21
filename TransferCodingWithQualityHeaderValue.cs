@@ -1,4 +1,4 @@
-public sealed class TransferCodingWithQualityHeaderValue : TransferCodingHeaderValue // TypeDefIndex: 5810
+public sealed class TransferCodingWithQualityHeaderValue : TransferCodingHeaderValue // TypeDefIndex: 5812
 {
 
 	private void .ctor() { }

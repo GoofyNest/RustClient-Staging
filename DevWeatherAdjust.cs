@@ -1,4 +1,4 @@
-public class DevWeatherAdjust : MonoBehaviour // TypeDefIndex: 10975
+public class DevWeatherAdjust : MonoBehaviour // TypeDefIndex: 11006
 {
 
 	protected void Awake() { }

@@ -1,4 +1,4 @@
-public class LineRendererActivate : MonoBehaviour, IClientComponent // TypeDefIndex: 10561
+public class LineRendererActivate : MonoBehaviour, IClientComponent // TypeDefIndex: 10592
 {
 
 	private void OnEnable() { }

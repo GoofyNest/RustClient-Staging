@@ -1,4 +1,4 @@
-public sealed class LoggingInterface // TypeDefIndex: 9014
+public sealed class LoggingInterface // TypeDefIndex: 9045
 {
 
 	public static Result SetCallback(LogMessageFunc callback) { }

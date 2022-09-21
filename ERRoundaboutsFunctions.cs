@@ -1,4 +1,4 @@
-public class ERRoundaboutsFunctions : MonoBehaviour // TypeDefIndex: 7265
+public class ERRoundaboutsFunctions : MonoBehaviour // TypeDefIndex: 7296
 {
 
 	public static void ODCCQQODCO(ERRoundabouts scr, int currentIndex) { }

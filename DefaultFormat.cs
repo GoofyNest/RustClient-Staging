@@ -1,4 +1,4 @@
-public enum DefaultFormat // TypeDefIndex: 3901
+public enum DefaultFormat // TypeDefIndex: 3903
 {
 	public int value__; 
 	public const DefaultFormat LDR = 0;

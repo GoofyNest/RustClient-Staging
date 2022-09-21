@@ -1,4 +1,4 @@
-public struct ReadFileOptions // TypeDefIndex: 8377
+public struct ReadFileOptions // TypeDefIndex: 8408
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 
@@ -50,7 +50,7 @@ public struct ReadFileOptions // TypeDefIndex: 8377
 
 }
 
-public struct ReadFileOptions // TypeDefIndex: 8880
+public struct ReadFileOptions // TypeDefIndex: 8911
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

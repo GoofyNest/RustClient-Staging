@@ -1,4 +1,4 @@
-public enum LengthUnit // TypeDefIndex: 4708
+public enum LengthUnit // TypeDefIndex: 4710
 {
 	public int value__; 
 	public const LengthUnit Pixel = 0;

@@ -1,4 +1,4 @@
-public class TransactionEventArgs : EventArgs // TypeDefIndex: 3984
+public class TransactionEventArgs : EventArgs // TypeDefIndex: 3986
 {
 	private Transaction transaction; 
 

@@ -1,4 +1,4 @@
-public class MergeFailedEventArgs : EventArgs // TypeDefIndex: 4275
+public class MergeFailedEventArgs : EventArgs // TypeDefIndex: 4277
 {
 	[CompilerGeneratedAttribute] 
 	private readonly DataTable <Table>k__BackingField; 

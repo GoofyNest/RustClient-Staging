@@ -1,4 +1,4 @@
-public class PatrolHelicopter : ConsoleSystem // TypeDefIndex: 13626
+public class PatrolHelicopter : ConsoleSystem // TypeDefIndex: 13658
 {
 
 	public void .ctor() { }

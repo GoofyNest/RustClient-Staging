@@ -1,4 +1,4 @@
-public sealed class ParticleSystemRenderer : Renderer // TypeDefIndex: 4545
+public sealed class ParticleSystemRenderer : Renderer // TypeDefIndex: 4547
 {
 
 	[FreeFunctionAttribute] 

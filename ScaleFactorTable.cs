@@ -1,4 +1,4 @@
-public class ScaleFactorTable // TypeDefIndex: 7387
+public class ScaleFactorTable // TypeDefIndex: 7418
 {
 	internal int[] L; 
 	internal int[] S; 

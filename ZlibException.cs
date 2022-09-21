@@ -1,4 +1,4 @@
-public class ZlibException : Exception // TypeDefIndex: 6959
+public class ZlibException : Exception // TypeDefIndex: 6989
 {
 
 	public void .ctor(string s) { }

@@ -1,4 +1,4 @@
-public class BaseTrain : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6438
+public class BaseTrain : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6440
 {
 	public bool ShouldPool; 
 	private bool _disposed; 

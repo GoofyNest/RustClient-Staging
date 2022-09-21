@@ -1,4 +1,4 @@
-public class LTRect // TypeDefIndex: 5586
+public class LTRect // TypeDefIndex: 5588
 {
 	public Rect _rect; 
 	public float alpha; 

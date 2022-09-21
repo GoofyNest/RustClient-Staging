@@ -1,4 +1,4 @@
-public struct AnimatorTransitionInfo // TypeDefIndex: 4486
+public struct AnimatorTransitionInfo // TypeDefIndex: 4488
 {
 	[NativeNameAttribute] 
 	private int m_FullPath; 

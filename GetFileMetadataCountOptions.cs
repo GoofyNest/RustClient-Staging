@@ -1,4 +1,4 @@
-public struct GetFileMetadataCountOptions // TypeDefIndex: 8351
+public struct GetFileMetadataCountOptions // TypeDefIndex: 8382
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 
@@ -14,7 +14,7 @@ public struct GetFileMetadataCountOptions // TypeDefIndex: 8351
 
 }
 
-public struct GetFileMetadataCountOptions // TypeDefIndex: 8844
+public struct GetFileMetadataCountOptions // TypeDefIndex: 8875
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

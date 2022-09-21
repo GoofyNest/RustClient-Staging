@@ -1,4 +1,4 @@
-internal enum RegisterActivationCodeResult // TypeDefIndex: 5157
+internal enum RegisterActivationCodeResult // TypeDefIndex: 5159
 {
 	public int value__; 
 	public const RegisterActivationCodeResult ResultOK = 0;

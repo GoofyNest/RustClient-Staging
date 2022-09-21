@@ -1,4 +1,4 @@
-public enum Video3DLayout // TypeDefIndex: 4777
+public enum Video3DLayout // TypeDefIndex: 4779
 {
 	public int value__; 
 	public const Video3DLayout No3D = 0;

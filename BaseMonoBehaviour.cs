@@ -1,4 +1,4 @@
-public abstract class BaseMonoBehaviour : FacepunchBehaviour // TypeDefIndex: 12983
+public abstract class BaseMonoBehaviour : FacepunchBehaviour // TypeDefIndex: 13015
 {
 
 	public virtual bool IsDebugging() { }
@@ -15,7 +15,7 @@ public abstract class BaseMonoBehaviour : FacepunchBehaviour // TypeDefIndex: 12
 
 }
 
-public enum BaseMonoBehaviour.LogEntryType // TypeDefIndex: 12984
+public enum BaseMonoBehaviour.LogEntryType // TypeDefIndex: 13016
 {
 	public int value__; 
 	public const BaseMonoBehaviour.LogEntryType General = 0;

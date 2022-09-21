@@ -1,4 +1,4 @@
-internal static class Epoch // TypeDefIndex: 5254
+internal static class Epoch // TypeDefIndex: 5256
 {
 	private static readonly DateTime epoch; 
 
@@ -13,7 +13,7 @@ internal static class Epoch // TypeDefIndex: 5254
 
 }
 
-public static class Epoch // TypeDefIndex: 6238
+public static class Epoch // TypeDefIndex: 6240
 {
 	private static readonly DateTime epoch; 
 

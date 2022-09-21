@@ -1,4 +1,4 @@
-internal class IMGUIEventDispatchingStrategy : IEventDispatchingStrategy // TypeDefIndex: 4659
+internal class IMGUIEventDispatchingStrategy : IEventDispatchingStrategy // TypeDefIndex: 4661
 {
 
 	public bool CanDispatchEvent(EventBase evt) { }

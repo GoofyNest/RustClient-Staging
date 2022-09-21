@@ -1,4 +1,4 @@
-public class SoundOcclusion : MonoBehaviour // TypeDefIndex: 10710
+public class SoundOcclusion : MonoBehaviour // TypeDefIndex: 10741
 {
 	public LayerMask occlusionLayerMask; 
 	[CompilerGeneratedAttribute] 

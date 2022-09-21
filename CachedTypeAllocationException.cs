@@ -1,4 +1,4 @@
-internal class CachedTypeAllocationException : AllocationException // TypeDefIndex: 8225
+internal class CachedTypeAllocationException : AllocationException // TypeDefIndex: 8256
 {
 
 	public void .ctor(IntPtr address, Type foundType, Type expectedType) { }

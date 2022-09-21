@@ -1,4 +1,4 @@
-public struct MaterialEffectPlayable : IEquatable<MaterialEffectPlayable> // TypeDefIndex: 3892
+public struct MaterialEffectPlayable : IEquatable<MaterialEffectPlayable> // TypeDefIndex: 3894
 {
 	private PlayableHandle m_Handle; 
 

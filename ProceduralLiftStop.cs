@@ -1,4 +1,4 @@
-public class ProceduralLiftStop : MonoBehaviour // TypeDefIndex: 11155
+public class ProceduralLiftStop : MonoBehaviour // TypeDefIndex: 11186
 {
 
 	public void .ctor() { }

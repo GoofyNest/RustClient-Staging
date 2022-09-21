@@ -1,4 +1,4 @@
-public struct Achievement // TypeDefIndex: 5549
+public struct Achievement // TypeDefIndex: 5551
 {
 	internal string Value; 
 

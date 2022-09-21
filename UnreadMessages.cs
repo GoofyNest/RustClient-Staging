@@ -1,4 +1,4 @@
-public class UnreadMessages : SingletonComponent<UnreadMessages> // TypeDefIndex: 12868
+public class UnreadMessages : SingletonComponent<UnreadMessages> // TypeDefIndex: 12900
 {
 	public StyleAsset AllRead; 
 	public StyleAsset Unread; 
@@ -26,7 +26,7 @@ public class UnreadMessages : SingletonComponent<UnreadMessages> // TypeDefIndex
 
 }
 
-private sealed class UnreadMessages.<>c__DisplayClass13_0 // TypeDefIndex: 12869
+private sealed class UnreadMessages.<>c__DisplayClass13_0 // TypeDefIndex: 12901
 {
 	public NoticeData info; 
 
@@ -37,7 +37,7 @@ private sealed class UnreadMessages.<>c__DisplayClass13_0 // TypeDefIndex: 12869
 
 }
 
-private sealed class UnreadMessages.<>c // TypeDefIndex: 12870
+private sealed class UnreadMessages.<>c // TypeDefIndex: 12902
 {
 	public static readonly UnreadMessages.<>c <>9; 
 	public static Func<AccountNotice, bool> <>9__13_0; 

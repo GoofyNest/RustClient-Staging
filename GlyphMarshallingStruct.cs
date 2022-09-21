@@ -1,4 +1,4 @@
-internal struct GlyphMarshallingStruct // TypeDefIndex: 4122
+internal struct GlyphMarshallingStruct // TypeDefIndex: 4124
 {
 	public uint index; 
 	public GlyphMetrics metrics; 

@@ -1,4 +1,4 @@
-public class SubEntityList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6396
+public class SubEntityList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6398
 {
 	public bool ShouldPool; 
 	private bool _disposed; 

@@ -1,4 +1,4 @@
-public enum ReservedEntitySlots // TypeDefIndex: 11056
+public enum ReservedEntitySlots // TypeDefIndex: 11087
 {
 	public int value__; 
 	public const ReservedEntitySlots Self = 4;

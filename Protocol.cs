@@ -1,4 +1,4 @@
-public static class Protocol // TypeDefIndex: 6627
+public static class Protocol // TypeDefIndex: 6629
 {
 	public const int network = 2357;
 	public const int save = 228;

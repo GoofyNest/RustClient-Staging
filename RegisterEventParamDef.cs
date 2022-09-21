@@ -1,4 +1,4 @@
-public struct RegisterEventParamDef // TypeDefIndex: 9755
+public struct RegisterEventParamDef // TypeDefIndex: 9786
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <ParamName>k__BackingField; 

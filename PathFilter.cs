@@ -1,4 +1,4 @@
-internal abstract class PathFilter // TypeDefIndex: 6091
+internal abstract class PathFilter // TypeDefIndex: 6093
 {
 
 [PreserveAttribute] 

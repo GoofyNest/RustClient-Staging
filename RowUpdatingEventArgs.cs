@@ -1,4 +1,4 @@
-public class RowUpdatingEventArgs : EventArgs // TypeDefIndex: 4409
+public class RowUpdatingEventArgs : EventArgs // TypeDefIndex: 4411
 {
 	private IDbCommand _command; 
 	private StatementType _statementType; 

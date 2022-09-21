@@ -1,4 +1,4 @@
-public enum UpdateStatus // TypeDefIndex: 4328
+public enum UpdateStatus // TypeDefIndex: 4330
 {
 	public int value__; 
 	public const UpdateStatus Continue = 0;

@@ -1,4 +1,4 @@
-internal struct StatInternal : IGettable<Stat>, ISettable<Stat>, IDisposable // TypeDefIndex: 8403
+internal struct StatInternal : IGettable<Stat>, ISettable<Stat>, IDisposable // TypeDefIndex: 8434
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Name; 

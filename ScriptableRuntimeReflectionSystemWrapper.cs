@@ -1,7 +1,7 @@
-internal class ScriptableRuntimeReflectionSystemWrapper // TypeDefIndex: 3898
+internal class ScriptableRuntimeReflectionSystemWrapper // TypeDefIndex: 3900
 {
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private IScriptableRuntimeReflectionSystem <implementation>k__BackingField; 
 
 	internal IScriptableRuntimeReflectionSystem implementation { get; set; }

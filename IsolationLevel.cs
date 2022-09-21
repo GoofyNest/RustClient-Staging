@@ -1,4 +1,4 @@
-public enum IsolationLevel // TypeDefIndex: 3981
+public enum IsolationLevel // TypeDefIndex: 3983
 {
 
 public enum IsolationLevel
@@ -13,7 +13,7 @@ public enum IsolationLevel
 
 }
 
-public enum IsolationLevel // TypeDefIndex: 4273
+public enum IsolationLevel // TypeDefIndex: 4275
 {
 	public int value__; 
 	public const IsolationLevel Unspecified = -1;

@@ -1,4 +1,4 @@
-public struct SpotLight // TypeDefIndex: 3883
+public struct SpotLight // TypeDefIndex: 3885
 {
 	public int instanceID; 
 	public bool shadow; 

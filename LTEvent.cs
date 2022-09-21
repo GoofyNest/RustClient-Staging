@@ -1,4 +1,4 @@
-public class LTEvent // TypeDefIndex: 5587
+public class LTEvent // TypeDefIndex: 5589
 {
 	public int id; 
 	public object data; 

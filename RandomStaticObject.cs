@@ -1,4 +1,4 @@
-public class RandomStaticObject : MonoBehaviour // TypeDefIndex: 12034
+public class RandomStaticObject : MonoBehaviour // TypeDefIndex: 12065
 {
 	public uint Seed; 
 	public float Probability; 

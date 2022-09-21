@@ -1,4 +1,4 @@
-public struct MidiMessage // TypeDefIndex: 7614
+public struct MidiMessage // TypeDefIndex: 7645
 {
 	public uint source; 
 	public byte status; 

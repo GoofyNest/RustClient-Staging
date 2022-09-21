@@ -1,4 +1,4 @@
-public abstract class IntegratedSubsystemDescriptor : ISubsystemDescriptorImpl, ISubsystemDescriptor // TypeDefIndex: 3939
+public abstract class IntegratedSubsystemDescriptor : ISubsystemDescriptorImpl, ISubsystemDescriptor // TypeDefIndex: 3941
 {
 	internal IntPtr m_Ptr; 
 

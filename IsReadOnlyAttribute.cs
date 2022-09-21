@@ -5,21 +5,21 @@ public sealed class IsReadOnlyAttribute : Attribute // TypeDefIndex: 1271
 
 }
 
-internal sealed class IsReadOnlyAttribute : Attribute // TypeDefIndex: 5101
+internal sealed class IsReadOnlyAttribute : Attribute // TypeDefIndex: 5103
 {
 
 	public void .ctor() { }
 
 }
 
-internal sealed class IsReadOnlyAttribute : Attribute // TypeDefIndex: 6724
+internal sealed class IsReadOnlyAttribute : Attribute // TypeDefIndex: 6890
 {
 
 	public void .ctor() { }
 
 }
 
-internal sealed class IsReadOnlyAttribute : Attribute // TypeDefIndex: 7083
+internal sealed class IsReadOnlyAttribute : Attribute // TypeDefIndex: 7114
 {
 
 	public void .ctor() { }

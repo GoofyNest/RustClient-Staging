@@ -1,4 +1,4 @@
-public class GlobalMessages // TypeDefIndex: 13070
+public class GlobalMessages // TypeDefIndex: 13102
 {
 	public static ListHashSet<IInventoryChanged> onInventoryChanged; 
 	public static Action OnInventoryChangedAction; 

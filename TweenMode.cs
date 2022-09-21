@@ -1,4 +1,4 @@
-public static class TweenMode // TypeDefIndex: 5590
+public static class TweenMode // TypeDefIndex: 5592
 {
 	public static AnimationCurve Punch; 
 

@@ -1,4 +1,4 @@
-public static class Extensions // TypeDefIndex: 6048
+public static class Extensions // TypeDefIndex: 6050
 {
 
 	[ExtensionAttribute] 
@@ -30,7 +30,7 @@ public static class Extensions // TypeDefIndex: 6048
 
 }
 
-private sealed class Extensions.<>c__0<T> // TypeDefIndex: 6049
+private sealed class Extensions.<>c__0<T> // TypeDefIndex: 6051
 {
 	public static readonly Extensions.<>c__0<T> <>9; 
 
@@ -49,7 +49,7 @@ private sealed class Extensions.<>c__0<T> // TypeDefIndex: 6049
 
 }
 
-private sealed class Extensions.<>c__1<T> // TypeDefIndex: 6050
+private sealed class Extensions.<>c__1<T> // TypeDefIndex: 6052
 {
 	public static readonly Extensions.<>c__1<T> <>9; 
 
@@ -68,7 +68,7 @@ private sealed class Extensions.<>c__1<T> // TypeDefIndex: 6050
 
 }
 
-private sealed class Extensions.<>c__2<T> // TypeDefIndex: 6051
+private sealed class Extensions.<>c__2<T> // TypeDefIndex: 6053
 {
 	public static readonly Extensions.<>c__2<T> <>9; 
 
@@ -87,7 +87,7 @@ private sealed class Extensions.<>c__2<T> // TypeDefIndex: 6051
 
 }
 
-private sealed class Extensions.<>c__3<T> // TypeDefIndex: 6052
+private sealed class Extensions.<>c__3<T> // TypeDefIndex: 6054
 {
 	public static readonly Extensions.<>c__3<T> <>9; 
 
@@ -106,7 +106,7 @@ private sealed class Extensions.<>c__3<T> // TypeDefIndex: 6052
 
 }
 
-private sealed class Extensions.<>c // TypeDefIndex: 6053
+private sealed class Extensions.<>c // TypeDefIndex: 6055
 {
 	public static readonly Extensions.<>c <>9; 
 
@@ -117,7 +117,7 @@ private sealed class Extensions.<>c // TypeDefIndex: 6053
 
 }
 
-private sealed class Extensions.<>c__13<T, U> // TypeDefIndex: 6055
+private sealed class Extensions.<>c__13<T, U> // TypeDefIndex: 6057
 {
 
 [CompilerGeneratedAttribute] 
@@ -140,7 +140,7 @@ private sealed class Extensions.<>c__13<T, U>
 
 }
 
-public static class Extensions // TypeDefIndex: 8111
+public static class Extensions // TypeDefIndex: 8142
 {
 
 	[ExtensionAttribute] 
@@ -155,7 +155,7 @@ public static class Extensions // TypeDefIndex: 8111
 
 }
 
-public static class Extensions // TypeDefIndex: 8221
+public static class Extensions // TypeDefIndex: 8252
 {
 
 	[ExtensionAttribute] 
@@ -166,7 +166,7 @@ public static class Extensions // TypeDefIndex: 8221
 
 }
 
-public static class Extensions // TypeDefIndex: 13265
+public static class Extensions // TypeDefIndex: 13297
 {
 
 	[ExtensionAttribute] 

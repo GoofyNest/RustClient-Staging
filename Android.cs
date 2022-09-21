@@ -1,4 +1,4 @@
-public sealed class AndroidJavaRunnable : MulticastDelegate // TypeDefIndex: 4463
+public sealed class AndroidJavaRunnable : MulticastDelegate // TypeDefIndex: 4465
 {
 
 public sealed class AndroidJavaRunnable : MulticastDelegate
@@ -13,7 +13,7 @@ public sealed class AndroidJavaRunnable : MulticastDelegate
 
 }
 
-public sealed class AndroidJavaException : Exception // TypeDefIndex: 4464
+public sealed class AndroidJavaException : Exception // TypeDefIndex: 4466
 {
 	private string mJavaStackTrace; 
 
@@ -26,7 +26,7 @@ public sealed class AndroidJavaException : Exception // TypeDefIndex: 4464
 
 }
 
-internal class AndroidJavaRunnableProxy : AndroidJavaProxy // TypeDefIndex: 4466
+internal class AndroidJavaRunnableProxy : AndroidJavaProxy // TypeDefIndex: 4468
 {
 	private AndroidJavaRunnable mRunnable; 
 
@@ -35,7 +35,7 @@ internal class AndroidJavaRunnableProxy : AndroidJavaProxy // TypeDefIndex: 4466
 
 }
 
-public class AndroidJavaProxy // TypeDefIndex: 4467
+public class AndroidJavaProxy // TypeDefIndex: 4469
 {
 	public readonly AndroidJavaClass javaInterface; 
 	internal IntPtr proxyObject; 
@@ -61,7 +61,7 @@ public class AndroidJavaProxy // TypeDefIndex: 4467
 
 }
 
-public class AndroidJavaObject : IDisposable // TypeDefIndex: 4468
+public class AndroidJavaObject : IDisposable // TypeDefIndex: 4470
 {
 	private static bool enableDebugPrints; 
 	internal GlobalJavaObjectRef m_jobject; 
@@ -154,7 +154,7 @@ public class AndroidJavaObject : IDisposable // TypeDefIndex: 4468
 
 }
 
-public class AndroidJavaClass : AndroidJavaObject // TypeDefIndex: 4469
+public class AndroidJavaClass : AndroidJavaObject // TypeDefIndex: 4471
 {
 
 	public void .ctor(string className) { }
@@ -165,7 +165,7 @@ public class AndroidJavaClass : AndroidJavaObject // TypeDefIndex: 4469
 
 }
 
-internal class AndroidReflection // TypeDefIndex: 4470
+internal class AndroidReflection // TypeDefIndex: 4472
 {
 	private static readonly GlobalJavaObjectRef s_ReflectionHelperClass; 
 	private static readonly IntPtr s_ReflectionHelperGetConstructorID; 
@@ -197,7 +197,7 @@ internal class AndroidReflection // TypeDefIndex: 4470
 
 }
 
-public static class AndroidJNIHelper // TypeDefIndex: 4473
+public static class AndroidJNIHelper // TypeDefIndex: 4475
 {
 
 	public static IntPtr GetConstructorID(IntPtr javaClass, string signature) { }
@@ -244,7 +244,7 @@ public static class AndroidJNIHelper // TypeDefIndex: 4473
 
 }
 
-public static class AndroidJNI // TypeDefIndex: 4474
+public static class AndroidJNI // TypeDefIndex: 4476
 {
 
 	[ThreadSafeAttribute] 
@@ -433,7 +433,7 @@ public static class AndroidJNI // TypeDefIndex: 4474
 
 }
 
-internal class AndroidJNISafe // TypeDefIndex: 4475
+internal class AndroidJNISafe // TypeDefIndex: 4477
 {
 
 	public static void CheckException() { }
@@ -546,14 +546,14 @@ internal class AndroidJNISafe // TypeDefIndex: 4475
 
 }
 
-public static class AndroidBindings // TypeDefIndex: 8234
+public static class AndroidBindings // TypeDefIndex: 8265
 {
 
 	internal static extern Result EOS_Initialize(ref AndroidInitializeOptionsInternal options) { }
 
 }
 
-public struct AndroidInitializeOptions // TypeDefIndex: 9812
+public struct AndroidInitializeOptions // TypeDefIndex: 9843
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <AllocateMemoryFunction>k__BackingField; 
@@ -632,7 +632,7 @@ public struct AndroidInitializeOptions // TypeDefIndex: 9812
 
 }
 
-internal struct AndroidInitializeOptionsInternal : ISettable<AndroidInitializeOptions>, IDisposable // TypeDefIndex: 9813
+internal struct AndroidInitializeOptionsInternal : ISettable<AndroidInitializeOptions>, IDisposable // TypeDefIndex: 9844
 {
 	private int m_ApiVersion; 
 	private IntPtr m_AllocateMemoryFunction; 
@@ -678,7 +678,7 @@ internal struct AndroidInitializeOptionsInternal : ISettable<AndroidInitializeOp
 
 }
 
-public struct AndroidInitializeOptionsSystemInitializeOptions // TypeDefIndex: 9814
+public struct AndroidInitializeOptionsSystemInitializeOptions // TypeDefIndex: 9845
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <Reserved>k__BackingField; 
@@ -714,7 +714,7 @@ public struct AndroidInitializeOptionsSystemInitializeOptions // TypeDefIndex: 9
 
 }
 
-internal struct AndroidInitializeOptionsSystemInitializeOptionsInternal : IGettable<AndroidInitializeOptionsSystemInitializeOptions>, ISettable<AndroidInitializeOptionsSystemInitializeOptions>, IDisposable // TypeDefIndex: 9815
+internal struct AndroidInitializeOptionsSystemInitializeOptionsInternal : IGettable<AndroidInitializeOptionsSystemInitializeOptions>, ISettable<AndroidInitializeOptionsSystemInitializeOptions>, IDisposable // TypeDefIndex: 9846
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Reserved; 

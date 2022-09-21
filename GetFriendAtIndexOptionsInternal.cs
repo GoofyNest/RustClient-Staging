@@ -1,4 +1,4 @@
-internal struct GetFriendAtIndexOptionsInternal : ISettable<GetFriendAtIndexOptions>, IDisposable // TypeDefIndex: 9344
+internal struct GetFriendAtIndexOptionsInternal : ISettable<GetFriendAtIndexOptions>, IDisposable // TypeDefIndex: 9375
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

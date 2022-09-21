@@ -1,8 +1,8 @@
-public class ExcludeFromPresetAttribute : Attribute // TypeDefIndex: 3504
+public class ExcludeFromPresetAttribute : Attribute // TypeDefIndex: 3506
 {
 
-[AttributeUsageAttribute] 
 [UsedByNativeCodeAttribute] 
+[AttributeUsageAttribute] 
 public class ExcludeFromPresetAttribute : Attribute
 
 	public void .ctor() { }

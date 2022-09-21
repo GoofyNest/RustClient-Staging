@@ -1,4 +1,4 @@
-public class FXAA : FXAAPostEffectsBase, IImageEffect // TypeDefIndex: 13181
+public class FXAA : FXAAPostEffectsBase, IImageEffect // TypeDefIndex: 13213
 {
 	public Shader shader; 
 	private Material mat; 

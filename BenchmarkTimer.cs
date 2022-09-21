@@ -1,4 +1,4 @@
-public class BenchmarkTimer : IDisposable // TypeDefIndex: 6181
+public class BenchmarkTimer : IDisposable // TypeDefIndex: 6183
 {
 	public static bool Enabled; 
 	public static Dictionary<string, Stopwatch> All; 

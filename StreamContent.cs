@@ -1,4 +1,4 @@
-public class StreamContent : HttpContent // TypeDefIndex: 5757
+public class StreamContent : HttpContent // TypeDefIndex: 5759
 {
 	private readonly Stream content; 
 	private readonly int bufferSize; 

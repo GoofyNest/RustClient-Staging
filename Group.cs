@@ -39,7 +39,7 @@ public class Group : Capture // TypeDefIndex: 2616
 
 }
 
-public class Group : IDisposable // TypeDefIndex: 6709
+public class Group : IDisposable // TypeDefIndex: 6875
 {
 	protected Manager manager; 
 	public uint ID; 

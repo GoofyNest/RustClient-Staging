@@ -1,7 +1,7 @@
 public struct RenderTextureDescriptor // TypeDefIndex: 3451
 {
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private int <width>k__BackingField; 
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
@@ -27,8 +27,8 @@ public struct RenderTextureDescriptor // TypeDefIndex: 3451
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private ShadowSamplingMode <shadowSamplingMode>k__BackingField; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private VRTextureUsage <vrUsage>k__BackingField; 
 	private RenderTextureCreationFlags _flags; 
 	[CompilerGeneratedAttribute] 

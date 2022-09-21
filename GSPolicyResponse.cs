@@ -1,4 +1,4 @@
-internal struct GSPolicyResponse_t : ICallbackData // TypeDefIndex: 5495
+internal struct GSPolicyResponse_t : ICallbackData // TypeDefIndex: 5497
 {
 	internal byte Secure; 
 	public static int _datasize; 

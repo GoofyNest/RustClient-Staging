@@ -1,4 +1,4 @@
-public enum AntiCheatCommonEventParamType // TypeDefIndex: 9712
+public enum AntiCheatCommonEventParamType // TypeDefIndex: 9743
 {
 	public int value__; 
 	public const AntiCheatCommonEventParamType Invalid = 0;

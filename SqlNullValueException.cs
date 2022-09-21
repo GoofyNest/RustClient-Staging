@@ -1,4 +1,4 @@
-public sealed class SqlNullValueException : SqlTypeException // TypeDefIndex: 4356
+public sealed class SqlNullValueException : SqlTypeException // TypeDefIndex: 4358
 {
 
 	public void .ctor() { }

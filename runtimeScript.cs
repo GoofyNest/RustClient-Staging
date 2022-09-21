@@ -1,4 +1,4 @@
-public class runtimeScript : MonoBehaviour // TypeDefIndex: 13180
+public class runtimeScript : MonoBehaviour // TypeDefIndex: 13212
 {
 	public ERRoadNetwork roadNetwork; 
 	public ERRoad road; 

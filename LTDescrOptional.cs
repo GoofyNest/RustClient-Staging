@@ -1,4 +1,4 @@
-public class LTDescrOptional // TypeDefIndex: 5574
+public class LTDescrOptional // TypeDefIndex: 5576
 {
 	[CompilerGeneratedAttribute] 
 	private Transform <toTrans>k__BackingField; 

@@ -1,9 +1,9 @@
-public sealed class GameObject : Object // TypeDefIndex: 3515
+public sealed class GameObject : Object // TypeDefIndex: 3517
 {
 
+[NativeHeaderAttribute] 
 [UsedByNativeCodeAttribute] 
 [ExcludeFromPresetAttribute] 
-[NativeHeaderAttribute] 
 public sealed class GameObject : Object
 	public Transform transform { get; }
 	public int layer { get; set; }
@@ -216,12 +216,12 @@ public sealed class GameObject : Object
 	|-GameObject.GetComponent<object>
 	*/
 
-	[FreeFunctionAttribute] 
 	[TypeInferenceRuleAttribute] 
+	[FreeFunctionAttribute] 
 	public Component GetComponent(Type type) { }
 
-	[NativeWritableSelfAttribute] 
 	[FreeFunctionAttribute] 
+	[NativeWritableSelfAttribute] 
 	internal void GetComponentFastPath(Type type, IntPtr oneFurtherThanResultValue) { }
 
 	[FreeFunctionAttribute] 
@@ -260,8 +260,8 @@ public sealed class GameObject : Object
 	|-GameObject.GetComponentInChildren<object>
 	*/
 
-	[FreeFunctionAttribute] 
 	[TypeInferenceRuleAttribute] 
+	[FreeFunctionAttribute] 
 	public Component GetComponentInParent(Type type) { }
 
 	public T GetComponentInParent<T>() { }
@@ -364,6 +364,7 @@ public sealed class GameObject : Object
 	|-GameObject.GetComponentsInChildren<ERSideObjectSection>
 	|-GameObject.GetComponentsInChildren<EffectRecycle>
 	|-GameObject.GetComponentsInChildren<LootPanel>
+	|-GameObject.GetComponentsInChildren<ServerBrowserTagGroup>
 	|-GameObject.GetComponentsInChildren<MeshFilter>
 	|-GameObject.GetComponentsInChildren<ParticleSystem>
 	|-GameObject.GetComponentsInChildren<Renderer>
@@ -405,6 +406,7 @@ public sealed class GameObject : Object
 	/* GenericInstMethod :
 	|
 	|-GameObject.TryGetComponent<BaseEntity>
+	|-GameObject.TryGetComponent<IFlexNode>
 	|-GameObject.TryGetComponent<ICustomMaterialReplacer>
 	|-GameObject.TryGetComponent<INotifyEntityTrigger>
 	|-GameObject.TryGetComponent<INotifyTrigger>

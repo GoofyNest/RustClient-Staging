@@ -1,4 +1,4 @@
-public class GenerateRailTexture : ProceduralComponent // TypeDefIndex: 12174
+public class GenerateRailTexture : ProceduralComponent // TypeDefIndex: 12205
 {
 
 	public override void Process(uint seed) { }

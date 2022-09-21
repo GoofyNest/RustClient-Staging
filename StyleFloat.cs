@@ -1,4 +1,4 @@
-public struct StyleFloat : IStyleValue<float>, IEquatable<StyleFloat> // TypeDefIndex: 4712
+public struct StyleFloat : IStyleValue<float>, IEquatable<StyleFloat> // TypeDefIndex: 4714
 {
 	private StyleKeyword m_Keyword; 
 	private float m_Value; 

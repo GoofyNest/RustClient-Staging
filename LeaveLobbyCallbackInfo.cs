@@ -1,4 +1,4 @@
-public struct LeaveLobbyCallbackInfo : ICallbackInfo // TypeDefIndex: 9081
+public struct LeaveLobbyCallbackInfo : ICallbackInfo // TypeDefIndex: 9112
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

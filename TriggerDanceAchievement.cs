@@ -1,4 +1,4 @@
-public class TriggerDanceAchievement : TriggerBase // TypeDefIndex: 11696
+public class TriggerDanceAchievement : TriggerBase // TypeDefIndex: 11727
 {
 	public int RequiredPlayerCount; 
 	public string AchievementName; 

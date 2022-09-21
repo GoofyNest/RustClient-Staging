@@ -1,4 +1,4 @@
-public class ERBend : MonoBehaviour // TypeDefIndex: 7146
+public class ERBend : MonoBehaviour // TypeDefIndex: 7177
 {
 	public float roundAboutRadius; 
 	public float roundAboutResolution; 

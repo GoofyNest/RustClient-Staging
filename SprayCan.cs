@@ -1,4 +1,4 @@
-public class SprayCan : HeldEntity // TypeDefIndex: 10313
+public class SprayCan : HeldEntity // TypeDefIndex: 10344
 {
 	public const float MaxFreeSprayDistanceFromStart = 10;
 	public const float MaxFreeSprayStartingDistance = 3;
@@ -145,7 +145,7 @@ public class SprayCan : HeldEntity // TypeDefIndex: 10313
 
 }
 
-private enum SprayCan.SprayFailReason // TypeDefIndex: 10314
+private enum SprayCan.SprayFailReason // TypeDefIndex: 10345
 {
 	public int value__; 
 	public const SprayCan.SprayFailReason None = 0;
@@ -157,7 +157,7 @@ private enum SprayCan.SprayFailReason // TypeDefIndex: 10314
 
 }
 
-public enum SprayCan.SprayMode // TypeDefIndex: 10315
+public enum SprayCan.SprayMode // TypeDefIndex: 10346
 {
 	public int value__; 
 	public const SprayCan.SprayMode FreeHand = 0;
@@ -165,7 +165,7 @@ public enum SprayCan.SprayMode // TypeDefIndex: 10315
 
 }
 
-private sealed class SprayCan.<>c__DisplayClass20_0 // TypeDefIndex: 10316
+private sealed class SprayCan.<>c__DisplayClass20_0 // TypeDefIndex: 10347
 {
 	public int index; 
 	public SprayCan <>4__this; 
@@ -177,7 +177,7 @@ private sealed class SprayCan.<>c__DisplayClass20_0 // TypeDefIndex: 10316
 
 }
 
-private sealed class SprayCan.<>c__DisplayClass20_1 // TypeDefIndex: 10317
+private sealed class SprayCan.<>c__DisplayClass20_1 // TypeDefIndex: 10348
 {
 	public int index; 
 	public SprayCan <>4__this; 
@@ -189,7 +189,7 @@ private sealed class SprayCan.<>c__DisplayClass20_1 // TypeDefIndex: 10317
 
 }
 
-private struct SprayCan.<>c__DisplayClass33_0 // TypeDefIndex: 10318
+private struct SprayCan.<>c__DisplayClass33_0 // TypeDefIndex: 10349
 {
 	public SprayCan <>4__this; 
 	public BasePlayer player; 
@@ -197,7 +197,7 @@ private struct SprayCan.<>c__DisplayClass33_0 // TypeDefIndex: 10318
 
 }
 
-private sealed class SprayCan.<>c__DisplayClass65_0 // TypeDefIndex: 10319
+private sealed class SprayCan.<>c__DisplayClass65_0 // TypeDefIndex: 10350
 {
 	public ItemSkinDirectory.Skin skin; 
 	public SprayCan <>4__this; 
@@ -209,7 +209,7 @@ private sealed class SprayCan.<>c__DisplayClass65_0 // TypeDefIndex: 10319
 
 }
 
-private sealed class SprayCan.<>c__DisplayClass66_0 // TypeDefIndex: 10320
+private sealed class SprayCan.<>c__DisplayClass66_0 // TypeDefIndex: 10351
 {
 	public SprayCan <>4__this; 
 	public BaseEntity targetEntity; 

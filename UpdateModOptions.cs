@@ -1,4 +1,4 @@
-public struct UpdateModOptions // TypeDefIndex: 8995
+public struct UpdateModOptions // TypeDefIndex: 9026
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

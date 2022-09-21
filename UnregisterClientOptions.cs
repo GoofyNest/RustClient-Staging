@@ -1,4 +1,4 @@
-public struct UnregisterClientOptions // TypeDefIndex: 9703
+public struct UnregisterClientOptions // TypeDefIndex: 9734
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <ClientHandle>k__BackingField; 

@@ -1,4 +1,4 @@
-public class BlurEvent : FocusEventBase<BlurEvent> // TypeDefIndex: 4653
+public class BlurEvent : FocusEventBase<BlurEvent> // TypeDefIndex: 4655
 {
 
 	protected internal override void PreDispatch(IPanel panel) { }

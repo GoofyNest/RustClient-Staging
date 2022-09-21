@@ -1,4 +1,4 @@
-public enum VideoSource // TypeDefIndex: 4781
+public enum VideoSource // TypeDefIndex: 4783
 {
 	public int value__; 
 	public const VideoSource VideoClip = 0;

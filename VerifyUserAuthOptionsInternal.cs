@@ -1,4 +1,4 @@
-internal struct VerifyUserAuthOptionsInternal : ISettable<VerifyUserAuthOptions>, IDisposable // TypeDefIndex: 9667
+internal struct VerifyUserAuthOptionsInternal : ISettable<VerifyUserAuthOptions>, IDisposable // TypeDefIndex: 9698
 {
 	private int m_ApiVersion; 
 	private IntPtr m_AuthToken; 

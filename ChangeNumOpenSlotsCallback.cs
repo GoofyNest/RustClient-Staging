@@ -1,4 +1,4 @@
-internal struct ChangeNumOpenSlotsCallback_t : ICallbackData // TypeDefIndex: 5359
+internal struct ChangeNumOpenSlotsCallback_t : ICallbackData // TypeDefIndex: 5361
 {
 	internal Result Result; 
 	public static int _datasize; 

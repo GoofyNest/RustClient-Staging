@@ -1,4 +1,4 @@
-public class DamageToggle : MonoBehaviour // TypeDefIndex: 12526
+public class DamageToggle : MonoBehaviour // TypeDefIndex: 12557
 {
 	public Toggle toggle; 
 

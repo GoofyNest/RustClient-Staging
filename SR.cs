@@ -106,7 +106,7 @@ internal static class SR
 
 }
 
-internal static class SR // TypeDefIndex: 3962
+internal static class SR // TypeDefIndex: 3964
 {
 
 internal static class SR
@@ -115,7 +115,7 @@ internal static class SR
 
 }
 
-internal static class SR // TypeDefIndex: 4164
+internal static class SR // TypeDefIndex: 4166
 {
 
 internal static class SR
@@ -132,7 +132,7 @@ internal static class SR
 
 }
 
-internal class SR // TypeDefIndex: 4896
+internal class SR // TypeDefIndex: 4898
 {
 	private static ResourceManager resourceMan; 
 	private static CultureInfo resourceCulture; 
@@ -154,7 +154,7 @@ internal class SR // TypeDefIndex: 4896
 
 }
 
-internal static class SR // TypeDefIndex: 6267
+internal static class SR // TypeDefIndex: 6269
 {
 
 internal class <Module>
@@ -184,7 +184,7 @@ internal static class SR
 
 }
 
-internal static class SR // TypeDefIndex: 6735
+internal static class SR // TypeDefIndex: 6901
 {
 	private static ResourceManager s_resourceManager; 
 	[CompilerGeneratedAttribute] 

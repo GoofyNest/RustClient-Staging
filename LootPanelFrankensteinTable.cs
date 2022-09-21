@@ -1,4 +1,4 @@
-public class LootPanelFrankensteinTable : LootPanel, IInventoryChanged // TypeDefIndex: 12713
+public class LootPanelFrankensteinTable : LootPanel, IInventoryChanged // TypeDefIndex: 12744
 {
 	public Button StartCreatingButton; 
 

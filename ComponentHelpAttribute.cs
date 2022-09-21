@@ -1,4 +1,4 @@
-public class ComponentHelpAttribute : BaseEditorExAttribute // TypeDefIndex: 7992
+public class ComponentHelpAttribute : BaseEditorExAttribute // TypeDefIndex: 8023
 {
 	public string help; 
 

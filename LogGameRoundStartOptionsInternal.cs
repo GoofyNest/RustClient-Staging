@@ -1,4 +1,4 @@
-internal struct LogGameRoundStartOptionsInternal : ISettable<LogGameRoundStartOptions>, IDisposable // TypeDefIndex: 9728
+internal struct LogGameRoundStartOptionsInternal : ISettable<LogGameRoundStartOptions>, IDisposable // TypeDefIndex: 9759
 {
 	private int m_ApiVersion; 
 	private IntPtr m_SessionIdentifier; 

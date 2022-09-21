@@ -1,4 +1,4 @@
-internal sealed class NonVersionableAttribute : Attribute // TypeDefIndex: 6666
+internal sealed class NonVersionableAttribute : Attribute // TypeDefIndex: 6668
 {
 
 	public void .ctor() { }

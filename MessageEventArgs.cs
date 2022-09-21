@@ -1,4 +1,4 @@
-public class MessageEventArgs // TypeDefIndex: 3788
+public class MessageEventArgs // TypeDefIndex: 3790
 {
 
 [RequiredByNativeCodeAttribute] 
@@ -19,8 +19,8 @@ public struct Initialization.SynchronizeInputs
 [RequiredByNativeCodeAttribute] 
 public struct Initialization.XREarlyUpdate
 
-[MovedFromAttribute] 
 [RequiredByNativeCodeAttribute] 
+[MovedFromAttribute] 
 public struct EarlyUpdate
 
 [RequiredByNativeCodeAttribute] 
@@ -156,8 +156,8 @@ public struct FixedUpdate.ScriptRunDelayedFixedFrameRate
 [RequiredByNativeCodeAttribute] 
 public struct FixedUpdate.NewInputFixedUpdate
 
-[RequiredByNativeCodeAttribute] 
 [MovedFromAttribute] 
+[RequiredByNativeCodeAttribute] 
 public struct PreUpdate
 
 [RequiredByNativeCodeAttribute] 
@@ -187,8 +187,8 @@ public struct PreUpdate.UpdateVideo
 [RequiredByNativeCodeAttribute] 
 public struct PreUpdate.NewInputUpdate
 
-[RequiredByNativeCodeAttribute] 
 [MovedFromAttribute] 
+[RequiredByNativeCodeAttribute] 
 public struct Update
 
 [RequiredByNativeCodeAttribute] 
@@ -243,8 +243,8 @@ public struct PreLateUpdate.ScriptRunBehaviourLateUpdate
 [RequiredByNativeCodeAttribute] 
 public struct PreLateUpdate.ConstraintManagerUpdate
 
-[MovedFromAttribute] 
 [RequiredByNativeCodeAttribute] 
+[MovedFromAttribute] 
 public struct PostLateUpdate
 
 [RequiredByNativeCodeAttribute] 

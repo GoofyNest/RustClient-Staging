@@ -1,4 +1,4 @@
-public struct IOSLoginOptions // TypeDefIndex: 9672
+public struct IOSLoginOptions // TypeDefIndex: 9703
 {
 	[CompilerGeneratedAttribute] 
 	private Nullable<IOSCredentials> <Credentials>k__BackingField; 

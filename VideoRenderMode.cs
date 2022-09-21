@@ -1,4 +1,4 @@
-public enum VideoRenderMode // TypeDefIndex: 4776
+public enum VideoRenderMode // TypeDefIndex: 4778
 {
 
 [RequiredByNativeCodeAttribute] 

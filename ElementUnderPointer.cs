@@ -1,4 +1,4 @@
-internal class ElementUnderPointer // TypeDefIndex: 4639
+internal class ElementUnderPointer // TypeDefIndex: 4641
 {
 	private VisualElement[] m_PendingTopElementUnderPointer; 
 	private VisualElement[] m_TopElementUnderPointer; 

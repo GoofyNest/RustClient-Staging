@@ -1,4 +1,4 @@
-public class Recycler : StorageContainer // TypeDefIndex: 10105
+public class Recycler : StorageContainer // TypeDefIndex: 10136
 {
 	private Option __menuOption_Menu_TurnOff; 
 	private Option __menuOption_Menu_TurnOn; 

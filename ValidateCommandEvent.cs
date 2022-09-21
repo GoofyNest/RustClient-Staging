@@ -1,4 +1,4 @@
-public class ValidateCommandEvent : CommandEventBase<ValidateCommandEvent> // TypeDefIndex: 4630
+public class ValidateCommandEvent : CommandEventBase<ValidateCommandEvent> // TypeDefIndex: 4632
 {
 
 	public void .ctor() { }

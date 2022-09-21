@@ -1,4 +1,4 @@
-public enum CompressionLevel // TypeDefIndex: 6956
+public enum CompressionLevel // TypeDefIndex: 6986
 {
 	public int value__; 
 	public const CompressionLevel None = 0;

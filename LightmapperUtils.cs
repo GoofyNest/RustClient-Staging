@@ -1,4 +1,4 @@
-public static class LightmapperUtils // TypeDefIndex: 3887
+public static class LightmapperUtils // TypeDefIndex: 3889
 {
 
 	public static LinearColor ExtractIndirect(Light l) { }

@@ -1,4 +1,4 @@
-public struct TextureMixerPlayable : IEquatable<TextureMixerPlayable> // TypeDefIndex: 3893
+public struct TextureMixerPlayable : IEquatable<TextureMixerPlayable> // TypeDefIndex: 3895
 {
 	private PlayableHandle m_Handle; 
 

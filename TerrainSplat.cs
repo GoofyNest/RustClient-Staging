@@ -1,4 +1,4 @@
-public static class TerrainSplat // TypeDefIndex: 7756
+public static class TerrainSplat // TypeDefIndex: 7787
 {
 	public const int COUNT = 8;
 	public const int EVERYTHING = -1;
@@ -30,7 +30,7 @@ public static class TerrainSplat // TypeDefIndex: 7756
 
 }
 
-public enum TerrainSplat.Enum // TypeDefIndex: 7757
+public enum TerrainSplat.Enum // TypeDefIndex: 7788
 {
 	public int value__; 
 	public const TerrainSplat.Enum Dirt = 1;

@@ -1,4 +1,4 @@
-internal static class SqlConvert // TypeDefIndex: 4411
+internal static class SqlConvert // TypeDefIndex: 4413
 {
 
 	public static SqlByte ConvertToSqlByte(object value) { }

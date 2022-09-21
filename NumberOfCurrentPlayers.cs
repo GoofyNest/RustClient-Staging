@@ -1,4 +1,4 @@
-internal struct NumberOfCurrentPlayers_t : ICallbackData // TypeDefIndex: 5393
+internal struct NumberOfCurrentPlayers_t : ICallbackData // TypeDefIndex: 5395
 {
 	internal byte Success; 
 	internal int CPlayers; 

@@ -1,4 +1,4 @@
-public enum PointerType // TypeDefIndex: 4028
+public enum PointerType // TypeDefIndex: 4030
 {
 	public int value__; 
 	public const PointerType Mouse = 0;
@@ -7,7 +7,7 @@ public enum PointerType // TypeDefIndex: 4028
 
 }
 
-public static class PointerType // TypeDefIndex: 4687
+public static class PointerType // TypeDefIndex: 4689
 {
 	public static readonly string mouse; 
 	public static readonly string touch; 

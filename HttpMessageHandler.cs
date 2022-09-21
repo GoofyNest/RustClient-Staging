@@ -1,4 +1,4 @@
-public abstract class HttpMessageHandler : IDisposable // TypeDefIndex: 5751
+public abstract class HttpMessageHandler : IDisposable // TypeDefIndex: 5753
 {
 
 	public void Dispose() { }

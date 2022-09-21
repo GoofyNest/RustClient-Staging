@@ -1,4 +1,4 @@
-public enum HairType // TypeDefIndex: 12413
+public enum HairType // TypeDefIndex: 12444
 {
 	public int value__; 
 	public const HairType Head = 0;

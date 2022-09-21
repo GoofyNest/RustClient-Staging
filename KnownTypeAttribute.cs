@@ -1,4 +1,4 @@
-public sealed class KnownTypeAttribute : Attribute // TypeDefIndex: 5709
+public sealed class KnownTypeAttribute : Attribute // TypeDefIndex: 5711
 {
 	private Type type; 
 

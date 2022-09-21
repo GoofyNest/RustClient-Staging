@@ -1,4 +1,4 @@
-public sealed class OnQueryFriendsCallback : MulticastDelegate // TypeDefIndex: 9355
+public sealed class OnQueryFriendsCallback : MulticastDelegate // TypeDefIndex: 9386
 {
 
 	public void .ctor(object object, IntPtr method) { }

@@ -1,4 +1,4 @@
-public sealed class OverlayBlendModeParameter : ParameterOverride<OverlayBlendMode> // TypeDefIndex: 11944
+public sealed class OverlayBlendModeParameter : ParameterOverride<OverlayBlendMode> // TypeDefIndex: 11975
 {
 
 	public void .ctor() { }

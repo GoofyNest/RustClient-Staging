@@ -1,4 +1,4 @@
-public class ConstraintException : DataException // TypeDefIndex: 4192
+public class ConstraintException : DataException // TypeDefIndex: 4194
 {
 
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }

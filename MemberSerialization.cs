@@ -1,4 +1,4 @@
-public enum MemberSerialization // TypeDefIndex: 5892
+public enum MemberSerialization // TypeDefIndex: 5894
 {
 	public int value__; 
 	public const MemberSerialization OptOut = 0;

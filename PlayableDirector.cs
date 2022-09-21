@@ -1,4 +1,4 @@
-public class PlayableDirector : Behaviour // TypeDefIndex: 4518
+public class PlayableDirector : Behaviour // TypeDefIndex: 4520
 {
 
 [RequiredByNativeCodeAttribute] 

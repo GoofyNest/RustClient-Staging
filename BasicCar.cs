@@ -1,4 +1,4 @@
-public class BasicCar : BaseVehicle // TypeDefIndex: 11371
+public class BasicCar : BaseVehicle // TypeDefIndex: 11402
 {
 	public BasicCar.VehicleWheel[] wheels; 
 	public float brakePedal; 
@@ -60,7 +60,7 @@ public class BasicCar : BaseVehicle // TypeDefIndex: 11371
 
 }
 
-public class BasicCar.VehicleWheel // TypeDefIndex: 11372
+public class BasicCar.VehicleWheel // TypeDefIndex: 11403
 {
 	public Transform shock; 
 	public WheelCollider wheelCollider; 

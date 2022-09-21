@@ -1,4 +1,4 @@
-internal enum RemoteConfigSettingsHelper.Tag // TypeDefIndex: 4745
+internal enum RemoteConfigSettingsHelper.Tag // TypeDefIndex: 4747
 {
 
 [RequiredByNativeCodeAttribute] 

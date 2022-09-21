@@ -1,4 +1,4 @@
-internal static class Native // TypeDefIndex: 4578
+internal static class Native // TypeDefIndex: 4580
 {
 
 	[RequiredByNativeCodeAttribute] 
@@ -21,7 +21,7 @@ internal static class Native // TypeDefIndex: 4578
 
 }
 
-public class Native // TypeDefIndex: 7296
+public class Native // TypeDefIndex: 7327
 {
 
 [SuppressUnmanagedCodeSecurityAttribute] 
@@ -89,7 +89,7 @@ public class Native
 
 }
 
-public enum Native.Metrics // TypeDefIndex: 7297
+public enum Native.Metrics // TypeDefIndex: 7328
 {
 	public int value__; 
 	public const Native.Metrics USER_MESSAGE_BYTES_PUSHED = 0;
@@ -103,7 +103,7 @@ public enum Native.Metrics // TypeDefIndex: 7297
 
 }
 
-public enum Native.PacketPriority // TypeDefIndex: 7298
+public enum Native.PacketPriority // TypeDefIndex: 7329
 {
 	public int value__; 
 	public const Native.PacketPriority IMMEDIATE_PRIORITY = 0;
@@ -114,7 +114,7 @@ public enum Native.PacketPriority // TypeDefIndex: 7298
 
 }
 
-public struct Native.RaknetStats // TypeDefIndex: 7299
+public struct Native.RaknetStats // TypeDefIndex: 7330
 {
 	[FixedBufferAttribute] 
 	public Native.RaknetStats.<valueOverLastSecond>e__FixedBuffer valueOverLastSecond; 
@@ -136,25 +136,25 @@ public struct Native.RaknetStats // TypeDefIndex: 7299
 
 }
 
-public struct Native.RaknetStats.<valueOverLastSecond>e__FixedBuffer // TypeDefIndex: 7300
+public struct Native.RaknetStats.<valueOverLastSecond>e__FixedBuffer // TypeDefIndex: 7331
 {
 	public ulong FixedElementField; 
 
 }
 
-public struct Native.RaknetStats.<runningTotal>e__FixedBuffer // TypeDefIndex: 7301
+public struct Native.RaknetStats.<runningTotal>e__FixedBuffer // TypeDefIndex: 7332
 {
 	public ulong FixedElementField; 
 
 }
 
-public struct Native.RaknetStats.<messageInSendBuffer>e__FixedBuffer // TypeDefIndex: 7302
+public struct Native.RaknetStats.<messageInSendBuffer>e__FixedBuffer // TypeDefIndex: 7333
 {
 	public uint FixedElementField; 
 
 }
 
-public struct Native.RaknetStats.<bytesInSendBuffer>e__FixedBuffer // TypeDefIndex: 7303
+public struct Native.RaknetStats.<bytesInSendBuffer>e__FixedBuffer // TypeDefIndex: 7334
 {
 	public double FixedElementField; 
 

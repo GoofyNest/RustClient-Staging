@@ -1,4 +1,4 @@
-public static class CommandLine // TypeDefIndex: 4835
+public static class CommandLine // TypeDefIndex: 4837
 {
 	private static bool initialized; 
 	private static string commandline; 
@@ -25,7 +25,7 @@ public static class CommandLine // TypeDefIndex: 4835
 
 }
 
-public static class CommandLine // TypeDefIndex: 6239
+public static class CommandLine // TypeDefIndex: 6241
 {
 	private static bool initialized; 
 	private static string commandline; 

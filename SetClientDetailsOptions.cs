@@ -1,4 +1,4 @@
-public struct SetClientDetailsOptions // TypeDefIndex: 9757
+public struct SetClientDetailsOptions // TypeDefIndex: 9788
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <ClientHandle>k__BackingField; 

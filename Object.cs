@@ -27,7 +27,7 @@ public class Object // TypeDefIndex: 383
 
 }
 
-public class Object // TypeDefIndex: 3535
+public class Object // TypeDefIndex: 3537
 {
 	private IntPtr m_CachedPtr; 
 	internal static int OffsetOfInstanceIDInCPlusPlusObject; 
@@ -242,7 +242,7 @@ public class Object // TypeDefIndex: 3535
 
 }
 
-public class Object : IEnumerable<KeyValuePair<string, Value>>, IEnumerable // TypeDefIndex: 8115
+public class Object : IEnumerable<KeyValuePair<string, Value>>, IEnumerable // TypeDefIndex: 8146
 {
 	private readonly IDictionary<string, Value> values; 
 
@@ -303,7 +303,7 @@ public class Object : IEnumerable<KeyValuePair<string, Value>>, IEnumerable // T
 
 }
 
-private enum Object.ParsingState // TypeDefIndex: 8116
+private enum Object.ParsingState // TypeDefIndex: 8147
 {
 	public int value__; 
 	public const Object.ParsingState Object = 0;

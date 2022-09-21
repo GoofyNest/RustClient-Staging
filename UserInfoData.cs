@@ -1,4 +1,4 @@
-public struct UserInfoData // TypeDefIndex: 8283
+public struct UserInfoData // TypeDefIndex: 8314
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <UserId>k__BackingField; 

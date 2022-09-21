@@ -1,4 +1,4 @@
-public struct TileAnimationData // TypeDefIndex: 4573
+public struct TileAnimationData // TypeDefIndex: 4575
 {
 	private Sprite[] m_AnimatedSprites; 
 	private float m_AnimationSpeed; 

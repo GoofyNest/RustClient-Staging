@@ -1,4 +1,4 @@
-internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4600
+internal abstract class BaseVisualElementPanel : IPanel // TypeDefIndex: 4602
 {
 	private float m_PixelsPerPoint; 
 	[DebuggerBrowsableAttribute] 

@@ -1,4 +1,4 @@
-public enum NoHeaderChunkPolicy // TypeDefIndex: 7571
+public enum NoHeaderChunkPolicy // TypeDefIndex: 7602
 {
 	public int value__; 
 	public const NoHeaderChunkPolicy Abort = 0;

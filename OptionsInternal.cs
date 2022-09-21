@@ -1,4 +1,4 @@
-internal struct OptionsInternal : IGettable<Options>, ISettable<Options>, IDisposable // TypeDefIndex: 9332
+internal struct OptionsInternal : IGettable<Options>, ISettable<Options>, IDisposable // TypeDefIndex: 9363
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Type; 
@@ -32,7 +32,7 @@ internal struct OptionsInternal : IGettable<Options>, ISettable<Options>, IDispo
 
 }
 
-internal struct OptionsInternal : ISettable<Options>, IDisposable // TypeDefIndex: 9832
+internal struct OptionsInternal : ISettable<Options>, IDisposable // TypeDefIndex: 9863
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Reserved; 

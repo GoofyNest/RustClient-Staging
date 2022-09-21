@@ -1,4 +1,4 @@
-public enum MoveDirection // TypeDefIndex: 5089
+public enum MoveDirection // TypeDefIndex: 5091
 {
 	public int value__; 
 	public const MoveDirection Left = 0;

@@ -1,4 +1,4 @@
-public class CoverPoint // TypeDefIndex: 13819
+public class CoverPoint // TypeDefIndex: 13851
 {
 	[CompilerGeneratedAttribute] 
 	private CoverPointVolume <Volume>k__BackingField; 
@@ -70,7 +70,7 @@ public class CoverPoint // TypeDefIndex: 13819
 
 }
 
-public enum CoverPoint.CoverType // TypeDefIndex: 13820
+public enum CoverPoint.CoverType // TypeDefIndex: 13852
 {
 	public int value__; 
 	public const CoverPoint.CoverType Full = 0;
@@ -79,7 +79,7 @@ public enum CoverPoint.CoverType // TypeDefIndex: 13820
 
 }
 
-private sealed class CoverPoint.<StartCooldown>d__33 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13821
+private sealed class CoverPoint.<StartCooldown>d__33 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13853
 {
 	private int <>1__state; 
 	private object <>2__current; 

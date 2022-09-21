@@ -1,4 +1,4 @@
-public enum MissingMappingAction // TypeDefIndex: 4278
+public enum MissingMappingAction // TypeDefIndex: 4280
 {
 	public int value__; 
 	public const MissingMappingAction Passthrough = 1;

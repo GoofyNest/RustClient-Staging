@@ -1,4 +1,4 @@
-internal struct UpdateParentEmailCallbackInfoInternal : ICallbackInfoInternal, IGettable<UpdateParentEmailCallbackInfo>, ISettable<UpdateParentEmailCallbackInfo>, IDisposable // TypeDefIndex: 9321
+internal struct UpdateParentEmailCallbackInfoInternal : ICallbackInfoInternal, IGettable<UpdateParentEmailCallbackInfo>, ISettable<UpdateParentEmailCallbackInfo>, IDisposable // TypeDefIndex: 9352
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

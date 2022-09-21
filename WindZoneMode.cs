@@ -1,4 +1,4 @@
-public enum WindZoneMode // TypeDefIndex: 4789
+public enum WindZoneMode // TypeDefIndex: 4791
 {
 
 public enum WindZoneMode

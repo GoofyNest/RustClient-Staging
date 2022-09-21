@@ -1,4 +1,4 @@
-public struct ContactFilter2D // TypeDefIndex: 4081
+public struct ContactFilter2D // TypeDefIndex: 4083
 {
 	[NativeNameAttribute] 
 	public bool useTriggers; 

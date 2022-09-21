@@ -1,4 +1,4 @@
-public struct TileData // TypeDefIndex: 4572
+public struct TileData // TypeDefIndex: 4574
 {
 	private Sprite m_Sprite; 
 	private Color m_Color; 

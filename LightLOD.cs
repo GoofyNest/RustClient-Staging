@@ -1,4 +1,4 @@
-public class LightLOD : MonoBehaviour, ILOD, IClientComponent // TypeDefIndex: 13002
+public class LightLOD : MonoBehaviour, ILOD, IClientComponent // TypeDefIndex: 13034
 {
 	public float DistanceBias; 
 	public bool ToggleLight; 

@@ -1,4 +1,4 @@
-internal struct RegisterPlayersOptionsInternal : ISettable<RegisterPlayersOptions>, IDisposable // TypeDefIndex: 8493
+internal struct RegisterPlayersOptionsInternal : ISettable<RegisterPlayersOptions>, IDisposable // TypeDefIndex: 8524
 {
 	private int m_ApiVersion; 
 	private IntPtr m_SessionName; 

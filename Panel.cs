@@ -1,4 +1,4 @@
-internal class Panel : BaseVisualElementPanel // TypeDefIndex: 4601
+internal class Panel : BaseVisualElementPanel // TypeDefIndex: 4603
 {
 	private VisualElement m_RootContainer; 
 	private VisualTreeUpdater m_VisualTreeUpdater; 

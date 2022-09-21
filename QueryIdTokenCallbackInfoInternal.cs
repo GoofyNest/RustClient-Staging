@@ -1,4 +1,4 @@
-internal struct QueryIdTokenCallbackInfoInternal : ICallbackInfoInternal, IGettable<QueryIdTokenCallbackInfo>, ISettable<QueryIdTokenCallbackInfo>, IDisposable // TypeDefIndex: 9655
+internal struct QueryIdTokenCallbackInfoInternal : ICallbackInfoInternal, IGettable<QueryIdTokenCallbackInfo>, ISettable<QueryIdTokenCallbackInfo>, IDisposable // TypeDefIndex: 9686
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

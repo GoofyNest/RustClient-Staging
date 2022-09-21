@@ -1,4 +1,4 @@
-public enum ParameterDirection // TypeDefIndex: 4280
+public enum ParameterDirection // TypeDefIndex: 4282
 {
 	public int value__; 
 	public const ParameterDirection Input = 1;

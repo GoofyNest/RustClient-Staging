@@ -1,4 +1,4 @@
-public enum TextureMappingOptions // TypeDefIndex: 6835
+public enum TextureMappingOptions // TypeDefIndex: 6767
 {
 	public int value__; 
 	public const TextureMappingOptions Character = 0;

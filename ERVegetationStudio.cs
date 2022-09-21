@@ -1,4 +1,4 @@
-public class ERVegetationStudio : ScriptableObject // TypeDefIndex: 13179
+public class ERVegetationStudio : ScriptableObject // TypeDefIndex: 13211
 {
 
 	public static bool VegetationStudio() { }

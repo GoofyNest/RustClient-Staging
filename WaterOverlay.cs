@@ -1,4 +1,4 @@
-public class WaterOverlay : MonoBehaviour, IClientComponent // TypeDefIndex: 10810
+public class WaterOverlay : MonoBehaviour, IClientComponent // TypeDefIndex: 10841
 {
 	public PostProcessVolume postProcessVolume; 
 	public WaterOverlay.EffectParams adminParams; 
@@ -31,7 +31,7 @@ public class WaterOverlay : MonoBehaviour, IClientComponent // TypeDefIndex: 108
 
 }
 
-public struct WaterOverlay.EffectParams // TypeDefIndex: 10811
+public struct WaterOverlay.EffectParams // TypeDefIndex: 10842
 {
 	public float scatterCoefficient; 
 	public bool blur; 

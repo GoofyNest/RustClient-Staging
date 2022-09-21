@@ -1,4 +1,4 @@
-public enum GlyphRenderMode // TypeDefIndex: 4118
+public enum GlyphRenderMode // TypeDefIndex: 4120
 {
 	public int value__; 
 	public const GlyphRenderMode SMOOTH_HINTED = 4121;

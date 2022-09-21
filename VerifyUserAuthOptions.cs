@@ -1,4 +1,4 @@
-public struct VerifyUserAuthOptions // TypeDefIndex: 9666
+public struct VerifyUserAuthOptions // TypeDefIndex: 9697
 {
 	[CompilerGeneratedAttribute] 
 	private Nullable<Token> <AuthToken>k__BackingField; 

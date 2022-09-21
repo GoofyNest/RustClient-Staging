@@ -1,4 +1,4 @@
-public class InRangeOfHomeAIEvent : BaseAIEvent // TypeDefIndex: 11074
+public class InRangeOfHomeAIEvent : BaseAIEvent // TypeDefIndex: 11105
 {
 	[CompilerGeneratedAttribute] 
 	private float <Range>k__BackingField; 

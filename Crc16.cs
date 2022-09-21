@@ -1,4 +1,4 @@
-public sealed class Crc16 // TypeDefIndex: 7360
+public sealed class Crc16 // TypeDefIndex: 7391
 {
 	private static readonly short Polynomial; 
 	private short _CRC; 

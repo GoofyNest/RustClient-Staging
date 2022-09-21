@@ -1,4 +1,4 @@
-internal struct JoinClanChatRoomCompletionResult_t : ICallbackData // TypeDefIndex: 5320
+internal struct JoinClanChatRoomCompletionResult_t : ICallbackData // TypeDefIndex: 5322
 {
 	internal ulong SteamIDClanChat; 
 	internal RoomEnter ChatRoomEnterResponse; 

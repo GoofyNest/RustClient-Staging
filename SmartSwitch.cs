@@ -1,4 +1,4 @@
-public class SmartSwitch : AppIOEntity // TypeDefIndex: 10121
+public class SmartSwitch : AppIOEntity // TypeDefIndex: 10152
 {
 	private Option __menuOption_Menu_TurnOff; 
 	private Option __menuOption_Menu_TurnOn; 

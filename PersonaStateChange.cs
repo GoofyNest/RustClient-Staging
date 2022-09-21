@@ -1,4 +1,4 @@
-internal struct PersonaStateChange_t : ICallbackData // TypeDefIndex: 5308
+internal struct PersonaStateChange_t : ICallbackData // TypeDefIndex: 5310
 {
 	internal ulong SteamID; 
 	internal int ChangeFlags; 

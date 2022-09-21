@@ -1,4 +1,4 @@
-public class LeanDummy // TypeDefIndex: 5597
+public class LeanDummy // TypeDefIndex: 5599
 {
 
 	public void .ctor() { }

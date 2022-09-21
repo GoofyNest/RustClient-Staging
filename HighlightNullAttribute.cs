@@ -1,4 +1,4 @@
-public sealed class HighlightNullAttribute : PropertyAttribute // TypeDefIndex: 13242
+public sealed class HighlightNullAttribute : PropertyAttribute // TypeDefIndex: 13274
 {
 
 	public void .ctor() { }

@@ -1,4 +1,4 @@
-public class ERCrossings : MonoBehaviour // TypeDefIndex: 7142
+public class ERCrossings : MonoBehaviour // TypeDefIndex: 7173
 {
 	[SerializeField] 
 	public ERConnectionData cdata; 
@@ -236,7 +236,7 @@ public class ERCrossings : MonoBehaviour // TypeDefIndex: 7142
 
 }
 
-private sealed class ERCrossings.ᙃ // TypeDefIndex: 7143
+private sealed class ERCrossings.ᙃ // TypeDefIndex: 7174
 {
 	public static readonly ERCrossings.ᙃ <>9; 
 	public static Comparison<ERConnectionSibling> <>9__203_0; 

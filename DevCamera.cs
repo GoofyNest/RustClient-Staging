@@ -1,4 +1,4 @@
-public class DevCamera : MonoBehaviour // TypeDefIndex: 10966
+public class DevCamera : MonoBehaviour // TypeDefIndex: 10997
 {
 	public float movementScale; 
 	private Vector3 view; 

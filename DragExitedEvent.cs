@@ -1,4 +1,4 @@
-public class DragExitedEvent : DragAndDropEventBase<DragExitedEvent> // TypeDefIndex: 4634
+public class DragExitedEvent : DragAndDropEventBase<DragExitedEvent> // TypeDefIndex: 4636
 {
 
 	protected override void Init() { }

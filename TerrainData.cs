@@ -1,4 +1,4 @@
-public sealed class TerrainData : Object // TypeDefIndex: 4093
+public sealed class TerrainData : Object // TypeDefIndex: 4095
 {
 	private const string k_ScriptingInterfaceName = "TerrainDataScriptingInterface";
 	private const string k_ScriptingInterfacePrefix = "TerrainDataScriptingInterface::";
@@ -155,7 +155,7 @@ public sealed class TerrainData : Object // TypeDefIndex: 4093
 
 }
 
-private enum TerrainData.BoundaryValueType // TypeDefIndex: 4094
+private enum TerrainData.BoundaryValueType // TypeDefIndex: 4096
 {
 	public int value__; 
 	public const TerrainData.BoundaryValueType MaxHeightmapRes = 0;

@@ -1,4 +1,4 @@
-public class InRowChangingEventException : DataException // TypeDefIndex: 4195
+public class InRowChangingEventException : DataException // TypeDefIndex: 4197
 {
 
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }

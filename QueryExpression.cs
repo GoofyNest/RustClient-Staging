@@ -1,4 +1,4 @@
-internal abstract class QueryExpression // TypeDefIndex: 6093
+internal abstract class QueryExpression // TypeDefIndex: 6095
 {
 
 	protected void .ctor() { }

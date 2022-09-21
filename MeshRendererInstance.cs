@@ -1,4 +1,4 @@
-public struct MeshRendererInstance // TypeDefIndex: 10838
+public struct MeshRendererInstance // TypeDefIndex: 10869
 {
 	public Renderer renderer; 
 	public OBB bounds; 

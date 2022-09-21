@@ -1,4 +1,4 @@
-public abstract class SubsystemDescriptor : ISubsystemDescriptor // TypeDefIndex: 3940
+public abstract class SubsystemDescriptor : ISubsystemDescriptor // TypeDefIndex: 3942
 {
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 

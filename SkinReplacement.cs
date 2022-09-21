@@ -1,4 +1,4 @@
-public class SkinReplacement // TypeDefIndex: 12435
+public class SkinReplacement // TypeDefIndex: 12466
 {
 	public SkinReplacement.SkinType skinReplacementType; 
 	public GameObjectRef targetReplacement; 
@@ -8,7 +8,7 @@ public class SkinReplacement // TypeDefIndex: 12435
 
 }
 
-public enum SkinReplacement.SkinType // TypeDefIndex: 12436
+public enum SkinReplacement.SkinType // TypeDefIndex: 12467
 {
 	public int value__; 
 	public const SkinReplacement.SkinType NONE = 0;

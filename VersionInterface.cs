@@ -1,4 +1,4 @@
-public sealed class VersionInterface // TypeDefIndex: 8252
+public sealed class VersionInterface // TypeDefIndex: 8283
 {
 	public static readonly Utf8String CompanyName; 
 	public static readonly Utf8String CopyrightString; 

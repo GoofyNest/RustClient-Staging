@@ -1,4 +1,4 @@
-public struct UpdateReceivingCallbackInfo : ICallbackInfo // TypeDefIndex: 8674
+public struct UpdateReceivingCallbackInfo : ICallbackInfo // TypeDefIndex: 8705
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

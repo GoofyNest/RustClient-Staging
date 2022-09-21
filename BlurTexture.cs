@@ -1,4 +1,4 @@
-public class BlurTexture : ProcessedTexture // TypeDefIndex: 13050
+public class BlurTexture : ProcessedTexture // TypeDefIndex: 13082
 {
 
 	public void .ctor(int width, int height, bool linear = True) { }

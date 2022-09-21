@@ -3317,9 +3317,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.Select<OptionAttribute, Option>
 	|-Enumerable.Select<object, Option>
 	|
-	|-Enumerable.Select<ServerBrowserTag, bool>
-	|-Enumerable.Select<object, bool>
-	|
 	|-Enumerable.Select<ServerInfo, string>
 	|-Enumerable.Select<ServerInfo, object>
 	|
@@ -3422,7 +3419,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombinePredicates<InventoryItem>
 	|-Enumerable.CombinePredicates<InventoryRecipe.Ingredient>
 	|-Enumerable.CombinePredicates<InventoryRecipe>
-	|-Enumerable.CombinePredicates<bool>
 	|-Enumerable.CombinePredicates<char>
 	|-Enumerable.CombinePredicates<KeyValuePair<object, int>>
 	|-Enumerable.CombinePredicates<KeyValuePair<object, object>>
@@ -3452,7 +3448,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, InventoryItem, InventoryItem>
 	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, InventoryRecipe, InventoryRecipe>
 	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>
-	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, bool, bool>
 	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, KeyValuePair<object, int>, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, int, int>
 	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, Int32Enum, Int32Enum>
@@ -3464,7 +3459,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, object, InventoryItem>
 	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, object, InventoryRecipe.Ingredient>
 	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, object, InventoryRecipe>
-	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, object, bool>
 	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, object, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, object, int>
 	|-Enumerable.CombineSelectors<SkeletonDefinition.Bone, object, Int32Enum>
@@ -3481,7 +3475,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<PlayerItemRecipe, InventoryItem, InventoryItem>
 	|-Enumerable.CombineSelectors<PlayerItemRecipe, InventoryRecipe, InventoryRecipe>
 	|-Enumerable.CombineSelectors<PlayerItemRecipe, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>
-	|-Enumerable.CombineSelectors<PlayerItemRecipe, bool, bool>
 	|-Enumerable.CombineSelectors<PlayerItemRecipe, KeyValuePair<object, int>, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<PlayerItemRecipe, int, int>
 	|-Enumerable.CombineSelectors<PlayerItemRecipe, Int32Enum, Int32Enum>
@@ -3493,7 +3486,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<PlayerItemRecipe, object, InventoryItem>
 	|-Enumerable.CombineSelectors<PlayerItemRecipe, object, InventoryRecipe.Ingredient>
 	|-Enumerable.CombineSelectors<PlayerItemRecipe, object, InventoryRecipe>
-	|-Enumerable.CombineSelectors<PlayerItemRecipe, object, bool>
 	|-Enumerable.CombineSelectors<PlayerItemRecipe, object, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<PlayerItemRecipe, object, int>
 	|-Enumerable.CombineSelectors<PlayerItemRecipe, object, Int32Enum>
@@ -3518,7 +3510,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<ServerInfo, InventoryItem, InventoryItem>
 	|-Enumerable.CombineSelectors<ServerInfo, InventoryRecipe, InventoryRecipe>
 	|-Enumerable.CombineSelectors<ServerInfo, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>
-	|-Enumerable.CombineSelectors<ServerInfo, bool, bool>
 	|-Enumerable.CombineSelectors<ServerInfo, KeyValuePair<object, int>, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<ServerInfo, int, FourBitNumber>
 	|-Enumerable.CombineSelectors<ServerInfo, int, SevenBitNumber>
@@ -3532,7 +3523,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<ServerInfo, object, InventoryItem>
 	|-Enumerable.CombineSelectors<ServerInfo, object, InventoryRecipe.Ingredient>
 	|-Enumerable.CombineSelectors<ServerInfo, object, InventoryRecipe>
-	|-Enumerable.CombineSelectors<ServerInfo, object, bool>
 	|-Enumerable.CombineSelectors<ServerInfo, object, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<ServerInfo, object, int>
 	|-Enumerable.CombineSelectors<ServerInfo, object, Int32Enum>
@@ -3549,7 +3539,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<Achievement, InventoryItem, InventoryItem>
 	|-Enumerable.CombineSelectors<Achievement, InventoryRecipe, InventoryRecipe>
 	|-Enumerable.CombineSelectors<Achievement, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>
-	|-Enumerable.CombineSelectors<Achievement, bool, bool>
 	|-Enumerable.CombineSelectors<Achievement, KeyValuePair<object, int>, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<Achievement, int, int>
 	|-Enumerable.CombineSelectors<Achievement, Int32Enum, Int32Enum>
@@ -3561,7 +3550,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<Achievement, object, InventoryItem>
 	|-Enumerable.CombineSelectors<Achievement, object, InventoryRecipe.Ingredient>
 	|-Enumerable.CombineSelectors<Achievement, object, InventoryRecipe>
-	|-Enumerable.CombineSelectors<Achievement, object, bool>
 	|-Enumerable.CombineSelectors<Achievement, object, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<Achievement, object, int>
 	|-Enumerable.CombineSelectors<Achievement, object, Int32Enum>
@@ -3578,7 +3566,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<InventoryDefId, InventoryItem, InventoryItem>
 	|-Enumerable.CombineSelectors<InventoryDefId, InventoryRecipe, InventoryRecipe>
 	|-Enumerable.CombineSelectors<InventoryDefId, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>
-	|-Enumerable.CombineSelectors<InventoryDefId, bool, bool>
 	|-Enumerable.CombineSelectors<InventoryDefId, KeyValuePair<object, int>, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<InventoryDefId, int, int>
 	|-Enumerable.CombineSelectors<InventoryDefId, Int32Enum, Int32Enum>
@@ -3590,7 +3577,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<InventoryDefId, object, InventoryItem>
 	|-Enumerable.CombineSelectors<InventoryDefId, object, InventoryRecipe.Ingredient>
 	|-Enumerable.CombineSelectors<InventoryDefId, object, InventoryRecipe>
-	|-Enumerable.CombineSelectors<InventoryDefId, object, bool>
 	|-Enumerable.CombineSelectors<InventoryDefId, object, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<InventoryDefId, object, int>
 	|-Enumerable.CombineSelectors<InventoryDefId, object, Int32Enum>
@@ -3611,7 +3597,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<Friend, InventoryItem, InventoryItem>
 	|-Enumerable.CombineSelectors<Friend, InventoryRecipe, InventoryRecipe>
 	|-Enumerable.CombineSelectors<Friend, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>
-	|-Enumerable.CombineSelectors<Friend, bool, bool>
 	|-Enumerable.CombineSelectors<Friend, KeyValuePair<object, int>, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<Friend, int, int>
 	|-Enumerable.CombineSelectors<Friend, Int32Enum, Int32Enum>
@@ -3623,7 +3608,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<Friend, object, InventoryItem>
 	|-Enumerable.CombineSelectors<Friend, object, InventoryRecipe.Ingredient>
 	|-Enumerable.CombineSelectors<Friend, object, InventoryRecipe>
-	|-Enumerable.CombineSelectors<Friend, object, bool>
 	|-Enumerable.CombineSelectors<Friend, object, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<Friend, object, int>
 	|-Enumerable.CombineSelectors<Friend, object, Int32Enum>
@@ -3642,7 +3626,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<InventoryItem, InventoryItem, InventoryItem>
 	|-Enumerable.CombineSelectors<InventoryItem, InventoryRecipe, InventoryRecipe>
 	|-Enumerable.CombineSelectors<InventoryItem, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>
-	|-Enumerable.CombineSelectors<InventoryItem, bool, bool>
 	|-Enumerable.CombineSelectors<InventoryItem, KeyValuePair<object, int>, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<InventoryItem, int, FourBitNumber>
 	|-Enumerable.CombineSelectors<InventoryItem, int, SevenBitNumber>
@@ -3656,7 +3639,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<InventoryItem, object, InventoryItem>
 	|-Enumerable.CombineSelectors<InventoryItem, object, InventoryRecipe.Ingredient>
 	|-Enumerable.CombineSelectors<InventoryItem, object, InventoryRecipe>
-	|-Enumerable.CombineSelectors<InventoryItem, object, bool>
 	|-Enumerable.CombineSelectors<InventoryItem, object, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<InventoryItem, object, int>
 	|-Enumerable.CombineSelectors<InventoryItem, object, Int32Enum>
@@ -3676,7 +3658,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, InventoryItem, InventoryItem>
 	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, InventoryRecipe, InventoryRecipe>
 	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>
-	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, bool, bool>
 	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, KeyValuePair<object, int>, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, int, int>
 	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, Int32Enum, Int32Enum>
@@ -3688,7 +3669,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, object, InventoryItem>
 	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, object, InventoryRecipe.Ingredient>
 	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, object, InventoryRecipe>
-	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, object, bool>
 	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, object, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, object, int>
 	|-Enumerable.CombineSelectors<InventoryRecipe.Ingredient, object, Int32Enum>
@@ -3707,7 +3687,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, InventoryItem, InventoryItem>
 	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, InventoryRecipe, InventoryRecipe>
 	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>
-	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, bool, bool>
 	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, KeyValuePair<object, int>, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, int, int>
 	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, Int32Enum, Int32Enum>
@@ -3719,7 +3698,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, object, InventoryItem>
 	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, object, InventoryRecipe.Ingredient>
 	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, object, InventoryRecipe>
-	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, object, bool>
 	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, object, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, object, int>
 	|-Enumerable.CombineSelectors<KeyValuePair<object, object>, object, Int32Enum>
@@ -3736,7 +3714,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, InventoryItem, InventoryItem>
 	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, InventoryRecipe, InventoryRecipe>
 	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>
-	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, bool, bool>
 	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, KeyValuePair<object, int>, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, int, int>
 	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, Int32Enum, Int32Enum>
@@ -3748,7 +3725,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, object, InventoryItem>
 	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, object, InventoryRecipe.Ingredient>
 	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, object, InventoryRecipe>
-	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, object, bool>
 	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, object, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, object, int>
 	|-Enumerable.CombineSelectors<KeyValuePair<uint, object>, object, Int32Enum>
@@ -3768,7 +3744,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<Int32Enum, InventoryItem, InventoryItem>
 	|-Enumerable.CombineSelectors<Int32Enum, InventoryRecipe, InventoryRecipe>
 	|-Enumerable.CombineSelectors<Int32Enum, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>
-	|-Enumerable.CombineSelectors<Int32Enum, bool, bool>
 	|-Enumerable.CombineSelectors<Int32Enum, KeyValuePair<object, int>, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<Int32Enum, int, int>
 	|-Enumerable.CombineSelectors<Int32Enum, Int32Enum, Int32Enum>
@@ -3780,7 +3755,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<Int32Enum, object, InventoryItem>
 	|-Enumerable.CombineSelectors<Int32Enum, object, InventoryRecipe.Ingredient>
 	|-Enumerable.CombineSelectors<Int32Enum, object, InventoryRecipe>
-	|-Enumerable.CombineSelectors<Int32Enum, object, bool>
 	|-Enumerable.CombineSelectors<Int32Enum, object, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<Int32Enum, object, int>
 	|-Enumerable.CombineSelectors<Int32Enum, object, Int32Enum>
@@ -3815,7 +3789,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.CombineSelectors<object, object, InventoryItem>
 	|-Enumerable.CombineSelectors<object, object, InventoryRecipe.Ingredient>
 	|-Enumerable.CombineSelectors<object, object, InventoryRecipe>
-	|-Enumerable.CombineSelectors<object, object, bool>
 	|-Enumerable.CombineSelectors<object, object, KeyValuePair<object, int>>
 	|-Enumerable.CombineSelectors<object, object, int>
 	|-Enumerable.CombineSelectors<object, object, Int32Enum>
@@ -4214,7 +4187,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	/* GenericInstMethod :
 	|
 	|-Enumerable.SequenceEqual<PlayerItemRecipe.Ingredient>
-	|-Enumerable.SequenceEqual<bool>
 	|-Enumerable.SequenceEqual<object>
 	|-Enumerable.SequenceEqual<string>
 	|-Enumerable.SequenceEqual<Vector3>
@@ -4226,8 +4198,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|
 	|-Enumerable.SequenceEqual<PlayerItemRecipe.Ingredient>
 	|
-	|-Enumerable.SequenceEqual<bool>
-	|
+	|-Enumerable.SequenceEqual<HashSet<string>>
 	|-Enumerable.SequenceEqual<object>
 	|
 	|-Enumerable.SequenceEqual<Vector3>
@@ -4355,8 +4326,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|-Enumerable.ToList<ServerInfo>
 	|
 	|-Enumerable.ToList<ServerInfo>
-	|
-	|-Enumerable.ToList<bool>
 	|
 	|-Enumerable.ToList<float>
 	|
@@ -4717,8 +4686,6 @@ public static class Enumerable // TypeDefIndex: 3198
 	|
 	|-Enumerable.Count<RCon.BannedAddresses>
 	|
-	|-Enumerable.Count<bool>
-	|
 	|-Enumerable.Count<object>
 	|-Enumerable.Count<Collider>
 	|-Enumerable.Count<Renderer>
@@ -4877,7 +4844,6 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	|-Enumerable.Iterator<InventoryItem>..ctor
 	|-Enumerable.Iterator<InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.Iterator<InventoryRecipe>..ctor
-	|-Enumerable.Iterator<bool>..ctor
 	|-Enumerable.Iterator<char>..ctor
 	|-Enumerable.Iterator<DictionaryEntry>..ctor
 	|-Enumerable.Iterator<KeyValuePair<object, int>>..ctor
@@ -4924,7 +4890,6 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	|
 	|-Enumerable.Iterator<FourBitNumber>.get_Current
 	|-Enumerable.Iterator<SevenBitNumber>.get_Current
-	|-Enumerable.Iterator<bool>.get_Current
 	|
 	|-Enumerable.Iterator<ProjectileWeaponMod.Modifier>.get_Current
 	|-Enumerable.Iterator<Resolution>.get_Current
@@ -4983,7 +4948,6 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	|
 	|-Enumerable.Iterator<FourBitNumber>.Dispose
 	|-Enumerable.Iterator<SevenBitNumber>.Dispose
-	|-Enumerable.Iterator<bool>.Dispose
 	|
 	|-Enumerable.Iterator<ProjectileWeaponMod.Modifier>.Dispose
 	|-Enumerable.Iterator<Resolution>.Dispose
@@ -5031,7 +4995,6 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	|-Enumerable.Iterator<InventoryItem>.GetEnumerator
 	|-Enumerable.Iterator<InventoryRecipe.Ingredient>.GetEnumerator
 	|-Enumerable.Iterator<InventoryRecipe>.GetEnumerator
-	|-Enumerable.Iterator<bool>.GetEnumerator
 	|-Enumerable.Iterator<char>.GetEnumerator
 	|-Enumerable.Iterator<DictionaryEntry>.GetEnumerator
 	|-Enumerable.Iterator<KeyValuePair<object, int>>.GetEnumerator
@@ -5095,7 +5058,6 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	|
 	|-Enumerable.Iterator<FourBitNumber>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<SevenBitNumber>.System.Collections.IEnumerator.get_Current
-	|-Enumerable.Iterator<bool>.System.Collections.IEnumerator.get_Current
 	|
 	|-Enumerable.Iterator<ProjectileWeaponMod.Modifier>.System.Collections.IEnumerator.get_Current
 	|-Enumerable.Iterator<Resolution>.System.Collections.IEnumerator.get_Current
@@ -5146,7 +5108,6 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	|-Enumerable.Iterator<InventoryItem>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.Iterator<InventoryRecipe.Ingredient>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.Iterator<InventoryRecipe>.System.Collections.IEnumerable.GetEnumerator
-	|-Enumerable.Iterator<bool>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.Iterator<char>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.Iterator<DictionaryEntry>.System.Collections.IEnumerable.GetEnumerator
 	|-Enumerable.Iterator<KeyValuePair<object, int>>.System.Collections.IEnumerable.GetEnumerator
@@ -5213,8 +5174,6 @@ private abstract class Enumerable.Iterator<TSource> : IEnumerable<TSource>, IEnu
 	|
 	|-Enumerable.Iterator<InventoryRecipe>.System.Collections.IEnumerator.Reset
 	|
-	|-Enumerable.Iterator<bool>.System.Collections.IEnumerator.Reset
-	|
 	|-Enumerable.Iterator<char>.System.Collections.IEnumerator.Reset
 	|
 	|-Enumerable.Iterator<DictionaryEntry>.System.Collections.IEnumerator.Reset
@@ -5275,7 +5234,6 @@ private class Enumerable.WhereEnumerableIterator<TSource> : Enumerable.Iterator<
 	|-Enumerable.WhereEnumerableIterator<PathFinder.Point>..ctor
 	|-Enumerable.WhereEnumerableIterator<PlayerItemRecipe.Ingredient>..ctor
 	|-Enumerable.WhereEnumerableIterator<InventoryItemId>..ctor
-	|-Enumerable.WhereEnumerableIterator<bool>..ctor
 	|-Enumerable.WhereEnumerableIterator<char>..ctor
 	|-Enumerable.WhereEnumerableIterator<int>..ctor
 	|-Enumerable.WhereEnumerableIterator<Int32Enum>..ctor
@@ -5315,7 +5273,6 @@ private class Enumerable.WhereEnumerableIterator<TSource> : Enumerable.Iterator<
 	|-Enumerable.WhereEnumerableIterator<PathFinder.Point>.Clone
 	|-Enumerable.WhereEnumerableIterator<PlayerItemRecipe.Ingredient>.Clone
 	|-Enumerable.WhereEnumerableIterator<InventoryItemId>.Clone
-	|-Enumerable.WhereEnumerableIterator<bool>.Clone
 	|-Enumerable.WhereEnumerableIterator<char>.Clone
 	|-Enumerable.WhereEnumerableIterator<int>.Clone
 	|-Enumerable.WhereEnumerableIterator<Int32Enum>.Clone
@@ -5367,8 +5324,6 @@ private class Enumerable.WhereEnumerableIterator<TSource> : Enumerable.Iterator<
 	|-Enumerable.WhereEnumerableIterator<InventoryRecipe.Ingredient>.Dispose
 	|
 	|-Enumerable.WhereEnumerableIterator<InventoryRecipe>.Dispose
-	|
-	|-Enumerable.WhereEnumerableIterator<bool>.Dispose
 	|
 	|-Enumerable.WhereEnumerableIterator<char>.Dispose
 	|
@@ -5432,8 +5387,6 @@ private class Enumerable.WhereEnumerableIterator<TSource> : Enumerable.Iterator<
 	|
 	|-Enumerable.WhereEnumerableIterator<InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereEnumerableIterator<bool>.MoveNext
-	|
 	|-Enumerable.WhereEnumerableIterator<char>.MoveNext
 	|
 	|-Enumerable.WhereEnumerableIterator<KeyValuePair<object, int>>.MoveNext
@@ -5476,7 +5429,6 @@ private class Enumerable.WhereEnumerableIterator<TSource> : Enumerable.Iterator<
 	|-Enumerable.WhereEnumerableIterator<object>.Select<InventoryItem>
 	|-Enumerable.WhereEnumerableIterator<object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereEnumerableIterator<object>.Select<InventoryRecipe>
-	|-Enumerable.WhereEnumerableIterator<object>.Select<bool>
 	|-Enumerable.WhereEnumerableIterator<object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereEnumerableIterator<object>.Select<int>
 	|-Enumerable.WhereEnumerableIterator<object>.Select<Int32Enum>
@@ -5530,7 +5482,6 @@ private class Enumerable.WhereEnumerableIterator<TSource> : Enumerable.Iterator<
 	|-Enumerable.WhereEnumerableIterator<PathFinder.Point>.Where
 	|-Enumerable.WhereEnumerableIterator<PlayerItemRecipe.Ingredient>.Where
 	|-Enumerable.WhereEnumerableIterator<InventoryItemId>.Where
-	|-Enumerable.WhereEnumerableIterator<bool>.Where
 	|-Enumerable.WhereEnumerableIterator<char>.Where
 	|-Enumerable.WhereEnumerableIterator<int>.Where
 	|-Enumerable.WhereEnumerableIterator<Int32Enum>.Where
@@ -5678,7 +5629,6 @@ private class Enumerable.WhereArrayIterator<TSource> : Enumerable.Iterator<TSour
 	|-Enumerable.WhereArrayIterator<object>.Select<InventoryItem>
 	|-Enumerable.WhereArrayIterator<object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereArrayIterator<object>.Select<InventoryRecipe>
-	|-Enumerable.WhereArrayIterator<object>.Select<bool>
 	|-Enumerable.WhereArrayIterator<object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereArrayIterator<object>.Select<int>
 	|-Enumerable.WhereArrayIterator<object>.Select<Int32Enum>
@@ -5847,7 +5797,6 @@ private class Enumerable.WhereListIterator<TSource> : Enumerable.Iterator<TSourc
 	|-Enumerable.WhereListIterator<object>.Select<InventoryItem>
 	|-Enumerable.WhereListIterator<object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereListIterator<object>.Select<InventoryRecipe>
-	|-Enumerable.WhereListIterator<object>.Select<bool>
 	|-Enumerable.WhereListIterator<object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereListIterator<object>.Select<int>
 	|-Enumerable.WhereListIterator<object>.Select<Int32Enum>
@@ -5901,7 +5850,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, SevenBitNumber>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, bool>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, Int32Enum>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, long>..ctor
@@ -5909,7 +5857,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, float>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<WeightedStringList.Container, float>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, bool>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, Int32Enum>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, long>..ctor
@@ -5922,7 +5869,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, FourBitNumber>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, SevenBitNumber>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, bool>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, Int32Enum>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, long>..ctor
@@ -5930,14 +5876,12 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, float>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<SkinnedMultiMesh.Part, long>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectEnumerableIterator<Achievement, bool>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, Int32Enum>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, long>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, object>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, float>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, bool>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, Int32Enum>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, long>..ctor
@@ -5946,7 +5890,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectEnumerableIterator<Friend, bool>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, Int32Enum>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, long>..ctor
@@ -5956,7 +5899,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, SevenBitNumber>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, PathFinder.Point>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryItemId>..ctor
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, bool>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, Int32Enum>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, long>..ctor
@@ -5968,7 +5910,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe, object>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, PathFinder.Point>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>..ctor
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, bool>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, Int32Enum>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, long>..ctor
@@ -5976,14 +5917,12 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, float>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<DictionaryEntry, object>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, bool>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, Int32Enum>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, long>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, object>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, float>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, bool>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, Int32Enum>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, long>..ctor
@@ -5994,7 +5933,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<int, SevenBitNumber>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<int, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, bool>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, Int32Enum>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, long>..ctor
@@ -6005,7 +5943,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<object, PathFinder.Point>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<object, PlayerItemRecipe.Ingredient>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryItemId>..ctor
-	|-Enumerable.WhereSelectEnumerableIterator<object, bool>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<object, int>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<object, Int32Enum>..ctor
 	|-Enumerable.WhereSelectEnumerableIterator<object, long>..ctor
@@ -6126,7 +6063,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, SevenBitNumber>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<BurstCloth.Chain, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, bool>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, Int32Enum>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, long>.Clone
@@ -6134,7 +6070,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, float>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<WeightedStringList.Container, float>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, bool>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, Int32Enum>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, long>.Clone
@@ -6147,7 +6082,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, FourBitNumber>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, SevenBitNumber>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, bool>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, Int32Enum>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, long>.Clone
@@ -6155,14 +6089,12 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, float>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<SkinnedMultiMesh.Part, long>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectEnumerableIterator<Achievement, bool>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, Int32Enum>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, long>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, object>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, float>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, bool>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, Int32Enum>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, long>.Clone
@@ -6171,7 +6103,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectEnumerableIterator<Friend, bool>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, Int32Enum>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, long>.Clone
@@ -6181,7 +6112,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, SevenBitNumber>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, PathFinder.Point>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryItemId>.Clone
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, bool>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, Int32Enum>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, long>.Clone
@@ -6193,7 +6123,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe, object>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, PathFinder.Point>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>.Clone
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, bool>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, Int32Enum>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, long>.Clone
@@ -6201,14 +6130,12 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, float>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<DictionaryEntry, object>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, bool>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, Int32Enum>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, long>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, object>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, float>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, bool>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, Int32Enum>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, long>.Clone
@@ -6219,7 +6146,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<int, SevenBitNumber>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<int, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, bool>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, Int32Enum>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, long>.Clone
@@ -6230,7 +6156,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<object, PathFinder.Point>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<object, PlayerItemRecipe.Ingredient>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryItemId>.Clone
-	|-Enumerable.WhereSelectEnumerableIterator<object, bool>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<object, int>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<object, Int32Enum>.Clone
 	|-Enumerable.WhereSelectEnumerableIterator<object, long>.Clone
@@ -6367,8 +6292,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, InventoryRecipe>.Dispose
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, bool>.Dispose
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, KeyValuePair<object, int>>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, int>.Dispose
@@ -6398,8 +6321,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryRecipe.Ingredient>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryRecipe>.Dispose
-	|
-	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, bool>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, KeyValuePair<object, int>>.Dispose
 	|
@@ -6443,8 +6364,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, InventoryRecipe>.Dispose
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, bool>.Dispose
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, KeyValuePair<object, int>>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, int>.Dispose
@@ -6475,8 +6394,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, InventoryRecipe>.Dispose
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<Achievement, bool>.Dispose
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, KeyValuePair<object, int>>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, int>.Dispose
@@ -6504,8 +6421,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryRecipe.Ingredient>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryRecipe>.Dispose
-	|
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, bool>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, KeyValuePair<object, int>>.Dispose
 	|
@@ -6541,8 +6456,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, InventoryRecipe>.Dispose
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<Friend, bool>.Dispose
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, KeyValuePair<object, int>>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, int>.Dispose
@@ -6576,8 +6489,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryRecipe.Ingredient>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryRecipe>.Dispose
-	|
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, bool>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, KeyValuePair<object, int>>.Dispose
 	|
@@ -6619,8 +6530,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, InventoryRecipe>.Dispose
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, bool>.Dispose
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, KeyValuePair<object, int>>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, int>.Dispose
@@ -6653,8 +6562,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, InventoryRecipe>.Dispose
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, bool>.Dispose
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, KeyValuePair<object, int>>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, int>.Dispose
@@ -6682,8 +6589,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryRecipe.Ingredient>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryRecipe>.Dispose
-	|
-	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, bool>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, KeyValuePair<object, int>>.Dispose
 	|
@@ -6720,8 +6625,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryRecipe.Ingredient>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryRecipe>.Dispose
-	|
-	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, bool>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, KeyValuePair<object, int>>.Dispose
 	|
@@ -6760,8 +6663,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryRecipe.Ingredient>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryRecipe>.Dispose
-	|
-	|-Enumerable.WhereSelectEnumerableIterator<object, bool>.Dispose
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<object, KeyValuePair<object, int>>.Dispose
 	|
@@ -6803,8 +6704,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, KeyValuePair<object, int>>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, int>.MoveNext
@@ -6834,8 +6733,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryRecipe.Ingredient>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryRecipe>.MoveNext
-	|
-	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, KeyValuePair<object, int>>.MoveNext
 	|
@@ -6879,8 +6776,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, KeyValuePair<object, int>>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, int>.MoveNext
@@ -6911,8 +6806,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<Achievement, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, KeyValuePair<object, int>>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, int>.MoveNext
@@ -6940,8 +6833,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryRecipe.Ingredient>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryRecipe>.MoveNext
-	|
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, KeyValuePair<object, int>>.MoveNext
 	|
@@ -6977,8 +6868,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<Friend, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, KeyValuePair<object, int>>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, int>.MoveNext
@@ -7012,8 +6901,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryRecipe.Ingredient>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryRecipe>.MoveNext
-	|
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, KeyValuePair<object, int>>.MoveNext
 	|
@@ -7055,8 +6942,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, KeyValuePair<object, int>>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, int>.MoveNext
@@ -7089,8 +6974,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, KeyValuePair<object, int>>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, int>.MoveNext
@@ -7118,8 +7001,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryRecipe.Ingredient>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryRecipe>.MoveNext
-	|
-	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, KeyValuePair<object, int>>.MoveNext
 	|
@@ -7156,8 +7037,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryRecipe.Ingredient>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryRecipe>.MoveNext
-	|
-	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, KeyValuePair<object, int>>.MoveNext
 	|
@@ -7197,8 +7076,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectEnumerableIterator<object, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectEnumerableIterator<object, KeyValuePair<object, int>>.MoveNext
 	|
 	|-Enumerable.WhereSelectEnumerableIterator<object, int>.MoveNext
@@ -7229,7 +7106,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, object>.Select<bool>
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, object>.Select<int>
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, object>.Select<Int32Enum>
@@ -7244,7 +7120,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, object>.Select<bool>
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, object>.Select<int>
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, object>.Select<Int32Enum>
@@ -7265,7 +7140,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>.Select<bool>
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>.Select<int>
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, object>.Select<Int32Enum>
@@ -7280,7 +7154,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectEnumerableIterator<Achievement, object>.Select<bool>
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, object>.Select<int>
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, object>.Select<Int32Enum>
@@ -7295,7 +7168,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, object>.Select<bool>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, object>.Select<int>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, object>.Select<Int32Enum>
@@ -7310,7 +7182,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectEnumerableIterator<Friend, object>.Select<bool>
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, object>.Select<int>
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, object>.Select<Int32Enum>
@@ -7328,7 +7199,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, object>.Select<bool>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, object>.Select<int>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, object>.Select<Int32Enum>
@@ -7344,7 +7214,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, object>.Select<bool>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, object>.Select<int>
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, object>.Select<Int32Enum>
@@ -7359,7 +7228,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, object>.Select<bool>
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, object>.Select<int>
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, object>.Select<Int32Enum>
@@ -7374,7 +7242,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, object>.Select<bool>
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, object>.Select<int>
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, object>.Select<Int32Enum>
@@ -7392,7 +7259,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, object>.Select<bool>
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, object>.Select<int>
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, object>.Select<Int32Enum>
@@ -7411,7 +7277,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<object, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectEnumerableIterator<object, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectEnumerableIterator<object, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectEnumerableIterator<object, object>.Select<bool>
 	|-Enumerable.WhereSelectEnumerableIterator<object, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectEnumerableIterator<object, object>.Select<int>
 	|-Enumerable.WhereSelectEnumerableIterator<object, object>.Select<Int32Enum>
@@ -7452,7 +7317,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, InventoryItem>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, bool>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, int>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<SkeletonDefinition.Bone, Int32Enum>.Where
@@ -7468,7 +7332,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryItem>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, bool>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, int>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<PlayerItemRecipe, Int32Enum>.Where
@@ -7490,7 +7353,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, InventoryItem>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, bool>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, int>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<ServerInfo, Int32Enum>.Where
@@ -7506,7 +7368,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, InventoryItem>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectEnumerableIterator<Achievement, bool>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, int>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Achievement, Int32Enum>.Where
@@ -7521,7 +7382,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryItem>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, bool>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, int>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryDefId, Int32Enum>.Where
@@ -7539,7 +7399,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, InventoryItem>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectEnumerableIterator<Friend, bool>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, int>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Friend, Int32Enum>.Where
@@ -7557,7 +7416,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryItem>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, bool>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, int>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryItem, Int32Enum>.Where
@@ -7578,7 +7436,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, InventoryItem>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, bool>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, int>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<InventoryRecipe.Ingredient, Int32Enum>.Where
@@ -7595,7 +7452,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, InventoryItem>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, bool>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, int>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<object, object>, Int32Enum>.Where
@@ -7610,7 +7466,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryItem>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, bool>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, int>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<KeyValuePair<uint, object>, Int32Enum>.Where
@@ -7629,7 +7484,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryItem>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, bool>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, int>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<Int32Enum, Int32Enum>.Where
@@ -7649,7 +7503,6 @@ private class Enumerable.WhereSelectEnumerableIterator<TSource, TResult> : Enume
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryItem>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<object, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectEnumerableIterator<object, bool>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<object, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<object, int>.Where
 	|-Enumerable.WhereSelectEnumerableIterator<object, Int32Enum>.Where
@@ -7677,7 +7530,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<BurstCloth.Chain, SevenBitNumber>..ctor
 	|-Enumerable.WhereSelectArrayIterator<BurstCloth.Chain, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, bool>..ctor
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, Int32Enum>..ctor
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, long>..ctor
@@ -7685,7 +7537,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, float>..ctor
 	|-Enumerable.WhereSelectArrayIterator<WeightedStringList.Container, float>..ctor
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, bool>..ctor
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, Int32Enum>..ctor
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, long>..ctor
@@ -7698,7 +7549,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, FourBitNumber>..ctor
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, SevenBitNumber>..ctor
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectArrayIterator<ServerInfo, bool>..ctor
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, Int32Enum>..ctor
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, long>..ctor
@@ -7706,14 +7556,12 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, float>..ctor
 	|-Enumerable.WhereSelectArrayIterator<SkinnedMultiMesh.Part, long>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Achievement, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectArrayIterator<Achievement, bool>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Achievement, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Achievement, Int32Enum>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Achievement, long>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Achievement, object>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Achievement, float>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, bool>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, Int32Enum>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, long>..ctor
@@ -7722,7 +7570,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, object>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Friend, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectArrayIterator<Friend, bool>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Friend, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Friend, Int32Enum>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Friend, long>..ctor
@@ -7732,7 +7579,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, SevenBitNumber>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, PathFinder.Point>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, InventoryItemId>..ctor
-	|-Enumerable.WhereSelectArrayIterator<InventoryItem, bool>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, Int32Enum>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, long>..ctor
@@ -7744,7 +7590,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe, object>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, PathFinder.Point>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>..ctor
-	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, bool>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, Int32Enum>..ctor
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, long>..ctor
@@ -7752,14 +7597,12 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, float>..ctor
 	|-Enumerable.WhereSelectArrayIterator<DictionaryEntry, object>..ctor
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, bool>..ctor
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, Int32Enum>..ctor
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, long>..ctor
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, object>..ctor
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, float>..ctor
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, bool>..ctor
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, Int32Enum>..ctor
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, long>..ctor
@@ -7770,7 +7613,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<int, SevenBitNumber>..ctor
 	|-Enumerable.WhereSelectArrayIterator<int, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectArrayIterator<Int32Enum, bool>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, Int32Enum>..ctor
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, long>..ctor
@@ -7781,7 +7623,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<object, PathFinder.Point>..ctor
 	|-Enumerable.WhereSelectArrayIterator<object, PlayerItemRecipe.Ingredient>..ctor
 	|-Enumerable.WhereSelectArrayIterator<object, InventoryItemId>..ctor
-	|-Enumerable.WhereSelectArrayIterator<object, bool>..ctor
 	|-Enumerable.WhereSelectArrayIterator<object, int>..ctor
 	|-Enumerable.WhereSelectArrayIterator<object, Int32Enum>..ctor
 	|-Enumerable.WhereSelectArrayIterator<object, long>..ctor
@@ -7902,7 +7743,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<BurstCloth.Chain, SevenBitNumber>.Clone
 	|-Enumerable.WhereSelectArrayIterator<BurstCloth.Chain, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, bool>.Clone
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, Int32Enum>.Clone
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, long>.Clone
@@ -7910,7 +7750,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, float>.Clone
 	|-Enumerable.WhereSelectArrayIterator<WeightedStringList.Container, float>.Clone
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, bool>.Clone
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, Int32Enum>.Clone
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, long>.Clone
@@ -7923,7 +7762,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, FourBitNumber>.Clone
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, SevenBitNumber>.Clone
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectArrayIterator<ServerInfo, bool>.Clone
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, Int32Enum>.Clone
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, long>.Clone
@@ -7931,14 +7769,12 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, float>.Clone
 	|-Enumerable.WhereSelectArrayIterator<SkinnedMultiMesh.Part, long>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Achievement, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectArrayIterator<Achievement, bool>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Achievement, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Achievement, Int32Enum>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Achievement, long>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Achievement, object>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Achievement, float>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, bool>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, Int32Enum>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, long>.Clone
@@ -7947,7 +7783,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, object>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Friend, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectArrayIterator<Friend, bool>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Friend, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Friend, Int32Enum>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Friend, long>.Clone
@@ -7957,7 +7792,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, SevenBitNumber>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, PathFinder.Point>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, InventoryItemId>.Clone
-	|-Enumerable.WhereSelectArrayIterator<InventoryItem, bool>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, Int32Enum>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, long>.Clone
@@ -7969,7 +7803,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe, object>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, PathFinder.Point>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>.Clone
-	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, bool>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, Int32Enum>.Clone
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, long>.Clone
@@ -7977,14 +7810,12 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, float>.Clone
 	|-Enumerable.WhereSelectArrayIterator<DictionaryEntry, object>.Clone
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, bool>.Clone
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, Int32Enum>.Clone
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, long>.Clone
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, object>.Clone
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, float>.Clone
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, bool>.Clone
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, Int32Enum>.Clone
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, long>.Clone
@@ -7995,7 +7826,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<int, SevenBitNumber>.Clone
 	|-Enumerable.WhereSelectArrayIterator<int, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectArrayIterator<Int32Enum, bool>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, Int32Enum>.Clone
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, long>.Clone
@@ -8006,7 +7836,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<object, PathFinder.Point>.Clone
 	|-Enumerable.WhereSelectArrayIterator<object, PlayerItemRecipe.Ingredient>.Clone
 	|-Enumerable.WhereSelectArrayIterator<object, InventoryItemId>.Clone
-	|-Enumerable.WhereSelectArrayIterator<object, bool>.Clone
 	|-Enumerable.WhereSelectArrayIterator<object, int>.Clone
 	|-Enumerable.WhereSelectArrayIterator<object, Int32Enum>.Clone
 	|-Enumerable.WhereSelectArrayIterator<object, long>.Clone
@@ -8127,8 +7956,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<BurstCloth.Chain, SevenBitNumber>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe.Ingredient, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe.Ingredient, SevenBitNumber>.MoveNext
-	|-Enumerable.WhereSelectArrayIterator<Achievement, bool>.MoveNext
-	|-Enumerable.WhereSelectArrayIterator<Friend, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectArrayIterator<BurstCloth.Chain, int>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe.Ingredient, int>.MoveNext
@@ -8154,8 +7981,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.MoveNext
 	|
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, InventoryRecipe>.MoveNext
-	|
-	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, int>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, Int32Enum>.MoveNext
@@ -8208,10 +8033,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, InventoryRecipe>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, bool>.MoveNext
-	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, bool>.MoveNext
-	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, int>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, Int32Enum>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, int>.MoveNext
@@ -8235,7 +8056,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, SevenBitNumber>.MoveNext
-	|-Enumerable.WhereSelectArrayIterator<ServerInfo, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, PathFinder.Point>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, long>.MoveNext
@@ -8315,8 +8135,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, int>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, Int32Enum>.MoveNext
 	|
@@ -8331,7 +8149,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, SevenBitNumber>.MoveNext
-	|-Enumerable.WhereSelectArrayIterator<InventoryItem, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, ProjectileWeaponMod.Modifier>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, Resolution>.MoveNext
@@ -8372,8 +8189,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, int>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, Int32Enum>.MoveNext
 	|
@@ -8381,7 +8196,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|
 	|-Enumerable.WhereSelectArrayIterator<int, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<int, SevenBitNumber>.MoveNext
-	|-Enumerable.WhereSelectArrayIterator<Int32Enum, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectArrayIterator<int, int>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, int>.MoveNext
@@ -8414,7 +8228,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|
 	|-Enumerable.WhereSelectArrayIterator<object, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<object, SevenBitNumber>.MoveNext
-	|-Enumerable.WhereSelectArrayIterator<object, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectArrayIterator<object, PathFinder.Point>.MoveNext
 	|-Enumerable.WhereSelectArrayIterator<object, PlayerItemRecipe.Ingredient>.MoveNext
@@ -8454,7 +8267,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, object>.Select<bool>
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, object>.Select<int>
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, object>.Select<Int32Enum>
@@ -8469,7 +8281,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, object>.Select<bool>
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, object>.Select<int>
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, object>.Select<Int32Enum>
@@ -8490,7 +8301,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectArrayIterator<ServerInfo, object>.Select<bool>
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, object>.Select<int>
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, object>.Select<Int32Enum>
@@ -8505,7 +8315,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<Achievement, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectArrayIterator<Achievement, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectArrayIterator<Achievement, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectArrayIterator<Achievement, object>.Select<bool>
 	|-Enumerable.WhereSelectArrayIterator<Achievement, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectArrayIterator<Achievement, object>.Select<int>
 	|-Enumerable.WhereSelectArrayIterator<Achievement, object>.Select<Int32Enum>
@@ -8520,7 +8329,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, object>.Select<bool>
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, object>.Select<int>
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, object>.Select<Int32Enum>
@@ -8535,7 +8343,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<Friend, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectArrayIterator<Friend, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectArrayIterator<Friend, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectArrayIterator<Friend, object>.Select<bool>
 	|-Enumerable.WhereSelectArrayIterator<Friend, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectArrayIterator<Friend, object>.Select<int>
 	|-Enumerable.WhereSelectArrayIterator<Friend, object>.Select<Int32Enum>
@@ -8553,7 +8360,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectArrayIterator<InventoryItem, object>.Select<bool>
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, object>.Select<int>
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, object>.Select<Int32Enum>
@@ -8569,7 +8375,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, object>.Select<bool>
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, object>.Select<int>
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, object>.Select<Int32Enum>
@@ -8584,7 +8389,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, object>.Select<bool>
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, object>.Select<int>
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, object>.Select<Int32Enum>
@@ -8599,7 +8403,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, object>.Select<bool>
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, object>.Select<int>
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, object>.Select<Int32Enum>
@@ -8617,7 +8420,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectArrayIterator<Int32Enum, object>.Select<bool>
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, object>.Select<int>
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, object>.Select<Int32Enum>
@@ -8636,7 +8438,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<object, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectArrayIterator<object, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectArrayIterator<object, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectArrayIterator<object, object>.Select<bool>
 	|-Enumerable.WhereSelectArrayIterator<object, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectArrayIterator<object, object>.Select<int>
 	|-Enumerable.WhereSelectArrayIterator<object, object>.Select<Int32Enum>
@@ -8677,7 +8478,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, InventoryItem>.Where
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, bool>.Where
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, int>.Where
 	|-Enumerable.WhereSelectArrayIterator<SkeletonDefinition.Bone, Int32Enum>.Where
@@ -8693,7 +8493,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, InventoryItem>.Where
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, bool>.Where
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, int>.Where
 	|-Enumerable.WhereSelectArrayIterator<PlayerItemRecipe, Int32Enum>.Where
@@ -8715,7 +8514,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, InventoryItem>.Where
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectArrayIterator<ServerInfo, bool>.Where
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, int>.Where
 	|-Enumerable.WhereSelectArrayIterator<ServerInfo, Int32Enum>.Where
@@ -8731,7 +8529,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<Achievement, InventoryItem>.Where
 	|-Enumerable.WhereSelectArrayIterator<Achievement, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectArrayIterator<Achievement, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectArrayIterator<Achievement, bool>.Where
 	|-Enumerable.WhereSelectArrayIterator<Achievement, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectArrayIterator<Achievement, int>.Where
 	|-Enumerable.WhereSelectArrayIterator<Achievement, Int32Enum>.Where
@@ -8746,7 +8543,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, InventoryItem>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, bool>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, int>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryDefId, Int32Enum>.Where
@@ -8764,7 +8560,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<Friend, InventoryItem>.Where
 	|-Enumerable.WhereSelectArrayIterator<Friend, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectArrayIterator<Friend, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectArrayIterator<Friend, bool>.Where
 	|-Enumerable.WhereSelectArrayIterator<Friend, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectArrayIterator<Friend, int>.Where
 	|-Enumerable.WhereSelectArrayIterator<Friend, Int32Enum>.Where
@@ -8782,7 +8577,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, InventoryItem>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectArrayIterator<InventoryItem, bool>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, int>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryItem, Int32Enum>.Where
@@ -8803,7 +8597,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, InventoryItem>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, bool>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, int>.Where
 	|-Enumerable.WhereSelectArrayIterator<InventoryRecipe.Ingredient, Int32Enum>.Where
@@ -8820,7 +8613,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, InventoryItem>.Where
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, bool>.Where
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, int>.Where
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<object, object>, Int32Enum>.Where
@@ -8835,7 +8627,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, InventoryItem>.Where
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, bool>.Where
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, int>.Where
 	|-Enumerable.WhereSelectArrayIterator<KeyValuePair<uint, object>, Int32Enum>.Where
@@ -8854,7 +8645,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, InventoryItem>.Where
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectArrayIterator<Int32Enum, bool>.Where
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, int>.Where
 	|-Enumerable.WhereSelectArrayIterator<Int32Enum, Int32Enum>.Where
@@ -8874,7 +8664,6 @@ private class Enumerable.WhereSelectArrayIterator<TSource, TResult> : Enumerable
 	|-Enumerable.WhereSelectArrayIterator<object, InventoryItem>.Where
 	|-Enumerable.WhereSelectArrayIterator<object, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectArrayIterator<object, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectArrayIterator<object, bool>.Where
 	|-Enumerable.WhereSelectArrayIterator<object, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectArrayIterator<object, int>.Where
 	|-Enumerable.WhereSelectArrayIterator<object, Int32Enum>.Where
@@ -8902,7 +8691,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<BurstCloth.Chain, SevenBitNumber>..ctor
 	|-Enumerable.WhereSelectListIterator<BurstCloth.Chain, int>..ctor
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, bool>..ctor
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, int>..ctor
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, Int32Enum>..ctor
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, long>..ctor
@@ -8910,7 +8698,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, float>..ctor
 	|-Enumerable.WhereSelectListIterator<WeightedStringList.Container, float>..ctor
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, bool>..ctor
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, int>..ctor
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, Int32Enum>..ctor
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, long>..ctor
@@ -8923,7 +8710,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<ServerInfo, FourBitNumber>..ctor
 	|-Enumerable.WhereSelectListIterator<ServerInfo, SevenBitNumber>..ctor
 	|-Enumerable.WhereSelectListIterator<ServerInfo, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectListIterator<ServerInfo, bool>..ctor
 	|-Enumerable.WhereSelectListIterator<ServerInfo, int>..ctor
 	|-Enumerable.WhereSelectListIterator<ServerInfo, Int32Enum>..ctor
 	|-Enumerable.WhereSelectListIterator<ServerInfo, long>..ctor
@@ -8931,14 +8717,12 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<ServerInfo, float>..ctor
 	|-Enumerable.WhereSelectListIterator<SkinnedMultiMesh.Part, long>..ctor
 	|-Enumerable.WhereSelectListIterator<Achievement, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectListIterator<Achievement, bool>..ctor
 	|-Enumerable.WhereSelectListIterator<Achievement, int>..ctor
 	|-Enumerable.WhereSelectListIterator<Achievement, Int32Enum>..ctor
 	|-Enumerable.WhereSelectListIterator<Achievement, long>..ctor
 	|-Enumerable.WhereSelectListIterator<Achievement, object>..ctor
 	|-Enumerable.WhereSelectListIterator<Achievement, float>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectListIterator<InventoryDefId, bool>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, int>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, Int32Enum>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, long>..ctor
@@ -8947,7 +8731,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<ServerInfo, int>..ctor
 	|-Enumerable.WhereSelectListIterator<ServerInfo, object>..ctor
 	|-Enumerable.WhereSelectListIterator<Friend, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectListIterator<Friend, bool>..ctor
 	|-Enumerable.WhereSelectListIterator<Friend, int>..ctor
 	|-Enumerable.WhereSelectListIterator<Friend, Int32Enum>..ctor
 	|-Enumerable.WhereSelectListIterator<Friend, long>..ctor
@@ -8957,7 +8740,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<InventoryItem, SevenBitNumber>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryItem, PathFinder.Point>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryItem, InventoryItemId>..ctor
-	|-Enumerable.WhereSelectListIterator<InventoryItem, bool>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryItem, int>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryItem, Int32Enum>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryItem, long>..ctor
@@ -8969,7 +8751,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe, object>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, PathFinder.Point>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>..ctor
-	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, bool>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, int>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, Int32Enum>..ctor
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, long>..ctor
@@ -8977,14 +8758,12 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, float>..ctor
 	|-Enumerable.WhereSelectListIterator<DictionaryEntry, object>..ctor
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, bool>..ctor
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, int>..ctor
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, Int32Enum>..ctor
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, long>..ctor
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, object>..ctor
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, float>..ctor
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, bool>..ctor
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, int>..ctor
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, Int32Enum>..ctor
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, long>..ctor
@@ -8995,7 +8774,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<int, SevenBitNumber>..ctor
 	|-Enumerable.WhereSelectListIterator<int, int>..ctor
 	|-Enumerable.WhereSelectListIterator<Int32Enum, PathFinder.Point>..ctor
-	|-Enumerable.WhereSelectListIterator<Int32Enum, bool>..ctor
 	|-Enumerable.WhereSelectListIterator<Int32Enum, int>..ctor
 	|-Enumerable.WhereSelectListIterator<Int32Enum, Int32Enum>..ctor
 	|-Enumerable.WhereSelectListIterator<Int32Enum, long>..ctor
@@ -9006,7 +8784,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<object, PathFinder.Point>..ctor
 	|-Enumerable.WhereSelectListIterator<object, PlayerItemRecipe.Ingredient>..ctor
 	|-Enumerable.WhereSelectListIterator<object, InventoryItemId>..ctor
-	|-Enumerable.WhereSelectListIterator<object, bool>..ctor
 	|-Enumerable.WhereSelectListIterator<object, int>..ctor
 	|-Enumerable.WhereSelectListIterator<object, Int32Enum>..ctor
 	|-Enumerable.WhereSelectListIterator<object, long>..ctor
@@ -9127,7 +8904,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<BurstCloth.Chain, SevenBitNumber>.Clone
 	|-Enumerable.WhereSelectListIterator<BurstCloth.Chain, int>.Clone
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, bool>.Clone
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, int>.Clone
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, Int32Enum>.Clone
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, long>.Clone
@@ -9135,7 +8911,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, float>.Clone
 	|-Enumerable.WhereSelectListIterator<WeightedStringList.Container, float>.Clone
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, bool>.Clone
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, int>.Clone
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, Int32Enum>.Clone
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, long>.Clone
@@ -9148,7 +8923,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<ServerInfo, FourBitNumber>.Clone
 	|-Enumerable.WhereSelectListIterator<ServerInfo, SevenBitNumber>.Clone
 	|-Enumerable.WhereSelectListIterator<ServerInfo, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectListIterator<ServerInfo, bool>.Clone
 	|-Enumerable.WhereSelectListIterator<ServerInfo, int>.Clone
 	|-Enumerable.WhereSelectListIterator<ServerInfo, Int32Enum>.Clone
 	|-Enumerable.WhereSelectListIterator<ServerInfo, long>.Clone
@@ -9156,14 +8930,12 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<ServerInfo, float>.Clone
 	|-Enumerable.WhereSelectListIterator<SkinnedMultiMesh.Part, long>.Clone
 	|-Enumerable.WhereSelectListIterator<Achievement, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectListIterator<Achievement, bool>.Clone
 	|-Enumerable.WhereSelectListIterator<Achievement, int>.Clone
 	|-Enumerable.WhereSelectListIterator<Achievement, Int32Enum>.Clone
 	|-Enumerable.WhereSelectListIterator<Achievement, long>.Clone
 	|-Enumerable.WhereSelectListIterator<Achievement, object>.Clone
 	|-Enumerable.WhereSelectListIterator<Achievement, float>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectListIterator<InventoryDefId, bool>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, int>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, Int32Enum>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, long>.Clone
@@ -9172,7 +8944,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<ServerInfo, int>.Clone
 	|-Enumerable.WhereSelectListIterator<ServerInfo, object>.Clone
 	|-Enumerable.WhereSelectListIterator<Friend, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectListIterator<Friend, bool>.Clone
 	|-Enumerable.WhereSelectListIterator<Friend, int>.Clone
 	|-Enumerable.WhereSelectListIterator<Friend, Int32Enum>.Clone
 	|-Enumerable.WhereSelectListIterator<Friend, long>.Clone
@@ -9182,7 +8953,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<InventoryItem, SevenBitNumber>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryItem, PathFinder.Point>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryItem, InventoryItemId>.Clone
-	|-Enumerable.WhereSelectListIterator<InventoryItem, bool>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryItem, int>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryItem, Int32Enum>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryItem, long>.Clone
@@ -9194,7 +8964,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe, object>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, PathFinder.Point>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient>.Clone
-	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, bool>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, int>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, Int32Enum>.Clone
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, long>.Clone
@@ -9202,14 +8971,12 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, float>.Clone
 	|-Enumerable.WhereSelectListIterator<DictionaryEntry, object>.Clone
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, bool>.Clone
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, int>.Clone
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, Int32Enum>.Clone
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, long>.Clone
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, object>.Clone
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, float>.Clone
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, bool>.Clone
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, int>.Clone
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, Int32Enum>.Clone
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, long>.Clone
@@ -9220,7 +8987,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<int, SevenBitNumber>.Clone
 	|-Enumerable.WhereSelectListIterator<int, int>.Clone
 	|-Enumerable.WhereSelectListIterator<Int32Enum, PathFinder.Point>.Clone
-	|-Enumerable.WhereSelectListIterator<Int32Enum, bool>.Clone
 	|-Enumerable.WhereSelectListIterator<Int32Enum, int>.Clone
 	|-Enumerable.WhereSelectListIterator<Int32Enum, Int32Enum>.Clone
 	|-Enumerable.WhereSelectListIterator<Int32Enum, long>.Clone
@@ -9231,7 +8997,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<object, PathFinder.Point>.Clone
 	|-Enumerable.WhereSelectListIterator<object, PlayerItemRecipe.Ingredient>.Clone
 	|-Enumerable.WhereSelectListIterator<object, InventoryItemId>.Clone
-	|-Enumerable.WhereSelectListIterator<object, bool>.Clone
 	|-Enumerable.WhereSelectListIterator<object, int>.Clone
 	|-Enumerable.WhereSelectListIterator<object, Int32Enum>.Clone
 	|-Enumerable.WhereSelectListIterator<object, long>.Clone
@@ -9350,7 +9115,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|
 	|-Enumerable.WhereSelectListIterator<BurstCloth.Chain, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectListIterator<BurstCloth.Chain, SevenBitNumber>.MoveNext
-	|-Enumerable.WhereSelectListIterator<Achievement, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectListIterator<BurstCloth.Chain, int>.MoveNext
 	|-Enumerable.WhereSelectListIterator<Achievement, int>.MoveNext
@@ -9372,8 +9136,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.MoveNext
 	|
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, InventoryRecipe>.MoveNext
-	|
-	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, int>.MoveNext
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, Int32Enum>.MoveNext
@@ -9413,9 +9175,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, InventoryRecipe>.MoveNext
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, bool>.MoveNext
-	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, int>.MoveNext
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, Int32Enum>.MoveNext
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, int>.MoveNext
@@ -9430,7 +9189,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe.Ingredient, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe.Ingredient, SevenBitNumber>.MoveNext
-	|-Enumerable.WhereSelectListIterator<Friend, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe.Ingredient, int>.MoveNext
 	|-Enumerable.WhereSelectListIterator<Friend, int>.MoveNext
@@ -9445,7 +9203,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|
 	|-Enumerable.WhereSelectListIterator<ServerInfo, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectListIterator<ServerInfo, SevenBitNumber>.MoveNext
-	|-Enumerable.WhereSelectListIterator<ServerInfo, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectListIterator<ServerInfo, PathFinder.Point>.MoveNext
 	|-Enumerable.WhereSelectListIterator<ServerInfo, long>.MoveNext
@@ -9508,8 +9265,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectListIterator<InventoryDefId, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, int>.MoveNext
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, Int32Enum>.MoveNext
 	|
@@ -9549,7 +9304,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|
 	|-Enumerable.WhereSelectListIterator<InventoryItem, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectListIterator<InventoryItem, SevenBitNumber>.MoveNext
-	|-Enumerable.WhereSelectListIterator<InventoryItem, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectListIterator<InventoryItem, PathFinder.Point>.MoveNext
 	|-Enumerable.WhereSelectListIterator<InventoryItem, InventoryItemId>.MoveNext
@@ -9600,8 +9354,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, int>.MoveNext
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, Int32Enum>.MoveNext
 	|
@@ -9626,8 +9378,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, InventoryRecipe>.MoveNext
 	|
-	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, bool>.MoveNext
-	|
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, int>.MoveNext
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, Int32Enum>.MoveNext
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, uint>.MoveNext
@@ -9636,7 +9386,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|
 	|-Enumerable.WhereSelectListIterator<int, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectListIterator<int, SevenBitNumber>.MoveNext
-	|-Enumerable.WhereSelectListIterator<Int32Enum, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectListIterator<int, int>.MoveNext
 	|-Enumerable.WhereSelectListIterator<Int32Enum, int>.MoveNext
@@ -9669,7 +9418,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|
 	|-Enumerable.WhereSelectListIterator<object, FourBitNumber>.MoveNext
 	|-Enumerable.WhereSelectListIterator<object, SevenBitNumber>.MoveNext
-	|-Enumerable.WhereSelectListIterator<object, bool>.MoveNext
 	|
 	|-Enumerable.WhereSelectListIterator<object, PathFinder.Point>.MoveNext
 	|-Enumerable.WhereSelectListIterator<object, PlayerItemRecipe.Ingredient>.MoveNext
@@ -9709,7 +9457,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, object>.Select<bool>
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, object>.Select<int>
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, object>.Select<Int32Enum>
@@ -9724,7 +9471,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, object>.Select<bool>
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, object>.Select<int>
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, object>.Select<Int32Enum>
@@ -9745,7 +9491,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<ServerInfo, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectListIterator<ServerInfo, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectListIterator<ServerInfo, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectListIterator<ServerInfo, object>.Select<bool>
 	|-Enumerable.WhereSelectListIterator<ServerInfo, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectListIterator<ServerInfo, object>.Select<int>
 	|-Enumerable.WhereSelectListIterator<ServerInfo, object>.Select<Int32Enum>
@@ -9760,7 +9505,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<Achievement, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectListIterator<Achievement, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectListIterator<Achievement, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectListIterator<Achievement, object>.Select<bool>
 	|-Enumerable.WhereSelectListIterator<Achievement, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectListIterator<Achievement, object>.Select<int>
 	|-Enumerable.WhereSelectListIterator<Achievement, object>.Select<Int32Enum>
@@ -9775,7 +9519,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectListIterator<InventoryDefId, object>.Select<bool>
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, object>.Select<int>
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, object>.Select<Int32Enum>
@@ -9790,7 +9533,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<Friend, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectListIterator<Friend, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectListIterator<Friend, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectListIterator<Friend, object>.Select<bool>
 	|-Enumerable.WhereSelectListIterator<Friend, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectListIterator<Friend, object>.Select<int>
 	|-Enumerable.WhereSelectListIterator<Friend, object>.Select<Int32Enum>
@@ -9808,7 +9550,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<InventoryItem, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectListIterator<InventoryItem, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectListIterator<InventoryItem, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectListIterator<InventoryItem, object>.Select<bool>
 	|-Enumerable.WhereSelectListIterator<InventoryItem, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectListIterator<InventoryItem, object>.Select<int>
 	|-Enumerable.WhereSelectListIterator<InventoryItem, object>.Select<Int32Enum>
@@ -9824,7 +9565,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, object>.Select<bool>
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, object>.Select<int>
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, object>.Select<Int32Enum>
@@ -9839,7 +9579,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, object>.Select<bool>
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, object>.Select<int>
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, object>.Select<Int32Enum>
@@ -9854,7 +9593,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, object>.Select<bool>
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, object>.Select<int>
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, object>.Select<Int32Enum>
@@ -9872,7 +9610,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<Int32Enum, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectListIterator<Int32Enum, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectListIterator<Int32Enum, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectListIterator<Int32Enum, object>.Select<bool>
 	|-Enumerable.WhereSelectListIterator<Int32Enum, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectListIterator<Int32Enum, object>.Select<int>
 	|-Enumerable.WhereSelectListIterator<Int32Enum, object>.Select<Int32Enum>
@@ -9891,7 +9628,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<object, object>.Select<InventoryItem>
 	|-Enumerable.WhereSelectListIterator<object, object>.Select<InventoryRecipe.Ingredient>
 	|-Enumerable.WhereSelectListIterator<object, object>.Select<InventoryRecipe>
-	|-Enumerable.WhereSelectListIterator<object, object>.Select<bool>
 	|-Enumerable.WhereSelectListIterator<object, object>.Select<KeyValuePair<object, int>>
 	|-Enumerable.WhereSelectListIterator<object, object>.Select<int>
 	|-Enumerable.WhereSelectListIterator<object, object>.Select<Int32Enum>
@@ -9932,7 +9668,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, InventoryItem>.Where
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, bool>.Where
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, int>.Where
 	|-Enumerable.WhereSelectListIterator<SkeletonDefinition.Bone, Int32Enum>.Where
@@ -9948,7 +9683,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, InventoryItem>.Where
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, bool>.Where
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, int>.Where
 	|-Enumerable.WhereSelectListIterator<PlayerItemRecipe, Int32Enum>.Where
@@ -9970,7 +9704,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<ServerInfo, InventoryItem>.Where
 	|-Enumerable.WhereSelectListIterator<ServerInfo, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectListIterator<ServerInfo, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectListIterator<ServerInfo, bool>.Where
 	|-Enumerable.WhereSelectListIterator<ServerInfo, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectListIterator<ServerInfo, int>.Where
 	|-Enumerable.WhereSelectListIterator<ServerInfo, Int32Enum>.Where
@@ -9986,7 +9719,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<Achievement, InventoryItem>.Where
 	|-Enumerable.WhereSelectListIterator<Achievement, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectListIterator<Achievement, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectListIterator<Achievement, bool>.Where
 	|-Enumerable.WhereSelectListIterator<Achievement, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectListIterator<Achievement, int>.Where
 	|-Enumerable.WhereSelectListIterator<Achievement, Int32Enum>.Where
@@ -10001,7 +9733,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, InventoryItem>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectListIterator<InventoryDefId, bool>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, int>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryDefId, Int32Enum>.Where
@@ -10019,7 +9750,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<Friend, InventoryItem>.Where
 	|-Enumerable.WhereSelectListIterator<Friend, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectListIterator<Friend, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectListIterator<Friend, bool>.Where
 	|-Enumerable.WhereSelectListIterator<Friend, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectListIterator<Friend, int>.Where
 	|-Enumerable.WhereSelectListIterator<Friend, Int32Enum>.Where
@@ -10037,7 +9767,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<InventoryItem, InventoryItem>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryItem, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryItem, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectListIterator<InventoryItem, bool>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryItem, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryItem, int>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryItem, Int32Enum>.Where
@@ -10058,7 +9787,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, InventoryItem>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, bool>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, int>.Where
 	|-Enumerable.WhereSelectListIterator<InventoryRecipe.Ingredient, Int32Enum>.Where
@@ -10075,7 +9803,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, InventoryItem>.Where
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, bool>.Where
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, int>.Where
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<object, object>, Int32Enum>.Where
@@ -10090,7 +9817,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, InventoryItem>.Where
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, bool>.Where
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, int>.Where
 	|-Enumerable.WhereSelectListIterator<KeyValuePair<uint, object>, Int32Enum>.Where
@@ -10109,7 +9835,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<Int32Enum, InventoryItem>.Where
 	|-Enumerable.WhereSelectListIterator<Int32Enum, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectListIterator<Int32Enum, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectListIterator<Int32Enum, bool>.Where
 	|-Enumerable.WhereSelectListIterator<Int32Enum, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectListIterator<Int32Enum, int>.Where
 	|-Enumerable.WhereSelectListIterator<Int32Enum, Int32Enum>.Where
@@ -10129,7 +9854,6 @@ private class Enumerable.WhereSelectListIterator<TSource, TResult> : Enumerable.
 	|-Enumerable.WhereSelectListIterator<object, InventoryItem>.Where
 	|-Enumerable.WhereSelectListIterator<object, InventoryRecipe.Ingredient>.Where
 	|-Enumerable.WhereSelectListIterator<object, InventoryRecipe>.Where
-	|-Enumerable.WhereSelectListIterator<object, bool>.Where
 	|-Enumerable.WhereSelectListIterator<object, KeyValuePair<object, int>>.Where
 	|-Enumerable.WhereSelectListIterator<object, int>.Where
 	|-Enumerable.WhereSelectListIterator<object, Int32Enum>.Where
@@ -10168,7 +9892,6 @@ private sealed class Enumerable.<>c__DisplayClass6_0<TSource> // TypeDefIndex: 3
 	|-Enumerable.<>c__DisplayClass6_0<InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass6_0<InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass6_0<InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass6_0<bool>..ctor
 	|-Enumerable.<>c__DisplayClass6_0<char>..ctor
 	|-Enumerable.<>c__DisplayClass6_0<KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass6_0<KeyValuePair<object, object>>..ctor
@@ -10216,8 +9939,6 @@ private sealed class Enumerable.<>c__DisplayClass6_0<TSource> // TypeDefIndex: 3
 	|-Enumerable.<>c__DisplayClass6_0<InventoryRecipe>.<CombinePredicates>b__0
 	|-Enumerable.<>c__DisplayClass6_0<KeyValuePair<ulong, Dispatch.ResultCallback>>.<CombinePredicates>b__0
 	|
-	|-Enumerable.<>c__DisplayClass6_0<bool>.<CombinePredicates>b__0
-	|
 	|-Enumerable.<>c__DisplayClass6_0<char>.<CombinePredicates>b__0
 	|
 	|-Enumerable.<>c__DisplayClass6_0<int>.<CombinePredicates>b__0
@@ -10253,7 +9974,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, InventoryItem, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, InventoryRecipe, InventoryRecipe>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, bool, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, KeyValuePair<object, int>, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, int, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, Int32Enum, Int32Enum>..ctor
@@ -10265,7 +9985,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, Int32Enum>..ctor
@@ -10282,7 +10001,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, InventoryItem, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, InventoryRecipe, InventoryRecipe>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, bool, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, KeyValuePair<object, int>, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, int, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, Int32Enum, Int32Enum>..ctor
@@ -10294,7 +10012,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, object, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, object, InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, object, InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, object, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, object, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, object, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, object, Int32Enum>..ctor
@@ -10319,7 +10036,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, InventoryItem, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, InventoryRecipe, InventoryRecipe>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, bool, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, KeyValuePair<object, int>, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, int, FourBitNumber>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, int, SevenBitNumber>..ctor
@@ -10333,7 +10049,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, object, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, object, InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, object, InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, object, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, object, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, object, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, object, Int32Enum>..ctor
@@ -10350,7 +10065,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, InventoryItem, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, InventoryRecipe, InventoryRecipe>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<Achievement, bool, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, KeyValuePair<object, int>, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, int, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, Int32Enum, Int32Enum>..ctor
@@ -10362,7 +10076,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, object, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, object, InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, object, InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<Achievement, object, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, object, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, object, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, object, Int32Enum>..ctor
@@ -10379,7 +10092,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, InventoryItem, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, InventoryRecipe, InventoryRecipe>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, bool, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, KeyValuePair<object, int>, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, int, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, Int32Enum, Int32Enum>..ctor
@@ -10391,7 +10103,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, object, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, object, InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, object, InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, object, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, object, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, object, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, object, Int32Enum>..ctor
@@ -10412,7 +10123,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<Friend, InventoryItem, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Friend, InventoryRecipe, InventoryRecipe>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Friend, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<Friend, bool, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Friend, KeyValuePair<object, int>, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Friend, int, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Friend, Int32Enum, Int32Enum>..ctor
@@ -10424,7 +10134,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<Friend, object, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Friend, object, InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Friend, object, InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<Friend, object, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Friend, object, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Friend, object, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Friend, object, Int32Enum>..ctor
@@ -10443,7 +10152,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, InventoryItem, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, InventoryRecipe, InventoryRecipe>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, bool, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, KeyValuePair<object, int>, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, int, FourBitNumber>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, int, SevenBitNumber>..ctor
@@ -10457,7 +10165,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, object, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, object, InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, object, InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, object, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, object, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, object, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, object, Int32Enum>..ctor
@@ -10477,7 +10184,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, InventoryItem, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, InventoryRecipe, InventoryRecipe>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, bool, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, KeyValuePair<object, int>, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, int, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, Int32Enum, Int32Enum>..ctor
@@ -10489,7 +10195,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, object, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, object, InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, object, InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, object, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, object, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, object, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, object, Int32Enum>..ctor
@@ -10508,7 +10213,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, InventoryItem, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, InventoryRecipe, InventoryRecipe>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, bool, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, KeyValuePair<object, int>, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, int, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, Int32Enum, Int32Enum>..ctor
@@ -10520,7 +10224,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, object, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, object, InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, object, InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, object, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, object, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, object, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, object, Int32Enum>..ctor
@@ -10537,7 +10240,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, InventoryItem, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, InventoryRecipe, InventoryRecipe>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, bool, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, KeyValuePair<object, int>, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, int, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, Int32Enum, Int32Enum>..ctor
@@ -10549,7 +10251,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, object, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, object, InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, object, InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, object, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, object, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, object, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, object, Int32Enum>..ctor
@@ -10569,7 +10270,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, InventoryItem, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, InventoryRecipe, InventoryRecipe>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, bool, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, KeyValuePair<object, int>, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, int, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, Int32Enum, Int32Enum>..ctor
@@ -10581,7 +10281,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, object, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, object, InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, object, InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, object, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, object, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, object, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, object, Int32Enum>..ctor
@@ -10616,7 +10315,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<object, object, InventoryItem>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<object, object, InventoryRecipe.Ingredient>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<object, object, InventoryRecipe>..ctor
-	|-Enumerable.<>c__DisplayClass7_0<object, object, bool>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<object, object, KeyValuePair<object, int>>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<object, object, int>..ctor
 	|-Enumerable.<>c__DisplayClass7_0<object, object, Int32Enum>..ctor
@@ -10634,10 +10332,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<BurstCloth.Chain, SevenBitNumber, SevenBitNumber>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe.Ingredient, FourBitNumber, FourBitNumber>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe.Ingredient, SevenBitNumber, SevenBitNumber>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<Achievement, bool, bool>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, bool, bool>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<Friend, bool, bool>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, bool, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<object, FourBitNumber, FourBitNumber>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<object, SevenBitNumber, SevenBitNumber>.<CombineSelectors>b__0
 	|
@@ -10670,7 +10364,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, PathFinder.Point, PathFinder.Point>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, long, long>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, PathFinder.Point>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, Int32Enum>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, object, long>.<CombineSelectors>b__0
@@ -10685,8 +10378,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, InventoryRecipe, InventoryRecipe>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.<CombineSelectors>b__0
-	|
-	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, bool, bool>.<CombineSelectors>b__0
 	|
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, int, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<SkeletonDefinition.Bone, Int32Enum, Int32Enum>.<CombineSelectors>b__0
@@ -10715,7 +10406,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, PathFinder.Point, PathFinder.Point>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, long, long>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, object, PathFinder.Point>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, object, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, object, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, object, Int32Enum>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, object, long>.<CombineSelectors>b__0
@@ -10725,7 +10415,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, PathFinder.Point, PathFinder.Point>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, long, long>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, object, PathFinder.Point>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, object, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, object, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, object, Int32Enum>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, object, long>.<CombineSelectors>b__0
@@ -10734,7 +10423,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, PathFinder.Point, PathFinder.Point>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, long, long>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, object, PathFinder.Point>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, object, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, object, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, object, Int32Enum>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, object, long>.<CombineSelectors>b__0
@@ -10761,10 +10449,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, InventoryRecipe, InventoryRecipe>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.<CombineSelectors>b__0
-	|
-	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, bool, bool>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<object, object>, bool, bool>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<KeyValuePair<uint, object>, bool, bool>.<CombineSelectors>b__0
 	|
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, int, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<PlayerItemRecipe, Int32Enum, Int32Enum>.<CombineSelectors>b__0
@@ -10814,12 +10498,10 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, FourBitNumber, FourBitNumber>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, SevenBitNumber, SevenBitNumber>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, bool, bool>.<CombineSelectors>b__0
 	|
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, PathFinder.Point, PathFinder.Point>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, long, long>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, object, PathFinder.Point>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, object, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, object, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, object, Int32Enum>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<ServerInfo, object, long>.<CombineSelectors>b__0
@@ -10869,7 +10551,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, PathFinder.Point, PathFinder.Point>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, long, long>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, object, PathFinder.Point>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<Achievement, object, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, object, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, object, Int32Enum>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Achievement, object, long>.<CombineSelectors>b__0
@@ -10878,7 +10559,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, PathFinder.Point, PathFinder.Point>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, long, long>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, object, PathFinder.Point>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, object, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, object, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, object, Int32Enum>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryDefId, object, long>.<CombineSelectors>b__0
@@ -10887,7 +10567,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<Friend, PathFinder.Point, PathFinder.Point>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Friend, long, long>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Friend, object, PathFinder.Point>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<Friend, object, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Friend, object, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Friend, object, Int32Enum>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Friend, object, long>.<CombineSelectors>b__0
@@ -10896,7 +10575,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, PathFinder.Point, PathFinder.Point>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, long, long>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, object, PathFinder.Point>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, object, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, object, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, object, Int32Enum>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<Int32Enum, object, long>.<CombineSelectors>b__0
@@ -10905,7 +10583,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<object, PlayerItemRecipe.Ingredient, PlayerItemRecipe.Ingredient>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<object, InventoryItemId, InventoryItemId>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<object, object, PathFinder.Point>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<object, object, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<object, object, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<object, object, Int32Enum>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<object, object, long>.<CombineSelectors>b__0
@@ -10985,12 +10662,10 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, FourBitNumber, FourBitNumber>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, SevenBitNumber, SevenBitNumber>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, bool, bool>.<CombineSelectors>b__0
 	|
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, PathFinder.Point, PathFinder.Point>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, long, long>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, object, PathFinder.Point>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, object, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, object, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, object, Int32Enum>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryItem, object, long>.<CombineSelectors>b__0
@@ -11029,7 +10704,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, PlayerItemRecipe.Ingredient, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, long, long>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, object, PathFinder.Point>.<CombineSelectors>b__0
-	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, object, bool>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, object, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, object, Int32Enum>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, object, long>.<CombineSelectors>b__0
@@ -11047,8 +10721,6 @@ private sealed class Enumerable.<>c__DisplayClass7_0<TSource, TMiddle, TResult> 
 	|
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, InventoryRecipe, InventoryRecipe>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, InventoryRecipe.Ingredient, InventoryRecipe.Ingredient>.<CombineSelectors>b__0
-	|
-	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, bool, bool>.<CombineSelectors>b__0
 	|
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, int, int>.<CombineSelectors>b__0
 	|-Enumerable.<>c__DisplayClass7_0<InventoryRecipe.Ingredient, Int32Enum, Int32Enum>.<CombineSelectors>b__0
@@ -12667,7 +12339,7 @@ internal class EnumerableSorter<TElement, TKey> : EnumerableSorter<TElement> // 
 
 }
 
-public sealed class EnumMemberAttribute : Attribute // TypeDefIndex: 5708
+public sealed class EnumMemberAttribute : Attribute // TypeDefIndex: 5710
 {
 	private string value; 
 
@@ -12678,7 +12350,7 @@ public sealed class EnumMemberAttribute : Attribute // TypeDefIndex: 5708
 
 }
 
-internal static class EnumUtils // TypeDefIndex: 5955
+internal static class EnumUtils // TypeDefIndex: 5957
 {
 	private static readonly ThreadSafeStore<Type, BidirectionalDictionary<string, string>> EnumMemberNamesPerType; 
 
@@ -12697,7 +12369,7 @@ internal static class EnumUtils // TypeDefIndex: 5955
 
 }
 
-private sealed class EnumUtils.<>c // TypeDefIndex: 5956
+private sealed class EnumUtils.<>c // TypeDefIndex: 5958
 {
 	public static readonly EnumUtils.<>c <>9; 
 	public static Func<EnumMemberAttribute, string> <>9__1_0; 
@@ -12714,7 +12386,7 @@ private sealed class EnumUtils.<>c // TypeDefIndex: 5956
 
 }
 
-private sealed class EnumUtils.<>c__2<T> // TypeDefIndex: 5957
+private sealed class EnumUtils.<>c__2<T> // TypeDefIndex: 5959
 {
 	public static readonly EnumUtils.<>c__2<T> <>9; 
 
@@ -12725,7 +12397,7 @@ private sealed class EnumUtils.<>c__2<T> // TypeDefIndex: 5957
 
 }
 
-public struct EnumerateModsCallbackInfo : ICallbackInfo // TypeDefIndex: 8967
+public struct EnumerateModsCallbackInfo : ICallbackInfo // TypeDefIndex: 8998
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 
@@ -12772,7 +12444,7 @@ public struct EnumerateModsCallbackInfo : ICallbackInfo // TypeDefIndex: 8967
 
 }
 
-internal struct EnumerateModsCallbackInfoInternal : ICallbackInfoInternal, IGettable<EnumerateModsCallbackInfo>, ISettable<EnumerateModsCallbackInfo>, IDisposable // TypeDefIndex: 8968
+internal struct EnumerateModsCallbackInfoInternal : ICallbackInfoInternal, IGettable<EnumerateModsCallbackInfo>, ISettable<EnumerateModsCallbackInfo>, IDisposable // TypeDefIndex: 8999
 {
 	private Result m_ResultCode; 
 	private IntPtr m_LocalUserId; 
@@ -12814,7 +12486,7 @@ internal struct EnumerateModsCallbackInfoInternal : ICallbackInfoInternal, IGett
 
 }
 
-public struct EnumerateModsOptions // TypeDefIndex: 8969
+public struct EnumerateModsOptions // TypeDefIndex: 9000
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 
@@ -12839,7 +12511,7 @@ public struct EnumerateModsOptions // TypeDefIndex: 8969
 
 }
 
-internal struct EnumerateModsOptionsInternal : ISettable<EnumerateModsOptions>, IDisposable // TypeDefIndex: 8970
+internal struct EnumerateModsOptionsInternal : ISettable<EnumerateModsOptions>, IDisposable // TypeDefIndex: 9001
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 
@@ -12861,7 +12533,7 @@ internal struct EnumerateModsOptionsInternal : ISettable<EnumerateModsOptions>, 
 
 }
 
-public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 12473
+public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 12504
 {
 	public object Value; 
 	public RustText TextValue; 
@@ -12876,7 +12548,7 @@ public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 12473
 
 }
 
-public class EnumListUI : MonoBehaviour // TypeDefIndex: 12474
+public class EnumListUI : MonoBehaviour // TypeDefIndex: 12505
 {
 	public Transform PrefabItem; 
 	public Transform Container; 

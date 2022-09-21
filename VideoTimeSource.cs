@@ -1,4 +1,4 @@
-public enum VideoTimeSource // TypeDefIndex: 4779
+public enum VideoTimeSource // TypeDefIndex: 4781
 {
 	public int value__; 
 	public const VideoTimeSource AudioDSPTimeSource = 0;

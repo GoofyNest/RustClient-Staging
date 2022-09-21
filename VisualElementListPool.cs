@@ -1,4 +1,4 @@
-internal static class VisualElementListPool // TypeDefIndex: 4612
+internal static class VisualElementListPool // TypeDefIndex: 4614
 {
 	private static ObjectPool<List<VisualElement>> pool; 
 

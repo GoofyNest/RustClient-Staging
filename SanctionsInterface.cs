@@ -1,4 +1,4 @@
-public sealed class SanctionsInterface : Handle // TypeDefIndex: 8587
+public sealed class SanctionsInterface : Handle // TypeDefIndex: 8618
 {
 	public const int CopyplayersanctionbyindexApiLatest = 1;
 	public const int GetplayersanctioncountApiLatest = 1;

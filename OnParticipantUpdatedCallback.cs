@@ -1,4 +1,4 @@
-public sealed class OnParticipantUpdatedCallback : MulticastDelegate // TypeDefIndex: 8642
+public sealed class OnParticipantUpdatedCallback : MulticastDelegate // TypeDefIndex: 8673
 {
 
 	public void .ctor(object object, IntPtr method) { }

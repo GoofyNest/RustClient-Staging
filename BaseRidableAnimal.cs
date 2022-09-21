@@ -1,4 +1,4 @@
-public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 10018
+public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 10049
 {
 	private Option __menuOption_Menu_Claim; 
 	private Option __menuOption_Menu_Lead; 
@@ -181,7 +181,7 @@ public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 10018
 
 }
 
-public enum BaseRidableAnimal.RunState // TypeDefIndex: 10019
+public enum BaseRidableAnimal.RunState // TypeDefIndex: 10050
 {
 	public int value__; 
 	public const BaseRidableAnimal.RunState stopped = 1;

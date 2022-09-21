@@ -1,4 +1,4 @@
-public struct TimeAverageValueData // TypeDefIndex: 6689
+public struct TimeAverageValueData // TypeDefIndex: 6855
 {
 	private double refreshTime; 
 	private ulong counterPrev; 

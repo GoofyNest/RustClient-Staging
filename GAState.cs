@@ -1,4 +1,4 @@
-internal class GAState // TypeDefIndex: 5671
+internal class GAState // TypeDefIndex: 5673
 {
 	private static readonly GAState _instance; 
 	private string _userId; 

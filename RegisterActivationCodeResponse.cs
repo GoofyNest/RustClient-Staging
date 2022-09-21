@@ -1,4 +1,4 @@
-internal struct RegisterActivationCodeResponse_t : ICallbackData // TypeDefIndex: 5400
+internal struct RegisterActivationCodeResponse_t : ICallbackData // TypeDefIndex: 5402
 {
 	internal RegisterActivationCodeResult Result; 
 	internal uint PackageRegistered; 

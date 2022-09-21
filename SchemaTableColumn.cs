@@ -1,4 +1,4 @@
-public static class SchemaTableColumn // TypeDefIndex: 4427
+public static class SchemaTableColumn // TypeDefIndex: 4429
 {
 	public static readonly string ColumnName; 
 	public static readonly string ColumnOrdinal; 

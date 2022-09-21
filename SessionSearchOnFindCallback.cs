@@ -1,4 +1,4 @@
-public sealed class SessionSearchOnFindCallback : MulticastDelegate // TypeDefIndex: 8548
+public sealed class SessionSearchOnFindCallback : MulticastDelegate // TypeDefIndex: 8579
 {
 
 	public void .ctor(object object, IntPtr method) { }

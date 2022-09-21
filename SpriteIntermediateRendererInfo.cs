@@ -1,4 +1,4 @@
-internal struct SpriteIntermediateRendererInfo // TypeDefIndex: 3874
+internal struct SpriteIntermediateRendererInfo // TypeDefIndex: 3876
 {
 	public int SpriteID; 
 	public int TextureID; 

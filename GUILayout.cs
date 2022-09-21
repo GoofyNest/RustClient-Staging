@@ -1,4 +1,4 @@
-public class GUILayout // TypeDefIndex: 4038
+public class GUILayout // TypeDefIndex: 4040
 {
 
 	public static void Label(string text, GUILayoutOption[] options) { }

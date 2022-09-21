@@ -1,4 +1,4 @@
-internal enum CallbackPhase // TypeDefIndex: 4645
+internal enum CallbackPhase // TypeDefIndex: 4647
 {
 	public int value__; 
 	public const CallbackPhase TargetAndBubbleUp = 1;

@@ -1,4 +1,4 @@
-internal sealed class SqlDateTimeStorage : DataStorage // TypeDefIndex: 4416
+internal sealed class SqlDateTimeStorage : DataStorage // TypeDefIndex: 4418
 {
 	private SqlDateTime[] _values; 
 

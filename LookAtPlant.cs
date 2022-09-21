@@ -1,4 +1,4 @@
-public class LookAtPlant : MonoBehaviour // TypeDefIndex: 12773
+public class LookAtPlant : MonoBehaviour // TypeDefIndex: 12804
 {
 	public CanvasGroup group; 
 	public UIGenesDisplay GeneDisplay; 

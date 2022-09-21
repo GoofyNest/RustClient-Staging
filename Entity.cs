@@ -6,7 +6,7 @@ public enum EntityHandling // TypeDefIndex: 1838
 
 }
 
-public class EntityTagHeaderValue : ICloneable // TypeDefIndex: 5766
+public class EntityTagHeaderValue : ICloneable // TypeDefIndex: 5768
 {
 	private static readonly EntityTagHeaderValue any; 
 	[CompilerGeneratedAttribute] 
@@ -50,7 +50,7 @@ public class EntityTagHeaderValue : ICloneable // TypeDefIndex: 5766
 
 }
 
-public class Entity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6292
+public class Entity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6294
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -220,7 +220,7 @@ public class Entity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6292
 
 }
 
-public class EntitySlots : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6297
+public class EntitySlots : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6299
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -286,7 +286,7 @@ public class EntitySlots : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 62
 
 }
 
-public class EntityList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6482
+public class EntityList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6484
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -347,7 +347,7 @@ public class EntityList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 648
 
 }
 
-public class EntityIdList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6505
+public class EntityIdList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6507
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -408,7 +408,7 @@ public class EntityIdList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 }
 
-public static class Entity // TypeDefIndex: 6629
+public static class Entity // TypeDefIndex: 6631
 {
 	private static Dictionary<Transform, IEntity> _dict; 
 
@@ -429,7 +429,7 @@ public static class Entity // TypeDefIndex: 6629
 
 }
 
-public enum EntityType // TypeDefIndex: 11097
+public enum EntityType // TypeDefIndex: 11128
 {
 	public int value__; 
 	public const EntityType Player = 1;
@@ -442,7 +442,7 @@ public enum EntityType // TypeDefIndex: 11097
 
 }
 
-public class EntityCollisionMessage : EntityComponent<BaseEntity> // TypeDefIndex: 11158
+public class EntityCollisionMessage : EntityComponent<BaseEntity> // TypeDefIndex: 11189
 {
 
 	private void OnCollisionEnter(Collision collision) { }
@@ -451,7 +451,7 @@ public class EntityCollisionMessage : EntityComponent<BaseEntity> // TypeDefInde
 
 }
 
-public class EntityComponent<T> : EntityComponentBase // TypeDefIndex: 11159
+public class EntityComponent<T> : EntityComponentBase // TypeDefIndex: 11190
 {
 	private T _baseEntity; 
 
@@ -490,7 +490,7 @@ public class EntityComponent<T> : EntityComponentBase // TypeDefIndex: 11159
 
 }
 
-public class EntityComponentBase : BaseMonoBehaviour // TypeDefIndex: 11160
+public class EntityComponentBase : BaseMonoBehaviour // TypeDefIndex: 11191
 {
 	public virtual bool HasMenuOptions { get; }
 
@@ -507,7 +507,7 @@ public class EntityComponentBase : BaseMonoBehaviour // TypeDefIndex: 11160
 
 }
 
-public class EntityDebug : EntityComponent<BaseEntity> // TypeDefIndex: 11161
+public class EntityDebug : EntityComponent<BaseEntity> // TypeDefIndex: 11192
 {
 	internal Stopwatch stopwatch; 
 
@@ -518,7 +518,7 @@ public class EntityDebug : EntityComponent<BaseEntity> // TypeDefIndex: 11161
 
 }
 
-public class EntityFlag_Animator : EntityFlag_Toggle // TypeDefIndex: 11162
+public class EntityFlag_Animator : EntityFlag_Toggle // TypeDefIndex: 11193
 {
 	public Animator TargetAnimator; 
 	public string ParamName; 
@@ -541,7 +541,7 @@ public class EntityFlag_Animator : EntityFlag_Toggle // TypeDefIndex: 11162
 
 }
 
-public enum EntityFlag_Animator.AnimatorMode // TypeDefIndex: 11163
+public enum EntityFlag_Animator.AnimatorMode // TypeDefIndex: 11194
 {
 	public int value__; 
 	public const EntityFlag_Animator.AnimatorMode Bool = 0;
@@ -551,7 +551,7 @@ public enum EntityFlag_Animator.AnimatorMode // TypeDefIndex: 11163
 
 }
 
-public class EntityFlag_TOD : EntityComponent<BaseEntity> // TypeDefIndex: 11164
+public class EntityFlag_TOD : EntityComponent<BaseEntity> // TypeDefIndex: 11195
 {
 	public BaseEntity.Flags desiredFlag; 
 	public bool onAtNight; 
@@ -561,7 +561,7 @@ public class EntityFlag_TOD : EntityComponent<BaseEntity> // TypeDefIndex: 11164
 
 }
 
-public class EntityFlag_Toggle : EntityComponent<BaseEntity>, IOnPostNetworkUpdate, IOnSendNetworkUpdate, IPrefabPreProcess // TypeDefIndex: 11165
+public class EntityFlag_Toggle : EntityComponent<BaseEntity>, IOnPostNetworkUpdate, IOnSendNetworkUpdate, IPrefabPreProcess // TypeDefIndex: 11196
 {
 	public bool runClientside; 
 	public bool runServerside; 
@@ -590,7 +590,7 @@ public class EntityFlag_Toggle : EntityComponent<BaseEntity>, IOnPostNetworkUpda
 
 }
 
-public class EntityFlag_ToggleNotify : EntityFlag_Toggle // TypeDefIndex: 11166
+public class EntityFlag_ToggleNotify : EntityFlag_Toggle // TypeDefIndex: 11197
 {
 	public bool UseEntityParent; 
 
@@ -601,7 +601,7 @@ public class EntityFlag_ToggleNotify : EntityFlag_Toggle // TypeDefIndex: 11166
 
 }
 
-public class EntityItem_RotateWhenOn : EntityComponent<BaseEntity>, IOnPostNetworkUpdate // TypeDefIndex: 11168
+public class EntityItem_RotateWhenOn : EntityComponent<BaseEntity>, IOnPostNetworkUpdate // TypeDefIndex: 11199
 {
 	public EntityItem_RotateWhenOn.State on; 
 	public EntityItem_RotateWhenOn.State off; 
@@ -628,7 +628,7 @@ public class EntityItem_RotateWhenOn : EntityComponent<BaseEntity>, IOnPostNetwo
 
 }
 
-public class EntityItem_RotateWhenOn.State // TypeDefIndex: 11169
+public class EntityItem_RotateWhenOn.State // TypeDefIndex: 11200
 {
 	public Vector3 rotation; 
 	public float initialDelay; 
@@ -646,7 +646,7 @@ public class EntityItem_RotateWhenOn.State // TypeDefIndex: 11169
 
 }
 
-private sealed class EntityItem_RotateWhenOn.<RotateTo>d__12 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11170
+private sealed class EntityItem_RotateWhenOn.<RotateTo>d__12 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11201
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -680,7 +680,7 @@ private sealed class EntityItem_RotateWhenOn.<RotateTo>d__12 : IEnumerator<objec
 
 }
 
-public class EntityTimedDestroy : EntityComponent<BaseEntity> // TypeDefIndex: 11171
+public class EntityTimedDestroy : EntityComponent<BaseEntity> // TypeDefIndex: 11202
 {
 	public float secondsTillDestroy; 
 
@@ -689,7 +689,7 @@ public class EntityTimedDestroy : EntityComponent<BaseEntity> // TypeDefIndex: 1
 
 }
 
-public class EntityFuelSystem // TypeDefIndex: 11204
+public class EntityFuelSystem // TypeDefIndex: 11235
 {
 	private readonly bool isServer; 
 	private readonly bool editorGiveFreeFuel; 
@@ -705,7 +705,7 @@ public class EntityFuelSystem // TypeDefIndex: 11204
 
 }
 
-public class EntityLink : Pool.IPooled // TypeDefIndex: 11205
+public class EntityLink : Pool.IPooled // TypeDefIndex: 11236
 {
 	public BaseEntity owner; 
 	public Socket_Base socket; 
@@ -745,7 +745,7 @@ public class EntityLink : Pool.IPooled // TypeDefIndex: 11205
 
 }
 
-public static class EntityLinkEx // TypeDefIndex: 11206
+public static class EntityLinkEx // TypeDefIndex: 11237
 {
 
 	[ExtensionAttribute] 
@@ -759,7 +759,7 @@ public static class EntityLinkEx // TypeDefIndex: 11206
 
 }
 
-public struct EntityRef // TypeDefIndex: 11207
+public struct EntityRef // TypeDefIndex: 11238
 {
 	internal BaseEntity ent_cached; 
 	internal uint id_cached; 
@@ -781,7 +781,7 @@ public struct EntityRef // TypeDefIndex: 11207
 
 }
 
-public struct EntityRef<T> // TypeDefIndex: 11208
+public struct EntityRef<T> // TypeDefIndex: 11239
 {
 	private EntityRef entityRef; 
 
@@ -879,7 +879,7 @@ public struct EntityRef<T> // TypeDefIndex: 11208
 
 }
 
-public class EntityHUDRender : MonoBehaviour // TypeDefIndex: 12600
+public class EntityHUDRender : MonoBehaviour // TypeDefIndex: 12631
 {
 	internal BaseEntity cachedEntity; 
 
@@ -890,7 +890,7 @@ public class EntityHUDRender : MonoBehaviour // TypeDefIndex: 12600
 
 }
 
-public class Entity : ConsoleSystem // TypeDefIndex: 13605
+public class Entity : ConsoleSystem // TypeDefIndex: 13637
 {
 
 	[ClientVar] 
@@ -950,7 +950,7 @@ public class Entity : ConsoleSystem // TypeDefIndex: 13605
 
 }
 
-private struct Entity.EntityInfo // TypeDefIndex: 13606
+private struct Entity.EntityInfo // TypeDefIndex: 13638
 {
 	public BaseNetworkable entity; 
 	public uint entityID; 
@@ -963,7 +963,7 @@ private struct Entity.EntityInfo // TypeDefIndex: 13606
 
 }
 
-private sealed class Entity.<>c__DisplayClass3_0 // TypeDefIndex: 13607
+private sealed class Entity.<>c__DisplayClass3_0 // TypeDefIndex: 13639
 {
 	public string filter; 
 
@@ -974,7 +974,7 @@ private sealed class Entity.<>c__DisplayClass3_0 // TypeDefIndex: 13607
 
 }
 
-private sealed class Entity.<>c__DisplayClass4_0 // TypeDefIndex: 13608
+private sealed class Entity.<>c__DisplayClass4_0 // TypeDefIndex: 13640
 {
 	public uint filter; 
 
@@ -985,7 +985,7 @@ private sealed class Entity.<>c__DisplayClass4_0 // TypeDefIndex: 13608
 
 }
 
-private sealed class Entity.<>c__DisplayClass5_0 // TypeDefIndex: 13609
+private sealed class Entity.<>c__DisplayClass5_0 // TypeDefIndex: 13641
 {
 	public uint filter; 
 
@@ -996,7 +996,7 @@ private sealed class Entity.<>c__DisplayClass5_0 // TypeDefIndex: 13609
 
 }
 
-private sealed class Entity.<>c__DisplayClass6_0 // TypeDefIndex: 13610
+private sealed class Entity.<>c__DisplayClass6_0 // TypeDefIndex: 13642
 {
 	public uint filter; 
 
@@ -1007,7 +1007,7 @@ private sealed class Entity.<>c__DisplayClass6_0 // TypeDefIndex: 13610
 
 }
 
-private sealed class Entity.<>c__DisplayClass7_0 // TypeDefIndex: 13611
+private sealed class Entity.<>c__DisplayClass7_0 // TypeDefIndex: 13643
 {
 	public string filter; 
 
@@ -1018,7 +1018,7 @@ private sealed class Entity.<>c__DisplayClass7_0 // TypeDefIndex: 13611
 
 }
 
-private sealed class Entity.<>c__DisplayClass8_0 // TypeDefIndex: 13612
+private sealed class Entity.<>c__DisplayClass8_0 // TypeDefIndex: 13644
 {
 	public BasePlayer player; 
 	public uint filter; 
@@ -1030,7 +1030,7 @@ private sealed class Entity.<>c__DisplayClass8_0 // TypeDefIndex: 13612
 
 }
 
-private sealed class Entity.<>c__DisplayClass9_0 // TypeDefIndex: 13613
+private sealed class Entity.<>c__DisplayClass9_0 // TypeDefIndex: 13645
 {
 	public uint filter; 
 

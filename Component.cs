@@ -41,7 +41,7 @@ public class Component : MarshalByRefObject, IComponent, IDisposable // TypeDefI
 
 }
 
-public class Component : Object // TypeDefIndex: 3508
+public class Component : Object // TypeDefIndex: 3510
 {
 	public Transform transform { get; }
 	public GameObject gameObject { get; }
@@ -339,6 +339,7 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.TryGetComponent<ConnectedSpeaker>
 	|-Component.TryGetComponent<DragMeCustomParent>
 	|-Component.TryGetComponent<DungeonGridInfo>
+	|-Component.TryGetComponent<IFlexNode>
 	|-Component.TryGetComponent<HitboxSystem>
 	|-Component.TryGetComponent<IAnimationEventReceiver>
 	|-Component.TryGetComponent<IAudioConnectionSource>
@@ -441,6 +442,8 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponentsInChildren<NetGraphRow>
 	|-Component.GetComponentsInChildren<MaterialRow>
 	|-Component.GetComponentsInChildren<ServerBrowserList>
+	|-Component.GetComponentsInChildren<ServerBrowserTag>
+	|-Component.GetComponentsInChildren<ServerBrowserTagGroup>
 	|-Component.GetComponentsInChildren<SingletonComponent>
 	|-Component.GetComponentsInChildren<SocketHandle>
 	|-Component.GetComponentsInChildren<SocketMod>
@@ -510,7 +513,6 @@ public class Component : Object // TypeDefIndex: 3508
 	|-Component.GetComponentsInChildren<NetGraphItem>
 	|-Component.GetComponentsInChildren<RustText>
 	|-Component.GetComponentsInChildren<TimelineMarker>
-	|-Component.GetComponentsInChildren<ServerBrowserTag>
 	|-Component.GetComponentsInChildren<Sound>
 	|-Component.GetComponentsInChildren<TMP_SubMesh>
 	|-Component.GetComponentsInChildren<TMP_SubMeshUI>

@@ -1,4 +1,4 @@
-public class ConversationManager : MonoBehaviour // TypeDefIndex: 10518
+public class ConversationManager : MonoBehaviour // TypeDefIndex: 10549
 {
 	private static ConversationManager.Conversation activeConversation; 
 
@@ -19,7 +19,7 @@ public class ConversationManager : MonoBehaviour // TypeDefIndex: 10518
 
 }
 
-public class ConversationManager.Conversation : MonoBehaviour // TypeDefIndex: 10519
+public class ConversationManager.Conversation : MonoBehaviour // TypeDefIndex: 10550
 {
 	public ConversationData data; 
 	public int currentSpeechNodeIndex; 

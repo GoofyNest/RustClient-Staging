@@ -1,4 +1,4 @@
-public class TimerConfig : UIDialog // TypeDefIndex: 10408
+public class TimerConfig : UIDialog // TypeDefIndex: 10439
 {
 	private CustomTimerSwitch timerSwitch; 
 	public InputField input; 

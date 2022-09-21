@@ -1,4 +1,4 @@
-public class PlatformEntity : BaseEntity // TypeDefIndex: 11316
+public class PlatformEntity : BaseEntity // TypeDefIndex: 11347
 {
 	private const float movementSpeed = 1;
 	private const float rotationSpeed = 10;

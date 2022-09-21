@@ -1,4 +1,4 @@
-public struct RaycastHit2D // TypeDefIndex: 4084
+public struct RaycastHit2D // TypeDefIndex: 4086
 {
 	[NativeNameAttribute] 
 	private Vector2 m_Centroid; 

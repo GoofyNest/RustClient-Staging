@@ -1,4 +1,4 @@
-public enum ParticleSystemShapeType // TypeDefIndex: 4541
+public enum ParticleSystemShapeType // TypeDefIndex: 4543
 {
 	public int value__; 
 	public const ParticleSystemShapeType Sphere = 0;

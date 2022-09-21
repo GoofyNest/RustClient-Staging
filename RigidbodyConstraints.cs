@@ -1,4 +1,4 @@
-public enum RigidbodyConstraints // TypeDefIndex: 3908
+public enum RigidbodyConstraints // TypeDefIndex: 3910
 {
 
 public enum RigidbodyConstraints

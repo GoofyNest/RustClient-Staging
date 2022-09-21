@@ -1,4 +1,4 @@
-public enum DisplayStyle // TypeDefIndex: 4607
+public enum DisplayStyle // TypeDefIndex: 4609
 {
 	public int value__; 
 	public const DisplayStyle Flex = 0;

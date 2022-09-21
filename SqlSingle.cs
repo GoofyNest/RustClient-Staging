@@ -1,4 +1,4 @@
-public struct SqlSingle : INullable, IComparable, IXmlSerializable // TypeDefIndex: 4351
+public struct SqlSingle : INullable, IComparable, IXmlSerializable // TypeDefIndex: 4353
 {
 	private bool _fNotNull; 
 	private float _value; 

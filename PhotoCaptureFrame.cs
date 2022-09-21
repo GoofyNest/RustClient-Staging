@@ -1,4 +1,4 @@
-public sealed class PhotoCaptureFrame : IDisposable // TypeDefIndex: 3615
+public sealed class PhotoCaptureFrame : IDisposable // TypeDefIndex: 3617
 {
 	private IntPtr m_NativePtr; 
 	[CompilerGeneratedAttribute] 
@@ -7,8 +7,8 @@ public sealed class PhotoCaptureFrame : IDisposable // TypeDefIndex: 3615
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
 	private bool <hasLocationData>k__BackingField; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private CapturePixelFormat <pixelFormat>k__BackingField; 
 
 	public int dataLength { get; set; }
@@ -41,9 +41,9 @@ public sealed class PhotoCaptureFrame : IDisposable // TypeDefIndex: 3615
 
 	private void Cleanup() { }
 
-	[NativeNameAttribute] 
 	[NativeConditionalAttribute] 
 	[ThreadAndSerializationSafeAttribute] 
+	[NativeNameAttribute] 
 	private void Dispose_Internal() { }
 
 	public void Dispose() { }

@@ -1,4 +1,4 @@
-internal class BuiltinRuntimeReflectionSystem : IScriptableRuntimeReflectionSystem, IDisposable // TypeDefIndex: 3895
+internal class BuiltinRuntimeReflectionSystem : IScriptableRuntimeReflectionSystem, IDisposable // TypeDefIndex: 3897
 {
 
 	public bool TickRealtimeProbes() { }

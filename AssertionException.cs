@@ -1,4 +1,4 @@
-public class AssertionException : Exception // TypeDefIndex: 3905
+public class AssertionException : Exception // TypeDefIndex: 3907
 {
 	private string m_UserMessage; 
 

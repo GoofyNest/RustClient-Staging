@@ -1,4 +1,4 @@
-public class RecorderTool : ThrownWeapon, ICassettePlayer // TypeDefIndex: 10299
+public class RecorderTool : ThrownWeapon, ICassettePlayer // TypeDefIndex: 10330
 {
 	[ClientVar] 
 	public static bool debugRecording; 
