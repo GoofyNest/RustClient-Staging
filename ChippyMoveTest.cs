@@ -1,4 +1,4 @@
-public class ChippyMoveTest : MonoBehaviour // TypeDefIndex: 10473
+public class ChippyMoveTest : MonoBehaviour // TypeDefIndex: 10474
 {
 	public Vector3 heading; 
 	public float speed; 

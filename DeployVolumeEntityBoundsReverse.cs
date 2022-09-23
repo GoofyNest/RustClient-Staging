@@ -1,4 +1,4 @@
-public class DeployVolumeEntityBoundsReverse : DeployVolume // TypeDefIndex: 11551
+public class DeployVolumeEntityBoundsReverse : DeployVolume // TypeDefIndex: 11552
 {
 	private Bounds bounds; 
 	private int layer; 

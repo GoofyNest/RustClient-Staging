@@ -1,4 +1,4 @@
-public sealed class OnJoinRoomCallback : MulticastDelegate // TypeDefIndex: 8769
+public sealed class OnJoinRoomCallback : MulticastDelegate // TypeDefIndex: 8770
 {
 
 	public void .ctor(object object, IntPtr method) { }

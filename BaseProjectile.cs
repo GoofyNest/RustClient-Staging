@@ -256,7 +256,7 @@ public class ProjectileShoot.Projectile : IDisposable, Pool.IPooled, IProto // T
 
 }
 
-public class BaseProjectile : AttackEntity // TypeDefIndex: 10232
+public class BaseProjectile : AttackEntity // TypeDefIndex: 10233
 {
 	[HeaderAttribute] 
 	public float NoiseRadius; 
@@ -447,7 +447,7 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 10232
 
 }
 
-public class BaseProjectile.Magazine // TypeDefIndex: 10233
+public class BaseProjectile.Magazine // TypeDefIndex: 10234
 {
 	public BaseProjectile.Magazine.Definition definition; 
 	public int capacity; 
@@ -468,7 +468,7 @@ public class BaseProjectile.Magazine // TypeDefIndex: 10233
 
 }
 
-public struct BaseProjectile.Magazine.Definition // TypeDefIndex: 10234
+public struct BaseProjectile.Magazine.Definition // TypeDefIndex: 10235
 {
 	[TooltipAttribute] 
 	public int builtInSize; 
@@ -478,7 +478,7 @@ public struct BaseProjectile.Magazine.Definition // TypeDefIndex: 10234
 
 }
 
-private sealed class BaseProjectile.<>c // TypeDefIndex: 10235
+private sealed class BaseProjectile.<>c // TypeDefIndex: 10236
 {
 	public static readonly BaseProjectile.<>c <>9; 
 	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__63_0; 
@@ -612,7 +612,7 @@ private sealed class BaseProjectile.<>c // TypeDefIndex: 10235
 
 }
 
-private sealed class BaseProjectile.<>c__DisplayClass84_0 // TypeDefIndex: 10236
+private sealed class BaseProjectile.<>c__DisplayClass84_0 // TypeDefIndex: 10237
 {
 	public BaseProjectile <>4__this; 
 	public ItemDefinition ammoType; 
@@ -624,7 +624,7 @@ private sealed class BaseProjectile.<>c__DisplayClass84_0 // TypeDefIndex: 10236
 
 }
 
-public class Projectile : BaseMonoBehaviour // TypeDefIndex: 10925
+public class Projectile : BaseMonoBehaviour // TypeDefIndex: 10926
 {
 	public const float moveDeltaTime = 0,03125;
 	public const float lifeTime = 8;
@@ -770,7 +770,7 @@ public class Projectile : BaseMonoBehaviour // TypeDefIndex: 10925
 
 }
 
-public struct Projectile.Modifier // TypeDefIndex: 10926
+public struct Projectile.Modifier // TypeDefIndex: 10927
 {
 	public float damageScale; 
 	public float damageOffset; 
@@ -783,7 +783,7 @@ public struct Projectile.Modifier // TypeDefIndex: 10926
 
 }
 
-public class ProjectileTestSpawner : MonoBehaviour // TypeDefIndex: 11025
+public class ProjectileTestSpawner : MonoBehaviour // TypeDefIndex: 11026
 {
 	public Projectile TargetProjectile; 
 	public float RepeatTime; 
@@ -794,14 +794,14 @@ public class ProjectileTestSpawner : MonoBehaviour // TypeDefIndex: 11025
 
 }
 
-public class AttackTickAIEvent : BaseAIEvent // TypeDefIndex: 11093
+public class AttackTickAIEvent : BaseAIEvent // TypeDefIndex: 11094
 {
 
 	public void .ctor() { }
 
 }
 
-public class AttackedAIEvent : BaseAIEvent // TypeDefIndex: 11094
+public class AttackedAIEvent : BaseAIEvent // TypeDefIndex: 11095
 {
 	protected float lastExecuteTime; 
 	private BaseCombatEntity combatEntity; 
@@ -811,7 +811,7 @@ public class AttackedAIEvent : BaseAIEvent // TypeDefIndex: 11094
 
 }
 
-public class AttackEntity : HeldEntity // TypeDefIndex: 11162
+public class AttackEntity : HeldEntity // TypeDefIndex: 11163
 {
 	[HeaderAttribute] 
 	public float deployDelay; 
@@ -893,7 +893,7 @@ public class AttackEntity : HeldEntity // TypeDefIndex: 11162
 
 }
 
-public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 11329
+public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 11330
 {
 	[HeaderAttribute] 
 	public GameObjectRef defaultSilencerEffect; 
@@ -948,7 +948,7 @@ public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 11329
 
 }
 
-public struct ProjectileWeaponMod.Modifier // TypeDefIndex: 11330
+public struct ProjectileWeaponMod.Modifier // TypeDefIndex: 11331
 {
 	public bool enabled; 
 	[TooltipAttribute] 
@@ -958,7 +958,7 @@ public struct ProjectileWeaponMod.Modifier // TypeDefIndex: 11330
 
 }
 
-private sealed class ProjectileWeaponMod.<>c // TypeDefIndex: 11331
+private sealed class ProjectileWeaponMod.<>c // TypeDefIndex: 11332
 {
 	public static readonly ProjectileWeaponMod.<>c <>9; 
 	public static Func<ProjectileWeaponMod, bool> <>9__27_0; 
@@ -978,21 +978,21 @@ private sealed class ProjectileWeaponMod.<>c // TypeDefIndex: 11331
 
 }
 
-public class AttackTickEventUI : BaseEventUI // TypeDefIndex: 12496
+public class AttackTickEventUI : BaseEventUI // TypeDefIndex: 12497
 {
 
 	public void .ctor() { }
 
 }
 
-public class AttackedEventUI : BaseEventUI // TypeDefIndex: 12497
+public class AttackedEventUI : BaseEventUI // TypeDefIndex: 12498
 {
 
 	public void .ctor() { }
 
 }
 
-public class ProjectileWeaponInformationPanel : ItemInformationPanel // TypeDefIndex: 12765
+public class ProjectileWeaponInformationPanel : ItemInformationPanel // TypeDefIndex: 12766
 {
 	public ItemStatValue damageDisplay; 
 	public ItemStatValue recoilDisplay; 

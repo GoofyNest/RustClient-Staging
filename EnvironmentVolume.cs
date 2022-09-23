@@ -1,4 +1,4 @@
-public class EnvironmentVolume : MonoBehaviour // TypeDefIndex: 11567
+public class EnvironmentVolume : MonoBehaviour // TypeDefIndex: 11568
 {
 	[InspectorFlagsAttribute] 
 	public EnvironmentType Type; 

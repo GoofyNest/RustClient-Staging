@@ -1,4 +1,4 @@
-public class SpawnPopulation : BaseScriptableObject // TypeDefIndex: 11700
+public class SpawnPopulation : BaseScriptableObject // TypeDefIndex: 11701
 {
 	[HeaderAttribute] 
 	public string ResourceFolder; 

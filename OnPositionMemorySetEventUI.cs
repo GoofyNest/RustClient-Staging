@@ -1,4 +1,4 @@
-public class OnPositionMemorySetEventUI : BaseEventUI // TypeDefIndex: 12514
+public class OnPositionMemorySetEventUI : BaseEventUI // TypeDefIndex: 12515
 {
 
 	public void .ctor() { }

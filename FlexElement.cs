@@ -12,6 +12,8 @@ public class FlexElement : UIBehaviour, IFlexNode // TypeDefIndex: 6812
 	[MinAttribute] 
 	[TooltipAttribute] 
 	public float Gap; 
+	[TooltipAttribute] 
+	public FlexLength Basis; 
 	[MinAttribute] 
 	[TooltipAttribute] 
 	public int Grow; 
@@ -53,6 +55,7 @@ public class FlexElement : UIBehaviour, IFlexNode // TypeDefIndex: 6812
 	private FlexLength Facepunch.Flexbox.IFlexNode.MaxWidth { get; }
 	private FlexLength Facepunch.Flexbox.IFlexNode.MinHeight { get; }
 	private FlexLength Facepunch.Flexbox.IFlexNode.MaxHeight { get; }
+	private FlexLength Facepunch.Flexbox.IFlexNode.Basis { get; }
 	private int Facepunch.Flexbox.IFlexNode.Grow { get; }
 	private int Facepunch.Flexbox.IFlexNode.Shrink { get; }
 	private FlexAlignSelf Facepunch.Flexbox.IFlexNode.AlignSelf { get; }
@@ -101,6 +104,8 @@ public class FlexElement : UIBehaviour, IFlexNode // TypeDefIndex: 6812
 
 	private FlexLength Facepunch.Flexbox.IFlexNode.get_MaxHeight() { }
 
+	private FlexLength Facepunch.Flexbox.IFlexNode.get_Basis() { }
+
 	private int Facepunch.Flexbox.IFlexNode.get_Grow() { }
 
 	private int Facepunch.Flexbox.IFlexNode.get_Shrink() { }
@@ -136,16 +141,16 @@ public class FlexElement : UIBehaviour, IFlexNode // TypeDefIndex: 6812
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private bool <LayoutMainAxis>g__TakeGrowth|32_2(ref float value, float maxValue, float scale, ref FlexElement.<>c__DisplayClass32_0 , ref FlexElement.<>c__DisplayClass32_1 , ref FlexElement.<>c__DisplayClass32_2 ) { }
+	private bool <LayoutMainAxis>g__TakeGrowth|33_2(ref float value, float maxValue, float scale, ref FlexElement.<>c__DisplayClass33_0 , ref FlexElement.<>c__DisplayClass33_1 , ref FlexElement.<>c__DisplayClass33_2 ) { }
 
 	[CompilerGeneratedAttribute] 
-	private bool <LayoutMainAxis>g__TakeShrink|32_3(ref float value, float minValue, float scale, ref FlexElement.<>c__DisplayClass32_0 , ref FlexElement.<>c__DisplayClass32_1 , ref FlexElement.<>c__DisplayClass32_2 ) { }
+	private bool <LayoutMainAxis>g__TakeShrink|33_3(ref float value, float minValue, float scale, ref FlexElement.<>c__DisplayClass33_0 , ref FlexElement.<>c__DisplayClass33_1 , ref FlexElement.<>c__DisplayClass33_2 ) { }
 
 	[CompilerGeneratedAttribute] 
-	private float <LayoutMainAxis>g__GetMainAxisStart|32_1(bool isHorizontal, bool isReversed, ref FlexElement.<>c__DisplayClass32_0 ) { }
+	private float <LayoutMainAxis>g__GetMainAxisStart|33_1(bool isHorizontal, bool isReversed, ref FlexElement.<>c__DisplayClass33_0 ) { }
 
 	[CompilerGeneratedAttribute] 
-	private float <LayoutCrossAxis>g__GetCrossAxis|34_0(FlexAlign align, bool isHorizontal, float childWidth, float childHeight, ref FlexElement.<>c__DisplayClass34_0 ) { }
+	private float <LayoutCrossAxis>g__GetCrossAxis|35_0(FlexAlign align, bool isHorizontal, float childWidth, float childHeight, ref FlexElement.<>c__DisplayClass35_0 ) { }
 
 }
 
@@ -159,7 +164,7 @@ private struct FlexElement.ChildSizingParameters // TypeDefIndex: 6813
 
 }
 
-private struct FlexElement.<>c__DisplayClass32_0 // TypeDefIndex: 6814
+private struct FlexElement.<>c__DisplayClass33_0 // TypeDefIndex: 6814
 {
 	public float growthAllowance; 
 	public float shrinkAllowance; 
@@ -169,14 +174,14 @@ private struct FlexElement.<>c__DisplayClass32_0 // TypeDefIndex: 6814
 
 }
 
-private struct FlexElement.<>c__DisplayClass32_1 // TypeDefIndex: 6815
+private struct FlexElement.<>c__DisplayClass33_1 // TypeDefIndex: 6815
 {
 	public int growSum; 
 	public int shrinkSum; 
 
 }
 
-private struct FlexElement.<>c__DisplayClass32_2 // TypeDefIndex: 6816
+private struct FlexElement.<>c__DisplayClass33_2 // TypeDefIndex: 6816
 {
 	public IFlexNode child; 
 
@@ -185,18 +190,18 @@ private struct FlexElement.<>c__DisplayClass32_2 // TypeDefIndex: 6816
 private sealed class FlexElement.<>c // TypeDefIndex: 6817
 {
 	public static readonly FlexElement.<>c <>9; 
-	public static Predicate<IFlexNode> <>9__32_0; 
+	public static Predicate<IFlexNode> <>9__33_0; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal bool <LayoutMainAxis>b__32_0(IFlexNode n) { }
+	internal bool <LayoutMainAxis>b__33_0(IFlexNode n) { }
 
 }
 
-private struct FlexElement.<>c__DisplayClass34_0 // TypeDefIndex: 6818
+private struct FlexElement.<>c__DisplayClass35_0 // TypeDefIndex: 6818
 {
 	public FlexElement <>4__this; 
 	public float innerSize; 

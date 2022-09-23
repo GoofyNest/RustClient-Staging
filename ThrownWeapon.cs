@@ -1,4 +1,4 @@
-public class ThrownWeapon : AttackEntity // TypeDefIndex: 10357
+public class ThrownWeapon : AttackEntity // TypeDefIndex: 10358
 {
 	[HeaderAttribute] 
 	public GameObjectRef prefabToThrow; 

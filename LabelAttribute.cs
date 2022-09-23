@@ -1,4 +1,4 @@
-public class LabelAttribute : Attribute // TypeDefIndex: 7086
+public class LabelAttribute : Attribute // TypeDefIndex: 7087
 {
 	public Translate.Phrase Phrase; 
 

@@ -1,4 +1,4 @@
-internal struct HardMuteMemberOptionsInternal : ISettable<HardMuteMemberOptions>, IDisposable // TypeDefIndex: 9095
+internal struct HardMuteMemberOptionsInternal : ISettable<HardMuteMemberOptions>, IDisposable // TypeDefIndex: 9096
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LobbyId; 

@@ -1,4 +1,4 @@
-public class ODDCOQCOOO : MonoBehaviour // TypeDefIndex: 7273
+public class ODDCOQCOOO : MonoBehaviour // TypeDefIndex: 7274
 {
 
 	public static void OQOQDODDCD(ERCrossings scr) { }

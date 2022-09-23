@@ -1,4 +1,4 @@
-public enum MonumentType // TypeDefIndex: 11672
+public enum MonumentType // TypeDefIndex: 11673
 {
 	public int value__; 
 	public const MonumentType Cave = 0;

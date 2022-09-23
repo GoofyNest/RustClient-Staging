@@ -1,4 +1,4 @@
-public sealed class TonemapperParameter : ParameterOverride<Tonemapper> // TypeDefIndex: 13501
+public sealed class TonemapperParameter : ParameterOverride<Tonemapper> // TypeDefIndex: 13503
 {
 
 	public void .ctor() { }

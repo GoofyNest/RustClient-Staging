@@ -1,4 +1,4 @@
-public class ERSORoadExt : ScriptableObject // TypeDefIndex: 7233
+public class ERSORoadExt : ScriptableObject // TypeDefIndex: 7234
 {
 	public SideObject sideObject; 
 	public double id; 

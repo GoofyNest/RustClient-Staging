@@ -1,4 +1,4 @@
-public sealed class CopyrightNoticeEvent : BaseTextEvent // TypeDefIndex: 7537
+public sealed class CopyrightNoticeEvent : BaseTextEvent // TypeDefIndex: 7538
 {
 
 	public void .ctor() { }

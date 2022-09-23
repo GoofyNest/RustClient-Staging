@@ -1,4 +1,4 @@
-public static class MeshCache // TypeDefIndex: 10856
+public static class MeshCache // TypeDefIndex: 10857
 {
 	public static Dictionary<Mesh, MeshCache.Data> dictionary; 
 
@@ -9,7 +9,7 @@ public static class MeshCache // TypeDefIndex: 10856
 
 }
 
-public class MeshCache.Data // TypeDefIndex: 10857
+public class MeshCache.Data // TypeDefIndex: 10858
 {
 	public Mesh mesh; 
 	public Vector3[] vertices; 

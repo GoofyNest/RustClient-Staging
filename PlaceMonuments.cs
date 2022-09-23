@@ -1,4 +1,4 @@
-public class PlaceMonuments : ProceduralComponent // TypeDefIndex: 12246
+public class PlaceMonuments : ProceduralComponent // TypeDefIndex: 12247
 {
 	public SpawnFilter Filter; 
 	public string ResourceFolder; 
@@ -26,7 +26,7 @@ public class PlaceMonuments : ProceduralComponent // TypeDefIndex: 12246
 
 }
 
-private struct PlaceMonuments.SpawnInfo // TypeDefIndex: 12247
+private struct PlaceMonuments.SpawnInfo // TypeDefIndex: 12248
 {
 	public Prefab<MonumentInfo> prefab; 
 	public Vector3 position; 
@@ -37,7 +37,7 @@ private struct PlaceMonuments.SpawnInfo // TypeDefIndex: 12247
 
 }
 
-private struct PlaceMonuments.DistanceInfo // TypeDefIndex: 12248
+private struct PlaceMonuments.DistanceInfo // TypeDefIndex: 12249
 {
 	public float minDistanceSameType; 
 	public float maxDistanceSameType; 
@@ -48,7 +48,7 @@ private struct PlaceMonuments.DistanceInfo // TypeDefIndex: 12248
 
 }
 
-public enum PlaceMonuments.DistanceMode // TypeDefIndex: 12249
+public enum PlaceMonuments.DistanceMode // TypeDefIndex: 12250
 {
 	public int value__; 
 	public const PlaceMonuments.DistanceMode Any = 0;
@@ -57,7 +57,7 @@ public enum PlaceMonuments.DistanceMode // TypeDefIndex: 12249
 
 }
 
-private sealed class PlaceMonuments.<>c // TypeDefIndex: 12250
+private sealed class PlaceMonuments.<>c // TypeDefIndex: 12251
 {
 	public static readonly PlaceMonuments.<>c <>9; 
 	public static Func<string, string> <>9__15_0; 

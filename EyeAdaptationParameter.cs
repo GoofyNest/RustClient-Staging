@@ -1,4 +1,4 @@
-public sealed class EyeAdaptationParameter : ParameterOverride<EyeAdaptation> // TypeDefIndex: 13489
+public sealed class EyeAdaptationParameter : ParameterOverride<EyeAdaptation> // TypeDefIndex: 13491
 {
 
 	public void .ctor() { }

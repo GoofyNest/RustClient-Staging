@@ -1,4 +1,4 @@
-public class IsVisibleEventUI : BaseEventUI // TypeDefIndex: 12512
+public class IsVisibleEventUI : BaseEventUI // TypeDefIndex: 12513
 {
 
 	public void .ctor() { }

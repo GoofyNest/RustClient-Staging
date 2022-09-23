@@ -1,4 +1,4 @@
-public struct NormalPairs // TypeDefIndex: 7270
+public struct NormalPairs // TypeDefIndex: 7271
 {
 	public int index1; 
 	public int index2; 

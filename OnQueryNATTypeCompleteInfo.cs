@@ -1,4 +1,4 @@
-public struct OnQueryNATTypeCompleteInfo : ICallbackInfo // TypeDefIndex: 8971
+public struct OnQueryNATTypeCompleteInfo : ICallbackInfo // TypeDefIndex: 8972
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

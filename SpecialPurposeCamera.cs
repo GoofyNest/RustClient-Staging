@@ -1,4 +1,4 @@
-public class SpecialPurposeCamera // TypeDefIndex: 12406
+public class SpecialPurposeCamera // TypeDefIndex: 12407
 {
 	public bool dirty; 
 	public string name; 
@@ -37,7 +37,7 @@ public class SpecialPurposeCamera // TypeDefIndex: 12406
 
 }
 
-private struct SpecialPurposeCamera.RenderEntry : IEquatable<SpecialPurposeCamera.RenderEntry> // TypeDefIndex: 12407
+private struct SpecialPurposeCamera.RenderEntry : IEquatable<SpecialPurposeCamera.RenderEntry> // TypeDefIndex: 12408
 {
 	public Transform transform; 
 	public Mesh mesh; 

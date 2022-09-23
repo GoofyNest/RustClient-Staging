@@ -1,4 +1,4 @@
-public class TerrainPlacementBlocked : TerrainModifier // TypeDefIndex: 12289
+public class TerrainPlacementBlocked : TerrainModifier // TypeDefIndex: 12290
 {
 
 	protected override void Apply(Vector3 position, float opacity, float radius, float fade) { }

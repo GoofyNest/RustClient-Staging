@@ -31461,7 +31461,7 @@ public class ArrayIndexIsEnumRanged : ArrayIndexIsEnum // TypeDefIndex: 6564
 
 }
 
-public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8145
+public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8146
 {
 	private readonly List<Value> values; 
 
@@ -31497,7 +31497,7 @@ public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8145
 
 }
 
-public static class Arrays // TypeDefIndex: 8230
+public static class Arrays // TypeDefIndex: 8231
 {
 	public static ushort[] flushes; 
 	public static readonly ushort[] unique5; 
@@ -31511,7 +31511,7 @@ public static class Arrays // TypeDefIndex: 8230
 
 }
 
-public static class ArrayEx // TypeDefIndex: 13067
+public static class ArrayEx // TypeDefIndex: 13069
 {
 
 	public static T[] New<T>(int length) { }

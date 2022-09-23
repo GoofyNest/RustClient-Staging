@@ -26,7 +26,7 @@ public class Manager : IDisposable // TypeDefIndex: 6876
 
 }
 
-public static class Manager // TypeDefIndex: 7038
+public static class Manager // TypeDefIndex: 7039
 {
 	private static Dictionary<string, GameObject> Prefabs; 
 
@@ -59,7 +59,7 @@ public static class Manager // TypeDefIndex: 7038
 
 }
 
-public class Manager // TypeDefIndex: 7376
+public class Manager // TypeDefIndex: 7377
 {
 	private const string hex = "0123456789abcdef";
 	private static Manager manager; 

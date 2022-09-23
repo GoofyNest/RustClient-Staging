@@ -1,4 +1,4 @@
-public class FlashlightBeam : MonoBehaviour, IClientComponent // TypeDefIndex: 10591
+public class FlashlightBeam : MonoBehaviour, IClientComponent // TypeDefIndex: 10592
 {
 	public Vector2 scrollDir; 
 	public Vector3 localEndPoint; 

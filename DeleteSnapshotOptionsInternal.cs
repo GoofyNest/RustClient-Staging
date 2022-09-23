@@ -1,4 +1,4 @@
-internal struct DeleteSnapshotOptionsInternal : ISettable<DeleteSnapshotOptions>, IDisposable // TypeDefIndex: 8792
+internal struct DeleteSnapshotOptionsInternal : ISettable<DeleteSnapshotOptions>, IDisposable // TypeDefIndex: 8793
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

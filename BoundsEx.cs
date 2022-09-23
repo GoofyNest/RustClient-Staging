@@ -1,4 +1,4 @@
-public static class BoundsEx // TypeDefIndex: 13068
+public static class BoundsEx // TypeDefIndex: 13070
 {
 	private static Vector3[] pts; 
 

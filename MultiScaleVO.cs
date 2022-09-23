@@ -1,4 +1,4 @@
-internal sealed class MultiScaleVO : IAmbientOcclusionMethod // TypeDefIndex: 13520
+internal sealed class MultiScaleVO : IAmbientOcclusionMethod // TypeDefIndex: 13522
 {
 	private readonly float[] m_SampleThickness; 
 	private readonly float[] m_InvThicknessTable; 
@@ -60,7 +60,7 @@ internal sealed class MultiScaleVO : IAmbientOcclusionMethod // TypeDefIndex: 13
 
 }
 
-internal enum MultiScaleVO.MipLevel // TypeDefIndex: 13521
+internal enum MultiScaleVO.MipLevel // TypeDefIndex: 13523
 {
 	public int value__; 
 	public const MultiScaleVO.MipLevel Original = 0;
@@ -73,7 +73,7 @@ internal enum MultiScaleVO.MipLevel // TypeDefIndex: 13521
 
 }
 
-private enum MultiScaleVO.Pass // TypeDefIndex: 13522
+private enum MultiScaleVO.Pass // TypeDefIndex: 13524
 {
 	public int value__; 
 	public const MultiScaleVO.Pass DepthCopy = 0;

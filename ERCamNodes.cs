@@ -1,4 +1,4 @@
-public class ERCamNodes : ScriptableObject // TypeDefIndex: 7221
+public class ERCamNodes : ScriptableObject // TypeDefIndex: 7222
 {
 	[SerializeField] 
 	public float sleep; 

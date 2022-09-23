@@ -1,4 +1,4 @@
-public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD // TypeDefIndex: 11635
+public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD // TypeDefIndex: 11636
 {
 	public LODDistanceMode DistanceMode; 
 	public LODComponent.OccludeeParameters OccludeeParams; 
@@ -99,7 +99,7 @@ public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD /
 
 }
 
-public struct LODComponent.OccludeeParameters // TypeDefIndex: 11636
+public struct LODComponent.OccludeeParameters // TypeDefIndex: 11637
 {
 	[TooltipAttribute] 
 	public bool isDynamic; 
@@ -112,7 +112,7 @@ public struct LODComponent.OccludeeParameters // TypeDefIndex: 11636
 
 }
 
-private sealed class LODComponent.<>c // TypeDefIndex: 11637
+private sealed class LODComponent.<>c // TypeDefIndex: 11638
 {
 	public static readonly LODComponent.<>c <>9; 
 	public static Predicate<LODComponent> <>9__34_0; 

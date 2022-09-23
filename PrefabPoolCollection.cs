@@ -1,4 +1,4 @@
-public class PrefabPoolCollection // TypeDefIndex: 13150
+public class PrefabPoolCollection // TypeDefIndex: 13152
 {
 	public Dictionary<uint, PrefabPool> storage; 
 

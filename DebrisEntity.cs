@@ -1,4 +1,4 @@
-public class DebrisEntity : BaseCombatEntity // TypeDefIndex: 11227
+public class DebrisEntity : BaseCombatEntity // TypeDefIndex: 11228
 {
 
 	public override string Categorize() { }

@@ -1,4 +1,4 @@
-public class PrefabPool // TypeDefIndex: 13149
+public class PrefabPool // TypeDefIndex: 13151
 {
 	public Stack<Poolable> stack; 
 

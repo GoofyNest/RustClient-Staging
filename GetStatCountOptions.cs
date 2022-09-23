@@ -1,4 +1,4 @@
-public struct GetStatCountOptions // TypeDefIndex: 8417
+public struct GetStatCountOptions // TypeDefIndex: 8418
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <TargetUserId>k__BackingField; 

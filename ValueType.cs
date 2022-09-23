@@ -32,7 +32,7 @@ internal enum ValueType // TypeDefIndex: 4251
 
 }
 
-public enum ValueType // TypeDefIndex: 8143
+public enum ValueType // TypeDefIndex: 8144
 {
 	public int value__; 
 	public const ValueType String = 0;

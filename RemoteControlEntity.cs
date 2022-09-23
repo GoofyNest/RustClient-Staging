@@ -1,4 +1,4 @@
-public class RemoteControlEntity : BaseCombatEntity, IRemoteControllable // TypeDefIndex: 10137
+public class RemoteControlEntity : BaseCombatEntity, IRemoteControllable // TypeDefIndex: 10138
 {
 	private Option __menuOption_Menu_SetID; 
 	[HeaderAttribute] 

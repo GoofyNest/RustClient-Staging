@@ -1,4 +1,4 @@
-internal struct LogMessageInternal : IGettable<LogMessage>, ISettable<LogMessage>, IDisposable // TypeDefIndex: 9042
+internal struct LogMessageInternal : IGettable<LogMessage>, ISettable<LogMessage>, IDisposable // TypeDefIndex: 9043
 {
 	private IntPtr m_Category; 
 	private IntPtr m_Message; 

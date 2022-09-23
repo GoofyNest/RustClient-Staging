@@ -1,4 +1,4 @@
-internal struct SessionDetailsCopySessionAttributeByIndexOptionsInternal : ISettable<SessionDetailsCopySessionAttributeByIndexOptions>, IDisposable // TypeDefIndex: 8540
+internal struct SessionDetailsCopySessionAttributeByIndexOptionsInternal : ISettable<SessionDetailsCopySessionAttributeByIndexOptions>, IDisposable // TypeDefIndex: 8541
 {
 	private int m_ApiVersion; 
 	private uint m_AttrIndex; 

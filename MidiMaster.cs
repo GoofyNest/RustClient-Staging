@@ -1,4 +1,4 @@
-public static class MidiMaster // TypeDefIndex: 7651
+public static class MidiMaster // TypeDefIndex: 7652
 {
 	public static MidiDriver.NoteOnDelegate noteOnDelegate { get; set; }
 	public static MidiDriver.NoteOffDelegate noteOffDelegate { get; set; }

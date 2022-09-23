@@ -1,4 +1,4 @@
-public class BaseGameMode : BaseEntity // TypeDefIndex: 10220
+public class BaseGameMode : BaseEntity // TypeDefIndex: 10221
 {
 	private GameMode gameModeScores; 
 	public string[] scoreColumns; 
@@ -175,7 +175,7 @@ public class BaseGameMode : BaseEntity // TypeDefIndex: 10220
 
 }
 
-public class BaseGameMode.GameModeTeam // TypeDefIndex: 10221
+public class BaseGameMode.GameModeTeam // TypeDefIndex: 10222
 {
 	public string name; 
 	public PlayerInventoryProperties[] teamloadouts; 

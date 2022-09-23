@@ -1,4 +1,4 @@
-public struct ExternalAccountInfo // TypeDefIndex: 9566
+public struct ExternalAccountInfo // TypeDefIndex: 9567
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <ProductUserId>k__BackingField; 

@@ -1,4 +1,4 @@
-public class ViewmodelIk : MonoBehaviour // TypeDefIndex: 13186
+public class ViewmodelIk : MonoBehaviour // TypeDefIndex: 13188
 {
 	private Animator TargetAnimator; 
 	private Transform leftHandTarget; 

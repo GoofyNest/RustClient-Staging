@@ -1,4 +1,4 @@
-public class TerrainPaint : MonoBehaviour // TypeDefIndex: 12136
+public class TerrainPaint : MonoBehaviour // TypeDefIndex: 12137
 {
 
 	public void .ctor() { }

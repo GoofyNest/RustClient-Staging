@@ -59,7 +59,7 @@ public class BaseNPC : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6298
 
 }
 
-public class BaseNpc : BaseCombatEntity // TypeDefIndex: 10228
+public class BaseNpc : BaseCombatEntity // TypeDefIndex: 10229
 {
 	public int agentTypeIndex; 
 	public bool NewAI; 
@@ -182,7 +182,7 @@ public class BaseNpc : BaseCombatEntity // TypeDefIndex: 10228
 
 }
 
-public enum BaseNpc.AiFlags // TypeDefIndex: 10229
+public enum BaseNpc.AiFlags // TypeDefIndex: 10230
 {
 	public int value__; 
 	public const BaseNpc.AiFlags Sitting = 2;
@@ -191,7 +191,7 @@ public enum BaseNpc.AiFlags // TypeDefIndex: 10229
 
 }
 
-public struct BaseNpc.AiStatistics // TypeDefIndex: 10230
+public struct BaseNpc.AiStatistics // TypeDefIndex: 10231
 {
 	[TooltipAttribute] 
 	[RangeAttribute] 
@@ -273,7 +273,7 @@ public struct BaseNpc.AiStatistics // TypeDefIndex: 10230
 
 }
 
-public enum BaseNpc.AiStatistics.FamilyEnum // TypeDefIndex: 10231
+public enum BaseNpc.AiStatistics.FamilyEnum // TypeDefIndex: 10232
 {
 	public int value__; 
 	public const BaseNpc.AiStatistics.FamilyEnum Bear = 0;

@@ -59,7 +59,7 @@ public class Elevator : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6390
 
 }
 
-public class ElevatorLift : BaseCombatEntity // TypeDefIndex: 10089
+public class ElevatorLift : BaseCombatEntity // TypeDefIndex: 10090
 {
 	private Option __menuOption_Menu_LowerElevator; 
 	private Option __menuOption_Menu_LowerElevatorToFloor; 
@@ -143,7 +143,7 @@ public class ElevatorLift : BaseCombatEntity // TypeDefIndex: 10089
 
 }
 
-public class ElevatorLiftStatic : ElevatorLift // TypeDefIndex: 10090
+public class ElevatorLiftStatic : ElevatorLift // TypeDefIndex: 10091
 {
 	private Option __menuOption_Menu_LowerElevatorToFloor; 
 	private Option __menuOption_Menu_RaiseElevatorToTop; 
@@ -175,7 +175,7 @@ public class ElevatorLiftStatic : ElevatorLift // TypeDefIndex: 10090
 
 }
 
-public class Elevator : IOEntity, IFlagNotify // TypeDefIndex: 10395
+public class Elevator : IOEntity, IFlagNotify // TypeDefIndex: 10396
 {
 	public Transform LiftRoot; 
 	public GameObjectRef LiftEntityPrefab; 
@@ -235,7 +235,7 @@ public class Elevator : IOEntity, IFlagNotify // TypeDefIndex: 10395
 
 }
 
-public enum Elevator.Direction // TypeDefIndex: 10396
+public enum Elevator.Direction // TypeDefIndex: 10397
 {
 	public int value__; 
 	public const Elevator.Direction Up = 0;
@@ -243,7 +243,7 @@ public enum Elevator.Direction // TypeDefIndex: 10396
 
 }
 
-public class ElevatorStatic : Elevator // TypeDefIndex: 10397
+public class ElevatorStatic : Elevator // TypeDefIndex: 10398
 {
 	public bool StaticTop; 
 	private const BaseEntity.Flags LiftRecentlyArrived = 512;
@@ -257,7 +257,7 @@ public class ElevatorStatic : Elevator // TypeDefIndex: 10397
 
 }
 
-public class ElevatorIOEntity : IOEntity // TypeDefIndex: 11503
+public class ElevatorIOEntity : IOEntity // TypeDefIndex: 11504
 {
 	public int Consumption; 
 

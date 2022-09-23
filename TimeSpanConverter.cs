@@ -13,7 +13,7 @@ public class TimeSpanConverter : TypeConverter // TypeDefIndex: 2750
 
 }
 
-internal static class TimeSpanConverter // TypeDefIndex: 7485
+internal static class TimeSpanConverter // TypeDefIndex: 7486
 {
 	private static readonly Dictionary<TimeSpanType, Type> TimeSpansTypes; 
 	private static readonly Dictionary<Type, ITimeSpanConverter> Converters; 

@@ -1,4 +1,4 @@
-public class MidiConvar : MonoBehaviour // TypeDefIndex: 11015
+public class MidiConvar : MonoBehaviour // TypeDefIndex: 11016
 {
 	private static bool _enabled; 
 	[ClientVar] 
@@ -78,7 +78,7 @@ public class MidiConvar : MonoBehaviour // TypeDefIndex: 11015
 
 }
 
-public enum MidiConvar.NoteType // TypeDefIndex: 11016
+public enum MidiConvar.NoteType // TypeDefIndex: 11017
 {
 	public int value__; 
 	public const MidiConvar.NoteType NoteOn = 0;
@@ -86,7 +86,7 @@ public enum MidiConvar.NoteType // TypeDefIndex: 11016
 
 }
 
-private struct MidiConvar.KnobBinding // TypeDefIndex: 11017
+private struct MidiConvar.KnobBinding // TypeDefIndex: 11018
 {
 	public int knobNumber; 
 	public string convar; 
@@ -97,7 +97,7 @@ private struct MidiConvar.KnobBinding // TypeDefIndex: 11017
 
 }
 
-private struct MidiConvar.NoteBinding // TypeDefIndex: 11018
+private struct MidiConvar.NoteBinding // TypeDefIndex: 11019
 {
 	public int noteNumber; 
 	public string[] convar; 
@@ -108,7 +108,7 @@ private struct MidiConvar.NoteBinding // TypeDefIndex: 11018
 
 }
 
-private struct MidiConvar.SavedBindings // TypeDefIndex: 11019
+private struct MidiConvar.SavedBindings // TypeDefIndex: 11020
 {
 	public List<MidiConvar.KnobBinding> knobs; 
 	public List<MidiConvar.NoteBinding> notes; 

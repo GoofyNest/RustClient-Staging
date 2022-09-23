@@ -1,4 +1,4 @@
-public enum EyeAdaptation // TypeDefIndex: 13488
+public enum EyeAdaptation // TypeDefIndex: 13490
 {
 	public int value__; 
 	public const EyeAdaptation Progressive = 0;

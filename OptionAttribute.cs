@@ -1,4 +1,4 @@
-public class OptionAttribute : Attribute // TypeDefIndex: 7060
+public class OptionAttribute : Attribute // TypeDefIndex: 7061
 {
 	public Icons Icon; 
 	public Translate.Phrase Label; 

@@ -1,4 +1,4 @@
-public class ShowIfConvarEnabled : MonoBehaviour // TypeDefIndex: 13005
+public class ShowIfConvarEnabled : MonoBehaviour // TypeDefIndex: 13007
 {
 	public string Convar; 
 	private bool _initialized; 

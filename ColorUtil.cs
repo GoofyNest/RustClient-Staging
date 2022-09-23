@@ -1,4 +1,4 @@
-internal static class ColorUtil // TypeDefIndex: 7653
+internal static class ColorUtil // TypeDefIndex: 7654
 {
 
 [ExtensionAttribute] 

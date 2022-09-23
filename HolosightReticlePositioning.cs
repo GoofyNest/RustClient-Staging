@@ -1,4 +1,4 @@
-public class HolosightReticlePositioning : MonoBehaviour // TypeDefIndex: 10593
+public class HolosightReticlePositioning : MonoBehaviour // TypeDefIndex: 10594
 {
 	public IronsightAimPoint aimPoint; 
 

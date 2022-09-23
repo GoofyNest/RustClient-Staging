@@ -1,4 +1,4 @@
-public class PhoneDirectoryEntry : MonoBehaviour // TypeDefIndex: 12608
+public class PhoneDirectoryEntry : MonoBehaviour // TypeDefIndex: 12609
 {
 	public RustText PhoneNumber; 
 	public RustText PhoneName; 
@@ -23,7 +23,7 @@ public class PhoneDirectoryEntry : MonoBehaviour // TypeDefIndex: 12608
 
 }
 
-public enum PhoneDirectoryEntry.NumberType // TypeDefIndex: 12609
+public enum PhoneDirectoryEntry.NumberType // TypeDefIndex: 12610
 {
 	public int value__; 
 	public const PhoneDirectoryEntry.NumberType Directory = 0;

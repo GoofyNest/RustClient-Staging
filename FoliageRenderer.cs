@@ -1,4 +1,4 @@
-public class FoliageRenderer : MonoBehaviour, IClientComponent // TypeDefIndex: 11582
+public class FoliageRenderer : MonoBehaviour, IClientComponent // TypeDefIndex: 11583
 {
 	public Material material; 
 	public Mesh LOD0; 

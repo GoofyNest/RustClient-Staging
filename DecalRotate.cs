@@ -1,4 +1,4 @@
-public class DecalRotate : DecalComponent // TypeDefIndex: 10880
+public class DecalRotate : DecalComponent // TypeDefIndex: 10881
 {
 	[MinMaxAttribute] 
 	public MinMax range; 

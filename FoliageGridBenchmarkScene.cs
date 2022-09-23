@@ -1,4 +1,4 @@
-public class FoliageGridBenchmarkScene : BenchmarkScene // TypeDefIndex: 9955
+public class FoliageGridBenchmarkScene : BenchmarkScene // TypeDefIndex: 9956
 {
 	private static TerrainMeta terrainMeta; 
 	public GameObjectRef foliagePrefab; 

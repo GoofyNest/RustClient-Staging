@@ -1,4 +1,4 @@
-public class SnowballGun : BaseProjectile // TypeDefIndex: 10530
+public class SnowballGun : BaseProjectile // TypeDefIndex: 10531
 {
 	public ItemDefinition OverrideProjectile; 
 

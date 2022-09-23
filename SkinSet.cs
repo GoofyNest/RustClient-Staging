@@ -1,4 +1,4 @@
-public class SkinSet : ScriptableObject // TypeDefIndex: 12468
+public class SkinSet : ScriptableObject // TypeDefIndex: 12469
 {
 	public string Label; 
 	public Gradient SkinColour; 

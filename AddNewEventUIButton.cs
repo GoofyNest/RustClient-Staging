@@ -1,4 +1,4 @@
-public class AddNewEventUIButton : MonoBehaviour // TypeDefIndex: 12489
+public class AddNewEventUIButton : MonoBehaviour // TypeDefIndex: 12490
 {
 	private BaseStateUI stateUI; 
 
@@ -13,7 +13,7 @@ public class AddNewEventUIButton : MonoBehaviour // TypeDefIndex: 12489
 
 }
 
-private sealed class AddNewEventUIButton.<>c // TypeDefIndex: 12490
+private sealed class AddNewEventUIButton.<>c // TypeDefIndex: 12491
 {
 	public static readonly AddNewEventUIButton.<>c <>9; 
 	public static Func<object, string> <>9__2_0; 

@@ -1,4 +1,4 @@
-internal sealed class OnUninstallModCallbackInternal : MulticastDelegate // TypeDefIndex: 9017
+internal sealed class OnUninstallModCallbackInternal : MulticastDelegate // TypeDefIndex: 9018
 {
 
 	public void .ctor(object object, IntPtr method) { }

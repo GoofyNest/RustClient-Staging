@@ -1,4 +1,4 @@
-public class VertexColorAnimator : MonoBehaviour // TypeDefIndex: 13255
+public class VertexColorAnimator : MonoBehaviour // TypeDefIndex: 13257
 {
 	public List<MeshHolder> animationMeshes; 
 	public List<float> animationKeyframes; 

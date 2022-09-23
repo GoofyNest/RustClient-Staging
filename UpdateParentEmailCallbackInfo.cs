@@ -1,4 +1,4 @@
-public struct UpdateParentEmailCallbackInfo : ICallbackInfo // TypeDefIndex: 9351
+public struct UpdateParentEmailCallbackInfo : ICallbackInfo // TypeDefIndex: 9352
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

@@ -1,4 +1,4 @@
-public class Lerp : ConsoleSystem // TypeDefIndex: 13667
+public class Lerp : ConsoleSystem // TypeDefIndex: 13669
 {
 	[ClientVar] 
 	public static bool enabled; 

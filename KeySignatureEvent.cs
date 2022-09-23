@@ -1,4 +1,4 @@
-public sealed class KeySignatureEvent : MetaEvent // TypeDefIndex: 7542
+public sealed class KeySignatureEvent : MetaEvent // TypeDefIndex: 7543
 {
 	private sbyte _key; 
 	private byte _scale; 

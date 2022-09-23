@@ -67,7 +67,7 @@ public class EffectData : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 628
 
 }
 
-public class EffectsBenchmarkScene : BenchmarkScene // TypeDefIndex: 9952
+public class EffectsBenchmarkScene : BenchmarkScene // TypeDefIndex: 9953
 {
 	public GameObjectRef[] effectPrefabs; 
 	private int effectCountPerFrame; 
@@ -87,7 +87,7 @@ public class EffectsBenchmarkScene : BenchmarkScene // TypeDefIndex: 9952
 
 }
 
-private sealed class EffectsBenchmarkScene.<DoEffectBenchmark>d__6 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 9953
+private sealed class EffectsBenchmarkScene.<DoEffectBenchmark>d__6 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 9954
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -117,7 +117,7 @@ private sealed class EffectsBenchmarkScene.<DoEffectBenchmark>d__6 : IEnumerator
 
 }
 
-public class EffectMount : EntityComponent<BaseEntity>, IClientComponent // TypeDefIndex: 10589
+public class EffectMount : EntityComponent<BaseEntity>, IClientComponent // TypeDefIndex: 10590
 {
 	public bool firstPerson; 
 	public GameObject effectPrefab; 
@@ -133,7 +133,7 @@ public class EffectMount : EntityComponent<BaseEntity>, IClientComponent // Type
 
 }
 
-public class EffectParent : EntityComponent<BaseEntity>, IClientComponent // TypeDefIndex: 10590
+public class EffectParent : EntityComponent<BaseEntity>, IClientComponent // TypeDefIndex: 10591
 {
 	public GameObject effect; 
 
@@ -144,7 +144,7 @@ public class EffectParent : EntityComponent<BaseEntity>, IClientComponent // Typ
 
 }
 
-public class Effect : EffectData // TypeDefIndex: 11033
+public class Effect : EffectData // TypeDefIndex: 11034
 {
 	public Vector3 Up; 
 	public Vector3 worldPos; 
@@ -177,7 +177,7 @@ public class Effect : EffectData // TypeDefIndex: 11033
 
 }
 
-public enum Effect.Type // TypeDefIndex: 11034
+public enum Effect.Type // TypeDefIndex: 11035
 {
 	public uint value__; 
 	public const Effect.Type Generic = 0;
@@ -186,7 +186,7 @@ public enum Effect.Type // TypeDefIndex: 11034
 
 }
 
-public static class Effect.client // TypeDefIndex: 11035
+public static class Effect.client // TypeDefIndex: 11036
 {
 
 	public static void Run(Effect.Type fxtype, BaseEntity ent, uint boneID, Vector3 posLocal, Vector3 normLocal) { }
@@ -205,7 +205,7 @@ public static class Effect.client // TypeDefIndex: 11035
 
 }
 
-public static class Effect.server // TypeDefIndex: 11036
+public static class Effect.server // TypeDefIndex: 11037
 {
 
 	public static void Run(Effect.Type fxtype, BaseEntity ent, uint boneID, Vector3 posLocal, Vector3 normLocal, Connection sourceConnection, bool broadcast = False) { }
@@ -222,7 +222,7 @@ public static class Effect.server // TypeDefIndex: 11036
 
 }
 
-public class EffectAudioPerspectiveSwitcher : MonoBehaviour, IEffect, IPrefabPreProcess // TypeDefIndex: 11037
+public class EffectAudioPerspectiveSwitcher : MonoBehaviour, IEffect, IPrefabPreProcess // TypeDefIndex: 11038
 {
 	[HideInInspector] 
 	public EffectParentToWeaponBone parentToWeaponComponent; 
@@ -242,7 +242,7 @@ public class EffectAudioPerspectiveSwitcher : MonoBehaviour, IEffect, IPrefabPre
 
 }
 
-public static class EffectLibrary // TypeDefIndex: 11040
+public static class EffectLibrary // TypeDefIndex: 11041
 {
 
 	[ExtensionAttribute] 
@@ -262,7 +262,7 @@ public static class EffectLibrary // TypeDefIndex: 11040
 
 }
 
-public class EffectMuzzleFlash : MonoBehaviour, IEffect // TypeDefIndex: 11041
+public class EffectMuzzleFlash : MonoBehaviour, IEffect // TypeDefIndex: 11042
 {
 
 	public virtual void SetupEffect(Effect effect) { }
@@ -275,7 +275,7 @@ public class EffectMuzzleFlash : MonoBehaviour, IEffect // TypeDefIndex: 11041
 
 }
 
-public static class EffectNetwork // TypeDefIndex: 11042
+public static class EffectNetwork // TypeDefIndex: 11043
 {
 	private static Effect effect; 
 
@@ -286,7 +286,7 @@ public static class EffectNetwork // TypeDefIndex: 11042
 
 }
 
-public class EffectParentToWeaponBone : BaseMonoBehaviour, IEffect // TypeDefIndex: 11043
+public class EffectParentToWeaponBone : BaseMonoBehaviour, IEffect // TypeDefIndex: 11044
 {
 	public string boneName; 
 	public bool singleFrame; 
@@ -308,7 +308,7 @@ public class EffectParentToWeaponBone : BaseMonoBehaviour, IEffect // TypeDefInd
 
 }
 
-public class EffectScaleWithCameraDistance : MonoBehaviour, IEffect // TypeDefIndex: 11044
+public class EffectScaleWithCameraDistance : MonoBehaviour, IEffect // TypeDefIndex: 11045
 {
 	public float minScale; 
 	public float maxScale; 
@@ -326,7 +326,7 @@ public class EffectScaleWithCameraDistance : MonoBehaviour, IEffect // TypeDefIn
 
 }
 
-public class EffectBlood : EffectRecycle // TypeDefIndex: 11558
+public class EffectBlood : EffectRecycle // TypeDefIndex: 11559
 {
 	public GameObjectRef ReplacementEffect; 
 
@@ -337,7 +337,7 @@ public class EffectBlood : EffectRecycle // TypeDefIndex: 11558
 
 }
 
-public class EffectDictionary // TypeDefIndex: 11559
+public class EffectDictionary // TypeDefIndex: 11560
 {
 	private static Dictionary<string, string[]> effectDictionary; 
 
@@ -360,7 +360,7 @@ public class EffectDictionary // TypeDefIndex: 11559
 
 }
 
-public class EffectRecycle : BaseMonoBehaviour, IClientComponent, IRagdollInhert, IEffectRecycle, IOnParentDestroying // TypeDefIndex: 11560
+public class EffectRecycle : BaseMonoBehaviour, IClientComponent, IRagdollInhert, IEffectRecycle, IOnParentDestroying // TypeDefIndex: 11561
 {
 	[FormerlySerializedAsAttribute] 
 	[ReadOnlyAttribute] 
@@ -398,7 +398,7 @@ public class EffectRecycle : BaseMonoBehaviour, IClientComponent, IRagdollInhert
 
 }
 
-public enum EffectRecycle.PlayMode // TypeDefIndex: 11561
+public enum EffectRecycle.PlayMode // TypeDefIndex: 11562
 {
 	public int value__; 
 	public const EffectRecycle.PlayMode Once = 0;
@@ -406,7 +406,7 @@ public enum EffectRecycle.PlayMode // TypeDefIndex: 11561
 
 }
 
-public enum EffectRecycle.ParentDestroyBehaviour // TypeDefIndex: 11562
+public enum EffectRecycle.ParentDestroyBehaviour // TypeDefIndex: 11563
 {
 	public int value__; 
 	public const EffectRecycle.ParentDestroyBehaviour Detach = 0;
@@ -415,7 +415,7 @@ public enum EffectRecycle.ParentDestroyBehaviour // TypeDefIndex: 11562
 
 }
 
-public class EffectRecycleDetach : BaseMonoBehaviour, IClientComponent, IEffectRecycle, IOnParentDestroying // TypeDefIndex: 11563
+public class EffectRecycleDetach : BaseMonoBehaviour, IClientComponent, IEffectRecycle, IOnParentDestroying // TypeDefIndex: 11564
 {
 	public float recycleTime; 
 	private Action recycleAction; 
@@ -433,7 +433,7 @@ public class EffectRecycleDetach : BaseMonoBehaviour, IClientComponent, IEffectR
 
 }
 
-public class EffectRecycleLite : BasePrefab, IClientComponent, IEffectRecycle, IOnParentDestroying // TypeDefIndex: 11564
+public class EffectRecycleLite : BasePrefab, IClientComponent, IEffectRecycle, IOnParentDestroying // TypeDefIndex: 11565
 {
 	private const float lifeTime = 60;
 	private Action recycleAction; 
@@ -451,7 +451,7 @@ public class EffectRecycleLite : BasePrefab, IClientComponent, IEffectRecycle, I
 
 }
 
-public class Effects : ConsoleSystem // TypeDefIndex: 13635
+public class Effects : ConsoleSystem // TypeDefIndex: 13637
 {
 	private static int _antialiasing; 
 	[ClientVar] 
@@ -511,7 +511,7 @@ public class Effects : ConsoleSystem // TypeDefIndex: 13635
 
 }
 
-public enum Effects.AntiAliasingType // TypeDefIndex: 13636
+public enum Effects.AntiAliasingType // TypeDefIndex: 13638
 {
 	public int value__; 
 	public const Effects.AntiAliasingType None = 0;

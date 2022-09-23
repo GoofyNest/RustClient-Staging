@@ -1,4 +1,4 @@
-public sealed class AuthInterface : Handle // TypeDefIndex: 9636
+public sealed class AuthInterface : Handle // TypeDefIndex: 9637
 {
 	public const int AccountfeaturerestrictedinfoApiLatest = 1;
 	public const int AddnotifyloginstatuschangedApiLatest = 1;

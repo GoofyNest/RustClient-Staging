@@ -1,4 +1,4 @@
-public sealed class LobbySearchOnFindCallback : MulticastDelegate // TypeDefIndex: 9179
+public sealed class LobbySearchOnFindCallback : MulticastDelegate // TypeDefIndex: 9180
 {
 
 	public void .ctor(object object, IntPtr method) { }

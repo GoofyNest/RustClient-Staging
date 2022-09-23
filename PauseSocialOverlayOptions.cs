@@ -1,4 +1,4 @@
-public struct PauseSocialOverlayOptions // TypeDefIndex: 8351
+public struct PauseSocialOverlayOptions // TypeDefIndex: 8352
 {
 	[CompilerGeneratedAttribute] 
 	private bool <IsPaused>k__BackingField; 

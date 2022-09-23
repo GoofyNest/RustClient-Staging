@@ -1,4 +1,4 @@
-public class BaseMagnet : MonoBehaviour // TypeDefIndex: 11433
+public class BaseMagnet : MonoBehaviour // TypeDefIndex: 11434
 {
 	public BaseEntity entityOwner; 
 	public BaseEntity.Flags magnetFlag; 

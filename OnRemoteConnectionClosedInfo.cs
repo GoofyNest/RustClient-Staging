@@ -1,4 +1,4 @@
-public struct OnRemoteConnectionClosedInfo : ICallbackInfo // TypeDefIndex: 8975
+public struct OnRemoteConnectionClosedInfo : ICallbackInfo // TypeDefIndex: 8976
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

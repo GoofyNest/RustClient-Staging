@@ -1,4 +1,4 @@
-public class MaterialRow : MonoBehaviour // TypeDefIndex: 7762
+public class MaterialRow : MonoBehaviour // TypeDefIndex: 7763
 {
 	public string ParamName; 
 

@@ -1,4 +1,4 @@
-public class RainSurfaceAmbience : SingletonComponent<RainSurfaceAmbience>, IClientComponent // TypeDefIndex: 10682
+public class RainSurfaceAmbience : SingletonComponent<RainSurfaceAmbience>, IClientComponent // TypeDefIndex: 10683
 {
 	public List<RainSurfaceAmbience.SurfaceSound> surfaces; 
 	public GameObjectRef emitterPrefab; 
@@ -20,7 +20,7 @@ public class RainSurfaceAmbience : SingletonComponent<RainSurfaceAmbience>, ICli
 
 }
 
-public class RainSurfaceAmbience.SurfaceSound // TypeDefIndex: 10683
+public class RainSurfaceAmbience.SurfaceSound // TypeDefIndex: 10684
 {
 	public AmbienceDefinitionList baseAmbience; 
 	public List<PhysicMaterial> materials; 

@@ -1,4 +1,4 @@
-public struct DuplicateFileCallbackInfo : ICallbackInfo // TypeDefIndex: 8867
+public struct DuplicateFileCallbackInfo : ICallbackInfo // TypeDefIndex: 8868
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

@@ -1,4 +1,4 @@
-public class RazerChromaService : IRgbService // TypeDefIndex: 7717
+public class RazerChromaService : IRgbService // TypeDefIndex: 7718
 {
 	private readonly object _syncRoot; 
 	private Color _baseColor; 

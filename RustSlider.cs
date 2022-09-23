@@ -1,4 +1,4 @@
-public class RustSlider : RustControl, IPointerDownHandler, IEventSystemHandler, IPointerUpHandler, IDragHandler, IInitializePotentialDragHandler // TypeDefIndex: 7061
+public class RustSlider : RustControl, IPointerDownHandler, IEventSystemHandler, IPointerUpHandler, IDragHandler, IInitializePotentialDragHandler // TypeDefIndex: 7062
 {
 	public RustInput NumberInput; 
 	public Image SliderCanvas; 
@@ -44,7 +44,7 @@ public class RustSlider : RustControl, IPointerDownHandler, IEventSystemHandler,
 
 }
 
-public class RustSlider.ChangedEvent : UnityEvent<float> // TypeDefIndex: 7062
+public class RustSlider.ChangedEvent : UnityEvent<float> // TypeDefIndex: 7063
 {
 
 	public void .ctor() { }

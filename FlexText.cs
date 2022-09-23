@@ -1,5 +1,7 @@
 public class FlexText : TextMeshProUGUI, IFlexNode // TypeDefIndex: 6823
 {
+	[TooltipAttribute] 
+	public FlexLength Basis; 
 	[MinAttribute] 
 	[TooltipAttribute] 
 	public int Grow; 
@@ -28,6 +30,7 @@ public class FlexText : TextMeshProUGUI, IFlexNode // TypeDefIndex: 6823
 	private FlexLength Facepunch.Flexbox.IFlexNode.MaxWidth { get; }
 	private FlexLength Facepunch.Flexbox.IFlexNode.MinHeight { get; }
 	private FlexLength Facepunch.Flexbox.IFlexNode.MaxHeight { get; }
+	private FlexLength Facepunch.Flexbox.IFlexNode.Basis { get; }
 	private int Facepunch.Flexbox.IFlexNode.Grow { get; }
 	private int Facepunch.Flexbox.IFlexNode.Shrink { get; }
 	private FlexAlignSelf Facepunch.Flexbox.IFlexNode.AlignSelf { get; }
@@ -56,6 +59,8 @@ public class FlexText : TextMeshProUGUI, IFlexNode // TypeDefIndex: 6823
 	private FlexLength Facepunch.Flexbox.IFlexNode.get_MinHeight() { }
 
 	private FlexLength Facepunch.Flexbox.IFlexNode.get_MaxHeight() { }
+
+	private FlexLength Facepunch.Flexbox.IFlexNode.get_Basis() { }
 
 	private int Facepunch.Flexbox.IFlexNode.get_Grow() { }
 

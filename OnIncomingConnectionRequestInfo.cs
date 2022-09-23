@@ -1,4 +1,4 @@
-public struct OnIncomingConnectionRequestInfo : ICallbackInfo // TypeDefIndex: 8955
+public struct OnIncomingConnectionRequestInfo : ICallbackInfo // TypeDefIndex: 8956
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

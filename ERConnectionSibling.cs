@@ -1,4 +1,4 @@
-public class ERConnectionSibling // TypeDefIndex: 7195
+public class ERConnectionSibling // TypeDefIndex: 7196
 {
 	public string name; 
 	public ERModularRoad road; 
@@ -134,7 +134,7 @@ public class ERConnectionSibling // TypeDefIndex: 7195
 
 }
 
-private class ERConnectionSibling.ᙃ : IComparer // TypeDefIndex: 7196
+private class ERConnectionSibling.ᙃ : IComparer // TypeDefIndex: 7197
 {
 
 	private int System.Collections.IComparer.Compare(object a, object b) { }
@@ -143,7 +143,7 @@ private class ERConnectionSibling.ᙃ : IComparer // TypeDefIndex: 7196
 
 }
 
-private sealed class ERConnectionSibling.ᙄ // TypeDefIndex: 7197
+private sealed class ERConnectionSibling.ᙄ // TypeDefIndex: 7198
 {
 	public static readonly ERConnectionSibling.ᙄ <>9; 
 	public static Comparison<ERConnectionSibling> <>9__109_0; 

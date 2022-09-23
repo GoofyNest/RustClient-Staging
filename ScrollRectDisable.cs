@@ -1,4 +1,4 @@
-public class ScrollRectDisable : ListComponent<ScrollRectDisable> // TypeDefIndex: 12943
+public class ScrollRectDisable : ListComponent<ScrollRectDisable> // TypeDefIndex: 12945
 {
 	private static bool wasVisible; 
 	private ScrollRect targetRect; 

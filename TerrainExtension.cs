@@ -1,4 +1,4 @@
-public abstract class TerrainExtension : MonoBehaviour // TypeDefIndex: 12098
+public abstract class TerrainExtension : MonoBehaviour // TypeDefIndex: 12099
 {
 	public bool isInitialized; 
 	internal Terrain terrain; 

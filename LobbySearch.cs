@@ -1,4 +1,4 @@
-public sealed class LobbySearch : Handle // TypeDefIndex: 9170
+public sealed class LobbySearch : Handle // TypeDefIndex: 9171
 {
 	public const int LobbysearchCopysearchresultbyindexApiLatest = 1;
 	public const int LobbysearchFindApiLatest = 1;

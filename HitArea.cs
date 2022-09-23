@@ -1,4 +1,4 @@
-public enum HitArea // TypeDefIndex: 11606
+public enum HitArea // TypeDefIndex: 11607
 {
 	public int value__; 
 	public const HitArea Head = 1;

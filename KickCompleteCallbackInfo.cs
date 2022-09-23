@@ -1,4 +1,4 @@
-public struct KickCompleteCallbackInfo : ICallbackInfo // TypeDefIndex: 8725
+public struct KickCompleteCallbackInfo : ICallbackInfo // TypeDefIndex: 8726
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

@@ -1,4 +1,4 @@
-public struct Options // TypeDefIndex: 9362
+public struct Options // TypeDefIndex: 9363
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <Type>k__BackingField; 
@@ -34,7 +34,7 @@ public struct Options // TypeDefIndex: 9362
 
 }
 
-public struct Options // TypeDefIndex: 9862
+public struct Options // TypeDefIndex: 9863
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <Reserved>k__BackingField; 

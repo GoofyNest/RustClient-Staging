@@ -61,7 +61,7 @@ public class SmartAlarm : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 637
 
 }
 
-public class SmartAlarm : AppIOEntity, ISubscribable // TypeDefIndex: 10151
+public class SmartAlarm : AppIOEntity, ISubscribable // TypeDefIndex: 10152
 {
 	private Option __menuOption_MenuSetupNotification; 
 	public const BaseEntity.Flags Flag_HasCustomMessage = 16384;

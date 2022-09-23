@@ -1,4 +1,4 @@
-public class VendingMachineScreen : MonoBehaviour // TypeDefIndex: 10441
+public class VendingMachineScreen : MonoBehaviour // TypeDefIndex: 10442
 {
 	public RawImage largeIcon; 
 	public RawImage blueprintIcon; 
@@ -28,7 +28,7 @@ public class VendingMachineScreen : MonoBehaviour // TypeDefIndex: 10441
 
 }
 
-public enum VendingMachineScreen.vmScreenState // TypeDefIndex: 10442
+public enum VendingMachineScreen.vmScreenState // TypeDefIndex: 10443
 {
 	public int value__; 
 	public const VendingMachineScreen.vmScreenState ItemScroll = 0;

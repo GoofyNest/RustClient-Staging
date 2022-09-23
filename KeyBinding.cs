@@ -1,4 +1,4 @@
-public class KeyBinding : ListComponent<KeyBinding> // TypeDefIndex: 8016
+public class KeyBinding : ListComponent<KeyBinding> // TypeDefIndex: 8017
 {
 	public static bool IsOpen { get; }
 

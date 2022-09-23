@@ -1390,7 +1390,7 @@ internal class SqliteStatementHandle : CriticalHandle // TypeDefIndex: 4901
 
 }
 
-public class SqliteException : Exception // TypeDefIndex: 7364
+public class SqliteException : Exception // TypeDefIndex: 7365
 {
 
 	public void .ctor(string message) { }

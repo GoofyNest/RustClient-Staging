@@ -1,4 +1,4 @@
-public sealed class OnEnumerateModsCallback : MulticastDelegate // TypeDefIndex: 9012
+public sealed class OnEnumerateModsCallback : MulticastDelegate // TypeDefIndex: 9013
 {
 
 	public void .ctor(object object, IntPtr method) { }

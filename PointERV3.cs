@@ -1,4 +1,4 @@
-public class PointERV3 // TypeDefIndex: 7306
+public class PointERV3 // TypeDefIndex: 7307
 {
 	public float timeCreated; 
 	public Vector3 position; 

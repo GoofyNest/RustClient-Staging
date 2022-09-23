@@ -1,4 +1,4 @@
-public class MeshRendererData // TypeDefIndex: 10867
+public class MeshRendererData // TypeDefIndex: 10868
 {
 	public List<int> triangles; 
 	public List<Vector3> vertices; 

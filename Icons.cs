@@ -1,4 +1,4 @@
-public enum Icons // TypeDefIndex: 7079
+public enum Icons // TypeDefIndex: 7080
 {
 	public int value__; 
 	public const Icons None = 0;

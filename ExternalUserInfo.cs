@@ -1,4 +1,4 @@
-public struct ExternalUserInfo // TypeDefIndex: 8292
+public struct ExternalUserInfo // TypeDefIndex: 8293
 {
 	[CompilerGeneratedAttribute] 
 	private ExternalAccountType <AccountType>k__BackingField; 

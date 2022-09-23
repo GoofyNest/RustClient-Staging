@@ -1,4 +1,4 @@
-public class PostEffectsBase : MonoBehaviour // TypeDefIndex: 8201
+public class PostEffectsBase : MonoBehaviour // TypeDefIndex: 8202
 {
 	protected bool supportImageEffects; 
 	protected bool supportHDRTextures; 

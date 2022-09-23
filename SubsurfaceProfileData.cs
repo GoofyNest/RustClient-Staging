@@ -1,4 +1,4 @@
-public struct SubsurfaceProfileData // TypeDefIndex: 12371
+public struct SubsurfaceProfileData // TypeDefIndex: 12372
 {
 	[RangeAttribute] 
 	public float ScatterRadius; 

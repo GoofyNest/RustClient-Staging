@@ -1,4 +1,4 @@
-public class PlaceRoadObjects : ProceduralComponent // TypeDefIndex: 12269
+public class PlaceRoadObjects : ProceduralComponent // TypeDefIndex: 12270
 {
 	public PathList.BasicObject[] Start; 
 	public PathList.BasicObject[] End; 

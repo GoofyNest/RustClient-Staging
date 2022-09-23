@@ -25,7 +25,7 @@ internal class ChannelData // TypeDefIndex: 1139
 
 }
 
-public class ChannelData // TypeDefIndex: 7413
+public class ChannelData // TypeDefIndex: 7414
 {
 	internal GranuleInfo[] Granules; 
 	internal int[] ScaleFactorBits; 

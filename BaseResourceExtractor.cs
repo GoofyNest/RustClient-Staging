@@ -1,4 +1,4 @@
-public class BaseResourceExtractor : BaseCombatEntity // TypeDefIndex: 11270
+public class BaseResourceExtractor : BaseCombatEntity // TypeDefIndex: 11271
 {
 	public bool canExtractLiquid; 
 	public bool canExtractSolid; 

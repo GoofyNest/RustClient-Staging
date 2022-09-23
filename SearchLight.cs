@@ -1,4 +1,4 @@
-public class SearchLight : IOEntity // TypeDefIndex: 10145
+public class SearchLight : IOEntity // TypeDefIndex: 10146
 {
 	private Option __menuOption_StopUseLight; 
 	private Option __menuOption_UseLight; 
@@ -49,7 +49,7 @@ public class SearchLight : IOEntity // TypeDefIndex: 10145
 
 }
 
-public static class SearchLight.SearchLightFlags // TypeDefIndex: 10146
+public static class SearchLight.SearchLightFlags // TypeDefIndex: 10147
 {
 	public const BaseEntity.Flags PlayerUsing = 2048;
 

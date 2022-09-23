@@ -1,4 +1,4 @@
-public class GameModeCapturePoint : BaseEntity // TypeDefIndex: 11586
+public class GameModeCapturePoint : BaseEntity // TypeDefIndex: 11587
 {
 	public CapturePointTrigger captureTrigger; 
 	public float timeToCapture; 

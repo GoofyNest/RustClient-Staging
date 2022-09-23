@@ -1,4 +1,4 @@
-public class SepiaTone : ImageEffectBase // TypeDefIndex: 8209
+public class SepiaTone : ImageEffectBase // TypeDefIndex: 8210
 {
 
 	private void OnRenderImage(RenderTexture source, RenderTexture destination) { }

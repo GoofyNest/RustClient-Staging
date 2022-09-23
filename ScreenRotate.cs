@@ -1,4 +1,4 @@
-public class ScreenRotate : BaseScreenShake // TypeDefIndex: 11071
+public class ScreenRotate : BaseScreenShake // TypeDefIndex: 11072
 {
 	public AnimationCurve Pitch; 
 	public AnimationCurve Yaw; 

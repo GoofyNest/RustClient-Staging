@@ -1,4 +1,4 @@
-public class PoweredRemoteControlEntity : IOEntity, IRemoteControllable // TypeDefIndex: 10131
+public class PoweredRemoteControlEntity : IOEntity, IRemoteControllable // TypeDefIndex: 10132
 {
 	private Option __menuOption_Menu_SetID; 
 	public string rcIdentifier; 

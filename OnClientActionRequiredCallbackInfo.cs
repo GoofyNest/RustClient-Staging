@@ -1,4 +1,4 @@
-public struct OnClientActionRequiredCallbackInfo : ICallbackInfo // TypeDefIndex: 9776
+public struct OnClientActionRequiredCallbackInfo : ICallbackInfo // TypeDefIndex: 9777
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

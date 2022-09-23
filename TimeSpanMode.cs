@@ -1,4 +1,4 @@
-public enum TimeSpanMode // TypeDefIndex: 7501
+public enum TimeSpanMode // TypeDefIndex: 7502
 {
 	public int value__; 
 	public const TimeSpanMode TimeTime = 0;

@@ -1,4 +1,4 @@
-internal struct ColorData // TypeDefIndex: 7704
+internal struct ColorData // TypeDefIndex: 7705
 {
 	[CompilerGeneratedAttribute] 
 	private byte <Red>k__BackingField; 

@@ -1,4 +1,4 @@
-public class ImageEffectComposite : MonoBehaviour // TypeDefIndex: 8035
+public class ImageEffectComposite : MonoBehaviour // TypeDefIndex: 8036
 {
 	public RenderTextureFormat format; 
 	public RenderTextureReadWrite readWrite; 
@@ -19,7 +19,7 @@ public class ImageEffectComposite : MonoBehaviour // TypeDefIndex: 8035
 
 }
 
-private sealed class ImageEffectComposite.<>c // TypeDefIndex: 8036
+private sealed class ImageEffectComposite.<>c // TypeDefIndex: 8037
 {
 	public static readonly ImageEffectComposite.<>c <>9; 
 	public static Comparison<ImageEffectLayer> <>9__9_0; 

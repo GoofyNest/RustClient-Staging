@@ -13,6 +13,8 @@ public class FlexTransition : MonoBehaviour // TypeDefIndex: 6824
 
 	public void ToggleState() { }
 
+	private LTDescr RunTransitionImpl(in FlexTransition.Definition transition, bool animate) { }
+
 	private static ref float Property(FlexElement element, FlexTransition.TransitionProperty property) { }
 
 	public void .ctor() { }
@@ -36,6 +38,7 @@ public enum FlexTransition.TransitionProperty // TypeDefIndex: 6825
 	public const FlexTransition.TransitionProperty ImageColor = 102;
 	public const FlexTransition.TransitionProperty TextColor = 103;
 	public const FlexTransition.TransitionProperty CanvasAlpha = 104;
+	public const FlexTransition.TransitionProperty RotationZ = 105;
 
 }
 
@@ -53,7 +56,7 @@ public struct FlexTransition.Definition // TypeDefIndex: 6826
 
 }
 
-private sealed class FlexTransition.<>c__DisplayClass6_0 // TypeDefIndex: 6827
+private sealed class FlexTransition.<>c__DisplayClass9_0 // TypeDefIndex: 6827
 {
 	public Image image; 
 	public Color startValue; 
@@ -62,11 +65,11 @@ private sealed class FlexTransition.<>c__DisplayClass6_0 // TypeDefIndex: 6827
 
 	public void .ctor() { }
 
-	internal void <SwitchState>b__2(float value) { }
+	internal void <RunTransitionImpl>b__2(float value) { }
 
 }
 
-private sealed class FlexTransition.<>c__DisplayClass6_1 // TypeDefIndex: 6828
+private sealed class FlexTransition.<>c__DisplayClass9_1 // TypeDefIndex: 6828
 {
 	public TMP_Text text; 
 	public Color startValue; 
@@ -75,11 +78,11 @@ private sealed class FlexTransition.<>c__DisplayClass6_1 // TypeDefIndex: 6828
 
 	public void .ctor() { }
 
-	internal void <SwitchState>b__3(float value) { }
+	internal void <RunTransitionImpl>b__3(float value) { }
 
 }
 
-private sealed class FlexTransition.<>c__DisplayClass6_2 // TypeDefIndex: 6829
+private sealed class FlexTransition.<>c__DisplayClass9_2 // TypeDefIndex: 6829
 {
 	public FlexElement element; 
 	public FlexTransition.TransitionProperty property; 
@@ -87,24 +90,24 @@ private sealed class FlexTransition.<>c__DisplayClass6_2 // TypeDefIndex: 6829
 
 	public void .ctor() { }
 
-	internal void <SwitchState>b__4(float newValue, object _) { }
+	internal void <RunTransitionImpl>b__4(float newValue, object _) { }
 
 }
 
 private sealed class FlexTransition.<>c // TypeDefIndex: 6830
 {
 	public static readonly FlexTransition.<>c <>9; 
-	public static Action<float, object> <>9__6_0; 
-	public static Action<float, object> <>9__6_1; 
+	public static Action<float, object> <>9__9_0; 
+	public static Action<float, object> <>9__9_1; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal void <SwitchState>b__6_0(float value, object obj) { }
+	internal void <RunTransitionImpl>b__9_0(float value, object obj) { }
 
-	internal void <SwitchState>b__6_1(float value, object obj) { }
+	internal void <RunTransitionImpl>b__9_1(float value, object obj) { }
 
 }
 

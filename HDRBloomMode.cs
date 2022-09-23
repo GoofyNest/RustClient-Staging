@@ -1,4 +1,4 @@
-public enum HDRBloomMode // TypeDefIndex: 8164
+public enum HDRBloomMode // TypeDefIndex: 8165
 {
 	public int value__; 
 	public const HDRBloomMode Auto = 0;

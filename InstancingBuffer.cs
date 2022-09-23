@@ -1,4 +1,4 @@
-public class InstancingBuffer // TypeDefIndex: 13087
+public class InstancingBuffer // TypeDefIndex: 13089
 {
 	private BufferList<Matrix4x4> matrices; 
 	private Mesh mesh; 

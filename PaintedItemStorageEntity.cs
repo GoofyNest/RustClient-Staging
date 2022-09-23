@@ -1,4 +1,4 @@
-public class PaintedItemStorageEntity : BaseEntity, IServerFileReceiver, IUGCBrowserEntity // TypeDefIndex: 10315
+public class PaintedItemStorageEntity : BaseEntity, IServerFileReceiver, IUGCBrowserEntity // TypeDefIndex: 10316
 {
 	private uint _currentImageCrc; 
 	public List<PaintableItem> Targets; 
@@ -39,7 +39,7 @@ public class PaintedItemStorageEntity : BaseEntity, IServerFileReceiver, IUGCBro
 
 }
 
-private sealed class PaintedItemStorageEntity.<>c // TypeDefIndex: 10316
+private sealed class PaintedItemStorageEntity.<>c // TypeDefIndex: 10317
 {
 	public static readonly PaintedItemStorageEntity.<>c <>9; 
 	public static Predicate<PaintableItem> <>9__16_0; 

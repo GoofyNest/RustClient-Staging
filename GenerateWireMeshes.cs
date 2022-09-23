@@ -1,4 +1,4 @@
-public class GenerateWireMeshes : ProceduralComponent // TypeDefIndex: 12237
+public class GenerateWireMeshes : ProceduralComponent // TypeDefIndex: 12238
 {
 	public override bool RunOnCache { get; }
 

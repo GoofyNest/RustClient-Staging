@@ -1,4 +1,4 @@
-public struct QueryFileListOptions // TypeDefIndex: 8400
+public struct QueryFileListOptions // TypeDefIndex: 8401
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 
@@ -23,7 +23,7 @@ public struct QueryFileListOptions // TypeDefIndex: 8400
 
 }
 
-public struct QueryFileListOptions // TypeDefIndex: 8903
+public struct QueryFileListOptions // TypeDefIndex: 8904
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

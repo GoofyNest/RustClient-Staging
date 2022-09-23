@@ -1,4 +1,4 @@
-internal sealed class SmpteData // TypeDefIndex: 7622
+internal sealed class SmpteData // TypeDefIndex: 7623
 {
 	private static readonly Dictionary<SmpteFormat, byte> MaxFrames; 
 	private static readonly SmpteFormat[] Formats; 

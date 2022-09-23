@@ -1,4 +1,4 @@
-public enum BoneFlag // TypeDefIndex: 7347
+public enum BoneFlag // TypeDefIndex: 7348
 {
 
 [FlagsAttribute] 

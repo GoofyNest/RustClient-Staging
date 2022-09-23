@@ -1,4 +1,4 @@
-internal struct CopyExternalUserInfoByIndexOptionsInternal : ISettable<CopyExternalUserInfoByIndexOptions>, IDisposable // TypeDefIndex: 8289
+internal struct CopyExternalUserInfoByIndexOptionsInternal : ISettable<CopyExternalUserInfoByIndexOptions>, IDisposable // TypeDefIndex: 8290
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

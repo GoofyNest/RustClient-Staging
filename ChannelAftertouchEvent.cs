@@ -1,4 +1,4 @@
-public sealed class ChannelAftertouchEvent : ChannelEvent // TypeDefIndex: 7526
+public sealed class ChannelAftertouchEvent : ChannelEvent // TypeDefIndex: 7527
 {
 	public SevenBitNumber AftertouchValue { get; }
 

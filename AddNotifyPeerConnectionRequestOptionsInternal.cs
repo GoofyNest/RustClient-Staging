@@ -1,4 +1,4 @@
-internal struct AddNotifyPeerConnectionRequestOptionsInternal : ISettable<AddNotifyPeerConnectionRequestOptions>, IDisposable // TypeDefIndex: 8932
+internal struct AddNotifyPeerConnectionRequestOptionsInternal : ISettable<AddNotifyPeerConnectionRequestOptions>, IDisposable // TypeDefIndex: 8933
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

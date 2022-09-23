@@ -1,4 +1,4 @@
-public class HealthBelowEventUI : BaseEventUI // TypeDefIndex: 12506
+public class HealthBelowEventUI : BaseEventUI // TypeDefIndex: 12507
 {
 
 	public override AIEventData Save() { }

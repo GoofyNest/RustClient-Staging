@@ -1,4 +1,4 @@
-public struct ReceivePacketOptions // TypeDefIndex: 8983
+public struct ReceivePacketOptions // TypeDefIndex: 8984
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

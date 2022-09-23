@@ -1,4 +1,4 @@
-public sealed class Handlers // TypeDefIndex: 7375
+public sealed class Handlers // TypeDefIndex: 7376
 {
 	public static readonly string[] List; 
 	private static Hashtable aliases; 

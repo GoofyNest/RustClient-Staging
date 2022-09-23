@@ -1,4 +1,4 @@
-public class BloomOptimized : PostEffectsBase // TypeDefIndex: 8167
+public class BloomOptimized : PostEffectsBase // TypeDefIndex: 8168
 {
 	[RangeAttribute] 
 	public float threshold; 
@@ -24,7 +24,7 @@ public class BloomOptimized : PostEffectsBase // TypeDefIndex: 8167
 
 }
 
-public enum BloomOptimized.Resolution // TypeDefIndex: 8168
+public enum BloomOptimized.Resolution // TypeDefIndex: 8169
 {
 	public int value__; 
 	public const BloomOptimized.Resolution Low = 0;
@@ -32,7 +32,7 @@ public enum BloomOptimized.Resolution // TypeDefIndex: 8168
 
 }
 
-public enum BloomOptimized.BlurType // TypeDefIndex: 8169
+public enum BloomOptimized.BlurType // TypeDefIndex: 8170
 {
 	public int value__; 
 	public const BloomOptimized.BlurType Standard = 0;

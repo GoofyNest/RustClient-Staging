@@ -1,4 +1,4 @@
-public class RealmedNavMeshObstacle : BasePrefab // TypeDefIndex: 10662
+public class RealmedNavMeshObstacle : BasePrefab // TypeDefIndex: 10663
 {
 	public NavMeshObstacle Obstacle; 
 

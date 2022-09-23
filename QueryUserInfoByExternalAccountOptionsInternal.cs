@@ -1,4 +1,4 @@
-internal struct QueryUserInfoByExternalAccountOptionsInternal : ISettable<QueryUserInfoByExternalAccountOptions>, IDisposable // TypeDefIndex: 8309
+internal struct QueryUserInfoByExternalAccountOptionsInternal : ISettable<QueryUserInfoByExternalAccountOptions>, IDisposable // TypeDefIndex: 8310
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

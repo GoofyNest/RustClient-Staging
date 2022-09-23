@@ -1,4 +1,4 @@
-public class SprayDecay : Decay // TypeDefIndex: 11233
+public class SprayDecay : Decay // TypeDefIndex: 11234
 {
 
 	public void .ctor() { }

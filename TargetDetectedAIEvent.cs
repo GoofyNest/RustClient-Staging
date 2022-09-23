@@ -1,4 +1,4 @@
-public class TargetDetectedAIEvent : BaseAIEvent // TypeDefIndex: 11114
+public class TargetDetectedAIEvent : BaseAIEvent // TypeDefIndex: 11115
 {
 	[CompilerGeneratedAttribute] 
 	private float <Range>k__BackingField; 

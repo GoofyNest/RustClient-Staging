@@ -1,4 +1,4 @@
-public class ImpostorBatch // TypeDefIndex: 12390
+public class ImpostorBatch // TypeDefIndex: 12391
 {
 	[CompilerGeneratedAttribute] 
 	private Mesh <Mesh>k__BackingField; 

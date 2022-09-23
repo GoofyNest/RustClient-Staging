@@ -1,4 +1,4 @@
-public struct CatalogItem // TypeDefIndex: 9404
+public struct CatalogItem // TypeDefIndex: 9405
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <CatalogNamespace>k__BackingField; 

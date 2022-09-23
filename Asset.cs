@@ -355,7 +355,7 @@ public class AssetPreloadResult : CustomYieldInstruction // TypeDefIndex: 6659
 
 }
 
-public static class AssetNameCache // TypeDefIndex: 12425
+public static class AssetNameCache // TypeDefIndex: 12426
 {
 	private static Dictionary<Object, string> mixed; 
 	private static Dictionary<Object, string> lower; 
@@ -390,7 +390,7 @@ public static class AssetNameCache // TypeDefIndex: 12425
 
 }
 
-public static class AssetStorage // TypeDefIndex: 13091
+public static class AssetStorage // TypeDefIndex: 13093
 {
 
 	public static void Save<T>(ref T asset, string path) { }

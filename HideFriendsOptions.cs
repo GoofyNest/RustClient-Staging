@@ -1,4 +1,4 @@
-public struct HideFriendsOptions // TypeDefIndex: 8329
+public struct HideFriendsOptions // TypeDefIndex: 8330
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

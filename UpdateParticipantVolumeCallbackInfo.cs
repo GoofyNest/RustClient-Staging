@@ -1,4 +1,4 @@
-public struct UpdateParticipantVolumeCallbackInfo : ICallbackInfo // TypeDefIndex: 8701
+public struct UpdateParticipantVolumeCallbackInfo : ICallbackInfo // TypeDefIndex: 8702
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

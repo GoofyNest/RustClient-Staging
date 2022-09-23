@@ -1,4 +1,4 @@
-public class SunShafts : PostEffectsBase // TypeDefIndex: 8210
+public class SunShafts : PostEffectsBase // TypeDefIndex: 8211
 {
 	public SunShafts.SunShaftsResolution resolution; 
 	public SunShafts.ShaftsScreenBlendMode screenBlendMode; 
@@ -24,7 +24,7 @@ public class SunShafts : PostEffectsBase // TypeDefIndex: 8210
 
 }
 
-public enum SunShafts.SunShaftsResolution // TypeDefIndex: 8211
+public enum SunShafts.SunShaftsResolution // TypeDefIndex: 8212
 {
 	public int value__; 
 	public const SunShafts.SunShaftsResolution Low = 0;
@@ -33,7 +33,7 @@ public enum SunShafts.SunShaftsResolution // TypeDefIndex: 8211
 
 }
 
-public enum SunShafts.ShaftsScreenBlendMode // TypeDefIndex: 8212
+public enum SunShafts.ShaftsScreenBlendMode // TypeDefIndex: 8213
 {
 	public int value__; 
 	public const SunShafts.ShaftsScreenBlendMode Screen = 0;

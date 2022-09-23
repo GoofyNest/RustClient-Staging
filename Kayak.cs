@@ -1,4 +1,4 @@
-public class Kayak : BaseBoat, IPoolVehicle // TypeDefIndex: 10296
+public class Kayak : BaseBoat, IPoolVehicle // TypeDefIndex: 10297
 {
 	public ItemDefinition OarItem; 
 	public float maxPaddleFrequency; 
@@ -57,7 +57,7 @@ public class Kayak : BaseBoat, IPoolVehicle // TypeDefIndex: 10296
 
 }
 
-private struct Kayak.PlayerAnimationState // TypeDefIndex: 10297
+private struct Kayak.PlayerAnimationState // TypeDefIndex: 10298
 {
 	public Vector3 smoothedAnimDirection; 
 	public TimeSince lastPaddle; 
@@ -65,7 +65,7 @@ private struct Kayak.PlayerAnimationState // TypeDefIndex: 10297
 
 }
 
-private enum Kayak.PaddleDirection // TypeDefIndex: 10298
+private enum Kayak.PaddleDirection // TypeDefIndex: 10299
 {
 	public int value__; 
 	public const Kayak.PaddleDirection Left = 0;

@@ -81539,7 +81539,7 @@ internal sealed class Pinnable<T> // TypeDefIndex: 6900
 
 }
 
-internal sealed class CircularBuffer<T> // TypeDefIndex: 7624
+internal sealed class CircularBuffer<T> // TypeDefIndex: 7625
 {
 	private readonly int _capacity; 
 	private readonly T[] _buffer; 
@@ -81623,7 +81623,7 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7624
 
 }
 
-internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7633
+internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7634
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -81658,7 +81658,7 @@ internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7633
 
 }
 
-internal struct GameEvent<T> // TypeDefIndex: 7709
+internal struct GameEvent<T> // TypeDefIndex: 7710
 {
 	[CompilerGeneratedAttribute] 
 	private string <GameId>k__BackingField; 
@@ -81734,7 +81734,7 @@ internal struct GameEvent<T> // TypeDefIndex: 7709
 
 }
 
-public class BoneDictionary // TypeDefIndex: 10827
+public class BoneDictionary // TypeDefIndex: 10828
 {
 	public Transform transform; 
 	public Transform[] transforms; 
@@ -81762,7 +81762,7 @@ public class BoneDictionary // TypeDefIndex: 10827
 
 }
 
-public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10854
+public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10855
 {
 	public T component; 
 
@@ -81783,7 +81783,7 @@ public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10854
 
 }
 
-public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 10932
+public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 10933
 {
 	[SerializeField] 
 	private AmplifyOcclusionEffect ssao; 
@@ -82102,7 +82102,7 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 109
 
 }
 
-public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11267
+public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11268
 {
 	protected T owner; 
 	public MetabolismAttribute calories; 
@@ -82146,7 +82146,7 @@ public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11
 
 }
 
-public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 11324
+public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 11325
 {
 
 public abstract class BaseModifiers<T> : EntityComponent<T>
@@ -82269,7 +82269,7 @@ public abstract class BaseModifiers<T> : EntityComponent<T>
 
 }
 
-public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11674
+public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11675
 {
 	public T Component; 
 
@@ -82288,7 +82288,7 @@ public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11674
 
 }
 
-public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12120
+public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12121
 {
 	internal T[] src; 
 	internal T[] dst; 
@@ -82374,7 +82374,7 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12120
 
 }
 
-public static class RecipeDictionary // TypeDefIndex: 12463
+public static class RecipeDictionary // TypeDefIndex: 12464
 {
 	private static Dictionary<uint, Dictionary<int, List<Recipe>>> recipeListsDict; 
 
@@ -82391,7 +82391,7 @@ public static class RecipeDictionary // TypeDefIndex: 12463
 
 }
 
-public struct CachedTransform<T> // TypeDefIndex: 13024
+public struct CachedTransform<T> // TypeDefIndex: 13026
 {
 	public T component; 
 	public Vector3 position; 
@@ -82474,7 +82474,7 @@ public struct CachedTransform<T> // TypeDefIndex: 13024
 
 }
 
-public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13118
+public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13120
 {
 	private NativeArray<T> _array; 
 	private int _length; 
@@ -82568,7 +82568,7 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13118
 
 }
 
-public class PooledList<T> // TypeDefIndex: 13124
+public class PooledList<T> // TypeDefIndex: 13126
 {
 	public List<T> data; 
 
@@ -82617,7 +82617,7 @@ public class PooledList<T> // TypeDefIndex: 13124
 
 }
 
-public class SimpleList<T> // TypeDefIndex: 13127
+public class SimpleList<T> // TypeDefIndex: 13129
 {
 	private const int defaultCapacity = 16;
 	private static readonly T[] emptyArray; 
@@ -82770,7 +82770,7 @@ public class SimpleList<T> // TypeDefIndex: 13127
 
 }
 
-public class TimeCachedValue<T> // TypeDefIndex: 13132
+public class TimeCachedValue<T> // TypeDefIndex: 13134
 {
 	public float refreshCooldown; 
 	public float refreshRandomRange; 
@@ -82801,7 +82801,7 @@ public class TimeCachedValue<T> // TypeDefIndex: 13132
 
 }
 
-public class ResourceRef<T> // TypeDefIndex: 13157
+public class ResourceRef<T> // TypeDefIndex: 13159
 {
 	public string guid; 
 	private T _cachedObject; 
@@ -82853,7 +82853,7 @@ public class ResourceRef<T> // TypeDefIndex: 13157
 
 }
 
-public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13550
+public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13552
 {
 	public T value; 
 
@@ -83120,7 +83120,7 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13550
 
 }
 
-public class GenericLerp<T> : IDisposable // TypeDefIndex: 13845
+public class GenericLerp<T> : IDisposable // TypeDefIndex: 13847
 {
 	private Interpolator<T> interpolator; 
 	private IGenericLerpTarget<T> target; 
@@ -83243,7 +83243,7 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 13845
 
 }
 
-public class Interpolator<T> // TypeDefIndex: 13847
+public class Interpolator<T> // TypeDefIndex: 13849
 {
 	public List<T> list; 
 	public T last; 

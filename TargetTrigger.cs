@@ -1,4 +1,4 @@
-public class TargetTrigger : TriggerBase // TypeDefIndex: 11281
+public class TargetTrigger : TriggerBase // TypeDefIndex: 11282
 {
 	[TooltipAttribute] 
 	public Transform losEyes; 

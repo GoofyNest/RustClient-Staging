@@ -1,4 +1,4 @@
-public class BaseDetector : IOEntity // TypeDefIndex: 10404
+public class BaseDetector : IOEntity // TypeDefIndex: 10405
 {
 	public PlayerDetectionTrigger myTrigger; 
 	public const BaseEntity.Flags Flag_HasContents = 128;

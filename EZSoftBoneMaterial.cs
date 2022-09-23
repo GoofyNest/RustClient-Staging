@@ -1,4 +1,4 @@
-public class EZSoftBoneMaterial : ScriptableObject // TypeDefIndex: 7168
+public class EZSoftBoneMaterial : ScriptableObject // TypeDefIndex: 7169
 {
 	[SerializeField] 
 	[RangeAttribute] 

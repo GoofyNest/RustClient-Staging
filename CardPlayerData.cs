@@ -1,4 +1,4 @@
-public class CardPlayerData : IDisposable // TypeDefIndex: 13737
+public class CardPlayerData : IDisposable // TypeDefIndex: 13739
 {
 	[CompilerGeneratedAttribute] 
 	private ulong <UserID>k__BackingField; 
@@ -80,7 +80,7 @@ public class CardPlayerData : IDisposable // TypeDefIndex: 13737
 
 }
 
-public enum CardPlayerData.CardPlayerState // TypeDefIndex: 13738
+public enum CardPlayerData.CardPlayerState // TypeDefIndex: 13740
 {
 	public int value__; 
 	public const CardPlayerData.CardPlayerState None = 0;

@@ -1,4 +1,4 @@
-public class QDQDOOQQOOQDD : MonoBehaviour // TypeDefIndex: 7284
+public class QDQDOOQQOOQDD : MonoBehaviour // TypeDefIndex: 7285
 {
 	private List<Vector3> ᙃ; 
 	private float[,] ᙄ; 

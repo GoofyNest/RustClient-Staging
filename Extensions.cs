@@ -140,7 +140,7 @@ private sealed class Extensions.<>c__13<T, U>
 
 }
 
-public static class Extensions // TypeDefIndex: 8142
+public static class Extensions // TypeDefIndex: 8143
 {
 
 	[ExtensionAttribute] 
@@ -155,7 +155,7 @@ public static class Extensions // TypeDefIndex: 8142
 
 }
 
-public static class Extensions // TypeDefIndex: 8252
+public static class Extensions // TypeDefIndex: 8253
 {
 
 	[ExtensionAttribute] 
@@ -166,7 +166,7 @@ public static class Extensions // TypeDefIndex: 8252
 
 }
 
-public static class Extensions // TypeDefIndex: 13297
+public static class Extensions // TypeDefIndex: 13299
 {
 
 	[ExtensionAttribute] 

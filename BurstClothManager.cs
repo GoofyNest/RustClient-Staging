@@ -1,4 +1,4 @@
-public class BurstClothManager : MonoBehaviour // TypeDefIndex: 7315
+public class BurstClothManager : MonoBehaviour // TypeDefIndex: 7316
 {
 	private static BurstClothManager _instance; 
 	internal readonly List<BurstCloth> Instances; 

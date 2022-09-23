@@ -1,4 +1,4 @@
-public class SoundRandomizer // TypeDefIndex: 10744
+public class SoundRandomizer // TypeDefIndex: 10745
 {
 	private static Dictionary<SoundDefinition, int> lastClipIndexBySoundDef; 
 

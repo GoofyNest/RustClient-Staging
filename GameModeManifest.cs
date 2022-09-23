@@ -1,4 +1,4 @@
-public class GameModeManifest : ScriptableObject // TypeDefIndex: 11587
+public class GameModeManifest : ScriptableObject // TypeDefIndex: 11588
 {
 	public static GameModeManifest instance; 
 	public List<GameObjectRef> gameModePrefabs; 

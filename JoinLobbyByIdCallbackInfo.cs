@@ -1,4 +1,4 @@
-public struct JoinLobbyByIdCallbackInfo : ICallbackInfo // TypeDefIndex: 9100
+public struct JoinLobbyByIdCallbackInfo : ICallbackInfo // TypeDefIndex: 9101
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

@@ -115,6 +115,7 @@ public static class Pool // TypeDefIndex: 4838
 	|-Pool.FreeList<RelationshipManager.PlayerRelationshipInfo>
 	|-Pool.FreeList<RendererBatch>
 	|-Pool.FreeList<ItemModEngineItem>
+	|-Pool.FreeList<RustButton>
 	|-Pool.FreeList<ServerAdminUGCEntry>
 	|-Pool.FreeList<ServerAdminUGCEntryPattern>
 	|-Pool.FreeList<ShoutcastStreamer>
@@ -1010,6 +1011,7 @@ public static class Pool // TypeDefIndex: 4838
 	|-Pool.GetList<RelationshipManager.PlayerRelationshipInfo>
 	|-Pool.GetList<RendererBatch>
 	|-Pool.GetList<ItemModEngineItem>
+	|-Pool.GetList<RustButton>
 	|-Pool.GetList<ServerAdminUGCEntry>
 	|-Pool.GetList<ServerAdminUGCEntryPattern>
 	|-Pool.GetList<ShoutcastStreamer>
@@ -1251,7 +1253,7 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4841
 
 }
 
-public class Pool : ConsoleSystem // TypeDefIndex: 13680
+public class Pool : ConsoleSystem // TypeDefIndex: 13682
 {
 	[ServerVar] 
 	[ClientVar] 
@@ -1301,7 +1303,7 @@ public class Pool : ConsoleSystem // TypeDefIndex: 13680
 
 }
 
-private sealed class Pool.<>c // TypeDefIndex: 13681
+private sealed class Pool.<>c // TypeDefIndex: 13683
 {
 	public static readonly Pool.<>c <>9; 
 	public static Func<KeyValuePair<Type, Pool.ICollection>, long> <>9__4_0; 

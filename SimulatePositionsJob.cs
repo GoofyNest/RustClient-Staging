@@ -1,4 +1,4 @@
-internal struct SimulatePositionsJob : IJob // TypeDefIndex: 7324
+internal struct SimulatePositionsJob : IJob // TypeDefIndex: 7325
 {
 	[ReadOnlyAttribute] 
 	public NativeArray<ColliderData> ColliderData; 

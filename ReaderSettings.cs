@@ -1,4 +1,4 @@
-public sealed class ReaderSettings // TypeDefIndex: 7604
+public sealed class ReaderSettings // TypeDefIndex: 7605
 {
 	private int _nonSeekableStreamBufferSize; 
 	private int _nonSeekableStreamIncrementalBytesReadingThreshold; 

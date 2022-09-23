@@ -1,4 +1,4 @@
-public class IronSightOverride : MonoBehaviour // TypeDefIndex: 13164
+public class IronSightOverride : MonoBehaviour // TypeDefIndex: 13166
 {
 	public IronsightAimPoint aimPoint; 
 	public float fieldOfViewOffset; 

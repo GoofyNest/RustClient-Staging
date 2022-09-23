@@ -1,4 +1,4 @@
-public sealed class TempoMap // TypeDefIndex: 7456
+public sealed class TempoMap // TypeDefIndex: 7457
 {
 	public static readonly TempoMap Default; 
 	private ValueLine<TimeSignature> _timeSignatureLine; 
@@ -51,7 +51,7 @@ public sealed class TempoMap // TypeDefIndex: 7456
 
 }
 
-private sealed class TempoMap.<>c__DisplayClass35_0 // TypeDefIndex: 7457
+private sealed class TempoMap.<>c__DisplayClass35_0 // TypeDefIndex: 7458
 {
 	public TempoMapLine tempoMapLine; 
 	public Func<ITempoMapValuesCache, bool> <>9__0; 

@@ -1,4 +1,4 @@
-public static class DLSS // TypeDefIndex: 8229
+public static class DLSS // TypeDefIndex: 8230
 {
 
 	public static extern bool InitDLSS() { }

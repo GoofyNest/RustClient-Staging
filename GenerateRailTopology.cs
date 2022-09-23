@@ -1,4 +1,4 @@
-public class GenerateRailTopology : ProceduralComponent // TypeDefIndex: 12206
+public class GenerateRailTopology : ProceduralComponent // TypeDefIndex: 12207
 {
 
 	public override void Process(uint seed) { }
@@ -9,7 +9,7 @@ public class GenerateRailTopology : ProceduralComponent // TypeDefIndex: 12206
 
 }
 
-private sealed class GenerateRailTopology.<>c__DisplayClass1_0 // TypeDefIndex: 12207
+private sealed class GenerateRailTopology.<>c__DisplayClass1_0 // TypeDefIndex: 12208
 {
 	public int[] map; 
 	public int res; 

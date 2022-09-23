@@ -1,4 +1,4 @@
-public class BuoyancyPoint : MonoBehaviour // TypeDefIndex: 11405
+public class BuoyancyPoint : MonoBehaviour // TypeDefIndex: 11406
 {
 	public float buoyancyForce; 
 	public float size; 

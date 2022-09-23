@@ -1,4 +1,4 @@
-public class ERMaterial : ScriptableObject // TypeDefIndex: 7227
+public class ERMaterial : ScriptableObject // TypeDefIndex: 7228
 {
 	public int id; 
 	public string name; 

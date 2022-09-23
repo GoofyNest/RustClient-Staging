@@ -1,4 +1,4 @@
-public enum PlaneAlignment // TypeDefIndex: 13272
+public enum PlaneAlignment // TypeDefIndex: 13274
 {
 	public int value__; 
 	public const PlaneAlignment Surface = 0;

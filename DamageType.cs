@@ -1,4 +1,4 @@
-public enum DamageType // TypeDefIndex: 13755
+public enum DamageType // TypeDefIndex: 13757
 {
 	public int value__; 
 	public const DamageType Generic = 0;

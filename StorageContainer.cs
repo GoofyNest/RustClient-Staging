@@ -1,4 +1,4 @@
-public class StorageContainer : DecayEntity, IItemContainerEntity, IIdealSlotEntity, LootPanel.IHasLootPanel, IContainerSounds // TypeDefIndex: 10159
+public class StorageContainer : DecayEntity, IItemContainerEntity, IIdealSlotEntity, LootPanel.IHasLootPanel, IContainerSounds // TypeDefIndex: 10160
 {
 	private Option __menuOption_Menu_Occupied; 
 	private Option __menuOption_Menu_OnFire; 

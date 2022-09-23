@@ -1,4 +1,4 @@
-public class CullWhenInside : MonoBehaviour, ILOD // TypeDefIndex: 10874
+public class CullWhenInside : MonoBehaviour, ILOD // TypeDefIndex: 10875
 {
 	private LODComponent lod; 
 

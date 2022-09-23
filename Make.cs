@@ -1,4 +1,4 @@
-public static class Make // TypeDefIndex: 7081
+public static class Make // TypeDefIndex: 7082
 {
 	public static string PrefabRoot; 
 	public static Translate.Phrase phrase_on; 
@@ -43,7 +43,7 @@ public static class Make // TypeDefIndex: 7081
 
 }
 
-public static class Make.Container // TypeDefIndex: 7082
+public static class Make.Container // TypeDefIndex: 7083
 {
 
 	public static RustWrapper Toolbar(string style = "Normal") { }
@@ -58,7 +58,7 @@ public static class Make.Container // TypeDefIndex: 7082
 
 }
 
-public static class Make.Form // TypeDefIndex: 7083
+public static class Make.Form // TypeDefIndex: 7084
 {
 
 	public static RustWrapper Toolbar(string style = "Normal") { }
@@ -71,7 +71,7 @@ public static class Make.Form // TypeDefIndex: 7083
 
 }
 
-public static class Make.Label // TypeDefIndex: 7084
+public static class Make.Label // TypeDefIndex: 7085
 {
 
 	public static RustText Normal(Translate.Phrase text) { }

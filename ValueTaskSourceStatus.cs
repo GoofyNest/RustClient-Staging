@@ -1,4 +1,4 @@
-public enum ValueTaskSourceStatus // TypeDefIndex: 7120
+public enum ValueTaskSourceStatus // TypeDefIndex: 7121
 {
 	public int value__; 
 	public const ValueTaskSourceStatus Pending = 0;

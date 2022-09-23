@@ -1,4 +1,4 @@
-internal struct ModInfoInternal : IGettable<ModInfo>, ISettable<ModInfo>, IDisposable // TypeDefIndex: 9010
+internal struct ModInfoInternal : IGettable<ModInfo>, ISettable<ModInfo>, IDisposable // TypeDefIndex: 9011
 {
 	private int m_ApiVersion; 
 	private int m_ModsCount; 

@@ -1,4 +1,4 @@
-public class BaseScriptableObject : ScriptableObject // TypeDefIndex: 13017
+public class BaseScriptableObject : ScriptableObject // TypeDefIndex: 13019
 {
 	[HideInInspector] 
 	public uint FilenameStringId; 

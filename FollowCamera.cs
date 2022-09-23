@@ -1,4 +1,4 @@
-public class FollowCamera : MonoBehaviour, IClientComponent // TypeDefIndex: 10892
+public class FollowCamera : MonoBehaviour, IClientComponent // TypeDefIndex: 10893
 {
 
 	private void LateUpdate() { }

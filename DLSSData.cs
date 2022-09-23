@@ -1,4 +1,4 @@
-public struct DLSSData // TypeDefIndex: 8226
+public struct DLSSData // TypeDefIndex: 8227
 {
 	public IntPtr color; 
 	public IntPtr depth; 

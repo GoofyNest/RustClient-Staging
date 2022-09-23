@@ -1,4 +1,4 @@
-public class StyleAsset : ScriptableObject // TypeDefIndex: 7095
+public class StyleAsset : ScriptableObject // TypeDefIndex: 7096
 {
 	public StyleAsset.Group Normal; 
 	public StyleAsset.Group Hovered; 
@@ -10,7 +10,7 @@ public class StyleAsset : ScriptableObject // TypeDefIndex: 7095
 
 }
 
-public class StyleAsset.Group // TypeDefIndex: 7096
+public class StyleAsset.Group // TypeDefIndex: 7097
 {
 	public Color Bg; 
 	public Color Fg; 

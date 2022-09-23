@@ -1,4 +1,4 @@
-public enum WaterQuality // TypeDefIndex: 12335
+public enum WaterQuality // TypeDefIndex: 12336
 {
 	public int value__; 
 	public const WaterQuality Low = 0;

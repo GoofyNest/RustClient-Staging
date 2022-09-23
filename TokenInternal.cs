@@ -1,4 +1,4 @@
-internal struct TokenInternal : IGettable<Token>, ISettable<Token>, IDisposable // TypeDefIndex: 9690
+internal struct TokenInternal : IGettable<Token>, ISettable<Token>, IDisposable // TypeDefIndex: 9691
 {
 	private int m_ApiVersion; 
 	private IntPtr m_App; 

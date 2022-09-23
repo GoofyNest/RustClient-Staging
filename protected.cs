@@ -221,7 +221,7 @@ protected struct TMP_Text.UnicodeChar // TypeDefIndex: 6771
 
 }
 
-protected static class AnimalAnimation.Params // TypeDefIndex: 10817
+protected static class AnimalAnimation.Params // TypeDefIndex: 10818
 {
 	public static int WalkSpeed; 
 	public static int Sleeping; 
@@ -232,7 +232,7 @@ protected static class AnimalAnimation.Params // TypeDefIndex: 10817
 
 }
 
-protected class ViewShake.ShakeParameters // TypeDefIndex: 10955
+protected class ViewShake.ShakeParameters // TypeDefIndex: 10956
 {
 	public float endTime; 
 	public float duration; 
@@ -248,7 +248,7 @@ protected class ViewShake.ShakeParameters // TypeDefIndex: 10955
 
 }
 
-protected struct BaseFootstepEffect.GroundInfo // TypeDefIndex: 11030
+protected struct BaseFootstepEffect.GroundInfo // TypeDefIndex: 11031
 {
 	public string surface; 
 	public Vector3 position; 
@@ -263,7 +263,7 @@ protected struct BaseFootstepEffect.GroundInfo // TypeDefIndex: 11030
 
 }
 
-protected enum VehicleChassisVisuals.ExtensionMode<T> // TypeDefIndex: 11487
+protected enum VehicleChassisVisuals.ExtensionMode<T> // TypeDefIndex: 11488
 {
 	public int value__; 
 	public const VehicleChassisVisuals.ExtensionMode<T> RestingIsMinExtension = 0;

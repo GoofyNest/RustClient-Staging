@@ -1,4 +1,4 @@
-public class SwitchLODMaterials : MonoBehaviour, IEditorComponent // TypeDefIndex: 11660
+public class SwitchLODMaterials : MonoBehaviour, IEditorComponent // TypeDefIndex: 11661
 {
 	public Material[] materialSet1; 
 	public Material[] materialSet2; 

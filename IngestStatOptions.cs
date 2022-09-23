@@ -1,4 +1,4 @@
-public struct IngestStatOptions // TypeDefIndex: 8423
+public struct IngestStatOptions // TypeDefIndex: 8424
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

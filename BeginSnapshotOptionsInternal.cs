@@ -1,4 +1,4 @@
-internal struct BeginSnapshotOptionsInternal : ISettable<BeginSnapshotOptions>, IDisposable // TypeDefIndex: 8788
+internal struct BeginSnapshotOptionsInternal : ISettable<BeginSnapshotOptions>, IDisposable // TypeDefIndex: 8789
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

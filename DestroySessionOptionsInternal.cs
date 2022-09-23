@@ -1,4 +1,4 @@
-internal struct DestroySessionOptionsInternal : ISettable<DestroySessionOptions>, IDisposable // TypeDefIndex: 8470
+internal struct DestroySessionOptionsInternal : ISettable<DestroySessionOptions>, IDisposable // TypeDefIndex: 8471
 {
 	private int m_ApiVersion; 
 	private IntPtr m_SessionName; 

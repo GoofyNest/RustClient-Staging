@@ -1,4 +1,4 @@
-public class RadialSpawnPoint : BaseSpawnPoint // TypeDefIndex: 11710
+public class RadialSpawnPoint : BaseSpawnPoint // TypeDefIndex: 11711
 {
 	public float radius; 
 

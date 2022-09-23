@@ -2021,7 +2021,7 @@ public class AsyncTextureLoad : CustomYieldInstruction // TypeDefIndex: 6630
 
 }
 
-public sealed class AsyncMethodBuilderAttribute : Attribute // TypeDefIndex: 7123
+public sealed class AsyncMethodBuilderAttribute : Attribute // TypeDefIndex: 7124
 {
 	[CompilerGeneratedAttribute] 
 	private readonly Type <BuilderType>k__BackingField; 
@@ -2031,7 +2031,7 @@ public sealed class AsyncMethodBuilderAttribute : Attribute // TypeDefIndex: 712
 
 }
 
-public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7124
+public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7125
 {
 	private AsyncTaskMethodBuilder _methodBuilder; 
 	private bool _haveResult; 
@@ -2097,7 +2097,7 @@ public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7124
 
 }
 
-public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7125
+public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7126
 {
 	private AsyncTaskMethodBuilder<TResult> _methodBuilder; 
 	private TResult _result; 
@@ -2166,7 +2166,7 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7125
 
 }
 
-public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 12023
+public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 12024
 {
 	private List<int> indices; 
 	private List<Vector3> vertices; 

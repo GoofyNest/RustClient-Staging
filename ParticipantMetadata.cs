@@ -1,4 +1,4 @@
-public struct ParticipantMetadata // TypeDefIndex: 8775
+public struct ParticipantMetadata // TypeDefIndex: 8776
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <Key>k__BackingField; 

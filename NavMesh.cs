@@ -402,7 +402,7 @@ public struct NavMeshBuildDebugSettings // TypeDefIndex: 4463
 
 }
 
-public class NavMeshLink : MonoBehaviour // TypeDefIndex: 8148
+public class NavMeshLink : MonoBehaviour // TypeDefIndex: 8149
 {
 	[CompilerGeneratedAttribute] 
 	private bool <UpdateOnTransformChanged>k__BackingField; 
@@ -502,7 +502,7 @@ public class NavMeshLink : MonoBehaviour // TypeDefIndex: 8148
 
 }
 
-public class NavMeshModifier : MonoBehaviour // TypeDefIndex: 8149
+public class NavMeshModifier : MonoBehaviour // TypeDefIndex: 8150
 {
 	[SerializeField] 
 	private bool m_OverrideArea; 
@@ -546,7 +546,7 @@ public class NavMeshModifier : MonoBehaviour // TypeDefIndex: 8149
 
 }
 
-public class NavMeshModifierVolume : MonoBehaviour // TypeDefIndex: 8150
+public class NavMeshModifierVolume : MonoBehaviour // TypeDefIndex: 8151
 {
 	[SerializeField] 
 	private Vector3 m_Size; 
@@ -594,7 +594,7 @@ public class NavMeshModifierVolume : MonoBehaviour // TypeDefIndex: 8150
 
 }
 
-public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8152
+public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8153
 {
 	[CompilerGeneratedAttribute] 
 	private bool <UpdateOnTransformChanged>k__BackingField; 
@@ -767,7 +767,7 @@ public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8152
 
 }
 
-private sealed class NavMeshSurface.<>c // TypeDefIndex: 8153
+private sealed class NavMeshSurface.<>c // TypeDefIndex: 8154
 {
 	public static readonly NavMeshSurface.<>c <>9; 
 	public static Predicate<NavMeshModifierVolume> <>9__83_0; 
@@ -790,7 +790,7 @@ private sealed class NavMeshSurface.<>c // TypeDefIndex: 8153
 
 }
 
-public class NavMeshTester : MonoBehaviour // TypeDefIndex: 10665
+public class NavMeshTester : MonoBehaviour // TypeDefIndex: 10666
 {
 
 	public void .ctor() { }

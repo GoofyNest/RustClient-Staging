@@ -1,4 +1,4 @@
-public static class EZSoftBoneUtility // TypeDefIndex: 7169
+public static class EZSoftBoneUtility // TypeDefIndex: 7170
 {
 
 	[ExtensionAttribute] 

@@ -1,4 +1,4 @@
-public class ERSORoad // TypeDefIndex: 7232
+public class ERSORoad // TypeDefIndex: 7233
 {
 	public SideObject sideObject; 
 	public double id; 

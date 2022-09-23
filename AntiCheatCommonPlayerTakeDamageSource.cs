@@ -1,4 +1,4 @@
-public enum AntiCheatCommonPlayerTakeDamageSource // TypeDefIndex: 9748
+public enum AntiCheatCommonPlayerTakeDamageSource // TypeDefIndex: 9749
 {
 	public int value__; 
 	public const AntiCheatCommonPlayerTakeDamageSource None = 0;

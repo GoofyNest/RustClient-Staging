@@ -1,4 +1,4 @@
-public struct DeleteCacheCallbackInfo : ICallbackInfo // TypeDefIndex: 8374
+public struct DeleteCacheCallbackInfo : ICallbackInfo // TypeDefIndex: 8375
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 
@@ -36,7 +36,7 @@ public struct DeleteCacheCallbackInfo : ICallbackInfo // TypeDefIndex: 8374
 
 }
 
-public struct DeleteCacheCallbackInfo : ICallbackInfo // TypeDefIndex: 8859
+public struct DeleteCacheCallbackInfo : ICallbackInfo // TypeDefIndex: 8860
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

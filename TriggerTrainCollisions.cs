@@ -1,4 +1,4 @@
-public class TriggerTrainCollisions : TriggerBase // TypeDefIndex: 11481
+public class TriggerTrainCollisions : TriggerBase // TypeDefIndex: 11482
 {
 	public Collider triggerCollider; 
 	public TriggerTrainCollisions.Location location; 
@@ -13,7 +13,7 @@ public class TriggerTrainCollisions : TriggerBase // TypeDefIndex: 11481
 
 }
 
-public enum TriggerTrainCollisions.Location // TypeDefIndex: 11482
+public enum TriggerTrainCollisions.Location // TypeDefIndex: 11483
 {
 	public int value__; 
 	public const TriggerTrainCollisions.Location Front = 0;

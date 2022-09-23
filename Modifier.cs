@@ -63,7 +63,7 @@ public class Modifier : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6451
 
 }
 
-public class Modifier // TypeDefIndex: 11326
+public class Modifier // TypeDefIndex: 11327
 {
 	[CompilerGeneratedAttribute] 
 	private Modifier.ModifierType <Type>k__BackingField; 
@@ -138,7 +138,7 @@ public class Modifier // TypeDefIndex: 11326
 
 }
 
-public enum Modifier.ModifierType // TypeDefIndex: 11327
+public enum Modifier.ModifierType // TypeDefIndex: 11328
 {
 	public int value__; 
 	public const Modifier.ModifierType Wood_Yield = 0;
@@ -150,7 +150,7 @@ public enum Modifier.ModifierType // TypeDefIndex: 11327
 
 }
 
-public enum Modifier.ModifierSource // TypeDefIndex: 11328
+public enum Modifier.ModifierSource // TypeDefIndex: 11329
 {
 	public int value__; 
 	public const Modifier.ModifierSource Tea = 0;

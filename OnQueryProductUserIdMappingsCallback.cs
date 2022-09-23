@@ -1,4 +1,4 @@
-public sealed class OnQueryProductUserIdMappingsCallback : MulticastDelegate // TypeDefIndex: 9602
+public sealed class OnQueryProductUserIdMappingsCallback : MulticastDelegate // TypeDefIndex: 9603
 {
 
 	public void .ctor(object object, IntPtr method) { }

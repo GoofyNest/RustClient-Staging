@@ -1,4 +1,4 @@
-public class IOEntityUISlotEntry : MonoBehaviour // TypeDefIndex: 12646
+public class IOEntityUISlotEntry : MonoBehaviour // TypeDefIndex: 12647
 {
 	public RawImage icon; 
 	public Text leftText; 

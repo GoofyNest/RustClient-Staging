@@ -1,11 +1,11 @@
-public static class Config // TypeDefIndex: 8251
+public static class Config // TypeDefIndex: 8252
 {
 	public const string LibraryName = "EOSSDK-Win64-Shipping";
 	public const CallingConvention LibraryCallingConvention = 2;
 
 }
 
-public class Config : ScriptableObject // TypeDefIndex: 13263
+public class Config : ScriptableObject // TypeDefIndex: 13265
 {
 	public int geometryLayerID; 
 	public string geometryTag; 

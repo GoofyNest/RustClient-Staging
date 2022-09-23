@@ -1,4 +1,4 @@
-public class FavouriteRadioStation : MonoBehaviour // TypeDefIndex: 12614
+public class FavouriteRadioStation : MonoBehaviour // TypeDefIndex: 12615
 {
 	public RustText UrlText; 
 	private Action<string> clickedCallback; 

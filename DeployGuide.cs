@@ -1,4 +1,4 @@
-public class DeployGuide : BaseMonoBehaviour // TypeDefIndex: 11493
+public class DeployGuide : BaseMonoBehaviour // TypeDefIndex: 11494
 {
 
 public class DeployGuide : BaseMonoBehaviour

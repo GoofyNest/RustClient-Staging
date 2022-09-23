@@ -1,4 +1,4 @@
-public class AspectRatioGuide : MonoBehaviour // TypeDefIndex: 12535
+public class AspectRatioGuide : MonoBehaviour // TypeDefIndex: 12536
 {
 	public AspectRatioFitter aspectRatioFitter; 
 	public RustText label; 

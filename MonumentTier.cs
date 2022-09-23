@@ -1,4 +1,4 @@
-public enum MonumentTier // TypeDefIndex: 11673
+public enum MonumentTier // TypeDefIndex: 11674
 {
 	public int value__; 
 	public const MonumentTier Tier0 = 1;

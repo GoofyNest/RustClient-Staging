@@ -1,4 +1,4 @@
-public class Halloween : ConsoleSystem // TypeDefIndex: 13656
+public class Halloween : ConsoleSystem // TypeDefIndex: 13658
 {
 
 	public void .ctor() { }

@@ -1,4 +1,4 @@
-internal class RazerErrors // TypeDefIndex: 7680
+internal class RazerErrors // TypeDefIndex: 7681
 {
 	public const int RZRESULT_INVALID = -1;
 	public const int RZRESULT_SUCCESS = 0;

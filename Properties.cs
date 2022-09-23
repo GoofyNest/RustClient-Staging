@@ -1,4 +1,4 @@
-public class Properties // TypeDefIndex: 7087
+public class Properties // TypeDefIndex: 7088
 {
 	private object Parent; 
 	private RectTransform Canvas; 
@@ -53,7 +53,7 @@ public class Properties // TypeDefIndex: 7087
 
 }
 
-private sealed class Properties.<>c__DisplayClass10_0 // TypeDefIndex: 7088
+private sealed class Properties.<>c__DisplayClass10_0 // TypeDefIndex: 7089
 {
 	public RustInput ctrl; 
 	public FieldInfo f; 
@@ -66,7 +66,7 @@ private sealed class Properties.<>c__DisplayClass10_0 // TypeDefIndex: 7088
 
 }
 
-private sealed class Properties.<>c__DisplayClass11_0 // TypeDefIndex: 7089
+private sealed class Properties.<>c__DisplayClass11_0 // TypeDefIndex: 7090
 {
 	public FieldInfo f; 
 	public Properties <>4__this; 
@@ -78,7 +78,7 @@ private sealed class Properties.<>c__DisplayClass11_0 // TypeDefIndex: 7089
 
 }
 
-private sealed class Properties.<>c__DisplayClass11_1 // TypeDefIndex: 7090
+private sealed class Properties.<>c__DisplayClass11_1 // TypeDefIndex: 7091
 {
 	public RustButtonGroup ctrl; 
 	public Properties.<>c__DisplayClass11_0 CS$<>8__locals1; 
@@ -90,7 +90,7 @@ private sealed class Properties.<>c__DisplayClass11_1 // TypeDefIndex: 7090
 
 }
 
-private sealed class Properties.<>c // TypeDefIndex: 7091
+private sealed class Properties.<>c // TypeDefIndex: 7092
 {
 	public static readonly Properties.<>c <>9; 
 	public static Func<OptionAttribute, Option> <>9__11_0; 
@@ -104,7 +104,7 @@ private sealed class Properties.<>c // TypeDefIndex: 7091
 
 }
 
-private sealed class Properties.<>c__DisplayClass12_0 // TypeDefIndex: 7092
+private sealed class Properties.<>c__DisplayClass12_0 // TypeDefIndex: 7093
 {
 	public FieldInfo f; 
 	public Properties <>4__this; 
@@ -119,7 +119,7 @@ private sealed class Properties.<>c__DisplayClass12_0 // TypeDefIndex: 7092
 
 }
 
-private sealed class Properties.<>c__DisplayClass13_0 // TypeDefIndex: 7093
+private sealed class Properties.<>c__DisplayClass13_0 // TypeDefIndex: 7094
 {
 	public FieldInfo f; 
 	public Properties <>4__this; 
@@ -131,7 +131,7 @@ private sealed class Properties.<>c__DisplayClass13_0 // TypeDefIndex: 7093
 
 }
 
-private sealed class Properties.<>c__DisplayClass13_1 // TypeDefIndex: 7094
+private sealed class Properties.<>c__DisplayClass13_1 // TypeDefIndex: 7095
 {
 	public RustSlider ctrl; 
 	public Properties.<>c__DisplayClass13_0 CS$<>8__locals1; 

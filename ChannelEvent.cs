@@ -1,4 +1,4 @@
-public abstract class ChannelEvent : MidiEvent // TypeDefIndex: 7519
+public abstract class ChannelEvent : MidiEvent // TypeDefIndex: 7520
 {
 	internal byte _dataByte1; 
 	internal byte _dataByte2; 

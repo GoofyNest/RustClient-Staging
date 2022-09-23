@@ -1,4 +1,4 @@
-public struct UninstallModOptions // TypeDefIndex: 9022
+public struct UninstallModOptions // TypeDefIndex: 9023
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

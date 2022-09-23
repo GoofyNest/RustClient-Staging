@@ -1,4 +1,4 @@
-public static class ContextMenuUI // TypeDefIndex: 12549
+public static class ContextMenuUI // TypeDefIndex: 12550
 {
 	public static ContextMenuUI.MenuType type; 
 
@@ -23,7 +23,7 @@ public static class ContextMenuUI // TypeDefIndex: 12549
 
 }
 
-public enum ContextMenuUI.MenuType // TypeDefIndex: 12550
+public enum ContextMenuUI.MenuType // TypeDefIndex: 12551
 {
 	public int value__; 
 	public const ContextMenuUI.MenuType Use = 0;

@@ -1,4 +1,4 @@
-public class PlanterBox : StorageContainer, ISplashable // TypeDefIndex: 10322
+public class PlanterBox : StorageContainer, ISplashable // TypeDefIndex: 10323
 {
 	public int soilSaturation; 
 	public int soilSaturationMax; 

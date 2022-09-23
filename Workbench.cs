@@ -1,4 +1,4 @@
-public class Workbench : StorageContainer // TypeDefIndex: 10190
+public class Workbench : StorageContainer // TypeDefIndex: 10191
 {
 	private Option __menuOption_UseBench; 
 	public const int blueprintSlot = 0;

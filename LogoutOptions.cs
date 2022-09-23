@@ -1,4 +1,4 @@
-public struct LogoutOptions // TypeDefIndex: 9665
+public struct LogoutOptions // TypeDefIndex: 9666
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

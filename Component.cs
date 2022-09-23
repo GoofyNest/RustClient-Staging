@@ -484,6 +484,7 @@ public class Component : Object // TypeDefIndex: 3510
 	|-Component.GetComponentsInChildren<LifeScale>
 	|-Component.GetComponentsInChildren<LightOccludee>
 	|-Component.GetComponentsInChildren<PlayerModelSkin>
+	|-Component.GetComponentsInChildren<RustButton>
 	|-Component.GetComponentsInChildren<object>
 	|-Component.GetComponentsInChildren<CharacterJoint>
 	|-Component.GetComponentsInChildren<ConfigurableJoint>

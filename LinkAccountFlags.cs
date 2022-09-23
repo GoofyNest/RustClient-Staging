@@ -1,4 +1,4 @@
-public enum LinkAccountFlags // TypeDefIndex: 9653
+public enum LinkAccountFlags // TypeDefIndex: 9654
 {
 	public int value__; 
 	public const LinkAccountFlags NoFlags = 0;

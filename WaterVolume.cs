@@ -1,4 +1,4 @@
-public class WaterVolume : TriggerBase // TypeDefIndex: 11763
+public class WaterVolume : TriggerBase // TypeDefIndex: 11764
 {
 	public Bounds WaterBounds; 
 	private OBB cachedBounds; 

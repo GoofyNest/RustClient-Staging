@@ -1,4 +1,4 @@
-public enum ExtraTrackChunkPolicy // TypeDefIndex: 7596
+public enum ExtraTrackChunkPolicy // TypeDefIndex: 7597
 {
 	public byte value__; 
 	public const ExtraTrackChunkPolicy Read = 0;

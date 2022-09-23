@@ -1,4 +1,4 @@
-public class TerrainFormer : MonoBehaviour // TypeDefIndex: 13314
+public class TerrainFormer : MonoBehaviour // TypeDefIndex: 13316
 {
 
 	private void Awake() { }

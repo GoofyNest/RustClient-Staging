@@ -1,4 +1,4 @@
-public class ViewmodelSway : MonoBehaviour // TypeDefIndex: 13190
+public class ViewmodelSway : MonoBehaviour // TypeDefIndex: 13192
 {
 	public float positionalSwaySpeed; 
 	public float positionalSwayAmount; 

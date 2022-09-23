@@ -1,4 +1,4 @@
-public class ViewModelRenderer : MonoBehaviour // TypeDefIndex: 13178
+public class ViewModelRenderer : MonoBehaviour // TypeDefIndex: 13180
 {
 	public List<Texture2D> cachedTextureRefs; 
 	public List<ViewModelDrawEvent> opaqueEvents; 
@@ -35,7 +35,7 @@ public class ViewModelRenderer : MonoBehaviour // TypeDefIndex: 13178
 
 }
 
-private sealed class ViewModelRenderer.<>c // TypeDefIndex: 13179
+private sealed class ViewModelRenderer.<>c // TypeDefIndex: 13181
 {
 	public static readonly ViewModelRenderer.<>c <>9; 
 	public static Comparison<ViewModelDrawEvent> <>9__9_0; 

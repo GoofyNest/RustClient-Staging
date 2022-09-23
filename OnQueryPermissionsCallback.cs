@@ -1,4 +1,4 @@
-public sealed class OnQueryPermissionsCallback : MulticastDelegate // TypeDefIndex: 9329
+public sealed class OnQueryPermissionsCallback : MulticastDelegate // TypeDefIndex: 9330
 {
 
 	public void .ctor(object object, IntPtr method) { }

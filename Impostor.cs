@@ -1,4 +1,4 @@
-public class Impostor : MonoBehaviour, IClientComponent // TypeDefIndex: 12386
+public class Impostor : MonoBehaviour, IClientComponent // TypeDefIndex: 12387
 {
 	public ImpostorAsset asset; 
 	[HeaderAttribute] 

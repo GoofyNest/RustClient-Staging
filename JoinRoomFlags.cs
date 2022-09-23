@@ -1,4 +1,4 @@
-public enum JoinRoomFlags // TypeDefIndex: 8758
+public enum JoinRoomFlags // TypeDefIndex: 8759
 {
 	public uint value__; 
 	public const JoinRoomFlags None = 0;

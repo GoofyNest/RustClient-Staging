@@ -62,7 +62,7 @@ public class DeliveryDrone : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 }
 
-public class DeliveryDrone : Drone // TypeDefIndex: 10502
+public class DeliveryDrone : Drone // TypeDefIndex: 10503
 {
 	[HeaderAttribute] 
 	public float stateTimeout; 

@@ -1,4 +1,4 @@
-public struct DestroySessionOptions // TypeDefIndex: 8469
+public struct DestroySessionOptions // TypeDefIndex: 8470
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <SessionName>k__BackingField; 

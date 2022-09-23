@@ -1,4 +1,4 @@
-public struct PollStatusOptions // TypeDefIndex: 9829
+public struct PollStatusOptions // TypeDefIndex: 9830
 {
 	[CompilerGeneratedAttribute] 
 	private uint <OutMessageLength>k__BackingField; 

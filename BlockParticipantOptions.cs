@@ -1,4 +1,4 @@
-public struct BlockParticipantOptions // TypeDefIndex: 8752
+public struct BlockParticipantOptions // TypeDefIndex: 8753
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

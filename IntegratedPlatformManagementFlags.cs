@@ -1,4 +1,4 @@
-public enum IntegratedPlatformManagementFlags // TypeDefIndex: 9358
+public enum IntegratedPlatformManagementFlags // TypeDefIndex: 9359
 {
 	public int value__; 
 	public const IntegratedPlatformManagementFlags Disabled = 1;

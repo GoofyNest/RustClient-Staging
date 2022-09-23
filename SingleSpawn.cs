@@ -1,4 +1,4 @@
-public class SingleSpawn : SpawnGroup // TypeDefIndex: 11711
+public class SingleSpawn : SpawnGroup // TypeDefIndex: 11712
 {
 
 	public void FillDelay(float delay) { }

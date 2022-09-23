@@ -818,7 +818,7 @@ public class ConsoleVar : Attribute // TypeDefIndex: 6921
 
 }
 
-public class ConsoleGen // TypeDefIndex: 10000
+public class ConsoleGen // TypeDefIndex: 10001
 {
 	public static ConsoleSystem.Command[] All; 
 
@@ -829,7 +829,7 @@ public class ConsoleGen // TypeDefIndex: 10000
 
 }
 
-private sealed class ConsoleGen.<>c // TypeDefIndex: 10001
+private sealed class ConsoleGen.<>c // TypeDefIndex: 10002
 {
 	public static readonly ConsoleGen.<>c <>9; 
 
@@ -3124,7 +3124,7 @@ private sealed class ConsoleGen.<>c // TypeDefIndex: 10001
 
 }
 
-public static class ConsoleNetwork // TypeDefIndex: 11072
+public static class ConsoleNetwork // TypeDefIndex: 11073
 {
 
 	internal static void Init() { }
@@ -3137,7 +3137,7 @@ public static class ConsoleNetwork // TypeDefIndex: 11072
 
 }
 
-public class ConsoleUI : SingletonComponent<ConsoleUI> // TypeDefIndex: 12545
+public class ConsoleUI : SingletonComponent<ConsoleUI> // TypeDefIndex: 12546
 {
 	public RustText text; 
 	public InputField outputField; 
@@ -3202,7 +3202,7 @@ public class ConsoleUI : SingletonComponent<ConsoleUI> // TypeDefIndex: 12545
 
 }
 
-private sealed class ConsoleUI.<>c__DisplayClass16_0 // TypeDefIndex: 12546
+private sealed class ConsoleUI.<>c__DisplayClass16_0 // TypeDefIndex: 12547
 {
 	public Button btn; 
 	public ConsoleUI <>4__this; 
@@ -3214,7 +3214,7 @@ private sealed class ConsoleUI.<>c__DisplayClass16_0 // TypeDefIndex: 12546
 
 }
 
-private sealed class ConsoleUI.<>c__DisplayClass22_0 // TypeDefIndex: 12547
+private sealed class ConsoleUI.<>c__DisplayClass22_0 // TypeDefIndex: 12548
 {
 	public string str; 
 
@@ -3225,7 +3225,7 @@ private sealed class ConsoleUI.<>c__DisplayClass22_0 // TypeDefIndex: 12547
 
 }
 
-private sealed class ConsoleUI.<SetSelected>d__31 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12548
+private sealed class ConsoleUI.<SetSelected>d__31 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12549
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -3255,7 +3255,7 @@ private sealed class ConsoleUI.<SetSelected>d__31 : IEnumerator<object>, IEnumer
 
 }
 
-public class ConsoleInput // TypeDefIndex: 13406
+public class ConsoleInput // TypeDefIndex: 13408
 {
 	[CompilerGeneratedAttribute] 
 	private Action<string> OnInputText; 
@@ -3293,7 +3293,7 @@ public class ConsoleInput // TypeDefIndex: 13406
 
 }
 
-public class ConsoleWindow // TypeDefIndex: 13407
+public class ConsoleWindow // TypeDefIndex: 13409
 {
 	private TextWriter oldOutput; 
 	private const int STD_INPUT_HANDLE = -10;
@@ -3320,7 +3320,7 @@ public class ConsoleWindow // TypeDefIndex: 13407
 
 }
 
-public class Console : ConsoleSystem // TypeDefIndex: 13619
+public class Console : ConsoleSystem // TypeDefIndex: 13621
 {
 	[ClientVar] 
 	[HelpAttribute] 

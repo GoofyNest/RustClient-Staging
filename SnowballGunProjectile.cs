@@ -1,4 +1,4 @@
-public class SnowballGunProjectile : Projectile // TypeDefIndex: 10531
+public class SnowballGunProjectile : Projectile // TypeDefIndex: 10532
 {
 	public float OverrideEffectScale; 
 	public GameObjectRef SnowballImpactEffect; 

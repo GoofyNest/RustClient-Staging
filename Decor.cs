@@ -1,4 +1,4 @@
-public class Decor : ConsoleSystem // TypeDefIndex: 13631
+public class Decor : ConsoleSystem // TypeDefIndex: 13633
 {
 	private static float m_quality; 
 

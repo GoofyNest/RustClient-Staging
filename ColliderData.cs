@@ -1,4 +1,4 @@
-internal struct ColliderData // TypeDefIndex: 7320
+internal struct ColliderData // TypeDefIndex: 7321
 {
 	public float Radius; 
 	public float3 LocalPositionA; 

@@ -1,4 +1,4 @@
-public class CrossbowWeapon : BaseProjectile // TypeDefIndex: 11165
+public class CrossbowWeapon : BaseProjectile // TypeDefIndex: 11166
 {
 	private SwapArrows swapArrows; 
 

@@ -1,4 +1,4 @@
-public class ERConnection // TypeDefIndex: 7261
+public class ERConnection // TypeDefIndex: 7262
 {
 	public string name; 
 	public ERCrossingPrefabs prefabScript; 

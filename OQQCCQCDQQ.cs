@@ -1,4 +1,4 @@
-public class OQQCCQCDQQ : MonoBehaviour // TypeDefIndex: 7275
+public class OQQCCQCDQQ : MonoBehaviour // TypeDefIndex: 7276
 {
 	[HideInInspector] 
 	public QDQDOOQQDQODD roadType; 

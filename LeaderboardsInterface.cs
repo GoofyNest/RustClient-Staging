@@ -1,4 +1,4 @@
-public sealed class LeaderboardsInterface : Handle // TypeDefIndex: 9288
+public sealed class LeaderboardsInterface : Handle // TypeDefIndex: 9289
 {
 	public const int CopyleaderboarddefinitionbyindexApiLatest = 1;
 	public const int CopyleaderboarddefinitionbyleaderboardidApiLatest = 1;

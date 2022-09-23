@@ -1,4 +1,4 @@
-internal struct SetCustomInviteOptionsInternal : ISettable<SetCustomInviteOptions>, IDisposable // TypeDefIndex: 9534
+internal struct SetCustomInviteOptionsInternal : ISettable<SetCustomInviteOptions>, IDisposable // TypeDefIndex: 9535
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

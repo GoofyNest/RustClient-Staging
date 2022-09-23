@@ -1,4 +1,4 @@
-internal struct QueryPresenceOptionsInternal : ISettable<QueryPresenceOptions>, IDisposable // TypeDefIndex: 8847
+internal struct QueryPresenceOptionsInternal : ISettable<QueryPresenceOptions>, IDisposable // TypeDefIndex: 8848
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 
