@@ -1365,6 +1365,8 @@ public class Demo : ConsoleSystem // TypeDefIndex: 13634
 	public static bool compressShotKeyframes; 
 	[ClientVar] 
 	public static bool showLocalPlayerNameTag; 
+	[ClientVar] 
+	public static bool showCommunityUI; 
 
 	[ClientVar] 
 	public static bool hud { get; set; }
