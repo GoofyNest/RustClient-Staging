@@ -11,8 +11,6 @@ public class EOS
 	private static string deploymentId; 
 	public static PlatformInterface Interface; 
 	public static LogLevel LogLevel; 
-	private const float interfaceTickInterval = 0,1;
-	private static float interfaceTickTimer; 
 	private static StreamWriter logWriter; 
 
 
@@ -29,8 +27,6 @@ public class EOS
 	public static void Shutdown() { }
 
 	public static void Tick() { }
-
-	public static void Tick(float deltaTime) { }
 
 	public void .ctor() { }
 
