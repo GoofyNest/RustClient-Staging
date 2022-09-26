@@ -188,6 +188,8 @@ public class TrainEngine : TrainCar, IEngineControllerUser, IEntity // TypeDefIn
 
 	public override bool MountMenuVisible(BasePlayer player) { }
 
+	public override GameObjectRef GetImpactEffect(HitInfo info) { }
+
 	protected override void ClientFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
 	protected override void OnLifeStateChanged() { }
