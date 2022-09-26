@@ -1,4 +1,4 @@
-public enum OwnershipStatus // TypeDefIndex: 9481
+public enum OwnershipStatus // TypeDefIndex: 9482
 {
 	public int value__; 
 	public const OwnershipStatus NotOwned = 0;

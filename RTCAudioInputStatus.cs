@@ -1,4 +1,4 @@
-public enum RTCAudioInputStatus // TypeDefIndex: 8688
+public enum RTCAudioInputStatus // TypeDefIndex: 8689
 {
 	public int value__; 
 	public const RTCAudioInputStatus Idle = 0;

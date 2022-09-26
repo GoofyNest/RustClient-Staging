@@ -1,4 +1,4 @@
-public abstract class Handle : IEquatable<Handle>, IFormattable // TypeDefIndex: 8254
+public abstract class Handle : IEquatable<Handle>, IFormattable // TypeDefIndex: 8255
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <InnerHandle>k__BackingField; 

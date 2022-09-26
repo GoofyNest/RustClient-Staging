@@ -1,4 +1,4 @@
-internal sealed class OnUpdateParentEmailCallbackInternal : MulticastDelegate // TypeDefIndex: 9335
+internal sealed class OnUpdateParentEmailCallbackInternal : MulticastDelegate // TypeDefIndex: 9336
 {
 
 	public void .ctor(object object, IntPtr method) { }

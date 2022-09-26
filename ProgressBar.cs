@@ -1,4 +1,4 @@
-public class ProgressBar : UIBehaviour // TypeDefIndex: 12935
+public class ProgressBar : UIBehaviour // TypeDefIndex: 12936
 {
 	public static ProgressBar Instance; 
 	private Action<BasePlayer> action; 

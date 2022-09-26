@@ -1,4 +1,4 @@
-public enum FlushType // TypeDefIndex: 6985
+public enum FlushType // TypeDefIndex: 6986
 {
 	public int value__; 
 	public const FlushType None = 0;

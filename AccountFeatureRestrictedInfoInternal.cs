@@ -1,4 +1,4 @@
-internal struct AccountFeatureRestrictedInfoInternal : IGettable<AccountFeatureRestrictedInfo>, ISettable<AccountFeatureRestrictedInfo>, IDisposable // TypeDefIndex: 9634
+internal struct AccountFeatureRestrictedInfoInternal : IGettable<AccountFeatureRestrictedInfo>, ISettable<AccountFeatureRestrictedInfo>, IDisposable // TypeDefIndex: 9635
 {
 	private int m_ApiVersion; 
 	private IntPtr m_VerificationURI; 

@@ -1,4 +1,4 @@
-public struct CopySessionHandleByUiEventIdOptions // TypeDefIndex: 8460
+public struct CopySessionHandleByUiEventIdOptions // TypeDefIndex: 8461
 {
 	[CompilerGeneratedAttribute] 
 	private ulong <UiEventId>k__BackingField; 

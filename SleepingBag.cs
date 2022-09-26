@@ -60,7 +60,7 @@ public class SleepingBag : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 }
 
-public class SleepingBag : DecayEntity // TypeDefIndex: 10149
+public class SleepingBag : DecayEntity // TypeDefIndex: 10150
 {
 	private Option __menuOption_Menu_AssignToFriend; 
 	private Option __menuOption_Menu_CloseDoor; 

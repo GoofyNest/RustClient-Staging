@@ -1,4 +1,4 @@
-public class MapScaleIndependent : IndependentScale // TypeDefIndex: 12665
+public class MapScaleIndependent : IndependentScale // TypeDefIndex: 12666
 {
 
 	public void OnEnable() { }

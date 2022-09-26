@@ -1,4 +1,4 @@
-public enum Rarity // TypeDefIndex: 6621
+public enum Rarity // TypeDefIndex: 6622
 {
 	public int value__; 
 	public const Rarity None = 0;

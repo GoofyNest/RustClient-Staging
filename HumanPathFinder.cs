@@ -1,4 +1,4 @@
-public class HumanPathFinder : BasePathFinder // TypeDefIndex: 10635
+public class HumanPathFinder : BasePathFinder // TypeDefIndex: 10636
 {
 	private BaseEntity npc; 
 

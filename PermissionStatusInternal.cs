@@ -1,4 +1,4 @@
-internal struct PermissionStatusInternal : IGettable<PermissionStatus>, ISettable<PermissionStatus>, IDisposable // TypeDefIndex: 9337
+internal struct PermissionStatusInternal : IGettable<PermissionStatus>, ISettable<PermissionStatus>, IDisposable // TypeDefIndex: 9338
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Name; 

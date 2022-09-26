@@ -1,4 +1,4 @@
-public class BobberPreview : MonoBehaviour // TypeDefIndex: 10573
+public class BobberPreview : MonoBehaviour // TypeDefIndex: 10574
 {
 	public Material ValidMaterial; 
 	public Material InvalidMaterial; 

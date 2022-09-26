@@ -1,4 +1,4 @@
-internal struct AddExternalIntegrityCatalogOptionsInternal : ISettable<AddExternalIntegrityCatalogOptions>, IDisposable // TypeDefIndex: 9796
+internal struct AddExternalIntegrityCatalogOptionsInternal : ISettable<AddExternalIntegrityCatalogOptions>, IDisposable // TypeDefIndex: 9797
 {
 	private int m_ApiVersion; 
 	private IntPtr m_PathToBinFile; 

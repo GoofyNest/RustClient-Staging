@@ -1,4 +1,4 @@
-public class ERRoadNetworkObject : MonoBehaviour // TypeDefIndex: 7296
+public class ERRoadNetworkObject : MonoBehaviour // TypeDefIndex: 7297
 {
 
 	public void .ctor() { }

@@ -1,4 +1,4 @@
-public enum UnknownChunkIdPolicy // TypeDefIndex: 7613
+public enum UnknownChunkIdPolicy // TypeDefIndex: 7614
 {
 	public byte value__; 
 	public const UnknownChunkIdPolicy ReadAsUnknownChunk = 0;

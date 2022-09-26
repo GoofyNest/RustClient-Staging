@@ -1,4 +1,4 @@
-public sealed class LightMeterMonitor : Monitor // TypeDefIndex: 13546
+public sealed class LightMeterMonitor : Monitor // TypeDefIndex: 13547
 {
 	public int width; 
 	public int height; 

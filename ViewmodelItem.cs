@@ -1,4 +1,4 @@
-public class ViewmodelItem : MonoBehaviour // TypeDefIndex: 10958
+public class ViewmodelItem : MonoBehaviour // TypeDefIndex: 10959
 {
 	private bool vOneRun; 
 	private bool bWasOn; 

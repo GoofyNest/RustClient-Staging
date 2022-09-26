@@ -1,4 +1,4 @@
-public struct QueryJoinRoomTokenOptions // TypeDefIndex: 8738
+public struct QueryJoinRoomTokenOptions // TypeDefIndex: 8739
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

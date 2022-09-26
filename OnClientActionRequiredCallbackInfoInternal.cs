@@ -1,4 +1,4 @@
-internal struct OnClientActionRequiredCallbackInfoInternal : ICallbackInfoInternal, IGettable<OnClientActionRequiredCallbackInfo>, ISettable<OnClientActionRequiredCallbackInfo>, IDisposable // TypeDefIndex: 9778
+internal struct OnClientActionRequiredCallbackInfoInternal : ICallbackInfoInternal, IGettable<OnClientActionRequiredCallbackInfo>, ISettable<OnClientActionRequiredCallbackInfo>, IDisposable // TypeDefIndex: 9779
 {
 	private IntPtr m_ClientData; 
 	private IntPtr m_ClientHandle; 

@@ -12,14 +12,14 @@ internal sealed class IsReadOnlyAttribute : Attribute // TypeDefIndex: 5103
 
 }
 
-internal sealed class IsReadOnlyAttribute : Attribute // TypeDefIndex: 6890
+internal sealed class IsReadOnlyAttribute : Attribute // TypeDefIndex: 6891
 {
 
 	public void .ctor() { }
 
 }
 
-internal sealed class IsReadOnlyAttribute : Attribute // TypeDefIndex: 7115
+internal sealed class IsReadOnlyAttribute : Attribute // TypeDefIndex: 7116
 {
 
 	public void .ctor() { }

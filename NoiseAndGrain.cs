@@ -1,4 +1,4 @@
-public class NoiseAndGrain : PostEffectsBase, IImageEffect // TypeDefIndex: 8200
+public class NoiseAndGrain : PostEffectsBase, IImageEffect // TypeDefIndex: 8201
 {
 	public float intensityMultiplier; 
 	public float generalIntensity; 

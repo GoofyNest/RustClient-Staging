@@ -1,4 +1,4 @@
-public class CreateBuilding : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6485
+public class CreateBuilding : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6486
 {
 	public bool ShouldPool; 
 	private bool _disposed; 

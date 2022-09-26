@@ -1,4 +1,4 @@
-internal sealed class OnQueryUserInfoByExternalAccountCallbackInternal : MulticastDelegate // TypeDefIndex: 8300
+internal sealed class OnQueryUserInfoByExternalAccountCallbackInternal : MulticastDelegate // TypeDefIndex: 8301
 {
 
 	public void .ctor(object object, IntPtr method) { }

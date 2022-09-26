@@ -1,4 +1,4 @@
-public abstract class TerrainPlacement : PrefabAttribute // TypeDefIndex: 12305
+public abstract class TerrainPlacement : PrefabAttribute // TypeDefIndex: 12306
 {
 	[ReadOnlyAttribute] 
 	public Vector3 size; 

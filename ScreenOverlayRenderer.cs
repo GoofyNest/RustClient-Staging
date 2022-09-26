@@ -1,4 +1,4 @@
-public class ScreenOverlayRenderer : PostProcessEffectRenderer<ScreenOverlay> // TypeDefIndex: 11978
+public class ScreenOverlayRenderer : PostProcessEffectRenderer<ScreenOverlay> // TypeDefIndex: 11979
 {
 	private Shader overlayShader; 
 

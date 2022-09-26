@@ -1,4 +1,4 @@
-public sealed class RTCInterface : Handle // TypeDefIndex: 8780
+public sealed class RTCInterface : Handle // TypeDefIndex: 8781
 {
 	public const int AddnotifydisconnectedApiLatest = 1;
 	public const int AddnotifyparticipantstatuschangedApiLatest = 1;

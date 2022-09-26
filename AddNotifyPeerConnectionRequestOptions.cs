@@ -1,4 +1,4 @@
-public struct AddNotifyPeerConnectionRequestOptions // TypeDefIndex: 8932
+public struct AddNotifyPeerConnectionRequestOptions // TypeDefIndex: 8933
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

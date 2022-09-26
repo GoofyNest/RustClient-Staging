@@ -1,4 +1,4 @@
-internal struct AcknowledgeEventIdOptionsInternal : ISettable<AcknowledgeEventIdOptions>, IDisposable // TypeDefIndex: 8319
+internal struct AcknowledgeEventIdOptionsInternal : ISettable<AcknowledgeEventIdOptions>, IDisposable // TypeDefIndex: 8320
 {
 	private int m_ApiVersion; 
 	private ulong m_UiEventId; 

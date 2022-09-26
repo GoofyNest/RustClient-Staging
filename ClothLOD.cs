@@ -1,4 +1,4 @@
-public class ClothLOD : FacepunchBehaviour // TypeDefIndex: 11630
+public class ClothLOD : FacepunchBehaviour // TypeDefIndex: 11631
 {
 	[ServerVar] 
 	public static float clothLODDist; 

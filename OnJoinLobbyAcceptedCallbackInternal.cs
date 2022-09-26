@@ -1,4 +1,4 @@
-internal sealed class OnJoinLobbyAcceptedCallbackInternal : MulticastDelegate // TypeDefIndex: 9203
+internal sealed class OnJoinLobbyAcceptedCallbackInternal : MulticastDelegate // TypeDefIndex: 9204
 {
 
 	public void .ctor(object object, IntPtr method) { }

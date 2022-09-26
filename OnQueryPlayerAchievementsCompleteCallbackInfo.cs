@@ -1,4 +1,4 @@
-public struct OnQueryPlayerAchievementsCompleteCallbackInfo : ICallbackInfo // TypeDefIndex: 9921
+public struct OnQueryPlayerAchievementsCompleteCallbackInfo : ICallbackInfo // TypeDefIndex: 9922
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

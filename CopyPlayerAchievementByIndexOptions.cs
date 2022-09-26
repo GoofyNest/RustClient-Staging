@@ -1,4 +1,4 @@
-public struct CopyPlayerAchievementByIndexOptions // TypeDefIndex: 9891
+public struct CopyPlayerAchievementByIndexOptions // TypeDefIndex: 9892
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <TargetUserId>k__BackingField; 

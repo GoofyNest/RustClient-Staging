@@ -1,4 +1,4 @@
-public class TerrainColors : TerrainExtension // TypeDefIndex: 12098
+public class TerrainColors : TerrainExtension // TypeDefIndex: 12099
 {
 	private TerrainSplatMap splatMap; 
 	private TerrainBiomeMap biomeMap; 

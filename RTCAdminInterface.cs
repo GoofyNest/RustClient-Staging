@@ -1,4 +1,4 @@
-public sealed class RTCAdminInterface : Handle // TypeDefIndex: 8740
+public sealed class RTCAdminInterface : Handle // TypeDefIndex: 8741
 {
 	public const int CopyusertokenbyindexApiLatest = 2;
 	public const int CopyusertokenbyuseridApiLatest = 2;

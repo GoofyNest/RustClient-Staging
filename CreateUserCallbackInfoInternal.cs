@@ -1,4 +1,4 @@
-internal struct CreateUserCallbackInfoInternal : ICallbackInfoInternal, IGettable<CreateUserCallbackInfo>, ISettable<CreateUserCallbackInfo>, IDisposable // TypeDefIndex: 9315
+internal struct CreateUserCallbackInfoInternal : ICallbackInfoInternal, IGettable<CreateUserCallbackInfo>, ISettable<CreateUserCallbackInfo>, IDisposable // TypeDefIndex: 9316
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 
@@ -46,7 +46,7 @@ internal struct CreateUserCallbackInfoInternal : ICallbackInfoInternal, IGettabl
 
 }
 
-internal struct CreateUserCallbackInfoInternal : ICallbackInfoInternal, IGettable<CreateUserCallbackInfo>, ISettable<CreateUserCallbackInfo>, IDisposable // TypeDefIndex: 9558
+internal struct CreateUserCallbackInfoInternal : ICallbackInfoInternal, IGettable<CreateUserCallbackInfo>, ISettable<CreateUserCallbackInfo>, IDisposable // TypeDefIndex: 9559
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

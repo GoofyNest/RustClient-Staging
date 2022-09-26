@@ -1,4 +1,4 @@
-internal struct DisconnectedCallbackInfoInternal : ICallbackInfoInternal, IGettable<DisconnectedCallbackInfo>, ISettable<DisconnectedCallbackInfo>, IDisposable // TypeDefIndex: 8756
+internal struct DisconnectedCallbackInfoInternal : ICallbackInfoInternal, IGettable<DisconnectedCallbackInfo>, ISettable<DisconnectedCallbackInfo>, IDisposable // TypeDefIndex: 8757
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

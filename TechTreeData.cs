@@ -1,4 +1,4 @@
-public class TechTreeData : ScriptableObject // TypeDefIndex: 11720
+public class TechTreeData : ScriptableObject // TypeDefIndex: 11721
 {
 	public string shortname; 
 	public int nextID; 
@@ -29,7 +29,7 @@ public class TechTreeData : ScriptableObject // TypeDefIndex: 11720
 
 }
 
-public class TechTreeData.NodeInstance // TypeDefIndex: 11721
+public class TechTreeData.NodeInstance // TypeDefIndex: 11722
 {
 	public int id; 
 	public ItemDefinition itemDef; 
@@ -46,7 +46,7 @@ public class TechTreeData.NodeInstance // TypeDefIndex: 11721
 
 }
 
-private sealed class TechTreeData.<>c // TypeDefIndex: 11722
+private sealed class TechTreeData.<>c // TypeDefIndex: 11723
 {
 	public static readonly TechTreeData.<>c <>9; 
 	public static Func<TechTreeData.NodeInstance, int> <>9__5_0; 

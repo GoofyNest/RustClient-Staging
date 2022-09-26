@@ -1,4 +1,4 @@
-public class PagerEntity : BaseEntity, IRFObject // TypeDefIndex: 10315
+public class PagerEntity : BaseEntity, IRFObject // TypeDefIndex: 10316
 {
 	public static BaseEntity.Flags Flag_Silent; 
 	private int frequency; 

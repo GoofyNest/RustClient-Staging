@@ -1,4 +1,4 @@
-public class DeployShell : PrefabAttribute // TypeDefIndex: 11547
+public class DeployShell : PrefabAttribute // TypeDefIndex: 11548
 {
 	public Bounds bounds; 
 

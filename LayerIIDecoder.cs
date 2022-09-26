@@ -1,4 +1,4 @@
-public class LayerIIDecoder : LayerIDecoder // TypeDefIndex: 7406
+public class LayerIIDecoder : LayerIDecoder // TypeDefIndex: 7407
 {
 
 	protected override void CreateSubbands() { }

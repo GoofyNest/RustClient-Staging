@@ -1,4 +1,4 @@
-internal struct RequestPermissionsOptionsInternal : ISettable<RequestPermissionsOptions>, IDisposable // TypeDefIndex: 9351
+internal struct RequestPermissionsOptionsInternal : ISettable<RequestPermissionsOptions>, IDisposable // TypeDefIndex: 9352
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

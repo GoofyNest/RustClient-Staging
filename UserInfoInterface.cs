@@ -1,4 +1,4 @@
-public sealed class UserInfoInterface : Handle // TypeDefIndex: 8317
+public sealed class UserInfoInterface : Handle // TypeDefIndex: 8318
 {
 	public const int CopyexternaluserinfobyaccountidApiLatest = 1;
 	public const int CopyexternaluserinfobyaccounttypeApiLatest = 1;

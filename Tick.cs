@@ -1,4 +1,4 @@
-public static class Tick // TypeDefIndex: 6606
+public static class Tick // TypeDefIndex: 6607
 {
 	private static Tick.Entry.List Timed; 
 	private static Tick.Entry.List Update; 
@@ -24,7 +24,7 @@ public static class Tick // TypeDefIndex: 6606
 
 }
 
-public struct Tick.Entry // TypeDefIndex: 6607
+public struct Tick.Entry // TypeDefIndex: 6608
 {
 	public Object TargetObject; 
 	public float MinDelay; 
@@ -36,7 +36,7 @@ public struct Tick.Entry // TypeDefIndex: 6607
 
 }
 
-public class Tick.Entry.List : List<Tick.Entry> // TypeDefIndex: 6608
+public class Tick.Entry.List : List<Tick.Entry> // TypeDefIndex: 6609
 {
 
 	public void Remove(Object obj) { }

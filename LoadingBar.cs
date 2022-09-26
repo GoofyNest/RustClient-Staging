@@ -1,4 +1,4 @@
-public class LoadingBar : MonoBehaviour // TypeDefIndex: 7081
+public class LoadingBar : MonoBehaviour // TypeDefIndex: 7082
 {
 	public CanvasGroup Canvas; 
 	public Text Label; 

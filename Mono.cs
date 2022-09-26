@@ -1458,7 +1458,7 @@ private sealed class Mono.<>c // TypeDefIndex: 6231
 
 }
 
-public abstract class MonoEncoding : Encoding // TypeDefIndex: 7378
+public abstract class MonoEncoding : Encoding // TypeDefIndex: 7379
 {
 	private readonly int win_code_page; 
 
@@ -1489,7 +1489,7 @@ public abstract class MonoEncoding : Encoding // TypeDefIndex: 7378
 
 }
 
-public abstract class MonoEncoder : Encoder // TypeDefIndex: 7379
+public abstract class MonoEncoder : Encoder // TypeDefIndex: 7380
 {
 	private MonoEncoding encoding; 
 
@@ -1510,7 +1510,7 @@ public abstract class MonoEncoder : Encoder // TypeDefIndex: 7379
 
 }
 
-internal sealed class MonoPInvokeCallbackAttribute : Attribute // TypeDefIndex: 8264
+internal sealed class MonoPInvokeCallbackAttribute : Attribute // TypeDefIndex: 8265
 {
 
 	public void .ctor(Type type) { }

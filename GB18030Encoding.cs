@@ -1,4 +1,4 @@
-public class GB18030Encoding : MonoEncoding // TypeDefIndex: 7835
+public class GB18030Encoding : MonoEncoding // TypeDefIndex: 7836
 {
 	public override string EncodingName { get; }
 	public override string HeaderName { get; }

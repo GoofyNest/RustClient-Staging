@@ -1,4 +1,4 @@
-public struct CopyLeaderboardRecordByIndexOptions // TypeDefIndex: 9268
+public struct CopyLeaderboardRecordByIndexOptions // TypeDefIndex: 9269
 {
 	[CompilerGeneratedAttribute] 
 	private uint <LeaderboardRecordIndex>k__BackingField; 

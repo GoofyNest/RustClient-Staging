@@ -1,4 +1,4 @@
-public class KeyframeWidget : MonoBehaviour // TypeDefIndex: 12579
+public class KeyframeWidget : MonoBehaviour // TypeDefIndex: 12580
 {
 	public Tooltip AttachedTooltip; 
 	private KeyframeView.UIKeyframeValue cachedValue; 

@@ -1,4 +1,4 @@
-public class FlexText : TextMeshProUGUI, IFlexNode // TypeDefIndex: 6823
+public class FlexText : TextMeshProUGUI, IFlexNode // TypeDefIndex: 6824
 {
 	[TooltipAttribute] 
 	public FlexLength Basis; 

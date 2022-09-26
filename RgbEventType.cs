@@ -1,4 +1,4 @@
-public enum RgbEventType // TypeDefIndex: 7697
+public enum RgbEventType // TypeDefIndex: 7698
 {
 	public int value__; 
 	public const RgbEventType Death = 0;

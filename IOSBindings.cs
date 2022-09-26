@@ -1,4 +1,4 @@
-public static class IOSBindings // TypeDefIndex: 8275
+public static class IOSBindings // TypeDefIndex: 8276
 {
 
 	internal static extern void EOS_Auth_Login(IntPtr handle, ref IOSLoginOptionsInternal options, IntPtr clientData, OnLoginCallbackInternal completionDelegate) { }

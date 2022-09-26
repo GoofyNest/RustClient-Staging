@@ -1,4 +1,4 @@
-public static class WordFilter // TypeDefIndex: 11786
+public static class WordFilter // TypeDefIndex: 11787
 {
 
 	public static string Filter(string str) { }

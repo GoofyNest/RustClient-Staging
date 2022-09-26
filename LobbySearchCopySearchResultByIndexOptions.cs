@@ -1,4 +1,4 @@
-public struct LobbySearchCopySearchResultByIndexOptions // TypeDefIndex: 9172
+public struct LobbySearchCopySearchResultByIndexOptions // TypeDefIndex: 9173
 {
 	[CompilerGeneratedAttribute] 
 	private uint <LobbyIndex>k__BackingField; 

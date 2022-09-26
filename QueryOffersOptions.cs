@@ -1,4 +1,4 @@
-public struct QueryOffersOptions // TypeDefIndex: 9488
+public struct QueryOffersOptions // TypeDefIndex: 9489
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

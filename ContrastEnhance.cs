@@ -1,4 +1,4 @@
-internal class ContrastEnhance : PostEffectsBase // TypeDefIndex: 8180
+internal class ContrastEnhance : PostEffectsBase // TypeDefIndex: 8181
 {
 	public float intensity; 
 	public float threshold; 

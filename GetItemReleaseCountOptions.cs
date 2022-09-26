@@ -1,4 +1,4 @@
-public struct GetItemReleaseCountOptions // TypeDefIndex: 9453
+public struct GetItemReleaseCountOptions // TypeDefIndex: 9454
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

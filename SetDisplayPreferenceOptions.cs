@@ -1,4 +1,4 @@
-public struct SetDisplayPreferenceOptions // TypeDefIndex: 8358
+public struct SetDisplayPreferenceOptions // TypeDefIndex: 8359
 {
 	[CompilerGeneratedAttribute] 
 	private NotificationLocation <NotificationLocation>k__BackingField; 

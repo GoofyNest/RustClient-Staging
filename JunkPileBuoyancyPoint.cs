@@ -1,4 +1,4 @@
-public class JunkPileBuoyancyPoint : MonoBehaviour // TypeDefIndex: 10500
+public class JunkPileBuoyancyPoint : MonoBehaviour // TypeDefIndex: 10501
 {
 
 	public void .ctor() { }

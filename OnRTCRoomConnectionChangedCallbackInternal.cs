@@ -1,4 +1,4 @@
-internal sealed class OnRTCRoomConnectionChangedCallbackInternal : MulticastDelegate // TypeDefIndex: 9229
+internal sealed class OnRTCRoomConnectionChangedCallbackInternal : MulticastDelegate // TypeDefIndex: 9230
 {
 
 	public void .ctor(object object, IntPtr method) { }

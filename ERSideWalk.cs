@@ -1,4 +1,4 @@
-public class ERSideWalk // TypeDefIndex: 7202
+public class ERSideWalk // TypeDefIndex: 7203
 {
 	public string name; 
 	public double id; 

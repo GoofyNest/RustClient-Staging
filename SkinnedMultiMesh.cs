@@ -1,4 +1,4 @@
-public class SkinnedMultiMesh : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 10939
+public class SkinnedMultiMesh : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 10940
 {
 	public bool shadowOnly; 
 	internal bool IsVisible; 
@@ -70,7 +70,7 @@ public class SkinnedMultiMesh : MonoBehaviour, IPrefabPreProcess // TypeDefIndex
 
 }
 
-public struct SkinnedMultiMesh.Part // TypeDefIndex: 10940
+public struct SkinnedMultiMesh.Part // TypeDefIndex: 10941
 {
 	public Wearable wearable; 
 	public GameObject gameObject; 
@@ -79,7 +79,7 @@ public struct SkinnedMultiMesh.Part // TypeDefIndex: 10940
 
 }
 
-private sealed class SkinnedMultiMesh.<>c // TypeDefIndex: 10941
+private sealed class SkinnedMultiMesh.<>c // TypeDefIndex: 10942
 {
 	public static readonly SkinnedMultiMesh.<>c <>9; 
 	public static Func<SkinnedMultiMesh.Part, long> <>9__21_0; 
@@ -96,7 +96,7 @@ private sealed class SkinnedMultiMesh.<>c // TypeDefIndex: 10941
 
 }
 
-private sealed class SkinnedMultiMesh.<>c__DisplayClass35_0 // TypeDefIndex: 10942
+private sealed class SkinnedMultiMesh.<>c__DisplayClass35_0 // TypeDefIndex: 10943
 {
 	public string name; 
 

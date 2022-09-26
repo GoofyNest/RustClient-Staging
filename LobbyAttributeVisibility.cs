@@ -1,4 +1,4 @@
-public enum LobbyAttributeVisibility // TypeDefIndex: 9117
+public enum LobbyAttributeVisibility // TypeDefIndex: 9118
 {
 	public int value__; 
 	public const LobbyAttributeVisibility Public = 0;

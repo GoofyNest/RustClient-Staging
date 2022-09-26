@@ -1,4 +1,4 @@
-public class Igniter : IOEntity // TypeDefIndex: 10417
+public class Igniter : IOEntity // TypeDefIndex: 10418
 {
 	public float IgniteRange; 
 	public float IgniteFrequency; 

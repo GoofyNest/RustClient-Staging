@@ -1,4 +1,4 @@
-internal struct LobbyModificationSetPermissionLevelOptionsInternal : ISettable<LobbyModificationSetPermissionLevelOptions>, IDisposable // TypeDefIndex: 9169
+internal struct LobbyModificationSetPermissionLevelOptionsInternal : ISettable<LobbyModificationSetPermissionLevelOptions>, IDisposable // TypeDefIndex: 9170
 {
 	private int m_ApiVersion; 
 	private LobbyPermissionLevel m_PermissionLevel; 

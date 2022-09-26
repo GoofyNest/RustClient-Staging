@@ -1,4 +1,4 @@
-public class DecorOffset : DecorComponent // TypeDefIndex: 12036
+public class DecorOffset : DecorComponent // TypeDefIndex: 12037
 {
 	public Vector3 MinOffset; 
 	public Vector3 MaxOffset; 

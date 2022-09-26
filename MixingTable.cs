@@ -60,7 +60,7 @@ public class MixingTable : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 }
 
-public class MixingTable : StorageContainer // TypeDefIndex: 10114
+public class MixingTable : StorageContainer // TypeDefIndex: 10115
 {
 	private Option __menuOption_Menu_TurnOff; 
 	private Option __menuOption_Menu_TurnOn; 

@@ -1,4 +1,4 @@
-public class WebSocketServer : IDisposable // TypeDefIndex: 6962
+public class WebSocketServer : IDisposable // TypeDefIndex: 6963
 {
 	private readonly string _scheme; 
 	private readonly IPAddress _locationIP; 
@@ -79,7 +79,7 @@ public class WebSocketServer : IDisposable // TypeDefIndex: 6962
 
 }
 
-private sealed class WebSocketServer.<>c // TypeDefIndex: 6963
+private sealed class WebSocketServer.<>c // TypeDefIndex: 6964
 {
 	public static readonly WebSocketServer.<>c <>9; 
 	public static Func<IWebSocketConnection, WebSocketHttpRequest, IHandler> <>9__36_1; 

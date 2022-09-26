@@ -1,4 +1,4 @@
-public sealed class Tempo // TypeDefIndex: 7456
+public sealed class Tempo // TypeDefIndex: 7457
 {
 	public static readonly Tempo Default; 
 	[CompilerGeneratedAttribute] 

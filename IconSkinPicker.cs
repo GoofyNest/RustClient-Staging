@@ -1,4 +1,4 @@
-public class IconSkinPicker : MonoBehaviour // TypeDefIndex: 10896
+public class IconSkinPicker : MonoBehaviour // TypeDefIndex: 10897
 {
 	private static IconSkinPicker.SkinHistory loadedHistory; 
 	private const string PrefsKey = "SkinHistory";
@@ -43,7 +43,7 @@ public class IconSkinPicker : MonoBehaviour // TypeDefIndex: 10896
 
 }
 
-private class IconSkinPicker.SkinHistory // TypeDefIndex: 10897
+private class IconSkinPicker.SkinHistory // TypeDefIndex: 10898
 {
 	public Dictionary<int, long> lastUsedSkins; 
 
@@ -52,7 +52,7 @@ private class IconSkinPicker.SkinHistory // TypeDefIndex: 10897
 
 }
 
-private struct IconSkinPicker.SkinButtonSetup // TypeDefIndex: 10898
+private struct IconSkinPicker.SkinButtonSetup // TypeDefIndex: 10899
 {
 	public ItemDefinition item; 
 	public int skinid; 

@@ -1,4 +1,4 @@
-public enum FontWeight // TypeDefIndex: 6769
+public enum FontWeight // TypeDefIndex: 6770
 {
 	public int value__; 
 	public const FontWeight Thin = 100;

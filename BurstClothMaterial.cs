@@ -1,4 +1,4 @@
-public class BurstClothMaterial : ScriptableObject // TypeDefIndex: 7317
+public class BurstClothMaterial : ScriptableObject // TypeDefIndex: 7318
 {
 	[SerializeField] 
 	[RangeAttribute] 

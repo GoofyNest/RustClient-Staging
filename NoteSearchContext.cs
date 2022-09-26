@@ -1,4 +1,4 @@
-public enum NoteSearchContext // TypeDefIndex: 7451
+public enum NoteSearchContext // TypeDefIndex: 7452
 {
 	public int value__; 
 	public const NoteSearchContext SingleEventsCollection = 0;

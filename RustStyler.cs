@@ -1,4 +1,4 @@
-public class RustStyler : MonoBehaviour // TypeDefIndex: 7065
+public class RustStyler : MonoBehaviour // TypeDefIndex: 7066
 {
 	[SerializeField] 
 	protected StyleAsset _styles; 

@@ -1,4 +1,4 @@
-public struct GetProtectMessageOutputLengthOptions // TypeDefIndex: 9717
+public struct GetProtectMessageOutputLengthOptions // TypeDefIndex: 9718
 {
 	[CompilerGeneratedAttribute] 
 	private uint <DataLengthBytes>k__BackingField; 
@@ -14,7 +14,7 @@ public struct GetProtectMessageOutputLengthOptions // TypeDefIndex: 9717
 
 }
 
-public struct GetProtectMessageOutputLengthOptions // TypeDefIndex: 9814
+public struct GetProtectMessageOutputLengthOptions // TypeDefIndex: 9815
 {
 	[CompilerGeneratedAttribute] 
 	private uint <DataLengthBytes>k__BackingField; 

@@ -1,4 +1,4 @@
-public class PhotoPanel : MonoBehaviour, IImageReceiver // TypeDefIndex: 10520
+public class PhotoPanel : MonoBehaviour, IImageReceiver // TypeDefIndex: 10521
 {
 	public RawImage Image; 
 	public InputField Message; 

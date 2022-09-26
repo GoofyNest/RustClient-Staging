@@ -1,4 +1,4 @@
-public abstract class EZSoftBoneColliderBase : MonoBehaviour // TypeDefIndex: 7167
+public abstract class EZSoftBoneColliderBase : MonoBehaviour // TypeDefIndex: 7168
 {
 	public static ListHashSet<EZSoftBoneColliderBase> EnabledColliders; 
 

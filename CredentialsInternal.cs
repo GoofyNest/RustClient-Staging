@@ -1,4 +1,4 @@
-internal struct CredentialsInternal : IGettable<Credentials>, ISettable<Credentials>, IDisposable // TypeDefIndex: 9562
+internal struct CredentialsInternal : IGettable<Credentials>, ISettable<Credentials>, IDisposable // TypeDefIndex: 9563
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Token; 
@@ -26,7 +26,7 @@ internal struct CredentialsInternal : IGettable<Credentials>, ISettable<Credenti
 
 }
 
-internal struct CredentialsInternal : IGettable<Credentials>, ISettable<Credentials>, IDisposable // TypeDefIndex: 9645
+internal struct CredentialsInternal : IGettable<Credentials>, ISettable<Credentials>, IDisposable // TypeDefIndex: 9646
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Id; 

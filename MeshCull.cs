@@ -1,4 +1,4 @@
-public class MeshCull : LODComponent, IBatchingHandler // TypeDefIndex: 11646
+public class MeshCull : LODComponent, IBatchingHandler // TypeDefIndex: 11647
 {
 	public float Distance; 
 	private RendererBatch meshBatch; 

@@ -1,4 +1,4 @@
-public static class ObjectEx // TypeDefIndex: 13076
+public static class ObjectEx // TypeDefIndex: 13077
 {
 
 	[ExtensionAttribute] 

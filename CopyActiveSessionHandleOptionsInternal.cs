@@ -1,4 +1,4 @@
-internal struct CopyActiveSessionHandleOptionsInternal : ISettable<CopyActiveSessionHandleOptions>, IDisposable // TypeDefIndex: 8457
+internal struct CopyActiveSessionHandleOptionsInternal : ISettable<CopyActiveSessionHandleOptions>, IDisposable // TypeDefIndex: 8458
 {
 	private int m_ApiVersion; 
 	private IntPtr m_SessionName; 

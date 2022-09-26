@@ -1,4 +1,4 @@
-internal struct GetDesktopCrossplayStatusInfoInternal : IGettable<GetDesktopCrossplayStatusInfo>, ISettable<GetDesktopCrossplayStatusInfo>, IDisposable // TypeDefIndex: 9855
+internal struct GetDesktopCrossplayStatusInfoInternal : IGettable<GetDesktopCrossplayStatusInfo>, ISettable<GetDesktopCrossplayStatusInfo>, IDisposable // TypeDefIndex: 9856
 {
 	private DesktopCrossplayStatus m_Status; 
 	private int m_ServiceInitResult; 

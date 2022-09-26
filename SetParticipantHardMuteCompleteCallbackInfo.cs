@@ -1,4 +1,4 @@
-public struct SetParticipantHardMuteCompleteCallbackInfo : ICallbackInfo // TypeDefIndex: 8741
+public struct SetParticipantHardMuteCompleteCallbackInfo : ICallbackInfo // TypeDefIndex: 8742
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

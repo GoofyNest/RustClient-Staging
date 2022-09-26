@@ -1,4 +1,4 @@
-public class Megaphone : HeldEntity // TypeDefIndex: 10308
+public class Megaphone : HeldEntity // TypeDefIndex: 10309
 {
 	[HeaderAttribute] 
 	public VoiceProcessor voiceProcessor; 

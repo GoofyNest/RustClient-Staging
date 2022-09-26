@@ -1,4 +1,4 @@
-public class LensDirtiness : MonoBehaviour, IImageEffect // TypeDefIndex: 8069
+public class LensDirtiness : MonoBehaviour, IImageEffect // TypeDefIndex: 8070
 {
 	private Shader Shader_Dirtiness; 
 	private Material Material_Dirtiness; 
@@ -33,7 +33,7 @@ public class LensDirtiness : MonoBehaviour, IImageEffect // TypeDefIndex: 8069
 
 }
 
-private enum LensDirtiness.Pass // TypeDefIndex: 8070
+private enum LensDirtiness.Pass // TypeDefIndex: 8071
 {
 	public int value__; 
 	public const LensDirtiness.Pass Threshold = 0;

@@ -1,4 +1,4 @@
-internal struct HideFriendsCallbackInfoInternal : ICallbackInfoInternal, IGettable<HideFriendsCallbackInfo>, ISettable<HideFriendsCallbackInfo>, IDisposable // TypeDefIndex: 8329
+internal struct HideFriendsCallbackInfoInternal : ICallbackInfoInternal, IGettable<HideFriendsCallbackInfo>, ISettable<HideFriendsCallbackInfo>, IDisposable // TypeDefIndex: 8330
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

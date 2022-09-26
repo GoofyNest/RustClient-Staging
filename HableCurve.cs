@@ -1,4 +1,4 @@
-public class HableCurve // TypeDefIndex: 13585
+public class HableCurve // TypeDefIndex: 13586
 {
 	[CompilerGeneratedAttribute] 
 	private float <whitePoint>k__BackingField; 
@@ -57,7 +57,7 @@ public class HableCurve // TypeDefIndex: 13585
 
 }
 
-private class HableCurve.Segment // TypeDefIndex: 13586
+private class HableCurve.Segment // TypeDefIndex: 13587
 {
 	public float offsetX; 
 	public float offsetY; 
@@ -73,7 +73,7 @@ private class HableCurve.Segment // TypeDefIndex: 13586
 
 }
 
-private struct HableCurve.DirectParams // TypeDefIndex: 13587
+private struct HableCurve.DirectParams // TypeDefIndex: 13588
 {
 	internal float x0; 
 	internal float y0; 
@@ -86,7 +86,7 @@ private struct HableCurve.DirectParams // TypeDefIndex: 13587
 
 }
 
-public class HableCurve.Uniforms // TypeDefIndex: 13588
+public class HableCurve.Uniforms // TypeDefIndex: 13589
 {
 	private HableCurve parent; 
 

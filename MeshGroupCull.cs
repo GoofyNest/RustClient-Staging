@@ -1,4 +1,4 @@
-public class MeshGroupCull : LODComponent // TypeDefIndex: 11647
+public class MeshGroupCull : LODComponent // TypeDefIndex: 11648
 {
 	public float Distance; 
 	private Renderer[] meshRenderers; 

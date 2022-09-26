@@ -1,4 +1,4 @@
-public class PFXRepeatingFirework : RepeatingFirework // TypeDefIndex: 9976
+public class PFXRepeatingFirework : RepeatingFirework // TypeDefIndex: 9977
 {
 	public ParticleSystemContainer pfx; 
 

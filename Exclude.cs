@@ -1,4 +1,4 @@
-public class Exclude : Attribute // TypeDefIndex: 13301
+public class Exclude : Attribute // TypeDefIndex: 13302
 {
 
 	public void .ctor() { }

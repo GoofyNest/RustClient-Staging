@@ -1,4 +1,4 @@
-public class TorpedoServerProjectile : ServerProjectile // TypeDefIndex: 11317
+public class TorpedoServerProjectile : ServerProjectile // TypeDefIndex: 11318
 {
 	[TooltipAttribute] 
 	[SerializeField] 

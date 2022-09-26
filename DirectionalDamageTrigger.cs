@@ -1,4 +1,4 @@
-public class DirectionalDamageTrigger : TriggerBase // TypeDefIndex: 10981
+public class DirectionalDamageTrigger : TriggerBase // TypeDefIndex: 10982
 {
 	public float repeatRate; 
 	public List<DamageTypeEntry> damageType; 

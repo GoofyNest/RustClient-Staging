@@ -1,4 +1,4 @@
-public struct LobbySearchFindCallbackInfo : ICallbackInfo // TypeDefIndex: 9174
+public struct LobbySearchFindCallbackInfo : ICallbackInfo // TypeDefIndex: 9175
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

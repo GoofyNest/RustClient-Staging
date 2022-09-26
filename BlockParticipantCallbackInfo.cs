@@ -1,4 +1,4 @@
-public struct BlockParticipantCallbackInfo : ICallbackInfo // TypeDefIndex: 8751
+public struct BlockParticipantCallbackInfo : ICallbackInfo // TypeDefIndex: 8752
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

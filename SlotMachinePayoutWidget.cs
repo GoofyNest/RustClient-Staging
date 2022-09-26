@@ -1,4 +1,4 @@
-public class SlotMachinePayoutWidget : MonoBehaviour // TypeDefIndex: 10457
+public class SlotMachinePayoutWidget : MonoBehaviour // TypeDefIndex: 10458
 {
 	public RustText PayoutAmount; 
 	public GameObject AnyText; 

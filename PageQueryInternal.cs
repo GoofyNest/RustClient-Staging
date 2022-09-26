@@ -1,4 +1,4 @@
-internal struct PageQueryInternal : IGettable<PageQuery>, ISettable<PageQuery>, IDisposable // TypeDefIndex: 8278
+internal struct PageQueryInternal : IGettable<PageQuery>, ISettable<PageQuery>, IDisposable // TypeDefIndex: 8279
 {
 	private int m_ApiVersion; 
 	private int m_StartIndex; 

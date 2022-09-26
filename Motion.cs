@@ -5,7 +5,7 @@ public class Motion : Object // TypeDefIndex: 4496
 
 }
 
-public class Motion : MonoBehaviour // TypeDefIndex: 8139
+public class Motion : MonoBehaviour // TypeDefIndex: 8140
 {
 	[SerializeField] 
 	[TooltipAttribute] 
@@ -80,7 +80,7 @@ public class Motion : MonoBehaviour // TypeDefIndex: 8139
 
 }
 
-public enum Motion.ExposureMode // TypeDefIndex: 8140
+public enum Motion.ExposureMode // TypeDefIndex: 8141
 {
 	public int value__; 
 	public const Motion.ExposureMode Constant = 0;
@@ -88,7 +88,7 @@ public enum Motion.ExposureMode // TypeDefIndex: 8140
 
 }
 
-public enum Motion.SampleCount // TypeDefIndex: 8141
+public enum Motion.SampleCount // TypeDefIndex: 8142
 {
 	public int value__; 
 	public const Motion.SampleCount Low = 0;
@@ -98,7 +98,7 @@ public enum Motion.SampleCount // TypeDefIndex: 8141
 
 }
 
-private enum Motion.DebugMode // TypeDefIndex: 8142
+private enum Motion.DebugMode // TypeDefIndex: 8143
 {
 	public int value__; 
 	public const Motion.DebugMode Off = 0;

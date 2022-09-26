@@ -1,4 +1,4 @@
-public class SkyLantern : StorageContainer, IIgniteable // TypeDefIndex: 10461
+public class SkyLantern : StorageContainer, IIgniteable // TypeDefIndex: 10462
 {
 	public float gravityScale; 
 	public float travelSpeed; 

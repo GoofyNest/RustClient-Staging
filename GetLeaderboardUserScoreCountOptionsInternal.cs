@@ -1,4 +1,4 @@
-internal struct GetLeaderboardUserScoreCountOptionsInternal : ISettable<GetLeaderboardUserScoreCountOptions>, IDisposable // TypeDefIndex: 9283
+internal struct GetLeaderboardUserScoreCountOptionsInternal : ISettable<GetLeaderboardUserScoreCountOptions>, IDisposable // TypeDefIndex: 9284
 {
 	private int m_ApiVersion; 
 	private IntPtr m_StatName; 

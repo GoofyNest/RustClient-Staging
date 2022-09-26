@@ -1,4 +1,4 @@
-public static class Numlock // TypeDefIndex: 13755
+public static class Numlock // TypeDefIndex: 13756
 {
 	private const byte VK_NUMLOCK = 144;
 	private const uint KEYEVENTF_EXTENDEDKEY = 1;

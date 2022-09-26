@@ -1,4 +1,4 @@
-public class ERLocalGrid : ScriptableObject // TypeDefIndex: 7217
+public class ERLocalGrid : ScriptableObject // TypeDefIndex: 7218
 {
 	public int id; 
 	public string name; 

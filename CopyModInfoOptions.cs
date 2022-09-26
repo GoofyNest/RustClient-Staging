@@ -1,4 +1,4 @@
-public struct CopyModInfoOptions // TypeDefIndex: 8997
+public struct CopyModInfoOptions // TypeDefIndex: 8998
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

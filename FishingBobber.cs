@@ -1,4 +1,4 @@
-public class FishingBobber : BaseCombatEntity // TypeDefIndex: 10572
+public class FishingBobber : BaseCombatEntity // TypeDefIndex: 10573
 {
 	public Transform centerOfMass; 
 	public Rigidbody myRigidBody; 

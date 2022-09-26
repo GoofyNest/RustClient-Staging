@@ -1,4 +1,4 @@
-internal struct LobbyInviteAcceptedCallbackInfoInternal : ICallbackInfoInternal, IGettable<LobbyInviteAcceptedCallbackInfo>, ISettable<LobbyInviteAcceptedCallbackInfo>, IDisposable // TypeDefIndex: 9143
+internal struct LobbyInviteAcceptedCallbackInfoInternal : ICallbackInfoInternal, IGettable<LobbyInviteAcceptedCallbackInfo>, ISettable<LobbyInviteAcceptedCallbackInfo>, IDisposable // TypeDefIndex: 9144
 {
 	private IntPtr m_ClientData; 
 	private IntPtr m_InviteId; 

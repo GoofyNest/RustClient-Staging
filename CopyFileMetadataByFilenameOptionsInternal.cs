@@ -1,4 +1,4 @@
-internal struct CopyFileMetadataByFilenameOptionsInternal : ISettable<CopyFileMetadataByFilenameOptions>, IDisposable // TypeDefIndex: 8374
+internal struct CopyFileMetadataByFilenameOptionsInternal : ISettable<CopyFileMetadataByFilenameOptions>, IDisposable // TypeDefIndex: 8375
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 
@@ -20,7 +20,7 @@ internal struct CopyFileMetadataByFilenameOptionsInternal : ISettable<CopyFileMe
 
 }
 
-internal struct CopyFileMetadataByFilenameOptionsInternal : ISettable<CopyFileMetadataByFilenameOptions>, IDisposable // TypeDefIndex: 8859
+internal struct CopyFileMetadataByFilenameOptionsInternal : ISettable<CopyFileMetadataByFilenameOptions>, IDisposable // TypeDefIndex: 8860
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

@@ -1,4 +1,4 @@
-public class MeshPaintable3D : BaseMeshPaintable // TypeDefIndex: 10908
+public class MeshPaintable3D : BaseMeshPaintable // TypeDefIndex: 10909
 {
 	[ClientVar] 
 	public static float brushScale; 
@@ -54,7 +54,7 @@ public class MeshPaintable3D : BaseMeshPaintable // TypeDefIndex: 10908
 
 }
 
-private struct MeshPaintable3D.DrawTextureJob : IJobParallelFor // TypeDefIndex: 10909
+private struct MeshPaintable3D.DrawTextureJob : IJobParallelFor // TypeDefIndex: 10910
 {
 	public int textureWidth; 
 	public int2 textureMaxPos; 

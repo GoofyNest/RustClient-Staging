@@ -1,4 +1,4 @@
-public class VitalInfo : MonoBehaviour, IClientComponent, IVitalNotice // TypeDefIndex: 13009
+public class VitalInfo : MonoBehaviour, IClientComponent, IVitalNotice // TypeDefIndex: 13010
 {
 	public HudElement Element; 
 	public Image InfoImage; 
@@ -28,7 +28,7 @@ public class VitalInfo : MonoBehaviour, IClientComponent, IVitalNotice // TypeDe
 
 }
 
-public enum VitalInfo.Vital // TypeDefIndex: 13010
+public enum VitalInfo.Vital // TypeDefIndex: 13011
 {
 	public int value__; 
 	public const VitalInfo.Vital BuildingBlocked = 0;
@@ -45,7 +45,7 @@ public enum VitalInfo.Vital // TypeDefIndex: 13010
 
 }
 
-private sealed class VitalInfo.<FlashInfoIcon>d__7 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13011
+private sealed class VitalInfo.<FlashInfoIcon>d__7 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13012
 {
 	private int <>1__state; 
 	private object <>2__current; 

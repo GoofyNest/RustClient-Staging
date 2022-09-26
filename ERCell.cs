@@ -1,4 +1,4 @@
-public struct ERCell // TypeDefIndex: 7192
+public struct ERCell // TypeDefIndex: 7193
 {
 	public int x; 
 	public int y; 

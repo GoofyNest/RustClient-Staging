@@ -1,4 +1,4 @@
-public struct QueryExternalAccountMappingsCallbackInfo : ICallbackInfo // TypeDefIndex: 9611
+public struct QueryExternalAccountMappingsCallbackInfo : ICallbackInfo // TypeDefIndex: 9612
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

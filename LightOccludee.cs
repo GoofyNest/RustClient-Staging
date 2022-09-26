@@ -1,4 +1,4 @@
-public class LightOccludee : MonoBehaviour // TypeDefIndex: 13037
+public class LightOccludee : MonoBehaviour // TypeDefIndex: 13038
 {
 	public float RadiusScale; 
 	public float MinTimeVisible; 

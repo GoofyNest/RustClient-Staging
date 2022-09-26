@@ -1,4 +1,4 @@
-internal struct QueryFileOptionsInternal : ISettable<QueryFileOptions>, IDisposable // TypeDefIndex: 8404
+internal struct QueryFileOptionsInternal : ISettable<QueryFileOptions>, IDisposable // TypeDefIndex: 8405
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 
@@ -20,7 +20,7 @@ internal struct QueryFileOptionsInternal : ISettable<QueryFileOptions>, IDisposa
 
 }
 
-internal struct QueryFileOptionsInternal : ISettable<QueryFileOptions>, IDisposable // TypeDefIndex: 8907
+internal struct QueryFileOptionsInternal : ISettable<QueryFileOptions>, IDisposable // TypeDefIndex: 8908
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

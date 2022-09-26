@@ -1,4 +1,4 @@
-public class BasePathNode : MonoBehaviour // TypeDefIndex: 10563
+public class BasePathNode : MonoBehaviour // TypeDefIndex: 10564
 {
 	public BasePath Path; 
 	public List<BasePathNode> linked; 

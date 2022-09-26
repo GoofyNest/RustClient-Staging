@@ -1,4 +1,4 @@
-public class RustUiTest : MonoBehaviour // TypeDefIndex: 7030
+public class RustUiTest : MonoBehaviour // TypeDefIndex: 7031
 {
 	private static readonly Option[] enumOptions; 
 	private static readonly Option[] enumOptionsJustIcons; 
@@ -13,7 +13,7 @@ public class RustUiTest : MonoBehaviour // TypeDefIndex: 7030
 
 }
 
-private sealed class RustUiTest.<>c__DisplayClass3_0 // TypeDefIndex: 7031
+private sealed class RustUiTest.<>c__DisplayClass3_0 // TypeDefIndex: 7032
 {
 	public RustButton file; 
 
@@ -24,7 +24,7 @@ private sealed class RustUiTest.<>c__DisplayClass3_0 // TypeDefIndex: 7031
 
 }
 
-private sealed class RustUiTest.<>c // TypeDefIndex: 7032
+private sealed class RustUiTest.<>c // TypeDefIndex: 7033
 {
 	public static readonly RustUiTest.<>c <>9; 
 	public static UnityAction <>9__3_0; 

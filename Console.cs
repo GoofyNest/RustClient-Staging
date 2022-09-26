@@ -429,7 +429,7 @@ internal struct ConsoleScreenBufferInfo // TypeDefIndex: 426
 
 }
 
-public class ConsoleSystem // TypeDefIndex: 6909
+public class ConsoleSystem // TypeDefIndex: 6910
 {
 
 public class ConsoleSystem
@@ -468,7 +468,7 @@ public class ConsoleSystem
 
 }
 
-public class ConsoleSystem.Arg // TypeDefIndex: 6910
+public class ConsoleSystem.Arg // TypeDefIndex: 6911
 {
 	public ConsoleSystem.Option Option; 
 	public ConsoleSystem.Command cmd; 
@@ -541,7 +541,7 @@ public class ConsoleSystem.Arg // TypeDefIndex: 6910
 
 }
 
-public class ConsoleSystem.Factory : Attribute // TypeDefIndex: 6911
+public class ConsoleSystem.Factory : Attribute // TypeDefIndex: 6912
 {
 	public string Name; 
 
@@ -550,7 +550,7 @@ public class ConsoleSystem.Factory : Attribute // TypeDefIndex: 6911
 
 }
 
-public class ConsoleSystem.Command // TypeDefIndex: 6912
+public class ConsoleSystem.Command // TypeDefIndex: 6913
 {
 	public string Name; 
 	public string Parent; 
@@ -614,7 +614,7 @@ public class ConsoleSystem.Command // TypeDefIndex: 6912
 
 }
 
-public static class ConsoleSystem.Index // TypeDefIndex: 6915
+public static class ConsoleSystem.Index // TypeDefIndex: 6916
 {
 	private static readonly Memoized<string, string> WithGlobal; 
 	private static readonly Memoized<string, string> WithoutGlobal; 
@@ -638,7 +638,7 @@ public static class ConsoleSystem.Index // TypeDefIndex: 6915
 
 }
 
-public static class ConsoleSystem.Index.Server // TypeDefIndex: 6916
+public static class ConsoleSystem.Index.Server // TypeDefIndex: 6917
 {
 	public static Dictionary<string, ConsoleSystem.Command> Dict; 
 	public static Dictionary<string, ConsoleSystem.Command> GlobalDict; 
@@ -651,7 +651,7 @@ public static class ConsoleSystem.Index.Server // TypeDefIndex: 6916
 
 }
 
-public static class ConsoleSystem.Index.Client // TypeDefIndex: 6917
+public static class ConsoleSystem.Index.Client // TypeDefIndex: 6918
 {
 	public static Dictionary<string, ConsoleSystem.Command> Dict; 
 	public static Dictionary<string, ConsoleSystem.Command> GlobalDict; 
@@ -663,7 +663,7 @@ public static class ConsoleSystem.Index.Client // TypeDefIndex: 6917
 
 }
 
-private sealed class ConsoleSystem.Index.<>c // TypeDefIndex: 6918
+private sealed class ConsoleSystem.Index.<>c // TypeDefIndex: 6919
 {
 	public static readonly ConsoleSystem.Index.<>c <>9; 
 	public static Action<ConsoleSystem.Command> <>9__4_1; 
@@ -684,7 +684,7 @@ private sealed class ConsoleSystem.Index.<>c // TypeDefIndex: 6918
 
 }
 
-public struct ConsoleSystem.Option // TypeDefIndex: 6919
+public struct ConsoleSystem.Option // TypeDefIndex: 6920
 {
 	[CompilerGeneratedAttribute] 
 	private bool <IsServer>k__BackingField; 
@@ -778,7 +778,7 @@ public struct ConsoleSystem.Option // TypeDefIndex: 6919
 
 }
 
-private sealed class ConsoleSystem.<>c // TypeDefIndex: 6920
+private sealed class ConsoleSystem.<>c // TypeDefIndex: 6921
 {
 	public static readonly ConsoleSystem.<>c <>9; 
 	public static Func<ConsoleSystem.Command, bool> <>9__21_0; 
@@ -795,7 +795,7 @@ private sealed class ConsoleSystem.<>c // TypeDefIndex: 6920
 
 }
 
-public class ConsoleVar : Attribute // TypeDefIndex: 6921
+public class ConsoleVar : Attribute // TypeDefIndex: 6922
 {
 	public string Name; 
 	public bool ClientAdmin; 
@@ -818,7 +818,7 @@ public class ConsoleVar : Attribute // TypeDefIndex: 6921
 
 }
 
-public class ConsoleGen // TypeDefIndex: 10001
+public class ConsoleGen // TypeDefIndex: 10002
 {
 	public static ConsoleSystem.Command[] All; 
 
@@ -829,7 +829,7 @@ public class ConsoleGen // TypeDefIndex: 10001
 
 }
 
-private sealed class ConsoleGen.<>c // TypeDefIndex: 10002
+private sealed class ConsoleGen.<>c // TypeDefIndex: 10003
 {
 	public static readonly ConsoleGen.<>c <>9; 
 
@@ -3128,7 +3128,7 @@ private sealed class ConsoleGen.<>c // TypeDefIndex: 10002
 
 }
 
-public static class ConsoleNetwork // TypeDefIndex: 11073
+public static class ConsoleNetwork // TypeDefIndex: 11074
 {
 
 	internal static void Init() { }
@@ -3141,7 +3141,7 @@ public static class ConsoleNetwork // TypeDefIndex: 11073
 
 }
 
-public class ConsoleUI : SingletonComponent<ConsoleUI> // TypeDefIndex: 12546
+public class ConsoleUI : SingletonComponent<ConsoleUI> // TypeDefIndex: 12547
 {
 	public RustText text; 
 	public InputField outputField; 
@@ -3206,7 +3206,7 @@ public class ConsoleUI : SingletonComponent<ConsoleUI> // TypeDefIndex: 12546
 
 }
 
-private sealed class ConsoleUI.<>c__DisplayClass16_0 // TypeDefIndex: 12547
+private sealed class ConsoleUI.<>c__DisplayClass16_0 // TypeDefIndex: 12548
 {
 	public Button btn; 
 	public ConsoleUI <>4__this; 
@@ -3218,7 +3218,7 @@ private sealed class ConsoleUI.<>c__DisplayClass16_0 // TypeDefIndex: 12547
 
 }
 
-private sealed class ConsoleUI.<>c__DisplayClass22_0 // TypeDefIndex: 12548
+private sealed class ConsoleUI.<>c__DisplayClass22_0 // TypeDefIndex: 12549
 {
 	public string str; 
 
@@ -3229,7 +3229,7 @@ private sealed class ConsoleUI.<>c__DisplayClass22_0 // TypeDefIndex: 12548
 
 }
 
-private sealed class ConsoleUI.<SetSelected>d__31 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12549
+private sealed class ConsoleUI.<SetSelected>d__31 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12550
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -3259,7 +3259,7 @@ private sealed class ConsoleUI.<SetSelected>d__31 : IEnumerator<object>, IEnumer
 
 }
 
-public class ConsoleInput // TypeDefIndex: 13408
+public class ConsoleInput // TypeDefIndex: 13409
 {
 	[CompilerGeneratedAttribute] 
 	private Action<string> OnInputText; 
@@ -3297,7 +3297,7 @@ public class ConsoleInput // TypeDefIndex: 13408
 
 }
 
-public class ConsoleWindow // TypeDefIndex: 13409
+public class ConsoleWindow // TypeDefIndex: 13410
 {
 	private TextWriter oldOutput; 
 	private const int STD_INPUT_HANDLE = -10;
@@ -3324,7 +3324,7 @@ public class ConsoleWindow // TypeDefIndex: 13409
 
 }
 
-public class Console : ConsoleSystem // TypeDefIndex: 13621
+public class Console : ConsoleSystem // TypeDefIndex: 13622
 {
 	[ClientVar] 
 	[HelpAttribute] 

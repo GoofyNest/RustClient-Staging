@@ -1,4 +1,4 @@
-public class HorizontalAttribute : PropertyAttribute // TypeDefIndex: 6575
+public class HorizontalAttribute : PropertyAttribute // TypeDefIndex: 6576
 {
 	public int count; 
 	public int label; 

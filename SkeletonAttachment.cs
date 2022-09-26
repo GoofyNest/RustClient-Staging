@@ -1,4 +1,4 @@
-public class SkeletonAttachment : MonoBehaviour // TypeDefIndex: 7351
+public class SkeletonAttachment : MonoBehaviour // TypeDefIndex: 7352
 {
 
 	public void CopyTo(GameObject parent) { }

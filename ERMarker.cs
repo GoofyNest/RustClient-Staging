@@ -1,4 +1,4 @@
-public class ERMarker // TypeDefIndex: 7291
+public class ERMarker // TypeDefIndex: 7292
 {
 	public bool activeSplineNode; 
 	public float leftIndent; 

@@ -1,4 +1,4 @@
-public struct CopySessionHandleByInviteIdOptions // TypeDefIndex: 8458
+public struct CopySessionHandleByInviteIdOptions // TypeDefIndex: 8459
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <InviteId>k__BackingField; 

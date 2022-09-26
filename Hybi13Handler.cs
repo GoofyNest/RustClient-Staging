@@ -1,4 +1,4 @@
-internal class Hybi13Handler : IHandler, IDisposable // TypeDefIndex: 6966
+internal class Hybi13Handler : IHandler, IDisposable // TypeDefIndex: 6967
 {
 	private static readonly Encoding UTF8; 
 	private static readonly SHA1 SHA1; 
@@ -44,7 +44,7 @@ internal class Hybi13Handler : IHandler, IDisposable // TypeDefIndex: 6966
 
 }
 
-private sealed class Hybi13Handler.<>c // TypeDefIndex: 6967
+private sealed class Hybi13Handler.<>c // TypeDefIndex: 6968
 {
 	public static readonly Hybi13Handler.<>c <>9; 
 

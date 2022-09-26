@@ -31440,7 +31440,7 @@ internal enum ArrayPoolEventSource.BufferAllocatedReason // TypeDefIndex: 6272
 
 }
 
-public class ArrayIndexIsEnum : PropertyAttribute // TypeDefIndex: 6563
+public class ArrayIndexIsEnum : PropertyAttribute // TypeDefIndex: 6564
 {
 
 public class ArrayIndexIsEnum : PropertyAttribute
@@ -31451,7 +31451,7 @@ public class ArrayIndexIsEnum : PropertyAttribute
 
 }
 
-public class ArrayIndexIsEnumRanged : ArrayIndexIsEnum // TypeDefIndex: 6564
+public class ArrayIndexIsEnumRanged : ArrayIndexIsEnum // TypeDefIndex: 6565
 {
 	public float min; 
 	public float max; 
@@ -31461,7 +31461,7 @@ public class ArrayIndexIsEnumRanged : ArrayIndexIsEnum // TypeDefIndex: 6564
 
 }
 
-public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8146
+public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8147
 {
 	private readonly List<Value> values; 
 
@@ -31497,7 +31497,7 @@ public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8146
 
 }
 
-public static class Arrays // TypeDefIndex: 8231
+public static class Arrays // TypeDefIndex: 8232
 {
 	public static ushort[] flushes; 
 	public static readonly ushort[] unique5; 
@@ -31511,7 +31511,7 @@ public static class Arrays // TypeDefIndex: 8231
 
 }
 
-public static class ArrayEx // TypeDefIndex: 13069
+public static class ArrayEx // TypeDefIndex: 13070
 {
 
 	public static T[] New<T>(int length) { }

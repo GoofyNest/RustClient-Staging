@@ -1,4 +1,4 @@
-public class ImpostorInstanceData // TypeDefIndex: 12390
+public class ImpostorInstanceData // TypeDefIndex: 12391
 {
 	[CompilerGeneratedAttribute] 
 	private Renderer <Renderer>k__BackingField; 

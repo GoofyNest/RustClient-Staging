@@ -1,4 +1,4 @@
-public class GenerateRiverTexture : ProceduralComponent // TypeDefIndex: 12213
+public class GenerateRiverTexture : ProceduralComponent // TypeDefIndex: 12214
 {
 
 	public override void Process(uint seed) { }

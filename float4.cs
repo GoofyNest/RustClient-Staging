@@ -1,4 +1,4 @@
-public struct float4 : IEquatable<float4>, IFormattable // TypeDefIndex: 7138
+public struct float4 : IEquatable<float4>, IFormattable // TypeDefIndex: 7139
 {
 
 [DebuggerTypeProxyAttribute] 

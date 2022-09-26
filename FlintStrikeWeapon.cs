@@ -1,4 +1,4 @@
-public class FlintStrikeWeapon : BaseProjectile // TypeDefIndex: 11167
+public class FlintStrikeWeapon : BaseProjectile // TypeDefIndex: 11168
 {
 	public float successFraction; 
 	public RecoilProperties strikeRecoil; 

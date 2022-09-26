@@ -1,4 +1,4 @@
-internal struct DuplicateFileCallbackInfoInternal : ICallbackInfoInternal, IGettable<DuplicateFileCallbackInfo>, ISettable<DuplicateFileCallbackInfo>, IDisposable // TypeDefIndex: 8869
+internal struct DuplicateFileCallbackInfoInternal : ICallbackInfoInternal, IGettable<DuplicateFileCallbackInfo>, ISettable<DuplicateFileCallbackInfo>, IDisposable // TypeDefIndex: 8870
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

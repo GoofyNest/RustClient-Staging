@@ -1,4 +1,4 @@
-internal struct RTCRoomConnectionChangedCallbackInfoInternal : ICallbackInfoInternal, IGettable<RTCRoomConnectionChangedCallbackInfo>, ISettable<RTCRoomConnectionChangedCallbackInfo>, IDisposable // TypeDefIndex: 9247
+internal struct RTCRoomConnectionChangedCallbackInfoInternal : ICallbackInfoInternal, IGettable<RTCRoomConnectionChangedCallbackInfo>, ISettable<RTCRoomConnectionChangedCallbackInfo>, IDisposable // TypeDefIndex: 9248
 {
 	private IntPtr m_ClientData; 
 	private IntPtr m_LobbyId; 

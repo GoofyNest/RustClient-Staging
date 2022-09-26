@@ -1,4 +1,4 @@
-public struct IsRTCRoomConnectedOptions // TypeDefIndex: 9097
+public struct IsRTCRoomConnectedOptions // TypeDefIndex: 9098
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <LobbyId>k__BackingField; 

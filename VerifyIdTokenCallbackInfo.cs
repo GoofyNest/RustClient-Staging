@@ -1,4 +1,4 @@
-public struct VerifyIdTokenCallbackInfo : ICallbackInfo // TypeDefIndex: 9629
+public struct VerifyIdTokenCallbackInfo : ICallbackInfo // TypeDefIndex: 9630
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 
@@ -117,7 +117,7 @@ public struct VerifyIdTokenCallbackInfo : ICallbackInfo // TypeDefIndex: 9629
 
 }
 
-public struct VerifyIdTokenCallbackInfo : ICallbackInfo // TypeDefIndex: 9692
+public struct VerifyIdTokenCallbackInfo : ICallbackInfo // TypeDefIndex: 9693
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

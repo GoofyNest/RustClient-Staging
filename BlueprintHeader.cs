@@ -1,4 +1,4 @@
-public class BlueprintHeader : MonoBehaviour // TypeDefIndex: 12698
+public class BlueprintHeader : MonoBehaviour // TypeDefIndex: 12699
 {
 	public Text categoryName; 
 	public Text unlockCount; 

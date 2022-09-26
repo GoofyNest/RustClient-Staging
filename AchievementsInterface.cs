@@ -1,4 +1,4 @@
-public sealed class AchievementsInterface : Handle // TypeDefIndex: 9876
+public sealed class AchievementsInterface : Handle // TypeDefIndex: 9877
 {
 	public const int AchievementUnlocktimeUndefined = -1;
 	public const int AddnotifyachievementsunlockedApiLatest = 1;

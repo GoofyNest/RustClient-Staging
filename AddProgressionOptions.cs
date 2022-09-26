@@ -1,4 +1,4 @@
-public struct AddProgressionOptions // TypeDefIndex: 8786
+public struct AddProgressionOptions // TypeDefIndex: 8787
 {
 	[CompilerGeneratedAttribute] 
 	private uint <SnapshotId>k__BackingField; 

@@ -1,4 +1,4 @@
-public sealed class UnknownFileFormatException : MidiException // TypeDefIndex: 7589
+public sealed class UnknownFileFormatException : MidiException // TypeDefIndex: 7590
 {
 	[CompilerGeneratedAttribute] 
 	private readonly ushort <FileFormat>k__BackingField; 

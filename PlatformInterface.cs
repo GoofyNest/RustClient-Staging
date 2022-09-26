@@ -1,4 +1,4 @@
-public sealed class PlatformInterface : Handle // TypeDefIndex: 9848
+public sealed class PlatformInterface : Handle // TypeDefIndex: 9849
 {
 	public const int AndroidInitializeoptionssysteminitializeoptionsApiLatest = 2;
 	public const int CountrycodeMaxBufferLen = 5;

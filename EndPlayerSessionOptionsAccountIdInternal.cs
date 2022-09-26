@@ -1,4 +1,4 @@
-internal struct EndPlayerSessionOptionsAccountIdInternal : IGettable<EndPlayerSessionOptionsAccountId>, ISettable<EndPlayerSessionOptionsAccountId>, IDisposable // TypeDefIndex: 9036
+internal struct EndPlayerSessionOptionsAccountIdInternal : IGettable<EndPlayerSessionOptionsAccountId>, ISettable<EndPlayerSessionOptionsAccountId>, IDisposable // TypeDefIndex: 9037
 {
 	private MetricsAccountIdType m_AccountIdType; 
 	private IntPtr m_Epic; 

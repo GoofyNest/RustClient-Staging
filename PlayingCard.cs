@@ -1,4 +1,4 @@
-public class PlayingCard // TypeDefIndex: 13743
+public class PlayingCard // TypeDefIndex: 13744
 {
 	public readonly Suit Suit; 
 	public readonly Rank Rank; 

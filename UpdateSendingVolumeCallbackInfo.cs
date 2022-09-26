@@ -1,4 +1,4 @@
-public struct UpdateSendingVolumeCallbackInfo : ICallbackInfo // TypeDefIndex: 8718
+public struct UpdateSendingVolumeCallbackInfo : ICallbackInfo // TypeDefIndex: 8719
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

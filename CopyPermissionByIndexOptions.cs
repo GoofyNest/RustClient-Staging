@@ -1,4 +1,4 @@
-public struct CopyPermissionByIndexOptions // TypeDefIndex: 9312
+public struct CopyPermissionByIndexOptions // TypeDefIndex: 9313
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

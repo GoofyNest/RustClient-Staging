@@ -1,4 +1,4 @@
-internal struct LobbyDetailsGetMemberByIndexOptionsInternal : ISettable<LobbyDetailsGetMemberByIndexOptions>, IDisposable // TypeDefIndex: 9136
+internal struct LobbyDetailsGetMemberByIndexOptionsInternal : ISettable<LobbyDetailsGetMemberByIndexOptions>, IDisposable // TypeDefIndex: 9137
 {
 	private int m_ApiVersion; 
 	private uint m_MemberIndex; 

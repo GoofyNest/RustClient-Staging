@@ -1,4 +1,4 @@
-public class WebSocketConnectionInfo : IWebSocketConnectionInfo // TypeDefIndex: 6959
+public class WebSocketConnectionInfo : IWebSocketConnectionInfo // TypeDefIndex: 6960
 {
 	[CompilerGeneratedAttribute] 
 	private string <SubProtocol>k__BackingField; 

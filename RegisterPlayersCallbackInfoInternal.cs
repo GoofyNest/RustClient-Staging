@@ -1,4 +1,4 @@
-internal struct RegisterPlayersCallbackInfoInternal : ICallbackInfoInternal, IGettable<RegisterPlayersCallbackInfo>, ISettable<RegisterPlayersCallbackInfo>, IDisposable // TypeDefIndex: 8523
+internal struct RegisterPlayersCallbackInfoInternal : ICallbackInfoInternal, IGettable<RegisterPlayersCallbackInfo>, ISettable<RegisterPlayersCallbackInfo>, IDisposable // TypeDefIndex: 8524
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

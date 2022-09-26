@@ -1,4 +1,4 @@
-public struct QueryPermissionsOptions // TypeDefIndex: 9346
+public struct QueryPermissionsOptions // TypeDefIndex: 9347
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

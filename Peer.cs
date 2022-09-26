@@ -1,4 +1,4 @@
-internal class Peer // TypeDefIndex: 7339
+internal class Peer // TypeDefIndex: 7340
 {
 	private IntPtr ptr; 
 	private static byte[] ByteBuffer; 
@@ -99,7 +99,7 @@ internal class Peer // TypeDefIndex: 7339
 
 }
 
-public enum Peer.PacketPriority // TypeDefIndex: 7340
+public enum Peer.PacketPriority // TypeDefIndex: 7341
 {
 	public int value__; 
 	public const Peer.PacketPriority IMMEDIATE_PRIORITY = 0;
@@ -109,7 +109,7 @@ public enum Peer.PacketPriority // TypeDefIndex: 7340
 
 }
 
-public enum Peer.PacketReliability // TypeDefIndex: 7341
+public enum Peer.PacketReliability // TypeDefIndex: 7342
 {
 	public int value__; 
 	public const Peer.PacketReliability UNRELIABLE = 0;

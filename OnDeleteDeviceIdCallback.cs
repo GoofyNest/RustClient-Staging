@@ -1,4 +1,4 @@
-public sealed class OnDeleteDeviceIdCallback : MulticastDelegate // TypeDefIndex: 9593
+public sealed class OnDeleteDeviceIdCallback : MulticastDelegate // TypeDefIndex: 9594
 {
 
 	public void .ctor(object object, IntPtr method) { }

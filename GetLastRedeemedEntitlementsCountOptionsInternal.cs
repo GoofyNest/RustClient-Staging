@@ -1,4 +1,4 @@
-internal struct GetLastRedeemedEntitlementsCountOptionsInternal : ISettable<GetLastRedeemedEntitlementsCountOptions>, IDisposable // TypeDefIndex: 9456
+internal struct GetLastRedeemedEntitlementsCountOptionsInternal : ISettable<GetLastRedeemedEntitlementsCountOptions>, IDisposable // TypeDefIndex: 9457
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

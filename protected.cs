@@ -205,7 +205,7 @@ protected internal enum JsonReader.State // TypeDefIndex: 5906
 
 }
 
-protected enum TMP_InputField.EditState // TypeDefIndex: 6727
+protected enum TMP_InputField.EditState // TypeDefIndex: 6728
 {
 	public int value__; 
 	public const TMP_InputField.EditState Continue = 0;
@@ -213,7 +213,7 @@ protected enum TMP_InputField.EditState // TypeDefIndex: 6727
 
 }
 
-protected struct TMP_Text.UnicodeChar // TypeDefIndex: 6771
+protected struct TMP_Text.UnicodeChar // TypeDefIndex: 6772
 {
 	public int unicode; 
 	public int stringIndex; 
@@ -221,7 +221,7 @@ protected struct TMP_Text.UnicodeChar // TypeDefIndex: 6771
 
 }
 
-protected static class AnimalAnimation.Params // TypeDefIndex: 10818
+protected static class AnimalAnimation.Params // TypeDefIndex: 10819
 {
 	public static int WalkSpeed; 
 	public static int Sleeping; 
@@ -232,7 +232,7 @@ protected static class AnimalAnimation.Params // TypeDefIndex: 10818
 
 }
 
-protected class ViewShake.ShakeParameters // TypeDefIndex: 10956
+protected class ViewShake.ShakeParameters // TypeDefIndex: 10957
 {
 	public float endTime; 
 	public float duration; 
@@ -248,7 +248,7 @@ protected class ViewShake.ShakeParameters // TypeDefIndex: 10956
 
 }
 
-protected struct BaseFootstepEffect.GroundInfo // TypeDefIndex: 11031
+protected struct BaseFootstepEffect.GroundInfo // TypeDefIndex: 11032
 {
 	public string surface; 
 	public Vector3 position; 
@@ -263,7 +263,7 @@ protected struct BaseFootstepEffect.GroundInfo // TypeDefIndex: 11031
 
 }
 
-protected enum VehicleChassisVisuals.ExtensionMode<T> // TypeDefIndex: 11488
+protected enum VehicleChassisVisuals.ExtensionMode<T> // TypeDefIndex: 11489
 {
 	public int value__; 
 	public const VehicleChassisVisuals.ExtensionMode<T> RestingIsMinExtension = 0;

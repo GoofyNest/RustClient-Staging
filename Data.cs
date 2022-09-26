@@ -5945,7 +5945,7 @@ private sealed class Database.<>c__DisplayClass4_1 // TypeDefIndex: 6191
 
 }
 
-public class Database // TypeDefIndex: 7361
+public class Database // TypeDefIndex: 7362
 {
 
 public class Database
@@ -6124,13 +6124,13 @@ public class Database
 
 }
 
-private struct Database.<>c__DisplayClass19_0<T> // TypeDefIndex: 7362
+private struct Database.<>c__DisplayClass19_0<T> // TypeDefIndex: 7363
 {
 	public int type; 
 
 }
 
-private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable<T>, IEnumerable, IEnumerator<T>, IEnumerator, IDisposable // TypeDefIndex: 7363
+private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable<T>, IEnumerable, IEnumerator<T>, IEnumerator, IDisposable // TypeDefIndex: 7364
 {
 	private int <>1__state; 
 	private T <>2__current; 
@@ -6210,7 +6210,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 
 }
 
-internal static class DataTypesUtilities // TypeDefIndex: 7627
+internal static class DataTypesUtilities // TypeDefIndex: 7628
 {
 
 	public static ushort Combine(SevenBitNumber head, SevenBitNumber tail) { }
@@ -6237,7 +6237,7 @@ internal static class DataTypesUtilities // TypeDefIndex: 7627
 
 }
 
-internal abstract class DbcsEncoding : MonoEncoding // TypeDefIndex: 7830
+internal abstract class DbcsEncoding : MonoEncoding // TypeDefIndex: 7831
 {
 	public override bool IsBrowserDisplay { get; }
 	public override bool IsBrowserSave { get; }
@@ -6271,7 +6271,7 @@ internal abstract class DbcsEncoding : MonoEncoding // TypeDefIndex: 7830
 
 }
 
-internal abstract class DbcsEncoding.DbcsDecoder : Decoder // TypeDefIndex: 7831
+internal abstract class DbcsEncoding.DbcsDecoder : Decoder // TypeDefIndex: 7832
 {
 	protected DbcsConvert convert; 
 
@@ -6284,7 +6284,7 @@ internal abstract class DbcsEncoding.DbcsDecoder : Decoder // TypeDefIndex: 7831
 
 }
 
-internal class DbcsConvert // TypeDefIndex: 7832
+internal class DbcsConvert // TypeDefIndex: 7833
 {
 	public byte[] n2u; 
 	public byte[] u2n; 
@@ -6299,7 +6299,7 @@ internal class DbcsConvert // TypeDefIndex: 7832
 
 }
 
-public struct DataRecord // TypeDefIndex: 8813
+public struct DataRecord // TypeDefIndex: 8814
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <Key>k__BackingField; 
@@ -6326,7 +6326,7 @@ public struct DataRecord // TypeDefIndex: 8813
 
 }
 
-internal struct DataRecordInternal : IGettable<DataRecord>, ISettable<DataRecord>, IDisposable // TypeDefIndex: 8814
+internal struct DataRecordInternal : IGettable<DataRecord>, ISettable<DataRecord>, IDisposable // TypeDefIndex: 8815
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Key; 
@@ -6354,7 +6354,7 @@ internal struct DataRecordInternal : IGettable<DataRecord>, ISettable<DataRecord
 
 }
 
-public class Data : ConsoleSystem // TypeDefIndex: 13625
+public class Data : ConsoleSystem // TypeDefIndex: 13626
 {
 
 	[ServerVar] 

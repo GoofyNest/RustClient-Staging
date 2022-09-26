@@ -1,4 +1,4 @@
-public class BaseCommandBuffer : MonoBehaviour // TypeDefIndex: 13016
+public class BaseCommandBuffer : MonoBehaviour // TypeDefIndex: 13017
 {
 	private Dictionary<Camera, Dictionary<int, CommandBuffer>> cameras; 
 

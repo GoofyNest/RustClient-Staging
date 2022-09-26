@@ -191,7 +191,7 @@ public class RelationshipManager.PlayerRelationships : IDisposable, Pool.IPooled
 
 }
 
-public class RelationshipManager : BaseEntity // TypeDefIndex: 10332
+public class RelationshipManager : BaseEntity // TypeDefIndex: 10333
 {
 	[ReplicatedVar] 
 	public static bool contacts; 
@@ -248,7 +248,7 @@ public class RelationshipManager : BaseEntity // TypeDefIndex: 10332
 
 }
 
-public enum RelationshipManager.RelationshipType // TypeDefIndex: 10333
+public enum RelationshipManager.RelationshipType // TypeDefIndex: 10334
 {
 	public int value__; 
 	public const RelationshipManager.RelationshipType NONE = 0;
@@ -258,7 +258,7 @@ public enum RelationshipManager.RelationshipType // TypeDefIndex: 10333
 
 }
 
-public class RelationshipManager.PlayerRelationshipInfo : Pool.IPooled, IServerFileReceiver // TypeDefIndex: 10334
+public class RelationshipManager.PlayerRelationshipInfo : Pool.IPooled, IServerFileReceiver // TypeDefIndex: 10335
 {
 	public string displayName; 
 	public ulong player; 
@@ -293,7 +293,7 @@ public class RelationshipManager.PlayerRelationshipInfo : Pool.IPooled, IServerF
 
 }
 
-public class RelationshipManager.PlayerRelationships : Pool.IPooled // TypeDefIndex: 10335
+public class RelationshipManager.PlayerRelationships : Pool.IPooled // TypeDefIndex: 10336
 {
 	public bool dirty; 
 	public ulong ownerPlayer; 
@@ -310,7 +310,7 @@ public class RelationshipManager.PlayerRelationships : Pool.IPooled // TypeDefIn
 
 }
 
-private sealed class RelationshipManager.<>c // TypeDefIndex: 10336
+private sealed class RelationshipManager.<>c // TypeDefIndex: 10337
 {
 	public static readonly RelationshipManager.<>c <>9; 
 	public static Func<ulong, ulong> <>9__11_0; 

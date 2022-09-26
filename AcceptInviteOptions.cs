@@ -1,4 +1,4 @@
-public struct AcceptInviteOptions // TypeDefIndex: 9369
+public struct AcceptInviteOptions // TypeDefIndex: 9370
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

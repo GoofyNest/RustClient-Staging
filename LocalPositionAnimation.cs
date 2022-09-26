@@ -1,4 +1,4 @@
-public class LocalPositionAnimation : MonoBehaviour, IClientComponent // TypeDefIndex: 10902
+public class LocalPositionAnimation : MonoBehaviour, IClientComponent // TypeDefIndex: 10903
 {
 	public Vector3 centerPosition; 
 	public bool worldSpace; 

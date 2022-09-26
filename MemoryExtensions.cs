@@ -1,4 +1,4 @@
-public static class MemoryExtensions // TypeDefIndex: 6895
+public static class MemoryExtensions // TypeDefIndex: 6896
 {
 	internal static readonly IntPtr StringAdjustment; 
 

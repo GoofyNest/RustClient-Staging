@@ -1,4 +1,4 @@
-public class LootPanelCardTableTerminal : LootPanel // TypeDefIndex: 12742
+public class LootPanelCardTableTerminal : LootPanel // TypeDefIndex: 12743
 {
 	[SerializeField] 
 	private Text buyInInfoText; 

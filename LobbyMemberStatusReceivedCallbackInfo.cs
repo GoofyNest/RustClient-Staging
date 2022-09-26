@@ -1,4 +1,4 @@
-public struct LobbyMemberStatusReceivedCallbackInfo : ICallbackInfo // TypeDefIndex: 9149
+public struct LobbyMemberStatusReceivedCallbackInfo : ICallbackInfo // TypeDefIndex: 9150
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

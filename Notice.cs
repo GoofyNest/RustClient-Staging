@@ -1,4 +1,4 @@
-public class Notice : ConsoleSystem // TypeDefIndex: 13677
+public class Notice : ConsoleSystem // TypeDefIndex: 13678
 {
 
 	public void .ctor() { }

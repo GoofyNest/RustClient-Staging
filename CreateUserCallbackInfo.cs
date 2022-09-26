@@ -1,4 +1,4 @@
-public struct CreateUserCallbackInfo : ICallbackInfo // TypeDefIndex: 9314
+public struct CreateUserCallbackInfo : ICallbackInfo // TypeDefIndex: 9315
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 
@@ -54,7 +54,7 @@ public struct CreateUserCallbackInfo : ICallbackInfo // TypeDefIndex: 9314
 
 }
 
-public struct CreateUserCallbackInfo : ICallbackInfo // TypeDefIndex: 9557
+public struct CreateUserCallbackInfo : ICallbackInfo // TypeDefIndex: 9558
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

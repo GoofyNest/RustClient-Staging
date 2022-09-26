@@ -1,4 +1,4 @@
-public class PercentFullStorageContainer : StorageContainer // TypeDefIndex: 11218
+public class PercentFullStorageContainer : StorageContainer // TypeDefIndex: 11219
 {
 	private float _clientPercentFull; 
 

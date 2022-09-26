@@ -1,4 +1,4 @@
-public class TextProOnAExp : TextProOnACurve // TypeDefIndex: 7156
+public class TextProOnAExp : TextProOnACurve // TypeDefIndex: 7157
 {
 	[SerializeField] 
 	[TooltipAttribute] 

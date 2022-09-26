@@ -1,4 +1,4 @@
-public struct HideFriendsCallbackInfo : ICallbackInfo // TypeDefIndex: 8328
+public struct HideFriendsCallbackInfo : ICallbackInfo // TypeDefIndex: 8329
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

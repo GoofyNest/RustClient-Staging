@@ -1,4 +1,4 @@
-public struct LobbyModificationSetPermissionLevelOptions // TypeDefIndex: 9168
+public struct LobbyModificationSetPermissionLevelOptions // TypeDefIndex: 9169
 {
 	[CompilerGeneratedAttribute] 
 	private LobbyPermissionLevel <PermissionLevel>k__BackingField; 

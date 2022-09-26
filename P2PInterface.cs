@@ -1,4 +1,4 @@
-public sealed class P2PInterface : Handle // TypeDefIndex: 8978
+public sealed class P2PInterface : Handle // TypeDefIndex: 8979
 {
 	public const int AcceptconnectionApiLatest = 1;
 	public const int AddnotifyincomingpacketqueuefullApiLatest = 1;

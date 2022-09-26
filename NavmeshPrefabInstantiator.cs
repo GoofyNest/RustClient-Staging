@@ -1,4 +1,4 @@
-public class NavmeshPrefabInstantiator : MonoBehaviour // TypeDefIndex: 13862
+public class NavmeshPrefabInstantiator : MonoBehaviour // TypeDefIndex: 13863
 {
 	public GameObjectRef NavmeshPrefab; 
 

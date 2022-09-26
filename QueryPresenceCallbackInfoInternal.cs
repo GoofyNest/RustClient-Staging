@@ -1,4 +1,4 @@
-internal struct QueryPresenceCallbackInfoInternal : ICallbackInfoInternal, IGettable<QueryPresenceCallbackInfo>, ISettable<QueryPresenceCallbackInfo>, IDisposable // TypeDefIndex: 8846
+internal struct QueryPresenceCallbackInfoInternal : ICallbackInfoInternal, IGettable<QueryPresenceCallbackInfo>, ISettable<QueryPresenceCallbackInfo>, IDisposable // TypeDefIndex: 8847
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

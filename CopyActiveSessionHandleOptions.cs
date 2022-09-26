@@ -1,4 +1,4 @@
-public struct CopyActiveSessionHandleOptions // TypeDefIndex: 8456
+public struct CopyActiveSessionHandleOptions // TypeDefIndex: 8457
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <SessionName>k__BackingField; 

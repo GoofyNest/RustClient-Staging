@@ -1,4 +1,4 @@
-public sealed class OnDeleteFileCompleteCallback : MulticastDelegate // TypeDefIndex: 8880
+public sealed class OnDeleteFileCompleteCallback : MulticastDelegate // TypeDefIndex: 8881
 {
 
 	public void .ctor(object object, IntPtr method) { }

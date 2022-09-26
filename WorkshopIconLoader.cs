@@ -1,4 +1,4 @@
-public class WorkshopIconLoader : MonoBehaviour // TypeDefIndex: 7753
+public class WorkshopIconLoader : MonoBehaviour // TypeDefIndex: 7754
 {
 
 	public static Sprite Find(ulong workshopId, Sprite placeholder, Action callback) { }

@@ -1,4 +1,4 @@
-public class SlicedGranularAudioClip : MonoBehaviour, IClientComponent // TypeDefIndex: 10725
+public class SlicedGranularAudioClip : MonoBehaviour, IClientComponent // TypeDefIndex: 10726
 {
 	public AudioClip sourceClip; 
 	public AudioClip granularClip; 
@@ -40,7 +40,7 @@ public class SlicedGranularAudioClip : MonoBehaviour, IClientComponent // TypeDe
 
 }
 
-public class SlicedGranularAudioClip.Grain // TypeDefIndex: 10726
+public class SlicedGranularAudioClip.Grain // TypeDefIndex: 10727
 {
 	private float[] sourceData; 
 	private int startSample; 

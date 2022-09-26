@@ -1,4 +1,4 @@
-public enum HairCapMask // TypeDefIndex: 10919
+public enum HairCapMask // TypeDefIndex: 10920
 {
 	public int value__; 
 	public const HairCapMask Head = 1;

@@ -1,4 +1,4 @@
-public struct JoinSessionCallbackInfo : ICallbackInfo // TypeDefIndex: 8486
+public struct JoinSessionCallbackInfo : ICallbackInfo // TypeDefIndex: 8487
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

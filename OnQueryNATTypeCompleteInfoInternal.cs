@@ -1,4 +1,4 @@
-internal struct OnQueryNATTypeCompleteInfoInternal : ICallbackInfoInternal, IGettable<OnQueryNATTypeCompleteInfo>, ISettable<OnQueryNATTypeCompleteInfo>, IDisposable // TypeDefIndex: 8973
+internal struct OnQueryNATTypeCompleteInfoInternal : ICallbackInfoInternal, IGettable<OnQueryNATTypeCompleteInfo>, ISettable<OnQueryNATTypeCompleteInfo>, IDisposable // TypeDefIndex: 8974
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

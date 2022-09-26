@@ -1,4 +1,4 @@
-public struct IngestStatCompleteCallbackInfo : ICallbackInfo // TypeDefIndex: 8422
+public struct IngestStatCompleteCallbackInfo : ICallbackInfo // TypeDefIndex: 8423
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

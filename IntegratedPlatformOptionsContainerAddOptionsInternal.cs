@@ -1,4 +1,4 @@
-internal struct IntegratedPlatformOptionsContainerAddOptionsInternal : ISettable<IntegratedPlatformOptionsContainerAddOptions>, IDisposable // TypeDefIndex: 9362
+internal struct IntegratedPlatformOptionsContainerAddOptionsInternal : ISettable<IntegratedPlatformOptionsContainerAddOptions>, IDisposable // TypeDefIndex: 9363
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Options; 

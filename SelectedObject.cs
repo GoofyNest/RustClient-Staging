@@ -1,4 +1,4 @@
-public class SelectedObject : ScriptableObject // TypeDefIndex: 7240
+public class SelectedObject : ScriptableObject // TypeDefIndex: 7241
 {
 	public ERModularRoad roadScr; 
 	public ERCrossingPrefabs prefabScr; 

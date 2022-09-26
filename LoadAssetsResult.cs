@@ -1,4 +1,4 @@
-public abstract class LoadAssetsResult : CustomYieldInstruction // TypeDefIndex: 6664
+public abstract class LoadAssetsResult : CustomYieldInstruction // TypeDefIndex: 6665
 {
 	[CompilerGeneratedAttribute] 
 	private int <CompletedCount>k__BackingField; 
@@ -22,7 +22,7 @@ public abstract class LoadAssetsResult : CustomYieldInstruction // TypeDefIndex:
 
 }
 
-public sealed class LoadAssetsResult.AssetLoaded : MulticastDelegate // TypeDefIndex: 6665
+public sealed class LoadAssetsResult.AssetLoaded : MulticastDelegate // TypeDefIndex: 6666
 {
 
 	public void .ctor(object object, IntPtr method) { }

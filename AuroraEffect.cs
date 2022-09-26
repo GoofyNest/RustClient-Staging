@@ -1,4 +1,4 @@
-public class AuroraEffect : WeatherEffect // TypeDefIndex: 11776
+public class AuroraEffect : WeatherEffect // TypeDefIndex: 11777
 {
 
 	protected override float GetCurrentIntensity() { }

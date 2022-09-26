@@ -1,4 +1,4 @@
-public class PatrolHelicopterAI : BaseMonoBehaviour // TypeDefIndex: 11306
+public class PatrolHelicopterAI : BaseMonoBehaviour // TypeDefIndex: 11307
 {
 	public List<PatrolHelicopterAI.targetinfo> _targetList; 
 	public Vector3 interestZoneOrigin; 
@@ -33,7 +33,7 @@ public class PatrolHelicopterAI : BaseMonoBehaviour // TypeDefIndex: 11306
 
 }
 
-public class PatrolHelicopterAI.targetinfo // TypeDefIndex: 11307
+public class PatrolHelicopterAI.targetinfo // TypeDefIndex: 11308
 {
 	public BasePlayer ply; 
 	public BaseEntity ent; 
@@ -50,7 +50,7 @@ public class PatrolHelicopterAI.targetinfo // TypeDefIndex: 11307
 
 }
 
-public enum PatrolHelicopterAI.aiState // TypeDefIndex: 11308
+public enum PatrolHelicopterAI.aiState // TypeDefIndex: 11309
 {
 	public int value__; 
 	public const PatrolHelicopterAI.aiState IDLE = 0;

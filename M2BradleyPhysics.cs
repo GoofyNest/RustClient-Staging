@@ -1,4 +1,4 @@
-public class M2BradleyPhysics : MonoBehaviour // TypeDefIndex: 11297
+public class M2BradleyPhysics : MonoBehaviour // TypeDefIndex: 11298
 {
 	private m2bradleyAnimator m2Animator; 
 	public WheelCollider[] Wheels; 

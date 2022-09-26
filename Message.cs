@@ -1,4 +1,4 @@
-public class Message // TypeDefIndex: 6860
+public class Message // TypeDefIndex: 6861
 {
 	public Message.Type type; 
 	public BaseNetwork peer; 
@@ -18,7 +18,7 @@ public class Message // TypeDefIndex: 6860
 
 }
 
-public enum Message.Type // TypeDefIndex: 6861
+public enum Message.Type // TypeDefIndex: 6862
 {
 	public byte value__; 
 	public const Message.Type Welcome = 1;

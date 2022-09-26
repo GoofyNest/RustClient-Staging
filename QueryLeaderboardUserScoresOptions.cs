@@ -1,4 +1,4 @@
-public struct QueryLeaderboardUserScoresOptions // TypeDefIndex: 9306
+public struct QueryLeaderboardUserScoresOptions // TypeDefIndex: 9307
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId[] <UserIds>k__BackingField; 

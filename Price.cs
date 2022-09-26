@@ -1,4 +1,4 @@
-public enum Price // TypeDefIndex: 7740
+public enum Price // TypeDefIndex: 7741
 {
 	public int value__; 
 	public const Price NotForSale = 0;

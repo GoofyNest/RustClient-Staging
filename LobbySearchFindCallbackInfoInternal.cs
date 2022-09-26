@@ -1,4 +1,4 @@
-internal struct LobbySearchFindCallbackInfoInternal : ICallbackInfoInternal, IGettable<LobbySearchFindCallbackInfo>, ISettable<LobbySearchFindCallbackInfo>, IDisposable // TypeDefIndex: 9175
+internal struct LobbySearchFindCallbackInfoInternal : ICallbackInfoInternal, IGettable<LobbySearchFindCallbackInfo>, ISettable<LobbySearchFindCallbackInfo>, IDisposable // TypeDefIndex: 9176
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

@@ -1,4 +1,4 @@
-public class Sandstorm : MonoBehaviour // TypeDefIndex: 11063
+public class Sandstorm : MonoBehaviour // TypeDefIndex: 11064
 {
 	public ParticleSystem m_psSandStorm; 
 	public float m_flSpeed; 

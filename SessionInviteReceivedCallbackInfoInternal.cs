@@ -1,4 +1,4 @@
-internal struct SessionInviteReceivedCallbackInfoInternal : ICallbackInfoInternal, IGettable<SessionInviteReceivedCallbackInfo>, ISettable<SessionInviteReceivedCallbackInfo>, IDisposable // TypeDefIndex: 8553
+internal struct SessionInviteReceivedCallbackInfoInternal : ICallbackInfoInternal, IGettable<SessionInviteReceivedCallbackInfo>, ISettable<SessionInviteReceivedCallbackInfo>, IDisposable // TypeDefIndex: 8554
 {
 	private IntPtr m_ClientData; 
 	private IntPtr m_LocalUserId; 

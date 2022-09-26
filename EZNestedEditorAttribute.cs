@@ -1,4 +1,4 @@
-public class EZNestedEditorAttribute : PropertyAttribute // TypeDefIndex: 7159
+public class EZNestedEditorAttribute : PropertyAttribute // TypeDefIndex: 7160
 {
 
 	public void .ctor() { }

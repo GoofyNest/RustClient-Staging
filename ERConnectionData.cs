@@ -1,4 +1,4 @@
-public class ERConnectionData // TypeDefIndex: 7187
+public class ERConnectionData // TypeDefIndex: 7188
 {
 	public ERRoad road; 
 	public int marker; 

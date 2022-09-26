@@ -1,4 +1,4 @@
-public class FoliageTrigger : MonoBehaviour // TypeDefIndex: 13033
+public class FoliageTrigger : MonoBehaviour // TypeDefIndex: 13034
 {
 
 	public void .ctor() { }

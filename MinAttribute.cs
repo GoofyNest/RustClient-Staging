@@ -7,7 +7,7 @@ public sealed class MinAttribute : PropertyAttribute // TypeDefIndex: 3484
 
 }
 
-public sealed class MinAttribute : PropertyAttribute // TypeDefIndex: 13287
+public sealed class MinAttribute : PropertyAttribute // TypeDefIndex: 13288
 {
 	public readonly float min; 
 
@@ -16,7 +16,7 @@ public sealed class MinAttribute : PropertyAttribute // TypeDefIndex: 13287
 
 }
 
-public sealed class MinAttribute : PropertyAttribute // TypeDefIndex: 13380
+public sealed class MinAttribute : PropertyAttribute // TypeDefIndex: 13381
 {
 	public readonly float min; 
 
@@ -25,7 +25,7 @@ public sealed class MinAttribute : PropertyAttribute // TypeDefIndex: 13380
 
 }
 
-public sealed class MinAttribute : Attribute // TypeDefIndex: 13478
+public sealed class MinAttribute : Attribute // TypeDefIndex: 13479
 {
 	public readonly float min; 
 

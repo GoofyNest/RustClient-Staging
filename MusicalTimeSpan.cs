@@ -1,4 +1,4 @@
-public sealed class MusicalTimeSpan : ITimeSpan, IComparable, IComparable<MusicalTimeSpan>, IEquatable<MusicalTimeSpan> // TypeDefIndex: 7499
+public sealed class MusicalTimeSpan : ITimeSpan, IComparable, IComparable<MusicalTimeSpan>, IEquatable<MusicalTimeSpan> // TypeDefIndex: 7500
 {
 	public static readonly MusicalTimeSpan Whole; 
 	public static readonly MusicalTimeSpan Half; 

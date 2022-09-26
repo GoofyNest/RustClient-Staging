@@ -1,4 +1,4 @@
-public enum AtlasPopulationMode // TypeDefIndex: 6692
+public enum AtlasPopulationMode // TypeDefIndex: 6693
 {
 	public int value__; 
 	public const AtlasPopulationMode Static = 0;

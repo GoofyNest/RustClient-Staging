@@ -1,4 +1,4 @@
-public class Tree : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6499
+public class Tree : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6500
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -62,7 +62,7 @@ public class Tree : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6499
 
 }
 
-internal sealed class Tree // TypeDefIndex: 6984
+internal sealed class Tree // TypeDefIndex: 6985
 {
 	private static readonly int HEAP_SIZE; 
 	internal static readonly int[] ExtraLengthBits; 
@@ -94,7 +94,7 @@ internal sealed class Tree // TypeDefIndex: 6984
 
 }
 
-public class Tree : ConsoleSystem // TypeDefIndex: 13697
+public class Tree : ConsoleSystem // TypeDefIndex: 13698
 {
 	private static float m_quality; 
 	private static int m_meshes; 

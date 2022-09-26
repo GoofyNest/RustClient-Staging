@@ -1,4 +1,4 @@
-public sealed class TimeSignatureEvent : MetaEvent // TypeDefIndex: 7555
+public sealed class TimeSignatureEvent : MetaEvent // TypeDefIndex: 7556
 {
 	private byte _denominator; 
 	[CompilerGeneratedAttribute] 

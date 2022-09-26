@@ -1,4 +1,4 @@
-internal struct SessionDetailsAttributeInternal : IGettable<SessionDetailsAttribute>, ISettable<SessionDetailsAttribute>, IDisposable // TypeDefIndex: 8537
+internal struct SessionDetailsAttributeInternal : IGettable<SessionDetailsAttribute>, ISettable<SessionDetailsAttribute>, IDisposable // TypeDefIndex: 8538
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Data; 

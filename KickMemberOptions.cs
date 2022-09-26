@@ -1,4 +1,4 @@
-public struct KickMemberOptions // TypeDefIndex: 9111
+public struct KickMemberOptions // TypeDefIndex: 9112
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <LobbyId>k__BackingField; 

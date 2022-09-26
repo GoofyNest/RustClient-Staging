@@ -1,4 +1,4 @@
-public struct CatalogRelease // TypeDefIndex: 9409
+public struct CatalogRelease // TypeDefIndex: 9410
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String[] <CompatibleAppIds>k__BackingField; 

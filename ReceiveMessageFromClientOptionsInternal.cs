@@ -1,4 +1,4 @@
-internal struct ReceiveMessageFromClientOptionsInternal : ISettable<ReceiveMessageFromClientOptions>, IDisposable // TypeDefIndex: 9728
+internal struct ReceiveMessageFromClientOptionsInternal : ISettable<ReceiveMessageFromClientOptions>, IDisposable // TypeDefIndex: 9729
 {
 	private int m_ApiVersion; 
 	private IntPtr m_ClientHandle; 

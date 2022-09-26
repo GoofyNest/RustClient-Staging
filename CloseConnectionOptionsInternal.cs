@@ -1,4 +1,4 @@
-internal struct CloseConnectionOptionsInternal : ISettable<CloseConnectionOptions>, IDisposable // TypeDefIndex: 8937
+internal struct CloseConnectionOptionsInternal : ISettable<CloseConnectionOptions>, IDisposable // TypeDefIndex: 8938
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

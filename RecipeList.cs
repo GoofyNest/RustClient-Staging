@@ -1,4 +1,4 @@
-public class RecipeList : BaseScriptableObject // TypeDefIndex: 12465
+public class RecipeList : BaseScriptableObject // TypeDefIndex: 12466
 {
 	public Recipe[] Recipes; 
 

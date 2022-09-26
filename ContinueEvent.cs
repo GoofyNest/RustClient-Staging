@@ -1,4 +1,4 @@
-public sealed class ContinueEvent : SystemRealTimeEvent // TypeDefIndex: 7572
+public sealed class ContinueEvent : SystemRealTimeEvent // TypeDefIndex: 7573
 {
 
 	public void .ctor() { }

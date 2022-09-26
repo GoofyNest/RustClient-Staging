@@ -1,4 +1,4 @@
-public enum ConnectedTo // TypeDefIndex: 7212
+public enum ConnectedTo // TypeDefIndex: 7213
 {
 	public int value__; 
 	public const ConnectedTo Start = 0;

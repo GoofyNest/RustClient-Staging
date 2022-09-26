@@ -1,4 +1,4 @@
-public class Hammer : BaseMelee // TypeDefIndex: 11170
+public class Hammer : BaseMelee // TypeDefIndex: 11171
 {
 
 	protected BuildingBlock GetBuildingBlock(BasePlayer player) { }

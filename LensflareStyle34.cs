@@ -1,4 +1,4 @@
-public enum LensflareStyle34 // TypeDefIndex: 8163
+public enum LensflareStyle34 // TypeDefIndex: 8164
 {
 	public int value__; 
 	public const LensflareStyle34 Ghosting = 0;

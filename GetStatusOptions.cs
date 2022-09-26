@@ -1,4 +1,4 @@
-public struct GetStatusOptions // TypeDefIndex: 9379
+public struct GetStatusOptions // TypeDefIndex: 9380
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

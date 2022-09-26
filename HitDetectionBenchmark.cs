@@ -1,4 +1,4 @@
-public class HitDetectionBenchmark : BenchmarkScene // TypeDefIndex: 9957
+public class HitDetectionBenchmark : BenchmarkScene // TypeDefIndex: 9958
 {
 	private const int PlayerCount = 50;
 	public GameObjectRef PlayerModelPrefab; 
@@ -18,7 +18,7 @@ public class HitDetectionBenchmark : BenchmarkScene // TypeDefIndex: 9957
 
 }
 
-private sealed class HitDetectionBenchmark.<>c // TypeDefIndex: 9958
+private sealed class HitDetectionBenchmark.<>c // TypeDefIndex: 9959
 {
 	public static readonly HitDetectionBenchmark.<>c <>9; 
 	public static Func<ItemDefinition, ItemModWearable> <>9__6_0; 

@@ -1,4 +1,4 @@
-public class TriggeredEventPrefab : TriggeredEvent // TypeDefIndex: 11523
+public class TriggeredEventPrefab : TriggeredEvent // TypeDefIndex: 11524
 {
 	public GameObjectRef targetPrefab; 
 

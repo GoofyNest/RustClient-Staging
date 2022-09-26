@@ -1,4 +1,4 @@
-public class DeveloperUI : MonoBehaviour // TypeDefIndex: 12829
+public class DeveloperUI : MonoBehaviour // TypeDefIndex: 12830
 {
 
 	public bool IsVisible() { }

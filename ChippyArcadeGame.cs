@@ -1,4 +1,4 @@
-public class ChippyArcadeGame : BaseArcadeGame // TypeDefIndex: 10469
+public class ChippyArcadeGame : BaseArcadeGame // TypeDefIndex: 10470
 {
 	public ChippyMainCharacter mainChar; 
 	public SpriteArcadeEntity mainCharAim; 

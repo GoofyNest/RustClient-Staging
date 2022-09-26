@@ -1,4 +1,4 @@
-internal struct PacketQueueInfoInternal : IGettable<PacketQueueInfo>, ISettable<PacketQueueInfo>, IDisposable // TypeDefIndex: 8980
+internal struct PacketQueueInfoInternal : IGettable<PacketQueueInfo>, ISettable<PacketQueueInfo>, IDisposable // TypeDefIndex: 8981
 {
 	private ulong m_IncomingPacketQueueMaxSizeBytes; 
 	private ulong m_IncomingPacketQueueCurrentSizeBytes; 

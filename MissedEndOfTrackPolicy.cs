@@ -1,4 +1,4 @@
-public enum MissedEndOfTrackPolicy // TypeDefIndex: 7602
+public enum MissedEndOfTrackPolicy // TypeDefIndex: 7603
 {
 	public byte value__; 
 	public const MissedEndOfTrackPolicy Ignore = 0;

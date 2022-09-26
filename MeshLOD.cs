@@ -1,4 +1,4 @@
-public class MeshLOD : LODComponent, IBatchingHandler // TypeDefIndex: 11648
+public class MeshLOD : LODComponent, IBatchingHandler // TypeDefIndex: 11649
 {
 	[HorizontalAttribute] 
 	public MeshLOD.State[] States; 
@@ -35,7 +35,7 @@ public class MeshLOD : LODComponent, IBatchingHandler // TypeDefIndex: 11648
 
 }
 
-public class MeshLOD.State // TypeDefIndex: 11649
+public class MeshLOD.State // TypeDefIndex: 11650
 {
 	public float distance; 
 	public Mesh mesh; 

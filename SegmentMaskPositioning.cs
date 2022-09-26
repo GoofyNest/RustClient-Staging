@@ -1,4 +1,4 @@
-public class SegmentMaskPositioning : MonoBehaviour // TypeDefIndex: 12930
+public class SegmentMaskPositioning : MonoBehaviour // TypeDefIndex: 12931
 {
 	public PlayerModel source; 
 	public GameObject headMask; 

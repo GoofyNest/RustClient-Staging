@@ -1,4 +1,4 @@
-internal struct SendPlayerBehaviorReportOptionsInternal : ISettable<SendPlayerBehaviorReportOptions>, IDisposable // TypeDefIndex: 8627
+internal struct SendPlayerBehaviorReportOptionsInternal : ISettable<SendPlayerBehaviorReportOptions>, IDisposable // TypeDefIndex: 8628
 {
 	private int m_ApiVersion; 
 	private IntPtr m_ReporterUserId; 

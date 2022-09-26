@@ -1,4 +1,4 @@
-internal struct JoinSessionOptionsInternal : ISettable<JoinSessionOptions>, IDisposable // TypeDefIndex: 8489
+internal struct JoinSessionOptionsInternal : ISettable<JoinSessionOptions>, IDisposable // TypeDefIndex: 8490
 {
 	private int m_ApiVersion; 
 	private IntPtr m_SessionName; 

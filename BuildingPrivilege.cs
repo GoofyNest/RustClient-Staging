@@ -313,7 +313,7 @@ public class BuildingPrivilege : IDisposable, Pool.IPooled, IProto // TypeDefInd
 
 }
 
-public class BuildingPrivlidge : StorageContainer // TypeDefIndex: 10066
+public class BuildingPrivlidge : StorageContainer // TypeDefIndex: 10067
 {
 	private Option __menuOption_Menu_MaxAuth; 
 	private Option __menuOption_Menu_RotateVM; 
@@ -404,7 +404,7 @@ public class BuildingPrivlidge : StorageContainer // TypeDefIndex: 10066
 
 }
 
-private sealed class BuildingPrivlidge.<>c__DisplayClass20_0 // TypeDefIndex: 10067
+private sealed class BuildingPrivlidge.<>c__DisplayClass20_0 // TypeDefIndex: 10068
 {
 	public BasePlayer player; 
 
@@ -415,7 +415,7 @@ private sealed class BuildingPrivlidge.<>c__DisplayClass20_0 // TypeDefIndex: 10
 
 }
 
-private sealed class BuildingPrivlidge.<>c__DisplayClass21_0 // TypeDefIndex: 10068
+private sealed class BuildingPrivlidge.<>c__DisplayClass21_0 // TypeDefIndex: 10069
 {
 	public ulong userID; 
 
@@ -426,7 +426,7 @@ private sealed class BuildingPrivlidge.<>c__DisplayClass21_0 // TypeDefIndex: 10
 
 }
 
-public class BuildingBlock : StabilityEntity // TypeDefIndex: 10242
+public class BuildingBlock : StabilityEntity // TypeDefIndex: 10243
 {
 	private bool forceSkinRefresh; 
 	private int modelState; 
@@ -555,14 +555,14 @@ public class BuildingBlock : StabilityEntity // TypeDefIndex: 10242
 
 }
 
-public static class BuildingBlock.BlockFlags // TypeDefIndex: 10243
+public static class BuildingBlock.BlockFlags // TypeDefIndex: 10244
 {
 	public const BaseEntity.Flags CanRotate = 128;
 	public const BaseEntity.Flags CanDemolish = 256;
 
 }
 
-public class BuildingBlock.UpdateSkinWorkQueue : ObjectWorkQueue<BuildingBlock> // TypeDefIndex: 10244
+public class BuildingBlock.UpdateSkinWorkQueue : ObjectWorkQueue<BuildingBlock> // TypeDefIndex: 10245
 {
 
 	protected override void RunJob(BuildingBlock entity) { }
@@ -573,7 +573,7 @@ public class BuildingBlock.UpdateSkinWorkQueue : ObjectWorkQueue<BuildingBlock> 
 
 }
 
-private sealed class BuildingBlock.<>c__DisplayClass31_0 // TypeDefIndex: 10245
+private sealed class BuildingBlock.<>c__DisplayClass31_0 // TypeDefIndex: 10246
 {
 	public BuildingGrade.Enum iNewGrade; 
 	public BuildingBlock <>4__this; 
@@ -585,7 +585,7 @@ private sealed class BuildingBlock.<>c__DisplayClass31_0 // TypeDefIndex: 10245
 
 }
 
-public class BuildingProximity : PrefabAttribute // TypeDefIndex: 10753
+public class BuildingProximity : PrefabAttribute // TypeDefIndex: 10754
 {
 	private const float check_radius = 2;
 	private const float check_forgiveness = 0,01;
@@ -605,7 +605,7 @@ public class BuildingProximity : PrefabAttribute // TypeDefIndex: 10753
 
 }
 
-private struct BuildingProximity.ProximityInfo // TypeDefIndex: 10754
+private struct BuildingProximity.ProximityInfo // TypeDefIndex: 10755
 {
 	public bool hit; 
 	public bool connection; 
@@ -614,14 +614,14 @@ private struct BuildingProximity.ProximityInfo // TypeDefIndex: 10754
 
 }
 
-public class BuildingBlockDecay : Decay // TypeDefIndex: 11229
+public class BuildingBlockDecay : Decay // TypeDefIndex: 11230
 {
 
 	public void .ctor() { }
 
 }
 
-public class BuildingGradeDecay : Decay // TypeDefIndex: 11230
+public class BuildingGradeDecay : Decay // TypeDefIndex: 11231
 {
 	public BuildingGrade.Enum decayGrade; 
 
@@ -630,7 +630,7 @@ public class BuildingGradeDecay : Decay // TypeDefIndex: 11230
 
 }
 
-public abstract class BuildingManager // TypeDefIndex: 11530
+public abstract class BuildingManager // TypeDefIndex: 11531
 {
 	public static ClientBuildingManager client; 
 	protected ListHashSet<DecayEntity> decayEntities; 
@@ -655,7 +655,7 @@ public abstract class BuildingManager // TypeDefIndex: 11530
 
 }
 
-public class BuildingManager.Building // TypeDefIndex: 11531
+public class BuildingManager.Building // TypeDefIndex: 11532
 {
 	public uint ID; 
 	public ListHashSet<BuildingPrivlidge> buildingPrivileges; 
@@ -699,7 +699,7 @@ public class BuildingManager.Building // TypeDefIndex: 11531
 
 }
 
-public class BuildingGrade : ScriptableObject // TypeDefIndex: 12427
+public class BuildingGrade : ScriptableObject // TypeDefIndex: 12428
 {
 	public BuildingGrade.Enum type; 
 	public float baseHealth; 
@@ -713,7 +713,7 @@ public class BuildingGrade : ScriptableObject // TypeDefIndex: 12427
 
 }
 
-public enum BuildingGrade.Enum // TypeDefIndex: 12428
+public enum BuildingGrade.Enum // TypeDefIndex: 12429
 {
 	public int value__; 
 	public const BuildingGrade.Enum None = -1;

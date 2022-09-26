@@ -1,4 +1,4 @@
-public class FoliageGridBatch : MeshBatch // TypeDefIndex: 13101
+public class FoliageGridBatch : MeshBatch // TypeDefIndex: 13102
 {
 	private Vector3 position; 
 	private Mesh meshBatch; 

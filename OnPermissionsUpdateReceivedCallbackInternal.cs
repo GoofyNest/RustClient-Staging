@@ -1,4 +1,4 @@
-internal sealed class OnPermissionsUpdateReceivedCallbackInternal : MulticastDelegate // TypeDefIndex: 9327
+internal sealed class OnPermissionsUpdateReceivedCallbackInternal : MulticastDelegate // TypeDefIndex: 9328
 {
 
 	public void .ctor(object object, IntPtr method) { }

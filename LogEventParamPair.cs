@@ -1,4 +1,4 @@
-public struct LogEventParamPair // TypeDefIndex: 9753
+public struct LogEventParamPair // TypeDefIndex: 9754
 {
 	[CompilerGeneratedAttribute] 
 	private LogEventParamPairParamValue <ParamValue>k__BackingField; 

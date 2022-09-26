@@ -1,4 +1,4 @@
-public sealed class KWSInterface : Handle // TypeDefIndex: 9322
+public sealed class KWSInterface : Handle // TypeDefIndex: 9323
 {
 	public const int AddnotifypermissionsupdatereceivedApiLatest = 1;
 	public const int CopypermissionbyindexApiLatest = 1;

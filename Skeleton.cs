@@ -1,4 +1,4 @@
-public class Skeleton : MonoBehaviour // TypeDefIndex: 7349
+public class Skeleton : MonoBehaviour // TypeDefIndex: 7350
 {
 	public SkeletonDefinition Source; 
 	public GameObject[] Bones; 
@@ -41,7 +41,7 @@ public class Skeleton : MonoBehaviour // TypeDefIndex: 7349
 
 }
 
-private sealed class Skeleton.<>c__DisplayClass15_0 // TypeDefIndex: 7350
+private sealed class Skeleton.<>c__DisplayClass15_0 // TypeDefIndex: 7351
 {
 	public Skeleton <>4__this; 
 	public Transform[] allChildren; 

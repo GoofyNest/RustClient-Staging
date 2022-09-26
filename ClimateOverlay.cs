@@ -1,4 +1,4 @@
-public class ClimateOverlay : MonoBehaviour // TypeDefIndex: 10831
+public class ClimateOverlay : MonoBehaviour // TypeDefIndex: 10832
 {
 	[RangeAttribute] 
 	public float blendingSpeed; 

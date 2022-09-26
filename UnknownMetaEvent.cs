@@ -1,4 +1,4 @@
-public sealed class UnknownMetaEvent : MetaEvent // TypeDefIndex: 7556
+public sealed class UnknownMetaEvent : MetaEvent // TypeDefIndex: 7557
 {
 	[CompilerGeneratedAttribute] 
 	private readonly byte <StatusByte>k__BackingField; 

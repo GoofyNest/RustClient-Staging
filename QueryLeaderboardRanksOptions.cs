@@ -1,4 +1,4 @@
-public struct QueryLeaderboardRanksOptions // TypeDefIndex: 9304
+public struct QueryLeaderboardRanksOptions // TypeDefIndex: 9305
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <LeaderboardId>k__BackingField; 

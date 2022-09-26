@@ -1,4 +1,4 @@
-internal struct SetRoomSettingOptionsInternal : ISettable<SetRoomSettingOptions>, IDisposable // TypeDefIndex: 8783
+internal struct SetRoomSettingOptionsInternal : ISettable<SetRoomSettingOptions>, IDisposable // TypeDefIndex: 8784
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

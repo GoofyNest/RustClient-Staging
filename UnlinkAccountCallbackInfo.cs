@@ -1,4 +1,4 @@
-public struct UnlinkAccountCallbackInfo : ICallbackInfo // TypeDefIndex: 9623
+public struct UnlinkAccountCallbackInfo : ICallbackInfo // TypeDefIndex: 9624
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

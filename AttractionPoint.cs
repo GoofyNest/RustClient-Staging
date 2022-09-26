@@ -1,4 +1,4 @@
-public class AttractionPoint : PrefabAttribute // TypeDefIndex: 10752
+public class AttractionPoint : PrefabAttribute // TypeDefIndex: 10753
 {
 	public string groupName; 
 

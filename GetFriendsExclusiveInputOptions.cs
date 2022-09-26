@@ -1,4 +1,4 @@
-public struct GetFriendsExclusiveInputOptions // TypeDefIndex: 8322
+public struct GetFriendsExclusiveInputOptions // TypeDefIndex: 8323
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

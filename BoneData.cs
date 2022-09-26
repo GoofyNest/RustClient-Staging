@@ -1,4 +1,4 @@
-internal struct BoneData // TypeDefIndex: 7319
+internal struct BoneData // TypeDefIndex: 7320
 {
 	public int Depth; 
 	public int Parent; 

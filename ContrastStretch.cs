@@ -1,4 +1,4 @@
-public class ContrastStretch : MonoBehaviour // TypeDefIndex: 8181
+public class ContrastStretch : MonoBehaviour // TypeDefIndex: 8182
 {
 	public float adaptationSpeed; 
 	public float limitMinimum; 

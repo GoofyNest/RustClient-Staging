@@ -1,4 +1,4 @@
-public class SprayCanSkinSelect : UIDialog // TypeDefIndex: 12621
+public class SprayCanSkinSelect : UIDialog // TypeDefIndex: 12622
 {
 	public IconSkinPicker skinPicker; 
 	private Action<bool, int> onSkinSelected; 

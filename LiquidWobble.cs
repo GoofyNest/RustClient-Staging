@@ -1,4 +1,4 @@
-public class LiquidWobble : MonoBehaviour // TypeDefIndex: 12395
+public class LiquidWobble : MonoBehaviour // TypeDefIndex: 12396
 {
 	private Renderer rend; 
 	private Vector3 lastPos; 

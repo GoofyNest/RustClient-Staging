@@ -1,4 +1,4 @@
-internal struct SessionSearchRemoveParameterOptionsInternal : ISettable<SessionSearchRemoveParameterOptions>, IDisposable // TypeDefIndex: 8583
+internal struct SessionSearchRemoveParameterOptionsInternal : ISettable<SessionSearchRemoveParameterOptions>, IDisposable // TypeDefIndex: 8584
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Key; 

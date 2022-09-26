@@ -1,4 +1,4 @@
-public class NewYearGong : BaseCombatEntity // TypeDefIndex: 10313
+public class NewYearGong : BaseCombatEntity // TypeDefIndex: 10314
 {
 	public SoundDefinition gongSound; 
 	public float minTimeBetweenSounds; 

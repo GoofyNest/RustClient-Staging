@@ -1,4 +1,4 @@
-public struct OnPeerConnectionEstablishedInfo : ICallbackInfo // TypeDefIndex: 8964
+public struct OnPeerConnectionEstablishedInfo : ICallbackInfo // TypeDefIndex: 8965
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

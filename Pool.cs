@@ -280,6 +280,7 @@ public static class Pool // TypeDefIndex: 4838
 	|-Pool.Free<BaseEntity>
 	|-Pool.Free<BaseNPC>
 	|-Pool.Free<BaseNetworkable>
+	|-Pool.Free<BaseOven>
 	|-Pool.Free<BasePlayer>
 	|-Pool.Free<BaseProjectile>
 	|-Pool.Free<BaseResource>
@@ -596,6 +597,7 @@ public static class Pool // TypeDefIndex: 4838
 	|-Pool.Get<BaseEntity>
 	|-Pool.Get<BaseNPC>
 	|-Pool.Get<BaseNetworkable>
+	|-Pool.Get<BaseOven>
 	|-Pool.Get<BasePlayer>
 	|-Pool.Get<BaseProjectile>
 	|-Pool.Get<BaseResource>
@@ -1253,7 +1255,7 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4841
 
 }
 
-public class Pool : ConsoleSystem // TypeDefIndex: 13682
+public class Pool : ConsoleSystem // TypeDefIndex: 13683
 {
 	[ServerVar] 
 	[ClientVar] 
@@ -1303,7 +1305,7 @@ public class Pool : ConsoleSystem // TypeDefIndex: 13682
 
 }
 
-private sealed class Pool.<>c // TypeDefIndex: 13683
+private sealed class Pool.<>c // TypeDefIndex: 13684
 {
 	public static readonly Pool.<>c <>9; 
 	public static Func<KeyValuePair<Type, Pool.ICollection>, long> <>9__4_0; 

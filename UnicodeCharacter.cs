@@ -1,4 +1,4 @@
-internal enum UnicodeCharacter // TypeDefIndex: 6750
+internal enum UnicodeCharacter // TypeDefIndex: 6751
 {
 	public uint value__; 
 	public const UnicodeCharacter HYPHEN_MINUS = 45;

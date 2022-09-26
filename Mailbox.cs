@@ -1,4 +1,4 @@
-public class Mailbox : StorageContainer // TypeDefIndex: 10111
+public class Mailbox : StorageContainer // TypeDefIndex: 10112
 {
 	private Option __menuOption_Full; 
 	public string ownerPanel; 

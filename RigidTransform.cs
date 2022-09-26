@@ -1,4 +1,4 @@
-public struct RigidTransform // TypeDefIndex: 7146
+public struct RigidTransform // TypeDefIndex: 7147
 {
 	public quaternion rot; 
 	public float3 pos; 

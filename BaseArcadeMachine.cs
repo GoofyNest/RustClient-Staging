@@ -1,4 +1,4 @@
-public class BaseArcadeMachine : BaseVehicle // TypeDefIndex: 10018
+public class BaseArcadeMachine : BaseVehicle // TypeDefIndex: 10019
 {
 	private Option __menuOption_Menu_Play; 
 	public BaseArcadeGame arcadeGamePrefab; 
@@ -85,7 +85,7 @@ public class BaseArcadeMachine : BaseVehicle // TypeDefIndex: 10018
 
 }
 
-public class BaseArcadeMachine.ScoreEntry // TypeDefIndex: 10019
+public class BaseArcadeMachine.ScoreEntry // TypeDefIndex: 10020
 {
 	public ulong playerID; 
 	public int score; 

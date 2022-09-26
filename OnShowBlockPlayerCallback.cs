@@ -1,4 +1,4 @@
-public sealed class OnShowBlockPlayerCallback : MulticastDelegate // TypeDefIndex: 8342
+public sealed class OnShowBlockPlayerCallback : MulticastDelegate // TypeDefIndex: 8343
 {
 
 	public void .ctor(object object, IntPtr method) { }

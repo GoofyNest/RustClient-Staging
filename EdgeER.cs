@@ -1,4 +1,4 @@
-public class EdgeER // TypeDefIndex: 6904
+public class EdgeER // TypeDefIndex: 6905
 {
 
 public class EdgeER

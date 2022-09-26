@@ -1,4 +1,4 @@
-public struct LocalRTCOptions // TypeDefIndex: 9194
+public struct LocalRTCOptions // TypeDefIndex: 9195
 {
 	[CompilerGeneratedAttribute] 
 	private uint <Flags>k__BackingField; 

@@ -1,4 +1,4 @@
-public struct BeginSessionOptions // TypeDefIndex: 9713
+public struct BeginSessionOptions // TypeDefIndex: 9714
 {
 	[CompilerGeneratedAttribute] 
 	private uint <RegisterTimeoutSeconds>k__BackingField; 
@@ -41,7 +41,7 @@ public struct BeginSessionOptions // TypeDefIndex: 9713
 
 }
 
-public struct BeginSessionOptions // TypeDefIndex: 9810
+public struct BeginSessionOptions // TypeDefIndex: 9811
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

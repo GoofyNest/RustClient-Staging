@@ -1,4 +1,4 @@
-public class TriggerMount : TriggerBase, IServerComponent // TypeDefIndex: 11736
+public class TriggerMount : TriggerBase, IServerComponent // TypeDefIndex: 11737
 {
 
 	public void .ctor() { }

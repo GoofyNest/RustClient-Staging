@@ -1,4 +1,4 @@
-public class RustFlexText : RustText, IFlexNode // TypeDefIndex: 7051
+public class RustFlexText : RustText, IFlexNode // TypeDefIndex: 7052
 {
 	[TooltipAttribute] 
 	public FlexLength Basis; 

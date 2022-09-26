@@ -1,4 +1,4 @@
-public class Toolgun : Hammer // TypeDefIndex: 10359
+public class Toolgun : Hammer // TypeDefIndex: 10360
 {
 	public GameObjectRef attackEffect; 
 	public GameObjectRef beamEffect; 

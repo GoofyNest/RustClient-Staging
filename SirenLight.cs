@@ -1,4 +1,4 @@
-public class SirenLight : IOEntity // TypeDefIndex: 10419
+public class SirenLight : IOEntity // TypeDefIndex: 10420
 {
 	public GameObject lightObj; 
 	public float speed; 

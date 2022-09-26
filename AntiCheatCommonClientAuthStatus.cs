@@ -1,4 +1,4 @@
-public enum AntiCheatCommonClientAuthStatus // TypeDefIndex: 9739
+public enum AntiCheatCommonClientAuthStatus // TypeDefIndex: 9740
 {
 	public int value__; 
 	public const AntiCheatCommonClientAuthStatus Invalid = 0;

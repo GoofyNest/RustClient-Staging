@@ -1,4 +1,4 @@
-public class ToggleGroupCookie : MonoBehaviour // TypeDefIndex: 12965
+public class ToggleGroupCookie : MonoBehaviour // TypeDefIndex: 12966
 {
 	public ToggleGroup group { get; }
 
@@ -17,7 +17,7 @@ public class ToggleGroupCookie : MonoBehaviour // TypeDefIndex: 12965
 
 }
 
-private sealed class ToggleGroupCookie.<>c // TypeDefIndex: 12966
+private sealed class ToggleGroupCookie.<>c // TypeDefIndex: 12967
 {
 	public static readonly ToggleGroupCookie.<>c <>9; 
 	public static Func<Toggle, bool> <>9__2_0; 

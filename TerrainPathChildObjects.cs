@@ -1,4 +1,4 @@
-public class TerrainPathChildObjects : MonoBehaviour // TypeDefIndex: 12073
+public class TerrainPathChildObjects : MonoBehaviour // TypeDefIndex: 12074
 {
 	public bool Spline; 
 	public float Width; 

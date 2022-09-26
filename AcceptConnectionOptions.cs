@@ -1,4 +1,4 @@
-public struct AcceptConnectionOptions // TypeDefIndex: 8922
+public struct AcceptConnectionOptions // TypeDefIndex: 8923
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

@@ -1,4 +1,4 @@
-public class ScreenOverlay : PostEffectsBase, IImageEffect // TypeDefIndex: 8205
+public class ScreenOverlay : PostEffectsBase, IImageEffect // TypeDefIndex: 8206
 {
 	public ScreenOverlay.OverlayBlendMode blendMode; 
 	public float intensity; 
@@ -17,7 +17,7 @@ public class ScreenOverlay : PostEffectsBase, IImageEffect // TypeDefIndex: 8205
 
 }
 
-public enum ScreenOverlay.OverlayBlendMode // TypeDefIndex: 8206
+public enum ScreenOverlay.OverlayBlendMode // TypeDefIndex: 8207
 {
 	public int value__; 
 	public const ScreenOverlay.OverlayBlendMode Additive = 0;
@@ -28,7 +28,7 @@ public enum ScreenOverlay.OverlayBlendMode // TypeDefIndex: 8206
 
 }
 
-public class ScreenOverlay : PostProcessEffectSettings // TypeDefIndex: 11977
+public class ScreenOverlay : PostProcessEffectSettings // TypeDefIndex: 11978
 {
 	public OverlayBlendModeParameter blendMode; 
 	public FloatParameter intensity; 

@@ -1,4 +1,4 @@
-public class SpriteArcadeEntity : ArcadeEntity // TypeDefIndex: 10477
+public class SpriteArcadeEntity : ArcadeEntity // TypeDefIndex: 10478
 {
 	public SpriteRenderer spriteRenderer; 
 

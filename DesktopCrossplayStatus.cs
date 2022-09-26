@@ -1,4 +1,4 @@
-public enum DesktopCrossplayStatus // TypeDefIndex: 9853
+public enum DesktopCrossplayStatus // TypeDefIndex: 9854
 {
 	public int value__; 
 	public const DesktopCrossplayStatus Ok = 0;

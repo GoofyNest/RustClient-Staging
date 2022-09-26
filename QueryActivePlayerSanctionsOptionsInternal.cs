@@ -1,4 +1,4 @@
-internal struct QueryActivePlayerSanctionsOptionsInternal : ISettable<QueryActivePlayerSanctionsOptions>, IDisposable // TypeDefIndex: 8618
+internal struct QueryActivePlayerSanctionsOptionsInternal : ISettable<QueryActivePlayerSanctionsOptions>, IDisposable // TypeDefIndex: 8619
 {
 	private int m_ApiVersion; 
 	private IntPtr m_TargetUserId; 

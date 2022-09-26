@@ -1,4 +1,4 @@
-public class FootstepSound : MonoBehaviour, IClientComponent // TypeDefIndex: 10696
+public class FootstepSound : MonoBehaviour, IClientComponent // TypeDefIndex: 10697
 {
 	public SoundDefinition lightSound; 
 	public SoundDefinition medSound; 
@@ -14,7 +14,7 @@ public class FootstepSound : MonoBehaviour, IClientComponent // TypeDefIndex: 10
 
 }
 
-public enum FootstepSound.Hardness // TypeDefIndex: 10697
+public enum FootstepSound.Hardness // TypeDefIndex: 10698
 {
 	public int value__; 
 	public const FootstepSound.Hardness Light = 1;

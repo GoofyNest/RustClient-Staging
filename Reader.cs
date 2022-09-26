@@ -1,4 +1,4 @@
-public class Reader // TypeDefIndex: 6652
+public class Reader // TypeDefIndex: 6653
 {
 	[CompilerGeneratedAttribute] 
 	private static Reader <Active>k__BackingField; 

@@ -1,4 +1,4 @@
-public sealed class MidiTimeCodeEvent : SystemCommonEvent // TypeDefIndex: 7567
+public sealed class MidiTimeCodeEvent : SystemCommonEvent // TypeDefIndex: 7568
 {
 	private static readonly Dictionary<MidiTimeCodeComponent, byte> ComponentValueMasks; 
 	[CompilerGeneratedAttribute] 

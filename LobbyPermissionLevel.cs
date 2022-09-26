@@ -1,4 +1,4 @@
-public enum LobbyPermissionLevel // TypeDefIndex: 9170
+public enum LobbyPermissionLevel // TypeDefIndex: 9171
 {
 	public int value__; 
 	public const LobbyPermissionLevel Publicadvertised = 0;

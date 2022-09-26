@@ -1,4 +1,4 @@
-internal sealed class LensDistortionRenderer : PostProcessEffectRenderer<LensDistortion> // TypeDefIndex: 13518
+internal sealed class LensDistortionRenderer : PostProcessEffectRenderer<LensDistortion> // TypeDefIndex: 13519
 {
 
 	public override void Render(PostProcessRenderContext context) { }

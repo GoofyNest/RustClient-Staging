@@ -1,4 +1,4 @@
-public class ScaleParticleSystem : ScaleRenderer // TypeDefIndex: 11064
+public class ScaleParticleSystem : ScaleRenderer // TypeDefIndex: 11065
 {
 	public ParticleSystem pSystem; 
 	public bool scaleGravity; 

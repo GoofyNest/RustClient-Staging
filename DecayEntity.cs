@@ -61,7 +61,7 @@ public class DecayEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 }
 
-public class DecayEntity : BaseCombatEntity // TypeDefIndex: 11232
+public class DecayEntity : BaseCombatEntity // TypeDefIndex: 11233
 {
 	public GameObjectRef debrisPrefab; 
 	public uint buildingID; 

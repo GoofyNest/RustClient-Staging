@@ -1,4 +1,4 @@
-public class DevMovePlayer : BaseMonoBehaviour // TypeDefIndex: 11005
+public class DevMovePlayer : BaseMonoBehaviour // TypeDefIndex: 11006
 {
 	public BasePlayer player; 
 	public Transform[] Waypoints; 

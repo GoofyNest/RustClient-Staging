@@ -1,4 +1,4 @@
-public class LootAllButton : MonoBehaviour // TypeDefIndex: 12756
+public class LootAllButton : MonoBehaviour // TypeDefIndex: 12757
 {
 	public Func<Item, bool> Filter; 
 	public OvenLootPanel inventoryGrid; 

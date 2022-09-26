@@ -1,4 +1,4 @@
-public enum LoginCredentialType // TypeDefIndex: 9659
+public enum LoginCredentialType // TypeDefIndex: 9660
 {
 	public int value__; 
 	public const LoginCredentialType Password = 0;

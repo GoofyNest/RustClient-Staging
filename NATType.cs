@@ -1,4 +1,4 @@
-public enum NATType // TypeDefIndex: 8952
+public enum NATType // TypeDefIndex: 8953
 {
 	public int value__; 
 	public const NATType Unknown = 0;

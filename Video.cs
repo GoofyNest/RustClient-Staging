@@ -1,4 +1,4 @@
-public class Video : RustControl // TypeDefIndex: 7076
+public class Video : RustControl // TypeDefIndex: 7077
 {
 	public RawImage VideoCanvas; 
 	public VideoPlayer VideoPlayer; 

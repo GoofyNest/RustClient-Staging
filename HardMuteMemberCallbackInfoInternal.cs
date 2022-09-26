@@ -1,4 +1,4 @@
-internal struct HardMuteMemberCallbackInfoInternal : ICallbackInfoInternal, IGettable<HardMuteMemberCallbackInfo>, ISettable<HardMuteMemberCallbackInfo>, IDisposable // TypeDefIndex: 9094
+internal struct HardMuteMemberCallbackInfoInternal : ICallbackInfoInternal, IGettable<HardMuteMemberCallbackInfo>, ISettable<HardMuteMemberCallbackInfo>, IDisposable // TypeDefIndex: 9095
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

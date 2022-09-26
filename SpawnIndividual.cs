@@ -1,4 +1,4 @@
-public struct SpawnIndividual // TypeDefIndex: 11700
+public struct SpawnIndividual // TypeDefIndex: 11701
 {
 	public uint PrefabID; 
 	public Vector3 Position; 

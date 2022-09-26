@@ -1,4 +1,4 @@
-public struct WordWrapState // TypeDefIndex: 6796
+public struct WordWrapState // TypeDefIndex: 6797
 {
 	public int previous_WordBreak; 
 	public int total_CharacterCount; 

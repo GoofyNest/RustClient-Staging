@@ -1,4 +1,4 @@
-public class PressButton : IOEntity // TypeDefIndex: 10133
+public class PressButton : IOEntity // TypeDefIndex: 10134
 {
 	private Option __menuOption_Menu_Press; 
 	public float pressDuration; 
@@ -33,7 +33,7 @@ public class PressButton : IOEntity // TypeDefIndex: 10133
 
 }
 
-public class PressButton_TrainTunnel : PressButton // TypeDefIndex: 10134
+public class PressButton_TrainTunnel : PressButton // TypeDefIndex: 10135
 {
 	private Option __menuOption_Menu_Press_TrainTunnel; 
 

@@ -1,4 +1,4 @@
-public struct uint2 : IEquatable<uint2>, IFormattable // TypeDefIndex: 7147
+public struct uint2 : IEquatable<uint2>, IFormattable // TypeDefIndex: 7148
 {
 	public uint x; 
 	public uint y; 

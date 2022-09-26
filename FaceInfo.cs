@@ -153,7 +153,7 @@ public struct FaceInfo
 
 }
 
-public class FaceInfo_Legacy // TypeDefIndex: 6695
+public class FaceInfo_Legacy // TypeDefIndex: 6696
 {
 	public string Name; 
 	public float PointSize; 

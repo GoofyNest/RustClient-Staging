@@ -1,4 +1,4 @@
-public class DeferredDecal : MonoBehaviour // TypeDefIndex: 12359
+public class DeferredDecal : MonoBehaviour // TypeDefIndex: 12360
 {
 	public Mesh mesh; 
 	public Material material; 

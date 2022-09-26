@@ -1,4 +1,4 @@
-internal struct GetFriendsVisibleOptionsInternal : ISettable<GetFriendsVisibleOptions>, IDisposable // TypeDefIndex: 8325
+internal struct GetFriendsVisibleOptionsInternal : ISettable<GetFriendsVisibleOptions>, IDisposable // TypeDefIndex: 8326
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

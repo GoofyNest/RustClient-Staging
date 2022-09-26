@@ -1,4 +1,4 @@
-internal struct JoinRoomOptionsInternal : ISettable<JoinRoomOptions>, IDisposable // TypeDefIndex: 8761
+internal struct JoinRoomOptionsInternal : ISettable<JoinRoomOptions>, IDisposable // TypeDefIndex: 8762
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

@@ -1,4 +1,4 @@
-public class GameObjectRef : ResourceRef<GameObject> // TypeDefIndex: 13158
+public class GameObjectRef : ResourceRef<GameObject> // TypeDefIndex: 13159
 {
 
 	public GameObject Instantiate(Transform parent) { }

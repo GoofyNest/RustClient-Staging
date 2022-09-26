@@ -1,4 +1,4 @@
-public struct VerifyIdTokenOptions // TypeDefIndex: 9631
+public struct VerifyIdTokenOptions // TypeDefIndex: 9632
 {
 	[CompilerGeneratedAttribute] 
 	private Nullable<IdToken> <IdToken>k__BackingField; 
@@ -14,7 +14,7 @@ public struct VerifyIdTokenOptions // TypeDefIndex: 9631
 
 }
 
-public struct VerifyIdTokenOptions // TypeDefIndex: 9694
+public struct VerifyIdTokenOptions // TypeDefIndex: 9695
 {
 	[CompilerGeneratedAttribute] 
 	private Nullable<IdToken> <IdToken>k__BackingField; 

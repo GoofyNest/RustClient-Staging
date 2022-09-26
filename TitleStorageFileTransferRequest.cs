@@ -1,4 +1,4 @@
-public sealed class TitleStorageFileTransferRequest : Handle // TypeDefIndex: 8412
+public sealed class TitleStorageFileTransferRequest : Handle // TypeDefIndex: 8413
 {
 
 	public void .ctor() { }

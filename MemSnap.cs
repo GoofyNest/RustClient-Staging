@@ -1,4 +1,4 @@
-public class MemSnap : ConsoleSystem // TypeDefIndex: 13671
+public class MemSnap : ConsoleSystem // TypeDefIndex: 13672
 {
 
 	private static string NeedProfileFolder() { }

@@ -146,7 +146,7 @@ public class Result.Entry<T> // TypeDefIndex: 6264
 
 }
 
-public enum Result // TypeDefIndex: 8282
+public enum Result // TypeDefIndex: 8283
 {
 	public int value__; 
 	public const Result Success = 0;

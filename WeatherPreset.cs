@@ -1,4 +1,4 @@
-public class WeatherPreset : ScriptableObject // TypeDefIndex: 11784
+public class WeatherPreset : ScriptableObject // TypeDefIndex: 11785
 {
 	public WeatherPresetType Type; 
 	public float Wind; 

@@ -1,4 +1,4 @@
-internal struct UpdateSendingVolumeCallbackInfoInternal : ICallbackInfoInternal, IGettable<UpdateSendingVolumeCallbackInfo>, ISettable<UpdateSendingVolumeCallbackInfo>, IDisposable // TypeDefIndex: 8719
+internal struct UpdateSendingVolumeCallbackInfoInternal : ICallbackInfoInternal, IGettable<UpdateSendingVolumeCallbackInfo>, ISettable<UpdateSendingVolumeCallbackInfo>, IDisposable // TypeDefIndex: 8720
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

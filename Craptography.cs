@@ -1,4 +1,4 @@
-public static class Craptography // TypeDefIndex: 13094
+public static class Craptography // TypeDefIndex: 13095
 {
 	private static readonly byte[] hash; 
 
