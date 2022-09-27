@@ -3437,10 +3437,6 @@ public class JTokenEqualityComparer : IEqualityComparer<JToken>
 
 public class JConstructor : JContainer // TypeDefIndex: 6059
 {
-
-[PreserveAttribute] 
-[DefaultMemberAttribute] 
-public class JConstructor : JContainer
 	private string _name; 
 	private readonly List<JToken> _values; 
 
@@ -3513,6 +3509,12 @@ public abstract class JContainer : JToken, IList<JToken>, ICollection<JToken>, I
 	public override JToken get_Last() { }
 
 	public override JEnumerable<JToken> Children() { }
+
+	public override IEnumerable<T> Values<T>() { }
+	/* GenericInstMethod :
+	|
+	|-JContainer.Values<object>
+	*/
 
 	internal bool IsMultiContent(object content) { }
 
@@ -4007,6 +4009,13 @@ public abstract class JToken : IJEnumerable<JToken>, IEnumerable<JToken>, IEnume
 	public virtual JToken get_Last() { }
 
 	public virtual JEnumerable<JToken> Children() { }
+
+	public virtual IEnumerable<T> Values<T>() { }
+	/* GenericInstMethod :
+	|
+	|-JToken.Values<string>
+	|-JToken.Values<object>
+	*/
 
 	public void Remove() { }
 

@@ -20,6 +20,13 @@ public static class Extensions // TypeDefIndex: 6050
 	*/
 
 	[ExtensionAttribute] 
+	internal static IEnumerable<U> Convert<T, U>(IEnumerable<T> source) { }
+	/* GenericInstMethod :
+	|
+	|-Extensions.Convert<object, object>
+	*/
+
+	[ExtensionAttribute] 
 	internal static U Convert<T, U>(T token) { }
 	/* GenericInstMethod :
 	|
@@ -136,6 +143,82 @@ private sealed class Extensions.<>c__13<T, U>
 	/* GenericInstMethod :
 	|
 	|-Extensions.<>c__13<object, object>..ctor
+	*/
+
+}
+
+private sealed class Extensions.<Convert>d__14<T, U> : IEnumerable<U>, IEnumerable, IEnumerator<U>, IDisposable, IEnumerator // TypeDefIndex: 6058
+{
+	private int <>1__state; 
+	private U <>2__current; 
+	private int <>l__initialThreadId; 
+	private IEnumerable<T> source; 
+	public IEnumerable<T> <>3__source; 
+	private IEnumerator<T> <>7__wrap1; 
+
+	private U System.Collections.Generic.IEnumerator<U>.Current { get; }
+	private object System.Collections.IEnumerator.Current { get; }
+
+
+	[DebuggerHiddenAttribute] 
+	public void .ctor(int <>1__state) { }
+	/* GenericInstMethod :
+	|
+	|-Extensions.<Convert>d__14<object, object>..ctor
+	*/
+
+	[DebuggerHiddenAttribute] 
+	private void System.IDisposable.Dispose() { }
+	/* GenericInstMethod :
+	|
+	|-Extensions.<Convert>d__14<object, object>.System.IDisposable.Dispose
+	*/
+
+	private bool MoveNext() { }
+	/* GenericInstMethod :
+	|
+	|-Extensions.<Convert>d__14<object, object>.MoveNext
+	*/
+
+	private void <>m__Finally1() { }
+	/* GenericInstMethod :
+	|
+	|-Extensions.<Convert>d__14<object, object>.<>m__Finally1
+	*/
+
+	[DebuggerHiddenAttribute] 
+	private U System.Collections.Generic.IEnumerator<U>.get_Current() { }
+	/* GenericInstMethod :
+	|
+	|-Extensions.<Convert>d__14<object, object>.System.Collections.Generic.IEnumerator<U>.get_Current
+	*/
+
+	[DebuggerHiddenAttribute] 
+	private void System.Collections.IEnumerator.Reset() { }
+	/* GenericInstMethod :
+	|
+	|-Extensions.<Convert>d__14<object, object>.System.Collections.IEnumerator.Reset
+	*/
+
+	[DebuggerHiddenAttribute] 
+	private object System.Collections.IEnumerator.get_Current() { }
+	/* GenericInstMethod :
+	|
+	|-Extensions.<Convert>d__14<object, object>.System.Collections.IEnumerator.get_Current
+	*/
+
+	[DebuggerHiddenAttribute] 
+	private IEnumerator<U> System.Collections.Generic.IEnumerable<U>.GetEnumerator() { }
+	/* GenericInstMethod :
+	|
+	|-Extensions.<Convert>d__14<object, object>.System.Collections.Generic.IEnumerable<U>.GetEnumerator
+	*/
+
+	[DebuggerHiddenAttribute] 
+	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
+	/* GenericInstMethod :
+	|
+	|-Extensions.<Convert>d__14<object, object>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
 }

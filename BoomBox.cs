@@ -92,7 +92,7 @@ public class BoomBox : EntityComponent<BaseEntity>, INotifyLOD // TypeDefIndex: 
 
 	public static void LoadStations() { }
 
-	private static string GetStationData() { }
+	private static Dictionary<string, string> GetStationData() { }
 
 	private static bool IsStationValid(string url) { }
 
