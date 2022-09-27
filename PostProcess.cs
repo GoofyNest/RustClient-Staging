@@ -1,4 +1,4 @@
-public class PostProcessVolumeLOD : MonoBehaviour, ILOD, IClientComponent // TypeDefIndex: 11984
+public class PostProcessVolumeLOD : MonoBehaviour, ILOD, IClientComponent // TypeDefIndex: 11986
 {
 	public float distance; 
 	private LODCell cell; 
@@ -22,7 +22,7 @@ public class PostProcessVolumeLOD : MonoBehaviour, ILOD, IClientComponent // Typ
 
 }
 
-public class PostProcessLayer : MonoBehaviour // TypeDefIndex: 13466
+public class PostProcessLayer : MonoBehaviour // TypeDefIndex: 13468
 {
 	private const float updateRate = 0,1;
 	private RenderTexture colorBuffer; 
@@ -258,7 +258,7 @@ public class PostProcessLayer : MonoBehaviour // TypeDefIndex: 13466
 
 }
 
-private enum PostProcessLayer.ScalingMode // TypeDefIndex: 13467
+private enum PostProcessLayer.ScalingMode // TypeDefIndex: 13469
 {
 	public int value__; 
 	public const PostProcessLayer.ScalingMode NATIVE = 0;
@@ -267,7 +267,7 @@ private enum PostProcessLayer.ScalingMode // TypeDefIndex: 13467
 
 }
 
-public enum PostProcessLayer.Antialiasing // TypeDefIndex: 13468
+public enum PostProcessLayer.Antialiasing // TypeDefIndex: 13470
 {
 	public int value__; 
 	public const PostProcessLayer.Antialiasing None = 0;
@@ -277,7 +277,7 @@ public enum PostProcessLayer.Antialiasing // TypeDefIndex: 13468
 
 }
 
-public sealed class PostProcessLayer.SerializedBundleRef // TypeDefIndex: 13469
+public sealed class PostProcessLayer.SerializedBundleRef // TypeDefIndex: 13471
 {
 	public string assemblyQualifiedName; 
 	public PostProcessBundle bundle; 
@@ -287,7 +287,7 @@ public sealed class PostProcessLayer.SerializedBundleRef // TypeDefIndex: 13469
 
 }
 
-private sealed class PostProcessLayer.<>c // TypeDefIndex: 13470
+private sealed class PostProcessLayer.<>c // TypeDefIndex: 13472
 {
 	public static readonly PostProcessLayer.<>c <>9; 
 	public static Predicate<Shader> <>9__31_0; 
@@ -322,7 +322,7 @@ private sealed class PostProcessLayer.<>c // TypeDefIndex: 13470
 
 }
 
-private sealed class PostProcessLayer.<>c__DisplayClass97_0 // TypeDefIndex: 13471
+private sealed class PostProcessLayer.<>c__DisplayClass97_0 // TypeDefIndex: 13473
 {
 	public PostProcessEvent evt; 
 	public List<PostProcessBundle> effects; 
@@ -336,7 +336,7 @@ private sealed class PostProcessLayer.<>c__DisplayClass97_0 // TypeDefIndex: 134
 
 }
 
-private sealed class PostProcessLayer.<>c__DisplayClass97_1 // TypeDefIndex: 13472
+private sealed class PostProcessLayer.<>c__DisplayClass97_1 // TypeDefIndex: 13474
 {
 	public string searchStr; 
 
@@ -347,7 +347,7 @@ private sealed class PostProcessLayer.<>c__DisplayClass97_1 // TypeDefIndex: 134
 
 }
 
-private sealed class PostProcessLayer.<>c__DisplayClass97_2 // TypeDefIndex: 13473
+private sealed class PostProcessLayer.<>c__DisplayClass97_2 // TypeDefIndex: 13475
 {
 	public string typeName; 
 
@@ -358,7 +358,7 @@ private sealed class PostProcessLayer.<>c__DisplayClass97_2 // TypeDefIndex: 134
 
 }
 
-private sealed class PostProcessLayer.<>c__DisplayClass97_3 // TypeDefIndex: 13474
+private sealed class PostProcessLayer.<>c__DisplayClass97_3 // TypeDefIndex: 13476
 {
 	public string typeName; 
 
@@ -369,7 +369,7 @@ private sealed class PostProcessLayer.<>c__DisplayClass97_3 // TypeDefIndex: 134
 
 }
 
-public class PostProcessRenderContext // TypeDefIndex: 13475
+public class PostProcessRenderContext // TypeDefIndex: 13477
 {
 	public bool dlssEnabled; 
 	private Camera m_Camera; 
@@ -589,7 +589,7 @@ public class PostProcessRenderContext // TypeDefIndex: 13475
 
 }
 
-public enum PostProcessRenderContext.StereoRenderingMode // TypeDefIndex: 13476
+public enum PostProcessRenderContext.StereoRenderingMode // TypeDefIndex: 13478
 {
 	public int value__; 
 	public const PostProcessRenderContext.StereoRenderingMode MultiPass = 0;
@@ -599,7 +599,7 @@ public enum PostProcessRenderContext.StereoRenderingMode // TypeDefIndex: 13476
 
 }
 
-public sealed class PostProcessAttribute : Attribute // TypeDefIndex: 13481
+public sealed class PostProcessAttribute : Attribute // TypeDefIndex: 13483
 {
 	public readonly Type renderer; 
 	public readonly PostProcessEvent eventType; 
@@ -614,7 +614,7 @@ public sealed class PostProcessAttribute : Attribute // TypeDefIndex: 13481
 
 }
 
-public sealed class PostProcessBundle // TypeDefIndex: 13564
+public sealed class PostProcessBundle // TypeDefIndex: 13566
 {
 	[CompilerGeneratedAttribute] 
 	private PostProcessAttribute <attribute>k__BackingField; 
@@ -663,7 +663,7 @@ public sealed class PostProcessBundle // TypeDefIndex: 13564
 
 }
 
-public sealed class PostProcessDebug : MonoBehaviour // TypeDefIndex: 13565
+public sealed class PostProcessDebug : MonoBehaviour // TypeDefIndex: 13567
 {
 	public PostProcessLayer postProcessLayer; 
 	private PostProcessLayer m_PreviousPostProcessLayer; 
@@ -696,7 +696,7 @@ public sealed class PostProcessDebug : MonoBehaviour // TypeDefIndex: 13565
 
 }
 
-public sealed class PostProcessDebugLayer // TypeDefIndex: 13568
+public sealed class PostProcessDebugLayer // TypeDefIndex: 13570
 {
 	public LightMeterMonitor lightMeter; 
 	public HistogramMonitor histogram; 
@@ -762,7 +762,7 @@ public sealed class PostProcessDebugLayer // TypeDefIndex: 13568
 
 }
 
-public class PostProcessDebugLayer.OverlaySettings // TypeDefIndex: 13569
+public class PostProcessDebugLayer.OverlaySettings // TypeDefIndex: 13571
 {
 	public bool linearDepth; 
 	[RangeAttribute] 
@@ -778,7 +778,7 @@ public class PostProcessDebugLayer.OverlaySettings // TypeDefIndex: 13569
 
 }
 
-public abstract class PostProcessEffectRenderer // TypeDefIndex: 13570
+public abstract class PostProcessEffectRenderer // TypeDefIndex: 13572
 {
 	protected bool m_ResetHistory; 
 
@@ -799,7 +799,7 @@ public abstract class PostProcessEffectRenderer // TypeDefIndex: 13570
 
 }
 
-public abstract class PostProcessEffectRenderer<T> : PostProcessEffectRenderer // TypeDefIndex: 13571
+public abstract class PostProcessEffectRenderer<T> : PostProcessEffectRenderer // TypeDefIndex: 13573
 {
 	[CompilerGeneratedAttribute] 
 	private T <settings>k__BackingField; 
@@ -904,7 +904,7 @@ public abstract class PostProcessEffectRenderer<T> : PostProcessEffectRenderer /
 
 }
 
-public class PostProcessEffectSettings : ScriptableObject // TypeDefIndex: 13572
+public class PostProcessEffectSettings : ScriptableObject // TypeDefIndex: 13574
 {
 	public bool active; 
 	public BoolParameter enabled; 
@@ -928,7 +928,7 @@ public class PostProcessEffectSettings : ScriptableObject // TypeDefIndex: 13572
 
 }
 
-private sealed class PostProcessEffectSettings.<>c // TypeDefIndex: 13573
+private sealed class PostProcessEffectSettings.<>c // TypeDefIndex: 13575
 {
 	public static readonly PostProcessEffectSettings.<>c <>9; 
 	public static Func<FieldInfo, bool> <>9__3_0; 
@@ -945,7 +945,7 @@ private sealed class PostProcessEffectSettings.<>c // TypeDefIndex: 13573
 
 }
 
-public enum PostProcessEvent // TypeDefIndex: 13574
+public enum PostProcessEvent // TypeDefIndex: 13576
 {
 	public int value__; 
 	public const PostProcessEvent BeforeTransparent = 0;
@@ -954,7 +954,7 @@ public enum PostProcessEvent // TypeDefIndex: 13574
 
 }
 
-internal struct PostProcessEventComparer : IEqualityComparer<PostProcessEvent> // TypeDefIndex: 13575
+internal struct PostProcessEventComparer : IEqualityComparer<PostProcessEvent> // TypeDefIndex: 13577
 {
 
 	public bool Equals(PostProcessEvent x, PostProcessEvent y) { }
@@ -963,7 +963,7 @@ internal struct PostProcessEventComparer : IEqualityComparer<PostProcessEvent> /
 
 }
 
-public sealed class PostProcessManager // TypeDefIndex: 13576
+public sealed class PostProcessManager // TypeDefIndex: 13578
 {
 	private static PostProcessManager s_Instance; 
 	private const int k_MaxLayerCount = 32;
@@ -1016,7 +1016,7 @@ public sealed class PostProcessManager // TypeDefIndex: 13576
 
 }
 
-private sealed class PostProcessManager.<>c // TypeDefIndex: 13577
+private sealed class PostProcessManager.<>c // TypeDefIndex: 13579
 {
 	public static readonly PostProcessManager.<>c <>9; 
 	public static Func<Type, bool> <>9__11_0; 
@@ -1030,7 +1030,7 @@ private sealed class PostProcessManager.<>c // TypeDefIndex: 13577
 
 }
 
-public sealed class PostProcessProfile : ScriptableObject // TypeDefIndex: 13578
+public sealed class PostProcessProfile : ScriptableObject // TypeDefIndex: 13580
 {
 	[TooltipAttribute] 
 	public List<PostProcessEffectSettings> settings; 
@@ -1090,7 +1090,7 @@ public sealed class PostProcessProfile : ScriptableObject // TypeDefIndex: 13578
 
 }
 
-private sealed class PostProcessProfile.<>c // TypeDefIndex: 13579
+private sealed class PostProcessProfile.<>c // TypeDefIndex: 13581
 {
 	public static readonly PostProcessProfile.<>c <>9; 
 	public static Predicate<PostProcessEffectSettings> <>9__2_0; 
@@ -1104,7 +1104,7 @@ private sealed class PostProcessProfile.<>c // TypeDefIndex: 13579
 
 }
 
-public sealed class PostProcessResources : ScriptableObject // TypeDefIndex: 13580
+public sealed class PostProcessResources : ScriptableObject // TypeDefIndex: 13582
 {
 	public Texture2D[] blueNoise64; 
 	public Texture2D[] blueNoise256; 
@@ -1117,7 +1117,7 @@ public sealed class PostProcessResources : ScriptableObject // TypeDefIndex: 135
 
 }
 
-public sealed class PostProcessResources.Shaders // TypeDefIndex: 13581
+public sealed class PostProcessResources.Shaders // TypeDefIndex: 13583
 {
 	public Shader bloom; 
 	public Shader copy; 
@@ -1151,7 +1151,7 @@ public sealed class PostProcessResources.Shaders // TypeDefIndex: 13581
 
 }
 
-public sealed class PostProcessResources.ComputeShaders // TypeDefIndex: 13582
+public sealed class PostProcessResources.ComputeShaders // TypeDefIndex: 13584
 {
 	public ComputeShader autoExposure; 
 	public ComputeShader exposureHistogram; 
@@ -1173,7 +1173,7 @@ public sealed class PostProcessResources.ComputeShaders // TypeDefIndex: 13582
 
 }
 
-public sealed class PostProcessResources.SMAALuts // TypeDefIndex: 13583
+public sealed class PostProcessResources.SMAALuts // TypeDefIndex: 13585
 {
 	public Texture2D area; 
 	public Texture2D search; 
@@ -1183,7 +1183,7 @@ public sealed class PostProcessResources.SMAALuts // TypeDefIndex: 13583
 
 }
 
-public sealed class PostProcessVolume : MonoBehaviour // TypeDefIndex: 13584
+public sealed class PostProcessVolume : MonoBehaviour // TypeDefIndex: 13586
 {
 	public PostProcessProfile sharedProfile; 
 	[TooltipAttribute] 

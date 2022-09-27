@@ -1,4 +1,4 @@
-public class Frost : PostProcessEffectSettings // TypeDefIndex: 11961
+public class Frost : PostProcessEffectSettings // TypeDefIndex: 11963
 {
 	[RangeAttribute] 
 	public FloatParameter scale; 

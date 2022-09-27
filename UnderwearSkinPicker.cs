@@ -1,4 +1,4 @@
-public class UnderwearSkinPicker : MonoBehaviour // TypeDefIndex: 10953
+public class UnderwearSkinPicker : MonoBehaviour // TypeDefIndex: 10955
 {
 	public GameObjectRef pickerIcon; 
 	public GameObject container; 

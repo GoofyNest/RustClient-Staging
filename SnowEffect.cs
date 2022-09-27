@@ -1,4 +1,4 @@
-public class SnowEffect : WeatherEffect // TypeDefIndex: 11780
+public class SnowEffect : WeatherEffect // TypeDefIndex: 11782
 {
 	public int FadeStartDistance; 
 	public int FadeEndDistance; 

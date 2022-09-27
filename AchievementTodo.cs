@@ -1,4 +1,4 @@
-public class AchievementTodo : BaseMonoBehaviour // TypeDefIndex: 12533
+public class AchievementTodo : BaseMonoBehaviour // TypeDefIndex: 12535
 {
 	public Text text; 
 	public RectTransform checkIcon; 

@@ -1,4 +1,4 @@
-public class ColliderBatch : MonoBehaviour, IEditorComponent // TypeDefIndex: 10962
+public class ColliderBatch : MonoBehaviour, IEditorComponent // TypeDefIndex: 10964
 {
 
 	public void .ctor() { }

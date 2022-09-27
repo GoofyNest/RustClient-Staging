@@ -1,4 +1,4 @@
-public class ProcessMonumentNodes : ProceduralComponent // TypeDefIndex: 12272
+public class ProcessMonumentNodes : ProceduralComponent // TypeDefIndex: 12274
 {
 
 	public override void Process(uint seed) { }

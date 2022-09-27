@@ -1,4 +1,4 @@
-public abstract class TerrainModifier : PrefabAttribute // TypeDefIndex: 12289
+public abstract class TerrainModifier : PrefabAttribute // TypeDefIndex: 12291
 {
 	public float Opacity; 
 	public float Radius; 

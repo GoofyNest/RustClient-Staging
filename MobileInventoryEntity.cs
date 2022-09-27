@@ -1,4 +1,4 @@
-public class MobileInventoryEntity : BaseEntity // TypeDefIndex: 11154
+public class MobileInventoryEntity : BaseEntity // TypeDefIndex: 11156
 {
 	public SoundDefinition ringingLoop; 
 	public SoundDefinition silentLoop; 

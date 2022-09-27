@@ -1,4 +1,4 @@
-public class Branding : BaseMonoBehaviour // TypeDefIndex: 12539
+public class Branding : BaseMonoBehaviour // TypeDefIndex: 12541
 {
 	public TextMeshProUGUI versionText; 
 	public CanvasGroup canvasGroup; 

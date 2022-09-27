@@ -1,4 +1,4 @@
-public class ViewmodelScope : MonoBehaviour // TypeDefIndex: 10599
+public class ViewmodelScope : MonoBehaviour // TypeDefIndex: 10601
 {
 	public float smoothSpeed; 
 	public Material scopeMaterialOverride; 
@@ -35,7 +35,7 @@ public class ViewmodelScope : MonoBehaviour // TypeDefIndex: 10599
 
 }
 
-private sealed class ViewmodelScope.<>c // TypeDefIndex: 10600
+private sealed class ViewmodelScope.<>c // TypeDefIndex: 10602
 {
 	public static readonly ViewmodelScope.<>c <>9; 
 	public static Func<ProjectileWeaponMod, bool> <>9__10_0; 

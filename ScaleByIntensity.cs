@@ -1,4 +1,4 @@
-public class ScaleByIntensity : MonoBehaviour // TypeDefIndex: 10936
+public class ScaleByIntensity : MonoBehaviour // TypeDefIndex: 10938
 {
 	public Vector3 initialScale; 
 	public Light intensitySource; 

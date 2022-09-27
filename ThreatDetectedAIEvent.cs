@@ -1,4 +1,4 @@
-public class ThreatDetectedAIEvent : BaseAIEvent // TypeDefIndex: 11118
+public class ThreatDetectedAIEvent : BaseAIEvent // TypeDefIndex: 11120
 {
 	[CompilerGeneratedAttribute] 
 	private float <Range>k__BackingField; 

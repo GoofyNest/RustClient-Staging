@@ -1,4 +1,4 @@
-public class ModifierDefintion // TypeDefIndex: 11327
+public class ModifierDefintion // TypeDefIndex: 11329
 {
 	public Modifier.ModifierType type; 
 	public Modifier.ModifierSource source; 

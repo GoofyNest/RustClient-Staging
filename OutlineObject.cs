@@ -1,4 +1,4 @@
-public class OutlineObject : MonoBehaviour, IClientComponent // TypeDefIndex: 11801
+public class OutlineObject : MonoBehaviour, IClientComponent // TypeDefIndex: 11803
 {
 	public Mesh[] meshes; 
 	public Transform[] meshTransforms; 

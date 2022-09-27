@@ -1,4 +1,4 @@
-public class PostOpaqueDepth : MonoBehaviour // TypeDefIndex: 12400
+public class PostOpaqueDepth : MonoBehaviour // TypeDefIndex: 12402
 {
 	public RenderTexture postOpaqueDepth; 
 	private Camera camera; 

@@ -1,4 +1,4 @@
-public class DecorSpawn : MonoBehaviour, IClientComponent // TypeDefIndex: 12045
+public class DecorSpawn : MonoBehaviour, IClientComponent // TypeDefIndex: 12047
 {
 	public static List<DecorSpawn> Instances; 
 	private static bool Enabled; 
@@ -52,7 +52,7 @@ public class DecorSpawn : MonoBehaviour, IClientComponent // TypeDefIndex: 12045
 
 }
 
-private sealed class DecorSpawn.<UpdateCoroutine>d__28 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12046
+private sealed class DecorSpawn.<UpdateCoroutine>d__28 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12048
 {
 	private int <>1__state; 
 	private object <>2__current; 

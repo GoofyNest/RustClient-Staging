@@ -1,4 +1,4 @@
-public class RecordingSaved : SingletonComponent<RecordingSaved> // TypeDefIndex: 12940
+public class RecordingSaved : SingletonComponent<RecordingSaved> // TypeDefIndex: 12942
 {
 	public RustText Label; 
 
@@ -14,7 +14,7 @@ public class RecordingSaved : SingletonComponent<RecordingSaved> // TypeDefIndex
 
 }
 
-private sealed class RecordingSaved.<FadeInOut>d__3 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12941
+private sealed class RecordingSaved.<FadeInOut>d__3 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12943
 {
 	private int <>1__state; 
 	private object <>2__current; 

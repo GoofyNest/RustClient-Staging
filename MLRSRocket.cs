@@ -1,4 +1,4 @@
-public class MLRSRocket : TimedExplosive // TypeDefIndex: 11430
+public class MLRSRocket : TimedExplosive // TypeDefIndex: 11432
 {
 	[SerializeField] 
 	private GameObjectRef mapMarkerPrefab; 

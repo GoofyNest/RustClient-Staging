@@ -1,4 +1,4 @@
-public class ORSwitch : IOEntity // TypeDefIndex: 11508
+public class ORSwitch : IOEntity // TypeDefIndex: 11510
 {
 	private int input1Amount; 
 	private int input2Amount; 

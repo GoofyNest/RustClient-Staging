@@ -1,4 +1,4 @@
-public class TopBunnies : MonoBehaviour // TypeDefIndex: 10494
+public class TopBunnies : MonoBehaviour // TypeDefIndex: 10496
 {
 	public BunnyEntry[] topBunnyEntries; 
 	public Text timerText; 

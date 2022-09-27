@@ -49,7 +49,7 @@ public struct Half3 : IProto // TypeDefIndex: 6479
 
 }
 
-public struct Half3 // TypeDefIndex: 13148
+public struct Half3 // TypeDefIndex: 13150
 {
 	public ushort x; 
 	public ushort y; 

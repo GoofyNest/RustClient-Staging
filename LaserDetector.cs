@@ -1,4 +1,4 @@
-public class LaserDetector : BaseDetector // TypeDefIndex: 10407
+public class LaserDetector : BaseDetector // TypeDefIndex: 10409
 {
 
 	public void .ctor() { }

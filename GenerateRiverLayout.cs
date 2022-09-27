@@ -1,4 +1,4 @@
-public class GenerateRiverLayout : ProceduralComponent // TypeDefIndex: 12210
+public class GenerateRiverLayout : ProceduralComponent // TypeDefIndex: 12212
 {
 	public const float Width = 36;
 	public const float InnerPadding = 1;
@@ -16,7 +16,7 @@ public class GenerateRiverLayout : ProceduralComponent // TypeDefIndex: 12210
 
 }
 
-private sealed class GenerateRiverLayout.<>c // TypeDefIndex: 12211
+private sealed class GenerateRiverLayout.<>c // TypeDefIndex: 12213
 {
 	public static readonly GenerateRiverLayout.<>c <>9; 
 	public static Comparison<PathList> <>9__8_0; 

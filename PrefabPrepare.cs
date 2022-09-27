@@ -1,4 +1,4 @@
-public class PrefabPrepare : MonoBehaviour // TypeDefIndex: 11025
+public class PrefabPrepare : MonoBehaviour // TypeDefIndex: 11027
 {
 
 	public void .ctor() { }

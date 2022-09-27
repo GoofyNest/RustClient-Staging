@@ -1,4 +1,4 @@
-public class ArmorInformationPanel : ItemInformationPanel // TypeDefIndex: 12694
+public class ArmorInformationPanel : ItemInformationPanel // TypeDefIndex: 12696
 {
 	public ItemTextValue projectileDisplay; 
 	public ItemTextValue meleeDisplay; 

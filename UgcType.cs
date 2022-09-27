@@ -18,7 +18,7 @@ public enum UgcType // TypeDefIndex: 5162
 
 }
 
-public enum UGCType // TypeDefIndex: 11224
+public enum UGCType // TypeDefIndex: 11226
 {
 
 public enum UGCType

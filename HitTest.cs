@@ -1,4 +1,4 @@
-public class HitTest // TypeDefIndex: 11605
+public class HitTest // TypeDefIndex: 11607
 {
 	public HitTest.Type type; 
 	public Ray AttackRay; 
@@ -34,7 +34,7 @@ public class HitTest // TypeDefIndex: 11605
 
 }
 
-public enum HitTest.Type // TypeDefIndex: 11606
+public enum HitTest.Type // TypeDefIndex: 11608
 {
 	public int value__; 
 	public const HitTest.Type Generic = 0;

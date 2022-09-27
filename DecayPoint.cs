@@ -1,4 +1,4 @@
-public class DecayPoint : PrefabAttribute // TypeDefIndex: 10769
+public class DecayPoint : PrefabAttribute // TypeDefIndex: 10771
 {
 	[TooltipAttribute] 
 	public float protection; 

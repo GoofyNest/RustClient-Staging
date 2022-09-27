@@ -1,4 +1,4 @@
-public class ContactsEntry : MonoBehaviour // TypeDefIndex: 12650
+public class ContactsEntry : MonoBehaviour // TypeDefIndex: 12652
 {
 	public RustText nameText; 
 	public RustText reputationText; 

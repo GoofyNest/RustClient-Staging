@@ -1,4 +1,4 @@
-public class ProtectionProperties : ScriptableObject // TypeDefIndex: 12462
+public class ProtectionProperties : ScriptableObject // TypeDefIndex: 12464
 {
 	[TextAreaAttribute] 
 	public string comments; 

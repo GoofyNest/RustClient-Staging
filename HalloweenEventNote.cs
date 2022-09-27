@@ -1,4 +1,4 @@
-public class HalloweenEventNote : EggHuntNote // TypeDefIndex: 10496
+public class HalloweenEventNote : EggHuntNote // TypeDefIndex: 10498
 {
 
 	public void .ctor() { }

@@ -1,4 +1,4 @@
-public class AStarNode // TypeDefIndex: 13874
+public class AStarNode // TypeDefIndex: 13876
 {
 	public AStarNode Parent; 
 	public float G; 

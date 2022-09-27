@@ -1,4 +1,4 @@
-public class StatusLightRenderer : MonoBehaviour, IClientComponent // TypeDefIndex: 10944
+public class StatusLightRenderer : MonoBehaviour, IClientComponent // TypeDefIndex: 10946
 {
 	public Material offMaterial; 
 	public Material onMaterial; 

@@ -1,4 +1,4 @@
-public class DiagnosticsConSys : ConsoleSystem // TypeDefIndex: 10980
+public class DiagnosticsConSys : ConsoleSystem // TypeDefIndex: 10982
 {
 
 	private static void DumpAnimators(string targetFolder) { }
@@ -37,7 +37,7 @@ public class DiagnosticsConSys : ConsoleSystem // TypeDefIndex: 10980
 
 }
 
-private sealed class DiagnosticsConSys.<>c // TypeDefIndex: 10981
+private sealed class DiagnosticsConSys.<>c // TypeDefIndex: 10983
 {
 	public static readonly DiagnosticsConSys.<>c <>9; 
 	public static Func<Animator, string> <>9__0_0; 

@@ -1,4 +1,4 @@
-public static class ImageEffectHelper // TypeDefIndex: 13380
+public static class ImageEffectHelper // TypeDefIndex: 13382
 {
 	public static bool supportsDX11 { get; }
 

@@ -1,4 +1,4 @@
-public sealed class VectorscopeMonitor : Monitor // TypeDefIndex: 13550
+public sealed class VectorscopeMonitor : Monitor // TypeDefIndex: 13552
 {
 	public int size; 
 	public float exposure; 

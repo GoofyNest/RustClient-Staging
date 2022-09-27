@@ -1,4 +1,4 @@
-public class ForceChildSingletonSetup : MonoBehaviour // TypeDefIndex: 13021
+public class ForceChildSingletonSetup : MonoBehaviour // TypeDefIndex: 13023
 {
 
 	[ComponentHelpAttribute] 

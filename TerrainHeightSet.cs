@@ -1,4 +1,4 @@
-public class TerrainHeightSet : TerrainModifier // TypeDefIndex: 12288
+public class TerrainHeightSet : TerrainModifier // TypeDefIndex: 12290
 {
 
 	protected override void Apply(Vector3 position, float opacity, float radius, float fade) { }

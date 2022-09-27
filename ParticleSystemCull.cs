@@ -1,4 +1,4 @@
-public class ParticleSystemCull : LODComponentParticleSystem // TypeDefIndex: 11656
+public class ParticleSystemCull : LODComponentParticleSystem // TypeDefIndex: 11658
 {
 	public float Distance; 
 

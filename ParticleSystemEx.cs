@@ -1,4 +1,4 @@
-public static class ParticleSystemEx // TypeDefIndex: 13078
+public static class ParticleSystemEx // TypeDefIndex: 13080
 {
 
 	[ExtensionAttribute] 

@@ -1,4 +1,4 @@
-public class TriggerRadiation : TriggerBase // TypeDefIndex: 11750
+public class TriggerRadiation : TriggerBase // TypeDefIndex: 11752
 {
 	public TriggerRadiation.RadiationTier radiationTier; 
 	public float RadiationAmountOverride; 
@@ -18,7 +18,7 @@ public class TriggerRadiation : TriggerBase // TypeDefIndex: 11750
 
 }
 
-public enum TriggerRadiation.RadiationTier // TypeDefIndex: 11751
+public enum TriggerRadiation.RadiationTier // TypeDefIndex: 11753
 {
 	public int value__; 
 	public const TriggerRadiation.RadiationTier MINIMAL = 0;

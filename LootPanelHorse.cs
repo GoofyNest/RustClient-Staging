@@ -1,4 +1,4 @@
-public class LootPanelHorse : LootPanel // TypeDefIndex: 12747
+public class LootPanelHorse : LootPanel // TypeDefIndex: 12749
 {
 	public Text breedTitle; 
 	public Text maxSpeedText; 

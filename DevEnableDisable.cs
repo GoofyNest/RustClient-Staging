@@ -1,4 +1,4 @@
-public class DevEnableDisable : DevControlsTab // TypeDefIndex: 11003
+public class DevEnableDisable : DevControlsTab // TypeDefIndex: 11005
 {
 	public GameObject[] Objects; 
 	public string CookieName; 

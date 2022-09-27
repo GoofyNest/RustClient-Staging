@@ -1,4 +1,4 @@
-public enum OverlayBlendMode // TypeDefIndex: 11976
+public enum OverlayBlendMode // TypeDefIndex: 11978
 {
 	public int value__; 
 	public const OverlayBlendMode Additive = 0;

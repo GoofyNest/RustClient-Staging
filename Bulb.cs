@@ -1,4 +1,4 @@
-public class Bulb : BaseBulb // TypeDefIndex: 10530
+public class Bulb : BaseBulb // TypeDefIndex: 10532
 {
 	public MaterialSwap swap; 
 

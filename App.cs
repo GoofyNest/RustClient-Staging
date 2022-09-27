@@ -3380,7 +3380,7 @@ public abstract class AppIOEntity : IOEntity // TypeDefIndex: 10009
 
 }
 
-public class ApplyTerrainAnchors : MonoBehaviour // TypeDefIndex: 12084
+public class ApplyTerrainAnchors : MonoBehaviour // TypeDefIndex: 12086
 {
 
 	protected void Awake() { }
@@ -3389,7 +3389,7 @@ public class ApplyTerrainAnchors : MonoBehaviour // TypeDefIndex: 12084
 
 }
 
-public class ApplyTerrainModifiers : MonoBehaviour // TypeDefIndex: 12285
+public class ApplyTerrainModifiers : MonoBehaviour // TypeDefIndex: 12287
 {
 
 	protected void Awake() { }
@@ -3398,7 +3398,7 @@ public class ApplyTerrainModifiers : MonoBehaviour // TypeDefIndex: 12285
 
 }
 
-public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 12861
+public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 12863
 {
 	public Button ApplyButton; 
 	public TweakUIBase[] Options; 
@@ -3416,7 +3416,7 @@ public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 12861
 
 }
 
-public class App : ConsoleSystem // TypeDefIndex: 13610
+public class App : ConsoleSystem // TypeDefIndex: 13612
 {
 	[ServerVar] 
 	public static string listenip; 

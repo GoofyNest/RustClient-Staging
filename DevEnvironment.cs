@@ -1,4 +1,4 @@
-public class DevEnvironment : DevControlsTab // TypeDefIndex: 11004
+public class DevEnvironment : DevControlsTab // TypeDefIndex: 11006
 {
 	public TOD_Sky sky; 
 

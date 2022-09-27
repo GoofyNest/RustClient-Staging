@@ -7,7 +7,7 @@ public class InspectorNameAttribute : PropertyAttribute // TypeDefIndex: 3479
 
 }
 
-public class InspectorNameAttribute : PropertyAttribute // TypeDefIndex: 13022
+public class InspectorNameAttribute : PropertyAttribute // TypeDefIndex: 13024
 {
 	public string name; 
 

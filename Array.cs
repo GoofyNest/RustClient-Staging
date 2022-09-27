@@ -31511,7 +31511,7 @@ public static class Arrays // TypeDefIndex: 8232
 
 }
 
-public static class ArrayEx // TypeDefIndex: 13070
+public static class ArrayEx // TypeDefIndex: 13072
 {
 
 	public static T[] New<T>(int length) { }

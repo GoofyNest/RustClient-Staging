@@ -1,4 +1,4 @@
-public class Jackhammer : BaseMelee // TypeDefIndex: 10296
+public class Jackhammer : BaseMelee // TypeDefIndex: 10297
 {
 	public float HotspotBonusScale; 
 	private bool lastEngineStatus; 

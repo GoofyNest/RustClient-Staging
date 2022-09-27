@@ -4608,7 +4608,7 @@ public sealed class UIInterface : Handle // TypeDefIndex: 8371
 
 }
 
-public interface IRemoteControllable // TypeDefIndex: 10387
+public interface IRemoteControllable // TypeDefIndex: 10389
 {
 	public abstract bool RequiresMouse { get; }
 
@@ -4633,14 +4633,14 @@ public interface IRemoteControllable // TypeDefIndex: 10387
 
 }
 
-public interface IVendingMachineInterface // TypeDefIndex: 10438
+public interface IVendingMachineInterface // TypeDefIndex: 10440
 {
 
 	public abstract void BuyButtonClicked(int index, int multiplier);
 
 }
 
-public class UIMarketSearch : MonoBehaviour // TypeDefIndex: 10508
+public class UIMarketSearch : MonoBehaviour // TypeDefIndex: 10510
 {
 	public GameObjectRef StoreEntryRef; 
 	public RectTransform StoreRoot; 
@@ -4658,7 +4658,7 @@ public class UIMarketSearch : MonoBehaviour // TypeDefIndex: 10508
 
 }
 
-public class UIMarketSearchOrderEntry : MonoBehaviour // TypeDefIndex: 10509
+public class UIMarketSearchOrderEntry : MonoBehaviour // TypeDefIndex: 10511
 {
 	public RustText ItemName; 
 	public GameObject OutOfStockRoot; 
@@ -4671,7 +4671,7 @@ public class UIMarketSearchOrderEntry : MonoBehaviour // TypeDefIndex: 10509
 
 }
 
-public class UIMarketSearchStore : MonoBehaviour // TypeDefIndex: 10510
+public class UIMarketSearchStore : MonoBehaviour // TypeDefIndex: 10512
 {
 	public RustText StoreName; 
 	public List<UIMarketSearchOrderEntry> Entries; 
@@ -4687,7 +4687,7 @@ public class UIMarketSearchStore : MonoBehaviour // TypeDefIndex: 10510
 
 }
 
-public class UIMarketTerminal : UIDialog, IVendingMachineInterface // TypeDefIndex: 10511
+public class UIMarketTerminal : UIDialog, IVendingMachineInterface // TypeDefIndex: 10513
 {
 	public static readonly Translate.Phrase PendingDeliveryPluralPhrase; 
 	public static readonly Translate.Phrase PendingDeliverySingularPhrase; 
@@ -4762,7 +4762,7 @@ public class UIMarketTerminal : UIDialog, IVendingMachineInterface // TypeDefInd
 
 }
 
-private sealed class UIMarketTerminal.<>c // TypeDefIndex: 10512
+private sealed class UIMarketTerminal.<>c // TypeDefIndex: 10514
 {
 	public static readonly UIMarketTerminal.<>c <>9; 
 	public static Predicate<SellOrderEntry> <>9__44_0; 
@@ -4776,7 +4776,7 @@ private sealed class UIMarketTerminal.<>c // TypeDefIndex: 10512
 
 }
 
-public class UITwitchTrophy : UIDialog // TypeDefIndex: 10524
+public class UITwitchTrophy : UIDialog // TypeDefIndex: 10526
 {
 	public HttpImage EventImage; 
 	public RustText EventName; 
@@ -4792,7 +4792,7 @@ public class UITwitchTrophy : UIDialog // TypeDefIndex: 10524
 
 }
 
-private class UITwitchTrophy.TrophyPage // TypeDefIndex: 10525
+private class UITwitchTrophy.TrophyPage // TypeDefIndex: 10527
 {
 	[CompilerGeneratedAttribute] 
 	private string <EventTitle>k__BackingField; 
@@ -4837,7 +4837,7 @@ private class UITwitchTrophy.TrophyPage // TypeDefIndex: 10525
 
 }
 
-public interface IConversationProvider // TypeDefIndex: 10553
+public interface IConversationProvider // TypeDefIndex: 10555
 {
 
 	public abstract void ResponsePressed(int index);
@@ -4852,14 +4852,14 @@ public interface IConversationProvider // TypeDefIndex: 10553
 
 }
 
-public interface IThinker // TypeDefIndex: 10637
+public interface IThinker // TypeDefIndex: 10639
 {
 
 	public abstract void TryThink();
 
 }
 
-public interface ISoundBudgetedUpdate // TypeDefIndex: 10701
+public interface ISoundBudgetedUpdate // TypeDefIndex: 10703
 {
 
 	public abstract void DoUpdate();
@@ -4868,7 +4868,7 @@ public interface ISoundBudgetedUpdate // TypeDefIndex: 10701
 
 }
 
-public interface ILerpInfo // TypeDefIndex: 10924
+public interface ILerpInfo // TypeDefIndex: 10926
 {
 
 	public abstract float GetExtrapolationTime();
@@ -4879,7 +4879,7 @@ public interface ILerpInfo // TypeDefIndex: 10924
 
 }
 
-public interface IPosLerpTarget : ILerpInfo // TypeDefIndex: 10925
+public interface IPosLerpTarget : ILerpInfo // TypeDefIndex: 10927
 {
 
 	public abstract float GetInterpolationInertia();
@@ -4898,49 +4898,49 @@ public interface IPosLerpTarget : ILerpInfo // TypeDefIndex: 10925
 
 }
 
-internal interface IRagdollInhert // TypeDefIndex: 10931
+internal interface IRagdollInhert // TypeDefIndex: 10933
 {
 
 	public abstract Transform RagdollInhertTransform();
 
 }
 
-public interface IEffectRecycle // TypeDefIndex: 11040
+public interface IEffectRecycle // TypeDefIndex: 11042
 {
 
 	public abstract void Recycle();
 
 }
 
-public interface IEffect // TypeDefIndex: 11041
+public interface IEffect // TypeDefIndex: 11043
 {
 
 	public abstract void SetupEffect(Effect effect);
 
 }
 
-public interface IAnimationEventReceiver // TypeDefIndex: 11054
+public interface IAnimationEventReceiver // TypeDefIndex: 11056
 {
 
 	public abstract void OnAnimationEvent(string eventName);
 
 }
 
-public interface IAIEventListener // TypeDefIndex: 11104
+public interface IAIEventListener // TypeDefIndex: 11106
 {
 
 	public abstract void EventTriggeredStateChange(int newStateContainerID, int sourceEventID);
 
 }
 
-internal interface IAIDesign // TypeDefIndex: 11131
+internal interface IAIDesign // TypeDefIndex: 11133
 {
 
 	public abstract bool CanPlayerDesignAI(BasePlayer player);
 
 }
 
-public interface IPet // TypeDefIndex: 11136
+public interface IPet // TypeDefIndex: 11138
 {
 
 	public abstract bool IsPet();
@@ -4953,7 +4953,7 @@ public interface IPet // TypeDefIndex: 11136
 
 }
 
-public interface ICassettePlayer // TypeDefIndex: 11142
+public interface ICassettePlayer // TypeDefIndex: 11144
 {
 	public abstract BaseEntity ToBaseEntity { get; }
 
@@ -4966,7 +4966,7 @@ public interface ICassettePlayer // TypeDefIndex: 11142
 
 }
 
-public interface IAudioConnectionSource // TypeDefIndex: 11148
+public interface IAudioConnectionSource // TypeDefIndex: 11150
 {
 	public abstract float VolumeVisualisationMultiplier { get; }
 
@@ -4985,28 +4985,28 @@ public interface IAudioConnectionSource // TypeDefIndex: 11148
 
 }
 
-public interface IServerFileReceiver // TypeDefIndex: 11162
+public interface IServerFileReceiver // TypeDefIndex: 11164
 {
 
 	public abstract void OnServerFileReceived(FileStorage.Type type, uint numId, uint crc, byte[] data);
 
 }
 
-public interface IFlagNotify // TypeDefIndex: 11200
+public interface IFlagNotify // TypeDefIndex: 11202
 {
 
 	public abstract void OnFlagToggled(bool state);
 
 }
 
-public interface IImageReceiver // TypeDefIndex: 11217
+public interface IImageReceiver // TypeDefIndex: 11219
 {
 
 	public abstract void OnImageLoaded(Texture2D texture);
 
 }
 
-public interface ISignage // TypeDefIndex: 11222
+public interface ISignage // TypeDefIndex: 11224
 {
 	public abstract Vector2i TextureSize { get; }
 	public abstract int TextureCount { get; }
@@ -5032,7 +5032,7 @@ public interface ISignage // TypeDefIndex: 11222
 
 }
 
-public interface IVehicleLockUser // TypeDefIndex: 11448
+public interface IVehicleLockUser // TypeDefIndex: 11450
 {
 
 	public abstract bool PlayerHasUnlockPermission(BasePlayer player);
@@ -5043,7 +5043,7 @@ public interface IVehicleLockUser // TypeDefIndex: 11448
 
 }
 
-public interface ITrainCollidable // TypeDefIndex: 11469
+public interface ITrainCollidable // TypeDefIndex: 11471
 {
 
 	public abstract bool CustomCollision(TrainCar train, TriggerTrainCollisions trainTrigger);
@@ -5052,7 +5052,7 @@ public interface ITrainCollidable // TypeDefIndex: 11469
 
 }
 
-public interface VehicleChassisVisuals.IClientWheelUser<T> // TypeDefIndex: 11487
+public interface VehicleChassisVisuals.IClientWheelUser<T> // TypeDefIndex: 11489
 {
 	public abstract Vector3 Velocity { get; }
 	public abstract float DriveWheelVelocity { get; }
@@ -5092,14 +5092,14 @@ public interface VehicleChassisVisuals.IClientWheelUser<T> // TypeDefIndex: 1148
 
 }
 
-public interface IEngineControllerUser : IEntity // TypeDefIndex: 11491
+public interface IEngineControllerUser : IEntity // TypeDefIndex: 11493
 {
 
 	public abstract bool HasFlag(BaseEntity.Flags f);
 
 }
 
-public interface IRFObject // TypeDefIndex: 11518
+public interface IRFObject // TypeDefIndex: 11520
 {
 
 	public abstract void ClientSetFrequency(int newFreq);
@@ -5108,42 +5108,42 @@ public interface IRFObject // TypeDefIndex: 11518
 
 }
 
-public interface IInstanceDataReceiver // TypeDefIndex: 11611
+public interface IInstanceDataReceiver // TypeDefIndex: 11613
 {
 
 	public abstract void ReceiveInstanceData(Item.InstanceData data);
 
 }
 
-public interface IOnParentDestroying // TypeDefIndex: 11612
+public interface IOnParentDestroying // TypeDefIndex: 11614
 {
 
 	public abstract void OnParentDestroying();
 
 }
 
-public interface IOnParentSpawning // TypeDefIndex: 11614
+public interface IOnParentSpawning // TypeDefIndex: 11616
 {
 
 	public abstract void OnParentSpawning();
 
 }
 
-public interface IOnPostNetworkUpdate // TypeDefIndex: 11616
+public interface IOnPostNetworkUpdate // TypeDefIndex: 11618
 {
 
 	public abstract void OnPostNetworkUpdate(BaseEntity entity);
 
 }
 
-public interface IOnSendNetworkUpdate // TypeDefIndex: 11618
+public interface IOnSendNetworkUpdate // TypeDefIndex: 11620
 {
 
 	public abstract void OnSendNetworkUpdate(BaseEntity entity);
 
 }
 
-public interface ILOD // TypeDefIndex: 11635
+public interface ILOD // TypeDefIndex: 11637
 {
 
 	public abstract void ChangeLOD();
@@ -5152,7 +5152,7 @@ public interface ILOD // TypeDefIndex: 11635
 
 }
 
-public interface INotifyLOD // TypeDefIndex: 11652
+public interface INotifyLOD // TypeDefIndex: 11654
 {
 
 	public abstract void Show();
@@ -5161,7 +5161,7 @@ public interface INotifyLOD // TypeDefIndex: 11652
 
 }
 
-public interface ISpawnGroup // TypeDefIndex: 11707
+public interface ISpawnGroup // TypeDefIndex: 11709
 {
 	public abstract int currentPopulation { get; }
 
@@ -5178,7 +5178,7 @@ public interface ISpawnGroup // TypeDefIndex: 11707
 
 }
 
-public interface ISpawnPointUser // TypeDefIndex: 11708
+public interface ISpawnPointUser // TypeDefIndex: 11710
 {
 
 	public abstract void ObjectSpawned(SpawnPointInstance instance);
@@ -5187,7 +5187,7 @@ public interface ISpawnPointUser // TypeDefIndex: 11708
 
 }
 
-public interface TriggerHurtNotChild.IHurtTriggerUser // TypeDefIndex: 11735
+public interface TriggerHurtNotChild.IHurtTriggerUser // TypeDefIndex: 11737
 {
 
 	public abstract BasePlayer GetPlayerDamageInitiator();
@@ -5198,7 +5198,7 @@ public interface TriggerHurtNotChild.IHurtTriggerUser // TypeDefIndex: 11735
 
 }
 
-public interface INotifyTrigger // TypeDefIndex: 11740
+public interface INotifyTrigger // TypeDefIndex: 11742
 {
 
 	public abstract void OnObjects(TriggerNotify trigger);
@@ -5207,7 +5207,7 @@ public interface INotifyTrigger // TypeDefIndex: 11740
 
 }
 
-public interface INotifyEntityTrigger // TypeDefIndex: 11742
+public interface INotifyEntityTrigger // TypeDefIndex: 11744
 {
 
 	public abstract void OnEntityEnter(BaseEntity ent);
@@ -5216,21 +5216,21 @@ public interface INotifyEntityTrigger // TypeDefIndex: 11742
 
 }
 
-public interface IItemUpdate // TypeDefIndex: 11816
+public interface IItemUpdate // TypeDefIndex: 11818
 {
 
 	public abstract void OnItemUpdate(Item item);
 
 }
 
-public interface IItemSetup // TypeDefIndex: 11817
+public interface IItemSetup // TypeDefIndex: 11819
 {
 
 	public abstract void OnItemSetup(Item item);
 
 }
 
-public interface IAirSupply // TypeDefIndex: 11868
+public interface IAirSupply // TypeDefIndex: 11870
 {
 	public abstract ItemModGiveOxygen.AirSupplyType AirType { get; }
 
@@ -5241,7 +5241,7 @@ public interface IAirSupply // TypeDefIndex: 11868
 
 }
 
-public interface IMissionProvider // TypeDefIndex: 11920
+public interface IMissionProvider // TypeDefIndex: 11922
 {
 
 	public abstract uint ProviderID();
@@ -5252,7 +5252,7 @@ public interface IMissionProvider // TypeDefIndex: 11920
 
 }
 
-public class UIAIDesignerScreen : SingletonComponent<UIAIDesignerScreen>, IUIScreen // TypeDefIndex: 12528
+public class UIAIDesignerScreen : SingletonComponent<UIAIDesignerScreen>, IUIScreen // TypeDefIndex: 12530
 {
 	public GameObject SaveEntityButton; 
 	public GameObject SaveServerButton; 
@@ -5329,7 +5329,7 @@ public class UIAIDesignerScreen : SingletonComponent<UIAIDesignerScreen>, IUIScr
 
 }
 
-private sealed class UIAIDesignerScreen.<SetInitialStateContainer>d__18 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12529
+private sealed class UIAIDesignerScreen.<SetInitialStateContainer>d__18 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12531
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -5359,7 +5359,7 @@ private sealed class UIAIDesignerScreen.<SetInitialStateContainer>d__18 : IEnume
 
 }
 
-public class UIChat : PriorityListComponent<UIChat> // TypeDefIndex: 12541
+public class UIChat : PriorityListComponent<UIChat> // TypeDefIndex: 12543
 {
 	public GameObject inputArea; 
 	public GameObject chatArea; 
@@ -5422,7 +5422,7 @@ public class UIChat : PriorityListComponent<UIChat> // TypeDefIndex: 12541
 
 }
 
-public class UIChatPopup : MonoBehaviour // TypeDefIndex: 12542
+public class UIChatPopup : MonoBehaviour // TypeDefIndex: 12544
 {
 	public TextMeshProUGUI TextToggleMute; 
 	public TextMeshProUGUI TextToggleGlobalMute; 
@@ -5457,7 +5457,7 @@ public class UIChatPopup : MonoBehaviour // TypeDefIndex: 12542
 
 }
 
-public interface CardTableUI.ICardGameSubUI // TypeDefIndex: 12590
+public interface CardTableUI.ICardGameSubUI // TypeDefIndex: 12592
 {
 	public abstract int DynamicBetAmount { get; }
 
@@ -5472,7 +5472,7 @@ public interface CardTableUI.ICardGameSubUI // TypeDefIndex: 12590
 
 }
 
-public class UIColorPickerButton : MonoBehaviour // TypeDefIndex: 12601
+public class UIColorPickerButton : MonoBehaviour // TypeDefIndex: 12603
 {
 	public Image Image; 
 	public Color Color; 
@@ -5482,7 +5482,7 @@ public class UIColorPickerButton : MonoBehaviour // TypeDefIndex: 12601
 
 }
 
-public class UIFireworkDesignItem : MonoBehaviour // TypeDefIndex: 12602
+public class UIFireworkDesignItem : MonoBehaviour // TypeDefIndex: 12604
 {
 	public static readonly Translate.Phrase EmptyPhrase; 
 	public static readonly Translate.Phrase UntitledPhrase; 
@@ -5517,7 +5517,7 @@ public class UIFireworkDesignItem : MonoBehaviour // TypeDefIndex: 12602
 
 }
 
-public class UIFireworkDesigner : UIDialog // TypeDefIndex: 12603
+public class UIFireworkDesigner : UIDialog // TypeDefIndex: 12605
 {
 	public RustInput Title; 
 	public RustText StarsPlaced; 
@@ -5564,7 +5564,7 @@ public class UIFireworkDesigner : UIDialog // TypeDefIndex: 12603
 
 }
 
-public enum UIFireworkDesigner.Tools // TypeDefIndex: 12604
+public enum UIFireworkDesigner.Tools // TypeDefIndex: 12606
 {
 	public int value__; 
 	public const UIFireworkDesigner.Tools Placer = 0;
@@ -5572,7 +5572,7 @@ public enum UIFireworkDesigner.Tools // TypeDefIndex: 12604
 
 }
 
-public class UIFireworkStar : EventTrigger // TypeDefIndex: 12605
+public class UIFireworkStar : EventTrigger // TypeDefIndex: 12607
 {
 	public Image Image; 
 	public RustText Text; 
@@ -5593,7 +5593,7 @@ public class UIFireworkStar : EventTrigger // TypeDefIndex: 12605
 
 }
 
-public class UIDialog : ListComponent<UIDialog> // TypeDefIndex: 12631
+public class UIDialog : ListComponent<UIDialog> // TypeDefIndex: 12633
 {
 	public SoundDefinition openSoundDef; 
 	public SoundDefinition closeSoundDef; 
@@ -5625,14 +5625,14 @@ public class UIDialog : ListComponent<UIDialog> // TypeDefIndex: 12631
 
 }
 
-public class UIMapExplosion : MonoBehaviour // TypeDefIndex: 12676
+public class UIMapExplosion : MonoBehaviour // TypeDefIndex: 12678
 {
 
 	public void .ctor() { }
 
 }
 
-public class UIMapGenericRadius : MonoBehaviour // TypeDefIndex: 12677
+public class UIMapGenericRadius : MonoBehaviour // TypeDefIndex: 12679
 {
 	public Image radialImage; 
 	public Image outlineImage; 
@@ -5651,7 +5651,7 @@ public class UIMapGenericRadius : MonoBehaviour // TypeDefIndex: 12677
 
 }
 
-public class UIMapVendingMachineMarker : MonoBehaviour // TypeDefIndex: 12678
+public class UIMapVendingMachineMarker : MonoBehaviour // TypeDefIndex: 12680
 {
 	public Color inStock; 
 	public Color outOfStock; 
@@ -5684,7 +5684,7 @@ public class UIMapVendingMachineMarker : MonoBehaviour // TypeDefIndex: 12678
 
 }
 
-public class UIMapVendingMachineMarkerCluster : MonoBehaviour // TypeDefIndex: 12679
+public class UIMapVendingMachineMarkerCluster : MonoBehaviour // TypeDefIndex: 12681
 {
 	public List<UIMapVendingMachineMarker> markers; 
 	public GameObject OpenRoot; 
@@ -5710,7 +5710,7 @@ public class UIMapVendingMachineMarkerCluster : MonoBehaviour // TypeDefIndex: 1
 
 }
 
-public class UIPaintBox : MonoBehaviour // TypeDefIndex: 12680
+public class UIPaintBox : MonoBehaviour // TypeDefIndex: 12682
 {
 	public UIPaintBox.OnBrushChanged onBrushChanged; 
 	public Brush brush; 
@@ -5732,14 +5732,14 @@ public class UIPaintBox : MonoBehaviour // TypeDefIndex: 12680
 
 }
 
-public class UIPaintBox.OnBrushChanged : UnityEvent<Brush> // TypeDefIndex: 12681
+public class UIPaintBox.OnBrushChanged : UnityEvent<Brush> // TypeDefIndex: 12683
 {
 
 	public void .ctor() { }
 
 }
 
-public class UIBuffs : SingletonComponent<UIBuffs> // TypeDefIndex: 12684
+public class UIBuffs : SingletonComponent<UIBuffs> // TypeDefIndex: 12686
 {
 	public bool Enabled; 
 	public Transform PrefabBuffIcon; 
@@ -5753,7 +5753,7 @@ public class UIBuffs : SingletonComponent<UIBuffs> // TypeDefIndex: 12684
 
 }
 
-public class UIBuffsIcon : SingletonComponent<UIBuffsIcon>, IPointerEnterHandler, IEventSystemHandler // TypeDefIndex: 12685
+public class UIBuffsIcon : SingletonComponent<UIBuffsIcon>, IPointerEnterHandler, IEventSystemHandler // TypeDefIndex: 12687
 {
 	public TextMeshProUGUI Text; 
 	public Tooltip ToolTip; 
@@ -5772,7 +5772,7 @@ public class UIBuffsIcon : SingletonComponent<UIBuffsIcon>, IPointerEnterHandler
 
 }
 
-public class UICompass : MonoBehaviour // TypeDefIndex: 12686
+public class UICompass : MonoBehaviour // TypeDefIndex: 12688
 {
 	public RawImage compassStrip; 
 	public CanvasGroup compassGroup; 
@@ -5804,7 +5804,7 @@ public class UICompass : MonoBehaviour // TypeDefIndex: 12686
 
 }
 
-public class UIFadeOut : MonoBehaviour // TypeDefIndex: 12687
+public class UIFadeOut : MonoBehaviour // TypeDefIndex: 12689
 {
 	public float secondsToFadeOut; 
 	public bool destroyOnFaded; 
@@ -5821,7 +5821,7 @@ public class UIFadeOut : MonoBehaviour // TypeDefIndex: 12687
 
 }
 
-public class UIFishing : SingletonComponent<UIFishing> // TypeDefIndex: 12688
+public class UIFishing : SingletonComponent<UIFishing> // TypeDefIndex: 12690
 {
 	public Slider TensionLine; 
 	public Image FillImage; 
@@ -5841,7 +5841,7 @@ public class UIFishing : SingletonComponent<UIFishing> // TypeDefIndex: 12688
 
 }
 
-public class UIHUD : SingletonComponent<UIHUD>, IUIScreen // TypeDefIndex: 12689
+public class UIHUD : SingletonComponent<UIHUD>, IUIScreen // TypeDefIndex: 12691
 {
 	public UIChat chatPanel; 
 	public HudElement Hunger; 
@@ -5883,7 +5883,7 @@ public class UIHUD : SingletonComponent<UIHUD>, IUIScreen // TypeDefIndex: 12689
 
 }
 
-public class UIRecordingInfo : SingletonComponent<UIRecordingInfo> // TypeDefIndex: 12690
+public class UIRecordingInfo : SingletonComponent<UIRecordingInfo> // TypeDefIndex: 12692
 {
 	public RustText CountdownText; 
 	public Slider TapeProgressSlider; 
@@ -5909,7 +5909,7 @@ public class UIRecordingInfo : SingletonComponent<UIRecordingInfo> // TypeDefInd
 
 }
 
-public class UIUnderlay : SingletonComponent<UIUnderlay> // TypeDefIndex: 12691
+public class UIUnderlay : SingletonComponent<UIUnderlay> // TypeDefIndex: 12693
 {
 	public GameObject damageDirectional; 
 	public GameObject waterDirectional; 
@@ -5927,7 +5927,7 @@ public class UIUnderlay : SingletonComponent<UIUnderlay> // TypeDefIndex: 12691
 
 }
 
-public class UIBlueprints : ListComponent<UIBlueprints> // TypeDefIndex: 12708
+public class UIBlueprints : ListComponent<UIBlueprints> // TypeDefIndex: 12710
 {
 	public GameObjectRef buttonPrefab; 
 	public ScrollRect scrollRect; 
@@ -5984,7 +5984,7 @@ public class UIBlueprints : ListComponent<UIBlueprints> // TypeDefIndex: 12708
 
 }
 
-private sealed class UIBlueprints.<>c__DisplayClass20_0 // TypeDefIndex: 12709
+private sealed class UIBlueprints.<>c__DisplayClass20_0 // TypeDefIndex: 12711
 {
 	public ItemCategory category; 
 
@@ -5997,7 +5997,7 @@ private sealed class UIBlueprints.<>c__DisplayClass20_0 // TypeDefIndex: 12709
 
 }
 
-private sealed class UIBlueprints.<>c // TypeDefIndex: 12710
+private sealed class UIBlueprints.<>c // TypeDefIndex: 12712
 {
 	public static readonly UIBlueprints.<>c <>9; 
 	public static Func<ItemBlueprint, bool> <>9__20_0; 
@@ -6029,7 +6029,7 @@ private sealed class UIBlueprints.<>c // TypeDefIndex: 12710
 
 }
 
-private sealed class UIBlueprints.<>c__DisplayClass28_0 // TypeDefIndex: 12711
+private sealed class UIBlueprints.<>c__DisplayClass28_0 // TypeDefIndex: 12713
 {
 	public string search; 
 
@@ -6040,7 +6040,7 @@ private sealed class UIBlueprints.<>c__DisplayClass28_0 // TypeDefIndex: 12711
 
 }
 
-public interface LootPanel.IHasLootPanel // TypeDefIndex: 12742
+public interface LootPanel.IHasLootPanel // TypeDefIndex: 12744
 {
 	public abstract Translate.Phrase LootPanelTitle { get; }
 
@@ -6049,7 +6049,7 @@ public interface LootPanel.IHasLootPanel // TypeDefIndex: 12742
 
 }
 
-public class UIBelt : SingletonComponent<UIBelt> // TypeDefIndex: 12777
+public class UIBelt : SingletonComponent<UIBelt> // TypeDefIndex: 12779
 {
 	public List<ItemIcon> ItemIcons; 
 
@@ -6062,7 +6062,7 @@ public class UIBelt : SingletonComponent<UIBelt> // TypeDefIndex: 12777
 
 }
 
-private sealed class UIBelt.<>c // TypeDefIndex: 12778
+private sealed class UIBelt.<>c // TypeDefIndex: 12780
 {
 	public static readonly UIBelt.<>c <>9; 
 	public static Func<ItemIcon, int> <>9__1_0; 
@@ -6076,7 +6076,7 @@ private sealed class UIBelt.<>c // TypeDefIndex: 12778
 
 }
 
-public class UIContacts : SingletonComponent<UIContacts> // TypeDefIndex: 12779
+public class UIContacts : SingletonComponent<UIContacts> // TypeDefIndex: 12781
 {
 	public static bool isOpen; 
 	public static float LastOpened; 
@@ -6109,7 +6109,7 @@ public class UIContacts : SingletonComponent<UIContacts> // TypeDefIndex: 12779
 
 }
 
-public class UICrafting : SingletonComponent<UICrafting> // TypeDefIndex: 12780
+public class UICrafting : SingletonComponent<UICrafting> // TypeDefIndex: 12782
 {
 	public static bool isOpen; 
 	public static float LastOpened; 
@@ -6135,7 +6135,7 @@ public class UICrafting : SingletonComponent<UICrafting> // TypeDefIndex: 12780
 
 }
 
-public class UIIntegerEntry : MonoBehaviour // TypeDefIndex: 12781
+public class UIIntegerEntry : MonoBehaviour // TypeDefIndex: 12783
 {
 	public InputField textEntry; 
 	[CompilerGeneratedAttribute] 
@@ -6160,7 +6160,7 @@ public class UIIntegerEntry : MonoBehaviour // TypeDefIndex: 12781
 
 }
 
-public class UIInventory : SingletonComponent<UIInventory> // TypeDefIndex: 12782
+public class UIInventory : SingletonComponent<UIInventory> // TypeDefIndex: 12784
 {
 	public TextMeshProUGUI PlayerName; 
 	public static bool isOpen; 
@@ -6210,7 +6210,7 @@ public class UIInventory : SingletonComponent<UIInventory> // TypeDefIndex: 1278
 
 }
 
-public interface IContainerSounds // TypeDefIndex: 12783
+public interface IContainerSounds // TypeDefIndex: 12785
 {
 	public abstract SoundDefinition OpenSound { get; }
 	public abstract SoundDefinition CloseSound { get; }
@@ -6222,7 +6222,7 @@ public interface IContainerSounds // TypeDefIndex: 12783
 
 }
 
-public class UIMixingTableItem : MonoBehaviour // TypeDefIndex: 12784
+public class UIMixingTableItem : MonoBehaviour // TypeDefIndex: 12786
 {
 	public Image ItemIcon; 
 	public Tooltip ItemTooltip; 
@@ -6236,7 +6236,7 @@ public class UIMixingTableItem : MonoBehaviour // TypeDefIndex: 12784
 
 }
 
-public class UIMixingTableItemIngredient : MonoBehaviour // TypeDefIndex: 12785
+public class UIMixingTableItemIngredient : MonoBehaviour // TypeDefIndex: 12787
 {
 	public Image ItemIcon; 
 	public Text ItemCount; 
@@ -6251,7 +6251,7 @@ public class UIMixingTableItemIngredient : MonoBehaviour // TypeDefIndex: 12785
 
 }
 
-public interface VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 12791
+public interface VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefIndex: 12793
 {
 	public abstract int SocketsTaken { get; }
 
@@ -6260,7 +6260,7 @@ public interface VehicleModuleInformationPanel.IVehicleModuleInfo // TypeDefInde
 
 }
 
-public class UIPaintableImage : MonoBehaviour // TypeDefIndex: 12918
+public class UIPaintableImage : MonoBehaviour // TypeDefIndex: 12920
 {
 	public RawImage image; 
 	public int texSize; 
@@ -6304,7 +6304,7 @@ public class UIPaintableImage : MonoBehaviour // TypeDefIndex: 12918
 
 }
 
-public enum UIPaintableImage.DrawMode // TypeDefIndex: 12919
+public enum UIPaintableImage.DrawMode // TypeDefIndex: 12921
 {
 	public int value__; 
 	public const UIPaintableImage.DrawMode AlphaBlended = 0;
@@ -6314,7 +6314,7 @@ public enum UIPaintableImage.DrawMode // TypeDefIndex: 12919
 
 }
 
-public class UIParticle : BaseMonoBehaviour // TypeDefIndex: 12920
+public class UIParticle : BaseMonoBehaviour // TypeDefIndex: 12922
 {
 	public Vector2 LifeTime; 
 	public Vector2 Gravity; 
@@ -6342,7 +6342,7 @@ public class UIParticle : BaseMonoBehaviour // TypeDefIndex: 12920
 
 }
 
-public static class UISound // TypeDefIndex: 12927
+public static class UISound // TypeDefIndex: 12929
 {
 	private static AudioSource source; 
 
@@ -6353,7 +6353,7 @@ public static class UISound // TypeDefIndex: 12927
 
 }
 
-public class UIPlayerPreviewControls : SingletonComponent<UIPlayerPreviewControls>, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler // TypeDefIndex: 12932
+public class UIPlayerPreviewControls : SingletonComponent<UIPlayerPreviewControls>, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler // TypeDefIndex: 12934
 {
 	public float RotationSpeed; 
 	public float RotationLerpSpeed; 
@@ -6393,7 +6393,7 @@ public class UIPlayerPreviewControls : SingletonComponent<UIPlayerPreviewControl
 
 }
 
-public class UIInvertedMaskImage : Image // TypeDefIndex: 12935
+public class UIInvertedMaskImage : Image // TypeDefIndex: 12937
 {
 	private Material cachedMaterial; 
 
@@ -6406,7 +6406,7 @@ public class UIInvertedMaskImage : Image // TypeDefIndex: 12935
 
 }
 
-public class UIAutoPanelCloser : MonoBehaviour // TypeDefIndex: 12973
+public class UIAutoPanelCloser : MonoBehaviour // TypeDefIndex: 12975
 {
 	public UIDialog Dialog; 
 
@@ -6417,7 +6417,7 @@ public class UIAutoPanelCloser : MonoBehaviour // TypeDefIndex: 12973
 
 }
 
-public class UIBackgroundBlur : ListComponent<UIBackgroundBlur>, IClientComponent // TypeDefIndex: 12974
+public class UIBackgroundBlur : ListComponent<UIBackgroundBlur>, IClientComponent // TypeDefIndex: 12976
 {
 	public float amount; 
 
@@ -6430,7 +6430,7 @@ public class UIBackgroundBlur : ListComponent<UIBackgroundBlur>, IClientComponen
 
 }
 
-public class UIBlackoutOverlay : MonoBehaviour // TypeDefIndex: 12975
+public class UIBlackoutOverlay : MonoBehaviour // TypeDefIndex: 12977
 {
 	public CanvasGroup group; 
 	public static Dictionary<UIBlackoutOverlay.blackoutType, UIBlackoutOverlay> instances; 
@@ -6463,7 +6463,7 @@ public class UIBlackoutOverlay : MonoBehaviour // TypeDefIndex: 12975
 
 }
 
-public enum UIBlackoutOverlay.blackoutType // TypeDefIndex: 12976
+public enum UIBlackoutOverlay.blackoutType // TypeDefIndex: 12978
 {
 	public int value__; 
 	public const UIBlackoutOverlay.blackoutType FULLBLACK = 0;
@@ -6478,7 +6478,7 @@ public enum UIBlackoutOverlay.blackoutType // TypeDefIndex: 12976
 
 }
 
-public class UICameraOverlay : SingletonComponent<UICameraOverlay> // TypeDefIndex: 12977
+public class UICameraOverlay : SingletonComponent<UICameraOverlay> // TypeDefIndex: 12979
 {
 	public static readonly Translate.Phrase FocusOffText; 
 	public static readonly Translate.Phrase FocusAutoText; 
@@ -6499,7 +6499,7 @@ public class UICameraOverlay : SingletonComponent<UICameraOverlay> // TypeDefInd
 
 }
 
-public class UIConversationScreen : SingletonComponent<UIConversationScreen>, IUIScreen // TypeDefIndex: 12978
+public class UIConversationScreen : SingletonComponent<UIConversationScreen>, IUIScreen // TypeDefIndex: 12980
 {
 	public NeedsCursor needsCursor; 
 	public RectTransform conversationPanel; 
@@ -6533,7 +6533,7 @@ public class UIConversationScreen : SingletonComponent<UIConversationScreen>, IU
 
 }
 
-public class UIDeathScreen : SingletonComponent<UIDeathScreen>, IUIScreen // TypeDefIndex: 12979
+public class UIDeathScreen : SingletonComponent<UIDeathScreen>, IUIScreen // TypeDefIndex: 12981
 {
 	public LifeInfographic previousLifeInfographic; 
 	public Animator screenAnimator; 
@@ -6594,7 +6594,7 @@ public class UIDeathScreen : SingletonComponent<UIDeathScreen>, IUIScreen // Typ
 
 }
 
-public struct UIDeathScreen.RespawnColourScheme // TypeDefIndex: 12980
+public struct UIDeathScreen.RespawnColourScheme // TypeDefIndex: 12982
 {
 	public Color BackgroundColour; 
 	public Color CircleRimColour; 
@@ -6602,7 +6602,7 @@ public struct UIDeathScreen.RespawnColourScheme // TypeDefIndex: 12980
 
 }
 
-public class UIEscapeCapture : ListComponent<UIEscapeCapture> // TypeDefIndex: 12981
+public class UIEscapeCapture : ListComponent<UIEscapeCapture> // TypeDefIndex: 12983
 {
 	public UnityEvent onEscape; 
 
@@ -6613,7 +6613,7 @@ public class UIEscapeCapture : ListComponent<UIEscapeCapture> // TypeDefIndex: 1
 
 }
 
-public class UIFogOverlay : MonoBehaviour // TypeDefIndex: 12982
+public class UIFogOverlay : MonoBehaviour // TypeDefIndex: 12984
 {
 	public static UIFogOverlay Instance; 
 	public CanvasGroup group; 
@@ -6631,7 +6631,7 @@ public class UIFogOverlay : MonoBehaviour // TypeDefIndex: 12982
 
 }
 
-public class UIGene : MonoBehaviour // TypeDefIndex: 12983
+public class UIGene : MonoBehaviour // TypeDefIndex: 12985
 {
 	public GameObject Child; 
 	public Color PositiveColour; 
@@ -6654,7 +6654,7 @@ public class UIGene : MonoBehaviour // TypeDefIndex: 12983
 
 }
 
-public class UIGenesDisplay : MonoBehaviour // TypeDefIndex: 12984
+public class UIGenesDisplay : MonoBehaviour // TypeDefIndex: 12986
 {
 	public UIGene[] GeneUI; 
 	public Text[] TextLinks; 
@@ -6675,7 +6675,7 @@ public class UIGenesDisplay : MonoBehaviour // TypeDefIndex: 12984
 
 }
 
-public class UIIngame : SingletonComponent<UIIngame> // TypeDefIndex: 12985
+public class UIIngame : SingletonComponent<UIIngame> // TypeDefIndex: 12987
 {
 
 	private void Update() { }
@@ -6686,7 +6686,7 @@ public class UIIngame : SingletonComponent<UIIngame> // TypeDefIndex: 12985
 
 }
 
-public class UIPrefab : MonoBehaviour // TypeDefIndex: 12986
+public class UIPrefab : MonoBehaviour // TypeDefIndex: 12988
 {
 	public GameObject prefabSource; 
 	internal GameObject createdGameObject; 
@@ -6700,7 +6700,7 @@ public class UIPrefab : MonoBehaviour // TypeDefIndex: 12986
 
 }
 
-public abstract class UIRoot : MonoBehaviour // TypeDefIndex: 12987
+public abstract class UIRoot : MonoBehaviour // TypeDefIndex: 12989
 {
 	private GraphicRaycaster[] graphicRaycasters; 
 	public Canvas overlayCanvas; 
@@ -6720,7 +6720,7 @@ public abstract class UIRoot : MonoBehaviour // TypeDefIndex: 12987
 
 }
 
-public class UIRootPixel : UIRoot // TypeDefIndex: 12988
+public class UIRootPixel : UIRoot // TypeDefIndex: 12990
 {
 
 	protected override void Refresh() { }
@@ -6729,7 +6729,7 @@ public class UIRootPixel : UIRoot // TypeDefIndex: 12988
 
 }
 
-public class UIRootScaled : UIRoot // TypeDefIndex: 12989
+public class UIRootScaled : UIRoot // TypeDefIndex: 12991
 {
 	private static UIRootScaled Instance; 
 	public bool OverrideReference; 
@@ -6751,7 +6751,7 @@ public class UIRootScaled : UIRoot // TypeDefIndex: 12989
 
 }
 
-public class UIScale : MonoBehaviour, IClientComponent // TypeDefIndex: 12990
+public class UIScale : MonoBehaviour, IClientComponent // TypeDefIndex: 12992
 {
 	public CanvasScaler scaler; 
 
@@ -6762,7 +6762,7 @@ public class UIScale : MonoBehaviour, IClientComponent // TypeDefIndex: 12990
 
 }
 
-public class UIScalerOverride : MonoBehaviour // TypeDefIndex: 12991
+public class UIScalerOverride : MonoBehaviour // TypeDefIndex: 12993
 {
 	public AnimationCurve scaleCurve; 
 	private CanvasScaler rootScaler; 
@@ -6778,7 +6778,7 @@ public class UIScalerOverride : MonoBehaviour // TypeDefIndex: 12991
 
 }
 
-public class UIScopeOverlay : MonoBehaviour // TypeDefIndex: 12992
+public class UIScopeOverlay : MonoBehaviour // TypeDefIndex: 12994
 {
 	public CanvasGroup group; 
 	public static UIScopeOverlay instance; 
@@ -6802,14 +6802,14 @@ public class UIScopeOverlay : MonoBehaviour // TypeDefIndex: 12992
 
 }
 
-public interface IUIScreen // TypeDefIndex: 12993
+public interface IUIScreen // TypeDefIndex: 12995
 {
 
 	public abstract void SetVisible(bool b);
 
 }
 
-public class UISleepingScreen : SingletonComponent<UISleepingScreen>, IUIScreen // TypeDefIndex: 12994
+public class UISleepingScreen : SingletonComponent<UISleepingScreen>, IUIScreen // TypeDefIndex: 12996
 {
 	protected CanvasGroup canvasGroup; 
 	private bool visible; 
@@ -6823,7 +6823,7 @@ public class UISleepingScreen : SingletonComponent<UISleepingScreen>, IUIScreen 
 
 }
 
-public class UISoundPlayer : MonoBehaviour // TypeDefIndex: 12995
+public class UISoundPlayer : MonoBehaviour // TypeDefIndex: 12997
 {
 
 	public void PlaySound(AudioClip clip) { }
@@ -6834,7 +6834,7 @@ public class UISoundPlayer : MonoBehaviour // TypeDefIndex: 12995
 
 }
 
-public class UIVoiceIcon : MonoBehaviour // TypeDefIndex: 12996
+public class UIVoiceIcon : MonoBehaviour // TypeDefIndex: 12998
 {
 	public Text nameText; 
 	public RawImage avatar; 
@@ -6848,7 +6848,7 @@ public class UIVoiceIcon : MonoBehaviour // TypeDefIndex: 12996
 
 }
 
-public class UIWounded : MonoBehaviour // TypeDefIndex: 12997
+public class UIWounded : MonoBehaviour // TypeDefIndex: 12999
 {
 	public CanvasGroup group; 
 
@@ -6861,7 +6861,7 @@ public class UIWounded : MonoBehaviour // TypeDefIndex: 12997
 
 }
 
-public class UI_LocalVoice : PriorityListComponent<UI_LocalVoice> // TypeDefIndex: 12998
+public class UI_LocalVoice : PriorityListComponent<UI_LocalVoice> // TypeDefIndex: 13000
 {
 	public CanvasGroup voiceCanvas; 
 	public CanvasGroup levelImage; 
@@ -6877,7 +6877,7 @@ public class UI_LocalVoice : PriorityListComponent<UI_LocalVoice> // TypeDefInde
 
 }
 
-public interface IDraggable // TypeDefIndex: 13000
+public interface IDraggable // TypeDefIndex: 13002
 {
 
 	public abstract object GetDragData();
@@ -6888,7 +6888,7 @@ public interface IDraggable // TypeDefIndex: 13000
 
 }
 
-public interface IVitalNotice // TypeDefIndex: 13009
+public interface IVitalNotice // TypeDefIndex: 13011
 {
 	public abstract bool IsActive { get; }
 
@@ -6899,56 +6899,56 @@ public interface IVitalNotice // TypeDefIndex: 13009
 
 }
 
-public interface IInventoryChanged // TypeDefIndex: 13106
+public interface IInventoryChanged // TypeDefIndex: 13108
 {
 
 	public abstract void OnInventoryChanged();
 
 }
 
-public interface IViewModeChanged // TypeDefIndex: 13107
+public interface IViewModeChanged // TypeDefIndex: 13109
 {
 
 	public abstract void OnViewModeChanged();
 
 }
 
-public interface IClothingChanged // TypeDefIndex: 13108
+public interface IClothingChanged // TypeDefIndex: 13110
 {
 
 	public abstract void OnClothingChanged();
 
 }
 
-public interface IViewModelUpdated // TypeDefIndex: 13109
+public interface IViewModelUpdated // TypeDefIndex: 13111
 {
 
 	public abstract void OnViewModelUpdated();
 
 }
 
-public interface IBlueprintsChanged // TypeDefIndex: 13110
+public interface IBlueprintsChanged // TypeDefIndex: 13112
 {
 
 	public abstract void OnBlueprintsChanged();
 
 }
 
-public interface IItemAmountChanged // TypeDefIndex: 13111
+public interface IItemAmountChanged // TypeDefIndex: 13113
 {
 
 	public abstract void OnItemAmountChanged();
 
 }
 
-public interface IItemIconChanged // TypeDefIndex: 13112
+public interface IItemIconChanged // TypeDefIndex: 13114
 {
 
 	public abstract void OnItemIconChanged();
 
 }
 
-public interface IProvider // TypeDefIndex: 13403
+public interface IProvider // TypeDefIndex: 13405
 {
 
 	public abstract Info GetMenuInformation(GameObject primaryObject, BasePlayer player);
@@ -6957,7 +6957,7 @@ public interface IProvider // TypeDefIndex: 13403
 
 }
 
-public static class UIEx // TypeDefIndex: 13438
+public static class UIEx // TypeDefIndex: 13440
 {
 
 	[ExtensionAttribute] 
@@ -6971,7 +6971,7 @@ public static class UIEx // TypeDefIndex: 13438
 
 }
 
-public class UICircle : UIPrimitiveBase // TypeDefIndex: 13444
+public class UICircle : UIPrimitiveBase // TypeDefIndex: 13446
 {
 	[TooltipAttribute] 
 	public bool ArcInvert; 
@@ -7025,7 +7025,7 @@ public class UICircle : UIPrimitiveBase // TypeDefIndex: 13444
 
 }
 
-public class UICircleSimple : UIPrimitiveBase // TypeDefIndex: 13445
+public class UICircleSimple : UIPrimitiveBase // TypeDefIndex: 13447
 {
 	[TooltipAttribute] 
 	[RangeAttribute] 
@@ -7054,7 +7054,7 @@ public class UICircleSimple : UIPrimitiveBase // TypeDefIndex: 13445
 
 }
 
-public class UICornerCut : UIPrimitiveBase // TypeDefIndex: 13446
+public class UICornerCut : UIPrimitiveBase // TypeDefIndex: 13448
 {
 	public Vector2 cornerSize; 
 	[HeaderAttribute] 
@@ -7138,7 +7138,7 @@ public class UICornerCut : UIPrimitiveBase // TypeDefIndex: 13446
 
 }
 
-public class UIGoldenRatioRenderer : UILineRenderer // TypeDefIndex: 13447
+public class UIGoldenRatioRenderer : UILineRenderer // TypeDefIndex: 13449
 {
 	private readonly List<Vector2> _points; 
 	private readonly List<Rect> _rects; 
@@ -7159,7 +7159,7 @@ public class UIGoldenRatioRenderer : UILineRenderer // TypeDefIndex: 13447
 
 }
 
-private enum UIGoldenRatioRenderer.Orientations // TypeDefIndex: 13448
+private enum UIGoldenRatioRenderer.Orientations // TypeDefIndex: 13450
 {
 	public int value__; 
 	public const UIGoldenRatioRenderer.Orientations Left = 0;
@@ -7169,7 +7169,7 @@ private enum UIGoldenRatioRenderer.Orientations // TypeDefIndex: 13448
 
 }
 
-public class UIGridRenderer : UILineRenderer // TypeDefIndex: 13449
+public class UIGridRenderer : UILineRenderer // TypeDefIndex: 13451
 {
 	[SerializeField] 
 	private int m_GridColumns; 
@@ -7194,7 +7194,7 @@ public class UIGridRenderer : UILineRenderer // TypeDefIndex: 13449
 
 }
 
-public class UILineRenderer : UIPrimitiveBase // TypeDefIndex: 13450
+public class UILineRenderer : UIPrimitiveBase // TypeDefIndex: 13452
 {
 	private const float MIN_MITER_JOIN = 0,2617994;
 	private const float MIN_BEVEL_NICE_JOIN = 0,5235988;
@@ -7299,7 +7299,7 @@ public class UILineRenderer : UIPrimitiveBase // TypeDefIndex: 13450
 
 }
 
-private enum UILineRenderer.SegmentType // TypeDefIndex: 13451
+private enum UILineRenderer.SegmentType // TypeDefIndex: 13453
 {
 	public int value__; 
 	public const UILineRenderer.SegmentType Start = 0;
@@ -7309,7 +7309,7 @@ private enum UILineRenderer.SegmentType // TypeDefIndex: 13451
 
 }
 
-public enum UILineRenderer.JoinType // TypeDefIndex: 13452
+public enum UILineRenderer.JoinType // TypeDefIndex: 13454
 {
 	public int value__; 
 	public const UILineRenderer.JoinType Bevel = 0;
@@ -7317,7 +7317,7 @@ public enum UILineRenderer.JoinType // TypeDefIndex: 13452
 
 }
 
-public enum UILineRenderer.BezierType // TypeDefIndex: 13453
+public enum UILineRenderer.BezierType // TypeDefIndex: 13455
 {
 	public int value__; 
 	public const UILineRenderer.BezierType None = 0;
@@ -7328,7 +7328,7 @@ public enum UILineRenderer.BezierType // TypeDefIndex: 13453
 
 }
 
-public class UILineRendererList : UIPrimitiveBase // TypeDefIndex: 13454
+public class UILineRendererList : UIPrimitiveBase // TypeDefIndex: 13456
 {
 	private const float MIN_MITER_JOIN = 0,2617994;
 	private const float MIN_BEVEL_NICE_JOIN = 0,5235988;
@@ -7423,7 +7423,7 @@ public class UILineRendererList : UIPrimitiveBase // TypeDefIndex: 13454
 
 }
 
-private enum UILineRendererList.SegmentType // TypeDefIndex: 13455
+private enum UILineRendererList.SegmentType // TypeDefIndex: 13457
 {
 	public int value__; 
 	public const UILineRendererList.SegmentType Start = 0;
@@ -7433,7 +7433,7 @@ private enum UILineRendererList.SegmentType // TypeDefIndex: 13455
 
 }
 
-public enum UILineRendererList.JoinType // TypeDefIndex: 13456
+public enum UILineRendererList.JoinType // TypeDefIndex: 13458
 {
 	public int value__; 
 	public const UILineRendererList.JoinType Bevel = 0;
@@ -7441,7 +7441,7 @@ public enum UILineRendererList.JoinType // TypeDefIndex: 13456
 
 }
 
-public enum UILineRendererList.BezierType // TypeDefIndex: 13457
+public enum UILineRendererList.BezierType // TypeDefIndex: 13459
 {
 	public int value__; 
 	public const UILineRendererList.BezierType None = 0;
@@ -7452,7 +7452,7 @@ public enum UILineRendererList.BezierType // TypeDefIndex: 13457
 
 }
 
-public class UILineTextureRenderer : UIPrimitiveBase // TypeDefIndex: 13458
+public class UILineTextureRenderer : UIPrimitiveBase // TypeDefIndex: 13460
 {
 	[SerializeField] 
 	private Rect m_UVRect; 
@@ -7483,7 +7483,7 @@ public class UILineTextureRenderer : UIPrimitiveBase // TypeDefIndex: 13458
 
 }
 
-public class UIPolygon : UIPrimitiveBase // TypeDefIndex: 13459
+public class UIPolygon : UIPrimitiveBase // TypeDefIndex: 13461
 {
 	public bool fill; 
 	public float thickness; 
@@ -7510,7 +7510,7 @@ public class UIPolygon : UIPrimitiveBase // TypeDefIndex: 13459
 
 }
 
-public class UIPrimitiveBase : MaskableGraphic, ILayoutElement, ICanvasRaycastFilter // TypeDefIndex: 13462
+public class UIPrimitiveBase : MaskableGraphic, ILayoutElement, ICanvasRaycastFilter // TypeDefIndex: 13464
 {
 	protected static Material s_ETC1DefaultUI; 
 	private List<Vector2> outputList; 
@@ -7626,7 +7626,7 @@ public class UIPrimitiveBase : MaskableGraphic, ILayoutElement, ICanvasRaycastFi
 
 }
 
-public class UIRing : UIPrimitiveBase // TypeDefIndex: 13463
+public class UIRing : UIPrimitiveBase // TypeDefIndex: 13465
 {
 	public float innerRadius; 
 	public float outerRadius; 
@@ -7649,7 +7649,7 @@ public class UIRing : UIPrimitiveBase // TypeDefIndex: 13463
 
 }
 
-internal interface IAmbientOcclusionMethod // TypeDefIndex: 13489
+internal interface IAmbientOcclusionMethod // TypeDefIndex: 13491
 {
 
 	public abstract DepthTextureMode GetCameraFlags();
@@ -7664,7 +7664,7 @@ internal interface IAmbientOcclusionMethod // TypeDefIndex: 13489
 
 }
 
-public class UI : ConsoleSystem // TypeDefIndex: 13699
+public class UI : ConsoleSystem // TypeDefIndex: 13701
 {
 	[ClientVar] 
 	public static bool showinventoryplayer; 
@@ -7678,7 +7678,7 @@ public class UI : ConsoleSystem // TypeDefIndex: 13699
 
 }
 
-public interface VirtualScroll.IDataSource // TypeDefIndex: 13730
+public interface VirtualScroll.IDataSource // TypeDefIndex: 13732
 {
 
 	public abstract int GetItemCount();
@@ -7687,7 +7687,7 @@ public interface VirtualScroll.IDataSource // TypeDefIndex: 13730
 
 }
 
-public interface IGenericLerpTarget<T> : ILerpInfo // TypeDefIndex: 13847
+public interface IGenericLerpTarget<T> : ILerpInfo // TypeDefIndex: 13849
 {
 
 	public abstract void SetFrom(T snapshot);
@@ -7710,7 +7710,7 @@ public interface IGenericLerpTarget<T> : ILerpInfo // TypeDefIndex: 13847
 
 }
 
-public interface ISnapshot<T> // TypeDefIndex: 13849
+public interface ISnapshot<T> // TypeDefIndex: 13851
 {
 	public abstract float Time { get; set; }
 

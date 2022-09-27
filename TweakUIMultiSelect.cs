@@ -1,4 +1,4 @@
-public class TweakUIMultiSelect : TweakUIBase // TypeDefIndex: 12873
+public class TweakUIMultiSelect : TweakUIBase // TypeDefIndex: 12875
 {
 	public ToggleGroup toggleGroup; 
 
@@ -17,7 +17,7 @@ public class TweakUIMultiSelect : TweakUIBase // TypeDefIndex: 12873
 
 }
 
-private sealed class TweakUIMultiSelect.<>c // TypeDefIndex: 12874
+private sealed class TweakUIMultiSelect.<>c // TypeDefIndex: 12876
 {
 	public static readonly TweakUIMultiSelect.<>c <>9; 
 	public static Func<Toggle, bool> <>9__5_0; 

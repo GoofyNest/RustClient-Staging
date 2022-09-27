@@ -1,4 +1,4 @@
-public static class Noise3D // TypeDefIndex: 13279
+public static class Noise3D // TypeDefIndex: 13281
 {
 	private static bool ms_IsSupportedChecked; 
 	private static bool ms_IsSupported; 

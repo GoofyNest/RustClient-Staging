@@ -1,4 +1,4 @@
-public class MLRSUIDialog : UIDialog // TypeDefIndex: 11432
+public class MLRSUIDialog : UIDialog // TypeDefIndex: 11434
 {
 	[SerializeField] 
 	private MLRSMainUI mainUI; 

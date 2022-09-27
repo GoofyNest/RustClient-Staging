@@ -1,4 +1,4 @@
-public class GameManifest : ScriptableObject // TypeDefIndex: 12435
+public class GameManifest : ScriptableObject // TypeDefIndex: 12437
 {
 	internal static GameManifest loadedManifest; 
 	internal static Dictionary<string, string> guidToPath; 
@@ -37,7 +37,7 @@ public class GameManifest : ScriptableObject // TypeDefIndex: 12435
 
 }
 
-public struct GameManifest.PooledString // TypeDefIndex: 12436
+public struct GameManifest.PooledString // TypeDefIndex: 12438
 {
 	[HideInInspector] 
 	public string str; 
@@ -45,7 +45,7 @@ public struct GameManifest.PooledString // TypeDefIndex: 12436
 
 }
 
-public class GameManifest.PrefabProperties // TypeDefIndex: 12437
+public class GameManifest.PrefabProperties // TypeDefIndex: 12439
 {
 	[HideInInspector] 
 	public string name; 
@@ -58,7 +58,7 @@ public class GameManifest.PrefabProperties // TypeDefIndex: 12437
 
 }
 
-public class GameManifest.EffectCategory // TypeDefIndex: 12438
+public class GameManifest.EffectCategory // TypeDefIndex: 12440
 {
 	[HideInInspector] 
 	public string folder; 
@@ -69,7 +69,7 @@ public class GameManifest.EffectCategory // TypeDefIndex: 12438
 
 }
 
-public class GameManifest.GuidPath // TypeDefIndex: 12439
+public class GameManifest.GuidPath // TypeDefIndex: 12441
 {
 	[HideInInspector] 
 	public string name; 

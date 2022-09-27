@@ -426,7 +426,7 @@ private sealed class BuildingPrivlidge.<>c__DisplayClass21_0 // TypeDefIndex: 10
 
 }
 
-public class BuildingBlock : StabilityEntity // TypeDefIndex: 10243
+public class BuildingBlock : StabilityEntity // TypeDefIndex: 10244
 {
 	private bool forceSkinRefresh; 
 	private int modelState; 
@@ -555,14 +555,14 @@ public class BuildingBlock : StabilityEntity // TypeDefIndex: 10243
 
 }
 
-public static class BuildingBlock.BlockFlags // TypeDefIndex: 10244
+public static class BuildingBlock.BlockFlags // TypeDefIndex: 10245
 {
 	public const BaseEntity.Flags CanRotate = 128;
 	public const BaseEntity.Flags CanDemolish = 256;
 
 }
 
-public class BuildingBlock.UpdateSkinWorkQueue : ObjectWorkQueue<BuildingBlock> // TypeDefIndex: 10245
+public class BuildingBlock.UpdateSkinWorkQueue : ObjectWorkQueue<BuildingBlock> // TypeDefIndex: 10246
 {
 
 	protected override void RunJob(BuildingBlock entity) { }
@@ -573,7 +573,7 @@ public class BuildingBlock.UpdateSkinWorkQueue : ObjectWorkQueue<BuildingBlock> 
 
 }
 
-private sealed class BuildingBlock.<>c__DisplayClass31_0 // TypeDefIndex: 10246
+private sealed class BuildingBlock.<>c__DisplayClass31_0 // TypeDefIndex: 10247
 {
 	public BuildingGrade.Enum iNewGrade; 
 	public BuildingBlock <>4__this; 
@@ -585,7 +585,7 @@ private sealed class BuildingBlock.<>c__DisplayClass31_0 // TypeDefIndex: 10246
 
 }
 
-public class BuildingProximity : PrefabAttribute // TypeDefIndex: 10754
+public class BuildingProximity : PrefabAttribute // TypeDefIndex: 10756
 {
 	private const float check_radius = 2;
 	private const float check_forgiveness = 0,01;
@@ -605,7 +605,7 @@ public class BuildingProximity : PrefabAttribute // TypeDefIndex: 10754
 
 }
 
-private struct BuildingProximity.ProximityInfo // TypeDefIndex: 10755
+private struct BuildingProximity.ProximityInfo // TypeDefIndex: 10757
 {
 	public bool hit; 
 	public bool connection; 
@@ -614,14 +614,14 @@ private struct BuildingProximity.ProximityInfo // TypeDefIndex: 10755
 
 }
 
-public class BuildingBlockDecay : Decay // TypeDefIndex: 11230
+public class BuildingBlockDecay : Decay // TypeDefIndex: 11232
 {
 
 	public void .ctor() { }
 
 }
 
-public class BuildingGradeDecay : Decay // TypeDefIndex: 11231
+public class BuildingGradeDecay : Decay // TypeDefIndex: 11233
 {
 	public BuildingGrade.Enum decayGrade; 
 
@@ -630,7 +630,7 @@ public class BuildingGradeDecay : Decay // TypeDefIndex: 11231
 
 }
 
-public abstract class BuildingManager // TypeDefIndex: 11531
+public abstract class BuildingManager // TypeDefIndex: 11533
 {
 	public static ClientBuildingManager client; 
 	protected ListHashSet<DecayEntity> decayEntities; 
@@ -655,7 +655,7 @@ public abstract class BuildingManager // TypeDefIndex: 11531
 
 }
 
-public class BuildingManager.Building // TypeDefIndex: 11532
+public class BuildingManager.Building // TypeDefIndex: 11534
 {
 	public uint ID; 
 	public ListHashSet<BuildingPrivlidge> buildingPrivileges; 
@@ -699,7 +699,7 @@ public class BuildingManager.Building // TypeDefIndex: 11532
 
 }
 
-public class BuildingGrade : ScriptableObject // TypeDefIndex: 12428
+public class BuildingGrade : ScriptableObject // TypeDefIndex: 12430
 {
 	public BuildingGrade.Enum type; 
 	public float baseHealth; 
@@ -713,7 +713,7 @@ public class BuildingGrade : ScriptableObject // TypeDefIndex: 12428
 
 }
 
-public enum BuildingGrade.Enum // TypeDefIndex: 12429
+public enum BuildingGrade.Enum // TypeDefIndex: 12431
 {
 	public int value__; 
 	public const BuildingGrade.Enum None = -1;

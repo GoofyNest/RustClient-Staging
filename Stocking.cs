@@ -1,4 +1,4 @@
-public class Stocking : LootContainer // TypeDefIndex: 10544
+public class Stocking : LootContainer // TypeDefIndex: 10546
 {
 	public static ListHashSet<Stocking> stockings; 
 

@@ -1,4 +1,4 @@
-public class ToolgunBeam : MonoBehaviour // TypeDefIndex: 10605
+public class ToolgunBeam : MonoBehaviour // TypeDefIndex: 10607
 {
 	public LineRenderer electricalBeam; 
 	public float scrollSpeed; 

@@ -1,4 +1,4 @@
-public class TreeManager : BaseEntity // TypeDefIndex: 10363
+public class TreeManager : BaseEntity // TypeDefIndex: 10365
 {
 	public static TreeManager client; 
 	private static Dictionary<uint, ImpostorInstanceData> trees; 

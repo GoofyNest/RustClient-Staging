@@ -1816,7 +1816,7 @@ internal struct FileTransferProgressCallbackInfoInternal : ICallbackInfoInternal
 
 }
 
-public class FileSystem_Warmup : MonoBehaviour // TypeDefIndex: 11075
+public class FileSystem_Warmup : MonoBehaviour // TypeDefIndex: 11077
 {
 	public static bool ranInBackground; 
 	public static Coroutine warmupTask; 
@@ -1848,7 +1848,7 @@ public class FileSystem_Warmup : MonoBehaviour // TypeDefIndex: 11075
 
 }
 
-private sealed class FileSystem_Warmup.<RunAsyncImpl>d__6 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11076
+private sealed class FileSystem_Warmup.<RunAsyncImpl>d__6 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11078
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -1883,7 +1883,7 @@ private sealed class FileSystem_Warmup.<RunAsyncImpl>d__6 : IEnumerator<object>,
 
 }
 
-private sealed class FileSystem_Warmup.<RunImpl>d__7 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11077
+private sealed class FileSystem_Warmup.<RunImpl>d__7 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11079
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -1916,7 +1916,7 @@ private sealed class FileSystem_Warmup.<RunImpl>d__7 : IEnumerator<object>, IEnu
 
 }
 
-private sealed class FileSystem_Warmup.<>c__DisplayClass10_0 // TypeDefIndex: 11078
+private sealed class FileSystem_Warmup.<>c__DisplayClass10_0 // TypeDefIndex: 11080
 {
 	public Nullable<bool> poolFilter; 
 
@@ -1927,7 +1927,7 @@ private sealed class FileSystem_Warmup.<>c__DisplayClass10_0 // TypeDefIndex: 11
 
 }
 
-private sealed class FileSystem_Warmup.<>c // TypeDefIndex: 11079
+private sealed class FileSystem_Warmup.<>c // TypeDefIndex: 11081
 {
 	public static readonly FileSystem_Warmup.<>c <>9; 
 	public static Func<GameManifest.PrefabProperties, string> <>9__10_0; 
@@ -1947,7 +1947,7 @@ private sealed class FileSystem_Warmup.<>c // TypeDefIndex: 11079
 
 }
 
-public class FileStorage : IDisposable // TypeDefIndex: 12430
+public class FileStorage : IDisposable // TypeDefIndex: 12432
 {
 	private Database db; 
 	private CRC32 crc; 
@@ -1987,7 +1987,7 @@ public class FileStorage : IDisposable // TypeDefIndex: 12430
 
 }
 
-private class FileStorage.CacheData // TypeDefIndex: 12431
+private class FileStorage.CacheData // TypeDefIndex: 12433
 {
 	public byte[] data; 
 	public uint entityID; 
@@ -1998,7 +1998,7 @@ private class FileStorage.CacheData // TypeDefIndex: 12431
 
 }
 
-public enum FileStorage.Type // TypeDefIndex: 12432
+public enum FileStorage.Type // TypeDefIndex: 12434
 {
 	public int value__; 
 	public const FileStorage.Type png = 0;
@@ -2007,7 +2007,7 @@ public enum FileStorage.Type // TypeDefIndex: 12432
 
 }
 
-private sealed class FileStorage.<>c__DisplayClass14_0 // TypeDefIndex: 12433
+private sealed class FileStorage.<>c__DisplayClass14_0 // TypeDefIndex: 12435
 {
 	public uint entityid; 
 	public uint numid; 
@@ -2020,7 +2020,7 @@ private sealed class FileStorage.<>c__DisplayClass14_0 // TypeDefIndex: 12433
 
 }
 
-private sealed class FileStorage.<>c // TypeDefIndex: 12434
+private sealed class FileStorage.<>c // TypeDefIndex: 12436
 {
 	public static readonly FileStorage.<>c <>9; 
 	public static Func<KeyValuePair<uint, FileStorage.CacheData>, uint> <>9__14_1; 
@@ -2034,7 +2034,7 @@ private sealed class FileStorage.<>c // TypeDefIndex: 12434
 
 }
 
-public static class FileEx // TypeDefIndex: 13074
+public static class FileEx // TypeDefIndex: 13076
 {
 
 	public static void Backup(DirectoryInfo parent, string[] names) { }
@@ -2046,7 +2046,7 @@ public static class FileEx // TypeDefIndex: 13074
 
 }
 
-public class FileConVar : ConsoleSystem // TypeDefIndex: 13650
+public class FileConVar : ConsoleSystem // TypeDefIndex: 13652
 {
 	[ClientVar] 
 	public static bool debug { get; set; }

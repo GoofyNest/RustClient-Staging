@@ -2195,7 +2195,7 @@ internal static class EventReaderFactory // TypeDefIndex: 7559
 
 }
 
-public class EventSchedule : BaseMonoBehaviour // TypeDefIndex: 11522
+public class EventSchedule : BaseMonoBehaviour // TypeDefIndex: 11524
 {
 	[TooltipAttribute] 
 	public float minimumHoursBetween; 

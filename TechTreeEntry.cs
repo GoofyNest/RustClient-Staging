@@ -1,4 +1,4 @@
-public class TechTreeEntry : TechTreeWidget // TypeDefIndex: 12625
+public class TechTreeEntry : TechTreeWidget // TypeDefIndex: 12627
 {
 	public RawImage icon; 
 	public GameObject ableToUnlockBackground; 

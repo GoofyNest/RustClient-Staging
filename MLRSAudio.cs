@@ -1,4 +1,4 @@
-public class MLRSAudio : MonoBehaviour // TypeDefIndex: 11428
+public class MLRSAudio : MonoBehaviour // TypeDefIndex: 11430
 {
 	[SerializeField] 
 	private MLRS mlrs; 

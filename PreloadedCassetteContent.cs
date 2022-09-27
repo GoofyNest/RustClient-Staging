@@ -1,4 +1,4 @@
-public class PreloadedCassetteContent : ScriptableObject // TypeDefIndex: 11156
+public class PreloadedCassetteContent : ScriptableObject // TypeDefIndex: 11158
 {
 	public SoundDefinition[] ShortTapeContent; 
 	public SoundDefinition[] MediumTapeContent; 
@@ -15,7 +15,7 @@ public class PreloadedCassetteContent : ScriptableObject // TypeDefIndex: 11156
 
 }
 
-public enum PreloadedCassetteContent.PreloadType // TypeDefIndex: 11157
+public enum PreloadedCassetteContent.PreloadType // TypeDefIndex: 11159
 {
 	public int value__; 
 	public const PreloadedCassetteContent.PreloadType Short = 0;

@@ -1,4 +1,4 @@
-public enum RenderType // TypeDefIndex: 13179
+public enum RenderType // TypeDefIndex: 13181
 {
 	public int value__; 
 	public const RenderType OPAQUE_DEFERRED = 0;

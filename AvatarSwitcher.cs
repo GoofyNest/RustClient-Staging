@@ -1,4 +1,4 @@
-public class AvatarSwitcher : StateMachineBehaviour // TypeDefIndex: 10821
+public class AvatarSwitcher : StateMachineBehaviour // TypeDefIndex: 10823
 {
 	public Avatar ToApply; 
 

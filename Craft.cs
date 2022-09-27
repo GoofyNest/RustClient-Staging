@@ -1,4 +1,4 @@
-public class Craft : ConsoleSystem // TypeDefIndex: 13624
+public class Craft : ConsoleSystem // TypeDefIndex: 13626
 {
 
 	public void .ctor() { }

@@ -1,4 +1,4 @@
-public class TriggerZone : MonoBehaviour // TypeDefIndex: 13280
+public class TriggerZone : MonoBehaviour // TypeDefIndex: 13282
 {
 	public bool setIsTrigger; 
 	public float rangeMultiplier; 

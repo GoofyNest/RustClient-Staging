@@ -4441,7 +4441,7 @@ public class JValue : JToken, IFormattable, IComparable, IConvertible // TypeDef
 
 }
 
-public static class JSON // TypeDefIndex: 13310
+public static class JSON // TypeDefIndex: 13312
 {
 	private static readonly Type includeAttrType; 
 	private static readonly Type excludeAttrType; 

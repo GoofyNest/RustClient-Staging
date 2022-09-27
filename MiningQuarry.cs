@@ -60,7 +60,7 @@ public class MiningQuarry : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 }
 
-public class MiningQuarry : BaseResourceExtractor // TypeDefIndex: 11273
+public class MiningQuarry : BaseResourceExtractor // TypeDefIndex: 11275
 {
 	public Animator beltAnimator; 
 	public Renderer beltScrollRenderer; 
@@ -92,7 +92,7 @@ public class MiningQuarry : BaseResourceExtractor // TypeDefIndex: 11273
 
 }
 
-public enum MiningQuarry.QuarryType // TypeDefIndex: 11274
+public enum MiningQuarry.QuarryType // TypeDefIndex: 11276
 {
 	public int value__; 
 	public const MiningQuarry.QuarryType None = 0;
@@ -102,7 +102,7 @@ public enum MiningQuarry.QuarryType // TypeDefIndex: 11274
 
 }
 
-public class MiningQuarry.ChildPrefab // TypeDefIndex: 11275
+public class MiningQuarry.ChildPrefab // TypeDefIndex: 11277
 {
 	public GameObjectRef prefabToSpawn; 
 	public GameObject origin; 

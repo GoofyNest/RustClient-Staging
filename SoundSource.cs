@@ -1,4 +1,4 @@
-public class SoundSource : MonoBehaviour, IClientComponentEx, ILOD, ISoundBudgetedUpdate // TypeDefIndex: 10748
+public class SoundSource : MonoBehaviour, IClientComponentEx, ILOD, ISoundBudgetedUpdate // TypeDefIndex: 10750
 {
 	[HeaderAttribute] 
 	public bool handleOcclusionChecks; 
@@ -41,7 +41,7 @@ public class SoundSource : MonoBehaviour, IClientComponentEx, ILOD, ISoundBudget
 
 }
 
-public class SoundSource.OcclusionPoint // TypeDefIndex: 10749
+public class SoundSource.OcclusionPoint // TypeDefIndex: 10751
 {
 	public Vector3 offset; 
 	public bool isOccluded; 

@@ -1,4 +1,4 @@
-public class FishingRodViewmodel : MonoBehaviour // TypeDefIndex: 13165
+public class FishingRodViewmodel : MonoBehaviour // TypeDefIndex: 13167
 {
 	public Transform PitchTransform; 
 	public Transform YawTransform; 
@@ -30,7 +30,7 @@ public class FishingRodViewmodel : MonoBehaviour // TypeDefIndex: 13165
 
 }
 
-public struct FishingRodViewmodel.FishViewmodel // TypeDefIndex: 13166
+public struct FishingRodViewmodel.FishViewmodel // TypeDefIndex: 13168
 {
 	public ItemDefinition Item; 
 	public GameObject Root; 

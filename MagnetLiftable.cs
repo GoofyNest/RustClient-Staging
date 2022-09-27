@@ -1,4 +1,4 @@
-public class MagnetLiftable : EntityComponent<BaseEntity> // TypeDefIndex: 11438
+public class MagnetLiftable : EntityComponent<BaseEntity> // TypeDefIndex: 11440
 {
 	public ItemAmount[] shredResources; 
 	public Vector3 shredDirection; 

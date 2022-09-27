@@ -1,4 +1,4 @@
-public class DeployVolumeSphere : DeployVolume // TypeDefIndex: 11555
+public class DeployVolumeSphere : DeployVolume // TypeDefIndex: 11557
 {
 	public Vector3 center; 
 	public float radius; 

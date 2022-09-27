@@ -1,4 +1,4 @@
-public class RendererGrid : SingletonComponent<RendererGrid>, IClientComponent // TypeDefIndex: 11626
+public class RendererGrid : SingletonComponent<RendererGrid>, IClientComponent // TypeDefIndex: 11628
 {
 	public static bool Paused; 
 	public GameObjectRef BatchPrefab; 
@@ -46,7 +46,7 @@ public class RendererGrid : SingletonComponent<RendererGrid>, IClientComponent /
 
 }
 
-private sealed class RendererGrid.<UpdateCoroutine>d__21 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11627
+private sealed class RendererGrid.<UpdateCoroutine>d__21 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11629
 {
 	private int <>1__state; 
 	private object <>2__current; 

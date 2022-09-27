@@ -1,4 +1,4 @@
-public class NVGToggle : ItemEventFlag // TypeDefIndex: 10386
+public class NVGToggle : ItemEventFlag // TypeDefIndex: 10388
 {
 
 	public override void OnItemUpdate(Item item) { }

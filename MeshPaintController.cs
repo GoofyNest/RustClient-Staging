@@ -1,4 +1,4 @@
-public class MeshPaintController : MonoBehaviour, IClientComponent // TypeDefIndex: 10907
+public class MeshPaintController : MonoBehaviour, IClientComponent // TypeDefIndex: 10909
 {
 	public Camera pickerCamera; 
 	public Texture2D brushTexture; 

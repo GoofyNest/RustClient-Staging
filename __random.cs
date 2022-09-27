@@ -81734,7 +81734,7 @@ internal struct GameEvent<T> // TypeDefIndex: 7711
 
 }
 
-public class BoneDictionary // TypeDefIndex: 10829
+public class BoneDictionary // TypeDefIndex: 10831
 {
 	public Transform transform; 
 	public Transform[] transforms; 
@@ -81762,7 +81762,7 @@ public class BoneDictionary // TypeDefIndex: 10829
 
 }
 
-public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10856
+public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10858
 {
 	public T component; 
 
@@ -81783,7 +81783,7 @@ public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10856
 
 }
 
-public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 10934
+public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 10936
 {
 	[SerializeField] 
 	private AmplifyOcclusionEffect ssao; 
@@ -82102,7 +82102,7 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 109
 
 }
 
-public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11269
+public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11271
 {
 	protected T owner; 
 	public MetabolismAttribute calories; 
@@ -82146,7 +82146,7 @@ public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11
 
 }
 
-public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 11326
+public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 11328
 {
 
 public abstract class BaseModifiers<T> : EntityComponent<T>
@@ -82269,7 +82269,7 @@ public abstract class BaseModifiers<T> : EntityComponent<T>
 
 }
 
-public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11676
+public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11678
 {
 	public T Component; 
 
@@ -82288,7 +82288,7 @@ public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11676
 
 }
 
-public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12122
+public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12124
 {
 	internal T[] src; 
 	internal T[] dst; 
@@ -82374,7 +82374,7 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12122
 
 }
 
-public static class RecipeDictionary // TypeDefIndex: 12465
+public static class RecipeDictionary // TypeDefIndex: 12467
 {
 	private static Dictionary<uint, Dictionary<int, List<Recipe>>> recipeListsDict; 
 
@@ -82391,7 +82391,7 @@ public static class RecipeDictionary // TypeDefIndex: 12465
 
 }
 
-public struct CachedTransform<T> // TypeDefIndex: 13027
+public struct CachedTransform<T> // TypeDefIndex: 13029
 {
 	public T component; 
 	public Vector3 position; 
@@ -82474,7 +82474,7 @@ public struct CachedTransform<T> // TypeDefIndex: 13027
 
 }
 
-public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13121
+public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13123
 {
 	private NativeArray<T> _array; 
 	private int _length; 
@@ -82568,7 +82568,7 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13121
 
 }
 
-public class PooledList<T> // TypeDefIndex: 13127
+public class PooledList<T> // TypeDefIndex: 13129
 {
 	public List<T> data; 
 
@@ -82617,7 +82617,7 @@ public class PooledList<T> // TypeDefIndex: 13127
 
 }
 
-public class SimpleList<T> // TypeDefIndex: 13130
+public class SimpleList<T> // TypeDefIndex: 13132
 {
 	private const int defaultCapacity = 16;
 	private static readonly T[] emptyArray; 
@@ -82770,7 +82770,7 @@ public class SimpleList<T> // TypeDefIndex: 13130
 
 }
 
-public class TimeCachedValue<T> // TypeDefIndex: 13135
+public class TimeCachedValue<T> // TypeDefIndex: 13137
 {
 	public float refreshCooldown; 
 	public float refreshRandomRange; 
@@ -82801,7 +82801,7 @@ public class TimeCachedValue<T> // TypeDefIndex: 13135
 
 }
 
-public class ResourceRef<T> // TypeDefIndex: 13160
+public class ResourceRef<T> // TypeDefIndex: 13162
 {
 	public string guid; 
 	private T _cachedObject; 
@@ -82853,7 +82853,7 @@ public class ResourceRef<T> // TypeDefIndex: 13160
 
 }
 
-public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13553
+public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13555
 {
 	public T value; 
 
@@ -83120,7 +83120,7 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13553
 
 }
 
-public class GenericLerp<T> : IDisposable // TypeDefIndex: 13848
+public class GenericLerp<T> : IDisposable // TypeDefIndex: 13850
 {
 	private Interpolator<T> interpolator; 
 	private IGenericLerpTarget<T> target; 
@@ -83243,7 +83243,7 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 13848
 
 }
 
-public class Interpolator<T> // TypeDefIndex: 13850
+public class Interpolator<T> // TypeDefIndex: 13852
 {
 	public List<T> list; 
 	public T last; 

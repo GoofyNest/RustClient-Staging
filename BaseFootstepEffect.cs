@@ -1,4 +1,4 @@
-public abstract class BaseFootstepEffect : MonoBehaviour, IClientComponent // TypeDefIndex: 11031
+public abstract class BaseFootstepEffect : MonoBehaviour, IClientComponent // TypeDefIndex: 11033
 {
 	public LayerMask validImpactLayers; 
 	private const float minTimeBetweenSteps = 0,05;

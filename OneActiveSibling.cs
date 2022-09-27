@@ -1,4 +1,4 @@
-public class OneActiveSibling : MonoBehaviour // TypeDefIndex: 13052
+public class OneActiveSibling : MonoBehaviour // TypeDefIndex: 13054
 {
 
 	public void .ctor() { }

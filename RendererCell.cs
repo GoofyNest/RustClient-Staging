@@ -1,4 +1,4 @@
-public class RendererCell : Pool.IPooled // TypeDefIndex: 11624
+public class RendererCell : Pool.IPooled // TypeDefIndex: 11626
 {
 	public Vector3 position; 
 	public RendererGrid grid; 
@@ -41,7 +41,7 @@ public class RendererCell : Pool.IPooled // TypeDefIndex: 11624
 
 }
 
-private sealed class RendererCell.<RefreshAsync>d__14 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11625
+private sealed class RendererCell.<RefreshAsync>d__14 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 11627
 {
 	private int <>1__state; 
 	private object <>2__current; 

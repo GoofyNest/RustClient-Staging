@@ -1,4 +1,4 @@
-public class Voice : ConsoleSystem // TypeDefIndex: 13702
+public class Voice : ConsoleSystem // TypeDefIndex: 13704
 {
 	[ClientVar] 
 	public static bool loopback; 

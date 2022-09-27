@@ -1,4 +1,4 @@
-public class TriggerRagdollRelocate : TriggerBase // TypeDefIndex: 11752
+public class TriggerRagdollRelocate : TriggerBase // TypeDefIndex: 11754
 {
 	public Transform targetLocation; 
 

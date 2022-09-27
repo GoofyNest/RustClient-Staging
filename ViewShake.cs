@@ -1,4 +1,4 @@
-public class ViewShake // TypeDefIndex: 10956
+public class ViewShake // TypeDefIndex: 10958
 {
 	[CompilerGeneratedAttribute] 
 	private Vector3 <PositionOffset>k__BackingField; 
@@ -32,7 +32,7 @@ public class ViewShake // TypeDefIndex: 10956
 
 }
 
-private sealed class ViewShake.<>c // TypeDefIndex: 10958
+private sealed class ViewShake.<>c // TypeDefIndex: 10960
 {
 	public static readonly ViewShake.<>c <>9; 
 	public static Predicate<ViewShake.ShakeParameters> <>9__11_0; 

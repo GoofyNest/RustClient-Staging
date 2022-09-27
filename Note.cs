@@ -123,7 +123,7 @@ public class Note : ILengthedObject, ITimedObject // TypeDefIndex: 7444
 
 }
 
-public class Note : ConsoleSystem // TypeDefIndex: 13677
+public class Note : ConsoleSystem // TypeDefIndex: 13679
 {
 
 	[ClientVar] 

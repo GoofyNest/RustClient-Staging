@@ -1,4 +1,4 @@
-public class AggressionTimerAIEvent : BaseAIEvent // TypeDefIndex: 11127
+public class AggressionTimerAIEvent : BaseAIEvent // TypeDefIndex: 11129
 {
 	[CompilerGeneratedAttribute] 
 	private float <Value>k__BackingField; 

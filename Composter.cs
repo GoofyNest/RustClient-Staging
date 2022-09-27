@@ -59,7 +59,7 @@ public class Composter : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6380
 
 }
 
-public class Composter : StorageContainer // TypeDefIndex: 10389
+public class Composter : StorageContainer // TypeDefIndex: 10391
 {
 
 	public void .ctor() { }

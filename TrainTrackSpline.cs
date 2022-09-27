@@ -1,4 +1,4 @@
-public class TrainTrackSpline : WorldSpline // TypeDefIndex: 11479
+public class TrainTrackSpline : WorldSpline // TypeDefIndex: 11481
 {
 	[TooltipAttribute] 
 	public bool isStation; 
@@ -11,7 +11,7 @@ public class TrainTrackSpline : WorldSpline // TypeDefIndex: 11479
 
 }
 
-public enum TrainTrackSpline.TrackSelection // TypeDefIndex: 11480
+public enum TrainTrackSpline.TrackSelection // TypeDefIndex: 11482
 {
 	public int value__; 
 	public const TrainTrackSpline.TrackSelection Default = 0;

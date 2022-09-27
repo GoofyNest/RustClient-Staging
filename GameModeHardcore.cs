@@ -1,7 +1,9 @@
-public class GameModeHardcore : GameModeVanilla // TypeDefIndex: 11592
+public class GameModeHardcore : GameModeVanilla // TypeDefIndex: 11594
 {
 
 	protected override void OnCreated() { }
+
+	public override BaseGameMode.ResearchCostResult GetScrapCostForResearch(ItemDefinition item, ResearchTable.ResearchType researchType) { }
 
 	public void .ctor() { }
 

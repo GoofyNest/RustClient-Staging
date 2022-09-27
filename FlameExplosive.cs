@@ -1,4 +1,4 @@
-public class FlameExplosive : TimedExplosive // TypeDefIndex: 11244
+public class FlameExplosive : TimedExplosive // TypeDefIndex: 11246
 {
 	public GameObjectRef createOnExplode; 
 	public float numToCreate; 

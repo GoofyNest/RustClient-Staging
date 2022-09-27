@@ -1,4 +1,4 @@
-internal static class GameInfo // TypeDefIndex: 13762
+internal static class GameInfo // TypeDefIndex: 13764
 {
 	internal static bool IsOfficialServer { get; }
 	internal static bool HasAchievements { get; }

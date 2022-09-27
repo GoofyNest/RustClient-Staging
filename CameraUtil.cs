@@ -1,4 +1,4 @@
-public static class CameraUtil // TypeDefIndex: 13086
+public static class CameraUtil // TypeDefIndex: 13088
 {
 
 	public static void NormalizePlane(ref Plane plane) { }

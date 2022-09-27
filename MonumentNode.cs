@@ -1,4 +1,4 @@
-public class MonumentNode : MonoBehaviour // TypeDefIndex: 12155
+public class MonumentNode : MonoBehaviour // TypeDefIndex: 12157
 {
 	public string ResourceFolder; 
 

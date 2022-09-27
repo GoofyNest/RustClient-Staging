@@ -1,4 +1,4 @@
-public class StringPool // TypeDefIndex: 12484
+public class StringPool // TypeDefIndex: 12486
 {
 	private static Dictionary<uint, string> toString; 
 	private static Dictionary<string, uint> toNumber; 

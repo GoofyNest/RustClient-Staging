@@ -1,4 +1,4 @@
-public class StaticRespawnArea : SleepingBag // TypeDefIndex: 11315
+public class StaticRespawnArea : SleepingBag // TypeDefIndex: 11317
 {
 	public Transform[] spawnAreas; 
 	public bool allowHostileSpawns; 

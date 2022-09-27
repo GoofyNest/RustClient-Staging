@@ -1,4 +1,4 @@
-public class LootPanelEngine : LootPanel // TypeDefIndex: 12745
+public class LootPanelEngine : LootPanel // TypeDefIndex: 12747
 {
 	[SerializeField] 
 	private Image engineImage; 

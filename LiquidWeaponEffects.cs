@@ -1,4 +1,4 @@
-public class LiquidWeaponEffects : MonoBehaviour // TypeDefIndex: 11174
+public class LiquidWeaponEffects : MonoBehaviour // TypeDefIndex: 11176
 {
 	public ParticleSystem RootPS; 
 	public ParticleSystem EmissionPS; 

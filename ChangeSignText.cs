@@ -1,4 +1,4 @@
-public class ChangeSignText : UIDialog // TypeDefIndex: 12599
+public class ChangeSignText : UIDialog // TypeDefIndex: 12601
 {
 	public Action<int, Texture2D> onUpdateTexture; 
 	public GameObject objectContainer; 
@@ -57,7 +57,7 @@ public class ChangeSignText : UIDialog // TypeDefIndex: 12599
 
 }
 
-private class ChangeSignText.UndoBuffer : IDisposable // TypeDefIndex: 12600
+private class ChangeSignText.UndoBuffer : IDisposable // TypeDefIndex: 12602
 {
 	private List<Texture2D> buffer; 
 	private Texture2D startFrame; 

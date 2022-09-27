@@ -1,4 +1,4 @@
-public class GenericSpawnPoint : BaseSpawnPoint // TypeDefIndex: 11706
+public class GenericSpawnPoint : BaseSpawnPoint // TypeDefIndex: 11708
 {
 	public bool dropToGround; 
 	public bool randomRot; 

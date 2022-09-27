@@ -1,4 +1,4 @@
-public static class TerrainAnchorEx // TypeDefIndex: 12087
+public static class TerrainAnchorEx // TypeDefIndex: 12089
 {
 
 	[ExtensionAttribute] 

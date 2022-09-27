@@ -1,4 +1,4 @@
-public class ParticlePatch // TypeDefIndex: 12069
+public class ParticlePatch // TypeDefIndex: 12071
 {
 	private bool initialized; 
 	private float LOD; 

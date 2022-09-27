@@ -1,4 +1,4 @@
-public class PlaceMonumentsOffshore : ProceduralComponent // TypeDefIndex: 12253
+public class PlaceMonumentsOffshore : ProceduralComponent // TypeDefIndex: 12255
 {
 	public string ResourceFolder; 
 	public int TargetCount; 
@@ -19,7 +19,7 @@ public class PlaceMonumentsOffshore : ProceduralComponent // TypeDefIndex: 12253
 
 }
 
-private struct PlaceMonumentsOffshore.SpawnInfo // TypeDefIndex: 12254
+private struct PlaceMonumentsOffshore.SpawnInfo // TypeDefIndex: 12256
 {
 	public Prefab prefab; 
 	public Vector3 position; 
@@ -28,7 +28,7 @@ private struct PlaceMonumentsOffshore.SpawnInfo // TypeDefIndex: 12254
 
 }
 
-private sealed class PlaceMonumentsOffshore.<>c // TypeDefIndex: 12255
+private sealed class PlaceMonumentsOffshore.<>c // TypeDefIndex: 12257
 {
 	public static readonly PlaceMonumentsOffshore.<>c <>9; 
 	public static Func<string, string> <>9__9_0; 
