@@ -1,4 +1,4 @@
-public sealed class PointerLeaveEvent : PointerEventBase<PointerLeaveEvent> // TypeDefIndex: 4699
+public sealed class PointerLeaveEvent : PointerEventBase<PointerLeaveEvent> // TypeDefIndex: 4700
 {
 
 	protected override void Init() { }

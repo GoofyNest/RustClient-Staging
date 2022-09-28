@@ -1,4 +1,4 @@
-public class TabControl : RustControl // TypeDefIndex: 7072
+public class TabControl : RustControl // TypeDefIndex: 7073
 {
 	public RectTransform TabContainer; 
 	public RectTransform PanelContainer; 

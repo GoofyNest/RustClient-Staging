@@ -1,4 +1,4 @@
-public class InputState // TypeDefIndex: 11811
+public class InputState // TypeDefIndex: 11814
 {
 	public InputMessage current; 
 	public InputMessage previous; 

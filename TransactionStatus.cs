@@ -1,4 +1,4 @@
-public enum TransactionStatus // TypeDefIndex: 3992
+public enum TransactionStatus // TypeDefIndex: 3993
 {
 	public int value__; 
 	public const TransactionStatus Active = 0;

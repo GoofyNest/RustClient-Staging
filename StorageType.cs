@@ -1,4 +1,4 @@
-internal enum StorageType // TypeDefIndex: 4382
+internal enum StorageType // TypeDefIndex: 4383
 {
 	public int value__; 
 	public const StorageType Empty = 0;

@@ -1,4 +1,4 @@
-internal class PropagationPaths // TypeDefIndex: 4702
+internal class PropagationPaths // TypeDefIndex: 4703
 {
 	private static readonly ObjectPool<PropagationPaths> s_Pool; 
 	public readonly List<VisualElement> trickleDownPath; 
@@ -18,7 +18,7 @@ internal class PropagationPaths // TypeDefIndex: 4702
 
 }
 
-public enum PropagationPaths.Type // TypeDefIndex: 4703
+public enum PropagationPaths.Type // TypeDefIndex: 4704
 {
 	public int value__; 
 	public const PropagationPaths.Type None = 0;

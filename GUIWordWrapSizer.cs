@@ -1,4 +1,4 @@
-internal sealed class GUIWordWrapSizer : GUILayoutEntry // TypeDefIndex: 4056
+internal sealed class GUIWordWrapSizer : GUILayoutEntry // TypeDefIndex: 4057
 {
 	private readonly GUIContent m_Content; 
 	private readonly float m_ForcedMinHeight; 

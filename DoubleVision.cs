@@ -1,4 +1,4 @@
-public class DoubleVision : PostProcessEffectSettings // TypeDefIndex: 11959
+public class DoubleVision : PostProcessEffectSettings // TypeDefIndex: 11962
 {
 	[RangeAttribute] 
 	public Vector2Parameter displace; 

@@ -75175,7 +75175,7 @@ internal class CachedInvokableCall<T> : InvokableCall<T> // TypeDefIndex: 3635
 
 }
 
-internal struct ParticleSystemJobStruct<T> // TypeDefIndex: 4557
+internal struct ParticleSystemJobStruct<T> // TypeDefIndex: 4558
 {
 	public static IntPtr jobReflectionData; 
 
@@ -75194,7 +75194,7 @@ internal struct ParticleSystemJobStruct<T> // TypeDefIndex: 4557
 
 }
 
-internal class ObjectPool<T> // TypeDefIndex: 4597
+internal class ObjectPool<T> // TypeDefIndex: 4598
 {
 	private readonly Stack<T> m_Stack; 
 	private int m_MaxSize; 
@@ -75249,7 +75249,7 @@ internal class ObjectPool<T> // TypeDefIndex: 4597
 
 }
 
-public abstract class PointerCaptureEventBase<T> : EventBase<T> // TypeDefIndex: 4623
+public abstract class PointerCaptureEventBase<T> : EventBase<T> // TypeDefIndex: 4624
 {
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
@@ -75310,7 +75310,7 @@ public abstract class PointerCaptureEventBase<T> : EventBase<T> // TypeDefIndex:
 
 }
 
-public abstract class MouseCaptureEventBase<T> : PointerCaptureEventBase<T> // TypeDefIndex: 4626
+public abstract class MouseCaptureEventBase<T> : PointerCaptureEventBase<T> // TypeDefIndex: 4627
 {
 
 	protected override void Init() { }
@@ -75331,7 +75331,7 @@ public abstract class MouseCaptureEventBase<T> : PointerCaptureEventBase<T> // T
 
 }
 
-public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent // TypeDefIndex: 4631
+public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent // TypeDefIndex: 4632
 {
 
 public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent
@@ -75378,7 +75378,7 @@ public abstract class CommandEventBase<T> : EventBase<T>, ICommandEvent
 
 }
 
-public abstract class DragAndDropEventBase<T> : MouseEventBase<T> // TypeDefIndex: 4635
+public abstract class DragAndDropEventBase<T> : MouseEventBase<T> // TypeDefIndex: 4636
 {
 
 	protected void .ctor() { }
@@ -75394,7 +75394,7 @@ public abstract class DragAndDropEventBase<T> : MouseEventBase<T> // TypeDefInde
 
 }
 
-public abstract class EventBase<T> : EventBase // TypeDefIndex: 4645
+public abstract class EventBase<T> : EventBase // TypeDefIndex: 4646
 {
 	private static readonly long s_TypeId; 
 	private static readonly ObjectPool<T> s_Pool; 
@@ -75595,7 +75595,7 @@ public abstract class EventBase<T> : EventBase // TypeDefIndex: 4645
 
 }
 
-public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4653
+public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4654
 {
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
@@ -75691,7 +75691,7 @@ public abstract class FocusEventBase<T> : EventBase<T> // TypeDefIndex: 4653
 
 }
 
-public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // TypeDefIndex: 4664
+public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent // TypeDefIndex: 4665
 {
 
 public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent
@@ -75770,7 +75770,7 @@ public abstract class KeyboardEventBase<T> : EventBase<T>, IKeyboardEvent
 
 }
 
-public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEventInternal // TypeDefIndex: 4672
+public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEventInternal // TypeDefIndex: 4673
 {
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
@@ -76313,7 +76313,7 @@ public abstract class MouseEventBase<T> : EventBase<T>, IMouseEvent, IMouseEvent
 
 }
 
-public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointerEventInternal // TypeDefIndex: 4693
+public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointerEventInternal // TypeDefIndex: 4694
 {
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
@@ -76976,7 +76976,7 @@ public abstract class PointerEventBase<T> : EventBase<T>, IPointerEvent, IPointe
 
 }
 
-public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDefIndex: 4713
+public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDefIndex: 4714
 {
 	private StyleKeyword m_Keyword; 
 	private T m_Value; 
@@ -77046,7 +77046,7 @@ public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> // TypeDef
 
 }
 
-public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4796
+public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4797
 {
 	private int count; 
 	private T[] buffer; 
@@ -77434,7 +77434,7 @@ public class BufferList<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4796
 
 }
 
-public class Deque<T> // TypeDefIndex: 4798
+public class Deque<T> // TypeDefIndex: 4799
 {
 	private T[] buffer; 
 	private int offset; 
@@ -77588,7 +77588,7 @@ public class Deque<T> // TypeDefIndex: 4798
 
 }
 
-public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 4800
+public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 4801
 {
 	[CompilerGeneratedAttribute] 
 	private static readonly IImmutableStack<T> <Empty>k__BackingField; 
@@ -77660,7 +77660,7 @@ public class ImmutableStack<T> : IImmutableStack<T>, IEnumerable<T>, IEnumerable
 
 }
 
-public struct IntrusiveLinkedList<T> // TypeDefIndex: 4804
+public struct IntrusiveLinkedList<T> // TypeDefIndex: 4805
 {
 	private T head; 
 
@@ -77687,7 +77687,7 @@ public struct IntrusiveLinkedList<T> // TypeDefIndex: 4804
 
 }
 
-public struct IntrusiveMinHeap<T> // TypeDefIndex: 4806
+public struct IntrusiveMinHeap<T> // TypeDefIndex: 4807
 {
 	private T head; 
 
@@ -77717,7 +77717,7 @@ public struct IntrusiveMinHeap<T> // TypeDefIndex: 4806
 
 }
 
-public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>, IEnumerable // TypeDefIndex: 4808
+public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>, IEnumerable // TypeDefIndex: 4809
 {
 	private Dictionary<TKey, int> key2idx; 
 	private Dictionary<int, TKey> idx2key; 
@@ -78084,7 +78084,7 @@ public class ListDictionary<TKey, TVal> : IEnumerable<KeyValuePair<TKey, TVal>>,
 
 }
 
-private sealed class ListDictionary.<GetEnumerator>d__24<TKey, TVal> : IEnumerator<KeyValuePair<TKey, TVal>>, IEnumerator, IDisposable // TypeDefIndex: 4809
+private sealed class ListDictionary.<GetEnumerator>d__24<TKey, TVal> : IEnumerator<KeyValuePair<TKey, TVal>>, IEnumerator, IDisposable // TypeDefIndex: 4810
 {
 	private int <>1__state; 
 	private KeyValuePair<TKey, TVal> <>2__current; 
@@ -78194,7 +78194,7 @@ private sealed class ListDictionary.<GetEnumerator>d__24<TKey, TVal> : IEnumerat
 
 }
 
-public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection<T> // TypeDefIndex: 4810
+public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection<T> // TypeDefIndex: 4811
 {
 	private Dictionary<T, int> val2idx; 
 	private Dictionary<int, T> idx2val; 
@@ -78556,7 +78556,7 @@ public class ListHashSet<T> : IEnumerable<T>, IEnumerable, IList<T>, ICollection
 
 }
 
-public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, IEnumerable // TypeDefIndex: 4814
+public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, IEnumerable // TypeDefIndex: 4815
 {
 	private int capacity; 
 	private Queue<LinkedListNode<KeyValuePair<Key, Value>>> recycled; 
@@ -78657,7 +78657,7 @@ public class MruDictionary<Key, Value> : IEnumerable<KeyValuePair<Key, Value>>, 
 
 }
 
-public class Grid<T> // TypeDefIndex: 4832
+public class Grid<T> // TypeDefIndex: 4833
 {
 	[CompilerGeneratedAttribute] 
 	private int <CellCount>k__BackingField; 
@@ -78754,7 +78754,7 @@ public class Grid<T> // TypeDefIndex: 4832
 
 }
 
-public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4834
+public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 4835
 {
 	private readonly T[] _buffer; 
 	private int _start; 
@@ -78921,13 +78921,13 @@ public class CircularBuffer<T> : IEnumerable<T>, IEnumerable // TypeDefIndex: 48
 
 }
 
-internal static class Pool<T> // TypeDefIndex: 4842
+internal static class Pool<T> // TypeDefIndex: 4843
 {
 	public static Pool.PoolCollection<T> Collection; 
 
 }
 
-public static class DictionaryExtensions // TypeDefIndex: 4845
+public static class DictionaryExtensions // TypeDefIndex: 4846
 {
 
 	[ExtensionAttribute] 
@@ -78954,7 +78954,7 @@ public static class DictionaryExtensions // TypeDefIndex: 4845
 
 }
 
-internal static class ListPool<T> // TypeDefIndex: 5023
+internal static class ListPool<T> // TypeDefIndex: 5024
 {
 	private static readonly ObjectPool<List<T>> s_ListPool; 
 
@@ -79017,7 +79017,7 @@ internal static class ListPool<T> // TypeDefIndex: 5023
 
 }
 
-internal class ObjectPool<T> // TypeDefIndex: 5024
+internal class ObjectPool<T> // TypeDefIndex: 5025
 {
 	private readonly Stack<T> m_Stack; 
 	private readonly UnityAction<T> m_ActionOnGet; 
@@ -79082,7 +79082,7 @@ internal class ObjectPool<T> // TypeDefIndex: 5024
 
 }
 
-internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 5040
+internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 5041
 {
 	private readonly List<T> m_List; 
 	private Dictionary<T, int> m_Dictionary; 
@@ -79221,7 +79221,7 @@ internal class IndexedSet<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumer
 
 }
 
-internal class TweenRunner<T> // TypeDefIndex: 5047
+internal class TweenRunner<T> // TypeDefIndex: 5048
 {
 	protected MonoBehaviour m_CoroutineContainer; 
 	protected IEnumerator m_Tween; 
@@ -79267,7 +79267,7 @@ internal class TweenRunner<T> // TypeDefIndex: 5047
 
 }
 
-internal struct CallResult<T> : INotifyCompletion // TypeDefIndex: 5104
+internal struct CallResult<T> : INotifyCompletion // TypeDefIndex: 5105
 {
 	private SteamAPICall_t call; 
 	private ISteamUtils utils; 
@@ -79356,14 +79356,14 @@ internal struct CallResult<T> : INotifyCompletion // TypeDefIndex: 5104
 
 }
 
-internal struct MatchMakingKeyValuePair // TypeDefIndex: 5508
+internal struct MatchMakingKeyValuePair // TypeDefIndex: 5509
 {
 	internal string Key; 
 	internal string Value; 
 
 }
 
-public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefIndex: 5568
+public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefIndex: 5569
 {
 	protected ListDictionary<InvokeAction, float> curList; 
 	protected ListHashSet<InvokeAction> addList; 
@@ -79442,7 +79442,7 @@ public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefInd
 
 }
 
-public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 5593
+public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 5594
 {
 	public static ListHashSet<T> InstanceList; 
 
@@ -79529,7 +79529,7 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 5593
 
 }
 
-public class PriorityListComponent<T> : ListComponent<T> // TypeDefIndex: 5595
+public class PriorityListComponent<T> : ListComponent<T> // TypeDefIndex: 5596
 {
 	public static T Instance { get; }
 
@@ -79551,7 +79551,7 @@ public class PriorityListComponent<T> : ListComponent<T> // TypeDefIndex: 5595
 
 }
 
-public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex: 5596
+public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex: 5597
 {
 	public static T Instance; 
 
@@ -79581,6 +79581,7 @@ public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex
 	|-SingletonComponent<DemoShotRecorder>.SingletonSetup
 	|-SingletonComponent<Demos>.SingletonSetup
 	|-SingletonComponent<DeveloperTools>.SingletonSetup
+	|-SingletonComponent<DofExposer>.SingletonSetup
 	|-SingletonComponent<DynamicNavMesh>.SingletonSetup
 	|-SingletonComponent<EnvironmentManager>.SingletonSetup
 	|-SingletonComponent<FoliageDisplacementManager>.SingletonSetup
@@ -79692,6 +79693,7 @@ public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex
 	|-SingletonComponent<DemoShotRecorder>.SingletonClear
 	|-SingletonComponent<Demos>.SingletonClear
 	|-SingletonComponent<DeveloperTools>.SingletonClear
+	|-SingletonComponent<DofExposer>.SingletonClear
 	|-SingletonComponent<DynamicNavMesh>.SingletonClear
 	|-SingletonComponent<EnvironmentManager>.SingletonClear
 	|-SingletonComponent<FoliageDisplacementManager>.SingletonClear
@@ -79803,6 +79805,7 @@ public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex
 	|-SingletonComponent<DemoShotRecorder>..ctor
 	|-SingletonComponent<Demos>..ctor
 	|-SingletonComponent<DeveloperTools>..ctor
+	|-SingletonComponent<DofExposer>..ctor
 	|-SingletonComponent<DynamicNavMesh>..ctor
 	|-SingletonComponent<EnvironmentManager>..ctor
 	|-SingletonComponent<FoliageDisplacementManager>..ctor
@@ -79893,7 +79896,7 @@ public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex
 
 }
 
-internal sealed class ElementTryParser<T> : MulticastDelegate // TypeDefIndex: 5764
+internal sealed class ElementTryParser<T> : MulticastDelegate // TypeDefIndex: 5765
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -79934,7 +79937,7 @@ internal sealed class ElementTryParser<T> : MulticastDelegate // TypeDefIndex: 5
 
 }
 
-internal sealed class TryParseDelegate<T> : MulticastDelegate // TypeDefIndex: 5770
+internal sealed class TryParseDelegate<T> : MulticastDelegate // TypeDefIndex: 5771
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -79995,7 +79998,7 @@ internal sealed class TryParseDelegate<T> : MulticastDelegate // TypeDefIndex: 5
 
 }
 
-internal sealed class TryParseListDelegate<T> : MulticastDelegate // TypeDefIndex: 5771
+internal sealed class TryParseListDelegate<T> : MulticastDelegate // TypeDefIndex: 5772
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -80037,7 +80040,7 @@ internal sealed class TryParseListDelegate<T> : MulticastDelegate // TypeDefInde
 
 }
 
-public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 5777
+public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 5778
 {
 	private readonly List<T> list; 
 	private readonly HttpHeaders headers; 
@@ -80143,14 +80146,14 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 
 }
 
-public sealed class JsonDictionaryAttribute : JsonContainerAttribute // TypeDefIndex: 5876
+public sealed class JsonDictionaryAttribute : JsonContainerAttribute // TypeDefIndex: 5877
 {
 
 	public void .ctor() { }
 
 }
 
-internal class ThreadSafeStore<TKey, TValue> // TypeDefIndex: 5941
+internal class ThreadSafeStore<TKey, TValue> // TypeDefIndex: 5942
 {
 	private readonly object _lock; 
 	private Dictionary<TKey, TValue> _store; 
@@ -80202,7 +80205,7 @@ internal class ThreadSafeStore<TKey, TValue> // TypeDefIndex: 5941
 
 }
 
-internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5942
+internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5943
 {
 	private readonly IDictionary<TFirst, TSecond> _firstToSecond; 
 	private readonly IDictionary<TSecond, TFirst> _secondToFirst; 
@@ -80256,7 +80259,7 @@ internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5942
 
 }
 
-internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IWrappedCollection, IList, ICollection // TypeDefIndex: 5951
+internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IWrappedCollection, IList, ICollection // TypeDefIndex: 5952
 {
 	private readonly IList _list; 
 	private readonly ICollection<T> _genericCollection; 
@@ -80422,7 +80425,7 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 
 }
 
-internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IWrappedDictionary, IDictionary, ICollection // TypeDefIndex: 5954
+internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IWrappedDictionary, IDictionary, ICollection // TypeDefIndex: 5955
 {
 	private readonly IDictionary _dictionary; 
 	private readonly IDictionary<TKey, TValue> _genericDictionary; 
@@ -80622,7 +80625,7 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 
 }
 
-private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorKey, TEnumeratorValue> : IDictionaryEnumerator, IEnumerator // TypeDefIndex: 5955
+private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorKey, TEnumeratorValue> : IDictionaryEnumerator, IEnumerator // TypeDefIndex: 5956
 {
 	private readonly IEnumerator<KeyValuePair<TEnumeratorKey, TEnumeratorValue>> _e; 
 
@@ -80676,7 +80679,7 @@ private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorK
 
 }
 
-private sealed class DictionaryWrapper.<>c<TKey, TValue> // TypeDefIndex: 5956
+private sealed class DictionaryWrapper.<>c<TKey, TValue> // TypeDefIndex: 5957
 {
 	public static readonly DictionaryWrapper.<>c<TKey, TValue> <>9; 
 	public static Func<DictionaryEntry, KeyValuePair<TKey, TValue>> <>9__25_0; 
@@ -80702,7 +80705,7 @@ private sealed class DictionaryWrapper.<>c<TKey, TValue> // TypeDefIndex: 5956
 
 }
 
-internal sealed class Creator<T> : MulticastDelegate // TypeDefIndex: 5966
+internal sealed class Creator<T> : MulticastDelegate // TypeDefIndex: 5967
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -80731,7 +80734,7 @@ internal sealed class Creator<T> : MulticastDelegate // TypeDefIndex: 5966
 
 }
 
-public class JsonISerializableContract : JsonContainerContract // TypeDefIndex: 5986
+public class JsonISerializableContract : JsonContainerContract // TypeDefIndex: 5987
 {
 	[CompilerGeneratedAttribute] 
 	private ObjectConstructor<object> <ISerializableCreator>k__BackingField; 
@@ -80749,7 +80752,7 @@ public class JsonISerializableContract : JsonContainerContract // TypeDefIndex: 
 
 }
 
-public class JsonDictionaryContract : JsonContainerContract // TypeDefIndex: 6017
+public class JsonDictionaryContract : JsonContainerContract // TypeDefIndex: 6018
 {
 	[CompilerGeneratedAttribute] 
 	private Func<string, string> <DictionaryKeyResolver>k__BackingField; 
@@ -80834,7 +80837,7 @@ public class JsonDictionaryContract : JsonContainerContract // TypeDefIndex: 601
 
 }
 
-internal static class CachedAttributeGetter<T> // TypeDefIndex: 6035
+internal static class CachedAttributeGetter<T> // TypeDefIndex: 6036
 {
 	private static readonly ThreadSafeStore<object, T> TypeAttributeCache; 
 
@@ -80855,7 +80858,7 @@ internal static class CachedAttributeGetter<T> // TypeDefIndex: 6035
 
 }
 
-public sealed class ObjectConstructor<T> : MulticastDelegate // TypeDefIndex: 6038
+public sealed class ObjectConstructor<T> : MulticastDelegate // TypeDefIndex: 6039
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -80884,7 +80887,7 @@ public sealed class ObjectConstructor<T> : MulticastDelegate // TypeDefIndex: 60
 
 }
 
-public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 6062
+public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 6063
 {
 
 [PreserveAttribute] 
@@ -80940,7 +80943,7 @@ public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable
 
 }
 
-public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex: 6103
+public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex: 6104
 {
 	public override bool CanWrite { get; }
 
@@ -80983,7 +80986,7 @@ public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex
 
 }
 
-public class KeyValuePairConverter : JsonConverter // TypeDefIndex: 6106
+public class KeyValuePairConverter : JsonConverter // TypeDefIndex: 6107
 {
 	private static readonly ThreadSafeStore<Type, ReflectionObject> ReflectionObjectPerType; 
 
@@ -81002,7 +81005,7 @@ public class KeyValuePairConverter : JsonConverter // TypeDefIndex: 6106
 
 }
 
-public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 6222
+public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 6223
 {
 	private static ListHashSet<T> instanceList; 
 
@@ -81041,7 +81044,7 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 6222
 
 }
 
-public class Result<T> // TypeDefIndex: 6263
+public class Result<T> // TypeDefIndex: 6264
 {
 	public bool Running; 
 	public bool Success; 
@@ -81056,7 +81059,7 @@ public class Result<T> // TypeDefIndex: 6263
 
 }
 
-internal sealed class DefaultArrayPool<T> : ArrayPool<T> // TypeDefIndex: 6273
+internal sealed class DefaultArrayPool<T> : ArrayPool<T> // TypeDefIndex: 6274
 {
 	private static T[] s_emptyArray; 
 	private readonly DefaultArrayPool.Bucket<T>[] _buckets; 
@@ -81104,7 +81107,7 @@ internal sealed class DefaultArrayPool<T> : ArrayPool<T> // TypeDefIndex: 6273
 
 }
 
-public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6569
+public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6570
 {
 	protected Queue<T> queue; 
 	protected HashSet<T> containerTest; 
@@ -81198,7 +81201,7 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6569
 
 }
 
-public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6570
+public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6571
 {
 	protected List<T> workList; 
 	public string listName; 
@@ -81287,7 +81290,7 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6570
 
 }
 
-public class WorldSpaceGrid<T> // TypeDefIndex: 6571
+public class WorldSpaceGrid<T> // TypeDefIndex: 6572
 {
 	public T[] Cells; 
 	public float CellSize; 
@@ -81421,7 +81424,7 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6571
 
 }
 
-public class ObjectPool<T> // TypeDefIndex: 6604
+public class ObjectPool<T> // TypeDefIndex: 6605
 {
 	public List<T> list; 
 
@@ -81446,7 +81449,7 @@ public class ObjectPool<T> // TypeDefIndex: 6604
 
 }
 
-public class GameObjectPool<T> : ObjectPool<T> // TypeDefIndex: 6605
+public class GameObjectPool<T> : ObjectPool<T> // TypeDefIndex: 6606
 {
 	private GameObject poolRoot; 
 
@@ -81477,7 +81480,7 @@ public class GameObjectPool<T> : ObjectPool<T> // TypeDefIndex: 6605
 
 }
 
-internal class TweenRunner<T> // TypeDefIndex: 6689
+internal class TweenRunner<T> // TypeDefIndex: 6690
 {
 	protected MonoBehaviour m_CoroutineContainer; 
 	protected IEnumerator m_Tween; 
@@ -81496,7 +81499,7 @@ internal class TweenRunner<T> // TypeDefIndex: 6689
 
 }
 
-public class TimeAverageValueLookup<T> // TypeDefIndex: 6858
+public class TimeAverageValueLookup<T> // TypeDefIndex: 6859
 {
 	public Dictionary<T, TimeAverageValue> dict; 
 
@@ -81533,13 +81536,13 @@ public class TimeAverageValueLookup<T> // TypeDefIndex: 6858
 
 }
 
-internal sealed class Pinnable<T> // TypeDefIndex: 6901
+internal sealed class Pinnable<T> // TypeDefIndex: 6902
 {
 	public T Data; 
 
 }
 
-internal sealed class CircularBuffer<T> // TypeDefIndex: 7626
+internal sealed class CircularBuffer<T> // TypeDefIndex: 7627
 {
 	private readonly int _capacity; 
 	private readonly T[] _buffer; 
@@ -81623,7 +81626,7 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7626
 
 }
 
-internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7635
+internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7636
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -81658,7 +81661,7 @@ internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7635
 
 }
 
-internal struct GameEvent<T> // TypeDefIndex: 7711
+internal struct GameEvent<T> // TypeDefIndex: 7712
 {
 	[CompilerGeneratedAttribute] 
 	private string <GameId>k__BackingField; 
@@ -81734,7 +81737,7 @@ internal struct GameEvent<T> // TypeDefIndex: 7711
 
 }
 
-public class BoneDictionary // TypeDefIndex: 10831
+public class BoneDictionary // TypeDefIndex: 10832
 {
 	public Transform transform; 
 	public Transform[] transforms; 
@@ -81762,7 +81765,7 @@ public class BoneDictionary // TypeDefIndex: 10831
 
 }
 
-public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10858
+public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10859
 {
 	public T component; 
 
@@ -81783,7 +81786,7 @@ public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10858
 
 }
 
-public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 10936
+public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 10937
 {
 	[SerializeField] 
 	private AmplifyOcclusionEffect ssao; 
@@ -82102,7 +82105,7 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 109
 
 }
 
-public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11271
+public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11274
 {
 	protected T owner; 
 	public MetabolismAttribute calories; 
@@ -82146,7 +82149,7 @@ public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11
 
 }
 
-public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 11328
+public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 11331
 {
 
 public abstract class BaseModifiers<T> : EntityComponent<T>
@@ -82269,7 +82272,7 @@ public abstract class BaseModifiers<T> : EntityComponent<T>
 
 }
 
-public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11678
+public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11681
 {
 	public T Component; 
 
@@ -82288,7 +82291,7 @@ public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11678
 
 }
 
-public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12124
+public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12127
 {
 	internal T[] src; 
 	internal T[] dst; 
@@ -82374,7 +82377,7 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12124
 
 }
 
-public static class RecipeDictionary // TypeDefIndex: 12467
+public static class RecipeDictionary // TypeDefIndex: 12470
 {
 	private static Dictionary<uint, Dictionary<int, List<Recipe>>> recipeListsDict; 
 
@@ -82391,7 +82394,7 @@ public static class RecipeDictionary // TypeDefIndex: 12467
 
 }
 
-public struct CachedTransform<T> // TypeDefIndex: 13029
+public struct CachedTransform<T> // TypeDefIndex: 13034
 {
 	public T component; 
 	public Vector3 position; 
@@ -82474,7 +82477,7 @@ public struct CachedTransform<T> // TypeDefIndex: 13029
 
 }
 
-public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13123
+public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13128
 {
 	private NativeArray<T> _array; 
 	private int _length; 
@@ -82568,7 +82571,7 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13123
 
 }
 
-public class PooledList<T> // TypeDefIndex: 13129
+public class PooledList<T> // TypeDefIndex: 13134
 {
 	public List<T> data; 
 
@@ -82617,7 +82620,7 @@ public class PooledList<T> // TypeDefIndex: 13129
 
 }
 
-public class SimpleList<T> // TypeDefIndex: 13132
+public class SimpleList<T> // TypeDefIndex: 13137
 {
 	private const int defaultCapacity = 16;
 	private static readonly T[] emptyArray; 
@@ -82770,7 +82773,7 @@ public class SimpleList<T> // TypeDefIndex: 13132
 
 }
 
-public class TimeCachedValue<T> // TypeDefIndex: 13137
+public class TimeCachedValue<T> // TypeDefIndex: 13142
 {
 	public float refreshCooldown; 
 	public float refreshRandomRange; 
@@ -82801,7 +82804,7 @@ public class TimeCachedValue<T> // TypeDefIndex: 13137
 
 }
 
-public class ResourceRef<T> // TypeDefIndex: 13162
+public class ResourceRef<T> // TypeDefIndex: 13167
 {
 	public string guid; 
 	private T _cachedObject; 
@@ -82853,7 +82856,7 @@ public class ResourceRef<T> // TypeDefIndex: 13162
 
 }
 
-public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13555
+public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13560
 {
 	public T value; 
 
@@ -83120,7 +83123,7 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13555
 
 }
 
-public class GenericLerp<T> : IDisposable // TypeDefIndex: 13850
+public class GenericLerp<T> : IDisposable // TypeDefIndex: 13855
 {
 	private Interpolator<T> interpolator; 
 	private IGenericLerpTarget<T> target; 
@@ -83243,7 +83246,7 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 13850
 
 }
 
-public class Interpolator<T> // TypeDefIndex: 13852
+public class Interpolator<T> // TypeDefIndex: 13857
 {
 	public List<T> list; 
 	public T last; 

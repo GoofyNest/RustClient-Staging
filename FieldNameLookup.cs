@@ -1,4 +1,4 @@
-internal sealed class FieldNameLookup : BasicFieldNameLookup // TypeDefIndex: 4364
+internal sealed class FieldNameLookup : BasicFieldNameLookup // TypeDefIndex: 4365
 {
 	private readonly int _defaultLocaleID; 
 

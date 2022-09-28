@@ -1,4 +1,4 @@
-public class UpdateHandler : SingletonComponent<UpdateHandler> // TypeDefIndex: 13070
+public class UpdateHandler : SingletonComponent<UpdateHandler> // TypeDefIndex: 13075
 {
 	private ListHashSet<UpdateBehaviour> list; 
 

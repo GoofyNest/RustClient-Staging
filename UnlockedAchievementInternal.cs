@@ -1,4 +1,4 @@
-internal struct UnlockedAchievementInternal : IGettable<UnlockedAchievement>, ISettable<UnlockedAchievement>, IDisposable // TypeDefIndex: 9941
+internal struct UnlockedAchievementInternal : IGettable<UnlockedAchievement>, ISettable<UnlockedAchievement>, IDisposable // TypeDefIndex: 9942
 {
 	private int m_ApiVersion; 
 	private IntPtr m_AchievementId; 

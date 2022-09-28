@@ -1,4 +1,4 @@
-public class SubmarineAudio : MonoBehaviour // TypeDefIndex: 11468
+public class SubmarineAudio : MonoBehaviour // TypeDefIndex: 11471
 {
 	[HeaderAttribute] 
 	[SerializeField] 

@@ -1,4 +1,4 @@
-public sealed class StopEvent : SystemRealTimeEvent // TypeDefIndex: 7576
+public sealed class StopEvent : SystemRealTimeEvent // TypeDefIndex: 7577
 {
 
 	public void .ctor() { }

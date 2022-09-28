@@ -1,4 +1,4 @@
-public class SoccerBall : BaseCombatEntity // TypeDefIndex: 11467
+public class SoccerBall : BaseCombatEntity // TypeDefIndex: 11470
 {
 	[HeaderAttribute] 
 	[SerializeField] 

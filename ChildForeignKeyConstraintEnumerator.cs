@@ -1,4 +1,4 @@
-internal sealed class ChildForeignKeyConstraintEnumerator : ForeignKeyConstraintEnumerator // TypeDefIndex: 4181
+internal sealed class ChildForeignKeyConstraintEnumerator : ForeignKeyConstraintEnumerator // TypeDefIndex: 4182
 {
 	private readonly DataTable _table; 
 

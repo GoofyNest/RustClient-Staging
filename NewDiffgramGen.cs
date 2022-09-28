@@ -1,4 +1,4 @@
-internal sealed class NewDiffgramGen // TypeDefIndex: 4333
+internal sealed class NewDiffgramGen // TypeDefIndex: 4334
 {
 	internal XmlDocument _doc; 
 	internal DataSet _ds; 

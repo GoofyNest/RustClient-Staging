@@ -1,4 +1,4 @@
-public class LTGUI // TypeDefIndex: 5590
+public class LTGUI // TypeDefIndex: 5591
 {
 	public static int RECT_LEVELS; 
 	public static int RECTS_PER_LEVEL; 
@@ -52,7 +52,7 @@ public class LTGUI // TypeDefIndex: 5590
 
 }
 
-public enum LTGUI.Element_Type // TypeDefIndex: 5591
+public enum LTGUI.Element_Type // TypeDefIndex: 5592
 {
 	public int value__; 
 	public const LTGUI.Element_Type Texture = 0;

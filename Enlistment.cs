@@ -1,4 +1,4 @@
-public class Enlistment // TypeDefIndex: 3978
+public class Enlistment // TypeDefIndex: 3979
 {
 	internal bool done; 
 

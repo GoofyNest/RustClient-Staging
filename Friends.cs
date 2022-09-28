@@ -1,4 +1,4 @@
-public class Friends : Base // TypeDefIndex: 5289
+public class Friends : Base // TypeDefIndex: 5290
 {
 
 	internal override void LaunchQuery() { }

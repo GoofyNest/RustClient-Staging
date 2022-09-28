@@ -1,4 +1,4 @@
-public struct SubmitSnapshotOptions // TypeDefIndex: 8804
+public struct SubmitSnapshotOptions // TypeDefIndex: 8805
 {
 	[CompilerGeneratedAttribute] 
 	private uint <SnapshotId>k__BackingField; 

@@ -1,4 +1,4 @@
-internal static class StringReferenceExtensions // TypeDefIndex: 5940
+internal static class StringReferenceExtensions // TypeDefIndex: 5941
 {
 
 	[ExtensionAttribute] 

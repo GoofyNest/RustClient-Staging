@@ -1,4 +1,4 @@
-internal enum InputFeatureType // TypeDefIndex: 4144
+internal enum InputFeatureType // TypeDefIndex: 4145
 {
 	public uint value__; 
 	public const InputFeatureType Custom = 0;

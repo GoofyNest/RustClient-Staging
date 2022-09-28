@@ -1,4 +1,4 @@
-public class GrowableHeatSource : EntityComponent<BaseEntity>, IServerComponent // TypeDefIndex: 10413
+public class GrowableHeatSource : EntityComponent<BaseEntity>, IServerComponent // TypeDefIndex: 10414
 {
 	public float heatAmount; 
 

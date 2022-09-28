@@ -1,4 +1,4 @@
-public sealed class PointerDownEvent : PointerEventBase<PointerDownEvent> // TypeDefIndex: 4694
+public sealed class PointerDownEvent : PointerEventBase<PointerDownEvent> // TypeDefIndex: 4695
 {
 
 	protected override void Init() { }

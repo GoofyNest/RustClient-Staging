@@ -1,4 +1,4 @@
-public class PhotoEntity : ImageStorageEntity, IUGCBrowserEntity // TypeDefIndex: 10522
+public class PhotoEntity : ImageStorageEntity, IUGCBrowserEntity // TypeDefIndex: 10523
 {
 	[CompilerGeneratedAttribute] 
 	private ulong <PhotographerSteamId>k__BackingField; 

@@ -1,4 +1,4 @@
-public struct RegisterPlayersOptions // TypeDefIndex: 8525
+public struct RegisterPlayersOptions // TypeDefIndex: 8526
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <SessionName>k__BackingField; 

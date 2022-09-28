@@ -1,4 +1,4 @@
-public class TextTable // TypeDefIndex: 6600
+public class TextTable // TypeDefIndex: 6601
 {
 	private List<TextTable.Row> rows; 
 	private List<TextTable.Column> columns; 
@@ -28,7 +28,7 @@ public class TextTable // TypeDefIndex: 6600
 
 }
 
-private class TextTable.Row // TypeDefIndex: 6601
+private class TextTable.Row // TypeDefIndex: 6602
 {
 	public string[] values; 
 
@@ -37,7 +37,7 @@ private class TextTable.Row // TypeDefIndex: 6601
 
 }
 
-private class TextTable.Column // TypeDefIndex: 6602
+private class TextTable.Column // TypeDefIndex: 6603
 {
 	public string title; 
 	public int width; 

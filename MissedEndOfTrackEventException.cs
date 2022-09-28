@@ -1,4 +1,4 @@
-public sealed class MissedEndOfTrackEventException : MidiException // TypeDefIndex: 7583
+public sealed class MissedEndOfTrackEventException : MidiException // TypeDefIndex: 7584
 {
 
 	internal void .ctor() { }

@@ -1,4 +1,4 @@
-public struct CapsuleParams // TypeDefIndex: 7313
+public struct CapsuleParams // TypeDefIndex: 7314
 {
 	public Transform Transform; 
 	public Vector3 PointA; 

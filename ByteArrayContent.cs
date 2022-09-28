@@ -1,4 +1,4 @@
-public class ByteArrayContent : HttpContent // TypeDefIndex: 5739
+public class ByteArrayContent : HttpContent // TypeDefIndex: 5740
 {
 
 internal class <Module>

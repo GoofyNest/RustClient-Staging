@@ -1,4 +1,4 @@
-public class Elevator : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6390
+public class Elevator : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6391
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -59,7 +59,7 @@ public class Elevator : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6390
 
 }
 
-public class ElevatorLift : BaseCombatEntity // TypeDefIndex: 10091
+public class ElevatorLift : BaseCombatEntity // TypeDefIndex: 10092
 {
 	private Option __menuOption_Menu_LowerElevator; 
 	private Option __menuOption_Menu_LowerElevatorToFloor; 
@@ -143,7 +143,7 @@ public class ElevatorLift : BaseCombatEntity // TypeDefIndex: 10091
 
 }
 
-public class ElevatorLiftStatic : ElevatorLift // TypeDefIndex: 10092
+public class ElevatorLiftStatic : ElevatorLift // TypeDefIndex: 10093
 {
 	private Option __menuOption_Menu_LowerElevatorToFloor; 
 	private Option __menuOption_Menu_RaiseElevatorToTop; 
@@ -175,7 +175,7 @@ public class ElevatorLiftStatic : ElevatorLift // TypeDefIndex: 10092
 
 }
 
-public class Elevator : IOEntity, IFlagNotify // TypeDefIndex: 10399
+public class Elevator : IOEntity, IFlagNotify // TypeDefIndex: 10400
 {
 	public Transform LiftRoot; 
 	public GameObjectRef LiftEntityPrefab; 
@@ -235,7 +235,7 @@ public class Elevator : IOEntity, IFlagNotify // TypeDefIndex: 10399
 
 }
 
-public enum Elevator.Direction // TypeDefIndex: 10400
+public enum Elevator.Direction // TypeDefIndex: 10401
 {
 	public int value__; 
 	public const Elevator.Direction Up = 0;
@@ -243,7 +243,7 @@ public enum Elevator.Direction // TypeDefIndex: 10400
 
 }
 
-public class ElevatorStatic : Elevator // TypeDefIndex: 10401
+public class ElevatorStatic : Elevator // TypeDefIndex: 10402
 {
 	public bool StaticTop; 
 	private const BaseEntity.Flags LiftRecentlyArrived = 512;
@@ -257,7 +257,7 @@ public class ElevatorStatic : Elevator // TypeDefIndex: 10401
 
 }
 
-public class ElevatorIOEntity : IOEntity // TypeDefIndex: 11507
+public class ElevatorIOEntity : IOEntity // TypeDefIndex: 11510
 {
 	public int Consumption; 
 

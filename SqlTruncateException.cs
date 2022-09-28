@@ -1,4 +1,4 @@
-public sealed class SqlTruncateException : SqlTypeException // TypeDefIndex: 4359
+public sealed class SqlTruncateException : SqlTypeException // TypeDefIndex: 4360
 {
 
 	public void .ctor() { }

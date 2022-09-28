@@ -1,4 +1,4 @@
-public class ArcadeClientAuthTest : ArcadeEntityController // TypeDefIndex: 10465
+public class ArcadeClientAuthTest : ArcadeEntityController // TypeDefIndex: 10466
 {
 	public float speed; 
 	public float maxSpeed; 

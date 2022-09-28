@@ -1,4 +1,4 @@
-public sealed class OnSubmitSnapshotCallback : MulticastDelegate // TypeDefIndex: 8799
+public sealed class OnSubmitSnapshotCallback : MulticastDelegate // TypeDefIndex: 8800
 {
 
 	public void .ctor(object object, IntPtr method) { }

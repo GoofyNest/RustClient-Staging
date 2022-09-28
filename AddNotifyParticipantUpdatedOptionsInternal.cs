@@ -1,4 +1,4 @@
-internal struct AddNotifyParticipantUpdatedOptionsInternal : ISettable<AddNotifyParticipantUpdatedOptions>, IDisposable // TypeDefIndex: 8640
+internal struct AddNotifyParticipantUpdatedOptionsInternal : ISettable<AddNotifyParticipantUpdatedOptions>, IDisposable // TypeDefIndex: 8641
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

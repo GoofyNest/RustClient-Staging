@@ -1,4 +1,4 @@
-public struct SqlMoney : INullable, IComparable, IXmlSerializable // TypeDefIndex: 4352
+public struct SqlMoney : INullable, IComparable, IXmlSerializable // TypeDefIndex: 4353
 {
 	private bool _fNotNull; 
 	private long _value; 

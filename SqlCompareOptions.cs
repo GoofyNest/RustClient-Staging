@@ -1,4 +1,4 @@
-public enum SqlCompareOptions // TypeDefIndex: 4354
+public enum SqlCompareOptions // TypeDefIndex: 4355
 {
 	public int value__; 
 	public const SqlCompareOptions None = 0;

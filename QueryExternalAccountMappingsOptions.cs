@@ -1,4 +1,4 @@
-public struct QueryExternalAccountMappingsOptions // TypeDefIndex: 9614
+public struct QueryExternalAccountMappingsOptions // TypeDefIndex: 9615
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

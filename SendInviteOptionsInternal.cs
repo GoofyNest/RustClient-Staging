@@ -1,4 +1,4 @@
-internal struct SendInviteOptionsInternal : ISettable<SendInviteOptions>, IDisposable // TypeDefIndex: 8534
+internal struct SendInviteOptionsInternal : ISettable<SendInviteOptions>, IDisposable // TypeDefIndex: 8535
 {
 	private int m_ApiVersion; 
 	private IntPtr m_SessionName; 
@@ -24,7 +24,7 @@ internal struct SendInviteOptionsInternal : ISettable<SendInviteOptions>, IDispo
 
 }
 
-internal struct SendInviteOptionsInternal : ISettable<SendInviteOptions>, IDisposable // TypeDefIndex: 9256
+internal struct SendInviteOptionsInternal : ISettable<SendInviteOptions>, IDisposable // TypeDefIndex: 9257
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LobbyId; 
@@ -50,7 +50,7 @@ internal struct SendInviteOptionsInternal : ISettable<SendInviteOptions>, IDispo
 
 }
 
-internal struct SendInviteOptionsInternal : ISettable<SendInviteOptions>, IDisposable // TypeDefIndex: 9405
+internal struct SendInviteOptionsInternal : ISettable<SendInviteOptions>, IDisposable // TypeDefIndex: 9406
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

@@ -1,4 +1,4 @@
-public struct SkeletonBone // TypeDefIndex: 4493
+public struct SkeletonBone // TypeDefIndex: 4494
 {
 
 [RequiredByNativeCodeAttribute] 

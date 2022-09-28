@@ -1,4 +1,4 @@
-internal class MouseEventDispatchingStrategy : IEventDispatchingStrategy // TypeDefIndex: 4669
+internal class MouseEventDispatchingStrategy : IEventDispatchingStrategy // TypeDefIndex: 4670
 {
 
 	public bool CanDispatchEvent(EventBase evt) { }

@@ -1,4 +1,4 @@
-public class VersionNotFoundException : DataException // TypeDefIndex: 4202
+public class VersionNotFoundException : DataException // TypeDefIndex: 4203
 {
 
 	protected void .ctor(SerializationInfo info, StreamingContext context) { }

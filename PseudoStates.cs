@@ -1,4 +1,4 @@
-internal enum PseudoStates // TypeDefIndex: 4612
+internal enum PseudoStates // TypeDefIndex: 4613
 {
 	public int value__; 
 	public const PseudoStates Active = 1;

@@ -1,4 +1,4 @@
-public static class SmfConstants // TypeDefIndex: 7623
+public static class SmfConstants // TypeDefIndex: 7624
 {
 	public static Encoding DefaultTextEncoding { get; }
 

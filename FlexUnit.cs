@@ -1,4 +1,4 @@
-public enum FlexUnit // TypeDefIndex: 6822
+public enum FlexUnit // TypeDefIndex: 6823
 {
 	public int value__; 
 	[InspectorNameAttribute] 

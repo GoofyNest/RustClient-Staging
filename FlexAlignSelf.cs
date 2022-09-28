@@ -1,4 +1,4 @@
-public struct FlexAlignSelf // TypeDefIndex: 6810
+public struct FlexAlignSelf // TypeDefIndex: 6811
 {
 	public bool HasValue; 
 	public FlexAlign Value; 

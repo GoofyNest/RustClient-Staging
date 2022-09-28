@@ -1,4 +1,4 @@
-internal struct LicensesUpdated_t : ICallbackData // TypeDefIndex: 5301
+internal struct LicensesUpdated_t : ICallbackData // TypeDefIndex: 5302
 {
 	public static int _datasize; 
 

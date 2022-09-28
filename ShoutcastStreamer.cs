@@ -1,4 +1,4 @@
-public class ShoutcastStreamer : MonoBehaviour, IClientComponent // TypeDefIndex: 10726
+public class ShoutcastStreamer : MonoBehaviour, IClientComponent // TypeDefIndex: 10727
 {
 	public string Host; 
 	public AudioSource Source; 
@@ -85,7 +85,7 @@ public class ShoutcastStreamer : MonoBehaviour, IClientComponent // TypeDefIndex
 
 }
 
-private struct ShoutcastStreamer.<ReadData>d__46 : IAsyncStateMachine // TypeDefIndex: 10727
+private struct ShoutcastStreamer.<ReadData>d__46 : IAsyncStateMachine // TypeDefIndex: 10728
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 

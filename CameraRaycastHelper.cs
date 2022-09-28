@@ -1,4 +1,4 @@
-internal class CameraRaycastHelper // TypeDefIndex: 4076
+internal class CameraRaycastHelper // TypeDefIndex: 4077
 {
 
 	[FreeFunctionAttribute] 

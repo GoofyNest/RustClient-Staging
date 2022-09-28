@@ -1,4 +1,4 @@
-public struct VideoClipPlayable : IEquatable<VideoClipPlayable> // TypeDefIndex: 4776
+public struct VideoClipPlayable : IEquatable<VideoClipPlayable> // TypeDefIndex: 4777
 {
 
 [StaticAccessorAttribute] 

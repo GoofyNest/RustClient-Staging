@@ -1,4 +1,4 @@
-public struct RaycastCommand // TypeDefIndex: 3937
+public struct RaycastCommand // TypeDefIndex: 3938
 {
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 

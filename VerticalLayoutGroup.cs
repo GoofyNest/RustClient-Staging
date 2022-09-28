@@ -1,4 +1,4 @@
-public class VerticalLayoutGroup : HorizontalOrVerticalLayoutGroup // TypeDefIndex: 4986
+public class VerticalLayoutGroup : HorizontalOrVerticalLayoutGroup // TypeDefIndex: 4987
 {
 
 	protected void .ctor() { }

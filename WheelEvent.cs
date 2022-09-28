@@ -1,4 +1,4 @@
-public class WheelEvent : MouseEventBase<WheelEvent> // TypeDefIndex: 4677
+public class WheelEvent : MouseEventBase<WheelEvent> // TypeDefIndex: 4678
 {
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 

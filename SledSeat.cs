@@ -1,4 +1,4 @@
-public class SledSeat : BaseVehicleSeat // TypeDefIndex: 10544
+public class SledSeat : BaseVehicleSeat // TypeDefIndex: 10545
 {
 	public Transform LeftHand; 
 	public Transform RightHand; 

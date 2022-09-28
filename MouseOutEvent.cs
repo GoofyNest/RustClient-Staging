@@ -1,4 +1,4 @@
-public class MouseOutEvent : MouseEventBase<MouseOutEvent> // TypeDefIndex: 4683
+public class MouseOutEvent : MouseEventBase<MouseOutEvent> // TypeDefIndex: 4684
 {
 
 	public void .ctor() { }

@@ -1,4 +1,4 @@
-internal struct SearchForGameProgressCallback_t : ICallbackData // TypeDefIndex: 5350
+internal struct SearchForGameProgressCallback_t : ICallbackData // TypeDefIndex: 5351
 {
 	internal ulong LSearchID; 
 	internal Result Result; 

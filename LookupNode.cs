@@ -1,4 +1,4 @@
-internal sealed class LookupNode : ExpressionNode // TypeDefIndex: 4265
+internal sealed class LookupNode : ExpressionNode // TypeDefIndex: 4266
 {
 	private readonly string _relationName; 
 	private readonly string _columnName; 

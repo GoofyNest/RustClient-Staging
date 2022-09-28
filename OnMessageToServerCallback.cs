@@ -1,4 +1,4 @@
-public sealed class OnMessageToServerCallback : MulticastDelegate // TypeDefIndex: 9823
+public sealed class OnMessageToServerCallback : MulticastDelegate // TypeDefIndex: 9824
 {
 
 	public void .ctor(object object, IntPtr method) { }

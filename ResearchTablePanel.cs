@@ -1,4 +1,4 @@
-public class ResearchTablePanel : LootPanel // TypeDefIndex: 12775
+public class ResearchTablePanel : LootPanel // TypeDefIndex: 12780
 {
 	public Button researchButton; 
 	public Text timerText; 

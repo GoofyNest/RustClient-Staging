@@ -1,4 +1,4 @@
-public class KeyUpEvent : KeyboardEventBase<KeyUpEvent> // TypeDefIndex: 4666
+public class KeyUpEvent : KeyboardEventBase<KeyUpEvent> // TypeDefIndex: 4667
 {
 
 	public void .ctor() { }

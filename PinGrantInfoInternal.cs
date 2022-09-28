@@ -1,4 +1,4 @@
-internal struct PinGrantInfoInternal : IGettable<PinGrantInfo>, ISettable<PinGrantInfo>, IDisposable // TypeDefIndex: 9686
+internal struct PinGrantInfoInternal : IGettable<PinGrantInfo>, ISettable<PinGrantInfo>, IDisposable // TypeDefIndex: 9687
 {
 	private int m_ApiVersion; 
 	private IntPtr m_UserCode; 

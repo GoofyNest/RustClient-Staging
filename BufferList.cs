@@ -1,4 +1,4 @@
-public struct BufferList.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposable // TypeDefIndex: 4797
+public struct BufferList.Enumerator<T> : IEnumerator<T>, IEnumerator, IDisposable // TypeDefIndex: 4798
 {
 	private readonly BufferList<T> list; 
 	private int index; 

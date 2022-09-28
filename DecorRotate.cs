@@ -1,4 +1,4 @@
-public class DecorRotate : DecorComponent // TypeDefIndex: 12040
+public class DecorRotate : DecorComponent // TypeDefIndex: 12043
 {
 	public Vector3 MinRotation; 
 	public Vector3 MaxRotation; 

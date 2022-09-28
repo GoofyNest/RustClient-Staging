@@ -1,4 +1,4 @@
-internal struct LogEventOptionsInternal : ISettable<LogEventOptions>, IDisposable // TypeDefIndex: 9753
+internal struct LogEventOptionsInternal : ISettable<LogEventOptions>, IDisposable // TypeDefIndex: 9754
 {
 	private int m_ApiVersion; 
 	private IntPtr m_ClientHandle; 

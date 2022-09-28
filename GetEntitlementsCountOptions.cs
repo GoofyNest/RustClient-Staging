@@ -1,4 +1,4 @@
-public struct GetEntitlementsCountOptions // TypeDefIndex: 9450
+public struct GetEntitlementsCountOptions // TypeDefIndex: 9451
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

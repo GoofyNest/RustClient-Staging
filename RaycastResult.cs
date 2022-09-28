@@ -1,4 +1,4 @@
-public struct RaycastResult // TypeDefIndex: 5092
+public struct RaycastResult // TypeDefIndex: 5093
 {
 	private GameObject m_GameObject; 
 	public BaseRaycaster module; 

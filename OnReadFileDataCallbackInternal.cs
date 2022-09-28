@@ -1,4 +1,4 @@
-internal sealed class OnReadFileDataCallbackInternal : MulticastDelegate // TypeDefIndex: 8397
+internal sealed class OnReadFileDataCallbackInternal : MulticastDelegate // TypeDefIndex: 8398
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -11,7 +11,7 @@ internal sealed class OnReadFileDataCallbackInternal : MulticastDelegate // Type
 
 }
 
-internal sealed class OnReadFileDataCallbackInternal : MulticastDelegate // TypeDefIndex: 8894
+internal sealed class OnReadFileDataCallbackInternal : MulticastDelegate // TypeDefIndex: 8895
 {
 
 	public void .ctor(object object, IntPtr method) { }

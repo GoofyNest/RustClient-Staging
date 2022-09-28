@@ -1,4 +1,4 @@
-public static class SubsystemManager // TypeDefIndex: 3946
+public static class SubsystemManager // TypeDefIndex: 3947
 {
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 

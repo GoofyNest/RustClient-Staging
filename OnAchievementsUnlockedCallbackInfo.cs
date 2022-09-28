@@ -1,4 +1,4 @@
-public struct OnAchievementsUnlockedCallbackInfo : ICallbackInfo // TypeDefIndex: 9910
+public struct OnAchievementsUnlockedCallbackInfo : ICallbackInfo // TypeDefIndex: 9911
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

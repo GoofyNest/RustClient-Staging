@@ -1,4 +1,4 @@
-public sealed class PointerMoveEvent : PointerEventBase<PointerMoveEvent> // TypeDefIndex: 4695
+public sealed class PointerMoveEvent : PointerEventBase<PointerMoveEvent> // TypeDefIndex: 4696
 {
 
 	protected override void Init() { }

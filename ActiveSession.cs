@@ -1,4 +1,4 @@
-public sealed class ActiveSession : Handle // TypeDefIndex: 8438
+public sealed class ActiveSession : Handle // TypeDefIndex: 8439
 {
 	public const int ActivesessionCopyinfoApiLatest = 1;
 	public const int ActivesessionGetregisteredplayerbyindexApiLatest = 1;

@@ -1,4 +1,4 @@
-public class History : Base // TypeDefIndex: 5290
+public class History : Base // TypeDefIndex: 5291
 {
 
 	internal override void LaunchQuery() { }

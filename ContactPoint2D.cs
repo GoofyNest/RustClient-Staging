@@ -1,4 +1,4 @@
-public struct ContactPoint2D // TypeDefIndex: 4085
+public struct ContactPoint2D // TypeDefIndex: 4086
 {
 	[NativeNameAttribute] 
 	private Vector2 m_Point; 

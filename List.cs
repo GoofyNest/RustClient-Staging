@@ -2259,7 +2259,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 
 }
 
-public static class List // TypeDefIndex: 4846
+public static class List // TypeDefIndex: 4847
 {
 
 	[ExtensionAttribute] 

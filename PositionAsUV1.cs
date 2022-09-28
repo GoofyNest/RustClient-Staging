@@ -1,4 +1,4 @@
-public class PositionAsUV1 : BaseMeshEffect // TypeDefIndex: 5038
+public class PositionAsUV1 : BaseMeshEffect // TypeDefIndex: 5039
 {
 
 	protected void .ctor() { }

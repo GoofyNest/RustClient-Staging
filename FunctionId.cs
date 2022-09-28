@@ -1,4 +1,4 @@
-internal enum FunctionId // TypeDefIndex: 4262
+internal enum FunctionId // TypeDefIndex: 4263
 {
 	public int value__; 
 	public const FunctionId none = -1;

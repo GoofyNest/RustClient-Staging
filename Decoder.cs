@@ -49,7 +49,7 @@ public abstract class Decoder // TypeDefIndex: 433
 
 }
 
-public class Decoder // TypeDefIndex: 7394
+public class Decoder // TypeDefIndex: 7395
 {
 	private static readonly Decoder.Params DecoderDefaultParams; 
 	private Equalizer _Equalizer; 
@@ -87,7 +87,7 @@ public class Decoder // TypeDefIndex: 7394
 
 }
 
-public class Decoder.Params : ICloneable // TypeDefIndex: 7395
+public class Decoder.Params : ICloneable // TypeDefIndex: 7396
 {
 	private OutputChannels _OutputChannels; 
 	private readonly Equalizer _Equalizer; 
@@ -103,7 +103,7 @@ public class Decoder.Params : ICloneable // TypeDefIndex: 7395
 
 }
 
-public sealed class Decoder : IDisposable // TypeDefIndex: 13298
+public sealed class Decoder : IDisposable // TypeDefIndex: 13303
 {
 	private const string whiteSpace = " \t\n\r";
 	private const string wordBreak = " \t\n\r{}[],:\"";
@@ -145,7 +145,7 @@ public sealed class Decoder : IDisposable // TypeDefIndex: 13298
 
 }
 
-private enum Decoder.Token // TypeDefIndex: 13299
+private enum Decoder.Token // TypeDefIndex: 13304
 {
 	public int value__; 
 	public const Decoder.Token None = 0;

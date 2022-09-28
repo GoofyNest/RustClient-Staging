@@ -1,4 +1,4 @@
-public struct GetExternalAccountMappingsOptions // TypeDefIndex: 9570
+public struct GetExternalAccountMappingsOptions // TypeDefIndex: 9571
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

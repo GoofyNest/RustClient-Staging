@@ -1,4 +1,4 @@
-internal enum Tokens // TypeDefIndex: 4255
+internal enum Tokens // TypeDefIndex: 4256
 {
 	public int value__; 
 	public const Tokens None = 0;

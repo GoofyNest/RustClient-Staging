@@ -1,4 +1,4 @@
-public enum ParticleSystemSimulationSpace // TypeDefIndex: 4544
+public enum ParticleSystemSimulationSpace // TypeDefIndex: 4545
 {
 	public int value__; 
 	public const ParticleSystemSimulationSpace Local = 0;

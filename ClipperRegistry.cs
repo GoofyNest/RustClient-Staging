@@ -1,4 +1,4 @@
-public class ClipperRegistry // TypeDefIndex: 4915
+public class ClipperRegistry // TypeDefIndex: 4916
 {
 	private static ClipperRegistry s_Instance; 
 	private readonly IndexedSet<IClipper> m_Clippers; 

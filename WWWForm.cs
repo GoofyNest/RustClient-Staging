@@ -1,4 +1,4 @@
-public class WWWForm // TypeDefIndex: 4127
+public class WWWForm // TypeDefIndex: 4128
 {
 	private List<byte[]> formData; 
 	private List<string> fieldNames; 

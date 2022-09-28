@@ -1,4 +1,4 @@
-public class SnowMachine : FogMachine // TypeDefIndex: 10545
+public class SnowMachine : FogMachine // TypeDefIndex: 10546
 {
 	public AdaptMeshToTerrain snowMesh; 
 	public TriggerTemperature tempTrigger; 

@@ -1,4 +1,4 @@
-public struct PlayableHandle : IEquatable<PlayableHandle> // TypeDefIndex: 3872
+public struct PlayableHandle : IEquatable<PlayableHandle> // TypeDefIndex: 3873
 {
 	internal IntPtr m_Handle; 
 	internal uint m_Version; 

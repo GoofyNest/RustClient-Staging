@@ -1,4 +1,4 @@
-public class UploadHandler : IDisposable // TypeDefIndex: 4136
+public class UploadHandler : IDisposable // TypeDefIndex: 4137
 {
 	internal IntPtr m_Ptr; 
 

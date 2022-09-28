@@ -1,4 +1,4 @@
-public class LayoutRebuilder : ICanvasElement // TypeDefIndex: 4982
+public class LayoutRebuilder : ICanvasElement // TypeDefIndex: 4983
 {
 	private RectTransform m_ToRebuild; 
 	private int m_CachedHashFromTransform; 
@@ -49,7 +49,7 @@ public class LayoutRebuilder : ICanvasElement // TypeDefIndex: 4982
 
 }
 
-private sealed class LayoutRebuilder.<>c // TypeDefIndex: 4983
+private sealed class LayoutRebuilder.<>c // TypeDefIndex: 4984
 {
 	public static readonly LayoutRebuilder.<>c <>9; 
 	public static Predicate<Component> <>9__10_0; 

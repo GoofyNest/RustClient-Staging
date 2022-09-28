@@ -1,4 +1,4 @@
-public enum MeshVertexAttributes // TypeDefIndex: 4162
+public enum MeshVertexAttributes // TypeDefIndex: 4163
 {
 	public int value__; 
 	public const MeshVertexAttributes None = 0;

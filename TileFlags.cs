@@ -1,4 +1,4 @@
-public enum TileFlags // TypeDefIndex: 4572
+public enum TileFlags // TypeDefIndex: 4573
 {
 	public int value__; 
 	public const TileFlags None = 0;

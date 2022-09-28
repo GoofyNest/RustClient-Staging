@@ -1,4 +1,4 @@
-internal struct JoinLobbyAcceptedCallbackInfoInternal : ICallbackInfoInternal, IGettable<JoinLobbyAcceptedCallbackInfo>, ISettable<JoinLobbyAcceptedCallbackInfo>, IDisposable // TypeDefIndex: 9101
+internal struct JoinLobbyAcceptedCallbackInfoInternal : ICallbackInfoInternal, IGettable<JoinLobbyAcceptedCallbackInfo>, ISettable<JoinLobbyAcceptedCallbackInfo>, IDisposable // TypeDefIndex: 9102
 {
 	private IntPtr m_ClientData; 
 	private IntPtr m_LocalUserId; 

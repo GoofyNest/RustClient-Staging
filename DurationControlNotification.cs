@@ -1,4 +1,4 @@
-internal enum DurationControlNotification // TypeDefIndex: 5147
+internal enum DurationControlNotification // TypeDefIndex: 5148
 {
 	public int value__; 
 	public const DurationControlNotification None = 0;

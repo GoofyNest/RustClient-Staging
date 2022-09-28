@@ -216,16 +216,16 @@ public sealed class GameObject : Object
 	|-GameObject.GetComponent<object>
 	*/
 
-	[TypeInferenceRuleAttribute] 
 	[FreeFunctionAttribute] 
+	[TypeInferenceRuleAttribute] 
 	public Component GetComponent(Type type) { }
 
-	[FreeFunctionAttribute] 
 	[NativeWritableSelfAttribute] 
+	[FreeFunctionAttribute] 
 	internal void GetComponentFastPath(Type type, IntPtr oneFurtherThanResultValue) { }
 
-	[FreeFunctionAttribute] 
 	[TypeInferenceRuleAttribute] 
+	[FreeFunctionAttribute] 
 	public Component GetComponentInChildren(Type type, bool includeInactive) { }
 
 	[ExcludeFromDocsAttribute] 
@@ -260,8 +260,8 @@ public sealed class GameObject : Object
 	|-GameObject.GetComponentInChildren<object>
 	*/
 
-	[TypeInferenceRuleAttribute] 
 	[FreeFunctionAttribute] 
+	[TypeInferenceRuleAttribute] 
 	public Component GetComponentInParent(Type type) { }
 
 	public T GetComponentInParent<T>() { }

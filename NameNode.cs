@@ -1,4 +1,4 @@
-internal sealed class NameNode : ExpressionNode // TypeDefIndex: 4266
+internal sealed class NameNode : ExpressionNode // TypeDefIndex: 4267
 {
 	internal string _name; 
 	internal bool _found; 

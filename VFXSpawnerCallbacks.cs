@@ -1,4 +1,4 @@
-public abstract class VFXSpawnerCallbacks : ScriptableObject // TypeDefIndex: 4764
+public abstract class VFXSpawnerCallbacks : ScriptableObject // TypeDefIndex: 4765
 {
 
 [RequiredByNativeCodeAttribute] 

@@ -1,4 +1,4 @@
-public struct AnimatorControllerPlayable : IEquatable<AnimatorControllerPlayable> // TypeDefIndex: 4516
+public struct AnimatorControllerPlayable : IEquatable<AnimatorControllerPlayable> // TypeDefIndex: 4517
 {
 	private PlayableHandle m_Handle; 
 	private static readonly AnimatorControllerPlayable m_NullPlayable; 

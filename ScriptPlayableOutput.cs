@@ -1,4 +1,4 @@
-public struct ScriptPlayableOutput // TypeDefIndex: 3875
+public struct ScriptPlayableOutput // TypeDefIndex: 3876
 {
 	private PlayableOutputHandle m_Handle; 
 

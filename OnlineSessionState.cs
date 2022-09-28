@@ -1,4 +1,4 @@
-public enum OnlineSessionState // TypeDefIndex: 8518
+public enum OnlineSessionState // TypeDefIndex: 8519
 {
 	public int value__; 
 	public const OnlineSessionState NoSession = 0;

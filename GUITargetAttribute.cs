@@ -1,4 +1,4 @@
-public class GUITargetAttribute : Attribute // TypeDefIndex: 4052
+public class GUITargetAttribute : Attribute // TypeDefIndex: 4053
 {
 	internal int displayMask; 
 

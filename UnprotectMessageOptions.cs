@@ -1,4 +1,4 @@
-public struct UnprotectMessageOptions // TypeDefIndex: 9734
+public struct UnprotectMessageOptions // TypeDefIndex: 9735
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <ClientHandle>k__BackingField; 
@@ -32,7 +32,7 @@ public struct UnprotectMessageOptions // TypeDefIndex: 9734
 
 }
 
-public struct UnprotectMessageOptions // TypeDefIndex: 9841
+public struct UnprotectMessageOptions // TypeDefIndex: 9842
 {
 	[CompilerGeneratedAttribute] 
 	private ArraySegment<byte> <Data>k__BackingField; 

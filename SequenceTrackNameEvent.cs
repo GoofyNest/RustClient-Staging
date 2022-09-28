@@ -1,4 +1,4 @@
-public sealed class SequenceTrackNameEvent : BaseTextEvent // TypeDefIndex: 7551
+public sealed class SequenceTrackNameEvent : BaseTextEvent // TypeDefIndex: 7552
 {
 
 	public void .ctor() { }

@@ -1,4 +1,4 @@
-public class MeshHolder // TypeDefIndex: 13258
+public class MeshHolder // TypeDefIndex: 13263
 {
 	[HideInInspector] 
 	public Vector3[] _vertices; 

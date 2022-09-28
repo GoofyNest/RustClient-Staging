@@ -1,4 +1,4 @@
-public sealed class NavMeshPath // TypeDefIndex: 4446
+public sealed class NavMeshPath // TypeDefIndex: 4447
 {
 
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=38
@@ -21,7 +21,7 @@ public sealed class NavMeshPath
 
 }
 
-public static class NavMeshBuilder // TypeDefIndex: 4447
+public static class NavMeshBuilder // TypeDefIndex: 4448
 {
 
 	public static void CollectSources(Bounds includedWorldBounds, int includedLayerMask, NavMeshCollectGeometry geometry, int defaultArea, List<NavMeshBuildMarkup> markups, List<NavMeshBuildSource> results) { }
@@ -46,7 +46,7 @@ public static class NavMeshBuilder // TypeDefIndex: 4447
 
 }
 
-public sealed class NavMeshAgent : Behaviour // TypeDefIndex: 4448
+public sealed class NavMeshAgent : Behaviour // TypeDefIndex: 4449
 {
 	public bool isOnOffMeshLink { get; }
 
@@ -56,7 +56,7 @@ public sealed class NavMeshAgent : Behaviour // TypeDefIndex: 4448
 
 }
 
-public struct NavMeshHit // TypeDefIndex: 4450
+public struct NavMeshHit // TypeDefIndex: 4451
 {
 
 [MovedFromAttribute] 
@@ -77,7 +77,7 @@ public struct NavMeshHit
 
 }
 
-public sealed class NavMeshData : Object // TypeDefIndex: 4451
+public sealed class NavMeshData : Object // TypeDefIndex: 4452
 {
 	public Vector3 position { set; }
 	public Quaternion rotation { set; }
@@ -98,7 +98,7 @@ public sealed class NavMeshData : Object // TypeDefIndex: 4451
 
 }
 
-public struct NavMeshDataInstance // TypeDefIndex: 4452
+public struct NavMeshDataInstance // TypeDefIndex: 4453
 {
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
@@ -123,7 +123,7 @@ public struct NavMeshDataInstance // TypeDefIndex: 4452
 
 }
 
-public struct NavMeshLinkData // TypeDefIndex: 4453
+public struct NavMeshLinkData // TypeDefIndex: 4454
 {
 	private Vector3 m_StartPosition; 
 	private Vector3 m_EndPosition; 
@@ -158,7 +158,7 @@ public struct NavMeshLinkData // TypeDefIndex: 4453
 
 }
 
-public struct NavMeshLinkInstance // TypeDefIndex: 4454
+public struct NavMeshLinkInstance // TypeDefIndex: 4455
 {
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
@@ -183,7 +183,7 @@ public struct NavMeshLinkInstance // TypeDefIndex: 4454
 
 }
 
-public struct NavMeshQueryFilter // TypeDefIndex: 4455
+public struct NavMeshQueryFilter // TypeDefIndex: 4456
 {
 	private const int k_AreaCostElementCount = 32;
 	[DebuggerBrowsableAttribute] 
@@ -198,7 +198,7 @@ public struct NavMeshQueryFilter // TypeDefIndex: 4455
 
 }
 
-public static class NavMesh // TypeDefIndex: 4456
+public static class NavMesh // TypeDefIndex: 4457
 {
 	public static NavMesh.OnNavMeshPreUpdate onPreUpdate; 
 
@@ -257,7 +257,7 @@ public static class NavMesh // TypeDefIndex: 4456
 
 }
 
-public sealed class NavMesh.OnNavMeshPreUpdate : MulticastDelegate // TypeDefIndex: 4457
+public sealed class NavMesh.OnNavMeshPreUpdate : MulticastDelegate // TypeDefIndex: 4458
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -270,7 +270,7 @@ public sealed class NavMesh.OnNavMeshPreUpdate : MulticastDelegate // TypeDefInd
 
 }
 
-public enum NavMeshBuildSourceShape // TypeDefIndex: 4458
+public enum NavMeshBuildSourceShape // TypeDefIndex: 4459
 {
 	public int value__; 
 	public const NavMeshBuildSourceShape Mesh = 0;
@@ -282,7 +282,7 @@ public enum NavMeshBuildSourceShape // TypeDefIndex: 4458
 
 }
 
-public enum NavMeshCollectGeometry // TypeDefIndex: 4459
+public enum NavMeshCollectGeometry // TypeDefIndex: 4460
 {
 	public int value__; 
 	public const NavMeshCollectGeometry RenderMeshes = 0;
@@ -290,7 +290,7 @@ public enum NavMeshCollectGeometry // TypeDefIndex: 4459
 
 }
 
-public struct NavMeshBuildSource // TypeDefIndex: 4460
+public struct NavMeshBuildSource // TypeDefIndex: 4461
 {
 	private Matrix4x4 m_Transform; 
 	private Vector3 m_Size; 
@@ -335,7 +335,7 @@ public struct NavMeshBuildSource // TypeDefIndex: 4460
 
 }
 
-public struct NavMeshBuildMarkup // TypeDefIndex: 4461
+public struct NavMeshBuildMarkup // TypeDefIndex: 4462
 {
 	private int m_OverrideArea; 
 	private int m_Area; 
@@ -358,7 +358,7 @@ public struct NavMeshBuildMarkup // TypeDefIndex: 4461
 
 }
 
-public struct NavMeshBuildSettings // TypeDefIndex: 4462
+public struct NavMeshBuildSettings // TypeDefIndex: 4463
 {
 	private int m_AgentTypeID; 
 	private float m_AgentRadius; 
@@ -396,13 +396,13 @@ public struct NavMeshBuildSettings // TypeDefIndex: 4462
 
 }
 
-public struct NavMeshBuildDebugSettings // TypeDefIndex: 4463
+public struct NavMeshBuildDebugSettings // TypeDefIndex: 4464
 {
 	private byte m_Flags; 
 
 }
 
-public class NavMeshLink : MonoBehaviour // TypeDefIndex: 8150
+public class NavMeshLink : MonoBehaviour // TypeDefIndex: 8151
 {
 	[CompilerGeneratedAttribute] 
 	private bool <UpdateOnTransformChanged>k__BackingField; 
@@ -502,7 +502,7 @@ public class NavMeshLink : MonoBehaviour // TypeDefIndex: 8150
 
 }
 
-public class NavMeshModifier : MonoBehaviour // TypeDefIndex: 8151
+public class NavMeshModifier : MonoBehaviour // TypeDefIndex: 8152
 {
 	[SerializeField] 
 	private bool m_OverrideArea; 
@@ -546,7 +546,7 @@ public class NavMeshModifier : MonoBehaviour // TypeDefIndex: 8151
 
 }
 
-public class NavMeshModifierVolume : MonoBehaviour // TypeDefIndex: 8152
+public class NavMeshModifierVolume : MonoBehaviour // TypeDefIndex: 8153
 {
 	[SerializeField] 
 	private Vector3 m_Size; 
@@ -594,7 +594,7 @@ public class NavMeshModifierVolume : MonoBehaviour // TypeDefIndex: 8152
 
 }
 
-public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8154
+public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8155
 {
 	[CompilerGeneratedAttribute] 
 	private bool <UpdateOnTransformChanged>k__BackingField; 
@@ -767,7 +767,7 @@ public class NavMeshSurface : MonoBehaviour // TypeDefIndex: 8154
 
 }
 
-private sealed class NavMeshSurface.<>c // TypeDefIndex: 8155
+private sealed class NavMeshSurface.<>c // TypeDefIndex: 8156
 {
 	public static readonly NavMeshSurface.<>c <>9; 
 	public static Predicate<NavMeshModifierVolume> <>9__83_0; 
@@ -790,7 +790,7 @@ private sealed class NavMeshSurface.<>c // TypeDefIndex: 8155
 
 }
 
-public class NavMeshTester : MonoBehaviour // TypeDefIndex: 10669
+public class NavMeshTester : MonoBehaviour // TypeDefIndex: 10670
 {
 
 	public void .ctor() { }

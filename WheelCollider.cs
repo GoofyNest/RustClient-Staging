@@ -1,4 +1,4 @@
-public class WheelCollider : Collider // TypeDefIndex: 4774
+public class WheelCollider : Collider // TypeDefIndex: 4775
 {
 
 [NativeHeaderAttribute] 

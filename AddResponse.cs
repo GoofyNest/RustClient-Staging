@@ -1,4 +1,4 @@
-internal class AddResponse : BaseResponse // TypeDefIndex: 6261
+internal class AddResponse : BaseResponse // TypeDefIndex: 6262
 {
 	public string Id; 
 

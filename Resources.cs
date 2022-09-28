@@ -44,12 +44,12 @@ public sealed class Resources // TypeDefIndex: 3492
 	*/
 
 	[TypeInferenceRuleAttribute] 
-	[NativeThrowsAttribute] 
 	[FreeFunctionAttribute] 
+	[NativeThrowsAttribute] 
 	public static Object Load(string path, Type systemTypeInstance) { }
 
-	[FreeFunctionAttribute] 
 	[NativeThrowsAttribute] 
+	[FreeFunctionAttribute] 
 	public static Object[] LoadAll(string path, Type systemTypeInstance) { }
 
 	public static T[] LoadAll<T>(string path) { }

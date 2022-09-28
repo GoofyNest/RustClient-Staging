@@ -1,4 +1,4 @@
-internal sealed class Int16Storage : DataStorage // TypeDefIndex: 4405
+internal sealed class Int16Storage : DataStorage // TypeDefIndex: 4406
 {
 	private short[] _values; 
 

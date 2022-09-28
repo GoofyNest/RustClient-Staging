@@ -1,4 +1,4 @@
-internal struct SetPersonaNameResponse_t : ICallbackData // TypeDefIndex: 5327
+internal struct SetPersonaNameResponse_t : ICallbackData // TypeDefIndex: 5328
 {
 	internal bool Success; 
 	internal bool LocalSuccess; 

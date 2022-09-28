@@ -1,4 +1,4 @@
-public class ERTerrainData // TypeDefIndex: 7301
+public class ERTerrainData // TypeDefIndex: 7302
 {
 	public int terrainWidth; 
 	public int terrainHeight; 

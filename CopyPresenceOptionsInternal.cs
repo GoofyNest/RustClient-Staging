@@ -1,4 +1,4 @@
-internal struct CopyPresenceOptionsInternal : ISettable<CopyPresenceOptions>, IDisposable // TypeDefIndex: 8811
+internal struct CopyPresenceOptionsInternal : ISettable<CopyPresenceOptions>, IDisposable // TypeDefIndex: 8812
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

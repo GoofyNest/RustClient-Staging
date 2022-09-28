@@ -1,4 +1,4 @@
-public struct jvalue // TypeDefIndex: 4474
+public struct jvalue // TypeDefIndex: 4475
 {
 	public bool z; 
 	public sbyte b; 

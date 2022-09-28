@@ -1,4 +1,4 @@
-public sealed class ByteQuadtree // TypeDefIndex: 11992
+public sealed class ByteQuadtree // TypeDefIndex: 11995
 {
 	[SerializeField] 
 	private int size; 
@@ -23,7 +23,7 @@ public sealed class ByteQuadtree // TypeDefIndex: 11992
 
 }
 
-public struct ByteQuadtree.Element // TypeDefIndex: 11993
+public struct ByteQuadtree.Element // TypeDefIndex: 11996
 {
 	private ByteQuadtree source; 
 	private int x; 

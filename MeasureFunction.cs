@@ -1,4 +1,4 @@
-internal sealed class MeasureFunction : MulticastDelegate // TypeDefIndex: 4578
+internal sealed class MeasureFunction : MulticastDelegate // TypeDefIndex: 4579
 {
 
 	public void .ctor(object object, IntPtr method) { }

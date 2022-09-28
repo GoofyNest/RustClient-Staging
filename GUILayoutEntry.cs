@@ -1,4 +1,4 @@
-internal class GUILayoutEntry // TypeDefIndex: 4055
+internal class GUILayoutEntry // TypeDefIndex: 4056
 {
 	public float minWidth; 
 	public float maxWidth; 

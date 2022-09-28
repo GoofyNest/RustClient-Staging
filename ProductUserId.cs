@@ -1,4 +1,4 @@
-public sealed class ProductUserId : Handle // TypeDefIndex: 8282
+public sealed class ProductUserId : Handle // TypeDefIndex: 8283
 {
 	public const int ProductuseridMaxLength = 32;
 

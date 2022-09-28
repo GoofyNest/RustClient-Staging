@@ -1,4 +1,4 @@
-internal class GUILayoutGroup : GUILayoutEntry // TypeDefIndex: 4057
+internal class GUILayoutGroup : GUILayoutEntry // TypeDefIndex: 4058
 {
 	public List<GUILayoutEntry> entries; 
 	public bool isVertical; 

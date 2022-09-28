@@ -1,4 +1,4 @@
-public sealed class CanvasRenderer : Component // TypeDefIndex: 4734
+public sealed class CanvasRenderer : Component // TypeDefIndex: 4735
 {
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 

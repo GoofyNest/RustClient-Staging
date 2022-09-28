@@ -1,4 +1,4 @@
-public class CableTunnel : IOEntity // TypeDefIndex: 10425
+public class CableTunnel : IOEntity // TypeDefIndex: 10426
 {
 	private const int numChannels = 4;
 

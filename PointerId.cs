@@ -1,4 +1,4 @@
-public static class PointerId // TypeDefIndex: 4690
+public static class PointerId // TypeDefIndex: 4691
 {
 	public static readonly int maxPointers; 
 	public static readonly int invalidPointerId; 

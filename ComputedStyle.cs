@@ -1,4 +1,4 @@
-internal struct ComputedStyle // TypeDefIndex: 4708
+internal struct ComputedStyle // TypeDefIndex: 4709
 {
 	private VisualElement m_Element; 
 

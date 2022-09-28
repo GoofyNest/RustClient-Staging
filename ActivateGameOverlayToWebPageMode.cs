@@ -1,4 +1,4 @@
-internal enum ActivateGameOverlayToWebPageMode // TypeDefIndex: 5152
+internal enum ActivateGameOverlayToWebPageMode // TypeDefIndex: 5153
 {
 	public int value__; 
 	public const ActivateGameOverlayToWebPageMode Default = 0;

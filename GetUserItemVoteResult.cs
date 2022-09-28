@@ -1,4 +1,4 @@
-internal struct GetUserItemVoteResult_t : ICallbackData // TypeDefIndex: 5441
+internal struct GetUserItemVoteResult_t : ICallbackData // TypeDefIndex: 5442
 {
 	internal PublishedFileId PublishedFileId; 
 	internal Result Result; 

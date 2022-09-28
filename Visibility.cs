@@ -1,4 +1,4 @@
-public enum Visibility // TypeDefIndex: 4608
+public enum Visibility // TypeDefIndex: 4609
 {
 	public int value__; 
 	public const Visibility Visible = 0;

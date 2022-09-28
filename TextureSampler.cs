@@ -1,4 +1,4 @@
-public class TextureSampler // TypeDefIndex: 5616
+public class TextureSampler // TypeDefIndex: 5617
 {
 	private Color[] _data; 
 	private int _height; 

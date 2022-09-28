@@ -1,4 +1,4 @@
-public class ParticleEmitFromParentObject : MonoBehaviour // TypeDefIndex: 11062
+public class ParticleEmitFromParentObject : MonoBehaviour // TypeDefIndex: 11065
 {
 	public string bonename; 
 	private Bounds bounds; 

@@ -1,4 +1,4 @@
-public static class RemoteSettings // TypeDefIndex: 4743
+public static class RemoteSettings // TypeDefIndex: 4744
 {
 
 [NativeHeaderAttribute] 
@@ -26,7 +26,7 @@ public static class RemoteSettings
 
 }
 
-public sealed class RemoteSettings.UpdatedEventHandler : MulticastDelegate // TypeDefIndex: 4744
+public sealed class RemoteSettings.UpdatedEventHandler : MulticastDelegate // TypeDefIndex: 4745
 {
 
 	public void .ctor(object object, IntPtr method) { }

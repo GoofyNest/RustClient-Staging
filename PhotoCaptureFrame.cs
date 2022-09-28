@@ -41,9 +41,9 @@ public sealed class PhotoCaptureFrame : IDisposable // TypeDefIndex: 3617
 
 	private void Cleanup() { }
 
+	[NativeNameAttribute] 
 	[NativeConditionalAttribute] 
 	[ThreadAndSerializationSafeAttribute] 
-	[NativeNameAttribute] 
 	private void Dispose_Internal() { }
 
 	public void Dispose() { }

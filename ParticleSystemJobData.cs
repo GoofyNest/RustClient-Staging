@@ -1,4 +1,4 @@
-public struct ParticleSystemJobData // TypeDefIndex: 4552
+public struct ParticleSystemJobData // TypeDefIndex: 4553
 {
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 

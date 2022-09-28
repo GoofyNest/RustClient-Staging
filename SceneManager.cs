@@ -13,9 +13,9 @@ public class SceneManager // TypeDefIndex: 3658
 	public static int sceneCount { get; }
 
 
-	[NativeHeaderAttribute] 
 	[StaticAccessorAttribute] 
 	[NativeMethodAttribute] 
+	[NativeHeaderAttribute] 
 	public static int get_sceneCount() { }
 
 	[StaticAccessorAttribute] 
@@ -24,8 +24,8 @@ public class SceneManager // TypeDefIndex: 3658
 	[StaticAccessorAttribute] 
 	public static Scene GetSceneByName(string name) { }
 
-	[StaticAccessorAttribute] 
 	[NativeThrowsAttribute] 
+	[StaticAccessorAttribute] 
 	public static Scene GetSceneAt(int index) { }
 
 	[NativeThrowsAttribute] 
@@ -40,8 +40,8 @@ public class SceneManager // TypeDefIndex: 3658
 	[NativeThrowsAttribute] 
 	private static AsyncOperation LoadSceneAsyncNameIndexInternal(string sceneName, int sceneBuildIndex, LoadSceneParameters parameters, bool mustCompleteNextFrame) { }
 
-	[StaticAccessorAttribute] 
 	[NativeThrowsAttribute] 
+	[StaticAccessorAttribute] 
 	public static void MoveGameObjectToScene(GameObject go, Scene scene) { }
 
 	[CompilerGeneratedAttribute] 

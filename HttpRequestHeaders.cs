@@ -1,4 +1,4 @@
-public sealed class HttpRequestHeaders : HttpHeaders // TypeDefIndex: 5781
+public sealed class HttpRequestHeaders : HttpHeaders // TypeDefIndex: 5782
 {
 	private Nullable<bool> expectContinue; 
 
@@ -31,7 +31,7 @@ public sealed class HttpRequestHeaders : HttpHeaders // TypeDefIndex: 5781
 
 }
 
-private sealed class HttpRequestHeaders.<>c // TypeDefIndex: 5782
+private sealed class HttpRequestHeaders.<>c // TypeDefIndex: 5783
 {
 	public static readonly HttpRequestHeaders.<>c <>9; 
 	public static Predicate<string> <>9__19_0; 

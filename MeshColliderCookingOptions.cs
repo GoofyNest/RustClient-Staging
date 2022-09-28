@@ -1,4 +1,4 @@
-public enum MeshColliderCookingOptions // TypeDefIndex: 3913
+public enum MeshColliderCookingOptions // TypeDefIndex: 3914
 {
 	public int value__; 
 	public const MeshColliderCookingOptions None = 0;

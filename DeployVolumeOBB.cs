@@ -1,4 +1,4 @@
-public class DeployVolumeOBB : DeployVolume // TypeDefIndex: 11556
+public class DeployVolumeOBB : DeployVolume // TypeDefIndex: 11559
 {
 	public Bounds bounds; 
 

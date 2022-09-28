@@ -1,4 +1,4 @@
-public class SideObjectLog // TypeDefIndex: 7254
+public class SideObjectLog // TypeDefIndex: 7255
 {
 	public string version; 
 	public string name; 

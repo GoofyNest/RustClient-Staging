@@ -1,4 +1,4 @@
-internal struct GetOfferImageInfoCountOptionsInternal : ISettable<GetOfferImageInfoCountOptions>, IDisposable // TypeDefIndex: 9461
+internal struct GetOfferImageInfoCountOptionsInternal : ISettable<GetOfferImageInfoCountOptions>, IDisposable // TypeDefIndex: 9462
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

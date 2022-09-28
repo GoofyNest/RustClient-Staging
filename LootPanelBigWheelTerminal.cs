@@ -1,4 +1,4 @@
-public class LootPanelBigWheelTerminal : LootPanel // TypeDefIndex: 10454
+public class LootPanelBigWheelTerminal : LootPanel // TypeDefIndex: 10455
 {
 	public Text timeRemainingText; 
 

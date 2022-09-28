@@ -1,4 +1,4 @@
-public class ERMath // TypeDefIndex: 7296
+public class ERMath // TypeDefIndex: 7297
 {
 
 	public static Vector3 GetPosition(Vector3[] points, Vector3 position, ref float distance, ref int currentIndex, ref float t) { }

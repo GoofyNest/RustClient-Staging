@@ -1,4 +1,4 @@
-public class ViewmodelAspectOffset : MonoBehaviour // TypeDefIndex: 13185
+public class ViewmodelAspectOffset : MonoBehaviour // TypeDefIndex: 13190
 {
 	public Vector3 OffsetAmount; 
 	[TooltipAttribute] 

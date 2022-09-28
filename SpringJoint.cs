@@ -1,4 +1,4 @@
-public class SpringJoint : Joint // TypeDefIndex: 3930
+public class SpringJoint : Joint // TypeDefIndex: 3931
 {
 	public float spring { set; }
 	public float damper { set; }

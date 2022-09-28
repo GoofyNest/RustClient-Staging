@@ -1,4 +1,4 @@
-public static class NumberExtensions // TypeDefIndex: 4847
+public static class NumberExtensions // TypeDefIndex: 4848
 {
 
 	[ExtensionAttribute] 

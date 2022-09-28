@@ -1,4 +1,4 @@
-internal enum StateInfoIndex // TypeDefIndex: 4483
+internal enum StateInfoIndex // TypeDefIndex: 4484
 {
 	public int value__; 
 	public const StateInfoIndex CurrentState = 0;

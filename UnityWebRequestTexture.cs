@@ -1,4 +1,4 @@
-public static class UnityWebRequestTexture // TypeDefIndex: 4754
+public static class UnityWebRequestTexture // TypeDefIndex: 4755
 {
 
 public static class UnityWebRequestTexture

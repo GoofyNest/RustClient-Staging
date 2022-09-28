@@ -1,4 +1,4 @@
-public sealed class GUIStyleState // TypeDefIndex: 4049
+public sealed class GUIStyleState // TypeDefIndex: 4050
 {
 	internal IntPtr m_Ptr; 
 	private readonly GUIStyle m_SourceStyle; 

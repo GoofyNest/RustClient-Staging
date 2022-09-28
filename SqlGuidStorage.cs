@@ -1,4 +1,4 @@
-internal sealed class SqlGuidStorage : DataStorage // TypeDefIndex: 4421
+internal sealed class SqlGuidStorage : DataStorage // TypeDefIndex: 4422
 {
 	private SqlGuid[] _values; 
 

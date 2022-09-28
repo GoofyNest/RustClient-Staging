@@ -1,4 +1,4 @@
-public enum CommandBehavior // TypeDefIndex: 4171
+public enum CommandBehavior // TypeDefIndex: 4172
 {
 	public int value__; 
 	public const CommandBehavior Default = 0;

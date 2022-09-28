@@ -1,4 +1,4 @@
-public struct CheckoutOptions // TypeDefIndex: 9416
+public struct CheckoutOptions // TypeDefIndex: 9417
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

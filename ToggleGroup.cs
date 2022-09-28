@@ -1,4 +1,4 @@
-public class ToggleGroup : UIBehaviour // TypeDefIndex: 5021
+public class ToggleGroup : UIBehaviour // TypeDefIndex: 5022
 {
 	[SerializeField] 
 	private bool m_AllowSwitchOff; 
@@ -33,7 +33,7 @@ public class ToggleGroup : UIBehaviour // TypeDefIndex: 5021
 
 }
 
-private sealed class ToggleGroup.<>c // TypeDefIndex: 5022
+private sealed class ToggleGroup.<>c // TypeDefIndex: 5023
 {
 	public static readonly ToggleGroup.<>c <>9; 
 	public static Predicate<Toggle> <>9__12_0; 

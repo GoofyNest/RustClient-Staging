@@ -1,4 +1,4 @@
-public class DeployableBoomBox : ContainerIOEntity, ICassettePlayer, IAudioConnectionSource // TypeDefIndex: 10082
+public class DeployableBoomBox : ContainerIOEntity, ICassettePlayer, IAudioConnectionSource // TypeDefIndex: 10083
 {
 	private Option __menuOption_ChangeRadioSettings; 
 	private Option __menuOption_Play; 

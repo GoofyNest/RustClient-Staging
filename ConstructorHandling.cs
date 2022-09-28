@@ -1,4 +1,4 @@
-public enum ConstructorHandling // TypeDefIndex: 5867
+public enum ConstructorHandling // TypeDefIndex: 5868
 {
 	public int value__; 
 	public const ConstructorHandling Default = 0;

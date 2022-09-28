@@ -272,6 +272,7 @@ public class Component : Object // TypeDefIndex: 3510
 	|-Component.GetComponent<MeshRenderer>
 	|-Component.GetComponent<ParticleSystem>
 	|-Component.GetComponent<ParticleSystemRenderer>
+	|-Component.GetComponent<PlayableDirector>
 	|-Component.GetComponent<Projector>
 	|-Component.GetComponent<RectTransform>
 	|-Component.GetComponent<ReflectionProbe>
@@ -411,6 +412,7 @@ public class Component : Object // TypeDefIndex: 3510
 	|-Component.GetComponentInChildren<CanvasGroup>
 	|-Component.GetComponentInChildren<Collider>
 	|-Component.GetComponentInChildren<EventSystem>
+	|-Component.GetComponentInChildren<PostProcessVolume>
 	|-Component.GetComponentInChildren<TrailRenderer>
 	|-Component.GetComponentInChildren<ScrollRect>
 	|-Component.GetComponentInChildren<Text>

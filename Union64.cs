@@ -1,4 +1,4 @@
-public struct Union64 // TypeDefIndex: 4830
+public struct Union64 // TypeDefIndex: 4831
 {
 	public long i; 
 	public ulong u; 

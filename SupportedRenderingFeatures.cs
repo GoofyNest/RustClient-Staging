@@ -1,8 +1,8 @@
 public class SupportedRenderingFeatures // TypeDefIndex: 3856
 {
 	private static SupportedRenderingFeatures s_Active; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private SupportedRenderingFeatures.ReflectionProbeModes <reflectionProbeModes>k__BackingField; 
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
@@ -10,8 +10,8 @@ public class SupportedRenderingFeatures // TypeDefIndex: 3856
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
 	private SupportedRenderingFeatures.LightmapMixedBakeModes <mixedLightingModes>k__BackingField; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private LightmapBakeType <lightmapBakeTypes>k__BackingField; 
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
@@ -19,14 +19,14 @@ public class SupportedRenderingFeatures // TypeDefIndex: 3856
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
 	private bool <enlighten>k__BackingField; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private bool <lightProbeProxyVolumes>k__BackingField; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private bool <motionVectors>k__BackingField; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private bool <receiveShadows>k__BackingField; 
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
@@ -40,8 +40,8 @@ public class SupportedRenderingFeatures // TypeDefIndex: 3856
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private bool <overridesEnvironmentLighting>k__BackingField; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private bool <overridesFog>k__BackingField; 
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
@@ -52,8 +52,8 @@ public class SupportedRenderingFeatures // TypeDefIndex: 3856
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private bool <overridesLODBias>k__BackingField; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private bool <overridesMaximumLODLevel>k__BackingField; 
 
 	public static SupportedRenderingFeatures active { get; set; }

@@ -1,4 +1,4 @@
-public enum GlyphLoadFlags // TypeDefIndex: 4118
+public enum GlyphLoadFlags // TypeDefIndex: 4119
 {
 	public int value__; 
 	public const GlyphLoadFlags LOAD_DEFAULT = 0;

@@ -1,4 +1,4 @@
-internal sealed class ZeroOpNode : ExpressionNode // TypeDefIndex: 4269
+internal sealed class ZeroOpNode : ExpressionNode // TypeDefIndex: 4270
 {
 	internal readonly int _op; 
 

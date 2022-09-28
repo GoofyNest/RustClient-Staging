@@ -51,7 +51,7 @@ public enum HttpStatusCode // TypeDefIndex: 2877
 
 }
 
-internal enum HTTPStatusCode // TypeDefIndex: 5161
+internal enum HTTPStatusCode // TypeDefIndex: 5162
 {
 	public int value__; 
 	public const HTTPStatusCode Invalid = 0;

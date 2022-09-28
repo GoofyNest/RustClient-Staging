@@ -1,4 +1,4 @@
-public class TerrainFilter : PrefabAttribute // TypeDefIndex: 12154
+public class TerrainFilter : PrefabAttribute // TypeDefIndex: 12157
 {
 	public SpawnFilter Filter; 
 	public bool CheckPlacementMap; 

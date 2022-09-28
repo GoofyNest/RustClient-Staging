@@ -1,4 +1,4 @@
-public class CacheControlHeaderValue : ICloneable // TypeDefIndex: 5762
+public class CacheControlHeaderValue : ICloneable // TypeDefIndex: 5763
 {
 	private List<NameValueHeaderValue> extensions; 
 	private List<string> no_cache_headers; 

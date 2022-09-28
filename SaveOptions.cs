@@ -1,4 +1,4 @@
-public enum SaveOptions // TypeDefIndex: 5845
+public enum SaveOptions // TypeDefIndex: 5846
 {
 	public int value__; 
 	public const SaveOptions None = 0;

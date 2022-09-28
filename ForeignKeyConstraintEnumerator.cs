@@ -1,4 +1,4 @@
-internal class ForeignKeyConstraintEnumerator : ConstraintEnumerator // TypeDefIndex: 4180
+internal class ForeignKeyConstraintEnumerator : ConstraintEnumerator // TypeDefIndex: 4181
 {
 
 	public void .ctor(DataSet dataSet) { }

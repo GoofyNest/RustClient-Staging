@@ -1,4 +1,4 @@
-public struct MeshGenerationResult : IEquatable<MeshGenerationResult> // TypeDefIndex: 4161
+public struct MeshGenerationResult : IEquatable<MeshGenerationResult> // TypeDefIndex: 4162
 {
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 

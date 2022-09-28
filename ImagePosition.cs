@@ -1,4 +1,4 @@
-public enum ImagePosition // TypeDefIndex: 4051
+public enum ImagePosition // TypeDefIndex: 4052
 {
 	public int value__; 
 	public const ImagePosition ImageLeft = 0;

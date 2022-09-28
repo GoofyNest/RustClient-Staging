@@ -1,4 +1,4 @@
-public sealed class LobbyDetails : Handle // TypeDefIndex: 9119
+public sealed class LobbyDetails : Handle // TypeDefIndex: 9120
 {
 	public const int LobbydetailsCopyattributebyindexApiLatest = 1;
 	public const int LobbydetailsCopyattributebykeyApiLatest = 1;

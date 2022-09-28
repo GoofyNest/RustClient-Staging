@@ -1,4 +1,4 @@
-public struct FlexLength // TypeDefIndex: 6821
+public struct FlexLength // TypeDefIndex: 6822
 {
 	public bool HasValue; 
 	public float Value; 

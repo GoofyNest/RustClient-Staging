@@ -1,4 +1,4 @@
-public class Sentry : ConsoleSystem // TypeDefIndex: 13689
+public class Sentry : ConsoleSystem // TypeDefIndex: 13694
 {
 	[ServerVar] 
 	public static bool targetall; 

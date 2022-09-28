@@ -1,4 +1,4 @@
-public class GrowableEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6328
+public class GrowableEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6329
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -76,7 +76,7 @@ public class GrowableEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 }
 
-public class GrowableEntity : BaseCombatEntity, IInstanceDataReceiver // TypeDefIndex: 10099
+public class GrowableEntity : BaseCombatEntity, IInstanceDataReceiver // TypeDefIndex: 10100
 {
 	private Option __menuOption_MenuClone; 
 	private Option __menuOption_MenuPick; 

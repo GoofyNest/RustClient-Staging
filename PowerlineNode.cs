@@ -1,4 +1,4 @@
-public class PowerlineNode : MonoBehaviour // TypeDefIndex: 12074
+public class PowerlineNode : MonoBehaviour // TypeDefIndex: 12077
 {
 	public GameObjectRef WirePrefab; 
 	public float MaxDistance; 

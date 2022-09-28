@@ -3,11 +3,11 @@ public sealed class CreateAssetMenuAttribute : Attribute // TypeDefIndex: 3498
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private string <menuName>k__BackingField; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private string <fileName>k__BackingField; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private int <order>k__BackingField; 
 
 	public string menuName { set; }

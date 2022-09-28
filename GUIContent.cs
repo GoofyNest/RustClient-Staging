@@ -1,4 +1,4 @@
-public class GUIContent // TypeDefIndex: 4037
+public class GUIContent // TypeDefIndex: 4038
 {
 	[SerializeField] 
 	private string m_Text; 

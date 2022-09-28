@@ -1,4 +1,4 @@
-internal sealed class OnUpdateSessionCallbackInternal : MulticastDelegate // TypeDefIndex: 8516
+internal sealed class OnUpdateSessionCallbackInternal : MulticastDelegate // TypeDefIndex: 8517
 {
 
 	public void .ctor(object object, IntPtr method) { }

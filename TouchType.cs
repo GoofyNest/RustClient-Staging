@@ -1,4 +1,4 @@
-public enum TouchType // TypeDefIndex: 4074
+public enum TouchType // TypeDefIndex: 4075
 {
 	public int value__; 
 	public const TouchType Direct = 0;

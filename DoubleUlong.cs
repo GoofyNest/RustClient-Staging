@@ -1,4 +1,4 @@
-internal struct DoubleUlong // TypeDefIndex: 3970
+internal struct DoubleUlong // TypeDefIndex: 3971
 {
 	public double dbl; 
 	public ulong uu; 

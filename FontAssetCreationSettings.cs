@@ -1,4 +1,4 @@
-public struct FontAssetCreationSettings // TypeDefIndex: 6698
+public struct FontAssetCreationSettings // TypeDefIndex: 6699
 {
 	public string sourceFontFileName; 
 	public string sourceFontFileGUID; 

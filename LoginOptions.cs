@@ -1,4 +1,4 @@
-public struct LoginOptions // TypeDefIndex: 9584
+public struct LoginOptions // TypeDefIndex: 9585
 {
 	[CompilerGeneratedAttribute] 
 	private Nullable<Credentials> <Credentials>k__BackingField; 
@@ -23,7 +23,7 @@ public struct LoginOptions // TypeDefIndex: 9584
 
 }
 
-public struct LoginOptions // TypeDefIndex: 9661
+public struct LoginOptions // TypeDefIndex: 9662
 {
 	[CompilerGeneratedAttribute] 
 	private Nullable<Credentials> <Credentials>k__BackingField; 

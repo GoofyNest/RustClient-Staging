@@ -1,4 +1,4 @@
-public class Add // TypeDefIndex: 6254
+public class Add // TypeDefIndex: 6255
 {
 	public string Parent; 
 	public float Score; 
@@ -16,7 +16,7 @@ public class Add // TypeDefIndex: 6254
 
 }
 
-public class Add : Base // TypeDefIndex: 6258
+public class Add : Base // TypeDefIndex: 6259
 {
 	public string Content; 
 

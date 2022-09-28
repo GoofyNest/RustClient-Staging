@@ -1,4 +1,4 @@
-public static class ObjectEffectsEx // TypeDefIndex: 13434
+public static class ObjectEffectsEx // TypeDefIndex: 13439
 {
 
 	[ExtensionAttribute] 

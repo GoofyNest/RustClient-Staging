@@ -1,4 +1,4 @@
-public class PieMenu : UIBehaviour // TypeDefIndex: 12924
+public class PieMenu : UIBehaviour // TypeDefIndex: 12929
 {
 	public static PieMenu Instance; 
 	public Image middleBox; 
@@ -75,7 +75,7 @@ public class PieMenu : UIBehaviour // TypeDefIndex: 12924
 
 }
 
-public class PieMenu.MenuOption // TypeDefIndex: 12925
+public class PieMenu.MenuOption // TypeDefIndex: 12930
 {
 	public string name; 
 	public string desc; 
@@ -95,14 +95,14 @@ public class PieMenu.MenuOption // TypeDefIndex: 12925
 
 }
 
-public struct PieMenu.MenuOption.ColorMode // TypeDefIndex: 12926
+public struct PieMenu.MenuOption.ColorMode // TypeDefIndex: 12931
 {
 	public PieMenu.MenuOption.ColorMode.PieMenuSpriteColorOption Mode; 
 	public Color CustomColor; 
 
 }
 
-public enum PieMenu.MenuOption.ColorMode.PieMenuSpriteColorOption // TypeDefIndex: 12927
+public enum PieMenu.MenuOption.ColorMode.PieMenuSpriteColorOption // TypeDefIndex: 12932
 {
 	public int value__; 
 	public const PieMenu.MenuOption.ColorMode.PieMenuSpriteColorOption CustomColor = 0;
@@ -110,7 +110,7 @@ public enum PieMenu.MenuOption.ColorMode.PieMenuSpriteColorOption // TypeDefInde
 
 }
 
-private sealed class PieMenu.<>c // TypeDefIndex: 12928
+private sealed class PieMenu.<>c // TypeDefIndex: 12933
 {
 	public static readonly PieMenu.<>c <>9; 
 	public static Func<PieMenu.MenuOption, int> <>9__43_0; 

@@ -1,4 +1,4 @@
-internal struct AcceptInviteOptionsInternal : ISettable<AcceptInviteOptions>, IDisposable // TypeDefIndex: 9371
+internal struct AcceptInviteOptionsInternal : ISettable<AcceptInviteOptions>, IDisposable // TypeDefIndex: 9372
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

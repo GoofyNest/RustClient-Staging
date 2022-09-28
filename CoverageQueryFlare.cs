@@ -1,4 +1,4 @@
-public class CoverageQueryFlare : BaseMonoBehaviour, IClientComponent, IOnParentDestroying, ILOD // TypeDefIndex: 10517
+public class CoverageQueryFlare : BaseMonoBehaviour, IClientComponent, IOnParentDestroying, ILOD // TypeDefIndex: 10518
 {
 	public bool isDynamic; 
 	public bool timeShimmer; 

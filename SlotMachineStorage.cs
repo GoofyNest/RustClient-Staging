@@ -1,4 +1,4 @@
-public class SlotMachineStorage : StorageContainer // TypeDefIndex: 10347
+public class SlotMachineStorage : StorageContainer // TypeDefIndex: 10348
 {
 	public int Amount; 
 

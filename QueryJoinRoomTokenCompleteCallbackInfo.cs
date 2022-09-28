@@ -1,4 +1,4 @@
-public struct QueryJoinRoomTokenCompleteCallbackInfo : ICallbackInfo // TypeDefIndex: 8737
+public struct QueryJoinRoomTokenCompleteCallbackInfo : ICallbackInfo // TypeDefIndex: 8738
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

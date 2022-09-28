@@ -1,4 +1,4 @@
-internal struct PlaybackStatusHasChanged_t : ICallbackData // TypeDefIndex: 5411
+internal struct PlaybackStatusHasChanged_t : ICallbackData // TypeDefIndex: 5412
 {
 	public static int _datasize; 
 

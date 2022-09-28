@@ -1,4 +1,4 @@
-public abstract class Base : IDisposable // TypeDefIndex: 5286
+public abstract class Base : IDisposable // TypeDefIndex: 5287
 {
 	[CompilerGeneratedAttribute] 
 	private AppId <AppId>k__BackingField; 
@@ -74,7 +74,7 @@ public abstract class Base : IDisposable // TypeDefIndex: 5286
 
 }
 
-private struct Base.<RunQueryAsync>d__15 : IAsyncStateMachine // TypeDefIndex: 5287
+private struct Base.<RunQueryAsync>d__15 : IAsyncStateMachine // TypeDefIndex: 5288
 {
 	public int <>1__state; 
 	public AsyncTaskMethodBuilder<bool> <>t__builder; 
@@ -92,7 +92,7 @@ private struct Base.<RunQueryAsync>d__15 : IAsyncStateMachine // TypeDefIndex: 5
 
 }
 
-public class Base // TypeDefIndex: 6257
+public class Base // TypeDefIndex: 6258
 {
 	public string Parent; 
 	public Auth Auth; 

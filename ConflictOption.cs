@@ -1,4 +1,4 @@
-public enum ConflictOption // TypeDefIndex: 4174
+public enum ConflictOption // TypeDefIndex: 4175
 {
 	public int value__; 
 	public const ConflictOption CompareAllSearchableValues = 1;

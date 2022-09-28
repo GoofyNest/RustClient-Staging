@@ -1,4 +1,4 @@
-internal struct Token // TypeDefIndex: 5784
+internal struct Token // TypeDefIndex: 5785
 {
 	public static readonly Token Empty; 
 	private readonly Token.Type type; 
@@ -36,7 +36,7 @@ internal struct Token // TypeDefIndex: 5784
 
 }
 
-public enum Token.Type // TypeDefIndex: 5785
+public enum Token.Type // TypeDefIndex: 5786
 {
 	public int value__; 
 	public const Token.Type Error = 0;
@@ -52,7 +52,7 @@ public enum Token.Type // TypeDefIndex: 5785
 
 }
 
-public struct Token // TypeDefIndex: 9691
+public struct Token // TypeDefIndex: 9692
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <App>k__BackingField; 

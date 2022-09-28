@@ -1,4 +1,4 @@
-public class CargoShipInteriorSoundTrigger : MonoBehaviour, IClientComponent // TypeDefIndex: 9991
+public class CargoShipInteriorSoundTrigger : MonoBehaviour, IClientComponent // TypeDefIndex: 9992
 {
 	public CargoShipSounds cargoShipSounds; 
 

@@ -1,4 +1,4 @@
-public static class NameHelper // TypeDefIndex: 12461
+public static class NameHelper // TypeDefIndex: 12464
 {
 
 	public static string Get(ulong userId, string name) { }

@@ -1,4 +1,4 @@
-public class FPSGraph : Graph // TypeDefIndex: 12646
+public class FPSGraph : Graph // TypeDefIndex: 12651
 {
 
 	public void Refresh() { }

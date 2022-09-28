@@ -1,4 +1,4 @@
-public class SceneField // TypeDefIndex: 6166
+public class SceneField // TypeDefIndex: 6167
 {
 
 public static class SteamworksDataDummy

@@ -1,4 +1,4 @@
-public class ToolgunScreen : MonoBehaviour // TypeDefIndex: 10608
+public class ToolgunScreen : MonoBehaviour // TypeDefIndex: 10609
 {
 	public Text blockInfoText; 
 	public Text noBlockText; 

@@ -1,4 +1,4 @@
-public class ERConnectionVecs // TypeDefIndex: 7260
+public class ERConnectionVecs // TypeDefIndex: 7261
 {
 	private List<int> ᙃ; 
 	private List<int> ᙄ; 

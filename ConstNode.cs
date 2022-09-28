@@ -1,4 +1,4 @@
-internal sealed class ConstNode : ExpressionNode // TypeDefIndex: 4248
+internal sealed class ConstNode : ExpressionNode // TypeDefIndex: 4249
 {
 	internal readonly object _val; 
 

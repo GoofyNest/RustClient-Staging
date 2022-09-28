@@ -1,4 +1,4 @@
-public static class ShaderUtilities // TypeDefIndex: 6756
+public static class ShaderUtilities // TypeDefIndex: 6757
 {
 	public static int ID_MainTex; 
 	public static int ID_FaceTex; 

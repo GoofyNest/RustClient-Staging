@@ -1,4 +1,4 @@
-public class DropUtil // TypeDefIndex: 11293
+public class DropUtil // TypeDefIndex: 11296
 {
 
 	public void .ctor() { }

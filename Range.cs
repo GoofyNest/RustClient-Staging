@@ -1,4 +1,4 @@
-internal struct Range // TypeDefIndex: 4285
+internal struct Range // TypeDefIndex: 4286
 {
 	private int _min; 
 	private int _max; 

@@ -1,4 +1,4 @@
-public class MaterialConfig : ScriptableObject // TypeDefIndex: 13044
+public class MaterialConfig : ScriptableObject // TypeDefIndex: 13049
 {
 	[HorizontalAttribute] 
 	public MaterialConfig.ShaderParametersFloat[] Floats; 
@@ -16,7 +16,7 @@ public class MaterialConfig : ScriptableObject // TypeDefIndex: 13044
 
 }
 
-public class MaterialConfig.ShaderParameters<T> // TypeDefIndex: 13045
+public class MaterialConfig.ShaderParameters<T> // TypeDefIndex: 13050
 {
 	public string Name; 
 	public T Arid; 
@@ -58,21 +58,21 @@ public class MaterialConfig.ShaderParameters<T> // TypeDefIndex: 13045
 
 }
 
-public class MaterialConfig.ShaderParametersFloat : MaterialConfig.ShaderParameters<float> // TypeDefIndex: 13046
+public class MaterialConfig.ShaderParametersFloat : MaterialConfig.ShaderParameters<float> // TypeDefIndex: 13051
 {
 
 	public void .ctor() { }
 
 }
 
-public class MaterialConfig.ShaderParametersColor : MaterialConfig.ShaderParameters<Color> // TypeDefIndex: 13047
+public class MaterialConfig.ShaderParametersColor : MaterialConfig.ShaderParameters<Color> // TypeDefIndex: 13052
 {
 
 	public void .ctor() { }
 
 }
 
-public class MaterialConfig.ShaderParametersTexture : MaterialConfig.ShaderParameters<Texture> // TypeDefIndex: 13048
+public class MaterialConfig.ShaderParametersTexture : MaterialConfig.ShaderParameters<Texture> // TypeDefIndex: 13053
 {
 
 	public void .ctor() { }

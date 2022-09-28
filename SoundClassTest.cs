@@ -1,4 +1,4 @@
-public class SoundClassTest : MonoBehaviour // TypeDefIndex: 10732
+public class SoundClassTest : MonoBehaviour // TypeDefIndex: 10733
 {
 	public SoundClass soundClass; 
 	public float soundInterval; 

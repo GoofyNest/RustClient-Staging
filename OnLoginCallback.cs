@@ -1,4 +1,4 @@
-public sealed class OnLoginCallback : MulticastDelegate // TypeDefIndex: 9598
+public sealed class OnLoginCallback : MulticastDelegate // TypeDefIndex: 9599
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -11,7 +11,7 @@ public sealed class OnLoginCallback : MulticastDelegate // TypeDefIndex: 9598
 
 }
 
-public sealed class OnLoginCallback : MulticastDelegate // TypeDefIndex: 9673
+public sealed class OnLoginCallback : MulticastDelegate // TypeDefIndex: 9674
 {
 
 	public void .ctor(object object, IntPtr method) { }

@@ -1,4 +1,4 @@
-public static class RuntimeUtilities // TypeDefIndex: 13597
+public static class RuntimeUtilities // TypeDefIndex: 13602
 {
 	private static Texture2D m_WhiteTexture; 
 	private static Texture3D m_WhiteTexture3D; 
@@ -198,7 +198,7 @@ public static class RuntimeUtilities // TypeDefIndex: 13597
 
 }
 
-private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable<T>, IEnumerable, IEnumerator<T>, IEnumerator, IDisposable // TypeDefIndex: 13598
+private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable<T>, IEnumerable, IEnumerator<T>, IEnumerator, IDisposable // TypeDefIndex: 13603
 {
 	private int <>1__state; 
 	private T <>2__current; 
@@ -275,7 +275,7 @@ private sealed class RuntimeUtilities.<GetAllSceneObjects>d__79<T> : IEnumerable
 
 }
 
-private sealed class RuntimeUtilities.<>c // TypeDefIndex: 13599
+private sealed class RuntimeUtilities.<>c // TypeDefIndex: 13604
 {
 	public static readonly RuntimeUtilities.<>c <>9; 
 	public static Func<Assembly, IEnumerable<Type>> <>9__86_0; 

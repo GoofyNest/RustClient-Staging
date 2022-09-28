@@ -1,4 +1,4 @@
-internal struct IPCFailure_t : ICallbackData // TypeDefIndex: 5300
+internal struct IPCFailure_t : ICallbackData // TypeDefIndex: 5301
 {
 	internal byte FailureType; 
 	public static int _datasize; 

@@ -1,4 +1,4 @@
-public struct Touch // TypeDefIndex: 4075
+public struct Touch // TypeDefIndex: 4076
 {
 	private int m_FingerId; 
 	private Vector2 m_Position; 

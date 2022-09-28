@@ -1,4 +1,4 @@
-public struct HasPresenceOptions // TypeDefIndex: 8818
+public struct HasPresenceOptions // TypeDefIndex: 8819
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

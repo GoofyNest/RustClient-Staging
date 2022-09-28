@@ -1,4 +1,4 @@
-public struct ReceiveMessageFromClientOptions // TypeDefIndex: 9728
+public struct ReceiveMessageFromClientOptions // TypeDefIndex: 9729
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <ClientHandle>k__BackingField; 

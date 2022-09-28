@@ -1,4 +1,4 @@
-public class TransactionException : SystemException // TypeDefIndex: 3987
+public class TransactionException : SystemException // TypeDefIndex: 3988
 {
 
 	public void .ctor() { }

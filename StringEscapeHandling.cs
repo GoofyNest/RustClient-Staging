@@ -1,4 +1,4 @@
-public enum StringEscapeHandling // TypeDefIndex: 5883
+public enum StringEscapeHandling // TypeDefIndex: 5884
 {
 	public int value__; 
 	public const StringEscapeHandling Default = 0;

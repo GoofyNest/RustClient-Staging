@@ -1,4 +1,4 @@
-public class WaterPool : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6385
+public class WaterPool : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6386
 {
 	public bool ShouldPool; 
 	private bool _disposed; 

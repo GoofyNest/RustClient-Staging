@@ -1,4 +1,4 @@
-public class SlotMachinePayoutDisplay : MonoBehaviour // TypeDefIndex: 10456
+public class SlotMachinePayoutDisplay : MonoBehaviour // TypeDefIndex: 10457
 {
 	public GameObjectRef PayoutWidget; 
 	public RectTransform WidgetRoot; 

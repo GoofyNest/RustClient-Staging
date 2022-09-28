@@ -1,4 +1,4 @@
-public enum OvenSlotType // TypeDefIndex: 12766
+public enum OvenSlotType // TypeDefIndex: 12771
 {
 	public int value__; 
 	public const OvenSlotType Fuel = 0;

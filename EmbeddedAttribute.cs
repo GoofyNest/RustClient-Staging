@@ -1,4 +1,4 @@
-internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 4794
+internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 4795
 {
 
 [CompilerGeneratedAttribute] 
@@ -9,7 +9,7 @@ internal sealed class EmbeddedAttribute : Attribute
 
 }
 
-internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 5102
+internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 5103
 {
 
 internal class <Module>
@@ -22,7 +22,7 @@ internal sealed class EmbeddedAttribute : Attribute
 
 }
 
-internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6843
+internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6844
 {
 
 [CompilerGeneratedAttribute] 
@@ -33,7 +33,7 @@ internal sealed class EmbeddedAttribute : Attribute
 
 }
 
-internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6890
+internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6891
 {
 
 [CompilerGeneratedAttribute] 
@@ -44,7 +44,7 @@ internal sealed class EmbeddedAttribute : Attribute
 
 }
 
-internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6932
+internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 6933
 {
 
 [CompilerGeneratedAttribute] 
@@ -55,7 +55,7 @@ internal sealed class EmbeddedAttribute : Attribute
 
 }
 
-internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 7115
+internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 7116
 {
 
 [CompilerGeneratedAttribute] 
@@ -66,7 +66,7 @@ internal sealed class EmbeddedAttribute : Attribute
 
 }
 
-internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 7310
+internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 7311
 {
 
 [CompilerGeneratedAttribute] 
@@ -77,7 +77,7 @@ internal sealed class EmbeddedAttribute : Attribute
 
 }
 
-internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 9950
+internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 9951
 {
 
 	public void .ctor() { }

@@ -1,4 +1,4 @@
-public struct InputDevice : IEquatable<InputDevice> // TypeDefIndex: 4147
+public struct InputDevice : IEquatable<InputDevice> // TypeDefIndex: 4148
 {
 	private ulong m_DeviceId; 
 	private bool m_Initialized; 

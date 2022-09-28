@@ -1,4 +1,4 @@
-public static class MathEx // TypeDefIndex: 6611
+public static class MathEx // TypeDefIndex: 6612
 {
 
 	[ExtensionAttribute] 

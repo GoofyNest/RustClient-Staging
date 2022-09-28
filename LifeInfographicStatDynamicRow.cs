@@ -1,4 +1,4 @@
-public class LifeInfographicStatDynamicRow : LifeInfographicStat // TypeDefIndex: 12804
+public class LifeInfographicStatDynamicRow : LifeInfographicStat // TypeDefIndex: 12809
 {
 	public RustText StatName; 
 

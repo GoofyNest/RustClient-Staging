@@ -1,4 +1,4 @@
-internal struct GameServerChangeRequested_t : ICallbackData // TypeDefIndex: 5312
+internal struct GameServerChangeRequested_t : ICallbackData // TypeDefIndex: 5313
 {
 	internal byte[] Server; 
 	internal byte[] Password; 

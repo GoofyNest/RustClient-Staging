@@ -1,4 +1,4 @@
-public class TimedEvent : ITimedObject // TypeDefIndex: 7464
+public class TimedEvent : ITimedObject // TypeDefIndex: 7465
 {
 	internal long _time; 
 	[CompilerGeneratedAttribute] 

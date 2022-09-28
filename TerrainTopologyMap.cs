@@ -1,4 +1,4 @@
-public class TerrainTopologyMap : TerrainMap<int> // TypeDefIndex: 12131
+public class TerrainTopologyMap : TerrainMap<int> // TypeDefIndex: 12134
 {
 	public Texture2D TopologyTexture; 
 
@@ -57,7 +57,7 @@ public class TerrainTopologyMap : TerrainMap<int> // TypeDefIndex: 12131
 
 }
 
-private sealed class TerrainTopologyMap.<>c__DisplayClass2_0 // TypeDefIndex: 12132
+private sealed class TerrainTopologyMap.<>c__DisplayClass2_0 // TypeDefIndex: 12135
 {
 	public Color32[] col; 
 	public TerrainTopologyMap <>4__this; 
@@ -69,7 +69,7 @@ private sealed class TerrainTopologyMap.<>c__DisplayClass2_0 // TypeDefIndex: 12
 
 }
 
-private sealed class TerrainTopologyMap.<>c__DisplayClass23_0 // TypeDefIndex: 12133
+private sealed class TerrainTopologyMap.<>c__DisplayClass23_0 // TypeDefIndex: 12136
 {
 	public TerrainTopologyMap <>4__this; 
 	public int mask; 
@@ -81,7 +81,7 @@ private sealed class TerrainTopologyMap.<>c__DisplayClass23_0 // TypeDefIndex: 1
 
 }
 
-private sealed class TerrainTopologyMap.<>c__DisplayClass25_0 // TypeDefIndex: 12134
+private sealed class TerrainTopologyMap.<>c__DisplayClass25_0 // TypeDefIndex: 12137
 {
 	public TerrainTopologyMap <>4__this; 
 	public int mask; 

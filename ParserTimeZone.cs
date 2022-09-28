@@ -1,4 +1,4 @@
-internal enum ParserTimeZone // TypeDefIndex: 5918
+internal enum ParserTimeZone // TypeDefIndex: 5919
 {
 	public int value__; 
 	public const ParserTimeZone Unspecified = 0;

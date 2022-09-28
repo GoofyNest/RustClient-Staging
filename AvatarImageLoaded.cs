@@ -1,4 +1,4 @@
-internal struct AvatarImageLoaded_t : ICallbackData // TypeDefIndex: 5314
+internal struct AvatarImageLoaded_t : ICallbackData // TypeDefIndex: 5315
 {
 	internal ulong SteamID; 
 	internal int Image; 

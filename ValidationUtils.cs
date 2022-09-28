@@ -1,4 +1,4 @@
-internal static class ValidationUtils // TypeDefIndex: 5975
+internal static class ValidationUtils // TypeDefIndex: 5976
 {
 
 	public static void ArgumentNotNull(object value, string parameterName) { }

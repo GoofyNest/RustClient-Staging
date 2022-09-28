@@ -24,7 +24,7 @@ internal static class ReflectionExtensions // TypeDefIndex: 89
 
 }
 
-public static class ReflectionExtensions // TypeDefIndex: 4848
+public static class ReflectionExtensions // TypeDefIndex: 4849
 {
 
 	[ExtensionAttribute] 

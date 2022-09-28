@@ -1,4 +1,4 @@
-public enum RTCParticipantStatus // TypeDefIndex: 8782
+public enum RTCParticipantStatus // TypeDefIndex: 8783
 {
 	public int value__; 
 	public const RTCParticipantStatus Joined = 0;

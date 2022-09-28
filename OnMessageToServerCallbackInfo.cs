@@ -1,4 +1,4 @@
-public struct OnMessageToServerCallbackInfo : ICallbackInfo // TypeDefIndex: 9825
+public struct OnMessageToServerCallbackInfo : ICallbackInfo // TypeDefIndex: 9826
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

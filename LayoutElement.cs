@@ -1,4 +1,4 @@
-public class LayoutElement : UIBehaviour, ILayoutElement, ILayoutIgnorer // TypeDefIndex: 4979
+public class LayoutElement : UIBehaviour, ILayoutElement, ILayoutIgnorer // TypeDefIndex: 4980
 {
 	[SerializeField] 
 	private bool m_IgnoreLayout; 

@@ -1,4 +1,4 @@
-public class DecorDeployable : DecayEntity // TypeDefIndex: 11292
+public class DecorDeployable : DecayEntity // TypeDefIndex: 11295
 {
 
 	public void .ctor() { }

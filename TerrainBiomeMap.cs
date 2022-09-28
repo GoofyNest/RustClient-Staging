@@ -1,4 +1,4 @@
-public class TerrainBiomeMap : TerrainMap<byte> // TypeDefIndex: 12106
+public class TerrainBiomeMap : TerrainMap<byte> // TypeDefIndex: 12109
 {
 	public Texture2D BiomeTexture; 
 	internal int num; 
@@ -54,7 +54,7 @@ public class TerrainBiomeMap : TerrainMap<byte> // TypeDefIndex: 12106
 
 }
 
-private sealed class TerrainBiomeMap.<>c__DisplayClass3_0 // TypeDefIndex: 12107
+private sealed class TerrainBiomeMap.<>c__DisplayClass3_0 // TypeDefIndex: 12110
 {
 	public TerrainBiomeMap <>4__this; 
 	public Color32[] col; 

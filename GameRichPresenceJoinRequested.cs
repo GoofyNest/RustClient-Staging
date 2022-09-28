@@ -1,4 +1,4 @@
-internal struct GameRichPresenceJoinRequested_t : ICallbackData // TypeDefIndex: 5317
+internal struct GameRichPresenceJoinRequested_t : ICallbackData // TypeDefIndex: 5318
 {
 	internal ulong SteamIDFriend; 
 	internal byte[] Connect; 

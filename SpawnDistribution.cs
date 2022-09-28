@@ -1,4 +1,4 @@
-public class SpawnDistribution // TypeDefIndex: 11702
+public class SpawnDistribution // TypeDefIndex: 11705
 {
 
 	public void .ctor() { }

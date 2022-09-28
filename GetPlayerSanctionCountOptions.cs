@@ -1,4 +1,4 @@
-public struct GetPlayerSanctionCountOptions // TypeDefIndex: 8610
+public struct GetPlayerSanctionCountOptions // TypeDefIndex: 8611
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <TargetUserId>k__BackingField; 

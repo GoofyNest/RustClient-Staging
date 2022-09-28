@@ -1,4 +1,4 @@
-public class PlaceDecorUniform : ProceduralComponent // TypeDefIndex: 12245
+public class PlaceDecorUniform : ProceduralComponent // TypeDefIndex: 12248
 {
 	public SpawnFilter Filter; 
 	public string ResourceFolder; 

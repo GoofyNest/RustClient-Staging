@@ -1,4 +1,4 @@
-public class DevControlsTab : BaseMonoBehaviour // TypeDefIndex: 11003
+public class DevControlsTab : BaseMonoBehaviour // TypeDefIndex: 11006
 {
 
 	public virtual string GetTabName() { }

@@ -1,4 +1,4 @@
-public struct InstallModCallbackInfo : ICallbackInfo // TypeDefIndex: 9004
+public struct InstallModCallbackInfo : ICallbackInfo // TypeDefIndex: 9005
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

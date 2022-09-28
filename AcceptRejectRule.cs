@@ -1,4 +1,4 @@
-public enum AcceptRejectRule // TypeDefIndex: 4167
+public enum AcceptRejectRule // TypeDefIndex: 4168
 {
 	public int value__; 
 	public const AcceptRejectRule None = 0;

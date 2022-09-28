@@ -1,4 +1,4 @@
-internal enum YogaMeasureMode // TypeDefIndex: 4579
+internal enum YogaMeasureMode // TypeDefIndex: 4580
 {
 	public int value__; 
 	public const YogaMeasureMode Undefined = 0;

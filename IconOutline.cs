@@ -1,4 +1,4 @@
-public class IconOutline : MonoBehaviour // TypeDefIndex: 6633
+public class IconOutline : MonoBehaviour // TypeDefIndex: 6634
 {
 	public Material Material; 
 

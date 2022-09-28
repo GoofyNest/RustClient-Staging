@@ -1,4 +1,4 @@
-public static class Layers // TypeDefIndex: 6618
+public static class Layers // TypeDefIndex: 6619
 {
 	public const int Terrain = 8388608;
 	public const int World = 65536;
@@ -37,7 +37,7 @@ public static class Layers // TypeDefIndex: 6618
 
 }
 
-public static class Layers.Server // TypeDefIndex: 6619
+public static class Layers.Server // TypeDefIndex: 6620
 {
 	public const int VehiclesSimple = 32768;
 	public const int Players = 131072;
@@ -57,7 +57,7 @@ public static class Layers.Server // TypeDefIndex: 6619
 
 }
 
-public static class Layers.Client // TypeDefIndex: 6620
+public static class Layers.Client // TypeDefIndex: 6621
 {
 	public const int Melee = 1269916417;
 	public const int Bullet = 1269916433;
@@ -68,7 +68,7 @@ public static class Layers.Client // TypeDefIndex: 6620
 
 }
 
-public static class Layers.Mask // TypeDefIndex: 6621
+public static class Layers.Mask // TypeDefIndex: 6622
 {
 	public const int Default = 1;
 	public const int TransparentFX = 2;

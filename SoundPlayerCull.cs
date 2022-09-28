@@ -1,4 +1,4 @@
-public class SoundPlayerCull : MonoBehaviour, IClientComponent, ILOD // TypeDefIndex: 10747
+public class SoundPlayerCull : MonoBehaviour, IClientComponent, ILOD // TypeDefIndex: 10748
 {
 	public SoundPlayer soundPlayer; 
 	public float cullDistance; 

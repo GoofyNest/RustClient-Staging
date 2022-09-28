@@ -1,4 +1,4 @@
-public class AboutYou : BaseMonoBehaviour // TypeDefIndex: 12812
+public class AboutYou : BaseMonoBehaviour // TypeDefIndex: 12817
 {
 	public Text username; 
 	public RawImage avatar; 

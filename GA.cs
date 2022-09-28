@@ -1,4 +1,4 @@
-public static class GA // TypeDefIndex: 5679
+public static class GA // TypeDefIndex: 5680
 {
 	internal static bool initialized; 
 	[CompilerGeneratedAttribute] 

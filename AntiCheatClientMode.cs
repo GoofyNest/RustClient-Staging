@@ -1,4 +1,4 @@
-public enum AntiCheatClientMode // TypeDefIndex: 9809
+public enum AntiCheatClientMode // TypeDefIndex: 9810
 {
 	public int value__; 
 	public const AntiCheatClientMode Invalid = 0;

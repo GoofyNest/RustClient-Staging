@@ -1,4 +1,4 @@
-public class ERSideWalkInstance // TypeDefIndex: 7228
+public class ERSideWalkInstance // TypeDefIndex: 7229
 {
 	public ERSideWalk sidewalk; 
 	public GameObject swObject; 

@@ -1,4 +1,4 @@
-public class InputDevices // TypeDefIndex: 4151
+public class InputDevices // TypeDefIndex: 4152
 {
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 

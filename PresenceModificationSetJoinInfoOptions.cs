@@ -1,4 +1,4 @@
-public struct PresenceModificationSetJoinInfoOptions // TypeDefIndex: 8840
+public struct PresenceModificationSetJoinInfoOptions // TypeDefIndex: 8841
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <JoinInfo>k__BackingField; 

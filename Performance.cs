@@ -1,4 +1,4 @@
-public static class Performance // TypeDefIndex: 6211
+public static class Performance // TypeDefIndex: 6212
 {
 	public static Func<int> GetMemoryUsage; 
 	public static Func<int> GetGarbageCollections; 
@@ -71,7 +71,7 @@ public static class Performance // TypeDefIndex: 6211
 
 }
 
-public class Performance : SingletonComponent<Performance> // TypeDefIndex: 11024
+public class Performance : SingletonComponent<Performance> // TypeDefIndex: 11027
 {
 	public static Performance.Tick current; 
 	public static Performance.Tick report; 
@@ -101,7 +101,7 @@ public class Performance : SingletonComponent<Performance> // TypeDefIndex: 1102
 
 }
 
-public struct Performance.Tick // TypeDefIndex: 11025
+public struct Performance.Tick // TypeDefIndex: 11028
 {
 	public int frameID; 
 	public int frameRate; 
@@ -119,7 +119,7 @@ public struct Performance.Tick // TypeDefIndex: 11025
 
 }
 
-private struct Performance.LagSpike // TypeDefIndex: 11026
+private struct Performance.LagSpike // TypeDefIndex: 11029
 {
 	public int Index; 
 	public int Time; 

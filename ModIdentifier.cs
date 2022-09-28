@@ -1,4 +1,4 @@
-public struct ModIdentifier // TypeDefIndex: 9009
+public struct ModIdentifier // TypeDefIndex: 9010
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <NamespaceId>k__BackingField; 

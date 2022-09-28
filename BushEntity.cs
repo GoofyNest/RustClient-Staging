@@ -1,4 +1,4 @@
-public class BushEntity : BaseEntity, IPrefabPreProcess // TypeDefIndex: 11380
+public class BushEntity : BaseEntity, IPrefabPreProcess // TypeDefIndex: 11383
 {
 	public GameObjectRef prefab; 
 	public bool globalBillboard; 

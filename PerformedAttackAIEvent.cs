@@ -1,4 +1,4 @@
-public class PerformedAttackAIEvent : BaseAIEvent // TypeDefIndex: 11113
+public class PerformedAttackAIEvent : BaseAIEvent // TypeDefIndex: 11116
 {
 	protected float lastExecuteTime; 
 	private BaseCombatEntity combatEntity; 

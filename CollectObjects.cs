@@ -1,4 +1,4 @@
-public enum CollectObjects // TypeDefIndex: 8153
+public enum CollectObjects // TypeDefIndex: 8154
 {
 	public int value__; 
 	public const CollectObjects All = 0;

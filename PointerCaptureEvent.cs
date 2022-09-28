@@ -1,4 +1,4 @@
-public class PointerCaptureEvent : PointerCaptureEventBase<PointerCaptureEvent> // TypeDefIndex: 4625
+public class PointerCaptureEvent : PointerCaptureEventBase<PointerCaptureEvent> // TypeDefIndex: 4626
 {
 
 	public void .ctor() { }

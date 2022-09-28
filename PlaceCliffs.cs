@@ -1,4 +1,4 @@
-public class PlaceCliffs : ProceduralComponent // TypeDefIndex: 12242
+public class PlaceCliffs : ProceduralComponent // TypeDefIndex: 12245
 {
 	public SpawnFilter Filter; 
 	public string ResourceFolder; 
@@ -39,7 +39,7 @@ public class PlaceCliffs : ProceduralComponent // TypeDefIndex: 12242
 
 }
 
-private class PlaceCliffs.CliffPlacement // TypeDefIndex: 12243
+private class PlaceCliffs.CliffPlacement // TypeDefIndex: 12246
 {
 	public int count; 
 	public int score; 
@@ -54,7 +54,7 @@ private class PlaceCliffs.CliffPlacement // TypeDefIndex: 12243
 
 }
 
-private sealed class PlaceCliffs.<>c // TypeDefIndex: 12244
+private sealed class PlaceCliffs.<>c // TypeDefIndex: 12247
 {
 	public static readonly PlaceCliffs.<>c <>9; 
 	public static Func<Prefab, bool> <>9__17_0; 

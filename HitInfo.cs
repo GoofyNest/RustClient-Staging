@@ -1,4 +1,4 @@
-public class HitInfo // TypeDefIndex: 11609
+public class HitInfo // TypeDefIndex: 11612
 {
 	public BaseEntity Initiator; 
 	public BaseEntity WeaponPrefab; 

@@ -1,4 +1,4 @@
-public class MapMarker : BaseEntity // TypeDefIndex: 11302
+public class MapMarker : BaseEntity // TypeDefIndex: 11305
 {
 	public AppMarkerType appType; 
 	public GameObjectRef markerObj; 
@@ -35,7 +35,7 @@ public class MapMarker : BaseEntity // TypeDefIndex: 11302
 
 }
 
-public enum MapMarker.ClusterType // TypeDefIndex: 11303
+public enum MapMarker.ClusterType // TypeDefIndex: 11306
 {
 	public int value__; 
 	public const MapMarker.ClusterType None = 0;

@@ -1,4 +1,4 @@
-public static class ScriptableRuntimeReflectionSystemSettings // TypeDefIndex: 3899
+public static class ScriptableRuntimeReflectionSystemSettings // TypeDefIndex: 3900
 {
 	private static ScriptableRuntimeReflectionSystemWrapper s_Instance; 
 

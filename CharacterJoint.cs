@@ -1,4 +1,4 @@
-public class CharacterJoint : Joint // TypeDefIndex: 3932
+public class CharacterJoint : Joint // TypeDefIndex: 3933
 {
 
 [NativeHeaderAttribute] 

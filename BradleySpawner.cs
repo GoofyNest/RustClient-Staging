@@ -1,4 +1,4 @@
-public class BradleySpawner : MonoBehaviour, IServerComponent // TypeDefIndex: 10568
+public class BradleySpawner : MonoBehaviour, IServerComponent // TypeDefIndex: 10569
 {
 	public BasePath path; 
 	public GameObjectRef bradleyPrefab; 

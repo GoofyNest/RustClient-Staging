@@ -1,4 +1,4 @@
-public sealed class RectTransformUtility // TypeDefIndex: 4735
+public sealed class RectTransformUtility // TypeDefIndex: 4736
 {
 	private static readonly Vector3[] s_Corners; 
 

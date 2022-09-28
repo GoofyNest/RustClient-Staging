@@ -1,4 +1,4 @@
-internal sealed class OperatorInfo // TypeDefIndex: 4256
+internal sealed class OperatorInfo // TypeDefIndex: 4257
 {
 	internal Nodes _type; 
 	internal int _op; 
