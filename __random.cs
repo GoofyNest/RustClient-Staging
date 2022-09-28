@@ -29146,6 +29146,7 @@ public class Dictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<K
 	|-Dictionary<int, TMP_FontAsset>.ContainsKey
 	|-Dictionary<int, TechTreeWidget>.ContainsKey
 	|-Dictionary<int, UIFireworkStar>.ContainsKey
+	|-Dictionary<int, PointerEventData>.ContainsKey
 	|-Dictionary<int, TerrainUtility.TerrainMap>.ContainsKey
 	|-Dictionary<int, GameObject>.ContainsKey
 	|-Dictionary<int, ViewModelDrawEvent>.ContainsKey

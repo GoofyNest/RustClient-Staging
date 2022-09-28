@@ -5,6 +5,7 @@ public class SeedPosInfo : MonoBehaviour // TypeDefIndex: 10998
 	public Text LevelName; 
 	public Text WorldSize; 
 	public Text Seed; 
+	private TimeSince lastUpdate; 
 
 
 	private void Update() { }
