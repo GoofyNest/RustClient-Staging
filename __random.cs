@@ -73929,6 +73929,7 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<Connection>..ctor
 	|-HashSet<int>..ctor
 	|-HashSet<object>..ctor
+	|-HashSet<string>..ctor
 	|-HashSet<uint>..ctor
 	|-HashSet<ulong>..ctor
 	|-HashSet<Vector3>..ctor
@@ -73955,6 +73956,7 @@ public class HashSet<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnly
 	|-HashSet<int>..ctor
 	|
 	|-HashSet<object>..ctor
+	|-HashSet<string>..ctor
 	|
 	|-HashSet<uint>..ctor
 	|

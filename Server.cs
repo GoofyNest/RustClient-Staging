@@ -341,6 +341,7 @@ public enum ServerQuerySet // TypeDefIndex: 5699
 
 public struct ServerInfo // TypeDefIndex: 5705
 {
+	private static readonly char[] SplitComma; 
 	[CompilerGeneratedAttribute] 
 	private readonly uint <AppId>k__BackingField; 
 	[CompilerGeneratedAttribute] 
@@ -372,7 +373,7 @@ public struct ServerInfo // TypeDefIndex: 5705
 	[CompilerGeneratedAttribute] 
 	private readonly uint <Born>k__BackingField; 
 	[CompilerGeneratedAttribute] 
-	private readonly IReadOnlyList<string> <Tags>k__BackingField; 
+	private readonly HashSet<string> <Tags>k__BackingField; 
 	[CompilerGeneratedAttribute] 
 	private readonly string <ConnectionProtocol>k__BackingField; 
 	[CompilerGeneratedAttribute] 
@@ -393,7 +394,7 @@ public struct ServerInfo // TypeDefIndex: 5705
 	public int Ping { get; }
 	public ulong SteamId { get; }
 	public uint Born { get; }
-	public IReadOnlyList<string> Tags { get; }
+	public HashSet<string> Tags { get; }
 	public string ConnectionProtocol { get; }
 	public string ConnectionString { get; }
 
@@ -444,7 +445,7 @@ public struct ServerInfo // TypeDefIndex: 5705
 	public uint get_Born() { }
 
 	[CompilerGeneratedAttribute] 
-	public IReadOnlyList<string> get_Tags() { }
+	public HashSet<string> get_Tags() { }
 
 	[CompilerGeneratedAttribute] 
 	public string get_ConnectionProtocol() { }
@@ -458,19 +459,21 @@ public struct ServerInfo // TypeDefIndex: 5705
 
 	private static uint Swap(uint x) { }
 
+	private static void .cctor() { }
+
 }
 
 private sealed class ServerInfo.<>c // TypeDefIndex: 5706
 {
 	public static readonly ServerInfo.<>c <>9; 
-	public static Func<string, bool> <>9__54_0; 
+	public static Func<string, bool> <>9__55_0; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal bool <.ctor>b__54_0(string x) { }
+	internal bool <.ctor>b__55_0(string x) { }
 
 }
 
@@ -1297,17 +1300,12 @@ private sealed class ServerBrowserList.<>c__DisplayClass40_0 // TypeDefIndex: 12
 public class ServerBrowserTag : MonoBehaviour // TypeDefIndex: 12899
 {
 	public string serverTag; 
-	public string[] serverHasAnyOf; 
-	public string[] serverHasNoneOf; 
 	public RustButton button; 
 
 	public bool IsActive { get; }
 
 
 	public bool get_IsActive() { }
-
-	[ContextMenu] 
-	public void UpgraddeValue() { }
 
 	public void .ctor() { }
 
@@ -1321,6 +1319,8 @@ public class ServerBrowserTagFilters : MonoBehaviour // TypeDefIndex: 12900
 
 
 	public void Start() { }
+
+	public void DeselectAll() { }
 
 	public void GetTags(out List<HashSet<string>> searchTagGroups, out HashSet<string> excludeTags) { }
 
@@ -1336,7 +1336,6 @@ public class ServerBrowserTagGroup : MonoBehaviour // TypeDefIndex: 12901
 	[TooltipAttribute] 
 	public bool isExclusive; 
 	public ServerBrowserTag[] tags; 
-	public string[] tagValues; 
 
 
 	private void Initialize() { }
