@@ -31,6 +31,7 @@ public class LightGroupAtTime : FacepunchBehaviour // TypeDefIndex: 10904
 	private readonly int DistanceFlaresPerFrame; 
 	public static LightGroupAtTime.LightGroupWorkQueue WorkQueue; 
 	private IOEntity cachedPowerEnt; 
+	private TimeSince lastPowerLookup; 
 
 
 	private void Clear() { }
