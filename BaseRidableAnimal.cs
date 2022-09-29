@@ -13,7 +13,7 @@ public class BaseRidableAnimal : BaseVehicle // TypeDefIndex: 10052
 	public string lootPanelName; 
 	public bool needsBuildingPrivilegeToUse; 
 	public bool isLootable; 
-	protected ItemContainer inventory; 
+	public ItemContainer inventory; 
 	public const BaseEntity.Flags Flag_ForSale = 256;
 	private Vector3 lastMoveDirection; 
 	public GameObjectRef saddlePrefab; 
