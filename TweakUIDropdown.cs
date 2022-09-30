@@ -8,6 +8,7 @@ public class TweakUIDropdown : TweakUIBase // TypeDefIndex: 12877
 	public GameObject DropdownItemPrefab; 
 	public TweakUIDropdown.NameValue[] nameValues; 
 	public bool assignImageColor; 
+	public UnityEvent onValueChanged; 
 	public int currentValue; 
 
 
@@ -44,7 +45,7 @@ public class TweakUIDropdown.NameValue // TypeDefIndex: 12878
 
 }
 
-private sealed class TweakUIDropdown.<>c__DisplayClass12_0 // TypeDefIndex: 12879
+private sealed class TweakUIDropdown.<>c__DisplayClass13_0 // TypeDefIndex: 12879
 {
 	public int itemIndex; 
 	public TweakUIDropdown <>4__this; 

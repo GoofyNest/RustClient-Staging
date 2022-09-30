@@ -1494,7 +1494,6 @@ public class ItemDefinition : MonoBehaviour // TypeDefIndex: 11829
 	public Rarity rarity; 
 	public bool spawnAsBlueprint; 
 	[HeaderAttribute] 
-	public SoundDefinition inventorySelectSound; 
 	public SoundDefinition inventoryGrabSound; 
 	public SoundDefinition inventoryDropSound; 
 	public SoundDefinition physImpactSoundDef; 
@@ -1590,7 +1589,7 @@ public class ItemDefinition : MonoBehaviour // TypeDefIndex: 11829
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private bool <Initialize>b__45_0(ItemDefinition x) { }
+	private bool <Initialize>b__44_0(ItemDefinition x) { }
 
 }
 
@@ -1647,7 +1646,7 @@ public enum ItemDefinition.AmountType // TypeDefIndex: 11834
 
 }
 
-private sealed class ItemDefinition.<>c__DisplayClass35_0 // TypeDefIndex: 11835
+private sealed class ItemDefinition.<>c__DisplayClass34_0 // TypeDefIndex: 11835
 {
 	public string prefabname; 
 	public ItemDefinition <>4__this; 
