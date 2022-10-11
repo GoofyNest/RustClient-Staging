@@ -1,4 +1,4 @@
-public class TimeSinceThreatAIEvent : BaseAIEvent // TypeDefIndex: 11124
+public class TimeSinceThreatAIEvent : BaseAIEvent // TypeDefIndex: 11126
 {
 	[CompilerGeneratedAttribute] 
 	private float <Value>k__BackingField; 

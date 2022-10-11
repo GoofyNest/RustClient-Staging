@@ -1,4 +1,4 @@
-public class StabilitySocket : Socket_Base // TypeDefIndex: 10817
+public class StabilitySocket : Socket_Base // TypeDefIndex: 10818
 {
 	[RangeAttribute] 
 	public float support; 

@@ -1,4 +1,4 @@
-public class TriggerSafeZone : TriggerBase // TypeDefIndex: 11758
+public class TriggerSafeZone : TriggerBase // TypeDefIndex: 11760
 {
 	public static List<TriggerSafeZone> allSafeZones; 
 	public float maxDepth; 

@@ -1,4 +1,4 @@
-public class GridLayoutGroupNeat : GridLayoutGroup // TypeDefIndex: 13012
+public class GridLayoutGroupNeat : GridLayoutGroup // TypeDefIndex: 13014
 {
 
 	private float IdealCellWidth(float cellSize) { }

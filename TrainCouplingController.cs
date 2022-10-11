@@ -1,4 +1,4 @@
-public class TrainCouplingController // TypeDefIndex: 11481
+public class TrainCouplingController // TypeDefIndex: 11483
 {
 	[CompilerGeneratedAttribute] 
 	private float <PreChangeTrackSpeed>k__BackingField; 

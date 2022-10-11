@@ -1,4 +1,4 @@
-public sealed class FixedIntParameter : ParameterOverride<int> // TypeDefIndex: 11956
+public sealed class FixedIntParameter : ParameterOverride<int> // TypeDefIndex: 11958
 {
 
 	public void .ctor() { }

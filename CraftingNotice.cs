@@ -1,4 +1,4 @@
-public class CraftingNotice : MonoBehaviour // TypeDefIndex: 12709
+public class CraftingNotice : MonoBehaviour // TypeDefIndex: 12711
 {
 	public CanvasGroup canvasGroup; 
 	public TextMeshProUGUI itemName; 

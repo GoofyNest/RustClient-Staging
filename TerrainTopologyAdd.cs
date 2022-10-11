@@ -1,4 +1,4 @@
-public class TerrainTopologyAdd : TerrainModifier // TypeDefIndex: 12300
+public class TerrainTopologyAdd : TerrainModifier // TypeDefIndex: 12302
 {
 	[InspectorFlagsAttribute] 
 	public TerrainTopology.Enum TopologyType; 

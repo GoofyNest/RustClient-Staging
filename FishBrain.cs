@@ -1,4 +1,4 @@
-public class FishBrain : BaseAIBrain // TypeDefIndex: 10632
+public class FishBrain : BaseAIBrain // TypeDefIndex: 10633
 {
 
 	public void .ctor() { }

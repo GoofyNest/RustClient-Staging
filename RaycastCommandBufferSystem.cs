@@ -1,4 +1,4 @@
-public static class RaycastCommandBufferSystem // TypeDefIndex: 10588
+public static class RaycastCommandBufferSystem // TypeDefIndex: 10589
 {
 	private static CommandBuffer buffer; 
 	private static Material depthmaterial; 

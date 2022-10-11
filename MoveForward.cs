@@ -1,4 +1,4 @@
-public class MoveForward : MonoBehaviour // TypeDefIndex: 13058
+public class MoveForward : MonoBehaviour // TypeDefIndex: 13060
 {
 	public float Speed; 
 

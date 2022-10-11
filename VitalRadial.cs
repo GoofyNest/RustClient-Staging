@@ -1,4 +1,4 @@
-public class VitalRadial : MonoBehaviour // TypeDefIndex: 13025
+public class VitalRadial : MonoBehaviour // TypeDefIndex: 13027
 {
 
 	private void Awake() { }

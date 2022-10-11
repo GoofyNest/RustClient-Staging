@@ -1,4 +1,4 @@
-public static class RagdollInteritable // TypeDefIndex: 10935
+public static class RagdollInteritable // TypeDefIndex: 10936
 {
 
 	public static void Inherit(Model from, Model to) { }

@@ -1,4 +1,4 @@
-public class TimerEventUI : BaseEventUI // TypeDefIndex: 12535
+public class TimerEventUI : BaseEventUI // TypeDefIndex: 12537
 {
 
 	public override void Init(AIEventType eventType, BaseStateUI stateUI) { }

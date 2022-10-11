@@ -1,4 +1,4 @@
-public class DirectionProperties : PrefabAttribute // TypeDefIndex: 10773
+public class DirectionProperties : PrefabAttribute // TypeDefIndex: 10774
 {
 	private const float radius = 200;
 	public Bounds bounds; 

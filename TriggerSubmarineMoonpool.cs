@@ -1,4 +1,4 @@
-public class TriggerSubmarineMoonpool : TriggerBase, IServerComponent // TypeDefIndex: 11760
+public class TriggerSubmarineMoonpool : TriggerBase, IServerComponent // TypeDefIndex: 11762
 {
 
 	public void .ctor() { }

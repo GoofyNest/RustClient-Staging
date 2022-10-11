@@ -1,4 +1,4 @@
-public class ProcessProceduralObjects : ProceduralComponent // TypeDefIndex: 12280
+public class ProcessProceduralObjects : ProceduralComponent // TypeDefIndex: 12282
 {
 	public override bool RunOnCache { get; }
 

@@ -1,4 +1,4 @@
-public class PathSpeedZone : MonoBehaviour // TypeDefIndex: 10571
+public class PathSpeedZone : MonoBehaviour // TypeDefIndex: 10572
 {
 	public Bounds bounds; 
 	public OBB obbBounds; 

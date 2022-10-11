@@ -1,4 +1,4 @@
-public class StrobeLight : BaseCombatEntity // TypeDefIndex: 9985
+public class StrobeLight : BaseCombatEntity // TypeDefIndex: 9986
 {
 	public float frequency; 
 	public MeshRenderer lightMesh; 

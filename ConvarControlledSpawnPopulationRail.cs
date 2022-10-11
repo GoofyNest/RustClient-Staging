@@ -1,4 +1,4 @@
-public class ConvarControlledSpawnPopulationRail : ConvarControlledSpawnPopulation // TypeDefIndex: 11704
+public class ConvarControlledSpawnPopulationRail : ConvarControlledSpawnPopulation // TypeDefIndex: 11706
 {
 
 	public void .ctor() { }

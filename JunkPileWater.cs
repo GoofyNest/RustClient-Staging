@@ -1,4 +1,4 @@
-public class JunkPileWater : JunkPile // TypeDefIndex: 10505
+public class JunkPileWater : JunkPile // TypeDefIndex: 10506
 {
 	public Transform[] buoyancyPoints; 
 	public bool debugDraw; 

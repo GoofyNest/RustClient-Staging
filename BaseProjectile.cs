@@ -1,4 +1,4 @@
-public class BaseProjectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6322
+public class BaseProjectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6323
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -59,7 +59,7 @@ public class BaseProjectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 }
 
-public class Attack : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6488
+public class Attack : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6489
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -130,7 +130,7 @@ public class Attack : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6488
 
 }
 
-public class ProjectileShoot : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6493
+public class ProjectileShoot : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6494
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -192,7 +192,7 @@ public class ProjectileShoot : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 }
 
-public class ProjectileShoot.Projectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6494
+public class ProjectileShoot.Projectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6495
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -256,7 +256,7 @@ public class ProjectileShoot.Projectile : IDisposable, Pool.IPooled, IProto // T
 
 }
 
-public class BaseProjectile : AttackEntity // TypeDefIndex: 10236
+public class BaseProjectile : AttackEntity // TypeDefIndex: 10237
 {
 	[HeaderAttribute] 
 	public float NoiseRadius; 
@@ -447,7 +447,7 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 10236
 
 }
 
-public class BaseProjectile.Magazine // TypeDefIndex: 10237
+public class BaseProjectile.Magazine // TypeDefIndex: 10238
 {
 	public BaseProjectile.Magazine.Definition definition; 
 	public int capacity; 
@@ -468,7 +468,7 @@ public class BaseProjectile.Magazine // TypeDefIndex: 10237
 
 }
 
-public struct BaseProjectile.Magazine.Definition // TypeDefIndex: 10238
+public struct BaseProjectile.Magazine.Definition // TypeDefIndex: 10239
 {
 	[TooltipAttribute] 
 	public int builtInSize; 
@@ -478,7 +478,7 @@ public struct BaseProjectile.Magazine.Definition // TypeDefIndex: 10238
 
 }
 
-private sealed class BaseProjectile.<>c // TypeDefIndex: 10239
+private sealed class BaseProjectile.<>c // TypeDefIndex: 10240
 {
 	public static readonly BaseProjectile.<>c <>9; 
 	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__63_0; 
@@ -612,7 +612,7 @@ private sealed class BaseProjectile.<>c // TypeDefIndex: 10239
 
 }
 
-private sealed class BaseProjectile.<>c__DisplayClass84_0 // TypeDefIndex: 10240
+private sealed class BaseProjectile.<>c__DisplayClass84_0 // TypeDefIndex: 10241
 {
 	public BaseProjectile <>4__this; 
 	public ItemDefinition ammoType; 
@@ -624,7 +624,7 @@ private sealed class BaseProjectile.<>c__DisplayClass84_0 // TypeDefIndex: 10240
 
 }
 
-public class Projectile : BaseMonoBehaviour // TypeDefIndex: 10930
+public class Projectile : BaseMonoBehaviour // TypeDefIndex: 10931
 {
 	public const float moveDeltaTime = 0,03125;
 	public const float lifeTime = 8;
@@ -770,7 +770,7 @@ public class Projectile : BaseMonoBehaviour // TypeDefIndex: 10930
 
 }
 
-public struct Projectile.Modifier // TypeDefIndex: 10931
+public struct Projectile.Modifier // TypeDefIndex: 10932
 {
 	public float damageScale; 
 	public float damageOffset; 
@@ -783,7 +783,7 @@ public struct Projectile.Modifier // TypeDefIndex: 10931
 
 }
 
-public class ProjectileTestSpawner : MonoBehaviour // TypeDefIndex: 11032
+public class ProjectileTestSpawner : MonoBehaviour // TypeDefIndex: 11034
 {
 	public Projectile TargetProjectile; 
 	public float RepeatTime; 
@@ -794,14 +794,14 @@ public class ProjectileTestSpawner : MonoBehaviour // TypeDefIndex: 11032
 
 }
 
-public class AttackTickAIEvent : BaseAIEvent // TypeDefIndex: 11100
+public class AttackTickAIEvent : BaseAIEvent // TypeDefIndex: 11102
 {
 
 	public void .ctor() { }
 
 }
 
-public class AttackedAIEvent : BaseAIEvent // TypeDefIndex: 11101
+public class AttackedAIEvent : BaseAIEvent // TypeDefIndex: 11103
 {
 	protected float lastExecuteTime; 
 	private BaseCombatEntity combatEntity; 
@@ -811,7 +811,7 @@ public class AttackedAIEvent : BaseAIEvent // TypeDefIndex: 11101
 
 }
 
-public class AttackEntity : HeldEntity // TypeDefIndex: 11169
+public class AttackEntity : HeldEntity // TypeDefIndex: 11171
 {
 	[HeaderAttribute] 
 	public float deployDelay; 
@@ -893,7 +893,7 @@ public class AttackEntity : HeldEntity // TypeDefIndex: 11169
 
 }
 
-public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 11336
+public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 11338
 {
 	[HeaderAttribute] 
 	public GameObjectRef defaultSilencerEffect; 
@@ -948,7 +948,7 @@ public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 11336
 
 }
 
-public struct ProjectileWeaponMod.Modifier // TypeDefIndex: 11337
+public struct ProjectileWeaponMod.Modifier // TypeDefIndex: 11339
 {
 	public bool enabled; 
 	[TooltipAttribute] 
@@ -958,7 +958,7 @@ public struct ProjectileWeaponMod.Modifier // TypeDefIndex: 11337
 
 }
 
-private sealed class ProjectileWeaponMod.<>c // TypeDefIndex: 11338
+private sealed class ProjectileWeaponMod.<>c // TypeDefIndex: 11340
 {
 	public static readonly ProjectileWeaponMod.<>c <>9; 
 	public static Func<ProjectileWeaponMod, bool> <>9__27_0; 
@@ -978,21 +978,21 @@ private sealed class ProjectileWeaponMod.<>c // TypeDefIndex: 11338
 
 }
 
-public class AttackTickEventUI : BaseEventUI // TypeDefIndex: 12507
+public class AttackTickEventUI : BaseEventUI // TypeDefIndex: 12509
 {
 
 	public void .ctor() { }
 
 }
 
-public class AttackedEventUI : BaseEventUI // TypeDefIndex: 12508
+public class AttackedEventUI : BaseEventUI // TypeDefIndex: 12510
 {
 
 	public void .ctor() { }
 
 }
 
-public class ProjectileWeaponInformationPanel : ItemInformationPanel // TypeDefIndex: 12776
+public class ProjectileWeaponInformationPanel : ItemInformationPanel // TypeDefIndex: 12778
 {
 	public ItemStatValue damageDisplay; 
 	public ItemStatValue recoilDisplay; 

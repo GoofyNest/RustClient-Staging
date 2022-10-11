@@ -1,4 +1,4 @@
-public class ch47Animator : MonoBehaviour // TypeDefIndex: 10564
+public class ch47Animator : MonoBehaviour // TypeDefIndex: 10565
 {
 	public Animator animator; 
 	public bool bottomDoorOpen; 

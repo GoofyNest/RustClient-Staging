@@ -1,4 +1,4 @@
-public class Debugging : ConsoleSystem // TypeDefIndex: 13637
+public class Debugging : ConsoleSystem // TypeDefIndex: 13639
 {
 	[ServerVar] 
 	[ClientVar] 
@@ -56,6 +56,10 @@ public class Debugging : ConsoleSystem // TypeDefIndex: 13637
 	public static bool log { get; set; }
 	[ClientVar] 
 	public static bool skyreflection { get; set; }
+	[ClientVar] 
+	public static bool invokePerformanceTracking { get; set; }
+	[ClientVar] 
+	public static float invokePerformanceThreshold { get; set; }
 
 
 	[ServerVar] 
@@ -139,20 +143,28 @@ public class Debugging : ConsoleSystem // TypeDefIndex: 13637
 
 	private static string DebugPrintout() { }
 
+	public static bool get_invokePerformanceTracking() { }
+
+	public static void set_invokePerformanceTracking(bool value) { }
+
+	public static float get_invokePerformanceThreshold() { }
+
+	public static void set_invokePerformanceThreshold(float value) { }
+
 	public void .ctor() { }
 
 	private static void .cctor() { }
 
 }
 
-public struct Debugging.EntityInfo // TypeDefIndex: 13638
+public struct Debugging.EntityInfo // TypeDefIndex: 13640
 {
 	public string name; 
 	public uint netId; 
 
 }
 
-private sealed class Debugging.<>c__DisplayClass40_0 // TypeDefIndex: 13639
+private sealed class Debugging.<>c__DisplayClass40_0 // TypeDefIndex: 13641
 {
 	public Vector3 position; 
 	public float radius; 
@@ -164,7 +176,7 @@ private sealed class Debugging.<>c__DisplayClass40_0 // TypeDefIndex: 13639
 
 }
 
-private sealed class Debugging.<>c // TypeDefIndex: 13640
+private sealed class Debugging.<>c // TypeDefIndex: 13642
 {
 	public static readonly Debugging.<>c <>9; 
 	public static Func<BaseNetworkable, uint> <>9__40_1; 

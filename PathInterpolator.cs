@@ -1,4 +1,4 @@
-public class PathInterpolator // TypeDefIndex: 13135
+public class PathInterpolator // TypeDefIndex: 13137
 {
 	public Vector3[] Points; 
 	public Vector3[] Tangents; 

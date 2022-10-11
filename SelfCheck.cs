@@ -1,4 +1,4 @@
-public static class SelfCheck // TypeDefIndex: 11535
+public static class SelfCheck // TypeDefIndex: 11537
 {
 
 	public static bool Run() { }

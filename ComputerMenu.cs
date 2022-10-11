@@ -1,4 +1,4 @@
-public class ComputerMenu : UIDialog // TypeDefIndex: 10393
+public class ComputerMenu : UIDialog // TypeDefIndex: 10394
 {
 	public RectTransform bookmarkContainer; 
 	public GameObject bookmarkPrefab; 

@@ -1,4 +1,4 @@
-public class EnvironmentManager : SingletonComponent<EnvironmentManager> // TypeDefIndex: 11572
+public class EnvironmentManager : SingletonComponent<EnvironmentManager> // TypeDefIndex: 11574
 {
 
 	public static EnvironmentType Get(OBB obb) { }

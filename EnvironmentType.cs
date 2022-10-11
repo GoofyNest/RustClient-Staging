@@ -1,4 +1,4 @@
-public enum EnvironmentType // TypeDefIndex: 11573
+public enum EnvironmentType // TypeDefIndex: 11575
 {
 	public int value__; 
 	public const EnvironmentType Underground = 1;

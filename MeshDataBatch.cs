@@ -1,4 +1,4 @@
-public class MeshDataBatch : MeshBatch // TypeDefIndex: 13126
+public class MeshDataBatch : MeshBatch // TypeDefIndex: 13128
 {
 	private Vector3 position; 
 	private Mesh meshBatch; 

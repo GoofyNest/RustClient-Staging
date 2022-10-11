@@ -1,4 +1,4 @@
-public class DoubleShotgunViewModel : BaseViewModel // TypeDefIndex: 10605
+public class DoubleShotgunViewModel : BaseViewModel // TypeDefIndex: 10606
 {
 	public GameObject NoSkinRoot; 
 

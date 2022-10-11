@@ -186,7 +186,7 @@ protected class PointerInputModule.MouseState // TypeDefIndex: 5087
 
 }
 
-protected internal enum JsonReader.State // TypeDefIndex: 5907
+protected internal enum JsonReader.State // TypeDefIndex: 5908
 {
 	public int value__; 
 	public const JsonReader.State Start = 0;
@@ -205,7 +205,7 @@ protected internal enum JsonReader.State // TypeDefIndex: 5907
 
 }
 
-protected enum TMP_InputField.EditState // TypeDefIndex: 6729
+protected enum TMP_InputField.EditState // TypeDefIndex: 6730
 {
 	public int value__; 
 	public const TMP_InputField.EditState Continue = 0;
@@ -213,7 +213,7 @@ protected enum TMP_InputField.EditState // TypeDefIndex: 6729
 
 }
 
-protected struct TMP_Text.UnicodeChar // TypeDefIndex: 6773
+protected struct TMP_Text.UnicodeChar // TypeDefIndex: 6774
 {
 	public int unicode; 
 	public int stringIndex; 
@@ -221,7 +221,7 @@ protected struct TMP_Text.UnicodeChar // TypeDefIndex: 6773
 
 }
 
-protected static class AnimalAnimation.Params // TypeDefIndex: 10822
+protected static class AnimalAnimation.Params // TypeDefIndex: 10823
 {
 	public static int WalkSpeed; 
 	public static int Sleeping; 
@@ -232,7 +232,7 @@ protected static class AnimalAnimation.Params // TypeDefIndex: 10822
 
 }
 
-protected class ViewShake.ShakeParameters // TypeDefIndex: 10960
+protected class ViewShake.ShakeParameters // TypeDefIndex: 10961
 {
 	public float endTime; 
 	public float duration; 
@@ -248,7 +248,7 @@ protected class ViewShake.ShakeParameters // TypeDefIndex: 10960
 
 }
 
-protected struct BaseFootstepEffect.GroundInfo // TypeDefIndex: 11037
+protected struct BaseFootstepEffect.GroundInfo // TypeDefIndex: 11039
 {
 	public string surface; 
 	public Vector3 position; 
@@ -263,7 +263,7 @@ protected struct BaseFootstepEffect.GroundInfo // TypeDefIndex: 11037
 
 }
 
-protected enum VehicleChassisVisuals.ExtensionMode<T> // TypeDefIndex: 11494
+protected enum VehicleChassisVisuals.ExtensionMode<T> // TypeDefIndex: 11496
 {
 	public int value__; 
 	public const VehicleChassisVisuals.ExtensionMode<T> RestingIsMinExtension = 0;

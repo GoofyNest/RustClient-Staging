@@ -2040,6 +2040,7 @@ public sealed class Comparison<T> : MulticastDelegate // TypeDefIndex: 160
 	|-Comparison<ImageStorageEntity.ImageRequest>..ctor
 	|-Comparison<InstancingKey>..ctor
 	|-Comparison<InvokeAction>..ctor
+	|-Comparison<InvokeHandlerBase.InvokeTiming<object>>..ctor
 	|-Comparison<ItemSkinDirectory.Skin>..ctor
 	|-Comparison<KeyframeView.UIKeyframeValue>..ctor
 	|-Comparison<LocalClock.TimedEvent>..ctor
@@ -2212,6 +2213,7 @@ public sealed class Comparison<T> : MulticastDelegate // TypeDefIndex: 160
 	|-Comparison<WeightedStringList.Container>.Invoke
 	|-Comparison<GameStat.Stat>.Invoke
 	|-Comparison<ImageStorageEntity.ImageRequest>.Invoke
+	|-Comparison<InvokeHandlerBase.InvokeTiming<object>>.Invoke
 	|-Comparison<ParticleSystemContainer.ParticleSystemGroup>.Invoke
 	|-Comparison<PlayerItemRecipe>.Invoke
 	|-Comparison<DemoShotParentKeyframe>.Invoke
@@ -2496,6 +2498,8 @@ public sealed class Comparison<T> : MulticastDelegate // TypeDefIndex: 160
 	|-Comparison<InstancingKey>.BeginInvoke
 	|
 	|-Comparison<InvokeAction>.BeginInvoke
+	|
+	|-Comparison<InvokeHandlerBase.InvokeTiming<object>>.BeginInvoke
 	|
 	|-Comparison<ItemSkinDirectory.Skin>.BeginInvoke
 	|
@@ -2793,6 +2797,7 @@ public sealed class Comparison<T> : MulticastDelegate // TypeDefIndex: 160
 	|-Comparison<ImageStorageEntity.ImageRequest>.EndInvoke
 	|-Comparison<InstancingKey>.EndInvoke
 	|-Comparison<InvokeAction>.EndInvoke
+	|-Comparison<InvokeHandlerBase.InvokeTiming<object>>.EndInvoke
 	|-Comparison<ItemSkinDirectory.Skin>.EndInvoke
 	|-Comparison<KeyframeView.UIKeyframeValue>.EndInvoke
 	|-Comparison<LocalClock.TimedEvent>.EndInvoke
@@ -2982,6 +2987,7 @@ public sealed class Predicate<T> : MulticastDelegate // TypeDefIndex: 162
 	|-Predicate<IconSkinPicker.SkinButtonSetup>..ctor
 	|-Predicate<ImageStorageEntity.ImageRequest>..ctor
 	|-Predicate<InvokeAction>..ctor
+	|-Predicate<InvokeHandlerBase.InvokeTiming<object>>..ctor
 	|-Predicate<Item>..ctor
 	|-Predicate<ItemSkinDirectory.Skin>..ctor
 	|-Predicate<KeyframeView.UIKeyframeValue>..ctor
@@ -3169,6 +3175,7 @@ public sealed class Predicate<T> : MulticastDelegate // TypeDefIndex: 162
 	|-Predicate<WeightedStringList.Container>.Invoke
 	|-Predicate<GameStat.Stat>.Invoke
 	|-Predicate<ImageStorageEntity.ImageRequest>.Invoke
+	|-Predicate<InvokeHandlerBase.InvokeTiming<object>>.Invoke
 	|-Predicate<MagnetCrane.MagnetCraneSnapshot>.Invoke
 	|-Predicate<ParticleSystemContainer.ParticleSystemGroup>.Invoke
 	|-Predicate<PlayerItemRecipe>.Invoke
@@ -3443,6 +3450,8 @@ public sealed class Predicate<T> : MulticastDelegate // TypeDefIndex: 162
 	|-Predicate<ImageStorageEntity.ImageRequest>.BeginInvoke
 	|
 	|-Predicate<InvokeAction>.BeginInvoke
+	|
+	|-Predicate<InvokeHandlerBase.InvokeTiming<object>>.BeginInvoke
 	|
 	|-Predicate<ItemSkinDirectory.Skin>.BeginInvoke
 	|
@@ -3734,6 +3743,7 @@ public sealed class Predicate<T> : MulticastDelegate // TypeDefIndex: 162
 	|-Predicate<IconSkinPicker.SkinButtonSetup>.EndInvoke
 	|-Predicate<ImageStorageEntity.ImageRequest>.EndInvoke
 	|-Predicate<InvokeAction>.EndInvoke
+	|-Predicate<InvokeHandlerBase.InvokeTiming<object>>.EndInvoke
 	|-Predicate<ItemSkinDirectory.Skin>.EndInvoke
 	|-Predicate<KeyframeView.UIKeyframeValue>.EndInvoke
 	|-Predicate<LocalClock.TimedEvent>.EndInvoke
@@ -15824,6 +15834,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>..ctor
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>..ctor
 	|-ReadOnlyCollection<InvokeAction>..ctor
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>..ctor
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>..ctor
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>..ctor
 	|-ReadOnlyCollection<LocalClock.TimedEvent>..ctor
@@ -16003,6 +16014,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.get_Count
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.get_Count
 	|-ReadOnlyCollection<InvokeAction>.get_Count
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.get_Count
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.get_Count
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.get_Count
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.get_Count
@@ -16203,6 +16215,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WeightedStringList.Container>.get_Item
 	|-ReadOnlyCollection<GameStat.Stat>.get_Item
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.get_Item
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.get_Item
 	|-ReadOnlyCollection<MagnetCrane.MagnetCraneSnapshot>.get_Item
 	|-ReadOnlyCollection<ParticleSystemContainer.ParticleSystemGroup>.get_Item
 	|-ReadOnlyCollection<PlayerItemRecipe>.get_Item
@@ -16369,6 +16382,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WeightedStringList.Container>.Contains
 	|-ReadOnlyCollection<GameStat.Stat>.Contains
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.Contains
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.Contains
 	|-ReadOnlyCollection<MagnetCrane.MagnetCraneSnapshot>.Contains
 	|-ReadOnlyCollection<ParticleSystemContainer.ParticleSystemGroup>.Contains
 	|-ReadOnlyCollection<PlayerItemRecipe>.Contains
@@ -16590,6 +16604,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.CopyTo
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.CopyTo
 	|-ReadOnlyCollection<InvokeAction>.CopyTo
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.CopyTo
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.CopyTo
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.CopyTo
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.CopyTo
@@ -16767,6 +16782,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.GetEnumerator
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.GetEnumerator
 	|-ReadOnlyCollection<InvokeAction>.GetEnumerator
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.GetEnumerator
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.GetEnumerator
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.GetEnumerator
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.GetEnumerator
@@ -16930,6 +16946,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WeightedStringList.Container>.IndexOf
 	|-ReadOnlyCollection<GameStat.Stat>.IndexOf
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.IndexOf
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.IndexOf
 	|-ReadOnlyCollection<MagnetCrane.MagnetCraneSnapshot>.IndexOf
 	|-ReadOnlyCollection<ParticleSystemContainer.ParticleSystemGroup>.IndexOf
 	|-ReadOnlyCollection<PlayerItemRecipe>.IndexOf
@@ -17151,6 +17168,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
@@ -17312,6 +17330,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WeightedStringList.Container>.System.Collections.Generic.IList<T>.get_Item
 	|-ReadOnlyCollection<GameStat.Stat>.System.Collections.Generic.IList<T>.get_Item
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.Generic.IList<T>.get_Item
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.Generic.IList<T>.get_Item
 	|-ReadOnlyCollection<MagnetCrane.MagnetCraneSnapshot>.System.Collections.Generic.IList<T>.get_Item
 	|-ReadOnlyCollection<ParticleSystemContainer.ParticleSystemGroup>.System.Collections.Generic.IList<T>.get_Item
 	|-ReadOnlyCollection<PlayerItemRecipe>.System.Collections.Generic.IList<T>.get_Item
@@ -17525,6 +17544,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.Generic.IList<T>.set_Item
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.Generic.IList<T>.set_Item
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.Generic.IList<T>.set_Item
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.Generic.IList<T>.set_Item
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.Generic.IList<T>.set_Item
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.Generic.IList<T>.set_Item
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.Generic.IList<T>.set_Item
@@ -17700,6 +17720,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.Generic.ICollection<T>.Add
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.Generic.ICollection<T>.Add
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.Generic.ICollection<T>.Add
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.Generic.ICollection<T>.Add
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.Generic.ICollection<T>.Add
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.Generic.ICollection<T>.Add
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.Generic.ICollection<T>.Add
@@ -17875,6 +17896,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.Generic.ICollection<T>.Clear
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.Generic.ICollection<T>.Clear
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.Generic.ICollection<T>.Clear
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.Generic.ICollection<T>.Clear
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.Generic.ICollection<T>.Clear
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.Generic.ICollection<T>.Clear
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.Generic.ICollection<T>.Clear
@@ -18050,6 +18072,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.Generic.IList<T>.Insert
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.Generic.IList<T>.Insert
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.Generic.IList<T>.Insert
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.Generic.IList<T>.Insert
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.Generic.IList<T>.Insert
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.Generic.IList<T>.Insert
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.Generic.IList<T>.Insert
@@ -18225,6 +18248,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.Generic.ICollection<T>.Remove
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.Generic.ICollection<T>.Remove
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.Generic.ICollection<T>.Remove
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.Generic.ICollection<T>.Remove
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.Generic.ICollection<T>.Remove
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.Generic.ICollection<T>.Remove
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.Generic.ICollection<T>.Remove
@@ -18400,6 +18424,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.Generic.IList<T>.RemoveAt
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.Generic.IList<T>.RemoveAt
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.Generic.IList<T>.RemoveAt
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.Generic.IList<T>.RemoveAt
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.Generic.IList<T>.RemoveAt
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.Generic.IList<T>.RemoveAt
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.Generic.IList<T>.RemoveAt
@@ -18626,6 +18651,8 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.IEnumerable.GetEnumerator
 	|
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.IEnumerable.GetEnumerator
+	|
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IEnumerable.GetEnumerator
 	|
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.IEnumerable.GetEnumerator
 	|
@@ -18971,6 +18998,8 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.ICollection.get_SyncRoot
 	|
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.ICollection.get_SyncRoot
+	|
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.ICollection.get_SyncRoot
 	|
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.ICollection.get_SyncRoot
@@ -19315,6 +19344,8 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.ICollection.CopyTo
 	|
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.ICollection.CopyTo
+	|
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.ICollection.CopyTo
 	|
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.ICollection.CopyTo
@@ -19607,6 +19638,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.IList.get_IsFixedSize
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.IList.get_IsFixedSize
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.IList.get_IsFixedSize
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.get_IsFixedSize
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.IList.get_IsFixedSize
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.IList.get_IsFixedSize
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.IList.get_IsFixedSize
@@ -19782,6 +19814,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.IList.get_IsReadOnly
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.IList.get_IsReadOnly
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.IList.get_IsReadOnly
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.get_IsReadOnly
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.IList.get_IsReadOnly
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.IList.get_IsReadOnly
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.IList.get_IsReadOnly
@@ -19943,6 +19976,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WeightedStringList.Container>.System.Collections.IList.get_Item
 	|-ReadOnlyCollection<GameStat.Stat>.System.Collections.IList.get_Item
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.IList.get_Item
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.get_Item
 	|-ReadOnlyCollection<MagnetCrane.MagnetCraneSnapshot>.System.Collections.IList.get_Item
 	|-ReadOnlyCollection<ParticleSystemContainer.ParticleSystemGroup>.System.Collections.IList.get_Item
 	|-ReadOnlyCollection<PlayerItemRecipe>.System.Collections.IList.get_Item
@@ -20161,6 +20195,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.IList.set_Item
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.IList.set_Item
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.IList.set_Item
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.set_Item
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.IList.set_Item
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.IList.set_Item
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.IList.set_Item
@@ -20336,6 +20371,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.IList.Add
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.IList.Add
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.IList.Add
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.Add
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.IList.Add
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.IList.Add
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.IList.Add
@@ -20511,6 +20547,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.IList.Clear
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.IList.Clear
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.IList.Clear
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.Clear
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.IList.Clear
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.IList.Clear
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.IList.Clear
@@ -20672,6 +20709,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WeightedStringList.Container>.IsCompatibleObject
 	|-ReadOnlyCollection<GameStat.Stat>.IsCompatibleObject
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.IsCompatibleObject
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.IsCompatibleObject
 	|-ReadOnlyCollection<ParticleSystemContainer.ParticleSystemGroup>.IsCompatibleObject
 	|-ReadOnlyCollection<PlayerItemRecipe>.IsCompatibleObject
 	|-ReadOnlyCollection<DemoShotParentKeyframe>.IsCompatibleObject
@@ -20877,6 +20915,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WeightedStringList.Container>.System.Collections.IList.Contains
 	|-ReadOnlyCollection<GameStat.Stat>.System.Collections.IList.Contains
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.IList.Contains
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.Contains
 	|-ReadOnlyCollection<MagnetCrane.MagnetCraneSnapshot>.System.Collections.IList.Contains
 	|-ReadOnlyCollection<ParticleSystemContainer.ParticleSystemGroup>.System.Collections.IList.Contains
 	|-ReadOnlyCollection<PlayerItemRecipe>.System.Collections.IList.Contains
@@ -21082,6 +21121,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<WeightedStringList.Container>.System.Collections.IList.IndexOf
 	|-ReadOnlyCollection<GameStat.Stat>.System.Collections.IList.IndexOf
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.IList.IndexOf
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.IndexOf
 	|-ReadOnlyCollection<MagnetCrane.MagnetCraneSnapshot>.System.Collections.IList.IndexOf
 	|-ReadOnlyCollection<ParticleSystemContainer.ParticleSystemGroup>.System.Collections.IList.IndexOf
 	|-ReadOnlyCollection<PlayerItemRecipe>.System.Collections.IList.IndexOf
@@ -21301,6 +21341,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.IList.Insert
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.IList.Insert
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.IList.Insert
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.Insert
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.IList.Insert
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.IList.Insert
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.IList.Insert
@@ -21476,6 +21517,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.IList.Remove
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.IList.Remove
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.IList.Remove
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.Remove
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.IList.Remove
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.IList.Remove
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.IList.Remove
@@ -21651,6 +21693,7 @@ public class ReadOnlyCollection<T> : IList<T>, ICollection<T>, IEnumerable<T>, I
 	|-ReadOnlyCollection<IconSkinPicker.SkinButtonSetup>.System.Collections.IList.RemoveAt
 	|-ReadOnlyCollection<ImageStorageEntity.ImageRequest>.System.Collections.IList.RemoveAt
 	|-ReadOnlyCollection<InvokeAction>.System.Collections.IList.RemoveAt
+	|-ReadOnlyCollection<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.RemoveAt
 	|-ReadOnlyCollection<ItemSkinDirectory.Skin>.System.Collections.IList.RemoveAt
 	|-ReadOnlyCollection<KeyframeView.UIKeyframeValue>.System.Collections.IList.RemoveAt
 	|-ReadOnlyCollection<LocalClock.TimedEvent>.System.Collections.IList.RemoveAt
@@ -50880,6 +50923,7 @@ public abstract class Comparer<T> : IComparer, IComparer<T> // TypeDefIndex: 146
 	|-Comparer<ImageStorageEntity.ImageRequest>.get_Default
 	|-Comparer<InstancingKey>.get_Default
 	|-Comparer<InvokeAction>.get_Default
+	|-Comparer<InvokeHandlerBase.InvokeTiming<object>>.get_Default
 	|-Comparer<ItemSkinDirectory.Skin>.get_Default
 	|-Comparer<KeyframeView.UIKeyframeValue>.get_Default
 	|-Comparer<LocalClock.TimedEvent>.get_Default
@@ -51113,6 +51157,8 @@ public abstract class Comparer<T> : IComparer, IComparer<T> // TypeDefIndex: 146
 	|-Comparer<InstancingKey>.CreateComparer
 	|
 	|-Comparer<InvokeAction>.CreateComparer
+	|
+	|-Comparer<InvokeHandlerBase.InvokeTiming<object>>.CreateComparer
 	|
 	|-Comparer<ItemSkinDirectory.Skin>.CreateComparer
 	|
@@ -51403,6 +51449,7 @@ public abstract class Comparer<T> : IComparer, IComparer<T> // TypeDefIndex: 146
 	|-Comparer<WeightedStringList.Container>.System.Collections.IComparer.Compare
 	|-Comparer<GameStat.Stat>.System.Collections.IComparer.Compare
 	|-Comparer<ImageStorageEntity.ImageRequest>.System.Collections.IComparer.Compare
+	|-Comparer<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IComparer.Compare
 	|-Comparer<MagnetCrane.MagnetCraneSnapshot>.System.Collections.IComparer.Compare
 	|-Comparer<ParticleSystemContainer.ParticleSystemGroup>.System.Collections.IComparer.Compare
 	|-Comparer<PlayerItemRecipe>.System.Collections.IComparer.Compare
@@ -51633,6 +51680,7 @@ public abstract class Comparer<T> : IComparer, IComparer<T> // TypeDefIndex: 146
 	|-Comparer<ImageStorageEntity.ImageRequest>..ctor
 	|-Comparer<InstancingKey>..ctor
 	|-Comparer<InvokeAction>..ctor
+	|-Comparer<InvokeHandlerBase.InvokeTiming<object>>..ctor
 	|-Comparer<ItemSkinDirectory.Skin>..ctor
 	|-Comparer<KeyframeView.UIKeyframeValue>..ctor
 	|-Comparer<LocalClock.TimedEvent>..ctor
@@ -52018,6 +52066,8 @@ internal class ObjectComparer<T> : Comparer<T> // TypeDefIndex: 1465
 	|
 	|-ObjectComparer<InvokeAction>.Compare
 	|
+	|-ObjectComparer<InvokeHandlerBase.InvokeTiming<object>>.Compare
+	|
 	|-ObjectComparer<ItemSkinDirectory.Skin>.Compare
 	|
 	|-ObjectComparer<KeyframeView.UIKeyframeValue>.Compare
@@ -52318,6 +52368,7 @@ internal class ObjectComparer<T> : Comparer<T> // TypeDefIndex: 1465
 	|-ObjectComparer<ImageStorageEntity.ImageRequest>.Equals
 	|-ObjectComparer<InstancingKey>.Equals
 	|-ObjectComparer<InvokeAction>.Equals
+	|-ObjectComparer<InvokeHandlerBase.InvokeTiming<object>>.Equals
 	|-ObjectComparer<ItemSkinDirectory.Skin>.Equals
 	|-ObjectComparer<KeyframeView.UIKeyframeValue>.Equals
 	|-ObjectComparer<LocalClock.TimedEvent>.Equals
@@ -52498,6 +52549,7 @@ internal class ObjectComparer<T> : Comparer<T> // TypeDefIndex: 1465
 	|-ObjectComparer<ImageStorageEntity.ImageRequest>.GetHashCode
 	|-ObjectComparer<InstancingKey>.GetHashCode
 	|-ObjectComparer<InvokeAction>.GetHashCode
+	|-ObjectComparer<InvokeHandlerBase.InvokeTiming<object>>.GetHashCode
 	|-ObjectComparer<ItemSkinDirectory.Skin>.GetHashCode
 	|-ObjectComparer<KeyframeView.UIKeyframeValue>.GetHashCode
 	|-ObjectComparer<LocalClock.TimedEvent>.GetHashCode
@@ -52678,6 +52730,7 @@ internal class ObjectComparer<T> : Comparer<T> // TypeDefIndex: 1465
 	|-ObjectComparer<ImageStorageEntity.ImageRequest>..ctor
 	|-ObjectComparer<InstancingKey>..ctor
 	|-ObjectComparer<InvokeAction>..ctor
+	|-ObjectComparer<InvokeHandlerBase.InvokeTiming<object>>..ctor
 	|-ObjectComparer<ItemSkinDirectory.Skin>..ctor
 	|-ObjectComparer<KeyframeView.UIKeyframeValue>..ctor
 	|-ObjectComparer<LocalClock.TimedEvent>..ctor
@@ -52882,6 +52935,7 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<ImageStorageEntity.ImageRequest>.get_Default
 	|-EqualityComparer<InstancingKey>.get_Default
 	|-EqualityComparer<InvokeAction>.get_Default
+	|-EqualityComparer<InvokeHandlerBase.InvokeTiming<object>>.get_Default
 	|-EqualityComparer<ItemSkinDirectory.Skin>.get_Default
 	|-EqualityComparer<KeyframeView.UIKeyframeValue>.get_Default
 	|-EqualityComparer<LocalClock.TimedEvent>.get_Default
@@ -53154,6 +53208,8 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<InstancingKey>.CreateComparer
 	|
 	|-EqualityComparer<InvokeAction>.CreateComparer
+	|
+	|-EqualityComparer<InvokeHandlerBase.InvokeTiming<object>>.CreateComparer
 	|
 	|-EqualityComparer<ItemSkinDirectory.Skin>.CreateComparer
 	|
@@ -53505,6 +53561,7 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<WeightedStringList.Container>.IndexOf
 	|-EqualityComparer<GameStat.Stat>.IndexOf
 	|-EqualityComparer<ImageStorageEntity.ImageRequest>.IndexOf
+	|-EqualityComparer<InvokeHandlerBase.InvokeTiming<object>>.IndexOf
 	|-EqualityComparer<XPathNodeRef>.IndexOf
 	|-EqualityComparer<MagnetCrane.MagnetCraneSnapshot>.IndexOf
 	|-EqualityComparer<DefaultSerializationBinder.TypeNameKey>.IndexOf
@@ -53751,6 +53808,7 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<WeightedStringList.Container>.LastIndexOf
 	|-EqualityComparer<GameStat.Stat>.LastIndexOf
 	|-EqualityComparer<ImageStorageEntity.ImageRequest>.LastIndexOf
+	|-EqualityComparer<InvokeHandlerBase.InvokeTiming<object>>.LastIndexOf
 	|-EqualityComparer<XPathNodeRef>.LastIndexOf
 	|-EqualityComparer<MagnetCrane.MagnetCraneSnapshot>.LastIndexOf
 	|-EqualityComparer<DefaultSerializationBinder.TypeNameKey>.LastIndexOf
@@ -53997,6 +54055,7 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<WeightedStringList.Container>.System.Collections.IEqualityComparer.GetHashCode
 	|-EqualityComparer<GameStat.Stat>.System.Collections.IEqualityComparer.GetHashCode
 	|-EqualityComparer<ImageStorageEntity.ImageRequest>.System.Collections.IEqualityComparer.GetHashCode
+	|-EqualityComparer<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IEqualityComparer.GetHashCode
 	|-EqualityComparer<XPathNodeRef>.System.Collections.IEqualityComparer.GetHashCode
 	|-EqualityComparer<MagnetCrane.MagnetCraneSnapshot>.System.Collections.IEqualityComparer.GetHashCode
 	|-EqualityComparer<DefaultSerializationBinder.TypeNameKey>.System.Collections.IEqualityComparer.GetHashCode
@@ -54240,6 +54299,7 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<WeightedStringList.Container>.System.Collections.IEqualityComparer.Equals
 	|-EqualityComparer<GameStat.Stat>.System.Collections.IEqualityComparer.Equals
 	|-EqualityComparer<ImageStorageEntity.ImageRequest>.System.Collections.IEqualityComparer.Equals
+	|-EqualityComparer<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IEqualityComparer.Equals
 	|-EqualityComparer<XPathNodeRef>.System.Collections.IEqualityComparer.Equals
 	|-EqualityComparer<MagnetCrane.MagnetCraneSnapshot>.System.Collections.IEqualityComparer.Equals
 	|-EqualityComparer<DefaultSerializationBinder.TypeNameKey>.System.Collections.IEqualityComparer.Equals
@@ -54506,6 +54566,7 @@ public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer
 	|-EqualityComparer<ImageStorageEntity.ImageRequest>..ctor
 	|-EqualityComparer<InstancingKey>..ctor
 	|-EqualityComparer<InvokeAction>..ctor
+	|-EqualityComparer<InvokeHandlerBase.InvokeTiming<object>>..ctor
 	|-EqualityComparer<ItemSkinDirectory.Skin>..ctor
 	|-EqualityComparer<KeyframeView.UIKeyframeValue>..ctor
 	|-EqualityComparer<LocalClock.TimedEvent>..ctor
@@ -55352,6 +55413,7 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<WeightedStringList.Container>.Equals
 	|-ObjectEqualityComparer<GameStat.Stat>.Equals
 	|-ObjectEqualityComparer<ImageStorageEntity.ImageRequest>.Equals
+	|-ObjectEqualityComparer<InvokeHandlerBase.InvokeTiming<object>>.Equals
 	|-ObjectEqualityComparer<XPathNodeRef>.Equals
 	|-ObjectEqualityComparer<MagnetCrane.MagnetCraneSnapshot>.Equals
 	|-ObjectEqualityComparer<ParticleSystemContainer.ParticleSystemGroup>.Equals
@@ -55650,6 +55712,7 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<Gibbable.OverrideMesh>.GetHashCode
 	|-ObjectEqualityComparer<IconSkinPicker.SkinButtonSetup>.GetHashCode
 	|-ObjectEqualityComparer<ImageStorageEntity.ImageRequest>.GetHashCode
+	|-ObjectEqualityComparer<InvokeHandlerBase.InvokeTiming<object>>.GetHashCode
 	|-ObjectEqualityComparer<ItemSkinDirectory.Skin>.GetHashCode
 	|-ObjectEqualityComparer<KeyframeView.UIKeyframeValue>.GetHashCode
 	|-ObjectEqualityComparer<LocalClock.TimedEvent>.GetHashCode
@@ -55923,6 +55986,7 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<WeightedStringList.Container>.IndexOf
 	|-ObjectEqualityComparer<GameStat.Stat>.IndexOf
 	|-ObjectEqualityComparer<ImageStorageEntity.ImageRequest>.IndexOf
+	|-ObjectEqualityComparer<InvokeHandlerBase.InvokeTiming<object>>.IndexOf
 	|-ObjectEqualityComparer<XPathNodeRef>.IndexOf
 	|-ObjectEqualityComparer<MagnetCrane.MagnetCraneSnapshot>.IndexOf
 	|-ObjectEqualityComparer<ParticleSystemContainer.ParticleSystemGroup>.IndexOf
@@ -56222,6 +56286,7 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<WeightedStringList.Container>.LastIndexOf
 	|-ObjectEqualityComparer<GameStat.Stat>.LastIndexOf
 	|-ObjectEqualityComparer<ImageStorageEntity.ImageRequest>.LastIndexOf
+	|-ObjectEqualityComparer<InvokeHandlerBase.InvokeTiming<object>>.LastIndexOf
 	|-ObjectEqualityComparer<XPathNodeRef>.LastIndexOf
 	|-ObjectEqualityComparer<MagnetCrane.MagnetCraneSnapshot>.LastIndexOf
 	|-ObjectEqualityComparer<ParticleSystemContainer.ParticleSystemGroup>.LastIndexOf
@@ -56542,6 +56607,7 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<ImageStorageEntity.ImageRequest>.Equals
 	|-ObjectEqualityComparer<InstancingKey>.Equals
 	|-ObjectEqualityComparer<InvokeAction>.Equals
+	|-ObjectEqualityComparer<InvokeHandlerBase.InvokeTiming<object>>.Equals
 	|-ObjectEqualityComparer<ItemSkinDirectory.Skin>.Equals
 	|-ObjectEqualityComparer<KeyframeView.UIKeyframeValue>.Equals
 	|-ObjectEqualityComparer<LocalClock.TimedEvent>.Equals
@@ -56754,6 +56820,7 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<ImageStorageEntity.ImageRequest>.GetHashCode
 	|-ObjectEqualityComparer<InstancingKey>.GetHashCode
 	|-ObjectEqualityComparer<InvokeAction>.GetHashCode
+	|-ObjectEqualityComparer<InvokeHandlerBase.InvokeTiming<object>>.GetHashCode
 	|-ObjectEqualityComparer<ItemSkinDirectory.Skin>.GetHashCode
 	|-ObjectEqualityComparer<KeyframeView.UIKeyframeValue>.GetHashCode
 	|-ObjectEqualityComparer<LocalClock.TimedEvent>.GetHashCode
@@ -56966,6 +57033,7 @@ internal class ObjectEqualityComparer<T> : EqualityComparer<T> // TypeDefIndex: 
 	|-ObjectEqualityComparer<ImageStorageEntity.ImageRequest>..ctor
 	|-ObjectEqualityComparer<InstancingKey>..ctor
 	|-ObjectEqualityComparer<InvokeAction>..ctor
+	|-ObjectEqualityComparer<InvokeHandlerBase.InvokeTiming<object>>..ctor
 	|-ObjectEqualityComparer<ItemSkinDirectory.Skin>..ctor
 	|-ObjectEqualityComparer<KeyframeView.UIKeyframeValue>..ctor
 	|-ObjectEqualityComparer<LocalClock.TimedEvent>..ctor
@@ -57432,6 +57500,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<ImageStorageEntity.ImageRequest>..ctor
 	|-List<InstrumentKeyController>..ctor
 	|-List<InvokeAction>..ctor
+	|-List<InvokeHandlerBase.InvokeTiming<object>>..ctor
 	|-List<Item>..ctor
 	|-List<ItemAmount>..ctor
 	|-List<ItemContainer>..ctor
@@ -57893,6 +57962,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<ImageEffectLayer>..ctor
 	|-List<ImageStorageEntity.ImageRequest>..ctor
 	|-List<InvokeAction>..ctor
+	|-List<InvokeHandlerBase.InvokeTiming<object>>..ctor
 	|-List<ItemSkinDirectory.Skin>..ctor
 	|-List<KeyframeView.UIKeyframeValue>..ctor
 	|-List<LocalClock.TimedEvent>..ctor
@@ -58170,6 +58240,8 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<ImageStorageEntity.ImageRequest>..ctor
 	|
 	|-List<InvokeAction>..ctor
+	|
+	|-List<InvokeHandlerBase.InvokeTiming<object>>..ctor
 	|
 	|-List<ItemSkinDirectory.Skin>..ctor
 	|
@@ -58457,6 +58529,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.get_Capacity
 	|-List<ImageStorageEntity.ImageRequest>.get_Capacity
 	|-List<InvokeAction>.get_Capacity
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.get_Capacity
 	|-List<ItemSkinDirectory.Skin>.get_Capacity
 	|-List<KeyframeView.UIKeyframeValue>.get_Capacity
 	|-List<LocalClock.TimedEvent>.get_Capacity
@@ -58633,6 +58706,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.set_Capacity
 	|-List<ImageStorageEntity.ImageRequest>.set_Capacity
 	|-List<InvokeAction>.set_Capacity
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.set_Capacity
 	|-List<ItemSkinDirectory.Skin>.set_Capacity
 	|-List<KeyframeView.UIKeyframeValue>.set_Capacity
 	|-List<LocalClock.TimedEvent>.set_Capacity
@@ -58913,6 +58987,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.get_Count
 	|-List<ImageStorageEntity.ImageRequest>.get_Count
 	|-List<InvokeAction>.get_Count
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.get_Count
 	|-List<Item>.get_Count
 	|-List<ItemAmount>.get_Count
 	|-List<ItemBlueprint>.get_Count
@@ -59356,6 +59431,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.System.Collections.IList.get_IsFixedSize
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.IList.get_IsFixedSize
 	|-List<InvokeAction>.System.Collections.IList.get_IsFixedSize
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.get_IsFixedSize
 	|-List<ItemSkinDirectory.Skin>.System.Collections.IList.get_IsFixedSize
 	|-List<KeyframeView.UIKeyframeValue>.System.Collections.IList.get_IsFixedSize
 	|-List<LocalClock.TimedEvent>.System.Collections.IList.get_IsFixedSize
@@ -59530,6 +59606,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	|-List<InvokeAction>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	|-List<ItemSkinDirectory.Skin>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	|-List<KeyframeView.UIKeyframeValue>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
 	|-List<LocalClock.TimedEvent>.System.Collections.Generic.ICollection<T>.get_IsReadOnly
@@ -59704,6 +59781,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.System.Collections.IList.get_IsReadOnly
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.IList.get_IsReadOnly
 	|-List<InvokeAction>.System.Collections.IList.get_IsReadOnly
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.get_IsReadOnly
 	|-List<ItemSkinDirectory.Skin>.System.Collections.IList.get_IsReadOnly
 	|-List<KeyframeView.UIKeyframeValue>.System.Collections.IList.get_IsReadOnly
 	|-List<LocalClock.TimedEvent>.System.Collections.IList.get_IsReadOnly
@@ -59929,6 +60007,8 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.ICollection.get_SyncRoot
 	|
 	|-List<InvokeAction>.System.Collections.ICollection.get_SyncRoot
+	|
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.ICollection.get_SyncRoot
 	|
 	|-List<ItemSkinDirectory.Skin>.System.Collections.ICollection.get_SyncRoot
 	|
@@ -60581,6 +60661,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<RCon.BannedAddresses>.get_Item
 	|-List<GameStat.Stat>.get_Item
 	|-List<ImageStorageEntity.ImageRequest>.get_Item
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.get_Item
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.get_Item
 	|-List<PlayerItemRecipe>.get_Item
 	|-List<ReflectionProbeEx.RenderListEntry>.get_Item
@@ -60816,6 +60897,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<RCon.BannedAddresses>.set_Item
 	|-List<GameStat.Stat>.set_Item
 	|-List<ImageStorageEntity.ImageRequest>.set_Item
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.set_Item
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.set_Item
 	|-List<PlayerItemRecipe>.set_Item
 	|-List<ReflectionProbeEx.RenderListEntry>.set_Item
@@ -61058,6 +61140,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.IsCompatibleObject
 	|-List<GameStat.Stat>.IsCompatibleObject
 	|-List<ImageStorageEntity.ImageRequest>.IsCompatibleObject
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.IsCompatibleObject
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.IsCompatibleObject
 	|-List<PlayerItemRecipe>.IsCompatibleObject
 	|-List<DemoShotParentKeyframe>.IsCompatibleObject
@@ -61261,6 +61344,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.System.Collections.IList.get_Item
 	|-List<GameStat.Stat>.System.Collections.IList.get_Item
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.IList.get_Item
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.get_Item
 	|-List<MagnetCrane.MagnetCraneSnapshot>.System.Collections.IList.get_Item
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.System.Collections.IList.get_Item
 	|-List<PlayerItemRecipe>.System.Collections.IList.get_Item
@@ -61530,6 +61614,8 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.IList.set_Item
 	|
 	|-List<InvokeAction>.System.Collections.IList.set_Item
+	|
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.set_Item
 	|
 	|-List<ItemSkinDirectory.Skin>.System.Collections.IList.set_Item
 	|
@@ -62233,6 +62319,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<RCon.BannedAddresses>.Add
 	|-List<GameStat.Stat>.Add
 	|-List<ImageStorageEntity.ImageRequest>.Add
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Add
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.Add
 	|-List<PlayerItemRecipe>.Add
 	|-List<ReflectionProbeEx.RenderListEntry>.Add
@@ -62546,6 +62633,8 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|
 	|-List<InvokeAction>.System.Collections.IList.Add
 	|
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.Add
+	|
 	|-List<ItemSkinDirectory.Skin>.System.Collections.IList.Add
 	|
 	|-List<KeyframeView.UIKeyframeValue>.System.Collections.IList.Add
@@ -62847,6 +62936,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.AddRange
 	|-List<ImageStorageEntity.ImageRequest>.AddRange
 	|-List<InvokeAction>.AddRange
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.AddRange
 	|-List<Item>.AddRange
 	|-List<ItemSkinDirectory.Skin>.AddRange
 	|-List<KeyframeView.UIKeyframeValue>.AddRange
@@ -63047,6 +63137,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.AsReadOnly
 	|-List<ImageStorageEntity.ImageRequest>.AsReadOnly
 	|-List<InvokeAction>.AsReadOnly
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.AsReadOnly
 	|-List<ItemSkinDirectory.Skin>.AsReadOnly
 	|-List<KeyframeView.UIKeyframeValue>.AsReadOnly
 	|-List<LocalClock.TimedEvent>.AsReadOnly
@@ -63275,6 +63366,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<ImageStorageEntity.ImageRequest>.Clear
 	|-List<InstrumentKeyController>.Clear
 	|-List<InvokeAction>.Clear
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Clear
 	|-List<Item>.Clear
 	|-List<ItemAmount>.Clear
 	|-List<ItemContainer>.Clear
@@ -63613,6 +63705,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.Contains
 	|-List<GameStat.Stat>.Contains
 	|-List<ImageStorageEntity.ImageRequest>.Contains
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Contains
 	|-List<MagnetCrane.MagnetCraneSnapshot>.Contains
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.Contains
 	|-List<PlayerItemRecipe>.Contains
@@ -63817,6 +63910,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.System.Collections.IList.Contains
 	|-List<GameStat.Stat>.System.Collections.IList.Contains
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.IList.Contains
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.Contains
 	|-List<MagnetCrane.MagnetCraneSnapshot>.System.Collections.IList.Contains
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.System.Collections.IList.Contains
 	|-List<PlayerItemRecipe>.System.Collections.IList.Contains
@@ -64036,6 +64130,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.CopyTo
 	|-List<ImageStorageEntity.ImageRequest>.CopyTo
 	|-List<InvokeAction>.CopyTo
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.CopyTo
 	|-List<ItemSkinDirectory.Skin>.CopyTo
 	|-List<KeyframeView.UIKeyframeValue>.CopyTo
 	|-List<LocalClock.TimedEvent>.CopyTo
@@ -64264,6 +64359,8 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.ICollection.CopyTo
 	|
 	|-List<InvokeAction>.System.Collections.ICollection.CopyTo
+	|
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.ICollection.CopyTo
 	|
 	|-List<ItemSkinDirectory.Skin>.System.Collections.ICollection.CopyTo
 	|
@@ -64554,6 +64651,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.CopyTo
 	|-List<ImageStorageEntity.ImageRequest>.CopyTo
 	|-List<InvokeAction>.CopyTo
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.CopyTo
 	|-List<ItemSkinDirectory.Skin>.CopyTo
 	|-List<KeyframeView.UIKeyframeValue>.CopyTo
 	|-List<LocalClock.TimedEvent>.CopyTo
@@ -64728,6 +64826,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.CopyTo
 	|-List<ImageStorageEntity.ImageRequest>.CopyTo
 	|-List<InvokeAction>.CopyTo
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.CopyTo
 	|-List<ItemSkinDirectory.Skin>.CopyTo
 	|-List<KeyframeView.UIKeyframeValue>.CopyTo
 	|-List<LocalClock.TimedEvent>.CopyTo
@@ -64907,6 +65006,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.EnsureCapacity
 	|-List<ImageStorageEntity.ImageRequest>.EnsureCapacity
 	|-List<InvokeAction>.EnsureCapacity
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.EnsureCapacity
 	|-List<ItemSkinDirectory.Skin>.EnsureCapacity
 	|-List<KeyframeView.UIKeyframeValue>.EnsureCapacity
 	|-List<LocalClock.TimedEvent>.EnsureCapacity
@@ -65082,6 +65182,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.Exists
 	|-List<ImageStorageEntity.ImageRequest>.Exists
 	|-List<InvokeAction>.Exists
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Exists
 	|-List<ItemSkinDirectory.Skin>.Exists
 	|-List<KeyframeView.UIKeyframeValue>.Exists
 	|-List<LocalClock.TimedEvent>.Exists
@@ -65270,6 +65371,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.Find
 	|-List<GameStat.Stat>.Find
 	|-List<ImageStorageEntity.ImageRequest>.Find
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Find
 	|-List<MagnetCrane.MagnetCraneSnapshot>.Find
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.Find
 	|-List<PlayerItemRecipe>.Find
@@ -65473,6 +65575,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.FindAll
 	|-List<GameStat.Stat>.FindAll
 	|-List<ImageStorageEntity.ImageRequest>.FindAll
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.FindAll
 	|-List<MagnetCrane.MagnetCraneSnapshot>.FindAll
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.FindAll
 	|-List<PlayerItemRecipe>.FindAll
@@ -65672,6 +65775,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.FindIndex
 	|-List<ImageStorageEntity.ImageRequest>.FindIndex
 	|-List<InvokeAction>.FindIndex
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.FindIndex
 	|-List<ItemSkinDirectory.Skin>.FindIndex
 	|-List<KeyframeView.UIKeyframeValue>.FindIndex
 	|-List<LocalClock.TimedEvent>.FindIndex
@@ -65833,6 +65937,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.FindIndex
 	|-List<GameStat.Stat>.FindIndex
 	|-List<ImageStorageEntity.ImageRequest>.FindIndex
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.FindIndex
 	|-List<MagnetCrane.MagnetCraneSnapshot>.FindIndex
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.FindIndex
 	|-List<PlayerItemRecipe>.FindIndex
@@ -66389,6 +66494,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<RCon.BannedAddresses>.GetEnumerator
 	|-List<WeightedStringList.Container>.GetEnumerator
 	|-List<GameStat.Stat>.GetEnumerator
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.GetEnumerator
 	|-List<MagnetCrane.MagnetCraneSnapshot>.GetEnumerator
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.GetEnumerator
 	|-List<PlayerItemRecipe>.GetEnumerator
@@ -66526,6 +66632,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|-List<GameStat.Stat>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|-List<MagnetCrane.MagnetCraneSnapshot>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|-List<PlayerItemRecipe>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
@@ -66726,6 +66833,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.System.Collections.IEnumerable.GetEnumerator
 	|-List<GameStat.Stat>.System.Collections.IEnumerable.GetEnumerator
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.IEnumerable.GetEnumerator
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IEnumerable.GetEnumerator
 	|-List<MagnetCrane.MagnetCraneSnapshot>.System.Collections.IEnumerable.GetEnumerator
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.System.Collections.IEnumerable.GetEnumerator
 	|-List<PlayerItemRecipe>.System.Collections.IEnumerable.GetEnumerator
@@ -66926,6 +67034,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.IndexOf
 	|-List<GameStat.Stat>.IndexOf
 	|-List<ImageStorageEntity.ImageRequest>.IndexOf
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.IndexOf
 	|-List<MagnetCrane.MagnetCraneSnapshot>.IndexOf
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.IndexOf
 	|-List<PlayerItemRecipe>.IndexOf
@@ -67130,6 +67239,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.System.Collections.IList.IndexOf
 	|-List<GameStat.Stat>.System.Collections.IList.IndexOf
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.IList.IndexOf
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.IndexOf
 	|-List<MagnetCrane.MagnetCraneSnapshot>.System.Collections.IList.IndexOf
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.System.Collections.IList.IndexOf
 	|-List<PlayerItemRecipe>.System.Collections.IList.IndexOf
@@ -67317,6 +67427,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<RCon.BannedAddresses>.Insert
 	|-List<GameStat.Stat>.Insert
 	|-List<ImageStorageEntity.ImageRequest>.Insert
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Insert
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.Insert
 	|-List<PlayerItemRecipe>.Insert
 	|-List<ReflectionProbeEx.RenderListEntry>.Insert
@@ -67638,6 +67749,8 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.IList.Insert
 	|
 	|-List<InvokeAction>.System.Collections.IList.Insert
+	|
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.Insert
 	|
 	|-List<ItemSkinDirectory.Skin>.System.Collections.IList.Insert
 	|
@@ -67984,6 +68097,8 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<ImageStorageEntity.ImageRequest>.InsertRange
 	|
 	|-List<InvokeAction>.InsertRange
+	|
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.InsertRange
 	|
 	|-List<ItemSkinDirectory.Skin>.InsertRange
 	|
@@ -68359,6 +68474,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.Remove
 	|-List<GameStat.Stat>.Remove
 	|-List<ImageStorageEntity.ImageRequest>.Remove
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Remove
 	|-List<MagnetCrane.MagnetCraneSnapshot>.Remove
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.Remove
 	|-List<PlayerItemRecipe>.Remove
@@ -68527,6 +68643,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<WeightedStringList.Container>.System.Collections.IList.Remove
 	|-List<GameStat.Stat>.System.Collections.IList.Remove
 	|-List<ImageStorageEntity.ImageRequest>.System.Collections.IList.Remove
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.System.Collections.IList.Remove
 	|-List<MagnetCrane.MagnetCraneSnapshot>.System.Collections.IList.Remove
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.System.Collections.IList.Remove
 	|-List<PlayerItemRecipe>.System.Collections.IList.Remove
@@ -68717,6 +68834,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<RCon.BannedAddresses>.RemoveAll
 	|-List<GameStat.Stat>.RemoveAll
 	|-List<ImageStorageEntity.ImageRequest>.RemoveAll
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.RemoveAll
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.RemoveAll
 	|-List<PlayerItemRecipe>.RemoveAll
 	|-List<ReflectionProbeEx.RenderListEntry>.RemoveAll
@@ -68962,6 +69080,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<RCon.BannedAddresses>.RemoveAt
 	|-List<GameStat.Stat>.RemoveAt
 	|-List<ImageStorageEntity.ImageRequest>.RemoveAt
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.RemoveAt
 	|-List<ParticleSystemContainer.ParticleSystemGroup>.RemoveAt
 	|-List<PlayerItemRecipe>.RemoveAt
 	|-List<ReflectionProbeEx.RenderListEntry>.RemoveAt
@@ -69268,6 +69387,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.RemoveRange
 	|-List<ImageStorageEntity.ImageRequest>.RemoveRange
 	|-List<InvokeAction>.RemoveRange
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.RemoveRange
 	|-List<ItemBlueprint>.RemoveRange
 	|-List<ItemSkinDirectory.Skin>.RemoveRange
 	|-List<KeyframeView.UIKeyframeValue>.RemoveRange
@@ -69448,6 +69568,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.Reverse
 	|-List<ImageStorageEntity.ImageRequest>.Reverse
 	|-List<InvokeAction>.Reverse
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Reverse
 	|-List<ItemSkinDirectory.Skin>.Reverse
 	|-List<KeyframeView.UIKeyframeValue>.Reverse
 	|-List<LocalClock.TimedEvent>.Reverse
@@ -69626,6 +69747,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.Reverse
 	|-List<ImageStorageEntity.ImageRequest>.Reverse
 	|-List<InvokeAction>.Reverse
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Reverse
 	|-List<ItemSkinDirectory.Skin>.Reverse
 	|-List<KeyframeView.UIKeyframeValue>.Reverse
 	|-List<LocalClock.TimedEvent>.Reverse
@@ -69800,6 +69922,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.Sort
 	|-List<ImageStorageEntity.ImageRequest>.Sort
 	|-List<InvokeAction>.Sort
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Sort
 	|-List<ItemSkinDirectory.Skin>.Sort
 	|-List<KeyframeView.UIKeyframeValue>.Sort
 	|-List<LocalClock.TimedEvent>.Sort
@@ -69974,6 +70097,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.Sort
 	|-List<ImageStorageEntity.ImageRequest>.Sort
 	|-List<InvokeAction>.Sort
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Sort
 	|-List<ItemBlueprint>.Sort
 	|-List<ItemSkinDirectory.Skin>.Sort
 	|-List<KeyframeView.UIKeyframeValue>.Sort
@@ -70151,6 +70275,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.Sort
 	|-List<ImageStorageEntity.ImageRequest>.Sort
 	|-List<InvokeAction>.Sort
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Sort
 	|-List<ItemSkinDirectory.Skin>.Sort
 	|-List<KeyframeView.UIKeyframeValue>.Sort
 	|-List<LocalClock.TimedEvent>.Sort
@@ -70328,6 +70453,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<ImageEffectLayer>.Sort
 	|-List<ImageStorageEntity.ImageRequest>.Sort
 	|-List<InvokeAction>.Sort
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.Sort
 	|-List<ItemSkinDirectory.Skin>.Sort
 	|-List<KeyframeView.UIKeyframeValue>.Sort
 	|-List<LocalClock.TimedEvent>.Sort
@@ -70552,6 +70678,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.ToArray
 	|-List<ImageStorageEntity.ImageRequest>.ToArray
 	|-List<InvokeAction>.ToArray
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.ToArray
 	|-List<ItemSkinDirectory.Skin>.ToArray
 	|-List<KeyframeView.UIKeyframeValue>.ToArray
 	|-List<LocalClock.TimedEvent>.ToArray
@@ -70721,6 +70848,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>.TrimExcess
 	|-List<ImageStorageEntity.ImageRequest>.TrimExcess
 	|-List<InvokeAction>.TrimExcess
+	|-List<InvokeHandlerBase.InvokeTiming<object>>.TrimExcess
 	|-List<ItemSkinDirectory.Skin>.TrimExcess
 	|-List<KeyframeView.UIKeyframeValue>.TrimExcess
 	|-List<LocalClock.TimedEvent>.TrimExcess
@@ -70895,6 +71023,7 @@ public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IL
 	|-List<IconSkinPicker.SkinButtonSetup>..cctor
 	|-List<ImageStorageEntity.ImageRequest>..cctor
 	|-List<InvokeAction>..cctor
+	|-List<InvokeHandlerBase.InvokeTiming<object>>..cctor
 	|-List<ItemSkinDirectory.Skin>..cctor
 	|-List<KeyframeView.UIKeyframeValue>..cctor
 	|-List<LocalClock.TimedEvent>..cctor
@@ -73579,13 +73708,14 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<KeyValuePair<int, int>>.GetEnumerator
 	|-Stack<IntPtr>.GetEnumerator
 	|-Stack<object>.GetEnumerator
-	|-Stack<Vector2>.GetEnumerator
 	|
 	|-Stack<SequenceNode.SequenceConstructPosContext>.GetEnumerator
 	|
 	|-Stack<Matrix4x4>.GetEnumerator
 	|
 	|-Stack<EventDispatcher.DispatchContext>.GetEnumerator
+	|
+	|-Stack<Vector2>.GetEnumerator
 	*/
 
 	private IEnumerator<T> System.Collections.Generic.IEnumerable<T>.GetEnumerator() { }
@@ -73594,13 +73724,14 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<KeyValuePair<int, int>>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|-Stack<IntPtr>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|-Stack<object>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
-	|-Stack<Vector2>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|
 	|-Stack<SequenceNode.SequenceConstructPosContext>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|
 	|-Stack<Matrix4x4>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|
 	|-Stack<EventDispatcher.DispatchContext>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
+	|
+	|-Stack<Vector2>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	*/
 
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
@@ -73609,13 +73740,14 @@ public class Stack<T> : IEnumerable<T>, IEnumerable, ICollection, IReadOnlyColle
 	|-Stack<KeyValuePair<int, int>>.System.Collections.IEnumerable.GetEnumerator
 	|-Stack<IntPtr>.System.Collections.IEnumerable.GetEnumerator
 	|-Stack<object>.System.Collections.IEnumerable.GetEnumerator
-	|-Stack<Vector2>.System.Collections.IEnumerable.GetEnumerator
 	|
 	|-Stack<SequenceNode.SequenceConstructPosContext>.System.Collections.IEnumerable.GetEnumerator
 	|
 	|-Stack<Matrix4x4>.System.Collections.IEnumerable.GetEnumerator
 	|
 	|-Stack<EventDispatcher.DispatchContext>.System.Collections.IEnumerable.GetEnumerator
+	|
+	|-Stack<Vector2>.System.Collections.IEnumerable.GetEnumerator
 	*/
 
 	public T Peek() { }
@@ -74820,6 +74952,7 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<float3>.GetEnumerator
 	|-NativeArray<half2>.GetEnumerator
 	|-NativeArray<Color32>.GetEnumerator
+	|
 	|-NativeArray<LightDataGI>.GetEnumerator
 	|-NativeArray<Plane>.GetEnumerator
 	|-NativeArray<RaycastCommand>.GetEnumerator
@@ -74843,6 +74976,7 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<float3>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|-NativeArray<half2>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|-NativeArray<Color32>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
+	|
 	|-NativeArray<LightDataGI>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|-NativeArray<Plane>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
 	|-NativeArray<RaycastCommand>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
@@ -74866,6 +75000,7 @@ public struct NativeArray<T> : IDisposable, IEnumerable<T>, IEnumerable, IEquata
 	|-NativeArray<float3>.System.Collections.IEnumerable.GetEnumerator
 	|-NativeArray<half2>.System.Collections.IEnumerable.GetEnumerator
 	|-NativeArray<Color32>.System.Collections.IEnumerable.GetEnumerator
+	|
 	|-NativeArray<LightDataGI>.System.Collections.IEnumerable.GetEnumerator
 	|-NativeArray<Plane>.System.Collections.IEnumerable.GetEnumerator
 	|-NativeArray<RaycastCommand>.System.Collections.IEnumerable.GetEnumerator
@@ -79368,11 +79503,16 @@ internal struct MatchMakingKeyValuePair // TypeDefIndex: 5509
 
 public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefIndex: 5569
 {
+	public static bool performanceTracking; 
+	public static float maxTickTimeWarning; 
+	private List<InvokeHandlerBase.InvokeTiming<T>> performanceTimes; 
 	protected ListDictionary<InvokeAction, float> curList; 
 	protected ListHashSet<InvokeAction> addList; 
 	protected ListHashSet<InvokeAction> delList; 
 	protected int nullIndex; 
 	protected const int nullChecks = 50;
+	private Stopwatch tickStopWatch; 
+	private Stopwatch invokeStopWatch; 
 
 
 	protected void LateUpdate() { }
@@ -79443,9 +79583,15 @@ public abstract class InvokeHandlerBase<T> : SingletonComponent<T> // TypeDefInd
 	|-InvokeHandlerBase<object>..ctor
 	*/
 
+	private static void .cctor() { }
+	/* GenericInstMethod :
+	|
+	|-InvokeHandlerBase<object>..cctor
+	*/
+
 }
 
-public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 5594
+public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 5595
 {
 	public static ListHashSet<T> InstanceList; 
 
@@ -79532,7 +79678,7 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 5594
 
 }
 
-public class PriorityListComponent<T> : ListComponent<T> // TypeDefIndex: 5596
+public class PriorityListComponent<T> : ListComponent<T> // TypeDefIndex: 5597
 {
 	public static T Instance { get; }
 
@@ -79554,7 +79700,7 @@ public class PriorityListComponent<T> : ListComponent<T> // TypeDefIndex: 5596
 
 }
 
-public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex: 5597
+public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex: 5598
 {
 	public static T Instance; 
 
@@ -79899,7 +80045,7 @@ public abstract class SingletonComponent<T> : SingletonComponent // TypeDefIndex
 
 }
 
-internal sealed class ElementTryParser<T> : MulticastDelegate // TypeDefIndex: 5765
+internal sealed class ElementTryParser<T> : MulticastDelegate // TypeDefIndex: 5766
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -79940,7 +80086,7 @@ internal sealed class ElementTryParser<T> : MulticastDelegate // TypeDefIndex: 5
 
 }
 
-internal sealed class TryParseDelegate<T> : MulticastDelegate // TypeDefIndex: 5771
+internal sealed class TryParseDelegate<T> : MulticastDelegate // TypeDefIndex: 5772
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -80001,7 +80147,7 @@ internal sealed class TryParseDelegate<T> : MulticastDelegate // TypeDefIndex: 5
 
 }
 
-internal sealed class TryParseListDelegate<T> : MulticastDelegate // TypeDefIndex: 5772
+internal sealed class TryParseListDelegate<T> : MulticastDelegate // TypeDefIndex: 5773
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -80043,7 +80189,7 @@ internal sealed class TryParseListDelegate<T> : MulticastDelegate // TypeDefInde
 
 }
 
-public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 5778
+public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 5779
 {
 	private readonly List<T> list; 
 	private readonly HttpHeaders headers; 
@@ -80149,14 +80295,14 @@ public sealed class HttpHeaderValueCollection<T> : ICollection<T>, IEnumerable<T
 
 }
 
-public sealed class JsonDictionaryAttribute : JsonContainerAttribute // TypeDefIndex: 5877
+public sealed class JsonDictionaryAttribute : JsonContainerAttribute // TypeDefIndex: 5878
 {
 
 	public void .ctor() { }
 
 }
 
-internal class ThreadSafeStore<TKey, TValue> // TypeDefIndex: 5942
+internal class ThreadSafeStore<TKey, TValue> // TypeDefIndex: 5943
 {
 	private readonly object _lock; 
 	private Dictionary<TKey, TValue> _store; 
@@ -80208,7 +80354,7 @@ internal class ThreadSafeStore<TKey, TValue> // TypeDefIndex: 5942
 
 }
 
-internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5943
+internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5944
 {
 	private readonly IDictionary<TFirst, TSecond> _firstToSecond; 
 	private readonly IDictionary<TSecond, TFirst> _secondToFirst; 
@@ -80262,7 +80408,7 @@ internal class BidirectionalDictionary<TFirst, TSecond> // TypeDefIndex: 5943
 
 }
 
-internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IWrappedCollection, IList, ICollection // TypeDefIndex: 5952
+internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IWrappedCollection, IList, ICollection // TypeDefIndex: 5953
 {
 	private readonly IList _list; 
 	private readonly ICollection<T> _genericCollection; 
@@ -80428,7 +80574,7 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 
 }
 
-internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IWrappedDictionary, IDictionary, ICollection // TypeDefIndex: 5955
+internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IWrappedDictionary, IDictionary, ICollection // TypeDefIndex: 5956
 {
 	private readonly IDictionary _dictionary; 
 	private readonly IDictionary<TKey, TValue> _genericDictionary; 
@@ -80628,7 +80774,7 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 
 }
 
-private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorKey, TEnumeratorValue> : IDictionaryEnumerator, IEnumerator // TypeDefIndex: 5956
+private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorKey, TEnumeratorValue> : IDictionaryEnumerator, IEnumerator // TypeDefIndex: 5957
 {
 	private readonly IEnumerator<KeyValuePair<TEnumeratorKey, TEnumeratorValue>> _e; 
 
@@ -80682,7 +80828,7 @@ private struct DictionaryWrapper.DictionaryEnumerator<TKey, TValue, TEnumeratorK
 
 }
 
-private sealed class DictionaryWrapper.<>c<TKey, TValue> // TypeDefIndex: 5957
+private sealed class DictionaryWrapper.<>c<TKey, TValue> // TypeDefIndex: 5958
 {
 	public static readonly DictionaryWrapper.<>c<TKey, TValue> <>9; 
 	public static Func<DictionaryEntry, KeyValuePair<TKey, TValue>> <>9__25_0; 
@@ -80708,7 +80854,7 @@ private sealed class DictionaryWrapper.<>c<TKey, TValue> // TypeDefIndex: 5957
 
 }
 
-internal sealed class Creator<T> : MulticastDelegate // TypeDefIndex: 5967
+internal sealed class Creator<T> : MulticastDelegate // TypeDefIndex: 5968
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -80737,7 +80883,7 @@ internal sealed class Creator<T> : MulticastDelegate // TypeDefIndex: 5967
 
 }
 
-public class JsonISerializableContract : JsonContainerContract // TypeDefIndex: 5987
+public class JsonISerializableContract : JsonContainerContract // TypeDefIndex: 5988
 {
 	[CompilerGeneratedAttribute] 
 	private ObjectConstructor<object> <ISerializableCreator>k__BackingField; 
@@ -80755,7 +80901,7 @@ public class JsonISerializableContract : JsonContainerContract // TypeDefIndex: 
 
 }
 
-public class JsonDictionaryContract : JsonContainerContract // TypeDefIndex: 6018
+public class JsonDictionaryContract : JsonContainerContract // TypeDefIndex: 6019
 {
 	[CompilerGeneratedAttribute] 
 	private Func<string, string> <DictionaryKeyResolver>k__BackingField; 
@@ -80840,7 +80986,7 @@ public class JsonDictionaryContract : JsonContainerContract // TypeDefIndex: 601
 
 }
 
-internal static class CachedAttributeGetter<T> // TypeDefIndex: 6036
+internal static class CachedAttributeGetter<T> // TypeDefIndex: 6037
 {
 	private static readonly ThreadSafeStore<object, T> TypeAttributeCache; 
 
@@ -80861,7 +81007,7 @@ internal static class CachedAttributeGetter<T> // TypeDefIndex: 6036
 
 }
 
-public sealed class ObjectConstructor<T> : MulticastDelegate // TypeDefIndex: 6039
+public sealed class ObjectConstructor<T> : MulticastDelegate // TypeDefIndex: 6040
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -80890,7 +81036,7 @@ public sealed class ObjectConstructor<T> : MulticastDelegate // TypeDefIndex: 60
 
 }
 
-public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 6063
+public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable // TypeDefIndex: 6064
 {
 
 [PreserveAttribute] 
@@ -80946,7 +81092,7 @@ public struct JEnumerable<T> : IJEnumerable<T>, IEnumerable<T>, IEnumerable
 
 }
 
-public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex: 6104
+public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex: 6105
 {
 	public override bool CanWrite { get; }
 
@@ -80989,7 +81135,7 @@ public abstract class CustomCreationConverter<T> : JsonConverter // TypeDefIndex
 
 }
 
-public class KeyValuePairConverter : JsonConverter // TypeDefIndex: 6107
+public class KeyValuePairConverter : JsonConverter // TypeDefIndex: 6108
 {
 	private static readonly ThreadSafeStore<Type, ReflectionObject> ReflectionObjectPerType; 
 
@@ -81008,7 +81154,7 @@ public class KeyValuePairConverter : JsonConverter // TypeDefIndex: 6107
 
 }
 
-public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 6223
+public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 6224
 {
 	private static ListHashSet<T> instanceList; 
 
@@ -81047,7 +81193,7 @@ public abstract class ListComponent<T> : ListComponent // TypeDefIndex: 6223
 
 }
 
-public class Result<T> // TypeDefIndex: 6264
+public class Result<T> // TypeDefIndex: 6265
 {
 	public bool Running; 
 	public bool Success; 
@@ -81062,7 +81208,7 @@ public class Result<T> // TypeDefIndex: 6264
 
 }
 
-internal sealed class DefaultArrayPool<T> : ArrayPool<T> // TypeDefIndex: 6274
+internal sealed class DefaultArrayPool<T> : ArrayPool<T> // TypeDefIndex: 6275
 {
 	private static T[] s_emptyArray; 
 	private readonly DefaultArrayPool.Bucket<T>[] _buckets; 
@@ -81110,7 +81256,7 @@ internal sealed class DefaultArrayPool<T> : ArrayPool<T> // TypeDefIndex: 6274
 
 }
 
-public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6570
+public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6571
 {
 	protected Queue<T> queue; 
 	protected HashSet<T> containerTest; 
@@ -81204,7 +81350,7 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6570
 
 }
 
-public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6571
+public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6572
 {
 	protected List<T> workList; 
 	public string listName; 
@@ -81293,7 +81439,7 @@ public abstract class PersistentObjectWorkQueue<T> // TypeDefIndex: 6571
 
 }
 
-public class WorldSpaceGrid<T> // TypeDefIndex: 6572
+public class WorldSpaceGrid<T> // TypeDefIndex: 6573
 {
 	public T[] Cells; 
 	public float CellSize; 
@@ -81427,7 +81573,7 @@ public class WorldSpaceGrid<T> // TypeDefIndex: 6572
 
 }
 
-public class ObjectPool<T> // TypeDefIndex: 6605
+public class ObjectPool<T> // TypeDefIndex: 6606
 {
 	public List<T> list; 
 
@@ -81452,7 +81598,7 @@ public class ObjectPool<T> // TypeDefIndex: 6605
 
 }
 
-public class GameObjectPool<T> : ObjectPool<T> // TypeDefIndex: 6606
+public class GameObjectPool<T> : ObjectPool<T> // TypeDefIndex: 6607
 {
 	private GameObject poolRoot; 
 
@@ -81483,7 +81629,7 @@ public class GameObjectPool<T> : ObjectPool<T> // TypeDefIndex: 6606
 
 }
 
-internal class TweenRunner<T> // TypeDefIndex: 6690
+internal class TweenRunner<T> // TypeDefIndex: 6691
 {
 	protected MonoBehaviour m_CoroutineContainer; 
 	protected IEnumerator m_Tween; 
@@ -81502,7 +81648,7 @@ internal class TweenRunner<T> // TypeDefIndex: 6690
 
 }
 
-public class TimeAverageValueLookup<T> // TypeDefIndex: 6859
+public class TimeAverageValueLookup<T> // TypeDefIndex: 6860
 {
 	public Dictionary<T, TimeAverageValue> dict; 
 
@@ -81539,13 +81685,13 @@ public class TimeAverageValueLookup<T> // TypeDefIndex: 6859
 
 }
 
-internal sealed class Pinnable<T> // TypeDefIndex: 6902
+internal sealed class Pinnable<T> // TypeDefIndex: 6903
 {
 	public T Data; 
 
 }
 
-internal sealed class CircularBuffer<T> // TypeDefIndex: 7627
+internal sealed class CircularBuffer<T> // TypeDefIndex: 7628
 {
 	private readonly int _capacity; 
 	private readonly T[] _buffer; 
@@ -81629,7 +81775,7 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7627
 
 }
 
-internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7636
+internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7637
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -81664,7 +81810,7 @@ internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7636
 
 }
 
-internal struct GameEvent<T> // TypeDefIndex: 7712
+internal struct GameEvent<T> // TypeDefIndex: 7713
 {
 	[CompilerGeneratedAttribute] 
 	private string <GameId>k__BackingField; 
@@ -81740,7 +81886,7 @@ internal struct GameEvent<T> // TypeDefIndex: 7712
 
 }
 
-public class BoneDictionary // TypeDefIndex: 10832
+public class BoneDictionary // TypeDefIndex: 10833
 {
 	public Transform transform; 
 	public Transform[] transforms; 
@@ -81768,7 +81914,7 @@ public class BoneDictionary // TypeDefIndex: 10832
 
 }
 
-public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10859
+public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10860
 {
 	public T component; 
 
@@ -81789,7 +81935,7 @@ public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10859
 
 }
 
-public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 10937
+public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 10938
 {
 	[SerializeField] 
 	private AmplifyOcclusionEffect ssao; 
@@ -82108,7 +82254,7 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 109
 
 }
 
-public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11274
+public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11276
 {
 	protected T owner; 
 	public MetabolismAttribute calories; 
@@ -82152,7 +82298,7 @@ public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11
 
 }
 
-public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 11331
+public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 11333
 {
 
 public abstract class BaseModifiers<T> : EntityComponent<T>
@@ -82275,7 +82421,7 @@ public abstract class BaseModifiers<T> : EntityComponent<T>
 
 }
 
-public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11681
+public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11683
 {
 	public T Component; 
 
@@ -82294,7 +82440,7 @@ public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11681
 
 }
 
-public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12129
+public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12131
 {
 	internal T[] src; 
 	internal T[] dst; 
@@ -82380,7 +82526,7 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12129
 
 }
 
-public static class RecipeDictionary // TypeDefIndex: 12472
+public static class RecipeDictionary // TypeDefIndex: 12474
 {
 	private static Dictionary<uint, Dictionary<int, List<Recipe>>> recipeListsDict; 
 
@@ -82397,7 +82543,7 @@ public static class RecipeDictionary // TypeDefIndex: 12472
 
 }
 
-public struct CachedTransform<T> // TypeDefIndex: 13036
+public struct CachedTransform<T> // TypeDefIndex: 13038
 {
 	public T component; 
 	public Vector3 position; 
@@ -82480,7 +82626,7 @@ public struct CachedTransform<T> // TypeDefIndex: 13036
 
 }
 
-public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13130
+public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13132
 {
 	private NativeArray<T> _array; 
 	private int _length; 
@@ -82574,7 +82720,7 @@ public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13130
 
 }
 
-public class PooledList<T> // TypeDefIndex: 13136
+public class PooledList<T> // TypeDefIndex: 13138
 {
 	public List<T> data; 
 
@@ -82623,7 +82769,7 @@ public class PooledList<T> // TypeDefIndex: 13136
 
 }
 
-public class SimpleList<T> // TypeDefIndex: 13139
+public class SimpleList<T> // TypeDefIndex: 13141
 {
 	private const int defaultCapacity = 16;
 	private static readonly T[] emptyArray; 
@@ -82776,7 +82922,7 @@ public class SimpleList<T> // TypeDefIndex: 13139
 
 }
 
-public class TimeCachedValue<T> // TypeDefIndex: 13144
+public class TimeCachedValue<T> // TypeDefIndex: 13146
 {
 	public float refreshCooldown; 
 	public float refreshRandomRange; 
@@ -82807,7 +82953,7 @@ public class TimeCachedValue<T> // TypeDefIndex: 13144
 
 }
 
-public class ResourceRef<T> // TypeDefIndex: 13169
+public class ResourceRef<T> // TypeDefIndex: 13171
 {
 	public string guid; 
 	private T _cachedObject; 
@@ -82859,7 +83005,7 @@ public class ResourceRef<T> // TypeDefIndex: 13169
 
 }
 
-public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13562
+public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13564
 {
 	public T value; 
 
@@ -83126,7 +83272,7 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13562
 
 }
 
-public class GenericLerp<T> : IDisposable // TypeDefIndex: 13857
+public class GenericLerp<T> : IDisposable // TypeDefIndex: 13859
 {
 	private Interpolator<T> interpolator; 
 	private IGenericLerpTarget<T> target; 
@@ -83249,7 +83395,7 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 13857
 
 }
 
-public class Interpolator<T> // TypeDefIndex: 13859
+public class Interpolator<T> // TypeDefIndex: 13861
 {
 	public List<T> list; 
 	public T last; 

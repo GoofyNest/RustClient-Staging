@@ -1,4 +1,4 @@
-public class SleepingBagMapMarker : MonoBehaviour // TypeDefIndex: 12683
+public class SleepingBagMapMarker : MonoBehaviour // TypeDefIndex: 12685
 {
 	public Image MapIcon; 
 	public Image SleepingBagIcon; 

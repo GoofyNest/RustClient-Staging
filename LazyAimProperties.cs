@@ -1,4 +1,4 @@
-public class LazyAimProperties : ScriptableObject // TypeDefIndex: 11693
+public class LazyAimProperties : ScriptableObject // TypeDefIndex: 11695
 {
 	[RangeAttribute] 
 	public float snapStrength; 

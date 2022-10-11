@@ -1,4 +1,4 @@
-public static class LODUtil // TypeDefIndex: 11649
+public static class LODUtil // TypeDefIndex: 11651
 {
 	public const float DefaultDistance = 1000;
 

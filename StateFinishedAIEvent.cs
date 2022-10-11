@@ -1,4 +1,4 @@
-public class StateFinishedAIEvent : BaseAIEvent // TypeDefIndex: 11120
+public class StateFinishedAIEvent : BaseAIEvent // TypeDefIndex: 11122
 {
 
 	public void .ctor() { }

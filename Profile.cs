@@ -1,4 +1,4 @@
-public class Profile // TypeDefIndex: 11085
+public class Profile // TypeDefIndex: 11087
 {
 	public Stopwatch watch; 
 	public string category; 
@@ -14,7 +14,7 @@ public class Profile // TypeDefIndex: 11085
 
 }
 
-public class Profile : ConsoleSystem // TypeDefIndex: 13694
+public class Profile : ConsoleSystem // TypeDefIndex: 13696
 {
 
 	private static void NeedProfileFolder() { }

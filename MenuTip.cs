@@ -1,4 +1,4 @@
-public class MenuTip : MonoBehaviour // TypeDefIndex: 12691
+public class MenuTip : MonoBehaviour // TypeDefIndex: 12693
 {
 	public TextMeshProUGUI text; 
 	public LoadingScreen screen; 

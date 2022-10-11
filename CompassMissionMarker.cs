@@ -1,4 +1,4 @@
-public class CompassMissionMarker : MonoBehaviour // TypeDefIndex: 12555
+public class CompassMissionMarker : MonoBehaviour // TypeDefIndex: 12557
 {
 	public Image Icon; 
 

@@ -1,11 +1,11 @@
-public static class RenderInfo // TypeDefIndex: 13761
+public static class RenderInfo // TypeDefIndex: 13763
 {
 
 	public static void GenerateReport() { }
 
 }
 
-public struct RenderInfo.RendererInstance // TypeDefIndex: 13762
+public struct RenderInfo.RendererInstance // TypeDefIndex: 13764
 {
 	public bool IsVisible; 
 	public bool CastShadows; 

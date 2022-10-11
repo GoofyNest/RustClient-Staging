@@ -1,4 +1,4 @@
-public class InfoBar : MonoBehaviour // TypeDefIndex: 12658
+public class InfoBar : MonoBehaviour // TypeDefIndex: 12660
 {
 	public Text TextValue; 
 	public Image ImageFill; 

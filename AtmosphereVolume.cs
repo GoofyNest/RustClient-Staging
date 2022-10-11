@@ -1,4 +1,4 @@
-public class AtmosphereVolume : MonoBehaviour // TypeDefIndex: 12357
+public class AtmosphereVolume : MonoBehaviour // TypeDefIndex: 12359
 {
 	public float MaxVisibleDistance; 
 	public float BoundsAttenuationDecay; 

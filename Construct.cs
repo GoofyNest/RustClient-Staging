@@ -1,4 +1,4 @@
-public class Construct : ConsoleSystem // TypeDefIndex: 13632
+public class Construct : ConsoleSystem // TypeDefIndex: 13634
 {
 	[ServerVar] 
 	[HelpAttribute] 
