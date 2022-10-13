@@ -1880,6 +1880,8 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<int, ViewModelDrawEvent>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<Int32Enum, object>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<Int32Enum, float>>
+	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<long, Helper.Allocation>>
+	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<long, bool>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<long, Decimal>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<long, double>>
@@ -1891,8 +1893,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<long, ushort>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<long, uint>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<long, ulong>>
-	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>
-	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<IntPtr, object>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<object, CameraMan.CameraState>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>
@@ -2067,6 +2067,8 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<int, ViewModelDrawEvent>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<Int32Enum, object>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<Int32Enum, float>>
+	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<long, Helper.Allocation>>
+	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<long, bool>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<long, Decimal>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<long, double>>
@@ -2078,8 +2080,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<long, ushort>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<long, uint>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<long, ulong>>
-	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>
-	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<IntPtr, object>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<object, CameraMan.CameraState>>
 	|-Array.InternalArray__IEnumerable_GetEnumerator<KeyValuePair<object, PlayerModelHair.RendererMaterials>>
@@ -2924,6 +2924,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__ICollection_Add<Dictionary.Entry<Int32Enum, float>>
 	|
+	|-Array.InternalArray__ICollection_Add<Dictionary.Entry<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__ICollection_Add<Dictionary.Entry<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__ICollection_Add<Dictionary.Entry<long, bool>>
 	|
 	|-Array.InternalArray__ICollection_Add<Dictionary.Entry<long, Decimal>>
@@ -2945,10 +2949,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__ICollection_Add<Dictionary.Entry<long, uint>>
 	|
 	|-Array.InternalArray__ICollection_Add<Dictionary.Entry<long, ulong>>
-	|
-	|-Array.InternalArray__ICollection_Add<Dictionary.Entry<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__ICollection_Add<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__ICollection_Add<Dictionary.Entry<IntPtr, object>>
 	|
@@ -3298,6 +3298,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__ICollection_Add<KeyValuePair<Int32Enum, float>>
 	|
+	|-Array.InternalArray__ICollection_Add<KeyValuePair<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__ICollection_Add<KeyValuePair<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__ICollection_Add<KeyValuePair<long, bool>>
 	|
 	|-Array.InternalArray__ICollection_Add<KeyValuePair<long, Decimal>>
@@ -3319,10 +3323,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__ICollection_Add<KeyValuePair<long, uint>>
 	|
 	|-Array.InternalArray__ICollection_Add<KeyValuePair<long, ulong>>
-	|
-	|-Array.InternalArray__ICollection_Add<KeyValuePair<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__ICollection_Add<KeyValuePair<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__ICollection_Add<KeyValuePair<IntPtr, object>>
 	|
@@ -4412,6 +4412,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__ICollection_Remove<Dictionary.Entry<Int32Enum, float>>
 	|
+	|-Array.InternalArray__ICollection_Remove<Dictionary.Entry<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__ICollection_Remove<Dictionary.Entry<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__ICollection_Remove<Dictionary.Entry<long, bool>>
 	|
 	|-Array.InternalArray__ICollection_Remove<Dictionary.Entry<long, Decimal>>
@@ -4433,10 +4437,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__ICollection_Remove<Dictionary.Entry<long, uint>>
 	|
 	|-Array.InternalArray__ICollection_Remove<Dictionary.Entry<long, ulong>>
-	|
-	|-Array.InternalArray__ICollection_Remove<Dictionary.Entry<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__ICollection_Remove<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__ICollection_Remove<Dictionary.Entry<IntPtr, object>>
 	|
@@ -4786,6 +4786,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__ICollection_Remove<KeyValuePair<Int32Enum, float>>
 	|
+	|-Array.InternalArray__ICollection_Remove<KeyValuePair<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__ICollection_Remove<KeyValuePair<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__ICollection_Remove<KeyValuePair<long, bool>>
 	|
 	|-Array.InternalArray__ICollection_Remove<KeyValuePair<long, Decimal>>
@@ -4807,10 +4811,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__ICollection_Remove<KeyValuePair<long, uint>>
 	|
 	|-Array.InternalArray__ICollection_Remove<KeyValuePair<long, ulong>>
-	|
-	|-Array.InternalArray__ICollection_Remove<KeyValuePair<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__ICollection_Remove<KeyValuePair<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__ICollection_Remove<KeyValuePair<IntPtr, object>>
 	|
@@ -5900,6 +5900,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<Int32Enum, float>>
 	|
+	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, bool>>
 	|
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, Decimal>>
@@ -5921,10 +5925,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, uint>>
 	|
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<long, ulong>>
-	|
-	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__ICollection_Contains<Dictionary.Entry<IntPtr, object>>
 	|
@@ -6274,6 +6274,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<Int32Enum, float>>
 	|
+	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, bool>>
 	|
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, Decimal>>
@@ -6295,10 +6299,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, uint>>
 	|
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<long, ulong>>
-	|
-	|-Array.InternalArray__ICollection_Contains<KeyValuePair<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__ICollection_Contains<KeyValuePair<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__ICollection_Contains<KeyValuePair<IntPtr, object>>
 	|
@@ -7093,6 +7093,8 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<int, ViewModelDrawEvent>>
 	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<Int32Enum, object>>
 	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<Int32Enum, float>>
+	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<long, Helper.Allocation>>
+	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<long, Helper.PinnedBuffer>>
 	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<long, bool>>
 	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<long, Decimal>>
 	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<long, double>>
@@ -7104,8 +7106,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<long, ushort>>
 	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<long, uint>>
 	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<long, ulong>>
-	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<IntPtr, Helper.Allocation>>
-	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>
 	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<IntPtr, object>>
 	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<object, CameraMan.CameraState>>
 	|-Array.InternalArray__ICollection_CopyTo<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>
@@ -7280,6 +7280,8 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<int, ViewModelDrawEvent>>
 	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<Int32Enum, object>>
 	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<Int32Enum, float>>
+	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<long, Helper.Allocation>>
+	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<long, Helper.PinnedBuffer>>
 	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<long, bool>>
 	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<long, Decimal>>
 	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<long, double>>
@@ -7291,8 +7293,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<long, ushort>>
 	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<long, uint>>
 	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<long, ulong>>
-	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<IntPtr, Helper.Allocation>>
-	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<IntPtr, Helper.PinnedBuffer>>
 	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<IntPtr, object>>
 	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<object, CameraMan.CameraState>>
 	|-Array.InternalArray__ICollection_CopyTo<KeyValuePair<object, PlayerModelHair.RendererMaterials>>
@@ -8135,6 +8135,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<Int32Enum, float>>
 	|
+	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, bool>>
 	|
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, Decimal>>
@@ -8156,10 +8160,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, uint>>
 	|
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<long, ulong>>
-	|
-	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__IReadOnlyList_get_Item<Dictionary.Entry<IntPtr, object>>
 	|
@@ -8509,6 +8509,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<Int32Enum, float>>
 	|
+	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, bool>>
 	|
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, Decimal>>
@@ -8530,10 +8534,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, uint>>
 	|
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<long, ulong>>
-	|
-	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__IReadOnlyList_get_Item<KeyValuePair<IntPtr, object>>
 	|
@@ -9625,6 +9625,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__Insert<Dictionary.Entry<Int32Enum, float>>
 	|
+	|-Array.InternalArray__Insert<Dictionary.Entry<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__Insert<Dictionary.Entry<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__Insert<Dictionary.Entry<long, bool>>
 	|
 	|-Array.InternalArray__Insert<Dictionary.Entry<long, Decimal>>
@@ -9646,10 +9650,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__Insert<Dictionary.Entry<long, uint>>
 	|
 	|-Array.InternalArray__Insert<Dictionary.Entry<long, ulong>>
-	|
-	|-Array.InternalArray__Insert<Dictionary.Entry<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__Insert<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__Insert<Dictionary.Entry<IntPtr, object>>
 	|
@@ -9999,6 +9999,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__Insert<KeyValuePair<Int32Enum, float>>
 	|
+	|-Array.InternalArray__Insert<KeyValuePair<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__Insert<KeyValuePair<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__Insert<KeyValuePair<long, bool>>
 	|
 	|-Array.InternalArray__Insert<KeyValuePair<long, Decimal>>
@@ -10020,10 +10024,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__Insert<KeyValuePair<long, uint>>
 	|
 	|-Array.InternalArray__Insert<KeyValuePair<long, ulong>>
-	|
-	|-Array.InternalArray__Insert<KeyValuePair<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__Insert<KeyValuePair<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__Insert<KeyValuePair<IntPtr, object>>
 	|
@@ -11115,6 +11115,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<Int32Enum, float>>
 	|
+	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, bool>>
 	|
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, Decimal>>
@@ -11136,10 +11140,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, uint>>
 	|
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<long, ulong>>
-	|
-	|-Array.InternalArray__IndexOf<Dictionary.Entry<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__IndexOf<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__IndexOf<Dictionary.Entry<IntPtr, object>>
 	|
@@ -11489,6 +11489,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__IndexOf<KeyValuePair<Int32Enum, float>>
 	|
+	|-Array.InternalArray__IndexOf<KeyValuePair<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__IndexOf<KeyValuePair<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, bool>>
 	|
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, Decimal>>
@@ -11510,10 +11514,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, uint>>
 	|
 	|-Array.InternalArray__IndexOf<KeyValuePair<long, ulong>>
-	|
-	|-Array.InternalArray__IndexOf<KeyValuePair<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__IndexOf<KeyValuePair<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__IndexOf<KeyValuePair<IntPtr, object>>
 	|
@@ -12603,6 +12603,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__get_Item<Dictionary.Entry<Int32Enum, float>>
 	|
+	|-Array.InternalArray__get_Item<Dictionary.Entry<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__get_Item<Dictionary.Entry<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__get_Item<Dictionary.Entry<long, bool>>
 	|
 	|-Array.InternalArray__get_Item<Dictionary.Entry<long, Decimal>>
@@ -12624,10 +12628,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__get_Item<Dictionary.Entry<long, uint>>
 	|
 	|-Array.InternalArray__get_Item<Dictionary.Entry<long, ulong>>
-	|
-	|-Array.InternalArray__get_Item<Dictionary.Entry<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__get_Item<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__get_Item<Dictionary.Entry<IntPtr, object>>
 	|
@@ -12977,6 +12977,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__get_Item<KeyValuePair<Int32Enum, float>>
 	|
+	|-Array.InternalArray__get_Item<KeyValuePair<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__get_Item<KeyValuePair<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__get_Item<KeyValuePair<long, bool>>
 	|
 	|-Array.InternalArray__get_Item<KeyValuePair<long, Decimal>>
@@ -12998,10 +13002,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__get_Item<KeyValuePair<long, uint>>
 	|
 	|-Array.InternalArray__get_Item<KeyValuePair<long, ulong>>
-	|
-	|-Array.InternalArray__get_Item<KeyValuePair<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__get_Item<KeyValuePair<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__get_Item<KeyValuePair<IntPtr, object>>
 	|
@@ -14091,6 +14091,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__set_Item<Dictionary.Entry<Int32Enum, float>>
 	|
+	|-Array.InternalArray__set_Item<Dictionary.Entry<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__set_Item<Dictionary.Entry<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, bool>>
 	|
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, Decimal>>
@@ -14112,10 +14116,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, uint>>
 	|
 	|-Array.InternalArray__set_Item<Dictionary.Entry<long, ulong>>
-	|
-	|-Array.InternalArray__set_Item<Dictionary.Entry<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__set_Item<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__set_Item<Dictionary.Entry<IntPtr, object>>
 	|
@@ -14465,6 +14465,10 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|
 	|-Array.InternalArray__set_Item<KeyValuePair<Int32Enum, float>>
 	|
+	|-Array.InternalArray__set_Item<KeyValuePair<long, Helper.Allocation>>
+	|
+	|-Array.InternalArray__set_Item<KeyValuePair<long, Helper.PinnedBuffer>>
+	|
 	|-Array.InternalArray__set_Item<KeyValuePair<long, bool>>
 	|
 	|-Array.InternalArray__set_Item<KeyValuePair<long, Decimal>>
@@ -14486,10 +14490,6 @@ public abstract class Array : ICollection, IEnumerable, IList, IStructuralCompar
 	|-Array.InternalArray__set_Item<KeyValuePair<long, uint>>
 	|
 	|-Array.InternalArray__set_Item<KeyValuePair<long, ulong>>
-	|
-	|-Array.InternalArray__set_Item<KeyValuePair<IntPtr, Helper.Allocation>>
-	|
-	|-Array.InternalArray__set_Item<KeyValuePair<IntPtr, Helper.PinnedBuffer>>
 	|
 	|-Array.InternalArray__set_Item<KeyValuePair<IntPtr, object>>
 	|
@@ -15905,6 +15905,8 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<Dictionary.Entry<int, ViewModelDrawEvent>>..ctor
 	|-Array.InternalEnumerator<Dictionary.Entry<Int32Enum, object>>..ctor
 	|-Array.InternalEnumerator<Dictionary.Entry<Int32Enum, float>>..ctor
+	|-Array.InternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>..ctor
+	|-Array.InternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>..ctor
 	|-Array.InternalEnumerator<Dictionary.Entry<long, bool>>..ctor
 	|-Array.InternalEnumerator<Dictionary.Entry<long, Decimal>>..ctor
 	|-Array.InternalEnumerator<Dictionary.Entry<long, double>>..ctor
@@ -15916,8 +15918,6 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<Dictionary.Entry<long, ushort>>..ctor
 	|-Array.InternalEnumerator<Dictionary.Entry<long, uint>>..ctor
 	|-Array.InternalEnumerator<Dictionary.Entry<long, ulong>>..ctor
-	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>..ctor
-	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>..ctor
 	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, object>>..ctor
 	|-Array.InternalEnumerator<Dictionary.Entry<object, CameraMan.CameraState>>..ctor
 	|-Array.InternalEnumerator<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>..ctor
@@ -16092,6 +16092,8 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<KeyValuePair<int, ViewModelDrawEvent>>..ctor
 	|-Array.InternalEnumerator<KeyValuePair<Int32Enum, object>>..ctor
 	|-Array.InternalEnumerator<KeyValuePair<Int32Enum, float>>..ctor
+	|-Array.InternalEnumerator<KeyValuePair<long, Helper.Allocation>>..ctor
+	|-Array.InternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>..ctor
 	|-Array.InternalEnumerator<KeyValuePair<long, bool>>..ctor
 	|-Array.InternalEnumerator<KeyValuePair<long, Decimal>>..ctor
 	|-Array.InternalEnumerator<KeyValuePair<long, double>>..ctor
@@ -16103,8 +16105,6 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<KeyValuePair<long, ushort>>..ctor
 	|-Array.InternalEnumerator<KeyValuePair<long, uint>>..ctor
 	|-Array.InternalEnumerator<KeyValuePair<long, ulong>>..ctor
-	|-Array.InternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>..ctor
-	|-Array.InternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>..ctor
 	|-Array.InternalEnumerator<KeyValuePair<IntPtr, object>>..ctor
 	|-Array.InternalEnumerator<KeyValuePair<object, CameraMan.CameraState>>..ctor
 	|-Array.InternalEnumerator<KeyValuePair<object, PlayerModelHair.RendererMaterials>>..ctor
@@ -16652,6 +16652,8 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<Dictionary.Entry<int, ViewModelDrawEvent>>.Dispose
 	|-Array.InternalEnumerator<Dictionary.Entry<Int32Enum, object>>.Dispose
 	|-Array.InternalEnumerator<Dictionary.Entry<Int32Enum, float>>.Dispose
+	|-Array.InternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>.Dispose
+	|-Array.InternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>.Dispose
 	|-Array.InternalEnumerator<Dictionary.Entry<long, bool>>.Dispose
 	|-Array.InternalEnumerator<Dictionary.Entry<long, Decimal>>.Dispose
 	|-Array.InternalEnumerator<Dictionary.Entry<long, double>>.Dispose
@@ -16663,8 +16665,6 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<Dictionary.Entry<long, ushort>>.Dispose
 	|-Array.InternalEnumerator<Dictionary.Entry<long, uint>>.Dispose
 	|-Array.InternalEnumerator<Dictionary.Entry<long, ulong>>.Dispose
-	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>.Dispose
-	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>.Dispose
 	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, object>>.Dispose
 	|-Array.InternalEnumerator<Dictionary.Entry<object, CameraMan.CameraState>>.Dispose
 	|-Array.InternalEnumerator<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>.Dispose
@@ -16839,6 +16839,8 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<KeyValuePair<int, ViewModelDrawEvent>>.Dispose
 	|-Array.InternalEnumerator<KeyValuePair<Int32Enum, object>>.Dispose
 	|-Array.InternalEnumerator<KeyValuePair<Int32Enum, float>>.Dispose
+	|-Array.InternalEnumerator<KeyValuePair<long, Helper.Allocation>>.Dispose
+	|-Array.InternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>.Dispose
 	|-Array.InternalEnumerator<KeyValuePair<long, bool>>.Dispose
 	|-Array.InternalEnumerator<KeyValuePair<long, Decimal>>.Dispose
 	|-Array.InternalEnumerator<KeyValuePair<long, double>>.Dispose
@@ -16850,8 +16852,6 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<KeyValuePair<long, ushort>>.Dispose
 	|-Array.InternalEnumerator<KeyValuePair<long, uint>>.Dispose
 	|-Array.InternalEnumerator<KeyValuePair<long, ulong>>.Dispose
-	|-Array.InternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>.Dispose
-	|-Array.InternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>.Dispose
 	|-Array.InternalEnumerator<KeyValuePair<IntPtr, object>>.Dispose
 	|-Array.InternalEnumerator<KeyValuePair<object, CameraMan.CameraState>>.Dispose
 	|-Array.InternalEnumerator<KeyValuePair<object, PlayerModelHair.RendererMaterials>>.Dispose
@@ -17399,6 +17399,8 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<Dictionary.Entry<int, ViewModelDrawEvent>>.MoveNext
 	|-Array.InternalEnumerator<Dictionary.Entry<Int32Enum, object>>.MoveNext
 	|-Array.InternalEnumerator<Dictionary.Entry<Int32Enum, float>>.MoveNext
+	|-Array.InternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>.MoveNext
+	|-Array.InternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>.MoveNext
 	|-Array.InternalEnumerator<Dictionary.Entry<long, bool>>.MoveNext
 	|-Array.InternalEnumerator<Dictionary.Entry<long, Decimal>>.MoveNext
 	|-Array.InternalEnumerator<Dictionary.Entry<long, double>>.MoveNext
@@ -17410,8 +17412,6 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<Dictionary.Entry<long, ushort>>.MoveNext
 	|-Array.InternalEnumerator<Dictionary.Entry<long, uint>>.MoveNext
 	|-Array.InternalEnumerator<Dictionary.Entry<long, ulong>>.MoveNext
-	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>.MoveNext
-	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>.MoveNext
 	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, object>>.MoveNext
 	|-Array.InternalEnumerator<Dictionary.Entry<object, CameraMan.CameraState>>.MoveNext
 	|-Array.InternalEnumerator<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>.MoveNext
@@ -17586,6 +17586,8 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<KeyValuePair<int, ViewModelDrawEvent>>.MoveNext
 	|-Array.InternalEnumerator<KeyValuePair<Int32Enum, object>>.MoveNext
 	|-Array.InternalEnumerator<KeyValuePair<Int32Enum, float>>.MoveNext
+	|-Array.InternalEnumerator<KeyValuePair<long, Helper.Allocation>>.MoveNext
+	|-Array.InternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>.MoveNext
 	|-Array.InternalEnumerator<KeyValuePair<long, bool>>.MoveNext
 	|-Array.InternalEnumerator<KeyValuePair<long, Decimal>>.MoveNext
 	|-Array.InternalEnumerator<KeyValuePair<long, double>>.MoveNext
@@ -17597,8 +17599,6 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<KeyValuePair<long, ushort>>.MoveNext
 	|-Array.InternalEnumerator<KeyValuePair<long, uint>>.MoveNext
 	|-Array.InternalEnumerator<KeyValuePair<long, ulong>>.MoveNext
-	|-Array.InternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>.MoveNext
-	|-Array.InternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>.MoveNext
 	|-Array.InternalEnumerator<KeyValuePair<IntPtr, object>>.MoveNext
 	|-Array.InternalEnumerator<KeyValuePair<object, CameraMan.CameraState>>.MoveNext
 	|-Array.InternalEnumerator<KeyValuePair<object, PlayerModelHair.RendererMaterials>>.MoveNext
@@ -18441,6 +18441,10 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|
 	|-Array.InternalEnumerator<Dictionary.Entry<Int32Enum, float>>.get_Current
 	|
+	|-Array.InternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>.get_Current
+	|
+	|-Array.InternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>.get_Current
+	|
 	|-Array.InternalEnumerator<Dictionary.Entry<long, bool>>.get_Current
 	|
 	|-Array.InternalEnumerator<Dictionary.Entry<long, Decimal>>.get_Current
@@ -18462,10 +18466,6 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<Dictionary.Entry<long, uint>>.get_Current
 	|
 	|-Array.InternalEnumerator<Dictionary.Entry<long, ulong>>.get_Current
-	|
-	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>.get_Current
-	|
-	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>.get_Current
 	|
 	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, object>>.get_Current
 	|
@@ -18815,6 +18815,10 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|
 	|-Array.InternalEnumerator<KeyValuePair<Int32Enum, float>>.get_Current
 	|
+	|-Array.InternalEnumerator<KeyValuePair<long, Helper.Allocation>>.get_Current
+	|
+	|-Array.InternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>.get_Current
+	|
 	|-Array.InternalEnumerator<KeyValuePair<long, bool>>.get_Current
 	|
 	|-Array.InternalEnumerator<KeyValuePair<long, Decimal>>.get_Current
@@ -18836,10 +18840,6 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<KeyValuePair<long, uint>>.get_Current
 	|
 	|-Array.InternalEnumerator<KeyValuePair<long, ulong>>.get_Current
-	|
-	|-Array.InternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>.get_Current
-	|
-	|-Array.InternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>.get_Current
 	|
 	|-Array.InternalEnumerator<KeyValuePair<IntPtr, object>>.get_Current
 	|
@@ -19634,6 +19634,8 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<Dictionary.Entry<int, ViewModelDrawEvent>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<Dictionary.Entry<Int32Enum, object>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<Dictionary.Entry<Int32Enum, float>>.System.Collections.IEnumerator.Reset
+	|-Array.InternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>.System.Collections.IEnumerator.Reset
+	|-Array.InternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<Dictionary.Entry<long, bool>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<Dictionary.Entry<long, Decimal>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<Dictionary.Entry<long, double>>.System.Collections.IEnumerator.Reset
@@ -19645,8 +19647,6 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<Dictionary.Entry<long, ushort>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<Dictionary.Entry<long, uint>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<Dictionary.Entry<long, ulong>>.System.Collections.IEnumerator.Reset
-	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>.System.Collections.IEnumerator.Reset
-	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, object>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<Dictionary.Entry<object, CameraMan.CameraState>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>.System.Collections.IEnumerator.Reset
@@ -19821,6 +19821,8 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<KeyValuePair<int, ViewModelDrawEvent>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<KeyValuePair<Int32Enum, object>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<KeyValuePair<Int32Enum, float>>.System.Collections.IEnumerator.Reset
+	|-Array.InternalEnumerator<KeyValuePair<long, Helper.Allocation>>.System.Collections.IEnumerator.Reset
+	|-Array.InternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<KeyValuePair<long, bool>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<KeyValuePair<long, Decimal>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<KeyValuePair<long, double>>.System.Collections.IEnumerator.Reset
@@ -19832,8 +19834,6 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<KeyValuePair<long, ushort>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<KeyValuePair<long, uint>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<KeyValuePair<long, ulong>>.System.Collections.IEnumerator.Reset
-	|-Array.InternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>.System.Collections.IEnumerator.Reset
-	|-Array.InternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<KeyValuePair<IntPtr, object>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<KeyValuePair<object, CameraMan.CameraState>>.System.Collections.IEnumerator.Reset
 	|-Array.InternalEnumerator<KeyValuePair<object, PlayerModelHair.RendererMaterials>>.System.Collections.IEnumerator.Reset
@@ -20676,6 +20676,10 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|
 	|-Array.InternalEnumerator<Dictionary.Entry<Int32Enum, float>>.System.Collections.IEnumerator.get_Current
 	|
+	|-Array.InternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>.System.Collections.IEnumerator.get_Current
+	|
+	|-Array.InternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>.System.Collections.IEnumerator.get_Current
+	|
 	|-Array.InternalEnumerator<Dictionary.Entry<long, bool>>.System.Collections.IEnumerator.get_Current
 	|
 	|-Array.InternalEnumerator<Dictionary.Entry<long, Decimal>>.System.Collections.IEnumerator.get_Current
@@ -20697,10 +20701,6 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<Dictionary.Entry<long, uint>>.System.Collections.IEnumerator.get_Current
 	|
 	|-Array.InternalEnumerator<Dictionary.Entry<long, ulong>>.System.Collections.IEnumerator.get_Current
-	|
-	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>.System.Collections.IEnumerator.get_Current
-	|
-	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>.System.Collections.IEnumerator.get_Current
 	|
 	|-Array.InternalEnumerator<Dictionary.Entry<IntPtr, object>>.System.Collections.IEnumerator.get_Current
 	|
@@ -21050,6 +21050,10 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|
 	|-Array.InternalEnumerator<KeyValuePair<Int32Enum, float>>.System.Collections.IEnumerator.get_Current
 	|
+	|-Array.InternalEnumerator<KeyValuePair<long, Helper.Allocation>>.System.Collections.IEnumerator.get_Current
+	|
+	|-Array.InternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>.System.Collections.IEnumerator.get_Current
+	|
 	|-Array.InternalEnumerator<KeyValuePair<long, bool>>.System.Collections.IEnumerator.get_Current
 	|
 	|-Array.InternalEnumerator<KeyValuePair<long, Decimal>>.System.Collections.IEnumerator.get_Current
@@ -21071,10 +21075,6 @@ internal struct Array.InternalEnumerator<T> : IEnumerator<T>, IDisposable, IEnum
 	|-Array.InternalEnumerator<KeyValuePair<long, uint>>.System.Collections.IEnumerator.get_Current
 	|
 	|-Array.InternalEnumerator<KeyValuePair<long, ulong>>.System.Collections.IEnumerator.get_Current
-	|
-	|-Array.InternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>.System.Collections.IEnumerator.get_Current
-	|
-	|-Array.InternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>.System.Collections.IEnumerator.get_Current
 	|
 	|-Array.InternalEnumerator<KeyValuePair<IntPtr, object>>.System.Collections.IEnumerator.get_Current
 	|
@@ -21879,6 +21879,8 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, ViewModelDrawEvent>>.Dispose
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, object>>.Dispose
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, float>>.Dispose
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>.Dispose
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>.Dispose
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, bool>>.Dispose
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Decimal>>.Dispose
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, double>>.Dispose
@@ -21890,8 +21892,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ushort>>.Dispose
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, uint>>.Dispose
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ulong>>.Dispose
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>.Dispose
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>.Dispose
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, object>>.Dispose
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, CameraMan.CameraState>>.Dispose
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>.Dispose
@@ -22066,6 +22066,8 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, ViewModelDrawEvent>>.Dispose
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, object>>.Dispose
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, float>>.Dispose
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.Allocation>>.Dispose
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>.Dispose
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, bool>>.Dispose
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Decimal>>.Dispose
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, double>>.Dispose
@@ -22077,8 +22079,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ushort>>.Dispose
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, uint>>.Dispose
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ulong>>.Dispose
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>.Dispose
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>.Dispose
 	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, object>>.Dispose
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, CameraMan.CameraState>>.Dispose
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, PlayerModelHair.RendererMaterials>>.Dispose
@@ -22626,6 +22626,8 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, ViewModelDrawEvent>>.MoveNext
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, object>>.MoveNext
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, float>>.MoveNext
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>.MoveNext
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>.MoveNext
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, bool>>.MoveNext
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Decimal>>.MoveNext
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, double>>.MoveNext
@@ -22637,8 +22639,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ushort>>.MoveNext
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, uint>>.MoveNext
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ulong>>.MoveNext
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>.MoveNext
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>.MoveNext
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, object>>.MoveNext
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, CameraMan.CameraState>>.MoveNext
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>.MoveNext
@@ -22813,6 +22813,8 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, ViewModelDrawEvent>>.MoveNext
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, object>>.MoveNext
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, float>>.MoveNext
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.Allocation>>.MoveNext
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>.MoveNext
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, bool>>.MoveNext
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Decimal>>.MoveNext
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, double>>.MoveNext
@@ -22824,8 +22826,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ushort>>.MoveNext
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, uint>>.MoveNext
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ulong>>.MoveNext
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>.MoveNext
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>.MoveNext
 	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, object>>.MoveNext
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, CameraMan.CameraState>>.MoveNext
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, PlayerModelHair.RendererMaterials>>.MoveNext
@@ -23668,6 +23668,10 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, float>>.get_Current
 	|
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>.get_Current
+	|
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>.get_Current
+	|
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, bool>>.get_Current
 	|
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Decimal>>.get_Current
@@ -23689,10 +23693,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, uint>>.get_Current
 	|
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ulong>>.get_Current
-	|
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>.get_Current
-	|
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>.get_Current
 	|
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, object>>.get_Current
 	|
@@ -24042,6 +24042,10 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, float>>.get_Current
 	|
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.Allocation>>.get_Current
+	|
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>.get_Current
+	|
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, bool>>.get_Current
 	|
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Decimal>>.get_Current
@@ -24063,10 +24067,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, uint>>.get_Current
 	|
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ulong>>.get_Current
-	|
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>.get_Current
-	|
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>.get_Current
 	|
 	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, object>>.get_Current
 	|
@@ -24630,6 +24630,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, object>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, ulong>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, object>>.System.Collections.IEnumerator.get_Current
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, bool>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, double>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, short>>.System.Collections.IEnumerator.get_Current
@@ -24640,7 +24641,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ushort>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, uint>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ulong>>.System.Collections.IEnumerator.get_Current
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, object>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, InputActionSetHandle_t>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, InputAnalogActionHandle_t>>.System.Collections.IEnumerator.get_Current
@@ -24847,6 +24847,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, object>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, ulong>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, object>>.System.Collections.IEnumerator.get_Current
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, bool>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, double>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, short>>.System.Collections.IEnumerator.get_Current
@@ -24857,7 +24858,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ushort>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, uint>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ulong>>.System.Collections.IEnumerator.get_Current
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, object>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, InputActionSetHandle_t>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, InputAnalogActionHandle_t>>.System.Collections.IEnumerator.get_Current
@@ -25006,7 +25006,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<XPathNodeRef, XPathNodeRef>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<StringFormatCache.Key2, object>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Decimal, Decimal>>.System.Collections.IEnumerator.get_Current
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>.System.Collections.IEnumerator.get_Current
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.Allocation>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, PlayerModelHair.RendererMaterials>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<ulong, Chat.MuteEntry>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<RBTree.Node<int>>.System.Collections.IEnumerator.get_Current
@@ -25041,7 +25041,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<XPathNodeRef, XPathNodeRef>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<StringFormatCache.Key2, object>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Decimal, Decimal>>.System.Collections.IEnumerator.get_Current
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>.System.Collections.IEnumerator.get_Current
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<ulong, Chat.MuteEntry>>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyValuePair<InstancingKey, int>>.System.Collections.IEnumerator.get_Current
@@ -25643,6 +25643,8 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, ViewModelDrawEvent>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, object>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, float>>.System.Collections.IEnumerator.Reset
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>.System.Collections.IEnumerator.Reset
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, bool>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Decimal>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, double>>.System.Collections.IEnumerator.Reset
@@ -25654,8 +25656,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ushort>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, uint>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ulong>>.System.Collections.IEnumerator.Reset
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>.System.Collections.IEnumerator.Reset
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, object>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, CameraMan.CameraState>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>.System.Collections.IEnumerator.Reset
@@ -25830,6 +25830,8 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, ViewModelDrawEvent>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, object>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, float>>.System.Collections.IEnumerator.Reset
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.Allocation>>.System.Collections.IEnumerator.Reset
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, bool>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Decimal>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, double>>.System.Collections.IEnumerator.Reset
@@ -25841,8 +25843,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ushort>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, uint>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ulong>>.System.Collections.IEnumerator.Reset
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>.System.Collections.IEnumerator.Reset
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, object>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, CameraMan.CameraState>>.System.Collections.IEnumerator.Reset
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, PlayerModelHair.RendererMaterials>>.System.Collections.IEnumerator.Reset
@@ -26390,6 +26390,8 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, ViewModelDrawEvent>>..ctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, object>>..ctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, float>>..ctor
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>..ctor
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>..ctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, bool>>..ctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Decimal>>..ctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, double>>..ctor
@@ -26401,8 +26403,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ushort>>..ctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, uint>>..ctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ulong>>..ctor
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>..ctor
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>..ctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, object>>..ctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, CameraMan.CameraState>>..ctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>..ctor
@@ -26577,6 +26577,8 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, ViewModelDrawEvent>>..ctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, object>>..ctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, float>>..ctor
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.Allocation>>..ctor
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>..ctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, bool>>..ctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Decimal>>..ctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, double>>..ctor
@@ -26588,8 +26590,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ushort>>..ctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, uint>>..ctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ulong>>..ctor
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>..ctor
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>..ctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, object>>..ctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, CameraMan.CameraState>>..ctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, PlayerModelHair.RendererMaterials>>..ctor
@@ -27137,6 +27137,8 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<int, ViewModelDrawEvent>>..cctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, object>>..cctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<Int32Enum, float>>..cctor
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.Allocation>>..cctor
+	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Helper.PinnedBuffer>>..cctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, bool>>..cctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, Decimal>>..cctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, double>>..cctor
@@ -27148,8 +27150,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ushort>>..cctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, uint>>..cctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<long, ulong>>..cctor
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.Allocation>>..cctor
-	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, Helper.PinnedBuffer>>..cctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<IntPtr, object>>..cctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, CameraMan.CameraState>>..cctor
 	|-Array.EmptyInternalEnumerator<Dictionary.Entry<object, PlayerModelHair.RendererMaterials>>..cctor
@@ -27324,6 +27324,8 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<int, ViewModelDrawEvent>>..cctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, object>>..cctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<Int32Enum, float>>..cctor
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.Allocation>>..cctor
+	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Helper.PinnedBuffer>>..cctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, bool>>..cctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, Decimal>>..cctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, double>>..cctor
@@ -27335,8 +27337,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ushort>>..cctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, uint>>..cctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<long, ulong>>..cctor
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.Allocation>>..cctor
-	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, Helper.PinnedBuffer>>..cctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<IntPtr, object>>..cctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, CameraMan.CameraState>>..cctor
 	|-Array.EmptyInternalEnumerator<KeyValuePair<object, PlayerModelHair.RendererMaterials>>..cctor

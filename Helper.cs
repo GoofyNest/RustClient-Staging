@@ -1,7 +1,7 @@
 public sealed class Helper // TypeDefIndex: 8248
 {
-	private static Dictionary<IntPtr, Helper.Allocation> s_Allocations; 
-	private static Dictionary<IntPtr, Helper.PinnedBuffer> s_PinnedBuffers; 
+	private static Dictionary<long, Helper.Allocation> s_Allocations; 
+	private static Dictionary<long, Helper.PinnedBuffer> s_PinnedBuffers; 
 	private static Dictionary<IntPtr, Helper.DelegateHolder> s_Callbacks; 
 	private static Dictionary<string, Helper.DelegateHolder> s_StaticCallbacks; 
 	private static long s_LastClientDataId; 
@@ -3101,14 +3101,14 @@ private sealed class Helper.<>c__DisplayClass4_0 // TypeDefIndex: 8253
 private sealed class Helper.<>c // TypeDefIndex: 8254
 {
 	public static readonly Helper.<>c <>9; 
-	public static Func<int, KeyValuePair<IntPtr, Helper.PinnedBuffer>, int> <>9__63_0; 
+	public static Func<int, KeyValuePair<long, Helper.PinnedBuffer>, int> <>9__63_0; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal int <GetAllocationCount>b__63_0(int acc, KeyValuePair<IntPtr, Helper.PinnedBuffer> x) { }
+	internal int <GetAllocationCount>b__63_0(int acc, KeyValuePair<long, Helper.PinnedBuffer> x) { }
 
 }
 
