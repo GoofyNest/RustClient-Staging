@@ -12,6 +12,7 @@ public class PropRenderer : MonoBehaviour, IClientComponent // TypeDefIndex: 662
 	public float FieldOfView; 
 	public Vector3 LookDirection; 
 	public Vector3 UpDirection; 
+	public GameObject[] HideDuringRender; 
 
 
 	public void DebugAlign() { }
