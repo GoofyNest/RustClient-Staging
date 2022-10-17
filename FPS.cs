@@ -2,6 +2,8 @@ public class FPS : ConsoleSystem // TypeDefIndex: 13662
 {
 	[ClientVar] 
 	public static bool limitInBackground; 
+	[ClientVar] 
+	public static bool limitInMenu; 
 	public const int CappedFrameRateWhileInBackground = 15;
 	private static int m_graph; 
 

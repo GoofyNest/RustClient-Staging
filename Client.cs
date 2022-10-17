@@ -510,6 +510,7 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 	public static DateTime DemoRecordedTime { get; }
 	public static BasePlayer DemoSpectatePlayer { get; set; }
 	public static EventSystem EventSystem { get; }
+	public bool HasFrameRateCapApplied { get; }
 
 
 	[CompilerGeneratedAttribute] 
@@ -668,6 +669,8 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 	private void SaveConfigs(bool force = False) { }
 
 	private void HandleBackgroundCap() { }
+
+	public bool get_HasFrameRateCapApplied() { }
 
 	private static extern uint GetCurrentProcessId() { }
 
