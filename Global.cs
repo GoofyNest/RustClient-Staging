@@ -67,6 +67,8 @@ public class Global : ConsoleSystem // TypeDefIndex: 13665
 	public static bool showItemPickupNotices; 
 	[ClientVar] 
 	public static float vehicleDismountHoldTime; 
+	[ClientVar] 
+	public static bool hideInteractTextWhileADS; 
 	[ServerVar] 
 	[ClientVar] 
 	public static int perf; 
@@ -239,20 +241,20 @@ public class Global : ConsoleSystem // TypeDefIndex: 13665
 private sealed class Global.<>c // TypeDefIndex: 13666
 {
 	public static readonly Global.<>c <>9; 
-	public static Func<KeyValuePair<Type, long>, long> <>9__48_0; 
-	public static Func<Collider, bool> <>9__50_0; 
-	public static Func<Collider, bool> <>9__50_1; 
+	public static Func<KeyValuePair<Type, long>, long> <>9__49_0; 
+	public static Func<Collider, bool> <>9__51_0; 
+	public static Func<Collider, bool> <>9__51_1; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal long <objects>b__48_0(KeyValuePair<Type, long> x) { }
+	internal long <objects>b__49_0(KeyValuePair<Type, long> x) { }
 
-	internal bool <colliders>b__50_0(Collider x) { }
+	internal bool <colliders>b__51_0(Collider x) { }
 
-	internal bool <colliders>b__50_1(Collider x) { }
+	internal bool <colliders>b__51_1(Collider x) { }
 
 }
 
