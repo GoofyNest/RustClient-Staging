@@ -493,7 +493,6 @@ public class Client : SingletonComponent<Client>, IClientCallback // TypeDefInde
 	private static EventSystem _eventsystem; 
 	private float LastConfigSaveTime; 
 	private bool backgroundCapApplied; 
-	private int capToReapply; 
 	private Stopwatch ngTimer; 
 
 	private bool StatsEnabled { get; }

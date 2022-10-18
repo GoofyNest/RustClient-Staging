@@ -1,5 +1,6 @@
 public class FPS : ConsoleSystem // TypeDefIndex: 13662
 {
+	private static int _limit; 
 	[ClientVar] 
 	public static bool limitInBackground; 
 	[ClientVar] 
@@ -23,6 +24,8 @@ public class FPS : ConsoleSystem // TypeDefIndex: 13662
 	public static void set_graph(int value) { }
 
 	public void .ctor() { }
+
+	private static void .cctor() { }
 
 }
 
