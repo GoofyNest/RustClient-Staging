@@ -9,6 +9,7 @@ public class ScarecrowNPC : NPCPlayer, IAISenses, IAIAttack // TypeDefIndex: 101
 	[HeaderAttribute] 
 	public LootContainer.LootSpawnSlot[] LootSpawnSlots; 
 	public static float NextBeanCanAllowedTime; 
+	public bool RoamAroundHomePoint; 
 
 	public override bool HasMenuOptions { get; }
 	public ScarecrowBrain Brain { get; set; }
