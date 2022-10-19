@@ -1,4 +1,4 @@
-public class BaseCorpse : BaseCombatEntity // TypeDefIndex: 11168
+public class BaseCorpse : BaseCombatEntity // TypeDefIndex: 11177
 {
 	public GameObjectRef prefabRagdoll; 
 	public BaseEntity parentEnt; 

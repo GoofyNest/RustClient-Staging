@@ -1,4 +1,4 @@
-public class nametags : ConsoleSystem // TypeDefIndex: 11373
+public class nametags : ConsoleSystem // TypeDefIndex: 11382
 {
 	[ClientVar] 
 	public static bool enabled; 

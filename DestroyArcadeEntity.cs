@@ -1,4 +1,4 @@
-public class DestroyArcadeEntity : BaseMonoBehaviour // TypeDefIndex: 10480
+public class DestroyArcadeEntity : BaseMonoBehaviour // TypeDefIndex: 10482
 {
 	public ArcadeEntity ent; 
 	public float TimeToDie; 

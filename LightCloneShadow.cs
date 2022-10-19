@@ -1,4 +1,4 @@
-public class LightCloneShadow : MonoBehaviour // TypeDefIndex: 12404
+public class LightCloneShadow : MonoBehaviour // TypeDefIndex: 12414
 {
 	public bool cloneShadowMap; 
 	public string shaderPropNameMap; 

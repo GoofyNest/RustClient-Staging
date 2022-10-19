@@ -1,4 +1,4 @@
-public class RepairBenchPanel : LootPanel // TypeDefIndex: 12783
+public class RepairBenchPanel : LootPanel // TypeDefIndex: 12794
 {
 	public Text infoText; 
 	public Button repairButton; 

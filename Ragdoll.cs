@@ -1,4 +1,4 @@
-public class Ragdoll : BaseMonoBehaviour, IPrefabPreProcess // TypeDefIndex: 10934
+public class Ragdoll : BaseMonoBehaviour, IPrefabPreProcess // TypeDefIndex: 10943
 {
 	public Transform eyeTransform; 
 	public Transform centerBone; 

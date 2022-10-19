@@ -59,7 +59,7 @@ public class ConnectedSpeaker : IDisposable, Pool.IPooled, IProto // TypeDefInde
 
 }
 
-public class ConnectedSpeaker : IOEntity // TypeDefIndex: 10271
+public class ConnectedSpeaker : IOEntity // TypeDefIndex: 10272
 {
 	public AudioSource SoundSource; 
 	private EntityRef<IOEntity> connectedTo; 

@@ -1,4 +1,4 @@
-public class LightEx : UpdateBehaviour, IClientComponent // TypeDefIndex: 10904
+public class LightEx : UpdateBehaviour, IClientComponent // TypeDefIndex: 10911
 {
 	public bool alterColor; 
 	public float colorTimeScale; 

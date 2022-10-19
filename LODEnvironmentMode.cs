@@ -1,4 +1,4 @@
-public enum LODEnvironmentMode // TypeDefIndex: 11653
+public enum LODEnvironmentMode // TypeDefIndex: 11662
 {
 	public int value__; 
 	public const LODEnvironmentMode Default = 0;

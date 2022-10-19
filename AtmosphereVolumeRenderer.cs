@@ -1,4 +1,4 @@
-public class AtmosphereVolumeRenderer : MonoBehaviour // TypeDefIndex: 12361
+public class AtmosphereVolumeRenderer : MonoBehaviour // TypeDefIndex: 12371
 {
 	public FogMode Mode; 
 	public bool DistanceFog; 
@@ -61,7 +61,7 @@ public class AtmosphereVolumeRenderer : MonoBehaviour // TypeDefIndex: 12361
 
 }
 
-private struct AtmosphereVolumeRenderer.CurrentVolumeEntry // TypeDefIndex: 12362
+private struct AtmosphereVolumeRenderer.CurrentVolumeEntry // TypeDefIndex: 12372
 {
 	public AtmosphereVolume volume; 
 	public float distanceSqr; 
@@ -71,7 +71,7 @@ private struct AtmosphereVolumeRenderer.CurrentVolumeEntry // TypeDefIndex: 1236
 
 }
 
-private sealed class AtmosphereVolumeRenderer.<>c // TypeDefIndex: 12363
+private sealed class AtmosphereVolumeRenderer.<>c // TypeDefIndex: 12373
 {
 	public static readonly AtmosphereVolumeRenderer.<>c <>9; 
 	public static Comparison<AtmosphereVolumeRenderer.CurrentVolumeEntry> <>9__28_0; 

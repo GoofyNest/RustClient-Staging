@@ -235,6 +235,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<BlendedSoundLoops.Loop>.Dispose
 	|-List.Enumerator<BoneRetarget>.Dispose
 	|-List.Enumerator<BuildingBlock>.Dispose
+	|-List.Enumerator<BurstClothCollider>.Dispose
 	|-List.Enumerator<CH47DropZone>.Dispose
 	|-List.Enumerator<CH47LandingZone>.Dispose
 	|-List.Enumerator<CardTableUI.KeycodeWithAction>.Dispose
@@ -326,6 +327,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<ICommandCenterListener>.Dispose
 	|-List.Enumerator<JSONNode>.Dispose
 	|-List.Enumerator<Option>.Dispose
+	|-List.Enumerator<GameObjectRef>.Dispose
 	|-List.Enumerator<GameStat.Stat>.Dispose
 	|-List.Enumerator<GenerateDungeonBase.DungeonSegment>.Dispose
 	|-List.Enumerator<GenerateDungeonGrid.PathLink>.Dispose
@@ -688,6 +690,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<BlendedSoundLoops.Loop>.MoveNext
 	|-List.Enumerator<BoneRetarget>.MoveNext
 	|-List.Enumerator<BuildingBlock>.MoveNext
+	|-List.Enumerator<BurstClothCollider>.MoveNext
 	|-List.Enumerator<CH47DropZone>.MoveNext
 	|-List.Enumerator<CH47LandingZone>.MoveNext
 	|-List.Enumerator<CinematicEntity>.MoveNext
@@ -735,6 +738,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<FruitScale>.MoveNext
 	|-List.Enumerator<ICommandCenterListener>.MoveNext
 	|-List.Enumerator<JSONNode>.MoveNext
+	|-List.Enumerator<GameObjectRef>.MoveNext
 	|-List.Enumerator<GenerateDungeonBase.DungeonSegment>.MoveNext
 	|-List.Enumerator<GenerateDungeonGrid.PathLink>.MoveNext
 	|-List.Enumerator<GenerateDungeonGrid.PathLinkSegment>.MoveNext
@@ -1395,6 +1399,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<BlendedSoundLoops.Loop>.get_Current
 	|-List.Enumerator<BoneRetarget>.get_Current
 	|-List.Enumerator<BuildingBlock>.get_Current
+	|-List.Enumerator<BurstClothCollider>.get_Current
 	|-List.Enumerator<CH47DropZone>.get_Current
 	|-List.Enumerator<CH47LandingZone>.get_Current
 	|-List.Enumerator<CinematicEntity>.get_Current
@@ -1443,6 +1448,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<FruitScale>.get_Current
 	|-List.Enumerator<ICommandCenterListener>.get_Current
 	|-List.Enumerator<JSONNode>.get_Current
+	|-List.Enumerator<GameObjectRef>.get_Current
 	|-List.Enumerator<GenerateDungeonBase.DungeonSegment>.get_Current
 	|-List.Enumerator<GenerateDungeonGrid.PathLink>.get_Current
 	|-List.Enumerator<GenerateDungeonGrid.PathLinkSegment>.get_Current

@@ -1,4 +1,4 @@
-public class ConstructionSkin : BasePrefab // TypeDefIndex: 10768
+public class ConstructionSkin : BasePrefab // TypeDefIndex: 10775
 {
 	private RendererBatch[] rendererBatches; 
 	private List<GameObject> conditionals; 

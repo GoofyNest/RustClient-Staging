@@ -1,4 +1,4 @@
-public class TerrainAtlasSet : ScriptableObject // TypeDefIndex: 12102
+public class TerrainAtlasSet : ScriptableObject // TypeDefIndex: 12112
 {
 	public const int SplatCount = 8;
 	public const int SplatSize = 2048;
@@ -36,7 +36,7 @@ public class TerrainAtlasSet : ScriptableObject // TypeDefIndex: 12102
 
 }
 
-public enum TerrainAtlasSet.SourceType // TypeDefIndex: 12103
+public enum TerrainAtlasSet.SourceType // TypeDefIndex: 12113
 {
 	public int value__; 
 	public const TerrainAtlasSet.SourceType ALBEDO = 0;
@@ -46,7 +46,7 @@ public enum TerrainAtlasSet.SourceType // TypeDefIndex: 12103
 
 }
 
-public class TerrainAtlasSet.SourceMapSet // TypeDefIndex: 12104
+public class TerrainAtlasSet.SourceMapSet // TypeDefIndex: 12114
 {
 	public Texture2D[] maps; 
 

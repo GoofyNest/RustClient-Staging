@@ -1,4 +1,4 @@
-public class TriggerMagnet : TriggerBase // TypeDefIndex: 11446
+public class TriggerMagnet : TriggerBase // TypeDefIndex: 11455
 {
 
 	internal override GameObject InterestedInObject(GameObject obj) { }

@@ -194,7 +194,7 @@ private sealed class WorkshopSkin.<LoadSkin>d__34 : IEnumerator<object>, IEnumer
 
 }
 
-public class WorkshopSkin : WorkshopSkinBase // TypeDefIndex: 12499
+public class WorkshopSkin : WorkshopSkinBase // TypeDefIndex: 12509
 {
 
 	public void .ctor() { }

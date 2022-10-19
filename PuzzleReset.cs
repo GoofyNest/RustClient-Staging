@@ -63,7 +63,7 @@ public class PuzzleReset : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 }
 
-public class PuzzleReset : FacepunchBehaviour // TypeDefIndex: 11523
+public class PuzzleReset : FacepunchBehaviour // TypeDefIndex: 11532
 {
 	public SpawnGroup[] respawnGroups; 
 	public IOEntity[] resetEnts; 

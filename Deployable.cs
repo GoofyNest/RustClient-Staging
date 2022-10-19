@@ -1,4 +1,4 @@
-public class Deployable : PrefabAttribute // TypeDefIndex: 11564
+public class Deployable : PrefabAttribute // TypeDefIndex: 11573
 {
 	public Mesh guideMesh; 
 	public Vector3 guideMeshScale; 

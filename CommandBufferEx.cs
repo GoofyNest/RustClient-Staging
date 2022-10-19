@@ -1,4 +1,4 @@
-public static class CommandBufferEx // TypeDefIndex: 12416
+public static class CommandBufferEx // TypeDefIndex: 12426
 {
 
 	[ExtensionAttribute] 

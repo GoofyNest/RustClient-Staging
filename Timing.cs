@@ -1,4 +1,4 @@
-public struct Timing // TypeDefIndex: 13147
+public struct Timing // TypeDefIndex: 13158
 {
 	private Stopwatch sw; 
 	private string name; 

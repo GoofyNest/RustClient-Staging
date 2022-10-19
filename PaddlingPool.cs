@@ -1,4 +1,4 @@
-public class PaddlingPool : LiquidContainer, ISplashable // TypeDefIndex: 10527
+public class PaddlingPool : LiquidContainer, ISplashable // TypeDefIndex: 10529
 {
 	public const BaseEntity.Flags FilledUp = 1024;
 	public Transform poolWaterVolume; 

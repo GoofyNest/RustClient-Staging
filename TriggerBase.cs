@@ -1,4 +1,4 @@
-public class TriggerBase : BaseMonoBehaviour // TypeDefIndex: 11734
+public class TriggerBase : BaseMonoBehaviour // TypeDefIndex: 11743
 {
 	public LayerMask interestLayers; 
 	public HashSet<GameObject> contents; 

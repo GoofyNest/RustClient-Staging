@@ -1,4 +1,4 @@
-public class DeveloperTools : SingletonComponent<DeveloperTools> // TypeDefIndex: 12594
+public class DeveloperTools : SingletonComponent<DeveloperTools> // TypeDefIndex: 12604
 {
 	public GameObject developerTools; 
 	public GameObject navButton; 
@@ -28,7 +28,7 @@ public class DeveloperTools : SingletonComponent<DeveloperTools> // TypeDefIndex
 
 }
 
-private sealed class DeveloperTools.<>c__DisplayClass10_0 // TypeDefIndex: 12595
+private sealed class DeveloperTools.<>c__DisplayClass10_0 // TypeDefIndex: 12605
 {
 	public GameObject newButton; 
 	public Transform child; 

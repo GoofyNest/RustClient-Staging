@@ -1,4 +1,4 @@
-public enum TerrainAnchorMode // TypeDefIndex: 12095
+public enum TerrainAnchorMode // TypeDefIndex: 12105
 {
 	public int value__; 
 	public const TerrainAnchorMode MinimizeError = 0;

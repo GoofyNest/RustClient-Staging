@@ -366,7 +366,7 @@ public struct Mesh_Extents // TypeDefIndex: 6798
 
 }
 
-public class Mesh : ConsoleSystem // TypeDefIndex: 13684
+public class Mesh : ConsoleSystem // TypeDefIndex: 13695
 {
 	private static float m_quality; 
 

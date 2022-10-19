@@ -1,4 +1,4 @@
-public class HurtOverlay : MonoBehaviour // TypeDefIndex: 10840
+public class HurtOverlay : MonoBehaviour // TypeDefIndex: 10847
 {
 	public PostProcessVolume postProcessVolume; 
 	public float smoothTime; 

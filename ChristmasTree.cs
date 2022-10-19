@@ -1,4 +1,4 @@
-public class ChristmasTree : StorageContainer // TypeDefIndex: 10540
+public class ChristmasTree : StorageContainer // TypeDefIndex: 10542
 {
 	public GameObject[] decorations; 
 

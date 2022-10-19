@@ -1,4 +1,4 @@
-public class ScarecrowNPC : NPCPlayer, IAISenses, IAIAttack // TypeDefIndex: 10148
+public class ScarecrowNPC : NPCPlayer, IAISenses, IAIAttack // TypeDefIndex: 10149
 {
 	private Option __menuOption_MenuDesignAI; 
 	[CompilerGeneratedAttribute] 
@@ -8,6 +8,7 @@ public class ScarecrowNPC : NPCPlayer, IAISenses, IAIAttack // TypeDefIndex: 101
 	public DamageType AttackDamageType; 
 	[HeaderAttribute] 
 	public LootContainer.LootSpawnSlot[] LootSpawnSlots; 
+	public static float NextBeanCanAllowedTime; 
 
 	public override bool HasMenuOptions { get; }
 	public ScarecrowBrain Brain { get; set; }
@@ -16,6 +17,12 @@ public class ScarecrowNPC : NPCPlayer, IAISenses, IAIAttack // TypeDefIndex: 101
 	public override void GetMenuOptions(List<Option> list) { }
 
 	public override bool get_HasMenuOptions() { }
+
+	public override float StartHealth() { }
+
+	public override float StartMaxHealth() { }
+
+	public override float MaxHealth() { }
 
 	[CompilerGeneratedAttribute] 
 	public ScarecrowBrain get_Brain() { }

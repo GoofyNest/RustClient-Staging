@@ -1,4 +1,4 @@
-public class DevDressPlayer : MonoBehaviour // TypeDefIndex: 11009
+public class DevDressPlayer : MonoBehaviour // TypeDefIndex: 11018
 {
 	public bool DressRandomly; 
 	public List<ItemAmount> clothesToWear; 

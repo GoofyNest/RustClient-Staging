@@ -1,4 +1,4 @@
-public class ElectricalDFlipFlop : IOEntity // TypeDefIndex: 10418
+public class ElectricalDFlipFlop : IOEntity // TypeDefIndex: 10420
 {
 
 	public void .ctor() { }

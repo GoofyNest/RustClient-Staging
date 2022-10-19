@@ -94,7 +94,7 @@ internal sealed class Tree // TypeDefIndex: 6987
 
 }
 
-public class Tree : ConsoleSystem // TypeDefIndex: 13709
+public class Tree : ConsoleSystem // TypeDefIndex: 13720
 {
 	private static float m_quality; 
 	private static int m_meshes; 

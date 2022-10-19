@@ -28,7 +28,7 @@ public enum ScreenOverlay.OverlayBlendMode // TypeDefIndex: 8209
 
 }
 
-public class ScreenOverlay : PostProcessEffectSettings // TypeDefIndex: 11987
+public class ScreenOverlay : PostProcessEffectSettings // TypeDefIndex: 11997
 {
 	public OverlayBlendModeParameter blendMode; 
 	public FloatParameter intensity; 

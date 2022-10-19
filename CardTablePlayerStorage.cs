@@ -1,4 +1,4 @@
-public class CardTablePlayerStorage : StorageContainer // TypeDefIndex: 11294
+public class CardTablePlayerStorage : StorageContainer // TypeDefIndex: 11303
 {
 	private EntityRef cardTableRef; 
 

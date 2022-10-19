@@ -1,4 +1,4 @@
-public class NVGColorCorrection : ColorCorrectionCurves // TypeDefIndex: 10386
+public class NVGColorCorrection : ColorCorrectionCurves // TypeDefIndex: 10388
 {
 
 	public void .ctor() { }

@@ -1,4 +1,4 @@
-public class OnPositionMemorySetAIEvent : BaseAIEvent // TypeDefIndex: 11117
+public class OnPositionMemorySetAIEvent : BaseAIEvent // TypeDefIndex: 11126
 {
 
 	public void .ctor() { }

@@ -64,7 +64,7 @@ public class Horse : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6371
 
 }
 
-public class Horse : BaseAnimalNPC // TypeDefIndex: 10636
+public class Horse : BaseAnimalNPC // TypeDefIndex: 10643
 {
 	[ServerVar] 
 	public static float Population; 

@@ -17,7 +17,7 @@ public class Rank // TypeDefIndex: 6257
 
 }
 
-public enum Rank // TypeDefIndex: 13753
+public enum Rank // TypeDefIndex: 13764
 {
 	public int value__; 
 	public const Rank Two = 0;

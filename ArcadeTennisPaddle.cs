@@ -1,4 +1,4 @@
-public class ArcadeTennisPaddle : ArcadeEntity // TypeDefIndex: 10483
+public class ArcadeTennisPaddle : ArcadeEntity // TypeDefIndex: 10485
 {
 
 	public void .ctor() { }

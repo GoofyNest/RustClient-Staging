@@ -1,4 +1,4 @@
-public class RadioDialog : UIDialog // TypeDefIndex: 12628
+public class RadioDialog : UIDialog // TypeDefIndex: 12638
 {
 	public RustInput IpInput; 
 	public GameObjectRef FavouritePrefab; 
@@ -28,7 +28,7 @@ public class RadioDialog : UIDialog // TypeDefIndex: 12628
 
 }
 
-private sealed class RadioDialog.<>c__DisplayClass12_0 // TypeDefIndex: 12629
+private sealed class RadioDialog.<>c__DisplayClass12_0 // TypeDefIndex: 12639
 {
 	public KeyValuePair<string, string> favourite; 
 	public RadioDialog <>4__this; 

@@ -1,4 +1,4 @@
-public class DummySwitch : IOEntity // TypeDefIndex: 11510
+public class DummySwitch : IOEntity // TypeDefIndex: 11519
 {
 	public string listenString; 
 	public string listenStringOff; 

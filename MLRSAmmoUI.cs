@@ -1,4 +1,4 @@
-public class MLRSAmmoUI : MonoBehaviour // TypeDefIndex: 11434
+public class MLRSAmmoUI : MonoBehaviour // TypeDefIndex: 11443
 {
 	[SerializeField] 
 	private RustText ammoText; 

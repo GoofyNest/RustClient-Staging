@@ -1,4 +1,4 @@
-public static class SkinnedMeshRendererEx // TypeDefIndex: 13446
+public static class SkinnedMeshRendererEx // TypeDefIndex: 13457
 {
 
 	[ExtensionAttribute] 

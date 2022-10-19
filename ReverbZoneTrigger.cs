@@ -1,4 +1,4 @@
-public class ReverbZoneTrigger : TriggerBase, IClientComponentEx, ILOD, ISoundBudgetedUpdate // TypeDefIndex: 10727
+public class ReverbZoneTrigger : TriggerBase, IClientComponentEx, ILOD, ISoundBudgetedUpdate // TypeDefIndex: 10734
 {
 	public Collider trigger; 
 	public AudioReverbZone reverbZone; 
@@ -9,6 +9,7 @@ public class ReverbZoneTrigger : TriggerBase, IClientComponentEx, ILOD, ISoundBu
 	private int targetReverbLevel; 
 	private int currentReverbLevel; 
 	private LODCell cell; 
+	private bool isInPoolable; 
 	private AmbienceZone ambienceZone; 
 	private float decayHFRatio; 
 	private float decayTime; 

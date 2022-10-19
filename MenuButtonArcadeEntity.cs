@@ -1,4 +1,4 @@
-public class MenuButtonArcadeEntity : TextArcadeEntity // TypeDefIndex: 10481
+public class MenuButtonArcadeEntity : TextArcadeEntity // TypeDefIndex: 10483
 {
 	public string titleText; 
 	public string selectionSuffix; 

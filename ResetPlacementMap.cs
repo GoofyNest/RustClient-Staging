@@ -1,4 +1,4 @@
-public class ResetPlacementMap : ProceduralComponent // TypeDefIndex: 12283
+public class ResetPlacementMap : ProceduralComponent // TypeDefIndex: 12293
 {
 
 	public override void Process(uint seed) { }

@@ -1,4 +1,4 @@
-public class FPS : ConsoleSystem // TypeDefIndex: 13662
+public class FPS : ConsoleSystem // TypeDefIndex: 13673
 {
 	private static int _limit; 
 	[ClientVar] 

@@ -1,4 +1,4 @@
-public class WaterDynamics : MonoBehaviour // TypeDefIndex: 12323
+public class WaterDynamics : MonoBehaviour // TypeDefIndex: 12333
 {
 	private const int maxRasterSize = 1024;
 	private const int subStep = 256;
@@ -132,7 +132,7 @@ public class WaterDynamics : MonoBehaviour // TypeDefIndex: 12323
 
 }
 
-public struct WaterDynamics.ImageDesc // TypeDefIndex: 12324
+public struct WaterDynamics.ImageDesc // TypeDefIndex: 12334
 {
 	public int width; 
 	public int height; 
@@ -147,7 +147,7 @@ public struct WaterDynamics.ImageDesc // TypeDefIndex: 12324
 
 }
 
-public class WaterDynamics.Image // TypeDefIndex: 12325
+public class WaterDynamics.Image // TypeDefIndex: 12335
 {
 	public WaterDynamics.ImageDesc desc; 
 	[CompilerGeneratedAttribute] 
@@ -171,7 +171,7 @@ public class WaterDynamics.Image // TypeDefIndex: 12325
 
 }
 
-private struct WaterDynamics.Point2D // TypeDefIndex: 12326
+private struct WaterDynamics.Point2D // TypeDefIndex: 12336
 {
 	public int x; 
 	public int y; 
@@ -183,7 +183,7 @@ private struct WaterDynamics.Point2D // TypeDefIndex: 12326
 
 }
 
-public struct WaterDynamics.InstanceData // TypeDefIndex: 12327
+public struct WaterDynamics.InstanceData // TypeDefIndex: 12337
 {
 	public Vector4 PositionScale; 
 	public Vector4 RotationDispDist; 
@@ -193,7 +193,7 @@ public struct WaterDynamics.InstanceData // TypeDefIndex: 12327
 
 }
 
-private class WaterDynamics.InstanceBatch // TypeDefIndex: 12328
+private class WaterDynamics.InstanceBatch // TypeDefIndex: 12338
 {
 	[CompilerGeneratedAttribute] 
 	private Mesh <Mesh>k__BackingField; 
@@ -255,7 +255,7 @@ private class WaterDynamics.InstanceBatch // TypeDefIndex: 12328
 
 }
 
-public struct WaterDynamics.TargetDesc // TypeDefIndex: 12329
+public struct WaterDynamics.TargetDesc // TypeDefIndex: 12339
 {
 	public int size; 
 	public int maxSize; 
@@ -283,7 +283,7 @@ public struct WaterDynamics.TargetDesc // TypeDefIndex: 12329
 
 }
 
-public class WaterDynamics.Target // TypeDefIndex: 12330
+public class WaterDynamics.Target // TypeDefIndex: 12340
 {
 	public WaterDynamics owner; 
 	public WaterDynamics.TargetDesc desc; 

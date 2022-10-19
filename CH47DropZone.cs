@@ -1,4 +1,4 @@
-public class CH47DropZone : MonoBehaviour // TypeDefIndex: 11426
+public class CH47DropZone : MonoBehaviour // TypeDefIndex: 11435
 {
 	public float lastDropTime; 
 	private static List<CH47DropZone> dropZones; 

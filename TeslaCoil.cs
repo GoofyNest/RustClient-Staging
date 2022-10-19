@@ -1,4 +1,4 @@
-public class TeslaCoil : IOEntity // TypeDefIndex: 10426
+public class TeslaCoil : IOEntity // TypeDefIndex: 10428
 {
 	public TargetTrigger targetTrigger; 
 	public TriggerMovement movementTrigger; 

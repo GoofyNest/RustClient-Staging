@@ -1,4 +1,4 @@
-public class GenerateTextures : ProceduralComponent // TypeDefIndex: 12246
+public class GenerateTextures : ProceduralComponent // TypeDefIndex: 12256
 {
 	public override bool RunOnCache { get; }
 

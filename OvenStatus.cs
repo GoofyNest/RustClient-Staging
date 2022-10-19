@@ -1,4 +1,4 @@
-public enum OvenStatus // TypeDefIndex: 12776
+public enum OvenStatus // TypeDefIndex: 12787
 {
 	public int value__; 
 	public const OvenStatus NoFuel = 0;
