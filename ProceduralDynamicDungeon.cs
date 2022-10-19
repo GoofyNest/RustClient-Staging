@@ -10,6 +10,7 @@ public class ProceduralDynamicDungeon : BaseEntity // TypeDefIndex: 10555
 	public MonumentNavMesh monumentNavMesh; 
 	public GameObjectRef exitPortalPrefab; 
 	private EntityRef<BasePortal> exitPortal; 
+	public TriggerRadiation exitRadiation; 
 	public uint seed; 
 	public uint baseseed; 
 	public ProceduralDungeonCell entranceHack; 
