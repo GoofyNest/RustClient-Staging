@@ -15,6 +15,8 @@ public class ProceduralDynamicDungeon : BaseEntity // TypeDefIndex: 10555
 	public ProceduralDungeonCell entranceHack; 
 
 
+	public override void DestroyShared() { }
+
 	public override void Load(BaseNetworkable.LoadInfo info) { }
 
 	protected override void ClientInit(Entity info) { }
