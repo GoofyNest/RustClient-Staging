@@ -9,6 +9,8 @@ public class BasePortal : BaseCombatEntity // TypeDefIndex: 10053
 	public Transform localEntryExitPos; 
 	public Transform relativeAnchor; 
 	public bool isMirrored; 
+	public GameObjectRef appearEffect; 
+	public GameObjectRef disappearEffect; 
 	public GameObjectRef transitionSoundEffect; 
 
 	public override bool HasMenuOptions { get; }

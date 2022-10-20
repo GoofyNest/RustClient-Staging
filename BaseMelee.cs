@@ -70,7 +70,7 @@ public class BaseMelee : AttackEntity // TypeDefIndex: 10232
 
 	public override bool CanBeUsedInWater() { }
 
-	public string GetStrikeEffectPath(string materialName) { }
+	public virtual string GetStrikeEffectPath(string materialName) { }
 
 	public void .ctor() { }
 

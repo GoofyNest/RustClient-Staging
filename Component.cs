@@ -577,7 +577,6 @@ public class Component : Object // TypeDefIndex: 3510
 	|-Component.GetComponentInParent<MLRS>
 	|-Component.GetComponentInParent<MapView>
 	|-Component.GetComponentInParent<MonumentInfo>
-	|-Component.GetComponentInParent<Poolable>
 	|-Component.GetComponentInParent<Ragdoll>
 	|-Component.GetComponentInParent<WorkshopInterface>
 	|-Component.GetComponentInParent<WorkshopItemEditor>
