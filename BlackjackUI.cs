@@ -49,7 +49,6 @@ public class BlackjackUI : MonoBehaviour, CardGameUI.ICardGameSubUI // TypeDefIn
 	[CompilerGeneratedAttribute] 
 	private int <DynamicBetAmount>k__BackingField; 
 	private ulong lastActionId; 
-	private List<PlayingCard> localPlayerCards; 
 
 	public int DynamicBetAmount { get; set; }
 
@@ -73,14 +72,14 @@ public class BlackjackUI : MonoBehaviour, CardGameUI.ICardGameSubUI // TypeDefIn
 private sealed class BlackjackUI.<>c // TypeDefIndex: 12616
 {
 	public static readonly BlackjackUI.<>c <>9; 
-	public static Predicate<CardGameUI.KeycodeWithAction> <>9__29_0; 
+	public static Predicate<CardGameUI.KeycodeWithAction> <>9__28_0; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal bool <UpdateInGameUI>b__29_0(CardGameUI.KeycodeWithAction p) { }
+	internal bool <UpdateInGameUI>b__28_0(CardGameUI.KeycodeWithAction p) { }
 
 }
 
