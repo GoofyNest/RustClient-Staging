@@ -33,6 +33,7 @@ public enum NeedsKeyboard.BypassOption // TypeDefIndex: 8023
 	public const NeedsKeyboard.BypassOption Voice = 1;
 	public const NeedsKeyboard.BypassOption Chat = 4;
 	public const NeedsKeyboard.BypassOption Gesture = 8;
+	public const NeedsKeyboard.BypassOption CardGames = 16;
 
 }
 
