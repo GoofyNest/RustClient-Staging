@@ -1,4 +1,4 @@
-internal enum ParsingStatus // TypeDefIndex: 7639
+internal enum ParsingStatus // TypeDefIndex: 7640
 {
 	public int value__; 
 	public const ParsingStatus Parsed = 0;

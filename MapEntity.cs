@@ -60,7 +60,7 @@ public class MapEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6325
 
 }
 
-public class MapEntity : HeldEntity // TypeDefIndex: 10310
+public class MapEntity : HeldEntity // TypeDefIndex: 10313
 {
 	public uint[] fogImages; 
 	public uint[] paintImages; 

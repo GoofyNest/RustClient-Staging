@@ -1,4 +1,4 @@
-public struct SessionInviteReceivedCallbackInfo : ICallbackInfo // TypeDefIndex: 8555
+public struct SessionInviteReceivedCallbackInfo : ICallbackInfo // TypeDefIndex: 8556
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

@@ -1,4 +1,4 @@
-public abstract class SystemRealTimeEvent : MidiEvent // TypeDefIndex: 7529
+public abstract class SystemRealTimeEvent : MidiEvent // TypeDefIndex: 7530
 {
 
 	protected void .ctor(MidiEventType eventType) { }

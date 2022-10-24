@@ -1,4 +1,4 @@
-public struct ProtectMessageOptions // TypeDefIndex: 9728
+public struct ProtectMessageOptions // TypeDefIndex: 9729
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <ClientHandle>k__BackingField; 
@@ -32,7 +32,7 @@ public struct ProtectMessageOptions // TypeDefIndex: 9728
 
 }
 
-public struct ProtectMessageOptions // TypeDefIndex: 9835
+public struct ProtectMessageOptions // TypeDefIndex: 9836
 {
 	[CompilerGeneratedAttribute] 
 	private ArraySegment<byte> <Data>k__BackingField; 

@@ -16,8 +16,8 @@ public struct ProfilerMarker // TypeDefIndex: 3296
 	[NativeConditionalAttribute] 
 	internal static void Internal_Begin(IntPtr markerPtr) { }
 
-	[NativeConditionalAttribute] 
 	[ThreadSafeAttribute] 
+	[NativeConditionalAttribute] 
 	internal static void Internal_End(IntPtr markerPtr) { }
 
 }

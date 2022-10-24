@@ -1,4 +1,4 @@
-public class BaseFishingRod : HeldEntity // TypeDefIndex: 10221
+public class BaseFishingRod : HeldEntity // TypeDefIndex: 10224
 {
 	public GameObjectRef FishingBobberRef; 
 	public float FishCatchDistance; 
@@ -118,7 +118,7 @@ public class BaseFishingRod : HeldEntity // TypeDefIndex: 10221
 
 }
 
-public enum BaseFishingRod.CatchState // TypeDefIndex: 10222
+public enum BaseFishingRod.CatchState // TypeDefIndex: 10225
 {
 	public int value__; 
 	public const BaseFishingRod.CatchState None = 0;
@@ -129,7 +129,7 @@ public enum BaseFishingRod.CatchState // TypeDefIndex: 10222
 
 }
 
-public enum BaseFishingRod.FishState // TypeDefIndex: 10223
+public enum BaseFishingRod.FishState // TypeDefIndex: 10226
 {
 	public int value__; 
 	public const BaseFishingRod.FishState PullingLeft = 1;
@@ -138,7 +138,7 @@ public enum BaseFishingRod.FishState // TypeDefIndex: 10223
 
 }
 
-public enum BaseFishingRod.FailReason // TypeDefIndex: 10224
+public enum BaseFishingRod.FailReason // TypeDefIndex: 10227
 {
 	public int value__; 
 	public const BaseFishingRod.FailReason UserRequested = 0;

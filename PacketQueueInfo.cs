@@ -1,4 +1,4 @@
-public struct PacketQueueInfo // TypeDefIndex: 8982
+public struct PacketQueueInfo // TypeDefIndex: 8983
 {
 	[CompilerGeneratedAttribute] 
 	private ulong <IncomingPacketQueueMaxSizeBytes>k__BackingField; 

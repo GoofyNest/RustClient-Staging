@@ -1,4 +1,4 @@
-public abstract class TimeDivision // TypeDefIndex: 7621
+public abstract class TimeDivision // TypeDefIndex: 7622
 {
 
 	protected void .ctor() { }

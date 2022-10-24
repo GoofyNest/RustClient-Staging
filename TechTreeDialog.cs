@@ -1,4 +1,4 @@
-public class TechTreeDialog : UIDialog, IInventoryChanged // TypeDefIndex: 12644
+public class TechTreeDialog : UIDialog, IInventoryChanged // TypeDefIndex: 12656
 {
 	public TechTreeData data; 
 	public float graphScale; 
@@ -76,7 +76,7 @@ public class TechTreeDialog : UIDialog, IInventoryChanged // TypeDefIndex: 12644
 
 }
 
-private sealed class TechTreeDialog.<>c__DisplayClass37_0 // TypeDefIndex: 12645
+private sealed class TechTreeDialog.<>c__DisplayClass37_0 // TypeDefIndex: 12657
 {
 	public TechTreeDialog <>4__this; 
 	public TechTreeData.NodeInstance node; 

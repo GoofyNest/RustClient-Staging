@@ -1,4 +1,4 @@
-public class MeshReplacement : MonoBehaviour // TypeDefIndex: 11688
+public class MeshReplacement : MonoBehaviour // TypeDefIndex: 11693
 {
 	public SkinnedMeshRenderer Female; 
 

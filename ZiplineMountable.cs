@@ -1,4 +1,4 @@
-public class ZiplineMountable : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6440
+public class ZiplineMountable : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6441
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -59,7 +59,7 @@ public class ZiplineMountable : IDisposable, Pool.IPooled, IProto // TypeDefInde
 
 }
 
-public class ZiplineMountable : BaseMountable // TypeDefIndex: 10381
+public class ZiplineMountable : BaseMountable // TypeDefIndex: 10384
 {
 	public float MoveSpeed; 
 	public float ForwardAdditive; 

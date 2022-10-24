@@ -159,8 +159,8 @@ public class Transform : Component, IEnumerable // TypeDefIndex: 3571
 
 	public IEnumerator GetEnumerator() { }
 
-	[NativeThrowsAttribute] 
 	[FreeFunctionAttribute] 
+	[NativeThrowsAttribute] 
 	public Transform GetChild(int index) { }
 
 	private void get_position_Injected(out Vector3 ret) { }

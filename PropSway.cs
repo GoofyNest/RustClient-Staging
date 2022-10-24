@@ -1,4 +1,4 @@
-public class PropSway : MonoBehaviour // TypeDefIndex: 11393
+public class PropSway : MonoBehaviour // TypeDefIndex: 11397
 {
 	public Transform pivotRotator; 
 	public float swaySpeed; 

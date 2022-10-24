@@ -1,4 +1,4 @@
-public class RustToggle : RustControl, IPointerDownHandler, IEventSystemHandler // TypeDefIndex: 7070
+public class RustToggle : RustControl, IPointerDownHandler, IEventSystemHandler // TypeDefIndex: 7071
 {
 	public StyleAsset StyleOff; 
 	public Image Handle; 
@@ -27,14 +27,14 @@ public class RustToggle : RustControl, IPointerDownHandler, IEventSystemHandler 
 
 }
 
-public class RustToggle.ChangedEvent : UnityEvent<bool> // TypeDefIndex: 7071
+public class RustToggle.ChangedEvent : UnityEvent<bool> // TypeDefIndex: 7072
 {
 
 	public void .ctor() { }
 
 }
 
-private sealed class RustToggle.<AnimateTo>d__13 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 7072
+private sealed class RustToggle.<AnimateTo>d__13 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 7073
 {
 	private int <>1__state; 
 	private object <>2__current; 

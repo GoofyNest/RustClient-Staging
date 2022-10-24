@@ -116,8 +116,8 @@ public struct EarlyUpdate.TangoUpdate
 [RequiredByNativeCodeAttribute] 
 public struct EarlyUpdate.PerformanceAnalyticsUpdate
 
-[MovedFromAttribute] 
 [RequiredByNativeCodeAttribute] 
+[MovedFromAttribute] 
 public struct FixedUpdate
 
 [RequiredByNativeCodeAttribute] 
@@ -243,8 +243,8 @@ public struct PreLateUpdate.ScriptRunBehaviourLateUpdate
 [RequiredByNativeCodeAttribute] 
 public struct PreLateUpdate.ConstraintManagerUpdate
 
-[RequiredByNativeCodeAttribute] 
 [MovedFromAttribute] 
+[RequiredByNativeCodeAttribute] 
 public struct PostLateUpdate
 
 [RequiredByNativeCodeAttribute] 

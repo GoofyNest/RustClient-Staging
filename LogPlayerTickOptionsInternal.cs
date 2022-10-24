@@ -1,4 +1,4 @@
-internal struct LogPlayerTickOptionsInternal : ISettable<LogPlayerTickOptions>, IDisposable // TypeDefIndex: 9773
+internal struct LogPlayerTickOptionsInternal : ISettable<LogPlayerTickOptions>, IDisposable // TypeDefIndex: 9774
 {
 	private int m_ApiVersion; 
 	private IntPtr m_PlayerHandle; 

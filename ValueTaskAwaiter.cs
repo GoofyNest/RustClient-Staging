@@ -1,4 +1,4 @@
-public struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion // TypeDefIndex: 7130
+public struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion // TypeDefIndex: 7131
 {
 	internal static readonly Action<object> s_invokeActionDelegate; 
 	private readonly ValueTask _value; 
@@ -21,7 +21,7 @@ public struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion //
 
 }
 
-private sealed class ValueTaskAwaiter.<>c // TypeDefIndex: 7131
+private sealed class ValueTaskAwaiter.<>c // TypeDefIndex: 7132
 {
 	public static readonly ValueTaskAwaiter.<>c <>9; 
 

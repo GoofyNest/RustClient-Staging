@@ -1,4 +1,4 @@
-public struct MemoryBuffer // TypeDefIndex: 6949
+public struct MemoryBuffer // TypeDefIndex: 6950
 {
 	[CompilerGeneratedAttribute] 
 	private byte[] <Data>k__BackingField; 

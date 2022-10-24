@@ -59,7 +59,7 @@ public class FrankensteinTable : IDisposable, Pool.IPooled, IProto // TypeDefInd
 
 }
 
-public class FrankensteinTable : StorageContainer // TypeDefIndex: 10099
+public class FrankensteinTable : StorageContainer // TypeDefIndex: 10102
 {
 	private Option __menuOption_MenuSleepFrankenstein; 
 	private Option __menuOption_MenuWakeFrankenstein; 

@@ -1,4 +1,4 @@
-public class TrainCar : BaseVehicle, IGenericLerpTarget<TrainCar.TrainCarSnapshot>, ILerpInfo, ITrainCollidable, IPrefabPreProcess // TypeDefIndex: 10174
+public class TrainCar : BaseVehicle, IGenericLerpTarget<TrainCar.TrainCarSnapshot>, ILerpInfo, ITrainCollidable, IPrefabPreProcess // TypeDefIndex: 10177
 {
 	private Option __menuOption_Menu_Uncouple; 
 	private GenericLerp<TrainCar.TrainCarSnapshot> animInterp; 
@@ -106,6 +106,8 @@ public class TrainCar : BaseVehicle, IGenericLerpTarget<TrainCar.TrainCarSnapsho
 
 	protected virtual void TrainClientTick() { }
 
+	public override bool DisplayHealthInfo(BasePlayer player) { }
+
 	protected virtual bool UpdateBraking(float forwardSpeed) { }
 
 	private void InitAnimInterpolator() { }
@@ -156,16 +158,18 @@ public class TrainCar : BaseVehicle, IGenericLerpTarget<TrainCar.TrainCarSnapsho
 
 	protected virtual void SetTrackSelection(TrainTrackSpline.TrackSelection trackSelection) { }
 
+	protected bool PlayerIsOnPlatform(BasePlayer player) { }
+
 	public void .ctor() { }
 
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private void <UpdateWheelVisuals>g__SetBogieRotation|18_0(Transform pivot, float yAngle, bool canRotate) { }
+	private void <UpdateWheelVisuals>g__SetBogieRotation|19_0(Transform pivot, float yAngle, bool canRotate) { }
 
 }
 
-public struct TrainCar.TrainCarSnapshot : ISnapshot<TrainCar.TrainCarSnapshot> // TypeDefIndex: 10175
+public struct TrainCar.TrainCarSnapshot : ISnapshot<TrainCar.TrainCarSnapshot> // TypeDefIndex: 10178
 {
 	[CompilerGeneratedAttribute] 
 	private float <Time>k__BackingField; 
@@ -191,7 +195,7 @@ public struct TrainCar.TrainCarSnapshot : ISnapshot<TrainCar.TrainCarSnapshot> /
 
 }
 
-public enum TrainCar.TrainCarType // TypeDefIndex: 10176
+public enum TrainCar.TrainCarType // TypeDefIndex: 10179
 {
 	public int value__; 
 	public const TrainCar.TrainCarType Wagon = 0;

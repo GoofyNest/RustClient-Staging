@@ -1,4 +1,4 @@
-public class PetBrain : BaseAIBrain // TypeDefIndex: 10323
+public class PetBrain : BaseAIBrain // TypeDefIndex: 10326
 {
 	[HeaderAttribute] 
 	public SoundDefinition CommandGivenVocalSFX; 

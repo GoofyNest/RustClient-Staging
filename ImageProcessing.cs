@@ -1,4 +1,4 @@
-public static class ImageProcessing // TypeDefIndex: 12011
+public static class ImageProcessing // TypeDefIndex: 12016
 {
 	private static byte[] signaturePNG; 
 	private static byte[] signatureIHDR; 
@@ -30,7 +30,7 @@ public static class ImageProcessing // TypeDefIndex: 12011
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass1_0 // TypeDefIndex: 12012
+private sealed class ImageProcessing.<>c__DisplayClass1_0 // TypeDefIndex: 12017
 {
 	public int len1; 
 	public int len2; 
@@ -46,7 +46,7 @@ private sealed class ImageProcessing.<>c__DisplayClass1_0 // TypeDefIndex: 12012
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass2_0 // TypeDefIndex: 12013
+private sealed class ImageProcessing.<>c__DisplayClass2_0 // TypeDefIndex: 12018
 {
 	public int len1; 
 	public int len2; 
@@ -61,7 +61,7 @@ private sealed class ImageProcessing.<>c__DisplayClass2_0 // TypeDefIndex: 12013
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass3_0 // TypeDefIndex: 12014
+private sealed class ImageProcessing.<>c__DisplayClass3_0 // TypeDefIndex: 12019
 {
 	public int len1; 
 	public int len2; 
@@ -77,7 +77,7 @@ private sealed class ImageProcessing.<>c__DisplayClass3_0 // TypeDefIndex: 12014
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass4_0 // TypeDefIndex: 12015
+private sealed class ImageProcessing.<>c__DisplayClass4_0 // TypeDefIndex: 12020
 {
 	public int srclen1; 
 	public int srclen2; 
@@ -92,7 +92,7 @@ private sealed class ImageProcessing.<>c__DisplayClass4_0 // TypeDefIndex: 12015
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass5_0 // TypeDefIndex: 12016
+private sealed class ImageProcessing.<>c__DisplayClass5_0 // TypeDefIndex: 12021
 {
 	public int srclen1; 
 	public int srclen2; 
@@ -109,7 +109,7 @@ private sealed class ImageProcessing.<>c__DisplayClass5_0 // TypeDefIndex: 12016
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass6_0 // TypeDefIndex: 12017
+private sealed class ImageProcessing.<>c__DisplayClass6_0 // TypeDefIndex: 12022
 {
 	public int radius; 
 	public int[] src; 

@@ -40,8 +40,8 @@ public class AnimationCurve : IEquatable<AnimationCurve> // TypeDefIndex: 3353
 	[FreeFunctionAttribute] 
 	private void SetKeys(Keyframe[] keys) { }
 
-	[FreeFunctionAttribute] 
 	[NativeThrowsAttribute] 
+	[FreeFunctionAttribute] 
 	private Keyframe GetKey(int index) { }
 
 	[FreeFunctionAttribute] 
@@ -434,7 +434,7 @@ public class AnimationTriggers
 
 }
 
-public class AnimationFlagHandler : MonoBehaviour // TypeDefIndex: 10494
+public class AnimationFlagHandler : MonoBehaviour // TypeDefIndex: 10497
 {
 	public Animator animator; 
 
@@ -447,7 +447,7 @@ public class AnimationFlagHandler : MonoBehaviour // TypeDefIndex: 10494
 
 }
 
-public class AnimationEventForward : MonoBehaviour // TypeDefIndex: 10837
+public class AnimationEventForward : MonoBehaviour // TypeDefIndex: 10840
 {
 	public GameObject targetObject; 
 
@@ -458,7 +458,7 @@ public class AnimationEventForward : MonoBehaviour // TypeDefIndex: 10837
 
 }
 
-public class AnimationEvents : BaseMonoBehaviour // TypeDefIndex: 11046
+public class AnimationEvents : BaseMonoBehaviour // TypeDefIndex: 11050
 {
 	public Transform rootObject; 
 	public HeldEntity targetEntity; 

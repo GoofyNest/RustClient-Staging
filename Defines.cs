@@ -96,7 +96,7 @@ internal static class Defines // TypeDefIndex: 5507
 
 }
 
-public static class Defines // TypeDefIndex: 6646
+public static class Defines // TypeDefIndex: 6647
 {
 
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048
@@ -110,7 +110,7 @@ public static class Defines
 
 }
 
-public class Defines // TypeDefIndex: 6847
+public class Defines // TypeDefIndex: 6848
 {
 	public const byte lowestUserPacket = 140;
 	public const int packetHeaderSize = 1;
@@ -120,7 +120,7 @@ public class Defines // TypeDefIndex: 6847
 
 }
 
-public static class Defines // TypeDefIndex: 13785
+public static class Defines // TypeDefIndex: 13805
 {
 	public static uint appID; 
 	public const string resourceFolder = "assets/bundled";
@@ -130,13 +130,13 @@ public static class Defines // TypeDefIndex: 13785
 
 }
 
-public static class Defines.Connection // TypeDefIndex: 13786
+public static class Defines.Connection // TypeDefIndex: 13806
 {
 	public const byte mode_steam = 228;
 
 }
 
-public static class Defines.Tags // TypeDefIndex: 13787
+public static class Defines.Tags // TypeDefIndex: 13807
 {
 	public const string NotPlayerUsable = "Not Player Usable";
 

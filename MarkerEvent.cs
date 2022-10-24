@@ -1,4 +1,4 @@
-public sealed class MarkerEvent : BaseTextEvent // TypeDefIndex: 7548
+public sealed class MarkerEvent : BaseTextEvent // TypeDefIndex: 7549
 {
 
 	public void .ctor() { }

@@ -1,4 +1,4 @@
-public class PhoneDialler : UIDialog // TypeDefIndex: 12629
+public class PhoneDialler : UIDialog // TypeDefIndex: 12641
 {
 	public GameObject DialingRoot; 
 	public GameObject CallInProcessRoot; 
@@ -125,7 +125,7 @@ public class PhoneDialler : UIDialog // TypeDefIndex: 12629
 
 }
 
-private sealed class PhoneDialler.<PlayInputBeepsForPhoneNumber>d__68 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12630
+private sealed class PhoneDialler.<PlayInputBeepsForPhoneNumber>d__68 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12642
 {
 	private int <>1__state; 
 	private object <>2__current; 

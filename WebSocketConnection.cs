@@ -1,4 +1,4 @@
-public class WebSocketConnection : IWebSocketConnection // TypeDefIndex: 6959
+public class WebSocketConnection : IWebSocketConnection // TypeDefIndex: 6960
 {
 	[CompilerGeneratedAttribute] 
 	private ISocket <Socket>k__BackingField; 
@@ -131,7 +131,7 @@ public class WebSocketConnection : IWebSocketConnection // TypeDefIndex: 6959
 
 }
 
-private sealed class WebSocketConnection.<>c // TypeDefIndex: 6960
+private sealed class WebSocketConnection.<>c // TypeDefIndex: 6961
 {
 	public static readonly WebSocketConnection.<>c <>9; 
 	public static Action <>9__50_0; 
@@ -172,7 +172,7 @@ private sealed class WebSocketConnection.<>c // TypeDefIndex: 6960
 
 }
 
-private sealed class WebSocketConnection.<>c__DisplayClass65_0 // TypeDefIndex: 6961
+private sealed class WebSocketConnection.<>c__DisplayClass65_0 // TypeDefIndex: 6962
 {
 	public MemoryBuffer bytes; 
 	public Action<WebSocketConnection, bool> callback; 

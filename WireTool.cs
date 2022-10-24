@@ -1,4 +1,4 @@
-public class WireTool : HeldEntity // TypeDefIndex: 10372
+public class WireTool : HeldEntity // TypeDefIndex: 10375
 {
 	public Sprite InputSprite; 
 	public Sprite OutputSprite; 
@@ -137,7 +137,7 @@ public class WireTool : HeldEntity // TypeDefIndex: 10372
 
 }
 
-public enum WireTool.WireColour // TypeDefIndex: 10373
+public enum WireTool.WireColour // TypeDefIndex: 10376
 {
 	public int value__; 
 	public const WireTool.WireColour Default = 0;
@@ -148,7 +148,7 @@ public enum WireTool.WireColour // TypeDefIndex: 10373
 
 }
 
-public struct WireTool.PendingPlug_t // TypeDefIndex: 10374
+public struct WireTool.PendingPlug_t // TypeDefIndex: 10377
 {
 	public IOEntity ent; 
 	public bool input; 
@@ -157,7 +157,7 @@ public struct WireTool.PendingPlug_t // TypeDefIndex: 10374
 
 }
 
-private sealed class WireTool.<>c__DisplayClass4_0 // TypeDefIndex: 10375
+private sealed class WireTool.<>c__DisplayClass4_0 // TypeDefIndex: 10378
 {
 	public WireTool <>4__this; 
 	public bool input; 
@@ -170,7 +170,7 @@ private sealed class WireTool.<>c__DisplayClass4_0 // TypeDefIndex: 10375
 
 }
 
-private sealed class WireTool.<>c // TypeDefIndex: 10376
+private sealed class WireTool.<>c // TypeDefIndex: 10379
 {
 	public static readonly WireTool.<>c <>9; 
 	public static Func<Collider, bool> <>9__33_0; 

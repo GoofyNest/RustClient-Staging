@@ -1,4 +1,4 @@
-public class ImageEffectBase : MonoBehaviour // TypeDefIndex: 8200
+public class ImageEffectBase : MonoBehaviour // TypeDefIndex: 8201
 {
 	public Shader shader; 
 	private Material m_Material; 

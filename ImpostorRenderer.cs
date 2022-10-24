@@ -1,4 +1,4 @@
-public class ImpostorRenderer : MonoBehaviour // TypeDefIndex: 12412
+public class ImpostorRenderer : MonoBehaviour // TypeDefIndex: 12417
 {
 	public const string MainPassName = "DEFERRED";
 	private Camera camera; 

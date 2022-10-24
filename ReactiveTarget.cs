@@ -1,4 +1,4 @@
-public class ReactiveTarget : IOEntity // TypeDefIndex: 10140
+public class ReactiveTarget : IOEntity // TypeDefIndex: 10143
 {
 	private Option __menuOption_Lower_Target; 
 	private Option __menuOption_Reset_target; 

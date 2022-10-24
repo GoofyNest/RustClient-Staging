@@ -1,4 +1,4 @@
-public class RenderTextureUtility // TypeDefIndex: 13404
+public class RenderTextureUtility // TypeDefIndex: 13416
 {
 	private List<RenderTexture> m_TemporaryRTs; 
 

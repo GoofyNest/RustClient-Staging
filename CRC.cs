@@ -1,4 +1,4 @@
-public class CRC // TypeDefIndex: 6570
+public class CRC // TypeDefIndex: 6571
 {
 	private static byte[] byteBuffer; 
 	private static readonly uint[] crc32_tab; 

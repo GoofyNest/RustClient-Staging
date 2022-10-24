@@ -1,4 +1,4 @@
-public sealed class RTCAudioInterface : Handle // TypeDefIndex: 8692
+public sealed class RTCAudioInterface : Handle // TypeDefIndex: 8693
 {
 	public const int AddnotifyaudiobeforerenderApiLatest = 1;
 	public const int AddnotifyaudiobeforesendApiLatest = 1;

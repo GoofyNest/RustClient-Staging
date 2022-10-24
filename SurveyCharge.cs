@@ -1,4 +1,4 @@
-public class SurveyCharge : TimedExplosive // TypeDefIndex: 11297
+public class SurveyCharge : TimedExplosive // TypeDefIndex: 11301
 {
 	public GameObjectRef craterPrefab; 
 	public GameObjectRef craterPrefab_Oil; 

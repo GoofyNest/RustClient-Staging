@@ -1,4 +1,4 @@
-public class HeldBoomBox : HeldEntity, ICassettePlayer // TypeDefIndex: 10283
+public class HeldBoomBox : HeldEntity, ICassettePlayer // TypeDefIndex: 10286
 {
 	public BoomBox BoxController; 
 	public SwapKeycard cassetteSwapper; 

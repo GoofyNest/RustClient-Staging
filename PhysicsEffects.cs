@@ -1,4 +1,4 @@
-public class PhysicsEffects : MonoBehaviour // TypeDefIndex: 11078
+public class PhysicsEffects : MonoBehaviour // TypeDefIndex: 11082
 {
 	public BaseEntity entity; 
 	public SoundDefinition physImpactSoundDef; 

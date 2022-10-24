@@ -1,4 +1,4 @@
-public enum ERFlexConnectionType // TypeDefIndex: 7204
+public enum ERFlexConnectionType // TypeDefIndex: 7205
 {
 	public int value__; 
 	public const ERFlexConnectionType Priority = 0;

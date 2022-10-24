@@ -1,7 +1,7 @@
 public sealed class MemoryProfiler // TypeDefIndex: 3586
 {
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private static Action<string, bool> m_SnapshotFinished; 
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
@@ -23,8 +23,8 @@ public sealed class MemoryProfiler // TypeDefIndex: 3586
 	[CompilerGeneratedAttribute] 
 	private static void remove_m_SaveScreenshotToDisk(Action<string, bool, DebugScreenCapture> value) { }
 
-	[NativeConditionalAttribute] 
 	[NativeMethodAttribute] 
+	[NativeConditionalAttribute] 
 	[StaticAccessorAttribute] 
 	private static void StartOperation(uint captureFlag, bool requestScreenshot, string path) { }
 

@@ -31,8 +31,8 @@ public class PhotoCapture : IDisposable // TypeDefIndex: 3609
 
 	protected override void Finalize() { }
 
-	[NativeNameAttribute] 
 	[NativeConditionalAttribute] 
+	[NativeNameAttribute] 
 	[ThreadAndSerializationSafeAttribute] 
 	private void DisposeThreaded_Internal() { }
 

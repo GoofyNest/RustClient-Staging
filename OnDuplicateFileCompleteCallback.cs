@@ -1,4 +1,4 @@
-public sealed class OnDuplicateFileCompleteCallback : MulticastDelegate // TypeDefIndex: 8885
+public sealed class OnDuplicateFileCompleteCallback : MulticastDelegate // TypeDefIndex: 8886
 {
 
 	public void .ctor(object object, IntPtr method) { }

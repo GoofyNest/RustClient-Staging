@@ -3,8 +3,8 @@ public class Display // TypeDefIndex: 3383
 	internal IntPtr nativeDisplay; 
 	public static Display[] displays; 
 	private static Display _mainDisplay; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private static Display.DisplaysUpdatedDelegate onDisplaysUpdated; 
 
 	public int renderingWidth { get; }

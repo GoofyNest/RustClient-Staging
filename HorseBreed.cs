@@ -1,4 +1,4 @@
-public class HorseBreed : ScriptableObject // TypeDefIndex: 10676
+public class HorseBreed : ScriptableObject // TypeDefIndex: 10679
 {
 	public Translate.Phrase breedName; 
 	public Translate.Phrase breedDesc; 

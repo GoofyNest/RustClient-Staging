@@ -1,4 +1,4 @@
-public class ERRoadType // TypeDefIndex: 7235
+public class ERRoadType // TypeDefIndex: 7236
 {
 	public double id; 
 	public string roadTypeName; 

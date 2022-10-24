@@ -19,7 +19,7 @@ internal sealed class Crc32 // TypeDefIndex: 5671
 
 }
 
-public class CRC32 // TypeDefIndex: 7001
+public class CRC32 // TypeDefIndex: 7002
 {
 	private uint dwPolynomial; 
 	private long _TotalBytesRead; 

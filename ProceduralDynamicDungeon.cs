@@ -1,4 +1,4 @@
-public class ProceduralDynamicDungeon : BaseEntity // TypeDefIndex: 10555
+public class ProceduralDynamicDungeon : BaseEntity // TypeDefIndex: 10558
 {
 	public int gridResolution; 
 	public float gridSpacing; 

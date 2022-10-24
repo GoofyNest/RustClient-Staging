@@ -1,4 +1,4 @@
-public class ScrapTransportHelicopter : MiniCopter // TypeDefIndex: 10000
+public class ScrapTransportHelicopter : MiniCopter // TypeDefIndex: 10001
 {
 	public Transform searchlightEye; 
 	public BoxCollider parentTriggerCollider; 

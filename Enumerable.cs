@@ -4612,6 +4612,7 @@ public static class Enumerable // TypeDefIndex: 3198
 	|
 	|-Enumerable.Any<BaseEntity>
 	|-Enumerable.Any<CardPlayerData>
+	|-Enumerable.Any<PlayingCard>
 	|-Enumerable.Any<Manifest.Administrator>
 	|-Enumerable.Any<IPlayerInfo>
 	|-Enumerable.Any<IPlayerItem>
@@ -12397,7 +12398,7 @@ private sealed class EnumUtils.<>c__2<T> // TypeDefIndex: 5961
 
 }
 
-public struct EnumerateModsCallbackInfo : ICallbackInfo // TypeDefIndex: 9002
+public struct EnumerateModsCallbackInfo : ICallbackInfo // TypeDefIndex: 9003
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 
@@ -12444,7 +12445,7 @@ public struct EnumerateModsCallbackInfo : ICallbackInfo // TypeDefIndex: 9002
 
 }
 
-internal struct EnumerateModsCallbackInfoInternal : ICallbackInfoInternal, IGettable<EnumerateModsCallbackInfo>, ISettable<EnumerateModsCallbackInfo>, IDisposable // TypeDefIndex: 9003
+internal struct EnumerateModsCallbackInfoInternal : ICallbackInfoInternal, IGettable<EnumerateModsCallbackInfo>, ISettable<EnumerateModsCallbackInfo>, IDisposable // TypeDefIndex: 9004
 {
 	private Result m_ResultCode; 
 	private IntPtr m_LocalUserId; 
@@ -12486,7 +12487,7 @@ internal struct EnumerateModsCallbackInfoInternal : ICallbackInfoInternal, IGett
 
 }
 
-public struct EnumerateModsOptions // TypeDefIndex: 9004
+public struct EnumerateModsOptions // TypeDefIndex: 9005
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 
@@ -12511,7 +12512,7 @@ public struct EnumerateModsOptions // TypeDefIndex: 9004
 
 }
 
-internal struct EnumerateModsOptionsInternal : ISettable<EnumerateModsOptions>, IDisposable // TypeDefIndex: 9005
+internal struct EnumerateModsOptionsInternal : ISettable<EnumerateModsOptions>, IDisposable // TypeDefIndex: 9006
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 
@@ -12533,7 +12534,7 @@ internal struct EnumerateModsOptionsInternal : ISettable<EnumerateModsOptions>, 
 
 }
 
-public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 12527
+public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 12532
 {
 	public object Value; 
 	public RustText TextValue; 
@@ -12548,7 +12549,7 @@ public class EnumListItemUI : MonoBehaviour // TypeDefIndex: 12527
 
 }
 
-public class EnumListUI : MonoBehaviour // TypeDefIndex: 12528
+public class EnumListUI : MonoBehaviour // TypeDefIndex: 12533
 {
 	public Transform PrefabItem; 
 	public Transform Container; 

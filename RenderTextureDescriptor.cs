@@ -3,11 +3,11 @@ public struct RenderTextureDescriptor // TypeDefIndex: 3451
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
 	private int <width>k__BackingField; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private int <height>k__BackingField; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private int <msaaSamples>k__BackingField; 
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
@@ -16,23 +16,23 @@ public struct RenderTextureDescriptor // TypeDefIndex: 3451
 	[CompilerGeneratedAttribute] 
 	private int <mipCount>k__BackingField; 
 	private GraphicsFormat _graphicsFormat; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private GraphicsFormat <stencilFormat>k__BackingField; 
 	private int _depthBufferBits; 
 	private static int[] depthFormatBits; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private TextureDimension <dimension>k__BackingField; 
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private ShadowSamplingMode <shadowSamplingMode>k__BackingField; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private VRTextureUsage <vrUsage>k__BackingField; 
 	private RenderTextureCreationFlags _flags; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private RenderTextureMemoryless <memoryless>k__BackingField; 
 
 	public int width { get; set; }

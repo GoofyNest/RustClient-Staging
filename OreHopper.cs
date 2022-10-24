@@ -1,4 +1,4 @@
-public class OreHopper : PercentFullStorageContainer // TypeDefIndex: 9989
+public class OreHopper : PercentFullStorageContainer // TypeDefIndex: 9990
 {
 	[SerializeField] 
 	private Transform oreOutputMesh; 

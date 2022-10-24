@@ -1,4 +1,4 @@
-internal sealed class InflateCodes // TypeDefIndex: 6983
+internal sealed class InflateCodes // TypeDefIndex: 6984
 {
 	internal int mode; 
 	internal int len; 

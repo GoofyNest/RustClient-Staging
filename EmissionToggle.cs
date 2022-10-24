@@ -1,4 +1,4 @@
-public class EmissionToggle : MonoBehaviour, IClientComponent // TypeDefIndex: 11064
+public class EmissionToggle : MonoBehaviour, IClientComponent // TypeDefIndex: 11068
 {
 	private Color emissionColor; 
 	public Renderer[] targetRenderers; 

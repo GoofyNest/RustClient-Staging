@@ -1,4 +1,4 @@
-public enum Mouse.RZLED // TypeDefIndex: 7664
+public enum Mouse.RZLED // TypeDefIndex: 7665
 {
 
 public enum Mouse.RZLED
@@ -25,7 +25,7 @@ public enum Mouse.RZLED
 
 }
 
-public enum Mouse.EFFECT_TYPE // TypeDefIndex: 7665
+public enum Mouse.EFFECT_TYPE // TypeDefIndex: 7666
 {
 	public int value__; 
 	public const Mouse.EFFECT_TYPE CHROMA_NONE = 0;
@@ -41,7 +41,7 @@ public enum Mouse.EFFECT_TYPE // TypeDefIndex: 7665
 
 }
 
-public struct Mouse.STATIC_EFFECT_TYPE // TypeDefIndex: 7666
+public struct Mouse.STATIC_EFFECT_TYPE // TypeDefIndex: 7667
 {
 	public Mouse.RZLED LEDId; 
 	public int Color; 

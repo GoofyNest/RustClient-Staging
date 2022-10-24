@@ -1,4 +1,4 @@
-public class Integration : BaseIntegration // TypeDefIndex: 8238
+public class Integration : BaseIntegration // TypeDefIndex: 8239
 {
 	[CompilerGeneratedAttribute] 
 	private Action OnManifestUpdated; 

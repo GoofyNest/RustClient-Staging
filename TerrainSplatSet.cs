@@ -1,4 +1,4 @@
-public class TerrainSplatSet : TerrainModifier // TypeDefIndex: 12311
+public class TerrainSplatSet : TerrainModifier // TypeDefIndex: 12316
 {
 	public TerrainSplat.Enum SplatType; 
 

@@ -1,4 +1,4 @@
-public class TimeRuler : RustControl // TypeDefIndex: 7075
+public class TimeRuler : RustControl // TypeDefIndex: 7076
 {
 	public int StartTime; 
 	public int EndTime; 

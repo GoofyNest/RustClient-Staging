@@ -1,4 +1,4 @@
-public class NeedsMouseWheel : ListComponent<NeedsMouseWheel> // TypeDefIndex: 12579
+public class NeedsMouseWheel : ListComponent<NeedsMouseWheel> // TypeDefIndex: 12584
 {
 
 	public static bool AnyActive() { }

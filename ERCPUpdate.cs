@@ -1,4 +1,4 @@
-public struct ERCPUpdate // TypeDefIndex: 7240
+public struct ERCPUpdate // TypeDefIndex: 7241
 {
 	public ERModularRoad road; 
 	public ERCrossingPrefabs prefab; 

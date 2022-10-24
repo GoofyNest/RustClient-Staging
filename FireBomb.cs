@@ -1,4 +1,4 @@
-public class FireBomb : MonoBehaviour, IClientComponent // TypeDefIndex: 11067
+public class FireBomb : MonoBehaviour, IClientComponent // TypeDefIndex: 11071
 {
 	public GameObject fireParticle; 
 	public float bombRadius; 

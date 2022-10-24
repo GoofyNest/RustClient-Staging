@@ -1,4 +1,4 @@
-public abstract class SysExEvent : MidiEvent // TypeDefIndex: 7527
+public abstract class SysExEvent : MidiEvent // TypeDefIndex: 7528
 {
 	[CompilerGeneratedAttribute] 
 	private byte[] <Data>k__BackingField; 

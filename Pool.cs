@@ -66,8 +66,8 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.FreeList<ArcadeGame.arcadeEnt>
 	|-Pool.FreeList<ArcadeMachine.ScoreEntry>
 	|-Pool.FreeList<BaseVehicle.MountPoint>
-	|-Pool.FreeList<CardTable.CardPlayer>
-	|-Pool.FreeList<CardTable.WinnerBreakdown.Winner>
+	|-Pool.FreeList<CardGame.CardPlayer>
+	|-Pool.FreeList<CardGame.RoundResults.Result>
 	|-Pool.FreeList<ClientReady.ClientInfo>
 	|-Pool.FreeList<EggHunt.EggHunter>
 	|-Pool.FreeList<Entity>
@@ -143,6 +143,9 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.FreeList<WaterVolume>
 	|-Pool.FreeList<Wearable>
 	|-Pool.FreeList<WearableHairCap>
+	|
+	|-Pool.FreeList<BlackjackController.BlackjackInputOption>
+	|-Pool.FreeList<Int32Enum>
 	|
 	|-Pool.FreeList<FoliageGridMeshData.FoliageVertex>
 	|
@@ -293,12 +296,13 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.Free<BuildingBlock>
 	|-Pool.Free<BuildingPrivilege>
 	|-Pool.Free<CamperModule>
-	|-Pool.Free<CardTable.CardList>
-	|-Pool.Free<CardTable.CardPlayer>
-	|-Pool.Free<CardTable.TexasHoldEm>
-	|-Pool.Free<CardTable.WinnerBreakdown.Winner>
-	|-Pool.Free<CardTable.WinnerBreakdown>
-	|-Pool.Free<CardTable>
+	|-Pool.Free<CardGame.Blackjack>
+	|-Pool.Free<CardGame.CardList>
+	|-Pool.Free<CardGame.CardPlayer>
+	|-Pool.Free<CardGame.RoundResults.Result>
+	|-Pool.Free<CardGame.RoundResults>
+	|-Pool.Free<CardGame.TexasHoldEm>
+	|-Pool.Free<CardGame>
 	|-Pool.Free<CargoPlane>
 	|-Pool.Free<Cassette>
 	|-Pool.Free<ChanceAIEventData>
@@ -610,12 +614,13 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.Get<BuildingBlock>
 	|-Pool.Get<BuildingPrivilege>
 	|-Pool.Get<CamperModule>
-	|-Pool.Get<CardTable.CardList>
-	|-Pool.Get<CardTable.CardPlayer>
-	|-Pool.Get<CardTable.TexasHoldEm>
-	|-Pool.Get<CardTable.WinnerBreakdown.Winner>
-	|-Pool.Get<CardTable.WinnerBreakdown>
-	|-Pool.Get<CardTable>
+	|-Pool.Get<CardGame.Blackjack>
+	|-Pool.Get<CardGame.CardList>
+	|-Pool.Get<CardGame.CardPlayer>
+	|-Pool.Get<CardGame.RoundResults.Result>
+	|-Pool.Get<CardGame.RoundResults>
+	|-Pool.Get<CardGame.TexasHoldEm>
+	|-Pool.Get<CardGame>
 	|-Pool.Get<CargoPlane>
 	|-Pool.Get<Cassette>
 	|-Pool.Get<ChanceAIEventData>
@@ -837,8 +842,8 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.Get<List<ArcadeGame.arcadeEnt>>
 	|-Pool.Get<List<ArcadeMachine.ScoreEntry>>
 	|-Pool.Get<List<BaseVehicle.MountPoint>>
-	|-Pool.Get<List<CardTable.CardPlayer>>
-	|-Pool.Get<List<CardTable.WinnerBreakdown.Winner>>
+	|-Pool.Get<List<CardGame.CardPlayer>>
+	|-Pool.Get<List<CardGame.RoundResults.Result>>
 	|-Pool.Get<List<ClientReady.ClientInfo>>
 	|-Pool.Get<List<DemoShotFloatKeyframe>>
 	|-Pool.Get<List<DemoShotParentKeyframe>>
@@ -965,8 +970,8 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.GetList<ArcadeGame.arcadeEnt>
 	|-Pool.GetList<ArcadeMachine.ScoreEntry>
 	|-Pool.GetList<BaseVehicle.MountPoint>
-	|-Pool.GetList<CardTable.CardPlayer>
-	|-Pool.GetList<CardTable.WinnerBreakdown.Winner>
+	|-Pool.GetList<CardGame.CardPlayer>
+	|-Pool.GetList<CardGame.RoundResults.Result>
 	|-Pool.GetList<ClientReady.ClientInfo>
 	|-Pool.GetList<EggHunt.EggHunter>
 	|-Pool.GetList<Entity>
@@ -1042,6 +1047,9 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.GetList<Wearable>
 	|-Pool.GetList<WearableHairCap>
 	|-Pool.GetList<object>
+	|
+	|-Pool.GetList<BlackjackController.BlackjackInputOption>
+	|-Pool.GetList<Int32Enum>
 	|
 	|-Pool.GetList<FoliageGridMeshData.FoliageVertex>
 	|
@@ -1257,7 +1265,7 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4842
 
 }
 
-public class Pool : ConsoleSystem // TypeDefIndex: 13705
+public class Pool : ConsoleSystem // TypeDefIndex: 13717
 {
 	[ServerVar] 
 	[ClientVar] 
@@ -1307,7 +1315,7 @@ public class Pool : ConsoleSystem // TypeDefIndex: 13705
 
 }
 
-private sealed class Pool.<>c // TypeDefIndex: 13706
+private sealed class Pool.<>c // TypeDefIndex: 13718
 {
 	public static readonly Pool.<>c <>9; 
 	public static Func<KeyValuePair<Type, Pool.ICollection>, long> <>9__4_0; 

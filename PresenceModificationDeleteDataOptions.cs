@@ -1,4 +1,4 @@
-public struct PresenceModificationDeleteDataOptions // TypeDefIndex: 8838
+public struct PresenceModificationDeleteDataOptions // TypeDefIndex: 8839
 {
 	[CompilerGeneratedAttribute] 
 	private PresenceModificationDataRecordId[] <Records>k__BackingField; 

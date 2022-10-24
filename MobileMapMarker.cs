@@ -1,4 +1,4 @@
-public class MobileMapMarker : MapMarker // TypeDefIndex: 10589
+public class MobileMapMarker : MapMarker // TypeDefIndex: 10592
 {
 	private GameObject createdMarker; 
 

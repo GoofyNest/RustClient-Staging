@@ -1,4 +1,4 @@
-public class ERExtension // TypeDefIndex: 7307
+public class ERExtension // TypeDefIndex: 7308
 {
 
 	public void .ctor() { }

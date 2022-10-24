@@ -1,4 +1,4 @@
-public struct SetParticipantHardMuteOptions // TypeDefIndex: 8746
+public struct SetParticipantHardMuteOptions // TypeDefIndex: 8747
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <RoomName>k__BackingField; 

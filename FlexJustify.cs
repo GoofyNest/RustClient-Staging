@@ -1,4 +1,4 @@
-public enum FlexJustify // TypeDefIndex: 6810
+public enum FlexJustify // TypeDefIndex: 6811
 {
 	public int value__; 
 	public const FlexJustify Start = 0;

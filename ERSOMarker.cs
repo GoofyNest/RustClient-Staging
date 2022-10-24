@@ -1,4 +1,4 @@
-public class ERSOMarker // TypeDefIndex: 7244
+public class ERSOMarker // TypeDefIndex: 7245
 {
 	public SideObject sideObject; 
 	public double id; 

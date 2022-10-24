@@ -1,4 +1,4 @@
-public class WorldSplineData // TypeDefIndex: 13162
+public class WorldSplineData // TypeDefIndex: 13174
 {
 	public Vector3[] inputPoints; 
 	public Vector3[] inputTangents; 
@@ -39,7 +39,7 @@ public class WorldSplineData // TypeDefIndex: 13162
 
 }
 
-public class WorldSplineData.LUTEntry // TypeDefIndex: 13163
+public class WorldSplineData.LUTEntry // TypeDefIndex: 13175
 {
 	public List<WorldSplineData.LUTEntry.LUTPoint> points; 
 
@@ -48,7 +48,7 @@ public class WorldSplineData.LUTEntry // TypeDefIndex: 13163
 
 }
 
-public struct WorldSplineData.LUTEntry.LUTPoint // TypeDefIndex: 13164
+public struct WorldSplineData.LUTEntry.LUTPoint // TypeDefIndex: 13176
 {
 	public float distance; 
 	public Vector3 pos; 

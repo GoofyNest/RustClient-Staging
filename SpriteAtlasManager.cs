@@ -3,8 +3,8 @@ public class SpriteAtlasManager // TypeDefIndex: 3580
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private static Action<string, Action<SpriteAtlas>> atlasRequested; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private static Action<SpriteAtlas> atlasRegistered; 
 
 

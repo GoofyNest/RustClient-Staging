@@ -1,4 +1,4 @@
-public abstract class ByteEncoding : MonoEncoding // TypeDefIndex: 7378
+public abstract class ByteEncoding : MonoEncoding // TypeDefIndex: 7379
 {
 	protected char[] toChars; 
 	protected string encodingName; 

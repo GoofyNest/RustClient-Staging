@@ -52,7 +52,7 @@ public enum Token.Type // TypeDefIndex: 5787
 
 }
 
-public struct Token // TypeDefIndex: 9693
+public struct Token // TypeDefIndex: 9694
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <App>k__BackingField; 

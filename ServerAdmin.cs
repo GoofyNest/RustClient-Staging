@@ -1,4 +1,4 @@
-public class ServerAdminConvarInfo : MonoBehaviour // TypeDefIndex: 13827
+public class ServerAdminConvarInfo : MonoBehaviour // TypeDefIndex: 13847
 {
 	public RustText InfoName; 
 	public RustText InfoValue; 
@@ -14,7 +14,7 @@ public class ServerAdminConvarInfo : MonoBehaviour // TypeDefIndex: 13827
 
 }
 
-public class ServerAdminPlayerEntry : MonoBehaviour // TypeDefIndex: 13828
+public class ServerAdminPlayerEntry : MonoBehaviour // TypeDefIndex: 13848
 {
 	public RustText PlayerName; 
 	public RustText Ping; 
@@ -41,7 +41,7 @@ public class ServerAdminPlayerEntry : MonoBehaviour // TypeDefIndex: 13828
 
 }
 
-public class ServerAdminPlayerId : MonoBehaviour // TypeDefIndex: 13829
+public class ServerAdminPlayerId : MonoBehaviour // TypeDefIndex: 13849
 {
 	public RustText PlayerName; 
 	public RustText PlayerId; 
@@ -53,7 +53,7 @@ public class ServerAdminPlayerId : MonoBehaviour // TypeDefIndex: 13829
 
 }
 
-public class ServerAdminPlayerInfo : MonoBehaviour // TypeDefIndex: 13830
+public class ServerAdminPlayerInfo : MonoBehaviour // TypeDefIndex: 13850
 {
 	public RustText PlayerName; 
 	public RustText SteamID; 
@@ -89,7 +89,7 @@ public class ServerAdminPlayerInfo : MonoBehaviour // TypeDefIndex: 13830
 
 }
 
-public class ServerAdminServerInfo : MonoBehaviour // TypeDefIndex: 13831
+public class ServerAdminServerInfo : MonoBehaviour // TypeDefIndex: 13851
 {
 	public RustText InfoName; 
 	public RustText InfoValue; 
@@ -101,7 +101,7 @@ public class ServerAdminServerInfo : MonoBehaviour // TypeDefIndex: 13831
 
 }
 
-public class ServerAdminUGCEntry : MonoBehaviour // TypeDefIndex: 13832
+public class ServerAdminUGCEntry : MonoBehaviour // TypeDefIndex: 13852
 {
 	protected Admin.ServerUGCInfo cachedInfo; 
 	private Action<byte[]> receivedCallback; 
@@ -123,7 +123,7 @@ public class ServerAdminUGCEntry : MonoBehaviour // TypeDefIndex: 13832
 
 }
 
-public class ServerAdminUGCEntryAudio : ServerAdminUGCEntry // TypeDefIndex: 13833
+public class ServerAdminUGCEntryAudio : ServerAdminUGCEntry // TypeDefIndex: 13853
 {
 	public AudioSource AudioSpeaker; 
 	public RustText DurationText; 
@@ -150,7 +150,7 @@ public class ServerAdminUGCEntryAudio : ServerAdminUGCEntry // TypeDefIndex: 138
 
 }
 
-public class ServerAdminUGCEntryImage : ServerAdminUGCEntry // TypeDefIndex: 13834
+public class ServerAdminUGCEntryImage : ServerAdminUGCEntry // TypeDefIndex: 13854
 {
 	public RawImage Image; 
 	public RectTransform Backing; 
@@ -177,7 +177,7 @@ public class ServerAdminUGCEntryImage : ServerAdminUGCEntry // TypeDefIndex: 138
 
 }
 
-public class ServerAdminUGCEntryPattern : ServerAdminUGCEntry // TypeDefIndex: 13835
+public class ServerAdminUGCEntryPattern : ServerAdminUGCEntry // TypeDefIndex: 13855
 {
 	public GameObjectRef StarPrefab; 
 	public RectTransform StarRoot; 
@@ -195,7 +195,7 @@ public class ServerAdminUGCEntryPattern : ServerAdminUGCEntry // TypeDefIndex: 1
 
 }
 
-public class ServerAdminUGCEntryStub : MonoBehaviour // TypeDefIndex: 13836
+public class ServerAdminUGCEntryStub : MonoBehaviour // TypeDefIndex: 13856
 {
 	public ServerAdminUGCEntryAudio AudioWidget; 
 	public ServerAdminUGCEntryImage ImageWidget; 
@@ -214,7 +214,7 @@ public class ServerAdminUGCEntryStub : MonoBehaviour // TypeDefIndex: 13836
 
 }
 
-public class ServerAdminUI : SingletonComponent<ServerAdminUI> // TypeDefIndex: 13837
+public class ServerAdminUI : SingletonComponent<ServerAdminUI> // TypeDefIndex: 13857
 {
 	public GameObjectRef PlayerEntry; 
 	public RectTransform PlayerInfoParent; 
@@ -317,7 +317,7 @@ public class ServerAdminUI : SingletonComponent<ServerAdminUI> // TypeDefIndex: 
 
 }
 
-private class ServerAdminUI.UGCDataSource : VirtualScroll.IDataSource // TypeDefIndex: 13838
+private class ServerAdminUI.UGCDataSource : VirtualScroll.IDataSource // TypeDefIndex: 13858
 {
 	private List<Admin.ServerUGCInfo> rawInfo; 
 	private List<Admin.ServerUGCInfo> filteredInfo; 
@@ -338,7 +338,7 @@ private class ServerAdminUI.UGCDataSource : VirtualScroll.IDataSource // TypeDef
 
 }
 
-private sealed class ServerAdminUI.<>c__DisplayClass33_0 // TypeDefIndex: 13839
+private sealed class ServerAdminUI.<>c__DisplayClass33_0 // TypeDefIndex: 13859
 {
 	public ServerAdminUI <>4__this; 
 	public string oldSelectedPlayer; 
@@ -355,7 +355,7 @@ private sealed class ServerAdminUI.<>c__DisplayClass33_0 // TypeDefIndex: 13839
 
 }
 
-private sealed class ServerAdminUI.<>c__DisplayClass33_1 // TypeDefIndex: 13840
+private sealed class ServerAdminUI.<>c__DisplayClass33_1 // TypeDefIndex: 13860
 {
 	public Admin.PlayerInfo playerInfo; 
 	public ServerAdminUI.<>c__DisplayClass33_0 CS$<>8__locals1; 
@@ -367,7 +367,7 @@ private sealed class ServerAdminUI.<>c__DisplayClass33_1 // TypeDefIndex: 13840
 
 }
 
-private sealed class ServerAdminUI.<>c // TypeDefIndex: 13841
+private sealed class ServerAdminUI.<>c // TypeDefIndex: 13861
 {
 	public static readonly ServerAdminUI.<>c <>9; 
 	public static Action<Admin.ServerConvarInfo, ServerAdminConvarInfo> <>9__38_1; 

@@ -36,7 +36,7 @@ public sealed class GameObject : Object
 	|-GameObject.GetComponent<BobberPreview>
 	|-GameObject.GetComponent<BranchConfig>
 	|-GameObject.GetComponent<BuildingPrivlidge>
-	|-GameObject.GetComponent<CardTableUI>
+	|-GameObject.GetComponent<CardGameUI>
 	|-GameObject.GetComponent<ChangeSignText>
 	|-GameObject.GetComponent<ChatEntry>
 	|-GameObject.GetComponent<ClientIOLine>
@@ -217,16 +217,16 @@ public sealed class GameObject : Object
 	|-GameObject.GetComponent<object>
 	*/
 
-	[FreeFunctionAttribute] 
 	[TypeInferenceRuleAttribute] 
+	[FreeFunctionAttribute] 
 	public Component GetComponent(Type type) { }
 
-	[NativeWritableSelfAttribute] 
 	[FreeFunctionAttribute] 
+	[NativeWritableSelfAttribute] 
 	internal void GetComponentFastPath(Type type, IntPtr oneFurtherThanResultValue) { }
 
-	[TypeInferenceRuleAttribute] 
 	[FreeFunctionAttribute] 
+	[TypeInferenceRuleAttribute] 
 	public Component GetComponentInChildren(Type type, bool includeInactive) { }
 
 	[ExcludeFromDocsAttribute] 
@@ -427,8 +427,8 @@ public sealed class GameObject : Object
 	|-GameObject.TryGetComponent<Wearable>
 	*/
 
-	[FreeFunctionAttribute] 
 	[NativeWritableSelfAttribute] 
+	[FreeFunctionAttribute] 
 	internal void TryGetComponentFastPath(Type type, IntPtr oneFurtherThanResultValue) { }
 
 	public void SendMessage(string methodName, SendMessageOptions options) { }

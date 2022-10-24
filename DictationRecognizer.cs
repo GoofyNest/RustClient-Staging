@@ -7,8 +7,8 @@ public sealed class DictationRecognizer // TypeDefIndex: 3598
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private DictationRecognizer.DictationResultDelegate DictationResult; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private DictationRecognizer.DictationCompletedDelegate DictationComplete; 
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 

@@ -1,4 +1,4 @@
-public struct CopyPresenceOptions // TypeDefIndex: 8812
+public struct CopyPresenceOptions // TypeDefIndex: 8813
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

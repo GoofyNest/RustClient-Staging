@@ -1,4 +1,4 @@
-public sealed class SetTempoEvent : MetaEvent // TypeDefIndex: 7554
+public sealed class SetTempoEvent : MetaEvent // TypeDefIndex: 7555
 {
 	private long _microsecondsPerBeat; 
 

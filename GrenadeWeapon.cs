@@ -1,4 +1,4 @@
-public class GrenadeWeapon : ThrownWeapon // TypeDefIndex: 11186
+public class GrenadeWeapon : ThrownWeapon // TypeDefIndex: 11190
 {
 	private bool drop; 
 

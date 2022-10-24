@@ -1,4 +1,4 @@
-public class AndEventUI : BaseEventUI // TypeDefIndex: 12518
+public class AndEventUI : BaseEventUI // TypeDefIndex: 12523
 {
 
 	public void .ctor() { }

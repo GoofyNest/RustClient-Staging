@@ -1,4 +1,4 @@
-internal class GlobalFog : PostEffectsBase // TypeDefIndex: 8198
+internal class GlobalFog : PostEffectsBase // TypeDefIndex: 8199
 {
 	[TooltipAttribute] 
 	public bool distanceFog; 

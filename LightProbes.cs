@@ -1,8 +1,8 @@
 public sealed class LightProbes : Object // TypeDefIndex: 3392
 {
 
-[NativeHeaderAttribute] 
 [NativeAsStructAttribute] 
+[NativeHeaderAttribute] 
 public sealed class LightProbes : Object
 
 	[FreeFunctionAttribute] 

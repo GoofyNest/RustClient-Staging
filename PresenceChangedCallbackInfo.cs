@@ -1,4 +1,4 @@
-public struct PresenceChangedCallbackInfo : ICallbackInfo // TypeDefIndex: 8832
+public struct PresenceChangedCallbackInfo : ICallbackInfo // TypeDefIndex: 8833
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

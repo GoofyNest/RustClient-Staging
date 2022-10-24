@@ -1,4 +1,4 @@
-public class StringFirecracker : TimedExplosive // TypeDefIndex: 10467
+public class StringFirecracker : TimedExplosive // TypeDefIndex: 10470
 {
 	public Rigidbody serverRigidBody; 
 	public Rigidbody clientMiddleBody; 

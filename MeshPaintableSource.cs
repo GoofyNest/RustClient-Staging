@@ -1,4 +1,4 @@
-public class MeshPaintableSource : MonoBehaviour, IClientComponent // TypeDefIndex: 10924
+public class MeshPaintableSource : MonoBehaviour, IClientComponent // TypeDefIndex: 10928
 {
 	public Vector4 uvRange; 
 	public int texWidth; 

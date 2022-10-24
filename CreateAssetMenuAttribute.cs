@@ -3,8 +3,8 @@ public sealed class CreateAssetMenuAttribute : Attribute // TypeDefIndex: 3498
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private string <menuName>k__BackingField; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private string <fileName>k__BackingField; 
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 

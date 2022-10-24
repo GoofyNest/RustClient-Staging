@@ -1,4 +1,4 @@
-public class trisPerSubmesh // TypeDefIndex: 13279
+public class trisPerSubmesh // TypeDefIndex: 13291
 {
 	public int[] triangles; 
 

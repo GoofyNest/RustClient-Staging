@@ -1,4 +1,4 @@
-internal class CompositeLoadAssetsResult : LoadAssetsResult // TypeDefIndex: 6663
+internal class CompositeLoadAssetsResult : LoadAssetsResult // TypeDefIndex: 6664
 {
 	private readonly List<LoadAssetsResult> _loads; 
 
@@ -23,7 +23,7 @@ internal class CompositeLoadAssetsResult : LoadAssetsResult // TypeDefIndex: 666
 
 }
 
-private sealed class CompositeLoadAssetsResult.<>c // TypeDefIndex: 6664
+private sealed class CompositeLoadAssetsResult.<>c // TypeDefIndex: 6665
 {
 	public static readonly CompositeLoadAssetsResult.<>c <>9; 
 	public static Func<LoadAssetsResult, int> <>9__3_0; 

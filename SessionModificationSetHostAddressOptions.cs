@@ -1,4 +1,4 @@
-public struct SessionModificationSetHostAddressOptions // TypeDefIndex: 8564
+public struct SessionModificationSetHostAddressOptions // TypeDefIndex: 8565
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <HostAddress>k__BackingField; 

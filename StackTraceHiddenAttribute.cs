@@ -1,4 +1,4 @@
-internal sealed class StackTraceHiddenAttribute : Attribute // TypeDefIndex: 7133
+internal sealed class StackTraceHiddenAttribute : Attribute // TypeDefIndex: 7134
 {
 
 	public void .ctor() { }

@@ -1,7 +1,7 @@
 public static class PhraseRecognitionSystem // TypeDefIndex: 3593
 {
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private static PhraseRecognitionSystem.ErrorDelegate OnError; 
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 

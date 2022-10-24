@@ -1,4 +1,4 @@
-internal struct CheckoutEntryInternal : IGettable<CheckoutEntry>, ISettable<CheckoutEntry>, IDisposable // TypeDefIndex: 9417
+internal struct CheckoutEntryInternal : IGettable<CheckoutEntry>, ISettable<CheckoutEntry>, IDisposable // TypeDefIndex: 9418
 {
 	private int m_ApiVersion; 
 	private IntPtr m_OfferId; 

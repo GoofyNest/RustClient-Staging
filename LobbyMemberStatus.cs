@@ -1,4 +1,4 @@
-public enum LobbyMemberStatus // TypeDefIndex: 9151
+public enum LobbyMemberStatus // TypeDefIndex: 9152
 {
 	public int value__; 
 	public const LobbyMemberStatus Joined = 0;

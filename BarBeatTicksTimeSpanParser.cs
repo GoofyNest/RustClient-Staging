@@ -1,4 +1,4 @@
-internal static class BarBeatTicksTimeSpanParser // TypeDefIndex: 7493
+internal static class BarBeatTicksTimeSpanParser // TypeDefIndex: 7494
 {
 	private static readonly string BarsGroup; 
 	private static readonly string BeatsGroup; 

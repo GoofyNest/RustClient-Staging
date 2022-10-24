@@ -1,4 +1,4 @@
-public struct SetCustomInviteOptions // TypeDefIndex: 9537
+public struct SetCustomInviteOptions // TypeDefIndex: 9538
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

@@ -1,4 +1,4 @@
-public enum MaskingTypes // TypeDefIndex: 6767
+public enum MaskingTypes // TypeDefIndex: 6768
 {
 	public int value__; 
 	public const MaskingTypes MaskOff = 0;

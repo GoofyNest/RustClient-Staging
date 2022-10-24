@@ -1,4 +1,4 @@
-public enum ERMarkerControlType // TypeDefIndex: 7226
+public enum ERMarkerControlType // TypeDefIndex: 7227
 {
 	public int value__; 
 	public const ERMarkerControlType Spline = 0;

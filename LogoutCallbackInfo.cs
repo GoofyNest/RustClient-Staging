@@ -1,4 +1,4 @@
-public struct LogoutCallbackInfo : ICallbackInfo // TypeDefIndex: 9667
+public struct LogoutCallbackInfo : ICallbackInfo // TypeDefIndex: 9668
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

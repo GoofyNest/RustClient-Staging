@@ -1,4 +1,4 @@
-public class SimpleAIMemory // TypeDefIndex: 13899
+public class SimpleAIMemory // TypeDefIndex: 13919
 {
 
 	public void .ctor() { }

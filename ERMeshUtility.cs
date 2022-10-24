@@ -1,4 +1,4 @@
-public class ERMeshUtility : MonoBehaviour // TypeDefIndex: 7280
+public class ERMeshUtility : MonoBehaviour // TypeDefIndex: 7281
 {
 	public ERModularBase baseScript; 
 	public int sourceInt; 

@@ -9,7 +9,7 @@ public static class CameraEx // TypeDefIndex: 5617
 
 }
 
-public class CameraEx : MonoBehaviour // TypeDefIndex: 12952
+public class CameraEx : MonoBehaviour // TypeDefIndex: 12964
 {
 	public bool overrideAmbientLight; 
 	public AmbientMode ambientMode; 

@@ -994,7 +994,7 @@ public static class BinaryWriterExtensions // TypeDefIndex: 6227
 
 }
 
-public sealed class BinaryDataHandler : MulticastDelegate // TypeDefIndex: 6945
+public sealed class BinaryDataHandler : MulticastDelegate // TypeDefIndex: 6946
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -1007,7 +1007,7 @@ public sealed class BinaryDataHandler : MulticastDelegate // TypeDefIndex: 6945
 
 }
 
-public class BinaryWriterEx : BinaryWriter // TypeDefIndex: 7305
+public class BinaryWriterEx : BinaryWriter // TypeDefIndex: 7306
 {
 
 	public void .ctor() { }

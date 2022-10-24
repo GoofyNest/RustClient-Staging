@@ -1,4 +1,4 @@
-public sealed class OnTransferDeviceIdAccountCallback : MulticastDelegate // TypeDefIndex: 9608
+public sealed class OnTransferDeviceIdAccountCallback : MulticastDelegate // TypeDefIndex: 9609
 {
 
 	public void .ctor(object object, IntPtr method) { }

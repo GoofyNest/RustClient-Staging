@@ -1,4 +1,4 @@
-internal static class TimeDivisionFactory // TypeDefIndex: 7622
+internal static class TimeDivisionFactory // TypeDefIndex: 7623
 {
 
 	internal static TimeDivision GetTimeDivision(short division) { }

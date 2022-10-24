@@ -1,4 +1,4 @@
-public struct SendInfo // TypeDefIndex: 6871
+public struct SendInfo // TypeDefIndex: 6872
 {
 	public SendMethod method; 
 	public sbyte channel; 

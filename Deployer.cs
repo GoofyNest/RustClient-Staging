@@ -1,4 +1,4 @@
-public class Deployer : HeldEntity // TypeDefIndex: 10273
+public class Deployer : HeldEntity // TypeDefIndex: 10276
 {
 	private string placementError; 
 

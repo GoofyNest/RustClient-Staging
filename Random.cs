@@ -39,8 +39,8 @@ public sealed class Random // TypeDefIndex: 3489
 	public static Quaternion rotation { get; }
 
 
-	[StaticAccessorAttribute] 
 	[NativeMethodAttribute] 
+	[StaticAccessorAttribute] 
 	public static void InitState(int seed) { }
 
 	public static Random.State get_state() { }

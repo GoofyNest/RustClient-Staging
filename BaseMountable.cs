@@ -1,4 +1,4 @@
-public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10035
+public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10039
 {
 	private Option __menuOption_Menu_Mount; 
 	public static Translate.Phrase dismountPhrase; 
@@ -19,6 +19,7 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10035
 	public bool checkPlayerLosOnMount; 
 	public bool disableMeshCullingForPlayers; 
 	public bool allowHeadLook; 
+	public bool ignoreVehicleParent; 
 	[FormerlySerializedAsAttribute] 
 	public bool modifiesPlayerCollider; 
 	public BasePlayer.CapsuleColliderInfo customPlayerCollider; 
@@ -159,11 +160,11 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10035
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private void <DoPlayerMovement>b__78_0(BasePlayer basePlayer) { }
+	private void <DoPlayerMovement>b__79_0(BasePlayer basePlayer) { }
 
 }
 
-public enum BaseMountable.MountStatType // TypeDefIndex: 10036
+public enum BaseMountable.MountStatType // TypeDefIndex: 10040
 {
 	public int value__; 
 	public const BaseMountable.MountStatType None = 0;
@@ -173,7 +174,7 @@ public enum BaseMountable.MountStatType // TypeDefIndex: 10036
 
 }
 
-public enum BaseMountable.MountGestureType // TypeDefIndex: 10037
+public enum BaseMountable.MountGestureType // TypeDefIndex: 10041
 {
 	public int value__; 
 	public const BaseMountable.MountGestureType None = 0;
