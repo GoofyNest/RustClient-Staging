@@ -2384,6 +2384,9 @@ public class BasePlayer : BaseCombatEntity, LootPanel.IHasLootPanel, IIdealSlotE
 	public void SetInheritedVelocity(Vector3 velocity, uint entID) { }
 
 	[BaseEntity.RPC_Client] 
+	public void TogglePlayerMovement(BaseEntity.RPCMessage msg) { }
+
+	[BaseEntity.RPC_Client] 
 	public void GetPerformanceReport(BaseEntity.RPCMessage msg) { }
 
 	[BaseEntity.RPC_Client] 
@@ -3100,24 +3103,24 @@ public struct BasePlayer.CapsuleColliderInfo // TypeDefIndex: 10053
 private sealed class BasePlayer.<>c // TypeDefIndex: 10054
 {
 	public static readonly BasePlayer.<>c <>9; 
-	public static Func<PlayerTeam.TeamMember, ulong> <>9__103_0; 
-	public static Comparison<TraceInfo> <>9__148_0; 
-	public static Predicate<RespawnInformation.SpawnOptions> <>9__155_0; 
+	public static Func<PlayerTeam.TeamMember, ulong> <>9__104_0; 
+	public static Comparison<TraceInfo> <>9__149_0; 
+	public static Predicate<RespawnInformation.SpawnOptions> <>9__156_0; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal ulong <OnBecameRagdoll>b__103_0(PlayerTeam.TeamMember m) { }
+	internal ulong <OnBecameRagdoll>b__104_0(PlayerTeam.TeamMember m) { }
 
-	internal int <UpdateLookingAt>b__148_0(TraceInfo a, TraceInfo b) { }
+	internal int <UpdateLookingAt>b__149_0(TraceInfo a, TraceInfo b) { }
 
-	internal bool <OnRespawnInformation>b__155_0(RespawnInformation.SpawnOptions p) { }
+	internal bool <OnRespawnInformation>b__156_0(RespawnInformation.SpawnOptions p) { }
 
 }
 
-private sealed class BasePlayer.<FinishedLoadingRoutine>d__163 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10055
+private sealed class BasePlayer.<FinishedLoadingRoutine>d__164 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10055
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -3146,7 +3149,7 @@ private sealed class BasePlayer.<FinishedLoadingRoutine>d__163 : IEnumerator<obj
 
 }
 
-private sealed class BasePlayer.<>c__DisplayClass212_0 // TypeDefIndex: 10056
+private sealed class BasePlayer.<>c__DisplayClass213_0 // TypeDefIndex: 10056
 {
 	public GestureConfig g; 
 	public BasePlayer <>4__this; 
@@ -3158,7 +3161,7 @@ private sealed class BasePlayer.<>c__DisplayClass212_0 // TypeDefIndex: 10056
 
 }
 
-private sealed class BasePlayer.<>c__DisplayClass306_0 // TypeDefIndex: 10057
+private sealed class BasePlayer.<>c__DisplayClass307_0 // TypeDefIndex: 10057
 {
 	public uint index; 
 
@@ -3169,7 +3172,7 @@ private sealed class BasePlayer.<>c__DisplayClass306_0 // TypeDefIndex: 10057
 
 }
 
-private sealed class BasePlayer.<>c__DisplayClass308_0 // TypeDefIndex: 10058
+private sealed class BasePlayer.<>c__DisplayClass309_0 // TypeDefIndex: 10058
 {
 	public PetCommandList.PetCommandDesc desc; 
 	public BasePlayer <>4__this; 
