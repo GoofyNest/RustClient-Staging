@@ -106,8 +106,8 @@ public class GC : MonoBehaviour, IClientComponent // TypeDefIndex: 13808
 {
 	private static float gcTime; 
 	private static GarbageCollector.Mode gcMode; 
-	private long heapSize; 
-	private long heapBaseline; 
+	private int heapSize; 
+	private int heapBaseline; 
 	private int collectionCount; 
 
 	public static bool Enabled { get; }
@@ -123,9 +123,9 @@ public class GC : MonoBehaviour, IClientComponent // TypeDefIndex: 13808
 
 	private static void SetMode(GarbageCollector.Mode mode) { }
 
-	public static long GetTotalMemory() { }
+	private static int GetTotalMemory() { }
 
-	public static int CollectionCount() { }
+	private static int CollectionCount() { }
 
 	private void UpdateState() { }
 
