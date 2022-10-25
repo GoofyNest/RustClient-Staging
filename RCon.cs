@@ -31,6 +31,8 @@ public class RCon // TypeDefIndex: 13760
 
 	public static void Broadcast(RCon.LogType type, object obj) { }
 
+	public static void Broadcast(RCon.LogType type, string message) { }
+
 	public static void Update() { }
 
 	public static void BanIP(IPAddress addr, float seconds) { }
@@ -65,6 +67,7 @@ public enum RCon.LogType // TypeDefIndex: 13762
 	public const RCon.LogType Warning = 2;
 	public const RCon.LogType Chat = 3;
 	public const RCon.LogType Report = 4;
+	public const RCon.LogType ClientPerf = 5;
 
 }
 
@@ -153,7 +156,7 @@ private sealed class RCon.<>c // TypeDefIndex: 13768
 {
 	public static readonly RCon.<>c <>9; 
 	public static Action<IPAddress, int, string> <>9__11_0; 
-	public static Predicate<RCon.BannedAddresses> <>9__15_0; 
+	public static Predicate<RCon.BannedAddresses> <>9__16_0; 
 
 
 	private static void .cctor() { }
@@ -162,11 +165,11 @@ private sealed class RCon.<>c // TypeDefIndex: 13768
 
 	internal void <Initialize>b__11_0(IPAddress ip, int id, string msg) { }
 
-	internal bool <Update>b__15_0(RCon.BannedAddresses x) { }
+	internal bool <Update>b__16_0(RCon.BannedAddresses x) { }
 
 }
 
-private sealed class RCon.<>c__DisplayClass18_0 // TypeDefIndex: 13769
+private sealed class RCon.<>c__DisplayClass19_0 // TypeDefIndex: 13769
 {
 	public IPAddress addr; 
 
@@ -177,7 +180,7 @@ private sealed class RCon.<>c__DisplayClass18_0 // TypeDefIndex: 13769
 
 }
 
-private sealed class RCon.<>c__DisplayClass19_0 // TypeDefIndex: 13770
+private sealed class RCon.<>c__DisplayClass20_0 // TypeDefIndex: 13770
 {
 	public IPAddress addr; 
 
