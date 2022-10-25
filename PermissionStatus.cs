@@ -1,4 +1,4 @@
-public struct PermissionStatus // TypeDefIndex: 9340
+public struct PermissionStatus // TypeDefIndex: 9342
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <Name>k__BackingField; 

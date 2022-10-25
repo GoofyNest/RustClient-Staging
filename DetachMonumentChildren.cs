@@ -1,4 +1,4 @@
-public class DetachMonumentChildren : MonoBehaviour // TypeDefIndex: 11580
+public class DetachMonumentChildren : MonoBehaviour // TypeDefIndex: 11584
 {
 
 	private void Awake() { }

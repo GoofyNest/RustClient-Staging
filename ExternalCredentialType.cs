@@ -1,4 +1,4 @@
-public enum ExternalCredentialType // TypeDefIndex: 8278
+public enum ExternalCredentialType // TypeDefIndex: 8280
 {
 	public int value__; 
 	public const ExternalCredentialType Epic = 0;

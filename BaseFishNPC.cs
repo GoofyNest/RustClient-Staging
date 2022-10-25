@@ -1,4 +1,4 @@
-public class BaseFishNPC : BaseNpc, IAIAttack, IAISenses // TypeDefIndex: 10033
+public class BaseFishNPC : BaseNpc, IAIAttack, IAISenses // TypeDefIndex: 10035
 {
 	private Option __menuOption_MenuDesignAI; 
 	protected FishBrain brain; 

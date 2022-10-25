@@ -1,4 +1,4 @@
-internal static class ShaderIDs // TypeDefIndex: 13632
+internal static class ShaderIDs // TypeDefIndex: 13640
 {
 	internal static readonly int MainTex; 
 	internal static readonly int Jitter; 

@@ -1,4 +1,4 @@
-public class SnowmobileAudio : GroundVehicleAudio // TypeDefIndex: 11482
+public class SnowmobileAudio : GroundVehicleAudio // TypeDefIndex: 11486
 {
 	[HeaderAttribute] 
 	[SerializeField] 

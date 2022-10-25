@@ -1,4 +1,4 @@
-internal static class MetricTimeSpanParser // TypeDefIndex: 7495
+internal static class MetricTimeSpanParser // TypeDefIndex: 7497
 {
 	private static readonly string HoursGroup; 
 	private static readonly string MinutesGroup; 

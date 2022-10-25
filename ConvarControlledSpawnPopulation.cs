@@ -1,4 +1,4 @@
-public class ConvarControlledSpawnPopulation : SpawnPopulation // TypeDefIndex: 11719
+public class ConvarControlledSpawnPopulation : SpawnPopulation // TypeDefIndex: 11728
 {
 	[HeaderAttribute] 
 	public string PopulationConvar; 

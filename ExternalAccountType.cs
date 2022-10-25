@@ -1,4 +1,4 @@
-public enum ExternalAccountType // TypeDefIndex: 8277
+public enum ExternalAccountType // TypeDefIndex: 8279
 {
 	public int value__; 
 	public const ExternalAccountType Epic = 0;

@@ -1,4 +1,4 @@
-public struct TransactionCopyEntitlementByIndexOptions // TypeDefIndex: 9507
+public struct TransactionCopyEntitlementByIndexOptions // TypeDefIndex: 9509
 {
 	[CompilerGeneratedAttribute] 
 	private uint <EntitlementIndex>k__BackingField; 

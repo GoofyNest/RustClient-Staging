@@ -1,4 +1,4 @@
-public class Legs : ConsoleSystem // TypeDefIndex: 13703
+public class Legs : ConsoleSystem // TypeDefIndex: 13711
 {
 	[ClientVar] 
 	public static bool EnableLegs; 

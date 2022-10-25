@@ -1,4 +1,4 @@
-public struct CopyUserTokenByIndexOptions // TypeDefIndex: 8726
+public struct CopyUserTokenByIndexOptions // TypeDefIndex: 8728
 {
 	[CompilerGeneratedAttribute] 
 	private uint <UserTokenIndex>k__BackingField; 

@@ -1,4 +1,4 @@
-public enum OnlineSessionPermissionLevel // TypeDefIndex: 8520
+public enum OnlineSessionPermissionLevel // TypeDefIndex: 8522
 {
 	public int value__; 
 	public const OnlineSessionPermissionLevel PublicAdvertised = 0;

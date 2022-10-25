@@ -1,4 +1,4 @@
-public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD // TypeDefIndex: 11658
+public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD // TypeDefIndex: 11663
 {
 	public LODDistanceMode DistanceMode; 
 	public LODComponent.OccludeeParameters OccludeeParams; 
@@ -29,6 +29,8 @@ public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD /
 
 	private float GetDistance() { }
 
+	protected virtual bool OverrideDistance(out float dist) { }
+
 	protected void Awake() { }
 
 	public void SetEnvironmentMode(LODEnvironmentMode mode) { }
@@ -41,6 +43,7 @@ public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD /
 
 	private void DisableCulling() { }
 
+	[ContextMenu] 
 	public void RefreshLOD() { }
 
 	public void ChangeLOD() { }
@@ -54,6 +57,10 @@ public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD /
 	private void UpdateVisibility() { }
 
 	public void SetVisible(bool state) { }
+
+	public void SetVisible(bool state, bool force) { }
+
+	protected virtual void PrepareForForceVisible() { }
 
 	protected abstract void InitLOD();
 
@@ -89,7 +96,7 @@ public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD /
 
 	protected virtual void RegisterToCulling(bool isVisible = True) { }
 
-	protected virtual void UnregisterFromCulling() { }
+	public virtual void UnregisterFromCulling() { }
 
 	protected virtual void OnVisibilityChanged(bool visible) { }
 
@@ -99,7 +106,7 @@ public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD /
 
 }
 
-public struct LODComponent.OccludeeParameters // TypeDefIndex: 11659
+public struct LODComponent.OccludeeParameters // TypeDefIndex: 11664
 {
 	[TooltipAttribute] 
 	public bool isDynamic; 
@@ -112,17 +119,17 @@ public struct LODComponent.OccludeeParameters // TypeDefIndex: 11659
 
 }
 
-private sealed class LODComponent.<>c // TypeDefIndex: 11660
+private sealed class LODComponent.<>c // TypeDefIndex: 11665
 {
 	public static readonly LODComponent.<>c <>9; 
-	public static Predicate<LODComponent> <>9__34_0; 
+	public static Predicate<LODComponent> <>9__35_0; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal bool <ChangeCullingAll>b__34_0(LODComponent i) { }
+	internal bool <ChangeCullingAll>b__35_0(LODComponent i) { }
 
 }
 

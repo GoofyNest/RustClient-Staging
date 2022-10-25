@@ -1,4 +1,4 @@
-public class ResourceDepositManager : BaseEntity // TypeDefIndex: 11296
+public class ResourceDepositManager : BaseEntity // TypeDefIndex: 11300
 {
 	public static ResourceDepositManager _manager; 
 	private const int resolution = 20;
@@ -9,7 +9,7 @@ public class ResourceDepositManager : BaseEntity // TypeDefIndex: 11296
 
 }
 
-public class ResourceDepositManager.ResourceDeposit // TypeDefIndex: 11297
+public class ResourceDepositManager.ResourceDeposit // TypeDefIndex: 11301
 {
 	public float lastSurveyTime; 
 	public Vector3 origin; 
@@ -22,7 +22,7 @@ public class ResourceDepositManager.ResourceDeposit // TypeDefIndex: 11297
 
 }
 
-public enum ResourceDepositManager.ResourceDeposit.surveySpawnType // TypeDefIndex: 11298
+public enum ResourceDepositManager.ResourceDeposit.surveySpawnType // TypeDefIndex: 11302
 {
 	public int value__; 
 	public const ResourceDepositManager.ResourceDeposit.surveySpawnType ITEM = 0;
@@ -31,7 +31,7 @@ public enum ResourceDepositManager.ResourceDeposit.surveySpawnType // TypeDefInd
 
 }
 
-public class ResourceDepositManager.ResourceDeposit.ResourceDepositEntry // TypeDefIndex: 11299
+public class ResourceDepositManager.ResourceDeposit.ResourceDepositEntry // TypeDefIndex: 11303
 {
 	public ItemDefinition type; 
 	public float efficiency; 

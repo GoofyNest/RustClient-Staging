@@ -1,4 +1,4 @@
-public class FXAAPostEffectsBase : MonoBehaviour // TypeDefIndex: 13251
+public class FXAAPostEffectsBase : MonoBehaviour // TypeDefIndex: 13259
 {
 	protected bool supportHDRTextures; 
 	protected bool isSupported; 

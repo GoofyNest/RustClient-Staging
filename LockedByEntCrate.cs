@@ -1,4 +1,4 @@
-public class LockedByEntCrate : LootContainer // TypeDefIndex: 11326
+public class LockedByEntCrate : LootContainer // TypeDefIndex: 11330
 {
 	public GameObject lockingEnt; 
 

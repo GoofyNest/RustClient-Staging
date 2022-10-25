@@ -1,4 +1,4 @@
-public class ScreenFov : BaseScreenShake // TypeDefIndex: 11092
+public class ScreenFov : BaseScreenShake // TypeDefIndex: 11096
 {
 	public AnimationCurve FovAdjustment; 
 

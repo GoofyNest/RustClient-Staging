@@ -1,4 +1,4 @@
-public class TerrainPlacementMap : TerrainMap<bool> // TypeDefIndex: 12147
+public class TerrainPlacementMap : TerrainMap<bool> // TypeDefIndex: 12156
 {
 	private bool isEnabled; 
 

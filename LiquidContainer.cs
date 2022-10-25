@@ -1,4 +1,4 @@
-public class LiquidContainer : ContainerIOEntity // TypeDefIndex: 10114
+public class LiquidContainer : ContainerIOEntity // TypeDefIndex: 10116
 {
 	private Option __menuOption_MenuDrink; 
 	public ItemDefinition defaultLiquid; 

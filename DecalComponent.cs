@@ -1,4 +1,4 @@
-public abstract class DecalComponent : PrefabAttribute // TypeDefIndex: 10892
+public abstract class DecalComponent : PrefabAttribute // TypeDefIndex: 10894
 {
 
 	public abstract void Apply(ref Vector3 pos, ref Quaternion rot, ref Vector3 scale);

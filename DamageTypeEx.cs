@@ -1,4 +1,4 @@
-public static class DamageTypeEx // TypeDefIndex: 13803
+public static class DamageTypeEx // TypeDefIndex: 13812
 {
 
 	[ExtensionAttribute] 

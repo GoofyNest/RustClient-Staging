@@ -1,4 +1,4 @@
-public class Gib : ListComponent<Gib> // TypeDefIndex: 10909
+public class Gib : ListComponent<Gib> // TypeDefIndex: 10911
 {
 	public static int gibCount; 
 	public MeshFilter _meshFilter; 

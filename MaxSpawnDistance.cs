@@ -1,4 +1,4 @@
-public class MaxSpawnDistance : MonoBehaviour, IClientComponent // TypeDefIndex: 11930
+public class MaxSpawnDistance : MonoBehaviour, IClientComponent // TypeDefIndex: 11939
 {
 	public float maxDistance; 
 

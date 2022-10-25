@@ -1,4 +1,4 @@
-public class CH47FlightTest : MonoBehaviour // TypeDefIndex: 10573
+public class CH47FlightTest : MonoBehaviour // TypeDefIndex: 10575
 {
 	public Rigidbody rigidBody; 
 	public float engineThrustMax; 
@@ -31,7 +31,7 @@ public class CH47FlightTest : MonoBehaviour // TypeDefIndex: 10573
 
 }
 
-public struct CH47FlightTest.HelicopterInputState_t // TypeDefIndex: 10574
+public struct CH47FlightTest.HelicopterInputState_t // TypeDefIndex: 10576
 {
 	public float throttle; 
 	public float roll; 

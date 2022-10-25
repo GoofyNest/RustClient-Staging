@@ -1,4 +1,4 @@
-public class PathSequencePowerline : PathSequence // TypeDefIndex: 12101
+public class PathSequencePowerline : PathSequence // TypeDefIndex: 12110
 {
 	public PathSequencePowerline.SequenceRule Rule; 
 	private const int RegularPowerlineSpacing = 2;
@@ -14,7 +14,7 @@ public class PathSequencePowerline : PathSequence // TypeDefIndex: 12101
 
 }
 
-public enum PathSequencePowerline.SequenceRule // TypeDefIndex: 12102
+public enum PathSequencePowerline.SequenceRule // TypeDefIndex: 12111
 {
 	public int value__; 
 	public const PathSequencePowerline.SequenceRule PowerlinePlatform = 0;

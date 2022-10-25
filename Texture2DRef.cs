@@ -1,4 +1,4 @@
-public class Texture2DRef : ResourceRef<Texture2D> // TypeDefIndex: 13196
+public class Texture2DRef : ResourceRef<Texture2D> // TypeDefIndex: 13204
 {
 
 	public void .ctor() { }

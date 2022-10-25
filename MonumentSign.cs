@@ -1,4 +1,4 @@
-public class MonumentSign : LODComponent // TypeDefIndex: 10522
+public class MonumentSign : LODComponent // TypeDefIndex: 10524
 {
 	public float viewDistance; 
 	public GameObject uiRoot; 

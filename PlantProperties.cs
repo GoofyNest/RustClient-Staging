@@ -1,4 +1,4 @@
-public class PlantProperties : ScriptableObject // TypeDefIndex: 11365
+public class PlantProperties : ScriptableObject // TypeDefIndex: 11369
 {
 	public Translate.Phrase Description; 
 	public GrowableGeneProperties Genes; 
@@ -39,7 +39,7 @@ public class PlantProperties : ScriptableObject // TypeDefIndex: 11365
 
 }
 
-public enum PlantProperties.State // TypeDefIndex: 11366
+public enum PlantProperties.State // TypeDefIndex: 11370
 {
 	public int value__; 
 	public const PlantProperties.State Seed = 0;
@@ -53,7 +53,7 @@ public enum PlantProperties.State // TypeDefIndex: 11366
 
 }
 
-public struct PlantProperties.Stage // TypeDefIndex: 11367
+public struct PlantProperties.Stage // TypeDefIndex: 11371
 {
 	public PlantProperties.State nextState; 
 	public float lifeLength; 

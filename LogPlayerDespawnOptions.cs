@@ -1,4 +1,4 @@
-public struct LogPlayerDespawnOptions // TypeDefIndex: 9765
+public struct LogPlayerDespawnOptions // TypeDefIndex: 9767
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <DespawnedPlayerHandle>k__BackingField; 

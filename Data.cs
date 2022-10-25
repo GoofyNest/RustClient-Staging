@@ -6210,7 +6210,7 @@ private sealed class Database.<ExecuteAndReadQueryResults>d__32<T> : IEnumerable
 
 }
 
-internal static class DataTypesUtilities // TypeDefIndex: 7631
+internal static class DataTypesUtilities // TypeDefIndex: 7633
 {
 
 	public static ushort Combine(SevenBitNumber head, SevenBitNumber tail) { }
@@ -6237,7 +6237,7 @@ internal static class DataTypesUtilities // TypeDefIndex: 7631
 
 }
 
-internal abstract class DbcsEncoding : MonoEncoding // TypeDefIndex: 7834
+internal abstract class DbcsEncoding : MonoEncoding // TypeDefIndex: 7836
 {
 	public override bool IsBrowserDisplay { get; }
 	public override bool IsBrowserSave { get; }
@@ -6271,7 +6271,7 @@ internal abstract class DbcsEncoding : MonoEncoding // TypeDefIndex: 7834
 
 }
 
-internal abstract class DbcsEncoding.DbcsDecoder : Decoder // TypeDefIndex: 7835
+internal abstract class DbcsEncoding.DbcsDecoder : Decoder // TypeDefIndex: 7837
 {
 	protected DbcsConvert convert; 
 
@@ -6284,7 +6284,7 @@ internal abstract class DbcsEncoding.DbcsDecoder : Decoder // TypeDefIndex: 7835
 
 }
 
-internal class DbcsConvert // TypeDefIndex: 7836
+internal class DbcsConvert // TypeDefIndex: 7838
 {
 	public byte[] n2u; 
 	public byte[] u2n; 
@@ -6299,7 +6299,7 @@ internal class DbcsConvert // TypeDefIndex: 7836
 
 }
 
-public struct DataRecord // TypeDefIndex: 8817
+public struct DataRecord // TypeDefIndex: 8819
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <Key>k__BackingField; 
@@ -6326,7 +6326,7 @@ public struct DataRecord // TypeDefIndex: 8817
 
 }
 
-internal struct DataRecordInternal : IGettable<DataRecord>, ISettable<DataRecord>, IDisposable // TypeDefIndex: 8818
+internal struct DataRecordInternal : IGettable<DataRecord>, ISettable<DataRecord>, IDisposable // TypeDefIndex: 8820
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Key; 
@@ -6354,7 +6354,7 @@ internal struct DataRecordInternal : IGettable<DataRecord>, ISettable<DataRecord
 
 }
 
-public class Data : ConsoleSystem // TypeDefIndex: 13660
+public class Data : ConsoleSystem // TypeDefIndex: 13668
 {
 
 	[ServerVar] 

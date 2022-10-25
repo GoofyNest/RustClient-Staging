@@ -221,6 +221,8 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.Free<EffectData>
 	|-Pool.Free<EngineAudioClip.Grain>
 	|-Pool.Free<EntityLink>
+	|-Pool.Free<FPNativeList<uint>>
+	|-Pool.Free<FPNativeList<Vector4>>
 	|-Pool.Free<FoliageGroup>
 	|-Pool.Free<GranularAudioClip.Grain>
 	|-Pool.Free<ImpostorBatch>
@@ -230,8 +232,6 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.Free<ModelState>
 	|-Pool.Free<MusicClipLoader.LoadedAudioClip>
 	|-Pool.Free<MusicManager.ClipPlaybackData>
-	|-Pool.Free<NativeList<uint>>
-	|-Pool.Free<NativeList<Vector4>>
 	|-Pool.Free<Message>
 	|-Pool.Free<Networkable>
 	|-Pool.Free<Stats.Node>
@@ -540,6 +540,8 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.Get<EffectData>
 	|-Pool.Get<EngineAudioClip.Grain>
 	|-Pool.Get<EntityLink>
+	|-Pool.Get<FPNativeList<uint>>
+	|-Pool.Get<FPNativeList<Vector4>>
 	|-Pool.Get<FoliageGroup>
 	|-Pool.Get<GranularAudioClip.Grain>
 	|-Pool.Get<ImpostorBatch>
@@ -549,8 +551,6 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.Get<ModelState>
 	|-Pool.Get<MusicClipLoader.LoadedAudioClip>
 	|-Pool.Get<MusicManager.ClipPlaybackData>
-	|-Pool.Get<NativeList<uint>>
-	|-Pool.Get<NativeList<Vector4>>
 	|-Pool.Get<Message>
 	|-Pool.Get<Networkable>
 	|-Pool.Get<Subscriber>
@@ -1265,7 +1265,7 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4842
 
 }
 
-public class Pool : ConsoleSystem // TypeDefIndex: 13717
+public class Pool : ConsoleSystem // TypeDefIndex: 13725
 {
 	[ServerVar] 
 	[ClientVar] 
@@ -1315,7 +1315,7 @@ public class Pool : ConsoleSystem // TypeDefIndex: 13717
 
 }
 
-private sealed class Pool.<>c // TypeDefIndex: 13718
+private sealed class Pool.<>c // TypeDefIndex: 13726
 {
 	public static readonly Pool.<>c <>9; 
 	public static Func<KeyValuePair<Type, Pool.ICollection>, long> <>9__4_0; 

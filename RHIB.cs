@@ -1,4 +1,4 @@
-public class RHIB : MotorRowboat // TypeDefIndex: 10149
+public class RHIB : MotorRowboat // TypeDefIndex: 10151
 {
 	private Option __menuOption_Release; 
 	public GameObject steeringWheel; 

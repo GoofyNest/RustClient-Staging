@@ -1,4 +1,4 @@
-public struct IngestData // TypeDefIndex: 8424
+public struct IngestData // TypeDefIndex: 8426
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <StatName>k__BackingField; 

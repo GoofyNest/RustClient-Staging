@@ -1,4 +1,4 @@
-public static class RendererEx // TypeDefIndex: 13114
+public static class RendererEx // TypeDefIndex: 13123
 {
 	private static readonly Memoized<Material[], int> ArrayCache; 
 
@@ -10,7 +10,7 @@ public static class RendererEx // TypeDefIndex: 13114
 
 }
 
-private sealed class RendererEx.<>c // TypeDefIndex: 13115
+private sealed class RendererEx.<>c // TypeDefIndex: 13124
 {
 	public static readonly RendererEx.<>c <>9; 
 

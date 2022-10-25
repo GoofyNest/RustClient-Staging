@@ -1,4 +1,4 @@
-public class Signage : IOEntity, ILOD, ISignage, IUGCBrowserEntity // TypeDefIndex: 10155
+public class Signage : IOEntity, ILOD, ISignage, IUGCBrowserEntity // TypeDefIndex: 10157
 {
 	private Option __menuOption_Menu_ChangeText; 
 	private Option __menuOption_Menu_LockSign; 

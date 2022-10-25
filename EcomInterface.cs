@@ -1,4 +1,4 @@
-public sealed class EcomInterface : Handle // TypeDefIndex: 9447
+public sealed class EcomInterface : Handle // TypeDefIndex: 9449
 {
 	public const int CatalogitemApiLatest = 1;
 	public const int CatalogitemEntitlementendtimestampUndefined = -1;

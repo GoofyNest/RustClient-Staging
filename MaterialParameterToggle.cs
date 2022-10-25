@@ -1,4 +1,4 @@
-public class MaterialParameterToggle : MonoBehaviour // TypeDefIndex: 10921
+public class MaterialParameterToggle : MonoBehaviour // TypeDefIndex: 10923
 {
 	[InspectorFlagsAttribute] 
 	public MaterialParameterToggle.ToggleMode Toggle; 
@@ -23,7 +23,7 @@ public class MaterialParameterToggle : MonoBehaviour // TypeDefIndex: 10921
 
 }
 
-public enum MaterialParameterToggle.ToggleMode // TypeDefIndex: 10922
+public enum MaterialParameterToggle.ToggleMode // TypeDefIndex: 10924
 {
 	public int value__; 
 	public const MaterialParameterToggle.ToggleMode Detail = 0;

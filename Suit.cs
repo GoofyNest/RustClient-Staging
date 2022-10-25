@@ -1,4 +1,4 @@
-public enum Suit // TypeDefIndex: 13785
+public enum Suit // TypeDefIndex: 13794
 {
 	public int value__; 
 	public const Suit Spades = 0;

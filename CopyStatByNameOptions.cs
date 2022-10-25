@@ -1,4 +1,4 @@
-public struct CopyStatByNameOptions // TypeDefIndex: 8420
+public struct CopyStatByNameOptions // TypeDefIndex: 8422
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <TargetUserId>k__BackingField; 

@@ -1,4 +1,4 @@
-internal struct SetGameSessionIdOptionsInternal : ISettable<SetGameSessionIdOptions>, IDisposable // TypeDefIndex: 9796
+internal struct SetGameSessionIdOptionsInternal : ISettable<SetGameSessionIdOptions>, IDisposable // TypeDefIndex: 9798
 {
 	private int m_ApiVersion; 
 	private IntPtr m_GameSessionId; 

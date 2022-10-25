@@ -1,4 +1,4 @@
-public class BlackjackScreenInputUI : MonoBehaviour // TypeDefIndex: 12613
+public class BlackjackScreenInputUI : MonoBehaviour // TypeDefIndex: 12622
 {
 	[SerializeField] 
 	private Canvas availableOption; 

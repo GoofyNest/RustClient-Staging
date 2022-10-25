@@ -1,4 +1,4 @@
-public class DrawSkeleton : MonoBehaviour // TypeDefIndex: 11002
+public class DrawSkeleton : MonoBehaviour // TypeDefIndex: 11004
 {
 
 	private void OnDrawGizmos() { }

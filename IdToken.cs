@@ -1,4 +1,4 @@
-public struct IdToken // TypeDefIndex: 9579
+public struct IdToken // TypeDefIndex: 9581
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <ProductUserId>k__BackingField; 
@@ -25,7 +25,7 @@ public struct IdToken // TypeDefIndex: 9579
 
 }
 
-public struct IdToken // TypeDefIndex: 9654
+public struct IdToken // TypeDefIndex: 9656
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <AccountId>k__BackingField; 

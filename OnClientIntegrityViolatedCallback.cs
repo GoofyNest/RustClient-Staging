@@ -1,4 +1,4 @@
-public sealed class OnClientIntegrityViolatedCallback : MulticastDelegate // TypeDefIndex: 9820
+public sealed class OnClientIntegrityViolatedCallback : MulticastDelegate // TypeDefIndex: 9822
 {
 
 	public void .ctor(object object, IntPtr method) { }

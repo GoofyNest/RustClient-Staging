@@ -1,4 +1,4 @@
-public enum AntiCheatCommonClientPlatform // TypeDefIndex: 9746
+public enum AntiCheatCommonClientPlatform // TypeDefIndex: 9748
 {
 	public int value__; 
 	public const AntiCheatCommonClientPlatform Unknown = 0;

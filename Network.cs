@@ -1816,7 +1816,7 @@ private sealed class NetGraphRow.<>c // TypeDefIndex: 7116
 
 }
 
-public class Net // TypeDefIndex: 8238
+public class Net // TypeDefIndex: 8240
 {
 	[CompilerGeneratedAttribute] 
 	private static Client <cl>k__BackingField; 
@@ -1842,7 +1842,7 @@ public class Net // TypeDefIndex: 8238
 
 }
 
-public enum ConnectionClosedReason // TypeDefIndex: 8944
+public enum ConnectionClosedReason // TypeDefIndex: 8946
 {
 	public int value__; 
 	public const ConnectionClosedReason Unknown = 0;
@@ -1859,7 +1859,7 @@ public enum ConnectionClosedReason // TypeDefIndex: 8944
 
 }
 
-public enum ConnectionEstablishedType // TypeDefIndex: 8945
+public enum ConnectionEstablishedType // TypeDefIndex: 8947
 {
 	public int value__; 
 	public const ConnectionEstablishedType NewConnection = 0;
@@ -1867,7 +1867,7 @@ public enum ConnectionEstablishedType // TypeDefIndex: 8945
 
 }
 
-public enum NetworkConnectionType // TypeDefIndex: 8957
+public enum NetworkConnectionType // TypeDefIndex: 8959
 {
 	public int value__; 
 	public const NetworkConnectionType NoConnection = 0;
@@ -1876,7 +1876,7 @@ public enum NetworkConnectionType // TypeDefIndex: 8957
 
 }
 
-public enum NetworkStatus // TypeDefIndex: 9866
+public enum NetworkStatus // TypeDefIndex: 9868
 {
 	public int value__; 
 	public const NetworkStatus Disabled = 0;
@@ -1885,7 +1885,7 @@ public enum NetworkStatus // TypeDefIndex: 9866
 
 }
 
-public class NetworkInfoGeneralText : MonoBehaviour // TypeDefIndex: 11009
+public class NetworkInfoGeneralText : MonoBehaviour // TypeDefIndex: 11012
 {
 	public TextMeshProUGUI text; 
 
@@ -1900,7 +1900,7 @@ public class NetworkInfoGeneralText : MonoBehaviour // TypeDefIndex: 11009
 
 }
 
-public abstract class NetworkCryptography : INetworkCryptocraphy // TypeDefIndex: 11968
+public abstract class NetworkCryptography : INetworkCryptocraphy // TypeDefIndex: 11977
 {
 	private byte[] buffer; 
 
@@ -1925,7 +1925,7 @@ public abstract class NetworkCryptography : INetworkCryptocraphy // TypeDefIndex
 
 }
 
-public class NetworkCryptographyClient : NetworkCryptography // TypeDefIndex: 11969
+public class NetworkCryptographyClient : NetworkCryptography // TypeDefIndex: 11978
 {
 
 	protected override void EncryptionHandler(Connection connection, ArraySegment<byte> src, ref ArraySegment<byte> dst) { }
@@ -1936,7 +1936,7 @@ public class NetworkCryptographyClient : NetworkCryptography // TypeDefIndex: 11
 
 }
 
-public class NetworkVisibilityGrid : MonoBehaviour // TypeDefIndex: 11970
+public class NetworkVisibilityGrid : MonoBehaviour // TypeDefIndex: 11979
 {
 	public int startID; 
 	public int gridSize; 
@@ -1951,21 +1951,21 @@ public class NetworkVisibilityGrid : MonoBehaviour // TypeDefIndex: 11970
 
 }
 
-public class ConnectionAuth : MonoBehaviour // TypeDefIndex: 12444
+public class ConnectionAuth : MonoBehaviour // TypeDefIndex: 12453
 {
 
 	public void .ctor() { }
 
 }
 
-public class ConnectionQueue // TypeDefIndex: 12445
+public class ConnectionQueue // TypeDefIndex: 12454
 {
 
 	public void .ctor() { }
 
 }
 
-public class ConnectionScreen : SingletonComponent<ConnectionScreen> // TypeDefIndex: 12856
+public class ConnectionScreen : SingletonComponent<ConnectionScreen> // TypeDefIndex: 12865
 {
 	public Text statusText; 
 	public GameObject disconnectButton; 
@@ -2001,7 +2001,7 @@ public class ConnectionScreen : SingletonComponent<ConnectionScreen> // TypeDefI
 
 }
 
-private struct ConnectionScreen.<LoadServerInfo>d__13 : IAsyncStateMachine // TypeDefIndex: 12857
+private struct ConnectionScreen.<LoadServerInfo>d__13 : IAsyncStateMachine // TypeDefIndex: 12866
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 
@@ -2018,7 +2018,7 @@ private struct ConnectionScreen.<LoadServerInfo>d__13 : IAsyncStateMachine // Ty
 
 }
 
-private struct ConnectionScreen.<LoadServerRules>d__14 : IAsyncStateMachine // TypeDefIndex: 12858
+private struct ConnectionScreen.<LoadServerRules>d__14 : IAsyncStateMachine // TypeDefIndex: 12867
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 
@@ -2032,7 +2032,7 @@ private struct ConnectionScreen.<LoadServerRules>d__14 : IAsyncStateMachine // T
 
 }
 
-public class NetworkSleep : MonoBehaviour // TypeDefIndex: 13084
+public class NetworkSleep : MonoBehaviour // TypeDefIndex: 13093
 {
 	public static int totalBehavioursDisabled; 
 	public static int totalCollidersDisabled; 
@@ -2048,7 +2048,7 @@ public class NetworkSleep : MonoBehaviour // TypeDefIndex: 13084
 
 }
 
-public static class NetworkWriteEx // TypeDefIndex: 13110
+public static class NetworkWriteEx // TypeDefIndex: 13119
 {
 
 	[ExtensionAttribute] 
@@ -2080,7 +2080,7 @@ public static class NetworkWriteEx // TypeDefIndex: 13110
 
 }
 
-public class NetworkedProperty<T> // TypeDefIndex: 13192
+public class NetworkedProperty<T> // TypeDefIndex: 13200
 {
 	private T val; 
 	private BaseEntity entity; 
@@ -2120,7 +2120,7 @@ public class NetworkedProperty<T> // TypeDefIndex: 13192
 
 }
 
-public sealed class ProxyArray : Variant, IEnumerable<Variant>, IEnumerable // TypeDefIndex: 13345
+public sealed class ProxyArray : Variant, IEnumerable<Variant>, IEnumerable // TypeDefIndex: 13353
 {
 	private readonly List<Variant> list; 
 
@@ -2148,7 +2148,7 @@ public sealed class ProxyArray : Variant, IEnumerable<Variant>, IEnumerable // T
 
 }
 
-public sealed class ProxyBoolean : Variant // TypeDefIndex: 13346
+public sealed class ProxyBoolean : Variant // TypeDefIndex: 13354
 {
 	private readonly bool value; 
 
@@ -2161,7 +2161,7 @@ public sealed class ProxyBoolean : Variant // TypeDefIndex: 13346
 
 }
 
-public sealed class ProxyNumber : Variant // TypeDefIndex: 13347
+public sealed class ProxyNumber : Variant // TypeDefIndex: 13355
 {
 	private static readonly char[] floatingPointCharacters; 
 	private readonly IConvertible value; 
@@ -2203,7 +2203,7 @@ public sealed class ProxyNumber : Variant // TypeDefIndex: 13347
 
 }
 
-public sealed class ProxyObject : Variant, IEnumerable<KeyValuePair<string, Variant>>, IEnumerable // TypeDefIndex: 13348
+public sealed class ProxyObject : Variant, IEnumerable<KeyValuePair<string, Variant>>, IEnumerable // TypeDefIndex: 13356
 {
 	public const string TypeHintKey = "@type";
 	private readonly Dictionary<string, Variant> dict; 
@@ -2239,7 +2239,7 @@ public sealed class ProxyObject : Variant, IEnumerable<KeyValuePair<string, Vari
 
 }
 
-public sealed class ProxyString : Variant // TypeDefIndex: 13349
+public sealed class ProxyString : Variant // TypeDefIndex: 13357
 {
 	private readonly string value; 
 
@@ -2250,7 +2250,7 @@ public sealed class ProxyString : Variant // TypeDefIndex: 13349
 
 }
 
-public class ConnectionLimiter // TypeDefIndex: 13407
+public class ConnectionLimiter // TypeDefIndex: 13415
 {
 	private readonly object _sync; 
 	private readonly Dictionary<IPAddress, int> _addressCounts; 
@@ -2269,7 +2269,7 @@ public class ConnectionLimiter // TypeDefIndex: 13407
 
 }
 
-private sealed class ConnectionLimiter.<>c // TypeDefIndex: 13408
+private sealed class ConnectionLimiter.<>c // TypeDefIndex: 13416
 {
 	public static readonly ConnectionLimiter.<>c <>9; 
 	public static Func<KeyValuePair<IPAddress, int>, int> <>9__7_0; 
@@ -2283,7 +2283,7 @@ private sealed class ConnectionLimiter.<>c // TypeDefIndex: 13408
 
 }
 
-public static class NetworkPacketEx // TypeDefIndex: 13465
+public static class NetworkPacketEx // TypeDefIndex: 13473
 {
 
 [ExtensionAttribute] 
@@ -2294,7 +2294,7 @@ public static class NetworkPacketEx
 
 }
 
-public class Net : ConsoleSystem // TypeDefIndex: 13709
+public class Net : ConsoleSystem // TypeDefIndex: 13717
 {
 	[ServerVar] 
 	public static bool visdebug; 
@@ -2312,7 +2312,7 @@ public class Net : ConsoleSystem // TypeDefIndex: 13709
 
 }
 
-public class Netgraph : ConsoleSystem // TypeDefIndex: 13710
+public class Netgraph : ConsoleSystem // TypeDefIndex: 13718
 {
 	[ClientVar] 
 	public static bool enabled; 

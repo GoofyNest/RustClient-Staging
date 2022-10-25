@@ -1,4 +1,4 @@
-public class BlackjackSmallScreenUI : FacepunchBehaviour // TypeDefIndex: 12614
+public class BlackjackSmallScreenUI : FacepunchBehaviour // TypeDefIndex: 12623
 {
 	[SerializeField] 
 	private BlackjackMachine blackjack; 

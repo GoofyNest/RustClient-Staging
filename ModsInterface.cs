@@ -1,4 +1,4 @@
-public sealed class ModsInterface : Handle // TypeDefIndex: 9016
+public sealed class ModsInterface : Handle // TypeDefIndex: 9018
 {
 	public const int CopymodinfoApiLatest = 1;
 	public const int EnumeratemodsApiLatest = 1;

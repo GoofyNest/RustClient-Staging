@@ -1,4 +1,4 @@
-internal struct CheckoutOptionsInternal : ISettable<CheckoutOptions>, IDisposable // TypeDefIndex: 9420
+internal struct CheckoutOptionsInternal : ISettable<CheckoutOptions>, IDisposable // TypeDefIndex: 9422
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

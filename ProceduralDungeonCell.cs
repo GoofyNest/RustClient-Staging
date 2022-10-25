@@ -1,4 +1,4 @@
-public class ProceduralDungeonCell : BaseMonoBehaviour // TypeDefIndex: 10557
+public class ProceduralDungeonCell : BaseMonoBehaviour // TypeDefIndex: 10559
 {
 	public bool north; 
 	public bool east; 

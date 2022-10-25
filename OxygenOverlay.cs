@@ -1,4 +1,4 @@
-public class OxygenOverlay : MonoBehaviour // TypeDefIndex: 10852
+public class OxygenOverlay : MonoBehaviour // TypeDefIndex: 10854
 {
 	[SerializeField] 
 	private PostProcessVolume postProcessVolume; 

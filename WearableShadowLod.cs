@@ -1,4 +1,4 @@
-public class WearableShadowLod : MonoBehaviour, IClientComponent // TypeDefIndex: 11798
+public class WearableShadowLod : MonoBehaviour, IClientComponent // TypeDefIndex: 11807
 {
 	public Renderer[] DisableShadows; 
 

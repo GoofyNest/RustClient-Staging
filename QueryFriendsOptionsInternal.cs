@@ -1,4 +1,4 @@
-internal struct QueryFriendsOptionsInternal : ISettable<QueryFriendsOptions>, IDisposable // TypeDefIndex: 9400
+internal struct QueryFriendsOptionsInternal : ISettable<QueryFriendsOptions>, IDisposable // TypeDefIndex: 9402
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

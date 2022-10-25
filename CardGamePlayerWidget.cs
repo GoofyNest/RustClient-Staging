@@ -1,4 +1,4 @@
-public class CardGamePlayerWidget : MonoBehaviour // TypeDefIndex: 12617
+public class CardGamePlayerWidget : MonoBehaviour // TypeDefIndex: 12626
 {
 	[SerializeField] 
 	private GameObjectRef cardImageSmallPrefab; 
@@ -71,7 +71,7 @@ public class CardGamePlayerWidget : MonoBehaviour // TypeDefIndex: 12617
 
 }
 
-private enum CardGamePlayerWidget.BetDisplayType // TypeDefIndex: 12618
+private enum CardGamePlayerWidget.BetDisplayType // TypeDefIndex: 12627
 {
 	public int value__; 
 	public const CardGamePlayerWidget.BetDisplayType BetThisTurn = 0;
@@ -79,7 +79,7 @@ private enum CardGamePlayerWidget.BetDisplayType // TypeDefIndex: 12618
 
 }
 
-public enum CardGamePlayerWidget.PlayerUIState // TypeDefIndex: 12619
+public enum CardGamePlayerWidget.PlayerUIState // TypeDefIndex: 12628
 {
 	public int value__; 
 	public const CardGamePlayerWidget.PlayerUIState Default = 0;

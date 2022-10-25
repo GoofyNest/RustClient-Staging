@@ -1,4 +1,4 @@
-public sealed class OnFileTransferProgressCallback : MulticastDelegate // TypeDefIndex: 8391
+public sealed class OnFileTransferProgressCallback : MulticastDelegate // TypeDefIndex: 8393
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -11,7 +11,7 @@ public sealed class OnFileTransferProgressCallback : MulticastDelegate // TypeDe
 
 }
 
-public sealed class OnFileTransferProgressCallback : MulticastDelegate // TypeDefIndex: 8888
+public sealed class OnFileTransferProgressCallback : MulticastDelegate // TypeDefIndex: 8890
 {
 
 	public void .ctor(object object, IntPtr method) { }

@@ -1,4 +1,4 @@
-public class ClothingMovementProperties : ScriptableObject // TypeDefIndex: 11706
+public class ClothingMovementProperties : ScriptableObject // TypeDefIndex: 11713
 {
 	public float speedReduction; 
 	[TooltipAttribute] 

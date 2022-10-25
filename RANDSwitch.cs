@@ -1,4 +1,4 @@
-public class RANDSwitch : ElectricalBlocker // TypeDefIndex: 10424
+public class RANDSwitch : ElectricalBlocker // TypeDefIndex: 10426
 {
 
 	public void .ctor() { }

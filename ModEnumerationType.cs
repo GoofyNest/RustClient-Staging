@@ -1,4 +1,4 @@
-public enum ModEnumerationType // TypeDefIndex: 9011
+public enum ModEnumerationType // TypeDefIndex: 9013
 {
 	public int value__; 
 	public const ModEnumerationType Installed = 0;

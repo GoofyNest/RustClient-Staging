@@ -1,4 +1,4 @@
-public static class GlobalMesh // TypeDefIndex: 13310
+public static class GlobalMesh // TypeDefIndex: 13318
 {
 	private static Mesh ms_Mesh; 
 

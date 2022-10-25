@@ -1,4 +1,4 @@
-internal struct GameMetadata // TypeDefIndex: 7715
+internal struct GameMetadata // TypeDefIndex: 7717
 {
 	[CompilerGeneratedAttribute] 
 	private string <GameId>k__BackingField; 

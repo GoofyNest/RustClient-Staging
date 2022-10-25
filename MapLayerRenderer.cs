@@ -1,4 +1,4 @@
-public class MapLayerRenderer : SingletonComponent<MapLayerRenderer> // TypeDefIndex: 12695
+public class MapLayerRenderer : SingletonComponent<MapLayerRenderer> // TypeDefIndex: 12704
 {
 	private Nullable<int> _underwaterLabFloorCount; 
 	public Camera renderCamera; 
@@ -27,7 +27,7 @@ public class MapLayerRenderer : SingletonComponent<MapLayerRenderer> // TypeDefI
 
 }
 
-private sealed class MapLayerRenderer.<>c // TypeDefIndex: 12696
+private sealed class MapLayerRenderer.<>c // TypeDefIndex: 12705
 {
 	public static readonly MapLayerRenderer.<>c <>9; 
 	public static Func<DungeonBaseInfo, int> <>9__4_0; 

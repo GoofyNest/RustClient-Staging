@@ -1,4 +1,4 @@
-public class DragMeCustomParent : DragMe // TypeDefIndex: 13035
+public class DragMeCustomParent : DragMe // TypeDefIndex: 13044
 {
 	public Canvas OverrideCanvas; 
 	public bool ShouldCancelOnDrop; 

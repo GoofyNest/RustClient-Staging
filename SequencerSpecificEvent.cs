@@ -1,4 +1,4 @@
-public sealed class SequencerSpecificEvent : MetaEvent // TypeDefIndex: 7553
+public sealed class SequencerSpecificEvent : MetaEvent // TypeDefIndex: 7555
 {
 	[CompilerGeneratedAttribute] 
 	private byte[] <Data>k__BackingField; 

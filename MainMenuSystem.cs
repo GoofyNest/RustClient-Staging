@@ -1,4 +1,4 @@
-public class MainMenuSystem : SingletonComponent<MainMenuSystem> // TypeDefIndex: 12880
+public class MainMenuSystem : SingletonComponent<MainMenuSystem> // TypeDefIndex: 12889
 {
 	public static bool isOpen; 
 	public static Action OnOpenStateChanged; 
@@ -49,7 +49,7 @@ public class MainMenuSystem : SingletonComponent<MainMenuSystem> // TypeDefIndex
 
 }
 
-private sealed class MainMenuSystem.<>c // TypeDefIndex: 12881
+private sealed class MainMenuSystem.<>c // TypeDefIndex: 12890
 {
 	public static readonly MainMenuSystem.<>c <>9; 
 	public static Func<IPlayerItemDefinition, bool> <>9__15_0; 

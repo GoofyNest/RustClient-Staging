@@ -1,4 +1,4 @@
-public class SoundModulation : MonoBehaviour, IClientComponent // TypeDefIndex: 10754
+public class SoundModulation : MonoBehaviour, IClientComponent // TypeDefIndex: 10756
 {
 	private const int parameterCount = 4;
 	private Sound sound; 
@@ -26,7 +26,7 @@ public class SoundModulation : MonoBehaviour, IClientComponent // TypeDefIndex: 
 
 }
 
-public enum SoundModulation.Parameter // TypeDefIndex: 10755
+public enum SoundModulation.Parameter // TypeDefIndex: 10757
 {
 	public int value__; 
 	public const SoundModulation.Parameter Gain = 0;
@@ -36,7 +36,7 @@ public enum SoundModulation.Parameter // TypeDefIndex: 10755
 
 }
 
-public class SoundModulation.Modulator // TypeDefIndex: 10756
+public class SoundModulation.Modulator // TypeDefIndex: 10758
 {
 	public SoundModulation.Parameter param; 
 	public float value; 

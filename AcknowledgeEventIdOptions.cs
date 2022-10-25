@@ -1,4 +1,4 @@
-public struct AcknowledgeEventIdOptions // TypeDefIndex: 8322
+public struct AcknowledgeEventIdOptions // TypeDefIndex: 8324
 {
 	[CompilerGeneratedAttribute] 
 	private ulong <UiEventId>k__BackingField; 

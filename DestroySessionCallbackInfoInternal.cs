@@ -1,4 +1,4 @@
-internal struct DestroySessionCallbackInfoInternal : ICallbackInfoInternal, IGettable<DestroySessionCallbackInfo>, ISettable<DestroySessionCallbackInfo>, IDisposable // TypeDefIndex: 8473
+internal struct DestroySessionCallbackInfoInternal : ICallbackInfoInternal, IGettable<DestroySessionCallbackInfo>, ISettable<DestroySessionCallbackInfo>, IDisposable // TypeDefIndex: 8475
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

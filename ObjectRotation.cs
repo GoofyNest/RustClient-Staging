@@ -1,4 +1,4 @@
-public class ObjectRotation : MonoBehaviour // TypeDefIndex: 12949
+public class ObjectRotation : MonoBehaviour // TypeDefIndex: 12958
 {
 	public Camera cam; 
 	public bool ignoreNeedsKeyboard; 

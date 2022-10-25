@@ -1,4 +1,4 @@
-public class Keycard : AttackEntity // TypeDefIndex: 11193
+public class Keycard : AttackEntity // TypeDefIndex: 11197
 {
 	private SwapKeycard worldKeycard; 
 

@@ -1,4 +1,4 @@
-public class CameraMotionBlur : PostEffectsBase // TypeDefIndex: 8178
+public class CameraMotionBlur : PostEffectsBase // TypeDefIndex: 8180
 {
 	private static float MAX_RADIUS; 
 	public CameraMotionBlur.MotionBlurFilter filterType; 
@@ -58,7 +58,7 @@ public class CameraMotionBlur : PostEffectsBase // TypeDefIndex: 8178
 
 }
 
-public enum CameraMotionBlur.MotionBlurFilter // TypeDefIndex: 8179
+public enum CameraMotionBlur.MotionBlurFilter // TypeDefIndex: 8181
 {
 	public int value__; 
 	public const CameraMotionBlur.MotionBlurFilter CameraMotion = 0;

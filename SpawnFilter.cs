@@ -1,4 +1,4 @@
-public class SpawnFilter // TypeDefIndex: 12044
+public class SpawnFilter // TypeDefIndex: 12053
 {
 	[InspectorFlagsAttribute] 
 	public TerrainSplat.Enum SplatType; 

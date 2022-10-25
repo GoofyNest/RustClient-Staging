@@ -1,4 +1,4 @@
-public class PointOfInterestMapMarker : MonoBehaviour // TypeDefIndex: 12705
+public class PointOfInterestMapMarker : MonoBehaviour // TypeDefIndex: 12714
 {
 	public Image MapIcon; 
 	public GameObject LeaderRoot; 

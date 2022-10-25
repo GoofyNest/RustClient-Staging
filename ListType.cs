@@ -1,4 +1,4 @@
-internal enum ListType // TypeDefIndex: 7755
+internal enum ListType // TypeDefIndex: 7757
 {
 	public int value__; 
 	public const ListType MyItems = 0;

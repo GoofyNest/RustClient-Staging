@@ -546,14 +546,14 @@ internal class AndroidJNISafe // TypeDefIndex: 4478
 
 }
 
-public static class AndroidBindings // TypeDefIndex: 8270
+public static class AndroidBindings // TypeDefIndex: 8272
 {
 
 	internal static extern Result EOS_Initialize(ref AndroidInitializeOptionsInternal options) { }
 
 }
 
-public struct AndroidInitializeOptions // TypeDefIndex: 9848
+public struct AndroidInitializeOptions // TypeDefIndex: 9850
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <AllocateMemoryFunction>k__BackingField; 
@@ -632,7 +632,7 @@ public struct AndroidInitializeOptions // TypeDefIndex: 9848
 
 }
 
-internal struct AndroidInitializeOptionsInternal : ISettable<AndroidInitializeOptions>, IDisposable // TypeDefIndex: 9849
+internal struct AndroidInitializeOptionsInternal : ISettable<AndroidInitializeOptions>, IDisposable // TypeDefIndex: 9851
 {
 	private int m_ApiVersion; 
 	private IntPtr m_AllocateMemoryFunction; 
@@ -678,7 +678,7 @@ internal struct AndroidInitializeOptionsInternal : ISettable<AndroidInitializeOp
 
 }
 
-public struct AndroidInitializeOptionsSystemInitializeOptions // TypeDefIndex: 9850
+public struct AndroidInitializeOptionsSystemInitializeOptions // TypeDefIndex: 9852
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <Reserved>k__BackingField; 
@@ -714,7 +714,7 @@ public struct AndroidInitializeOptionsSystemInitializeOptions // TypeDefIndex: 9
 
 }
 
-internal struct AndroidInitializeOptionsSystemInitializeOptionsInternal : IGettable<AndroidInitializeOptionsSystemInitializeOptions>, ISettable<AndroidInitializeOptionsSystemInitializeOptions>, IDisposable // TypeDefIndex: 9851
+internal struct AndroidInitializeOptionsSystemInitializeOptionsInternal : IGettable<AndroidInitializeOptionsSystemInitializeOptions>, ISettable<AndroidInitializeOptionsSystemInitializeOptions>, IDisposable // TypeDefIndex: 9853
 {
 	private int m_ApiVersion; 
 	private IntPtr m_Reserved; 

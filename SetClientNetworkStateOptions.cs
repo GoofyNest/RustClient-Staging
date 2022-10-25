@@ -1,4 +1,4 @@
-public struct SetClientNetworkStateOptions // TypeDefIndex: 9735
+public struct SetClientNetworkStateOptions // TypeDefIndex: 9737
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <ClientHandle>k__BackingField; 

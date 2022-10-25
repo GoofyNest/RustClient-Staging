@@ -1,4 +1,4 @@
-public struct DisconnectedCallbackInfo : ICallbackInfo // TypeDefIndex: 8759
+public struct DisconnectedCallbackInfo : ICallbackInfo // TypeDefIndex: 8761
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

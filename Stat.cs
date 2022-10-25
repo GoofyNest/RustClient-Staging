@@ -27,7 +27,7 @@ public struct Stat // TypeDefIndex: 5563
 
 }
 
-public struct Stat // TypeDefIndex: 8438
+public struct Stat // TypeDefIndex: 8440
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <Name>k__BackingField; 

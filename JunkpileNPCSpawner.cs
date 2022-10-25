@@ -1,4 +1,4 @@
-public class JunkpileNPCSpawner : NPCSpawner // TypeDefIndex: 11731
+public class JunkpileNPCSpawner : NPCSpawner // TypeDefIndex: 11740
 {
 	[HeaderAttribute] 
 	public bool UseSpawnChance; 

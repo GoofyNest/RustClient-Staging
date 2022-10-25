@@ -1,4 +1,4 @@
-public sealed class TimeSignature // TypeDefIndex: 7466
+public sealed class TimeSignature // TypeDefIndex: 7468
 {
 	public static readonly TimeSignature Default; 
 	[CompilerGeneratedAttribute] 

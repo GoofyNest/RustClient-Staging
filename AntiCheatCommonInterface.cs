@@ -1,4 +1,4 @@
-public sealed class AntiCheatCommonInterface // TypeDefIndex: 9750
+public sealed class AntiCheatCommonInterface // TypeDefIndex: 9752
 {
 	public const int LogeventApiLatest = 1;
 	public const int LogeventStringMaxLength = 39;

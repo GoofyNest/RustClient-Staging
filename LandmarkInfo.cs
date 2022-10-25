@@ -1,4 +1,4 @@
-public class LandmarkInfo : MonoBehaviour // TypeDefIndex: 11689
+public class LandmarkInfo : MonoBehaviour // TypeDefIndex: 11696
 {
 	[HeaderAttribute] 
 	public bool shouldDisplayOnMap; 

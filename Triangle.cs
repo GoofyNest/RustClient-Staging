@@ -24,5 +24,7 @@ public struct Triangle // TypeDefIndex: 6601
 
 	public float SqrDistance(Vector3 pos) { }
 
+	public float Area() { }
+
 }
 

@@ -1,4 +1,4 @@
-public class TrainEngineAudio : TrainCarAudio // TypeDefIndex: 11497
+public class TrainEngineAudio : TrainCarAudio // TypeDefIndex: 11501
 {
 	[SerializeField] 
 	private TrainEngine trainEngine; 
@@ -99,7 +99,7 @@ public class TrainEngineAudio : TrainCarAudio // TypeDefIndex: 11497
 
 }
 
-public class TrainEngineAudio.EngineReflection // TypeDefIndex: 11498
+public class TrainEngineAudio.EngineReflection // TypeDefIndex: 11502
 {
 	public Vector3 direction; 
 	public Vector3 offset; 

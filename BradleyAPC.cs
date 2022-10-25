@@ -68,7 +68,7 @@ public class BradleyAPC : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 634
 
 }
 
-public class BradleyAPC : BaseCombatEntity // TypeDefIndex: 10248
+public class BradleyAPC : BaseCombatEntity // TypeDefIndex: 10250
 {
 	[HeaderAttribute] 
 	public BlendedLoopEngineSound engineSound; 
@@ -204,7 +204,7 @@ public class BradleyAPC : BaseCombatEntity // TypeDefIndex: 10248
 
 }
 
-public class BradleyAPC.TargetInfo : Pool.IPooled // TypeDefIndex: 10249
+public class BradleyAPC.TargetInfo : Pool.IPooled // TypeDefIndex: 10251
 {
 	public float damageReceivedFrom; 
 	public BaseEntity entity; 

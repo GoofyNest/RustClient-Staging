@@ -1,4 +1,4 @@
-public abstract class BaseTextEvent : MetaEvent // TypeDefIndex: 7540
+public abstract class BaseTextEvent : MetaEvent // TypeDefIndex: 7542
 {
 	[CompilerGeneratedAttribute] 
 	private string <Text>k__BackingField; 

@@ -1,4 +1,4 @@
-public static class BoundsCheckEx // TypeDefIndex: 12011
+public static class BoundsCheckEx // TypeDefIndex: 12020
 {
 
 	[ExtensionAttribute] 

@@ -1,4 +1,4 @@
-internal sealed class ParsingResult // TypeDefIndex: 7639
+internal sealed class ParsingResult // TypeDefIndex: 7641
 {
 	public static readonly ParsingResult Parsed; 
 	public static readonly ParsingResult EmptyInputString; 

@@ -1,4 +1,4 @@
-public class TriggerParentEnclosed : TriggerParent // TypeDefIndex: 11766
+public class TriggerParentEnclosed : TriggerParent // TypeDefIndex: 11775
 {
 	public float Padding; 
 	[TooltipAttribute] 
@@ -10,7 +10,7 @@ public class TriggerParentEnclosed : TriggerParent // TypeDefIndex: 11766
 
 }
 
-public enum TriggerParentEnclosed.TriggerMode // TypeDefIndex: 11767
+public enum TriggerParentEnclosed.TriggerMode // TypeDefIndex: 11776
 {
 	public int value__; 
 	public const TriggerParentEnclosed.TriggerMode TriggerPoint = 0;

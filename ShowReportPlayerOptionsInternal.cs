@@ -1,4 +1,4 @@
-internal struct ShowReportPlayerOptionsInternal : ISettable<ShowReportPlayerOptions>, IDisposable // TypeDefIndex: 8373
+internal struct ShowReportPlayerOptionsInternal : ISettable<ShowReportPlayerOptions>, IDisposable // TypeDefIndex: 8375
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

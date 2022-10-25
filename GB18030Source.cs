@@ -1,4 +1,4 @@
-internal class GB18030Source // TypeDefIndex: 7842
+internal class GB18030Source // TypeDefIndex: 7844
 {
 	private static readonly byte* gbx2uni; 
 	private static readonly byte* uni2gbx; 
@@ -31,7 +31,7 @@ internal class GB18030Source // TypeDefIndex: 7842
 
 }
 
-private class GB18030Source.GB18030Map // TypeDefIndex: 7843
+private class GB18030Source.GB18030Map // TypeDefIndex: 7845
 {
 	public readonly int UStart; 
 	public readonly int UEnd; 

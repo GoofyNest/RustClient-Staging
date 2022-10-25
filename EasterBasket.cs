@@ -1,4 +1,4 @@
-public class EasterBasket : AttackEntity // TypeDefIndex: 10279
+public class EasterBasket : AttackEntity // TypeDefIndex: 10281
 {
 	public GameObjectRef eggProjectile; 
 	public ItemDefinition ammoType; 

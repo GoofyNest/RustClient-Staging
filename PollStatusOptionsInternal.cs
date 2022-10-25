@@ -1,4 +1,4 @@
-internal struct PollStatusOptionsInternal : ISettable<PollStatusOptions>, IDisposable // TypeDefIndex: 9835
+internal struct PollStatusOptionsInternal : ISettable<PollStatusOptions>, IDisposable // TypeDefIndex: 9837
 {
 	private int m_ApiVersion; 
 	private uint m_OutMessageLength; 

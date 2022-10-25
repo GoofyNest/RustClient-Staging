@@ -1,4 +1,4 @@
-public class ChanceAIEvent : BaseAIEvent // TypeDefIndex: 11120
+public class ChanceAIEvent : BaseAIEvent // TypeDefIndex: 11124
 {
 	[CompilerGeneratedAttribute] 
 	private float <Chance>k__BackingField; 

@@ -1,4 +1,4 @@
-public enum PlatformFlags // TypeDefIndex: 9869
+public enum PlatformFlags // TypeDefIndex: 9871
 {
 	public ulong value__; 
 	public const PlatformFlags None = 0;

@@ -1,4 +1,4 @@
-public class CargoShipSounds : MonoBehaviour, IClientComponent // TypeDefIndex: 9995
+public class CargoShipSounds : MonoBehaviour, IClientComponent // TypeDefIndex: 9997
 {
 	public SoundDefinition waveSoundDef; 
 	public AnimationCurve waveSoundYGainCurve; 

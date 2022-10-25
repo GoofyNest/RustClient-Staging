@@ -1,4 +1,4 @@
-public class DepthAwareBackgroundBlur : DepthOfField // TypeDefIndex: 8187
+public class DepthAwareBackgroundBlur : DepthOfField // TypeDefIndex: 8189
 {
 	public float StartDistance; 
 	public float BlurSize; 

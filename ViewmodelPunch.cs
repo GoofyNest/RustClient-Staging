@@ -1,4 +1,4 @@
-public class ViewmodelPunch : MonoBehaviour // TypeDefIndex: 13226
+public class ViewmodelPunch : MonoBehaviour // TypeDefIndex: 13234
 {
 	public AnimationCurve punchScale; 
 	public Vector3 punchDirection; 

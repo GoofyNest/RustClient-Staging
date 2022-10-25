@@ -1,4 +1,4 @@
-public struct LogGameRoundEndOptions // TypeDefIndex: 9761
+public struct LogGameRoundEndOptions // TypeDefIndex: 9763
 {
 	[CompilerGeneratedAttribute] 
 	private uint <WinningTeamId>k__BackingField; 

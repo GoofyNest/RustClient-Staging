@@ -1,4 +1,4 @@
-public struct QueryStatsOptions // TypeDefIndex: 8436
+public struct QueryStatsOptions // TypeDefIndex: 8438
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

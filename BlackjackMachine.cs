@@ -1,4 +1,4 @@
-public class BlackjackMachine : BaseCardGameEntity // TypeDefIndex: 10074
+public class BlackjackMachine : BaseCardGameEntity // TypeDefIndex: 10076
 {
 	private Option __menuOption_Menu_Play; 
 	[HeaderAttribute] 

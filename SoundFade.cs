@@ -1,4 +1,4 @@
-public class SoundFade : MonoBehaviour, IClientComponent // TypeDefIndex: 10747
+public class SoundFade : MonoBehaviour, IClientComponent // TypeDefIndex: 10749
 {
 	public SoundFadeHQAudioFilter hqFadeFilter; 
 	public float currentGain; 
@@ -49,7 +49,7 @@ public class SoundFade : MonoBehaviour, IClientComponent // TypeDefIndex: 10747
 
 }
 
-public enum SoundFade.Direction // TypeDefIndex: 10748
+public enum SoundFade.Direction // TypeDefIndex: 10750
 {
 	public int value__; 
 	public const SoundFade.Direction In = 0;

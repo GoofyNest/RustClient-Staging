@@ -1,4 +1,4 @@
-public struct GetInviteCountOptions // TypeDefIndex: 8482
+public struct GetInviteCountOptions // TypeDefIndex: 8484
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 
@@ -14,7 +14,7 @@ public struct GetInviteCountOptions // TypeDefIndex: 8482
 
 }
 
-public struct GetInviteCountOptions // TypeDefIndex: 9091
+public struct GetInviteCountOptions // TypeDefIndex: 9093
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

@@ -1,4 +1,4 @@
-public class BaseMission : BaseScriptableObject // TypeDefIndex: 11931
+public class BaseMission : BaseScriptableObject // TypeDefIndex: 11940
 {
 	public string shortname; 
 	public Translate.Phrase missionName; 
@@ -34,7 +34,7 @@ public class BaseMission : BaseScriptableObject // TypeDefIndex: 11931
 
 }
 
-public class BaseMission.MissionDependancy // TypeDefIndex: 11932
+public class BaseMission.MissionDependancy // TypeDefIndex: 11941
 {
 	public string targetMissionShortname; 
 	public BaseMission.MissionStatus targetMissionDesiredStatus; 
@@ -49,7 +49,7 @@ public class BaseMission.MissionDependancy // TypeDefIndex: 11932
 
 }
 
-public enum BaseMission.MissionStatus // TypeDefIndex: 11933
+public enum BaseMission.MissionStatus // TypeDefIndex: 11942
 {
 	public int value__; 
 	public const BaseMission.MissionStatus Default = 0;
@@ -60,7 +60,7 @@ public enum BaseMission.MissionStatus // TypeDefIndex: 11933
 
 }
 
-public enum BaseMission.MissionEventType // TypeDefIndex: 11934
+public enum BaseMission.MissionEventType // TypeDefIndex: 11943
 {
 	public int value__; 
 	public const BaseMission.MissionEventType CUSTOM = 0;
@@ -72,7 +72,7 @@ public enum BaseMission.MissionEventType // TypeDefIndex: 11934
 
 }
 
-public class BaseMission.MissionObjectiveEntry // TypeDefIndex: 11935
+public class BaseMission.MissionObjectiveEntry // TypeDefIndex: 11944
 {
 	public Translate.Phrase description; 
 	public int[] startAfterCompletedObjectives; 
@@ -87,7 +87,7 @@ public class BaseMission.MissionObjectiveEntry // TypeDefIndex: 11935
 
 }
 
-public class BaseMission.MissionInstance : Pool.IPooled // TypeDefIndex: 11936
+public class BaseMission.MissionInstance : Pool.IPooled // TypeDefIndex: 11945
 {
 	private BaseEntity _cachedProviderEntity; 
 	private BaseMission _cachedMission; 
@@ -119,7 +119,7 @@ public class BaseMission.MissionInstance : Pool.IPooled // TypeDefIndex: 11936
 
 }
 
-public class BaseMission.MissionInstance.ObjectiveStatus // TypeDefIndex: 11937
+public class BaseMission.MissionInstance.ObjectiveStatus // TypeDefIndex: 11946
 {
 	public bool started; 
 	public bool completed; 
@@ -132,7 +132,7 @@ public class BaseMission.MissionInstance.ObjectiveStatus // TypeDefIndex: 11937
 
 }
 
-public enum BaseMission.MissionInstance.ObjectiveType // TypeDefIndex: 11938
+public enum BaseMission.MissionInstance.ObjectiveType // TypeDefIndex: 11947
 {
 	public int value__; 
 	public const BaseMission.MissionInstance.ObjectiveType MOVE = 0;
@@ -140,7 +140,7 @@ public enum BaseMission.MissionInstance.ObjectiveType // TypeDefIndex: 11938
 
 }
 
-public class BaseMission.PositionGenerator // TypeDefIndex: 11939
+public class BaseMission.PositionGenerator // TypeDefIndex: 11948
 {
 	public string identifier; 
 	public float minDistForMovePoint; 
@@ -166,7 +166,7 @@ public class BaseMission.PositionGenerator // TypeDefIndex: 11939
 
 }
 
-public enum BaseMission.PositionGenerator.PositionType // TypeDefIndex: 11940
+public enum BaseMission.PositionGenerator.PositionType // TypeDefIndex: 11949
 {
 	public int value__; 
 	public const BaseMission.PositionGenerator.PositionType MissionPoint = 0;
@@ -175,7 +175,7 @@ public enum BaseMission.PositionGenerator.PositionType // TypeDefIndex: 11940
 
 }
 
-public class BaseMission.MissionEntityEntry // TypeDefIndex: 11941
+public class BaseMission.MissionEntityEntry // TypeDefIndex: 11950
 {
 	public GameObjectRef entityRef; 
 	public string spawnPositionToUse; 

@@ -1,4 +1,4 @@
-public enum MidiTimeCodeComponent // TypeDefIndex: 7570
+public enum MidiTimeCodeComponent // TypeDefIndex: 7572
 {
 	public byte value__; 
 	public const MidiTimeCodeComponent FramesLsb = 0;

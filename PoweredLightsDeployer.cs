@@ -1,4 +1,4 @@
-public class PoweredLightsDeployer : HeldEntity // TypeDefIndex: 10337
+public class PoweredLightsDeployer : HeldEntity // TypeDefIndex: 10339
 {
 	public GameObjectRef poweredLightsPrefab; 
 	public EntityRef activeLights; 

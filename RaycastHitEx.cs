@@ -1,4 +1,4 @@
-public static class RaycastHitEx // TypeDefIndex: 13113
+public static class RaycastHitEx // TypeDefIndex: 13122
 {
 
 	[ExtensionAttribute] 

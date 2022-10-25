@@ -1,4 +1,4 @@
-internal class Triangles // TypeDefIndex: 8224
+internal class Triangles // TypeDefIndex: 8226
 {
 	private static Mesh[] meshes; 
 	private static int currentTris; 

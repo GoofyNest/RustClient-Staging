@@ -1,4 +1,4 @@
-public struct CreateUserOptions // TypeDefIndex: 9320
+public struct CreateUserOptions // TypeDefIndex: 9322
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 
@@ -32,7 +32,7 @@ public struct CreateUserOptions // TypeDefIndex: 9320
 
 }
 
-public struct CreateUserOptions // TypeDefIndex: 9563
+public struct CreateUserOptions // TypeDefIndex: 9565
 {
 	[CompilerGeneratedAttribute] 
 	private ContinuanceToken <ContinuanceToken>k__BackingField; 

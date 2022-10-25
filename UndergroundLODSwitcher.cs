@@ -1,4 +1,4 @@
-public class UndergroundLODSwitcher : MonoBehaviour, IClientComponent // TypeDefIndex: 11687
+public class UndergroundLODSwitcher : MonoBehaviour, IClientComponent // TypeDefIndex: 11694
 {
 	public LODComponent TargetComponent; 
 

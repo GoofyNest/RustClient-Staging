@@ -1,4 +1,4 @@
-public class WorldCell // TypeDefIndex: 11811
+public class WorldCell // TypeDefIndex: 11820
 {
 	public Vector3 Position; 
 	public float Size; 
@@ -24,7 +24,7 @@ public class WorldCell // TypeDefIndex: 11811
 
 }
 
-public class WorldCell.PrefabInfo // TypeDefIndex: 11812
+public class WorldCell.PrefabInfo // TypeDefIndex: 11821
 {
 	public string category; 
 	public Prefab prefab; 

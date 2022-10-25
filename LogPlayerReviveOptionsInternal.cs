@@ -1,4 +1,4 @@
-internal struct LogPlayerReviveOptionsInternal : ISettable<LogPlayerReviveOptions>, IDisposable // TypeDefIndex: 9768
+internal struct LogPlayerReviveOptionsInternal : ISettable<LogPlayerReviveOptions>, IDisposable // TypeDefIndex: 9770
 {
 	private int m_ApiVersion; 
 	private IntPtr m_RevivedPlayerHandle; 

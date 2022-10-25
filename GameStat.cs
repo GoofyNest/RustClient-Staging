@@ -1,4 +1,4 @@
-public class GameStat : MonoBehaviour // TypeDefIndex: 12675
+public class GameStat : MonoBehaviour // TypeDefIndex: 12684
 {
 	public float refreshTime; 
 	public Text title; 
@@ -31,7 +31,7 @@ public class GameStat : MonoBehaviour // TypeDefIndex: 12675
 
 }
 
-public struct GameStat.Stat // TypeDefIndex: 12676
+public struct GameStat.Stat // TypeDefIndex: 12685
 {
 	public string statName; 
 	public string statTitle; 

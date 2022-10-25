@@ -1,4 +1,4 @@
-public struct DefinitionV2 // TypeDefIndex: 9903
+public struct DefinitionV2 // TypeDefIndex: 9905
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <AchievementId>k__BackingField; 

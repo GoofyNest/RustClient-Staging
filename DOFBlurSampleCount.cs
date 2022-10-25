@@ -1,4 +1,4 @@
-public enum DOFBlurSampleCount // TypeDefIndex: 11977
+public enum DOFBlurSampleCount // TypeDefIndex: 11986
 {
 	public int value__; 
 	public const DOFBlurSampleCount Low = 0;

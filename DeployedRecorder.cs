@@ -1,4 +1,4 @@
-public class DeployedRecorder : StorageContainer, ICassettePlayer // TypeDefIndex: 10089
+public class DeployedRecorder : StorageContainer, ICassettePlayer // TypeDefIndex: 10091
 {
 	private Option __menuOption_Play; 
 	private Option __menuOption_Stop; 

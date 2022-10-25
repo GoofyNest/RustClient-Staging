@@ -1,4 +1,4 @@
-public class CollectibleEntity : BaseEntity, IPrefabPreProcess // TypeDefIndex: 10262
+public class CollectibleEntity : BaseEntity, IPrefabPreProcess // TypeDefIndex: 10264
 {
 	public Translate.Phrase itemName; 
 	public ItemAmount[] itemList; 

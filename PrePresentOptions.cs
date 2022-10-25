@@ -1,4 +1,4 @@
-public struct PrePresentOptions // TypeDefIndex: 8358
+public struct PrePresentOptions // TypeDefIndex: 8360
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <PlatformSpecificData>k__BackingField; 

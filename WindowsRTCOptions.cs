@@ -1,4 +1,4 @@
-public struct WindowsRTCOptions // TypeDefIndex: 9876
+public struct WindowsRTCOptions // TypeDefIndex: 9878
 {
 	[CompilerGeneratedAttribute] 
 	private Nullable<WindowsRTCOptionsPlatformSpecificOptions> <PlatformSpecificOptions>k__BackingField; 

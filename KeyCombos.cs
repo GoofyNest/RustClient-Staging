@@ -1,4 +1,4 @@
-public static class KeyCombos // TypeDefIndex: 8240
+public static class KeyCombos // TypeDefIndex: 8242
 {
 
 	public static bool TryParse(ref string name, out List<KeyCode> keys) { }
@@ -11,7 +11,7 @@ public static class KeyCombos // TypeDefIndex: 8240
 
 }
 
-private sealed class KeyCombos.<>c // TypeDefIndex: 8241
+private sealed class KeyCombos.<>c // TypeDefIndex: 8243
 {
 	public static readonly KeyCombos.<>c <>9; 
 	public static Func<KeyCode, string> <>9__0_0; 
@@ -28,7 +28,7 @@ private sealed class KeyCombos.<>c // TypeDefIndex: 8241
 
 }
 
-private sealed class KeyCombos.<>c__DisplayClass1_0 // TypeDefIndex: 8242
+private sealed class KeyCombos.<>c__DisplayClass1_0 // TypeDefIndex: 8244
 {
 	public List<KeyCode> keys; 
 

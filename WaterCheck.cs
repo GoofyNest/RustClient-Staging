@@ -1,4 +1,4 @@
-public class WaterCheck : PrefabAttribute // TypeDefIndex: 12370
+public class WaterCheck : PrefabAttribute // TypeDefIndex: 12379
 {
 	public bool Rotate; 
 

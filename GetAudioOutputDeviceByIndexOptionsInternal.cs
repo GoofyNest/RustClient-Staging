@@ -1,4 +1,4 @@
-internal struct GetAudioOutputDeviceByIndexOptionsInternal : ISettable<GetAudioOutputDeviceByIndexOptions>, IDisposable // TypeDefIndex: 8665
+internal struct GetAudioOutputDeviceByIndexOptionsInternal : ISettable<GetAudioOutputDeviceByIndexOptions>, IDisposable // TypeDefIndex: 8667
 {
 	private int m_ApiVersion; 
 	private uint m_DeviceInfoIndex; 

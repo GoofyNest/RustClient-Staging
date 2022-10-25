@@ -1,4 +1,4 @@
-public class TexasHoldEmController : CardGameController // TypeDefIndex: 13787
+public class TexasHoldEmController : CardGameController // TypeDefIndex: 13796
 {
 	public List<PlayingCard> communityCards; 
 	public const int SMALL_BLIND = 5;
@@ -115,7 +115,7 @@ public class TexasHoldEmController : CardGameController // TypeDefIndex: 13787
 
 }
 
-public enum TexasHoldEmController.PokerInputOption // TypeDefIndex: 13788
+public enum TexasHoldEmController.PokerInputOption // TypeDefIndex: 13797
 {
 	public int value__; 
 	public const TexasHoldEmController.PokerInputOption None = 0;
@@ -129,7 +129,7 @@ public enum TexasHoldEmController.PokerInputOption // TypeDefIndex: 13788
 
 }
 
-public enum TexasHoldEmController.PokerRoundResult // TypeDefIndex: 13789
+public enum TexasHoldEmController.PokerRoundResult // TypeDefIndex: 13798
 {
 	public int value__; 
 	public const TexasHoldEmController.PokerRoundResult Loss = 0;

@@ -62,7 +62,7 @@ public class Cassette : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6394
 
 }
 
-public class Cassette : BaseEntity, IUGCBrowserEntity // TypeDefIndex: 10256
+public class Cassette : BaseEntity, IUGCBrowserEntity // TypeDefIndex: 10258
 {
 	private static List<Cassette.LoadRequest> loadQueue; 
 	private static bool isLoading; 
@@ -137,7 +137,7 @@ public class Cassette : BaseEntity, IUGCBrowserEntity // TypeDefIndex: 10256
 
 }
 
-private struct Cassette.LoadRequest // TypeDefIndex: 10257
+private struct Cassette.LoadRequest // TypeDefIndex: 10259
 {
 	public byte[] Data; 
 	public Action<AudioClip, bool> Callback; 
@@ -145,7 +145,7 @@ private struct Cassette.LoadRequest // TypeDefIndex: 10257
 
 }
 
-private sealed class Cassette.<>c__DisplayClass29_0 // TypeDefIndex: 10258
+private sealed class Cassette.<>c__DisplayClass29_0 // TypeDefIndex: 10260
 {
 	public Cassette <>4__this; 
 	public Action<AudioClip> onAudioReady; 
@@ -157,7 +157,7 @@ private sealed class Cassette.<>c__DisplayClass29_0 // TypeDefIndex: 10258
 
 }
 
-private sealed class Cassette.<>c__DisplayClass31_0 // TypeDefIndex: 10259
+private sealed class Cassette.<>c__DisplayClass31_0 // TypeDefIndex: 10261
 {
 	public Cassette <>4__this; 
 	public byte[] data; 

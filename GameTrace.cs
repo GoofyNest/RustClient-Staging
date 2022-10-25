@@ -1,4 +1,4 @@
-public static class GameTrace // TypeDefIndex: 10983
+public static class GameTrace // TypeDefIndex: 10985
 {
 	private const int tracePadding = 5;
 
@@ -9,7 +9,7 @@ public static class GameTrace // TypeDefIndex: 10983
 
 }
 
-private sealed class GameTrace.<>c // TypeDefIndex: 10984
+private sealed class GameTrace.<>c // TypeDefIndex: 10986
 {
 	public static readonly GameTrace.<>c <>9; 
 	public static Comparison<TraceInfo> <>9__1_0; 

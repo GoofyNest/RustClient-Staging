@@ -1,4 +1,4 @@
-public class RandomObjectEnableOnEnable : MonoBehaviour // TypeDefIndex: 12972
+public class RandomObjectEnableOnEnable : MonoBehaviour // TypeDefIndex: 12981
 {
 	public GameObject[] objects; 
 

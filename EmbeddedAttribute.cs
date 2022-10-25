@@ -77,7 +77,7 @@ internal sealed class EmbeddedAttribute : Attribute
 
 }
 
-internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 9953
+internal sealed class EmbeddedAttribute : Attribute // TypeDefIndex: 9955
 {
 
 	public void .ctor() { }

@@ -1,4 +1,4 @@
-public struct LinkAccountCallbackInfo : ICallbackInfo // TypeDefIndex: 9581
+public struct LinkAccountCallbackInfo : ICallbackInfo // TypeDefIndex: 9583
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 
@@ -36,7 +36,7 @@ public struct LinkAccountCallbackInfo : ICallbackInfo // TypeDefIndex: 9581
 
 }
 
-public struct LinkAccountCallbackInfo : ICallbackInfo // TypeDefIndex: 9656
+public struct LinkAccountCallbackInfo : ICallbackInfo // TypeDefIndex: 9658
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

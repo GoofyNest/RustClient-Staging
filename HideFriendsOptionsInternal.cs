@@ -1,4 +1,4 @@
-internal struct HideFriendsOptionsInternal : ISettable<HideFriendsOptions>, IDisposable // TypeDefIndex: 8335
+internal struct HideFriendsOptionsInternal : ISettable<HideFriendsOptions>, IDisposable // TypeDefIndex: 8337
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

@@ -1,4 +1,4 @@
-internal struct UnlinkAccountCallbackInfoInternal : ICallbackInfoInternal, IGettable<UnlinkAccountCallbackInfo>, ISettable<UnlinkAccountCallbackInfo>, IDisposable // TypeDefIndex: 9628
+internal struct UnlinkAccountCallbackInfoInternal : ICallbackInfoInternal, IGettable<UnlinkAccountCallbackInfo>, ISettable<UnlinkAccountCallbackInfo>, IDisposable // TypeDefIndex: 9630
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

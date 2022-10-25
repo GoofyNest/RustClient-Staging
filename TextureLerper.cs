@@ -1,4 +1,4 @@
-internal class TextureLerper // TypeDefIndex: 13636
+internal class TextureLerper // TypeDefIndex: 13644
 {
 	private static TextureLerper m_Instance; 
 	private CommandBuffer m_Command; 

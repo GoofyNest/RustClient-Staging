@@ -1,4 +1,4 @@
-internal struct PresenceModificationSetJoinInfoOptionsInternal : ISettable<PresenceModificationSetJoinInfoOptions>, IDisposable // TypeDefIndex: 8844
+internal struct PresenceModificationSetJoinInfoOptionsInternal : ISettable<PresenceModificationSetJoinInfoOptions>, IDisposable // TypeDefIndex: 8846
 {
 	private int m_ApiVersion; 
 	private IntPtr m_JoinInfo; 

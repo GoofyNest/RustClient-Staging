@@ -1,4 +1,4 @@
-public abstract class CardGameController : IDisposable // TypeDefIndex: 13775
+public abstract class CardGameController : IDisposable // TypeDefIndex: 13784
 {
 	[CompilerGeneratedAttribute] 
 	private CardGameController.CardGameState <State>k__BackingField; 
@@ -178,7 +178,7 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13775
 
 }
 
-public enum CardGameController.CardGameState // TypeDefIndex: 13776
+public enum CardGameController.CardGameState // TypeDefIndex: 13785
 {
 	public int value__; 
 	public const CardGameController.CardGameState NotPlaying = 0;
@@ -187,7 +187,7 @@ public enum CardGameController.CardGameState // TypeDefIndex: 13776
 
 }
 
-public enum CardGameController.Playability // TypeDefIndex: 13777
+public enum CardGameController.Playability // TypeDefIndex: 13786
 {
 	public int value__; 
 	public const CardGameController.Playability OK = 0;
@@ -199,7 +199,7 @@ public enum CardGameController.Playability // TypeDefIndex: 13777
 
 }
 
-private sealed class CardGameController.<PlayersInRound>d__48 : IEnumerable<CardPlayerData>, IEnumerable, IEnumerator<CardPlayerData>, IEnumerator, IDisposable // TypeDefIndex: 13778
+private sealed class CardGameController.<PlayersInRound>d__48 : IEnumerable<CardPlayerData>, IEnumerable, IEnumerator<CardPlayerData>, IEnumerator, IDisposable // TypeDefIndex: 13787
 {
 	private int <>1__state; 
 	private CardPlayerData <>2__current; 
@@ -237,7 +237,7 @@ private sealed class CardGameController.<PlayersInRound>d__48 : IEnumerable<Card
 
 }
 
-private sealed class CardGameController.<>c__DisplayClass60_0 // TypeDefIndex: 13779
+private sealed class CardGameController.<>c__DisplayClass60_0 // TypeDefIndex: 13788
 {
 	public BasePlayer player; 
 
@@ -248,7 +248,7 @@ private sealed class CardGameController.<>c__DisplayClass60_0 // TypeDefIndex: 1
 
 }
 
-private sealed class CardGameController.<>c__DisplayClass64_0 // TypeDefIndex: 13780
+private sealed class CardGameController.<>c__DisplayClass64_0 // TypeDefIndex: 13789
 {
 	public ulong userID; 
 
@@ -259,7 +259,7 @@ private sealed class CardGameController.<>c__DisplayClass64_0 // TypeDefIndex: 1
 
 }
 
-private sealed class CardGameController.<>c // TypeDefIndex: 13781
+private sealed class CardGameController.<>c // TypeDefIndex: 13790
 {
 	public static readonly CardGameController.<>c <>9; 
 	public static Func<PlayingCard, bool> <>9__85_0; 

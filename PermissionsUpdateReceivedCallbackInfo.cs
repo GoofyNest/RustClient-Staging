@@ -1,4 +1,4 @@
-public struct PermissionsUpdateReceivedCallbackInfo : ICallbackInfo // TypeDefIndex: 9342
+public struct PermissionsUpdateReceivedCallbackInfo : ICallbackInfo // TypeDefIndex: 9344
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

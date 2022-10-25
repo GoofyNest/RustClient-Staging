@@ -1,4 +1,4 @@
-public class MissionMapMarker : MonoBehaviour // TypeDefIndex: 12703
+public class MissionMapMarker : MonoBehaviour // TypeDefIndex: 12712
 {
 	public Image Icon; 
 	public Tooltip TooltipComponent; 

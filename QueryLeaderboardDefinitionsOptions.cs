@@ -1,4 +1,4 @@
-public struct QueryLeaderboardDefinitionsOptions // TypeDefIndex: 9306
+public struct QueryLeaderboardDefinitionsOptions // TypeDefIndex: 9308
 {
 	[CompilerGeneratedAttribute] 
 	private Nullable<DateTimeOffset> <StartTime>k__BackingField; 

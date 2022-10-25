@@ -1,4 +1,4 @@
-public class ConstructionSocket : Socket_Base // TypeDefIndex: 10779
+public class ConstructionSocket : Socket_Base // TypeDefIndex: 10781
 {
 	public ConstructionSocket.Type socketType; 
 	public int rotationDegrees; 
@@ -31,7 +31,7 @@ public class ConstructionSocket : Socket_Base // TypeDefIndex: 10779
 
 }
 
-public enum ConstructionSocket.Type // TypeDefIndex: 10780
+public enum ConstructionSocket.Type // TypeDefIndex: 10782
 {
 	public int value__; 
 	public const ConstructionSocket.Type None = 0;
@@ -56,7 +56,7 @@ public enum ConstructionSocket.Type // TypeDefIndex: 10780
 
 }
 
-public class ConstructionSocket_Elevator : ConstructionSocket // TypeDefIndex: 10781
+public class ConstructionSocket_Elevator : ConstructionSocket // TypeDefIndex: 10783
 {
 	public int MaxFloor; 
 

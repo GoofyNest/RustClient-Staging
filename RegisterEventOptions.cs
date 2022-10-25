@@ -1,4 +1,4 @@
-public struct RegisterEventOptions // TypeDefIndex: 9789
+public struct RegisterEventOptions // TypeDefIndex: 9791
 {
 	[CompilerGeneratedAttribute] 
 	private uint <EventId>k__BackingField; 

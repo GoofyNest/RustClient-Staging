@@ -1,4 +1,4 @@
-internal struct WriteFileOptionsInternal : ISettable<WriteFileOptions>, IDisposable // TypeDefIndex: 8924
+internal struct WriteFileOptionsInternal : ISettable<WriteFileOptions>, IDisposable // TypeDefIndex: 8926
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

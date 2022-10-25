@@ -1,4 +1,4 @@
-public class Scoreboard : MonoBehaviour, IClientComponent // TypeDefIndex: 12978
+public class Scoreboard : MonoBehaviour, IClientComponent // TypeDefIndex: 12987
 {
 	public static Scoreboard instance; 
 	public RustText scoreboardTitle; 
@@ -37,7 +37,7 @@ public class Scoreboard : MonoBehaviour, IClientComponent // TypeDefIndex: 12978
 
 }
 
-public class Scoreboard.TeamColumn // TypeDefIndex: 12979
+public class Scoreboard.TeamColumn // TypeDefIndex: 12988
 {
 	public GameObject nameColumn; 
 	public GameObject[] activeColumns; 

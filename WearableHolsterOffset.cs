@@ -1,4 +1,4 @@
-public class WearableHolsterOffset : MonoBehaviour // TypeDefIndex: 11795
+public class WearableHolsterOffset : MonoBehaviour // TypeDefIndex: 11804
 {
 	public WearableHolsterOffset.offsetInfo[] Offsets; 
 
@@ -7,7 +7,7 @@ public class WearableHolsterOffset : MonoBehaviour // TypeDefIndex: 11795
 
 }
 
-public class WearableHolsterOffset.offsetInfo // TypeDefIndex: 11796
+public class WearableHolsterOffset.offsetInfo // TypeDefIndex: 11805
 {
 	public HeldEntity.HolsterInfo.HolsterSlot type; 
 	public Vector3 offset; 

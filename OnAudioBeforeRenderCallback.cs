@@ -1,4 +1,4 @@
-public sealed class OnAudioBeforeRenderCallback : MulticastDelegate // TypeDefIndex: 8668
+public sealed class OnAudioBeforeRenderCallback : MulticastDelegate // TypeDefIndex: 8670
 {
 
 	public void .ctor(object object, IntPtr method) { }

@@ -1,4 +1,4 @@
-public struct StartSessionOptions // TypeDefIndex: 8599
+public struct StartSessionOptions // TypeDefIndex: 8601
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <SessionName>k__BackingField; 

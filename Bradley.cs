@@ -1,4 +1,4 @@
-public class Bradley : ConsoleSystem // TypeDefIndex: 13647
+public class Bradley : ConsoleSystem // TypeDefIndex: 13655
 {
 
 	public void .ctor() { }

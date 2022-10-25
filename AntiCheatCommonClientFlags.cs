@@ -1,4 +1,4 @@
-public enum AntiCheatCommonClientFlags // TypeDefIndex: 9744
+public enum AntiCheatCommonClientFlags // TypeDefIndex: 9746
 {
 	public int value__; 
 	public const AntiCheatCommonClientFlags None = 0;

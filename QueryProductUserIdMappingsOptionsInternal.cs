@@ -1,4 +1,4 @@
-internal struct QueryProductUserIdMappingsOptionsInternal : ISettable<QueryProductUserIdMappingsOptions>, IDisposable // TypeDefIndex: 9622
+internal struct QueryProductUserIdMappingsOptionsInternal : ISettable<QueryProductUserIdMappingsOptions>, IDisposable // TypeDefIndex: 9624
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

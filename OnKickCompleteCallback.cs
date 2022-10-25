@@ -1,4 +1,4 @@
-public sealed class OnKickCompleteCallback : MulticastDelegate // TypeDefIndex: 8734
+public sealed class OnKickCompleteCallback : MulticastDelegate // TypeDefIndex: 8736
 {
 
 	public void .ctor(object object, IntPtr method) { }

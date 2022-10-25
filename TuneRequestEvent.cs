@@ -1,4 +1,4 @@
-public sealed class TuneRequestEvent : SystemCommonEvent // TypeDefIndex: 7574
+public sealed class TuneRequestEvent : SystemCommonEvent // TypeDefIndex: 7576
 {
 
 	public void .ctor() { }

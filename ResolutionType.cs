@@ -1,4 +1,4 @@
-public enum ResolutionType // TypeDefIndex: 11988
+public enum ResolutionType // TypeDefIndex: 11997
 {
 	public int value__; 
 	public const ResolutionType Low = 0;

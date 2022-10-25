@@ -60,7 +60,7 @@ public class HotAirBalloon : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 
 
 }
 
-public class HotAirBalloon : BaseCombatEntity // TypeDefIndex: 10108
+public class HotAirBalloon : BaseCombatEntity // TypeDefIndex: 10110
 {
 	private Option __menuOption_Menu_BurnOff; 
 	private Option __menuOption_Menu_BurnOn; 

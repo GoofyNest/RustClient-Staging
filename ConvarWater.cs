@@ -1,4 +1,4 @@
-public class ConvarWater : MonoBehaviour // TypeDefIndex: 13066
+public class ConvarWater : MonoBehaviour // TypeDefIndex: 13075
 {
 	[FormerlySerializedAsAttribute] 
 	public WaterSystem water; 

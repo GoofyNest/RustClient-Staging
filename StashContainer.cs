@@ -1,4 +1,4 @@
-public class StashContainer : StorageContainer // TypeDefIndex: 10165
+public class StashContainer : StorageContainer // TypeDefIndex: 10167
 {
 	private Option __menuOption_Menu_HideStash; 
 	public Transform visuals; 
@@ -42,7 +42,7 @@ public class StashContainer : StorageContainer // TypeDefIndex: 10165
 
 }
 
-public static class StashContainer.StashContainerFlags // TypeDefIndex: 10166
+public static class StashContainer.StashContainerFlags // TypeDefIndex: 10168
 {
 	public const BaseEntity.Flags Hidden = 2048;
 

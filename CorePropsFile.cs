@@ -1,4 +1,4 @@
-internal struct CorePropsFile // TypeDefIndex: 7712
+internal struct CorePropsFile // TypeDefIndex: 7714
 {
 	[CompilerGeneratedAttribute] 
 	private string <Address>k__BackingField; 

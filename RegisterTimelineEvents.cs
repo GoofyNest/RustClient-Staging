@@ -1,4 +1,4 @@
-internal struct RegisterTimelineEvents // TypeDefIndex: 7719
+internal struct RegisterTimelineEvents // TypeDefIndex: 7721
 {
 	[CompilerGeneratedAttribute] 
 	private string <GameId>k__BackingField; 

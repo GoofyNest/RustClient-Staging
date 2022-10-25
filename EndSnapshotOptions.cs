@@ -1,4 +1,4 @@
-public struct EndSnapshotOptions // TypeDefIndex: 8798
+public struct EndSnapshotOptions // TypeDefIndex: 8800
 {
 	[CompilerGeneratedAttribute] 
 	private uint <SnapshotId>k__BackingField; 

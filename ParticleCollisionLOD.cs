@@ -1,4 +1,4 @@
-public class ParticleCollisionLOD : LODComponentParticleSystem // TypeDefIndex: 11674
+public class ParticleCollisionLOD : LODComponentParticleSystem // TypeDefIndex: 11681
 {
 	[HorizontalAttribute] 
 	public ParticleCollisionLOD.State[] States; 
@@ -14,7 +14,7 @@ public class ParticleCollisionLOD : LODComponentParticleSystem // TypeDefIndex: 
 
 }
 
-public enum ParticleCollisionLOD.QualityLevel // TypeDefIndex: 11675
+public enum ParticleCollisionLOD.QualityLevel // TypeDefIndex: 11682
 {
 	public int value__; 
 	public const ParticleCollisionLOD.QualityLevel Disabled = -1;
@@ -24,7 +24,7 @@ public enum ParticleCollisionLOD.QualityLevel // TypeDefIndex: 11675
 
 }
 
-public class ParticleCollisionLOD.State // TypeDefIndex: 11676
+public class ParticleCollisionLOD.State // TypeDefIndex: 11683
 {
 	public float distance; 
 	public ParticleCollisionLOD.QualityLevel quality; 

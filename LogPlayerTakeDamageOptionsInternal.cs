@@ -1,4 +1,4 @@
-internal struct LogPlayerTakeDamageOptionsInternal : ISettable<LogPlayerTakeDamageOptions>, IDisposable // TypeDefIndex: 9772
+internal struct LogPlayerTakeDamageOptionsInternal : ISettable<LogPlayerTakeDamageOptions>, IDisposable // TypeDefIndex: 9774
 {
 	private int m_ApiVersion; 
 	private IntPtr m_VictimPlayerHandle; 

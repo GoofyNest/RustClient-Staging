@@ -1,4 +1,4 @@
-public class QuickCraft : SingletonComponent<QuickCraft>, IInventoryChanged // TypeDefIndex: 12803
+public class QuickCraft : SingletonComponent<QuickCraft>, IInventoryChanged // TypeDefIndex: 12812
 {
 	public GameObjectRef craftButton; 
 	public GameObject empty; 
@@ -57,7 +57,7 @@ public class QuickCraft : SingletonComponent<QuickCraft>, IInventoryChanged // T
 
 }
 
-private sealed class QuickCraft.<WatchForChanges>d__16 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12804
+private sealed class QuickCraft.<WatchForChanges>d__16 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12813
 {
 	private int <>1__state; 
 	private object <>2__current; 

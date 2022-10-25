@@ -1,4 +1,4 @@
-public class PetCommandList : PrefabAttribute // TypeDefIndex: 11157
+public class PetCommandList : PrefabAttribute // TypeDefIndex: 11161
 {
 	public List<PetCommandList.PetCommandDesc> Commands; 
 
@@ -11,7 +11,7 @@ public class PetCommandList : PrefabAttribute // TypeDefIndex: 11157
 
 }
 
-public struct PetCommandList.PetCommandDesc // TypeDefIndex: 11158
+public struct PetCommandList.PetCommandDesc // TypeDefIndex: 11162
 {
 	public PetCommandType CommandType; 
 	public Translate.Phrase Title; 

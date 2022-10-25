@@ -1,4 +1,4 @@
-public struct OnFriendsUpdateInfo : ICallbackInfo // TypeDefIndex: 9389
+public struct OnFriendsUpdateInfo : ICallbackInfo // TypeDefIndex: 9391
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

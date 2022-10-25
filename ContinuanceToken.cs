@@ -1,4 +1,4 @@
-public sealed class ContinuanceToken : Handle // TypeDefIndex: 8275
+public sealed class ContinuanceToken : Handle // TypeDefIndex: 8277
 {
 
 	public void .ctor() { }

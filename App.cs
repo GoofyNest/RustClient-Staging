@@ -2532,7 +2532,7 @@ public static class Application // TypeDefIndex: 6620
 
 }
 
-public enum AppCategory // TypeDefIndex: 7681
+public enum AppCategory // TypeDefIndex: 7683
 {
 	public int value__; 
 	public const AppCategory Invalid = 0;
@@ -2541,7 +2541,7 @@ public enum AppCategory // TypeDefIndex: 7681
 
 }
 
-public static class Approved // TypeDefIndex: 7731
+public static class Approved // TypeDefIndex: 7733
 {
 	private static Dictionary<ulong, ApprovedSkinInfo> _all; 
 
@@ -3228,7 +3228,7 @@ public static class Approved // TypeDefIndex: 7731
 
 }
 
-public class ApprovedSkinInfo // TypeDefIndex: 7747
+public class ApprovedSkinInfo // TypeDefIndex: 7749
 {
 	[CompilerGeneratedAttribute] 
 	private ulong <InventoryId>k__BackingField; 
@@ -3350,7 +3350,7 @@ public class ApprovedSkinInfo // TypeDefIndex: 7747
 
 }
 
-private sealed class ApprovedSkinInfo.<>c__DisplayClass44_0 // TypeDefIndex: 7748
+private sealed class ApprovedSkinInfo.<>c__DisplayClass44_0 // TypeDefIndex: 7750
 {
 	public string ItemName; 
 
@@ -3361,7 +3361,7 @@ private sealed class ApprovedSkinInfo.<>c__DisplayClass44_0 // TypeDefIndex: 774
 
 }
 
-public enum ApplicationStatus // TypeDefIndex: 9854
+public enum ApplicationStatus // TypeDefIndex: 9856
 {
 	public int value__; 
 	public const ApplicationStatus BackgroundConstrained = 0;
@@ -3371,7 +3371,7 @@ public enum ApplicationStatus // TypeDefIndex: 9854
 
 }
 
-public abstract class AppIOEntity : IOEntity // TypeDefIndex: 10012
+public abstract class AppIOEntity : IOEntity // TypeDefIndex: 10014
 {
 	private Option __menuOption_Menu_Pair; 
 
@@ -3396,7 +3396,7 @@ public abstract class AppIOEntity : IOEntity // TypeDefIndex: 10012
 
 }
 
-public class ApplyTerrainAnchors : MonoBehaviour // TypeDefIndex: 12108
+public class ApplyTerrainAnchors : MonoBehaviour // TypeDefIndex: 12117
 {
 
 	protected void Awake() { }
@@ -3405,7 +3405,7 @@ public class ApplyTerrainAnchors : MonoBehaviour // TypeDefIndex: 12108
 
 }
 
-public class ApplyTerrainModifiers : MonoBehaviour // TypeDefIndex: 12309
+public class ApplyTerrainModifiers : MonoBehaviour // TypeDefIndex: 12318
 {
 
 	protected void Awake() { }
@@ -3414,7 +3414,7 @@ public class ApplyTerrainModifiers : MonoBehaviour // TypeDefIndex: 12309
 
 }
 
-public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 12895
+public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 12904
 {
 	public Button ApplyButton; 
 	public TweakUIBase[] Options; 
@@ -3432,7 +3432,7 @@ public class ApplyTweakUIChanges : MonoBehaviour // TypeDefIndex: 12895
 
 }
 
-public class App : ConsoleSystem // TypeDefIndex: 13644
+public class App : ConsoleSystem // TypeDefIndex: 13652
 {
 	[ServerVar] 
 	public static string listenip; 

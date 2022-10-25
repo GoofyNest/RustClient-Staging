@@ -1,4 +1,4 @@
-public class CameraTool : HeldEntity // TypeDefIndex: 10254
+public class CameraTool : HeldEntity // TypeDefIndex: 10256
 {
 	public GameObjectRef screenshotEffect; 
 	public float cameraFOV; 

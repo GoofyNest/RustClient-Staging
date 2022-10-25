@@ -1,4 +1,4 @@
-public struct ShowReportPlayerOptions // TypeDefIndex: 8372
+public struct ShowReportPlayerOptions // TypeDefIndex: 8374
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

@@ -1,4 +1,4 @@
-public class Workshop : ConsoleSystem // TypeDefIndex: 13740
+public class Workshop : ConsoleSystem // TypeDefIndex: 13748
 {
 
 	[ClientVar] 

@@ -1,4 +1,4 @@
-public sealed class MetricsInterface : Handle // TypeDefIndex: 9042
+public sealed class MetricsInterface : Handle // TypeDefIndex: 9044
 {
 	public const int BeginplayersessionApiLatest = 1;
 	public const int EndplayersessionApiLatest = 1;

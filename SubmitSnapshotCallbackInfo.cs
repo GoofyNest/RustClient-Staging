@@ -1,4 +1,4 @@
-public struct SubmitSnapshotCallbackInfo : ICallbackInfo // TypeDefIndex: 8805
+public struct SubmitSnapshotCallbackInfo : ICallbackInfo // TypeDefIndex: 8807
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

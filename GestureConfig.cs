@@ -1,4 +1,4 @@
-public class GestureConfig : ScriptableObject // TypeDefIndex: 11817
+public class GestureConfig : ScriptableObject // TypeDefIndex: 11826
 {
 	[ReadOnlyAttribute] 
 	public uint gestureId; 
@@ -29,7 +29,7 @@ public class GestureConfig : ScriptableObject // TypeDefIndex: 11817
 
 }
 
-public enum GestureConfig.PlayerModelLayer // TypeDefIndex: 11818
+public enum GestureConfig.PlayerModelLayer // TypeDefIndex: 11827
 {
 	public int value__; 
 	public const GestureConfig.PlayerModelLayer UpperBody = 3;
@@ -37,7 +37,7 @@ public enum GestureConfig.PlayerModelLayer // TypeDefIndex: 11818
 
 }
 
-public enum GestureConfig.MovementCapabilities // TypeDefIndex: 11819
+public enum GestureConfig.MovementCapabilities // TypeDefIndex: 11828
 {
 	public int value__; 
 	public const GestureConfig.MovementCapabilities FullMovement = 0;
@@ -45,7 +45,7 @@ public enum GestureConfig.MovementCapabilities // TypeDefIndex: 11819
 
 }
 
-public enum GestureConfig.AnimationType // TypeDefIndex: 11820
+public enum GestureConfig.AnimationType // TypeDefIndex: 11829
 {
 	public int value__; 
 	public const GestureConfig.AnimationType OneShot = 0;
@@ -53,7 +53,7 @@ public enum GestureConfig.AnimationType // TypeDefIndex: 11820
 
 }
 
-public enum GestureConfig.ViewMode // TypeDefIndex: 11821
+public enum GestureConfig.ViewMode // TypeDefIndex: 11830
 {
 	public int value__; 
 	public const GestureConfig.ViewMode FirstPerson = 0;
@@ -61,7 +61,7 @@ public enum GestureConfig.ViewMode // TypeDefIndex: 11821
 
 }
 
-public enum GestureConfig.GestureActionType // TypeDefIndex: 11822
+public enum GestureConfig.GestureActionType // TypeDefIndex: 11831
 {
 	public int value__; 
 	public const GestureConfig.GestureActionType None = 0;

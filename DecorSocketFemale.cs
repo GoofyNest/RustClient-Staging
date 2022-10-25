@@ -1,4 +1,4 @@
-public class DecorSocketFemale : PrefabAttribute // TypeDefIndex: 12064
+public class DecorSocketFemale : PrefabAttribute // TypeDefIndex: 12073
 {
 
 	protected override Type GetIndexedType() { }

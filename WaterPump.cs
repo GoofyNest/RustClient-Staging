@@ -1,4 +1,4 @@
-public class WaterPump : LiquidContainer // TypeDefIndex: 11246
+public class WaterPump : LiquidContainer // TypeDefIndex: 11250
 {
 	public Transform WaterResourceLocation; 
 	public float PumpInterval; 

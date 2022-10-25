@@ -81157,6 +81157,7 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6572
 	public int get_queueLength() { }
 	/* GenericInstMethod :
 	|
+	|-ObjectWorkQueue<LODComponent>.get_queueLength
 	|-ObjectWorkQueue<object>.get_queueLength
 	*/
 
@@ -81167,12 +81168,14 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6572
 	|-ObjectWorkQueue<BuildingBlock>..ctor
 	|-ObjectWorkQueue<EnvironmentFish>..ctor
 	|-ObjectWorkQueue<ESPPlayerInfo>..ctor
+	|-ObjectWorkQueue<LODComponent>..ctor
 	|-ObjectWorkQueue<object>..ctor
 	*/
 
 	public void Clear() { }
 	/* GenericInstMethod :
 	|
+	|-ObjectWorkQueue<LODComponent>.Clear
 	|-ObjectWorkQueue<object>.Clear
 	*/
 
@@ -81183,6 +81186,7 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6572
 	|-ObjectWorkQueue<BuildingBlock>.RunQueue
 	|-ObjectWorkQueue<EnvironmentFish>.RunQueue
 	|-ObjectWorkQueue<ESPPlayerInfo>.RunQueue
+	|-ObjectWorkQueue<LODComponent>.RunQueue
 	|-ObjectWorkQueue<object>.RunQueue
 	*/
 
@@ -81193,6 +81197,13 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6572
 	|-ObjectWorkQueue<EnvironmentFish>.Add
 	|-ObjectWorkQueue<ESPPlayerInfo>.Add
 	|-ObjectWorkQueue<object>.Add
+	*/
+
+	public void AddNoContainsCheck(T entity) { }
+	/* GenericInstMethod :
+	|
+	|-ObjectWorkQueue<LODComponent>.AddNoContainsCheck
+	|-ObjectWorkQueue<object>.AddNoContainsCheck
 	*/
 
 	public bool Contains(T entity) { }
@@ -81208,6 +81219,7 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6572
 	|-ObjectWorkQueue<BuildingBlock>.SortQueue
 	|-ObjectWorkQueue<EnvironmentFish>.SortQueue
 	|-ObjectWorkQueue<ESPPlayerInfo>.SortQueue
+	|-ObjectWorkQueue<LODComponent>.SortQueue
 	|-ObjectWorkQueue<object>.SortQueue
 	*/
 
@@ -81215,6 +81227,7 @@ public abstract class ObjectWorkQueue<T> // TypeDefIndex: 6572
 	/* GenericInstMethod :
 	|
 	|-ObjectWorkQueue<AlignedLineDrawer>.ShouldAdd
+	|-ObjectWorkQueue<LODComponent>.ShouldAdd
 	|-ObjectWorkQueue<object>.ShouldAdd
 	*/
 
@@ -81573,7 +81586,7 @@ internal sealed class Pinnable<T> // TypeDefIndex: 6904
 
 }
 
-internal sealed class CircularBuffer<T> // TypeDefIndex: 7629
+internal sealed class CircularBuffer<T> // TypeDefIndex: 7631
 {
 	private readonly int _capacity; 
 	private readonly T[] _buffer; 
@@ -81657,7 +81670,7 @@ internal sealed class CircularBuffer<T> // TypeDefIndex: 7629
 
 }
 
-internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7638
+internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7640
 {
 
 	public void .ctor(object object, IntPtr method) { }
@@ -81692,7 +81705,7 @@ internal sealed class Parsing<T> : MulticastDelegate // TypeDefIndex: 7638
 
 }
 
-internal struct GameEvent<T> // TypeDefIndex: 7714
+internal struct GameEvent<T> // TypeDefIndex: 7716
 {
 	[CompilerGeneratedAttribute] 
 	private string <GameId>k__BackingField; 
@@ -81768,7 +81781,7 @@ internal struct GameEvent<T> // TypeDefIndex: 7714
 
 }
 
-public class BoneDictionary // TypeDefIndex: 10843
+public class BoneDictionary // TypeDefIndex: 10845
 {
 	public Transform transform; 
 	public Transform[] transforms; 
@@ -81796,7 +81809,7 @@ public class BoneDictionary // TypeDefIndex: 10843
 
 }
 
-public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10870
+public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10872
 {
 	public T component; 
 
@@ -81817,7 +81830,7 @@ public abstract class ComponentInfo<T> : ComponentInfo // TypeDefIndex: 10870
 
 }
 
-public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 10951
+public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 10953
 {
 	[SerializeField] 
 	private AmplifyOcclusionEffect ssao; 
@@ -82143,7 +82156,7 @@ public abstract class RustCamera<T> : SingletonComponent<T> // TypeDefIndex: 109
 
 }
 
-public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11289
+public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11293
 {
 	protected T owner; 
 	public MetabolismAttribute calories; 
@@ -82187,7 +82200,7 @@ public abstract class BaseMetabolism<T> : EntityComponent<T> // TypeDefIndex: 11
 
 }
 
-public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 11346
+public abstract class BaseModifiers<T> : EntityComponent<T> // TypeDefIndex: 11350
 {
 
 public abstract class BaseModifiers<T> : EntityComponent<T>
@@ -82310,7 +82323,7 @@ public abstract class BaseModifiers<T> : EntityComponent<T>
 
 }
 
-public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11697
+public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11704
 {
 	public T Component; 
 
@@ -82329,7 +82342,7 @@ public class Prefab<T> : Prefab, IComparable<Prefab<T>> // TypeDefIndex: 11697
 
 }
 
-public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12146
+public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12155
 {
 	internal T[] src; 
 	internal T[] dst; 
@@ -82415,7 +82428,7 @@ public abstract class TerrainMap<T> : TerrainMap // TypeDefIndex: 12146
 
 }
 
-public static class RecipeDictionary // TypeDefIndex: 12489
+public static class RecipeDictionary // TypeDefIndex: 12498
 {
 	private static Dictionary<uint, Dictionary<int, List<Recipe>>> recipeListsDict; 
 
@@ -82432,7 +82445,7 @@ public static class RecipeDictionary // TypeDefIndex: 12489
 
 }
 
-public struct CachedTransform<T> // TypeDefIndex: 13061
+public struct CachedTransform<T> // TypeDefIndex: 13070
 {
 	public T component; 
 	public Vector3 position; 
@@ -82515,101 +82528,7 @@ public struct CachedTransform<T> // TypeDefIndex: 13061
 
 }
 
-public class NativeList<T> : Pool.IPooled // TypeDefIndex: 13155
-{
-	private NativeArray<T> _array; 
-	private int _length; 
-
-	public NativeArray<T> Array { get; }
-	public int Count { get; }
-	public T Item { get; set; }
-
-
-	public NativeArray<T> get_Array() { }
-	/* GenericInstMethod :
-	|
-	|-NativeList<uint>.get_Array
-	|-NativeList<Vector4>.get_Array
-	*/
-
-	public int get_Count() { }
-	/* GenericInstMethod :
-	|
-	|-NativeList<uint>.get_Count
-	|-NativeList<Vector4>.get_Count
-	*/
-
-	public T get_Item(int index) { }
-	/* GenericInstMethod :
-	|
-	|-NativeList<uint>.get_Item
-	|
-	|-NativeList<Vector4>.get_Item
-	*/
-
-	public void set_Item(int index, T value) { }
-	/* GenericInstMethod :
-	|
-	|-NativeList<uint>.set_Item
-	|
-	|-NativeList<Vector4>.set_Item
-	*/
-
-	public void Add(T item) { }
-	/* GenericInstMethod :
-	|
-	|-NativeList<uint>.Add
-	|
-	|-NativeList<Vector4>.Add
-	*/
-
-	public void Clear() { }
-	/* GenericInstMethod :
-	|
-	|-NativeList<uint>.Clear
-	|
-	|-NativeList<Vector4>.Clear
-	*/
-
-	public void Resize(int count) { }
-	/* GenericInstMethod :
-	|
-	|-NativeList<uint>.Resize
-	|-NativeList<Vector4>.Resize
-	*/
-
-	public void EnsureCapacity(int requiredCapacity) { }
-	/* GenericInstMethod :
-	|
-	|-NativeList<uint>.EnsureCapacity
-	|
-	|-NativeList<Vector4>.EnsureCapacity
-	*/
-
-	public void EnterPool() { }
-	/* GenericInstMethod :
-	|
-	|-NativeList<uint>.EnterPool
-	|-NativeList<Vector4>.EnterPool
-	*/
-
-	public void LeavePool() { }
-	/* GenericInstMethod :
-	|
-	|-NativeList<uint>.LeavePool
-	|-NativeList<Vector4>.LeavePool
-	*/
-
-	public void .ctor() { }
-	/* GenericInstMethod :
-	|
-	|-NativeList<uint>..ctor
-	|-NativeList<Vector4>..ctor
-	*/
-
-}
-
-public class PooledList<T> // TypeDefIndex: 13161
+public class PooledList<T> // TypeDefIndex: 13169
 {
 	public List<T> data; 
 
@@ -82658,7 +82577,7 @@ public class PooledList<T> // TypeDefIndex: 13161
 
 }
 
-public class SimpleList<T> // TypeDefIndex: 13164
+public class SimpleList<T> // TypeDefIndex: 13172
 {
 	private const int defaultCapacity = 16;
 	private static readonly T[] emptyArray; 
@@ -82811,7 +82730,7 @@ public class SimpleList<T> // TypeDefIndex: 13164
 
 }
 
-public class TimeCachedValue<T> // TypeDefIndex: 13169
+public class TimeCachedValue<T> // TypeDefIndex: 13177
 {
 	public float refreshCooldown; 
 	public float refreshRandomRange; 
@@ -82842,7 +82761,7 @@ public class TimeCachedValue<T> // TypeDefIndex: 13169
 
 }
 
-public class ResourceRef<T> // TypeDefIndex: 13194
+public class ResourceRef<T> // TypeDefIndex: 13202
 {
 	public string guid; 
 	private T _cachedObject; 
@@ -82894,7 +82813,7 @@ public class ResourceRef<T> // TypeDefIndex: 13194
 
 }
 
-public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13587
+public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13595
 {
 	public T value; 
 
@@ -83161,7 +83080,101 @@ public class ParameterOverride<T> : ParameterOverride // TypeDefIndex: 13587
 
 }
 
-public class GenericLerp<T> : IDisposable // TypeDefIndex: 13890
+public class FPNativeList<T> : Pool.IPooled // TypeDefIndex: 13775
+{
+	private NativeArray<T> _array; 
+	private int _length; 
+
+	public NativeArray<T> Array { get; }
+	public int Count { get; }
+	public T Item { get; set; }
+
+
+	public NativeArray<T> get_Array() { }
+	/* GenericInstMethod :
+	|
+	|-FPNativeList<uint>.get_Array
+	|-FPNativeList<Vector4>.get_Array
+	*/
+
+	public int get_Count() { }
+	/* GenericInstMethod :
+	|
+	|-FPNativeList<uint>.get_Count
+	|-FPNativeList<Vector4>.get_Count
+	*/
+
+	public T get_Item(int index) { }
+	/* GenericInstMethod :
+	|
+	|-FPNativeList<uint>.get_Item
+	|
+	|-FPNativeList<Vector4>.get_Item
+	*/
+
+	public void set_Item(int index, T value) { }
+	/* GenericInstMethod :
+	|
+	|-FPNativeList<uint>.set_Item
+	|
+	|-FPNativeList<Vector4>.set_Item
+	*/
+
+	public void Add(T item) { }
+	/* GenericInstMethod :
+	|
+	|-FPNativeList<uint>.Add
+	|
+	|-FPNativeList<Vector4>.Add
+	*/
+
+	public void Clear() { }
+	/* GenericInstMethod :
+	|
+	|-FPNativeList<uint>.Clear
+	|
+	|-FPNativeList<Vector4>.Clear
+	*/
+
+	public void Resize(int count) { }
+	/* GenericInstMethod :
+	|
+	|-FPNativeList<uint>.Resize
+	|-FPNativeList<Vector4>.Resize
+	*/
+
+	public void EnsureCapacity(int requiredCapacity) { }
+	/* GenericInstMethod :
+	|
+	|-FPNativeList<uint>.EnsureCapacity
+	|
+	|-FPNativeList<Vector4>.EnsureCapacity
+	*/
+
+	public void EnterPool() { }
+	/* GenericInstMethod :
+	|
+	|-FPNativeList<uint>.EnterPool
+	|-FPNativeList<Vector4>.EnterPool
+	*/
+
+	public void LeavePool() { }
+	/* GenericInstMethod :
+	|
+	|-FPNativeList<uint>.LeavePool
+	|-FPNativeList<Vector4>.LeavePool
+	*/
+
+	public void .ctor() { }
+	/* GenericInstMethod :
+	|
+	|-FPNativeList<uint>..ctor
+	|-FPNativeList<Vector4>..ctor
+	*/
+
+}
+
+public class GenericLerp<T> : IDisposable // TypeDefIndex: 13899
 {
 	private Interpolator<T> interpolator; 
 	private IGenericLerpTarget<T> target; 
@@ -83284,7 +83297,7 @@ public class GenericLerp<T> : IDisposable // TypeDefIndex: 13890
 
 }
 
-public class Interpolator<T> // TypeDefIndex: 13892
+public class Interpolator<T> // TypeDefIndex: 13901
 {
 	public List<T> list; 
 	public T last; 

@@ -1,4 +1,4 @@
-internal struct RegisterEventParamDefInternal : IGettable<RegisterEventParamDef>, ISettable<RegisterEventParamDef>, IDisposable // TypeDefIndex: 9792
+internal struct RegisterEventParamDefInternal : IGettable<RegisterEventParamDef>, ISettable<RegisterEventParamDef>, IDisposable // TypeDefIndex: 9794
 {
 	private IntPtr m_ParamName; 
 	private AntiCheatCommonEventParamType m_ParamType; 

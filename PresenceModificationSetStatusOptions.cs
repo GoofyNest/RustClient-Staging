@@ -1,4 +1,4 @@
-public struct PresenceModificationSetStatusOptions // TypeDefIndex: 8847
+public struct PresenceModificationSetStatusOptions // TypeDefIndex: 8849
 {
 	[CompilerGeneratedAttribute] 
 	private Status <Status>k__BackingField; 

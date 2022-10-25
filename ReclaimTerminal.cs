@@ -59,7 +59,7 @@ public class ReclaimTerminal : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 }
 
-public class ReclaimTerminal : StorageContainer // TypeDefIndex: 10338
+public class ReclaimTerminal : StorageContainer // TypeDefIndex: 10340
 {
 	public int itemCount; 
 	public static readonly Translate.Phrase DespawnToast; 

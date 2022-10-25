@@ -1,4 +1,4 @@
-public struct RTCOptions // TypeDefIndex: 9870
+public struct RTCOptions // TypeDefIndex: 9872
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <PlatformSpecificOptions>k__BackingField; 

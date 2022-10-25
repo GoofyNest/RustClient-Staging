@@ -1,4 +1,4 @@
-internal struct IsRTCRoomConnectedOptionsInternal : ISettable<IsRTCRoomConnectedOptions>, IDisposable // TypeDefIndex: 9102
+internal struct IsRTCRoomConnectedOptionsInternal : ISettable<IsRTCRoomConnectedOptions>, IDisposable // TypeDefIndex: 9104
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LobbyId; 

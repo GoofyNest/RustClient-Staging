@@ -1,4 +1,4 @@
-public class BowWeapon : BaseProjectile // TypeDefIndex: 10247
+public class BowWeapon : BaseProjectile // TypeDefIndex: 10249
 {
 	protected bool attackReady; 
 	private float arrowBack; 

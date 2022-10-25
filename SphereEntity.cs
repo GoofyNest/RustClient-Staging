@@ -59,7 +59,7 @@ public class SphereEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6
 
 }
 
-public class SphereEntity : BaseEntity // TypeDefIndex: 11334
+public class SphereEntity : BaseEntity // TypeDefIndex: 11338
 {
 	public float currentRadius; 
 	public float lerpRadius; 

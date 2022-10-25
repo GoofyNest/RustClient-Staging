@@ -1,4 +1,4 @@
-public sealed class Utf8String // TypeDefIndex: 8269
+public sealed class Utf8String // TypeDefIndex: 8271
 {
 	[CompilerGeneratedAttribute] 
 	private int <Length>k__BackingField; 

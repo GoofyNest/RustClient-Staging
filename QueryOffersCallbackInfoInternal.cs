@@ -1,4 +1,4 @@
-internal struct QueryOffersCallbackInfoInternal : ICallbackInfoInternal, IGettable<QueryOffersCallbackInfo>, ISettable<QueryOffersCallbackInfo>, IDisposable // TypeDefIndex: 9491
+internal struct QueryOffersCallbackInfoInternal : ICallbackInfoInternal, IGettable<QueryOffersCallbackInfo>, ISettable<QueryOffersCallbackInfo>, IDisposable // TypeDefIndex: 9493
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

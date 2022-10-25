@@ -145,14 +145,14 @@ public class Graphics // TypeDefIndex: 3389
 
 }
 
-public static class Graphics // TypeDefIndex: 8229
+public static class Graphics // TypeDefIndex: 8231
 {
 
 	public static extern IntPtr GetRenderEventFunc() { }
 
 }
 
-public static class Graphics.BufferReadback // TypeDefIndex: 8230
+public static class Graphics.BufferReadback // TypeDefIndex: 8232
 {
 
 	public static extern IntPtr CreateForTexture(IntPtr tex, uint width, uint height, uint format) { }
@@ -175,7 +175,7 @@ public static class Graphics.BufferReadback // TypeDefIndex: 8230
 
 }
 
-public class Graphics : ConsoleSystem // TypeDefIndex: 13690
+public class Graphics : ConsoleSystem // TypeDefIndex: 13698
 {
 	private const float MinShadowDistance = 100;
 	private const float MaxShadowDistance2Split = 600;
@@ -252,6 +252,10 @@ public class Graphics : ConsoleSystem // TypeDefIndex: 13690
 	[ClientVar] 
 	public static bool aggressiveShadowLod; 
 	private static bool _aggressiveShadowLodWearable; 
+	private static bool _hlod; 
+	public static TimeSince lastHlodChange; 
+	private static bool _hlodShadow; 
+	private static bool _hlodDebug; 
 
 	[ClientVar] 
 	public static int quality { get; set; }
@@ -297,6 +301,12 @@ public class Graphics : ConsoleSystem // TypeDefIndex: 13690
 	public static float renderScale { get; set; }
 	[ClientVar] 
 	public static bool aggressiveShadowLodWearable { get; set; }
+	[ClientVar] 
+	public static bool Hlod { get; set; }
+	[ClientVar] 
+	public static bool HlodShadow { get; set; }
+	[ClientVar] 
+	public static bool HlodDebug { get; set; }
 
 
 	public static int get_quality() { }
@@ -421,13 +431,28 @@ public class Graphics : ConsoleSystem // TypeDefIndex: 13690
 
 	public static void set_aggressiveShadowLodWearable(bool value) { }
 
+	public static bool get_Hlod() { }
+
+	public static void set_Hlod(bool value) { }
+
+	public static bool get_HlodShadow() { }
+
+	public static void set_HlodShadow(bool value) { }
+
+	public static bool get_HlodDebug() { }
+
+	public static void set_HlodDebug(bool value) { }
+
+	[ClientVar] 
+	public static void PrintLodQueues(ConsoleSystem.Arg arg) { }
+
 	public void .ctor() { }
 
 	private static void .cctor() { }
 
 }
 
-private sealed class Graphics.<>c // TypeDefIndex: 13691
+private sealed class Graphics.<>c // TypeDefIndex: 13699
 {
 	public static readonly Graphics.<>c <>9; 
 	public static Func<Resolution, Vector2Int> <>9__60_0; 

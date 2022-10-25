@@ -1,4 +1,4 @@
-internal sealed class BarBeatFractionTimeSpanConverter : ITimeSpanConverter // TypeDefIndex: 7475
+internal sealed class BarBeatFractionTimeSpanConverter : ITimeSpanConverter // TypeDefIndex: 7477
 {
 
 	public ITimeSpan ConvertTo(long timeSpan, long time, TempoMap tempoMap) { }
@@ -13,7 +13,7 @@ internal sealed class BarBeatFractionTimeSpanConverter : ITimeSpanConverter // T
 
 }
 
-private sealed class BarBeatFractionTimeSpanConverter.<>c__DisplayClass1_0 // TypeDefIndex: 7476
+private sealed class BarBeatFractionTimeSpanConverter.<>c__DisplayClass1_0 // TypeDefIndex: 7478
 {
 	public long time; 
 	public long endTime; 
@@ -25,7 +25,7 @@ private sealed class BarBeatFractionTimeSpanConverter.<>c__DisplayClass1_0 // Ty
 
 }
 
-private sealed class BarBeatFractionTimeSpanConverter.<>c__DisplayClass2_0 // TypeDefIndex: 7477
+private sealed class BarBeatFractionTimeSpanConverter.<>c__DisplayClass2_0 // TypeDefIndex: 7479
 {
 	public long time; 
 	public long totalTicks; 

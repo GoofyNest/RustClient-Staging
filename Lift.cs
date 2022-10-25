@@ -59,7 +59,7 @@ public class Lift : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6343
 
 }
 
-public class Lift : AnimatedBuildingBlock // TypeDefIndex: 10113
+public class Lift : AnimatedBuildingBlock // TypeDefIndex: 10115
 {
 	private Option __menuOption_Menu_UseLift; 
 	public GameObjectRef triggerPrefab; 

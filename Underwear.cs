@@ -1,4 +1,4 @@
-public class Underwear : ScriptableObject // TypeDefIndex: 12509
+public class Underwear : ScriptableObject // TypeDefIndex: 12518
 {
 	public string shortname; 
 	public Translate.Phrase displayName; 

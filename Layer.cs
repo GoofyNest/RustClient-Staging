@@ -36,7 +36,7 @@ public enum Layer // TypeDefIndex: 6627
 
 }
 
-public class Layer : ConsoleSystem // TypeDefIndex: 13702
+public class Layer : ConsoleSystem // TypeDefIndex: 13710
 {
 
 	[ClientVar] 

@@ -1,4 +1,4 @@
-public class TickInterpolator // TypeDefIndex: 13167
+public class TickInterpolator // TypeDefIndex: 13175
 {
 	private List<TickInterpolator.Segment> points; 
 	private int index; 
@@ -24,7 +24,7 @@ public class TickInterpolator // TypeDefIndex: 13167
 
 }
 
-private struct TickInterpolator.Segment // TypeDefIndex: 13168
+private struct TickInterpolator.Segment // TypeDefIndex: 13176
 {
 	public Vector3 point; 
 	public float length; 

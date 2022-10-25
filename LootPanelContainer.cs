@@ -1,4 +1,4 @@
-public class LootPanelContainer : MonoBehaviour // TypeDefIndex: 12777
+public class LootPanelContainer : MonoBehaviour // TypeDefIndex: 12786
 {
 	public static string containerName; 
 	public GameObject NoLootPanel; 

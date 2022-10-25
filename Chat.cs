@@ -16,7 +16,7 @@ internal enum ChatEntryType // TypeDefIndex: 5143
 
 }
 
-public class ChatEntry : MonoBehaviour // TypeDefIndex: 12566
+public class ChatEntry : MonoBehaviour // TypeDefIndex: 12575
 {
 	public TextMeshProUGUI text; 
 	public RawImage avatar; 
@@ -46,7 +46,7 @@ public class ChatEntry : MonoBehaviour // TypeDefIndex: 12566
 
 }
 
-public class Chat : ConsoleSystem // TypeDefIndex: 13648
+public class Chat : ConsoleSystem // TypeDefIndex: 13656
 {
 	[ServerVar] 
 	public static float localChatRange; 
@@ -108,7 +108,7 @@ public class Chat : ConsoleSystem // TypeDefIndex: 13648
 
 }
 
-public enum Chat.ChatChannel // TypeDefIndex: 13649
+public enum Chat.ChatChannel // TypeDefIndex: 13657
 {
 	public int value__; 
 	public const Chat.ChatChannel Global = 0;
@@ -119,7 +119,7 @@ public enum Chat.ChatChannel // TypeDefIndex: 13649
 
 }
 
-public struct Chat.ChatEntry // TypeDefIndex: 13650
+public struct Chat.ChatEntry // TypeDefIndex: 13658
 {
 	[CompilerGeneratedAttribute] 
 	private Chat.ChatChannel <Channel>k__BackingField; 
@@ -180,7 +180,7 @@ public struct Chat.ChatEntry // TypeDefIndex: 13650
 
 }
 
-public struct Chat.MuteEntry // TypeDefIndex: 13651
+public struct Chat.MuteEntry // TypeDefIndex: 13659
 {
 	public ulong UserID; 
 	public string UserName; 
@@ -191,7 +191,7 @@ public struct Chat.MuteEntry // TypeDefIndex: 13651
 
 }
 
-public class Chat.MuteList // TypeDefIndex: 13652
+public class Chat.MuteList // TypeDefIndex: 13660
 {
 	private Dictionary<ulong, Chat.MuteEntry> entries; 
 
@@ -221,7 +221,7 @@ public class Chat.MuteList // TypeDefIndex: 13652
 
 }
 
-private sealed class Chat.<>c // TypeDefIndex: 13653
+private sealed class Chat.<>c // TypeDefIndex: 13661
 {
 	public static readonly Chat.<>c <>9; 
 	public static Action<UIChat> <>9__25_0; 

@@ -1,4 +1,4 @@
-public static class GameObjectUtil // TypeDefIndex: 13137
+public static class GameObjectUtil // TypeDefIndex: 13146
 {
 
 	public static void GlobalBroadcast(string messageName, object param) { }

@@ -1,4 +1,4 @@
-public sealed class ReleaseMemoryFunc : MulticastDelegate // TypeDefIndex: 9873
+public sealed class ReleaseMemoryFunc : MulticastDelegate // TypeDefIndex: 9875
 {
 
 	public void .ctor(object object, IntPtr method) { }

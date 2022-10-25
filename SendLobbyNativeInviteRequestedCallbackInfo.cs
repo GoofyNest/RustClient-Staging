@@ -1,4 +1,4 @@
-public struct SendLobbyNativeInviteRequestedCallbackInfo : ICallbackInfo // TypeDefIndex: 9260
+public struct SendLobbyNativeInviteRequestedCallbackInfo : ICallbackInfo // TypeDefIndex: 9262
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

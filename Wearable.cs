@@ -1,4 +1,4 @@
-public class Wearable : MonoBehaviour, IItemSetup, IPrefabPreProcess // TypeDefIndex: 11787
+public class Wearable : MonoBehaviour, IItemSetup, IPrefabPreProcess // TypeDefIndex: 11796
 {
 	[InspectorFlagsAttribute] 
 	public Wearable.RemoveSkin removeSkin; 
@@ -72,7 +72,7 @@ public class Wearable : MonoBehaviour, IItemSetup, IPrefabPreProcess // TypeDefI
 
 }
 
-public enum Wearable.RemoveSkin // TypeDefIndex: 11788
+public enum Wearable.RemoveSkin // TypeDefIndex: 11797
 {
 	public int value__; 
 	public const Wearable.RemoveSkin Torso = 1;
@@ -83,7 +83,7 @@ public enum Wearable.RemoveSkin // TypeDefIndex: 11788
 
 }
 
-public enum Wearable.RemoveHair // TypeDefIndex: 11789
+public enum Wearable.RemoveHair // TypeDefIndex: 11798
 {
 	public int value__; 
 	public const Wearable.RemoveHair Head = 1;
@@ -94,7 +94,7 @@ public enum Wearable.RemoveHair // TypeDefIndex: 11789
 
 }
 
-public enum Wearable.DeformHair // TypeDefIndex: 11790
+public enum Wearable.DeformHair // TypeDefIndex: 11799
 {
 	public int value__; 
 	public const Wearable.DeformHair None = 0;
@@ -106,7 +106,7 @@ public enum Wearable.DeformHair // TypeDefIndex: 11790
 
 }
 
-public enum Wearable.OccupationSlots // TypeDefIndex: 11791
+public enum Wearable.OccupationSlots // TypeDefIndex: 11800
 {
 	public int value__; 
 	public const Wearable.OccupationSlots HeadTop = 1;
@@ -133,7 +133,7 @@ public enum Wearable.OccupationSlots // TypeDefIndex: 11791
 
 }
 
-private sealed class Wearable.<>c // TypeDefIndex: 11792
+private sealed class Wearable.<>c // TypeDefIndex: 11801
 {
 	public static readonly Wearable.<>c <>9; 
 	public static Func<Renderer, bool> <>9__39_0; 

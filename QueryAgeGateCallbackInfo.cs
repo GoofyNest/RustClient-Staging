@@ -1,4 +1,4 @@
-public struct QueryAgeGateCallbackInfo : ICallbackInfo // TypeDefIndex: 9344
+public struct QueryAgeGateCallbackInfo : ICallbackInfo // TypeDefIndex: 9346
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

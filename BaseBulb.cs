@@ -1,4 +1,4 @@
-public class BaseBulb : MonoBehaviour // TypeDefIndex: 10538
+public class BaseBulb : MonoBehaviour // TypeDefIndex: 10540
 {
 	public Renderer bulbRenderer; 
 	private static readonly int timeOffsetHash; 

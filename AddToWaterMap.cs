@@ -1,4 +1,4 @@
-public class AddToWaterMap : ProceduralObject // TypeDefIndex: 12303
+public class AddToWaterMap : ProceduralObject // TypeDefIndex: 12312
 {
 
 	public override void Process() { }

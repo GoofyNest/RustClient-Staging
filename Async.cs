@@ -2166,7 +2166,7 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7130
 
 }
 
-public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 12049
+public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 12058
 {
 	private List<int> indices; 
 	private List<Vector3> vertices; 

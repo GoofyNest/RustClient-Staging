@@ -1,4 +1,4 @@
-public struct HardMuteMemberOptions // TypeDefIndex: 9099
+public struct HardMuteMemberOptions // TypeDefIndex: 9101
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <LobbyId>k__BackingField; 

@@ -1,4 +1,4 @@
-public static class BarBeatUtilities // TypeDefIndex: 7510
+public static class BarBeatUtilities // TypeDefIndex: 7512
 {
 
 	internal static int GetBarLength(TimeSignature timeSignature, short ticksPerQuarterNote) { }

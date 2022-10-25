@@ -1,4 +1,4 @@
-public class Halloween : ConsoleSystem // TypeDefIndex: 13693
+public class Halloween : ConsoleSystem // TypeDefIndex: 13701
 {
 	[ServerVar] 
 	public static bool enabled; 

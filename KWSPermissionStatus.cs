@@ -1,4 +1,4 @@
-public enum KWSPermissionStatus // TypeDefIndex: 9327
+public enum KWSPermissionStatus // TypeDefIndex: 9329
 {
 	public int value__; 
 	public const KWSPermissionStatus Granted = 0;

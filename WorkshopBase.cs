@@ -1,4 +1,4 @@
-public class WorkshopBase : ScriptableObject // TypeDefIndex: 7728
+public class WorkshopBase : ScriptableObject // TypeDefIndex: 7730
 {
 	[TooltipAttribute] 
 	public ulong itemID; 

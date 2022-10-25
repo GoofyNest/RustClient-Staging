@@ -1,4 +1,4 @@
-public class DoorManipulator : IOEntity // TypeDefIndex: 11521
+public class DoorManipulator : IOEntity // TypeDefIndex: 11525
 {
 	public EntityRef entityRef; 
 	public Door targetDoor; 
@@ -11,7 +11,7 @@ public class DoorManipulator : IOEntity // TypeDefIndex: 11521
 
 }
 
-public enum DoorManipulator.DoorEffect // TypeDefIndex: 11522
+public enum DoorManipulator.DoorEffect // TypeDefIndex: 11526
 {
 	public int value__; 
 	public const DoorManipulator.DoorEffect Close = 0;

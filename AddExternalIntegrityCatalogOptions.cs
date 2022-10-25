@@ -1,4 +1,4 @@
-public struct AddExternalIntegrityCatalogOptions // TypeDefIndex: 9799
+public struct AddExternalIntegrityCatalogOptions // TypeDefIndex: 9801
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <PathToBinFile>k__BackingField; 

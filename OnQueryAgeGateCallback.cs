@@ -1,4 +1,4 @@
-public sealed class OnQueryAgeGateCallback : MulticastDelegate // TypeDefIndex: 9332
+public sealed class OnQueryAgeGateCallback : MulticastDelegate // TypeDefIndex: 9334
 {
 
 	public void .ctor(object object, IntPtr method) { }

@@ -1,4 +1,4 @@
-public enum KeyCombination // TypeDefIndex: 8338
+public enum KeyCombination // TypeDefIndex: 8340
 {
 	public int value__; 
 	public const KeyCombination ModifierShift = 16;

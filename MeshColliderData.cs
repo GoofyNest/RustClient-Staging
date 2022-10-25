@@ -1,4 +1,4 @@
-public class MeshColliderData // TypeDefIndex: 10874
+public class MeshColliderData // TypeDefIndex: 10876
 {
 	public List<int> triangles; 
 	public List<Vector3> vertices; 

@@ -1,4 +1,4 @@
-public enum EcomItemType // TypeDefIndex: 9448
+public enum EcomItemType // TypeDefIndex: 9450
 {
 	public int value__; 
 	public const EcomItemType Durable = 0;

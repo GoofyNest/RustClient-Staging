@@ -1,4 +1,4 @@
-public class Buttons // TypeDefIndex: 10992
+public class Buttons // TypeDefIndex: 10994
 {
 	[ClientVar] 
 	public static Buttons.ConButton Console; 
@@ -110,7 +110,7 @@ public class Buttons // TypeDefIndex: 10992
 
 }
 
-public class Buttons.ConButton : ConsoleSystem.IConsoleButton // TypeDefIndex: 10993
+public class Buttons.ConButton : ConsoleSystem.IConsoleButton // TypeDefIndex: 10995
 {
 	[CompilerGeneratedAttribute] 
 	private bool <IsDown>k__BackingField; 

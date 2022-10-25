@@ -1,4 +1,4 @@
-public class EnvSync : PointEntity // TypeDefIndex: 11312
+public class EnvSync : PointEntity // TypeDefIndex: 11316
 {
 	private const float syncInterval = 5;
 	private const float syncIntervalInv = 0,2;

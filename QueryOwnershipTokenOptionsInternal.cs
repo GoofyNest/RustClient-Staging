@@ -1,4 +1,4 @@
-internal struct QueryOwnershipTokenOptionsInternal : ISettable<QueryOwnershipTokenOptions>, IDisposable // TypeDefIndex: 9501
+internal struct QueryOwnershipTokenOptionsInternal : ISettable<QueryOwnershipTokenOptions>, IDisposable // TypeDefIndex: 9503
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

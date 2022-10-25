@@ -1,4 +1,4 @@
-public enum AAMode // TypeDefIndex: 8159
+public enum AAMode // TypeDefIndex: 8161
 {
 	public int value__; 
 	public const AAMode FXAA2 = 0;

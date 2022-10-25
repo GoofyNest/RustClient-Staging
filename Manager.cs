@@ -59,7 +59,7 @@ public static class Manager // TypeDefIndex: 7043
 
 }
 
-public class Manager // TypeDefIndex: 7381
+public class Manager // TypeDefIndex: 7383
 {
 	private const string hex = "0123456789abcdef";
 	private static Manager manager; 

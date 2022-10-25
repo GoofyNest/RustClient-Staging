@@ -1,4 +1,4 @@
-public class ISONoise : PostEffectsBase // TypeDefIndex: 8038
+public class ISONoise : PostEffectsBase // TypeDefIndex: 8040
 {
 	public float monochromeTiling; 
 	public FilterMode filterMode; 
