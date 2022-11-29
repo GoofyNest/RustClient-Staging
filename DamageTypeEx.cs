@@ -1,13 +1,13 @@
-public static class DamageTypeEx // TypeDefIndex: 13844
+public static class DamageTypeEx // TypeDefIndex: 13846
 {
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static bool IsMeleeType(DamageType damageType) { }
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static bool IsBleedCausing(DamageType damageType) { }
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static bool IsConsideredAnAttack(DamageType damageType) { }
 
 }

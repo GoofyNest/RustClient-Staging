@@ -1,11 +1,11 @@
-public class GlassPane : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 11475
+public class GlassPane : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 11477
 {
-	public Renderer glassRendereer; 
-	[SerializeField] 
-	private BaseVehicleModule module; 
-	[SerializeField] 
-	private float showFullDamageAt; 
-	private static int detailAmountID; 
+public Renderer glassRendereer;
+[SerializeField]
+private BaseVehicleModule module;
+[SerializeField]
+private float showFullDamageAt;
+private static int detailAmountID;
 
 
 	protected void Start() { }

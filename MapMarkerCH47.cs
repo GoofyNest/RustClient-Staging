@@ -1,6 +1,6 @@
-public class MapMarkerCH47 : MapMarker // TypeDefIndex: 10600
+public class MapMarkerCH47 : MapMarker // TypeDefIndex: 10602
 {
-	private GameObject createdMarker; 
+private GameObject createdMarker;
 
 
 	public override void SetupUIMarker(GameObject marker) { }

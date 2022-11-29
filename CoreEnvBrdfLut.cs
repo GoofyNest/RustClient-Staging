@@ -1,9 +1,9 @@
-public class CoreEnvBrdfLut // TypeDefIndex: 12409
+public class CoreEnvBrdfLut // TypeDefIndex: 12411
 {
-	private static Texture2D runtimeEnvBrdfLut; 
+private static Texture2D runtimeEnvBrdfLut;
 
 
-	[RuntimeInitializeOnLoadMethodAttribute] 
+[RuntimeInitializeOnLoadMethodAttribute]
 	private static void OnRuntimeLoad() { }
 
 	private static void PrepareTextureForRuntime() { }

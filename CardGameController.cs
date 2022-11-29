@@ -1,20 +1,20 @@
-public abstract class CardGameController : IDisposable // TypeDefIndex: 13815
+public abstract class CardGameController : IDisposable // TypeDefIndex: 13817
 {
-	[CompilerGeneratedAttribute] 
-	private CardGameController.CardGameState <State>k__BackingField; 
-	[CompilerGeneratedAttribute] 
-	private CardPlayerData[] <PlayerData>k__BackingField; 
+[CompilerGeneratedAttribute]
+private CardGameController.CardGameState <State>k__BackingField;
+[CompilerGeneratedAttribute]
+private CardPlayerData[] <PlayerData>k__BackingField;
 	public const int IDLE_KICK_SECONDS = 240;
-	[CompilerGeneratedAttribute] 
-	private BaseCardGameEntity <Owner>k__BackingField; 
-	[CompilerGeneratedAttribute] 
-	private CardGame.RoundResults <resultInfo>k__BackingField; 
-	private CardGame.CardList localPlayerCards; 
-	protected int activePlayerIndex; 
+[CompilerGeneratedAttribute]
+private BaseCardGameEntity <Owner>k__BackingField;
+[CompilerGeneratedAttribute]
+private CardGame.RoundResults <resultInfo>k__BackingField;
+private CardGame.CardList localPlayerCards;
+protected int activePlayerIndex;
 	public const int STD_RAISE_INCREMENTS = 5;
-	private CardGameSounds _sounds; 
-	[CompilerGeneratedAttribute] 
-	private int <ClientScrapInPot>k__BackingField; 
+private CardGameSounds _sounds;
+[CompilerGeneratedAttribute]
+private int <ClientScrapInPot>k__BackingField;
 
 	public CardGameController.CardGameState State { get; set; }
 	public bool HasGameInProgress { get; }
@@ -39,10 +39,10 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13815
 	public int ClientScrapInPot { get; set; }
 
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	public CardGameController.CardGameState get_State() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	private void set_State(CardGameController.CardGameState value) { }
 
 	public bool get_HasGameInProgress() { }
@@ -51,10 +51,10 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13815
 
 	public bool get_HasActiveRound() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	public CardPlayerData[] get_PlayerData() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	private void set_PlayerData(CardPlayerData[] value) { }
 
 	public abstract int get_MinPlayers();
@@ -73,10 +73,10 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13815
 
 	protected virtual float get_TimeBetweenTurns() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	protected BaseCardGameEntity get_Owner() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	private void set_Owner(BaseCardGameEntity value) { }
 
 	protected int get_ScrapItemID() { }
@@ -85,15 +85,15 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13815
 
 	protected bool get_IsClient() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	public CardGame.RoundResults get_resultInfo() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	private void set_resultInfo(CardGame.RoundResults value) { }
 
 	public void .ctor(BaseCardGameEntity owner) { }
 
-	[IteratorStateMachineAttribute] 
+[IteratorStateMachineAttribute]
 	public IEnumerable<CardPlayerData> PlayersInRound() { }
 
 	protected abstract int GetFirstPlayerRelIndex(bool startOfRound);
@@ -146,10 +146,10 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13815
 
 	public bool get_GameWon() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	public int get_ClientScrapInPot() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	private void set_ClientScrapInPot(int value) { }
 
 	protected abstract void SubGetAvailableInputs(ref List<CardGameUI.KeycodeWithAction> curAvailableInputs);
@@ -176,9 +176,9 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13815
 
 }
 
-public enum CardGameController.CardGameState // TypeDefIndex: 13816
+public enum CardGameController.CardGameState // TypeDefIndex: 13818
 {
-	public int value__; 
+public int value__;
 	public const CardGameController.CardGameState NotPlaying = 0;
 	public const CardGameController.CardGameState InGameBetweenRounds = 1;
 	public const CardGameController.CardGameState InGameRound = 2;
@@ -186,9 +186,9 @@ public enum CardGameController.CardGameState // TypeDefIndex: 13816
 
 }
 
-public enum CardGameController.Playability // TypeDefIndex: 13817
+public enum CardGameController.Playability // TypeDefIndex: 13819
 {
-	public int value__; 
+public int value__;
 	public const CardGameController.Playability OK = 0;
 	public const CardGameController.Playability NoPlayer = 1;
 	public const CardGameController.Playability NotEnoughBuyIn = 2;
@@ -198,77 +198,77 @@ public enum CardGameController.Playability // TypeDefIndex: 13817
 
 }
 
-private sealed class CardGameController.<PlayersInRound>d__51 : IEnumerable<CardPlayerData>, IEnumerable, IEnumerator<CardPlayerData>, IEnumerator, IDisposable // TypeDefIndex: 13818
+private sealed class CardGameController.<PlayersInRound>d__51 : IEnumerable<CardPlayerData>, IEnumerable, IEnumerator<CardPlayerData>, IEnumerator, IDisposable // TypeDefIndex: 13820
 {
-	private int <>1__state; 
-	private CardPlayerData <>2__current; 
-	private int <>l__initialThreadId; 
-	public CardGameController <>4__this; 
-	private CardPlayerData[] <>7__wrap1; 
-	private int <>7__wrap2; 
+private int <>1__state;
+private CardPlayerData <>2__current;
+private int <>l__initialThreadId;
+public CardGameController <>4__this;
+private CardPlayerData[] <>7__wrap1;
+private int <>7__wrap2;
 
 	private CardPlayerData System.Collections.Generic.IEnumerator<Facepunch.CardGames.CardPlayerData>.Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
 
 
-	[DebuggerHiddenAttribute] 
+[DebuggerHiddenAttribute]
 	public void .ctor(int <>1__state) { }
 
-	[DebuggerHiddenAttribute] 
+[DebuggerHiddenAttribute]
 	private void System.IDisposable.Dispose() { }
 
 	private bool MoveNext() { }
 
-	[DebuggerHiddenAttribute] 
+[DebuggerHiddenAttribute]
 	private CardPlayerData System.Collections.Generic.IEnumerator<Facepunch.CardGames.CardPlayerData>.get_Current() { }
 
-	[DebuggerHiddenAttribute] 
+[DebuggerHiddenAttribute]
 	private void System.Collections.IEnumerator.Reset() { }
 
-	[DebuggerHiddenAttribute] 
+[DebuggerHiddenAttribute]
 	private object System.Collections.IEnumerator.get_Current() { }
 
-	[DebuggerHiddenAttribute] 
+[DebuggerHiddenAttribute]
 	private IEnumerator<CardPlayerData> System.Collections.Generic.IEnumerable<Facepunch.CardGames.CardPlayerData>.GetEnumerator() { }
 
-	[DebuggerHiddenAttribute] 
+[DebuggerHiddenAttribute]
 	private IEnumerator System.Collections.IEnumerable.GetEnumerator() { }
 
 }
 
-private sealed class CardGameController.<>c__DisplayClass63_0 // TypeDefIndex: 13819
+private sealed class CardGameController.<>c__DisplayClass63_0 // TypeDefIndex: 13821
 {
-	public BasePlayer player; 
+public BasePlayer player;
 
 
 	public void .ctor() { }
 
-	internal bool <PlayerIsInGame>
+internal bool <PlayerIsInGame>
 
 }
 
-private sealed class CardGameController.<>c__DisplayClass67_0 // TypeDefIndex: 13820
+private sealed class CardGameController.<>c__DisplayClass67_0 // TypeDefIndex: 13822
 {
-	public ulong userID; 
+public ulong userID;
 
 
 	public void .ctor() { }
 
-	internal bool <IsAtTable>
+internal bool <IsAtTable>
 
 }
 
-private sealed class CardGameController.<>c // TypeDefIndex: 13821
+private sealed class CardGameController.<>c // TypeDefIndex: 13823
 {
-	public static readonly CardGameController.<>c <>9; 
-	public static Func<PlayingCard, bool> <>9__85_0; 
+public static readonly CardGameController.<>c <>9;
+public static Func<PlayingCard, bool> <>9__85_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal bool <Load>
+internal bool <Load>
 
 }
 

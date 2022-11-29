@@ -1,4 +1,4 @@
-public class DisableWithMainMenu : MonoBehaviour // TypeDefIndex: 12893
+public class DisableWithMainMenu : MonoBehaviour // TypeDefIndex: 12895
 {
 
 	private void OnEnable() { }

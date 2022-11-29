@@ -1,7 +1,7 @@
-public class RadixSorter // TypeDefIndex: 13201
+public class RadixSorter // TypeDefIndex: 13203
 {
-	private uint[] histogram; 
-	private uint[] offset; 
+private uint[] histogram;
+private uint[] offset;
 
 
 	public void .ctor() { }

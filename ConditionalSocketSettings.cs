@@ -1,9 +1,9 @@
-public class ConditionalSocketSettings // TypeDefIndex: 13911
+public class ConditionalSocketSettings // TypeDefIndex: 13913
 {
-	public bool restrictOnLocation; 
-	public ConditionalSocketSettings.LocationCondition locationRestriction; 
-	public bool restrictOnWheel; 
-	public ModularVehicleSocket.SocketWheelType wheelRestriction; 
+public bool restrictOnLocation;
+public ConditionalSocketSettings.LocationCondition locationRestriction;
+public bool restrictOnWheel;
+public ModularVehicleSocket.SocketWheelType wheelRestriction;
 
 	public bool HasSocketRestrictions { get; }
 
@@ -14,9 +14,9 @@ public class ConditionalSocketSettings // TypeDefIndex: 13911
 
 }
 
-public enum ConditionalSocketSettings.LocationCondition // TypeDefIndex: 13912
+public enum ConditionalSocketSettings.LocationCondition // TypeDefIndex: 13914
 {
-	public int value__; 
+public int value__;
 	public const ConditionalSocketSettings.LocationCondition Middle = 0;
 	public const ConditionalSocketSettings.LocationCondition Front = 1;
 	public const ConditionalSocketSettings.LocationCondition Back = 2;

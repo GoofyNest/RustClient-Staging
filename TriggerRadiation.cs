@@ -1,9 +1,9 @@
-public class TriggerRadiation : TriggerBase // TypeDefIndex: 11791
+public class TriggerRadiation : TriggerBase // TypeDefIndex: 11793
 {
-	public TriggerRadiation.RadiationTier radiationTier; 
-	public float RadiationAmountOverride; 
-	public float falloff; 
-	private SphereCollider sphereCollider; 
+public TriggerRadiation.RadiationTier radiationTier;
+public float RadiationAmountOverride;
+public float falloff;
+private SphereCollider sphereCollider;
 
 
 	public void Awake() { }
@@ -18,9 +18,9 @@ public class TriggerRadiation : TriggerBase // TypeDefIndex: 11791
 
 }
 
-public enum TriggerRadiation.RadiationTier // TypeDefIndex: 11792
+public enum TriggerRadiation.RadiationTier // TypeDefIndex: 11794
 {
-	public int value__; 
+public int value__;
 	public const TriggerRadiation.RadiationTier MINIMAL = 0;
 	public const TriggerRadiation.RadiationTier LOW = 1;
 	public const TriggerRadiation.RadiationTier MEDIUM = 2;

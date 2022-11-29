@@ -1,14 +1,14 @@
-public class MicrophoneStandIOEntity : IOEntity, IAudioConnectionSource // TypeDefIndex: 11187
+public class MicrophoneStandIOEntity : IOEntity, IAudioConnectionSource // TypeDefIndex: 11189
 {
-	public int PowerCost; 
-	public TriggerBase InstrumentTrigger; 
-	public bool IsStatic; 
-	private List<InstrumentKeyController> nearbyInstruments; 
-	private Dictionary<InstrumentKeyController, List<Sound>> activeSounds; 
-	private List<ConnectedSpeaker> connectedRepeaters; 
-	private TimeSince lastNote; 
-	private float fakeInput; 
-	private int lastFrameMove; 
+public int PowerCost;
+public TriggerBase InstrumentTrigger;
+public bool IsStatic;
+private List<InstrumentKeyController> nearbyInstruments;
+private Dictionary<InstrumentKeyController, List<Sound>> activeSounds;
+private List<ConnectedSpeaker> connectedRepeaters;
+private TimeSince lastNote;
+private float fakeInput;
+private int lastFrameMove;
 
 	public float VolumeVisualisationMultiplier { get; }
 

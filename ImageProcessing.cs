@@ -1,7 +1,7 @@
-public static class ImageProcessing // TypeDefIndex: 12036
+public static class ImageProcessing // TypeDefIndex: 12038
 {
-	private static byte[] signaturePNG; 
-	private static byte[] signatureIHDR; 
+private static byte[] signaturePNG;
+private static byte[] signatureIHDR;
 
 
 	public static void GaussianBlur2D(float[] data, int len1, int len2, int iterations = 1) { }
@@ -30,100 +30,100 @@ public static class ImageProcessing // TypeDefIndex: 12036
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass1_0 // TypeDefIndex: 12037
+private sealed class ImageProcessing.<>c__DisplayClass1_0 // TypeDefIndex: 12039
 {
-	public int len1; 
-	public int len2; 
-	public float[] src; 
-	public int len3; 
-	public float[] dst; 
-	public Action<int> <>9__0; 
+public int len1;
+public int len2;
+public float[] src;
+public int len3;
+public float[] dst;
+public Action<int> <>9__0;
 
 
 	public void .ctor() { }
 
-	internal void <GaussianBlur2D>
+internal void <GaussianBlur2D>
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass2_0 // TypeDefIndex: 12038
+private sealed class ImageProcessing.<>c__DisplayClass2_0 // TypeDefIndex: 12040
 {
-	public int len1; 
-	public int len2; 
-	public float[] src; 
-	public float[] dst; 
-	public Action<int> <>9__0; 
+public int len1;
+public int len2;
+public float[] src;
+public float[] dst;
+public Action<int> <>9__0;
 
 
 	public void .ctor() { }
 
-	internal void <Average2D>
+internal void <Average2D>
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass3_0 // TypeDefIndex: 12039
+private sealed class ImageProcessing.<>c__DisplayClass3_0 // TypeDefIndex: 12041
 {
-	public int len1; 
-	public int len2; 
-	public float[] src; 
-	public int len3; 
-	public float[] dst; 
-	public Action<int> <>9__0; 
+public int len1;
+public int len2;
+public float[] src;
+public int len3;
+public float[] dst;
+public Action<int> <>9__0;
 
 
 	public void .ctor() { }
 
-	internal void <Average2D>
+internal void <Average2D>
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass4_0 // TypeDefIndex: 12040
+private sealed class ImageProcessing.<>c__DisplayClass4_0 // TypeDefIndex: 12042
 {
-	public int srclen1; 
-	public int srclen2; 
-	public float[] src; 
-	public float[] dst; 
-	public int dstlen2; 
+public int srclen1;
+public int srclen2;
+public float[] src;
+public float[] dst;
+public int dstlen2;
 
 
 	public void .ctor() { }
 
-	internal void <Upsample2D>
+internal void <Upsample2D>
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass5_0 // TypeDefIndex: 12041
+private sealed class ImageProcessing.<>c__DisplayClass5_0 // TypeDefIndex: 12043
 {
-	public int srclen1; 
-	public int srclen2; 
-	public float[] src; 
-	public int srclen3; 
-	public float[] dst; 
-	public int dstlen2; 
-	public int dstlen3; 
+public int srclen1;
+public int srclen2;
+public float[] src;
+public int srclen3;
+public float[] dst;
+public int dstlen2;
+public int dstlen3;
 
 
 	public void .ctor() { }
 
-	internal void <Upsample2D>
+internal void <Upsample2D>
 
 }
 
-private sealed class ImageProcessing.<>c__DisplayClass6_0 // TypeDefIndex: 12042
+private sealed class ImageProcessing.<>c__DisplayClass6_0 // TypeDefIndex: 12044
 {
-	public int radius; 
-	public int[] src; 
-	public int len2; 
-	public int srcmask; 
-	public Action<int, int> action; 
-	public int len1; 
+public int radius;
+public int[] src;
+public int len2;
+public int srcmask;
+public Action<int, int> action;
+public int len1;
 
 
 	public void .ctor() { }
 
-	internal void <Dilate2D>
+internal void <Dilate2D>
 
-	internal void <Dilate2D>
+internal void <Dilate2D>
 
 }
 

@@ -1,4 +1,4 @@
-public class TreeMesh : MonoBehaviour // TypeDefIndex: 12195
+public class TreeMesh : MonoBehaviour // TypeDefIndex: 12197
 {
 
 	public void .ctor() { }

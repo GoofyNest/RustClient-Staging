@@ -1,37 +1,37 @@
 internal class WebConnectionStream : Stream // TypeDefIndex: 3033
 {
-	private static byte[] crlf; 
-	private bool isRead; 
-	private WebConnection cnc; 
-	private HttpWebRequest request; 
-	private byte[] readBuffer; 
-	private int readBufferOffset; 
-	private int readBufferSize; 
-	private int stream_length; 
-	private long contentLength; 
-	private long totalRead; 
-	internal long totalWritten; 
-	private bool nextReadCalled; 
-	private int pendingReads; 
-	private int pendingWrites; 
-	private ManualResetEvent pending; 
-	private bool allowBuffering; 
-	private bool sendChunked; 
-	private MemoryStream writeBuffer; 
-	private bool requestWritten; 
-	private byte[] headers; 
-	private bool disposed; 
-	private bool headersSent; 
-	private object locker; 
-	private bool initRead; 
-	private bool read_eof; 
-	private bool complete_request_written; 
-	private int read_timeout; 
-	private int write_timeout; 
-	private AsyncCallback cb_wrapper; 
-	internal bool IgnoreIOErrors; 
-	[CompilerGeneratedAttribute] 
-	private bool <GetResponseOnClose>k__BackingField; 
+private static byte[] crlf;
+private bool isRead;
+private WebConnection cnc;
+private HttpWebRequest request;
+private byte[] readBuffer;
+private int readBufferOffset;
+private int readBufferSize;
+private int stream_length;
+private long contentLength;
+private long totalRead;
+internal long totalWritten;
+private bool nextReadCalled;
+private int pendingReads;
+private int pendingWrites;
+private ManualResetEvent pending;
+private bool allowBuffering;
+private bool sendChunked;
+private MemoryStream writeBuffer;
+private bool requestWritten;
+private byte[] headers;
+private bool disposed;
+private bool headersSent;
+private object locker;
+private bool initRead;
+private bool read_eof;
+private bool complete_request_written;
+private int read_timeout;
+private int write_timeout;
+private AsyncCallback cb_wrapper;
+internal bool IgnoreIOErrors;
+[CompilerGeneratedAttribute]
+private bool <GetResponseOnClose>k__BackingField;
 
 	internal WebConnection Connection { get; }
 	public override int ReadTimeout { get; }
@@ -120,7 +120,7 @@ internal class WebConnectionStream : Stream // TypeDefIndex: 3033
 
 	internal void InternalClose() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	internal bool get_GetResponseOnClose() { }
 
 	public override void Close() { }
@@ -149,42 +149,42 @@ internal class WebConnectionStream : Stream // TypeDefIndex: 3033
 
 private sealed class WebConnectionStream.<>c__DisplayClass75_0 // TypeDefIndex: 3034
 {
-	public WebConnectionStream <>4__this; 
-	public bool setInternalLength; 
+public WebConnectionStream <>4__this;
+public bool setInternalLength;
 
 
 	public void .ctor() { }
 
-	internal bool <SetHeadersAsync>
+internal bool <SetHeadersAsync>
 
 }
 
 private sealed class WebConnectionStream.<>c__DisplayClass76_0 // TypeDefIndex: 3035
 {
-	public WebConnectionStream <>4__this; 
-	public SimpleAsyncResult result; 
+public WebConnectionStream <>4__this;
+public SimpleAsyncResult result;
 
 
 	public void .ctor() { }
 
-	internal void <SetHeadersAsync>
+internal void <SetHeadersAsync>
 
 }
 
 private sealed class WebConnectionStream.<>c__DisplayClass80_0 // TypeDefIndex: 3036
 {
-	public SimpleAsyncResult result; 
-	public WebConnectionStream <>4__this; 
-	public int length; 
-	public byte[] bytes; 
-	public AsyncCallback <>9__1; 
+public SimpleAsyncResult result;
+public WebConnectionStream <>4__this;
+public int length;
+public byte[] bytes;
+public AsyncCallback <>9__1;
 
 
 	public void .ctor() { }
 
-	internal void <WriteRequestAsync>
+internal void <WriteRequestAsync>
 
-	internal void <WriteRequestAsync>
+internal void <WriteRequestAsync>
 
 }
 

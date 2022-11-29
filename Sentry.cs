@@ -1,9 +1,9 @@
-public class Sentry : ConsoleSystem // TypeDefIndex: 13760
+public class Sentry : ConsoleSystem // TypeDefIndex: 13762
 {
-	[ServerVar] 
-	public static bool targetall; 
-	[ServerVar] 
-	public static float hostileduration; 
+[ServerVar]
+public static bool targetall;
+[ServerVar]
+public static float hostileduration;
 
 
 	public void .ctor() { }

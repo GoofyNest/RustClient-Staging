@@ -1,6 +1,6 @@
-public class TerrainTopologyMap : TerrainMap<int> // TypeDefIndex: 12173
+public class TerrainTopologyMap : TerrainMap<int> // TypeDefIndex: 12175
 {
-	public Texture2D TopologyTexture; 
+public Texture2D TopologyTexture;
 
 
 	public override void Setup() { }
@@ -57,39 +57,39 @@ public class TerrainTopologyMap : TerrainMap<int> // TypeDefIndex: 12173
 
 }
 
-private sealed class TerrainTopologyMap.<>c__DisplayClass2_0 // TypeDefIndex: 12174
+private sealed class TerrainTopologyMap.<>c__DisplayClass2_0 // TypeDefIndex: 12176
 {
-	public Color32[] col; 
-	public TerrainTopologyMap <>4__this; 
+public Color32[] col;
+public TerrainTopologyMap <>4__this;
 
 
 	public void .ctor() { }
 
-	internal void <GenerateTextures>
+internal void <GenerateTextures>
 
 }
 
-private sealed class TerrainTopologyMap.<>c__DisplayClass23_0 // TypeDefIndex: 12175
+private sealed class TerrainTopologyMap.<>c__DisplayClass23_0 // TypeDefIndex: 12177
 {
-	public TerrainTopologyMap <>4__this; 
-	public int mask; 
+public TerrainTopologyMap <>4__this;
+public int mask;
 
 
 	public void .ctor() { }
 
-	internal void <SetTopology>
+internal void <SetTopology>
 
 }
 
-private sealed class TerrainTopologyMap.<>c__DisplayClass25_0 // TypeDefIndex: 12176
+private sealed class TerrainTopologyMap.<>c__DisplayClass25_0 // TypeDefIndex: 12178
 {
-	public TerrainTopologyMap <>4__this; 
-	public int mask; 
+public TerrainTopologyMap <>4__this;
+public int mask;
 
 
 	public void .ctor() { }
 
-	internal void <AddTopology>
+internal void <AddTopology>
 
 }
 

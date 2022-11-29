@@ -1,6 +1,6 @@
-public enum Suit // TypeDefIndex: 13826
+public enum Suit // TypeDefIndex: 13828
 {
-	public int value__; 
+public int value__;
 	public const Suit Spades = 0;
 	public const Suit Hearts = 1;
 	public const Suit Diamonds = 2;

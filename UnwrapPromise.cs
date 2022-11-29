@@ -1,7 +1,7 @@
 private sealed class UnwrapPromise.<>c<TResult> // TypeDefIndex: 869
 {
-	public static readonly UnwrapPromise.<>c<TResult> <>9; 
-	public static WaitCallback <>9__8_0; 
+public static readonly UnwrapPromise.<>c<TResult> <>9;
+public static WaitCallback <>9__8_0;
 
 
 	private static void .cctor() { }
@@ -18,11 +18,11 @@ private sealed class UnwrapPromise.<>c<TResult> // TypeDefIndex: 869
 	|-UnwrapPromise.<>c<VoidTaskResult>..ctor
 	*/
 
-	internal void <InvokeCoreAsync>
+internal void <InvokeCoreAsync>
 	/* GenericInstMethod :
 	|
-	|-UnwrapPromise.<>c<object>.<InvokeCoreAsync>
-	|-UnwrapPromise.<>c<VoidTaskResult>.<InvokeCoreAsync>
+|-UnwrapPromise.<>c<object>.<InvokeCoreAsync>
+|-UnwrapPromise.<>c<VoidTaskResult>.<InvokeCoreAsync>
 	*/
 
 }

@@ -1,10 +1,10 @@
-public class RigidbodyLOD : LODComponent // TypeDefIndex: 11700
+public class RigidbodyLOD : LODComponent // TypeDefIndex: 11702
 {
-	public float Distance; 
-	private Rigidbody rigidbody; 
-	private int curlod; 
-	private bool force; 
-	private bool kinematic; 
+public float Distance;
+private Rigidbody rigidbody;
+private int curlod;
+private bool force;
+private bool kinematic;
 
 
 	protected override void InitLOD() { }

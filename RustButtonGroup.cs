@@ -1,9 +1,9 @@
-public class RustButtonGroup : RustControl // TypeDefIndex: 7053
+public class RustButtonGroup : RustControl // TypeDefIndex: 7055
 {
-	public Option[] Options; 
-	public string ButtonStyle; 
-	private int CurrentOption; 
-	public RustButtonGroup.ChangedEvent OnChanged; 
+public Option[] Options;
+public string ButtonStyle;
+private int CurrentOption;
+public RustButtonGroup.ChangedEvent OnChanged;
 
 	public Option Value { get; }
 
@@ -26,22 +26,22 @@ public class RustButtonGroup : RustControl // TypeDefIndex: 7053
 
 }
 
-public class RustButtonGroup.ChangedEvent : UnityEvent<Option> // TypeDefIndex: 7054
+public class RustButtonGroup.ChangedEvent : UnityEvent<Option> // TypeDefIndex: 7056
 {
 
 	public void .ctor() { }
 
 }
 
-private sealed class RustButtonGroup.<>c__DisplayClass12_0 // TypeDefIndex: 7055
+private sealed class RustButtonGroup.<>c__DisplayClass12_0 // TypeDefIndex: 7057
 {
-	public int buttonNumber; 
-	public RustButtonGroup <>4__this; 
+public int buttonNumber;
+public RustButtonGroup <>4__this;
 
 
 	public void .ctor() { }
 
-	internal void <BuildContents>
+internal void <BuildContents>
 
 }
 

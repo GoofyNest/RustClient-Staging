@@ -1,4 +1,4 @@
-public class GenerateRiverTopology : ProceduralComponent // TypeDefIndex: 12260
+public class GenerateRiverTopology : ProceduralComponent // TypeDefIndex: 12262
 {
 
 	public override void Process(uint seed) { }
@@ -9,17 +9,17 @@ public class GenerateRiverTopology : ProceduralComponent // TypeDefIndex: 12260
 
 }
 
-private sealed class GenerateRiverTopology.<>c__DisplayClass1_0 // TypeDefIndex: 12261
+private sealed class GenerateRiverTopology.<>c__DisplayClass1_0 // TypeDefIndex: 12263
 {
-	public int[] map; 
-	public int res; 
-	public TerrainTopologyMap topomap; 
-	public TerrainHeightMap heightmap; 
+public int[] map;
+public int res;
+public TerrainTopologyMap topomap;
+public TerrainHeightMap heightmap;
 
 
 	public void .ctor() { }
 
-	internal void <MarkRiverside>
+internal void <MarkRiverside>
 
 }
 

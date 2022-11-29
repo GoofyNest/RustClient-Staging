@@ -1,4 +1,4 @@
-public class GenerateRailTopology : ProceduralComponent // TypeDefIndex: 12253
+public class GenerateRailTopology : ProceduralComponent // TypeDefIndex: 12255
 {
 
 	public override void Process(uint seed) { }
@@ -9,17 +9,17 @@ public class GenerateRailTopology : ProceduralComponent // TypeDefIndex: 12253
 
 }
 
-private sealed class GenerateRailTopology.<>c__DisplayClass1_0 // TypeDefIndex: 12254
+private sealed class GenerateRailTopology.<>c__DisplayClass1_0 // TypeDefIndex: 12256
 {
-	public int[] map; 
-	public int res; 
-	public TerrainTopologyMap topomap; 
-	public TerrainHeightMap heightmap; 
+public int[] map;
+public int res;
+public TerrainTopologyMap topomap;
+public TerrainHeightMap heightmap;
 
 
 	public void .ctor() { }
 
-	internal void <MarkRailside>
+internal void <MarkRailside>
 
 }
 

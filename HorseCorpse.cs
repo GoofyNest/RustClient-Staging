@@ -1,7 +1,7 @@
-public class HorseCorpse : LootableCorpse // TypeDefIndex: 10690
+public class HorseCorpse : LootableCorpse // TypeDefIndex: 10692
 {
-	public int breedIndex; 
-	public Translate.Phrase lootPanelTitle; 
+public int breedIndex;
+public Translate.Phrase lootPanelTitle;
 
 	public override string playerName { get; }
 

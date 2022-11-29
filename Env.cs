@@ -1,12 +1,12 @@
-public class Env : ConsoleSystem // TypeDefIndex: 13722
+public class Env : ConsoleSystem // TypeDefIndex: 13724
 {
-	[ClientVar] 
+[ClientVar]
 	public static bool cloudmovement { get; set; }
-	[ClientVar] 
+[ClientVar]
 	public static float cloudrotation { get; set; }
-	[ClientVar] 
+[ClientVar]
 	public static float skyrotation { get; set; }
-	[ReplicatedVar] 
+[ReplicatedVar]
 	public static float oceanlevel { get; set; }
 
 

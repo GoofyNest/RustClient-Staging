@@ -1,8 +1,8 @@
-public class SonarObject : MonoBehaviour, IClientComponent // TypeDefIndex: 13478
+public class SonarObject : MonoBehaviour, IClientComponent // TypeDefIndex: 13480
 {
-	[SerializeField] 
-	private SonarObject.SType sonarType; 
-	public static List<SonarObject> trackedObjects; 
+[SerializeField]
+private SonarObject.SType sonarType;
+public static List<SonarObject> trackedObjects;
 
 	public SonarObject.SType SonarType { get; }
 
@@ -19,9 +19,9 @@ public class SonarObject : MonoBehaviour, IClientComponent // TypeDefIndex: 1347
 
 }
 
-public enum SonarObject.SType // TypeDefIndex: 13479
+public enum SonarObject.SType // TypeDefIndex: 13481
 {
-	public int value__; 
+public int value__;
 	public const SonarObject.SType MoonPool = 0;
 	public const SonarObject.SType Sub = 1;
 

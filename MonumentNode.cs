@@ -1,6 +1,6 @@
-public class MonumentNode : MonoBehaviour // TypeDefIndex: 12199
+public class MonumentNode : MonoBehaviour // TypeDefIndex: 12201
 {
-	public string ResourceFolder; 
+public string ResourceFolder;
 
 
 	protected void Awake() { }

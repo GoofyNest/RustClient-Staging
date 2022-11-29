@@ -1,18 +1,18 @@
-public class SoundFade : MonoBehaviour, IClientComponent // TypeDefIndex: 10757
+public class SoundFade : MonoBehaviour, IClientComponent // TypeDefIndex: 10759
 {
-	public SoundFadeHQAudioFilter hqFadeFilter; 
-	public float currentGain; 
-	public float startingGain; 
-	public float finalGain; 
-	public int sampleRate; 
-	public bool highQualityFadeCompleted; 
-	public float length; 
-	public SoundFade.Direction currentDirection; 
-	private Sound _sound; 
-	public SoundModulation.Modulator fadeGainModulator; 
-	private float startTime; 
-	private float fadeOutTimeFinished; 
-	private float fadeOutTimeBuffer; 
+public SoundFadeHQAudioFilter hqFadeFilter;
+public float currentGain;
+public float startingGain;
+public float finalGain;
+public int sampleRate;
+public bool highQualityFadeCompleted;
+public float length;
+public SoundFade.Direction currentDirection;
+private Sound _sound;
+public SoundModulation.Modulator fadeGainModulator;
+private float startTime;
+private float fadeOutTimeFinished;
+private float fadeOutTimeBuffer;
 
 	public Sound sound { get; }
 	public bool isFading { get; }
@@ -49,9 +49,9 @@ public class SoundFade : MonoBehaviour, IClientComponent // TypeDefIndex: 10757
 
 }
 
-public enum SoundFade.Direction // TypeDefIndex: 10758
+public enum SoundFade.Direction // TypeDefIndex: 10760
 {
-	public int value__; 
+public int value__;
 	public const SoundFade.Direction In = 0;
 	public const SoundFade.Direction Out = 1;
 

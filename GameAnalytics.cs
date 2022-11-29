@@ -1,6 +1,6 @@
-internal static class GameAnalytics // TypeDefIndex: 5627
+internal static class GameAnalytics // TypeDefIndex: 5629
 {
-	private static bool _endThread; 
+private static bool _endThread;
 
 
 	private static void .cctor() { }
@@ -35,145 +35,145 @@ internal static class GameAnalytics // TypeDefIndex: 5627
 
 }
 
-private sealed class GameAnalytics.<>c__DisplayClass7_0 // TypeDefIndex: 5628
+private sealed class GameAnalytics.<>c__DisplayClass7_0 // TypeDefIndex: 5630
 {
-	public string build; 
+public string build;
 
 
 	public void .ctor() { }
 
-	internal void <ConfigureBuild>
+internal void <ConfigureBuild>
 
 }
 
-private sealed class GameAnalytics.<>c__DisplayClass8_0 // TypeDefIndex: 5629
+private sealed class GameAnalytics.<>c__DisplayClass8_0 // TypeDefIndex: 5631
 {
-	public string sdkGameEngineVersion; 
+public string sdkGameEngineVersion;
 
 
 	public void .ctor() { }
 
-	internal void <ConfigureSdkGameEngineVersion>
+internal void <ConfigureSdkGameEngineVersion>
 
 }
 
-private sealed class GameAnalytics.<>c__DisplayClass9_0 // TypeDefIndex: 5630
+private sealed class GameAnalytics.<>c__DisplayClass9_0 // TypeDefIndex: 5632
 {
-	public string gameEngineVersion; 
+public string gameEngineVersion;
 
 
 	public void .ctor() { }
 
-	internal void <ConfigureGameEngineVersion>
+internal void <ConfigureGameEngineVersion>
 
 }
 
-private sealed class GameAnalytics.<>c__DisplayClass10_0 // TypeDefIndex: 5631
+private sealed class GameAnalytics.<>c__DisplayClass10_0 // TypeDefIndex: 5633
 {
-	public string uId; 
+public string uId;
 
 
 	public void .ctor() { }
 
-	internal void <ConfigureUserId>
+internal void <ConfigureUserId>
 
 }
 
-private sealed class GameAnalytics.<>c__DisplayClass11_0 // TypeDefIndex: 5632
+private sealed class GameAnalytics.<>c__DisplayClass11_0 // TypeDefIndex: 5634
 {
-	public string gameKey; 
-	public string gameSecret; 
+public string gameKey;
+public string gameSecret;
 
 
 	public void .ctor() { }
 
-	internal void <Initialize>
+internal void <Initialize>
 
 }
 
-private sealed class GameAnalytics.<>c__DisplayClass12_0 // TypeDefIndex: 5633
+private sealed class GameAnalytics.<>c__DisplayClass12_0 // TypeDefIndex: 5635
 {
-	public string currency; 
-	public int amount; 
-	public string itemType; 
-	public string itemId; 
-	public string cartType; 
+public string currency;
+public int amount;
+public string itemType;
+public string itemId;
+public string cartType;
 
 
 	public void .ctor() { }
 
-	internal void <AddBusinessEvent>
+internal void <AddBusinessEvent>
 
 }
 
-private sealed class GameAnalytics.<>c__DisplayClass20_0 // TypeDefIndex: 5634
+private sealed class GameAnalytics.<>c__DisplayClass20_0 // TypeDefIndex: 5636
 {
-	public string eventId; 
-	public IDictionary<string, object> fields; 
+public string eventId;
+public IDictionary<string, object> fields;
 
 
 	public void .ctor() { }
 
-	internal void <AddDesignEvent>
+internal void <AddDesignEvent>
 
 }
 
-private sealed class GameAnalytics.<>c__DisplayClass21_0 // TypeDefIndex: 5635
+private sealed class GameAnalytics.<>c__DisplayClass21_0 // TypeDefIndex: 5637
 {
-	public string eventId; 
-	public double value; 
+public string eventId;
+public double value;
 
 
 	public void .ctor() { }
 
-	internal void <AddDesignEvent>
+internal void <AddDesignEvent>
 
 }
 
-private sealed class GameAnalytics.<>c__DisplayClass25_0 // TypeDefIndex: 5636
+private sealed class GameAnalytics.<>c__DisplayClass25_0 // TypeDefIndex: 5638
 {
-	public string dimension; 
+public string dimension;
 
 
 	public void .ctor() { }
 
-	internal void <SetCustomDimension01>
+internal void <SetCustomDimension01>
 
 }
 
-private sealed class GameAnalytics.<>c__DisplayClass26_0 // TypeDefIndex: 5637
+private sealed class GameAnalytics.<>c__DisplayClass26_0 // TypeDefIndex: 5639
 {
-	public string dimension; 
+public string dimension;
 
 
 	public void .ctor() { }
 
-	internal void <SetCustomDimension02>
+internal void <SetCustomDimension02>
 
 }
 
-private sealed class GameAnalytics.<>c__DisplayClass27_0 // TypeDefIndex: 5638
+private sealed class GameAnalytics.<>c__DisplayClass27_0 // TypeDefIndex: 5640
 {
-	public string dimension; 
+public string dimension;
 
 
 	public void .ctor() { }
 
-	internal void <SetCustomDimension03>
+internal void <SetCustomDimension03>
 
 }
 
-private sealed class GameAnalytics.<>c // TypeDefIndex: 5639
+private sealed class GameAnalytics.<>c // TypeDefIndex: 5641
 {
-	public static readonly GameAnalytics.<>c <>9; 
-	public static Action <>9__35_0; 
+public static readonly GameAnalytics.<>c <>9;
+public static Action <>9__35_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal void <OnQuit>
+internal void <OnQuit>
 
 }
 

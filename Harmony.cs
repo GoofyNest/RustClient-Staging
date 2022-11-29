@@ -1,10 +1,10 @@
-public class Harmony : ConsoleSystem // TypeDefIndex: 13733
+public class Harmony : ConsoleSystem // TypeDefIndex: 13735
 {
 
-	[ServerVar] 
+[ServerVar]
 	public static void Load(ConsoleSystem.Arg args) { }
 
-	[ServerVar] 
+[ServerVar]
 	public static void Unload(ConsoleSystem.Arg args) { }
 
 	public void .ctor() { }

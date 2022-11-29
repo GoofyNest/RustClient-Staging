@@ -1,11 +1,11 @@
-public class hitnotify : ConsoleSystem // TypeDefIndex: 13782
+public class hitnotify : ConsoleSystem // TypeDefIndex: 13784
 {
-	[ClientVar] 
-	[HelpAttribute] 
-	public static int notification_level; 
-	[ClientVar] 
-	[HelpAttribute] 
-	public static bool headshot; 
+[ClientVar]
+[HelpAttribute]
+public static int notification_level;
+[ClientVar]
+[HelpAttribute]
+public static bool headshot;
 
 
 	public void .ctor() { }

@@ -1,24 +1,24 @@
-public class SelectedBlueprint : SingletonComponent<SelectedBlueprint>, IInventoryChanged // TypeDefIndex: 12767
+public class SelectedBlueprint : SingletonComponent<SelectedBlueprint>, IInventoryChanged // TypeDefIndex: 12769
 {
-	public ItemBlueprint blueprint; 
-	public InputField craftAmountText; 
-	public GameObject ingredientGrid; 
-	public IconSkinPicker skinPicker; 
-	public Image iconImage; 
-	public RustText titleText; 
-	public RustText descriptionText; 
-	public CanvasGroup CraftArea; 
-	public Button CraftButton; 
-	public RustText CraftingTime; 
-	public RustText CraftingAmount; 
-	public Sprite FavouriteOnSprite; 
-	public Sprite FavouriteOffSprite; 
-	public Image FavouriteButtonStatusMarker; 
-	public GameObject[] workbenchReqs; 
-	private ItemInformationPanel[] informationPanels; 
-	private bool needsRefresh; 
-	private int craftAmount; 
-	private BlueprintCraftGridRow[] ingredientRows; 
+public ItemBlueprint blueprint;
+public InputField craftAmountText;
+public GameObject ingredientGrid;
+public IconSkinPicker skinPicker;
+public Image iconImage;
+public RustText titleText;
+public RustText descriptionText;
+public CanvasGroup CraftArea;
+public Button CraftButton;
+public RustText CraftingTime;
+public RustText CraftingAmount;
+public Sprite FavouriteOnSprite;
+public Sprite FavouriteOffSprite;
+public Image FavouriteButtonStatusMarker;
+public GameObject[] workbenchReqs;
+private ItemInformationPanel[] informationPanels;
+private bool needsRefresh;
+private int craftAmount;
+private BlueprintCraftGridRow[] ingredientRows;
 
 	public static bool isOpen { get; }
 
@@ -69,16 +69,16 @@ public class SelectedBlueprint : SingletonComponent<SelectedBlueprint>, IInvento
 
 }
 
-private sealed class SelectedBlueprint.<>c__DisplayClass30_0 // TypeDefIndex: 12768
+private sealed class SelectedBlueprint.<>c__DisplayClass30_0 // TypeDefIndex: 12770
 {
-	public int inventoryId; 
+public int inventoryId;
 
 
 	public void .ctor() { }
 
-	internal bool <StartCrafting>
+internal bool <StartCrafting>
 
-	internal bool <StartCrafting>
+internal bool <StartCrafting>
 
 }
 

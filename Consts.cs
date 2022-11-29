@@ -1,4 +1,4 @@
-internal static class Consts // TypeDefIndex: 7383
+internal static class Consts // TypeDefIndex: 7385
 {
 
 internal static class Consts
@@ -34,7 +34,7 @@ internal static class Consts
 
 }
 
-internal static class Consts // TypeDefIndex: 7813
+internal static class Consts // TypeDefIndex: 7815
 {
 
 internal static class Consts
@@ -70,7 +70,7 @@ internal static class Consts
 
 }
 
-internal static class Consts // TypeDefIndex: 7856
+internal static class Consts // TypeDefIndex: 7858
 {
 
 internal class <Module>
@@ -108,7 +108,7 @@ internal static class Consts
 
 }
 
-internal static class Consts // TypeDefIndex: 7874
+internal static class Consts // TypeDefIndex: 7876
 {
 
 internal class <Module>
@@ -146,7 +146,7 @@ internal static class Consts
 
 }
 
-internal static class Consts // TypeDefIndex: 7915
+internal static class Consts // TypeDefIndex: 7917
 {
 
 internal class <Module>
@@ -184,7 +184,7 @@ internal static class Consts
 
 }
 
-internal static class Consts // TypeDefIndex: 7993
+internal static class Consts // TypeDefIndex: 7995
 {
 
 internal class <Module>
@@ -222,16 +222,16 @@ internal static class Consts
 
 }
 
-public static class Consts // TypeDefIndex: 13340
+public static class Consts // TypeDefIndex: 13342
 {
-	private const string HelpUrlBase = "http:
-	public const string HelpUrlBeam = "http:
-	public const string HelpUrlDustParticles = "http:
-	public const string HelpUrlDynamicOcclusion = "http:
-	public const string HelpUrlTriggerZone = "http:
-	public const string HelpUrlConfig = "http:
-	public static readonly bool ProceduralObjectsVisibleInEditor; 
-	public static readonly Color FlatColor; 
+private const string HelpUrlBase = "http:
+public const string HelpUrlBeam = "http:
+public const string HelpUrlDustParticles = "http:
+public const string HelpUrlDynamicOcclusion = "http:
+public const string HelpUrlTriggerZone = "http:
+public const string HelpUrlConfig = "http:
+public static readonly bool ProceduralObjectsVisibleInEditor;
+public static readonly Color FlatColor;
 	public const ColorMode ColorModeDefault = 0;
 	public const float Alpha = 1;
 	public const float SpotAngleDefault = 35;
@@ -263,11 +263,11 @@ public static class Consts // TypeDefIndex: 13340
 	public const float NoiseScaleMin = 0,01;
 	public const float NoiseScaleMax = 2;
 	public const float NoiseScaleDefault = 0,5;
-	public static readonly Vector3 NoiseVelocityDefault; 
+public static readonly Vector3 NoiseVelocityDefault;
 	public const BlendingMode BlendingModeDefault = 0;
-	public static readonly BlendMode[] BlendingMode_SrcFactor; 
-	public static readonly BlendMode[] BlendingMode_DstFactor; 
-	public static readonly bool[] BlendingMode_AlphaAsBlack; 
+public static readonly BlendMode[] BlendingMode_SrcFactor;
+public static readonly BlendMode[] BlendingMode_DstFactor;
+public static readonly bool[] BlendingMode_AlphaAsBlack;
 	public const float DynOcclusionMinSurfaceRatioDefault = 0,5;
 	public const float DynOcclusionMinSurfaceRatioMin = 50;
 	public const float DynOcclusionMinSurfaceRatioMax = 100;

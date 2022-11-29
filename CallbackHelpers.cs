@@ -9,23 +9,23 @@ internal static class CallbackHelpers // TypeDefIndex: 2556
 
 private sealed class CallbackHelpers.<>c__DisplayClass5_0 // TypeDefIndex: 2557
 {
-	public MonoRemoteCertificateValidationCallback callback; 
+public MonoRemoteCertificateValidationCallback callback;
 
 
 	public void .ctor() { }
 
-	internal bool <MonoToPublic>
+internal bool <MonoToPublic>
 
 }
 
 private sealed class CallbackHelpers.<>c__DisplayClass8_0 // TypeDefIndex: 2558
 {
-	public MonoLocalCertificateSelectionCallback callback; 
+public MonoLocalCertificateSelectionCallback callback;
 
 
 	public void .ctor() { }
 
-	internal X509Certificate <MonoToInternal>
+internal X509Certificate <MonoToInternal>
 
 }
 

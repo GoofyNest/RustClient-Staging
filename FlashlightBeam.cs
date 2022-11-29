@@ -1,10 +1,10 @@
-public class FlashlightBeam : MonoBehaviour, IClientComponent // TypeDefIndex: 10617
+public class FlashlightBeam : MonoBehaviour, IClientComponent // TypeDefIndex: 10619
 {
-	public Vector2 scrollDir; 
-	public Vector3 localEndPoint; 
-	public LineRenderer beamRenderer; 
-	private MaterialPropertyBlock block; 
-	private Vector4 BeamST; 
+public Vector2 scrollDir;
+public Vector3 localEndPoint;
+public LineRenderer beamRenderer;
+private MaterialPropertyBlock block;
+private Vector4 BeamST;
 
 
 	public void OnEnable() { }

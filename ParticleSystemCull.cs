@@ -1,6 +1,6 @@
-public class ParticleSystemCull : LODComponentParticleSystem // TypeDefIndex: 11695
+public class ParticleSystemCull : LODComponentParticleSystem // TypeDefIndex: 11697
 {
-	public float Distance; 
+public float Distance;
 
 
 	protected override void SetLOD(int newlod) { }

@@ -1,8 +1,8 @@
-public class TerrainSplatMap : TerrainMap<byte> // TypeDefIndex: 12168
+public class TerrainSplatMap : TerrainMap<byte> // TypeDefIndex: 12170
 {
-	public Texture2D SplatTexture0; 
-	public Texture2D SplatTexture1; 
-	internal int num; 
+public Texture2D SplatTexture0;
+public Texture2D SplatTexture1;
+internal int num;
 
 
 	public override void Setup() { }
@@ -63,55 +63,55 @@ public class TerrainSplatMap : TerrainMap<byte> // TypeDefIndex: 12168
 
 }
 
-private sealed class TerrainSplatMap.<>c__DisplayClass4_0 // TypeDefIndex: 12169
+private sealed class TerrainSplatMap.<>c__DisplayClass4_0 // TypeDefIndex: 12171
 {
-	public Color32[] cols; 
-	public TerrainSplatMap <>4__this; 
+public Color32[] cols;
+public TerrainSplatMap <>4__this;
 
 
 	public void .ctor() { }
 
-	internal void <GenerateTextures>
+internal void <GenerateTextures>
 
 }
 
-private sealed class TerrainSplatMap.<>c__DisplayClass4_1 // TypeDefIndex: 12170
+private sealed class TerrainSplatMap.<>c__DisplayClass4_1 // TypeDefIndex: 12172
 {
-	public Color32[] cols; 
-	public TerrainSplatMap <>4__this; 
+public Color32[] cols;
+public TerrainSplatMap <>4__this;
 
 
 	public void .ctor() { }
 
-	internal void <GenerateTextures>
+internal void <GenerateTextures>
 
 }
 
-private sealed class TerrainSplatMap.<>c__DisplayClass26_0 // TypeDefIndex: 12171
+private sealed class TerrainSplatMap.<>c__DisplayClass26_0 // TypeDefIndex: 12173
 {
-	public TerrainSplatMap <>4__this; 
-	public int idx; 
-	public float opacity; 
-	public int id; 
+public TerrainSplatMap <>4__this;
+public int idx;
+public float opacity;
+public int id;
 
 
 	public void .ctor() { }
 
-	internal void <SetSplat>
+internal void <SetSplat>
 
 }
 
-private sealed class TerrainSplatMap.<>c__DisplayClass28_0 // TypeDefIndex: 12172
+private sealed class TerrainSplatMap.<>c__DisplayClass28_0 // TypeDefIndex: 12174
 {
-	public TerrainSplatMap <>4__this; 
-	public int idx; 
-	public float delta; 
-	public int id; 
+public TerrainSplatMap <>4__this;
+public int idx;
+public float delta;
+public int id;
 
 
 	public void .ctor() { }
 
-	internal void <AddSplat>
+internal void <AddSplat>
 
 }
 

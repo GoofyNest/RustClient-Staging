@@ -1,11 +1,11 @@
-public class DeveloperTools : SingletonComponent<DeveloperTools> // TypeDefIndex: 12637
+public class DeveloperTools : SingletonComponent<DeveloperTools> // TypeDefIndex: 12639
 {
-	public GameObject developerTools; 
-	public GameObject navButton; 
-	public GameObject panelContainer; 
-	public Text ConsoleInput; 
-	public static int LastSelected; 
-	public static int CurrentlySelected; 
+public GameObject developerTools;
+public GameObject navButton;
+public GameObject panelContainer;
+public Text ConsoleInput;
+public static int LastSelected;
+public static int CurrentlySelected;
 
 	public static bool isOpen { get; }
 
@@ -28,16 +28,16 @@ public class DeveloperTools : SingletonComponent<DeveloperTools> // TypeDefIndex
 
 }
 
-private sealed class DeveloperTools.<>c__DisplayClass10_0 // TypeDefIndex: 12638
+private sealed class DeveloperTools.<>c__DisplayClass10_0 // TypeDefIndex: 12640
 {
-	public GameObject newButton; 
-	public Transform child; 
-	public DeveloperTools <>4__this; 
+public GameObject newButton;
+public Transform child;
+public DeveloperTools <>4__this;
 
 
 	public void .ctor() { }
 
-	internal void <Start>
+internal void <Start>
 
 }
 

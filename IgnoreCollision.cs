@@ -1,6 +1,6 @@
-public class IgnoreCollision : MonoBehaviour // TypeDefIndex: 13100
+public class IgnoreCollision : MonoBehaviour // TypeDefIndex: 13102
 {
-	public Collider collider; 
+public Collider collider;
 
 
 	protected void OnTriggerEnter(Collider other) { }

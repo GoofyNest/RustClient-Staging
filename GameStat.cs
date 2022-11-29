@@ -1,17 +1,17 @@
-public class GameStat : MonoBehaviour // TypeDefIndex: 12703
+public class GameStat : MonoBehaviour // TypeDefIndex: 12705
 {
-	public float refreshTime; 
-	public Text title; 
-	public Text globalStat; 
-	public Text localStat; 
-	private long globalValue; 
-	private long localValue; 
-	private float secondsSinceRefresh; 
-	private float secondsUntilUpdate; 
-	private float secondsUntilChange; 
-	public GameStat.Stat[] stats; 
-	private GameStat.Stat[] unshownStats; 
-	private GameStat.Stat stat; 
+public float refreshTime;
+public Text title;
+public Text globalStat;
+public Text localStat;
+private long globalValue;
+private long localValue;
+private float secondsSinceRefresh;
+private float secondsUntilUpdate;
+private float secondsUntilChange;
+public GameStat.Stat[] stats;
+private GameStat.Stat[] unshownStats;
+private GameStat.Stat stat;
 
 
 	private void Awake() { }
@@ -26,15 +26,15 @@ public class GameStat : MonoBehaviour // TypeDefIndex: 12703
 
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] 
-	private bool <Refresh>
+[CompilerGeneratedAttribute]
+private bool <Refresh>
 
 }
 
-public struct GameStat.Stat // TypeDefIndex: 12704
+public struct GameStat.Stat // TypeDefIndex: 12706
 {
-	public string statName; 
-	public string statTitle; 
+public string statName;
+public string statTitle;
 
 }
 

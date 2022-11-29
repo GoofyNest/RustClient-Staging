@@ -1,12 +1,12 @@
-public class SleepingBagClusterMapMarker : MonoBehaviour // TypeDefIndex: 12734
+public class SleepingBagClusterMapMarker : MonoBehaviour // TypeDefIndex: 12736
 {
-	public TextMeshProUGUI CountText; 
-	public List<SleepingBagButton> SleepingBagButtons; 
-	public GameObject OpenRoot; 
-	public Tooltip SummaryTooltip; 
-	public Image RimImage; 
-	private bool open; 
-	public static SleepingBagClusterMapMarker currentlyOpen; 
+public TextMeshProUGUI CountText;
+public List<SleepingBagButton> SleepingBagButtons;
+public GameObject OpenRoot;
+public Tooltip SummaryTooltip;
+public Image RimImage;
+private bool open;
+public static SleepingBagClusterMapMarker currentlyOpen;
 
 
 	public void OnEnable() { }
@@ -21,8 +21,8 @@ public class SleepingBagClusterMapMarker : MonoBehaviour // TypeDefIndex: 12734
 
 	private static void .cctor() { }
 
-	[CompilerGeneratedAttribute] 
-	private void <ToggleOpen>
+[CompilerGeneratedAttribute]
+private void <ToggleOpen>
 
 }
 

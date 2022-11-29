@@ -1,6 +1,6 @@
-public abstract class ParameterOverride // TypeDefIndex: 13625
+public abstract class ParameterOverride // TypeDefIndex: 13627
 {
-	public bool overrideState; 
+public bool overrideState;
 
 
 	internal abstract void Interp(ParameterOverride from, ParameterOverride to, float t);

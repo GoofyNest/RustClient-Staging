@@ -1,9 +1,9 @@
-public struct FourBitNumber : IComparable<FourBitNumber>, IConvertible // TypeDefIndex: 7637
+public struct FourBitNumber : IComparable<FourBitNumber>, IConvertible // TypeDefIndex: 7639
 {
-	public static readonly FourBitNumber MinValue; 
-	public static readonly FourBitNumber MaxValue; 
-	public static readonly FourBitNumber[] Values; 
-	private readonly byte _value; 
+public static readonly FourBitNumber MinValue;
+public static readonly FourBitNumber MaxValue;
+public static readonly FourBitNumber[] Values;
+private readonly byte _value;
 
 
 	public void .ctor(byte value) { }
@@ -58,16 +58,16 @@ public struct FourBitNumber : IComparable<FourBitNumber>, IConvertible // TypeDe
 
 }
 
-private sealed class FourBitNumber.<>c // TypeDefIndex: 7638
+private sealed class FourBitNumber.<>c // TypeDefIndex: 7640
 {
-	public static readonly FourBitNumber.<>c <>9; 
+public static readonly FourBitNumber.<>c <>9;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal FourBitNumber <.cctor>
+internal FourBitNumber <.cctor>
 
 }
 

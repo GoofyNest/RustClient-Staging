@@ -1,4 +1,4 @@
-public class BaseLadder : BaseCombatEntity // TypeDefIndex: 11249
+public class BaseLadder : BaseCombatEntity // TypeDefIndex: 11251
 {
 
 	public override bool ShouldBlockProjectiles() { }

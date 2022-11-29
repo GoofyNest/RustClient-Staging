@@ -1,7 +1,7 @@
 private sealed class IdentityFunction.<>c<TElement> // TypeDefIndex: 3223
 {
-	public static readonly IdentityFunction.<>c<TElement> <>9; 
-	public static Func<TElement, TElement> <>9__1_0; 
+public static readonly IdentityFunction.<>c<TElement> <>9;
+public static Func<TElement, TElement> <>9__1_0;
 
 
 	private static void .cctor() { }
@@ -20,14 +20,14 @@ private sealed class IdentityFunction.<>c<TElement> // TypeDefIndex: 3223
 	|-IdentityFunction.<>c<Resolution>..ctor
 	*/
 
-	internal TElement <get_Instance>
+internal TElement <get_Instance>
 	/* GenericInstMethod :
 	|
-	|-IdentityFunction.<>c<InventoryItem>.<get_Instance>
+|-IdentityFunction.<>c<InventoryItem>.<get_Instance>
 	|
-	|-IdentityFunction.<>c<object>.<get_Instance>
+|-IdentityFunction.<>c<object>.<get_Instance>
 	|
-	|-IdentityFunction.<>c<Resolution>.<get_Instance>
+|-IdentityFunction.<>c<Resolution>.<get_Instance>
 	*/
 
 }

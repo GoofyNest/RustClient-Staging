@@ -1,18 +1,18 @@
-public class MemSnap : ConsoleSystem // TypeDefIndex: 13745
+public class MemSnap : ConsoleSystem // TypeDefIndex: 13747
 {
 
 	private static string NeedProfileFolder() { }
 
-	[ClientVar] 
-	[ServerVar] 
+[ClientVar]
+[ServerVar]
 	public static void managed(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] 
-	[ServerVar] 
+[ClientVar]
+[ServerVar]
 	public static void native(ConsoleSystem.Arg arg) { }
 
-	[ClientVar] 
-	[ServerVar] 
+[ClientVar]
+[ServerVar]
 	public static void full(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

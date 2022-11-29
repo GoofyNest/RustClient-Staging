@@ -1,16 +1,16 @@
-public class VirtualScroll : MonoBehaviour // TypeDefIndex: 13802
+public class VirtualScroll : MonoBehaviour // TypeDefIndex: 13804
 {
-	public int ItemHeight; 
-	public int ItemSpacing; 
-	public RectOffset Padding; 
-	[TooltipAttribute] 
-	public GameObject DataSourceObject; 
-	public GameObject SourceObject; 
-	public ScrollRect ScrollRect; 
-	public RectTransform OverrideContentRoot; 
-	private VirtualScroll.IDataSource dataSource; 
-	private Dictionary<int, GameObject> ActivePool; 
-	private Stack<GameObject> InactivePool; 
+public int ItemHeight;
+public int ItemSpacing;
+public RectOffset Padding;
+[TooltipAttribute]
+public GameObject DataSourceObject;
+public GameObject SourceObject;
+public ScrollRect ScrollRect;
+public RectTransform OverrideContentRoot;
+private VirtualScroll.IDataSource dataSource;
+private Dictionary<int, GameObject> ActivePool;
+private Stack<GameObject> InactivePool;
 
 	private int BlockHeight { get; }
 
@@ -43,29 +43,29 @@ public class VirtualScroll : MonoBehaviour // TypeDefIndex: 13802
 
 }
 
-private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 13804
+private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 13806
 {
-	public int startVisible; 
-	public float endVisible; 
+public int startVisible;
+public float endVisible;
 
 
 	public void .ctor() { }
 
-	internal bool <RecycleOutOfRange>
+internal bool <RecycleOutOfRange>
 
 }
 
-private sealed class VirtualScroll.<>c // TypeDefIndex: 13805
+private sealed class VirtualScroll.<>c // TypeDefIndex: 13807
 {
-	public static readonly VirtualScroll.<>c <>9; 
-	public static Func<int, int> <>9__20_1; 
+public static readonly VirtualScroll.<>c <>9;
+public static Func<int, int> <>9__20_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal int <RecycleOutOfRange>
+internal int <RecycleOutOfRange>
 
 }
 

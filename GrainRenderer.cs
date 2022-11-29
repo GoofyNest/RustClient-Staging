@@ -1,8 +1,8 @@
-internal sealed class GrainRenderer : PostProcessEffectRenderer<Grain> // TypeDefIndex: 13590
+internal sealed class GrainRenderer : PostProcessEffectRenderer<Grain> // TypeDefIndex: 13592
 {
-	private RenderTexture m_GrainLookupRT; 
+private RenderTexture m_GrainLookupRT;
 	private const int k_SampleCount = 1024;
-	private int m_SampleIndex; 
+private int m_SampleIndex;
 
 
 	public override void Render(PostProcessRenderContext context) { }

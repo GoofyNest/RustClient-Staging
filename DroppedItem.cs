@@ -1,8 +1,8 @@
-public class DroppedItem : WorldItem // TypeDefIndex: 11531
+public class DroppedItem : WorldItem // TypeDefIndex: 11533
 {
-	[HeaderAttribute] 
-	public GameObject itemModel; 
-	private Collider childCollider; 
+[HeaderAttribute]
+public GameObject itemModel;
+private Collider childCollider;
 
 
 	public override void PostInitShared() { }
@@ -17,8 +17,8 @@ public class DroppedItem : WorldItem // TypeDefIndex: 11531
 
 	public void .ctor() { }
 
-	[CompilerGeneratedAttribute] 
-	private bool <PostInitShared>
+[CompilerGeneratedAttribute]
+private bool <PostInitShared>
 
 }
 

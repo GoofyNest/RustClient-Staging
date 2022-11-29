@@ -1,4 +1,4 @@
-public class BestTargetDetectedAIEvent : BaseAIEvent // TypeDefIndex: 11133
+public class BestTargetDetectedAIEvent : BaseAIEvent // TypeDefIndex: 11135
 {
 
 	public void .ctor() { }

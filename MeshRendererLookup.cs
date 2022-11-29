@@ -1,7 +1,7 @@
-public class MeshRendererLookup // TypeDefIndex: 10898
+public class MeshRendererLookup // TypeDefIndex: 10900
 {
-	public MeshRendererLookup.LookupGroup src; 
-	public MeshRendererLookup.LookupGroup dst; 
+public MeshRendererLookup.LookupGroup src;
+public MeshRendererLookup.LookupGroup dst;
 
 
 	public void Apply() { }
@@ -16,9 +16,9 @@ public class MeshRendererLookup // TypeDefIndex: 10898
 
 }
 
-public class MeshRendererLookup.LookupGroup // TypeDefIndex: 10899
+public class MeshRendererLookup.LookupGroup // TypeDefIndex: 10901
 {
-	public List<MeshRendererLookup.LookupEntry> data; 
+public List<MeshRendererLookup.LookupEntry> data;
 
 
 	public void Clear() { }
@@ -31,9 +31,9 @@ public class MeshRendererLookup.LookupGroup // TypeDefIndex: 10899
 
 }
 
-public struct MeshRendererLookup.LookupEntry // TypeDefIndex: 10900
+public struct MeshRendererLookup.LookupEntry // TypeDefIndex: 10902
 {
-	public Renderer renderer; 
+public Renderer renderer;
 
 
 	public void .ctor(MeshRendererInstance instance) { }

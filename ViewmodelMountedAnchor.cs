@@ -1,6 +1,6 @@
-public class ViewmodelMountedAnchor : MonoBehaviour // TypeDefIndex: 13264
+public class ViewmodelMountedAnchor : MonoBehaviour // TypeDefIndex: 13266
 {
-	public ViewmodelIk IkController; 
+public ViewmodelIk IkController;
 
 
 	public void ApplyCameraPositionRotation(ref CachedTransform<BaseViewModel> targetTransform, BasePlayer forPlayer) { }

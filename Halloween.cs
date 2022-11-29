@@ -1,7 +1,7 @@
-public class Halloween : ConsoleSystem // TypeDefIndex: 13732
+public class Halloween : ConsoleSystem // TypeDefIndex: 13734
 {
-	[ServerVar] 
-	public static bool enabled; 
+[ServerVar]
+public static bool enabled;
 
 
 	public void .ctor() { }

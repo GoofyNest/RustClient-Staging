@@ -1,29 +1,29 @@
-public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // TypeDefIndex: 10045
+public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // TypeDefIndex: 10047
 {
-	private Option __menuOption_Menu_Push; 
-	protected bool clientInEditMode; 
-	private LOD[] baseVehicleLODs; 
-	private LOD[] combinedLODs; 
-	private int[] maxRendererIndex; 
-	[HeaderAttribute] 
-	[SerializeField] 
-	private List<ModularVehicleSocket> moduleSockets; 
-	[SerializeField] 
-	private Transform centreOfMassTransform; 
-	[SerializeField] 
-	protected Transform waterSample; 
-	[SerializeField] 
-	private LODGroup lodGroup; 
-	public GameObjectRef keyEnterDialog; 
-	[CompilerGeneratedAttribute] 
-	private readonly List<BaseVehicleModule> <AttachedModuleEntities>k__BackingField; 
-	private float _mass; 
-	[CompilerGeneratedAttribute] 
-	private float <TotalMass>k__BackingField; 
-	[CompilerGeneratedAttribute] 
-	private bool <HasInited>k__BackingField; 
+private Option __menuOption_Menu_Push;
+protected bool clientInEditMode;
+private LOD[] baseVehicleLODs;
+private LOD[] combinedLODs;
+private int[] maxRendererIndex;
+[HeaderAttribute]
+[SerializeField]
+private List<ModularVehicleSocket> moduleSockets;
+[SerializeField]
+private Transform centreOfMassTransform;
+[SerializeField]
+protected Transform waterSample;
+[SerializeField]
+private LODGroup lodGroup;
+public GameObjectRef keyEnterDialog;
+[CompilerGeneratedAttribute]
+private readonly List<BaseVehicleModule> <AttachedModuleEntities>k__BackingField;
+private float _mass;
+[CompilerGeneratedAttribute]
+private float <TotalMass>k__BackingField;
+[CompilerGeneratedAttribute]
+private bool <HasInited>k__BackingField;
 	public const BaseEntity.Flags FLAG_KINEMATIC = 16384;
-	private Dictionary<BaseVehicleModule, Action> moduleAddActions; 
+private Dictionary<BaseVehicleModule, Action> moduleAddActions;
 
 	public override bool HasMenuOptions { get; }
 	public Vector3 CentreOfMass { get; }
@@ -61,10 +61,10 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 
 	private void RefreshLODSets() { }
 
-	[BaseEntity.Menu] 
-	[BaseEntity.Menu.Description] 
-	[BaseEntity.Menu.Icon] 
-	[BaseEntity.Menu.ShowIf] 
+[BaseEntity.Menu]
+[BaseEntity.Menu.Description]
+[BaseEntity.Menu.Icon]
+[BaseEntity.Menu.ShowIf]
 	public virtual void Menu_Push(BasePlayer player) { }
 
 	public Vector3 get_CentreOfMass() { }
@@ -73,7 +73,7 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 
 	public bool get_HasAnyModules() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	public List<BaseVehicleModule> get_AttachedModuleEntities() { }
 
 	public int get_TotalSockets() { }
@@ -82,20 +82,20 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 
 	private float get_Mass() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	public float get_TotalMass() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	private void set_TotalMass(float value) { }
 
 	public bool get_IsKinematic() { }
 
 	public virtual bool get_IsLockable() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	public bool get_HasInited() { }
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	private void set_HasInited(bool value) { }
 
 	private ItemDefinition get_AssociatedItemDef() { }
@@ -134,15 +134,15 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 
 }
 
-private sealed class BaseModularVehicle.<>c__DisplayClass65_0 // TypeDefIndex: 10046
+private sealed class BaseModularVehicle.<>c__DisplayClass65_0 // TypeDefIndex: 10048
 {
-	public BaseModularVehicle <>4__this; 
-	public BaseVehicleModule module; 
+public BaseModularVehicle <>4__this;
+public BaseVehicleModule module;
 
 
 	public void .ctor() { }
 
-	internal void <OnChildAdded>
+internal void <OnChildAdded>
 
 }
 

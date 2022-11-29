@@ -1,14 +1,14 @@
-public static class ComponentEx // TypeDefIndex: 13499
+public static class ComponentEx // TypeDefIndex: 13501
 {
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static T Instantiate<T>(T component) { }
 	/* GenericInstMethod :
 	|
 	|-ComponentEx.Instantiate<object>
 	*/
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static bool HasComponent<T>(Component component) { }
 	/* GenericInstMethod :
 	|

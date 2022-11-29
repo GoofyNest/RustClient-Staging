@@ -1,11 +1,11 @@
-public static class KeyboardMidi // TypeDefIndex: 13927
+public static class KeyboardMidi // TypeDefIndex: 13929
 {
-	[ClientVar] 
-	public static string midikeymap; 
-	private static Dictionary<string, Dictionary<int, KeyCode[]>> MidiLookup; 
+[ClientVar]
+public static string midikeymap;
+private static Dictionary<string, Dictionary<int, KeyCode[]>> MidiLookup;
 
 
-	[ClientVar] 
+[ClientVar]
 	public static void Reload() { }
 
 	private static Dictionary<int, KeyCode[]> Init(string instrument) { }
@@ -18,20 +18,20 @@ public static class KeyboardMidi // TypeDefIndex: 13927
 
 }
 
-private sealed class KeyboardMidi.<>c // TypeDefIndex: 13928
+private sealed class KeyboardMidi.<>c // TypeDefIndex: 13930
 {
-	public static readonly KeyboardMidi.<>c <>9; 
-	public static Func<string, KeyCode> <>9__4_0; 
-	public static Func<KeyCode, bool> <>9__4_1; 
+public static readonly KeyboardMidi.<>c <>9;
+public static Func<string, KeyCode> <>9__4_0;
+public static Func<KeyCode, bool> <>9__4_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal KeyCode <StringToKeycodeArray>
+internal KeyCode <StringToKeycodeArray>
 
-	internal bool <StringToKeycodeArray>
+internal bool <StringToKeycodeArray>
 
 }
 

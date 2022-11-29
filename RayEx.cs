@@ -1,16 +1,16 @@
-public static class RayEx // TypeDefIndex: 13507
+public static class RayEx // TypeDefIndex: 13509
 {
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static Vector3 ClosestPoint(Ray ray, Vector3 pos) { }
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static float Distance(Ray ray, Vector3 pos) { }
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static float SqrDistance(Ray ray, Vector3 pos) { }
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static bool IsNaNOrInfinity(Ray r) { }
 
 }

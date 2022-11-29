@@ -1,6 +1,6 @@
-public class AStarNodeList : List<AStarNode> // TypeDefIndex: 13959
+public class AStarNodeList : List<AStarNode> // TypeDefIndex: 13961
 {
-	private readonly AStarNodeList.AStarNodeComparer comparer; 
+private readonly AStarNodeList.AStarNodeComparer comparer;
 
 
 	public bool Contains(BasePathNode n) { }
@@ -13,7 +13,7 @@ public class AStarNodeList : List<AStarNode> // TypeDefIndex: 13959
 
 }
 
-private class AStarNodeList.AStarNodeComparer : IComparer<AStarNode> // TypeDefIndex: 13960
+private class AStarNodeList.AStarNodeComparer : IComparer<AStarNode> // TypeDefIndex: 13962
 {
 
 	private int System.Collections.Generic.IComparer<Rust.AI.AStarNode>.Compare(AStarNode lhs, AStarNode rhs) { }

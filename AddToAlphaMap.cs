@@ -1,6 +1,6 @@
-public class AddToAlphaMap : ProceduralObject // TypeDefIndex: 12321
+public class AddToAlphaMap : ProceduralObject // TypeDefIndex: 12323
 {
-	public Bounds bounds; 
+public Bounds bounds;
 
 
 	public override void Process() { }
@@ -9,17 +9,17 @@ public class AddToAlphaMap : ProceduralObject // TypeDefIndex: 12321
 
 }
 
-private sealed class AddToAlphaMap.<>c // TypeDefIndex: 12322
+private sealed class AddToAlphaMap.<>c // TypeDefIndex: 12324
 {
-	public static readonly AddToAlphaMap.<>c <>9; 
-	public static Action<int, int> <>9__1_0; 
+public static readonly AddToAlphaMap.<>c <>9;
+public static Action<int, int> <>9__1_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal void <Process>
+internal void <Process>
 
 }
 

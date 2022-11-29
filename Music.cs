@@ -1,14 +1,14 @@
-public class Music : ConsoleSystem // TypeDefIndex: 13747
+public class Music : ConsoleSystem // TypeDefIndex: 13749
 {
-	[ClientVar] 
-	public static bool enabled; 
-	[ClientVar] 
-	public static int songGapMin; 
-	[ClientVar] 
-	public static int songGapMax; 
+[ClientVar]
+public static bool enabled;
+[ClientVar]
+public static int songGapMin;
+[ClientVar]
+public static int songGapMax;
 
 
-	[ClientVar] 
+[ClientVar]
 	public static void info(ConsoleSystem.Arg arg) { }
 
 	public void .ctor() { }

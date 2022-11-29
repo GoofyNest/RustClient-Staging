@@ -1,6 +1,6 @@
-public class GrenadeWeapon : ThrownWeapon // TypeDefIndex: 11204
+public class GrenadeWeapon : ThrownWeapon // TypeDefIndex: 11206
 {
-	private bool drop; 
+private bool drop;
 
 
 	public override void OnInput() { }

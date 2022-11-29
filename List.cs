@@ -1,9 +1,9 @@
 public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // TypeDefIndex: 1490
 {
-	private List<T> list; 
-	private int index; 
-	private int version; 
-	private T current; 
+private List<T> list;
+private int index;
+private int version;
+private T current;
 
 	public T Current { get; }
 	private object System.Collections.IEnumerator.Current { get; }
@@ -2277,7 +2277,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 public static class List // TypeDefIndex: 4849
 {
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static void Compare<T, TListA, TListB>(TListA a, TListB b, List<T> added, List<T> removed, List<T> remained) { }
 	/* GenericInstMethod :
 	|
@@ -2286,7 +2286,7 @@ public static class List // TypeDefIndex: 4849
 	|-List.Compare<object, object, object>
 	*/
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static void Compare<TListA, TListB, TItemA, TItemB, TKey>(TListA a, TListB b, HashSet<TKey> added, HashSet<TKey> removed, HashSet<TKey> remained, Func<TItemA, TKey> selectorA, Func<TItemB, TKey> selectorB) { }
 	/* GenericInstMethod :
 	|
@@ -2296,7 +2296,7 @@ public static class List // TypeDefIndex: 4849
 	|-List.Compare<object, object, object, object, object>
 	*/
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static TItem FindWith<TItem, TKey>(IReadOnlyCollection<TItem> items, Func<TItem, TKey> selector, TKey search, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -2310,7 +2310,7 @@ public static class List // TypeDefIndex: 4849
 	|-List.FindWith<object, ulong>
 	*/
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static Nullable<TItem> TryFindWith<TItem, TKey>(IReadOnlyCollection<TItem> items, Func<TItem, TKey> selector, TKey search, IEqualityComparer<TKey> comparer) { }
 	/* GenericInstMethod :
 	|
@@ -2318,14 +2318,14 @@ public static class List // TypeDefIndex: 4849
 	|-List.TryFindWith<ImageStorageEntity.ImageRequest, object>
 	*/
 
-	[ExtensionAttribute] 
+[ExtensionAttribute]
 	public static int FindIndexWith<TItem, TKey>(IReadOnlyList<TItem> items, Func<TItem, TKey> selector, TKey search) { }
 	/* GenericInstMethod :
 	|
 	|-List.FindIndexWith<object, object>
 	*/
 
-	[CompilerGeneratedAttribute] 
+[CompilerGeneratedAttribute]
 	internal static void <Compare>g__InitializeWith|1_0<TListA, TListB, TItemA, TItemB, TKey>(HashSet<TKey> set, HashSet<TKey> values) { }
 	/* GenericInstMethod :
 	|

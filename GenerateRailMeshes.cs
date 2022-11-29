@@ -1,11 +1,11 @@
-public class GenerateRailMeshes : ProceduralComponent // TypeDefIndex: 12246
+public class GenerateRailMeshes : ProceduralComponent // TypeDefIndex: 12248
 {
 	public const float NormalSmoothing = 0;
 	public const bool SnapToTerrain = False;
-	public Mesh RailMesh; 
-	public Mesh[] RailMeshes; 
-	public Material RailMaterial; 
-	public PhysicMaterial RailPhysicMaterial; 
+public Mesh RailMesh;
+public Mesh[] RailMeshes;
+public Material RailMaterial;
+public PhysicMaterial RailPhysicMaterial;
 
 	public override bool RunOnCache { get; }
 

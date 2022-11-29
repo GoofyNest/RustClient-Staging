@@ -1,10 +1,10 @@
-public class TechTreeData : ScriptableObject // TypeDefIndex: 11762
+public class TechTreeData : ScriptableObject // TypeDefIndex: 11764
 {
-	public string shortname; 
-	public int nextID; 
-	private Dictionary<int, TechTreeData.NodeInstance> _idToNode; 
-	private TechTreeData.NodeInstance _entryNode; 
-	public List<TechTreeData.NodeInstance> nodes; 
+public string shortname;
+public int nextID;
+private Dictionary<int, TechTreeData.NodeInstance> _idToNode;
+private TechTreeData.NodeInstance _entryNode;
+public List<TechTreeData.NodeInstance> nodes;
 
 
 	public TechTreeData.NodeInstance GetByID(int id) { }
@@ -29,15 +29,15 @@ public class TechTreeData : ScriptableObject // TypeDefIndex: 11762
 
 }
 
-public class TechTreeData.NodeInstance // TypeDefIndex: 11763
+public class TechTreeData.NodeInstance // TypeDefIndex: 11765
 {
-	public int id; 
-	public ItemDefinition itemDef; 
-	public Vector2 graphPosition; 
-	public List<int> outputs; 
-	public List<int> inputs; 
-	public string groupName; 
-	public int costOverride; 
+public int id;
+public ItemDefinition itemDef;
+public Vector2 graphPosition;
+public List<int> outputs;
+public List<int> inputs;
+public string groupName;
+public int costOverride;
 
 
 	public bool IsGroup() { }
@@ -46,20 +46,20 @@ public class TechTreeData.NodeInstance // TypeDefIndex: 11763
 
 }
 
-private sealed class TechTreeData.<>c // TypeDefIndex: 11764
+private sealed class TechTreeData.<>c // TypeDefIndex: 11766
 {
-	public static readonly TechTreeData.<>c <>9; 
-	public static Func<TechTreeData.NodeInstance, int> <>9__5_0; 
-	public static Func<TechTreeData.NodeInstance, TechTreeData.NodeInstance> <>9__5_1; 
+public static readonly TechTreeData.<>c <>9;
+public static Func<TechTreeData.NodeInstance, int> <>9__5_0;
+public static Func<TechTreeData.NodeInstance, TechTreeData.NodeInstance> <>9__5_1;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal int <GetByID>
+internal int <GetByID>
 
-	internal TechTreeData.NodeInstance <GetByID>
+internal TechTreeData.NodeInstance <GetByID>
 
 }
 

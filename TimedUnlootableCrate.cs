@@ -1,7 +1,7 @@
-public class TimedUnlootableCrate : LootContainer // TypeDefIndex: 11345
+public class TimedUnlootableCrate : LootContainer // TypeDefIndex: 11347
 {
-	public bool unlootableOnSpawn; 
-	public float unlootableDuration; 
+public bool unlootableOnSpawn;
+public float unlootableDuration;
 
 
 	public void .ctor() { }

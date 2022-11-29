@@ -1,6 +1,6 @@
-public sealed class HttpRequestHeaders : HttpHeaders // TypeDefIndex: 5785
+public sealed class HttpRequestHeaders : HttpHeaders // TypeDefIndex: 5787
 {
-	private Nullable<bool> expectContinue; 
+private Nullable<bool> expectContinue;
 
 	public HttpHeaderValueCollection<string> Connection { get; }
 	public Nullable<bool> ConnectionClose { get; }
@@ -31,26 +31,26 @@ public sealed class HttpRequestHeaders : HttpHeaders // TypeDefIndex: 5785
 
 }
 
-private sealed class HttpRequestHeaders.<>c // TypeDefIndex: 5786
+private sealed class HttpRequestHeaders.<>c // TypeDefIndex: 5788
 {
-	public static readonly HttpRequestHeaders.<>c <>9; 
-	public static Predicate<string> <>9__19_0; 
-	public static Predicate<string> <>9__22_0; 
-	public static Predicate<TransferCodingHeaderValue> <>9__29_0; 
-	public static Predicate<TransferCodingHeaderValue> <>9__71_0; 
+public static readonly HttpRequestHeaders.<>c <>9;
+public static Predicate<string> <>9__19_0;
+public static Predicate<string> <>9__22_0;
+public static Predicate<TransferCodingHeaderValue> <>9__29_0;
+public static Predicate<TransferCodingHeaderValue> <>9__71_0;
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal bool <get_ConnectionClose>
+internal bool <get_ConnectionClose>
 
-	internal bool <get_ConnectionKeepAlive>
+internal bool <get_ConnectionKeepAlive>
 
-	internal bool <get_ExpectContinue>
+internal bool <get_ExpectContinue>
 
-	internal bool <get_TransferEncodingChunked>
+internal bool <get_TransferEncodingChunked>
 
 }
 

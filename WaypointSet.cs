@@ -1,9 +1,9 @@
-public class WaypointSet : MonoBehaviour, IServerComponent // TypeDefIndex: 13952
+public class WaypointSet : MonoBehaviour, IServerComponent // TypeDefIndex: 13954
 {
-	[SerializeField] 
-	private List<WaypointSet.Waypoint> _points; 
-	[SerializeField] 
-	private WaypointSet.NavModes navMode; 
+[SerializeField]
+private List<WaypointSet.Waypoint> _points;
+[SerializeField]
+private WaypointSet.NavModes navMode;
 
 	public List<WaypointSet.Waypoint> Points { get; set; }
 	public WaypointSet.NavModes NavMode { get; }
@@ -21,20 +21,20 @@ public class WaypointSet : MonoBehaviour, IServerComponent // TypeDefIndex: 1395
 
 }
 
-public enum WaypointSet.NavModes // TypeDefIndex: 13953
+public enum WaypointSet.NavModes // TypeDefIndex: 13955
 {
-	public int value__; 
+public int value__;
 	public const WaypointSet.NavModes Loop = 0;
 	public const WaypointSet.NavModes PingPong = 1;
 
 }
 
-public struct WaypointSet.Waypoint // TypeDefIndex: 13954
+public struct WaypointSet.Waypoint // TypeDefIndex: 13956
 {
-	public Transform Transform; 
-	public float WaitTime; 
-	public Transform[] LookatPoints; 
-	public bool IsOccupied; 
+public Transform Transform;
+public float WaitTime;
+public Transform[] LookatPoints;
+public bool IsOccupied;
 
 }
 

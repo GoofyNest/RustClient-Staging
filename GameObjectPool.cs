@@ -1,8 +1,8 @@
-private sealed class GameObjectPool.<>c<T> // TypeDefIndex: 6612
+private sealed class GameObjectPool.<>c<T> // TypeDefIndex: 6614
 {
-	public static readonly GameObjectPool.<>c<T> <>9; 
-	public static Func<Transform, T> <>9__2_0; 
-	public static Func<T, bool> <>9__2_1; 
+public static readonly GameObjectPool.<>c<T> <>9;
+public static Func<Transform, T> <>9__2_0;
+public static Func<T, bool> <>9__2_1;
 
 
 	private static void .cctor() { }
@@ -17,16 +17,16 @@ private sealed class GameObjectPool.<>c<T> // TypeDefIndex: 6612
 	|-GameObjectPool.<>c<object>..ctor
 	*/
 
-	internal T <AddChildrenToPool>
+internal T <AddChildrenToPool>
 	/* GenericInstMethod :
 	|
-	|-GameObjectPool.<>c<object>.<AddChildrenToPool>
+|-GameObjectPool.<>c<object>.<AddChildrenToPool>
 	*/
 
-	internal bool <AddChildrenToPool>
+internal bool <AddChildrenToPool>
 	/* GenericInstMethod :
 	|
-	|-GameObjectPool.<>c<object>.<AddChildrenToPool>
+|-GameObjectPool.<>c<object>.<AddChildrenToPool>
 	*/
 
 }

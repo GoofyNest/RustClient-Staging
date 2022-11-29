@@ -1,6 +1,6 @@
-public class BoundsCheck : PrefabAttribute // TypeDefIndex: 12029
+public class BoundsCheck : PrefabAttribute // TypeDefIndex: 12031
 {
-	public BoundsCheck.BlockType IsType; 
+public BoundsCheck.BlockType IsType;
 
 
 	protected override Type GetIndexedType() { }
@@ -9,9 +9,9 @@ public class BoundsCheck : PrefabAttribute // TypeDefIndex: 12029
 
 }
 
-public enum BoundsCheck.BlockType // TypeDefIndex: 12030
+public enum BoundsCheck.BlockType // TypeDefIndex: 12032
 {
-	public int value__; 
+public int value__;
 	public const BoundsCheck.BlockType Tree = 0;
 
 }

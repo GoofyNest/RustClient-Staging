@@ -1,4 +1,4 @@
-public class DestroyOnGroundMissing : MonoBehaviour, IServerComponent // TypeDefIndex: 11594
+public class DestroyOnGroundMissing : MonoBehaviour, IServerComponent // TypeDefIndex: 11596
 {
 
 	public void .ctor() { }
