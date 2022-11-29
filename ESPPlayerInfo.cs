@@ -1,4 +1,4 @@
-public class ESPPlayerInfo : MonoBehaviour // TypeDefIndex: 13777
+public class ESPPlayerInfo : MonoBehaviour // TypeDefIndex: 13808
 {
 	public Vector3 WorldOffset; 
 	public TextMeshProUGUI Text; 
@@ -17,6 +17,8 @@ public class ESPPlayerInfo : MonoBehaviour // TypeDefIndex: 13777
 	public static float framebudgetms; 
 	private bool inQueue; 
 	public static ESPPlayerInfo.ESPWorkQueue workQueue; 
+	private Vector3 playerVisPosHead; 
+	private Vector3 playerVisPosSpine; 
 	private int numFramesVisible; 
 	private float distanceFromCamera; 
 	private TimeSince lastHealthUpdate; 
@@ -64,7 +66,7 @@ public class ESPPlayerInfo : MonoBehaviour // TypeDefIndex: 13777
 
 }
 
-public class ESPPlayerInfo.ESPWorkQueue : ObjectWorkQueue<ESPPlayerInfo> // TypeDefIndex: 13778
+public class ESPPlayerInfo.ESPWorkQueue : ObjectWorkQueue<ESPPlayerInfo> // TypeDefIndex: 13809
 {
 
 	protected override void RunJob(ESPPlayerInfo entity) { }

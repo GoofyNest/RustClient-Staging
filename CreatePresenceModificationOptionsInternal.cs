@@ -1,4 +1,4 @@
-internal struct CreatePresenceModificationOptionsInternal : ISettable<CreatePresenceModificationOptions>, IDisposable // TypeDefIndex: 8818
+internal struct CreatePresenceModificationOptionsInternal : ISettable<CreatePresenceModificationOptions>, IDisposable // TypeDefIndex: 8824
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

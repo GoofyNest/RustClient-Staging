@@ -1,4 +1,4 @@
-public class GameModeVanilla : BaseGameMode // TypeDefIndex: 11616
+public class GameModeVanilla : BaseGameMode // TypeDefIndex: 11627
 {
 
 	public void .ctor() { }

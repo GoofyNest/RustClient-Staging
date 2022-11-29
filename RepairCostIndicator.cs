@@ -1,4 +1,4 @@
-public class RepairCostIndicator : SingletonComponent<RepairCostIndicator>, IClientComponent // TypeDefIndex: 12985
+public class RepairCostIndicator : SingletonComponent<RepairCostIndicator>, IClientComponent // TypeDefIndex: 13004
 {
 	public RepairCostIndicatorRow[] Rows; 
 	public CanvasGroup Fader; 

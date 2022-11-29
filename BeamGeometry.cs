@@ -1,4 +1,4 @@
-public class BeamGeometry : MonoBehaviour // TypeDefIndex: 13307
+public class BeamGeometry : MonoBehaviour // TypeDefIndex: 13338
 {
 	private VolumetricLightBeam m_Master; 
 	private Matrix4x4 m_ColorGradientMatrix; 

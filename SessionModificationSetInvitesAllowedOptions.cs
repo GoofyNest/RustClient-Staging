@@ -1,4 +1,4 @@
-public struct SessionModificationSetInvitesAllowedOptions // TypeDefIndex: 8569
+public struct SessionModificationSetInvitesAllowedOptions // TypeDefIndex: 8575
 {
 	[CompilerGeneratedAttribute] 
 	private bool <InvitesAllowed>k__BackingField; 

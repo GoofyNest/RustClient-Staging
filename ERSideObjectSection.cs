@@ -1,4 +1,4 @@
-public class ERSideObjectSection : MonoBehaviour // TypeDefIndex: 7302
+public class ERSideObjectSection : MonoBehaviour // TypeDefIndex: 7305
 {
 	public ERModularRoad road; 
 	public int sectionListIndex; 

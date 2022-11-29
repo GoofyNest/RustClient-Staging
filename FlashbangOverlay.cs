@@ -1,4 +1,4 @@
-public class FlashbangOverlay : MonoBehaviour, IClientComponent // TypeDefIndex: 10850
+public class FlashbangOverlay : MonoBehaviour, IClientComponent // TypeDefIndex: 10860
 {
 	public static FlashbangOverlay Instance; 
 	public PostProcessVolume postProcessVolume; 

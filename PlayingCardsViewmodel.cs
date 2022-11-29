@@ -1,4 +1,4 @@
-public class PlayingCardsViewmodel : MonoBehaviour // TypeDefIndex: 11313
+public class PlayingCardsViewmodel : MonoBehaviour // TypeDefIndex: 11323
 {
 	[SerializeField] 
 	private Canvas cardUICanvas; 

@@ -1,4 +1,4 @@
-public class ScrollRectEx : UIBehaviour, IInitializePotentialDragHandler, IEventSystemHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IScrollHandler, ICanvasElement, ILayoutGroup, ILayoutController // TypeDefIndex: 13481
+public class ScrollRectEx : UIBehaviour, IInitializePotentialDragHandler, IEventSystemHandler, IBeginDragHandler, IEndDragHandler, IDragHandler, IScrollHandler, ICanvasElement, ILayoutGroup, ILayoutController // TypeDefIndex: 13512
 {
 	public PointerEventData.InputButton scrollButton; 
 	public PointerEventData.InputButton altScrollButton; 
@@ -241,7 +241,7 @@ public class ScrollRectEx : UIBehaviour, IInitializePotentialDragHandler, IEvent
 
 }
 
-public enum ScrollRectEx.MovementType // TypeDefIndex: 13482
+public enum ScrollRectEx.MovementType // TypeDefIndex: 13513
 {
 	public int value__; 
 	public const ScrollRectEx.MovementType Unrestricted = 0;
@@ -250,7 +250,7 @@ public enum ScrollRectEx.MovementType // TypeDefIndex: 13482
 
 }
 
-public enum ScrollRectEx.ScrollbarVisibility // TypeDefIndex: 13483
+public enum ScrollRectEx.ScrollbarVisibility // TypeDefIndex: 13514
 {
 	public int value__; 
 	public const ScrollRectEx.ScrollbarVisibility Permanent = 0;
@@ -259,7 +259,7 @@ public enum ScrollRectEx.ScrollbarVisibility // TypeDefIndex: 13483
 
 }
 
-public class ScrollRectEx.ScrollRectEvent : UnityEvent<Vector2> // TypeDefIndex: 13484
+public class ScrollRectEx.ScrollRectEvent : UnityEvent<Vector2> // TypeDefIndex: 13515
 {
 
 	public void .ctor() { }

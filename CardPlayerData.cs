@@ -1,9 +1,8 @@
-public class CardPlayerData : IDisposable // TypeDefIndex: 13791
+public class CardPlayerData : IDisposable // TypeDefIndex: 13822
 {
 	[CompilerGeneratedAttribute] 
 	private ulong <UserID>k__BackingField; 
 	public List<PlayingCard> Cards; 
-	public List<PlayingCard> PocketCards; 
 	[CompilerGeneratedAttribute] 
 	private CardPlayerData.CardPlayerState <State>k__BackingField; 
 	public readonly int mountIndex; 
@@ -11,12 +10,11 @@ public class CardPlayerData : IDisposable // TypeDefIndex: 13791
 	public int availableInputs; 
 	public int betThisRound; 
 	public int betThisTurn; 
-	public int sideBetAThisRound; 
-	public int sideBetBThisRound; 
 	[CompilerGeneratedAttribute] 
 	private bool <LeftRoundEarly>k__BackingField; 
 	[CompilerGeneratedAttribute] 
 	private bool <SendCardDetails>k__BackingField; 
+	public TimeUntil ClientTimeUntilTurnEnds; 
 	private int clientScrap; 
 
 	public ulong UserID { get; set; }
@@ -66,15 +64,21 @@ public class CardPlayerData : IDisposable // TypeDefIndex: 13791
 
 	public void .ctor(int mountIndex, bool isServer) { }
 
-	public void Dispose() { }
+	public virtual void Dispose() { }
 
 	public int GetScrapAmount() { }
 
-	public void Load(CardGame.CardPlayer msg) { }
+	public virtual int GetTotalBetThisRound() { }
+
+	public virtual List<PlayingCard> GetMainCards() { }
+
+	public virtual List<PlayingCard> GetSecondaryCards() { }
+
+	public virtual void Load(CardGame msg) { }
 
 }
 
-public enum CardPlayerData.CardPlayerState // TypeDefIndex: 13792
+public enum CardPlayerData.CardPlayerState // TypeDefIndex: 13823
 {
 	public int value__; 
 	public const CardPlayerData.CardPlayerState None = 0;

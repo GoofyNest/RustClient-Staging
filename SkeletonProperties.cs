@@ -1,4 +1,4 @@
-public class SkeletonProperties : ScriptableObject // TypeDefIndex: 11717
+public class SkeletonProperties : ScriptableObject // TypeDefIndex: 11728
 {
 	public GameObject boneReference; 
 	[BonePropertyAttribute] 
@@ -16,7 +16,7 @@ public class SkeletonProperties : ScriptableObject // TypeDefIndex: 11717
 
 }
 
-public class SkeletonProperties.BoneProperty // TypeDefIndex: 11718
+public class SkeletonProperties.BoneProperty // TypeDefIndex: 11729
 {
 	public GameObject bone; 
 	public Translate.Phrase name; 
@@ -27,14 +27,14 @@ public class SkeletonProperties.BoneProperty // TypeDefIndex: 11718
 
 }
 
-private sealed class SkeletonProperties.<>c__DisplayClass3_0 // TypeDefIndex: 11719
+private sealed class SkeletonProperties.<>c__DisplayClass3_0 // TypeDefIndex: 11730
 {
 	public Transform child; 
 
 
 	public void .ctor() { }
 
-	internal bool <OnValidate>b__0(SkeletonProperties.BoneProperty x) { }
+	internal bool <OnValidate>
 
 }
 

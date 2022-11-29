@@ -1,4 +1,4 @@
-public class BaseAIBrain : EntityComponent<BaseEntity>, IPet, IAISleepable, IAIDesign, IAIGroupable, IAIEventListener // TypeDefIndex: 10202
+public class BaseAIBrain : EntityComponent<BaseEntity>, IPet, IAISleepable, IAIDesign, IAIGroupable, IAIEventListener // TypeDefIndex: 10208
 {
 	public bool UseQueuedMovementUpdates; 
 	public bool AllowedToSleep; 
@@ -12,6 +12,8 @@ public class BaseAIBrain : EntityComponent<BaseEntity>, IPet, IAISleepable, IAID
 	public bool CheckVisionCone; 
 	public bool CheckLOS; 
 	public bool IgnoreNonVisionSneakers; 
+	public float IgnoreSneakersMaxDistance; 
+	public float IgnoreNonVisionMaxDistance; 
 	public float ListenRange; 
 	public EntityType SenseTypes; 
 	public bool HostileTargetsOnly; 
@@ -160,7 +162,7 @@ public class BaseAIBrain : EntityComponent<BaseEntity>, IPet, IAISleepable, IAID
 
 }
 
-public class BaseAIBrain.BasicAIState // TypeDefIndex: 10203
+public class BaseAIBrain.BasicAIState // TypeDefIndex: 10209
 {
 
 	public void .ctor() { }

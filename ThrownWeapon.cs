@@ -1,4 +1,4 @@
-public class ThrownWeapon : AttackEntity // TypeDefIndex: 10369
+public class ThrownWeapon : AttackEntity // TypeDefIndex: 10377
 {
 	[HeaderAttribute] 
 	public GameObjectRef prefabToThrow; 
@@ -6,6 +6,7 @@ public class ThrownWeapon : AttackEntity // TypeDefIndex: 10369
 	public float tumbleVelocity; 
 	public Vector3 overrideAngle; 
 	public bool canStick; 
+	public bool canThrowUnderwater; 
 
 
 	public override bool OnRpcMessage(BasePlayer player, uint rpc, Message msg) { }

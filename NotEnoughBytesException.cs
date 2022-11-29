@@ -1,4 +1,4 @@
-public sealed class NotEnoughBytesException : MidiException // TypeDefIndex: 7590
+public sealed class NotEnoughBytesException : MidiException // TypeDefIndex: 7593
 {
 	[CompilerGeneratedAttribute] 
 	private readonly long <ExpectedCount>k__BackingField; 

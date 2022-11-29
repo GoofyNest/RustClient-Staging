@@ -1,4 +1,4 @@
-public class PowerBar : MonoBehaviour // TypeDefIndex: 12977
+public class PowerBar : MonoBehaviour // TypeDefIndex: 12996
 {
 	public static PowerBar Instance; 
 	public Image powerInner; 

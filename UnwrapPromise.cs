@@ -8,18 +8,21 @@ private sealed class UnwrapPromise.<>c<TResult> // TypeDefIndex: 869
 	/* GenericInstMethod :
 	|
 	|-UnwrapPromise.<>c<object>..cctor
+	|-UnwrapPromise.<>c<VoidTaskResult>..cctor
 	*/
 
 	public void .ctor() { }
 	/* GenericInstMethod :
 	|
 	|-UnwrapPromise.<>c<object>..ctor
+	|-UnwrapPromise.<>c<VoidTaskResult>..ctor
 	*/
 
-	internal void <InvokeCoreAsync>b__8_0(object state) { }
+	internal void <InvokeCoreAsync>
 	/* GenericInstMethod :
 	|
-	|-UnwrapPromise.<>c<object>.<InvokeCoreAsync>b__8_0
+	|-UnwrapPromise.<>c<object>.<InvokeCoreAsync>
+	|-UnwrapPromise.<>c<VoidTaskResult>.<InvokeCoreAsync>
 	*/
 
 }

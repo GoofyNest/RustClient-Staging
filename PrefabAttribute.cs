@@ -1,4 +1,4 @@
-public abstract class PrefabAttribute : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 13101
+public abstract class PrefabAttribute : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 13131
 {
 	public Vector3 worldPosition; 
 	public Quaternion worldRotation; 
@@ -46,7 +46,7 @@ public abstract class PrefabAttribute : MonoBehaviour, IPrefabPreProcess // Type
 
 }
 
-public class PrefabAttribute.AttributeCollection // TypeDefIndex: 13102
+public class PrefabAttribute.AttributeCollection // TypeDefIndex: 13132
 {
 	private Dictionary<Type, List<PrefabAttribute>> attributes; 
 	private Dictionary<Type, object> cache; 
@@ -66,7 +66,7 @@ public class PrefabAttribute.AttributeCollection // TypeDefIndex: 13102
 
 }
 
-public class PrefabAttribute.Library // TypeDefIndex: 13103
+public class PrefabAttribute.Library // TypeDefIndex: 13133
 {
 	public bool clientside; 
 	public bool serverside; 
@@ -114,6 +114,7 @@ public class PrefabAttribute.Library // TypeDefIndex: 13103
 	|-PrefabAttribute.Library.FindAll<TerrainModifier>
 	|-PrefabAttribute.Library.FindAll<TerrainPlacement>
 	|-PrefabAttribute.Library.FindAll<WaterCheck>
+	|-PrefabAttribute.Library.FindAll<WeakpointProperties>
 	*/
 
 	public void Add(uint prefabID, PrefabAttribute attribute) { }

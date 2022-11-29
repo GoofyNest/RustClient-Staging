@@ -1,4 +1,4 @@
-public class TimeSinceThreatEventUI : BaseEventUI // TypeDefIndex: 12560
+public class TimeSinceThreatEventUI : BaseEventUI // TypeDefIndex: 12579
 {
 
 	public override AIEventData Save() { }

@@ -1,7 +1,5 @@
-public class BlackjackSmallScreenUI : FacepunchBehaviour // TypeDefIndex: 12623
+public class BlackjackSmallScreenUI : FacepunchBehaviour // TypeDefIndex: 12642
 {
-	[SerializeField] 
-	private BlackjackMachine blackjack; 
 	[SerializeField] 
 	private Canvas notInGameDisplay; 
 	[SerializeField] 
@@ -16,6 +14,8 @@ public class BlackjackSmallScreenUI : FacepunchBehaviour // TypeDefIndex: 12623
 	private RustText insuranceText; 
 	[SerializeField] 
 	private RustText bankText; 
+	[SerializeField] 
+	private RustText splitText; 
 	[SerializeField] 
 	private Canvas infoTextCanvas; 
 	[SerializeField] 
@@ -46,13 +46,22 @@ public class BlackjackSmallScreenUI : FacepunchBehaviour // TypeDefIndex: 12623
 	private Translate.Phrase phraseAddFunds; 
 	[SerializeField] 
 	private Translate.Phrase phraseWaitingForPlayer; 
+	[SerializeField] 
+	private Translate.Phrase phraseSplitStored; 
+	[SerializeField] 
+	private Translate.Phrase phraseSplitActive; 
+	[SerializeField] 
+	private Translate.Phrase phraseHand; 
+	public BlackjackMachine blackjack; 
 
 
 	protected void OnEnable() { }
 
-	public void RefreshVisuals(BlackjackController controller, CardPlayerData player) { }
+	public void RefreshVisuals(BlackjackController controller, CardPlayerDataBlackjack pdBlackjack) { }
 
-	private void RefreshInGameDisplay(BlackjackController controller, CardPlayerData pData, bool betweenRounds) { }
+	private void RefreshInGameDisplay(BlackjackController controller, CardPlayerDataBlackjack pdBlackjack, bool betweenRounds) { }
+
+	private string GetResultText(BlackjackController.BlackjackRoundResult result) { }
 
 	private void RefreshNoGameDisplay(BlackjackController controller, CardPlayerData pData) { }
 

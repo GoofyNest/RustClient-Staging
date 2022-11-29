@@ -1,4 +1,4 @@
-public class DistanceField // TypeDefIndex: 13131
+public class DistanceField // TypeDefIndex: 13162
 {
 	private static readonly int[] GaussOffsets; 
 	private static readonly float[] GaussWeights; 

@@ -1,10 +1,10 @@
-public struct SpriteBone // TypeDefIndex: 3579
+public struct SpriteBone // TypeDefIndex: 3580
 {
-	[SerializeField] 
 	[NativeNameAttribute] 
+	[SerializeField] 
 	private string m_Name; 
-	[SerializeField] 
 	[NativeNameAttribute] 
+	[SerializeField] 
 	private Vector3 m_Position; 
 	[SerializeField] 
 	[NativeNameAttribute] 
@@ -12,8 +12,8 @@ public struct SpriteBone // TypeDefIndex: 3579
 	[NativeNameAttribute] 
 	[SerializeField] 
 	private float m_Length; 
-	[SerializeField] 
 	[NativeNameAttribute] 
+	[SerializeField] 
 	private int m_ParentId; 
 
 }

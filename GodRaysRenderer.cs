@@ -1,4 +1,4 @@
-public class GodRaysRenderer : PostProcessEffectRenderer<GodRays> // TypeDefIndex: 12001
+public class GodRaysRenderer : PostProcessEffectRenderer<GodRays> // TypeDefIndex: 12012
 {
 	private const int PASS_SCREEN = 0;
 	private const int PASS_ADD = 1;

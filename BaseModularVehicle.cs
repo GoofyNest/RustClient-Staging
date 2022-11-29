@@ -1,4 +1,4 @@
-public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // TypeDefIndex: 10039
+public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // TypeDefIndex: 10045
 {
 	private Option __menuOption_Menu_Push; 
 	protected bool clientInEditMode; 
@@ -14,6 +14,7 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 	protected Transform waterSample; 
 	[SerializeField] 
 	private LODGroup lodGroup; 
+	public GameObjectRef keyEnterDialog; 
 	[CompilerGeneratedAttribute] 
 	private readonly List<BaseVehicleModule> <AttachedModuleEntities>k__BackingField; 
 	private float _mass; 
@@ -103,7 +104,7 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 
 	public override void InitShared() { }
 
-	public virtual bool PlayerCanUseThis(BasePlayer player, ModularCarLock.LockType lockType) { }
+	public virtual bool PlayerCanUseThis(BasePlayer player, ModularCarCodeLock.LockType lockType) { }
 
 	public bool TryDeduceSocketIndex(BaseVehicleModule addedModule, out int index) { }
 
@@ -133,7 +134,7 @@ public abstract class BaseModularVehicle : GroundVehicle, IPrefabPreProcess // T
 
 }
 
-private sealed class BaseModularVehicle.<>c__DisplayClass64_0 // TypeDefIndex: 10040
+private sealed class BaseModularVehicle.<>c__DisplayClass65_0 // TypeDefIndex: 10046
 {
 	public BaseModularVehicle <>4__this; 
 	public BaseVehicleModule module; 
@@ -141,7 +142,7 @@ private sealed class BaseModularVehicle.<>c__DisplayClass64_0 // TypeDefIndex: 1
 
 	public void .ctor() { }
 
-	internal void <OnChildAdded>b__0() { }
+	internal void <OnChildAdded>
 
 }
 

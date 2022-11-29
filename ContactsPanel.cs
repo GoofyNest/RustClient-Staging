@@ -1,4 +1,4 @@
-public class ContactsPanel : SingletonComponent<ContactsPanel> // TypeDefIndex: 12693
+public class ContactsPanel : SingletonComponent<ContactsPanel> // TypeDefIndex: 12712
 {
 	public RectTransform alliesBucket; 
 	public RectTransform seenBucket; 
@@ -57,7 +57,7 @@ public class ContactsPanel : SingletonComponent<ContactsPanel> // TypeDefIndex: 
 
 }
 
-public enum ContactsPanel.SortMode // TypeDefIndex: 12694
+public enum ContactsPanel.SortMode // TypeDefIndex: 12713
 {
 	public int value__; 
 	public const ContactsPanel.SortMode None = 0;

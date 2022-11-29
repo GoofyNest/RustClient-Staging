@@ -1,4 +1,4 @@
-public class ReloadingAIEvent : BaseAIEvent // TypeDefIndex: 11137
+public class ReloadingAIEvent : BaseAIEvent // TypeDefIndex: 11147
 {
 
 	public void .ctor() { }

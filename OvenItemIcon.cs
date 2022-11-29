@@ -1,4 +1,4 @@
-public class OvenItemIcon : MonoBehaviour // TypeDefIndex: 12802
+public class OvenItemIcon : MonoBehaviour // TypeDefIndex: 12821
 {
 	public ItemIcon ItemIcon; 
 	public RustText ItemLabel; 
@@ -20,11 +20,11 @@ public class OvenItemIcon : MonoBehaviour // TypeDefIndex: 12802
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private bool <Start>b__10_0(OvenItemIcon.OvenSlotConfig x) { }
+	private bool <Start>
 
 }
 
-public class OvenItemIcon.OvenSlotConfig // TypeDefIndex: 12803
+public class OvenItemIcon.OvenSlotConfig // TypeDefIndex: 12822
 {
 	public OvenSlotType Type; 
 	public Sprite BackgroundImage; 

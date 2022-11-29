@@ -1,4 +1,4 @@
-public class Paddle : BaseMelee // TypeDefIndex: 11200
+public class Paddle : BaseMelee // TypeDefIndex: 11210
 {
 	public float animPaddleCooldown; 
 	public GameObjectRef kayakSeat; 

@@ -1,4 +1,4 @@
-public class OvenLineRow : MonoBehaviour // TypeDefIndex: 12804
+public class OvenLineRow : MonoBehaviour // TypeDefIndex: 12823
 {
 	public LootGrid Above; 
 	public LootGrid Below; 

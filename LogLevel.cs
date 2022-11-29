@@ -1,4 +1,4 @@
-public enum LogLevel // TypeDefIndex: 6938
+public enum LogLevel // TypeDefIndex: 6941
 {
 	public int value__; 
 	public const LogLevel Debug = 0;
@@ -8,7 +8,7 @@ public enum LogLevel // TypeDefIndex: 6938
 
 }
 
-public enum LogLevel // TypeDefIndex: 9047
+public enum LogLevel // TypeDefIndex: 9053
 {
 	public int value__; 
 	public const LogLevel Off = 0;

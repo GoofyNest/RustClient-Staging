@@ -1,4 +1,4 @@
-public class Marketplace : BaseEntity // TypeDefIndex: 10518
+public class Marketplace : BaseEntity // TypeDefIndex: 10526
 {
 	[HeaderAttribute] 
 	public GameObjectRef terminalPrefab; 

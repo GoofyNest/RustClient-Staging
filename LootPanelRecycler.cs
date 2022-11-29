@@ -1,4 +1,4 @@
-public class LootPanelRecycler : LootPanel // TypeDefIndex: 12795
+public class LootPanelRecycler : LootPanel // TypeDefIndex: 12814
 {
 	public GameObject controlsOn; 
 	public GameObject controlsOff; 

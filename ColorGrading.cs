@@ -1,4 +1,4 @@
-public sealed class ColorGrading : PostProcessEffectSettings // TypeDefIndex: 13547
+public sealed class ColorGrading : PostProcessEffectSettings // TypeDefIndex: 13578
 {
 	[DisplayNameAttribute] 
 	[TooltipAttribute] 

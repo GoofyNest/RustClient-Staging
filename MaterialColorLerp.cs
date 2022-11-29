@@ -1,4 +1,4 @@
-public class MaterialColorLerp : MonoBehaviour, IClientComponent // TypeDefIndex: 11368
+public class MaterialColorLerp : MonoBehaviour, IClientComponent // TypeDefIndex: 11378
 {
 	public Color startColor; 
 	public Color endColor; 

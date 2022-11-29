@@ -1,4 +1,4 @@
-internal struct ActiveSessionGetRegisteredPlayerByIndexOptionsInternal : ISettable<ActiveSessionGetRegisteredPlayerByIndexOptions>, IDisposable // TypeDefIndex: 8447
+internal struct ActiveSessionGetRegisteredPlayerByIndexOptionsInternal : ISettable<ActiveSessionGetRegisteredPlayerByIndexOptions>, IDisposable // TypeDefIndex: 8453
 {
 	private int m_ApiVersion; 
 	private uint m_PlayerIndex; 

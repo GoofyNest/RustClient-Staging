@@ -1,4 +1,4 @@
-public class ExcavatorArm : BaseEntity // TypeDefIndex: 10102
+public class ExcavatorArm : BaseEntity // TypeDefIndex: 10108
 {
 	private Option __menuOption_Menu_TargetHQM; 
 	private Option __menuOption_Menu_TargetMetal; 
@@ -22,6 +22,7 @@ public class ExcavatorArm : BaseEntity // TypeDefIndex: 10102
 	public float resourceProductionTickRate; 
 	public float timeForFullResources; 
 	private ItemAmount[] pendingResources; 
+	public Translate.Phrase excavatorPhrase; 
 	private float wheelRotation; 
 	private float nextBounceTime; 
 	private float currentWheelTurnSpeed; 

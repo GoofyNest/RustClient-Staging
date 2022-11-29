@@ -1,4 +1,4 @@
-public class Construction : PrefabAttribute // TypeDefIndex: 10773
+public class Construction : PrefabAttribute // TypeDefIndex: 10781
 {
 	public static string lastPlacementError; 
 	public BaseEntity.Menu.Option info; 
@@ -13,6 +13,7 @@ public class Construction : PrefabAttribute // TypeDefIndex: 10773
 	public bool placeOnWater; 
 	public Vector3 rotationAmount; 
 	public Vector3 applyStartingRotation; 
+	public Transform deployOffset; 
 	[RangeAttribute] 
 	public float healthMultiplier; 
 	[RangeAttribute] 
@@ -60,7 +61,7 @@ public class Construction : PrefabAttribute // TypeDefIndex: 10773
 
 }
 
-public struct Construction.Target // TypeDefIndex: 10774
+public struct Construction.Target // TypeDefIndex: 10782
 {
 	public bool valid; 
 	public Ray ray; 
@@ -80,7 +81,7 @@ public struct Construction.Target // TypeDefIndex: 10774
 
 }
 
-public class Construction.Placement // TypeDefIndex: 10775
+public class Construction.Placement // TypeDefIndex: 10783
 {
 	public Vector3 position; 
 	public Quaternion rotation; 
@@ -90,7 +91,7 @@ public class Construction.Placement // TypeDefIndex: 10775
 
 }
 
-public class Construction.Grade // TypeDefIndex: 10776
+public class Construction.Grade // TypeDefIndex: 10784
 {
 	public BuildingGrade grade; 
 	public float maxHealth; 
@@ -108,24 +109,24 @@ public class Construction.Grade // TypeDefIndex: 10776
 
 }
 
-private sealed class Construction.<>c // TypeDefIndex: 10777
+private sealed class Construction.<>c // TypeDefIndex: 10785
 {
 	public static readonly Construction.<>c <>9; 
-	public static Func<ConstructionGrade, bool> <>9__34_0; 
-	public static Func<ConstructionGrade, BuildingGrade.Enum> <>9__34_1; 
+	public static Func<ConstructionGrade, bool> <>9__35_0; 
+	public static Func<ConstructionGrade, BuildingGrade.Enum> <>9__35_1; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal bool <CreateGuideSkin>b__34_0(ConstructionGrade x) { }
+	internal bool <CreateGuideSkin>
 
-	internal BuildingGrade.Enum <CreateGuideSkin>b__34_1(ConstructionGrade x) { }
+	internal BuildingGrade.Enum <CreateGuideSkin>
 
 }
 
-public class Construction_SleepingBag : Construction // TypeDefIndex: 10784
+public class Construction_SleepingBag : Construction // TypeDefIndex: 10792
 {
 	public static bool ShowSleepingBagProximityWarning; 
 

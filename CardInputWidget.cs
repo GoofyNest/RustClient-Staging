@@ -1,4 +1,4 @@
-public class CardInputWidget : MonoBehaviour // TypeDefIndex: 12637
+public class CardInputWidget : MonoBehaviour // TypeDefIndex: 12655
 {
 	public RustText InputText; 
 	public RustText ActionText; 

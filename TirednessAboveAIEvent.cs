@@ -1,4 +1,4 @@
-public class TirednessAboveAIEvent : BaseAIEvent // TypeDefIndex: 11149
+public class TirednessAboveAIEvent : BaseAIEvent // TypeDefIndex: 11159
 {
 
 internal interface IAISleep

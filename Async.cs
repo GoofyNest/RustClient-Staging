@@ -229,7 +229,7 @@ public class AsyncResult : IAsyncResult, IMessageSink, IThreadPoolWorkItem // Ty
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private void <.ctor>b__17_0(object <p0>) { }
+	private void <.ctor>
 
 }
 
@@ -387,6 +387,8 @@ public struct AsyncTaskMethodBuilder // TypeDefIndex: 1274
 	|
 	|-AsyncTaskMethodBuilder.Start<Client.<Connect>d__37>
 	|
+	|-AsyncTaskMethodBuilder.Start<ClientSteamAuthReporter.<UploadThread>d__21>
+	|
 	|-AsyncTaskMethodBuilder.Start<CompanionSubscription.<Add>d__6>
 	|
 	|-AsyncTaskMethodBuilder.Start<CompanionSubscription.<Remove>d__7>
@@ -516,6 +518,8 @@ public struct AsyncTaskMethodBuilder // TypeDefIndex: 1274
 	|
 	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter, Client.<Connect>d__37>
 	|
+	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter, ClientSteamAuthReporter.<UploadThread>d__21>
+	|
 	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter, EAC.<OnJoinServer>d__16>
 	|
 	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter, Account.<ReadAllNotices>d__7>
@@ -581,6 +585,8 @@ public struct AsyncTaskMethodBuilder // TypeDefIndex: 1274
 	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter<object>, ShoutcastStream.<ConnectAsync>d__42>
 	|
 	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter<PublishResult>, Publisher.<PublishToSteam>d__18>
+	|
+	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter<bool>, ClientSteamAuthReporter.<UploadThread>d__21>
 	|
 	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter<byte[]>, EAC.<OnJoinServer>d__16>
 	|-AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TaskAwaiter<object>, EAC.<OnJoinServer>d__16>
@@ -720,6 +726,8 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|-AsyncTaskMethodBuilder<object>.Start<SteamInventory.<GetDefinitionsWithPricesAsync>d__19>
 	|
 	|-AsyncTaskMethodBuilder<PublishResult>.Start<Editor.<SubmitAsync>d__40>
+	|
+	|-AsyncTaskMethodBuilder<bool>.Start<ClientSteamAuthReporter.<PostJsonAsync>d__22>
 	|
 	|-AsyncTaskMethodBuilder<bool>.Start<SteelSeriesGameSenseService.<Initialize>d__10>
 	|
@@ -964,6 +972,9 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|
 	|-AsyncTaskMethodBuilder<bool>.AwaitUnsafeOnCompleted<TaskAwaiter<int>, ShoutcastStream.<ReadDataAsync>d__44>
 	|
+	|-AsyncTaskMethodBuilder<bool>.AwaitUnsafeOnCompleted<TaskAwaiter<HttpResponseMessage>, ClientSteamAuthReporter.<PostJsonAsync>d__22>
+	|-AsyncTaskMethodBuilder<bool>.AwaitUnsafeOnCompleted<TaskAwaiter<object>, ClientSteamAuthReporter.<PostJsonAsync>d__22>
+	|
 	|-AsyncTaskMethodBuilder<bool>.AwaitUnsafeOnCompleted<TaskAwaiter<object>, SteelSeriesGameSenseService.<Initialize>d__10>
 	|
 	|-AsyncTaskMethodBuilder<byte[]>.AwaitUnsafeOnCompleted<TaskAwaiter, SourceServerQuery.<GetChallengeData>d__7>
@@ -1134,6 +1145,8 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter, Client.<Connect>d__37>
 	|
+	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter, ClientSteamAuthReporter.<UploadThread>d__21>
+	|
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter, EAC.<OnJoinServer>d__16>
 	|
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter, Account.<ReadAllNotices>d__7>
@@ -1171,6 +1184,8 @@ public struct AsyncTaskMethodBuilder<TResult> // TypeDefIndex: 1275
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter, SteamFriends.<CacheUserInformationAsync>d__51>
 	|
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter<PublishResult>, Publisher.<PublishToSteam>d__18>
+	|
+	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter<bool>, ClientSteamAuthReporter.<UploadThread>d__21>
 	|
 	|-AsyncTaskMethodBuilder<VoidTaskResult>.AwaitUnsafeOnCompleted<TaskAwaiter<int>, SourceServerQuery.<Send>d__8>
 	|
@@ -1542,7 +1557,7 @@ private sealed class AsyncMethodBuilderCore.<>c__DisplayClass4_0 // TypeDefIndex
 
 	public void .ctor() { }
 
-	internal void <OutputAsyncCausalityEvents>b__0() { }
+	internal void <OutputAsyncCausalityEvents>
 
 }
 
@@ -1557,9 +1572,9 @@ private sealed class AsyncMethodBuilderCore.<>c // TypeDefIndex: 1281
 
 	public void .ctor() { }
 
-	internal void <ThrowAsync>b__6_0(object state) { }
+	internal void <ThrowAsync>
 
-	internal void <ThrowAsync>b__6_1(object state) { }
+	internal void <ThrowAsync>
 
 }
 
@@ -1871,7 +1886,7 @@ public static class AsyncOperationManager // TypeDefIndex: 2665
 
 }
 
-public class AsyncOperation : YieldInstruction // TypeDefIndex: 3493
+public class AsyncOperation : YieldInstruction // TypeDefIndex: 3494
 {
 	internal IntPtr m_Ptr; 
 	private Action<AsyncOperation> m_completeCallback; 
@@ -1880,8 +1895,8 @@ public class AsyncOperation : YieldInstruction // TypeDefIndex: 3493
 	public int priority { set; }
 
 
-	[StaticAccessorAttribute] 
 	[NativeMethodAttribute] 
+	[StaticAccessorAttribute] 
 	private static void InternalDestroy(IntPtr ptr) { }
 
 	[NativeMethodAttribute] 
@@ -1899,7 +1914,7 @@ public class AsyncOperation : YieldInstruction // TypeDefIndex: 3493
 
 }
 
-public struct AsyncGPUReadbackRequest // TypeDefIndex: 3804
+public struct AsyncGPUReadbackRequest // TypeDefIndex: 3805
 {
 	internal IntPtr m_Ptr; 
 	internal int m_Version; 
@@ -1950,7 +1965,7 @@ public struct AsyncGPUReadbackRequest // TypeDefIndex: 3804
 
 }
 
-public static class AsyncGPUReadback // TypeDefIndex: 3805
+public static class AsyncGPUReadback // TypeDefIndex: 3806
 {
 
 	private static void SetUpScriptingRequest(AsyncGPUReadbackRequest request, Action<AsyncGPUReadbackRequest> callback) { }
@@ -1971,7 +1986,7 @@ public static class AsyncGPUReadback // TypeDefIndex: 3805
 
 }
 
-public class AsyncTextureLoad : CustomYieldInstruction // TypeDefIndex: 6634
+public class AsyncTextureLoad : CustomYieldInstruction // TypeDefIndex: 6637
 {
 	private IntPtr buffer; 
 	private int size; 
@@ -2021,7 +2036,7 @@ public class AsyncTextureLoad : CustomYieldInstruction // TypeDefIndex: 6634
 
 }
 
-public sealed class AsyncMethodBuilderAttribute : Attribute // TypeDefIndex: 7128
+public sealed class AsyncMethodBuilderAttribute : Attribute // TypeDefIndex: 7131
 {
 	[CompilerGeneratedAttribute] 
 	private readonly Type <BuilderType>k__BackingField; 
@@ -2031,7 +2046,7 @@ public sealed class AsyncMethodBuilderAttribute : Attribute // TypeDefIndex: 712
 
 }
 
-public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7129
+public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7132
 {
 	private AsyncTaskMethodBuilder _methodBuilder; 
 	private bool _haveResult; 
@@ -2097,7 +2112,7 @@ public struct AsyncValueTaskMethodBuilder // TypeDefIndex: 7129
 
 }
 
-public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7130
+public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7133
 {
 	private AsyncTaskMethodBuilder<TResult> _methodBuilder; 
 	private TResult _result; 
@@ -2166,7 +2181,7 @@ public struct AsyncValueTaskMethodBuilder<TResult> // TypeDefIndex: 7130
 
 }
 
-public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 12058
+public class AsyncTerrainNavMeshBake : CustomYieldInstruction // TypeDefIndex: 12069
 {
 	private List<int> indices; 
 	private List<Vector3> vertices; 

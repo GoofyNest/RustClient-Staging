@@ -1,8 +1,9 @@
-public class BlackjackController : CardGameController // TypeDefIndex: 13779
+public class BlackjackController : CardGameController // TypeDefIndex: 13810
 {
 	public List<PlayingCard> dealerCards; 
 	public const float BLACKJACK_PAYOUT_RATIO = 1,5;
 	public const float INSURANCE_PAYOUT_RATIO = 2;
+	private const float DEALER_MOVE_TIME = 1;
 	[CompilerGeneratedAttribute] 
 	private BlackjackController.BlackjackInputOption <LastAction>k__BackingField; 
 	[CompilerGeneratedAttribute] 
@@ -15,6 +16,7 @@ public class BlackjackController : CardGameController // TypeDefIndex: 13779
 	public override int MinBuyIn { get; }
 	public override int MaxBuyIn { get; }
 	public override int MinToPlay { get; }
+	public override int EndRoundDelay { get; }
 	public override int TimeBetweenRounds { get; }
 	public BlackjackController.BlackjackInputOption LastAction { get; set; }
 	public ulong LastActionTarget { get; set; }
@@ -31,6 +33,8 @@ public class BlackjackController : CardGameController // TypeDefIndex: 13779
 	public override int get_MaxBuyIn() { }
 
 	public override int get_MinToPlay() { }
+
+	public override int get_EndRoundDelay() { }
 
 	public override int get_TimeBetweenRounds() { }
 
@@ -60,7 +64,7 @@ public class BlackjackController : CardGameController // TypeDefIndex: 13779
 
 	public void InputsToList(int availableInputs, List<BlackjackController.BlackjackInputOption> result) { }
 
-	public bool WaitingForOtherPlayer(CardPlayerData pData) { }
+	public bool WaitingForOtherPlayers(CardPlayerData pData) { }
 
 	public int GetCardsValue(List<PlayingCard> cards, BlackjackController.CardsValueMode mode) { }
 
@@ -74,50 +78,60 @@ public class BlackjackController : CardGameController // TypeDefIndex: 13779
 
 	public bool HasBusted(List<PlayingCard> cards) { }
 
-	private bool CanSplit(CardPlayerData pData) { }
+	private bool CanSplit(CardPlayerDataBlackjack pData) { }
 
 	private bool HasAnyAces(List<PlayingCard> cards) { }
 
-	private bool CanDoubleDown(CardPlayerData pData) { }
+	private bool CanDoubleDown(CardPlayerDataBlackjack pData) { }
 
-	private bool CanTakeInsurance(CardPlayerData pData) { }
+	private bool CanTakeInsurance(CardPlayerDataBlackjack pData) { }
 
-	private bool HasSplit(CardPlayerData pData) { }
+	private bool HasSplit(CardPlayerDataBlackjack pData) { }
+
+	protected override CardPlayerData GetNewCardPlayerData(int mountIndex) { }
+
+	public bool TryGetCardPlayerDataBlackjack(int index, out CardPlayerDataBlackjack cpBlackjack) { }
+
+	public int ResultsToInt(BlackjackController.BlackjackRoundResult mainResult, BlackjackController.BlackjackRoundResult splitResult, int insurancePayout) { }
+
+	public void ResultsFromInt(int result, out BlackjackController.BlackjackRoundResult mainResult, out BlackjackController.BlackjackRoundResult splitResult, out int insurancePayout) { }
 
 	public override void Load(CardGame syncData) { }
 
 	protected override void SubGetAvailableInputs(ref List<CardGameUI.KeycodeWithAction> curAvailableInputs) { }
 
-	public BlackjackController.BlackjackRoundResult GetRoundResultFor(ulong playerId) { }
+	public void GetRoundResultsFor(ulong playerId, out BlackjackController.BlackjackRoundResult mainResult, out BlackjackController.BlackjackRoundResult splitResult, out int insurancePayout) { }
 
 	public int GetScrapWonFor(ulong playerId) { }
 
 	private BlackjackController.DealerOpinion GetDealerResultOpinion(List<CardGame.RoundResults.Result> results, List<PlayingCard> dCrds) { }
 
-	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__49_6() { }
+	public void PlayDealerOpinionSound() { }
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__49_0() { }
+	private void <SubGetAvailableInputs>
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__49_1() { }
+	private void <SubGetAvailableInputs>
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__49_2() { }
+	private void <SubGetAvailableInputs>
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__49_3() { }
+	private void <SubGetAvailableInputs>
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__49_4() { }
+	private void <SubGetAvailableInputs>
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__49_5() { }
+	private void <SubGetAvailableInputs>
+
+	[CompilerGeneratedAttribute] 
+	private void <SubGetAvailableInputs>
 
 }
 
-public enum BlackjackController.BlackjackInputOption // TypeDefIndex: 13780
+public enum BlackjackController.BlackjackInputOption // TypeDefIndex: 13811
 {
 	public int value__; 
 	public const BlackjackController.BlackjackInputOption None = 0;
@@ -127,15 +141,15 @@ public enum BlackjackController.BlackjackInputOption // TypeDefIndex: 13780
 	public const BlackjackController.BlackjackInputOption Split = 8;
 	public const BlackjackController.BlackjackInputOption DoubleDown = 16;
 	public const BlackjackController.BlackjackInputOption Insurance = 32;
-	public const BlackjackController.BlackjackInputOption AllIn = 64;
+	public const BlackjackController.BlackjackInputOption MaxBet = 64;
 	public const BlackjackController.BlackjackInputOption Abandon = 128;
 
 }
 
-public enum BlackjackController.BlackjackRoundResult // TypeDefIndex: 13781
+public enum BlackjackController.BlackjackRoundResult // TypeDefIndex: 13812
 {
 	public int value__; 
-	public const BlackjackController.BlackjackRoundResult NotInRound = 0;
+	public const BlackjackController.BlackjackRoundResult None = 0;
 	public const BlackjackController.BlackjackRoundResult Bust = 1;
 	public const BlackjackController.BlackjackRoundResult Loss = 2;
 	public const BlackjackController.BlackjackRoundResult Standoff = 3;
@@ -144,7 +158,7 @@ public enum BlackjackController.BlackjackRoundResult // TypeDefIndex: 13781
 
 }
 
-public enum BlackjackController.CardsValueMode // TypeDefIndex: 13782
+public enum BlackjackController.CardsValueMode // TypeDefIndex: 13813
 {
 	public int value__; 
 	public const BlackjackController.CardsValueMode Low = 0;
@@ -152,7 +166,7 @@ public enum BlackjackController.CardsValueMode // TypeDefIndex: 13782
 
 }
 
-public enum BlackjackController.DealerOpinion // TypeDefIndex: 13783
+public enum BlackjackController.DealerOpinion // TypeDefIndex: 13814
 {
 	public int value__; 
 	public const BlackjackController.DealerOpinion Neutral = 0;

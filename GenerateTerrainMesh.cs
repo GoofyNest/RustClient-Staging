@@ -1,4 +1,4 @@
-public class GenerateTerrainMesh : ProceduralComponent // TypeDefIndex: 12269
+public class GenerateTerrainMesh : ProceduralComponent // TypeDefIndex: 12281
 {
 	public override bool RunOnCache { get; }
 

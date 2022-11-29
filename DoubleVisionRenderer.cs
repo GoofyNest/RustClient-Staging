@@ -1,4 +1,4 @@
-public class DoubleVisionRenderer : PostProcessEffectRenderer<DoubleVision> // TypeDefIndex: 11991
+public class DoubleVisionRenderer : PostProcessEffectRenderer<DoubleVision> // TypeDefIndex: 12002
 {
 	private int displaceProperty; 
 	private int amountProperty; 

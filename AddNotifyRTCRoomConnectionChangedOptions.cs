@@ -1,4 +1,4 @@
-public struct AddNotifyRTCRoomConnectionChangedOptions // TypeDefIndex: 9067
+public struct AddNotifyRTCRoomConnectionChangedOptions // TypeDefIndex: 9073
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <LobbyId_DEPRECATED>k__BackingField; 

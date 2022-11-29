@@ -1,4 +1,4 @@
-public struct OnIncomingPacketQueueFullInfo : ICallbackInfo // TypeDefIndex: 8966
+public struct OnIncomingPacketQueueFullInfo : ICallbackInfo // TypeDefIndex: 8972
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

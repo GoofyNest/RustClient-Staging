@@ -1,4 +1,4 @@
-internal static class ParsingUtilities // TypeDefIndex: 7643
+internal static class ParsingUtilities // TypeDefIndex: 7646
 {
 
 	public static string GetNonnegativeIntegerNumberGroup(string groupName) { }
@@ -19,7 +19,7 @@ internal static class ParsingUtilities // TypeDefIndex: 7643
 
 }
 
-private sealed class ParsingUtilities.<>c__DisplayClass8_0 // TypeDefIndex: 7644
+private sealed class ParsingUtilities.<>c__DisplayClass8_0 // TypeDefIndex: 7647
 {
 	public string input; 
 	public bool ignoreCase; 
@@ -27,11 +27,11 @@ private sealed class ParsingUtilities.<>c__DisplayClass8_0 // TypeDefIndex: 7644
 
 	public void .ctor() { }
 
-	internal Match <Match>b__0(string p) { }
+	internal Match <Match>
 
 }
 
-private sealed class ParsingUtilities.<>c // TypeDefIndex: 7645
+private sealed class ParsingUtilities.<>c // TypeDefIndex: 7648
 {
 	public static readonly ParsingUtilities.<>c <>9; 
 	public static Func<Match, bool> <>9__8_1; 
@@ -41,7 +41,7 @@ private sealed class ParsingUtilities.<>c // TypeDefIndex: 7645
 
 	public void .ctor() { }
 
-	internal bool <Match>b__8_1(Match m) { }
+	internal bool <Match>
 
 }
 

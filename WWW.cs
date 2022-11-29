@@ -1,4 +1,4 @@
-public class WWW : CustomYieldInstruction, IDisposable // TypeDefIndex: 4758
+public class WWW : CustomYieldInstruction, IDisposable // TypeDefIndex: 4760
 {
 
 [ObsoleteAttribute] 
@@ -32,6 +32,8 @@ public class WWW : CustomYieldInstruction, IDisposable
 	private Texture2D CreateTextureFromDownloadedData(bool markNonReadable) { }
 
 	public Texture2D get_texture() { }
+
+	public void LoadImageIntoTexture(Texture2D texture) { }
 
 	public string get_url() { }
 

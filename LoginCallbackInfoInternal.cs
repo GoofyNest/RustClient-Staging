@@ -1,4 +1,4 @@
-internal struct LoginCallbackInfoInternal : ICallbackInfoInternal, IGettable<LoginCallbackInfo>, ISettable<LoginCallbackInfo>, IDisposable // TypeDefIndex: 9588
+internal struct LoginCallbackInfoInternal : ICallbackInfoInternal, IGettable<LoginCallbackInfo>, ISettable<LoginCallbackInfo>, IDisposable // TypeDefIndex: 9594
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 
@@ -40,7 +40,7 @@ internal struct LoginCallbackInfoInternal : ICallbackInfoInternal, IGettable<Log
 
 }
 
-internal struct LoginCallbackInfoInternal : ICallbackInfoInternal, IGettable<LoginCallbackInfo>, ISettable<LoginCallbackInfo>, IDisposable // TypeDefIndex: 9664
+internal struct LoginCallbackInfoInternal : ICallbackInfoInternal, IGettable<LoginCallbackInfo>, ISettable<LoginCallbackInfo>, IDisposable // TypeDefIndex: 9670
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

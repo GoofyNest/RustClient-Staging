@@ -1,4 +1,4 @@
-public class WaterInflatable : BaseMountable, IPoolVehicle, INotifyTrigger // TypeDefIndex: 10374
+public class WaterInflatable : BaseMountable, IPoolVehicle, INotifyTrigger // TypeDefIndex: 10382
 {
 	public Rigidbody rigidBody; 
 	public Transform centerOfMass; 
@@ -92,7 +92,7 @@ public class WaterInflatable : BaseMountable, IPoolVehicle, INotifyTrigger // Ty
 
 }
 
-private enum WaterInflatable.PaddleDirection // TypeDefIndex: 10375
+private enum WaterInflatable.PaddleDirection // TypeDefIndex: 10383
 {
 	public int value__; 
 	public const WaterInflatable.PaddleDirection Forward = 0;
@@ -102,7 +102,7 @@ private enum WaterInflatable.PaddleDirection // TypeDefIndex: 10375
 
 }
 
-private enum WaterInflatable.ParticleType // TypeDefIndex: 10376
+private enum WaterInflatable.ParticleType // TypeDefIndex: 10384
 {
 	public int value__; 
 	public const WaterInflatable.ParticleType HandForward = 0;

@@ -1,4 +1,4 @@
-public enum ReservedPositionSlots // TypeDefIndex: 11114
+public enum ReservedPositionSlots // TypeDefIndex: 11124
 {
 	public int value__; 
 	public const ReservedPositionSlots HomePoint = 4;

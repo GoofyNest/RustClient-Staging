@@ -1,4 +1,4 @@
-public struct UnregisterPlayersCallbackInfo : ICallbackInfo // TypeDefIndex: 8603
+public struct UnregisterPlayersCallbackInfo : ICallbackInfo // TypeDefIndex: 8609
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

@@ -1,4 +1,4 @@
-public class ViewmodelAttachment : EntityComponent<BaseEntity>, IClientComponent, IViewModeChanged, IViewModelUpdated // TypeDefIndex: 13226
+public class ViewmodelAttachment : EntityComponent<BaseEntity>, IClientComponent, IViewModeChanged, IViewModelUpdated // TypeDefIndex: 13257
 {
 	public GameObjectRef modelObject; 
 	public string targetBone; 

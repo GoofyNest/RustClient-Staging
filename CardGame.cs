@@ -1,4 +1,4 @@
-public class CardGame : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6412
+public class CardGame : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6414
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -68,20 +68,17 @@ public class CardGame : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6412
 
 }
 
-public class CardGame.CardPlayer : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6413
+public class CardGame.CardPlayer : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6415
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
 	public ulong userid; 
 	public List<int> cards; 
-	public List<int> pocketCards; 
 	public int scrap; 
 	public int state; 
 	public int availableInputs; 
 	public int betThisRound; 
 	public int betThisTurn; 
-	public int sideBetAThisRound; 
-	public int sideBetBThisRound; 
 	public bool leftRoundEarly; 
 	public bool sendCardDetails; 
 
@@ -140,7 +137,7 @@ public class CardGame.CardPlayer : IDisposable, Pool.IPooled, IProto // TypeDefI
 
 }
 
-public class CardGame.TexasHoldEm : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6414
+public class CardGame.TexasHoldEm : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6416
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -203,7 +200,7 @@ public class CardGame.TexasHoldEm : IDisposable, Pool.IPooled, IProto // TypeDef
 
 }
 
-public class CardGame.RoundResults : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6415
+public class CardGame.RoundResults : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6417
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -265,7 +262,7 @@ public class CardGame.RoundResults : IDisposable, Pool.IPooled, IProto // TypeDe
 
 }
 
-public class CardGame.RoundResults.Result : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6416
+public class CardGame.RoundResults.Result : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6418
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -328,11 +325,12 @@ public class CardGame.RoundResults.Result : IDisposable, Pool.IPooled, IProto //
 
 }
 
-public class CardGame.Blackjack : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6417
+public class CardGame.Blackjack : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6419
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
 	public List<int> dealerCards; 
+	public List<CardGame.BlackjackCardPlayer> players; 
 
 
 	public static void ResetToPool(CardGame.Blackjack instance) { }
@@ -389,7 +387,71 @@ public class CardGame.Blackjack : IDisposable, Pool.IPooled, IProto // TypeDefIn
 
 }
 
-public class CardGame.CardList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6418
+public class CardGame.BlackjackCardPlayer : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6420
+{
+	public bool ShouldPool; 
+	private bool _disposed; 
+	public List<int> splitCards; 
+	public int splitBetThisRound; 
+	public int insuranceBetThisRound; 
+	public bool playingSplitCards; 
+
+
+	public static void ResetToPool(CardGame.BlackjackCardPlayer instance) { }
+
+	public void ResetToPool() { }
+
+	public virtual void Dispose() { }
+
+	public virtual void EnterPool() { }
+
+	public virtual void LeavePool() { }
+
+	public void CopyTo(CardGame.BlackjackCardPlayer instance) { }
+
+	public CardGame.BlackjackCardPlayer Copy() { }
+
+	public static CardGame.BlackjackCardPlayer Deserialize(Stream stream) { }
+
+	public static CardGame.BlackjackCardPlayer DeserializeLengthDelimited(Stream stream) { }
+
+	public static CardGame.BlackjackCardPlayer DeserializeLength(Stream stream, int length) { }
+
+	public static CardGame.BlackjackCardPlayer Deserialize(byte[] buffer) { }
+
+	public void FromProto(Stream stream, bool isDelta = False) { }
+
+	public virtual void WriteToStream(Stream stream) { }
+
+	public virtual void WriteToStreamDelta(Stream stream, CardGame.BlackjackCardPlayer previous) { }
+
+	public virtual void ReadFromStream(Stream stream, int size, bool isDelta = False) { }
+
+	public static CardGame.BlackjackCardPlayer Deserialize(byte[] buffer, CardGame.BlackjackCardPlayer instance, bool isDelta = False) { }
+
+	public static CardGame.BlackjackCardPlayer Deserialize(Stream stream, CardGame.BlackjackCardPlayer instance, bool isDelta) { }
+
+	public static CardGame.BlackjackCardPlayer DeserializeLengthDelimited(Stream stream, CardGame.BlackjackCardPlayer instance, bool isDelta) { }
+
+	public static CardGame.BlackjackCardPlayer DeserializeLength(Stream stream, int length, CardGame.BlackjackCardPlayer instance, bool isDelta) { }
+
+	public static void SerializeDelta(Stream stream, CardGame.BlackjackCardPlayer instance, CardGame.BlackjackCardPlayer previous) { }
+
+	public static void Serialize(Stream stream, CardGame.BlackjackCardPlayer instance) { }
+
+	public byte[] ToProtoBytes() { }
+
+	public void ToProto(Stream stream) { }
+
+	public static byte[] SerializeToBytes(CardGame.BlackjackCardPlayer instance) { }
+
+	public static void SerializeLengthDelimited(Stream stream, CardGame.BlackjackCardPlayer instance) { }
+
+	public void .ctor() { }
+
+}
+
+public class CardGame.CardList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6421
 {
 	public bool ShouldPool; 
 	private bool _disposed; 

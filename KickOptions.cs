@@ -1,4 +1,4 @@
-public struct KickOptions // TypeDefIndex: 8734
+public struct KickOptions // TypeDefIndex: 8740
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <RoomName>k__BackingField; 

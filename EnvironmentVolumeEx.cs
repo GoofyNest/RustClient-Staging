@@ -1,4 +1,4 @@
-public static class EnvironmentVolumeEx // TypeDefIndex: 11595
+public static class EnvironmentVolumeEx // TypeDefIndex: 11606
 {
 
 	[ExtensionAttribute] 
@@ -21,7 +21,7 @@ public static class EnvironmentVolumeEx // TypeDefIndex: 11595
 
 }
 
-private sealed class EnvironmentVolumeEx.<>c__DisplayClass2_0 // TypeDefIndex: 11596
+private sealed class EnvironmentVolumeEx.<>c__DisplayClass2_0 // TypeDefIndex: 11607
 {
 	public float max; 
 	public bool fail; 
@@ -29,11 +29,11 @@ private sealed class EnvironmentVolumeEx.<>c__DisplayClass2_0 // TypeDefIndex: 1
 
 	public void .ctor() { }
 
-	internal void <CheckEnvironmentVolumesInsideTerrain>b__0(int x, int z) { }
+	internal void <CheckEnvironmentVolumesInsideTerrain>
 
 }
 
-private sealed class EnvironmentVolumeEx.<>c__DisplayClass4_0 // TypeDefIndex: 11597
+private sealed class EnvironmentVolumeEx.<>c__DisplayClass4_0 // TypeDefIndex: 11608
 {
 	public float min; 
 	public bool fail; 
@@ -41,7 +41,7 @@ private sealed class EnvironmentVolumeEx.<>c__DisplayClass4_0 // TypeDefIndex: 1
 
 	public void .ctor() { }
 
-	internal void <CheckEnvironmentVolumesOutsideTerrain>b__0(int x, int z) { }
+	internal void <CheckEnvironmentVolumesOutsideTerrain>
 
 }
 

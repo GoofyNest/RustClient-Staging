@@ -1,4 +1,4 @@
-public class CameraMan : SingletonComponent<CameraMan> // TypeDefIndex: 10861
+public class CameraMan : SingletonComponent<CameraMan> // TypeDefIndex: 10871
 {
 	public static string DefaultSaveName; 
 	public const string SavePositionExtension = ".cam";
@@ -14,6 +14,7 @@ public class CameraMan : SingletonComponent<CameraMan> // TypeDefIndex: 10861
 	private Color _guideColor; 
 	private int _guide; 
 	private bool startCulling; 
+	private bool hasSetFov; 
 	private static Dictionary<string, CameraMan.CameraState> stateDictionary; 
 	private readonly ViewShake viewShake; 
 	public BaseEntity TargetEntity; 
@@ -110,7 +111,7 @@ public class CameraMan : SingletonComponent<CameraMan> // TypeDefIndex: 10861
 
 }
 
-public struct CameraMan.CameraState // TypeDefIndex: 10862
+public struct CameraMan.CameraState // TypeDefIndex: 10872
 {
 	public Vector3 position; 
 	public Vector3 rotation; 
@@ -119,7 +120,7 @@ public struct CameraMan.CameraState // TypeDefIndex: 10862
 
 }
 
-private enum CameraMan.MovementType // TypeDefIndex: 10863
+private enum CameraMan.MovementType // TypeDefIndex: 10873
 {
 	public int value__; 
 	public const CameraMan.MovementType Free = 0;

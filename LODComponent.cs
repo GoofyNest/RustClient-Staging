@@ -1,4 +1,4 @@
-public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD // TypeDefIndex: 11663
+public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD // TypeDefIndex: 11674
 {
 	public LODDistanceMode DistanceMode; 
 	public LODComponent.OccludeeParameters OccludeeParams; 
@@ -106,7 +106,7 @@ public abstract class LODComponent : BaseMonoBehaviour, IClientComponent, ILOD /
 
 }
 
-public struct LODComponent.OccludeeParameters // TypeDefIndex: 11664
+public struct LODComponent.OccludeeParameters // TypeDefIndex: 11675
 {
 	[TooltipAttribute] 
 	public bool isDynamic; 
@@ -119,7 +119,7 @@ public struct LODComponent.OccludeeParameters // TypeDefIndex: 11664
 
 }
 
-private sealed class LODComponent.<>c // TypeDefIndex: 11665
+private sealed class LODComponent.<>c // TypeDefIndex: 11676
 {
 	public static readonly LODComponent.<>c <>9; 
 	public static Predicate<LODComponent> <>9__35_0; 
@@ -129,7 +129,7 @@ private sealed class LODComponent.<>c // TypeDefIndex: 11665
 
 	public void .ctor() { }
 
-	internal bool <ChangeCullingAll>b__35_0(LODComponent i) { }
+	internal bool <ChangeCullingAll>
 
 }
 

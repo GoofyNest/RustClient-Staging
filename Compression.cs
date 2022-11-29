@@ -1,4 +1,4 @@
-public class Compression // TypeDefIndex: 13799
+public class Compression // TypeDefIndex: 13831
 {
 
 	public static byte[] Compress(byte[] data) { }

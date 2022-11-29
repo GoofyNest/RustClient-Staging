@@ -1,4 +1,4 @@
-public class Buttons // TypeDefIndex: 10994
+public class Buttons // TypeDefIndex: 11004
 {
 	[ClientVar] 
 	public static Buttons.ConButton Console; 
@@ -102,6 +102,8 @@ public class Buttons // TypeDefIndex: 10994
 	public static Buttons.ConButton Gestures; 
 	[ClientVar] 
 	public static Buttons.ConButton Pets; 
+	[ClientVar] 
+	public static Buttons.ConButton FireMode; 
 
 
 	public void .ctor() { }
@@ -110,7 +112,7 @@ public class Buttons // TypeDefIndex: 10994
 
 }
 
-public class Buttons.ConButton : ConsoleSystem.IConsoleButton // TypeDefIndex: 10995
+public class Buttons.ConButton : ConsoleSystem.IConsoleButton // TypeDefIndex: 11005
 {
 	[CompilerGeneratedAttribute] 
 	private bool <IsDown>k__BackingField; 

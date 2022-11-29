@@ -1,4 +1,4 @@
-public struct TraceInfo // TypeDefIndex: 10984
+public struct TraceInfo // TypeDefIndex: 10994
 {
 	public bool valid; 
 	public float distance; 

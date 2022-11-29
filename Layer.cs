@@ -1,4 +1,4 @@
-public enum Layer // TypeDefIndex: 6627
+public enum Layer // TypeDefIndex: 6630
 {
 	public int value__; 
 	public const Layer Default = 0;
@@ -36,7 +36,7 @@ public enum Layer // TypeDefIndex: 6627
 
 }
 
-public class Layer : ConsoleSystem // TypeDefIndex: 13710
+public class Layer : ConsoleSystem // TypeDefIndex: 13741
 {
 
 	[ClientVar] 

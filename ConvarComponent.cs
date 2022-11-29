@@ -1,4 +1,4 @@
-public class ConvarComponent : MonoBehaviour // TypeDefIndex: 13073
+public class ConvarComponent : MonoBehaviour // TypeDefIndex: 13095
 {
 	public bool runOnServer; 
 	public bool runOnClient; 
@@ -15,7 +15,7 @@ public class ConvarComponent : MonoBehaviour // TypeDefIndex: 13073
 
 }
 
-public class ConvarComponent.ConvarEvent // TypeDefIndex: 13074
+public class ConvarComponent.ConvarEvent // TypeDefIndex: 13096
 {
 	public string convar; 
 	public string on; 

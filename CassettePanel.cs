@@ -1,4 +1,4 @@
-public class CassettePanel : NotePanel // TypeDefIndex: 10606
+public class CassettePanel : NotePanel // TypeDefIndex: 10614
 {
 	public GameObject[] CassetteSprites; 
 

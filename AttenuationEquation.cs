@@ -1,4 +1,4 @@
-public enum AttenuationEquation // TypeDefIndex: 13313
+public enum AttenuationEquation // TypeDefIndex: 13344
 {
 	public int value__; 
 	public const AttenuationEquation Linear = 0;

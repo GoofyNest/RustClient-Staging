@@ -1,4 +1,4 @@
-public class ChanceEventUI : BaseEventUI // TypeDefIndex: 12539
+public class ChanceEventUI : BaseEventUI // TypeDefIndex: 12558
 {
 
 	public override AIEventData Save() { }

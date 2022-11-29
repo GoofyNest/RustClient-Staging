@@ -241,6 +241,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<Cassette.LoadRequest>.Dispose
 	|-List.Enumerator<CinematicEntity>.Dispose
 	|-List.Enumerator<ClientIOLine>.Dispose
+	|-List.Enumerator<ClientSteamAuthReporter.AuthChangeEvent>.Dispose
 	|-List.Enumerator<CoalingTower>.Dispose
 	|-List.Enumerator<ComponentInfo>.Dispose
 	|-List.Enumerator<Admin.PlayerInfo>.Dispose
@@ -295,6 +296,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<SideObject>.Dispose
 	|-List.Enumerator<tPoint>.Dispose
 	|-List.Enumerator<EngineDamageOverTime.RecentDamage>.Dispose
+	|-List.Enumerator<EntityLink>.Dispose
 	|-List.Enumerator<EntityRef<LootContainer>>.Dispose
 	|-List.Enumerator<EntityRef<object>>.Dispose
 	|-List.Enumerator<PlayerStatInfoInternal>.Dispose
@@ -369,7 +371,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<ItemModConsumable.ConsumableEffect>.Dispose
 	|-List.Enumerator<ItemPickupNotice>.Dispose
 	|-List.Enumerator<ItemSkinDirectory.Skin>.Dispose
-	|-List.Enumerator<ItemSlot>.Dispose
 	|-List.Enumerator<Value>.Dispose
 	|-List.Enumerator<KeyframeView.UIKeyframeValue>.Dispose
 	|-List.Enumerator<KeyframeWidget>.Dispose
@@ -695,6 +696,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<CH47LandingZone>.MoveNext
 	|-List.Enumerator<CinematicEntity>.MoveNext
 	|-List.Enumerator<ClientIOLine>.MoveNext
+	|-List.Enumerator<ClientSteamAuthReporter.AuthChangeEvent>.MoveNext
 	|-List.Enumerator<CoalingTower>.MoveNext
 	|-List.Enumerator<ComponentInfo>.MoveNext
 	|-List.Enumerator<ConnectedSpeaker>.MoveNext
@@ -728,6 +730,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<QDQDOOQQDQODD>.MoveNext
 	|-List.Enumerator<SideObject>.MoveNext
 	|-List.Enumerator<tPoint>.MoveNext
+	|-List.Enumerator<EntityLink>.MoveNext
 	|-List.Enumerator<BurstCloth>.MoveNext
 	|-List.Enumerator<PlayingCard>.MoveNext
 	|-List.Enumerator<FlexElement>.MoveNext
@@ -957,7 +960,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WeightedAudioClip>.MoveNext
 	|
 	|-List.Enumerator<AIState>.MoveNext
-	|-List.Enumerator<ItemSlot>.MoveNext
 	|-List.Enumerator<InventoryDefId>.MoveNext
 	|-List.Enumerator<int>.MoveNext
 	|-List.Enumerator<Int32Enum>.MoveNext
@@ -1404,6 +1406,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<CH47LandingZone>.get_Current
 	|-List.Enumerator<CinematicEntity>.get_Current
 	|-List.Enumerator<ClientIOLine>.get_Current
+	|-List.Enumerator<ClientSteamAuthReporter.AuthChangeEvent>.get_Current
 	|-List.Enumerator<CoalingTower>.get_Current
 	|-List.Enumerator<ComponentInfo>.get_Current
 	|-List.Enumerator<ConnectedSpeaker>.get_Current
@@ -1437,6 +1440,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<QDQDOOQQDQODD>.get_Current
 	|-List.Enumerator<SideObject>.get_Current
 	|-List.Enumerator<tPoint>.get_Current
+	|-List.Enumerator<EntityLink>.get_Current
 	|-List.Enumerator<BurstCloth.Chain>.get_Current
 	|-List.Enumerator<BurstCloth>.get_Current
 	|-List.Enumerator<PlayingCard>.get_Current
@@ -1682,7 +1686,6 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 	|-List.Enumerator<WeakReference<EtwSession>>.get_Current
 	|
 	|-List.Enumerator<AIState>.get_Current
-	|-List.Enumerator<ItemSlot>.get_Current
 	|-List.Enumerator<uint>.get_Current
 	|-List.Enumerator<KeyCode>.get_Current
 	|-List.Enumerator<InventoryDefId>.get_Current
@@ -2271,7 +2274,7 @@ public struct List.Enumerator<T> : IEnumerator<T>, IDisposable, IEnumerator // T
 
 }
 
-public static class List // TypeDefIndex: 4847
+public static class List // TypeDefIndex: 4849
 {
 
 	[ExtensionAttribute] 

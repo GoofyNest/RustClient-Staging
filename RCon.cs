@@ -1,4 +1,4 @@
-public class RCon // TypeDefIndex: 13760
+public class RCon // TypeDefIndex: 13791
 {
 	public static string Password; 
 	[ServerVar] 
@@ -49,7 +49,7 @@ public class RCon // TypeDefIndex: 13760
 
 }
 
-public struct RCon.Command // TypeDefIndex: 13761
+public struct RCon.Command // TypeDefIndex: 13792
 {
 	public IPAddress Ip; 
 	public int ConnectionId; 
@@ -59,7 +59,7 @@ public struct RCon.Command // TypeDefIndex: 13761
 
 }
 
-public enum RCon.LogType // TypeDefIndex: 13762
+public enum RCon.LogType // TypeDefIndex: 13793
 {
 	public int value__; 
 	public const RCon.LogType Generic = 0;
@@ -71,7 +71,7 @@ public enum RCon.LogType // TypeDefIndex: 13762
 
 }
 
-public struct RCon.Response // TypeDefIndex: 13763
+public struct RCon.Response // TypeDefIndex: 13794
 {
 	public string Message; 
 	public int Identifier; 
@@ -81,14 +81,14 @@ public struct RCon.Response // TypeDefIndex: 13763
 
 }
 
-internal struct RCon.BannedAddresses // TypeDefIndex: 13764
+internal struct RCon.BannedAddresses // TypeDefIndex: 13795
 {
 	public IPAddress addr; 
 	public float banTime; 
 
 }
 
-internal class RCon.RConClient // TypeDefIndex: 13765
+internal class RCon.RConClient // TypeDefIndex: 13796
 {
 	private Socket socket; 
 	private bool isAuthorised; 
@@ -118,7 +118,7 @@ internal class RCon.RConClient // TypeDefIndex: 13765
 
 }
 
-internal class RCon.RConListener // TypeDefIndex: 13766
+internal class RCon.RConListener // TypeDefIndex: 13797
 {
 	private TcpListener server; 
 	private List<RCon.RConClient> clients; 
@@ -138,7 +138,7 @@ internal class RCon.RConListener // TypeDefIndex: 13766
 
 }
 
-private sealed class RCon.RConListener.<>c // TypeDefIndex: 13767
+private sealed class RCon.RConListener.<>c // TypeDefIndex: 13798
 {
 	public static readonly RCon.RConListener.<>c <>9; 
 	public static Predicate<RCon.RConClient> <>9__7_0; 
@@ -148,11 +148,11 @@ private sealed class RCon.RConListener.<>c // TypeDefIndex: 13767
 
 	public void .ctor() { }
 
-	internal bool <RemoveDeadClients>b__7_0(RCon.RConClient x) { }
+	internal bool <RemoveDeadClients>
 
 }
 
-private sealed class RCon.<>c // TypeDefIndex: 13768
+private sealed class RCon.<>c // TypeDefIndex: 13799
 {
 	public static readonly RCon.<>c <>9; 
 	public static Action<IPAddress, int, string> <>9__11_0; 
@@ -163,31 +163,31 @@ private sealed class RCon.<>c // TypeDefIndex: 13768
 
 	public void .ctor() { }
 
-	internal void <Initialize>b__11_0(IPAddress ip, int id, string msg) { }
+	internal void <Initialize>
 
-	internal bool <Update>b__16_0(RCon.BannedAddresses x) { }
+	internal bool <Update>
 
 }
 
-private sealed class RCon.<>c__DisplayClass19_0 // TypeDefIndex: 13769
+private sealed class RCon.<>c__DisplayClass19_0 // TypeDefIndex: 13800
 {
 	public IPAddress addr; 
 
 
 	public void .ctor() { }
 
-	internal bool <BanIP>b__0(RCon.BannedAddresses x) { }
+	internal bool <BanIP>
 
 }
 
-private sealed class RCon.<>c__DisplayClass20_0 // TypeDefIndex: 13770
+private sealed class RCon.<>c__DisplayClass20_0 // TypeDefIndex: 13801
 {
 	public IPAddress addr; 
 
 
 	public void .ctor() { }
 
-	internal bool <IsBanned>b__0(RCon.BannedAddresses x) { }
+	internal bool <IsBanned>
 
 }
 

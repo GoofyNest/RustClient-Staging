@@ -1,4 +1,4 @@
-public class ExplosiveInformationPanel : ItemInformationPanel // TypeDefIndex: 12761
+public class ExplosiveInformationPanel : ItemInformationPanel // TypeDefIndex: 12780
 {
 	public ItemTextValue explosiveDmgDisplay; 
 	public ItemTextValue lethalDmgDisplay; 

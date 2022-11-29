@@ -1,4 +1,4 @@
-public class GlassPane : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 11465
+public class GlassPane : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 11475
 {
 	public Renderer glassRendereer; 
 	[SerializeField] 
@@ -11,6 +11,8 @@ public class GlassPane : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 11
 	protected void Start() { }
 
 	protected void OnDisable() { }
+
+	private void ClearDecals() { }
 
 	public void SetGlassDamage(float modulePercentHealth, MaterialPropertyBlock glassMaterialPB) { }
 

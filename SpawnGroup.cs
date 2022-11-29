@@ -1,4 +1,4 @@
-public class SpawnGroup : BaseMonoBehaviour, IServerComponent // TypeDefIndex: 11745
+public class SpawnGroup : BaseMonoBehaviour, IServerComponent // TypeDefIndex: 11756
 {
 	[InspectorFlagsAttribute] 
 	public MonumentTier Tier; 
@@ -20,7 +20,7 @@ public class SpawnGroup : BaseMonoBehaviour, IServerComponent // TypeDefIndex: 1
 
 }
 
-public class SpawnGroup.SpawnEntry // TypeDefIndex: 11746
+public class SpawnGroup.SpawnEntry // TypeDefIndex: 11757
 {
 	public GameObjectRef prefab; 
 	public int weight; 

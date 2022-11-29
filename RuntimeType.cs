@@ -218,8 +218,8 @@ internal class RuntimeType : TypeInfo, ISerializable, ICloneable // TypeDefIndex
 
 	internal object CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, object[] args, CultureInfo culture, object[] activationAttributes, ref StackCrawlMark stackMark) { }
 
-	[DebuggerStepThroughAttribute] 
 	[DebuggerHiddenAttribute] 
+	[DebuggerStepThroughAttribute] 
 	internal object CreateInstanceDefaultCtor(bool publicOnly, bool skipCheckThis, bool fillCache, ref StackCrawlMark stackMark) { }
 
 	internal MonoCMethod GetDefaultConstructor() { }

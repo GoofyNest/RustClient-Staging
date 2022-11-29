@@ -1,4 +1,4 @@
-public static class Mathx // TypeDefIndex: 6596
+public static class Mathx // TypeDefIndex: 6599
 {
 
 	public static float Increment(float f) { }

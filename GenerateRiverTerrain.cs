@@ -1,4 +1,4 @@
-public class GenerateRiverTerrain : ProceduralComponent // TypeDefIndex: 12246
+public class GenerateRiverTerrain : ProceduralComponent // TypeDefIndex: 12258
 {
 	public const int SmoothenLoops = 1;
 	public const int SmoothenIterations = 8;

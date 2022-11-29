@@ -1,4 +1,4 @@
-public class CeilingLight : IOEntity // TypeDefIndex: 10262
+public class CeilingLight : IOEntity // TypeDefIndex: 10269
 {
 	public float pushScale; 
 

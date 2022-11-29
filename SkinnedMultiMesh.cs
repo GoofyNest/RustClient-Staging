@@ -1,4 +1,4 @@
-public class SkinnedMultiMesh : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 10959
+public class SkinnedMultiMesh : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 10969
 {
 	public bool shadowOnly; 
 	internal bool IsVisible; 
@@ -70,7 +70,7 @@ public class SkinnedMultiMesh : MonoBehaviour, IPrefabPreProcess // TypeDefIndex
 
 }
 
-public struct SkinnedMultiMesh.Part // TypeDefIndex: 10960
+public struct SkinnedMultiMesh.Part // TypeDefIndex: 10970
 {
 	public Wearable wearable; 
 	public GameObject gameObject; 
@@ -79,7 +79,7 @@ public struct SkinnedMultiMesh.Part // TypeDefIndex: 10960
 
 }
 
-private sealed class SkinnedMultiMesh.<>c // TypeDefIndex: 10961
+private sealed class SkinnedMultiMesh.<>c // TypeDefIndex: 10971
 {
 	public static readonly SkinnedMultiMesh.<>c <>9; 
 	public static Func<SkinnedMultiMesh.Part, long> <>9__21_0; 
@@ -90,20 +90,20 @@ private sealed class SkinnedMultiMesh.<>c // TypeDefIndex: 10961
 
 	public void .ctor() { }
 
-	internal long <WorkoutPartsHash>b__21_0(SkinnedMultiMesh.Part x) { }
+	internal long <WorkoutPartsHash>
 
-	internal bool <IsCurrentlyVisible>b__39_0(Renderer r) { }
+	internal bool <IsCurrentlyVisible>
 
 }
 
-private sealed class SkinnedMultiMesh.<>c__DisplayClass35_0 // TypeDefIndex: 10962
+private sealed class SkinnedMultiMesh.<>c__DisplayClass35_0 // TypeDefIndex: 10972
 {
 	public string name; 
 
 
 	public void .ctor() { }
 
-	internal bool <FindParts>b__0(SkinnedMultiMesh.Part x) { }
+	internal bool <FindParts>
 
 }
 

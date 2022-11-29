@@ -1,4 +1,4 @@
-public class ERRoad // TypeDefIndex: 7192
+public class ERRoad // TypeDefIndex: 7195
 {
 	public ERModularRoad roadScript; 
 	public GameObject gameObject; 

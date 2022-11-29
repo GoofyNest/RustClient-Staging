@@ -1,4 +1,4 @@
-public class DiscoFloor : AudioVisualisationEntity // TypeDefIndex: 11167
+public class DiscoFloor : AudioVisualisationEntity // TypeDefIndex: 11177
 {
 	public float GradientDuration; 
 	public float VolumeSensitivityMultiplier; 

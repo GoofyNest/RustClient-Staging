@@ -1,4 +1,4 @@
-public struct SessionModificationSetBucketIdOptions // TypeDefIndex: 8565
+public struct SessionModificationSetBucketIdOptions // TypeDefIndex: 8571
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <BucketId>k__BackingField; 

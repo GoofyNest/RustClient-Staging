@@ -1,4 +1,4 @@
-public class BaseProjectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6323
+public class BaseProjectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6325
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -59,7 +59,7 @@ public class BaseProjectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 }
 
-public class Attack : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6490
+public class Attack : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6493
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -130,7 +130,7 @@ public class Attack : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6490
 
 }
 
-public class ProjectileShoot : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6495
+public class ProjectileShoot : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6498
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -192,7 +192,7 @@ public class ProjectileShoot : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 }
 
-public class ProjectileShoot.Projectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6496
+public class ProjectileShoot.Projectile : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6499
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -256,7 +256,7 @@ public class ProjectileShoot.Projectile : IDisposable, Pool.IPooled, IProto // T
 
 }
 
-public class BaseProjectile : AttackEntity // TypeDefIndex: 10243
+public class BaseProjectile : AttackEntity // TypeDefIndex: 10249
 {
 	[HeaderAttribute] 
 	public float NoiseRadius; 
@@ -301,6 +301,15 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 10243
 	protected bool needsCycle; 
 	protected bool isCycling; 
 	public bool aiming; 
+	[HeaderAttribute] 
+	public bool isBurstWeapon; 
+	public bool canChangeFireModes; 
+	public bool defaultOn; 
+	public float internalBurstRecoilScale; 
+	public float internalBurstFireRateScale; 
+	public float internalBurstAimConeScale; 
+	public Translate.Phrase Toast_BurstDisabled; 
+	public Translate.Phrase Toast_BurstEnabled; 
 	public float resetDuration; 
 	public int numShotsFired; 
 	private float nextReloadTime; 
@@ -319,6 +328,7 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 10243
 	private ItemDefinition ammoTypePreReload; 
 	private int fractionalReloadDesiredCount; 
 	private int fractionalReloadNumAdded; 
+	private int currentBurst; 
 	private bool triggerReady; 
 	private float nextHeightCheckTime; 
 	private bool cachedUnderground; 
@@ -362,6 +372,14 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 10243
 	public float ScaleRepeatDelay(float delay) { }
 
 	public Projectile.Modifier GetProjectileModifier() { }
+
+	public bool UsingBurstMode() { }
+
+	public bool UsingInternalBurstMode() { }
+
+	public bool IsBurstEligable() { }
+
+	public float TimeBetweenBursts() { }
 
 	public virtual void DidAttackClientside() { }
 
@@ -411,6 +429,10 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 10243
 
 	protected void ClientSingleReload() { }
 
+	public bool IsBursting() { }
+
+	public int GetBurstModeCount() { }
+
 	public virtual void DoAttack() { }
 
 	public void BeginCycle() { }
@@ -426,6 +448,8 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 10243
 	public float GetReloadDuration() { }
 
 	public int GetAvailableAmmo() { }
+
+	public bool IsBurstDisabled() { }
 
 	public bool IsSilenced() { }
 
@@ -447,7 +471,7 @@ public class BaseProjectile : AttackEntity // TypeDefIndex: 10243
 
 }
 
-public class BaseProjectile.Magazine // TypeDefIndex: 10244
+public class BaseProjectile.Magazine // TypeDefIndex: 10250
 {
 	public BaseProjectile.Magazine.Definition definition; 
 	public int capacity; 
@@ -468,7 +492,7 @@ public class BaseProjectile.Magazine // TypeDefIndex: 10244
 
 }
 
-public struct BaseProjectile.Magazine.Definition // TypeDefIndex: 10245
+public struct BaseProjectile.Magazine.Definition // TypeDefIndex: 10251
 {
 	[TooltipAttribute] 
 	public int builtInSize; 
@@ -478,29 +502,15 @@ public struct BaseProjectile.Magazine.Definition // TypeDefIndex: 10245
 
 }
 
-private sealed class BaseProjectile.<>c // TypeDefIndex: 10246
+public static class BaseProjectile.BaseProjectileFlags // TypeDefIndex: 10252
+{
+	public const BaseEntity.Flags BurstToggle = 16384;
+
+}
+
+private sealed class BaseProjectile.<>c // TypeDefIndex: 10253
 {
 	public static readonly BaseProjectile.<>c <>9; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__63_0; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__63_1; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__63_2; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__63_3; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__63_4; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__63_5; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__63_6; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__63_7; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__64_0; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__64_1; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__64_2; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__64_3; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__65_0; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__65_1; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__65_2; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__65_3; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__65_4; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__65_5; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__65_6; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__65_7; 
 	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__72_0; 
 	public static Func<ProjectileWeaponMod.Modifier, float> <>9__72_1; 
 	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__72_2; 
@@ -509,110 +519,139 @@ private sealed class BaseProjectile.<>c // TypeDefIndex: 10246
 	public static Func<ProjectileWeaponMod.Modifier, float> <>9__72_5; 
 	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__72_6; 
 	public static Func<ProjectileWeaponMod.Modifier, float> <>9__72_7; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__76_0; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__76_1; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__76_2; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__76_3; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__98_0; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__98_1; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__98_2; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__98_3; 
-	public static Func<ProjectileWeaponMod, bool> <>9__110_0; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__112_0; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__112_1; 
-	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__112_2; 
-	public static Func<ProjectileWeaponMod.Modifier, float> <>9__112_3; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__73_0; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__73_1; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__73_2; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__73_3; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__74_0; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__74_1; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__74_2; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__74_3; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__74_4; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__74_5; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__74_6; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__74_7; 
+	public static Func<ProjectileWeaponMod, bool> <>9__75_0; 
+	public static Func<ProjectileWeaponMod, bool> <>9__77_0; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__85_0; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__85_1; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__85_2; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__85_3; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__85_4; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__85_5; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__85_6; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__85_7; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__89_0; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__89_1; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__89_2; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__89_3; 
+	public static Func<ProjectileWeaponMod, bool> <>9__112_0; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__114_0; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__114_1; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__114_2; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__114_3; 
+	public static Func<ProjectileWeaponMod, bool> <>9__127_0; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__129_0; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__129_1; 
+	public static Func<ProjectileWeaponMod, ProjectileWeaponMod.Modifier> <>9__129_2; 
+	public static Func<ProjectileWeaponMod.Modifier, float> <>9__129_3; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal ProjectileWeaponMod.Modifier <GetAimCone>b__63_0(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <GetAimCone>
 
-	internal float <GetAimCone>b__63_1(ProjectileWeaponMod.Modifier y) { }
+	internal float <GetAimCone>
 
-	internal ProjectileWeaponMod.Modifier <GetAimCone>b__63_2(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <GetAimCone>
 
-	internal float <GetAimCone>b__63_3(ProjectileWeaponMod.Modifier y) { }
+	internal float <GetAimCone>
 
-	internal ProjectileWeaponMod.Modifier <GetAimCone>b__63_4(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <GetAimCone>
 
-	internal float <GetAimCone>b__63_5(ProjectileWeaponMod.Modifier y) { }
+	internal float <GetAimCone>
 
-	internal ProjectileWeaponMod.Modifier <GetAimCone>b__63_6(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <GetAimCone>
 
-	internal float <GetAimCone>b__63_7(ProjectileWeaponMod.Modifier y) { }
+	internal float <GetAimCone>
 
-	internal ProjectileWeaponMod.Modifier <ScaleRepeatDelay>b__64_0(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <ScaleRepeatDelay>
 
-	internal float <ScaleRepeatDelay>b__64_1(ProjectileWeaponMod.Modifier y) { }
+	internal float <ScaleRepeatDelay>
 
-	internal ProjectileWeaponMod.Modifier <ScaleRepeatDelay>b__64_2(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <ScaleRepeatDelay>
 
-	internal float <ScaleRepeatDelay>b__64_3(ProjectileWeaponMod.Modifier y) { }
+	internal float <ScaleRepeatDelay>
 
-	internal ProjectileWeaponMod.Modifier <GetProjectileModifier>b__65_0(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <GetProjectileModifier>
 
-	internal float <GetProjectileModifier>b__65_1(ProjectileWeaponMod.Modifier y) { }
+	internal float <GetProjectileModifier>
 
-	internal ProjectileWeaponMod.Modifier <GetProjectileModifier>b__65_2(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <GetProjectileModifier>
 
-	internal float <GetProjectileModifier>b__65_3(ProjectileWeaponMod.Modifier y) { }
+	internal float <GetProjectileModifier>
 
-	internal ProjectileWeaponMod.Modifier <GetProjectileModifier>b__65_4(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <GetProjectileModifier>
 
-	internal float <GetProjectileModifier>b__65_5(ProjectileWeaponMod.Modifier y) { }
+	internal float <GetProjectileModifier>
 
-	internal ProjectileWeaponMod.Modifier <GetProjectileModifier>b__65_6(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <GetProjectileModifier>
 
-	internal float <GetProjectileModifier>b__65_7(ProjectileWeaponMod.Modifier y) { }
+	internal float <GetProjectileModifier>
 
-	internal ProjectileWeaponMod.Modifier <EditViewAngles>b__72_0(ProjectileWeaponMod x) { }
+	internal bool <UsingBurstMode>
 
-	internal float <EditViewAngles>b__72_1(ProjectileWeaponMod.Modifier y) { }
+	internal bool <IsBurstEligable>
 
-	internal ProjectileWeaponMod.Modifier <EditViewAngles>b__72_2(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <EditViewAngles>
 
-	internal float <EditViewAngles>b__72_3(ProjectileWeaponMod.Modifier y) { }
+	internal float <EditViewAngles>
 
-	internal ProjectileWeaponMod.Modifier <EditViewAngles>b__72_4(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <EditViewAngles>
 
-	internal float <EditViewAngles>b__72_5(ProjectileWeaponMod.Modifier y) { }
+	internal float <EditViewAngles>
 
-	internal ProjectileWeaponMod.Modifier <EditViewAngles>b__72_6(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <EditViewAngles>
 
-	internal float <EditViewAngles>b__72_7(ProjectileWeaponMod.Modifier y) { }
+	internal float <EditViewAngles>
 
-	internal ProjectileWeaponMod.Modifier <SimulateAimcone>b__76_0(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <EditViewAngles>
 
-	internal float <SimulateAimcone>b__76_1(ProjectileWeaponMod.Modifier y) { }
+	internal float <EditViewAngles>
 
-	internal ProjectileWeaponMod.Modifier <SimulateAimcone>b__76_2(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <SimulateAimcone>
 
-	internal float <SimulateAimcone>b__76_3(ProjectileWeaponMod.Modifier y) { }
+	internal float <SimulateAimcone>
 
-	internal ProjectileWeaponMod.Modifier <DoAttack>b__98_0(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <SimulateAimcone>
 
-	internal float <DoAttack>b__98_1(ProjectileWeaponMod.Modifier y) { }
+	internal float <SimulateAimcone>
 
-	internal ProjectileWeaponMod.Modifier <DoAttack>b__98_2(ProjectileWeaponMod x) { }
+	internal bool <GetBurstModeCount>
 
-	internal float <DoAttack>b__98_3(ProjectileWeaponMod.Modifier y) { }
+	internal ProjectileWeaponMod.Modifier <DoAttack>
 
-	internal bool <OnSignal>b__110_0(ProjectileWeaponMod x) { }
+	internal float <DoAttack>
 
-	internal ProjectileWeaponMod.Modifier <LaunchProjectileClientside>b__112_0(ProjectileWeaponMod x) { }
+	internal ProjectileWeaponMod.Modifier <DoAttack>
 
-	internal float <LaunchProjectileClientside>b__112_1(ProjectileWeaponMod.Modifier y) { }
+	internal float <DoAttack>
 
-	internal ProjectileWeaponMod.Modifier <LaunchProjectileClientside>b__112_2(ProjectileWeaponMod x) { }
+	internal bool <OnSignal>
 
-	internal float <LaunchProjectileClientside>b__112_3(ProjectileWeaponMod.Modifier y) { }
+	internal ProjectileWeaponMod.Modifier <LaunchProjectileClientside>
+
+	internal float <LaunchProjectileClientside>
+
+	internal ProjectileWeaponMod.Modifier <LaunchProjectileClientside>
+
+	internal float <LaunchProjectileClientside>
 
 }
 
-private sealed class BaseProjectile.<>c__DisplayClass84_0 // TypeDefIndex: 10247
+private sealed class BaseProjectile.<>c__DisplayClass97_0 // TypeDefIndex: 10254
 {
 	public BaseProjectile <>4__this; 
 	public ItemDefinition ammoType; 
@@ -620,11 +659,11 @@ private sealed class BaseProjectile.<>c__DisplayClass84_0 // TypeDefIndex: 10247
 
 	public void .ctor() { }
 
-	internal void <AddAmmoOption>b__0(BasePlayer ply) { }
+	internal void <AddAmmoOption>
 
 }
 
-public class Projectile : BaseMonoBehaviour // TypeDefIndex: 10946
+public class Projectile : BaseMonoBehaviour // TypeDefIndex: 10956
 {
 	public const float moveDeltaTime = 0,03125;
 	public const float lifeTime = 8;
@@ -770,7 +809,7 @@ public class Projectile : BaseMonoBehaviour // TypeDefIndex: 10946
 
 }
 
-public struct Projectile.Modifier // TypeDefIndex: 10947
+public struct Projectile.Modifier // TypeDefIndex: 10957
 {
 	public float damageScale; 
 	public float damageOffset; 
@@ -783,7 +822,7 @@ public struct Projectile.Modifier // TypeDefIndex: 10947
 
 }
 
-public class ProjectileTestSpawner : MonoBehaviour // TypeDefIndex: 11051
+public class ProjectileTestSpawner : MonoBehaviour // TypeDefIndex: 11061
 {
 	public Projectile TargetProjectile; 
 	public float RepeatTime; 
@@ -794,14 +833,14 @@ public class ProjectileTestSpawner : MonoBehaviour // TypeDefIndex: 11051
 
 }
 
-public class AttackTickAIEvent : BaseAIEvent // TypeDefIndex: 11119
+public class AttackTickAIEvent : BaseAIEvent // TypeDefIndex: 11129
 {
 
 	public void .ctor() { }
 
 }
 
-public class AttackedAIEvent : BaseAIEvent // TypeDefIndex: 11120
+public class AttackedAIEvent : BaseAIEvent // TypeDefIndex: 11130
 {
 	protected float lastExecuteTime; 
 	private BaseCombatEntity combatEntity; 
@@ -811,7 +850,7 @@ public class AttackedAIEvent : BaseAIEvent // TypeDefIndex: 11120
 
 }
 
-public class AttackEntity : HeldEntity // TypeDefIndex: 11188
+public class AttackEntity : HeldEntity // TypeDefIndex: 11198
 {
 	[HeaderAttribute] 
 	public float deployDelay; 
@@ -893,7 +932,7 @@ public class AttackEntity : HeldEntity // TypeDefIndex: 11188
 
 }
 
-public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 11355
+public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 11365
 {
 	[HeaderAttribute] 
 	public GameObjectRef defaultSilencerEffect; 
@@ -922,11 +961,18 @@ public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 11355
 	[HeaderAttribute] 
 	public ProjectileWeaponMod.Modifier magazineCapacity; 
 	public bool needsOnForEffects; 
+	[HeaderAttribute] 
+	public int burstCount; 
+	public float timeBetweenBursts; 
 
 
 	public override void OnFlagsChanged(BaseEntity.Flags old, BaseEntity.Flags next) { }
 
+	protected override void DoClientDestroy() { }
+
 	public virtual void SetAiming(bool isAiming) { }
+
+	public virtual void SetInternalModOn(bool isOn) { }
 
 	public float GetZoomAmount() { }
 
@@ -948,7 +994,7 @@ public class ProjectileWeaponMod : BaseEntity // TypeDefIndex: 11355
 
 }
 
-public struct ProjectileWeaponMod.Modifier // TypeDefIndex: 11356
+public struct ProjectileWeaponMod.Modifier // TypeDefIndex: 11366
 {
 	public bool enabled; 
 	[TooltipAttribute] 
@@ -958,41 +1004,41 @@ public struct ProjectileWeaponMod.Modifier // TypeDefIndex: 11356
 
 }
 
-private sealed class ProjectileWeaponMod.<>c // TypeDefIndex: 11357
+private sealed class ProjectileWeaponMod.<>c // TypeDefIndex: 11367
 {
 	public static readonly ProjectileWeaponMod.<>c <>9; 
-	public static Func<ProjectileWeaponMod, bool> <>9__27_0; 
-	public static Func<ProjectileWeaponMod.Modifier, bool> <>9__27_1; 
-	public static Func<ProjectileWeaponMod, bool> <>9__28_0; 
+	public static Func<ProjectileWeaponMod, bool> <>9__31_0; 
+	public static Func<ProjectileWeaponMod.Modifier, bool> <>9__31_1; 
+	public static Func<ProjectileWeaponMod, bool> <>9__32_0; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal bool <GetMods>b__27_0(ProjectileWeaponMod x) { }
+	internal bool <GetMods>
 
-	internal bool <GetMods>b__27_1(ProjectileWeaponMod.Modifier x) { }
+	internal bool <GetMods>
 
-	internal bool <HasBrokenWeaponMod>b__28_0(ProjectileWeaponMod x) { }
+	internal bool <HasBrokenWeaponMod>
 
 }
 
-public class AttackTickEventUI : BaseEventUI // TypeDefIndex: 12533
+public class AttackTickEventUI : BaseEventUI // TypeDefIndex: 12552
 {
 
 	public void .ctor() { }
 
 }
 
-public class AttackedEventUI : BaseEventUI // TypeDefIndex: 12534
+public class AttackedEventUI : BaseEventUI // TypeDefIndex: 12553
 {
 
 	public void .ctor() { }
 
 }
 
-public class ProjectileWeaponInformationPanel : ItemInformationPanel // TypeDefIndex: 12810
+public class ProjectileWeaponInformationPanel : ItemInformationPanel // TypeDefIndex: 12829
 {
 	public ItemStatValue damageDisplay; 
 	public ItemStatValue recoilDisplay; 

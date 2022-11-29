@@ -1,4 +1,4 @@
-public class PlantProperties : ScriptableObject // TypeDefIndex: 11369
+public class PlantProperties : ScriptableObject // TypeDefIndex: 11379
 {
 	public Translate.Phrase Description; 
 	public GrowableGeneProperties Genes; 
@@ -17,9 +17,13 @@ public class PlantProperties : ScriptableObject // TypeDefIndex: 11369
 	public float OptimalTemperatureQuality; 
 	[HeaderAttribute] 
 	public BaseEntity.Menu.Option pickOption; 
+	public BaseEntity.Menu.Option pickAllOption; 
+	public BaseEntity.Menu.Option eatOption; 
 	public ItemDefinition pickupItem; 
 	public BaseEntity.Menu.Option cloneOption; 
+	public BaseEntity.Menu.Option cloneAllOption; 
 	public BaseEntity.Menu.Option removeDyingOption; 
+	public BaseEntity.Menu.Option removeDyingAllOption; 
 	public ItemDefinition removeDyingItem; 
 	public GameObjectRef removeDyingEffect; 
 	public int pickupMultiplier; 
@@ -39,7 +43,7 @@ public class PlantProperties : ScriptableObject // TypeDefIndex: 11369
 
 }
 
-public enum PlantProperties.State // TypeDefIndex: 11370
+public enum PlantProperties.State // TypeDefIndex: 11380
 {
 	public int value__; 
 	public const PlantProperties.State Seed = 0;
@@ -53,7 +57,7 @@ public enum PlantProperties.State // TypeDefIndex: 11370
 
 }
 
-public struct PlantProperties.Stage // TypeDefIndex: 11371
+public struct PlantProperties.Stage // TypeDefIndex: 11381
 {
 	public PlantProperties.State nextState; 
 	public float lifeLength; 

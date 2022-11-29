@@ -1,4 +1,4 @@
-public class NullMonoBehaviour : FacepunchBehaviour // TypeDefIndex: 6637
+public class NullMonoBehaviour : FacepunchBehaviour // TypeDefIndex: 6640
 {
 
 	public void .ctor() { }

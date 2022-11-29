@@ -1,4 +1,4 @@
-public class BaseNavigator : BaseMonoBehaviour // TypeDefIndex: 10666
+public class BaseNavigator : BaseMonoBehaviour // TypeDefIndex: 10674
 {
 	[ServerVar] 
 	public static float maxStepUpDistance; 
@@ -53,6 +53,10 @@ public class BaseNavigator : BaseMonoBehaviour // TypeDefIndex: 10666
 	public bool UseBiomePreference; 
 	[InspectorFlagsAttribute] 
 	public TerrainTopology.Enum topologyPreference; 
+	[InspectorFlagsAttribute] 
+	public TerrainTopology.Enum topologyPrevent; 
+	[InspectorFlagsAttribute] 
+	public TerrainBiome.Enum biomeRequirement; 
 	[CompilerGeneratedAttribute] 
 	private NavMeshAgent <Agent>k__BackingField; 
 	[CompilerGeneratedAttribute] 
@@ -88,6 +92,10 @@ public class BaseNavigator : BaseMonoBehaviour // TypeDefIndex: 10666
 	public void set_AStarGraph(BasePath value) { }
 
 	public int TopologyPreference() { }
+
+	public int TopologyPrevent() { }
+
+	public int BiomeRequirement() { }
 
 	[CompilerGeneratedAttribute] 
 	public NavMeshAgent get_Agent() { }
@@ -129,7 +137,7 @@ public class BaseNavigator : BaseMonoBehaviour // TypeDefIndex: 10666
 
 }
 
-public enum BaseNavigator.NavigationType // TypeDefIndex: 10667
+public enum BaseNavigator.NavigationType // TypeDefIndex: 10675
 {
 	public int value__; 
 	public const BaseNavigator.NavigationType None = 0;
@@ -140,7 +148,7 @@ public enum BaseNavigator.NavigationType // TypeDefIndex: 10667
 
 }
 
-public enum BaseNavigator.NavigationSpeed // TypeDefIndex: 10668
+public enum BaseNavigator.NavigationSpeed // TypeDefIndex: 10676
 {
 	public int value__; 
 	public const BaseNavigator.NavigationSpeed Slowest = 0;

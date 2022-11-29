@@ -1,4 +1,4 @@
-public class TechTreeDialog : UIDialog, IInventoryChanged // TypeDefIndex: 12665
+public class TechTreeDialog : UIDialog, IInventoryChanged // TypeDefIndex: 12684
 {
 	public TechTreeData data; 
 	public float graphScale; 
@@ -23,7 +23,7 @@ public class TechTreeDialog : UIDialog, IInventoryChanged // TypeDefIndex: 12665
 
 	public override void OpenDialog() { }
 
-	public override void CloseDialog() { }
+	private void OnDestroy() { }
 
 	public void SetScalerEnabled(bool wants) { }
 
@@ -72,11 +72,11 @@ public class TechTreeDialog : UIDialog, IInventoryChanged // TypeDefIndex: 12665
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private void <OpenDialog>b__17_0() { }
+	private void <OpenDialog>
 
 }
 
-private sealed class TechTreeDialog.<>c__DisplayClass37_0 // TypeDefIndex: 12666
+private sealed class TechTreeDialog.<>c__DisplayClass37_0 // TypeDefIndex: 12685
 {
 	public TechTreeDialog <>4__this; 
 	public TechTreeData.NodeInstance node; 
@@ -84,7 +84,7 @@ private sealed class TechTreeDialog.<>c__DisplayClass37_0 // TypeDefIndex: 12666
 
 	public void .ctor() { }
 
-	internal void <AddSingleNode>b__0() { }
+	internal void <AddSingleNode>
 
 }
 

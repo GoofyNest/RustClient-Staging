@@ -1,4 +1,4 @@
-public class Equalizer // TypeDefIndex: 7402
+public class Equalizer // TypeDefIndex: 7405
 {
 	private const int BANDS = 32;
 	internal const float BAND_NOT_PRESENT = -∞;

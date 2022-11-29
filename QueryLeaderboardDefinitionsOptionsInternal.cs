@@ -1,4 +1,4 @@
-internal struct QueryLeaderboardDefinitionsOptionsInternal : ISettable<QueryLeaderboardDefinitionsOptions>, IDisposable // TypeDefIndex: 9309
+internal struct QueryLeaderboardDefinitionsOptionsInternal : ISettable<QueryLeaderboardDefinitionsOptions>, IDisposable // TypeDefIndex: 9315
 {
 	private int m_ApiVersion; 
 	private long m_StartTime; 

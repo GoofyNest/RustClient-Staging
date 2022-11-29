@@ -1,4 +1,4 @@
-public static class Vector2Ex // TypeDefIndex: 6618
+public static class Vector2Ex // TypeDefIndex: 6621
 {
 
 	[ExtensionAttribute] 

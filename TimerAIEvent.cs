@@ -1,4 +1,4 @@
-public class TimerAIEvent : BaseAIEvent // TypeDefIndex: 11144
+public class TimerAIEvent : BaseAIEvent // TypeDefIndex: 11154
 {
 	[CompilerGeneratedAttribute] 
 	private float <DurationMin>k__BackingField; 

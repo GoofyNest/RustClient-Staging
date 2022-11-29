@@ -1,4 +1,4 @@
-public enum Notes // TypeDefIndex: 13897
+public enum Notes // TypeDefIndex: 13930
 {
 	public int value__; 
 	public const Notes A = 0;

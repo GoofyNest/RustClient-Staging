@@ -1,4 +1,4 @@
-public class ChippyBulletEntity : SpriteArcadeEntity // TypeDefIndex: 10484
+public class ChippyBulletEntity : SpriteArcadeEntity // TypeDefIndex: 10492
 {
 	public float speed; 
 	public float maxSpeed; 

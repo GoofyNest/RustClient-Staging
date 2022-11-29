@@ -1,4 +1,4 @@
-public class AndAIEvent : BaseAIEvent // TypeDefIndex: 11118
+public class AndAIEvent : BaseAIEvent // TypeDefIndex: 11128
 {
 
 	public void .ctor() { }

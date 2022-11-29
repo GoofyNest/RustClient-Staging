@@ -1,4 +1,4 @@
-public class CapturePointTrigger : TriggerBase // TypeDefIndex: 11612
+public class CapturePointTrigger : TriggerBase // TypeDefIndex: 11623
 {
 
 	public void .ctor() { }

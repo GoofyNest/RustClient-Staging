@@ -1,4 +1,4 @@
-public class MicrophoneStandIOEntity : IOEntity, IAudioConnectionSource // TypeDefIndex: 11177
+public class MicrophoneStandIOEntity : IOEntity, IAudioConnectionSource // TypeDefIndex: 11187
 {
 	public int PowerCost; 
 	public TriggerBase InstrumentTrigger; 
@@ -17,7 +17,7 @@ public class MicrophoneStandIOEntity : IOEntity, IAudioConnectionSource // TypeD
 
 	private void FindNearbyInstruments() { }
 
-	public void PlayNote(InstrumentKeyController key, SoundDefinition def, float velocity, NoteBindingCollection collection) { }
+	public void PlayNote(InstrumentKeyController key, SoundDefinition def, float velocity, NoteBindingCollection collection, float pitchOffset) { }
 
 	public void StopNote(InstrumentKeyController key, float fadeOutTime = 0,1) { }
 

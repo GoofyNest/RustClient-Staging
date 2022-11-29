@@ -1,4 +1,4 @@
-internal static class Interop // TypeDefIndex: 7368
+internal static class Interop // TypeDefIndex: 7371
 {
 	internal const int SQLITE_OK = 0;
 	internal const int SQLITE_ROW = 100;

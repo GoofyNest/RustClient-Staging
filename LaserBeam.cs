@@ -1,4 +1,4 @@
-public class LaserBeam : MonoBehaviour // TypeDefIndex: 10612
+public class LaserBeam : MonoBehaviour // TypeDefIndex: 10620
 {
 	public float scrollSpeed; 
 	public LineRenderer beamRenderer; 
@@ -54,7 +54,7 @@ public class LaserBeam : MonoBehaviour // TypeDefIndex: 10612
 
 }
 
-public class LaserBeam.LaserBeamWorkQueue : PersistentObjectWorkQueue<LaserBeam> // TypeDefIndex: 10613
+public class LaserBeam.LaserBeamWorkQueue : PersistentObjectWorkQueue<LaserBeam> // TypeDefIndex: 10621
 {
 
 	protected override void RunJob(LaserBeam entity) { }

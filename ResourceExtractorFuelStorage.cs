@@ -1,4 +1,4 @@
-public class ResourceExtractorFuelStorage : StorageContainer // TypeDefIndex: 11304
+public class ResourceExtractorFuelStorage : StorageContainer // TypeDefIndex: 11314
 {
 
 	public void .ctor() { }

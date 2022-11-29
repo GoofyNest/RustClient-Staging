@@ -1,4 +1,4 @@
-public class MeshColliderLookup // TypeDefIndex: 10879
+public class MeshColliderLookup // TypeDefIndex: 10889
 {
 	public MeshColliderLookup.LookupGroup src; 
 	public MeshColliderLookup.LookupGroup dst; 
@@ -14,7 +14,7 @@ public class MeshColliderLookup // TypeDefIndex: 10879
 
 }
 
-public class MeshColliderLookup.LookupGroup // TypeDefIndex: 10880
+public class MeshColliderLookup.LookupGroup // TypeDefIndex: 10890
 {
 	public List<MeshColliderLookup.LookupEntry> data; 
 	public List<int> indices; 
@@ -30,7 +30,7 @@ public class MeshColliderLookup.LookupGroup // TypeDefIndex: 10880
 
 }
 
-public struct MeshColliderLookup.LookupEntry // TypeDefIndex: 10881
+public struct MeshColliderLookup.LookupEntry // TypeDefIndex: 10891
 {
 	public Transform transform; 
 	public Rigidbody rigidbody; 

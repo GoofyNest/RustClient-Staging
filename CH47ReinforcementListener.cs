@@ -1,4 +1,4 @@
-public class CH47ReinforcementListener : BaseEntity // TypeDefIndex: 11448
+public class CH47ReinforcementListener : BaseEntity // TypeDefIndex: 11458
 {
 	public string listenString; 
 	public GameObjectRef heliPrefab; 

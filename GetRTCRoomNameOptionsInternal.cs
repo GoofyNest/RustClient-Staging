@@ -1,4 +1,4 @@
-internal struct GetRTCRoomNameOptionsInternal : ISettable<GetRTCRoomNameOptions>, IDisposable // TypeDefIndex: 9098
+internal struct GetRTCRoomNameOptionsInternal : ISettable<GetRTCRoomNameOptions>, IDisposable // TypeDefIndex: 9104
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LobbyId; 

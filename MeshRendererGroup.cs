@@ -1,4 +1,4 @@
-public class MeshRendererGroup : PooledList<MeshRendererInstance> // TypeDefIndex: 10886
+public class MeshRendererGroup : PooledList<MeshRendererInstance> // TypeDefIndex: 10896
 {
 
 	public void .ctor() { }

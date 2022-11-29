@@ -1,4 +1,4 @@
-public abstract class UnityEventBase : ISerializationCallbackReceiver // TypeDefIndex: 3640
+public abstract class UnityEventBase : ISerializationCallbackReceiver // TypeDefIndex: 3641
 {
 	private InvokableCallList m_Calls; 
 	[FormerlySerializedAsAttribute] 

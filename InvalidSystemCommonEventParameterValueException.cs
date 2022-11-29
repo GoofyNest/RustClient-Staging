@@ -1,4 +1,4 @@
-public sealed class InvalidSystemCommonEventParameterValueException : MidiException // TypeDefIndex: 7587
+public sealed class InvalidSystemCommonEventParameterValueException : MidiException // TypeDefIndex: 7590
 {
 	[CompilerGeneratedAttribute] 
 	private readonly MidiEventType <EventType>k__BackingField; 

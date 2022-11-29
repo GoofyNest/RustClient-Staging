@@ -1,4 +1,4 @@
-public class RemoveChildObjectsAlongPath : MonoBehaviour, IEditorComponent // TypeDefIndex: 12106
+public class RemoveChildObjectsAlongPath : MonoBehaviour, IEditorComponent // TypeDefIndex: 12117
 {
 	public Transform Node1; 
 	public Transform Node2; 

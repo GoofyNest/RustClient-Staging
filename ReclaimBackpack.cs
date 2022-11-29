@@ -1,4 +1,4 @@
-public class ReclaimBackpack : StorageContainer // TypeDefIndex: 10457
+public class ReclaimBackpack : StorageContainer // TypeDefIndex: 10465
 {
 	public int reclaimID; 
 	public ulong playerSteamID; 

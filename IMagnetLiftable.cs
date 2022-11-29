@@ -1,4 +1,4 @@
-public class IMagnetLiftable : MonoBehaviour // TypeDefIndex: 11460
+public class IMagnetLiftable : MonoBehaviour // TypeDefIndex: 11470
 {
 
 	private void Start() { }

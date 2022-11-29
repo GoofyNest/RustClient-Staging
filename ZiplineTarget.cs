@@ -1,4 +1,4 @@
-public class ZiplineTarget : MonoBehaviour // TypeDefIndex: 10387
+public class ZiplineTarget : MonoBehaviour // TypeDefIndex: 10395
 {
 	public Transform Target; 
 	public bool IsChainPoint; 

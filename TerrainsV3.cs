@@ -1,4 +1,4 @@
-public class TerrainsV3 // TypeDefIndex: 7310
+public class TerrainsV3 // TypeDefIndex: 7313
 {
 	public Terrain terrain; 
 	public string id; 

@@ -1,4 +1,4 @@
-public struct SetRelayControlOptions // TypeDefIndex: 8999
+public struct SetRelayControlOptions // TypeDefIndex: 9005
 {
 	[CompilerGeneratedAttribute] 
 	private RelayControl <RelayControl>k__BackingField; 

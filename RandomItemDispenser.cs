@@ -1,4 +1,4 @@
-public class RandomItemDispenser : PrefabAttribute, IServerComponent // TypeDefIndex: 11403
+public class RandomItemDispenser : PrefabAttribute, IServerComponent // TypeDefIndex: 11413
 {
 	public RandomItemDispenser.RandomItemChance[] Chances; 
 	public bool OnlyAwardOne; 
@@ -10,7 +10,7 @@ public class RandomItemDispenser : PrefabAttribute, IServerComponent // TypeDefI
 
 }
 
-public struct RandomItemDispenser.RandomItemChance // TypeDefIndex: 11404
+public struct RandomItemDispenser.RandomItemChance // TypeDefIndex: 11414
 {
 	public ItemDefinition Item; 
 	public int Amount; 

@@ -1,4 +1,4 @@
-public class BoneRetarget : MonoBehaviour // TypeDefIndex: 10846
+public class BoneRetarget : MonoBehaviour // TypeDefIndex: 10856
 {
 	public bool preserveInFirstPerson; 
 

@@ -1,4 +1,4 @@
-public class ConnectedSpeaker : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6420
+public class ConnectedSpeaker : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6423
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -59,7 +59,7 @@ public class ConnectedSpeaker : IDisposable, Pool.IPooled, IProto // TypeDefInde
 
 }
 
-public class ConnectedSpeaker : IOEntity // TypeDefIndex: 10277
+public class ConnectedSpeaker : IOEntity // TypeDefIndex: 10284
 {
 	public AudioSource SoundSource; 
 	private EntityRef<IOEntity> connectedTo; 

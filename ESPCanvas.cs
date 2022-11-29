@@ -1,4 +1,4 @@
-public class ESPCanvas : MonoBehaviour // TypeDefIndex: 13776
+public class ESPCanvas : MonoBehaviour // TypeDefIndex: 13807
 {
 	[TooltipAttribute] 
 	public int MaxElements; 

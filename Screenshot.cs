@@ -1,10 +1,10 @@
-public struct Screenshot // TypeDefIndex: 5560
+public struct Screenshot // TypeDefIndex: 5562
 {
 	internal ScreenshotHandle Value; 
 
 }
 
-public class Screenshot : SingletonComponent<Screenshot> // TypeDefIndex: 13107
+public class Screenshot : SingletonComponent<Screenshot> // TypeDefIndex: 13137
 {
 	public string screenshotPath; 
 	public int sizeMultiplier; 
@@ -43,7 +43,7 @@ public class Screenshot : SingletonComponent<Screenshot> // TypeDefIndex: 13107
 
 }
 
-private sealed class Screenshot.<SaveScreenshot>d__9 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13108
+private sealed class Screenshot.<SaveScreenshot>d__9 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13138
 {
 	private int <>1__state; 
 	private object <>2__current; 
@@ -80,7 +80,7 @@ private sealed class Screenshot.<SaveScreenshot>d__9 : IEnumerator<object>, IEnu
 
 }
 
-private sealed class Screenshot.<GetScreen>d__11 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13109
+private sealed class Screenshot.<GetScreen>d__11 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13139
 {
 	private int <>1__state; 
 	private object <>2__current; 

@@ -1,4 +1,4 @@
-public class SideObject : ScriptableObject // TypeDefIndex: 7198
+public class SideObject : ScriptableObject // TypeDefIndex: 7201
 {
 	public string version; 
 	public string name; 

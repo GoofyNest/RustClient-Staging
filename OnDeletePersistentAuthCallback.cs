@@ -1,4 +1,4 @@
-public sealed class OnDeletePersistentAuthCallback : MulticastDelegate // TypeDefIndex: 9674
+public sealed class OnDeletePersistentAuthCallback : MulticastDelegate // TypeDefIndex: 9680
 {
 
 	public void .ctor(object object, IntPtr method) { }

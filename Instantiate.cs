@@ -1,4 +1,4 @@
-public static class Instantiate // TypeDefIndex: 6606
+public static class Instantiate // TypeDefIndex: 6609
 {
 
 	public static GameObject GameObject(GameObject go, Transform parent) { }

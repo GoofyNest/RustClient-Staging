@@ -1,4 +1,4 @@
-public class BucketVMFluidSim : MonoBehaviour // TypeDefIndex: 11057
+public class BucketVMFluidSim : MonoBehaviour // TypeDefIndex: 11067
 {
 	public Animator waterbucketAnim; 
 	public ParticleSystem waterPour; 

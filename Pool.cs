@@ -1,4 +1,4 @@
-public static class Pool // TypeDefIndex: 4839
+public static class Pool // TypeDefIndex: 4841
 {
 	public static Dictionary<Type, Pool.ICollection> directory; 
 
@@ -66,6 +66,7 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.FreeList<ArcadeGame.arcadeEnt>
 	|-Pool.FreeList<ArcadeMachine.ScoreEntry>
 	|-Pool.FreeList<BaseVehicle.MountPoint>
+	|-Pool.FreeList<CardGame.BlackjackCardPlayer>
 	|-Pool.FreeList<CardGame.CardPlayer>
 	|-Pool.FreeList<CardGame.RoundResults.Result>
 	|-Pool.FreeList<ClientReady.ClientInfo>
@@ -297,6 +298,7 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.Free<BuildingPrivilege>
 	|-Pool.Free<CamperModule>
 	|-Pool.Free<CardGame.Blackjack>
+	|-Pool.Free<CardGame.BlackjackCardPlayer>
 	|-Pool.Free<CardGame.CardList>
 	|-Pool.Free<CardGame.CardPlayer>
 	|-Pool.Free<CardGame.RoundResults.Result>
@@ -615,6 +617,7 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.Get<BuildingPrivilege>
 	|-Pool.Get<CamperModule>
 	|-Pool.Get<CardGame.Blackjack>
+	|-Pool.Get<CardGame.BlackjackCardPlayer>
 	|-Pool.Get<CardGame.CardList>
 	|-Pool.Get<CardGame.CardPlayer>
 	|-Pool.Get<CardGame.RoundResults.Result>
@@ -842,6 +845,7 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.Get<List<ArcadeGame.arcadeEnt>>
 	|-Pool.Get<List<ArcadeMachine.ScoreEntry>>
 	|-Pool.Get<List<BaseVehicle.MountPoint>>
+	|-Pool.Get<List<CardGame.BlackjackCardPlayer>>
 	|-Pool.Get<List<CardGame.CardPlayer>>
 	|-Pool.Get<List<CardGame.RoundResults.Result>>
 	|-Pool.Get<List<ClientReady.ClientInfo>>
@@ -970,6 +974,7 @@ public static class Pool // TypeDefIndex: 4839
 	|-Pool.GetList<ArcadeGame.arcadeEnt>
 	|-Pool.GetList<ArcadeMachine.ScoreEntry>
 	|-Pool.GetList<BaseVehicle.MountPoint>
+	|-Pool.GetList<CardGame.BlackjackCardPlayer>
 	|-Pool.GetList<CardGame.CardPlayer>
 	|-Pool.GetList<CardGame.RoundResults.Result>
 	|-Pool.GetList<ClientReady.ClientInfo>
@@ -1148,7 +1153,7 @@ public static class Pool // TypeDefIndex: 4839
 
 }
 
-public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4842
+public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4844
 {
 	public T[] buffer; 
 	[CompilerGeneratedAttribute] 
@@ -1265,7 +1270,7 @@ public class Pool.PoolCollection<T> : Pool.ICollection // TypeDefIndex: 4842
 
 }
 
-public class Pool : ConsoleSystem // TypeDefIndex: 13725
+public class Pool : ConsoleSystem // TypeDefIndex: 13756
 {
 	[ServerVar] 
 	[ClientVar] 
@@ -1315,7 +1320,7 @@ public class Pool : ConsoleSystem // TypeDefIndex: 13725
 
 }
 
-private sealed class Pool.<>c // TypeDefIndex: 13726
+private sealed class Pool.<>c // TypeDefIndex: 13757
 {
 	public static readonly Pool.<>c <>9; 
 	public static Func<KeyValuePair<Type, Pool.ICollection>, long> <>9__4_0; 
@@ -1325,7 +1330,7 @@ private sealed class Pool.<>c // TypeDefIndex: 13726
 
 	public void .ctor() { }
 
-	internal long <print_memory>b__4_0(KeyValuePair<Type, Pool.ICollection> x) { }
+	internal long <print_memory>
 
 }
 

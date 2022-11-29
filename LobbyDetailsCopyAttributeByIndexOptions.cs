@@ -1,4 +1,4 @@
-public struct LobbyDetailsCopyAttributeByIndexOptions // TypeDefIndex: 9125
+public struct LobbyDetailsCopyAttributeByIndexOptions // TypeDefIndex: 9131
 {
 	[CompilerGeneratedAttribute] 
 	private uint <AttrIndex>k__BackingField; 

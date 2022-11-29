@@ -1,4 +1,4 @@
-public class AddToHeightMap : ProceduralObject // TypeDefIndex: 12311
+public class AddToHeightMap : ProceduralObject // TypeDefIndex: 12323
 {
 	public bool DestroyGameObject; 
 

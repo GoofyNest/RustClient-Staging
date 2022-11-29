@@ -1,4 +1,4 @@
-public class SeedInformationPanel : ItemInformationPanel // TypeDefIndex: 12817
+public class SeedInformationPanel : ItemInformationPanel // TypeDefIndex: 12836
 {
 	public ItemTextValue maxHarvestsDisplay; 
 	public UIGenesDisplay GeneticsDisplay; 

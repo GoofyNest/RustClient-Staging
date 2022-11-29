@@ -1,4 +1,4 @@
-public class SlotMachineLootPanel : LootPanel // TypeDefIndex: 10464
+public class SlotMachineLootPanel : LootPanel // TypeDefIndex: 10472
 {
 	public Text spinsRemainingText; 
 	public Text multiplierText; 

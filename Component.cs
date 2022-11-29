@@ -41,7 +41,7 @@ public class Component : MarshalByRefObject, IComponent, IDisposable // TypeDefI
 
 }
 
-public class Component : Object // TypeDefIndex: 3510
+public class Component : Object // TypeDefIndex: 3511
 {
 	public Transform transform { get; }
 	public GameObject gameObject { get; }
@@ -193,6 +193,7 @@ public class Component : Object // TypeDefIndex: 3510
 	|-Component.GetComponent<PlayerModifiers>
 	|-Component.GetComponent<PlayerVoiceRecorder>
 	|-Component.GetComponent<PlayerVoiceSpeaker>
+	|-Component.GetComponent<PlayingCardSprite>
 	|-Component.GetComponent<PlayingCardsViewmodel>
 	|-Component.GetComponent<PostOpaqueDepth>
 	|-Component.GetComponent<PowerLineWireConnectionHelper>
@@ -253,7 +254,6 @@ public class Component : Object // TypeDefIndex: 3510
 	|-Component.GetComponent<TreadAnimator>
 	|-Component.GetComponent<TriggerLadder>
 	|-Component.GetComponent<UIEscapeCapture>
-	|-Component.GetComponent<Animation>
 	|-Component.GetComponent<Animator>
 	|-Component.GetComponent<AudioSource>
 	|-Component.GetComponent<BoxCollider>
@@ -364,6 +364,7 @@ public class Component : Object // TypeDefIndex: 3510
 	|-Component.TryGetComponent<MeshFilter>
 	|-Component.TryGetComponent<ParticleSystem>
 	|-Component.TryGetComponent<Renderer>
+	|-Component.TryGetComponent<Shadow>
 	|-Component.TryGetComponent<ViewModel>
 	|-Component.TryGetComponent<WaterBody>
 	|-Component.TryGetComponent<WearableEyeViewAdjustment>
@@ -512,6 +513,7 @@ public class Component : Object // TypeDefIndex: 3510
 	|-Component.GetComponentsInChildren<HitNumber>
 	|-Component.GetComponentsInChildren<ItemIcon>
 	|-Component.GetComponentsInChildren<ItemTextValue>
+	|-Component.GetComponentsInChildren<ModularCarCodeLockVisuals>
 	|-Component.GetComponentsInChildren<PathInterestNode>
 	|-Component.GetComponentsInChildren<PathSpeedZone>
 	|-Component.GetComponentsInChildren<NetGraphItem>

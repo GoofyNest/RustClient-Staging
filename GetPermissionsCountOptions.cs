@@ -1,4 +1,4 @@
-public struct GetPermissionsCountOptions // TypeDefIndex: 9326
+public struct GetPermissionsCountOptions // TypeDefIndex: 9332
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

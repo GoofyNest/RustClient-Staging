@@ -1,4 +1,4 @@
-public class MessageEventArgs // TypeDefIndex: 3790
+public class MessageEventArgs // TypeDefIndex: 3791
 {
 
 [RequiredByNativeCodeAttribute] 
@@ -156,8 +156,8 @@ public struct FixedUpdate.ScriptRunDelayedFixedFrameRate
 [RequiredByNativeCodeAttribute] 
 public struct FixedUpdate.NewInputFixedUpdate
 
-[MovedFromAttribute] 
 [RequiredByNativeCodeAttribute] 
+[MovedFromAttribute] 
 public struct PreUpdate
 
 [RequiredByNativeCodeAttribute] 
@@ -203,8 +203,8 @@ public struct Update.ScriptRunDelayedDynamicFrameRate
 [RequiredByNativeCodeAttribute] 
 public struct Update.ScriptRunDelayedTasks
 
-[MovedFromAttribute] 
 [RequiredByNativeCodeAttribute] 
+[MovedFromAttribute] 
 public struct PreLateUpdate
 
 [RequiredByNativeCodeAttribute] 

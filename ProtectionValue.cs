@@ -1,4 +1,4 @@
-public class ProtectionValue : MonoBehaviour, IClothingChanged // TypeDefIndex: 12811
+public class ProtectionValue : MonoBehaviour, IClothingChanged // TypeDefIndex: 12830
 {
 	public CanvasGroup group; 
 	public TextMeshProUGUI text; 

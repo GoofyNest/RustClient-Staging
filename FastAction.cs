@@ -1,4 +1,4 @@
-public class FastAction // TypeDefIndex: 6674
+public class FastAction // TypeDefIndex: 6677
 {
 
 public class FastAction

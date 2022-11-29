@@ -1,4 +1,4 @@
-public class TerrainTopologyMap : TerrainMap<int> // TypeDefIndex: 12162
+public class TerrainTopologyMap : TerrainMap<int> // TypeDefIndex: 12173
 {
 	public Texture2D TopologyTexture; 
 
@@ -57,7 +57,7 @@ public class TerrainTopologyMap : TerrainMap<int> // TypeDefIndex: 12162
 
 }
 
-private sealed class TerrainTopologyMap.<>c__DisplayClass2_0 // TypeDefIndex: 12163
+private sealed class TerrainTopologyMap.<>c__DisplayClass2_0 // TypeDefIndex: 12174
 {
 	public Color32[] col; 
 	public TerrainTopologyMap <>4__this; 
@@ -65,11 +65,11 @@ private sealed class TerrainTopologyMap.<>c__DisplayClass2_0 // TypeDefIndex: 12
 
 	public void .ctor() { }
 
-	internal void <GenerateTextures>b__0(int z) { }
+	internal void <GenerateTextures>
 
 }
 
-private sealed class TerrainTopologyMap.<>c__DisplayClass23_0 // TypeDefIndex: 12164
+private sealed class TerrainTopologyMap.<>c__DisplayClass23_0 // TypeDefIndex: 12175
 {
 	public TerrainTopologyMap <>4__this; 
 	public int mask; 
@@ -77,11 +77,11 @@ private sealed class TerrainTopologyMap.<>c__DisplayClass23_0 // TypeDefIndex: 1
 
 	public void .ctor() { }
 
-	internal void <SetTopology>b__0(int x, int z, float lerp) { }
+	internal void <SetTopology>
 
 }
 
-private sealed class TerrainTopologyMap.<>c__DisplayClass25_0 // TypeDefIndex: 12165
+private sealed class TerrainTopologyMap.<>c__DisplayClass25_0 // TypeDefIndex: 12176
 {
 	public TerrainTopologyMap <>4__this; 
 	public int mask; 
@@ -89,7 +89,7 @@ private sealed class TerrainTopologyMap.<>c__DisplayClass25_0 // TypeDefIndex: 1
 
 	public void .ctor() { }
 
-	internal void <AddTopology>b__0(int x, int z, float lerp) { }
+	internal void <AddTopology>
 
 }
 

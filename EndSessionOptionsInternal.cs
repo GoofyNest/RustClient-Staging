@@ -1,4 +1,4 @@
-internal struct EndSessionOptionsInternal : ISettable<EndSessionOptions>, IDisposable // TypeDefIndex: 8483
+internal struct EndSessionOptionsInternal : ISettable<EndSessionOptions>, IDisposable // TypeDefIndex: 8489
 {
 	private int m_ApiVersion; 
 	private IntPtr m_SessionName; 
@@ -16,7 +16,7 @@ internal struct EndSessionOptionsInternal : ISettable<EndSessionOptions>, IDispo
 
 }
 
-internal struct EndSessionOptionsInternal : ISettable<EndSessionOptions>, IDisposable // TypeDefIndex: 9722
+internal struct EndSessionOptionsInternal : ISettable<EndSessionOptions>, IDisposable // TypeDefIndex: 9728
 {
 
 internal struct EndSessionOptionsInternal : ISettable<EndSessionOptions>, IDisposable
@@ -31,7 +31,7 @@ internal struct EndSessionOptionsInternal : ISettable<EndSessionOptions>, IDispo
 
 }
 
-internal struct EndSessionOptionsInternal : ISettable<EndSessionOptions>, IDisposable // TypeDefIndex: 9819
+internal struct EndSessionOptionsInternal : ISettable<EndSessionOptions>, IDisposable // TypeDefIndex: 9825
 {
 
 internal struct EndSessionOptionsInternal : ISettable<EndSessionOptions>, IDisposable

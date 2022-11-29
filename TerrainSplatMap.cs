@@ -1,4 +1,4 @@
-public class TerrainSplatMap : TerrainMap<byte> // TypeDefIndex: 12157
+public class TerrainSplatMap : TerrainMap<byte> // TypeDefIndex: 12168
 {
 	public Texture2D SplatTexture0; 
 	public Texture2D SplatTexture1; 
@@ -63,7 +63,7 @@ public class TerrainSplatMap : TerrainMap<byte> // TypeDefIndex: 12157
 
 }
 
-private sealed class TerrainSplatMap.<>c__DisplayClass4_0 // TypeDefIndex: 12158
+private sealed class TerrainSplatMap.<>c__DisplayClass4_0 // TypeDefIndex: 12169
 {
 	public Color32[] cols; 
 	public TerrainSplatMap <>4__this; 
@@ -71,11 +71,11 @@ private sealed class TerrainSplatMap.<>c__DisplayClass4_0 // TypeDefIndex: 12158
 
 	public void .ctor() { }
 
-	internal void <GenerateTextures>b__0(int z) { }
+	internal void <GenerateTextures>
 
 }
 
-private sealed class TerrainSplatMap.<>c__DisplayClass4_1 // TypeDefIndex: 12159
+private sealed class TerrainSplatMap.<>c__DisplayClass4_1 // TypeDefIndex: 12170
 {
 	public Color32[] cols; 
 	public TerrainSplatMap <>4__this; 
@@ -83,11 +83,11 @@ private sealed class TerrainSplatMap.<>c__DisplayClass4_1 // TypeDefIndex: 12159
 
 	public void .ctor() { }
 
-	internal void <GenerateTextures>b__1(int z) { }
+	internal void <GenerateTextures>
 
 }
 
-private sealed class TerrainSplatMap.<>c__DisplayClass26_0 // TypeDefIndex: 12160
+private sealed class TerrainSplatMap.<>c__DisplayClass26_0 // TypeDefIndex: 12171
 {
 	public TerrainSplatMap <>4__this; 
 	public int idx; 
@@ -97,11 +97,11 @@ private sealed class TerrainSplatMap.<>c__DisplayClass26_0 // TypeDefIndex: 1216
 
 	public void .ctor() { }
 
-	internal void <SetSplat>b__0(int x, int z, float lerp) { }
+	internal void <SetSplat>
 
 }
 
-private sealed class TerrainSplatMap.<>c__DisplayClass28_0 // TypeDefIndex: 12161
+private sealed class TerrainSplatMap.<>c__DisplayClass28_0 // TypeDefIndex: 12172
 {
 	public TerrainSplatMap <>4__this; 
 	public int idx; 
@@ -111,7 +111,7 @@ private sealed class TerrainSplatMap.<>c__DisplayClass28_0 // TypeDefIndex: 1216
 
 	public void .ctor() { }
 
-	internal void <AddSplat>b__0(int x, int z, float lerp) { }
+	internal void <AddSplat>
 
 }
 

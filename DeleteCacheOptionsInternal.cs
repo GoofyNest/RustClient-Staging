@@ -1,4 +1,4 @@
-internal struct DeleteCacheOptionsInternal : ISettable<DeleteCacheOptions>, IDisposable // TypeDefIndex: 8384
+internal struct DeleteCacheOptionsInternal : ISettable<DeleteCacheOptions>, IDisposable // TypeDefIndex: 8390
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 
@@ -16,7 +16,7 @@ internal struct DeleteCacheOptionsInternal : ISettable<DeleteCacheOptions>, IDis
 
 }
 
-internal struct DeleteCacheOptionsInternal : ISettable<DeleteCacheOptions>, IDisposable // TypeDefIndex: 8869
+internal struct DeleteCacheOptionsInternal : ISettable<DeleteCacheOptions>, IDisposable // TypeDefIndex: 8875
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

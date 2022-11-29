@@ -1,4 +1,4 @@
-public sealed class ChromaticAberration : PostProcessEffectSettings // TypeDefIndex: 13541
+public sealed class ChromaticAberration : PostProcessEffectSettings // TypeDefIndex: 13572
 {
 	[TooltipAttribute] 
 	public TextureParameter spectralLut; 

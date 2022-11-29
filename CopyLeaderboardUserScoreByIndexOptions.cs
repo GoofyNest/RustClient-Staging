@@ -1,4 +1,4 @@
-public struct CopyLeaderboardUserScoreByIndexOptions // TypeDefIndex: 9278
+public struct CopyLeaderboardUserScoreByIndexOptions // TypeDefIndex: 9284
 {
 	[CompilerGeneratedAttribute] 
 	private uint <LeaderboardUserScoreIndex>k__BackingField; 

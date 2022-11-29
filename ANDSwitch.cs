@@ -1,4 +1,4 @@
-public class ANDSwitch : IOEntity // TypeDefIndex: 11522
+public class ANDSwitch : IOEntity // TypeDefIndex: 11533
 {
 	private int input1Amount; 
 	private int input2Amount; 

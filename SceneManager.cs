@@ -1,4 +1,4 @@
-public class SceneManager // TypeDefIndex: 3658
+public class SceneManager // TypeDefIndex: 3659
 {
 	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
@@ -6,16 +6,16 @@ public class SceneManager // TypeDefIndex: 3658
 	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
 	private static UnityAction<Scene> sceneUnloaded; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private static UnityAction<Scene, Scene> activeSceneChanged; 
 
 	public static int sceneCount { get; }
 
 
 	[NativeHeaderAttribute] 
-	[StaticAccessorAttribute] 
 	[NativeMethodAttribute] 
+	[StaticAccessorAttribute] 
 	public static int get_sceneCount() { }
 
 	[StaticAccessorAttribute] 
@@ -24,8 +24,8 @@ public class SceneManager // TypeDefIndex: 3658
 	[StaticAccessorAttribute] 
 	public static Scene GetSceneByName(string name) { }
 
-	[NativeThrowsAttribute] 
 	[StaticAccessorAttribute] 
+	[NativeThrowsAttribute] 
 	public static Scene GetSceneAt(int index) { }
 
 	[NativeThrowsAttribute] 

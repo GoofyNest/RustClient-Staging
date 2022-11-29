@@ -1,4 +1,4 @@
-public class BaseViewModel : MonoBehaviour // TypeDefIndex: 13206
+public class BaseViewModel : MonoBehaviour // TypeDefIndex: 13237
 {
 	public static bool HideViewmodel; 
 	public static BaseViewModel GestureModel; 
@@ -27,6 +27,7 @@ public class BaseViewModel : MonoBehaviour // TypeDefIndex: 13206
 	internal static bool gestureHide; 
 	internal static TimeSince gestureHideTime; 
 	private static GestureCollection gestureCollection; 
+	internal static GameObject aimHelperRoot; 
 	private Skeleton Skeleton; 
 	private GameObject Clothing; 
 	private bool workshopMode; 

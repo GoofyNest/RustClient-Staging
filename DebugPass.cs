@@ -1,4 +1,4 @@
-public enum DebugPass // TypeDefIndex: 13335
+public enum DebugPass // TypeDefIndex: 13366
 {
 	public int value__; 
 	public const DebugPass Off = 0;

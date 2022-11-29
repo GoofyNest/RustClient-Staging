@@ -1,4 +1,4 @@
-public class TextureColorPicker : MonoBehaviour, IPointerDownHandler, IEventSystemHandler, IDragHandler // TypeDefIndex: 10965
+public class TextureColorPicker : MonoBehaviour, IPointerDownHandler, IEventSystemHandler, IDragHandler // TypeDefIndex: 10975
 {
 	public Texture2D texture; 
 	public TextureColorPicker.onColorSelectedEvent onColorSelected; 
@@ -12,7 +12,7 @@ public class TextureColorPicker : MonoBehaviour, IPointerDownHandler, IEventSyst
 
 }
 
-public class TextureColorPicker.onColorSelectedEvent : UnityEvent<Color> // TypeDefIndex: 10966
+public class TextureColorPicker.onColorSelectedEvent : UnityEvent<Color> // TypeDefIndex: 10976
 {
 
 	public void .ctor() { }

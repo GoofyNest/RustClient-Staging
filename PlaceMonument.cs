@@ -1,4 +1,4 @@
-public class PlaceMonument : ProceduralComponent // TypeDefIndex: 12279
+public class PlaceMonument : ProceduralComponent // TypeDefIndex: 12291
 {
 	public SpawnFilter Filter; 
 	public GameObjectRef Monument; 
@@ -11,7 +11,7 @@ public class PlaceMonument : ProceduralComponent // TypeDefIndex: 12279
 
 }
 
-private struct PlaceMonument.SpawnInfo // TypeDefIndex: 12280
+private struct PlaceMonument.SpawnInfo // TypeDefIndex: 12292
 {
 	public Prefab prefab; 
 	public Vector3 position; 

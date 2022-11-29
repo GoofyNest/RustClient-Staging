@@ -1,4 +1,4 @@
-public class Explosion_Bloom : MonoBehaviour // TypeDefIndex: 13260
+public class Explosion_Bloom : MonoBehaviour // TypeDefIndex: 13291
 {
 	[SerializeField] 
 	public Explosion_Bloom.Settings settings; 
@@ -43,7 +43,7 @@ public class Explosion_Bloom : MonoBehaviour // TypeDefIndex: 13260
 
 }
 
-public struct Explosion_Bloom.Settings // TypeDefIndex: 13261
+public struct Explosion_Bloom.Settings // TypeDefIndex: 13292
 {
 	[SerializeField] 
 	[TooltipAttribute] 
@@ -83,7 +83,7 @@ public struct Explosion_Bloom.Settings // TypeDefIndex: 13261
 
 }
 
-public class ExplosionDemoGUI : MonoBehaviour // TypeDefIndex: 13262
+public class ExplosionDemoGUI : MonoBehaviour // TypeDefIndex: 13293
 {
 	public GameObject[] Prefabs; 
 	public float reactivateTime; 
@@ -105,7 +105,7 @@ public class ExplosionDemoGUI : MonoBehaviour // TypeDefIndex: 13262
 
 }
 
-public class ExplosionDemoReactivator : MonoBehaviour // TypeDefIndex: 13263
+public class ExplosionDemoReactivator : MonoBehaviour // TypeDefIndex: 13294
 {
 	public float TimeDelayToReactivate; 
 
@@ -118,7 +118,7 @@ public class ExplosionDemoReactivator : MonoBehaviour // TypeDefIndex: 13263
 
 }
 
-public class ExplosionPlatformActivator : MonoBehaviour // TypeDefIndex: 13264
+public class ExplosionPlatformActivator : MonoBehaviour // TypeDefIndex: 13295
 {
 	public GameObject Effect; 
 	public float TimeDelay; 
@@ -143,7 +143,7 @@ public class ExplosionPlatformActivator : MonoBehaviour // TypeDefIndex: 13264
 
 }
 
-public class ExplosionsFPS : MonoBehaviour // TypeDefIndex: 13265
+public class ExplosionsFPS : MonoBehaviour // TypeDefIndex: 13296
 {
 	private readonly GUIStyle guiStyleHeader; 
 	private float timeleft; 
@@ -161,7 +161,7 @@ public class ExplosionsFPS : MonoBehaviour // TypeDefIndex: 13265
 
 }
 
-public class ExplosionsBillboard : MonoBehaviour // TypeDefIndex: 13266
+public class ExplosionsBillboard : MonoBehaviour // TypeDefIndex: 13297
 {
 	public Camera Camera; 
 	public bool Active; 
@@ -180,7 +180,7 @@ public class ExplosionsBillboard : MonoBehaviour // TypeDefIndex: 13266
 
 }
 
-public class ExplosionsDeactivateRendererByTime : MonoBehaviour // TypeDefIndex: 13267
+public class ExplosionsDeactivateRendererByTime : MonoBehaviour // TypeDefIndex: 13298
 {
 	public float TimeDelay; 
 	private Renderer rend; 
@@ -196,7 +196,7 @@ public class ExplosionsDeactivateRendererByTime : MonoBehaviour // TypeDefIndex:
 
 }
 
-public class ExplosionsLightCurves : MonoBehaviour // TypeDefIndex: 13268
+public class ExplosionsLightCurves : MonoBehaviour // TypeDefIndex: 13299
 {
 	public AnimationCurve LightCurve; 
 	public float GraphTimeMultiplier; 
@@ -216,7 +216,7 @@ public class ExplosionsLightCurves : MonoBehaviour // TypeDefIndex: 13268
 
 }
 
-public class ExplosionsParticleSystemScaler : MonoBehaviour // TypeDefIndex: 13269
+public class ExplosionsParticleSystemScaler : MonoBehaviour // TypeDefIndex: 13300
 {
 	public float particlesScale; 
 
@@ -229,7 +229,7 @@ public class ExplosionsParticleSystemScaler : MonoBehaviour // TypeDefIndex: 132
 
 }
 
-public class ExplosionsScaleCurves : MonoBehaviour // TypeDefIndex: 13270
+public class ExplosionsScaleCurves : MonoBehaviour // TypeDefIndex: 13301
 {
 	public AnimationCurve ScaleCurveX; 
 	public AnimationCurve ScaleCurveY; 
@@ -253,7 +253,7 @@ public class ExplosionsScaleCurves : MonoBehaviour // TypeDefIndex: 13270
 
 }
 
-public class ExplosionsShaderColorGradient : MonoBehaviour // TypeDefIndex: 13271
+public class ExplosionsShaderColorGradient : MonoBehaviour // TypeDefIndex: 13302
 {
 	public string ShaderProperty; 
 	public int MaterialID; 
@@ -276,7 +276,7 @@ public class ExplosionsShaderColorGradient : MonoBehaviour // TypeDefIndex: 1327
 
 }
 
-public class ExplosionsShaderFloatCurves : MonoBehaviour // TypeDefIndex: 13272
+public class ExplosionsShaderFloatCurves : MonoBehaviour // TypeDefIndex: 13303
 {
 	public string ShaderProperty; 
 	public int MaterialID; 
@@ -299,7 +299,7 @@ public class ExplosionsShaderFloatCurves : MonoBehaviour // TypeDefIndex: 13272
 
 }
 
-public class ExplosionsShaderQueue : MonoBehaviour // TypeDefIndex: 13273
+public class ExplosionsShaderQueue : MonoBehaviour // TypeDefIndex: 13304
 {
 	public int AddQueue; 
 	private Renderer rend; 
@@ -315,7 +315,7 @@ public class ExplosionsShaderQueue : MonoBehaviour // TypeDefIndex: 13273
 
 }
 
-internal class ExplosionsSpriteSheetAnimation : MonoBehaviour // TypeDefIndex: 13274
+internal class ExplosionsSpriteSheetAnimation : MonoBehaviour // TypeDefIndex: 13305
 {
 	public int TilesX; 
 	public int TilesY; 
@@ -364,7 +364,7 @@ internal class ExplosionsSpriteSheetAnimation : MonoBehaviour // TypeDefIndex: 1
 
 }
 
-private sealed class ExplosionsSpriteSheetAnimation.<UpdateCorutine>d__26 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13275
+private sealed class ExplosionsSpriteSheetAnimation.<UpdateCorutine>d__26 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 13306
 {
 	private int <>1__state; 
 	private object <>2__current; 

@@ -1,4 +1,4 @@
-public class ElectricalBlocker : IOEntity // TypeDefIndex: 10423
+public class ElectricalBlocker : IOEntity // TypeDefIndex: 10431
 {
 
 	public void .ctor() { }

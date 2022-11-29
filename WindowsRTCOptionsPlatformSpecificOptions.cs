@@ -1,4 +1,4 @@
-public struct WindowsRTCOptionsPlatformSpecificOptions // TypeDefIndex: 9880
+public struct WindowsRTCOptionsPlatformSpecificOptions // TypeDefIndex: 9886
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <XAudio29DllPath>k__BackingField; 

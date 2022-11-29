@@ -1,4 +1,4 @@
-public class TerrainPathConnect : MonoBehaviour // TypeDefIndex: 12108
+public class TerrainPathConnect : MonoBehaviour // TypeDefIndex: 12119
 {
 	public InfrastructureType Type; 
 

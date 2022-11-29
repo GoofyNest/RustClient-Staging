@@ -1,4 +1,4 @@
-public class NoteBindingCollection : ScriptableObject // TypeDefIndex: 11290
+public class NoteBindingCollection : ScriptableObject // TypeDefIndex: 11300
 {
 	public NoteBindingCollection.NoteData[] BaseBindings; 
 	public float MinimumNoteTime; 
@@ -28,17 +28,22 @@ public class NoteBindingCollection : ScriptableObject // TypeDefIndex: 11290
 	public float CrossfadePlayerSpeedMulti; 
 	public int DefaultOctave; 
 	public int ShiftedOctave; 
+	public bool UseClosestMidiNote; 
+	private const float MidiNoteUpOctaveShift = 2;
+	private const float MidiNoteDownOctaveShift = 0,1;
 
 
 	public bool FindNoteData(Notes note, int octave, InstrumentKeyController.NoteType type, out NoteBindingCollection.NoteData data, out int noteIndex) { }
 
 	public bool FindNoteDataIndex(Notes note, int octave, InstrumentKeyController.NoteType type, out int noteIndex) { }
 
+	public NoteBindingCollection.NoteData CreateMidiBinding(NoteBindingCollection.NoteData basedOn, int octave, int midiCode) { }
+
 	public void .ctor() { }
 
 }
 
-public struct NoteBindingCollection.NoteData // TypeDefIndex: 11291
+public struct NoteBindingCollection.NoteData // TypeDefIndex: 11301
 {
 	public SoundDefinition NoteSound; 
 	public SoundDefinition NoteStartSound; 
@@ -50,7 +55,11 @@ public struct NoteBindingCollection.NoteData // TypeDefIndex: 11291
 	public InstrumentKeyController.IKNoteTarget NoteIKTarget; 
 	public InstrumentKeyController.AnimationSlot AnimationSlot; 
 	public int NoteSoundPositionTarget; 
+	public int[] AdditionalMidiTargets; 
+	public float PitchOffset; 
 
+
+	public bool MatchMidiCode(int code) { }
 
 	public string ToNoteString() { }
 

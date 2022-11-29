@@ -1,4 +1,4 @@
-public sealed class FloatParameter : ParameterOverride<float> // TypeDefIndex: 13596
+public sealed class FloatParameter : ParameterOverride<float> // TypeDefIndex: 13627
 {
 
 	public override void Interp(float from, float to, float t) { }

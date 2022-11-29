@@ -1,4 +1,4 @@
-public class DudTimedExplosive : TimedExplosive, IIgniteable, ISplashable // TypeDefIndex: 10096
+public class DudTimedExplosive : TimedExplosive, IIgniteable, ISplashable // TypeDefIndex: 10102
 {
 	private Option __menuOption_Menu_Pickup; 
 	public GameObjectRef fizzleEffect; 
@@ -8,6 +8,7 @@ public class DudTimedExplosive : TimedExplosive, IIgniteable, ISplashable // Typ
 	[ItemSelector] 
 	public ItemDefinition itemToGive; 
 	private float explodeTime; 
+	public bool becomeDudInWater; 
 
 	public override bool HasMenuOptions { get; }
 

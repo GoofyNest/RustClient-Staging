@@ -1,4 +1,4 @@
-internal struct QueryOwnershipTokenCallbackInfoInternal : ICallbackInfoInternal, IGettable<QueryOwnershipTokenCallbackInfo>, ISettable<QueryOwnershipTokenCallbackInfo>, IDisposable // TypeDefIndex: 9501
+internal struct QueryOwnershipTokenCallbackInfoInternal : ICallbackInfoInternal, IGettable<QueryOwnershipTokenCallbackInfo>, ISettable<QueryOwnershipTokenCallbackInfo>, IDisposable // TypeDefIndex: 9507
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

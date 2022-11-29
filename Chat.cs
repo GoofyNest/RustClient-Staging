@@ -1,4 +1,4 @@
-internal enum ChatEntryType // TypeDefIndex: 5143
+internal enum ChatEntryType // TypeDefIndex: 5145
 {
 	public int value__; 
 	public const ChatEntryType Invalid = 0;
@@ -16,7 +16,7 @@ internal enum ChatEntryType // TypeDefIndex: 5143
 
 }
 
-public class ChatEntry : MonoBehaviour // TypeDefIndex: 12575
+public class ChatEntry : MonoBehaviour // TypeDefIndex: 12594
 {
 	public TextMeshProUGUI text; 
 	public RawImage avatar; 
@@ -46,7 +46,7 @@ public class ChatEntry : MonoBehaviour // TypeDefIndex: 12575
 
 }
 
-public class Chat : ConsoleSystem // TypeDefIndex: 13656
+public class Chat : ConsoleSystem // TypeDefIndex: 13687
 {
 	[ServerVar] 
 	public static float localChatRange; 
@@ -108,7 +108,7 @@ public class Chat : ConsoleSystem // TypeDefIndex: 13656
 
 }
 
-public enum Chat.ChatChannel // TypeDefIndex: 13657
+public enum Chat.ChatChannel // TypeDefIndex: 13688
 {
 	public int value__; 
 	public const Chat.ChatChannel Global = 0;
@@ -119,7 +119,7 @@ public enum Chat.ChatChannel // TypeDefIndex: 13657
 
 }
 
-public struct Chat.ChatEntry // TypeDefIndex: 13658
+public struct Chat.ChatEntry // TypeDefIndex: 13689
 {
 	[CompilerGeneratedAttribute] 
 	private Chat.ChatChannel <Channel>k__BackingField; 
@@ -180,7 +180,7 @@ public struct Chat.ChatEntry // TypeDefIndex: 13658
 
 }
 
-public struct Chat.MuteEntry // TypeDefIndex: 13659
+public struct Chat.MuteEntry // TypeDefIndex: 13690
 {
 	public ulong UserID; 
 	public string UserName; 
@@ -191,7 +191,7 @@ public struct Chat.MuteEntry // TypeDefIndex: 13659
 
 }
 
-public class Chat.MuteList // TypeDefIndex: 13660
+public class Chat.MuteList // TypeDefIndex: 13691
 {
 	private Dictionary<ulong, Chat.MuteEntry> entries; 
 
@@ -221,7 +221,7 @@ public class Chat.MuteList // TypeDefIndex: 13660
 
 }
 
-private sealed class Chat.<>c // TypeDefIndex: 13661
+private sealed class Chat.<>c // TypeDefIndex: 13692
 {
 	public static readonly Chat.<>c <>9; 
 	public static Action<UIChat> <>9__25_0; 
@@ -231,7 +231,7 @@ private sealed class Chat.<>c // TypeDefIndex: 13661
 
 	public void .ctor() { }
 
-	internal void <clear>b__25_0(UIChat chat) { }
+	internal void <clear>
 
 }
 

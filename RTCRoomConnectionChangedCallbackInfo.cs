@@ -1,4 +1,4 @@
-public struct RTCRoomConnectionChangedCallbackInfo : ICallbackInfo // TypeDefIndex: 9252
+public struct RTCRoomConnectionChangedCallbackInfo : ICallbackInfo // TypeDefIndex: 9258
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

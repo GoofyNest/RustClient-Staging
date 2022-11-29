@@ -1,4 +1,4 @@
-public class BaseBoat : BaseVehicle // TypeDefIndex: 10026
+public class BaseBoat : BaseVehicle // TypeDefIndex: 10032
 {
 	private Option __menuOption_Menu_Push; 
 	public float engineThrust; 
@@ -19,6 +19,8 @@ public class BaseBoat : BaseVehicle // TypeDefIndex: 10026
 	public bool InDryDock() { }
 
 	public override float MaxVelocity() { }
+
+	public override bool MountMenuVisible(BasePlayer player) { }
 
 	[BaseEntity.Menu] 
 	[BaseEntity.Menu.Description] 

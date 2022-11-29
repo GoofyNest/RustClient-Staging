@@ -1,4 +1,4 @@
-public class SprayCanViewmodel : MonoBehaviour, IAnimationEventReceiver // TypeDefIndex: 10603
+public class SprayCanViewmodel : MonoBehaviour, IAnimationEventReceiver // TypeDefIndex: 10611
 {
 	public ParticleSystem Particles; 
 	public SoundDefinition sprayLoopDef; 

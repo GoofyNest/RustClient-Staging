@@ -1,4 +1,4 @@
-public class BunkerEntrance : BaseEntity, IMissionEntityListener // TypeDefIndex: 10556
+public class BunkerEntrance : BaseEntity, IMissionEntityListener // TypeDefIndex: 10564
 {
 	public GameObjectRef portalPrefab; 
 	public GameObjectRef doorPrefab; 

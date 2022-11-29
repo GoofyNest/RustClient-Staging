@@ -1,4 +1,4 @@
-public class EZSoftBoneHitboxSystemCollider : EZSoftBoneColliderBase, IClientComponent // TypeDefIndex: 10987
+public class EZSoftBoneHitboxSystemCollider : EZSoftBoneColliderBase, IClientComponent // TypeDefIndex: 10997
 {
 	public float radius; 
 	private HitboxSystem hitboxSystem; 

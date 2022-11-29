@@ -1,4 +1,4 @@
-public static class DeveloperList // TypeDefIndex: 11033
+public static class DeveloperList // TypeDefIndex: 11043
 {
 
 	public static bool Contains(string steamid) { }
@@ -9,14 +9,14 @@ public static class DeveloperList // TypeDefIndex: 11033
 
 }
 
-private sealed class DeveloperList.<>c__DisplayClass0_0 // TypeDefIndex: 11034
+private sealed class DeveloperList.<>c__DisplayClass0_0 // TypeDefIndex: 11044
 {
 	public string steamid; 
 
 
 	public void .ctor() { }
 
-	internal bool <Contains>b__0(Manifest.Administrator x) { }
+	internal bool <Contains>
 
 }
 

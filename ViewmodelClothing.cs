@@ -1,4 +1,4 @@
-public class ViewmodelClothing : MonoBehaviour // TypeDefIndex: 13304
+public class ViewmodelClothing : MonoBehaviour // TypeDefIndex: 13335
 {
 	public SkeletonSkin[] SkeletonSkins; 
 
@@ -11,7 +11,7 @@ public class ViewmodelClothing : MonoBehaviour // TypeDefIndex: 13304
 
 }
 
-private sealed class ViewmodelClothing.<>c__DisplayClass1_0 // TypeDefIndex: 13305
+private sealed class ViewmodelClothing.<>c__DisplayClass1_0 // TypeDefIndex: 13336
 {
 	public Item item; 
 	public Func<ItemSkinDirectory.Skin, bool> <>9__0; 
@@ -19,7 +19,7 @@ private sealed class ViewmodelClothing.<>c__DisplayClass1_0 // TypeDefIndex: 133
 
 	public void .ctor() { }
 
-	internal bool <CopyToSkeleton>b__0(ItemSkinDirectory.Skin x) { }
+	internal bool <CopyToSkeleton>
 
 }
 

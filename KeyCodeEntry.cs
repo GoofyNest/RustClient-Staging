@@ -1,7 +1,8 @@
-public class KeyCodeEntry : UIDialog // TypeDefIndex: 12648
+public class KeyCodeEntry : UIDialog // TypeDefIndex: 12667
 {
 	public Text textDisplay; 
 	public Action<string> onCodeEntered; 
+	public Action onClosed; 
 	public Text typeDisplay; 
 	public Translate.Phrase masterCodePhrase; 
 	public Translate.Phrase guestCodePhrase; 
@@ -18,6 +19,8 @@ public class KeyCodeEntry : UIDialog // TypeDefIndex: 12648
 	protected override void OnEnable() { }
 
 	public void Cancel() { }
+
+	public override void CloseDialog() { }
 
 	public void ClearCode() { }
 
@@ -40,7 +43,7 @@ public class KeyCodeEntry : UIDialog // TypeDefIndex: 12648
 
 }
 
-private sealed class KeyCodeEntry.<ProcessLastNumberInput>d__17 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12649
+private sealed class KeyCodeEntry.<ProcessLastNumberInput>d__19 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 12668
 {
 	private int <>1__state; 
 	private object <>2__current; 

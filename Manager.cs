@@ -1,4 +1,4 @@
-public class Manager : IDisposable // TypeDefIndex: 6880
+public class Manager : IDisposable // TypeDefIndex: 6883
 {
 	private Dictionary<uint, Group> groups; 
 	internal Provider provider; 
@@ -26,7 +26,7 @@ public class Manager : IDisposable // TypeDefIndex: 6880
 
 }
 
-public static class Manager // TypeDefIndex: 7043
+public static class Manager // TypeDefIndex: 7046
 {
 	private static Dictionary<string, GameObject> Prefabs; 
 
@@ -59,7 +59,7 @@ public static class Manager // TypeDefIndex: 7043
 
 }
 
-public class Manager // TypeDefIndex: 7383
+public class Manager // TypeDefIndex: 7386
 {
 	private const string hex = "0123456789abcdef";
 	private static Manager manager; 

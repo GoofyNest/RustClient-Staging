@@ -1,4 +1,4 @@
-public class HelpAttribute : Attribute // TypeDefIndex: 6931
+public class HelpAttribute : Attribute // TypeDefIndex: 6934
 {
 	public string Help; 
 

@@ -1,33 +1,32 @@
-public abstract class CardGameController : IDisposable // TypeDefIndex: 13784
+public abstract class CardGameController : IDisposable // TypeDefIndex: 13815
 {
 	[CompilerGeneratedAttribute] 
 	private CardGameController.CardGameState <State>k__BackingField; 
 	[CompilerGeneratedAttribute] 
 	private CardPlayerData[] <PlayerData>k__BackingField; 
-	public const int IDLE_KICK_SECONDS = 600;
+	public const int IDLE_KICK_SECONDS = 240;
 	[CompilerGeneratedAttribute] 
 	private BaseCardGameEntity <Owner>k__BackingField; 
 	[CompilerGeneratedAttribute] 
 	private CardGame.RoundResults <resultInfo>k__BackingField; 
 	private CardGame.CardList localPlayerCards; 
-	private CardGame.CardList localPlayerPocketCards; 
 	protected int activePlayerIndex; 
 	public const int STD_RAISE_INCREMENTS = 5;
 	private CardGameSounds _sounds; 
-	[CompilerGeneratedAttribute] 
-	private TimeUntil <TimeUntilTurnEnds>k__BackingField; 
 	[CompilerGeneratedAttribute] 
 	private int <ClientScrapInPot>k__BackingField; 
 
 	public CardGameController.CardGameState State { get; set; }
 	public bool HasGameInProgress { get; }
-	public bool HasRoundInProgress { get; }
+	public bool HasRoundInProgressOrEnding { get; }
+	public bool HasActiveRound { get; }
 	public CardPlayerData[] PlayerData { get; set; }
 	public abstract int MinPlayers { get; }
 	public abstract int MinBuyIn { get; }
 	public abstract int MaxBuyIn { get; }
 	public abstract int MinToPlay { get; }
 	public virtual float MaxTurnTime { get; }
+	public virtual int EndRoundDelay { get; }
 	public virtual int TimeBetweenRounds { get; }
 	protected virtual float TimeBetweenTurns { get; }
 	protected BaseCardGameEntity Owner { get; set; }
@@ -37,7 +36,6 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13784
 	public CardGame.RoundResults resultInfo { get; set; }
 	private CardGameSounds Sounds { get; }
 	public bool GameWon { get; }
-	public TimeUntil TimeUntilTurnEnds { get; set; }
 	public int ClientScrapInPot { get; set; }
 
 
@@ -49,7 +47,9 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13784
 
 	public bool get_HasGameInProgress() { }
 
-	public bool get_HasRoundInProgress() { }
+	public bool get_HasRoundInProgressOrEnding() { }
+
+	public bool get_HasActiveRound() { }
 
 	[CompilerGeneratedAttribute] 
 	public CardPlayerData[] get_PlayerData() { }
@@ -66,6 +66,8 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13784
 	public abstract int get_MinToPlay();
 
 	public virtual float get_MaxTurnTime() { }
+
+	public virtual int get_EndRoundDelay() { }
 
 	public virtual int get_TimeBetweenRounds() { }
 
@@ -122,7 +124,7 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13784
 
 	public virtual List<PlayingCard> GetTableCards() { }
 
-	public void StartTurnTimer(float turnTime) { }
+	public void StartTurnTimer(CardPlayerData pData, float turnTime) { }
 
 	private bool IsAtTable(ulong userID) { }
 
@@ -138,15 +140,11 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13784
 
 	protected void ClearResultsInfo() { }
 
+	protected abstract CardPlayerData GetNewCardPlayerData(int mountIndex);
+
 	private CardGameSounds get_Sounds() { }
 
 	public bool get_GameWon() { }
-
-	[CompilerGeneratedAttribute] 
-	public TimeUntil get_TimeUntilTurnEnds() { }
-
-	[CompilerGeneratedAttribute] 
-	private void set_TimeUntilTurnEnds(TimeUntil value) { }
 
 	[CompilerGeneratedAttribute] 
 	public int get_ClientScrapInPot() { }
@@ -158,7 +156,7 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13784
 
 	public virtual void Load(CardGame syncData) { }
 
-	public void ReceiveCardsForLocalPlayer(CardGame.CardList cardList, CardGame.CardList cardList2) { }
+	public void ReceiveCardsForLocalPlayer(CardGame.CardList cardList) { }
 
 	private void CopyLocalPlayerCardData(bool clearIfNotInGame) { }
 
@@ -178,16 +176,17 @@ public abstract class CardGameController : IDisposable // TypeDefIndex: 13784
 
 }
 
-public enum CardGameController.CardGameState // TypeDefIndex: 13785
+public enum CardGameController.CardGameState // TypeDefIndex: 13816
 {
 	public int value__; 
 	public const CardGameController.CardGameState NotPlaying = 0;
 	public const CardGameController.CardGameState InGameBetweenRounds = 1;
 	public const CardGameController.CardGameState InGameRound = 2;
+	public const CardGameController.CardGameState InGameRoundEnding = 3;
 
 }
 
-public enum CardGameController.Playability // TypeDefIndex: 13786
+public enum CardGameController.Playability // TypeDefIndex: 13817
 {
 	public int value__; 
 	public const CardGameController.Playability OK = 0;
@@ -199,7 +198,7 @@ public enum CardGameController.Playability // TypeDefIndex: 13786
 
 }
 
-private sealed class CardGameController.<PlayersInRound>d__48 : IEnumerable<CardPlayerData>, IEnumerable, IEnumerator<CardPlayerData>, IEnumerator, IDisposable // TypeDefIndex: 13787
+private sealed class CardGameController.<PlayersInRound>d__51 : IEnumerable<CardPlayerData>, IEnumerable, IEnumerator<CardPlayerData>, IEnumerator, IDisposable // TypeDefIndex: 13818
 {
 	private int <>1__state; 
 	private CardPlayerData <>2__current; 
@@ -237,42 +236,39 @@ private sealed class CardGameController.<PlayersInRound>d__48 : IEnumerable<Card
 
 }
 
-private sealed class CardGameController.<>c__DisplayClass60_0 // TypeDefIndex: 13788
+private sealed class CardGameController.<>c__DisplayClass63_0 // TypeDefIndex: 13819
 {
 	public BasePlayer player; 
 
 
 	public void .ctor() { }
 
-	internal bool <PlayerIsInGame>b__0(CardPlayerData data) { }
+	internal bool <PlayerIsInGame>
 
 }
 
-private sealed class CardGameController.<>c__DisplayClass64_0 // TypeDefIndex: 13789
+private sealed class CardGameController.<>c__DisplayClass67_0 // TypeDefIndex: 13820
 {
 	public ulong userID; 
 
 
 	public void .ctor() { }
 
-	internal bool <IsAtTable>b__0(CardPlayerData data) { }
+	internal bool <IsAtTable>
 
 }
 
-private sealed class CardGameController.<>c // TypeDefIndex: 13790
+private sealed class CardGameController.<>c // TypeDefIndex: 13821
 {
 	public static readonly CardGameController.<>c <>9; 
 	public static Func<PlayingCard, bool> <>9__85_0; 
-	public static Func<PlayingCard, bool> <>9__85_1; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal bool <Load>b__85_0(PlayingCard c) { }
-
-	internal bool <Load>b__85_1(PlayingCard c) { }
+	internal bool <Load>
 
 }
 

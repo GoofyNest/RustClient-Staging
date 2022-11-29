@@ -1,4 +1,4 @@
-public class GenerateDungeonBase : ProceduralComponent // TypeDefIndex: 12200
+public class GenerateDungeonBase : ProceduralComponent // TypeDefIndex: 12211
 {
 	public string EntranceFolder; 
 	public string LinkFolder; 
@@ -54,7 +54,7 @@ public class GenerateDungeonBase : ProceduralComponent // TypeDefIndex: 12200
 
 }
 
-private class GenerateDungeonBase.DungeonSegment // TypeDefIndex: 12201
+private class GenerateDungeonBase.DungeonSegment // TypeDefIndex: 12212
 {
 	public Vector3 position; 
 	public Quaternion rotation; 
@@ -69,26 +69,40 @@ private class GenerateDungeonBase.DungeonSegment // TypeDefIndex: 12201
 
 }
 
-private sealed class GenerateDungeonBase.<>c__DisplayClass14_0 // TypeDefIndex: 12202
+private sealed class GenerateDungeonBase.<>c__DisplayClass14_0 // TypeDefIndex: 12213
 {
 	public GenerateDungeonBase.DungeonSegment segmentStart; 
 
 
 	public void .ctor() { }
 
-	internal float <Process>b__0(GenerateDungeonBase.DungeonSegment x) { }
+	internal float <Process>
 
 }
 
-private sealed class GenerateDungeonBase.<>c__DisplayClass14_1 // TypeDefIndex: 12203
+private sealed class GenerateDungeonBase.<>c__DisplayClass14_1 // TypeDefIndex: 12214
 {
 	public GenerateDungeonBase.DungeonSegment segmentEnd; 
-	public GenerateDungeonBase.<>c__DisplayClass14_0 CS$<>8__locals1; 
+	public GenerateDungeonBase.<>c
 
 
 	public void .ctor() { }
 
-	internal float <Process>b__1(GenerateDungeonBase.DungeonSegment x) { }
+	internal float <Process>
+
+}
+
+private sealed class GenerateDungeonBase.<>c // TypeDefIndex: 12215
+{
+	public static readonly GenerateDungeonBase.<>c <>9; 
+	public static Func<GenerateDungeonBase.DungeonSegment, bool> <>9__14_1; 
+
+
+	private static void .cctor() { }
+
+	public void .ctor() { }
+
+	internal bool <Process>
 
 }
 

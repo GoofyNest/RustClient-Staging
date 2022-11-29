@@ -1,4 +1,4 @@
-public class GameStat : MonoBehaviour // TypeDefIndex: 12684
+public class GameStat : MonoBehaviour // TypeDefIndex: 12703
 {
 	public float refreshTime; 
 	public Text title; 
@@ -27,11 +27,11 @@ public class GameStat : MonoBehaviour // TypeDefIndex: 12684
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private bool <Refresh>b__14_0(GameStat.Stat x) { }
+	private bool <Refresh>
 
 }
 
-public struct GameStat.Stat // TypeDefIndex: 12685
+public struct GameStat.Stat // TypeDefIndex: 12704
 {
 	public string statName; 
 	public string statTitle; 

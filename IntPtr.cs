@@ -12,8 +12,8 @@ public struct IntPtr : ISerializable // TypeDefIndex: 369
 	[ReliabilityContractAttribute] 
 	public void .ctor(long value) { }
 
-	[ReliabilityContractAttribute] 
 	[CLSCompliantAttribute] 
+	[ReliabilityContractAttribute] 
 	public void .ctor(void* value) { }
 
 	private void .ctor(SerializationInfo info, StreamingContext context) { }

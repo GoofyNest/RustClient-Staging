@@ -1,4 +1,4 @@
-public enum MidiFileFormat // TypeDefIndex: 7597
+public enum MidiFileFormat // TypeDefIndex: 7600
 {
 	public ushort value__; 
 	public const MidiFileFormat SingleTrack = 0;

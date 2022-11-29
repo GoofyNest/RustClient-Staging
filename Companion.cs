@@ -1,4 +1,4 @@
-public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // TypeDefIndex: 12854
+public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // TypeDefIndex: 12873
 {
 	public const string PairedKey = "companionPaired";
 	public GameObject instructionsBody; 
@@ -60,7 +60,7 @@ public class CompanionSetupScreen : SingletonComponent<CompanionSetupScreen> // 
 
 }
 
-public enum CompanionSetupScreen.ScreenState // TypeDefIndex: 12855
+public enum CompanionSetupScreen.ScreenState // TypeDefIndex: 12874
 {
 	public int value__; 
 	public const CompanionSetupScreen.ScreenState Loading = 0;
@@ -74,7 +74,7 @@ public enum CompanionSetupScreen.ScreenState // TypeDefIndex: 12855
 
 }
 
-private struct CompanionSetupScreen.<RefreshImpl>d__24 : IAsyncStateMachine // TypeDefIndex: 12856
+private struct CompanionSetupScreen.<RefreshImpl>d__24 : IAsyncStateMachine // TypeDefIndex: 12875
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 
@@ -89,7 +89,7 @@ private struct CompanionSetupScreen.<RefreshImpl>d__24 : IAsyncStateMachine // T
 
 }
 
-private struct CompanionSetupScreen.<Enable>d__25 : IAsyncStateMachine // TypeDefIndex: 12857
+private struct CompanionSetupScreen.<Enable>d__25 : IAsyncStateMachine // TypeDefIndex: 12876
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 
@@ -104,7 +104,7 @@ private struct CompanionSetupScreen.<Enable>d__25 : IAsyncStateMachine // TypeDe
 
 }
 
-private struct CompanionSetupScreen.<Disable>d__26 : IAsyncStateMachine // TypeDefIndex: 12858
+private struct CompanionSetupScreen.<Disable>d__26 : IAsyncStateMachine // TypeDefIndex: 12877
 {
 	public int <>1__state; 
 	public AsyncVoidMethodBuilder <>t__builder; 
@@ -119,7 +119,7 @@ private struct CompanionSetupScreen.<Disable>d__26 : IAsyncStateMachine // TypeD
 
 }
 
-public static class CompanionSubscription // TypeDefIndex: 12859
+public static class CompanionSubscription // TypeDefIndex: 12878
 {
 	private const string ApiEndpoint = "https:
 	private const string CheckApi = "https:
@@ -143,7 +143,7 @@ public static class CompanionSubscription // TypeDefIndex: 12859
 
 }
 
-private class CompanionSubscription.Request // TypeDefIndex: 12860
+private class CompanionSubscription.Request // TypeDefIndex: 12879
 {
 	public string SteamTicket; 
 	public string ServerId; 
@@ -153,7 +153,7 @@ private class CompanionSubscription.Request // TypeDefIndex: 12860
 
 }
 
-public class CompanionSubscription.Status // TypeDefIndex: 12861
+public class CompanionSubscription.Status // TypeDefIndex: 12880
 {
 	public bool IsInstalled; 
 	public bool IsSubscribed; 
@@ -163,7 +163,7 @@ public class CompanionSubscription.Status // TypeDefIndex: 12861
 
 }
 
-private struct CompanionSubscription.<CheckStatus>d__5 : IAsyncStateMachine // TypeDefIndex: 12862
+private struct CompanionSubscription.<CheckStatus>d__5 : IAsyncStateMachine // TypeDefIndex: 12881
 {
 	public int <>1__state; 
 	public AsyncTaskMethodBuilder<CompanionSubscription.Status> <>t__builder; 
@@ -180,7 +180,7 @@ private struct CompanionSubscription.<CheckStatus>d__5 : IAsyncStateMachine // T
 
 }
 
-private struct CompanionSubscription.<Add>d__6 : IAsyncStateMachine // TypeDefIndex: 12863
+private struct CompanionSubscription.<Add>d__6 : IAsyncStateMachine // TypeDefIndex: 12882
 {
 	public int <>1__state; 
 	public AsyncTaskMethodBuilder <>t__builder; 
@@ -196,7 +196,7 @@ private struct CompanionSubscription.<Add>d__6 : IAsyncStateMachine // TypeDefIn
 
 }
 
-private struct CompanionSubscription.<Remove>d__7 : IAsyncStateMachine // TypeDefIndex: 12864
+private struct CompanionSubscription.<Remove>d__7 : IAsyncStateMachine // TypeDefIndex: 12883
 {
 	public int <>1__state; 
 	public AsyncTaskMethodBuilder <>t__builder; 

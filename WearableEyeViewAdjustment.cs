@@ -1,4 +1,4 @@
-public class WearableEyeViewAdjustment : MonoBehaviour // TypeDefIndex: 11802
+public class WearableEyeViewAdjustment : MonoBehaviour // TypeDefIndex: 11813
 {
 
 	public virtual void OnEnteredEyesView(Wearable w) { }
@@ -9,7 +9,7 @@ public class WearableEyeViewAdjustment : MonoBehaviour // TypeDefIndex: 11802
 
 }
 
-public class WearableEyeViewAdjustment_Submesh : WearableEyeViewAdjustment // TypeDefIndex: 11803
+public class WearableEyeViewAdjustment_Submesh : WearableEyeViewAdjustment // TypeDefIndex: 11814
 {
 	public int TargetSubmesh; 
 	public Material HideMaterial; 

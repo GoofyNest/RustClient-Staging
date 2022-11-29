@@ -1,4 +1,4 @@
-public struct LogPlayerReviveOptions // TypeDefIndex: 9769
+public struct LogPlayerReviveOptions // TypeDefIndex: 9775
 {
 	[CompilerGeneratedAttribute] 
 	private IntPtr <RevivedPlayerHandle>k__BackingField; 

@@ -1,4 +1,4 @@
-public struct DeletePersistentAuthCallbackInfo : ICallbackInfo // TypeDefIndex: 9652
+public struct DeletePersistentAuthCallbackInfo : ICallbackInfo // TypeDefIndex: 9658
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

@@ -1,4 +1,4 @@
-public class TexasHoldEmController : CardGameController // TypeDefIndex: 13796
+public class TexasHoldEmController : CardGameController // TypeDefIndex: 13828
 {
 	public List<PlayingCard> communityCards; 
 	public const int SMALL_BLIND = 5;
@@ -76,6 +76,8 @@ public class TexasHoldEmController : CardGameController // TypeDefIndex: 13796
 
 	public void InputsToList(int availableInputs, List<TexasHoldEmController.PokerInputOption> result) { }
 
+	protected override CardPlayerData GetNewCardPlayerData(int mountIndex) { }
+
 	public override void Load(CardGame syncData) { }
 
 	protected override void SubGetAvailableInputs(ref List<CardGameUI.KeycodeWithAction> curAvailableInputs) { }
@@ -93,29 +95,29 @@ public class TexasHoldEmController : CardGameController // TypeDefIndex: 13796
 	public bool HasSecondaryWinners() { }
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__42_3() { }
+	private void <SubGetAvailableInputs>
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__42_0() { }
+	private void <SubGetAvailableInputs>
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__42_1() { }
+	private void <SubGetAvailableInputs>
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__42_4() { }
+	private void <SubGetAvailableInputs>
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__42_5() { }
+	private void <SubGetAvailableInputs>
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__42_6() { }
+	private void <SubGetAvailableInputs>
 
 	[CompilerGeneratedAttribute] 
-	private void <SubGetAvailableInputs>b__42_2() { }
+	private void <SubGetAvailableInputs>
 
 }
 
-public enum TexasHoldEmController.PokerInputOption // TypeDefIndex: 13797
+public enum TexasHoldEmController.PokerInputOption // TypeDefIndex: 13829
 {
 	public int value__; 
 	public const TexasHoldEmController.PokerInputOption None = 0;
@@ -129,7 +131,7 @@ public enum TexasHoldEmController.PokerInputOption // TypeDefIndex: 13797
 
 }
 
-public enum TexasHoldEmController.PokerRoundResult // TypeDefIndex: 13798
+public enum TexasHoldEmController.PokerRoundResult // TypeDefIndex: 13830
 {
 	public int value__; 
 	public const TexasHoldEmController.PokerRoundResult Loss = 0;

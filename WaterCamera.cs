@@ -1,4 +1,4 @@
-public class WaterCamera : MonoBehaviour // TypeDefIndex: 12343
+public class WaterCamera : MonoBehaviour // TypeDefIndex: 12355
 {
 	[CompilerGeneratedAttribute] 
 	private Camera <Camera>k__BackingField; 

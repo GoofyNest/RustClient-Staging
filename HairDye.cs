@@ -1,4 +1,4 @@
-public class HairDye // TypeDefIndex: 12473
+public class HairDye // TypeDefIndex: 12485
 {
 	[ColorUsageAttribute] 
 	public Color capBaseColor; 
@@ -22,7 +22,7 @@ public class HairDye // TypeDefIndex: 12473
 
 }
 
-public enum HairDye.CopyProperty // TypeDefIndex: 12474
+public enum HairDye.CopyProperty // TypeDefIndex: 12486
 {
 	public int value__; 
 	public const HairDye.CopyProperty DyeColor = 0;
@@ -37,7 +37,7 @@ public enum HairDye.CopyProperty // TypeDefIndex: 12474
 
 }
 
-public enum HairDye.CopyPropertyMask // TypeDefIndex: 12475
+public enum HairDye.CopyPropertyMask // TypeDefIndex: 12487
 {
 	public int value__; 
 	public const HairDye.CopyPropertyMask DyeColor = 1;

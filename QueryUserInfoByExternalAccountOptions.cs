@@ -1,4 +1,4 @@
-public struct QueryUserInfoByExternalAccountOptions // TypeDefIndex: 8315
+public struct QueryUserInfoByExternalAccountOptions // TypeDefIndex: 8321
 {
 	[CompilerGeneratedAttribute] 
 	private EpicAccountId <LocalUserId>k__BackingField; 

@@ -1,4 +1,4 @@
-public class CardGameUI : UIDialog // TypeDefIndex: 12629
+public class CardGameUI : UIDialog // TypeDefIndex: 12647
 {
 	[HeaderAttribute] 
 	[SerializeField] 
@@ -34,8 +34,9 @@ public class CardGameUI : UIDialog // TypeDefIndex: 12629
 	public Translate.Phrase phraseScrapWon; 
 	public Translate.Phrase phraseScrapReturned; 
 	public Translate.Phrase phraseChangeBetAmount; 
-	public Translate.Phrase betPhrase; 
-	public Translate.Phrase allInPhrase; 
+	public Translate.Phrase phraseBet; 
+	public Translate.Phrase phraseBetAdd; 
+	public Translate.Phrase phraseAllIn; 
 	public GameObject amountChangeRoot; 
 	public RustText amountChangeText; 
 	public Color colourNeutralUI; 
@@ -111,13 +112,13 @@ public class CardGameUI : UIDialog // TypeDefIndex: 12629
 
 	public void SetImage(Image image, Sprite sprite) { }
 
-	public void ShowTimer() { }
+	public void ShowTimer(CardPlayerData pData) { }
 
 	public void HideTimer() { }
 
 	public string GetWinnerNameFromID(ulong playerID) { }
 
-	public void PopulateCards(List<PlayingCard> cards, Image[] cardSlotImages, Image[] cardSlotBackings, CardGameUI ui, bool showEmptySlots) { }
+	public void PopulateCards(List<PlayingCard> cards, Image[] cardSlotImages, Image[] cardSlotBackings, CardGameUI ui, CardGameUI.CardType cardType, bool showEmptySlots) { }
 
 	private void RefreshUIState(CardPlayerData localPlayerData, bool forced = False) { }
 
@@ -139,7 +140,7 @@ public class CardGameUI : UIDialog // TypeDefIndex: 12629
 
 }
 
-public class CardGameUI.PlayingCardImage // TypeDefIndex: 12630
+public class CardGameUI.PlayingCardImage // TypeDefIndex: 12648
 {
 	public Rank rank; 
 	public Suit suit; 
@@ -152,7 +153,7 @@ public class CardGameUI.PlayingCardImage // TypeDefIndex: 12630
 
 }
 
-public class CardGameUI.InfoTextUI // TypeDefIndex: 12631
+public class CardGameUI.InfoTextUI // TypeDefIndex: 12649
 {
 	public GameObject gameObj; 
 	public RustText rustText; 
@@ -163,7 +164,7 @@ public class CardGameUI.InfoTextUI // TypeDefIndex: 12631
 
 }
 
-public enum CardGameUI.InfoTextUI.Attitude // TypeDefIndex: 12632
+public enum CardGameUI.InfoTextUI.Attitude // TypeDefIndex: 12650
 {
 	public int value__; 
 	public const CardGameUI.InfoTextUI.Attitude Neutral = 0;
@@ -172,7 +173,7 @@ public enum CardGameUI.InfoTextUI.Attitude // TypeDefIndex: 12632
 
 }
 
-public enum CardGameUI.UIState // TypeDefIndex: 12634
+public enum CardGameUI.UIState // TypeDefIndex: 12652
 {
 	public int value__; 
 	public const CardGameUI.UIState None = 0;
@@ -184,7 +185,7 @@ public enum CardGameUI.UIState // TypeDefIndex: 12634
 
 }
 
-public struct CardGameUI.KeycodeWithAction // TypeDefIndex: 12635
+public struct CardGameUI.KeycodeWithAction // TypeDefIndex: 12653
 {
 	public readonly string actionName; 
 	public readonly KeyCode keyCode; 
@@ -197,7 +198,7 @@ public struct CardGameUI.KeycodeWithAction // TypeDefIndex: 12635
 
 }
 
-public enum CardGameUI.CardType // TypeDefIndex: 12636
+public enum CardGameUI.CardType // TypeDefIndex: 12654
 {
 	public int value__; 
 	public const CardGameUI.CardType Large = 0;

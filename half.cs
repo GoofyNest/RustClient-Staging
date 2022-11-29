@@ -1,4 +1,4 @@
-public struct half : IEquatable<half>, IFormattable // TypeDefIndex: 7144
+public struct half : IEquatable<half>, IFormattable // TypeDefIndex: 7147
 {
 
 [Serializable]

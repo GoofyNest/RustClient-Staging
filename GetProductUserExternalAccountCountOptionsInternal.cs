@@ -1,4 +1,4 @@
-internal struct GetProductUserExternalAccountCountOptionsInternal : ISettable<GetProductUserExternalAccountCountOptions>, IDisposable // TypeDefIndex: 9578
+internal struct GetProductUserExternalAccountCountOptionsInternal : ISettable<GetProductUserExternalAccountCountOptions>, IDisposable // TypeDefIndex: 9584
 {
 	private int m_ApiVersion; 
 	private IntPtr m_TargetUserId; 

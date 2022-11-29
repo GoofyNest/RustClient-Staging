@@ -1,4 +1,4 @@
-public class AStarNodeList : List<AStarNode> // TypeDefIndex: 13926
+public class AStarNodeList : List<AStarNode> // TypeDefIndex: 13959
 {
 	private readonly AStarNodeList.AStarNodeComparer comparer; 
 
@@ -13,7 +13,7 @@ public class AStarNodeList : List<AStarNode> // TypeDefIndex: 13926
 
 }
 
-private class AStarNodeList.AStarNodeComparer : IComparer<AStarNode> // TypeDefIndex: 13927
+private class AStarNodeList.AStarNodeComparer : IComparer<AStarNode> // TypeDefIndex: 13960
 {
 
 	private int System.Collections.Generic.IComparer<Rust.AI.AStarNode>.Compare(AStarNode lhs, AStarNode rhs) { }

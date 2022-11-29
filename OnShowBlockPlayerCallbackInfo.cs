@@ -1,4 +1,4 @@
-public struct OnShowBlockPlayerCallbackInfo : ICallbackInfo // TypeDefIndex: 8350
+public struct OnShowBlockPlayerCallbackInfo : ICallbackInfo // TypeDefIndex: 8356
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

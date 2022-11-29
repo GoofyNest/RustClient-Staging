@@ -1,4 +1,4 @@
-public class GenerateRailRing : ProceduralComponent // TypeDefIndex: 12235
+public class GenerateRailRing : ProceduralComponent // TypeDefIndex: 12247
 {
 	public const float Width = 4;
 	public const float InnerPadding = 1;
@@ -18,7 +18,7 @@ public class GenerateRailRing : ProceduralComponent // TypeDefIndex: 12235
 
 }
 
-private class GenerateRailRing.RingNode // TypeDefIndex: 12236
+private class GenerateRailRing.RingNode // TypeDefIndex: 12248
 {
 	public int attempts; 
 	public PathFinder.Point position; 

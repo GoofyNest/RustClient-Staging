@@ -1,4 +1,4 @@
-internal struct CopyPlayerAchievementByIndexOptionsInternal : ISettable<CopyPlayerAchievementByIndexOptions>, IDisposable // TypeDefIndex: 9898
+internal struct CopyPlayerAchievementByIndexOptionsInternal : ISettable<CopyPlayerAchievementByIndexOptions>, IDisposable // TypeDefIndex: 9904
 {
 	private int m_ApiVersion; 
 	private IntPtr m_TargetUserId; 

@@ -1,4 +1,4 @@
-public class TerrainBlendMap : TerrainMap<byte> // TypeDefIndex: 12139
+public class TerrainBlendMap : TerrainMap<byte> // TypeDefIndex: 12150
 {
 	public Texture2D BlendTexture; 
 
@@ -31,7 +31,7 @@ public class TerrainBlendMap : TerrainMap<byte> // TypeDefIndex: 12139
 
 }
 
-private sealed class TerrainBlendMap.<>c__DisplayClass2_0 // TypeDefIndex: 12140
+private sealed class TerrainBlendMap.<>c__DisplayClass2_0 // TypeDefIndex: 12151
 {
 	public TerrainBlendMap <>4__this; 
 	public Color32[] col; 
@@ -39,11 +39,11 @@ private sealed class TerrainBlendMap.<>c__DisplayClass2_0 // TypeDefIndex: 12140
 
 	public void .ctor() { }
 
-	internal void <GenerateTextures>b__0(int z) { }
+	internal void <GenerateTextures>
 
 }
 
-private sealed class TerrainBlendMap.<>c__DisplayClass12_0 // TypeDefIndex: 12141
+private sealed class TerrainBlendMap.<>c__DisplayClass12_0 // TypeDefIndex: 12152
 {
 	public float opacity; 
 	public TerrainBlendMap <>4__this; 
@@ -52,7 +52,7 @@ private sealed class TerrainBlendMap.<>c__DisplayClass12_0 // TypeDefIndex: 1214
 
 	public void .ctor() { }
 
-	internal void <SetAlpha>b__0(int x, int z, float lerp) { }
+	internal void <SetAlpha>
 
 }
 

@@ -1,4 +1,4 @@
-public class Debugging : ConsoleSystem // TypeDefIndex: 13670
+public class Debugging : ConsoleSystem // TypeDefIndex: 13701
 {
 	[ServerVar] 
 	[ClientVar] 
@@ -50,6 +50,10 @@ public class Debugging : ConsoleSystem // TypeDefIndex: 13670
 	public static string fakeSpeechPlayer; 
 	[ClientVar] 
 	public static bool showWorldInfoInPerformanceReadout; 
+	[ClientVar] 
+	public static bool showViewmodelAimHelper; 
+	[ClientVar] 
+	public static float viewmodelAimHelpWidth; 
 
 	[ServerVar] 
 	[ClientVar] 
@@ -69,6 +73,9 @@ public class Debugging : ConsoleSystem // TypeDefIndex: 13670
 	public static void set_log(bool value) { }
 
 	public static bool get_log() { }
+
+	[ServerVar] 
+	public static void enable_player_movement(ConsoleSystem.Arg arg) { }
 
 	[ClientVar] 
 	[ServerVar] 
@@ -157,14 +164,14 @@ public class Debugging : ConsoleSystem // TypeDefIndex: 13670
 
 }
 
-public struct Debugging.EntityInfo // TypeDefIndex: 13671
+public struct Debugging.EntityInfo // TypeDefIndex: 13702
 {
 	public string name; 
 	public uint netId; 
 
 }
 
-private sealed class Debugging.<>c__DisplayClass40_0 // TypeDefIndex: 13672
+private sealed class Debugging.<>c__DisplayClass41_0 // TypeDefIndex: 13703
 {
 	public Vector3 position; 
 	public float radius; 
@@ -172,27 +179,27 @@ private sealed class Debugging.<>c__DisplayClass40_0 // TypeDefIndex: 13672
 
 	public void .ctor() { }
 
-	internal bool <ent_find_radius>b__0(BaseNetworkable x) { }
+	internal bool <ent_find_radius>
 
 }
 
-private sealed class Debugging.<>c // TypeDefIndex: 13673
+private sealed class Debugging.<>c // TypeDefIndex: 13704
 {
 	public static readonly Debugging.<>c <>9; 
-	public static Func<BaseNetworkable, uint> <>9__40_1; 
-	public static Func<IGrouping<uint, BaseNetworkable>, BaseNetworkable> <>9__40_2; 
-	public static Func<BaseNetworkable, Debugging.EntityInfo> <>9__40_3; 
+	public static Func<BaseNetworkable, uint> <>9__41_1; 
+	public static Func<IGrouping<uint, BaseNetworkable>, BaseNetworkable> <>9__41_2; 
+	public static Func<BaseNetworkable, Debugging.EntityInfo> <>9__41_3; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal uint <ent_find_radius>b__40_1(BaseNetworkable x) { }
+	internal uint <ent_find_radius>
 
-	internal BaseNetworkable <ent_find_radius>b__40_2(IGrouping<uint, BaseNetworkable> x) { }
+	internal BaseNetworkable <ent_find_radius>
 
-	internal Debugging.EntityInfo <ent_find_radius>b__40_3(BaseNetworkable x) { }
+	internal Debugging.EntityInfo <ent_find_radius>
 
 }
 

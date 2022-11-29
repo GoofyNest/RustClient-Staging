@@ -1,4 +1,4 @@
-public class AddToAlphaMap : ProceduralObject // TypeDefIndex: 12309
+public class AddToAlphaMap : ProceduralObject // TypeDefIndex: 12321
 {
 	public Bounds bounds; 
 
@@ -9,7 +9,7 @@ public class AddToAlphaMap : ProceduralObject // TypeDefIndex: 12309
 
 }
 
-private sealed class AddToAlphaMap.<>c // TypeDefIndex: 12310
+private sealed class AddToAlphaMap.<>c // TypeDefIndex: 12322
 {
 	public static readonly AddToAlphaMap.<>c <>9; 
 	public static Action<int, int> <>9__1_0; 
@@ -19,7 +19,7 @@ private sealed class AddToAlphaMap.<>c // TypeDefIndex: 12310
 
 	public void .ctor() { }
 
-	internal void <Process>b__1_0(int x, int z) { }
+	internal void <Process>
 
 }
 

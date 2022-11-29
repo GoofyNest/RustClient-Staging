@@ -1,4 +1,4 @@
-public struct DeleteSnapshotOptions // TypeDefIndex: 8798
+public struct DeleteSnapshotOptions // TypeDefIndex: 8804
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <LocalUserId>k__BackingField; 

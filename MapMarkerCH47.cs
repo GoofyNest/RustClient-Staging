@@ -1,4 +1,4 @@
-public class MapMarkerCH47 : MapMarker // TypeDefIndex: 10592
+public class MapMarkerCH47 : MapMarker // TypeDefIndex: 10600
 {
 	private GameObject createdMarker; 
 

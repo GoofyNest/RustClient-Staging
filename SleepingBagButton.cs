@@ -1,4 +1,4 @@
-public class SleepingBagButton : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler // TypeDefIndex: 12991
+public class SleepingBagButton : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler // TypeDefIndex: 13010
 {
 	public GameObject TimeLockRoot; 
 	public GameObject LockRoot; 

@@ -1,4 +1,4 @@
-public struct Sphere // TypeDefIndex: 6600
+public struct Sphere // TypeDefIndex: 6603
 {
 	public Vector3 position; 
 	public float radius; 

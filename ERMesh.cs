@@ -1,4 +1,4 @@
-public class ERMesh // TypeDefIndex: 7256
+public class ERMesh // TypeDefIndex: 7259
 {
 	public List<int> vecsInt; 
 	public List<Vector3> vecs; 

@@ -1,4 +1,4 @@
-public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10041
+public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10047
 {
 	private Option __menuOption_Menu_Mount; 
 	public static Translate.Phrase dismountPhrase; 
@@ -113,6 +113,8 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10041
 
 	public virtual void UpdatePlayerModel(BasePlayer player) { }
 
+	public virtual void PostLateUpdatePlayer(BasePlayer player) { }
+
 	public virtual void UpdatePlayerRotation(BasePlayer player) { }
 
 	public override void SetNetworkPosition(Vector3 vPos) { }
@@ -160,11 +162,11 @@ public class BaseMountable : BaseCombatEntity // TypeDefIndex: 10041
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private void <DoPlayerMovement>b__79_0(BasePlayer basePlayer) { }
+	private void <DoPlayerMovement>
 
 }
 
-public enum BaseMountable.MountStatType // TypeDefIndex: 10042
+public enum BaseMountable.MountStatType // TypeDefIndex: 10048
 {
 	public int value__; 
 	public const BaseMountable.MountStatType None = 0;
@@ -174,7 +176,7 @@ public enum BaseMountable.MountStatType // TypeDefIndex: 10042
 
 }
 
-public enum BaseMountable.MountGestureType // TypeDefIndex: 10043
+public enum BaseMountable.MountGestureType // TypeDefIndex: 10049
 {
 	public int value__; 
 	public const BaseMountable.MountGestureType None = 0;

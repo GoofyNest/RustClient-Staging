@@ -1,4 +1,4 @@
-public class BlackjackScreenCardUI : MonoBehaviour // TypeDefIndex: 12621
+public class BlackjackScreenCardUI : FacepunchBehaviour // TypeDefIndex: 12640
 {
 	[SerializeField] 
 	private Canvas baseCanvas; 
@@ -18,6 +18,7 @@ public class BlackjackScreenCardUI : MonoBehaviour // TypeDefIndex: 12621
 	private Sprite spadeSprite; 
 	[SerializeField] 
 	private Sprite clubSprite; 
+	private PlayingCard targetCard; 
 
 
 	public void Show() { }
@@ -25,6 +26,8 @@ public class BlackjackScreenCardUI : MonoBehaviour // TypeDefIndex: 12621
 	public void Hide() { }
 
 	public void SetCard(PlayingCard card) { }
+
+	private void FinishSettingCard() { }
 
 	public void .ctor() { }
 

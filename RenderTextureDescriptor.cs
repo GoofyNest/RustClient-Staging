@@ -1,34 +1,34 @@
-public struct RenderTextureDescriptor // TypeDefIndex: 3451
+public struct RenderTextureDescriptor // TypeDefIndex: 3452
 {
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private int <width>k__BackingField; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private int <height>k__BackingField; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private int <msaaSamples>k__BackingField; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private int <volumeDepth>k__BackingField; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private int <mipCount>k__BackingField; 
 	private GraphicsFormat _graphicsFormat; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private GraphicsFormat <stencilFormat>k__BackingField; 
 	private int _depthBufferBits; 
 	private static int[] depthFormatBits; 
-	[DebuggerBrowsableAttribute] 
 	[CompilerGeneratedAttribute] 
+	[DebuggerBrowsableAttribute] 
 	private TextureDimension <dimension>k__BackingField; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private ShadowSamplingMode <shadowSamplingMode>k__BackingField; 
-	[CompilerGeneratedAttribute] 
 	[DebuggerBrowsableAttribute] 
+	[CompilerGeneratedAttribute] 
 	private VRTextureUsage <vrUsage>k__BackingField; 
 	private RenderTextureCreationFlags _flags; 
 	[DebuggerBrowsableAttribute] 

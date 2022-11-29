@@ -1,4 +1,4 @@
-internal enum ZlibStreamFlavor // TypeDefIndex: 6998
+internal enum ZlibStreamFlavor // TypeDefIndex: 7001
 {
 	public int value__; 
 	public const ZlibStreamFlavor ZLIB = 1950;

@@ -1,4 +1,4 @@
-public class BlackjackUI : MonoBehaviour, CardGameUI.ICardGameSubUI // TypeDefIndex: 12624
+public class BlackjackUI : MonoBehaviour, CardGameUI.ICardGameSubUI // TypeDefIndex: 12643
 {
 	[SerializeField] 
 	private Image[] playerCardImages; 
@@ -19,6 +19,10 @@ public class BlackjackUI : MonoBehaviour, CardGameUI.ICardGameSubUI // TypeDefIn
 	[SerializeField] 
 	private RustText dealerValueText; 
 	[SerializeField] 
+	private GameObject yourValueObj; 
+	[SerializeField] 
+	private RustText yourValueText; 
+	[SerializeField] 
 	private Translate.Phrase phrasePlaceYourBet; 
 	[SerializeField] 
 	private Translate.Phrase phraseHit; 
@@ -28,6 +32,8 @@ public class BlackjackUI : MonoBehaviour, CardGameUI.ICardGameSubUI // TypeDefIn
 	private Translate.Phrase phraseSplit; 
 	[SerializeField] 
 	private Translate.Phrase phraseDouble; 
+	[SerializeField] 
+	private Translate.Phrase phraseInsurance; 
 	[SerializeField] 
 	private Translate.Phrase phraseBust; 
 	[SerializeField] 
@@ -40,6 +46,10 @@ public class BlackjackUI : MonoBehaviour, CardGameUI.ICardGameSubUI // TypeDefIn
 	private Translate.Phrase phraseYouLose; 
 	[SerializeField] 
 	private Translate.Phrase phraseWaitingForOtherPlayers; 
+	[SerializeField] 
+	private Translate.Phrase phraseHand; 
+	[SerializeField] 
+	private Translate.Phrase phraseInsurancePaidOut; 
 	[SerializeField] 
 	private Sprite insuranceIcon; 
 	[SerializeField] 
@@ -61,7 +71,13 @@ public class BlackjackUI : MonoBehaviour, CardGameUI.ICardGameSubUI // TypeDefIn
 
 	public void UpdateInGameUI(CardGameUI ui, CardGameController game) { }
 
+	protected string GetScoreTextFor(BlackjackController blackjack, List<PlayingCard> cards) { }
+
 	public string GetSecondaryInfo(CardGameUI ui, CardGameController game, out CardGameUI.InfoTextUI.Attitude attitude) { }
+
+	private string GetResultText(BlackjackController.BlackjackRoundResult result) { }
+
+	private CardGameUI.InfoTextUI.Attitude GetResultAttitude(BlackjackController.BlackjackRoundResult mainResult, BlackjackController.BlackjackRoundResult splitResult) { }
 
 	public void UpdateInGameUI_NoPlayer(CardGameUI ui) { }
 
@@ -69,17 +85,17 @@ public class BlackjackUI : MonoBehaviour, CardGameUI.ICardGameSubUI // TypeDefIn
 
 }
 
-private sealed class BlackjackUI.<>c // TypeDefIndex: 12625
+private sealed class BlackjackUI.<>c // TypeDefIndex: 12644
 {
 	public static readonly BlackjackUI.<>c <>9; 
-	public static Predicate<CardGameUI.KeycodeWithAction> <>9__28_0; 
+	public static Predicate<CardGameUI.KeycodeWithAction> <>9__33_0; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal bool <UpdateInGameUI>b__28_0(CardGameUI.KeycodeWithAction p) { }
+	internal bool <UpdateInGameUI>
 
 }
 

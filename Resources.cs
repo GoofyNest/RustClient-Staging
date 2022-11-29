@@ -1,4 +1,4 @@
-public sealed class Resources // TypeDefIndex: 3492
+public sealed class Resources // TypeDefIndex: 3493
 {
 
 	internal static T[] ConvertObjects<T>(Object[] rawObjects) { }
@@ -43,13 +43,13 @@ public sealed class Resources // TypeDefIndex: 3492
 	|-Resources.Load<object>
 	*/
 
+	[TypeInferenceRuleAttribute] 
 	[FreeFunctionAttribute] 
 	[NativeThrowsAttribute] 
-	[TypeInferenceRuleAttribute] 
 	public static Object Load(string path, Type systemTypeInstance) { }
 
-	[FreeFunctionAttribute] 
 	[NativeThrowsAttribute] 
+	[FreeFunctionAttribute] 
 	public static Object[] LoadAll(string path, Type systemTypeInstance) { }
 
 	public static T[] LoadAll<T>(string path) { }
@@ -59,8 +59,8 @@ public sealed class Resources // TypeDefIndex: 3492
 	|-Resources.LoadAll<object>
 	*/
 
-	[TypeInferenceRuleAttribute] 
 	[FreeFunctionAttribute] 
+	[TypeInferenceRuleAttribute] 
 	public static Object GetBuiltinResource(Type type, string path) { }
 
 	public static T GetBuiltinResource<T>(string path) { }

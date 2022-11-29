@@ -1,4 +1,4 @@
-public class KayakSeat : BaseVehicleSeat // TypeDefIndex: 11432
+public class KayakSeat : BaseVehicleSeat // TypeDefIndex: 11442
 {
 	public ItemDefinition PaddleItem; 
 

@@ -1,4 +1,4 @@
-public class SharpenAndVignetteOverlay : MonoBehaviour // TypeDefIndex: 10856
+public class SharpenAndVignetteOverlay : MonoBehaviour // TypeDefIndex: 10866
 {
 	public PostProcessVolume postProcessVolume; 
 	private SharpenAndVignette sharpenAndVignette; 

@@ -1,4 +1,4 @@
-public class ViewmodelIgniteToggle : MonoBehaviour // TypeDefIndex: 10620
+public class ViewmodelIgniteToggle : MonoBehaviour // TypeDefIndex: 10628
 {
 
 	public void Start() { }

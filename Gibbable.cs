@@ -1,4 +1,4 @@
-public class Gibbable : PrefabAttribute, IClientComponent // TypeDefIndex: 11622
+public class Gibbable : PrefabAttribute, IClientComponent // TypeDefIndex: 11633
 {
 	public GameObject gibSource; 
 	public Material[] customMaterials; 
@@ -10,6 +10,7 @@ public class Gibbable : PrefabAttribute, IClientComponent // TypeDefIndex: 11622
 	public bool spawnFxPrefab; 
 	[TooltipAttribute] 
 	public bool important; 
+	public bool useContinuousCollision; 
 	public float explodeScale; 
 	public float scaleOverride; 
 	[ReadOnlyAttribute] 
@@ -47,7 +48,7 @@ public class Gibbable : PrefabAttribute, IClientComponent // TypeDefIndex: 11622
 
 }
 
-public struct Gibbable.OverrideMesh // TypeDefIndex: 11623
+public struct Gibbable.OverrideMesh // TypeDefIndex: 11634
 {
 	public bool enabled; 
 	public Gibbable.ColliderType ColliderType; 
@@ -60,7 +61,7 @@ public struct Gibbable.OverrideMesh // TypeDefIndex: 11623
 
 }
 
-public enum Gibbable.ColliderType // TypeDefIndex: 11624
+public enum Gibbable.ColliderType // TypeDefIndex: 11635
 {
 	public int value__; 
 	public const Gibbable.ColliderType Box = 0;
@@ -69,7 +70,7 @@ public enum Gibbable.ColliderType // TypeDefIndex: 11624
 
 }
 
-public enum Gibbable.ParentingType // TypeDefIndex: 11625
+public enum Gibbable.ParentingType // TypeDefIndex: 11636
 {
 	public int value__; 
 	public const Gibbable.ParentingType None = 0;
@@ -79,7 +80,7 @@ public enum Gibbable.ParentingType // TypeDefIndex: 11625
 
 }
 
-public enum Gibbable.BoundsEffectType // TypeDefIndex: 11626
+public enum Gibbable.BoundsEffectType // TypeDefIndex: 11637
 {
 	public int value__; 
 	public const Gibbable.BoundsEffectType None = 0;
@@ -91,7 +92,7 @@ public enum Gibbable.BoundsEffectType // TypeDefIndex: 11626
 
 }
 
-private struct Gibbable.GibMesh // TypeDefIndex: 11627
+private struct Gibbable.GibMesh // TypeDefIndex: 11638
 {
 	public Transform transform; 
 	public MeshFilter filter; 

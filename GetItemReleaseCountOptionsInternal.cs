@@ -1,4 +1,4 @@
-internal struct GetItemReleaseCountOptionsInternal : ISettable<GetItemReleaseCountOptions>, IDisposable // TypeDefIndex: 9460
+internal struct GetItemReleaseCountOptionsInternal : ISettable<GetItemReleaseCountOptions>, IDisposable // TypeDefIndex: 9466
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

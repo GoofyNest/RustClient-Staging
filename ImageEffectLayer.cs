@@ -1,4 +1,4 @@
-public class ImageEffectLayer : FacepunchBehaviour // TypeDefIndex: 8044
+public class ImageEffectLayer : FacepunchBehaviour // TypeDefIndex: 8050
 {
 	protected int sortOrder; 
 	private IImageEffect[] effects; 

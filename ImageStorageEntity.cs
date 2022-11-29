@@ -1,4 +1,4 @@
-public class ImageStorageEntity : BaseEntity // TypeDefIndex: 10294
+public class ImageStorageEntity : BaseEntity // TypeDefIndex: 10301
 {
 	private List<ImageStorageEntity.ImageRequest> _requests; 
 
@@ -26,14 +26,14 @@ public class ImageStorageEntity : BaseEntity // TypeDefIndex: 10294
 
 }
 
-private struct ImageStorageEntity.ImageRequest // TypeDefIndex: 10295
+private struct ImageStorageEntity.ImageRequest // TypeDefIndex: 10302
 {
 	public IImageReceiver Receiver; 
 	public float Time; 
 
 }
 
-private sealed class ImageStorageEntity.<>c // TypeDefIndex: 10296
+private sealed class ImageStorageEntity.<>c // TypeDefIndex: 10303
 {
 	public static readonly ImageStorageEntity.<>c <>9; 
 	public static Predicate<ImageStorageEntity.ImageRequest> <>9__7_0; 
@@ -44,13 +44,13 @@ private sealed class ImageStorageEntity.<>c // TypeDefIndex: 10296
 
 	public void .ctor() { }
 
-	internal bool <RequestImage>b__7_0(ImageStorageEntity.ImageRequest r) { }
+	internal bool <RequestImage>
 
-	internal IImageReceiver <RequestImage>b__7_1(ImageStorageEntity.ImageRequest r) { }
+	internal IImageReceiver <RequestImage>
 
 }
 
-private sealed class ImageStorageEntity.<LoadImage>d__10 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10297
+private sealed class ImageStorageEntity.<LoadImage>d__10 : IEnumerator<object>, IEnumerator, IDisposable // TypeDefIndex: 10304
 {
 	private int <>1__state; 
 	private object <>2__current; 

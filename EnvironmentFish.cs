@@ -1,4 +1,4 @@
-public class EnvironmentFish : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 10669
+public class EnvironmentFish : BaseMonoBehaviour, IClientComponent // TypeDefIndex: 10677
 {
 	public Animator animator; 
 	public float minSpeed; 

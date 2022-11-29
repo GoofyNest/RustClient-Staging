@@ -1,4 +1,4 @@
-public struct OnClientIntegrityViolatedCallbackInfo : ICallbackInfo // TypeDefIndex: 9824
+public struct OnClientIntegrityViolatedCallbackInfo : ICallbackInfo // TypeDefIndex: 9830
 {
 	[CompilerGeneratedAttribute] 
 	private object <ClientData>k__BackingField; 

@@ -1,4 +1,4 @@
-public enum MathOperation // TypeDefIndex: 7494
+public enum MathOperation // TypeDefIndex: 7497
 {
 	public int value__; 
 	public const MathOperation Add = 0;

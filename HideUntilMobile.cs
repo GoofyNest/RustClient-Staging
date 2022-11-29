@@ -1,4 +1,4 @@
-public class HideUntilMobile : EntityComponent<BaseEntity> // TypeDefIndex: 11629
+public class HideUntilMobile : EntityComponent<BaseEntity> // TypeDefIndex: 11640
 {
 	public GameObject[] visuals; 
 	private Vector3 startPos; 

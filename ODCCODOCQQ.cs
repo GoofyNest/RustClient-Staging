@@ -1,4 +1,4 @@
-public class ODCCODOCQQ : MonoBehaviour // TypeDefIndex: 7214
+public class ODCCODOCQQ : MonoBehaviour // TypeDefIndex: 7217
 {
 	public static GameObject rtg; 
 	public static GameObject swgLeft; 

@@ -1,4 +1,4 @@
-public struct JoinRoomCallbackInfo : ICallbackInfo // TypeDefIndex: 8763
+public struct JoinRoomCallbackInfo : ICallbackInfo // TypeDefIndex: 8769
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

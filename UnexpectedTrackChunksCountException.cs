@@ -1,4 +1,4 @@
-public sealed class UnexpectedTrackChunksCountException : MidiException // TypeDefIndex: 7592
+public sealed class UnexpectedTrackChunksCountException : MidiException // TypeDefIndex: 7595
 {
 	[CompilerGeneratedAttribute] 
 	private readonly int <ExpectedCount>k__BackingField; 

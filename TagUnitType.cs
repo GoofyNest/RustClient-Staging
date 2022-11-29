@@ -1,4 +1,4 @@
-public enum TagUnitType // TypeDefIndex: 6753
+public enum TagUnitType // TypeDefIndex: 6756
 {
 	public int value__; 
 	public const TagUnitType Pixels = 0;

@@ -5,7 +5,7 @@ internal static class Strings // TypeDefIndex: 3248
 
 }
 
-public sealed class Strings // TypeDefIndex: 7386
+public sealed class Strings // TypeDefIndex: 7389
 {
 	[CompilerGeneratedAttribute] 
 	private static Dictionary<string, int> <>f__switch$map0; 

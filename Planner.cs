@@ -1,4 +1,4 @@
-public class Planner : HeldEntity // TypeDefIndex: 10329
+public class Planner : HeldEntity // TypeDefIndex: 10336
 {
 	private Vector3 rotationOffset; 
 	private bool hasAppliedStartingRotation; 
@@ -51,7 +51,7 @@ public class Planner : HeldEntity // TypeDefIndex: 10329
 
 }
 
-public class Planner.Guide // TypeDefIndex: 10330
+public class Planner.Guide // TypeDefIndex: 10337
 {
 	public GameObject guideObject; 
 	public Construction.Target lastPlacement; 
@@ -93,7 +93,7 @@ public class Planner.Guide // TypeDefIndex: 10330
 
 }
 
-private enum Planner.Guide.PlacementState // TypeDefIndex: 10331
+private enum Planner.Guide.PlacementState // TypeDefIndex: 10338
 {
 	public int value__; 
 	public const Planner.Guide.PlacementState Invalid = 0;
@@ -102,7 +102,7 @@ private enum Planner.Guide.PlacementState // TypeDefIndex: 10331
 
 }
 
-private sealed class Planner.<>c__DisplayClass9_0 // TypeDefIndex: 10332
+private sealed class Planner.<>c__DisplayClass9_0 // TypeDefIndex: 10339
 {
 	public Construction construction; 
 	public Planner <>4__this; 
@@ -110,7 +110,21 @@ private sealed class Planner.<>c__DisplayClass9_0 // TypeDefIndex: 10332
 
 	public void .ctor() { }
 
-	internal void <OpenComponentMenu>b__0(BasePlayer ply) { }
+	internal void <OpenComponentMenu>
+
+}
+
+private sealed class Planner.<>c // TypeDefIndex: 10340
+{
+	public static readonly Planner.<>c <>9; 
+	public static Func<EntityLink, bool> <>9__20_0; 
+
+
+	private static void .cctor() { }
+
+	public void .ctor() { }
+
+	internal bool <FindAppropriateHandle>
 
 }
 

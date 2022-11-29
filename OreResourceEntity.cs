@@ -1,4 +1,4 @@
-public class OreResourceEntity : StagedResourceEntity // TypeDefIndex: 10324
+public class OreResourceEntity : StagedResourceEntity // TypeDefIndex: 10331
 {
 	public GameObjectRef bonusPrefab; 
 	public GameObjectRef finishEffect; 

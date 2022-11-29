@@ -1,4 +1,4 @@
-public struct CopyProductUserExternalAccountByAccountIdOptions // TypeDefIndex: 9551
+public struct CopyProductUserExternalAccountByAccountIdOptions // TypeDefIndex: 9557
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <TargetUserId>k__BackingField; 

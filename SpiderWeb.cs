@@ -1,4 +1,4 @@
-public class SpiderWeb : BaseCombatEntity // TypeDefIndex: 10510
+public class SpiderWeb : BaseCombatEntity // TypeDefIndex: 10518
 {
 
 	public void .ctor() { }

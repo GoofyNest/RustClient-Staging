@@ -1,4 +1,4 @@
-public class SupplyDrop : LootContainer // TypeDefIndex: 11340
+public class SupplyDrop : LootContainer // TypeDefIndex: 11350
 {
 	public GameObjectRef parachutePrefab; 
 	private const BaseEntity.Flags FlagNightLight = 128;

@@ -1,4 +1,4 @@
-internal static class Defines // TypeDefIndex: 5507
+internal static class Defines // TypeDefIndex: 5509
 {
 	internal static readonly AppId k_uAppIdInvalid; 
 	internal static readonly DepotId_t k_uDepotIdInvalid; 
@@ -96,7 +96,7 @@ internal static class Defines // TypeDefIndex: 5507
 
 }
 
-public static class Defines // TypeDefIndex: 6647
+public static class Defines // TypeDefIndex: 6650
 {
 
 private struct <PrivateImplementationDetails>.__StaticArrayInitTypeSize=2048
@@ -110,7 +110,7 @@ public static class Defines
 
 }
 
-public class Defines // TypeDefIndex: 6848
+public class Defines // TypeDefIndex: 6851
 {
 	public const byte lowestUserPacket = 140;
 	public const int packetHeaderSize = 1;
@@ -120,7 +120,7 @@ public class Defines // TypeDefIndex: 6848
 
 }
 
-public static class Defines // TypeDefIndex: 13814
+public static class Defines // TypeDefIndex: 13846
 {
 	public static uint appID; 
 	public const string resourceFolder = "assets/bundled";
@@ -130,13 +130,13 @@ public static class Defines // TypeDefIndex: 13814
 
 }
 
-public static class Defines.Connection // TypeDefIndex: 13815
+public static class Defines.Connection // TypeDefIndex: 13847
 {
 	public const byte mode_steam = 228;
 
 }
 
-public static class Defines.Tags // TypeDefIndex: 13816
+public static class Defines.Tags // TypeDefIndex: 13848
 {
 	public const string NotPlayerUsable = "Not Player Usable";
 

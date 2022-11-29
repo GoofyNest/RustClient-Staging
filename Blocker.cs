@@ -1,4 +1,4 @@
-public class Blocker : RustControl, IPointerDownHandler, IEventSystemHandler // TypeDefIndex: 7040
+public class Blocker : RustControl, IPointerDownHandler, IEventSystemHandler // TypeDefIndex: 7043
 {
 
 	public void OnPointerDown(PointerEventData eventData) { }

@@ -1,4 +1,4 @@
-public class BasePathFinder // TypeDefIndex: 10687
+public class BasePathFinder // TypeDefIndex: 10695
 {
 	private static Vector3[] preferedTopologySamples; 
 	private static Vector3[] topologySamples; 

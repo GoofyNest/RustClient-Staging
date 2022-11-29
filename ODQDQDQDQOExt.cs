@@ -1,4 +1,4 @@
-public class ODQDQDQDQOExt : MonoBehaviour // TypeDefIndex: 7286
+public class ODQDQDQDQOExt : MonoBehaviour // TypeDefIndex: 7289
 {
 
 	public static void OOODCQCQOC(ERModularBase scr) { }

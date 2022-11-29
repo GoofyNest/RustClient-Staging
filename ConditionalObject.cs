@@ -1,4 +1,4 @@
-public class ConditionalObject // TypeDefIndex: 13875
+public class ConditionalObject // TypeDefIndex: 13908
 {
 	public GameObject gameObject; 
 	public GameObject ownerGameObject; 
@@ -31,7 +31,7 @@ public class ConditionalObject // TypeDefIndex: 13875
 
 }
 
-public enum ConditionalObject.AdjacentCondition // TypeDefIndex: 13876
+public enum ConditionalObject.AdjacentCondition // TypeDefIndex: 13909
 {
 	public int value__; 
 	public const ConditionalObject.AdjacentCondition SameInFront = 0;
@@ -43,7 +43,7 @@ public enum ConditionalObject.AdjacentCondition // TypeDefIndex: 13876
 
 }
 
-public enum ConditionalObject.AdjacentMatchType // TypeDefIndex: 13877
+public enum ConditionalObject.AdjacentMatchType // TypeDefIndex: 13910
 {
 	public int value__; 
 	public const ConditionalObject.AdjacentMatchType GroupOrExact = 0;

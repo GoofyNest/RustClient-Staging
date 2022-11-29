@@ -1,4 +1,4 @@
-public class ODOOCCQDOC : MonoBehaviour // TypeDefIndex: 7307
+public class ODOOCCQDOC : MonoBehaviour // TypeDefIndex: 7310
 {
 
 	public static void ODCQCQCQDQ(Mesh mesh) { }

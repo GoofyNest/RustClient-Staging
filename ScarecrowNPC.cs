@@ -1,4 +1,4 @@
-public class ScarecrowNPC : NPCPlayer, IAISenses, IAIAttack // TypeDefIndex: 10154
+public class ScarecrowNPC : NPCPlayer, IAISenses, IAIAttack // TypeDefIndex: 10160
 {
 	private Option __menuOption_MenuDesignAI; 
 	[CompilerGeneratedAttribute] 

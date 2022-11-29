@@ -1,4 +1,4 @@
-internal static class InternalInflateConstants // TypeDefIndex: 6983
+internal static class InternalInflateConstants // TypeDefIndex: 6986
 {
 	internal static readonly int[] InflateMask; 
 

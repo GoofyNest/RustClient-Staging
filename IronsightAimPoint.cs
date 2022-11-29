@@ -1,4 +1,4 @@
-public class IronsightAimPoint : MonoBehaviour // TypeDefIndex: 13211
+public class IronsightAimPoint : MonoBehaviour // TypeDefIndex: 13242
 {
 	public Transform targetPoint; 
 

@@ -1,4 +1,4 @@
-public class PuzzleReset : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6363
+public class PuzzleReset : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6365
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -63,7 +63,7 @@ public class PuzzleReset : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 63
 
 }
 
-public class PuzzleReset : FacepunchBehaviour // TypeDefIndex: 11541
+public class PuzzleReset : FacepunchBehaviour // TypeDefIndex: 11552
 {
 	public SpawnGroup[] respawnGroups; 
 	public IOEntity[] resetEnts; 
@@ -77,6 +77,8 @@ public class PuzzleReset : FacepunchBehaviour // TypeDefIndex: 11541
 	public bool scaleWithServerPopulation; 
 	[HideInInspector] 
 	public Vector3[] resetPositions; 
+	public bool broadcastResetMessage; 
+	public Translate.Phrase resetPhrase; 
 
 
 	public void .ctor() { }

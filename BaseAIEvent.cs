@@ -1,4 +1,4 @@
-public class BaseAIEvent // TypeDefIndex: 11121
+public class BaseAIEvent // TypeDefIndex: 11131
 {
 	[CompilerGeneratedAttribute] 
 	private AIEventType <EventType>k__BackingField; 
@@ -126,7 +126,7 @@ public class BaseAIEvent // TypeDefIndex: 11121
 
 }
 
-public enum BaseAIEvent.ExecuteRate // TypeDefIndex: 11122
+public enum BaseAIEvent.ExecuteRate // TypeDefIndex: 11132
 {
 	public int value__; 
 	public const BaseAIEvent.ExecuteRate Slow = 0;

@@ -1,4 +1,4 @@
-internal struct InstallModCallbackInfoInternal : ICallbackInfoInternal, IGettable<InstallModCallbackInfo>, ISettable<InstallModCallbackInfo>, IDisposable // TypeDefIndex: 9010
+internal struct InstallModCallbackInfoInternal : ICallbackInfoInternal, IGettable<InstallModCallbackInfo>, ISettable<InstallModCallbackInfo>, IDisposable // TypeDefIndex: 9016
 {
 	private Result m_ResultCode; 
 	private IntPtr m_LocalUserId; 

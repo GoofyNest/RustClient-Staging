@@ -1,4 +1,4 @@
-public class BurstClothCollider : MonoBehaviour, IClientComponent // TypeDefIndex: 10389
+public class BurstClothCollider : MonoBehaviour, IClientComponent // TypeDefIndex: 10397
 {
 	public float Height; 
 	public float Radius; 

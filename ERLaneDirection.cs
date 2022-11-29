@@ -1,4 +1,4 @@
-public enum ERLaneDirection // TypeDefIndex: 7253
+public enum ERLaneDirection // TypeDefIndex: 7256
 {
 	public int value__; 
 	public const ERLaneDirection Left = 0;

@@ -1,4 +1,4 @@
-public class LifeInfographicStatWeapon : MonoBehaviour // TypeDefIndex: 12846
+public class LifeInfographicStatWeapon : MonoBehaviour // TypeDefIndex: 12865
 {
 	public RustText WeaponName; 
 	public RustText ShotsFired; 

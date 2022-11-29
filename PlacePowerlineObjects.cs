@@ -1,4 +1,4 @@
-public class PlacePowerlineObjects : ProceduralComponent // TypeDefIndex: 12302
+public class PlacePowerlineObjects : ProceduralComponent // TypeDefIndex: 12314
 {
 	public PathList.BasicObject[] Start; 
 	public PathList.BasicObject[] End; 

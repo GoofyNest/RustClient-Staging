@@ -1,8 +1,8 @@
 public static class NativeArrayUnsafeUtility // TypeDefIndex: 3339
 {
 
-[RequiredByNativeCodeAttribute] 
 [AttributeUsageAttribute] 
+[RequiredByNativeCodeAttribute] 
 public sealed class NativeSetClassTypeToNullOnScheduleAttribute : Attribute
 
 [ExtensionAttribute] 

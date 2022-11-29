@@ -1,4 +1,4 @@
-public class LiquidWeapon : BaseLiquidVessel // TypeDefIndex: 10311
+public class LiquidWeapon : BaseLiquidVessel // TypeDefIndex: 10318
 {
 	[HeaderAttribute] 
 	public float FireRate; 

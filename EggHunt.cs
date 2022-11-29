@@ -1,4 +1,4 @@
-public class EggHunt : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6367
+public class EggHunt : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6369
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -59,7 +59,7 @@ public class EggHunt : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6367
 
 }
 
-public class EggHunt.EggHunter : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6368
+public class EggHunt.EggHunter : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6370
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -122,7 +122,7 @@ public class EggHunt.EggHunter : IDisposable, Pool.IPooled, IProto // TypeDefInd
 
 }
 
-public class EggAmmoRepresentation : MonoBehaviour, IInventoryChanged, IClientComponent // TypeDefIndex: 10495
+public class EggAmmoRepresentation : MonoBehaviour, IInventoryChanged, IClientComponent // TypeDefIndex: 10503
 {
 	public GameObject[] eggAmmo; 
 
@@ -137,7 +137,7 @@ public class EggAmmoRepresentation : MonoBehaviour, IInventoryChanged, IClientCo
 
 }
 
-public class EggSwap : MonoBehaviour // TypeDefIndex: 10496
+public class EggSwap : MonoBehaviour // TypeDefIndex: 10504
 {
 	public Renderer[] eggRenderers; 
 
@@ -150,7 +150,7 @@ public class EggSwap : MonoBehaviour // TypeDefIndex: 10496
 
 }
 
-public class EggHuntEvent : BaseHuntEvent // TypeDefIndex: 10497
+public class EggHuntEvent : BaseHuntEvent // TypeDefIndex: 10505
 {
 	public float warmupTime; 
 	public float cooldownTime; 
@@ -185,7 +185,7 @@ public class EggHuntEvent : BaseHuntEvent // TypeDefIndex: 10497
 
 }
 
-public class EggHuntEvent.EggHunter // TypeDefIndex: 10498
+public class EggHuntEvent.EggHunter // TypeDefIndex: 10506
 {
 	public ulong userid; 
 	public string displayName; 
@@ -196,7 +196,7 @@ public class EggHuntEvent.EggHunter // TypeDefIndex: 10498
 
 }
 
-public class EggHuntNote : MonoBehaviour, IClientComponent // TypeDefIndex: 10504
+public class EggHuntNote : MonoBehaviour, IClientComponent // TypeDefIndex: 10512
 {
 	public CanvasGroup mainGroup; 
 	public CanvasGroup timerGroup; 

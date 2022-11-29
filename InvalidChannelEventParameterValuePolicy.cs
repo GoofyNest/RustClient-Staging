@@ -1,4 +1,4 @@
-public enum InvalidChannelEventParameterValuePolicy // TypeDefIndex: 7604
+public enum InvalidChannelEventParameterValuePolicy // TypeDefIndex: 7607
 {
 	public byte value__; 
 	public const InvalidChannelEventParameterValuePolicy Abort = 0;

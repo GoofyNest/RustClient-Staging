@@ -1,4 +1,4 @@
-public class LensDirtinessEffect : PostProcessEffectSettings // TypeDefIndex: 12004
+public class LensDirtinessEffect : PostProcessEffectSettings // TypeDefIndex: 12015
 {
 	public TextureParameter dirtinessTexture; 
 	public BoolParameter sceneTintsBloom; 

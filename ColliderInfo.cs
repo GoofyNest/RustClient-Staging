@@ -1,4 +1,4 @@
-public class ColliderInfo : MonoBehaviour // TypeDefIndex: 11567
+public class ColliderInfo : MonoBehaviour // TypeDefIndex: 11578
 {
 	public const ColliderInfo.Flags FlagsNone = 0;
 	public const ColliderInfo.Flags FlagsEverything = -1;
@@ -17,7 +17,7 @@ public class ColliderInfo : MonoBehaviour // TypeDefIndex: 11567
 
 }
 
-public enum ColliderInfo.Flags // TypeDefIndex: 11568
+public enum ColliderInfo.Flags // TypeDefIndex: 11579
 {
 	public int value__; 
 	public const ColliderInfo.Flags Usable = 1;

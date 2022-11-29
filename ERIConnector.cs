@@ -1,4 +1,4 @@
-public class ERIConnector : MonoBehaviour // TypeDefIndex: 7233
+public class ERIConnector : MonoBehaviour // TypeDefIndex: 7236
 {
 	public float roadWidth1; 
 	public float leftIndentInner1; 

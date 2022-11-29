@@ -1,4 +1,4 @@
-public class CommandBufferDesc // TypeDefIndex: 12388
+public class CommandBufferDesc // TypeDefIndex: 12400
 {
 	[CompilerGeneratedAttribute] 
 	private CameraEvent <CameraEvent>k__BackingField; 
@@ -34,7 +34,7 @@ public class CommandBufferDesc // TypeDefIndex: 12388
 
 }
 
-public sealed class CommandBufferDesc.FillCommandBuffer : MulticastDelegate // TypeDefIndex: 12389
+public sealed class CommandBufferDesc.FillCommandBuffer : MulticastDelegate // TypeDefIndex: 12401
 {
 
 	public void .ctor(object object, IntPtr method) { }

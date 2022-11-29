@@ -1,4 +1,4 @@
-public class MovementSounds : MonoBehaviour, IOnParentDestroying, ISoundBudgetedUpdate // TypeDefIndex: 11968
+public class MovementSounds : MonoBehaviour, IOnParentDestroying, ISoundBudgetedUpdate // TypeDefIndex: 11979
 {
 	public SoundDefinition waterMovementDef; 
 	public float waterMovementFadeInSpeed; 

@@ -1,4 +1,4 @@
-public class HLODBounds : MonoBehaviour, IEditorComponent // TypeDefIndex: 11660
+public class HLODBounds : MonoBehaviour, IEditorComponent // TypeDefIndex: 11671
 {
 	[TooltipAttribute] 
 	public Bounds MeshBounds; 
@@ -15,8 +15,6 @@ public class HLODBounds : MonoBehaviour, IEditorComponent // TypeDefIndex: 11660
 	public MeshTrimSettings Settings; 
 	public RendererLOD DebugComponent; 
 	public bool ShowTrimSettings; 
-	[TooltipAttribute] 
-	public bool SkipGeneration; 
 
 
 	public void .ctor() { }

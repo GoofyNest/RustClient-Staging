@@ -1,4 +1,4 @@
-public class Transform : Component, IEnumerable // TypeDefIndex: 3571
+public class Transform : Component, IEnumerable // TypeDefIndex: 3572
 {
 	public Vector3 position { get; set; }
 	public Vector3 localPosition { get; set; }
@@ -159,8 +159,8 @@ public class Transform : Component, IEnumerable // TypeDefIndex: 3571
 
 	public IEnumerator GetEnumerator() { }
 
-	[FreeFunctionAttribute] 
 	[NativeThrowsAttribute] 
+	[FreeFunctionAttribute] 
 	public Transform GetChild(int index) { }
 
 	private void get_position_Injected(out Vector3 ret) { }
@@ -209,7 +209,7 @@ public class Transform : Component, IEnumerable // TypeDefIndex: 3571
 
 }
 
-private class Transform.Enumerator : IEnumerator // TypeDefIndex: 3572
+private class Transform.Enumerator : IEnumerator // TypeDefIndex: 3573
 {
 	private Transform outer; 
 	private int currentIndex; 

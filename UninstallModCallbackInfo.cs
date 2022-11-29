@@ -1,4 +1,4 @@
-public struct UninstallModCallbackInfo : ICallbackInfo // TypeDefIndex: 9027
+public struct UninstallModCallbackInfo : ICallbackInfo // TypeDefIndex: 9033
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

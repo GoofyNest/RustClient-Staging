@@ -1,4 +1,4 @@
-public static class NotesManagingUtilities // TypeDefIndex: 7458
+public static class NotesManagingUtilities // TypeDefIndex: 7461
 {
 
 	[ExtensionAttribute] 
@@ -12,7 +12,7 @@ public static class NotesManagingUtilities // TypeDefIndex: 7458
 
 }
 
-private sealed class NotesManagingUtilities.<>c // TypeDefIndex: 7459
+private sealed class NotesManagingUtilities.<>c // TypeDefIndex: 7462
 {
 	public static readonly NotesManagingUtilities.<>c <>9; 
 	public static Func<TrackChunk, EventsCollection> <>9__16_0; 
@@ -23,9 +23,9 @@ private sealed class NotesManagingUtilities.<>c // TypeDefIndex: 7459
 
 	public void .ctor() { }
 
-	internal EventsCollection <GetNotes>b__16_0(TrackChunk c) { }
+	internal EventsCollection <GetNotes>
 
-	internal int <GetNotes>b__16_1(EventsCollection e) { }
+	internal int <GetNotes>
 
 }
 

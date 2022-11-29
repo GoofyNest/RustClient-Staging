@@ -1,4 +1,4 @@
-public class VirtualScroll : MonoBehaviour // TypeDefIndex: 13771
+public class VirtualScroll : MonoBehaviour // TypeDefIndex: 13802
 {
 	public int ItemHeight; 
 	public int ItemSpacing; 
@@ -43,7 +43,7 @@ public class VirtualScroll : MonoBehaviour // TypeDefIndex: 13771
 
 }
 
-private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 13773
+private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 13804
 {
 	public int startVisible; 
 	public float endVisible; 
@@ -51,11 +51,11 @@ private sealed class VirtualScroll.<>c__DisplayClass20_0 // TypeDefIndex: 13773
 
 	public void .ctor() { }
 
-	internal bool <RecycleOutOfRange>b__0(int x) { }
+	internal bool <RecycleOutOfRange>
 
 }
 
-private sealed class VirtualScroll.<>c // TypeDefIndex: 13774
+private sealed class VirtualScroll.<>c // TypeDefIndex: 13805
 {
 	public static readonly VirtualScroll.<>c <>9; 
 	public static Func<int, int> <>9__20_1; 
@@ -65,7 +65,7 @@ private sealed class VirtualScroll.<>c // TypeDefIndex: 13774
 
 	public void .ctor() { }
 
-	internal int <RecycleOutOfRange>b__20_1(int x) { }
+	internal int <RecycleOutOfRange>
 
 }
 

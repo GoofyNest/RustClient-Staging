@@ -1,4 +1,4 @@
-public class CounterConfig : UIDialog // TypeDefIndex: 10446
+public class CounterConfig : UIDialog // TypeDefIndex: 10454
 {
 	private PowerCounter powerCounter; 
 	public InputField input; 

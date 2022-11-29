@@ -1,4 +1,4 @@
-public class TreeMarkerData : PrefabAttribute, IServerComponent // TypeDefIndex: 11407
+public class TreeMarkerData : PrefabAttribute, IServerComponent // TypeDefIndex: 11417
 {
 	public TreeMarkerData.GenerationArc[] GenerationArcs; 
 	public TreeMarkerData.MarkerLocation[] Markers; 
@@ -15,14 +15,14 @@ public class TreeMarkerData : PrefabAttribute, IServerComponent // TypeDefIndex:
 
 }
 
-public struct TreeMarkerData.MarkerLocation // TypeDefIndex: 11408
+public struct TreeMarkerData.MarkerLocation // TypeDefIndex: 11418
 {
 	public Vector3 LocalPosition; 
 	public Vector3 LocalNormal; 
 
 }
 
-public struct TreeMarkerData.GenerationArc // TypeDefIndex: 11409
+public struct TreeMarkerData.GenerationArc // TypeDefIndex: 11419
 {
 	public Vector3 CentrePoint; 
 	public float Radius; 

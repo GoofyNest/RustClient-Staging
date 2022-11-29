@@ -1,4 +1,4 @@
-public class DynamicDungeon : BaseEntity, IMissionEntityListener // TypeDefIndex: 10557
+public class DynamicDungeon : BaseEntity, IMissionEntityListener // TypeDefIndex: 10565
 {
 	public Transform exitEntitySpawn; 
 	public GameObjectRef exitEntity; 

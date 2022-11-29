@@ -1,4 +1,4 @@
-internal struct LogoutOptionsInternal : ISettable<LogoutOptions>, IDisposable // TypeDefIndex: 9673
+internal struct LogoutOptionsInternal : ISettable<LogoutOptions>, IDisposable // TypeDefIndex: 9679
 {
 	private int m_ApiVersion; 
 	private IntPtr m_LocalUserId; 

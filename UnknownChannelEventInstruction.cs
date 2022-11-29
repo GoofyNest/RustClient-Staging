@@ -1,4 +1,4 @@
-public enum UnknownChannelEventInstruction // TypeDefIndex: 7617
+public enum UnknownChannelEventInstruction // TypeDefIndex: 7620
 {
 	public int value__; 
 	public const UnknownChannelEventInstruction Abort = 0;

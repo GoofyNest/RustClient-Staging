@@ -1,4 +1,4 @@
-public struct SendPlayerBehaviorReportCompleteCallbackInfo : ICallbackInfo // TypeDefIndex: 8630
+public struct SendPlayerBehaviorReportCompleteCallbackInfo : ICallbackInfo // TypeDefIndex: 8636
 {
 	[CompilerGeneratedAttribute] 
 	private Result <ResultCode>k__BackingField; 

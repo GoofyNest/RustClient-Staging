@@ -1,4 +1,4 @@
-public class LootPanelOven : LootPanel // TypeDefIndex: 12792
+public class LootPanelOven : LootPanel // TypeDefIndex: 12811
 {
 	private OvenLootPanel ovenPanel; 
 
@@ -29,10 +29,10 @@ public class LootPanelOven : LootPanel // TypeDefIndex: 12792
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private void <Awake>b__5_0() { }
+	private void <Awake>
 
 	[CompilerGeneratedAttribute] 
-	private void <Awake>b__5_1() { }
+	private void <Awake>
 
 }
 

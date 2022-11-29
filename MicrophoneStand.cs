@@ -1,4 +1,4 @@
-public class MicrophoneStand : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6423
+public class MicrophoneStand : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6426
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -60,7 +60,7 @@ public class MicrophoneStand : IDisposable, Pool.IPooled, IProto // TypeDefIndex
 
 }
 
-public class MicrophoneStand : BaseMountable // TypeDefIndex: 10319
+public class MicrophoneStand : BaseMountable // TypeDefIndex: 10326
 {
 	public VoiceProcessor VoiceProcessor; 
 	public AudioSource VoiceSource; 
@@ -95,17 +95,17 @@ public class MicrophoneStand : BaseMountable // TypeDefIndex: 10319
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private void <OnClientInput>b__19_0(BasePlayer ply) { }
+	private void <OnClientInput>
 
 	[CompilerGeneratedAttribute] 
-	private void <OnClientInput>b__19_1(BasePlayer ply) { }
+	private void <OnClientInput>
 
 	[CompilerGeneratedAttribute] 
-	private void <OnClientInput>b__19_2(BasePlayer ply) { }
+	private void <OnClientInput>
 
 }
 
-public enum MicrophoneStand.SpeechMode // TypeDefIndex: 10320
+public enum MicrophoneStand.SpeechMode // TypeDefIndex: 10327
 {
 	public int value__; 
 	public const MicrophoneStand.SpeechMode Normal = 0;

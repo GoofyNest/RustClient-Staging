@@ -1,4 +1,4 @@
-public class LODMasterMesh : LODComponent // TypeDefIndex: 11670
+public class LODMasterMesh : LODComponent // TypeDefIndex: 11681
 {
 	public MeshRenderer ReplacementMesh; 
 	public float Distance; 
@@ -50,7 +50,7 @@ public class LODMasterMesh : LODComponent // TypeDefIndex: 11670
 
 }
 
-private class LODMasterMesh.LODEnableQueue : ObjectWorkQueue<LODComponent> // TypeDefIndex: 11671
+private class LODMasterMesh.LODEnableQueue : ObjectWorkQueue<LODComponent> // TypeDefIndex: 11682
 {
 	public bool TargetState; 
 

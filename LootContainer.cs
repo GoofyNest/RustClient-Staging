@@ -1,4 +1,4 @@
-public class LootContainer : StorageContainer // TypeDefIndex: 11319
+public class LootContainer : StorageContainer // TypeDefIndex: 11329
 {
 
 public interface ISplashable
@@ -36,7 +36,7 @@ public class LootContainer : StorageContainer
 
 }
 
-public enum LootContainer.spawnType // TypeDefIndex: 11320
+public enum LootContainer.spawnType // TypeDefIndex: 11330
 {
 	public int value__; 
 	public const LootContainer.spawnType GENERIC = 0;
@@ -48,7 +48,7 @@ public enum LootContainer.spawnType // TypeDefIndex: 11320
 
 }
 
-public struct LootContainer.LootSpawnSlot // TypeDefIndex: 11321
+public struct LootContainer.LootSpawnSlot // TypeDefIndex: 11331
 {
 	public LootSpawn definition; 
 	public int numberToSpawn; 

@@ -1,4 +1,4 @@
-public struct CheckoutEntry // TypeDefIndex: 9419
+public struct CheckoutEntry // TypeDefIndex: 9425
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <OfferId>k__BackingField; 

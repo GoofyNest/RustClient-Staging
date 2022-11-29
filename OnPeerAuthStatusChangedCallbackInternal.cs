@@ -1,4 +1,4 @@
-internal sealed class OnPeerAuthStatusChangedCallbackInternal : MulticastDelegate // TypeDefIndex: 9835
+internal sealed class OnPeerAuthStatusChangedCallbackInternal : MulticastDelegate // TypeDefIndex: 9841
 {
 
 	public void .ctor(object object, IntPtr method) { }

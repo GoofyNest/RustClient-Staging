@@ -1,4 +1,4 @@
-public class Upkeep : PrefabAttribute // TypeDefIndex: 11260
+public class Upkeep : PrefabAttribute // TypeDefIndex: 11270
 {
 	public float upkeepMultiplier; 
 

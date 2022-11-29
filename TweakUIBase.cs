@@ -1,4 +1,4 @@
-public class TweakUIBase : MonoBehaviour // TypeDefIndex: 12912
+public class TweakUIBase : MonoBehaviour // TypeDefIndex: 12931
 {
 	public string convarName; 
 	public bool ApplyImmediatelyOnChange; 

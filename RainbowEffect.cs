@@ -1,4 +1,4 @@
-public class RainbowEffect : WeatherEffect // TypeDefIndex: 11811
+public class RainbowEffect : WeatherEffect // TypeDefIndex: 11822
 {
 
 	protected override float GetCurrentIntensity() { }

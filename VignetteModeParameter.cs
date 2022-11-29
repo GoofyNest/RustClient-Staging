@@ -1,4 +1,4 @@
-public sealed class VignetteModeParameter : ParameterOverride<VignetteMode> // TypeDefIndex: 13584
+public sealed class VignetteModeParameter : ParameterOverride<VignetteMode> // TypeDefIndex: 13615
 {
 
 	public void .ctor() { }

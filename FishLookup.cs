@@ -1,4 +1,4 @@
-public class FishLookup : PrefabAttribute // TypeDefIndex: 10591
+public class FishLookup : PrefabAttribute // TypeDefIndex: 10599
 {
 	public ItemModFishable FallbackFish; 
 

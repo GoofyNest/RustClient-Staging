@@ -1,4 +1,4 @@
-public class DroppedItem : WorldItem // TypeDefIndex: 11520
+public class DroppedItem : WorldItem // TypeDefIndex: 11531
 {
 	[HeaderAttribute] 
 	public GameObject itemModel; 
@@ -18,7 +18,7 @@ public class DroppedItem : WorldItem // TypeDefIndex: 11520
 	public void .ctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private bool <PostInitShared>b__2_0(ItemSkinDirectory.Skin x) { }
+	private bool <PostInitShared>
 
 }
 

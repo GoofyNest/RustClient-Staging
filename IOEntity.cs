@@ -1,4 +1,4 @@
-public class IOEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6359
+public class IOEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6361
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -68,7 +68,7 @@ public class IOEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6359
 
 }
 
-public class IOEntity.IOConnection : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6360
+public class IOEntity.IOConnection : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6362
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -135,7 +135,7 @@ public class IOEntity.IOConnection : IDisposable, Pool.IPooled, IProto // TypeDe
 
 }
 
-public class IOEntity.IOConnection.LineVec : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6361
+public class IOEntity.IOConnection.LineVec : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6363
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -196,7 +196,7 @@ public class IOEntity.IOConnection.LineVec : IDisposable, Pool.IPooled, IProto /
 
 }
 
-public class IOEntity.IOConnection.LinePointList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6362
+public class IOEntity.IOConnection.LinePointList : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6364
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -264,7 +264,7 @@ public class IOEntity.IOConnection.LinePointList : IDisposable, Pool.IPooled, IP
 
 }
 
-public class IOEntity : DecayEntity // TypeDefIndex: 10301
+public class IOEntity : DecayEntity // TypeDefIndex: 10308
 {
 	[HeaderAttribute] 
 	public Transform debugOrigin; 
@@ -276,6 +276,10 @@ public class IOEntity : DecayEntity // TypeDefIndex: 10301
 	public static float responsetime; 
 	[ServerVar] 
 	public static int backtracking; 
+	[ServerVar] 
+	public static bool debugBudget; 
+	[ServerVar] 
+	public static float debugBudgetThreshold; 
 	public const BaseEntity.Flags Flag_ShortCircuit = 32768;
 	public const BaseEntity.Flags Flag_HasPower = 65536;
 	public IOEntity.IOSlot[] inputs; 
@@ -310,6 +314,8 @@ public class IOEntity : DecayEntity // TypeDefIndex: 10301
 	public virtual bool WantsPassthroughPower() { }
 
 	public virtual int ConsumptionAmount() { }
+
+	public virtual bool ShouldDrainBattery(IOEntity battery) { }
 
 	public virtual int MaximalPowerOutput() { }
 
@@ -356,7 +362,7 @@ public class IOEntity : DecayEntity // TypeDefIndex: 10301
 
 }
 
-public enum IOEntity.IOType // TypeDefIndex: 10302
+public enum IOEntity.IOType // TypeDefIndex: 10309
 {
 	public int value__; 
 	public const IOEntity.IOType Electric = 0;
@@ -366,7 +372,7 @@ public enum IOEntity.IOType // TypeDefIndex: 10302
 
 }
 
-public class IOEntity.IORef // TypeDefIndex: 10303
+public class IOEntity.IORef // TypeDefIndex: 10310
 {
 	public EntityRef entityRef; 
 	public IOEntity ioEnt; 
@@ -386,7 +392,7 @@ public class IOEntity.IORef // TypeDefIndex: 10303
 
 }
 
-public class IOEntity.IOSlot // TypeDefIndex: 10304
+public class IOEntity.IOSlot // TypeDefIndex: 10311
 {
 	public string niceName; 
 	public IOEntity.IOType type; 

@@ -1,4 +1,4 @@
-public class GenerateRoadTexture : ProceduralComponent // TypeDefIndex: 12265
+public class GenerateRoadTexture : ProceduralComponent // TypeDefIndex: 12277
 {
 
 	public override void Process(uint seed) { }

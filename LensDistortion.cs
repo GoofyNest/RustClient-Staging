@@ -1,4 +1,4 @@
-public sealed class LensDistortion : PostProcessEffectSettings // TypeDefIndex: 13560
+public sealed class LensDistortion : PostProcessEffectSettings // TypeDefIndex: 13591
 {
 	[RangeAttribute] 
 	[TooltipAttribute] 

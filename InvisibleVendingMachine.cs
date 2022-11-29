@@ -1,4 +1,4 @@
-public class InvisibleVendingMachine : NPCVendingMachine // TypeDefIndex: 10437
+public class InvisibleVendingMachine : NPCVendingMachine // TypeDefIndex: 10445
 {
 	public GameObjectRef buyEffect; 
 	public NPCVendingOrderManifest vmoManifest; 

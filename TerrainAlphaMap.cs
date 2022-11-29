@@ -1,4 +1,4 @@
-public class TerrainAlphaMap : TerrainMap<byte> // TypeDefIndex: 12134
+public class TerrainAlphaMap : TerrainMap<byte> // TypeDefIndex: 12145
 {
 	[FormerlySerializedAsAttribute] 
 	public Texture2D AlphaTexture; 
@@ -32,7 +32,7 @@ public class TerrainAlphaMap : TerrainMap<byte> // TypeDefIndex: 12134
 
 }
 
-private sealed class TerrainAlphaMap.<>c__DisplayClass2_0 // TypeDefIndex: 12135
+private sealed class TerrainAlphaMap.<>c__DisplayClass2_0 // TypeDefIndex: 12146
 {
 	public TerrainAlphaMap <>4__this; 
 	public Color32[] col; 
@@ -40,11 +40,11 @@ private sealed class TerrainAlphaMap.<>c__DisplayClass2_0 // TypeDefIndex: 12135
 
 	public void .ctor() { }
 
-	internal void <GenerateTextures>b__0(int z) { }
+	internal void <GenerateTextures>
 
 }
 
-private sealed class TerrainAlphaMap.<>c__DisplayClass12_0 // TypeDefIndex: 12136
+private sealed class TerrainAlphaMap.<>c__DisplayClass12_0 // TypeDefIndex: 12147
 {
 	public float opacity; 
 	public TerrainAlphaMap <>4__this; 
@@ -53,7 +53,7 @@ private sealed class TerrainAlphaMap.<>c__DisplayClass12_0 // TypeDefIndex: 1213
 
 	public void .ctor() { }
 
-	internal void <SetAlpha>b__0(int x, int z, float lerp) { }
+	internal void <SetAlpha>
 
 }
 

@@ -1,4 +1,4 @@
-public class BasePortal : BaseCombatEntity // TypeDefIndex: 10059
+public class BasePortal : BaseCombatEntity // TypeDefIndex: 10065
 {
 	private Option __menuOption_Menu_UsePortal; 
 	public bool isUsablePortal; 

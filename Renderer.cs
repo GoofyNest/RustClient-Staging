@@ -1,4 +1,4 @@
-public class Renderer : Component // TypeDefIndex: 3403
+public class Renderer : Component // TypeDefIndex: 3404
 {
 	[ObsoleteAttribute] 
 	public bool motionVectors { set; }

@@ -1,4 +1,4 @@
-public class ArcadeEntityController : BaseMonoBehaviour // TypeDefIndex: 10476
+public class ArcadeEntityController : BaseMonoBehaviour // TypeDefIndex: 10484
 {
 	public BaseArcadeGame parentGame; 
 	public ArcadeEntity arcadeEntity; 

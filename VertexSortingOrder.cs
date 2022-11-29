@@ -1,4 +1,4 @@
-public enum VertexSortingOrder // TypeDefIndex: 6746
+public enum VertexSortingOrder // TypeDefIndex: 6749
 {
 	public int value__; 
 	public const VertexSortingOrder Normal = 0;

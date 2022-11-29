@@ -1,4 +1,4 @@
-public sealed class OnDestroySessionCallback : MulticastDelegate // TypeDefIndex: 8496
+public sealed class OnDestroySessionCallback : MulticastDelegate // TypeDefIndex: 8502
 {
 
 	public void .ctor(object object, IntPtr method) { }

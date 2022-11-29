@@ -1,4 +1,4 @@
-public class HorseSpawner : VehicleSpawner // TypeDefIndex: 10566
+public class HorseSpawner : VehicleSpawner // TypeDefIndex: 10574
 {
 	public float respawnDelay; 
 	public float respawnDelayVariance; 

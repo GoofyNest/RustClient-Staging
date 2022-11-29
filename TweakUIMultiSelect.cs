@@ -1,4 +1,4 @@
-public class TweakUIMultiSelect : TweakUIBase // TypeDefIndex: 12916
+public class TweakUIMultiSelect : TweakUIBase // TypeDefIndex: 12935
 {
 	public ToggleGroup toggleGroup; 
 
@@ -17,7 +17,7 @@ public class TweakUIMultiSelect : TweakUIBase // TypeDefIndex: 12916
 
 }
 
-private sealed class TweakUIMultiSelect.<>c // TypeDefIndex: 12917
+private sealed class TweakUIMultiSelect.<>c // TypeDefIndex: 12936
 {
 	public static readonly TweakUIMultiSelect.<>c <>9; 
 	public static Func<Toggle, bool> <>9__5_0; 
@@ -27,7 +27,7 @@ private sealed class TweakUIMultiSelect.<>c // TypeDefIndex: 12917
 
 	public void .ctor() { }
 
-	internal bool <UpdateConVar>b__5_0(Toggle x) { }
+	internal bool <UpdateConVar>
 
 }
 

@@ -1,4 +1,4 @@
-public class TextProOnACircle : TextProOnACurve // TypeDefIndex: 7158
+public class TextProOnACircle : TextProOnACurve // TypeDefIndex: 7161
 {
 
 internal class <Module>

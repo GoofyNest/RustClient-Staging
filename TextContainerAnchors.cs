@@ -1,4 +1,4 @@
-public enum TextContainerAnchors // TypeDefIndex: 6805
+public enum TextContainerAnchors // TypeDefIndex: 6808
 {
 	public int value__; 
 	public const TextContainerAnchors TopLeft = 0;

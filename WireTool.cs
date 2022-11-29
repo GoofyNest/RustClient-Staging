@@ -1,4 +1,4 @@
-public class WireTool : HeldEntity // TypeDefIndex: 10377
+public class WireTool : HeldEntity // TypeDefIndex: 10385
 {
 	public Sprite InputSprite; 
 	public Sprite OutputSprite; 
@@ -8,6 +8,7 @@ public class WireTool : HeldEntity // TypeDefIndex: 10377
 	public GameObjectRef plugEffect; 
 	public GameObjectRef ioLine; 
 	public IOEntity.IOType wireType; 
+	public float RadialMenuHoldTime; 
 	public static Translate.Phrase Default; 
 	public static Translate.Phrase DefaultDesc; 
 	public static Translate.Phrase Red; 
@@ -18,16 +19,28 @@ public class WireTool : HeldEntity // TypeDefIndex: 10377
 	public static Translate.Phrase BlueDesc; 
 	public static Translate.Phrase Yellow; 
 	public static Translate.Phrase YellowDesc; 
+	public static Translate.Phrase LightBlue; 
+	public static Translate.Phrase LightBlueDesc; 
+	public static Translate.Phrase Orange; 
+	public static Translate.Phrase OrangeDesc; 
+	public static Translate.Phrase Purple; 
+	public static Translate.Phrase PurpleDesc; 
+	public static Translate.Phrase White; 
+	public static Translate.Phrase WhiteDesc; 
+	public static Translate.Phrase Pink; 
+	public static Translate.Phrase PinkDesc; 
 	public WireTool.PendingPlug_t pending; 
 	private const float lineThickness = 0,02;
 	private bool wantsCrosshair; 
 	private ClientIOLine pendingLine; 
 	private WireTool.WireColour currentColour; 
 	private float nextClearSendTime; 
+	private float nextColorChangeTime; 
 	private float remainingDist; 
 	private bool validSurface; 
 	private bool couldBuild; 
 	private bool isSolo; 
+	private float reloadDownTime; 
 	private float clearProgress; 
 
 	public bool CanChangeColours { get; }
@@ -70,6 +83,8 @@ public class WireTool : HeldEntity // TypeDefIndex: 10377
 	public bool ValidSurface() { }
 
 	public void ClientRequestClear(IOEntity ent, int slot, bool input) { }
+
+	public void ClientRequestColorChange(IOEntity ent, int slot, bool input, WireTool.WireColour color) { }
 
 	public IOEntity GetLookingAtIOEnt() { }
 
@@ -118,26 +133,41 @@ public class WireTool : HeldEntity // TypeDefIndex: 10377
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private void <AddClearConnections>b__5_0(BasePlayer ply) { }
+	private void <AddClearConnections>
 
 	[CompilerGeneratedAttribute] 
-	private void <OnInput>b__67_0(BasePlayer ply) { }
+	private void <OnInput>
 
 	[CompilerGeneratedAttribute] 
-	private void <OnInput>b__67_1(BasePlayer ply) { }
+	private void <OnInput>
 
 	[CompilerGeneratedAttribute] 
-	private void <OnInput>b__67_2(BasePlayer ply) { }
+	private void <OnInput>
 
 	[CompilerGeneratedAttribute] 
-	private void <OnInput>b__67_3(BasePlayer ply) { }
+	private void <OnInput>
 
 	[CompilerGeneratedAttribute] 
-	private void <OnInput>b__67_4(BasePlayer ply) { }
+	private void <OnInput>
+
+	[CompilerGeneratedAttribute] 
+	private void <OnInput>
+
+	[CompilerGeneratedAttribute] 
+	private void <OnInput>
+
+	[CompilerGeneratedAttribute] 
+	private void <OnInput>
+
+	[CompilerGeneratedAttribute] 
+	private void <OnInput>
+
+	[CompilerGeneratedAttribute] 
+	private void <OnInput>
 
 }
 
-public enum WireTool.WireColour // TypeDefIndex: 10378
+public enum WireTool.WireColour // TypeDefIndex: 10386
 {
 	public int value__; 
 	public const WireTool.WireColour Default = 0;
@@ -145,10 +175,16 @@ public enum WireTool.WireColour // TypeDefIndex: 10378
 	public const WireTool.WireColour Green = 2;
 	public const WireTool.WireColour Blue = 3;
 	public const WireTool.WireColour Yellow = 4;
+	public const WireTool.WireColour Pink = 5;
+	public const WireTool.WireColour Purple = 6;
+	public const WireTool.WireColour Orange = 7;
+	public const WireTool.WireColour White = 8;
+	public const WireTool.WireColour LightBlue = 9;
+	public const WireTool.WireColour Count = 10;
 
 }
 
-public struct WireTool.PendingPlug_t // TypeDefIndex: 10379
+public struct WireTool.PendingPlug_t // TypeDefIndex: 10387
 {
 	public IOEntity ent; 
 	public bool input; 
@@ -157,7 +193,7 @@ public struct WireTool.PendingPlug_t // TypeDefIndex: 10379
 
 }
 
-private sealed class WireTool.<>c__DisplayClass4_0 // TypeDefIndex: 10380
+private sealed class WireTool.<>c__DisplayClass4_0 // TypeDefIndex: 10388
 {
 	public WireTool <>4__this; 
 	public bool input; 
@@ -166,21 +202,21 @@ private sealed class WireTool.<>c__DisplayClass4_0 // TypeDefIndex: 10380
 
 	public void .ctor() { }
 
-	internal void <AddIOOption>b__0(BasePlayer ply) { }
+	internal void <AddIOOption>
 
 }
 
-private sealed class WireTool.<>c // TypeDefIndex: 10381
+private sealed class WireTool.<>c // TypeDefIndex: 10389
 {
 	public static readonly WireTool.<>c <>9; 
-	public static Func<Collider, bool> <>9__33_0; 
+	public static Func<Collider, bool> <>9__44_0; 
 
 
 	private static void .cctor() { }
 
 	public void .ctor() { }
 
-	internal bool <CanPlayerUseWires>b__33_0(Collider collider) { }
+	internal bool <CanPlayerUseWires>
 
 }
 

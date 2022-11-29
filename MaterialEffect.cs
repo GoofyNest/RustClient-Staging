@@ -1,4 +1,4 @@
-public class MaterialEffect : ScriptableObject // TypeDefIndex: 11935
+public class MaterialEffect : ScriptableObject // TypeDefIndex: 11946
 {
 	public GameObjectRef DefaultEffect; 
 	public SoundDefinition DefaultSoundDefinition; 
@@ -24,7 +24,7 @@ public class MaterialEffect : ScriptableObject // TypeDefIndex: 11935
 
 }
 
-public class MaterialEffect.Entry // TypeDefIndex: 11936
+public class MaterialEffect.Entry // TypeDefIndex: 11947
 {
 	public PhysicMaterial Material; 
 	public GameObjectRef Effect; 

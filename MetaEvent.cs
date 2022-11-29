@@ -1,4 +1,4 @@
-public abstract class MetaEvent : MidiEvent // TypeDefIndex: 7527
+public abstract class MetaEvent : MidiEvent // TypeDefIndex: 7530
 {
 
 	protected void .ctor() { }

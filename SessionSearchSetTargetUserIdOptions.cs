@@ -1,4 +1,4 @@
-public struct SessionSearchSetTargetUserIdOptions // TypeDefIndex: 8596
+public struct SessionSearchSetTargetUserIdOptions // TypeDefIndex: 8602
 {
 	[CompilerGeneratedAttribute] 
 	private ProductUserId <TargetUserId>k__BackingField; 

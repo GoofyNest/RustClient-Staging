@@ -1,4 +1,4 @@
-public class BitstreamException : MP3SharpException // TypeDefIndex: 7396
+public class BitstreamException : MP3SharpException // TypeDefIndex: 7399
 {
 	private int _ErrorCode; 
 

@@ -1,4 +1,4 @@
-public class GrowableEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6330
+public class GrowableEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex: 6332
 {
 	public bool ShouldPool; 
 	private bool _disposed; 
@@ -76,11 +76,15 @@ public class GrowableEntity : IDisposable, Pool.IPooled, IProto // TypeDefIndex:
 
 }
 
-public class GrowableEntity : BaseCombatEntity, IInstanceDataReceiver // TypeDefIndex: 10107
+public class GrowableEntity : BaseCombatEntity, IInstanceDataReceiver // TypeDefIndex: 10113
 {
 	private Option __menuOption_MenuClone; 
+	private Option __menuOption_MenuCloneAll; 
+	private Option __menuOption_MenuEat; 
 	private Option __menuOption_MenuPick; 
+	private Option __menuOption_MenuPickAll; 
 	private Option __menuOption_MenuRemove; 
+	private Option __menuOption_MenuRemoveAll; 
 	private TimeSince qualityUpdate; 
 	private DeferredAction skinChange; 
 	private GameObject skin; 
@@ -144,26 +148,52 @@ public class GrowableEntity : BaseCombatEntity, IInstanceDataReceiver // TypeDef
 
 	[BaseEntity.Menu] 
 	[BaseEntity.Menu.ShowIf] 
+	public void MenuEat(BasePlayer ply) { }
+
+	private bool MenuCanEat(BasePlayer player) { }
+
+	[BaseEntity.Menu] 
+	[BaseEntity.Menu.ShowIf] 
 	public void MenuPick(BasePlayer ply) { }
 
-	public bool MenuCanPick(BasePlayer player) { }
+	private bool MenuCanPick(BasePlayer player) { }
+
+	[BaseEntity.Menu] 
+	[BaseEntity.Menu.ShowIf] 
+	private void MenuPickAll(BasePlayer ply) { }
+
+	public bool MenuCanPickAll(BasePlayer player) { }
 
 	[BaseEntity.Menu] 
 	[BaseEntity.Menu.ShowIf] 
 	public void MenuClone(BasePlayer ply) { }
 
-	public bool MenuCanClone(BasePlayer player) { }
+	private bool MenuCanClone(BasePlayer player) { }
+
+	[BaseEntity.Menu] 
+	[BaseEntity.Menu.ShowIf] 
+	public void MenuCloneAll(BasePlayer ply) { }
+
+	private bool MenuCanCloneAll(BasePlayer player) { }
 
 	[BaseEntity.Menu] 
 	[BaseEntity.Menu.ShowIf] 
 	public void MenuRemove(BasePlayer ply) { }
 
-	public bool MenuCanRemove(BasePlayer player) { }
+	private bool MenuCanRemove(BasePlayer player) { }
+
+	[BaseEntity.Menu] 
+	[BaseEntity.Menu.ShowIf] 
+	public void MenuRemoveAll(BasePlayer ply) { }
+
+	private bool MenuCanRemoveAll(BasePlayer player) { }
 
 	public override void LookingAtTick() { }
 
 	[BaseEntity.RPC_Client] 
 	private void RPC_ReceiveQualityUpdate(BaseEntity.RPCMessage msg) { }
+
+	public bool IsFood() { }
 
 	private void ChangeSkin() { }
 

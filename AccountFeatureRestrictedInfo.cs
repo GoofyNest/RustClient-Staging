@@ -1,4 +1,4 @@
-public struct AccountFeatureRestrictedInfo // TypeDefIndex: 9639
+public struct AccountFeatureRestrictedInfo // TypeDefIndex: 9645
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <VerificationURI>k__BackingField; 

@@ -1,4 +1,4 @@
-public class NewsSource : MonoBehaviour // TypeDefIndex: 12896
+public class NewsSource : MonoBehaviour // TypeDefIndex: 12915
 {
 	private static readonly Regex BbcodeParse; 
 	public RustText title; 
@@ -35,7 +35,7 @@ public class NewsSource : MonoBehaviour // TypeDefIndex: 12896
 
 }
 
-private struct NewsSource.ParagraphBuilder // TypeDefIndex: 12897
+private struct NewsSource.ParagraphBuilder // TypeDefIndex: 12916
 {
 	public StringBuilder StringBuilder; 
 	public List<string> Links; 
@@ -49,20 +49,20 @@ private struct NewsSource.ParagraphBuilder // TypeDefIndex: 12897
 
 }
 
-private sealed class NewsSource.<>c__DisplayClass12_0 // TypeDefIndex: 12898
+private sealed class NewsSource.<>c__DisplayClass12_0 // TypeDefIndex: 12917
 {
 	public SteamNewsSource.Story story; 
 
 
 	public void .ctor() { }
 
-	internal void <SetStory>b__0() { }
+	internal void <SetStory>
 
 	internal Manifest.NewsInfo.BlogInfo <SetStory>g__GetBlogPost|1() { }
 
 }
 
-private sealed class NewsSource.<>c // TypeDefIndex: 12899
+private sealed class NewsSource.<>c // TypeDefIndex: 12918
 {
 	public static readonly NewsSource.<>c <>9; 
 	public static Func<Manifest.NewsInfo.BlogInfo, string> <>9__12_2; 
@@ -72,18 +72,18 @@ private sealed class NewsSource.<>c // TypeDefIndex: 12899
 
 	public void .ctor() { }
 
-	internal string <SetStory>b__12_2(Manifest.NewsInfo.BlogInfo b) { }
+	internal string <SetStory>
 
 }
 
-private sealed class NewsSource.<>c__DisplayClass18_0 // TypeDefIndex: 12900
+private sealed class NewsSource.<>c__DisplayClass18_0 // TypeDefIndex: 12919
 {
 	public string videoUrl; 
 
 
 	public void .ctor() { }
 
-	internal void <AppendYouTube>b__0() { }
+	internal void <AppendYouTube>
 
 }
 

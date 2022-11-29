@@ -24577,7 +24577,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<ColliderState>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<GrowableGeneProperties.GeneWeight>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<HairSetCollection.HairSetEntry>.System.Collections.IEnumerator.get_Current
-	|-Array.EmptyInternalEnumerator<InstrumentKeyController.NoteBinding>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<LifeInfographic.DamageSetting>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<LocalClock.TimedEvent>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<LootSpawn.Entry>.System.Collections.IEnumerator.get_Current
@@ -24952,6 +24951,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Output.Entry>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<IconSkinPicker.SkinButtonSetup>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<InstancingKey>.System.Collections.IEnumerator.get_Current
+	|-Array.EmptyInternalEnumerator<InstrumentKeyController.NoteBinding>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<InvokeAction>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<ItemSkinDirectory.Skin>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<KeyframeView.UIKeyframeValue>.System.Collections.IEnumerator.get_Current
@@ -25052,6 +25052,7 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Admin.PlayerInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<FlexTransition.Definition>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Gibbable.GibMesh>.System.Collections.IEnumerator.get_Current
+	|-Array.EmptyInternalEnumerator<NoteBindingCollection.NoteData>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<PlaceMonuments.SpawnInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<EventSource.EventMetadata>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Matrix4x4>.System.Collections.IEnumerator.get_Current
@@ -25211,7 +25212,6 @@ internal class Array.EmptyInternalEnumerator<T> : IEnumerator<T>, IDisposable, I
 	|-Array.EmptyInternalEnumerator<Tick.Entry>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<Gibbable.OverrideMesh>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<MeshInstance>.System.Collections.IEnumerator.get_Current
-	|-Array.EmptyInternalEnumerator<NoteBindingCollection.NoteData>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<PetCommandList.PetCommandDesc>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<PlaceMonumentsOffshore.SpawnInfo>.System.Collections.IEnumerator.get_Current
 	|-Array.EmptyInternalEnumerator<PlaceMonumentsRailside.SpawnInfo>.System.Collections.IEnumerator.get_Current
@@ -31369,14 +31369,14 @@ internal class ArraySubsetEnumerator : IEnumerator // TypeDefIndex: 2661
 
 }
 
-internal class ArrayIndexFilter : PathFilter // TypeDefIndex: 6083
+internal class ArrayIndexFilter : PathFilter // TypeDefIndex: 6085
 {
 
 	public void .ctor() { }
 
 }
 
-internal class ArrayMultipleIndexFilter : PathFilter // TypeDefIndex: 6085
+internal class ArrayMultipleIndexFilter : PathFilter // TypeDefIndex: 6087
 {
 
 [PreserveAttribute] 
@@ -31386,7 +31386,7 @@ internal class ArrayMultipleIndexFilter : PathFilter
 
 }
 
-internal class ArraySliceFilter : PathFilter // TypeDefIndex: 6087
+internal class ArraySliceFilter : PathFilter // TypeDefIndex: 6089
 {
 
 [PreserveAttribute] 
@@ -31396,7 +31396,7 @@ internal class ArraySliceFilter : PathFilter
 
 }
 
-public abstract class ArrayPool<T> // TypeDefIndex: 6272
+public abstract class ArrayPool<T> // TypeDefIndex: 6274
 {
 	private static ArrayPool<T> s_sharedInstance; 
 
@@ -31445,7 +31445,7 @@ public abstract class ArrayPool<T> // TypeDefIndex: 6272
 
 }
 
-internal sealed class ArrayPoolEventSource : EventSource // TypeDefIndex: 6273
+internal sealed class ArrayPoolEventSource : EventSource // TypeDefIndex: 6275
 {
 	internal static readonly ArrayPoolEventSource Log; 
 
@@ -31465,7 +31465,7 @@ internal sealed class ArrayPoolEventSource : EventSource // TypeDefIndex: 6273
 
 }
 
-internal enum ArrayPoolEventSource.BufferAllocatedReason // TypeDefIndex: 6274
+internal enum ArrayPoolEventSource.BufferAllocatedReason // TypeDefIndex: 6276
 {
 	public int value__; 
 	public const ArrayPoolEventSource.BufferAllocatedReason Pooled = 0;
@@ -31474,7 +31474,7 @@ internal enum ArrayPoolEventSource.BufferAllocatedReason // TypeDefIndex: 6274
 
 }
 
-public class ArrayIndexIsEnum : PropertyAttribute // TypeDefIndex: 6567
+public class ArrayIndexIsEnum : PropertyAttribute // TypeDefIndex: 6570
 {
 
 public class ArrayIndexIsEnum : PropertyAttribute
@@ -31485,7 +31485,7 @@ public class ArrayIndexIsEnum : PropertyAttribute
 
 }
 
-public class ArrayIndexIsEnumRanged : ArrayIndexIsEnum // TypeDefIndex: 6568
+public class ArrayIndexIsEnumRanged : ArrayIndexIsEnum // TypeDefIndex: 6571
 {
 	public float min; 
 	public float max; 
@@ -31495,7 +31495,7 @@ public class ArrayIndexIsEnumRanged : ArrayIndexIsEnum // TypeDefIndex: 6568
 
 }
 
-public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8152
+public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8158
 {
 	private readonly List<Value> values; 
 
@@ -31531,7 +31531,7 @@ public class Array : IEnumerable<Value>, IEnumerable // TypeDefIndex: 8152
 
 }
 
-public static class Arrays // TypeDefIndex: 8237
+public static class Arrays // TypeDefIndex: 8243
 {
 	public static ushort[] flushes; 
 	public static readonly ushort[] unique5; 
@@ -31545,7 +31545,7 @@ public static class Arrays // TypeDefIndex: 8237
 
 }
 
-public static class ArrayEx // TypeDefIndex: 13113
+public static class ArrayEx // TypeDefIndex: 13144
 {
 
 	public static T[] New<T>(int length) { }

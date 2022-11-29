@@ -1,9 +1,9 @@
-public sealed class GameObject : Object // TypeDefIndex: 3517
+public sealed class GameObject : Object // TypeDefIndex: 3518
 {
 
-[NativeHeaderAttribute] 
 [UsedByNativeCodeAttribute] 
 [ExcludeFromPresetAttribute] 
+[NativeHeaderAttribute] 
 public sealed class GameObject : Object
 	public Transform transform { get; }
 	public int layer { get; set; }
@@ -32,6 +32,8 @@ public sealed class GameObject : Object
 	|-GameObject.GetComponent<BaseOven>
 	|-GameObject.GetComponent<BaseProjectile>
 	|-GameObject.GetComponent<BaseViewModel>
+	|-GameObject.GetComponent<BlackjackMainScreenUI>
+	|-GameObject.GetComponent<BlackjackSmallScreenUI>
 	|-GameObject.GetComponent<BlueprintButton>
 	|-GameObject.GetComponent<BobberPreview>
 	|-GameObject.GetComponent<BranchConfig>
@@ -217,16 +219,16 @@ public sealed class GameObject : Object
 	|-GameObject.GetComponent<object>
 	*/
 
-	[TypeInferenceRuleAttribute] 
 	[FreeFunctionAttribute] 
+	[TypeInferenceRuleAttribute] 
 	public Component GetComponent(Type type) { }
 
-	[FreeFunctionAttribute] 
 	[NativeWritableSelfAttribute] 
+	[FreeFunctionAttribute] 
 	internal void GetComponentFastPath(Type type, IntPtr oneFurtherThanResultValue) { }
 
-	[FreeFunctionAttribute] 
 	[TypeInferenceRuleAttribute] 
+	[FreeFunctionAttribute] 
 	public Component GetComponentInChildren(Type type, bool includeInactive) { }
 
 	[ExcludeFromDocsAttribute] 
@@ -250,6 +252,7 @@ public sealed class GameObject : Object
 	|-GameObject.GetComponentInChildren<Rigidbody>
 	|-GameObject.GetComponentInChildren<Button>
 	|-GameObject.GetComponentInChildren<Dropdown.DropdownItem>
+	|-GameObject.GetComponentInChildren<UILineRenderer>
 	|-GameObject.GetComponentInChildren<Text>
 	|-GameObject.GetComponentInChildren<object>
 	*/
@@ -427,8 +430,8 @@ public sealed class GameObject : Object
 	|-GameObject.TryGetComponent<Wearable>
 	*/
 
-	[NativeWritableSelfAttribute] 
 	[FreeFunctionAttribute] 
+	[NativeWritableSelfAttribute] 
 	internal void TryGetComponentFastPath(Type type, IntPtr oneFurtherThanResultValue) { }
 
 	public void SendMessage(string methodName, SendMessageOptions options) { }
@@ -449,6 +452,7 @@ public sealed class GameObject : Object
 	|-GameObject.AddComponent<AddToWaterMap>
 	|-GameObject.AddComponent<AudioInterceptComponent>
 	|-GameObject.AddComponent<BaseEntityChild>
+	|-GameObject.AddComponent<CameraUpdateHook>
 	|-GameObject.AddComponent<ColliderInfo>
 	|-GameObject.AddComponent<CommunityEntity.Countdown>
 	|-GameObject.AddComponent<CommunityEntity.FadeOut>
@@ -489,8 +493,10 @@ public sealed class GameObject : Object
 	|-GameObject.AddComponent<NeedsKeyboardInputField>
 	|-GameObject.AddComponent<ObjectMotionVectorFix>
 	|-GameObject.AddComponent<PlayerLoot>
+	|-GameObject.AddComponent<PostUpdateHook>
 	|-GameObject.AddComponent<PowerLineWire>
 	|-GameObject.AddComponent<PowerLineWireSpan>
+	|-GameObject.AddComponent<PreUpdateHook>
 	|-GameObject.AddComponent<QueryVis>
 	|-GameObject.AddComponent<ReflectionProbeEx>
 	|-GameObject.AddComponent<RendererInfo>
@@ -501,6 +507,7 @@ public sealed class GameObject : Object
 	|-GameObject.AddComponent<IconOutline>
 	|-GameObject.AddComponent<PropRenderer>
 	|-GameObject.AddComponent<WorkshopSkin>
+	|-GameObject.AddComponent<StartOfFrameHook>
 	|-GameObject.AddComponent<TMP_InputField>
 	|-GameObject.AddComponent<TMP_SelectionCaret>
 	|-GameObject.AddComponent<TMP_SubMeshUI>
@@ -551,6 +558,7 @@ public sealed class GameObject : Object
 	|-GameObject.AddComponent<RawImage>
 	|-GameObject.AddComponent<RectMask2D>
 	|-GameObject.AddComponent<Scrollbar>
+	|-GameObject.AddComponent<Shadow>
 	|-GameObject.AddComponent<Text>
 	|-GameObject.AddComponent<UpdateHandler>
 	|-GameObject.AddComponent<ViewModelRenderer>

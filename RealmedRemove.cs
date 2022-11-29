@@ -1,4 +1,4 @@
-public class RealmedRemove : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 11722
+public class RealmedRemove : MonoBehaviour, IPrefabPreProcess // TypeDefIndex: 11733
 {
 	public GameObject[] removedFromClient; 
 	public Component[] removedComponentFromClient; 

@@ -1,7 +1,5 @@
-public class BlackjackMainScreenUI : FacepunchBehaviour // TypeDefIndex: 12620
+public class BlackjackMainScreenUI : FacepunchBehaviour // TypeDefIndex: 12639
 {
-	[SerializeField] 
-	private BlackjackMachine blackjack; 
 	[SerializeField] 
 	private Canvas inGameDisplay; 
 	[SerializeField] 
@@ -40,6 +38,7 @@ public class BlackjackMainScreenUI : FacepunchBehaviour // TypeDefIndex: 12620
 	private BlackjackScreenCardUI[] cards; 
 	[SerializeField] 
 	private Translate.Phrase phraseBust; 
+	public BlackjackMachine blackjack; 
 	public const float LONG_EXPRESSION_TIME = 2;
 	public const float SHORT_EXPRESSION_TIME = 0,7;
 	private BlackjackController.DealerOpinion targetExpression; 

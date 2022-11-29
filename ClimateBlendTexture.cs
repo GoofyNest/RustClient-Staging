@@ -1,4 +1,4 @@
-public class ClimateBlendTexture : ProcessedTexture // TypeDefIndex: 13130
+public class ClimateBlendTexture : ProcessedTexture // TypeDefIndex: 13161
 {
 
 	public void .ctor(int width, int height, bool linear = True) { }

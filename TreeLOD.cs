@@ -1,4 +1,4 @@
-public class TreeLOD : LODComponent, IComparable<TreeLOD> // TypeDefIndex: 11691
+public class TreeLOD : LODComponent, IComparable<TreeLOD> // TypeDefIndex: 11702
 {
 	[HorizontalAttribute] 
 	public TreeLOD.State[] States; 
@@ -45,7 +45,7 @@ public class TreeLOD : LODComponent, IComparable<TreeLOD> // TypeDefIndex: 11691
 
 }
 
-public class TreeLOD.State // TypeDefIndex: 11692
+public class TreeLOD.State // TypeDefIndex: 11703
 {
 	public float distance; 
 	public Renderer renderer; 
@@ -62,7 +62,7 @@ public class TreeLOD.State // TypeDefIndex: 11692
 
 }
 
-private sealed class TreeLOD.<>c // TypeDefIndex: 11693
+private sealed class TreeLOD.<>c // TypeDefIndex: 11704
 {
 	public static readonly TreeLOD.<>c <>9; 
 
@@ -71,7 +71,7 @@ private sealed class TreeLOD.<>c // TypeDefIndex: 11693
 
 	public void .ctor() { }
 
-	internal int <.cctor>b__23_0(TreeLOD x, TreeLOD y) { }
+	internal int <.cctor>
 
 }
 

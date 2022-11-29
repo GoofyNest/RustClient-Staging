@@ -1,4 +1,4 @@
-public class PowerLineWireConnectionHelper : MonoBehaviour // TypeDefIndex: 12115
+public class PowerLineWireConnectionHelper : MonoBehaviour // TypeDefIndex: 12126
 {
 	public List<PowerLineWireConnectionDef> connections; 
 	public bool showgizmo; 

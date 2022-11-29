@@ -1,4 +1,4 @@
-public struct GetLeaderboardUserScoreCountOptions // TypeDefIndex: 9288
+public struct GetLeaderboardUserScoreCountOptions // TypeDefIndex: 9294
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <StatName>k__BackingField; 

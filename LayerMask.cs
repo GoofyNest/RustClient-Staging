@@ -1,4 +1,4 @@
-public struct LayerMask // TypeDefIndex: 3518
+public struct LayerMask // TypeDefIndex: 3519
 {
 	[NativeNameAttribute] 
 	private int m_Mask; 

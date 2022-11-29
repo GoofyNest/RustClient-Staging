@@ -1,4 +1,4 @@
-public class SprayCan : HeldEntity // TypeDefIndex: 10356
+public class SprayCan : HeldEntity // TypeDefIndex: 10364
 {
 	public const float MaxFreeSprayDistanceFromStart = 10;
 	public const float MaxFreeSprayStartingDistance = 3;
@@ -129,23 +129,23 @@ public class SprayCan : HeldEntity // TypeDefIndex: 10356
 	private static void .cctor() { }
 
 	[CompilerGeneratedAttribute] 
-	private void <FreePaintInput>b__20_0(BasePlayer ply) { }
+	private void <FreePaintInput>
 
 	[CompilerGeneratedAttribute] 
-	private void <FreePaintInput>b__20_2(BasePlayer ply) { }
+	private void <FreePaintInput>
 
 	[CompilerGeneratedAttribute] 
-	private bool <TrySnapPointToRenderMesh>g__HitPoint|33_0(Renderer forRenderer, out Vector3 trySnapPointToRenderMesh, ref SprayCan.<>c__DisplayClass33_0 ) { }
+	private bool <TrySnapPointToRenderMesh>g__HitPoint|33_0(Renderer forRenderer, out Vector3 trySnapPointToRenderMesh, ref SprayCan.<>c
 
 	[CompilerGeneratedAttribute] 
-	private void <OnInput>b__65_0(BasePlayer ply) { }
+	private void <OnInput>
 
 	[CompilerGeneratedAttribute] 
-	private void <OnInput>b__65_1(BasePlayer ply) { }
+	private void <OnInput>
 
 }
 
-private enum SprayCan.SprayFailReason // TypeDefIndex: 10357
+private enum SprayCan.SprayFailReason // TypeDefIndex: 10365
 {
 	public int value__; 
 	public const SprayCan.SprayFailReason None = 0;
@@ -157,7 +157,7 @@ private enum SprayCan.SprayFailReason // TypeDefIndex: 10357
 
 }
 
-public enum SprayCan.SprayMode // TypeDefIndex: 10358
+public enum SprayCan.SprayMode // TypeDefIndex: 10366
 {
 	public int value__; 
 	public const SprayCan.SprayMode FreeHand = 0;
@@ -165,7 +165,7 @@ public enum SprayCan.SprayMode // TypeDefIndex: 10358
 
 }
 
-private sealed class SprayCan.<>c__DisplayClass20_0 // TypeDefIndex: 10359
+private sealed class SprayCan.<>c__DisplayClass20_0 // TypeDefIndex: 10367
 {
 	public int index; 
 	public SprayCan <>4__this; 
@@ -173,11 +173,11 @@ private sealed class SprayCan.<>c__DisplayClass20_0 // TypeDefIndex: 10359
 
 	public void .ctor() { }
 
-	internal void <FreePaintInput>b__1(BasePlayer ply) { }
+	internal void <FreePaintInput>
 
 }
 
-private sealed class SprayCan.<>c__DisplayClass20_1 // TypeDefIndex: 10360
+private sealed class SprayCan.<>c__DisplayClass20_1 // TypeDefIndex: 10368
 {
 	public int index; 
 	public SprayCan <>4__this; 
@@ -185,11 +185,11 @@ private sealed class SprayCan.<>c__DisplayClass20_1 // TypeDefIndex: 10360
 
 	public void .ctor() { }
 
-	internal void <FreePaintInput>b__3(BasePlayer ply) { }
+	internal void <FreePaintInput>
 
 }
 
-private struct SprayCan.<>c__DisplayClass33_0 // TypeDefIndex: 10361
+private struct SprayCan.<>c__DisplayClass33_0 // TypeDefIndex: 10369
 {
 	public SprayCan <>4__this; 
 	public BasePlayer player; 
@@ -197,7 +197,7 @@ private struct SprayCan.<>c__DisplayClass33_0 // TypeDefIndex: 10361
 
 }
 
-private sealed class SprayCan.<>c__DisplayClass65_0 // TypeDefIndex: 10362
+private sealed class SprayCan.<>c__DisplayClass65_0 // TypeDefIndex: 10370
 {
 	public ItemSkinDirectory.Skin skin; 
 	public SprayCan <>4__this; 
@@ -205,11 +205,11 @@ private sealed class SprayCan.<>c__DisplayClass65_0 // TypeDefIndex: 10362
 
 	public void .ctor() { }
 
-	internal void <OnInput>b__2(BasePlayer ply) { }
+	internal void <OnInput>
 
 }
 
-private sealed class SprayCan.<>c__DisplayClass66_0 // TypeDefIndex: 10363
+private sealed class SprayCan.<>c__DisplayClass66_0 // TypeDefIndex: 10371
 {
 	public SprayCan <>4__this; 
 	public BaseEntity targetEntity; 
@@ -217,7 +217,7 @@ private sealed class SprayCan.<>c__DisplayClass66_0 // TypeDefIndex: 10363
 
 	public void .ctor() { }
 
-	internal void <OpenReskinOptions>b__0(bool confirmed, int skinId) { }
+	internal void <OpenReskinOptions>
 
 }
 

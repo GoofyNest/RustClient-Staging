@@ -1,4 +1,4 @@
-public struct SetGameSessionIdOptions // TypeDefIndex: 9797
+public struct SetGameSessionIdOptions // TypeDefIndex: 9803
 {
 	[CompilerGeneratedAttribute] 
 	private Utf8String <GameSessionId>k__BackingField; 

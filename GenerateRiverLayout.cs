@@ -1,4 +1,4 @@
-public class GenerateRiverLayout : ProceduralComponent // TypeDefIndex: 12243
+public class GenerateRiverLayout : ProceduralComponent // TypeDefIndex: 12255
 {
 	public const float Width = 36;
 	public const float InnerPadding = 1;
@@ -16,7 +16,7 @@ public class GenerateRiverLayout : ProceduralComponent // TypeDefIndex: 12243
 
 }
 
-private sealed class GenerateRiverLayout.<>c // TypeDefIndex: 12244
+private sealed class GenerateRiverLayout.<>c // TypeDefIndex: 12256
 {
 	public static readonly GenerateRiverLayout.<>c <>9; 
 	public static Comparison<PathList> <>9__8_0; 
@@ -26,7 +26,7 @@ private sealed class GenerateRiverLayout.<>c // TypeDefIndex: 12244
 
 	public void .ctor() { }
 
-	internal int <Process>b__8_0(PathList a, PathList b) { }
+	internal int <Process>
 
 }
 

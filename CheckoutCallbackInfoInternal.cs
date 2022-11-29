@@ -1,4 +1,4 @@
-internal struct CheckoutCallbackInfoInternal : ICallbackInfoInternal, IGettable<CheckoutCallbackInfo>, ISettable<CheckoutCallbackInfo>, IDisposable // TypeDefIndex: 9418
+internal struct CheckoutCallbackInfoInternal : ICallbackInfoInternal, IGettable<CheckoutCallbackInfo>, ISettable<CheckoutCallbackInfo>, IDisposable // TypeDefIndex: 9424
 {
 	private Result m_ResultCode; 
 	private IntPtr m_ClientData; 

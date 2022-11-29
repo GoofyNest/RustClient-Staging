@@ -1,4 +1,4 @@
-public class ViewShake // TypeDefIndex: 10975
+public class ViewShake // TypeDefIndex: 10985
 {
 	[CompilerGeneratedAttribute] 
 	private Vector3 <PositionOffset>k__BackingField; 
@@ -32,7 +32,7 @@ public class ViewShake // TypeDefIndex: 10975
 
 }
 
-private sealed class ViewShake.<>c // TypeDefIndex: 10977
+private sealed class ViewShake.<>c // TypeDefIndex: 10987
 {
 	public static readonly ViewShake.<>c <>9; 
 	public static Predicate<ViewShake.ShakeParameters> <>9__11_0; 
@@ -42,7 +42,7 @@ private sealed class ViewShake.<>c // TypeDefIndex: 10977
 
 	public void .ctor() { }
 
-	internal bool <Update>b__11_0(ViewShake.ShakeParameters i) { }
+	internal bool <Update>
 
 }
 
